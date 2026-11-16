@@ -1,0 +1,49 @@
+{
+  "format": "r150-local-execution-manifest-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssistance": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-mean-three-minor-complete-degree-five-gate-789f.py",
+    "blob": "0662cb684abcb5ea5e687f8ff6c3410a4aef3fd0",
+    "bytes": 9729,
+    "sha256": "cfcb145d0090e425b30188d33e1bbe8ab5b216811ba12c83213aad2b3d0579c2"
+  },
+  "parameters": {
+    "argv": [
+      "--mean-out",
+      "{work}/original-six-mean-ten-generator",
+      "--out",
+      "{work}/original-mean-three-minor-gate",
+      "--seconds",
+      "120",
+      "--memory-mib",
+      "1024"
+    ],
+    "seconds": 120,
+    "memoryMiB": 1024,
+    "pythonFlint": "0.9.0"
+  },
+  "completedUtc": "2026-11-16T05:49:39.719654+00:00",
+  "execution": {
+    "startAndCompletionChunk": "44c5fb",
+    "exitCode": 0,
+    "elapsedSeconds": 0.6418023309961427,
+    "maxResidentKiB": 38260,
+    "binding": "49cec78fbc0845655333ef7dc4b6614d0a02eb1adbdd9ba82554cfd9ada16edd"
+  },
+  "outputs": {
+    "receipt": {
+      "path": "original-mean-three-minor-gate-receipt.json",
+      "bytes": 1416,
+      "sha256": "f5885f44cdfef507a68f9a82a732b014d276467d8624e5a4c25eb927b957a376"
+    },
+    "model": {
+      "bytes": 16989,
+      "logicalBytes": 42618,
+      "logicalSha256": "1a714682b89b903e7f1c9dbd1eebee799eff29db096caacc5f2bb649a6c5d740",
+      "path": "complete-original-mean-three-minor-gate.json.gz",
+      "sha256": "0758cde1aea1561d6c15c09be9bcd624fc872fd18b36b5d05888e5d5863b00c7"
+    }
+  },
+  "persistence": "No computed matrices or raw receipt are committed."
+}

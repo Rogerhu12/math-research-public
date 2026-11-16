@@ -1,0 +1,126 @@
+# The original mean coefficient matrix has rank at least three at every nonzero mean
+
+Author: Astra-ISP-789f / normal_annihilator.  
+AI-assisted: GPT-6 Astra Pro.  
+Date: 2026-11-16.
+
+## 1. The exact original coefficient matrix
+
+Use the matched cubic field $E$ and the actual four symmetric matrices $T_1,\ldots,T_4\in E^{6\times6}$ from
+[R150-appendix-complete-six-mean-relations-and-nine-bell-normalized-generators.md](R150-appendix-complete-six-mean-relations-and-nine-bell-normalized-generators.md).
+
+The six complete original mean relations in the actual ten moment-module generators have the form
+$$
+\widehat G=a(y,w)+L(y,w)u+\sum_{\ell=1}^4T_\ell y\,v_\ell,
+$$
+with
+$$
+(v_1,v_2,v_3,v_4)=(u_1u_4,u_2u_3,u_2u_4,u_3u_4).
+$$
+Their quadratic coefficient matrix is
+$$
+M(y)=[T_1y\ \ T_2y\ \ T_3y\ \ T_4y]\in E[y]^{6\times4}.
+$$
+
+The new conclusion is the exact ideal equality
+$$
+\boxed{I_3(M(y))=(y_0,\ldots,y_5)^3.}
+\tag{1}
+$$
+In particular, over every field extension of $E$,
+$$
+y\ne0\quad\Longrightarrow\quad\operatorname{rank}M(y)\ge3.
+\tag{2}
+$$
+This does not assert rank four at all nonzero means.
+
+## 2. Complete cubic source calculation
+
+There are exactly
+$$
+\binom63\binom43=80
+$$
+original $3\times3$ minors of $M(y)$. Every minor is homogeneous cubic in the six original mean coordinates. The calculation retains every original row triple and column triple and all $56=\binom83$ cubic output monomials.
+
+Consider the full constant coefficient map
+$$
+E^{80}\longrightarrow E[y]_3,\qquad
+e_\ell\longmapsto m_\ell(y),
+\tag{3}
+$$
+where the $m_\ell$ are those eighty original minors. The new exact rank witness proves that (3) has rank $56$.
+
+Consequently every degree-three monomial has a fixed original source identity
+$$
+y^\alpha=\sum_{\ell=1}^{80}c_{\alpha\ell}m_\ell(y),
+\qquad c_{\alpha\ell}\in E,\quad|\alpha|=3.
+\tag{4}
+$$
+All $c_{\alpha\ell}$ can be taken from the same selected $56$ original minor columns using their constant adjugate/determinant inverse. No mean parameter occurs in that denominator.
+
+The inclusion from right to left in (1) follows from (4). The reverse inclusion follows because every generator $m_\ell$ is cubic. This proves the equality, not merely equality of radicals.
+
+## 3. Actual original field witness
+
+The input is the complete previously verified four-matrix file, checked by its full compressed SHA-256, full logical SHA-256 and original semantic binding. All $144$ exact matrix entries are retained.
+
+The coefficient specialization uses prime $127$ and the actual root $d=100$ of the matched cubic. Every rational coefficient denominator is verified to be a unit. The matrices are fixed $E$ constants; this specialization fixes no mean, moment or Bell parameter.
+
+The full $56\times80$ minor coefficient matrix has rank $56$. Its selected original $56\times56$ determinant is $56$ modulo $127$. Both inverse identities are verified in all $6272=2\cdot56^2$ coordinates. Therefore the selected original determinant is nonzero in $E$, proving the rank statement in (3).
+
+The eighty full cubic expansions are assembled by the six signed permutations of the determinant. An independent direct determinant check at seven fixed vectors verifies $560$ evaluations. These evaluations audit the implementation; the proof retains the full coefficient matrix and all eighty original minors, rather than inferring a polynomial identity from those seven evaluations.
+
+The executable allowed complete degree-four and degree-five maps if needed. They were unnecessary: the degree-three map was already full.
+
+## 4. A complete cover of the Bell-normalized base
+
+On
+$$
+B_1=E[y,w]/(y\cdot w-1),
+$$
+equation (4) gives an explicit unit-ideal identity among the original minors. Indeed,
+$$
+1=(y\cdot w)^3
+ =\sum_{|\alpha|=3}\frac{3!}{\alpha!}w^\alpha y^\alpha
+ =\sum_{\ell=1}^{80}b_\ell(w)m_\ell(y),
+$$
+where
+$$
+b_\ell(w)=\sum_{|\alpha|=3}\frac{3!}{\alpha!}
+c_{\alpha\ell}w^\alpha.
+\tag{5}
+$$
+Thus the eighty principal open sets on which one of the original $3\times3$ minors is invertible cover the entire Bell-normalized parameter scheme. The coefficients in (5) are cubic in $w$ and use only fixed elements of $E$.
+
+This is a source identity for the rank condition on the original coefficient matrix. It does not assert that the minors themselves belong to the full critical ideal.
+
+## 5. Consequence for the complete original critical quotient
+
+The original eleven moment-gradient ideal has ten parameter-module generators
+$$
+1,\ u_0,\ldots,u_4,\ v_1,v_2,v_3,v_4
+$$
+and has full cubic leading image, as proved in
+[R150-appendix-original-eleven-moment-ideal-has-ten-parameter-module-generators.md](R150-appendix-original-eleven-moment-ideal-has-ten-parameter-module-generators.md).
+
+On each principal open set in the cover (5), three of the six complete original mean relations eliminate three of the four quadratic generators. Therefore the full original critical quotient is generated by at most seven elements over that localized parameter ring. All remaining relations and all ideal products remain in the quotient.
+
+Equivalently, for every parameter point with $y\ne0$, the leading quadratic image has dimension at least $11+3=14$ inside the fifteen-dimensional space of quadratics in $u$. Every cubic is already in the leading moment image. The corresponding filtered fiber algebra therefore has vector-space dimension at most
+$$
+1+5+(15-14)=7.
+$$
+Where $M(y)$ has rank four, the same argument gives the sharper bound $6$.
+
+These are local generator and fiber-length upper bounds. They are not a declaration of a globally free rank-seven algebra, nor of exact length seven, nonemptiness or emptiness. In particular, no fixed set of three quadratic generators is asserted to work on every parameter point.
+
+## 6. Actual execution and reproduction
+
+The complete consumer finished on 2026-11-16 at 05:49:39 UTC, exit code $0$, elapsed $0.6418023309961427$ seconds. The budget was $120$ seconds and $1024$ MiB; actual maximum resident memory was $38260$ KiB.
+
+Source: notes/2026-11-16-r150-original-mean-three-minor-complete-degree-five-gate-789f.py. Blob 0662cb684abcb5ea5e687f8ff6c3410a4aef3fd0. Size $9729$ bytes. SHA-256 cfcb145d0090e425b30188d33e1bbe8ab5b216811ba12c83213aad2b3d0579c2.
+
+The execution binding is 49cec78fbc0845655333ef7dc4b6614d0a02eb1adbdd9ba82554cfd9ada16edd. The complete $1416$-byte receipt has SHA-256 f5885f44cdfef507a68f9a82a732b014d276467d8624e5a4c25eb927b957a376.
+
+The complete temporary minor/source/unit model has $16989$ gzip bytes, SHA-256 0758cde1aea1561d6c15c09be9bcd624fc872fd18b36b5d05888e5d5863b00c7. Its $42618$ logical bytes have SHA-256 1a714682b89b903e7f1c9dbd1eebee799eff29db096caacc5f2bb649a6c5d740.
+
+The execution identity is notes/r150-nonrankone-execution-789f/20261116-local-original-mean-three-minor-gate.json. Only executable source, parameters, execution identity/output hashes and this proof are committed. All computed matrix arrays are temporary.

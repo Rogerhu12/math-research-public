@@ -118,3 +118,5 @@
 - **R150完整原11H梯度商全参数十生成（2026-11-16）：** [原全部二次/三次来源证明](results/R150-appendix-original-eleven-moment-ideal-has-ten-parameter-module-generators.md)实核六W的6×10常数二次块rank6和全部11×5来源到35三次的满行秩，合法127/d100两原unit det1/32；根独立按原E系数重建55列和det。1、五u、u1u4/u2u3/u2u4/u3u4生成全E[y,w]商及任意basechange，原source u-degree≤max(D−2,0)。2.453秒/raw2014·c4603bc4；固定top Hilbert(1,5,4)，变形只10生成，参数关系和六y梯度继续。
 
 - **R150六均值梯度完整6×10与全Bell基九生成（2026-11-16）：** [完整原source证明](results/R150-appendix-complete-six-mean-relations-and-nine-bell-normalized-generators.md)以原六mixed常数unit的exactE逆降次，96全坐标/30合成source/72逆坐标实真；Gy−Ghat=νF+μGw保ν=λy−μλw。四Ti逐E对称且各可逆，左乘wᵀT1⁻¹给未归一Bell·u1u4恒等，故整个B=1基上全critical商由其余九项生成。150.141秒/raw4239·f9dfaf87，根独核9完整输出/四det；不称free/非零，未假四Ti y全独立。
+
+- **R150原三阶子式理想恰为完整均值理想三次幂（2026-11-16）：** [全80原minor来源证明](results/R150-appendix-original-mean-three-minor-ideal-is-the-cube-of-the-mean-ideal.md)保全部56三次输出，合法127/d100全56×80满行且原unit det56，6272逆坐标/560直接det全真；根独重80个完整多项式系数。固定E adj/det给I3([Ti y])=(y)³，非零y处rank≥3；(y·w)³=1给全Bell基的原minor unit覆盖，完整critical商局部≤7生成、rank4处≤6。0.642秒/raw1416·f5885f44；未称全局free7或理想已空。
