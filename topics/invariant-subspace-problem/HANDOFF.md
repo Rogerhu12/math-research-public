@@ -3,12 +3,12 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** d80c91ec8b7ec651abaf2aba7fa1a8a6165c47c1（2026-11-16 07:04:42 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0704-global-nine-presentation.json。
+- **最近成功实际 pull 与已读规则提交：** 323f36fefc0380898aa1e3c0f195e08a32f1fbc1（2026-11-16 07:07:36 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0707-adjoint-feedback-lift.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地仓库/workspace/scratch/789f3e887d7c/math-research-public；exec必须显式workdir/login:false。Actions bot push403，现授权CLI真pull/push，API source不算push。根无凭证脚本/tmp/isp-stage-conclusion-789f.py及/tmp/isp-local-publish-789f.py；PAT只在调用环境。稀疏缺文件先git show，git add --sparse。
-- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-global-nine-presentation-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
+- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-adjoint-feedback-lift-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
 
 ## R150原rank-one：精确系数结果与接续
 
@@ -44,8 +44,9 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、负前缀/未来、全部parti
 - 正commutator K=I+T*T−TT*为核外creation平方、0≤K≤hI；同t付实际新源整行≤Vsharp≤Δ²，尚非固定u范数行。
 - [双恢复反馈](results/R271-appendix-one-bit-restored-adjoint-feedback-and-weighted-projection-return.md)：σ=(bi/si)HiCa1、α=(bi/si)C*Hi a1的原三投影行各≤4Vg；Hi a0−g=−α。指定σ的creation投影交换原权合成≤11√S√Vg，保Q+1输出/无限源域。
 - [共同H0反馈行收缩](results/R271-appendix-large-auxiliary-variance-common-source-row-contraction-and-physical-return.md)：固定t=xS/H0，Σ(Ai*G0Ai+Si*G0Si)≤36G0/x，x≥64/h≤2x；固定模型词平方能量可和。loss、EiFi、恢复原ε0/x预算及指定creation返回≤30√(Sε0/x)真。顺次硬化改C/Gram，不自动代真实MP树。
-- **[原方差完整返回及aux清零](results/R271-appendix-native-variance-one-bit-restoration-and-auxiliary-clearing-pairing.md)：** 直接t=0保H≤Hi≤e8H、GE≤e8Hi⁻¹，F1=ΣjEj≤2xΔ²；Σloss+gain≤e8F1，两反馈各≤8e16F1。共同Fock的aux-vacuum交给精确投影损失≤Δ²，整个一位包aux→0原权差≤Δ/x。native全Σbi ci[P_U,Ei]Fi及Q−1相邻包≤(e4+2)Δ/x（相邻Q≥R+h+2）；保原K反馈/无限自然合成域。仍是逐位bosonic最小后同物理压缩，不是全硬核/原帽MP预算。boundary_core续实际adjoint-D合法原像与帽度量运输。
+- [原方差完整返回及aux清零](results/R271-appendix-native-variance-one-bit-restoration-and-auxiliary-clearing-pairing.md)：t=0保H≤Hi≤e8H、GE≤e8Hi⁻¹，F1≤2xΔ²；loss+gain≤e8F1、两反馈各≤8e16F1。aux-vacuum交准确损失≤Δ²，全包清零差≤Δ/x；native全Σbi ci[P_U,Ei]Fi及Q−1相邻包≤(e4+2)Δ/x（Q≥R+h+2）。全部K反馈/无限域保；余位仍bosonic后同物理压缩，尚非全硬核/帽MP预算。
+- **[原相邻旗adjoint-D完整首反馈原像](results/R271-appendix-adjacent-flag-adjoint-deletion-range-and-complete-feedback-lift.md)：** A_V/U=D|V_Q/U_Q目标Vprev，A_K目标Kprev；真实D旗包含和低forcing给A_E* Z_target g=−ZE C*g。Σbi ci ZEα_i严格在Ran A_E*，完整原像−Σu_i ci Z_target ri，范数≤2e8√(F1/x)≤3e8Δ，故真MP最小亦同界，无闭值域假设；Q≥R+h+2。保未压缩余项(I−PE)D*X，未认作Dn*/帽逆；σ次序另需来源。boundary_core续全负部配对及原partial测试归属。
 
-- [创建合成与相邻返回](results/R271-appendix-adjoint-creation-synthesis-and-common-source-adjacent-flag-return.md)：真creation块Gram=deletion块+diag((G−2Mi)/(i+1))，c_x=4/3+1/(x+1)；公共F0删除范数行≤2Vg，相邻旗配对≤√(2c_x)Δg,QΔa,Q−1+(1+√2)||a||Δg,Q/√(x+1)，标准m≥1/Q≥4d。
+
 - [准确同w相邻整行](results/R271-appendix-canonical-strong-head-forcing-and-same-w-adjacent-return-row.md)：原P_x强趋I，真Q孔κ≤1+log(1+Q/x)，行≤||w||τ_x/√(x+1)+√κ(τ_x²+4e−6d⁴||w||²)。全原母窗有效；无尾速率也能同w选Q/h→∞、Q≤8d²+1使行→0，但此一阶行无非零锚，未代MP/Haar桥。
 - 普通封口仍需same-w合并负部≤c_m Q||F_mu||²且Σ1/c_m发散，尚无完整界。旧物理Chebyshev logQ=35d⁴/6仍超26d³母窗，z2仍留Cq2。原G_reg/carry、Haar普通循环、正常有限秩链和归档其它open继续。

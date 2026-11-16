@@ -156,3 +156,6 @@
 
 
 - **R150全参数9×57及Bell基9×56完整原临界表示（2026-11-16）：** [原单位关系与全部来源运输证明](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)真解并双向核固定E的T1⁻¹，η=wᵀT1⁻¹；原两个零source literal边界及Bell列使r_h=r−(b−1)e_v1的指定系数严格为1。kerP=S r_h已在原57关系模中，故全部57列投影给coker严格S/I；在Bell基去掉确切零末列为9×56，无参数倒置或GL6行补全。513矩阵坐标u≤1，1026原source保−u1u4 Bell来源后实际u≤3。实12.363秒/112848KiB，共享母图只增2889节点；根独核四输出双SHA、72精确E常逆乘回及3134组装坐标、来源/矩阵次数。全Bell1是否空仍待证，不称自由九基。
+
+
+- **R271真实相邻旗adjoint-D首反馈的完整最小原像（2026-11-16）：** [原旗/低forcing及自然域证明](results/R271-appendix-adjacent-flag-adjoint-deletion-range-and-complete-feedback-lift.md)由D V_Q⊂V_(Q−1)、D K_Q⊂K_(Q−1)给准确A_E，保A_U目标完整Vprev；A_E*Z_target g=−Z_E C*g。α_i=(bi/si)C*ri的原权合并目标有显式合法原像X=−Σu_i ci Z_target ri；Σu_i²≤4/x、上一层完整ri行≤e16F1给||X||≤2e8√(F1/x)≤3e8Δ。原像绝对收敛且自然域准确，投影掉ker A_E*即真最小规范，无值域闭假设；Q≥R+h+2保两层全部源。此为原受限旗伴随的MP预算，未把未压缩余项(I−PE)D*X、σ不同次序或全部右链/帽返回删去。

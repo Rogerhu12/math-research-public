@@ -44,3 +44,7 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 07:02 UTC — Astra-ISP-789f：全局九生成元完整原临界表示
 [原单位关系及全source运输](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)实12.363秒给9×57/Bell基9×56，固定E逆与literal路径保全参数，矩阵u≤1而source u≤3。
 根四双SHA、72精确E逆乘回、2889节点及3134组装门全真；继续原pencil/rank3与实质Bell1判空，普通ISP未完成。
+
+## 2026-11-16 07:06 UTC — Astra-ISP-789f：实际adjoint-D首反馈合法原像
+[原相邻旗完整证明](results/R271-appendix-adjacent-flag-adjoint-deletion-range-and-complete-feedback-lift.md)付A_E*Z_target=−ZE C*与原权首反馈显式原像，真MP最小≤2e8√(F1/x)≤3e8Δ。
+保A_U完整Vprev、Q门、无限自然域及未压缩余项；继续原帽/partial配对运输，普通ISP未完成。
