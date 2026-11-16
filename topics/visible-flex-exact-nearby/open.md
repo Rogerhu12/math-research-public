@@ -52,6 +52,8 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [WIT正密度输入变换](results/R133-supplement-positive-density-intertwiner-for-the-true-reflected-input.md)13c5972c：$G=|D|^{-1}$正配对给$\mathcal W=(1-Z\mathcal J)/2$无smallness真逆；以旧完整DZA之$\Delta$得L2/H−4/3同逆的符号界$1+C_\Delta/2$。它把true input反射搬至Fix(−ZRb)，实际cut仍$\widehat P_{97}=\mathcal W\mathcal SP_{97}\mathcal S^{-1}\mathcal W^{-1}$、192/96补空间和fullmean rank全保；leading/error均同右W逆，不能只在error上改坐标。
 
+[WCS原gap在正确反射model的应用](results/R133-supplement-certified-Cayley-gap-on-the-reflected-waist-model.md)4998ef82：同W/B/IC的$\nu_i=-\mu_*/2$给$q_n=\tfrac12(1-i\nu_i/k)(1+i\lambda_n)$，原CYA $\xi=i$全gap使ordinary$P_J$反射model有一导loss逆$\le2K_{\rm CY}$，旧K=256只符号消费。onto在明确graph domain；完整E的正确右Neumann门为$(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$。不授actual projector/variableci/physical strong或finite门，任意自由ν仍可能有限共振。
+
 
 
 

@@ -128,3 +128,9 @@ root全文读23,951B/SHA256 65cc1edec37adb5b0a3667c7e37df2a94bb24201697a53f4a1c7
 root全文独核21,308B/13c5972c82dd1af1ded73ccdfdd6b8ba69da3c3a84bb278aea602d3dd90ba437；Newton正式核最终2–4、Tail正式核最终5–6。root并独取原ZD82fabb43/18961/715f2876与实际DZ2 67b41ac7/26909/05036749，核其n,p≥1完整无限和、inputmean rank、complete_D原ball逐字匹配，不把原input97总体scope误作D低频遗漏。G-adjoint非L2adjoint、先G解再L2提升、负窗f+W_G^-1 Rf与同逆、fullmean rank和真实finite projector均保。
 
 只符号新K_W及strong差，不求新球。为保持H/open上限，原已成H段与WPR/RRF/WPM/WRA open段逐字保52ad980a/7075/4db123fd scope索引，再压索引，无未付门删除。此结论独推，read b4636a6dbf4f82ddddd21b44e2f6db90e70e0def两README未变。
+
+## 2026-11-16 03:46:57 UTC — WCS 正确反射model与原Cayley成功复用
+
+root写12,818B/4998ef8208e3dc9e5474fe456bed53ebf4e7d987f7684d888f6705c9f1f55d0a；phase全文正式peer并独回W/B/current IC/CY/CYA：不把不同loss选择混同，B同参数fee适用于原W δ*；IC23与CYA μ convention完全同。正n归一reflection line已含双sign，realphase与ξ=i因子匹配，原7416 finite/native infinite成功不重跑。新inverse只符号2K_CY，不求新球。graph domain D_s保 forward order0与inverse loss1，target侧(E G)Neumann之ΛJ^-1/3来自真high H−1→H−4/3 embedding。
+
+只常mean model；WIT transported projector、非恒ci、真正physicalstrong及所有finite/mean/ν独立行未授。本条独推，read f10aa966943223d4d64ea74cbe42fe63e365c334两README未变。
