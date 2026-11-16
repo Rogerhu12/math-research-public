@@ -42,6 +42,8 @@
 
 **[R535](results/R535-original128-local-finite-root-words-and-real-compiler-hook.md)/[接口](notes/2026-11-16-native-root-finite-words-owner-compiler-interface.md)五件56753B本次完整刊**：同一个真实root的momentum/pt/P/Pt有限词及一次evaluation的U系数局部复用，保原表达式/j序/全角点/mean/非finite fallback，条件证明原完整root/RHS/RK/native字词与选择；不保证时间前沿、NaN payload或收益。新18计数/last真打印，原reader尚未选入；真实编译API在同owner_scope接新include，原CPP7789/main/replay/6000/19200不改，旧whole-frozen旗明确false。R536/226继续实际caller/source/reader闭包和原全门，不从R509已删state续父。
 
+**[R540/228](results/R540-complete39-lossless-semantic-relations-original-eight-pair-entry.md)/[接口](notes/2026-11-16-request228-complete39-lossless-semantic-relations-interface.md)七件本次完整刊**：114public+6生成=120保原223全部116，当前helper75760/bb02与worker29708/ea2d在真HERE实际接R533，原f793 compose无输入schema guard，旧223格式名与真实228 run/source分清。原八39/98原父/完整freshFD/全部门/10500/175/195min/90K70/owned quiet保持；normal/recovery同一新表示，overflow只具名大小，成功后cleanup补实际comp到sys.path且不改范围/规则。R541 exact唯一读者，单次官方dispatch完成后另绑实际run/head；当前没有新数值或fit保证，不以来源120推无限动态闭包。
+
 ### 1.3 当前128权威解与完整64模型
 
 [R529](results/R529-current-owner128-complete64-model-and-original-nonlinear-gates.md)28476/f930已刊完整纸证：同次X128全577×224一次RN64、同实际DN全576×226×224/port/两mean形成明示近似模型；有限64字准确嵌入128。原128值/residual/replay/audit仍权威；重新anchor L(H)=D(H)保原最终真实BC1e−11/RMS1e−6/fresh J+audit责任。完整338mixed J可随新模型变，FD只检affine一致性，不证DD；不新增全解析门，无J误差/收敛/速度保证。c218旧fixed64禁止/false及R501旧全128stage绑定不能冒用。
