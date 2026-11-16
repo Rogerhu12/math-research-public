@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读；最新真实pull为p32 run43804573954/report job133095041106，公开04:40:07.438983→04:40:10.489559 UTC，ab1ba331a1d376d61e6e9f9b7f29f2bb9221a1e2→已读 **27a479dece2256eea19b86be85080c4a91963fd5**，rc0、双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **05:40:07 UTC**；有变只读差异即执行/记SHA。每结论即推，NFF立即实际rebase后续推，不force；此前拒绝已由03:49纯规则pull解除，详log。
+根/题README已全文读；最新actual双pull为纯规则run43779613612/job133110913660（0研究/开发）。公开05:29:04.696521→05:29:05.820397 UTC，7bfb32a3319a25e5fa24b7a2783da880a7e4db65→已读 **a7e6149e8407b86ac1e34acceded2f789288166d**，rc0、双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **06:29:04 UTC**；有变只读差异即执行/记SHA。每结论即推；NFF立即真实rebase后续推，不force。
 
-私有同job04:40:13.846911→04:40:14.699739，before=after **441751f3124e5f8c23a8896c01c28c687306c20e**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。research job的04:31实际双pull及规则空差也已读，四收据见最新actual note。私有内容不发表。
+私有同job05:29:07.867783→05:29:08.429080 UTC，before=after **f6980de01bfd941d554520979750d059ed2e30fa**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前p32 research/report四真实pull与所有旧拒绝处理保log/actual note；私有内容不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不重付已完研究，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端04:29再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
