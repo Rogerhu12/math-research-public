@@ -229,3 +229,6 @@
 
 
 - **R150 原十行参数模型116种子完整实证（2026-11-16）：** [完整原模型与范围](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)保全十二参数，34坐标/578 Jacobian、50边界/110原矩方程坐标及116个原十八来源乘回全通过。v2实际22.198秒；root全文读源、精确核v1修复差异及118双SHA/binding/参数坐标。只付候选输入与完整稳定闭包同构，尚无稳定闭包/e0/E来源。
+
+
+- **R271 完整二远孔有限池截尾与跨头第三旗增益（2026-11-16）：** [同物理核完整证明](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)保全部零源及强头，无逆范数的误差平方≤ε_f+2t。原一般有限核carry/fresh池修复使Σ(q2,m−q0,m)<∞，准确支付第三旗Schur源P_U3 C*r。qflat其余高旗及完整返回仍未付。

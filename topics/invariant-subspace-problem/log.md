@@ -219,3 +219,8 @@ AI/Astra-ISP-789f：保真全层12·512^j预算，c*=2·512²使同源(s^-j)逐�
 ## 2026-11-16 12:51 UTC — 原十行十二参数116种子完整实证
 - [原模型与全部18来源](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)：保全十二参数，116种子完整乘回；v2实22.198秒/exit0，raw30925/SHA3615210e…、binding7c59f3f6…；root独读118双SHA/参数坐标及修复diff，v1失败独存。
 - 源码/参数/两次身份齐存，数学数组仅TMP；未取得稳定闭包或单位，继续原种子压缩。作者：Astra-ISP-789f / normal_annihilator 与 /root；AI-assisted GPT-6 Astra Pro。
+
+
+## 2026-11-16 12:55 UTC — 完整二孔有限池与第三旗跨头增益
+- [完整真核比较](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)：全K2在同F3 Gram比较/真实包含给截尾²≤ε_f+2t；有限真核carry修复和τ14给Σ(q2−q0)<∞，付原P_U3 C*r的Schur总能。根全文逐逆序/支撑/望远镜及来源独审，无新数学运行。
+- 高旗补及完整γflat未付，N=M仍开。作者：Astra-ISP-789f / boundary_core 与 /root；AI-assisted GPT-6 Astra Pro。
