@@ -325,12 +325,12 @@ $$
 
 从每个已选目标球中取一个真实目标点，连同原真实见证构成有限关系 $\mathcal R_0$。每个顶点的两边真实点距所用中心之和不超过 $s_v\le E$。因此对任意两个有限关系元素 $(x_v,y_v),(x_w,y_w)$，
 
-$
+$$
 \big||x_v-x_w|-|y_v-y_w|\big|
 \le2L_*+2s_v+2s_w+\omega
 \le2L_*+4E+\omega.
 \tag{526.18}
-$
+$$
 
 对这些元素取上确界，得到 $\operatorname{dis}\mathcal R_0\le2L_*+4E+\omega$。
 
