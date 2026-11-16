@@ -196,3 +196,7 @@ $O(r^2N\log\ell)$ 位；三份旧解只需 $O(3(2d)N\log\ell)$ 位。
 固定同一 Sage10.6 镜像、无网容器、只读源码、具名容器退出清理及 source/run/两README身份。
 所有数学代码仅在公开 Actions 执行；本地只作源码与文字编辑。
 按根规则15，保源码、参数、run和结果hash，不保存可重算矩阵、系数或证书。
+
+## 7. 实际公开执行
+
+source92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9 触发 [run43903661921](https://github.com/Rogerhu12/math-research-public/actions/runs/43903661921)，job133426625444，2026-11-16 16:05:48 UTC创建。16:07 UTC已亲读数学步骤运行；尚无结果，不先记PASS。实际选定素数、各精度及输出hash须等公开日志完成后登记。

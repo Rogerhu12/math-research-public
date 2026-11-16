@@ -43,6 +43,8 @@ R863/H22、R876/879、R884A–I 已付全部原 norm-three/norm-two trace、old/
 ## O5. 外部强声称核查：已付范围
 
 R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论证不否定主问题。R240 的原 polyquadratic plectic 输入不能直接用于 rank≥2 的平凡特征投影。
+新检索的Wang2026完成声称，在Definition6.1/Proposition6.3/Theorem10.1所需K条件处矛盾：全部坏位split使w(E/K)=−1，并在原解析秩二时强制扭曲中心值0，见[完整符号反证](notes/2026-11-16-wang-rank-two-definite-sign-obstruction.md)。不据该外部声称关闭主目标。
+
 新 Do 双二次 CM 预稿正文 Theorem6.8.5 和证明仍要求指定底类非挠；导言省略不消除此门，见[原核查注](notes/2026-11-16-selfdual-hecke-preprint-rank-two-hypothesis-check.md)。
 
 ## 第一实际门：同原映射、真 RR 与完整 shadow
@@ -60,7 +62,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常完成：三嵌入秩904/free863，全部1226行modℓ¹²⁸为零，三根恢复过，但3827bits仍不足有理重建，未到char0证书。同ℓ1000000033/N256/k6续轮run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452已运行，原全部条件保持；只有最终原证书通过才认map。
 
 
-- [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：同原P的小分裂素数/精度续接完整已证：Sage10.6源码付LinBox模数上限94906266，CI在[1000000,1001000]内选首个合格素数；原完整1226×1056/三根/全基与char0末端不变，512→1024从已验向量真整除续接，底域chart只算一次。无高度界、无预报PASS；旧P256/F任务继续。
+- [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：同原P的小分裂素数/精度续接完整已证：Sage10.6源码付LinBox模数上限94906266，CI在[1000000,1001000]内选首个合格素数；原完整1226×1056/三根/全基与char0末端不变，512→1024从已验向量真整除续接，底域chart只算一次。无高度界、无预报PASS；旧P256/F任务继续。新run43903661921/job133426625444/source92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9已进入数学步骤，无PASS。
 
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120完整证书保；首run43898903977/job133409854237在数学开始前因runpy路径失败；修复source6a1a9b66b2a0cfaa9e8dbde3692ad3a023793af4的新run43899744213/job133412821010已进入数学步骤，无PASS。
 

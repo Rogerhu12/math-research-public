@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：e524b0cafc589ef0dd9fe9ef922195945d924f85；2026-11-16 16:05:39 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
+- 最近已读规则提交：1e0ecf187b6e282226833c6c45c5e94661a0a9b1；2026-11-16 16:09:24 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -26,7 +26,7 @@ root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀
 
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常结束：三嵌入rank904/free863及全部1226行modℓ¹²⁸均过，3827bits不足有理恢复，无map PASS；同ℓ1000000033/N256/k6续轮run43901392214/job133418654415运行，source7ef59c0d。
 
-- [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)同原P另请求小素数精确矩阵与512→1024续接；CI选合格素数，原全行/char0证书保持，尚无执行回执。旧P256继续。
+- [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)同原P另请求小素数精确矩阵与512→1024续接；CI选合格素数，原全行/char0证书保持，run43903661921/job133426625444运行，source92c23e42；无PASS。旧P256继续。
 
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120证书保；首run43898903977启动路径失误已修；新run43899744213/job133412821010数学步骤运行，无PASS。
 
@@ -68,4 +68,4 @@ R888合法整因子提升不改完整oR；R890全TF/adj/固定角/∞/Cech reade
 ## 其余原门与同步
 
 R834/836/837全部预算与R840同Kcorr/Hcorr高前缀、R842指定WT[b0]保完整H。真实未闭窗2κ<T≤3κ；V0,V1,V2∈VT及第四短行不付E稳定/同E³G高尾。EG=FA只在A|C0时返旧排块。
-R895同P/R/S不假oR0，得N_D−2s≥D+16+2j；≤D+15+2j仅排τ1 quartic p³，δ可负/三长另加s。R896逐p最小D低松弛集密度p11mod12中12/47、全素数3/47；只排该来源，不改固定D旗标或全K1。O4/O6/O7与通常全Sha主目标仍开。
+R895同P/R/S不假oR0，得N_D−2s≥D+16+2j；≤D+15+2j仅排τ1 quartic p³，δ可负/三长另加s。R896逐p最小D低松弛集密度p11mod12中12/47、全素数3/47；只排该来源，不改固定D旗标或全K1。O4/O6/O7与通常全Sha主目标仍开。Wang2026外部完成声称的K条件已由全坏位split⇒w(E/K)=−1严格排除，见对应11-16核查注。
