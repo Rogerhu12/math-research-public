@@ -8,15 +8,13 @@
 
 核心 $A=1,B=7/25,w_c=1/50$；$L=.9,r_c=.22,t_c=.036,t_f=.846$，六帽 $R=.274$。准确度量为 $g=ds^2+a(s)^2d\theta^2$，完整身份
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
-同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
+同一个 $b_0$；原159/163现准确嵌入完整168/172表示，永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
 原103/154/159与[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)保同163族/159坐标、H/盒/步长及失败费用；[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)保14门/reference/池/cut来源。全部旧η是metric辅助量，不是δhold；旧LP用尽和恢复漂移不据此宣驻点。当前最新direct与末槽入口见本文件后段，旧实例不重跑。
 
 ### O2 最新实际
 
-[notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)接受55：physical39e71805432d8e1814032200b8cb70973e95475b4ec02696233a7bb37e57746e，η粗.2660117457770361/细.2660117461153504，降6.34918406849927e−7；κ细57.99944919079858略升，原两网14门/准确163盒过，.26及主reach/连续门未过。池4453/4549、v14/14无新增，完整controller/guard保原checkpoint。
-
-该54新模型任务2必要ordinary/2selected-J/2firstjet、18外J标签刷新；2新矩阵9676/9679、68iter/136系统、2双网/3新cut，62scalar选α1、首actualpair接受55。原新196.268239511秒4值，祖先2073.56241112秒134值已闭。54完整MODEL和55真实U/T/e/f cache均在原stdout，二者不能混称55模型。接新完整body自由基及真正非线性下降；参数扩展给新身份，保同g/b0/永久reference/当前55best，不重跑已闭有限/方向。
+[真正56](notes/true55-new-nine-original-two-grid-accepted56-20261116.md)在完整168/172新族两网通过原14门/准确盒；η粗.2660099234147515、细.2660099232963724，κ细57.9994439861529。固定g/b0/永久reference保；祖先2233.566394556秒/138值已闭。其U/T/e/f仅是该点输入，不冒跨点J。大域全168失败与小域同账续接见后段，当前仍56；.26、主reach、连续门未付。
 
 ### 仍须支付
 
@@ -135,36 +133,12 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 
 ### R493 至 R497 的原记录
 
-这段逐项日志原文迁至[归档](notes/open-R493-through-R497-20261116.md)。原三原子36起点已闭；新9同600账户报告已完成正在读取；当前四原子新模型及全部未付主门继续。
+这段逐项日志原文迁至[归档](notes/open-R493-through-R497-20261116.md)。原三原子36起点已闭；新9实际接受56、四原子64起点无候选均见后续原结论；全部未付主门继续。
 
 
-### 2026-11-16 09:57:57 UTC — R498 四个非退化曲率原子的七参数完整五门
+### R498与真正56全168的已闭前史
 
-[R498](results/R498-four-separated-curvature-atoms-and-complete-seven-parameter-cap5-design.md)给4个质量≥1/18、真实间距≥3/50的曲率原子及C≥0，7参完整原12L/8Aj/5G与物理5×7、chart全H导数。Jsh≤18/25与C=(7/5−Jsh)ζ严格保H≤2−17/25600；新64预定起点、每起80/总6000、统一180秒/150秒搜索，不读旧36结果。首近零仅候选；C>0选7中5、C0仅6shape中5，经同原有理收缩才给真根/秩，随后有限正ψ3尾/两矩修正/C1-IFT保所有5门。0执行，尚无新根；旧账户闭，主门欠。原新9续接report实际pull4376ccbb…双README空diff、私有4177ac45…QUEUE唯一进行中。
-
-
-### 2026-11-16 10:00:04 UTC — 完整新9实接受56与同账户最终160秒
-
-[原56结论](notes/true55-new-nine-original-two-grid-accepted56-20261116.md)完整读原43842056373输出：唯一新9模型33迭代/66系统，一次完整分离、62scalar、α1一actualpair通过两网原14门和准确172盒，接受56；η粗.2660099234147515/细.2660099232963724，较55降.000001822700598896887，κ细57.9994439861529。首失败费用与已付粗网恢复合计最终160.00398343599997秒/4值、祖先2233.566394556秒/138值，无overrun；任务随接受闭合。CACHE2只含56 U/T/e/f/grid/168，无56 J。转完整当前场168联合问题，旧模型不可跨点；主门未付。
-
-
-### 2026-11-16 10:00:50 UTC — 非零新场全168当前导数的完整接口
-
-[全168设计](notes/complete-body168-current-state-selected-jacobian-design-20261116.md)已从原源码推出：同一当前新场frame构造u9/v8/Q1角核，新8列共享前4角模、旧5与新γ高度分别完整收缩，最大虚拟列27而非全网168张量。非零新系数（含仅γ）不能拼旧场159最终J；只有全new9 literal0且同点/网格/原行/全部身份完全一致可复用。另给完整方向e/f/de/df接口与准确M172,168；这是源码设计、0新执行。现在绑定实际56实现，原55任务闭、主门仍欠。
-
-
-### 2026-11-16 10:02:28 UTC — 启动R498四原子完整五门唯一新搜索
-
-四原子7参完整12L/8Aj/5G源、参数和workflow现发布；request 6928B/455cccb65950fad0a45d699460e6f36ff9b922d280f616099fcf9e9ad838d6c9。R498原64起点、每起80/总6000完整值、统一180秒/150秒搜索；C0仅5shape切片，C>0七选五，只首新候选作同原有理收缩。新source61649B/1e0a0a…，root逐段读源码和原公式，未执行开发suite；不读旧cap15/三原子科学输出。共享.github/workflows/visible-four-atom-cap5-search.yml仅为本题新public研究+只读报告；两job均实际pull双规矩、私有QUEUE，全部可重算输出只留stdout。推送触发唯一新run，尚不宣候选或完成。
-
-
-### 2026-11-16 10:05:13 UTC — 四原子64起点完整观察闭合
-
-[四原子原结论](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)：run43845218578/source18a30d5054a4a2755616ca1c71fcf8870ce1f3d8，64新起点均返回、2071完整值0fail，总6.541216640999892秒；原G∞ best.0014851172678647607、H.6104871150176137（start46中间seq2925）。没有候选、没有minor/Decimal/有理证书；有限返回不当驻点/全局无根。账户闭，不再用余额；继续(.6,2)完整图与真正56全168联合模型。research/report真实pull双README空diff，最新0e259e94…、私有2d9aabe7…QUEUE进行中，下一≤11:03:38。
-
-## 2026-11-16：真实56全168联合模型正式进入公开Actions
-
-[设计](notes/true56-full168-joint-model-design-20261116.md)将全部168列在非零新9的实际56场求导，保原全部pool行、172准确盒及原14实际门。新600秒账户，h=4||Mδ||∞≤1，2ordinary/2selectedJ、8分离/8新增行集master、32新tag、64scalar、3actualpairs。来源56run43842056373+只读55构造COMPLETE；旧56余额不重开。继续读取原stdout后付真实候选或明确本新任务界限，不停在阶段结论；主完成门仍未付。
+[原文记录](notes/open-R498-through-full168-launch-20261116.md)保四原子设计/启动/64起点观察、真正56接受与完整168源接口/新任务。四原子6.541216640999892秒/2071完整值无候选，已闭不重跑；完整168后继结果如下。全部主门与同母/同规范条件仍保。
 
 ## 2026-11-16 10:22:12 UTC：R499已证明更强全类高度门
 
@@ -205,3 +179,9 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:59 UTC：小域168同300秒续接已提交
 
 [续接设计](notes/true56-small168-literal-pool-order-same-account-continuation-20261116.md)修复原constructor的sorted前提与actual追加顺序，保当前池字面顺序/原容量和全部tag。启动先认证首失败FINAL_CLOCK，23.005758439000005秒与0started原样装同300账；所有参数相等，不改变h、原14门、旧输入或次数限额。本任务尚未尝试finite，继续首次真正模型；R504新非线性predictor另留后继，不混本scope。
+
+## 2026-11-16 11:10 UTC：R505同形库中的真实非secant局部路径
+
+[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真13状态/2输入受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
+
+下一理论项：在同一新母库/χ上解决参考secant与正规局部族之间的真实桥内部能量等式，或直接构造该族的全frame/位置/八矩返回；随后同一整词付全部period/十三行。局部端点常秩纤维仅保持其自身真实端口，不能赋予预指定返回；原主C²/等距/reach/幅度门全保。

@@ -4,13 +4,13 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于11:02:03→11:02:09 UTC真实pull --rebase，已读上游 **fa3c35b914ed740c75a2effc16c869a4bb84a48e**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**12:02:09 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于11:02:03→11:02:09 UTC真实pull --rebase，已读上游 **fa3c35b914ed740c75a2effc16c869a4bb84a48e**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:52:32 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-首次NFF于10:54:36→10:54:42另实际读99a83bde6ec9654dfee36057afaf2dcdcc8a5c15，双README空diff；同批后次2ed5c7bb1af5283fac6a6131fb4605d8234ea8ad亦已读，后续逐pull保H提交历史。
+早前NFF实际read 99a83bde6ec9654dfee36057afaf2dcdcc8a5c15、2ed5c7bb1af5283fac6a6131fb4605d8234ea8ad，双README空diff；逐pull历史保H提交。
 
 private于10:52:23.800032→10:52:32.780639实际pull读 **507d08ba813bad8699caaf3b6443a7ac0fa44714**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前小域run43851980835两job也均真实拉两仓/README空diff；私有正文不发表。
 
-三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端10:50在/明确bash成功，原cwd未创建导致先前启动失败；已建工作目录并部分克隆，现用本地Git。API读取不是pull。
+三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。已部分克隆，现用本地Git；API读取不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -40,7 +40,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R500](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)付异ω三中心真实前缀差商；R70正长度桥保两半Mraw/共同窗口。N−2相对门可消，未付共同odd/even/桥K；不推全路径无解。
 
-[R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)正向付非零真实前缀反射：同w=−AgD、中心Ag±B，完整even增量四项逐矩抵消；四条全相位β行给≥4维真实非零核（degree≤4多项式呈示），非假零history。R70实际有限正时桥可排非回文±B标记字；这些完整secant片段共用K。未锁第三Gram时一套χ可清全部，已锁13仅给保持定理。**桥内部K、共同period/13和完整V未付**，不替换原particular。
+[R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)付同w/反射中心的非零真实前缀：完整even逐矩抵消，四相位β核≥4维；R70正时桥可排非回文标记字，片段共用K。未锁Gram可一次清片段，已锁13仅保持；桥内/全period/完整V未付。
+
+[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真13状态/2输入受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
 
 ## 4. 当前真正接受点56与已付输入
 
@@ -48,7 +50,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 56 physical **11c07425846f224c2d05997068b6442fa28a65383b5af5dce3eb2789da0593dd**；ind168 **aa7d8f3fb4d1bfea7aa4a05fef3b23babefbc344c5ea78f7b321b141a2d5181b**；其余坐标/field/objective身份见原56完整结论。旧159固定55、新9非零；原接受池4453/4549、v14/14。后续未接受试点补粗soft104448，当前学习池4454/4549、v15/14。原159 bank/controller只保来源，不能当168规范。
 
-同任务首失败75.06856296999999秒/1已付coarse，续接恢复不重算；最后总 **160.00398343599997秒/4完整值**、祖先 **2233.566394556秒/138值**，无overrun。任务因接受56闭合，不重开余额。旧55源及其原159状态保[前页](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)。
+56任务含首失败与已付粗网恢复，最终 **160.00398343599997秒/4完整值**、祖先 **2233.566394556秒/138值**，闭账不重开；原费用/55源全保上述56结论。
 
 56 CACHE2为29867329B/c8ad34a26c6f5ade483d07189bc718bd13c3bec1c24caa0b9ff3aaa949337a4e，binding a6465ff91278055caf0c64e374751901f06e23361b760d3414c89c4e87020b60，含同点U/T/e/f/grid/168，无positions/曲率二jets/J。原55 MODEL、55方向CACHE和54旧159J均不能冒56输入；全部payload仅stdout。
 
@@ -60,4 +62,4 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 仍h≤1/128、全部168/原172盒/14门，复用9002行J/g＋8梯度＋56 U/T，仅补新原metric行；原8scan/32行/8master/64scalar/3pair6值不变。request-true56-small168-continue.json 66092B/b916203748980f07a60c2d911cbb1117ed5ce7f11d76f0ddffb7c7cb16e4d2cf；workflow visible-true56-small168-continue.yml。当前finite/actual尚0，R504新predictor未插入本任务。
 
-理论接同图.6<H<H*的Re/Im联合零、R503之间真实桥内部K/全period/13；R505正推新同形库的非secant局部路径，未付前不计结果。三/四原子闭账不重跑。主完成未付，继续open。
+理论接同图.6<H<H*的Re/Im联合零、R503之间真实桥内部K/全period/13；R505已付同形库非secant局部路径，接实际桥内部/共同period。三/四原子闭账不重跑。主完成未付，继续open。

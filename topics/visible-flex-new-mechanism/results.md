@@ -413,3 +413,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R503 非零前缀反射与一套规范的完整secant片段](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)：**已证明**全even逐项保持、四相位完整odd核的非零真实性、真实非回文有限标记字共用完整K；未锁Gram可一次清片段，已锁13仅保持，桥内部/全period/完整V仍欠。
 
 - [R504 完整168真实参数线、二阶metric与原PSD余项](results/R504-complete-168-parameter-line-second-metric-jets-and-curvature-PSD-remainders.md)：**已证明**完整全角first-jet差式、方向二阶与显式Taylor界、原曲率四行余项及必需基点二阶输入边界；未给当前数值证书或可行下降，旧affine-line凸性不转移。
+
+- [R505 同形母库的完整单能量ruling与非secant局部路径](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)：**已证明**完整历史/尾消去、同一χ的明确正规入口、真实受约束ODE与保自身端germs/有限数据的局部纤维；参考secant速度退化仍保，桥/共同period/主门未付。
