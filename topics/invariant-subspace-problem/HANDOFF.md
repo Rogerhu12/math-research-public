@@ -14,9 +14,11 @@
 - 原E低20/95核已闭：两4解全1000E/3000Q/400selected、95原unit38及根[独立日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)已核。旧Q60真实360秒TERM/143独留，不重复；全部源/pins/失败范围保归档，结束job TMP须重建。
 - 原mixed95实际unit69、选J40=0..33/40..44/60，全25575/18050/9025/3800已核；[正式原40选择](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)给本次quintic父件。
 - **[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。
-- 权十旧std592.369秒75仅START，不空续。**[native/checker实际编译控制已闭](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)**：run43922052588，8.019秒exit0，全244990/2048256/43/93412与断点往返真；root/literature独立raw/manifest/binding SHA核同。完整77276×13808尚未生成；full driver/原子式审计已全文审，最终输入/CLI审核中。
+- 权十旧std592.369秒75仅START，不空续。**[native/checker实际编译控制已闭](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)**：run43922052588，8.019秒exit0，全244990/2048256/43/93412与断点往返真；root/literature独立raw/manifest/binding SHA核同。完整77276×13808尚未生成；full driver/原子式审计与完整运行包已全文审及交叉核。
 
 - **[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核≥31，不宣恰31。四步raw与全部父相位根/normal独立核同；尚无δb²新目标或Bell单位。
+
+- **完整权10原矩阵执行包已就绪，发布后dispatch。** [接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)：同新job控制→七父重建→full，完整77276×13808/200源/δb²，不用旧std候选。核心22c/1748/4099冻结，单bitplane+原DAG/完整子式审计+独立全13808左证或正10/18/17门；600/900/1200/1800后最多3×1800，仅真实75+eligible+全SHA/新整列签名才续，决定仅run/参数/SHA入Git。170/180分钟同job、各段及长算28分钟内真实pull；完整TMP不跨已关闭job。当前无完整秩/目标声明。
 
 ## R150已付结构与仍开范围
 

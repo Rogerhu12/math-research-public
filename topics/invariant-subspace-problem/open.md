@@ -16,7 +16,7 @@
 
 原40混合单位、原degree5来源和完整120呈示已闭；继续完整权十δb²原矩阵/原左证、权十一qb³及R271真实费用。原200/210历史证明与全部未列开放项保本次快照。
 
-**[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。完整77276×13808 native/checker已真实编译控制，full driver/原子式/独立全列门已全文审；新作业接口最终审核中。
+**[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。完整77276×13808 native/checker已真实编译控制，[full driver/原子式/独立全列与严格续接接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)已全文审；发布后新job控制→全父重建→完整矩阵。无实际rank/目标结论。
 
 **R271实际费用继续。** 已付最优两孔锚、真旗代表、无包络倒数门和本次纯高度联合门；完整强头逆的实际费用及匹配/帽逆后的真实误差仍开。全部此前状态与未闭接口保[本次完整open快照](notes/2026-11-16-open-before-pure-far-height-789f.md)及归档链，未列不算关闭。
 
