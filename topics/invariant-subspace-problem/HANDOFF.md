@@ -3,11 +3,11 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 9948aec967519e5b39535443f55adfcfb7e9d8f3（2026-11-16 03:04:31 UTC，临时研究session run43795759185实际pull --rebase，两README无差异；详见notes/r150-zero-projection-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 02ac2783b758f252ee9452e8731468f532272700（2026-11-16 03:06:38 UTC，Actions run43796135600实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43796135600-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 完整前态保[H](notes/2026-11-16-handoff-before-unmultiplied-original-sources-789f.md)/[open](notes/2026-11-16-open-before-complete-first-critical-exit-789f.md)及归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
+- 完整前态保[H](notes/2026-11-16-handoff-before-downward-variance-and-zero-projection-789f.md)/[open](notes/2026-11-16-open-before-complete-first-critical-exit-789f.md)及归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
 
 ## R150：原九目标来源已封口，非rank-one与系数31继续
 
@@ -16,7 +16,7 @@
 - **[原全局封口](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)：** monΔ=monK178·Ω，K178=s66(s−2)12(s+6)12F+8F−8E8^5，Ω=f60² degree120；Δaff=298、齐次364、严格Σ0外μ=R_out/Ω=1。九h*tj均有原degree_m≤3来源，h*=s³F+²F−²E8 degree23，三源费8386/8391/171。原31单位首项D*8769、商8471给已有精确/同模源统一费max(8515,τ+1)；存在量词及旧e0 mod961负证不变，31分母指数未付。
 - **[三域完整谱](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)/[九目标精确指数](results/R150-appendix-critical-original-square-targets-exact-local-exponents.md)：** F±full(3,5)、E8full(2,3)，完整P(3,3)/(3,3)/(2,2)由下界及目标dual再证。每个目标critical指数(2,2,1)，各生成整个局部T。F±各30940、E8重验259896原products；完整高核7/低rank86/完整首连接rank1，不以受限切片代完整。
 - **rank-one Bell：** 同原17式中br^16∈I，显式源构造的moment次数≤26；不把8391移给高m来源。全rank≤1均值临界点matched remainder为0，B_r∈√(J+C1)；全J的非rank-one/ess(T3)≥4、振幅清分母及实际Bell算子桥仍开，不倒h*。
-- **原相对商：** T=W/(L∩W)在Σ0外已零；[全6012原源/投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)保VR=I、P=I−RV。实际R/P与全W尾未展开；原s=0完整P长度及九joint的Q维数继续，不能搬∞小P61或field25。
+- **原相对商：** T=W/(L∩W)在Σ0外已零；[全6012原源/投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)保VR=I、P=I−RV。实际R/P与全W尾未展开；原s=0完整P长61/T0长5已独立实际得到；九joint的Q全生成证明正写，不能只搬∞61或field25。
 - **[31全I2](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** 全197原源给I2=U7、χ=(s−1)²(s−2)^5，t2=5；C31/pC长314、J31=s−2。root2首五(1,4,2,4,2)已成；全210 recipe与六smallinput仍临时，真p7/第四新像未付。[新完整系数分布](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)：T/pT恰16、χ=(s−1)²(s−2)^14，global t1…t5=(2,5,2,4,2)，只余root2一个E≥6，u=v=w=1。全B第四新增像为m6∈{0,1}（累计I4=8+m6），不混用。
 - **[原F127全模块](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：** NF3333+2855、GB1021/free13/B8、state805/obs506稳定57，全部原CK/AK=KJ核真。完整tors299，五critical primary总88/原52624乘回；五广义检测族每处两泛函全分离88维。原4367运输/1834Z消费五处I1均0，不单从零像否高层。
 - **[root63系数正证](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 原node26969742/3463反传支持4324，4367 p²读40；simple s+64占一I1方向，原925非零端点不当维数。Q/127∞同谱66及原J127=0/Ω127=Ψ60²均付，C127有限；[唯一D127系数挠结](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)现证T127=D/127、参数s=63；没有更高127指数。
@@ -24,12 +24,11 @@
 
 ## 活跃执行、临时缓存与立即恢复
 
-- 旧run43756208221已结束，56步回执全推，旧tmp不再视活。新run43772109844真正重建三域weak/Q7且每phase全SHA相同；三critical最终谱均成功。E8原exit1确为最终回执超过90000B，旧失败保留；只读恢复raw9456·15349fa5/binding9e283e5d，原数学binding及phase不变。
-- 新live run43772109844始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。旧30步控制全文归档notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json；done仍在当前进程，当前列新增7步：三critical及五广义Bockstein均已完成；七新增步全部exit0。重新启动须按控制归档重建父缓存。
-- [五广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)联合分离88维；[E8-1完整I1零证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)核全4367运输/1834原Z，raw12201·66006800，15.503秒。其余四亦实际第一像0（25.088/24.892/15.174/21.903秒），全原p²进位已核；仅该零计算不排高层。结合独立Δ298已证唯一127系数因子仅s=63、指数1。global197/root2/127全缓存及三critical均仍临时。
-- runner每30分钟/每步/每push前真实pull核两README；回执在notes/r150-source-kernel-session-789f/。失败/budget保留；同绑定续接新step ID，requires只指exit0祖先。root独占索引，代理仅冻结稿；每结论写成后实际push，非快进立即rebase重推。
-
-- **新原零点P独立任务：** workflow invariant-subspace-r150-zero-projection-manifest-session.yml；源码81eb7dd4/输入06555ccb，完整224×155/N11/180秒/2GiB，只用原K零图及全6188。独立短job以便即读结果；执行清单仅脚本/参数/run/输出SHA，计算输出留临时/日志，未预填61或joint25。
+- 旧run43756208221已结束；所有来源/失败和56步pins保旧归档。新live run43772109844始22:57:13 UTC，350分钟约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。127全部NF/GB/state、global197、root2 recipe与三域缓存仍临时。E8旧exit1确为最终回执大小门；只读恢复保持原数学binding及phase。
+- request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；旧30步全文notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json，当前7步已全部exit0，done仍保旧祖先。新启动须按归档重建父缓存；同绑定续接用新ID/requires只指exit0祖先。
+- 五广义factor全4367运输/1834Z均I1=0，E8-1正式已发，其余四联合稿待补；唯一127系数结论由独立Q298及root63正源证明，未以零像排高层。
+- **原零点P实际已成：** 独立run43795759185，80.048秒，完整224×155/Q/N11/全6188，正谱(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、长61/T0长5。raw22533·347c76c0，133万原零乘回；正式相对25生成定理正写。仅执行manifest留repo，计算数据只临时/日志。
+- 新任务仅存源码/参数/run/输出SHA，勿新存可重算计算输出。根每结论真push，非快进立即rebase重推；runner每30分钟及每步实际pull核两README。31下一p7两正探针保完整incoming商，零只受限结论；四族窄历史恢复约168MB档/26MB成员，非整旧链。
 
 ## 原边界：同一个w与完整返回继续
 
@@ -42,3 +41,5 @@
 - **原顺次MP：** [一次](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)取τ=(log(x+1)/x)^(1/3)、J=ceil8log(x+1)/τ，q1²≤O((1+||C||²)τ²)Δ²；[二次](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²ω=(D²)†ω−D†ΠkerD D(D²)†ω，τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ，q1/q2²≤O((1+||C||⁴)τ²)Δ²。全top/自然域保留，z2仍残Cq2；不是原真核。
 - **[完整物理终端门](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)：** 全强位/远primitive保留，C^(J+1)a0=0迫旧头≤K=R+J；真头方阵µ_K^-1≤e^(100K⁴)。对g⊥vac，整个K_(m,R,J)投影平方≤e^(200K⁴)(√S_(m+R)+R/(m+1)²)²||g||²，K⁴=o(logm)趋0。R>0仅嵌入总孔K，不能倒用上界，不排原M。
 - 剩余ordinary预算仍是同源合并负部≤c_m Q||F_mu||²且Σ1/c_m发散；无此界。原G_reg同forcing/carry、Haar普通循环性、正常有限秩链、非rank-one及open全部旧接口继续，不列不算关闭。
+
+- **[向下方差薄窗](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)：** 同D_m、固定c且Se^(−c/m)≤s≤S，完整逆差≤(e2c−1)(X−X²)+τI。保真实H(s²/S)/PV/PK，原F_s距同u平方≤(L²−L+1)Δ²+Lτ||g||²，L=e2c、τ=2e^(−770m4/256)；qcut≥d−1。固定k标量s=S_(m+k)可用，物理尾不换；固定比例下降/完整Schur/carry仍开。
