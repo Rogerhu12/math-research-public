@@ -344,3 +344,8 @@
 ## 2026-11-16 05:25 UTC /root — Request211官方运行绑定
 
 [211完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)实际source `7e62fb22bff15bfe53e1481b4e7ba21d2f905786`，公开Actions [run43810051801](https://github.com/Rogerhu12/math-research-public/actions/runs/43810051801)于2026-11-16T05:24:47Z/attempt1启动；compute133109494332在05:25官方metadata前1–10成功，第11步原完整H/J/R273/FD/fullDN科学运行，必要读回/清理待起。R475由amplitude唯一终态读取；只记录步骤状态，不预填依赖运行全完、正H/J、快路径计数或接受。官方topic tree `058473aa2d9a71beb120cfa6a57ab71415617274` 为9254blobs/197777411B、9627entries，truncated=false。
+
+
+## 2026-11-16 05:27 UTC /root — R476完整逆像工作实验与212源码
+
+**R476：原完整逆像的明确工作参数实验与212来源合同；尚无实际结果。** [完整源码接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)17888B/228ba42e、composition14847B/d98e01ca已全文核，原32b0采样器的整InverseSampler及radial_grid真实路径亦已读。唯一科学控制24→2使用原合法粗叶出口，须全部候选/闭片、有限正性、四quantity完整hull和误差；32bits仅工作目标，未证有限正时仍partial，不保证1M预算或误差达标。原20597406B/06ae与workflow95760B/726d全字绑定，原154pins加helper及已刊R477两reader共157；派生205兼容schema/index保真实212/run/source/独立bytesSHA，复原差异须等原全部合同，不冒原205字节。新reader真实file/schema/marker/cleanup均接入，八个缺失point/stack字段全保；fresh全部far/μ/物理点及全453→450/原闭面门、18900+2700/原七必要scope/90KB超70/quiet不变，无新fixture或科学门。小outer8803750d/workflowd1022e74另次推，R478/geometry唯一终态。

@@ -42,6 +42,8 @@
 
 **R477：必要失败地址保全；无新科学执行。** [两reader接口](notes/2026-11-16-complete-physical-point-sampling-scope-readback-interface.md)10057B/6ddabf6b与完整diff已读，base55606B/47d7ec77、outer30114B/6e40dc63独立刊。原point_index/radius_word/role/错误类型与全文/全部pending闭片段/retained叶span/未返回布尔直接保，不经small裁剪；outer真正加载新base，旧pins保为祖先。原mode/native/FD/两阶段与90KB/超70/marker/quiet不改，不保证新摘要装下。205/207/209首链同漏；R456与209 R462/R464整行路径不漏，207旧M_API另有未修同型问题。212另付真实新reader/schema/marker接线；不回填203已删字段，不改冻结入口或新设科学门。
 
+**R476：原完整逆像的明确工作参数实验与212来源合同；尚无实际结果。** [完整源码接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)17888B/228ba42e、composition14847B/d98e01ca已全文核，原32b0采样器的整InverseSampler及radial_grid真实路径亦已读。唯一科学控制24→2使用原合法粗叶出口，须全部候选/闭片、有限正性、四quantity完整hull和误差；32bits仅工作目标，未证有限正时仍partial，不保证1M预算或误差达标。原20597406B/06ae与workflow95760B/726d全字绑定，原154pins加helper及已刊R477两reader共157；派生205兼容schema/index保真实212/run/source/独立bytesSHA，复原差异须等原全部合同，不冒原205字节。新reader真实file/schema/marker/cleanup均接入，八个缺失point/stack字段全保；fresh全部far/μ/物理点及全453→450/原闭面门、18900+2700/原七必要scope/90KB超70/quiet不变，无新fixture或科学门。小outer8803750d/workflowd1022e74另次推，R478/geometry唯一终态。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 准确域与Robin/deep/Prüfer原全族责任不因中心表示或合法coarse界而缩减。R396/187曾全112 far完成，但中点转64同时零、原因未定且native/453未起；原raw已清。R419保同可逆T联合表示/4096共享point预算，仍不证明名义数字行为统一准确C成员。R408/193只103完整far；[R420/197](results/R420-actual197-complete105-far-families-and-resource-partial-before-joint-rows.md)C1440/六primitive、cut、九域、deep112齐，但2855宽度fragment欠，原7200预留裁linear7054.248290167915秒；m2..210的105完整，m212/piece1027/[13/16,105/128]预算停，214..224未起，数字joint/native/453/450全未起。五必要/quiet齐后真清90207761185B，SHA不能续现场。203/205必须各自重生全112，不跨run拼完整。
