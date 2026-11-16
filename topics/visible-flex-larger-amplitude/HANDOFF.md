@@ -18,18 +18,15 @@
 
 |请求/结论|run / source|唯一owner、最新官方metadata|
 |---|---|---|
-|207/R460|43801267782 /1e05442404d3867fc09589a523e594202efde7c0|exact两终态日志已唯一读，compute133081849462/report133153849841均failure；R460本次刊，禁重取|
 |208/R467|43804793905 /9b05bfc5160bf667cde0cb0ba059b0c8b0332bd5|exact唯一；07:53仍step10完整112科学，待R467|
-|209/R469|43805615033 /cfd63e66a3d6090f86fa906b46dec8db808b04a6|geometry两日志各已唯一读，R469已dfa01b9b；禁止重取|
 |211/R475|43810051801 /7e62fb22bff15bfe53e1481b4e7ba21d2f905786|amplitude唯一；07:28:54 compute133109494332仍step11完整科学；未取running日志|
-|212/R478|43810550597 /9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060|geometry两终态日志已唯一读，compute133111042532/report133152030600均failure；R478本次刊，禁重取|
-|213/R480|43812359001 /fe0a0d737440bcad59d5af9cb9d08b24131204f4|exact终态compute133116630470已唯一读，R48018078/14f8dd6e已894cd120；禁重取|
 |214/R484|43815427382 /29df28d35ef85a7c4a6474c28451c58d9f25c802|geometry唯一；07:55前16成功、17采样；未取running日志|
 |215/R486|43816406919 /b952df814c98ef5927a4f5013364d2eed6002d74|amplitude唯一；07:28:54 compute133129348123仍step14原128四组件；未取running日志|
 |216/R488|43819978588 /634c4c85dbdb402965d5dc0bbc1ab756878ce87d|exact唯一；08:16 compute133140597135仍step18全far/point，无running日志|
-|218/R507|43830433500 /0f101b697beb04db9bf6c225a488755e191f3a54|amplitude两终志各已唯一读；compute133174205129/report133174986936均failure；R507本次刊，禁止重取|
+|218/R507|43830433500 /0f101b697beb04db9bf6c225a488755e191f3a54|amplitude两终志各已唯一读；compute133174205129/report133174986936均failure；R507已494cc311，禁止重取|
+|219/R502|本次发布完整源，待官方dispatch实际身份|exact唯一；16源/334pins齐，job350min/science320min，尚无数值结果|
 
-运行中不取大日志。唯一owner取终态必要日志，root不重复；197/200已发表不重取。新207内部205子合同不冒原205 run。运行标签只证执行状态，不补原数学门。
+207/R460、209/R469、212/R478、213/R480的原run/source/job和唯一终志全文保[e3abaf73 H](https://github.com/Rogerhu12/math-research-public/blob/e3abaf736edc8d2fe2f96988b3f0d42355ca1e8a/topics/visible-flex-larger-amplitude/HANDOFF.md)及各结果；均已刊，原日志禁止重取。运行中不取大日志。唯一owner取终态必要日志，root不重复；197/200已发表不重取。新207内部205子合同不冒原205 run。运行标签只证执行状态，不补原数学门。
 
 ## 恢复检查点与已刊范围
 
@@ -44,7 +41,7 @@
 - amplitude：唯一211/R475、215/R486终态，08:27仍11全科学/14原128四组件，无running日志。218/R507两终志已各唯一读，完整正文18208/5f33d330本次刊：五层133source生成和405全来源组合成功，只来源身份非语法/科学；当前77279/57beb568 owner第119行在五普通项后裸字典推导式SyntaxError，R496旧77205/f6b48同结构。正式dispatch/refinement文件未提交，所有科学未起；C485B为null/未启动，R4994468B仅两实际资源项，composition79007B只身份。后续FileNotFound不数数学拒；真正quiet后cleanup明确skip，所有原门/32GiB/18900+2700保。旧218八件及绑定全身份保6c2935a6 H与notes/2026-11-16-request218-official-run-binding.md。220/R505接口、R506实际：沿218真源接R503三词+0/完整candidate_rows/新帧并修当前owner字典unpack；两个历史错误owner保旧字节来源身份，明确不冒其语法通过，当前实际链独立新pin。原workspace HERE/现有gen/原门与钟均保，不调用TEMP-only preview generator，不改冻结218。
 
 - geometry：唯一214/R484终态，08:25:11前16成功/17采样，无running日志。R478/R495/R498/R500全部原范围保[6c2935a6 H](https://github.com/Rogerhu12/math-research-public/blob/6c2935a6480ab20579077fb8e9dde1547af0b44c/topics/visible-flex-larger-amplitude/HANDOFF.md)及完整正文。R504五件本次刊：fixed facade7655/0cda42f0、gen9454/3c282629、plan38102/34436dfc、proof11796/0c140acf、接口16222/541fa7fa；六真实消费者为1fixed＋5live（evidence原已有live），全部先过原场/CP/材料/十词/准确cut与全六jet，再实际R500同C完整query，原四Loewner/全t比较/DFS/完整pieces端点保。0阶E新包围非全tail导数，原固定g语义签名不混工作结果SHA；原11query参数/已启动时钟/预算不重开。当前仅R495四原族和actual202205来源明确，尚无真实误差或接受；217/R490完整入口继续，新218/220需另登记实际tuple，不能继承label。
-- exact：唯一208/R467、216/R488终态；08:16仍10完整112、18原far/point采样，未取running日志。207/R460已6dc0dd1e，213/R480已894cd120，原日志唯一已读禁重取。R493逐H live128合同27709/115e78be已49f8e8ca；request219/R501实现接口、R502实际结论编号已留。真实7ba完整父为actual63 prefix＋accepted96/原port，91仅尾初猜；320min单science deadline、350min job分列，不给每call重置204预算。十数组/全R273→每当前H同call128 owner/replay/四组件→完整338混合response→原FD/fullDN；13scalar raw/hex真一次RN，双mean/负零/全部原门保。实际worker/process/client/fullentry/outer必要与quiet仍收口，未有219run。各draft完整文本/blob已保，尚不声明全链可运行。
-- root：此前各实际推送与全部恢复参数保6c2935a6 H；R499原完整选择/语义表/单90K与真实owner保，R497cache仍原attempt而非解1M停。R503四件ad086cf8完整政策见results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md：实际202原投影后只p3/theta3/eta3显式+0、另七词保，原完整coast仿射条件与两端二jet保；新点/new g不继承旧接受。p3后续仍active，固定theta3/eta3为0，原453→450/32GiB/钟不变；220以实际218最终来源和全10candidate_rows/新帧接线，不把三旧preview SHA冒actual。R504已761a2ed8，R507本次独立推；继续具体217/219/220与各既有运行终态，无新增fixture/独审/来源审查停点。
+- exact：唯一208/R467、216/R488及新219/R502终态；08:30前两者仍10完整112/18原far-point，无running日志。R501条件实现17047/04ee80d5和219接口21110/bc484aa4本次与16真源376388B/request52615/1c940011/workflow13262/a32461ef一并刊，334pin含actual63完整producer/原204/208闭包，全部文件身份见notes/2026-11-16-request219-live128-original-full112-interface.md。真父为actual63全453初猜＋accepted96/原port，91只尾初猜；113997恢复后传topic/repro/source-root，原3b8只显式换已读21bd/bff8 BASELINES/receipt。每真实H十数组/fullJ/R273→同call128 owner/replay/全stage-boundary-mixed338/audit→13/9 raw scalar及全数组一次RN-even64→正常协议原文→原2×10 FD/全fullDN/fresh audit；1cdf solve和7ba数学体保，负零/两mean/原混合J门不减。原350min job/320min单science19200钟在恢复后、规则与native前起；全部H/阶段按同一剩余裁切，64GiB计划/2GiB动态止/18call非完成承诺。三独立session真实own/quiet，单90K全必要/错误/未付，超70不清；无本地科学/额外fixture。发布后官方dispatch再记实际source/run，现不预填接受或R502结果。
+- root：此前各实际推送与全部恢复参数保6c2935a6 H；R499原完整选择/语义表/单90K与真实owner保，R497cache仍原attempt而非解1M停。R503四件ad086cf8完整政策见results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md：实际202原投影后只p3/theta3/eta3显式+0、另七词保，原完整coast仿射条件与两端二jet保；新点/new g不继承旧接受。p3后续仍active，固定theta3/eta3为0，原453→450/32GiB/钟不变；220以实际218最终来源和全10candidate_rows/新帧接线，不把三旧preview SHA冒actual。R504已761a2ed8、R507已494cc311、R501/219本次独立推；继续具体217/219/220与各既有运行终态，无新增fixture/独审/来源审查停点。
 
-最近容量：761a2ed8 topic treed37bb8f4122531a549520b22c654d6528ad91913，9351blobs/198864005B、9723entries、truncated=false；余1135995B，新源/说明继续计入。219约0.47MB、220约0.49MB，217亦须计。本次仅删两旧actual54重复下载目录清单（各702911B），源/参数/run/SHA/494cc311完整历史和五文件精确引用核记录保notes/2026-11-16-two-old54-download-receipts-retention.md；actual55/57科学结果/全部父保；原62/63指定清单普通删改及全部父/历史保旧H，不泛删未知文件。
+最近容量：e3abaf73 topic tree7b03d73cf41e6380ef6b6674f3223edbe5e04e0b，9351blobs/197485404B、9723entries、truncated=false；219实际20源文件topic新增467160B，索引另计。两旧54重复下载清单仅当前树删除，完整来源/run/SHA/494cc311历史见notes/2026-11-16-two-old54-download-receipts-retention.md；科学父/结果保，无展开/diff/raw新归档。
