@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- WPTV诊断43852589080/1（强制readonly-only）完整恢复首失败1395B stderr，SHA113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74精确同原；[execution](notes/frozen_cross_block_value_tail_ci/run-43852589080-1/execution.json) 0f1adff816076873acdfcd40b634f7dbb070bc281dd87eeae211844f57dba7e4 /28491B，report427B。两次child0/new0/old0，全部目标未开始。入口把intrinsic原5字段球记录误按3字段验证；公式/数字未改。
+
 - D5旧floating probe单件已按[完整白名单](notes/2026-11-16-R133-D5-forward-residual-probe-cleanup-whitelist.json)536dd2a1先推后freshguard普通删117565B；原restore2184a463同path、SHA26fdfe74、F2 archive_required及全部float限制保留。原dense/canonical/失败/active inputs不在删除集，0科学。
 
 - WPTV首次43851901811/1只读入口失败，unique scientific child0、old0、无任何新数学量或lost数学；24 current/10AST及19原恢复已逐字完成。完整[execution](notes/frozen_cross_block_value_tail_ci/run-43851901811-1/execution.json) eddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f /26981B、report427B均已保。stderr1395B仅保存SHA，须窄恢复诊断；不把入口失败当网格false。
