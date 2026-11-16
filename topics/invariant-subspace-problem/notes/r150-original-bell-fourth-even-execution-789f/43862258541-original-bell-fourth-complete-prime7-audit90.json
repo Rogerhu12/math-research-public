@@ -1,0 +1,61 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43862258541",
+  "stepId": "original-bell-fourth-complete-prime7-audit90",
+  "executionSourceCommit": "08684dc750ee0a17c50fa3494279a38cf30a3bc9",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+  "scriptSHA256": "33560119cb8f19902f323b5a1f5fb5a3bb59d38aad6d55108950107bd545579e",
+  "argvTemplate": [
+    "--producer",
+    "{scripts}/2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+    "--model",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/prime7-audit",
+    "--seconds",
+    "90",
+    "--memory-mib",
+    "768"
+  ],
+  "timeoutSeconds": 150,
+  "exitCode": 0,
+  "wallSeconds": 6.878610858000002,
+  "fullTemporaryReceiptBytes": 4311,
+  "fullTemporaryReceiptSHA256": "ee662a70e96154d806015798291639dad8c5b86dd07bb1900d78267e433b5fb5",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 11:57:50 UTC",
+      "beforeReadCommit": "750fcda05f68c133beac1fda4e46314bc6e24fa0",
+      "originMainAfterPull": "08684dc750ee0a17c50fa3494279a38cf30a3bc9",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 11:57:58 UTC",
+      "beforeReadCommit": "08684dc750ee0a17c50fa3494279a38cf30a3bc9",
+      "originMainAfterPull": "08684dc750ee0a17c50fa3494279a38cf30a3bc9",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 4,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1373,
+    "logicalJsonSHA256": "add0cea5a9eec67ac9bdbd9281fc4b910d0b96879b609ea620433d1277bcf86e",
+    "itemCount": 4
+  },
+  "lastRulesReadCommit": "08684dc750ee0a17c50fa3494279a38cf30a3bc9",
+  "summaryExcludesRecomputableArraysOnly": false
+}
