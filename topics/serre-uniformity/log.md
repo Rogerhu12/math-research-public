@@ -205,3 +205,8 @@
 - R890实际八flip结论单独登记：1874.06585011s/9228stage/56源，八套962/146/418与主函数全成；Ef−1206P0=(DE−H)+divQE，原ρ/t首项73437482/445609902，保原单位和t正幂。
 - 必要小IO v16读45件/33.76MB，原D2/E与7正常纤维供R894/R896复用；R893已实际run43861874528/job133280560534/sourcefe27ac55入算，不预判初始RR成功。
 - 本push规则：公开Actions真实pull至0d28f23a8c6bd5da2b1fab2e04fc96457230bd06（2026-11-16T12:01:11.436866+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 20:15 Asia/Taipei — serre-public-astra-20261115
+- R898完整证明单独登记：full Cartan/det三相位、真整Π0/J_h及原chirp一起保留；原Gram单位给β整，Z_h的指定jet准确为原同h Legendre·fi·gj，非零及height格桥未证。
+- 激活R894十六新flip，复用R890两节点/56原源；R893已真success，必要IO v17递归只取后继原A/B/纤维值/节点，不重旧算术。H逐字归档并压缩。
+- 本push规则：公开Actions真实pull至89085c72b92590139eca41c510f81f9deee8437e（2026-11-16T12:15:01.190991+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

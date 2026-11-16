@@ -1,0 +1,160 @@
+{
+  "result": "R894-original-seven-conjugate-pole-trace-bounded-descent",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R894_original_seven_conjugate_pole_trace.py",
+  "core_sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
+  "wrapper": "R894_public_original_seven_conjugate_pole_trace.py",
+  "wrapper_sha256": "bcf319795c1f9e08211fd471d6b367375ed6d660d96755d26207490090b11836",
+  "workflow": ".github/workflows/serre-R894-seven-conjugate-pole-trace.yml",
+  "legacy_core": "R890_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+  "legacy_io": "R890_public_original_Ef_eight_flip_and_marked_frame.py",
+  "legacy_io_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R894-original-seven-conjugate-trace-execution-method.md",
+  "method_sha256": "e4166318b5b5e315e52eb18052ea11d7a0bfc689a54096e04b9dc79477d273ac",
+  "proofs": {
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R887": {
+      "path": "notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
+      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R890_method": {
+      "path": "notes/R890-original-eight-flip-Ef-and-marked-frame-method.md",
+      "sha256": "f382b06234d0e926c441fc37111c17d9b384e96b878205086b82ffa858dd5b34"
+    },
+    "R894": {
+      "path": "results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
+      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b"
+    }
+  },
+  "source_artifacts": {
+    "R890": {
+      "result": "R890-original-Ef-eight-flip-and-marked-frame",
+      "run_id": "43853462674",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+      "artifact_id": 14222786594,
+      "artifact_name": "serre-global-R890-eight-flip-Ef-43853462674-1",
+      "archive_bytes": 3818946840,
+      "archive_sha256": "c5e609ffdbcdaf1247dc33da59a4e74bc4bfabe63e8abfae8002569e0fb6ca41",
+      "expected_conclusion": "success",
+      "wrapper_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+      "configuration_sha256": "75267c1ba5c7b60c69d22b6a4359a564c7636706b99be9dff781959523155f8e",
+      "manifest_sha256": "d51ef99be161206ab53cb00fd1807e200915305f5e06602ab93dd06af8f09a00",
+      "manifest_bytes": 1451468,
+      "manifest_file_count": 9239,
+      "certificate": {
+        "file": "p41-original-Ef-eight-flip-and-marked-frame-certificate.json",
+        "bytes": 12331,
+        "sha256": "986e2ea9a0015eec7842c8b678610fc143986472a7eb8f77d6708eef52080793"
+      }
+    },
+    "SIXD": {
+      "result": "R880-original-six-conjugate-Dstar-RR-inputs",
+      "run_id": "43857317518",
+      "source_commit": "4478c31d1d601784fb636224adcf90e3fc0978ad",
+      "core_sha256": "5421c814130021587ac0a97b8fa336b04c5d0d4f784a96cbac4088591b86fb17",
+      "artifact_id": 14222091280,
+      "artifact_name": "serre-R880-six-conjugate-Dstar-RR-inputs-43857317518-1",
+      "archive_bytes": 889731055,
+      "archive_sha256": "0763bf87fda063082d2027199eb7b2d08a56e647d764444017e161735645e923",
+      "expected_conclusion": "success",
+      "wrapper_sha256": "9c2fac9d342b274bf3570af34237c5138738869165a46c66a7627db910208cab",
+      "configuration_sha256": "28724072022fdabfe5ad1178e93893ad3b97e5eeed29ee1abb6b5a5433acaa78",
+      "manifest_sha256": "462bd2c6851e7f49e67327c1ab7cf7eae08ca37dcfa65151dafded2ec65f9d2d",
+      "manifest_bytes": 205572,
+      "manifest_file_count": 1118,
+      "certificate": {
+        "file": "p41-original-six-conjugate-Dstar-RR-inputs-certificate.json",
+        "bytes": 17314,
+        "sha256": "3e48e09c24aee9d9912eb1ad79f17421fb797440942c44376dda55574409d1cb"
+      }
+    }
+  },
+  "prepared_transport": {
+    "R890": {
+      "archive": {
+        "run_id": "43860838780",
+        "source_commit": "fc4fa39cb817c093ef870cb168222670612163fc",
+        "artifact_id": 14222928598,
+        "artifact_name": "serre-required-original-source-intake-43860838780-1",
+        "archive_bytes": 31320925,
+        "archive_sha256": "721e2601fdbcbe3d035a18b69c9c1905731496201cd88cc3352a97a8bf0e2fba",
+        "expected_conclusion": "success",
+        "artifact_expires_at": "2026-11-17T11:48:03Z"
+      },
+      "package": {
+        "file": "R890-eightflip-complete-intake-selected-original-sources.tar.gz",
+        "bytes": 30951546,
+        "sha256": "4a307ff22a105f057dfecdfa4cdae82197100b217e877a74beb498b4e2c205ef"
+      }
+    },
+    "SIXD": {
+      "archive": {
+        "run_id": "43859441027",
+        "source_commit": "1b6f96f41f1e9fe3500b3b4a85b5d529305457bb",
+        "artifact_id": 14222183067,
+        "artifact_name": "serre-required-original-source-intake-43859441027-1",
+        "archive_bytes": 11650857,
+        "archive_sha256": "669f4e154611c40f0dc59629ac7789ae7cd6d778889819fdefb2cf2b30f98211",
+        "expected_conclusion": "success",
+        "artifact_expires_at": "2026-11-17T11:38:19Z"
+      },
+      "package": {
+        "file": "R880-sixD-complete-intake-selected-original-sources.tar.gz",
+        "bytes": 11334333,
+        "sha256": "4a25c55affa1674bf1ec101da0333cdbcac371e793830ff3dabaefa7ecbee6e4"
+      }
+    }
+  },
+  "R890_original_carrier": {
+    "source_inventory": {
+      "bytes": 26817,
+      "file": "R890-original-source-inventory.json",
+      "sha256": "f96cf226055895758f48e1d48d8b4a87c1a7bad68951b29d6df7d0ecd41100da"
+    },
+    "retained_inputs_receipt": {
+      "file": "R890-retained-inputs-receipt.json",
+      "bytes": 3976,
+      "sha256": "95086c49ca01a156dd14f077b65fcda0d49fb4d6fb90245da81433f0ebfffda1"
+    },
+    "package": {
+      "bytes": 21816968,
+      "file": "R890-retained-original-inputs.tar.gz",
+      "sha256": "16446595a648183151560d6060350c8b692e727fb4a3acbd719e68a87b2562d3"
+    },
+    "selected_original_member_count": 56
+  },
+  "budget_minutes": 300,
+  "maximum_pencil_trials": 8,
+  "maximum_product_anchors": 418,
+  "maximum_new_flips": 16,
+  "minimum_free_disk_bytes": 805306368,
+  "resume": null,
+  "rules_last_read_commit": "0d28f23a8c6bd5da2b1fab2e04fc96457230bd06",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "original_R890_D2_E_recomputed": false,
+  "original_normal_fibres_W_Krylov_or_t_jets_recomputed": false,
+  "completed_work_compacted_only_after_complete_live_witness_closure": true,
+  "terminal_representative_or_basis_asserted_K_fixed": false,
+  "Hecke_norm_five_Lj_RR128_RR144_connection_or_height_requested": false
+}

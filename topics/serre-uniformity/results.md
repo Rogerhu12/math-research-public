@@ -309,3 +309,7 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。 SHA256 9155d9043a3dc015ff6807d143d22f03a4d6e9d97b19da771686cd3e877660bf。
 
 - **R890原Ef有界代表与固定t首项实际已成**：[认证](results/R890-certified-original-Ef-bounded-representative-and-marked-frame.md)，八个完整962/146/418与原未缩放q/F全成。Ef−1206P0=(DE−H)+divQE，原ρ/t首项73437482/445609902、阶−1205；t正乘c^1205。56旧源/9228stage、run43853462674；R894复用D2/E而只新16节点，R896按共同节点复用7正常评价，不推其他六Ef或五Lj/height。 SHA256 cbbc5192c1f950482619cced1a8ac26f22510f01c6f463016009c9ca1cb5d423。
+
+- **R898完整原Cartan与整period源已证**：[完整证明](results/R898-original-full-Cartan-and-integral-primitive-period-source.md)保单factor三相位及det nonsquare coset，真整Π0与实际商Gauss源给36维整同构J_h。原Tζ和split一起搬运，真实chirp不可删；原Gram单位分母证明β整且β̄=P_(h−1)(1/s)/P_(h−1)(0)，Z_h=βJ_h的指定J32正是原same-h Legendre·fi·gj乘积及显式单位。指定primitive jet非零与原模曲线/height格桥仍缺；H含k系数用代数GL2(k)恒等式，Frobenius-Hermitian/det半周期全部保留。 SHA256 73c481c11143935ed5c9949194eaad04af7590bc74b88073b73a2ad1f33aeedd。
+
+- **R894执行已激活**：[方法](notes/R894-original-seven-conjugate-trace-execution-method.md)冻结core9a2793c7/wrapperbcf31979，真实R890与六D小intake及56原源绑定；复用D2/E/七正常与14旧H/E纤维，只新16flip。完整见证闭包保留，闭合后扫描中间文件只留hash史；尚无新实际flip/下降矩阵或K-fixed基。
