@@ -121,3 +121,5 @@
 - **R566（已证明的实际237返回范围）**：[432源准备完成、双必要超限及未知内部科学结论](results/R566-actual237-source-and-science-readback-overflow.md)。两终态唯一读取；286365/164993原全体未返，原70/准备true与transport.false区别/quiet保raw完整；无新的科学父。
 
 - **R568（已证明的实际238返回范围）**：[全采样、gzip完整读取及有理词/closed recipe真实入口错误](results/R568-actual238-complete-sampling-rational-word-and-closed-recipe-failures.md)。全112far/联合行、13850点完整；真正BVP已启动但两phase未起，后继未付；91528 generation正文未返、原70、quiet与未清理分别保，不能据工程错误推断数学拒。
+
+- **R574（已证明的实际240返回范围）**：[447源准备完成、两完整必要正文超限与未知科学终因](results/R574-actual240-source-and-science-readback-overflow.md)。source350903/science221520未返，1846/1163描述符同字，外1/1/1/quiettrue与rawfalse保；源准备true不被transport.false覆盖，同job祖先不与237混同，无新父。
