@@ -263,3 +263,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R887原共同cusp翻转实际完成**：[认证](results/R887-certified-original-common-cusp-flip-and-bounded-RR-inputs.md)。43844745726/12.558248493s/20stage/388原件；完整U146、原u252首项207667877、首试rank962/C*418及全1360×418关系认证。原Qtilde正乘，ρ阶−1205/首项267133051，t帧必须另乘R883 c^1205；准确K-fixed不冒Q下降。七项范数类保−7C*、3ΣD*、28Dχ及原主因子，六D*/五Lj/height仍缺。 SHA256 81bd4dd38ee613d5b5188dff5f6ea7f417b830f65edec1026f8cb79c0d47c032。
+
+
+- **R885原多项式与单行伴随实际完成**：[认证](results/R885-certified-original-polynomial-characteristic-relation-and-one-row-adjugate.md)。43842694142/49.878974848s/549stage；全部273节点认证完整χ(z,T)，273行层递推及完整b272=0给原e0^T adj(TI−W)。八旧K/逆只读，未重W或旧算术。小IO43844748582核560项manifest51dff643、chi fb8dbdd0、adjindex b49becb6、原15件载体95e2c885；整Artin和九范数由新consumer继续，不冒已完成。 SHA256 332faf00d95bcdaa198dfab7d330ff5061426929cd5b25c8d11689f003551ce4。

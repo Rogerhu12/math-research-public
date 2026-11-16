@@ -169,3 +169,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:22:12 UTC：R499已证明更强全类高度门
 
 [R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)用完整Af图R/Rc递减、两次反向Chebyshev和正负斜率分区，付N≤(13/4+c*/y)D−(1/4+c*/y)Dd。P*在[8/3,∞)唯一根给H*∈(13/7,67/36)，H≥H*时完整ImE严格负，等号由Dd>0付。全部五门零只剩3/5<H<H*；原C≥0/线性图段/端项不删。§5付完整Re身份，下一步仍需真实同图的Re/Im耦合或真零，不能从旧64/36有限搜索推全局无解。全168新Actions继续运行，主完成未付。
+
+## 2026-11-16 10:26:31 UTC：R500异平移三中心前缀差商已证明
+
+[R500](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)对任意真紧输入以Σλ=Σλω0杀同一全局w及source；原三矩/全W/rank-one圆给真实三中心值−(ω3−ω1)t(ω2−ωblind)∫g″⁴。R70有限桥保实际中心半积分/端germ/先桥后共同窗口，不搬旧profile记录；N−2相对门具有准确对角坐标，亦可取t_j0消。下一步优先找非恒前缀与非对称whole-path使所有差门和共同odd/even/连接段K同时过，不能只增加障碍。主完成仍未付。

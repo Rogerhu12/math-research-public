@@ -1,0 +1,764 @@
+{
+  "kind": "R133_two_completed_exact_bump_Z_pilot_row_summaries_cleanup_whitelist_v1",
+  "status": "root_reviewed_whitelist_for_separate_publication_before_guarded_deletion",
+  "repository": "Rogerhu12/math-research-public",
+  "date_utc": "2026-11-16",
+  "scope": "Only the two exact successful derived row-summary paths below. Keep every source, proof, process, input manifest, native definition, native container/part if present, original success/failure and unrelated output. Root must publish this complete whitelist first and only then recheck both exact current identities before ordinary deletion.",
+  "root_authorization": "Root requested two same-chain approximately 340KB successful derived pilot row summaries after the current notes tree had no eligible approximately 200KB single UTF-8 report. No additional path is authorized.",
+  "target_count": 2,
+  "total_target_bytes": 341396,
+  "targets": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/evidence/row-1289-exact-bump-Z-summary.json",
+      "git_blob_sha": "d145750017d03c8d9233b7cf37dd5732ebca552e",
+      "bytes": 170680,
+      "sha256": "d82f61139855d85522dd69781d3c26a6a8d2a4bc48b41b7406398c70a348e16c",
+      "restore_commit": "a2467421d341778650f22b356a22ef287c728b6f",
+      "original_report_identity_source": "pilot_process.native_files",
+      "format": "UTF-8 JSON derived readable row report",
+      "original_common_row": 1289,
+      "original_logical_file": "evidence/row-1289-exact-bump-Z-summary.json",
+      "original_run_id": "43610523058",
+      "original_run_attempt": "1",
+      "original_actual_status": "complete mathematical child, return code 0, all ten gates passed; both rows in the complete selected row list",
+      "role": "Exact report projection of a completed native row and its already completed subdivisions; not a native object, candidate, continuous-direction definition, coefficient definition, producer or active consumer input in the audited closed lists.",
+      "identity_audit": {
+        "current_path_blob_and_size": "Fresh recursive Git tree at restore_commit, truncated=false.",
+        "sha256": "Imported verbatim from the fully read original process.native_files entry; the target body was NOT fetched or independently rehashed in this review.",
+        "body_read": false,
+        "old_science_executed": false
+      },
+      "restore": {
+        "commit": "a2467421d341778650f22b356a22ef287c728b6f",
+        "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/evidence/row-1289-exact-bump-Z-summary.json",
+        "git_blob_sha": "d145750017d03c8d9233b7cf37dd5732ebca552e",
+        "bytes": 170680,
+        "sha256": "d82f61139855d85522dd69781d3c26a6a8d2a4bc48b41b7406398c70a348e16c",
+        "mode": "Restore the entire immutable blob to the identical original path before any future use; verify byte count, Git blob identity and full SHA256. Do not reconstruct science, regenerate the report, or run the original successful producer.",
+        "native_restore_not_needed_for_report_recovery": true
+      }
+    },
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/evidence/row-1524-exact-bump-Z-summary.json",
+      "git_blob_sha": "36be220e5e701bc168f07af65bf210ddc6664896",
+      "bytes": 170716,
+      "sha256": "200e28d3935785179fe75462bb41f16316c6988205a14283689f65c7ec73af2e",
+      "restore_commit": "a2467421d341778650f22b356a22ef287c728b6f",
+      "original_report_identity_source": "pilot_process.native_files",
+      "format": "UTF-8 JSON derived readable row report",
+      "original_common_row": 1524,
+      "original_logical_file": "evidence/row-1524-exact-bump-Z-summary.json",
+      "original_run_id": "43610523058",
+      "original_run_attempt": "1",
+      "original_actual_status": "complete mathematical child, return code 0, all ten gates passed; both rows in the complete selected row list",
+      "role": "Exact report projection of a completed native row and its already completed subdivisions; not a native object, candidate, continuous-direction definition, coefficient definition, producer or active consumer input in the audited closed lists.",
+      "identity_audit": {
+        "current_path_blob_and_size": "Fresh recursive Git tree at restore_commit, truncated=false.",
+        "sha256": "Imported verbatim from the fully read original process.native_files entry; the target body was NOT fetched or independently rehashed in this review.",
+        "body_read": false,
+        "old_science_executed": false
+      },
+      "restore": {
+        "commit": "a2467421d341778650f22b356a22ef287c728b6f",
+        "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/evidence/row-1524-exact-bump-Z-summary.json",
+        "git_blob_sha": "36be220e5e701bc168f07af65bf210ddc6664896",
+        "bytes": 170716,
+        "sha256": "200e28d3935785179fe75462bb41f16316c6988205a14283689f65c7ec73af2e",
+        "mode": "Restore the entire immutable blob to the identical original path before any future use; verify byte count, Git blob identity and full SHA256. Do not reconstruct science, regenerate the report, or run the original successful producer.",
+        "native_restore_not_needed_for_report_recovery": true
+      }
+    }
+  ],
+  "fresh_metadata_proof": {
+    "commit": "a2467421d341778650f22b356a22ef287c728b6f",
+    "commit_tree": "baa35b8608a8778b01e0858d8cf5032f609d5ef2",
+    "commit_message": "visible-flex: prove derivative-free frozen-cross-block positive-head tail",
+    "root_tree": {
+      "sha": "baa35b8608a8778b01e0858d8cf5032f609d5ef2",
+      "entry_count": 3,
+      "truncated": false,
+      "topics": {
+        "path": "topics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "981929fff99f80245ee420338e93964586039063",
+        "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/981929fff99f80245ee420338e93964586039063"
+      }
+    },
+    "topics_tree": {
+      "sha": "981929fff99f80245ee420338e93964586039063",
+      "entry_count": 7,
+      "truncated": false,
+      "topic": {
+        "path": "visible-flex-exact-nearby",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "506467cca5332b41912228fb2ba9f4a80523a594",
+        "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/506467cca5332b41912228fb2ba9f4a80523a594"
+      }
+    },
+    "topic_tree": {
+      "sha": "506467cca5332b41912228fb2ba9f4a80523a594",
+      "entry_count": 9,
+      "truncated": false,
+      "notes": {
+        "path": "notes",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "76efd935f93d61656a2f962cf47f9cb623e251ce",
+        "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/76efd935f93d61656a2f962cf47f9cb623e251ce"
+      }
+    },
+    "notes_recursive_tree": {
+      "sha": "76efd935f93d61656a2f962cf47f9cb623e251ce",
+      "entry_count": 5534,
+      "truncated": false,
+      "target_entries": [
+        {
+          "path": "exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/evidence/row-1289-exact-bump-Z-summary.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d145750017d03c8d9233b7cf37dd5732ebca552e",
+          "size": 170680,
+          "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs/d145750017d03c8d9233b7cf37dd5732ebca552e"
+        },
+        {
+          "path": "exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/evidence/row-1524-exact-bump-Z-summary.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "36be220e5e701bc168f07af65bf210ddc6664896",
+          "size": 170716,
+          "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/blobs/36be220e5e701bc168f07af65bf210ddc6664896"
+        }
+      ]
+    },
+    "no_target_body_or_binary_fetched": true
+  },
+  "original_success_evidence": {
+    "process_identity": {
+      "blob": "4be5609fae3f4668565a09101115b64c3aa3d977",
+      "bytes": 26043,
+      "sha256": "49e19cfbc099e3330c047438f95f70a17eb5ae70f60d026988a5aa3038d227db"
+    },
+    "run_id": "43610523058",
+    "run_attempt": "1",
+    "workflow_commit": "bb2009b9925b1787a72607a0f027c81e8cb29221",
+    "repository": "Rogerhu12/math-research-public",
+    "complete": true,
+    "actual_child_count": 1,
+    "child": {
+      "label": "actual_exact_bump_and_full_Z_sources_from_completed_scalar_jets",
+      "actual_returncode": 0,
+      "wall_seconds": 85.002589378,
+      "started_utc": "2026-11-14T15:31:19.979131+00:00",
+      "finished_utc": "2026-11-14T15:32:44.982218+00:00"
+    },
+    "worker_source_sha256": "1abd553afff8444552ce20e8948f9141da53a0ae3fb2a2632bd86c9008e6840f",
+    "input_manifest_sha256": "563fc148bf219581259eea090271c37f4760115cc6d09e40c0437a14ee93b7bd",
+    "mathematical_source_sha256": "2d45c2f100484f5a25fe50ec2d8ea2dcd601b79f1f151d4be116225d3284fcc8",
+    "native_sha256": "c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c",
+    "complete_gates": [
+      {
+        "name": "all_fixed_original_inputs_and_both_actual_completed_source_processes",
+        "passed": true
+      },
+      {
+        "name": "actual_completed_fixed_eta_native_and_process_are_unchanged",
+        "passed": true
+      },
+      {
+        "name": "same_complete_exact_continuous193_direction_and_full_interval_offset_bounds",
+        "passed": true
+      },
+      {
+        "name": "the_exact_original_forty_parts_and_all7721_cached_scalar_rows",
+        "passed": true
+      },
+      {
+        "name": "every_original_part_byte_hash_matches_both_completed_body_and_repair_natives",
+        "passed": true
+      },
+      {
+        "name": "all_original_physical_cubics_and_full193_response_mean_retained",
+        "passed": true
+      },
+      {
+        "name": "the_complete_original_joint_partition_is_unchanged",
+        "passed": true
+      },
+      {
+        "name": "same_fourteen_selected_rows_and_all_eighty_completed_target_calls_reused",
+        "passed": true
+      },
+      {
+        "name": "every_new_selected_direct_Fourier_low193_and_true_high_source_diagnostic_completed",
+        "passed": true
+      },
+      {
+        "name": "all_requested_new_fixed_eta_rows_and_four_subcells_completed",
+        "passed": true
+      }
+    ],
+    "completed_original_rows": [
+      0,
+      597,
+      1280,
+      1283,
+      1284,
+      1289,
+      1519,
+      1521,
+      1522,
+      1524,
+      1753,
+      3070,
+      5584,
+      6375
+    ],
+    "actual_selected_projection_gates": 10,
+    "actual_new_projection_child_executed": true,
+    "original_full_eta_target_certificates_recomputed": 0,
+    "new_target_provider_calls": 0,
+    "original_mean_flows_recomputed": 0,
+    "original_trial_reconstructions_recomputed": 0,
+    "exact_affine_parameter_offset": "0",
+    "physical_parameter": "fixed original physical eta0 and nu",
+    "complete_body_projection_cover": false,
+    "actual_finite193_response_error_bound_proved": false,
+    "complete_infinite_inverse_proved": false,
+    "unknown_high_inputs_not_removed": true,
+    "full_scope": "Only 14 selected original intervals and 40 previously existing fixed-parameter subcells were newly enveloped. The fixed original physical eta0 and nu are retained, full mean and known high outputs remain, qstar and continuous Z remain distinct. This pilot is not a 7721-row cover, full PDE-response error, true Schur complement, or infinite inverse.",
+    "original_target_output_metadata": [
+      {
+        "logical_file": "evidence/row-1289-exact-bump-Z-summary.json",
+        "file": "evidence/row-1289-exact-bump-Z-summary.json",
+        "bytes": 170680,
+        "sha256": "d82f61139855d85522dd69781d3c26a6a8d2a4bc48b41b7406398c70a348e16c"
+      },
+      {
+        "logical_file": "evidence/row-1524-exact-bump-Z-summary.json",
+        "file": "evidence/row-1524-exact-bump-Z-summary.json",
+        "bytes": 170716,
+        "sha256": "200e28d3935785179fe75462bb41f16316c6988205a14283689f65c7ec73af2e"
+      }
+    ]
+  },
+  "derived_report_proof": {
+    "producer": {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_bump_continuous_Z_source_pilot.py",
+      "git_blob_sha": "1fac6da3acf7116b5feef156adc845e072147e83",
+      "sha256": "2d45c2f100484f5a25fe50ec2d8ea2dcd601b79f1f151d4be116225d3284fcc8"
+    },
+    "projector": {
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_bump_continuous_Z_source_CI.py",
+      "git_blob_sha": "32ae5920ad624b919caf93af7b0f0041a241f70c",
+      "sha256": "1abd553afff8444552ce20e8948f9141da53a0ae3fb2a2632bd86c9008e6840f"
+    },
+    "function": "ExactBumpZWorker.prepare; nested compact(cell), followed by detail construction inside the result['rows'] loop",
+    "ordered_generation": [
+      "The complete native is read, checked complete, checked for no failure, source/input identity, no scope overclaim, all ten gates and all means.",
+      "compact(cell) only selects existing interval, raw-full residual, same saved mean, complete Z residual/transfer evidence, exact bump evidence and component record fields; upper(record) returns its existing upper string.",
+      "detail is formed from the same row plus the original saved per-row seconds and the already completed refinement children.",
+      "save(evidence/row-NNNN-exact-bump-Z-summary.json, detail) writes this derived report. No record in either target defines a new candidate, repair, or response object.",
+      "The parent full native retains all row details and all original scientific records. Future recovery of the targeted report uses the immutable same-path Git blob, without invoking either producer or projector."
+    ],
+    "target_not_native": true,
+    "target_not_canonical_definition": true,
+    "target_not_current_repair_or_initial_value": true,
+    "summary_of_scope_not_a_new_scientific_conclusion": true,
+    "no_exact_target_body_was_loaded": true
+  },
+  "downstream_dependency_audit": {
+    "source_identity": {
+      "blob": "c3c07b7b05488c2a389581ab6c07ff0642756af2",
+      "bytes": 26118,
+      "sha256": "90c90fb1b21806e803e61d5f850b1d8057fcadc577452d3454b05348500a697f"
+    },
+    "proof_identity": {
+      "blob": "f6d2a6ad9e00fa2e13bb3f6fed53e0dcbdf61d22",
+      "bytes": 5765,
+      "sha256": "6845d8f54208909e8b5ddf10977789106f68b635e4268cc16bd6f442e82875e7"
+    },
+    "process_identity": {
+      "blob": "df3beb2150d8eeb080a70198d22670472d41867f",
+      "bytes": 16343,
+      "sha256": "0cc2e8f876261c0fa86c0547b1400d47ad71759f43c7001b6359049827017f48"
+    },
+    "run_id": "43613560173",
+    "attempt": "1",
+    "complete": true,
+    "child_returncode": 0,
+    "complete_native_sha256": "365f0763d8f4c87182507c4372a3be055624607a77d818a084471b368b33d32e",
+    "complete_source_rows": 7721,
+    "gate_count": 6,
+    "consumed_pilot_native_sha256": "c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c",
+    "source_functions": [
+      "check_inputs",
+      "completed_pilot_candidates",
+      "plan",
+      "finish"
+    ],
+    "exact_consumption": "check_inputs reads a.pilot as the complete native with SHA c37a5796..., checks the original successful pilot process/source/manifest and ten gates, then reads oldpilot['rows']. The exact row summaries proposed here are not arguments or inputs to these functions.",
+    "retained_historical_use": "The complete pilot's fourteen rows and saved child data were used in the full 7721-row cover. These historical dependencies are explicitly retained; the proposal does not claim the mathematical pilot rows are unused.",
+    "no_recompute": "The old pilot rows are excluded from the four new row ranges and are reused in the final cover. Neither that computation nor any pilot row is to be repeated.",
+    "downstream_scope": "Complete known body source for the same continuous centre and Z, fixed original physical parameters, full means and known high outputs. Full response, infinite inverse, remaining boundary and high feedback stay unproved in that receipt.",
+    "publication_failure_retained": "The earlier plan run 43612904296 had a successful mathematical child but failed during summary-path publication. The downstream proof records that distinction and v2 reused its complete plan bytes. Nothing from that failed publication or its original process is selected for deletion.",
+    "body_or_native_read_for_this_audit": false
+  },
+  "current_scoped_dependency_checks": {
+    "matching_method": "Exact basename count in each already held complete UTF-8 text below, including any files/history fields. Counts are literal and do not claim a repository-wide transitive dependency search.",
+    "targets": [
+      "row-1289-exact-bump-Z-summary.json",
+      "row-1524-exact-bump-Z-summary.json"
+    ],
+    "audited_texts": [
+      {
+        "key": "WPTV_final_text",
+        "bytes": 21178,
+        "sha256": "dda500b8f5e2d02a39fbef4efcc5c2ad10dac93eef194f6e8d5b9b5a816cd0e9",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WPTV_inventory_text",
+        "bytes": 38086,
+        "sha256": "f7dd2ed019b30c076aa70ad1536601813095ef59bb504049d976eb0cd93b1547",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WOB_source_text",
+        "bytes": 69812,
+        "sha256": "a12df86cd736e03fc96f24b96c7e33d5167fb5fc34e503a4174ff1a7691d192c",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WOB_manifest_text",
+        "bytes": 15515,
+        "sha256": "390a39928b257267c744b890ebfd5e3889c037f613398c1e39499d53864fe5ff",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WOBS_SCI_text",
+        "bytes": 60416,
+        "sha256": "ba8e647cc4572333407b8979f98315e94dbab53ff2ff0086fe1d1dcdb0f17b79",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WOBS_execution_text",
+        "bytes": 15866,
+        "sha256": "b9022fe012e2e0f5db8186dda91a5ec1f2eb3222eb7af4ea02a9dd5ec41fdb57",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WMF_text",
+        "bytes": 15111,
+        "sha256": "14900631ba2d793977336fd5f7e8870e4313cbda50a8a8c3e02fa11b53054356",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WOB_final_text",
+        "bytes": 41683,
+        "sha256": "f13024a72e09d9b388fc51eac39d675b656d4d75ee72cdafe449a1c325e92979",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "key": "WPT_primary_body_text",
+        "bytes": 19660,
+        "sha256": "0df3ae7181d5ac8808928e9b0ed4bcf225fa3f80ae5df944b2a96a5e4d3ae117",
+        "occurrences": [
+          {
+            "target": "row-1289-exact-bump-Z-summary.json",
+            "count": 0
+          },
+          {
+            "target": "row-1524-exact-bump-Z-summary.json",
+            "count": 0
+          }
+        ]
+      }
+    ],
+    "unfrozen_future_consumer_manifests": "Not yet held; no claim that an unseen later manifest has been checked. Root must repeat literal path/target checks against the concrete active package before deletion.",
+    "historical_definition_and_native_dependencies": "Permitted historical dependence is documented above; it is not rewritten as absence.",
+    "peer_limited_reports": [
+      {
+        "peer": "phase_inverse",
+        "method": "Exact basename searches of already held complete text only; no fresh tree, report body or binary fetched.",
+        "complete_texts": [
+          {
+            "name": "WMF proof",
+            "bytes": 15111,
+            "blob": "2c4a1789195a1ea400ef7c547b319ea3f4f7329f"
+          },
+          {
+            "name": "WMR final science",
+            "bytes": 62958,
+            "identity_limit": "Full blob not supplied in this peer message; no independent pin assertion is added here."
+          },
+          {
+            "name": "WOB science",
+            "bytes": 69812,
+            "blob": "0c197aee49f6325e800adf3e4a7752d597ae08df"
+          },
+          {
+            "name": "WOB final manifest",
+            "bytes": 15515,
+            "blob": "4958b39b7e0eb693b24e040e38180ce050d16653"
+          }
+        ],
+        "both_exact_basename_counts": 0,
+        "draft_only": {
+          "name": "WMT complete current sections 1–7",
+          "bytes": 22104,
+          "both_exact_basename_counts": 0,
+          "not_frozen_manifest": true
+        },
+        "no_unseen_final_manifest_or_repository_wide_claim": true
+      },
+      {
+        "peer": "newton_source",
+        "method": "Exact basename searches of four already held complete texts; no large body fetched.",
+        "complete_texts": [
+          {
+            "name": "WPTV final",
+            "bytes": 21178,
+            "blob": "ddccd14e855ba95048fe92cbd21edfb82ebd8e6f"
+          },
+          {
+            "name": "WPTV inventory",
+            "bytes": 38086,
+            "blob": "18ec6014b06315aaf24cf9068e6fa31e05e6025a"
+          },
+          {
+            "name": "WPT final",
+            "bytes": 22954,
+            "blob": "b37c59bc05a2131b27014f37c1a6555d6f7e2c58"
+          },
+          {
+            "name": "WHV inventory",
+            "bytes": 23789,
+            "blob": "18428ac8d144863cf831a10eb8af17e51d3c2ddc"
+          }
+        ],
+        "both_exact_basename_counts": 0,
+        "new_consumer_source_not_yet_frozen": true,
+        "no_unseen_final_manifest_or_repository_wide_claim": true
+      }
+    ]
+  },
+  "native_and_other_outputs_not_touched": {
+    "original_complete_native": {
+      "logical_path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/native/exact-bump-and-continuous-Z-source-pilot.json.gz",
+      "bytes": 11802184,
+      "sha256": "c37a5796a3829dfab1846928041f6a91472dc47f20e02f8a2a4080198b574b1c",
+      "kind": "actual_exact_rational_bump_and_full_continuous_Z_residual_pilot_v1",
+      "complete": true,
+      "failure": null,
+      "complete_rows": 14,
+      "parts_manifest": {
+        "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts.json",
+        "blob": "3ebc945931dcadf726f304d024f25fde9f2115f9",
+        "bytes": 3106,
+        "sha256": "609916ea862b638d291a643f7766a05dcb157ac491aa41fbc94765451316bfbe"
+      }
+    },
+    "actual_current_status": "The six binary chunk names listed in the preserved parts manifest are already absent from the current complete recursive notes tree before this proposal. This review does not fetch, delete, restore or reclassify them and does not claim they are currently present.",
+    "six_prior_chunk_identities_retained": [
+      {
+        "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part000.bin.gz",
+        "index": 0,
+        "offset": 0,
+        "bytes": 2000000,
+        "sha256": "06ed48b729ab2091c2c44bdce8fc2d8869a3f48052352472d3b6d7a1ed26d17a",
+        "compressed_bytes": 2000148,
+        "compressed_sha256": "69f930a182e2d41d4b7eb9266f97429a4885a084a78021080e465934fbf1efa0"
+      },
+      {
+        "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part001.bin.gz",
+        "index": 1,
+        "offset": 2000000,
+        "bytes": 2000000,
+        "sha256": "f248d0b436da65cef98945cf8a77d3ea6c573b4831ba91b5b26db9097e3fdc33",
+        "compressed_bytes": 2000154,
+        "compressed_sha256": "f6bb90821c77a37f81f3873f6d3775623284b0a6d240554c924421cb1accf7a4"
+      },
+      {
+        "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part002.bin.gz",
+        "index": 2,
+        "offset": 4000000,
+        "bytes": 2000000,
+        "sha256": "626856b429f148f50f09110da44903462f2e052fa7ea377edbcd52a8463999cd",
+        "compressed_bytes": 2000296,
+        "compressed_sha256": "4238df1b42c1d0b5841e0719e5ca62d3e1227511c5a61506c1d3c486537fbfc5"
+      },
+      {
+        "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part003.bin.gz",
+        "index": 3,
+        "offset": 6000000,
+        "bytes": 2000000,
+        "sha256": "013e552bfe066c57f0a8bd3f77600343da6a08fcea0a7e5c57c73a2baae1304b",
+        "compressed_bytes": 2000295,
+        "compressed_sha256": "b7c680c96ba8bc00e74bfae47bf961273038f430bd739153ef082fa4b4fbeb48"
+      },
+      {
+        "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part004.bin.gz",
+        "index": 4,
+        "offset": 8000000,
+        "bytes": 2000000,
+        "sha256": "7116ed638ef38a8ee6ac3debae722bc2df081538f0ecb635f4a3953962d4a09c",
+        "compressed_bytes": 2000310,
+        "compressed_sha256": "a094a6f3b8b055cdeb8f056e26e1977f191da2dc5587c7b6f3e0edc545073739"
+      },
+      {
+        "file": "native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts-part005.bin.gz",
+        "index": 5,
+        "offset": 10000000,
+        "bytes": 1802184,
+        "sha256": "9e48f94b6c321917bd0883d4fe4efc22cb496f0fa69d6572f809df18206c082b",
+        "compressed_bytes": 1802723,
+        "compressed_sha256": "a91662c72183b3b53e7d6353efd3a4aef45ad61f713b18d5d28f590937a7ba89"
+      }
+    ],
+    "complete_pilot_summary_not_target": {
+      "logical_file": "evidence/exact-bump-and-continuous-Z-source-pilot-summary.json",
+      "file": "evidence/exact-bump-and-continuous-Z-source-pilot-summary.json",
+      "bytes": 105167,
+      "sha256": "9b07a2144f3492558de17530971d1141733fb1cb97876aa69748488fba15f853"
+    },
+    "proofs_processes_gates_native_metadata_sources_and_manifests_all_retained": true,
+    "all_other_twelve_row_summaries_retained": true,
+    "candidate_ac1_full_response_ed42_continuous_Z_definition_and_physical_mean_all_retained": true,
+    "all_prior_success_and_failure_conclusions_retained": true,
+    "two_previously_deleted_first_span_reports_outside_this_whitelist": true
+  },
+  "full_small_primary_evidence": [
+    {
+      "role": "original complete pilot success and scope",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-exact-bump-and-complete-Z-source-pilot.md",
+      "git_blob_sha": "f229f5e4403d53f8991ca29257b64c485d9a372d",
+      "bytes": 4994,
+      "sha256": "3093fc037d18bd7351f49cc07a357450d3b2a651646225a8d7ce8cde7e6bf853",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original mathematical producer; retained without import or invocation",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_bump_continuous_Z_source_pilot.py",
+      "git_blob_sha": "1fac6da3acf7116b5feef156adc845e072147e83",
+      "bytes": 31302,
+      "sha256": "2d45c2f100484f5a25fe50ec2d8ea2dcd601b79f1f151d4be116225d3284fcc8",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original pure projection to row summaries after native success",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_exact_bump_continuous_Z_source_CI.py",
+      "git_blob_sha": "32ae5920ad624b919caf93af7b0f0041a241f70c",
+      "bytes": 16119,
+      "sha256": "1abd553afff8444552ce20e8948f9141da53a0ae3fb2a2632bd86c9008e6840f",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original successful process and exact output bytes/SHA256",
+      "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/process.json",
+      "git_blob_sha": "4be5609fae3f4668565a09101115b64c3aa3d977",
+      "bytes": 26043,
+      "sha256": "49e19cfbc099e3330c047438f95f70a17eb5ae70f60d026988a5aa3038d227db",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original complete 136-file input closure",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-exact-bump-continuous-Z-source-pilot-CI-inputs.json",
+      "git_blob_sha": "e85295c11f4b6fecf9b118c5172768f41ecc3092",
+      "bytes": 29228,
+      "sha256": "563fc148bf219581259eea090271c37f4760115cc6d09e40c0437a14ee93b7bd",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original selected-row domain, full means, source/object distinctions",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-14-R133-exact-bump-continuous-Z-source-pilot-contract.md",
+      "git_blob_sha": "2331de6d302c5fb367c51808489b079f48068497",
+      "bytes": 9331,
+      "sha256": "f29b5f955826e8c04972b4a28a46dfb35facf120f702f9fbf30d3bd55fe37dda",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original complete 10 gates and 14-row list",
+      "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/evidence/actual-latest-child-outcome.json",
+      "git_blob_sha": "6a3b97c0d8739fcf69348280543b07c9e5f20839",
+      "bytes": 1503,
+      "sha256": "886c7dfbe20599c6c74b788bca1f32d3db4412c00d7061d4a6cde2028abcca03",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original immutable native identity and six lossless chunk identities; no chunk body fetched",
+      "path": "topics/visible-flex-exact-nearby/notes/exact_bump_Z_source_ci/run-43610523058-1-exact-bump-and-continuous-Z-source-pilot/native-exact-bump-and-continuous-Z-source-pilot.json.gz-c37a5796a3829dfa-parts.json",
+      "git_blob_sha": "3ebc945931dcadf726f304d024f25fde9f2115f9",
+      "bytes": 3106,
+      "sha256": "609916ea862b638d291a643f7766a05dcb157ac491aa41fbc94765451316bfbe",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "complete 7721-row downstream success, exact pilot reuse, limitations",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-actual-complete7721-continuous-Z-source-cover.md",
+      "git_blob_sha": "f6d2a6ad9e00fa2e13bb3f6fed53e0dcbdf61d22",
+      "bytes": 5765,
+      "sha256": "6845d8f54208909e8b5ddf10977789106f68b635e4268cc16bd6f442e82875e7",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "downstream native consumption and exact exclusion of previously completed pilot rows",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_complete_mixed_Z_source_cover.py",
+      "git_blob_sha": "c3c07b7b05488c2a389581ab6c07ff0642756af2",
+      "bytes": 26118,
+      "sha256": "90c90fb1b21806e803e61d5f850b1d8057fcadc577452d3454b05348500a697f",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    },
+    {
+      "role": "original successful downstream finish and complete known-source scope",
+      "path": "topics/visible-flex-exact-nearby/notes/complete_Z_source_v2_ci/run-43613560173-1-complete-Z-sources-finish/process.json",
+      "git_blob_sha": "df3beb2150d8eeb080a70198d22670472d41867f",
+      "bytes": 16343,
+      "sha256": "0cc2e8f876261c0fa86c0547b1400d47ad71759f43c7001b6359049827017f48",
+      "full_text_read": true,
+      "body_under_100000_bytes": true
+    }
+  ],
+  "static_checks": {
+    "target_count": 2,
+    "target_bytes": 341396,
+    "target_restore_current_blob_and_size": true,
+    "source_and_manifest_match": true,
+    "complete_success": true,
+    "both_rows_completed": true,
+    "source_bindings": true,
+    "downstream_complete": true,
+    "readonly_paths_excluded": true,
+    "evidence_hash_paths": true
+  },
+  "required_root_publication_and_guard": [
+    "Read this entire whitelist and the complete small primary evidence needed to verify original success, the report-only projection and exact restoration. Do not fetch either oversized target.",
+    "Publish this whitelist on main before any target deletion, preserving the mathematical scope and restoration tuples.",
+    "Fetch fresh current head and exact target path metadata. Both current blobs and sizes must equal this whitelist; stop if either identity changed or an active consumer now requires a target.",
+    "Check the same original process SHA and its exact target SHA256 entries. This review imports those SHA256 values honestly rather than claiming a large-body rehash.",
+    "Delete only the two explicitly named paths by an ordinary reversible Git commit. No directory deletion, history rewrite, native/source/proof alteration, mathematical execution, or rerun.",
+    "After deletion, recheck exact changed-path set, current topic byte delta, and preservation of the whitelist and all small proofs/processes/sources.",
+    "Any future use must restore the entire same-path target from a2467421d341778650f22b356a22ef287c728b6f and verify bytes, Git blob and SHA256 before consumption. Never regenerate successful scientific work."
+  ],
+  "no_math_execution": true,
+  "no_binary_or_gzip_fetched": true,
+  "no_over_100000_byte_body_fetched": true,
+  "no_main_mutation": true,
+  "no_deletion_performed": true,
+  "new_mathematical_claims_granted": false,
+  "root_review": {
+    "complete_whitelist_read": true,
+    "complete_primary_texts_read": [
+      "f229f5e4403d53f8991ca29257b64c485d9a372d",
+      "32ae5920ad624b919caf93af7b0f0041a241f70c",
+      "4be5609fae3f4668565a09101115b64c3aa3d977",
+      "6a3b97c0d8739fcf69348280543b07c9e5f20839",
+      "f6d2a6ad9e00fa2e13bb3f6fed53e0dcbdf61d22"
+    ],
+    "root_complete_raw_identities_verified": true,
+    "original_process_child_and_scope_and_all_target_sha_entries_checked": true,
+    "old_ten_gates_and_both_complete_original_rows_checked": true,
+    "pure_projector_full_text_checked": true,
+    "remaining_primary_evidence": "Tail's independent full eleven-object read retained as listed; root does not claim an additional execution or oversized-body read.",
+    "active_complete_text_count": 8,
+    "active_scan_canonical_sha256": "e59168c7d17c8ada69521eb90fbf2409775766d835a5e4e47701a1af9ae1a653",
+    "both_exact_basename_counts": 0,
+    "typed_worker_final": {
+      "git_blob_sha": "06a23e3d65cd32cc85506af8d780b790034421e6",
+      "bytes": 29035,
+      "sha256": "0699ff330b6a1abd0fe369a81679dd816bcd4a922e2c2a959c631ace53a78c36"
+    },
+    "future_unseen_manifest_not_admitted": true,
+    "large_bodies_fetched": 0,
+    "science": 0
+  },
+  "byte_accounting": {
+    "target_bytes": 341396,
+    "whitelist_bytes": 36380,
+    "net_before_journal_changes": 305016,
+    "metadata_only": true
+  }
+}
