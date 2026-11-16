@@ -86,3 +86,6 @@
 
 
 - [R878](results/R878-original-first-factor-level867-coordinate-certificate.md)：原第一F在X10404→B867的18覆盖上，w4常值由与R交换及无理3挠排零，整个S3为真sign；V=η12y、H=f³η12下降原M12。真实germ及8ΔC³=H B²(A²−17ΔB²)²保E2/2、6与17，低末端204k+612/全末端612(k+6)；同M2乘积基可执行，不预设Manin1或degree1296，独立公开producer已启动。
+
+
+- [R874§12.1](results/R874-original-cusp-integral-hecke-ideal-and-low-degree-return.md)：β³−7β²+5β−2给真整幂基OF=Z[β]，相对(1,a,t)换基det−1。原全部归一化H_u/λ系数的Z-模准确β⁻¹OF，所有系数乘2整、唯一负赋值位恰前述范数2位；Néron输入系数模为OF，未认形式积分或实际Hom。

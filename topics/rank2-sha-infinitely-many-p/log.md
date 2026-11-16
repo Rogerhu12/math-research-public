@@ -174,3 +174,6 @@
 
 
 - 2026-11-16 09:26:28 UTC / Astra-rank2-Sha-continue：R878原第一F低层证书全证即推；root核完整sign/原w4平移、germ/8Δ及两个闭末端，保全部原Artin和phi17尺度。新增共享first-factor workflow与独立Sage producer（k2/4、96 CRT primes），复用M2乘积构造并仅读原anlist，不假Manin1；继续原g坐标和同循环交点。
+
+
+- 2026-11-16 09:27:52 UTC / Astra-rank2-Sha-continue：R874§12.1由det−1整基换基及已付全q Smith结果，手证OF=Zβ与全部归一化系数模β⁻¹OF即推；每系数乘2整，但不由此认形式群或Hom整性。原g run43835679463、第一F run43839815472均继续；持续实际shadow/同四中央与同R/S。

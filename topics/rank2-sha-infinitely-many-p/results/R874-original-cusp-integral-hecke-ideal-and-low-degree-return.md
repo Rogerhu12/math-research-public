@@ -626,3 +626,57 @@ $$
 它简化实际坐标及其有限域消费；实际 $\Xi_{u_*}$ 的整性
 仍只由完整曲线证书决定。R875 已独立将其准度数准确识别为376，
 并证明这是整个 $I_\infty$ 的最小值，不能反过来以 (35) 认定映射存在。
+
+
+### 12.1 一个整幂基与归一化 Fourier 系数的精确分母
+
+(33) 的 $\beta$ 还给 $\mathcal O_F$ 的整幂基。相对于已付整数基
+$(1,a,t)$，三列 $(1,\beta,\beta^2)$ 的矩阵为
+$$
+\begin{pmatrix}
+1&2&11\\
+0&1&7\\
+0&1&6
+\end{pmatrix},
+\qquad \det=-1.
+\tag{38}
+$$
+所以
+$$
+\boxed{\mathcal O_F=\mathbf Z[\beta],\qquad
+a=\beta^2-6\beta+1,\quad t=7\beta-\beta^2-3.}
+\tag{39}
+$$
+这是整基之间的真 unimodular 换基，不以浮点判别式辨认整数环。
+于是当前小目标也有完全整系数的表达
+$$
+v_{\rm new}=-13\beta^2+89\beta-50.
+\tag{40}
+$$
+
+更强地，原归一化输入的所有 Fourier 系数的 $\mathbf Z$-张成模
+准确是
+$$
+\boxed{
+\operatorname{span}_{\mathbf Z}
+\{[q^m](H_{u_*}/\lambda):m\ge1\}
+=\beta^{-1}\mathcal O_F,\qquad
+\beta^{-1}=\frac{\beta^2-7\beta+5}{2}.
+}
+\tag{41}
+$$
+证明是：§11 的完整 Smith 结果给
+$I_\infty=B_0^{-1}\mathbf Z^3$，因此
+$\lambda(I_\infty)=a\mathcal O_F$。
+由 (8)、(29)，
+$\operatorname{span}_{\mathbf Z}\{\lambda(u_*a_m)\}
+=\lambda(u_*\mathcal O_E)=a\mathcal O_F$。
+再除以 $\lambda=e a\beta$，利用 $e$ 是整数单位，得到 (41)。
+最后的逆式直接由 $\beta^3-7\beta^2+5\beta-2=0$ 给出。
+
+因此在整幂基 (39) 中，当前 $f(Q)$ 的每一系数乘2后均为整数；
+唯一可能分母位是 (35) 已辨认的那枚范数2素理想，赋值最多为负一。
+而 (37) 的 Néron 输入 $H_{u_*}/(ae)$ 的全部系数恰张成
+$\mathcal O_F$。这些是全部 q 系数的精确格断言，不是有限前缀观察。
+(41) 不赋形式积分或真实 Hom 的整性；它同时解释了为何不能把
+当前首项一输入的系数都预设成 $\mathcal O_F$-整数。
