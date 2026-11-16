@@ -184,3 +184,7 @@
 
 - **R271移动第一远孔的全部头Bessel行及同源费用必要律（2026-11-16，已证明）：** [完整原物理交叉与matched配对](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)在同一个$H$上给$\beta_x\beta_y^*=\sqrt{S_y/S_x}J_{x,y}^*$，几何尾起点使$\sum_m\|\beta_{x_m}w\|^2\le(1+\rho)/(1-\rho)\|w\|^2$，不限制各头维数。保真实$g_m=C_m^*t_m+\ker C_m$及全部cut，原$R=d,Q=4h^2,n_0=2h^2$使归一误差平方可和，故$\sum|\Phi_m|^2/\gamma_m^2<\infty$，$\gamma_m^2=S_{x_m}\|t_m\|^2$。固定物理测试或同一$w$的强头锚非零时必有$\sum\gamma_m^{-2}<\infty$；若能支付真平方费$Cm\log(m+1)$才可反证，本稿未付该费用。根全文核验，无数值运行；原真空来源、完整Green及$N=M$继续。
 
+
+
+- **R150原Bell自然幂与齐次参数幂的精确来源定理（2026-11-16，已证明）：** [自由三分量及全部原来源提取](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)给$A[t]/(\mathcal J,b-t^3)=C\oplus Ct\oplus Ct^2$，所以$t^K\in\mathcal I$当且仅当$b^{\lfloor K/3\rfloor}\in\mathcal J$。对原十八来源取$t^3-b$余数的第$r$分量，得到无参数除法的十七梯度自然幂恒等；其权恰$3\lfloor K/3\rfloor$。最小自然幂$q_0$若存在，完整Bell一单位来源的最小加权层恰$3q_0$。复用原完整3520×388源/三目标的模127秩388/391，在实际$d=100$下$(1,100,94)$平方仍非零，故该处及$E$/三个复嵌入均排全部$K\le8$纯参数源。候选中一列完整十八原乘回已足正证；其它配对只用于另行证明标准基完备，负结论仍须完整门。纯代数证明、normal全文独审，无新数学运行或自然幂正证。
+
