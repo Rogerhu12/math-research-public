@@ -22,6 +22,8 @@ R397/186的128接受与完整576 audit不能补112/338；[R424/199](results/R424
 
 [R454](results/R454-complete39-necessary-scalar-tables-and-single-readback.md)helper9840e9ae/worker59276c9e/recipe23535486保全部原必要trial/失败地址/FD收缩/观察器错误/末三词，只去固定字段重复；canonical完全相等才共用，保类型/正负零，null不表示通过。[206](notes/2026-11-16-request206-original39-eight-pairs-and-single-table-summary-interface.md)request056fc24b/workflow9a3b52bc保原105pins加至108，只从真实98的809042943B artifact两父重生。八组原39/17α/1200/600/90/30/4096角/10500秒、175step/195job、原3b8规则/quiet/单90KB与超限70不变；不保证摘要必装下。run43797755759/sourcee8e4be9f5cd3885399453b8945ea750b1a365ce4已启动，R455/exact唯一终态，无新数值预填。
 
+**208实际运行已绑定。** [208完整入口](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)实际推送source `9b05bfc5160bf667cde0cb0ba059b0c8b0332bd5`，官方公开Actions [run43804793905](https://github.com/Rogerhu12/math-research-public/actions/runs/43804793905)于2026-11-16T04:33:13Z启动；compute133092971995前1–9步骤成功，04:36官方metadata显示第10步原完整112科学运行，必要读回/清理待起。exact唯一R467终态读者；不读运行中大日志，不把执行状态补成正H/J、试步、完整接受或README完成。最新官方topic tree dfd45860420f4195615573af1c13e30f45d50785为9224blobs/198353626B、9598entries且未截断。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。
