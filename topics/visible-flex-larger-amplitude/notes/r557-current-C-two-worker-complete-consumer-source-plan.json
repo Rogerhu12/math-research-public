@@ -1,0 +1,2775 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "R557-current-C-two-worker-complete-consumer-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Complete explicit downstream registration after the frozen R556 sampler. The mathematical sources change only their actual current filenames, digests and current sampler schema; successful native/full453/frozen450/refinement/metric/reach/held gates stay original. The base necessary reader additionally selects actual two-worker ownership and all uncommitted scope with its pinned metadata helper. Old public and generated sources remain actual source ancestors.",
+  "frozen_literal_engine": {
+    "file": "root_20261116_current_C_zero_linear_source_views.py",
+    "bytes": 11895,
+    "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+  },
+  "required_public_sources": [
+    {
+      "file": "root_20261116_current_C_two_worker_necessary_scope.py",
+      "bytes": 14198,
+      "sha256": "0130048a2914a81a5c4d2ec745c86f264f0ce58c3c3ec21c4e62c500872a331c"
+    },
+    {
+      "file": "geometry_20261116_current_C_two_worker_far_propagation.py",
+      "bytes": 50793,
+      "sha256": "563022ef9b22ef547ebb800d0689ef4530345f5a728216f47b2239cb1c3eb5c8"
+    }
+  ],
+  "semantic_schema_rebindings": {
+    "request217-actual220-same-C-complete-head-and-cut-refinement-v1": "request230-actual220-same-C-complete-head-and-cut-refinement-v1",
+    "REQUEST217_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY": "REQUEST230_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY",
+    "request217-same-C-refined-leaf-target-cut-v1": "request230-same-C-refined-leaf-target-cut-v1",
+    "request217-same-C-refined-leaf-actual220-metric-family-v1": "request230-same-C-refined-leaf-actual220-metric-family-v1",
+    "request217-same-semantic-C-recomputed-head-tail-queries-v1": "request230-same-semantic-C-recomputed-head-tail-queries-v1",
+    "request217-same-C-original112-live-complete-metric-v1": "request230-same-C-original112-live-complete-metric-v1",
+    "REQUEST217_RECOMPUTED_C_ORIGINAL112_METRIC": "REQUEST230_RECOMPUTED_C_ORIGINAL112_METRIC",
+    "request217-same-C-resolution112-live-complete-metric-v1": "request230-same-C-resolution112-live-complete-metric-v1",
+    "REQUEST217_RECOMPUTED_C_RESOLUTION112_METRIC": "REQUEST230_RECOMPUTED_C_RESOLUTION112_METRIC",
+    "request217-same-C-incremental_M-live-complete-metric-v1": "request230-same-C-incremental_M-live-complete-metric-v1",
+    "REQUEST217_RECOMPUTED_C_INCREMENTAL_M_METRIC": "REQUEST230_RECOMPUTED_C_INCREMENTAL_M_METRIC",
+    "request217-fixed-target-recomputed-C-metric-evidence-v1": "request230-fixed-target-recomputed-C-metric-evidence-v1",
+    "REQUEST217_RECOMPUTED_C_FIXED_TARGET_EVIDENCE": "REQUEST230_RECOMPUTED_C_FIXED_TARGET_EVIDENCE",
+    "request220-actual202-coast-base-zero-linear-coast-closed-postsolve-v1": "request230-actual202-bound-coast-closed-postsolve-v1",
+    "request220-zero-linear-coast-closed-postsolve-readback-complete-v1": "request230-bound-coast-closed-postsolve-readback-complete-v1",
+    "REQUEST220_CLOSED_POSTSOLVE_METADATA": "REQUEST230_CLOSED_POSTSOLVE_METADATA",
+    "current-C-pruefer-joint-nominal-row-physical-radial-samples-and-general-far-v1": "R556-current-C-two-worker-joint-physical-radial-samples-and-general-far-v1",
+    "current-C-complete-physical-point-sampling-scope-full453-necessary-readback-v1": "R557-current-C-two-worker-complete-physical-point-scope-full453-necessary-v1",
+    "R505-actual202-coast-base-zero-linear-ten-two-phase-necessary-readback-v1": "R557-actual202-two-worker-complete-ten-two-phase-necessary-readback-v1"
+  },
+  "view_count": 57,
+  "literal_patches": {
+    "p0001": {
+      "before": "def actions():\n",
+      "after": "R557_SCOPE_NAME = \"root_20261116_current_C_two_worker_necessary_scope.py\"\nR557_SCOPE_SHA = \"0130048a2914a81a5c4d2ec745c86f264f0ce58c3c3ec21c4e62c500872a331c\"\n_R557_SCOPE = None\n\n\ndef r557_parallel_scope_helper():\n    global _R557_SCOPE\n    if _R557_SCOPE is None:\n        path = Path(__file__).resolve().with_name(R557_SCOPE_NAME)\n        raw = path.read_bytes()\n        require(sha(raw) == R557_SCOPE_SHA,\n            \"Use the actual complete two-worker necessary-scope source\")\n        spec = importlib.util.spec_from_file_location(\"_R557_two_worker_scope\", path)\n        module = importlib.util.module_from_spec(spec)\n        sys.modules[spec.name] = module\n        try:\n            spec.loader.exec_module(module)\n        except BaseException:\n            sys.modules.pop(spec.name, None)\n            raise\n        _R557_SCOPE = module\n    return _R557_SCOPE\n\n\ndef actions():\n"
+    },
+    "p0002": {
+      "before": "def unpaid_view(row,index,line_sha):\n    keep=",
+      "after": "def unpaid_view(row,index,line_sha):\n    if row.get(\"kind\") == \"actual-parallel-mode-not-globally-committed\":\n        return r557_parallel_scope_helper().uncommitted_row(\n            row,index,line_sha,state_view,last_failure)\n    keep="
+    },
+    "p0003": {
+      "before": "    result[\"actual_result\"]=record\n    for key in (\"actual_far_modes_attempted\",\"actual_far_modes_completed\",",
+      "after": "    result[\"actual_result\"]=record\n    for key in (\"actual_two_worker_source\",\"original_serial_sampler_source_sha256\",\n            \"actual_far_mode_row_scope\",\"actual_far_worker_started_modes\",\n            \"actual_far_worker_entry_modes\",\"actual_started_uncommitted_far_modes\"):\n        if key in doc:\n            result[key]=doc[key]\n    if \"actual_mode_parallelism\" in doc:\n        result[\"actual_mode_parallelism\"]=r557_parallel_scope_helper().parallel_scope(\n            doc[\"actual_mode_parallelism\"],directory,identity,state_view,last_failure)\n    for key in (\"actual_far_modes_attempted\",\"actual_far_modes_completed\","
+    },
+    "p0004": {
+      "before": "SOURCE_PINS={\n",
+      "after": "SOURCE_PINS={\n    \"root_20261116_current_C_two_worker_necessary_scope.py\":\"0130048a2914a81a5c4d2ec745c86f264f0ce58c3c3ec21c4e62c500872a331c\",\n    \"geometry_20261116_current_C_two_worker_far_propagation.py\":\"563022ef9b22ef547ebb800d0689ef4530345f5a728216f47b2239cb1c3eb5c8\",\n"
+    },
+    "p0005": {
+      "before": "    if doc is None:\n        return dict(available=False,actual_result=record,no_missing_geometry_inferred=True)\n",
+      "after": "    if doc is None:\n        return dict(available=False,actual_result=record,no_missing_geometry_inferred=True,\n            actual_mode_parallelism=r557_parallel_scope_helper().recover_parallel_scope(\n                directory,identity,state_view,last_failure))\n"
+    },
+    "p0006": {
+      "before": "          \"all_pending_closed_fragments\",\"retained_original_leaf_rows\",\"complete_point_not_returned\")",
+      "after": "          \"all_pending_closed_fragments\",\"retained_original_leaf_rows\",\"complete_point_not_returned\",\n          \"actual_started_but_not_globally_committed_modes\",\"actual_parallel_mode_scope_in_report\")"
+    },
+    "p0007": {
+      "before": "current-C-pruefer-joint-nominal-row-physical-radial-samples-and-general-far-v1",
+      "after": "R556-current-C-two-worker-joint-physical-radial-samples-and-general-far-v1"
+    },
+    "p0008": {
+      "before": "current-C-complete-physical-point-sampling-scope-full453-necessary-readback-v1",
+      "after": "R557-current-C-two-worker-complete-physical-point-scope-full453-necessary-v1"
+    },
+    "p0009": {
+      "before": "geometry_20261116_current_C_joint_gzip_radial_sampling.py",
+      "after": "geometry_20261116_current_C_two_worker_joint_gzip_radial_sampling.py"
+    },
+    "p0010": {
+      "before": "21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6",
+      "after": "c90137cdb2da1159338838a68c04156dc24046d306798c1cada8da85df624f69"
+    },
+    "p0011": {
+      "before": "geometry_20261116_current_C_zero_linear_gzip_joint_native_worker.mjs",
+      "after": "geometry_20261116_current_C_parallel234_first_worker.mjs"
+    },
+    "p0012": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_same_far_gzip_resampling.py",
+      "after": "geometry_20261116_current_C_parallel234_same_sampler.py"
+    },
+    "p0013": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far_native_worker.mjs",
+      "after": "geometry_20261116_current_C_parallel234_same_worker.mjs"
+    },
+    "p0014": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_incremental_M_gzip_far_union.py",
+      "after": "geometry_20261116_current_C_parallel234_union_sampler.py"
+    },
+    "p0015": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_native_worker.mjs",
+      "after": "geometry_20261116_current_C_parallel234_union_worker.mjs"
+    },
+    "p0016": {
+      "before": "3a048bc2c2e18f19516171f420510a2383519c1a0912aee237463c05f0eb778e",
+      "after": "281cbb23d16d07ff415524fad93f4910f0d9b3b6fb9c0aeba2e20e8f4453ae2c"
+    },
+    "p0017": {
+      "before": "geometry_20261116_current_C_zero_linear_gzip_joint_tail_client.py",
+      "after": "geometry_20261116_current_C_parallel234_first_client.py"
+    },
+    "p0018": {
+      "before": "3870315a04182550272001150d4faf0b2511846a31643a592df2af54f85cfbdb",
+      "after": "7a05067fc07989c610c8c93afa016424c749c5b233c0712a4391a136ba926eaa"
+    },
+    "p0019": {
+      "before": "geometry_20261116_actual202_coast_base_zero_linear_gzip_ten_full453_frozen450.py",
+      "after": "geometry_20261116_current_C_parallel234_first_driver.py"
+    },
+    "p0020": {
+      "before": "bf5e988d5bc40e3777533bc2e3abfc137b3609333fff9c923df55a0a76f0ad17",
+      "after": "e01bd3c2c93f3cfd9eabb178f8eeca3f4008b966807cd291969bb09259b8b5ca"
+    },
+    "p0021": {
+      "before": "geometry_20261116_current_C_zero_linear_gzip_joint_full453_physical_dn.py",
+      "after": "geometry_20261116_current_C_parallel234_first_legacy.py"
+    },
+    "p0022": {
+      "before": "geometry_20261116_actual202_zero_linear_gzip_ten_live_full_DN_hooks.py",
+      "after": "geometry_20261116_current_C_parallel234_first_hook.py"
+    },
+    "p0023": {
+      "before": "503232498df942ff818c79e7f96d4a9e4c9d68d27fe91b9f8c1c1db1bee06516",
+      "after": "ff3fde1abca8855eb8cd513f3f15cfe905dbffd5c824a570ed9e20b2b998cd6d"
+    },
+    "p0024": {
+      "before": "geometry_20261116_actual202_coast_base_zero_linear_gzip_accurate_ten_candidate.py",
+      "after": "geometry_20261116_current_C_parallel234_candidate.py"
+    },
+    "p0025": {
+      "before": "237882e9fee9943e11b897c52118087753eb1d63e5c917e7382f14b5e8cb9399",
+      "after": "679ea7073599a2d739a0387bbbd0fe5ff4a6043e3ab223525f82ec94baf3818b"
+    },
+    "p0026": {
+      "before": "b754fc536d00e90e8e18ecb1f160bb01f635b0ba2b77b2f685a942b7df942d6c",
+      "after": "e1a2c01438ad2f509d7dbc1c9055cbdc6e7065cc731025d003d2c8b571d183d1"
+    },
+    "p0027": {
+      "before": "R505-actual202-coast-base-zero-linear-ten-two-phase-necessary-readback-v1",
+      "after": "R557-actual202-two-worker-complete-ten-two-phase-necessary-readback-v1"
+    },
+    "p0028": {
+      "before": "root_20261116_current_C_gzip_sampling_scope_necessary_readout.py",
+      "after": "root_20261116_current_C_parallel234_base_reader.py"
+    },
+    "p0029": {
+      "before": "47a1c4438a2f1d66733daf46f10da2cbb0f65c4912822e0e42402033d05a4149",
+      "after": "398993423ef0465ade0ac3e3537260a488c3d6f8126743bedee730874c936cec"
+    },
+    "p0030": {
+      "before": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_ten_full453_frozen450_launch.py",
+      "after": "geometry_20261116_current_C_parallel234_first_launcher.py"
+    },
+    "p0031": {
+      "before": "d8dc4e9158610d72246b5865c0f9970e66ba6a9777b01b8e1e53b176c674f277",
+      "after": "8fa38cfd2ccb69ed5da5356f0d0c5ddd15c26a7db23284f8eab0e46201910b01"
+    },
+    "p0032": {
+      "before": "\"bytes\":19447,",
+      "after": "\"bytes\":19442,"
+    },
+    "p0033": {
+      "before": "9f2d15da5da991c53ab46f70b0fe14a6fc2cd7808d49d2e4e8a238a9d0f77211",
+      "after": "ed3597b6164a6358d6131f4a8eb2968a4a9abc12bfdb3a7506a674d40d1750b3"
+    },
+    "p0034": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far_tail_client.py",
+      "after": "geometry_20261116_current_C_parallel234_same_client.py"
+    },
+    "p0035": {
+      "before": "e33307c7fdf51d5096a53418fcf92e04a10bfb7ae196375a378463fb9c5a049d",
+      "after": "bcbeb808f41cbcb38163aec4b8a2dcf7e0fe4f1ee62d7f8f5c2475df80a05d67"
+    },
+    "p0036": {
+      "before": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_ten450_closed_parameter_policy.py",
+      "after": "geometry_20261116_current_C_parallel234_first_policy.py"
+    },
+    "p0037": {
+      "before": "561fe8ab65371ccf364e91c97227862965388073f293196499c3fe624071caf9",
+      "after": "4b02e39c8362944d565ce2bea2e957a47108c7fb6df6cdc12764386ca1198d8e"
+    },
+    "p0038": {
+      "before": "1b944cdc50e9d39de96daad594a6ce66732d830f525625608406316cc6383e28",
+      "after": "057cbd70d4ec5d23c096c015b7f5fa62b70746c9f9a1d9c2831281769f6b2188"
+    },
+    "p0039": {
+      "before": "ae3772bc1750dde6175b4bbfa02e9138c4dea20a6574b8f499538d6717fde4d1",
+      "after": "7e50640f4232783a685e6427b152f0169e37a6f1b60e75857a9f0ac00bf55aac"
+    },
+    "p0040": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_tail_client.py",
+      "after": "geometry_20261116_current_C_parallel234_union_client.py"
+    },
+    "p0041": {
+      "before": "bc006e2b4bb483743ee1daa731b14c8885ecd24bd6e1d0f2cb4d757003ec7820",
+      "after": "d421c13fb159ac51856bad8466d176853c817da8c229710e7b31dd96a0b520d0"
+    },
+    "p0042": {
+      "before": "driver_sha=\"bf5e988d5bc40e3777533bc2e3abfc137b3609333fff9c923df55a0a76f0ad17\",\n        sampler_schema=\"current-C-pruefer-joint-nominal-row-physical-radial-samples-and-general-far-v1\"",
+      "after": "driver_sha=\"bf5e988d5bc40e3777533bc2e3abfc137b3609333fff9c923df55a0a76f0ad17\",\n        sampler_schema=\"R556-current-C-two-worker-joint-physical-radial-samples-and-general-far-v1\""
+    },
+    "p0043": {
+      "before": "geometry_20261116_request230_same_C_full_head.py",
+      "after": "geometry_20261116_current_C_parallel234_same_C_head.py"
+    },
+    "p0044": {
+      "before": "a46fb5c36dc0304dbd71e6ddf054b72551a08d2116e36f0453c9f02b546f6739",
+      "after": "914c4795c9da63b276d8b51c935698fba56e00e36a4fc84052a3385312addbd1"
+    },
+    "p0045": {
+      "before": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve.py",
+      "after": "geometry_20261116_current_C_parallel234_first_post.py"
+    },
+    "p0046": {
+      "before": "b39b8a1d94aa0a9ad6e0b4bb44306b0c9481d06ae4e2d0eaee877eb51e9001fd",
+      "after": "6afea4a257bee6c3155b4da454433b5e97c8a3c39ed69583066086d8953118ff"
+    },
+    "p0047": {
+      "before": "3f6f0c6d61669ece4efbd8f112bc3f5c54993eb4544778295f102708821a1b84",
+      "after": "d6bdc7426ae832ca37de818c6fc99827fe67db88d713da2586112a9406a6c066"
+    },
+    "p0048": {
+      "before": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_same_far_refinement.py",
+      "after": "geometry_20261116_current_C_parallel234_same_driver.py"
+    },
+    "p0049": {
+      "before": "7ecb213dcffc90fedfe9a6b79e0bb3295c1510a41f31442529bd1fb2edf6313b",
+      "after": "5ac6639def98af081397b839cba1fd5daf977436c2c2f275d1ad9c80ce732e5c"
+    },
+    "p0050": {
+      "before": "geometry_20261116_request230_same_C_leaf_target_cut.py",
+      "after": "geometry_20261116_current_C_parallel234_same_C_leaf.py"
+    },
+    "p0051": {
+      "before": "ffc7e77bff220b1b046cd831bd99eddc5aa4e586eb4a09afab3c9705331c494d",
+      "after": "178d25d1ba08836c2579a30c5cbd3efa34bcdb3dc86b4e5cf4c42a592828ff19"
+    },
+    "p0052": {
+      "before": "root_20261116_actual202_bound230_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_necessary.py",
+      "after": "root_20261116_current_C_parallel234_first_postreader.py"
+    },
+    "p0053": {
+      "before": "7badb4011ba5cca7fbdc3f4b6b8f851576b2addf54061d792b93ec930ce1ee76",
+      "after": "590a781487fd06503f3e88f03db0eecdd1f3a8e33ff808441997c49eaad67b9f"
+    },
+    "p0054": {
+      "before": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_checkpoint.py",
+      "after": "geometry_20261116_current_C_parallel234_union_checkpoint.py"
+    },
+    "p0055": {
+      "before": "da25bb50457a0d2158763d85ed53f12213aff233293f333ee02dd7346178f711",
+      "after": "4fe091ad7e7f1e972c65aabd310cc6ea0c5613572c15eed3638b768ecaa9ea2d"
+    },
+    "p0056": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far_owned_launch.py",
+      "after": "geometry_20261116_current_C_parallel234_same_owner.py"
+    },
+    "p0057": {
+      "before": "24ea1990e6ab2e09b9f0e5233dde54ad80bb0c484e47a7ff4ee9ecb9f5ed6884",
+      "after": "0858d6ea639d233d0bdbe2014bee81ccc2d6664dbf90182cd51985adcf4bb934"
+    },
+    "p0058": {
+      "before": "\"bytes\":19894,",
+      "after": "\"bytes\":19826,"
+    },
+    "p0059": {
+      "before": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_held.py",
+      "after": "geometry_20261116_current_C_parallel234_first_held.py"
+    },
+    "p0060": {
+      "before": "d19b1e3018ba17aefc0fcd3f32368848d869b576a553e06a4c31a5f35efff4b3",
+      "after": "72f24f777e73beb782dbca84f5d5dfa3f99e37b5c55d117175fd07a0c40fdcf0"
+    },
+    "p0061": {
+      "before": "geometry_20261116_request230_actual202_bound_coast_closed_postsolve.py",
+      "after": "geometry_20261116_current_C_parallel234_first_post_entry.py"
+    },
+    "p0062": {
+      "before": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_refinement.py",
+      "after": "geometry_20261116_current_C_parallel234_union_driver.py"
+    },
+    "p0063": {
+      "before": "d1843f289a47bd2c09138f1ca1e2df322c120c92ae329de0f92cf68bec568fef",
+      "after": "2fc90d299ef090e27d6ada14f3e6d87ca120fb9c9d808691ddf6d95b42b4c26b"
+    },
+    "p0064": {
+      "before": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_saved_prefix.py",
+      "after": "geometry_20261116_current_C_parallel234_union_saved.py"
+    },
+    "p0065": {
+      "before": "97d16c1452a0e9bc95dd2c9332c805dcb5428ef21d03423bb9ccb1d0e96f3eda",
+      "after": "6aa5cd4a0fb57bb4ae196c8e1e4a5691d77af4d0e75d773f091cbe74111a4b82"
+    },
+    "p0066": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_radial_readout.mjs",
+      "after": "geometry_20261116_current_C_parallel234_union_radial.mjs"
+    },
+    "p0067": {
+      "before": "3b869818bd02d82c35d52483c07952e83b1dae95b076a942b706d4e66d53ae05",
+      "after": "279a2cff9f5d8c9abe5233d105b34ce50fe348e1301a7f281f43495f4f98372e"
+    },
+    "p0068": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far450_coast_postsolve_geometry.py",
+      "after": "geometry_20261116_current_C_parallel234_same_post.py"
+    },
+    "p0069": {
+      "before": "3383bc50d54fae4d5e83bed9d4ec4444f06f840525553e652c79b2972b35486a",
+      "after": "9db8d6e7b95aa8ed39a1796b18693cd0155fa6416386cb84c03c728b924cd0ee"
+    },
+    "p0070": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_owned_launch.py",
+      "after": "geometry_20261116_current_C_parallel234_union_owner.py"
+    },
+    "p0071": {
+      "before": "8a4e1c298d5df7295097c7bb271e16efe4ff240ce53a0f224b5a7ca5f04b3ff3",
+      "after": "dd538d057d2cebdec60d36ac92d7108f7bd485f9662342f81472e0a40566d6fb"
+    },
+    "p0072": {
+      "before": "root_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_phase_readout.py",
+      "after": "root_20261116_current_C_parallel234_union_phase_reader.py"
+    },
+    "p0073": {
+      "before": "68c90724ca4aafa2e3790c7ab268dea05938eef7e3718ab06147684a1406a1ec",
+      "after": "bf47bd0ca81cfa4845a30f2a49e37566b39962dde96032d36d7c994f15f795d4"
+    },
+    "p0074": {
+      "before": "\"bytes\":19799,",
+      "after": "\"bytes\":19724,"
+    },
+    "p0075": {
+      "before": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_prefix_metric.py",
+      "after": "geometry_20261116_current_C_parallel234_union_prefix.py"
+    },
+    "p0076": {
+      "before": "5f56360d1ca3336bc43ad1023b923549ffb2452623440f25dfcd2f96a3579220",
+      "after": "b940a6d29c34c9a2b5f062ae5568f39febc1a57475c8fc4c65f511410469530a"
+    },
+    "p0077": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_shared_field.py",
+      "after": "geometry_20261116_current_C_parallel234_union_shared.py"
+    },
+    "p0078": {
+      "before": "54bf6e62249fb3292462fa06d937623f5779d053a79e30f9d93574359490ec37",
+      "after": "c7eacc10dbae45c93ce1ebb6ad897dc6710c2e4d05700d345c71cf2d177bd235"
+    },
+    "p0079": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_original_cuff_atlas.py",
+      "after": "geometry_20261116_current_C_parallel234_union_atlas.py"
+    },
+    "p0080": {
+      "before": "fd4b9cefa6ad4b6e7c8668c05eedc6e5bbcd3b32e815b41d4b49e390aec2c470",
+      "after": "663e72d3af05e57c992d0f9bb570c9b932015760e394293b29df89cca06ce82a"
+    },
+    "p0081": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_accurate_cut_patch.py",
+      "after": "geometry_20261116_current_C_parallel234_union_cut.py"
+    },
+    "p0082": {
+      "before": "91fd848987bfb8fd9d898fa1767715bb1680ab276fb55e1c812d0af425cf9871",
+      "after": "6be9713fcb90b77ed7a2857f0853abf6e7a193a16414705e27af5ac7fd4877a8"
+    },
+    "p0083": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py",
+      "after": "geometry_20261116_current_C_parallel234_union_caps.py"
+    },
+    "p0084": {
+      "before": "300c68ca473c4d6e3bfa1b72bba43334f72cb7ee2fa3d7896b8fcabd4206a63b",
+      "after": "8ab42478a1b8366f18fa6fc81b6998d3c96b4cf34ae45958e158282ba963f001"
+    },
+    "p0085": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py",
+      "after": "geometry_20261116_current_C_parallel234_union_material.py"
+    },
+    "p0086": {
+      "before": "b397aca515fd3150223836278ae7114d60bbddf383145c361e2ca9b517df2fad",
+      "after": "964e9e343ec8d26f5dc459ebfcaae3207d657a5516b70938b795c2cad430a891"
+    },
+    "p0087": {
+      "before": "geometry_20261116_request230_same_C_tail_queries.py",
+      "after": "geometry_20261116_current_C_parallel234_same_C_tail.py"
+    },
+    "p0088": {
+      "before": "613a4054d84347f1bd367919dfb1fb174655b4ef54929d754e7537b74117a4cc",
+      "after": "83b6ef856edcf599f5df9c79ef20a479c91c9edcf8790e5276ba34262025c036"
+    },
+    "p0089": {
+      "before": "geometry_20261116_request230_same_C_metric_family.py",
+      "after": "geometry_20261116_current_C_parallel234_same_C_bridge.py"
+    },
+    "p0090": {
+      "before": "2db28f661562836dbe253130c01b7975881c07958f686a7df418c6377ece05d6",
+      "after": "3a883c84d6707583dc59dc1975aaea17aa5e416c0eac3ddff916ae3bb3e18df1"
+    },
+    "p0091": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_complete_reach_cover.py",
+      "after": "geometry_20261116_current_C_parallel234_union_reach.py"
+    },
+    "p0092": {
+      "before": "60cf14292aaee9217c7e14fd48257f35670352c15b2b7924dcd0720d286c7bff",
+      "after": "8391de703357719e2f589cea75f59d78fdb3b391f3d40444c4e44bc18cb122c1"
+    },
+    "p0093": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py",
+      "after": "geometry_20261116_current_C_parallel234_union_metric.py"
+    },
+    "p0094": {
+      "before": "ca9da5e8d576398f5094f0161de5b263a52c2cfad5df2a58255575e39a0e36a3",
+      "after": "4056101887c2beb422cbc083f8448e360688f87ea99e8de60999a568082d9de8"
+    },
+    "p0095": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_complete_block_reach_cover.py",
+      "after": "geometry_20261116_current_C_parallel234_union_block.py"
+    },
+    "p0096": {
+      "before": "a65dc5ffc11b92cf80656fc726aed529e9a2cae45ee2c4cd20393c3e603f81d4",
+      "after": "3a0d9305150da7b7bb1efef9cddeaf5f62c9ab6105fbac835c0be9d45510bfb7"
+    },
+    "p0097": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_geometry.py",
+      "after": "geometry_20261116_current_C_parallel234_union_post.py"
+    },
+    "p0098": {
+      "before": "b662a661eb865792dd1a390bac3393434e7ddb3c2991024558635474f5d12a81",
+      "after": "411e330131ff32307f6595f15c635d4b58ed3426ffedde5c61d3718a358f8387"
+    },
+    "p0099": {
+      "before": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py",
+      "after": "geometry_20261116_current_C_parallel234_union_held_consumer.py"
+    },
+    "p0100": {
+      "before": "7fa92ab16164f528bf20320c29bdd622ccce220ba546a67356501d4340090f5c",
+      "after": "6dc7a4e4b9d07139056126dcb9562d496f7733cffb2f424f035683596a622eae"
+    }
+  },
+  "views": [
+    {
+      "role": "base_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_gzip_sampling_scope_necessary_readout.py",
+        "bytes": 57097,
+        "sha256": "47a1c4438a2f1d66733daf46f10da2cbb0f65c4912822e0e42402033d05a4149"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_base_reader.py",
+        "bytes": 59182,
+        "sha256": "398993423ef0465ade0ac3e3537260a488c3d6f8126743bedee730874c936cec"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_worker",
+      "baseline": {
+        "file": "geometry_20261116_current_C_zero_linear_gzip_joint_native_worker.mjs",
+        "bytes": 19447,
+        "sha256": "3a048bc2c2e18f19516171f420510a2383519c1a0912aee237463c05f0eb778e"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_worker.mjs",
+        "bytes": 19442,
+        "sha256": "281cbb23d16d07ff415524fad93f4910f0d9b3b6fb9c0aeba2e20e8f4453ae2c"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_client",
+      "baseline": {
+        "file": "geometry_20261116_current_C_zero_linear_gzip_joint_tail_client.py",
+        "bytes": 23360,
+        "sha256": "3870315a04182550272001150d4faf0b2511846a31643a592df2af54f85cfbdb"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_client.py",
+        "bytes": 23359,
+        "sha256": "7a05067fc07989c610c8c93afa016424c749c5b233c0712a4391a136ba926eaa"
+      },
+      "applications": [
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_worker",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far_native_worker.mjs",
+        "bytes": 19894,
+        "sha256": "9f2d15da5da991c53ab46f70b0fe14a6fc2cd7808d49d2e4e8a238a9d0f77211"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_worker.mjs",
+        "bytes": 19826,
+        "sha256": "ed3597b6164a6358d6131f4a8eb2968a4a9abc12bfdb3a7506a674d40d1750b3"
+      },
+      "applications": [
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_client",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far_tail_client.py",
+        "bytes": 23488,
+        "sha256": "e33307c7fdf51d5096a53418fcf92e04a10bfb7ae196375a378463fb9c5a049d"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_client.py",
+        "bytes": 23420,
+        "sha256": "bcbeb808f41cbcb38163aec4b8a2dcf7e0fe4f1ee62d7f8f5c2475df80a05d67"
+      },
+      "applications": [
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_worker",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_native_worker.mjs",
+        "bytes": 19799,
+        "sha256": "ae3772bc1750dde6175b4bbfa02e9138c4dea20a6574b8f499538d6717fde4d1"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_worker.mjs",
+        "bytes": 19724,
+        "sha256": "7e50640f4232783a685e6427b152f0169e37a6f1b60e75857a9f0ac00bf55aac"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_client",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_tail_client.py",
+        "bytes": 24006,
+        "sha256": "bc006e2b4bb483743ee1daa731b14c8885ecd24bd6e1d0f2cb4d757003ec7820"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_client.py",
+        "bytes": 23931,
+        "sha256": "d421c13fb159ac51856bad8466d176853c817da8c229710e7b31dd96a0b520d0"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_legacy",
+      "baseline": {
+        "file": "geometry_20261116_current_C_zero_linear_gzip_joint_full453_physical_dn.py",
+        "bytes": 65419,
+        "sha256": "bf5e988d5bc40e3777533bc2e3abfc137b3609333fff9c923df55a0a76f0ad17"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_legacy.py",
+        "bytes": 65394,
+        "sha256": "e01bd3c2c93f3cfd9eabb178f8eeca3f4008b966807cd291969bb09259b8b5ca"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 3
+        },
+        {
+          "patch": "p0010",
+          "count": 2
+        },
+        {
+          "patch": "p0011",
+          "count": 2
+        },
+        {
+          "patch": "p0016",
+          "count": 2
+        },
+        {
+          "patch": "p0017",
+          "count": 3
+        },
+        {
+          "patch": "p0018",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "role": "candidate",
+      "baseline": {
+        "file": "geometry_20261116_actual202_coast_base_zero_linear_gzip_accurate_ten_candidate.py",
+        "bytes": 34123,
+        "sha256": "237882e9fee9943e11b897c52118087753eb1d63e5c917e7382f14b5e8cb9399"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_candidate.py",
+        "bytes": 34098,
+        "sha256": "679ea7073599a2d739a0387bbbd0fe5ff4a6043e3ab223525f82ec94baf3818b"
+      },
+      "applications": [
+        {
+          "patch": "p0009",
+          "count": 2
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_hook",
+      "baseline": {
+        "file": "geometry_20261116_actual202_zero_linear_gzip_ten_live_full_DN_hooks.py",
+        "bytes": 10766,
+        "sha256": "503232498df942ff818c79e7f96d4a9e4c9d68d27fe91b9f8c1c1db1bee06516"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_hook.py",
+        "bytes": 10766,
+        "sha256": "ff3fde1abca8855eb8cd513f3f15cfe905dbffd5c824a570ed9e20b2b998cd6d"
+      },
+      "applications": [
+        {
+          "patch": "p0020",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_driver",
+      "baseline": {
+        "file": "geometry_20261116_actual202_coast_base_zero_linear_gzip_ten_full453_frozen450.py",
+        "bytes": 34462,
+        "sha256": "b754fc536d00e90e8e18ecb1f160bb01f635b0ba2b77b2f685a942b7df942d6c"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_driver.py",
+        "bytes": 34388,
+        "sha256": "e1a2c01438ad2f509d7dbc1c9055cbdc6e7065cc731025d003d2c8b571d183d1"
+      },
+      "applications": [
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0024",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_launcher",
+      "baseline": {
+        "file": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_ten_full453_frozen450_launch.py",
+        "bytes": 20531,
+        "sha256": "d8dc4e9158610d72246b5865c0f9970e66ba6a9777b01b8e1e53b176c674f277"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_launcher.py",
+        "bytes": 20496,
+        "sha256": "8fa38cfd2ccb69ed5da5356f0d0c5ddd15c26a7db23284f8eab0e46201910b01"
+      },
+      "applications": [
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_actual202_coast_base_zero_linear_gzip_ten_pipeline.py",
+        "bytes": 32411,
+        "sha256": "9eb74f161475e9822de5e9cdf2f2a813d2758e0e075a4b669f1d478bde7ecac8"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_pipeline.py",
+        "bytes": 32357,
+        "sha256": "3d3cdf0f2bc8b3834e9cd8e05a75b4592f410949a22846f662722ab95c578f7e"
+      },
+      "applications": [
+        {
+          "patch": "p0024",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_reader",
+      "baseline": {
+        "file": "root_20261116_actual202_bound230_coast_base_zero_linear_gzip_two_phase_necessary_readout.py",
+        "bytes": 31492,
+        "sha256": "fecdc98d02fb420fa3146c1af197304cab199d798a119a1b15bce37dbefbfbbc"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_first_reader.py",
+        "bytes": 31353,
+        "sha256": "5c819dc7e22716862f24b5c5bd14f233fb36e0daa0224f647330686b21d4e982"
+      },
+      "applications": [
+        {
+          "patch": "p0027",
+          "count": 1
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        },
+        {
+          "patch": "p0029",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0024",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_policy",
+      "baseline": {
+        "file": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_ten450_closed_parameter_policy.py",
+        "bytes": 37983,
+        "sha256": "561fe8ab65371ccf364e91c97227862965388073f293196499c3fe624071caf9"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_policy.py",
+        "bytes": 37983,
+        "sha256": "4b02e39c8362944d565ce2bea2e957a47108c7fb6df6cdc12764386ca1198d8e"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_sampler",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_same_far_gzip_resampling.py",
+        "bytes": 52145,
+        "sha256": "1b944cdc50e9d39de96daad594a6ce66732d830f525625608406316cc6383e28"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_sampler.py",
+        "bytes": 52082,
+        "sha256": "057cbd70d4ec5d23c096c015b7f5fa62b70746c9f9a1d9c2831281769f6b2188"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        },
+        {
+          "patch": "p0035",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_head",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_full_head.py",
+        "bytes": 42314,
+        "sha256": "a46fb5c36dc0304dbd71e6ddf054b72551a08d2116e36f0453c9f02b546f6739"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_head.py",
+        "bytes": 42250,
+        "sha256": "914c4795c9da63b276d8b51c935698fba56e00e36a4fc84052a3385312addbd1"
+      },
+      "applications": [
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_post",
+      "baseline": {
+        "file": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve.py",
+        "bytes": 27244,
+        "sha256": "b39b8a1d94aa0a9ad6e0b4bb44306b0c9481d06ae4e2d0eaee877eb51e9001fd"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_post.py",
+        "bytes": 27137,
+        "sha256": "6afea4a257bee6c3155b4da454433b5e97c8a3c39ed69583066086d8953118ff"
+      },
+      "applications": [
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_sampler",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_incremental_M_gzip_far_union.py",
+        "bytes": 55475,
+        "sha256": "3f6f0c6d61669ece4efbd8f112bc3f5c54993eb4544778295f102708821a1b84"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_sampler.py",
+        "bytes": 55365,
+        "sha256": "d6bdc7426ae832ca37de818c6fc99827fe67db88d713da2586112a9406a6c066"
+      },
+      "applications": [
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 1
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_driver",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_same_far_refinement.py",
+        "bytes": 55394,
+        "sha256": "7ecb213dcffc90fedfe9a6b79e0bb3295c1510a41f31442529bd1fb2edf6313b"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_driver.py",
+        "bytes": 55233,
+        "sha256": "5ac6639def98af081397b839cba1fd5daf977436c2c2f275d1ad9c80ce732e5c"
+      },
+      "applications": [
+        {
+          "patch": "p0042",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 2
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 2
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        },
+        {
+          "patch": "p0035",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_leaf",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_leaf_target_cut.py",
+        "bytes": 35531,
+        "sha256": "ffc7e77bff220b1b046cd831bd99eddc5aa4e586eb4a09afab3c9705331c494d"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_leaf.py",
+        "bytes": 35537,
+        "sha256": "178d25d1ba08836c2579a30c5cbd3efa34bcdb3dc86b4e5cf4c42a592828ff19"
+      },
+      "applications": [
+        {
+          "patch": "p0043",
+          "count": 1
+        },
+        {
+          "patch": "p0044",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_postreader",
+      "baseline": {
+        "file": "root_20261116_actual202_bound230_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_necessary.py",
+        "bytes": 11231,
+        "sha256": "7badb4011ba5cca7fbdc3f4b6b8f851576b2addf54061d792b93ec930ce1ee76"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_first_postreader.py",
+        "bytes": 11135,
+        "sha256": "590a781487fd06503f3e88f03db0eecdd1f3a8e33ff808441997c49eaad67b9f"
+      },
+      "applications": [
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_checkpoint",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_checkpoint.py",
+        "bytes": 56034,
+        "sha256": "da25bb50457a0d2158763d85ed53f12213aff233293f333ee02dd7346178f711"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_checkpoint.py",
+        "bytes": 55921,
+        "sha256": "4fe091ad7e7f1e972c65aabd310cc6ea0c5613572c15eed3638b768ecaa9ea2d"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0047",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 1
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_owner",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far_owned_launch.py",
+        "bytes": 57332,
+        "sha256": "24ea1990e6ab2e09b9f0e5233dde54ad80bb0c484e47a7ff4ee9ecb9f5ed6884"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_owner.py",
+        "bytes": 57125,
+        "sha256": "0858d6ea639d233d0bdbe2014bee81ccc2d6664dbf90182cd51985adcf4bb934"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0048",
+          "count": 1
+        },
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        },
+        {
+          "patch": "p0035",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_tail",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_tail_queries.py",
+        "bytes": 29686,
+        "sha256": "613a4054d84347f1bd367919dfb1fb174655b4ef54929d754e7537b74117a4cc"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_tail.py",
+        "bytes": 29692,
+        "sha256": "83b6ef856edcf599f5df9c79ef20a479c91c9edcf8790e5276ba34262025c036"
+      },
+      "applications": [
+        {
+          "patch": "p0043",
+          "count": 1
+        },
+        {
+          "patch": "p0044",
+          "count": 1
+        },
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0051",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_held",
+      "baseline": {
+        "file": "geometry_20261116_actual202_bound230_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_held.py",
+        "bytes": 5763,
+        "sha256": "d19b1e3018ba17aefc0fcd3f32368848d869b576a553e06a4c31a5f35efff4b3"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_held.py",
+        "bytes": 5653,
+        "sha256": "72f24f777e73beb782dbca84f5d5dfa3f99e37b5c55d117175fd07a0c40fdcf0"
+      },
+      "applications": [
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        },
+        {
+          "patch": "p0053",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_driver",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_refinement.py",
+        "bytes": 52092,
+        "sha256": "d1843f289a47bd2c09138f1ca1e2df322c120c92ae329de0f92cf68bec568fef"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_driver.py",
+        "bytes": 51941,
+        "sha256": "2fc90d299ef090e27d6ada14f3e6d87ca120fb9c9d808691ddf6d95b42b4c26b"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0047",
+          "count": 1
+        },
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 1
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far_necessary_readout.py",
+        "bytes": 37702,
+        "sha256": "0e7376b628c0059f4067bc47b3456d91ecc6a15e49713f9ab508281fc65c6a59"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_same_reader.py",
+        "bytes": 37560,
+        "sha256": "93818ffd81ed3b0307c58bcc8f37237844e14fd9462173fbb92d0ee63ef5908f"
+      },
+      "applications": [
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0048",
+          "count": 1
+        },
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0056",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_saved",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_saved_prefix.py",
+        "bytes": 19307,
+        "sha256": "97d16c1452a0e9bc95dd2c9332c805dcb5428ef21d03423bb9ccb1d0e96f3eda"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_saved.py",
+        "bytes": 19269,
+        "sha256": "6aa5cd4a0fb57bb4ae196c8e1e4a5691d77af4d0e75d773f091cbe74111a4b82"
+      },
+      "applications": [
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_radial",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_radial_readout.mjs",
+        "bytes": 24190,
+        "sha256": "3b869818bd02d82c35d52483c07952e83b1dae95b076a942b706d4e66d53ae05"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_radial.mjs",
+        "bytes": 24152,
+        "sha256": "279a2cff9f5d8c9abe5233d105b34ce50fe348e1301a7f281f43495f4f98372e"
+      },
+      "applications": [
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_post",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far450_coast_postsolve_geometry.py",
+        "bytes": 65941,
+        "sha256": "3383bc50d54fae4d5e83bed9d4ec4444f06f840525553e652c79b2972b35486a"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_post.py",
+        "bytes": 65771,
+        "sha256": "9db8d6e7b95aa8ed39a1796b18693cd0155fa6416386cb84c03c728b924cd0ee"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0048",
+          "count": 1
+        },
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0056",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_post_entry",
+      "baseline": {
+        "file": "geometry_20261116_request230_actual202_bound_coast_closed_postsolve.py",
+        "bytes": 47491,
+        "sha256": "332fd828093ec663a4484359f7560e8d207cac7b648ea41e0608f6bb9dff6a1d"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_first_post_entry.py",
+        "bytes": 47269,
+        "sha256": "192a9b986555dfee485361575f030dd966c3828f18a7f31f994d9e69709483dd"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        },
+        {
+          "patch": "p0053",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_owner",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_owned_launch.py",
+        "bytes": 77542,
+        "sha256": "8a4e1c298d5df7295097c7bb271e16efe4ff240ce53a0f224b5a7ca5f04b3ff3"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_owner.py",
+        "bytes": 77066,
+        "sha256": "dd538d057d2cebdec60d36ac92d7108f7bd485f9662342f81472e0a40566d6fb"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 2
+        },
+        {
+          "patch": "p0010",
+          "count": 2
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 2
+        },
+        {
+          "patch": "p0018",
+          "count": 2
+        },
+        {
+          "patch": "p0024",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0047",
+          "count": 1
+        },
+        {
+          "patch": "p0048",
+          "count": 1
+        },
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        },
+        {
+          "patch": "p0056",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0063",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        },
+        {
+          "patch": "p0035",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 1
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_phase_reader",
+      "baseline": {
+        "file": "root_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_phase_readout.py",
+        "bytes": 19789,
+        "sha256": "68c90724ca4aafa2e3790c7ab268dea05938eef7e3718ab06147684a1406a1ec"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_union_phase_reader.py",
+        "bytes": 19709,
+        "sha256": "bf47bd0ca81cfa4845a30f2a49e37566b39962dde96032d36d7c994f15f795d4"
+      },
+      "applications": [
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0063",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_prefix",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_bound230_coast_base_zero_linear_gzip_incremental_M_prefix_metric.py",
+        "bytes": 32884,
+        "sha256": "5f56360d1ca3336bc43ad1023b923549ffb2452623440f25dfcd2f96a3579220"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_prefix.py",
+        "bytes": 32794,
+        "sha256": "b940a6d29c34c9a2b5f062ae5568f39febc1a57475c8fc4c65f511410469530a"
+      },
+      "applications": [
+        {
+          "patch": "p0064",
+          "count": 2
+        },
+        {
+          "patch": "p0065",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_shared",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_shared_field.py",
+        "bytes": 49622,
+        "sha256": "54bf6e62249fb3292462fa06d937623f5779d053a79e30f9d93574359490ec37"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_shared.py",
+        "bytes": 49536,
+        "sha256": "c7eacc10dbae45c93ce1ebb6ad897dc6710c2e4d05700d345c71cf2d177bd235"
+      },
+      "applications": [
+        {
+          "patch": "p0064",
+          "count": 1
+        },
+        {
+          "patch": "p0065",
+          "count": 1
+        },
+        {
+          "patch": "p0066",
+          "count": 1
+        },
+        {
+          "patch": "p0067",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_postreader",
+      "baseline": {
+        "file": "root_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far450_coast_postsolve_necessary.py",
+        "bytes": 27554,
+        "sha256": "11b9fb7fec1964c108757a590cc7d519c55da39de0f33f0a8de5dc0339db878a"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_same_postreader.py",
+        "bytes": 27502,
+        "sha256": "ee53ead56e6ccb781f8b7e728ca5eae429b01f3ce90b4abc8d811aa0c36f4ee0"
+      },
+      "applications": [
+        {
+          "patch": "p0068",
+          "count": 1
+        },
+        {
+          "patch": "p0069",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_held",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_same_far450_coast_postsolve_held.py",
+        "bytes": 44236,
+        "sha256": "644a21a11e16b1f28794183ced66a7cb196f8ed0a8ab8ea07c49df1adc00848c"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_held.py",
+        "bytes": 44132,
+        "sha256": "6a24ce61b1972ccb155feae9ecf7d4a678774de7bd4de476af810393937b5a8a"
+      },
+      "applications": [
+        {
+          "patch": "p0068",
+          "count": 2
+        },
+        {
+          "patch": "p0069",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_necessary_readout.py",
+        "bytes": 34572,
+        "sha256": "ebfceee6c5ae5e135c976e863d72373f22fd82fde5dffd6d2fba64220a4724fb"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_union_reader.py",
+        "bytes": 34376,
+        "sha256": "d978674bdf330ff9ee05f45c962160889735881e8523b648d06d53aedf466acd"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0047",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0063",
+          "count": 1
+        },
+        {
+          "patch": "p0070",
+          "count": 1
+        },
+        {
+          "patch": "p0071",
+          "count": 1
+        },
+        {
+          "patch": "p0072",
+          "count": 1
+        },
+        {
+          "patch": "p0073",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0074",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_cut",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_accurate_cut_patch.py",
+        "bytes": 26242,
+        "sha256": "91fd848987bfb8fd9d898fa1767715bb1680ab276fb55e1c812d0af425cf9871"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_cut.py",
+        "bytes": 26158,
+        "sha256": "6be9713fcb90b77ed7a2857f0853abf6e7a193a16414705e27af5ac7fd4877a8"
+      },
+      "applications": [
+        {
+          "patch": "p0075",
+          "count": 1
+        },
+        {
+          "patch": "p0076",
+          "count": 1
+        },
+        {
+          "patch": "p0077",
+          "count": 1
+        },
+        {
+          "patch": "p0078",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_atlas",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_original_cuff_atlas.py",
+        "bytes": 29563,
+        "sha256": "fd4b9cefa6ad4b6e7c8668c05eedc6e5bbcd3b32e815b41d4b49e390aec2c470"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_atlas.py",
+        "bytes": 29486,
+        "sha256": "663e72d3af05e57c992d0f9bb570c9b932015760e394293b29df89cca06ce82a"
+      },
+      "applications": [
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        },
+        {
+          "patch": "p0077",
+          "count": 1
+        },
+        {
+          "patch": "p0078",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_caps",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py",
+        "bytes": 23742,
+        "sha256": "300c68ca473c4d6e3bfa1b72bba43334f72cb7ee2fa3d7896b8fcabd4206a63b"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_caps.py",
+        "bytes": 23656,
+        "sha256": "8ab42478a1b8366f18fa6fc81b6998d3c96b4cf34ae45958e158282ba963f001"
+      },
+      "applications": [
+        {
+          "patch": "p0077",
+          "count": 1
+        },
+        {
+          "patch": "p0078",
+          "count": 1
+        },
+        {
+          "patch": "p0079",
+          "count": 1
+        },
+        {
+          "patch": "p0080",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_material",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py",
+        "bytes": 38956,
+        "sha256": "b397aca515fd3150223836278ae7114d60bbddf383145c361e2ca9b517df2fad"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_material.py",
+        "bytes": 38781,
+        "sha256": "964e9e343ec8d26f5dc459ebfcaae3207d657a5516b70938b795c2cad430a891"
+      },
+      "applications": [
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0064",
+          "count": 1
+        },
+        {
+          "patch": "p0065",
+          "count": 1
+        },
+        {
+          "patch": "p0077",
+          "count": 1
+        },
+        {
+          "patch": "p0078",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_bridge",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_metric_family.py",
+        "bytes": 12376,
+        "sha256": "2db28f661562836dbe253130c01b7975881c07958f686a7df418c6377ece05d6"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_bridge.py",
+        "bytes": 12283,
+        "sha256": "3a883c84d6707583dc59dc1975aaea17aa5e416c0eac3ddff916ae3bb3e18df1"
+      },
+      "applications": [
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0051",
+          "count": 1
+        },
+        {
+          "patch": "p0075",
+          "count": 1
+        },
+        {
+          "patch": "p0076",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_reach",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_complete_reach_cover.py",
+        "bytes": 60609,
+        "sha256": "60cf14292aaee9217c7e14fd48257f35670352c15b2b7924dcd0720d286c7bff"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_reach.py",
+        "bytes": 60470,
+        "sha256": "8391de703357719e2f589cea75f59d78fdb3b391f3d40444c4e44bc18cb122c1"
+      },
+      "applications": [
+        {
+          "patch": "p0083",
+          "count": 1
+        },
+        {
+          "patch": "p0084",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        },
+        {
+          "patch": "p0079",
+          "count": 1
+        },
+        {
+          "patch": "p0080",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_held_consumer",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py",
+        "bytes": 53933,
+        "sha256": "7fa92ab16164f528bf20320c29bdd622ccce220ba546a67356501d4340090f5c"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_held_consumer.py",
+        "bytes": 53794,
+        "sha256": "6dc7a4e4b9d07139056126dcb9562d496f7733cffb2f424f035683596a622eae"
+      },
+      "applications": [
+        {
+          "patch": "p0083",
+          "count": 1
+        },
+        {
+          "patch": "p0084",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        },
+        {
+          "patch": "p0079",
+          "count": 1
+        },
+        {
+          "patch": "p0080",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_metric",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py",
+        "bytes": 56420,
+        "sha256": "ca9da5e8d576398f5094f0161de5b263a52c2cfad5df2a58255575e39a0e36a3"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_metric.py",
+        "bytes": 56236,
+        "sha256": "4056101887c2beb422cbc083f8448e360688f87ea99e8de60999a568082d9de8"
+      },
+      "applications": [
+        {
+          "patch": "p0075",
+          "count": 1
+        },
+        {
+          "patch": "p0076",
+          "count": 1
+        },
+        {
+          "patch": "p0083",
+          "count": 1
+        },
+        {
+          "patch": "p0084",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        },
+        {
+          "patch": "p0079",
+          "count": 1
+        },
+        {
+          "patch": "p0080",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "display",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_multitime_display.py",
+        "bytes": 41926,
+        "sha256": "aafd7ecf3a18ae953159ee85793a29efb46344b279c416de19cd935dd2a73f71"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_display.py",
+        "bytes": 41702,
+        "sha256": "6d2f677746dd4dfdb85519b030ebca5c3a01491e1e59611c65791a7cddc0ebfe"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0077",
+          "count": 1
+        },
+        {
+          "patch": "p0078",
+          "count": 1
+        },
+        {
+          "patch": "p0083",
+          "count": 1
+        },
+        {
+          "patch": "p0084",
+          "count": 1
+        },
+        {
+          "patch": "p0085",
+          "count": 1
+        },
+        {
+          "patch": "p0086",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        },
+        {
+          "patch": "p0079",
+          "count": 1
+        },
+        {
+          "patch": "p0080",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_metric0",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_original112_metric.py",
+        "bytes": 57273,
+        "sha256": "486fbd45dd419c8b430a972b974b018df725e8c184aef42f9566c5964a4b9eba"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_metric0.py",
+        "bytes": 57280,
+        "sha256": "ab0f43adbe6d0a16619e41477093095bc630c5181ba0a8ac115ae30eaa636f31"
+      },
+      "applications": [
+        {
+          "patch": "p0087",
+          "count": 1
+        },
+        {
+          "patch": "p0088",
+          "count": 1
+        },
+        {
+          "patch": "p0089",
+          "count": 1
+        },
+        {
+          "patch": "p0090",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_metric1",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_resolution112_metric.py",
+        "bytes": 57300,
+        "sha256": "fd020ca0e92e4c6d8dadaca495255fdf74498a5824137f2788f9bcb78c83edc6"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_metric1.py",
+        "bytes": 57307,
+        "sha256": "ce80e8651a71144c19187bcb9c2b3e8c47db2ffd1d49e6854064d6bddd06e844"
+      },
+      "applications": [
+        {
+          "patch": "p0087",
+          "count": 1
+        },
+        {
+          "patch": "p0088",
+          "count": 1
+        },
+        {
+          "patch": "p0089",
+          "count": 1
+        },
+        {
+          "patch": "p0090",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_metric2",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_incremental_M_metric.py",
+        "bytes": 57465,
+        "sha256": "de2683e5f9a3f5dbf76881f7429c6631c1a493bf00881a47160b6dc7feb1e8b7"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_metric2.py",
+        "bytes": 57288,
+        "sha256": "826dd3fa9d9dab5fe56ab90f940f5e562354d89ab8090a90ace7607dc830a24d"
+      },
+      "applications": [
+        {
+          "patch": "p0087",
+          "count": 1
+        },
+        {
+          "patch": "p0088",
+          "count": 1
+        },
+        {
+          "patch": "p0075",
+          "count": 1
+        },
+        {
+          "patch": "p0076",
+          "count": 1
+        },
+        {
+          "patch": "p0083",
+          "count": 1
+        },
+        {
+          "patch": "p0084",
+          "count": 1
+        },
+        {
+          "patch": "p0089",
+          "count": 1
+        },
+        {
+          "patch": "p0090",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        },
+        {
+          "patch": "p0079",
+          "count": 1
+        },
+        {
+          "patch": "p0080",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_block",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_complete_block_reach_cover.py",
+        "bytes": 45670,
+        "sha256": "a65dc5ffc11b92cf80656fc726aed529e9a2cae45ee2c4cd20393c3e603f81d4"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_block.py",
+        "bytes": 45622,
+        "sha256": "3a0d9305150da7b7bb1efef9cddeaf5f62c9ab6105fbac835c0be9d45510bfb7"
+      },
+      "applications": [
+        {
+          "patch": "p0091",
+          "count": 1
+        },
+        {
+          "patch": "p0092",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "evidence",
+      "baseline": {
+        "file": "geometry_20261116_bound230_coast_base_zero_linear_gzip_incremental_M_coast_fixed_target_metric_evidence.py",
+        "bytes": 63283,
+        "sha256": "67bf8200d63df3858f9b2fe64a420e6c0809458e9d337d297de8954671c3e91a"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_evidence.py",
+        "bytes": 63178,
+        "sha256": "bdc9e5c71eb0a5ebee72dac9ca02cd0bad64bb04c4693bd765727ed95a6f22f5"
+      },
+      "applications": [
+        {
+          "patch": "p0085",
+          "count": 1
+        },
+        {
+          "patch": "p0086",
+          "count": 1
+        },
+        {
+          "patch": "p0093",
+          "count": 1
+        },
+        {
+          "patch": "p0094",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_evidence",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_metric_evidence.py",
+        "bytes": 65329,
+        "sha256": "a95af2e6c240ef920a6fb8cd730f82812acb2d6e4a28d76a4cfe9a5e0c3039d6"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_evidence.py",
+        "bytes": 65231,
+        "sha256": "fac00bcfe0836a94fa9752baaa9b6558f984be4a73b761a54c1ad91199cd7ed0"
+      },
+      "applications": [
+        {
+          "patch": "p0087",
+          "count": 1
+        },
+        {
+          "patch": "p0088",
+          "count": 1
+        },
+        {
+          "patch": "p0085",
+          "count": 1
+        },
+        {
+          "patch": "p0086",
+          "count": 1
+        },
+        {
+          "patch": "p0089",
+          "count": 1
+        },
+        {
+          "patch": "p0090",
+          "count": 1
+        },
+        {
+          "patch": "p0093",
+          "count": 1
+        },
+        {
+          "patch": "p0094",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_post",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_geometry.py",
+        "bytes": 72546,
+        "sha256": "b662a661eb865792dd1a390bac3393434e7ddb3c2991024558635474f5d12a81"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_post.py",
+        "bytes": 71904,
+        "sha256": "411e330131ff32307f6595f15c635d4b58ed3426ffedde5c61d3718a358f8387"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0063",
+          "count": 1
+        },
+        {
+          "patch": "p0066",
+          "count": 1
+        },
+        {
+          "patch": "p0067",
+          "count": 1
+        },
+        {
+          "patch": "p0070",
+          "count": 1
+        },
+        {
+          "patch": "p0071",
+          "count": 1
+        },
+        {
+          "patch": "p0077",
+          "count": 1
+        },
+        {
+          "patch": "p0078",
+          "count": 2
+        },
+        {
+          "patch": "p0083",
+          "count": 1
+        },
+        {
+          "patch": "p0084",
+          "count": 1
+        },
+        {
+          "patch": "p0085",
+          "count": 1
+        },
+        {
+          "patch": "p0086",
+          "count": 1
+        },
+        {
+          "patch": "p0091",
+          "count": 1
+        },
+        {
+          "patch": "p0092",
+          "count": 1
+        },
+        {
+          "patch": "p0093",
+          "count": 1
+        },
+        {
+          "patch": "p0094",
+          "count": 1
+        },
+        {
+          "patch": "p0095",
+          "count": 1
+        },
+        {
+          "patch": "p0096",
+          "count": 1
+        },
+        {
+          "patch": "p0081",
+          "count": 1
+        },
+        {
+          "patch": "p0082",
+          "count": 1
+        },
+        {
+          "patch": "p0079",
+          "count": 1
+        },
+        {
+          "patch": "p0080",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_postreader",
+      "baseline": {
+        "file": "root_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_necessary.py",
+        "bytes": 27598,
+        "sha256": "ec9225aab673d69c5f05e5f61967ba6e4746a3d1d2a4b71846ed7c25d4293114"
+      },
+      "output": {
+        "file": "root_20261116_current_C_parallel234_union_postreader.py",
+        "bytes": 27545,
+        "sha256": "a4c59ddf0937e5302a67dfc1a5e1be5cea423613a66997bff043bd5dfd61879b"
+      },
+      "applications": [
+        {
+          "patch": "p0097",
+          "count": 1
+        },
+        {
+          "patch": "p0098",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_held",
+      "baseline": {
+        "file": "geometry_20261116_current_C_bound230_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_held.py",
+        "bytes": 44385,
+        "sha256": "5ee49b6d916c244c13d65b369e31c332b712d9cf1538924b068c315a14d844a5"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_parallel234_union_held.py",
+        "bytes": 44235,
+        "sha256": "32575a730f9152a1de4439ac53b94d1051279488f1ab38dc035736c177069839"
+      },
+      "applications": [
+        {
+          "patch": "p0099",
+          "count": 1
+        },
+        {
+          "patch": "p0100",
+          "count": 1
+        },
+        {
+          "patch": "p0097",
+          "count": 2
+        },
+        {
+          "patch": "p0098",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "integration_boundary": {
+    "original235_source_layers_must_materialize_first": true,
+    "original_R556_sampler_must_materialize_before_science": true,
+    "all_old545_source_pins_retained": true,
+    "all_original_root_families_and_work_values_preserved": true,
+    "original25M_single_shared_admission_and_phase_clock_not_restarted": true,
+    "physical_point_sampling_and_momentum_math_unchanged": true,
+    "new_necessary_reader_has_no_numerical_acceptance_gate": true,
+    "new_two_worker_failure_and_pending_scope_not_discarded": true,
+    "no_actual_result_or_speed_claimed": true
+  }
+}

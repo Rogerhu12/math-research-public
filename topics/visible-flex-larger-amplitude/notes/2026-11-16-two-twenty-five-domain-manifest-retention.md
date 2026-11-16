@@ -430,3 +430,17 @@ root已完整读的本次自身新增非Markdown源里，唯一匹配文件是�
 容量独立以已实际核f7d56b2da6e2c85f059f37277ad3026c31bb6667的198569112字节为基数，f7至拟推HEAD全topic raw diff逐变化old/new blob实际cat-file -s求准确delta，不用未核71bdd大小，更不用全树ls-tree -l拉所有blob。最近R573真实publisher已核bce880e0037870ce0977abc5d54d0cf2bd24d2cd的topic199992475，48变化完整计量与root文本预算相同。普通删除两个指定path毛1355425，作者note/最后登记计入新大小，最终仍≤200000000。
 
 此最后guard作者源10302字节/SHA af79ae4c2f3d44ce2171769c65fc2b4b14aa1947a36f9b9f1ae93b32ba436f5f，完整仅行政publisher源17455字节/SHA 41e71666c01cdc226392ec47a285b895f9332278deb446e4359baffd385bf2e8。source commit只含本note、两候选删除及本题H/open/results/log、240官方绑定；行政workflow留临时独立分支不进main。每次实际pull立即核双README并记已读commit；NFF/cannot-lock立即真实pull--rebase、重核/重记/再guard，再普通push，不force。任何新的具体冲突按原真实内容处理，不用覆盖主分支绕过。
+
+## 11. 实际普通提交、两次NFF与三次完整最终guard
+
+本次已实际完成普通移出：正式main **80840b54e7a2fc8cf5051bffde9a9035556cbb88**，source commit **41b9d60d255639d987232f0e7c27ee9fd7f86f23**；行政publisher **43888077632/job133371519083** success，root仅终态日志一次读取。原两candidate的Git blob/bytes在三次实际pulled main均与§1精确同，最终只删除指定两manifest，source中的完整note及本题登记正常提交，所有保护项未改。
+
+- 第一真实pull14:39:50.7326511/.51.5125260读8444e2d23b0e3998c10eefc9fe904c7657e531bf；完整guard87270字节/SHA66512a1ecf937047a79ebcf363cb63e9813ba109bbfa7e5f3f1665cc6b1c91a7，112变化=48完整source+61历史+3removed，未扫0/errors[]/未解释命中0，allowed=true。第一次push于14:40:28.2817955被拒。
+- 立即真实pull--rebase，14:40:28.9955913/29.0021034读3df96e126adec26e5b6600f846c2ca2986380027；完整guard87980/SHA39ee15bd4b4f70c12e8a521d6d70664a219e74465a61be5aea75a5508a925626，113变化=48source+62历史+3removed，未扫0/errors[]/未解释命中0、allowed=true。第二次push14:40:32.5337558被拒。
+- 再立即真实pull--rebase，14:40:33.1749818/.1816680读67a517c615cf1289835cc6d8bf531cf48f210a12；完整guard88670/SHA5fb0580686e196c9df6e735cd18eaf80710b7cf6e061ff8d905de940b1703e52，114变化=48source+63历史+3removed，未扫0/errors[]/未解释命中0、allowed=true。普通push14:40:37.1793284成功，最终status空，没有force。
+
+每次双README均根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，最终已读67a517写HANDOFF。三次完整必要body均<90000，没有截断/分片/抬上限；这里保作者结论和身份，不保存原输出Git blob。
+
+三次真实source命中均唯一当前request240的整97177字节单行，SHA e4ad6178a06d2cf270f3469c4cbcce4747c8876e7c95c50f829be58c9f6c437a；generic16有21个原源码键、20/21/22各一次，全部按§10完整21 pointer逐值同祖先的解释保留，reviewed_generic_source_matches完整存在，unresolved=[]。source新增读取者没有被generic字段掩盖。
+
+三次topic独立计量均 **198701537 bytes**，f7固定基数至拟推HEAD全部52变化old/new blob真实size，与root预算精确同；本次相对先前199992475净减少1290938，已扣完整note/官方240绑定及所有本题登记。不把先前基数或毛1355425冒作最终容量。主树不包含行政workflow，全部原科学run原样继续，R557/234的完整科学入口紧接本次整理单独发表。
