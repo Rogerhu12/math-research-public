@@ -30,6 +30,8 @@ R397/186的128接受与完整576 audit不能补112/338；[R424/199](results/R424
 
 **已证明（限实际有限输入和原binary64 RN运算条件）；尚无实现或运行。** [R473](results/R473-zero-coefficient-elision-in-complete-finite-trace-linear-products.md)14166B/93d57da3全文核对原195 a7a90668与R466 c29b0120的相同linear正文。所有实际A及被用T前$K\times K$词有限时，只跳实际`z===0`的j项，保原先乘后加/非零j序/正零初值及完整$(K+2)\times K$输出：有限累计不会变负零，最终有限词相同；溢出后保正负Inf/NaN分类和首次非有限j，不冒NaN payload/raw SHA。T含Inf/NaN时零乘积是反例，须原完整fallback而非新增拒收；无需入射T分块或两mean输入为零，完整两mean输出仍保。原linear自身无finite检查或throw，只能条件性陈述原下游相同谓词的bad mask。独立实现/真实来源、资源时刻、计时、整体逐词和原最终数学接受均未付，不改R471/208/210。
 
+**源码组成与条件接口已完成；尚无210数值运行。** [210完整接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)的生成器15871B/d07ec010、字面计划35215B/bc167385、配方13544B/67d7db28和接口25628B/577f8fec经全部源码、11视图完整delta、原208入口差异全文核后刊。保原140pins，加R471两源及生成器为143，实际11视图共154；旧源逐字复制，只由完整baseline/有序literal计数/新全文SHA生成真实private HERE，显式保真实GITHUB_WORKSPACE及原sourceRoot，PYTHONPATH/全部导入/receipt同场。302827B生成视图只在临时目录，不重复入Git。原actual119六词/λ=.001/699节点、18000秒/330step/350job、224方向/226双mean/338×112及所有原门不变；原finiteRootDirection先完整执行，R471仅在真实资格成立后省零flux角循环，false原路径、throw不捕获。必要真实计数/未完成地址、单90KB/超70与owner/rules-parent quiet后清理保持；源生成未完成不造receipt/科学摘要、不提前删临时现场。最终report两边界与compute同名，request/workflow另次推；R472由exact唯一终态，不预付接受、速度或README完成。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。

@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 04:52:33 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3147bc9c6ee32f07a3a2057d9456160b3e1e266e。
+规则同步记录：2026-11-16 04:57:00 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 84059ce21c213a53e038169efb8dac9ed4b128f6。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -18,13 +18,13 @@
 
 |请求/结论|run / source|唯一owner、最新官方metadata|
 |---|---|---|
-|203/R440|43790929300 /557b1d47cd637d268cf292c86f77218ccc3b5458|geometry；compute133048929054，04:45前16成功，17–19 failure、20–22必要success、23读回中（原因待终态）|
+|203/R440|43790929300 /557b1d47cd637d268cf292c86f77218ccc3b5458|geometry；compute133048929054/report133098221382已终态，唯一必要日志各取一次，完整R440正在归纳|
 |204/R446|43789310271 /189579b508930d99d9c2dbc481967fd972766919|amplitude；compute133043887128，04:42前13成功，14完整SIMD运行|
 |205/R453|43796116341 /e17aef55b9cc4d3f53054d2b79c853ff395d1227|amplitude；compute133065195355，04:42前15成功，16全far/sampling运行|
 |206/R455|43797755759 /e8e4be9f5cd3885399453b8945ea750b1a365ce4|exact；compute133070353121，04:41前6成功，7原八组科学运行|
 |207/R460|43801267782 /1e05442404d3867fc09589a523e594202efde7c0|exact；03:58:34Z/attempt1，compute133081849462，04:41前12成功，13连续E cover运行|
 |208/R467|43804793905 /9b05bfc5160bf667cde0cb0ba059b0c8b0332bd5|exact；04:33:13Z，compute133092971995，04:41前9成功，10原完整112科学运行|
-|209/R469|43805615033 /cfd63e66a3d6090f86fa906b46dec8db808b04a6|geometry；04:41:34Z/attempt1，compute133095582437，04:42前6成功，7容量metadata运行|
+|209/R469|43805615033 /cfd63e66a3d6090f86fa906b46dec8db808b04a6|geometry；04:41:34Z/attempt1，compute133095582437，04:45十五视图/input已过，13原C运行|
 
 运行中不取大日志。唯一owner取终态必要日志，root不重复；197/200已发表不重取。新207内部205子合同不冒原205 run。运行标签只证执行状态，不补原数学门。
 
@@ -54,9 +54,9 @@ R471已刊d004a4e4，helper7111/e6ce9308、variation12597/d4f2f32b、proof15466/
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
-- exact：唯一206/207/208终态；210 generator15871/d07ec010、plan35215/bc167385、11view完整delta89299/309fa282 root均读完，待最终recipe/request/workflow/接口。R471已刊；真实private HERE/PYTHONPATH，原140pins/参数/18000/全门保持。
-- geometry：唯一203/209终态；203必要读回中原因未读，209已过十五视图绑定/step13 C。actual63两旧生成清单1441937B调查全文已读，root本次普通删除并保重做记录。
-- amplitude：唯一204/205终态；R471/d004a4e4与R473/f7b46ef6已刊。R474小helper+新flow实现仅合格finite A/T时跳z===0，原fallback/完整RK/两mean；request211/实际R475预留，不改210。
-- root：本次actual63两清单普通删除；[清理与重做](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)含全SHA/run/参数/当前依赖边界。随后210最终入口审读，203/R440终态一到即处理；每pull核双README。
+- exact：唯一206/207/208及未来210/R472终态；210六件及全部完整diff已读，generator/plan/recipe/interface本次刊（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7下一独立推。143已刊+11实际view=154，原参数/18000/全门保持。
+- geometry：唯一203/209终态；203七份必要JSON已取一次并核身份，R440全文未归纳前不填数学结论；209原C。并行只源/纸证定位当前C准确C²闭合最小未付点（R476预留），不添科学门。
+- amplitude：唯一204/205终态；R474四件完整候选在zero-linear-R474待root全文读，helper4832/eb487b2d、flow9510/1a5ce3f7、proofc7ab29f0/interface09bf81b6。独立211/R475接线草案进行，不改冻结210。
+- root：本次刊210源码组成/配方/接口，下一推request/workflow并绑定实际run；随后R474全文与R440实际终态。actual63已普通清理b696cc15；每pull核双README。
 
-删除前官方topic tree83ee7c1ce8ed4cb3630d0c058943a5f4841479f9（R473/f7b46ef6）9235blobs/198614173B、9609entries未截断；本次两原blob共1441937B普通删除，实际新树另核；不存新raw。
+actual63清理后b696cc15的官方topic tree2a8bf41ceadb7be792d6dcb89405741bc3178eac：9234blobs/197185171B、9607entries，truncated=false。两生成清单1441937B普通删除，重做/全SHA见清理记录；不存新raw。

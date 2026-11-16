@@ -1,0 +1,275 @@
+{
+  "schema": "explicit-six-control-zero-flux-contracted-trace-r273-height-path-nonzero112-recipe-v1",
+  "parameter_order": [
+    "p1",
+    "p2",
+    "p3",
+    "theta1",
+    "theta2",
+    "theta3"
+  ],
+  "active_parameter_indices": [
+    0,
+    1,
+    2
+  ],
+  "frozen_parameter_indices": [
+    3,
+    4,
+    5
+  ],
+  "initial_six_parameters": [
+    0.41654476801167684,
+    0.23884336093393582,
+    0.5270922473095916,
+    -0.13437878055563054,
+    -0.005765450212224129,
+    0.4141025261683763
+  ],
+  "lambda_target": 0.001,
+  "field_modes": 112,
+  "field_angular_quadrature": 2048,
+  "initial_guess_kind": "fresh-circle-low-three-linear",
+  "source_input_sha256": {
+    "accepted": "b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff",
+    "prepared": "0f94dd88b4ad43a58694e25c8dded46cddcf96939abae1dc21416adb50042714",
+    "tail_anchor": "e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51",
+    "tail_config": "01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5"
+  },
+  "origin": {
+    "kind": "literal actual119 third batch terminal six parameters; not the eighth terminal point, a nonzero field or a native parent",
+    "run_id": "43693462669",
+    "source_commit": "6fffce1f36e876f3b08a1c73198a7fde259d94d6",
+    "selected_batch_one_based": 3,
+    "final_batch_of_origin_run_selected": false,
+    "original_status": {
+      "bytes": 1568824,
+      "file": "six-control-curved-status.json",
+      "sha256": "10c31f1da398f537f1c9dfb19a162bb6aadb30e7e57fddafffebf7a9a60c08e4"
+    },
+    "compact_summary": {
+      "bytes": 73546,
+      "sha256": "4ec08e23ea41bc3f443f04f613270163c9e8624d8b4172ab2a35f998b75acf5a"
+    },
+    "producer_file": "geometry_20261115_small_core_six_control_curved_recipe.py",
+    "producer_sha256": "e154afe28c588ce0c2ae936d4304b67ec84e2b46c96b03e48ce4113e2401a761",
+    "batch_driver_file": "geometry_20261115_six_control_temporary_batches.py",
+    "batch_driver_sha256": "b9db240d4ad1d1a12135e8a44db1a034b7bd6721d197ca8273aec9bed7eda4da",
+    "source_point_first_three_column_singular_values": [
+      193504546.48297158,
+      166241.91917386654,
+      23.479971346554226
+    ],
+    "source_point_complete_six_column_singular_values": [
+      194240478.14283228,
+      192125.2730766859,
+      30.014184216747374
+    ],
+    "seed_selection_is_a_floating_response_heuristic_not_rank_or_root_proof": true,
+    "low_three_threshold_passed": false,
+    "native_solution_claimed": false,
+    "lambda_is_an_explicit_new_experiment_parameter_not_a_saved_result": true
+  },
+  "height_continuation": {
+    "schema": "explicit-zero-flux-contracted-trace-r273-complete112-height-path-policy-v1",
+    "initial_positive_increment": 0.015625,
+    "accepted_increment_multiplier": 2,
+    "maximum_increment": 0.25,
+    "stop_after_first_positive_original_mathematical_refusal": true,
+    "no_repeated_height_halving_after_refusal": true,
+    "maximum_bootstrap_requests": 64,
+    "includes_zero_and_final_J_requests": true,
+    "zero_request_jacobian": false,
+    "intermediate_request_jacobian": false,
+    "endpoint_request_jacobian": true,
+    "bootstrap_audit": false,
+    "endpoint_uses_original_H_star_words": true,
+    "total_scientific_wall_clock_seconds": 18000,
+    "resource_limits_are_not_mathematical_nonexistence_claims": true
+  },
+  "motivation_from_actual120": {
+    "run_id": "43694844403",
+    "source_commit": "ace38440324f09471482826136584da38960c417",
+    "compute_job_id": "132752997196",
+    "report_job_id": "132753527828",
+    "compact_summary": {
+      "bytes": 19463,
+      "sha256": "4f2be484a9d33faf5b9072bbb0c22989d885351a28a229f504aed34d1f081b85"
+    },
+    "original_failure": "Error: momentum branch D/S/A rejected",
+    "lastIteration": null,
+    "native_trials_returned": 0,
+    "original_current_H_source": "new full112 preflight and true_height with the same literal six parameters and four original inputs",
+    "same_input_parameter_experiment": true,
+    "old_response_or_checkpoint_used_as_current_anchor": false,
+    "old_compact_H_reconstructed_as_new_target": false,
+    "scale_path_s_not_core_lambda_or_surface_phase": true
+  },
+  "motivation_from_actual124": {
+    "run_id": "43698138088",
+    "source_commit": "b1df8ec306e596256a317df925464af6acaa31c6",
+    "compute_job_id": "132763110680",
+    "report_job_id": "132807763676",
+    "compact_summary": {
+      "bytes": 40051,
+      "sha256": "455945a39c5ab2e9d56f6378b7cef8cbe055d562fadcc0800c93b7f9c2b5bd1b"
+    },
+    "observed_positive_mathematical_refusals": 13,
+    "observed_original_noJ_trials": 130,
+    "observed_all_positive_trials_same_guard": "momentum branch D/S/A rejected",
+    "observed_trial_location": {
+      "stage": 0,
+      "rawCell": 0,
+      "rawSegment": 8
+    },
+    "observed_completed_positive_base_withJ": 13,
+    "last_in_flight_call_not_a_mathematical_result": 15,
+    "original_warm_preserved_to_separate_correction_change": true,
+    "first_positive_height_scale": 0.015625,
+    "original_state_J_or_response_not_imported": true,
+    "new_H_and_all_current_arrays_formed_by_original_current_worker": true,
+    "old_H_words_or_failed_checkpoint_not_recovered_from_hash": true
+  },
+  "native_correction": {
+    "implementation_file": "geometry_20261116_zero_flux_contracted_trace_r273_tail_client.py",
+    "implementation_sha256": "2936e1bb32043c9cd7a5487ff4767c5d25cf6ab0d96f3054a0f8bd5911329104",
+    "model_scope": "R273-original-sigma-complete-chain-with-explicit-eta-and-sigma-column-coordinates",
+    "eta_cli_text": "1",
+    "all_577_node_penalty_blocks": true,
+    "complete_129248_original_rows": true,
+    "fresh_current_H_state_J_r_cut_far_and_scales": true,
+    "old_graph_correction_call_only_replaced": true,
+    "original_initialization_warm_noJ_and_final_gates_unchanged": true,
+    "complete_endpoint_J_and_FD_fullDN_and_audit_still_required": true,
+    "old_implicit_root_J_is_not_relabelled": true,
+    "no_extra_native_trial_or_diagnostic_evaluation_added": true,
+    "withJ_uses_recorded_original64_noJ_trace_and_R465_nominal_model": true
+  },
+  "finite_trace_tangent": {
+    "schema": "explicit-original64-zero-flux-recorded-factor-contracted-trace-tangent-policy-v1",
+    "all_shape_columns": 224,
+    "all_stage_state_entries": 226,
+    "all_physical_tail_modes": 112,
+    "original_root_iteration_limit": 30,
+    "original_root_line_trial_limit": 20,
+    "maximum_successful_return_accepted_updates": 29,
+    "final_thirtieth_accepted_update_can_precede_original_iteration_limit_throw": true,
+    "original_noJ_primal_arithmetic_retained": true,
+    "original_Primal_K4_RK_then_actual_tape_variation": true,
+    "actual_Cholesky_and_both_triangular_loops_differentiated": false,
+    "original_Gram_not_identified_with_F_L": true,
+    "zero_update_root_return_derivative_is_Dt": true,
+    "all_initialization_current_stage_and_endpoint_local_field_J_use_new_trace": true,
+    "original_fresh_endpoint_heightJetJacobian_and_finite_second_derivative_formulas_retained": true,
+    "all338_by112_return_and_original_physical_audit_still_required": true,
+    "fixed_successful_branch_accurate_real_expression_is_object": false,
+    "IEEE_roundmap_derivative_claimed": false,
+    "neighbouring_branch_invariance_proved": false,
+    "rigorous_roundoff_bound_claimed": false,
+    "numerical_primal_shadow_equality_gate": false,
+    "comparison_fixture_gate": false,
+    "source_identity_and_actual_finiteness_checks_only": true,
+    "no_R360_extra_same_state_or_small_alpha_calls": true,
+    "cumulative_branch_counters_do_not_prove_current_complete_J": true,
+    "root_vector_dimension": 113,
+    "complete_Gram_cosine_moment_entries": 225,
+    "recorded_factor_forward_and_backsolve_values_are_authoritative": true,
+    "accepted_update_direction_object": "R465 local constant-defect nominal-coefficient system at each recorded update",
+    "local_model_definition": "E0=R0*R0^T-C0; a0=R0*z0-F0; b0=R0^T*s0-z0; R(C)=chol(C+E0), z=R^-1(F+a0), s=R^-T(z+b0)",
+    "actual_general_defects_not_assumed_constant": true,
+    "all_225_literal_Gram_slots_and_sqrt2_weights_retained": true,
+    "backsolve_defect_formed_as_exact_dyadic_then_explicit_RN_binary64": true,
+    "backsolve_defect_projection_error_not_rigorously_bounded": true,
+    "exact_nonzero_defect_not_silently_dropped_when_projection_underflows": true,
+    "contraction_helper_file": "geometry_20261116_recorded_factor_contracted_solve.mjs",
+    "contraction_helper_sha256": "2592a0a56433ca0bdd0d2f28b5a8de2c580b00e4a4a60d2ccecdd7849104fe59",
+    "complete_columns_contracted_using_actual_R_then_R_transpose": true,
+    "no_ideal_C_inverse_substitution": true,
+    "original_195_factor_loop_retained_as_numerical_fallback": true,
+    "resource_and_source_errors_never_caught_as_numerical_fallback": true,
+    "zero_update_path_is_original195_without_contraction": true,
+    "binary64_word_equivalence_to_original195_claimed": false,
+    "speedup_or_wall_completion_guaranteed": false,
+    "zero_update_path_scope": "The original finiteRootDirection zero-update return is unchanged; R471 may omit only its later eligible +0 nonlinear dFlux loop."
+  },
+  "motivation_from_actual172": {
+    "same_original_124_and_145_parameter_point": true,
+    "old_actual_state_or_J_imported": false,
+    "completed_saved_vector_identity_does_not_identify_unique_cause": true,
+    "per_root_original172_branch_tapes_not_available": true,
+    "this_is_an_independent_tangent_implementation_experiment_not_a_confirmed_cause_fix": true,
+    "published_result": "R369"
+  },
+  "motivation_from_actual195": {
+    "source_commit": "4ad7fb771218585af1091c9d322c9d61b64a949c",
+    "run_id": "43771125613",
+    "compute_job_id": "132987043859",
+    "report_job_id": "133078432173",
+    "necessary_summary": {
+      "bytes": 41421,
+      "sha256": "e43d25f621c9e5542a442dc3d3ea42a454b4e2036036722b383e1fb844068229",
+      "hash_scope": "original compact ASCII JSON excluding separator LF"
+    },
+    "result": {
+      "file": "topics/visible-flex-larger-amplitude/results/R412-actual195-finite-root-tangent-resource-partial-before-positive-current-J.md",
+      "bytes": 20290,
+      "sha256": "5d8d4eea2cb60bc02e24c61be8c66b2cc23503aebb82ef2fef83b0b452668955",
+      "published_commit": "b33160624049313b2bda9d66d3da25dab03410cb"
+    },
+    "observed_zero_H_request_returned": true,
+    "observed_first_positive_H_scale": 0.015625,
+    "observed_complete_positive_base_J": false,
+    "observed_native_positive_iterations": 0,
+    "observed_native_positive_trials": 0,
+    "observed_stop": "finite-trace-direction-resource-budget",
+    "observed_stop_location": {
+      "stage": 368,
+      "rawCell": 5,
+      "rawSegment": 7
+    },
+    "old_state_root_tape_J_or_response_imported": false,
+    "old_hashes_used_to_resume_deleted_state": false,
+    "original_zero_update_local_field_and_angular_cost_not_removed_by_this_change": true,
+    "new_floating_order_may_change_later_direction_and_trajectory": true,
+    "this_is_an_independent_numerical_implementation_not_a_confirmed_root_cause_or_speedup": true
+  },
+  "recorded_factor_contraction_proof": {
+    "file": "topics/visible-flex-larger-amplitude/results/R465-recorded-factor-backsolve-defect-and-complete-column-contraction.md",
+    "bytes": 19378,
+    "sha256": "6f9200ea16b08f8305b29c15d6f5712d67c747c4a5f6d27ef8f7b202f835c347",
+    "published_commit": "f454d36788c6efbdb375b4239b54c03c56e1fc7a"
+  },
+  "zero_nonlinear_flux": {
+    "schema": "explicit-R471-original-zero-nonlinear-split-flux-policy-v1",
+    "helper_file": "geometry_20261116_zero_nonlinear_split_flux.mjs",
+    "helper_sha256": "e6ce93089c0ee03324fbaeb86ced15b1852b3ad498b322c4adfd959d7c869fde",
+    "variation_file": "geometry_20261116_original64_zero_flux_contracted_finite_trace_variation.mjs",
+    "variation_sha256": "d4f2f32b61c084a67615ebb26b88b62c7d18de06056f09f5f68f86efa0f143e0",
+    "eligibility_schema": "original64-zero-nonlinear-split-flux-eligibility-v1",
+    "actual_primal_and_finiteRootDirection_always_retained": true,
+    "exact_actual_sparse_words_and_used_angular_values_checked": true,
+    "original_angularPartials_factor_function_and_parentheses_used": true,
+    "zero_returned_root_and_empty_unsupplied_successful_trace_required_for_fast_path": true,
+    "mean_state_values_need_not_be_zero": true,
+    "only_original_positive_zero_nonlinear_dFlux_array_retained": true,
+    "failed_eligibility_is_original_full_angular_loop_not_scientific_rejection": true,
+    "no_error_or_resource_exception_caught_for_retry": true,
+    "all224_columns226_states_both_mean_and_original_final_assembly_retained": true,
+    "no_literal_trigonometric_orthogonality_assumed": true,
+    "no_new_native_residual_domain_or_FD_gate": true,
+    "unused_q_or_bm_not_eligibility_gates": true,
+    "recorded_factor_contraction_and_original_numeric_fallback_unchanged": true,
+    "binary64_whole_run_word_equivalence_claimed": false,
+    "IEEE_or_continuous_root_derivative_certificate_claimed": false,
+    "speedup_or_wall_completion_guaranteed": false,
+    "zero_initialization_current_field_and_later_complete_J_scopes_not_conflated": true
+  },
+  "zero_nonlinear_flux_proof": {
+    "file": "topics/visible-flex-larger-amplitude/results/R471-zero-nonlinear-split-flux-finite-trace-fast-path.md",
+    "bytes": 15466,
+    "sha256": "3d1a57be21c549f7f8bfdb9abe99d945d8f10bb92576bf82c1e48c300fb97922",
+    "published_commit": "d004a4e421408e9b4b7b7dcd871d661f1d28b3e1"
+  },
+  "original208_numerical_parameters_retained": true,
+  "original208_no_state_tape_J_or_result_resumed": true
+}

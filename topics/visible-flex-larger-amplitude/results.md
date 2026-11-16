@@ -482,3 +482,8 @@
 ## 2026-11-16 — actual63两份生成清单的普通删除
 
 按根README第15条，[actual63两生成清单清理记录](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)保留真实run43646179305/source db6d728f、原request/脚本/全部参数与原62父输入、现有紧凑结论和现用203–209/210已形成计划的依赖边界。本次仅从当前树普通删除其eighteen-condensed-warm/domain-operator/manifest.json（493850B/ff034c85）与optimization-intent.json（948087B/688c586b），共1441937B；实际blob字节已核，不改历史，不删父warm/status、原91/98 archive或现用源/输入。旧确切字节仍由既有cfd63e66历史路径可取，科学重做不承诺旧运行逐字复现。删除前官方R473树198614173B，净新大小须连本说明/索引增减按新官方树另核；不改变数学状态。
+
+
+## 2026-11-16 — Request210真实源码视图与零通量接线
+
+**源码组成与条件接口已完成；尚无210数值运行。** [210完整接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)的生成器15871B/d07ec010、字面计划35215B/bc167385、配方13544B/67d7db28和接口25628B/577f8fec经全部源码、11视图完整delta、原208入口差异全文核后刊。保原140pins，加R471两源及生成器为143，实际11视图共154；旧源逐字复制，只由完整baseline/有序literal计数/新全文SHA生成真实private HERE，显式保真实GITHUB_WORKSPACE及原sourceRoot，PYTHONPATH/全部导入/receipt同场。302827B生成视图只在临时目录，不重复入Git。原actual119六词/λ=.001/699节点、18000秒/330step/350job、224方向/226双mean/338×112及所有原门不变；原finiteRootDirection先完整执行，R471仅在真实资格成立后省零flux角循环，false原路径、throw不捕获。必要真实计数/未完成地址、单90KB/超70与owner/rules-parent quiet后清理保持；源生成未完成不造receipt/科学摘要、不提前删临时现场。最终report两边界与compute同名，request/workflow另次推；R472由exact唯一终态，不预付接受、速度或README完成。
