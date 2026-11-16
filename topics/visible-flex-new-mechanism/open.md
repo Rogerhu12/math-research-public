@@ -86,9 +86,13 @@ R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal 
 
 [R451](results/R451-weight-zero-positive-representative-on-complete-real-mirror-copy-families.md)已直接把原H*真实目标送入本像：H*∈U0/λ1/J⁺0，ΣN9=0故self平移≤8；ΣN8H*=αTR+βr4，原2TR=−r4/3−2Lf(Puu)/3给共同γ=(α−6β)/(8!10!)，减γK8后所有根partial≤7。完整K左逆加L0…7得到一个原W，清固定非零r镜对全部同宽对应copy，保λ1/J⁺0；同μ真实内区路径使共同cap最终母全部适用，不只比较jets。
 
-完整对应cell角色的suffix按三矩二次输运，原ordered current次数≤5，故eta额外≤7亦能同一W清；C保原值，首/末角色C因E为0、其它角色未付。所有其它根仅剩八个真正原cap系数与30blind同source像比较，r0按R452另保七高系数。任意混权C修正可增至11次，只有同权0/单独已证八次项一致时能继承H*结论；signed见证不授all-copy actual增强。R410一对根只q0、与q4 regular流形交集尚无证明，不能拼两母。
+完整对应cell角色的suffix按三矩二次输运，原ordered current次数≤5，故eta额外≤7亦能同一W清；C保原值，首/末角色C因E为0、其它角色未付。所有其它根仅剩八个真正原cap系数与30blind同source像比较，r0按R452另保七高系数。任意混权C修正可增至11次，只有同权0/单独已证八次项一致时能继承H*结论；signed见证不授all-copy actual增强。该同母缺口已由下述R455的新有限周期核构造支付；原R410单独仍只付q0。
 
 继续R453真实D_path/全C与R454原Θ71(kerΠ71)外部来源，先真实全根/period，再同一原型×n/两次商/桥/Klein与合法窗口的actual联合。未授全R_p0=144+K，不重R443/旧rank。
+
+[R455](results/R455-four-natural-moments-with-one-common-degenerate-pair-and-twenty-targets.md)从一次新初选同时付q四完整自然矩、D−E5>0、原F★和(V19,dP)=(0,η)，且全母只有同一对Af简单根/r*>0。原R410半cap接正反周期核；四有序宏cell块的全q增量保全部低项，N^(2j+1)归一后基线O(N^-2)、矩阵为正Vandermonde积分，有限N真实根θ=O(N^-2)。J每周期正、cap位移正、纠正仅O(N^-1)，所以D/E条件同母成立。
+
+正常支持全在内负Af区、避开中央单调J；同一q图册的restricted F★最大minor与20原jet minor共同非零，最高有号脉冲只放J，其它处固定C4小纠正，原全部copy/完整基线给有限集中根。p允许有限多个简单零，不用全core单调性；端cap/根/jets准确固定，三矩连通路径保完整self cap。R45119镜像接口因而覆盖该新母的全部Af根；不同role的同一W、全部C/actual基准、真range及p点极性/同13门仍欠。0新执行。
 
 [R452](results/R452-nine-real-fluxes-at-zero-second-jet-and-the-forty-dimensional-remainder.md)补正母r*=0简单镜点：p*≠0/t*=0，准确像Pol5图+right Pol2、rank9/49核40；K5…10与V31/44/51给真实6左+3右。原K0…4全盲但成本非零；其它根仍用同一Π原source，保全C/actual共同前提。
 
