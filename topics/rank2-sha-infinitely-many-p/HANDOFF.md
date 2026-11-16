@@ -3,10 +3,11 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：1a4b97081b801e0e991314decfecb3886aa9c5ce；2026-11-16 03:30:59 UTC核两README无变。实际CI pull 2026-11-16 02:57:07 UTC/3a32e48955de6f7609ea25c46a1a23cac1b7afdd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 03:30:58 UTC仍无环境。最迟2026-11-16 03:40 UTC再实际pull。
+- 最近已读规则提交：7f00def7bd50e3c5ed962c272f719812fc459c78；2026-11-16 03:31:20 UTC核两README无变。实际CI pull 2026-11-16 02:57:07 UTC/3a32e48955de6f7609ea25c46a1a23cac1b7afdd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 03:30:58 UTC仍无环境。最迟2026-11-16 03:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
+- 03:31单独提交本轮只读实际pull请求rank2-20261116T0331-rule-pull，待真实run回执；03:40前完成。
 - 02:57:07实际pull成功：run43795194800/job133062312766，head3a32e489；两README差异空。回执ci/rule-pull-20261116T025708.json（内记录准确07秒）。下一03:40前。
 - 库存31,130,692B/2280文件，无超限、3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。本地进程入口仍缺失，CI实际pull与API读head分清。
 

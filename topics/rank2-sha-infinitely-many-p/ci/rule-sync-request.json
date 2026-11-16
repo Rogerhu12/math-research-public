@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261116T0257-rule-pull",
-  "utc": "2026-11-16 02:56:56 UTC",
-  "last_rules_read": "01a47e9e9fd8381d131eb9a6bdd9b08133505082",
-  "reason": "Reissue the read-only actual pull trigger as a separate request commit: the 02:51 combined proof/request commit has no associated run after repeated checks. Perform git pull --rebase, compare the two README changes and audit rule-15 inventory."
+  "request_id": "rank2-20261116T0331-rule-pull",
+  "utc": "2026-11-16 03:31:19 UTC",
+  "last_rules_read": "1a4b97081b801e0e991314decfecb3886aa9c5ce",
+  "reason": "Regular read-only actual git pull --rebase, two-README difference check, and rule-15 inventory before the 03:40 UTC deadline. The local process entry remains unavailable; do not treat an API head refresh as an actual pull."
 }
