@@ -33,3 +33,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:07 UTC /root — 两旧domain清单普通容量整理
 
 [完整审计/恢复](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)依据r6实际89713/d9d正文与23组具体用途，仅两manifest1456843B普通移出，固定e6/d195同字可恢复，全部warm/status/gzip/当前源输入保。r1–5失败/未返及两类操作偏离完整记；root两段27commit/13275新增行/24词零新命中、40新文件完整blob匹配，最终每次真pull后guard重查新源和≤200MB再普通push。H/open/index同步，R569未刊旧f349已换ρ正确最终45975；腾容量后各完整R559/R564/R565/R567/R556/R569逐条即时推/必要入口单派发，不停在整理。
+
+## 2026-11-16 14:11 UTC /root — R559真实引擎接口及完整235入口
+
+[R559](results/R559-actual-source-engine-interface-and-complete-generation-readback.md)/[接口](notes/2026-11-16-request235-complete-source-generation-and-original-refinement-interface.md)八件396490B/topic305314B完整独立刊，原535全保→545；实际__file__/comp修复保engine.main guard，九层248来源/早期完整错误及缺cleanup真回读，原49+8科学与C/全门/18900+2700/32GiB/90K不改。新增正式235 workflow，真实刊后唯一POST，R560 exact唯一；两旧manifest普通移出已f7d56b2，最终93变化守护/实际topic198569112与预算同，实际回执写入恢复note。H/open/index同步，下一完整结论立即接续。
