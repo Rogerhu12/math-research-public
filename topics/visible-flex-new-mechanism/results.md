@@ -273,3 +273,6 @@
 
 
 - **cone32首实际：有限锥残差全过，完整网格撤销改善。** [完整实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)（19117B/SHAd0c7bc22ad1fbf5a9f3a380048aaea7e6b53bd8143c7e4c43f06f70768709ab9），run43800505444/job133079366251/source8dfe5272。AlmostSolved完整161在筛选前保存；新fine87417使rho=.0060297012571054465、gain−.000011406471767227977，0trial/0接受。tags5761→5762未再解，actual池/原52/全部实际门不变；bank仅四次affine观察更新。新195.335570869秒/2值、累计锥968.675704986/原1324.805525247秒与62/124值；32/32cone及旧64封存。全部实际pull、189绑定、旧收据复用、vector/hash和计时scope已完整核读，不宣stationarity/主目标完成，继续新p32线包络问题。
+
+
+- **R443唯一完整self入口已发。** [设计](notes/joint-kernel-complete-self-design-20261116.md)与[根审读](notes/joint-kernel-complete-self-entry-review-20261116.md)（3992B/SHA3ba611d67ac70e22b78d1f3812234052a579f86e02a10dfa9280f863e5183272）：只消费R434已付53原关系，完整2K真锚Green+self fresh、只外Af替换；2新adapter/0旧rank与检查。全local闭合才新53/K11 union及11旧列成员，无实际profile/root。唯一request11809B/SHAf3523f5ee89d820150e52e22c54afd25d5d7deb79fa8adc0d5cbefc7496f4532和十一源码闭包核同；先真双pull/规则后执行，等待原stdout，不预报成功。

@@ -103,7 +103,7 @@ R435完整current保左常数，K0=−8r⁵/45、r0首K5=1024p⁵；同母同宽
 
 同一V的全部C共同支付后，normalized通道η=(R Hd−T He)/(a³(R²+T²))保R0。先16核心清原目标，再用六个原blind成本对所有其它真实根共同评价，真实残差落该像 iff 本模块可signed清全部根。前四为r³Δ、xr³Δ、pr²Δ、pr³(u−h*r)，第五保Ξ1/W3/K2全低项，第六如上；r0六列全盲，不宣当前母有此点或全R障碍。实际J⁺追加/原型、两次商、桥/Klein全基准与其它C联合条件均保，signed判据不授免费几何插入。
 
-新问题R443直接消费R434已付53条current dependent、85原Q核组合和18完整算子，映射完整同锚self后才Af替换，保所有非local/高jet，求新self像与22列关系；不重旧Q/current秩、原144恢复或旧开发检查。仍须真实全根目标/actual联合截面与完整period/同规范。
+[R443唯一入口](notes/joint-kernel-complete-self-entry-review-20261116.md)已发，直接消费R434已付53条current dependent/85原Q核/18算子；保完整同锚self后仅外Af替换，2新adapter+53fresh证书。任何非local/高jet原样保且不判完整秩；全local才新self/K11 union与11旧current成员比较。十一源码闭包已核；0旧rank/144恢复/旧检查。等唯一原stdout，仍须真实全根与actual联合、period/规范。
 
 
 ### 完整period与同一w joint仍须真正求解

@@ -1,0 +1,209 @@
+{
+  "schema": "visible-flex-joint-kernel-complete-self-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/literature_joint_kernel_complete_self.py",
+  "request": "visible-flex-joint-kernel-complete-self-20261116",
+  "purpose": "One new complete self-current image on the 53 paid whole-Q/three-tail-current relations. Consume the original 18 operator records and 85-to-144 source combinations; never rerun old Q/current maps, ranks, operator construction or checks. Only after complete local Laurent certification compute the new self/union image and compare the eleven published non-K currents.",
+  "domain": {
+    "paid_operator_records": 18,
+    "paid_Q_kernel_columns": 85,
+    "paid_current_null_relations": 53,
+    "original_labels": 144,
+    "new_self_columns": 53,
+    "new_development_checks": 2,
+    "self_normalization": "2K_not_K_over_4",
+    "root_substitution": "only_outer_t_to_r_squared_over_3p",
+    "original_right_anchor": true,
+    "reference_K_columns": 11,
+    "paid_reference_formal_dimension": 22,
+    "profile_or_actual_root_evaluations": 0,
+    "old_operator_constructions": 0,
+    "old_Q_maps": 0,
+    "old_Q_ranks": 0,
+    "old_current_maps": 0,
+    "old_current_ranks": 0,
+    "old_checks": 0,
+    "new_problem": "complete_self_image_of_paid_joint_kernel_plus_exact_comparison_with_paid_22"
+  },
+  "limits": {
+    "seconds": 180,
+    "development_seconds": 20,
+    "memory_mib": 1024,
+    "nodes": 500000,
+    "atoms": 60000,
+    "terms": 80000,
+    "word_calls": 500000,
+    "cache_entries": 300000,
+    "rational_bits": 8192,
+    "monitored_rational_operations": 5000000,
+    "mathematical_stdout_bytes": 2500000,
+    "stdout_final_reserve_bytes": 131072,
+    "original_log_read_bytes": 8388608,
+    "network_json_bytes": 2097152,
+    "network_timeout_seconds": 40
+  },
+  "paid_input": {
+    "run_id": 43796872698,
+    "job_id": 133067569306,
+    "source_commit": "563defb46bc785295265c3f48fcad3fc8897c617",
+    "log_bytes": 1322512,
+    "log_sha256": "1edd4dd8ac34e2a9fe6fc1cf7ae08dc2d91fa279c02e6c32365bff9830e013b1",
+    "records": 1020,
+    "record_file_bytes": 1170464,
+    "record_file_sha256": "dd936dc713d3461cfbf2652c4e88c89ac4b918eb7949bb379f3b940d62cb8ec7",
+    "record_identity_chain_sha256": "673061557c1b53e78bf300d18e11e510d091378ad3431e159f6049404cde5101",
+    "request_path": "topics/visible-flex-new-mechanism/computations/request-complete-response-self-current.json",
+    "request_bytes": 9269,
+    "request_sha256": "fd6e8526d6f7e9492911848b17a852d64a31654513a267ba61e5bdb9390ffb01",
+    "report_bytes": 15639,
+    "report_sha256": "c4b4031bddacca0c84050c7efdf8b43f80e7553553305d55dd52637f96af292d"
+  },
+  "source_manifest": [
+    {
+      "path": ".github/workflows/visible-joint-kernel-complete-self.yml",
+      "bytes": 5267,
+      "sha256": "d04a544f9d21bc8d0a053cc44a82ee27ebb462aacfd150c9265f24cebfdc613f"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/notes/joint-kernel-complete-self-design-20261116.md",
+      "bytes": 13644,
+      "sha256": "b1d8ff3a93cba71176641589011c5578d74172f8267a15356b447c2935fd84af"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py",
+      "bytes": 21642,
+      "sha256": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py",
+      "bytes": 15738,
+      "sha256": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_complete_response_self_current.py",
+      "bytes": 54281,
+      "sha256": "18d5578869860f9da52d31137352f6a503a27610eab5e133b9a1c0f9ca85e8f5"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py",
+      "bytes": 10966,
+      "sha256": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_joint_kernel_complete_self.py",
+      "bytes": 42222,
+      "sha256": "f651b7c89c4ed7ff08c8b0b18d903846a95b520fd28d3d504cf22bf36410f11e"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_exact_membership.py",
+      "bytes": 33718,
+      "sha256": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py",
+      "bytes": 32310,
+      "sha256": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py",
+      "bytes": 33169,
+      "sha256": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py",
+      "bytes": 50679,
+      "sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+    }
+  ],
+  "source_sha256": {
+    ".github/workflows/visible-joint-kernel-complete-self.yml": "d04a544f9d21bc8d0a053cc44a82ee27ebb462aacfd150c9265f24cebfdc613f",
+    "topics/visible-flex-new-mechanism/notes/joint-kernel-complete-self-design-20261116.md": "b1d8ff3a93cba71176641589011c5578d74172f8267a15356b447c2935fd84af",
+    "topics/visible-flex-new-mechanism/scripts/literature_color_priority_words.py": "ec2022d8f9ba764dad05350b6fd2084d0c8fdc4bb9a26550f65f1f95f504a9b9",
+    "topics/visible-flex-new-mechanism/scripts/literature_colored_profile_algebra.py": "c0d87a214f27a03fb29cd07cc5e9740249580da7f854ed4ff02d6eaf69b1f66f",
+    "topics/visible-flex-new-mechanism/scripts/literature_complete_response_self_current.py": "18d5578869860f9da52d31137352f6a503a27610eab5e133b9a1c0f9ca85e8f5",
+    "topics/visible-flex-new-mechanism/scripts/literature_full_self_euler_coordinates.py": "95ec818ce1fdf815b0390aaf2ad4f976a0dfc7bd0b5218899acd4f4bc271f9ba",
+    "topics/visible-flex-new-mechanism/scripts/literature_joint_kernel_complete_self.py": "f651b7c89c4ed7ff08c8b0b18d903846a95b520fd28d3d504cf22bf36410f11e",
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_exact_membership.py": "f7f3e3c6c8732ad9da047fb6005d314dc8568c189fe3cc0c9edef8843051eb70",
+    "topics/visible-flex-new-mechanism/scripts/literature_pure_bulk_word_normal_form.py": "d39482c9e33e7358f1afa51b073daf5f65e84b4858f9a18f446206e8f9d9ea65",
+    "topics/visible-flex-new-mechanism/scripts/literature_range_profile_algebra.py": "a7f1771a33a8e73934f9549b3407a9e351fed59a9eec163c5b11c965c7f1dc52",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+  },
+  "mathematical_inputs": [
+    {
+      "result": "R434",
+      "run_id": 43796872698,
+      "job_id": 133067569306,
+      "source_commit": "563defb46bc785295265c3f48fcad3fc8897c617",
+      "scope": "Read-only consumption of the original 1020 exact envelopes; 18 original operators, 85 kernel columns and 53 dependent relations. No old mathematical check is reexecuted."
+    },
+    {
+      "result": "R261/R441",
+      "scope": "Full same-right-anchor self Green current 2[a(pqpp-rqp)+q((ar)prime+bp)+u I(cq)], with all true primitives and left constants."
+    },
+    {
+      "result": "R435",
+      "commit": "02ac2783b758f252ee9452e8731468f532272700",
+      "scope": "Published finite K0..K10 complete current generating identity, used as existing input to the new union question; no standalone old rank."
+    },
+    {
+      "result": "R440",
+      "commit": "bd4f5d30d4814127291a7ab02e980fadfc8d4218",
+      "scope": "Published seven P/S and three Xi complete local currents as exact new membership targets."
+    },
+    {
+      "result": "R441",
+      "commit": "780b8262af7adba45dc9104a33d02f9a573a594e",
+      "scope": "Published ur4 current and paid formal dimension22/mirror16/6blind scope; no new actual-root evaluation or old independence calculation."
+    }
+  ],
+  "execution": {
+    "first_execution": "public GitHub Actions only",
+    "research_args": [
+      "--request",
+      "@REQUEST@",
+      "--out",
+      "@OUT@/joint-kernel-complete-self.json"
+    ],
+    "one_new_complete_self_observation": true,
+    "new_development_checks": 2,
+    "old_development_suites_executed": false,
+    "old_operator_constructions": 0,
+    "old_Q_mappings": 0,
+    "old_Q_rank_executions": 0,
+    "old_three_tail_current_mappings": 0,
+    "old_current_rank_executions": 0,
+    "old_checks": 0,
+    "old_forcing_compilations": 0,
+    "old_root_restorations": 0,
+    "new_profile_or_Af_evaluations": 0,
+    "original_paid_log_in_memory_only": true,
+    "original_paid_request_read_at_its_source_commit": true,
+    "original_status_binding": "GET original run and job must both be completed/success at the exact paid source SHA before reading the log.",
+    "signed_redirect_policy": "HTTPS only; Authorization never forwarded to a signed URL.",
+    "original_relations": "53 dependent relations are in the 85-column kernel coordinates and must first be expanded via paid original_combination to the original144 labels.",
+    "current_normalization": "self=2K; never reuse the ordered K/4 normalization",
+    "Af_substitution": "Only the outer t is replaced by r^2/(3p). No inner integral letter changes; no differentiated Af identity.",
+    "nonlocal_or_high_jet_policy": "Retain exact full rows and stop all full-image rank conclusions as unresolved. Never interpret a nonzero nonlocal word representative as functional nonmembership.",
+    "Laurent_policy": "Retain exact negative p powers. Faithfulness only on the actual p!=0 simple-Af jet domain; no actual fixed-profile rank claim.",
+    "reference_comparison_policy": "Read paid22 independence as an existing fact. New53 image, K+53 union and eleven new memberships must all complete before any no-23rd-formal-direction conclusion.",
+    "actual_joint_claimed": false,
+    "full_response_kernel_image_claimed": false,
+    "failure_progress_policy": "Retain started/interrupted phases, completed exact records, actual time/RSS/rational/shared-mapper costs; no failed scientific stage is replaced by artificial zero costs.",
+    "report_protocol": "One SELF_KERNEL_RECORD per exact payload followed by COMPLETE_SELF_KERNEL_REPORT and SELF_KERNEL_REPORT_IDENTITY.",
+    "stdout_cap_policy": "Reserve131072 of2500000 mathematical stdout bytes. A completed record that cannot fit stays only in runner temporary JSONL with its fingerprint; stop subsequent research and report a finite failure.",
+    "rules_order": "Read source-commit request and frozen reader, actual public/private pull, exact README/QUEUE check, detached source restoration, eleven source identities, then exactly the two new adapters and one new science call.",
+    "workflow_timeout_minutes": 8
+  },
+  "publication_policy": "Only source, parameters, human proofs and metadata persist. Machine records remain only in the original public Actions stdout and runner temporary files. No payload commit, unattached output blob, artifact or Release.",
+  "completion_claim": false,
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "rule_review_and_private_queue_status": "actual public/private pull and exact README differences plus the unique ongoing current-session private QUEUE row before either new adapter or the single new self observation"
+}
