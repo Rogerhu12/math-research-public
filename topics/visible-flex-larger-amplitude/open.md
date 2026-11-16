@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[R426前检查点](notes/2026-11-16-open-checkpoint-before-R426.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R434前检查点](notes/2026-11-16-open-checkpoint-before-R434.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -102,9 +102,10 @@ R334完整八次/Bernstein及453 Hermite全RHS缺陷、158入口全部75776×17�
 
 [R425](results/R425-current-C-whole-image-held-and-reflection-rigidity-inputs.md)/[接口](notes/2026-11-15-current-C-whole-image-held-and-rigidity-interface.md)/c87b3a9b完整源已核：同R416准确场/R417完整两帽/R413 cuff，整闭F0位置覆盖与全D给held下界；R254完整前缀及全tail/collar/patch非平面责任、四真实marker和R238含反射刚性保持，仍须实际嵌入，actual_delta_E=false。fresh输出严格RUNNER_TEMP并保护输入；成功尾组仅完整索引ranges/实际分布/原件身份，全部失败尝试/当前组/未访保；单90KB超限仍70，完整临时账不改。无实际450、见证/阈值、全held或δE证书，不冒C²/metric/reach。
 
-[R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)/[完整接口](notes/2026-11-15-current-C-ten450-postsolve-complete-geometry-interface.md)/84d0450f+79296f4f：同job真193两阶段accepted450、全十词/43f217/C原件，原deadline bytes/SHA先同upstream再核namespace起点，五阶段R409径向→R413 atlas→共享场→R418 metric与独立R422 reach。各阶段只取原剩余钟，metric未过不阻reach；原owner/PID/start静止后读，全部stage/未起后缀/错误与资源保，单90KB超限70、raw不删。未来workflow清理须原193读回∧新读回∧全部quiet；原4件C及2件source保到消费者结束。尚无新request/recipe/run或actual450几何，不接R425/R426，不付新数学接受。
+[R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)原193两阶段accepted450/十词/43f217/同C及原钟、五原阶段与独立reach保；[R426](results/R426-same-job-continuous-C-live-query-refinement-and-complete-metric-interface.md)07fc4e41/77be1d98保原f12f六primitive/1440片/深根族/闭逆像，现场新界∩原粗界、原四Loewner、准确径向缓存/总钟/事务异常撤销与精度恢复。完整参数、原当前/未访、90KB/quiet及清理条件逐字保R434前检查点与各结果；累计半径/深族/前缀宽仍在，无实际450或metric。
 
-[R426完整接口](results/R426-same-job-continuous-C-live-query-refinement-and-complete-metric-interface.md)/07fc4e41+77be1d98保同job真C四件及原source-index/完整panels，调用原f12f六primitive/QueryCover；1440片/全深根族/完整闭逆像不删，实际新界与原粗界相交后仍原四Loewner。新两payload缺/精化partial保旧界，原场/四件绑定错误不绕过；原query root分割冻结、准确径向键共用、全总钟/活动子钟与finally精度恢复。事务异常撤销未提交new complete，正常完整粗界的resolution=false仍可用。单90KB/全部当前地址/后缀/原身份，raw不删；累计半径/深族/前缀盒宽仍在，无新450或metric结果，R434接编排。
+
+[R434](results/R434-same-job-live-C-query-postsolve-complete-geometry-interface.md)/88996287+ebed189d把R426接原五阶段的metric角色，原11pins逐值保→13；同193原两阶段/十词/43f217/C四件及两payload/原deadline先核原件，原owner/静止/各阶段剩余钟不改。11项c-query参数须显式给定，现场provider真实状态/查询次数/事务/当前格与未访按原返回，未启动不冒零查询通过；metric未过仍独立尝试reach。单90KB超限70、raw不删，未来清理须原与新必要读回及全quiet。尚无实际request/配方/450/查询或全几何接受；R433接held，R431新mesh另需明确来源分支。
 
 ## 4. 同一g闭合与真正九冻结450
 
