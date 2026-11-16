@@ -222,3 +222,11 @@ root已全文审391行science/589行worker、manifest/flow；worker相对实际�
 部署前静态格式模型发现原47000B预算不足；此前没有部署、没有run、没有新科学值。现仅两组重复新结论采用完整纯JSON named-column table，无binary/base64/gzip入Git；24新Jp/12完整weight-domain row/2 whole结论及全部球串无损，source/worker同decoder和roundtrip校验。原21数学辅助函数原字，main仅最终序列化与格式预算变；早先静态persist不同比较仅误收紧随顶层常量，修正截取边界后函数原字。100字符占位球的纯格式模型SCI60419B、预Git72282B；实际门SCI≤75000B、preGit≤90000B，各小文件<100KB，科学保存后格式失败独立保留，严禁因此重算成功。占位模型不是数学计算或新结果。
 
 仅flow首次push自然触发唯一新run，不另dispatch。worker沿成功KL基底，metadata重试不杀健康child，执行前/最终真实pull+双README/live index/容量≤200MB且预留120KB，原successful science不可再算；完整科学已成则cross-wrapper按同SCI/pins/runtime复用。须actual唯一完整回执后逐字段核，当前不授新包络数值、trace、core、incoming或finite门。
+
+## 2026-11-16 00:28:53 UTC：RBJ解析结论独立推送
+
+两README在f4bc015e2f4aff6c1eba7ec70ea01d133c731f59逐blob核仍未变。新证明blobad1ac7c2ee965ddafca1bb4822fb3a03062b3c37，11617B/SHAa19878f7e91cf1a9b7a62e935afa866e6e792cf5c48386f702335e7cde9dc0d8，根撰全文256行，phase独立全文与原L/I/O/RD/P逐式核通过；本次无新数值计算。
+
+使用实际DT=QXφ、DX=−QTTφ、η²K=Q²T逐阶求T三阶和Xφ二阶，不假定repair满足PDE。D²log(T/K)保−2d tφ，D²logXφ保真实Dp；完整M_r=β_r⟨u²⟩+β(2⟨uu_r⟩+k1⟨v²⟩)。原矩阵精确H^-1HD=−iεQK，故首forcing的Fb为实同sign、Fa纯虚反sign，原zero-trace唯一transport保此结构。b1*=−(D²a0−T0Da0+V0*)/λ²，其中V0*保3βk1v²，原径向项仅第一component根值因Tb0而消。
+
+Db1*=[DFb*−(2t−T0)b1*]/3明确来自完整transport；不对仅根b1式求r导，完整DFb/D³a0仍未付。genuine Bn′0=Vn′0/3和原乘积、two-sign乘子等距、完整J/positive meanrank/低中间频与独立ports全部保持。现只付解析恒等式，RD cutoff97 whole e<g−、真实输入球、fullincoming/finite/return/非线性全部仍待。

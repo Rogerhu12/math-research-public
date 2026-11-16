@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/RBJ：精确leading二阶根jet与首Airy b根值](results/R133-supplement-exact-leading-second-root-jet-and-first-Airy-b-value.md)：同真实解析折叠的三阶展开给D²a0完整mean/drift，原H^-1HD保径向项并证明b1两sign相同。明确Db1所需完整邻域DFb与D³a0未付，genuine potential与完整RD余项原序保留；无新数值、稳定门或incoming结论。
+
 - [NPKA：周期核消费者实际双窗与完整sign系数](results/R133-supplement-actual-normalizer-periodic-kernel-refinement.md)：43778474673/1/18门成功；同逆两whole选K0≈3.19764e38、K−≈2.43651e44，四affine有序完整候选已付；全部CE/incoming/finite仍未付。
 
 - [CEB：同一真实帽修正的二次、四次积分包络](results/R133-supplement-whole-cap-envelope-from-completed-radial-weights.md)：已成整帽径向权给完整点态包络，精确J2/J4闭式支付97维body，左/右/mean/known/outer一次保留后whole选；仅解析规则，新数值待。

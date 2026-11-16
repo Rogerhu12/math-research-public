@@ -44,6 +44,8 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 [RD精确根首导与完整stable门](results/R133-supplement-exact-leading-root-derivative-and-complete-stable-trace-gate.md)34eec24f已证根T二阶、Da0−b全mean式；真normalized Ai保非零β_n和原global Riccati行，g_n>17/57。R0含所有正meanrank/完整J和低中间频，e2/r0/J1/L0给同cutoff97的whole e门；须实际e<g−后才原kernel0并由SE同自然负窗onto。单列L2不冒full multiplier，freeDa1/潜势等仍独立未付；不授actualpass/腰incoming/finite/非线性，FC另路保。
 
+[RBJ二阶根jet与首b值](results/R133-supplement-exact-leading-second-root-jet-and-first-Airy-b-value.md)a19878f7由真实折叠三阶得D²a0含完整mean及drift；H^-1HD=−iεQK保原径向项，b1同两sign而a1反号。b1根值精确，Db1仍须完整邻域DFb/D³a0，禁止对仅根式作r微分。genuine Bn/Vn及全乘子/J/positive meanrank/低中间频/原RD门均保，无新数值或inverse授予。
+
 [BT实际运输head与retained分类](results/R133-supplement-concrete-transported-head-factors-and-retained-operator-audit.md)b5c2f844：Q97与TF^-1双消，真实joint dual=E97*S^-1无√193；scalarΠ≠physicalmean。SQ97S^-1 idempotent、右Z97 unitary，rootFF≤1215/固定FT/density/mean/cross finite。radial193head及其传播积分仍可无限；实际columns/dual/square/独立functional ports/无限费/finite matrix与inverse未付，六register及旧SJ/CG/WE全保。完整已证式保7a037e78同open/proof。
 
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。
