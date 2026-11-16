@@ -442,3 +442,8 @@
 ## R466 — 实际因子完整切向收缩的独立实现
 
 **已证明（限R465名义模型与明确源码条件）；未执行新科学。** [R466](results/R466-recorded-factor-contracted-finite-trace-implementation.md)/[208完整接口](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)及13独立运行源、配方已读完整195差异后刊。helper2592a0a5、variatione6be662b、flowc29b0120、loader65f6e211保真实R/z/s与原root/noJ；准确dyadic形成完整b再显式RN投影，含subnormal和2^53进位情形，非零丢失/overflow走保留的原显式fallback，资源/来源异常不捕获。全225 literal Gram、有序(r,s)、全224列与实际R两回代保；只在完整ds返回后提交更新。零更新/原角形成、226双mean、dense RK/cusp/端口、129248行R273、原十档noJ/FD/fullDN/338×112最终J/audit均保。必要reader保实际整数计数、模型/回退与未完成地址，单90KB/70、原quiet/cleanup不变，不搬b/Q/大tape。原127pins+13=140，原六参数/λ=.001/699节点/18000秒/全部门不变，13源与配方/接口现刊，request/workflow另次推触发208/R467。新舍入顺序不冒逐字等价/误差界/速度，195零H成本未被本收缩消除。
+
+
+## 2026-11-16 — Request208记录因子收缩完整入口
+
+[208完整入口](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)本次独立发布request40395B/435e90b6与workflow32103B/101a84f5；R466组件/配方/说明/接口已刊4d647c2463809a6d4ce18e588bb40ec9148d98f9。原195完整差异已读，原127pins逐项保、新13共140；四原数学输入/两ready/78恢复源、同actual119第三批六参数/λ=.001/699节点、18000秒/330step/350job及所有原native/FD/fullDN/末门不变。只换已声明的记录因子名义收缩数值路径，零更新不优化；单90KB/70、原owner/rules-parent静止和条件清理保留，不导入旧195已删状态。新request路径push触发本公开仓库自己的Actions，实际R467/source/run待官方绑定、exact唯一终态；没有新正H/J/试步或接受预填。

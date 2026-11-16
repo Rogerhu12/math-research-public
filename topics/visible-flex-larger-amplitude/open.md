@@ -14,7 +14,7 @@
 
 [R470](results/R470-zero-shape-finite-root-trace-full-local-block-variation.md)19507/6f0eae3d支付实际零shape/root/各角行且零接受更新时的完整局部块条件命题；不依赖字面表正交，226×224和两mean保持。原pref/target_factor不约；RK还须入射块结构，不能抹除既有混模。非有限中间量和signed-zero安全未付，未来只在实际逐调用条件成立时省角方向循环，否则原完整路径；不重跑primal、不减列/均值/末门、不从195累计零更新反推已删现场，不成为208/209前门。
 
-[R466](results/R466-recorded-factor-contracted-finite-trace-implementation.md)/[208完整接口](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)13新源/配方已刊，保原127至140pins和原六参数/λ=.001/18000/全末门。准确b显式投影后全225矩×224列收缩；丢失非零/overflow或收缩非有限才原显式fallback，资源/来源不吞。原零更新、角形成、226双mean/RK/FD/fullDN/338×112仍全；没有逐词/roundoff/速度承诺。208 request/workflow待下一推，R467只给实际运行；R471零flux窄路径另源，不延后208。
+[R466](results/R466-recorded-factor-contracted-finite-trace-implementation.md)/[208完整接口](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)13新源/配方已刊，保原127至140pins和原六参数/λ=.001/18000/全末门。准确b显式投影后全225矩×224列收缩；丢失非零/overflow或收缩非有限才原显式fallback，资源/来源不吞。原零更新、角形成、226双mean/RK/FD/fullDN/338×112仍全；没有逐词/roundoff/速度承诺。208 request435e90b6/workflow101a84f5本次推（R466已刊4d647c24），R467待官方source/run；R471零flux窄路径另源，不延后208。
 
 R397/186的128接受与完整576 audit不能补112/338；[R424/199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)实际BatchStats歧义导致compile失败，audit只560/576，原停点/未起仍保。R445只限定该类型的[204完整入口](notes/2026-11-16-request204-qualified-stats-complete-final128-interface.md)保94pins、19200/32×10/$2\times10^{-9}$/576×224/112/338及90KB/quiet；R446由amplitude唯一待终态。
 

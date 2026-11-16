@@ -1,0 +1,466 @@
+name: visible-larger recorded-factor contracted original64 current R273
+'on':
+  push:
+    branches: [main]
+    paths:
+    - topics/visible-flex-larger-amplitude/computations/public-six-control-contracted-trace-r273-request.json
+permissions:
+  contents: read
+  actions: read
+defaults:
+  run:
+    shell: bash
+concurrency:
+  group: visible-larger-public-six-control-contracted-trace-r273
+  cancel-in-progress: false
+jobs:
+  compute:
+    name: Recorded-factor contracted original64 trace with current R273 and full112 gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    permissions:
+      contents: write
+      actions: read
+    outputs:
+      scalar_summary: ${{ steps.scalar.outputs.scalar_summary }}
+      scalar_summary_bytes: ${{ steps.scalar.outputs.scalar_summary_bytes }}
+      scalar_summary_sha256: ${{ steps.scalar.outputs.scalar_summary_sha256 }}
+      scalar_readback_outcome: ${{ steps.scalar.outcome }}
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        persist-credentials: false
+        sparse-checkout-cone-mode: false
+        sparse-checkout: |
+          /README.md
+          /.github/workflows/visible-larger-public-six-control-contracted-trace-r273.yml
+          /topics/visible-flex-larger-amplitude/results/R411-original64-finite-root-trace-matched-variation-and-full-return.md
+          /topics/visible-flex-larger-amplitude/results/R465-recorded-factor-backsolve-defect-and-complete-column-contraction.md
+          /topics/visible-flex-larger-amplitude/*.md
+          /topics/visible-flex-larger-amplitude/computations/
+    - name: Establish one fresh request208 temporary namespace
+      run: |
+        git config gc.auto 0
+        git config gc.autoPackLimit 0
+        git config maintenance.auto false
+        git config --global merge.stat false
+        mkdir -p "$RUNNER_TEMP/visible-original64-contracted-trace208"
+        echo "VISIBLE_BASE=$RUNNER_TEMP/visible-original64-contracted-trace208" >> "$GITHUB_ENV"
+        echo "VISIBLE_COMPUTATIONS=$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations" >> "$GITHUB_ENV"
+    - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+      with:
+        python-version: 3.12.14
+    - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+      with:
+        node-version: 24.22.1
+    - name: Install original complete field and full current R273 runtime
+      run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 python-flint==0.9.0
+    - name: Bind complete source closure and explicit positive-lambda parameter recipe
+      run: |
+        python - <<'PYPINS'
+        import ast,hashlib,json,os,re,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        raw=(comp/'public-six-control-contracted-trace-r273-request.json').read_bytes();request=json.loads(raw)
+        assert len(raw)==40395 and hashlib.sha256(raw).hexdigest()=='435e90b615b1d5416794c490f7ba9493c5425e19c442de02083807dfa935a5fe'
+        assert request['schema']=='public-six-control-contracted-trace-r273-request-v1'
+        assert request['request_number']==208 and request['lanes']==['contractedTraceR273']
+        assert request['repository']=='Rogerhu12/math-research-public'
+        assert request['scientific_entry']=='geometry_20261116_six_control_contracted_trace_r273_full112.py'
+        assert request['source_sha256'][request['scientific_entry']]=='51854ed2782682a53f10b1fda17af61c0730480ecdde40c2cf6ff8011f96dbe6'
+        assert request['native_client']=='geometry_20261116_contracted_trace_r273_tail_client.py'
+        assert request['source_sha256'][request['native_client']]=='8a380843013d302e4c19ab7ed811c3dc5f73f21494235379a890415b1ba19712'
+        verified=[]
+        for name,expected in request['source_sha256'].items():
+          assert PurePosixPath(name).name==name and re.fullmatch(r'[0-9a-f]{64}',expected)
+          data=(comp/name).read_bytes();assert hashlib.sha256(data).hexdigest()==expected,name
+          if name.endswith('.py'):compile(ast.parse(data,filename=name),name,'exec')
+          verified.append([name,len(data),expected])
+        for name,expected in request['reviewed_README_blobs'].items():
+          assert subprocess.check_output(['git','hash-object',name],text=True).strip()==expected
+        handoff=(repo/'topics/visible-flex-larger-amplitude/HANDOFF.md').read_bytes()
+        assert len(handoff)<=10000 and sum(x.startswith('规则同步记录：'.encode()) for x in handoff.splitlines())==1
+        item=request['parameter_recipe'];path=repo/item['file'];recipe_raw=path.read_bytes();recipe=json.loads(recipe_raw)
+        assert len(recipe_raw)==item['bytes'] and hashlib.sha256(recipe_raw).hexdigest()==item['sha256']
+        assert recipe['schema']=='explicit-six-control-contracted-trace-r273-height-path-nonzero112-recipe-v1'
+        assert recipe['lambda_target']==0.001 and recipe['initial_guess_kind']=='fresh-circle-low-three-linear'
+        assert recipe['parameter_order']==['p1','p2','p3','theta1','theta2','theta3']
+        assert recipe['active_parameter_indices']==[0,1,2] and recipe['frozen_parameter_indices']==[3,4,5]
+        assert len(recipe['initial_six_parameters'])==6 and recipe['origin']==item['origin']
+        assert recipe['source_input_sha256']=={k:v['sha256'] for k,v in request['inputs'].items()}
+        assert (recipe['field_modes'],recipe['field_angular_quadrature'])==(112,2048)
+        assert recipe['height_continuation']==request['height_continuation']
+        policy=recipe['height_continuation']
+        assert policy['schema']=='explicit-contracted-trace-r273-complete112-height-path-policy-v1'
+        assert (policy['initial_positive_increment'],policy['accepted_increment_multiplier'],policy['maximum_increment'])==(1/64,2,1/4)
+        assert policy['stop_after_first_positive_original_mathematical_refusal']
+        assert policy['no_repeated_height_halving_after_refusal'] and policy['maximum_bootstrap_requests']==64
+        assert policy['includes_zero_and_final_J_requests'] and policy['endpoint_request_jacobian']
+        assert not policy['zero_request_jacobian'] and not policy['intermediate_request_jacobian'] and not policy['bootstrap_audit']
+        assert policy['endpoint_uses_original_H_star_words'] and policy['total_scientific_wall_clock_seconds']==18000
+        assert policy['resource_limits_are_not_mathematical_nonexistence_claims']
+        assert len(request['source_sha256'])==140
+        assert request['source_roles']['retained_actual145_source_pins']==115
+        assert request['source_roles']['retained_actual145_source_pins_unchanged']
+        assert request['source_roles']['new_source_pins']==13
+        assert request['source_roles']['retained_actual195_source_pins']==127
+        assert request['source_roles']['retained_actual195_source_pins_unchanged']
+        old=request['original195_baseline']['request'];old_raw=(repo/old['file']).read_bytes()
+        assert len(old_raw)==old['bytes'] and hashlib.sha256(old_raw).hexdigest()==old['sha256']
+        old_request=json.loads(old_raw)
+        assert all(request['source_sha256'][k]==v for k,v in old_request['source_sha256'].items())
+        assert request['inputs']==old_request['inputs'] and request['execution']==old_request['execution']
+        proof=request['finite_trace_proof'];proof_raw=(repo/proof['file']).read_bytes()
+        assert len(proof_raw)==proof['bytes'] and hashlib.sha256(proof_raw).hexdigest()==proof['sha256']
+        assert proof['sha256']=='1d66947d6d02b1dac50aa6348e94b56c959336fa1ca52b1ee1450bd6b6ec342c'
+        contraction=request['recorded_factor_contraction_proof'];contraction_raw=(repo/contraction['file']).read_bytes()
+        assert len(contraction_raw)==contraction['bytes'] and hashlib.sha256(contraction_raw).hexdigest()==contraction['sha256']
+        assert contraction['sha256']=='6f9200ea16b08f8305b29c15d6f5712d67c747c4a5f6d27ef8f7b202f835c347'
+        assert contraction==recipe['recorded_factor_contraction_proof']
+        T=request['finite_trace_tangent'];assert T==recipe['finite_trace_tangent']
+        assert T['schema']=='explicit-original64-recorded-factor-contracted-trace-tangent-policy-v1'
+        assert (T['all_shape_columns'],T['all_stage_state_entries'],T['all_physical_tail_modes'])==(224,226,112)
+        assert T['original_noJ_primal_arithmetic_retained']
+        assert not T['actual_Cholesky_and_both_triangular_loops_differentiated']
+        assert T['recorded_factor_forward_and_backsolve_values_are_authoritative']
+        assert T['all_225_literal_Gram_slots_and_sqrt2_weights_retained']
+        assert T['backsolve_defect_formed_as_exact_dyadic_then_explicit_RN_binary64']
+        assert T['original_195_factor_loop_retained_as_numerical_fallback']
+        assert T['resource_and_source_errors_never_caught_as_numerical_fallback']
+        assert T['zero_update_path_is_original195_without_contraction']
+        assert not T['binary64_word_equivalence_to_original195_claimed']
+        assert not T['speedup_or_wall_completion_guaranteed']
+        assert request['source_sha256'][T['contraction_helper_file']]==T['contraction_helper_sha256']
+        assert T['original_Gram_not_identified_with_F_L']
+        assert T['zero_update_root_return_derivative_is_Dt']
+        assert T['all338_by112_return_and_original_physical_audit_still_required']
+        assert not T['numerical_primal_shadow_equality_gate'] and not T['comparison_fixture_gate']
+        assert not T['IEEE_roundmap_derivative_claimed'] and not T['rigorous_roundoff_bound_claimed']
+        assert T['no_R360_extra_same_state_or_small_alpha_calls']
+        assert recipe['native_correction']['implementation_file']==request['native_client']
+        assert recipe['native_correction']['implementation_sha256']==request['source_sha256'][request['native_client']]
+        R=request['r273']
+        assert R['schema']=='explicit-current-original-R273-correction-policy-v1'
+        assert (R['eta_cli_text'],R['exact_workers'],R['maximum_factor_bytes'])==('1',2,2147483648)
+        assert R['model_scope']==recipe['native_correction']['model_scope']
+        assert (R['complete_original_rows'],R['penalty_node_blocks'],R['shape_dimension'])==(129248,577,224)
+        assert R['current_original_withJ_arrays_only'] and R['post_factor_diagnostics_never_add_native_gate']
+        expected=dict(jac_workers=2,max_nodes=1200,material_angles=4096,physical_angles=4096,node_heap=6144,
+          outer_iterations=8,original_inner_trial_count=17,original_native_max_iterations=32,original_native_trial_count=10,
+          collocation_tolerance=1e-6,boundary_tolerance=1e-11,native_tolerance=2e-9,boundary_FD_tolerance=5e-5,
+          scientific_wall_clock_seconds=18000,science_step_timeout_minutes=330,compute_job_timeout_minutes=350,
+          wall_clock_exhaustion_is_partial_not_a_new_nonlinear_rejection=True)
+        assert request['execution']==expected
+        assert not any(request['retention'][k] for k in ('upload_artifact','upload_release','publish_raw_to_git'))
+        assert not request['retention']['cleanup_always_after_scalar_readout']
+        assert request['retention']['cleanup_only_after_complete_necessary_scalar_readback_marker_and_fresh_owned_group_quiescence']
+        assert request['r273']['closed_raw_retirement_after_delta_validation_and_record']
+        workflow=repo/'.github/workflows/visible-larger-public-six-control-contracted-trace-r273.yml'
+        workflow_text=workflow.read_text()
+        bash_blocks=0;python_blocks=0
+        for match in re.finditer(r'(?m)^      run: \|\n((?:        .*\n|\n)+)',workflow_text):
+          block='\n'.join(line[8:] if line.startswith('        ') else line
+                          for line in match.group(1).splitlines())+'\n'
+          shell_text=re.sub(r'\$\{\{.*?\}\}','VISIBLE_ACTIONS_EXPRESSION',block)
+          subprocess.run(['bash','-n'],input=shell_text,text=True,check=True)
+          bash_blocks+=1
+          for here in re.finditer(r"(?m)^.*\bpython\b[^\n]*<<'([A-Z][A-Z0-9_]*)'\n",block):
+            tag=here.group(1);tail=block[here.end():]
+            end=re.search(r'(?m)^'+re.escape(tag)+r'$',tail)
+            assert end is not None,tag
+            source=tail[:end.start()]
+            compile(ast.parse(source,filename=tag),tag,'exec');python_blocks+=1
+        assert bash_blocks>0 and python_blocks>0
+        print(json.dumps(dict(event='request208_actual_workflow_source_syntax',
+          workflow_file=str(workflow.relative_to(repo)),bytes=len(workflow.read_bytes()),
+          sha256=hashlib.sha256(workflow.read_bytes()).hexdigest(),bash_blocks=bash_blocks,
+          inline_python_blocks=python_blocks,GitHub_expressions_only_replaced_for_bash_n=True,
+          no_scientific_module_imported_or_executed=True)),flush=True)
+        assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==os.environ['GITHUB_SHA']
+        print(json.dumps(dict(event='request208_source_recipe_identity',run_id=os.environ['GITHUB_RUN_ID'],
+          source_commit=os.environ['GITHUB_SHA'],request_sha256=hashlib.sha256(raw).hexdigest(),
+          source_count=len(verified),source_rows=verified,parameter_recipe_sha256=item['sha256'],
+          initial_six_parameters=recipe['initial_six_parameters'],lambda_target=recipe['lambda_target'],
+          no_low_three_root_gate_added=True,no_native_anchor_claimed=True,no_science_started=True)),flush=True)
+        PYPINS
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261116_contracted_trace_r273_tail_client_hook.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261116_original64_contracted_finite_trace_loader.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261116_original64_contracted_finite_trace_flow.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261116_original64_contracted_finite_trace_variation.mjs"
+        node --check "$VISIBLE_COMPUTATIONS/geometry_20261116_recorded_factor_contracted_solve.mjs"
+    - name: Restore four mathematical inputs and two original native geometry inputs exactly
+      run: |
+        python - <<'PYINPUTS'
+        import hashlib,json,os,re,subprocess
+        from pathlib import Path,PurePosixPath
+        repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-six-control-contracted-trace-r273-request.json').read_text())
+        commit=request['original_input_history_commit'];geometry=request['frozen_geometry_inputs']
+        assert commit==geometry['historical_public_commit']=='8bd267107cc8710d371f3b62c02986655ac965b0'
+        head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+        assert head==os.environ['GITHUB_SHA']
+        if subprocess.run(['git','cat-file','-e',commit+'^{commit}'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL).returncode:
+          subprocess.run(['git','fetch','--no-write-fetch-head','--no-tags','--filter=blob:none','--depth=1','origin',commit],check=True)
+        base=Path(os.environ['VISIBLE_BASE']).resolve();root=Path(os.environ['RUNNER_TEMP']).resolve()
+        assert base.is_relative_to(root) and base!=root
+        inputs=base/'mathematical-inputs';inputs.mkdir(exist_ok=False)
+        frozen=base/'frozen-geometry-inputs';frozen.mkdir(exist_ok=False)
+        records=[]
+        def restore(relative,target,size,digest,expected_blob=None):
+          relative=PurePosixPath(relative)
+          assert not relative.is_absolute() and '..' not in relative.parts
+          assert str(relative).startswith('topics/visible-flex-larger-amplitude/notes/')
+          blob=subprocess.check_output(['git','rev-parse',commit+':'+str(relative)],text=True).strip()
+          if expected_blob is not None:assert blob==expected_blob
+          raw=subprocess.check_output(['git','cat-file','blob',blob])
+          assert len(raw)==size and hashlib.sha256(raw).hexdigest()==digest,str(relative)
+          with target.open('xb') as stream:stream.write(raw)
+          records.append(dict(source_path=str(relative),git_blob=blob,bytes=size,sha256=digest,temporary_file=str(target)))
+        for name,item in request['inputs'].items():
+          assert Path(item['runtime_basename']).name==item['runtime_basename']
+          restore(item['file'],inputs/item['runtime_basename'],item['bytes'],item['sha256'])
+        wanted={'VISIBLE_FLEX_FROZEN_LEDGER_READY','VISIBLE_FLEX_FROZEN_STORED_READY'}
+        assert len(geometry['files'])==2 and {item['environment'] for item in geometry['files']}==wanted
+        for item in geometry['files']:
+          path=frozen/Path(item['path']).name
+          restore(item['path'],path,item['bytes'],item['sha256'],item['git_blob'])
+          with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write(item['environment']+'='+str(path)+'\n')
+        config=json.loads((inputs/request['inputs']['tail_config']['runtime_basename']).read_bytes())
+        assert 'initialCheckpoint' not in config
+        assert (config['modes'],config['spacing'],config['quadrature'])==(112,2,2048)
+        assert config['solveTolerance']==2e-9 and config['maxIterations']==32
+        with open(os.environ['GITHUB_ENV'],'a') as stream:stream.write('VISIBLE_MATH_INPUTS='+str(inputs)+'\n')
+        assert subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()==head
+        print(json.dumps(dict(event='request208_exact_original_inputs_restored',source_commit=head,
+          historical_public_commit=commit,records=records,initialCheckpoint_present=False,
+          failed91_95_103_checkpoint_not_consumed=True,original_config_not_rewritten=True,
+          old_zero_J_is_only_initial_guess_data=True,rearchive_inputs=False)),flush=True)
+        PYINPUTS
+    - name: Restore unchanged78 original public source files once
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python - <<'PYSOURCE'
+        import os
+        from pathlib import Path
+        from exact_20261114_public_resume import prepare_public_source
+        base=Path(os.environ['VISIBLE_BASE'])
+        source=prepare_public_source(Path.cwd(),base/'original-public-source',base)
+        with open(os.environ['GITHUB_ENV'],'a') as stream:
+          stream.write('VISIBLE_SOURCE_TOPIC='+str(source)+'\n')
+        PYSOURCE
+    - name: Matched finite-root full current-H J and R273 then original FD full-DN
+      id: science
+      timeout-minutes: 330
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+        import hashlib,json,os,sys,time
+        from pathlib import Path
+        import root_20261114_current576_rules_runner as runner
+        repo=Path(os.environ['GITHUB_WORKSPACE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+        request_path=comp/'public-six-control-contracted-trace-r273-request.json';request=json.loads(request_path.read_bytes())
+        assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+        expected=request['source_sha256']['root_20261114_current576_rules_runner.py']
+        assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==expected
+        baselines={}
+        for name,blob in request['reviewed_README_blobs'].items():
+          raw=(repo/name).read_bytes()
+          assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==blob
+          baselines[name]=dict(blob=blob,text=raw.decode())
+        old={name:value['blob'] for name,value in runner.BASELINES.items()};runner.BASELINES=baselines
+        print(json.dumps(dict(event='request208_explicit_rules_baseline_update',unchanged_runner_sha256=expected,
+          old_embedded_blobs=old,reviewed_current_blobs=request['reviewed_README_blobs'],
+          period_seconds=runner.PERIOD_SECONDS,original_pull_rebase_rule_change_stop_retained=True)),flush=True)
+        base=Path(os.environ['VISIBLE_BASE'])
+        proc_raw=Path('/proc/self/stat').read_text();fields=proc_raw[proc_raw.rfind(')')+2:].split()
+        parent=dict(pid=os.getpid(),pgid=int(fields[2]),sid=int(fields[3]),start_ticks=int(fields[19]))
+        owner=dict(schema='request208-original-rules-parent-receipt-v1',
+          run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+          parent=parent,parent_shared_runner_PGID_not_exclusive=True,
+          wrapper_return_observed=False,started_unix_seconds=time.time())
+        owner_file=base/'rules-parent-owner.json'
+        owner_file.write_text(json.dumps(owner,sort_keys=True,indent=2)+'\n')
+        argv=[sys.executable,'-u',str(comp/request['execution_entry']),
+          '--request',str(request_path),'--recipe',str(repo/request['parameter_recipe']['file']),
+          '--inputs-directory',os.environ['VISIBLE_MATH_INPUTS'],'--source-topic',os.environ['VISIBLE_SOURCE_TOPIC'],
+          '--out',str(base/'execution')]
+        sys.argv=[runner.__file__,'--out',str(base/'rule-sync'),'--command',*argv]
+        code=None
+        try:
+          code=runner.main()
+        finally:
+          owner.update(wrapper_return_observed=code is not None,wrapper_returncode=code,
+            finally_recorded_unix_seconds=time.time(),original_rules_runner_result_file='rule-sync/runner-result.json')
+          owner_file.write_text(json.dumps(owner,sort_keys=True,indent=2)+'\n')
+        raise SystemExit(code)
+        PYRUN
+    - name: Read one necessary original scalar summary and metadata identities after owned science
+      id: scalar
+      if: always()
+      timeout-minutes: 30
+      run: |
+        set +e
+        python "$VISIBLE_COMPUTATIONS/root_20261116_six_control_contracted_trace_r273_scalar_readout.py" \
+          --directory "$VISIBLE_BASE/execution" \
+          --request "$VISIBLE_COMPUTATIONS/public-six-control-contracted-trace-r273-request.json" \
+          --recipe "$VISIBLE_COMPUTATIONS/actual119-batch3-contracted-trace208-lambda0p001-recipe.json" \
+          --rules-directory "$VISIBLE_BASE/rule-sync" \
+          --compute-outcome "${{ steps.science.outcome }}" \
+          --out "$VISIBLE_BASE/scalar-readout"
+        read_code=$?
+        python - <<'PYRULEOWNER'
+        import hashlib,importlib.util,json,os,sys,traceback
+        from pathlib import Path
+        base=Path(os.environ['VISIBLE_BASE']);comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+        request=json.loads((comp/'public-six-control-contracted-trace-r273-request.json').read_bytes())
+        file=comp/'root_20261116_six_control_contracted_trace_r273_scalar_readout.py'
+        assert hashlib.sha256(file.read_bytes()).hexdigest()==request['source_sha256'][file.name]
+        spec=importlib.util.spec_from_file_location('request208_readback_metadata_only',file)
+        reader=importlib.util.module_from_spec(spec);sys.modules[spec.name]=reader;spec.loader.exec_module(reader)
+        record=dict(schema='request208-original-rules-parent-readback-v1',
+          run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+          quiescent=False,no_process_signalled=True,
+          shared_runner_PGID_not_required_empty=True)
+        raw=None
+        try:
+          parent_file=base/'rules-parent-owner.json';raw=parent_file.read_bytes();owner=json.loads(raw)
+          assert owner['schema']=='request208-original-rules-parent-receipt-v1'
+          assert owner['run_id']==record['run_id'] and owner['source_commit']==record['source_commit']
+          prior=owner['parent'];assert type(prior['pid']) is int and type(prior['start_ticks']) is int
+          current=reader.proc(prior['pid'])
+          same=current is not None and current['start_ticks']==prior['start_ticks']
+          record.update(original_file=dict(file=parent_file.name,bytes=len(raw),
+            sha256=hashlib.sha256(raw).hexdigest()),original_receipt=owner,
+            current_PID_observation=current,same_recorded_process_still_present=same,
+            quiescent=not same,wrapper_return_observed=owner.get('wrapper_return_observed'))
+        except Exception as error:
+          record.update(error=repr(error),traceback=traceback.format_exc())
+          if raw is not None:
+            record['original_receipt_raw_bytes']=dict(bytes=len(raw),
+              sha256=hashlib.sha256(raw).hexdigest(),encoding='UTF8-surrogateescape',
+              data=raw.decode('utf-8','surrogateescape'))
+        if base.is_dir():
+          (base/'rules-parent-readback.json').write_bytes(reader.encode(record)+b'\n')
+        print(reader.encode(record).decode('ascii'),flush=True)
+        raise SystemExit(0 if record['quiescent'] else 2)
+        PYRULEOWNER
+        rule_code=$?
+        set -e
+        if [ "$read_code" -ne 0 ]; then exit "$read_code"; fi
+        exit "$rule_code"
+    - name: Conditionally remove only fully read quiescent request208 temporary payload
+      if: always()
+      env:
+        SCALAR_READBACK_OUTCOME: ${{ steps.scalar.outcome }}
+      run: |
+        python - <<'PYCLEAN'
+        import hashlib,importlib.util,json,os,shutil,sys,traceback
+        from pathlib import Path
+        record=dict(schema='request208-conditional-owned-cleanup-v1',
+          run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+          scalar_step_outcome=os.environ.get('SCALAR_READBACK_OUTCOME'),
+          removed=False,cleanup_is_not_an_original_scientific_acceptance_gate=True,
+          no_artifact_release_or_git_raw_upload=True)
+        try:
+          temporary=Path(os.environ['RUNNER_TEMP']).resolve();target=Path(os.environ['VISIBLE_BASE'])
+          assert not target.is_symlink() and target.name=='visible-original64-contracted-trace208'
+          assert target.resolve().parent==temporary and target.resolve()!=temporary
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS'])
+          request_file=comp/'public-six-control-contracted-trace-r273-request.json'
+          request_raw=request_file.read_bytes();request=json.loads(request_raw)
+          recipe_file=Path(os.environ['GITHUB_WORKSPACE'])/request['parameter_recipe']['file']
+          recipe_raw=recipe_file.read_bytes()
+          reader_file=comp/'root_20261116_six_control_contracted_trace_r273_scalar_readout.py'
+          reader_sha=hashlib.sha256(reader_file.read_bytes()).hexdigest()
+          assert reader_sha==request['source_sha256'][reader_file.name]
+          spec=importlib.util.spec_from_file_location('request208_cleanup_metadata_only',reader_file)
+          reader=importlib.util.module_from_spec(spec);sys.modules[spec.name]=reader;spec.loader.exec_module(reader)
+          marker_file=target/'scalar-readout'/'readback-complete.json'
+          marker=json.loads(marker_file.read_bytes())
+          assert marker['schema']=='request208-owned-complete-necessary-readback-v1'
+          assert marker['run_id']==record['run_id'] and marker['source_commit']==record['source_commit']
+          assert marker['request_sha256']==hashlib.sha256(request_raw).hexdigest()
+          assert marker['recipe_sha256']==hashlib.sha256(recipe_raw).hexdigest()
+          assert marker['reader_sha256']==reader_sha
+          assert marker['execution_directory']==str((target/'execution').resolve())
+          assert marker['owned_processes_quiescent'] is True
+          assert marker['necessary_single_summary_complete'] is True
+          summary_file=target/'scalar-readout'/'scalar-summary.json';summary_raw=summary_file.read_bytes()
+          assert marker['scalar_summary']==dict(bytes=len(summary_raw),sha256=hashlib.sha256(summary_raw).hexdigest())
+          child=reader.quiet_owned((target/'execution').resolve(),stop=False)
+          parent_file=target/'rules-parent-owner.json';parent_raw=parent_file.read_bytes();parent=json.loads(parent_raw)
+          assert parent['schema']=='request208-original-rules-parent-receipt-v1'
+          assert parent['run_id']==record['run_id'] and parent['source_commit']==record['source_commit']
+          prior=parent['parent'];assert type(prior['pid']) is int and type(prior['start_ticks']) is int
+          current=reader.proc(prior['pid'])
+          parent_absent=current is None or current['start_ticks']!=prior['start_ticks']
+          authorized=bool(record['scalar_step_outcome']=='success' and child['quiescent'] and parent_absent)
+          record.update(readback_marker_sha256=hashlib.sha256(marker_file.read_bytes()).hexdigest(),
+            actual_scientific_owner_observation=child,actual_rules_parent_observation=current,
+            original_rules_parent_receipt_sha256=hashlib.sha256(parent_raw).hexdigest(),
+            original_rules_parent_quiescent=parent_absent,
+            parent_shared_runner_PGID_not_required_empty=True,
+            complete_readback_and_quiescence_authorized=authorized)
+          if authorized:
+            shutil.rmtree(target);record['removed']=True
+          else:
+            record['retained_until_runner_destruction_reason']='Complete readback or current owned-process quiescence was not established'
+        except Exception as error:
+          record.update(error=repr(error),traceback=traceback.format_exc(),
+            retained_until_runner_destruction_reason='Cleanup evidence is incomplete; no active or unread payload is removed')
+        print(json.dumps(record,sort_keys=True,separators=(',',':'),ensure_ascii=True),flush=True)
+        PYCLEAN
+  report:
+    name: One necessary recorded-factor contraction and full112 scalar summary
+    needs: compute
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      SCALAR_SUMMARY: ${{ needs.compute.outputs.scalar_summary }}
+      SCALAR_SUMMARY_BYTES: ${{ needs.compute.outputs.scalar_summary_bytes }}
+      SCALAR_SUMMARY_SHA256: ${{ needs.compute.outputs.scalar_summary_sha256 }}
+      COMPUTE_RESULT: ${{ needs.compute.result }}
+      SCALAR_READBACK_OUTCOME: ${{ needs.compute.outputs.scalar_readback_outcome }}
+    steps:
+    - name: Print one necessary bounded scalar summary with explicit unexported large-object scope
+      run: |
+        python - <<'PYREPORT'
+        import hashlib,json,os
+        text=os.environ.get('SCALAR_SUMMARY','')
+        if not text:
+          text=json.dumps(dict(schema='request208-finite-trace-R273-scalar-output-unavailable-v1',
+            run_id=os.environ['GITHUB_RUN_ID'],source_commit=os.environ['GITHUB_SHA'],
+            compute_job_result=os.environ.get('COMPUTE_RESULT'),
+            scalar_readback_step_outcome=os.environ.get('SCALAR_READBACK_OUTCOME'),
+            complete_necessary_scalar_readback_not_claimed=True,
+            scientific_completion_and_acceptance_not_claimed=True),separators=(',',':'))
+          raw=text.encode()
+        else:
+          raw=text.encode()
+          assert len(raw)==int(os.environ['SCALAR_SUMMARY_BYTES'])
+          assert hashlib.sha256(raw).hexdigest()==os.environ['SCALAR_SUMMARY_SHA256']
+          assert len(raw)<=90000
+          value=json.loads(text)
+          assert value['schema']=='request208-original64-contracted-trace-r273-necessary-readback-v1'
+        print('BEGIN_REQUEST208_CONTRACTED_TRACE_R273_NECESSARY_SUMMARY')
+        print(text)
+        print('END_REQUEST208_CONTRACTED_TRACE_R273_NECESSARY_SUMMARY')
+        print(json.dumps(dict(event='request208_scalar_summary_identity',bytes=len(raw),
+          sha256=hashlib.sha256(raw).hexdigest(),hash_scope='compact ASCII JSON excluding separator LF',
+          compute_job_result=os.environ.get('COMPUTE_RESULT'),
+          scalar_readback_step_outcome=os.environ.get('SCALAR_READBACK_OUTCOME'),
+          necessary_original_scalar_selection_only=True,
+          complete_dyadic_witnesses_root_tapes_and_large_stdout_not_exported=True,
+          large_array_payload_not_independently_recomputed=True,
+          no_large_encoded_chunks_or_semantic_reassembly_protocol=True,no_raw_retention=True)))
+        PYREPORT
