@@ -201,3 +201,8 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 11:04:45 UTC /root — R509实际221完整必要与先行owner资源partial
 
 **实际221完整读回、一次原128接受与owner内层资源partial。** [R509](results/R509-actual221-current-H-one-accepted-and-owner-resource-partial.md)22299B/da19原字刊；run43835161762/source8b352、compute133189859163/report133251098161，exact两终志各唯一一次，71252/efd2756e必要逐字同、complete=true。原63/78/91恢复与336源齐，实际call1 H全J/R273和两包真返；128初norm14074125.721549422871053526172072936→iter0 α1全576/129248行原接受到.00119384019932733053462024588807814309。iter1 α1只133stage/30016行、443地址133..575显式预算错，norm null/未接受而非数学拒；末current.complete属前次接受状态，原2e−9 false。owner5999.327/6000 cap、独立replay未完，全部post stage/boundary/endpoint/audit及protocol/FD/fullDN未起，global余11852/outer resource_stop null口径分清，不把此停止冒后置stage性能。原PID/startticks等真quiet，10:56:30.9007389Z removed=true；全state仅身份，无可续父。原全部门/资源记录保，不预测放宽cap或225一定收敛；R532/R534后置模型与先行owner成本分别继续。H/open旧详记录固定a7b历史、§4–6逐字保。
+
+
+## 2026-11-16 11:14:33 UTC /root — R532两完整库与条件组成证明
+
+**已证明，限完整输入/输出条件的有限程序组成；源码未执行。** [R532](results/R532-current-owner128-projection-and-complete64-stage-library.md)三件84417B：binder25000/fab3、同DN库32316/2279、完整证明27101/d811。显式四真实source/七schema/run/call/H、全owner state/residual/stage和原tol/fresh replay绑定；原b233一次投影全577×224，原同一DN/engine/profiles/steps执行全576×226×224，端口前后224²与双mean及原诊断/完整ledger全保。模型不冒128导数或64已收敛；原128值/residual/replay与最终非线性门仍权威。每stage全输出先耐久再推进，partial保真实错误/已写尾字及全未付后缀；必要完整≤90K否则70，raw保、cleanup_authorized=false。原clock真实回调及同步cell owned hard-stop须实际caller接，不能混用Node/Python epoch。尚未注册owner-first/lift/新boundary/assembly整链或新request，R534 geometry继续；R509先行owner成本另由root R535处理。H/open旧完整记录固定9f355941，open§4–6逐字不动，全部旧责任持续。
