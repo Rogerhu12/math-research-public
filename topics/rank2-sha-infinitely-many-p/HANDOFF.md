@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：d048427a5e45b345c57d8da36210db1fa28a905d；2026-11-16 07:01:27 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 06:52:26 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
+- 最近已读规则提交：42478da8ffbe5865cf63c24938e8eb0395c0c3c8；2026-11-16 07:14:33 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:14:32 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -56,3 +56,5 @@ R859附B：原N阶9商图面正规化P¹×E，a2=a1^r、Xsh=4T/[4a1(a1−1)]^((r
 R840 O只保证同F²C可选，保同G0/全部奇点∞角帽、同Kcorr/Hcorr两高前缀、第三3η/第四短行和末同cF³。完整disc²同构读全部分支，P长窗不代其余值。
 R842指定[b0]∈WT∨未知；真实P尾每项十系数，WT上[b0]=−BD−Pr。负trace/Jacobian/moving/全mask/十九角/t1/h7/正2Uτ/U/JmodP²/跨pW与同P补偿全保。
 O4/O6/O7、R364/R561/R654/R712及R768/790/808、R815/819/823/825/827、R734/773–801、R812同charge/Smith、R756/758预算177/47、R760三维Bost(0,3)均未关闭。有限p、复秩1、局部unit、条件height或另cycle不完成主目标；AST/strict/fine不代通常全Selmer。
+
+- 正在运行原17挠点有限输入 producer：ci/seventeen-torsion-input-request.json；公开Actions求h的degree9式、h³三次坐标及实际λ7，只记run/hash，不存重算输出。

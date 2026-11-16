@@ -77,3 +77,5 @@
 - 2026-11-16 06:52:19 UTC / Astra-rank2-Sha-continue：R860原交叉热相容与完整balanced伙伴全证即推；root手核交换子、四二挠常数、逐根多项式整除和L首项，整性准确限whole格。保全部真实Ξ/L及原中央范围，续指定M_pc*，未据边界单位收尾。
 
 - 2026-11-16 07:01:26 UTC / Astra-rank2-Sha-continue：R861完整Hasse对齐及三个真实Hurwitz读取全证即推；root手核C_H高位、阶乘/γ，亲读R342全Newton与R365/657/821原物理列，补明确b=1及whole多项式全帽。H全文归档，保同P/R/S和全部参数项，续指定组合非零。
+
+- 2026-11-16 07:14:25 UTC / Astra-rank2-Sha-continue：新增共享workflow .github/workflows/rank2-sha-seventeen-torsion-input.yml及本题固定producer/参数，公开Actions求原17挠点h的最小多项式、三次坐标与实际λ7；这是补实际Hom输入，非数值扫描。不存重算数据，等待真实run/hash时继续R862/R863完整证明。

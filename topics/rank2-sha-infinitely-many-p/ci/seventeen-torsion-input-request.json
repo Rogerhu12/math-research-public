@@ -1,0 +1,19 @@
+{
+  "request_id": "rank2-original-seventeen-torsion-input-20261116",
+  "utc": "2026-11-16 07:14:25 UTC",
+  "scope": "exact original fixed 17-torsion product, degree-nine polynomial, cubic model and Frobenius cocycle",
+  "ell": 17,
+  "curve": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "orbit_length": 16,
+  "delta": "1+2*omega",
+  "frobenius_alpha": "-1+2*omega",
+  "producer": "scripts/produce-original-seventeen-torsion-input.py",
+  "image": "sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb",
+  "output_policy": "Only script, parameters, run number and output SHA-256 are kept in git; no recomputable data or artifacts are uploaded."
+}
