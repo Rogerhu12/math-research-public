@@ -1,0 +1,760 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "infinity-complete-original-prime127-qualification-creator-schemas",
+  "executionSourceCommit": "d7f324a0c7dbbeeb96f70af965f719c1fc739db4",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-prime127-qualification-789f.py",
+  "scriptSHA256": "a7fdfb046c166ab5f70391db1b965232e9f891ab2a186f4541722058473c1730",
+  "argvTemplate": [
+    "--work-root",
+    "{work}",
+    "--receipt-dir",
+    "{scripts}",
+    "--q13-receipt",
+    "{scripts}/43736746064-original-characteristic-zero-free13-projection.json",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--native-source",
+    "{scripts}/2026-11-15-r150-infinity-complete-prime127-high-native-789f.cpp",
+    "--native-header",
+    "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+    "--out",
+    "{work}/infinity-complete-prime127-qualification-v2",
+    "--remaining-seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 0,
+  "wallSeconds": 35.391511539999556,
+  "fullTemporaryReceiptBytes": 11805,
+  "fullTemporaryReceiptSHA256": "115e3149bde189bedcd166cc572897c14090ad2d01166111919cfdf9dc8af934",
+  "result": {
+    "elapsedSeconds": 35.29295956799979,
+    "format": "r150-infinity-complete-prime127-qualification-v1",
+    "outcome": "complete-original-infinity-prime127-qualified",
+    "scriptSHA256": "a7fdfb046c166ab5f70391db1b965232e9f891ab2a186f4541722058473c1730",
+    "status": "completed",
+    "parameters": {
+      "actualConnections": [
+        {
+          "all6188OriginalProductsVerified": true,
+          "completeLowSHA256": "515d9460e45bcdd42e3053a6dbcac3a37b617cbe5886e405eedc6ec3a4a1b61b",
+          "conditionalOnHighRank3760": true,
+          "connectionRank": 1,
+          "fullHeadCount": 17,
+          "order": 6,
+          "prefixRank": 589,
+          "totalRank": 590,
+          "wholeCochainSHA256": "db2ec5799bb2d37d3ae23a88b39be50c5159e0263babcc30d76d17af2667ac42"
+        },
+        {
+          "all6188OriginalProductsVerified": true,
+          "completeLowSHA256": "ebd69d8d6e916e7d2a55c70c8fe86cd1bdc2ac91c586b81ab576bf0fedb71cfc",
+          "conditionalOnHighRank3760": true,
+          "connectionRank": 1,
+          "fullHeadCount": 16,
+          "order": 7,
+          "prefixRank": 590,
+          "totalRank": 591,
+          "wholeCochainSHA256": "a44529fbf3dde41e28c7fe773b2691352091ee47671a224403329a8b01c52fdb"
+        },
+        {
+          "all6188OriginalProductsVerified": true,
+          "completeLowSHA256": "130d3365b505c15314ac1e553ea9aeb707cd716a4c027bf4b978c3086581b0ca",
+          "conditionalOnHighRank3760": true,
+          "connectionRank": 1,
+          "fullHeadCount": 15,
+          "order": 8,
+          "prefixRank": 591,
+          "totalRank": 592,
+          "wholeCochainSHA256": "7a9ff441f0e6080d473f08eaa5e4931b1c80a6b48402cdada488ead780309cc4"
+        },
+        {
+          "all6188OriginalProductsVerified": true,
+          "completeLowSHA256": "d04c4e6b1792fd8a8c567026664ad05e2d6a1b85cd392ee7168c4216fc2dcc08",
+          "conditionalOnHighRank3760": true,
+          "connectionRank": 0,
+          "fullHeadCount": 15,
+          "order": 9,
+          "prefixRank": 592,
+          "totalRank": 592,
+          "wholeCochainSHA256": "b0c6c73fa0e5183c6a8adc449640830044e7179e6e3a2114409367b86f001cdf"
+        },
+        {
+          "all6188OriginalProductsVerified": true,
+          "completeLowSHA256": "714ba824da04f6bf793f2dac0ea8395bdae6198ad110fba6af6990b327a0cbbb",
+          "conditionalOnHighRank3760": true,
+          "connectionRank": 1,
+          "fullHeadCount": 14,
+          "order": 10,
+          "prefixRank": 592,
+          "totalRank": 593,
+          "wholeCochainSHA256": "b0e00b4701bc8f1cd4e16bec9d171a1e1d04848efd9a1b615ebcce4358ddaf1c"
+        }
+      ],
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allAncestorFilesReadOnly": true,
+      "allArraysTemporaryOnly": true,
+      "allConditionalHighRankGatesDischarged": true,
+      "author": "Astra-ISP-789f / literature_audit",
+      "binding": "3ffa6e914a39804be640bb669d8844fc7ce505e0abf146fe76dc68edb7021c20",
+      "coefficientAudit": {
+        "allUsedDenominatorsUnitsModulo127": true,
+        "maximumDenominatorDigits": 1797,
+        "maximumNumeratorDigits": 1832,
+        "rationalCoefficientsActuallyReduced": 3959098
+      },
+      "completeField127ConnectionRanks": [
+        4,
+        0,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "completeField127FreeRank": 13,
+      "completeField127GenericRank": 4354,
+      "completeField127MaximumPositiveIndex": 11,
+      "completeField127PositiveLength": 66,
+      "completeField127PositiveSpectrum": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        4,
+        4,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "completeField127SubmaximalLength": 55,
+      "completeInfinityQualification": true,
+      "completedPhaseIdentities": {
+        "complete-high": {
+          "bytes": 404,
+          "sha256": "8769ba77d3286daa95cf018f4236a21464d563037be0ce6af11d9691eb8ba922"
+        },
+        "constant-low": {
+          "bytes": 307,
+          "sha256": "2f25c60d96fb47beba814694e7e7343cb9c7af70de9bda4d8caca5e2286179df"
+        },
+        "eighth": {
+          "bytes": 491,
+          "sha256": "53e475842ff97771fb0623da03458981027b5239deddef52ec811e7bf6f40ff5"
+        },
+        "eleventh-inputs": {
+          "bytes": 637,
+          "sha256": "4fa4a97056649b467ac60c46ccba0758e15d4140ffd384041ac541210ff47043"
+        },
+        "final": {
+          "bytes": 290,
+          "sha256": "4cc362386166d4a5d2d2d7148a0488d3fabda74f231c6a47e1a587ef62cf2e94"
+        },
+        "first-five": {
+          "bytes": 304,
+          "sha256": "a4590fe24c25f7c237293a3441324a178c077cd3536df8d6c47a73d61edbe5e3"
+        },
+        "ninth": {
+          "bytes": 491,
+          "sha256": "b7f493efe12a89cb55330c832e2199a62afdce131e92592867aedad3bd571eb5"
+        },
+        "seventh": {
+          "bytes": 491,
+          "sha256": "a0fe5a10b9e771da520024cb423dbc7ef92cc49fae3de5d6a0d24fce474970b7"
+        },
+        "sixth": {
+          "bytes": 491,
+          "sha256": "49fc6fb0c6cafc95fe56cd780a0fefcdaf6b0af1be215b9f221f6a3bf60d2585"
+        },
+        "tenth": {
+          "bytes": 492,
+          "sha256": "566c30a40b0b5c3c352c436e04d8e2a95264b62136dad3cdfc6d0fa6b5e48408"
+        }
+      },
+      "eleventhConnection": {
+        "correctedLowSHA256": "885d637ed667713d7e38edd0727899419d296cf7615523eab52810fb4b974c90",
+        "oldField31LengthUpperUsed": false,
+        "originalAll6188RowsRetained": true,
+        "rank": 1,
+        "reason": "actual complete high particular and full low quotient",
+        "stableOriginalFreeHeadCount": 13
+      },
+      "eleventhPreparation": {
+        "allLowerOriginalProductsVerified": true,
+        "allWholeIncomingMapsRetained": true,
+        "chosenFullTenthHead": 5,
+        "chosenOriginalTenthFailure": 0,
+        "incomingColumns": 13,
+        "incomingRank": 13,
+        "incomingSHA256": "205f07c1684a3e6cd12142e1c451b423459cd8074423c4361840e817a63b095c",
+        "originalHighForcingSHA256": "6cb88429a46b4d6bf7bdd93c86923a8d65de3b42c07a522fc47b6deebe3c9a28",
+        "originalHighForcingZero": true,
+        "originalLowForcingSHA256": "885d637ed667713d7e38edd0727899419d296cf7615523eab52810fb4b974c90"
+      },
+      "firstFiveConnectionsConditionalOnHigh": [
+        4,
+        0,
+        1,
+        3,
+        1
+      ],
+      "firstTenConnections": [
+        4,
+        0,
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "fullOriginalConstantRankModulo127": 4340,
+      "genericRankUpperUsesExactOriginalRationalVanishingMinors": true,
+      "inputOutputCoordinates": 4367,
+      "inputSourceRows": 6188,
+      "largeDataUploadedOrCommitted": false,
+      "lastPositiveIndexElevenActuallyChecked": true,
+      "memoryMiB": 4096,
+      "nativeHigh": {
+        "actualUnitMinorVerified": true,
+        "all3762OriginalColumnsRetained": true,
+        "all5100OriginalRowsRetained": true,
+        "allDependentOriginalCoefficientRowsZero": true,
+        "arithmeticPrimeFixedBeforeExecution": true,
+        "augmentedRank": 3760,
+        "binding": "3ffa6e914a39804be640bb669d8844fc7ce505e0abf146fe76dc68edb7021c20",
+        "dependentOriginalRows": 1340,
+        "exhaustiveBitPlaneChecks": 244990,
+        "firstIncompatibleOriginalRow": -1,
+        "format": "r150-original-high-field127-with-one-rhs-v1",
+        "mathSeconds": 1.916621947,
+        "nonzeroInputEntries": 221700,
+        "nullity": 2,
+        "originalSourceRows": 5100,
+        "originalTargetCoordinates": 3762,
+        "originalZeroRowsModulo127": 0,
+        "particularOriginalProductCoordinates": 5100,
+        "prime": 127,
+        "rank": 3760,
+        "rhsCompatible": true,
+        "rowAdditions": 5932813,
+        "status": "completed",
+        "temporaryOnly": true
+      },
+      "nativeInput": {
+        "bytes": 680488,
+        "sha256": "7e9ed436eb9dcb652b978e244c0f665b51698b606204700507909e0699d298cc"
+      },
+      "new4340GaussianEliminations": 0,
+      "original17RowScalesModulo127": [
+        89,
+        47,
+        89,
+        108,
+        108,
+        108,
+        89,
+        108,
+        108,
+        54,
+        108,
+        102,
+        2,
+        27,
+        108,
+        108,
+        108
+      ],
+      "originalCoefficientFieldSHA256": "b071b88ce94ba0c814eedb582d2fccfaa9e16047a42128c1cdc0cd23ae0de8c6",
+      "originalVerificationLedgers": {
+        "all-projected-constant-heads": {
+          "orders": [
+            0
+          ],
+          "productCoordinates": 167076,
+          "sha256": "0074142836427bf2ae385d6085c098a79b24030df935e31bf557a8c44bcbad4d"
+        },
+        "eighth-all-incoming": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "productCoordinates": 544544,
+          "sha256": "99de7d41c289effe73d0b6ddda5506befef3ba8a175cdb2ebc0e3ade3f34af76"
+        },
+        "eighth-all-representatives": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "productCoordinates": 99008,
+          "sha256": "c63d3210252349898c3d6f3ae402a30ce691bce23a3e92dd569a93e372983abd"
+        },
+        "eighth-complete-cochain": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "productCoordinates": 835380,
+          "sha256": "0adc7c4b959e0a67317519cf4bafb374e76dad0047309386f3dd78f46420ff8f"
+        },
+        "eleventh-whole-shifted-failure1": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "productCoordinates": 68068,
+          "sha256": "33c212215bf4003cbb8c2c5565da26332c761d7410fbc107e688158eff807640"
+        },
+        "eleventh-whole-shifted-incoming12": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "productCoordinates": 816816,
+          "sha256": "4d92937e132be1a8f452238bc31ab6fbab425f26668a7d207386bfd1219bcc4b"
+        },
+        "ninth-all-incoming": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "productCoordinates": 668304,
+          "sha256": "a88817cbdba2116fe875af65e8cd24e26766d28ec74c7cc16c538b5bd44be89c"
+        },
+        "ninth-all-representatives": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "productCoordinates": 55692,
+          "sha256": "eec68cfc4147d828e918d380422cd233e90ed0b0b864f6f0e28928632ec673b0"
+        },
+        "ninth-complete-cochain": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "productCoordinates": 928200,
+          "sha256": "d225ed1f2195e91487bc89df89e94236d030a8a27ee0cf6626ef4326d3c85cfd"
+        },
+        "projected-free-through-eleven": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "productCoordinates": 965328,
+          "sha256": "aa079feac5173e6de98e7b761cbe6ddf2c8e376895a35c3a395bbb60ce1e8d37"
+        },
+        "projected-positive-0": {
+          "orders": [
+            0
+          ],
+          "productCoordinates": 24752,
+          "sha256": "b6bda40296515bbd5a4d1fd6de744ccff81e23d18c02c9cc97657c403b856b56"
+        },
+        "projected-positive-1": {
+          "orders": [
+            0,
+            1,
+            2
+          ],
+          "productCoordinates": 18564,
+          "sha256": "a5608ff9598185c4bd11c50b890f30d9ec1639080c882e7b677a1afd70897ea2"
+        },
+        "projected-positive-2": {
+          "orders": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "productCoordinates": 74256,
+          "sha256": "c20b88140b6ade6bc25b8ddda21fee7971abe1363f60b79814b5e6ea7031b8c4"
+        },
+        "projected-positive-3": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "productCoordinates": 30940,
+          "sha256": "52e807d54f2996b2923454d049534860258db3d1a8a4ce70e5d659f4f32dcc6e"
+        },
+        "projected-positive-4": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "productCoordinates": 74256,
+          "sha256": "d1f923e2919124d490080eb8b9156a0fdeb70cd122f8c2f309cc423e24631c1e"
+        },
+        "projected-positive-5": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "productCoordinates": 43316,
+          "sha256": "5945d7c0a059ffee1e0e265f969291362e5296cb4647e5b86f814f639e1fefba"
+        },
+        "projected-positive-6": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "productCoordinates": 49504,
+          "sha256": "675f80d2bb61a292632d60c98886c44471398a3d396b622fb15c0deedd175355"
+        },
+        "projected-positive-7": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "productCoordinates": 61880,
+          "sha256": "73d544dc6bfcaeaeab25999978ec711e50ad32742d8f3ec1c282ceef1905b2f5"
+        },
+        "seventh-all-incoming": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "productCoordinates": 433160,
+          "sha256": "d73f6672b30701c59c60516b501ec45b825f3eb4758633bde889742d0f5210a5"
+        },
+        "seventh-all-representatives": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "productCoordinates": 86632,
+          "sha256": "2a6894a70b612d212b23f2eb4e3d52c4a86d88b45b4b4bb26edd70b20deb3937"
+        },
+        "seventh-complete-cochain": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "productCoordinates": 792064,
+          "sha256": "bf68a878bb09fd7cae4e24f4e6058a879c0145540ed4cdc2f433010117ef47f9"
+        },
+        "sixth-all-incoming": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "productCoordinates": 334152,
+          "sha256": "b6c5b7bd2cc0adc04782e109ba7bf9ff2bd0254658619265ee95d18bcabf5194"
+        },
+        "sixth-all-representatives": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "productCoordinates": 74256,
+          "sha256": "d1f923e2919124d490080eb8b9156a0fdeb70cd122f8c2f309cc423e24631c1e"
+        },
+        "sixth-complete-cochain": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "productCoordinates": 736372,
+          "sha256": "00183931fb1560164785e946299fc9e1362d2a633415a8e6f5cb4620f2ef500d"
+        },
+        "tenth-all-incoming": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "productCoordinates": 742560,
+          "sha256": "12c8e435ed186995ada1f3f651a5fd99edf85113c316dd3fd847278009abe1a7"
+        },
+        "tenth-all-representatives": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "productCoordinates": 123760,
+          "sha256": "792140bdaccb873e61fa09d3406e895a18f6eaae66fd03c731bc342de9baae0d"
+        },
+        "tenth-complete-cochain": {
+          "orders": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "productCoordinates": 952952,
+          "sha256": "7fe66b4fed2f1374470e90e584417d1fdd33dbed417025c2cc471016eb0f5cf3"
+        }
+      },
+      "paidReceiptIdentities": {
+        "eighth": {
+          "bytes": 13454,
+          "sha256": "9c549e7fa9afbfa1e03aeb6844cda9a3ccd985357650612d114abc1ac0eb677a"
+        },
+        "fifth": {
+          "bytes": 22769,
+          "sha256": "17361fc2f385bbc1ffe8b843d185d0c3acd2998276579d08e5d76e8233eaf036"
+        },
+        "ninth": {
+          "bytes": 14700,
+          "sha256": "ef106d3f18b736ed0c5c76c0c0699d324ee2565ba92eecbcf400f6f5afb5035e"
+        },
+        "projection": {
+          "bytes": 28395,
+          "sha256": "ea44027e462054b9fdb9c9101065faaba0b14dc5ab9b1a5602c06fecbb765207"
+        },
+        "seventh": {
+          "bytes": 12517,
+          "sha256": "6faacedfb22582d79a2cefc73d97a8a11eeb0cdb024bc5c6d93de995a3102e65"
+        },
+        "sixth": {
+          "bytes": 15274,
+          "sha256": "9f126c0bd4d2cd15f44257d3a21e13d6987beb2061f7bbf6e9146e7a1c771ba4"
+        },
+        "tenth": {
+          "bytes": 15355,
+          "sha256": "bd3bd1c9395562b2b34baed09864f2b2a5650f4f3a9da949c35f843e0b2cf0ad"
+        }
+      },
+      "physicalCoordinateDeterminantsModulo127": [
+        90,
+        112
+      ],
+      "prime": 127,
+      "remainingSeconds": 600.0,
+      "sameNaturalOriginalQAndField127Spectrum": true,
+      "usesOld5528SourceFrame": false
+    },
+    "events": [
+      {
+        "phase": "original coefficient units and complete constant low block verified",
+        "rank": 580
+      },
+      {
+        "beta": 1,
+        "heads": 17,
+        "order": 6,
+        "phase": "whole original connection qualified conditional on high rank"
+      },
+      {
+        "beta": 1,
+        "heads": 16,
+        "order": 7,
+        "phase": "whole original connection qualified conditional on high rank"
+      },
+      {
+        "beta": 1,
+        "heads": 15,
+        "order": 8,
+        "phase": "whole original connection qualified conditional on high rank"
+      },
+      {
+        "beta": 0,
+        "heads": 15,
+        "order": 9,
+        "phase": "whole original connection qualified conditional on high rank"
+      },
+      {
+        "beta": 1,
+        "heads": 14,
+        "order": 10,
+        "phase": "whole original connection qualified conditional on high rank"
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 00:10:07 UTC",
+      "beforeReadCommit": "e332e5d86ed7b08fd3fed210c684d3c62a97e562",
+      "originMainAfterPull": "d7f324a0c7dbbeeb96f70af965f719c1fc739db4",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 00:10:43 UTC",
+      "beforeReadCommit": "d7f324a0c7dbbeeb96f70af965f719c1fc739db4",
+      "originMainAfterPull": "d7f324a0c7dbbeeb96f70af965f719c1fc739db4",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 84,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 28813,
+    "logicalJsonSHA256": "3f619b1639bcc8ccbc050cce6d93ec120a27cbfecd1003f9d835ba32a3fc5b2d",
+    "itemCount": 84
+  },
+  "lastRulesReadCommit": "d7f324a0c7dbbeeb96f70af965f719c1fc739db4",
+  "summaryExcludesRecomputableArraysOnly": false
+}
