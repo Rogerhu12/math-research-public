@@ -94,3 +94,9 @@ T Jh T^-1=−E、RI=−IR给Ry=Ey/z=−Ez。完整S/Z parity使原有序TJ及同
 Root全读白名单，独立取九小primary全文核bytes/SHA；原strict/scaled两proof均明列大report原SHA，原strict producer确仅derived预算，checker核complete/proved/source/dependency/inputs四层；原windowed proof/source链接surviving two-base c939a3d3的2行true。Root再独立walk immutable restore四级Git tree核同blob/size，notes metadata585540B/d1ee0949ba62e89ff5a8e82c87b61bf2179b80918f636728d143333a8e38183b，无候选大正文。精确actual model/source身份及固定R37旧域不外推；全native/canonical/d5jet/direction/source/proof/失败与新NIF等当前pin均排除。九active manifest exact0仅有限范围，不冒repo-wide无依赖。
 
 先推此完整白名单，再fresh当前path/blob/size guard，仅该单path普通删除；此提交未删除/未调workflow，0数学、0大body、0旧target重算。另记录WPR发布1f1a4665遇一次非FF：立即按要求调用真CLI git pull --rebase origin main，工具仍报无可用executor；随后fresh读新main/两README，保远端重建，第二次非force推成功。连接器重建不冒充实际CLI pull；原03:37:33定时重试不变。
+
+## 2026-11-16 03:20:15 UTC — R46 strict 唯一371382B原派生报告已普通删除
+
+在先推白名单c7abb659675953bfe9b161c8558f3a13c19b421e之后，本提交以fresh main c7abb659675953bfe9b161c8558f3a13c19b421e逐层只读tree metadata重新核唯一path/blobs/size：notes/2026-11-13-R46-complete-actual-strict-operator.json /0aea0f3c9cc1e220d4abeab4185cc46f0af3f71a /371382B，严格相同才普通删。精确restore57b2899f61cb23b73bc7b8532f3ee2ae78d28206同path，SHA770fbb61134db79eb3ecb48710b5d65f72e1ff79b2eb3fc1015609a5da040b42及9小primary/原完成scope/失败/native排除见3b1a0c23白名单。
+
+两README仍同blob。只这一个旧derived预算report，不改任何native/canonical/source/proof/当前输入/旧失败；0大正文/0数学/0workflow/0重算。禁止重复删除；后续如需该历史输入仅原字恢复核身份，不重做旧成功。完成容量维护后继续真实物理腰行与完整误差；此清理不是研究完成。
