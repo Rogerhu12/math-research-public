@@ -19,15 +19,15 @@
 - **原相对商：** T=W/(L∩W)在Σ0外已零；[全6012原源/投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)保VR=I、P=I−RV。实际R/P与全W尾未展开；原s=0完整P长度及九joint的Q维数继续，不能搬∞小P61或field25。
 - **[31全I2](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** 全197原源给I2=U7、χ=(s−1)²(s−2)^5，t2=5；C31/pC长314、J31=s−2。root2首五(1,4,2,4,2)已成；全210 recipe与六smallinput仍临时，真p7/第四新像未付。新Δ298后的完整系数分布正核，原I3的197纠偏/7图关系/b8,pb9接口保归档。
 - **[原F127全模块](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：** NF3333+2855、GB1021/free13/B8、state805/obs506稳定57，全部原CK/AK=KJ核真。完整tors299，五critical primary总88/原52624乘回；五广义检测族每处两泛函全分离88维。原4367运输/1834Z消费五处I1均0，不单从零像否高层。
-- **[root63系数正证](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 原node26969742/3463反传支持4324，4367 p²读40；simple s+64占一I1方向，原925非零端点不当维数。Q/127∞同谱66及原J127=0/Ω127=Ψ60²均付，C127有限；结合Δ298的唯一系数因子/D127源正在独立正式核。
-- **[九目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** 九singlecyclic23、joint25/χ=s²mon(h*)，全7245/7475/2691原乘回。Q源今已付；D127源/最小h*由系数结构另审，joint25不自动升Q。全部旧失败、∞原证与31深页pins保归档。
+- **[root63系数正证](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 原node26969742/3463反传支持4324，4367 p²读40；simple s+64占一I1方向，原925非零端点不当维数。Q/127∞同谱66及原J127=0/Ω127=Ψ60²均付，C127有限；[唯一D127系数挠结](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)现证T127=D/127、参数s=63；没有更高127指数。
+- **[九目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** 九singlecyclic23、joint25/χ=s²mon(h*)，全7245/7475/2691原乘回。九h*tj已有精确D127[s]原来源；每个D127循环模=D127[s]/mon(h*)，故各Q最小多项式恰h*23（零点指数3）；joint25不自动升Q。全部旧失败、∞原证与31深页pins保归档。
 
 ## 活跃执行、临时缓存与立即恢复
 
 - 旧run43756208221已结束，56步回执全推，旧tmp不再视活。新run43772109844真正重建三域weak/Q7且每phase全SHA相同；三critical最终谱均成功。E8原exit1确为最终回执超过90000B，旧失败保留；只读恢复raw9456·15349fa5/binding9e283e5d，原数学binding及phase不变。
 - 新live run43772109844始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。旧30步控制全文归档notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json；done仍在当前进程，当前列新增7步：三critical及五广义Bockstein均已完成；七新增步全部exit0。重新启动须按控制归档重建父缓存。
-- [五广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)联合分离88维；[E8-1完整I1零证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)核全4367运输/1834原Z，raw12201·66006800，15.503秒。其余四亦实际第一像0（25.088/24.892/15.174/21.903秒），全原p²进位已核；仅该零计算不排高层。结合独立Δ298的总系数结构另审。global197/root2/127全缓存及三critical均仍临时。
-- runner每30分钟/每步/每push前真实pull核两README；回执在notes/r150-source-kernel-session-789f/。失败/budget保留；同绑定续接新step ID，requires只指exit0祖先。root独占索引，代理仅冻结稿；每结论全审后实际push，非快进立即rebase重推。
+- [五广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)联合分离88维；[E8-1完整I1零证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)核全4367运输/1834原Z，raw12201·66006800，15.503秒。其余四亦实际第一像0（25.088/24.892/15.174/21.903秒），全原p²进位已核；仅该零计算不排高层。结合独立Δ298已证唯一127系数因子仅s=63、指数1。global197/root2/127全缓存及三critical均仍临时。
+- runner每30分钟/每步/每push前真实pull核两README；回执在notes/r150-source-kernel-session-789f/。失败/budget保留；同绑定续接新step ID，requires只指exit0祖先。root独占索引，代理仅冻结稿；每结论写成后实际push，非快进立即rebase重推。
 
 ## 原边界：同一个w与完整返回继续
 
