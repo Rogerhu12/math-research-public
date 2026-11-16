@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 7ec45b298b262e817cbb52998e2112722bc1433b（2026-11-16 03:17:11 UTC，Actions run43797240450实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43797240450-1.json。
+- **最近成功实际 pull 与已读规则提交：** ecc2c4a11f9e13fb03fbee6ba3fcf704752031da（2026-11-16 03:17:59 UTC，Actions run43797330820实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43797330820-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -18,7 +18,7 @@
 - **[完整critical谱](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)/[局部目标](results/R150-appendix-critical-original-square-targets-exact-local-exponents.md)：** full F±(3,5)/E8(2,3)，P(3,3)/(3,3)/(2,2)由真实下界+目标非零dual反推；九critical指数各(2,2,1)，每个生成完整局部T。两cubic各30940、E8重验259896原products，完整高核7/低86/首连接rank1保留。
 - **[唯一系数127与精确整来源](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)：** 原有限C的D秩298、C/pC299、J127=0；root63原p²读40迫T127=D/127、s=63，无更高指数。九h*tj有D127[s]来源，每个循环模D127[s]/mon(h*)，Q最小h*23、零点指数3；未给D127统一分母费。[五广义完整消费](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7在全4367/1834原Z上I1均0，仅此零不排高层。
 - **[31仅余一个E](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)：** C31/pC314/J=s−2，T/pT16、χ=(s−1)²(s−2)^14，global t1…t5=(2,5,2,4,2)，仅root2一个E≥6，f2=17/u=v=w=1。全I2=U7；完整B第四新增像m6∈{0,1}、累计8+m6。全210 recipe/六small保临时，真p7/六carry继续；旧e0 mod961负证及所有原整数source限制不改。
-- **rank-one Bell与原后继：** [新Bell8/全基成本](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)：归一图br8∈I、显式源moment≤18（两支18/15）；全4212共动W基h*w的原degree3来源费均≤8391。一般member费≤max(8391,108+τ(b))，不移给高moment Bell源。全rank≤1均值临界点matched remainder为0、B_r∈√(J+C1)；全J非rank-one/ess(T3)≥4、振幅清分母和实际Bell算子桥仍开。原6012来源/VR=I/P=I−RV的展开及所有未列open仍保归档。
+- **rank-one Bell与原后继：** [新Bell8/全基成本](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)：归一图br8∈I、显式源moment≤18（两支18/15）；全4212共动W基h*w的原degree3来源费均≤8391。一般member费≤max(8391,108+τ(b))，不移给高moment Bell源。[整个横向理想](results/R150-appendix-entire-transverse-ideal-eighth-power-original-rank-one-sources.md)已证𝔫⁸⊂I，45真quadratic CRT保所有混合八次生成元，显式源moment≤18；不假E∈W或𝔫⁶。全rank≤1均值临界点matched remainder为0、B_r∈√(J+C1)；全J非rank-one/ess(T3)≥4、振幅清分母和实际Bell算子桥仍开。原6012来源/VR=I/P=I−RV的展开及所有未列open仍保归档。
 
 ## 活跃执行、临时缓存与立即恢复
 

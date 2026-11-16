@@ -107,12 +107,12 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 原A:6188→4367、W秩4212与全部degree≤3 source字典保持。[新原全局定理](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)给monΔ=monK178·Ω、degree298/齐次364、严格Σ0外μ=1。九h*tj∈im_Q[s]A，h*=s³F+²F−²E8 degree23；原有理来源三支8386/8391/171，统一8391，整个4212共动W基也已付同界。
 
-- **当前真正未闭的全局范围。** [归一rank-one新Bell8](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)给br^8∈原17式理想，显式源moment次数≤18；全4212高normal共动基h*w原degree3来源费≤8391。全部rank≤1均值临界点已付B_r∈√(J+C1)。不得删cone理想，未付全J非rank-one/ess(T3)≥4、振幅全局清分母或实际Bell算子桥。
+- **当前真正未闭的全局范围。** [归一rank-one新Bell8](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)给br^8∈原17式理想，显式源moment次数≤18；全4212高normal共动基h*w原degree3来源费≤8391；[整个横向理想](results/R150-appendix-entire-transverse-ideal-eighth-power-original-rank-one-sources.md)𝔫⁸⊂I及所有混合八次单项式源moment≤18也已证。全部rank≤1均值临界点已付B_r∈√(J+C1)。不得删cone理想，未付全J非rank-one/ess(T3)≥4、振幅全局清分母或实际Bell算子桥。
 - **完整相对模块。** Σ0外T=W/(L∩W)已零；2与−6两点T=0，critical每处T循环且九目标各自生成。[原zero P及全relative25](results/R150-appendix-zero-projection61-and-complete-relative-nine-target-module25.md)已证zero P长61/T0长5、全T维25/ΔP273；经D127自由化与field25夹证九目标生成全部T、ann=mon(h*)，故h*W⊂L。零T分拆未定；原R/P/全W尾及6012来源表达继续。
 - **来源费用与31分母。** 原D*8769/31 leading unit，monΔ298给商8471；已有同模或精确D31解可降费max(8515,τ+1)。固定e任意高精度才exact；新Q成员给某有限分母，不指定e。旧e0任意度mod961负证、九差源p阶5均保原范围。
 - **31完整系数页。** C31/pC=field315除J31=s−2，dim314；全I2=U7、χ=(s−1)²(s−2)^5，指数2恰5个。root2首五(1,4,2,4,2)、全210 recipe已付；[精确分布现已证](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)：16个系数循环因子、χ=(s−1)²(s−2)^14，全t1…t5=(2,5,2,4,2)，仅余root2一个E≥6；u=v=w=1。全B第四增量m6∈{0,1}，累计I4维数8+m6。完整第四新页必须保真p7/六carry/全部原源覆盖，旧globalI3全部接口仍保。
 - **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，[五critical完整广义消费](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7正式闭合I1全零。[完整D127证明](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)以Δ298及root63正证得唯一T127=D/127（s=63），九h*tj有精确D127[s]原来源，每个循环模=D127[s]/mon(h*)，各Q最小h*23。只凭各零像不排高层；全Q joint25由原零点P及D127自由化另证。
-- **永久证据与临时缓存。** 所有旧small-source/run/SHA保全。旧run43756208221结束，需原代码重建；新run43772109844仍有127全NF/GB/state、global197、root2 recipe与三域新原缓存。大型数组不上传；当前源参数以HANDOFF为准。
+- **永久证据与临时缓存。** 旧源码/run/SHA保归档；run43772109844的NF/GB/global197/root2等缓存仍临时，新任务只存源码/参数/run/输出SHA，恢复以HANDOFF为准。
 
 ### 原边界：真实测试及全旗二阶已控，顺次返回继续
 

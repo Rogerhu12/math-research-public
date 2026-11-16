@@ -922,3 +922,7 @@ D127自由化和原field25夹证九目标生成全部Q相对商、ann h*23，h*W
 ## 2026-11-16 03:16 UTC — 全4212原目标费用与Bell第八幂
 h*W封口使所有4212共动基原degree3来源共同费8391；一般已证member界max(8391,108+τ)。
 同原四fiber CRT与h*br²给无额外乘子br8，显式source moment≤18；非rank-one、振幅全局清分母及31 E继续。
+
+## 2026-11-16 03:17 UTC — 全横向理想八次幂及混合原来源
+四fiber全W来源逐范围接回，45个quadratic CRT与h*𝔫²闭合𝔫⁸⊂I，全部混合八次生成元有显式source moment≤18。
+不假CRT余项在W，不删rank-one均值条件；全J非rank-one及31 E继续。

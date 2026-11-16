@@ -512,3 +512,6 @@
 
 
 - **R150全部4212高normal目标费8391与归一Bell8（2026-11-16）：** [原成本/显式差立方证明](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)从h*W⊂L给任member费max(8391,108+τ)，共动W基τ(h*w)≤123故统一8391。以h*br²原degree3来源和旧全四fiber CRT得br8=Σ(RqE³Aν+br²KbDν)Fν，源moment两支18/15；无额外乘子，不假E∈W、不称br6或全J。
+
+
+- **R150整个横向理想的八次幂原来源（2026-11-16）：** [全混合源证明](results/R150-appendix-entire-transverse-ideal-eighth-power-original-rank-one-sources.md)从四fiber全部4212像包含提取45个quadratic CRT身份，得𝔫²⊂I+(q0)，再合h*𝔫²⊂I/q0³=h*Rq得𝔫⁸⊂I。任意四二次normal因子的望远镜公式给源moment18/9/12/15，无r平方跨度假设、无𝔫⁶或全J声明。
