@@ -283,3 +283,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R512 — 完整39必要表的真实producer角色接线
 
 **已证明（固定source与必要语义）；尚无新科学运行。** [R512](results/R512-complete39-actual-producer-role-context-binding.md)完整指出213 formatter的五类表名及RMS索引不匹配producer，相关lookup必跳过，其他操作不由此推未发生。新formatter20883/f79328ed只纠正这些符号及当前schema，原全部canonical相等/同trial/观察坐标/相邻行序/错误和原值保持；完整逐操作语义证明已付，不复算旧115134B正文或承诺90K必fit。原科学/全部选择器/原预算/单90K超70与quiet清理不变；223/R513实际来源由root接线，新运行不冒旧213数据或native/fullDN接受。
+
+## R510 / Request222 — 冻结220来源分类薄修与唯一原时钟
+
+**已证明（来源与控制流条件）；当前数学结果未填。** [R510](results/R510-frozen220-source-list-repair-and-single-clock-composition.md)14224/98ab0a65、[222完整接口](notes/2026-11-16-request222-frozen220-source-classification-repair-interface.md)18145/a0568407与entry/plan/request/workflow六件到齐即刊并正式dispatch。仅移R503政策JSON出.py/.mjs专用名单，仍原全文外层pin；新plan66182/7a74a8e6，原124literal/364应用/46输出、四outer及全部179生成源不改。真实derived22099330/2d1c3a7d，在临时metadata工作视图固定路径/真实HERE消费，原checkout f6ca原件保；279public＋179gen=458，不混旧run。最初原namespace起点覆盖copy/形成/owner bootstrap，deadline绑定真derived205、原18900+2700/32GiB与全部科学门不变。新增immutable source单90K/70及marker后exec原cleanup，原九范围/真实quiet不减。R511/amplitude唯一终态，不预填生成/科学或接受；topic新增136217B，workflow另99393B，无raw/展开源/派生全文归档。

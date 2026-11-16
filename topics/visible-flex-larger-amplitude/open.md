@@ -81,6 +81,8 @@ R489以原完整f12f1440/six及同五输入/完整数学字段重算同根族，
 
 [R506实际220](results/R506-actual220-policy-JSON-source-classification-stop.md)14881/0fde227a已完整：run43833995131/source3ea0620a，compute133185959623/report133187249530均failure且各终志唯一。第6层plan把R503政策JSON列入只收.py/.mjs的required_public_sources，原basename谓词抛ValueError；前5层返回0是固定控制流支持的前缀，4165B事务只有身份，46新view循环未起（bootstrap owner先前单独生成/AST），不称457整体已绑定。C485B只未起null帧双job同字，rules/closed/refinement/composition正文均未返，cleanup真实skip；硬编码report概括句不补body。R503点/C/far/native/453/450/M/几何全未求值，无数学反证。222/R510/R511薄修只移JSON出源码专用子列表，仍保外层全文pin/政策字节、四outer与46输出/全部原门/32GiB/18900+2700；真实derived请求另绑，不重标旧失败run。
 
+[R510/222](results/R510-frozen220-source-list-repair-and-single-clock-composition.md)/[完整接口](notes/2026-11-16-request222-frozen220-source-classification-repair-interface.md)六件完整即刊/dispatch：仅R503 JSON移出可执行源名单但外层全pin仍保，新plan7a74、真derived22099330/2d1c、279＋179=458。独立临时工作视图固定路径/真实HERE，原Git checkout f6ca保；四outer/179生成/46当前输出与全部原数学/32GiB/18900+2700不动，最初起点含复制准备且deadline绑真derived205。新增单90K来源scope/marker后才委托原九范围quiet-cleanup；R511/amplitude唯一，正式run/head另记，来源成功不预填接受。217须同一新job从真实222合同重建并登记其新增8view，不用旧raw。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

@@ -1,0 +1,176 @@
+{
+  "schema": "public-frozen220-source-classification-repair-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 222,
+  "workflow": ".github/workflows/visible-current-C-coast-base-source-classification-repair222.yml",
+  "entry": {
+    "file": "root_20261116_request222_source_classification_repair.py",
+    "bytes": 28224,
+    "sha256": "20360bb001f3849b3468071b4ca6f7b4017d5aa2bb7fb476791316d1a96a432f"
+  },
+  "frozen220_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+    "bytes": 99218,
+    "sha256": "f6ca63871733d3f5e48ef3eb8d540fc137806ceb1ae74cef01af6b21e25f3aba"
+  },
+  "frozen220_workflow": {
+    "file": ".github/workflows/visible-current-C-coast-base-zero-linear-gzip-incremental-M-refinement220.yml",
+    "bytes": 94508,
+    "sha256": "c1cb332dc9bd9b9b2c0b94b94477152c55d4448323dbd32f6b727142ae39524f"
+  },
+  "derived220_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+    "bytes": 99330,
+    "sha256": "2d1c3a7d56093f0009367bce0e201af14692b51541b759aa3d60b7737dfdaad2"
+  },
+  "original_source_plan": {
+    "file": "request220-complete-coast-base-native-source-plan.json",
+    "bytes": 66325,
+    "sha256": "14970cc2fea0f5245218ae0752e5659747a69d6d5a22d25252fe166a48c7a786"
+  },
+  "repaired_source_plan": {
+    "file": "request222-coast-base-source-only-repair-plan.json",
+    "bytes": 66182,
+    "sha256": "7a74a8e65b7283bfe9acb36a27a38dbef01e8ee0507eff0ac4c3548015288ddf"
+  },
+  "original_R503_policy": {
+    "file": "r503-explicit-coast-base-source-plan.json",
+    "bytes": 18919,
+    "sha256": "2f6113ce7b1928d2954d8768d2117db4452abf89cbb7f2f8b1a57719228e9dd3"
+  },
+  "unchanged_outer_sources": [
+    {
+      "file": "root_20261116_request220_sampling_refinement_composition.py",
+      "bytes": 47343,
+      "sha256": "f3e8ce8ebdfdd7df7f2ccd78da7c203f185de3f9c17403e0fb489e2f5cf18fca"
+    },
+    {
+      "file": "geometry_20261116_request220_owned_roles.py",
+      "bytes": 25670,
+      "sha256": "4afc01350bbaa239556f3b3edab6260b727e772df3b04351e357b0831149efc3"
+    },
+    {
+      "file": "geometry_20261116_request220_joint_refinement.py",
+      "bytes": 48824,
+      "sha256": "7dbc1dc3a52a812eef742e892601a539bd8908cf62179e0c68527f6a0b5af55b"
+    },
+    {
+      "file": "root_20261116_request220_refinement_necessary.py",
+      "bytes": 42493,
+      "sha256": "e887a1ced3906a4975d34815c12900a2b817318c02e9354db2e23883b7309a1c"
+    }
+  ],
+  "source_plan_literal_patch": {
+    "before": "\"required_public_sources\": [{\"file\":\"geometry_20261116_current_C_noj_zero_eliding_variational_engine.mjs\",\"bytes\":12857,\"sha256\":\"eafb41179f08105ac2cbc2708a3db84e1a3ae14eeec67027a94d3d7db70ea3c4\"},{\"file\":\"geometry_20261116_finite_trace_zero_coefficient_linear.mjs\",\"bytes\":4832,\"sha256\":\"eb487b2dff111d0af543a722c0882d28f7408eeb61e4e25559cef147d2e16e02\"},{\"file\":\"root_20261116_current_C_zero_linear_statistics_readback.py\",\"bytes\":5941,\"sha256\":\"0b875858a99692d43b3a29387829884abf2ef31856c9ddc1d0ce0307dbb69ef0\"},{\"file\":\"geometry_20261116_complete_jsonl_gzip_storage.py\",\"bytes\":15744,\"sha256\":\"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\"},{\"file\":\"root_20261116_complete_rule_resource_readback.py\",\"bytes\":17117,\"sha256\":\"b42e80ebe4a97e5e739a086b944d18106efa8fd9397167a24866134ecf62d103\"},{\"file\":\"r503-explicit-coast-base-source-plan.json\",\"bytes\":18919,\"sha256\":\"2f6113ce7b1928d2954d8768d2117db4452abf89cbb7f2f8b1a57719228e9dd3\"}]",
+    "after": "\"required_public_sources\": [{\"file\":\"geometry_20261116_current_C_noj_zero_eliding_variational_engine.mjs\",\"bytes\":12857,\"sha256\":\"eafb41179f08105ac2cbc2708a3db84e1a3ae14eeec67027a94d3d7db70ea3c4\"},{\"file\":\"geometry_20261116_finite_trace_zero_coefficient_linear.mjs\",\"bytes\":4832,\"sha256\":\"eb487b2dff111d0af543a722c0882d28f7408eeb61e4e25559cef147d2e16e02\"},{\"file\":\"root_20261116_current_C_zero_linear_statistics_readback.py\",\"bytes\":5941,\"sha256\":\"0b875858a99692d43b3a29387829884abf2ef31856c9ddc1d0ce0307dbb69ef0\"},{\"file\":\"geometry_20261116_complete_jsonl_gzip_storage.py\",\"bytes\":15744,\"sha256\":\"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\"},{\"file\":\"root_20261116_complete_rule_resource_readback.py\",\"bytes\":17117,\"sha256\":\"b42e80ebe4a97e5e739a086b944d18106efa8fd9397167a24866134ecf62d103\"}]",
+    "count": 1
+  },
+  "derived_request_literal_patches": [
+    {
+      "before": " \"additional_source_count\": 124,",
+      "after": " \"additional_source_count\": 125,",
+      "count": 1
+    },
+    {
+      "before": " \"complete_source_count\": 457,",
+      "after": " \"complete_source_count\": 458,",
+      "count": 1
+    },
+    {
+      "before": " \"published_source_count\": 278,",
+      "after": " \"published_source_count\": 279,",
+      "count": 1
+    },
+    {
+      "before": " \"derived205_source_count\": 457,",
+      "after": " \"derived205_source_count\": 458,",
+      "count": 1
+    },
+    {
+      "before": " \"additional_source_map_count\": 124,",
+      "after": " \"additional_source_map_count\": 125,",
+      "count": 1
+    },
+    {
+      "before": "  \"request220-complete-coast-base-native-source-plan.json\": \"14970cc2fea0f5245218ae0752e5659747a69d6d5a22d25252fe166a48c7a786\",",
+      "after": "  \"request220-complete-coast-base-native-source-plan.json\": \"14970cc2fea0f5245218ae0752e5659747a69d6d5a22d25252fe166a48c7a786\",\n  \"request222-coast-base-source-only-repair-plan.json\": \"7a74a8e65b7283bfe9acb36a27a38dbef01e8ee0507eff0ac4c3548015288ddf\",",
+      "count": 1
+    },
+    {
+      "before": "   \"plan\": {\"file\":\"request220-complete-coast-base-native-source-plan.json\",\"bytes\":66325,\"sha256\":\"14970cc2fea0f5245218ae0752e5659747a69d6d5a22d25252fe166a48c7a786\"},",
+      "after": "   \"plan\": {\"file\":\"request222-coast-base-source-only-repair-plan.json\",\"bytes\":66182,\"sha256\":\"7a74a8e65b7283bfe9acb36a27a38dbef01e8ee0507eff0ac4c3548015288ddf\"},",
+      "count": 1
+    },
+    {
+      "before": "  {\"file\":\"request220-complete-coast-base-native-source-plan.json\",\"bytes\":66325,\"sha256\":\"14970cc2fea0f5245218ae0752e5659747a69d6d5a22d25252fe166a48c7a786\",\"repository_file\":\"topics/visible-flex-larger-amplitude/notes/request220-complete-coast-base-native-source-plan.json\"}",
+      "after": "  {\"file\":\"request222-coast-base-source-only-repair-plan.json\",\"bytes\":66182,\"sha256\":\"7a74a8e65b7283bfe9acb36a27a38dbef01e8ee0507eff0ac4c3548015288ddf\",\"repository_file\":\"topics/visible-flex-larger-amplitude/notes/request222-coast-base-source-only-repair-plan.json\"}",
+      "count": 1
+    },
+    {
+      "before": "  \"new_current_public\": 6",
+      "after": "  \"new_current_public\": 7",
+      "count": 1
+    },
+    {
+      "before": "  \"all_public\": 278",
+      "after": "  \"all_public\": 279",
+      "count": 1
+    },
+    {
+      "before": "  \"all_runtime\": 457",
+      "after": "  \"all_runtime\": 458",
+      "count": 1
+    }
+  ],
+  "execution": {
+    "same_original_namespace": "visible-current-C-actual202-ten450-closed-geometry205",
+    "science_seconds_from_namespace": 18900,
+    "readback_reserve_seconds": 2700,
+    "job_timeout_minutes": 360,
+    "namespace_start_precedes_all_new_source_copy_and_preparation": true,
+    "one_original_deadline": true,
+    "original_clock_restarted": false,
+    "private_metadata_working_view": "request222-runtime-metadata-workspace",
+    "environment_script": "request222-runtime-env.sh",
+    "actual_derived_request_sha256_used_by_every_original_caller": true,
+    "original_checkout_request_bytes_modified": false,
+    "all_four_outer_and_all46_output_bytes_unchanged": true,
+    "all_original_gates_budgets_and_initial_candidate_policy_unchanged": true
+  },
+  "source_counts": {
+    "frozen220_public": 278,
+    "current_public": 279,
+    "all_old_public_retained": true,
+    "unchanged_generated": 179,
+    "complete": 458,
+    "new_public_item_is_only_repaired_source_plan": true,
+    "entry_source_is_separately_bound_metadata_orchestrator": true
+  },
+  "actual_failure_basis": {
+    "conclusion": "R506",
+    "run_id": 43833995131,
+    "source_commit": "3ea0620a199e08deb542eaca10b4cee2db5dd45b",
+    "first_failure": "ValueError: Use an explicit local Python or JavaScript source basename",
+    "sixth_generation_index": 5,
+    "science_not_started": true,
+    "lost_raw_reused": false
+  },
+  "retention": {
+    "all_original_nine_necessary_scopes_and_real_quiet_still_required": true,
+    "additional_immutable_source_scope_limit_bytes": 90000,
+    "source_scope_over_limit_exit": 70,
+    "no_part_transport": true,
+    "repair_marker": "request222-repair-readback-complete.json",
+    "raw_cleanup_delegates_to_original220_reader_only_after_new_marker": true,
+    "private_source_view_and_immutable_source_metadata_not_scientific_results": true,
+    "no_artifact_upload": true,
+    "no_scientific_raw_committed": true
+  },
+  "scope": {
+    "inner220_and205_numbers_are_source_interfaces_not_old_runs": true,
+    "actual_run_id_and_source_are_current_GITHUB_values": true,
+    "removed_JSON_still_fully_byte_bound_in_public_runtime": true,
+    "no_python_JS_gate_or_mathematical_threshold_modified": true,
+    "no_success_or_performance_claim": true
+  }
+}
