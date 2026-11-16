@@ -7,13 +7,13 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor约07:20失效、09:00复探仍不可用；旧tmp未冒存活。现有Actions执行真实pull/rebase/push，API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-pencil-trace-gates-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-matched-first-hole-feedback-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
 - **四参数run43830684123/job133175032397全十步success：** [同基接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)。根全日志及6raw/binding、14小SHA、252组装/核乘回、86阶段独核；完整ann已证，见下。全数据只tmp/日志，不重210。
-- **原Bell1 run43832009393/job133179333013运行中：** [接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)。首600实际exit75/wall598.467，raw11655/SHA213ba7ff；同out升1200，再75才1800，阶段待完整日志。保全17变量/18原源及双degree自测，权5至9后E600秒/4GiB；仅原E三个完整分量=1可闭合。截面失败不否定其它来源，5分钟同job续接窗、80/90分钟范围、每28分钟实际pull，执行身份notes/r150-original-full-bell-source-execution-789f/。
-- **原pencil trace/奇点轻job准备：** [精确接口](notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-interface-789f.md)及[同job执行](notes/2026-11-16-r150-original-pencil-trace-session-interface-789f.md)。同原E四Ti有精确基变换/同余项唯一性证明，D_(127,d=100)上35真自由基；先全部乘法/交换子/余因子乘回与trace Gram，再全19源(q,I4M)次数5至8原Macaulay。仅实际非零unit/完整双逆才推出E结论；未预填reduced/无rank5奇点。预算75才180→360→720，内存/验证错不加时，26/30分钟，同源SHA与编译门。根准备后真实推再dispatch；输出只临时，身份notes/r150-original-pencil-trace-execution-789f/。
+- **原Bell1 run43832009393/job133179333013运行中：** [接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)。600/1200均实际exit75（wall598.467/1198.568），rawSHA213ba7ff/f82ccc9f；同out升1800，阶段待完整日志。保全17变量/18原源及双degree自测，权5至9后E600秒/4GiB；仅原E三个完整分量=1可闭合。截面失败不否定其它来源，5分钟同job续接窗、80/90分钟范围、每28分钟实际pull，执行身份notes/r150-original-full-bell-source-execution-789f/。
+- **原pencil run43836278134/job133193599424全成：** [精确接口](notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-interface-789f.md)。实2.981秒/wall3.072，原D自由35基的trace rank35/det95；全19源Macaulay degree5/6秩234/458，degree7满792×1848，原双逆1254528坐标真。根独核raw3926/SHA8e8ed8c4与bindingb2760f96，正式35节点/平滑解消证明正冻结；不据此关Bell1。源已实推dacd4291/run43836253293，实际dispatch204；执行身份notes/r150-original-pencil-trace-execution-789f/。
 
 ## R150原rank-one精确系数接续
 
@@ -41,5 +41,5 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersec
 - [adjoint-D完整反馈原像](results/R271-appendix-adjacent-flag-adjoint-deletion-range-and-complete-feedback-lift.md)以真D旗给A_E*Z_target=−ZE C*，首反馈真MP原像≤3e8Δ，无闭值域假设；A_U目标完整Vprev、未压缩余项和σ次序保留。
 - [准确同w相邻整行](results/R271-appendix-canonical-strong-head-forcing-and-same-w-adjacent-return-row.md)：真Q孔κ≤1+log(1+Q/x)，行≤Wτ_x/√x+√κ(τ_x²+4e−6d⁴W²)；可选Q/h→∞、Q≤8d²+1使行趋零，但没有一阶非零锚。
 - [实际创建来源的完整右配对/真帽运输](results/R271-appendix-adjacent-creation-actual-return-pair-and-true-hat-transport.md)：η支撑总孔≤Q且η⊥K_Q时，完整h段核给<Rr,P_EYη>=<Ur,η_left>−<Jb r,Yη>，≤W||η||。原σ/α创建家族付3e8WΔ/x，外交换差4e8WΔ/x；帽版保KJb误差，乘1+C0²并需n+2h+R<Q。u_f=f−eV−PKf的eV整配对已付；剩同一P_EY(PKf)。
-- 后继工作仍未定理化：匹配s_f=(L+H)^−1U*f的完整lift是P_K(n+h)f−P_Kn f，真核增量可望远镜，帽bare误差可共同平均；(L+B)(r_w,s_f)已能付，但(H−B)(r_w,s_f)仍保非零左锚。e0∈Kprev而P_UQ D*e0可非零，新创建量词不可扩大到任意K输入。boundary续原C*恢复及同源抵消。
+- **[原matched全返回的平均首反馈已付](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)：** P=(L+H)⁻¹(H−B)，实际修正r−Pr的Sf费≤||Y||²−α²；n≥h时真coherent低读数给完整H_C(S) Gram。原p_i=bi²/S共同ᾱ=C*t̄取得全(H−B)(r_w,s_f[ᾱ])≤12e8Δ(A_w+||Y||)，同cut平均及真帽运输均趋零；帽裸端另保C0²hβ/Ncut及n+2h+R<Q。不改实际w/源/全h段。剩g0̄=Σp_iHi a0_i，原g=g0̄+ᾱ；其主交叉与N=M仍开，boundary续真空分支。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。
