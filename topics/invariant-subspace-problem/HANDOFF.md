@@ -29,7 +29,7 @@
 ## 活跃执行、临时缓存与立即恢复
 
 - **旧live run43756208221已success结束**：56步（含失败/预算）回执全推，三域真Q核7实39.423/50.272/276.666秒。旧tmp不再视活；新live21…29按每域weak135→Q7→完整首连接实际重算，六父逐完整manifest/压缩及payload SHA复验，首连接只依赖新成功审计。E8 Q7资源600秒/2GiB，其余300；冻结数学源不改，不上传数组。
-- **新live run43772109844** 始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。29步：前20仅15失败；plus/minus重建审计及首连接已成，E8在执行；[五完整广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)每factor两泛函、联合分离全部88维，110268原GB jet/2160作用核真。完整790核含702自由jet；common binding45dfea7c/manifest4794·6fc66baa。4367运输/1834Z第一系数像仍未付。global197、root2全210 recipe、127 NF/GB/state/target25/primary仍临时；继续完整Q首连接及全广义检测。
+- **新live run43772109844** 始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844，request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。30步：前20仅15失败；plus/minus首连接已成，E8续算；[五完整广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)每factor两泛函、联合分离全部88维，110268原GB jet/2160作用核真。完整790核含702自由jet；common binding45dfea7c/manifest4794·6fc66baa。30排E8-1全4367运输/1834Z第一系数像，300秒/4GiB；保原DAG、p²/全部正源乘回，未预填像秩。global197、root2全210 recipe、127 NF/GB/state/target25/primary仍临时；继续完整Q首连接及全广义检测。
 - 活跃runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
 - root独占索引；normal负责原127系数Bockstein及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
 
