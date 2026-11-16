@@ -187,3 +187,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - R887 §§12–13已付fixed torsion全Z cocycle和fixed cover上绝对Mumford乘子；κT,p与ΞT(0)=P2(T)−1明确未消。后续直接原G/P2有限p基/四指定低配对，不再逐个扩大Z运输家族。
+
+
+- [R890](results/R890-original-weighted-critical-values-and-full-ramification-readers.md)已把全部原finite/H¹障碍付成实际有限系数行：非固定monic图的b×b TF、完整伴随模π条件，及固定十九角/∞/非monic图/同R连接类和全球矩阵全保。它们不自动由原M或四中央杀掉；全o(K2)仍开。该reader完成后转下一实质原门，不再重复局部像已付的分类。

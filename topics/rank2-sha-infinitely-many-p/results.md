@@ -275,3 +275,6 @@
 
 
 - [R887 §§12–13](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：固定M⊥p挠点的原addition恒等式与完整M周期付λT=−ΣjT/M，Fp(T)=(−ρλT)^p，故全Z平移hT=−ρ(jT+λT+r∘tT−r)。fixed[M] cover上的绝对Mumford乘子首项1/(Mw)，准周期/代表更换/全部极及T、−T规范齐。同G/P2的J、κ、Ξ全部ODE与ΞT(0)=P2(T)−1保，四中央未增零。
+
+
+- [R890](results/R890-original-weighted-critical-values-and-full-ramification-readers.md)：同原D帽的全finite值像由b×b加权临界矩阵TF准确给出，det=(-6)^b Norm(YFY)^3/∏(40+n)；高charge以4eB+FLB的原单位消去。任DVR的adjTF·remFR模π^(3vNorm e)全核充要，保非约化/奇点/所有闭点；固定十九角/∞/非首一图和同R Cech连接类由原Gauss矩阵完整读取。不是额外M零行，未推forcing消失或全K2满像。
