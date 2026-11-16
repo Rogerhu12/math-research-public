@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 14:46:25 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 14:47:50 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:38:20非FF真CLI仍无executor，下一本地尝试≤15:38:20。最新CI真pull为43887930151/1于11-16 14:39:21.134198→cc26411371171d0bc2d06ea37c340999e140a94c；4次两README完整diff空/同已读，exec全保。下一真pull≤15:39:21；ref读取不冒真pull。
-最近只读README核：1418d76e5a9e5dd0666fecdc224bbb620c1c6b4d；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:47:49非FF真CLI仍无executor，下一本地尝试≤15:47:49。最新CI真pull为43887930151/1于11-16 14:39:21.134198→cc26411371171d0bc2d06ea37c340999e140a94c；4次两README完整diff空/同已读，exec全保。下一真pull≤15:39:21；ref读取不冒真pull。
+最近只读README核：2fa4ed4be190b1c674f467e857d2941cd25aa0ae；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -36,7 +36,7 @@ WPSA470d2547全实际proof已推，WPSffd000ff原义务保；43878765372/1完整
 
 WRPAb6c22c38/43881690924首次40新/14门/3图成功冻结；SCI146904d0/82508/4b66bd0b、execf6a3a109/21783/3a5ec986。9current/2AST/0history、44copy/9scope全保，old0/lost0。Bc约8.421e235/Bt9.109e225；whole/reduced约1.90736e323各选new，mean仍主导，无smallness/finite。
 
-WSMF5845b880/43886938106首次52全成冻结：SCIc20713f5/61398/3243348d、exec8bf42887/35338/1b725baa；3图32/7/13、18门、13current/3AST/0history、62old+4upstream，old0/lost0。whole/reduced各new≈2.095886e302；rawmean≈1.3496e171、mean端≈2.178e142，旧scattering≈5.01187e295现主导。完整两mean/四端/3070/独立门保原proof与actual；禁止重算52，完整实际proof正在写。
+WSMFA190b66b7全实际proof已推；WSMF43886938106首次52全成冻结，SCIc20713f5/61398/3243348d、exec8bf42887/35338/1b725baa；3图32/7/13、18门、13current/3AST/0history、62old+4readback全保，old0/lost0。whole/reduced各new≈2.095886e302；rawmean≈1.3496e171、mean端≈2.178e142，旧scattering≈5.01187e295现主导。两mean/四端/3070/8资格/48context原完整保proof，52禁重；finite/high独立未授。
 
 WMLa67961a5 local247仍未算；WMC06e0d860完整mean-flux已证精确消漂移：B=eκI−∂φ(eC)+eL中scalar c=2βmKΠ(pv)+βΠ(Se)及全投影费保，L1全系数不省；无新κ/e6，拟27+7+13=47新量未算。完整forcing/两mean/四端/3070与原n^-23/6保，不混W4M单位；不重WSMF52。mean已非主导，先推进独立scattering/second-order腰端，禁从旧上界相减。
 

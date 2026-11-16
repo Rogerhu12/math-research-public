@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WSMFA：逐阶严格通量与完整物理均值的实际全量证明](results/R133-supplement-actual-per-index-strict-flux-and-complete-physical-mean-bound.md)：独核 run43886938106/1 的 SCI、execution、manifest、workflow 和全部原输入；保全部 52 新球、62 原球、4 readback、48 全 context、8 全资格、13 文件身份、两 same-operator 选择及四次真实 pull。完整 whole/reduced 各约 2.095886e302，旧腰 scattering 现主导；18 门全部只认证本次有限界，未授 signed finite/high/Nash/最终族。proof 57905B/SHA256190b66b7，所有已成目标冻结。
+
 - [WMC：完整归一均值通量中的精确漂移消去](results/R133-supplement-exact-drift-cancellation-in-the-complete-normalized-mean-flux.md)：在同一真实 mean 源里合并 eκI−∂φ(eC)+eL，精确保留 scalar c、Π(Se) 的正号及两个零阶投影费用；省去 κ/e 的冗余高导上界，未删 forcing、真势、两 mean、四端或 3070 接缝。完整 47 新量合同仅为未执行候选，WSMF52 已成实际量不重算；不改变 n^-23/6 原单位，不声称数值改善或有限逆。完整 proof SHA256 06e0d860。
 
 - [W4M 实际完整四步均值](notes/four_step_physical_mean_ci/run-43887930151-1/actual-scientific-conclusion.json)：公开 run 43887930151/1 首次科学子进程保存全部 30 新量和 1 原记录副本，16 门/5 图全成；47 原标量、11 全资格和 n^-17/6 的完整输入 HS 接收均保。whole/reduced 各只与 WRPA 原完整候选比较选 new，约 2.095886e302；已有 WSMF 完整界仍更好。首 run 43886171523 仅预核失败、child0，保持原失败；现 completed targets 全锁、old0/lost0，无有限逆或小量结论。

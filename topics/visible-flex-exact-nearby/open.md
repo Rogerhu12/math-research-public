@@ -178,7 +178,7 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 [WSJ](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8的完整mixed/domain/fallback/forcing/cut/mean资格保proof与12345cce183d8b1a3bcf066ffe16c6399f1ea2f2同open；WSMA152已成，未授finite/matching。
 
-[WSMF完整实际52](results/R133-supplement-per-index-strict-flux-and-complete-physical-mean-bound.md)5845b880/43886938106全3图/18门冻结；SCIc20713f5/3243348d。whole/reduced各new≈2.095886e302，rawmean≈1.3496e171；两mean/四端/3070全保，waist scattering现主导。old0/lost0，非finite/matching。
+[WSMFA](results/R133-supplement-actual-per-index-strict-flux-and-complete-physical-mean-bound.md)190b66b7/43886938106全52新/62old/4readback、3图18门冻结；SCIc20713f5/3243348d。whole/reduced各new≈2.095886e302；两mean/四端/3070及8资格/48context全保，waist scattering现主导。old0/lost0，finite/high/matching未闭。
 
 [WDGA80](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de/43865837250、[WBFA83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355与[JRA56](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f/43873739440全冻结。所有原球/对象/单位/域/cut/dr/一次阶乘/mean/祖先scope/失败和未付门保各proof及4ef462296a239c5abf90ea3239f210cfc23be002同open；old0/lost0，非relative15/root盘/finite/matching。
 
