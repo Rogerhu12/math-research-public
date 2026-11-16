@@ -588,3 +588,9 @@
 - 纯IO实际读R787最新570位d97acf14/manifest20d5e10f、R824最新596位071c3390/manifest27a030ff；两原核不变续接，不重545/501以前。R799/R801两2050最小包已在artifact14206388855保全。
 - readerb3659ad0兼容R800旧无reference，R827按真实failure读已成W/五节点；request5b069f7a仅续这两源。H/open原文归档并压缩，旧全部边界保留；共享IO用途不变。
 - 本push规则：公开Actions真实pull至9bff804799c7dbf06685eeb3a03578cf8f200eb6（2026-11-16T07:55:32.238667+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:00 Asia/Taipei — serre-public-astra-20261115
+- R787真实570断点d97acf14与570条history/compaction/manifest20d5e10f完全一致；真core BudgetStop/1。只改resume request00802d0d，120min同core93d3/wrapper42157从571续，不重原阶段或用dual代原关系。
+- R872纸证已推5b6d5dc2；两次纯IO已保R799/R801的2050源和R800/R827最小包，完整平台/tar SHA另记notes；原R827确exit124/no-final，只消费已成stage。
+- reader1370ce20加指定小metadata读取，requestb18f14e4仅读R824 current与596历史对应，不重已读606历史/任何数学；共享workflow原用途不变。
+- 本push规则：公开Actions真实pull至dd7b2881f12e353e0c54e1de8e0e88a0bbe3391a（2026-11-16T08:00:38.513025+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

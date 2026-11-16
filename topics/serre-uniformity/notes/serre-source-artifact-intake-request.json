@@ -1,78 +1,45 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0755-remaining-R800-R827-original-source-intake",
+  "request_id": "20261116-0800-R824-current-and-last-history-metadata",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5",
+  "rules_last_read_commit": "9bff804799c7dbf06685eeb3a03578cf8f200eb6",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
   "helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
-  "reader_sha256": "b3659ad0a546c18f72b5446b63712a41666824738cba9eb5cfeb9887b1981971",
+  "reader_sha256": "1370ce20977ffdf62354c9a2898200f408ca2d58093c1277686b2b020884327e",
   "sources": [
     {
-      "label": "R800",
-      "mode": "R800",
+      "label": "R824-current",
+      "mode": "selected",
       "source": {
-        "run_id": "43696070150",
-        "source_commit": "b53ef624e98b6cdbc9e59ad1bd7d33509dfdfc8c",
-        "artifact_id": 14153948656,
-        "artifact_name": "serre-global-R800-original-M2-tail-129-195-43696070150-1",
-        "archive_bytes": 16486501,
-        "archive_sha256": "78ab2d6222f95015246dbfd4237c4ae2be8126971983bf6ee7173da8b1c83a4e",
-        "expected_conclusion": "success",
-        "manifest_sha256": "1a651f6e0a3d51c8cb18d3b5fad18fb4d480f69e7bedd6e9fb10c7f80dbaf053"
-      }
-    },
-    {
-      "label": "R827",
-      "mode": "R827",
-      "source": {
-        "run_id": "43734420663",
-        "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
-        "artifact_id": 14180474398,
-        "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
-        "archive_bytes": 3646481834,
-        "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
-        "expected_conclusion": "failure"
+        "run_id": "43792912432",
+        "source_commit": "33f5c3288305cdfc8ed1adb5e1e4fee3ed940870",
+        "artifact_id": 14205663835,
+        "artifact_name": "serre-global-R824-original-global-polar-generators-43792912432-1",
+        "archive_bytes": 1391989692,
+        "archive_sha256": "fd1084f9742b715efa7a305ce724ffc6900ba45c64d5437d9baf1ad550a3aab6",
+        "expected_conclusion": "failure",
+        "manifest_sha256": "27a030ff753d8ca155654b2e1ae451e76005e2943dfaf7b4f83b9f9608aa3c9a",
+        "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb"
       },
       "files": [
         {
-          "file": "R827-original-W-g-h-reductions.json.gz",
-          "bytes": 763994,
-          "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+          "file": "R824-power5-free-1187-current.json.gz",
+          "bytes": 5693,
+          "sha256": "e0aaa50aff3706e745580747b8eeb8cd753805c3eae9116d9b94dc087e1dff4f"
         },
         {
-          "file": "R827-original-place-and-unit-source-audit.json.gz",
-          "bytes": 4261,
-          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
-        },
-        {
-          "file": "R827-prime-1000000753-z-0-Krylov.json.gz",
-          "bytes": 1114714,
-          "sha256": "8c44c70e79fcd4b1cdd7324ce2cbc7a88ffaadcdeff126d169cf27f3a79f1703"
-        },
-        {
-          "file": "R827-prime-1000000753-z-1-Krylov.json.gz",
-          "bytes": 1114628,
-          "sha256": "f874694d3dbb46df1480112ed2c2ee6bca56b9a0ec62ba4cc34f65f157d34f52"
-        },
-        {
-          "file": "R827-prime-1000000753-z-2-Krylov.json.gz",
-          "bytes": 1114827,
-          "sha256": "3eb36f786cf3a24c458b97e85fb74716df494619a753d7870dff5284b3273978"
-        },
-        {
-          "file": "R827-prime-1000000753-z-3-Krylov.json.gz",
-          "bytes": 1114390,
-          "sha256": "784493e30234ca1c099b53892cdf6ccf2843d364ae2c0bf38abbe8eccef011de"
-        },
-        {
-          "file": "R827-prime-1000000753-z-4-Krylov.json.gz",
-          "bytes": 1114592,
-          "sha256": "cb7aa5ca1095d801ae69153ee49c5cbbfce03202da3e1de77454fa869bdb30ec"
+          "file": "R824-power5-free-1187-history-00000596.json.gz",
+          "bytes": 5737,
+          "sha256": "31993dac408b593b67817123c707bfac6687e9ec6377980edbddf2c120be70ad"
         }
+      ],
+      "print_json_files": [
+        "R824-power5-free-1187-current.json.gz",
+        "R824-power5-free-1187-history-00000596.json.gz"
       ]
     }
   ]

@@ -108,7 +108,7 @@ def read_source(row, work, output):
             names.update(n for n in fs if fs[n]["bytes"] <= 5000000 and
                          (re.search(r"(history|compaction|chart|selection|state|source-audit|receipt|index)",n)
                           or n in ("public-actions-run.log","core.log")))
-        elif mode == "R827":
+        elif mode in ("R827","selected"):
             for wanted in row["files"]:
                 assert fs[wanted["file"]] == wanted
                 names.add(wanted["file"])
@@ -159,6 +159,9 @@ def read_source(row, work, output):
         if item.get("core_sha256"):
             assert ini["core_sha256"] == item["core_sha256"]
         special = {}
+        for n in row.get("print_json_files", []):
+            assert n in names
+            special[n] = m.read(out/n)
         for n in sorted(names):
             if n.endswith("-certificate.json"):
                 value = m.read(out/n)
