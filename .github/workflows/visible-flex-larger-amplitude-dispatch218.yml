@@ -1,0 +1,51 @@
+name: visible-flex explicit request218 dispatch retry
+on:
+  push:
+    branches:
+      - visible-flex-larger-amplitude-dispatch218-r2-20261116
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: visible-flex-larger-amplitude-dispatch218
+  cancel-in-progress: false
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      VISIBLE_REPO_TOKEN: ${{ github.token }}
+    steps:
+      - name: Inspect actual workflow registration and issue one explicit dispatch
+        shell: bash
+        run: |
+          python3 -u - <<'VISIBLE_DISPATCH_PY'
+          import os,json,urllib.request,urllib.error,datetime
+          repo="Rogerhu12/math-research-public"
+          workflow="visible-current-C-zero-linear-gzip-incremental-M-refinement218.yml"
+          headers={"Authorization":"Bearer "+os.environ["VISIBLE_REPO_TOKEN"],"Accept":"application/vnd.github+json","Content-Type":"application/json","X-GitHub-Api-Version":"2026-03-10"}
+          def api(path,data=None):
+           req=urllib.request.Request("https://api.github.com/repos/"+repo+path,data=None if data is None else json.dumps(data).encode(),headers=headers,method="GET" if data is None else "POST")
+           try:
+            with urllib.request.urlopen(req,timeout=45) as response:return response.status,response.read()
+           except urllib.error.HTTPError as error:return error.code,error.read()
+          status,raw=api("/actions/workflows/"+workflow)
+          if status!=200:
+           print("WORKFLOW_LOOKUP_FAILURE "+json.dumps({"status":status,"body":raw.decode("utf-8","replace"),"science_dispatched":False}),flush=True)
+           raise SystemExit("The already published workflow is not yet available to the official dispatch API")
+          found=json.loads(raw)
+          print("WORKFLOW_METADATA_JSON "+json.dumps({k:found.get(k) for k in ("id","name","path","state","created_at","updated_at","html_url")}),flush=True)
+          if found.get("path")!=".github/workflows/"+workflow or found.get("state")!="active":raise SystemExit("Actual workflow registration differs")
+          status,raw=api("/actions/runs?event=workflow_dispatch&per_page=100")
+          if status!=200:raise SystemExit("Cannot establish the actual already-dispatched run set")
+          matches=[x for x in json.loads(raw)["workflow_runs"] if x.get("path")==found["path"]]
+          if matches:
+           print("DISPATCH_ALREADY_PRESENT "+json.dumps([{"id":x["id"],"head_sha":x["head_sha"],"status":x["status"],"created_at":x["created_at"],"url":x["html_url"]} for x in matches]),flush=True)
+          else:
+           started=datetime.datetime.now(datetime.timezone.utc).isoformat()
+           print("DISPATCH_BEGIN "+json.dumps({"workflow":workflow,"workflow_id":found["id"],"ref":"main","started":started,"automatic_retry":False}),flush=True)
+           status,raw=api("/actions/workflows/"+str(found["id"])+"/dispatches",{"ref":"main"})
+           body=json.loads(raw) if raw else None
+           print("DISPATCH_RESPONSE_JSON "+json.dumps({"status":status,"body":body,"workflow":workflow,"workflow_id":found["id"],"ref":"main","started":started}),flush=True)
+           if status not in (200,204):raise SystemExit("Explicit dispatch failed; do not assume a scientific run")
+          VISIBLE_DISPATCH_PY
