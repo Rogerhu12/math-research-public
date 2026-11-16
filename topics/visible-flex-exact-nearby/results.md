@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **全实genuine源/腰端检查点。** [逐字归档](notes/2026-11-16-completed-global-genuine-source-and-waist-checkpoint.md)保存1c56d4663e0b1a9e3fc9d72b4953672cffa656f5的open2a完整8805B与H活动链3608B，两段各有原SHA256。仅缩已成索引，为下一whole结论留页容量；所有原球/域/mean/旧失败/lost/恢复和未付义务不减，全部成功禁重。
+
 - **WES：同旧target的完整genuine腰端强差。** [完整证明](results/R133-supplement-selected-free-waist-exact-scattering-and-complete-endpoint-comparison.md)，Git blob02ca30d6e063e9bdfd158d8401361db74e92ce77 /31293B /SHA256 8aa7eb5d210ed73b3e3e2b3c166432292725a603c23dda4d4d9c0a8292d72b00。原selected真lift和WX ψ′完整lower直接给全腰T<−L；完整genuine=F S_n，精确散射S−N∞=S(Droot+J∞)保非零β/root2×2矩阵和B″整负尾。潜势幅与N∞一阶在真phase上准确相消；余cB²/w1/全部IN二三阶仍在。finiteFA完整两row、旧I/J六mean/终端、Bi原实余项与两phase fulloutput Schur给base L2及p2差；原ng一次、Js双投影two-I、N4 fullphysicalmean endpoint rank在同四项exact腰差中，故H−4/3→完整density+两mean闭。原positive/root有限差、原leading及右Ni全保，不重复β或把raw/density相减。root全文+FA全文与官方DLMF9.7.11–12/iii复核；Newton§3–5、Tail§2/7–9通过。新组合未数值求值，wholeE及实际finite/core仍待。
 
 - **WUC：原根窗口与全负侧新源接收闭合。** [完整证明](results/R133-supplement-root-window-interpolation-and-complete-negative-source-reception.md)，Git blob0ab392b063763cf2abe31d20b7879d670b0efc6c /21833B /SHA256 6ced5a9365db6823d4dd6044be69b177cba126b6cefc7f2a3e1165cc897f0f58。WUA全ordered源的one-J L2列n^−5/6 b与额外I列n^−11/6 b先在所有输出频率作H−2/3插值，再用真L²dr取得rootcollar p5/3；所有真mixed jump同阶，原3070列表及其余真实接口完整保，strict p2。原PW cut r+−1/200与新cut/potentialcut分开；消费SP唯一43731464771/1原20门的完整CO/CR/C1，包含全density、两mean和Cauchy/strict单位一次。由完整columnHS得H−σ→完整腰state，严格1<σ<7/6；不授4/3/边界值或实际wholeE。mean补项/rootpositive/waist完整留式21，已接腰的PC不再乘CR。root全文和原PW全文、SP端对象/family/scope/gates核；Newton§2/4/6、Phase§1/3/5/6正式通过。0新数/无科学运行，成功原件冻结。
