@@ -101,3 +101,7 @@ R555完整22910B独立刊：233真实397来源/prepare完成，science/rules/out
 ## 2026-11-16 15:08 UTC /root — R588原完整source与RootStats具名可逆关系
 
 R588完整薄源19120B与证明20203B独立刊：原完整source与R573八catalogue、五代binding及四统计族具名列关系，严格类型/顺序/负零、所有未知和full last、旧transport/compile差全保；有限逆证明，不编码任意科学树、不增加门/改90K。R589/246真实入口接续，R563/R571已成逐件续刊。
+
+## 2026-11-16 15:11 UTC /root — R563 actual236双必要未返边界
+
+R563完整18618B独立刊：236实际417来源/prepare完整，科学/rules/outer1，source225803和science177614两完整必要超90K仅1813/1130/70返；原R551同job169036不同SHA和70保，所有内层科学未知、quiet true/removed false，无父。R588仅澄清已有逆序外层列→子关系→旧引用，源不改；R589续接。
