@@ -35,11 +35,11 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
-R559/request235、R553、R564、R565/request237、R567/request238完整证明和来源已齐，当前因目录200MB容量尚未正式发布/派发；精确恢复manifest在HANDOFF。容量处理仅普通删除实际核明引用的旧可重算清单，并保固定Git恢复；不删当前科学源输入，不改门/钟/90K。
+R553本次完整独立刊，R559/request235、R564、R565/request237、R567/request238完整证明和来源已齐，仍待容量后各独立正式发布/派发；精确恢复manifest在HANDOFF。容量处理仅普通删除实际核明引用的旧可重算清单，并保固定Git恢复；不删当前科学源输入，不改门/钟/90K。
 
 R564完整113×53整数乘积与最近偶数舍入保持首RN128字；快捷分支**不执行原第一Q乘法**，不主张fenv异常flags等价。三原primal点/原方向/R561第二选择器保，3×17计数/full last及旧统计全保。R565原417全保→432=357public+75gen，十真实caller一次直接R564，八对象加lanes/原128/replay/模型/FD/fullDN/末audit/caps保；先刊R564再刊237并唯一POST，实际R566归amplitude。
 R559以实际__file__/comp身份修旧module.HERE接口，原engine.main guard保；545=297public+248gen、原535和49+8科学源全保。早期generation全reader与缺cleanup明确未执行，18900+2700/32GiB/全C门/90K保，实际R560归exact。
-R553用真实675全quintic prefix系数与全部原角cell给joint tube正域P和Fourier–Frenet常数；原cubic/FFT形成误差未付，原metric/DFS门不读diagnostic。R567真接235当前sameC evidence，557=302public+255gen、原545全保；新观察与原normal prior evidence分清、旧门/钟不改；先刊235与R553再刊238并唯一POST，实际R568归geometry。
+[R553完整证明](results/R553-actual-prefix-coefficient-tubes-and-Frenet-majorants.md)/[接口](notes/2026-11-16-actual-prefix-tube-and-complete-metric-interface.md)五件80428B本次正式刊，用真实675全quintic prefix系数与全部原角cell给joint tube正域P和Fourier–Frenet常数；原cubic/FFT形成误差未付，原metric/DFS门不读diagnostic。R567真接235当前sameC evidence，557=302public+255gen、原545全保；新观察与原normal prior evidence分清、旧门/钟不改；先刊235与R553再刊238并唯一POST，实际R568归geometry。
 R556→R557/request234/R558续112far两mode并行，同原25M/绝对钟、arb精确dyadic传输、原mode序全部账/commit/prepared行SHA和95GB decoded范围保；组件不冒全入口，失败/partial完整保。
 
 ## 2. 准确十族候选与完整453→450
