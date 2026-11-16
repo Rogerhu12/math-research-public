@@ -118,3 +118,7 @@ $$
 
 后续原 shadow 消费还要求另一原 P 映射、完整 RR 和全部绝对端点/边界输入都实际通过。本篇不把实现完备或一次辅助素数的模核记为这些门已经通过。
 
+
+## 6. 实际公开执行
+
+source135b50ff04a12c51dd1b9de583a20b2bed19cbed 触发 [run43906594646](https://github.com/Rogerhu12/math-research-public/actions/runs/43906594646)，job133436977753，2026-11-16 16:21:34 UTC创建。16:21:56 UTC已亲读数学步骤运行；尚无结果，不先记PASS。选定素数、精度历史及最终hash依实际完整日志登记。
