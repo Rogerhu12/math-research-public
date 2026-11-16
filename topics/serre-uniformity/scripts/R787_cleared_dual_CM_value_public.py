@@ -27,6 +27,8 @@ BUNDLE = 'R787-cleared-dual-retained-inputs.tar.gz'
 MANIFEST = 'full-outputs-manifest.json'
 REFERENCE = 'full-outputs-manifest-reference.json'
 INPUT = 'retained-inputs-receipt.json'
+PAIRING_INPUT = 'completed-pairing-inputs-receipt.json'
+PAIRING_BUNDLE = 'R787-cleared-dual-completed-pairing-inputs.tar.gz'
 OLD_BUNDLE = 'R787-retained-producer-inputs.tar.gz'
 CHART = 'R787-prime-1000000753-chart.json.gz'
 BLOCKS = 'R787-prime-1000000753-rational-blocks.json.gz'
@@ -443,7 +445,117 @@ def expected_tag(item,expanded,retained):
         'p':41,'auxiliary_prime':1000000753,'original_map_index':4,'original_map_degree':'1206',
         'field':old['field'],'normalization_free_column':1186,'unknown_shape':[128,280],
         'rational_unknown_dimension':35840,'square_L_output_shape':[1234,1186,140],
-        'basis_integer_scale':'13744803133596058624','strategy':static_strategy(S/item['core'])}
+        'basis_integer_scale':'13744803133596058624','strategy':static_strategy(S/item['core']),
+        'completed_pairing_source':item.get('completed_pairing_source')}
+
+
+
+def review_completed_pairing(item,retained,expanded):
+    previous=item.get('completed_pairing_source')
+    if previous is None:return None
+    assert previous['result']==RESULT
+    assert previous['core_sha256']=='969201b943bf7591baee92c168546b9992e59b94e1b5b1b2304732b85c052407'
+    assert previous['expected_conclusion']=='failure'
+    root=Path(retained)/'PAIRING'
+    rows=manifest_rows(root,previous)
+    files=previous['files']
+    expected_names=set(META)|{INPUT,previous['pairing']['file']}
+    assert set(files)==expected_names and len(files)==6
+    assert fingerprint([files[name] for name in sorted(files)])==previous['selected_files_sha256']
+    for name,row in files.items():
+        assert name==row['file'] and rows[name]==plain(row)
+        bound(root,row)
+    run,core,public=(read(root/name) for name in META[1:])
+    assert run['result']==core['result']==public['result']==RESULT
+    assert str(run['workflow_run_id'])==str(previous['run_id'])
+    assert run['source_commit']==public['source_commit']==previous['source_commit']
+    assert public['source_repository']=='Rogerhu12/math-research-public'
+    assert public['core_sha256']==public['job']['core_sha256']==core['source_sha256']==previous['core_sha256']
+    assert public['wrapper_sha256']==public['job']['wrapper_sha256']==previous['wrapper_sha256']
+    assert run['core_receipt_sha256']==files['core-receipt.json']['sha256']
+    assert run['complete'] is False and core['complete'] is False and run['process_exit_code']==core['exit_code']==1
+    assert core['actual_new_dual_digits'] is None and core['configuration'] is None
+    assert core['original_value_rowspace_zero_A1_proved'] is False
+    assert public['root_readme_sha256']==previous['original_readme_sha256']['root']
+    assert public['topic_readme_sha256']==previous['original_readme_sha256']['topic']
+    assert public['expanded_sources']==expanded
+    receipt=read(root/INPUT)
+    assert receipt['complete'] and receipt['result']==RESULT and receipt['retained_sources']==expanded
+    assert receipt['all_source_member_bytes_verified'] is True
+    assert receipt['source_core_or_inverse_arithmetic_recomputed'] is False
+    assert public['job']['sources']==item['sources']
+    assert files[previous['pairing']['file']]==plain(previous['pairing'])
+    data=read(bound(root,previous['pairing']))
+    assert data['complete'] is True and fingerprint(data['configuration'])==previous['configuration_sha256']
+    expected=expected_tag(item,expanded,retained)
+    expected.pop('completed_pairing_source')
+    expected['source_sha256']=previous['core_sha256']
+    assert data['configuration']==expected
+    for flag in ('ordinary_coefficient_transpose_not_trace_or_Hermitian',
+                 'integer_unimodular_pairing_and_full_inverse_identity_verified'):
+        assert data[flag] is True
+    for key in ('J','J_inverse'):
+        assert len(data[key])==20 and all(len(row)==20 for row in data[key])
+    assert data['original_t_modulus']==expected['field']['real_cyclotomic_minimal_polynomial']
+    return {'source':previous,'stage':{'source_group':'PAIRING',**plain(previous['pairing'])},
+        'all_six_original_files_hashed':True,'old_complete_configuration_preserved':True,
+        'new_pairing_or_inverse_arithmetic_performed':False}
+
+
+def unpack_completed_pairing(item,out,retained):
+    previous=item['completed_pairing_source']
+    receipt=read(out/PAIRING_INPUT)
+    assert receipt['result']==RESULT and receipt['source']==previous
+    assert spec(out/PAIRING_BUNDLE)==plain(receipt['input_bundle'])
+    expected={'PAIRING/'+name:plain(row) for name,row in previous['files'].items()}
+    seen=set()
+    with tarfile.open(out/PAIRING_BUNDLE,'r:gz') as tar:
+        for member in tar:
+            name=PurePosixPath(member.name)
+            assert member.isfile() and not member.issym() and not member.islnk()
+            assert not name.is_absolute() and '..' not in name.parts and len(name.parts)==2
+            assert member.name in expected and member.name not in seen
+            row=expected[member.name];assert member.size==row['bytes']
+            path=Path(retained)/member.name;path.parent.mkdir(parents=True,exist_ok=True)
+            temporary=path.with_name(path.name+'.tmp');digest,count=hashlib.sha256(),0
+            with tar.extractfile(member) as source,temporary.open('wb') as target:
+                for block in iter(lambda:source.read(1048576),b''):
+                    target.write(block);digest.update(block);count+=len(block)
+            assert count==row['bytes'] and digest.hexdigest()==row['sha256']
+            temporary.replace(path);seen.add(member.name)
+    assert seen==set(expected)
+
+
+def prepare_completed_pairing(item,work,out,retained,expanded):
+    previous=item.get('completed_pairing_source')
+    if previous is None:return None
+    if (out/PAIRING_INPUT).exists() and (out/PAIRING_BUNDLE).exists():
+        unpack_completed_pairing(item,out,retained)
+        return review_completed_pairing(item,retained,expanded)
+    root=Path(retained)/'PAIRING';root.mkdir(parents=True,exist_ok=True)
+    archive=IO.Archive(previous,work/'completed-pairing-source-transfer',whole=False)
+    try:
+        archive.extract_bound(MANIFEST,previous['manifest_sha256'],root/MANIFEST,previous['manifest_bytes'])
+        rows=manifest_rows(root,previous)
+        for name,row in previous['files'].items():
+            assert rows[name]==plain(row)
+        archive.extract_many([(name,row['sha256'],root/name,row['bytes'])
+            for name,row in previous['files'].items() if name!=MANIFEST])
+        review=review_completed_pairing(item,retained,expanded)
+        temporary=out/(PAIRING_BUNDLE+'.tmp')
+        with temporary.open('wb') as raw:
+            with gzip.GzipFile(fileobj=raw,mode='wb',mtime=0,compresslevel=2) as zipped:
+                with tarfile.open(fileobj=zipped,mode='w|') as tar:
+                    for name,row in sorted(previous['files'].items()):
+                        info=tarfile.TarInfo('PAIRING/'+name);info.size=row['bytes']
+                        info.mode=0o644;info.mtime=0;info.uid=info.gid=0;info.uname=info.gname=''
+                        with bound(root,row).open('rb') as source:tar.addfile(info,source)
+        temporary.replace(out/PAIRING_BUNDLE)
+        save(out/PAIRING_INPUT,{'result':RESULT,'source':previous,'input_bundle':spec(out/PAIRING_BUNDLE),
+            'source_transport':archive.receipt(),'review':review,
+            'original_331MB_carrier_not_downloaded_for_this_pairing_import':True})
+        return review
+    finally:archive.close()
 
 
 def restore(item,work,out,retained):
@@ -483,6 +595,10 @@ def restore(item,work,out,retained):
             assert name==PREFIX+'current-index.json.gz' and data['complete'] is False
         copied(root,out,rows[name])
     for name in (INPUT,BUNDLE):copied(root,out,rows[name])
+    if item.get('completed_pairing_source') is not None:
+        for name in (PAIRING_INPUT,PAIRING_BUNDLE):
+            ar.extract_bound(name,rows[name]['sha256'],root/name,rows[name]['bytes'])
+            copied(root,out,rows[name])
     if FINAL in names:
         final=read(out/FINAL)
         inventory=read(bound(out,final['stage_manifest']))
@@ -511,6 +627,7 @@ def prepare(item,request,work,out):
         review_retained(expanded,retained)
         receipt=build_bundle(out,retained,expanded,reports)
     review=review_retained(expanded,retained)
+    pairing_review=prepare_completed_pairing(item,work,out,retained,expanded)
     config=dict(item,retained_sources=expanded)
     save(work/'expanded-job.json',config)
     public={'result':RESULT,'source_repository':os.environ['GITHUB_REPOSITORY'],
@@ -522,7 +639,8 @@ def prepare(item,request,work,out):
     save(out/'public-actions-input.json',public)
     output_manifest(out)
     print('INPUT_REVIEW='+json.dumps(dict(review,input_bundle=receipt['input_bundle'],
-        actual_new_dual_digits=0,old_primal_current_downloaded=False),sort_keys=True,separators=(',',':')),flush=True)
+        actual_new_dual_digits=0,old_primal_current_downloaded=False,
+        completed_pairing_source_review=pairing_review),sort_keys=True,separators=(',',':')),flush=True)
 
 
 def compute(item,request,work,out):
@@ -568,6 +686,10 @@ def verify(item,work,out):
     receipt=read(bound(out,rows[INPUT]));assert receipt['input_bundle']==rows[BUNDLE]
     review=review_retained(receipt['retained_sources'],work/'retained')
     tag=expected_tag(item,receipt['retained_sources'],work/'retained')
+    if item.get('completed_pairing_source') is not None:
+        assert rows[PAIRING_BUNDLE]==plain(read(bound(out,rows[PAIRING_INPUT]))['input_bundle'])
+        unpack_completed_pairing(item,out,work/'retained')
+        review_completed_pairing(item,work/'retained',receipt['retained_sources'])
     run=read(bound(out,rows['run-receipt.json']))
     assert run['result']==RESULT
     if 'core-receipt.json' not in rows:
@@ -585,6 +707,11 @@ def verify(item,work,out):
         assert run['complete'] is False
         raise SystemExit('No final decision; all complete source-bound checkpoints remain in this artifact.')
     final=read(bound(out,rows[FINAL]));assert final['configuration']==tag
+    source_audit=read(bound(out,final['source_audit']))
+    assert source_audit['configuration']==tag and source_audit['complete'] is True
+    if item.get('completed_pairing_source') is not None:
+        assert source_audit['pairing']=={'source_group':'PAIRING',**plain(item['completed_pairing_source']['pairing'])}
+        assert source_audit['completed_original_pairing_reused_without_recomputation'] is True
     inventory=read(bound(out,final['stage_manifest']))
     assert inventory['complete'] and inventory['configuration']==tag
     for row in inventory['files']+inventory['current_checkpoints']:

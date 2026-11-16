@@ -395,7 +395,8 @@ class Job:
             "original_map_degree": "1206", "field": self.field.description,
             "normalization_free_column": FREE, "unknown_shape": [128, 280],
             "rational_unknown_dimension": 35840, "square_L_output_shape": [1234, 1186, 140],
-            "basis_integer_scale": SCALE, "strategy": STRATEGY}
+            "basis_integer_scale": SCALE, "strategy": STRATEGY,
+            "completed_pairing_source": self.item.get("completed_pairing_source")}
         self.latest = None
         self.R, self.K = self.load_original_coefficients()
         self.F = self.load_original_rows()
@@ -469,9 +470,58 @@ class Job:
         return fmpz_mat([list(row) for row in zip(*columns)])
 
     def coefficient_pairing(self):
+        previous = self.item.get("completed_pairing_source")
+        if previous is not None:
+            root = self.args.retained/"PAIRING"
+            assert previous["result"] == RESULT
+            assert previous["core_sha256"] == "969201b943bf7591baee92c168546b9992e59b94e1b5b1b2304732b85c052407"
+            manifest_path = root/"full-outputs-manifest.json"
+            assert manifest_path.stat().st_size == previous["manifest_bytes"]
+            assert sha(manifest_path) == previous["manifest_sha256"]
+            manifest = read(manifest_path)
+            assert manifest["result"] == RESULT
+            entries = {row["file"]: plain(row) for row in manifest["files"]}
+            assert len(entries) == len(manifest["files"]) == previous["manifest_file_count"]
+            entries["full-outputs-manifest.json"] = spec(manifest_path)
+            files = previous["files"]
+            assert len(files) == 6
+            assert fingerprint([files[key] for key in sorted(files)]) == previous["selected_files_sha256"]
+            for key, row in files.items():
+                assert key == row["file"] and Path(key).name == key and entries[key] == plain(row)
+                assert spec(root/key) == plain(row)
+            run, core, public = (read(root/key) for key in
+                ("run-receipt.json", "core-receipt.json", "public-actions-input.json"))
+            assert run["result"] == core["result"] == public["result"] == RESULT
+            assert str(run["workflow_run_id"]) == str(previous["run_id"])
+            assert run["source_commit"] == public["source_commit"] == previous["source_commit"]
+            assert run["core_receipt_sha256"] == files["core-receipt.json"]["sha256"]
+            assert core["source_sha256"] == public["core_sha256"] == previous["core_sha256"]
+            assert public["wrapper_sha256"] == previous["wrapper_sha256"]
+            assert not run["complete"] and run["process_exit_code"] == 1 and not core["complete"]
+            assert core["actual_new_dual_digits"] is None and core["configuration"] is None
+            assert public["expanded_sources"] == self.item["retained_sources"]
+            receipt = read(root/"retained-inputs-receipt.json")
+            assert receipt["retained_sources"] == self.item["retained_sources"]
+            row = plain(previous["pairing"])
+            assert files[row["file"]] == row
+            data = read(root/row["file"])
+            assert data["complete"] is True and fingerprint(data["configuration"]) == previous["configuration_sha256"]
+            expected = dict(self.tag)
+            expected.pop("completed_pairing_source")
+            expected["source_sha256"] = previous["core_sha256"]
+            assert data["configuration"] == expected
+            assert data["ordinary_coefficient_transpose_not_trace_or_Hermitian"] is True
+            assert data["integer_unimodular_pairing_and_full_inverse_identity_verified"] is True
+            assert data["original_t_modulus"] == [str(x) for x in self.field.gt.coeffs()]
+            shape(data["J"], 20, 20)
+            shape(data["J_inverse"], 20, 20)
+            self.pairing_reference = {"source_group": "PAIRING", **row}
+            return data
         name = PREFIX+"coefficient-pairing"
+        self.pairing_reference = None
         cached = self.cached(name)
         if cached:
+            self.pairing_reference = spec(self.path(name))
             return cached
         jj = [[int(self.field.Tred[r+s, 19]) for s in range(20)] for r in range(20)]
         lower = [list(reversed(row)) for row in jj]
@@ -488,6 +538,7 @@ class Job:
             "ordinary_coefficient_transpose_not_trace_or_Hermitian": True,
             "integer_unimodular_pairing_and_full_inverse_identity_verified": True,
             "original_t_modulus": [str(x) for x in self.field.gt.coeffs()]})
+        self.pairing_reference = spec(self.path(name))
         return self.cached(name)
 
     def exact_target(self):
@@ -533,7 +584,7 @@ class Job:
         assert all(value is not None and len(value) == 2 for value in ee)
         ez_index = cm.get_spec(cert["exact_eZ"])
         assert ez_index["columns"] == D and ez_index["integer_scale"] == SCALE
-        assert ez_index["exact_K_basis"] == "1,s; s^2=-3" and ez_index["eZ_computed_in_characteristic_zero"]
+        assert ez_index["exact_K_basis"] == "1,s" and ez_index["eZ_computed_in_characteristic_zero"]
         ez = [None]*D
         for item in ez_index["blocks"]:
             self.budget()
@@ -584,7 +635,8 @@ class Job:
                 [branch["source"] for branch in self.operator.branches],
             "old_prime_inverses_read_without_recomputation": True,
             "A_inverse_over_Q_computed": False, "old_primal_current_consumed": False,
-            "pairing": spec(self.path(PREFIX+"coefficient-pairing")),
+            "pairing": self.pairing_reference,
+            "completed_original_pairing_reused_without_recomputation": self.item.get("completed_pairing_source") is not None,
             "exact_target": spec(self.path(PREFIX+"exact-target")),
             "original_exact_129_real_rows_read": N,
             "new_dual_precision_begins_at_one": True})

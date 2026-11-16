@@ -2,7 +2,7 @@
   "job": {
     "budget_minutes": 300,
     "core": "R787_cleared_dual_CM_value_acceptance.py",
-    "core_sha256": "969201b943bf7591baee92c168546b9992e59b94e1b5b1b2304732b85c052407",
+    "core_sha256": "bad9741493b550b0d3543ec953642c2b2f11f30da4433c9346f0c3215d415323",
     "field_core": "R781_original_Laurent_prefix.py",
     "field_core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
     "io_helper": "R824_public_original_global_polar_generators.py",
@@ -76,8 +76,66 @@
     "try_reconstruction_at_start": true,
     "workflow": ".github/workflows/serre-R787-cleared-dual-CM-value.yml",
     "wrapper": "R787_cleared_dual_CM_value_public.py",
-    "wrapper_sha256": "611e8ad8670f7c2622130638d398e366d5855fe00875ed09c57d2247fa397d23"
+    "wrapper_sha256": "5388274c6425e66e6c3d2d8d1d41b5a4a59f7787479695970ede670e0091b32f",
+    "completed_pairing_source": {
+      "result": "R787-original-cleared-dual-CM-value-acceptance",
+      "run_id": "43787626643",
+      "source_commit": "1abe47786bd30a2c5f58363ce283e783d797d2c0",
+      "core_sha256": "969201b943bf7591baee92c168546b9992e59b94e1b5b1b2304732b85c052407",
+      "wrapper_sha256": "611e8ad8670f7c2622130638d398e366d5855fe00875ed09c57d2247fa397d23",
+      "artifact_id": 14190707821,
+      "artifact_name": "serre-global-R787-cleared-dual-CM-value-43787626643-1",
+      "archive_bytes": 332476787,
+      "archive_sha256": "674026f6d746e6324a2ad43b90ed32d6fee7e8efbbf6d3a63c95e638d2132487",
+      "expected_conclusion": "failure",
+      "manifest_bytes": 1056,
+      "manifest_sha256": "f9c75b8338aa38a82e3665f9f8bc4529cdcf240ff670401e9fe5f3ab3685384e",
+      "manifest_file_count": 7,
+      "configuration_sha256": "a05c236e2fee6861d9361d4dda5ea78ed2bd41c6ec3499cfab3db8c85fc9e79c",
+      "selected_files_sha256": "4c48efc28ef586aec57fc7dbf9047586c1ca3c69f8bd3db0575b42123387ec73",
+      "files": {
+        "R787-cleared-dual-coefficient-pairing.json.gz": {
+          "file": "R787-cleared-dual-coefficient-pairing.json.gz",
+          "bytes": 4629,
+          "sha256": "b384a33166820240d22205dd307b4d93b243b02b6dec8a7426967cc4e2072c26"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 477,
+          "sha256": "34a53f739a3fcd69b0debd066dd64a2b9ba3b0d4951be42eb646d7049e572745"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 1056,
+          "sha256": "f9c75b8338aa38a82e3665f9f8bc4529cdcf240ff670401e9fe5f3ab3685384e"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 263644,
+          "sha256": "dc40937805a5d17a0e4d5cb4a3ae7a3e8dc9f5c62ba6e17f3412fa0f52fb2d2c"
+        },
+        "retained-inputs-receipt.json": {
+          "file": "retained-inputs-receipt.json",
+          "bytes": 483233,
+          "sha256": "6c987b863483c09146e5c7a674580bb8d91b8f1d9eb74b1adfe8b8c493f74865"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 521,
+          "sha256": "e3183b0faa7f88abdd6c61eaf3776a6ec232d6460b1e12d05982e97208af1344"
+        }
+      },
+      "pairing": {
+        "file": "R787-cleared-dual-coefficient-pairing.json.gz",
+        "bytes": 4629,
+        "sha256": "b384a33166820240d22205dd307b4d93b243b02b6dec8a7426967cc4e2072c26"
+      },
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      }
+    }
   },
-  "rules_last_read_commit": "5f7aae7e059f72225b1d67d9eb41f4d555841825",
+  "rules_last_read_commit": "f699023d15daacb7d7e176f52da41899d69ae26c",
   "session": "serre-public-astra-20261115"
 }

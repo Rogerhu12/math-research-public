@@ -1,6 +1,6 @@
 # 未解决的问题
 
-最新完整前态逐字保于[一阶见证前open](notes/2026-11-16-open-before-first-jet-witness.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
+最新完整前态逐字保于[配对继承前open](notes/2026-11-16-open-before-dual-pairing-reuse.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
 
 **直接复用已成输入**：[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原同点非挠；[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原五Hom点/比较值；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)D两生成元与Ey八生成元/真实1111minor、两图及完整690 RHS。旧算术不重，实下降I_EyR=(y²−b)I_Ey³正乘。全局五极理想、c0刚性化与高度继续；原global y U.1已定义，CM点不能代全局函数。
 
@@ -121,16 +121,8 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 [全局表达式执行契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4冻结八组真源；原κ000、完整F1234/W34/C12与S51234、按需2420/S5/Krylov单位解、一次全局导数和五组三minor/真Norm。R845八生成元是原完整单位解数学叶，保全部refs，不拿模kernel当Q系数；只产准确组合DAG，未物化理想格/标准Jacobian代表/刚性化/高度。
 
-**新dual已激活参数**：coref5fff443/wrapper611e8ad8/request2a96f567，公开workflow serre-R787-cleared-dual-CM-value，300min、reconstruct每8位、首位尝试、无新增位数上限。真实1256 R787+134 R781+4 R786+87 CM共1481源及旧carrier1372成员已按最终wrapper纯IO核定；新RHS从1位，仅严格RR/full35840准确乘回后Δ接受或拒绝q，尚无实际新dual结果。
+**当前执行接口**：具体run/source及实际状态见HANDOFF；本次完整归档逐字保旧启动、失败及其输入，不重算已成数学。全局DAG八来源2709件已经通过真实读取，prepare的完整M+维数schema待精准修正；原c0不分歧/κ/d首项纸证d29ef204已成，35源公开consumer待激活。
 
-**原普通Taylor全子式捷径已排**：[短边界](notes/2026-11-16-sigma-original-Toeplitz-minor-boundary.md)e3ba7a28直接用已成R698原41数组及R770的g=−Vf/2。rows{0,1}/cols{3,4}的四项全unit但det697=17·41；不证明真正primitive/Legendre掩码所需的指定minor为零，不改变同h单位问题，无新素数或数学计算。
+**原清转置第二次启动修复**：[真实eZ标签与已成配对继承](notes/R787-cleared-dual-second-start-eZ-label-and-pairing-reuse.md)。run43787626643/source1abe4778已成原J/Jinverse 4629B/b384a331，随后因原index实际标签“1,s”与block标签不同退出；corebad97414/wrapper5388274精准适配并将六件旧阶段作PAIRING外源保原tag/字节继承。1481输入与Θ/Dixon/RR/full35840/Δ不变；新dual从1位，旧518非其精度，未接受或拒绝q。
 
-**全局原五极理想表达式已启动**：[方法](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4，core995a1298/wrapper5f963b47/requesta07fca34；八来源实际2709件，完整原F/W/C/S5、R845准确八生成元外叶与R791真σ。仅按既证U.1作八个所需单位解、全局可分导数、原三minor及真Norm的有限组合DAG；不重旧Dixon/大逆/前缀，不宣称标准Jacobian代表、η零、c0刚性化或高度。具体run见HANDOFF。
-
-**原清转置启动修复**：[实际错误](notes/R787-cleared-dual-first-start-integer-reader-fix.md)run43785814509在原κ4311位整数读取触Python4300位上限；1481输入通过但无新数学stage。仅main加入sys.set_int_max_str_digits(0)，core969201b9、wrapper611e8ad8不改，resume null重新触发；不是RR/原q拒绝。全局consumer首run43787110788则在纯IO断言失败、core尚未运行，按真实来源诊断继续。
-
-**原c0首项已证明、数值待公开消费**：[完整纸证](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)d29ef204从R838 P0∉D及原K[T]简单模推出全部非零原Hom在c0不分歧。原t=a³下，六V=U/E6值/一阶仅用末四M6坐标与Φ0/Φ73；原λ³=108W(0)，五R_j准确阶14(p−q)，κ_j=N(108W_f)^(2p)/N(108W_g)^(2q)及d_j=−(qTr(W_g′/W_g)−pTr(V0′/V0))/2。全常数/真σ/正三同源/负理想类号保留；只是指定主函数比较的原纤维标量和首单位项，未完成标准Jacobian/规范theta二挠/Poincaré刚性化/height。旧M6/CM/大矩阵不重算，实际六值/范数/迹在本公开Actions继续。
-
-**原全局来源读取修复**：[实际R791旧ZIP差异](notes/R839-global-polar-old-R791-ZIP-contract-fix.md)首run43787110788未入core；前七源全过，原R791仅9输出+manifest、无reference。wrapper39bef619只对固定原身份严格适配并补traceback，最后一组实际IO通过；core995a1298/2709来源全不变，重新触发，未预填全局结果。
-
-**五原比较一阶非零的有限检验已启动**：[方法](notes/R792-original-comparison-log-jet-padic-witness-method.md)d55f377e，corea3d04929/wrapperea579ada/request69e1ae86。沿R846原733节点/五logjet根，复用R843原branch0已成518位根与f球、R840四完整14坐标响应及R791真σ；270原来源/载体a7ccfe9b已纯IO核。只对新节点上下文求绝对精度球，零球或分母不明仅未定，非零球才证明该D_j及原R_j′非零；不重Hensel/CM/Dixon/既成数学，不声称高度/A.1/全p。实际run随后记HANDOFF。
+**原c0首项与五比较一阶**：[c0完整纸证](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)保原t=a³、六V末四行/Φ0/Φ73、λ³=108W及五ord14(p−q)、真实κ与d；仅指定帧比较纤维，非完整刚性化。原五D_j有限见证run43789012126已实际全得估值0/A518，五R_j′非零的正式结果正在登记；真实高度、标准Jacobian、A.1及全p仍缺。原Toeplitz零子式边界e3ba7a28及中央二标签9560403b全保，不拼不同h。
