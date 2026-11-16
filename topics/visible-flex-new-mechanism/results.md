@@ -118,3 +118,5 @@
 - [真正58全后缀34控制的实际迭代上限和准确盒失败](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：**已闭账**。SLSQP9/false/120iter，盒58/61及准确norm失败，0预测/actual，仍58。184.71003744799998秒闭至3231.8129525510003秒/147原full值，另142新两网物理点/120J。现有日志只3条尾记录，旧大MODEL/J/trace正文不可复用；下一释放原完整51系数，不重启旧scope。
 
 - [R545 完整快系统的振子能量转移与实际端点IFT](results/R545-complete-fast-height-loops-and-the-signed-oscillator-energy-transfer.md)：**已证明**保δA/δ²T的一阶振子和两真bump末端右逆；零入能闭高度回路的二阶ρ非负，振子返回只清该阶。原p1进入正、t1进入负，第三面积同步保；非零初能量的负j接口另列明确起点条件，不授跨χ拼接或M0。
+
+- [R546 同一规范真实二次矩脉冲及单坐标准确归零](results/R546-real-quadratic-matrix-pulses-and-an-exact-same-gauge-zero-coordinate.md)：**已证明**完整M2秩一幂零表、两正则图的有限真实矩增量与四预定读出中一条的双号；端时间IFT给任意有限单目标，保k>2及净负p1。原history全保，t1速度成本仍非正，其余矩/返回门未闭。
