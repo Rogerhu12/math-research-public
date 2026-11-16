@@ -16,7 +16,7 @@
 
 [p32完整线首实际](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)run43804573954/sourceab1ba331a1d376d61e6e9f9b7f29f2bb9221a1e2：从52同p32的一次完整first-jet cache/1scalar/62query得到alpha≈.5421904710711004；唯一实际pair原28门/163盒真，接受53，η.2660182947853381→.26601514422985384，降3.1505554842770067e−6。κ细57.9992694544513、target13/50仍false；5新fine soft行使池4448/4549 v13/14。其完整53向量与门都在原stdout，来源/指纹/有限容差边界保note。
 
-新科学81.445727845秒（含3case dev），祖先总1406.2512530919998秒/126值；UTC job约530秒另列。旧32cone/64HiGHS仍封存；本次生产0solver/J/factory，完整线已完。52 cache不能当53模型；下一基于真实53及新峰构造完整多峰方向、保全网gap/原物理提案/真正验收的不同子问题，未执行。不能从这次有限改进外推精确最优或主门收敛。
+新科学81.445727845秒（含3case dev），祖先总1406.2512530919998秒/126值；UTC job约530秒另列。旧32cone/64HiGHS仍封存；本次生产0solver/J/factory，完整线已完。52 cache不能当53模型。[新请求](computations/request-true53-projected-direction.json)现封存212来源/184py并启动唯一公共Actions：新600秒含3case开发、53完整首阶模型、1投影/≤12prox/≤24全网分离；保全部gap/原hard与163盒，合格后至多1scalar/64query/3实际pair。原模型/cache只原stdout，消费首次真实输出后再继续，不宣已过dev/有方向/改善。不能从有限改进外推精确最优或主门收敛。
 
 ### 仍须支付
 

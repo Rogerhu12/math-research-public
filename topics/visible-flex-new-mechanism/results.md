@@ -339,3 +339,7 @@
 
 
 - **R458：三真实同尾角色及两宽条件精确检出D4。** [完整十三列、实际suffix恢复与有限读出](results/R458-three-real-suffix-roles-and-two-widths-detect-the-third-ordered-invariant.md)（15727B/SHA4ac377a98375daac7504617ae168eb7c233b62c780c72813e2599b43304caa13）。三low同一个真实high suffix经degree7与三δ插值迫逐n镜盲；两个实际s²差在全部旧七列下无κ例外地杀B1，结合共同c=1,x提升给DkerEval=Pol≤3，商恰D4/5/6并有显式D4读出。两宽/每宽3role+8copy是前提，当前可全同宽，查询仿射闭包不冒物理库，0新执行/旧rank。
+
+### true53 新完整多峰投影入口（2026-11-16，尚无实际结果）
+
+[设计](notes/true53-complete-grid-maximin-projection-direction-design-20261116.md)与[请求](computations/request-true53-projected-direction.json)封存212来源/184py；8新模块保原53物理点、原hard/163盒/guard及完整网格gap，G半空间投影真实计费，合格后才scalar/原14门试探。新600秒含3case开发与输入/失败；旧200来源、32cone/64LP及旧限额不重开。所有新数组只原公共Actions stdout；当前不宣任何新实际通过或下降。

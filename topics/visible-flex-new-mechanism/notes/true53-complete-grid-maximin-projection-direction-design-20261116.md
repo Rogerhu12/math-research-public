@@ -193,7 +193,7 @@ $$
 
 所以$G$严格正定。原154 tangent块为单位块，只有height五维块需非平凡小矩阵作用；全部九个height物理贡献仍在$K^\top K$中。无需引入大dense metric Jacobian，也不为“可逆”偷偷加jitter。小块若数值分解失败，应报告失败，不能改变物理映射。
 
-令 $\mathcal D$ 为(2)及全部原hard域的闭凸交。方向solver外层使用
+令 $\mathcal D$ 为(2)及全部原hard域的闭凸交。**本节的投影存在性、单调式与固定点定理均以$\mathcal D$非空为前提。guard可能排除零步，并不授该交非空；有限预算内没有得到全约束可行点，只能报告求解未完成，不能据此宣告不可行。** 方向solver外层使用
 
 $$
 y^{(k)}=w^{(k)}+\tau e_s,\qquad
