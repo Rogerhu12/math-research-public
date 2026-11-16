@@ -405,3 +405,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R499 完整cap加权比较与更强高度障碍](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)：**已证明**R/Rc递减及带d²权的严格比较，五门真零必3/5<H<H*，H*∈(13/7,67/36)由明确三次根指定；同时给完整ReE身份，剩余区间联合符号未付，非主完成。
 
 - [R500 异平移正割中心的真实前缀差商](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)：**已证明**三真中心的共同规范/完整source消去和R70可实现非零值；N−2相对odd门可独立配平，完整whole-path与主几何未付。
+
+- [R501 当前168族的精确满列秩与非固定曲率峰](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)：**已证明**完整170有限A有det±1子式，正权Newton正规矩阵精确正定；两辅助变量可消，56κ峰不是共同固定区，未授条件数/可行下降/主reach。

@@ -173,3 +173,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:26:31 UTC：R500异平移三中心前缀差商已证明
 
 [R500](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)对任意真紧输入以Σλ=Σλω0杀同一全局w及source；原三矩/全W/rank-one圆给真实三中心值−(ω3−ω1)t(ω2−ωblind)∫g″⁴。R70有限桥保实际中心半积分/端germ/先桥后共同窗口，不搬旧profile记录；N−2相对门具有准确对角坐标，亦可取t_j0消。下一步优先找非恒前缀与非对称whole-path使所有差门和共同odd/even/连接段K同时过，不能只增加障碍。主完成仍未付。
+
+## 2026-11-16 10:28:31 UTC：R501精确满列秩与非固定曲率峰
+
+[R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)由原H的±I5子块构造M的±I168及完整有限A的det±1子式；正slack/dual下Newton正规矩阵精确正定，浮点病态/可行域/有限未收敛仍须读原记录，不添gauge约束。rho/h可准确消为凸分段线性目标，但不能省全网分离。56κ峰s=.78严格在新body内，完整高度位置/径向一jet非零，排共同固定区解释；未证实际dκ非零或满足原硬域的下降。正在运行的joint168不据纸证预报成功，主reach/同g全时门继续欠。
