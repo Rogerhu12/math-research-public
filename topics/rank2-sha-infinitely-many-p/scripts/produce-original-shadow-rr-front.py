@@ -130,7 +130,7 @@ def make_field(prime, terms):
     T0 = kT.gen()
     kTV = PolynomialRing(kT,"V0")
     V0 = kTV.gen()
-    resultant = sum((k(c)*T0**e[0]*V0**e[2] for e,c in res.dict()),kTV.zero())
+    resultant = sum((k(c)*T0**e[0]*V0**e[2] for e,c in res.dict().items()),kTV.zero())
     cyclic, remainder = resultant.quo_rem((V0-T0)**18)
     assert remainder == 0 and cyclic.degree() == 306
     assert cyclic.leading_coefficient() == 1
