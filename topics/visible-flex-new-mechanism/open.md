@@ -200,3 +200,7 @@ R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；�
 ### true53全已付有限主问题的新中心路径
 
 [设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)完整证明d=rγ与旧gain的正可逆等价、原全盒/guard重建、primal/slack/dual Newton方程和带外盒误差修正的dual上界。一次性使用原MODEL保存的5743soft/2937hard及五新gradient；这是未解的原始可行有限问题，不再跑旧40行Hildreth。拟一次有限LP、96迭代/192Newton系统/240秒，0新J/JVP/geometry/actual，所有成本另计祖先1594.440227096秒/128值。先执行并消费；正有限gain只为下一确切方向完整分离的输入，不授全网或actual。没有重新求来源模型/旧开发，全部原始门保留。
+
+### R464：原九行与seed已由同一真period核支付
+
+[R464](results/R464-nonzero-cubic-mothers-and-complete-nine-row-same-period-gauge-control.md)在同一次R455初选中增加开条件M3=∫r³≠0：穿零窗D(M3,M5)rank2、周期四正常修正O(N^-1)、F★/20根C2小均保；不改旧冻结母。对同一最终成本已有两真紧period和最高P2零，选统一degree11逆且保−1/(2τ)/incoming/gap，原11+7包装使全九行残差含sin²并无odd项。前三行六真母列、后六平台真表及(D/sin,C+D)给全相位光滑右逆，几何只排1−κ⁴−4ε=0；最后R461付三合法矩不动port。故不再留九行rank/seed Smith未知。仍欠actual全成本增强/最高d自由度、其它s段同规范、高阶与最终几何；signedV#可接全部13不等actual。

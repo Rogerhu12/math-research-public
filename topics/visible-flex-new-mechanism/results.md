@@ -364,3 +364,6 @@
 
 
 - **true53新有限主问题：全已付行的原始–对偶中心路径。** [等价变换、Newton方程、原单位门与dual界](notes/true53-all-paid-finite-master-central-path-design-20261116.md)（10091B/SHA6f7c3e97566ea2baeb4d77f3b7fcd568bb36e9e5c0207cf29f5073bb4217edff）。只复用原stdout模型，拟一次新的实际有限求解，不重开旧投影/64/32；未执行，有限正gain不授完整网格或实际点。
+
+
+- **R464：非零三次母矩与全九行同周期光滑规范。** [同起点M3、统一真逆、平台表与seed因子](results/R464-nonzero-cubic-mothers-and-complete-nine-row-same-period-gauge-control.md)（25138B/SHA797d49a0960e6db78b446a9cbcefa1e96abe5008d7dee468fa9ab1c15445be6c）。保q四式/F★/20根/唯一cap，11+7包装清全九行odd；三低行及六平台有显式光滑右逆，R461最后合法化。条件为同一完整成本的真range/最高P2已付；不授actual或其它段。0新执行。
