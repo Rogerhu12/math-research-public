@@ -1,0 +1,84 @@
+{
+  "format": "r150-original-ten-generator-border-slp-inputs-v3",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-ten-generator-border-slp-and-critical-presentation-v3-789f.py",
+    "blob": "337fb00ca507811b4669a9c6b1a11cab03cf4505",
+    "bytes": 32120,
+    "sha256": "e52fefdddefc5142c7d0727039ab431443481c8f0818a09832b8c468a712dbff"
+  },
+  "inputFamilies": [
+    {
+      "role": "low",
+      "path": "complete-original-twelve-gradient-low-normal-forms.json.gz",
+      "bytes": 1921,
+      "sha256": "ca4c3d98675ab404cb2b8e05c8ddacd32c02d936f751cf05fe572eb57d510e48",
+      "logicalSha256": "d58cf0f99c7d2fee7087ca76297d30e70dd4b8ba830ab7b42709b7ab8c6ccc52",
+      "binding": "8fb21996da88d9abaa7d8a0c96208129603808d7c5c1e03b9acf6caa1dca6545",
+      "recursiveFiles": "fiveGradientModel plus six completeVerifiedNormalFormRows 6 through 11"
+    },
+    {
+      "role": "leading",
+      "path": "complete-original-eleven-quadratic-leading-model.json.gz",
+      "bytes": 1653920,
+      "sha256": "005484500176a294a3a14788843f1ad50031f2e2bce3e599c512e45ac5dacbb6",
+      "logicalSha256": "da5839f34930081d56df84d9d803daf2b226ac98de8364135463f6f94b6db1d2",
+      "binding": "41ee91c353da2b8a33bbb631d46bc48e11709dcf42e131ebf4d417c7a3e98b63"
+    },
+    {
+      "role": "six",
+      "path": "complete-original-six-mean-ten-generator-model.json.gz",
+      "bytes": 1395,
+      "sha256": "bd300391aff8f1f95860cbf614feb6a53f8a16c2d855b5fdf1df178d7337f061",
+      "logicalSha256": "9961cbd32e7dc693bdfb1ab5819ca419372d6e297ca5af23149ae480d6dac4a1",
+      "binding": "2c120983a234d63f52e19d0f81a8f486b3d5dad5ca010f1ad74ebe9c7045e7f0",
+      "recursiveFiles": "constantUnit plus all six complete mean rows; each large mean row is streamed by monomial pair"
+    },
+    {
+      "role": "verified",
+      "path": "complete-verified-original-cubic-border-sources.json.gz",
+      "bytes": 2679,
+      "sha256": "e5277e55afd111ce7038aead9989d1d1a236adae38edd7962cbd3548f8fe569e",
+      "logicalSha256": "9d492e238da77ee3610bad61987bc8442f9caac3e39c91226c7c83a2b4c7168c",
+      "binding": "bb79e9288b5fe0c033b2a3c51c62938b3cb9ae50c482ff30ab3c7e72af90930f"
+    },
+    {
+      "role": "candidates",
+      "paths": "all16 completeVerifiedSourceColumns from the verified model",
+      "binding": "883430390f24f79cf127df1df44645f091b345372ef2b36915c212c1787ae35e",
+      "verification": "each complete compressed/logical SHA and all35 E coefficients; Dixon is not repeated"
+    }
+  ],
+  "fieldCubic": [
+    52565262336,
+    6080833024,
+    -43931504,
+    3725
+  ],
+  "semantics": {
+    "momentGradients": 11,
+    "meanGradients": 6,
+    "bellConstraint": "sum yi wi - 1",
+    "basisMonomials": 10,
+    "sourceBorderColumns": 50,
+    "finitePresentationShape": [
+      10,
+      68
+    ],
+    "commutatorColumns": 100,
+    "parameterInverses": false,
+    "representation": "exact shared arithmetic DAG; original coefficient polynomial references retain all monomials",
+    "freenessOrEmptinessClaimed": false
+  },
+  "limits": {
+    "seconds": 180,
+    "memoryMiB": 4096,
+    "outerSeconds": 240
+  },
+  "retention": {
+    "largeMathematicalOutputsTemporaryOnly": true,
+    "repositoryContainsSourceParametersIdentityAndOutputHashesOnly": true
+  }
+}

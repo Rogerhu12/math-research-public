@@ -140,3 +140,7 @@
 
 
 - **R271确定大辅助方差的共同源严格反馈行收缩（2026-11-16）：** [完整原度量证明](results/R271-appendix-large-auxiliary-variance-common-source-row-contraction-and-physical-return.md)取t=xS而不随forcing/cut改参，H0≤Hi≤e^(6/x)H0；x≥64/h≤2x时Σ(Ai*G0Ai+Si*G0Si)≤36G0/x，故固定C/H0的全部反馈词平方能量按(36/x)^k衰减。保原ε0=Σj≥1Ej≤Δ²，全部loss≤16ε0/x、物理EiFi行≤25ε0/x、首恢复ZEHi a1行≤41ε0/x，两个恢复反馈各≤16ε0/x；指定creation投影交换原权合成≤30√(Sε0/x)。没有把固定模型树与真实MP/顺次变头等同；辅助方差占x/(x+1)，移除aux仍须独立支付。
+
+
+
+- **R150原完整临界商的10×57有限线性presentation（2026-11-16）：** [完整原source及双向同构证明](results/R150-appendix-complete-original-ten-generator-finite-critical-presentation.md)实际构五个10×10乘法代表、50原du/dw来源、100交换子来源、六完整mean及Bell；真流式v3实34.887秒/峰值141968KiB，105774精确共享节点，保全部34原文件与参数。实际输出68列，十一G列按原二次source恒等严格落在50border列模内，故取57原列给coker≅原B1全临界商，全部u≤1；九字面路径证明循环及双向同构，无自由性/固定稳定步数假设。根通读源码并独核34双SHA、978引用及两组336完整source评值；数学证明仍为原常数身份的通用精确代入，未称展开全部巨大参数系数或判空。前两资源137保留。

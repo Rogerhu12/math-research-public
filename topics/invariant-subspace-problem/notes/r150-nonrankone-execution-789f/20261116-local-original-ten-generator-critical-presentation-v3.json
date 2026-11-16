@@ -1,0 +1,152 @@
+{
+  "format": "r150-local-original-ten-generator-critical-presentation-execution-v3",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-ten-generator-border-slp-and-critical-presentation-v3-789f.py",
+    "blob": "337fb00ca507811b4669a9c6b1a11cab03cf4505",
+    "bytes": 32120,
+    "sha256": "e52fefdddefc5142c7d0727039ab431443481c8f0818a09832b8c468a712dbff"
+  },
+  "inputs": "notes/2026-11-16-r150-original-ten-generator-border-slp-inputs-v3-789f.json",
+  "historicalFailures": [
+    {
+      "version": 1,
+      "sourceBlob": "355ad83e04496a5b3065721a40d0a0edef673a1a",
+      "sourceBytes": 27241,
+      "sourceSha256": "c3cf8619b78d6fa80c87648a3928e0ff0aa6e01739ae582e5bbcd4eab7ecdd42",
+      "startChunk": "81cdd7",
+      "sessionId": 94184,
+      "completionChunk": "857a2d",
+      "exitCode": 137,
+      "finalReceiptExists": false,
+      "lastPrintedPhase": "all16-actual-cubic-sources-refilled-as-exact-parameter-SLP",
+      "lastPrintedElapsedSeconds": 35.18835904500156
+    },
+    {
+      "version": 2,
+      "sourceBlob": "1ad7f765056d2f20da201b2e10470b07f0916fa2",
+      "sourceBytes": 27563,
+      "sourceSha256": "4a2ac4bf81c40fcc4f609732306df943d2e98e1596f9782d0949e71c8a52b37c",
+      "startChunk": "ddd1da",
+      "sessionId": 34123,
+      "completionChunk": "9ee597",
+      "exitCode": 137,
+      "finalReceiptExists": false,
+      "lastPrintedPhase": "complete-original-mean-reference-01",
+      "lastPrintedElapsedSeconds": 30.238337854993006,
+      "lastPrintedMaxResidentKiB": 228092
+    }
+  ],
+  "actual": {
+    "environment": "local explicit workdir /",
+    "startChunk": "d40c3b",
+    "sessionId": 64508,
+    "completionChunk": "7f181a",
+    "completedUtc": "2026-11-16T06:24:24.806547+00:00",
+    "exitCode": 0,
+    "elapsedSeconds": 34.88705002300412,
+    "maxResidentKiB": 141968,
+    "binding": "11473d55e9cf229685bcbebf59fe30fea9c2b00e8fa225bac6d3d0ca71b7ef76",
+    "receipt": {
+      "bytes": 2049,
+      "sha256": "654125e66289082b33d94836fc7a5cd782becfec5d9b2675f05d6f76bd89a303"
+    },
+    "arithmeticDag": {
+      "bytes": 634785,
+      "logicalBytes": 4405032,
+      "logicalSha256": "9a49a0740c23bfd2dd6e3d9deec51eec7290a5b40793075c706976d4a2dc81ce",
+      "path": "complete-original-ten-generator-border-arithmetic-dag.json.gz",
+      "sha256": "9d3f03d2746cfb9a1bb3f872f56822ca8136e982cfdcf0cddd666c58aa573a8a"
+    },
+    "model": {
+      "bytes": 12551,
+      "logicalBytes": 32532,
+      "logicalSha256": "e96e100317ead08232c6e4d6ef2a4dc1a33339a3909cb5e761d02983b709957a",
+      "path": "complete-original-ten-generator-critical-presentation.json.gz",
+      "sha256": "f008cb6bfbb51d0efbe929399b18ef2d7384cb7739b24dc942b25b016211259c"
+    }
+  },
+  "scope": {
+    "finitePresentationShape": [
+      10,
+      68
+    ],
+    "originalBorderSources": 50,
+    "originalCommutatorSources": 100,
+    "fullParameterIdentityMethod": "exact universal substitution from verified fixed constant identities and complete original parameter polynomials",
+    "expandedParameterCoefficientProductsClaimed": false,
+    "stableClosureComputed": false,
+    "emptyQuotientClaimed": false,
+    "exactDerivedSubpresentation": {
+      "shape": [
+        10,
+        57
+      ],
+      "zeroBasedOriginalColumns": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "newRunClaimed": false,
+      "originalGeneratorColumnsRedundantByExplicitQuadraticSourceIdentity": true,
+      "uDegreeAtMost": 1
+    }
+  },
+  "mathematicalArraysCommitted": false
+}
