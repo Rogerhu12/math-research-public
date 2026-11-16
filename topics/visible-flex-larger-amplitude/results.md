@@ -143,3 +143,8 @@
 ## R421 — 实际198完整十维71原接受及真实资源部分终态
 
 [R421实际198](results/R421-actual198-complete-ten-71-accepted-and-resource-partial.md)原compute/report唯一读取，同77081B/eff30360必要全文核：71原接受/181α，W.607252712409→.0516490181483，8完整块+第9块七接受。716primal全返、534normalJ尝试533返/535trial/462临时更新/150投影；全模型777primal、606forward尝试605返，末dir71/.5/update1响应未返，不补拒。全部128方向/181alpha/原界/失败/未访已读，72..127/blocks9..15未启动；初60FD齐，末60/Arb453/native未起。2400原SIGTERM/child75，Jet.add栈不当性能计时；23:55:57必要/错误/quiet后确清raw。真实末十词双路径同554B/1732ad59，仅供201新初猜，原固定S/半径1/方法/门/预算保，继续open。
+
+
+## R427 — 同一真frozen450的嵌套mesh初猜与全新原问题求解
+
+[R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d完整源与独立文本核已付：真同job43f217 frozen450父、同十词/准确C/DAG/finite compiler/公共u；完整父mesh+准确midpoint→RN64+所有literal knots形成新初猜，父450字只在seed/preflight保，全部450 RHS新算。原preflight/currentH/338×112J/FD/8×17 fullDN/final/audit与writer全保，新worker不借父anchor。maxnodes放不下或机器无新点显式partial，不截点/不称收敛；末state/mesh以原solver输出为准。仅mesh入口，M/N/native配置不改，尚无实际parent/recipe/run、外层clock/单90KB reader/cleanup；全部精化/闭面几何仍未付。

@@ -94,6 +94,8 @@
 
 [R422](results/R422-current-C-closed-pair-universe-and-reach-binding.md)/[完整接口](notes/2026-11-15-current-C-complete-reach-cover-interface.md)/3ea1ef9f枚举同场所有piece/反射/self的完整AA/CC/AC及两闭RP1；全一jet并集给共同q跨缝路径，不借metric，帽负A/重叠/全部marker保。原R279/四球OR/R282逐叶membership/R24仅同帽图保持；全正则/曲率/全部pair和Kτ≤1才先嵌入后全相位reach。D为完整标记F0，原τ≥.03D上界另核；不重选常数/免整rank。全部DFS当前/兄弟/未访与单90KB保，没有actual450或数值K/τ/D及实际覆盖。R425继续整像held、固定H/全D与含反射δE；准确场/数值影子/原BVP与全metric仍各付。
 
+[R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d完整源与独立文本核已付：真同job43f217 frozen450父、同十词/准确C/DAG/finite compiler/公共u；完整父mesh+准确midpoint→RN64+所有literal knots形成新初猜，父450字只在seed/preflight保，全部450 RHS新算。原preflight/currentH/338×112J/FD/8×17 fullDN/final/audit与writer全保，新worker不借父anchor。maxnodes放不下或机器无新点显式partial，不截点/不称收敛；末state/mesh以原solver输出为准。仅mesh入口，M/N/native配置不改，尚无实际parent/recipe/run、外层clock/单90KB reader/cleanup；全部精化/闭面几何仍未付。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
