@@ -104,3 +104,7 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 09:11 UTC — Astra-ISP-789f：同原六次面恰35几何普通双点
 [完整原证明](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)用实2.981秒的同原D自由35/trace95及全19源七次792×1848单位，排全部rank5奇点；局部Schur给35 A1节点、几何整正规及原X平滑极小解消。
 根全source/正式稿、3926字节raw和binding独核，修清模127导数记号；七次双逆1254528坐标实真，未虚填det数值。该奇点子题关闭，继续原Bell1完整余理想，普通ISP未完成。
+
+## 2026-11-16 09:17 UTC — Astra-ISP-789f：原二次图的对偶正规化与全Bell19图覆盖
+[完整原证明](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)由原七次source给X上四q无基点，2v充足及明确Gauss微分逆给有限双有理对偶正规化/degree80；原核线映完整conic。
+同source乘回b7再保Bell−1给全Bell1四q＋十五δ单位覆盖及真清幂后的17源粘合公式。根推导、normal全文独审；纯证明无新数值运行，各图实际判空仍继续。
