@@ -6,7 +6,9 @@
 
 **[原四次核95与原E完整260/270呈示已闭](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)。** 完整$D:165\to70$满射，原$T:100\to165$的合法95子式实际det38；原E恒等$DT=0$而非field零提升，故$\operatorname{im}T=\ker D$、核95/五关系/余商0。原高40来源减$N_iC_s$后唯一低次校正落$B\langle C20\rangle$，保全部参数及原11/17来源；全部交换子在$P_1$、低列在$P_0$，完整三字降次给$P_2$稳定，至多非Bell260+Bell10=270。没有初始76=36普通B模或第一轮稳定声明，没有新270数组或Bell判空。
 
-下一原55条Koszul来源的40维商可能继续压缩原NC100；须保真正G-Koszul的零像和完整canonical校正，不抬field系数。
+**[原55条Koszul来源给E200/210完整呈示已闭](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)。** 十一原二次项独立，使55条$q_ae_b-q_be_a$在95维四次核中独立；余商40维由原100条$u_i z_s$张成。按同原行投影贪心选40并以原伴随定义系数，减真正$G_ae_b-G_be_a$零来源后canonical校正落C20，故全部NC100普通B模由NC40+C20生成。第一轮106、第二轮210，非Bell200，保原参数/11/17源和权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新实际40索引/混合单位仍待小门；不把既有field换源提升。
+
+下一只物化原40标签/混合95单位及全部原常数乘回；完整权十直接矩阵工作继续。
 
 **[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。下一完整77276×13808直接消元与原左证接口已全文审，独立native/driver待冻结。
 
