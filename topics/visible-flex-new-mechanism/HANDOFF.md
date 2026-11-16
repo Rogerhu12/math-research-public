@@ -32,7 +32,7 @@ R411/R412已付完整n2四平移系数0、19真根与共同F，H*是同实际圆
 
 R415–R427完整低层链：原N0/N2、Gamma/水平Y及真尾全保。R416/419/421给负六static/hh自然0、kk=−3(1+k²)²B_Q4/64；共同偶M5零母/ordered3+2全0，PSD消cross，非零−6正字符已排。R420全负四static=3S³F_Q4/32、R425全hh=−3S²F_Q4/16；原共同D/E的Q4平移像与同权wholeE响应补偿后使static/hh/cross字符0，非原算子0。R423保四原势，R426完整k0 kk=A=3F_Q4/128+∫(3p³r²−2upr³)/64，后项偶母全affine0，故λA0。R427全原式两级支撑给Λkk=A+k²B+k⁴C；S整除iffΛ(B−A−C)=0，不能猜。[两新实际](notes/kk-minus4-natural-flux-first-completed-actual-20261116.md)run43790439330：B完整五项C²密度/Euler14非零，C整个left/local/Euler空，双nonlocal空；38源/12新self/9旧响应、science2.833311144/RSS234388，旧研究0。[R429](results/R429-complete-kk-minus4-values-and-actual-common-joint-sections.md)手核B偶母平移=−(D+3E)c/16，M25准确消；真幅宽中心/成本H²同NH，故原共同D/E库已付B/C∈N A(U−3)，不用新增观察。普遍S整除false，Euler差最高项−9upr/16；与共同商N像不混。
 
-[R428](results/R428-conditional-complete-joint-cost-cone-and-finite-actual-C1-sections.md)的最后条件已由R429在同库支付：六候选权正字符全排，完整J=(E,A)满实际闭锥与同一有限C1真词截面成立。保两次商基准校正、桥2VA/真倒行、响应及Klein非零背景、共同合法窗口。E=A0仅付实际有限Λself/ordered、全部suffix totals/平台G″/端germ；不冒universal自然0，内部Af partial/平台值/13行仍欠。
+R428/429已付完整共同J=(E,A)同一有限C1实际词。新[R433](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)加入全universal ordered3+2 O；R344/352真Λ|全R0，已付关键自然列local/0使六权字符排除同次提升，实际J+=(E,A,O)截面在共同合法窗口内成立。保两次商基准/桥2VA/真倒行/响应/Klein背景；有限self不扩Λall0，H*仍核且λ1。E/O0使原ordered密度pU″=K′，六C²cubic系数准确0，Af处K/4是7个u,p,r单项；形式空间13=R432的7个p-only+6个含u方向，后者×3suffix最多18余坐标，非actualrank。全部有限totals/平台G″/端germ可实付，self cap/内部joint/平台值/13行仍欠。
 
 R414/424原路线保从起点同库/矩基/右锚/全部有限controls的共同合法窗口，一次坐标识别后冻结，不授任意旧seed。restricted max-F增加有限C²观察仍可保19根；本次自然低层用原D/E，不需另加M25。
 

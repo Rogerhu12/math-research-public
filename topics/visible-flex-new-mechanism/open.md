@@ -197,4 +197,10 @@ R416/419/421已排−6；R420/425的−4static/hh/cross加新kk，先同权响�
 
 全部Af点的C精确为2a_i³p_i³Σj(n_i)_j Q_j(x,r/p)，同一三个Qj属于span{1,s,xs,s²,xs²,x²s²,3x³s²−5x²s+2x}，共21生成函数。常数列由真实三响应组合取得；每包/每点不能另选系数。原完整Hd/He另保self与两个真实suffix。R431任意2m根的每根6项u,p,r,J0,J1,J2按真实wi/ξi输运，充分读全部响应列，不授一般actual self cap由六数据决定。
 
-下一继续c≠0但wholeE相消、第三对角非零而第四pure零的完整R0响应，以及当前actual cap目标的像外商。准确条件仍是−P(V)∈P(R0)；全kerJ像被包含才可连全部prototype/J校正的leading基准用同一个有限真词支付。finiteA0不能冒universal Euler0，lit正研究加入整个ordered 3+2的真实增强。即使全部内点两flux付清，真period/gap平台值/同13规范仍继续。
+下一继续c≠0但wholeE相消、第三对角非零而第四pure零的完整R0响应，以及当前actual cap目标的像外商。准确条件仍是−P(V)∈P(R0)；全kerJ像被包含才可连全部prototype/J校正的leading基准用同一个有限真词支付。R433现已实际同付wholeE/原finiteA/全ordered O，Euler-current前提已支付而非偷换；剩余最多18含u后缀系数由R434唯一新observer研究，未宣整个R0。即使全部内点两flux付清，真period/gap平台值/同13规范仍继续。
+
+### R433：actual全ordered零值与剩余十八个含u系数
+
+[R433](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)将O_all=[s³t²]Λ_(su+tv)加入同一J⁺，不加辅助self。R344/R352已证全R自然0，故全部原E响应补偿也杀O；完整局部/零的Q4、n2及关键−6/−4 static/hh/kk使原六权正字符排除逐项提升，同一有限C1真词及两次商基准完整保留。共同合法窗口仍为实施前提；H*在新核且λ1，未构造不可能的Λall0。
+
+actual E/O0后，R405原L+ΣmJ的完整pU″有局部K，六C² cubic系数与六ODE准确等价。Af处K/4是u³、up²、upr、ur²、p³、p²r、pr²七项；显式x次数0/2/3/4/3/4/5。形式空间13=R432七个p-only+六个含u代表，三suffix给至多18个准确剩余系数，非真实秩。接唯一联合wholeQ/current新observer，求原144响应模块对这些余系数的像；self cap和全部13同规范另继续。
