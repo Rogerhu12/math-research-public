@@ -419,3 +419,10 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 - 原classify仅消费left/right，取已绑定basis精确9/250、423/500；不重建子空间、不猜published layout，5743逐序与全部梯度门保。
 - 两失败同task91.37788493000002秒/restore1/repair1继承，再明列1repair，600秒和其它配额均不重置。
 - 2源码/242绑定，request54948B/5c881dfd…触发唯一继续run；0开发执行，原9662行尚未求解，主工作继续。
+
+
+### 2026-11-16 08:01:25 UTC — 发布冻结psi3完整E的唯一新区间观察
+- 原Af有理根/复参数/可变上限/真实平端tail全部入界，256bit整数与六阶余项，单新目标240秒；0旧85/self/rank重算。
+- 原四self科学精确15.69076311099991秒与前置0.005253693000000226秒分列；新入口最终clock累加，不漏失败。
+- 源30193B/e8bd874e…、request3934B/e6ce88a7…，完整设计已全文读，无开发执行；任一分量离0才判固定cap非零。
+- 新共享.github/workflows/visible-frozen-psi3-complex-cap-interval.yml用于公开本题观察，先实际双pull/规则diff/QUEUE再去MR_TOKEN；全部主门继续。

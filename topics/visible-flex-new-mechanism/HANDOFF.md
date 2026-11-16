@@ -44,10 +44,10 @@ R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使�
 
 ## 5. 当前工作
 
-[原finite正primal](notes/true53-all-paid-finite-master-positive-primal-20261116.md)run43817336585的9658行只给gain7.0414711481267545e−6；[完整方向](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)run43821568604实际舍入p62b27d05…给完整修复gain−.00031326043820264013，未合格、0scalar/actual。coarse43322/91304、fine86645/182607四新原梯度已付；U/T缓存30232607B/0c1826ad…，binding75e07691…，任务前祖先1658.9797906909998秒/128值。
+原9658行[finite正候选](notes/true53-all-paid-finite-master-positive-primal-20261116.md)被[run43821568604完整网格](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)排除，修复gain−.00031326043820264013、0actual。四新梯度coarse43322/91304、fine86645/182607及U/T缓存30232607B/0c1826ad…已付；后继任务前祖先1658.9797906909998秒/128值。
 
 [四cut增广设计](notes/true53-four-cut-exchange-master-design-20261116.md)首run43825241350/research133157415075在9662行装配后输入失败，[记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)。0finite/JVP/新gradient/scalar/actual；36.79963991600005秒含全部失败/输出，累计 **1695.779430607秒/128值**，仍点53。
 
 [准确支撑metadata续入口](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)已推request触发唯一继续run，run待登记。原classify仅读left/right，直接取已绑定basis的准确9/250、423/500，不重造子空间或猜layout；5743逐序/installed/5+4仍全部保。前两次失败[首记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)/[布局记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)均0finite/JVP/新行/actual；同task **91.37788493000002秒**已付，累计 **1750.3576756209998秒/128值**。延续同600秒，保restore1/repair1再明确加1repair，其余全部配额不重置。2源码/242绑定，request54948B/5c881dfd…；首次9662行尚未求解，完整合格后才原guard/14门，旧科学不重跑，payload仅原stdout。
 
-理论R477已付正则单门与四门局部开放，R481继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R480已从头付全W外矩/任意A0重复无漂移，继续单份K0和A≠0桥。主完成门未付，任何有限任务/阶段都不结束主课题。
+理论R477已付正则单门与四门局部开放，R481继续真正全零；R478保临界power非零与实际近似，[冻结ψ3完整E区间任务](notes/frozen-psi3-complex-cap-interval-design-20261116.md)已发布，run待登记；新240秒/256bit整数区间/六阶余项/真实平端tail，携原四self15.69076311099991秒，0旧85重算；R480已从头付全W外矩/任意A0重复无漂移，继续单份K0和A≠0桥。主完成门未付，任何有限任务/阶段都不结束主课题。

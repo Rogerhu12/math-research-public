@@ -1,0 +1,70 @@
+{
+  "policy": "visible-flex-frozen-psi3-complex-cap-interval-v1",
+  "source_sha256": "e8bd874e3a88ec8b311d7f2ae488f2aa8bdcbdd8e008034766b24272f0ad3baf",
+  "source_blob": "2f10e881ab92bd8ec56d4025838a3690f0804100",
+  "source_bytes": 30193,
+  "entrypoint": "topics/visible-flex-new-mechanism/scripts/frozen_psi3_complex_cap_interval_audit.py",
+  "workflow": ".github/workflows/visible-frozen-psi3-complex-cap-interval.yml",
+  "paid_four_self_seconds": "15.69076311099991",
+  "paid_four_self_receipt": {
+    "closed_scientific_seconds": "15.69076311099991",
+    "prior_metadata_only_failure_seconds": "0.005253693000000226",
+    "previously_consumed_original_records": 85,
+    "records_read_or_recomputed_by_this_entry": 0,
+    "run_id": "43819806568",
+    "job_id": "133140037524",
+    "source_commit": "fe9569f7295af9c0550b6ea4da88afe947804388",
+    "raw_log_bytes": 246601,
+    "raw_log_sha256": "49184a58fe86c6c143d5a0adef9e313129b5880537f8a682daf32b659ed5c03d",
+    "final_clock_JSON_plus_LF_bytes": 1094,
+    "final_clock_JSON_plus_LF_sha256": "0dd6bb0eb02e93d0483d3ef0d30b12578407e4d319d55b21b8228d4819dd448e",
+    "human_observation": "topics/visible-flex-new-mechanism/notes/weight-zero-four-complete-self-first-observation-20261116.md"
+  },
+  "r471_blob": "3632fcd81244cbc2efa03fd984770e63cd726b8e",
+  "r455_blob": "ee1e04f8f93a2930c6de78191c3c4d91be2b2249",
+  "limits": {
+    "precision_bits": 256,
+    "quadrature_order": 6,
+    "root_bisections": 160,
+    "exp_terms": 48,
+    "exp_squarings": 9,
+    "max_leaf_panels": 1024,
+    "max_panel_depth": 20,
+    "max_integrand_jet_evaluations": 4096,
+    "max_new_seconds": 240,
+    "output_reserve_seconds": 10,
+    "max_stdout_bytes": 900000,
+    "initial_panel_depth": 3
+  },
+  "tail_cutoff": "-19/20",
+  "root_bracket": [
+    "11/20",
+    "3/5"
+  ],
+  "old_scientific_calls": 0,
+  "new_complex_targets": 1,
+  "target": "R471 complete E at the upper complex second-moment root of the frozen psi3 left cap",
+  "unresolved_policy": "retain exact full intervals and every failure; no retry or automatic budget enlargement",
+  "numerical_output_policy": "complete small stdout records plus one RUNNER_TEMP JSON; no cache or artifact upload",
+  "entry_point": "topics/visible-flex-new-mechanism/scripts/frozen_psi3_complex_cap_interval_audit.py",
+  "method_design": "topics/visible-flex-new-mechanism/notes/frozen-psi3-complex-cap-interval-design-20261116.md",
+  "repository": "Rogerhu12/math-research-public",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "queue_session": "Astra-new-mechanism-9974ea84",
+  "workflow_source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+    "topics/visible-flex-new-mechanism/scripts/frozen_psi3_complex_cap_interval_audit.py": "e8bd874e3a88ec8b311d7f2ae488f2aa8bdcbdd8e008034766b24272f0ad3baf",
+    "topics/visible-flex-new-mechanism/notes/frozen-psi3-complex-cap-interval-design-20261116.md": "4f4e88904a75462f3bb0d9c1156a183dacec42ec793a4f2dc09f95663c66b0a0",
+    ".github/workflows/visible-frozen-psi3-complex-cap-interval.yml": "a91f62e6b38e4cac18d545a87a693a4236ebc3eb8ae13c1479091570fd3e31b9",
+    "topics/visible-flex-new-mechanism/results/R455-four-natural-moments-with-one-common-degenerate-pair-and-twenty-targets.md": "400acc8713cec91649bf329f4430e7c38dcf536e39df54340933586cfe17e3c6",
+    "topics/visible-flex-new-mechanism/results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md": "40eb73087bc79afaad9fe7a8bbc55695833ed5f0551b761713917a1f4ed552b0"
+  }
+}

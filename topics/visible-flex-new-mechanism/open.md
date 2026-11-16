@@ -194,3 +194,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### 准确支撑metadata继续：保两次失败与同600秒
 
 [接线设计](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)直接复用已绑定basis的精确9/250、423/500作metadata view；原classify只读这两属性，全部5743顺序/installed/5+4梯度与全网外部值仍保。两个原输入失败clock累计91.37788493000002秒/restore1/repair1继承，明确新增一个repair、仍同600秒；所有finite/JVP/新行/scalar/actual配额不变，首9662行尚无solve。2源码/242绑定，request54948B/5c881dfdcd21cac62daba5ac10f8036c26da3b43a15bcdf1a13c3ad535b498bc。唯一继续run待登记，旧科学不重跑；当前主点53和全部未付完成门保持。
+
+
+### 冻结psi3的完整E：唯一新严格区间观察
+
+[完整设计](notes/frozen-psi3-complex-cap-interval-design-20261116.md)只求R455冻结正幅/正仿射ψ3 cap在R471上复二矩根的原E；Af唯一根有理夹、可变上限与复参数依赖全包，平端真实tail解析上界。256bit定点有向整数/47–48交错exp/六阶Taylor区间，至多1024叶/4096新jet/新240秒，全部小结果原stdout。四self原85记录0重算/0读取，旧科学15.69076311099991秒与前置metadata失败单列保。任一完整分量区间离0才判本冻结cap非零；未分离仅unresolved，不判E0或所有cap，任务不足不结束主课题。源码30193B/e8bd874e…、request3934B/e6ce88a7…，唯一run待登记。
