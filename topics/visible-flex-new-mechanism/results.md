@@ -323,3 +323,7 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 ### 2026-11-16 09:00:23 UTC — R490 固定g内在曲率界与真正九新body列
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)用原五准确metric系数及样条凸包纸付全固定g |Kg|<2381/11<217<(1000/61)²，两反射连接同界、椭圆柱/原六弓平帽K0（R=.274为材料盘半径，不是球半径）。仅说明Gaussian乘积必要条件未阻reach，未构造低外曲率或等距实现。新增完整P_m(ξ)=ξ^m exp(−ξ/(1−ξ))：4个P5 sin2jθ u列、4个P8 v列、1个Δz=ell γP8/Δb=γP8′零总高度列，旧159零嵌168；末五次片与右平坦性严格证九物理函数商独立。全body/完整T三导、六个位置jet及curvature法向参数导齐备，左P5仅C4但二jet连续，核心/帽接口不改。新族必须新identity，不冒原163/159同任务或55J；拟消费54paid MODEL旧159列，必要二jet输入恢复及9新导数另明账，55保实际best。0科学执行，继续原metric/reach/全时间主门。
+
+### 2026-11-16 09:06:04 UTC — R492 原十三规范锁正割奇行，转真实source/前缀条件
+
+[R492](results/R492-the-original-thirteen-row-gauge-locks-secant-odd-ruling-and-real-prefix-compatibility.md)完整保R/T左尾、母三次pairing、真实平台项和2u′²：sec odd行在母上为ζ_i∫(u_i−y u_i′)u_i″²/4，在平台上为d_i μi0/4。当前each even母∫u′u″²0，故在整个period核上β恰为原P−4/P−3/P−2/HB0四行的显示组合ℓ；原period/同13核修正不能再改变odd residual。非even余项(e/(8t)−ω/4)Σλζ∫u′u″²明确保留，不外推全紧输入。含真实中心的段，odd条件准确是完整period-source商泛函(β−ℓ)(k)加两真实中心前缀差的β读出，≤4相位生成系数；尚未判这些实际系数零/非零，更未授新秩。两个even、完整连接段全s/全成本仍要同一个规范联合解决；0新执行。并行新9维55fiber已按完整family/原实际门实施源码，主课题继续。
