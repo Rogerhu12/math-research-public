@@ -108,10 +108,10 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 原A:6188→4367、W秩4212与全部degree≤3 source字典保持。[新原全局定理](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)给monΔ=monK178·Ω、degree298/齐次364、严格Σ0外μ=1。九h*tj∈im_Q[s]A，h*=s³F+²F−²E8 degree23；原有理来源三支8386/8391/171，统一8391。
 
 - **当前真正未闭的全局范围。** 归一rank-one图册已有br^16∈原17式理想，源moment次数≤26；全部rank≤1均值临界点已付B_r∈√(J+C1)。不得删cone理想，未付全J非rank-one/ess(T3)≥4、振幅全局清分母或实际Bell算子桥。
-- **完整相对模块。** Σ0外T=W/(L∩W)已零；2与−6两点T=0，critical每处T循环且九目标各自生成。原s=0全224×155投影长度仍需真计算；∞小P61不搬。九joint的Q维数不能从field25复制；原R/P/全W尾及6012来源表达继续。
+- **完整相对模块。** Σ0外T=W/(L∩W)已零；2与−6两点T=0，critical每处T循环且九目标各自生成。[原zero P及全relative25](results/R150-appendix-zero-projection61-and-complete-relative-nine-target-module25.md)已证zero P长61/T0长5、全T维25/ΔP273；经D127自由化与field25夹证九目标生成全部T、ann=mon(h*)，故h*W⊂L。零T分拆未定；原R/P/全W尾及6012来源表达继续。
 - **来源费用与31分母。** 原D*8769/31 leading unit，monΔ298给商8471；已有同模或精确D31解可降费max(8515,τ+1)。固定e任意高精度才exact；新Q成员给某有限分母，不指定e。旧e0任意度mod961负证、九差源p阶5均保原范围。
 - **31完整系数页。** C31/pC=field315除J31=s−2，dim314；全I2=U7、χ=(s−1)²(s−2)^5，指数2恰5个。root2首五(1,4,2,4,2)、全210 recipe已付；[精确分布现已证](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)：16个系数循环因子、χ=(s−1)²(s−2)^14，全t1…t5=(2,5,2,4,2)，仅余root2一个E≥6；u=v=w=1。全B第四增量m6∈{0,1}，累计I4维数8+m6。完整第四新页必须保真p7/六carry/全部原源覆盖，旧globalI3全部接口仍保。
-- **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，[五critical完整广义消费](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7正式闭合I1全零。[完整D127证明](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)以Δ298及root63正证得唯一T127=D/127（s=63），九h*tj有精确D127[s]原来源，每个循环模=D127[s]/mon(h*)，各Q最小h*23。只凭各零像不排高层；joint25仍待原零点P。
+- **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，[五critical完整广义消费](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7正式闭合I1全零。[完整D127证明](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)以Δ298及root63正证得唯一T127=D/127（s=63），九h*tj有精确D127[s]原来源，每个循环模=D127[s]/mon(h*)，各Q最小h*23。只凭各零像不排高层；全Q joint25由原零点P及D127自由化另证。
 - **永久证据与临时缓存。** 所有旧small-source/run/SHA保全。旧run43756208221结束，需原代码重建；新run43772109844仍有127全NF/GB/state、global197、root2 recipe与三域新原缓存。大型数组不上传；当前源参数以HANDOFF为准。
 
 ### 原边界：真实测试及全旗二阶已控，顺次返回继续
@@ -137,13 +137,13 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **[原127第一系数正证/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 原globalZ与完整p²反传证明simple s+64系数扭，给Δ≤298；结合最新三域Q谱现等号。925不是独立方向数。其它系数页和原31分母仍须各自来源，不从这一条推得。
 
-- **[九原目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)，九cyclic均23、h*/h0像全零；原Q及精确D127[s]来源现由上述唯一系数因子定理补足；每个single的最小h*23已升Q，joint25不直接复制。
+- **[九原目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)，九cyclic均23、h*/h0像全零；原Q及精确D127[s]来源现由上述唯一系数因子定理补足；每个single的最小h*23已升Q，Q joint25现经原zero P/D127自由化严格证明。
 
 - **同源完整一次MP现在已有移动头预算。** [完整平方相消/含top证明](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)取τ=(log(x+1)/x)^(1/3)、s=(1+τ)S_x、J=ceil8log(x+1)/τ，严格||D†(C+D)f||²≤O((1+||C||²)τ²)ε≤同常数Δ_g²，无头χ/无未知速率放大。R=0/x=m时J≪d_m、同原合法Q≥J且f→P_Mg；任何其它扩块/内cut仍保原R=d等门。z=f−D†(C+D)f仅给(C+D)z=−C D†(C+D)f，第二次源含D†ω_j、非旧coherent列。须继续支付它的完整MP/中间Schur及真实同w返回，不把一次小修复当真核距离。
 
 - **第二次完整顺次MP已付，第三次及全返回仍开。** [真实primitive回馈证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²ω_j=(D²)†ω_j−D†ΠkerD D(D²)†ω_j，两项正交，明确原primitive常数512√(j+4)(x+j+4)^(3/2)。τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ使q1=D†(C+D)f、q2=CD†q1同时平方O((1+||C||⁴)τ²)Δ_g²；两最高top全保。z2=f−q1+q2只有准确残量(C+D)z2=Cq2，不是原真核。继续更深完整核旗/中间Schur与同w全部partial，不将第二次primitive分解免费复制到任意高度。
 
-**R150完整critical及五广义检测。** 三域Q谱/目标指数、五127 primary及完整检测、全部失败和来源pins见[本次前态](notes/2026-11-16-open-before-downward-variance-and-zero-projection-789f.md)及本节R150新全局条目；旧局部边界没有删除。原zero P现独立实际长61、T0长5，完整relative25生成证明接续。
+**R150完整critical及五广义检测。** 三域Q谱/目标指数、五127 primary及完整检测、全部失败和来源pins见[本次前态](notes/2026-11-16-open-before-downward-variance-and-zero-projection-789f.md)及本节R150新全局条目；旧局部边界没有删除。原zero P现独立实际长61、T0长5，[完整relative25生成定理](results/R150-appendix-zero-projection61-and-complete-relative-nine-target-module25.md)已成；全部W由九目标的类生成、h*W⊂L。
 
 **直接原V/K差的完整Gram窗口。** [actual-u定理](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)在完整G_E上以grade传播构造真k_pol∈K_Q，低尾孔s的同f满足||u||≤2ρ^ν/(1+ρ^(2ν))||PVf||、ν=floor((Q−s)/(d−1))；无κ²前因子/无需远池，所有原头forcing与无限尾位置统一。真实头给logQ=35d⁴/6+O(d³)与u≤2e^−2m，但母carry全R0^(j+ℓ+1)仍O(d⁵)，原T/同w运输未闭；继续此候选的实际carry和完整forcing谱。
 
