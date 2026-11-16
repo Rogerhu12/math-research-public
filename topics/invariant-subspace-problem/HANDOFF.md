@@ -11,6 +11,7 @@
 
 ## 当前实际执行接续
 
+- run43830422159已实际pull 0f101b697beb04db9bf6c225a488755e191f3a54并推3cc80375成功；启动API因MR_TOKEN无相应权限403，数学未启动。启动改用现有actions:write的github.token，Git仍已有MR_TOKEN；无新增明文凭证。
 - **四参数同基job已备，结果未跑：** [完整接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)、[全路径/SHA清单](notes/2026-11-16-r150-original-hstar-four-parameter-complete-manifest-789f.json)。workflow invariant-subspace-r150-hstar-four-parameter-session.yml；request notes/2026-11-16-r150-hstar-four-parameter-session-789f-request.json。一个job十步：恢复原14项、六小系统、四真族/原map、H25；选列8→7→3→1重建；同父C1、h0控制、x²/x³七socle；最后63×4及逐九7×4真核。完整30阶段、6188/4367原乘回、104/505/315门、同高p父SHA全保。不重全210，不混旧carry坐标。
 - 新源仅静态核：30块数学函数与旧版逐字节相同，parent/reader/consumer格式标签相容；本次AST/native/数学未执行，Actions实际编译后才记结果。数学每步1800秒/4GiB、exit75同binding最多三续；整个job180分钟、每步及30分钟实际pull核规则。所有来源数组/结果留tmp和完成日志，Git仅小执行身份/SHA；最终读真实run/job后逐结论发布。
 - normal并行准备完整原17梯度+Bell齐次source前缀：有限域127/d100为系数域特化、全部y/H参数保留；degree2→3 continuation自测后做degree5起完整层，原来源全乘回。特征零只能经原E完整18源复乘得到1，不能从有限域unit外推。source c5e81e3e、E consumer6aa939b3，尚未真实运行；另起同job field→E，保所有失败和已完成前缀。
