@@ -12,9 +12,9 @@
 ## 当前实际执行接续
 
 - **原E远端前三阶段实际成功。** run43911869940重建完整116（13.188秒）、逐字恢复六逆/3418原清单（8.630秒）、原20×50投影（1.166秒）全部exit0；raw身份均已提交。旧本地两次137不改写，constants仍未完成。
-- **Q60实际受控终止，改不同算法。** final300外层360秒于16:57:02发出真实143/child−15，observer明确TERM，RSS103000KiB；旧1976B回执未变被排除，新raw为null。目前没有已确认的新候选，不能由raw缺失断言目录无候选。独立两4×4原E结构算法正在冻结，保全部1000E/400selected门，不空续原Q60。
-- **加入原95四次核独立小门。** [接口](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)及全部源已root全文审，仅依赖已成功的field父；原C/D/T/H全矩阵、合法原子式与全部乘回，无预填rank95。60/512、原observer120、wrapper180，独立out。若原95单位真才用原E核恒等提升原空间跨度，不抬field坐标；至多270完整E来源仍待此实际门。当前仅发布任务，执行以实际回执为准。
-- 活跃同job保临时父等待已审后继最多1200秒，仍受原35分钟work/40分钟job硬界；六逆恢复和投影[原接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)不变。每步原observer、全源compile、原数组双SHA，数据只TMP/job日志。前状态保[本次H快照](notes/2026-11-16-handoff-before-high95-gate-789f.md)。
+- **Q60实际受控终止，改不同算法。** final300外层360秒于16:57:02发出真实143/child−15，observer明确TERM，RSS103000KiB；旧1976B回执未变被排除，新raw为null。目前没有已确认的新候选，不能由raw缺失断言目录无候选。[两4×4原E独立结构算法](notes/2026-11-16-r150-original-low20-two-four-exact-interface-789f.md)已root逐行审并核完整SHA，原块400槽及两个原单位各双乘，终门全1000E/3000Q/400selected；180/768、observer240、wrapper300，独立out，不空续原Q60。
+- **加入原95四次核独立小门。** [接口](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)及全部源已root全文审，仅依赖已成功的field父；原C/D/T/H全矩阵、合法原子式与全部乘回，无预填rank95。60/512、原observer120、wrapper180，独立out。若原95单位真才用原E核恒等提升原空间跨度，不抬field坐标；至多270完整E来源仍待此实际门。17:06:37已实际exit0（wrapper0.667秒、childRSS84604KiB），raw8429/7b23309f…；完整数学结果待job日志，不由退出0预填rank95。
+- 同job追加第6步结构解后按请求关闭，以取得全部原日志；仍受原35分钟work/40分钟job硬界，旧Q60失败保留导致job整体失败也不否定各成功step；六逆恢复和投影[原接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)不变。每步原observer、全源compile、原数组双SHA，数据只TMP/job日志。前状态保[本次H快照](notes/2026-11-16-handoff-before-high95-gate-789f.md)。
 - **权十空候选预算已真实结束，不空续。** run43906283833/job133435910806前7阶段exit0；完整200输入、真实engine小控制和2000 SSI全真。std本体555.227秒仅START，整体592.369秒/exit75，candidate=null、parsed0、continuationEligible=false，第9独立验证未运行。raw3469/5aa3bc29…，不是数学负/OOM。后继完整77276×13808直接Macaulay/原左见证尚在接口设计，不调用旧9倍cache大内存方案。
 - [200输入根独审](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)已闭：2000坐标、8037189项、151071880 ASCII字节及独立δb²全真，156.362秒/RSS88624。原v1物理权守卫0列失败与根v1 exit137保独立身份，不移成成功。
 - 原b³/QE完整权9秩16046、396全核及模7原unit排b³/K≤11已闭；b4首轮exit14无candidate/source。旧全局/稀疏600秒null候选及单Bell首一无收益不重复。所有完整原门、临时重建法与未列开放项保[本次H快照](notes/2026-11-16-handoff-before-exact-low20-recovery-job-789f.md)及其链。

@@ -9,7 +9,7 @@
   "sessionScriptSHA256": "f6b1108e2f9505e6d6315d87abf361a2aca2b913487163c960a6a628baeee59a",
   "historicalInputs": [],
   "maximumIdleSeconds": 1200,
-  "closeSessionWhenStepsComplete": false,
+  "closeSessionWhenStepsComplete": true,
   "sessionWorkMinutes": 35,
   "workflowHardMinutes": 40,
   "steps": [
@@ -335,6 +335,63 @@
       "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
       "mathematicalScriptSHA256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c",
       "mathematicalScope": "Independent original95 quartic kernel unit gate. All original matrices and complete products retained; rank95 is not prefilled. No dependency on the interrupted rational60 solve and no characteristic-zero coefficients lifted from the field."
+    },
+    {
+      "id": "original-low20-two-four-exact-final180",
+      "requires": [
+        "original-low20-recover-three-inverse-prefix120"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-two-four-exact-789f.py",
+          "sha256": "94033eafe24b5e5882c44ccb13be4021dafcb00d3cfea558915f8f236799164d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+          "sha256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+          "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+        }
+      ],
+      "argv": [
+        "--outer-seconds",
+        "240",
+        "--heartbeat-seconds",
+        "10",
+        "--stdout",
+        "{work}/original-low20-two-four-exact-final180.math.log",
+        "--heartbeats",
+        "{work}/original-low20-two-four-exact-final180.heartbeats.jsonl",
+        "--identity",
+        "{work}/original-low20-two-four-exact-final180.observed.json",
+        "--",
+        "python",
+        "{scripts}/2026-11-16-r150-original-low20-two-four-exact-789f.py",
+        "--projection-helper",
+        "{scripts}/2026-11-16-r150-original-low20-projection-only-exact-789f.py",
+        "--exact-helper",
+        "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+        "--parent-out",
+        "{work}/original-low-commutator-twenty-exact-constants-v2",
+        "--out",
+        "{work}/original-low20-two-four-exact",
+        "--through",
+        "final",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "768"
+      ],
+      "timeoutSeconds": 300,
+      "receiptPath": "{work}/original-low20-two-four-exact/exact-low20-two-four-receipt.json",
+      "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low20-two-four-exact-789f.py",
+      "mathematicalScriptSHA256": "94033eafe24b5e5882c44ccb13be4021dafcb00d3cfea558915f8f236799164d",
+      "mathematicalScope": "Two original 4x4 E unit inverses, exact structured solution of the same20x50 original projections, and all1000E/3000Q/400selected original products; no repeated rational60 solve and no new C/CZ.",
+      "evidencePhaseKey": "complete-exact-original-low20-products"
     }
   ],
   "sameJobPolicy": {
@@ -352,6 +409,7 @@
     "originalIdealOrISPConclusion": false,
     "stalePreviousReceiptNeverReportedAsCurrent": true,
     "completeObserverExecutionIdentityIncluded": true,
-    "smallFinalProofDataLoggedOnlyAfterFullStoredAndLogicalSHA": true
+    "smallFinalProofDataLoggedOnlyAfterFullStoredAndLogicalSHA": true,
+    "closeAfterReviewedSixSteps": true
   }
 }

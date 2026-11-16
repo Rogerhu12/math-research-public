@@ -1,6 +1,6 @@
 # 未解决的问题
 
-**原E恢复/投影已实际成功，Q60受控143后改结构算法。** run43911869940前三步exit0，六逆及3418清单全部原SHA相同；第四步outer360明确TERM、无已确认新候选，不空续。新两4×4原E解法保1000E/400selected，正在冻结。另[原95四次核小门](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)已root全文审，追加同job仅依赖成功field父，60/512/outer120；不预填rank95，也不将field表达式当原E来源。权十完整候选已null结束，无数学正负答案；下一全77276×13808直接左证接口在设计。
+**原E恢复/投影已实际成功，Q60受控143后改结构算法。** run43911869940前三步exit0，六逆及3418清单全部原SHA相同；第四步outer360明确TERM、无已确认新候选，不空续。[新两4×4原E解法](notes/2026-11-16-r150-original-low20-two-four-exact-interface-789f.md)已全文审，追加独立180/768步，保1000E/3000Q/400selected。另[原95四次核小门](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)已root全文审，追加同job仅依赖成功field父，60/512/outer120已实际exit0/raw8429，尚待完整日志核数学结果；不预填rank95，也不将field表达式当原E来源。权十完整候选已null结束，无数学正负答案；下一全77276×13808直接左证接口在设计。
 
 **[原E三个完整逆及真实终止范围已封存](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)。** 6、5、11维原E逆全部两向乘回真，共364个E产品/1092有理坐标，六个候选与验证phase双SHA重读全同。随后child−9/shell137、25.514秒，observer未发终止信号，原因未证；完整constants与20×50求解未完成。独立仅投影源已全审，保verified UI及原字典、全1000E/400选列门；本地环境失效使其启动请求未创建进程，当前转同源码远端恢复，不算数学失败或已运行。
 
