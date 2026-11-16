@@ -182,7 +182,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 
 ## 2026-11-16 11:10 UTC：R505同形库中的真实非secant局部路径
 
-[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真13状态/2输入受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
+[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真实八矩受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
 
 下一理论项：在同一新母库/χ上解决参考secant与正规局部族之间的真实桥内部能量等式，或直接构造该族的全frame/位置/八矩返回；随后同一整词付全部period/十三行。局部端点常秩纤维仅保持其自身真实端口，不能赋予预指定返回；原主C²/等距/reach/幅度门全保。
 
@@ -193,3 +193,9 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 11:18 UTC：小域168实际接受57、转新点非线性模型
 
 [原57结论](notes/true56-small168-seven-exchanges-original-two-grid-accepted57-20261116.md)确认7finite/7scan/62scalar、一actualpair两网全14门/准确盒接受；eta降.000002854766053994595，κ细57.99982125481755。含首失败222.847092604秒/2新值，总2644.800406968秒/143值闭账。57无二jets/J，下一新任务只重建必要输入并接非线性预测/选点出口；不跨点借56导数、不重开余额。report投影incomplete但最终账/实际门完整，机器源恢复仍读原stdout。
+
+## 2026-11-16 11:21 UTC：R507同一完整K下真实scalar返回
+
+[R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)同一R505库/w/χ下，两速度Gram全合法态SPD，完整椭圆允许正负h速度。零有向面积光滑8字及3角方向满秩IFT给任意充分短正时h/k/ω准确返回、k非恒、全段全相位K0；两端仅k_s=ω_s0，不同germs。原t1增量有严格负O(ε)项，frame/位置及全部3/4成本未返回；不冒M0/period或参考入口桥。
+
+下一项：这些单元的实际矩阵端点像及另一受约束段能否抵消t1单侧漂移，保同母/w/χ与两端真实germs；frame/位置/全部period及主有限等距族仍逐项支付。
