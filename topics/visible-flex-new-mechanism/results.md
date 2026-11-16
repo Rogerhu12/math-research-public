@@ -327,3 +327,6 @@
 
 
 - **R453：actual七项current余量完整降为局部几何action。** [完整history消去与D5/D6](results/R453-local-geometric-action-of-the-seven-ordered-current-remainders.md)（15875B/SHA59befbbb439c8b401e35f998f6bc4073036bc02d3540e8074e1fb026f842d556）。两world向量配对导数给Cpath的真实端项；原尾与canonical self主项trace相差五项Rloc。wholeQ0后D=4∫kpRloc，一阶化给六次位置多项式局部action，不预授零/符号；p=Q/(8h)>0、M0迫k正负。保完整R295非紧尾/C²余量、第二次周期边项与同一actual路径，0新执行。
+
+
+- **R454：整个原响应的三尾current像准确仍为32维kerD。** [原self主系数、完整尾与全空间证明](results/R454-complete-response-self-principal-trace-and-seven-ordered-current-invariants.md)（20895B/SHAfd6a9cb2069e005b8270f83b4a259b3c0844285d37bc8d84601cab775ba93280）。原八尾给M_AB对称，W71直接self/2+2与全Z右三常数/u5桥统一Tr F_R=8DΣ；全部C²余量及左端边项保留，wholeQ0迫主项0。R344 pure-cross无local ur使(S−P)同系数，结合已付144反向包含得全R_E C像=kerD32，无新rank。H*六R126源及修正DΣ0已定位；actual Eval商/self完整性及canonical localD不外推。
