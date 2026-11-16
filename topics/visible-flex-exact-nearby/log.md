@@ -356,3 +356,7 @@ WGS4d3638fe全件28978B已核并独推，strict/root分域、完整N/O/ϑHD forc
 ### 2026-11-16 06:26:44 UTC — unique WSP/WCF run recorded
 
 唯一43816689251/1由3a4d3e2f触发，job133130243631；当前仍安装/输入检查，尚无新科学结果，不重启或并行重复。README于3b6fb487ab9fe7de8f94f4ce3e2969d4ac000227核两blob无变；继续读WEJ全合同和WGS下一完整新图。
+
+### 2026-11-16 06:32:27 UTC — WEJ complete posterior contract
+
+WEJ6b7644a9全59644B已核独推：同J负窗/fullfold旧J0/DJ结构lower、全部反馈/R0/N6、3070真jump/原PW及四端/ng0一次不缺；新全图数值待。WSP43816689251/1实际16门/4图成功已全核，SCI5b099f08/70207与完整旧55533B原样、三preGit/stdout哈希独复原，旧/新成功均锁。最新真pull06:26:29→3a4两README空diff，当前ed935a62fc7b1f5b266ce3de05723a4d021bd7b5两blob无变；继续WGS完整新图。

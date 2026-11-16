@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WEJ：完整均值、真实跳跃和四个腰端项的正预算](results/R133-supplement-complete-waist-endpoint-and-true-jump-constant-recipes.md)：同一角逆的两负窗、旧 fullfold 全域 J0、特殊 DJ 恒等及正下界、完整均值反馈/N6、3070 真 jump、原 PW 接收和 FA 六 mean/两 terminal 重建接完整四端；SW 腰因子恰一次。新数值仍待完整后继 Actions，未授高门或全逆。
+
 - [WGS：全局 fold 与自由首阶输运的完整有限导数合同](results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md)：严格负区真 flow 与 root 正则商接完整 forcing；冻结 I(15,3)/I(14,3)/I(12,1)/I(12,2)、所有有限阶索引、旧 stage 的准确资格和新八阶段图。只给完整新计算目标；未产生新数值或全逆。
 
 - [WCF：精确系数有限因子与剩余graph误差](results/R133-supplement-exact-finite-coefficient-factors-and-remaining-graph-error.md)：FJ与两rank及ρi/ell2完整列行分出，剩余两two-I按原序给新直接正费；2431/1119仅aux载体，同WFR/WGB的Θ/真实96列/ν/全cross不变。452ee9e4，无新数/有限逆声称。
