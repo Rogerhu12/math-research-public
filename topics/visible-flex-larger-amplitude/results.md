@@ -122,3 +122,7 @@
 ## 固定C精化工作与真实metric误差范围
 
 **固定C的实际精化接点；无新数值或接受门。** [说明](notes/2026-11-16-fixed-C-query-work-resolution-and-metric-error-scope.md)14065B/e1fb934b区分同场测量收紧与真实新场精化。R426会重算新逆像子积分，原1440累计径向端点/全头总和及R400固定cut三叶不自动更新；R459现有空间/查询工作可收紧，但214三级保原参数，不能把增mesh/M自动当增区间精度。R352/R481/R483可消重复表达依赖，宽盒不证明真实误差floor。原native/RMS/BC容差没有现成全域relative metric单位换算；缺转移界不阻止既有直接opnorm测量或原精化。若实际记录指向上游宽度，须用原f12f完整1440/six同源重算并以新真实同语义叶接口消费，不覆旧CP/definition。R489继续其实际来源实现；现无误差平台或下降新结论。
+
+## R489 — 同一准确C完整头部重算与包围交
+
+**R489：同C完整重积分及合法包围交的来源实现；无新数值。** [证明](results/R489-same-C-complete-head-recomputation-and-cut-enclosure-intersection.md)11974B/4ade14ea、[接口](notes/2026-11-16-same-C-complete-head-refinement-interface.md)15697B/6df55f1a与source42246B/0ce2f7ab本次刊。原f12f全1440/six、1c39完整point叶的E/E_r/E_rr读取、5bb2 OwnedChild原字复用；五实际输入/完整非work binding与原深根族相同才允许同语义交，所有真实成员仍被包围，不取midpoint共同实现。重算新累计端点/全头/自然外端/原闭query，cut三叶及完整六积分/自然端逐项交；不保证严格收紧，空交报来源/算术不一致。只登记真实205内部227e/56cb与18900+2700钟，新phase不重开；中断保实际原件和未付，未登记child result仅metadata读回不补算，单90KB/超70/quiet保且本组件不清raw。独立新包围不改CP/definition/field；R400/R416消费未接、原query E宽目标不冒导数精度，217/R490未建。R492继续真实同语义叶adapter，非BVP前门。
