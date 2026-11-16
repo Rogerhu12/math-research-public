@@ -188,3 +188,9 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 
 重读已发表 [R708](results/R708-original-mod-p-prefix-and-integral-gaussian-return.md) 后的接续校准：原 m34/72/136 已有非零迹赋值≤3/4+o(1)，故大p边界零等价于约3p/4个原 Gaussian 块 g_m,h 的模p前缀零；不必将两位门当唯一途径。这些指标读 z^(dh)=w^(sh)，实际最高次数仍是 O(p²)，不能借 R887 仅前五块的替换免费延长。原中央零只给含真实除p商的部分和，不自动给逐行零；V66尚需其自身全迹范围。此处更新既有门的优先级，不登记新定理。
+
+## R918：原首 Bockstein 对稳定方向的实际新约束
+
+[R918](results/R918-original-stable-direction-carry-unit-and-native-endpoint.md)真实三首十三带完整读取：δ=r+2h−s∈[−13,−1]时同q卷积行给单位·a(G)，完整β1在R916实际K∞单射。δ≥0三带零iff值深到J=T+13；若q(0,Y)=cY，native给(3n²−1)vG+9a(G)u0²e0·1δ0=0，δ0首值非零、δ>0再深1。完整U0/实际高轴/q导数/同R,S保，未排非稳定核。
+
+继续同一 K′=K∩ker(完整β1) 的真实后继链与指定 forcing，不以稳定部分单射替全核排除；δ≥0仍用同一个候选继续 native/其它行。
