@@ -4,7 +4,9 @@
 
 **[原E二十低源实际坐标与完整乘回已闭](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)。** 两原4×4单位在20.893秒求出完整$\Lambda\in E^{20\times50}$，64个双向逆产品、1000E/3000Q/1000place及400选列恒等全真；原20/M/B子式64/96/69。原核单射及canonical低次校正把该精确坐标运输到全部参数/原11和17来源，普通76列/至多670完整呈示保40高列。根独立重生字典、重建binding及4064raw/2484最后phase全SHA同；不冒新55维或参数展开，Bell判空仍开。
 
-原95门D秩70/T秩95/unit38已实际通过，原E高交换子与270完整上界另文核证明；原数域常数解不直接删除高列。
+**[原四次核95与原E完整260/270呈示已闭](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)。** 完整$D:165\to70$满射，原$T:100\to165$的合法95子式实际det38；原E恒等$DT=0$而非field零提升，故$\operatorname{im}T=\ker D$、核95/五关系/余商0。原高40来源减$N_iC_s$后唯一低次校正落$B\langle C20\rangle$，保全部参数及原11/17来源；全部交换子在$P_1$、低列在$P_0$，完整三字降次给$P_2$稳定，至多非Bell260+Bell10=270。没有初始76=36普通B模或第一轮稳定声明，没有新270数组或Bell判空。
+
+下一原55条Koszul来源的40维商可能继续压缩原NC100；须保真正G-Koszul的零像和完整canonical校正，不抬field系数。
 
 **[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。下一完整77276×13808直接消元与原左证接口已全文审，独立native/driver待冻结。
 
