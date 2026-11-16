@@ -228,3 +228,9 @@ root阅读全文54113B/2737f96d，核WAD.26–36的同一输入/输出/端点/so
 root全文25135B/e7d23c58独核域、投影和高/低块各符号，并回读WFI实际graph定义与Mbar低reference。Newton正式核2/5–6/8，Tail正式核3–4/7并fresh核WCS。F=[(Mν−Mbar)+E]Ptilde仅先投进true域，未把E扩到unqualified circle；Gbar的loss1后只剩ΛJ^-1/3。VQ Gbar的96约束不因参考延拓消失；只有真正physical列到位才可替换为差列UV。
 
 完整(q,z,κ)符号和rhs由直接消元核过，第二aux行为z−Vu=0，不能与零约束行混号。所有physicalmean/metric/highfeedback及未消的infinitehead原样，固定νi不是metric variation。本条零数值、不重成功目标，fresh read 9b05bfc5160bf667cde0cb0ba059b0c8b0332bd5 两README不变。
+
+## 2026-11-16 04:34:18 UTC — WIR 同一个W及其同逆的插值改进
+
+root全文14073B/9ee0806f核两次Bessel插值指数、homogeneous比较r4与L2→energy的1/2，并亲核原DZA26909B/05036749的J0/Jminus/CD三个完整record、selected scope和已付meanrank。Newton正式核2–4，Tail正式核1/5–6，Phase复核同inverse。rough f用f+W_G^-1 Rf构造，不把f强行放energy；R+R W_G^-1 R的右/中/左窗口完整，whole bound保同一W。
+
+本条仅新解析正表达式，未求任何fractional power或数值最小值、未调用旧sign/KAM/producer。full density auxiliarymean不是原uncompressed公式，保WΔ1⊗Π及实际(h−1)ρi、true finite complement。WBP/WGB只能在同左右坐标里使用whole候选，未授小扰动/finite inverse。fresh read a70c8d7c152c2d6a7f73f80cefe67e5f66d26bc7 两README未变，本条独推后继续U源项。

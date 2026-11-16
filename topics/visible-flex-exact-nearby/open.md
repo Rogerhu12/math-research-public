@@ -44,6 +44,8 @@ $Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
 
 [WIT真实输入交织](results/R133-supplement-positive-density-intertwiner-for-the-true-reflected-input.md)13c5972c：$G=|D|^{-1}$配对使$\mathcal W=(1-Z\mathcal J)/2$无smallness真逆，旧完整DZA之Δ给L2/H−4/3同逆符号界$1+C_\Delta/2$。真域搬成$\operatorname{ran}\widehat P_{97}\cap\operatorname{Fix}(-ZR_b)$，其中$\widehat P_{97}=\mathcal WS P_{97}S^{-1}\mathcal W^{-1}$；192/96有限补不是ordinaryP97，fullauxmean仍有$\mathcal W\Delta1\otimes\Pi$。actual leading/error及所有相连行同右W逆。
 
+[WIR同W插值改进](results/R133-supplement-interpolation-bounds-for-the-same-positive-density-intertwiner.md)9ee0806f：同一完整D及J两窗插值给L2逆$1+L/2$、H−4/3逆$1+N$与whole strong$(C_D+LN)/2$；L/N及forward另界见原式。fullmeanrank/真finite/同坐标全部保，无新球。
+
 [WCS正确model](results/R133-supplement-certified-Cayley-gap-on-the-reflected-waist-model.md)4998ef82：同W/B/IC的$\nu_i=-\mu_*/2$给
 $q_n=\tfrac12(1-i\nu_i/k)(1+i\lambda_n)$。
 原CYA ξ=i的完整native gap使ordinary$P_J$反射model有一导loss逆$G_\nu\le2K_{\rm CY}$（旧K=256，未求新球），onto只在明确graph domain。完整E的正确target门是

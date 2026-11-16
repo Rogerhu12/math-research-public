@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WIR：同一正密度交织子的插值界](results/R133-supplement-interpolation-bounds-for-the-same-positive-density-intertwiner.md)（833fc9a7045a50cc46c1fd5acd6c9579e5cb7597，14073B，SHA256 9ee0806fc2eb0929d6be9fb1cc3f3c843ab11177404eb070de3aa8085c40a770）。同D/J两窗插值给L=d0^(5/8)CD^(3/8)、N=(17/16)^(1/4)dminus^(3/8)CD^(5/8)，原同W在L2及H−4/3逆分别≤1+L/2、1+N；完整strong差≤(CD+LN)/2，forward界独立。保fullmeanrank/actualfinite/真同operator/window，未执行幂/产品或重DZA，所有后续whole物理候选仍须完整原项。
+
 - 2026-11-16 — [WGB：精确graph参数化与真实有限边](results/R133-supplement-exact-graph-parameterization-and-physical-finite-border.md)（30cd8f7858888c35f942094611614c9f74b3e2af，25135B，SHA256 e7d23c583205fcb538fd21260e2e9c5b4859ed73ab6129a453b8c5d1fb05bf7c）。同Mbar graph换元得到完整Id+K和one-loss后ΛJ^-1/3尾界；高列96真实约束保。若真96physical列已给，精确差列(Hphys−MbarCQ)VQ Gbar进入完整UV，继而(q,z,κ)的全high feedback/rhs/metric border条件等价。未赋任何reference列物理身份，未求cutoff/determinant，独立mean/head/infinite ports均保。
 
 - 2026-11-16 — [WADA：实际完整物理腰部第一行界](results/R133-supplement-actual-complete-physical-waist-first-row-bound.md)（30cab13becdb586afbfb9ce40ac7e1f04fd71c27，54113B，SHA256 2737f96d34450992a78e0244b7932ee3e0e91e8371d8f99b866327ce9dd70ba5）。唯一公开Actions43803459418/1、16门/9新球，完整同natural-root H−4/3到raw primitive L2第一行界选整记录4.7487985998848693668…e83；旧14球/9完整scope、全部mean/cut/PC/ST4/3070jumps/waistFT不减。SCI/exec/report与两个preGit完整恢复身份独核，old/lost0，成功冻结；尚非小扰动/有限逆或WPL不同归一化新数字。
