@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：99347c619e66946b758f6f731ce0a4f76d41fa9e；2026-11-16 14:21:49 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:20:08 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
+- 最近已读规则提交：43e94233a313e2a1f165155ddff987cf057b0678；2026-11-16 14:25:31 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:25:30 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -38,7 +38,7 @@ R883H全部Kummer层/非split闭点/负floor/δ嵌入与完整local后端已接�
 
 consumer默认eta48/global/tate，可选四RR/local；host核真实双map PASS的job/run/head/source/hash/whole末端与依赖齐。stdin无网，无请求、无shadow输出，禁止假PASS。
 R885原有界D满足sp0D=Ep AJ(Z02)，原q/q⁴、4、Artin/旧副本保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³与C5=−216真unit。同Coleman有限余核给Dfun(0)=Ep原ordinary loc；只保CcanD=Dfunccan，不约增广零或搬7993。
-R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 HS/HO/8.4元。[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)同C02/全split四因子、divisor-sum/统一分母/真balanced全付，n1=原AJ。[finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)付所有有限cohom及共轭/对偶/既用p环类；17惯性Sah、μ3双投影和Nakayama给最小O0的全两点p^n矩阵，扩系数只认真实det非零。unit子集不dot⊃默认集；usual core0，不套MR core1。R886附A已付γ=τ17的四值全−1、P0(1)≡2/Q(1)≡8；U=L1∪Uγ同格/n1不变，若l分裂此前层则两角真unit norm返回。[R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)已付αq=πq/barπq的anti-Kummer与原阿贝尔域交仅cyclo，γ选l同时保旧层分裂及q/barq在K[l]全h_l阶；同四角u_l≡2真unit。literature续连续coinduced与一侧finite–singular/共轭selector。原底非零、ordinary loc及允许下降尚开。
+R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 HS/HO/8.4元。[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)同C02/全split四因子、divisor-sum/统一分母/真balanced全付，n1=原AJ。[finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)付所有有限cohom及共轭/对偶/既用p环类；17惯性Sah、μ3双投影和Nakayama给最小O0的全两点p^n矩阵，扩系数只认真实det非零。unit子集不dot⊃默认集；usual core0，不套MR core1。R886附A已付γ=τ17的四值全−1、P0(1)≡2/Q(1)≡8；U=L1∪Uγ同格/n1不变，若l分裂此前层则两角真unit norm返回。[R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)已付αq=πq/barπq的anti-Kummer与原阿贝尔域交仅cyclo，γ选l同时保旧层分裂及q/barq在K[l]全h_l阶；同四角u_l≡2真unit。附A/B已付连续coinduced/全范数误差和κq(σ)=−c1(Frq)；最小O0投影、坏位统一指数与共轭selector的全局cup证c1≠0⇒Selbal=E c1。无需受限JNS或MR core1。原底非零/ordinary loc仍开。
 
 ## 当前第二门：四原B与同一低配对
 

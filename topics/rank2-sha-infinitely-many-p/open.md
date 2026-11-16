@@ -196,3 +196,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - R889原两germ的Newton倍增与唯一性全证、独立P/F producer已在公开workflow请求；保原全部形式/CRT/最终Sturm认证、char0旧短校验及原七run。新run未回执前不填PASS；核心仍是同两真地图及原完整RR。
+
+
+- R891附A/B已直接关闭原受限辅助系统的下降接口：连续coinduced、全norm误差和一侧κq(σ)=−c1(Frq)全证；最小O0固定投影/坏位统一指数/共轭两点selector给原c1非零⇒balanced Selmer恰一维且由它生成。前文关于‘受限JNS允许集尚开’的旧检查点由此直接证明替代。原底类非零、指定ordinary loc及无穷目标p仍开；不搬canonical7993。

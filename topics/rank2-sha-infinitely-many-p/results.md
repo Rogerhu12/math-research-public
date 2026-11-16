@@ -284,3 +284,6 @@
 
 
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)：原P的(3Q∂+1)e=fr、r²=1−4tQe³与原F的(2Q∂−1)U=f0X²、X³=U²−17Q经准确2×2 Newton消元，均返cQ∂+a、a0=1的完整有限窗逆；只除1..N及3j+1/6j+1，逐次倍增全残差核。大重建特征下与原递推唯一相同，char0短校验及全P/F Sturm认证不变。两个独立producer公开运行，原七任务不取消，无假PASS。
+
+
+- [R891附A/B](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)：同原四角的连续coinduced范数满射、商模调角与真实未分歧交换子给I中完整norm误差为u_l⁻¹N_lA=0，故κq(σ)=−c1(Frq)。最小O0固定系数投影保原族、统一坏位指数独立N/q，两点selector和共轭Tate全局cup准确消另一未知点，完整证明原c1≠0⇒Selbal(K,V)=E c1。无full-ray/JNS受限集扩展或MR core1调用；底非零及ordinary loc仍未付。
