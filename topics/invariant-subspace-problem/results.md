@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **全部高度的一次真实MP与同w可和修正。** [固定方差倍数证明](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)保全层512^j而以同源阻尼付完整D†，c*=2·512²、K*=1+47616c*给统一费用，不截中段或顶层。同w全高度预算使一次修正、相对P_xw误差与准确残余−Cq1平方可和；同PV/PK仅对原f_s保持，修正向量有已付误差。后继顺次循环与完整物理修复仍须另证。
+
 - **全W在127处的完整整结构与一层系数障碍。** [整个原正常平方模](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)给 $U=M\oplus R/(127,s+64)$，原九目标漏掉唯一系数扭子；完整R型为两R/s、R/h及这一扭子，dD26/dR3。AnnU=h*(127,s+64)，$h_*qW\subset L$ 恰q(63)=0 mod127，故h*W无全整源而127h*W和(s+64)h*W均有。原6188投影/单位Schur及根独立二次型全行重建核合；没有给新的4212展开源或来源费。
 
 - **全高度coherent Bessel与完整同w能量可和。** [完整跨头block和同源逆后预算](results/R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md)把全部 $1\le j<h_m$ 放进同一原行，τ14切点给常数2。原同w/carry与全PV−PK同余使ΣΔcoh有限，因而完整头逆后的头误差和全部正高度能量可和；任s≥S的完整boson来源同受控，并可先于cut选取Σlogx·F1有限的方差。保全部原Q与帽门，物理修复及完整返回逆仍未付。

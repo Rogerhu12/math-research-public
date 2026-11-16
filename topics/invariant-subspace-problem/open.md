@@ -43,6 +43,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **全高度同w预算现已闭。** [跨头完整coherent行与逆后能量可和](results/R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md)在原τ14快速切点给整个 $1\le j<h_m$ block的Bessel常数2，无高度损失；对同一个实际W中的w和g=P_xw，原全PV/PK低forcing恒等与真实carry使 $\sum\Delta_m\le(4+8\sum\eta_m^2)\|w\|^2$。这付完整Hcoh逆后的头误差与所有正高度；任意 $s_m\ge S_m$ 的完整boson Gram也受同一量控制，先于全部cut的log选参给 $\sum\log x_m F_{1,m}(s_m)<\infty$。所有强头分量、全部h、原Q/帽窗口均保；coherent列仅是物理闭列投影，未变为真核。下一把该准确能量接到原一次/完整MP与实际修复费用，不能乘未知增长逆范数。
 
+**全部高度的一次物理MP现已闭。** [固定方差倍数与同W修正平方和](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)保原完整全层右逆的 $512^j$，用 $s\in[c_*S,2c_*S],c_*=2\cdot512^2$ 的同源阻尼抵消，得到 $\|D^\dagger(C+D)f_s\|^2\le K_*\epsilon_s$，$K_*=1+47616c_*$。全部j<h及真实C^h=0顶项均保；接上文Δcoh给整个一次修正、修正后相对P_xw误差与原残余−Cq1的跨m平方和。f_s仍保原PV/PK，z1只有已付投影误差。下一付后继CD†循环/原完整最小源返回；真核终式 $D^j y_j=(-C)^ja$ 不含初始阻尼，不能把一次界直接反复应用而宣称完整塔已付。
+
 **新完整首反馈行已闭。** [跨头真实有限核比较](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)把原一步carry严格估为18κm−1，用fresh6d实际池和B^(3d)r=0终止修复；真一孔核截断误差O(m⁻6)，固定首头真实增益可和。保原τ14偶R/全部母窗口及真帽cut，任意同一个w的完整(Pi1−Pi0)Px行平方和<16||w||²，准确支付Σ[S||t||²+S²||C†t||²]。实际W还有独立真KQ正交＋β Bessel证明，任何合法几何窗口均用2Bλ+8Ση²，不需要跨头修复。全部dark核和全强头来源保留；该primitive预算不控制核外r=(I−PK)Gv、第二逆或二孔饱和费，下一继续这些真实项。
 
 **纯两孔无罚来源现已闭。** [全左低链及准确伴随消去](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)由完整0/1行得β1U∈RanC、β2U∈RanC²；真实低L*源消去Z一孔和AZ两孔，故固定首头可以用Fflat=P_RanC²q⊗ω2保持同PV−PK及同完整最小源。其费γflat²=σ2²||P_RanC²q||²≤旧正饱和费，准确等于T=K⊥∩RanC上的压缩C*C逆二次型；纯两孔Bessel、单位首头锚、同w及真帽外投影全部保。下一只估这一原受限费用，不再为已消去的Z行收费；未证其上界或N=M。
