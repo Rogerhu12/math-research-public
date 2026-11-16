@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：20984736d0376b262b83e9173bcfc4c3205f6056；2026-11-16 13:56:20 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 最近已读规则提交：8aa0be5eea4c181ce7d67a061dd92b755338a8eb；2026-11-16 13:57:30 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -30,7 +30,7 @@ R882全18源/绝对端点/原36cusps/D204保；五RR仍在运行：
 - tate19：43866568746/job133296518979/source59c56c693debc1d98b2a99495211ddb5277a40d8。
 原degree24属37与全Atkin属19的54+66、27+27+33+33完整RR及at^m回DS见R882B/C；附D/E直接全迹Newtown/Padé由q8000/t330、q4500/ξ170严格唯一，原U-GCD/两Atkin/全部边界不变。无任何RR PASS。
 
-R880原18×9/独立双轴/全部Artin及R883完整00/01/11/12除子、common-zero校正、闭点迹/W-Frob和九pair全保，详见上方完整H与R883。三pair非零仍等价A=p00−ω²p12或C=p11+ωφp01非零，ell7保两CM线；真dF<2256才取2256+r*dF，否则2256(r+1)，不预设dF。
+R880/R883原18×9/独立双轴/全部Artin、四完整除子、闭点迹/W-Frob与九pair按上方完整H保；同两真点A/C判据和真实dF选2256+r*dF或2256(r+1)不变。
 
 R883H全部Kummer层/非split闭点/负floor/δ嵌入与完整local后端已接四RR未执行。相对F_(r²) Norm终幂全scalar回归run43870209568/job133309066101成功含dell真ell²点，hash见原执行注，不扩可选测试。
 
@@ -43,7 +43,7 @@ consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只�
 R863同H22两低配对、R876谱、R879全部热/trace/高端/q3/CM词保原证明及归档。R884正文原T热D5仍含BS/BDref/Lp(C0)/全余项；BT0不赋热零、参考rank0不赋BDref零。附A/B的同V/T差准确回Q1=Q(N,J)、Q2=Q(N,A)，非恒定H22权和三个cross全保。
 
 R884附C–I的原U全部2/δ迹、C9/D9/N/P72°/R24/H18/P16及原四中央三联式详见正文与上方完整H；两固定Fraction运行均成功，未给任何trace赋中央零。H已把BQ48/BW0全化严格低配对，I第二δ返回−P16/(26208b)，质量1且2-new；D16=−16DR3/3+全低L16。原chat=(p+1)cint、Γ16/Fermat项、全部new/cross/原Unew144保。
-新[原CM cocycle](notes/2026-11-16-original-z-cm-cocycle-and-p2-four-source-transport.md)全证同Z的δ/2差，hδ=6δρp x²/(y(X−8))、h2=18ρp x²(X−2)/(yA2)，ρp明确unit。原P2缺陷Ξδ在两δ核首−3x²/4不能删；完整加权差同时保Z与P2/固定p次水平项，C4返回αν^(p^-4)dlog(1+8t)。四B全为X(σ6,Kν)−9X(σ6,Θ6)/10的严格低配对，仍须证同四行不能全零；theta续同原初值联合约束。
+新[原CM cocycle](notes/2026-11-16-original-z-cm-cocycle-and-p2-four-source-transport.md)全证Fp=Z+ρp r^p=xyP_(s−1)(X)，原ρp unit/全部有限多项式保。任固定CM α的hα=−ρp(α⁻¹Dlogqα+r∘α−barα r)，绝对qα/半特征/所有极与复合齐。原P2的Ξα与实际kα,p、完整ODE仍保；δ核首−3x²/4不可删。全四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM按§10独立充分大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍须联合非零，theta续同原初值。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 

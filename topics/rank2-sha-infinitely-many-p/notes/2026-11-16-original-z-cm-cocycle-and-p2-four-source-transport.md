@@ -441,3 +441,321 @@ $$
 [R636 原指定有理模型](../results/R636-original-rational-cartier-return-for-two-critical-rows.md)；
 [R853 原全极与第四 Cartier 行](../results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)；
 [R855 原 canonical 除 p 首行](../results/R855-original-full-heat-connection-and-canonical-divided-jet.md)。
+
+
+## 7. 原 Z 的单极 primitive 与完整有限多项式
+
+本节仍在(1)的同一个 $b=1$ 模型，所有等式均在特征 $p$。
+写 $r=x^2/y$，定义
+$$
+\mathscr F_p:=Z+\rho_p r^p.
+\tag{31}
+$$
+这不是改变原 $Z$ 的定义；下面始终以(31)的等式恢复原 $Z$。
+在任一非零二挠点 $Q=(e,0)$，有 $e^{2p}=-e$，
+故 $r^p$ 的整个负主部恰为 $-e/y^p$。
+由(5)，(31)在三个二挠点均正则。在 $O$，
+固定参数 $u=-x/y$ 给 $r=-u^{-1}+O(u^5)$，故
+$\mathscr F_p=-\rho_pu^{-p}+\cdots$，极阶恰 $p$。
+又
+$$
+D\mathscr F_p=1.
+$$
+$\mathscr F_p$ 为奇函数且 $\mu_6$ 型一。
+所以原 $L(pO)$ 中的准确型一基给
+$$
+\boxed{\mathscr F_p=xy\,P_{s-1}(X),\qquad
+P_{s-1}(X)=\frac12\sum_{k=0}^{s-1}
+(-1)^k\frac{(5/6)_k}{(4/3)_k}X^k.}
+\tag{32}
+$$
+
+为完整证明(32)，型一奇基正是
+$xy,xyX,\ldots,xyX^{s-1}$，因为其极阶依次为
+$5,11,\ldots,6s-1=p$。
+对 $xyP(X)$ 微分得
+$$
+6X(X+1)P'(X)+(5X+2)P(X)=1.
+\tag{33}
+$$
+若 $P=\sum P_kX^k$，则 $P_0=1/2$，
+$$
+P_k=-\frac{6k-1}{6k+2}P_{k-1}\quad(1\le k\le s-1).
+$$
+全部分母 $6k+2$ 为单位；最顶方程的系数
+$6(s-1)+5=p$ 为零。因此这些方程唯一给(32)。
+比较 $O$ 的完整最高极项，还给 $P_{s-1}=\rho_p$。
+
+将(31)乘 $y^p/x$，得到同一原多项式的精确恒等式
+$$
+\boxed{
+\frac12\sum_{j=0}^{3s-1}\binom{3s-1}{j}\frac{X^j}{3j+1}
++\rho_p X^{4s-1}
+=(X+1)^{3s}P_{s-1}(X).
+}
+\tag{34}
+$$
+这里使用 $2p-1=3(4s-1)$、$y^{p+1}=(X+1)^{3s}$。
+(34)保留全部高项，不只是首共振以前的截断。
+
+## 8. 任意固定 CM 倍乘的原 Z 全 cocycle
+
+先于 $p$ 固定非零 $\alpha\in\mathcal O_K$，记
+$d_\alpha=\alpha\bar\alpha$，并排除 $p\mid6d_\alpha$
+及该固定代数模型的分母坏集。
+这里 $d_\alpha$ 与前文 $d=X-8$ 不同。
+在原惰性剩余域内 $\alpha^p=\bar\alpha$。
+
+取原绝对 sigma division 函数
+$$
+q_\alpha(z)=\frac{\sigma(\alpha z)}{\sigma(z)^{d_\alpha}},
+\qquad
+j_\alpha=\frac1\alpha D\log q_\alpha.
+\tag{35}
+$$
+此处 $q_\alpha$ 的常数和半特征均固定：
+在 $O$ 的首项为 $\alpha z^{1-d_\alpha}$。
+它是原曲线上的代数有理函数，除子为
+$$
+\operatorname{div}(q_\alpha)
+=[\alpha]^*(O)-d_\alpha(O).
+$$
+一个直接的规范核对如下。
+原等边格的准周期满足
+$\eta(\alpha\ell)=\bar\alpha\eta(\ell)$，所以 sigma 商的指数倍率抵消。
+其半特征在 $\Lambda/2\Lambda$ 的三个非零类上均为 $-1$。
+若 $\alpha$ 在模二为单位，它置换这三个类且 $d_\alpha$ 为奇数；
+若模二为零，则 $\alpha\Lambda\subset2\Lambda$ 且
+$d_\alpha$ 为四的倍数。因此符号倍率也抵消。
+该固定函数及其首项在好约化下保持，不能另乘一个未记的 sigma frame。
+
+有整个函数域中的恒等式
+$$
+\boxed{
+\mathscr F_p\circ[\alpha]-\alpha\mathscr F_p
+=(-\rho_p j_\alpha)^p.
+}
+\tag{36}
+$$
+证明不依赖任何有限素数样本。
+左边被 $D$ 杀掉，故有唯一有理 $p$ 次根 $g$；
+其极只在 $E[\alpha]$，各至多简单。
+在任一非零核点，以不变微分 $\omega$ 归一切向参数，
+$g$ 的主系数是 $-\rho_p/\alpha$；
+这是(31)的极系数 $-\rho_p$ 与
+$[\alpha]^*\omega=\alpha\omega$ 的直接结果。
+而 $j_\alpha$ 在该点的主系数为 $1/\alpha$。
+
+在 $O$，同一计算给 $g$ 的主系数
+$\rho_p(\bar\alpha-\alpha^{-1})$；
+$j_\alpha$ 的主系数则是
+$(1-d_\alpha)/\alpha=\alpha^{-1}-\bar\alpha$。
+因此 $g$ 与 $-\rho_pj_\alpha$ 的全部主部一致。
+两者都是奇函数，故其无极差为奇常数，只能为零。
+这里只以切向归一计算简单极的系数；没有把随 $p$ 的局部积分参数
+当成先于 $p$ 固定的全局 frame。
+
+将(31)代回(36)，准确得到
+$$
+\boxed{
+\begin{aligned}
+Z\circ[\alpha]-\alpha Z&=h_{\alpha,p}^{\,p},\\
+h_{\alpha,p}
+&=-\rho_p\bigl(j_\alpha+r\circ[\alpha]-\bar\alpha r\bigr).
+\end{aligned}}
+\tag{37}
+$$
+所以对任一固定 $\alpha$，$h_{\alpha,p}/\rho_p$
+是先于 $p$ 固定的有理函数。
+这包括原 norm-seven 和 norm-thirteen 倍乘的完整函数，
+不只是其连接或指定一条特征线。
+
+极点也由(37)完整支付。
+在 $E[\alpha]\setminus\{O\}$，
+$j_\alpha$ 的主项 $1/(\alpha u)$
+与 $r\circ[\alpha]$ 的主项 $-1/(\alpha u)$ 抵消；
+在 $O$，三个显示项的主项同样抵消。
+所以 $h_{\alpha,p}$ 的极只可能在
+$$
+\mathcal D_2\ \cup\ [\alpha]^{-1}(\mathcal D_2),
+$$
+各至多简单；交叠处按同式保留实际相消。
+它在 $O$ 正则、型五，故为零或阶至少五。
+不能从这个上界断言任意 $\alpha$ 都有非零 cocycle，例如单位 $\alpha$ 的式子为零。
+
+由 $q_\delta=\delta x$、$q_2=-2y$，
+(37)逐字恢复(7)、(9)：
+$j_\delta=2y/(\delta x)$，
+$j_2=3r/2$。
+特别 norm-three 的固定括号为
+$-6\delta x^2/(y(X-8))$。
+对任意两个已固定的 $\alpha,\beta$，
+同一个原 $Z$ 还给准确复合式
+$$
+h_{\alpha\beta,p}
+=h_{\alpha,p}\circ[\beta]+\bar\alpha h_{\beta,p}
+=h_{\beta,p}\circ[\alpha]+\bar\beta h_{\alpha,p}.
+\tag{38}
+$$
+这保留 Frobenius 对系数的共轭；不能将 $\bar\alpha$ 换成 $\alpha$。
+
+## 9. 全 CM frame 中原 G 与 P2 的两个不同缺陷
+
+令 $P=\mathcal P_2$ 为(13)的原指定函数，并定义
+$$
+\begin{aligned}
+J_{\alpha,p}
+&=\alpha G\circ[\alpha]-d_\alpha G-D\log q_\alpha,\\
+Q_{\alpha,p}&=q_\alpha^2P^{d_\alpha},\\
+\Xi_{\alpha,p}&=P\circ[\alpha]-Q_{\alpha,p}.
+\end{aligned}
+\tag{39}
+$$
+这里必须保留原绝对 $q_\alpha^2$。
+虽然(35)的对数导数不读取它的常数，
+$Q_{\alpha,p}$ 与 $\Xi_{\alpha,p}$ 读取该常数。
+
+原 sigma 微分恒等式
+$$
+D^2\log q_\alpha
+=-\alpha^2x\circ[\alpha]+d_\alpha x
+$$
+与 $DG=-x+c_pZ^{p-1}$ 给
+$$
+\begin{aligned}
+DJ_{\alpha,p}
+&=c_p\{\alpha^2(\alpha Z+h_{\alpha,p}^p)^{p-1}
+-d_\alpha Z^{p-1}\}\\
+&=c_p d_\alpha
+\sum_{j=1}^{p-1}(-1)^j\alpha^{-j}
+h_{\alpha,p}^{pj}Z^{p-1-j}.
+\end{aligned}
+\tag{40}
+$$
+因为 $\alpha^{p+1}=d_\alpha$，
+零次项确切抵消。
+因此完整积分式为
+$$
+\boxed{
+J_{\alpha,p}
+=-c_p d_\alpha
+\sum_{j=1}^{p-1}\frac{(-1)^j}{j\alpha^j}
+h_{\alpha,p}^{pj}Z^{p-j}
++k_{\alpha,p}^{\,p}.
+}
+\tag{41}
+$$
+$k_{\alpha,p}^p$ 定义为(39)中的原函数减去显示有限和，
+其唯一 $p$ 次根存在是(40)的结果。
+它仍由原有限 $G$ 确定，不是一个可任意置零的常数或自由参数。
+
+原 $P2$ 的全部运输式为
+$$
+\boxed{
+\begin{aligned}
+&(D-2\alpha G\circ[\alpha])\Xi_{\alpha,p}\\
+&=2\alpha(H\circ[\alpha])^p
+       (\alpha Z+h_{\alpha,p}^p)^{p+1}
+ +2J_{\alpha,p}Q_{\alpha,p}\\
+&\hspace{1em}
+ -2d_\alpha q_\alpha^2P^{d_\alpha-1}H^pZ^{p+1}.
+\end{aligned}}
+\tag{42}
+$$
+证明只需对 $Q=q_\alpha^2P^{d_\alpha}$ 保全乘积微分：
+$$
+DQ=2(\alpha G\circ[\alpha]-J_{\alpha,p})Q
+ +2d_\alpha q_\alpha^2P^{d_\alpha-1}H^pZ^{p+1}.
+$$
+以原 $(D-2\alpha G\circ[\alpha])(P\circ[\alpha])$ 的方程减去本式的相应部分，
+便得(42)的全部符号。
+代 $d_\delta=3,q_\delta^2=-3x^2$，正好得到(17)。
+
+若 $d_p=p^3-p^2+p+1$，
+$\Xi_{\alpha,p}$ 的极支撑只在
+$\mathcal D_2\cup[\alpha]^{-1}\mathcal D_2$：
+原 $\mathcal D_2$ 上可用上界 $d_\alpha d_p$，
+其余逆像上可用 $d_p$。
+在 $O$，$q_\alpha^2P^{d_\alpha}$ 与 $P\circ[\alpha]$ 都阶二；
+在其它核点两者均正则。
+这些是实际极上界，不把相交或零点的可能消去省掉。
+因此(37)解决了原 $Z$ 的全 CM 函数，却没有消掉(41)、(42)的指定初值。
+前文(18)已给 $\Xi_{\delta,p}$ 真实非零的直接例证。
+
+## 10. 原四加权行在任意固定 CM 下的完整公式
+
+本节另加一个明确的充分大素数门：
+对本节固定的 $\alpha$，要求
+$$
+p>\max\!\left(211,\left\lfloor\frac{68d_\alpha+1}{2}\right\rfloor\right),
+\qquad p+1+136d_\alpha<p^2-1,
+\tag{43}
+$$
+并保留全部原坏集。
+norm-three 已在前文 $p>211$ 范围支付；norm-thirteen 不能免费沿用那个界。
+对任何先于 $p$ 固定的有限 CM 集，(43)只排除有限多个 $p$。
+
+仍只取原四个 $R_\nu$。记
+$$
+R_\nu^{(\alpha)}
+=q_\alpha^{2n_\nu}(R_\nu\circ[\alpha]),\qquad
+\eta_{\nu,p}^{(\alpha)}
+=Z^{-p-2}P^{d_\alpha n_\nu}R_\nu^{(\alpha)}\omega .
+$$
+这正是原来源 $A_\nu(\alpha z)$ 的完整函数部分。
+在每个非零 $\alpha$ 核点，$q_\alpha^{2n_\nu}$ 的零
+与 $R_\nu\circ[\alpha]$ 的原极相消，余阶恰六；
+唯一极点是 $O$，极阶 $2d_\alpha n_\nu-6$。
+(43)因此支付原有限 sigma 窗以及 R853 第四 Cartier 所需的整个极帽，
+其首读数准确为 $\alpha^{p+1}\alpha_\nu=d_\alpha\alpha_\nu$。
+
+定义
+$$
+\Delta_{\alpha,\nu,p}
+=\eta_{\nu,p}^{(\alpha)}-d_\alpha[\alpha]^*\eta_{\nu,p}.
+$$
+以(37)、(39)写成完整同输入公式是
+$$
+\boxed{
+\begin{aligned}
+\Delta_{\alpha,\nu,p}
+={}&Z^{-p-2}(R_\nu\circ[\alpha])\\
+&\cdot\left[
+Q_{\alpha,p}^{n_\nu}
+-\left(\frac{\alpha Z}{\alpha Z+h_{\alpha,p}^p}\right)^{p+2}
+ (Q_{\alpha,p}+\Xi_{\alpha,p})^{n_\nu}
+\right]\omega .
+\end{aligned}}
+\tag{44}
+$$
+这里 $d_\alpha\alpha=\alpha^{p+2}$；
+所有原 $P2$、绝对倍率及非 $p$ 次幂乘数均显示保留。
+
+R853 与 Cartier 自然性遂给
+$$
+\boxed{
+\begin{aligned}
+\mathcal C^4\Delta_{\alpha,\nu,p}
+&=d_\alpha\alpha_\nu^{1/p^4}
+  \bigl(\alpha r\circ[\alpha]-r\bigr)\omega\\
+&=\frac{d_\alpha}{3}\alpha_\nu^{1/p^4}
+  \,d\log\frac{y\circ[\alpha]}y .
+\end{aligned}}
+\tag{45}
+$$
+最后一步使用 $D\log y=3r$，
+没有从 Cartier 中提出(44)的整个括号。
+$\alpha$ 及 division 数据在 $\mathbf F_{p^2}$ 上，
+而 $p^4$ Frobenius 固定该域，故式中系数和原拉回规范一致。
+
+(45)在 $\alpha=\delta$ 时就是(24)–(26)。
+对于单位 $\alpha$ 其右端可为零；
+本节不把所有 $\alpha$ 的差都说成首行的等价非零检验。
+其实际用途是将同四个未知 $\alpha_\nu$
+准确运输到包括 norm-seven/norm-thirteen 的全部指定 frame，
+同时显示应保留的(41)、(42)。
+四条中央条件没有因此增加，
+(30)的四个完整低配对仍是需要联立处理的原标量。
+
+本增补为手证的有限多项式、全部极主部与原代数函数微分推导；
+没有数学执行、目标素数扫描或新增可重算输出。
