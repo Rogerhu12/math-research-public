@@ -136,3 +136,7 @@
 
 
 - **R271一位完整Schur双恢复反馈与全远尾原权投影返回（2026-11-16）：** [完整原source证明](results/R271-appendix-one-bit-restored-adjoint-feedback-and-weighted-projection-return.md)保σ_i=(bi/si)HiCa1i和α_i=(bi/si)C*Hi a1i的不同次序，以√ui Ti/Ti*同时白化；x≥2/h≤2x时Mx≤4，原V/K/U的两条反馈行各≤4Vg。新头首源Hi a0−g=−α的投影整行已付。完整低forcing门Q≥R+h+1使三个实际投影的creation行≤4Vg；结合真creation源合成，任意|ci|≤1的全尾Σbi ci[PEEi*i0σ_i−Ei*ZEσ_i]≤11√S√Vg（V/K可7），且保Q+1输出与无限自然合成域。仍只指定Schur来源，未认作全部原MP返回。
+
+
+
+- **R271确定大辅助方差的共同源严格反馈行收缩（2026-11-16）：** [完整原度量证明](results/R271-appendix-large-auxiliary-variance-common-source-row-contraction-and-physical-return.md)取t=xS而不随forcing/cut改参，H0≤Hi≤e^(6/x)H0；x≥64/h≤2x时Σ(Ai*G0Ai+Si*G0Si)≤36G0/x，故固定C/H0的全部反馈词平方能量按(36/x)^k衰减。保原ε0=Σj≥1Ej≤Δ²，全部loss≤16ε0/x、物理EiFi行≤25ε0/x、首恢复ZEHi a1行≤41ε0/x，两个恢复反馈各≤16ε0/x；指定creation投影交换原权合成≤30√(Sε0/x)。没有把固定模型树与真实MP/顺次变头等同；辅助方差占x/(x+1)，移除aux仍须独立支付。
