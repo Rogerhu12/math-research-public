@@ -1,0 +1,37 @@
+name: Rank2 complete original U A8 two-division trace
+"on":
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-u-a8-trace.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/check-r884-original-u-a8-two-division-trace.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-u-a8-trace
+  cancel-in-progress: false
+jobs:
+  original-u-a8-trace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/rank2-sha-infinitely-many-p/README.md
+            /topics/rank2-sha-infinitely-many-p/scripts/check-r884-original-u-a8-two-division-trace.py
+          persist-credentials: false
+      - name: Compute all four fibres and the six exact source coordinates
+        shell: bash
+        run: |
+          set -euo pipefail
+          export RANK2_SOURCE_SHA="$GITHUB_SHA"
+          export RANK2_RUN_ID="$GITHUB_RUN_ID"
+          export RANK2_ROOT_README_SHA="$(git rev-parse HEAD:README.md)"
+          export RANK2_TOPIC_README_SHA="$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)"
+          timeout --kill-after=10s 300 python3 -u topics/rank2-sha-infinitely-many-p/scripts/check-r884-original-u-a8-two-division-trace.py

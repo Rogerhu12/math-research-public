@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：924ea9315f76eeeda789d0bcff82e9f5d213edbd；2026-11-16 11:55:34 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:55:32 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
+- 最近已读规则提交：cac5b3338b0f0a2d5c930e030fd8e375debecf93；2026-11-16 11:57:17 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:55:32 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-fricke24-execution.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–884已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-two-division-trace.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–884已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 当前第一实际门：原映射、真RR与完整shadow
@@ -39,13 +39,11 @@ original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按�
 
 ## 当前第二门：四原B与同一低配对
 
-原S34/T72/U136/V66、charge17/36/68/33、全部CM13/Euler/Schwartz/p²p³和原通常全Selmer保完整前检。R816/820已付E−11 rank≥2，仍须同一无穷p上完整J′非零。
+原S34/T72/U136/V66、charge17/36/68/33及全部CM13/Euler/Schwartz/p²p³/通常全Selmer保。R816/820付E−11 rank≥2；仍须同一无穷p原J′非零。共同C24指定c*=(1,−4/7,16/7)的实际三行保，不能将伙伴分别赋中央零。
 
-共同C24原三列/指定c*=(1,−4/7,16/7)把四B同时零化为BS0且M_pc*0，三行的真伙伴/全部低cross/二挠运输不删。R863原Z2−455S/2664=∇Θ17 C0，C0=−σ2³H22/21312给两个完整H22低配对；R876四维CM循环/原谱身份不赋新中央。
+R863同H22两个整低配对、R876谱及R879全部热/trace/高端/q3/CM词保[完整H](notes/2026-11-16-frontier-before-two-division-trace.md)与原证明。R884正文把原T热返回接D5Ghat=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+全余配对；BT0不赋热左行零，参考rank0不赋BDref0。附A的VΘ−T/Θ²=8bK46H′22保真实非恒定权和两个cross，J34/S的Dlog仅付同P2 Cartier返回。附B设A=SΘ、N36=A−old，L36−J36=252A及3VΘ³−2T=A(D36+1008bN36)使两原差准确减Q(N36,J36)、Q(N36,A)；第二是同S自配对，三个质量一cross/未加权H22/U均未消。
 
-R879附A–E付原V/C30热trace、H22整CM词、高端/q3消元、degree10旧行与同D2B4/D1Theta及全Y/Z；原m2的固定degree24水平框仍保依p高算子/modp²。共同b1原D1Theta接g_flat的s行，不是Hp/h1或K1末三尾。所有new余项仍保。
-
-R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X−32b³)/28；Ghat=G24+∇C24/20消E0高端，Ebar=(51E1+222E2)/770。指定D5=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+完整严格<p余配对。BT0不赋热左行零，参考秩0不赋BDref0。附A原VΘ−T/Θ²=8bK46H′22实搬两个中央，仍保两个cross；K46=σ2³J34、∇Θ17A34=J34保真实非恒定权。J34/S=Dlog(−y/x²)/8接同P2^34 Cartier，未获新零。附B同A=SΘ与真N36=A−old，将原VT两差准确减成Q(N36,J36)和Q(N36,A)：L36−J36=252A，3VΘ³−2T=A(D36+1008bN36)。后者是同S自配对，仍保三个质量一cross，未赋零。theta续实际乘子/原配对。
+原U·A8四纤维全trace的Fraction producer与独立公开workflow已提交触发，精确六系数/实际A,N,J span回执待取；不把trace的B赋零。theta续同U二挠和原低配对。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 
