@@ -184,3 +184,7 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### 2026-11-16 08:44:11 UTC — cap五门首步修复，消费同一剩余账户
 
 [唯一修复补记](notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md)：DOP853显式first_step=1e−6，其余数学族/六起点/容差/maxstep/解析敏感度不变。原run43831664308/job133178210211已付prefix从原stdout一次恢复，删除前缀求积函数与导入；carry .5630522320000182秒、2/1/1积分、14RHS、63prefix回调、8431输出字节，下一积分id3/记录id7。仍原120秒/400started，科学imports/input/失败/输出扣同一余额；FINAL总时钟读total_same_scope_seconds_including_carried，不能只读新进程时长。原文件/hash见request；0本地执行/编译/测试/旧checks。Public同workflow只触发本次实际错误续算，尚无完整新结果，主门继续。
+
+### 2026-11-16 08:51:05 UTC — 真正十五参数cap完整有限观察结束
+
+[原结果](notes/cap-five-positive-curvature-bounded-observation-20261116.md)：run43833666242/job133184846641/source39fc3f0e…，同120秒含旧失败总114.27892698800002秒，166/164/2积分、954103RHS、已付prefix63且新0。六固定起点仅前三完成、第四预算截断；best96→同参数165/166，H.6960893596735331、五Δ/R5∞.17708499746487424，完整E=−.0002570121087685784+.0001102404668311685i，无零/非存在结论。两精化差3.55e−12仅浮点，旧ψ3E/self/rank/开发0。已闭原15族/六起点预算，不回开余额；接真正新模型或全局障碍。双actualpull空diff，公开已读39fc3f0e…/私有9b9a17ff…，QUEUE唯一进行中，下一≤09:44:44。第54新模型仍在运行，主几何完成门未付。
