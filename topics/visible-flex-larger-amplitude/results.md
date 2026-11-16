@@ -394,3 +394,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R532 — 同次owner128投影绑定与原DN完整stage模型库
 
 **已证明，限完整输入/输出条件的有限程序组成；源码未执行。** [R532](results/R532-current-owner128-projection-and-complete64-stage-library.md)三件84417B：binder25000/fab3、同DN库32316/2279、完整证明27101/d811。显式四真实source/七schema/run/call/H、全owner state/residual/stage和原tol/fresh replay绑定；原b233一次投影全577×224，原同一DN/engine/profiles/steps执行全576×226×224，端口前后224²与双mean及原诊断/完整ledger全保。模型不冒128导数或64已收敛；原128值/residual/replay与最终非线性门仍权威。每stage全输出先耐久再推进，partial保真实错误/已写尾字及全未付后缀；必要完整≤90K否则70，raw保、cleanup_authorized=false。原clock真实回调及同步cell owned hard-stop须实际caller接，不能混用Node/Python epoch。尚未注册owner-first/lift/新boundary/assembly整链或新request，R534 geometry继续；R509先行owner成本另由root R535处理。H/open旧完整记录固定9f355941，open§4–6逐字不动，全部旧责任持续。
+
+
+## R533 — 完整39必要对象的具名关系与精确还原
+
+**已证明必要对象精确还原与全正文不增；未执行新科学。** [R533](results/R533-complete39-lossless-necessary-semantic-relations.md)/[接口](notes/2026-11-16-complete39-lossless-necessary-semantic-relations-interface.md)三件65743B：module32027/385c、proof19750/07ba，接口13966仅11→10根成员文字勘误。真实f793 compose后仅两RMS同context完整rows严格相等、两index-set、17具名batch节点、五原文件回执、真实pair/query与闭名单常量列；所有既选科学值/失败/未访/类型/负零/缺键/null/行序精确逆还原。完整候选及最后whole body计入新source/header均严格更短才保，否则返回原对象，原90K/70不变。24行selected-index单项仅省1773B，不知旧113011/113361正文、无fit保证；真实overflow具名大小定位不代科学body。原helper真实最后compose及shared normal/recovery publish两接点齐，R540/228完整新来源/namespace另接，未注册/派发，不新增fixture/门或恢复已删父。

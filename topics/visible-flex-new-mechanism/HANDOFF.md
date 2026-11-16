@@ -4,7 +4,7 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于11:18:55→11:19:06 UTC真实pull --rebase，已读上游 **bff10ea5f2ac2519f9dcf1f8eed96f11827511ec**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:52:32 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于11:21:36→11:21:47 UTC真实pull --rebase，已读上游 **90624b88396cbc1becf0d66ad0bb7f1b033c1ca9**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:52:32 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
 早前NFF实际read 99a83bde6ec9654dfee36057afaf2dcdcc8a5c15、2ed5c7bb1af5283fac6a6131fb4605d8234ea8ad，双README空diff；逐pull历史保H提交。
 
@@ -42,7 +42,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)付同w/反射中心的非零真实前缀：完整even逐矩抵消，四相位β核≥4维；R70正时桥可排非回文标记字，片段共用K。未锁Gram可一次清片段，已锁13仅保持；桥内/全period/完整V未付。
 
-[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真13状态/2输入受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
+[R505](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)从起点同形母库完整消YC含历史/尾，ZZ=sin²θ E；固定一χ付参考secant及另一h0>H、m=mg、γ0≠0正规入口。真实八矩受约束ODE给非恒k局部全相位K0，常秩纤维保自身两端germs/有限阶全传递。参考secant固定state的两速度一导全零；连接桥/全部period/13/真正有限等距族仍欠，不搬旧19/20母收据。
+
+[R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)同一R505库/w/χ下，两速度Gram全合法态SPD，完整椭圆允许正负h速度。零有向面积光滑8字及3角方向满秩IFT给任意充分短正时h/k/ω准确返回、k非恒、全段全相位K0；两端仅k_s=ω_s0，不同germs。原t1增量有严格负O(ε)项，frame/位置及全部3/4成本未返回；不冒M0/period或参考入口桥。
 
 ## 4. 当前真正接受点57与已闭任务
 
@@ -60,4 +62,4 @@ CACHE2 29866451B/d92a1112ee337ef84fef673cc46c326404a67ca3ed7e40e68efff9d0c3316b0
 
 57新模型需当前真实导数，必要二jets尚未保存，重建如实计费。[后继源码](notes/complete168-nonlinear-metric-and-selected-paid-jet-interfaces-20261116.md)有直接actual168非线性metric、paid selected二jets出口/全168 J适配，0执行。未来接受先学习pool再趁ordinary内存导出，不能倒填57或伪造未存hard点。非线性metric/曲率另立身份/预算，原14门保。
 
-O4接.6<H<H*同图五门联合零/新finite exact证书及R505同母库实际桥/全period/13。R507正推同χ真实scalar返回段，未发布前不计结果。三/四原子闭账不重跑；主完成未付，不停止。
+O4接.6<H<H*同图五门联合零/新finite exact证书及R505同母库实际桥/全period/13。R507已付真实scalar返回，接其非零矩阵/frame/位置成本和参考入口桥。三/四原子闭账不重跑；主完成未付，不停止。
