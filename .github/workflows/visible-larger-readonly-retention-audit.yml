@@ -1,0 +1,144 @@
+name: Visible larger targeted read-only historical retention audit
+on:
+  push:
+    branches:
+      - visible-flex-larger-amplitude-retention-audit-r2-20261116
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Read only the explicit immutable audit source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: f93b079e400c336f12751728ba388d6a9e769779
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Scan all repository references without scientific execution
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PYRETENTION'
+          import hashlib, json, os, pathlib, subprocess, sys
+          ROOT=pathlib.Path.cwd()
+          EXPECTED="f93b079e400c336f12751728ba388d6a9e769779"
+          CANDIDATES=json.loads(r'''[{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-current19-readonly-relocation-r1-inventory.json","bytes":398006,"blob":"79058a799741ae0657ac8e868bcab419a8b4dd6b","sha256":"576c1241bf6223f0b121fe279e4e0743e6796a0303aae9fcbf521b88bbb2a2a8","role":"historical_administrative_inventory"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-geometry-old-derived-array-cleanup-r1-inventory.json","bytes":217969,"blob":"160ea730247cd2d9f9fa4fd83dcfabdfaecb0f49","sha256":"32a5d39a35966823a3635c336889ab0db26f4735bd8af37c5f801439406f7627","role":"historical_administrative_inventory"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-old17-derived-geometry-cleanup-r1-inventory.json","bytes":215431,"blob":"0601d83451884067ded17cddcd66c0e2d5bcbc68","sha256":"c6ebab4327f3510a6d2162aae5b9f3aabb38a626b330cf53c6d4aae4a6817aa3","role":"historical_administrative_inventory"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-old-m32-q122-derived-retirement-r1-inventory.json","bytes":183331,"blob":"33a90988abb73bcb02149844955d6e0ba8187b07","sha256":"27df4591b1f19ec2b9a5372fd21b60e537feec8f432a0e3df5a3e904d55b1d91","role":"historical_administrative_inventory"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-current19-readonly-relocation-r1-receipt.jsonl","bytes":200757,"blob":"e0fe5574ec660960b8a440d30d8bdb44723db8b0","sha256":null,"role":"historical_administrative_receipt"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-current19-readonly-relocation-r1-manifest.json","bytes":2459,"blob":"6c4473854198b74e05328a5a6b100c29aa36031c","sha256":null,"role":"historical_package_manifest_reference_context"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-geometry-old-derived-array-cleanup-r1-manifest.json","bytes":1258,"blob":"d6a24079271b0ceea14b2165ae23f1144d2ca033","sha256":null,"role":"historical_package_manifest_reference_context"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-old17-derived-geometry-cleanup-r1-manifest.json","bytes":3133,"blob":"79a9f073e101258743bbe0aaf86997f0dc223f6d","sha256":null,"role":"historical_package_manifest_reference_context"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-old-m32-q122-derived-retirement-r1-manifest.json","bytes":1546,"blob":"7001ebd7f1f46613d97d15f8b07ffff1acc98936","sha256":null,"role":"historical_package_manifest_reference_context"},{"path":"topics/visible-flex-larger-amplitude/log-checkpoint-before-R431.md","bytes":99074,"blob":"83a22ad53209cf2d7f284384b043c48cfce4070b","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/results-index-through-actual120.md","bytes":97869,"blob":"af2018f8686fda33d088c581121be30172d984d8","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/results-index-through-request212.md","bytes":96775,"blob":"3e48931cecfeb89470bbbec272783f66b38be4e8","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/results-index-before-request195.md","bytes":96703,"blob":"771eae35f3150a2e1792545fc60a170f1d91a15c","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/notes/2026-11-13-root-log-history-through-8ed411c73e21.md","bytes":96493,"blob":"59f13c5fa1b6d7a8cd54f55e93f6b66a50e0cb9c","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/log-checkpoint-through-request109-2026-11-15.md","bytes":96186,"blob":"9c30732c8d7fa6e8017dad9a47b46a801f44fbcf","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/log-checkpoint-through-request151-target-2026-11-15.md","bytes":93093,"blob":"c365cc745f6101776d646553162f2da665503d13","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/log-through-R478-2026-11-16.md","bytes":92604,"blob":"4ced3974068226e6c64a7eec331b6b587a762363","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/notes/log-through-2026-11-14-pre-resume.md","bytes":92292,"blob":"6157d33b309552a9833475acfef430945a45d4ad","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/log-archive-before-request17-2026-11-14.md","bytes":67527,"blob":"2914d103ff055a7dc2422d8b7e182dcb3ec6a2e5","sha256":null,"role":"historical_markdown_log_or_results_index"},{"path":"topics/visible-flex-larger-amplitude/log-archive-before-1930-2026-11-14.md","bytes":65137,"blob":"66aba2d1486dd193474e062aae05bb1c841c9981","sha256":null,"role":"historical_markdown_log_or_results_index"}]''')
+          SUPPLEMENTAL=json.loads(r'''["current19-readonly-array-relocation-inventory-v1","approved-old-derived-geometry-array-cleanup-inventory-v1","authorized-completed-old17-derived-geometry-removal-inventory-v1","authorized-old-m32-q122-derived-chunk-retirement-inventory-v1","relocate_completed_current19_arrays_readonly.py","prune_verified_old_geometry_arrays.py","remove_completed_old_m28_geometry_arrays.py","retire_completed_m32_q122_geometry_chunks.py"]''')
+          def run(argv):
+              p=subprocess.run(argv,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+              if p.returncode:
+                  raise RuntimeError("Metadata command failed: "+repr(argv)+": "+p.stderr.decode("utf-8","replace"))
+              return p.stdout
+          def digest(b): return hashlib.sha256(b).hexdigest()
+          head=run(["git","rev-parse","HEAD"]).decode().strip()
+          if head!=EXPECTED: raise RuntimeError("Checkout differs from the fixed audit source")
+          tracked=run(["git","ls-files","-z"]).decode("utf-8").split("\0")
+          tracked=[x for x in tracked if x]; tracked_set=set(tracked)
+          ids=[]
+          for c in CANDIDATES:
+              p=ROOT/c["path"]
+              if not p.is_file() or p.is_symlink(): raise RuntimeError("Candidate is not an original ordinary file: "+c["path"])
+              b=p.read_bytes(); blob=run(["git","rev-parse","HEAD:"+c["path"]]).decode().strip()
+              if len(b)!=c["bytes"] or blob!=c["blob"] or (c["sha256"] is not None and digest(b)!=c["sha256"]):
+                  raise RuntimeError("Candidate identity changed: "+c["path"])
+              ids.append(dict(c,actual_bytes=len(b),actual_sha256=digest(b),actual_blob=blob))
+          patterns=[]; owners=[]
+          def add(t,owner,kind):
+              if not t or "\n" in t or "\0" in t: raise RuntimeError("Invalid literal metadata token")
+              try: i=patterns.index(t)
+              except ValueError:
+                  i=len(patterns);patterns.append(t);owners.append([])
+              if [owner,kind] not in owners[i]: owners[i].append([owner,kind])
+          for i,c in enumerate(ids):
+              for value,kind in [(c["path"],"repo_path"),(pathlib.PurePosixPath(c["path"]).name,"basename"),
+                                 (c["actual_blob"],"git_blob"),(c["actual_sha256"],"sha256")]:
+                  add(value,i,kind)
+          for t in SUPPLEMENTAL: add(t,None,"schema_or_administrative_writer")
+          tmp=pathlib.Path(os.environ["RUNNER_TEMP"])/"historical-retention-audit"
+          tmp.mkdir(exist_ok=False)
+          pf=tmp/"literal-patterns.txt";pf.write_text("\n".join(patterns)+"\n",encoding="utf-8")
+          argv=["rg","--text","--files-with-matches","--null","--fixed-strings","--file",str(pf),
+                "--hidden","--no-ignore","--glob","!.git/**","--glob","!**/.git/**","."]
+          try:
+              p=subprocess.run(argv,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+              scan_backend="rg --text"
+          except FileNotFoundError as exc:
+              if exc.filename!="rg": raise
+              argv=["git","grep","-a","-l","-z","-F","-f",str(pf),"--","."]
+              p=subprocess.run(argv,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+              scan_backend="git grep -a (rg executable absent)"
+          if p.returncode not in (0,1): raise RuntimeError("Full repository literal scan failed: "+p.stderr.decode("utf-8","replace"))
+          paths=sorted(set(x[2:] if x.startswith("./") else x for x in p.stdout.decode("utf-8").split("\0") if x))
+          if any(x not in tracked_set for x in paths): raise RuntimeError("Unexpected untracked reference")
+          enc=[s.encode("utf-8") for s in patterns]
+          files=[];lines=[]; counts=[0 for _ in patterns];scope=[[] for _ in ids]
+          for path in paths:
+              f=ROOT/path
+              if f.is_symlink(): raise RuntimeError("Matching symlink needs separate target review: "+path)
+              b=f.read_bytes();fid=len(files)
+              kind=("markdown" if path.lower().endswith(".md") else
+                    "code_or_workflow" if path.endswith((".py",".mjs",".js",".ts",".cpp",".hpp",".h",".c",".sh",".yml",".yaml")) else
+                    "json_input_or_metadata" if path.endswith((".json",".jsonl")) else "other")
+              files.append([path,len(b),digest(b),kind])
+              for n,line in enumerate(b.splitlines(keepends=True),1):
+                  hits=[]
+                  for pi,token in enumerate(enc):
+                      pos=0
+                      while True:
+                          at=line.find(token,pos)
+                          if at<0: break
+                          hits.append([pi,at]);counts[pi]+=1;pos=at+len(token)
+                  if not hits: continue
+                  li=len(lines)
+                  # Full matching addresses and token identities are returned.
+                  # Context snippets are only for code/workflow; no large scientific rows are emitted.
+                  contexts=[]
+                  if kind=="code_or_workflow":
+                      for pi,at in hits:
+                          lo=max(0,at-60);hi=min(len(line),at+len(enc[pi])+80)
+                          contexts.append([pi,lo,line[lo:hi].decode("utf-8","backslashreplace")])
+                  lines.append([fid,n,len(line),digest(line),hits,contexts])
+                  for ci in sorted({owner for pi,at in hits for owner,k in owners[pi] if owner is not None}):
+                      if path!=ids[ci]["path"]: scope[ci].append(li)
+          readmes=[]
+          for path in ["README.md","topics/visible-flex-larger-amplitude/README.md"]:
+              b=(ROOT/path).read_bytes()
+              readmes.append(dict(path=path,bytes=len(b),sha256=digest(b),blob=run(["git","rev-parse","HEAD:"+path]).decode().strip()))
+          status=run(["git","status","--porcelain","--untracked-files=all"]).decode()
+          if status: raise RuntimeError("Read-only checkout changed: "+status)
+          report=dict(schema="targeted-historical-retention-literal-reference-audit-v1",
+              repository="Rogerhu12/math-research-public",actual_head=head,
+              actual_tree=run(["git","rev-parse","HEAD^{tree}"]).decode().strip(),
+              actual_topic_tree=run(["git","rev-parse","HEAD:topics/visible-flex-larger-amplitude"]).decode().strip(),
+              actual_run_id=os.environ.get("GITHUB_RUN_ID"),actual_workflow_source=os.environ.get("GITHUB_SHA"),
+              scientific_commands_executed=False,scientific_logs_fetched=False,files_deleted=False,
+              checkout_unchanged=True,readmes=readmes,tracked_file_count=len(tracked),
+              scan_scope="All tracked repository files; declared rg --text or git grep -a scans literal bytes; no scientific import or numeric evaluation",
+              actual_literal_scan_backend=scan_backend,actual_literal_scan_command=argv,
+              candidates=ids,pattern_columns=["literal","owners_candidate_and_kind","match_count"],
+              patterns=[[t,owners[i],counts[i]] for i,t in enumerate(patterns)],
+              file_columns=["repo_path","bytes","sha256","category"],files=files,
+              matching_line_columns=["file_index","one_based_line","line_bytes","line_sha256","all_pattern_and_zero_based_byte_offsets","code_contexts"],
+              matching_lines=lines,
+              references=[dict(candidate_index=ci,all_matching_line_indices=lis,
+                  non_markdown_reference_files=sorted({files[lines[li][0]][0] for li in lis if files[lines[li][0]][3]!="markdown"}),
+                  markdown_reference_files=sorted({files[lines[li][0]][0] for li in lis if files[lines[li][0]][3]=="markdown"}))
+                  for ci,lis in enumerate(scope)],
+              complete_literal_match_addresses_returned=True,large_original_line_bodies_not_exported=True,
+              arbitrary_dynamic_paths_or_external_consumers_absence_not_claimed=True,
+              no_automatic_deletion_approval=True)
+          raw=(json.dumps(report,ensure_ascii=False,separators=(",",":"))+"\n").encode("utf-8")
+          (tmp/"summary.json").write_bytes(raw)
+          if len(raw)>90000:
+              print(json.dumps(dict(schema=report["schema"],complete_body_returned=False,bytes=len(raw),
+                  sha256=digest(raw),reason="Complete reference metadata exceeds 90000; no candidate removed")))
+              raise SystemExit(70)
+          print("BEGIN_TARGETED_HISTORICAL_RETENTION_AUDIT")
+          sys.stdout.write(raw.decode("utf-8"))
+          print("END_TARGETED_HISTORICAL_RETENTION_AUDIT")
+          print(json.dumps(dict(event="readonly_retention_audit_complete",bytes=len(raw),sha256=digest(raw),
+              fixed_source=head,scientific_computation=False,files_removed=False)))
+          
+          PYRETENTION
