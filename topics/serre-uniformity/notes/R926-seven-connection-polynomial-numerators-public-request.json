@@ -1,0 +1,240 @@
+{
+  "schema": "source-bound-public-Action-v2-manifest-expanded",
+  "session": "serre-public-astra-20261115",
+  "request_id": "R926-original-seven-bounded-connection-polynomial-numerators",
+  "result": "R926-original-seven-bounded-connection-polynomial-numerators",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "budget_minutes": 300,
+  "maximum_divisors": 7,
+  "resume": null,
+  "core": "R926_original_seven_connection_polynomial_numerators.py",
+  "core_sha256": "970a539931f7d101b8c624b2c7fc56b74b96b75e727e65fe22808de37af9583d",
+  "wrapper": "R926_public_original_seven_connection_polynomial_numerators.py",
+  "wrapper_sha256": "a1b5ec8e061cc91e6427adf6311a4ba2d0ea711db7b290aef9c9fac9d61a698d",
+  "workflow": ".github/workflows/serre-R926-seven-connection-polynomial-numerators.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R926-original-seven-bounded-connection-polynomial-numerators-method.md",
+  "method_sha256": "c4d05c61187dfcc5997e737f3a072d40b540e67d81bbe899089fb0120b9506c2",
+  "proofs": {
+    "R922": {
+      "path": "results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md",
+      "sha256": "75e0e04e986203598b556403b4ea8eec3706da838e934ae11810c5abda569731"
+    },
+    "R905": {
+      "path": "results/R905-certified-original-seven-trace-dual-connections-and-five-Picard-inputs.md",
+      "sha256": "7fd90966e9b7713f1991be10840156b6b7138892e07f6f20f966e3e3082ade2a"
+    }
+  },
+  "sources": {
+    "R905": {
+      "result": "R905-original-seven-bounded-divisor-connections-and-five-Picard-inputs",
+      "run_id": "43893738459",
+      "source_commit": "f4589d2b0d8f5e2a914ca165a601351d09c303a9",
+      "core_sha256": "d0810c2938bfd6abe1c371bb0d3f1c2b6514fa38c381431c4af84cc9af72a92c",
+      "configuration_sha256": "fe220a1b3216cd28a16d0d3c1916f4660b7708c39a129e8696ba285c2c9e7136",
+      "manifest_sha256": "b11afeda52eb05af86a6fe162484854c29e0764acb26fb383f3f04d214b63fb0",
+      "manifest_bytes": 14778,
+      "manifest_file_count": 98,
+      "artifact_id": 14238516346,
+      "artifact_name": "serre-global-R905-trace-dual-connections-43893738459-1",
+      "archive_bytes": 67679896,
+      "archive_sha256": "f4ef0ba08998b69ffd87d7d2bf2fca51701d11a518273a8b7e00071fa3b6cf0a",
+      "expected_conclusion": "success",
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "stage_result_location": "top_level",
+      "certificate": {
+        "file": "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json",
+        "bytes": 17015,
+        "sha256": "24045a35dcd878cad48d28aea20bce7077161b0eb9dc86113a54ba83bc71d4a4"
+      },
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json",
+        "R905-D1-exact-regular-connection-DAG.json.gz",
+        "R905-D1-complete-bundle-unit-graph.json.gz",
+        "R905-D1-complete-quotient-and-h-division-models.json.gz",
+        "R905-D1-complete-full-principal-parts-solution.json.gz",
+        "R905-D2-exact-regular-connection-DAG.json.gz",
+        "R905-D2-complete-bundle-unit-graph.json.gz",
+        "R905-D2-complete-quotient-and-h-division-models.json.gz",
+        "R905-D2-complete-full-principal-parts-solution.json.gz",
+        "R905-D3-exact-regular-connection-DAG.json.gz",
+        "R905-D3-complete-bundle-unit-graph.json.gz",
+        "R905-D3-complete-quotient-and-h-division-models.json.gz",
+        "R905-D3-complete-full-principal-parts-solution.json.gz",
+        "R905-D4-exact-regular-connection-DAG.json.gz",
+        "R905-D4-complete-bundle-unit-graph.json.gz",
+        "R905-D4-complete-quotient-and-h-division-models.json.gz",
+        "R905-D4-complete-full-principal-parts-solution.json.gz",
+        "R905-D5-exact-regular-connection-DAG.json.gz",
+        "R905-D5-complete-bundle-unit-graph.json.gz",
+        "R905-D5-complete-quotient-and-h-division-models.json.gz",
+        "R905-D5-complete-full-principal-parts-solution.json.gz",
+        "R905-X-exact-regular-connection-DAG.json.gz",
+        "R905-X-complete-bundle-unit-graph.json.gz",
+        "R905-X-complete-quotient-and-h-division-models.json.gz",
+        "R905-X-complete-full-principal-parts-solution.json.gz",
+        "R905-DN-exact-regular-connection-DAG.json.gz",
+        "R905-DN-complete-bundle-unit-graph.json.gz",
+        "R905-DN-complete-quotient-and-h-division-models.json.gz",
+        "R905-DN-complete-full-principal-parts-solution.json.gz"
+      ],
+      "pinned_files": {
+        "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json": {
+          "file": "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json",
+          "bytes": 17015,
+          "sha256": "24045a35dcd878cad48d28aea20bce7077161b0eb9dc86113a54ba83bc71d4a4"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 14778,
+          "sha256": "b11afeda52eb05af86a6fe162484854c29e0764acb26fb383f3f04d214b63fb0"
+        }
+      }
+    }
+  },
+  "input_bindings": {
+    "divisors": {
+      "D1": {
+        "connection": {
+          "source_group": "R905",
+          "file": "R905-D1-exact-regular-connection-DAG.json.gz"
+        },
+        "bundle": {
+          "source_group": "R905",
+          "file": "R905-D1-complete-bundle-unit-graph.json.gz"
+        },
+        "quotient": {
+          "source_group": "R905",
+          "file": "R905-D1-complete-quotient-and-h-division-models.json.gz"
+        },
+        "solution": {
+          "source_group": "R905",
+          "file": "R905-D1-complete-full-principal-parts-solution.json.gz"
+        }
+      },
+      "D2": {
+        "connection": {
+          "source_group": "R905",
+          "file": "R905-D2-exact-regular-connection-DAG.json.gz"
+        },
+        "bundle": {
+          "source_group": "R905",
+          "file": "R905-D2-complete-bundle-unit-graph.json.gz"
+        },
+        "quotient": {
+          "source_group": "R905",
+          "file": "R905-D2-complete-quotient-and-h-division-models.json.gz"
+        },
+        "solution": {
+          "source_group": "R905",
+          "file": "R905-D2-complete-full-principal-parts-solution.json.gz"
+        }
+      },
+      "D3": {
+        "connection": {
+          "source_group": "R905",
+          "file": "R905-D3-exact-regular-connection-DAG.json.gz"
+        },
+        "bundle": {
+          "source_group": "R905",
+          "file": "R905-D3-complete-bundle-unit-graph.json.gz"
+        },
+        "quotient": {
+          "source_group": "R905",
+          "file": "R905-D3-complete-quotient-and-h-division-models.json.gz"
+        },
+        "solution": {
+          "source_group": "R905",
+          "file": "R905-D3-complete-full-principal-parts-solution.json.gz"
+        }
+      },
+      "D4": {
+        "connection": {
+          "source_group": "R905",
+          "file": "R905-D4-exact-regular-connection-DAG.json.gz"
+        },
+        "bundle": {
+          "source_group": "R905",
+          "file": "R905-D4-complete-bundle-unit-graph.json.gz"
+        },
+        "quotient": {
+          "source_group": "R905",
+          "file": "R905-D4-complete-quotient-and-h-division-models.json.gz"
+        },
+        "solution": {
+          "source_group": "R905",
+          "file": "R905-D4-complete-full-principal-parts-solution.json.gz"
+        }
+      },
+      "D5": {
+        "connection": {
+          "source_group": "R905",
+          "file": "R905-D5-exact-regular-connection-DAG.json.gz"
+        },
+        "bundle": {
+          "source_group": "R905",
+          "file": "R905-D5-complete-bundle-unit-graph.json.gz"
+        },
+        "quotient": {
+          "source_group": "R905",
+          "file": "R905-D5-complete-quotient-and-h-division-models.json.gz"
+        },
+        "solution": {
+          "source_group": "R905",
+          "file": "R905-D5-complete-full-principal-parts-solution.json.gz"
+        }
+      },
+      "X": {
+        "connection": {
+          "source_group": "R905",
+          "file": "R905-X-exact-regular-connection-DAG.json.gz"
+        },
+        "bundle": {
+          "source_group": "R905",
+          "file": "R905-X-complete-bundle-unit-graph.json.gz"
+        },
+        "quotient": {
+          "source_group": "R905",
+          "file": "R905-X-complete-quotient-and-h-division-models.json.gz"
+        },
+        "solution": {
+          "source_group": "R905",
+          "file": "R905-X-complete-full-principal-parts-solution.json.gz"
+        }
+      },
+      "DN": {
+        "connection": {
+          "source_group": "R905",
+          "file": "R905-DN-exact-regular-connection-DAG.json.gz"
+        },
+        "bundle": {
+          "source_group": "R905",
+          "file": "R905-DN-complete-bundle-unit-graph.json.gz"
+        },
+        "quotient": {
+          "source_group": "R905",
+          "file": "R905-DN-complete-quotient-and-h-division-models.json.gz"
+        },
+        "solution": {
+          "source_group": "R905",
+          "file": "R905-DN-complete-full-principal-parts-solution.json.gz"
+        }
+      }
+    }
+  },
+  "prepared_transports": {},
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "be1eadf4caf2bfba813f8a5d4cee87a22aa1218f"
+}
