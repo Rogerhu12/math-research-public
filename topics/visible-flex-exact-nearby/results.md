@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- WPTV首次43851901811/1只读入口失败，unique scientific child0、old0、无任何新数学量或lost数学；24 current/10AST及19原恢复已逐字完成。完整[execution](notes/frozen_cross_block_value_tail_ci/run-43851901811-1/execution.json) eddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f /26981B、report427B均已保。stderr1395B仅保存SHA，须窄恢复诊断；不把入口失败当网格false。
+
 - WPTV consumer frozen：主 bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1、reader cdbf14ee、typed worker0699ff33及[执行清单](notes/2026-11-16-R133-frozen-cross-block-current-inputs.json)4470a77b。24 current/19 history/10 AST，5 whole maxima、两预锁完整mesh候选和条件tail inverse；17门/11或12新records。仅静态核通过，数学尚未执行，未授finite逆或最终族。
 
 - [WMT：strict完整输运通量与角L1均值强迫界](results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md)：同genuine trial/全Vext，三个完整幅值经五次mean递推保八terminal及原n^-23/6；真root/local/全部jump/两mean与完整回接保，旧42目标冻结，未评新数。

@@ -101,3 +101,13 @@ Both README identities unchanged at 4a459acc8e430dbfe0ff232493c5ce1a9f493ced. Pu
 ## 2026-11-16 10:46:49 UTC — 单独提交 WPTV 一次性公开 Actions
 
 两README在 e219159a8309b014270217d7827c93b7cf228b7a fresh核仍同已读。源码/清单已先以e219159a8309b014270217d7827c93b7cf228b7a冻结；本次只接独立workflow .github/workflows/visible-exact-frozen-cross-block-value-tail.yml /2929B/SHAc1946707057e2f25ec5b238cccb3aeb1ae4449b73e36db9f92d02f0d849720a1，worker0699ff33和manifest4470a77b832b95ca6050912296eb1b45d8d6e84b4d65377d7a39e1c14a498423双完整pin。当前topic 199564512B，加完整128000B输出与120000Breserve及6000B记事缓冲≤200000000；runner必须再次实核。先真实partial checkout/pull与两README，再19原件临时恢复/完整readonly preflight/consumed marker/唯一3300s child。新run实际状态、科学结果和所有失败/未存边界待完整小文件回执；不把已提交当通过，旧数学不重算。
+
+## 2026-11-16 10:49:46 UTC — WPTV首次只读失败；全部数学目标未启动
+
+实际run43851901811/1，event ebda24f316e7652a7e25d6510af4cca22d54e2eb，worker/source/manifest仍冻结。24 current和10 AST的materialize完成；完整19恢复receipt canonical逐字等静态13771B/SHA4705f2c3，无旧producer/repair重造。readonly preflight return1、stdout0/e3b0c442、stderr1395B/SHA113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74；worker仅报 complete readonly preflight failed before science，具体stderr尚只在job原log，本会话不取未知大小log。
+
+scientific_started=false/scientific_children=0/actual_child_returncode=null；completed_target_names=[]/interrupted_target=null/scientific_files=[]。5whole maxima、m1/m2完整3球与比较、选网和条件resolvent全部未开始，没有新数学量遗失，不触及旧已成值。consumed marker未生成，未自动重跑。本次不是任何数学充分门false。
+
+已在公开main完整保execution Git68d313d9e3c406ea18deef910205e2f528dad52c /26981B/SHAeddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f与report Git4a9630696f9e5e964976760d1dbd64703c9fdeba /427B/SHAabb379f830717e69e0395f1283e34db887982ffd2e54736947b62f9be8cfcfd9，合计27408B。原2次真实pull在10:47:10.947790与10:47:29.119631，末8f68ac1675d3f896d1e53c187be59549466a2529，两README actual/review diff均空；当前 772eff635563f22107ad6e0b1eb9039c4ae94aa8再次核同。下一真pull≤11:47:29。
+
+后续仅先窄补运维worker把失败preflight完整UTF8 stdout/stderr写进execution，再重做只读入口以取回原1395B诊断；不取旧大log，不重任何旧数学，不授权重复已成target。入口错误定位并修正前不声称科学启动；新数学仍按原5目标/两固定网格合同。
