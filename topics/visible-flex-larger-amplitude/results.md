@@ -345,3 +345,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R520 — 当前派生整像来源与原owned商距离接口
 
 **已证明（实际来源/条件调用），尚无科学执行。** [完整接口](results/R520-generated-current-images-original-owned-quotient-interface.md)22264/7c21a84e、entry47597/8d48和plan11453/e288，三件81314B。原c87b/0ff1、resolution144da/ca53、当前union c9d4/f7f6三准确tuple，后两份R517来源常量view仅Actions，无Fraction数学复制；同场held wrapper/postsolve/完整位置账/member/cap来源真实核。prepare/launch/run/readback复用4afc OwnedTree真实session/PID/startticks、原停止/reap/namespace quiet；222 startup文件与BVP-launch实际deadline分别绑，后一source_namespace_deadline接前者，保同18900+2700/900/30/原8–2GiB和BVP32GiB不降。双向全target/八根/所有partial/错误/未返/单90K70保，无新gamma/帽点默认、当前request或预填接受，cleanup_allowed始终false。实际workflow尚未调用；当前冻结217/222保持原源，不增原科学门。
+
+## R486 — actual215完整必要读回与真实stage／audit预算后缀
+
+**实际215终态，完整必要读回和清理成功；原native/fullDN尚未接受。** [R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md)27077B/2331fc82，run43816406919/sourceb952df81，compute133129348123/report133231387864两终log各仅amplitude取一次。85438B/5923ad0e正文两job逐字同且完整读回，R485表示本次适用，不能和204未返111829B作压缩率。owner全576/129248行1方向1trial α1原严格下降，norm0.00012209605459741098949→9.68582474751023176057e−11，独立全残差/226输出replay逐词同。后stage8000s只完整478段，478为7/12、479为1/12、480..575零推进，全部地址/统计/错误保；boundary/endpoint因完整前件未生未启动。audit574段/7479query，574:q12与575:q5及后1advance尚未完成，partial极值不外推。原audit缺顶层budget字段导致父resource_partial=false，原stage错误明确预算停止，两者均保。原64受控停止、native/fullDN false、原当前H FD/完整外场/最终门未执行。10:17:38必要与quiet后实际三树清除，无可恢复raw，不借204flag补本次；没有提预算或新增小试。
