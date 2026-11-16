@@ -87,3 +87,6 @@
 
 
 - [R828实际一标量四位与同修正逐页](2026-11-16-r828-actual-one-scalar-four-digit-and-same-correction-pages.md)：原hΘ=H_p w^(s−4)B，保完整高尾与H_p=(p+1)(a−pRcal)/[6(p−3)]。四中央在同H上，完整四位含h3F′和h1²F″/2；固定η0给唯一标量Hensel读取，其余三分量仍须检验。真实M=M0+pH A1+p²H²A2+p³(H³A3+H⁴A4)，D2=(Rcal/18−2a/27)A1+a²A2/324。第二/第三页保同P,R,S与Y1/p、Y2/p全部native整商，首核尾并集(4,8,8)/(4,8,12)，R的低卷积全保；canonical末ell=s−15项0、s−14只读真实[w]W4。h3不进入M模p4，不代额外深核/新长窗或页类非零。
+
+
+- [R828原三条carry与最后块尾](2026-11-16-r828-three-native-carry-recursions-and-last-block-tails.md)：原同一M的三条十三行带有完整K_{j,d}卷积，保H/B全部高尾。首提升迫W0=W1=0 modw^s及W2+H w^(s−4)BW3=0 modw^s；故同P的新增D2/D3准确只读最后W3八/十二尾和末quartic。第二/第三轮carry在同P/R/S上逐次整除，固定R/S的前4/8长尾为已付native值；其余最后块尾仍与同源normal联立。Y1/p、Y2/p不删，三条带不代全矩阵余类非零或可解。
