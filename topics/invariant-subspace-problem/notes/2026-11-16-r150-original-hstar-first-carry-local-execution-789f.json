@@ -1,0 +1,78 @@
+{
+  "format": "r150-original-hstar-first-carry-local-execution-identity-v1",
+  "author": "ChatGPT (AI), literature_audit",
+  "date": "2026-11-16",
+  "execution": {
+    "id": "local-original-hstar-first-carry-20261116T051608Z",
+    "status": "completed",
+    "launchObservedUTC": "2026-11-16 05:16:08 UTC",
+    "completionObservedUTC": "2026-11-16 05:21:09 UTC",
+    "exitCode": 0,
+    "elapsedSeconds": 165.03500267300115
+  },
+  "sources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-first-carry-runner-789f.py",
+      "bytes": 27738,
+      "sha256": "37e17b0fe16a9fee29d4f32012d95ad9be2fd81c95b0da48ac1efb56b5b4da6a",
+      "blob": "93a612b10a30affc8162d299109a5d5f238e2ae7"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-hstar-first-carry-integer-p7-789f.cpp",
+      "bytes": 21734,
+      "sha256": "ed2f42b3df51efa8fe0855c2a174caad2036f18c68f66bbf36c8b8b0456dbe55",
+      "blob": "73f41371eb00c35a65a07b130b98780f3b85a98f"
+    }
+  ],
+  "parameters": {
+    "prime": 31,
+    "modulus": 27512614111,
+    "targetPolynomial": "original hstar=s^3 Fplus^2 Fminus^2 E8",
+    "targetLabels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "targetScalarPower": 2,
+    "formalPrecisionChain": [
+      25,
+      20
+    ],
+    "seconds": 1800,
+    "memoryMiB": 4096,
+    "parentBinding": "712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093",
+    "initialBinding": "40bf2d4585096148bf886e73c4ba90e3f1130ec5e964cd87df79d0eb46550188"
+  },
+  "binding": "4044954d51c3d23ced04aa55ae8355c6877c2153f92984807c6454572e85e4cd",
+  "outputs": [
+    {
+      "name": "original-hstar-first-carry-receipt.json",
+      "bytes": 16583,
+      "sha256": "86aa0442ee2b24373fbc23b27495b0546f640c679e05c3c4727a5953fab605ea"
+    },
+    {
+      "name": "complete-hstar-first-carry-result.json",
+      "bytes": 1741,
+      "sha256": "3b3ef60c19b77594fda9f931d4831f140a7e326df34cb4977d83f7c357c5adbb"
+    },
+    {
+      "name": "original-hstar-first-carry-local-20261116.log",
+      "bytes": 28224,
+      "sha256": "ac149c3234ad68d50234fc12964dbddbec0ae17005ceea0a38c27ea8cefe0830",
+      "lastJSONBytes": 16582,
+      "lastJSONSHA256": "8fb6489ea7f4344a364cf8ec5a8afb53d2a8870fe89499b5a0cd63a8966a9bb8"
+    }
+  ],
+  "storage": {
+    "mathematicalArrays": "temporary-only",
+    "computedOutputJSONCommitted": false,
+    "newUploadedArtifact": false,
+    "globalSourceArraysExpanded": false
+  }
+}

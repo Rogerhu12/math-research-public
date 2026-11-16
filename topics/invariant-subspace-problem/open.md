@@ -33,7 +33,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## R150原rank-one模块的剩余问题
 
 - **zero相对T0的完整分拆。** 原zero P长61/free13，九目标生成的相对T0长5且s³杀，候选(3,2)/(3,1,1)。需要完整sT的十八列{s t_j,s²t_j}，不能只九列。旧left-jet小回执若只存哈希不还原不存在的数据；[原完整F31目标子模](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)现实得(3,1,1)、作用幂秩5,2,1,0；99 Krylov与原315双包含已核。此rank下降不能升Q下降，原Q两种分拆仍保留，继续原来源/系数提升。
-- **原h*与整体目标模块的整数来源。** [九原h0分母定理](results/R150-appendix-original-nine-h0-targets-exact-two31-denominator-and-complete-socle.md)已经关闭每个h0t_j的最少31分母：31²h0t_j∈L、31h0t_j∉L，原费用≤8515，h0=(s−2)h*。不得消掉s−2后照搬结论。九个31h0t_j的完整socle共同秩1；整个D[s]目标子模及其它乘子的精确结构仍可继续。
+- **整体目标模块的整数来源。** [九原h0分母](results/R150-appendix-original-nine-h0-targets-exact-two31-denominator-and-complete-socle.md)全部恰2；[九原h*分母](results/R150-appendix-original-nine-hstar-targets-exact-five31-denominator.md)现全部恰5，原全来源费≤8515，完整p²b=p³r1及唯一e6轴九列非零给任意来源次数的精确下界。h0=(s−2)h*不可约掉；九p4h*t同张一维socle，p²h*t恰三阶且被s−2杀。每个目标的最小31分母已闭，整个D[s]目标子模及其它乘子的精确结构仍可继续。
 - 已付全Q相对25/ann h*、h*W⊂L、全W已证member来源费8391、rank-one Bell8/整个𝔫⁸仅作用于原归一rank-one构造。唯一127系数扭子及九h*t整源不自动给整个W的同一整费用。上述范围和全部旧开放接口保归档。
 
 ## 当前接续：R271完整源的实际中段返回

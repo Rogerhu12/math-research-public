@@ -108,3 +108,5 @@
 - **R271正commutator因子与完整新源的整段占据行（2026-11-16）：** [完整自然域证明](results/R271-appendix-one-bit-positive-commutator-and-complete-moving-source-occupation-row.md)给K=I+T*T−TT*为核外creation平方、0≤K≤hI；完整2×2逆只用(I+uK)⁻¹，其增益准确分成新位占据与正Schur余项。一个共同t支付[x,2x)全部实际新源的两项和≤Vsharp≤Δ_Q²，真实投影步差平方和亦≤Vsharp；固定物理压缩给Σ||E_yF_{y+1,t}||²≤Δ_Q²，原u及全部合法Q保持。可同参留两阶矩（30000常数），Vsharp→0；这是不同合法代表的完整行，未换成Σ||E_yu||²，真实返回继续。
 
 - **R150原九h*目标完整31坐标及分母区间（2026-11-16）：** [完整原315坐标证明](results/R150-appendix-original-hstar-targets-complete31-coordinates-and-exponents-two-to-five.md)给rank4/全属U7、真U16高九轴零；原整数24/25因子、全部目标/作用/自由/来源乘回真，实际1.610秒。完整tors最高6与饱和交T∩31C=31T给逐目标2≤ε≤5；保原6188来源和4367输出，未以field坐标抹掉高阶进位。
+
+- **R150原九h*目标最小31分母全恰5（2026-11-16）：** [原整数提升与完整余类证明](results/R150-appendix-original-nine-hstar-targets-exact-five31-denominator.md)在全6188→4367来源上核p²b−A(S0+p²q0)=p³r1，精度25→20；完整315×9余类rank9、真U16唯一e6轴九列全非零，故31⁴h*t不在原像而31⁵h*t有来源，费用≤8515。165.035秒/8stage/raw16583·86aa0442，原全自由/重构与25输出SHA独立真。局部q0仅给真实完成下界；h0仍恰2，九p4h*t共同一维socle。
