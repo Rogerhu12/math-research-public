@@ -32,7 +32,7 @@
 
 [R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)保同一实际58、原xstar射线和原172盒，准确写U=U0+αV、Xss=B0+αL+α²H+V17y；不要求未存的任意R1二次张量。完整曲率谱可清分母为6/4/8次三门，必须同时保R≥0和Qcross>0，实际G不置1；原未平方PSD仍作真实候选判定。自由A的最优值−C给trace零几何目标，原盒有准确逐角可达区间；同一17y的纤维余量连续并有完整minimax判据，离散失败不能排连续α域。
 
-已明确下一独立会话：19变量(α,y17,h)，α∈[1/64,1/2]，min完整合成物理norm上界h；初α1/4和原剩余盒中点。一次SLSQP/解析Jac，maxiter160、最多400完整新模型评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。候选准确合成一次round后，至多1全body预测及1原actualpair；全部新代数/导数/失败费用另记。当前只写源码，尚无新科学执行或59。所需固定a从当前58原CACHE2 selected metric读取，缺值不得反推或伪造。
+[完整设计](notes/true58-joint-alpha-R2-original-box-design-20261116.md)、唯一request与新源现提交公开Actions：19变量(α,y17,h)，α[1/64,1/2]，min完整合成物理norm上界h；唯一α1/4初点，原剩余精确盒中点及实际binary64解码盒状态分别记录。一次SLSQP/解析Jac，maxiter160、400完整新评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。原58 CACHE2 selected metric读固定a；新MODEL后固定行尺度、初残差/Jac与真实返回由SOLVE_TRACE/NONLINEAR_RESULT保留。一次准确共同合成/舍入的合格候选才付固定metric/2首jets绑定、至多1全body预测与1原actualpair。request71258B/383d0d45ecd6c617385eae3a4979856db997beb2b1c76029b7e98b7702c037d3、326源hash已绑定；独立源码纸审完成并按实际输出布尔值记录。尚无新科学终账或59，全部费用待真实FINAL。
 
 ### 仍须支付
 
