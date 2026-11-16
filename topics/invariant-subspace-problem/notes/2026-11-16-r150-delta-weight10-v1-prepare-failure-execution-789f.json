@@ -1,0 +1,54 @@
+{
+  "binding": "b33a58ec262d57648b06e1b2c3279b0907c7bf7f76059cff3492f3752c3b1b58",
+  "cause": "Two new physical-weight gates used the wrong physical gradient order. The paid original chart declares coord=H0..H10,y0..y5; the correct weights are eleven4 then six5. Original polynomial source products were not modified.",
+  "format": "r150-delta-weight10-local-prepare-v1-failed-execution-identity-v1",
+  "mathematicalNonmembershipClaim": false,
+  "nextRunAtFreeze": "not started",
+  "nextSource": {
+    "bytes": 40014,
+    "path": "notes/2026-11-16-r150-original-delta-weight10-homogeneous127-v2-789f.py",
+    "sha256": "dc7e36fa9bc98ab11eb1784e8f88e133f99e689b308fabbef00dbf4dde844309"
+  },
+  "observed": {
+    "candidateRun": false,
+    "completePreparedColumns": 0,
+    "elapsedSeconds": 0.565621582994936,
+    "error": {
+      "message": "all17 physical gradient weights5/4",
+      "type": "ValueError"
+    },
+    "exitCode": 1,
+    "peakRssKiB": 80256
+  },
+  "outputs": {
+    "log": {
+      "bytes": 1147,
+      "path": "delta-weight10-prepare600.log",
+      "sha256": "b45ff9eca1292924efc303eaf85e3fccc5997ef66d3d8c39578fc11aeb6e75e2"
+    },
+    "manifest": {
+      "bytes": 161807,
+      "path": "delta-weight10-manifest.json",
+      "sha256": "e6d982dd9a1c3d901e5f9739f8620b2d4bb50f67911efc7dfd6093246b10e221"
+    },
+    "rawReceipt": {
+      "bytes": 1146,
+      "path": "delta-weight10-receipt.json",
+      "sha256": "6aa7a2ebfb23d36f61f93a62624e144c879a95369f0b1edcc56c57b706836d12"
+    }
+  },
+  "parameters": {
+    "memoryMiB": 2048,
+    "outerSeconds": 660,
+    "seconds": 600,
+    "through": "prepare"
+  },
+  "scope": "Execution identity only. Complete mathematical raw and manifest remain temporary.",
+  "source": {
+    "bytes": 40012,
+    "gitBlobSHA": "d7ce3e045d058d5447659d1e356ff2897f0137d8",
+    "path": "notes/2026-11-16-r150-original-delta-weight10-homogeneous127-789f.py",
+    "sha256": "09d8f5a04cf39ebee0613af1c056000d129b17d5aca60ebdd784860c035e36f3"
+  },
+  "status": "failed"
+}

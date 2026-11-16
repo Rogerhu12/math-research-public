@@ -1,5 +1,8 @@
 # 已得结果
 
+**[完整权十原输入与独立验证准则已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)。** 本地 v2 prepare exit0，200列共8037189项；根独立解析原 phase/binary/全部151071880字节ASCII，2000坐标与独立$\delta b^2$目标全相同，156.362秒/RSS88624。原v1物理权守卫失败和根v1 exit137均保真实身份，不当预算或数学负。候选/完整相关对尚未执行，权十成员性仍开；冻结九阶段工作流在同job重建全父，空候选不续。
+
+
 普通复可分无限维 Hilbert ISP 仍未完成。开放接口见 [open.md](open.md)，实际接续见 [HANDOFF.md](HANDOFF.md)。
 
 本次压缩前的完整索引和全部来源链接保于[完整结果归档](notes/2026-11-16-results-before-continuous-tower-barrier-789f.md)，该文件连同先前归档保留全部已付结论与未闭边界。未列条目不算关闭；后续条目只在明示范围内更新旧状态。

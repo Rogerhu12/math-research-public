@@ -1,0 +1,24 @@
+{
+  "format": "isp-root-original200-export-v1-terminated-execution-v1",
+  "author": "OpenAI ChatGPT /root; GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original200-weight10-export-audit-789f.py",
+    "bytes": 6972,
+    "sha256": "5dd833e83bef5580ab3340a413959fcebd0ad4705ef7ffd897d934f95748680d"
+  },
+  "actualToolSession": 5244,
+  "exitCode": 137,
+  "status": "externally-terminated",
+  "parameters": {
+    "addressSpaceMiB": 1024,
+    "alarmSeconds": 360
+  },
+  "lastObservedProgress": {
+    "columns": 120,
+    "elapsedSeconds": 25.853804400001536
+  },
+  "completedAuditCertificate": false,
+  "registeredReusablePrefix": false,
+  "cause": "No cgroup memory-event evidence was available; no OOM or mathematical failure is asserted.",
+  "newImplementation": "Only requested vector arrays are decoded from whole-hash-verified original phases; each whole column is atomically registered, arrays released between columns, and progress includes RSS every ten columns. New source and output paths; no old unregistered prefix is reused."
+}

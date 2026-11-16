@@ -1,0 +1,216 @@
+{
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "completionGates": [
+    "all200 original inputs have zero independent remainder",
+    "every same-component S-pair of lcm weight at most10 has zero independent remainder",
+    "complete original target irreducible remainder",
+    "positive only original200 lift plus all10/all18/all17 products and literal delta Bell gluing"
+  ],
+  "dataPolicy": "Only source, parameters, proof and execution identity/SHA may be persisted. Full mathematical raw, arrays, SSI and phases remain temporary; no new artifacts or Release data.",
+  "format": "r150-original-delta-weight10-source-inputs-v1",
+  "localPreparation": {
+    "actualBinding": "dfb2420829d6b6243142e1232e4c2bdba4fa45fb1823fe81d119c4101493e488",
+    "actualStatus": "completed-prefix",
+    "arguments": [
+      "--model-source",
+      "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--chart-source",
+      "{scripts}/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+      "--producer-source",
+      "{scripts}/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+      "--verifier-source",
+      "{scripts}/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+      "--model-out",
+      "{parent}/original-ten-parameter-module127-v2",
+      "--mean-out",
+      "{parent}/original-mean-first-frontier127",
+      "--weight8-out",
+      "{parent}/original-complete-weight8-frontier127",
+      "--producer-out",
+      "{parent}/original-two-round-complete210-sources127-v2",
+      "--out",
+      "{work}/original-delta-weight10-homogeneous127-v2",
+      "--through",
+      "prepare",
+      "--seconds",
+      "600",
+      "--memory-mib",
+      "2048"
+    ],
+    "candidateComputed": false,
+    "outerSeconds": 660,
+    "source": {
+      "bytes": 40014,
+      "gitBlobSHA": "61af7aee865dbe7d2b99aece5fe518c2d69cbe4f",
+      "path": "notes/2026-11-16-r150-original-delta-weight10-homogeneous127-v2-789f.py",
+      "sha256": "dc7e36fa9bc98ab11eb1784e8f88e133f99e689b308fabbef00dbf4dde844309"
+    }
+  },
+  "localReadOnlyParent": "/tmp/r150-normal-789f-20261116-1040",
+  "mathematicalParameters": {
+    "coefficientRoot": 100,
+    "inputWeightMultiplicities": {
+      "10": 80,
+      "5": 6,
+      "6": 20,
+      "7": 30,
+      "8": 40,
+      "9": 24
+    },
+    "moduleRowWeights": [
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      4,
+      4,
+      4
+    ],
+    "nonBellColumns": 200,
+    "ordering": "wp(1,1,1,1,1,1,2,2,2,2,2,2,1),C",
+    "originalMeanColumns": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "prime": 127,
+    "target": "delta14*b^2*e0",
+    "targetWeight": 10,
+    "variableWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "paidParent": {
+    "binding": "41638323f597133aadeb65b2a1639899a162e2afbe6e7f7c477e93fae912cd80",
+    "finalPhase": {
+      "bytes": 35044,
+      "logicalBytes": 148424,
+      "logicalSha256": "f8b17d755d1515726632280fe110788dcf03128705172944a67d44f12de14bee",
+      "path": "complete-original210-source-model.json.gz",
+      "sha256": "ed0b6811561a0799dff2cab99b2c7685a2ed820978be00c397a69f110972fed5"
+    },
+    "format": "r150-original-two-round-complete210-sources127-v2",
+    "localHistoricalReceipt": {
+      "bytes": 32576,
+      "path": "complete210-sources-receipt.json",
+      "sha256": "77724520a9b2aa89086d7bb39e7dcef48bbc1cef2faaef00e9d98fcc588b24ea"
+    },
+    "mathematicalManifest": {
+      "bytes": 144113,
+      "path": "complete210-sources-manifest.json",
+      "sha256": "74eb5557203192b2b3e37b43189ceaa7ec34afeb698884f336331210d1bcf2ff"
+    }
+  },
+  "plannedActions": {
+    "candidateMemoryMiB": 4096,
+    "candidateSeconds": 600,
+    "dispatchStatus": "not yet dispatched",
+    "full210FreshSourceMemoryMiB": 1024,
+    "full210FreshSourceSeconds": 900,
+    "historicalDataArtifactsUsed": false,
+    "nativeEliminationSkipped": false,
+    "outerPaddingSeconds": 60,
+    "prepareMemoryMiB": 2048,
+    "prepareResumeSeconds": [
+      600,
+      1200
+    ],
+    "prepareSeconds": 600,
+    "requestPath": "notes/2026-11-16-r150-original-delta-weight10-session-request-789f.json",
+    "sameJobFullParentRebuild": [
+      "model116-seeds",
+      "compression50-final",
+      "mean30-final",
+      "weight8-prepare",
+      "weight8-final",
+      "full210-final900"
+    ],
+    "sessionWorkMinutes": 110,
+    "verificationAndSourceMemoryMiB": 4096,
+    "verificationAndSourceSeconds": 600,
+    "verificationResumeSeconds": [
+      600,
+      1200,
+      1800
+    ],
+    "workflowHardMinutes": 120,
+    "workflowPath": ".github/workflows/invariant-subspace-r150-original-delta-weight10-session.yml",
+    "wrapperPath": "notes/2026-11-16-r150-original-delta-weight10-session-789f.py"
+  },
+  "runtime": {
+    "candidateSingular": "4.4.1",
+    "localPython": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "localSingularAvailable": false,
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "tinyValidationCalledSingular": false
+  },
+  "runtimeParentBridge": {
+    "astParsed": true,
+    "fixedParentCompletedStatusAndAllSourceGatesRequired": true,
+    "mathematicalExecution": "not yet run",
+    "newReceiptMetadataEntersNewBinding": true,
+    "oldLocalRawIdentityIsHistoricalOnly": true,
+    "source": {
+      "bytes": 40746,
+      "gitBlobSHA": "62b41e937a05480cda5824a4cf91dda5b71b67e4",
+      "path": "notes/2026-11-16-r150-original-delta-weight10-runtime-parent127-789f.py",
+      "sha256": "433e8942e30cde475bd6e7f13df43b4a6765a876dac495553de5fe6a53fd001f"
+    },
+    "unchangedMathematicalManifestAndAllStoredLogicalPhaseHashesRequired": true
+  },
+  "sources": [
+    {
+      "bytes": 40014,
+      "gitBlobSHA": "61af7aee865dbe7d2b99aece5fe518c2d69cbe4f",
+      "path": "notes/2026-11-16-r150-original-delta-weight10-homogeneous127-v2-789f.py",
+      "sha256": "dc7e36fa9bc98ab11eb1784e8f88e133f99e689b308fabbef00dbf4dde844309"
+    },
+    {
+      "bytes": 40746,
+      "gitBlobSHA": "62b41e937a05480cda5824a4cf91dda5b71b67e4",
+      "path": "notes/2026-11-16-r150-original-delta-weight10-runtime-parent127-789f.py",
+      "sha256": "433e8942e30cde475bd6e7f13df43b4a6765a876dac495553de5fe6a53fd001f"
+    },
+    {
+      "bytes": 13935,
+      "gitBlobSHA": "917418d74e660827f85dedbae1d5acfc54a01f96",
+      "path": "notes/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+      "sha256": "54b082184273e254495be8e1eb788e6569e8ca9cc4b83a1a5d4330304e9d4246"
+    },
+    {
+      "bytes": 23879,
+      "gitBlobSHA": "cbd03a000da605991e6e49f1b545c2388a10db43",
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "bytes": 35070,
+      "gitBlobSHA": "11f6bf80f1ced7e5a2a21ae0f763ffb7225102d6",
+      "path": "notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+      "sha256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3"
+    },
+    {
+      "bytes": 22552,
+      "gitBlobSHA": "9fede0af90889e05eb07cfc87146bec707844794",
+      "path": "notes/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+      "sha256": "20cb960bc20fea18001488e84dae35518d74f3338697dfed619eaadae6a6b2aa"
+    }
+  ]
+}

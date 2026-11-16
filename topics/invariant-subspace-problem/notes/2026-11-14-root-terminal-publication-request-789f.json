@@ -1,21 +1,40 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "000e02fb4bd9cab22c23e56c8400ba96fc13153a",
-  "createdUtc": "2026-11-16 15:52:07 UTC",
-  "message": "ISP R150: prove characteristic-zero twenty-source factorization and complete 670-column bound",
+  "parentCommit": "dc66f663eaff7bffdb7213801832ffe3f4f99594",
+  "createdUtc": "2026-11-16 16:19:21 UTC",
+  "message": "ISP R150: certify all200 original weight-ten inputs and start independent homogeneous verification",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-E-low20-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-open-before-E-low20-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-weight10-input-audit-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-open-before-weight10-input-audit-789f.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original200-weight10-export-audit-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original200-weight10-export-audit-v2-789f.py",
+    "topics/invariant-subspace-problem/notes/r150-original-delta-weight10-execution-789f/local-20261116-original200-export-root-audit-v1-terminated137.json",
+    "topics/invariant-subspace-problem/notes/r150-original-delta-weight10-execution-789f/local-20261116-original200-export-root-audit-v2.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-session-request-789f.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-homogeneous127-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-homogeneous127-v2-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-runtime-parent127-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-homogeneous127-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-homogeneous127-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-delta-weight10-v1-prepare-failure-execution-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-delta-weight10-v2-prepare-execution-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-delta-weight10-tiny-check-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-delta-weight10-tiny-execution-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-session-789f.py",
+    ".github/workflows/invariant-subspace-r150-original-delta-weight10-session.yml",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": []
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-original-delta-weight10-session.yml"
+  ]
 }

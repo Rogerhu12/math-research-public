@@ -1,0 +1,31 @@
+{
+  "actual": {
+    "SingularRun": false,
+    "elapsedSeconds": 0.04872430200339295,
+    "exitCode": 0,
+    "realOriginal200Run": false,
+    "tinyGatesPassed": 9
+  },
+  "arguments": [
+    "--directory",
+    "/tmp/literature_bell_rank4_789f",
+    "--receipt",
+    "/tmp/literature_bell_rank4_789f/delta-weight10-frozen-tiny-validation.json"
+  ],
+  "dataPolicy": "Full raw remains temporary; this is execution identity only.",
+  "format": "r150-delta-weight10-tiny-execution-identity-v1",
+  "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "rawReceipt": {
+    "bytes": 1021,
+    "path": "delta-weight10-frozen-tiny-validation.json",
+    "sha256": "604ac2a4e209df0c04d55c7e22057fdee8f06c3e21df20e774353443261b4c5e"
+  },
+  "scope": "Only abstract small arithmetic and source AST; no original200 or Singular run",
+  "source": {
+    "bytes": 3228,
+    "gitBlobSHA": "9c1835b73cf48591ba404f4adc38781b7e6e722b",
+    "path": "notes/2026-11-16-r150-delta-weight10-tiny-check-789f.py",
+    "sha256": "2dffb42fe98f217d5f835a5a4ff8435b8211171f8959bb22efeec68db649b7c8"
+  },
+  "status": "completed"
+}

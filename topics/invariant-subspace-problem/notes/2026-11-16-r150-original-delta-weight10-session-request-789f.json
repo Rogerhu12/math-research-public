@@ -1,0 +1,537 @@
+{
+  "format": "isp-original-delta-weight10-manifest-session-v1",
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "rulesReadAtCommit": "31b7da4cebe4e8ecea6ff4678250aa12b02f8c72",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "rootMustRefreshActualRuleReadBeforeDispatch": false,
+  "sessionScriptSHA256": "aa91156f9744aec4314104a2883ca2687e16147618cdb70c09503d1fb9dc289f",
+  "historicalInputs": [],
+  "maximumIdleSeconds": 0,
+  "closeSessionWhenStepsComplete": true,
+  "sessionWorkMinutes": 110,
+  "workflowHardMinutes": 120,
+  "steps": [
+    {
+      "id": "original-ten-parameter-model116-180",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "scriptSHA256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        }
+      ],
+      "argv": [
+        "--model-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "2048",
+        "--through",
+        "seeds"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-ten-parameter-module127-v2/original-parameter-module-receipt.json",
+      "mathematicalScope": "Fresh exact source rebuild of the original17 gradients, complete50 border relations, six means, all100 commutators and ten Bell columns; all116 full original18 source products."
+    },
+    {
+      "id": "original-parameter-seed-compression50-180",
+      "requires": [
+        "original-ten-parameter-model116-180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "scriptSHA256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+          "sha256": "c5c36af57f8d75d2aac7d42b4048be2c8f382fdbe9ed4a0ebefdf85f0c93bd9f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+        "--header",
+        "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+        "--out",
+        "{work}/original-parameter-seed-compression127",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "768",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-parameter-seed-compression127/complete-parameter-seed-compression-receipt.json",
+      "mathematicalScope": "Full3188/17674 output dictionaries and every omitted original seed source relation. Only finite-field initial module equality, no stability, E lift or unit-ideal claim."
+    },
+    {
+      "id": "original-mean-first30-final180",
+      "requires": [
+        "original-parameter-seed-compression50-180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+      "scriptSHA256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+          "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+          "sha256": "c5c36af57f8d75d2aac7d42b4048be2c8f382fdbe9ed4a0ebefdf85f0c93bd9f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--compression-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+        "--compression-out",
+        "{work}/original-parameter-seed-compression127",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+        "--header",
+        "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+        "--out",
+        "{work}/original-mean-first-frontier127",
+        "--through",
+        "final",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "768"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-mean-first-frontier127/original-mean-frontier-receipt.json"
+    },
+    {
+      "id": "original-weight8-complete-prepare180",
+      "requires": [
+        "original-mean-first30-final180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "scriptSHA256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+          "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+          "sha256": "c5c36af57f8d75d2aac7d42b4048be2c8f382fdbe9ed4a0ebefdf85f0c93bd9f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+          "sha256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--compression-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+        "--compression-out",
+        "{work}/original-parameter-seed-compression127",
+        "--mean-frontier-source",
+        "{scripts}/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+        "--mean-frontier-out",
+        "{work}/original-mean-first-frontier127",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+        "--header",
+        "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+        "--out",
+        "{work}/original-complete-weight8-frontier127",
+        "--through",
+        "prepare",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "768"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-complete-weight8-frontier127/complete-weight8-frontier-receipt.json"
+    },
+    {
+      "id": "original-weight8-complete-final180",
+      "requires": [
+        "original-weight8-complete-prepare180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "scriptSHA256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+          "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+          "sha256": "c5c36af57f8d75d2aac7d42b4048be2c8f382fdbe9ed4a0ebefdf85f0c93bd9f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+          "sha256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--compression-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+        "--compression-out",
+        "{work}/original-parameter-seed-compression127",
+        "--mean-frontier-source",
+        "{scripts}/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+        "--mean-frontier-out",
+        "{work}/original-mean-first-frontier127",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+        "--header",
+        "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+        "--out",
+        "{work}/original-complete-weight8-frontier127",
+        "--through",
+        "final",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "768"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-complete-weight8-frontier127/complete-weight8-frontier-receipt.json"
+    },
+    {
+      "id": "original-complete210-all-sources900",
+      "requires": [
+        "original-weight8-complete-final180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+      "scriptSHA256": "20cb960bc20fea18001488e84dae35518d74f3338697dfed619eaadae6a6b2aa",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+          "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+          "sha256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+          "sha256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--compression-source",
+        "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+        "--compression-out",
+        "{work}/original-parameter-seed-compression127",
+        "--mean-frontier-source",
+        "{scripts}/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+        "--mean-frontier-out",
+        "{work}/original-mean-first-frontier127",
+        "--weight8-source",
+        "{scripts}/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+        "--weight8-out",
+        "{work}/original-complete-weight8-frontier127",
+        "--out",
+        "{work}/original-two-round-complete210-sources127-v2",
+        "--through",
+        "final",
+        "--seconds",
+        "900",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 960,
+      "receiptPath": "{work}/original-two-round-complete210-sources127-v2/complete210-sources-receipt.json",
+      "mathematicalScope": "One fresh final pass performs every old106 validation and all104 sources; all paid mathematical manifest/phase hashes remain required. Execution times and new raw identity are recorded honestly."
+    },
+    {
+      "id": "original-delta-weight10-prepare600",
+      "requires": [
+        "original-complete210-all-sources900"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-runtime-parent127-789f.py",
+      "scriptSHA256": "433e8942e30cde475bd6e7f13df43b4a6765a876dac495553de5fe6a53fd001f",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+          "sha256": "54b082184273e254495be8e1eb788e6569e8ca9cc4b83a1a5d4330304e9d4246"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+          "sha256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+          "sha256": "20cb960bc20fea18001488e84dae35518d74f3338697dfed619eaadae6a6b2aa"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--chart-source",
+        "{scripts}/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+        "--producer-source",
+        "{scripts}/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+        "--verifier-source",
+        "{scripts}/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--mean-out",
+        "{work}/original-mean-first-frontier127",
+        "--weight8-out",
+        "{work}/original-complete-weight8-frontier127",
+        "--producer-out",
+        "{work}/original-two-round-complete210-sources127-v2",
+        "--out",
+        "{work}/original-delta-weight10-homogeneous127-runtime",
+        "--through",
+        "prepare",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/original-delta-weight10-homogeneous127-runtime/delta-weight10-receipt.json",
+      "mathematicalScope": "Complete same-field original200 source model, with actual rebuilt execution metadata in a new binding. Only full independent original-input/S-pair gates permit a negative; only all10/18/17 original source products permit a positive.",
+      "budgetResumeSeconds": [
+        600,
+        1200
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "budgetResumeWholeProgress": {
+        "manifestPath": "{work}/original-delta-weight10-homogeneous127-runtime/delta-weight10-manifest.json",
+        "format": "r150-original-delta-weight10-homogeneous127-runtime-parent-v1-manifest",
+        "kind": "input",
+        "parentMathematicalBinding": "41638323f597133aadeb65b2a1639899a162e2afbe6e7f7c477e93fae912cd80",
+        "paidMathematicalManifest": {
+          "bytes": 144113,
+          "sha256": "74eb5557203192b2b3e37b43189ceaa7ec34afeb698884f336331210d1bcf2ff"
+        },
+        "bindingComputedFromEntireSemantic": true,
+        "frozenSourceRequired": true,
+        "sourceContinuationEligibleRequired": true
+      }
+    },
+    {
+      "id": "original-delta-weight10-candidate600",
+      "requires": [
+        "original-delta-weight10-prepare600"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-runtime-parent127-789f.py",
+      "scriptSHA256": "433e8942e30cde475bd6e7f13df43b4a6765a876dac495553de5fe6a53fd001f",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+          "sha256": "54b082184273e254495be8e1eb788e6569e8ca9cc4b83a1a5d4330304e9d4246"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+          "sha256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+          "sha256": "20cb960bc20fea18001488e84dae35518d74f3338697dfed619eaadae6a6b2aa"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--chart-source",
+        "{scripts}/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+        "--producer-source",
+        "{scripts}/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+        "--verifier-source",
+        "{scripts}/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--mean-out",
+        "{work}/original-mean-first-frontier127",
+        "--weight8-out",
+        "{work}/original-complete-weight8-frontier127",
+        "--producer-out",
+        "{work}/original-two-round-complete210-sources127-v2",
+        "--out",
+        "{work}/original-delta-weight10-homogeneous127-runtime",
+        "--through",
+        "candidate",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/original-delta-weight10-homogeneous127-runtime/delta-weight10-receipt.json",
+      "mathematicalScope": "Complete same-field original200 source model, with actual rebuilt execution metadata in a new binding. Only full independent original-input/S-pair gates permit a negative; only all10/18/17 original source products permit a positive."
+    },
+    {
+      "id": "original-delta-weight10-complete-check600",
+      "requires": [
+        "original-delta-weight10-candidate600"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-delta-weight10-runtime-parent127-789f.py",
+      "scriptSHA256": "433e8942e30cde475bd6e7f13df43b4a6765a876dac495553de5fe6a53fd001f",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+          "sha256": "54b082184273e254495be8e1eb788e6569e8ca9cc4b83a1a5d4330304e9d4246"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+          "sha256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+          "sha256": "20cb960bc20fea18001488e84dae35518d74f3338697dfed619eaadae6a6b2aa"
+        }
+      ],
+      "argv": [
+        "--model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--chart-source",
+        "{scripts}/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+        "--producer-source",
+        "{scripts}/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+        "--verifier-source",
+        "{scripts}/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+        "--model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--mean-out",
+        "{work}/original-mean-first-frontier127",
+        "--weight8-out",
+        "{work}/original-complete-weight8-frontier127",
+        "--producer-out",
+        "{work}/original-two-round-complete210-sources127-v2",
+        "--out",
+        "{work}/original-delta-weight10-homogeneous127-runtime",
+        "--through",
+        "final",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/original-delta-weight10-homogeneous127-runtime/delta-weight10-receipt.json",
+      "mathematicalScope": "Complete same-field original200 source model, with actual rebuilt execution metadata in a new binding. Only full independent original-input/S-pair gates permit a negative; only all10/18/17 original source products permit a positive.",
+      "budgetResumeSeconds": [
+        600,
+        1200,
+        1800
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "budgetResumeWholeProgress": {
+        "manifestPath": "{work}/original-delta-weight10-homogeneous127-runtime/delta-weight10-manifest.json",
+        "format": "r150-original-delta-weight10-homogeneous127-runtime-parent-v1-manifest",
+        "kind": "verification",
+        "parentMathematicalBinding": "41638323f597133aadeb65b2a1639899a162e2afbe6e7f7c477e93fae912cd80",
+        "paidMathematicalManifest": {
+          "bytes": 144113,
+          "sha256": "74eb5557203192b2b3e37b43189ceaa7ec34afeb698884f336331210d1bcf2ff"
+        },
+        "bindingComputedFromEntireSemantic": true,
+        "frozenSourceRequired": true,
+        "sourceContinuationEligibleRequired": true
+      }
+    }
+  ],
+  "sameJobPolicy": {
+    "rebuild": "No historical arrays or new artifacts. All five original parent modules are recreated from frozen sources in this job. Full104 mathematical manifest and every original phase retain exact paid identities.",
+    "runtime": "Python3.12.14 and python-flint0.9.0; actual Singular4.4.1 binary hash and engine controls are required before original candidate.",
+    "noEmptyCandidateRetry": true,
+    "wholePrefix": "Exit75 continues only with source continuationEligible, a changed whole prefix, the same exact source and recomputed semantic binding, and the same complete mathematical parent.",
+    "failure": "Input, arithmetic, syntax, memory and product failures are never retried as budgets.",
+    "deadline": "110minutes work and118minutes from workflow start; full next attempt plus120seconds must fit.",
+    "data": "Only source/parameters/run/bytes/SHA identities may enter Git. All mathematical raw, arrays, SSI, coefficient texts and logs remain temporary/job log. No new artifact or Release uploads."
+  },
+  "computationalOutputsInRepositoryAllowed": false,
+  "largeDataPersistenceAllowed": false,
+  "mathematicalProgramStatus": "Actual local v2 prepare complete; no original candidate computed. Runtime-parent bridge and this new job remain unrun at freeze.",
+  "rootReview": {
+    "allMathematicalSourcesRead": true,
+    "wrapperAndAllNineStepsRead": true,
+    "sourceBridgeOnlyRelaxesExecutionMetadataNotMathematicalSHA": true,
+    "localWhole200InputsIndependentlyVerified": true,
+    "actualPublisherPullRequiredBeforeDispatch": true,
+    "mathematicalCandidateAtFreeze": "not yet run"
+  }
+}

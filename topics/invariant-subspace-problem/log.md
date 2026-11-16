@@ -1,5 +1,10 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：完整权十输入与独立原导出审计
+
+原200列v2 prepare实际完成；根不导入producer/verifier，独核2000原坐标、8037189项、151071880 ASCII字节及δb²目标全真，156.362秒exit0。v1守卫错误和根v1 exit137均留真实身份；冻结完整截断验证准则及九阶段同job执行包，尚无候选/成员性结论。见[正式准则与审计](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)。AI-assisted GPT-6 Astra Pro。
+
+
 此前完整记录保存在[本轮日志归档](notes/2026-11-16-log-before-ten-generator-reduction-789f.md)及其归档链。各条原日期、事实与限制保持；此处继续记实际工作。
 
 ## 2026-11-16 05:40 UTC — 完整原11H梯度商在全参数上由十项生成
