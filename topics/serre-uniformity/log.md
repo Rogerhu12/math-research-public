@@ -464,3 +464,9 @@
 - root11Range1853801B实际核57小件/manifest58，不称大carrier或全ZIP已本地重哈希；原53/569载体成员由Actions全部核，旧数学不重做。R864首60min激活core0dfe5d3f/wrapperb9e36cc7/request924e384b，实际19minor/127列/双图全核待输出。
 - R862首run43812454495真实exit1发生在final缺命名文件；artifact14201076909/453f8a21全ZIP/12件已实际核，已成数学stage保留。ordinary修具体命名/兼容续源，禁止重做已成Norm/12matrix；R865/R866共享127块后接。
 - 本push规则：本地真实pull至feebf07a4514fb317a3360f5ff057dc3362b0ad9（2026-11-16T05:52:16.616084+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:53 Asia/Taipei — serre-public-astra-20261115
+- R863完整纸证fbac90d2：原−1/p Weyl全角色、唯一非split扩张和End_B标量性给真正原格全G匹配；原torus全部μ_k和模π^(p−1)的完整有限相位已证，不只λ常数或R808半单Gram。
+- 原tame帧/CM torus/平均尺度与pi完整低层保留；未将cusp的单位当Drinfeld normal或q拉回单位。root已全读纸证及R434/R592原Weyl/λ和primary作者PDF，sigma继续R867真实de Rham专化。
+- R860正式结果及R864激活已推3e31c973；一次非快进后立即pull/rebase再推成功。R866纸证root发现旧e_i已含82²的重复尺度，已要求改正后发表；R862四旧stage全成，仅修final命名并保字节续源。
+- 本push规则：本地真实pull至04bc6f9df5decea57f39c3afdbd89b6ae3513b97（2026-11-16T05:53:42.844796+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

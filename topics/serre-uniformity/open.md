@@ -136,3 +136,5 @@ E_Aφ*=0，所以本投影不能替代YP的eη，d_A不代其d或挠阶N；相�
 **R862小算术已激活**：[执行记录](notes/R862-original-Rosati-projector-activation.md)，core4656250c/wrapper8c7c82be/request0b928df9，20min标准库四stage。真实R8529+270叶保R7918原身份；新P_A/d_A与原12阶完整乘回尚待运行。投影仍消去φ*JY，活跃Y Hecke/原nonp继续R865，不以本结果替代。
 
 **R860正式闭合、R864首scope激活**：[真实DAG结果](results/R860-certified-original-semilinear-resolvent-DAG.md)：run43811325290/37stage/2.029818047s，final4314f242/DAG8b9dcca6/61源carrier5414b58f已成；不重W或三共轭，未展开/RR。R864[执行记录](notes/R864-original-canonical-cusp-kernel-activation.md)固定core0dfe5d3f/wrapperb9e36cc7/request924e384b，60min只原20×146的真实127核；R866后继真正Q-fixed基与R865 T7共用原127块，不重复消元。R862首run43812454495仅final命名缺文件而exit1，已成stage与原源完整保留，按实际bug修复续接。
+
+**R863原非split格全π相位已证**：[结果](results/R863-original-cuspidal-extension-and-full-first-ramified-phase.md)fbac90d2。由原−1/p Weyl的准确p-regular角色、唯一非split扩张及End_B仅标量，原e_r精确对应多项式导数泛函，不靠维数/Borel猜同构。原CM环面给所有μ_k=(ζ^(k+1)−ζ^(2k+2))/((k+1)s)，0≤k≤p−2；π=1−ζp下原完整平均相位为C(−log(1−π)Θ)，模π^(p−1)，保原tame帧/标签和平均尺度。原cusp截面到Drinfeld normal的真实源比较仍缺，不能称首单位/同h first-block/height；R867继续具体de Rham与坏模型专化，不重复R808半单商。

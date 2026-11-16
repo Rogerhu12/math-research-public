@@ -178,3 +178,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R864（已证明，实际核待公开计算）**：[原尖点评价构造全部正则微分](notes/R864-original-holomorphic-differentials-from-cusp-evaluation.md)3f308ffa2c4ce7bc217f12f1f1b5c31bd0ef425ed90953721e7176e863ac8c7e。完整L(Hτ)146基乘原ν给H⁰Ω，原20尖点有限代数的两20×146评价核理论维127/rank19；第二图检vf，原V1 e73另加a1、82只在微分。实际rank/19阶非零minor/127独立列与两图全核由新Actions取得；未将有理坐标当原Q下降，也不代YP128/634或height。
 
 - **R860实际源完整表达已成**：[正式结果](results/R860-certified-original-semilinear-resolvent-DAG.md)c4bb1555970252886c5574187adf578532447fc023c0c4ebd2c35bd6f9e8e5f8；run43811325290/sourcecb6f93b6，37stage/core总2.029818047s，final4314f242、原W系数索引c522daaa、半线性DAG8b9dcca6，61原件carrier5414b58f。原β72余子式/真实cY/ν及FM27因子1源完整；未作二元展开、Krylov、RR或height。root11Range1853801B核57小件，整个ZIP/大载体此处未重哈希；全部新数学仅Actions。
+
+- **R863（已证明）**：[原尖点整格的非split扩张与完整首分歧相位](results/R863-original-cuspidal-extension-and-full-first-ramified-phase.md)，SHA256 fbac90d2a89e04496981c6d9091aa98585f859f0dab515f5c66472753d92bb85。准确原Weyl角色加H¹/End_B唯一性给原Λ/pΛ与(Sym^(p+1)det^-1/W3)*的全G同构；原torus平均全μ_k=(ζ^(k+1)−ζ^(2k+2))/((k+1)s)，生成模π^(p−1)的C(−log(1−π)Θ)原cusp相位，保非split扩张与tame规范。没有把cusp相位当q-normal单位或height非零，真实坏模型比较继续。
