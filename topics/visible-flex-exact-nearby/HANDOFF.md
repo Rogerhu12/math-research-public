@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 12:38:26 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 12:44:15 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 12:01:17非FF真CLI仍无executor，下一本地尝试≤13:01:17。最新CI真pull为43865837250/1于11-16 12:21:57.120866→0fed4b86b6734921fafbc183c9b2ebf4c25a71db；两README完整diff空/同已读，exec保4次全回执。下一真pull≤13:21:57；ref读取不冒真pull。
-最近只读README核：18e400e79a6822dbbe2b895fb3c6f8ce954c6347；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：e76480a7e2a2e7c75da2564b2ee81cbf8d9b5196；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -34,11 +34,11 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 
 WEJA8f1b7094原failure1600新+9copy/39partial全保/lost0；WECAc06787e9/43831678361成功1684冻结，58current/恢复4ca7c1d4保原档。GMRf03b79bc核局部mean/γ桥早于node24失败已成：43827705714/1首node679a1d15/3497B/00e1566b，4copy+8新全保；只原实[rc,r+]，m下界是|m|，禁再算/扩row790或对称盘。Phi仅旧(0,2)*2!；whole上界不授逆/族。
 
-WHR289935c3/WHVA9274e696/WMRA b2df8a12/W9602f93880全实际球、输入/端点/mean/失败/恢复与未付域保上述完整检查点。193仅angular fiber，真radialhead index0且mH/coker未知；WHVA N4096充分门false、0finite；WMRA旧42冻结。真outer T:(289+mH)→(193+mH)有kernel96+ℓ并注入positive齐次解，至少96列存在；指定root even96仍须signed真square逆，PW→两mean→WPL→B^-1与完整high费不减。
+WHR/WHVA/WMRA/W96完整实际与恢复保当前检查点/原proof；193仅angle、真radialhead index0且mH/coker未知。WHVA N4096false，旧42冻结。真实outer kernel≥96并注positive解，指定root even96 signed square待；PW→两mean→WPL→B^-1全high费保。
 
-WHS3e274258/WOBf13024a7：真97..288壳/rough Fs C、outer H−5/6、全coker/ℓ/SE同逆保；未知Gnorm/Btarget。实际pR/outer193全mean/affine/七port与指定96的真square保。A_c=identity+compact/index0，须完整ff/ft/tf/tt及||I−QA_c||<1才授逆，旧finite193对象/未存signed矩阵不可转用；全部scope/顺序保proof及检查点。 WDS4c7c9d6e给真Schur双侧证书I−QfM=E+D*R^-1T，须e+κdt<1；全7port primal/dual弱Green、两rhs/193mean/97root+96outer/完整δ保。reference trial不授actual有限逆；真tail见WIC。
+WHS/WOB/WDS完整原scope保当前检查点及proof f13024a7/4c7c9d6e：真97..288壳/rough/outerH−5/6、mean/affine/7ports/coker/ℓ/SE及未知G/Btarget均保。必须全4块、2rhs、97root+96outer的e+κdt<1；旧193与未存signed矩阵不可转用。真tailκ3见WIC，actual有限未闭。
 
-WPT/VS/WPTSA4f880dce全原scope/球/193mean/四块/两rhs与原失败prefix保proof/manifest296d3f66。43859287399/1的153parents/4801交集、五max和m1/2两false冻结；SCI c79f9de9/24767/bdd8857c、exec48542d9c/31409/263e6e51；old0/lost0/finite0，原badtoken未知不补造。
+WPTSA4f880dce/43859287399全153parents/4801交集5max、m1/2false冻结，SCIc79f9de9/24767/bdd8857c；完整193mean/4块/2rhs/失败prefix及原badtoken未知保proof/manifest296d3f66，old0/lost0/finite0。
 
 WIC527fc35e由8原whole粗有理界证明m160的真tail δ<80553/128000<2/3、κ=3；新24480cell/4724833维，原m1/2false不变。完整weighted impedance reference正pivot/mean/outer H−5/6/transpose/whole norm及rho2−rho*已证，module c5de896f仅定义无入口。actual有限须全signed e+3dt<1、7port/两rhs/真实96，尚未授逆；不分配dense矩阵。
 
@@ -67,3 +67,5 @@ WQSbea91372无除τ的双向rank1、真权weighted Schur与64模χG0χB0全L2hea
 WBF2dd1cdc5 sharp Bernstein去除sqrt385且完整角变分精确积分：Fj=768^(j−1)ΣS(j,k)(k−1)!(F1−1)^k；只读原positive F1。新flow2..15/phase2..15/bulk/transport/relativeω共83尚未算，旧K1/P1/F1及WDG80原字复用；不授whole小界。
 
 WCPR642e6fd2：真实free cut R=Gi p^-2(a1+iεσ√t b1)、完整dr输运后加genuine；near两项/far四项按真正预算归一，旧profile0独copy，全3×5输出权保。0新数，WSM152新候选待WBF前驱后执行。
+
+WPSffd000ff：普通源body/endpoint成对，Jρ=(I−QfΔρ)PfGD；全signed E/D/T=式15、整候选式24，全L2/mean/7port保。2moment仅投影finite，全Green保未投影源；reference K∈[0,1]。module388cb56b无入口，actual候选待算。

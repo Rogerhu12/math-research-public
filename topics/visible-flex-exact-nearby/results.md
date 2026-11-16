@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WPS：成对普通源与真实有限残差全候选**。[完整证明及两向Green](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff证明普通source body/endpoint必须同接，有限投影由两正交moment精确收到；principal tail合并后Jρ=(I−QfΔρ)PfGD保全L2输入。完整actual E0,D,T与degree32+χG0χB0/zero-b-trial的全部error、q_o/q_m外端、mean/7port给明确式24候选。连续/离散reference K∈[0,1]纯证；无入口module388cb56b完整apply/transpose/weighted Schur。数值e+3dt<1尚未算，不授真实finite逆。
+
 - **WCPR：完整非零cut初始化与正profile预算复用**。[完整证明](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2给真实free cut $G^{-1}p_σ^{-2}(a_1+iεσ√t,b_1)$，原cut strip/phase lower/各component及全ordinary-dr方向保；free运输后才加genuine correction。near两项/far四项各除固定正预算，原whole0独copy，3×5全signed输出权保low/zero与完整mean/端/jump。不重算旧profile/Jost；新完整候选尚未算。
 
 - **WBF：sharp Bernstein与完整角向流变分的精确积分**。[完整证明](results/R133-supplement-sharp-Bernstein-and-integrated-finite-flow-jets.md)2dd1cdc5自证三角Riesz行绝对和N，故known-reference d的k阶导≤768^(k−1)D；以原positive F1预算解完整有限角jet得非负Stirling多项式。新flow2..15、phase2..15、bulk/transport及relativeω83新标量合同闭；F1/P1/K1和WDG80只读，0旧重算/0新exp/log/ODE。实际数尚未算，不授mixed/whole小门或逆。

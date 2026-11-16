@@ -89,17 +89,7 @@ PD58bdf173仍需真正DF/regular逆、trueν Schur非零、原第四Robin/腰/me
 
 本节上一完整范围表已移至[已成源链完整范围](notes/2026-11-15-completed-source-chain-scope-index.md)，Git blob55e973ed、SHAb2560cdc；原文在6cb41ee10eb925de47fbcf5bf6a70bbd61b36b8f同open第3节。只调整相对链接，完整原球/单位/域/失败lost/恢复身份及每条未付条件继续有效，成功旧数学禁止重算。
 
-| 已成组件 | 原run/门 |
-|---|---|
-| N/SP/PW | 43716450174/17、43731464771/20、43734233535/21 |
-| PC/IN/RR | 43740173506/30、43746008734/23、43750683671/28 |
-| TN/TC | 43752771157/16、43754703603/18 |
-| STA/AW | 43757644616/25；AW解析 |
-| FAA/WXA/WTA | 43763658978/24、43763424840/20、43763134339/20 |
-| SJA | 43768006977/26 |
-| KLA/TFA/CGA | 43766439345/16、43766881076/14、43768992861/21 |
-| WEA/PGA/PIBA | 43769746581/22、43770122351/20、43771317443/15 |
-| 旧有限Green/F/WA/WL | 43711315338/14、43737257903/15、43747940791/13、43749764738/18 |
+N/SP/PW、PC/IN/RR、TN/TC、STA/AW、FAA/WXA/WTA、SJA、KLA/TFA/CGA、WEA/PGA/PIBA及旧Green/F/WA/WL完整run/门表逐字保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)；已成全部冻结，原scope与未付义务不减。
 
 AJ/RV/DG/M/SV/ER/S1/HP/BG/RJ、正侧两条原run、AD完整Wronskian与SF exact source均保上述范围表。原Js268435456/97/1024不能混；source length与无length jump/完整两mean/全频与true density仍按各proof。两reference/独立PW function ports不因此有限；finite Green和νvolume不代wholecore或全ν，所有新逆与真实有限块义务在第2、4–7节。
 
@@ -197,3 +187,5 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 [WBF sharp Bernstein完整流jet](results/R133-supplement-sharp-Bernstein-and-integrated-finite-flow-jets.md)2dd1cdc5：新完整积分多项式去sqrt385与逐阶长度放大，原positive算法F1才可作e^∫D预算。83新前驱未算；WSM可接同域typed flow/phase/Rω，旧WDG80与K1/P1/F1不重做。真实mean/所有receiver/finite与matching不减。
 
 [WCPR完整cut/profile复用](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2：cut用真实Gi、cut phase lower与独立free分量；非零trace/完整dr transport后再加genuine。near两项/far四项按原正预算归一，whole0独copy避免独立舍入sum；全3×5输出权保所有signed/low/zero。新WSM152待WBF83前驱；原mean/四端/jump/finite与matching不减。
+
+[WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff：Jρ=(I−QfΔρ)PfGD，actual E0/D/T式15和式24完整保degree32、cut高trial差、b/mean/7port；两moment只收投影finite，GD保全L2源。reference K∈[0,1]；e+3dt<1待算。
