@@ -251,3 +251,13 @@ run `43896937318/1`、workflow `5a391cf1c8fca666df9484266a4a12af84c03473`、actu
 ### 2026-11-16 15:58:46 UTC — 九旧compact-metric浮点派生报告普通清理
 
 在 4ddcafb14dfd75b78937a1a229c52e5e79c974a9 核两README未变，依根规15正常删除九派生JSON共337304B，不改历史。完整恢复提交 `b1516ca01023ba29e939dbdf34f1eafc24dd5935`；九原path/Git/bytes/SHA和所有资格见 `notes/2026-11-16-nine-compact-floating-reports-history-recovery.md`，Git `374ef41d6316d889535e630c4fd9ff6e8783a619` /92585B/SHA `ba1c91bee9ef5e2a7bbb3d14de49085375a0a010fdf316f9b118a8b771226c37`。每原件均known-size小UTF8完整读取；25公共字段逐token相同，各specific字段及原省略字段token+LF hash覆盖每件全部顶层键。两m16报告的全部12attempts逐项保success/failure/diagnostics/mean与精确nu，完整数组/迭代史仍在immutable整件，不由摘要替代输入；所有accepted checkpoint原回执不改最终失败，不声称内部旧scratch路径仍可恢复。全九件certified=false且三whole域false；finite成功只是旧浮点诊断，ν/waist变化不作最终fixedmetric族，非线性tail/mean-height/flux/非第四角费均未付。只删九report，未触sources、候选、guess、方向/native或内部对象；当前WVC/WCTR/WEX完整input路径逐件排除。清理前topic199624096B，净释放244719B再扣本次文档；WCTR43901776543/1完整192000B pending与120000Breserve仍保。没有新数值、没有旧目标重跑。
+
+### 2026-11-16 16:03 UTC — 执行环境恢复与真正命令行拉取
+
+selected环境新挂载后原会话目录不存在；显式/bin/bash、login=false已验证可用，在同会话路径重新授权部分克隆公开仓库，filter=blob:none、single main、no-checkout后稀疏读取当前文档/证明/源码，不触私有仓库。公开HTTPS git ls-remote和clone实际成功，无令牌写文件。16:02:58 UTC执行 git pull --rebase origin main，由ca3ad325de68edd3b5733f434145bd7496ed6b41快进至eb55406f19f4a10750723e6b615f00a0640397d4；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12均同已读，没有重复读未变README。全树无AGENTS，checkout起始clean。后续正常CLI提交/拉取/推送；旧connector例外阶段的全部记录保留。新环境清空临时code-mode cache，但已推结果与未挂Git blobs未丢，所有已完成科学目标仍冻结，不因临时metadata缓存丢失重算；三代理正在将新纯源码/证明落独立scratch。WCTR43901776543/1元数据仍in_progress，最大192000输出与120000预留未解除。
+
+2026-11-16 16:05:41 UTC：CLI认证push非FF后立即真pull --rebase成功；新origin/main e524b0cafc589ef0dd9fe9ef922195945d924f85，两README blob与已读21bd547f/7e2b93d6相同，仅记录无差异，不重复读旧文。保远端main并继续推送本结论，令牌仅该CLI进程临时环境，不写文件。
+
+2026-11-16 16:05:57 UTC：CLI认证push非FF后立即真pull --rebase成功；新origin/main 92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9，两README blob与已读21bd547f/7e2b93d6相同，仅记录无差异，不重复读旧文。保远端main并继续推送本结论，令牌仅该CLI进程临时环境，不写文件。
+
+2026-11-16 16:06:15 UTC：CLI认证push非FF后立即真pull --rebase成功；新origin/main b38a46a6d0f34f250cff6d13c64ffafa65931ef8，两README blob与已读21bd547f/7e2b93d6相同，仅记录无差异，不重复读旧文。保远端main并继续推送本结论，令牌仅该CLI进程临时环境，不写文件。
