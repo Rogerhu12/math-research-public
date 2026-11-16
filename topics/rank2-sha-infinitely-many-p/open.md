@@ -169,3 +169,5 @@ R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹�
 R887§20同原Fa的共同有限p算子满足L^p=V^pL；全部Fa的A加权Cartier质量为同非零H，原四行仍保Wν。显式Y=(Fb−1)/b−(Fa−1)/a给真实exact差与十二阶零，四η准确归到同F6²及全部−Yνd(WνF6)伴随；未付四中央联合非零或p²边界。
 
 R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(p−1)=−r^p严格相消。共同非零质量不传到最终中央；继续同Wν和全部带权伴随。
+
+- [R911](results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。

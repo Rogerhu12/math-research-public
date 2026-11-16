@@ -35,3 +35,5 @@
 - [R907 §8](../results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹；同Qf(T)公式保两实际原点jet及−45项，不除Ft/f2、不删非稳定来源的左边或边界。
 
 - [R908 附A](../results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：原全群环CM Hom/整饱和与固定跨p尺度给同D loc_q rawD_nq=0；完整q+1 Igusa/Drinfeld、q−1覆盖、CM degree-zero消全部常数，准确总系数(q−1)u(q+1)/q。全部prime-to-p tame旧层/有限新集合的增广坐标被D杀掉，p∤D则零；wild仅真实增广已运输，不宣称全局类或ordinary loc零。
+
+- [R911](../results/R911-original-five-six-long-root-energy-and-short-successor-chains.md)：固定五/六长行的完整重复根能量给13(T−vG)≤27κ+312b及16(T−vG)≤27κ+384b；保十九角/真实3C。L>h时实际三/四项后继链反门给整K维数≤2dimVT/3或3dimVT/4；同F且余因子unit的当前quartic强制L≤h，不能借此补它的forcing。
