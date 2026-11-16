@@ -97,3 +97,13 @@ WPS/WRP完整current manifests、WSMF proof/math/owner、W4M proof/science及WVC
 2026-11-16 14:33:10 UTC；README核b0ae8ff5f157fbdb1b6e5fd8dc83081c7b9eb635未变。源/manifest先独推e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c；本次新workflow006e6a3835cb178e8d9376dda5293f9d561e6678/2943B/SHA5e459b8a5c90baa1a81ce4d88c33826fe30e565f8a048909a59af753e8b799d5单次push触发，绑定manifest909b8961、原worker3770e29d。公开main partial clone后真pull/两README完整diff/13全部输入/3AST/完整8原资格预核，consumed marker与fresh立即prechild容量门后只启动52新的一次child。旧52尚未执行；WGS/WBF/WJR/WDG/WMT/WRP所有已成目标只读，旧extension父失败不改。
 
 152000全输出+120000预留，实际成功/失败全prefix发布按≤200MB；W4M首次child0失败回执已完整公开，当前无其他live数学child。待本次完整结果发布再接W4M明确未算的30目标；任何失败先保存前缀和lost/未算边界，不自动重跑。
+
+## 2026-11-16：WSMF52 首次三图完整成功冻结
+
+2026-11-16 14:36:26 UTC；README核da40433f4580d9e726241d73047008801c6eaba3未变。公开43886938106/1成功，workflow8f219842365a81c262024b1e396a36457395529a，actual checkout6d7a983882a040c92caa5c20b3940270b4dae1c1。完整SCI c20713f51366ef6c838147232994424bf3e633de/61398/SHA3243348d6dddc11c8baf1f6eb559d929a37c509a464165b7042d1ce47bb2e290；exec8bf42887e901df028a10af320e8724fea68e6958/35338/1b725baa0ab29361ed82bcf13ff2354ce8b23d73c8c9bca6f1b63ae963bb4527；report2f15789f466d20407267943ca624d65c4883922d/443/3b21f5cc947455dd3b9556b80c8a22ab2e26ff698aa9ee708eea1e40e4459c04，合97179B全部已发表。
+
+根24项纯JSON/identity核全通过：34字段/18有序门/14progress、三图32+7+13、13current/3AST/0history、62原copy+4新readback。完整8原文件/48context、全部shape、accepted/provider和每条upstream原字符串全同；whole/reduced的完整旧候选和实际selected路径正确。全52新已保存，current_target/current_prefix/failure均null，old0/lost0，不重算。
+
+完整whole与reduced原球均 `[2.09588599684579466065657203562456497267457220507266945996882109390875270564e+302 +/- 3.63e+227]`，各自实际选new。CF原球 `[3.09344283749769861414062838407058580844528646431076375635688375014805759828e+140 +/- 3.57e+65]`；rawmean `[1.34960121027577702563539976364371544718771883202622730978565655016169411213e+171 +/- 1.15e+96]`；物理mean端 `[2.17812065540100464357243395782017337539492592126759664888346380888937835445e+142 +/- 4.81e+67]`。全waist `[5.01187017954552769069748468515715152167111434479234003335680065822526188326e+295 +/- 4.84e+220]`，原独立scattering主导。全两mean/四端/3070/positive/root/Theta/nu/finite独立费用仍保，无smallness/finite逆/最终族声明。
+
+单child14:33:43.418061→14:33:44.670295，wall1.2521789330000033s；完整preflight25109B/ebc9e7c48c3640f32a3fda551c526bd2eeb5443f92082675966c32e962b8fe6f。stdout12064738B/SHA2d08c698295b7aeacf990953a42b719124508cdcce6506522ae66e579a51b0f0只引身份未取正文。pre/immediate topic199347895/199348539B满足152K+120K。四次真pull全回执exec保留、两README diff全空，末次14:33:44.962342→6d7a9838。所有52目标冻结；接W4M明确未算30目标的窄修首次child，尾端/真实high/finite继续。
