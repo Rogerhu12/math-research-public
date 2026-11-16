@@ -216,3 +216,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R875 原tame CM常数与首Cartier因子已证明**：[完整证明](results/R875-original-tame-CM-constant-and-first-Cartier-factor.md)，SHA256 2ba59332a91001d794748f23e26b26c440660023254758fb8fc64790f9843b60。保原六级相位、平坦ω、P2/P3投影半因子和准确周期，得B²R(P†)²=ζ²α²C_p；特征零共轭先消去后原Hasse帧约化。原h1最小条件等价R(P†)≠0且C_(p−3)≠0，未断言常数非零；R706反例、R871三次单位与两旗/q-normal/height边界均保留。
 
 - **R872 原点jets与固定Picard空间实际完成**：[正式结果](results/R872-certified-original-P0-jets-and-fixed-Picard-spaces.md)。run43830071469/job133173089548/sourcea07453ec，299stage/13.596525042s；273jets、146核与rank962/418核完成，finalb2837667、artifact14207558653/b91d6fcc。char0为准确unit-solve源而非已重构系数；五Lj128/144/t帧/height仍开。
+
+- **R876 九个原域范数生成完整刚性化Hecke理想已证明**：[完整证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)，SHA256 2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47。真无基点二截面给九个8次域范数的全曲线格，非étale/剩余次数保全；三完整纤维816×836/672minor、共同M0取消254P0、一次目标271右端及真dual7/原P0帧同构均明确。尚未算128截面/九理想/支持，模零保持未决。
