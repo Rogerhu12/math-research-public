@@ -16,9 +16,9 @@
 
 core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；同b0/159→163，永久enriched reference c0不换selected。η≈.26610227是metric epigraph，**非δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3、H径≥22/101；连续支持欠。τreach.061须κ≤1000/61≈16.39344及非局部门，现κ≈58。旧失败/漂移保持，不重跑。
 
-## 3. 已付数值祖先与关闭入口
+## 3. 已付数值祖先
 
-[guard首实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527，6普通α1接受/7model/10LP，η.26623355613853394，两网14门；m7 gap2.4768679406952238e−5无trial非驻点，438bank及8events/7commits由direct继承。[关闭冷恢复](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：run43773136836，唯一粗值205.448292651s耗尽旧120门，累计active241.314203844/values15/LP10、init293.542781793；新J/model/LP/SOC/接受0。该epoch关闭，旧fees/失败保原note，不重开或加时。
+[guard首实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)run43767357527保6接受/10LP与438bank/8events；[关闭冷恢复](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)run43773136836保唯一粗值205.448292651s、active241.314203844/values15/LP10、init293.542781793。旧epoch关闭不重开，全部费用按原note独列；最新direct+末槽见§5。
 
 ## 4. 纸证与准确剩余门
 
@@ -44,4 +44,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 ## 5. 继续
 
-[末槽完整实际](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md) run43789033043/job133043031523已用LP64，原64=63primary+1SOC全部关闭；本次1LP/4value/0接受，累计62value/356.129820261科学秒（失败全计），process86.310207106/RSS816876KiB。完整gap1.262109103184958e−6未合，inexact修复gain正但真trial细η.26610465853261767、改善−2.391806995405421e−6，原14门/盒真；新粗soft行后回accepted27，无SOC额度。接受点仍η.26610226672562226/κ57.99972678574561/physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c；池4439/4533v8/6，B.000125/streak0，bank512原hash，learning36events/35commit/pending0，γ43.39425351670855/44.0738041005123。新step只指纹，actual record=null与两个硬编码true相矛盾，禁止重演LP64补向量。下一有限锥独立新预算保原cfg及当前真实状态、祖先账，直接捕获solver primal；合同/源码静态审，尚未执行。R426 k0/R427全k结构已付，两新kk系数唯一Actions请求已发；全J/period继续。主门未付，不收尾。
+[末槽完整实际](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md) run43789033043/job133043031523已用LP64，原64=63primary+1SOC全部关闭；本次1LP/4value/0接受，累计62value/356.129820261科学秒（失败全计），process86.310207106/RSS816876KiB。完整gap1.262109103184958e−6未合，inexact修复gain正但真trial细η.26610465853261767、改善−2.391806995405421e−6，原14门/盒真；新粗soft行后回accepted27，无SOC额度。接受点仍η.26610226672562226/κ57.99972678574561/physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c；池4439/4533v8/6，B.000125/streak0，bank512原hash，learning36events/35commit/pending0，γ43.39425351670855/44.0738041005123。新step只指纹，actual record=null与两个硬编码true相矛盾，禁止重演LP64补向量。[新锥合同](notes/finite-cone-restoration-budget-and-acceptance-contract-20261116.md)冻结1200科学秒/32conic/0旧LP/96value/单次10s/每model4，与原1800/160余量取交，旧cfg/64封存；Clarabel0.11.1/200iter/1thread/1e−9。新method身份/直接exact159，当前状态与祖先账全保；完整入口待审，未执行。R426 k0/R427全k结构已付，两新kk系数唯一Actions请求已发；全J/period继续。主门未付，不收尾。

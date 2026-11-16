@@ -453,3 +453,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **R426：k0负四kk完整自然锚及原共同查询归约。** [证明](results/R426-complete-zero-curvature-kk-minus4-natural-anchor-and-common-query-reduction.md)（18949B/SHA4ed4f5b38b926eb466b9f6f0419f6b4ed31ee700a65fe8a3f1c1c3a71c266066）给ΛV0=3F_Q4/128+∫(3p³r²−2upr³)/64。保真水平Y/两ZZ history、原τ0三槽及两有序尾，144V1−48V2+8μ1H1只在完整合成抵消。偶母后项全affine0、ordered3+2局部0，原同D/E经wholeE补偿给λkk(0)=0；非全k或自然查询恒零。纯纸证，无新执行。
 
 - **R427：完整负四kk自然函数为偶四次，只余两列。** [证明](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)（15129B/SHA4b78effd9df670a8f4d40eeebeb39f2a558fbb350e0e2c3b0c74274484a25498）：完整独立outer n1及全状态Y、YC/ZZ、N0四势/真实tail给Λkk=A+k²B+k⁴C。S因子iffΛ(B−A−C)=0仍待付；A已R426，后继仅新B/C，不重复k0。其余原成本可在natural核中，不声称raw仅三项；无新执行。
+
+- **新有限锥恢复/验收合同与显式预算已冻结，未执行。** [合同](notes/finite-cone-restoration-budget-and-acceptance-contract-20261116.md)（22094B/SHA231804ce7f7681f36c88a9f33176c584207aa97264c2455655a9ce3f20691e0a）保accepted27及当前池8/6、B.000125/learning35commit；新1200秒/32conic/0legacy/96value/10秒/每model4与原1800/160取交。旧cfg64/160/1800/10原样、旧64封存；method身份真实追加，新factory真实binding；直接捕获exact159，旧缺失不重演。完整outer/transfer/必要新检查待静态核读。

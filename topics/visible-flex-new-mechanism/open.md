@@ -150,7 +150,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [原direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)的27接受保其完整28行；[末槽最终实际](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)已实际启动64并拒绝新trial。累计64LP=63primary+1SOC、62value、356.129820261科学秒，所有输入失败计入；最后14门通过而目标改善−2.391806995405421e−6。接受27的η.26610226672562226/κ57.99972678574561不变；当前池4439/4533v8/6、B.000125、learning36/35/0和新gamma必须继承。原64任务关闭，不重演缺失step或加LP65。
 
-新candidate record=null，两个硬编码保存true已判为报告错误；原stdout仅指纹。下一[完整norm锥](notes/finite-cone-affine-metric-design-20261116.md)保161变量/原linear与盒/完整oracle/真两网接受，直接在solver返回时捕获exact159；先付显式预算及原状态恢复合同，再新接口必要检查与唯一科学执行。未把新算法预算或改善预先宣成已付。旧11/9只读，不重测。
+新candidate record=null，两个硬编码保存true已判为报告错误；原stdout仅指纹。下一[完整norm锥](notes/finite-cone-affine-metric-design-20261116.md)保161变量/原linear与盒/完整oracle/真两网接受，直接在solver返回时捕获exact159；[恢复合同](notes/finite-cone-restoration-budget-and-acceptance-contract-20261116.md)已定1200新科学秒/32conic/0legacy/96value/单次10秒/每model4，原cfg与全局1800/160并守；入口全读后仅必要新接口检查与唯一科学执行。未把新算法预算或改善预先宣成已付。旧11/9只读，不重测。
 
 ### R399新的第二period内部通道已实际付至四点
 

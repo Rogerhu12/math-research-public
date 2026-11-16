@@ -255,3 +255,7 @@ root已逐diff读transfer/resume/audit三源，原helper完整函数及source MO
 ## 2026-11-16 02:09:29 UTC：两项kk负四首次请求已发
 
 root全文读30279B源码、11539B设计、10622B请求和3896Bworkflow，38源中36旧源与已付HH4闭包逐项相同；两个原R210 family1列的framing/scale/coordinates已读核。完整Y先于omega0，raw v2与两类N0/N2外槽全保，kk专属m2 h≥−3才排Gamma/reference。旧九响应只读，k0/旧pure/rank/forcing/dev执行0；新仅B/C必要self收缩及两Ω，机器joint false保持。source SHAfaf1446ba171e7b83d64b53e2bda3f237383dae27caf25353f754ae7fcaee3a4、request SHA33b3c808188b7ccff92c0abea14d391b51f6bbdd189d2db49f1af1e3189f6182、workflow SHAc3e9a535a4fd831490eb421b5cce4f081fc521f390a35a95726481a5eeaaa81e。公开/私有actualpull核diff后回钉源码，完整公式只原stdout，不入Git/artifact。首次actual待消费，不预判local/zero/S整除。
+
+## 2026-11-16 02:10:29 UTC：新有限锥完整恢复合同及预算即推
+
+根全文读19607B原稿后明确§8.1新配额，最终22094B/SHA231804ce7f7681f36c88a9f33176c584207aa97264c2455655a9ce3f20691e0a。32仅conic，0legacy/SOC；96value含恢复，1200science从首输入前起，单次≤10且双global/new时钟余量取交。Clarabel0.11.1/200iter/1thread/三tol1e−9，允许Solved/AlmostSolved仍过原单位/两网门。cfg导数身份保原，newmethod独立，pool/learning/B全继承；旧64及全部失败费用封存不清零。机制代理静态发现adapter独立新钟只在charge查的缺口，tail已窄补v3同步各返回位，root完整新版源码仍待读；无任何新测试/求解/科学执行。
