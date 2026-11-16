@@ -98,3 +98,5 @@
 - [真正58固定末环prefix102的后缀metric失败](notes/true58-prefix102-fixed-suffix-metric-failure-zero-solver-20261116.md)：**实际观察完成**。s≥.765 η约.54517超预算.2660053，曲率/PSD/area真；原102二jet在此零，按必要门0solver/J/candidate/actual。72.51349122599999秒/0原full值闭，总3047.102915103秒/147；1新两网准备point单列，当前58。下一改变R1/R2共同修复整个后缀，不重该固定纤维。
 
 - [R537 同一规范下预选有限高度路径的完整全段延续](results/R537-prescribed-finite-height-paths-with-one-gauge-and-complete-history-energy-bounds.md)：**已证明**真慢j和完整第三势重写后，顺次历史界与正快振子的修改能量给同χδ整段K0及d=Oδ²/d′=Oδ。先固定有限路径/紧族后δ；高度末germ准确，其余端口未返，p1仅Oδ⁴、t1总负，不授M0或δ依赖无限高度/时长。
+
+- [R536 同一33母的完整快高度回路与真实净负总矩](results/R536-real-negative-total-matrix-density-from-a-complete-fast-height-loop.md)：**已证明**一次χ、真前缀及完整八矩/第三下，有限高度闭回路和同规范平滑恒负保持使总p1^{ωc}<0；同一保持段内准确停止可清单个p1。其它七矩、末germ、pose、T/V及period未闭，不授可加零端口块。

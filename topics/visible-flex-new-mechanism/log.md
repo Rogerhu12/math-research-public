@@ -201,3 +201,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 15:12 UTC：R537同χ完整历史的预选有限高度全段
 
 [R537](results/R537-prescribed-finite-height-paths-with-one-gauge-and-complete-history-energy-bounds.md)准确用j和T̃移出k″，保2𝒜aυ及全部端势；先作慢A/T̃顺次先验界，再用含真实history f的修改能量关闭任意预选有限路径的全段延续。root全文纸核通过并明示高度下界选在共同余量内部，无科学执行。选择先有限T/路径/紧族后δ，p1仅Oδ⁴不猜符号，t1总负，全部M/T/pose/period未闭。prefix102闭账已推7c5d9b72f0fb785a22722eccaf6388190860df38；当前58/3047.102915103秒147值不变，新的whole-suffix源码并行推进。
+
+## 2026-11-16 15:40 UTC：R536完整同规范路径的净负总矩
+
+[R536](results/R536-real-negative-total-matrix-density-from-a-complete-fast-height-loop.md)保同R533实际33母、一次Gram、原八矩与完整第三，以t0=L⁻²/Λ=L⁻⁶的真实快高度回路和端根付负密度；K/P′联立正det、平滑输入及先有限R后L给准确恒负全段，严格压过完整回路正成本。真实总p1负且可在同段准确停到单矩零，其余七矩和全部返回门仍待；无科学执行。open旧接口因长度整理逐字移至同根归档，H压缩保原链接/条件。当前仍58/3047.102915103秒147值，继续同χ有限幅控制与全后缀源码。
