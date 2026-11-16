@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：378959a9a23a9790fabef6af975f7885e86b474a**（2026-11-16T03:30:47.516143+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[CM companion前完整H](handoff-archive-2026-11-16-before-CM-companion.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：eec879a2a3a88e30d395fc3853841873d002f959**（2026-11-16T03:33:10.266445+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[CM companion前完整H](handoff-archive-2026-11-16-before-CM-companion.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -56,3 +56,5 @@ ordinary原p43/776bitq已Gaussian5排，不是反例；Shapiro/θ-lift同Σ、�
 **同标签三次CM companion已证**：[四条原同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b：h±原角色分别连到ψ+=C_(2p^e)、ψ−=C_(4p^e)，四条整q展开同余保原χ6/θ方向。两ψ及5/7/13次幂真导子(6p)、level108p²；原加性规范完整Gauss=6p。ψ+秩1/ψ−秩0方向与原R575一致；Ω_D=2Ω/(αβD^(1/3))保p尺度−e/3。未证明坏p整模型上的central/Cartier functional运输或same-h三单位。
 
 **原41 sigma输入已证**：[真实域与倍率42](notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md)133d64af：原b的Eisenstein七次域与s未分歧二次给L41(e7/f2)，r^6=b/16给E(e42/f2/84次)。E27的Frob²=−41使[42]把全部原点/七共轭送形式群，原A≥1/7及u≡1同时成立。L_b=L16−log r、Z_b=rZ16、ψ_n缩放和原帧保留；42/84为41单位，optional41^a全尾与2a损失准确。未求41四响应/点值/period，必须原U.1或已接受A.1，不用辅助518。
+
+**原Y连接与同源校准行已构造**：[YP](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5：原O(−Z)经128维RR移到254度T，保c/a(P1)；634维微分→508完整主部、秩507，α=α0−dloga。两图Laurent界给有限全系数图，原Cν直接供微分模，无需全Γ。原e经真f=de/挠N和刚性化给连接幂等投影；同一实际Hecke L及完整非p纤维行U给YP35一次列。a/T/N/L/U均未数值化，不重登UE相消或删inactive/torsion。

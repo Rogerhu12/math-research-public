@@ -119,3 +119,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **同标签三次CM companion已证**：[四条原同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b：h±原角色分别连到ψ+=C_(2p^e)、ψ−=C_(4p^e)，四条整q展开同余保原χ6/θ方向。两ψ及5/7/13次幂真导子(6p)、level108p²；原加性规范完整Gauss=6p。ψ+秩1/ψ−秩0方向与原R575一致；Ω_D=2Ω/(αβD^(1/3))保p尺度−e/3。未证明坏p整模型上的central/Cartier functional运输或same-h三单位。
 
 **原41 sigma输入已证**：[真实域与倍率42](notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md)133d64af：原b的Eisenstein七次域与s未分歧二次给L41(e7/f2)，r^6=b/16给E(e42/f2/84次)。E27的Frob²=−41使[42]把全部原点/七共轭送形式群，原A≥1/7及u≡1同时成立。L_b=L16−log r、Z_b=rZ16、ψ_n缩放和原帧保留；42/84为41单位，optional41^a全尾与2a损失准确。未求41四响应/点值/period，必须原U.1或已接受A.1，不用辅助518。
+
+**原Y连接与同源校准行已构造**：[YP](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5：原O(−Z)经128维RR移到254度T，保c/a(P1)；634维微分→508完整主部、秩507，α=α0−dloga。两图Laurent界给有限全系数图，原Cν直接供微分模，无需全Γ。原e经真f=de/挠N和刚性化给连接幂等投影；同一实际Hecke L及完整非p纤维行U给YP35一次列。a/T/N/L/U均未数值化，不重登UE相消或删inactive/torsion。
