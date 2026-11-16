@@ -1,0 +1,72 @@
+name: visible-flex administrative receipt references
+on:
+  push:
+    branches:
+      - visible-flex-larger-amplitude-capacity-references-r2-20261116
+permissions:
+  contents: read
+jobs:
+  references:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VISIBLE_SOURCE_COMMIT: '494cc311a431553e61ad44202985e2737c6e92a2'
+      VISIBLE_REPO_TOKEN: ${{ github.token }}
+    steps:
+      - name: Read exact retired-receipt reference locations
+        shell: bash
+        run: |
+          python3 -u - <<'VISIBLE_REFERENCE_PY'
+          import base64,hashlib,json,os,pathlib,subprocess,tempfile
+          repo="Rogerhu12/math-research-public"
+          source_commit=os.environ["VISIBLE_SOURCE_COMMIT"]
+          root=pathlib.Path(tempfile.mkdtemp(prefix="visible-capacity-reference-",dir=os.environ["RUNNER_TEMP"]))
+          checkout=root/"repository"
+          env=os.environ.copy()
+          env["GIT_TERMINAL_PROMPT"]="0"
+          env["GIT_CONFIG_COUNT"]="1"
+          env["GIT_CONFIG_KEY_0"]="http.https://github.com/.extraheader"
+          env["GIT_CONFIG_VALUE_0"]="AUTHORIZATION: basic "+base64.b64encode(("x-access-token:"+os.environ["VISIBLE_REPO_TOKEN"]).encode()).decode()
+          def git(*args):
+           result=subprocess.run(["git",*args],env=env,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+           if result.returncode:
+            print(result.stderr[-4000:],flush=True)
+            raise SystemExit("Administrative source clone/read failed")
+           return result.stdout.strip()
+          git("clone","--filter=blob:none","--depth=1","--no-checkout","--sparse","https://github.com/"+repo+".git",str(checkout))
+          git("-C",str(checkout),"fetch","--depth=1","origin",source_commit)
+          git("-C",str(checkout),"sparse-checkout","set","--no-cone","/README.md","/topics/visible-flex-larger-amplitude/","/.github/workflows/")
+          git("-C",str(checkout),"checkout","--detach","FETCH_HEAD")
+          actual=git("-C",str(checkout),"rev-parse","HEAD")
+          if actual!=source_commit: raise SystemExit("Administrative source identity mismatch")
+          topic="topics/visible-flex-larger-amplitude/"
+          patterns=[
+          topic+"notes/public-actions-43636504089-1-directldtrial/actual54-artifact-fetch-receipt.json",
+          topic+"notes/public-actions-43637356027-1-dampedchain/actual54-artifact-fetch-receipt.json",
+          "public-actions-43636504089-1-directldtrial",
+          "public-actions-43637356027-1-dampedchain",
+          "actual54-artifact-fetch-receipt.json",
+          "08cf13c34e662465ea2175f5417e9541f64cc75fd32bb4dff2de2412778097d3",
+          "4ccd70eef393015736691fcdbb0815c3a5b940ab5a94d26a75a677469ece3b99",
+          "faed3c4200b1e2a8a26e0f9f4067d79bafdf4902",
+          "26c4e9b65be0ade1c0712c84d461a191c987968c"]
+          cmd=["git","grep","-I","-l","-F"]
+          for pattern in patterns:cmd+=["-e",pattern]
+          cmd += ["--",topic,".github/workflows","README.md"]
+          scan=subprocess.run(cmd,cwd=checkout,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+          if scan.returncode not in (0,1):raise SystemExit("Administrative git grep failed: "+scan.stderr)
+          paths=sorted(set(scan.stdout.splitlines()))
+          records=[]
+          for path in paths:
+           raw=(checkout/path).read_bytes()
+           text=raw.decode("utf-8")
+           matches=[]
+           for number,line in enumerate(text.splitlines(),1):
+            matched=[index for index,pattern in enumerate(patterns) if pattern in line]
+            if matched:matches.append({"line":number,"pattern_indices":matched,"text_prefix":line[:1000],"text_characters":len(line)})
+           records.append({"path":path,"bytes":len(raw),"sha256":hashlib.sha256(raw).hexdigest(),"matches":matches})
+          report={"schema":"administrative-exact-old54-receipt-reference-scan-v1","search_tool":"git grep -I -l -F; runner rg unavailable","source_commit":actual,"rules_blobs":{p:git("-C",str(checkout),"rev-parse","HEAD:"+p) for p in ["README.md",topic+"README.md"]},"partial_clone":True,"scientific_computation_performed":False,"patterns":patterns,"files":records,"matched_files":len(records),"all_matching_files_in_scope_included":True,"scope":[topic,".github/workflows","README.md"],"whole_matching_line_printed_when_at_most_characters":1000}
+          encoded=json.dumps(report,ensure_ascii=False,sort_keys=True).encode()
+          if len(encoded)>85000:raise SystemExit("Administrative reference report exceeds 85000; no prefix presented as complete")
+          print("REFERENCE_SCAN_JSON "+encoded.decode(),flush=True)
+          VISIBLE_REFERENCE_PY
