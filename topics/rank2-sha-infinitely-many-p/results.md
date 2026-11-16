@@ -107,3 +107,6 @@
 
 
 - [R872同修正§2.1](notes/2026-11-16-r872-factored-corrector-last-row-and-residual-branches.md)：原同M/p³和ell≤h−1准确给E²R|C≡(28/a)w^(h+1)Cu³e mod w^(h+ell)，native ξ在整个已付短段相消；E³R|C仍保−24w³Cξe³−(36/a)wCu²e² mod w^ell。原C1/F²高项按真实块界排出，未延长至第三块全部s行，也未付完整K1尾像。
+
+
+- [R882](results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原18覆盖由独立E_src:y²=x³+1和T=((x³+1)(x³−8)²)/x⁶显式给出，完整源群/全branch与q0/q2根B0/B2均固定。原17塔/一次gcd付两个端点三坐标；认证后F/P分别用底上原完美三次根和ε=−Ty′/A⁶消费，两目标缩放/全Artin/正规化闭点与边界保。不是另一个level36循环，实际r29 RR前端及原求交继续。
