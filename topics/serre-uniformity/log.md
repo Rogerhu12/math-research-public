@@ -554,3 +554,9 @@
 - R868真实run43819875762/source9586473c success，120.82823749299996s；finalef1dc965/h5de7d08d/逆点13de406d/十模块0e73e6cc，718小件纯Range核。R872直接续实际128/144截面。
 - H前态逐字归档a0371428并压缩活动索引；R849旧artifact仍活跃的措辞已更正，不改R868冻结tag。R873实际循环7源、R874原q-normal桥继续，本地无数学。
 - 本push规则：本地真实pull至62fb22a5faa1b97382b2859c6dc6e886ced847e8（2026-11-16T07:11:05.973086+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 15:27 Asia/Taipei — serre-public-astra-20261115
+- R868正式60d92f04：真271子式/自由坐标271=1/584位准确h及全272K乘回，两图逆点与十模块，699stage；原128/144RR与height仍false，R872直接消费。
+- 原full dual43790194976确为core BudgetStop/124，370位11a4f187及371正残差f26fe3db保全。半坐标request9492c873激活，继承同target/J/1481源，不重旧位/旧368失败RR，最终仍全35840核。
+- 07:19终端失联；新增本公开workflow serre-source-publication-recovery及纯IO发布脚本，真实pull/README比较/NFF重试，并dispatch已冻结半坐标消费者。R870 run43822039811已success，正式整数登记接续。
+- 本push规则：公开Actions真实pull至e5d6498d6b176bb4fc71faa9f5ca6956e690e541（2026-11-16T07:27:20.527035+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
