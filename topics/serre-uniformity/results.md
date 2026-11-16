@@ -236,3 +236,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R882原循环7同一准确系数的合法同处运输已证明**：[完整证明](results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md)，SHA256 a92524ab9d33124809fd2a46286e3c8ba49459331ebb46d013a9f41d457c655f。首scope只在1000000753处重用准确M/Y及739所选2058行，实际新单位逆/17列和全部2200关系；若旧minor在新处为零则诚实停，不换原对象。后继固定完整272维Artin纤维、目标271单rhs/全272关系和已成R879九范数接口；未执行者仍false，原t帧/完整范数理想/η支持/height不预填。
+
+
+- **R884 原扩大theta整格上critical sigma泛函的首pole已证明**：[完整证明](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)，SHA256 aee35fc2b3ae991b06e0a857dc4dbe3423a1001d9cdf8b1fd220330fc8a749c9。对每个critical F/G指数给真整global monomial，pole≤p+6，原μ6角色保留；原R702有限截断直接给p倍值−6B，赋值恰−1。只否定扩大格上无条件积分性，未否定原六维源、指定torus投影或same-h判据；无新素数扫描或数学计算。

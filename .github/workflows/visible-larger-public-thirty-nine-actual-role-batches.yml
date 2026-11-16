@@ -1,0 +1,343 @@
+name: visible-larger complete39 actual98 actual producer role contexts after213
+'on':
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-larger-amplitude/computations/public-thirty-nine-actual-role-batch-request.json
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: visible-larger-thirty-nine-actual-role-pair-batches
+  cancel-in-progress: false
+jobs:
+  original-thirty-nine-actual-role-batches:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 195
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Fixed scientific checkout and explicit batch request
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-larger-amplitude/README.md
+            /topics/visible-flex-larger-amplitude/HANDOFF.md
+            /topics/visible-flex-larger-amplitude/computations/
+      - name: Original Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Original packages and bounded Git metadata output
+        run: |
+          set -euo pipefail
+          git config --global merge.stat false
+          git config gc.auto 0
+          git config gc.autoPackLimit 0
+          git config maintenance.auto false
+          python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0
+      - name: Generate two historical213 and two current223 necessary views in the original public dependency directory
+        id: source_views
+        run: |
+          set -euo pipefail
+          python - <<'PYVIEWS'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          comp=Path(os.environ['GITHUB_WORKSPACE'])/'topics/visible-flex-larger-amplitude/computations'
+          request_path=comp/'public-thirty-nine-actual-role-batch-request.json'
+          raw=request_path.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()=='2d9df5946d429c3888013099989b2f5170a89556462e4ab1535cf127c7bbfaeb'
+          request=json.loads(raw)
+          source=request['source_view_generation']['generator']
+          generator=comp/source['file']
+          data=generator.read_bytes()
+          assert len(data)==source['bytes'] and hashlib.sha256(data).hexdigest()==source['sha256']
+          raise SystemExit(subprocess.call([sys.executable,'-u',str(generator),'--request',str(request_path)]))
+          PYVIEWS
+      - name: Bind actual213 and actual206 provenance, unchanged39 science and actual producer role views
+        run: |
+          set -euo pipefail
+          python - <<'PYPINS'
+          import ast,hashlib,json,os
+          from pathlib import Path
+          repo=Path.cwd()
+          comp=repo/'topics/visible-flex-larger-amplitude/computations'
+          request_raw=(comp/'public-thirty-nine-actual-role-batch-request.json').read_bytes()
+          assert hashlib.sha256(request_raw).hexdigest()=='2d9df5946d429c3888013099989b2f5170a89556462e4ab1535cf127c7bbfaeb'
+          request=json.loads(request_raw)
+          assert request['request']==223 and request['repository']=='Rogerhu12/math-research-public'
+          assert request['maximum_batches']==8 and request['chain_budget_seconds']==10500
+          base_path=comp/'public-thirty-nine-actual-role-model-recipe.json'
+          base_raw=base_path.read_bytes()
+          assert hashlib.sha256(base_raw).hexdigest()==request['base_request_sha256']
+          base=json.loads(base_raw)
+          assert base['request']==223 and base['schema']=='actual98-thirty-nine-model-and-FD-actual-role-recipe-v1'
+          assert len(base['source_sha256'])==base['declared_source_pin_count']==115
+          assert request['reviewed_README_blobs']==base['reviewed_README_blobs']
+          actual206=base['actual206_provenance']
+          old206_raw=(comp/actual206['recipe_file']).read_bytes()
+          assert len(old206_raw)==actual206['recipe_bytes']
+          assert hashlib.sha256(old206_raw).hexdigest()==actual206['recipe_sha256']
+          old206=json.loads(old206_raw)
+          assert old206['request']==206 and len(old206['source_sha256'])==107
+          assert all(base['source_sha256'][name]==digest for name,digest in old206['source_sha256'].items())
+          assert base['source_sha256'][actual206['worker_file']]==actual206['worker_sha256']
+          assert len(base['source_sha256'])==len(old206['source_sha256'])+8
+          actual213=base['actual213_provenance']
+          old213_raw=(comp/actual213['recipe_file']).read_bytes()
+          assert len(old213_raw)==actual213['recipe_bytes']
+          assert hashlib.sha256(old213_raw).hexdigest()==actual213['recipe_sha256']
+          old213=json.loads(old213_raw)
+          assert old213['request']==213 and len(old213['source_sha256'])==111
+          assert all(base['source_sha256'][name]==digest for name,digest in old213['source_sha256'].items())
+          assert base['source_sha256'][actual213['worker_file']]==actual213['worker_sha256']
+          assert len(base['source_sha256'])==len(old213['source_sha256'])+4
+          assert base['parameter_sha256']==old213['parameter_sha256']
+          assert base['model_flags']==old213['model_flags']
+          for key in ('parent_artifact','parent_warm','parent_status','query_specs',
+                      'actual_query_endpoint_nodes','gap_condensation','source_entry',
+                      'mathematical_producer','domain_operator','FD_entry',
+                      'zero_B_layout_nodes','complete_B_local_coordinates'):
+              assert base[key]==old213[key],key
+          assert base['parameter_sha256']==old206['parameter_sha256']
+          assert base['model_flags']==old206['model_flags']
+          for key in ('parent_artifact','parent_warm','parent_status','query_specs',
+                      'actual_query_endpoint_nodes','gap_condensation','source_entry',
+                      'mathematical_producer','domain_operator','FD_entry',
+                      'zero_B_layout_nodes','complete_B_local_coordinates'):
+              assert base[key]==old206[key],key
+          generation=request['source_view_generation']
+          plan_raw=(comp/generation['plan']['file']).read_bytes()
+          assert len(plan_raw)==generation['plan']['bytes']
+          assert hashlib.sha256(plan_raw).hexdigest()==generation['plan']['sha256']
+          plan=json.loads(plan_raw)
+          assert len(plan['views'])==4
+          receipt_path=Path(os.environ['RUNNER_TEMP'])/'visible-source-views-thirty-nine-223'/'result.json'
+          receipt=json.loads(receipt_path.read_bytes())
+          assert receipt['all_generated_sources_complete'] is True
+          assert receipt['actual_computations']==str(comp.resolve())
+          assert receipt['original_GITHUB_WORKSPACE']==str(repo.resolve())
+          assert receipt['source_plan']['sha256']==generation['plan']['sha256']
+          assert receipt['request_input']['sha256']==hashlib.sha256(request_raw).hexdigest()
+          assert [(x['file'],x['bytes'],x['sha256']) for x in receipt['generated_files']]==[
+              (x['file'],x['bytes'],x['sha256']) for x in generation['generated_files']]
+          old_path=comp/'public-thirty-nine-model-recipe.json'
+          old_raw=old_path.read_bytes()
+          assert hashlib.sha256(old_raw).hexdigest()==base['actual191_provenance']['recipe_sha256']
+          old=json.loads(old_raw)
+          assert len(old['source_sha256'])==103
+          assert all(base['source_sha256'][name]==digest for name,digest in old['source_sha256'].items())
+          assert base['source_sha256']['geometry_20261115_thirty_nine_temporary_batches.py']=='9631f34cb0a0ccbcc08666e9ea8476174edaf3cfaf9bf544304cff4cdec8468b'
+          actual200=base['actual200_provenance']
+          old200_raw=(comp/actual200['recipe_file']).read_bytes()
+          assert hashlib.sha256(old200_raw).hexdigest()==actual200['recipe_sha256']
+          old200=json.loads(old200_raw)
+          assert old200['request']==200 and len(old200['source_sha256'])==105
+          assert all(base['source_sha256'][name]==digest for name,digest in old200['source_sha256'].items())
+          assert base['source_sha256'][actual200['worker_file']]==actual200['worker_sha256']
+          assert len(old206['source_sha256'])==len(old200['source_sha256'])+2
+          assert base['parameter_sha256']==old200['parameter_sha256']
+          assert base['model_flags']==old200['model_flags']
+          for key in ('parent_artifact','parent_warm','parent_status','query_specs',
+                      'actual_query_endpoint_nodes','gap_condensation','source_entry',
+                      'mathematical_producer','domain_operator','FD_entry',
+                      'zero_B_layout_nodes','complete_B_local_coordinates'):
+              assert base[key]==old200[key],key
+          assert base['model_flags']==old['model_flags']
+          assert base['parent_artifact']==old['parent_artifact']
+          assert base['parent_warm']==old['parent_warm'] and base['parent_status']==old['parent_status']
+          for key in ('query_specs','actual_query_endpoint_nodes','gap_condensation',
+                      'source_entry','mathematical_producer','domain_operator','FD_entry',
+                      'parameter_sha256','zero_B_layout_nodes','complete_B_local_coordinates'):
+              assert base[key]==old[key],key
+          assert base['actual_query_endpoint_nodes']==[459,460]+list(range(462,492))
+          assert base['zero_B_layout_nodes']==[] and base['complete_B_local_coordinates']==10819
+          for name,digest in base['source_sha256'].items():
+              assert Path(name).name==name
+              raw=(comp/name).read_bytes()
+              assert hashlib.sha256(raw).hexdigest()==digest,name
+              if name.endswith('.py'):ast.parse(raw.decode('utf-8'),filename=name)
+          entry=comp/'geometry_20261116_thirty_nine_actual_role_batches.py'
+          raw=entry.read_bytes()
+          assert hashlib.sha256(raw).hexdigest()==request['source_sha256']
+          ast.parse(raw.decode('utf-8'),filename=entry.name)
+          for name,digest in base['parameter_sha256'].items():
+              assert Path(name).name==name
+              assert hashlib.sha256((comp/name).read_bytes()).hexdigest()==digest,name
+          for name,blob in request['reviewed_README_blobs'].items():
+              raw=(repo/name).read_bytes()
+              actual=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert actual==blob,name
+              print(json.dumps(dict(event='request223_actual_rule_bytes',path=name,git_blob=actual,
+                  bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())))
+          with open(os.environ['GITHUB_ENV'],'a') as stream:
+              stream.write('VISIBLE_COMPUTATIONS='+str(comp)+'\n')
+          print(json.dumps(dict(event='request223_source_bytes_checked',
+              retained_actual206_sources=108,retained_actual213_sources=112,
+              current_context_formatter_sources=1,current_source_view_generators=1,
+              historical_generated_sources=2,current_generated_necessary_helper=1,
+              current_generated_independent_orchestrator=1,public_sources=112,
+              total_generated_sources=4,total_explicit_sources=116,
+              original_public_dependency_directory_not_relocated=True,
+              complete_transitive_import_closure_not_inferred_from_pin_count=True,
+              parameters=len(base['parameter_sha256']),query_count=39,
+              actual_added_query=dict(kind='right-RMS',interval=459,fraction=0.8273268353539885),
+              actual_endpoint_nodes=base['actual_query_endpoint_nodes'],
+              unique_capture_intervals=26,endpoint_count=32,local_coordinates=10819,
+              cover_node_count=33,cover_front_dimension=11266,actual_front_dimension=10928,
+              free_node461_prefix_QR_not_zero_padded_B=True,C_coordinates=4059,
+              original_atomic_budget_and_gates_changed=False)))
+          PYPINS
+      - name: Address the original retained historical inputs without switching source
+        run: |
+          set -euo pipefail
+          git fetch --no-tags --filter=blob:none --depth=1 origin 918fdb11dbb7a424b6149b405e2c7fab3cc0c737
+      - name: Up to eight complete39 model and actual-warm FD pairs with original rule monitor
+        timeout-minutes: 175
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u - <<'PYRUN'
+          import hashlib,json,os,sys
+          from pathlib import Path
+          import root_20261114_current576_rules_runner as runner
+          repo=Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          comp=Path(os.environ['VISIBLE_COMPUTATIONS']).resolve()
+          request_path=comp/'public-thirty-nine-actual-role-batch-request.json'
+          request=json.loads(request_path.read_bytes())
+          base_raw=(comp/'public-thirty-nine-actual-role-model-recipe.json').read_bytes()
+          assert hashlib.sha256(base_raw).hexdigest()==request['base_request_sha256']
+          base=json.loads(base_raw)
+          assert Path(runner.__file__).resolve()==comp/'root_20261114_current576_rules_runner.py'
+          assert hashlib.sha256(Path(runner.__file__).read_bytes()).hexdigest()==base['source_sha256'][Path(runner.__file__).name]
+          wanted=request['reviewed_README_blobs']
+          assert set(wanted)=={'README.md','topics/visible-flex-larger-amplitude/README.md'}
+          baselines={}
+          for name,expected in wanted.items():
+              raw=(repo/name).read_bytes()
+              blob=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+              assert blob==expected,name
+              baselines[name]=dict(blob=blob,text=raw.decode('utf-8'))
+          runner.BASELINES=baselines
+          print(json.dumps(dict(event='request223_explicit_reviewed_rules_baselines',
+              reviewed_README_blobs=wanted,period_seconds=runner.PERIOD_SECONDS,
+              original_pull_rebase_diff_stop_unchanged=True,
+              fixed_scientific_checkout=os.environ['GITHUB_SHA'],
+              maximum_original_atomic_batches=8,outer_science_step_minutes=175)),flush=True)
+          out=Path(os.environ['RUNNER_TEMP'])/'visible-thirty-nine-223-rules'
+          sys.argv=[runner.__file__,'--out',str(out),'--command',
+              sys.executable,'-u',str(comp/'geometry_20261116_thirty_nine_actual_role_batches.py'),
+              '--repo-root',str(repo),'--request',str(request_path)]
+          raise SystemExit(runner.main())
+          PYRUN
+      - name: Quiesce recorded own session then read one whole-chain necessary summary
+        id: necessary_readback
+        if: always()
+        timeout-minutes: 10
+        env:
+          SOURCE_VIEWS_OUTCOME: ${{ steps.source_views.outcome }}
+        run: |
+          set -euo pipefail
+          if [[ "$SOURCE_VIEWS_OUTCOME" != success ]]; then
+            python - <<'PYGENFAIL'
+          import hashlib,json,os
+          from pathlib import Path
+          path=Path(os.environ['RUNNER_TEMP'])/'visible-source-views-thirty-nine-223'/'result.json'
+          value=dict(event='request223_scientific_readback_not_started_after_generation_failure',
+              source_generation_outcome=os.environ.get('SOURCE_VIEWS_OUTCOME'),
+              scientific_process_started=False,transport_exit_code=70,
+              complete_source_receipt_not_inferred=True,original_source_error_remains_in_step_log=True,
+              unread_partial_source_receipts_retained_until_runner_destruction=True)
+          if path.is_file():
+              raw=path.read_bytes()
+              value['actual_generation_receipt']=dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+          print(json.dumps(value),flush=True)
+          PYGENFAIL
+            exit 70
+          fi
+          comp="$GITHUB_WORKSPACE/topics/visible-flex-larger-amplitude/computations"
+          python -u "$comp/root_20261116_thirty_nine_actual_role_chain_readout.py" \
+            --readback-only --temporary-root "$RUNNER_TEMP" --code-directory "$comp"
+      - name: Read original rules termination metadata
+        id: rules_readback
+        if: always()
+        run: |
+          python - <<'PYRULES'
+          import hashlib,json,os
+          from pathlib import Path
+          path=Path(os.environ['RUNNER_TEMP'])/'visible-thirty-nine-223-rules'/'runner-result.json'
+          if path.is_file():
+              raw=path.read_bytes()
+              value=json.loads(raw)
+              print(json.dumps(dict(event='request223_original_rules_result',
+                  bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),original=value,
+                  no_scientific_arithmetic=True)),flush=True)
+          else:
+              print(json.dumps(dict(event='request223_original_rules_result_absent',
+                  original_outcome_not_inferred=True)),flush=True)
+          PYRULES
+      - name: Recheck own-session quiescence then remove only read request223 payload
+        if: always()
+        env:
+          SOURCE_VIEWS_OUTCOME: ${{ steps.source_views.outcome }}
+          NECESSARY_READBACK_OUTCOME: ${{ steps.necessary_readback.outcome }}
+          RULES_READBACK_OUTCOME: ${{ steps.rules_readback.outcome }}
+        run: |
+          python - <<'PYCLEAN'
+          import hashlib,importlib.util,json,os,shutil,sys
+          from pathlib import Path
+          outcome=os.environ.get('NECESSARY_READBACK_OUTCOME')
+          rules_outcome=os.environ.get('RULES_READBACK_OUTCOME')
+          source_outcome=os.environ.get('SOURCE_VIEWS_OUTCOME')
+          if source_outcome!='success' or outcome!='success' or rules_outcome!='success':
+              print(json.dumps(dict(event='request223_owned_cleanup_skipped',
+                  actual_source_generation_outcome=source_outcome,
+                  actual_necessary_readback_outcome=outcome,actual_rules_readback_outcome=rules_outcome,
+                  unread_surviving_raw_and_necessary_records_retained_until_runner_destruction=True,
+                  no_scientific_result_inferred=True)),flush=True)
+              raise SystemExit(0)
+          comp=Path(os.environ['GITHUB_WORKSPACE'])/'topics/visible-flex-larger-amplitude/computations'
+          request=json.loads((comp/'public-thirty-nine-actual-role-batch-request.json').read_bytes())
+          helper_path=comp/'root_20261116_thirty_nine_actual_role_chain_readout.py'
+          assert hashlib.sha256(helper_path.read_bytes()).hexdigest()==request['actual_readback_helper']['sha256']
+          spec=importlib.util.spec_from_file_location('_request223_cleanup_owner',helper_path)
+          helper=importlib.util.module_from_spec(spec);sys.modules[spec.name]=helper
+          spec.loader.exec_module(helper)
+          quiet=helper.quiesce_owned(comp,terminate=False)
+          if not quiet['quiescent']:
+              print(json.dumps(dict(event='request223_owned_cleanup_skipped',
+                  reason='fresh-own-session-quiescence-not-proved',
+                  actual_necessary_readback_outcome=outcome,
+                  actual_rules_readback_outcome=rules_outcome,
+                  unread_raw_not_deleted=True,scientific_result_not_reclassified=True)),flush=True)
+              raise SystemExit(0)
+          root=Path(os.environ['RUNNER_TEMP']).resolve()
+          paths=sorted(root.glob('visible-thirty-nine-223-*'))
+          for path in paths:
+              if path.is_symlink() or not path.resolve().is_relative_to(root):
+                  raise ValueError('Refuse cleanup outside owned request223 temporary paths')
+          for path in paths:
+              if path.is_dir():shutil.rmtree(path)
+              elif path.is_file():path.unlink()
+              print(json.dumps(dict(event='request223_owned_temporary_removed',
+                  basename=path.name,actual_necessary_readback_outcome=outcome,
+                  actual_rules_readback_outcome=rules_outcome,
+                  actual_fresh_own_session_quiescent=True,
+                  raw_uploads=0,science_acceptance_changed=False)),flush=True)
+          PYCLEAN

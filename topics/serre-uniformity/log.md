@@ -30,4 +30,9 @@
 ### 2026-11-16 17:21 Asia/Taipei — serre-public-astra-20261115
 - R882首scope源码/方法/请求/workflow激活，core901466ae/wrapperceeee385；旧R873真实17系数源不改，只新p753的2058逆/17列及全2200回代，真实结果待跑。
 - R883原t参数所需R807两截面/θ、R801 recipe与R872旧jets纯IO已成43838586512，artifact14211447977/8e563fbf；首项尺度及共同因子继续核。H原态逐字归档。
+- 本push规则：公开Actions真实pull至a8b508b7d2b8e925e97ebcfc269e2cfb53578d38（2026-11-16T09:21:50.277431+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 17:25 Asia/Taipei — serre-public-astra-20261115
+- R884完整纸证：每个critical sigma泛函在真扩大theta整格原μ6型上有精确首pole，p倍residue−6B；逐式核原R702截断与负prefactor，未减无限sigma。
+- 原六维源及指定torus投影仍可能抵消，继续比较，不外推目标失败。R882真实43839076365已进数学步，旧source/frame和边界保持。
 - 本push规则：公开Actions真实pull并复查两README后填写；root6979d793/topic35f82f3d沿用，按实际diff即时更新。

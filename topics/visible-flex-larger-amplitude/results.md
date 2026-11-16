@@ -295,3 +295,9 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## Request217 — 同现场C重算与三个真实场的完整误差入口
 
 **条件来源已完整；尚无实际217数值结果。** [完整接口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)34979/5c25b9ca及六运行件完整刊并正式dispatch，真实222已刊3120/20360/37f0与工作视图derived22099330/2d1c绑定；458＋7public＋8gen=473无名字碰撞，222独立entry另绑。首shared后同原钟一次完整1440/six/cut重算、原真实level0全域metric/measure；原220真实后继后同一新C对level1/2完整测量/比较。八新view保R489/R492/R495/R500/R504数学、全场CP/definition/B/材料/六jet/四Loewner/全t；只是包围改善不冒真实场误差下降。新1800/240/300/120及终测900全裁原18900+2700，不重开钟或添原BVP门。原PYPINS块从真222取并明确检查217自身workflow，原222祖先检查范围不倒写。八独立必要body与主单90K/70/真实unknown保，217marker/quiet→222repair→220九scope/quiet才清；report仅新身份，不冒正文。topic新增253367B，workflow另86586B，无展开/diff/raw归档；R490由geometry唯一终态。
+
+217正式元数据补记：单次官方POST200启动[run43838608475](https://github.com/Rogerhu12/math-research-public/actions/runs/43838608475)，实际source4a08bebb63482c34c3bb7460582772a966e25c51、workflow419933470、09:18:50Z/workflow_dispatch/main/attempt1；09:20:32官方queued/jobs=[]，不作失败或任何科学通过推论。R490/geometry唯一终态，root未取running日志。
+
+## Request223 — 真实39必要角色的完整原方法入口
+
+**完整来源实现；无新数值结论。** [223接口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与五执行/元数据文件已成，R512 formatter20883/f793已476f原字不动；新gen8310/1368、plan11271/6d70、recipe44258/3abc、outer26960/2d9d、workflow20571/c8ac正式dispatch。完整保旧213的112来源，当前112public＋4gen=116/recipe115；前两个祖先view仅生成保身份，当前helper75639/eabd与worker29678/f847接真实R512，其五表名/索引之外原数学/选择器/七操作/全部值、地址、错误/行序不变。原98重新恢复、最多8pair/39query/17档/全部freshFD、10500批间/175科学/195job/单90K70与owner清理保；无未知容量/提速/接受承诺，旧213未返末父不复用。R513/geometry唯一终态，实际run/head另核；新题内102736B、workflow20571B，无生成源/diff/raw归档。

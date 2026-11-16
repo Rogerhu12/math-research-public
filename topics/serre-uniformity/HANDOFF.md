@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；远端main继续，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：8dfc6d8c0fe4bcc414c842e473a11286487bc2ff**（2026-11-16T09:15:50.762463+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-consumers.md)（9846B/b37fb87d），内接旧归档。旧公式、source pins与关闭边界继续生效；完整旧open见[归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：a8b508b7d2b8e925e97ebcfc269e2cfb53578d38**（2026-11-16T09:21:50.277431+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-consumers.md)（9846B/b37fb87d），内接旧归档。旧公式、source pins与关闭边界继续生效；完整旧open见[归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；§15 raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -48,9 +48,9 @@
 
 **R876**：[九范数证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)。九个原8次范数完整生成Nm理想，非étale/剩余次数、共同M0取消、真dual7/P0框架保全。三完整纤维672minor与目标271rhs；参考M0已用R879，不重128/672核。
 
-**R880**：[完整证明/契约](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)，SHA5a833046。旧R845十乘积/1111选择只新269 RHS；123原jets给146，同五纤维新962秩给D*418；20cusp+252jets另给DC418。Ef−1206P0=(DC−H)+3(D*−H)+4(Dχ−H)+divQf，Qf=(a*/v)^3/(uχ/τ²)^4，原ρ^-1457首项保留。新核尚未算；[六组原源运输](notes/R880-original-pencil-jet-cusp-source-intake-complete.md)已成功run43836403210/job133194063733/source9070cb76，artifact14210454548/18f08494（Nov17 09:04 UTC），index6a0e7d68；原R845/R872及R820双图544有理列保全，不重旧HNF/乘法/逆。同ζ、s、b branch逐字段核。
+**R880**：[完整证明/契约](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)5a833046：原1111→269→146，新962给D*418；20cusp+252jets给DC418。Qf=(a*/v)^3/(uχ/τ²)^4、原ρ^-1457及正乘方向保留。六原源已成43836403210/job133194063733/source9070cb76，artifact14210454548/18f08494（Nov17 09:04），index6a0e7d68；完整pins见[运输](notes/R880-original-pencil-jet-cusp-source-intake-complete.md)。新核未算，同ζ/s/b分支逐字段核，不重旧HNF/乘法/逆。
 
-**R882**：[同素点/整纤维证明](results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md)已推3e8801fb。首scope core901466ae/wrapperceeee385已激活：仅新p753旧2058选行逆、17rhs和全2200回代，run待回填；准确739对象保留、数组不混。后继整272 Artin纤维/271单rhs/九Norm仍待执行，不重旧q尾/范数/逆。
+**R882**：[同素点/整纤维证明](results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md)已推3e8801fb。首scope core901466ae/wrapperceeee385已激活：仅新p753旧2058选行逆、17rhs和全2200回代，实际run43839076365/job133202998079/sourcecb2385cc在算术步；准确739对象保留、数组不混。后继整272 Artin纤维/271单rhs/九Norm仍待执行，不重旧q尾/范数/逆。
 
 **R883**：根接R872§9原t=a³比值，R807原N692/N693/θ、R801 recipe与R872旧V2jets最小纯IO已成run43838586512/job133201396638/sourcebef0523f，artifact14211447977/8e563fbf/index1ca0af99。只新原比值首项，先消真共同因子；不假t/rho=1。
 
@@ -66,6 +66,6 @@ R859/R861原BT格/prime-to-p目标、v/u/逆different f_h=u v^(1−h)、β_h=v^-
 
 [R875](results/R875-original-tame-CM-constant-and-first-Cartier-factor.md)原六级/ω/周期/半投影给B²R(P†)²=ζ²α²C_p；R(0)非零未证且不等同R871三次单位。h1仍需C_p C_(p−3)≠0，R706反例保留。
 
-[R878](results/R878-original-finite-theta-action-and-section-projections.md)原E[p] norm1/六级theta真群律、六条D链与原x/−xy投影−B/B24已证。[R881](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)进一步给唯一整torus lift；对偶tensor的Weil相位抵消，明确原各Φ_r、Weyl−1/p及e0非径向向量和det二次扭曲。通用纤维比较已成，原sigma系数泛函/完整cuspidal积分格/原q拉回仍缺，不填同h三单位或height。
+[R878](results/R878-original-finite-theta-action-and-section-projections.md)原E[p] norm1/六级theta真群律、六条D链与原x/−xy投影−B/B24已证。[R881](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)进一步给唯一整torus lift；对偶tensor的Weil相位抵消，明确原各Φ_r、Weyl−1/p及e0非径向向量和det二次扭曲。通用纤维比较已成，原sigma投影源/完整cuspidal积分格/原q拉回仍缺。[R884](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)每个critical泛函在整扩大格原μ6型上有真pole v_p=−1、p-residue−6B；不外推到原六维源或指定torus投影，不填同h单位/height。
 
 原RF e2b87b99/SPa06a80ea/ZA268fa3fb/41S133d64af/41C569aa684，以及b/s/λ/ζ²一次、CRT6逆、246/82^10、P0/P1/ν/theta二挠/完整Corr/nonp/splitting全部继承。ordinary43/776bit Gaussian5已排；Shapiroθ同Σ/C4杯积R779已闭，不重。
