@@ -10,9 +10,7 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)与[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)均已消费，完整原门/失败/恢复漂移/费用保原note，不重跑。[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)给原163族内159独立坐标、准确H/盒/原物理步长；首159新阶段η.266520536442→.266491207122，m6细网曲率由SOC修回而下一B缩半，.26/1e−4仍欠。
-
-[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)、[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)及[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)保全部原失败/费用。43728280256六模型η.266401179156→.266381717617；末两网14门/盒过、fineκ57.999983395，12LP用尽非驻点；m3/5 SOC修细曲率/保B，完整norm须自适应cuts。54/106源及同g/b0/159/163已核。[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)保旧末态未复现/真17guard与BOM日志读取，只恢复原完整159/163、reference/池/cut来源，不重九段优化，不搬旧A/b或重锚。最新norm-memory/expanded/m10精确状态与下一接口见下方当前节；均未达.26或主1e−6，η不冒δhold。
+[103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)、[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)及[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)保原163族内159坐标、H/盒/步长和各原失败/费用，不重跑。[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)、[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)、[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)、[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)保两网14门与完整reference/池/cut来源。新direct末态见下；任何旧η均是metric辅助量，不是δhold。旧12LP用尽、恢复漂移和所有失败保持，不据此宣驻点。
 
 ### O2 当前实际末态与唯一新接口
 
@@ -133,7 +131,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
-- **R390→R392响应E与两Λ实际joint已付，继续完整商**：[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)同一有限字可任意指定F=P_LE和两个固定自然Λ，−6/−4/0完整pure/self同付；wholeE其余商qE含原型×n成本仍欠。真kerE的X/M两类只付线性完整乘积J(U)，λ+不经固定J下降；下一实际联合商C⊕R²，须保fixed读出核的仿射问题及全部桥基准。
 
 
 R391原解析有限简单germ已付；R403/405新初选进一步降至共同母坐标镜点一对，仍保p中心单零和原同锚累计条件，不把指定点支付当全period。
@@ -186,11 +183,12 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 下一从起点可增加有限C²观察，严格核共同母与辅助模板的完整finite affine查询像，继续−6/−4增强正字符及原F0/Q2完整自然读出；R413/R414分工仅为同一个actual joint服务，不能拼逐母截面。全部内部Af通量、真affine尾、13同一个k仍欠。
 
 
-### R413–R417：负六静态全消，负四只余一个静态自然函数
+### R413–R420：两负权静态正字符都已消去，继续完整二速度
 
-共同D/E且D−E>0使Q4仅−2头，ordered3+2局部全0，两个负权字符杀完整A/H/Q4。R415两锚给a(0)=0、μ=2a(1)p2*、μm2=0；R416原self/pure/有序尾使负六全部k静态a=μ=0。[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)保完整N0外槽及YC/ZZ全表，将负四自然压成S³(A+k²B)，故a(k)=a1 k²S³/8，唯一未知为W4=[h^-4k8]F0的完整自然值，a1仍未排。W4唯一Ω请求已发（[设计](notes/static-minus4-natural-flux-design-20261116.md)），只读原静态M−2/九个已存响应及paidpure坐标，不重pure/rank；[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)新增完整kk在k=ω0的h^-6自然=−3B_Q4/64；偶M5零母的全affine self与不交3+2均0。[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)新增完整hh的h^-8自然全k0：C_Aq0/N2及左右尾准确抵消。故负六正字符PSD迫hh/cross全k0，仅余b0(k)≥0、b0(0)=0；继续其全k kk及负四。全部原势/水平/真尾保留，不从单锚外推。实际joint、全period及13同一k仍欠。
+共同D/E且D−E>0使Q4仅−2头，ordered3+2局部0，两个负权字符杀完整A/H/Q4。R415双锚与R416完整原尾给−6静态a=μ=0。R417给−4自然S³(A+k²B)、a(k)=a1 k²S³/8；[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)消费唯一run43784526298/job133029071528，完整W4左word表为空，ΛW4普遍0。因此共同−4正字符a1=a(k)=μ=0；一般静态自然仍为3S³F_Q4/32，不是整个F0为零。只新增一Ω、旧研究0重跑，36源/全部原N0/真锚保留，科学1.370958935s、RSS94920KiB。
 
+[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)付−6 kk在k=ω0的自然−3B_Q4/64，共同偶M5零母的全affine self/不交3+2为0；[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)付−6 hh的h^-8自然全k0，PSD迫hh/cross全k0。负六只余b0(k)≥0、b0(0)=0的全k kk；负四仍须完整2×2 PSD。不得单锚外推或删原势、水平微分、history、真实左右尾。全部actual joint、内部flux/全period及13同一k仍欠。
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
 
-[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续R416的负六三速度及负四四低函数。
+[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续负六全k kk及负四完整二速度。

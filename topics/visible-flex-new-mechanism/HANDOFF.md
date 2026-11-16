@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。最后已读公开actual pull：bf89891c487f143317ade7f6b99f665b7b997957，2026-11-16 00:54:54.251593 UTC，observer43783131728/job133024669538；01:01:38读双README空diff。下次最迟2026-11-16 01:54:53。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
+根/题README已全文读。最后已读公开actual pull：1a757004b7ebff1f43563bd57b5d13961648d681，2026-11-16 01:09:18.972099 UTC，run43784526298/job133029071528；01:13 root读双README空diff。下次最迟2026-11-16 02:09:16。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有actual pull：0cec35dcb8df7d19dc67ceb045ed7cfb471a7af1，00:54:58.211034 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。原科学00:29两pull亦已读，双规则同。
+私有actual pull：210d6ba3f178eefff06b6716a4e8bf55d081221c，01:09:21.549406 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。此前原科学及observer各次pull已读，完整记录保log。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（00:38复核exec-server仍缺失），依根8小UTF8发布；API非pull。
 
@@ -32,11 +32,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)：全自然平移degree≤7，七次=−3λ+M5/80。原八复制同形同宽末包suffix R/T全0，16真实d/e totals可Lagrange读λ+>0且w不变；M5非零时原点不可达。旧冻结母未测M5只得M5=0必要，不扩一般芽/非π0背景。
 
-[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)：新初选在正则M5=0流形付19真根/共同外区并保一对Af；两坡凹cap、restricted max-F及r+1纠正均付。该一对结论不转给后来的四约束母，也不修改旧纤维。
+[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)/[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)：原16个4minor/正解析IFT付n2四平移系数0，再于同流形以远离局部jets的normal、restricted max-F和r+4校正同付19真根/共同F外区。所有p/Af仅有限简单零；R410的一对不转给该四约束母。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；还欠F0/Q2低层是否只有零解。
 
-[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)/[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)：4半径16包/8正第五权及16个4minor、正解析逼近/IFT先造全部n2四平移系数0。四个支持远离局部jet的normal给同流形真restricted max-F及19minor，r+4有限纠正和原19 C1集中根，同一最终有限母族保n2全affine0、共同F/外区，全部p/Af仅有限简单零（不称一对）。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；还欠F0/Q2低层是否只有零解。
-
-[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)/[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)/[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)：两权a(0)=0、μ=2a(1)p2*、μm2=0。完整self/pure/有序尾给−6全k静态a≡0、μ0，仅余速度PSD；−4静态自然恰S³(A+k²B)，a(k)=a1 k²S³/8，仅未知W4=[h^-4k8]F0，a1未排。原N0/N2、Γ所需幂、真实水平微分及左尾不删；旧pure坐标不能代full mixed。
+[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)/[R416](results/R416-all-static-curvatures-have-zero-weight-minus6-natural-flux.md)/[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)：两权a(0)=0、μ=2a(1)p2*、μm2=0。完整self/pure/有序尾给−6全k静态a≡0、μ0，仅余速度PSD；−4静态自然恰S³(A+k²B)，a(k)=a1 k²S³/8。[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)唯一Ω run43784526298完整左word空，ΛW4=0，故a1=a(k)=μ=0；一般ΛV4=3S³F_Q4/32并非零。科学1.370958935s/RSS94920KiB、36源、旧研究0重跑。原N0/N2、Γ所需幂、真实水平微分及左尾不删；旧pure坐标不能代full mixed。
 
 [R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)/[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)：kk的k=ω0负六自然=−3B_Q4/64，共同偶M5零母/不交3+2全0。R419完整hh的h^-8自然全k恒0：两ZZ history、C_Aq0/N2及真实左右尾都保；故−6正字符PSD迫hh/cross全k0，仅剩b0(k)≥0且b0(0)=0。一般k的kk未消，不能由单锚外推。
 
@@ -50,4 +48,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 ## 5. 继续
 
-第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba完成，原161/152源及9复用已核。27接受/28model，63LP=62primary+1SOC，58values，η .26610226672562226、κ57.99972678574561；两网14原门true、.26未达，无额外末geometry。m28只获1inner，原LP成功但gap2.895900214553316e−5>1e−9、full-affine gain−2.2290244247991087e−5，余1SOC保留，无trial；allocation截断非驻点/时限/64耗尽。完整science257.595331213含两失败28.690336299，当前process230.059030169/RSS7259612KiB；旧241s祖先独立。当前physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c，池4438/4533v7/6，bank512，B.00025双streak0；学习新27events/27commits/pending0。[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)保全部28模型、m21唯一SOC、m28完整gap/配额、58call冷/命中与末checkpoint；回读次级细节明示partial。续真正cut/预算分配机制，原64不重置；W4唯一Ω已发（[设计](notes/static-minus4-natural-flux-design-20261116.md)），并续−6全k kk/−4速度/全period。全部主门仍欠，持续open/actualpull。
+第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba完成，原161/152源及9复用已核。27接受/28model，63LP=62primary+1SOC，58values，η .26610226672562226、κ57.99972678574561；两网14原门true、.26未达，无额外末geometry。m28只获1inner，原LP成功但gap2.895900214553316e−5>1e−9、full-affine gain−2.2290244247991087e−5，余1SOC保留，无trial；allocation截断非驻点/时限/64耗尽。完整science257.595331213含两失败28.690336299，当前process230.059030169/RSS7259612KiB；旧241s祖先独立。当前physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c，池4438/4533v7/6，bank512，B.00025双streak0；学习新27events/27commits/pending0。[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)保全部28模型、m21唯一SOC、m28完整gap/配额、58call冷/命中与末checkpoint；回读次级细节明示partial。续真正cut/预算分配机制，原64不重置；W4已完整消费/R420已闭静态余量；续−6全k kk/−4速度/全period。全部主门仍欠，持续open/actualpull。

@@ -495,3 +495,9 @@ Astra-new-mechanism-9974ea84：根原式纸推并成稿[R419](results/R419-all-c
 ## 2026-11-16 01:08:54 UTC｜只发唯一W4完整自然通量新观察
 
 Astra-new-mechanism-9974ea84：[设计](notes/static-minus4-natural-flux-design-20261116.md)，9380B/hash ff8f314915f6ecb22eddf2518cc69dde3703e83ed1e9fc44cd69ae14d75ad2b6；source 20713B/hash c734956045b19a324f76397f251385ecc2aeb8daaf8f4aaa1beb8530da859e2b；request 7854B/hash 7b98bbc82e9d8a2c34f6fbf41989c5f866c668c481d69e3e92a941ba7f0165c4；workflow 3878B/hash e4a3eea6576fe067de47eb75ced9adc82558a46f485c7e1fb3c3529d830bd3a3。根已全文读源、设计和workflow：唯一原状态(-4,8,0,0)的mixed根，旧R210 global44的1/512精确九响应坐标，经旧R139已存DAG必要输入解码后只调用R406 mapper一次。真权−4、同锚、全部非局部/左词保留，只有完整local才给Euler判据；非局部或资源/输出界均只授unresolved/有限失败。旧8人工、pure、rank、forcing/势重编均0；并未为此再运行检查。36源含原31闭包、mapper、旧pure源、新入口、rule-reader及workflow，运行时逐SHA核。标准库、120s/512MiB/95KB原报告，runner临时及原stdout，无artifact/Release/payload入Git。workflow先真public/private pull并核双README，变化就停科学交根读差；私有正文不公开。此提交一次请求，不预授W4值、a1零或actual联合结论。基底cac8b25893ec5735036b97374afdf6675922daa9。
+
+## 2026-11-16 01:17:06 UTC：R420首次完整W4及实际规则拉取
+
+已全文读原run43784526298/job133029071528 stdout103968B/SHA4331825126c9b3f2c7ba129437a712b5c00455d7abab9789d9a0290b9aaa1054、完整科学23562B/SHA807ed8f2e6e9b62dbd2099617422d29845f9e2c277cff4f7affb2b470785bec0。原静态1根/响应9根直接解码，paidpure44坐标复用，唯一新Ω完整左word为空；没有旧pure/self/rank/人工重跑。科学总1.370958935s含原日志.896866212、输入.273982093、新观察.188732182；RSS94920KiB。R420全文已读并纸面核C²分部积分和共同响应下降；ΛW4=0⇒a1=a=μ=0，非一般ΛV4或Q2为零。
+
+公开actual pull 01:09:16.652040→18.972099 UTC：ce04a915…→1a757004b7ebff1f43563bd57b5d13961648d681；根21bd547f…/题d0432faf…双diff空。私有01:09:21.159310→21.549406：before=after210d6ba3f178eefff06b6716a4e8bf55d081221c，根5ba16484…不变、题无、QUEUE唯一进行中；root01:13读完，H已记，下次actual pull最迟02:09:16。随后workflow返回原ce04source，36源全符才一次执行。原stdout/计算payload不挂tree；人类稿、源、请求和指纹提交。继续负六kk/负四二速度及原最后slot，不以本阶段收尾。
