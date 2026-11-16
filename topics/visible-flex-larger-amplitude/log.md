@@ -414,3 +414,7 @@
 ## 2026-11-16 06:23 UTC /root — Request215独立完整原科学入口
 
 [R485/215完整接口](notes/2026-11-16-request215-shared-necessary-metadata-interface.md)及reader/证明已刊 `915f148bb4e5f50d2d1226bd50661c1d617bd4d5`。本次独立刊request84775B/2bceb3ea与workflow31916B/7bf02c8b，新路径触发本公开仓库Actions。原204的94pins、四科学/生命周期源、原91父输入、19200钟、32×10与全部原最终程序保；新增必要reader得95，只实际同值固定语义共享，完整selected字段/原地址/数字词、90KB/超70及quiet清理保持。实际run/source待官方绑定，R486由amplitude唯一终态；未预填摘要装下、数值逐词同、native/fullDN或README完成。
+
+## 2026-11-16 06:24 UTC /root — Request215实际公开运行绑定
+
+[R485/215完整接口](notes/2026-11-16-request215-shared-necessary-metadata-interface.md)实际入口 `b952df814c98ef5927a4f5013364d2eed6002d74`，公开Actions [run43816406919](https://github.com/Rogerhu12/math-research-public/actions/runs/43816406919)于2026-11-16T06:23:20Z/attempt1启动；compute133129348123首次官方metadata前1–11成功，第12恢复原78源运行，原完整科学14与必要读回15尚待。R486由amplitude唯一终态读取，未取running日志；当前状态不补新数值、完整摘要、native/fullDN或README完成。入口官方topic tree `6df144a6952c33e7b3efc8e6fd1cdeae70316537`：9278blobs/197116135B、9650entries，truncated=false。
