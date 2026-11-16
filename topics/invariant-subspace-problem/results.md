@@ -1,5 +1,8 @@
 # 已得结果
 
+**[真实核旗适配正远孔来源与无包络倒数门已闭](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。** 对同一$v\in\ker C$，$\mathfrak h_v=C^\dagger v-C^*\Gamma v$的第$r+1$正交真旗用完整$((C^*)^r)^\dagger$搬到第$r$远孔；全部层保精确$f_1-F_{\rm fl}=k+L^*\Psi$，同原$Q/U_n$、全部$h$段和真帽来源不变。物理费为$S^{-1}\|e_0-(I+S\Gamma)v\|^2+\sum\sigma_r^2\|q_r\|^2$，不压低旗逆。同一$w$锚误差除$\kappa$后直接吸收，非零锚必要$\sum\kappa_m^{-2}<\infty$，无需先付$\eta_m\kappa_m$包络；实际费用上界仍开。
+
+
 **[完整权十原输入与独立验证准则已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)。** 本地 v2 prepare exit0，200列共8037189项；根独立解析原 phase/binary/全部151071880字节ASCII，2000坐标与独立$\delta b^2$目标全相同，156.362秒/RSS88624。原v1物理权守卫失败和根v1 exit137均保真实身份，不当预算或数学负。候选/完整相关对尚未执行，权十成员性仍开；冻结九阶段工作流在同job重建全父，空候选不续。
 
 

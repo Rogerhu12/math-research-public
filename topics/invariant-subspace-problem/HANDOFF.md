@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 135b50ff04a12c51dd1b9de583a20b2bed19cbed（2026-11-16 16:22:05 UTC，临时研究session run43906283833实际pull --rebase，两README无差异；详见notes/r150-original-delta-weight10-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** ed2730fd0527dacb2c91f595a7a853bd36e05a28（2026-11-16 16:22:08 UTC，Actions run43906664182实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43906664182-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 固定Python3.12.14/flint0.9；可用实际终端Actions。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
@@ -13,7 +13,7 @@
 
 - **权十原输入已完成且根独审通过。** 本地v2 prepare275.633秒/RSS154004，200列8037189项；根独立2000坐标/151071880字节ASCII与$\delta b^2$全真，156.362秒/RSS88624/exit0。见[准则及根审计](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)、[接口](notes/2026-11-16-r150-original-delta-weight10-homogeneous127-interface-789f.md)。本地binding dfb2420829d6b6243142e1232e4c2bdba4fa45fb1823fe81d119c4101493e488，manifest410173/d6d4a4921c8b874def17e3de84db64c6fa9716cf9ea173a7207e8538f54b41c5。
 - v1物理梯度应为11权4后6权5，错误新守卫exit1/0列，本轮尚未运输；v2仅修两守卫/FORMAT。根v1独审exit137无最终raw/完整phase，120列只是事件；v2独立新源、逐列checkpoint全过，不证明137原因为OOM。全部失败身份保notes/r150-original-delta-weight10-execution-789f/。
-- **下一实际工作：** 冻结九阶段request与源/桥已全审，本次push后dispatch独立Actions：model/compression/mean/权8 prepare-final各180，104全来源900，权十prepare600/2048、candidate600/4096、完整核600/4096。全父在同job TMP重建；数学manifest/phase SHA不变，新运行raw另入binding。prepare只有真全列增长可续1200，完整核只有完整候选及真验证前缀可续1200/1800；空候选不续。必须看实际run/job门，不预称GB/正负答案。
+- **下一实际工作：** 冻结九阶段request与源/桥已全审，已实际dispatch研究run43906283833（16:19:54 UTC，输入审计主提交b8bc3b7585d015442b9d67b7ddfb68b1e846b536）：model/compression/mean/权8 prepare-final各180，104全来源900，权十prepare600/2048、candidate600/4096、完整核600/4096。全父在同job TMP重建；数学manifest/phase SHA不变，新运行raw另入binding。prepare只有真全列增长可续1200，完整核只有完整候选及真验证前缀可续1200/1800；空候选不续。必须看实际run/job门，不预称GB/正负答案。
 - **原E20常数：** v1 constants180实际137、registered0、无raw，原因未证。v2固定541c14b…、observer f8aea79…已根全审，constants180/1024/outer240实际child−9/shell137，25.514秒；observer未发信号，原因仍未证。6、5、11维E逆共364两向产品全过，6个candidate/complete phase真封存；全225二次源过门，但constants未登记。保完整phase，拟独立projection-only消费者直接读verified UI及原字典；不重三逆、不启动旧final，不把旧常数阶段算完成。全部E常数数组及raw只留TMP，待真实完整阶段后继续。
 - 原b³/QE权9秩16046、396全核及模7真单位排b³/K≤11已闭；b4首轮exit14无candidate/source。两个旧600秒全局/稀疏null候选不空续；单Bell首一无收益不重做。详细原门/身份见归档。
 
@@ -35,5 +35,5 @@ M=kerT，N=closure BM；N=M仍开。保持same-w/u、全部partial、真intersec
 - 全高度一次真MP保512^j，c*=2·512²及s∈[c*S,2c*S]给||D†(C+D)f_s||²≤(1+47616c*)ε_s。same-w使q1、z1−P_xw及残余−Cq1平方可和；仅f_s保原PV/PK。CD†循环、终端真空/完整修复未付。
 - 整个低旗hfrak∈F(2d−1)⊖F2的全Schur能量qℓ−q1已跨头可和，真池<2、boson<4；正则与高旗Schur不能删，低forcing不保证低输出。
 - **[最优两孔费/同Q锚/倒数门](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)**：全首核严格极小$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$；同真V_Q/K_Q及低支撑给原τ14锚误差≤e⁻⁵ᵈ⁴||w||。非零锚必要ΣS/ζ<∞，仍缺实际费用上界$c_m$且Σ1/c_m发散。完整Schur比较只给费用下界，方向不能反用。
-- 旗适配正远孔代表与不需κ包络的同Q吸收已有冻结草稿e15dc7d…，独立全文审通过，root待全文审后单结论推送；实际逐旗全强头MP费用尚未付，标量指数余量不算完整费。
+- **[真实核旗适配正远孔来源与无包络倒数门已闭](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。** 对同一$v\in\ker C$，$\mathfrak h_v=C^\dagger v-C^*\Gamma v$的第$r+1$正交真旗用完整$((C^*)^r)^\dagger$搬到第$r$远孔；全部层保精确$f_1-F_{\rm fl}=k+L^*\Psi$，同原$Q/U_n$、全部$h$段和真帽来源不变。物理费为$S^{-1}\|e_0-(I+S\Gamma)v\|^2+\sum\sigma_r^2\|q_r\|^2$，不压低旗逆。同一$w$锚误差除$\kappa$后直接吸收，非零锚必要$\sum\kappa_m^{-2}<\infty$，无需先付$\eta_m\kappa_m$包络；实际费用上界仍开。
 - 普通封口仍须same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超过26d³母窗，公共塔中段指数障碍保留，真C高j尾已付、中段继续。G_reg/carry、Haar循环、正常有限秩链及归档其它open均开放。

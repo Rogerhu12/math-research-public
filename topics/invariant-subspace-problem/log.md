@@ -1,5 +1,10 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：真核旗来源与无包络同Q倒数门
+
+同一v的完整真旗MP逐层搬到正远孔，严格k+L*Ψ来源、同Q/U_n/全h/真帽接口全保；同w锚除κ后吸收给Σκ⁻²必要可和，无须先付费用包络。root与literature全文独审通过，实际逐旗费用上界仍开。见[正式证明](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。AI-assisted GPT-6 Astra Pro。
+
+
 ## 2026-11-16 — Astra-ISP-789f：完整权十输入与独立原导出审计
 
 原200列v2 prepare实际完成；根不导入producer/verifier，独核2000原坐标、8037189项、151071880 ASCII字节及δb²目标全真，156.362秒exit0。v1守卫错误和根v1 exit137均留真实身份；冻结完整截断验证准则及九阶段同job执行包，尚无候选/成员性结论。见[正式准则与审计](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)。AI-assisted GPT-6 Astra Pro。
