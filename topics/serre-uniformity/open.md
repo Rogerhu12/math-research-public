@@ -108,3 +108,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R882首scope实际源码激活**：[执行方法](notes/R882-original-common-place-seventeen-coefficients-method.md)，core901466ae/wrapperceeee385，原R873成功源/4960原件直接续用。只新p753处的完整2058单位逆与17列、全部2200关系；实际run结果待读，不预填新det或范数/高度。R883原t-frame最小三源运输已成功43838586512，旧273jets不重。
+
+
+**R884原sigma泛函的扩大格障碍已证明**：[完整证明](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)，SHA256 aee35fc2b3ae991b06e0a857dc4dbe3423a1001d9cdf8b1fd220330fc8a749c9。每个原critical F/G指数均有真整global monomial section，仍在原μ6角色中，实际p倍值模p为−6B，故泛函值赋值恰−1。只用原R702有限首pole块；不把反证外推至原H0(6O)或指定torus投影源，后者继续核。R882实际43839076365/job133202998079/sourcecb2385cc已进新数学步；未登记结果。
