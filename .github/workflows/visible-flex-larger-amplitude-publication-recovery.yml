@@ -1,0 +1,175 @@
+name: visible-flex publication recovery R581
+on:
+  push:
+    branches:
+      - visible-flex-larger-amplitude-publish-r581-20261116
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: visible-flex-larger-amplitude-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GIT_TERMINAL_PROMPT: '0'
+      VISIBLE_DISPATCH_WORKFLOW: 'visible-current-C-analytic-angle-projection-refinement243.yml'
+      VISIBLE_REPO_TOKEN: ${{ github.token }}
+      VISIBLE_PUBLICATION_COMMIT: '9a1d3831d2493d42ad475864fbbb7c25aaa4c471'
+      VISIBLE_PUBLICATION_FILES: '["topics/visible-flex-larger-amplitude/HANDOFF.md","topics/visible-flex-larger-amplitude/open.md","topics/visible-flex-larger-amplitude/results.md","topics/visible-flex-larger-amplitude/log.md","topics/visible-flex-larger-amplitude/computations/root_20261116_request243_sampling_refinement_composition.py","topics/visible-flex-larger-amplitude/computations/root_20261116_request243_actual_source_entry.py","topics/visible-flex-larger-amplitude/notes/r581-same-return-analytic-angle-projection-source-plan.json","topics/visible-flex-larger-amplitude/notes/current-C-analytic-angle-projection-refinement243-request.json",".github/workflows/visible-current-C-analytic-angle-projection-refinement243.yml","topics/visible-flex-larger-amplitude/results/R581-same-return-analytic-angle-projection-executable-composition.md"]'
+    steps:
+      - name: Restore one conclusion with actual pull and README checks
+        shell: bash
+        run: |
+          python3 -u - <<'VISIBLE_PUBLICATION_PY'
+          import subprocess,pathlib,re,json,datetime,sys,os
+          repo="Rogerhu12/math-research-public"
+          hp="topics/visible-flex-larger-amplitude/HANDOFF.md"
+          r=pathlib.Path(os.environ["RUNNER_TEMP"])/("visible-publish-"+os.environ["GITHUB_RUN_ID"]+"-"+os.environ["GITHUB_RUN_ATTEMPT"])
+          if r.exists():raise SystemExit("Refuse to reuse a previous clone")
+          pins={"README.md":"21bd547f56590b7f2dd279d0297efb289a9b2783","topics/visible-flex-larger-amplitude/README.md":"bff8aea253a9e6a7a4fac28d810ac454c5499fec"}
+          def g(*a,check=True,editor=False):
+           env={**os.environ,"GIT_EDITOR":"true"} if editor else None
+           print("GIT_OPERATION "+a[0],flush=True)
+           p=subprocess.run(["git","-c","http.lowSpeedLimit=1","-c","http.lowSpeedTime=60","-C",str(r),*a],text=True,capture_output=True,env=env)
+           if p.stdout:print(p.stdout,end="",flush=True)
+           if p.stderr:print(p.stderr,end="",file=sys.stderr,flush=True)
+           if check and p.returncode:raise SystemExit(p.returncode)
+           return p
+          def quiet(*a):return subprocess.check_output(["git","-C",str(r),*a],text=True).strip()
+          def check_rules():
+           global last_read_head
+           head=quiet("rev-parse","origin/main")
+           for path,pin in pins.items():
+            actual=quiet("rev-parse","origin/main:"+path)
+            if actual!=pin:
+             print("README_CHANGED "+json.dumps({"path":path,"old_blob":pin,"new_blob":actual,"pulled_head":head}),flush=True)
+             g("diff",pin,"origin/main:"+path,check=False)
+             raise SystemExit("New README differences require model reading before publication")
+           last_read_head=head
+           print("TRUE_PULL_RULES_UNCHANGED "+json.dumps({"read_head":head,"README_blobs":pins}),flush=True)
+           return head
+          def rule_line(head):
+           return "规则同步记录："+datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")+" root委托本公开仓库Actions run"+os.environ["GITHUB_RUN_ID"]+"真实 git pull --rebase origin main 后核双README；根"+pins["README.md"]+"、题"+pins["topics/visible-flex-larger-amplitude/README.md"]+"未变，已读提交 "+head+"。"
+          def resolve_rule_only_conflict(operation):
+           head=check_rules()
+           conflicts=quiet("diff","--name-only","--diff-filter=U").splitlines()
+           if conflicts!=[hp]:raise SystemExit("Substantive conflict requires explicit merge of source text")
+           path=r/hp;s=path.read_text()
+           blocks=re.findall(r"^<<<<<<< HEAD\n(.*?)^=======\n(.*?)^>>>>>>>[^\n]*\n",s,re.M|re.S)
+           if len(blocks)!=1 or not all(x.strip().startswith("规则同步记录：") and "\n" not in x.strip() for x in blocks[0]):
+            raise SystemExit("Substantive HANDOFF conflict requires explicit resolution")
+           s=re.sub(r"^<<<<<<< HEAD\n.*?^>>>>>>>[^\n]*\n",lambda m:rule_line(head)+"\n",s,flags=re.M|re.S)
+           if len(s.encode())>=10000:raise SystemExit("HANDOFF size cap")
+           path.write_text(s);g("add","--sparse","--",hp)
+           g(operation,"--continue",editor=True)
+          def stamp():
+           head=check_rules();path=r/hp;s=path.read_text()
+           if not re.search(r"^规则同步记录：.*$",s,re.M):raise SystemExit("Missing original HANDOFF rules line")
+           s=re.sub(r"^规则同步记录：.*$",lambda m:rule_line(head),s,flags=re.M)
+           if len(s.encode())>=10000:raise SystemExit("HANDOFF size cap")
+           path.write_text(s);g("add","--sparse","--",hp)
+           g("commit","--amend","--no-edit","--reset-author")
+          def real_pull():
+           p=g("pull","--rebase","origin","main",check=False)
+           if p.returncode:resolve_rule_only_conflict("rebase")
+           else:check_rules()
+          
+          # Administrative repository byte accounting; no scientific acceptance predicate.
+          CAPACITY_BASE = "f7d56b2da6e2c85f059f37277ad3026c31bb6667"
+          CAPACITY_BASE_TOPIC_BYTES = 198569112
+          def topic_capacity_guard():
+           global last_topic_bytes
+           probe=subprocess.run(["git","-C",str(r),"cat-file","-e",CAPACITY_BASE+"^{commit}"],capture_output=True)
+           if probe.returncode:g("fetch","--filter=blob:none","--depth=1","--no-tags","origin",CAPACITY_BASE)
+           raw=subprocess.check_output(["git","-C",str(r),"diff","--raw","--no-abbrev","--no-renames","-z",CAPACITY_BASE,"HEAD","--","topics/visible-flex-larger-amplitude"])
+           tokens=raw.split(b"\0");total=CAPACITY_BASE_TOPIC_BYTES;i=0;count=0
+           while i<len(tokens) and tokens[i]:
+            parts=tokens[i].decode("ascii").split();path=tokens[i+1].decode("utf-8")
+            if len(parts)!=5 or not parts[0].startswith(":"):raise SystemExit("Exact capacity raw diff record")
+            old_sha,new_sha=parts[2],parts[3]
+            before=0 if set(old_sha)=={"0"} else int(subprocess.check_output(["git","-C",str(r),"cat-file","-s",old_sha]))
+            after=0 if set(new_sha)=={"0"} else int(subprocess.check_output(["git","-C",str(r),"cat-file","-s",new_sha]))
+            total+=after-before;count+=1;i+=2
+            if after and path.endswith(".md") and after>=100000:raise SystemExit("Actual Markdown size cap: "+path)
+            if path.endswith("/HANDOFF.md") and after>=10000:raise SystemExit("Actual HANDOFF size cap")
+            if path.endswith("/open.md") and after>=30000:raise SystemExit("Actual open size cap")
+           last_topic_bytes=total
+           print("TOPIC_CAPACITY "+json.dumps({"base":CAPACITY_BASE,"base_topic_bytes":CAPACITY_BASE_TOPIC_BYTES,"head":quiet("rev-parse","HEAD"),"changed_topic_files":count,"actual_topic_bytes":total,"limit":200000000,"all_changed_blob_sizes_measured":True,"whole_tree_blob_sizes_not_fetched":True}),flush=True)
+           if total>200000000:raise SystemExit("Actual topic capacity exceeds 200000000")
+          
+          print("RECOVERY_SOURCE_ONLY "+json.dumps({"source_commit":os.environ["VISIBLE_PUBLICATION_COMMIT"],"run":os.environ["GITHUB_RUN_ID"],"branch":os.environ["GITHUB_REF_NAME"],"scientific_program_executed":False}),flush=True)
+          subprocess.run(["git","-c","http.lowSpeedLimit=1","-c","http.lowSpeedTime=60","clone","--filter=blob:none","--no-checkout","--depth=8","--single-branch","--branch",os.environ["GITHUB_REF_NAME"],"https://github.com/"+repo+".git",str(r)],check=True)
+          g("config","user.name","ChatGPT");g("config","user.email","chatgpt@openai.com")
+          g("config","--add","remote.origin.fetch","+refs/heads/main:refs/remotes/origin/main")
+          g("fetch","--filter=blob:none","--depth=128","origin","refs/heads/main:refs/remotes/origin/main")
+          paths=json.loads(os.environ["VISIBLE_PUBLICATION_FILES"])
+          g("sparse-checkout","init","--no-cone")
+          g("sparse-checkout","set","--no-cone",*["/"+p for p in sorted(set(paths)|set(pins))])
+          g("checkout","-b","visible-publication-work","origin/main")
+          real_pull()
+          p=g("cherry-pick",os.environ["VISIBLE_PUBLICATION_COMMIT"],check=False)
+          if p.returncode:resolve_rule_only_conflict("cherry-pick")
+          stamp()
+          while True:
+           topic_capacity_guard()
+           p=g("-c","credential.helper=","-c",'credential.helper=!f() { if [ "$1" = get ]; then printf "%s\\n" "username=x-access-token" "password=$VISIBLE_REPO_TOKEN"; fi; }; f',"push","origin","HEAD:main",check=False)
+           if p.returncode==0:
+            print("PUBLISHED_JSON "+json.dumps({"head":quiet("rev-parse","HEAD"),"status":quiet("status","--short"),"source_commit":os.environ["VISIBLE_PUBLICATION_COMMIT"],"run":os.environ["GITHUB_RUN_ID"],"true_pull_read_head":last_read_head,"README_blobs":pins,"actual_topic_bytes":last_topic_bytes,"capacity_base":CAPACITY_BASE}),flush=True)
+            break
+           if not any(x in p.stderr for x in ["[rejected]","fetch first","non-fast-forward","cannot lock ref 'refs/heads/main': is at"]):
+            raise SystemExit(p.returncode)
+           real_pull();stamp()
+          
+          import urllib.request,urllib.error,time
+          dispatch_workflow=os.environ["VISIBLE_DISPATCH_WORKFLOW"]
+          dispatch_ref="main"
+          dispatch_started=datetime.datetime.now(datetime.timezone.utc).isoformat()
+          dispatch_headers={"Authorization":"Bearer "+os.environ["VISIBLE_REPO_TOKEN"],"Accept":"application/vnd.github+json","Content-Type":"application/json","X-GitHub-Api-Version":"2026-03-10"}
+          dispatch_metadata_api="https://api.github.com/repos/"+repo+"/actions/workflows/"+dispatch_workflow
+          dispatch_registration_deadline=time.monotonic()+120
+          dispatch_registration_attempt=0
+          while True:
+           dispatch_registration_attempt+=1
+           dispatch_metadata_request=urllib.request.Request(dispatch_metadata_api,method="GET",headers=dispatch_headers)
+           try:
+            with urllib.request.urlopen(dispatch_metadata_request,timeout=30) as dispatch_metadata_response:
+             dispatch_metadata_body=dispatch_metadata_response.read(65537)
+             if dispatch_metadata_response.status!=200 or len(dispatch_metadata_body)>65536:
+              raise SystemExit("Publication succeeded; unexpected workflow metadata response; no dispatch attempted")
+            dispatch_metadata=json.loads(dispatch_metadata_body.decode("utf-8"))
+            if dispatch_metadata.get("path")!=".github/workflows/"+dispatch_workflow or dispatch_metadata.get("state")!="active" or not isinstance(dispatch_metadata.get("id"),int):
+             raise SystemExit("Publication succeeded; workflow identity/state not ready; no dispatch attempted")
+            print("DISPATCH_WORKFLOW_READY "+json.dumps({"id":dispatch_metadata["id"],"path":dispatch_metadata["path"],"state":dispatch_metadata["state"],"attempt":dispatch_registration_attempt}),flush=True)
+            break
+           except urllib.error.HTTPError as dispatch_metadata_error:
+            dispatch_metadata_error_body=dispatch_metadata_error.read(8192).decode("utf-8","replace")
+            if dispatch_metadata_error.code!=404 or time.monotonic()>=dispatch_registration_deadline:
+             print("DISPATCH_REGISTRATION_FAILURE "+json.dumps({"workflow":dispatch_workflow,"status":dispatch_metadata_error.code,"body":dispatch_metadata_error_body,"attempt":dispatch_registration_attempt,"post_attempted":False}),flush=True)
+             raise SystemExit("Publication succeeded; workflow registration unavailable; inspect metadata before dispatch")
+            print("DISPATCH_REGISTRATION_PENDING "+json.dumps({"workflow":dispatch_workflow,"attempt":dispatch_registration_attempt,"post_attempted":False}),flush=True)
+            time.sleep(min(5,max(0,dispatch_registration_deadline-time.monotonic())))
+           except (urllib.error.URLError,TimeoutError) as dispatch_metadata_error:
+            print("DISPATCH_REGISTRATION_TRANSPORT_FAILURE "+json.dumps({"workflow":dispatch_workflow,"error":type(dispatch_metadata_error).__name__,"detail":str(dispatch_metadata_error),"post_attempted":False}),flush=True)
+            raise SystemExit("Publication succeeded; workflow metadata unavailable; no dispatch attempted")
+          dispatch_api="https://api.github.com/repos/"+repo+"/actions/workflows/"+str(dispatch_metadata["id"])+"/dispatches"
+          dispatch_request=urllib.request.Request(dispatch_api,data=json.dumps({"ref":dispatch_ref}).encode("utf-8"),method="POST",headers=dispatch_headers)
+          print("DISPATCH_BEGIN "+json.dumps({"workflow":dispatch_workflow,"workflow_id":dispatch_metadata["id"],"ref":dispatch_ref,"started":dispatch_started,"published_head":quiet("rev-parse","HEAD"),"automatic_retry":False}),flush=True)
+          try:
+           with urllib.request.urlopen(dispatch_request,timeout=45) as dispatch_response:
+            dispatch_status=dispatch_response.status
+            dispatch_body=dispatch_response.read(65537)
+          except urllib.error.HTTPError as dispatch_error:
+           print("DISPATCH_HTTP_FAILURE "+json.dumps({"workflow":dispatch_workflow,"ref":dispatch_ref,"status":dispatch_error.code,"body":dispatch_error.read(8192).decode("utf-8","replace"),"automatic_retry":False}),flush=True)
+           raise SystemExit("Publication succeeded; explicit dispatch failed; inspect actual workflow metadata before retry")
+          except (urllib.error.URLError,TimeoutError) as dispatch_error:
+           print("DISPATCH_TRANSPORT_UNCERTAIN "+json.dumps({"workflow":dispatch_workflow,"ref":dispatch_ref,"error":type(dispatch_error).__name__,"detail":str(dispatch_error),"automatic_retry":False}),flush=True)
+           raise SystemExit("Publication succeeded; dispatch response uncertain; inspect actual runs before retry")
+          if len(dispatch_body)>65536 or dispatch_status not in (200,204):
+           print("DISPATCH_UNEXPECTED_RESPONSE "+json.dumps({"status":dispatch_status,"body_bytes_read":len(dispatch_body),"automatic_retry":False}),flush=True)
+           raise SystemExit("Publication succeeded; inspect dispatch metadata before any retry")
+          dispatch_result=json.loads(dispatch_body.decode("utf-8")) if dispatch_body else None
+          print("DISPATCH_JSON "+json.dumps({"workflow":dispatch_workflow,"workflow_id":dispatch_metadata["id"],"ref":dispatch_ref,"status":dispatch_status,"started":dispatch_started,"published_head":quiet("rev-parse","HEAD"),"response":dispatch_result,"api_version":"2026-03-10"}),flush=True)
+          VISIBLE_PUBLICATION_PY
