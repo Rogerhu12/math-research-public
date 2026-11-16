@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 08:24:16 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 08:26:20 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 08:06非FF真CLI仍无executor，下一本地尝试≤09:00。最新CI真pull为43827705714/1于11-16 08:00:07.647478→90632039e995b698280a210c1a956abd0653b990（另07:59:58一次）；两README完整diff均空、版本同已读；exec6f524e55存两全回执。下一真pull≤09:00:07；ref读取不冒真pull。
-最近只读README核：172263d7a903a1033cd76fd95be1376fde4aa064；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：7f7ca378ecf169507b6c21d66728dd5b1af90931；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -44,7 +44,7 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 ## 恢复与执行顺序
 
 全部已执行cleanup逐项path/blob/SHA/size/restore/source/scope/失败完整保[本次逐字检查点](notes/2026-11-16-completed-Schur-Parseval-and-endpoint-checkpoint.md)（38135c98同H/open）及递归原白名单；包括leaf0060/R43scale/phase24 failed458499B/非线性414823B/dense-s3 716317B，均已先推白名单并freshguard普通删，禁止再删或重算。最新dense白名单74153f2f先推d6c5a678后38135c98仅删b08d0784；restore becfaf83400b2f62e25f74b3b2d3365ea6015898原path，sampled通过/未过、原exit137/原成功失败均保。所有canonical/native/源与active pins未变；完整恢复身份以各原白名单为准。
-WGSA cd82f734 [完整实际证明](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)：唯一43820816332/1/24门/8图/437槽锁；主SCI8af3af0a/72251、原copy3c5588f1/31632、execf8ffc01b/18234、report3874edec/5778。66+40旧球/9scope/whole c72及所有原pins/域/formatter失败完整保该proof。root40核、四preGit+全stdout精确hash已独复原；旧/新科学只读禁重。新几何/幅度仅sup，不冒A0；full原背景c才A0。mean/γ桥14158b39仅[rc,r+]同germ、12槽待新正门，未授对称盘。后续extension/J/mean、N6真jump/PW及WZR四端编写，无新后续run；高门/finite/背景/总验收未付。 WZR f5e69090：真腰β=d=0、J:even0→odd=η^-1I；六inner mean/两inner tail逐项真0，residual仅z³ηg3φ；outer mean/tail、zphys、βr/Jr/第二Z全保，尚未新跑数。
+WGSA cd82f734唯一43820816332/1：24门/8图/437槽、主8af3af0a/72251与copy3c5588f1/31632全锁；66+40旧球/9scope/whole c72、四preGit/全stdout与全部pins/域/旧失败完整见proof和40014B前档。新geometry/amplitude仅sup，严格d A0需原独立积/primitive；旧成功不重。WZR f5e69090：真腰β=d=0/J=η^-1I，六inner mean/两inner tail真0；outer mean/tail、physical z、βr/Jr/第二Z保。后继实际已成范围见WEJA，不授高门/finite/背景。
 s10派生633521B报告：白名单6c4ecc4a先推6d782189，freshguard仅删8d066c24；restore d5cf6ec08d71b6b7a7240f051198c9800f5d8c06同path。全部原失败/成功、canonical/native不变。
 继续open余项→完整物理square/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。
 
@@ -53,3 +53,5 @@ linear-s3派生505865B报告：白名单a191e135先推83bac7b8，freshguard后�
 WHR289935c3（results/R133-supplement-exact-positive-radial-head-Fredholm-reduction-and-trace-safe-finite-factors.md）已证明真正侧radialhead F=Id−VB_LHP_a紧扰动/index0；mH未知，H¹补列/完整cokernel和端点Volterra行/全cross保。新hmax·||∂V||·||K||/π<1仅待验充分门，193是angular fiber非function维数；negative head/rough WGB输入/true96/Θ/ν/两mean/全finite逆仍待，0数值。
 
 WEJA8f1b7094（results/R133-supplement-actual-complete-waist-error-prefix-and-preserved-first-attempt.md）：43827705714/1仍failure，event/checkout90632039；27门、23整图1609槽=1600新+9原copy，node24另39新全保，共1639新，old0/lost0。root全30科学件413648B/23shape+binding、两原copy、两preGit与13563B完整partial均独核；16MB stdout仅原receipt未独复原。全部原球/pins/域与失败资格见proof。先推合同4ca7c1d4/25947仅授权续node24余13+node25 8+whole9=30新，whole6原copy只读。Phi仅导数，直接旧(0,2)*2!，禁填Phi0/重23图或39条。remaining-only driver/worker正最后验收；高门/finite/两mean/ν/head/背景与总验收仍未闭。
+
+integrated-source209005B派生账白名单ea97f78d先推；唯一868cb8ab，restore6a53642d050b9290c8434db1c249c011707d3306同path。原169叶+collar正模数成功/signed twist未付保原小note；全部58续算输入完整查无依赖，尚未删。

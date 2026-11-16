@@ -112,6 +112,12 @@ def read_source(row, work, output):
             for wanted in row["files"]:
                 assert fs[wanted["file"]] == wanted
                 names.add(wanted["file"])
+        elif mode == "named_original_members":
+            for name in row["names"]:
+                assert name in fs and Path(name).name == name
+                names.add(name)
+            for wanted in row.get("known_file_pins", []):
+                assert fs[wanted["file"]] == wanted
         elif mode == "R800":
             names.add("R800-retained-producer-inputs.tar.gz")
             names.update(n for n in fs if "index" in n and fs[n]["bytes"] < 2000000)
@@ -165,6 +171,15 @@ def read_source(row, work, output):
         for n in row.get("print_json_files", []):
             assert n in names
             special[n] = m.read(out/n)
+        for n in row.get("print_json_summary_files", []):
+            assert n in names
+            value = m.read(out/n)
+            assert isinstance(value, dict)
+            special[n] = {"file_spec": fs[n],
+                          "scalar_fields": {k:v for k,v in value.items()
+                              if isinstance(v,(bool,int,float,str)) or v is None},
+                          "container_shapes": {k:shape(v,1) for k,v in value.items()
+                              if isinstance(v,(dict,list))}}
         for n in sorted(names):
             if n.endswith("-certificate.json"):
                 value = m.read(out/n)

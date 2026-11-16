@@ -456,3 +456,7 @@ Phase亲核23项最终manifest/flow闭合：39唯一current、9AST、1378390原�
 ## 2026-11-16 08:24:16 UTC — WEJA全实际23图与39失败记录原字验收
 
 保存完整proof8f1b7094/25058：root已全读30科学件并递归核全部23图shape、每原5-key binding及direct dependencies；Tail完整18支持图，Phase原copy/preGit与prefix和N6/jump，原两64hash已由实际exec字段纠正。run43827705714/1仍失败；1600完整new+39partialnew、9originalcopy，lost0；只余13/8/9，原whole不存在。16MBstdout未取不冒独核。正准备只余30的新consumer，原失败源和输出不修改、不重跑。两README在172263d7a903a1033cd76fd95be1376fde4aa064版本同已读；真实pull仍08:00:07、期限09:00:07。
+
+## 2026-11-16 08:26:20 UTC — integrated-source派生报告单路径恢复白名单
+
+完整核原2349B小note、7381B producer、2084B qsummary、3129B descriptor；原报告209005B正文未取，其SHA1157bc1b由原小note继承，current与restore两tree同868cb8ab/209005已独核。root逐58当前全文1480349B核bytes/SHA/UTF8及basename/reportSHA零命中，最终manifest4093b44c固定，不能声称未来consumer无依赖。先推白名单ea97f78df086bb29a644620c9e746182741539fadf8013a9e19715f8f98a8818，再freshguard仅删该派生账；全部原成功/signed未付/源/native/参考定义/恢复史均保。H旧WGSA摘要仅缩已保全文索引，前H在754eeff9，任何旧数值/域/失败义务不减。README核7f7ca378ecf169507b6c21d66728dd5b1af90931同已读。

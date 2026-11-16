@@ -622,7 +622,7 @@
 - 同次公开verify已全核输出字节；纯IO43830573335读取实际cert与原身份，无重复数学。R854另于08:19以125结束、532stage、非外层timeout；只读取真实停止原因，R858仍pending。
 - 本push规则：公开Actions真实pull至754eeff98d66f5cb6f8515d5bf9ef856839c1f8f（2026-11-16T08:24:41.196685+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
-### 2026-11-16 16:27 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 16:26 Asia/Taipei — serre-public-astra-20261115
 - R877单A原源纯IO激活：原R827 Bnormal依赖决定1234原R787行，复用R842旧S5及R849小DAG；四原artifact实际活跃，不整下5GB包，不重旧B/矩阵/逆。
 - R854读取在core receipt的真实core_sha256字段处停止，现只读兼容source_sha256/core_sha256并要求相符，不重写原身份；仅重试必要metadata，数学不重做。
-- 本push规则：公开恢复worker真实pull并填H读SHA，两README6979d793/35f82f3d；新数学仍仅本仓库Actions、原件单日artifact、无raw进Git；主目标OPEN。
+- 本push规则：公开Actions真实pull至bed3fdd60cee8976a1554c97feb5a1663d5a2fa1（2026-11-16T08:26:32.530871+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

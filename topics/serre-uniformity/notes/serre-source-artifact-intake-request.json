@@ -1,19 +1,34 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0827-R854-actual-core-receipt-schema",
+  "request_id": "20261116-0829-R873-initial-assertion-and-R854-existing-ranks",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "754eeff98d66f5cb6f8515d5bf9ef856839c1f8f",
+  "rules_last_read_commit": "bed3fdd60cee8976a1554c97feb5a1663d5a2fa1",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
   "helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
-  "reader_sha256": "36c1534097396ee6213b57d16335fd8b26c92d1963e3eb43bd0518e1fb2cfecc",
+  "reader_sha256": "d9960e9e9539740b9a4597bb5454b111782c5920f75a7d75b83ee786054dfa9b",
   "sources": [
     {
-      "label": "R854",
+      "label": "R873",
       "mode": "ended",
+      "source": {
+        "run_id": "43830067416",
+        "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+        "artifact_id": 14207709262,
+        "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43830067416-1",
+        "archive_bytes": 346405554,
+        "archive_sha256": "6ed2434eb79dfcafa157fda081490d6f3fb21a866513aab802ce52c6e3bb9f0f",
+        "expected_conclusion": "failure",
+        "manifest_sha256": "7c2f41d86e8d524fb99c400f5b3be35b2c829cf1a1a843fc671e07c7c55a9f8c",
+        "core_sha256": "efe62506123f586dc441758e691df6468d1d4af151ea62e6e8087e1a13c721cd"
+      }
+    },
+    {
+      "label": "R854-profiles",
+      "mode": "named_original_members",
       "source": {
         "run_id": "43805506433",
         "source_commit": "dc6ffb07b398e5262d6b1e62dbc72378a163b5f3",
@@ -23,7 +38,17 @@
         "archive_sha256": "b0a8babc0eb1e2951e461cde1f47ddf37c1a07a87988ad8a453abf964ff3cf05",
         "expected_conclusion": "failure",
         "core_sha256": "1feb579a88879739a250f889ab1818019acb8f1156a0e3f34d57b8524024125f"
-      }
+      },
+      "names": [
+        "R854-p41-saturation-profile-000000.json.gz",
+        "R854-p41-saturation-profile-000055.json.gz",
+        "R854-p41-original-coefficient-scale.json.gz"
+      ],
+      "print_json_summary_files": [
+        "R854-p41-saturation-profile-000000.json.gz",
+        "R854-p41-saturation-profile-000055.json.gz",
+        "R854-p41-original-coefficient-scale.json.gz"
+      ]
     }
   ]
 }

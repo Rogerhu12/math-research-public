@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；远端main继续，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：754eeff98d66f5cb6f8515d5bf9ef856839c1f8f**（2026-11-16T08:24:41.196685+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-original-CM-constant.md)（9727B/011e6cb4），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：bed3fdd60cee8976a1554c97feb5a1663d5a2fa1**（2026-11-16T08:26:32.530871+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-original-CM-constant.md)（9727B/011e6cb4），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
 
 每结论立即推；每push前和至少每小时真实pull，NFF/ref竞争立即pull --rebase再推循环、禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main与索引。07:19共享终端失联后由公开恢复workflow实际git发布，仍partial/sparse；新数学仅本公开Actions，本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，当前必要源仅单日artifact。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
