@@ -180,4 +180,4 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 R46 density551730B、energy425182B已依[原density白名单](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)064056ab、[原energy白名单](notes/2026-11-16-R133-R46-unshifted-energy-report-cleanup-whitelist.md)b330b0a0先推再freshguard普通删。恢复5423c8a7、5d70e503各同path，完整身份/全部未付scope和失败保各清单及70aa7ef1同本页；0重算、禁重复删。
 
-R46 scaled429437B的[窄白名单](notes/2026-11-16-R133-R46-scaled-strong-operator-report-cleanup-whitelist.md)64094f6c已先推、尚未删，下一freshguard仅4bbca401同path。恢复4af72dc1cc28c5eb6485ac8f829b544630db3b31，完整SHA/7primary/两级成功链保清单；未来须原字restore，不重算。
+R46 scaled429437B的[窄白名单](notes/2026-11-16-R133-R46-scaled-strong-operator-report-cleanup-whitelist.md)64094f6c先推e6e90d83后freshguard仅4bbca401同path普通删。恢复4af72dc1cc28c5eb6485ac8f829b544630db3b31，完整SHA/7primary/两级成功链保清单；未来须原字restore，不重算。
