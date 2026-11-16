@@ -26,6 +26,8 @@
 
 [211完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)前四件已刊 `4f326cd1e0079026ad26bdafcabcc8ebdaacb635`。本次独立刊request80994B/5985662c与workflow40779B/f4162017，真实新请求路径触发公开仓库自身Actions；完整168来源、原六词/λ=.001/18000秒/全部原门与90KB/70保持。实际run/source待官方绑定，R475由amplitude唯一终态读取；来源生成或导入失败与数学拒绝、资源partial分开，不预填快路径使用率、完整J或接受。
 
+[211完整接口](notes/2026-11-16-request211-zero-eliding-complete-trace-interface.md)实际source `7e62fb22bff15bfe53e1481b4e7ba21d2f905786`，公开Actions [run43810051801](https://github.com/Rogerhu12/math-research-public/actions/runs/43810051801)于2026-11-16T05:24:47Z/attempt1启动；compute133109494332在05:25官方metadata前1–10成功，第11步原完整H/J/R273/FD/fullDN科学运行，必要读回/清理待起。R475由amplitude唯一终态读取；只记录步骤状态，不预填依赖运行全完、正H/J、快路径计数或接受。官方topic tree `058473aa2d9a71beb120cfa6a57ab71415617274` 为9254blobs/197777411B、9627entries，truncated=false。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。
