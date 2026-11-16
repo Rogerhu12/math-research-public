@@ -23,9 +23,10 @@
 ## 活跃执行、临时缓存与立即恢复
 
 - 旧run43756208221已结束。live43772109844始22:57:13、约04:47结束，临时全127/三域/global197缓存；request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json，全部37步已执行，旧30步定义保notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json。新数学另起仅manifest任务；旧E8 exit1及全部失败原史保留。重启须按冻结源码/pins重建，不能假旧临时数据存活。
-- 五广义factor全4367运输/1834Z均I1=0，[五处联合正式](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)§§6–7已补；唯一127系数结论由独立Q298及root63正源证明，未以零像排高层。
 - **原零点P实际已成：** 独立run43795759185，80.048秒，完整224×155/Q/N11/全6188，正谱(1,1,1,1,3,4,4,4,5,6,6,7,8,10)、长61/T0长5。raw22533·347c76c0，1342796原零乘回；完整相对25生成定理已付。仅执行manifest留repo，计算数据只临时/日志。
 - **31独立p7已排：** workflow=invariant-subspace-r150-root2-p7-manifest-session.yml；request=notes/2026-11-16-r150-root2-p7-manifest-session-789f-request.json。原14＋六small＋四真族/primitive/jet-map仅临时恢复；25→20→15→10→5，全原6188/4367与完整incoming15，最后两源任一正才E6。数学1800秒/4GiB、同绑定75自动续至3次；零只两源，失败照原回执修复。仅脚本/参数/run/输出SHA入库，结果读完成job日志；每步/30分钟pull核两README。
+
+- **非rank-one原17梯度已排：** 独立workflow=invariant-subspace-r150-nonrankone-manifest-session.yml，源码notes/2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py。真y=e0+e5、固定H0后6y/11H求导；exact17×11线性rank及完整T3地图，rank11才给detC局部来源，低rank不先称失败原课题。180秒/512MiB，无历史大输入，结果仅临时与完成日志。
 
 ## 原边界：同一个w与完整返回继续
 

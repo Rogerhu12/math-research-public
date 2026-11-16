@@ -1,39 +1,23 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "b16923509deae4d293a0ffe4c9c0e71b89081976",
-  "createdUtc": "2026-11-16 03:31:59 UTC",
-  "message": "ISP: execute two complete original root2 probes modulo 31^7 with manifest-only publication",
+  "parentCommit": "57e3c1c6dffd37f1fce226f42265b604ed2167a4",
+  "createdUtc": "2026-11-16 03:35:48 UTC",
+  "message": "ISP: compute full original nonrankone two-atom gradient and exact linear certificate",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-p7-manifest-session-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-p7-manifest-session-789f-request.json",
-    ".github/workflows/invariant-subspace-r150-root2-p7-manifest-session.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-manifest-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-p7-extra-input-recovery-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-nonrankone-manifest-session-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-nonrankone-manifest-session-789f-request.json",
+    ".github/workflows/invariant-subspace-r150-nonrankone-manifest-session.yml",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-common-789f.hpp",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-vq-789f.cpp",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-original-transport-789f.cpp",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-normal-789f.cpp",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-local-unit-solve-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-integer-p7-jets-789f.cpp",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-original-model-p7-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-runner-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-interface-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-r150-root2-p7-manifest-session.yml"
+    "invariant-subspace-r150-nonrankone-manifest-session.yml"
   ]
 }
