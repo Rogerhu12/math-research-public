@@ -1,0 +1,1639 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43756208221",
+  "stepId": "critical-e8-paid-high-kernel-recovery",
+  "executionSourceCommit": "c0e2bc833f9c6d429a791d538a520c3886874ff5",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-paid-high-kernel-recovery-789f.py",
+  "scriptSHA256": "80cd9d149b746af586de5e33de9e241c3f12660d2831c354bc27313a23c06b71",
+  "argvTemplate": [
+    "--parent-driver",
+    "{scripts}/2026-11-16-r150-critical-complete-high-residue-rank-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--native-source",
+    "{scripts}/2026-11-16-r150-critical-paid-high-kernel-recovery-native-789f.cpp",
+    "--field",
+    "e8",
+    "--parent-out",
+    "{work}/critical-e8-complete-high-residue-rank",
+    "--parent-receipt",
+    "{scripts}/43756208221-critical-e8-complete-high-residue-rank.json",
+    "--out",
+    "{work}/critical-e8-paid-high-kernel-recovery",
+    "--remaining-seconds",
+    "60",
+    "--memory-mib",
+    "1024"
+  ],
+  "timeoutSeconds": 90,
+  "exitCode": 0,
+  "wallSeconds": 1.7176980190015456,
+  "fullTemporaryReceiptBytes": 14586,
+  "fullTemporaryReceiptSHA256": "fed4f2804dcd1b359333551c4a86d69c0c09b276f45332b40e4b5a44a1991a9e",
+  "result": {
+    "binding": "642df9a45d49f2e960dfb62dc1f602300a7c09dd1efc9465df10cabb11655b0f",
+    "elapsedSeconds": 1.6034277120015759,
+    "format": "r150-critical-paid-high-kernel-recovery-v1",
+    "scriptSHA256": "80cd9d149b746af586de5e33de9e241c3f12660d2831c354bc27313a23c06b71",
+    "status": "completed",
+    "parameters": {
+      "actionsSHA256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332",
+      "all42126OriginalHighProductsZero": true,
+      "all4266KernelRowsRead": true,
+      "allLargeDataTemporaryOnly": true,
+      "allPaidRowScalingsAreResidueUnits": true,
+      "allSevenFreeColumnsIndependent": true,
+      "completeKernel": {
+        "bytes": 30028,
+        "file": "complete-high-free-kernel.bin",
+        "sha256": "bb5d373234d23992c39b521da9b8b29be5a36549357b14ad2f9539e493f2d4a4",
+        "temporaryOnly": true
+      },
+      "completeTangentBlockProjections": [
+        {
+          "blockSHA256": "14274bb05be867a01e51f8ed70fb77b8b64835a6b4e35d178d3bdaef4fbaaed0",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            8,
+            9,
+            8,
+            8,
+            6,
+            9,
+            9
+          ],
+          "coordinateCount": 9,
+          "dDegree": 2,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                15
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                3,
+                14
+              ]
+            ],
+            [
+              [
+                0,
+                12
+              ],
+              [
+                1,
+                7
+              ],
+              [
+                2,
+                7
+              ],
+              [
+                3,
+                15
+              ]
+            ],
+            [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                6
+              ]
+            ],
+            [
+              [
+                0,
+                10
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                3,
+                13
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            [
+              [
+                0,
+                15
+              ],
+              [
+                1,
+                16
+              ],
+              [
+                3,
+                8
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            [
+              [
+                0,
+                8
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                12
+              ],
+              [
+                3,
+                11
+              ]
+            ],
+            [
+              [
+                0,
+                14
+              ],
+              [
+                1,
+                12
+              ],
+              [
+                2,
+                6
+              ],
+              [
+                3,
+                15
+              ]
+            ]
+          ],
+          "normalDegree": 1,
+          "ordinaryTotalDegree": 3,
+          "projectionRank": 5
+        },
+        {
+          "blockSHA256": "944bb16f65fa04d64cb99db20dd8be1467ef967e02403fcfe523d0308ceb3c96",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            9,
+            8,
+            8,
+            8
+          ],
+          "coordinateCount": 9,
+          "dDegree": 3,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [
+              [
+                9,
+                1
+              ],
+              [
+                10,
+                4
+              ],
+              [
+                11,
+                8
+              ],
+              [
+                12,
+                2
+              ]
+            ],
+            [
+              [
+                9,
+                11
+              ],
+              [
+                10,
+                3
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                12,
+                13
+              ]
+            ],
+            [
+              [
+                9,
+                6
+              ],
+              [
+                10,
+                3
+              ],
+              [
+                11,
+                2
+              ],
+              [
+                12,
+                2
+              ]
+            ],
+            [
+              [
+                10,
+                11
+              ],
+              [
+                11,
+                16
+              ],
+              [
+                12,
+                2
+              ],
+              [
+                13,
+                3
+              ]
+            ]
+          ],
+          "normalDegree": 1,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 2
+        },
+        {
+          "blockSHA256": "c7723fa1e0127975e49e62e753db53924c1bd84b8ac1ac08df78d09270f3d971",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 9,
+          "dDegree": 4,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 1,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "c11f29eb8eb11a43b7e77ad5156ee2aa395114342b017e1978626a9c2ebe43fb",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            8,
+            9,
+            8
+          ],
+          "coordinateCount": 9,
+          "dDegree": 2,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                18,
+                4
+              ],
+              [
+                19,
+                15
+              ],
+              [
+                20,
+                12
+              ],
+              [
+                21,
+                14
+              ]
+            ],
+            [
+              [
+                18,
+                12
+              ],
+              [
+                19,
+                7
+              ],
+              [
+                20,
+                7
+              ],
+              [
+                21,
+                15
+              ]
+            ],
+            [
+              [
+                18,
+                1
+              ],
+              [
+                19,
+                9
+              ],
+              [
+                20,
+                6
+              ],
+              [
+                21,
+                6
+              ]
+            ]
+          ],
+          "normalDegree": 1,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 2
+        },
+        {
+          "blockSHA256": "c7723fa1e0127975e49e62e753db53924c1bd84b8ac1ac08df78d09270f3d971",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 9,
+          "dDegree": 3,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 1,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "c7723fa1e0127975e49e62e753db53924c1bd84b8ac1ac08df78d09270f3d971",
+          "cDegree": 2,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 9,
+          "dDegree": 2,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 1,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "ba707da9d9bb0474beb625d96922ed862beffa8044d3f2e95a909add5f9d615c",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            36,
+            42,
+            36,
+            40,
+            35,
+            41,
+            41
+          ],
+          "coordinateCount": 45,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [
+              [
+                54,
+                16
+              ],
+              [
+                55,
+                9
+              ],
+              [
+                56,
+                14
+              ],
+              [
+                57,
+                5
+              ]
+            ],
+            [
+              [
+                54,
+                2
+              ],
+              [
+                56,
+                9
+              ],
+              [
+                57,
+                1
+              ],
+              [
+                58,
+                7
+              ]
+            ],
+            [
+              [
+                54,
+                16
+              ],
+              [
+                55,
+                8
+              ],
+              [
+                56,
+                11
+              ],
+              [
+                57,
+                11
+              ]
+            ],
+            [
+              [
+                54,
+                9
+              ],
+              [
+                55,
+                14
+              ],
+              [
+                56,
+                9
+              ],
+              [
+                57,
+                11
+              ]
+            ],
+            [
+              [
+                54,
+                3
+              ],
+              [
+                55,
+                16
+              ],
+              [
+                56,
+                16
+              ],
+              [
+                57,
+                11
+              ]
+            ],
+            [
+              [
+                54,
+                6
+              ],
+              [
+                55,
+                10
+              ],
+              [
+                56,
+                4
+              ],
+              [
+                57,
+                8
+              ]
+            ],
+            [
+              [
+                54,
+                8
+              ],
+              [
+                55,
+                9
+              ],
+              [
+                57,
+                9
+              ],
+              [
+                58,
+                12
+              ]
+            ]
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 2,
+          "projectionRank": 7
+        },
+        {
+          "blockSHA256": "7760de425af6e709cbbcb0dd75c717bffaf3a2784c1e0b2f58d35ea5f1618f84",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            45,
+            36,
+            43,
+            43
+          ],
+          "coordinateCount": 45,
+          "dDegree": 1,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [
+              [
+                99,
+                1
+              ],
+              [
+                100,
+                4
+              ],
+              [
+                101,
+                8
+              ],
+              [
+                102,
+                2
+              ]
+            ],
+            [
+              [
+                99,
+                10
+              ],
+              [
+                100,
+                12
+              ],
+              [
+                101,
+                13
+              ],
+              [
+                102,
+                1
+              ]
+            ],
+            [
+              [
+                99,
+                8
+              ],
+              [
+                100,
+                3
+              ],
+              [
+                101,
+                11
+              ],
+              [
+                102,
+                3
+              ]
+            ],
+            [
+              [
+                99,
+                16
+              ],
+              [
+                100,
+                2
+              ],
+              [
+                101,
+                10
+              ],
+              [
+                102,
+                13
+              ]
+            ]
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 3,
+          "projectionRank": 3
+        },
+        {
+          "blockSHA256": "03144142bc87d5c83b12dec5ba95011cbe48dfccb82b7eb9b06d1e6527a03b6a",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 45,
+          "dDegree": 2,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "03144142bc87d5c83b12dec5ba95011cbe48dfccb82b7eb9b06d1e6527a03b6a",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 45,
+          "dDegree": 3,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "c600234aa18787f4bb7e7c58c7921453e7d2df4634e1df349951ec6a64ebd2b7",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            36,
+            42,
+            36
+          ],
+          "coordinateCount": 45,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                144,
+                16
+              ],
+              [
+                145,
+                9
+              ],
+              [
+                146,
+                14
+              ],
+              [
+                147,
+                5
+              ]
+            ],
+            [
+              [
+                144,
+                2
+              ],
+              [
+                146,
+                9
+              ],
+              [
+                147,
+                1
+              ],
+              [
+                148,
+                7
+              ]
+            ],
+            [
+              [
+                144,
+                16
+              ],
+              [
+                145,
+                8
+              ],
+              [
+                146,
+                11
+              ],
+              [
+                147,
+                11
+              ]
+            ]
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 3,
+          "projectionRank": 3
+        },
+        {
+          "blockSHA256": "03144142bc87d5c83b12dec5ba95011cbe48dfccb82b7eb9b06d1e6527a03b6a",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 45,
+          "dDegree": 1,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "03144142bc87d5c83b12dec5ba95011cbe48dfccb82b7eb9b06d1e6527a03b6a",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 45,
+          "dDegree": 2,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "03144142bc87d5c83b12dec5ba95011cbe48dfccb82b7eb9b06d1e6527a03b6a",
+          "cDegree": 2,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 45,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "03144142bc87d5c83b12dec5ba95011cbe48dfccb82b7eb9b06d1e6527a03b6a",
+          "cDegree": 2,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 45,
+          "dDegree": 1,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "03144142bc87d5c83b12dec5ba95011cbe48dfccb82b7eb9b06d1e6527a03b6a",
+          "cDegree": 3,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 45,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 2,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "1d8129e1f67766d3487877a3bff49159ba6ca4d653ab94abfad778e17ae327f1",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 165,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 3,
+          "ordinaryTotalDegree": 3,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "1d8129e1f67766d3487877a3bff49159ba6ca4d653ab94abfad778e17ae327f1",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 165,
+          "dDegree": 1,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 3,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "1d8129e1f67766d3487877a3bff49159ba6ca4d653ab94abfad778e17ae327f1",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 165,
+          "dDegree": 2,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 3,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "1d8129e1f67766d3487877a3bff49159ba6ca4d653ab94abfad778e17ae327f1",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 165,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 3,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "1d8129e1f67766d3487877a3bff49159ba6ca4d653ab94abfad778e17ae327f1",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 165,
+          "dDegree": 1,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 3,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "1d8129e1f67766d3487877a3bff49159ba6ca4d653ab94abfad778e17ae327f1",
+          "cDegree": 2,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 165,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 3,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "e98aeabb18dd81bbb814dcc6ad502a1acb9de1021e100f46a735dc7ee21e0d7e",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 495,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 4,
+          "ordinaryTotalDegree": 4,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "e98aeabb18dd81bbb814dcc6ad502a1acb9de1021e100f46a735dc7ee21e0d7e",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 495,
+          "dDegree": 1,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 4,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "e98aeabb18dd81bbb814dcc6ad502a1acb9de1021e100f46a735dc7ee21e0d7e",
+          "cDegree": 1,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 495,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 4,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        },
+        {
+          "blockSHA256": "0fde2c558e7b6604cc94eb714142246ad19b7f97d29b286d41e28121eae2ce0a",
+          "cDegree": 0,
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinateCount": 1287,
+          "dDegree": 0,
+          "firstFourNonzeroHighCoordinateSamples": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ],
+          "normalDegree": 5,
+          "ordinaryTotalDegree": 5,
+          "projectionRank": 0
+        }
+      ],
+      "field": "e8",
+      "freeOriginalTargets": [
+        [
+          2,
+          [
+            0,
+            0,
+            [
+              9,
+              9
+            ]
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            [
+              9,
+              10
+            ]
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            0,
+            [
+              10,
+              10
+            ]
+          ]
+        ],
+        [
+          2,
+          [
+            0,
+            1,
+            [
+              10,
+              10
+            ]
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            [
+              9,
+              9
+            ]
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            [
+              9,
+              10
+            ]
+          ]
+        ],
+        [
+          2,
+          [
+            1,
+            0,
+            [
+              10,
+              10
+            ]
+          ]
+        ]
+      ],
+      "kernelLogicalSHA256": "b16f2ff98083e35b6721f8455b4a281052a0e8266667f36b9a6c3169677fa9c3",
+      "memoryMiB": 1024,
+      "nativeResult": {
+        "allInputAndPivotEOFVerified": true,
+        "allOriginalHighProductsZero": true,
+        "allPivotPrefixesAndPaddingVerified": true,
+        "binding": "642df9a45d49f2e960dfb62dc1f602300a7c09dd1efc9465df10cabb11655b0f",
+        "format": "r150-critical-paid-high-kernel-recovery-v1",
+        "freeCoordinateBlockIsIdentity": true,
+        "freeHighColumnsZeroBased": [
+          96,
+          97,
+          98,
+          143,
+          186,
+          187,
+          188
+        ],
+        "mathSeconds": 0.586632602,
+        "noNewGaussianElimination": true,
+        "noRationalKernelClaim": true,
+        "nullity": 7,
+        "originalInputNonzeroEntries": 319662,
+        "originalProductCoordinates": 42126,
+        "originalSourceRows": 6018,
+        "originalTargetCoordinates": 4266,
+        "parentBinding": "1124ef03b855859da33751856495eb768ae100b5ddbeabe0515dea49adfbbefd",
+        "prime": 17,
+        "rank": 4259,
+        "status": "completed",
+        "temporaryOnly": true
+      },
+      "nativeSHA256": "d4a4639d2920754160b2c5e9e08d6552bf925301c532273fb932e94cc440f44f",
+      "nextNumberFieldConstructionMustBeVerifiedOverTheOriginalField": true,
+      "noNewGaussianElimination": true,
+      "noNumberFieldKernelClaim": true,
+      "normalSectorProjections": [
+        {
+          "columnNonzeroCounts": [
+            8,
+            9,
+            8,
+            17,
+            22,
+            26,
+            25
+          ],
+          "coordinates": 54,
+          "normalDegree": 1,
+          "projectionRank": 5
+        },
+        {
+          "columnNonzeroCounts": [
+            36,
+            42,
+            36,
+            85,
+            107,
+            126,
+            120
+          ],
+          "coordinates": 450,
+          "normalDegree": 2,
+          "projectionRank": 7
+        },
+        {
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinates": 990,
+          "normalDegree": 3,
+          "projectionRank": 0
+        },
+        {
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinates": 1485,
+          "normalDegree": 4,
+          "projectionRank": 0
+        },
+        {
+          "columnNonzeroCounts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coordinates": 1287,
+          "normalDegree": 5,
+          "projectionRank": 0
+        }
+      ],
+      "numberFieldKernelBoundsRemain": [
+        2,
+        7
+      ],
+      "originalInput": {
+        "bytes": 971106,
+        "file": "original-complete-high-ab9a4cdf9f4fa9021e01739ab1be24e27eeec16e353770564570e1f83bab4766.bin",
+        "sha256": "ab9a4cdf9f4fa9021e01739ab1be24e27eeec16e353770564570e1f83bab4766",
+        "temporaryOnly": true
+      },
+      "originalPivots": {
+        "bytes": 11431248,
+        "file": "complete-high-normalized-pivots.bin",
+        "sha256": "245282cdeb64b41fe1c3ff0c4d9d82aedb371536eacda08993a0da071733b19e",
+        "temporaryOnly": true
+      },
+      "parent": {
+        "binding": "1124ef03b855859da33751856495eb768ae100b5ddbeabe0515dea49adfbbefd",
+        "blob": "b4d0dd92b112c477f99217050f710b6646136ac6",
+        "bytes": 42686,
+        "field": "e8",
+        "manifest": {
+          "bytes": 1563,
+          "file": "checkpoints/manifest.json",
+          "sha256": "57296d33553aec729fd897a6b53f728aac5315dce9797a1844b0bcc7758d4f38"
+        },
+        "scriptSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+        "sha256": "f5d8b9ddbe858deb2b04f16281feed88a47dab11f06946dca0eed7538f2e4eda"
+      },
+      "parentIsReadOnly": true,
+      "parentSourceSHA256": "4a9c045763014812e3805da7f7c24408e27775b3fac1dc8beb5940ba89626ef9",
+      "perColumnSupport": [
+        {
+          "coefficientColumnSHA256": "e8bd59e9ce19f6a7807b116bfc772e4f1a4724fcad13da931b051a4f0b2c4558",
+          "column": 0,
+          "freeHighCoordinate": 96,
+          "freeOriginalTarget": [
+            2,
+            [
+              0,
+              0,
+              [
+                9,
+                9
+              ]
+            ]
+          ],
+          "maximumNormalDegree": 2,
+          "maximumTangentDegree": 2,
+          "maximumTotalDegree": 3,
+          "nonzeroCoordinates": 44,
+          "supportHighCoordinatesSHA256": "f415d5efe6f10a617c46f91a93b6db2718e2e0af1ddf80bc32843e331238784e"
+        },
+        {
+          "coefficientColumnSHA256": "849e5b6b2888c2478fa3002c69ce6261d800ed4df5ed7680e008f6a2dff85657",
+          "column": 1,
+          "freeHighCoordinate": 97,
+          "freeOriginalTarget": [
+            2,
+            [
+              0,
+              0,
+              [
+                9,
+                10
+              ]
+            ]
+          ],
+          "maximumNormalDegree": 2,
+          "maximumTangentDegree": 2,
+          "maximumTotalDegree": 3,
+          "nonzeroCoordinates": 51,
+          "supportHighCoordinatesSHA256": "15757a188d3a10aad12fd4c96b3bc2e21c912a3fd2fc5eaa91d2782f535345f4"
+        },
+        {
+          "coefficientColumnSHA256": "f82a15b3a174f2e52f289cb8668ee0a1c375ff598f39bb1d160a25e43eacff88",
+          "column": 2,
+          "freeHighCoordinate": 98,
+          "freeOriginalTarget": [
+            2,
+            [
+              0,
+              0,
+              [
+                10,
+                10
+              ]
+            ]
+          ],
+          "maximumNormalDegree": 2,
+          "maximumTangentDegree": 2,
+          "maximumTotalDegree": 3,
+          "nonzeroCoordinates": 44,
+          "supportHighCoordinatesSHA256": "29d4bfa8fb31889f9d70a9eba3e9aba51223e14d60af86fa2b9ea8721baf2c1c"
+        },
+        {
+          "coefficientColumnSHA256": "29a97a05ac1ab464f1fcbd0f8bcb5fd5302b91af8d79412040f90dbfbc8877a1",
+          "column": 3,
+          "freeHighCoordinate": 143,
+          "freeOriginalTarget": [
+            2,
+            [
+              0,
+              1,
+              [
+                10,
+                10
+              ]
+            ]
+          ],
+          "maximumNormalDegree": 2,
+          "maximumTangentDegree": 3,
+          "maximumTotalDegree": 4,
+          "nonzeroCoordinates": 102,
+          "supportHighCoordinatesSHA256": "e5993afa724bbee255bde9c53093fe714add432493a3013eeda78c8c5e7264fc"
+        },
+        {
+          "coefficientColumnSHA256": "8fd79a8ae0f973d906b379aac6063f5298c9633c62789238c5575664c043d0a9",
+          "column": 4,
+          "freeHighCoordinate": 186,
+          "freeOriginalTarget": [
+            2,
+            [
+              1,
+              0,
+              [
+                9,
+                9
+              ]
+            ]
+          ],
+          "maximumNormalDegree": 2,
+          "maximumTangentDegree": 3,
+          "maximumTotalDegree": 4,
+          "nonzeroCoordinates": 129,
+          "supportHighCoordinatesSHA256": "82c964f1cff0aae3d0b931e4c708aa1edab0b33d01fb65b84b5e8f961ef3ac52"
+        },
+        {
+          "coefficientColumnSHA256": "e53eeb7425d47f233b899e53d5a9fb5810b716cfdba5252b92ac3648dfc16885",
+          "column": 5,
+          "freeHighCoordinate": 187,
+          "freeOriginalTarget": [
+            2,
+            [
+              1,
+              0,
+              [
+                9,
+                10
+              ]
+            ]
+          ],
+          "maximumNormalDegree": 2,
+          "maximumTangentDegree": 3,
+          "maximumTotalDegree": 4,
+          "nonzeroCoordinates": 152,
+          "supportHighCoordinatesSHA256": "d2a480de67d5b5eb105075eb6386473e3e0363659540d03e75073f92acf2238f"
+        },
+        {
+          "coefficientColumnSHA256": "6e812730602e75a3039bb4b47ffdd731365e0fadd38b59fbf3f9c6f2d981339b",
+          "column": 6,
+          "freeHighCoordinate": 188,
+          "freeOriginalTarget": [
+            2,
+            [
+              1,
+              0,
+              [
+                10,
+                10
+              ]
+            ]
+          ],
+          "maximumNormalDegree": 2,
+          "maximumTangentDegree": 3,
+          "maximumTotalDegree": 4,
+          "nonzeroCoordinates": 145,
+          "supportHighCoordinatesSHA256": "729ad81f073e665eb08bbe2b70b2695a0bc70b1326b165ea29f51be5630a9199"
+        }
+      ],
+      "remainingSeconds": 60.0,
+      "sourceOrderSHA256": "73ada416ec7332c592460373ca23fb486712202ff11deb88325f3821a6f5df3b",
+      "targetOrderSHA256": "a1e9097a492d8ea89fdfdd09f57401f6fdbd51d67cfdd2fa2a40b6e60d840119"
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 01:44:52 UTC",
+      "beforeReadCommit": "a9781c9bd827d747faf3d6e1ad27fcde9ca2f838",
+      "originMainAfterPull": "c0e2bc833f9c6d429a791d538a520c3886874ff5",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 01:44:55 UTC",
+      "beforeReadCommit": "c0e2bc833f9c6d429a791d538a520c3886874ff5",
+      "originMainAfterPull": "c0e2bc833f9c6d429a791d538a520c3886874ff5",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 121,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 41504,
+    "logicalJsonSHA256": "c4e7334daac6e6546a9cb61e9d8178c1d8bd03d86335c558150685d2e288d8fc",
+    "itemCount": 121
+  },
+  "lastRulesReadCommit": "c0e2bc833f9c6d429a791d538a520c3886874ff5",
+  "summaryExcludesRecomputableArraysOnly": false
+}
