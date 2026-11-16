@@ -1,0 +1,56 @@
+{
+  "allArraysTemporary": true,
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "binding": "8e701750318d6bed82bd5e202266e025a60da1d23397f2c740badae301ad0bff",
+  "characteristicZeroClaimed": false,
+  "format": "r150-original-rank-four-unexpanded-local-input-identities-v1",
+  "interface": {
+    "bytes": 9077,
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md",
+    "sha256": "e42ac3052d627d6df4420c79a1e55275104f50425d6a8566334f6fd62b63ad53"
+  },
+  "largeArtifactUploadPermitted": false,
+  "localCompressionOut": "/tmp/r150-normal-789f-20261116-1040/original-parameter-seed-compression127",
+  "localModelOut": "/tmp/r150-normal-789f-20261116-1040/original-ten-parameter-module127-v2",
+  "localOut": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart-v2",
+  "parameters": {
+    "chart": "14",
+    "memoryMiB": 4096,
+    "seconds": 600,
+    "through": "final"
+  },
+  "parents": {
+    "compressionBinding": "baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca",
+    "compressionPureMathematics": {
+      "bytes": 620742,
+      "sha256": "a1d73ea1ce5809c87bdc34724c1eb4407d6a5c0ae78fbf16aa3650563aa089dd"
+    },
+    "compressionSource": {
+      "bytes": 20434,
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+    },
+    "modelBinding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+    "modelManifest": {
+      "bytes": 30466,
+      "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+    },
+    "modelSource": {
+      "bytes": 23879,
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "singular": "record actual installed binary and whole version SHA before any candidate"
+  },
+  "sameJobRebuildRequest": "notes/2026-11-16-r150-original-rank-four-local-source-session-request-789f.json",
+  "source": {
+    "bytes": 35070,
+    "gitBlob": "11f6bf80f1ced7e5a2a21ae0f763ffb7225102d6",
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+    "sha256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3"
+  }
+}

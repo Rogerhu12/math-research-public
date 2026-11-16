@@ -1,0 +1,60 @@
+{
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "continuation": "Preserved failed list/tuple comparison guard. No mathematical negative result; v2 normalizes both literal four-index tuples to a list and retains exact equality.",
+  "dataPolicy": {
+    "mathematicalArraysInRepository": false,
+    "rawMathematicalReceiptInRepository": false,
+    "uploadedArtifact": false
+  },
+  "executionKind": "actual-local-executor",
+  "format": "r150-original-rank-four-unexpanded-local-execution-identity-v1",
+  "outcome": {
+    "binding": "65a2123aa5207eee8c30a2be1acda05f6db24e0414525316eefd1abb6c821670",
+    "characteristicZeroConclusion": false,
+    "elapsedSeconds": 5.597888616001001,
+    "error": {
+      "message": "same literal original rank-four chart",
+      "type": "ValueError"
+    },
+    "exitCode": 1,
+    "lastWholePhase": "all-original-fifty-seeds-and-full-source-transport",
+    "peakRssKiB": 118644,
+    "positiveUnitIdentityClaimed": false,
+    "singularInvoked": false,
+    "status": "failed"
+  },
+  "parameters": {
+    "chart": "14",
+    "memoryMiB": 2048,
+    "out": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart",
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "pythonFlintVersion": "0.9.0",
+    "pythonVersion": "3.12.14",
+    "seconds": 300,
+    "through": "prepare"
+  },
+  "sessionId": 19674,
+  "source": {
+    "bytes": 35064,
+    "gitBlob": "61606de02adf74a31b9a612acda7b1bb753b71c9",
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-unexpanded-local-source127-789f.py",
+    "sha256": "09b920e2e379eec3f2dc0d4e082d71f3427f79dd24df4ce28bb1d9166284e431"
+  },
+  "temporaryOutputIdentities": {
+    "log": {
+      "bytes": 1057,
+      "path": "/tmp/literature_bell_rank4_789f/unexpanded-prepare.log",
+      "sha256": "5692c0bcc463268e08e500b608d0e50f8d41d84f3d9b89778ac8c7b213a0874d"
+    },
+    "manifest": {
+      "bytes": 15985,
+      "path": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart/rank-four-local-source-manifest.json",
+      "sha256": "69a78daf7a1ac1e8d966d79fec0fd7a8169966cf129dc0e29e982c56450d59b6"
+    },
+    "rawReceipt": {
+      "bytes": 907,
+      "path": "/tmp/literature_bell_rank4_789f/unexpanded-original-chart/rank-four-local-source-receipt.json",
+      "sha256": "6bccbfbd125c6bd8cc3f39ea399704de2e037762b0de287cffcc98e916616e2b"
+    }
+  }
+}

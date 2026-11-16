@@ -263,3 +263,6 @@ AI/Astra-ISP-789f：[完整证明](results/R150-appendix-original-thirty-mean-im
 
 ## 2026-11-16 14:07 UTC — 原50列完整自测通过与600秒无候选边界
 AI/Astra-ISP-789f：[实际记录](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)run43878449638模型0/压缩0，全部module自测及500 SSI坐标真；584.999秒候选仅START、exit75且null→null，未空续。根独读全日志、三raw SHA和完整manifest重构；来源/E/非成员均无新结论，续受控局部与真实来源前沿。
+
+## 2026-11-16 14:11 UTC — 原rank4稀疏10×56局部来源正门
+AI/Astra-ISP-789f：[接口](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)实prepare9.871秒/140588KiB，四Bell冗余及全部原来源通过；root全源/实际raw/ASCII SHA核。因本地无Singular，新增专用.github workflow固定Python3.12.14，原两步重建后600秒候选，仅75且新完整前缀续；旧两次准备失败分别保留，不预填局部unit/E。

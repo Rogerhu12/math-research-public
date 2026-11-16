@@ -2,7 +2,7 @@
 
 **30 条均值首层乘法关系已完成原来源与完整权七核验。** [原来源和精确秩312](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)保全十二参数，完整7754×312由旧282前缀加30个NiYj构成并满列秩。root独立核全部2,419,248原来源坐标产品和312归一化主元；仅得该有限前缀商维30，不据此称整个50列B子模扩大、稳定或单位。继续利用真实原18来源处理更强父空间及局部图。
 
-**原rank4六行准备边界已记录。** [失败及完整尺寸诊断](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)保62.532秒MemoryError；诊断全15双adj/460原坐标通过，δ14的6×46展开4,768,130项，未成完整矩阵检查点、未调Singular。后继改同δ的原稀疏10×56，另核四Bell冗余、清ρ及全10/18/17原来源；局部单位、E和完整十九图仍待付。
+**原rank4δ14稀疏局部入口已完成实际准备，进入独立候选job。** [原10×56来源接口](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)保46裸原列与10个ρδ−1局部器，四Bell冗余的40坐标/4原18乘回及全480 adj真；v2实9.871秒/140588KiB、315860项。根整读源及原raw/manifest/完整输入SHA，新增专用Python3.12.14 job重建180/180后实算600。无完整candidate不空续；单图正证仍须清ρ后全10/18/17及另E门，十九图不免费关闭。此前六行MemoryError、完整尺寸诊断和list/tuple首失败均保。
 
 **全W31生成、ann及统一整来源费均已闭。** [完整四轮饱和](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)给field长度22,22,19,18,17、Tp长13=H2，故全U31=M31；原AnnU=h*(31⁵,31²(s−2),(s−2)²)，共同最小31指数5/2及全部M型继承。[整来源度数证明](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)对每个4212基目标给费用≤max(8515,124+degq)，三个ann生成元均8515。来自真D31 leading-unit原minor/单首一Δ298和完整三支除法；不借九平方小目标权、不声称任意高参数组合固定费，不扩D127。原计算/独立重放/根双SHA均见正文；未展开4212源数组或给系数高度，其余普通ISP/Bell理想继续。
 
