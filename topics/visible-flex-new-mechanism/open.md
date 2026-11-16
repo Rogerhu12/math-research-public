@@ -60,6 +60,12 @@ $
 
 一次固定第三χ使真实A=tAc、T=−t²Ac²/2的整常态段全相位K0，且原second能量严格正由完整YC相抵。在具有真实历史的内部t0，∂ksF=t0≠0，故自由hs与原八矩ODE给同一w=0/χ下平滑非恒离开。它尚非返回桥；末scalar/frame/位置/M/T/V、已锁保护芽13规范和两period须在同一路径继续支付，不允许逐段重选χ。R518实际成本截面不能代替这里未付的完整端点控制；R517自动M0只属YC已消的另一字面同形库。
 
+### R524原常态返回门与完整八矩的有限幅度限制
+
+[R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)在同一R520库、固定w=0/χ和真实前缀中，证明末scalar与零速度回来后要接常态germ，准确还须bc(δA,Ac)=0、qc(δA)=0；保完整T=−A²/2+τ、τ∈W，不重置历史。原p1/t1与真实水平关系给εh=hmax√L‖hs‖₂/hmin²<1时，∫M=LMc迫全程常态。因此非恒局部出口不能保完整二阶传递原样替换同长度常态段。
+
+对任何真实正时间raw M0路径，k须换号且max|k|>1，εh≥1；并有严格oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。该必要界不排仅scalar返回或非零δA满足两二次门；也不给有限幅度反馈正则延拓。下一应在同一个真实规范内构造跨出局部盒的受约束连接，付全部M/T/germ与位置frame；不能只借R518无ruling成本桥。
+
 ### R521新的有限正复制与完整history反馈
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)从起点选择4包三矩、8副本全cubic基本块，再用16个正交旋转/反射及每组11个互异正节点的共同0…10矩，令完整第四ruling准确只剩sin²θ一条。整base双collar保证跨base加法，内部真尾与全部第三history保留。在预定h>0、x+ω>0、e=h(x+ω)−k>0紧域，原kss系数有严格正积分及统一正下界；以固定w=χ=0显式解kss，hss是真实自由控制，原m和完整有限第三状态同步演化。

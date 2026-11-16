@@ -461,3 +461,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [真正58反射R1射线与首个新R2纤维的实际返回](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)：**实际观察完成**，17维有界共同投影成功，七幅度中六个过环门；α3/8的唯一新原盒LP status2、无原始/对偶值，0预测/actual。R1-only环κ约80，当前仍58；新增19.350847490999968秒/0值、累计2882.412483226秒/147值，不授准确不可行或其他幅度失败。
+
+
+- [R524 同规范常态返回门与真实矩阵有限幅度障碍](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)：**已证明**末常态继续 iff 完整bc/qc两门；原raw p1/t1给小高度速度盒内同长度八矩传递刚性。任意M0须k换号、max|k|>1、εh≥1和严格ω振幅下界；不排仅scalar返回，不授全局反馈、闭合或主几何。

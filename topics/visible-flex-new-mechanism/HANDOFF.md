@@ -4,9 +4,9 @@
 
 ## 1. 规则、授权与最近实际pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于13:20:21→13:20:28 UTC真实pull --rebase，已读上游 **e6984b0ef0af44a5e819a0463ae5dd8687ec9cac**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**13:28:02 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于13:20:21→13:20:28 UTC真实pull --rebase，已读上游 **e6984b0ef0af44a5e819a0463ae5dd8687ec9cac**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**14:20:28 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-private于12:27:46.951829→12:28:02.584993实际pull读 **199fa7501eef29206e301da42ef4062f1b5810e6**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
+private于13:20:33.071808→13:20:49.550954实际pull读 **f30bd4b570719904bebe98f2bc5e5e605f67da7b**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
 最新反射R1两job真实pull已读：public0b8bb24ce9d4a9acb3219c6fe01f35328aba4139（13:10:48）/34e3d11a3415c6eafa1197683e5c6782aa1c0362（13:11:38）；privateab08c9a38724710d5ffdc0dba75f089a45c5b8f9/7ffc92ce60712412d67d0d962b97c981fe5df18e（13:11:42）。README空diff/QUEUE进行中；全部原收据见新note，更早SHA保H历史和各run notes。
 
@@ -35,6 +35,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 [R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)付固定宽Jtr=(J0,FN^j)实际C1成本截面：双极端正字符/同宽混权核、实际满像导数、保非零基准开球、有限正配平和整数复制；一次共同ω平移与真桥保原窗口/全部成本，按同库R467/R464接period/13规范。此R459内区可变母库不能拼R512字面同形母；同一完整实现字的逐点K仍欠。
 
 [R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)从起点加强同一R459类有限C²纤维，保四自然/共同cap/原20目标，另以真实22行正核取得完整常态平方Qc=0、速度Gc=1。纯self只在三项三导平方完整抵消后才降C²，全部YC/左尾保。固定一次χ得到A=tAc≠0、T=−t²Ac²/2的全相位K0常态段，并在其真实t0前缀以∂ksF=t0非零、自由hs和真实八矩ODE平滑非恒离开。未付返回桥、已锁13规范或末M/T/V/frame/位置，不能借R518末成本替代全路径。
+
+[R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)核原raw八矩：同R520的末常态germ还须完整bc(δA,Ac)=qc(δA)=0，真实第三W保。若εh=hmax√L‖hs‖₂/hmin²<1，同长度八矩等于LMc强迫全程常态；完整M0必须k换号、max|k|>1、εh≥1及oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。仅scalar返回未排，不借局部IFT充有限幅桥。
 
 ## 5. 不同母库的范围与新的完整history反馈
 
