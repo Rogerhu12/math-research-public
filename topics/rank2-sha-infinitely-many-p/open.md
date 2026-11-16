@@ -178,3 +178,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - R887已将原CM运输全证明正式登记，§11精确付ρp cp=1及同一导数primitive；原Z水平项仍固定、R884特征零Ĉp不变。继续原G/P2有限p基及同四个指定低配对；旧运输注已保留跳转。
+
+
+- [R888](results/R888-original-factor-lift-invariance-of-the-actual-finite-class.md)已付同一模p来源的所有合法R491整提升不变完整o(R)与首t多项式；ξ必须随因子提升同源变化。继续由真实forcing确定该类的约束与全K2实际像，不能重选提升把它归零。

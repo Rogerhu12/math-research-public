@@ -266,3 +266,6 @@
 
 
 - [R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原Z的δ/2及任固定CM α完整cocycle、绝对sigma frame和同P2初始化缺陷全证；四完整加权差的C4准确回(Nα/3)αν^(p^-4)dlog(yα/y)，保原全部kα,p/Ξα及真实大p窗。新Wilson归一ρp cp=1给Fp=−cp⁻¹D^(p−2)x、Z=−cp⁻¹(D^(p−2)x+r^p)，没有特征零Ĉp减项或水平项替换。四原B联合非零仍开。
+
+
+- [R888](results/R888-original-factor-lift-invariance-of-the-actual-finite-class.md)：同一模p原quartic的两合法R491整因子提升之差/p为原WD中的完整Δ，约化t³(4F³qA+F⁴B)属V3；同一X准确改R→R−Δ、S不变，故全球o(R)及整[t]R不变。E³差24t³qe³A准确伴随ξ→ξ+A，全部M/39带/后位保留；不授权任意因子修正或把指定类归零。
