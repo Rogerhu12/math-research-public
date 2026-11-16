@@ -213,4 +213,123 @@ $R+Y$ 送进 $\mathscr V_1+\mathscr J_3$，
 也没有把 (12) 当成当前所有临界参数都违反的门。
 原完整 $R,S$、实际四中央以及剩余 normal/carry 继续保留。
 
+## 5. 同一个 quartic 截面的全预算与数值可读门
+
+本节仍保正文全部条件。令 $j$ 为原残截面
+$P^{\rm fact}/F^4$ 沿严格负水平 $H_-$ 的准确零阶。
+[原负水平全范围](2026-11-16-r872-quartic-negative-horizontal-range-and-double-vanishing.md)
+已经证明 $j\in\{0,1,2\}$。记 $z_-=C H_-$。
+原截面的有效零除子准确包含
+$
+4C+3f_0+jH_-.
+\tag{16}
+$
+这里仍只扣严格 $f_0$；原十九角不允许将它换成总纤维。
+三种分量互不相同；在未吹起的零纤维一般点，
+原 $t^3$ 给三，而 $F(0,Y)\ne0$、$q(0,1)\ne0$ 保该判断。
+
+[R680](../results/R680-original-nineteen-angle-root-energy-and-mixed-charge-restriction.md)
+的原 $B_D$ 为 nef，且其完整十九重数表给
+$B_D f_0=2$、$B_D H_-=4$。
+[R815](../results/R815-complete-original-mori-nef-cones-and-s-fibration.md)
+给原几何整非边界 $C$ 为 nef。因此将 (16) 分别与两者相交，得到
+$
+\boxed{
+4d_D+6+4j\le B_D^2,\qquad
+4\kappa+9+jz_-\le d_D.
+}
+\tag{17}
+$
+特别还有准确的联合预算
+$
+\boxed{16\kappa+42+4j(1+z_-)\le B_D^2.}
+\tag{18}
+$
+未计入的其它有效分量均保在余除子中，由 nef 性支付它们的非负交数。
+
+若同一个 $R$ 满足完整零类条件，则正文 (12) 与 (17) 给
+$
+\boxed{
+\mathfrak o_D(R)=0
+\quad\Longrightarrow\quad
+B_D^2\ge4\kappa+4s+10+4j.
+}
+\tag{19}
+$
+零链亏量三使 $b\ge3$，且 R815(33a) 给 $\kappa\ge6b-9$。
+故还有完全整数的必要门
+$
+\boxed{B_D^2\ge4s+24b+4j-26.}
+\tag{20}
+$
+特别 $B_D^2<4s+46$ 时，任何通过原完整 $p^3$ 的同修正
+都满足 $\mathfrak o_D(R)\ne0$。
+
+这些式子使用 R680(7) 的实际整数自交
+$
+B_D^2=4D^2+2D\bigl(2\lfloor D/2\rfloor+4\bigr)
+-\sum_{i,a}\nu_{i,a}(D)^2,
+\tag{21}
+$
+其中 $\nu_{i,a}(D)$ 是该文的全部十九重数。
+有限参数不可将 (21) 替成仅主项的近似。
+
+## 6. 原 ODE 使零类反门覆盖整个原临界区间
+
+当前实际轴与原低轴 $\rho=d\Theta^{17}$ 的首差从 $w^{s-4}$ 起。
+本窗严格有 $h<s-4$，且 $t(w)/w$ 为单位。
+所以同一个 $F$ 在 (1) 的接触 $h$ 也是
+$F(t,\rho)$ 的准确接触；没有把实际高轴替到其未获许可的高阶。
+
+R680(15)–(20) 的原 Euler forcing 在 $C$ 上非零，
+其全极帽为 $3C+L$，且 $LC\le8b$。
+原点处 $EF$ 为单位，故物理支无判别式损失；该 forcing
+在此有至少 $h$ 阶零。于是
+$
+\boxed{h\le3\kappa+LC\le3\kappa+8b.}
+\tag{22}
+$
+只读取原共振前长度；其它支的交数、判别式及全部固定角
+并未删掉，只在必要下界中不再计入。
+
+将 (22) 与 (19) 联立，并用 $s=2h+2$，逐步有
+$
+3B_D^2\ge12\kappa+12s+30+12j
+\ge4h-32b+12s+30+12j
+=14s+26+12j-32b.
+$
+由于 $4b\le D$，得到不再依赖未知因子自交的必要门：
+$
+\boxed{
+\mathfrak o_D(R)=0
+\quad\Longrightarrow\quad
+14s\le3B_D^2+32b-26-12j
+\le3B_D^2+8D-26-12j.
+}
+\tag{23}
+$
+因此
+$
+\boxed{
+14s>3B_D^2+8D-26
+\quad\Longrightarrow\quad
+\mathfrak o_D(R)\ne0
+}
+\tag{24}
+$
+对当前窗口内每一个原 $F$ 及每一个通过完整 (1) 的同 $R,S$ 都成立。
+
+主项的含义可以严格单独表述：若一列当前原输入有 $D\to\infty$，
+且 $\liminf p/D^2>141/28$，则 R680 的
+$B_D^2=(47/12)D^2+O(D)$ 使 (24) 从某项起成立。
+特别原 $p/D^2\to47/8$ 的临界列满足这个严格反门。
+这是对全因子范围的渐近结论，不是目标素数扫描。
+
+在 (24) 内，正文 (15) 的同第二页仿射类准确不含零；
+当 $j=0$ 时，已付的全球连接核消失还迫至少一个真实有限纤维读数非零。
+仍不能指定它在物理 $t=0$，不能从这里推出完整 $p^3$ 不存在，
+更不能把这一步称为主课题的中央非零。
+下一步仍是原 $K_1$ 的所有高前缀与
+$\mathfrak o_D(\ker\beta_1)$ 的实际联合像。
+
 无新增数学数值运行。

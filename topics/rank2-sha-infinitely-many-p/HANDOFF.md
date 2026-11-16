@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：dae38ffc6458849cd79a9c99b146b7f3114c6e2b；2026-11-16 13:47:21 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 最近已读规则提交：715a877c999d0fce2ecd66539ee2a2b3780da26f；2026-11-16 13:51:25 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -53,7 +53,7 @@ R872实际调整口仍是全K1的W2末三尾联合像；同预算Pfact和完整p
 全商W/(V1+J3)保真实全部有限层及H¹连接核，精确矩阵/来源见上方完整H与R872系列注。J3=(E+40)⁻¹V3的Π全0不删全β1；J3∩V1=V4，carry使W0≥s，原negative/primitive条件下完整β1还必要W0≥s+1。native λ=a⁻¹[w^s](5042W0−246W1+3W2)，τ1保同γ给的9U0u0²e0αA；τ2/3仅值项。5042原p单位。
 quartic余乘子j≤2；j0全H¹连接核0，j1/2维≤3/14，真核仅[f0a0]3,0与[41f0a1+44f1a0]3,1，f0非unit可能保。零纤维Q0=(A/t³)/(t²V)保G1修正及物理以外全部块；除F0=Y²(Y−1)外两列秩2；唯一退化四行与ρ−重合一行，联合仍添三行。全WD满像不冒K1满像。
 原负水平z−≥1迫整[Y0]A/J零；v1≠0时J3∩K1含t³，退化F0自动。4z−≤1+6j给z≤3；z3整个J3含Y²/t³，无v1门。
-[同修正返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：τ1的完整o(R)0才有同预算R=FH+J，全部normal/ξ段与两近支保，必dD≥κ+s+1。strict反门使0∉o(R)+o(kerβ1)，但不排p³。当前唯一下一步：算全高前缀下实际o(kerβ1)与同R/S的指定仿射类，不能从局部可赋值或ΠJ0跳过它。
+[同修正返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：τ1的完整o(R)0才有同预算R=FH+J，全部normal/ξ段与两近支保，必dD≥κ+s+1。strict反门使0∉o(R)+o(kerβ1)，但不排p³。新§5/6付4d+6+4j≤BD²与h≤3κ+8b，零类必要14s≤3BD²+8D−26−12j；故p/D²>141/28的原渐近窗（含47/8）确迫oR非零，仍不排p³。当前下一步：算全高前缀下实际o(kerβ1)与同R/S的指定仿射类，不能从局部可赋值或ΠJ0跳过它。
 
 ## 其它原门与同步
 

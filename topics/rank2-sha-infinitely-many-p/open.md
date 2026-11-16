@@ -163,3 +163,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - [原全部有限cohom检测](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)已全证：素于p的F条件可逐值保持任意有限测试及已用p环类层；17惯性/Sah付restriction单射。unit子集确不dot包含默认允许集，不能直接套JNS；继续核split/core-vertex证明的全部素数选择接口，原n1/三η/ordinary loc均保。
+
+
+- 同修正返回注§5/6已将未知因子门化成原总预算：零类必要14s≤3BD²+8D−26−12j；严格反门在p/D²>141/28的原渐近窗成立，确覆盖47/8。因此该临界不能用V1+J3把同R归零；j0须见真实finite非零，继续其全kerβ1像，不以此排完整p³。
