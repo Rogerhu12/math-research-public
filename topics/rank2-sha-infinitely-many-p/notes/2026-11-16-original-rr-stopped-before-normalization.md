@@ -51,3 +51,7 @@ b8c0a892e436474cce5e8bee48fd8ee735b4b3765d027f6013cbe56430e54532
 ## R910 首轮接口失败（16:57 UTC）
 
 新 run43912835484/job133459031944/source d622da0c720cef993a131ad47fc3214e08f771bc 在通用子结式返回转换时触发 RecursionError（35.526秒），尚无RR证书。精确栈为 multi_polynomial.pyx 子结式列表转换到 libsingular 多元环时进入表达式编译；已改用直接 k[x,v][Z] 系数向量并仅读取线性项两系数，完整原数学门不变。详见 R910§7；不靠提高递归上限掩盖该转换。
+
+## 后续规则同步（17:06:56 UTC）
+
+实际终端pull在17:06:25仍报无可用环境；公开只读run43914883095/job133466239198成功执行git pull --rebase，head e3036ead5cb7310d0df3cd6d86f68496e2fa817d，对比53a72e4c8d98aeb1e289ba8dab2598c65ab6c88e，两README差异为空，原两blob不变。该head完整题树bd208553c16df55639f2a98877d5e10c1a639e9a有2546个blob、34353361字节，无超过5MB文件，仍只有3个既有真实输入块。下次实际pull最迟17:50 UTC；本地副本未恢复。
