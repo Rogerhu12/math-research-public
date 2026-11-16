@@ -1,0 +1,68 @@
+{
+  "argv": [
+    "--core",
+    "source/2026-11-15-r150-original-global-projection-polynomial-core-789f.py",
+    "--generator",
+    "source/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--primitive",
+    "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--out",
+    "/tmp/literature_whole_w127_789f/actual-root63",
+    "--seconds",
+    "90",
+    "--memory-mib",
+    "768"
+  ],
+  "dateUTC": "2026-11-16",
+  "elapsedSeconds": 0.884472256002482,
+  "executionKind": "completed-local-process",
+  "exitCode": 0,
+  "formalResultPath": "topics/invariant-subspace-problem/results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md",
+  "format": "r150-original-whole-w-prime127-root63-local-execution-v1",
+  "inputs": {
+    "originalPrimitive": {
+      "bytes": 65159,
+      "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+    },
+    "physicalGenerator": {
+      "bytes": 15328,
+      "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+    },
+    "polynomialCore": {
+      "bytes": 34432,
+      "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+    },
+    "source": {
+      "bytes": 18570,
+      "sha256": "6a80e5a873320a4794ce8c61572b0b828c53fdf6a92b51b11265bd7f23d82ae5"
+    }
+  },
+  "mathematicalArraysCommitted": false,
+  "newArtifactUploaded": false,
+  "originalPrimitiveDecoded": {
+    "bytes": 158741,
+    "sha256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+  },
+  "peakRssKiB": 45440,
+  "pythonExecutable": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "pythonFlintVersion": "0.9.0",
+  "semanticBinding": "44668fb72622a562436ea84dad1c82d9a6cbd78db08b2def3ae85ce77947822b",
+  "source": {
+    "blob": "4e8591869abab1ba75b3c388e6f664cf530f7698",
+    "bytes": 18570,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-whole-w-prime127-root63-projection-789f.py",
+    "sha256": "6a80e5a873320a4794ce8c61572b0b828c53fdf6a92b51b11265bd7f23d82ae5"
+  },
+  "status": "completed",
+  "temporaryPointData": {
+    "bytes": 125275,
+    "path": "/tmp/literature_whole_w127_789f/actual-root63/original-whole-w127-root63-point-data.json",
+    "sha256": "0795447edab5684100db0d3b82a08446b2059737a5a4c8ba8a55b204642114ad"
+  },
+  "temporaryRawReceipt": {
+    "bytes": 3208,
+    "path": "/tmp/literature_whole_w127_789f/actual-root63/original-whole-w127-root63-projection-receipt.json",
+    "sha256": "041d65424636c7db5539bc7b0b3b1b4003642f07e82af55266505ea4edf3de2b"
+  },
+  "workingDirectory": "/tmp/literature_whole_w127_789f"
+}
