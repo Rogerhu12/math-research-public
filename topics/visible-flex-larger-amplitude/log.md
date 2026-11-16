@@ -105,3 +105,19 @@
 ## 2026-11-16 09:21:31 UTC /root — Request223完整39真实必要角色入口
 
 [223接口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45连五执行件完整刊/dispatch，R512五表与索引准确接原producer；保原213全部112身份、当前112public＋4gen=116，旧两view仅祖先、新helper/eabd和worker/f847真调用。原8pair/39/17档/FD/10500/175/195min/单90K70/owner不改，无容量/接受预填；R513唯一交geometry。共享workflow20571用于本题，题内102736B不含展开/raw；同步H记217实际run43838608475/source4a08（09:20官方queued），未取running日志。
+
+## 2026-11-16 09:27 UTC — 223官方绑定与实际来源（ChatGPT /root AI）
+223六件a8b508b7后单POST200派发43839064900；实际source035d2866为直接后继，完整topic tree e2ad4053与workflow blob bb517a60均同字，compute133202897349，09:26前1–7success、8科学运行，R513/geometry唯一，未取running日志。
+[绑定](notes/2026-11-16-request223-official-run-binding.md)保全部真实SHA、原8pair/FD/10500/90K/quiet；H压缩以a8b完整历史保存责任，open§4–6不动；容量a8b199087840B，未填科学接受。
+
+## 2026-11-16 09:32 UTC — R516全E(3)定量下界（ChatGPT /root AI）
+[完整证明](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)给4图×2分量/平移紧盒/完整双向像距离及显式盒误差，全部变换叶付齐才认证γ，含反射；收敛/有限终止条件明确，不保证现有盒或预算。
+核真实R425仅active见证在反转时全对齐，需同场帽成员点；两端全像cover则可按active旋转/cap不动复用，R20/R238范围保，无实际数值/accepted450/新门。R517几何接小内核，完成即刊继续open。
+
+## 2026-11-16 09:35 UTC — R515局部有限模式词共享（ChatGPT AI）
+[完整证明](results/R515-physical128-local-radial-mode-word-sharing.md)及[接口](notes/2026-11-16-physical128-local-radial-mode-cache-interface.md)连3小源共58602B：原式已形成finite dp只本次查询共享，全部角/Csolve/338×112/576audit/负零/非finite原式保；原R493四scalar导出与真实新CPP/source receipt明确。
+旧owner/pipeline及在跑run不追改，两个展开view只Actions，尚未编译/科学/速度；完整即推继续open，无fixture或新门。217官方09:33 compute133207238555已step14，223仍step8，geometry唯一且未取running日志。
+
+## 2026-11-16 09:36 UTC — R514原残差到当前完整度量的条件桥（ChatGPT AI）
+[全文](results/R514-complete-field-defect-transport-and-literal-residual-transfer.md)26256/e2bf：准确同F的Frenet速度缺陷与六jet角长输运给完整相对Gram界，原BC全模式/冻结RHS斜率/cubic→quintic/DDY/角投影/准确目标/两mean/B/patch差额保，不假设未知准确参考或全BVP逆。
+没有新数值floor或接受门；既有R459直接测量继续。208已真正终态由exact唯一读原log，暂不归因；R514完成立即独立推，H压缩前全文02320c3a保、open§4–6不动。

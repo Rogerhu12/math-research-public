@@ -24,7 +24,9 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R512](results/R512-complete39-actual-producer-role-context-binding.md)定位213真实producer/formatter六处符号失接：五类表实际带original_/returned/records，RMS索引为original_check_index，旧lookup无别名而跳过。新formatter20883/f79328ed只接准确角色与新身份，原七种完整相等/行序/错误/值保全操作不变；不由未返115134B推实际节省量或必fit。223/R513由root接真实helper/worker/request/全部祖先来源，完整即执行；原98fresh、八批/FD/17档/全部预算和90K70/quiet不变，不冒native/fullDN接受，不盲重跑旧失接入口。
 
-[223完整入口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与generator/plan/recipe/request/workflow完整刊并正式dispatch。真实R512五表/索引接线、原213全部112身份保持，112public＋4gen=116、recipe115；旧213两view只保祖先身份，新helper75639/eabd与worker29678/f847实际调用。原98 fresh、8pair/39query/17档/全部FD及10500/175/195min/90K70/owner保；不扩大/分包必要body，不推速度/摘要必fit或native/fullDN接受。R513唯一终态交geometry，root原日志读取0；正式run/head另记。
+[223完整入口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与generator/plan/recipe/request/workflow完整刊并正式dispatch。真实R512五表/索引接线、原213全部112身份保持，112public＋4gen=116、recipe115；旧213两view只保祖先身份，新helper75639/eabd与worker29678/f847实际调用。原98 fresh、8pair/39query/17档/全部FD及10500/175/195min/90K70/owner保；不扩大/分包必要body，不推速度/摘要必fit或native/fullDN接受。R513唯一终态交geometry，root原日志读取0；[正式绑定](notes/2026-11-16-request223-official-run-binding.md)：run43839064900/source035d2866/compute133202897349，发布a8b至实际035d整topic与workflow同字。09:26前1–7success、8原八批39/FD运行，不预填结果。
+
+[R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[接口](notes/2026-11-16-physical128-local-radial-mode-cache-interface.md)五件58602B完整刊：原4b0569 physical_jets同次调用的dp与角n无关，只复用原式已形成finite Q词，非有限仍原式；全部角/累加/Csolve/338×112/576audit/负零与四scalar导出保。新adapter先真形成R493源再include1/cut3/audit1接新callee，两个展开view只Actions生成；原R501 owner/pipeline仍旧固定tuple，未来真实整链须登记新组件/收据，不能冒当前run已用。未测速度、不改原门/预算，也不把C-based诊断当准确隐式导数。
 
 ## 2. 准确十族候选与完整453→450
 
@@ -73,6 +75,10 @@ R459相对广义谱与准确材料共轭付全t；严格真误差下降、仅upp
 [R508/221](results/R508-live128-scoped-ownership-and-original-input-repair.md)/[接口](notes/2026-11-16-request221-live128-scoped-original-full112-interface.md)已8b352f90、actual43835161762/compute133189859163，R509/exact唯一。334旧pin＋2=336、14科学源全字和所有原输入/门/单钟不变；仅pin缺e、先全stat图再按真实owned证据筛quiet、cleanup单行Python修复。owned改uid/不可读/身份变仍unknown禁读删，不向非登记组发信号，外部sameuid权限错不冒本请求所有。09:07:38官方仍科学step10，不填接受；原完整协议范围仍待本次终态。
 
 [217完整入口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)七件完整刊/正式dispatch：真实222/2d1c底座458＋7public＋8gen=473，原R489/R492/R495/R500/R504明确登记220新族，无展开源入Git。首shared后同原钟一次1440/six/cut重算与level0完整metric/measure；原220精化后按真实accepted level1/2在同一新C测量/比较，8stage各自原scope/独立90K保。原旧/new包围合法交/旧粗fallback、四Loewner/全闭域/材料共轭/全t责任保，同场upper改善不冒真实误差下降。新1800含cut120/close30、metric240/measure300/compare120与900计划都裁原18900+2700；原求解/held不依赖新consumer通过。217当前workflow路径检查明确、原2223120只祖先；清理217新marker/quiet→222repair→220九scope/quiet。R490/geometry唯一终态，尚无科学值或接受预填。
+
+[R516](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)完整证明有限全E(3)覆盖的定量δE下界：4四元数图×2正交分量、完整平移盒、双向成员点对整像球及盒内Lipschitz，全部叶付齐才报γ/Dupper；部分前沿不冒全群。R425完整active/cap终端可生成S0/S1包围，但原见证全在active，反向相位旋转使两向全对齐，须同场真实帽点；circle center≠峰顶，有限帽点仍不保证足够。R20上界/R238定性仍保，未有当前γ/accepted450/实际遍历；R517接小内核，不增原完成门。
+
+[R514](results/R514-complete-field-defect-transport-and-literal-residual-transfer.md)完整条件桥26256/e2bf：同一准确F和目标μ²dx²+A²ρ²dφ²，合法明确σ支的速度缺陷r及只用六jet的角长输运τ给全相对Gram显式界；不先假设未知准确等距参考。原BC全M权/ρ正界、frozen-RHS斜率差、cubic→quintic DDY、有限角/舍入/目标/B/两mean/patch项全部保。尚无实际δ/T/ηC/KN或floor；接点为既有R459同场六jet/闭target/live E，不另重跑独审、不将可选合法V或全BVP逆界添为门，原直接Gram继续。
 
 ## 4. 同一g闭合与真正九冻结450
 

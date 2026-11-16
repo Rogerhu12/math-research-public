@@ -9,7 +9,7 @@
   "sessionScriptSHA256": "0b0406cd92f4db4d1b5e89663cd72d24016baa2d3f2e1710502e780cae1e823c",
   "historicalInputs": [],
   "maximumIdleSeconds": 300,
-  "closeSessionWhenStepsComplete": false,
+  "closeSessionWhenStepsComplete": true,
   "sessionWorkMinutes": 80,
   "workflowHardMinutes": 90,
   "steps": [
@@ -94,6 +94,39 @@
       "budgetOuterPaddingSeconds": 60,
       "receiptPath": "{work}/original-full-bell-exact-support-lift/original-full-bell-exact-support-lift-receipt.json",
       "mathematicalScope": "no candidate returns a truthful prefix; only all three full original E polynomial products permit a characteristic-zero source result"
+    },
+    {
+      "id": "conditional-original-bell-pair-stage-recovery900",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-conditional-pair-recovery-789f.py",
+      "scriptSHA256": "d7a89c29e2f5fe5fbdcad29f9bac0c4c26f7249f4f6347193c18167c19a57a7d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        }
+      ],
+      "argv": [
+        "--parent-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--parent-out",
+        "{work}/original-full-bell-homogeneous-source-prefix",
+        "--out",
+        "{work}/original-bell-conditional-pair-recovery",
+        "--singular",
+        "Singular",
+        "--seconds",
+        "900",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 960,
+      "budgetResumeSeconds": [
+        900
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-bell-conditional-pair-recovery/conditional-original-bell-pair-recovery-receipt.json",
+      "mathematicalScope": "only actual source-complete pair-stage timeout permits one reconstruction; otherwise diagnostic only; whole candidate and all original products/pairs retained, no characteristic-zero claim"
     }
   ],
   "sameJobPolicy": {
@@ -102,9 +135,10 @@
     "exactFollowup": "new independent step id can reuse the same exact out inside this job if time remains",
     "periodicRules": "actual pull and both README identities before every step and publication; also during a long running step before30minutes",
     "sessionDeadline": "refuse to start an attempt unless its whole outer budget plus120seconds fits both80minutes from session start and88minutes from workflow start",
-    "idleWindowSeconds": 300
+    "idleWindowSeconds": 300,
+    "conditionalPairRecovery": "Independent 900-second step; parent actual terminal source-complete/pairs-incomplete log is the only reconstruction gate. Parent out remains unchanged. Session deadline unchanged."
   },
   "largeDataPersistenceAllowed": false,
   "computationalOutputsInRepositoryAllowed": false,
-  "mathematicalProgramStatus": "Prepared source only. The finite-field search and E lift have not been executed. No emptiness, rank, source degree or positive identity is prefilled."
+  "mathematicalProgramStatus": "Parent complete original program is actually running in run43832009393; this new independent conditional recovery has not executed. No characteristic-zero conclusion."
 }

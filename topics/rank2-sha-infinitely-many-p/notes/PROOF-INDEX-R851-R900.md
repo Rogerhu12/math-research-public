@@ -174,3 +174,15 @@
 
 
 - [R874§12](../results/R874-original-cusp-integral-hecke-ideal-and-low-degree-return.md)：当前λ目标准确vnew=(−34−17a+11a²)/3，λ=e aβ、β=(a²+2a+7)/3且Normβ2；小全局最小模型参数119−18a²。首项一尺度只在唯一范数2位非最小，全部惯性好r>3返回仍整单位；原Néron/首β保留，未认实际Hom。
+
+
+- [R878](../results/R878-original-first-factor-level867-coordinate-certificate.md)：原第一F在X10404→B867的18覆盖上，w4常值由与R交换及无理3挠排零，整个S3为真sign；V=η12y、H=f³η12下降原M12。真实germ及8ΔC³=H B²(A²−17ΔB²)²保E2/2、6与17，低末端204k+612/全末端612(k+6)；同M2乘积基可执行，不预设Manin1或degree1296，独立公开producer已启动。
+
+
+- [R874§12.1](../results/R874-original-cusp-integral-hecke-ideal-and-low-degree-return.md)：β³−7β²+5β−2给真整幂基OF=Z[β]，相对(1,a,t)换基det−1。原全部归一化H_u/λ系数的Z-模准确β⁻¹OF，所有系数乘2整、唯一负赋值位恰前述范数2位；Néron输入系数模为OF，未认形式积分或实际Hom。
+
+
+- [R879](../results/R879-original-v66-heat-and-degree22-trace-defect.md)：原V66的R855完整第一次热连接后，准确Tδ,22(V[1])=−σ22(19X³−119bX²+56b²X+32b³)/21。全D²与零阶项保；原三点变分−2a²∂a+12b∂ρ直接读出非零四坐标，不能把TδV=0横向求导成零。原B(V)=0不授热伴随中央，续同D行的完整trace缺陷。
+
+
+- [R872同因子提升与二近支](2026-11-16-r872-factored-corrector-last-row-and-residual-branches.md)：真正同预算Pfact在全M/p³下才获同J/p²，原ER|C的s−1首项−11、E²/E³的28/−36与同R三重零准确联立。若F|R，R=tFH的两近支系数(7±√−17)/6，零链亏量2或3；实际条件2h≤B_D·C−κ−3减严格f0而非总纤维。未判F∤R及完整K1尾像。

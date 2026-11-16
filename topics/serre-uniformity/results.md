@@ -242,3 +242,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R882 原循环7的17系数在同一辅助素点实际完成**：[正式结果](results/R882-certified-original-cyclic-seven-common-place-coefficients.md)。run43839076365/sourcecb2385cc，38.702301378s；p1000000753处2058旧选行det377243004、完整新逆两侧及全2200×17关系通过。同一准确系数合法运输，final717768f0/artifact14211339984/3adfa484；目标Artin代数/九范数/支持/height仍未算，旧norm与q尾不重。
+
+
+- **R885（纸证完成，实际新算术待运行）**：[原单行伴随及完整Artin纤维范数](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)。原加权界deg c_i≤i允许273真实不同节点；八个旧K/逆只补W^272e0，其余节点只新charpoly。单左行递推及完整b272=0认证原adj行；整个272维Artin源与8维对应环上用真实单位/xgcd/Berkowitz/全272乘回，一次charpoly给九范数，不删非半单分量。原dual7、两条框架、未展开t标量及nonp均保留。 SHA256 `1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7`。

@@ -116,3 +116,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 **R882同处17系数实际已成**：[正式结果](results/R882-certified-original-cyclic-seven-common-place-coefficients.md)。run43839076365/job133202998079/sourcecb2385cc，38.702301378s；p753处旧2058行det377243004、新逆双侧通过、全2200×17回代。final717768f0/17列5c79985f/artifact14211339984/3adfa484（Nov17 09:24）；旧344MBcarrier与q/norm原算术不重。目标整纤维/九Norm/η支持/height仍未做。
 
 **R880首scope激活**：[执行方法](notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md)，coreca46e8f9/wrapper3a888af1，复用六组944原件，先共同cusp418再269→146→D*418及Qf。字段chosen_local_parameter按实际源修正；新秩/核/run待实际读，不预填五Lj或height。
+
+
+**R885（纸证完成，实际新算术待运行）**：[原单行伴随及完整Artin纤维范数](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)。原加权界deg c_i≤i允许273真实不同节点；八个旧K/逆只补W^272e0，其余节点只新charpoly。单左行递推及完整b272=0认证原adj行；整个272维Artin源与8维对应环上用真实单位/xgcd/Berkowitz/全272乘回，一次charpoly给九范数，不删非半单分量。原dual7、两条框架、未展开t标量及nonp均保留。
