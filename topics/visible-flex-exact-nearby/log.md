@@ -159,3 +159,11 @@ main ea13/bca655de全部30712B与数学params/5max/m1,2/完整193mean/四Schur�
 先推窄修 package 98924967bf87b1fa30f8dd367f932511235355a8，再独立提交同一 workflow；此前 43851901811/1 与只读诊断 43852589080/1 均 scientific_children_started=0、全部五 target 未始、completed=[]、无 consumed marker、lostmath=0，失败边界已先 685b8a08 / 9ed93794 完整登记。新 workflow d8b2d94a73cbfb3c13c6693d2ca77402f93b90a6 / 2929B / SHA256 c526464fa567773efbd4bd42e6e619a9f9b0b6ed0ddf3a9f9251a295a12258fa 只固定 manifest 9b52fa3ceafb51d65d946bcdfbd58ce323f1fc9aa8b72432452b3729c975c3b4 和已审 worker a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c；readonly_diagnostic_only=false。科学 source bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1 及全部五量、m=1/2、域、mean、193与96、全失败保存、0旧重算和0finite矩阵均原样。
 
 启动前 fresh Git-tree f932e75b993a1ce7df209af3cde438d598719414 topic=199543841B，完整输出预算128000B+reserve120000B+本次文档裕量7000B≤200000000B；worker 在真正 child 前再核同预算，所有实际pull逐次核两README并保回执。本提交只授权尚未执行的既定数学，不提前声称预检/尾门通过。README核 f932e75b993a1ce7df209af3cde438d598719414；后续按实际小完整输出判定。
+
+### 2026-11-16 11:07:02 UTC — GMR：原局部 mean/γ 桥已成，只读复用并纠正 stale open
+
+独立结论 bb72e319a7143c098ac0b4747928552da55b6384 /12615B /SHA256 f03b79bc5577a4f6e8bd5fe333916b7b5abad7f93250ac008a5e8ccaa0faa7e2。root亲读完整小proof、原3497B节点679a1d15、14,247B合同40d7a4f7和原support d4f887d6完整取回后的 full_input_mean_gamma_bridge；两完整index原字核身份，4copy逐对象等于已存FA2/WGS c，附录12records原字等于actual，8名称/顺序/公式逐核，parent十二输入/五module map全等，续算input prior_node_mean_gamma_bridge=00e1566b0a0641f5f92e04c6b5fe20b108f4e314be181afa39e17614d748ba48。Tail/Phase独立复核同结论。
+
+43827705714原failure停node24，第一node桥complete=true/failure=null/eight events；绝不把run改写success，也不把该桥误作未算。43831678361只补free map suffix/四端/whole，桥原SHA不变。mean_local_lower仅|m|下界；实际root r_*不替r_+，实域[rc,r+]∩原germ、普通V[1][0]、原cut row790与半径/strip资格全保。无对称盘或额外scope。本次没有调用数学/Arb或旧producer，0新数，禁止再launch旧八量。
+
+为保持H≤10KB，前H 9960B/SHA256 6f79d7844f6177a3c13cc78a2f106de83c4261cb1e7b0d99c8fb7f2ebdfa9693 原字保存至 topics/visible-flex-exact-nearby/notes/2026-11-16-corrected-tail-and-completed-mean-reuse-checkpoint.md（源afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2）；仅已成索引压缩，全部原球/域/失败/lost/恢复/未付义务递归保。两README核 65b6be688c1c758bdf5f160a6f8db4fea4f48d65。WPTV43854566735/1仍待actual；后续继续尚未成的新局部forcing与严格flux/真实finite逆。
