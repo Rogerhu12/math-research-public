@@ -476,3 +476,9 @@
 - artifact14201401009/d83abe95整ZIP2332941B和57产物已纯IO核，final54583705/basis7f2ee6a0/kernelb36915cb，必要16源carrier80122621；原569成员由runner完整核后选取，不重旧cusp/W/Fourier。
 - R863已推f3ab66c2。R866已修原e_i含82²重复尺度，正确H=F展开、微分82H，c0仍固定ξ并共轭s；真R864来源已交exact接活跃消费者。H逐字归档后压缩重复旧接口，保全部原规范与R862四阶段completion-only续源。
 - 本push规则：本地真实pull至742fbf0e9a9a5e0a1b9b9cee861ee8f564e8af34（2026-11-16T05:57:20.931101+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:59 Asia/Taipei — serre-public-astra-20261115
+- R866修正尺度后的纸证0ecc3760已成：真实R864基给H=AB、127阶Q、C=Q^-1S_JQ并全HC=SH，P=Q^-1diag(1或1/s)给完整Q固定基。c0固定ξ仍共轭s，H直接原F展开/微分82H，e73负运输，不预填数值。
+- R862四个已成stage的completion-only修复激活，执行coredca646e3/wrapperee9bcb64/request7b436af7；旧4656250c数学tag、四stage及inventory原字节保留，新run仅load/finish。root读完整变更与实际旧失败源，不重Norm/12matrix/对应DAG。
+- R864正式结果28f73540已推7d3b606b，真实127基与完整source已交exact接R866 active请求；R865将只消费同一个H/127逆并新增真正T7，不重复Q下降计算。
+- 本push规则：本地真实pull至674b8d5160d3c6fcb18fdf2507ed2eebe7945bab（2026-11-16T05:59:50.198466+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

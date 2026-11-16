@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：742fbf0e9a9a5e0a1b9b9cee861ee8f564e8af34**（2026-11-16T05:57:20.931101+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[原canonical实际基前H](handoff-archive-2026-11-16-before-canonical-basis-result.md)（9489B/07d424b1），内接全部归档，旧结论/规范/限制继续生效。open归档notes/2026-11-16-open-before-original-Rosati-projector.md。
+**已读规则提交：674b8d5160d3c6fcb18fdf2507ed2eebe7945bab**（2026-11-16T05:59:50.198466+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[原canonical实际基前H](handoff-archive-2026-11-16-before-canonical-basis-result.md)（9489B/07d424b1），内接全部归档，旧结论/规范/限制继续生效。open归档notes/2026-11-16-open-before-original-Rosati-projector.md。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -43,7 +43,7 @@ R824[501](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：artif
 
 **R864实际127基已成**：[正式结果](results/R864-certified-original-canonical-holomorphic-basis.md)；run43813041008/source3e31c973，1.090806223s/40stage，rank19、原0..18非零minor、自由行19..145 identity与两图20×127全核。final54583705/kernelb36915cb/basis7f2ee6a0/config670acc38。artifact14201401009/d83abe95至Nov17 05:53，16源carrier523475B/80122621；root整ZIP/57产物实际SHA核。保σ图vf/e73加a1/ν82原尺度，非原Q固定基。
 
-**后继RR/Hecke**：FM a5d65aa4完整两图有限kernel；YP bdbb6cc5仍需128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。exact续R866真实cY/Q-fixed，ordinary续R865原T7，共用同一新560×127H和127逆。原e_i已含82²，H不得再缩放，微分coeff恰82H；Q-fixed/Hecke/period未预填。
+**后继RR/Hecke**：FM a5d65aa4完整两图有限kernel；YP bdbb6cc5仍需128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。exact续R866真实cY/Q-fixed，ordinary续R865原T7，共用同一新560×127H和127逆。原e_i已含82²，H不得再缩放，微分coeff恰82H；R866纸证[真Q下降](notes/R866-original-holomorphic-semilinear-action-and-Q-fixed-basis.md)0ecc3760：C=Q^-1S_JQ、全HC=SH与C²=I；P=Q^-1diag(1或1/s)给完整Q固定基并全560检查。仅新127块，原H尺度/ξ固定+s共轭/e73负转换保留，实际矩阵尚未执行。
 
 ## 真正全p及原高度缺口
 
@@ -53,7 +53,7 @@ R851 afe25117给充分大p原g单位；R855 efde3e02在p>104190883给同h增长�
 
 **R859/R861**：b8218a4b用原R390完整BT/稳定格给原目标到R728显式模型的实际prime-to-p同源、同h content/首余项运输。3461121b给原r0/α、r6=b/16、v真实投影、u=r/v单位；f_h=u v^(1−h)逆different全基，β_h=v^-hΩ_h、Néron指数(p−1)h和整参数v^-h c*Y_h。深盘G_h是真原q拉回，但M_h/首余项/Manin/KS及height仍未得。R863 fbac90d2已证原R592全Weyl与非split扩张U*=(Sym^(p+1)det^-1/W3)*准确对应；原CM torus全部μ_k=(ζ^(k+1)−ζ^(2k+2))/((k+1)s)，0≤k≤p−2，给π^(p−1)模下完整C(−log(1−π)Θ) cusp相位。只是原cusp，仍需坏模型专化与q-normal比较；sigma续R867真实Drinfeld de Rham源。
 
-**R862**：纸证afa1e0d0的原七pull–push D_A与P_A=Norm(X−a_A)给E_A/F_A；E_Aφ*=0，非YP eη/d/N。首run43812454495/source dd583275已成四stage：norm0d0d4b6f、12matrix4859b1ce、23node对应dc817307、audit348a9dcf/stages06ec96dd；exit1仅finish期待文件名被循环name覆盖，实际程序存integral_h_5。artifact14201076909/453f8a21、manifestc96fdd1a全ZIP/12产物已核。ordinary正给completion-only修复，保旧4656250c数学tag与所有stage字节，不重Norm/矩阵。原源R8529+270选R7918保留。
+**R862**：纸证afa1e0d0的原七pull–push D_A与P_A=Norm(X−a_A)给E_A/F_A；E_Aφ*=0，非YP eη/d/N。首run43812454495/source dd583275已成四stage：norm0d0d4b6f、12matrix4859b1ce、23node对应dc817307、audit348a9dcf/stages06ec96dd；exit1仅finish期待文件名被循环name覆盖，实际程序存integral_h_5。artifact14201076909/453f8a21、manifestc96fdd1a全ZIP/12产物已核。completion-only已激活[修复](notes/R862-completed-stages-finalization-only.md)，新执行coredca646e3/wrapperee9bcb64/request7b436af7；保旧4656250c数学tag/四stage/inventory字节，只finish不走旧math。原源R8529+270选R7918保留。
 
 
 原RF e2b87b99/SPa06a80ea/ZA268fa3fb/41S133d64af/41C569aa684完整公式及旧pins在归档，全部继承。保b/s/λ/ζ²一次、CRT6逆、246/82^10/c0c1、I_Z、P0/P1、ν、theta二挠、完整Corr/nonp/splitting。ordinary43/776bitq已Gaussian5排；Shapiro/θ同Σ/C4杯积只R779等闭路不重开。没有完整原height或全p排除。

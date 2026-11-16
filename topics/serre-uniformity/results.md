@@ -182,3 +182,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R863（已证明）**：[原尖点整格的非split扩张与完整首分歧相位](results/R863-original-cuspidal-extension-and-full-first-ramified-phase.md)，SHA256 fbac90d2a89e04496981c6d9091aa98585f859f0dab515f5c66472753d92bb85。准确原Weyl角色加H¹/End_B唯一性给原Λ/pΛ与(Sym^(p+1)det^-1/W3)*的全G同构；原torus平均全μ_k=(ζ^(k+1)−ζ^(2k+2))/((k+1)s)，生成模π^(p−1)的C(−log(1−π)Θ)原cusp相位，保非split扩张与tame规范。没有把cusp相位当q-normal单位或height非零，真实坏模型比较继续。
 
 - **R864实际原127维全纯基已成**：[正式结果](results/R864-certified-original-canonical-holomorphic-basis.md)28f73540b76f2d6c5d17abd688c99616cdcd2bbbb90630ab562ec590d1ce50cb；run43813041008/1.090806223s/40stage，原20×146秩19、0..18子式真实非零、自由行19..145 identity、两图20×127全核及全部V1/normal回代。final54583705/kernelb36915cb/basis7f2ee6a0；原K全纯部分完全取得，原Q下降/YP亚纯核/period/height未成。真16源carrier80122621与全部57产物只保一日artifact；原数学不重。
+
+- **R866（准确执行证明已成）**：[原全纯微分的真实半线性作用与Q固定基](notes/R866-original-holomorphic-semilinear-action-and-Q-fixed-basis.md)，SHA256 0ecc37602135f9605e52e667a9e180215213772192f09897dce33026030a96f9。真实R864基与旧完整560行给H=AB，原minor内选127阶Q，C=Q^-1S_JQ且全HC=SH识别真正C·barx。P=Q^-1diag(1或1/s)给完整Q-fixed基，原ξ固定/s反变/e73负运输及ν82保留；e_i已含82²、H不再缩放。数值C/P/127逆尚待公开计算，后继Hecke复用同块不重算。

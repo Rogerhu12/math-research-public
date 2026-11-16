@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""The original A projector from the completed R791 Hom correspondence.
+"""Finalize the four completed original R862 projector stages.
 
-No old Hom, period, degree or Galois solve is repeated.  The new arithmetic is
-one exact degree-six norm polynomial and its action on the old 12-row matrix.
+The first run computed every mathematical stage but shadowed the program's
+filename.  This repair preserves all old bytes and their old mathematical tag;
+its own execution source is separately recorded.  It performs no new arithmetic.
+The original mathematical methods remain below but run() never calls them.
 """
 import argparse
 import gzip
@@ -18,6 +20,7 @@ RESULT = "R862-original-Rosati-projector-and-integral-correspondences"
 FINAL = "p41-original-Rosati-projector-and-integral-correspondences-certificate.json"
 PREFIX = "R862-original-projector-"
 REPOSITORY = "Rogerhu12/math-research-public"
+COMPLETED_CORE_SHA = "4656250c7fcd86c9e6d36a4c94925979b27cc4ab54e0cb1299e6972319598a86"
 BASE = ("result", "run_id", "source_commit", "core_sha256",
         "manifest_sha256", "configuration_sha256")
 STRATEGY = {
@@ -257,6 +260,11 @@ class Job:
         self.config = read(args.config)
         assert self.config["result"] == RESULT and self.config["p"] == 41
         assert self.config["core_sha256"] == sha(__file__)
+        self.completed = self.config["completed_arithmetic_source"]
+        assert self.completed["core_sha256"] == COMPLETED_CORE_SHA
+        assert self.completed["run_id"] == "43812454495"
+        assert self.completed["source_commit"] == "dd58327584065e20e6106ec112ddb1b0b50a67a9"
+        assert self.completed["manifest_sha256"] == "c96fdd1ac702e0e10fb0560797033a37f4c2bee44d1ac4aed6424f6dd7b92ece"
         assert sha(args.proof) == self.config["proof"]["sha256"]
         self.output = Path(args.output)
         self.output.mkdir(parents=True, exist_ok=True)
@@ -272,7 +280,7 @@ class Job:
         assert self.descent["original_q_alpha_or_c1_changed"] is False
         assert self.descent["all_original_F0_directions_covered"] is True
         self.tag = {
-            "result": RESULT, "source_sha256": self.config["core_sha256"],
+            "result": RESULT, "source_sha256": COMPLETED_CORE_SHA,
             "p": 41, "proof": self.config["proof"], "strategy": STRATEGY,
             "source_identity": self.source.identity,
             "carrier_identity": self.config["carrier_identity"],
@@ -458,9 +466,9 @@ class Job:
             numerator, denominator = map(int, item["degree_zero_coefficient_dj_over_d0"])
             p, q = 2*denominator+numerator, denominator
             assert 1 <= j <= 5 and p > 0 and q > 0
-            name = "integral_h_" + str(j)
+            node_name = "integral_h_" + str(j)
             nodes.append({
-                "id": name, "op": "original_symmetric_correspondence_difference",
+                "id": node_name, "op": "original_symmetric_correspondence_difference",
                 "first": {"coefficient": str(q), "operator":
                           "q_R^dagger*(1+T^j)^dagger*(1+T^j)*q_R", "j": j},
                 "second": {"coefficient": str(-p), "operator": "D_A"},
@@ -470,7 +478,7 @@ class Job:
                 "individual_g_R_Lplus_definition_assumed": False,
                 "symmetric_operator_defined_over_Q": True,
             })
-            outputs.append({"j": j, "p": str(p), "q": str(q), "node": name})
+            outputs.append({"j": j, "p": str(p), "q": str(q), "node": node_name})
         return self.put(name, {
             "norm_polynomial": self.stage_spec("norm-polynomial"),
             "completed_Hom_matrix_action": self.stage_spec("completed-Hom-matrix-action"),
@@ -496,19 +504,26 @@ class Job:
         assert len(rows) == 4
         digest = fingerprint(rows)
         name = PREFIX + "stage-manifest-" + digest + ".json.gz"
-        atomic(self.output / name, {
+        inventory = {
             "result": RESULT, "complete": True, "configuration": self.tag,
             "files": rows, "completed_math_stage_count": len(rows),
             "only_new_mathematical_stages_listed": True,
-        })
+        }
+        assert plain(self.completed["stage_manifest"]) == spec(self.output / name)
+        assert read(self.output / name) == inventory
         norm = self.cached("norm-polynomial")
         cert = {
             "result": RESULT, "complete": True, "configuration": self.tag,
             "source_audit": self.stage_spec("source-audit"),
             "norm_polynomial": self.stage_spec("norm-polynomial"),
             "completed_Hom_matrix_action": self.stage_spec("completed-Hom-matrix-action"),
-            "integral_correspondence_program": self.stage_spec("integral-correspondence-program"),
+            "integral_correspondence_program": plain(self.completed["integral_correspondence_program"]),
             "stage_manifest": spec(self.output / name), "completed_math_stage_count": 4,
+            "completion_core_sha256": sha(__file__),
+            "completed_arithmetic_source": self.completed,
+            "old_four_math_stages_and_inventory_preserved_byte_for_byte": True,
+            "new_norm_matrix_or_correspondence_arithmetic_executed": False,
+            "original_shadowed_program_filename_preserved": True,
             "actual_d_A": norm["d_A"],
             "original_canonical_A_Rosati_projector_as_expression_certified": True,
             "actual_positive_integer_multiple_and_norm_polynomial_computed": True,
@@ -528,10 +543,23 @@ class Job:
         return cert
 
     def run(self):
-        self.audit()
-        norm = self.norm_polynomial()
-        self.old_matrix_action(norm)
-        self.correspondences(norm)
+        # This repair only finalizes the four completed original stages.  It
+        # cannot fall back to arithmetic if any completed source is missing.
+        assert fingerprint(self.tag) == self.completed["configuration_sha256"]
+        keys = ("source_audit", "norm_polynomial", "completed_Hom_matrix_action",
+                "integral_correspondence_program")
+        rows = []
+        for key in keys:
+            row = plain(self.completed[key])
+            value = read(bound(self.output, row))
+            assert value["complete"] is True and value["result"] == RESULT
+            assert value["configuration"] == self.tag
+            rows.append(row)
+        assert self.completed["integral_correspondence_program"]["file"] == PREFIX + "integral_h_5.json.gz"
+        index = read(bound(self.output, self.completed["stage_manifest"]))
+        assert index["configuration"] == self.tag and index["complete"] is True
+        assert index["files"] == sorted(rows, key=lambda row: row["file"])
+        assert index["completed_math_stage_count"] == 4
         return self.finish()
 
 
@@ -563,6 +591,8 @@ def main():
         "result": RESULT, "source_sha256": sha(__file__),
         "complete": code == 0, "process_exit_code": code, "error": error,
         "configuration": None if job is None else job.tag,
+        "completed_arithmetic_source": None if job is None else job.completed,
+        "new_mathematical_arithmetic_executed": False,
         "certificate_sha256": None if cert is None else sha(output / FINAL),
         "seconds": time.monotonic() - started,
     }

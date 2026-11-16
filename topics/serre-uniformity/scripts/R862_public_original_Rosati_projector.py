@@ -33,6 +33,7 @@ INVENTORY = PREFIX + "original-source-inventory.json"
 INPUT_RECEIPT = PREFIX + "retained-inputs-receipt.json"
 BUNDLE = PREFIX + "retained-original-inputs.tar.gz"
 CORE = "R862_original_Rosati_projector.py"
+COMPLETED_CORE_SHA = "4656250c7fcd86c9e6d36a4c94925979b27cc4ab54e0cb1299e6972319598a86"
 PUBLIC_IO = "R858_public_original_p41_single_Z.py"
 PUBLIC_IO_SHA = "fb77d8fb452a5efbc2cc8e9b7af8a090813ebd9c9e8fb416ee62ea09be88c8ab"
 TRANSPORT_PINS = {
@@ -131,7 +132,7 @@ def load_io(directory=None):
 
 
 def expected_tag(item):
-    return {"result": RESULT, "source_sha256": item["core_sha256"], "p": 41,
+    return {"result": RESULT, "source_sha256": item["completed_arithmetic_source"]["core_sha256"], "p": 41,
             "proof": item["proof"], "strategy": STRATEGY,
             "source_identity": IO.source_identity(item["source"]),
             "carrier_identity": IO.source_identity(item["carrier_source"]),
@@ -291,6 +292,8 @@ def guard(item, request):
     assert item["result"] == RESULT and item["p"] == 41
     assert item["producer_inputs_pending"] is False
     assert item["core"] == CORE and item["core_sha256"] == sha(S / CORE)
+    assert item["completed_arithmetic_source"]["core_sha256"] == COMPLETED_CORE_SHA
+    assert item["resume"]["core_sha256"] == COMPLETED_CORE_SHA
     assert item["wrapper"] == Path(__file__).name and item["wrapper_sha256"] == sha(__file__)
     assert 0 < item["budget_minutes"] <= 300
     assert item["source_IO"] == PUBLIC_IO and item["source_IO_sha256"] == PUBLIC_IO_SHA
@@ -316,11 +319,60 @@ def manifest(out):
         "manifest_sha256": sha(Path(out) / MANIFEST), "file_count": len(rows)})
 
 
+def review_completed_source(item, folder, completed_folder):
+    """Only metadata and SHA checks for the four already completed stages."""
+    folder, completed_folder = Path(folder), Path(completed_folder)
+    resume, completed = item["resume"], item["completed_arithmetic_source"]
+    assert completed["core_sha256"] == resume["core_sha256"] == COMPLETED_CORE_SHA
+    for key in ("result", "run_id", "source_commit", "manifest_sha256"):
+        assert completed[key] == resume[key]
+    assert resume["run_id"] == "43812454495"
+    assert sha(folder / MANIFEST) == resume["manifest_sha256"]
+    assert (folder / MANIFEST).stat().st_size == resume["manifest_bytes"]
+    data = read(folder / MANIFEST)
+    entries = {row["file"]: plain(row) for row in data["files"]}
+    assert len(entries) == len(data["files"]) == resume["manifest_file_count"]
+    for name in ("run-receipt.json", "public-actions-input.json", "core-receipt.json"):
+        bound(folder, entries[name])
+    run, public, core = (read(folder / name) for name in
+        ("run-receipt.json", "public-actions-input.json", "core-receipt.json"))
+    assert run["source_commit"] == public["source_commit"] == resume["source_commit"]
+    assert str(run["workflow_run_id"]) == str(resume["run_id"])
+    assert public["source_repository"] == REPOSITORY
+    assert public["core_sha256"] == core["source_sha256"] == COMPLETED_CORE_SHA
+    assert public["wrapper_sha256"] == resume["wrapper_sha256"]
+    assert run["complete"] is False and core["complete"] is False
+    assert run["process_exit_code"] == core["process_exit_code"] == 1
+    assert run["core_receipt_sha256"] == entries["core-receipt.json"]["sha256"]
+    assert core["certificate_sha256"] is None
+    assert "FileNotFoundError" in core["error"] and "integral-correspondence-program" in core["error"]
+    tag = expected_tag(item)
+    assert core["configuration"] == tag
+    assert fingerprint(tag) == completed["configuration_sha256"]
+    original_job, repaired_job = stable_job(public["job"]), stable_job(item)
+    del repaired_job["completed_arithmetic_source"]
+    repaired_job["core_sha256"] = original_job["core_sha256"]
+    repaired_job["wrapper_sha256"] = original_job["wrapper_sha256"]
+    assert repaired_job == original_job
+    keys = ("source_audit", "norm_polynomial", "completed_Hom_matrix_action",
+            "integral_correspondence_program", "stage_manifest")
+    for key in keys:
+        row = plain(completed[key])
+        assert entries[row["file"]] == row
+        value = read(bound(completed_folder, row))
+        assert value["result"] == RESULT and value["complete"] is True
+        assert value["configuration"] == tag
+    assert completed["integral_correspondence_program"]["file"] == PREFIX + "integral_h_5.json.gz"
+    index = read(completed_folder / completed["stage_manifest"]["file"])
+    assert index["files"] == sorted([plain(completed[key]) for key in keys[:-1]], key=lambda row: row["file"])
+    assert index["completed_math_stage_count"] == 4
+    return entries
+
+
 def restore(item, out):
     resume = item.get("resume")
-    if resume is None:
-        return
-    assert resume["result"] == RESULT and resume["core_sha256"] == item["core_sha256"]
+    assert resume is not None
+    assert resume["result"] == RESULT and resume["core_sha256"] == COMPLETED_CORE_SHA
     out = Path(out)
     folder = out.parent / "R862-resume-metadata"
     folder.mkdir(parents=True, exist_ok=True)
@@ -332,33 +384,23 @@ def restore(item, out):
         entries = {row["file"]: plain(row) for row in data["files"]}
         assert len(entries) == len(data["files"]) == resume["manifest_file_count"]
         assert set(archive.by_name) == set(entries) | {MANIFEST, REFERENCE}
-        for name in ("run-receipt.json", "public-actions-input.json"):
+        for name in ("run-receipt.json", "public-actions-input.json", "core-receipt.json"):
             row = entries[name]
             archive.extract_bound(name, row["sha256"], folder / name, row["bytes"])
-        run, public = read(folder / "run-receipt.json"), read(folder / "public-actions-input.json")
-        assert run["source_commit"] == public["source_commit"] == resume["source_commit"]
-        assert str(run["workflow_run_id"]) == str(resume["run_id"])
-        assert public["source_repository"] == REPOSITORY
-        assert public["core_sha256"] == item["core_sha256"]
-        assert public["wrapper_sha256"] == item["wrapper_sha256"]
-        assert stable_job(public["job"]) == stable_job(item)
-        assert run["process_exit_code"] in (0, 1, 124, 137, -15, -9)
-        names = [name for name in entries
-                 if name.startswith(PREFIX) and name.endswith(".json.gz")]
-        if all(name in entries for name in (INVENTORY, INPUT_RECEIPT, BUNDLE)):
-            names += [INVENTORY, INPUT_RECEIPT, BUNDLE]
-        if run["complete"] is True:
-            names.append(FINAL)
+        keys = ("source_audit", "norm_polynomial", "completed_Hom_matrix_action",
+                "integral_correspondence_program", "stage_manifest")
+        names = [item["completed_arithmetic_source"][key]["file"] for key in keys]
+        names += [INVENTORY, INPUT_RECEIPT, BUNDLE]
         for name in dict.fromkeys(names):
             row = entries[name]
             archive.extract_bound(name, row["sha256"], out / name, row["bytes"])
-        for name in names:
-            if name.endswith(".json.gz"):
-                value = read(out / name)
-                assert value["complete"] is True and value["configuration"] == expected_tag(item)
+        review_completed_source(item, folder, out)
         save(out / "resume-source-receipt.json", {"result": RESULT, "complete": True,
             "source_request": resume, "all_selected_old_bytes_unchanged": True,
-            "old_stable_job_identical": True, "range_transport": archive.receipt()})
+            "completed_arithmetic_source": item["completed_arithmetic_source"],
+            "old_mathematical_configuration_identical": True,
+            "execution_core_and_wrapper_are_new_and_separately_bound": True,
+            "range_transport": archive.receipt()})
     finally:
         archive.close()
 
@@ -376,6 +418,11 @@ def review_math(item, out):
     cert = read(out / FINAL)
     assert cert["complete"] is True and cert["result"] == RESULT
     assert cert["configuration"] == tag
+    assert cert["completion_core_sha256"] == item["core_sha256"]
+    assert cert["completed_arithmetic_source"] == item["completed_arithmetic_source"]
+    assert cert["old_four_math_stages_and_inventory_preserved_byte_for_byte"] is True
+    assert cert["new_norm_matrix_or_correspondence_arithmetic_executed"] is False
+    assert cert["original_shadowed_program_filename_preserved"] is True
     index = stage(out, cert["stage_manifest"], tag)
     assert index["completed_math_stage_count"] == cert["completed_math_stage_count"] == 4
     files = {row["file"]: plain(row) for row in index["files"]}
@@ -437,6 +484,7 @@ def compute(item, out):
         retained, receipt = sources(item, out)
         config = {"result": RESULT, "p": 41, "core_sha256": item["core_sha256"],
             "proof": item["proof"], "source": item["source"], "inputs": item["inputs"],
+            "completed_arithmetic_source": item["completed_arithmetic_source"],
             "carrier_identity": IO.source_identity(item["carrier_source"])}
         config_path = out.parent / "R862-expanded-config.json"
         save(config_path, config)

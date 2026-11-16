@@ -1,0 +1,28 @@
+# R862：四个已成数学阶段的结尾证书修复
+
+日期：2026-11-16。状态：本次只读取、验证已有字节并补齐结尾证书；不重新执行 Norm、矩阵或对应表达计算。
+
+## 真实停因和已有阶段
+
+首[run43812454495](https://github.com/Rogerhu12/math-research-public/actions/runs/43812454495) / job133117026262，source dd58327584065e20e6106ec112ddb1b0b50a67a9，原core4656250c7fcd86c9e6d36a4c94925979b27cc4ab54e0cb1299e6972319598a86。原输入17个直接成员及270嵌套原叶已全部成功。实际报错发生在finish按“integral-correspondence-program”取文件spec时：correspondences中的阶段变量name被五方向循环覆盖，完整23节点程序实际保存在R862-original-projector-integral_h_5.json.gz。
+
+四个数学阶段及它们的完整inventory在报错前都已原子保存：
+- source-audit：1698 bytes / 348a9dcfd569f38163ce3d50786e8ff0357d07d40d29c7e8be30fe5056e38d4e；
+- norm-polynomial：2374 bytes / 0d0d4b6ffa3a367e1427242b43eacdc8778e4c8f78271d61b800fdaca3da5e37；
+- completed-Hom-matrix-action：1817 bytes / 4859b1ceffa05b5f24935fbb256bc209d9c687668fa79c9ef73e058b2881b5eb；
+- integral_h_5完整程序：2828 bytes / dc817307942163da9fe25f1aeb9789006af68342296988590cbaccf7d08036b0；
+- 四阶段manifest：1886 bytes / 06ec96ddb8057ee268875d91eeccb936ad966393d76c4127630f1b6066f1f420。
+
+原数学configuration SHA256为2bddd0283a540b61fe421414505af6ca9f4a7f1f9d0b91877ca97a9f36bc1b42。该身份和其中source_sha256=4656250c均保持不变；旧产物不重命名、不改字节。
+
+首artifact14201076909共2706898 bytes，SHA256 453f8a21aa0d36918bd042a84bf43e810471fbab679a543b938111091a1809ac；全部12产物manifest1918 bytes/c96fdd1ac702e0e10fb0560797033a37f4c2bee44d1ac4aed6424f6dd7b92ece。主线程已核完整ZIP及12产物；真实core.log与receipt一致，退出1且没有FINAL。
+
+## 仅结尾续接
+
+修复core为26308 bytes/dca646e36abc62bc4ffe0d8b8003d73f1e569e9ccbee288e80cd73211c0c225d；wrapper为30358 bytes/ee9bcb645e6192fb5261a5b3314d371b8238ee4c0e6452433513b1cb1c02dbd5；真实续接request为11265 bytes/7b436af78430913b34be0d4e6370ee04b05526ed4b7d36c3cbedfc26069c58b7。workflow原6132 bytes/8aa8e52c3b768230749cf7ef8429f7b4079fc39804db69c9e16c9ab513530e71不变。
+
+新run方法严格只加载上述四个旧stage和原inventory，再调用finish；已成来源缺失即失败，不能退回数学方法。FINAL直接引用实际旧integral_h_5文件，保它的原字节/原tag。新执行core的SHA和首运行来源另行明文保存，不能伪称数学由新core重新产生。
+
+wrapper从首失败artifact恢复原四stage/inventory和原输入载体，核run/core均exit1、确切FileNotFoundError、旧元数据与原数学配置；修改只允许执行core/wrapper、续接和规则时间。原R852/R791来源、proof、inputs、策略完全相同。旧inventory原字节也不重新生成。
+
+这次修复不补新Norm系数、重跑十二阶算术或重构对应DAG。成功范围仍是同一原A投影；它满足E_Aφ*=0，不代原Y的eη/d/N、完整nonp或height。完整成功证书及实际新run身份待公开结束后登记。
