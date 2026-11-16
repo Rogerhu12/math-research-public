@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WDG：真实fold间隙的正漂移表示及relative angular1..14**。实际$\omega$等于同cut正项加全普通$dr$正积分；完整旧flow比较只依同$d$角导，故可用于drift。真strip cut Cauchy、全有限Bell和正加权平均给ordinary relative$\omega$1..14，无全gap上界/下界重复放大。数值合同只读2个WGS文件35原record，五图80新目标尚未算，0新exp/sqrt/log/ODE；WSJ输入仅除一次阶乘。见[完整证明](results/R133-supplement-positive-drift-and-complete-relative-angular-fold-bounds.md)212385b5。
+
 - **WRTA：完整终端重分解42项实际成功**。公开run43862924830/1全18门、7图42新量完成，75原record/10原scope逐字保，旧重算0/lost0。严格完整C3约1.13089e321；负源完整界1.78069e333，原whole与reduced各得到7.44656e339并真选new，旧2.11631e465完整候选保。全十字有序残差、原C4、同even0/J、两mean/四端/3070jump与新S1/6均支付；不授signed有限逆或最终matching。见[完整42球和执行证据](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2。
 
 - **WSJ：严格区分径向/角向的完整混合jet与fold逆**。冻结$t_0$的逐$(p,q)$系数闭合乘法/有理幂与phase/gap三角递推，纯角行不再引用径向组最大；完整$H^{-1}$四entry和$\mu^{-1}$正因子、$G,w_0$第三径向/完整强迫及自由/genuine第一transport均保。旧phase1..15补absolute edge15；新的relative$\omega$输入只到14且未实算，各slot保同域旧safe fallback。见[完整证明](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8。无新科学执行，不授physical有限逆或最终族。
