@@ -18,13 +18,11 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 ## 3. 数值已付状态与新接口
 
-[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0。原log经observer43769144830完整读核、146源一致；新4通过/旧14复用，首失败43766593534及全部费用保note。
+[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/job132975354666/source6f886c385bdc12c8963d451369c9250fa19a45a0，原146源核同；新4过/旧14复用，首失败及费用全保。6普通α1接受、两网14门true；7model/10primary/SOC0，η .26623355613853394，κC/F57.99651016191997/57.99982504159888。m7gap2.4768679406952238e−5，无返回/无trial，非驻点。
 
-原guard六普通α1接受、两网14门全true；7models/10primary/SOC0，η .2662701215525791→.26623355613853394，κC/F57.99651016191997/57.99982504159888。m7gap2.4768679406952238e−5>1e−9，无返回/无trial，非凸驻点。原values14+末验2/active35.542398458；后继费用见下方，不能沿用这个旧时钟。完整模型/RSS/初始化保原note。
+当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd；池4432/4525版本1/2，B.00025双0；γ17.022353404161095/18.064283125328743，8events/7commits/pending0。γ只下个primary group8 target=max(old,1e−7+γB²)，原SOC/门不改。
 
-当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd，池4432/4525版本1/2，B.00025、双streak0。γ末17.022353404161095/18.064283125328743；8events全commit/pending0，state57aeeb039749c574…（完整hash见实际note）。经验γ仅下一primary的active group8 target=max(old,1e−7+γB²)，本模型冻结；SOC原J/y/RHS、全部门/控制器/159→163不改。
-
-**同m7接口已读结局：身份恢复通过，冷粗值耗尽时间、LP11未进入**：[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)。run43773136836/source403a2fcf…审计完整；objective55d6c627…与field047cef…各同原值，16人工仅复用。唯一新粗value205.448292651s返回后触发原120active门，累计active241.314203844/values15；新J/模型/LP/SOC/接受全0，bank current-model绑定仍pending。首失败与本次prepare累进init293.542781793，进程224.820478542/RSS548340KiB；原最佳点/14门只原独立收据。LP仍10余2但时间已耗，不能重启同epoch或仅加时再付冷恢复；转真正新冷评估和同runner内缓存复用机制。原bank438/学习8/池1/2/B双0不变。
+[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：43773136836/source403a2fcf…完整审计，objective55d6c627…/field047cef…各同原，16人工仅复用。唯一新粗value205.448292651s耗尽120门，累计active241.314203844/values15/LP10，新J/model/LP/SOC/接受0，current-model绑定pending。累进init293.542781793，进程224.820478542/RSS548340KiB；最佳/门仅原收据。**此epoch关闭，不重启LP11或只加时重付冷恢复**；全部失败/费用保留，新任务另计。
 
 ## 4. 纸证与准确剩余门
 
@@ -50,4 +48,4 @@ Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″�
 
 ## 5. 继续
 
-[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)：直接取原metric/height/fixed center，删四角未用jets和被覆盖查询积分；完整当前jets/J/null映射同原。新ordinary身份，不冒旧SHA；旧epoch耗尽。迁移合同已闭、3组9项/实际尚未执行；独立新科学1800s/64LP/160值，含冷费，同cache续J/模型/实步，全部旧费用保留。理论转有限实际ordered总量与全部内部像、同包cap及13同规范，完整自然all-zero路线先按新正字符范围处理。每小时双repo actual pull。主课题全第四、高阶收敛、固定g有限族、全时嵌入/reach/幅度均未完成，继续open下一项。
+[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)及[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接6新Python与独立workflow：原metric/height/fixed center直取，删未用四角jets/被覆盖积分；完整当前jets/J/null映射同原，新ordinary身份。438法向保序迁freshcontext，4support另附，8学习events保祖先；新科学1800s/64LP/160值含输入/prepare/冷值，同进程续J/模型/实步。首两网各14门与timing保本次收据，祖先账不算新计数。3组9新人工/实际尚未执行，随后单独request唯一启动。理论继续有限actual ordered总量/全部内部像/原允许w及13同规范。主课题全第四、高阶、固定g有限族、全时嵌入/reach/幅度欠，继续open，每小时actual pull。

@@ -18,7 +18,7 @@
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/source6f886c385bdc12c8963d451369c9250fa19a45a0，旧140Python/146总绑定、新4通过/旧14复用全部已核。前6普通α1接受两网14门；η.26623355613853394，κC/F57.99651016191997/57.99982504159888，.26/主1e−6/reach欠。当前physical e0ab278d…/bank438 hash1a1d5585…、池4432/4525版本1/2、B.00025双0；γ17.022353404161095/18.064283125328743，8events全commit。
 
-原m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合、无返回/无trial，非驻点。后续四见证单次接口的真实结局见[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：两个评估身份恢复同原，但冷粗值205.448292651秒耗尽原时间，模型/J/LP11/新接受全0；原LP仍10而累计active241.314203844/values15。16人工只复用，原438/学习8/两池/原门不变。该epoch不能重启或延长重做，下一查不可变基元冷成本和同runner持续缓存的新机制；主metric/reach条件仍欠。
+原m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合、无返回/无trial，非驻点。后续四见证单次接口的真实结局见[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：两个评估身份恢复同原，但冷粗值205.448292651秒耗尽原时间，模型/J/LP11/新接受全0；原LP仍10而累计active241.314203844/values15。16人工只复用，原438/学习8/两池/原门不变。该epoch已关闭。[新直接reference设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接全部入口：438+4/freshcontext/祖先γ，独立1800科学秒/64LP/160值含输入与冷费；3组9新人工及首次实际尚未执行，下一单独request，同进程缓存接J/实步。全部14门与metric/reach要求不变。
 
 ### 仍须支付
 

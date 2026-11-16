@@ -162,6 +162,8 @@ def _run_direct_reference_outer(objective,initial,*,known_metric_locations=(),re
         if not(cd['single_grid_admissible_recovery_point'] and fd['single_grid_admissible_recovery_point']):
             return finish('initial-hard-curvature-or-prior-metric-physical-gate-failed')
         meta['initial_paid_scalar_comparison']=objective.compare_initial_paid_scalars(current,cd,fd)
+        meta['initial_actual_two_grid_decisions']={
+            'coarse':compact_with_all_actual_gates(cd),'fine':compact_with_all_actual_gates(fd)}
         accepted=objective.accepted_point(current,cd,fd,{
             'kind':'new-direct-reference-task-paid-current-best-physical-start',
             'source_physical_state_sha256':objective.direct_replay['canonical_physical_state_sha256'],
