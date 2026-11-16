@@ -206,3 +206,5 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 - R892 原双映射新增PARI完整有理基路径；同一mfinit整矩阵/全旧前缀/QQ及最后严格认证全保，不跨基搬旧坐标。新run待取，所有旧run继续；尚无两个真实PASS和真RR，故无consumer请求。
 
 - R893 已把原端点条件rank1传给R814固定good pair的真实增广本原性，并得同单位H的ccan=H Dfun·D、Ccan=H Dfun²。若原c1非零，剩余准确是s=ord Dfun是否0；s>0时原canonical底为零、derived底非零但不能套原strict-kernel结论。继续原wild/tame的同源约束及同目标p非零，不把7993/别ell代入。
+
+- R895不假o(R)=0而由全部同R交数和同P预算给准确N_D−2s=ell+δ_D≥D+16+2j；严格反门直接排原τ1 quartic完整p³。δ_D可负，三长转换必须加s；未覆盖的quartic和全K1/WT/后页继续，不把旧渐近比值单独当线性松弛界。

@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：3df96e126adec26e5b6600f846c2ca2986380027；2026-11-16 14:40:24 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:37:51 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
+- 最近已读规则提交：f4566846d075f25dd9571c92c7e268162bdeafca；2026-11-16 14:43:42 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:43:40 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,8 +11,8 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-pari-original-maps.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–893已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者；deep续同修正全高前缀/WT，theta续四原低多项式，literature续原端点与fixed Heegner的真实增广比较。完整结论即推，子题完接open。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-pari-original-maps.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者；deep续同修正高前缀/WT，theta续四原低多项式，literature续原wild/tame对Dfun增广阶的真实约束。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
 
@@ -63,5 +63,5 @@ quartic余j≤2：j0 H¹0，j1/2≤3/14及两真Laurent行仍保。不能把A4�
 ## 其余原门与同步
 
 R834/836单位块、R837全高前缀和47/12的q1/2缺口保；旧47/8须真第三长，HN=9κ−3χ−12b。R840同Kcorr/Hcorr的两个高前缀、第三3η/第四短行、末同cF³未付；R842 WT上[b0]=−BD−Pr未知，所有negative/moving/十九角/同P保。
-原CM文献范围已核：ACR四维big image和Castella–Do非CM应用不覆盖原输入；新Do双二次预稿正文6.8.5仍要求指定底类非挠，不能拿导言闭主目标。
+[R895](results/R895-original-quartic-same-corrector-intersection-and-small-slack-exclusion.md)不假oR0：全R迫d≥s+2，同P预算得B²≥4s+14+4j；准确N_D−2s=ell+δ_D≥D+16+2j。因此≤D+15+2j排该τ1 quartic p³；δ可负，三长须另加s，不排一般K1。
 O4/O6/O7和旧open继续；有限p/复秩1/局部unit/条件height/别cycle不完成，strict/fine不替通常全Selmer。实际pull与运行状态以上方为准。

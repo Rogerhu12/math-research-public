@@ -419,4 +419,6 @@
 
 - 2026-11-16 14:38 UTC / Astra-rank2-Sha-continue：R892原完整PARI有理基/乘积全维门/双map认证不变性完整即推，新增公开 .github/workflows/rank2-sha-original-maps-pari.yml 执行同P/F；固定同空间/seed/QQ/全前缀与R889，原source/CRT/Sturm全保。数学仅Actions，无输出文件；旧九任务继续，H全档压缩。
 
-- 2026-11-16 14:42 UTC / Astra-rank2-Sha-continue：R893原端点条件下的Heegner本原/增广平方完整即推；root亲核Castella4.1.1/Cor4.6.1/A.2全控制与S1–S4权4范围，保所有单位和可能s>0。PARI run43888054599两job已真实进入数学步骤，无PASS；继续原同源对s的约束与联合非零。
+- 2026-11-16 14:40:24 UTC / Astra-rank2-Sha-continue：R893原端点条件下的Heegner本原/增广平方完整即推；root亲核Castella4.1.1/Cor4.6.1/A.2全控制与S1–S4权4范围，保所有单位和可能s>0。PARI run43888054599两job已真实进入数学步骤，无PASS；继续原同源对s的约束与联合非零。
+
+- 2026-11-16 14:43 UTC / Astra-rank2-Sha-continue：R895全同修正交数与同P有效除子联立后给准确低松弛排除，即推完整证明；root核两种F整除分支、strict f0三成本与整数常数16。二长δ可负/三长另加s范围清楚，仍续WT/联合高前缀；校正上一R893日志为实际提交时钟14:40:24。

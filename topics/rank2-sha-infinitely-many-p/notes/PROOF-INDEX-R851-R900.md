@@ -385,3 +385,5 @@
 - [R892](../results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)：完整M2(867)改用同一PARI全有理基，QQ/同对象/全前缀/固定seed齐；所取乘积实际rank到全维才认完整基，基变换不改原P/F候选或最终Sturm/首项/微分认证。两新producer公开执行，保R889同Newton及旧全部source/CRT，未取得新PASS。
 
 - [R893](../results/R893-original-endpoint-augmentation-square-and-primitive-heegner-comparison.md)：原c1非零时，R891秩一与实际Cor4.6.1/控制使R814固定Heegner提升增广本原，故同D=U Z°、U为增广单位。保全部iota/period/平滑/Euler，准确得ccan=H Dfun·D及Ccan=H Dfun²，ord Ccan=2s、ord_M ccan=s；仍未排s>0，ordinary loc/原canonical非零等价s0，不跨p。
+
+- [R895](../results/R895-original-quartic-same-corrector-intersection-and-small-slack-exclusion.md)：原r3/τ1 quartic的完整同P/R/S p³条件对所有R迫d_D≥s+2；联立同P有效除子4C+3f0+jH−，得B_D²≥4s+14+4j。原精确维数给N_D−2s=ell+δ_D≥D+16+2j（δ可负），故≤D+15+2j真排此候选。三长记号须另加s，未外推全K1或所有临界。
