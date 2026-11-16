@@ -61,16 +61,15 @@ R292/295的真实平台/self条件、R297九矩单位、R298能量、R303全平�
 [R316](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)的原完整H*已付π/self全0而λ+=1，13原列/14目标/37忠实行的实际结果及明确old编号组合保原稿；不能由同profile self0推mixed0或实际负路径。之后R333已进一步给全部pure/self实际截面，见下；当前真正欠的是同一成本的全部内部period与同w joint，有限自然见R429，不重算旧成员、rank7或forcing。
 
 
-### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
+### R333已付全pure/self实际控制；继续同一成本的内部period与规范
 
-[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)消费R329两新MEMBER：C4/C6原R126 old组合及fresh完整原mixed差T/Euler零，旧13列不重。E(U0)=E(R0)维10，零权商0；R323满闭锥+R206/R212两次真实商截面/有限复制/保基准收缩给E(S)=E(U)及紧集C1截面。任何相容整对pure/self可实付，零目标给全Q/全T0；不是全权E(U)=E(R)，也非任意不相容积空间。无需再重C2/C4/C6/rank7/forcing。R336证旧δK的Q严格非0；R340已用新的完整局部E核两列与原E商实际接口支付两flux联合，见下。全mixed/完整period仍欠，Q0不冒Ω0。
+[R333](results/R333-complete-joint-pure-self-membership-and-real-finite-control.md)已消费C4/C6原old组合及fresh完整mixed/T/Euler证书：E(U0)=E(R0)维10，零权商0；两次真实商截面、闭锥、有限复制和全基准给相容pure/self整对的紧集C1实际截面。不是全权E(U)=E(R)或不相容积空间。零目标付全Q/T0，不授Ω0。R336原δK的Q非0，R340改用完整E核两列与原商付两flux。C2/C4/C6、rank7/forcing均已付不重；当前继续完整内部period与同w joint，有限自然见R429。
 
-### R383有限表仍有效；R387/R388已阻断原Gaussian同芽分支
+### R383有限表保留；R387/R388已阻断原Gaussian同芽分支
 
-[R383](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)保实际8/12/镜像母、半母三矩、九self和及J/K；同母常秩IFT与有限N/正核已清原17行、全部十个对称乘积三外矩，18area/T/Ψ/三directed及third同付。原冻结O与R376–380局部门结局保稿，不重做。
+[R383](results/R383-genuine-low-order-profile-fibers-pay-the-final-Gaussian-angular-quotient.md)已保实际8/12/镜像母、半母三矩、九self和J/K，同母常秩IFT/有限N付17行、十个对称乘积三外矩及area/T/Ψ/three-directed/third。旧冻结O与局部门结局见原稿，不重做。
 
-但[R387](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)完整一层给正倍∫(f″²−φ″²)²；在原三矩/弱hook/WP面积/三directed/Ψ同时保持下，合法gauge、incoming与其它真实同Gaussian词不能抵消。[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)保两row不除P，证明同种子连通C²首阶轨道恒f。下一不同端芽/第三结构或有理芽同规范，不同类增行/增频；高阶才动及一般C²机制未排，大κ仅条件于实际已装芽，不继承其它芽wholeE/Morse/period。
-
+[R387](results/R387-positive-j-four-one-history-obstruction-for-resonant-weak-circles.md)的完整一层正余量在原各门保持时不能被合法gauge/incoming/同Gaussian真词抵消；[R388](results/R388-positive-two-row-identity-and-continuous-first-profile-rigidity.md)保两row不除P，排同种子连通C²首阶轨道。只转不同端芽/第三结构或有理芽同规范；高阶才动、一般C²机制未排。大κ仅条件于已实际安装的芽，不能继承其它芽wholeE/Morse/period。
 
 ### 完整H读出已零；整个Q4自然读出已闭，继续实际joint
 
@@ -80,11 +79,13 @@ R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及�
 
 R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。新[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)已实际支付响应F=P_LE与两Λ的joint：原型清零完整成本×n、先盒/固定q后末n、后置校正完整F成本均付；非wholeE0。KX/KM给线性J(U)=E(U)⊕R²并排固定J上的λ+下降。下一准确门是实际C⊕R²联合商截面；fixed两Λ核尚未仿射稳定，不套旧字符排除。
 
-### R327/R330/R437：同一个规范的真实零行与剩余接口
+### R327/R330/R437/R442：最高规范真零行与目标的有限部分
 
-[R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)从完整FY2(u)=I2(u,Yuu)≡0（保原J/真二次左尾）得最高有理P2θ(k)=κI2(Yff,k)/24，θ独立。母列、平台纯x²尾及gap全部杀此行，故完整kerLf上P2恒0，13×2n实际矩阵rank≤12、底十行≤9，仅上界而非余行满射。
+[R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)从完整FY2≡0/真二次左尾得到P2θ(k)=κI2(Yff,k)/24，θ独立并杀整个kerLf；13rank≤12、底十行≤9仅上界。齐次规范不能调两特解类的最高行。
 
-先真正付两个紧period特解kd/ke，再必须付I2(Yff,kd)=I2(Yff,ke)=0；这些值不依赖特解选择，任何齐次核规范不能调。incoming X=Φm*使canonical到清理目标的两值准确加I2(Yff,XΔ)、减I2(Yff,Xfg)，四次项不被旧cubic差分删掉，也不是两自由参数。之后余12行还须同一k、全圆光滑相位/seed和降秩整除，原平台/gap代价保留。
+[R442](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)在R431实际有限简单p/Af根、原正解析prefactor×ψ3端类上，令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，则F′=−pW″。真正G=Lf k的JG,i=∫左端^x pG″保原锚，ell_f(k)=P_f(G)=−ΣFP∫F JG/(Af p²)。简单p根只有双极q_c=−F(c)JG(c)/(2r(c)^4)，准确扣2q_c/ε，无单极；Af点须真JG0/光滑除法，原exp端支付Fk′/p→0。多重零或其它端类需另付；对尚未证明在像的G，FP存在不授period/range。
+
+两真实目标先完整入像，再须P_f(Gd^c)=P_f(Ge^c)=0；同一incoming X准确加ell(XΔ)、减ell(Xfg)，非免费参数。F=−Θ4−x4aAf/6给Af点的局部连接，未证D与最高规范等价。余12行仍须同一k、全圆光滑相位/seed、Smith零行与降秩整除，全部gap/平台代价保留。
 
 ### R389：有理端口两period的真实整包通量与全部零端germ
 
@@ -213,4 +214,4 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 [R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)将R434七条关系合为D_F(x)=c_F(x;(1,x,x²))，原144共同像=kerD，并列七个完整代表含p-only。这里抛物线只作代数代入；真实各根仍用原μ/suffix、wi/ξi/u,p,r和4ai³因子。整个实际C目标可由该模块同一signed成本消去 iff [D_F]=0于Pol≤6/D(kerEval)；formal D非零不等实际无解，尚未计算该真商维数。
 
-D的原路径式是∫[kQβ_n/(4h)+kQ²τ_n/(16h³)]ds后代n=(1,x,x²)，β原起点及全部history、连接段/周期端值保留；未证actual E/O使D0、恒号或可调。实际增强仍须支付同一prototype/J基准，不从signed像授截面。原允许w不改这些Af点门；P2的两个特解兼容另独立。下一真D、Eval余商/144外响应，以及同包self/全period/同一规范。
+R442现在保两种原边项后消β：D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]，只用第二累计history。D恒0 iff该真实三次矩型属于(n0n2−n1²)·Pol1；七系数与十个三次矩逐项映射已列全。未证当前actual E/O使D0、恒号或可调，也未付实际Eval商。原允许w不改Af点门；P2真实目标的FP条件仍独立，尽管伴随通量在Af上是−Θ4。下一同一实际路径的真D/余商与全self/period/规范，保所有prototype/J基准。

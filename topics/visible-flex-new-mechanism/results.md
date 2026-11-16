@@ -264,3 +264,6 @@
 
 
 - **R441：非零c的同锚Wronskian补偿与第二十二个self方向。** [证明](results/R441-nonzero-order-Wronskian-compensation-and-a-new-local-self-current.md)（11906B/SHA140c6de3b3b38c572143cfa135c23bd130148c8b925311f25c20da5a1015ab28）保P常尾、R−S仿射尾和三右常数，V whole尾准确为Wronskian边界0；扣BRτ1/3同清primitive与Af ordered，具体原U*在全部Af根给ur⁴且E/J⁺/C零。formal22、固定镜actual仍16、整镜盲核增第六列r⁴(u−h*r)，全部真实根判据相应五列→六列；r0仍全盲。保actual全基准和同一V的joint C前提，不冒全根已付。无新执行。
+
+
+- **R442：七余量降为第二history三次矩型及最高规范的有限部分。** [证明](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)（16550B/SHA11c852342ec174eaccd65284624c88c8c5d4b6552b27e09cb3410aaeda923388）保M0和周期两种端项，将D准确写C_path(1,x,x²)，D0 iff三次矩型被n0n2−n1²整除。原简单p/Af与exp端类中，真正G=Lf k给最高ell的目标泛函−ΣFP∫F JG/(Af p²)；双极精确扣除、无单极，全部端/gap保留。F=−Θ4−x4aAf/6是全jets身份；不授D/P2等价、range或actual全根已付。incoming两值变化与余12行仍保。无新执行。
