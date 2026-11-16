@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0823-R872-completed-certificate-and-source-interface",
+  "request_id": "20261116-0825-R854-ended-original-precision-state",
   "new_mathematics_executed": false,
   "rules_last_read_commit": "0efd294396688cb5c0905b1d7a299cb4d5ad77ba",
   "readme_sha256": {
@@ -12,19 +12,18 @@
   "reader_sha256": "1370ce20977ffdf62354c9a2898200f408ca2d58093c1277686b2b020884327e",
   "sources": [
     {
-      "label": "R872",
-      "mode": "selected",
+      "label": "R854",
+      "mode": "ended",
       "source": {
-        "run_id": "43830071469",
-        "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
-        "artifact_id": 14207558653,
-        "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
-        "archive_bytes": 146222980,
-        "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
-        "expected_conclusion": "success",
-        "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874"
-      },
-      "files": []
+        "run_id": "43805506433",
+        "source_commit": "dc6ffb07b398e5262d6b1e62dbc72378a163b5f3",
+        "artifact_id": 14207739171,
+        "artifact_name": "serre-global-R854-original-p41-four-responses-43805506433-1",
+        "archive_bytes": 151091181,
+        "archive_sha256": "b0a8babc0eb1e2951e461cde1f47ddf37c1a07a87988ad8a453abf964ff3cf05",
+        "expected_conclusion": "failure",
+        "core_sha256": "1feb579a88879739a250f889ab1818019acb8f1156a0e3f34d57b8524024125f"
+      }
     }
   ]
 }

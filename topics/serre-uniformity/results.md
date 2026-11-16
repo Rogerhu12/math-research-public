@@ -214,3 +214,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R872 原P0 jets与有界两权RR有限核已证明**：[完整方法](notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md)，SHA256 bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2。真rank271给平面局部正规与旧逆转置jets；完整272×418→146、原五Krylov点及Schur给固定χ的418空间。六极方向完整采样界11/23/15/15/25/27，最后18行128核和144补列；准确unit-solve与模值严格区分。新数值核、原t帧与period尚未计算。
 
 - **R875 原tame CM常数与首Cartier因子已证明**：[完整证明](results/R875-original-tame-CM-constant-and-first-Cartier-factor.md)，SHA256 2ba59332a91001d794748f23e26b26c440660023254758fb8fc64790f9843b60。保原六级相位、平坦ω、P2/P3投影半因子和准确周期，得B²R(P†)²=ζ²α²C_p；特征零共轭先消去后原Hasse帧约化。原h1最小条件等价R(P†)≠0且C_(p−3)≠0，未断言常数非零；R706反例、R871三次单位与两旗/q-normal/height边界均保留。
+
+- **R872 原点jets与固定Picard空间实际完成**：[正式结果](results/R872-certified-original-P0-jets-and-fixed-Picard-spaces.md)。run43830071469/job133173089548/sourcea07453ec，299stage/13.596525042s；273jets、146核与rank962/418核完成，finalb2837667、artifact14207558653/b91d6fcc。char0为准确unit-solve源而非已重构系数；五Lj128/144/t帧/height仍开。
