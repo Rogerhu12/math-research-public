@@ -125,3 +125,8 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 [R859](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：原r≡2mod3在H34的剩余域准确F_(r²)，φr²=−r且反交换CM。D_r=Γφ−E×O−r O×E给最高Π两线到H1(E)(1)的整diag(a,−b)同构、det r。5/11的Frob−1/5、−1/11排所有ℓ>3全局H1 torsion；故实际原整shadow的任一ℓ部分非零即证同Zorig及原generic trace非零。完整点公式3S=Σ原c Σ_k[ω^k]Σ_{G=[ω^k]φF} mult·Tr H，所有χ conjugate在同素理想逐项约化，不冒剩余域Galois平均。尚无原Jacobian Hom函数域坐标或非零检测，亦不付普通loc/跨p。
 
 续R839原Hom的明确表达、全部Artin conjugate及交点迹；不以r+1可被ℓ整除替影子非零。ELS原文2.10/2.11的specialization适用本E0³，无需full-GSp假设，尚不赋计算终止或无穷系数素数。
+
+
+[原[3]运输的固定补偿因子](notes/2026-11-16-original-sv-common-odd-source-and-su-horizontal-cancellation.md)：原整数[3]完整运输给V=(S(3z)/3⁶)W3，W3=3⁵∏五输入σ(ξz)/σ(3ξz)，准确首差7072bz6、degree−240；整体S3在degree306，乘W3才回V66。其g270=g/81、O270=O30/81及B306(S3/729)=BS/81全规范付清；完整低卷积仍读X0，原V另读729X0，不能借整体中央零省掉真实W3。
+
+续真实原伙伴的同源乘法/除p，原整体[3]不产生独立新中央。
