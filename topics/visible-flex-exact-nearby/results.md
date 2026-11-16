@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- D5旧floating probe单件已按[完整白名单](notes/2026-11-16-R133-D5-forward-residual-probe-cleanup-whitelist.json)536dd2a1先推后freshguard普通删117565B；原restore2184a463同path、SHA26fdfe74、F2 archive_required及全部float限制保留。原dense/canonical/失败/active inputs不在删除集，0科学。
+
 - WPTV首次43851901811/1只读入口失败，unique scientific child0、old0、无任何新数学量或lost数学；24 current/10AST及19原恢复已逐字完成。完整[execution](notes/frozen_cross_block_value_tail_ci/run-43851901811-1/execution.json) eddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f /26981B、report427B均已保。stderr1395B仅保存SHA，须窄恢复诊断；不把入口失败当网格false。
 
 - WPTV consumer frozen：主 bca655debb419b303a62118fed6c4c7689d925a73a0d9b09e1623d5de27e00d1、reader cdbf14ee、typed worker0699ff33及[执行清单](notes/2026-11-16-R133-frozen-cross-block-current-inputs.json)4470a77b。24 current/19 history/10 AST，5 whole maxima、两预锁完整mesh候选和条件tail inverse；17门/11或12新records。仅静态核通过，数学尚未执行，未授finite逆或最终族。

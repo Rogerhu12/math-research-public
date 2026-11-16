@@ -129,3 +129,9 @@ scientific_started=false/scientific_children=0/actual_child_returncode=null；co
 Root完整读6小primary P/N/F1/F2/D1/D2并核hash。原note明确完成δ2首43ray/141段的float sampling/Gauss探针；它不定义dense reference/correction/canonical对象，也不是ODE/KAM或严格残差证书。F1 files20与F2 archive_required11的同path/bytes/SHA逐字实核，原archive_required资格不抹：未来consume原manifest须先samepath临时恢复核三身份，禁重旧数学。D1/D2真loader读dense或Fourier/Bernstein原件，不读此派生报告；只作所读依赖范围判断，不冒全仓库无依赖。
 
 24current/19history active WPTV及5oldactual WMT范围已审；root新增diag manifest73102dc7/worker a3c1c6ea/H/open/WMT全文均0 exact-basename。容量预估净97557B（另扣记事）；只普通删该一件，不动native/输入/失败/其他probe。审阅代理有一次意在取metadata的GitHub contents请求被连接器返回117565B正文；已如实记录access_audit并停止该取法，未以其另算hash或重数学。Root未取target正文，身份只用小freeze与Git-tree。两README在7f30cb19d6a3dc1f76be2c8f30cb707985221dc7核同；本提交仅白名单，未删除。
+
+## 2026-11-16 10:54:37 UTC — D5单件已按先白后freshguard普通删除
+
+前一71ce988e4f7dcfcb8706d36eac48bc3469c6a92f只推白名单97a42f32ea4b425655a5cf25cdf3e3ffe4b8323f /20008B/SHA536dd2a18af87c2bab3dbeb904dce1a4932e31a1985df90a0a7596cc5a8d3128。现fresh 99a83bde6ec9654dfee36057afaf2dcdcc8a5c15 两README核同、并逐层完整Git-tree guard仍为Git3420a02518d805ac901dbbc1fad002b8ceeee7f3 /117565B后，普通删除唯一 topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-forward-residual-probe.json。未force/改history或任何source/native/失败；原6小primary与两个freeze manifest保。future要用F1/F2须先从2184a463342085b03bc450853f66f18d338e455e同path恢复并核117565B/Git3420a025/SHA26fdfe744fbd28f9271888296e1b5c3c14d58e90422b640fe7238d8b8f4cff95，禁重算旧probe或downstream成功量。
+
+净报告减白名单97557B，另扣记事。所有原数仅float sample/Gauss diagnostic，未转成严格upper/ODE/KAM；δ3 tighter knot live attempt不是此已成δ2件。访问异常已如实保白access_audit，不重复请求大body。WPTV诊断及WMT真新算继续，未达到总验收标准。
