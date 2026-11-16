@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：8bbcfb225f114481d74de5458c157b879298ddee；2026-11-16 14:12:40 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 最近已读规则提交：c734a17b6e424fa3afcc32ddfaeaee92736dc6ff；2026-11-16 14:14:04 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-full-ramification-readers.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–888及R890已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-full-ramification-readers.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–888、R890–891已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续同R/S后两页，theta续四原B，literature续原辅助集。子题完即续open。
 
 ## 当前第一实际门：原映射、真RR与完整shadow
@@ -36,16 +36,13 @@ R883H全部Kummer层/非split闭点/负floor/δ嵌入与完整local后端已接�
 
 consumer默认eta48/global/tate，可选四RR/local；host核真实双map PASS的job/run/head/source/hash/whole末端与依赖齐。stdin无网，无请求、无shadow输出，禁止假PASS。
 R885原有界D满足sp0D=Ep AJ(Z02)，原q/q⁴、4、Artin/旧副本保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³与C5=−216真unit。同Coleman有限余核给Dfun(0)=Ep原ordinary loc；只保CcanD=Dfunccan，不约增广零或搬7993。
-R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 HS/HO/8.4元。[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)同C02/全split四因子、divisor-sum/统一分母/真balanced全付，n1=原AJ。[finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)付所有有限cohom及共轭/对偶/既用p环类；17惯性Sah、μ3双投影和Nakayama给最小O0的全两点p^n矩阵，扩系数只认真实det非零。unit子集不dot⊃默认集；usual core0，不套MR core1。R886附A已付γ=τ17的四值全−1、P0(1)≡2/Q(1)≡8；U=L1∪Uγ同格/n1不变，若l分裂此前层则两角真unit norm返回。literature续anti-Kummer选l与真正双点finite–singular。原底非零、ordinary loc及允许下降尚开。
+R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 HS/HO/8.4元。[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)同C02/全split四因子、divisor-sum/统一分母/真balanced全付，n1=原AJ。[finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)付所有有限cohom及共轭/对偶/既用p环类；17惯性Sah、μ3双投影和Nakayama给最小O0的全两点p^n矩阵，扩系数只认真实det非零。unit子集不dot⊃默认集；usual core0，不套MR core1。R886附A已付γ=τ17的四值全−1、P0(1)≡2/Q(1)≡8；U=L1∪Uγ同格/n1不变，若l分裂此前层则两角真unit norm返回。[R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)已付αq=πq/barπq的anti-Kummer与原阿贝尔域交仅cyclo，γ选l同时保旧层分裂及q/barq在K[l]全h_l阶；同四角u_l≡2真unit。literature续连续coinduced与一侧finite–singular/共轭selector。原底非零、ordinary loc及允许下降尚开。
 
 ## 当前第二门：四原B与同一低配对
 
-原S34/T72/U136/V66、charge17/36/68/33及全部CM13/Euler/Schwartz/p²p³/通常全Selmer保。R816/820付E−11 rank≥2；仍须同一无穷p原J′非零。共同C24指定c*=(1,−4/7,16/7)的实际三行保，不能将伙伴分别赋中央零。
-
-R863同H22两低配对、R876谱、R879全部热/trace/高端/q3/CM词保原证明及归档。R884正文原T热D5仍含BS/BDref/Lp(C0)/全余项；BT0不赋热零、参考rank0不赋BDref零。附A/B的同V/T差准确回Q1=Q(N,J)、Q2=Q(N,A)，非恒定H22权和三个cross全保。
-
-R884附C–I的原U全部2/δ迹、C9/D9/N/P72°/R24/H18/P16及原四中央三联式详见正文与上方完整H；两固定Fraction运行均成功，未给任何trace赋中央零。H已把BQ48/BW0全化严格低配对，I第二δ返回−P16/(26208b)，质量1且2-new；D16=−16DR3/3+全低L16。原chat=(p+1)cint、Γ16/Fermat项、全部new/cross/原Unew144保。
-新[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全证Fp=Z+ρp r^p=xyP_(s−1)(X)，ρp cp=1且Fp=−cp⁻¹D^(p−2)x，全部有限多项式保。任固定CM α的hα=−ρp(α⁻¹Dlogqα+r∘α−barα r)，绝对qα/半特征/所有极与复合齐。P2的Ξα/原kα,p全ODE保，δ核首−3x²/4。§12–13付fixed torsion的全hT与Mumford绝对倍率；ΞT(0)=P2(T)−1仍保。全四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM按§10独立充分大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍须联合非零，theta续同原初值。
+原S34/T72/U136/V66、charge17/36/68/33及全部CM13/Euler/Schwartz/p²p³/通常全Selmer保。R816/820付E−11 rank≥2，仍须同一无穷p的原J′非零。共同C24三列及c*=(1,−4/7,16/7)的真三行不删。
+R863/H22及R876/879、R884附A–I全部原trace/new/cross/质量/高位缺陷按完整H和正文保；原chat=(p+1)cint不提前约化，DR3/Γ16/Fermat项保，未由trace单位赋任何新中央零。
+[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全证Fp=Z+ρr^p=xyP_(s−1)，ρcp1、Fp=−cp⁻¹D^(p−2)x。全部fixed CM及fixed torsion的Z cocycle/绝对sigma或Mumford倍率齐；原G/P2的k、Ξ全ODE和初始化不删（δ核首−3x²/4；ΞT(0)=P2(T)−1）。四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM须§10真实大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍需联合非零。theta已停止扩Z运输家族，直接续同G/P2有限p基与原四低配对。
 
 ## 当前第三门：同P/R/S与全部实际有限类
 

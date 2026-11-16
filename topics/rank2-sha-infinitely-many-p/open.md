@@ -190,3 +190,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - [R890](results/R890-original-weighted-critical-values-and-full-ramification-readers.md)已把全部原finite/H¹障碍付成实际有限系数行：非固定monic图的b×b TF、完整伴随模π条件，及固定十九角/∞/非monic图/同R连接类和全球矩阵全保。它们不自动由原M或四中央杀掉；全o(K2)仍开。该reader完成后转下一实质原门，不再重复局部像已付的分类。
+
+
+- R891已自含付原环类的γ/anti-Kummer同时选择和两个q点完整h_l分解群，四角同u_l unit norm齐；任意阿贝尔B先取B·B^c保Q-Galois。继续连续coinduced与真实one-q finite–singular，用共轭selector处理另一点；没有预报原底非零、ordinary loc或Selmer秩。

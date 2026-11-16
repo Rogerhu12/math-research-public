@@ -278,3 +278,6 @@
 
 
 - [R890](results/R890-original-weighted-critical-values-and-full-ramification-readers.md)：同原D帽的全finite值像由b×b加权临界矩阵TF准确给出，det=(-6)^b Norm(YFY)^3/∏(40+n)；高charge以4eB+FLB的原单位消去。任DVR的adjTF·remFR模π^(3vNorm e)全核充要，保非约化/奇点/所有闭点；固定十九角/∞/非首一图和同R Cech连接类由原Gauss矩阵完整读取。不是额外M零行，未推forcing消失或全K2满像。
+
+
+- [R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)：原anti-Kummer αq=πq/barπq的±1赋值给Cp扩张，半直积交换子为全Cp，故与原阿贝尔域交恰cyclo。Chebotarev可同时保γ的全部角色/任意p深度/此前环类层分裂；αq非p幂准确迫q及barq在完整新p环类群的Frob阶=h_l。四角原norm均用同u_l≡2，未把有限交换性冒cochain交换；一侧finite–singular及Selmer结论继续。
