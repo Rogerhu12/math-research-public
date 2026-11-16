@@ -50,6 +50,8 @@ $q_n=\tfrac12(1-i\nu_i/k)(1+i\lambda_n)$。
 $(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$，
 次序$(1+E G_\nu)M_\nu$。任意自由ν仍可有限共振。
 
+[WAD完整伴随与第一行接收](results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md)0a92e2e5：精确moving Jacobi adjoint保非局部项、even mean、ng gauge及真正terminal；两特征波在取范数前合成一个反射物理行。ST已存完整正reverse矩阵的第一行支配所有shorter products/affine insertions，故可按14个原record给新整row候选；PC/ST4/cut/ordinary leading/Q/mean/全部3070jumps/waistFT一项不删。新9球尚未运行，不能宣称gate通过；完成后只将整条候选与同一旧Cstar比较。
+
 [WBN双边非恒系数归约](results/R133-supplement-exact-two-sided-reflected-waist-first-coefficient-normalization.md)f6783549：原cohom使$R_aw=-w$、$R_b\alpha=-\alpha$($\alpha=v_i-w$)；target $N_\perp=PNP$真逆$PN^{-1}P$且fullmean block保。source $\mathcal A=1-\mathcal T_\alpha I$的same-sign压缩在G配对为skew，真onto逆G≤1、L2/H−4/3同逆为多项式符号界，精确保Z/Rb/real。完整$T_i\mathcal A=NT_\nu+R_{\rm alg}$保mean+halfcomm及有序two-I；actual双边行还保$T_i(W^{-1}-1)\mathcal A$和$E_\partial W^{-1}\mathcal A$。新$C_{\rm two}$仅whole符号式，源cut确为$\mathcal A^{-1}\widehat P_{97}\mathcal A$，非ordinarycut。
 
 **当前须闭合：** WBN已给完整非恒定first coefficient归约；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。实现真实transported finite complement的全部行/列/交叉及匹配square，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。

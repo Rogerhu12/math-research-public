@@ -150,3 +150,9 @@ root全文独核31,021B/052bd8ed9550ffebd9cb56744f7d4e56a9b6de5405c363d438813f9a
 root全文独核26,506B/f6783549a2b29c5eebd4b31b6b604a89ba31345595cd3f03b86f6080927bde95；Newton正式核1–3/9–10并回CN/WPL，Tail正式核4–8/14–34。source A的G-skew闭值域+adjoint核0证明onto，负窗先f+A_G^-1Bf而非把rough输入塞G；sameinverse与fullreal都保。Fa完整outputmean加halfcomm，所有two-I收费在正确中间窗。N⊥压缩不丢fullmean row。whole实际式还保Ti(W^-1−Id)A和E∂W^-1A，C∂不得由旧subtotal直接冒名。
 
 所有new费仅符号，Ctwo/真finite补/physicalν及背景门未求值或宣称通过。本条独推，read b885a23c53246f59e066197b33bbfce79f6813d8两README未变。
+
+## 2026-11-16 04:01:56 UTC — WAD 完整物理行伴随与第一行 receiver
+
+root全文独核28,366B/0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546f641702a，并回原SP28–37和ST完整propagate/endpoint_readouts及25成功门。Phase正式核2–5；Newton正式核6–8/10、SP31–35、ST正矩阵与全部14record。真实第二mean dual、非局部adjoint、ng gauge、同坐标terminal、反射等距与全部signed cut/source/jump/correction tuple均保。第一行支配资格来自完整positive reverse ordered product，不把finite adjoint sample当infinite norm。
+
+新receiver仅完整符号式；新scalar consumer准备中，尚未运行。三源改善不能删PC/ST4/其它正预算，也未宣称任何physical gate通过。此结论独推，read d11d6f85fe82342583be24a0696783eda6fe088f两README未变。
