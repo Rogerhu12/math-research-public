@@ -84,3 +84,6 @@
 
 
 - [原四行的共同C24奇源与三维配对](2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：原C24=−σ24 x²yQ2/7、四J10/48/112/42全whole，原Aν=C24Jν。type5完整奇格基Ej=−b^jσ24 x^(8−3j)y，指定c*=(1,−4/7,16/7)。三差M_p保所有<p低jet并消共同O24；四B同时零 iff BS=0且M_pc*=0。固定水平奇递推、完整原t卷积均已付；R=(1−t)^−1/2/H²给M行−(−1)^sb^(s−1)(d_s,−d_(s−1),d_(s−2))，指定行是原h7/7的准确组合。U二挠条件按24+112同tensor运输，C^-1Π136C的全部极、Jold与1890bz7均保；三维不代M满秩或指定核非零。
+
+
+- [R828实际一标量四位与同修正逐页](2026-11-16-r828-actual-one-scalar-four-digit-and-same-correction-pages.md)：原hΘ=H_p w^(s−4)B，保完整高尾与H_p=(p+1)(a−pRcal)/[6(p−3)]。四中央在同H上，完整四位含h3F′和h1²F″/2；固定η0给唯一标量Hensel读取，其余三分量仍须检验。真实M=M0+pH A1+p²H²A2+p³(H³A3+H⁴A4)，D2=(Rcal/18−2a/27)A1+a²A2/324。第二/第三页保同P,R,S与Y1/p、Y2/p全部native整商，首核尾并集(4,8,8)/(4,8,12)，R的低卷积全保；canonical末ell=s−15项0、s−14只读真实[w]W4。h3不进入M模p4，不代额外深核/新长窗或页类非零。
