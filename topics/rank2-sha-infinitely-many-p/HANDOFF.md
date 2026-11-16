@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：df2fd0b3884646a8a394705de4501c596e0cda45；2026-11-16 01:25:59 UTC核两README无变。实际CI pull 2026-11-16 01:05:15 UTC/ed489dd492f33fa2db74c969dd54fdd407322d06（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 01:25:58 UTC仍无环境。最迟2026-11-16 01:50 UTC再实际pull。
+- 最近已读规则提交：7ce65434aa245b51c4037d1a6b76f94d242427cc；2026-11-16 01:28:07 UTC核两README无变。实际CI pull 2026-11-16 01:05:15 UTC/ed489dd492f33fa2db74c969dd54fdd407322d06（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 01:25:58 UTC仍无环境。最迟2026-11-16 01:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与当前分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-r842-fibers.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-r842-negative.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–845已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算原genus4全Hom排除(R846)，root核证明/实际曲线canonical比较。R845显式2-torsion/2、4核已付；literature续R846原g4排除，下一独立编号R847由root协调。
 实际CI pull 01:05:15/run43784143660/job133027873174成功，head ed489dd4，两README差异空。回执ci/rule-pull-20261116T010515.json，下一01:50前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
 
@@ -33,9 +33,8 @@ R838完整critical代数A_p=E[t]/t^e、exact=mM及实际dν=a1(t^(e−1)Pcrit H�
 
 ## 四原中央与同一个Cartier模型
 
-S34/T72/U136/V66、charge17/36/68/33、裸型(4,−6,8,−6)保全部低卷积、39carry/十二尾/末quartic。R816/820付E−11 rank≥2与通常全Selmer桥。R824同G0/charge40给r+2h≥s+1；R828同K1/C1完整d运输bΘ=b+χ2B4z、βact=βΘ°+a_pΣvL，未认χ2落原像。全低核反射/3rNq_p(3)/8与原伴随第二项保，不赋q_p(3)单位；特征零有理分部障碍不代模p指定非零。
-[固定torsion笔记](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：先定M，Mumford绝对倍率/半特征/cocycle、Z_M平移不变、G_M曲率−mH_M^p、同P2,M四首α及Fermat修正全保。非零E[M]原P ord≥p。CM13真frame含P比值，真/裸首差(−γ−1)αS、Norm(γ+1)=21单位，不能赋差零。
-固定torsion §10–18：真首为指定非中心−Tr(M_fνD^(p−1))|q，固定M²矩阵原点ανeO；Cν有p²极/四常数组合不全消，全球非零≠O非零。无exact的固定有限K(X)^pV已排；p幂+exact则真有fνω=hν^p dlogx+dvν，hν=xCν/(2y)、αν=(−2[z]hν)^p。§19 C³返回固定帽；固定u*给Δf=(Du*)^pZ_M^(p−1)保帽/高零/首前jet与C²/C³而首α加1。差不保指定P2^nRν/CM13，不作原来源反例；四真Rν/第五伙伴仍开，全部条件见原注/归档。
+S34/T72/U136/V66、charge17/36/68/33、全部低卷积/39carry/十二尾/末quartic不变；R816/820付E−11 rank≥2及通常全Selmer桥。R824同G0给r+2h≥s+1；R828同K1/C1完整d运输bΘ=b+χ2B4z、βact=βΘ°+apΣvL，χ2落原像未付。低核反射/伴随第二项及Fermat修正全保，不赋q_p(3)单位。
+[固定torsion原注](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md) §§1–19保先固定M、真P2,M、CM13全frame和四真Rν。指定非中心trace原点为ανeO；Cν真p²极/全局非零不付原点非零。无exact的固定有限K(X)^pV已排，但p幂+exact真有fνω=hν^p dlogx+dvν，αν=(−2[z]hν)^p。C³返回固定帽；显式Δf保帽/高零/首前jet与C²/C³而首α加1，仅排这些数据自身决定首行，差不保P2^nRν/CM13。四首联合非零/第五伙伴仍开，完整条件及来源见原注/归档。
 
 ## 同R、原三真长窗与指定边界
 
@@ -47,6 +46,8 @@ R813/822原ResP=γ/6单位及完整γ/6+G_F+B_F=0，GRes读W_sFt²E²R/Y²。R83
 [实际边界](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：同提升G_V给b0(V0)=−BF(qt^rG_V)+ResP(V1ω1/e²−Ξ_R)，全部ψ分支而非theta g轴。完整D_R=c_s ER{−d(WFt/e)+(W'Ft+WFtt)dt/e}与Ξ差保。q=Yqtilde时非固定Y0横截边界真为c_s t^rW Ft/FY·qtilde·V0（最多两点），旧FH消去不能搬来；Y∞保N*+m与N*两个jet。十九角原Ft/Ftt运输、无穷uF+4V及减1、全部ramification/conductor与同ω下降保。横截补零：Y0为w1∈(e),w0∈(e²)；Y∞为w1∈(e),w0+3bw1∈(e²)。尚未判全局[b0]非零或无解。
 
 边界§9–10：同q t^rH3在3s>(3b+degYq+1)ord_1F_b时整t=1纤维残数消去；充分原门9s>(D+1)(M_D−r−deg_tQ)，未预付成立。原t^rF³q∈WD另迫h7纤维有限Y全消，保Y∞/四步链/移动正水平。均仅删B_D子块，B_F与P代表补偿逐字保留。
+
+[负水平有限行](notes/2026-11-16-r842-negative-horizontal-finite-euler-rows.md)：光滑Ftunit的Z_Q=k[x]/x^m上D3=Dx，指定残数=c_s tQ^r[x^(m−1)]A(Dx+1)²(qtilde·V0)，最高jet系数单位。光滑FYunit的二重水平切点全D_R残数零，奇点不外推。原degH2迫z_-=2及c=μd1；横截平方自由两根总边界是二次值商准确行(k1,k0−h1k1)。W_T的实际像未知，全部其它边界/同P补偿保。
 
 ## 其余未闭门
 

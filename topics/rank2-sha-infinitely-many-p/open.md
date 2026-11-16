@@ -168,3 +168,8 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 ### R842：已付的实际纤维消去及保留边界
 
 [R842 两类实际固定纤维消去](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：新增§9–10用同一个原q及每个G∈H3。3s>(3b+degYq+1)ord_1F_b时，原局部环(t−1)^h1∈(x)同时付conductor，整t=1纤维的D_R残数消去；充分门9s>(D+1)(M_D−r−deg_tQ)不预设成立。真实t^rF³q∈WD在h7根特化Y次数≤2，迫无有限交点或q含该纤维因子，故有限Y全消。保h7在Y∞四步链及所有移动正水平，保B_D/B_F的原点补偿；没有声称每纤维Ξ_R与D_R相等或全[b0]消失。
+
+
+### R842：负水平的实际有限行已付，全局像未付
+
+[R842 负水平的一层有限行与二次值商](notes/2026-11-16-r842-negative-horizontal-finite-euler-rows.md)：光滑Ft单位点的真实Z_Q=k[x]/x^m上D3恰为x∂x，原残数为c_s tQ^r[x^(m−1)]A(Dx+1)²(qtilde·V0)，最高jet系数单位且保全部q。FY单位的光滑二重水平切点全D_R残数零，节点不可沿用。原degH=2与完整H_-限制迫z_-=2/c=μd1；两非固定横截根合成原二次值商上的准确非零行(k1,k0−h1k1)，包含全部剩余域迹。未预付W_T对该有限商的像，也未删正水平、其它固定纤维/conductor或同P补偿；局部行非零不代原[b0]非零。
