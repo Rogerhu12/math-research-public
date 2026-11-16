@@ -1,0 +1,368 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "recompute-critical-plus-weak-original",
+  "executionSourceCommit": "b44f16f5c11cc710217d0d61ec5d85dc76a0c8df",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-recompute-and-audit-789f.py",
+  "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+  "argvTemplate": [
+    "--stage",
+    "weak",
+    "--field",
+    "plus",
+    "--generator-source",
+    "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+    "--generated-out",
+    "{work}/critical-plus-weak-quadratic-positive-jets",
+    "--runtime-receipt",
+    "{work}/critical-plus-weak-quadratic-positive-jets/critical-weak-quadratic-positive-jets-receipt.json",
+    "--paid-outer",
+    "{scripts}/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+    "--out",
+    "{work}/critical-plus-weak-recomputed-identity",
+    "--generator-timeout",
+    "330",
+    "--memory-mib",
+    "2048",
+    "--generator-arguments",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--low-generator",
+    "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+    "--field-helper",
+    "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+    "--field",
+    "plus",
+    "--out",
+    "{work}/critical-plus-weak-quadratic-positive-jets",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 9.381368059001034,
+  "fullTemporaryReceiptBytes": 9539,
+  "fullTemporaryReceiptSHA256": "5ff7c22c10ad749e46d784124c79a73e88637d770d528a7b0a1d8c96b59dabeb",
+  "result": {
+    "binding": "f937ab4d582b9e7b54ad77c0b31d464db450af37f9fe2899adfc1f43bfaf7453",
+    "elapsedSeconds": 9.33377644400025,
+    "format": "r150-critical-frozen-generator-recompute-and-audit-v1",
+    "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+    "status": "completed",
+    "parameters": {
+      "actualGeneratorExitCode": 0,
+      "actualGeneratorInvoked": true,
+      "allFullPhaseFilesAndPayloadsVerified": true,
+      "allOriginalRuntimeMathematicalGatesPassed": true,
+      "canonicalCacheExistedBeforeInvocation": false,
+      "currentRunId": "43772109844",
+      "exactOriginalManifestMatched": true,
+      "field": "plus",
+      "generatorLog": {
+        "bytes": 344,
+        "file": "frozen-generator.log",
+        "sha256": "69107dd614736ddd3c080e79a896097a01e7eaee5d5f85de2ea6c3b95652e366"
+      },
+      "identity": {
+        "currentRunId": "43772109844",
+        "generatorArguments": [
+          "--generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "--jet-actions",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "--low-generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "--field-helper",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "--field",
+          "plus",
+          "--out",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/critical-plus-weak-quadratic-positive-jets",
+          "--remaining-seconds",
+          "300",
+          "--memory-mib",
+          "2048"
+        ],
+        "generatorSourceSHA256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b",
+        "manifest": {
+          "bytes": 10739,
+          "file": "checkpoints/manifest.json",
+          "sha256": "3a6c668298211eb5831ab35876f59ce88be6f164f50077a7dbb2e8f402aa8e98"
+        },
+        "newRuntimeReceipt": {
+          "bytes": 14426,
+          "file": "critical-weak-quadratic-positive-jets-receipt.json",
+          "sha256": "d5ba66ff68c1b807721e12f94a7d623854149d695311841efa1b9bc2c7dc023a"
+        },
+        "oldOuter": {
+          "binding": "fc1dd340764a2c3f419f2f8fa2cb13581585be8af1a680871ddac1d7fa157593",
+          "bytes": 29268,
+          "manifest": {
+            "bytes": 10739,
+            "file": "checkpoints/manifest.json",
+            "sha256": "3a6c668298211eb5831ab35876f59ce88be6f164f50077a7dbb2e8f402aa8e98"
+          },
+          "sha256": "30043fb3e263f861166f439c198af93bc10a69a8c5940acad42fe0429c3d86e6"
+        }
+      },
+      "largeArraysUploadedOrCommitted": false,
+      "mathematicsExecutedOnlyByTheFrozenGenerator": true,
+      "newMathematicalAlgorithm": false,
+      "newRuntimeIsNotAnAssertionThatOldTemporaryFilesSurvived": true,
+      "paidAncestryReadOnly": true,
+      "phaseCount": 30,
+      "phases": [
+        {
+          "bytes": 1139298,
+          "payloadSHA256": "1f4802cde662d6f0277fb4e9a1e27f72be07b4bb6dfcdd946065a04ab905c012",
+          "sha256": "817358f21bc28f3262dce740d97360a71f998c9d8815c4362a5111cfe6ad6dd6",
+          "stage": "candidate-jet-equation-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 31124,
+          "payloadSHA256": "83c1104eff85175f9cd0e1c0eddc862eb8b2472e6be16eafaa9653d3694e3d8b",
+          "sha256": "bd63b4e1dbe26a6830cce08cad6a1d5f243cc7e520264b007ad51f234706ad15",
+          "stage": "candidate-jet-equation-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 360288,
+          "payloadSHA256": "555a8a6e204afd5470bc6a162e9c8368907d193e7af367a8696eb7169923e46f",
+          "sha256": "2257c6cc5f558ae534f757c92a24be88fa6d1494cec30af728cccac4dd93bd74",
+          "stage": "candidate-jet-equation-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 415,
+          "payloadSHA256": "43b33f3578e4eb1fcab310998f0a671717506096e058d2cf1c264b53796464e7",
+          "sha256": "6266378db9591c75bc5de76a6846918cbb0ed726238fbf8b5001d03b07ac09cf",
+          "stage": "candidate-leading-projection-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 562,
+          "payloadSHA256": "464f1b1c05b9f7c3ab53fefe9204c7f9769281fc05b82c3c299761b7ae4a867b",
+          "sha256": "2ff69c7d23eccf7cf1336dff45864c7cde25f5638fe6467b92267eca0e685790",
+          "stage": "candidate-leading-projection-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 359,
+          "payloadSHA256": "3863d519af9b676e5cfa5b8468082feed4008983f18a834117526b4a826aac03",
+          "sha256": "414cea7e26280916362039908dcb679dce0e769eaf1afb13a09ed1265c00c144",
+          "stage": "candidate-leading-projection-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 337183,
+          "payloadSHA256": "b24384fce952956a64b3ba2f26be2a3604f65b1a7c0a85615aedb7439cc8edf8",
+          "sha256": "5620d87c6e6abd16b49207b40a06b2d1d859d3dea06eb2d4fd16344595c525b0",
+          "stage": "canonical-low-jets",
+          "verified": true
+        },
+        {
+          "bytes": 54014,
+          "payloadSHA256": "ddeaf743912b524c416497d1eb00e98b1219352ccbaf5e615f863e1dfd0e3b88",
+          "sha256": "fc9055f5615bbf3cf511a3f10bab5cd63a60a8125e94e9fa028fd0b55efad459",
+          "stage": "canonical-low-order-1",
+          "verified": true
+        },
+        {
+          "bytes": 87433,
+          "payloadSHA256": "ec1e7ebe5fe40ade9ca08c37d5f9535bb0271919ae2ae71294c7ec663c60b870",
+          "sha256": "4a7bf827ee1332994ac9c92d40e63f2787d5ca9bed7123faf58b458fd9e54f8e",
+          "stage": "canonical-low-order-2",
+          "verified": true
+        },
+        {
+          "bytes": 169800,
+          "payloadSHA256": "0231ba25bbee4c1528a7387e09cd0af7e5f4094f65e57533fbe518fe5af2ea6c",
+          "sha256": "a1d8255b7952b3db4a7d93ba9bce93fdfccff6d1ce8645d02b2f811f3d7b4511",
+          "stage": "canonical-low-order-3",
+          "verified": true
+        },
+        {
+          "bytes": 197108,
+          "payloadSHA256": "9c2f835dfe9d3be25d94d19627396c1b57ff8cf08b4bc2443fae64eb60c9c76e",
+          "sha256": "55578491c892a395dc6f128e056a153ef613c76d9026fdc61228dd767e225e44",
+          "stage": "canonical-low-original-unit-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 123732,
+          "payloadSHA256": "4baf8f819640e6efe2b0f5befef6adb43edb7153a4820d98d3253d0206591b3a",
+          "sha256": "de8faa13fd960f68f218bf757b849417b5aa40d1a15418714f0ed687b3c859ab",
+          "stage": "complete-positive-jets-verified",
+          "verified": true
+        },
+        {
+          "bytes": 184667,
+          "payloadSHA256": "50cc901fe67ddea6e70a05dfbb9e9f317623984f50e52d1f76887828d5f5ffe1",
+          "sha256": "e73fb47058acfd5518d85752e9d4f96d408165f1ecd9c7840a17dd107661bde2",
+          "stage": "constant-low-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 26383,
+          "payloadSHA256": "0ab2cb0a5b2b5e2fea4cc8bfdf529681a1f27de2ba7daa69e6adb0acbd1bbc1e",
+          "sha256": "ed5a7b5f75d151fde3c7904533187722d6ca54ba7ef722280c48d1dcbe0cc19e",
+          "stage": "constant-low-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 198199,
+          "payloadSHA256": "6848280e4aafbb9194de00cbc789ded4c8b171a2189d2ec219062efbac52ee98",
+          "sha256": "cd398176b0b9fe3513c83ff4afdf70b1e4e934f6bfe02395bd6bdd1dbf773e23",
+          "stage": "constant-low-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 1854,
+          "payloadSHA256": "9854954c19c49917e4abd74488cf3a5d145f39902ef42f3dd051f4da92e83ef1",
+          "sha256": "53ae323d632cbad6da61460ad8fbfa1b35ddcb692faa2db4dec7a85e70363f6e",
+          "stage": "full-original-leading-heads-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 1679,
+          "payloadSHA256": "aecee4b4b5838544e67d0905b27a29ef3ffab668501b2df9858156143dd45603",
+          "sha256": "3f4887bef6d7177038e979576165760bc564d519270f0bb0c471e2cb2a837fca",
+          "stage": "full-original-leading-heads-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 10091,
+          "payloadSHA256": "a6f614948e1bcd702e9cf1d413c6f3b518ed2ab048e3e6c7b666a4168dc29934",
+          "sha256": "d44540074b1b7d8afbe2d87cf2c4e48df196c62cdb4a3bba9db241a1462cd0a5",
+          "stage": "normal-linear-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 1685,
+          "payloadSHA256": "e6c39db7cfd8203ddee9f0d55cb3379421f6eeb5727bbb0d4a6a4c5642fa5744",
+          "sha256": "026d84383ec2668ff001f256c8c9437dd250b3fb0df2fc0ea776d68c6365b845",
+          "stage": "normal-linear-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 14431,
+          "payloadSHA256": "318a777c08a9bd0bf71e5c23eaddbc814de79fb63c2f5995c6ed4ba965dabac7",
+          "sha256": "69231699528f92dbe93250a6281560f0ff1d82ad36e0be876a7acda4464428e5",
+          "stage": "normal-linear-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 170383,
+          "payloadSHA256": "db5456164e9a535b9d2cc74fa91e764096fae5e54381ade1d650705151ac1c83",
+          "sha256": "95a7e7e3dc7c51cc1b30811103293622e0fa810d571bb80ffba80c428ca4b81a",
+          "stage": "original-polynomial-model",
+          "verified": true
+        },
+        {
+          "bytes": 2126,
+          "payloadSHA256": "6d46ded52fc9f84c4986a9fafe1193819e76df8c112e6766725dab82fd58d986",
+          "sha256": "ab6294008c6d2367d657a910d9e1d03dba58443d22d0723290aa8fc48ac706cc",
+          "stage": "paid-low-exit-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 2279,
+          "payloadSHA256": "05fc5bb2fe3e47d7125f0ee38e5ff272fe8f60258a5dda15ca2b0385b45dbe58",
+          "sha256": "cae74fc454bdc2116652514b609f5fcf6b122e8d21be56cb17d6f54610c6c230",
+          "stage": "paid-low-exit-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 1370,
+          "payloadSHA256": "cc45e11144afff68b89dbb7337331d438f62c127b62d50d5564d496ec4b9d65f",
+          "sha256": "eefebee9d653188da99adfe4a8349cd8749d8cc1859d2b70328095d3a28b17f7",
+          "stage": "paid-low-exit-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 1228,
+          "payloadSHA256": "388a62a9be7966b728f1d503c0a496127567457625377b81890329d3085ae8ee",
+          "sha256": "a9c4c48279bb98dfab7ef943bd0f811df70a133e1fa06d2f291bb7a70ce59420",
+          "stage": "weak-quadratic-independent-columns-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 5885,
+          "payloadSHA256": "2bf0ec8764250a23fe8c9b606aaba6613e2e746ae7feedd1d7fe74b7938d58e3",
+          "sha256": "9cdf3cd453415a4a9ca173a56dba6bf51d6043bad9c5681a5a351cdf22081608",
+          "stage": "weak-quadratic-independent-columns-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 139180,
+          "payloadSHA256": "09c0fdda3b92e0385aba3b4dd3d940f3e5610c3b9e3e482ba81ed8de568be1fd",
+          "sha256": "53aeec6dcfdebe5a7ae145403d1c03763c911b5d81d71eda76b2f8655e8ea52b",
+          "stage": "weak-quadratic-original-columns",
+          "verified": true
+        },
+        {
+          "bytes": 38519,
+          "payloadSHA256": "2e3361e991791ecd08e64dc65e61743e3de1c19023c28775c334cf4d551c88ad",
+          "sha256": "d30210a7da13fa63f29e95f2f8e0810a51d836f5c8cf6fba0448bcdb945d2cb4",
+          "stage": "weak-quadratic-pencil-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 6802,
+          "payloadSHA256": "92d2fa355df168addb04ec1dfd5b3760a8876e72cefe658e4631c943b178589a",
+          "sha256": "0c0350e941b082a90aa22d2078cebfb900e15b0551b49ec1cad951ba0a8c94f2",
+          "stage": "weak-quadratic-pencil-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 23661,
+          "payloadSHA256": "9da9a0733bb16ad69938c43491f9e4a040c7e1e42122ff13e3ef78e672410363",
+          "sha256": "ccd83d79eaa85d0fc72e289482f13aed9c7b7d9bff0d12bfef8cdfa641c8f1fc",
+          "stage": "weak-quadratic-pencil-unit-lu",
+          "verified": true
+        }
+      ],
+      "stage": "weak",
+      "theOriginalMathematicalBindingDoesNotDependOnJobOrOutputDirectory": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 02:16:00 UTC",
+      "beforeReadCommit": "8643f43eb2ad15b0abe7fb4e55255fba3bd37fd9",
+      "originMainAfterPull": "b44f16f5c11cc710217d0d61ec5d85dc76a0c8df",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 02:16:10 UTC",
+      "beforeReadCommit": "b44f16f5c11cc710217d0d61ec5d85dc76a0c8df",
+      "originMainAfterPull": "b44f16f5c11cc710217d0d61ec5d85dc76a0c8df",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 51,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 17494,
+    "logicalJsonSHA256": "d6d2b8c6378db98863942d123d75262acb4575c6e720335bd4888533edcaef30",
+    "itemCount": 51
+  },
+  "lastRulesReadCommit": "b44f16f5c11cc710217d0d61ec5d85dc76a0c8df",
+  "summaryExcludesRecomputableArraysOnly": false
+}
