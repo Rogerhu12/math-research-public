@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：42c8d921586f636ab451f807025c6d34326500c2；2026-11-16 14:57:09 UTC核两README无变。实际CI pull 2026-11-16 14:51:23 UTC/716ea758ac096a7e03ac5d3c75a6e3caa4ea04e5（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:51:10 UTC仍无环境。最迟2026-11-16 15:35 UTC再实际pull。
+- 最近已读规则提交：d359982ef9bd5fd8c91e9de38feceaf2548191f6；2026-11-16 14:58:44 UTC核两README无变。实际CI pull 2026-11-16 14:51:23 UTC/716ea758ac096a7e03ac5d3c75a6e3caa4ea04e5（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:51:10 UTC仍无环境。最迟2026-11-16 15:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-density-pull.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–896已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-density-pull.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–897已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续同修正高前缀/WT，theta续四原低多项式，literature续原wild/tame对Dfun增广阶的真实约束。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -37,7 +37,7 @@ consumer需同两真实map PASS和真RR，核run/job/head/hash/全末端/依赖�
 ## 原端点的真实下降与非零门
 
 R885同端点有界D满足sp0D=Ep AJ(Z02)，原q/q⁴、4、Artin/旧副本保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³、C5=−216均unit。同Coleman有限余核给Dfun(0)=Ep原ordinary loc；保CcanD=Dfunccan所有增广零。
-R886及[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)全split norm/divisor-sum/统一分母/同C02/n1=原AJ齐。τ使三extraEuler为全群环unit；γ四值−1，最高2/extra8unit，U=L1∪Uγ保同格/n1。usual core0，不套MR core1。
+R886及[R897](results/R897-original-endpoint-complete-wild-tame-system-and-specialization.md)全finite/wild tame同源、split norm/divisor-sum/统一格/n1=原AJ齐。每层sp Dn=Ep,n cn，Ep,n整群环unit；τ/γ三extra单位归一保同底。整族可除T恰当所有tame底都零，单n1只给trace零。usual core0，不套MR core1。
 [finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)的17惯性Sah、μ3双投影/Nakayama付最小O0完整两点p^N selector，含已用p环类；扩大系数须一次固定O0投影再平坦返回。
 [R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)完整anti-Kummer/γ交域/两点全h_l阶及原四角norm，连续coinduced与全误差给κq(σ)=−c1(Frq)。坏位统一指数、共轭两点selector/global cup已全证c1≠0⇒Selbal=E c1；受限JNS接口由直接证明替代。原c1非零、ordinary loc和无穷目标p仍开。
 [R893](results/R893-original-endpoint-augmentation-square-and-primitive-heegner-comparison.md)已付c1非零⇒R814固定Heegner增广本原（实际Cor4.6.1/全控制），故D=U Z°为单位比例。全iota/period/平滑/Euler给同H unit的ccan=H Dfun·D、Ccan=H Dfun²；ord Ccan=2s、ord_M ccan=s。ordinary loc/原canonical非零恰等价s0，s>0未排；derived canonical不复用未除T的严格核结论。续同原wild/tame是否约束s，不跨p。

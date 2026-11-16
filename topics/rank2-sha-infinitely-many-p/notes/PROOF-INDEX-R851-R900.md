@@ -389,3 +389,5 @@
 - [R895](../results/R895-original-quartic-same-corrector-intersection-and-small-slack-exclusion.md)：原r3/τ1 quartic的完整同P/R/S p³条件对所有R迫d_D≥s+2；联立同P有效除子4C+3f0+jH−，得B_D²≥4s+14+4j。原精确维数给N_D−2s=ell+δ_D≥D+16+2j（δ可负），故≤D+15+2j真排此候选。三长记号须另加s，未外推全K1或所有临界。
 
 - [R896](../results/R896-original-small-slack-prime-density-and-quartic-exclusion.md)：原N_D=47D²/24+41D/6+周期常数；逐p取最小N_D≥(p+1)/3后，a≤D+15在p≡11mod12中准确密度12/47、全素数密度3/47。已发表实幂素数等分布加完整AP Fourier/端点夹逼支付无穷性，故真排R895该quartic的p³；不排一般K1、不换别的固定D来源或声称Sha完成。
+
+- [R897](../results/R897-original-endpoint-complete-wild-tame-system-and-specialization.md)：原同一CM商/普通对角塔与全部wild–tame norm已接通，保一侧ray到反对角的准确识别及统一格。各层sp D_n=E_{p,n}c_n，E_{p,n}为显式整群环unit；同底rank-one归一保。整个有界系统可除T当且仅当所有有限tame层c_n都零，单n1零只给trace零，不推出s0。
