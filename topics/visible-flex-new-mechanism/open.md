@@ -205,4 +205,4 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 ### R427：只余两个完整kk自然读出
 
-[R427](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)在一般ω先作Y=∂k+(2h)⁻¹∂ω，以完整YC/ZZ/n1四scalar支撑、原四势和真实有序尾证明Λkk负四=A+k²B+k⁴C；奇项与高于4只在natural层0，不冒原成本为0。A已由R426纸证支付；两新B=[h⁻⁴k²]、C=[h⁻⁴k⁴]的[唯一观察请求](notes/kk-minus4-natural-flux-design-20261116.md)已发，尚无actual；原k0不重算。S=1+k²整除准确iffΛ(B−A−C)=0，当前不假定；共同字符剩k²b+k⁴c非负iff b,c≥0，仍须实际消两列。
+[R427](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)在一般ω先作Y=∂k+(2h)⁻¹∂ω，以完整YC/ZZ/n1四scalar支撑、原四势和真实有序尾证明Λkk负四=A+k²B+k⁴C；奇项与高于4只在natural层0，不冒原成本为0。A已由R426纸证支付；[两新实际](notes/kk-minus4-natural-flux-first-completed-actual-20261116.md)给B完整五项C²密度非零、C完整空；38源/12新self/2.833311144秒，原k0及旧研究不重。共同D/E查询与fullJ推论另核。S=1+k²整除准确iffΛ(B−A−C)=0，当前不假定；共同字符剩k²b+k⁴c非负iff b,c≥0，仍须实际消两列。

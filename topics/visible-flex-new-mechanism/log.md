@@ -259,3 +259,9 @@ root全文读30279B源码、11539B设计、10622B请求和3896Bworkflow，38源�
 ## 2026-11-16 02:10:29 UTC：新有限锥完整恢复合同及预算即推
 
 根全文读19607B原稿后明确§8.1新配额，最终22094B/SHA231804ce7f7681f36c88a9f33176c584207aa97264c2455655a9ce3f20691e0a。32仅conic，0legacy/SOC；96value含恢复，1200science从首输入前起，单次≤10且双global/new时钟余量取交。Clarabel0.11.1/200iter/1thread/三tol1e−9，允许Solved/AlmostSolved仍过原单位/两网门。cfg导数身份保原，newmethod独立，pool/learning/B全继承；旧64及全部失败费用封存不清零。机制代理静态发现adapter独立新钟只在charge查的缺口，tail已窄补v3同步各返回位，root完整新版源码仍待读；无任何新测试/求解/科学执行。
+
+## 2026-11-16 02:12:51 UTC：两项kk实际完整消费与最新真实pull
+
+人类note6879B/SHA79c76d2d20f2f067069a24d1d828bfd149a4af7fcba40d57e09c807c5c71c58c即推。原stdout/REPORT全身份及全部observations、target plan、12新收缩、9旧响应、所有source闭包逐项读核；B完整C²五密度且14Euler非零，C全部空，nonlocal双空。源split_key原键(0,1,2,7)/(3,4,5,6,8,9)已直接回读，确认原k_s²/beta及omega1支路未错位。scope和费用全保，机器joint=false保持，不重k0。
+
+公开actualpull02:09:58.208880→59.918061到8643f43eb2ad15b0abe7fb4e55255fba3bd37fd9；双README同blob/hash/空diff。私有02:10:02.347510→03.031482，1ec6b57a875aca377038cd055a4ec0028b75473c同，根同/题无/QUEUE唯一进行中。root02:12已读，H下次03:09:58；继续R428/429和新锥源码，不收尾。
