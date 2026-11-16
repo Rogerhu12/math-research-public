@@ -1,0 +1,203 @@
+{
+  "schema": "public-actual202-shallow-inverse-complete-closed212-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 212,
+  "lanes": [
+    "actual202-accurate-ten-shallow-inverse-complete-closed"
+  ],
+  "original205_subcontract": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-actual202-accurate-ten-closed-geometry205-request.json",
+    "bytes": 97406,
+    "sha256": "06ae0670329d38b77448ef43f54021da3c5eb2575e9e7a290cec6b2968c1f6c4"
+  },
+  "original205_workflow": {
+    "file": ".github/workflows/visible-current-C-actual202-accurate-ten-closed-geometry205.yml",
+    "bytes": 95760,
+    "sha256": "726d97e1aada5d34ddfa949753ce59c6909122d3de8c39bd5a2160fdb8712c36"
+  },
+  "original205_is_an_explicit_ancestral_contract_not_this_derived_dispatch": true,
+  "all_original205_scientific_source_bytes_retained": true,
+  "scientific_control_change": {
+    "path": "/native_sampling/parameters/sample_inverse_depth",
+    "original": 24,
+    "requested": 2
+  },
+  "retained_sampling_controls": {
+    "free_bytes_reserve": 2147483648,
+    "linear_budget_seconds": 14400,
+    "local_defect_bits": 12,
+    "max_depth": 32,
+    "max_geometry_cache_records": 65536,
+    "max_panels": 25000000,
+    "panel_norm_limit": "1/4",
+    "precision_bits": 256,
+    "sample_inverse_depth": 24,
+    "sample_max_nodes": 1000000,
+    "sample_value_bits": 32,
+    "sampling_budget_seconds": 1800,
+    "steps": 12,
+    "taylor_terms": 24,
+    "representative_max_precision_bits": 4096
+  },
+  "retained_sampling_controls_are_ancestry_before_the_single_depth_override": true,
+  "actual203_evidence": {
+    "result": "results/R440-actual203-complete112-far-and-physical-point-sampling-work-stop.md",
+    "bytes": 31298,
+    "sha256": "aabe16f336f98ebb39bb850a21a4ed1ade0f9206dc5255027a6302171cc62b77",
+    "published_commit": "88f38904a6951f299212f2f8ea78915f09215917",
+    "run_id": 43790929300,
+    "source_commit": "557b1d47cd637d268cf292c86f77218ccc3b5458",
+    "sampling_source_sha256": "32b0b7e2b02f54f5086b6c9485c1f63bce4702c3a690fed49bbc78d9d690d5f4",
+    "actual_complete_far_modes": 112,
+    "actual_complete_nominal_rows": 112,
+    "actual_completed_unique_points": 3,
+    "actual_field_occurrences": 0,
+    "actual_sampling_work_units": 1000000,
+    "actual_sampling_stop": "declared-phase-work-unit-limit-reached",
+    "original_pending_point_addresses_were_not_selected_in_old_necessary_summary": true,
+    "old_partial_or_complete_raw_reused": false
+  },
+  "metadata_sources": {
+    "root_20261116_request212_sampling_work_composition.py": {
+      "file": "root_20261116_request212_sampling_work_composition.py",
+      "bytes": 14847,
+      "sha256": "d98e01cab681471a532194e6a02622bc3cdd3ee655bcbec22caa8df77b790d67"
+    },
+    "root_20261116_current_C_sampling_scope_necessary_readout.py": {
+      "file": "root_20261116_current_C_sampling_scope_necessary_readout.py",
+      "bytes": 55606,
+      "sha256": "47d7ec771331f417dffb783a79e02d1ae9720e9ad0a699a72c37cf3031718cb2"
+    },
+    "root_20261116_actual202_sampling_scope_two_phase_necessary_readout.py": {
+      "file": "root_20261116_actual202_sampling_scope_two_phase_necessary_readout.py",
+      "bytes": 30114,
+      "sha256": "6e40dc6365246113d8abc07110582a030b4930195070a71ba08e9872a11bb1e7"
+    }
+  },
+  "current_BVP_readout": {
+    "file": "root_20261116_actual202_sampling_scope_two_phase_necessary_readout.py",
+    "bytes": 30114,
+    "sha256": "6e40dc6365246113d8abc07110582a030b4930195070a71ba08e9872a11bb1e7",
+    "schema": "actual202-complete-sampling-scope-ten-two-phase-necessary-readback-v1"
+  },
+  "original_source_count": 154,
+  "additional_metadata_source_count": 3,
+  "complete_source_count": 157,
+  "derived_runtime_contract": {
+    "schema": "public-actual202-accurate-ten450-closed-geometry-request-v1",
+    "request_number": 205,
+    "namespace": "visible-current-C-actual202-ten450-closed-geometry205",
+    "deadline_schema": "request205-owned-job-science-deadline-v1",
+    "source_contract_identity_not_claimed_to_be_original205_bytes": true,
+    "actual_outer_request_number": 212,
+    "derived_dispatch_file": "request212-derived205-dispatch.json",
+    "provenance_file": "request212-composition.json",
+    "source_composition_necessary_frame": "BEGIN_REQUEST212_SOURCE_COMPOSITION_NECESSARY",
+    "source_composition_marker": "request212-composition-readback-complete.json",
+    "source_composition_metadata_is_distinct_from_scientific_raw": true
+  },
+  "exact_derived_change_whitelist": [
+    "/native_sampling/parameters/sample_inverse_depth",
+    "/current_BVP_readout/file",
+    "/current_BVP_readout/bytes",
+    "/current_BVP_readout/sha256",
+    "/current_BVP_readout/schema",
+    "/source_sha256/root_20261116_request212_sampling_work_composition.py",
+    "/source_sha256/root_20261116_current_C_sampling_scope_necessary_readout.py",
+    "/source_sha256/root_20261116_actual202_sampling_scope_two_phase_necessary_readout.py",
+    "/source_count",
+    "/workflow",
+    "/explicit212_composition"
+  ],
+  "scientific_scope": {
+    "accurate_C_all1440_six_primitives_and_all_original_roots_unchanged": true,
+    "original_point_cut_and_whole_natural_query_preserved": true,
+    "fresh_full112_deep_and_physical_far_required": true,
+    "fresh_far_mu_and_all_family_errors_required": true,
+    "fresh_complete_physical_nodes_and_actual_RK_fields_required": true,
+    "strict_radius_exclusion_only": true,
+    "closed_bisection_covers_both_halves": true,
+    "finite_positive_terminal_coarse_boxes_retained": true,
+    "sample_value_bits32_remains_work_only": true,
+    "work_resolution_false_does_not_add_a_BVP_gate": true,
+    "failure_to_prove_finite_positive_box_at_depth2_remains_partial": true,
+    "all_complete_inverse_candidates_four_quantity_hulls_and_word_errors_retained": true,
+    "new_depth_can_change_far_inverse_cover_mu_and_all_numeric_words": true,
+    "old203_or205_accepted_parent_not_fabricated": true,
+    "fresh_full453_then_real_same_ten_word450_full_native_J_FD_fullDN_final_audit": true,
+    "all_original_closed_field_metric_reach_held_gates_preserved": true,
+    "original_actual202_candidate_words_lambda_and_five_raw_inputs_unchanged": true,
+    "actual_sampling_completion_or_capacity_or_accuracy_not_promised": true,
+    "no_new_scientific_threshold_fixture_or_preflight_numerical_experiment": true
+  },
+  "execution": {
+    "job_timeout_minutes": 360,
+    "science_seconds_from_original_namespace": 18900,
+    "readback_reserve_seconds": 2700,
+    "one_original_namespace_deadline": true,
+    "deadline_restarted": false,
+    "sampling_future_BVP_reserve_seconds": 3600,
+    "full_BVP_process_budget_seconds": 7200,
+    "original_sampling_linear_seconds": 14400,
+    "original_sampling_point_seconds": 1800,
+    "original_actual_remaining_startup_clip_preserved": true,
+    "source_binding_and_runtime_setup_still_excluded_from_sampling_phase_clocks": true,
+    "no_new_global_absolute_kill_for_prior_stages_claimed": true,
+    "necessary_single_summary_limit_bytes": 90000,
+    "all_original_seven_necessary_scopes_and_quiet_cleanup_conditions_preserved": true,
+    "composition_necessary_scope_is_immutable_metadata_and_also_required_before_cleanup": true,
+    "all_scientific_syntax_or_execution_only_in_public_Actions": true
+  },
+  "necessary_scope_repair": {
+    "original_base_reader": {
+      "file": "root_20261115_current_C_pruefer_joint_full453_necessary_readout.py",
+      "bytes": 55181,
+      "sha256": "19878e48ed25dec8bdcbd36c3d7ea7168796a08fb60675ad7455dbb296a0918c"
+    },
+    "original_outer_reader": {
+      "file": "root_20261116_actual202_accurate_ten_two_phase_necessary_readout.py",
+      "bytes": 29882,
+      "sha256": "80c26207dea0d393a102dabba9f1e5ed9580460cc40876d2668975ae9499af1f",
+      "schema": "actual202-accurate-ten-current-C-live-full453-and-frozen450-necessary-readback-v1",
+      "necessary_single_summary_limit_bytes": 90000,
+      "scope_is_necessary_not_full_raw_tree": true,
+      "no_cleanup_marker_on_readback_error_or_overflow": true,
+      "all_available_original_native_traces_trials_linear_children_parsed_in_Actions": true,
+      "all_actual_native_call_outcomes_and_last_iteration_trials_selected": true,
+      "earlier_native_trials_successful_factor_witnesses_and112_far_row_intervals_identity_only": true,
+      "both_original_phase_FD_error_levels_flags_and_final_audit_selected_if_present": true,
+      "both_actual_checkpoint_acceptance_and_final_ten_words_selected_if_present": true,
+      "actual_candidate_binding_scope_in_addition_to_original_two_phase_scope": true
+    },
+    "added_original_fields": [
+      "point_index",
+      "radius_word",
+      "role",
+      "actual_error_type",
+      "actual_error",
+      "all_pending_closed_fragments",
+      "retained_original_leaf_rows",
+      "complete_point_not_returned"
+    ],
+    "all_pending_fragments_copied_without_small_list_or_string_truncation": true,
+    "original_absent_keys_distinct_from_present_null": true,
+    "overflow_is_explicit_readback_failure_and_prevents_cleanup": true,
+    "no_scientific_value_recomputed": true
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "retention": {
+    "upload_artifact": false,
+    "upload_release": false,
+    "publish_raw_to_git": false,
+    "full_scientific_payloads_only_this_own_Actions_job": true,
+    "all_original_seven_readbacks_plus_composition_metadata_and_actual_quiet_required": true,
+    "missing_error_overflow_or_unknown_scope_blocks_cleanup": true,
+    "raw_remains_only_until_runner_destruction_when_cleanup_blocked": true,
+    "five_original_primary_summaries_reported_and_new_composition_frame_in_compute": true,
+    "no_large_raw_partition_or_encoded_reconstruction": true
+  },
+  "workflow": ".github/workflows/visible-current-C-actual202-shallow-inverse-closed212.yml"
+}

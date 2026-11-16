@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 05:28:17 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 aab17db85207ac4c6a2922bfd240be90120cb627。
+规则同步记录：2026-11-16 05:29:10 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 a7e6149e8407b86ac1e34acceded2f789288166d。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -52,8 +52,8 @@ R454/20347abf与206/e8e4be9f保真98父、39八组/108pins/全17α/原钟，实�
 
 临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
 - exact：唯一207/208终态；R455/206本次刊、R472/210已刊。R477两reader本次刊，交212已冻结；继续R479/213/实际R480必要语义去重。210六件及全部完整diff已读，前四件已刊a95eefc0（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7已刊b418c6e6，run43807229341已绑。143已刊+11实际view=154，原参数/18000/全门保持。
-- geometry：唯一209及未来212/R478终态；R476接口228ba42e/helperd98e01ca本次刊，outer8803750d/workflowd1022e74已全读下一独立推。只depth24→2工作参数及已刊R477完整point/stack，32bits只work、候选全保/fresh far/原末门，不保预算足。205/207/209冻结原24/32/1M。
+- geometry：唯一209及未来212/R478终态；R476接口/helper已刊00831470；outer8803750d/workflowd1022e74本次独立推，待官方绑定。只depth24→2工作参数及已刊R477完整point/stack，32bits只work、候选全保/fresh far/原末门，不保预算足。205/207/209冻结原24/32/1M。
 - amplitude：唯一204/205及未来211/R475终态；211最终六件已完整核，先刊generator/plan/recipe/interface（846a5d0c/4d197084/1a949e87/ee2c4c32），真实168=147public+11历史view+10当前view，补原c216依赖并实际接R474；前四件4f326cd1、入口7e62fb22已刊；实际43810051801/source7e62fb22已绑。原210及全部数学门不改。
-- root：R477已刊8df750ba；211前四件4f326cd1且本次刊请求/workflow，已压缩open§1，旧全字在8df750ba同路径，§4–6逐字不变；211实际run已绑b8ad5c4f；本次刊R476/helper，原sampler出口及212全部delta已读，接着刊212入口/绑run。actual62两生成清单已核原字节及request/parent/producer，紧凑结论尚未全文读、尚未删；63已清b696cc15。每pull核双README。
+- root：R477已刊8df750ba；211前四件4f326cd1且本次刊请求/workflow，已压缩open§1，旧全字在8df750ba同路径，§4–6逐字不变；211实际run已绑b8ad5c4f；R476/helper已刊00831470；本次刊212入口，接着绑官方run。actual62两清单已核原字节/来源，geometry正读紧凑结论/现用依赖并起最小说明，尚未删；63已清b696cc15。每pull核双README。
 
 211入口官方topic tree058473aa2d9a71beb120cfa6a57ab71415617274：9254blobs/197777411B、9627entries，truncated=false。actual63两生成清单已删；actual62两候选只核字节/来源、尚未删。不存新raw。

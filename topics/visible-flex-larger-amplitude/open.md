@@ -44,6 +44,8 @@
 
 **R476：原完整逆像的明确工作参数实验与212来源合同；尚无实际结果。** [完整源码接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)17888B/228ba42e、composition14847B/d98e01ca已全文核，原32b0采样器的整InverseSampler及radial_grid真实路径亦已读。唯一科学控制24→2使用原合法粗叶出口，须全部候选/闭片、有限正性、四quantity完整hull和误差；32bits仅工作目标，未证有限正时仍partial，不保证1M预算或误差达标。原20597406B/06ae与workflow95760B/726d全字绑定，原154pins加helper及已刊R477两reader共157；派生205兼容schema/index保真实212/run/source/独立bytesSHA，复原差异须等原全部合同，不冒原205字节。新reader真实file/schema/marker/cleanup均接入，八个缺失point/stack字段全保；fresh全部far/μ/物理点及全453→450/原闭面门、18900+2700/原七必要scope/90KB超70/quiet不变，无新fixture或科学门。小outer8803750d/workflowd1022e74另次推，R478/geometry唯一终态。
 
+[R476完整接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)及composition已刊 `008314705623395a333b3ef0d3d48f5ae5ad7299`；R477两reader/接口已刊8df750ba。本次独立刊outer9965B/8803750d与workflow99644B/d1022e74，实际新请求路径触发公开Actions。原205完整合同逐字绑定，仅逆像工作深度24→2及真实必要reader/来源接线，全部157来源、原输入/参数/模式/候选/双BVP/全门/原钟和90KB超70保持。outer212与派生205兼容合同分列，实际run/source待官方绑定；R478由geometry唯一终态读取，不预填完整采样、接受父、误差下降或闭面完成。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 准确域与Robin/deep/Prüfer原全族责任不因中心表示或合法coarse界而缩减。R396/187曾全112 far完成，但中点转64同时零、原因未定且native/453未起；原raw已清。R419保同可逆T联合表示/4096共享point预算，仍不证明名义数字行为统一准确C成员。R408/193只103完整far；[R420/197](results/R420-actual197-complete105-far-families-and-resource-partial-before-joint-rows.md)C1440/六primitive、cut、九域、deep112齐，但2855宽度fragment欠，原7200预留裁linear7054.248290167915秒；m2..210的105完整，m212/piece1027/[13/16,105/128]预算停，214..224未起，数字joint/native/453/450全未起。五必要/quiet齐后真清90207761185B，SHA不能续现场。203/205必须各自重生全112，不跨run拼完整。

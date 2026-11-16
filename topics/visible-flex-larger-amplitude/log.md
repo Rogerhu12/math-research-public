@@ -349,3 +349,8 @@
 ## 2026-11-16 05:27 UTC /root — R476完整逆像工作实验与212源码
 
 **R476：原完整逆像的明确工作参数实验与212来源合同；尚无实际结果。** [完整源码接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)17888B/228ba42e、composition14847B/d98e01ca已全文核，原32b0采样器的整InverseSampler及radial_grid真实路径亦已读。唯一科学控制24→2使用原合法粗叶出口，须全部候选/闭片、有限正性、四quantity完整hull和误差；32bits仅工作目标，未证有限正时仍partial，不保证1M预算或误差达标。原20597406B/06ae与workflow95760B/726d全字绑定，原154pins加helper及已刊R477两reader共157；派生205兼容schema/index保真实212/run/source/独立bytesSHA，复原差异须等原全部合同，不冒原205字节。新reader真实file/schema/marker/cleanup均接入，八个缺失point/stack字段全保；fresh全部far/μ/物理点及全453→450/原闭面门、18900+2700/原七必要scope/90KB超70/quiet不变，无新fixture或科学门。小outer8803750d/workflowd1022e74另次推，R478/geometry唯一终态。
+
+
+## 2026-11-16 05:28 UTC /root — Request212完整公开入口
+
+[R476完整接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)及composition已刊 `008314705623395a333b3ef0d3d48f5ae5ad7299`；R477两reader/接口已刊8df750ba。本次独立刊outer9965B/8803750d与workflow99644B/d1022e74，实际新请求路径触发公开Actions。原205完整合同逐字绑定，仅逆像工作深度24→2及真实必要reader/来源接线，全部157来源、原输入/参数/模式/候选/双BVP/全门/原钟和90KB超70保持。outer212与派生205兼容合同分列，实际run/source待官方绑定；R478由geometry唯一终态读取，不预填完整采样、接受父、误差下降或闭面完成。
