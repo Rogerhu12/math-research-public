@@ -138,3 +138,5 @@
 - [R550 同一规范的正水平支与真实总p2零](results/R550-positive-horizontal-branch-and-exact-p2-zero-with-one-fixed-gauge.md)：**已证明**原t1次阶历史驱动真实k转正、正j/升高和第二coast唯一总p2零，中心总t1仍正；固定正r另保p1负。准确p2零处p1余项号未定、p0严格正，全部真实费用保，未三p/全M0。
 
 - [R551 同一33母固定规范的真实负δ入段](results/R551-real-negative-delta-entry-on-the-same-thirty-three-mother-and-fixed-gauge.md)：**已证明**从实际W*>0正X端，经原矩脉冲/完整conic中心/同根切换达到非零dc返回，保净Π负/k>2；小正hc从起点子族付W号，不能推广任意旧末态。全T和Oτ负t1成本保，整层/慢恢复/全矩仍待。
+
+- [R553 同一固定规范的完整实际返回层与k换号](results/R553-complete-real-return-to-the-centered-zero-layer-with-one-fixed-gauge.md)：**已证明**同33母从k>2通过完整源移位/同支根/有限真实history刷新准确到dc=0，并继续到dc>0/k<0，保净Π负。hc=ε^(5/2)排高度退化，所有原t1负费/T保；新p2正密度不授总矩，慢恢复/全M0/末germ/pose/period仍待。
