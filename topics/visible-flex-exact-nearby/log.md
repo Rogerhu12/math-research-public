@@ -390,3 +390,8 @@ worker第一次push非FF后立刻真正pull --rebase，完整失败commit仍在�
 v2纯只读manifest topics/visible-flex-exact-nearby/notes/2026-11-16-R133-W2C-readonly-preflight-v2-current-inputs.json 固定完整60current/21history/23AST、全部原scope、29精确他workflow绑定；17:41:54五状态18active全为已读版本/既有run/head。第一次完整failed输出已7c356193保存，现只重做未通过的AST/native admission，0既成数学目标。H腰段缩为索引，所有原细项逐字保7c356193/HANDOFF.md（Gitb6595e6568f86710e8e628d4b19372ff33ba981c、bytes9965、SHAb5e1cacdc9fd18531cc355db600c7ec84965f23f5c6a196476eb5e6d17164339）与既有open4，未删义务。新版源码/manifest这次先推，独立workflow下一次才触发。
 Phase独立全source窄核capacity修复通过：published immutable metadata cache、完整NUL delta的A/D/M/T、oldSHA和newblob exactsize、零delta与已有输出同path扣回全部正确；未执行Python AST或任何数学，控制/readonly顺序逐字原样。
 2026-11-16 17:43:22 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main b837bebddded526dd7dbafec916799ff7531de6e的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+### 2026-11-16 W2C 修正后仅readonly的第二次独立触发
+
+source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；manifest65948B/Git3285ef0fbd0bccd5a2857be0b239e929b43cf224/SHA7de945f95b8046f97db1a73fc017c3930cabe8c7aa6fa6c8d67d192e7930b59f。本次workflow只更新完整该清单路径/SHA与revision2名字，其余partial checkout、Python3.12.14、公开自身run_attempt1、readonly0flint/0target/0consume原样。上次失败不是科学结果；本次只重做未通过的AST和原native完整admission。待实际run完成后整读状态，不提前称成功。完整新joint kernel及Laurent降算量backend仍在源级完成，尚未授权以preliminary source执行科学。
+2026-11-16 17:45:09 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main d86a3e8eaf36842458b78ff9a4c4b9833140d87b的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。

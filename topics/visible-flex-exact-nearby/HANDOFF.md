@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 17:43:22 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 17:45:09 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 规则、读点与完整前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只证明、文字、JSON/AST/hash/元数据。root管main/H/open/results/log，代理只交小blob。每结论独推，禁force；非FF立即实际git pull --rebase后保远端循环。PAT仅用户原话所给临时CLI/env，不写文件/输出/connector。根规12不新增审批门；根规15不存新数组/data/证书/artifact/Release，旧成功禁止重算。每新consumer预/立即启动计全publication+并行pending+120000B≤200MB；实际完成/失败仅按全部实际输出≤200MB保存，不另虚设postreserve。
 原partial/sparse checkout=/workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机16:31起无usable executor，每publication前/ref失败后仍真CLI尝试记错误；根规8暂UTF8<100KB集成，API核不冒pull，环境恢复即回CLI。最近实际公共pull为只读43920213897/1：17:37:23.005578 UTC→dc9e88ed14cc5120d4706966db45d22b9425ce25，另两次拒推后真rebase至未推本地deaf32dd（末17:37:25.641776）；两README全diff均空。全四回执及失败补存见notes/2026-11-16-R133-W2C-readonly-AST-failure-and-publication-recovery.json；下一真pull≤18:37:23。既有visible-exact-readme-pull.yml仍为纯运维备用；17:15成功run全日志/回执与此前迁盘细节保前页。
-最近只读README核：b837bebddded526dd7dbafec916799ff7531de6e；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
+最近只读README核：d86a3e8eaf36842458b78ff9a4c4b9833140d87b；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
 [截至W2C collar模块刊出的完整旧H](https://github.com/Rogerhu12/math-research-public/blob/9dfc7348e31a4467d392000fa83ba69f19e514be/topics/visible-flex-exact-nearby/HANDOFF.md)9797B/Git0bc65097c8dc614166e4f1d152228ae1b62a748b/SHA f323ccb5f1d763ce62a36bd366881b3762f42bb4546f93139b0b92cac22f8a9c，保全部递归前页、旧球/域/单位/mean/失败lost/每次cleanup精确恢复和未付门。本页只更新索引，未删数学义务。open原完整条件继续有效；H≤10000B/open≤30000B/每MD<100000B。
 
 ## 同一对象与总验收
@@ -26,7 +26,7 @@ W2H72bef388/W2C09ada380/WJK5b9a257a是当前新路线，始终固定原WVC的实
 [collar math合同](notes/2026-11-16-R133-true-collar-signed-packet-interface.json)02a6522b/21336/62d86a42与source fb065375/35870/891702f1已推9dfc7348：完整piece2549 cubic+65signed offsets/13 intrinsic/193误差、原实际η两optical records、三wordΔ/完整mean/转置adjoint/body域。224漂移896、center288/full416保；Decimal只诊断，原端点字符串不变。纯式/字段核已成，未运行科学或AST。
 完整consumer尚未可launch：7新roles为science、readonly_admission、readonly_core、collar_math、kernel_math、assembly_math、reference_math，另worker。原15定义AST+新7=22科学admission AST，另worker1=23，最终按实际完整roles派生；21恢复=原完整19 wrapper原字+新增2，不改旧scope/count。50无条件新目标、充分门真另2尚未算。原T等同算子整球copy，旧EHigh不可移；现无本会话在跑scientific child。
 [完整只读接口](notes/2026-11-16-R133-collar-Volterra-dual-readonly-interface.json)b391731d已推7291：core29b918e4/supp84aa5c46；43+44旧field、29copy4653B、原13771B壳不改，47/81native/21恢复/11CLI/7module+15定义AST全typed。固定WVC reference原d38e283f/c9caa335已推2d7cfc98；新增stable actions/two-rate helper dda86ff9/48841/9de0f66a仍无数值。source/math全部待公共AST/native实际核。
-[W2C owner及完整字节合同](notes/2026-11-16-R133-W2C-owner-schema-and-complete-output-budget.json)：owner c3dcce8b/44777/9f1857a3，worker5e9b7361/41945/b0f90c99已纯审；44SCI/29门/50(+2)全序，球先全存/readback，失败不裁。全52球+全oldscope+最坏错误模型97647<99000；29球与14/15 context无损共享，21全壳在同run execution全文并强hash关联，完整publication预算210000。kernel3a2a71ce/38250与assemblyd65ed709/60406只供此次严格readonly-only检查：graph1–3 scalar成本版，graph4压缩尚未接完，**禁止以此科学launch**。源码已推69597141。纯预检manifest见notes/2026-11-16-R133-W2C-readonly-preflight-current-inputs.json（60current/21history/23AST、readonly_diagnostic_only=true），readonly43920213897在reference764缺]的AST处失败，未到native、0科学/consume；全3960B execution+528B report由日志原hash补存，nonFF后local-tree API422另全保。一字符reference06e08a1f与容量local-diff worker e2a6bf86已修，v2-current-inputs独立清单待纯预检；final joint backend继续，完整预算210000+120000。
+[W2C owner及完整字节合同](notes/2026-11-16-R133-W2C-owner-schema-and-complete-output-budget.json)：owner c3dcce8b/44777/9f1857a3，worker5e9b7361/41945/b0f90c99已纯审；44SCI/29门/50(+2)全序，球先全存/readback，失败不裁。全52球+全oldscope+最坏错误模型97647<99000；29球与14/15 context无损共享，21全壳在同run execution全文并强hash关联，完整publication预算210000。kernel3a2a71ce/38250与assemblyd65ed709/60406只供此次严格readonly-only检查：graph1–3 scalar成本版，graph4压缩尚未接完，**禁止以此科学launch**。源码已推69597141。纯预检manifest见notes/2026-11-16-R133-W2C-readonly-preflight-current-inputs.json（60current/21history/23AST、readonly_diagnostic_only=true），readonly43920213897在reference764缺]的AST处失败，未到native、0科学/consume；全3960B execution+528B report由日志原hash补存，nonFF后local-tree API422另全保。一字符reference06e08a1f与容量local-diff worker e2a6bf86已修，v2-current-inputs已推7ee7f0e3，现单独触发纯预检；final joint backend继续，完整预算210000+120000。
 
 ## 腰与全部未付接口
 
