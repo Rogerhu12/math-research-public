@@ -626,3 +626,8 @@
 - R877单A原源纯IO激活：原R827 Bnormal依赖决定1234原R787行，复用R842旧S5及R849小DAG；四原artifact实际活跃，不整下5GB包，不重旧B/矩阵/逆。
 - R854读取在core receipt的真实core_sha256字段处停止，现只读兼容source_sha256/core_sha256并要求相符，不重写原身份；仅重试必要metadata，数学不重做。
 - 本push规则：公开Actions真实pull至bed3fdd60cee8976a1554c97feb5a1663d5a2fa1（2026-11-16T08:26:32.530871+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:32 Asia/Taipei — serre-public-astra-20261115
+- R876纸证完成九域范数的全曲线理想与原刚性化：非étale/剩余次数、M0参考、dual7方向、三全纤维672minor、目标271单rhs；实际九理想/支持仍未算。
+- R877纯IO全成功，1234原行逐spec绑定旧Bnormal；R873的4960carrier已到，真实line356选基窗口误判须修；R854读回N_B56/depth55 rank0及NeedPrecision，原响应仍缺。H完整归档。
+- 本push规则：公开worker实际pull并更新两README读SHA，root6979d793/topic35f82f3d；纸证与必要原源IO，无本地数学/无raw入Git；主目标OPEN。
