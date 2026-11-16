@@ -213,3 +213,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 15:40 UTC：R539另一固定母内的真实净负总矩与单矩零
 
 [R539](results/R539-one-fixed-gram-and-a-real-negative-total-matrix-entry-in-the-orthogonal-library.md)从起点一次选有限ν2/配套ν0，完整缩放loader和真实端点IFT给负中心；常高尾保大T_e而b1/b2一致有界，先有限L后ε再δ严格压过完整正前段。R538强收敛把净负及唯一单矩零点落到同一真实K0路径，t1仍负/其余返回门未付；全文纸核，无科学执行。R538已推a6427fe03c2a66ca10891c09824cda48e641bc7c，两次NFF均实际rebase且双README空diff。当前仍58/3047.102915103秒147值，继续各自同规范有限幅控制及whole-suffix接线。
+
+## 2026-11-16 15:43 UTC：R540同一正支的大幅真实到达
+
+[R540](results/R540-same-positive-null-branch-and-real-large-curvature-with-negative-total-matrix-density.md)完整纸证同R533/R536母/χ下的合法盒选择、短高度下降实际X>0接入、同支null有限弧及保真m的有限平台/光滑过渡。追加时长可短且三p无速度平方，故真实k>2时保总p1<0；其它矩和第三成本可能大，全部返回门仍待。root全文纸核，无新科学执行；后继直接研究同一实际输入的t1/其余矩。R539已推cd4ba1f560bd49d63f43d0c382efae0294473b45，15:41:16实际pull双README空diff；当前58/3047.102915103秒147值未变。

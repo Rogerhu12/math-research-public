@@ -104,3 +104,5 @@
 - [R538 完整四阶矩单路径泛函与真实强准备](results/R538-complete-fourth-order-matrix-functional-for-prescribed-height-paths.md)：**已证明**同χ、真固定d开放入段及预给有限C⁴高度下，d/δ²与j/δ²强收敛，真实总p1/δ⁴趋于∫(2D_h²−h²J_hD_h)。D_h保完整A/T，常高度尾负中心已明确；尚未由本稿实现负例，其余七矩与返回门仍待。
 
 - [R539 同一正交库与一次Gram的真实净负总矩](results/R539-one-fixed-gram-and-a-real-negative-total-matrix-entry-in-the-orthogonal-library.md)：**已证明**从起点选有限ν2，完整高度loader/端点IFT把真实四阶缺额送到负中心；有序常高尾的有界二次漂移使总p1<0，同一尾可准确停到单矩零。t1仍负，其余七矩和全部返回门未闭，不授同母M0或跨母拼接。
+
+- [R540 同一正null支真实到达k>2并保净负累计](results/R540-same-positive-null-branch-and-real-large-curvature-with-negative-total-matrix-density.md)：**已证明**同R533/R536母/χ的真实下降段准确接X>0，有限合法null参考弧与保完整m的有限光滑大速度脉冲给实际k>2且总p1仍负。其它五矩的速度平方成本及完整T全保，未M0/末端/pose/period。
