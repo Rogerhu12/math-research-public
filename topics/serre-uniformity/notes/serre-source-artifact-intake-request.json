@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-R787-actual-ended-300min-checkpoint",
+  "request_id": "20261116-R815-original-Gamma-actual-ended-checkpoint",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "88eddc3c2044013b993ce4e8a43b2546094d53fe",
+  "rules_last_read_commit": "64228da6693769dcf70fb8bcaec4a72ad0faa445",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,18 +12,18 @@
   "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R787-primal-actual-ended-300min",
+      "label": "R815-Gamma-actual-ended-300min",
       "source": {
-        "run_id": "43846878233",
-        "source_commit": "fe3da6c73f0b1ea87a9b57f5f520eca8647ec1e9",
-        "artifact_id": 14237434353,
-        "artifact_name": "serre-global-R787-original-power5-function-relation-43846878233-1",
-        "archive_bytes": 472657363,
-        "archive_sha256": "85bb473206cad22c1b59a7cdf3ddd23373e9acd0f0818c110c3b62aadcf1c025",
-        "artifact_expires_at": "2026-11-17T15:17:40Z",
+        "run_id": "43853995004",
+        "source_commit": "c1b3bfb1a0deae3c4b75da514ffcbb8530ae59d3",
+        "artifact_id": 14246345143,
+        "artifact_name": "serre-global-R815-original-normal-derivation-operators-43853995004-1",
+        "archive_bytes": 4854538446,
+        "archive_sha256": "e33c97bbcd2516623839e67031ceb6bd46b39ac92ff4204ab808a411c4ba29f4",
+        "artifact_expires_at": "2026-11-17T16:08:03Z",
         "expected_conclusion": "failure",
-        "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
-        "wrapper_sha256": "42157e0d95eb5d9aed28ef828a86dc5e7bec89e806e3e0a92aa0bcb1a36988b6"
+        "core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
+        "wrapper_sha256": "ab725da038ec458493f461088ceee0fd105e0dc90cbfb4ad6f3047cbec90b454"
       },
       "mode": "ended"
     }

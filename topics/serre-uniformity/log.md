@@ -431,7 +431,12 @@
 - R905连接目标求值仍待R922；原两端order待R917；R921保留c1分支点及未知首项，主目标OPEN。H/open前态逐字归档并压缩当前接口。
 - 本push规则：公开Actions真实pull至f4d0c3cf67793648314b3094f3b291ce6f938086（2026-11-16T16:08:01.520461+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-17 00:09 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-17 00:10 Asia/Taipei — serre-public-astra-20261115
 - R917六执行源全文核读并激活：共同θ0²/273叶、仅损a首一/四块idealizer、完整8³及双向Laurent逆；真discrim4才停，40原件直接消费。
 - 只认证两端原rank8正规order/primitive-t帧，五目标272/NmΦ/height均false；R919实际43904104159/133428298451已计算，真pull1e0ecf18/16:08:17UTC两README无变已读。
-- 本push规则：实际pull/rebase比两README并记H，变则只读diff即遵守；每结论即推/NFF重拉重推，数学仅公开Actions，raw仅必要一日artifact，保前态且无独立测试门。
+- 本push规则：公开Actions真实pull至6f20a2be4707cebed09652888fb05f58a3ee3d60（2026-11-16T16:10:05.917171+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:15 Asia/Taipei — serre-public-astra-20261115
+- R919实际43904104159成功：66stage/1.784166740s，九δP/8维Euler行/272正常目标像与八个全A0恒等式已成；完整A272/E2176/幂零/原dual7帧保留，七连接等false。
+- 原19MB artifact全77成员仅IO核SHA及证书，FINALc5b5a3a4/manifest3caecf79；R917真pull64228da6/16:10:22UTC两README无变已读。R815实际ended仅取必要断点v24，未以预算判负。
+- 本push规则：公开恢复实际pull/rebase逐次比两README并记H；每结论即推、NFF重拉重推至成功，数学只公开Actions，raw只必要一日artifact，未设独立测试门。
