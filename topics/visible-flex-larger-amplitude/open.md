@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R557/request234](results/R557-two-worker-complete-source-chain-and-necessary-scope.md)/[接口](notes/2026-11-16-request234-two-worker-complete-chain-interface.md)九件完整独立刊**：616=304public+312gen，原235全部545保、12层；57真实far消费者/必要/quiet和六metadata接已刊R556，同一ω/全112/原25M/绝对钟/准确Arb+ctx/原序全账及commit/失败未访齐，实际7→10 plan-copy修正。原全部C/原场/门/18900+2700/90K70不变，正式刊后唯一POST，R558 exact唯一。两旧25整理已80840b54/实际topic198701537、两次NFF均立即pullrebase+全guard重做成功，完整实际回执本次补入note。
+
 **[两旧25清单普通整理](notes/2026-11-16-two-twenty-five-domain-manifest-retention.md)**：本次仅两manifest1355425B移出，固定71bdd同字恢复，实际新audit76570完整/18组101行/真实artifact reader读取路径及全部当前warm/status/数组清单/源/gzip/5+5兄弟保。最后每次真pull全delta完整扫/两blob复核，240仅21个与祖先逐值同的source pin generic命中明确解释，非新增候选读取者；不拿未扫/历史聚合冒全部无引用。240已bce880e/run43887312387/compute133368868125唯一POST200，官方绑定本次保；容量后立即完整R557/234刊发。
 
 **[R573/request240](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)五件完整独立刊**：已刊R572真十caller/一次安装，447=360public+87gen、原237全部432与八对象+lanes不变；五×17/full last及全部旧/unknown统计、原overflow70/false和两reader完整保。原三R534数学consumer/全部128/replay/FD/fullDN/final fresh audit与19200/allcaps/90K不改；原历史来源说明准确JSON pointer不是删数值字段，无速度/fit/接受承诺。正式刊后唯一POST，R574 amplitude唯一；R557/234完整616源待容量整理即独立刊。

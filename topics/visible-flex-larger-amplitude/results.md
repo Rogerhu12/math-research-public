@@ -69,3 +69,5 @@
 - [R573 — request240五原合成乘积与完整当前模型入口](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)：五件278766B/topic254471B；447源/原432和八对象+lanes保、真实十caller一次R572、全5×17/旧统计/两必要和原门/钟不变；正式刊后唯一派发，实际R574另付。
 
 - [两旧25-domain manifest完整当前引用及固定恢复](notes/2026-11-16-two-twenty-five-domain-manifest-retention.md)：新独立实际76570完整必要/18组101行/真实artifact读取路径，只有两manifest1355425B普通移出，所有现用输入/兄弟保，最后实际delta/候选字节及topic容量守护。
+
+- [R557 — request234两worker完整源链与必要域](results/R557-two-worker-complete-source-chain-and-necessary-scope.md)：九件413261B/topic321559B，616完整源/原545全保、57真实far消费者+必要/quiet/六metadata，原25M/绝对钟/全账/全部门与90K70保持；实际R558另付。
