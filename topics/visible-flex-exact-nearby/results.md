@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WGB：精确graph参数化与真实有限边](results/R133-supplement-exact-graph-parameterization-and-physical-finite-border.md)（30cd8f7858888c35f942094611614c9f74b3e2af，25135B，SHA256 e7d23c583205fcb538fd21260e2e9c5b4859ed73ab6129a453b8c5d1fb05bf7c）。同Mbar graph换元得到完整Id+K和one-loss后ΛJ^-1/3尾界；高列96真实约束保。若真96physical列已给，精确差列(Hphys−MbarCQ)VQ Gbar进入完整UV，继而(q,z,κ)的全high feedback/rhs/metric border条件等价。未赋任何reference列物理身份，未求cutoff/determinant，独立mean/head/infinite ports均保。
+
 - 2026-11-16 — [WADA：实际完整物理腰部第一行界](results/R133-supplement-actual-complete-physical-waist-first-row-bound.md)（30cab13becdb586afbfb9ce40ac7e1f04fd71c27，54113B，SHA256 2737f96d34450992a78e0244b7932ee3e0e91e8371d8f99b866327ce9dd70ba5）。唯一公开Actions43803459418/1、16门/9新球，完整同natural-root H−4/3到raw primitive L2第一行界选整记录4.7487985998848693668…e83；旧14球/9完整scope、全部mean/cut/PC/ST4/3070jumps/waistFT不减。SCI/exec/report与两个preGit完整恢复身份独核，old/lost0，成功冻结；尚非小扰动/有限逆或WPL不同归一化新数字。
 
 - 2026-11-16 — [JI：全实严格区间上的真实角向逆](results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md)（839fa641fe9ce3758ee69cfe3cb4299f59a3a239，11769B，SHA256 01e4a33be5d895ccbfc949310a86bf561c8dccdfe1c1eff973fa1298fcc91cf1）。完整P/primitive角算子在odd→even mean0上以精确scalar denominator充要化；原SJ全Wiener/β/η界直接给D_J≥(79/128)e^-7/4>0。显式各固定Hs同一一导逆、全真meanrank及原N7/firstrow保；仅真交域粘合localrootJ，不外推旧常数/complexstrip。0数值，新J0/J1为符号费，未授whole residual或PDE逆。

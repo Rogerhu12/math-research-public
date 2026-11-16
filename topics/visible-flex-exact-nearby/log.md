@@ -222,3 +222,9 @@ J解决的仅nonmean第二行；z physicalmean不是内部c=Π(uh1)，原N7和�
 root阅读全文54113B/2737f96d，核WAD.26–36的同一输入/输出/端点/source单位，完整JSON附录逐对象同实际SCI相等；旧14记录原文全在。实际SCI/exec/report此前已完整核身份，两个preGit分别34123B/e83934d0及8646B/2eb34878已由最终小文件独立重建完全相同；未取大joblog，未重任何数学。Tail独核旧ST25门与SW24门、7input/3AST及9新球whole选择，不把new16门混入旧schema。
 
 该同row大上界仍不授小扰动；physical Ih1要保ng0/√q0，WPL坐标另保U_Hinverse与Ni，leading也同变。signed cancellation、真实finite/mean/ν/head和全非线性仍未付。本条无新科学执行，run43803459418/1锁。fresh read 4d647c2463809a6d4ce18e588bb40ec9148d98f9 两README未变；继续global U和完整源。
+
+## 2026-11-16 04:33:13 UTC — WGB 完整graph换元和有限边独推
+
+root全文25135B/e7d23c58独核域、投影和高/低块各符号，并回读WFI实际graph定义与Mbar低reference。Newton正式核2/5–6/8，Tail正式核3–4/7并fresh核WCS。F=[(Mν−Mbar)+E]Ptilde仅先投进true域，未把E扩到unqualified circle；Gbar的loss1后只剩ΛJ^-1/3。VQ Gbar的96约束不因参考延拓消失；只有真正physical列到位才可替换为差列UV。
+
+完整(q,z,κ)符号和rhs由直接消元核过，第二aux行为z−Vu=0，不能与零约束行混号。所有physicalmean/metric/highfeedback及未消的infinitehead原样，固定νi不是metric variation。本条零数值、不重成功目标，fresh read 9b05bfc5160bf667cde0cb0ba059b0c8b0332bd5 两README不变。

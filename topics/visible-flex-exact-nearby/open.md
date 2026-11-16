@@ -62,6 +62,8 @@ $(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$，
 
 [WFI实际graph与有限指数账](results/R133-supplement-graph-domains-and-finite-index-ledger-for-the-reflected-waist-row.md)7abf7f41：显式real低96 reference只补模型，先由Mbar在L2有界证明L2入graph；真transported96列落graph、dual在H−1有界，故Dtrue闭余维96。whole E只在真实子域经H−1紧嵌H−4/3，实际同齐次高列→whole反射primitive target Fredholm index=−96。投影到ordinary high target得到index0仍须96条真实低输出式；新增96真物理列也只给index0，不授span cokernel/ker0/逆。source/target必须运输实际graph，independentmean/ν/head/radial及fullPDE仍独立。
 
+[WGB同graph参数化与真实有限边](results/R133-supplement-exact-graph-parameterization-and-physical-finite-border.md)e7d23c58：$u=\overline Mx$给完整$Id+K$及新门$(2K_{CY})C_F\Lambda_J^{-1/3}<1$，未求数值。原高列仍须96式$V_Q\overline Gu=0$；仅真96物理列$H_{phys}$就位后才可改为$Id+K+(H_{phys}-\overline MC_Q)V_Q\overline G$。完整$(q,z,\varkappa)$高反馈/rhs/trueν三块条件等价保，reference不代physical，未知infinite mean/head/rest不冒有限。
+
 **当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。WFI已闭真实transported补在graph上的有界性与指数账；仍须实际physical有限列、全部输出交叉、pairing及匹配square逆，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 
 ### 2b. 已付系数、坐标与原强界
