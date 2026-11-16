@@ -168,4 +168,24 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 
 ### 四cut输入分类修复：同一个600秒账户继续
 
-[准确修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)用原RationalRowGrid.classify与159子空间，只要求真正variable metric行逐序等于原5743 tags；support外零导按原证明处理、其值仍完整扫描，5+4及installed行逐hash保。首失败原FINAL_CLOCK读原log一次，旧36.79963991600005秒和restore debit1继承，另明列未导出context的一次repair，仍同600秒；其余finite/全网/新行/actual配额全部保原。5源码与241绑定，request54701B/23a9bc6681d45928e9f5742c04eb8bdf4fb57844b6dcfb4b0ae0d83a962b8967；唯一续run待登记。闭合或失败后继续真实下一子题，所有几何完成门保持。
+[准确修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)用原RationalRowGrid.classify与159子空间，只要求真正variable metric行逐序等于原5743 tags；support外零导按原证明处理、其值仍完整扫描，5+4及installed行逐hash保。首失败原FINAL_CLOCK读原log一次，旧36.79963991600005秒和restore debit1继承，另明列未导出context的一次repair，仍同600秒；其余finite/全网/新行/actual配额全部保原。5源码与241绑定，request54701B/23a9bc6681d45928e9f5742c04eb8bdf4fb57844b6dcfb4b0ae0d83a962b8967；唯一续run43826338594/research133160965959/source de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5正在执行。闭合或失败后继续真实下一子题，所有几何完成门保持。
+
+
+### R476：Z块完整重复漂移已消，单份内部方程仍欠
+
+[完整证明](results/R476-full-third-diagonal-kernel-is-invisible-to-disjoint-rank-one-circles.md)对真不交rank-one平面P，任意τ∈Z=kerΔ都有τ(P;P,P)=0作为全区间函数；局部A_vv=0、齐次二次与三右零常数均保，不仅三个外矩。于是实际A_B=0/T_B∈Z块对任意真实incoming a,b原样传递，任意重复的每个内部位置K_j=K0；可以原R80真分配有限Z目标并令总T=τH。第四仍V+2T(a;D)−4T(φ;φ,a)，一般a不在P；不能删基准或把整个块结论下放给A≠0子桥。全W仅因子化ΔW18，旧库quartic门未免费支付。R480继续完整有限观测增强；所有路径仍同一13核、一个最终规范。
+
+
+### 原布局描述接线待修，全部已付时间继续
+
+[第二输入失败](notes/true53-four-cut-layout-descriptor-failure-20261116.md)：run43826338594/research133160965959已继承首clock，却把简化coordinates.layout传给要完整published descriptor的原子空间。仍0finite/JVP/新行/scalar/actual；同task91.37788493000002秒、累计1750.3576756209998/128值，restore1/repair1均保。只修真正生产descriptor接口，全部finite/全网/actual配额不重置，继续同600秒；若再次恢复未导出context则明确增加修复计数。最新actual双pull07:49空diff，下一08:49:48。
+
+
+### R479：当前多cap并非五余量正权平均
+
+[准确scope](results/R479-common-cost-coefficients-for-several-real-caps.md)从原两源/全部suffix给逐包(Hd,He)=a³(R,−T)S且(R,T)非同零；在wholeE/O_all0/current0、原全role复制与affine查询前提下，partial是向量，不能平均抵消。通用Af多项式使共同response self仍恰3；共同成本条件是每cap五Δ都0，且c、A7/s、A0/(h³s²)分别共值。正幅宽不改变这些比值。分别构造的库不自动共F★；保非零current、改变query/复制等新入口不在此排除范围。R481继续允许单cap的真实五门全零/全局目标，不能由R477开放像直接结束。
+
+
+### R480：全W外矩/任意A0块重复漂移已付
+
+[新完整母库](results/R480-finite-full-third-outer-moments-and-zero-matrix-prototype-ruling.md)从起点加入全部28交换子×3真实外矩×≤10平移系数的有限F（至多924生成、不称独立）；完整local变分差和三Green边项、唯一线性u'''的真IBP给quartic C²。任意3×3有序核的前缀次数≤5/对称对角≤4，余只原三面积；原十矩/12copy/五block一次同付，不新增复制层。R455同四q图册/限制最大minor/原20principal同点选择给真实有限库。全W的I_j(φ,T(φ;D))全θ0，故任意真A0/T_B∈W块的重复全s K_j=K0；第三incoming b通常仍变。下一解每个真实块自身K0、A≠0子桥与唯一13核规范；全部第四V/一般w项保留，R468的actual条件必须同这个新F库，不能混旧冻结库。

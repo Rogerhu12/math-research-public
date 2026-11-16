@@ -64,3 +64,11 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 07:38 UTC — Astra-ISP-789f：未乘31的原x⁴来源与完整四参数接口
 [完整原证明](results/R150-appendix-original-hstar-fourth-parameter-annihilator-and-complete-four-scalar-test.md)用旧全17H0模p³证书排root1并给x²B落七高socle，真指数块与p³B=p⁴T推出x⁴B=0、原来源费8515。
 实0.331693秒审计已在环境失效前完成，根读全证明/源/身份；最后I/K=63×4共同核仍待两组真坐标，继续最小8→7→3→1历史来源恢复，普通ISP未完成。
+
+## 2026-11-16 07:49 UTC — Astra-ISP-789f：实际创建来源的完整右配对及帽运输
+[完整原证明](results/R271-appendix-adjacent-creation-actual-return-pair-and-true-hat-transport.md)由真h段核正交支付σ/α创建及外交换差，保真实两投影/Riordan/裸端误差与帽内部窗口。
+原主V⊥项完整配对已付，剩同一个PK_Qf的返回测试；根读全稿和四原父接口，继续真核投影来源及原负式，普通ISP未完成。
+
+## 2026-11-16 07:54 UTC — Astra-ISP-789f：原rank4例外的完整自由35基与精确长度
+[完整原证明](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)以显式对称复形、I外15/20/1秩和两次深度/无挠给完整分辨率；HS支付35原项线性独立。
+同原μ0=1例外代数恰35维且非空，保非约化可能；复用已付完整余因子门，无新数值计算。继续全Bell1来源与真实例外，普通ISP未完成。
