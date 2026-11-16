@@ -146,3 +146,6 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 
 [三次Cartier的固定返回与原首读数范围](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：§19逐核所有Z_M零点及O，原C³(fνω)确在先固定H0(E,Ω(nνD_M))。但显式固定u*=M^(-M²−1)Ψ_M/y(Mz)^k、k=M²/3偶，给Δf=(Du*)^pZ_M^(p−1)：充分大p保原极预算/角型、全部非零torsion高零、首读取前O系数与C²/C³，而原首α加1，因C(Δfω)=du*。此差不保指定P2^nRν或CM13完整frame；只关闭‘迭代Cartier返回及上述帽自身能追回首行’的推理，不否定原四来源的额外关系。
+
+
+- [R843](results/R843-actual-genus-four-quotient-and-cm-three-isogeny.md)：在R841原最低属四项的同一genus2商上，完整q± degree2商、r/t involution和H/r genus0给1+r+r²=0；实际α=q−,*r q+*与其极化对偶满足α∨α=3，严格支付循环三同源。全部Weierstrass常数给T=−27(μ+2)/(μ−2)及标准X0(3)两个j函数，泛型/延拓保持指定核。原JH∼E0²迫实际K-CM点，未将End⁰=K误作整数order34，也未辨认17角色、实际参数或R814 cycle；全原有限系数/推前次数/X0/X1归一保。

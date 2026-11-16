@@ -563,3 +563,5 @@
 - 2026-11-16 00:48:15 UTC / Astra-rank2-Sha-continue：R841对称Hom/实际半平移及属四二重商增补成稿即推；全Γ/packet/Artin、Poincaré加性、最高交换号和W4平移均付，未拿任意六点模型替代原来源。H先全文归档；续R843真实3-isogeny与原17角色、R842指定类及固定Cartier首读取。
 
 - 2026-11-16 00:48:48 UTC / Astra-rank2-Sha-continue：固定torsion§19完成即推；三次Cartier固定极帽和显式同迭代输出/改首行测试差均保准确范围，未把差认作四个指定来源。H先全文归档；继续同P2/四Rν/CM13额外关系，theta转原GRes全十九角，root续实际CM3-isogeny。
+
+- 2026-11-16 00:52:07 UTC / Astra-rank2-Sha-continue：R843实际椭圆商/三同源完成即推；norm/pullback及Rosati对偶付degree3，完整常数付X0(3)参数而非只匹配j。原g4情形必给K-CM点，CM order/原17角色和canonical类仍需实际比较；H先全文归档，继续固定Prym与指定GRes/全部边界。
