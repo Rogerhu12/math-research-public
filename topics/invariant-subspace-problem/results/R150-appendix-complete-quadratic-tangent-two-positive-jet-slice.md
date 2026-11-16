@@ -123,3 +123,29 @@ $$
 The [interface](../notes/2026-11-16-r150-critical-quadratic-tangent-two-interface-789f.json) pins each completed parent outer receipt, its raw receipt identity, its manifest, and all five source dependencies. Parent bindings differ by field and are not relabeled.
 
 The three new computations are not reported as completed here. Immutable child checkpoints retain full mathematical arrays temporarily; a budget stop exits with code $75$. Only actual complete original products and independent heads authorize a new positive length bound.
+
+## 6. Actual exhaustive result: the enlarged high slice equals the previous slice
+
+All three tasks have now completed in run **43756208221** with exit code zero. They used exactly driver SHA256 `ae0b291dbcd88509044c2d4933782aa73d9717de73e476f9bb62b864f4aceaac`, the frozen helper pins, and each field's actual immutable parent.
+
+| Field | Mathematical seconds | Top pencil rank / nullity | Symmetric compatibility shape / rank | Complete high dimension | Combined rank | Full leading rank | New length |
+|---|---:|---|---|---:|---:|---:|---:|
+| $F_+$ | 19.256911595999554 | 18 / 2 | $153\times47$ / 45 | 2 | 50 | 13 | 0 |
+| $F_-$ | 23.841089172001375 | 18 / 2 | $153\times47$ / 45 | 2 | 50 | 13 | 0 |
+| $E_8$ | 132.4904519189986 | 18 / 2 | $153\times47$ / 45 | 2 | 50 | 13 | 0 |
+
+The old 135-coordinate high slice has dimension two. The new program checks its inclusion in the complete tangent-degree-two high slice and checks that the latter also has dimension two. Therefore the two high correction spaces are **equal**, not merely equal in a projected rank. This equality concerns the stated high slices; the larger low block is retained separately.
+
+The expanded low constant block has shape $102\times59$ and actual rank 46. Its same-parent 25-unit Schur block has shape $77\times34$ and rank 21. The complete final equation has shape $102\times74$ and rank 50; its Schur block has shape $77\times49$ and rank 25. Its kernel has dimension 24, but its projection to the thirteen leading-chain coefficients has rank only 11. Adding the two exact pure degree-five heads gives the complete verified leading rank 13.
+
+Every original cochain product is checked: 321776 coordinates for each cubic and 241332 for $E_8$, plus 12376 original products for the two high columns in each field. Every old Taylor coefficient and all inherited earlier-chain equations match the immutable parent. There is no new canonical lifting hidden in this comparison.
+
+Thus the complete tangent-degree-two slice, paired with the specified larger low block and inherited lower jets, still proves only the paid full local lower lengths $6,6,4$. The upper bounds remain $8,8,5$. This result does not exclude a correction with normal degree three through five, tangent degree three, or different complete lower jets. It does not change the current global degree or characteristic-zero target membership bounds.
+
+### Actual receipt and temporary certificate identities
+
+- **plus:** [actual receipt](../notes/r150-source-kernel-session-789f/43756208221-critical-plus-quadratic-tangent-two-positive-jets.json); execution `d911b71c93dd43ea63c6faa66d29e43df2205c0d`; raw 6265 bytes / `7bd8cf63125751bcdbf95e07f7663af34874ccfa793328df283da523a262e352`; binding `60f622f497289f0c64d0133c769012de6816b100c336813f2492b1bc00960f24`. Complete temporary cochains: 123661 bytes / `4202e2a389d59041f61299ae5e08e5cef79928429001185d6f7dd09cc67a9661`, payload `2a6dbb8213ad69a8a5b05b63afe035ab35ec88be27ed562b4c8fa57d7ee243ea`.
+- **minus:** [actual receipt](../notes/r150-source-kernel-session-789f/43756208221-critical-minus-quadratic-tangent-two-positive-jets.json); execution `9ddddb3d6d1ddd2d97bbd435993493f3dad4bffb`; raw 6269 bytes / `e695f0593b8d8376af7485bc55ded5a794a73adbcec4fce32ea83c2623463111`; binding `6b040e74a47d880e49b95cc3694a470938c9818b3a1d8ba8037ecc59b98b2cc7`. Complete temporary cochains: 183011 bytes / `1cba73e2dfb8162e272a39979a173c7165fbebe504f9adc1042c0c6525b11cae`, payload `f5d840dc7719638d6d277d5ae9d648b9f505197a8e9676eb09386e572f5fb694`.
+- **e8:** [actual receipt](../notes/r150-source-kernel-session-789f/43756208221-critical-e8-quadratic-tangent-two-positive-jets.json); execution `058b83f9b5a7451a5fe99165299c6ae8e3b686ed`; raw 6108 bytes / `be2cf4f70842db5b74272718b5c74ed868b06af3def2e810722f730636aed58b`; binding `c1a4842b0a7da51fb7a11d831a3594598c67bab365a01f3a4de9ccc4ce7f8edd`. Complete temporary cochains: 538197 bytes / `e6863bce8997b0c645632f00071961f7fc13ba310f8856e443d649fdd8ea8167`, payload `6bc50deda52b2d92ebca8f45854fa6db8a273c77f66dc700b546e66a1577bcd3`.
+
+All large arrays remain temporary. The next declared candidate adds an actual normal-degree-three constant tensor; the present equality is not used to omit its original high-source constraints.

@@ -547,3 +547,7 @@
 ### 原全参数来源在s=63的第一系数127 Bockstein入口（2026-11-16）
 
 [完整算法及接受门](notes/2026-11-16-r150-original127-root63-source-bockstein-interface-789f.md)固定原whole299的唯一s+64对偶，原4433系数及6188全部来源mod127²，重放1834真global Z/69407428 reductions；任何正值须reverse全6188再核4367原产品。只有完整正证结合∞127/J127=0才得Δaff≤298；零只限第一页。源码6a932e17/3ee3b83d全根审，排180秒/1GiB，未预填结果。
+
+### 原tangent≤2三域实算：两高切片完全相等且无长度增量（2026-11-16）
+
+[完整原回执与证明](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)：plus/minus/e8实际19.2569/23.8411/132.4905秒，34×20 rank18、153×47 rank45，完整新high维2且实际含旧2，故两高空间相等。低102×59 rank46、完整102×74 rank50、leading11/full13；所有原6188乘回和父Taylor身份真。仅此扩大空间无增，不排normal≥3/full连接，局部仍6…8/6…8/4…5。
