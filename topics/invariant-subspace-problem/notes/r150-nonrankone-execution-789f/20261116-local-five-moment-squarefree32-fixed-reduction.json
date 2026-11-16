@@ -1,0 +1,57 @@
+{
+  "format": "r150-original-five-moment-squarefree32-local-execution-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "executionKind": "actual-local-exec",
+  "githubActionsRunId": null,
+  "source": {
+    "path": "notes/2026-11-16-r150-original-five-moment-squarefree32-fixed-reduction-789f.py",
+    "blobSha": "12fc8f80f6b475d00b231449221cf720bc8edf65",
+    "bytes": 9917,
+    "sha256": "f7aa75ac0f78fad0cfb7882fb497a38c284e8527da2da7e89f61ceaf46f27327"
+  },
+  "parameters": {
+    "seconds": 60,
+    "memoryMiB": 1024,
+    "prime": 127,
+    "matchedResidue": 100,
+    "standardBasis": "all squarefree monomials in u0,...,u4"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "command": [
+    "python3",
+    "notes/2026-11-16-r150-original-five-moment-squarefree32-fixed-reduction-789f.py",
+    "--model",
+    "{work}/five-moment-jacobian-actual/complete-five-moment-jacobian-gate.json.gz",
+    "--out",
+    "{work}/squarefree32-actual",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "1024"
+  ],
+  "toolIdentity": {
+    "chunk": "2e5b11"
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 0.3755828349967487,
+  "binding": "67f86e42cd7b1e01e30ca0184d136e2983842cfd6df31d28bd3d75fc8a0e8b33",
+  "outputs": {
+    "receipt": {
+      "bytes": 1534,
+      "path": "original-squarefree32-fixed-reduction-receipt.json",
+      "sha256": "6ada56d430ba73ae6479645d02f66d20a028c294f852a1cf170bc8007bd9af3c"
+    },
+    "model": {
+      "bytes": 578763,
+      "logicalBytes": 1185065,
+      "logicalSha256": "b74faeb4ddf0a8ea38f6ece1585c437b01611f06cd11a1822ce9e145b902e62f",
+      "path": "complete-original-squarefree32-fixed-reduction-operators.json.gz",
+      "sha256": "4be5d8a3a900799d41e5428671e1453a30082f0fdb8c3c2a130b416563031c42"
+    }
+  },
+  "storageScope": "Only sources, parameters, execution identity and output hashes."
+}

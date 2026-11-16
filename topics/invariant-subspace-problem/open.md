@@ -26,7 +26,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 当前接续：R150完整非rank-one Bell非零问题
 
-1. **在有限32代数中保留剩余十二个梯度。** [全局坐标](results/R150-appendix-global-matched-bell-hyperbolic-coordinates-and-normalized-critical-ideal.md)以固定数域多项式双逆给B_r=y·w，原17梯度完整运输；B=1时需R′和全部切向导数，不能二次归一yi。[原五u完全交定理](results/R150-appendix-original-five-moment-jacobian-complete-intersection-and-parameter-free-rank32.md)已付全210×350、Q表示630×1050满行秩及全参数五梯度商free32。下一构实际32单项式基/固定常数降次映射，消费六∂yR′和六∂wR′，在y·w=1后判完整理想；不存在以五梯度商秩32直接宣布全critical商空或同秩的推论。
+1. **在有限32代数中保留剩余十二个梯度。** [全局坐标](results/R150-appendix-global-matched-bell-hyperbolic-coordinates-and-normalized-critical-ideal.md)以固定数域多项式双逆给B_r=y·w，原17梯度完整运输；B=1时需R′和全部切向导数，不能二次归一yi。[原五u完全交定理](results/R150-appendix-original-five-moment-jacobian-complete-intersection-and-parameter-free-rank32.md)已付全210×350、Q表示630×1050满行秩及全参数五梯度商free32。[实际squarefree32基及原常数降次映射](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)已付；下一构剩12梯度的完整12×16低次正规形及原五source校正，再消费六∂yR′和六∂wR′，在y·w=1后判完整理想；不存在以五梯度商秩32直接宣布全critical商空或同秩的推论。
 2. **完整自然幂及算子桥。** [全wt6的388来源](results/R150-appendix-complete-matched-bell-coefficient-charts-and-natural-square-nonmembership.md)已证三个匹配B_r²均不在原完整J；不排更高幂或√J。若取得根理想/自然幂来源，还须支付全原来源费用、实际Bell算子共同域、振幅清分母与同forcing运输。只取三个Bell的乘积非零会漏掉只一个非零的点，始终逐匹配方向处理。
 3. **允许的真实临界层。** 已付全部ess(T3)≤3时matched Bell零；[原W±的Cat3正支](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)确有完整33梯度零点，所以不能要求整个Cat3层空。真正Bell非零只可能ess4/5/6。两原子参数ab(1−st)D开集已给I=(M,Z)，Cat3另有degree2643消去D(y)；这些开集不覆盖其D=0/合流例外，但有限32全参数模型没有先删这些例外。
 
@@ -49,3 +49,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 原G_reg的同forcing/carry，Haar普通循环性，正常态与边界奇异态的区别，有限秩相容链，原首低通道短旗，以及归档内所有其它未闭接口继续。固定次数/有限层的计算结论不扩成一般全H、未知限制或全不变子空间格结论。
 
 每个子问题得到结论后立即更新HANDOFF/log并实际推送，然后继续本文件及归档中的下一未闭项。只有普通复可分无限维Hilbert ISP的完整定理或完整反例才可收尾。
+
+- **R150实际无平方32基及原常数降次映射（2026-11-16）：** [完整原块证明](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)保预先固定的全部u^ε、ε∈{0,1}⁵；degree2…6原完整输出15/35/70/126/210及全部来源在合法(127,d=100)实选原unit，det44/58/5/60/1，132652左右逆坐标真。每原E块以adj(U)/det(U)给固定常数精确降次，未称展开巨逆；同32基对全部参数及B=1有效。剩12梯度u次数≤2，NF只落16低次基，先付原source的12×16参数式；行的线性span不代完整ideal。实际0.376秒/raw1534·6ada56d4。

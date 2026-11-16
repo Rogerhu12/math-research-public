@@ -1,0 +1,47 @@
+{
+  "format": "r150-original-five-moment-squarefree32-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-five-moment-squarefree32-fixed-reduction-789f.py",
+    "blobSha": "12fc8f80f6b475d00b231449221cf720bc8edf65",
+    "bytes": 9917,
+    "sha256": "f7aa75ac0f78fad0cfb7882fb497a38c284e8527da2da7e89f61ceaf46f27327"
+  },
+  "parent": {
+    "sourcePath": "notes/2026-11-16-r150-original-five-moment-cubic-complete-jacobian-gate-789f.py",
+    "sourceBlob": "a923dce5f28f17eb2d12d26306ead7ff410b3615",
+    "sourceSha256": "ed98a483008a74a081d4b2a75101b5a47fb56d861de23e063fe2686a71e68ae5",
+    "temporaryModel": {
+      "bytes": 962420,
+      "logicalBytes": 4435758,
+      "logicalSha256": "cef307471088203fcbb763223e132b90ecc3867158241366a364e934e16971d7",
+      "path": "complete-five-moment-jacobian-gate.json.gz",
+      "sha256": "05301272897e83766ee604aa0873c0b5af977aa2fe5263fa37e51a0cd73dc6ca"
+    }
+  },
+  "parameters": {
+    "seconds": 60,
+    "memoryMiB": 1024,
+    "prime": 127,
+    "matchedResidue": 100,
+    "standardBasis": "all squarefree monomials in u0,...,u4"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "command": [
+    "python3",
+    "notes/2026-11-16-r150-original-five-moment-squarefree32-fixed-reduction-789f.py",
+    "--model",
+    "{work}/five-moment-jacobian-actual/complete-five-moment-jacobian-gate.json.gz",
+    "--out",
+    "{work}/squarefree32-actual",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "1024"
+  ],
+  "storageScope": "Only sources, parameters, execution identity and output hashes."
+}

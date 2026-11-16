@@ -100,3 +100,5 @@
 - **R271一位硬核的完整源Schur与同源两阶高度矩（2026-11-16）：** [完整两mode证明](results/R271-appendix-one-bit-hardcore-complete-source-schur-and-joint-height-moments.md)保全部横向源/自然域，给真2×2 Gram及完整Schur；真实投影损失被该位双占据能量与可行核列能量夹住，原逐位准确累计到kerL_m。再于y∈[x,2x)、辅助t∈[Sx,2Sx]一次选同源，使Σ[j+j(j−1)/x]E_j≤30000 Vx≤30000Δ_Q²，Vx→0；选参先于全部Q，x=m+d时Q≥6d在原母窗。未把辅助方差称物理尾，未将后续重新最小化源换成当前源；公共指数塔障碍/实际全核返回仍开。
 
 - **R150五余变量完全交与无参数例外的自由秩32（2026-11-16）：** [原全范围证明](results/R150-appendix-original-five-moment-jacobian-complete-intersection-and-parameter-free-rank32.md)对固定原纯三次保全部degree6的210×350来源，Q正规表示630×1050模127满630；225原polar坐标及47250有理列清分母乘回全真，14.830秒/raw1747·1af39e72。由m_u^6包含得五二次梯度regular/Hilbert(1,5,10,10,5,1)；反对称Koszul降次给完整参数F_i=∂u_iR′的初始理想相等，同32单项式在任意参数及B=1后仍free。只倒固定E常数，原来源u次数≤max(D−2,0)；剩12梯度和全Bell非零饱和继续，未称全critical商秩32。
+
+- **R150实际无平方32基及原常数降次映射（2026-11-16）：** [完整原块证明](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)保预先固定的全部u^ε、ε∈{0,1}⁵；degree2…6原完整输出15/35/70/126/210及全部来源在合法(127,d=100)实选原unit，det44/58/5/60/1，132652左右逆坐标真。每原E块以adj(U)/det(U)给固定常数精确降次，未称展开巨逆；同32基对全部参数及B=1有效。剩12梯度u次数≤2，NF只落16低次基，先付原source的12×16参数式；行的线性span不代完整ideal。实际0.376秒/raw1534·6ada56d4。
