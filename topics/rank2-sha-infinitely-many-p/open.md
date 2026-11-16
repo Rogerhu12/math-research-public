@@ -177,3 +177,7 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 
 [R851](results/R851-original-schoen-map-and-horizontal-cycle-transport.md)：原Schoen式在同一τ=x/y+y+1/x坐标中给N=ker(μ3³→μ3)完整不变域及有理逆，故E0³→W0(9)精确degree9、R850 Z→W0(9)余degree3。原Q下降显式保全部17 Artin角色；完整Jacobian det与residue约定付F0*ΩW=−18ΩA，不添未定period。proper graph/Π_T与source3完整运输原有限cycle，保所有异常项和原6/12/1632/816。每个有效原曲线在∞的τ首项1/(2z1z2z3)，极阶m_f+m_g+4m_h≥6，下降后≥2，故主像水平；只排literal CM竖直相认，不排Chow等价，也未付R814指定canonical或跨p非零。
 **继续：** 保(29)完整原水平类及R814的非Dirichlet auxiliary角色，求真实cycle或regulator恒等式；不能用字面CM纤维、有限域Griffiths结论或同H³代替。
+
+
+[R842 同一兼容对的准确原点尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)：全部W′/Ftt项在真函数域相消，D_R=c_s t^(2r+1−s)(1−t)^3s K_F(qV1+Eq V0)dt，K_F=2Ft EFt/e²−Ft²f2/e³。原T_M=s−r−13下Vi=t^T vi，P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eq v0)，1≤r≤11；r≥12零。仅原短系数j≤10<p使用3s≡1/2，未替全局W；r2准确读每vi十个真实余尾，未新增物理消失条件。W_T上[b0]=−B_D−P_r且原ω1项零，mask保P行；相对长J窗口才有P零，不移给原M或更小三长核。
+**继续：** 同一vi的P短行须与全正/负/固定/∞边界及实际高前缀兼容核联合；不把这些截止之后的尾赋零。

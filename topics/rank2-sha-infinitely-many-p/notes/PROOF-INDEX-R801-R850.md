@@ -251,3 +251,6 @@
 
 
 后续独立编号见 [R851–R900](PROOF-INDEX-R851-R900.md)；本卷各条未付条件仍保留。
+
+
+[R842 同一兼容对的准确原点尾](2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)：全部W′/Ftt项在真函数域相消，D_R=c_s t^(2r+1−s)(1−t)^3s K_F(qV1+Eq V0)dt，K_F=2Ft EFt/e²−Ft²f2/e³。原T_M=s−r−13下Vi=t^T vi，P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eq v0)，1≤r≤11；r≥12零。仅原短系数j≤10<p使用3s≡1/2，未替全局W；r2准确读每vi十个真实余尾，未新增物理消失条件。W_T上[b0]=−B_D−P_r且原ω1项零，mask保P行；相对长J窗口才有P零，不移给原M或更小三长核。

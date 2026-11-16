@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：067aee2bc7fdf59f3411ec7bf206a59825cdb9da；2026-11-16 02:31:50 UTC核两README无变。实际CI pull 2026-11-16 02:16:33 UTC/0e06d735aa9b083b88db09fad54fa437fe3d0286（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:54 UTC仍无环境。最迟2026-11-16 03:00 UTC再实际pull。
+- 最近已读规则提交：c0e7336c28b8d1b1f83306e3a0781069f57c0f48；2026-11-16 02:34:13 UTC核两README无变。实际CI pull 2026-11-16 02:16:33 UTC/0e06d735aa9b083b88db09fad54fa437fe3d0286（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:34:12 UTC仍无环境。最迟2026-11-16 03:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,9 +11,9 @@
 
 ## 完整检查点与当前分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-r851.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R851-R900.md（前卷沿链）、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-r842-origin-tail.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R851-R900.md（前卷沿链）、open.md。
 R1–363、365–560、562–653、655–711、713–851已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算原CY与模纤维积/canonical对应，root核证明/实际曲线canonical比较。R851原Schoen映射/全部尺度已付；literature与root续非Dirichlet good-pair的实际canonical比较；下一独立编号R852由root协调。
-实际CI pull 02:16:33/run43791155440/job133049634328成功，head 0e06d735，两README差异空。回执ci/rule-pull-20261116T021633.json，下一03:00前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
+实际CI pull 02:16:33/run43791155440/job133049634328成功，head 0e06d735，两README差异空。回执ci/rule-pull-20261116T021633.json，下一03:00前。
 
 ## 原端点、CM来源与实际曲线
 
@@ -25,7 +25,7 @@ R804/806/811/814原z=(1/30)prK twν(eηu∞)、固定7/13 good pair、三λ/34δ
 
 ## 原完整 critical Hecke
 
-R838完整critical代数A_p=E[t]/t^e、exact=mM及实际dν=a1(t^(e−1)Pcrit Hν)给AJ=(E1β/Eβ)P dν，全部Euler/period、X0/X1归一见原证/归档，不赋单位。实际R=E[[τ]]、x=uτ^e；Cν=bν/w′，lim eτ^(e−1)Cν=dν。全Igusa自扭τ↦−τ迫e=2s_p、u/b偶/C奇；商v=τ²、Cbar=2τC。主极项非零/canonical仍开，未假e2/第一支CM/ordinary。
+[R838](results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)保完整A_p=E[t]/t^e、exact=mM、最高dν及AJ=(E1β/Eβ)P dν，Euler/period/X0/X1尺度见原证/归档且未赋单位。真R=E[[τ]]、x=uτ^e、C=b/w′给lim eτ^(e−1)C=d；Igusa χ−3自扭迫e=2s_p，u/b偶、C奇，v=τ²商Cbar=2τC。指定主极项非零/canonical仍开，未假e2/CM第一支/ordinary。
 
 ## 四原中央与同一个Cartier模型
 
@@ -42,6 +42,8 @@ R813/822原ResP=γ/6单位及完整γ/6+G_F+B_F=0，GRes读W_sFt²E²R/Y²。R83
 [负水平全trace](notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)保原D_Q=(t−tQ)⊂Z、长ℓ≤b和全部奇点S=Tr(1/T_i′)，总D_-≤2b/H3满射；V_T需T+degD_-<2κ+χ，W_T未知。[Jacobian商](notes/2026-11-16-r842-negative-fiber-jacobian-quotient.md)准确为A_Q/ann(Ft qtilde)，长max(0,ℓ−u−v)，最高系数−c_s tQ^rWQ s0(ℓ−u)²q_v单位；行零iff原乘积零，degH2 double-root长≤b−1。[全分歧转置](notes/2026-11-16-r842-moving-horizontal-full-ramification-adjoint.md)仅未吹起moving且ftunit：d∨ν=e_Ug[w+ε(m−1)−εDx](ν/g)，负rankm−1/核读约化值，正系数2b+1..3b单位。光滑/node区别、同ω补零及全部单位见原证/归档；固定十九角/奇点与实际Q'_T/W_T全局像未付，优先真正同ν左关系。
 
 [全局同源mask](notes/2026-11-16-r842-negative-fiber-global-mask-and-same-source-boundary.md)用degY N_Q≤b−1的真Θ_-支付整负移动行；底分母≤2，原正水平帽3b+1/底∞T^(3−2u_F)/十九角全保。W_T上[b0]=G_F，ω1的P项准确零；D_R−Θ_-仍保r≤11真尾（r2十项）。未称mask为Q_T截面，续同G全部边界联合。
+
+[准确P尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)付全函数域K_F=2Ft EFt/e²−Ft²f2/e³；原T_M下P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eq v0)，r2读每vi十个实际尾，r≥12零。W_T上[b0]=−B_D−P_r；J长窗才P零，不移给M，全部q Euler及同G保持。
 
 ## 其余未闭门
 
