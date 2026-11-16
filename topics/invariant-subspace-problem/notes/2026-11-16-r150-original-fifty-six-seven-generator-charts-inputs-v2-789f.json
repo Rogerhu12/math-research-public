@@ -1,0 +1,126 @@
+{
+  "format": "r150-original-fifty-six-seven-generator-chart-inputs-v2",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete-fifty-six-seven-generator-charts-v2-789f.py",
+    "blob": "45d506b45f7d8f2a0b6e59509de8b3baa18b6f25",
+    "bytes": 17966,
+    "sha256": "c1fb5a29177fda97390f62eec8abcb3e4ea4a7cb72034bd606202cd945c7c27b"
+  },
+  "parents": [
+    {
+      "role": "presentation",
+      "path": "complete-original-ten-generator-critical-presentation.json.gz",
+      "bytes": 12551,
+      "sha256": "f008cb6bfbb51d0efbe929399b18ef2d7384cb7739b24dc942b25b016211259c",
+      "logicalSha256": "e96e100317ead08232c6e4d6ef2a4dc1a33339a3909cb5e761d02983b709957a",
+      "binding": "11473d55e9cf229685bcbebf59fe30fea9c2b00e8fa225bac6d3d0ca71b7ef76",
+      "recursiveFiles": "complete base arithmetic DAG named by arithmeticDag"
+    },
+    {
+      "role": "minor",
+      "path": "complete-original-mean-three-minor-gate.json.gz",
+      "bytes": 16989,
+      "sha256": "0758cde1aea1561d6c15c09be9bcd624fc872fd18b36b5d05888e5d5863b00c7",
+      "logicalSha256": "1a714682b89b903e7f1c9dbd1eebee799eff29db096caacc5f2bb649a6c5d740",
+      "binding": "49cec78fbc0845655333ef7dc4b6614d0a02eb1adbdd9ba82554cfd9ada16edd"
+    },
+    {
+      "role": "six",
+      "path": "complete-original-six-mean-ten-generator-model.json.gz",
+      "bytes": 1395,
+      "sha256": "bd300391aff8f1f95860cbf614feb6a53f8a16c2d855b5fdf1df178d7337f061",
+      "logicalSha256": "9961cbd32e7dc693bdfb1ab5819ca419372d6e297ca5af23149ae480d6dac4a1",
+      "binding": "2c120983a234d63f52e19d0f81a8f486b3d5dad5ca010f1ad74ebe9c7045e7f0",
+      "recursiveFiles": "complete original four E tensor matrices named by completeQuadraticTensor"
+    }
+  ],
+  "selection": {
+    "derivedOriginal57Columns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "selectedOriginalMinorCount": 56,
+    "totalOriginalMinorDictionaryCount": 80,
+    "selectionIsOriginalCoefficientUnitBasis": true,
+    "onlyOriginalChartMinorInverted": true
+  },
+  "limits": {
+    "seconds": 90,
+    "memoryMiB": 512,
+    "outerSeconds": 120
+  },
+  "expectedScope": {
+    "completeCharts": 56,
+    "eachMatrix": [
+      7,
+      54
+    ],
+    "eachOriginalSourceMatrix": [
+      18,
+      54
+    ],
+    "matrixUDegreeAtMost": 1,
+    "freeOrEmptyClaimed": false
+  },
+  "storage": {
+    "largeArraysTemporaryOnly": true
+  }
+}

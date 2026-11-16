@@ -1,0 +1,66 @@
+{
+  "format": "r150-local-original-fifty-six-seven-generator-charts-execution-v2",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete-fifty-six-seven-generator-charts-v2-789f.py",
+    "blob": "45d506b45f7d8f2a0b6e59509de8b3baa18b6f25",
+    "bytes": 17966,
+    "sha256": "c1fb5a29177fda97390f62eec8abcb3e4ea4a7cb72034bd606202cd945c7c27b"
+  },
+  "inputManifest": "notes/2026-11-16-r150-original-fifty-six-seven-generator-charts-inputs-v2-789f.json",
+  "historicalFailure": {
+    "sourceBlob": "9386af26224a07102654b53e14a2f591fa43c4ca",
+    "sourceBytes": 17889,
+    "sourceSha256": "d47b5e47e96933371e99545abe3b6830b829f587e36e670bc72fd0010214d0ef",
+    "completionChunk": "ec7583",
+    "elapsedSeconds": 0.3713665800023591,
+    "exitCode": 1,
+    "error": "complete original selected labels",
+    "receipt": {
+      "bytes": 509,
+      "sha256": "170f0466d3e0d153318c6af6dc0f92ff7903cbd6dc7bfd0b932aee05c7863757"
+    },
+    "completeChartsClaimed": false
+  },
+  "actual": {
+    "startChunk": "73e9fb",
+    "sessionId": 20968,
+    "completionChunk": "667396",
+    "completedUtc": "2026-11-16T06:37:23.370470+00:00",
+    "exitCode": 0,
+    "elapsedSeconds": 7.132909848005511,
+    "maxResidentKiB": 72944,
+    "binding": "ad9efd97def71be282ace34d218e8c78c50c2d362fb9fef0a753025fd9891247",
+    "receipt": {
+      "bytes": 1472,
+      "sha256": "f5a8a0dbb84474ffc74e5e732983403c94311b94d700df90c10427d631e43145"
+    },
+    "model": {
+      "bytes": 6452,
+      "logicalBytes": 16181,
+      "logicalSha256": "b9ec3af3d8196524d30ec94a9dc2daca0ce790d0578e7c96d9c42b7089bc355d",
+      "path": "complete-original56-seven-generator-critical-cover.json.gz",
+      "sha256": "8bc2901b3ee9631ea3f53fdb03fe62051cae0b3b83532ed07ba6ce7acd48a707"
+    }
+  },
+  "scope": {
+    "completeOriginalChartCount": 56,
+    "totalOriginalMinorDictionaryCount": 80,
+    "eachMatrix": [
+      7,
+      54
+    ],
+    "eachSource": [
+      18,
+      54
+    ],
+    "sharedBaseNodes": 105774,
+    "onlyOriginalChartMinorInverted": true,
+    "wholeBellOneCover": true,
+    "sourceProof": "exact universal adjugate and complete original row/column identities",
+    "emptyOrFreeClaimed": false
+  },
+  "arraysCommitted": false
+}
