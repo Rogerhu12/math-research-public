@@ -1,0 +1,13 @@
+{
+  "request_id": "rank2-20261116T0836-original-cm-norm",
+  "utc": "2026-11-16 08:36:48 UTC",
+  "parameters": {
+    "M": 1024,
+    "bits": 384,
+    "unit_window": 6,
+    "top": 6
+  },
+  "image": "sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb",
+  "scope": "Original beta_j squared, all bad Euler factors and fixed Artin embeddings; rigorous Arb AFE tail, actual target area, all-unit global degree bounds including the proved 17 divisibility. Finite unit window is not a global optimality or integrality certificate.",
+  "output_policy": "Public Actions console only. Persist script, parameters, run metadata and hashes; no coefficient output files, artifacts or releases."
+}

@@ -1,0 +1,52 @@
+name: Rank2 original CM norm and degree
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-cm-norm.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/check-r873-original-cm-petersson-degree.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-cm-norm-request.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-cm-norm
+  cancel-in-progress: false
+jobs:
+  exact-original-norm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/rank2-sha-infinitely-many-p/README.md
+            /topics/rank2-sha-infinitely-many-p/scripts/check-r873-original-cm-petersson-degree.py
+            /topics/rank2-sha-infinitely-many-p/ci/original-cm-norm-request.json
+          persist-credentials: false
+      - name: Bound original CM Petersson norms and Hom degrees
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_IMAGE='sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb'
+          docker pull "$RANK2_IMAGE"
+          RANK2_ROOT_README_SHA="$(git rev-parse HEAD:README.md)"
+          RANK2_TOPIC_README_SHA="$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)"
+          timeout 900 docker run --rm --network none \
+            -e GITHUB_ACTIONS=true \
+            -e GITHUB_REPOSITORY="$GITHUB_REPOSITORY" \
+            -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
+            -e RANK2_RUN_ID="$GITHUB_RUN_ID" \
+            -e RANK2_RUN_ATTEMPT="$GITHUB_RUN_ATTEMPT" \
+            -e RANK2_ROOT_README_SHA="$RANK2_ROOT_README_SHA" \
+            -e RANK2_TOPIC_README_SHA="$RANK2_TOPIC_README_SHA" \
+            -e RANK2_IMAGE="$RANK2_IMAGE" \
+            -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=4 \
+            -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
+            --entrypoint /usr/bin/sage "$RANK2_IMAGE" -python \
+            topics/rank2-sha-infinitely-many-p/scripts/check-r873-original-cm-petersson-degree.py --M 1024 --bits 384 --unit-window 6 --top 6

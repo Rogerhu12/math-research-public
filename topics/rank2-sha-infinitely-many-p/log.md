@@ -121,3 +121,5 @@
 - 2026-11-16 08:30:11 UTC / Astra-rank2-Sha-continue：R872实际quartic第三carry/中央第一高位全证即推；root逐付同X参考p³整性、−6a/+12a两折回、A2窗口、A4本行严格不达及合并native商。完整Bτ与四中央联合，S可调性定位原K1第二长块末三尾，未认原全页forcing。
 
 - 2026-11-16 08:32:36 UTC / Astra-rank2-Sha-continue：R866附A原坏17必要整性全证即推；root亲读CNS v3印p4光滑∞/整q盘，逐付最小Δ8和Néron首项n/a。17∤n在所有权/原unit/3同源都不整；producer加17门并supersede旧不可能run，等待实际回执，继续真实范数与同原shadow。
+
+- 2026-11-16 08:36:48 UTC / Astra-rank2-Sha-continue：R870首批两固定k2矩阵满秩结论及完整run/hash即推，k4取消无结果；新17guard成功。发布R873独立公开范数producer，M1024/bits384，含原全部β²/3Euler/Artin、Arb严尾与面积及17²全unit界，候选窗不冒整性或最优；继续等待真实范围。

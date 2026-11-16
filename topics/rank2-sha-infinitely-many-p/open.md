@@ -125,3 +125,7 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 继续判同原K1三个最后尾的真实受限像与同R补偿；单行单位响应、L1闭式或纯quartic子格零均不代完整第三类非零。
 
 - [R866附录A](results/R866-original-modular-function-certificate-and-level-nine-model.md)：原17处最小模型a3′=17v、ordΔ8给ωv=aω′；原X0(2601)的∞整光滑q盘上Néron延拓迫首系数n/a整，故实际nΞ0必有17|n（理性r亦v17(r)≥1）。原整unit与3同源备选经已付整逆/dual返回，同样排除17∤n；与权和截断无关，不认17已足够。
+
+- [R870附录A](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：公开run43827859642的(n,k)=(1,2)/(2,2)真实410×240矩阵在好素数1000037均秩240，严格排各固定低核；k4只到基构造，取消无结果。R866原17必要条件后，run43832115772成功执行参数门并停止无效请求；完整source/args/run/hash保，不假原坐标成功。
+
+原CM范数producer已公开触发，先由真实n17和全部unit的次数下界判定可行权；k4取消没有提供结果。

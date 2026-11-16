@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：98af3af68ba4f76a6464f51cd67892177d03a807；2026-11-16 08:32:51 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:32:50 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
+- 最近已读规则提交：04fab584d9b948bef545586f818bc205dbd29d91；2026-11-16 08:36:49 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:32:50 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -25,9 +25,9 @@ R862/R864固定原17挠点乘积h、H9/L、全Λ((2))=−2、τ/ℓ/c与可逆�
 
 R866/R869原Cv:Y²+vY=X³，Ξ_i*ωv=Hi，Ai=2^11κΞi；H0/Ξ0真下降F=Q(∛17)。公开run43822409558固定全cocycle；run43825112263给T9/Φ17（18×18/总34/291项）及三H541项（各98非零/含2）；脚本/参数/hash齐，不保存重算输出。
 [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：D=X0(867)，h=H0³∈S6。A,B∈M_k，C=(DQ A)B−A DQ B，C³=n³hA²(A+vB)²B²检查0..612(k+1)并保原germ/∞即认nΞ0。k2维120/低409/末1836；成功degree≤204，真degree≤119保证k2解。低核任意非零元同一比值，可有共同cusp零。
-**当前运行调整**：R866附A已全证真nΞ0必须17|n，故原(1,2)/(2,2)/(1,4)对任何权均不整。本提交给producer加17必要条件并用同独立workflow的concurrency supersede旧run43827859642，等待取消/新guard回执；没有启动新的大矩阵。原坐标和shadow尚缺。
+**当前公开执行**：旧run43827859642已取消；(1,2)/(2,2)完整410×240矩阵模1000037均秩240，k4无结果。run43832115772/job133179793850的17参数门成功。现发布独立R873 CM范数producer，M1024/bits384/unit窗6/top6，严格AFE尾/实际面积/17²·3g及17²·g下界；待结果选择真实范围，未启动新的大矩阵。
 [R867附A/B/C](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：整R=2T7²+7T7−8T13−28与R²−2给两真unit、完整乘法表和整packet逆；全8/64/14邻点/Artin保。首系数不得免费归一，unit保持同n可积集合；认证后3n三基真整（旧57改进）。3同源备选Ψ=φΞ0/3成功经dual直接回nΞ0，但仅n0|nΨ|3n0，尚未付整性/度数改善。
-**接续**：literature正给原CM/Petersson三范数的快速精确公式/公开producer，核17²·3g（原）和17²·g（3同源）的严格下界后选真实unit/权；原指数3672、实际目标面积保。不是以小模型、首系数或存在算法替坐标。之后按R859算原交点非零。
+**接续**：literature正完成R873原CM/Petersson三范数的完整证明；公开producer已发布，核17²·3g（原）和17²·g（3同源）的严格下界后选真实unit/权；原指数3672、实际目标面积保。不是以小模型、首系数或存在算法替坐标。之后按R859算原交点非零。
 
 ## 当前第二门：四原B的实际同源关系
 

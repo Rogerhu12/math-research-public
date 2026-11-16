@@ -136,3 +136,5 @@
 - [R872](../results/R872-actual-quartic-third-carry-and-central-first-digit.md)：原quartic τ=k−13∈{1,2,3}、τ<ell≤r+h−4，固定同X=P+pR+p²S已过全p³，第三13带行ε³w^(τ+9)对实际首高位的单位响应准确−6ab0C0u²e²；第二块折回+12a不能漏。真实联合式Bτ+6aC0u²e²·η0F(h0)/p=0保全高尾。S的可调性正是K1上[w^(s+τ−4)]W2的最后三尾泛函，尚未判全同源页不可解。
 
 - [R866附录A](../results/R866-original-modular-function-certificate-and-level-nine-model.md)：原17处最小模型a3′=17v、ordΔ8给ωv=aω′；原X0(2601)的∞整光滑q盘上Néron延拓迫首系数n/a整，故实际nΞ0必有17|n（理性r亦v17(r)≥1）。原整unit与3同源备选经已付整逆/dual返回，同样排除17∤n；与权和截断无关，不认17已足够。
+
+- [R870附录A](../results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：公开run43827859642的(n,k)=(1,2)/(2,2)真实410×240矩阵在好素数1000037均秩240，严格排各固定低核；k4只到基构造，取消无结果。R866原17必要条件后，run43832115772成功执行参数门并停止无效请求；完整source/args/run/hash保，不假原坐标成功。
