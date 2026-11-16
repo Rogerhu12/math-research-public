@@ -237,3 +237,7 @@ Tail完整读8小primary；root完整读R127证明、R128实际17门报告及其
 有限ASCII parser处理裸/精确括号/中点半径/零中心半径，原badtoken未保存，不声称知道哪类触发。原3/5字段以原producer lower/upper hull读；float显示字段不作为bounds或reference。actual K/gamma正和Cref负门仍须真实通过。reference签名仅任意精确选择，完整signed差和原full96/65repair/4650行/3594接口全部付。document从完整旧SCI复制，5原球/witness/chain/count只读，first target不重start；唯一loop body1..152，领口分支移除。允许重做仅原parent1未保存内部工作，已成目标lost0。
 
 WPTVS证明da32e8e0/16633B/SHA461d0feb73c93829533bb978fb972bec75570d15ba6e30bc05341eadbd29495b，仅把Markdown行内定界符按根规4正规化，数学不变。root完整核source/reader差、三旧文件资格和preflight1580B/8a3c8724。完整success/false/partial SCI模型30314/29478/45435B<50000；完整execution latefailure78870B、readonlyfailure74652B<80000；全publication138000+reserve120000。按fresh capacity199213302B加代码净16052/manifest46338/proof16633与journals有充分余量。源静态括号核通过，真实AST仅公开Actions；本次新数学0，下一单独workflow才启动。3b98677a43241a2c91e56c3c804cec7fa098fe0b两README核同已读。
+
+## 2026-11-16 11:36:43 UTC — 单独启动WPTVS remaining-body公开CI
+
+源/manifest已先推da09f8fcc335ae3c27a1fde4eaa28c550fbded20。本次仅加独立 `.github/workflows/visible-exact-frozen-cross-block-remaining-body.yml`，固定manifest296d3f66与原worker4342/a3c1、公开本仓Ubuntu/Python3.12.14/flint0.9.0；原workflow和旧marker保。新problem只允许读原collar后续body1..152、固定m1,2与conditional inverse，无finite矩阵。fresh tree da09f8fcc335ae3c27a1fde4eaa28c550fbded20 实际199294965B，加138000完整publication、120000 reserve及本小journal低于200MB；worker预执行/立即science前再次真pull、核两README及容量。本次只是启动记录，不预断科学结果；任何失败先保存完整prefix再声明下一未完边界。README核da09f8fcc335ae3c27a1fde4eaa28c550fbded20同已读。
