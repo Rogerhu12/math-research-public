@@ -320,3 +320,8 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 ### R899 原七极trace的K固定完整RR基
 
 [R899](results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md)证明：V_K=H0(2H−T0)维418，原K完整纤维坐标实际可逆子矩阵A给QN·w·A^−1，凭坐标唯一性逐列K固定。旧下降矩阵A^−1γA为准确DAG，新固定矩阵I418无需六次重放；完整Artin评价与原P0/t首项边界保留。实际子式尚待公开Actions，不预填R894/R899成功，不冒D_N在K或Q定义。
+
+
+### R900 原K定义次数272trace代表及未缩放主函数
+
+[R900](results/R900-original-K-defined-bounded-trace-representative-and-marked-principal.md)给充分准确构造：同一R899完整K函数基的两截面取消QN后，在七整纤维注入V6，实际1234秩产生K固定146关系空间；原P0单位v再与第二截面真962秩产生完整K固定418及D_K272。QK=QN·w0/v∈K(Y)，主除子正向且原ρ/t首项保正c^8435。实际单位与秩仍待Actions，不预填成功，不替代Hecke范数/五Lj/高度。
