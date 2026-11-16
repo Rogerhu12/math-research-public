@@ -172,3 +172,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **[R910原normalizer限制](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)** 已证：真实全惯性u在fine Drinfeld quotient上(X,Y)→(q²X,qY)，q=u^(p−1)；q=−1为hyperelliptic，dual Lie同−1，排r=p−1。原Igusa普通datum经w1/−I给μ_(2(p+1))点态核，故h<(p+1)/2时r=0，h>(p+1)/2仅r∈{0,2h−p−1}。非零支两Lie线分别来自Drinfeld/Igusa；不假定Igusa ordinary，原a_h、指定盘normal、同h第五jet及height仍保留。sigma_uniform继续真实Igusa αp字符。
+
+
+**[R907九范数执行源](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)** 六件已全文读并冻结：corecf905290/helper7e4a8d88/wrapperb8a5f94b/method44e3ef90。原128给816×836真实672；完整A272/E2176中一次A[T] Berkowitz、19584坐标CH并正乘NormΦ，九值保全部幂零。QN另从R899真实闭包读取，不把R901 metadata当叶值；参考九值/旧K全复用。pending R903/R901/R899仍null，ARTIN已成43848870181绑定；两图九生成元/colon逆/dual7为准确表达，P0/P1数值仍false。exact_height继续原两固定支与两长度3轨道的端点帧。
