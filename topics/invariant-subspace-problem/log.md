@@ -388,3 +388,7 @@ native/独立checker及controls三文件全文静审，原77276×13808完整协�
 ### 2026-11-16 — Astra-ISP-789f：原权九维数与权十2171 Koszul上界（AI-assisted GPT-6 Astra Pro）
 
 完整μ6/μ5单射给2171独立原关系，原M10≤44133、ΓE10≤13697；原Q/7给ΓE9=4552，E200权≤9无关系/权10核≥111。新增13698增广子式门，未付新权10实际秩/目标；根与normal全文复核原M6/M9及新稿。见[正式证明](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。
+
+## 2026-11-16 18:02 UTC — Astra-ISP-789f：冻结原五次259完整来源小门
+
+源码/参数/条件证明全文审且SHA核同；新job仅116→high95→mixed95→quintic，保全部275原来源和300右端、实际rank分支及全产品。旧TMP不假存活，rank259前不宣120/130；见[接口](notes/2026-11-16-r150-original-quintic-koszul-span259-unit-interface-789f.md)。AI-assisted GPT-6 Astra Pro。
