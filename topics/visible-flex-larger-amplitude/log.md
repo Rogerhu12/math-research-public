@@ -249,3 +249,7 @@ open§1.3旧全文固定4cc33b31，§1.1/1.2及§2–6原字保；R598已刊、R
 ## 2026-11-16 17:36 UTC /root — R610 同一实际入口锚与完整前缀相对Gram输运
 
 结论：R610 source31602/4b49ea2a、proof20682/cab5c2e3、interface16588/85c1abc1完整成。原同次A(0)与全首节点/core锚接同一完整R601 C0/C1，原全覆盖正分母/径向积分/向外Gram界，原finish不重复、原clock与末门保；仅条件证明，未本地计算或新科学执行，闭面与振幅责任仍未付。完成即独立普通推，随后继续完整实际caller与原open责任。
+
+## 2026-11-16 17:43 UTC /root — R590 actual246 源完成、原科学1与双完整必要超限
+
+结论：R590实际246完整18119/23f154b3；451来源与恢复true，原外层/rules/science1、stop/signalnull、ownedquiettrue，source454913/be88aa4e和science150098/2d0cbfb4皆超90000，仅1802/1094原描述70。原两log由公开Actions各一次读，十events/双描述完整、无raw上传；removedfalse，内层科学原因不补造，report success只描述运输。完成即独立普通推，继续251/253与原open责任。
