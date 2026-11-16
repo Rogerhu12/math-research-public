@@ -141,3 +141,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原清转置启动修复**：[实际错误](notes/R787-cleared-dual-first-start-integer-reader-fix.md)run43785814509在原κ4311位整数读取触Python4300位上限；1481输入通过但无新数学stage。仅main加入sys.set_int_max_str_digits(0)，core969201b9、wrapper611e8ad8不改，resume null重新触发；不是RR/原q拒绝。全局consumer首run43787110788则在纯IO断言失败、core尚未运行，按真实来源诊断继续。
 
 **原c0首项已证明、数值待公开消费**：[完整纸证](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)d29ef204从R838 P0∉D及原K[T]简单模推出全部非零原Hom在c0不分歧。原t=a³下，六V=U/E6值/一阶仅用末四M6坐标与Φ0/Φ73；原λ³=108W(0)，五R_j准确阶14(p−q)，κ_j=N(108W_f)^(2p)/N(108W_g)^(2q)及d_j=−(qTr(W_g′/W_g)−pTr(V0′/V0))/2。全常数/真σ/正三同源/负理想类号保留；只是指定主函数比较的原纤维标量和首单位项，未完成标准Jacobian/规范theta二挠/Poincaré刚性化/height。旧M6/CM/大矩阵不重算，实际六值/范数/迹在本公开Actions继续。
+
+**原全局来源读取修复**：[实际R791旧ZIP差异](notes/R839-global-polar-old-R791-ZIP-contract-fix.md)首run43787110788未入core；前七源全过，原R791仅9输出+manifest、无reference。wrapper39bef619只对固定原身份严格适配并补traceback，最后一组实际IO通过；core995a1298/2709来源全不变，重新触发，未预填全局结果。

@@ -180,3 +180,9 @@
 - 原六V=U/E6值/一阶只需M6末四行和原Φ0/Φ73，R′(0)=−4、e′(0)=−1/(12s)；Ramanujan给(Da)³/E6=(1−t)²/[108(1−2t)]，故λ³=108W及首单位项准确常数。
 - 五原R_j阶14(p−q)，首项κ及d由真Norm/Trace给；指定帧比较纤维保全部常数，未称完整刚性化/height。H逐字归档压已成接口；dual读取单行修复已推1abe4778，全局fresh-fetch纯IO诊断中，主线继续。
 - 本push规则：本地真实pull至77c2feb545ec2bec069c6af8aee9328bad012468（2026-11-16T01:45:43.235363+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:49 Asia/Taipei — serre-public-astra-20261115
+- 全局首run43787110788/sourcec0387d67在纯IO失败未入core；真实逐源诊断前七组全过，R791旧ZIP准确9输出+manifest无reference，与后来格式不同。
+- wrapper39bef619只对固定R791 run/source/core/manifest及9数量接受原集合，其他来源不放松；补异常traceback，core995a1298/2709源与fp a2839071全不变。末组实际826B/3Range纯IO通过，不重前七组；requestf83a2c46重新触发。
+- 原c0纸证已推e289ffe5；五一阶有限精度consumer完整源码/来源270件已读，待激活。dual修复后run43787626643又有真实core失败，正在取其原输出定位，不把失败当原q拒绝。
+- 本push规则：本地真实pull至5f4e41117b9da76cc50d45b6416093bb1b9eaf1f（2026-11-16T01:49:44.814833+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

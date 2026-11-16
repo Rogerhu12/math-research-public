@@ -14,6 +14,7 @@ import signal
 import subprocess
 import sys
 import tarfile
+import traceback
 
 S=Path(__file__).resolve().parent
 REPO=S.parents[2]
@@ -276,7 +277,16 @@ def fetch_direct(label,source,retained):
         manifest=read(folder/MANIFEST);assert manifest['result']==source['result']
         entries={row['file']:plain(row) for row in manifest['files']}
         assert len(entries)==len(manifest['files'])==source['manifest_file_count']
-        assert set(archive.by_name)==set(entries)|{MANIFEST,REFERENCE}
+        expected_zip_names=set(entries)|{MANIFEST,REFERENCE}
+        if label=='R791':
+            # This fixed early producer predates the separate manifest-reference file.
+            assert source['run_id']=='43686308194'
+            assert source['source_commit']=='f945ef5d5aee4d8222dc791e39a0709b661cebbc'
+            assert source['core_sha256']=='11068eb00caa71e9c8ed1ffba0277534a52f5cce3402a59b68c7d5d66a8b7a4d'
+            assert source['manifest_sha256']=='4eeb9ba12e203f41d2525325bf1ae207b46baa2b88ad88b31de2c3ac58a317fc'
+            assert len(entries)==9
+            expected_zip_names=set(entries)|{MANIFEST}
+        assert set(archive.by_name)==expected_zip_names
         for name,row in entries.items():
             assert len(archive.by_name[name])==1 and archive.by_name[name][0].file_size==row['bytes']
         names=starting_names(label,source)
@@ -525,6 +535,7 @@ def compute(item,out,request_path):
                 exitcode=124
     except BaseException as exc:
         error={'type':type(exc).__name__,'message':str(exc)}
+        traceback.print_exc()
         print(json.dumps({'wrapper_error':error},sort_keys=True),flush=True)
     finally:
         core=read(out/'core-receipt.json') if (out/'core-receipt.json').exists() else None
