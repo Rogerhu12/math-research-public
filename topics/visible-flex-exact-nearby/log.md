@@ -97,3 +97,7 @@ Both README identities unchanged at 4a459acc8e430dbfe0ff232493c5ce1a9f493ced. Pu
 320bit；root collar+每rho-doubling band8subcells，最大161parent；只固定m1,2（≤322），不因false自扩。每完整parent原子保存5 running maxima及witness/ref chain，全4650/3594保；32顶层字段/17结构门/4或5complete targets，11或12新记录；完整3球候选后才strict比较，仅首pass才算同tail逆。未分配finite matrix，完整four-block Schur与两rhs/193mean/96 signed normalization/nu/Theta/背景与匹配仍待。
 
 静态预算不冒实际：19receipt模型13771B/SHA4705f2c3a093724ed7e21bfee9ed30d481105e1aec8446da55a14fb0a764d7ac；readonly preflight1580B/SHAf03bcda032ed6923a24717c7705c9a440c1558d45f1ea1bf06c2402fce703003。完整SCI pass23822/false22986、保守partial38925B，cap40000；完整失败execution模型52632B，cap80000；report8000，总128000+预留120000。reference identity≤8192门在新Arb reference bounds之前。科学child3300s/唯一consumed marker/全prefix失败保/非FF立即真pull循环不变。先冻结本包，下一独立workflow提交才启动；当前0新科学。
+
+## 2026-11-16 10:46:49 UTC — 单独提交 WPTV 一次性公开 Actions
+
+两README在 e219159a8309b014270217d7827c93b7cf228b7a fresh核仍同已读。源码/清单已先以e219159a8309b014270217d7827c93b7cf228b7a冻结；本次只接独立workflow .github/workflows/visible-exact-frozen-cross-block-value-tail.yml /2929B/SHAc1946707057e2f25ec5b238cccb3aeb1ae4449b73e36db9f92d02f0d849720a1，worker0699ff33和manifest4470a77b832b95ca6050912296eb1b45d8d6e84b4d65377d7a39e1c14a498423双完整pin。当前topic 199564512B，加完整128000B输出与120000Breserve及6000B记事缓冲≤200000000；runner必须再次实核。先真实partial checkout/pull与两README，再19原件临时恢复/完整readonly preflight/consumed marker/唯一3300s child。新run实际状态、科学结果和所有失败/未存边界待完整小文件回执；不把已提交当通过，旧数学不重算。
