@@ -261,3 +261,7 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 按已读根8小UTF8文件fallback，用连接器身份发布源码/Markdown；未传PAT，API读/expected-head合并不称原生pull或rebase，非快进保持他人提交并重新基于最新头发布。16:39读取1e17368751a8e517a7497aa9d14031ee4817598b双README身份未变。新Actions研究/报告首步均真实pull公私仓、核双README/QUEUE后才科学；回执另补H，本地恢复立即pull。工作流文件位于题外.github/workflows，因为用户明确本公开仓Actions且入口必须在该目录；没有改规则。
 
 [全51设计](notes/true58-full51-whole-suffix-design-20261116.md)/[完整合同](notes/true58-full51-whole-suffix-model-contract-20261116.md)和唯一请求绑定370源码，旧359hash不变；请求81390B/d6f68629b5d4824e46cec16da1ecd061456d823d0b2ef2b3a2deca7dc08ac172。释放原51控制+K/h，900总秒/360solver秒/240iter/480q/960backend，原g/b0/14门/172盒不变；原raw53和完整返回保全，大数组绑定摘要/RAM当前缓存，零临时磁盘科学数组。当前只源码文本/元数据，0科学/开发执行；push触发新公开研究，未授59，主门继续。R547/R548完整稿将逐篇读后立即另提交。
+
+## 2026-11-16 16:43 UTC：R547完整长时成本与真实返回层
+
+[R547](results/R547-complete-joint-matrix-cost-and-the-real-return-layer-after-large-curvature.md)完整原式纸证：原Π/t1/t1中心三个累计分开，任意时长负dc区域的正Π费用受限，当前尺度必须改k号或真实返O(L⁹)零层；原δ反向有向积分与完整ζ联合slab身份均准确，常高度放松下界不授原ruling等号。R546的负γ²成本与全部历史保留；未有慢入口。0科学执行，继续同χ实际返回。全51请求已在source077d1dbb9c184cf4c6edf3e4c20014880d810283启动run43910342020，尚无新观察；原生执行器仍不可用，继续根8小UTF8接口，API不冒pull。

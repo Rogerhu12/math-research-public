@@ -10,7 +10,7 @@ private于16:24:57.132524→16:25:17.334486真实pull读 **9c5ec050ed672180245cf
 
 16:26–27的本地public pull虽rc0，却报rebase-merge磁盘满且未整合upstream，**不算成功pull**；当时只在本地生成的H不授新读SHA。清理本仓126个孤立GC临时pack副本2016603782B，保全部正式pack和研究文件；16:31起执行环境不可用，后续原生push无成功回执。按根8用GitHub小UTF8源码/MD接口发布，expected-head且不force；**API读/合并不冒原生pull/rebase**。新公开Actions在科学前真实pull双仓并核规则，获得回执后补H；本地恢复后立刻原生pull。规则改变只读diff立即执行。详见log。
 
-本次API读取1e17368751a8e517a7497aa9d14031ee4817598b，双README与上述身份一致，不替代实际pull。旧CI回执及whole34缺失研究pull边界见各notes。三来源核对与所读SHA见[来源状态](notes/public-source-topics-current-state-20261116.md)。
+API读1e17368751a8e517a7497aa9d14031ee4817598b双README未变，不替代真pull。旧CI/缺失回执边界见各notes。三来源核对与所读SHA见[来源状态](notes/public-source-topics-current-state-20261116.md)。
 
 科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本/元数据/已有输出。PAT仅CLI/env，未给API。根12无额外开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。
 
@@ -22,7 +22,7 @@ private于16:24:57.132524→16:25:17.334486真实pull读 **9c5ec050ed672180245cf
 
 ## 3. 实际点58与全部最近数值账
 
-[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。原14/准确172盒真；η粗.26600541430262403/细.26600541463999305，κ细57.9997782607127@s.78/θ4.818744981678094。4454/4549池v15/14，峰η在.4725/θ0；.26与连续主门未付。physical94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54；ind168e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf。55仅永久constructor，58 CACHE2只确存U/T/e/f及selected二jets；不冒全grid二jets/J。
+[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。原14/准确172盒真；η粗.26600541430262403/细.26600541463999305，κ细57.9997782607127@s.78/θ4.818744981678094。4454/4549池v15/14，峰η在.4725/θ0；.26与连续主门未付。原物理/168身份及全部接受证据见真正58note。55仅永久constructor，58 CACHE2只确存U/T/e/f及selected二jets；不冒全grid二jets/J。
 
 旧ring17/反射R1/联合19/[free36](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)/[prefix102](notes/true58-prefix102-fixed-suffix-metric-failure-zero-solver-20261116.md)/whole34均闭账，0actual，完整原值/失败/费用在各notes。free36环成功但全bodyη6.9794/κ69803.9失败；prefix102的固定后缀η约.54517超预算.26600531463999305且102二jets零，0solver/J，不授连续不可行。prefixMODEL只保全scalar及后缀T/metric/二jets/曲率/PSD，不保全域派生/J。最新whole34原返回及总费用见§5，缺失输出不作免费输入。
 
@@ -35,6 +35,8 @@ private于16:24:57.132524→16:25:17.334486真实pull读 **9c5ec050ed672180245cf
 **R542**同33母原t1/中心t1的前缀−t0/8不能由整个O(L⁷)快族回收；归零须Q_c T≥−8T_c(entry)+∫(h′/h)²。γ0判别式、实际同支慢轨道/足够时长仍待，未排全母。
 
 **R546**同33母原输入付Δ≠0；完整M2表、X/Y真实B²快脉冲与端时间IFT给四预定读出中一条任意有限目标，保k>2/净负p1。原T/ramp全付，t1两方向仍非正；Y非零过Δ0为原正则延续，不授全矩返回。
+
+**R547**同33母真实入端Π=−O(L⁷)、原/中心t1≤−L⁻²/32；任意时长若k≥0、dc≤−d*，正Π费用限制t1恢复。必须改k号或真返dc的O(L⁹)层，反向δ积分<−3/2；联合ζ=2hη−k恒等排|ζ|≤1，原γ²/全部history保，未授慢入口。
 
 **R521为另一正交母库。** 固定有限正复制和共同0…10矩付全相位sin²θ、完整k″正系数；不继承R459/520共同cap/原20/13。R523短反射块Atot≠0；R526的倒行/四段闭词须先有真同χ M0/K0块及匹配germs，第四仍加倍/四倍。R528排无极点域正长度K0常态。R530/532双边全history反馈付四奇端IFT及四偶局部开像，小L t1负且参数间χ会变，不授M0。
 
@@ -52,7 +54,7 @@ R512/515/517的YC字面同形库和所有R469–509旧尾/period/13条件各保�
 
 ## 5. 已在继续的真实下一问题
 
-**O2**[whole34完整闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb，9/false/120iter，盒58/61与准确norm失败，0预测/actual，仍58。新184.71003744799998秒，总3231.8129525510003/147原full值；另142新两网q/120J/1920导数block，余额闭。joblog及runZIP只取3条尾记录367277B，MODEL/J/大trace正文缺失不能复用；raw36/q168/172与最终账确存。下一全原后缀51系数+K/h，释放旧R0方向，900总秒/360solver秒/240iter/480物理点/960backend；唯一true58，[新源/设计](notes/true58-full51-whole-suffix-design-20261116.md)与370源请求已接线，push触发一项新研究；尚无新科学观察，旧范围不重启。53原变量/返回全保，大数组只binding/成本；RAM仅当前q及所需J，0临时磁盘数组。原完整14/连续主门保。
+**O2**[whole34完整闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb，9/false/120iter，盒58/61与准确norm失败，0预测/actual，仍58。新184.71003744799998秒，总3231.8129525510003/147原full值；另142新两网q/120J/1920导数block，余额闭。joblog及runZIP只取3条尾记录367277B，MODEL/J/大trace正文缺失不能复用；raw36/q168/172与最终账确存。下一全原后缀51系数+K/h，释放旧R0方向，900总秒/360solver秒/240iter/480物理点/960backend；唯一true58，[新源/设计](notes/true58-full51-whole-suffix-design-20261116.md)与370源请求已接线，已由source077d1dbb9c184cf4c6edf3e4c20014880d810283启动run43910342020；尚无新科学观察，旧范围不重启。53原变量/返回全保，大数组只binding/成本；RAM仅当前q及所需J，0临时磁盘数组。原完整14/连续主门保。
 
 **O4**同R533母R536、同R521母R539各已付一次χ的净负总p1及单矩准确零，R540另已付33母同支k>2，R542已付快族t1总负/真实驻留时长门，继续各自同χ慢轨道、其余七矩和全部返回门。R537/538只授先固定有限高度/时长后δ，近k0的t1仍负；R530/532四偶局部开像尚无真零。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付，不能混母或逐段换χ。
 
