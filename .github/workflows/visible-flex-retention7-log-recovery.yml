@@ -1,0 +1,41 @@
+name: Recover actual two-twenty manifest audit once
+on:
+  push:
+    branches: [visible-flex-larger-retention7-log-recovery-20261116]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  recover:
+    if: github.run_attempt == 1
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Read one exact terminal audit and return its whole bounded necessary body
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python -u - <<'PY'
+          import base64,hashlib,json,os,pathlib,sys,urllib.request as U
+          repo="Rogerhu12/math-research-public"
+          blob="0b33cd62ca02312d0f963b2106827cec953b850c"
+          expected={"bytes":6260,"sha256":"54fb27e397fd930368d96375853402c8f43d4ca1c5e4ebceef0d22c345381da6"}
+          if os.environ["GITHUB_REPOSITORY"]!=repo or os.environ["GITHUB_RUN_ATTEMPT"]!="1":
+              raise RuntimeError("fixed-public-repository-and-once-attempt")
+          class NoRedirect(U.HTTPRedirectHandler):
+              def redirect_request(self,*args,**kwargs): return None
+          opener=U.build_opener(NoRedirect)
+          headers={"Authorization":"Bearer "+os.environ["GITHUB_TOKEN"],"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}
+          with opener.open(U.Request("https://api.github.com/repos/"+repo+"/git/blobs/"+blob,headers=headers),timeout=120) as response:
+              value=json.loads(response.read())
+          if value.get("sha")!=blob or value.get("encoding")!="base64":
+              raise RuntimeError("authored-reader-source-response")
+          raw=base64.b64decode(value["content"])
+          if len(raw)!=expected["bytes"] or hashlib.sha256(raw).hexdigest()!=expected["sha256"]:
+              raise RuntimeError("whole-authored-reader-source-identity")
+          path=pathlib.Path(os.environ["RUNNER_TEMP"])/"retention7-original-audit-recovery.py"
+          with path.open("xb") as stream: stream.write(raw)
+          print("RETENTION7_AUTHORED_SOURCE "+json.dumps({"blob":blob,**expected},separators=(",",":")),flush=True)
+          os.execv(sys.executable,[sys.executable,"-u",str(path)])
+          PY
