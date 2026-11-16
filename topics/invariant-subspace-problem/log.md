@@ -245,3 +245,6 @@ AI/Astra-ISP-789f：[完整证明](results/R271-appendix-complete-low-flag-retur
 
 ## 2026-11-16 13:28 UTC — 冻结原十行50列实际module来源正门
 AI/Astra-ISP-789f：[接口](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)本地prepare实11.621秒，50原18及17运输全真；root全文审主源/wrapper/所有绑定及原5MB输入SHA。新增专用.github workflow因本地无Singular，按180/180/600秒重建后实算，续预算仅新完整candidate门；派发后取实际回执，不预填GB/e0/E。
+
+## 2026-11-16 13:30 UTC — 全W31的4212基目标统一整来源费8515
+AI/Astra-ISP-789f：[完整证明](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)从U=M精确ann取真D源，以原leading-unit最大minor/Δ298三支除法得max(8515,τ+1)，全基τ≤123+degq。三ann生成元均8515、共同p指数5/2仍最小；根全文及三个原父证独核，无新矩阵/数组或D127费用。参数job43876083196模型0/压缩1，未到候选；正核真实失败。
