@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** e75272873601334e82eed7ef3908bb0f5584797a（2026-11-16 10:53:36 UTC，临时研究session run43849025211实际pull --rebase，两README无差异；详见notes/r150-joint-m-qualification-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 8a064510070cff90f79744a2e513f5606adaa83d（2026-11-16 10:53:41 UTC，临时研究session run43849025211实际pull --rebase，两README无差异；详见notes/r150-joint-m-qualification-execution-789f/）。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor约07:20失效，10:38:47真实恢复；本地main真pull已恢复。旧tmp不冒存活，自有旧full210目录正按全SHA核；固定flint0.9在独立tmp venv已实际安装。现可本地计算，既有Actions亦保真实pull/rebase/push；API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
