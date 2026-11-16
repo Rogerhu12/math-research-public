@@ -65,3 +65,5 @@
 - [R537 — actual226完整源返回与科学必要正文超限](results/R537-actual226-complete-source-return-and-scientific-necessary-overflow.md)：source56393完整/361源，whole109972未返/1079诚实70，独立code1/1/1/quiet=true与removed=false，全部科学未返责任保；不借225推值/原因/速度，无新父。
 
 - [R572 — 五处原root合成乘积同RN128字与原sum顺序](results/R572-exact-root-synthesis-products-and-original-sum-order.md)：四件57061B；未变R564核/原表达式与回退、全部sum/方向/构词保，5×17/full last、20依赖/一次原scope安装/完整失败CLI；无速度或实际接受，R573完整入口另刊。
+
+- [R573 — request240五原合成乘积与完整当前模型入口](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)：五件278766B/topic254471B；447源/原432和八对象+lanes保、真实十caller一次R572、全5×17/旧统计/两必要和原门/钟不变；正式刊后唯一派发，实际R574另付。

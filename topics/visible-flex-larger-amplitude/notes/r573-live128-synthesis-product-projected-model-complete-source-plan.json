@@ -1,0 +1,846 @@
+{
+  "schema": "R573-root-synthesis-product-current-owner-projected-model-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_baseline": {
+    "R565_published_commit": "99347c619e66946b758f6f731ce0a4f76d41fa9e",
+    "original432_source_and_input_ancestry_only": true,
+    "parent237_scientific_result_reused": false,
+    "R572_original_header_adapter_plan_bound_as_published_source_before_dispatch": true
+  },
+  "generator": {
+    "file": "root_20261116_live128_synthesis_product_projected_source_views.py",
+    "bytes": 38611,
+    "sha256": "3bb1084dfb44d675db8f186b138c5fb68ac6da9a1978f25c013e2bc5609f9cf2"
+  },
+  "ancestor": {
+    "request": {
+      "file": "public-live128-root-lifted-product-projected-model-original-full112-FD-fullDN-request.json",
+      "bytes": 96574,
+      "sha256": "fff570a800581ed22887734b467ad1b368cdd8d17d9df04ba49ad1e05c6bf605"
+    },
+    "generator": {
+      "file": "root_20261116_live128_lifted_product_projected_source_views.py",
+      "bytes": 38098,
+      "sha256": "ee6bad1b586c77e94e54714ecff05a980ce9ad11bc50658a55583fd372ddc6f2"
+    },
+    "plan": {
+      "file": "notes/r565-live128-lifted-product-projected-model-complete-source-plan.json",
+      "bytes": 71039,
+      "sha256": "6d6ff7d6f95f83e809fc0e260765a47185011ca86e2cc62c0a4dcf544f9789f1"
+    },
+    "core_plan": {
+      "file": "notes/r534-live128-projected-model-core-source-plan.json",
+      "bytes": 72022,
+      "sha256": "826aabbd34c2282bdaa4b8298a79bb92b90dc8758134b309f665d863301a4648"
+    },
+    "source_metadata_directory": "request237-source-preparation",
+    "source_only_child": true
+  },
+  "additional_public_sources": [
+    {
+      "file": "root_20261116_exact_root_synthesis_products.hpp",
+      "bytes": 2380,
+      "sha256": "a715367b67448c85c6ff180ad24f915334f188751df5d3a2adca5ed3535e5f9a"
+    },
+    {
+      "file": "root_20261116_exact_root_synthesis_products.py",
+      "bytes": 20999,
+      "sha256": "cdc734c9b704ffa77f46b32054cff1dbae4df10e91f6be66f4ddeb53a4237fcf"
+    }
+  ],
+  "ancestor_root_product_plan": {
+    "file": "notes/R564-exact-lifted-factor-product-complete-source-plan.json",
+    "bytes": 13514,
+    "sha256": "cd4c90cbfc9e48acdd06a692885121627355df477955104981713d248cafca4a"
+  },
+  "ancestor_root_average_plan": {
+    "file": "notes/R561-normal-dyadic-average-complete-source-plan.json",
+    "bytes": 13708,
+    "sha256": "5667d987ea5b7387bb0c4f6c61d86cd9ea94035299da91d3c7889fb1cde5f5a7"
+  },
+  "ancestor_root_reuse_plan": {
+    "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+    "bytes": 12303,
+    "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+  },
+  "ancestor_root_word_plan": {
+    "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+    "bytes": 10232,
+    "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+  },
+  "counts": {
+    "original237_public": 357,
+    "original237_generated": 75,
+    "additional_R572_public": 2,
+    "additional_R572_generated": 2,
+    "new_generator": 1,
+    "new_caller_views": 10,
+    "public": 360,
+    "generated": 87,
+    "complete": 447
+  },
+  "roles": {
+    "owner": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_same_call_owner.py",
+      "bytes": 26666,
+      "sha256": "2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17"
+    },
+    "system": {
+      "file": "exact_20261116_live128_synthesis_product_projected_current576_system.py",
+      "bytes": 29077,
+      "sha256": "b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14"
+    },
+    "qr": {
+      "file": "exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py",
+      "bytes": 21858,
+      "sha256": "ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f"
+    },
+    "pipeline": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_call_pipeline.py",
+      "bytes": 43286,
+      "sha256": "1ad21f183fb98e859086d96048063a25aaa749803d68bfa67801a4df665ab666"
+    },
+    "call": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+      "bytes": 45476,
+      "sha256": "cf59d20d7fbd315b5a4250f2e691c10292030805c79430a4fa71e1755a98f0c8"
+    },
+    "worker": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_worker.mjs",
+      "bytes": 8327,
+      "sha256": "ecad08d60e9bcf668e2c5c82771627cae2c7160f806b8f2573e90dacb898f021"
+    },
+    "client": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_tail_client.py",
+      "bytes": 40476,
+      "sha256": "3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f"
+    },
+    "fulldn": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_original_full_dn.py",
+      "bytes": 46439,
+      "sha256": "721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63"
+    },
+    "runner": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_owned_run.py",
+      "bytes": 39422,
+      "sha256": "13c3de46ba8f4bcadf82856d72bf330bdf9088d9b06a7f4afd7dfdf658cf3658"
+    },
+    "reader": {
+      "file": "root_20261116_live128_synthesis_product_projected_necessary.py",
+      "bytes": 63394,
+      "sha256": "e48c769418ffac56a2e931cbee4bc4474ad2067007e561c2aaa49f9a4291701b"
+    }
+  },
+  "unchanged_model_consumers": [
+    {
+      "role": "boundary",
+      "file": "geometry_20261116_live128_projected_model_boundary128.cpp",
+      "bytes": 12844,
+      "sha256": "0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9"
+    },
+    {
+      "role": "components",
+      "file": "geometry_20261116_live128_projected_model_final_components.py",
+      "bytes": 38561,
+      "sha256": "c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e"
+    },
+    {
+      "role": "assembly",
+      "file": "geometry_20261116_live128_projected_model_response_assembly.py",
+      "bytes": 33269,
+      "sha256": "863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a"
+    }
+  ],
+  "schemas": {
+    "owner": "R573-current-H-root-synthesis-product-owner128-before-projected-model-v1",
+    "components": "R534-current-H-owner-projected64-model-components-v1",
+    "stage": "R534-current-owner-projected64-exact-lifted-stage-model-v1",
+    "boundary": "R534-current-owner-projected64-model-boundary128-v1",
+    "assembly": "R534-current-H-live128-projected-model-response-assembly-v1",
+    "pipeline": "R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-v1",
+    "pipeline_input": "R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-input-v1",
+    "policy": "R573-current-H-root-synthesis-product-live128-projected-model-client-policy-v1",
+    "runner": "R573-live128-root-synthesis-product-projected-model-original-full112-owned-procedure-v1",
+    "reader": "R573-live128-root-synthesis-product-projected-model-original-full112-necessary-v1",
+    "request": "public-live128-root-synthesis-product-projected-model-original-full112-FD-fullDN-request-v1",
+    "fulldn": "R573-live128-root-synthesis-product-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+    "namespace": "visible-live128-root-synthesis-product-projected-model240",
+    "window": "R534-current-owner-projected-model-stage-clock-v1",
+    "source": "R573-root-synthesis-product-current-owner-projected-model-source-preparation-v1",
+    "plan": "R573-root-synthesis-product-current-owner-projected-model-complete-source-plan-v1"
+  },
+  "original_runtime_contract": {
+    "science_clock_schema": "R493-original-full112-live128-job-deadline-v1",
+    "science_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "owner_seconds_cap": 6000,
+    "replay_reserve_seconds": 1200,
+    "stage_seconds_cap": 8000,
+    "boundary_seconds_cap": 600,
+    "endpoint_seconds_cap": 600,
+    "audit_seconds_cap": 1800,
+    "threads": 4,
+    "original_state_shape": [
+      577,
+      224
+    ],
+    "local_state_dimension": 226,
+    "mean_rows": 2,
+    "complete_stages": 576,
+    "complete_endpoint_shape": [
+      338,
+      112
+    ],
+    "future_request_number": 240,
+    "science_namespace": "visible-live128-root-synthesis-product-projected-model240",
+    "source_metadata_directory": "request240-source-preparation"
+  },
+  "actual_compiler_contract": {
+    "prepare": "Actual unchanged R565 source-only preparation of every original432 source, then R572 source-only with complete R564/R561/R550/R535 plans in the same real computations directory",
+    "installation": "One direct R572 install_owner_compiler in untouched original owner_scope, without prior R564/R561/R550/R535 installation, then original main and unchanged R534 deferred post hook",
+    "original_R534_deferred_components_and_projected64_model_unchanged": true,
+    "original_R535_fixed_and_U_word_constructions_unchanged": true,
+    "original_R550_accepted_complete_root_evaluation_reuse_retained": true,
+    "original_R561_second_product_selection_unchanged": true,
+    "original_R564_three_angular_average_first_product_sites_unchanged": true,
+    "literal_first_Q_multiply_preserved_at_all_changed_sites": false,
+    "original_first_product_RN128_values_and_reduction_order_retained": true,
+    "actual_synthesis_product_uses_complete_R564_qualification_and_integer_RN128_or_original_fallback": true,
+    "original_left_expressions_and_every_sum_order_unchanged": true,
+    "all_twenty_real_compile_dependencies_bound": true,
+    "floating_exception_flag_equivalence_not_claimed": true,
+    "compilation_actual_receipt_key": "root_finite_word_cache_compilation_source_binding",
+    "preparation_does_not_pay_compilation_or_solver_acceptance": true,
+    "original_owner_CPP_main_replay_and_budgets_unchanged": true
+  },
+  "honest_model_guard": {
+    "original_system": {
+      "file": "exact_20261116_live128_cached_projected_current576_system.py",
+      "bytes": 29009,
+      "sha256": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db"
+    },
+    "actual_system": {
+      "file": "exact_20261116_live128_synthesis_product_projected_current576_system.py",
+      "bytes": 29077,
+      "sha256": "b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14"
+    },
+    "change": {
+      "before": "B.same(current['same_call_complete128_final_components_required'],True,\n           'All224/226 and mixed338-by112 are supplied by the same actual128 state')",
+      "after": "B.same(current['same_call_complete128_value_components_and_explicit64_linear_model_required'],True,\n           'Current128 values/replay and the explicit complete projected64 linear model are required')",
+      "count": 1
+    },
+    "new_key_written_by_actual_current_call": true,
+    "old_all128_derivative_flag_not_fabricated": true,
+    "original_current128_value_and_explicit_complete_projected64_model_contract_retained": true,
+    "observed229_KeyError_is_not_a_231_numeric_result": true,
+    "earliest_repaired_system": {
+      "file": "exact_20261116_live128_reused_projected_current576_system.py",
+      "bytes": 29055,
+      "sha256": "8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d"
+    }
+  },
+  "necessary_scope": {
+    "original_RootStats_complete_dict_retained": true,
+    "root_accepted_evaluation_reuse": "Complete original member, both primal and trace_variation with all13 counters each and full last/presence",
+    "eight_existing_named_tables_and_exact_inverse_contexts_retained": true,
+    "missing_is_not_null": true,
+    "original_root_counters_count_actual_work": true,
+    "compilation_source_binding_selected_only_from_actual_compilation": true,
+    "limit_bytes": 90000,
+    "overflow_exit": 70,
+    "no_capacity_or_speed_promise": true,
+    "exact_dyadic_angular_average": "Complete actual RootStats member with root_residual, root_gram and primal_flux; every returned key, all ten counters per path, last_present and full last retained. Unknown new source binding members remain complete.",
+    "compiler_source_binding_contains_actual_R561_R550_R535_ancestry": true,
+    "no_source_compilation_or_scientific_acceptance_inferred_from_counters": true,
+    "exact_lifted_factor_product": "Complete actual RootStats member: root_residual/root_gram/primal_flux, every returned key, seventeen counters each, full last and last_present. No absent/null field or new source binding value is fabricated.",
+    "compiler_source_binding_contains_actual_R564_R561_R550_R535_ancestry": true,
+    "exact_root_synthesis_products": "Complete actual RootStats member: fixed_fallback_P/fixed_fallback_Pt/L/evaluation_u_words/evaluation_u_fallback; every returned key, seventeen counters per path, full last and last_present. Missing/null and unknown new source bindings stay distinct and complete.",
+    "compiler_source_binding_contains_actual_R572_R564_R561_R550_R535_ancestry": true
+  },
+  "views": [
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_live128_lifted_product_projected_same_call_owner.py",
+        "bytes": 26325,
+        "sha256": "b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_same_call_owner.py",
+        "bytes": 26666,
+        "sha256": "2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17"
+      },
+      "patches": [
+        {
+          "id": "owner-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"R565 exact lifted-factor products and dyadic averages before the same-DN model.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R573 exact root synthesis products and inherited dyadic averages before the same-DN model.\n\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-2",
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R565-current-H-root-lifted-product-owner128-before-projected-model-v1\"\nINPUT_SCHEMA = SCHEMA + \"-input-v1\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R573-current-H-root-synthesis-product-owner128-before-projected-model-v1\"\nINPUT_SCHEMA = SCHEMA + \"-input-v1\"\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-3",
+          "before": "\ndef install_exact_lifted_factor_product(owner_scope, record, runner):\n    preparation_directory = runner/\"request237-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n",
+          "after": "\ndef install_exact_root_synthesis_products(owner_scope, record, runner):\n    preparation_directory = runner/\"request240-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-4",
+          "before": "    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R565-root-lifted-product-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 237\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R564/R561/R550/R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n",
+          "after": "    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R573-root-synthesis-product-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 240\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R572/R564/R561/R550/R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-5",
+          "before": "            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R564_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R564 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R564\"/\"source-binding.json\",\n            \"The independent actual R564 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n",
+          "after": "            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R572_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R572 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R572\"/\"source-binding.json\",\n            \"The independent actual R572 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-6",
+          "before": "        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_exact_lifted_factor_product.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 19738\n            and file_sha(adapter_file) == \"2f2cf734f2012d64ea5d19c1e8bed0ee95918b8e24fab0d4f8766ae0e174c0de\",\n            \"The exact published R564 compiler adapter; R561/R550/R535 are source-only ancestry\")\n    module_spec = importlib.util.spec_from_file_location(\"_R565_actual_lifted_product_root_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n",
+          "after": "        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_exact_root_synthesis_products.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 20999\n            and file_sha(adapter_file) == \"cdc734c9b704ffa77f46b32054cff1dbae4df10e91f6be66f4ddeb53a4237fcf\",\n            \"The exact published R572 compiler adapter; R564/R561/R550/R535 are source-only ancestry\")\n    module_spec = importlib.util.spec_from_file_location(\"_R573_actual_root_synthesis_product_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-7",
+          "before": "        root_primal_uses_declared_R561_exact_dyadic_average_source=True,\n        root_primal_uses_declared_R564_exact_lifted_factor_product_source=True,\n        one_direct_R564_installation_without_prior_R561_R550_or_R535_hook=True,\n        literal_first_Q_multiply_preserved_at_all_changed_sites=False,\n        original_first_product_RN128_values_and_reduction_order_retained=True,\n        original_R561_second_product_selection_unchanged=True,\n        floating_exception_flag_equivalence_not_claimed=True,\n        root_finite_word_cache_source_preparation=None,\n",
+          "after": "        root_primal_uses_declared_R561_exact_dyadic_average_source=True,\n        root_primal_uses_declared_R564_exact_lifted_factor_product_source=True,\n        root_primal_uses_declared_R572_exact_root_synthesis_products_source=True,\n        one_direct_R572_installation_without_prior_R564_R561_R550_or_R535_hook=True,\n        original_synthesis_product_RN128_words_and_sum_order_preserved=True,\n        original_R535_fixed_and_U_word_constructions_unchanged=True,\n        original_R564_three_angular_average_products_unchanged=True,\n        literal_first_Q_multiply_preserved_at_all_changed_sites=False,\n        original_first_product_RN128_values_and_reduction_order_retained=True,\n        original_R561_second_product_selection_unchanged=True,\n        floating_exception_flag_equivalence_not_claimed=True,\n        root_finite_word_cache_source_preparation=None,\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-8",
+          "before": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        install_exact_lifted_factor_product(owner_scope, record, runner)\n        # This is a new declared executing scope with its own source identity.\n",
+          "after": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        install_exact_root_synthesis_products(owner_scope, record, runner)\n        # This is a new declared executing scope with its own source identity.\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-9",
+          "before": "    record, code = execute(spec, identity(args.input))\n    print(json.dumps(dict(event=\"R565_lifted_product_current_owner_before_projected_model_return\",\n        call_number=record[\"call_number\"], actual_wrapper_returncode=code,\n",
+          "after": "    record, code = execute(spec, identity(args.input))\n    print(json.dumps(dict(event=\"R573_synthesis_product_current_owner_before_projected_model_return\",\n        call_number=record[\"call_number\"], actual_wrapper_returncode=code,\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_lifted_product_projected_current576_system.py",
+        "bytes": 29071,
+        "sha256": "f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346"
+      },
+      "output": {
+        "file": "exact_20261116_live128_synthesis_product_projected_current576_system.py",
+        "bytes": 29077,
+        "sha256": "b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14"
+      },
+      "patches": [
+        {
+          "id": "system-literal-1",
+          "before": "BYTE_IO_SHA='b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390'\nSNAPSHOT_LAUNCHER='geometry_20261116_live128_lifted_product_projected_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_lifted_product_projected_current_call.mjs'\nCORE_SHA='ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3'\n",
+          "after": "BYTE_IO_SHA='b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390'\nSNAPSHOT_LAUNCHER='geometry_20261116_live128_synthesis_product_projected_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_synthesis_product_projected_current_call.mjs'\nCORE_SHA='ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3'\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_lifted_product_projected_current576_chain_qr.py",
+        "bytes": 21855,
+        "sha256": "579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa"
+      },
+      "output": {
+        "file": "exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py",
+        "bytes": 21858,
+        "sha256": "ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f"
+      },
+      "patches": [
+        {
+          "id": "qr-literal-1",
+          "before": "HERE=Path(__file__).resolve().parent\nSYSTEM_NAME='exact_20261116_live128_lifted_product_projected_current576_system.py'\nSYSTEM_SHA='f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346'\nQR_NAME='exact_20261114_native_damped_chain_qr.py'\n",
+          "after": "HERE=Path(__file__).resolve().parent\nSYSTEM_NAME='exact_20261116_live128_synthesis_product_projected_current576_system.py'\nSYSTEM_SHA='b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14'\nQR_NAME='exact_20261114_native_damped_chain_qr.py'\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_lifted_product_projected_call_pipeline.py",
+        "bytes": 43265,
+        "sha256": "d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_call_pipeline.py",
+        "bytes": 43286,
+        "sha256": "1ad21f183fb98e859086d96048063a25aaa749803d68bfa67801a4df665ab666"
+      },
+      "patches": [
+        {
+          "id": "pipeline-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"R565 root-lifted-product owner and projected64 model under one original19200s clock.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R573 root-synthesis-product owner and projected64 model under one original19200s clock.\n\n",
+          "count": 1
+        },
+        {
+          "id": "pipeline-literal-2",
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R565-current-H-root-lifted-product-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R565-current-H-root-lifted-product-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\"\nOWNER_SHA = \"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\"\nQR_SHA = \"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\"\nSYSTEM = \"exact_20261116_live128_lifted_product_projected_current576_system.py\"\nSYSTEM_SHA = \"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\"\nCOMPONENTS = \"geometry_20261116_live128_projected_model_final_components.py\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_synthesis_product_projected_same_call_owner.py\"\nOWNER_SHA = \"2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\"\nQR_SHA = \"ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f\"\nSYSTEM = \"exact_20261116_live128_synthesis_product_projected_current576_system.py\"\nSYSTEM_SHA = \"b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14\"\nCOMPONENTS = \"geometry_20261116_live128_projected_model_final_components.py\"\n",
+          "count": 1
+        },
+        {
+          "id": "pipeline-literal-3",
+          "before": "        owner_resources[\"audit_seconds_cap\"] if spec[\"request\"][\"audit\"] else 0)\n    owner_input = dict(schema=\"R565-current-H-root-lifted-product-owner128-before-projected-model-v1-input-v1\",\n        call_directory=str(root), out=str(root/\"owner\"), call_number=spec[\"call_number\"],\n",
+          "after": "        owner_resources[\"audit_seconds_cap\"] if spec[\"request\"][\"audit\"] else 0)\n    owner_input = dict(schema=\"R573-current-H-root-synthesis-product-owner128-before-projected-model-v1-input-v1\",\n        call_directory=str(root), out=str(root/\"owner\"), call_number=spec[\"call_number\"],\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_lifted_product_projected_current_call.mjs",
+        "bytes": 45455,
+        "sha256": "504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_current_call.mjs",
+        "bytes": 45476,
+        "sha256": "cf59d20d7fbd315b5a4250f2e691c10292030805c79430a4fa71e1755a98f0c8"
+      },
+      "patches": [
+        {
+          "id": "call-literal-1",
+          "before": " spec.hook_sha256!==fileSHA(selfPath)||\n spec.source_sha256!==fileSHA(path.join(here,'geometry_20261116_live128_lifted_product_projected_tail_client.py'))||\n spec.session_origin?.schema!=='R493-current-H-live128-worker-session-v1')\n",
+          "after": " spec.hook_sha256!==fileSHA(selfPath)||\n spec.source_sha256!==fileSHA(path.join(here,'geometry_20261116_live128_synthesis_product_projected_tail_client.py'))||\n spec.session_origin?.schema!=='R493-current-H-live128-worker-session-v1')\n",
+          "count": 1
+        },
+        {
+          "id": "call-literal-2",
+          "before": " const names={\n  owner:'geometry_20261116_live128_lifted_product_projected_same_call_owner.py',\n  client:'geometry_20261116_live128_lifted_product_projected_tail_client.py',\n  current_call:'geometry_20261116_live128_lifted_product_projected_current_call.mjs',\n  worker:'geometry_20261116_live128_lifted_product_projected_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n",
+          "after": " const names={\n  owner:'geometry_20261116_live128_synthesis_product_projected_same_call_owner.py',\n  client:'geometry_20261116_live128_synthesis_product_projected_tail_client.py',\n  current_call:'geometry_20261116_live128_synthesis_product_projected_current_call.mjs',\n  worker:'geometry_20261116_live128_synthesis_product_projected_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n",
+          "count": 1
+        },
+        {
+          "id": "call-literal-3",
+          "before": " return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R565-current-H-root-lifted-product-owner128-before-projected-model-v1-input-v1',\n  owner_summary:'native-persistent128-chord-launch-summary-v1',\n",
+          "after": " return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R573-current-H-root-synthesis-product-owner128-before-projected-model-v1-input-v1',\n  owner_summary:'native-persistent128-chord-launch-summary-v1',\n",
+          "count": 1
+        },
+        {
+          "id": "call-literal-4",
+          "before": "function pipelineInput(mode,ctx,fields,invocation=mode){\n return {schema:'R565-current-H-root-lifted-product-live128-projected-model-call-pipeline-input-v1',\n  mode,invocation,call_directory:ctx.directory,call_number:ctx.call,job_deadline:spec.job_deadline,\n",
+          "after": "function pipelineInput(mode,ctx,fields,invocation=mode){\n return {schema:'R573-current-H-root-synthesis-product-live128-projected-model-call-pipeline-input-v1',\n  mode,invocation,call_directory:ctx.directory,call_number:ctx.call,job_deadline:spec.job_deadline,\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_lifted_product_projected_worker.mjs",
+        "bytes": 8321,
+        "sha256": "57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_worker.mjs",
+        "bytes": 8327,
+        "sha256": "ecad08d60e9bcf668e2c5c82771627cae2c7160f806b8f2573e90dacb898f021"
+      },
+      "patches": [
+        {
+          "id": "worker-literal-1",
+          "before": "// R565 declared root-lifted-product owner128 values with the unchanged complete R534 model.\n// Original warm choices remain. Every requested H uses its actual same-call128\n",
+          "after": "// R573 declared root-synthesis-product owner128 values with the unchanged complete R534 model.\n// Original warm choices remain. Every requested H uses its actual same-call128\n",
+          "count": 1
+        },
+        {
+          "id": "worker-literal-2",
+          "before": "const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;\nconst liveURL=new URL('./geometry_20261116_live128_lifted_product_projected_current_call.mjs',import.meta.url).href;\nconst sha256=x=>crypto.createHash('sha256').update(x).digest('hex');\n",
+          "after": "const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;\nconst liveURL=new URL('./geometry_20261116_live128_synthesis_product_projected_current_call.mjs',import.meta.url).href;\nconst sha256=x=>crypto.createHash('sha256').update(x).digest('hex');\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_lifted_product_projected_tail_client.py",
+        "bytes": 39043,
+        "sha256": "c2bd41b83f178bce138370433c5790b88233eeafff326ff7684a5e27350677db"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_tail_client.py",
+        "bytes": 40476,
+        "sha256": "3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f"
+      },
+      "patches": [
+        {
+          "id": "client-literal-1",
+          "before": "IO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R565-current-H-root-lifted-product-live128-projected-model-client-policy-v1\"\n\nLIVE_SOURCE_PINS.update(json.loads(\"{\\\"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\\\":\\\"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_system.py\\\":\\\"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\\\":\\\"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\\\",\\\"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\\\":\\\"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\\\",\\\"geometry_20261116_live128_lifted_product_projected_current_call.mjs\\\":\\\"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\\\",\\\"geometry_20261116_live128_lifted_product_projected_worker.mjs\\\":\\\"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\\\",\\\"root_20261116_exact_lifted_factor_product.hpp\\\":\\\"bb4dfb08db7c4593afd93addb804a20876e0bb1facb1bc7e8a7e3f9aaeb40cc1\\\",\\\"root_20261116_exact_lifted_factor_product.py\\\":\\\"2f2cf734f2012d64ea5d19c1e8bed0ee95918b8e24fab0d4f8766ae0e174c0de\\\",\\\"root_20261116_exact_lifted_factor_product_primal128.cpp\\\":\\\"5a13551c0d68f3e12577d2da9c096bfb340a27787ac5bf3b658cf6fb9973e798\\\",\\\"root_20261116_exact_lifted_factor_product_trace128.cpp\\\":\\\"ed8c674215ffe1f94a65010d115447804d07812b7f5f70c387b080f56c140447\\\"}\"))\n\nLIVE_SOURCE_PINS.update(json.loads(\"{\\\"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\\\":\\\"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_system.py\\\":\\\"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\\\":\\\"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\\\",\\\"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\\\":\\\"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\\\",\\\"geometry_20261116_live128_lifted_product_projected_current_call.mjs\\\":\\\"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\\\",\\\"geometry_20261116_live128_lifted_product_projected_worker.mjs\\\":\\\"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\\\",\\\"root_20261116_exact_dyadic_average.hpp\\\":\\\"e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac\\\",\\\"root_20261116_exact_dyadic_average.py\\\":\\\"9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082\\\",\\\"root_20261116_exact_dyadic_average_primal128.cpp\\\":\\\"0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f\\\",\\\"root_20261116_exact_dyadic_average_trace128.cpp\\\":\\\"07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5\\\"}\"))\n\n\n\ndef sha(path):\n",
+          "after": "IO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R573-current-H-root-synthesis-product-live128-projected-model-client-policy-v1\"\n\nLIVE_SOURCE_PINS.update(json.loads(\"{\\\"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\\\":\\\"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_system.py\\\":\\\"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\\\":\\\"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\\\",\\\"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\\\":\\\"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\\\",\\\"geometry_20261116_live128_lifted_product_projected_current_call.mjs\\\":\\\"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\\\",\\\"geometry_20261116_live128_lifted_product_projected_worker.mjs\\\":\\\"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\\\",\\\"root_20261116_exact_lifted_factor_product.hpp\\\":\\\"bb4dfb08db7c4593afd93addb804a20876e0bb1facb1bc7e8a7e3f9aaeb40cc1\\\",\\\"root_20261116_exact_lifted_factor_product.py\\\":\\\"2f2cf734f2012d64ea5d19c1e8bed0ee95918b8e24fab0d4f8766ae0e174c0de\\\",\\\"root_20261116_exact_lifted_factor_product_primal128.cpp\\\":\\\"5a13551c0d68f3e12577d2da9c096bfb340a27787ac5bf3b658cf6fb9973e798\\\",\\\"root_20261116_exact_lifted_factor_product_trace128.cpp\\\":\\\"ed8c674215ffe1f94a65010d115447804d07812b7f5f70c387b080f56c140447\\\"}\"))\n\nLIVE_SOURCE_PINS.update(json.loads(\"{\\\"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\\\":\\\"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_system.py\\\":\\\"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\\\",\\\"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\\\":\\\"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\\\",\\\"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\\\":\\\"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\\\",\\\"geometry_20261116_live128_lifted_product_projected_current_call.mjs\\\":\\\"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\\\",\\\"geometry_20261116_live128_lifted_product_projected_worker.mjs\\\":\\\"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\\\",\\\"root_20261116_exact_dyadic_average.hpp\\\":\\\"e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac\\\",\\\"root_20261116_exact_dyadic_average.py\\\":\\\"9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082\\\",\\\"root_20261116_exact_dyadic_average_primal128.cpp\\\":\\\"0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f\\\",\\\"root_20261116_exact_dyadic_average_trace128.cpp\\\":\\\"07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5\\\"}\"))\n\n\n\nLIVE_SOURCE_PINS.update(json.loads(\"{\\\"geometry_20261116_live128_synthesis_product_projected_same_call_owner.py\\\":\\\"2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17\\\",\\\"exact_20261116_live128_synthesis_product_projected_current576_system.py\\\":\\\"b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14\\\",\\\"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\\\":\\\"ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f\\\",\\\"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\\\":\\\"1ad21f183fb98e859086d96048063a25aaa749803d68bfa67801a4df665ab666\\\",\\\"geometry_20261116_live128_synthesis_product_projected_current_call.mjs\\\":\\\"cf59d20d7fbd315b5a4250f2e691c10292030805c79430a4fa71e1755a98f0c8\\\",\\\"geometry_20261116_live128_synthesis_product_projected_worker.mjs\\\":\\\"ecad08d60e9bcf668e2c5c82771627cae2c7160f806b8f2573e90dacb898f021\\\",\\\"root_20261116_exact_root_synthesis_products.hpp\\\":\\\"a715367b67448c85c6ff180ad24f915334f188751df5d3a2adca5ed3535e5f9a\\\",\\\"root_20261116_exact_root_synthesis_products.py\\\":\\\"cdc734c9b704ffa77f46b32054cff1dbae4df10e91f6be66f4ddeb53a4237fcf\\\",\\\"root_20261116_exact_root_synthesis_products_primal128.cpp\\\":\\\"8952e5a65a04e918d00ef990a1355ba3c1912284dfc2c482d8f861aa896b660a\\\",\\\"root_20261116_exact_root_synthesis_products_trace128.cpp\\\":\\\"138c6aaaba86628befd71b398bd2d393e661cb4abdab7781d6ef1ba0bebe05bb\\\"}\"))\n\n\ndef sha(path):\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-2",
+          "before": "    bridge = dict(policy[\"factor_parameters\"],\n        source_file=\"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_lifted_product_projected_current576_system.py\"],\n        factor_engine_source_sha256=LIVE_SOURCE_PINS[\"exact_20261114_native_damped_chain_qr.py\"],\n",
+          "after": "    bridge = dict(policy[\"factor_parameters\"],\n        source_file=\"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_synthesis_product_projected_current576_system.py\"],\n        factor_engine_source_sha256=LIVE_SOURCE_PINS[\"exact_20261114_native_damped_chain_qr.py\"],\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-3",
+          "before": "        source_sha256=sha(__file__),\n        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_lifted_product_projected_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n",
+          "after": "        source_sha256=sha(__file__),\n        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_synthesis_product_projected_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-4",
+          "before": "        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\"]),\n        retain_optional_tangent_predictor=policy[\"retain_optional_tangent_predictor\"])\n",
+          "after": "        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\"]),\n        retain_optional_tangent_predictor=policy[\"retain_optional_tangent_predictor\"])\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-5",
+          "before": "                   \"--import\", str(HERE/\"exact_20261114_tail_capacity_loader.mjs\"),\n                   str(HERE/\"geometry_20261116_live128_lifted_product_projected_worker.mjs\"), str(self.config)]\n        write(suffix(\"_intent.json\"), dict(\n",
+          "after": "                   \"--import\", str(HERE/\"exact_20261114_tail_capacity_loader.mjs\"),\n                   str(HERE/\"geometry_20261116_live128_synthesis_product_projected_worker.mjs\"), str(self.config)]\n        write(suffix(\"_intent.json\"), dict(\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_lifted_product_projected_original_full_dn.py",
+        "bytes": 44874,
+        "sha256": "1d5299ed8cc90de02ca0dbd1f2ca1358cbc421e6b1ddaea74534c8831788f325"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_original_full_dn.py",
+        "bytes": 46439,
+        "sha256": "721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63"
+      },
+      "patches": [
+        {
+          "id": "fulldn-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"R565 actual63 prefix to lifted-product-owner128/current64 model, original FD/fullDN.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R573 actual63 prefix to synthesis-product-owner128/current64 model, original FD/fullDN.\n\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-2",
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R565-live128-root-lifted-product-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_lifted_product_projected_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R573-live128-root-synthesis-product-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_synthesis_product_projected_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-3",
+          "before": "    \"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\": \"822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71\",\n    CLIENT_NAME: \"c2bd41b83f178bce138370433c5790b88233eeafff326ff7684a5e27350677db\",\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n",
+          "after": "    \"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\": \"822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71\",\n    CLIENT_NAME: \"3c35e7a802abdfe4857b59f6335e515207b67b312a1a08c07ff7e39ddd98e83f\",\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-4",
+          "before": "SOURCE_PINS.update({\n    \"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\": \"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\",\n    \"exact_20261116_live128_lifted_product_projected_current576_system.py\": \"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\",\n    \"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\": \"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\",\n    \"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\": \"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\",\n    \"geometry_20261116_live128_lifted_product_projected_current_call.mjs\": \"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\",\n    \"geometry_20261116_live128_lifted_product_projected_worker.mjs\": \"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\",\n    \"root_20261116_exact_lifted_factor_product.hpp\": \"bb4dfb08db7c4593afd93addb804a20876e0bb1facb1bc7e8a7e3f9aaeb40cc1\",\n    \"root_20261116_exact_lifted_factor_product.py\": \"2f2cf734f2012d64ea5d19c1e8bed0ee95918b8e24fab0d4f8766ae0e174c0de\",\n    \"root_20261116_exact_lifted_factor_product_primal128.cpp\": \"5a13551c0d68f3e12577d2da9c096bfb340a27787ac5bf3b658cf6fb9973e798\",\n    \"root_20261116_exact_lifted_factor_product_trace128.cpp\": \"ed8c674215ffe1f94a65010d115447804d07812b7f5f70c387b080f56c140447\",\n    \"geometry_20261116_live128_dyadic_projected_tail_client.py\": \"725d73de59d916f1131f31f6ce547145e93b5418e280824d767598bbe41195e9\"\n})\nSOURCE_PINS.update({\n    \"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\": \"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\",\n    \"exact_20261116_live128_lifted_product_projected_current576_system.py\": \"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\",\n    \"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\": \"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\",\n    \"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\": \"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\",\n    \"geometry_20261116_live128_lifted_product_projected_current_call.mjs\": \"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\",\n    \"geometry_20261116_live128_lifted_product_projected_worker.mjs\": \"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\",\n    \"root_20261116_exact_dyadic_average.hpp\": \"e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac\",\n",
+          "after": "SOURCE_PINS.update({\n    \"geometry_20261116_live128_synthesis_product_projected_same_call_owner.py\": \"2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17\",\n    \"exact_20261116_live128_synthesis_product_projected_current576_system.py\": \"b196cd850f00bfba64a3bda44f129cc2c290fb73bd5da54db4bdf15da495df14\",\n    \"exact_20261116_live128_synthesis_product_projected_current576_chain_qr.py\": \"ae98a05e6b68c17b56a966710760fee27ca4a613e3c3396dbe8f75580870cd7f\",\n    \"geometry_20261116_live128_synthesis_product_projected_call_pipeline.py\": \"1ad21f183fb98e859086d96048063a25aaa749803d68bfa67801a4df665ab666\",\n    \"geometry_20261116_live128_synthesis_product_projected_current_call.mjs\": \"cf59d20d7fbd315b5a4250f2e691c10292030805c79430a4fa71e1755a98f0c8\",\n    \"geometry_20261116_live128_synthesis_product_projected_worker.mjs\": \"ecad08d60e9bcf668e2c5c82771627cae2c7160f806b8f2573e90dacb898f021\",\n    \"root_20261116_exact_root_synthesis_products.hpp\": \"a715367b67448c85c6ff180ad24f915334f188751df5d3a2adca5ed3535e5f9a\",\n    \"root_20261116_exact_root_synthesis_products.py\": \"cdc734c9b704ffa77f46b32054cff1dbae4df10e91f6be66f4ddeb53a4237fcf\",\n    \"root_20261116_exact_root_synthesis_products_primal128.cpp\": \"8952e5a65a04e918d00ef990a1355ba3c1912284dfc2c482d8f861aa896b660a\",\n    \"root_20261116_exact_root_synthesis_products_trace128.cpp\": \"138c6aaaba86628befd71b398bd2d393e661cb4abdab7781d6ef1ba0bebe05bb\",\n    \"geometry_20261116_live128_lifted_product_projected_tail_client.py\": \"c2bd41b83f178bce138370433c5790b88233eeafff326ff7684a5e27350677db\"\n})\nSOURCE_PINS.update({\n    \"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\": \"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\",\n    \"exact_20261116_live128_lifted_product_projected_current576_system.py\": \"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\",\n    \"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\": \"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\",\n    \"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\": \"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\",\n    \"geometry_20261116_live128_lifted_product_projected_current_call.mjs\": \"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\",\n    \"geometry_20261116_live128_lifted_product_projected_worker.mjs\": \"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\",\n    \"root_20261116_exact_lifted_factor_product.hpp\": \"bb4dfb08db7c4593afd93addb804a20876e0bb1facb1bc7e8a7e3f9aaeb40cc1\",\n    \"root_20261116_exact_lifted_factor_product.py\": \"2f2cf734f2012d64ea5d19c1e8bed0ee95918b8e24fab0d4f8766ae0e174c0de\",\n    \"root_20261116_exact_lifted_factor_product_primal128.cpp\": \"5a13551c0d68f3e12577d2da9c096bfb340a27787ac5bf3b658cf6fb9973e798\",\n    \"root_20261116_exact_lifted_factor_product_trace128.cpp\": \"ed8c674215ffe1f94a65010d115447804d07812b7f5f70c387b080f56c140447\",\n    \"geometry_20261116_live128_dyadic_projected_tail_client.py\": \"725d73de59d916f1131f31f6ce547145e93b5418e280824d767598bbe41195e9\"\n})\nSOURCE_PINS.update({\n    \"geometry_20261116_live128_lifted_product_projected_same_call_owner.py\": \"b92065dd41d918046bd04c10ec4edec3e118090347691b91f0ee779c903bc8dd\",\n    \"exact_20261116_live128_lifted_product_projected_current576_system.py\": \"f2f9db0189412c8dc2f75cda57627a03137dbf83d863d53033e0e2de40fcb346\",\n    \"exact_20261116_live128_lifted_product_projected_current576_chain_qr.py\": \"579977e8b794eb21c314465e0d74b0157769f77d13918a6f631d9c694ff604aa\",\n    \"geometry_20261116_live128_lifted_product_projected_call_pipeline.py\": \"d1b36754b39c168e3421d7ce804fd9b25e04583cf4b94ef3d907c127a83e077d\",\n    \"geometry_20261116_live128_lifted_product_projected_current_call.mjs\": \"504a7314bb0242455dae2fdb9853dee135387ab9459ed7e72b6d710c46757573\",\n    \"geometry_20261116_live128_lifted_product_projected_worker.mjs\": \"57379bef7abd1483df1a10ff1ad1ab7256ccc9a2ae1f4d0fb548bc66dbc304af\",\n    \"root_20261116_exact_dyadic_average.hpp\": \"e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac\",\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-5",
+          "before": "    policy = original.read(args.live128_policy)\n    if policy[\"schema\"] != \"R565-current-H-root-lifted-product-live128-projected-model-client-policy-v1\":\n        raise ValueError(\"Explicit actual live128 policy, not an old completed61 response\")\n",
+          "after": "    policy = original.read(args.live128_policy)\n    if policy[\"schema\"] != \"R573-current-H-root-synthesis-product-live128-projected-model-client-policy-v1\":\n        raise ValueError(\"Explicit actual live128 policy, not an old completed61 response\")\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-6",
+          "before": "        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R565_live128_lifted_product_projected_model_original_full_DN_orchestration_return\",\n            phase=state[\"phase\"], full_DN_returncode=state[\"full_DN_returncode\"],\n",
+          "after": "        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R573_live128_synthesis_product_projected_model_original_full_DN_orchestration_return\",\n            phase=state[\"phase\"], full_DN_returncode=state[\"full_DN_returncode\"],\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_lifted_product_projected_owned_run.py",
+        "bytes": 39404,
+        "sha256": "d61c81c14532bd5be2dc5a5f718196be1be922082a419e06dcc2c5463574b1ff"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_synthesis_product_projected_owned_run.py",
+        "bytes": 39422,
+        "sha256": "13c3de46ba8f4bcadf82856d72bf330bdf9088d9b06a7f4afd7dfdf658cf3658"
+      },
+      "patches": [
+        {
+          "id": "runner-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"Request237: current-owner projected64 linear model with original128 values and full-DN gates.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"Request240: current-owner projected64 linear model with original128 values and full-DN gates.\n\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-2",
+          "before": "REPO = \"Rogerhu12/math-research-public\"\nSCHEMA = \"R565-live128-root-lifted-product-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-root-lifted-product-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-root-lifted-product-projected-model237\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\n",
+          "after": "REPO = \"Rogerhu12/math-research-public\"\nSCHEMA = \"R573-live128-root-synthesis-product-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-root-synthesis-product-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-root-synthesis-product-projected-model240\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-3",
+          "before": "PROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_lifted_product_projected_original_full_dn.py\"\nENTRY_SHA = \"1d5299ed8cc90de02ca0dbd1f2ca1358cbc421e6b1ddaea74534c8831788f325\"\nRULES = \"root_20261114_current576_rules_runner.py\"\n",
+          "after": "PROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_synthesis_product_projected_original_full_dn.py\"\nENTRY_SHA = \"721aaa94d4bd70fed644aed0ee62e0d19ba526aadd1e6793645636a90f445b63\"\nRULES = \"root_20261114_current576_rules_runner.py\"\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-4",
+          "before": "    path=checked_source(name,digest)\n    spec=importlib.util.spec_from_file_location(\"_R565_\"+role,path)\n    module=importlib.util.module_from_spec(spec)\n",
+          "after": "    path=checked_source(name,digest)\n    spec=importlib.util.spec_from_file_location(\"_R573_\"+role,path)\n    module=importlib.util.module_from_spec(spec)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-5",
+          "before": "    require(base.parent==runner and base.name==NAMESPACE,\n            \"Only this exact request237 namespace is owned\")\n    return base\n",
+          "after": "    require(base.parent==runner and base.name==NAMESPACE,\n            \"Only this exact request240 namespace is owned\")\n    return base\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-6",
+          "before": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==237 and request[\"repository\"]==REPO,\n            \"The actual complete request237 bytes and schema\")\n    base=base_path(namespace)\n",
+          "after": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==240 and request[\"repository\"]==REPO,\n            \"The actual complete request240 bytes and schema\")\n    base=base_path(namespace)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-7",
+          "before": "    base=base_path(namespace,exists=False)\n    require(not base.exists(),\"Use a fresh actual request237 namespace\")\n    base.mkdir(mode=0o700)\n",
+          "after": "    base=base_path(namespace,exists=False)\n    require(not base.exists(),\"Use a fresh actual request240 namespace\")\n    base.mkdir(mode=0o700)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-8",
+          "before": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==237 and request[\"repository\"]==REPO,\n            \"The actual independent request237 with frozen221 as source ancestry\")\n    write(base/\"ownership.json\",dict(schema=SCHEMA,namespace=str(base),\n",
+          "after": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==240 and request[\"repository\"]==REPO,\n            \"The actual independent request240 with frozen221 as source ancestry\")\n    write(base/\"ownership.json\",dict(schema=SCHEMA,namespace=str(base),\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-9",
+          "before": "        write(base/\"preparation.json\",report,replace=True)\n        print(json.dumps(dict(event=\"request237_preparation_return\",complete=report[\"complete\"],\n            phase=report[\"phase\"],error=report[\"error\"],actual=receipt(base/\"preparation.json\")),\n",
+          "after": "        write(base/\"preparation.json\",report,replace=True)\n        print(json.dumps(dict(event=\"request240_preparation_return\",complete=report[\"complete\"],\n            phase=report[\"phase\"],error=report[\"error\"],actual=receipt(base/\"preparation.json\")),\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-10",
+          "before": "    os.environ[owner.ENV_NAMESPACE]=str(base)\n    policy=dict(schema=\"R565-current-H-root-lifted-product-live128-projected-model-client-policy-v1\",namespace=str(base),\n        initial_guess=preparation[\"seed\"],job_deadline=receipt(clock),\n",
+          "after": "    os.environ[owner.ENV_NAMESPACE]=str(base)\n    policy=dict(schema=\"R573-current-H-root-synthesis-product-live128-projected-model-client-policy-v1\",namespace=str(base),\n        initial_guess=preparation[\"seed\"],job_deadline=receipt(clock),\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-11",
+          "before": "        write(base/\"execution.json\",state,replace=True)\n        print(json.dumps(dict(event=\"request237_actual_science_return\",actual_exit_code=code,\n            rules_returncode=state[\"rules_returncode\"],science_returncode=state[\"science_returncode\"],\n",
+          "after": "        write(base/\"execution.json\",state,replace=True)\n        print(json.dumps(dict(event=\"request240_actual_science_return\",actual_exit_code=code,\n            rules_returncode=state[\"rules_returncode\"],science_returncode=state[\"science_returncode\"],\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-12",
+          "before": "    raw=summary_path.read_bytes();summary=json.loads(raw)\n    require(len(raw)<=90000 and summary.get(\"schema\")==\"R565-live128-root-lifted-product-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n",
+          "after": "    raw=summary_path.read_bytes();summary=json.loads(raw)\n    require(len(raw)<=90000 and summary.get(\"schema\")==\"R573-live128-root-synthesis-product-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-13",
+          "before": "    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request237_cleanup\",removed=False,\n              reason=\"actual-owned-process-quiescence-not-proved\")),flush=True)\n",
+          "after": "    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request240_cleanup\",removed=False,\n              reason=\"actual-owned-process-quiescence-not-proved\")),flush=True)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-14",
+          "before": "    shutil.rmtree(base)\n    record=dict(event=\"request237_cleanup\",removed=True,namespace=str(base),\n        ownership=identity_before,necessary_summary=summary_identity,\n",
+          "after": "    shutil.rmtree(base)\n    record=dict(event=\"request240_cleanup\",removed=True,namespace=str(base),\n        ownership=identity_before,necessary_summary=summary_identity,\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-15",
+          "before": "        result=quiet(args.namespace)\n        print(json.dumps(dict(event=\"request237_quiet\",quiescent=result[\"quiescent\"],\n              registry_count=len(result[\"registries\"]),unknown=result[\"unknown\"],\n",
+          "after": "        result=quiet(args.namespace)\n        print(json.dumps(dict(event=\"request240_quiet\",quiescent=result[\"quiescent\"],\n              registry_count=len(result[\"registries\"]),unknown=result[\"unknown\"],\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_lifted_product_projected_necessary.py",
+        "bytes": 62562,
+        "sha256": "9d3b25b88f31b7d1ddc383d566b13a10d845759ab7887aa2946b0b7d578d1d68"
+      },
+      "output": {
+        "file": "root_20261116_live128_synthesis_product_projected_necessary.py",
+        "bytes": 63394,
+        "sha256": "e48c769418ffac56a2e931cbee4bc4474ad2067007e561c2aaa49f9a4291701b"
+      },
+      "patches": [
+        {
+          "id": "reader-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"Request237 readback after the original scoped owned-process quiescence.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"Request240 readback after the original scoped owned-process quiescence.\n\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-2",
+          "before": "HERE=Path(__file__).resolve().parent\nSCHEMA=\"R565-live128-root-lifted-product-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-root-lifted-product-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-root-lifted-product-projected-model237\"\nRUNTIME=\"geometry_20261116_live128_lifted_product_projected_owned_run.py\"\nRUNTIME_SHA=\"d61c81c14532bd5be2dc5a5f718196be1be922082a419e06dcc2c5463574b1ff\"\nMAX_BYTES=90000\nFRAME=\"REQUEST237_LIFTED_PRODUCT_PROJECTED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"\nRUN_KEYS=(\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\n",
+          "after": "HERE=Path(__file__).resolve().parent\nSCHEMA=\"R573-live128-root-synthesis-product-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-root-synthesis-product-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-root-synthesis-product-projected-model240\"\nRUNTIME=\"geometry_20261116_live128_synthesis_product_projected_owned_run.py\"\nRUNTIME_SHA=\"13c3de46ba8f4bcadf82856d72bf330bdf9088d9b06a7f4afd7dfdf658cf3658\"\nMAX_BYTES=90000\nFRAME=\"REQUEST240_SYNTHESIS_PRODUCT_PROJECTED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"\nRUN_KEYS=(\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-3",
+          "before": "\n# R565 adds only these explicitly named necessary metadata records. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n",
+          "after": "\n# R573 additionally declares the complete R572 five-path RootStats member. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-4",
+          "before": "    \"fallback_subnormal\",\"fallback_normal_to_subnormal\")\nROOT_LIFTED_PRODUCT_PATH_COUNTERS=(\n    \"terms\",\"exact_normal\",\"exact_signed_zero\",\"original_multiply\",\n    \"fallback_layout\",\"fallback_rounding\",\"fallback_left_nonfinite\",\n    \"fallback_factor_nonfinite\",\"fallback_left_subnormal\",\"fallback_factor_subnormal\",\n    \"fallback_factor_precision\",\"fallback_result_range\",\"rounding_below_half\",\n    \"rounding_exact_half\",\"rounding_above_half\",\"rounded_up\",\"carry_to_next_exponent\")\nROOT_WORD_SOURCE_KEYS=(\n",
+          "after": "    \"fallback_subnormal\",\"fallback_normal_to_subnormal\")\nROOT_LIFTED_PRODUCT_PATH_COUNTERS=(\n    \"terms\",\"exact_normal\",\"exact_signed_zero\",\"original_multiply\",\n    \"fallback_layout\",\"fallback_rounding\",\"fallback_left_nonfinite\",\n    \"fallback_factor_nonfinite\",\"fallback_left_subnormal\",\"fallback_factor_subnormal\",\n    \"fallback_factor_precision\",\"fallback_result_range\",\"rounding_below_half\",\n    \"rounding_exact_half\",\"rounding_above_half\",\"rounded_up\",\"carry_to_next_exponent\")\nROOT_SYNTHESIS_PRODUCT_PATHS=(\n    \"fixed_fallback_P\",\"fixed_fallback_Pt\",\"L\",\n    \"evaluation_u_words\",\"evaluation_u_fallback\")\nROOT_WORD_SOURCE_KEYS=(\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-5",
+          "before": "class RootWordMetadata:\n    \"\"\"Complete RootStats including R535/R550/R561/R564 and named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R565_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R565_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R565_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R565_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R565_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R565_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R565_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R565_physical_source_input_binding_ref\",\n    }\n",
+          "after": "class RootWordMetadata:\n    \"\"\"Complete RootStats including R535/R550/R561/R564/R572 and named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R573_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R573_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R573_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R573_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R573_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R573_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R573_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R573_physical_source_input_binding_ref\",\n    }\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-6",
+          "before": "    def describe(self):\n        return dict(schema=\"R565-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n",
+          "after": "    def describe(self):\n        return dict(schema=\"R573-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-7",
+          "before": "            absent_or_null_R561_member_not_fabricated=True,\n            declared_R564_each_path_counter_names=list(ROOT_LIFTED_PRODUCT_PATH_COUNTERS),\n            complete_R564_root_residual_root_gram_and_primal_flux_paths_retained=True,\n            R564_exact_lifted_factor_product_is_an_original_complete_RootStats_member=True,\n            R564_all_three_full_last_and_last_present_retained=True,\n            absent_or_null_R564_member_not_fabricated=True,\n            original_counters_count_only_actual_executed_work=True,\n",
+          "after": "            absent_or_null_R561_member_not_fabricated=True,\n            declared_R564_each_path_counter_names=list(ROOT_LIFTED_PRODUCT_PATH_COUNTERS),\n            complete_R564_root_residual_root_gram_and_primal_flux_paths_retained=True,\n            R564_exact_lifted_factor_product_is_an_original_complete_RootStats_member=True,\n            R564_all_three_full_last_and_last_present_retained=True,\n            absent_or_null_R564_member_not_fabricated=True,\n            declared_R572_path_names=list(ROOT_SYNTHESIS_PRODUCT_PATHS),\n            declared_R572_each_path_counter_names=list(ROOT_LIFTED_PRODUCT_PATH_COUNTERS),\n            complete_R572_exact_root_synthesis_products_member_retained=True,\n            R572_all_five_full_last_and_last_present_retained=True,\n            absent_or_null_R572_member_not_fabricated=True,\n            original_counters_count_only_actual_executed_work=True,\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-8",
+          "before": "                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R565_root_statistics_ref, then only its original root_finite_word_cache member when it carries R565_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R565_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R565_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n",
+          "after": "                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R573_root_statistics_ref, then only its original root_finite_word_cache member when it carries R573_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R573_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R573_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-9",
+          "before": "            \"root_primal_uses_declared_R561_exact_dyadic_average_source\",\n            \"root_primal_uses_declared_R564_exact_lifted_factor_product_source\",\n            \"one_direct_R564_installation_without_prior_R561_R550_or_R535_hook\",\n            \"literal_first_Q_multiply_preserved_at_all_changed_sites\",\n            \"original_first_product_RN128_values_and_reduction_order_retained\",\n            \"original_R561_second_product_selection_unchanged\",\n            \"floating_exception_flag_equivalence_not_claimed\",\n            \"actual_owner_scope_override\",\"executed_original_owner_engineering_sha256\",\n",
+          "after": "            \"root_primal_uses_declared_R561_exact_dyadic_average_source\",\n            \"root_primal_uses_declared_R564_exact_lifted_factor_product_source\",\n            \"root_primal_uses_declared_R572_exact_root_synthesis_products_source\",\n            \"one_direct_R572_installation_without_prior_R564_R561_R550_or_R535_hook\",\n            \"original_synthesis_product_RN128_words_and_sum_order_preserved\",\n            \"original_R535_fixed_and_U_word_constructions_unchanged\",\n            \"original_R564_three_angular_average_products_unchanged\",\n            \"literal_first_Q_multiply_preserved_at_all_changed_sites\",\n            \"original_first_product_RN128_values_and_reduction_order_retained\",\n            \"original_R561_second_product_selection_unchanged\",\n            \"floating_exception_flag_equivalence_not_claimed\",\n            \"actual_owner_scope_override\",\"executed_original_owner_engineering_sha256\",\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-10",
+          "before": "    request_path=args.request.resolve(strict=True)\n    require(sha(request_path)==args.request_sha256,\"Actual request237 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==237,\"Actual independent request237\")\n    base=args.namespace.resolve(strict=True)\n",
+          "after": "    request_path=args.request.resolve(strict=True)\n    require(sha(request_path)==args.request_sha256,\"Actual request240 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==240,\"Actual independent request240\")\n    base=args.namespace.resolve(strict=True)\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-11",
+          "before": "    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request237 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R565_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n",
+          "after": "    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request240 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R573_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-12",
+          "before": "    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=237,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R565_source_composition=request.get(\"R565_source_composition\"),\n        request_number_is_current_public_request=True,\n",
+          "after": "    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=240,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R573_source_composition=request.get(\"R573_source_composition\"),\n        request_number_is_current_public_request=True,\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-13",
+          "before": "    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"R565_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_receipts\"]=reader.files\n",
+          "after": "    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"R573_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_receipts\"]=reader.files\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-14",
+          "before": "    except Exception as error:\n        answer=dict(schema=SCHEMA,request_number=237,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "after": "    except Exception as error:\n        answer=dict(schema=SCHEMA,request_number=240,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-15",
+          "before": "        retained.write_bytes(raw)\n        answer=dict(schema=SCHEMA,request_number=237,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "after": "        retained.write_bytes(raw)\n        answer=dict(schema=SCHEMA,request_number=240,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "source_readback_representation": {
+    "source_text_baseline": {
+      "file": "root_20261116_live128_lifted_product_projected_source_views.py",
+      "bytes": 38098,
+      "sha256": "ee6bad1b586c77e94e54714ecff05a980ce9ad11bc50658a55583fd372ddc6f2"
+    },
+    "actual_unchanged_R565_reader_called": true,
+    "full_original_R565_necessary_including_R562_R551_R547_transport_and_bound_full_body_retained": true,
+    "original_child70_and_false_fallback_preserved": true,
+    "same_job_original_overflow_path": "RUNNER_TEMP/request237-source-preparation/necessary-source-overflow.json",
+    "full_original_necessary_scope_read_and_bound_not_reconstructed_from_descriptor": true,
+    "actual_R565_source_record_bound_but_not_redundantly_embedded_in_current_prepare": true,
+    "complete_R572_source_binding_including_R564_R561_R550_R535_and_unknown_keys_retained": true,
+    "fixed_tables": [
+      "verified_ancestor_sources/verified_public_sources exact-source inventories",
+      "literal_changes/replacements full identity rows"
+    ],
+    "inventory_catalogue": "The actual frozen237 complete432 map plus these15 exact current additions. Full paths/SHA match before indexing; actual bytes and original key/row order retained.",
+    "literal_columns": [
+      "id",
+      "count",
+      "before_bytes",
+      "before_sha256",
+      "after_bytes",
+      "after_sha256"
+    ],
+    "literal_SHA_strings_full_named_dictionary": true,
+    "missing_null_key_order_row_order_and_unknown_shapes_retained": true,
+    "inherited_named_table_definitions_and_their_independent_catalogues_retained": true,
+    "ordinary_original_body_or_bound_retained_full_overflow_body_selected_whole": true,
+    "limit_bytes": 90000,
+    "overflow_exit": 70,
+    "no_segments_no_generic_tree_codec_no_future_size_promise": true,
+    "each_actual_stderr_including_empty_has_identity_and_complete_text": true
+  },
+  "root_synthesis_plan": {
+    "file": "notes/R572-exact-root-synthesis-products-complete-source-plan.json",
+    "bytes": 14796,
+    "sha256": "25e8a39b5c8beaaa0b8b049d79f0e5d278622aa4f62e156fcd50cfceb50f1a64"
+  },
+  "root_synthesis_header": {
+    "file": "root_20261116_exact_root_synthesis_products.hpp",
+    "bytes": 2380,
+    "sha256": "a715367b67448c85c6ff180ad24f915334f188751df5d3a2adca5ed3535e5f9a"
+  },
+  "root_synthesis_adapter": {
+    "file": "root_20261116_exact_root_synthesis_products.py",
+    "bytes": 20999,
+    "sha256": "cdc734c9b704ffa77f46b32054cff1dbae4df10e91f6be66f4ddeb53a4237fcf"
+  },
+  "root_synthesis_outputs": [
+    {
+      "role": "primal",
+      "output": {
+        "file": "root_20261116_exact_root_synthesis_products_primal128.cpp",
+        "bytes": 27592,
+        "sha256": "8952e5a65a04e918d00ef990a1355ba3c1912284dfc2c482d8f861aa896b660a"
+      }
+    },
+    {
+      "role": "trace",
+      "output": {
+        "file": "root_20261116_exact_root_synthesis_products_trace128.cpp",
+        "bytes": 36252,
+        "sha256": "138c6aaaba86628befd71b398bd2d393e661cb4abdab7781d6ef1ba0bebe05bb"
+      }
+    }
+  ]
+}

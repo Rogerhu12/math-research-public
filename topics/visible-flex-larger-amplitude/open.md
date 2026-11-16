@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R573/request240](results/R573-request240-exact-root-synthesis-products-and-complete-current-model-entry.md)五件完整独立刊**：已刊R572真十caller/一次安装，447=360public+87gen、原237全部432与八对象+lanes不变；五×17/full last及全部旧/unknown统计、原overflow70/false和两reader完整保。原三R534数学consumer/全部128/replay/FD/fullDN/final fresh audit与19200/allcaps/90K不改；原历史来源说明准确JSON pointer不是删数值字段，无速度/fit/接受承诺。正式刊后唯一POST，R574 amplitude唯一；R557/234完整616源待容量整理即独立刊。
+
 **[R572](results/R572-exact-root-synthesis-products-and-original-sum-order.md)四件57061B本次独立刊**：五处原root合成逐调用未变R564核/资格外原乘法，左式/实际表词/+=/R535构词/方向与三个旧R564平均点保；共同完整数值前缀同RN128词，不声明fenv/速度/资源前沿同。5×17/full last、7/3 literal、20deps、一次原scope安装→真实g++与所有原门/caps/两reader责任保；无实际数值接受。R573/240完整447源真实入口下一独立刊并单派发，R574另付。
 
 **[R537实际226](results/R537-actual226-complete-source-return-and-scientific-necessary-overflow.md)完整可见结论本次独立刊**：361源准备/source56393完整；sciencewhole109972/74163314超90K，仅1079/33a0f490诚实70/false/cleanup禁止，具体科学与错误内容未返。独立code1/1/1、resource_stop/external null、owned quiet true、cleanup removed false；两终态/root各一次，report success不代科学成功，不借225数值推预算/迭代/速度/末门，无可续算父。
