@@ -51,4 +51,4 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 ## 5. 当前工作
 
-true53观察已完，续已付完整模型的可行性/度量与下降新问题，不余额重跑。R459同宽signed+R460真range、R461合法矩已付；R464续九行/seed/M3同起点，R462/R465续五维K0中的两个完整目标self成员与增强满锥/双参数actual。全主门仍欠，继续open，不以阶段/预算/时长结束。
+true53观察已完；[新有限主问题设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)复用原5743soft/2937hard+5新梯度，rγ正坐标与primal/dual Newton，保全部原盒/guard。仅一次新有限LP、至多96迭代/192系统/240秒，0旧solver/J/JVP/值；未执行，正有限gain还欠完整分离。R464续九行/M3；R462/R465续两self目标成员及增强锥。全主门仍欠，继续open。

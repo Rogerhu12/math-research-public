@@ -196,3 +196,7 @@ R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；�
 最小仿射行闭包span{FN^jΠσ}可用13近1H配13小c，有限同窗口查询，非无限物理宽度。Q0确有d5非零，所以补闭包后旧D单独可逆仍失败。新actual引理仅需同一增强满闭锥及DQ+NQ=Q⇔Q0⊂NQ1，真实(H,c)导数αDq/αNq给满minor；原两次完整商校正/prototype×n/Klein基准/C1收缩原样保留。
 
 下一准确线性门U0⊂R0+(kerJaff∩U0)+NU1；自然多项式x6→x5只是投影，须同一完整成本付新增F。R465续原一维N像及两头缩减，R462五维K0两成本self是具体入口。另须同一增强锥的所有正字符排除，旧负权核结论不自动保新增行。没有宣actual不可能/已完成。
+
+### true53全已付有限主问题的新中心路径
+
+[设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)完整证明d=rγ与旧gain的正可逆等价、原全盒/guard重建、primal/slack/dual Newton方程和带外盒误差修正的dual上界。一次性使用原MODEL保存的5743soft/2937hard及五新gradient；这是未解的原始可行有限问题，不再跑旧40行Hildreth。拟一次有限LP、96迭代/192Newton系统/240秒，0新J/JVP/geometry/actual，所有成本另计祖先1594.440227096秒/128值。先执行并消费；正有限gain只为下一确切方向完整分离的输入，不授全网或actual。没有重新求来源模型/旧开发，全部原始门保留。
