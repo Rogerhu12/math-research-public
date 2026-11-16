@@ -1,0 +1,91 @@
+name: visible-exact physical waist first-row receiver
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-physical-waist-first-row-receiver.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-physical-waist-first-row-receiver
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  WAD_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-physical-waist-first-row-receiver-CI-inputs.json
+  WAD_MANIFEST_SHA: a0c625e411fdaeda94935da07540f9bdc8b6ad10f8fb7116f53444c6d28425e9
+  WAD_PIPELINE_SHA: 437b69ea0d6790d2880b381e6747f2ced0da86a35ded73767886ded1657a1684
+  WAD_WORKER_SHA: c4f211cdaa63b5ead89343d96efe61c3a496fe4cb9f33e9ca65aac4fe9cb0656
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  physical-waist-first-row-receiver:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-physical-waist-first-row-receiver-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['WAD_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py --mode hydrate
+          --manifest "$WAD_MANIFEST" --manifest-sha "$WAD_MANIFEST_SHA"
+          --pipeline-sha "$WAD_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['WAD_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read two immutable successes and evaluate only nine new complete physical-row scalars
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_physical_waist_first_row_public_worker.py --mode run
+          --manifest "$WAD_MANIFEST" --manifest-sha "$WAD_MANIFEST_SHA"
+          --pipeline-sha "$WAD_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-physical-waist-first-row-receiver-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-physical-waist-first-row-receiver-output"
+      # Root rule15: seven current text inputs, three AST files, zero historical restores.
+      # Two old successes are read only; old source integrals propagators trials and correction budgets are never recomputed.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain150000 bytes before any new arithmetic.

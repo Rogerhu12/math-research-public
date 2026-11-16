@@ -194,3 +194,9 @@ root全文23,476B/7abf7f41独核real相位basis、graph闭性与dense core、真
 静态预算898a529f/9089/3ca3b69b及JS纯字节构造器cb0cd815/15090/461d6e01保存。root从完整旧scope+NIF执行形状独立重建4whole models，全部字节/hash相同：success science30127/report4406/preGit34932/exec11249；两不同2000B诊断且全图保留时science32816/report7667/preGit40929/exec13285。预留150000与live硬门保持。失败摘要只省去SCI中已有的重复数值表，完整science/exec/failure不裁；已完成new stages总在atomic文件及stdout保全后才检查发布门。
 
 只静态文字/hash/元数据，无Python或FLINT/科学执行，lost0。下一独立flow push才唯一新launch；read 504323de9cb94bbe55e104ca0e0c9856f4e44303两README未变。
+
+## 2026-11-16 04:19:53 UTC — 唯一WAD first-row新consumer触发
+
+前置完整包7856e5c02a2b0d797d5007f8cc23c442b72c806a已成功。此条只新增并push flow .github/workflows/visible-exact-physical-waist-first-row-receiver.yml（f60c8c298d1df416c0408ec384cfe2b1e36ec020，4783B，9b1a3c1f95badcbb39f8b3faf2461c7d07602fcec37cd9a0ca954412d9d18784），自然push为唯一launch；未另dispatch/rerun。Tail全文核finalmanifest/flow三主SHA+rules、7/3/4/250616、两mode全部必需参数和temporary路径全通过。
+
+实际run/checkout/真pull/容量/9新球/16门尚待读取，当前不宣称任何science成功或lost。所有旧ST/SW及其它旧成功冻结；出现任何失败先读完整partial与两preGit，不自动重复已成阶段。read bd82cb9f6aeffd2603dc400ed11f72c56368a5a4两README未变。
