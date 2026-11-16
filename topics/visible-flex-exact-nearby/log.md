@@ -121,3 +121,11 @@ scientific_started=false/scientific_children=0/actual_child_returncode=null；co
 ## 2026-11-16 10:51:35 UTC — 单独启动 WPTV readonly-only 诊断
 
 已先436057d071a6cea79a20919a87f482e5b199da6e冻结诊断worker/清单；本次workflow仅双pin变为a3c1c6ea/73102dc7，step名明确科学禁止，完整workflow SHA14900a8b0026f7beef46b10981ee8fec2e1e1af75e7948f20179268896ad6418。manifest readonly_diagnostic_only=true 在任何marker/科学Popen前严格停止；只读恢复可重复，已成数学0重算。完整原1395B stderr待新execution回收校验；不访问未知大小旧log。436057d071a6cea79a20919a87f482e5b199da6e两README核同，H继续保全部目标未开始。
+
+## 2026-11-16 10:53:55 UTC — 先推 D5 单件派生报告清理白名单，未删除
+
+白名单 97a42f32ea4b425655a5cf25cdf3e3ffe4b8323f /20008B/SHA536dd2a18af87c2bab3dbeb904dce1a4932e31a1985df90a0a7596cc5a8d3128，唯一允许删 topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-forward-residual-probe.json，Git3420a02518d805ac901dbbc1fad002b8ceeee7f3 /117565B/SHA26fdfe744fbd28f9271888296e1b5c3c14d58e90422b640fe7238d8b8f4cff95。restore2184a463342085b03bc450853f66f18d338e455e同path immutable Git-tree实核，fresh596f967f当前也同，删除前还须freshguard。
+
+Root完整读6小primary P/N/F1/F2/D1/D2并核hash。原note明确完成δ2首43ray/141段的float sampling/Gauss探针；它不定义dense reference/correction/canonical对象，也不是ODE/KAM或严格残差证书。F1 files20与F2 archive_required11的同path/bytes/SHA逐字实核，原archive_required资格不抹：未来consume原manifest须先samepath临时恢复核三身份，禁重旧数学。D1/D2真loader读dense或Fourier/Bernstein原件，不读此派生报告；只作所读依赖范围判断，不冒全仓库无依赖。
+
+24current/19history active WPTV及5oldactual WMT范围已审；root新增diag manifest73102dc7/worker a3c1c6ea/H/open/WMT全文均0 exact-basename。容量预估净97557B（另扣记事）；只普通删该一件，不动native/输入/失败/其他probe。审阅代理有一次意在取metadata的GitHub contents请求被连接器返回117565B正文；已如实记录access_audit并停止该取法，未以其另算hash或重数学。Root未取target正文，身份只用小freeze与Git-tree。两README在7f30cb19d6a3dc1f76be2c8f30cb707985221dc7核同；本提交仅白名单，未删除。
