@@ -15,3 +15,8 @@
 ## 2026-11-16 00:56:20 UTC /root — R436真实新mesh与全闭目标边界
 
 [R436](results/R436-original-or-refined450-same-job-complete-geometry-source-binding.md)/43565f7c+a565bc88+ad492e57显式接原193或真R431/70a/43f新450，核同origin/直接父/实际checkpoint/全十词/C-DAG/原deadline，13旧pins逐值保→15；原writer/SavedPrefix/径向/atlas/shared已动态支持新driver和mesh，数学源不改。五阶段及独立held都从新场重做，原参数/门/剩余钟/owner/90KB保，旧几何不转贴。全闭同g另须冻结首次W/帽高/完整marker/材料运输/尾帽及源码解释，当前入口不自动跨postsolve比较；R437付首次冻结。单90KB超限70/raw不删，没有新actual450/参数/run或几何接受；R438再明确接块reach。
+
+
+## 2026-11-16 01:00:26 UTC /root — R430实际201真返回末十词
+
+[R430实际201](results/R430-actual201-complete-ten-49-accepted-and-resource-partial.md)run43779219117/sourceaa2f1d05，compute133012382468失败/report133025041213成功同72021B/05677609必要全文已读；49原接受/148α，W.0516490181483→.0000846975608526。方向0..48均α.25/update2/trial0/beta1，六完整块+block6一接受；dir49/α1/update1响应未返，余α1..19/方向50..127/blocks7..15未访。590 nested primal全返、443 normalJ尝试442返；全模型651 primal全返/493 forward尝试492返。初60FD齐，末60/Arb453/native未起；原2400 SIGTERM/child75，必要/错误/quiet后00:55:46真清raw。末十词双路径同553B/6997f1f3仅供202新初猜，不借未返J/已毁raw，原方法/全部门继续。
