@@ -204,3 +204,5 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 - R887 §§14–15已付原G/P2有限p基及同源Pm低极模型，四α/五模p块保持。全部新增Z零点留数是Fν,p∈X(X+1)k[X]≤s−1，三次Cartier保同étale A内精确trace；主α零仅删log行，不删四补项。下一门为这四实际低多项式与同A的联合关系，不能由adj可逆或局部unit推指定α非零。
 
 - R892 原双映射新增PARI完整有理基路径；同一mfinit整矩阵/全旧前缀/QQ及最后严格认证全保，不跨基搬旧坐标。新run待取，所有旧run继续；尚无两个真实PASS和真RR，故无consumer请求。
+
+- R893 已把原端点条件rank1传给R814固定good pair的真实增广本原性，并得同单位H的ccan=H Dfun·D、Ccan=H Dfun²。若原c1非零，剩余准确是s=ord Dfun是否0；s>0时原canonical底为零、derived底非零但不能套原strict-kernel结论。继续原wild/tame的同源约束及同目标p非零，不把7993/别ell代入。

@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：228b15cc516c856018896f7ac81ca633aed49ba3；2026-11-16 14:39:25 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:37:51 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
+- 最近已读规则提交：3df96e126adec26e5b6600f846c2ca2986380027；2026-11-16 14:40:24 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:37:51 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-pari-original-maps.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–892已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-pari-original-maps.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–893已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续同修正全高前缀/WT，theta续四原低多项式，literature续原端点与fixed Heegner的真实增广比较。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -22,7 +22,7 @@ root唯一metadata/ref写者；deep续同修正全高前缀/WT，theta续四原�
 - P run43835679463/job133191600105/source969b3f439e706e539595424e18ddb573197475fa，k4/6。
 - F run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa，k2/4；完整8ΔC³=HB²(A²−17ΔB²)²/末端612(k+6)，不假Manin1。
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同P/F germ精度倍增已证；run43883945027/source4d57ca01ba54add12e48ac3be18aceed0c605163，P job133356889710、F job133356889202运行。
-- [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)原完整M2改固定PARI有理基已证基不变性；同mfinit整矩阵/QQ/全前缀/seed与版本齐，旧全部rank/CRT/最终认证保。新公开workflow已请求，回执待取，不冒旧Sage基坐标或提前PASS。
+- [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)原完整M2改固定PARI有理基已证基不变性；同mfinit整矩阵/QQ/全前缀/seed与版本齐，旧全部rank/CRT/最终认证保。run43888054599/source8444e2d23b0e3998c10eefc9fe904c7657e531bf已运行；P job133371441947、F job133371442286，无PASS。
 
 R881 r29局部19/12位及τ仅formal。R882全18源/绝对端点/原36cusps/D204保，五RR继续：
 - 306 run43850251992/job133240631228；eta48 run43850252040/job133240628667，共sourceacf294c6e07c20618f2acc9dfab863c34e8c8cb9。
@@ -40,7 +40,7 @@ R885同端点有界D满足sp0D=Ep AJ(Z02)，原q/q⁴、4、Artin/旧副本保�
 R886及[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)全split norm/divisor-sum/统一分母/同C02/n1=原AJ齐。τ使三extraEuler为全群环unit；γ四值−1，最高2/extra8unit，U=L1∪Uγ保同格/n1。usual core0，不套MR core1。
 [finite tests](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)的17惯性Sah、μ3双投影/Nakayama付最小O0完整两点p^N selector，含已用p环类；扩大系数须一次固定O0投影再平坦返回。
 [R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)完整anti-Kummer/γ交域/两点全h_l阶及原四角norm，连续coinduced与全误差给κq(σ)=−c1(Frq)。坏位统一指数、共轭两点selector/global cup已全证c1≠0⇒Selbal=E c1；受限JNS接口由直接证明替代。原c1非零、ordinary loc和无穷目标p仍开。
-literature正在把此结论与R814固定good pair做真实增广比较；尚未发布的加强不提前当结论。原wild/tame比较的其余条件仍沿完整H保。
+[R893](results/R893-original-endpoint-augmentation-square-and-primitive-heegner-comparison.md)已付c1非零⇒R814固定Heegner增广本原（实际Cor4.6.1/全控制），故D=U Z°为单位比例。全iota/period/平滑/Euler给同H unit的ccan=H Dfun·D、Ccan=H Dfun²；ord Ccan=2s、ord_M ccan=s。ordinary loc/原canonical非零恰等价s0，s>0未排；derived canonical不复用未除T的严格核结论。续同原wild/tame是否约束s，不跨p。
 
 ## 第二门：四原中央与同一低配对
 

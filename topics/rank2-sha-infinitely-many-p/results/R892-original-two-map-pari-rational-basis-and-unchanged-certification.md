@@ -109,3 +109,7 @@ R889 的 Newton germ、所有旧矩阵形状/权/prime/CRT 预算、原 source c
 - PARI/GP Development Team, *Catalogue of GP/PARI Functions — Modular forms*, 官方在线手册，2026-11-16 读取：[空间及有理系数、mfbasis、mfcoefs、mfinit、mfparams](https://pari.math.u-bordeaux.fr/dochtml/html-stable/Modular_forms.html)。
 - PARI/GP Development Team, *User's Guide to PARI/GP*, version 2.17.1, §§3.18.15 等：[官方 PDF](https://pari.math.u-bordeaux.fr/pub/pari/manuals/2.17.1/users.pdf)。整空间 mfcoefs 的列定义也见较早官方手册。
 - 本仓库 R874/R875/R878、[R889](R889-original-two-map-newton-germs-and-exact-normalization.md)；原两 producer 的具体来源与当前 run 见 HANDOFF。
+
+## 6. 实际启动回执
+
+公开 run [43888054599](https://github.com/Rogerhu12/math-research-public/actions/runs/43888054599)，源码提交 8444e2d23b0e3998c10eefc9fe904c7657e531bf，2026-11-16 14:39:38 UTC 创建。P job133371441947、F job133371442286 已进入数学步骤。此记录只确认实际执行；结果和 SHA-256 尚未返回，未记 PASS。全部此前九数学任务继续。
