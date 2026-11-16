@@ -1,0 +1,59 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43841516263",
+  "stepId": "restore-original197-minimal-historical-inputs",
+  "executionSourceCommit": "42280199bbb252264c883f57bb81958994f258d6",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
+  "scriptSHA256": "fe0e3dff72bdb75f4478eb17a71a6f8ef912bf6419c9c16f3e3afe2086031623",
+  "argvTemplate": [
+    "--manifest",
+    "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+    "--repo",
+    "{repo}",
+    "--out",
+    "{work}/global197-original-inputs",
+    "--remaining-seconds",
+    "600",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 0,
+  "wallSeconds": 13.636842321000003,
+  "fullTemporaryReceiptBytes": 5200,
+  "fullTemporaryReceiptSHA256": "abf252926be303531f0b0ba41bcd7ea466d10f061d276c9632b8a948c50f16da",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 09:38:32 UTC",
+      "beforeReadCommit": "ddfee4bec1f80bcd4ad22cb86d961fbeb4667643",
+      "originMainAfterPull": "42280199bbb252264c883f57bb81958994f258d6",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 09:38:47 UTC",
+      "beforeReadCommit": "42280199bbb252264c883f57bb81958994f258d6",
+      "originMainAfterPull": "a06aa66b10d7a13ea0321b9c54ed1e3ce65f9f73",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 4,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1373,
+    "logicalJsonSHA256": "073e1bb0231bb1e551120c757f90ae2a020b3885734f79c8b724283f181b120c",
+    "itemCount": 4
+  },
+  "lastRulesReadCommit": "a06aa66b10d7a13ea0321b9c54ed1e3ce65f9f73",
+  "summaryExcludesRecomputableArraysOnly": false
+}

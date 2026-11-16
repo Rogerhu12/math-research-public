@@ -2,39 +2,44 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0943-R885-original-adjugate-whole-Artin",
-  "commit_message": "serre: prove the original single adjugate row and whole Artin fibre norm algorithm",
-  "rules_last_read_commit": "f605fd475b1910592728bbe393a2f9acd4065f1c",
+  "request_id": "20261116-0941-R887-original-cusp-flip",
+  "commit_message": "serre: prove the original cusp flip and P0 unit bounded divisor representatives",
+  "rules_last_read_commit": "42280199bbb252264c883f57bb81958994f258d6",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "22fda075b63532416aa451025fbf5148a4bc0b9ee16460274cd9ba63ebf7ddda",
+  "expected_previous_request_sha256": "c47c0e77b6835b7d903ec432ac35cec49e08e6806ca3ca1d85308700551e037a",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
-      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7",
+      "path": "topics/serre-uniformity/notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
+      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-cusp-flip.md",
+      "sha256": "f214dd1bd6c33233faf78d97b5ef764e45cc5e33a81a556a7562360d97cac021",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "239a55ca4bdae8ef25c14507ff90c0a6c7420f162e24cca17e66d46b85185f54",
-      "expected_previous_sha256": "b15dde3d2f4e86674e64dbbe7a0e5a2ad7cbea3aa721250620660a09d3f6abd9"
+      "sha256": "361f4dbe3a7b8bf2949d60eb9c6a253a0aa9b16099c5ad8d507e4ba788db3b0b",
+      "expected_previous_sha256": "f214dd1bd6c33233faf78d97b5ef764e45cc5e33a81a556a7562360d97cac021"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "f37bf1204464bc69ca09709f76c9fc4750ca647eca9083ada22175aba5c43f2a",
-      "expected_previous_sha256": "52b1322f9a2ce33c60ede14c511d74c4f502d76b71743bff14b4c30bf2e38e17"
+      "sha256": "ce5c56297691477662a438a48d34ae324e711bba3f254cc20e41f9f39be6aaf2",
+      "expected_previous_sha256": "f37bf1204464bc69ca09709f76c9fc4750ca647eca9083ada22175aba5c43f2a"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "5bdd007eabd4db0c1d5686d80708f2031f19124f971d782ec725bd937e2778f8",
-      "expected_previous_sha256": "429f619b6c471decaf49aee202561a812f215925b8636c02c5ac5c83ec7b6043"
+      "sha256": "7aa7fd4790f6b0c243bc17006f7cfc415114809c6fa28dce0547949bf4a2178c",
+      "expected_previous_sha256": "5bdd007eabd4db0c1d5686d80708f2031f19124f971d782ec725bd937e2778f8"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "ad46aa4336a9a8ad734e8e209a3f350aad9e597f4fb7c977d00d1935e719672b",
-      "expected_previous_sha256": "eebaaa8ee55331286963fb6c7b9d647cbc08b72627c5d859293fe989861980b7"
+      "sha256": "e41d1101e159914110588dafc3a929ab6b7bacd213ade0811b99d160d575efb3",
+      "expected_previous_sha256": "7fa369a7c117cdce5acf26426d1b195894524826df18a835b321b04ccf60e7dd"
     }
   ],
   "dispatch_workflows": []

@@ -42,7 +42,12 @@
 - R880新269/146/418及共同cusp418消费者激活，coreca46e8f9/wrapper3a888af1；六原源944件绑定，真实point字段修正，Qf与原ρ首项不改。H逐字归档并压缩；主目标OPEN。
 - 本push规则：公开Actions真实pull至f605fd475b1910592728bbe393a2f9acd4065f1c（2026-11-16T09:30:32.644482+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
-### 2026-11-16 17:43 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 17:38 Asia/Taipei — serre-public-astra-20261115
 - R885完整纸证：原加权273节点/单左伴随递推及b272全恒等式；完整272维Artin源与8维环单位/单charpoly九范数，旧K/逆和原系数复用，真实dual7/P0帧不改。
 - R880真实43840391925已成功15.559026589s/28stage：共同cusp418与D*418、rank962及原Qf均true；继续读实际细项和原C*翻转，不冒五Lj或height。
+- 本push规则：公开Actions真实pull至42280199bbb252264c883f57bb81958994f258d6（2026-11-16T09:38:35.144319+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 17:41 Asia/Taipei — serre-public-astra-20261115
+- R887完整纸证：原共同约束限制V2→146核/旧252行；两锚真实962加完整核投影才成C*418，146不冒418。主因子正乘、ρ阶−1205及t首项c^1205、七项Norm类号全部保真。
+- R885原单行adj纸证已推a06aa66b；R880两418真实完成，接实际C*consumer。H前态逐字归档，五Lj/η支持/nonp/height继续。
 - 本push规则：待公开Actions真实pull刷新；两README SHA6979d793/35f82f3d，主目标OPEN。

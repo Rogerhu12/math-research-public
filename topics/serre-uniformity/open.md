@@ -119,3 +119,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R885（纸证完成，实际新算术待运行）**：[原单行伴随及完整Artin纤维范数](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)。原加权界deg c_i≤i允许273真实不同节点；八个旧K/逆只补W^272e0，其余节点只新charpoly。单左行递推及完整b272=0认证原adj行；整个272维Artin源与8维对应环上用真实单位/xgcd/Berkowitz/全272乘回，一次charpoly给九范数，不删非半单分量。原dual7、两条框架、未展开t标量及nonp均保留。
+
+
+**R887（完整纸证，实际消费者继续）**：[原共同cusp翻转与避开P0的有界代表](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)。原J_C仅限制418个V2列得完整146核；旧第252行选uC，真实两锚rank962及完整关系/投影才得C*418。原D_C−H=−(C*−H)+div(uC/τ²)，Qf正乘后ρ阶−1205、原t首项乘c^1205；三272代表均避P0，七项Norm保−7C*与全原主因子。五Lj128/144与height仍缺。

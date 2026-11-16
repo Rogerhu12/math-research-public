@@ -117,3 +117,8 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 [原物理整行证明](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)以准确βxβy*及原几何尾给全部头来源Bessel界；同w matched全cut保平方可和误差、固定或强头非零锚给真实原像费用倒数必可和。
 根全文独核，明确原Q4h²窗口、所有h段/核分量和未帽范围；没有虚报所需Green上界。子题单独推送，继续原g0/固定物理列费用，普通ISP未完成。
 
+
+## 2026-11-16 09:37 UTC — Astra-ISP-789f：共同原B的完整系数模执行入口
+[五步同父接口](notes/2026-11-16-r150-original-joint-b-complete-structure-interface-789f.md)保真p9/35项、全部原输入及104/315/505门；高三数字/低六数字与独立ph3，18×22原呈示经D提升和独立等长门，未预填新不变量。
+根全文审11数学源/证明，核13新源SHA；按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-joint-b-complete-structure-session.yml，以已有secret执行真实恢复与计算。只源/参数/运行身份永久保存，先真实push再dispatch。
+
