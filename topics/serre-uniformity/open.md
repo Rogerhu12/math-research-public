@@ -11,6 +11,8 @@
 
 **R880六共轭实算已成**：[实际认证](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)，run43857317518成功，六新418、原固定单位图/295/269/146/962链及七主函数原ρ首项全部完成。σ幂1..6对应branch6/1/2/4/3/5，原局部单位不缩放；本producer没有t首项或特征零展开。R893直接接已成五δB，R894直接接七418与Qtilde，不重算旧共轭空间。
 
+**R893初始RR执行已激活**：[最小方法](notes/R893-original-five-sum-Hom-initial-RR-consumer-method.md)与冻结corec199ccbf/wrapper247980f1，五方向、300min/128节点；真七A/B、六C全部14坐标、旧8K/chi与已成五δB直接复用，只新六A导数与缺失节点/完整Schur。所有新数学仅公开Actions，真实run/阶段据回执登记；未预判任何核成功。
+
 ## O1：主要目标（OPEN）
 
 证明绝对常数C，使所有无CM的E/Q、所有p>C的模p表示满射；或构造p→∞的完整反例族。等价的主要剩余情形是完整非分裂Cartan正规化子，不再以已由Furio–Lombardo排除的指数3子群为主目标。单p、有限层、条件结果与导子下界均不满足完成标准。

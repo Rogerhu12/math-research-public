@@ -187,3 +187,9 @@
 - R880六非零共轭D*实际结论单独登记：351.082761716s/1093stage/230源，完整六418与原固定图、主函数、ρ首项全成；σ幂与branch逐项分清，t值仍待实际下游。
 - 小IO v15逐原manifest读42件/11.99MB，R893复用已成δB、R894接七原418及主函数；原K/第零支/原jets不重，新raw仅一日artifact。
 - 本push规则：公开Actions真实pull至3e6d904d330516a8ef81ba6378340debbaaf102d（2026-11-16T11:52:26.160592+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 19:54 Asia/Taipei — serre-public-astra-20261115
+- 激活R893五原sum-Hom初始RR：corec199ccbf/wrapper247980f1，300min/128节点；完整Q单位、三scalar消元、Schur单位图及全部原纤维关系，保存完整B评价供R896。
+- 旧七A/B、六C/全14坐标、8K、chi、五δB直接用，只新六A导数；修正六D*说明的数组形状为δB 8×272、δ²B 10×272，原源码和实际原件不变。
+- 本push规则：公开Actions真实pull至7c231a4c7182405c95bbb6349b8eca6e93d04298（2026-11-16T11:54:41.465786+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
