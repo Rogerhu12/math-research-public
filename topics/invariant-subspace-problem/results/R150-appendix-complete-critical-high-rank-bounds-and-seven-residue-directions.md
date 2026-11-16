@@ -88,6 +88,8 @@ In fact, none of the 6018 denominator clearings or integer contents is divisible
 
 The native exact elimination reads all 6018 rows and all 4266 columns. It verifies every field addition pattern and every nonzero inverse, keeps all original row additions, and retains the actual independent normalized pivots. Every dependent original row is reduced to zero on all 4266 coordinates.
 
+| Field | Prime | Residue root | Residue rank | Residue nullity | Program seconds |
+|---|---:|---:|---:|---:|---:|
 | plus | 19 | 5 | 4259 | 7 | 9.009990373000619 |
 | minus | 17 | 4 | 4259 | 7 | 8.924869801998284 |
 | e8 | 17 | 5 | 4259 | 7 | 13.247619434001535 |
