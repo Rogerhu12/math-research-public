@@ -176,4 +176,4 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
 
-R46容量单文件白名单见[完整证据](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)064056ab：仅notes/2026-11-13-R46-complete-density-transport-bootstrap.json，551730B/blob968ee851/SHAf86e1cd3，恢复5423c8a7fd3869430df0d188ffe406f1d567d7f8同path。先推，待fresh guard普通删；原proof/source/成功小结/全部未付scope保，未来原consumer须先restore而非重算。
+R46容量单文件白名单见[完整证据](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)064056ab：仅notes/2026-11-13-R46-complete-density-transport-bootstrap.json，551730B/blob968ee851/SHAf86e1cd3，恢复5423c8a7fd3869430df0d188ffe406f1d567d7f8同path。白名单ece1fcde已先推，本次fresh SHA/size守门普通删；原proof/source/成功小结/全部未付scope保，未来原consumer须先restore而非重算。
