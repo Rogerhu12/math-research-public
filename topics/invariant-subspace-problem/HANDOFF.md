@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 665dd92b8703fa7118d90fbee0eba7f07e2d60ee（2026-11-16 17:15:10 UTC，Actions run43916370362实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43916370362-1.json。
+- **最近成功实际 pull 与已读规则提交：** 30e3c64bbedfa8221af623891edb21af64479005（2026-11-16 17:19:57 UTC，Actions run43917221745实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43917221745-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 当前本地executor不可用；实际终端Actions仍可用，算术固定Python3.12.14/flint0.9。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
@@ -11,8 +11,8 @@
 
 ## 当前实际执行接续
 
-- **原E同job六步已结束。** run43911869940前三步重建原116、逐字恢复六逆及3418原清单、20×50投影均0。旧Q60外墙360秒真实TERM/143、旧receipt被排除；新两4结构解数学20.893秒exit0，全64E逆/1000E/3000Q/400selected真，原20det64、M96/B69。原小95门亦exit0，D秩70/T秩95、原unit38；[两4实际原E来源证明](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)已全文审并发布；95原E推论另文待发布，不把field坐标当E来源。
-- 根已取126498字节完整日志，重建high95 raw8429/7b23309f…、两4 raw4064/9121290f…及最后小phase2484/2354e4e3…的全部字节/SHA全同。job整体failure仅旧Q60，missing=[]；临时目录不假定存活。源码重建[原六逆接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)、[两4接口](notes/2026-11-16-r150-original-low20-two-four-exact-interface-789f.md)、[95门](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)全保，旧constants未完不改写。
+- **原E同job六步已结束。** run43911869940完整116/六逆/原清单/投影成功；旧Q60外墙360秒真实TERM/143仍保，新两4精确解与95门均0且全门通过。[两4完整实证](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)和本次原E260/270来源结论均已审；旧constants不改称完成，临时目录不假定存活。
+- 根完整日志、high95/两4 raw及小final逐字SHA独核见[审计身份](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)。job整体failure仅旧Q60、missing=[]；六逆和3418原清单的source重建规则完整保[恢复接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)。
 - 旧环境/137/143/全部新job细节保[本次H快照](notes/2026-11-16-handoff-before-pure-far-height-789f.md)，未列开放项不删。
 - **[权十真实预算边界与完成日志审计已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** run43906283833完整八次尝试已逐源/绑定核对；真实engine和2000 SSI门通过，std555.227秒仅START、整体592.369秒/75、完整candidate=null，不空续。根另实际运行纯V8审计，重建2172字节semantic及2027/3469两个完整raw的字节/SHA全同；缺省的201项旧权8phase列表仅保完整身份。第9验证未跑，无成员/非成员新增结论。下一全77276×13808直接消元/原左证另建接口。
 - [200输入根独审](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)已闭：2000坐标、8037189项、151071880 ASCII字节及独立δb²全真，156.362秒/RSS88624。原v1物理权守卫0列失败与根v1 exit137保独立身份，不移成成功。
@@ -26,7 +26,9 @@
 - **[实际完整210/200原来源](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)：** 24均值+80交换子二字像十向量/十八源全真，Bell槽0，最终291.639秒exit0。根独立1040/1872递推坐标、104原乘回及权9/10全真；新增7034750向量项/2707447来源项。全部106phase双SHA。不是新秩/GB/单位。
 - **[非Bell200完整梯度商](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)**：低列压缩、14换源及至多两轮稳定均无Bell，$F/\Gamma_2\simeq S/J_{17}$，列权$5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。已有$b\delta,y_i b\delta,q_jb^2$在完整原F127梯度商非零，四q类独立；由[十八源过滤等价](results/R150-appendix-original-eighteen-source-weight-filtration-equivalence.md)排规范q非零组合加权来源≤10和δ≤9。权$y:1,w/u:2$，不升普通次数/E。新目标δb²权10、qb³权11；旧权7/8不重算。
 - 原权8全17674×1386秩1312、74全核、root原unit det4/1307876核坐标已闭；14高列全原换源，36低种子一轮完整106、第二轮稳定是上界，不认最小轮2。
-- **[原E低交换子20来源/670完整上界](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)**：五十低源落55→35的20维核，唯一消去低项给完整原11/17源同20原列E常数表达。127只证明原子式非零，原系数用E伴随定义；116→76普通参数模等式保40高列，两轮给66×10+10=670。$RX=0$的原20×50精确解及全1000E/400selected现实际完成，见[完整实证](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)；不冒新55维/参数展开。高95原unit亦真，独立E270来源证明待发布。
+- [原E低20因子化](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)及[实际精确坐标](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)已闭：完整1000E/3000Q/400selected，参数/原源全保；670旧上界由下一条改进。
+- **[原四次核95与原E完整260/270呈示已闭](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)。** 完整$D:165\to70$满射，原$T:100\to165$的合法95子式实际det38；原E恒等$DT=0$而非field零提升，故$\operatorname{im}T=\ker D$、核95/五关系/余商0。原高40来源减$N_iC_s$后唯一低次校正落$B\langle C20\rangle$，保全部参数及原11/17来源；全部交换子在$P_1$、低列在$P_0$，完整三字降次给$P_2$稳定，至多非Bell260+Bell10=270。没有初始76=36普通B模或第一轮稳定声明，没有新270数组或Bell判空。
+- 新后继考察55条原Koszul来源与95核之40维商，可能进一步降低260/270；当前只在纯来源证明/小原单位接口，不预填新的实际40列。
 
 ## R271真实投影返回与剩余交叉
 

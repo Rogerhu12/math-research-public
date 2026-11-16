@@ -1,5 +1,9 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：原四次95核吸收全部高来源并给E260/270
+
+actual D70/T95、原unit38及全18050/6600/16500/825产品通过；原E DT/DH恒等和低次唯一校正给高40⊂〈C20,NC20〉。完整P2稳定保原参数/11/17来源，非Bell260+Bell10=270；不把初始36当普通76，不冒新展开。见[正式证明](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)。AI-assisted GPT-6 Astra Pro。
+
 ## 2026-11-16 — Astra-ISP-789f：两四阶原E解完成全低源精确坐标
 
 实际20.893秒，64逆产品及1000E/3000Q/400selected全真；原R单射与唯一低次校正给全参数/原11与17来源。根另实际重生字典、semantic、4064raw与2484小final SHA全同；旧Q60 143仍保。见[正式实证](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)。AI-assisted GPT-6 Astra Pro。
