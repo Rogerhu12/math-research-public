@@ -113,3 +113,7 @@ R571完整18985B独立刊：239新captured239 first_reader与composer旧bound230
 ## 2026-11-16 15:14 UTC /root — R586/request245真实schema与完整生成必要关系
 
 R586八件327430B独立刊：旧234的616来源全保→626/13层，原PYPINS真实sampler schema绑定；原完整generation必要具名身份/前缀/两行/唯一相等parent可逆共享，只严格较小时采用，声明与observed角色原字保。原R556/R557数学/25M/18900+2700/90K70/quiet清理不变，无fit或实际科学承诺；正式刊后唯一POST，R587 exact唯一。
+
+## 2026-11-16 15:16 UTC /root — R580同次复角解析带及完整指数尾与alias
+
+R580三件74680B独立刊：真实R575/R553同次全系数/joint正管，准确cylindrical复带/两完整向量sup、全无限尾和alias及正有理定向实现，原coverage/phase/FFT/ρ责任不减，无实际strip或run承诺。补245正式5664/43894406245/133393934544唯一POST200与真pull已读71372双README未变；R587 exact唯一。

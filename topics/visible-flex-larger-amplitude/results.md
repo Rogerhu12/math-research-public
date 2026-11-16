@@ -87,3 +87,5 @@
 - [R571：actual239真实reader来源集合差与完整初始化读回](results/R571-actual239-source-reader-binding-stop-and-complete-metadata-boundary.md)：8894B immutable scope完整；十一层/科学未起、deadline null，所有级联缺失与cleanup未调用，无父。
 
 - [R586：request245真实sampler schema与完整来源生成具名关系](results/R586-current-sampler-schema-and-complete-generation-relations.md)：626/13层、旧616全保，真实预检来源修复与原必要无损较小选择，数学/资源/90K不改；实际R587另付。
+
+- [R580：同次完整复角解析带、无限Fourier尾与全部DFT alias](results/R580-complete-complex-angle-strip-and-exponential-tail-alias.md)：完整cylindrical消元/WP正带/向量sup与全部signed bins、两mean、正有理幂和；条件全覆盖、实际FFT/metric未付，薄库无新科学门。
