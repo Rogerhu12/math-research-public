@@ -55,6 +55,8 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 全部压缩前source/run/SHA、旧接口和否定边界逐字保[本次完整归档](notes/2026-11-15-open-before-R837-certified.md)，不重做已登记结论。
 
+**R787最新545断点**：[接续记录](notes/R787-545-digit-checkpoint-and-same-core-continuation.md)run43795851660/source9eeabe9c真BudgetStop；lift76988028B/2aa94259，manifest66c3fdb0/1262与545条history/compaction一致，artifact14198754717/a188db0f至Nov17 05:05:48。只改resume，120min/core93d3/wrapper42157冻结，从546继续；小件IO不冒称大lift已重哈希，后继Actions全核恢复。无关系/A.1成功或新q排除。
+
 **R787展开坐标**：[失联恢复](notes/R787-runner-disconnection-and-518-checkpoint-recovery.md)中，旧run43766834509仅证runner与服务器失联、无新数学产物；恢复原518来源，只将预算改120min，core/wrapper不变；新[518全格](notes/R787-518-digit-lattice-ended-and-fixed-basis-boundary.md)已闭：run43766834526，1742秒，全56格detU1/56新D全m1非零，旧拒复用0；不推518不足或原关系不存在。final25631ecf/artifact14183618203至Nov16 22:31UTC。旧430/42/56/98与Ω结论保全，不重复；准确展开函数仍未得。
 
 **R815算子**：[582完整素数断点](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)旧run43748439850自然BudgetStop；g/component0、最后1000011869、17401bits、current769309011B/67e7fe98，step5a585884与manifest460daad8一致。artifact14186797329/e07f91b7至Nov16 23:48:02；53输入109MB/051571e1不变。本次只resume续582，request9155a3ef；原targets/prime/mode及core/wrapper冻结。Mg/Γ未成；[三列及49拒](notes/R815-three-known-columns-ended-and-denominator-boundary.md)、[九维固定调度](notes/R815-eight-probe-ended-and-fixed-schedule-boundary.md)均已闭，不重跑。

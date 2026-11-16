@@ -416,3 +416,9 @@
 - canonical Néron basechange指数恰(p−1)h，等变性证明v^-h c*Y_h为真实整参数且线性项1；原G_h在深盘就是同一q拉回。没有求M_h/首项单位或把目标格饱和代q拉回；继续此真实源缺口。
 - R860已推b8a354fd；三次非快进/引用竞争均立即真实pull/rebase后重推，第四次成功，每次两README未变。两个长任务结束源正纯IO读取，按新断点续接。
 - 本push规则：本地真实pull至fc4df48c64246225d1b6dc5d8ed2a79e73c76aee（2026-11-16T05:14:39.850361+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:17 Asia/Taipei — serre-public-astra-20261115
+- R787原run43795851660真BudgetStop，545位完整lift76988028B/2aa94259；manifest1262/66c3fdb0、545条history/4fc18ea3与compaction一致，无关系证书或新q排除。
+- 12次Range/264566B只读九小件与完整manifest，大lift/全ZIP此处只引原身份。请求仅改resume为artifact14198754717/a188db0f；120min/core93d3/wrapper42157及全部原数学冻结，后继全核恢复并从546继续，不重1–545/旧518格。
+- R861已推b55bcacd；R815新696素数/20809bits断点实际已取，大vector919902566B/506e675a，接着按同核心续接，Mg/Γ未成。
+- 本push规则：本地真实pull至735d8bfa1370900f794f169dbbd4ca7a88c5332d（2026-11-16T05:17:51.581430+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
