@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 16:16:38 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 16:18:39 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。旧无executor阶段依根规8仅小UTF8 connector；16:00后CLI恢复，现回正常git。禁本机科学执行。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；partial clone --filter=blob:none/sparse。最新非FF立即真git pull --rebase origin main于2026-11-16 16:16:38 UTC成功→aae4e29f4540b151ba14c5f80f7457f3220074ea，两README同已读、差异空；下一真pull≤17:16:38。16:00前无executor及旧完整CI pull详见历史H/log；现正常CLI，科学只在公开自身Actions。
-最近只读README核：aae4e29f4540b151ba14c5f80f7457f3220074ea；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS；partial clone --filter=blob:none/sparse。最新非FF立即真git pull --rebase origin main于2026-11-16 16:18:39 UTC成功→9617123cd36a475602d68c0f2cf60fbe73081e13，两README同已读、差异空；下一真pull≤17:18:39。16:00前无executor及旧完整CI pull详见历史H/log；现正常CLI，科学只在公开自身Actions。
+最近只读README核：9617123cd36a475602d68c0f2cf60fbe73081e13；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -48,4 +48,4 @@ WCTR43901776543/1已完整成并冻结：96changed、36新+20原copy/六图/五p
 
 WEX31/WEXA de1dc669完整43896937318/1已冻结：31新+62原记录/18全context，whole/reduced各整候选约3.790258283e255仍非小门。四端/physicalmean/负域/Cs/WT及SCI/exec完整资格见原H全文与actual proof，old0/lost0；finite/head/ν/Θ/全matching未闭。
 
-W2H72bef388双侧恒等式及W2C09ada380完整collar-Volterra纯证已推：固定WVC实际/参考，V=Vb+ψ(JB+JAJB)、W=Wb+ψ(−JC*+JA*JC*)，collar余项均二阶；全transition/ΔA/B/C/signed-centre/true dual H1和mean/ports/两rhs保。有限band H1_0经compact-core进入真实GH图；角224/残差416非径160。新50(+2)未算，旧T等同算子整球可copy、旧EHigh不可移。两signed native已定位未读，future CI核实际schema；source继续，WVC/WEX全锁。
+W2H72bef388双侧恒等式及W2C09ada380完整collar-Volterra纯证已推：固定WVC实际/参考，V=Vb+ψ(JB+JAJB)、W=Wb+ψ(−JC*+JA*JC*)，collar余项均二阶；全transition/ΔA/B/C/signed-centre/true dual H1和mean/ports/两rhs保。有限band H1_0经compact-core进入真实GH图；角224/残差416非径160。新50(+2)未算，旧T等同算子整球可copy、旧EHigh不可移。完整W2CI389e6c6a/45161B/8258111d已封：两native精确恢复、原19history、29同算子原球4653B/f1ec45f0根独核；piece2549/65 signed offsets/13 intrinsic complex/193 family upper全合同，实际η不换。新trial224用896 drift及完整adjoint，native payload仍未读，future CI验；source继续，WVC/WEX/WCTR全锁。

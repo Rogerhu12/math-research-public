@@ -294,3 +294,17 @@ selected环境新挂载后原会话目录不存在；显式/bin/bash、login=fal
 2026-11-16 16:16:24 UTC：本结论push非FF后立即真pull --rebase成功→b0f904f0d637eb324d66bf69772197a0ec867e39；根/题README同已读21bd547f/7e2b93d6，无新差异；保远端并继续推送，未force。
 
 2026-11-16 16:16:38 UTC：本结论push非FF后立即真pull --rebase成功→aae4e29f4540b151ba14c5f80f7457f3220074ea；根/题README同已读21bd547f/7e2b93d6，无新差异；保远端并继续推送，未force。
+
+### 2026-11-16 16:17:59 UTC — W2C完整只读输入库存冻结，native实际验收未执行
+
+完整库存 `389e6c6ade2a7f8943ebd9466e3c3b1003a4d720` /45161B/SHA `8258111dd24b18593aea2f90aabdc89a0ba08b6f8fc7947f3aac63ecc5426db7`，固定WVC D_f/G_f/S/P/Q/A/B/C/R及193head；WCTR新参考不能自动替换此合同。根33项纯元数据核全过：29完整原球逐path对完整WVC78627B相等，整体4653B/SHA `f1ec45f0f3ddb6ded2856ccc24b04528743aacfbfbfb62a04bb0c39a075ef55b`；原19 historical_inputs与已封WCTR/WVC原清单完全相同；两native不可变树身份一致。旧q/eρ/outer/T是同实际算子整对象copy，旧trial-relative EHigh不移用。
+
+新增原native统一只读恢复提交ae319f7544b3c94b5dbcb5290557ed04b66641eb：germ原path notes/2026-11-13-R133-actual-moving0765-physical-complex-turning-germ-native.json.gz，Git2b90cfe80a6381badc29f02f7dcb3dce2584851d/7851B/SHA397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864；root预算原path notes/current_root_scalarization_ci/run-43594466882-1/consumers/complete-moving-root-scalarization.json.gz，Git1b1c6f11478c800ef76e1519c266e80b9d08916c/30595B/SHA10ff6db82cece6c72ae8a6726c07c188922cf6b307f5af5f50a691ade0abb33f。大小/SHA来自完整原manifest e70b6361/6381B/38d76e08，Git身份由immutable ls-tree核；本轮未读取/解压任何native，不声称已重验gzip正文SHA。
+
+原germ producer f4ee58e8/13009B/a3ad50b8、root producer049d7d18/19473B/4a3ee217及complex_record/ball_record完整小源hash均核，schema为13 intrinsic项各{real,imag,modulus_upper}、各值完整五键ball/lower/upper/mid_float/radius_upper_float；诊断float不代替方向界。65 signed offsets明确来自同repair piece2549 physical_offset、原candidate part001 [1346,2692)、完整shape[4,6144,65]；193旧response上界只包δ方向误差，不当signed centre。原full U/V producer是germ+repair+δ正和，包含centre；外整rectangle值界可覆盖collar，inner-half径导数不可外移。实际η=-γmδ全保；新trial|j|≤224的drift因子896，dual完整product导数另付，旧160的640不延域。所有mean/primitive rank/φ物理4因子/√2基和真r_star保持。
+
+原root process37437b04/4120B/9f1d1806完整13门及collar processd10f4681/11340B/f919ecd9完整19门已核，都是旧成功资格；未来own Actions必须整件验证实际payload kind/complete/proved/failed/source/gates/同对象/同域/全部13+65+193字段。无需再恢复2.7MB response shard或502KB direction正文；不是声称原数据没有这些完整费用。五图50=18+15+11+3+3、strict gate另2仍未算，完整source/output schema/预算/worker合同尚在形成，inventory不是numeric入口。WCTR36、WVC56、WEX31以及所有旧targets冻结不重。
+
+2026-11-16 16:18:24 UTC：本结论push非FF后立即真pull --rebase成功→fc6f79391c966ba6793b94ec46f770db172df63f；根/题README同已读21bd547f/7e2b93d6，无新差异；保远端并继续推送，未force。
+
+2026-11-16 16:18:39 UTC：本结论push非FF后立即真pull --rebase成功→9617123cd36a475602d68c0f2cf60fbe73081e13；根/题README同已读21bd547f/7e2b93d6，无新差异；保远端并继续推送，未force。
