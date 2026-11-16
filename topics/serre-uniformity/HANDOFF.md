@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；远端main继续，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f820cf9c38867648b60ca85f16270a4c006f28c3**（2026-11-16T08:48:17.438693+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-single-canonical-A.md)（9880B/5f8e12bc），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：262990d7bfa5d6811833699b4db4ef09e3d70295**（2026-11-16T08:50:57.775282+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-single-canonical-A.md)（9880B/5f8e12bc），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
 
 每结论立即推；每push前和至少每小时真实pull，NFF/ref竞争立即pull --rebase再推循环、禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main与索引。07:19共享终端失联后由公开恢复workflow实际git发布，仍partial/sparse；新数学仅本公开Actions，本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，当前必要源仅单日artifact。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -36,7 +36,7 @@
 
 **R864/866/865/R870**：原127核、H/J/逆、cY/Q-fixed even54odd73、T7全560×127和16无重谱均闭。R870[真实整数c2436b74](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)已成N0=χ7(8)、16ni、1959位d*/80输入；run43822039811/artifact14205027300/723ec402/42源6a9d22de。原ξj有理、含7-primary挠单射保留；合法好约化niPiξj非零⇒Eiηj活跃，模零未决。实际支持/eη/主函数/nonp未算。
 
-**R873原循环7正在实际续算**：[纸证](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)保原8H+4E/2058、110阶、真P及K/P′、dual/c0c1/−3。修复后run43832703159/job133181675900/source2ee14751实际success；core3c4922ee/wrapper033a8cac，仅改R775窗口273与原max_exponent≥763核对，196..763全比较保留。首跑4960原件carrier73069a32/artifact14207709262直接续用；完整失败及修复见[修复记录](notes/R873-original-selection-window-repair-and-source-carrier-reuse.md)。17系数/全2200回代已成，正式小cert读取中；实际η支持未成。
+**R873原循环7实际已成**：[正式结果](results/R873-certified-original-cyclic-seven-correspondence.md)，run43832703159/job133181675900/source2ee14751；17原范数系数、739处2058minor det510、全部2200行乘回及真两端函数域DAG已成，184.720277599s。finalb3b89a56/manifest380件a5f118c4/artifact14209317175/f9e41511（Nov17 08:42）；4960原件carrier73069a32不重。准确char0 unit-solve不等于展开系数；Picard理想/η支持/height仍未算。
 
 **必要原源续载已成**：[运输记录](notes/2026-11-16-required-original-source-intake.md)与H归档保所有SHA；43826442405/R799+R801、43827207676/R800+R827均保必要源。原身份/manifest及R827 failure124/no-FINAL不改，新消费者只读复用。
 
