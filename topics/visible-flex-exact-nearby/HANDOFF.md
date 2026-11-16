@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 12:21:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 12:21:25 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 12:01:17非FF真CLI仍无executor，下一本地尝试≤13:01:17。最新CI真pull为43862924830/1于11-16 12:02:27.498937→55858bef6b5ef201b11025e0bf1b6e0738944906；两README完整diff空/同已读，exec保4次全回执。下一真pull≤13:02:27；ref读取不冒真pull。
-最近只读README核：05ae500a2aa98784fe05f6b4b8b3fcf2424f9d59；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：78f72a16ef3dd40692333b579b8f2dfb59d860a7；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -60,4 +60,4 @@ WSJ217cdff8已证同strict real的frozen t0双索引jet，r≤3与angle分开；
 
 继续open：正侧signed finite inverse/true96 normalization与rough全fee、strict完整mean强迫新界→负head/ν/两mean/Θ/高门→背景/非线性matching→同对象几何。每结论独推；未达总标准不停、不等用户。
 
-WDG212385b5已证ω真实drift正cut+全普通dr积分，旧flow同d角变分可复用；ordinary relativeω1..14由全Bell/max给出。2个WGS完整输入/35copy、五图80新尚未算；source282efceb/manifest a88caba5已完成，6current/2AST/0history，0新exp/sqrt/log/ODE，WSJ仅除一次b!；不授relative15或root盘。
+WDG212385b5已证ω真实drift正cut+全普通dr积分，旧flow同d角变分可复用；ordinary relativeω1..14由全Bell/max给出。2个WGS完整输入/35copy、五图80新已排CI；source282efceb/manifest a88caba5冻结，6current/2AST/0history，0新exp/sqrt/log/ODE，WSJ仅除一次b!；不授relative15或root盘。
