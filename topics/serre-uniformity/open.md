@@ -154,7 +154,7 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **R906原整Tate像已证**：[完整证明](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)。原fine Cartan/level6源在σ=τ^(e/2)下的period lattice固定；原正CM实际残余指数皆奇，σ−1在实际q(TpJ)整可逆。由原Raynaud整序列得qTpJ=qB TpB，逐h及原清分母p-index全部保留，未换optimal商。高分歧e=p²−1不满足Mazur–Raynaud小分歧cotangent条件，故Hodge饱和/原CM normal-content与指定第五jet仍待实际finite-flat比较。
 
 
-**R905原七源连接纸证已成**：[完整构造](results/R905-original-bounded-divisor-trace-dual-connections.md)。从同一D的最终418截取146，以146＋126真完整纤维单位和同次数认证完整两图格；相对迹对偶给670基，D+H全重数主部544/秩543。D/H相交、分歧与nilpotent均保，特殊度零仅真h时用−dlogh，否则低权格fallback。五Dj、X、DN共七源连接经原QN主函数校正和Gal7/真cY平均直接运输原I_Z；不依赖先完成R900或126聚合。尚无新连接矩阵，原Hecke活跃投影/κν/P1/非p/period/height仍缺，不能把代数连接存在当canonical校准。
+**R905原七源连接纸证已成**：[完整构造](results/R905-original-bounded-divisor-trace-dual-connections.md)。从同一D的最终418截取146，以146＋126真完整纤维单位和同次数认证完整两图格；相对迹对偶给670基，D+H全重数主部544/秩543。D/H相交、分歧与nilpotent均保，特殊度零仅真h时用−dlogh，否则低权格fallback。五Dj、X、DN共七源连接经原QN主函数校正和Gal7/真cY平均直接运输原I_Z；不依赖先完成R900或126聚合。[执行六件](notes/R905-original-trace-dual-connection-consumer-method.md)已全文读并按六实际source激活：cored0810c29/helperced5b652/wrapperff7ff5f1，完整544×670/真rank543尚待计算；原Hecke活跃投影/κν/P1/非p/period/height仍缺，不能把代数连接存在当canonical校准。
 
 
 **R901六件执行源已冻结发布**：[方法](notes/R901-original-five-Z-shared-flip-execution-method.md)与固定126节点计划均已全文核读，core2cacb66f/wrapperc2aad47b继承原R890/R894数学；原D2/E、35主函数、全部t常数及关闭工作准确解闭包保留。pending request待整体激活再一次填R900/R902，真实R896五源已填、R900实际源已成；计划文件零完成计数是不可变定义，不作运行证书。收到真源只填实际执行request，不重写原计划或重复旧flip。
@@ -163,7 +163,7 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **R903五件执行源已冻结发布**：[方法](notes/R903-original-five-Iz-two-weight-RR-execution-method.md)，同一962像复用于两权完整核，V4只补272个最高列和旧19行jet的线性延伸。原256列保顺序、真144补、完整272纤维/同度及P0正c幂逐项保全；R901源仍null。原完整主函数carrier保来源，但P1值、Q固定坐标、九Norm及高度均未完成。
 
 
-**[R909完整主部三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)** 已证：V3/(τU_D)为完整544测试商，留数完美配对把全部主部移到不交H_a；同F(a)逆的0/1/2系数给544×670，含全部分歧/交点。目标是完整O_H、O_D两个272代数的乘法迹差；同F0逆实现h_a除法，单个V1乘法与真完整幂基给全部迹，不剥nilpotent或重Γ。有限整数primitive搜索有存在界但当前图/矩阵/连接完成旗标仍false。七源实际消费者正在写，同原I_Z及canonical边界不改。
+**[R909完整主部三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)** 已证：V3/(τU_D)为完整544测试商，留数完美配对把全部主部移到不交H_a；同F(a)逆的0/1/2系数给544×670，含全部分歧/交点。目标是完整O_H、O_D两个272代数的乘法迹差；同F0逆实现h_a除法，单个V1乘法与真完整幂基给全部迹，不剥nilpotent或重Γ。有限整数primitive搜索有存在界但当前图/矩阵/连接完成旗标仍false。七源实际消费者已激活，旧W/四K原逆及七418直接消费，同原I_Z及canonical边界不改。
 
 
 **[R908原有限平坦CM比较](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)** 已证：保原Tate指数a_h，完整BT给原e_hq_B=[p^a_h]f_h；真generic kernel闭包商D_h带原δ的Fp²作用。两Raynaud尺度仅(0,r)/(1,p)，原σ点态平凡排后者并迫r偶。真Cartier对偶Lie单射配原Igusa μ_(p+1)/Drinfeld μ_(p−1)核，得r∈{0,p−1,ρ_h}，ρ_h=2h mod(p+1)最小正余数。r0给good-model微分content恰e a_h，非零支下界e a_h+pr；不当作指定原CM盘normal首项或height单位。root已核Raynaud原式及EP真实作用；sigma_uniform继续原normalizer约束。
