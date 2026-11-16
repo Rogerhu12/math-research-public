@@ -46,16 +46,16 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [根jet已成索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD/RBJ/RDA/RBD/RBG五原段：genuine BV/H整替，公共K4/η3/Mrr先消；hrrr/无z曲率/正meanrank/真βn/输入右序/全J与低1/4保。原real/root whole e由R97R严格通过；其他参数/角域不外推，fullincoming/finite/非线性待。
 
-[RNEA完整actual](results/R133-supplement-actual-explicit-uniform-natural-negative-window-inverse-constants.md)257644a4锁43792291190/1/16门，Knat−7/6≈2.0519379388e10、−5/2≈4.2453353027e29。276槽/23原records/两preGit与RNI核0/FC空补列全保[原段索引](notes/2026-11-16-completed-actual-input-and-root-inverse-index.md)。M仅strong；selected全δ/双mean/低与径向head/rest/finitecross/fullincoming待，0旧重算。
+[R97A/RNEA/NIFA完整原段及全部原球索引](notes/2026-11-16-completed-actual-input-and-root-inverse-index.md)：唯一43789221154/1、43792291190/1、43795909913/1成功锁，三proof b2d4bb56/257644a4/1b2c3b70保219/276/23槽、全部原记录/pins/门/两preGit与首失败及精确恢复。R97原real/root97 strict核0/FC空补列；RNE两natural负窗同逆；NIF Xfr=S*D+Hnat/SE8窄修93266089付Ni±及Cs两窗逆。NIFC0867f280固定Ni± opnorm连续，原逐频Riccati前提下Cs± strong/joint/compact-data uniform及固定有限列矩阵连续。M/C opnorm、C1/selected KAM族、双physicalmean/低与无限radialhead/rest/真实双port/range/finitecross/fullincoming/finite/ν/非线性仍待；0旧重算。
 
-[NIFA](results/R133-supplement-actual-uniform-frozen-selected-input-coordinates-and-stable-inverse-constants.md)1b2c3b70原43795909913/1成功锁；23新球与16旧typed记录/4scope/accepted、全部pins/门/progress/两preGit保proof。Xfr=S*D+Hnat/SE8窄修93266089，仅本real两窗。旧成功0重算，真实双port/range及原独立ports全待。
-[NIFC连续性](results/R133-supplement-continuity-of-frozen-reflected-coordinate-and-stable-inverse-families.md)0867f280闭RNI7固定chart资格：Ni± opnorm连续；原逐频Riccati前提下真Cs± strong/joint、compact数据uniform/固定有限列矩阵连续。M/C opnorm、C1/selected族、真实双port/range/mean/head/rest/fullincoming/finite/ν/nonlinear仍未授。
+
+
 
 [RBO](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264完整八行/meanrank/真βn/全J低1/4及RNI/RNE已付界保新root索引和原proof。z=16N^-2、hrrr仅N^-10/3；仅real原域，fullincoming/finite待。
 
 [RI](results/R133-supplement-root-stable-trace-saved-input-inventory.md)01afb86c的10inputs/7sources与全部原球/恢复身份保新root索引和proof；aux整体fail仅两case成功，λ/V small与β large terminal不互换，9/2非λ。成功禁重，fullincoming/finite未授。
 
-[R97A](results/R133-supplement-actual-root-cutoff97-stable-injectivity-and-exact-prefix-recovery.md)b2d4bb56原43789221154/1/9门严格e≈.3028969463<g−≈.9523027953、μ≈.6494058490。完整219槽/35字段/12progress/五旧对象/14继承门/首失败及精确恢复保新root索引和proof，0旧重算；负窗已RNE付，selected全δ/incoming/finite/真背景待。
+
 
 [RBT条件tail](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)8a20d39c保384/576带宽、J/L非band及Jt>576双sign/mean/cross Schur。R97A已过97，fallback免算；global finite/两physicalmeans/原head/rest/fullincoming待。
 

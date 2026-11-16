@@ -70,3 +70,7 @@ RNI7已付normalized Shat± opnorm连续；真M±只在原fixed-frequency Riccat
 README核提交563defb46bc785295265c3f48fcad3fc8897c617，两blob不变。eaf9b11066ee5f3d8ac36263db179e75af4a2fba /49164B /1b2c3b704282c0b42bfb2f941c3828a487ca1ed75ee45ce902d8d0be32d395a1；root已通读32482B证明叙述及全部table，三个完整JSON附录分别逐值等于原SCI的四scope、accepted与exact operator。全部23新球逐字存在，16旧record保持14对象+2字符串原型，fullSCI/exec/report/run/jobs/两preGit/childSHA全同；16门/15progress、8pins/2AST/runtime/source/manifest全闭合。Phase独立完整词法复原早期两payload，Tail独立shape+old copies+report预算复原，Newton两Cs有序窗口/scope核均通过。
 
 真正唯一run43795909913/1仍冻结，未dispatch/重跑。NIFC0867f280另已bd1038f7独推；这里不混入新continuous-family量。NIFA7主界全部是原球上端点，KΛ+与Ni±/Cs±的mean/sign/原input-output权域按NIF完整保；fullcircle principal/Cayley与实际反射range仍需独立证，双physicalmeans/low与无限radialhead/第二input/rest/ν/非线性/曲面全未授。仅缩已成open/H索引，完整43ba87b3/bd1038f7历史及各实际proof保留，不减未付义务。继续下一实际双port与WE六项精分。
+
+## 2026-11-16 03:16:31 UTC — 已成root/固定输入索引扩充
+
+README核f290879bf1a70e6c62c591ca82645606a5a78ab2仍两原blob。原索引全文不改，追加c9e2203e4e75d3fb8c8731e509e2ae275679ce2b同H/open的R97A/RNEA/NIFA/NIFC八段原字，现blobdaeee89df0cf22448a9d55340360a0efa0bc1efd /7091B /d1a84dd271724ea63899bd7d8cf1bdec037c7bd2e4c58da8a15ecf94ea925c4e。完整首失败/精确恢复、原球/pins/219+276+23槽/两preGit、所有scope和未付义务全部保在该索引与原proof。只合并已成证明索引，固定反射域/两mean/无限head/rest/true双port/所有未付inverse/ν/非线性明列，H/open腾出后续实际WPR与WE结论空间；无新旧数学。
