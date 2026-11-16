@@ -412,3 +412,7 @@ main 8617e13f488c64795b96b0b569a7b8f03733f0bb 两README未变。045ac035同H9883
 ## 2026-11-16 07:44:39 UTC — 单项linear512/s3派生报告白名单
 
 完整白名单 a191e135234309a211d96325ba638fc70caba136296ba8815be3e069e0caae51 /37742B 已先推。唯一目标 notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json，e81bf7dd6e131dcb08d1c03c81c1fd963fdcf287 /505865B /689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290；精确restore a8be95d8afbc9dad24e5ea509335dc03b85918db原path。正确linear诊断producer e618151a/2064c82c 与完整inventory/proof逐项匹配；linear512五浮点管均失败、不冒native或PDE不存在，dense成功不得挪用。root当前9份完整新source/model字面依赖为0；白名单的各peer检查只声称其列明版本，未见最终manifest不作断言。此commit未删、未取大正文、未新算。下次仅fresh metadata blob/size相同才普通删；全部canonical/native/历史失败和源保持。README在a4b59923dfe40a110aeddedd0445aaabb8ce4d11两blob不变。
+
+## 2026-11-16 07:45:00 UTC — linear512/s3单项白名单执行
+
+83bac7b8先推完整白名单后，fresh main逐层Git tree核准唯一 e81bf7dd6e131dcb08d1c03c81c1fd963fdcf287 /505865B；仅普通删 notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json。restore a8be95d8afbc9dad24e5ea509335dc03b85918db原path，原SHA689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290。线性512五管浮点失败原结论和所有完整行的Git历史保存；全部真实native/failed tube/exit137/权重/source不变。0大正文读取、0数学计算。README在83bac7b877a226deeddff8dd56ab262328152267均不变。
