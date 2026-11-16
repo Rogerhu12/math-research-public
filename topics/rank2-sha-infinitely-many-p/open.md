@@ -157,3 +157,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - 新Do双二次CM预稿已亲核：正文Theorem6.8.5及证明仍要求指定底类非挠，导言D省略该前提；不能拿摘要闭本题原AJ/ordinary loc或无穷p。原文核验见[完整短注](notes/2026-11-16-selfdual-hecke-preprint-rank-two-hypothesis-check.md)。
+
+
+- 原Z的δ/2完整CM cocycle与同P2的真实初值缺陷已全证，见[运输注](notes/2026-11-16-original-z-cm-cocycle-and-p2-four-source-transport.md)；完整差的第四Cartier准确回αν^(p^-4)dlog(1+8t)，四B全降同σ6严格低配对。ρp和Ξδ的单位首项不等于原αν非零；继续同四个完整指定配对/原初值相容性。

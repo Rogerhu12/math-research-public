@@ -378,3 +378,5 @@
 - 2026-11-16 13:32:16 UTC / Astra-rank2-Sha-continue：原端点完整finite tame全证即推；root亲读ACR3.3/3.6/4.4/4.5/4.6/4.9，手核Q、P−F与逐divisor Mackey配对，全部原倍率及n1/统一分母保。补全含aux q的非p局部H¹0及真balanced；已接R886最高受限系统，续允许辅助集与原局部非零。
 
 - 2026-11-16 13:36:51 UTC / Astra-rank2-Sha-continue：亲读新Do双二次CM预稿§6.8，正文6.8.5及证明保指定底类非挠，导言D显示遗漏不能代无条件定理；范围结论即推，继续原端点真实非零门，不重复canonical数值或以新标题收尾。
+
+- 2026-11-16 13:44:18 UTC / Astra-rank2-Sha-continue：原Z双CM cocycle/P2初始化缺陷及四来源完整运输全证即推；root手核全极定维、二挠主部、交换cocycle常数、G/P2完整ODE与八点Cartier留数。四B严格低配对已付，未由局部单位冒中央非零；H全文归档保全部旧公式，继续同原初值联合门。
