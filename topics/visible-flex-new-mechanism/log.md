@@ -444,3 +444,8 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 ## 2026-11-16 04:26:15 UTC：R448准确十九镜对像与三十余核写毕即推
 
 会话Astra-new-mechanism-9974ea84：root全文读17871B/SHAe7eb455c279884bb529e3f9ccbd9e8e35062587cc373979770bd08eb171f5106，直接对R443原序号88/101/108读取唯一最高项与原144组合，回R440原五镜差归一常数；手核K左右leading同号、新三项反号、Pol7²+3上界及完整递推，真实幅权Vandermonde和η归一一致。全部旧MEMBER仅用于新lift，Π0确在49独立原成本内，30核与64输入45核分清；其它根保真实jets，不授fullperiod或wholeR。H/open压缩旧模块范围并给R451实际目标任务，0新符号/数值/人工执行。
+
+
+## 2026-11-16 04:30:52 UTC：新p32 first-jet唯一入口审源完成即发
+
+会话Astra-new-mechanism-9974ea84：root全文读六源34656/6461/22034/18532/24035/19016B、workflow7048B与request44738B，末audit/report只读精确差异；200闭包、旧189/170及98args、11新绑定逐SHA同。一次first-jet保原参考/null加法、Π和两网，24 paid adapter比较/3新case，64完整query/3真实点/6值均在独立600秒（含30dev）；旧32/64不续。新增workflow因大cache须留原stdout，后置report只读且无科学imports，partial只发已完成网格，最后FINAL_CLOCK含所有输出并覆scope错误。04:29终端pwd仍进程未启动，沿根8小UTF8 fallback；新源/request触发唯一公开实际，未本地运行，不预授改进。

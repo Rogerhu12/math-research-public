@@ -303,3 +303,6 @@
 
 
 - **R448：新49模块的真实镜对像恰19维，余核30维。** [完整证明与原source投影](results/R448-nineteen-real-mirror-fluxes-and-the-complete-thirty-dimensional-self-remainder.md)（17871B/SHAe7eb455c279884bb529e3f9ccbd9e8e35062587cc373979770bd08eb171f5106）：三原最高项补right Pol5/6/7，上界Pol7²加K8/9/10给准确19，无generic h例外。K完整生成/左逆、八新lift的全低阶递推、真实11左+8右Vandermonde全部给定；Π0在49原lift上像恰30。清核心后所有剩余根signed iff目标在此实际评价像，64输入另15 Af盲不等完整成本零；全C/actual基准/共同窗口与period欠账保持。0新执行。
+
+
+- **新p32 first-jet唯一入口完成源审读并提交实际。** [完整入口审读](notes/paid-p32-first-jet-line-entry-review-20261116.md)（7666B/SHA6a725a6e552387af2f3506bf038fbbb98eee2ee08cb45e8958ed11c8c586b56d），request44738B/SHA7b300c90eeb4c4b7c1fefc5b449fd8c80ec8aa836b10324b2e34c9942d3936a4。六源200绑定=176py/13wf/8MD/3历史JSON，原189/98args全同；保全p32/raw161/source52，1完整cache/2网/1生产scalar/64queries/3实际点/6值，600秒含30秒3新开发case。两网 first-jet不用无关位置冷前缀；实际trial仍原完整几何/14门/163盒。partial原cache一次保留，report只读语义/指纹，最终钟收费全部大输出且可覆盖早COMPLETE状态；未在本地执行或预报成功。

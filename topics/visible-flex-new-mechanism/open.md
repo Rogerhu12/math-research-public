@@ -136,7 +136,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [末cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)完整保161与模型绑定，原linear/box/included cone全过，但fine87417首次完整分离使rho=.0060297012571054465、gain负。5761→5762只是有限锥tags，未第二次求解、未实际池学习；0trial、0接受，不能归实际曲率门失败。bank512四分支观察更新、8supp/62学习events/61commits/pending0与原52全向量不变。两末钟以COMPLETE为准，不用较早ledger/CP少计报告费；新2恢复值、无独立末audit、原6/12/11/9检查不重。
 
-两个solver额度均永久用尽；不借旧余额续cone33。[新first-jet设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)只直接组装原T/U和一个p32方向的δT/δU，保参考/null两次加法和完整Πθ；不计算无关X/center/fixed primitive，不伪造旧ordinary绑定。一次完整cache先发原stdout，1scalar/≤64全网query；如有模型下降，≤3未试点由原geometry/14门/163盒验收，必要冷前缀全收费。独立600秒总science从输入前起且含≤30秒新dev；祖先1324.805525247/旧32与64及96/160全部保。原四attainer/端点只做唯一新adapter核对（端点计query），不重旧开发。约20MB纯文本cache用同workflow后置只读report job抽小摘要，原payload不编码分块、不入Git/artifact。源尚未执行。
+两个solver额度均永久用尽；不借旧余额续cone33。[新first-jet设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)只直接组装原T/U和一个p32方向的δT/δU，保参考/null两次加法和完整Πθ；不计算无关X/center/fixed primitive，不伪造旧ordinary绑定。一次完整cache先发原stdout，1scalar/≤64全网query；如有模型下降，≤3未试点由原geometry/14门/163盒验收，必要冷前缀全收费。独立600秒总science从输入前起且含≤30秒新dev；祖先1324.805525247/旧32与64及96/160全部保。原四attainer/端点只做唯一新adapter核对（端点计query），不重旧开发。约20MB纯文本cache用同workflow后置只读report job抽小摘要，原payload不编码分块、不入Git/artifact。[六源审读及唯一入口](notes/paid-p32-first-jet-line-entry-review-20261116.md)已随request发表，200闭包/原189与98args相同；完整CACHE或partial单发，FINAL_CLOCK在所有大输出后收费。只读report在同workflow读research原log，0数组重算。等待唯一原实际，不预报开发/模型/实际门通过。
 
 ### R399–R405已付有限对应点，不外推全根
 
