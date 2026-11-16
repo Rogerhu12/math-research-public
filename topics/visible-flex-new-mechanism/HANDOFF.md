@@ -38,7 +38,7 @@ R414/424原路线保从起点同库/矩基/右锚/全部有限controls的共同�
 
 R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚累计flux0。R405/407证明同μ内支撑连通路径固定self二次cap；actual wholeE0仅消跨包primitive二导，仍有各ω_i/ordered A_i及真实wi/suffix。7n读真实totals，68|W|仅生成界；ordered前提现由R433实付，self原式仍保。
 
-R430–[R432](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)：原Z18的c0恰5维，非全R0；32非盲标签有完整两通道表。全Af点C=2ai³pi³ΣnjQj，三个Q共享七多项式，21formal共同生成非实际根rank。每根u,p,r,J0,J1,J2按真宽/中心输运；n_i0使C普遍0。R434唯一新144原响应joint wholeQ/current已审源并随request启动，待原实际；原型/J校正基准及同13规范保欠。
+R430/R432原Z18的c0恰5维；21 p-only三矩共同提升非具体根rank，每根真宽/中心/u,p,r/J0,J1,J2及真实suffix保。[R434](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)实际run43796872698/job133067569306/source563defb4，144原成本Q秩59/系数核85，完整39 current像32=21+11。七条全u-only约束原稿列全，35fresh原Q/三current证书、1020record链全过；单独A0三member不等于商维3。新science2.136164829s/RSS34076KiB、旧执行0；全R像/真实全点rank/actual基准及13门不冒付。
 
 R435完整F_z=A_z³(4A_z²−10z²uA_z−20w⁴r²/3)/15保真左常数；K0=−8r⁵/45，r0首K5=1024p⁵。对应已有同形/同宽/同基点≤11或≤6实际控制。[R436](results/R436-fifteen-self-directions-and-fourteen-joint-actual-degenerate-fluxes.md)加入原P的σ/τ1–3，合15形式方向；完整K2保u项。同一镜对11左+3右用原L0/L1/L2得14实际独立行，全部列杀J⁺及全圆C；全镜族本模块像(P,TP+Q2)恰14。第15另根需r≠0且|p/r|≠s*，不假定。可接同一J⁺实际截面，保C另需joint前提；H*有限核修正仍λ1。完整cell含原三矩闭circle，非孤立α³差分包。全根self余商/同13仍欠。
 
@@ -52,4 +52,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 末m27在accepted52留下exact159 p（SHA17605ea24e9cefa4a73410913b3287c7b0f4b5303550a38f2da0f99850a0c644），无rho/norm、未修复/未试，不能称驻点或物理拒绝。covered checker误需legacy LP status，全部走旧fallback；不伪造成功字段。新12检查已过、旧11/9只读。原日志7416045B/SHAa4a20c9f481fc5d8f1fcce7f279c9c8361e5c84d2da7edd324bd9180b97024c0，完整checkpoint只stdout。
 
-按[新验收合同](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)仅验收末已付未试p：0新solver、不重accepted52几何/旧trial，α1起，仅原14门/box及真η下降，不造缺失affine/J学习。继承终值双钟/31cone/116value，新剩542.054888607秒/42value（原44），不用cone32；合同已读，完整入口审后唯一Actions。理论续R434原144响应joint wholeQ/current及R433 self cap/13同规范。完成门未付，继续open，不收尾。
+按[新验收合同](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)仅验收末已付未试p：0新solver、不重accepted52几何/旧trial，α1起，仅原14门/box及真η下降，不造缺失affine/J学习。继承终值双钟/31cone/116value，新剩542.054888607秒/42value（原44），不用cone32；合同已读，完整入口审后唯一Actions。理论消费R434七条准确共同约束，续全根self cap/13同规范。完成门未付，继续open，不收尾。

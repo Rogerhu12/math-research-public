@@ -194,16 +194,16 @@ R416/419/421已排−6；R420/425的−4static/hh/cross加新kk，先同权响�
 
 内部门全付后，仍须两真正period特解、保端jets的gap连接、∫k′=0所改平台值、右collar仿射输出，以及同一个incoming m*、核列和13行相位系统；Smith零行/单位圆可去极点均未付。完整第四以后仍有高阶收敛、同g有限族、全域reach/嵌入/幅度。下一工作为完整响应核与actual共同cap目标的内部像比较及同13规范，均不重旧秩/19根/forcing。
 
-### R430–R432：完整c零第三核及全部内部点响应表
+### R430–R434：完整c零第三核及全144模块的共同current像
 
-[R432](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)在原18维Z中完整分类cτ≡0恰5维，a依次p²、Af、xAf+2pr、x²Af+4xpr−4p²、x³Af+6x²pr−4xp²；保全abc/真右锚/全仿射闭包，未宣整个R0分类。R430旧τ*同包只有两列、旧K0..10的C0；新的四非盲方向配E8给32个完整两通道标签，另可接原11列，数目非rank。
+R432原18维Z的cτ0恰5维，a=p²/Af/xAf+2pr/x²Af+4xpr−4p²/x³Af+6x²pr−4xp²，未分类全R0；32非盲标签非rank。全部Af点C=2ai³pi³ΣnjQj，Qj共享七p-only多项式，21formal共同提升已付；每点u,p,r/J0/J1/J2按真wi/ξi输运，不能另选成本系数或把self cap缩成六数据。
 
-全部Af点的C精确为2a_i³p_i³Σj(n_i)_j Q_j(x,r/p)，同一三个Qj属于span{1,s,xs,s²,xs²,x²s²,3x³s²−5x²s+2x}，共21生成函数。常数列由真实三响应组合取得；每包/每点不能另选系数。原完整Hd/He另保self与两个真实suffix。R431任意2m根的每根6项u,p,r,J0,J1,J2按真实wi/ξi输运，充分读全部响应列，不授一般actual self cap由六数据决定。
+[R434](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)唯一actual已完成：Q144秩59/系数核85，完整39 current像32，p-only21外准确11维；七条全u-only annihilator给本模块充要条件，3孤立A0 unit member而其它15孤立unit nonmember，不是u商仅3。35fresh原Q+三current全过，1020原记录完整；science2.136164829s/RSS34076KiB，旧研究0，不重跑。
 
-下一继续c≠0但wholeE相消、第三对角非零而第四pure零的完整R0响应，以及当前actual cap目标的像外商。准确条件仍是−P(V)∈P(R0)；全kerJ像被包含才可连全部prototype/J校正的leading基准用同一个有限真词支付。R433现已实际同付wholeE/原finiteA/全ordered O，Euler-current前提已支付而非偷换；剩余最多18含u后缀系数由R434唯一新observer研究，未宣整个R0。即使全部内点两flux付清，真period/gap平台值/同13规范仍继续。
+现在对同一真实cap目标使用七关系与所有实际suffix，再与R435/R436 self列同控。原条件−P(V)∈P(R0)及全kerJ像包含仍用于同一实际有限词的全部prototype/J基准；本144模块结论不扩全R0。全部内点付后真period/gap平台值/同13规范仍继续。
 
-### R433：actual全ordered零值与剩余十八个含u系数
+### R433：actual全ordered零值与完整local current接口
 
 [R433](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)将O_all=[s³t²]Λ_(su+tv)加入同一J⁺，不加辅助self。R344/R352已证全R自然0，故全部原E响应补偿也杀O；完整局部/零的Q4、n2及关键−6/−4 static/hh/kk使原六权正字符排除逐项提升，同一有限C1真词及两次商基准完整保留。共同合法窗口仍为实施前提；H*在新核且λ1，未构造不可能的Λall0。
 
-actual E/O0后，R405原L+ΣmJ的完整pU″有局部K，六C² cubic系数与六ODE准确等价。Af处K/4是u³、up²、upr、ur²、p³、p²r、pr²七项；显式x次数0/2/3/4/3/4/5。形式空间13=R432七个p-only+六个含u代表，三suffix给至多18个准确剩余系数，非真实秩。接唯一联合wholeQ/current新observer，求原144响应模块对这些余系数的像；self cap和全部13同规范另继续。
+actual E/O0后，R405原L+ΣmJ的完整pU″有局部K，六C² cubic系数与六ODE准确等价。Af处K/4是u³、up²、upr、ur²、p³、p²r、pr²七项；显式x次数0/2/3/4/3/4/5。形式空间13=R432七个p-only+六个含u代表，三suffix给至多18个准确剩余系数，非真实秩。R434已付该144模块完整像32=21+11及七条关系，直接消费原证书；self cap、实际全点/全部13同规范另继续。
