@@ -36,3 +36,7 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 06:56 UTC — Astra-ISP-789f：完整56个原七生成元临界图册
 [全56覆盖与完整来源](results/R150-appendix-complete-original-fifty-six-seven-generator-critical-charts.md)实际7.133秒构全7×54/18×54及三消元源，原子式生成(y)³，保全Bell1/rank3。
 根核全部双SHA、296156节点、21168次数及159600组装乘回；首版失败如实保留。继续全局九生成与真正判空，普通ISP未完成。
+
+## 2026-11-16 06:58 UTC — Astra-ISP-789f：原方差完整返回与辅助清零
+[原完整一位源证明](results/R271-appendix-native-variance-one-bit-restoration-and-auxiliary-clearing-pairing.md)付GE≤e8Hi⁻¹、aux嵌套投影损失与全包清零差≤Δ/x，直接native全加权返回及相邻版≤(e4+2)Δ/x。
+保原u/K反馈及自然域；剩余全硬核重新最小化和原MP/帽度量运输继续，普通ISP未完成。

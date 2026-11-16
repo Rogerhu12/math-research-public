@@ -150,3 +150,6 @@
 
 
 - **R150全Bell1的56个完整原七生成元图册（2026-11-16）：** [原子式覆盖与全源Schur证明](results/R150-appendix-complete-original-fifty-six-seven-generator-critical-charts.md)以原80子式中实际unit所选56个生成(y)³，故真覆盖全Bell1且保rank3。每图按原行列标签保存7×54矩阵δD−C adj(A)B、18×54完整原来源及三消去生成元图源，局部coker严格等于原全临界商；只倒该原δ，u≤1。实际v2 7.133秒/72944KiB，共21168矩阵及54432来源坐标；首版schema断言失败保留。根通读源码并核56双SHA、296156后向节点/21168次数及两组159600独立组装坐标；通用伴随和原源身份负责全参数精确性，未用数值核替代证明。未宣任一图为空或自由七元基。
+
+
+- **R271原方差完整一位返回及辅助mode准确清零（2026-11-16）：** [原源/共同Fock完整证明](results/R271-appendix-native-variance-one-bit-restoration-and-auxiliary-clearing-pairing.md)直接取t=0，保H≤Hi≤e8H与真实GE≤e8Hi⁻¹，F1=ΣjEj≤2xΔ²；全部loss+gain≤e8F1、两种完整恢复反馈各≤8e16F1，指定creation返回有原权界。共同Fock与aux真空交给真实重新最小化、投影损失≤Δ²，整个一位交换包的aux→0原权差≤Δ/x。直接原占据行及固定forcing删除弱行进一步给全Σbi ci[P_U,Ei]Fi≤(e4+2)Δ/x；相邻Q−1同界，保Q≥R+h+2及全部K反馈、无限自然合成域。没有把弱行升级成未付范数行；余位仍bosonic后同物理压缩，完整硬核/原MP帽度量运输继续。
