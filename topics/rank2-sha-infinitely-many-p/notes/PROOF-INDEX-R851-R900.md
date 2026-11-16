@@ -48,3 +48,6 @@
 
 
 [原GM半密度与完整Hurwitz曲率](2026-11-16-original-gauss-manin-half-density-p-curvature-and-hurwitz-interface.md)：原D=L2在p5mod6满足D^p=0；周期方程D²ℓ+g2ℓ/12=0的Pp准确为[[HC,−H²],[C²,−HC]]。H/C互素由原Hasse方程/权因子证明，结点H=(3u)^((p−1)/2)及真实第二形式解支付常数1。Q=D−(1+g2v²/12)∂v−g2v/24在普通环p次幂为(H+Cv)²∂v+C(H+Cv)/2；真Hurwitz环另保−∂v^p。全T_(p+j)递推与原物理D_z^(2p)逐项同一，CM单位c_p²不替指定T_N/p。
+
+
+- [R858](../results/R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：R857同一full3 Scholl动机上，每个实际三阶deck平均全Chow为零。全部CM fibre Dξ定义于K H_(3c)(F)：F=K时新增3惯性层的完整迹零（c1另由μ6处理），F≠K时环类generalized-dihedral群的一维角色仅阶≤2。原η_j在3不分歧且平方阶9，故所有CM垂直部分的原六χ扇区皆零；原泛纤维restriction单射，Zorig,χ=0 iff同同步双点迹Tτ,χ=0。实际3同源保34/102及3/1/9倍率。7993只检测R814/R854 canonical循环，不能据此宣布修复端点或Tτ非零。
