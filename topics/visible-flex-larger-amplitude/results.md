@@ -267,3 +267,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R502 — 实际219输入身份失败、quiet范围与未起科学
 
 **实际219：输入准备失败，全部live128/FD/fullDN与19200科学钟未起。** [全文](results/R502-actual219-input-pin-failure-and-unstarted-live128-scope.md)13503/4391677e，run43832887523/sourcef0c78734、compute133182240807 failure/report133182459836 success，两终志各唯一；2101/074caaa8必要逐字相同且complete=false。原334source syntax/容量通过，第五历史输入ledger-ready的SHA手录63字漏e使bytes/SHA guard必拒；正确64字来自原204/208同path/blob/109004B合同，实际日志没打印raw SHA。preparation55039/235497c8只身份＋原错误事件，前四输入完成仅源控制流推论，后stored-ready/78/91与科学全未起。quiet将无本请求归属证据的同uid pid1165/1182 environ权限错当unknown，必要在读科学前退出3；cleanup heredoc结束缩进使shell根本未解析，无真实应用层删除/保留事件。当前R501接口已明示勘误，原219源不改；221/R508/R509保14科学源/原钟/原门，仅三处实际工程修正。
+
+## R508 — 原输入身份与限定归属的221后继
+
+**条件实现已完成；原14科学/协议源、全部数学门与19200单钟不改。** [正文](results/R508-live128-scoped-ownership-and-original-input-repair.md)12168/a28c1cec、[接口](notes/2026-11-16-request221-live128-scoped-original-full112-interface.md)14354/5c0f369b连四入口源发表：outer38924/6f211144、reader35283/687168ef、request54884/0fa9fe29、workflow13301/83849e83。只按R502三个实际错补原正确64字输入pin、以登记/startticks/组/session/实际后代/namespace界定quiet、改单行保留说明消除坏heredoc。stat图先于uid筛选，真实/可疑own不可读或身份变化仍unknown，不向未登记组发信号；外部sameuid不可读不凭此归own。原必要选择器/单90K/超70/再次quiet及原清理条件不动；336pins含全部旧334。实际R509必须独立真实run，不由源码组合或219未起状态补数值结论。
