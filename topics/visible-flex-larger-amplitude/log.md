@@ -740,3 +740,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-16 00:26:42 UTC /root — request200真98重算完整八对
 
 [200完整入口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)最终七件/原完整差异及必要失败补丁已核：R428原104pins逐值保→105+独立worker=106，真98 warm/status从原artifact重取，另起同39八对。原38+RIGHT459/fraction .8273268353539885、459/460/462..491及free461完整仿射/699×453/236036/H/109core保；原17α/1200/600/90/30/4096角及10500/175step/195job/10min读回/2700规则镜像不变。abf42d92必要读者、68d53286 worker、2b9c71c0 recipe、30508867 request/0de9e717 workflow绑定；全部trial/失败/observer错误/FD收缩失败/真实末pair与三参数保，单90KB超限70、quiet/条件清理不变。actual191末raw不用，不预报8对或尺寸；尚无官方新run/科学接受，exact唯一终态R432。
+
+
+## 2026-11-16 00:28:34 UTC /root — request200公开运行绑定
+
+官方push run43780457519/sourcecb597d3c3d66f9787a712ffa7ca9dc3d52bd57de，compute133016222219已入step7原完整八对链；exact唯一R432，尚无新科学接受。七件身份与[R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)/[200接口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)一致；不取运行中日志，原全部方法/参数/门/预算不变。

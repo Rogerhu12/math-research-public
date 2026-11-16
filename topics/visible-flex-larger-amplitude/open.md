@@ -36,7 +36,7 @@
 
 [R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)abf42d92/68d53286/2b9c71c0修复实际191整链必要读回：共享原source/query与逐批必要字段去重复，保八批全部trial/选择门/域失败/RMS原返回/原observer异常、FD原contracts=False完整记录及方向/层数、真末pair/三参数/错误/未访。原五数学源、17项参数及四worker函数逐字保，104pins→106；全39/free461仿射/完整H与fresh FD不变。单90KB超限仍70，不删失败/不拆包，quiet后读取、必要持久后才退大raw。200须从真98另起，不继承191已毁末场；尚无新科学接受。
 
-[200完整入口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)七件完整源/原差异/失败补丁已核：原104pins→105+worker=106，真98原artifact warm/status另起同39八对，原free461仿射/完整H/699×453/236036及全部参数/门不变。17α/1200/600/90/30/4096角、10500/175step/195job/10min读回/2700规则钟保；abf42d92/68d53286/2b9c71c0、request30508867/workflow0de9e717。全部必要字段/quiet/单90KB与R428一致；不用191已毁末场，不预报8对/尺寸/接受，exact唯一R432，尚无官方run。
+[200完整入口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)真98原artifact warm/status另起同39八对，原104pins→106；全部39/free461仿射/H/699×453/236036/参数/门不变。原17α/1200/600/90/30/4096角、10500/175step/195job/10min读回/2700规则钟保；必要字段与quiet/单90KB依R428，不用191旧raw、不预报8对/尺寸/接受。run43780457519/sourcecb597d3c3d66f9787a712ffa7ca9dc3d52bd57de，compute133016222219已入step7原完整八对链；exact唯一R432，尚无新科学接受。
 
 [R334](results/R334-exact-domain-clearance-polynomial-and-Hermite-defect-transfer.md)的a>0、完整八次/Bernstein及453 Hermite全RHS缺陷、[158入口](notes/2026-11-15-request158-thirty-seven-complete-R334-post-model-interface.md)全部75776×17×九系数责任保。[R353](results/R353-actual166-complete37-affine-certificates-and-pointwise-Hermite.md)/[R354](results/R354-full-Frenet-velocity-and-closed-step-Hermite-remainders.md)/[R365实际170](results/R365-actual170-complete-endpoint-curvature-and-Hermite-reference-limits.md)保29×17端点/338二阶/629点态gap/四真实trial×37η，余13不补；统一段/IEEE/699/698/连续角/native未付，原清理后真重生。
 

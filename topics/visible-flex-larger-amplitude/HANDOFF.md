@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 00:27:41 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ec4df2b88219b3003b13d4456d30a57cc2f50db6。
+规则同步记录：2026-11-16 00:29:01 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cdb90b6a2014fd6842c6755cc17e3c219476ddec。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -20,7 +20,7 @@ M112/T112/N2048、699×453/236036、三active+109core、338/112、H/J/FD/fullDN/
 
 |请求/结果|run / source|负责人及状态|
 |---|---|---|
-|200/R432|待官方push run/source|exact：完整入口已写，真98重生/八对39/106pins；无预填科学接受|
+|200/R432|43780457519 /cb597d3c3d66f9787a712ffa7ca9dc3d52bd57de|exact：compute133016222219已入step7原八对science；真98/完整39/106pins|
 |201/R430|43779219117 /aa2f1d05470df29f8e4546ccc990b99432a56a44|root：compute133012382468已入step8原2400完整science；122+19pins/真198十词新初猜/完整2400全链|
 |199/R424|43775312697 /51a38839e6dd2763a3fbe2796715bcc0479d3b01|amplitude：compute133000173495已入step14原完整science；89pins/三限定与当前编号/原四组件链|
 |197/R420|43774486084 /68fa2d402bb7c3695b50a28739566abe6ece3511|exact：compute132997520684已入step16原same-C deep112；真180/fresh C/全112族/完整453|
@@ -52,7 +52,7 @@ R418/28b7245a同场/DAG/原C四件/自然域/cut/四Loewner闭DFS；固定C盒�
 
 [R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)abf42d92/68d53286/2b9c71c0修复实际191整链必要读回：共享原source/query与逐批必要字段去重复，保八批全部trial/选择门/域失败/RMS原返回/原observer异常、FD原contracts=False完整记录及方向/层数、真末pair/三参数/错误/未访。原五数学源、17项参数及四worker函数逐字保，104pins→106；全39/free461仿射/完整H与fresh FD不变。单90KB超限仍70，不删失败/不拆包，quiet后读取、必要持久后才退大raw。200须从真98另起，不继承191已毁末场；尚无新科学接受。
 
-[200完整入口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)七件完整源/原差异/失败补丁已核：原104pins→105+worker=106，真98原artifact warm/status另起同39八对，原free461仿射/完整H/699×453/236036及全部参数/门不变。17α/1200/600/90/30/4096角、10500/175step/195job/10min读回/2700规则钟保；abf42d92/68d53286/2b9c71c0、request30508867/workflow0de9e717。全部必要字段/quiet/单90KB与R428一致；不用191已毁末场，不预报8对/尺寸/接受，exact唯一R432，尚无官方run。
+[200完整入口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)真98原artifact warm/status另起同39八对，原104pins→106；全部39/free461仿射/H/699×453/236036/参数/门不变。原17α/1200/600/90/30/4096角、10500/175step/195job/10min读回/2700规则钟保；必要字段与quiet/单90KB依R428，不用191旧raw、不预报8对/尺寸/接受。run43780457519/sourcecb597d3c3d66f9787a712ffa7ca9dc3d52bd57de，compute133016222219已入step7原完整八对链；exact唯一R432，尚无新科学接受。
 
 ## 恢复与保存
 
