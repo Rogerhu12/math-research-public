@@ -30,7 +30,7 @@ R408/409：原允许wθ不改totals、Af累计flux及平台二次；完整affine
 
 R411/412原n2四平移零/十九真根/共同F及H* λ1 signed核保留。[R431](results/R431-common-exterior-degeneracies-in-the-complete-four-constraint-nineteen-target-library.md)同一次初选保q四约束/D,E/F_rat/19根、全部Af根及外cap/jets共同；中心四normal/真max-F/有号集中保实际U′，高三阶项≤0而非C3-small，有限N不生新根。同μ路径付self″cap；内C∞/外端解析，非全内解析或旧数值纤维。ordered current由R433实付，self cap仍用完整原式。
 
-R415–R429完整低权已闭：N0/N2/Γ/Y/两history/真尾全部保。−6 static/hh自然0、kk=−3S²B_Q4/64；−4 static=3S³F_Q4/32、hh=−3S²F_Q4/16。kk实际run43790439330的完整B五密度非零/C全0；[R429](results/R429-complete-kk-minus4-values-and-actual-common-joint-sections.md)给原共同D/E偶M5零母B斜率−(D+3E)/16、M25全消，真幅宽/H²同NH。先同权补E再λN排六字符；普遍S整除false（Euler最高−9upr/16）不影响共同商N像。完整实际来源/费用保各原稿，不重旧研究。
+R415–R429低权完整已闭，全部N0/N2/Γ/真尾保原稿。R429原共同D/E偶M5零母B斜率−(D+3E)/16、M25全消；先同权补E再N像排六字符。普遍S整除false不妨该共同商，旧研究不重。
 
 R428/429已付完整共同J=(E,A)同一有限C1实际词。新[R433](results/R433-actual-universal-ordered-flux-zero-and-explicit-local-cap-currents.md)加入全universal ordered3+2 O；R344/352真Λ|全R=0，已付关键自然列local/0使六权字符排除同次提升，实际J+=(E,A,O)截面在共同合法窗口内成立。保两次商基准/桥2VA/真倒行/响应/Klein背景；有限self不扩Λall0，H*仍核且λ1。E/O0使原ordered密度pU″=K′，六C²cubic系数准确0，Af处K/4是7个u,p,r单项；形式空间13=R432的7个p-only+6个含u方向，后者×3suffix最多18余坐标，非actualrank。全部有限totals/平台G″/端germ可实付，self cap/内部joint/平台值/13行仍欠。
 
@@ -54,4 +54,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 末m27在accepted52留下exact159 p（SHA17605ea24e9cefa4a73410913b3287c7b0f4b5303550a38f2da0f99850a0c644），无rho/norm、未修复/未试，不能称驻点或物理拒绝。covered checker误需legacy LP status，全部走旧fallback；不伪造成功字段。新12检查已过、旧11/9只读。原日志7416045B/SHAa4a20c9f481fc5d8f1fcce7f279c9c8361e5c84d2da7edd324bd9180b97024c0，完整checkpoint只stdout。
 
-按[新验收合同](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)仅验收末已付未试p：0新solver、不重accepted52几何/旧trial，α1起，仅原14门/box及真η下降，不造缺失affine/J学习。继承终值双钟/31cone/116value，新剩542.054888607秒/42value（原44），不用cone32；合同已读，完整入口审后唯一Actions。理论消费R434七条准确共同约束，续全根self cap/13同规范。完成门未付，继续open，不收尾。
+按[新验收合同](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)及[已完成审源](notes/paid-MaxTime-vector-actual-only-entry-review-20261116.md)，唯一request已随源启动：只试末p159/原六比例，0solver/J/JVP/重跑初末几何；真14门/box/严格η下降，失败新行停止同方向。182绑定=175原样+7新增/原98参数不变，6新数组检查/旧12/11/9只读。终值双钟657.945111393/1014.074931654、31cone/116value继续，新最多12value，不用cone32；待原实际。消费R434七约束，续全根self cap/真实period与13同规范。完成门未付，继续open，不收尾。
