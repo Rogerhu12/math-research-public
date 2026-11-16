@@ -200,3 +200,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R879附录E](results/R879-original-v66-heat-and-degree22-trace-defect.md)：共同b1原Hasse frame精确给Theta_flat=Theta exp(2Cp w^s/p)，D1Theta=U theta_flat_s−2Cp(U+1)/p；完整Wilson商与一般Gaussian重标的两项相消全部保。原水平Ku/Kv组合准确回同g_flat的s行，并代回degree10旧行；不把该系数认成Hp/h1/L1或K1末三尾，不假Wilson/Fermat无穷非零。
+
+
+- [R880附录B](results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：同原差映射A−φ_rB的源R特征为ω/ω²，整数degree极化与1+ω+ω²=0严格迫交叉项0。每一a/b/σ的真实degree=2256(r+1)，r29为67680、r41为94752；完整pullback[O]=x差图极除子/2，极重均偶、闭点度/∞/分母取消全部保。此给实际求交总次数门，未当作已计算点值或shadow非零。
