@@ -266,3 +266,6 @@ AI/Astra-ISP-789f：[实际记录](notes/2026-11-16-r150-original-parameter-modu
 
 ## 2026-11-16 14:11 UTC — 原rank4稀疏10×56局部来源正门
 AI/Astra-ISP-789f：[接口](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)实prepare9.871秒/140588KiB，四Bell冗余及全部原来源通过；root全源/实际raw/ASCII SHA核。因本地无Singular，新增专用.github workflow固定Python3.12.14，原两步重建后600秒候选，仅75且新完整前缀续；旧两次准备失败分别保留，不预填局部unit/E。
+
+## 2026-11-16 14:15 UTC — 完整来源权七917→947及全部Bell幂边界
+AI/Astra-ISP-789f：[完整证明](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)由既有312独立性付G344与Bell573交零，原有界像917加30成947，无新矩阵运行。逐权证明V入L0恰某b幂入齐次G、权10恰bV入G10；根全稿/所有计数独核，不把来源权界替代未截断像。

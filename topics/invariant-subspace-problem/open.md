@@ -1,6 +1,6 @@
 # 未解决的问题
 
-**30 条均值首层乘法关系已完成原来源与完整权七核验。** [原来源和精确秩312](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)保全十二参数，完整7754×312由旧282前缀加30个NiYj构成并满列秩。root独立核全部2,419,248原来源坐标产品和312归一化主元；仅得该有限前缀商维30，不据此称整个50列B子模扩大、稳定或单位。继续利用真实原18来源处理更强父空间及局部图。
+**三十条新来源对完整来源权七旧像的独立性已闭。** [完整有界来源与Bell饱和证明](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)用已付312秩及最低权交零，将范围扩至全部五十原列的合法来源乘子：G维344、Bell维573，旧像917、加入30为947，完整输出12713；没有新大矩阵计算。此像不等于L0∩F≤7。对权7的V，完整成员恰存在q使b^qV∈G；来源权≤10恰bV∈G10，10122旧源＋30目标/77276行尚未运行。继续完整权8来源前沿，不能从有限q独立宣全L0扩大。
 
 **原rank4δ14稀疏局部入口已完成实际准备，进入独立候选job。** [原10×56来源接口](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)保46裸原列与10个ρδ−1局部器，四Bell冗余的40坐标/4原18乘回及全480 adj真；v2实9.871秒/140588KiB、315860项。根整读源及原raw/manifest/完整输入SHA，新增专用Python3.12.14 job重建180/180后实算600。无完整candidate不空续；单图正证仍须清ρ后全10/18/17及另E门，十九图不免费关闭。此前六行MemoryError、完整尺寸诊断和list/tuple首失败均保。
 

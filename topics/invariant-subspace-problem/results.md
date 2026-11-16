@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **三十条新来源对完整来源权七旧像的独立性已闭。** [完整有界来源与Bell饱和证明](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)用已付312秩及最低权交零，将范围扩至全部五十原列的合法来源乘子：G维344、Bell维573，旧像917、加入30为947，完整输出12713；没有新大矩阵计算。此像不等于L0∩F≤7。对权7的V，完整成员恰存在q使b^qV∈G；来源权≤10恰bV∈G10，10122旧源＋30目标/77276行尚未运行。继续完整权8来源前沿，不能从有限q独立宣全L0扩大。
+
 - **30 条均值首层乘法关系已完成原来源与完整权七核验。** [原来源和精确秩312](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)保全十二参数，完整7754×312由旧282前缀加30个NiYj构成并满列秩。root独立核全部2,419,248原来源坐标产品和312归一化主元；仅得该有限前缀商维30，不据此称整个50列B子模扩大、稳定或单位。继续利用真实原18来源处理更强父空间及局部图。
 
 - **全W127全部基目标的独立整来源界26410。** [完整原minor存在及三支除法](results/R150-appendix-whole-normal-square-integral-source-cost26410-at127.md)从Q/F127全∞谱66/55取得字面原leading-unit minor，以Gauss付单首一Δ298整性；完整原4354源/输出权界226280/199550使H≤26730，所有已付成员cost≤max(26410,τ+1)。故q(63)∈127D时每个4212基的h*q源cost≤max(26410,124+degq)，127h*和(s+64)h*两家族均26410。未枚举该minor或展开来源、不控制高度、不把D31的8515移来。
