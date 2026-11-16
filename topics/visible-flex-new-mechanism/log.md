@@ -277,3 +277,7 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 ## 2026-11-16 16:53 UTC：full51原钟停无返回、完整九记录与费用闭账
 
 [完整观察](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)保solver360限实际362.24296968、OptimizeResult/raw returned均无，0预测/actual仍58；末完成K17.03922875676163/细κ17.039315013999914及η.2660088845229819违约，last_backend不同不移配。新410.626657796秒/180q/179J/2864blocks，总3642.4396103470003秒/147值，余账闭；0磁盘/九record完整，大数组bindings不授free。research/report四次真pull规则空diff，最新public16:49:49读c12ef2907fc74fb9dab7f98545117df3ebfc4dd5/private16:49:52读6d351da624ebbf3205221dcbf3787c3bf17d299a，QUEUE唯一进行中；本地环境仍不可用。继续原51以外真实控制/准确物理映射，不重跑已闭scope。
+
+## 2026-11-16 16:56 UTC：R549三p联合门与完整水平成本
+
+[R549](results/R549-three-p-moment-balance-and-real-horizontal-repair-obstructions.md)完整原式纸证正负p2质量三矩条件、固定中心变换和formal锥/真实IFT边界；R548全前缀保旧尾/有限段成本后σ²=(1+K*²/180)/h1²，排固定低负尾联合清三p。恒u/恒真高度/全词高度能量门与同时清t1的B>hmin成本均付，0科学执行。root全文已读，继续同χ真实三p返回；full51闭账已60a8e49fae1fe91c186f8614806a637447cf8ef3发布，新数值源级排除4额外后缀零列，正研究62真实控制而不虚增名义66。

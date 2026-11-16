@@ -132,3 +132,5 @@
 - [16:46 三公开来源状态复核](notes/public-source-topics-current-state-20261116.md)：固定df1e7c4e80f802a638de20ea8b75f4464597835a读取完整HANDOFF，无新科学执行；仍无已共同满足本题.3D与全时全域门的来源族，WJK恒等式/各新上界不冒实际闭合。
 
 - [真正58全51后缀：原钟停无返回候选](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)：**完整原观察**，solver360限实际362.24296968，无OptimizeResult，0actual仍58；末完成点metric/PSD违约，九record确存。新410.626657796秒/180q/179J/2864blocks，总3642.4396103470003/147；余额闭、0disk，继续新真实控制而不推广callback。
+
+- [R549 三p联合矩门与真实水平修复障碍](results/R549-three-p-moment-balance-and-real-horizontal-repair-obstructions.md)：**已证明**完整正负曲率质量的准确三矩条件、R548全前缀σ²及固定低负尾不可能；恒u/恒真高度/高度能量和同时t1返回的原时间成本保。formal锥/端时长不授实际可达或Jacobian，尚未三p/全M0。
