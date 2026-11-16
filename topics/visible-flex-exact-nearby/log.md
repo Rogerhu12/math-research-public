@@ -206,3 +206,9 @@ root全文23,476B/7abf7f41独核real相位basis、graph闭性与dense core、真
 唯一43803459418/1/job133088756006全部12steps成功，event6433bd5f、actualcheckout7d7ce88415ed4a23e73ee49abaa1d3c059379a37。SCI7cc6acb1/29708/77d17dad、execa841f7d3/11226/588b9c73、reportb9fea14d/4018/0a2eb042已在public Git；16门/32字段/12progress、4+5新球、1child和old0全部实际齐。root与Tail独立核14old/9scope完整原字/7current/3AST；root从完整final字节还原两preGit34123/e83934d0、8646/2eb34878精确同hash。全部成功冻结，lost0，不再执行此数学目标。
 
 同raw primitive row新whole候选4.7487985998848693668…e83整选index1，PC/ST4/cut/三源/3070jumps/waistFT一项不减；不授smallness、WPL不同units或physicalfinite/core。Actual truepull04:20:28.223901与04:20:32.298647均7d7ce884、两README空diff；actualbase199700442+44952=199745394B。完整原active H3931B逐字与actual新回执存8278B/df40e48a9601f4839aa04e0c42362947c8b956105a922061347bee66c93d1c09，当前H缩索引，open未付门不减。read 0aeaa31b93ede0dc0955b5af53cb693536b9ece8两README未变。
+
+## 2026-11-16 04:26:55 UTC — JI 用现成全区间界关闭真实角向逆
+
+root全文11,769B/01e4a33b独核分母/逆的两方向及每个P，另亲读N.1–9原scalarization和SJsource physical_polynomial_derivatives245–325、原完整参数及两beta/eta球。Phase正式核2/4，Tail正式核1/3/5并fresh回SJ whole family/domain。u=Iuφ、Iv=I²vφ使用的是A0 primitive norm1/4，未误用L∞。full v及其mean都留，D非零为真实奇偶实现的充要条件；新正下界是解析式，没有指数执行/Arb新球/旧source调用。
+
+J解决的仅nonmean第二行；z physicalmean不是内部c=Π(uh1)，原N7和完整第一行保留。旧rootJ只真实共同域或端点由唯一性相等，无扩大定量domain。继续全real uniform U/完整mean completion及signed source，未宣称小误差/finiteinverse/非线性。本条独推，read cf43044aa565ebdbb26046b124df44689e0d2498两README未变。

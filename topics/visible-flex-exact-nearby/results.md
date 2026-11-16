@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [JI：全实严格区间上的真实角向逆](results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md)（839fa641fe9ce3758ee69cfe3cb4299f59a3a239，11769B，SHA256 01e4a33be5d895ccbfc949310a86bf561c8dccdfe1c1eff973fa1298fcc91cf1）。完整P/primitive角算子在odd→even mean0上以精确scalar denominator充要化；原SJ全Wiener/β/η界直接给D_J≥(79/128)e^-7/4>0。显式各固定Hs同一一导逆、全真meanrank及原N7/firstrow保；仅真交域粘合localrootJ，不外推旧常数/complexstrip。0数值，新J0/J1为符号费，未授whole residual或PDE逆。
+
 - 2026-11-16 — [WFI：实际腰部行的graph域与有限指数账](results/R133-supplement-graph-domains-and-finite-index-ledger-for-the-reflected-waist-row.md)（aec7503e379c3abcbb66b33ed0a7e68be39703fa，23476B，SHA256 7abf7f41df8fc48872c82b420836947a0728698d5142ac939c4d2d5ff99c4309）。先证Mbar L2有界及96真有限列/dual的graph作用，Dtrue余维96；完整strong误差经真实子域的紧嵌给实际高齐次primitive row对whole target Fredholm index−96。ordinary高target与新增96真列的index0账分开，96输出/physicalpairing/mean/ν/head保，非fullPDE inverse或kernel0。0数值。
 
 - 2026-11-16 — [WTS：完整源审计与频率过渡替换](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)（08ec2cc5289729dcbfb3de3ebc5799ba8f7dce95，27396B，SHA256 bb7dff28f8f8f0064029a63622b2a8ef949894733fa06384c8c3b4b084dbb94d）。完整trial替换的cut/source/jump/waist恒等，same-positive-graph stable/head/rest资格，以及whole column p>11/6、true dyadic-block p>4/3充分强窗门明确。11旧球原字核；critical Airy cutoff无免费频率增益，PC positive-recipe floor非operator下界。仅新解析合同，未造uniform U/新小误差/finite inverse，0数值。
