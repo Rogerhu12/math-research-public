@@ -132,3 +132,9 @@
 - 纯IO复用原R844 carrier479f587a并逐父子来源核261件，config0b9025c1；已读全部源码/实际schema并AST解析，无本地数学。公开Actions预算30分钟、仅一日输入/完整stage，未预填运行或非零/高度结论。
 - H先逐字归档再缩已成摘要；并行纯IO补全全局W34/C12/F1234来源，旧690行和已成D/Ey理想直接复用。dual清转置继续按原14支与严格RR契约装配，旧518不冒充新dual精度。
 - 本push规则：本地真实pull至b8d3c5e450051b60c6afb3939fb761bc3f1f89d3（2026-11-16T01:01:35.534034+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:07 Asia/Taipei — serre-public-astra-20261115
+- R846实际run43783814426/job133026881969/source94e4d5ec成功：0.037564689秒/2stage，733nodes含原529逐字；六Hom坐标一阶、五原R_j一阶与真七σ trace，新增点加法0。
+- finalb3569055/program555e3c6c/manifest07f58e44/config0b9025c1；artifact14189930390/16d214a1，261源carrier2d364825。完整2.17MB ZIP/12成员与全部父子来源纯IO读回；jet非零/A.1/展开/c0刚性化/eta-height仍false。
+- R806/W34、R809/C12、R787/F1234三份纯IO均结束；全局consumer只接真实旧源。H逐字归档后压缩所有已成摘要，完整结果、规则与已封边界保留；继续原全局极理想和无逆dual接受。
+- 本push规则：本地真实pull至e742c2d57564645aa90cc2d2bc144fe615ae326e（2026-11-16T01:07:04.506633+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
