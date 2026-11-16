@@ -1,0 +1,132 @@
+{
+  "format": "r150-original-pencil-trace-and-complete-singularity-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-gates-789f.py",
+      "blob": "9c0575db323f24cd278429d4cd787e48b642d062",
+      "bytes": 26614,
+      "sha256": "4d0fd8ddaa51725b60705813555502036fed310979542aeb2cac8b320b57d326"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "blob": "c5e81e3e97d0123df214a994667c5b046171ec82",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "blob": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "historicalInputs": [],
+  "coefficientField": {
+    "cubicAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "prime": 127,
+    "root": 100,
+    "derivativeResidue": 49
+  },
+  "unchangedCoordinates": {
+    "originalHankelPivots": [
+      2,
+      1,
+      0,
+      3,
+      4,
+      5
+    ],
+    "originalHankelFree": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "retainedQuadraticPairs": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "canonicalUpperTrianglePositions": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "paidDimensionProof": {
+    "path": "results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md",
+    "blob": "b7f8ee8978fd4cc017a3fd507c3c1410fcea9223",
+    "dimension": 35,
+    "role": "original E quotient dimension, combined with freshly verified original unit21 reduction to prove D-free35"
+  },
+  "dependencies": {
+    "pythonFlint": "0.9.0",
+    "SingularRequired": false
+  },
+  "argvTemplate": [
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--field-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--out",
+    "{work}/original-pencil-trace-and-complete-singularity-gates",
+    "--through",
+    "complete",
+    "--through-degree",
+    "8",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "768"
+  ],
+  "timeoutSeconds": 240,
+  "temporaryReceipt": "original-pencil-trace-singularity-receipt.json",
+  "checkpoint": "whole completed source phases only; same source and out can resume with seconds up to900",
+  "storage": {
+    "arraysTemporaryOnly": true,
+    "repositoryContainsOnlySourceParametersExecutionIdentityAndHashes": true
+  },
+  "outcomeRules": {
+    "traceNonzero": "same D-free35 original quotient is etale over D, hence geometrically reduced over E",
+    "fullMacaulay": "all original degree-D monomials have labelled cofactor/quadratic E sources, no rank-five sextic singularity",
+    "incompleteRank": "only this full finite-field homogeneous degree was insufficient, no rational nonmembership",
+    "noBellCriticalEmptinessClaim": true
+  },
+  "validationAtFreeze": "static review only; executor unavailable; first Actions run performs actual Python parsing and all arithmetic gates",
+  "failurePolicy": "Only TimeoutError is budget75. MemoryError and verification/input errors are failed1; all previous complete phases remain intact."
+}

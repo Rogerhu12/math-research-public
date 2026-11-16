@@ -3,17 +3,17 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a4e1a3b7f0d53da617a08ec2b1726490f8c6714b（2026-11-16 09:02:35 UTC，临时研究session run43832009393实际pull --rebase，两README无差异；详见notes/r150-original-full-bell-source-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 4ac954e754cb1e64ba9166a6cc578e325f0cf67b（2026-11-16 09:02:56 UTC，Actions run43836253293实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43836253293-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
-- 2026-11-16约07:20共享executor失效，旧tmp不可读且未声称存活；最后本地push42478da8。按根规则8/13转现有Actions实际pull/rebase/push；已用已有MR_TOKEN修复bot403，run43824697306实际推007f073e，后续均真实发布。API准备不算pull/push。发布器仅对并发worker造成的H最后规则marker冲突作逐块窄合并，保全部其他研究文本；其他冲突仍报实错。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-complete-integral-annihilator-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 共享executor约07:20失效、09:00复探仍不可用；旧tmp未冒存活。现有Actions执行真实pull/rebase/push，API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-pencil-trace-gates-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
-- **四参数run43830684123/job133175032397已全十步success：** [同基接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)。根已亲读完整日志并独核6binding、14小矩阵SHA、252组装/252核乘回及86原阶段。完整ann已独立证明，见下条正式稿；不重210，所有数组仍tmp/日志。执行身份notes/r150-hstar-four-parameter-execution-789f/。
-- **原完整Bell1 run43832009393/job133179333013已启动：** [独立接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)，head cc9f29d0，checkout/pip0.9/Singular安装实成；首600实际exit75/wall598.467，raw11655/SHA213ba7ff，同out升1200；阶段待完成日志，不把75作负结论。全部17变量/18源，双degree自测后field权5至9，75才600→1200→1800续，同job E600秒/4GiB；只有原E三个完整分量为1才闭合，截面失败不否定同支撑其他来源。5分钟同job续接窗、80/90分钟范围，每28分钟实际pull，记录notes/r150-original-full-bell-source-execution-789f/。
-- 原发布run43831972009曾非快进，立即pull/rebase，仅H规则marker冲突窄合并后实际推cc9f29d0且dispatch204；数学API的MR_TOKEN403已改为现有actions:write的github.token启动，Git仍已有MR_TOKEN。最新所有源码/参数/历史失败及SHA在刚归档H和log；从真实回执继续。
+- **四参数run43830684123/job133175032397全十步success：** [同基接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)。根全日志及6raw/binding、14小SHA、252组装/核乘回、86阶段独核；完整ann已证，见下。全数据只tmp/日志，不重210。
+- **原Bell1 run43832009393/job133179333013运行中：** [接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)。首600实际exit75/wall598.467，raw11655/SHA213ba7ff；同out升1200，再75才1800，阶段待完整日志。保全17变量/18原源及双degree自测，权5至9后E600秒/4GiB；仅原E三个完整分量=1可闭合。截面失败不否定其它来源，5分钟同job续接窗、80/90分钟范围、每28分钟实际pull，执行身份notes/r150-original-full-bell-source-execution-789f/。
+- **原pencil trace/奇点轻job准备：** [精确接口](notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-interface-789f.md)及[同job执行](notes/2026-11-16-r150-original-pencil-trace-session-interface-789f.md)。同原E四Ti有精确基变换/同余项唯一性证明，D_(127,d=100)上35真自由基；先全部乘法/交换子/余因子乘回与trace Gram，再全19源(q,I4M)次数5至8原Macaulay。仅实际非零unit/完整双逆才推出E结论；未预填reduced/无rank5奇点。预算75才180→360→720，内存/验证错不加时，26/30分钟，同源SHA与编译门。根准备后真实推再dispatch；输出只临时，身份notes/r150-original-pencil-trace-execution-789f/。
 
 ## R150原rank-one精确系数接续
 

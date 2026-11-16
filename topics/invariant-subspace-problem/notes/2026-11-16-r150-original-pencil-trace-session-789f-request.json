@@ -1,0 +1,69 @@
+{
+  "format": "isp-original-pencil-trace-manifest-only-session-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "rulesReadAtCommit": "2d165fca4969e1674ade02a9315041593f1c14c5",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "sessionScriptSHA256": "b72550fe35e9f931a5f1f671a65ceef497fed1af07acf057ea7ed70c674c758c",
+  "historicalInputs": [],
+  "maximumIdleSeconds": 30,
+  "closeSessionWhenStepsComplete": true,
+  "sessionWorkMinutes": 26,
+  "workflowHardMinutes": 30,
+  "steps": [
+    {
+      "id": "complete-original-pencil-trace-and-singularity-gates",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-gates-789f.py",
+      "scriptSHA256": "4d0fd8ddaa51725b60705813555502036fed310979542aeb2cac8b320b57d326",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        }
+      ],
+      "argv": [
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--field-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--out",
+        "{work}/original-pencil-trace-and-complete-singularity-gates",
+        "--through",
+        "complete",
+        "--through-degree",
+        "8",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "768"
+      ],
+      "timeoutSeconds": 240,
+      "budgetResumeSeconds": [
+        180,
+        360,
+        720
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-pencil-trace-and-complete-singularity-gates/original-pencil-trace-singularity-receipt.json",
+      "mathematicalScope": "same original E four tensors by unique fixed quadratic remainder; full35 cofactor trace; all19 homogeneous generators and every original source/output through degrees5..8"
+    }
+  ],
+  "sameJobPolicy": {
+    "timeout75": "reuse only complete whole phases, same source/out/binding; increase180,360,720",
+    "otherFailure": "no automatic memory/input/verification retry",
+    "storage": "only source, parameters, execution identity and output SHA; full mathematical results remain in temporary phase files and job logs",
+    "rules": "actual pull/read both READMEs before every step and publication and before30minutes",
+    "deadline": "whole attempt plus120seconds must fit26minutes from session start and28minutes from recorded job start; hard30min",
+    "budgetArithmetic": "180+360+720 is21minutes before publication;30min hard bound preserves all three authorized attempts"
+  },
+  "mathematicalProgramStatus": "Not yet executed. No trace determinant, Macaulay rank, rank-five exclusion or critical-ideal emptiness is prefilled.",
+  "largeDataPersistenceAllowed": false,
+  "computationalOutputsInRepositoryAllowed": false
+}
