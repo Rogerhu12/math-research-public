@@ -64,13 +64,11 @@ R437最高P2θ=κell_f/24杀全kerLf，13rank≤12/余底≤9只是上界。R442
 
 R459的同宽signedV#满足这四门，可在固定τ/history下接两period真光滑特解；仍未成为actual成本。继续实际正锥/全H查询以及同一最高d/e与余9端口系统、秩降整除/全相位seed/其它s段；不能把各门独立截面相加。
 
-### R389：有理端口两period的真实整包通量与全部零端germ
+### R389/R460：原整包通量与真平端条件
 
-[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)在当前实际whole pure0、M0/TτH的不交值包圆，比较完整pure的3+1/2+2系数，整个mixed period恰为Σai²[diSi+Σj>i djUij]。self/有序交叉的真实左二次尾在别的compact outer总积分中准确消；同一自然读出给ωi=Λui(V)，ωij=[a³b²]Λ_(aui+buj)(V)，不假整个U局部，也无额外2。
+[R389](results/R389-ordered-total-fluxes-and-complete-flat-end-germs-for-the-rational-port.md)完整pure/3+1/2+2给每包d/e总量a_i³(R_iω_i+ordered suffix)及−a_i³(T_iω_i+ordered suffix)，所有实际三矩/原顺序/左尾都保。最右包及非共线两角色给相应必要self/cross；响应内Af partial列不能改变这些totals。R429/433仅同一共同母库/合法窗口下付有限totals，不授Λall0（R406已排）。
 
-原R326同wc后的两目标总flux是−ai³(Riωi+ΣRjωij)/(2τ)与+ai³(Tiωi+ΣTjωij)/(2τ)。最右包明确必Λun0；非共线最右两包另迫对应self/cross0。所有R∩kerπ对这些整包门不可见；原11内部部分flux列不能支付它们，实际word非零基准也不能据导数0忽略。
-
-在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。R429已在其同一共同库/合法窗口内付这组有限totals与端germ；内部Af partial、平台仿射连接、真特解和R327十三行同一k仍未付。不将此扩成Λ全U局部或旧冻结几何的实际数值。
+R460现已把多峰光滑内部与不变解析cap接全：canonical wholeE/这些原totals0给两真平端germ，剩余恰所有simple-Af原partial；simple-p不加门。原平台G″0、gap对k值闭合和同右锚不可删。R459仅signed共同partial零，actual及同一九行rhs继续保留。
 
 ### R345/R435–R448：完整49 self模块与准确19/30真实接口
 
@@ -198,3 +196,11 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 [R462](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)从R201全R0维16/pure3和R316原13列wholeQrank7得全R_E,0维6；R459真实H^-1current律使39空间权0仅A1²/A2¹，七关系剩一条，完整全R lift经Π0给currentrank1，故K0恰5。R443原齐次source表给旧49的权0恰K8/V51/V52；全原self常项/x7小det−13h³s³/3312及K8非零x8证其同镜像rank3。
 
 全正H匹配准确iff同宽目标落完整权0像，旧49的19维混权右逆不能移植。仍余恰两完整cost，self可能增0/1/2维，当前V0成员未付。R316原日志保存13pure列/全T,Euler但未印六核代表；下一只取真正新需的current/self contraction及原差重构，不重旧pure/wholeQ秩/检查。actual锥/固定词基准与九行仍另付。
+
+### R461：合法三矩独立支付，完整同规范只余原九行
+
+[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)在原R312/326完整式代k=BD得Bhat(BD)=R_E+2ER2，十门与cubic使这条hook同步补偿保持全部13行。三完整circle base的真实二次矩由R280逐布局ΣRµ=ΣTµ0支付；八复制cubic和localT平移度≤5使它们的F/G在全十port核，三中心µ Vandermonde给Rθ三合法矩右逆，同时在kerLf。可最后合法化任何九行解，不变period/端口/seed、不加Gram分母。
+
+最高b_d=b_e0以后，原九行Dθη=bθ+Σz_X HθX是完整准确接口。原dP≠0先调b_d、十二包装e(X)=0保b_e；余ker d由B及六Z_X生成，B全盲。六z_X必须是同一固定实向量，ηθ才可变；没有宣六维像或九行满秩。Dθ二次、rhs三次，原Smith零行多项式及单位圆根全部重数都须通过，非零行总局部重数≤36仅上界。
+
+R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；实际词产生的新基准与δX*必须同时进入全部门。下一支付固定z的原九行兼容或其明确障碍，并做实际增强/其它s段，不能把两个截面相加。

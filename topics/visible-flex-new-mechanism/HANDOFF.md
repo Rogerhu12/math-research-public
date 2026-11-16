@@ -30,7 +30,9 @@ R443已付53完整self五次local/无分母高jet，像38/核15、K11合49；旧
 
 R456同宽全部角色DkerEval=Pol≤4、商恰D5/D6；R458两实际宽各三末low/≥8copy才另检D4。[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)从起点共同w0、R455唯一镜对：全current真协变H^-1且全R/kerE稳定，13个近1正H的有号Π0把R457的D0 lift成权0全C0的V0。任意V0 self≤8且两镜最高项共同，R407真实μ路径转全部最终母cap，R448同一个W匹配完整双多项式，得到V#=H*+J4−R_C−W：J⁺/formalC/所有微包两Af×d,e门全0、λ1、Λ=n2。最终可混权；仅同宽signed核。[R462](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)消费R201/R316完整13pure核/Qrank7得R_E,0维6；39current权0仅A1²/A2¹一关系，真Π0满像给rank1/核K0恰5。旧49权0仅K8/V51/V52且同镜像rank3，全H匹配iff目标在权0像；尚余两完整cost，self像/目标成员未知，不重旧消元或授actual。
 
-R437原P2θ=κell_f/24杀全kerLf，13rank≤12/余底≤9仅上界。R442全部同锚/有限部分/exp端保留；[R460](results/R460-automatic-simple-critical-point-residues-and-complete-smooth-period-gluing.md)由H′=pG″给简单p0处H/(Ap²)=β0/z²+光滑项、无simplepole，k′=H/(2r³)，跨点k″匹配同一C，不新增核参数。一般光滑range iff全部Af partial/平台/总通量/两平端germ，再gap修正∫k′并用右锚灭affine差；R455 canonical E/totals0下只余每包两Af×d,e四门。原incoming XD对p点逆值/13行rhs保留，gap修正非盲。R459 signed因此可接真range但actual实现/同规范仍欠。R444八hook为2Lf(XD)，R445 d(Bε)=d(Y)=0；R447 η≠0给signed最高d轴。
+R437最高P2θ=κell_f/24杀kerLf；R460由H′=pG″付所有simple-p无留数/同C光滑匹配，不增核。一般range仍保Af/平台/totals/两germ，再gap调∫k′与原右锚灭affine差；R455 canonical E/totals0下恰每包两Af×d,e四门，R459 signed已可接真特解，actual实现未付。incoming XD/p点真逆值与gap平台变化都进规范rhs。
+
+[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)完整Bhat(BD)=R_E+2ER2，原全门及cubic使BD在全部13行核。三个真实平移的完整circle base有µFF=µGG/µFG0（R280逐布局二次矩），原八副本cubic与localT度≤5使F/G杀全十port；三中心Vandermonde给同相位三合法矩右逆，且在kerLf/全port核。故最高d/e通过后只剩原九行Dθη=bθ+Σ固定z_X HθX；dP≠0后六hook候选、B全盲，不宣rank6/9，z不能逐θ换。相位矩阵度≤2、rhs≤3，Smith非零行总局部重数≤36，零行条件另保；actual全基准/其它s段仍欠。
 
 R450整个U的self/2+2位置≤11；同最终V/F/G的12真中心已入range时选紧逆≤11，ell六权使最高e≤17。旧11差分余≤6，新初选外8宏四次幅/g翻号以18差分清e，保完整F_rat/每宏三矩；新全部基准入b_new由同20目标付。必须先付同最终母/actual成本的全range、内部Af/禁止极点/平台germ，不能移植旧range。R449只付8hook独立及144真像≥137/核≤7、K11增广≥148，不作全R分类。
 

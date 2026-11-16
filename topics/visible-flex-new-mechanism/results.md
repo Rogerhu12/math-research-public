@@ -352,3 +352,6 @@
 
 
 - **R462：完整权零响应6→1→5，旧49仅三维，全宽匹配余两成本。** [完整维数来源、真权表及全宽必要充分界](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)（14307B/SHAd354b2e9dfd023ee79a07919ea754fca145af790583d7040dcf603222f738b47）。R201/R316全13pure核/Qrank7给R_E,0维6；全current权0两坐标一关系经Π0实取，故K0维5。R443真齐次原组证明旧49权0仅K8/V51/V52，其镜对像恰3；全H匹配⇔权0像成员。余两完整cost的self及目标成员未知，旧六核组合未刊不称已消费，0新执行/旧秩。
+
+
+- **R461：B hook全13盲，原三base合法矩右逆，将同规范精确降九行。** [原完整端口、同步period与固定六参数接口](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)（18043B/SHA78a28b0d1a3fc34b186dfe7c8eb6c720ad8b7d50293f83f2c62575b4575019a7）。Bhat(BD)=R_E+2ER2给B全十三行盲；三真平移circle base由原二次矩闭合/cubic/localT度≤5给合法三矩右逆，同时在kerLf和全十port核。最高d/e后原九行可最后合法化；dP调d后仅六固定hook候选+B盲，未授rank。Smith≤36只界非零行局部整除，actual基准/incoming/gap全保，0新执行。

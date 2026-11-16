@@ -532,3 +532,9 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 - root全文读14307B/SHAd354b2e9dfd023ee79a07919ea754fca145af790583d7040dcf603222f738b47，回R201§5/R316全文及原job132878270740两COMPLETE_REPORT，主61441B/731ffae43cc8f06346801c444a7de010fe2cf6f9f05ecf4b650d319fa2ee06fd确全13pure/wholeQrank7，不混dev。
 - 复核原R443 seq55/56完整source、108/109全部Af行，手核两列小det−13h³s³/3312与真selfH²协变；全R0五核不冒49三列或self rank5。旧report未付六核代表，下一仅新需两cost contraction，0重算旧秩/旧mapper。
 - H/open同步并缩短已付R458背景；继续R461原规范与R463 actual锥放大接口及唯一true53数值run，主目标未完成。
+
+
+## 2026-11-16 05:49:20 UTC — R461全13盲hook与三合法矩右逆写毕即推
+- root全文读最终18043B/SHA78a28b0d1a3fc34b186dfe7c8eb6c720ad8b7d50293f83f2c62575b4575019a7；回R312(23)/R326(6),(7),(26),(30),(32)，核完整B代入、紧槽localT最高x5与跨二次尾精确正交，非principal。
+- 独立回R280(3),(11),(17)确认每个真实编码base先付二次circle三矩，再保八/十二/外五块与同µ变母；稿补此来源606B、只读差异。三中心Vandermonde右逆在kerLf/全port核，九行原次数不变。
+- 保六hook固定z而非逐相位成本，Smith≤36非rank，gap/incoming/actual全部基准仍入rhs；0新执行。H/open同步，继续数值首输出与R462/463实际接口，主目标未完成。
