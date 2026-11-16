@@ -221,3 +221,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 15:46 UTC：真正58全后缀R1/R2共同问题提交
 
 [设计](notes/true58-R1-R2-whole-suffix-design-20261116.md)与[合同](notes/true58-R1-R2-whole-suffix-model-contract-20261116.md)接request 77451B/e460bef2af9ca39e855d34b874c1062fbd42ffffbd3110e951206a0190a33b68及359源，原348hash不变。完整21径向/两全角网metric+PSD、原34控制+K/h与唯一true58初点；原支持固定行复用、不同K真实重组、独立几何/导数/J缓存及partial去重均按源码接线。600总秒/180solver秒/120iter/240不同backend36输入，原返回合格才全body及actual14；无本地导入/编译/测试/科学执行。R540已推0d2b733df79555ba3dd62dbe0805e5742ab35fed，最新15:44:19实际pull双README空diff；当前58和祖3047.102915103秒147值未变，运行回来立即闭账续主open。
+
+## 2026-11-16 15:48 UTC：whole-suffix公开研究已启动
+
+run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb已进入唯一研究step；只读运行元数据，未读未完成科学日志。提交遇NFF已立即实际rebase，15:47:16→15:47:35读e9326d071b578b09673e578393648a0960b75519，双README空diff，15:47:43推送成功。祖账尚不混入未闭的新范围；58不变。H压缩理论接口但保全文链接/成本/同母同χ条件，继续主open。
