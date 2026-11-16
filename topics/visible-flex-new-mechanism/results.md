@@ -450,3 +450,5 @@
 - [R481：每个精确平端cap五门处处正则与真实有限径向下降](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)（已证明）：原12项Euler分级给−3P7κ¹⁰U⁴，含P7在平端的有限阶零；任意解析尾内窗可取5个真紧支控制。Δ6纤维余4门处处满秩，每个非零残差可有限下降，无内部非零局部极小；未付统一步长/紧性/全局零目标。
 
 - [原冻结ψ3完整复帽积分严格非零：唯一公开区间观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)：ImE完整界严格正，含有理Af根/复参数/可变上限/解析平端tail；25叶84jet、0旧重算、0失败，新0.3593075210000052秒。该冻结库h不在span(y)，只在R466同Jaff/canonical正时长/同端口/M0范围形成actual障碍；新cap全局五门及主几何继续。
+
+- [R482：完整第三历史逐点消去与真实13状态2输入ruling系统](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)（已证明）：T=Pend−A²/2+W保内部Pacc/初端势，R480仅消outer W；单份K保八维A/平方/一般wχ并对h″k″仿射，完整系数与原Mraw水平ODE已给。反馈只在真实固定秩相容域/切向条件下成路径；常scalar段必须过规范不改的平方门。未给受约束闭原型，新加速度self未免费入旧F。

@@ -133,3 +133,8 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### 冻结ψ3完整E已严格非零：转真实新cap和完整路径
 
 [一次完整区间观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)在run43827984553/research133166230952/source5104179c…严格给完整ImE下界1.7333041007120258e−16>0；全部root/复参数/可变上限及tail≤1.6606845819e−34入界，25叶/84jet/0fail，0旧85重算，新0.3593075210000052秒、连旧四self16.0500706319999152。它排该冻结母h∈span(y)，R466只在同Jaff、canonical正时长/同端口/M0下给actual正字符障碍；不缩成仅固定宽F0或所有新cap。此原目标已闭不重跑，接R481真正允许cap全局五门0；R482完整单份路径与同规范/数值主几何同时继续，主完成门未付。
+
+
+### R482：单份全段ruling已降到真实13状态2输入系统
+
+[完整公式](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)把第三history换成原当前一阶jet端点势与−A²/2+W，保内部Pacc和初端势；R480只清该outer W配对，不清一般w和全部V。K=F(X;θ)+Chh″+Ckk″，两个原加速度系数准确−(4h⁴)⁻¹∫FφQφ'''a_h/k，13状态真实服从原水平及八矩Mraw ODE，同一两输入须全相位共同满足。下一构造相容状态域内的返回路径或明确排原现成prototype：正长度常scalar段平方门(39)与规范/入值无关，须先支付；局部反馈不能替代闭返回/全V/13核。新增加速度self跨包尾准确零、quartic C²/平移≤7，但尚未加入既存初选F。所有actual条件须同新库，主任务继续。

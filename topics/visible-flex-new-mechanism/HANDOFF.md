@@ -18,21 +18,19 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 ## 3. 理论接口与剩余义务
 
-原式/文献/来源见[results](results.md)。R406正字符λ+=L+∫(h′/h)²>0排actual全Λ0；只用有限真母查询Jaff，全部wholeE、两次商校正、桥/第三prototype×n/Klein基准保留，signed不授actual逆元。
+原式/文献/严格scope见[results](results.md)。R406正字符λ+=L+∫(h′/h)²>0排actual全Λ0；只用完整有限Jaff。R455/R464从起点同真宽/cap/母/右锚付q4=0、共同F★/DE、M3≠0与(V19,dP)=(0,η≠0)。R460付simple-p无留数及不变解析端芽，真range仍保Af partial/平台/总量/双germ/gap/右锚。原13规范只有同一完整成本的period/最高P2已付才可用。
 
-R455/R464从起点固定共同真宽度/cap/母/右锚，付q4=0、共同F★/DE、M3≠0与(V19,dP)=(0,η≠0)。R460付simple-p无留数/固定解析cap芽；真range仍含Af partial、平台/总量/双germ/gap/右锚。原13规范仅在同完整成本的两period/最高P2已付时可用。
+R465/466完整self商维7/5，XH=H*+J4、XY=J4−J6；同Jaff满闭锥iff h∈span(y)。R468在同库/共同窗口下等价给有限actual C1截面，真高度脉冲/原R70前缀/WW^R、固定有限ε、所有桥与prototype×n基准、两次商校正和最终根全保。R467固定τ和真实incoming后只付指定保护芽，未付其它全s。
 
-R465/466：完整成本商S(W0)/S(K0)维7/5，XH=H*+J4、XY=J4−J6；真换锚保尾/Γ，−6/−4字符已排。**同Jaff满闭锥iff h∈span(y)**。R468等价给同完整Jaff有限actual C1截面：真高度脉冲+独立R70前缀+WW^R付余头，固定有限ε、全部基准正整数配平/两次商校正/最终根。R467的KP杀Jaff、dτKP=−η/τ≠0；固定τ与真实incoming X*后原Klein包装仍只付指定保护芽。
+R470原85[完整self观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)保失败精确15.69076311099991秒；补响应仍旧3维、y≠0，XH是原Ln2单侧积分。R471五门Δν=R5βν−Rνβ5（ν1,2,3,4,6）全0 iff比例，唯一c=1152β5/R5；八A_j是同cap真积分，真Af迫5h>3s²。R475四列minor D=4s(19s⁴−34hs²−h²)<0，iff E(z±)=0及Δ6/3/4=0；允许正v″密度族已有限付Δ6=0。R477真normal/四门局部开放、R481精确平端Euler~−3P7κ¹⁰U⁴（含P7端零）给每个允许cap任一尾窗五真compact控制满秩；可有限径向下降，无非零内部局部极小。**全局0/统一边界控制未付**。R479多cap必须各过五门且共用c、A7/s、A0/(h³s²)，原partial逐包向量不可正权平均。
 
-R470原85记录（[来源](notes/weight-zero-four-complete-self-first-observation-20261116.md)，含失败15.690763111秒）付两补响应完整self仍旧三维，XY余x5<0故y≠0；XH恰原Ln2真左积分。R471以真实八A_j/六β给五门Δν=R5βν−Rνβ5=0，ν1,2,3,4,6，iff联合比例，唯一c=1152β5/R5；任一非零minor给真实分离行。真Af给5h>3s²及A0/A7界；四局部列共a，复根余量E=3/8∫B²C²dC不能由q>0判正。
+R473/474给非零cap及从起点完整新库；R478付临界power完整非零和真实正近似。新[冻结ψ3严格观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)完整ImE∈[1.7333041007e−16,3.5283382088e−16]>0（精确界见note）、真tail≤1.6606845819e−34，故该冻结库h∉span(y)。R466只在同Jaff/canonical正时长/同端口/M0下给actual障碍；不排新cap/新机制，当前真五门全零继续。
 
-R475付四高系数minor D=4s(19s⁴−34hs²−h²)<0，完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0；真实正曲率密度v=p^(2/3)族中Δ6两号，有限中值cap清一门，再从头接q4/F★/20/M3库。R477已付正则Δ6 normal及同纤维四门局部开放。**局部像开放不证明0可达**。 R479在当前wholeE/O_all0/current0与全role/affine框架证明多cap必须各自过五门，并共用c、A7/s、A0/(h³s²)；partial逐包向量不容正权平均。未排保非零current等新机制，[R481](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)用原密度全部12项与多项式平移分级，付任意非零门组合Euler~−3P7κ¹⁰U⁴，含P7平端零阶；故每个允许cap任一解析尾窗五个真compact控制满秩。每个非零残差可有限径向下降，Δ6=0内四门处处submersion；无内部非零局部极小，尚欠全局0/统一边界控制。
+R469同端芽锁第三三矩，gap全s盲，母/平台仍须同13核全函数式；真实Mraw不由总M0支付。R472真实A/T相容桥可使复位单元A=T0、同向芽incoming一致，但正成本/八矩迫非恒ω新段；全部第四V和一般w保留。R476由R261同锚局部核/三右零常数，付18维Z在不交rank-one平面三槽逐函数0；真A0/T∈Z块传递任意a,b不变，未删一般a下第四项。
 
-R473固定末三矩/端芽的真compact扰动使E非零开稠密；R474用四内部normal真IFT补q4，再重选F★/20根得新完整库E≠0。R478以完整八次primitive/三重因子反证付临界power E≠0；C²分部连续性与实际正密度近似给光滑非零cap。新[原冻结ψ3观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)已严格得ImE∈[1.7333041007e−16,3.5283382088e−16]>0（精确完整界见原文），含真实tail≤1.6606845819e−34；故该冻结库h∉span(y)，R466同Jaff/canonical正时长/同端口/M0有正字符障碍。不排新cap/一般族，继续真五门全零。
+R480从起点加入28交换子×3外矩×≤10平移系数（≤924生成，不称秩），完整Green尾降quartic C²；原十矩/12copy/五block与同q4/F★/20根付全W的I_j(φ,T(φ;D))全角0。任意真A0 prototype重复K无漂移，第三incoming b一般仍变；全部actual条件必须同此新库。
 
-R469：一个端芽锁第三三矩，全段变化=𝒫*Bθη；gap全s盲，母/平台须同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，真实Mraw相对prefix不由总M0支付。
-
-R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使同向芽incoming一致。内部K=K0+B(a)−E(a,a)+2E(φ,b)全保，正成本/八矩迫新ω段。R476由R261完整同锚局部核与三右零常数，证18维Z在不交rank-one平面P三槽上逐函数0；真A0/T∈Z块对任意a,b原样传递，所有重复副本K相同，原R80可真分配。第四仍V+2T(a;D)−4T(φ;φ,a)，一般a不在P不能删；单份K0及A≠0子桥仍欠，[R480](results/R480-finite-full-third-outer-moments-and-zero-matrix-prototype-ruling.md)将全部28交换子/3外矩/≤10平移系数加入从起点有限F（≤924生成，不称秩）：保完整Green尾降到quartic C²，原十矩/12copy/五block三面积及同q4/20根使全W的I_j(φ,T(φ;D))全角0。故所有真A0 prototype重复K无漂移，b本身可变；单份K0/A≠0桥/一般w与全部V仍欠，后续actual条件必须同新库。
+[R482](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)逐点保Pacc/初端势，T=Pend−A²/2+W；只用上述全W三外矩消ruling中第三历史，保真实八维A、平方及同w/χ。完整K=F(X;θ)+Ch h″+Ck k″，原系数−(4h⁴)⁻¹∫Fφ Qφ'''a_h/k；13状态=(h,k,ω,m8,h′,k′)，2输入须全θ共用，并服从原Mraw/水平ODE。只有固定秩相容域及切向性已付才反馈成真路径；未给所需闭返回原型。常scalar正长度段另须平方门−E(AcD,AcD)+2E(φ,Ac(φ;AcD))全θ0，规范/入值不能改变。新增加速度self的C²/平移≤7已证，但未授既存F已支付；全部V/端点/同13核继续。
 
 同cap完整比例、实际全成本/全s同规范、高阶收敛与主几何完成门仍未付。
 
