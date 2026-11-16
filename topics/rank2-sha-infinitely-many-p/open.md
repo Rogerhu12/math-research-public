@@ -197,3 +197,5 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 - [R867](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原t=a7满足t³−21t−17=0，b与b²共同分母19δ给完整三基矩阵；只要nΞ0已认证，原J的整T7和目标O_K操作便使57nΞ_i全部真整。P1/P2为完整8/64邻点迹，56 cyclic49与8回溯分清；三H现有541项即给全部Hecke三列，次数≤28/784倍原度。未知映射只剩一条，原n/D/Artin不删。
 
 先重建一条nΞ0，再以真实T7/T7²和固定57恢复三原Hom；避免对三条独立无界枚举。更小的原R商函数基正在推进，不能以存在算法代实际非零。
+
+- [R868](results/R868-original-t-slack-and-native-bockstein-image-unit.md)：原σ_t=min_n(ord P_n−A_n)准确控制t^-τ仍在同W_D。实际quartic若τ=k−13≤σ_t且ell≤s−h，P0=t^-τP真在K1并读首像单位；故Λ0不下降第二页左行，R/S沿同P0能调该标量但同时改全余类。σ_t≤r−b0−floor((c0+1)/4)，最小r=b0=3,c0≤2时零松弛，不被此机制覆盖；续其真联合第二/第三页。

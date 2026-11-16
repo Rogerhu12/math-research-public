@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：5525cf33cafa698fa261efe33bcc9c9d636eac73；2026-11-16 07:39:06 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
+- 最近已读规则提交：a338a3adb08529b3797cc6c8212311acfc1eb9f9；2026-11-16 07:43:23 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-modular-coordinate-reconstruction.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–867已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-actual-t-slack.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–868已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 原Z与已付Hom输入：当前第一实际门
@@ -48,15 +48,15 @@ R860原交叉热Rcal相消，第一balanced伙伴完整Ξν+σ(2z)²L/4、二挠
 
 ## R828实际一标量与同P/R/S：当前第三实际门
 
-M=c*U0w13J保P134/总charge40、39carry、10980、十九角/全WD；TM=s−r−13、TJ=s−r不混，只有四原中央。
-[四位](notes/2026-11-16-r828-actual-one-scalar-four-digit-and-same-correction-pages.md)：hΘ=H_pw^(s−4)B，H=(p+1)(a−pRcal)/[6(p−3)]，B全高尾。M=M0+pH A1+p²H²A2+p³(H³A3+H4A4)。第二/三页同P/R/S，Y1/p/Y2/p native整商不删；quartic末ell=s−14保[w]W4，不能由ε4丢carry。
-[三carry](notes/2026-11-16-r828-three-native-carry-recursions-and-last-block-tails.md)：首提升迫W0/W1 modws零，W2+H w^(s−4)BW3 modws零；D2/D3只新增W3八/十二尾加quartic，仍联立normal及同R/S。
-[左行/Newton](notes/2026-11-16-r828-native-zero-angle-reader-and-central-newton-value.md)：r(Q)=(Q−40)(Q−41)(Q−42)，Λ0M(X)/p=Σ_(d1..3)p^(d−1)a^-d[w^(ds)]Wtilde_(r^(d))(X)，无1/d!。四中央若零，Hc=h0−C/D且H−Hc∈p³；M_H=M_Hc modp4。必要式N(P)+pN(R)+p²N(S)=0 modp3，保全部高卷积/其它三残差/native商。
-[R861](results/R861-original-hasse-aligned-gaussian-and-three-hurwitz-readers.md)：真实C_H及a*=−34C_H整对齐，原b=1，g/AΦ/a/Rcal同步后M不变。Λ0M/p确读D_(m,p,79)、D_(m,p,p+80)、D_(m,p,2p+81)和仅40/41/42阶乘低项，m=34Q；末系数−1/(a*³81!)单位不代指定组合非零。deep续第二/第三页。
-- [R865](results/R865-actual-high-axis-product-and-first-divided-row.md)：原H_p/h0等于明确有限单位乘积，三阶谐和和给同一Rcal的p³读取；全部真实高位保持。实际K1的指定首配对准确压到r′(Q)D_(m,p,79)，不是三个独立输入；实际g^flat含hΘ。quartic k=13正回旧单位，k>13该首行恒零；第二/第三native页及同R/S仍待计算。
+原M=c*U0w13J保P134/总charge40、39carry、10980、十九角/全WD；TM=s−r−13、TJ=s−r不混，只有四原中央。
+[实际四位](notes/2026-11-16-r828-actual-one-scalar-four-digit-and-same-correction-pages.md)、[三carry](notes/2026-11-16-r828-three-native-carry-recursions-and-last-block-tails.md)和[左行/Newton](notes/2026-11-16-r828-native-zero-angle-reader-and-central-newton-value.md)保全部高尾、同P/R/S及Y1/p、Y2/p。hΘ=Hw^(s−4)B，M=M0+pHA1+p²H²A2+p³(H³A3+H4A4)。首核迫W0/W1 modws零及W2+Hw^(s−4)BW3 modws零；新增D2/D3只读W3八/十二尾与末quartic，仍联立normal。末ell=s−14须保[w]W4。
+r(Q)=(Q−40)(Q−41)(Q−42)，Λ0M(X)/p=Σ_(d1..3)p^(d−1)a^-d[w^(ds)]Wtilde_(r^(d))(X)，无1/d!。四中央若零，Hc=h0−C/D、H−Hc∈p³，使M_H=M_Hc modp4；真必要式N(P)+pN(R)+p²N(S)=0 modp3，不删其它三残差。
+R861原b=1、a*=−34C_H整对齐使M不变；完整Λ0读取三个D_(m,p,79/p+80/2p+81)及40/41/42阶乘低项，末单位不判非零。
+[R865](results/R865-actual-high-axis-product-and-first-divided-row.md)：H/h0真实有限乘积和三谐和位定Rcal；实际完整g^flat含hΘ，首配对压为r′D79。quartic k13回旧unit，k>13此行恒零；参考g0须恢复3H[w4]BW3。
+- [R868](results/R868-original-t-slack-and-native-bockstein-image-unit.md)：原σ_t=min_n(ord P_n−A_n)准确控制t^-τ仍在同W_D。实际quartic若τ=k−13≤σ_t且ell≤s−h，P0=t^-τP真在K1并读首像单位；故Λ0不下降第二页左行，R/S沿同P0能调该标量但同时改全余类。σ_t≤r−b0−floor((c0+1)/4)，最小r=b0=3,c0≤2时零松弛，不被此机制覆盖；续其真联合第二/第三页。
 
+deep继续低松弛同P/R/S的真正第二/第三整商；theta与其协作单S端点，但modp相消不授权除p后删项。
 - 07:26:25实际CI pull成功；run43823860359/job133152919965，两README差异空且blob一致；下一08:10前。
-
 
 ## 其余原门不撤销
 
