@@ -58,7 +58,7 @@ R292/295的真实平台/self条件、R297九矩单位、R298能量、R303全平�
 
 [R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)已给whole-pure核完整self结构：有序三矩九维非局部项+局部quartic三jet密度；Euler全六jet字面系数与九矩是忠实坐标，原左右尾全保。[R322](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)给真权移σ→σ−2，齐次成员须同权响应支付，跨权不能挽救。
 
-[R316](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)的原完整H*已付π/self全0而λ+=1，13原列/14目标/37忠实行的实际结果及明确old编号组合保原稿；不能由同profile self0推mixed0或实际负路径。之后R333已进一步给全部pure/self实际截面，见下；当前真正欠的是同一成本的finite自然/period与同w joint，不重算旧成员、rank7或forcing。
+[R316](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)的原完整H*已付π/self全0而λ+=1，13原列/14目标/37忠实行的实际结果及明确old编号组合保原稿；不能由同profile self0推mixed0或实际负路径。之后R333已进一步给全部pure/self实际截面，见下；当前真正欠的是同一成本的全部内部period与同w joint，有限自然见R429，不重算旧成员、rank7或forcing。
 
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
@@ -90,7 +90,7 @@ R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joi
 
 原R326同wc后的两目标总flux是−ai³(Riωi+ΣRjωij)/(2τ)与+ai³(Tiωi+ΣTjωij)/(2τ)。最右包明确必Λun0；非共线最右两包另迫对应self/cross0。所有R∩kerπ对这些整包门不可见；原11内部部分flux列不能支付它们，实际word非零基准也不能据导数0忽略。
 
-在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。下一真正计算/控制实际目标这组门及内部Laurent/residue；平台仿射连接、真特解和R327十三行同一k仍未支付。当前值未计算，未假Λ全U局部或E/Λ joint已可达。
+在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。R429已在其同一共同库/合法窗口内付这组有限totals与端germ；内部Af partial、平台仿射连接、真特解和R327十三行同一k仍未付。不将此扩成Λ全U局部或旧冻结几何的实际数值。
 
 ### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
 
@@ -133,7 +133,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 ### R394完整条件性period/同规范接口，继续实际像
 
-[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
+[R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。R429已在共同合法窗口内实际支付所需有限total前提，内部flux/Ve/13门仍未联调。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
 
 
 ### R402完整静态低层首条非零通量已付
@@ -176,37 +176,15 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 [R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)先付正解析母全部n2四平移系数0；[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)现在加强16个可避局部点的4minor，在同一四约束流形取真restricted max-F及19jet minors，以r+4校正及原有限N根同付19、共同F/外区。p和Af的所有内部零均有限简单，数量不限定一对。所有最终不同母的ordered3+2对完整n2因local五次恰0；H*在同一个实际圆的wholeE及所有packet totals核中而λ1。故原正字符不能通过此有限真实评价因子化；这只给signed核见证，不授实际负路径、全period或同g有限族。
 
-下一从起点可增加有限C²观察，严格核共同母与辅助模板的完整finite affine查询像，继续−6/−4增强正字符及原F0/Q2完整自然读出；R413/R414分工仅为同一个actual joint服务，不能拼逐母截面。全部内部Af通量、真affine尾、13同一个k仍欠。
+原共同D/E已经由R429支付完整finite affine查询与全部低权字符，当前不再增加该自然目录。全部内部Af通量、真affine尾、13同一个k仍欠。
 
 
-### R413–R420：两负权静态正字符都已消去，继续完整二速度
+### R413–R429：完整共同J已付，转所有内部period门
 
-共同D/E且D−E>0使Q4仅−2头，ordered3+2局部0，两个负权字符杀完整A/H/Q4。R415双锚与R416完整原尾给−6静态a=μ=0。R417给−4自然S³(A+k²B)、a(k)=a1 k²S³/8；[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)消费唯一run43784526298/job133029071528，完整W4左word表为空，ΛW4普遍0。因此共同−4正字符a1=a(k)=μ=0；一般静态自然仍为3S³F_Q4/32，不是整个F0为零。只新增一Ω、旧研究0重跑，36源/全部原N0/真锚保留，科学1.370958935s、RSS94920KiB。
+[R429](results/R429-complete-kk-minus4-values-and-actual-common-joint-sections.md)消费[两新实际](notes/kk-minus4-natural-flux-first-completed-actual-20261116.md)：B=∫(−upr³/8+xur⁴/32+5xp²r³/32−11x²pr⁴/128+9x³r⁵/640)，C完整0。R427给全k自然A+k²B，R426给A锚。B在偶M5零母的平移斜率−(D+3E)/16，M25全消；保真实ρ⁵(Hw)⁻⁷(Hξ+c)及成本H²后，原共同D/E库的全部self/任意右辅助ordered行同属NH像，不增加母条件。普遍S整除false不妨碍共同商归约。
 
-[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)已付全k kk负六并排共同商非零−6正字符。R422两项结构现由[R425](results/R425-complete-hh-minus4-natural-identity-and-PSD-cross-cancellation.md)的完整两Ω闭合：ΛV0=−3F_Q4/16（universal非零）、ΛW=0，全k hh=−3S²F_Q4/16且ordered3+2全0；原共同D/E商Q4头及同权响应补wholeE后λhh=0，再PSD消λhk。只剩负四kk，不能将未知四势/primitive或单锚外推为零；R423给其新势输入，R426/R427分别继续k0完整值与全k有限结构。actual joint、全部内部flux/period及13同一k仍欠。
+R416/419/421已排−6；R420/425的−4static/hh/cross加新kk，先同权响应补wholeE再λN，排六候选权全部正字符。[R428](results/R428-conditional-complete-joint-cost-cone-and-finite-actual-C1-sections.md)的唯一低权条件因此解除。在从起点共同合法窗口前提内，wholeE与所需全部有限自然self/ordered得到同一固定有限C1真词截面；原型、两次商基准、桥2VA、真倒行、响应与Klein背景全部保留。不授任意旧窄窗口、另库或旧冻结g。
 
+实际零目标只付原有限Λui/Λui+uj、全部真实suffix的两整包totals、平台G″与原解析端germ。仍须同一最终成本逐个支付每个Af简单根的两条partial：Ri si(x)+Σj>i Rj sij(x)=0，Ti si(x)+Σj>i Tj sij(x)=0。原gauge的Lf像不能改变这些点；右端total0不能代内部值。R412仅有限简单根，不保证R410一对或R405共同cap，旧≤4/≤11对应点结果不外推全点。
 
-### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
-
-[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续负四完整二速度。
-
-
-### R424：共同母矩的条件工具
-
-[R424](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)给完整局部C²负四自然函数的六项、共同M25及真幅宽中心transport；其查询像同Q4 NH比例，ordered3+2为0，再补wholeE杀负四头。从起点增加M25仍同点保19真根；未知kk的primitive/矩积/左尾须先完整归约。
-
-### R423：负四kk缺失势输入已闭
-
-[R423](results/R423-complete-static-potential-inputs-for-the-all-curvature-kk-minus4-coefficient.md)从原六Volterra maps逐项取h⁻²并真实h积分，得[N0]h⁻¹=k(τ2+k²τ2b)完整独立outer式。故−[h⁻⁴]Bm2,kkN0=S·BS(τ0+k²τ1)/16−k²·BP(τ2+k²τ2b)/16；Γ仅h⁻³/h⁻²，目标幂无项。全右锚/左尾和参考常数边界保留，不假τ2属于响应空间；完整v2−Yacc、N2及自然尾仍须合成，尚未读全kk或排正字符。
-
-### R426：负四kk的k0完整锚已付
-
-[R426](results/R426-complete-zero-curvature-kk-minus4-natural-anchor-and-common-query-reduction.md)从原水平Y、YC/ZZ全scalar、两个真实ordered尾及N0三槽给ΛV0=−∫upr³/32+3∫xp²r³/64−3∫x²pr⁴/128+3∫x³r⁵/640=3F_Q4/128+∫(3p³r²−2upr³)/64。所有primitive及第一矩余项在最后合成才消。后项对偶母所有真幅宽中心0、任意不交ordered3+2也0，原共同D/E和同权响应补wholeE后给λkk(0)=0；不追加M25、不外推全k，仍须两新曲率系数和完整period。
-
-### R427：只余两个完整kk自然读出
-
-[R427](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)在一般ω先作Y=∂k+(2h)⁻¹∂ω，以完整YC/ZZ/n1四scalar支撑、原四势和真实有序尾证明Λkk负四=A+k²B+k⁴C；奇项与高于4只在natural层0，不冒原成本为0。A已由R426纸证支付；[两新实际](notes/kk-minus4-natural-flux-first-completed-actual-20261116.md)给B完整五项C²密度非零、C完整空；38源/12新self/2.833311144秒，原k0及旧研究不重。共同D/E查询与fullJ推论另核。S=1+k²整除准确iffΛ(B−A−C)=0，当前不假定；共同字符剩k²b+k⁴c非负iff b,c≥0，仍须实际消两列。
-
-### R428：完整共同J的条件实际截面
-
-[R428](results/R428-conditional-complete-joint-cost-cone-and-finite-actual-C1-sections.md)精确隔离H：同一个A中B/C∈N A(U−3)。H下逐权排正字符，再沿原两次商校正、全部真实基准/桥/响应/Klein与共同窗口得完整J=(E,A)同一有限C1截面。零目标仅付有限self/ordered查询、全部suffix totals、平台G″和原解析端germ；有限多个simple p零逐点光滑穿过。两新实际已读，共同D/E前提支付另成R429；内部所有Af partial、gap积分改变的平台值及同13规范仍欠，不再添加另一自然目录。
+内部门全付后，仍须两真正period特解、保端jets的gap连接、∫k′=0所改平台值、右collar仿射输出，以及同一个incoming m*、核列和13行相位系统；Smith零行/单位圆可去极点均未付。完整第四以后仍有高阶收敛、同g有限族、全域reach/嵌入/幅度。下一工作为响应核完整内部像及同q四约束母库能否保所需局部cap/jet，均不重旧秩/19根/forcing。
