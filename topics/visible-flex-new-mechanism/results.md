@@ -400,3 +400,7 @@
 ## R468｜真实高度脉冲补余商与完整增强成本实际控制
 
 [R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)（29166B；SHA256 `176eb93b7cce398fee3a2109f7ce8edf6315f90feea56244a3b455f7cc3aca9e`）。同一共同窗口下，R466的h∈span(y)已等价于完整Jaff的实际有限C1截面。余商一维的对偶必有y≠0；真collar高度脉冲只改h，ΔM=O_C1(ε)，独立R70前缀补整M0后真WW^R给T0，原完整action导数4ya∫χ″²/ε+O(ε)非零。ε固定有限，全新块基准进入严格正整数配平；原桥、两次商校正、prototype×n及最后有限响应根完整保留。可替换R467取得J截面的较强条件，未预判四self、其它s段或主几何门。根全文读原式推导，0新执行。
+
+## 四个完整权零 self 首次观察
+
+[原始观察与全部来源](notes/weight-zero-four-complete-self-first-observation-20261116.md)（8278B；SHA256 `0d6737daf342ff77215d096e942485d77bb83757245e1d4dcbd66869c892516f`）。run43819806568/job133140037524/source fe9569f7…成功，85原记录；两补响应和XY各17局部项，XH29项含12真实积分字，四全current0、无高外jet/p分母。保原n2左常数及同四约束母范围，不宣固定母非成员。新10.657551444+原5.033211667=同180累计15.690763111秒，0旧Q/member/rank/dev复跑；继续同一商h∈span(y)。

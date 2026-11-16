@@ -4,11 +4,11 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读；最新actual双pull为run43818340099/job133135408458。公开06:40:31.125715→06:40:31.418518 UTC，before=after已读 **821f98de378edfbbf7f6c2b7eb71b0e0782f3e01**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **07:40:31 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
+根/题README已全文读；结论ref拒绝后实际双pull为run43779613612/job133141496466。公开06:56:47.030866→06:56:48.691704 UTC，before7bfb32a3…→after已读 **289f89c3b2ae82fe7f754f62b55972c9d362b305**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **07:56:47 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
 
-私有同run06:40:33.296413→06:40:33.771439，before=after **2009e504a43e6e6a689f9536122cce55606fec67**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。完整pull元数据保four-self restore-failure note，私有内容不发表。
+私有同job06:56:51.199499→06:56:51.781245，before=after **f9b96048e0d069d76010d7be702c55805ae8ed72**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。完整科学前pull及拒推后rebase元数据保四self首次观察note，私有内容不发表。
 
-新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:45再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
+新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:56再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -40,7 +40,7 @@ R460以H′=pG″支付simple-p无留数；真实Lf range仍保Af/platform/total
 
 [R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)：同共同合法窗口，**h∈span(y)已iff完整Jaff实际有限C1截面**。余商非零时y系数≠0，真collar logh=logh0+εaχ，ΔM=O_C1(ε)，独立R70前缀先精确补整M0，再WW^R使T0。原完整action导数4ya∫χ″²/ε+O(ε)≠0；ε固定有限，全部新块基准入严格正整数配平，真实仿射桥/两次商校正/最后响应收缩不删。可把R467取得J截面的条件降为共同关系；其余vertical/保护芽/同13门前提仍保，所有其它s段与主几何门未付。
 
-四self run43818340099已付两Q-RHS/seq707/三旧self的10记录；head.bind_input缺source_hashes失败，新self0。现发布同任务续接：receipt填原normal.head.source_identity()严格来源树，已付Q-RHS逐字恢复不重算；仅再读R434六abc输入，继续3静态/8响应恢复与四self。源码72268B/240a82b6…，request26887B/eda47811…。原5.033211667秒、2910运算/49120B stdout计同180秒/原上限，前置.005253693秒另保；未有新self结论。
+[四self首次完整观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)：run43819806568/job133140037524/source fe9569f7…成功，85原记录。两补响应/XY各17局部项，XH29项含12真实积分字、0高jet/0p分母；四全current0，标量45/2288、7/143、0、0。XH左n2与同四约束母范围保留，不能判NONMEMBER。新10.657551444+原失败5.033211667=同180秒累计15.690763111；0旧Q/member/rank/dev重跑。立即消费三旧self/四新self的共同母与h∈span(y)关系，不重恢复/收缩。
 
 actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 
@@ -56,4 +56,4 @@ actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [新finite正方向](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671/source de1c7d5a…，1LP/34迭代/68系统，9658原行通过，修复gain **7.0414711481267545e−6**；方向SHA3fade7f704238c45a9eca095af36035ab10c4741e059d000359cc9d0600f5e09。原失败5.828010012+本进程8.304766884=新任务14.132776896秒；祖先累计 **1608.573003992秒/128值**。0新geometry/J/JVP/scalar/actual。立刻恢复必要U/T作确切新方向完整双网分离，原e/f复用；不重finite LP/旧J/ordinary几何。通过才接原guard/round/actual。
 
-[四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)已挂同预算原结果续接，0旧rank/dev，精确残词/n2左常数与h/y联合关系保留；输入/所有失败/输出计180秒。同一新正方向的完整双网JVP/原scalar/actual并行推进，主目标未完，继续open。
+四self原式已付，继续同一真实母的完整联合关系及其它s段；所有失败费用已保。同一新正方向的完整双网JVP/原scalar/actual并行推进，主目标未完，继续open。

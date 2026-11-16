@@ -172,13 +172,9 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 [R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)已给Qaff,0/NQaff,1≅S(W0)/S(K0)，原W0/K0成本维7/5。[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)完整换锚mirror保P2/total/ordered，−6以真三列Pol2、−4以已付七列+K4 Pol4及N³H* lift付两增强负权字符。现在同Jaff满闭锥准确iff h∈span(y)；既有双参数引理单独仍需h=y=0，R468已用真实高度参数把实际截面条件降到同一个共同关系。四self保同current纠正后两补响应/两目标的共同完整镜对，不能仅两个MEMBER，也不能把残词判固定母非成员。实际参数补足已由R468支付；继续消费完整四self与同一wθ的其它s段。
 
 
-### 权零四列：已付Q-RHS，修恢复容器续未付self
+### 四self全部原式已付：继续共同母上的联合关系
 
-[本次失败](notes/weight-zero-four-self-paid-Q-RHS-and-restore-container-failure-20261116.md)：run43818340099/job133135408458，4旧log/2新Q-RHS/seq707/3旧self已输出10记录；restore receipt缺source_hashes，static/response恢复与新self0。科学5.033211667秒扣同180秒，前次UTF8入口.005253693另保。下一直接读这10记录复用已付系数，只读必要原operator，修容器后续3静态/8响应和4新self。保XH原左n2、所有非local/高jet/p分母残词；共同母上h∈S0+span(y)判满锥，h,y∈S0才直接付旧双参数。
-
-### 四self已付结果续接（2026-11-16 06:52:36 UTC）
-
-原run43818340099两Q-RHS不再应用；同180秒扣已付5.033211667秒。续接只读该10记录与R434六abc，填原完整source_identity后继续未付3静态/8响应混合根与四self，仍保真实左尾及h∈span(y)联合关系。源码240a82b6…/requesteda47811…，原失败和费用不删除。
+[首次完整观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)成功run43819806568，四全current0；两补响应与XY各17局部项，XH29项含12真实积分字，全部0高jet/0p分母。XH的原左n2只在同四约束母/正仿射轨道0，不可任意删除内部积分。85记录和四最终seq40/55/70/85均原stdout；同180累计15.690763111秒含前失败，0旧Q/member/rank/dev复跑。下一消费既付完整式及三旧列判h∈span(y)，保同宽/母/完整原成本，不把残词当NONMEMBER。
 
 ### R468：满锥条件已给实际完整截面，继续共同关系与全段
 
