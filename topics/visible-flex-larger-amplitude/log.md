@@ -224,3 +224,8 @@
 ## 2026-11-16 04:03 UTC /root — R412实际195终态
 
 **数值证据；资源未完成，未构成正高度数学拒绝。** [R412](results/R412-actual195-finite-root-tangent-resource-partial-before-positive-current-J.md)据actual195公开run43771125613/source4ad7fb771218585af1091c9d322c9d61b64a949c的两份唯一原日志与单必要正文41421B/e43d25f6给出完整执行范围。全部127pins、699节点、112模式/224方向/226态/双mean、原18000秒及全部门保持；有限RHS/RMS预检通过。零H请求5063.5455199240005秒返回norm0，无最终J/audit；正s=1/64请求12912.70058027秒在stage368/rawCell5/rawSegment7的有限root切向资源停止，未返完整current J/当前residual，无原iteration/trial、R273 correction为0，FD/fullDN/最终338×112 J及物理audit未起。局部45540个root返回/45539个完整local J是累计实际调用，不推全部576阶段或接受；requested_jacobian=false只省最终返回J，不省内部Newton withJ。巨大warm数值不证明唯一原因，没有逐函数计时；现有224列已批处理、fromCaptured未重跑primal，下一改写须保实际因子/回代缺陷及全责任，不冒浮点逐词等价。原18000秒受控退出124、必要完整/owner与rules parent静止，2026-11-16T03:47:13.6632365Z实际清理；无非零接受父，已删SHA不能续现场。新后继仅公开Actions，R465先纸证与源码切点，不盲加预算或减列/均值/门。
+
+
+## 2026-11-16 04:11 UTC /root — R463真实联合M求解来源
+
+**已证明（限真实来源与原接受后的条件组合）**：[R463](results/R463-incremental-M-union-native-and-accepted-checkpoint-composition.md)/[完整接口](notes/2026-11-16-incremental-M-original-full-DN-and-checkpoint-interface.md)及独立driver51265B/cf866391、CP55236B/75459620已全文与完整相对395da/18399差异读后刊出。真实接受父只供原十词/同C/初猜/分辨率；原完整112 far/config及新M deep/union分别保原对象，真μ和两系数字词移至新M列而不重选。新tuple5da13c5f/d9db5098/b536850a实际接全新grid、完整4M+2、全(3M+2)×M J、双mean、原FD/fullDN/final/audit；原7b70/e197/cc70与数学核不改，原兼容配置后明确选实际client。CP显式读R400/R441/旧R442/自己四真实父，不换旧reader标签；源闭包/union全文成员与原数值策略完整核，modes/spacing缺失或显式M/2的兼容语义分清。仅原实际末门接受后捕获新CP，不转移旧响应/几何/误差结果。尚无实际M、父、recipe、run或接受；owned/deadline/90KB/quiet/新几何来源由R464接，本文无清理或新科学门。
