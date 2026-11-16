@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：7a037e78d59215ff11969fe31a6fdb2c03b22dc5；2026-11-16 00:13:55 UTC核两README无变。实际CI pull 2026-11-15 23:51:29 UTC/9cf90ef5b006ff756939b6d883f8edc2365af57a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:35 UTC再实际pull。
+- 最近已读规则提交：aa2f1d05470df29f8e4546ccc990b99432a56a44；2026-11-16 00:14:57 UTC核两README无变。实际CI pull 2026-11-15 23:51:29 UTC/9cf90ef5b006ff756939b6d883f8edc2365af57a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-15 23:28:50 UTC仍无环境。最迟2026-11-16 00:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -25,7 +25,7 @@ R832真Chow分解Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)，全轨道/BFH/KL/CM自扭�
 
 R838原完整critical块A_p=E[t]/t^e、exact=mM，t=Tℓ*取良好惰性ℓ*；dν=a1(t^(e−1)Pcrit Hν)读cohom商，三端点共用非零P_f,p,ℓ*，不预设e2。附录A保两项消元给Hν=4θ⁻¹g_j^[p](g_k−πVg_k)(Q⁴)，AJ=(E1β/Eβ)P dν；E1β=1−π⁻²，Eβ=(1+barπ/π²)(1+π⁻¹)²(1+barπ⁻¹)。全部4/X1/old尺度保；因子非零不预认单位，Pcrit随p读全尾，指定dν非零/R814比例仍开。
 
-R838附录B付完整变权局部R=E[[τ]]、τ=Tℓ*、x=uτ^e，a1双对偶保原full fiber。真实CM Hida输入Hν,x的泛纤维系数Cν=bν/w′，bν(0)=u(0)dν，故lim eτ^(e−1)Cν=dν；AJ准确等于原(E1β/Eβ)P乘此主极项。未假noble、e2或普通第一支，不预认三CM全族/原canonical比例。
+R838附录B付完整变权R=E[[τ]]、τ=Tℓ*、x=w=uτ^e，faithful a1双对偶保原full fiber；实际Hida输入Cν=bν/w′，lim eτ^(e−1)Cν=dν，原AJ=(E1β/Eβ)P乘此主极项。附录C付原R:τ_an↦τ_an+1/3及全Igusa层、E0整packet零、自扭τ↦−τ；e=2s_p、u/bν偶，实际输入反扭故Cν奇，余项O(τ²)。真实商v=τ²保Cbarν=2τCν及lim s_p v^(s_p−1)Cbarν=dν。未假noble/e2/第一支CM或ordinary；读数非零与canonical比例仍开。
 
 
 ## 四中央与三真长窗

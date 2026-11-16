@@ -889,3 +889,207 @@ Proposition7.2 的 universal q-expansion 与 §7.1.2、Definition7.14：
   [作者全文](https://web.math.ucsb.edu/~castella/Schoen-cm.pdf)
   §3.4.1、式(3.16)（PDF第24页）核对；其算术角色式中的
   geometric Artin 规范与本篇原 $\beta_k$ 的 avatar 同步运输。
+
+
+## 附录 C. 原三阶平移、完整自扭与主极项的奇性
+
+本附录不把第一条临界分支改成 CM 家族。它使用原层级上
+一个实际三阶自同构，控制附录 B 的完整 Hecke 分支。所有三个原 $(j,k)$、$Q^4$ 退化、Euler
+及 $\mathscr P_{f,p,\ell_*}$ 均保持。
+
+### C.1 原层级上的三阶自同构
+
+令 $L$ 为 $N=10404$ 或 $M=2601$，均满足 $9\mid L$，并置
+$$
+r=\begin{pmatrix}1&1/3\\0&1\end{pmatrix},
+\qquad \mathcal R_L:\tau_{\rm an}\longmapsto\tau_{\rm an}+1/3.
+\tag{C1}
+$$
+此处 $\tau_{\rm an}$ 是上半平面变量，区别于附录 B 的
+Hecke 参数 $\tau=T_{\ell_*}$。
+
+若 $\gamma=\left(\begin{smallmatrix}A&B\\C&D\end{smallmatrix}\right)
+\in\Gamma_0(L)$，则
+$$
+r\gamma r^{-1}=
+\begin{pmatrix}
+ A+C/3 & B+(D-A)/3-C/9\\
+ C & D-C/3
+\end{pmatrix}.
+\tag{C2}
+$$
+因 $9\mid C$ 且 $AD\equiv1\bmod3$，有 $D\equiv A\bmod3$；
+故右侧仍在 $\Gamma_0(L)$。用 $r^{-1}$ 同理，得到正规化，
+而 $r^3\in\Gamma_0(L)$。因此 (C1) 是原 $X_0(L)$ 上的
+三阶自同构，固定 cusp $\infty$，在原参数中作用为
+$$
+\mathcal R_L^*Q=\omega Q.
+\tag{C3}
+$$
+该自同构定义于 $K$：有理矩阵的 modular correspondence
+先在一个有限数域上定义，(C3) 及 q-expansion 原理使所有
+固定 $\omega$ 的共轭相同。
+
+同样的 (C2) 正规化
+$\Gamma_0(L)\cap\Gamma_1(p^a)$ 对每个 $a\ge1$：
+新的两个对角元模 $p^a$ 与原来相同，且 $3$ 是 $p$ 单位。
+它因而兼容原 $p$-Igusa 塔及所有 $p$-diamond 角色。
+将 $r$ 写为整数矩阵
+$\left(\begin{smallmatrix}3&1\\0&3\end{smallmatrix}\right)$，
+对应是度数素于 $p$ 的实际同源；保持 ordinary locus 和
+足够小的共同过收敛邻域。其权 sheaf 作用按 (C3) 正规化，
+故在所有实际权上没有额外 scalar。
+这给完整过收敛族上的连续算子 $R$，其 q 展开为
+$$
+R\left(\sum_n a_nQ^n\right)=\sum_n\omega^n a_nQ^n,
+\qquad R^3=1.
+\tag{C4}
+$$
+这里工作于原 tame nebentypus 为1的部分；从 $X_1$ 取该
+diamond 部分与返回 $X_1$ 的次数规范仍是 R831 的原规范。
+
+### C.2 自扭在完整 Hecke packet 上确为对合
+
+置
+$$
+\chi=\chi_{-3},\qquad \delta=\omega-\omega^2,\qquad
+\mathcal T=\frac{R-R^2}{\delta},\qquad
+E_0=\frac{1+R+R^2}{3}.
+\tag{C5}
+$$
+于是 $\mathcal T$ 的 q 系数恰乘 $\chi(n)$，
+$E_0$ 恰取 $3\mid n$ 的系数，且
+$$
+\mathcal T^2=1-E_0.
+\tag{C6}
+$$
+特别，不能在任意 level-$N$ 空间上先把 $\mathcal T^2$
+写成1；下面支付原 packet 的这一点。
+
+$E_0$ 与所有原 good Hecke operators 及 $U_p$ 交换。
+在本篇 fixed-weight 完整 packet 中，其唯一共同 eigenline
+为 $Ef_\beta$，且 $E_0f_\beta=0$。
+如果 $E_0\mathcal M_p\ne0$，这个非零 Hecke 稳定直和因子
+在局部 Artin Hecke 代数下必含一个共同 eigenvector；
+它只能属于 $Ef_\beta$，与 $E_0$ 在该线上为零矛盾。
+故 $E_0\mathcal M_p=0$。变权完整 finite projective
+packet 中 $E_0$ 仍为幂等元；对其像用 Nakayama，
+遂有 $E_0\mathcal M_B=0$。因此
+$$
+\boxed{\mathcal T^2=1\quad\text{于原完整变权 packet}.}
+\tag{C7}
+$$
+
+逐 q 系数检查，对 $\ell\nmid3Np$，
+$$
+\mathcal T T_\ell=\chi(\ell)T_\ell\mathcal T,\qquad
+\mathcal T U_p=U_p\mathcal T,\qquad a_1(\mathcal T H)=a_1(H).
+\tag{C8}
+$$
+$p$ 在 $K$ 中 split，故 $\chi(p)=1$。
+(C8) 也说明 self-twist 固定原中心 Hecke 点：
+split $\ell$ 的原特征不变，inert $\ell$ 的原特征为0。
+故缩小为 twist 稳定的邻域后，它保完整局部 packet，
+并与原完整 packet projector 相容。
+没有把第一分支的任意其它点称作 CM 点。
+
+在附录 B 的实际 Hecke 环 $R=E[[\tau]]$ 上，
+自扭诱导一个固定权环 $B$ 的 involution $\iota$。
+这里的算子作用与完整 q-duality 准确相容：对任意 $a\in R$、
+$H\in\mathcal M_B$，由 (C8) 与 $a_1\mathcal T=a_1$，
+有
+$$
+(\mathcal T H)(a)=a_1(a\mathcal T H)
+=a_1(\mathcal T\iota(a)H)=H(\iota(a)).
+$$
+因此它在 q-dual 模块上的作用就是 Hecke 环 involution 的对偶，
+不是另外选择的 module scalar。
+
+由于 $\ell_*$ 是原 good inert prime，
+$$
+\boxed{\iota(\tau)=-\tau,\qquad w(-\tau)=w(\tau).}
+\tag{C9}
+$$
+结合 $w(\tau)=u(\tau)\tau^e$，得到
+$$
+\boxed{e=2s_p\text{ 为偶数},\qquad u(-\tau)=u(\tau).}
+\tag{C10}
+$$
+整数 $s_p=e/2$ 保其实际值，未认 $s_p=1$ 或 $p\nmid s_p$。
+
+### C.3 原三份输入的奇系数与无遗漏主极项
+
+附录 B 的实际输入
+$4\mathcal G_j(Q)\mathbf h_{k,x}(Q^4)$
+在所有权上只含 $n\equiv2\bmod3$ 的 q 项：
+两个原 CM 整理想级数分别只含 $1\bmod3$；
+$\theta^{-1}$、$p$-depletion、$V_p$ 及 $Q\mapsto Q^4$
+均保该支撑，因为 $p\equiv4\equiv1\bmod3$。
+同一结论也逐项适用于正文原 $\Xi$ 的两项；
+第二项并未因此消失。
+
+经完整 packet projector 后，准确有
+$$
+\mathcal T H_\nu(x)=-H_\nu(x),\qquad \nu=4,10,16.
+\tag{C11}
+$$
+泛纤维上的 normalized eigenform 满足
+$\mathcal T f_\tau=f_{-\tau}$，其中 scalar 由
+$a_1(f_\tau)=a_1(f_{-\tau})=1$ 和 (C8) 固定。
+比较同一 (B6) 的两个分量，得到
+$$
+\boxed{\mathscr C_\nu(-\tau)=-\mathscr C_\nu(\tau).}
+\tag{C12}
+$$
+因 $w'$ 为奇函数，(B10) 又给
+$$
+b_\nu(-\tau)=b_\nu(\tau).
+\tag{C13}
+$$
+所以 (B12) 可精确加强为
+$$
+\boxed{
+e\tau^{e-1}\mathscr C_\nu(\tau)
+=d_\nu+O(\tau^2).
+}
+\tag{C14}
+$$
+若 $d_\nu=0$，可能的 pole order 至少下降2；
+$e=2$ 时整个 $\mathscr C_\nu$ 为在原点取零的奇 holomorphic germ。
+这不证明 $d_\nu=0$ 或 $d_\nu\ne0$。
+
+还可在真实自扭商上保留全部倍率。
+令 $v=\tau^2$，写
+$$
+R^+=E[[v]],\qquad x=\overline w(v)=\overline u(v)v^{s_p},
+\qquad b_\nu(\tau)=\overline b_\nu(v).
+$$
+反不变的原 q-dual functional $H_\nu$ 杀 $R^+$。
+定义其实际 quotient functional
+$\overline H_\nu(a)=H_\nu(\tau a)$，$a\in R^+$。
+将 (B9) 的根按 $\{\tau,-\tau\}$ 配对，得
+$$
+\overline H_\nu(a)
+=\operatorname{Res}_{R^+/B}(a\,\overline b_\nu),\qquad
+\overline{\mathscr C}_\nu(v)
+=\frac{\overline b_\nu(v)}{\overline w'(v)}
+=2\tau\mathscr C_\nu(\tau).
+\tag{C15}
+$$
+于是
+$$
+\boxed{
+\lim_{v\to0}s_pv^{s_p-1}\overline{\mathscr C}_\nu(v)=d_\nu.
+}
+\tag{C16}
+$$
+(C15) 的 $2$ 来自同一双根配对；不是另行定义一个不相关
+ordinary p-adic L-function。$R^+$ 是原第一分支的 self-twist
+商，仍未声称它是 CM Hida 分支。
+将 (C14) 或 (C16) 代回 (B13)，原全部 Euler 和 period
+不变，仍只读取同一个 $Z_{02,\nu}$。
+
+本附录的群同余与局部环计算均为上述符号证明；
+没有新增数值运行。它付清原来源的对称性与实际主极项约束，
+没有增加原中央零，也没有支付 $Z_{02,\nu}$ 与 R814
+canonical 类的非零比例。

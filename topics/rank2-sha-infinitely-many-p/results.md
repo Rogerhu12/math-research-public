@@ -293,3 +293,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [原四Cartier输出的精确极阶与固定覆盖边界](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：§13–16付指定Z_M、G_M、P2,M在D_M的真极阶p、p²−p−1、p³−p²+p+1；原Cν的最高系数准确由D^(nν−1)Rν/(nν−1)!给，至少3M²−3nν+7个点有极阶nν(p²−p+1)−1。四个n互异，非零常数组合保真极；保同物理微分的固定tame覆盖、固定输出frame及exact消元不能实现固定全纯Hasse–Witt块。明确不包含任意输入gauge，不从全球非零推出O处原四α不能同零；原CM13全frame与第五伙伴继续。
+
+
+[R838 原自扭与实际主极项奇性](results/R838-original-critical-hecke-reader-and-three-endpoint-periods.md)：附录C在9整除原N/M的真实三阶平移上，逐付正规化/全p-Igusa层、q权归一；E0取3倍指标，唯一eigenline及Nakayama给完整packet E0=0，故χ−3扭为真对合。原τ=Tℓ*变−τ、权不变，迫e=2s_p且u偶；原两CM输入之积只含2模3项，a1双对偶保Cν奇、bν偶和eτ^(e−1)Cν=dν+O(τ²)。真实自扭商v=τ²的系数为2τCν，主读数倍率全保；不将第一分支认成CM/ordinary，也不推出dν非零或原canonical比例。

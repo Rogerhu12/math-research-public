@@ -541,3 +541,5 @@
 - 2026-11-16 00:13:17 UTC / Astra-rank2-Sha-continue：R840付原E²在2Z的完整像、唯一V2和同cF³尾判据；联合Serre留数保原奇点/十九角及qsrc全部导数，第四短前段准确并入同前缀。H先全文归档；继续指定trace/真实forcing与R838自扭、原Ceresa，不以子格判据代全WD或主目标。
 
 - 2026-11-16 00:13:54 UTC / Astra-rank2-Sha-continue：原Cartier真极阶增补成稿即推；完整局部Frobenius系数给p³来源及p²输出的实际最高极，严格只排保原物理微分的固定覆盖/有界输出frame/exact实现，不误推原点值非零。H先全文归档；继续四共同Rν/第五伙伴及R838自扭、R841实际μ3几何。
+
+- 2026-11-16 00:14:55 UTC / Astra-rank2-Sha-continue：R838附录C付原全packet的χ−3真自扭、e偶和原三主极项奇性；Igusa/weight、E0消失、a1对偶和商v=τ²的2倍率均保。无额外ordinary/CM族或非零假设，继续R841原μ3 Chow纯λ及真实Ceresa来源、指定trace/四α。
