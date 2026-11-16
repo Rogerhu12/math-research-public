@@ -112,3 +112,5 @@
 - [R542 完整短快族的第二总矩负号和恢复时长门](results/R542-complete-second-matrix-sign-and-duration-gates-for-the-fast-ruling-family.md)：**已证明**R540整个O(L⁷)短快族保真实前缀后，原t1及固定中心t1^c总值仍<−t0/16，任意有限脉冲幅度/步数不能清零。给完整高度能量与二次最小时长必要门；仅排该策略，真实同χ慢轨道仍待。
 
 - [R541 稳定非零Gram支的真实有限k与正总矩](results/R541-finite-curvature-and-positive-total-matrix-entry-on-one-stable-gram-branch.md)：**已证明**同R521母从零history一次选大Gram，完整非零支快慢能量和强准备给真实有限高路径/慢尾，k>2且总中心t1^c>0。总p1^c仍正、p2负，规范与R539不同，不授M0或拼接；常高尾实际scalar微变，完整A/T保留。
+
+- [R543 稳定叶的严格正总矩与准确离叶记忆](results/R543-stable-large-gram-leaf-positive-matrix-density-and-exact-transverse-memory.md)：**已证明**任意非恒稳定叶高度往返仍总p1>0，固定有限TV路径的真实Oδ²跟踪保号；准确ρ′给重新落叶的负号门。合法有限几何目标兼容p1<0/t1^c>0，但真实进入与驻留尚未支付，不授同χ桥或M0。

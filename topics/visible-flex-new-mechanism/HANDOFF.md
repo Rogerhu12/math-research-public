@@ -26,7 +26,7 @@ prefix102两job实际pull已读：public64a042ff15bca536eff736ccfbe35d8408c357a2
 
 旧ring17/反射R1/联合19/free36全部闭账，均0actual；原值/返回/成本保各notes。最新[free36](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)虽原SLSQP0/true环合格，全bodyη6.9794/κ69803.9失败；72.22285305100002秒闭至2974.589423877/147。只复用确存字段，不重旧frame/Π/optimizer。
 
-[**最新prefix102闭账**](notes/true58-prefix102-fixed-suffix-metric-failure-zero-solver-20261116.md) run43891282963/research133382836465/report133384250992/source30136a383796ea3a255c00e10e482c358b4e822b。固定s≥.765后缀η粗.5451750803995812/细.5451744553138167>预算.26600531463999305；κ约50.65482<58、PSD/area真。原102在此二jets零，必要门关闭此数值纤维，**0solver/J/candidate/actual，仍58**，不授定向连续不可行。新**72.51349122599999秒**，总**3047.102915103秒/147原full值**；另明记1新两网准备point，余额527.486508774关闭/0overrun。MODEL42929879B/SHA64d1fdd63d339b102d0ce73f92e1f042110bc2fbe11ce95a92ec59d443663921保全scalar输入及后缀T/metric/二jets/曲率/PSD；全域派生大数组/J未存或未算。下一同原R0/盒改变R1/R2，共同修复整个后缀后再接前缀；新字段另付，不重旧范围。
+[prefix102闭账](notes/true58-prefix102-fixed-suffix-metric-failure-zero-solver-20261116.md)：run43891282963/research133382836465，固定s≥.765 η约.54517>预算.26600531463999305，原102二jets零，0solver/J/candidate/actual，非连续不可行。新72.51349122599999秒/1两网准备point/0原full值，闭至3047.102915103秒/147。原MODEL保完整scalar及后缀T/metric/二jets/曲率/PSD，未保全域派生数组/J；run/source/全部bytes/hash见原note。下一必须改变后缀真实自由量，不重该纤维。
 
 ## 4. 当前理论支线与不可混用的前提
 
@@ -41,6 +41,8 @@ prefix102两job实际pull已读：public64a042ff15bca536eff736ccfbe35d8408c357a2
 **R534/535/537/538/539为同R521母的实际延续。** 原一次大Gram的真零history前缀虽有负密度，总p1仍正δ⁷；固定d支负增量δ¹⁰不足。R537以完整慢j/T̃重写和修改能量付任意先固定合法有限高度全路径，R538以C⁴/真开放入段强准备付d/δ²→D_h、j/δ²→J_h及总p1/δ⁴→∫(2D_h²−h²J_hD_h)。D_h由完整A/T产生，不是自由控制。R539从起点另选有限ν2/配套ν0后整路只一χδ，真实loader/完整端根给D_e=h1²J_e/4；保T_e的常高canonical尾有有界b1/b2，先有限尾长后ε再δ使实际总p1负，同尾唯一停止时刻清单矩。t1仍严格负，未M0/其余返回门。有限路径定理不预支δ相关大时长/高度，不把canonical常态当实际K0常态。
 
 **R541**同R521母从零history另选一次大Gram，稳定非零叶q(h)的完整快慢能量/真强准备付e/e′=Oδ²；先有限高h1/尾长后δ，实际到k>2且总t1^c>0。尾k/ω微变平衡A/T，非原常态；总p1>0/p2<0，未M0，不能拼R539另一χ。
+
+**R543**稳定叶W′>0，任意非恒高度往返仍总p1正；先固定有限T/TV的实际Oδ²跟踪保号。真离叶ρ′=−2(d−q)h′/h³，重新落叶负号门已付；同窗口负p1/正t1^c有限几何目标尚欠真实入口/驻留，不能作已成桥。
 
 R512/515/517的YC字面同形库和所有R469–509旧尾/period/13条件各保原范围，不跨母拼用。后继继续同χ剩余总矩/驻留返回。
 

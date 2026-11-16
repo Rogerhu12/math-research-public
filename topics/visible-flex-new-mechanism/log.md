@@ -233,3 +233,7 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 ## 2026-11-16 15:57 UTC：R541稳定非零支的真实大k与净正总矩
 
 [R541](results/R541-finite-curvature-and-positive-total-matrix-entry-on-one-stable-gram-branch.md)从真零history一次选大Gram，完整q(h)稳定支、无快加速度第三重写及真f/f′零准备给e/e′=Oδ²；先有限高h1/尾长后δ，原K0全段到k>2并净总中心t1^c>0。root全文纸核并明示固定y坐标读出以免混raw t1；全A/T保，p1正/p2负，未同规范配平，无科学执行。whole-suffix研究/报告已结束，原后端9/false/120iter无合格向量，0预测/actual；新184.71003744799998秒，祖3231.8129525510003秒147值，完整原输出正整理，仍58。
+
+## 2026-11-16 16:13 UTC：R543稳定叶障碍与真实离叶接口
+
+[R543](results/R543-stable-large-gram-leaf-positive-matrix-density-and-exact-transverse-memory.md)完整纸证稳定叶u′<0/W′>0及任意非恒高度往返的总p1严格正，并把R541全历史Oδ²跟踪用于固定有限T/TV路径。准确ρ′记录真正离叶的唯一水平记忆入口；同窗口有限目标可兼容负p1和正t1^c，但实际桥/保持仍待。无科学执行，继续完整快回路与同规范进入。R541已推4ddcafb14dfd75b78937a1a229c52e5e79c974a9，最新实际pull双README空diff；数值仍58，已结束whole34的原输出可用范围/费用随后单独闭账。
