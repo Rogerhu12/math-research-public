@@ -486,3 +486,5 @@
 - **R150两cubic完整首连接rank1与全局下界284（2026-11-16）：** [完整15头/原全高低证明](results/R150-appendix-complete-critical-first-connection-and-local-lengths.md)实付S rank86、G7 modS独立、完整170×9残余rank8，故β3=1；十四头各346528原乘回。F±谱(3,4或5)/局部长7…8，K164Ω给284≤Δ≤298、μ≤14/μh*≤37、barμ|F+F−E8；B14×两cubic全21系数复核。另付[13 formal-free头及单条nonfree正延准则](results/R150-appendix-critical-formal-free-heads-and-single-nonfree-prolongation.md)，未预称下一正延或E8结果。
 
 - **R150三域原完整谱及剩余乘子封口（2026-11-16）：** [完整原证明](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)实付F±(3,5)、E8(2,3)。两cubic真Q1/非自由head各30940乘回，E8只读原完整pack再验259896乘回；其旧exit1确为回执大小门，不改失败历史。K178Ω恰degree298达到独立全局上界，monΔ=monK178·Ω、严格Σ0外μ=1。九目标及归一rank-one的原来源推论随后逐原范围展开，非rank-one/普通ISP仍开。
+
+- **R150原E8-1完整第一系数像零（2026-11-16）：** [原全源证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)用两完整泛函运输全4367输出，核39996 prebasis、74256 p²原leaf、69407428 GB reducers/832889136分量进位及RU=V全22008坐标，全部1834原多项式零源像0。它覆盖该10维primary双块(2,3)，无正源故reverse分支为空；只凭此排一阶系数贡献，未排高层或推Q。其余四实际同为0，完整后继另记。
