@@ -400,3 +400,8 @@
 - R914五件完整执行源已全文核读激活：corec7dded45/wrappera6a26387，仅143新准确RHS，原三列/选行及273阶P0直接复用；完整560行/C²和原P1参数/三项t帧逐项保留。
 - 六数学组469原件由四真实载体运输，原标签不变；执行method只统一公式显示与完成时态，不改数学。rank8/Norm/rigidification/height未成；R787实际run43897255536已进入compute，未重复派发。
 - 本push规则：公开Actions真实pull至d716114d6cdc71e253f42317b7d6c587e733bf90（2026-11-16T15:36:40.818264+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:43 Asia/Taipei — serre-public-astra-20261115
+- R905实际七源认证：run43893738459/f4589d2b，87stage/48.831394438s；七完整272图、670源/544主部/真543及全回代，全部分歧/幂零/交点保留。
+- 原QN先校正再Gal7、Qj负χ幂一次、真cY给五原I_Z表达式；原P0/P1帧和κν保留，不冒canonical/Hecke/period/nonp/height。H逐字归档；R914实际43898224893 success，输出正读接R917。
+- 本push规则：公开Actions真实pull至701ae6f96a69869ac17f42ba6223ece787d9afb3（2026-11-16T15:43:43.651011+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
