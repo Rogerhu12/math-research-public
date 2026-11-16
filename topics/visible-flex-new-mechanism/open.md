@@ -213,3 +213,10 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)新增一次固定的紧母v和有限秩二阶规范，原三合法矩/完整Y–third由同形复制消去；同一第三Gram保整个平方后，完整K0等价于关于(v,ν*)的一个线性全路径函数方程。原canonical/history与真实传入矩阵保，严格正定速度二次Gram不变，有限真实泛函像不授满秩。
 
 最右非零微包前的真gap使常scalar开区段上E(qc,qc)>0，canonical能量有严格正t²项，而固定二/三规范只能给至多一次项。因此本同形第一圆任何含正长度常态bulk的真实词严格失败；原R70词不能靠这类规范修复。这不排其它圆或非恒长程词，也不授全M0/period；下一项用同一函数方程和原矩阵ODE构造真正非恒的完整连接，全部端germ/height/frame/位置/3/4/13成本原样支付。
+
+
+## 2026-11-16 12:17 UTC：真正58整圈17原盒问题提交
+
+[完整设计](notes/true58-complete-ring17-original-box-design-20261116.md)以真实58 CACHE2恢复同点U/T/e/f，重新支付原两网完整峰环二阶几何与十七共同列。实际G/全Π/a_ss和R2全域延拓保，目标K=1000/61；浮点不变列sqrt(B²+C²)若超界即0solver，不授准确连续不可行。否则原172盒内一次18变量min-h LP≤60秒，不沿用旧1/128为可行门，完整raw18/dual/slack先保存。
+
+统一新600秒含输入/导入/模型/失败/输出，0当前58 ordinary/J重放；至多一舍入候选做全body非线性metric/curvature预测，通过原下降与曲率资格才1actualpair/2值。原精确嵌入与实际binary64分开，原14门未通过不记59。所有源/request/workflow现提交，尚无运行结果。若纯R2被阻断，接原R0/R1改变实际值/一阶jet；不重开已闭原任务或把局部环当README全门。

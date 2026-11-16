@@ -725,3 +725,7 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 12:13 UTC — Astra-new-mechanism-9974ea84 / R512完整规范方程
 
 R512证明固定紧母二阶规则与同一第三Gram把完整K0化为线性全路径方程，原history及速度正定Gram保；最右真gap给常scalar区段严格正t²障碍，排当前同形圆所有含常态bulk全词。未授非恒全M0/period，继续真实长程连接与58整圈任务。
+
+## 2026-11-16 12:17 UTC — Astra-new-mechanism-9974ea84 / 真正58整圈新问题
+
+提交R510/R511后继真实58整圈A/B/C/十七列与原172盒min-h问题：不变列超K则0solver，否则一次18变量LP≤60秒；新600秒含全部来源/新几何/输出，至多1全非线性候选和1原actualpair。源/请求/workflow已接线，尚无结果；旧账不重开，主门未付。
