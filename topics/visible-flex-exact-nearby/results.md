@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WRA：完整反射入射误差及真实腰行差](results/R133-supplement-complete-reflected-incoming-error-and-physical-waist-row-defect.md)（ffe98b2256041bdc4a49d85146ddc48afb301e2c，26647B，SHA256 40fb2167aa27c9f9e07bfcaea89c6f5d20059cc724eb7ba4930e02b16dd27889）。唯一selected δ*、p=0、fullU、Xfr两符号的完整Ei^fr按同一SWA整界已付，六标签逐map核清；不扩为fullcircle/source。实际腰行使左TJ/UH费用邻接取消，QR/B各contractive，新E∂W保全部AW/PC/ST4/fullsource/3070jump/cut/waistFT；真实paired leading的域/值域与有用整row界仍待。固定ν线性坐标与ν依赖chart的dν分别保。0新算，旧球/旧false flags不改。
+
 - [WPR：实际反射双端口与精确腰部匹配行](results/R133-supplement-physical-reflection-pair-and-exact-waist-matching-row.md)（707b8269e454cab738fe70d84097087a0cf5c74026916a2f8bdc151435eca9cb）：从raw物理反射、完整primitive+两mean和有序TJ严格推出f−=(R−2Π)f+及selected KH完整meanrank；给raw h1、其primitive与mean的真正腰行，输出原even-mean0空间，端点反射图不授positive graph/onto。非零〈c〉经精确IC双rank/±n检验排除Ti/To和isolated Cayley在Xfr上的同空间限制逆；旧fullcircle逆保，完整A另须全strong前提。未授完整边界square/Schur/ν/非线性。
 
 - [NIFA：固定反射输入坐标与稳定逆的完整实际证明](results/R133-supplement-actual-uniform-frozen-selected-input-coordinates-and-stable-inverse-constants.md)（1b2c3b704282c0b42bfb2f941c3828a487ca1ed75ee45ce902d8d0be32d395a1）：原43795909913/1唯一成功，完整23新球（7主+16中间）、16原typed记录、四scope/accepted与operator identity完整保。32字段/16门/15progress、8texts/2AST、12steps/两preGit/childstdout均核；事件9948与actual checkoutbc20分列。正确Xfr=S*D+Hnat两窗Cs逆约1.5936238e13与2.2522836e40；旧数学0重算，真实双port/range/fullincoming/finite/非线性未授。

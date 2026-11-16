@@ -63,7 +63,7 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠physicalmeans。SQ97S^-1/右Z97、rootFF≤1215/固定FT/density/mean/cross finite；radialhead及传播积分仍可无限。actualcolumns/dual/square/独立ports/无限费/finiteinverse未付，六register与旧SJ/CG/WE保。
 
-须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。
+[WRA完整同列与物理腰行](results/R133-supplement-complete-reflected-incoming-error-and-physical-waist-row-defect.md)40fb2167已在唯一$\delta_*$、$p=0$、full-density、真正$X_{-4/3}^{\rm fr}\to L^2_{\rm full}$证明完整$E_i^{\rm fr}$，整界原字复用SWA；不等于fullcircle/独立source误差。因$T_i$不保$X^{\rm fr}$，该界不能直接代普通Fourier $\chi=K_0C_i\Lambda_J^{-4/3}$而称物理逆。下一门为真正paired leading $L_{\partial,W}^{\rm phys}=\mathcal BQ_RY_{W,J}$及完整相关row $E_{\partial,W}^{\rm phys}=\mathcal BQ_R(Y_A-Y_{W,J})$，在原even meanzero目标证明leading domain/range与整row界，再按正确square做Neumann/Schur；原fullcircle路线须另证square兼容。
 
 [WY](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135/[WE](results/R133-supplement-current-input-audit-for-complete-waist-strong-errors.md)49616d85：
 $C_*=C_{PC}+C_{ST,4}+C_{SF}$，SJ已含cut不能再加。左序同Js逆→Jσ→真U_X−σ逆，右$\Lambda_\sigma^{-1}T_F^{-1}\mathcal S^{-1}$。state左角恰约消到H逆，费用$A_{\rm state}=B_{H,0}K_{W,0}K_\Lambda K_{F,-}K_{\mathcal S^{-1},-}$；CG完整coeff费用原字加一次。两ε同一完整bound不用√2，若合两σ须实际pair规则。
@@ -71,7 +71,7 @@ $C_{\rm paid}=A_{\rm state}C_*+C_{\rm coeff}$只覆盖已付部分。root/head/o
 
 UTA d23b71f8原43776528869/1/22锁，fullT/3070jump/双mean/两端新SF≈2.772751688e92、paid≈1.63981109e99、CG一次；完整原式与scope保[四段原索引](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)。六retained/独立mean/head/ports/无限sign、全Ei/Eo/incoming/finite/return未付，upper非lower。
 
-SWA803afd6a原43781399696/1/24锁；W/DW/Q含T1F2/两mean/3070jump/cut+新waist全付，wholepaid≈4.17526394e90、CG一次。完整pins/球/SCI/preGit/同trial规则保四段原索引；Q upper非lower，原rightsign/两窗/独立ports/六retained/fullEi/incoming/finite/return未付，成功禁重。
+SWA803afd6a原43781399696/1/24锁；W/DW/Q含T1F2/两mean/3070jump/cut+新waist全付，wholepaid≈4.17526394e90、CG一次。完整pins/球/SCI/preGit/同trial规则保四段原索引；Q upper非lower，原rightsign/两窗/独立ports保；旧回执fullEi=false不改，新WRA只核selected同列Ei，fullcircle/source/actualsquare/incoming/finite/return未付，成功禁重。
 
 [DX4四阶角导数](results/R133-supplement-complete-fourth-angle-derivatives-from-saved-cut-and-flow-bounds.md)6b493e37以FA fullstrip3/128、旧TC/WX完整lower jets及AC真H逆证明完整cut/flow/waist/ψ三四导；不从remainder求导，旧ray/KAM不重。全部新scalar已由DZA成功支付。
 

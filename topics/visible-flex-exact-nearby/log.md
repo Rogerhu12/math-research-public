@@ -104,3 +104,9 @@ Root全读白名单，独立取九小primary全文核bytes/SHA；原strict/scale
 ## 2026-11-16 03:33:16 UTC — 已成索引压缩与定时真实pull尝试
 
 实际CLI `git pull --rebase origin main` 于03:31:44返回 `No usable execution environment is available`；只读公开main b16923509deae4d293a0ffe4c9c0e71b89081976，根/题README仍21bd547f/7e2b93d6，空diff，非真pull成功。下一尝试≤04:31:44。把该头H及open8逐字存 `notes/2026-11-16-0331-completed-state-and-cleanup-checkpoint.md` 后仅缩已成索引；全部旧球、域、恢复、失败与未付门不变，0数学/0重算。发布前再读头3b3360dc75cc7aede027a70414dc659428090523两README并保远端。
+
+## 2026-11-16 03:34:30 UTC — WRA 完整同列误差与新物理腰row
+
+root全文独审26647B/40fb2167aa27c9f9e07bfcaea89c6f5d20059cc724eb7ba4930e02b16dd27889，Newton原稿70c0aad3，两peer tail回SW/CG/PC-IN/AW/FC/NIF核1–5、phase核21–31/完整backward Duhamel。只加固定线性ν坐标与RNS dν一句。Ei^fr完整性的全部state/系数/两个IC rank/finite/two-I/waist projection各一次；domain只δ*/p0/fullU/Xfr，旧SWA原球/SCI fullEi=false不改。新真实row BQR(YA−YW,J)保完整source、3070impulse、cut、waistFT及AW PC+ST4，旧Cstar仅安全coarse upper；不授Ti在Xfr自保、ordinaryFourierχ或physical onto。
+
+open原直接先Ti^-1再χ指令按实际域窄修为paired leading及true row gate；所有独立head/mean/source/exterior/amplitude/ν保留。上一索引提交86756fa3曾nonFF，已立即真CLI pull --rebase，仍无executor，fresh main/两README复核并保远端第二次成功，禁force。此结论独推，read 36c646d1ce6ab635765903ab018236efed9676a0；无科学重算。
