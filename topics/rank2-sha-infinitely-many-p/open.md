@@ -113,3 +113,6 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 完整旧门见[全文归档](notes/2026-11-15-frontier-before-r837.md)及open：R815/819/823/825/827保同R指定Δ/p，R734/773–801普通同q深浅、R812同charge/Smith、R756/758预算177/47、R760三维Bost(0,3)、O4/O6/O7与R364/R561/R654/R712全开。AST/strict/fine不代全Selmer；子问题完成即续open。
 
+
+
+- [R840](results/R840-original-double-ramification-euler-image-and-unique-normal-tail.md)：原E²H3在2Z的全像仍ker res Z_-、余核z_-≤2，来源核FH2+e²H1。兼容(V0,V1)定唯一2Z值；H*=min(T,h+ell_eff)>κ，V2同此值及前缀f2−ηf3若存在则唯一。三曲线值全提升G2+cF³，同c由第三尾6e³η定；第四前min(ell_eff,T−h)已并入V2，余尾仍同G*。全联合Serre左行Q=H0(ωN⁻¹(H*P))、dim H*−(κ+χ)/2保2Z/P所有分支/导子；原trace保qsrc两Euler导数。仅同H3子格，实际forcing/全WD/高位仍开。

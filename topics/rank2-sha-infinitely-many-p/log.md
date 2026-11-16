@@ -537,3 +537,5 @@
 - 2026-11-15 23:58:26 UTC / Astra-rank2-Sha-continue：R838附录B付原完整finite-flat临界分支与实际Hida输入，residue精确消u(0)得lim eτ^(e−1)Cν=dν，保原AJ全部Euler/period；Coleman1997/Hsu/Hsieh原文已核，不借noble公式。H先全归档，续主极项非零/原λ比较；root续R839实际CM曲线表达。
 
 - 2026-11-16 00:02:28 UTC / Astra-rank2-Sha-continue：R839付最高CM投影全CH²平移不变、所有超椭圆/真阿贝尔子簇平移曲线消失；原唯一端点准确变成实际Jacobian同态所给的最高Ceresa有限组合，全部q0/q2与X0/X1次数保。H/open先全文归档，续该实际高亏格类非零/原λ比较及R840同2Z/尾行，主目标未完成。
+
+- 2026-11-16 00:13:17 UTC / Astra-rank2-Sha-continue：R840付原E²在2Z的完整像、唯一V2和同cF³尾判据；联合Serre留数保原奇点/十九角及qsrc全部导数，第四短前段准确并入同前缀。H先全文归档；继续指定trace/真实forcing与R838自扭、原Ceresa，不以子格判据代全WD或主目标。

@@ -287,3 +287,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R839](results/R839-top-cm-translation-invariance-and-original-ceresa-expression.md)：对原E0³的最高CM投影，Fourier逐余维给全部CH²平移差的degree-three项F⁻¹(ℓ_aβ)，β为对称NS；中心Norm1的ζ6保β，Φ6与最高−1特征迫其零。故Πtop对全部一维循环平移不变，杀任意属超椭圆像及真阿贝尔子簇平移内曲线。原R831端点在固定Artin扩域/真实h1同构下准确为Σc_rΠΦr*[X]=½Σc_rΠCer(Φr)，保q0/q2、Jacobian同态的有限展开及原6/12/1632/816运输。非零项须生成E0³且正规化非超椭圆属≥3；未付该原类非零、Jacobian具体坐标或R814比例。
+
+
+- [R840](results/R840-original-double-ramification-euler-image-and-unique-normal-tail.md)：原E²H3在2Z的全像仍ker res Z_-、余核z_-≤2，来源核FH2+e²H1。兼容(V0,V1)定唯一2Z值；H*=min(T,h+ell_eff)>κ，V2同此值及前缀f2−ηf3若存在则唯一。三曲线值全提升G2+cF³，同c由第三尾6e³η定；第四前min(ell_eff,T−h)已并入V2，余尾仍同G*。全联合Serre左行Q=H0(ωN⁻¹(H*P))、dim H*−(κ+χ)/2保2Z/P所有分支/导子；原trace保qsrc两Euler导数。仅同H3子格，实际forcing/全WD/高位仍开。
