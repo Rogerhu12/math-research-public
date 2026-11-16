@@ -177,3 +177,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:39:46 UTC /root — R524完整Request224入口与真实发布派发
 
 [R524](results/R524-actual-input-support-complete-original-full112-composition.md)/[接口](notes/2026-11-16-request224-actual-input-support-full112-interface.md)七件250653/topic208007B：原211168全保、150public＋31gen=181、45literal真十链，R523实际T支撑/14计数/完整last与absent-null保。原全112/226×224/mean/H/J/FD/fullDN/18000/quiet/90K70不改，已删211接受不迁；新根workflow visible-larger-public-six-control-input-support-contracted-trace-r273.yml 为该正式计算，当前YAML语法路径与dispatch明确。此条真实pull/rebase发布并单POST派发，R525/amplitude唯一；官方run/source随后绑定，H/open压缩全文留bd4a历史、§4–6逐字保。
+
+## 2026-11-16 10:43:39 UTC /root — R530完整对应核与224正式run绑定
+
+[R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)三件63226B完整刊：原BoundImages/fullledger/真帽点、双向全部候选/重复/交叉边/完整frontier保；首未分离叶只未证，18literal沿原R520真实Binding/OwnedTree/clock/quiet，生成46134/3d6f只Actions、两层90K70，无新run/γ。224已498c普通推＋唯一dispatch200，run43851068999/actualsource23176ac6/compute133243448382，官方两头整topic a9b53a80/.github5a1fa9e3同字，amplitude唯一终态；[正式绑定](notes/2026-11-16-request224-official-run-binding.md)保差异来源与未读科学范围。容量官方198090813B，继续原完整求解与R527/529/531/532。

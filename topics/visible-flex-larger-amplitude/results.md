@@ -365,3 +365,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R524 — Request224完整原112输入支撑优化入口
 
 **已证明来源组合与条件算术；正式实际结果预留R525。** [R524](results/R524-actual-input-support-complete-original-full112-composition.md)/[接口](notes/2026-11-16-request224-actual-input-support-full112-interface.md)完整七件250653B（topic208007B）：gen23213/7b83、plan36611/9a18、recipe21539/0c9f、request88551/6aa2、workflow42646/599f、proof16432/b9fb、接口21661/9904。原211168source逐字保，150public＋21历史/10当前gen=181；45literal计划不复制81398旧计划或展开31源，真实loader/factory/十链与当前YAML/PYPINS均接实际224。R523只按当次T实际非零地址省有限零乘项，保全部226×224/mean/原j序/非零下溢，非法输入原fallback；全部14计数、完整last/absent-null、原R466/471/当前R273/错误后缀保。原四输入/六词λ=.001/完整H/J/FD/fullDN/18000/quiet/单90K70不改，R475已删接受点不迁。七件发布后公开Actions真实单POSTdispatch并另记官方run/head，不由源生成、语法或job色预判速度/成功。
+
+## R530 — 完整双向对应内核与原OwnedTree真实调用
+
+**已证明程序条件与来源；未选γ或运行。** [R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)三件63226B：kernel29146/d73e、plan10974/bae5、完整证明接口23106/52e3。直接用R520原三族BoundImages/fullposition账/真帽点，所有双向候选允许重复，全部交叉边逐前缀支付；失败边退役完整后缀，当前半边/未分离叶及完整frontier真实保。仅全退役才给γ，首未分离叶返回未证2，不冒全等或全局L*。18literal生成caller46134/3d6f仅Actions，原R520 Binding/OwnedTree/PID/session/deadline/quiet正文保；startup与BVP真实deadline分绑、原32GiB与18900+2700不改。两层90K/70不保证都fit，不删raw/造cleanup；没有新request。同步登记[224官方run绑定](notes/2026-11-16-request224-official-run-binding.md)：498c发布、单POST200，实际23176直接子提交整topic/.github同字，R525/amplitude唯一。
