@@ -1,55 +1,42 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 16:51:39 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 16:57:40 UTC。**未达完成标准，持续研究，不等用户。**
 
-## 授权、规则、读取点与前页
+## 规则、读点与完整前页
 
-只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
-根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。旧无executor阶段依根规8仅小UTF8 connector；16:00后CLI恢复，现回正常git。禁本机科学执行。H≤10KB，open≤30KB。
-checkout原路径/workspace/scratch/0df957a82d09/math-research-public，partial/sparse，无AGENTS。最近真pull --rebase于2026-11-16 16:28:30 UTC→03e22a5816cfa9efee39a6adadc594cf35c69db9，两README差异空；下一真pull≤17:28:30。共享盘满后仅把本会话workspace/cache移至独立/tmp并保原路径symlink，写入/git clean核通过；16:31环境再变unavailable，16:33真CLI pull尝试返回No usable execution environment，按根规8暂仅UTF8<100KB集成，API ref核不冒真pull。
-最近只读README核：d3a3dbe54ba288c59e42a34fb1e0835f3f977bb7；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
-旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
+只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只证明、文字、JSON/AST/hash/元数据。root管main/H/open/results/log，代理只交小blob。每结论独推，禁force；非FF立即实际git pull --rebase后保远端循环。PAT仅用户原话所给临时CLI/env，不写文件/输出/connector。根规12不新增审批门；根规15不存新数组/data/证书/artifact/Release，旧成功禁止重算。每新consumer预/立即启动计全publication+并行pending+120000B≤200MB；实际完成/失败仅按全部实际输出≤200MB保存，不另虚设postreserve。
+原partial/sparse checkout=/workspace/scratch/0df957a82d09/math-research-public，无AGENTS。16:28:30 UTC真pull --rebase→03e22a5816cfa9efee39a6adadc594cf35c69db9，两README无diff，下一真pull≤17:28:30。磁盘满仅移本会话workspace/cache至独立/tmp并保原路径symlink，写入/Git核曾通过；16:31环境再次unavailable，后各publication前及ref失败后真CLI pull均明确No usable execution environment。根规8暂仅UTF8<100KB集成；ref读取不冒真pull。环境恢复即回CLI。
+最近只读README核：672bd1c2f280fe6683d8f51295b899f192ac5e9f；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
+[截至W2C collar模块刊出的完整旧H](https://github.com/Rogerhu12/math-research-public/blob/9dfc7348e31a4467d392000fa83ba69f19e514be/topics/visible-flex-exact-nearby/HANDOFF.md)9797B/Git0bc65097c8dc614166e4f1d152228ae1b62a748b/SHA f323ccb5f1d763ce62a36bd366881b3762f42bb4546f93139b0b92cac22f8a9c，保全部递归前页、旧球/域/单位/mean/失败lost/每次cleanup精确恢复和未付门。本页只更新索引，未删数学义务。open原完整条件继续有效；H≤10000B/open≤30000B/每MD<100000B。
 
-## 同一对象和真正完成标准
+## 同一对象与总验收
 
-candidate ac1d5b98、Qrepair440866a3、Zdef6a71cb81/native87ed2f61；完整64位身份在原proof。α=6890507429876859/9007199254740992，ν0=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904。Qδ仍近似。
-须同η0真wholecore含cap C0≤1e−4、|δν|≤1e−5、全B/C/Cmean/腰u0/physical第四Robin/mean/phase和γ低高域。geometry43584188751/26仅条件成立后给held>.05075888242D、reach≥800D/25039、Hdiam≥360D/511及marker145..148。
-最终同一连通闭C²嵌入、C²连续fixedmetric族，材料H有内点逐点固定、diamH≥.2D、held≥.05D、含反射δE>0、reach≥.03D、四不同非共面静态marker；purephase仅刚体。P9a5bcb14须全matching后一次冻结ν*/Γ*/η/metric，禁变ν做族IFT。**总验收未达。**
+candidate ac1d5b98、Qrepair440866a3、Zdef6a71cb81/native87ed2f61；全64位身份见前页/proof。α=6890507429876859/9007199254740992，ν0=−2572625729470897/72057594037927936，η0=−7789843107295549/4611686018427387904。
+最终须同一连通闭C²嵌入及C²连续fixedmetric族，材料H有内点逐点固定、diamH≥.2D、held≥.05D、含反射δE>0、reach≥.03D、四不同非共面静态marker。purephase仅刚体；P9a5bcb14必须全部matching后一次冻结ν*/Γ*/η/metric，禁变ν做族IFT。
+geometry43584188751/26仅条件结论：同η0真wholecore含cap C0≤1e−4、|δν|≤1e−5及全B/C/Cmean/腰u0/第四Robin/mean/phase/γ域成立后，held>.05075888242D、reach≥800D/25039、Hdiam≥360D/511和marker145..148。当前core/全频逆/匹配未闭，**总验收未达**。
 
-## 完整core与剩余入口
+## 已成正侧与下一条新目标
 
-全部未付门、已成组件的条件及原球/域/旧fail逐字保open第2、4–7节和6cb41ee10eb925de47fbcf5bf6a70bbd61b36b8f同H；本节只索引，义务不减。
-PF/CT/IC的finite/双χ/fullcircle与独立source Ei/Eo、真实square及原mean Schur待；selected同列Ei仅WRA范围已闭。CYA只四rootscalar gap/loss256；GH全s strong χ=128CsΛJ^-1/3、PD真实DF/νSchur/四Robin/腰/D² tame与smoothing未闭。
-Green/F/CPA/NF/WA/WL/AR/CH/SR/VR/RF/RH/SA/SC全部三窗/五输入/两mean/原96与384/α和√2一次/非零affine/height/高频域及unknown fees保open4；νvolume非全ν，已知有限residual非wholecore。SCA完整affine已付，unknown body仍主导。
-NG仍须385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12，同态两侧H1/fullmean/真residual0/wholewide C0；RC仅右collar，J288不删225..288、MA窄高域独立。
-S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash参数；连续非C1/H0Lip/core。真qν−Z负窗≤.005待；旧q*−Z<4.572198020300e−6但q*非PDE响应。最后须全边界/背景/δ/高频闭合和同一frame/matching。
+WIC527fc35e同原m160真tailκ3、N24480，完整reference/rho2/193mean/97root+96outer/7ports/两rhs保。WPNdc553f11：同e+3dt<1可给全系统双边逆/两rhs误差/指定root-even I96；实际小门未得。
+WPS60/43878765372全60与6prefix，充分门约635240.55 false；WVC56/43891414339全56与5prefix，原门11066.29746 false；两者完整SCI/exec/旧scope按前页和各actual proof锁定。finitefalse不推奇异。
+[WCTRA](results/R133-supplement-actual-clipped-scalar-trace-candidate-and-false-finite-gate.md)21516c27/97748/a3d329be：43901776543/1已全成，96changed、36新+20copy、六图五独立prefix、24门、45current/19history/16AST；45SCI/44exec。SCI b123f0ec/86577/2524a110，exec51c9089f/39658/d5b4b857；三件126671B全存，192Kpending已解。E0≈1116.04013、D≈892.64078、T≈4.05548293、e+3dt≈11976.30849充分门false/finite0；非奇异。全matrixρ2^-1/两rate/S/τ/193mean/7ports/两rhs/κ3/旧WPS与WVC资格保，old0/lost0；这36禁止重算。
 
-## 完整旧状态与当前任务
+W2H72bef388/W2C09ada380/WJK5b9a257a是当前新路线，始终固定原WVC的实际算子和Df/Gf，不转WCTR。V=Vb+ψ(JB+JAJB)，W=Wb+ψ(−JC*+JA*JC*)；true J*上限R，collar residual二阶、全部transition/Δ/真dual H1保。WJK完整共同Gf下F=P+Q*−Q*LcP，body两χ′只在joint centre精确消，actual residual不删；五collar项/两Green三角/mean/atoms/ports全部保。须同(r,s)合完整signed核再abs，不能old171加正项冒小界。
+[W2CI](notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json)389e6c6a/45161/8258111d已封原WVC29整球4653B/f1ec45f0、原19历史资格与两新增native恢复。新增native为原germ7851B/397f9b42和rootbudget30595B/10ff6db8，均ae319f7544b3c94b5dbcb5290557ed04b66641eb。native仅未来公共CI完整验；zero_packet不是实际collar。
+[collar math合同](notes/2026-11-16-R133-true-collar-signed-packet-interface.json)02a6522b/21336/62d86a42与source fb065375/35870/891702f1已推9dfc7348：完整piece2549 cubic+65signed offsets/13 intrinsic/193误差、原实际η两optical records、三wordΔ/完整mean/转置adjoint/body域。224漂移896、center288/full416保；Decimal只诊断，原端点字符串不变。纯式/字段核已成，未运行科学或AST。
+完整consumer尚未可launch：7新roles为science、readonly_admission、readonly_core、collar_math、kernel_math、assembly_math、reference_math，另worker。原15定义AST+新7=22科学admission AST，另worker1=23，最终按实际完整roles派生；21恢复=原完整19 wrapper原字+新增2，不改旧scope/count。50无条件新目标、充分门真另2尚未算。原T等同算子整球copy，旧EHigh不可移；现无本会话在跑scientific child。
+代理当前小blob草稿须取回后接完：Phase readonly_core57ea6c58/67075/4b0c5758；Tail signed kernel f739f276/35750/92d2028c、assembly33c54074/14800/d2700b65仍补完整domain/误差腿；Newton固定WVC reference d38e283f/22165/7d6bb7f9及合同c9caa335/9730/6d3d1316。这些尚非完整执行manifest，不宣称新数值。root接owner/manifest/worker/完整失败prefix与容量；各代理继续接线，不等用户。
 
-[截至WCTR首轮运行/CLI恢复的原H全文](notes/2026-11-16-WCTR-first-run-before-actual-audit-handoff.md)逐字保9755B，Git3fc15336644b82cde21f4d71523e2ef18355feac/SHA 85605e43f28cb079b77fd91957a610f5a36c1fc9f42f41b9352ada05a64b1c52，源8a5973574577ea3d162585dfa36ceef9f71a217f。全部旧H递归链接、每批cleanup exact恢复/原球/域/状态/失败lost/未付门和已成禁重继续有效；这里只索引。
+## 腰与全部未付接口
 
-WIC527fc35e解析m160真tailκ3已成，δ<80553/128000<2/3，N24480/4724833维；完整reference/193mean/7port/两rhs/rho2修正保原proof。WPNdc553f11已证同WPS门e+3dt<1⇒全系统双边Neumann逆/两残差界/指定root-even I96。WPS首次实际门false；其他readout/负head/ν/Θ/matching不消。
+[WEXA](results/R133-supplement-actual-exact-waist-flux-and-complete-endpoint-reception.md)ef8324a0/77999/de1dc669，43896937318/1全31新+62原记录/18context；各整whole/reduced约3.790258283e255仍非小。原WSMF约2.095886e302保，W4M只比WRPA，所有全mean/四端/3070/真96/7ports/两rhs与false域保前页/各proof；已成禁重。
+WDH06cad487仅selected homogeneous高块：同WSMF whole/9原界/真实P97，J=2^4608给χ<2^-44、逆<2。finite补J−1、Θ96/physical96列/两mean/ν/无限head与all-s tame仍待，非全物理逆。
+PF/CT/IC的finite/双χ/fullcircle/独立EiEo/true square/mean Schur，GH全s强图与真实DF/νSchur/四Robin/腰/D² tame/smoothing全部未闭；CYA只四root scalar/loss256。全部Green/F/CPA/NF/WA/WL/AR/CH/SR/VR/RF/RH/SA/SC原三窗/五输入/两mean/96与384/α和√2一次/非零affine/height/高频费保open4。SCA完整affine已付，unknown body仍主导；νvolume不等全ν。
+NG仍要385cL+min(145ZS+748ZL,489ZS+10ZL)≤9.5e−12，same两侧H1/fullmean/true residual0/wholeC0。RC只右collar，J288不删225..288，MA窄高域独立。真qν−Z负窗≤.005待；旧q*−Z<4.572198020300e−6而q*不是PDE响应。
+S/T仅原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856、seed2^-1700000000/T0=2^1500000；连续非C1/H0Lip/core。最后必须同一frame、全部背景/δ/边界/高频/非线性matching，再同对象几何；不得因本中间结果收尾。
 
-[完整已成positive/waist索引](notes/2026-11-16-completed-positive-and-waist-consumer-open-index.md)逐字保c3cf5c025c2ea0a556db9bce4f55a9bdbfd9d219原H五段/open九段及全部scope/SCI/exec/old0/lost0/旧失败。WPS43878765372完整60/22门，e+3dt≈635240.55充分门false/finite0、不推奇异；WSMA152、WRPA40、WSMF52、W4M30+T0copy全锁。WSMF whole/reduced≈2.095886e302，scattering≈5.01187e295主导；W4M仅比WRPA选new，不冒比WSMF。全两mean/四端/3070/真96/7ports/两rhs与有限、负head、ν/Θ、高/匹配余门保完整proof；已成禁重。
+## 容量、恢复与执行续点
 
-WML247/WMC47仅纯计划未算；完整mean-flux、scalar c、投影费、全forcing/两mean/端点与3070范围见原H全文及open，WSMF52禁重。mean已非主导，继续scattering/second-order；禁减旧upper。
-
-## 执行与继续
-
-fresh Git-tree核当前容量；每新consumer预/立即启动均计全publication+120KB≤200MB，并计并行未发表最大输出。实际成功或失败的全部输出按实际≤200MB保存。旧输入仅immutable history原字临时恢复，禁重跑producer；失败先保存并记录全部已成prefix与未保存/未算边界。source/manifest独推后workflow单独触发，consumed marker锁已成目标。
-
-WPS60是完整false，全部6图60record/6prefix全存，lost0。下一正侧需新的完整候选，保现60只读；不能由finitefalse推奇异。WRP40首次run43881690924/1已完整成功，锁40旧目标，WSMF只读接该完整provider。随后继续open：负head/ν/两mean/Θ/高门→背景/非线性matching→同对象几何。每条结论独推，真正完成前持续，不等用户。
-
-WVCA17df3c0c/WVC43891414339/1完整56新+5prefix冻结，原60WPS/6prefix/所有字段资格保。原充分门11066.29746 false/finite0、非奇异；全mean/7ports/两rhs/真96/四块κ3和完整SCI/exec/pins见原H全文与actual proof，old0/lost0。
-
-WDH06cad487已证selected homogeneous高块：同WSMF whole及9完整原界，经全WBP/WIT、原transported P97，精确J=2^4608给χ<2^-44、逆<2。新球0/旧重算0；有限补J−1及Θ96/真96列/两physicalmean/ν/无限head仍待，非全物理逆、非all-s tame。见完整WDH proof，旧false不改。
-
-[WCTRA完整实际](results/R133-supplement-actual-clipped-scalar-trace-candidate-and-false-finite-gate.md)21516c27/97748B/a3d329be已成：43901776543/1，96changed、36新+20原copy/六图/五独立prefix、24门/45current/19history/16AST；旧完整范围与4pull原记录全保。SCI b123f0ec/86577/2524a110、exec51c9089f/39658/d5b4b857；126671B已全存、192Kpending已解。E0≈1116.04013、D≈892.64078、T≈4.05548293、e+3dt≈11976.30849充分门false/finite0、非奇异；WVC原11066false不改。原20球、WPS60/WVC56及全matrixρ2/两rate/S/τ/193mean/7ports/两rhs/κ3保，old0/lost0；36新已锁。W2C仍固定原WVC参考。
-
-WEX31/WEXA de1dc669完整43896937318/1已冻结：31新+62原记录/18全context，whole/reduced各整候选约3.790258283e255仍非小门。四端/physicalmean/负域/Cs/WT及SCI/exec完整资格见原H全文与actual proof，old0/lost0；finite/head/ν/Θ/全matching未闭。
-
-W2H72bef388双侧恒等式及W2C09ada380完整collar-Volterra纯证已推：固定WVC实际/参考，V=Vb+ψ(JB+JAJB)、W=Wb+ψ(−JC*+JA*JC*)，collar余项均二阶；全transition/ΔA/B/C/signed-centre/true dual H1和mean/ports/两rhs保。有限band H1_0经compact-core进入真实GH图；角224/残差416非径160。新50(+2)未算，旧T等同算子整球可copy、旧EHigh不可移。完整W2CI389e6c6a/45161B/8258111d已封：两native精确恢复、原19history、29同算子原球4653B/f1ec45f0根独核；piece2549/65 signed offsets/13 intrinsic complex/193 family upper全合同，实际η不换。collar源fb065375/35870/891702f1及接口02a6522b/21336/62d86a42已刊：全signed/三wordΔ/真mean/adjoint/body，224漂移896；仅Decimal诊断兼容，无科学/AST执行，native仅CI。reference/5图/readonly/owner继续；WVC/WEX/WCTR全锁。
-
-[九旧execution恢复](notes/2026-11-16-nine-old-execution-wrappers-history-recovery.md)保存9完整原件identity/总体scope/参数/门/false，restore e689aa98060c7062549c9af62eca66e9355ccc8e；普通删除476973B派生wrapper，原小结论/native/source/current79依赖不动。完整原球和其余资格只从原字恢复，禁重算；新科学0/lost0。open的WVCA/WEXA两完成段逐字移至notes索引，全部未付门保。
-
-[WJK联合核](results/R133-supplement-joint-centre-Green-kernel-and-complete-collar-cross-terms.md)72c3c33c/14025B/5b9a257a已证：同Gf下F=P+Q*−Q*LcP，body两χ′精确抵消，五collar交叉及真J*上限R全保。此消去不用于actual residual；全两Green三角/真实图/角224→288→416/mean/atoms/7ports保持。新上界0，正进行同(r,s)合核后取绝对值的W2C source；旧false/目标锁不变。
+9旧execution包装普通清理8bf3909f，原476973B的完整身份/scope/门/false在notes/2026-11-16-nine-old-execution-wrappers-history-recovery.md，restore e689aa98，整页96868B/f509f395。全部更早cleanup及旧失败/lost边界完整保前页。
+本次仅删旧run43307149760 block0_20的21个已成JSON叶1319999B，原manifest/执行/失败父盒仍在；[恢复索引](notes/2026-11-16-core-uniform-flow-block0-20-derived-leaves-history-recovery.md)列全path/Git/bytes/SHA和原域。restore9dfc7348；old科学0，原件lost0，不把旧m4局部流当m32/真193全逆。
+当前总量以本次publication receipt/log及后续fresh Git-tree元数据核为准。新consumer source/完整manifest先独推，再单独workflow触发一次并锁consumed marker；失败先完整保存已成prefix与未存/未算边界，禁止盲重。总验收前持续open下一项，不停在阶段报告。
