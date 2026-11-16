@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 11:29:09 UTC root委托本公开仓库Actions run43858143600真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9d4348a0b8ac340114a4511f2e2fa6ba1686baa2。
+规则同步记录：2026-11-16 11:32:10 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e5af240e3f596c8b26201950e0c66141b73977fe。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull；每pull核双README，变则仅读差异照新规并记读commit。原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功，禁止force。部分克隆blob:none/sparse；07:19终端失联后委托本公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -25,7 +25,7 @@
 
 221/R509、223/R513及旧207–220终态已刊，旧科学日志不重取；217唯一reader继续全必要scope/真实失败/清理分责，root不重复。实际source/run优先于内部祖先号。
 
-root R535局部cache本次完整刊，继续R536/request226原完整live128链、R537实际；amplitude R531完整withJ并行source→R538/227/R539；exact R533已刊→R540/228/R541；geometry R532两库已刊→R534完整实际同DN链→R542/229/R543。**226–229仅协调预留，当前未注册/派发。** exact完成R540后续R544连续C真实source guard修复→R545/230/R546，230同样仅预留；不因此改原运行/门。
+root R535局部cache本次完整刊，继续R536/request226原完整live128链、R537实际；amplitude R531完整withJ并行source→R538/227/R539；exact R533已刊→R540/228本次完整入口/R541唯一实际读者；geometry R532两库已刊→R534完整实际同DN链→R542/229/R543。**228/R540本次真实入口即刊并安排单次官方dispatch；run/head待官方回执，绝不预填。226/227/229仍仅预留。** exact完成R540后续R544连续C真实source guard修复→R545/230/R546，230同样仅预留；不因此改原运行/门。
 
 ## 完整历史与恢复边界
 
@@ -51,7 +51,7 @@ root R535局部cache本次完整刊，继续R536/request226原完整live128链�
 
 R529完整模型/重新anchor责任及R532三件已5c851；真实同次128/tol/replay→一次全577×224投影→同DN全576×226×224/port/双mean。原128值/末门仍权威，FD不证DD。R534尚接真owner-first、全部lift/新boundary/assembly/source与同步cell owned hard-stop，无新科学结果；细节全保正文/固定历史。
 
-R533已90624三件65743B，接口c1a4含11→10勘误。两完整RMS/两index-set/17节点/五files/真pair/query/闭名单列精确逆还原全部既选语义；whole含header严格缩小才采用，无未知113011 fit保证。R540真接原两调用点/闭包/namespace/双合法格式与原八组门。
+R533已90624三件65743B，接口c1a4含11→10勘误；全部既选语义精确可逆、whole含header严格缩小才采用，未知113011不保证fit。**R540/228本次七件169296B/topic147317B**：114public+6gen=120保原116，当前helper75760/bb02与worker29708/ea2d真调用R533及overflow具名大小；原八39/freshFD/10500/175/195min/90K70保。正常/recovery共用真实compose，f793无输入schema guard、旧223-format只格式，body真228。cleanup仅补真实comp入sys.path；原owner/quiet不改，R541 exact唯一终态。workflow外题改动见本题log。
 
 **R535本次五件56753B**：header7102/6706、adapter10892/1c99、plan10232/f3b7、proof17788/5643、接口10739/c98d。仅同root固定momentum/pt/P/Pt与同evaluation U系数，完整有限词/j序/角点/fallback保；18计数/last真打印，无速度或资源前沿承诺。实际HERE新primal25230/3e1c、trace34950/2e12，原CPP7789/main/replay/caps不改，旧frozen旗false、实际compiler区别准备。R536仍须实际caller安装与完整必要reader，无执行/接受实证。
 

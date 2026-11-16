@@ -417,3 +417,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R505 同形母库的完整单能量ruling与非secant局部路径](results/R505-complete-same-mother-ruling-and-real-nonsecant-local-paths.md)：**已证明**完整历史/尾消去、同一χ的明确正规入口、真实受约束ODE与保自身端germs/有限数据的局部纤维；参考secant速度退化仍保，桥/共同period/主门未付。
 
 - [R507 同一完整ruling下真实非secant标量返回](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)：**已证明**同母/w/χ的速度SPD椭圆与有限正时h/k/ω准确返回，k非恒且K全段零；原t1严格负成本、frame/位置/端germs与全period仍保未付。
+
+
+- [R508 非零原二阶规范打开参考正割出口与双号矩阵端口](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)：**已证明**同一新母/B/w/χ保完整参考正割并使速度非退化，真实左germ离开、终k/ω复位且m_p2任意小双号；其余七矩/高度/frame/位置/全period仍保真实成本，不冒纯p2或主有限等距族。

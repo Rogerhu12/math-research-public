@@ -203,3 +203,17 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 11:24 UTC：新的完整五门有限证书问题
 
 [完整五门有理积分证书设计](notes/complete-cap5-integral-positive-certificate-design-20261116.md)保五条80H³Δ密度、C、85 tail-safe端势及全部Af余项；九真不等式和全H闭域固定一次LP，参数Bernstein/空间单项次数不暗改。有理化后所有负余系数用原积分统一界扣，唯一通过门E_min>D_A+D_Q；未运行/未有证书。失败只闭该有限形式，不解释为全类有解/无解，不重开旧atom搜索。
+
+
+## 2026-11-16 11:34 UTC：R508已付真实参考出口与双号矩阵端口
+
+[R508](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)从起点取同形母与合法B=P−cR_y，保完整primitive求得β=0，从而同一χ准确付全参考secant。固定有限高三阶/低二阶母使∂γE真非零；紧内支撑k_s由原左germ进入完整K0的非secant段。三条原端点权Wronskian=(1−v²)/4>0，IFT付终k=0/ω=ω0及原m_p2任意小双号；其余七矩、高度/frame/位置/全3/4与period成本原样保。不是旧母/13收据，也非纯p2或M0。
+
+下一项是同一实际受约束路径中其余矩阵端点及全部几何端口的联调；参考桥的这一特定入口现已支付，完整词、固定g有限等距族及README全门仍欠，继续工作。
+
+
+## 2026-11-16 11:34 UTC：完整cap5唯一有理证书任务已提交
+
+[新入口与范围](notes/complete-cap5-integral-certificate-single-new-scope-20261116.md)固定原五密度/C尾/85端势/九生成元；新600秒、唯一LP≤180秒/后留180秒exact judge。所有负余系数按真实积分界扣，唯一成功门仍精确E_min>D_A+D_Q；所有源与请求/工作流已发布并触发公开Actions，尚无科学结果。旧atom账不重开，失败不推全类结论。
+
+

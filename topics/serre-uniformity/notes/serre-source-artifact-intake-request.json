@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-completed-Artin-and-twelve-inputs-and-exact-Mg",
+  "request_id": "20261116-completed-six-original-conjugate-Dstar-required-inputs",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "9ed93794bd39da91bb3aaccba19ea194cff9d13f",
+  "rules_last_read_commit": "0d975953cb57104a4f3cedd0c594f11ee689ada4",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,91 +12,80 @@
   "reader_sha256": "d9960e9e9539740b9a4597bb5454b111782c5920f75a7d75b83ee786054dfa9b",
   "sources": [
     {
-      "label": "R885-Artin-complete",
+      "label": "R880-sixD-complete",
       "source": {
-        "result": "R885-original-whole-Artin-reference-norms",
-        "run_id": "43848870181",
-        "source_commit": "a22acdb019714f55bf182feb958425f8954da2ca",
-        "core_sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
-        "artifact_id": 14218009053,
-        "artifact_name": "serre-global-R885-whole-Artin-reference-norms-43848870181-1",
-        "archive_bytes": 145477237,
-        "archive_sha256": "7a0e8785b1e68d4944d7b44c0f9d8ddaf425cc4debea127352e316bb885e769e",
-        "expected_conclusion": "success",
-        "manifest_sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035"
-      },
-      "mode": "named_original_members",
-      "names": [
-        "R885-Artin-node-00-complete-fibre-certificate.json.gz",
-        "R885-Artin-node-00-full-target-normal-equations.json.gz",
-        "R885-Artin-node-00-nine-reference-norms.json.gz",
-        "R885-Artin-node-00-target-normal-row-index.json.gz"
-      ],
-      "print_json_files": [
-        "R885-Artin-node-00-complete-fibre-certificate.json.gz",
-        "R885-Artin-node-00-full-target-normal-equations.json.gz",
-        "R885-Artin-node-00-target-normal-row-index.json.gz"
-      ],
-      "print_json_summary_files": [
-        "R885-Artin-node-00-nine-reference-norms.json.gz"
-      ]
-    },
-    {
-      "label": "R880-twelve-complete",
-      "source": {
-        "result": "R880-original-six-branch-A-B-normal-inputs",
-        "run_id": "43849775574",
-        "source_commit": "4a459acc8e430dbfe0ff232493c5ce1a9f493ced",
-        "core_sha256": "3094615c9d73d77119065bfa74321a5ab42ba8714fe6b09624725919e8b46d23",
-        "artifact_id": 14219900447,
-        "artifact_name": "serre-R880-six-branch-A-B-normal-inputs-43849775574-1",
-        "archive_bytes": 128117604,
-        "archive_sha256": "8e05d15a2a4008ac7091785653f94c062490205a53f444095bbfa5b35a7f91a4",
+        "result": "R880-original-six-conjugate-Dstar-RR-inputs",
+        "run_id": "43857317518",
+        "source_commit": "4478c31d1d601784fb636224adcf90e3fc0978ad",
+        "core_sha256": "5421c814130021587ac0a97b8fa336b04c5d0d4f784a96cbac4088591b86fb17",
+        "artifact_id": 14222091280,
+        "artifact_name": "serre-R880-six-conjugate-Dstar-RR-inputs-43857317518-1",
+        "archive_bytes": 889731055,
+        "archive_sha256": "0763bf87fda063082d2027199eb7b2d08a56e647d764444017e161735645e923",
         "expected_conclusion": "success"
       },
       "mode": "named_original_members",
       "names": [
-        "R880-six-branch-seven-original-Galois-normal-inputs.json.gz",
-        "R880-six-branch-all-twelve-S5-unit-solves-and-full1380-verification.json.gz",
-        "R880-six-branch-branch-01-original-normal-A-B-pair.json.gz",
-        "R880-six-branch-branch-02-original-normal-A-B-pair.json.gz",
-        "R880-six-branch-branch-03-original-normal-A-B-pair.json.gz",
-        "R880-six-branch-branch-04-original-normal-A-B-pair.json.gz",
-        "R880-six-branch-branch-05-original-normal-A-B-pair.json.gz",
-        "R880-six-branch-branch-06-original-normal-A-B-pair.json.gz"
+        "R880-six-Dstar-branch-01-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-01-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-01-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-01-original-R845-a-b-sections.json.gz",
+        "R880-six-Dstar-branch-01-original-v-section.json.gz",
+        "R880-six-Dstar-branch-02-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-02-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-02-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-02-original-R845-a-b-sections.json.gz",
+        "R880-six-Dstar-branch-02-original-v-section.json.gz",
+        "R880-six-Dstar-branch-03-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-03-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-03-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-03-original-R845-a-b-sections.json.gz",
+        "R880-six-Dstar-branch-03-original-v-section.json.gz",
+        "R880-six-Dstar-branch-04-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-04-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-04-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-04-original-R845-a-b-sections.json.gz",
+        "R880-six-Dstar-branch-04-original-v-section.json.gz",
+        "R880-six-Dstar-branch-05-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-05-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-05-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-05-original-R845-a-b-sections.json.gz",
+        "R880-six-Dstar-branch-05-original-v-section.json.gz",
+        "R880-six-Dstar-branch-06-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-06-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-06-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-06-original-R845-a-b-sections.json.gz",
+        "R880-six-Dstar-branch-06-original-v-section.json.gz",
+        "R880-six-Dstar-branch-01-Dstar-projected-original-V3-basis.json.gz",
+        "R880-six-Dstar-branch-02-Dstar-projected-original-V3-basis.json.gz",
+        "R880-six-Dstar-branch-03-Dstar-projected-original-V3-basis.json.gz",
+        "R880-six-Dstar-branch-04-Dstar-projected-original-V3-basis.json.gz",
+        "R880-six-Dstar-branch-05-Dstar-projected-original-V3-basis.json.gz",
+        "R880-six-Dstar-branch-06-Dstar-projected-original-V3-basis.json.gz",
+        "R880-six-Dstar-original-source-and-fixed-chart-audit.json.gz"
       ],
       "print_json_files": [
-        "R880-six-branch-seven-original-Galois-normal-inputs.json.gz",
-        "R880-six-branch-all-twelve-S5-unit-solves-and-full1380-verification.json.gz"
-      ]
-    },
-    {
-      "label": "R815-exact-g-index",
-      "source": {
-        "result": "R815-original-normal-derivation-operators",
-        "run_id": "43809724947",
-        "source_commit": "8adc90dfe2c6943ab3ba3eaf67a52682302026a3",
-        "core_sha256": "80516ff9598fdb6251628c00794dc3529b998a7c563fe80fd9c31406e3896c7d",
-        "artifact_id": 14216992068,
-        "artifact_name": "serre-global-R815-original-normal-derivation-operators-43809724947-1",
-        "archive_bytes": 4686023089,
-        "archive_sha256": "190f59de642538073aa61ae9e5e8d1488fd035741eadc4d17de92e391171d429",
-        "expected_conclusion": "failure",
-        "manifest_sha256": "18b1f497da468e22f016341cf140cc5e5b58917c49b3b11701a063ef4b08dd06"
-      },
-      "mode": "named_original_members",
-      "names": [
-        "R815-target-g-component-00-certified-multiplier-index.json.gz"
+        "R880-six-Dstar-branch-01-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-01-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-02-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-02-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-03-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-03-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-04-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-04-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-05-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-05-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-branch-06-complete-Dstar-input.json.gz",
+        "R880-six-Dstar-branch-06-original-Qtilde-principal-inputs.json.gz",
+        "R880-six-Dstar-original-source-and-fixed-chart-audit.json.gz"
       ],
-      "known_file_pins": [
-        {
-          "file": "R815-target-g-component-00-certified-multiplier-index.json.gz",
-          "bytes": 7469,
-          "sha256": "f27130f00ea3b2cd17284e531eb8f6145b37200c49e7002baf0b7cd053281033"
-        }
-      ],
-      "print_json_files": [
-        "R815-target-g-component-00-certified-multiplier-index.json.gz"
+      "print_json_summary_files": [
+        "R880-six-Dstar-branch-01-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-02-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-03-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-04-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-05-original-B-derivative-vectors.json.gz",
+        "R880-six-Dstar-branch-06-original-B-derivative-vectors.json.gz"
       ]
     }
   ]

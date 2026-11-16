@@ -296,3 +296,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 **R894原七常数域极除子trace有界聚合已证**：[完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)。原3Σ(Dj−H)+7T有明确18flip树，R890两固定节点真实完成可读时新16；Q_N=Q_orb F_N、ρ阶−8435与t正乘c^8435保原帧。末代表可只L定义，准确半线性下降(γQ_N/Q_N)γs及七重cocycle保原K线丛。不是曲线Hecke范数，不预填新418/五Lj/支持/height；原G/Γ各17×16来源计数勘误同时登记。
+
+
+**R895原全带收缩与未分歧源content已完整证明**：[结果](results/R895-original-all-band-theta-contraction-and-unramified-content.md)。真实非交换Θ递推给所有band，trace有限和化(1−xy)^L；Gauss只有最大整数次数差可入，保跨p修正的真实边界。C_h(S)/p整等价全部指定奇a的36维源系数为零，此时末带也零，故该未分歧源类上除p向量不能为整单位。原x⊗−xy系数明确，未判原R770标量为零；实际分歧quotient/Γ来源比较继续，不加有限素数窗口。
