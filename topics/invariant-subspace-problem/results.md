@@ -521,3 +521,5 @@
 - **R150原31最后两第四页探针新增像零（2026-11-16）：** [准确范围及实际记录](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)在完整315坐标/incoming15商中给rank0、合并rank15。原p7整数F3提升[31,1]保留，25→20→15→10→5、30stage与356730全G坐标实际完成；耗时219.281秒。两列零不决定唯一E≥6，完整210继续，未启用E6条件分母结论。
 
 - **R150真两原子非rank-one局部来源（2026-11-16）：** [完整原证明](results/R150-appendix-original-two-atom-nonrankone-linear-minor-and-local-source-certificate.md)实得17×11线性rank11、原全部11H行minor非零，独立T3 56×11亦rank11；D(M)M=adjC·F给source degree≤10及I_D=(M)。原参数ab(1−st)D上完整临界恰两原子H0/V0；保det，未扩fixedy全部或Cat3。原1326/1309系数、512 J3逆/242 minor逆全核，run43799163632实0.250秒。
+
+- **R150非rank-one两原子完整纤维（2026-11-16）：** [完整原来源证明](results/R150-appendix-original-two-atom-full-macaulay-rank4367-and-parameter-open-critical-ideal.md)在真y=e0+e5保全部6188源/4367正次数目标，原minor模127=55，故Q原理想恰(M)，每个m_j有乘子degree≤3的原17梯度来源。固定均值的所有M均覆盖；在有序两原子参数ab(1−st)D≠0上完整拉回理想为(M,Z)，D仅依参数，原第三矩/Bell均零。D=0、合流及Cat3未由本结论覆盖；本地48.971秒、全1309原运输及244990位面核真。

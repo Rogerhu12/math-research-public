@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 735fb73f241dadc8fb0f7350b7063b75ddb80368（2026-11-16 04:03:45 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0400-twoatom-local-source.json。
+- **最近成功实际 pull 与已读规则提交：** 609202907ac565b17e66f64be5d365369fb25a2f（2026-11-16 04:10:10 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0410-twoatom-full-rank.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地CLI已恢复：/workspace/scratch/789f3e887d7c/math-research-public；显式workdir，旧cwd丢失是此前失败原因。Actions bot push403，已用授权CLI实际推9e015799；凭据不落文件，API source不算push。
@@ -22,11 +22,11 @@
 
 ## 活跃执行、临时缓存与立即恢复
 
-- 旧run43756208221已结束；live43772109844约04:47结束，全部37步已成。旧127/三域/global197缓存仅临时，原30步定义及失败保前态，不假缓存跨job存活。后续数学均用冻结源码/完整SHA重建，repo只留脚本/参数/执行身份/输出SHA。
-- **[31两探针新增像零](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)：** run43798780106/job133073660023，219.281秒，raw26380·1ac76082；30stage/356730原G坐标及104/315/505全真。最后两源商0/合并15，E仍≥6。完整210现同源一次重建197→204→208→210；源ad18b974，新增currentK4已核，全部field零配方整数carry仍保。
-- **31本地全宽接续：** /tmp/literature_root2_789f/scripts与logs；work实存/workspace/scratch/789f3e887d7c/literature_root2_789f_work，避免tmpfs。6GiB/1800秒、75只续同binding。原14/extra认证恢复正在完成，六small/K4已成；E6七socle接口尚未启用。
-- **[非rank-one真局部来源](results/R150-appendix-original-two-atom-nonrankone-linear-minor-and-local-source-certificate.md)：** run43799163632/job133074883011实0.250秒，原17×11与T3 56×11均rank11；选原全部11H行，非零detC给I_D=(M)，源degree≤10，参数图ab(1−st)D非空。保det，不称全部截面。
-- 同一真模型的全6188→4367本地已实满rank4367，raw7454·190d134f、minor127=55，未依旧tmp；完整正式来源稿接续。实际/tmp/normal_nonrankone_789f/rank-actual，根已读原回执；不搬计算数组入Git。
+- [31两探针零](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)：run43798780106实219.281秒，raw26380·1ac76082；30stage/356730全G坐标及104/315/505全真。两源商0/合并15只限两列，E仍≥6。
+- **31全210真实运行：** 04:04:42 UTC本地启动，源ad18b974、binding712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093；完整197→204→208→210一次计算，25阶q1已成，原整数carry继续。原14/extra7/六small/K4全部逐SHA恢复；extra原1GiB Go失败保留，同源GOMAXPROCS2/GOMEMLIMIT256MiB复原成功。
+- 31脚本/log在/tmp/literature_root2_789f；work实存/workspace/scratch/789f3e887d7c/literature_root2_789f_work，6GiB/1800秒、75只续同binding。E6七socle条件接口尚不启用；旧job缓存不假跨期存活。
+- **[两原子整个纤维](results/R150-appendix-original-two-atom-full-macaulay-rank4367-and-parameter-open-critical-ideal.md)：** 原6188→4367真满秩、原minor127=55；Q原I=(M)，每个M有degree≤3原源。参数only D非零，ab(1−st)D开集完整I=(M,Z)，不再需M-dependent det。全原1309运输/244990位面真；本地48.971秒，raw7454·190d134f，bindingbdbe6a51。先前[局部11阶源](results/R150-appendix-original-two-atom-nonrankone-linear-minor-and-local-source-certificate.md)已真推bdf2d11；新full正式结论本次提交。
+- 同源/tmp/normal_nonrankone_789f保临时；D参数零集/合流及Cat3继续，全部计算数组不入Git。完整旧活跃态保[本次H归档](notes/2026-11-16-handoff-before-twoatom-full-rank-789f.md)。
 
 ## 原边界：同一个w与完整返回继续
 
@@ -41,4 +41,4 @@
 - **[完整物理终端门](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)：** 全强位/远primitive保留，C^(J+1)a0=0迫旧头≤K=R+J；真头方阵µ_K^-1≤e^(100K⁴)。对g⊥vac，整个K_(m,R,J)投影平方≤e^(200K⁴)(√S_(m+R)+R/(m+1)²)²||g||²，K⁴=o(logm)趋0。R>0仅嵌入总孔K，不能倒用上界，不排原M。
 - 剩余ordinary预算仍是同源合并负部≤c_m Q||F_mu||²且Σ1/c_m发散；无此界。原G_reg同forcing/carry、Haar普通循环性、正常有限秩链、非rank-one及open全部旧接口继续，不列不算关闭。
 
-- **[向下方差薄窗](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)：** 同D_m、固定c且Se^(−c/m)≤s≤S，完整逆差≤(e2c−1)(X−X²)+τI。保真实H(s²/S)/PV/PK，原F_s距同u平方≤(L²−L+1)Δ²+Lτ||g||²，L=e2c、τ=2e^(−770m4/256)；qcut≥d−1。固定k标量s=S_(m+k)可用，物理尾不换；固定比例下降/完整Schur/carry仍开。
+- **[向下方差薄窗](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)：** 同D/同u，Se^(−c/m)≤s≤S的完整inverse与物理H(s²/S)已付；固定比例下降、完整Schur/carry仍开。全常数/原式保本次H归档。

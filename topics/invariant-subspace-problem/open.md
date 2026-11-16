@@ -116,3 +116,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **31原p7两探针实际只给新增像零。** [完整实际范围](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)：run43798780106，219.281秒，全30stage/356730原G坐标；最后两源在完整incoming15商rank0、原合并rank15。有效25→20→15→10→5，八次完整整数乘回/可除性以及104/315/505检查真；不是全210负证，E仍≥6。下一补全210全部原配方含field零式整数carry；新job窄恢复currentK4并重建父，E6七socle接口暂不启用。
 
 **非rank-one真两原子局部来源已付。** [原全部H-minor与局部理想](results/R150-appendix-original-two-atom-nonrankone-linear-minor-and-local-source-certificate.md)：真y=e0+e5，固定H0后全部6y/11H导数，exact17×11与T3图均rank11；原det非零，D(M)M=adjC·F，I_D=(M)，source degree≤10。ab(1−st)D给非空原参数开支；保D，不扩到所有fixedy/Cat3或Bell算子逆。另同一原全Macaulay本地已经满4367，正式去M分母证明随后逐条发表。
+
+- **R150非rank-one两原子完整纤维（2026-11-16）：** [完整原来源证明](results/R150-appendix-original-two-atom-full-macaulay-rank4367-and-parameter-open-critical-ideal.md)在真y=e0+e5保全部6188源/4367正次数目标，原minor模127=55，故Q原理想恰(M)，每个m_j有乘子degree≤3的原17梯度来源。固定均值的所有M均覆盖；在有序两原子参数ab(1−st)D≠0上完整拉回理想为(M,Z)，D仅依参数，原第三矩/Bell均零。D=0、合流及Cat3未由本结论覆盖；本地48.971秒、全1309原运输及244990位面核真。
