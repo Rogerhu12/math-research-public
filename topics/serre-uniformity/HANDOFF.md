@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；按远端main接续，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f763b778f7fb85d30b4ce341a73054d93fe85dcd**（2026-11-16T10:13:21.851230+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-arithmetic.md)（9961B/2f4442fd），内接全部旧归档；全部边界继续生效。
+**已读规则提交：db844bc1a9567aa4525c2aa0975d4d910cbc7f4e**（2026-11-16T10:23:24.922716+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-arithmetic.md)（9961B/2f4442fd），内接全部旧归档；全部边界继续生效。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -50,7 +50,7 @@ R864/866/865全纯核/真T7及R870 N0/16ni/d*已完成，完整pins见归档与�
 
 **R880实际完成**：[认证](results/R880-certified-original-D-and-common-cusp-bounded-RR-inputs.md)7d5d4a52；43840391925/15.559026589s/28stage/944原件，两个完整418、原Qf及ρ^-1457首项566605368已成，a/v未缩放。artifact14212028755/5af19f69至Nov17 09:31；小IO43842697439/18件/b0442fa0/artifact14213722649至09:46。完整pins/原源/符号见认证及前态；C*已接真R887，12A/B继续。
 
-**R887真实完成**：[原证明](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)1ebbc0bf；core d469ef04/wrapper78a00876，43844745726/job133222108178/source85049eca，12.558248493s/20stage/388原件。U146/u252/新962与C*418/主函数ρ^-1205四flags真，原两块全部残差/投影已核。certc5fa30c7/configd325dc06，artifact14214842060/1f44a5ca至Nov17 10:00。最小完成源IO已激活，只读实际u252/首项/418pins后正式登记，t框架保持Lf ellC c^1205。
+**R887实际完成**：[认证](results/R887-certified-original-common-cusp-flip-and-bounded-RR-inputs.md)81bd4dd3；43844745726/12.558248493s/20stage，原388件直接用。完整146、原u252首项207667877、首试962及C*418/全1360关系已成，Qtilde的ρ阶−1205/首项267133051。artifact14214842060/1f44a5ca至Nov17 10:00；小IO43846120888/14件/67a2313e/artifact14214599213至10:08。原t帧再乘R883 c^1205，准确K-fixed不冒Q下降；六D*与五Lj仍缺。
 
 **R883实际完成**：[认证](results/R883-certified-original-t-first-order-frame.md)5f45a44e；43843430426/5stage/0.186012313s/28旧件，原c=354813668 modp753，准确导数DAG及c^254/1205/1457已保存。真B0单位、t0准确原证明、θ/82一次相消全核；辅助素点不冒41单位。artifact14214835037/3041116a至Nov17 09:51，原c^254/U272与Lf ellC c^1205不设1，完整Picard帧/height未成。
 
@@ -74,4 +74,4 @@ R878/R881原有限theta作用、唯一整lift、原Φ/e0/Weyl/det全部继承。
 
 原RF e2b87b99/SPa06a80ea/ZA268fa3fb/41S133d64af/41C569aa684、b/s/λ/ζ²一次、CRT6逆、246/82^10、P0P1/ν/theta二挠/完整Corr/nonp/splitting均继承。ordinary43/776bit Gaussian5排除；Shapiroθ同Σ/C4杯积R779已闭，不重。
 
-六b分支12A/B必要源intake已激活：R880 readerc4ced3b6，按原selection同s=99932770挑六支/free1186；20旧F69块与S5旧逆复用，根的Galois次序须新算核，非按列表猜。原R824首scope artifact14168007461至Nov16 15:28仍活跃。
+六b分支原source intake已实际成功43846124349/artifact14215526085/d78e3d52至Nov17 10:09；原selection同s=99932770的indices0..6，余1..6/free1186。20旧F69块与S5旧逆复用，新12rhs须核原σ根循环，不按列表猜。
