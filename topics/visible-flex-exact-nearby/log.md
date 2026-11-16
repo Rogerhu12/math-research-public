@@ -116,3 +116,9 @@ open原直接先Ti^-1再χ指令按实际域窄修为paired leading及true row g
 root完整读f9cbf697 15148B及最终cdb4b957 15266B（SHA256 803302f2924da51022e2aa16a36c928ee0789fde93277f5ea9fd9c2ae2a3630f）两处mean语境窄修差异。Newton回N/PF/W真root初值、exact Ω/irrationality、unsigned density/lift整数消法核2–4；tail核5–6 full KH/meanrank、target双向与phase-transported projector/fullauxmean。root独核J0J1次序、RaUR=Ra+Ω、bounded iterate消整数与a=2H(0)，不设a=0。仅selected δ*角结论，raw ray反射为原real family。
 
 该物理target是P FixRa，未证明实际range等于target，亦未把Z^S或transportedP97换掉。旧数/receipt不改。独推，read bd4f5d30d4814127291a7ab02e980fadfc8d4218两README未变。
+
+## 2026-11-16 03:36:17 UTC — WPM 反射均值与完整scalar行
+
+root全文读23,951B/SHA256 65cc1edec37adb5b0a3667c7e37df2a94bb24201697a53f4a1c7f9bc341f68c7；tail回N/strictN/A/PC/IN/FC/NIF/WPR八小primary核身份，phase正式peer核rank1、原腰三行、A local rank2及13a full-density endpoint mean。i0=i−hHΠi虽保primitive row，不宣称i0在actual incoming range；evenmean动态/source/ν/外cap/amp全部保。rank2仅原完整boundary域，非传播PDE square。旧ambient两slot估计保，原独立inputs不混同；后续finite/mean Schur须按真实rank及完整graph形成。
+
+本条独推，read 2a13cad5de98cd421f30b29b5e4709879e1f943c两README未变，0新数学求值/0旧重算。

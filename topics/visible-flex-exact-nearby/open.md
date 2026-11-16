@@ -52,6 +52,8 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [RRF真反射刚性与目标](results/R133-supplement-true-reflection-rigidity-and-selected-waist-target.md)803302f2：从真实root ODE与原exact irrational $\Omega$得$J_0=R_a,J_1=R_{a+\Omega}$，$a=2\mathcal H(0)$不擅置零；$K_H=R_a-2h\Pi$，nonmean严格等距但fullmean列保。真正物理waist目标坐标为$P\operatorname{Fix}R_a$；输入仍原$P_{97}^{\mathcal S}(\mathrm{Id}-Z^{\mathcal S}R_{a+\Omega})/2$像，不能换普通Fourier cutoff或同一反射空间。selected结论仅同$\delta_*$；不授range/onto/finite inverse。
 
+[WPM物理均值rank/全scalar行](results/R133-supplement-physical-reflection-mean-rank-and-complete-scalar-row-ledger.md)65cc1ede：同一反射state的两density mean槽仅rank1，唯一冗余为odd腰条件的平均；evenmean仍为N/A完整耦合径向函数，须保source/真$\nu$项、外capmean及amplitude。A原boundary域$(\Pi,\ell_{\rm amp})$ local rank2、$P_v$保mean，不授传播后square/Schur。selected endpoint mean沿$h_H$可被primitive行精确消掉，但该自由方向未必在regular Poisson图内。任何消元须保原独立ports、exact injection/rank及其余matching行，不能用两dependent槽配一条zero行凑square。
+
 
 
 
