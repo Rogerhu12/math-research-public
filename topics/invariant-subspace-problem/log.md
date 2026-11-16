@@ -780,3 +780,7 @@ native3.497066044秒/whole7.098588608秒，805全状态/观测506稳定57、299�
 ## 2026-11-16 00:54:48 UTC — 原critical弱二次正jet构造与三个数域入口
 完整原核/普通单项式对角系数/全6188乘回及leading独立运输均已根审，lemma d2ee736d、源码f211696b和四helper全绑定。
 旧live追加plus/minus/e8独立300秒/2GiB，最多51×50；未执行前不报局部增量。normal转原全参数系数127 Bockstein；实际pull核两README后push。
+
+## 2026-11-16 00:57:59 UTC — 原critical135支撑穷尽及三个实际零增量
+三数域实际exit0，8.92243723/9.71256780/31.30352312秒；pencil各dim2、51×49 rank29、fullleading13，全6188原乘回真，追加长度均0。
+穷尽lemma逐源根审，严格只排指定135高支撑配固定低jet；不降全局278…299或μ21。立即扩normal2/tangent≤2并保缓存；实际pull核两README后push。

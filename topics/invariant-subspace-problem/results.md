@@ -535,3 +535,7 @@
 ### 原临界因子的弱二次列与正jet运输（2026-11-16）
 
 [完整构造证明](results/R150-appendix-critical-weak-quadratic-columns-and-positive-jet-transfer.md)：原 $[L,Cv,Dv]$ 的真核给最多3个完整高零列；与低51×36及原低jet残量联立，实际leading rank $13+h$ 给完整局部长至少 $2e+h$。源码f211696b/接口23fd13c2已全根审，plus/minus/e8各排300秒；此处只确立原正证书构造，不预报任何新长度或μ=1。
+
+### 原critical135坐标高切片的穷尽性与三域零增量（2026-11-16）
+
+[完整证明与实际回执](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)：所有该支撑高零列与 $\ker[L,Cv,Dv]$ 线性同构，ordinary diagonal2及全6137外行均保。plus/minus/e8实际8.9224/9.7126/31.3035秒，各pencil维2、联合51×49秩29、fullleading13，全部6188 jet乘回真；额外长度均0。只此支撑/固定低jet已穷尽，完整局部仍6…8/6…8/4…5，μ≤21未改。

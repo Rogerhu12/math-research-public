@@ -139,7 +139,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **放大方差下的同actual来源。** [完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许任意s_m≥S_m→0、任意强前缀R_m及任意1≤J_m<h_m，完整强头H_(C,J)(s_m)^−1强趋原P_M。阻尼物理列在Q≥R+J保持同一V_Q/K_Q/u，远孔指数矩≤q、正能量ε=q−||a||²→0且||f−a||²≤(S_x/s)ε，故f→P_Mg。完整塔残量保正占据因子[1−r+W/s]Cf；截断top未丢。强头a仍含全部R_m孔，未付真实K_Q或全局N的逼近，不能由小Cf免费乘D†。可优先在旧合法carry窗检验小J的正则化方程与同一中间Schur。
 
-- **F127精确系数载体仍待饱和。** [Ω127/J0证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)给C127/127恰为全部299维torsion，degΔ+Σt127=299。完整barΩ=Ψ60²，余包络barμ|F+²F−²E8(s+64)度21；s+64不是自由商缺陷，只可能来自127系数tors或有理因子约化，尚未判定。下一实际九目标循环模块/h*像将区分哪些field方向由原目标命中；有理critical两F±/E8的额外20次完整原jet仍待付，任何一次mod127零都不直接升Q成员。
+- **F127精确系数载体仍待饱和。** [Ω127/J0证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)给C127/127恰为全部299维torsion，degΔ+Σt127=299。完整barΩ=Ψ60²，余包络barμ|F+²F−²E8(s+64)度21；s+64不是自由商缺陷，只可能来自127系数tors或有理因子约化，尚未判定。九目标field25已完整计算并由h*杀死；normal正计算全参数syzygy的第一系数127 Bockstein，不能用点核代替。critical更大原jet仍待付，mod127零不直接升Q成员。
 
 - **九原目标在F127中的完整25维模块已成。** [原全部乘回证明](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)给joint维25/χ=s²mon(h*)，每个目标cyclic23且最小式同mon(h*)，h*和h0九列实际全零/完整像0；s+64和Ω不在target模块内。原6188来源的field成员存在已付，但九来源尚未新展开，Q或p127²成员未付。25个原target/power标签可指导原relative T的Q选元，不能把有限域图当成有理图。
 
@@ -147,4 +147,4 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **第二次完整顺次MP已付，第三次及全返回仍开。** [真实primitive回馈证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²ω_j=(D²)†ω_j−D†ΠkerD D(D²)†ω_j，两项正交，明确原primitive常数512√(j+4)(x+j+4)^(3/2)。τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ使q1=D†(C+D)f、q2=CD†q1同时平方O((1+||C||⁴)τ²)Δ_g²；两最高top全保。z2=f−q1+q2只有准确残量(C+D)z2=Cq2，不是原真核。继续更深完整核旗/中间Schur与同w全部partial，不将第二次primitive分解免费复制到任意高度。
 
-**原critical正证书入口。** [R150-appendix-critical-weak-quadratic-columns-and-positive-jet-transfer.md](results/R150-appendix-critical-weak-quadratic-columns-and-positive-jet-transfer.md) 由真实核 $[L,Cv,Dv]$ 生成normal二次、tangent≤1的高零列，并与已付低jet联立；所得leading rank增量才降低完整原局部余项。三个因子各300秒/2GiB，最多51×50、全6188原来源乘回，不预填2/2/1。若本族无增，只限制该候选族；原更高normal/tangent及全Q成员性仍开。
+**原critical135支撑已完整穷尽但无增。** [R150-appendix-complete-135-coordinate-quadratic-high-slice.md](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)证明该支撑的全部高零列恰为 $\ker[L,Cv,Dv]$；三个actual均dim2、51×49 rank29/leading13、全6188乘回通过，局部低界仍6/6/4且全局278…299。无增只限这个完整135支撑搭配指定低jet。下一步正扩大normal2的tangent≤2，复用已付缓存；不重同pencil，不把此负结果当full连接下界。
