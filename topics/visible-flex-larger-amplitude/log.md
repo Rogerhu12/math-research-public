@@ -165,3 +165,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:29:57 UTC /root — R526双向全对应的定量商距离下界
 
 [R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)21774B完整纸证即刊：允许重复的双向全部对应＋全部交叉边，0≤L*≤Δ≤dE；紧集Δ=0 iff含反射全等，完整误差账给γ<Δ有限终止，三点例阻止夸大至任意γ<dE。原R520完整像/真成员/所有候选/后缀责任保，无新run/阈值/门。只将原稿526.18的单$显示段改$$，公式不变；同时更正open的residual措辞，更新已核222/217 gzip消费者来源。
+
+## 2026-11-16 10:31:10 UTC /root — R488实际216完整远端后BVP启动空间停止
+
+[R488](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)26748/8f85，run43819978588/source634c4；两终log各唯一，八必要/六report同字，C/factory未付及原coast反证完整保。112far/joint与13850/16128齐，free12456181760<34359738368导致child未起、453/450及15后继全未始；rules98410>90K70未返、cleanup_skipped，无可续raw。222/217已有R498/R499不另造存储入口。H压缩全文留59cb历史；本提交实际补R526§526.18的$$显示定界（21774/a02c），上次文本替换未生效，证明不变。

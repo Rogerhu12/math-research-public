@@ -25,6 +25,8 @@ R465/466/470/471/473/474仅各明确有限输入/原fallback及局部语义，�
 
 ## 2. 准确十族候选与完整453→450
 
+[R488实际216](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)：全112 far/joint与13850/16128采样齐，但free12456181760<34359738368、BVP child未起，453/450及15后继均未始；C/factory未付与coast中心严格反证各按原域保。八必要齐、rules98410>90K未返/cleanup_skipped，raw无可续父。222/217已另接R498首行gzip及全消费者、R499规则，按各自真实运行判，不能倒填216。
+
 本节压缩前全部原文逐字保在[368e6a6f时open](https://github.com/Rogerhu12/math-research-public/blob/368e6a6fb1ecde31525d0f4042a77e490b665236/topics/visible-flex-larger-amplitude/open.md)，其f863b71c及全部更早链接继续保原词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全G/H/span、QR/clip/Cauchy及每alpha冻结原Armijo/S球保；有限拒绝不证无解/秩亏，旧201末响应缺失不能由202补。
 
 [R439实际202](results/R439-actual202-ten-unit-tolerance-complete-final-diagnostics-and-projection-scope.md)的Decimal unit/112tol、120FD/Arb1687叶及453圆参考齐，但binary64第三unit未过；553B/ba7d末词仅初猜。[R449](results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md)将十原词明确投影为72c准确dyadic新点，原cut_radius等九结构字段保，旧support/factory域/残差/接受不转移。203仍180+xi0，205另取实际202；[205完整接口](notes/2026-11-16-request205-actual202-accurate-ten-complete-closed-interface.md)97406/06ae、154pins、227e/56cb、全C/cut/deep/far/453→真末十词冻结450/first closed/held与18900+2700/quiet是原祖先。当前新点R503/220/222另有完整真实来源，不混初点或域。

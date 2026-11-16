@@ -353,3 +353,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R526 — 双向全对应距离判据与准确终止范围
 
 **已证明，纯纸证；未选择实际γ/未运行。** [R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)21774B，真实双向成员球到对方完整cover全部联合对应（允许重复），全部同侧/交叉边给0≤L*≤Δ≤dE，含全部反射/平移。证明紧集Δ=0当且仅当环境全等，真实非空cover/全成员h网及距离区间误差给max(0,Δ−2E−ω/2−h)≤L*；这些是有限终止条件，成功证书不额外要求它们。只γ<Δ可保证细化有限终止，三点弯折例Δ<ε/4<dE=ε/2显示不能扩大为所有γ<dE。部分失败边可退役整笛卡尔后缀，完整未访仍保；不假定marker唯一/支撑中心为峰，不把单向包含当全等。现有R520全像/真帽点/全部stored-decoded消费仍须真实同场，未添计算或门。
+
+## R488 — actual216完整far与采样、BVP启动空间停止及规则未返
+
+**实际216完整必要范围已读，BVP未启动。** [R488](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)26748B/8f85ed9e，run43819978588/source634c4c85，compute133140597135/report133232554737各仅exact取一次。八必要scope齐、六report同字；C1440/six/全合法粗域保，2873resolution+1integral未付；当前factory1810passed/8617未决/13未访与原coast中心严格速度反证分开，不冒本次停止原因。全部112far/joint、13850unique/16128fields齐；95GB prepared账仅完整bytes/SHA/rows，parsed_rows0。启动实际12456181760<34359738368，child=false/exitnull，453/450/native-FD-fullDN及15后继未始，退出124是startup资源分支非运行超时。rules98410/90K70无marker未返，实际cleanup_skipped，静止不补清理完成，raw只随runner销毁。R498/R499后继不倒填216，不新开重复存储入口或降低原门。
