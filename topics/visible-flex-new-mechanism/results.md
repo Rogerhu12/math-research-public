@@ -467,3 +467,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R525 一参数共同R1/R2与原盒多项式曲率域](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)：**已证明**已付射线的完整二次jets、实际G的6/4/8次谱等价、自由最优A=−C、原盒trace区间与同17列minimax/连续余量。新19变量联合会话已明确但未执行；不据旧status2排整射线，不授全body或连续reach。
+
+
+- [R526 真实入历史倒行与一次规范下的端口完成](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)：**已证明**真实M0/K0块继承第三入值后倒行自动闭M/T，无需预清T_P；完整第四加倍，pose闭合条件准确给出。另同germs、G=D及第三逐函数盲时四段同χ闭pose/M/T，第四4V；当前尚未构造所需M0块。

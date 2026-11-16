@@ -84,6 +84,12 @@ $
 
 实际Atot=2AL、Ttot=−2AL²，因此纠正第三全三槽严格零；若同一个半轨道将来达到AL0，整段第二/第三一并返回。当前足够短的实际AL非零，不是M0轨道。真正后继须同时付AL0、DF Gᵀ DF G=I、(I−DF)v=0、端奇jets及完整第四累计；后者反射为加倍。规范只能固定一次，不可拼不同L各自w/χ，也不借R517或R518另一母库。
 
+### R526真实入历史倒行减少第三返回端口
+
+[R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)严格使用同R521圆、w=0/固定χ：若先真正构造总M0且全路径K0的段P，并付偶反射端germs，则真实倒行带入T_P后有A_glob=−A_P反序、T_glob=T_P反序。因此PP^R全第二/第三字段保持真反射、末A=T=0，无须预先令T_P=0；整个第四原函数仍为2V_P。其pose精确闭合条件是GD=DG及v平行初始N轴，另须V_P=0才付第四period。
+
+若进一步P两端同germs、末G=D、T_P(φ;D)=0逐函数，则P²(P^R)²在同χ下闭frame/位置/M/T，第四为4V_P；原R183 hook在当前导数rank-one微包上逐函数盲，是已知充分目标。现在集中先付真实M0非恒段及实际germs/pose，不把R523短段的非零w或原无ruling桥代入。开常germ只为匹配的条件例，当前库的可达性未授。
+
 ### 已付接口与旧排除的完整来源
 
 旧强圆、R333 wholeE、R389/R460 真range、R443–R462 原49模块和同一规范的详细原式，逐字保于[原接口记录](notes/open-O4-paid-interfaces-before-fixed-width-actual-section-20261116.md)。R304/306的同Gaussian芽rank-one排除、R387的一层障碍及其它窄族排除继续有效；不据此排一般C²构造。

@@ -793,3 +793,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 
 ## 2026-11-16 13:30 UTC：R525共同射线与原盒曲率域
 [R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)付单α完整有限模型、实际G下6/4/8次谱三门、原盒trace区间及共同纤维minimax/连续性；root逐式核对正分母、退化C=±K、谱门R≥0与源数组尺度。下一19变量新会话源码准备，600总秒/120solver秒/400解析评价、0旧LS/LP或Π重算；尚未执行，58及总账不变。
+
+
+## 2026-11-16 13:39 UTC：R526同规范真实入历史倒行
+[R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)从完整有序复合证明M0/K0真实段接倒行时incoming抵消第三常数差，PP^R末M/T零而第四2V；另付pose准确条件及第三逐函数盲时四段闭词/第四4V。仍欠实际M0块、germs和第四period，未套现有非零w短段；原源纸面逐式核对，无新执行。

@@ -32,7 +32,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保R471/R491的C≥0、正Af密度、全部尾/跳图与双端，严格分离H∈[3/5,2]的Δ4−βΔ6；接R496覆盖H≥2，排当前允许cap五门共同零。旧cap15/三原子/四原子/唯一LP已闭不重跑；原LP183.90384485000004秒、nit270738、x/dual None的no-decision仍按[原观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)保留，不追写当时已有证书。
 
-[R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)付固定宽Jtr=(J0,FN^j)实际C1成本截面：双极端正字符/同宽混权核、实际满像导数、保非零基准开球、有限正配平和整数复制；一次共同ω平移与真桥保原窗口/全部成本，按同库R467/R464接period/13规范。此R459内区可变母库不能拼R512字面同形母；同一完整实现字的逐点K仍欠。
+[R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)付同R459可变母类Jtr实际C1成本截面，保非零基准/原宽窗口、有限正配平/整数复制和真桥；按同库R467/464接period/13。未付同一实际字逐点K，不拼R512字面同形库。
 
 [R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)从起点加强同一R459类有限C²纤维，保四自然/共同cap/原20目标，另以真实22行正核取得完整常态平方Qc=0、速度Gc=1。纯self只在三项三导平方完整抵消后才降C²，全部YC/左尾保。固定一次χ得到A=tAc≠0、T=−t²Ac²/2的全相位K0常态段，并在其真实t0前缀以∂ksF=t0非零、自由hs和真实八矩ODE平滑非恒离开。未付返回桥、已锁13规范或末M/T/V/frame/位置，不能借R518末成本替代全路径。
 
@@ -44,7 +44,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)另一个from-start库：4包三矩/8副本全cubic，16元O(2)正复制共同0…10矩，完整含第三history的ruling准确为sin²θ一式。在预定h,z,e=hz−k均正紧域，原kss积分系数严格正；固定w=χ=0可解kss，hss为自由控制，真实m/T有限ODE全保。该库不继承R518/520的共同cap/20目标/13规范；尚无完整周期、M/T/frame/位置/period。
 
-[R523](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)在同一R521库构造真实非恒k反射段：S偶、速度/m奇、完整T偶。由真实左端重锚Â=A+AL、T̂=T−TL−Â∘AL，并一次固定w=−ALD、χ=2TL(φ;D)，完整字段与K0不变。两端scalar值同，Ttot=−Atot²/2全三槽成立；短段Atot≠0。末frame/位置、奇阶germ和第四累计另付，反射使第四累计加倍不消；不同半段不能各换规范再拼。
+[R523](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)付同R521非恒反射段及一次w=−ALD、χ=2TL(φ;D)的真实非交换重锚；Atot=2AL、Ttot=−Atot²/2，短段AL非零。frame/位置/奇germ/第四仍欠，第四加倍；不同L不能各换规范再拼。
+
+[R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)对真实M0/K0段P，w=0/固定χ且反射germs匹配时，继承T_P后PP^R全字段真反射，末M=T=0而第四2V_P；pose闭合须GD=DG、v∥N。另同germs/T_P(φ;D)=0/G=D时P²(P^R)²闭pose/M/T，第四4V_P。原hook在R521导数分包库逐函数盲；实际M0块仍未构造，不套R523非零w或旧无K桥。
 
 ## 6. O2后继及当前工作顺序
 
