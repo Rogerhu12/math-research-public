@@ -121,3 +121,7 @@ R580三件74680B独立刊：真实R575/R553同次全系数/joint正管，准确c
 ## 2026-11-16 15:29 UTC /root — R589/request246完整具名必要入口
 
 R589五件完整入口独立刊：原447→451只加helper/generator/两caller，R573数学和编译链不改；source同job原70/fullbody真读、八RootStats catalogue完整值/last/unknown同scope可逆且全candidate严格较短才用。两90K/原19200与所有门/quiet清理不减，不猜实际体积/父；唯一派246，R590 root读。两24实际审计完整，最终delta未做，R591容量释放后紧接。
+
+## 2026-11-16 15:33 UTC /root — 两24完整引用审计与仅两历史manifest保留整理
+
+只两旧24 domain清单合1301002B在实际guard后普通移出；本次439d/43895375578/133397372679必要76213全返、17组94行/真实producer与临时ZIP reader逐义核，所有兄弟/数组/现用输入保。最终每次pull delta全bytes/23词/候选全SHA/200MB守护，R58921新generic原source pins完整解释，无raw存Git；补246正式f70acbf1/run43897098674/root唯一，R591容量释放后立即刊派。
