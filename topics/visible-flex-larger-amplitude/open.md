@@ -22,6 +22,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)下一独立初点：原202/R449投影后仅p3/theta3/eta3显式+0、另七词保；新点/new g不继承旧域/J/接受。R478中心反证与R449-C说明固定theta3的原三active p不能修中心，不冒数值RHS实测失败。三个零使整个准确coast回原仿射基底，在原全族正端值/0<κ<1条件下半径/速度合法，两端零二jet/非coast表达式保；其余全域/初猜/BVP/几何另付。p3仍active、theta3/eta3固定0，真实453接受后全末十词再冻结450；原FD/fullDN/7200共享/32GiB/绝对钟保。220以218真来源接完整candidate_rows/新帧和当前owner修复，preview不冒最终SHA，不改218，不添center/domain门。
 
+[R512](results/R512-complete39-actual-producer-role-context-binding.md)定位213真实producer/formatter六处符号失接：五类表实际带original_/returned/records，RMS索引为original_check_index，旧lookup无别名而跳过。新formatter20883/f79328ed只接准确角色与新身份，原七种完整相等/行序/错误/值保全操作不变；不由未返115134B推实际节省量或必fit。223/R513由root接真实helper/worker/request/全部祖先来源，完整即执行；原98fresh、八批/FD/17档/全部预算和90K70/quiet不变，不冒native/fullDN接受，不盲重跑旧失接入口。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[368e6a6f时open](https://github.com/Rogerhu12/math-research-public/blob/368e6a6fb1ecde31525d0f4042a77e490b665236/topics/visible-flex-larger-amplitude/open.md)，其f863b71c及全部更早链接继续保原词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全G/H/span、QR/clip/Cauchy及每alpha冻结原Armijo/S球保；有限拒绝不证无解/秩亏，旧201末响应缺失不能由202补。
