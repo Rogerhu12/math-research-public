@@ -140,3 +140,6 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 
 [R842 第一层满射及唯一实际受限类](notes/2026-11-16-r842-first-layer-surjectivity-and-actual-restricted-class.md)：T>2κ的负度严格付Q_T→(ωN⁻¹)|Z满射，故第二延拓式总可先解且ν0唯一。更改延拓仅来自原Q'_T=H0(ωN⁻²(TP))，两条完整Serre序列给剩余[b0]∈coker L_T≅W_T∨，恰为R836兼容高前缀核上的指定trace。已关闭单独第一层不能延拓的伪障碍，未判该第二层类或其在更小真三长核上的限制非零；全部fixed边界/同R/原余列保。
+
+
+[R841 原对称 Hom 与最低属四的实际二重商](results/R841-original-cubic-normalizer-and-endpoint-chow-purity.md)：附录B以规范Poincaré图形付真双线性，Kimura零幂等付最高swap负号，原W4与平移不变性给对称polarization；整个原Γ/Artin系数保留，可用同一a的(F,a q0,a q2)。真实半平移S给原L、完整q4微分4倍和det1；属四时S/R共固定cusp迫两固定branch，D:y³=x(x⁴+Ax²+B)，二重商H:w²=z⁶−2Az³+A²−4B且JH∼E0²。此为实际来源的必要限制，未付原参数/CM order/17角色或canonical非零。

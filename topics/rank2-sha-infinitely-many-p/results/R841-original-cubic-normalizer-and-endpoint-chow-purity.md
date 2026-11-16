@@ -593,3 +593,328 @@ $$
 推断它具有原17处 Artin 数据或等于 R814 的 canonical 类。
 原实际同态、三个完整角色、$q_0/q_2$ 与完整临界 period
 仍须保持。这里没有任何新的数值计算或目标素数扫描。
+
+
+## 附录 B. 原端点的对称双线性、同一实际映射与最小属四模型
+
+本附录先在原 Jacobian 对应上保留完整 Hecke 投影，再作
+polarization。结论是：R839 的原端点可以准确写成
+$\Pi(F,a q_0,a q_2)_*[X]$ 的固定有限线性组合。
+这些实际曲线同时具有原三阶作用和一条二阶作用。
+当其像的正规化达到附录 A 的最低亏格四时，六分支模型
+因而进一步受到下面 (B17) 的严格限制。
+
+### B.1. 原有理 Hecke packet 中的实际 Hom
+
+令 $e_{\mathcal G}\in\operatorname{End}^0J(C)$ 是原
+$g_4,g_{10},g_{16}$ 全部 Galois 共轭所成的有理 Hecke 因子
+的幂等元。原两份 $\Gamma_g,\Gamma_h$ 均满足
+$\Gamma_i e_{\mathcal G}=\Gamma_i$。第一份则满足
+$\Gamma_f e_f=\Gamma_f$，其中原 $f$ 为有理新形式。
+这里保留整个有理 packet，不能把带非有理系数的单个
+Hecke 幂等元误作一个实际曲线态射。
+
+在附录 A 的有限 Hom 展开中，先将每个同态右复合
+$e_f$ 或 $e_{\mathcal G}$。清除固定整数分母，并将分母
+吸收进原代数系数后，各项仍为实际 Jacobian 同态，而且
+每项都经所需有理 Hecke 因子。再作 (A2) 的整数和平均。
+这些有理 Hecke 因子与原 $R$ 交换，故这两步相容，并保持
+原整个 $\Gamma_i$，不只是它的某个三重张量投影。
+
+因此可将原表达写为有限和，其各项的实际映射
+$$
+F:X\longrightarrow E_0,\qquad a,b:C\longrightarrow E_0
+\tag{B1}
+$$
+都在 cusp $\infty$ 取零，$F$ 经原 $e_f$，
+$a,b$ 经 $e_{\mathcal G}$，并且
+$$
+FR_N=[\omega]F,\qquad aR_M=[\omega]a,\qquad
+bR_M=[\omega]b .
+\tag{B2}
+$$
+这里及下文，加法和负号均是 $E_0$ 上的真实群运算。
+特别 $a+b$ 仍是同一个有理 packet 中的实际映射，仍满足 (B2)。
+
+### B.2. 最高投影后的真实 Chow 双线性
+
+对 (B1) 定义
+$$
+\mathcal B(F;a,b)
+=\Pi\,(F,a q_0,b q_2)_*[X]
+\quad\in CH^2(E_0^3)_{\mathcal E}.
+\tag{B3}
+$$
+$\Pi$ 是 R839 的最高 CM Chow 幂等元；
+特别 $\Pi=\Pi(\pi_1^{E_0})^{\otimes3}$。
+
+先支付 (B3) 对 Hom 的加性，而不借一般高余维实现忠实性。
+在 $E_0\times E_0$ 上取以原点规范化的 Poincaré 线丛
+$$
+\mathscr P=\mathcal O(\Delta-E_0\times\{0\}-\{0\}\times E_0).
+$$
+对实际 $a:C\to E_0$，其图形除子满足
+$$
+[\Gamma_a]
+=c_1((a,\mathrm{id})^*\mathscr P)
++[C\times\{0\}]
++\operatorname{pr}_C^*c_1(a^*\mathcal O_{E_0}(0)).
+\tag{B4}
+$$
+最后两项在目标 $E_0$ 上施 $\pi_1$ 后消失。
+Poincaré 线丛对第一群变量的 biadditivity 给
+$$
+(\pi_1)_*[\Gamma_{a+b}]
+=(\pi_1)_*[\Gamma_a]+(\pi_1)_*[\Gamma_b]
+\quad\text{于 }CH^1(C\times E_0)_{\mathbf Q}.
+\tag{B5}
+$$
+把 (B5) 与原小对角、另两个图形对应复合，再施 $\Pi$，
+得到 $\mathcal B$ 对 $F,a,b$ 各自的加性和有理线性。
+基点项被相应 $\pi_1$ 杀掉，所以这里的小对角写法与
+R839 中的 modified diagonal 完全相同。
+
+### B.3. 两因子交换在最高 Chow 因子上的准确负号
+
+令 $\sigma_{23}$ 交换 $E_0^3$ 的第二、第三坐标。
+它与 $\Pi$ 交换。在 Betti 实现中，$\Pi$ 的像只有
+三份同一 CM 线的全正、全负张量；几何交换在两条线上
+都为 $-1$，因为交换的两个上同调因子均为次数1。
+这一步的负号是几何 Künneth 交换号，不能写成无号的
+普通一维向量张量交换。
+
+为将它提升为实际 Chow 等式，考虑
+$$
+P=\Pi\,\frac{1+\sigma_{23,*}}2.
+$$
+这是一个 Chow 幂等元，且全部 Betti 实现为零。
+$h(E_0^3)$ 是 Kimura finite-dimensional motive；
+其数值平凡自对应为幂零。因此 $P$ 同时幂等、幂零，
+故 $P=0$。于是完整对应环中有
+$$
+\boxed{\Pi\sigma_{23,*}=-\Pi.}
+\tag{B6}
+$$
+此处只对这个已显示的幂等元使用幂零定理，
+并未假定 Chow realization 对所有对应忠实。
+同样，由 $\Pi\subset(\pi_1)^{\otimes3}$，直接有
+$$
+\Pi([-1]\times\mathrm{id}\times\mathrm{id})_*=-\Pi.
+\tag{B7}
+$$
+所用有限维与幂零结论为 Kimura，
+*Chow groups are finite dimensional, in some sense*,
+Math. Ann. 331 (2005), 173–201，Corollary 4.4、
+tensor-product 稳定性及 Proposition 7.5；
+<https://doi.org/10.1007/s00208-004-0577-3>。
+这里只需三条椭圆曲线的乘积这一已知范围。
+
+### B.4. 原 $W_4$ 将反对称端点变成对称 Hom 形式
+
+R831(12)、(16)在原曲线上准确给
+$$
+q_0w_4=q_2,\qquad q_2w_4=q_0,\qquad e_f(w_4)_*=-e_f.
+\tag{B8}
+$$
+故对经 $e_f$ 的实际 $F$，
+$$
+Fw_4=-F+c_F,\qquad c_F=F(w_4\infty).
+$$
+这个常值不能在曲线层面无理由删掉；
+R839 的最高投影对所有平移不变，恰好允许在 (B3) 中删去它。
+将 $w_4$ 作用于源曲线，再用 (B6)、(B7)，得
+$$
+\begin{aligned}
+\mathcal B(F;a,b)
+&=\Pi\,(-F,a q_2,b q_0)_*[X]\\
+&=\Pi([-1]\times\mathrm{id}\times\mathrm{id})_*
+       \sigma_{23,*}(F,b q_0,a q_2)_*[X]\\
+&=\mathcal B(F;b,a).
+\end{aligned}
+\tag{B9}
+$$
+两个负号分别来自原 $f$ 的 partial $W_4$ 和目标的
+最高 CM 交换，均在实际 Chow 群中支付。
+
+结合双线性，得到准确的 polarization：
+$$
+\boxed{
+\mathcal B(F;a,b)=
+\frac12\left(
+\mathcal B(F;a+b,a+b)
+-\mathcal B(F;a,a)-\mathcal B(F;b,b)
+\right).
+}
+\tag{B10}
+$$
+因此原 $\widetilde Z$ 是有限个
+$$
+\Pi\,\Phi_{F,a,*}[X],
+\qquad
+\Phi_{F,a}=(F,a q_0,a q_2),
+\tag{B11}
+$$
+的固定代数系数线性组合，且每个 $a$ 均为 B.1 中的真实
+有理 packet 映射。原 $\Gamma_f,\Gamma_g,\Gamma_h$、
+其系数及整个有限 Artin 投影都保留在这个组合中。
+不要求每一个单独的 (B11) 都已具有原指定 $\lambda_\nu$；
+不能把这种逐项强化冒认为 (B10) 的结论。
+
+### B.5. 同一实际映射的原二阶平移
+
+在 $X=X_0(N)$ 上令
+$$
+S:z\longmapsto z+\tfrac12.
+\tag{B12}
+$$
+因为 $4\mid N$，对
+$\gamma=\left(\begin{smallmatrix}A&B\\C&D\end{smallmatrix}\right)
+\in\Gamma_0(N)$，
+$$
+\begin{pmatrix}1&1/2\\0&1\end{pmatrix}
+\gamma
+\begin{pmatrix}1&-1/2\\0&1\end{pmatrix}
+=
+\begin{pmatrix}
+A+C/2&B+(D-A)/2-C/4\\ C&D-C/2
+\end{pmatrix}
+$$
+仍为原整数群元素；逆共轭亦然。
+$S^2$ 为整数平移，故 $S$ 是阶2自同构，固定 $\infty$，
+且在其参数上 $Q\mapsto-Q$。它定义于 $\mathbf Q$，
+并与正文的 $R_N$ 交换。
+
+原 rational packet 的每个形式 $G$ 在2处均未分歧、
+中心特征平凡，且因2在 $K$ 惰性而 $T_2G=0$。
+以标准权二归一 $T_2=U_2+2V_2$，它的全部偶数 Fourier
+项准确为 $-2G(Q^4)$，从而
+$$
+\boxed{G(-Q)=-G(Q)-4G(Q^4).}
+\tag{B13}
+$$
+这对整个 packet 的线性组合同时成立。
+原 $f$ 在2处的新 conductor exponent 为2，
+其 $U_2$ 特征为零，所以全部偶数项为零：
+$f(-Q)=-f(Q)$。
+
+实际 $q_2$ 微分为 $4G(Q^4)dQ/Q$，不是裸 $G(Q^4)dQ/Q$。
+用 (B13) 和 $q_2S=q_2$，因此有
+$$
+FS=-F,\qquad
+a q_0S=-a q_0-a q_2,\qquad
+a q_2S=a q_2.
+\tag{B14}
+$$
+这是实际曲线映射恒等式：微分式先给 Jacobian 同态等式，
+而全部映射在 $S$ 固定的 cusp $\infty$ 取零，故常值项为零。
+这里没有使用 $S$ 在奇数层 $C$ 上的正规化；
+所用 $S$ 始终作用于 $X$。
+
+于是每个 (B11) 都同时满足
+$$
+\boxed{
+\Phi_{F,a}S=L\Phi_{F,a},\qquad
+L=
+\begin{pmatrix}
+-1&0&0\\
+0&-1&-1\\
+0&0&1
+\end{pmatrix},
+\qquad
+\Phi_{F,a}R_N=[\omega]^{\times3}\Phi_{F,a}.
+}
+\tag{B15}
+$$
+$L$ 是实际 $E_0^3$ 群自同构，$L^2=1$、$\det L=1$，
+且与标量 $[\omega]^{\times3}$ 交换。
+$\det L=1$ 也说明它没有给一个额外的最高投影反号，
+不能由 (B15) 再推出原类为零。
+
+### B.6. 最小 genus-four 来源的两个固定分支点
+
+若 (B11) 的像不生成 $E_0^3$，它的最高投影由 R839 消失。
+否则令 $D$ 为像的正规化；附录 A 已给 $g(D)\ge4$。
+假定 $g(D)=4$。在 $D$ 上，(B15)诱导相互交换的
+$v$、$s$，分别为阶3、阶2，并共同固定
+$\vartheta(\infty)$。阶数不能降低：否则像逐点落在
+$[\omega]-1$ 或 $L-1$ 的真固定子群中，不能生成 $E_0^3$。
+
+由 (A12)–(A13)，$D/\langle v\rangle\simeq\mathbf P^1$，
+六个分支点的 monodromy 全部为 $v$。
+$s$ 在此 $\mathbf P^1$ 上诱导非平凡对合 $\bar s$；
+若 $\bar s$ 平凡，$s$ 将属于三阶 deck 群，与其阶2矛盾。
+$\vartheta(\infty)$ 是 $v$ 固定点，故其像是一个
+由 $\bar s$ 固定的分支点。
+
+$\mathbf P^1$ 上的非平凡对合有两个固定点。
+六点分支集由它保持，非固定点成对出现，
+故固定分支点数为偶数。它已至少为1，因而准确为2。
+在固定有限扩域上令这两点为 $0,\infty$，
+其余四点写作 $\{\alpha,-\alpha,\beta,-\beta\}$，
+则
+$$
+\bar s(x)=-x,\qquad
+\alpha\beta(\alpha^2-\beta^2)\ne0.
+\tag{B16}
+$$
+结合全部相同的 monodromy，并吸收固定的非零 cube 常数，
+实际 $D$ 因而有模型
+$$
+\boxed{
+D:\quad y^3=x(x^4+A x^2+B),\qquad
+B\ne0,\quad A^2-4B\ne0,
+}
+\tag{B17}
+$$
+$$
+v(x,y)=(x,\omega y),\qquad
+s(x,y)=(-x,-y).
+\tag{B18}
+$$
+无穷远的分支指数为 $-5\equiv1\bmod3$，与另外五点同号。
+在这个模型上，$x\mapsto-x$ 的三个与 $v$ 交换的 lift
+依次为 $y\mapsto-\omega^i y$；只有 $i=0$ 的阶为2，
+故 (B18) 没有未定的 cubic 相位。
+
+### B.7. 原二阶商的准确 genus-two 模型
+
+(B17) 的全纯微分仍可取
+$$
+\frac{dx}{y^2},\quad\frac{x\,dx}{y^2},\quad
+\frac{x^2\,dx}{y^2},\quad\frac{dx}{y}.
+$$
+$s^*$ 的特征依次为 $-1,+1,-1,+1$，
+所以 $D/\langle s\rangle$ 的亏格为2。
+准确的不变量为
+$$
+z=\frac yx,\qquad
+w=x^2-\frac B{x^2}=2x^2-z^3+A.
+$$
+它们满足
+$$
+\boxed{
+H=D/\langle s\rangle:\quad
+w^2=z^6-2Az^3+(A^2-4B).
+}
+\tag{B19}
+$$
+并且 $x^2=(z^3-A+w)/2$，故得到的函数子域指数确为2，
+不是只构造了一条到某个 genus-two 曲线的非最小映射。
+(B17) 的两个不等式使 (B19) 右侧无重根。
+
+由 (A16)，$J(D)\sim E_0^4$；
+$J(H)$ 是其由实际 degree2 商给出的二维同源因子，
+因而在一个先于 $p$ 固定的有限扩域上
+$$
+\boxed{J(H)\sim E_0^2.}
+\tag{B20}
+$$
+一般参数 $A,B$ 不满足 (B20)。
+(B17)–(B20)只是原实际 Hom 表达在最低亏格时的必要限制，
+没有辨认其具体 CM order、原17处 Artin 角色或 R814 类。
+
+所有操作都从原共同目标的 $Z_{02}$ 出发。
+(B10) 的 $1/2$、A.1 的 $1/3$ 及清分母系数均明确留在
+有限组合中；正文 (21)–(23) 的 $6^{-2}$、$D_X,D_C$、
+原 $X_1$ 的 $12^{-2}$ 一律不变。
+本附录不证明 $Z$ 或其 AJ 非零，也没有执行数值计算。
