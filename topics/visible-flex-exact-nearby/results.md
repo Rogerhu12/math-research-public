@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WHVA：原行全覆盖3最大值与完整零Volterra网格诊断已成，充分门失败如实保留。** [实际结论](results/R133-supplement-actual-zero-Volterra-positive-head-mesh.md)9274e696；43838214094/1完整14门/24目标/18新球，旧数学0。N=4096的epsilon35.51628…、requiredN145475>cap；0矩阵/0resolvent，不证奇异、不授finite逆。完整原域/mean/affine/cokernel/endpoint和所有旧身份冻结。
+
 - WHV 的唯一新网格 consumer 已封包：15 current、13 immutable history、6 AST（2新科学+3旧仅解析+worker）、固定 N=cap4096。只恢复完整旧native并新取三个 whole maxima，之后完整typed组合及一次strict比较，false也是完整结果；唯一科学child前公开消费标记，每新目标完整原子保存。尚无新数值结论，所有4650旧行、3594接口及旧成功禁止重算。
 
 - [W96：真实低96齐次列的存在及完整正侧有限关系](results/R133-supplement-genuine-low96-Poisson-columns-and-exact-positive-boundary-completion.md)：实际outer193行与head余核组成(289+mH)列/(193+mH)行有限矩阵，其kernel96+ℓ单射重构为真实正侧解，证明至少96独立物理列存在；完整额外ℓ零模/兼容和inhom RHS不删。指定root even96坐标的方阵逆仍为独立门。PW完整mixedroot/两density means到WPL半行/左B^-1给actual waist列公式；未计算basis/Gram/finite逆，消head所增high feedback不能借用旧E。
