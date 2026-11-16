@@ -405,3 +405,5 @@
 - [R900 附A](../results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：同原split修正/三单位保留后，单惰性返回对任旧split层成立；全惰性幂集的显式整Möbius新块各部分迹零，奇数全新块由真实根数/compact BK严格0，奇数总层得min v_p(ℓ+1)整除。惰性主理想在全部原环类塔Frob恒1，准确排R891长剩余次数的这次移用；偶数新块的乘积整除仍开。
 
 - [R887 §17](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原P6·P28/66/130/60二因子模型保四α/五块窗，两个Z^p真消全部非O补极；二挠极<2p³与原[-1]不变共同给完整C³η[2]=−α^(1/p³)rω。首次C准确读同Q6与四QbRν的γ1，原全A-root trace及exact各保为模型差；仍未证明四指定读数联合非零或替换原p²/p³预算。
+
+- [R887 §18](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原四负幂的全Hurwitz顶边∂v^p F_m=−m cp(Fp(B)+v)F_m已证，Jp=−mcpFp/Jp+1=−mcp；唯一原r相位改常数为Z而保全部低卷积。真实T_m,p由原a_(p−1)和同非零cpFp作固定m−1步逆链读出，不能删顶值、跨Z零纤维微分或认四α非零。

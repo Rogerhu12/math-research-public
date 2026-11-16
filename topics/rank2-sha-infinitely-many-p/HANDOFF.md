@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：2f3331f7cd0fecc612476fec960f375aeb745d9c；2026-11-16 16:11:22 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
+- 最近已读规则提交：d1f50f30cc030d5ee1ea02ed48c04d475fb57800；2026-11-16 16:13:14 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -55,7 +55,7 @@ R886/897同原finite/wild split范数、统一格及spDn=Ep,n cn全证，Ep,n整
 
 四原S34/T72/U136/V66及全部CM13/Euler/Schwartz/p²p³/通常全Selmer不变。E−11 rank≥2已付，仍须同一无穷p原J′非零。共同C24真三行/原c*不删。
 R863/H22、R876/879及R884A–I全部trace/new/cross/质量与高位缺陷保完整H。Ĉp=(p+1)cint、DR3/Γ16/Fermat项不删；U三纤维run43870426107成功不赋中央零。
-[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)保全部CM/torsion cocycle、绝对sigma/初值、有限p基/adj及单因子完整A-root trace/exact。§16固定m/Miller读数与法向p曲率保；§17同P6·P_(m−6)真保原α/五块窗，双因子消全Z额外极，二挠极<2p³加偶性得完整C³η[2]=−α^(1/p³)rω。首次C准确读同Q6 Qb Rν的γ1^(1/p)，两个旧补偿各成模型差。四指定双线性方向仍须联合非零，不增加中央条件或更改p²/p³预算。
+[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)保全部CM/torsion cocycle、绝对sigma/初值、有限p基/adj及单因子完整A-root trace/exact。§16固定m/Miller读数与法向p曲率保；§17同P6·P_(m−6)真保原α/五块窗，双因子消全Z额外极，二挠极<2p³加偶性得完整C³η[2]=−α^(1/p³)rω。首次C准确读同Q6 Qb Rν的γ1^(1/p)，两个旧补偿各成模型差。§18全Hurwitz顶边∂^pF_m=−mcp(Fp+v)F_m，真实T由原a_(p−1)/非齐次cpFp作固定m−1逆链读取，r相位/卷积保。四指定双线性方向仍须联合非零，不更改p²/p³预算。
 
 ## 第三门：同P/R/S与全实际有限类
 

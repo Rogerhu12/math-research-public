@@ -1660,3 +1660,189 @@ $$
 (86)本身没有增加第五条中央条件。
 
 本节为手证的原窗口、全部极与有限 $p$ 基运算，没有数学执行或目标素数扫描。
+
+
+## 18. 原四个倒幂的完整 Hurwitz 顶边与同 Z 的非齐次链
+
+本节仍保持原 $b=1$、$p=6s-1>211$ 及四个实际
+$m=34,72,136,66$。参数点记为 $B$，以区别于形式平移变量 $v$；
+$D_Bx=2y,\ D_By=3x^2$。以下所有 $D_B$ 都先在整条原曲线上取，
+再在有定义的点特化，不能把它当作原除子 $Z(B)=0$ 上的导子。
+
+令
+$$
+F_m(B,v)=\mathscr S_B(v)^{-m}
+=\sum_{n\ge0}J_{m,n}(B)\frac{v^n}{n!}.
+\tag{94}
+$$
+这里 Hurwitz 记号表示完整分次幂级数。
+它由以下原初值唯一确定：
+$$
+F_m(B,0)=1,\qquad
+\partial_vF_m
+=m\left(\sum_{i\ge0}D_B^ix(B)\frac{v^{i+1}}{(i+1)!}\right)F_m .
+\tag{95}
+$$
+在特征零，(95)正是(73)、(77)所用同一个
+$e^{-\zeta(B)v}\sigma(B+v)/\sigma(B)$ 的 $-m$ 次幂。
+(95)对 Hurwitz 系数的递推只用整数二项式和原整导子 $D_B$，
+所以全部 $J_{m,n}$ 都在原
+$\mathbf Z[1/6,m,x,y]/(y^2-x^3-1)$ 中。
+因此下面的全 Hurwitz 约化不依赖一个未付的奇 degree whole-theta 整性结论。
+
+### 18.1 完整顶端不是零，而是同一个原 Fp
+
+在特征 $p$ 的完整 Hurwitz 环中，准确有
+$$
+\boxed{
+\partial_v^pF_m
+=-m c_p\bigl(\mathscr F_p(B)+v\bigr)F_m.
+}
+\tag{96}
+$$
+特别
+$$
+\boxed{
+J_{m,p+k}
+=-m c_p\bigl(\mathscr F_p(B)J_{m,k}
++kJ_{m,k-1}\bigr)\quad(k\ge0),
+}
+\tag{97}
+$$
+其中 $J_{m,-1}=0$，$k$ 按其特征 $p$ 的像读取。于是
+$$
+J_{m,p}=-m c_p\mathscr F_p(B),\qquad
+J_{m,p+1}=-m c_p\ne0.
+\tag{98}
+$$
+第二个式子用 $J_{m,0}=1,J_{m,1}=0$；
+它是原负幂单位截面的顶边，不是任一 $A_\nu$ 的中央零或非零结论。
+
+为证明(96)，置
+$$
+h_m=m\sum_{i\ge0}D_B^ix(B)v^{[i+1]},\qquad F_m'=h_mF_m.
+$$
+正增广 Hurwitz 元的 $p$ 次幂为零，故 $h_m^p=0$。
+但 $\partial_v^p$ 在完整 Hurwitz 环中不是零导子。
+标量 Bell/Jacobson 恒等式给
+$$
+F_m^{-1}\partial_v^pF_m
+=h_m^p+\partial_v^{p-1}h_m.
+$$
+原超奇异曲线上的 $D_B^p=0$ 使后一式只剩 $i=p-2,p-1$ 两项。
+再用本篇(50)的准确原归一
+$$
+D_B^{p-2}x=-c_p\mathscr F_p,\qquad
+D_B^{p-1}x=-c_p
+$$
+即得(96)。这里没有以普通截断多项式环中的
+$\partial_v^p=0$ 替代实际 Hurwitz 作用。
+
+### 18.2 原 r 相位准确把常数项变成 Z，而不是免费删掉它
+
+记完整 Hurwitz 指数为
+$$
+\mathrm E(u v)=\sum_{n\ge0}u^n v^{[n]},
+\qquad
+\widehat F_m(B,v)=\mathrm E(mr(B)v)F_m(B,v).
+$$
+本篇原式 $\mathscr F_p=Z+c_p^{-1}r^p$ 给整个参数族上的等式
+$$
+\boxed{
+\partial_v^p\widehat F_m
+=-m c_p\bigl(Z(B)+v\bigr)\widehat F_m.
+}
+\tag{99}
+$$
+事实上 $\partial_v^p$ 是导子，
+$\partial_v^p\mathrm E(mrv)=m r^p\mathrm E(mrv)$；
+与(96)的常数项相减后恰为 $-m c_pZ(B)$。
+这个相位是同一个原 $r=x^2/y$，没有另选常数。
+
+在每个实际 $Z(B)=0$、$B\ne O$ 的点，$r(B)$ 正则，
+所以(99)可合法特化。若
+$\widehat F_m=\sum\widehat J_{m,n}v^{[n]}$，则
+$$
+\widehat J_{m,r_0p+k}
+=(-m c_p)^{r_0}(k)_{r_0}\,
+\widehat J_{m,k-r_0},
+\qquad 0\le k<p,
+\tag{100}
+$$
+右端在 $r_0>k$ 时按零读取。
+尤其这些特化后的全 Hurwitz jet 在索引至少 $p^2$ 时为零。
+这由 $\partial_v^p\widehat F_m=-m c_p v\widehat F_m$
+反复作用直接得到：$\partial_v^p(v)=0$，
+而完整 Hurwitz 环中 $v^p=0$。
+
+(100)并未改变原 $T_{m,p}$。
+令 $\widehat a_i=\widehat J_{m,i}/i!$，原读数仍准确为
+$$
+\boxed{
+T_{m,p}(B)=
+\sum_{j=0}^{p-m}
+\frac{(-m r(B))^j}{j!}\,
+\widehat a_{p-m-j}(B).
+}
+\tag{101}
+$$
+每个指标严格小于 $p$，故全部阶乘是单位。
+这是原(84)中指数相位的同一低窗运输，不能只保
+$\widehat a_{p-m}$ 或将其余项删除。
+此外(99)在零点的法向常数项导数是 $-m c_p$，因为 $D_BZ=1$；
+所以仍不能对已经令 $Z(B)=0$ 的式子自由取 $D_B$。
+这一点与(80)、(81)的实际法向单位相符。
+
+### 18.3 四个 T 的固定长度逆序链及必须保留的实际顶值
+
+写 $a_n=J_{m,n}/n!$，仅对 $n<p$ 使用这个普通系数。
+由原(78)及(98)，最高一步准确是
+$$
+\boxed{
+D_Ba_{p-1}+m x\,a_{p-2}
+=m c_p\mathscr F_p(B).
+}
+\tag{102}
+$$
+也可完全用整 Hurwitz 式核对符号：
+$J_{m,p}=D_BJ_{m,p-1}+m x(p-1)J_{m,p-2}$，
+且 $(p-1)!=-1,(p-2)!=1$。
+
+对同一个指定 $m$ 令
+$$
+A_{r,m}=a_{p-r},\qquad 1\le r\le m .
+$$
+在 $x\ne0$ 的开集，完整反向读取为
+$$
+\boxed{
+\begin{aligned}
+A_{1,m}&=\frac{J_{m,p-1}}{(p-1)!},\\
+A_{2,m}&=\frac{m c_p\mathscr F_p-D_BA_{1,m}}{m x},\\
+A_{r+1,m}
+&=-\frac{D_BA_{r,m}+(r-1)A_{r-1,m}}{m x},
+\qquad 2\le r<m,\\
+T_{m,p}&=A_{m,m}.
+\end{aligned}}
+\tag{103}
+$$
+因此四个原 $T_{m,p}$ 各由固定的 $m-1$ 步从真实
+$J_{m,p-1}$ 与同一个非零 $c_p\mathscr F_p$ 读出；
+$D_B\mathscr F_p=1$，故该已知项的后续导数也完全固定。
+(103)的 $A_{1,m}$ 是(94)、(95)已经确定的实际多项式，
+不是四个可独立选择的参数。
+
+(103)中除 $x$ 只用于显示这个逆序式。
+在 $x=0$ 处，应使用清分母后的(102)、(103)；
+由原整系数构造，全部 $A_{r,m}$ 本身仍是原正则多项式。
+不能凭逆序式的形式分母添加或忽略额外极。
+
+这条链保留了此前低递推之外的实际非齐次顶边。
+它尚未证明本篇(90)中四个
+$Q_6Q_{m_\nu-6}R_\nu$ 的指定读数不能同时为零：
+(98)的单位属于平移负幂单位截面，
+(101)的原相位以及(103)的实际顶值都还在。
+后续若将(103)转置到四个原 $DR_\nu$ 或同 $Q_6$ 配对，
+必须同时运输这些项，不能把顶端单位直接当成原 $\alpha_\nu$。
+
+本节为原 sigma 单位初值、完整 Hurwitz 递推和同一原 $Z$ 的手证；
+没有数学执行或目标素数扫描。

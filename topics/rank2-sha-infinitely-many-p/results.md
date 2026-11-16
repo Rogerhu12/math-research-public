@@ -330,3 +330,5 @@
 - [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：同原P的小分裂素数/精度续接完整已证：Sage10.6源码付LinBox模数上限94906266，CI在[1000000,1001000]内选首个合格素数；原完整1226×1056/三根/全基与char0末端不变，512→1024从已验向量真整除续接，底域chart只算一次。无高度界、无预报PASS；旧P256/F任务继续。
 
 - [R903](results/R903-original-positive-horizontal-endpoint-and-joint-normal-values.md)：原全四块核的正水平值V1−3bV0单射已证：最高charge真帽ord0 a≤3(e_++μ01)、全局L=E−3b除F及最高系数逼c0。原r2/m0=3/b≥5时κ≥(b−3)e_++3b自动付帽门，非零核必要T+e_+≤3κ；同U±保共同V2与D3(U−−U+)=3b res U−，不相加独立秩或认实际像满。
+
+- [R887 §18](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原四负幂的全Hurwitz顶边∂v^p F_m=−m cp(Fp(B)+v)F_m已证，Jp=−mcpFp/Jp+1=−mcp；唯一原r相位改常数为Z而保全部低卷积。真实T_m,p由原a_(p−1)和同非零cpFp作固定m−1步逆链读出，不能删顶值、跨Z零纤维微分或认四α非零。
