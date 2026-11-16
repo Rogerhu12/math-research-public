@@ -448,3 +448,5 @@
 - [R480：有限完整C²观测支付全第三外矩与零矩prototype重复漂移](results/R480-finite-full-third-outer-moments-and-zero-matrix-prototype-ruling.md)（已证明）：全部28交换子self保Green尾并降为quartic C²，≤10平移给≤924有限生成观察；原十矩/12copy/五block消任意3×3有序核，和原q4/20目标从起点同点实现。全W三外矩全角0，任意真A0块重复K相同但b可变；单份K0/A≠0桥/全部V及同新库actual关系仍欠。
 
 - [R481：每个精确平端cap五门处处正则与真实有限径向下降](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)（已证明）：原12项Euler分级给−3P7κ¹⁰U⁴，含P7在平端的有限阶零；任意解析尾内窗可取5个真紧支控制。Δ6纤维余4门处处满秩，每个非零残差可有限下降，无内部非零局部极小；未付统一步长/紧性/全局零目标。
+
+- [原冻结ψ3完整复帽积分严格非零：唯一公开区间观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)：ImE完整界严格正，含有理Af根/复参数/可变上限/解析平端tail；25叶84jet、0旧重算、0失败，新0.3593075210000052秒。该冻结库h不在span(y)，只在R466同Jaff/canonical正时长/同端口/M0范围形成actual障碍；新cap全局五门及主几何继续。

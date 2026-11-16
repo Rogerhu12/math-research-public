@@ -26,9 +26,9 @@ R465/466：完整成本商S(W0)/S(K0)维7/5，XH=H*+J4、XY=J4−J6；真换锚�
 
 R470原85记录（[来源](notes/weight-zero-four-complete-self-first-observation-20261116.md)，含失败15.690763111秒）付两补响应完整self仍旧三维，XY余x5<0故y≠0；XH恰原Ln2真左积分。R471以真实八A_j/六β给五门Δν=R5βν−Rνβ5=0，ν1,2,3,4,6，iff联合比例，唯一c=1152β5/R5；任一非零minor给真实分离行。真Af给5h>3s²及A0/A7界；四局部列共a，复根余量E=3/8∫B²C²dC不能由q>0判正。
 
-R475付四高系数minor D=4s(19s⁴−34hs²−h²)<0，完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0；真实正曲率密度v=p^(2/3)族中Δ6两号，有限中值cap清一门，再从头接q4/F★/20/M3库。R477以长微小正尾/三累计准确匹配保根整germ，付DΔ6≠0真normal；分离五点C³小/第四阶有限大jet和远处normal纠正，给同Δ6=0内其余四门局部满射。**局部像开放不证明0可达**。 R479在当前wholeE/O_all0/current0与全role/affine框架证明多cap必须各自过五门，并共用c、A7/s、A0/(h³s²)；partial逐包向量不容正权平均。未排保非零current等新机制，[R481](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)用原密度全部12项与多项式平移分级，付任意非零门组合Euler~−3P7κ¹⁰U⁴，含P7平端零阶；故每个允许cap任一解析尾窗五个真compact控制满秩。每个非零残差可有限径向下降，Δ6=0内四门处处submersion；无内部非零局部极小，尚欠全局0/统一边界控制。
+R475付四高系数minor D=4s(19s⁴−34hs²−h²)<0，完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0；真实正曲率密度v=p^(2/3)族中Δ6两号，有限中值cap清一门，再从头接q4/F★/20/M3库。R477已付正则Δ6 normal及同纤维四门局部开放。**局部像开放不证明0可达**。 R479在当前wholeE/O_all0/current0与全role/affine框架证明多cap必须各自过五门，并共用c、A7/s、A0/(h³s²)；partial逐包向量不容正权平均。未排保非零current等新机制，[R481](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)用原密度全部12项与多项式平移分级，付任意非零门组合Euler~−3P7κ¹⁰U⁴，含P7平端零阶；故每个允许cap任一解析尾窗五个真compact控制满秩。每个非零残差可有限径向下降，Δ6=0内四门处处submersion；无内部非零局部极小，尚欠全局0/统一边界控制。
 
-R473固定末三矩/端芽的真compact扰动使E非零开稠密；R474用四内部normal真IFT补q4，再重选F★/20根得新完整库E≠0。R478以完整八次primitive/三重因子反证付临界power E≠0；C²分部连续性与实际正密度近似给光滑非零cap。均不判全部cap或旧ψ3；文学线正准备冻结ψ3原积分的新严格区间观察，机制线继续全五门真零目标。
+R473固定末三矩/端芽的真compact扰动使E非零开稠密；R474用四内部normal真IFT补q4，再重选F★/20根得新完整库E≠0。R478以完整八次primitive/三重因子反证付临界power E≠0；C²分部连续性与实际正密度近似给光滑非零cap。新[原冻结ψ3观察](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)已严格得ImE∈[1.7333041007e−16,3.5283382088e−16]>0（精确完整界见原文），含真实tail≤1.6606845819e−34；故该冻结库h∉span(y)，R466同Jaff/canonical正时长/同端口/M0有正字符障碍。不排新cap/一般族，继续真五门全零。
 
 R469：一个端芽锁第三三矩，全段变化=𝒫*Bθη；gap全s盲，母/平台须同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，真实Mraw相对prefix不由总M0支付。
 
@@ -48,4 +48,4 @@ R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使�
 
 [准确支撑metadata续入口](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)唯一继续run43827509699/research133164733399/source513aa99d7c361bb67dbc1d04e32f3d563fe6b1b9正在执行。原classify仅读left/right，直接取已绑定basis的准确9/250、423/500，不重造子空间或猜layout；5743逐序/installed/5+4仍全部保。前两次失败[首记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)/[布局记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)均0finite/JVP/新行/actual；同task **91.37788493000002秒**已付，累计 **1750.3576756209998秒/128值**。延续同600秒，保restore1/repair1再明确加1repair，其余全部配额不重置。2源码/242绑定，request54948B/5c881dfd…；首次9662行尚未求解，完整合格后才原guard/14门，旧科学不重跑，payload仅原stdout。
 
-R481已付处处五门正规与有限径向下降，继续全局0；R478保临界power非零与实际近似，[冻结ψ3完整E区间任务](notes/frozen-psi3-complex-cap-interval-design-20261116.md)run43827984553/research133166230952/source5104179cb2ce1131f849ce0b2a224a021691d91c已完成，原结果正在记录；新240秒/256bit整数区间/六阶余项/真实平端tail，携原四self15.69076311099991秒，0旧85重算；R480已从头付全W外矩/任意A0重复无漂移，继续单份K0和A≠0桥。主完成门未付，任何有限任务/阶段都不结束主课题。
+R481五门处处正规与有限径向下降已付，继续全局0；[冻结ψ3完整E](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)一次严格非零，run43827984553/research133166230952/source5104179cb2ce1131f849ce0b2a224a021691d91c。25叶/84jets/0fail/0old，新0.3593075210000052秒、连旧四self16.0500706319999152；该目标闭合不重跑。R480从头付全W外矩/任意A0重复无漂移，R482继续单份K0/A≠0桥与同13规范。主门未付，继续open。
