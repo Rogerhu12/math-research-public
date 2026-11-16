@@ -155,7 +155,10 @@ def read_source(row, work, output):
         assert str(rr["workflow_run_id"]) == str(item["run_id"])
         cr = m.read(out/"core-receipt.json") if "core-receipt.json" in names else None
         if cr is not None:
-            assert cr["result"] == manifest["result"] and cr["source_sha256"] == ini["core_sha256"]
+            actual_core_sha = cr.get("source_sha256", cr.get("core_sha256"))
+            assert cr["result"] == manifest["result"] and actual_core_sha == ini["core_sha256"]
+            if "source_sha256" in cr and "core_sha256" in cr:
+                assert cr["source_sha256"] == cr["core_sha256"]
         if item.get("core_sha256"):
             assert ini["core_sha256"] == item["core_sha256"]
         special = {}

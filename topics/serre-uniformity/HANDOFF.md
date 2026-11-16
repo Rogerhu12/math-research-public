@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；远端main继续，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：754eeff98d66f5cb6f8515d5bf9ef856839c1f8f**（2026-11-16T08:24:41.196685+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-original-CM-constant.md)（9727B/011e6cb4），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：bed3fdd60cee8976a1554c97feb5a1663d5a2fa1**（2026-11-16T08:26:32.530871+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-original-CM-constant.md)（9727B/011e6cb4），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
 
 每结论立即推；每push前和至少每小时真实pull，NFF/ref竞争立即pull --rebase再推循环、禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main与索引。07:19共享终端失联后由公开恢复workflow实际git发布，仍partial/sparse；新数学仅本公开Actions，本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，当前必要源仅单日artifact。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -24,7 +24,7 @@
 
 **A.1**：七小L真条件不代A0−qB0=0。原full43790194976真BudgetStop/124，370current11a4f187、371正残差f26fe3db、原target000a9bbc/Jb384a331/1481原源全部保；详[激活](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)。半坐标coreffe5dcff/wrapper1552e403/request9492c873只七支17920RR再全35840准确乘回；HP.2合法完整current反例或全Theta/Delta才判A.1，RR失败不拒q。不混primal570。
 
-**R854/R858**：R854实际exit125/非外层timeout，532stage/artifact14207739171/b0a8babc；停止原因及所需新精度正在读取，R858不启动。同2420/free1186/full2560，S_m与DVR逐行左逆界/原两分母全保，1645叶+20元数据续；N_B56/目标7仅控制。R858 pending5288ae54的source与两input仍null，helper767b01cb/core85fd249b/wrapperfb77d8fb。只真R854球闭包后激活；原ZP=(Z42−β42)/42正号、t/u双条件、整数H_n与全tail、完整负赋值σ/Trace14/2/cχ不改。辅助ℓ/目标精度不代41实际精度。
+**R854/R858**：R854实际exit125/非外层timeout，532stage/artifact14207739171/b0a8babc；首纯IO因原core_sha256字段差异停止，现修正只读适配后续读，R858不启动。同2420/free1186/full2560，S_m与DVR逐行左逆界/原两分母全保，1645叶+20元数据续；N_B56/目标7仅控制。R858 pending5288ae54的source与两input仍null，helper767b01cb/core85fd249b/wrapperfb77d8fb。只真R854球闭包后激活；原ZP=(Z42−β42)/42正号、t/u双条件、整数H_n与全tail、完整负赋值σ/Trace14/2/cχ不改。辅助ℓ/目标精度不代41实际精度。
 
 ## 原Y：已成准确源与正在执行的矩阵
 
@@ -39,6 +39,8 @@
 **R873原循环7纸证已闭**：[完整e6401ca8](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)与[消费者](notes/R873-original-cyclic-seven-correspondence-activation.md)。原8H+4E/2058截面、110阶注入、真P与靶w=K/P′、∞尺度/椭圆4E与−3下降保真；真dual同源交换给R870方向和c0c1。coreefe62506/wrapper03c2d227/request846d9850，300min仅四M2新尾196..763、八节点范数、17rhs/2058新逆。源码6d5ab806后首dispatch404，恢复a07453ec已接受run43830067416，当前queued无job；无重复数学。旧2050minor不冒新逆，实际系数/η支持未成。
 
 **必要原源续载已成**：[完整运输记录](notes/2026-11-16-required-original-source-intake.md)与H归档保全部SHA。纯IO43826442405/artifact14206388855保R7992050原V8 tar175356258/df08e833、R801 q109 tar152592418/e9595cc2；43827207676/artifact14207385683保R80082E1+四M2/旧carrier tar7217285/113be338、R827七件tar10114176/d5a5641a。原身份/manifest不改，R827 failure124/no-FINAL真实保留；新消费者直接复用，无数学重做。
+
+**R877单A源续接**：[真实IO激活](notes/R877-original-single-A-source-intake-activation.md)。先读原R827 B/旧逆，依Bnormal逐spec取原R787的1234行；R842旧8MB S5/R849十小源并行，全部原artifact仍活跃。只新A右端待算，旧B/矩阵/逆不重做。
 
 **真正高度缺口**：FM a5d65aa4/YP bdbb6cc5仍需原128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N和完整nonp。原I_Z不是real-descent Lj³，c0/h与c0/c1方向不改。R862已成d_A=1596092727686814808731/E_Aφ*=0不代YP投影。R330/R596原Y各块L1=0，秩零绕路闭；UE第二类全函数相消仍有dY+2 period，End⁰G=F、非零torus商≥g+1、μ3 qφ*=0均不删Y。
 
