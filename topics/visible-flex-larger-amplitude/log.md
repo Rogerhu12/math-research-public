@@ -406,3 +406,7 @@
 ## 2026-11-16 06:19 UTC /root — Request214实际公开运行绑定
 
 [R482/214完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)实际入口 `29df28d35ef85a7c4a6474c28451c58d9f25c802`，公开Actions [run43815427382](https://github.com/Rogerhu12/math-research-public/actions/runs/43815427382)于2026-11-16T06:14:42Z/attempt1启动；compute133126277648在06:19官方metadata前1–12成功，第13原完整continuous E cover运行。R484由geometry唯一终态读取，未取running日志；当前执行状态不补完整采样、真453/450父、闭面或固定g精化。入口官方topic tree `848edead50260fccf5f3c8a889c98cc9cd24c232`：9274blobs/196948669B、9646entries，truncated=false。
+
+## 2026-11-16 06:21 UTC /root — R485原必要字段的固定语义共享
+
+**R485：固定必要语义的无损共享；无新科学结果。** [证明](results/R485-fixed-semantic-sharing-of-native128-necessary-metadata.md)11765B/936a5403、[接口](notes/2026-11-16-request215-shared-necessary-metadata-interface.md)17803B/05f4f38b及reader46653B/d2f2b000本次刊。保原204全部selected科学字段、统计、trial/地址/顺序、缺键/null、数字原词与负零；只共享实际canonical全字相同的固定header、明确同值且更短的描述符及实际完整读取的空工程文件，每个原地址和完整身份保留。原科学选择、16KB工程文字范围、90KB硬上限/超70、原quiet/清理逻辑不改；111829B旧正文未返未作fixture，容量与运行结果不保证。独立215保原94pins加此reader成95，原四科学/生命周期源全字复用，19200钟/32×10/2e-9/全部末门不变；仅来源、命名空间与真实reader/schema接线不同。原native204事件/close文件标为保留producer协议，不冒新215来源；请求/workflow下次独立推，R486/amplitude唯一终态。 open§2仅压缩R476/212重复并链a8ed5448原字，§4–6逐字不变。

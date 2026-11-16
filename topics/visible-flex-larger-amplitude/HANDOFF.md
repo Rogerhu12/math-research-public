@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 06:20:11 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cb442852a1d849a87f15564f92f8ca42b53df575。
+规则同步记录：2026-11-16 06:22:12 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 0c6fdde08ab207ef99c7d3cb29580f2c4f78e9a6。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -50,7 +50,7 @@ R479三核心a9ff7bec保固定必要语义、相邻原行序/完整角色位置�
 
 临时源在/workspace/visible-larger-working；遗失依已刊原源/完整接口重做，不靠已删raw。root唯一Git/ref，每结论立即推、每pull核双README。源文/完整证明写成即登记，不等额外审查或重跑。
 - geometry：唯一209/R469、212/R478及未来214/R484终态。214四源及R482/接口已0e78e97f：composer25592/7ca36597、owner25558/5b9e9039、runner48849/39f1d36c、reader42106/b4106f39；proof16368/6ad857f4、interface21164/396a2ca0。原245+15保，新增6得251+15/266；depth2真实传三级，唯一18900+2700钟、全原门/九scope/quiet保。request42062/c81530fe、workflow97252/9ce85151已29df28d3；实际43815427382/133126277648已官方绑定，完整manifest7518/7e736583。
-- amplitude：唯一211/R475终态。R446已刊fedcc67e；续R485三件d2f2b000/936a5403/05f4f38b与215入口2bceb3ea/7bf02c8b已交待root发布（R486实际预留），原204四科学/lifecycle全字复用、94→95 pins/19200/32×10/单90K/70保持，完整原值/错误/地址不得删。
+- amplitude：唯一211/R475与未来215/R486终态。R446已fedcc67e；R485三件d2f2b000/936a5403/05f4f38b本次刊，215入口2bceb3ea/7bf02c8b下一独立推。原204四科学/lifecycle/94pins全字保，新增reader得95；19200/32×10/2e-9/单90K/70/quiet不变。完整原selected值/错误/地址/数字词保，只实际同值固定语义共享，不保证装下；不新增fixture。
 - exact：唯一207/R460、208/R467、213/R480终态。续R483准确coast helper+metric实际adapter，保72c定义/7ded compiler/field身份，初点factory域仍未付；真正接原Prefix.inspect和R459目标调用，不猴补旧模块全局。后续216/R487接口/R488实际预留，214/215范围不混。已刊R481原证明只标题删“最窄”，正文未改。
 - root：R482六件0e78e97f、214入口29df28d3及实际绑定已刊；继续R485/215、R483/216和open下项。实际partial/失败/接受分责，未启动不补拒；不停在阶段报告或等待用户。
 
