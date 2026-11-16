@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：5ebcfafb1c0bf72618a50de1f974c5d46d13ff58；2026-11-16 00:29:48 UTC核两README无变。实际CI pull 2026-11-16 00:28:24 UTC/c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 00:29:47 UTC仍无环境。最迟2026-11-16 01:10 UTC再实际pull。
+- 最近已读规则提交：420baee5f4125b6e1a4fdd545b26f63cba1f0657；2026-11-16 00:31:18 UTC核两README无变。实际CI pull 2026-11-16 00:28:24 UTC/c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 00:29:47 UTC仍无环境。最迟2026-11-16 01:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,8 +11,8 @@
 
 ## 全文检查点与当前分工
 
-[本次压缩前全文](notes/2026-11-16-frontier-before-fixed-algebraic-pool.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保全部旧公式、十九角/ray、运行来源与未付门；压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–841已登记；R364/R561/R654/R712和主目标开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep的R842实际GRes双分歧转置已成稿待核；literature续实际genus≥4与原λ/17角色来源；theta续四共同Rν/第五Cartier伙伴；root核证明及实际CM曲线/canonical比较。下一独立编号R843由root协调。
+[本次压缩前全文](notes/2026-11-16-frontier-before-r842.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保全部旧公式、十九角/ray、运行来源与未付门；压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–842已登记；R364/R561/R654/R712和主目标开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep续R842实际二层耦合延拓；literature续实际genus≥4与原λ/17角色来源；theta续四共同Rν/第五Cartier伙伴；root核证明及实际CM曲线/canonical比较。下一独立编号R843由root协调。
 实际CI pull 2026-11-16 00:28:24/run43780555047/job133016530341成功，head c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb；两README差异空、blob不变。回执ci/rule-pull-20261116T002824.json，下一01:10前。R818/820/830成功run/source/args/hash见各证，不复跑；R830初版18/288误用已修。竞争拒推均立即本地pull重试失败，再新head非强推成功。
 
 ## 原唯一端点与真实几何
@@ -28,7 +28,7 @@ R841附录A在整个Hom(JC,E0)上平均Σ[ω]^-a φR^a，保持原Γ_i后可选�
 
 R838原A_p=E[t]/t^e、exact=mM，选良好惰性ℓ*使t=Tℓ*；dν=a1(t^(e−1)Pcrit Hν)读cohom商，三端点共用非零P_f,p,ℓ*。附录A保原Ξ两项消元得Hν=4θ⁻¹g_j^[p](g_k−πVg_k)(Q⁴)，AJ=(E1β/Eβ)P dν，E1β=1−π⁻²，Eβ=(1+barπ/π²)(1+π⁻¹)²(1+barπ⁻¹)；不预认单位，完整Pcrit随p读全尾。
 附录B付实际R=E[[τ]]、τ=Tℓ*、x=w=uτ^e及全fiber a1双对偶；真实CM Hida输入的系数Cν=bν/w′，lim eτ^(e−1)Cν=dν。附录C付原三阶平移/全Igusa、完整packet E0=0，χ−3自扭τ↦−τ，所以e=2s_p、u/bν偶、Cν奇，余项O(τ²)。真实商v=τ²保Cbarν=2τCν及lim s_pv^(s_p−1)Cbarν=dν。未假noble/e2/第一支CM或ordinary；指定主极项非零/canonical比例仍开。
-R835互素CM导子修复迫混合根数−1、三重积复秩≥2。高度范围保YZZ指定σ尖点坏位误差，λ⊗λ∨角色相消不杀2/3/17垂直项；CG2/Marannino/BB原引用条件详归档，均未付原比较。
+R835互素导子迫混合根数−1；原坏位高度、CG2/Marannino/BB引用门详全文归档，均未付canonical比较，不能删YZZ指定σ误差或2/3/17项。
 
 ## 四原中央与实际 Cartier 来源
 
@@ -44,10 +44,12 @@ R835互素CM导子修复迫混合根数−1、三重积复秩≥2。高度范围
 
 始终原M=c*U0 w13J、P134/charge40、13free/26carry、conductor10980、十九角和全部WD余列。T_M=s−r−13、T_J=s−r；same-R高位/完整normal/两13及d₂不拆。
 R834在h<T≤2h,T>2κ的原H3子格上，I=FH2+eH2三长单射；全H3有限RR/属界与临界199κ/48（199/216）见原增补，不改全Bost预算。R836保同qsrc/w^(13+r)低行、受限D3/同H2，旧全部q t^rFB族已排。
-[R840](results/R840-original-double-ramification-euler-image-and-unique-normal-tail.md)：原E²H3→2Z全像ker res Z_-、余核z_-≤2；来源核FH2+e²H1。兼容(V0,V1)定唯一2Z值；H*=min(T,h+ell_eff)>κ，V2同此值及前缀f2−ηf3若存在则唯一。三曲线值全提升G2+cF³，同c由第三尾6e³η定；第四前min(ell_eff,T−h)并入V2，余尾同G*。联合Serre左行Q=H0(ωN⁻¹(H*P))、dim H*−(κ+χ)/2保所有分支/导子和qsrc导数。实际forcing/全WD/高位未闭。
+[R840](results/R840-original-double-ramification-euler-image-and-unique-normal-tail.md)：E²H3→2Z全像ker res Z_-、余核z_-≤2，来源核FH2+e²H1。兼容(V0,V1)定2Z值；H*=min(T,h+ell_eff)>κ时同此值及前缀f2−ηf3的V2唯一。全提升G2+cF³，同c付第三尾6e³η，第四前min(ell_eff,T−h)已并入V2、余尾同G*。完整Serre左行及qsrc导数保原证；实际forcing/全WD/高位未闭。
 R837实权给全有限参数三长7q(H−r)≤3B_D²+56D、两长4q(H−r)≤3B_D²+32D，无截除/重数门；原十九角/13/39carry和准确48D/q保。自然三长临界47/12余q1/2，旧47/8另有第三长才余q1。
 R813/R822原ResP=γ/6单位，但完整γ/6+G_F+B_F=0；分歧GRes读W_sFt²E²R/Y²，不能删全边界。镜轴[十九角原框](notes/2026-11-15-original-global-euler-frames-and-complete-alpha-residue-pair.md)保2Aηde同一全局延拓、α*两项相消、x^(3b+c)尾/3s>(3b+c)deg_tF门与r≤11的13尾。
-R833全D_E像ker res Z_-，z_-≤2，原核的E_+^-1(eL)+V高前缀及真正E_q normal限制保归档；不代受限满射。R842实际2Z转置和联合高前缀延拓正在核稿。
+R833全D_E像ker res Z_-，z_-≤2，原核的E_+^-1(eL)+V高前缀及真正E_q normal限制保归档；不代受限满射。R842已付下述指定联合判据。
+
+[R842](results/R842-original-gres-double-ramification-transpose-and-joint-prefix-extension.md)：原d:H0(2Z,N³)→H0(Z,N³)的真框转置d∨H=Hf2−e(DH+(c−a)H)，全部十九角/两种lift齐付。实际GRes给λ0=t^r(Eqsrc)A_s、λ1=t^rqsrc A_s，原密度/固定2Z补零保；E²q项由同兼容式合并。其在P_T上恒零iff同ν与ω0/1∈H0(ωN⁻¹(TP))满足λ0−d∨ν=resω0、λ1+eν=resω1；完整左端H0(ωN⁻³(TP))不丢。仿射值为−ResP((j0ω0+j1ω1)/e²)。仅对受限三长核充分，实际延拓/全部边界仍未解。
 
 ## 其余未闭门与完成量词
 

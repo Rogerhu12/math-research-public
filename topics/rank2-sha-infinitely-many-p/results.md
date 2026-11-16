@@ -308,3 +308,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R841 原等变曲线像的最低亏格](results/R841-original-cubic-normalizer-and-endpoint-chow-purity.md)：附录A在真实Hom(JC,E0)上三项平均，保持整个原Γ_i及其有限展开，得到每个实际ΦR=[ω]³Φ。生成E0³的像正规化有三条ω微分，canonical映射核≤2排属三，故最低属四。属四时完整cyclic line-bundle/RR含degree-zero扭曲，迫商P1、六branch同monodromy、signature(3,1)，模型y³=c∏6(x−ba)，且连通椭圆核的阶三作用给J(D)∼E0⁴。原有限推前degree、1/3展开系数与6/12/1632/816全保；这些只是原表达的必要条件，未认任意六点模型具有原17角色或canonical非零。
+
+
+- [R842](results/R842-original-gres-double-ramification-transpose-and-joint-prefix-extension.md)：原有限Euler读数因子化2Z→Z，完整Grothendieck留数转置为d∨H=Hf2−e(DH+(c−a)H)，十九角真框/两种lift/固定边界全部支付。原GRes变成同(V0,V1)的确定λ0/λ1，qsrc第二导数按同兼容关系合并，未删。完整Serre对偶序列保H0(ωN⁻³(TP))，给同ν与ω0/ω1的两行全局延拓充要判据及真实仿射−ResP值；不假环境满射，对原更小三长核仅充分，实际指定延拓与G_F+B_F补偿仍开。
