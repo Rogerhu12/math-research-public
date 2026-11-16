@@ -130,8 +130,10 @@ R515缓存的对象是**一次真实 `physical_jets` 调用内**不随角行改�
 | 每个局部RK状态 | 226项，包含两mean |
 | 完整stage rectangle | 576段 × 224方向 |
 | 径向状态资料 | 577个node，不能改称577项局部状态 |
-| 原物理jet输出 | 112 height + 1 mean + 112 slope + 1 mean + 112 second = 338 |
+| 原物理jet输出及J行序 | slope112、second112、meanSlopeCorrection、meanSecondCorrection、height112，共338 |
 | 原完整物理J | 338 × 112，原mixed导数合同 |
+
+**行序勘误（同日）：** 原发表计数组合误写成另一排列。a090 endpoint与08d48 assembly的真实顺序是上表所列，AffineTail只取其首112个slope行；225请求中继承221的 `original_scientific_contract.output_jets_order` 历史说明同样误述，但不参与实际索引或求值。冻结运行源、数组及请求字节不追改。
 
 原投影仍是明确整数RN-even binary128→binary64，signed zero保留；原hex residual/mean以及normal-response的JSON文本转发保持。worker不经一次Node parse/stringify改写响应字值。可选预测子失败不新增接受门，旧状态也不冒新的当前H解。
 

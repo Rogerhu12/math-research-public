@@ -15,7 +15,7 @@ topic前缀是 `topics/visible-flex-larger-amplitude/`。只发布下列正常�
 | notes/r527-live128-paired-cache225-complete-source-plan.json | 55391 | 6e8109e64bafb6e78428298ccc25a5b4d71df29c0b224b0ea20076da006dd1c6 |
 | computations/public-live128-paired-cache-original-full112-FD-fullDN-request.json | 64734 | 42fe3eff48338d540707c690d6aadd0cfdfeaa278a1145b1db885bea9df37285 |
 | 根路径 .github/workflows/visible-larger-public-live128-paired-cache-original-fullDN.yml | 18518 | 5ed7a2c3fd2fdab0d2fe02aeb050a07e3bfe8f3344b23ba3bd16f7573b274d53 |
-| results/R527-live128-paired-stage-and-radial-cache-complete-chain.md | 18592 | 2b6a237c372c3fa448ce1b522d2da230c2d372b5f88a759ed70515508f41c9e9 |
+| results/R527-live128-paired-stage-and-radial-cache-complete-chain.md（同日行序勘误后） | 18998 | 2028212ff18f560383c6bc4f71fb17a2ea66898d8d5d3d50a903cfe31f166b52 |
 | 本接口 | 最终manifest给真实完整身份 | 不在自身嵌入自身SHA |
 
 固定原221请求54884 B / `0fa9fe29153913252fd569cb2b99711c85b0afe72d8bc576adf629bd3e3f789e`，来源 `8b352f90b97f7c340a2fbebbb11c19080d9a5e08`。R515发布 `02320c3a035d03c31c4e1fada1d19d9661bf7179`；R518发布 `bfe02a5249db7c01665fef163034d436d66ebdbd`；R522发布 `3514dfb8333ec3d42cf62ba6165c0f799dd3bf6f`。
@@ -144,7 +144,7 @@ PYTHONPATH="$VISIBLE_COMPUTATIONS" python -u \
 5. 明确128→64投影与原normal response；
 6. 原完整FD、prefix/fullDN和最终同H fresh audit。
 
-每节点shooting state224项、局部RK226项/双mean、577个radial node资料、576个stage、338输出是不同布局，不互换概念。338输出顺序仍height112、mean1、slope112、mean1、second112。
+每节点shooting state224项、局部RK226项/双mean、577个radial node资料、576个stage、338输出是不同布局，不互换概念。338输出与J实际行序是slope112、second112、meanSlopeCorrection、meanSecondCorrection、height112；a090 endpoint与08d48 assembly始终按此序，AffineTail取首112行。初稿的另一排列及冻结请求继承221的 `original_scientific_contract.output_jets_order` 都是说明文字误述，该metadata未参与索引；本次只纠正文档，运行source/request不追改。
 
 component33416/93ec实际调用R522配对stage和R515 physical qualifier。原boundary高度forcing、endpoint和audit全部角查询仍付；只共享单次 `physical_jets` 中有限径向词。原所有 $C$ 解、角向求和、mixed导数、mean、domain检查和错误都保留。
 
