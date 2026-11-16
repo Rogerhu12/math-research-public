@@ -1,0 +1,344 @@
+{
+  "kind": "static_frozen_common_input_complete_output_budget_v1",
+  "scientific_execution_performed": false,
+  "old_targets_called": 0,
+  "old_sources_imported": 0,
+  "old_inputs_modified": 0,
+  "synthetic_full_document_published": false,
+  "derived_native_or_array_published": false,
+  "interface": {
+    "blob": "1626787381898f2b462cf06c553875608ecd218d",
+    "bytes": 15579,
+    "sha256": "c0abe86d4e9ed57987a4d33bc20bfd6adaa1d78dc1674e5c5f57aee26a449888"
+  },
+  "old_input_model": {
+    "blob": "97cc35f958c009fb44a473345331bd9251f95fe9",
+    "bytes": 27938,
+    "sha256": "c24a8a8a1144074da78bcb49398f8d80b891a99e5d3f7d35f57803de6be88221"
+  },
+  "contract": {
+    "blob": "d606faa1ffd30c34d3487985a57dbc62a18890bc",
+    "bytes": 32942,
+    "sha256": "8f3784473b98f9b49449b7012e4c5c919670418246fa03a7f28441aaca28b640"
+  },
+  "worker": {
+    "blob": "e7a841117c4c082e0e869a193963866be12b6c06",
+    "bytes": 65113,
+    "sha256": "5b5a9b7571372eae4ba2a0231902db6f30fcbdd7df16ed9272f2e82b32eb2b51"
+  },
+  "report_renderer": {
+    "blob": "6837024cdb36043af4ff2b9dc3c89f53e9202370",
+    "bytes": 5812,
+    "sha256": "077baa9781fb16a64ca1cfe67fab7383b274e49ad96ba0adc2f7861653ec4d75"
+  },
+  "source": {
+    "blob": "09e19b9612d1cbfde84dbf95e2ff4e5a5160fbd4",
+    "bytes": 57861,
+    "sha256": "d75ad8a2c76ad1f450cb5a96977c3ec5b8fb6fda69a1185590ba68eeec5e85a2"
+  },
+  "shape": {
+    "top_level_success_fields": 32,
+    "gate_count": 16,
+    "actual_progress_field_count": 15,
+    "new_graphs": 3,
+    "complete_operator_identity_graphs": 1,
+    "new_principal_outputs": 7,
+    "new_elementary_factor_records": 16,
+    "new_scalar_slots": 23,
+    "graph_slot_counts": [
+      10,
+      8,
+      5
+    ],
+    "old_scalar_records": 16,
+    "old_scalar_record_type_counts": {
+      "complete_ball_record_objects": 14,
+      "original_scalar_strings": 2
+    },
+    "old_scope_collections": 4,
+    "accepted_actual_receipts": 4,
+    "mathematical_roles": 5,
+    "current_small_texts": 8,
+    "Python_AST_files": 2,
+    "historical_inputs": 0
+  },
+  "old_input_copy_audit": {
+    "differences": [],
+    "scalar_records": {
+      "bytes": 1751,
+      "sha256": "57731cdef27a9fa90024339d9d4d4e58daef926f532f5d2290a1956516073b10"
+    },
+    "scope_fields": {
+      "bytes": 8523,
+      "sha256": "3f12846bb79fc7cefd00649fecf6ac4ca3a7babe7fa584ff7cace9cf90f58c73"
+    },
+    "accepted": {
+      "bytes": 5148,
+      "sha256": "269bbedf447b770ffc9cd27085fc932a26cca3c80df62ff37595d54ab24983fc"
+    },
+    "all_exact": true
+  },
+  "worker_constant_audit": {
+    "comparisons": {
+      "PUBLICATION_LIMITS": true,
+      "SCIENCE_FIELDS": true,
+      "SCIENCE_GATE_NAMES": true,
+      "SCIENCE_PARAMETERS": true,
+      "SCIENCE_SCOPE": true,
+      "SCIENCE_PLANNED_SHAPE": true,
+      "SUCCESS_ACTUAL_PROGRESS": true,
+      "SCIENTIFIC_GRAPH_SHAPES": true,
+      "SCIENCE_OPERATOR_IDENTITY": true
+    },
+    "frozen_hashes": {
+      "FROZEN_ACCEPTED_OLD_INPUTS_SHA256": "269bbedf447b770ffc9cd27085fc932a26cca3c80df62ff37595d54ab24983fc",
+      "FROZEN_ORIGINAL_SCOPE_FIELDS_SHA256": "3f12846bb79fc7cefd00649fecf6ac4ca3a7babe7fa584ff7cace9cf90f58c73",
+      "FROZEN_SAVED_SCALAR_RECORDS_SHA256": "57731cdef27a9fa90024339d9d4d4e58daef926f532f5d2290a1956516073b10"
+    },
+    "frozen_hashes_match": true,
+    "pinChecks": {
+      "contract": true,
+      "tf_science": true,
+      "kl_science": true,
+      "wx_execution": true,
+      "rne_science": true
+    },
+    "render_original_exact": true
+  },
+  "synthetic_slot_bytes": 128,
+  "synthetic_slot_prefix": "SYNTHETIC_NON_SCIENTIFIC_SCALAR_SLOT_",
+  "synthetic_run_id_characters": 20,
+  "synthetic_run_attempt_characters": 10,
+  "complete_graph_payloads": {
+    "complete_forward_leading_conclusion": {
+      "bytes": 2171,
+      "sha256": "85c3513c6d8a3d444fe8ff2e2a04eb4936dfa14bbbcff7e92ea4c91ba92b52c8"
+    },
+    "complete_coordinate_conclusion": {
+      "bytes": 1845,
+      "sha256": "ce7436a987274c9730f43bfd5c55ae7042d4fa6bfbd83429977589471a424670"
+    },
+    "complete_frozen_stable_inverse_conclusion": {
+      "bytes": 1507,
+      "sha256": "994374b91e8512245325a6cb74b1ab038a590e545d6096991b351ba5dcba2aa7"
+    }
+  },
+  "complete_new_scalar_paths": [
+    "complete_forward_leading_conclusion.complete_pi_interval",
+    "complete_forward_leading_conclusion.complete_two_pi_interval",
+    "complete_forward_leading_conclusion.complete_sqrt_two_pi_lower",
+    "complete_forward_leading_conclusion.complete_inverse_sqrt_two_pi_upper",
+    "complete_forward_leading_conclusion.complete_root_k_over_eta_upper",
+    "complete_forward_leading_conclusion.complete_root_ratio_sixth_upper",
+    "complete_forward_leading_conclusion.complete_root_to_waist_radial_upper",
+    "complete_forward_leading_conclusion.complete_density_times_radial_upper",
+    "complete_forward_leading_conclusion.complete_forward_leading_prefactor_upper",
+    "complete_forward_leading_conclusion.complete_forward_leading_scalar_upper",
+    "complete_coordinate_conclusion.windows.0.complete_Lambda_TF_inverse_product_upper",
+    "complete_coordinate_conclusion.windows.0.complete_Ni_upper",
+    "complete_coordinate_conclusion.windows.0.complete_S_TF_forward_product_upper",
+    "complete_coordinate_conclusion.windows.0.complete_Ni_inverse_upper",
+    "complete_coordinate_conclusion.windows.-4/3.complete_Lambda_TF_inverse_product_upper",
+    "complete_coordinate_conclusion.windows.-4/3.complete_Ni_upper",
+    "complete_coordinate_conclusion.windows.-4/3.complete_S_TF_forward_product_upper",
+    "complete_coordinate_conclusion.windows.-4/3.complete_Ni_inverse_upper",
+    "complete_frozen_stable_inverse_conclusion.complete_gamma97_upper",
+    "complete_frozen_stable_inverse_conclusion.windows.0.complete_coordinate_times_natural_inverse_upper",
+    "complete_frozen_stable_inverse_conclusion.windows.0.complete_frozen_stable_inverse_upper",
+    "complete_frozen_stable_inverse_conclusion.windows.-4/3.complete_coordinate_times_natural_inverse_upper",
+    "complete_frozen_stable_inverse_conclusion.windows.-4/3.complete_frozen_stable_inverse_upper"
+  ],
+  "complete_success_document": {
+    "bytes": 30694,
+    "sha256": "a1a0328ce4eee94fbb02b14ec8edd0a7d6d3005bbe5bd1b81dc4bd367f04d75a"
+  },
+  "complete_success_report": {
+    "bytes": 6036,
+    "sha256": "82a59e829f2364956ca937f59b013611e6c80e819fe4fc814a437e6cfdace689"
+  },
+  "complete_success_prepublication_payload": {
+    "bytes": 37209,
+    "sha256": "6d827d2c24808c545e915505bdd98153735a883c4ccd105951e9c4903f061cb7"
+  },
+  "complete_field_payload_byte_lengths": {
+    "kind": 60,
+    "complete": 5,
+    "proved": 5,
+    "actual_returncode": 2,
+    "failure": 5,
+    "stage": 11,
+    "source_sha256": 67,
+    "input_manifest_sha256": 67,
+    "public_repository": 33,
+    "run_id": 23,
+    "run_attempt": 13,
+    "workflow_event_commit": 43,
+    "actual_scientific_checkout_commit": 43,
+    "runtime": 44,
+    "arithmetic_bits": 4,
+    "parameters": 1763,
+    "input_sha256": 481,
+    "verified_original_inputs": 528,
+    "accepted_old_inputs": 5148,
+    "complete_original_scope_fields_read_verbatim": 8523,
+    "complete_original_scope_fields_sha256": 67,
+    "complete_saved_scalar_records_read_verbatim": 1751,
+    "complete_saved_scalar_records_sha256": 67,
+    "complete_forward_leading_conclusion": 2171,
+    "complete_coordinate_conclusion": 1845,
+    "complete_frozen_stable_inverse_conclusion": 1507,
+    "complete_operator_identity_conclusion": 1258,
+    "retained_scope": 1587,
+    "planned_shape": 435,
+    "actual_progress": 574,
+    "gates": 1810,
+    "actual_mathematical_wall_seconds": 18
+  },
+  "publication_limits": {
+    "complete_science_bytes": 75000,
+    "complete_report_bytes": 8000,
+    "complete_prepublication_science_report_payload_bytes": 90000,
+    "complete_execution_bytes": 59000,
+    "pre_science_topic_reserve_bytes": 150000,
+    "target_complete_science_bytes": 35000,
+    "target_complete_prepublication_payload_bytes": 50000,
+    "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+    "new_artifacts": 0,
+    "new_Releases": 0
+  },
+  "flags": {
+    "all_original_scalar_records_retained": true,
+    "all_old_scope_path_values_exact": true,
+    "all_new_graphs_and_factors_retained": true,
+    "all_success_fields_present": true,
+    "full_renderer_template_used": true,
+    "all_gates_and_progress_printed": true,
+    "latest_two_readme_checks_modelled": true,
+    "independent_physical_means_retained": true,
+    "source_not_executed": true,
+    "final_source_main_metadata_shapes_match_model": true,
+    "final_worker_nonrender_source_unchanged": true,
+    "full_success_synthetic_science_published_to_Git": false,
+    "synthetic_report_published_to_Git": false
+  },
+  "caveat": "This is a static UTF8/JSON byte model, not a scientific conclusion or a universal bound on arbitrary exception text. Every new scalar slot is a 128-byte nonnumeric placeholder. The sixteen existing records and all selected old scope values are exact copies. Only file hashing, JSON literal copying, shape comparison and literal text rendering were performed. No Arb/Python scientific execution, old producer import, old exponential/logarithm evaluation, or previously successful scientific computation occurred. Final public runtime size guards still apply.",
+  "static_renderer_transcription": {
+    "language": "JavaScript",
+    "purpose": "literal text and JSON metadata rendering only; Python and scientific source were not executed",
+    "bytes": 5990,
+    "sha256": "07f3dc79c4ae11cb4b175b3cb0dc02e5c133ef4980308d3f174193522d0c3fa0"
+  },
+  "source_final_static_model_match": {
+    "PARAMETERS": true,
+    "RETAINED_SCOPE": true,
+    "PLANNED_SHAPE": true,
+    "INITIAL_ACTUAL_PROGRESS": true,
+    "SUCCESS_ACTUAL_PROGRESS": true,
+    "PUBLICATION_LIMITS": true,
+    "COMPLETE_FIELDS": true,
+    "GATE_NAMES": true,
+    "NEW_GRAPH_SHAPES": true,
+    "OPERATOR_IDENTITY": true,
+    "scalar_paths": true,
+    "scope_paths": true,
+    "accepted_exact": true,
+    "pin_specs_math": true
+  },
+  "worker_final_diff": {
+    "baseline": {
+      "blob": "94ecb30459a5d3306578478b06118bf91671fc86",
+      "bytes": 64641,
+      "sha256": "ac0649a14eef8ef8509e9cd576c113e939e8bf7df34bef5195c96077226a2c57"
+    },
+    "only_render_changed": true,
+    "all_nonrender_bytes_identical": true,
+    "final_renderer_used_in_full": true
+  },
+  "source_main_shape": {
+    "success_stage": "complete",
+    "complete_fields": 32,
+    "mathematical_input_roles": 5,
+    "input_sha256_roles": 6,
+    "input_sha256_additional_role": "manifest",
+    "verified_original_input_record_keys": [
+      "bytes",
+      "sha256"
+    ],
+    "actual_progress_fields": 15,
+    "complete_gate_count": 16,
+    "new_graph_slot_counts": [
+      10,
+      8,
+      5
+    ],
+    "new_principal_scalar_outputs": 7,
+    "new_elementary_factor_records": 16,
+    "failure_only_field": "failed_new_stage_diagnostic",
+    "failure_diagnostic_fields": [
+      "stage",
+      "accepted_original_success_count",
+      "returned_graph_fields_available",
+      "old_targets_not_recomputed",
+      "old_exponentials_and_logarithms_not_recomputed",
+      "old_R97_RNE_graphs_and_comparisons_not_recomputed",
+      "new_frozen_coordinate_or_stable_inverse_conclusion_authorized"
+    ],
+    "no_full_original_science_objects_duplicated": true,
+    "old_scope_fragments_are_complete_exact_path_values": true,
+    "atomic_complete_science_saved_before_display_or_size_guards": true
+  },
+  "model_metadata_profile": {
+    "source_sha256_placeholder": "0000000000000000000000000000000000000000000000000000000000000000",
+    "manifest_sha256_placeholder": "1111111111111111111111111111111111111111111111111111111111111111",
+    "event_commit_placeholder": "2222222222222222222222222222222222222222",
+    "checkout_commit_placeholder": "3333333333333333333333333333333333333333",
+    "run_id_characters": 20,
+    "run_attempt_characters": 10,
+    "actual_mathematical_wall_seconds_spelling": "999999999.9999999",
+    "two_successful_readme_checks": [
+      {
+        "time": "9999-12-31T23:59:59.999999+00:00",
+        "after": "6666666666666666666666666666666666666666",
+        "actual_diff": ""
+      },
+      {
+        "time": "9999-12-31T23:59:59.999999+00:00",
+        "after": "7777777777777777777777777777777777777777",
+        "actual_diff": ""
+      }
+    ],
+    "report_complete_mathematical_receipt_available": true,
+    "note": "These are static metadata placeholders and lengths, not a new Actions run or scientific receipt."
+  },
+  "failure_stress_model": {
+    "scenario": "all original fields and all three returned graphs retained; failure-only exact seven-field diagnostic plus a 512-byte message and 8192-byte traceback",
+    "field_count": 33,
+    "message_bytes": 512,
+    "traceback_bytes": 8192,
+    "science": {
+      "bytes": 39970,
+      "sha256": "b14d7236ac16e27f368cb8554c9faacfb624f6f546282b178ffdd7d5a986099d"
+    },
+    "report": {
+      "bytes": 6632,
+      "sha256": "0b9b15dfaec7134ca5d3e18a8e765cab9fdc4e42bb6dc85690463559feabe5c3"
+    },
+    "prepublication": {
+      "bytes": 47085,
+      "sha256": "9428c3eff46148d4d1d85494527a9c33f8226bafb59513f1ef498efa8ba36cd6"
+    },
+    "not_a_universal_bound_on_arbitrary_exception_text": true
+  },
+  "target_and_hard_limits": {
+    "success_science_below_target_35000": true,
+    "success_prepublication_below_target_50000": true,
+    "success_report_below_8000": true,
+    "failure_stress_science_below_75000": true,
+    "failure_stress_prepublication_below_90000": true,
+    "failure_stress_report_below_8000": true,
+    "actual_runtime_publication_guards_remain_required": true,
+    "actual_execution_hard_limit_bytes": 59000,
+    "prescience_capacity_reserve_bytes": 150000,
+    "no_guard_changed_or_bypassed": true
+  }
+}

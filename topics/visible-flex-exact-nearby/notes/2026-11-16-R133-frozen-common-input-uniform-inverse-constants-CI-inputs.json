@@ -1,0 +1,468 @@
+{
+  "kind": "frozen_common_input_uniform_inverse_constants_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants.py",
+  "source_sha256": "d75ad8a2c76ad1f450cb5a96977c3ec5b8fb6fda69a1185590ba68eeec5e85a2",
+  "contract_git_blob": "d606faa1ffd30c34d3487985a57dbc62a18890bc",
+  "contract_path": "topics/visible-flex-exact-nearby/results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md",
+  "original_worker_basis": {
+    "successful_RNE_worker_git_blob": "1b05b17abc39465faa374847b1e1b5fc24e5158e",
+    "successful_RNE_worker_sha256": "6b13a6d13c7efb6fa3c0e7563235f7db4320532d8724d9a76910299b78a9c245",
+    "root_owns_worker_and_workflow": true,
+    "new_target": "seven uniform frozen-coordinate and stable-inverse bounds with sixteen complete elementary factors; four successful original scientific objects are read only"
+  },
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "all_inputs_are_current_small_texts": true,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "historical_inputs": [],
+  "input_paths": {
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py",
+    "rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "contract": "topics/visible-flex-exact-nearby/results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md",
+    "tf_science": "topics/visible-flex-exact-nearby/notes/common_root_normalizer_two_window_ci/run-43766881076-1/actual-scientific-conclusion.json",
+    "kl_science": "topics/visible-flex-exact-nearby/notes/correlated_terminal_Ai_leading_scalar_ci/run-43766439345-1/actual-scientific-conclusion.json",
+    "wx_execution": "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+    "rne_science": "topics/visible-flex-exact-nearby/notes/root_natural_negative_window_explicit_constants_ci/run-43792291190-1/actual-scientific-conclusion.json"
+  },
+  "current_text_input_roles": [
+    "source",
+    "worker",
+    "rules",
+    "contract",
+    "tf_science",
+    "kl_science",
+    "wx_execution",
+    "rne_science"
+  ],
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md",
+    "topics/visible-flex-exact-nearby/notes/common_root_normalizer_two_window_ci/run-43766881076-1/actual-scientific-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/correlated_terminal_Ai_leading_scalar_ci/run-43766439345-1/actual-scientific-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/root_natural_negative_window_explicit_constants_ci/run-43792291190-1/actual-scientific-conclusion.json"
+  ],
+  "file_sha256": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants.py": "d75ad8a2c76ad1f450cb5a96977c3ec5b8fb6fda69a1185590ba68eeec5e85a2",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py": "5b5a9b7571372eae4ba2a0231902db6f30fcbdd7df16ed9272f2e82b32eb2b51",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md": "8f3784473b98f9b49449b7012e4c5c919670418246fa03a7f28441aaca28b640",
+    "topics/visible-flex-exact-nearby/notes/common_root_normalizer_two_window_ci/run-43766881076-1/actual-scientific-conclusion.json": "a1c20307e211d6e1478bccbaab316bd1592f066cde6c5882dfa77d41a2163720",
+    "topics/visible-flex-exact-nearby/notes/correlated_terminal_Ai_leading_scalar_ci/run-43766439345-1/actual-scientific-conclusion.json": "1ea36ae6462bf34bbda338cca3af6ad1cff3b5f3f6d293ed81fcb94472deadee",
+    "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12",
+    "topics/visible-flex-exact-nearby/notes/root_natural_negative_window_explicit_constants_ci/run-43792291190-1/actual-scientific-conclusion.json": "579b09aa7164ec4800187436248fdafca85691066afa419ed6fa8b6ab1de3086"
+  },
+  "mathematical_input_sha256": {
+    "contract": "8f3784473b98f9b49449b7012e4c5c919670418246fa03a7f28441aaca28b640",
+    "tf_science": "a1c20307e211d6e1478bccbaab316bd1592f066cde6c5882dfa77d41a2163720",
+    "kl_science": "1ea36ae6462bf34bbda338cca3af6ad1cff3b5f3f6d293ed81fcb94472deadee",
+    "wx_execution": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12",
+    "rne_science": "579b09aa7164ec4800187436248fdafca85691066afa419ed6fa8b6ab1de3086"
+  },
+  "expected_actual_gate_count": 16,
+  "expected_immutable_AST_files": 2,
+  "expected_current_input_count": 8,
+  "expected_input_count": 8,
+  "complete_input_bytes": 297952,
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "new_scientific_timeout_seconds": 900,
+  "parameters": {
+    "arithmetic_bits": 320,
+    "expected_actual_gate_count": 16,
+    "expected_current_inputs": 8,
+    "expected_total_inputs": 8,
+    "expected_Python_AST_files": 2,
+    "expected_historical_inputs": 0,
+    "original_actual_runs": {
+      "TF": "43766881076/1",
+      "KL": "43766439345/1",
+      "WX": "43763424840/1",
+      "RNE": "43792291190/1"
+    },
+    "exact_real_delta_radius": "1/100000000",
+    "fixed_intrinsic_parameter": "eta_0",
+    "exact_intrinsic_parameter": "-7789843107295549/4611686018427387904",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "exact_strict_cut": "76285779072683/320000000000000",
+    "physical_root_piece": 2549,
+    "physical_period": "pi/2",
+    "normalized_angular_measure": true,
+    "physical_frequency": "n=4|j|",
+    "original_natural_cutoff_abs_j": 97,
+    "actual_common_root_cutoff_abs_j": 1024,
+    "coordinate_windows": [
+      "0",
+      "-4/3"
+    ],
+    "natural_negative_windows": [
+      "-7/6",
+      "-5/2"
+    ],
+    "stable_output_windows": [
+      "-1/6",
+      "-3/2"
+    ],
+    "exact_gamma97": "150545/150544",
+    "fixed_selected_parameter_absolute_upper": "0.00000000009368259853002",
+    "frozen_input_space": "X_s_fr = S_star D_plus H_nat^s",
+    "natural_reflection_not_all_signed_carriers": true,
+    "original_primitive_and_two_physical_means_retained": true,
+    "independent_physical_means": 2,
+    "saved_actual_receipts": 4,
+    "saved_scalar_records": 16,
+    "saved_original_scope_collections": 4,
+    "new_principal_scalar_outputs": 7,
+    "new_elementary_scalar_records": 16,
+    "new_total_scalar_records": 23,
+    "optional_forward_Cs_constants_evaluated": false,
+    "varying_selected_chart_identifications_evaluated": false,
+    "old_target_calls_allowed": 0,
+    "old_source_imports_allowed": 0,
+    "old_exponentials_or_logarithms_reevaluated": 0,
+    "old_R97_RNE_graphs_or_comparisons_reevaluated": 0,
+    "full_incoming_or_finite_Schur_inverse_claimed": false,
+    "full_complex_parameter_square_claimed": false,
+    "uniform_selected_conjugacy_family_claimed": false
+  },
+  "scope": {
+    "scientific_target": "uniform frozen reflected common input coordinates and two stable inverse window constants",
+    "same_real_delta_family_and_fixed_intrinsic_eta0": true,
+    "original_two_signed_carriers_and_natural_reflection_retained": true,
+    "fixed_Dplus_phase_is_included_in_the_input_space": true,
+    "TF_parity_and_sign_commutation_have_distinct_proofs": true,
+    "natural_reflection_projection_not_replaced_by_full_signed_P97": true,
+    "selected_H_and_S_are_frozen_once_not_extended_as_KAM_family": true,
+    "forward_leading_uses_the_saved_reverse_radial_bound": true,
+    "short_factor_has_original_absolute_rate_qualification": true,
+    "root_eta_lower_from_full_original_coefficient_domain": true,
+    "complete_mean_residual_used_in_exact_radial_correlation": true,
+    "same_distributional_inverse_in_both_windows": true,
+    "exact_weight_and_coordinate_order_retained": true,
+    "independent_physical_mean_coordinates": 2,
+    "full_density_mean_identity_corrections_retained": true,
+    "original_low_head_second_reference_and_infinite_radial_ports_retained": true,
+    "old_actual_objects_read_only_and_scopes_not_widened": true,
+    "old_R97_RNE_graphs_and_comparison_not_recomputed": true,
+    "physical_bulk_Poisson_extension_newly_proved": false,
+    "complete_incoming_inverse_claimed": false,
+    "finite_Schur_inverse_claimed": false,
+    "Riccati_operator_norm_continuity_claimed": false,
+    "uniform_selected_conjugacy_family_claimed": false,
+    "nonlinear_background_or_final_surface_claimed": false,
+    "same_selected_ambient_operator_formula_at_original_delta_star": true,
+    "old_SE8_literal_Sstar_Hnat_domain_not_claimed": true,
+    "full_circle_principal_or_Cayley_restriction_proved": false
+  },
+  "publication_limits": {
+    "complete_science_bytes": 75000,
+    "complete_report_bytes": 8000,
+    "complete_prepublication_science_report_payload_bytes": 90000,
+    "complete_execution_bytes": 59000,
+    "pre_science_topic_reserve_bytes": 150000,
+    "target_complete_science_bytes": 35000,
+    "target_complete_prepublication_payload_bytes": 50000,
+    "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+    "new_artifacts": 0,
+    "new_Releases": 0
+  },
+  "files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants.py",
+      "git_blob": "09e19b9612d1cbfde84dbf95e2ff4e5a5160fbd4",
+      "bytes": 57861,
+      "sha256": "d75ad8a2c76ad1f450cb5a96977c3ec5b8fb6fda69a1185590ba68eeec5e85a2"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py",
+      "git_blob": "e7a841117c4c082e0e869a193963866be12b6c06",
+      "bytes": 65113,
+      "sha256": "5b5a9b7571372eae4ba2a0231902db6f30fcbdd7df16ed9272f2e82b32eb2b51"
+    },
+    {
+      "role": "rules",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "git_blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "bytes": 2461,
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "role": "contract",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md",
+      "git_blob": "d606faa1ffd30c34d3487985a57dbc62a18890bc",
+      "bytes": 32942,
+      "sha256": "8f3784473b98f9b49449b7012e4c5c919670418246fa03a7f28441aaca28b640"
+    },
+    {
+      "role": "tf_science",
+      "path": "topics/visible-flex-exact-nearby/notes/common_root_normalizer_two_window_ci/run-43766881076-1/actual-scientific-conclusion.json",
+      "git_blob": "3766aea85aba59230be3813b4b7634d318316e49",
+      "bytes": 18206,
+      "sha256": "a1c20307e211d6e1478bccbaab316bd1592f066cde6c5882dfa77d41a2163720"
+    },
+    {
+      "role": "kl_science",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_terminal_Ai_leading_scalar_ci/run-43766439345-1/actual-scientific-conclusion.json",
+      "git_blob": "d24a1ecdd9b4397184a3ab932a503e8eb79d0c24",
+      "bytes": 20537,
+      "sha256": "1ea36ae6462bf34bbda338cca3af6ad1cff3b5f3f6d293ed81fcb94472deadee"
+    },
+    {
+      "role": "wx_execution",
+      "path": "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+      "git_blob": "5121a599896025d90e2861450756a256aaba659d",
+      "bytes": 43753,
+      "sha256": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12"
+    },
+    {
+      "role": "rne_science",
+      "path": "topics/visible-flex-exact-nearby/notes/root_natural_negative_window_explicit_constants_ci/run-43792291190-1/actual-scientific-conclusion.json",
+      "git_blob": "6f4ddebe683c0a22cb726d8ff7f8e7269146e46d",
+      "bytes": 57079,
+      "sha256": "579b09aa7164ec4800187436248fdafca85691066afa419ed6fa8b6ab1de3086"
+    }
+  ],
+  "saved_complete_result_admission": {
+    "original_successes": {
+      "tf_science": {
+        "file_path": "topics/visible-flex-exact-nearby/notes/common_root_normalizer_two_window_ci/run-43766881076-1/actual-scientific-conclusion.json",
+        "file_git_blob": "3766aea85aba59230be3813b4b7634d318316e49",
+        "file_bytes": 18206,
+        "file_sha256": "a1c20307e211d6e1478bccbaab316bd1592f066cde6c5882dfa77d41a2163720",
+        "science_location": "complete standalone scientific object",
+        "science_canonical_bytes": 18206,
+        "science_canonical_sha256": "a1c20307e211d6e1478bccbaab316bd1592f066cde6c5882dfa77d41a2163720",
+        "kind": "actual_common_root_normalizer_two_window_v1",
+        "run_id": "43766881076",
+        "run_attempt": "1",
+        "source_sha256": "bf71639da0bc9e41ab86f9530fe02b34399c18e63e9041fa0c3abd0852ccdc4b",
+        "input_manifest_sha256": "027a4462a2cc0424abf00bb03456b63b0811700e98e5ddd28ba1d4d793aefacf",
+        "workflow_event_commit": "0107666b538ced3a0fbc91f6a7f2cfa894f8ef6f",
+        "actual_scientific_checkout_commit": "8839cad6bdb5bdd7b5f09959cbc3a20c55c680c6",
+        "runtime": {
+          "Python": "3.12.14",
+          "python_flint": "0.9.0"
+        },
+        "arithmetic_bits": 320,
+        "complete": true,
+        "proved": true,
+        "actual_returncode": 0,
+        "gate_count": 14,
+        "passed_gate_count": 14,
+        "complete_original_gates_sha256": "d8cf1f82f556ed32ea44309e407f8fe264e769275311ca7787d5913291466cb7"
+      },
+      "kl_science": {
+        "file_path": "topics/visible-flex-exact-nearby/notes/correlated_terminal_Ai_leading_scalar_ci/run-43766439345-1/actual-scientific-conclusion.json",
+        "file_git_blob": "d24a1ecdd9b4397184a3ab932a503e8eb79d0c24",
+        "file_bytes": 20537,
+        "file_sha256": "1ea36ae6462bf34bbda338cca3af6ad1cff3b5f3f6d293ed81fcb94472deadee",
+        "science_location": "complete standalone scientific object",
+        "science_canonical_bytes": 20537,
+        "science_canonical_sha256": "1ea36ae6462bf34bbda338cca3af6ad1cff3b5f3f6d293ed81fcb94472deadee",
+        "kind": "actual_correlated_terminal_Ai_leading_scalar_v1",
+        "run_id": "43766439345",
+        "run_attempt": "1",
+        "source_sha256": "1f9dd122c7de8a990f5c60d0f405b2e3b3e51420b807ded9be58e8715fd480d6",
+        "input_manifest_sha256": "810a13c2e1e0d3fb85f00129ca3e826e00e264d78269e25b78408bc1f67b99c7",
+        "workflow_event_commit": "8dcbbfefe6fa27bbbeb2f61da76e05083fbfb988",
+        "actual_scientific_checkout_commit": "4af263bb810f74ab57be1088bbcb9560b06e2c7f",
+        "runtime": {
+          "Python": "3.12.14",
+          "python_flint": "0.9.0"
+        },
+        "arithmetic_bits": 320,
+        "complete": true,
+        "proved": true,
+        "actual_returncode": 0,
+        "gate_count": 16,
+        "passed_gate_count": 16,
+        "complete_original_gates_sha256": "45a617db8d31e61d46c0f0a8f2d4f8dd9bb614feb3d3d38704147ff163182a1f"
+      },
+      "wx_execution": {
+        "file_path": "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+        "file_git_blob": "5121a599896025d90e2861450756a256aaba659d",
+        "file_bytes": 43753,
+        "file_sha256": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12",
+        "science_location": "embedded actual_scientific_receipt",
+        "science_canonical_bytes": 31088,
+        "science_canonical_sha256": "536e5f33441570eec1b0b35091400f815c5333c4cfd3f0f731099f5dd48cb015",
+        "kind": "actual_true_waist_coordinates_from_saved_positive_products_v1",
+        "run_id": "43763424840",
+        "run_attempt": "1",
+        "source_sha256": "63fc880f409151152a40a6361b781280bd3785b337cf2bd3386c03496e1b9424",
+        "input_manifest_sha256": "aa3c9d7e9f3a217122af5a321fadfcb2abe420e7e7c48217e3a181c9dbdd6f26",
+        "workflow_event_commit": "cd14574e6b1bd74973214d57979305e5e3dfe41f",
+        "actual_scientific_checkout_commit": "cd14574e6b1bd74973214d57979305e5e3dfe41f",
+        "runtime": {
+          "numpy": "2.3.5",
+          "python": "3.12.14",
+          "python_flint": "0.9.0",
+          "scipy": "1.17.0"
+        },
+        "arithmetic_bits": 320,
+        "complete": true,
+        "proved": true,
+        "actual_returncode": 0,
+        "gate_count": 20,
+        "passed_gate_count": 20,
+        "complete_original_gates_sha256": "4c8f214fc05eaf3c8c3a9970a41921037356bf0f9021ef1b1ec942c485b90d47"
+      },
+      "rne_science": {
+        "file_path": "topics/visible-flex-exact-nearby/notes/root_natural_negative_window_explicit_constants_ci/run-43792291190-1/actual-scientific-conclusion.json",
+        "file_git_blob": "6f4ddebe683c0a22cb726d8ff7f8e7269146e46d",
+        "file_bytes": 57079,
+        "file_sha256": "579b09aa7164ec4800187436248fdafca85691066afa419ed6fa8b6ab1de3086",
+        "science_location": "complete standalone scientific object",
+        "science_canonical_bytes": 57079,
+        "science_canonical_sha256": "579b09aa7164ec4800187436248fdafca85691066afa419ed6fa8b6ab1de3086",
+        "kind": "complete_root_natural_negative_window_explicit_constants_v1",
+        "run_id": "43792291190",
+        "run_attempt": "1",
+        "source_sha256": "fc7b4ceee05768c1aa5267b01c04dd721e286225d873d48ded954c9d4789f3d5",
+        "input_manifest_sha256": "e311c5119accc5ba90585e49a3bb24bbe672eb601977ebc29720e24979a9128b",
+        "workflow_event_commit": "58e9eaf49412f25a62af80920a33f21ec0c11491",
+        "actual_scientific_checkout_commit": "58e9eaf49412f25a62af80920a33f21ec0c11491",
+        "runtime": {
+          "Python": "3.12.14",
+          "python_flint": "0.9.0"
+        },
+        "arithmetic_bits": 320,
+        "complete": true,
+        "proved": true,
+        "actual_returncode": 0,
+        "gate_count": 16,
+        "passed_gate_count": 16,
+        "complete_original_gates_sha256": "00ba13dcff64d117e0c63ba3607617c72eeb7db44eb38d1d75f581fdd5515028"
+      }
+    },
+    "original_complete_science_field_counts": {
+      "tf_science": 38,
+      "kl_science": 38,
+      "wx_execution": 55,
+      "rne_science": 35
+    },
+    "original_actual_gate_counts": {
+      "tf_science": 14,
+      "kl_science": 16,
+      "wx_execution": 20,
+      "rne_science": 16
+    },
+    "saved_original_scalar_records": 16,
+    "complete_original_record_types": {
+      "complete_ball_records": 14,
+      "original_RNE_strings": 2
+    },
+    "saved_original_scope_collections": 4,
+    "complete_original_scope_fields_canonical_bytes": 8523,
+    "complete_original_scope_fields_canonical_sha256": "3f12846bb79fc7cefd00649fecf6ac4ca3a7babe7fa584ff7cace9cf90f58c73",
+    "complete_scalar_records_canonical_bytes": 1751,
+    "complete_scalar_records_canonical_sha256": "57731cdef27a9fa90024339d9d4d4e58daef926f532f5d2290a1956516073b10",
+    "accepted_old_inputs_canonical_bytes": 5148,
+    "accepted_old_inputs_canonical_sha256": "269bbedf447b770ffc9cd27085fc932a26cca3c80df62ff37595d54ab24983fc",
+    "typed_lower_records": [
+      "eta_root_lower"
+    ],
+    "all_other_saved_bounds_read_at_upper_endpoint": true,
+    "original_scope_fragments_are_exact_path_values_not_full_objects": true,
+    "old_exponentials_logarithms_graphs_comparisons_and_scientific_producers_called": 0,
+    "original_WX_embedded_receipt_canonical_uses_original_four_key_runtime": true,
+    "workflow_event_commit_not_identified_with_actual_checkout_without_original_evidence": true
+  },
+  "static_schema_review": {
+    "scientific_math_executed_during_review": false,
+    "complete_fields": 32,
+    "complete_actual_gates": 16,
+    "actual_progress_fields": 15,
+    "new_graph_scalar_slots": 23,
+    "new_graph_scalar_slot_counts": [
+      10,
+      8,
+      5
+    ],
+    "new_principal_scalar_outputs": 7,
+    "new_elementary_scalar_records": 16,
+    "all_three_graphs_and_exact_operator_identity_preserved": true,
+    "structural_static_model_uses_128_byte_synthetic_ball_records": true,
+    "planned_shape": {
+      "saved_actual_receipts": 4,
+      "saved_original_scope_collections": 4,
+      "saved_scalar_records": 16,
+      "new_forward_leading_scalars": 1,
+      "new_coordinate_window_bounds": 4,
+      "new_frozen_stable_inverse_windows": 2,
+      "new_principal_scalar_outputs": 7,
+      "new_elementary_scalar_records": 16,
+      "new_total_scalar_records": 23,
+      "new_pi_constants": 1,
+      "new_fixed_square_roots": 1,
+      "new_positive_sixth_roots": 1,
+      "new_optional_forward_Cs_constants": 0,
+      "retained_physical_means": 2
+    },
+    "independent_math_admission_and_main_peer_reviews_received": true
+  },
+  "bounded_prior_target_audit": {
+    "scope": "Only the specified held WE/UT/SW/NW/NPK scientific sources and the WE complete actual object were checked; no repository-wide absence claim is made.",
+    "checked_existing_products": "WE saves Aport = BH0 * KW0 * KLambda and Astate = Aport * KF_minus * KS_inverse_minus. UT and SW inherit Astate. NW and NPK concern the different full-circle normalizer N = Id + M_w I.",
+    "new_target_distinction": "The independent Ni coordinate products KLambda_inverse * KF_inverse,s * KS_inverse,s are not saved in those checked objects; the seven declared principal NIF outputs remain new targets.",
+    "no_division_of_saved_operator_upper_bound_to_infer_factor": true,
+    "WE_actual_git_blob": "ac0046da2263b3a8d15e08d6af3f28cd73ad0c9c",
+    "WE_actual_bytes": 18532,
+    "WE_actual_sha256": "3d73b56f604b012b66f2f502aea481b59383f5566fb5d12c676843220d39956a",
+    "WE_source_git_blob": "1512f7212aa8e4afaec323dba8b8be7d3ac237f8",
+    "WE_source_bytes": 29421,
+    "WE_source_sha256": "d02efe46d4baee16971c9239526d4e3f412ad7dd8e95cfab31d56458a7a7fa55",
+    "UT_source_git_blob": "410f54d25f7cd66c513420a79470093c325c4798",
+    "SW_source_git_blob": "23c793d11a632cf2607dd8e31f6b506eecd6a6e5",
+    "NW_NPK_source_review": "The root independently reviewed its held final NW and NPK source identities; both act on N = Id + M_w I and do not define the NIF coordinate product."
+  },
+  "manifest_not_a_self_hashed_input": true,
+  "workflow_not_reverse_pinned_from_manifest": true,
+  "static_publication_budget_review": {
+    "scientific_math_executed": false,
+    "exact_original_scope_path_values_and_scalar_records_retained": true,
+    "synthetic_new_scalar_bytes": 128,
+    "modeled_complete_science_bytes": 30694,
+    "modeled_prepublication_bytes": 37209,
+    "modeled_report_bytes": 6036,
+    "failure_stress_science_bytes": 39970,
+    "failure_stress_prepublication_bytes": 47085,
+    "failure_stress_report_bytes": 6632,
+    "failure_stress_not_a_universal_exception_text_bound": true,
+    "limits": {
+      "complete_science_bytes": 75000,
+      "complete_report_bytes": 8000,
+      "complete_prepublication_science_report_payload_bytes": 90000,
+      "complete_execution_bytes": 59000,
+      "pre_science_topic_reserve_bytes": 150000,
+      "target_complete_science_bytes": 35000,
+      "target_complete_prepublication_payload_bytes": 50000,
+      "scientific_file_atomic_and_complete_stdout_before_size_guards": true,
+      "new_artifacts": 0,
+      "new_Releases": 0
+    },
+    "exact_budget_receipt": {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-common-input-static-output-budget.json",
+      "git_blob": "922948594e751a218fa07e991a55d2a1581410fb",
+      "bytes": 13767,
+      "sha256": "303d90c3764ae89d9ceade615dfae9ab5f69da73a356d957930573625634cf32"
+    },
+    "complete_science_model_sha256": "a1a0328ce4eee94fbb02b14ec8edd0a7d6d3005bbe5bd1b81dc4bd367f04d75a",
+    "complete_prepublication_model_sha256": "6d827d2c24808c545e915505bdd98153735a883c4ccd105951e9c4903f061cb7",
+    "complete_report_model_sha256": "82a59e829f2364956ca937f59b013611e6c80e819fe4fc814a437e6cfdace689",
+    "model_source_and_worker_match_final_pins": true,
+    "budget_is_metadata_reference_not_an_additional_current_input": true
+  }
+}

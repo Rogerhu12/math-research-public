@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **NIF唯一公开CI包（数学尚未执行）**：已发布同real族固定反射域的7主常数/16中间量消费者；SCI d75ad8a2、worker5b5a9b75、manifest138fe8d9、flow63a9e468。8 current UTF8/2 AST/5 math，四原成功 TF/KL/WX/RNE 只读；原16 records与4scope逐字保留。完整静态预算30694B SCI/6036B report/37209B preGit，执行前fresh topic容量须再留150000B。实际run成功前不授任何新数值，且真实双port/fullincoming/finite义务不变。
+
 - [NIF 全实参数族的固定反射输入坐标](results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md)（8f378447，2026-11-16）：固定Xfr=S*D+Hnat，Λ+,δ=aδD+的固定sign相位和TF真奇偶性给同一域上的Ni/同逆与两窗Cs自然逆；显式7主scalar待唯一公开计算。同步窄修[SE8具体域](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md)93266089，原22201747保历史；fullsigned与natural反射投影分开，不把无限反射补空间当head。旧数值不变，完整principal restriction/incoming/finite仍待。
 
 - [RNEA 实际两自然负窗完整逆常数](results/R133-supplement-actual-explicit-uniform-natural-negative-window-inverse-constants.md)（257644a4，2026-11-16）：唯一43792291190/1 child0/16门，原real |δ|≤1e−8、fixedη0/root97上K−7/6≈2.0519379388e10、K−5/2≈4.2453353027e29。完整7图276槽/23旧records/16门15progress/两preGit及source/worker/manifest/actual回执全保；0旧图/比较重算。M仅strong；selected全族/完整incoming/finite/ν/非线性仍待。

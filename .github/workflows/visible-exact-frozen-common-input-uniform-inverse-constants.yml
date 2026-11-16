@@ -1,0 +1,91 @@
+name: visible-exact frozen common-input uniform inverse constants
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-frozen-common-input-uniform-inverse-constants.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-frozen-common-input-uniform-inverse-constants
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  NIF_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-common-input-uniform-inverse-constants-CI-inputs.json
+  NIF_MANIFEST_SHA: 138fe8d9d0298126bd4c81691975496db94c2c1d69df31970af4d5b9917fd819
+  NIF_PIPELINE_SHA: d75ad8a2c76ad1f450cb5a96977c3ec5b8fb6fda69a1185590ba68eeec5e85a2
+  NIF_WORKER_SHA: 5b5a9b7571372eae4ba2a0231902db6f30fcbdd7df16ed9272f2e82b32eb2b51
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  frozen-common-input-uniform-inverse-constants:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-frozen-common-input-uniform-inverse-constants-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['NIF_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py --mode hydrate
+          --manifest "$NIF_MANIFEST" --manifest-sha "$NIF_MANIFEST_SHA"
+          --pipeline-sha "$NIF_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['NIF_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read four successful small receipts and evaluate only new frozen-coordinate constants
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_common_input_uniform_inverse_constants_public_worker.py --mode run
+          --manifest "$NIF_MANIFEST" --manifest-sha "$NIF_MANIFEST_SHA"
+          --pipeline-sha "$NIF_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-frozen-common-input-uniform-inverse-constants-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-frozen-common-input-uniform-inverse-constants-output"
+      # Root rule15: eight current text inputs, two AST files, zero historical restores.
+      # Four old results are read only; old scalars exponentials root graphs and inverse polynomials are never recomputed.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain150000 bytes before any new arithmetic.
