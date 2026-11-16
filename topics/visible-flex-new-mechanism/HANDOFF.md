@@ -32,7 +32,7 @@ R473固定末三矩/端芽的真compact扰动使E非零开稠密；R474用四内
 
 R469：一个端芽锁第三三矩，全段变化=𝒫*Bθη；gap全s盲，母/平台须同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，真实Mraw相对prefix不由总M0支付。
 
-R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使同向芽incoming一致。内部K=K0+B(a)−E(a,a)+2E(φ,b)全保，正成本/八矩迫新ω段。R476由R261完整同锚局部核与三右零常数，证18维Z在不交rank-one平面P三槽上逐函数0；真A0/T∈Z块对任意a,b原样传递，所有重复副本K相同，原R80可真分配。第四仍V+2T(a;D)−4T(φ;φ,a)，一般a不在P不能删；单份K0及A≠0子桥仍欠，全W只因子化ΔW18，R480继续从起点增强有限观测。
+R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使同向芽incoming一致。内部K=K0+B(a)−E(a,a)+2E(φ,b)全保，正成本/八矩迫新ω段。R476由R261完整同锚局部核与三右零常数，证18维Z在不交rank-one平面P三槽上逐函数0；真A0/T∈Z块对任意a,b原样传递，所有重复副本K相同，原R80可真分配。第四仍V+2T(a;D)−4T(φ;φ,a)，一般a不在P不能删；单份K0及A≠0子桥仍欠，[R480](results/R480-finite-full-third-outer-moments-and-zero-matrix-prototype-ruling.md)将全部28交换子/3外矩/≤10平移系数加入从起点有限F（≤924生成，不称秩）：保完整Green尾降到quartic C²，原十矩/12copy/五block三面积及同q4/20根使全W的I_j(φ,T(φ;D))全角0。故所有真A0 prototype重复K无漂移，b本身可变；单份K0/A≠0桥/一般w与全部V仍欠，后续actual条件必须同新库。
 
 同cap完整比例、实际全成本/全s同规范、高阶收敛与主几何完成门仍未付。
 
@@ -50,4 +50,4 @@ R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使�
 
 [分类修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)续run43826338594/research133160965959/source de4d16fe…在新增subspace metadata构造失败：[布局描述记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)。coordinates.layout只是切片，原构造要完整published descriptor；正在改回原生产接口。0finite/JVP/新gradient/scalar/actual，点53不变。同task **91.37788493000002秒**含首失败和本次；祖先累计 **1750.3576756209998秒/128值**。保restore1/repair1及所有失败，仍同600秒；必要新增修复须明列，全部其它配额不重置。U/T/J/旧finite/旧方向不重算，payload仅原stdout。
 
-理论R477已付正则单门与四门局部开放，R481继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R476已付Z块全s重复无漂移，R480接从头增强有限库。主完成门未付，任何有限任务/阶段都不结束主课题。
+理论R477已付正则单门与四门局部开放，R481继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R480已从头付全W外矩/任意A0重复无漂移，继续单份K0和A≠0桥。主完成门未付，任何有限任务/阶段都不结束主课题。

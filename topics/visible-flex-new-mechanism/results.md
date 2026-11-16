@@ -444,3 +444,5 @@
 - [R476：完整第三核在不交rank-one圆上逐函数不可见](results/R476-full-third-diagonal-kernel-is-invisible-to-disjoint-rank-one-circles.md)（已证明）：R261完整同锚局部核及三右零常数给Z在P³上全函数0。真实A0/T∈Z块保持整个incoming a,b，任意重复内部ruling相同；R80可实现真实有限Z分配。完整第四V/一般a规范项和单份K0、A≠0子桥保留；全W剩余门仅经ΔW18因子化。
 
 - [R479：当前完整partial目标下多cap必须共用成本系数](results/R479-common-cost-coefficients-for-several-real-caps.md)（已证明）：原wholeE/O/current与全role/affine前提下，每包partial=a³(R,−T)S而非总和；共同响应像仍恰3。共同成员iff每cap各过五门，并共用c、A7/s、A0/(h³s²)，正幅宽不改这些比值。未排放弃额外归约的新机制，未假分别库可共同冻结。
+
+- [R480：有限完整C²观测支付全第三外矩与零矩prototype重复漂移](results/R480-finite-full-third-outer-moments-and-zero-matrix-prototype-ruling.md)（已证明）：全部28交换子self保Green尾并降为quartic C²，≤10平移给≤924有限生成观察；原十矩/12copy/五block消任意3×3有序核，和原q4/20目标从起点同点实现。全W三外矩全角0，任意真A0块重复K相同但b可变；单份K0/A≠0桥/全部V及同新库actual关系仍欠。

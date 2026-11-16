@@ -184,3 +184,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R479：当前多cap并非五余量正权平均
 
 [准确scope](results/R479-common-cost-coefficients-for-several-real-caps.md)从原两源/全部suffix给逐包(Hd,He)=a³(R,−T)S且(R,T)非同零；在wholeE/O_all0/current0、原全role复制与affine查询前提下，partial是向量，不能平均抵消。通用Af多项式使共同response self仍恰3；共同成本条件是每cap五Δ都0，且c、A7/s、A0/(h³s²)分别共值。正幅宽不改变这些比值。分别构造的库不自动共F★；保非零current、改变query/复制等新入口不在此排除范围。R481继续允许单cap的真实五门全零/全局目标，不能由R477开放像直接结束。
+
+
+### R480：全W外矩/任意A0块重复漂移已付
+
+[新完整母库](results/R480-finite-full-third-outer-moments-and-zero-matrix-prototype-ruling.md)从起点加入全部28交换子×3真实外矩×≤10平移系数的有限F（至多924生成、不称独立）；完整local变分差和三Green边项、唯一线性u'''的真IBP给quartic C²。任意3×3有序核的前缀次数≤5/对称对角≤4，余只原三面积；原十矩/12copy/五block一次同付，不新增复制层。R455同四q图册/限制最大minor/原20principal同点选择给真实有限库。全W的I_j(φ,T(φ;D))全θ0，故任意真A0/T_B∈W块的重复全s K_j=K0；第三incoming b通常仍变。下一解每个真实块自身K0、A≠0子桥与唯一13核规范；全部第四V/一般w项保留，R468的actual条件必须同这个新F库，不能混旧冻结库。
