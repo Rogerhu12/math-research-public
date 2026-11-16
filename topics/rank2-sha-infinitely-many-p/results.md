@@ -287,3 +287,6 @@
 
 
 - [R891附A/B](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)：同原四角的连续coinduced范数满射、商模调角与真实未分歧交换子给I中完整norm误差为u_l⁻¹N_lA=0，故κq(σ)=−c1(Frq)。最小O0固定系数投影保原族、统一坏位指数独立N/q，两点selector和共轭Tate全局cup准确消另一未知点，完整证明原c1≠0⇒Selbal(K,V)=E c1。无full-ray/JNS受限集扩展或MR core1调用；底非零及ordinary loc仍未付。
+
+
+- [R887 §§14–15](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：同Z有限p基完整给G坐标、∇a^p=−aH^p、det/adj与原P2=−Z^p adj(A2)e1，Z^p折回不删。Pm线性模型保原四α及五块modp窗并降二挠极帽；其余Z零点的新增留数完整为Fν,p=T_m,p DRν∈X(X+1)k[X]≤s−1。三次Cartier用同原A_(3s−1)的étale Frobenius逆/trace精确恢复全部补项，未免费删exact或添中央零。

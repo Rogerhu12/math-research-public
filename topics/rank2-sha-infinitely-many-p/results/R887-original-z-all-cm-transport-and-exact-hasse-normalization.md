@@ -989,3 +989,294 @@ $$
 后续需要使用的是(58)–(61)及原有限 $p$ 基初始资料，
 不能由固定 torsion 常数已显式就断言四个指定读数非零。
 本增补没有数学执行或素数扫描。
+
+
+## 14. 同一个原 G/P2 的完整有限 p 基
+
+下面保持原 $K=k(E)$，记 $K_0=K^p$、$q=Z^p$。
+因为 $DZ=1$，准确有
+$$
+K=K_0\oplus K_0Z\oplus\cdots\oplus K_0Z^{p-1}.
+$$
+定义
+$$
+\pi_Z(f)=\sum_{i=0}^{p-1}\frac{(-Z)^i}{i!}D^if,\qquad
+[f]_j=\frac1{j!}\pi_Z(D^jf).
+\tag{62}
+$$
+于是 $\pi_Z(f)\in K_0$、$f=\sum_{j=0}^{p-1}[f]_jZ^j$。
+证明只需在每个基向量 $Z^j$ 上用有限二项式和；
+系数 $K_0$ 被 $D$ 杀掉。
+$\pi_Z$ 是这个直和的常数坐标投影，**不是乘法同态**。
+乘法须完整使用 $Z^p=q$，不能把高次项当成零。
+
+设 $x_j=[x]_j$。原(13)的有限和逐项给
+$$
+\boxed{
+G=-\sum_{j=0}^{p-2}\frac{x_j}{j+1}Z^{j+1},
+\qquad x_{p-1}=c_p,\quad x_{p-2}=-r^p.
+}
+\tag{63}
+$$
+对 $j\le p-2$ 使用
+$\sum_{i=0}^j(-1)^i\binom ji/(i+1)=1/(j+1)$；
+对 $j=p-1$，原有限和只到 $p-2$，其值为
+$\sum_{i=1}^{p-1}1/i=0$。
+后两个坐标分别由
+$D^{p-1}x=-c_p$、$D^{p-2}x=-c_pZ-r^p$
+及 $(p-1)!=-1,(p-2)!=1$ 得到。
+这也直接给 $D^{p-1}G=r^p$。
+
+对任一整数 $1\le a<p$，令
+$$
+\nabla_a=D-aG.
+$$
+标量连接的准确 $p$ 曲率为
+$$
+\nabla_a^p=-a(G^p+r^p)=-aH^p.
+\tag{64}
+$$
+这里 $D^p=0$，且原 $H=(3/5)Z^5+\cdots$ 非零。
+令 $\mathsf A_a$ 为 $\nabla_a$ 在(62)原有序基上的矩阵。
+其导数部分为 $D(Z^j)=jZ^{j-1}$，乘法部分由(63)并用 $Z^p=q$ 完整形成。
+于是
+$$
+\det\mathsf A_a=-aH^p,\qquad
+\operatorname{adj}(\mathsf A_a)=\mathsf A_a^{p-1}.
+\tag{65}
+$$
+事实上(64)使全部特征根等于 $(-aH^p)^{1/p}$，
+故特征多项式准确为 $T^p+aH^p$；(65)随之成立。
+这些式子也重证 R647 的全局有理解唯一性，
+不把局部共振的自由项冒充全局有理水平解。
+
+特别原指定 $P=\mathcal P_2$ 的完整坐标向量是
+$$
+\boxed{
+[P]_{\rm vec}=-q\,\operatorname{adj}(\mathsf A_2)e_1.
+}
+\tag{66}
+$$
+这里 $e_1$ 表示基向量 $Z$。
+(66)是原定义 $P=-\nabla_2^{p-1}Z^{p+1}$，没有改初始资料。
+四个 $P^{n_\nu}R_\nu$ 都用这同一向量、同一乘法 $Z^p=q$
+及原 $R_\nu$ 形成。
+
+还可直接读一次 Cartier。写
+$P^{n_\nu}R_\nu=\sum\beta_{\nu,j}Z^j$，$\beta_{\nu,j}\in K_0$，
+则
+$$
+\boxed{
+\mathcal C(\eta_{\nu,p})
+=Z^{-2}\beta_{\nu,1}^{1/p}\,\omega.
+}
+\tag{67}
+$$
+证明是 $Z^{-p-2}=q^{-2}Z^{p-2}$；
+乘积中只有 $j=1$ 贡献 $Z^{p-1}$ 坐标，
+其它高项的 $q$ 折回不贡献这一坐标。
+因此原首行问题已完全保留在同一个指定有限 $p$ 基中。
+(65)的全矩阵可逆不表示四个指定 $\beta_{\nu,1}$ 或其原点留数非零。
+
+## 15. 降低二挠极阶的同源线性模型及全部新增零点补项
+
+本节直接推广 R636 的实际 $P_6$，并明确保留其与 $P_2$ 幂的区别。
+对原四个 degree
+$$
+m_\nu=2n_\nu\in\{34,72,136,66\},\qquad p>211,
+$$
+置
+$$
+Q_m=-\nabla_m^{p-1}Z^{m-1},\qquad
+P_m=Z^pQ_m=-\nabla_m^{p-1}Z^{p+m-1}.
+\tag{68}
+$$
+由(64)，这是
+$$
+\nabla_mQ_m=mH^pZ^{m-1},\qquad
+\nabla_mP_m=mH^pZ^{p+m-1}
+\tag{69}
+$$
+各自唯一的全局有理解。
+也有完整有限和
+$P_m=\sum_{j=0}^{p-1}(-Z)^j\nabla_m^j(Z^m)/j!$，
+故在 $O$，$P_m=Z^m(1+\cdots)$，型为 $m$。
+
+### 15.1 原有限窗口保持，但不能删除其它 Z 零点
+
+记 $n=m/2$。在 $O$，$P_2/Z^2=1+O(Z^6)$，
+$H=(3/5)Z^5+\cdots$。
+对 $C=P_m/P_2^n$，(69)与原 $P_2$ 方程给
+$$
+DC=\frac{mH^pZ^{p+1}}{P_2}
+\left[\left(\frac{Z^2}{P_2}\right)^{n-1}-C\right].
+$$
+$C$ 的首项为一且型零，所以括号至少从 $Z^6$ 起，
+右边阶至少 $6p+5$。
+所有 $Z^{6j}$、$1\le j<p$ 的导数系数均为单位。
+因此
+$$
+\boxed{
+P_m-P_2^{m/2}=O(Z^{6p+m}),\qquad
+(P_m-P_2^{m/2})R_\nu=O(Z^{6p+6}).
+}
+\tag{70}
+$$
+所以原首行 $\alpha_\nu$ 保持，R647 中首 Gaussian 规范的前五块模 $p$
+也保持。这里没有支付新的模 $p^2,p^3$ 除商，
+没有将 $P_m$ 加入原固定预算列。
+
+原 $G$ 在二挠点的准确极阶为 $p^2-p-1$。
+$D$ 至多增加一阶，故(68)给
+$$
+(P_m)_\infty
+\le\bigl(p^3-p^2+(m-1)p+1\bigr)\mathcal D_2.
+\tag{71}
+$$
+定义真正新输入
+$$
+\widetilde\eta_{\nu,p}
+=Z^{-p-2}P_{m_\nu}R_\nu\omega
+=Z^{-2}Q_{m_\nu}R_\nu\omega .
+$$
+其二挠极阶至多
+$p^3-2p^2+(m_\nu-3)p+1<p^3$，所以三次 Cartier 后至多简单。
+其在 $O$ 的留数仍为 $\alpha_\nu$。
+
+但是，若 $Q\ne O$、$Z(Q)=0$，只能由(68)推出 $P_m$ 在 $Q$ 至少阶 $p$，
+不能沿用原 $P_2^n$ 的 $np$ 零阶。
+实际 $\widetilde\eta$ 在这些点可能有双极。
+原有限 $G$ 满足 $G(Q)=0$；
+由(69)及 $m>1$，$DQ_m(Q)=0$。
+因 $Z$ 是该点参数，准确补留数是
+$$
+\boxed{
+\operatorname{Res}_Q\widetilde\eta_{\nu,p}
+=Q_{m_\nu}(Q)\,DR_\nu(Q).
+}
+\tag{72}
+$$
+没有已付理由令 $Q_m(Q)$ 为零。
+
+### 15.2 这些补留数是同一个明确低多项式的值
+
+补项不需要新增逐点测试。对泛代数点 $B=(x,y)$，
+使用 R856 原单位平移截面
+$$
+\mathscr S_B(v)
+=\exp(-\zeta(B)v)\frac{\sigma(v+B)}{\sigma(B)},\qquad
+\mathscr S_B(0)=1.
+$$
+其实际定义亦可全代数地采用
+$D_v\log\mathscr S_B=-\sum_{i\ge0}(D^ix)(B)v^{i+1}/(i+1)!$。
+这里只使用次数严格小于 $p$ 的系数，所有阶乘为单位；
+没有调用一个未付的奇 degree 全 Hurwitz 定理。
+
+令 $k=p-m$，定义实际多项式
+$$
+T_{m,p}(B)=[v^{p-m}]\,\mathscr S_B(v)^{p-m}.
+\tag{73}
+$$
+在(72)的每个 $Q$，原 $G$ 的所需低 jet 与
+$D_v\log\mathscr S_Q$ 完全相同。
+将 $\nabla_m$ 在这个有限窗口共轭为
+$\mathscr S_Q^m D_v\mathscr S_Q^{-m}$，并用 $(p-1)!=-1$，得到
+$$
+Q_m(Q)
+=[v^{p-m}]\mathscr S_Q(v)^{-m}
+=T_{m,p}(Q).
+$$
+最后一步使用
+$\mathscr S_Q(v)^p=1+O(v^p)$，因为 $p-m<p$。
+它不把原 $G$ 的较高 Frobenius 系数删掉；这些系数根本不进入此处的实际读数。
+
+所以定义
+$$
+F_{\nu,p}(x,y):=T_{m_\nu,p}(x,y)\,DR_\nu(x,y)
+$$
+就已完整支付(72)。
+$T_{m,p}$ 是权 $p-m$ 的代数多项式，
+$DR_\nu$ 是权 $m-5$ 的原多项式。
+二者乘积型零、只在 $O$ 有极且极阶至多 $p-5=6(s-1)$，故
+$$
+\boxed{
+F_{\nu,p}\in k[X]_{\le s-1},\qquad
+X(X+1)\mid F_{\nu,p}.
+}
+\tag{74}
+$$
+后一整除还可逐原来源核对：
+$R_S,R_U\in x^2k[X]$，此时 $T_{m,p}\in yx^2k[X]$；
+$R_T,R_V\in Xk[X]$，此时 $T_{m,p}\in yxk[X]$。
+对原 $R_\nu$ 微分后，乘积均含 $x^3y^2=X(X+1)$。
+因此两个 $x=0$ 的额外 $Z$ 零点处无补留数；
+事实上原 $R_\nu$ 在那里至少阶二，$\widetilde\eta$ 已正则。
+没有据(74)宣称 $F_{\nu,p}$ 本身非零或某个指定值非零。
+
+### 15.3 全部三次 Cartier 补项在一个原有限代数内
+
+令 $A(t)=A_{3s-1}(t)$ 为 R853(27)的原多项式，
+不是另选的 Hasse 多项式。其根均简单、非 $0,1$。
+除 $O,x=0$ 外，原 $Z$ 的全部零点正是这些根的六点纤维。
+
+置
+$$
+\mathcal E_p=k[T]/(A(T)),\qquad
+\phi_{\nu,p}=F_{\nu,p}(-1/T)\in\mathcal E_p.
+$$
+因为 $A(0)=1$，这里 $T$ 可逆。
+$\mathcal E_p$ 有限 étale，底域完美，
+故存在唯一 $\phi_{\nu,p}^{[-3]}$ 满足
+$(\phi_{\nu,p}^{[-3]})^{p^3}=\phi_{\nu,p}$。
+这使用整个有限代数的 Frobenius 逆，
+不是只对显示多项式的系数取根。
+
+记 $\widetilde\rho_{\nu,p}=\mathcal C^3\widetilde\eta_{\nu,p}$，
+并沿原 $t=-x^{-3}$ 下降为 $\overline{\widetilde\rho}_{\nu,p}$。
+(71)、(72)使它的全部极至多简单，
+仅在 $t=0,1$ 和 $A(t)=0$，在 $\infty$ 正则。
+各留数已经支付，所以有唯一的完整式
+$$
+\boxed{
+\begin{aligned}
+\overline{\widetilde\rho}_{\nu,p}
+={}&\frac{\alpha_\nu^{1/p^3}}6\,d\log\frac{t}{1-t}\\
+&+\operatorname{Tr}_{\mathcal E_p/k}
+\left[
+\phi_{\nu,p}^{[-3]}
+\left(\frac1{t-T}-\frac1{t-1}\right)
+\right]dt .
+\end{aligned}}
+\tag{75}
+$$
+在 $0$，原分歧六给留数 $\alpha_\nu^{1/p^3}/6$；
+在每个 $A$ 根，留数是(72)的 $p^3$ 次根。
+$1$ 处的补偿由全留数和确定；
+在 $\infty$ 每个括号都正则。
+两个满足这些条件的差是 $\mathbf P^1$ 上的全纯微分，故为零。
+这也证明(75)没有遗漏一个 exact 余项。
+
+R853 的原 $\eta_{\nu,p}$ 没有这些 $A$ 根处的极。
+因此，若其三次 Cartier exact 项记为 R853(19)的 $dH_{\nu,p}$，
+原两个模型的完整差正是
+$$
+\mathcal C^3(\eta_{\nu,p}-\widetilde\eta_{\nu,p})
+=t^*\!\left\{
+dH_{\nu,p}
+-\operatorname{Tr}_{\mathcal E_p/k}
+\left[
+\phi_{\nu,p}^{[-3]}
+\left(\frac1{t-T}-\frac1{t-1}\right)
+\right]dt
+\right\}.
+\tag{76}
+$$
+所以不能将降低二挠极阶所得的好处解释为免费删去(72)。
+真正四首行零给的是(75)第一行同时消失，
+留下四个同 $\mathcal E_p$、同原 $G$ 的实际多项式补项。
+这个联合条件尚未证明不相容。
+
+本节支付了原 $P2$ 的完整有限 $p$ 基、
+同源线性投影的原窗口与降低的二挠极帽，
+以及全部新增 $Z$ 零点留数的原有限多项式和 étale trace。
+所有推导均为手证，没有数学执行或目标素数扫描。

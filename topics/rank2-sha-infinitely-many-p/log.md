@@ -414,3 +414,5 @@
 - 2026-11-16 14:21:48 UTC / Astra-rank2-Sha-continue：14:20:24真实git pull --rebase成功，run43884661838/job133359428577/head a9893913；相对9e7f2679两README差异空，原blob不变。库存33,669,017B/2493文件、无>5MB、同3旧输入块；下次最迟15:05，原九数学任务与理论门继续。
 
 - 2026-11-16 14:25:11 UTC / Astra-rank2-Sha-continue：R891原one-q finite–singular及条件balanced rank1全证即推；root核连续I/Q四角norm、绝对σ^h/交换子、p^N杀误差及全部local cup。扩大系数用一次O0行/平坦扩张，不偷满像；原c1非零和ordinary loc仍另门，完成下降接口后续下一open。
+
+- 2026-11-16 14:28:27 UTC / Astra-rank2-Sha-continue：R887同p基/原P2 adj矩阵及Pm降极完整即推；root核所有Z^p折回、c_p归一p曲率、6p窗、额外零点留数/类型因子和étale Frobenius逆。先前仅凭二挠降极删补域的试探未采用；全trace/exact保，续四真实低多项式联合。

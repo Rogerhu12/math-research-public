@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：43e94233a313e2a1f165155ddff987cf057b0678；2026-11-16 14:25:31 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:25:30 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
+- 最近已读规则提交：97738202e8e8858c3698a312a3768d1deca811f3；2026-11-16 14:28:37 UTC核两README无变。实际CI pull 2026-11-16 14:20:24 UTC/a98939138ebc01edbbe1bf0cddb75de666a72272（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 14:28:35 UTC仍无环境。最迟2026-11-16 15:05 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -44,7 +44,7 @@ R886真τ=(-1,-ω,-ω²)给三extraEuler全群环unit、保n1归一、原rank1 H
 
 原S34/T72/U136/V66、charge17/36/68/33及全部CM13/Euler/Schwartz/p²p³/通常全Selmer保。R816/820付E−11 rank≥2，仍须同一无穷p的原J′非零。共同C24三列及c*=(1,−4/7,16/7)的真三行不删。
 R863/H22及R876/879、R884附A–I全部原trace/new/cross/质量/高位缺陷按完整H和正文保；原chat=(p+1)cint不提前约化，DR3/Γ16/Fermat项保，未由trace单位赋任何新中央零。
-[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全证Fp=Z+ρr^p=xyP_(s−1)，ρcp1、Fp=−cp⁻¹D^(p−2)x。全部fixed CM及fixed torsion的Z cocycle/绝对sigma或Mumford倍率齐；原G/P2的k、Ξ全ODE和初始化不删（δ核首−3x²/4；ΞT(0)=P2(T)−1）。四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM须§10真实大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍需联合非零。theta已停止扩Z运输家族，直接续同G/P2有限p基与原四低配对。
+[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全证Fp=Z+ρr^p=xyP_(s−1)，ρcp1、Fp=−cp⁻¹D^(p−2)x。全部fixed CM及fixed torsion的Z cocycle/绝对sigma或Mumford倍率齐；原G/P2的k、Ξ全ODE和初始化不删（δ核首−3x²/4；ΞT(0)=P2(T)−1）。四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM须§10真实大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍需联合非零。§14–15付同p基/adj A及Pm五块窗；新增Z零点留数准确为Fν∈X(X+1)k[X]≤s−1，同étale A内全trace保。theta续这四真实低多项式联合。
 
 ## 当前第三门：同P/R/S与全部实际有限类
 
