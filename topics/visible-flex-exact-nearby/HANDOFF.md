@@ -1,12 +1,12 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 17:15:27 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 17:17:03 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 规则、读点与完整前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式只证明、文字、JSON/AST/hash/元数据。root管main/H/open/results/log，代理只交小blob。每结论独推，禁force；非FF立即实际git pull --rebase后保远端循环。PAT仅用户原话所给临时CLI/env，不写文件/输出/connector。根规12不新增审批门；根规15不存新数组/data/证书/artifact/Release，旧成功禁止重算。每新consumer预/立即启动计全publication+并行pending+120000B≤200MB；实际完成/失败仅按全部实际输出≤200MB保存，不另虚设postreserve。
-原partial/sparse checkout=/workspace/scratch/0df957a82d09/math-research-public，无AGENTS。16:28:30 UTC真pull --rebase→03e22a5816cfa9efee39a6adadc594cf35c69db9，两README无diff，下一真pull≤17:28:30。磁盘满仅移本会话workspace/cache至独立/tmp并保原路径symlink，写入/Git核曾通过；16:31环境再次unavailable，后各publication前及ref失败后真CLI pull均明确No usable execution environment。根规8暂仅UTF8<100KB集成；ref读取不冒真pull。环境恢复即回CLI。为维持真pull每小时，已另建只读运维workflow visible-exact-readme-pull.yml（仅自身Actions partial clone/pull/两README完整diff与hash，无科学/仓库写入）；首次run待日志核，不能提前计真pull。
-最近只读README核：f0ab4abf900cc502b88787145a193f07764c90e4；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
+原partial/sparse checkout=/workspace/scratch/0df957a82d09/math-research-public，无AGENTS。最近真pull为自身Actions43916466196/1：17:15:39.972951 UTC→25265e7eaca1b00a879311032a8520546516416c，两README无diff（全回执notes/2026-11-16-readme-pull-43916466196.json）；下一真pull≤18:15:39。原本机16:28:30 pull记录仍保前页。磁盘满仅移本会话workspace/cache至独立/tmp并保原路径symlink，写入/Git核曾通过；16:31环境再次unavailable，后各publication前及ref失败后真CLI pull均明确No usable execution environment。根规8暂仅UTF8<100KB集成；ref读取不冒真pull。环境恢复即回CLI。为维持真pull每小时，已另建只读运维workflow visible-exact-readme-pull.yml（仅自身Actions partial clone/pull/两README完整diff与hash，无科学/仓库写入）；首次run/job133471833129 success，root已读完整8656B日志和全回执；实际diff与已读规则diff均空。
+最近只读README核：ec1cf77e5ddd52ec48cef6ab57bb65e9def4f52e；根21bd547f56590b7f2dd279d0297efb289a9b2783，题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。最近已读规则diff2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1。两README同旧时不重读全文。
 [截至W2C collar模块刊出的完整旧H](https://github.com/Rogerhu12/math-research-public/blob/9dfc7348e31a4467d392000fa83ba69f19e514be/topics/visible-flex-exact-nearby/HANDOFF.md)9797B/Git0bc65097c8dc614166e4f1d152228ae1b62a748b/SHA f323ccb5f1d763ce62a36bd366881b3762f42bb4546f93139b0b92cac22f8a9c，保全部递归前页、旧球/域/单位/mean/失败lost/每次cleanup精确恢复和未付门。本页只更新索引，未删数学义务。open原完整条件继续有效；H≤10000B/open≤30000B/每MD<100000B。
 
 ## 同一对象与总验收

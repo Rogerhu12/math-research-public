@@ -349,3 +349,7 @@ H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348
 
 新增公开仓库只读运维 `.github/workflows/visible-exact-readme-pull.yml`：独立 partial/sparse clone，实际 `git pull --rebase origin main`，完整保before/after/UTC、两README逐字hash、相邻pull与最近明确已读规则2f72b274的全部diff。只contents:read，GITHUB_TOKEN临时env，不写认证文件；0 scientific child/0旧targets/0仓库commit/0课题输出。工作流只在自身文件push或显式dispatch触发，无定时长期任务。根执行环境仍unavailable；此前API核不冒真pull。本次只触发一回运维读核，必须读取实际run日志后再把真实拉取提交号记入H；尚未把未执行的run记作成功。
 2026-11-16 17:15:27 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main f0ab4abf900cc502b88787145a193f07764c90e4的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+
+2026-11-16 17:15:39.972951 UTC：自身公开Actions `43916466196/1` / job `133471833129` 已成功真实partial clone和 `git pull --rebase origin main`，before=after=`25265e7eaca1b00a879311032a8520546516416c`。root完整读取8656B job log（SHA `04b2f526e188c643e11734a196477b668337d8083b06aae01f7acb01c9096009`），真实pull相邻diff及从明确已读2f72b274的完整两README diff均空；根/题全bytes/Git/SHA仍旧。完整回执单JSON已保存；0科学/0旧target/0producer，未将API read计pull。下一真pull不晚于18:15:39 UTC，环境未恢复则同自身只读运维入口继续。
+2026-11-16 17:17:03 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main ec1cf77e5ddd52ec48cef6ab57bb65e9def4f52e的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
