@@ -242,3 +242,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## Request218 — 三层实际native、完整gzip消费者和必要读回入口
 
 [218完整接口](notes/2026-11-16-request218-zero-linear-gzip-complete-chain-interface.md)34152/78fad96f及七件源/入口本次完整发布：正式216为基线，272public+133生成=405，15→5→13→49→51真实层次；R496三层captured-product caller、全零j资格/fallback/九计数，R498逐原行gzip与全部samefar/union读者，R499实际owner来源/原完整规则选择和独立composition always全接。新51层110literal/334应用含first launcher candidate.schema明确配真实R496，旧49不改，不归因旧run。原453→真450→五factor2→真父M128、同C/目标/材料/全域metric/held/reach/4/8/16t与3/5/9显示、全部FD/fullDN/末门/唯一18900+2700/32GiB保持。所有九必要scope与实际owner quiet才清，单90K超限诚实失败，无压缩比/提速/接受预测。workflow显式workflow_dispatch，根端实际Git推后以本公开仓库token官方启动，实际run/head另核；R507由amplitude唯一终态。R503新初点只属后继220，不偷偷改变218参数。
+
+
+## Request218 — 实际官方run与source绑定
+
+[218官方绑定](notes/2026-11-16-request218-official-run-binding.md)：入口已44f5f282，首次即时dispatch404无科学run；行政43830418320先核workflow419881031 active和无重复run，再一次POST200得到实际43830433500/attempt1，实际source0f101b697beb04db9bf6c225a488755e191f3a54、compute133174205129（08:20:32Z）。准确head上的request95251/8945和workflow92730/1c32真核同正式字节。08:21仅前1–6成功/7容量，生成与科学不预填；R507/amplitude唯一终态，无running日志。
