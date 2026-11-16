@@ -354,4 +354,9 @@
 ### 2026-11-16 22:54 Asia/Taipei — serre-public-astra-20261115
 - R900真实公开run43889194318完成65stage：原七完整纤维1904全行、真rank1234/962及完整146/418，得到K定义有效DK272并避P0。
 - 原QK=QN·w0/v保阶−8435、未缩放ρ/t首项515264909/898623080和正c^8435，48件旧源复用；R901仍等R902真六σ，128/144与高度未成，H前态归档。
-- 本push规则：公开Actions发布前真实pull并比较两README，若有diff即读并遵守；实际已读提交由恢复worker写回，本仓库Actions独占新数学，主目标OPEN。
+- 本push规则：公开Actions真实pull至dad996456f6638d1851c560869481944ab64a14e（2026-11-16T14:54:45.781395+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:04 Asia/Taipei — serre-public-astra-20261115
+- R905六件执行源全文读并激活：cored0810c29/helperced5b652/wrapperff7ff5f1，六实际来源给七D；只用旧W及四K逆，完整544×670/真rank543待公开计算。
+- 同D418→146、完整272迹/三系数及QN先校正/真cY运输保持；R902实际30对7015stage已结束，必要小件IO43892014668正在读，尚未把它冒作126聚合。
+- 本push规则：恢复worker真实pull并比两README后写入准确commit/UTC；已核b273e011两SHA无diff；主目标OPEN。
