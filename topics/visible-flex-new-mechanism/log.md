@@ -323,3 +323,7 @@ full62源码868f2f6b5ba55affa26cc5f9d42186a565ea0a43已触发run43916013327/rese
 ## 2026-11-16 17:25 UTC：R555余五矩的完整能量和真实历史面积
 
 [R555](results/R555-five-remaining-moments-gram-energy-and-real-history-area-interfaces.md)完整原式纸证，三p归零后(T1,S1,S0)共同Gram身份/strict determinant门、原时间与真实端点速度成本；r1/r0的高度正项/交叉项及真实incoming有序面积全保。恒真高度单独保p1/p2增量0的障碍限定范围，未称一般不可达；原/中心五槽变换和真实Schur端接口不授满秩。root全文已读，0科学执行，立即推送；继续R556同χ余四矩真实修复及新完整168联合数值源。
+
+## 2026-11-16 17:41 UTC：R558真实零高度速度正弧及恒高全成本
+
+[R558](results/R558-real-zero-height-velocity-positive-t1-arcs-and-complete-constant-height-cost.md)完整原式纸证，同一33母/一次χ。原两速度完整源比较、同支γ=0根、真实cutoff及八矩缩放ODE支付严格正t1开放段；所有N+制备负费及入m/T保。原累计恒等严格排单一真恒高后续同时保p2并修复负t1，未排变高度。root全文已读，0科学执行，立即发布并继续实际变高度控制；open六个完整前史段逐字移档，不撤旧条件。

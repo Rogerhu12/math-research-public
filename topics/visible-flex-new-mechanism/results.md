@@ -152,3 +152,5 @@
 - [R556 同一固定规范的两次真实低尾与准确四矩零](results/R556-four-exact-matrix-moments-by-two-real-low-coasts-with-one-gauge.md)：**已证明**继承完整有序history的两低尾/两高回程及三参数C¹端IFT，原P0=P1=P2=T1准确同零。第二W与矩权重区分，所有费用保；同点r1^y仍严格负，余四矩/末germ/pose/period/13尚欠，不授M0。
 
 - [R555 三p返回后的余五矩Gram能量与真实历史面积](results/R555-five-remaining-moments-gram-energy-and-real-history-area-interfaces.md)：**已证明**完整原M2的三槽矩阵身份、严格正定/端点能量门，以及r1/r0含incoming的有序面积式。正高度r1项同步付负t1，恒真高度限定障碍不排一般路径；原/中心变换与实际Schur端接口保，不预授修复或满秩。
+
+- [R558 真实零高度速度正t1弧及恒高累计成本](results/R558-real-zero-height-velocity-positive-t1-arcs-and-complete-constant-height-cost.md)：**已证明**同33母/同χ/同正则支的真实开放γ=0接入与严格正t1增量，制备负费和完整历史不删；准确恒等8Δt1+(2Zraw/H)Δp2=−T排单高度保p2的净t1修复。R554实际端IFT可保p2零/Π负于指定端，未授任意长流、变高度净修复或全M0。
