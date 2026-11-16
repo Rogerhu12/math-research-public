@@ -46,8 +46,8 @@ R469–509完整W/V、13状态/2输入、K/Mraw、incoming、端germ及原费用
 
 ## 6. O2后继及当前工作顺序
 
-[R514](results/R514-complete-fifty-one-ring-controls-and-conditional-seventeen-variable-curvature-fibers.md)在R510/R511上付原51=34低阶非线性态+17条件曲率线性纤维；保实际G后x2仅改S11，原172盒以同W共同约束三层。R1平方/交叉/normal、R0完整phase/c(v)/Π和前102与末51中段混合保。metric两二次门与有真幅界时normal旋转障碍已付；不授全51实际可行。
+R514/R516付原51三jet/同盒、纯R1共同17维二次jet与四次列门、剩余R2原盒support-function iff；实际G/完整Π/中段耦合保。当前ring未存完整17个Π三向量，下一必要kernel须新付；未给可行新态，不重原R2 LP。
 
-[R516](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)付纯R1共同17维完整二次jet、原172盒准确投影、metric二次门和曲率第二列四次门；剩余R2原盒曲率 iff 全非负组合的support-function分离不等式。连续法向速度身份保实际G，有限网格不冒连续证书。原ring只存ell而未存完整17个Π三向量，下一R1须如实支付缺失kernel；尚无可行新x，不重原R2 LP。
+[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付固定圈原E/F的反射支、解析退化接合、零均值必要门及完整Tu/Tv lift。落原9/8才属原51；非零mean需不同metric或原γ盒内真实高度补偿。下一拟一次原J1盒内共同两网投影、固定7幅度和仅一个新非零态R2 LP；0射线0LP，mean/投影残差/全body门保，尚未执行。
 
 继续三个真实问题：原盒下R0/R1低阶环态与其全body候选；R518同一实际字的非恒逐点ruling；同一固定规范下有限幅值非恒周期轨道。所有新系数/缺失数组/求解/预测/actual都在未来明确Actions科学账；已有输出只按原身份读。每一子问题结束接open下一项，不把条件定理或有限观察当主完成。

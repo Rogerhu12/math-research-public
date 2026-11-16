@@ -450,3 +450,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R516 共同R1四次域与原盒曲率分离](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)：**已证明**同17低阶坐标的完整二次jet、原盒投影、metric二次门与实际G四次列门；固定低阶后给剩余原盒曲率的support-function iff，含连续整圈有限子族范围。原ring缺失完整Π向量已明确，未授当前58可行新态或连续reach。
 
 - [R518 固定宽度完整period成本与实际有限C1截面](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)：**已证明**原Jtr的满闭锥、真实导数满像、保基准开球和有限正配平/整数复制实际截面；原窗口合法化保共同母与全部桥成本，按同库接口接两period/13规范。R513排的额外伸缩partial不再作目标；未付同一完整实现字逐点ruling，不与R512同形母混用。
+
+- [R519 固定圈反射支与均值相容径向lift](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)：**已证明**保整圈E/F的两支分类、解析退化与切支边界、零均值门、完整Tu/Tv有限lift及原对称/径向接口；原角列成员时可直接形成共同幅度区间，原γ有条件补mean须保真实位置/二jet/盒。没有给当前58成员或可行实际值；近似投影须用完整R516模型。
