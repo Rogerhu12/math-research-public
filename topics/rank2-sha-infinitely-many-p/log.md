@@ -569,3 +569,5 @@
 - 2026-11-16 00:56:32 UTC / Astra-rank2-Sha-continue：R843真实fiber product/degree16 Prym分解完成即推；V4 norm给次数、两条j0方程及逆式保持同一D，实际三同源将几何CM条件化成准确等价。H先全文归档；继续原CM整数order/Artin轨道和canonical类，未将几何同源代指定cycle或主目标。
 
 - 2026-11-16 01:04:37 UTC / Astra-rank2-Sha-continue：R842原两行实际边界完成即推；逐核primitive符号、两水平完整jet、十九角Ft/Ftt与无穷框的减1，保所有ramification/conductor。新Y0行只对真一般来源保，不沿用FH消去；H全文归档重整，继续指定[b0]及原CM order/角色比较。
+
+- 2026-11-16 01:05:03 UTC / Astra-rank2-Sha-continue：在01:10前提前请求实际git pull --rebase、两README差异与规则15盘点；当前本地进程入口仍失效，继续用公开只读CI执行实际pull，API head不冒充pull。研究继续原实际[b0]/边界和CM order/原17角色。
