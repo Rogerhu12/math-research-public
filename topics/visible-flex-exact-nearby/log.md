@@ -343,3 +343,9 @@ H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348
 
 与全collar/Δ/actualη及joint centre接口兼容；通用rank-add展开的资源风险已定位，Newton/Tail继续按modal/有限band压缩且保持同(r,s)完整signed合成后取绝对值。50(+2)尚未launch；本结论不是逆的小门。
 2026-11-16 17:09:03 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 07b1a084fdd54fb0faae4ecc68e9606ea4d1b5b2的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+
+## 2026-11-16 环境缺席期间的真实每小时拉取
+
+新增公开仓库只读运维 `.github/workflows/visible-exact-readme-pull.yml`：独立 partial/sparse clone，实际 `git pull --rebase origin main`，完整保before/after/UTC、两README逐字hash、相邻pull与最近明确已读规则2f72b274的全部diff。只contents:read，GITHUB_TOKEN临时env，不写认证文件；0 scientific child/0旧targets/0仓库commit/0课题输出。工作流只在自身文件push或显式dispatch触发，无定时长期任务。根执行环境仍unavailable；此前API核不冒真pull。本次只触发一回运维读核，必须读取实际run日志后再把真实拉取提交号记入H；尚未把未执行的run记作成功。
+2026-11-16 17:15:27 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main f0ab4abf900cc502b88787145a193f07764c90e4的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。

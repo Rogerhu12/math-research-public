@@ -1,0 +1,79 @@
+name: visible-exact actual README pull
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/visible-exact-readme-pull.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: visible-exact-operational-readme-pull
+  cancel-in-progress: false
+jobs:
+  actual-pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_READ_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PULL_TICKET: "2026-11-16T17:12Z"
+    steps:
+      - name: Partial clone, actual pull, and complete README difference
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64, hashlib, json, os, pathlib, subprocess
+          from datetime import datetime, timezone
+          repo="Rogerhu12/math-research-public"
+          assert os.environ["GITHUB_REPOSITORY"]==repo
+          env=dict(os.environ)
+          auth=base64.b64encode(("x-access-token:"+env.pop("GH_READ_TOKEN")).encode()).decode()
+          env["GIT_CONFIG_COUNT"]="1"
+          env["GIT_CONFIG_KEY_0"]="http.https://github.com/.extraheader"
+          env["GIT_CONFIG_VALUE_0"]="AUTHORIZATION: basic "+auth
+          work=pathlib.Path(os.environ["RUNNER_TEMP"])/("visible-exact-readme-"+os.environ["GITHUB_RUN_ID"])
+          def git(*args,cwd=None):
+              r=subprocess.run(["git",*args],cwd=cwd,env=env,capture_output=True)
+              if r.returncode:
+                  raise RuntimeError(r.stderr.decode("utf-8","replace"))
+              return r.stdout
+          def now():
+              return datetime.now(timezone.utc).isoformat()
+          git("clone","--filter=blob:none","--sparse","--depth=1","--no-checkout",
+              "https://github.com/"+repo+".git",str(work))
+          git("sparse-checkout","set","--no-cone","/README.md",
+              "/topics/visible-flex-exact-nearby/README.md",cwd=work)
+          git("checkout","main",cwd=work)
+          before=git("rev-parse","HEAD",cwd=work).decode().strip()
+          started=now()
+          actual=git("pull","--rebase","origin","main",cwd=work).decode()
+          finished=now()
+          after=git("rev-parse","HEAD",cwd=work).decode().strip()
+          read_commit="2f72b274f8647dbf6ce236ff2185cbe22153f8e1"
+          git("fetch","--filter=blob:none","--depth=1","origin",read_commit,cwd=work)
+          paths=["README.md","topics/visible-flex-exact-nearby/README.md"]
+          expected={
+              paths[0]:"6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+              paths[1]:"81249053c4c14a7a14289b58184e1b81601146d412fa117973f7a1d05bf95220"}
+          actual_diff=git("diff",before,after,"--",*paths,cwd=work).decode()
+          reviewed_diff=git("diff",read_commit,after,"--",*paths,cwd=work).decode()
+          observed={}
+          for path in paths:
+              raw=git("show",after+":"+path,cwd=work)
+              observed[path]={"bytes":len(raw),"sha256":hashlib.sha256(raw).hexdigest(),
+                  "git_blob_sha":git("rev-parse",after+":"+path,cwd=work).decode().strip()}
+          receipt={"kind":"readonly_public_partial_clone_actual_main_pull_v1",
+              "repository":repo,"run_id":os.environ["GITHUB_RUN_ID"],
+              "run_attempt":os.environ["GITHUB_RUN_ATTEMPT"],
+              "event_commit":os.environ["GITHUB_SHA"],"ticket":os.environ["PULL_TICKET"],
+              "started":started,"finished":finished,"before":before,"after":after,
+              "actual_pull_stdout":actual,"actual_readme_diff":actual_diff,
+              "diff_from_explicit_rule_review":reviewed_diff,"read_commit":read_commit,
+              "complete_observed_readmes":observed,"scientific_children":0,
+              "old_targets_recomputed":0,"repository_commits_created":0,"topic_output_files_published":0}
+          print("BEGIN COMPLETE ACTUAL README PULL RECEIPT",flush=True)
+          print(json.dumps(receipt,ensure_ascii=False,sort_keys=True,separators=(",",":")),flush=True)
+          print("END COMPLETE ACTUAL README PULL RECEIPT",flush=True)
+          assert not reviewed_diff and all(observed[p]["sha256"]==expected[p] for p in paths), \
+              "New README differences require immediate root review and application."
+          PY
