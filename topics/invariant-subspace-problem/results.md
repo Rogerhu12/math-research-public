@@ -110,3 +110,5 @@
 - **R150原九h*目标完整31坐标及分母区间（2026-11-16）：** [完整原315坐标证明](results/R150-appendix-original-hstar-targets-complete31-coordinates-and-exponents-two-to-five.md)给rank4/全属U7、真U16高九轴零；原整数24/25因子、全部目标/作用/自由/来源乘回真，实际1.610秒。完整tors最高6与饱和交T∩31C=31T给逐目标2≤ε≤5；保原6188来源和4367输出，未以field坐标抹掉高阶进位。
 
 - **R150原九h*目标最小31分母全恰5（2026-11-16）：** [原整数提升与完整余类证明](results/R150-appendix-original-nine-hstar-targets-exact-five31-denominator.md)在全6188→4367来源上核p²b−A(S0+p²q0)=p³r1，精度25→20；完整315×9余类rank9、真U16唯一e6轴九列全非零，故31⁴h*t不在原像而31⁵h*t有来源，费用≤8515。165.035秒/8stage/raw16583·86aa0442，原全自由/重构与25输出SHA独立真。局部q0仅给真实完成下界；h0仍恰2，九p4h*t共同一维socle。
+
+- **R271并行全far完整Schur与同头来源恢复（2026-11-16）：** [完整投影证明](results/R271-appendix-parallel-one-bit-schur-common-head-restoration-and-compressed-creation-row.md)以同C逐位独立硬化，Tonelli一次选t支付全部a1i的Hi能量≤Vg≤Δ_Q²；原GE≤Hi⁻¹准确支付ri=Hi a1i，不估||Hi||。非连续位用真实低forcing恒等式保原PV/PK/u，Q≥R+h+1；实际压后creation整行≤4Vg，原ZV/ZK各4/3 Gram给不同来源合成≤16Vg/3，R=d/Q≥4d母窗内Vg→0。固定Ei u的投影返回仍保留。
