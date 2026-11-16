@@ -260,3 +260,8 @@
 - R903完整纸证：正Φ=QZ/qχ、同962像截146/418，再原18行得128/400与真正144补列；保未缩放P0/t帧、两图完整272证书及七重下降，实际五组矩阵未执行。
 - R896先完成run43872960726已SUCCESS；旧零job队列随后亦完成，如实登记并只消费先成源。R824真BudgetStop/exit1，v19仅取两者必要原证书和实际断点；H原态逐字归档。
 - 本push规则：公开Actions真实pull至9a620dd3514206ac2decea2a901b00ac1cc103bb（2026-11-16T13:24:27.657062+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 21:27 Asia/Taipei — serre-public-astra-20261115
+- R904完整纸证：原Q最高六系数三角化给r≥5真Wr非零，36六挠点同权≤p；r5整div=pE[6]与原常数保全，r≥6真实六行消失序列给w≡5 mod6。
+- 未冒认互补primitive/Legendre指定jet非零；v20只读取R896后继所需固定图/全核/20旧E3及R824第693位current，原大逆与旧产品不重。H完整前态归档。
+- 本push规则：公开Actions真实pull至dd653369a92a2d199af548f798dc80d442a5e183（2026-11-16T13:27:35.458143+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
