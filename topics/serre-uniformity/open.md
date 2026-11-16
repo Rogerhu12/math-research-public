@@ -163,3 +163,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **R903五件执行源已冻结发布**：[方法](notes/R903-original-five-Iz-two-weight-RR-execution-method.md)，同一962像复用于两权完整核，V4只补272个最高列和旧19行jet的线性延伸。原256列保顺序、真144补、完整272纤维/同度及P0正c幂逐项保全；R901源仍null。原完整主函数carrier保来源，但P1值、Q固定坐标、九Norm及高度均未完成。
+
+
+**[R909完整主部三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)** 已证：V3/(τU_D)为完整544测试商，留数完美配对把全部主部移到不交H_a；同F(a)逆的0/1/2系数给544×670，含全部分歧/交点。目标是完整O_H、O_D两个272代数的乘法迹差；同F0逆实现h_a除法，单个V1乘法与真完整幂基给全部迹，不剥nilpotent或重Γ。有限整数primitive搜索有存在界但当前图/矩阵/连接完成旗标仍false。七源实际消费者正在写，同原I_Z及canonical边界不改。

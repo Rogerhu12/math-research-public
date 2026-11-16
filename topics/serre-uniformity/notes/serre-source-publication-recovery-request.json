@@ -2,54 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-freeze-original-five-Iz-two-weight-execution-source",
-  "commit_message": "serre: freeze the original five-Iz two-weight RR consumer pending its true source",
-  "rules_last_read_commit": "bbd9ce7a10d904eba921505d58659266ebdca548",
+  "request_id": "20261116-original-full-principal-parts-three-coefficients-and-Artin-traces",
+  "commit_message": "serre: prove full principal parts from three coefficients and complete Artin traces",
+  "rules_last_read_commit": "5e5f4fecd9e8154c3f9d1cb8ddc029fc4e45a83f",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "b2a0af13035759f7d06550de427f8ee52bb1212f9f0b0710a01360f0f86457ee",
+  "expected_previous_request_sha256": "e6cb10019280875595d153d3bebb6cbf30db7661d6ff258cb75aab38c4203cc9",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R903_original_five_Iz_two_weight_RR.py",
-      "sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
+      "path": "topics/serre-uniformity/results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md",
+      "sha256": "60f74fbd4fd23e64c86df615ee661b874ed8ae900a2c146c26aa74ece28e9391",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R903_public_original_five_Iz_two_weight_RR.py",
-      "sha256": "97b91720dec52a8396456aa8164dc367946def7ebd756e8e00f10a1a76f427e0",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R903-original-five-Iz-two-weight-RR-execution-method.md",
-      "sha256": "ff3acf136005fdef355ed40d02ede89dd2078ce3a69b4d61b2510a0b000d9091",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R903-five-Iz-two-weight-RR.yml",
-      "sha256": "36275e3a2bb204a194a646ca09e7e5fd7a1bf16d43fb57b2f1c76e45523b2d2d",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R903-five-Iz-two-weight-RR-public-request.pending.json",
-      "sha256": "ed326ee264a588131de183d487dc80ddd1fc44b92744f80f9c40551eef46ee02",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-three-coefficient-principal-parts.md",
+      "sha256": "b3a3f61247b71675670826fc8f485e75927a878d460e86355798d1c4de4dc6db",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "3cc595173d84cca4bbf4e2f6b2616b89bafbbf45c54609e6bd0d35d341402c64",
-      "expected_previous_sha256": "4ea9065f2129e214d2947a72697023e7e6c427eb92d10696cd6d813ce5cf3bbc"
+      "sha256": "61ecf4ce13d2546570e853305d95e18154f9fd6f4caa6148c6534686ee803e56",
+      "expected_previous_sha256": "b3a3f61247b71675670826fc8f485e75927a878d460e86355798d1c4de4dc6db"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "51a66f29e0af4d2989962f454c97a899e624c5f59992118219b6f1388bc7aa5b",
-      "expected_previous_sha256": "f6cc0846ce3bb9e56b6e6088513aabd1315b88ace848d190f247a2a59571bd3c"
+      "sha256": "561082c451f3443dcb33bff9ddadc752db0cc38aa7c2afec3a171e5399f20e6b",
+      "expected_previous_sha256": "51a66f29e0af4d2989962f454c97a899e624c5f59992118219b6f1388bc7aa5b"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "96121455aa1d154f78ac950e02dd3ee9c7bddedd5111dafe4b446ddfe5b4b147",
-      "expected_previous_sha256": "4e50549828ff7115f20395f0217ae8c99caa1fbf3dc061a1dbc37b10cb64c770"
+      "sha256": "accb83fa1e2c24fe61500089c7dd9359471399a733963483c96169a2a7050481",
+      "expected_previous_sha256": "1255c4cd733551f955c0e5ad4ca559911df4c990f3f23b4a592dfd8074f5cf62"
     }
   ],
   "dispatch_workflows": []
