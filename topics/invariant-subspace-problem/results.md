@@ -120,3 +120,7 @@
 - **R150六均值梯度完整6×10与全Bell基九生成（2026-11-16）：** [完整原source证明](results/R150-appendix-complete-six-mean-relations-and-nine-bell-normalized-generators.md)以原六mixed常数unit的exactE逆降次，96全坐标/30合成source/72逆坐标实真；Gy−Ghat=νF+μGw保ν=λy−μλw。四Ti逐E对称且各可逆，左乘wᵀT1⁻¹给未归一Bell·u1u4恒等，故整个B=1基上全critical商由其余九项生成。150.141秒/raw4239·f9dfaf87，根独核9完整输出/四det；不称free/非零，未假四Ti y全独立。
 
 - **R150原三阶子式理想恰为完整均值理想三次幂（2026-11-16）：** [全80原minor来源证明](results/R150-appendix-original-mean-three-minor-ideal-is-the-cube-of-the-mean-ideal.md)保全部56三次输出，合法127/d100全56×80满行且原unit det56，6272逆坐标/560直接det全真；根独重80个完整多项式系数。固定E adj/det给I3([Ti y])=(y)³，非零y处rank≥3；(y·w)³=1给全Bell基的原minor unit覆盖，完整critical商局部≤7生成、rank4处≤6。0.642秒/raw1416·f5885f44；未称全局free7或理想已空。
+
+
+
+- **R271创建合成与共同来源相邻旗返回（2026-11-16）：** [完整原Gram和旗证明](results/R271-appendix-adjoint-creation-synthesis-and-common-source-adjacent-flag-return.md)给真creation块Gram等于deletion块加diag((G−2Mi)/(i+1))，保原源度量且c_x=4/3+1/(x+1)。同一Fock中并行loss+gain总和≤Vg，一次选t给公共物理F0的Σ||EiF0||²≤2Vg；严格EiV_Q⊂V_(Q−1)、EiK_Q⊂K_(Q−1)把K反馈在相邻配对中杀去。完整加权标量行≤√(2c_x)Δg,QΔa,Q−1+(1+√2)||a||Δg,Q/√(x+1)，Q≥R+h+2；标准m≥1/Q≥4d。所有远位/全部合法Q同一个来源；尚未换任意无限w，也不升固定u范数行或全MP返回。
