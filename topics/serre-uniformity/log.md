@@ -447,7 +447,7 @@
 - 本push规则：公开Actions真实pull至8dbd975a2040a9426e6858745c99c86c484d3221（2026-11-16T16:17:38.850749+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
 ### 2026-11-17 00:26 Asia/Taipei — serre-public-astra-20261115
-- R921完整纸证：原整Hodge/Igusa联合商与真实节点d6/12迫首微分层k_++p−1；原q另保ea_h，α_h非零而β_h未知，c1用真实分支参数y。
+- R921完整纸证：原整Hodge/Igusa联合商与真实节点d6/12迫首微分层k_+(p−1)；原q另保ea_h，α_h非零而β_h未知，c1用真实分支参数y。
 - 两种primitive单位次数均<p，原vp(a−1)≥4盘得到明确Strassmann根数界；未推首map层/候选Abel零像或height。R815真实Γ586/17520bit保存，v24纯IO真pull0f5d0bce/16:16:19UTC两README无diff已读。
 - 本push规则：公开Actions真实pull至7a16d9a034b2b5c9caf0912bb0f9baa0d7412091（2026-11-16T16:26:50.098805+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
@@ -461,7 +461,13 @@
 - 实测分母阶d0只损一次，267−d0及NeedPrecision边界明确，原272×8 W方程/两端帧/dual7不省；新坐标未算。R815已真实续run43908105148/job133442347214，原g696不重，主目标OPEN。
 - 本push规则：公开Actions真实pull至ae8e9944c7ddf0ce238b0fd3eb2dbf33170c1309（2026-11-16T16:34:35.003363+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-17 00:36 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-17 00:37 Asia/Taipei — serre-public-astra-20261115
 - R922完整证明：七原d_D与≤273度分子仅旧逆274步；共同低权R=MgG^−1以4/5旧点构造并全RG=Mg，目标χ_T分母先在正规环消去。
 - 根核R873/R885原源码纠正未发布稿：真V=K/P_U，8新δK与旧δP_U/PUU/P_U逆保完整商法则；七d及g_t+t h_t须整个E真单位。新数值未算，原R919/dual7/两帧不变，H逐字归档。
-- 本push规则：公开Actions将真实pull并比两README，读过ae8e9944c7ddf0ce238b0fd3eb2dbf33170c1309；有变只读diff，NFF立即rebase重推；主目标OPEN。
+- 本push规则：公开Actions真实pull至e2926e647f68910857d347e9333760c3699b7ea0（2026-11-16T16:37:20.399801+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:43 Asia/Taipei — serre-public-astra-20261115
+- R924完整证明：实际整Hom除p/原节点延拓/I_D极限，严格排低层p次幂，首函数κx^(g−1)y；原β/α=5A/4或11A/10均单位，原指数a_h保留。
+- 原G_h系数content恰p^a_h，除后modp最高单位度m_h=(p−5)/6或(p−11)/6；原vp(a−1)≥3盘有≤m_h−1非中心零界。低项/同h J32/候选零像/height未成。
+- 更正先前H/open/log摘要漏括号：准确b0=k_+(p−1)，正式R921(921.25)一直正确且原稿不改；旧归档中相同摘要误写均受此更正。R924原中心/坐标与R859/861/376及Stacks0C5H已读。
+- 本push规则：公开Actions将真实pull并比两README，读过e2926e647f68910857d347e9333760c3699b7ea0；有变只读diff，NFF立即rebase重推；主目标OPEN。

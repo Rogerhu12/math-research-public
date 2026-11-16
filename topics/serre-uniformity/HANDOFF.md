@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：ae8e9944c7ddf0ce238b0fd3eb2dbf33170c1309**（2026-11-16T16:34:35.003363+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[连接求值前H](handoff-archive-2026-11-16-before-connection-target-evaluation.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：e2926e647f68910857d347e9333760c3699b7ea0**（2026-11-16T16:37:20.399801+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[连接求值前H](handoff-archive-2026-11-16-before-connection-target-evaluation.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -57,7 +57,7 @@ R805–R883原W/两图/146/418/273jets、参考254P0铅笔、未缩放t首项；
 
 [R918权四](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)：p11类h=(p+3)/2/r2，实际L̄=cΦ4(V4†)≠0/fine SS阶2p−5。[R920权十](results/R920-original-upper-primitive-Igusa-layer-and-inert-Hecke-row.md)：p5类h=(p+9)/2/r8，真T5行迫V10†=V4†(E6+504sη12)，实际L̄=cΦ10(V10†)≠0/fine SS阶2p−11；原标记V10†/E4单位。全H6/Cais整满射/单或双Igusa/C4/完整Norm与真det−1沿原文。
 
-**[R921原Drinfeld首normal](results/R921-original-Igusa-node-and-first-Drinfeld-normal-differential.md)**：整Hodge经Raynaud/Néron/dualizing、原Igusa联合商μ6·C_a给节点UV=επ^d（d6/12）；惯性下界与不可相消节点项合定 b_D(Ω_h)=k_++p−1，原q另加ea_h。首微分ν_h=x^(g−1)(α_h x^M+β_h)dx/y，α_h≠0；原c1=(0,0)用y参数。β_h未定，两种primitive单位次数均<p，原vp(a−1)≥4盘由实际整系数/Strassmann给含中心至多d_h根；非中心≤(p−3)/2或(p−5)/2。R924继续β/整Hom桥，未声称首map层、原候选Abel零像或height；a_h/c_h、另一λ_h、同h三因子/J32仍OPEN。
+**[R921首微分](results/R921-original-Igusa-node-and-first-Drinfeld-normal-differential.md)/[R924首函数](results/R924-original-completed-Hom-lift-and-marked-normal-function.md)**：真节点d6/12给b0=k_+(p−1)，原q另加ea_h。实际整Hom的p除法/节点延拓及I_D极限，排掉极阶<p的低层p次幂，原首函数恰κ_h x^(g−1)y。故β/α=5A/4或11A/10，β≠0；c1用y。原p^−a_h G_h∈wR0⟨w⟩，modp次数m_h=(p−5)/6或(p−11)/6且最高项单位，content恰p^a_h；vp(a−1)≥3盘非中心零数≤m_h−1。未定a_h=0/低项/另一λ或同h J32，原候选未假定零像，height仍OPEN；下一原源比较继续。
 
 ## 关闭边界，沿全部归档
 
