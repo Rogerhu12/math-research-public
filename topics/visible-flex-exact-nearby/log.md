@@ -394,3 +394,7 @@ fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pu
 根完整核：同一物理测度/全mean负二及负5/3/3×3比较与15权、完整whole/reduced各自比较；44原scalar及9完整scope/accepted与独立五原件精确一致。32最终字段、16progress、14gate、7+15+18=40新，旧科学/目标重算0。source仅更换新worker路径，旧f966 worker未改；新worker只增加先打印完整异常后保存JSON硬cap64/4096/16384及截断/log标记，完整科学prefix不截短。
 
 六完整纯序列化模型含实际原对象与256B合成新球，未执行数学；success89308、late scientific92110、完整preflight12874、execution success21943、late operational45400、marker675B。模型全immutable见manifest，不复制成运行输入。合计压力含2KBreport为139510B，完整预算science95000/exec59000/report2000/total156000/marker4000，另预留120000。fresh metadata 8d5cbfaeaf9f00900d8c9954529b5e680a3bd48d topic=199478816B；两source+manifest+8KB文档余量+marker+全publication+reserve=199886668B≤200000000。每child立即前worker再次全tree实核。child1800s，正式workflow另推后首次启动；consumed marker防旧目标再消费。未宣称smallness/finite/背景/非线性或总验收完成。
+
+## 2026-11-16：启动 WRP40 首次公开 Actions
+
+2026-11-16 14:02:37 UTC；README只读核19b42a38a921cad3abfb77e1433cb482789b8064未变。固定source/worker/manifest已19b42a38a921cad3abfb77e1433cb482789b8064独推。本次仅提交workflow 506b1cd7e68a48d63747438bb1a3af077e633e98/2979/b0e4ea3e47c17d15208c2609aa7e7016ae1376402369806b202d9352f1c28665，触发公开仓库自身唯一consumer；Python3.12.14、python-flint0.9.0，完整预核、9输入/2AST/0history、预算156KB+120KB及consumed marker按冻结包执行。40新尚无actual，不能复用本次标志重跑；若失败先保完整prefix并明确未保存/未算边界。
