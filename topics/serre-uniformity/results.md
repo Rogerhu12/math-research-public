@@ -162,3 +162,6 @@
 - **R856实际完整固定支撑基已证明**：[两图点理想与Cusp+P0完整基](results/R856-certified-original-two-chart-point-and-fixed-branch-ideals.md) 0834de1f32917960a21d3b66b3d4d9f9a512a913001cfea9d991254f21b583fc；run43805659598/sourceebdb4e51，29.229620817秒/42stage，真实两图pivot0、各272列，余长1/21、全部准确乘回。artifact14198217155/125c93ef；原569件来源直接继承。B/D、RR、η及height仍开。
 
 R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，R744已有某低firstjet分量闭depth4非center根数≤3。R857新增仅R855同h高unit在完整开盘v(a−1)>3的最小unit/根数，不称首次盘界或优于旧界。
+
+
+- **R858原单Z执行引理已证**：[方法](notes/R858-original-p41-single-Z-from-chain-and-tail.md)39bca8a3：原加法链1/2/4/5/10/20/21/42累积β42，Z(P)=(Z(42P)−β42)/42，正号/规范与SP相同。实际t/u双条件后H_n整数及(N+1)a−c−7ceil_log41(6N+5)≥T对N≥2认证全部tail；原14基单位球、负赋值/σ全作用与Trace14保cχ/2。helper767b01cb、driver/wrapper正在接；R854成功源尚缺，请求pending，不称Z/五行/height已算。

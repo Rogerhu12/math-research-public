@@ -129,3 +129,6 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 **R854原41首次实际请求已提交**：[执行记录](notes/R854-original-p41-response-solver-activation.md)，core1feb579a/helperfa545b18/wrapperf6b97a7d，原2420/free1186/全部2560原行，56位算子/目标7位/300min只为控制。首跑核真实GLOBAL载体后保1645原叶+20父元数据；成功须实际单位子式/左逆界＋全残差，不再乘CM原scale。四响应球/A.1/Z尚未成，R858待真输出；已实际触发run43805506433/source dc6ffb07b398e5262d6b1e62dbc72378a163b5f3，原数学步骤正在执行。
 
 **避免重登旧实下降/盘界**：R750 已给全部h/全部jet的共同实相位与signed conjugates；R742 已给unramified firstjet/depth7，R744 已给某低firstjet分量在闭depth4的非center根数≤3。R857新内容仅R855具体同h高unit对开盘v(a−1)>3的最小unit与根数；不称首次根数或改进旧界，后继直接引用三旧记录。
+
+
+**R858原单Z执行引理已证**：[方法](notes/R858-original-p41-single-Z-from-chain-and-tail.md)39bca8a3：原加法链1/2/4/5/10/20/21/42累积β42，Z(P)=(Z(42P)−β42)/42，正号/规范与SP相同。实际t/u双条件后H_n整数及(N+1)a−c−7ceil_log41(6N+5)≥T对N≥2认证全部tail；原14基单位球、负赋值/σ全作用与Trace14保cχ/2。helper767b01cb、driver/wrapper正在接；R854成功源尚缺，请求pending，不称Z/五行/height已算。

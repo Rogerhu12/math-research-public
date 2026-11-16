@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f7b46ef6f8bd81385e71f193377e16c5f8c4e755**（2026-11-16T04:48:15.374370+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[固定理想结果前完整H](handoff-archive-2026-11-16-before-fixed-ideal-result.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：b696cc152e101dec4e76c9b964a107f220643989**（2026-11-16T04:52:03.529369+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[固定理想结果前完整H](handoff-archive-2026-11-16-before-fixed-ideal-result.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -28,7 +28,9 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 
 
-**A.1真实dual与半坐标后继**：[七小L条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)不代A0−qB0=0。当前bad97414/5388274继承真PAIRING J/Jinverse4629B/b384a331及1481源，正κ/负Z/82^10/Δ不变；严格RR/full35840与d(A0−qB0)=−Δ才判A.1。HP281de249只在A.1真时给cχ_m=(−1)^(m−1)χ_m，35840→17920Q；已认证current禁用半非零可拒q，RR失败不拒q。后继[契约](notes/R787-half-coordinate-dual-continuation-source-contract.md)1f1ea6b2/coreffe5dcff/wrapper1552e403仍pending source=null；等full dual真实结束后继承全部旧target/J/current/next residual-correction-witness，n+1七支、补±s后全核，不用primal518、不重J/旧位。
+**A.1仍缺原零证**：七小L条件不代A0−qB0=0。当前bad97414/5388274真dual继承PAIRING J4629B/b384a331/1481源；全35840乘回才判。半坐标后继[契约](notes/R787-half-coordinate-dual-continuation-source-contract.md)1f1ea6b2/coreffe5dcff/wrapper1552e403仍source=null，须当前full真正结束后继承J/target/current/下一residual-correction-witness；n+1七支/17920RR补±s后全核。禁primal518、重J/旧位；RR失败不拒q，仅真fullΘ可转Δ/A.1。
+
+
 
 **原帧与sigma规范**：[RF](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99保I_Z、P0/P1真帧、v_R=κ/R·v³、ν=3^(11δ)mratio与完整Corr/theta二挠。原Q三次纤维/实际C_h/nonp/splitting均保。[SP](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea固定μ3补〈xω〉、u²(1−u)=bξ⁶、w/H/F、ψ₂=−2y与SP25–28全尾；41须原U.1或已接受A.1。
 
@@ -61,3 +63,6 @@ UE9a54e844二类项全函数相消但原degree dY+2 period未知；End⁰G=F与�
 
 
 **R856完整固定支撑基实际已成**：[结果](results/R856-certified-original-two-chart-point-and-fixed-branch-ideals.md)；run43805659598/job133095773462/sourceebdb4e51，29.229620817s/42stage，两图真实pivot0；点理想余长1、Cusp+P0余长21，各272列完整准确基及全部乘回。finala80fb42e/stagece02bb69；artifact14198217155/125c93ef至Nov17 04:43，569原件载体fd6329bd。原固定支撑闭合；证明e2f61908另给L上I_E=mP0 C^-2(f³,(δf)³,(δ²f)³)，实际B/导数/RR/η/height仍缺。
+
+
+**R858原单Z执行引理已证**：[方法](notes/R858-original-p41-single-Z-from-chain-and-tail.md)39bca8a3：原加法链1/2/4/5/10/20/21/42累积β42，Z(P)=(Z(42P)−β42)/42，正号/规范与SP相同。实际t/u双条件后H_n整数及(N+1)a−c−7ceil_log41(6N+5)≥T对N≥2认证全部tail；原14基单位球、负赋值/σ全作用与Trace14保cχ/2。helper767b01cb、driver/wrapper正在接；R854成功源尚缺，请求pending，不称Z/五行/height已算。

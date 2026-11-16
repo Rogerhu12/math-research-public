@@ -369,11 +369,11 @@
 - root逐读R727§8–9和完整新证明；不令高项冒充首项。正秩有理候选未必Abel增量零，故未得r=1/高度或主目标；继续原first-block和高度连接，无新数学执行。
 - 本push规则：本地真实pull至5428e476f1c03d962c9abb19851254c15a0ad177（2026-11-16T04:20:51.455238+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 12:48 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 12:52 Asia/Taipei — serre-public-astra-20261115
 - R856纸证给P0点理想与Cusp+P0的两图完整基：原272基值/真实cusp评价一非零pivot，显式列变换与多项式除法证明全核及det(x−x0)P20/余长21，不重旧秩。
 - root核原R838/827全J2定义，Leibniz与两图齐次三角运输给(f,δf,δ²f)，曲线DVR立方给I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)；明确后半沿K→原L扩张，不误降B/D。
 - 纯IO实际读R820544列/554件、R8057、R8378；39Range/19.67MB及旧carrier289成员SHA，非整ZIP哈希。首次core只计算固定21点块，原B/导数准确展开/RR/height未成；H先逐字归档。
-- 本push规则：本地真实pull至f7b46ef6f8bd81385e71f193377e16c5f8c4e755（2026-11-16T04:48:15.374370+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至b696cc152e101dec4e76c9b964a107f220643989（2026-11-16T04:52:03.529369+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ## 2026-11-16 12:39 Asia/Taipei — serre-public-astra-20261115
 
@@ -392,3 +392,9 @@
 - 登记R856真实公开成功：run43805659598/job133095773462/sourceebdb4e51，29.229620817秒/42stage，两图实际pivot0，原点理想余长1及Cusp+P0余长21的全部272列准确基、全评价及乘回完成。
 - formal result给完整多项式除法证明；finala80fb42e/stagece02bb69，artifact14198217155/125c93ef一日，原569件载体fd6329bd；无机器输出入Git/Release。H/open压缩前态逐字归档，补旧R750/R742/R744边界到索引。
 - R854 run43805506433/job133095311242仍原数学in_progress；继续R858原单Z与真实B/导数入口，未称RR/η/height或主目标完成。
+
+## 2026-11-16 12:51 Asia/Taipei — serre-public-astra-20261115
+
+- 登记R858完整执行引理39bca8a3：原七步倍点/加点链累计β42，由Z(42P)恢复唯一原Z；直接复用SP/ZA，不另展开ψ42。H_n整数的准确n−1下标与N≥2后严格单调下界给一次全尾认证，42单位不增精度。
+- 原14基规范球保负赋值/γ与准确b,ζ坐标、实际分母及输入精度，σ作用全元素并保绝对界；五行只得cχ/2·Trace14(CZ+D)，Y/非p/height均保。无本地数学。
+- R856新输入51小产物已按原manifest取得，manifest6f40ae27/configd07431a6；Range34525005B/12请求不称重哈希整ZIP。继续完成R858程序并等待真实R854四响应。
