@@ -3,15 +3,15 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：71178ca5fb2a4f11468e43b0c5695576db81f3aa；2026-11-16 13:45:51 UTC核两README无变。实际CI pull 2026-11-16 13:09:18 UTC/34e4ee45e5b621e97c24209805db714c518410f3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:00 UTC再实际pull。
+- 最近已读规则提交：dae38ffc6458849cd79a9c99b146b7f3114c6e2b；2026-11-16 13:47:21 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 库存33,362,662B/2467文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；API不冒实际pull。
+- 库存33,504,202B/2479文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；API不冒实际pull。
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-full-original-cm-cocycle.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–886已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-after-original-finite-tests.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–886已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续同R/S后两页，theta续四原B，literature续原辅助集。子题完即续open。
 
 ## 当前第一实际门：原映射、真RR与完整shadow
@@ -50,11 +50,10 @@ R884附C–I的原U全部2/δ迹、C9/D9/N/P72°/R24/H18/P16及原四中央三�
 完整P134/十九角/charge40/conductor10980/39carry/WD和M=c*U0w13J保前检；TM=s−r−13、TJ=s−r不混。同R/S的H高尾/四位/三残差及原三中央商不删，精确式与R868/871/872三折回见上方完整H归档。
 R872实际调整口仍是全K1的W2末三尾联合像；同预算Pfact和完整p³才付J/p²。τ1同R的ER首s−1单位、E²整h+ell段和E³的ξ短段、两近支(7±√−17)/6及严格f0交数3全保。
 
-J3=(E+40)⁻¹V3的Π全0不删除完整β1；首核只需W0≥T，完整carry加深到s，且J3∩V1=V4。原全有限商W/(V1+J3)含全部真实底纤维与H¹连接核，不只物理零纤维；[全商证明](notes/2026-11-16-r872-native-finite-fiber-quotient-and-cubic-ramification.md)保全部Gauss/非固定3length(F,EF)。[零纤维证明](notes/2026-11-16-r872-native-zero-fiber-three-layer-quotient.md)给Q0=(A/t³)/(t²V)、两实际列、G1移动修正与物理去除后≤3行；全WD满像不冒K1满像，[退化补全](notes/2026-11-16-r872-degenerate-zero-fiber-and-negative-row-overlap.md)去掉非物理平方自由门：r≥2两列仍秩2；唯一Y²(Y−1)四行与ρ−重合一行，联合仍仅添三行。其它finite及真F线性Π仍保。
-
-[two-charge连接核](notes/2026-11-16-r872-quartic-two-charge-global-connecting-kernel.md)：同原t³F⁴q使j≤2，j0时所有D的H¹连接核0；j1/2维≤3/14，核只有[f0a0]3,0、[41f0a1+44f1a0]3,1两Laurent行，f0不冒unit。native首Bockstein准确λ=a⁻¹[w^s](5042W0−246W1+3W2)；τ1另读9U0u0²e0αA，τ2/3仅W0,s，αA与其它支同γ而非自由。
-负水平z−≥1迫整[Y0]A/J零；v1=(L⁻¹(YF0³))(1)≠0时全J3∩K1含t³，退化F0=Y²(Y−1)自动满足。quartic t³迫4z−≤1+6j、z−≤3，z3时整个J3含Y²/t³无需v1门。5042在原p6s−1>211单位，完整β1通过还须W0≥s+1，非充分。
-[同修正有限类返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：τ1的全球o(R)0才有同预算R=FH+J，完整normal/ξ段与两近支照搬；必dD≥κ+s+1。小于门时0∉o(R)+o(kerβ1)，不能借仅K1改变保同第二页，未排全部p³。
+全商W/(V1+J3)保真实全部有限层及H¹连接核，精确矩阵/来源见上方完整H与R872系列注。J3=(E+40)⁻¹V3的Π全0不删全β1；J3∩V1=V4，carry使W0≥s，原negative/primitive条件下完整β1还必要W0≥s+1。native λ=a⁻¹[w^s](5042W0−246W1+3W2)，τ1保同γ给的9U0u0²e0αA；τ2/3仅值项。5042原p单位。
+quartic余乘子j≤2；j0全H¹连接核0，j1/2维≤3/14，真核仅[f0a0]3,0与[41f0a1+44f1a0]3,1，f0非unit可能保。零纤维Q0=(A/t³)/(t²V)保G1修正及物理以外全部块；除F0=Y²(Y−1)外两列秩2；唯一退化四行与ρ−重合一行，联合仍添三行。全WD满像不冒K1满像。
+原负水平z−≥1迫整[Y0]A/J零；v1≠0时J3∩K1含t³，退化F0自动。4z−≤1+6j给z≤3；z3整个J3含Y²/t³，无v1门。
+[同修正返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：τ1的完整o(R)0才有同预算R=FH+J，全部normal/ξ段与两近支保，必dD≥κ+s+1。strict反门使0∉o(R)+o(kerβ1)，但不排p³。当前唯一下一步：算全高前缀下实际o(kerβ1)与同R/S的指定仿射类，不能从局部可赋值或ΠJ0跳过它。
 
 ## 其它原门与同步
 
