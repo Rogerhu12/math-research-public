@@ -389,3 +389,8 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 ### 2026-11-16 10:00:50 UTC — 非零新场全168当前导数的完整接口
 
 [全168设计](notes/complete-body168-current-state-selected-jacobian-design-20261116.md)已从原源码推出：同一当前新场frame构造u9/v8/Q1角核，新8列共享前4角模、旧5与新γ高度分别完整收缩，最大虚拟列27而非全网168张量。非零新系数（含仅γ）不能拼旧场159最终J；只有全new9 literal0且同点/网格/原行/全部身份完全一致可复用。另给完整方向e/f/de/df接口与准确M172,168；这是源码设计、0新执行。现在绑定实际56实现，原55任务闭、主门仍欠。
+
+
+### 2026-11-16 10:02:28 UTC — 启动R498四原子完整五门唯一新搜索
+
+四原子7参完整12L/8Aj/5G源、参数和workflow现发布；request 6928B/455cccb65950fad0a45d699460e6f36ff9b922d280f616099fcf9e9ad838d6c9。R498原64起点、每起80/总6000完整值、统一180秒/150秒搜索；C0仅5shape切片，C>0七选五，只首新候选作同原有理收缩。新source61649B/1e0a0a…，root逐段读源码和原公式，未执行开发suite；不读旧cap15/三原子科学输出。共享.github/workflows/visible-four-atom-cap5-search.yml仅为本题新public研究+只读报告；两job均实际pull双规矩、私有QUEUE，全部可重算输出只留stdout。推送触发唯一新run，尚不宣候选或完成。
