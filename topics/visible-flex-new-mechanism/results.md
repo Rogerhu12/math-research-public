@@ -134,3 +134,5 @@
 - [真正58全51后缀：原钟停无返回候选](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)：**完整原观察**，solver360限实际362.24296968，无OptimizeResult，0actual仍58；末完成点metric/PSD违约，九record确存。新410.626657796秒/180q/179J/2864blocks，总3642.4396103470003/147；余额闭、0disk，继续新真实控制而不推广callback。
 
 - [R549 三p联合矩门与真实水平修复障碍](results/R549-three-p-moment-balance-and-real-horizontal-repair-obstructions.md)：**已证明**完整正负曲率质量的准确三矩条件、R548全前缀σ²及固定低负尾不可能；恒u/恒真高度/高度能量和同时t1返回的原时间成本保。formal锥/端时长不授实际可达或Jacobian，尚未三p/全M0。
+
+- [R550 同一规范的正水平支与真实总p2零](results/R550-positive-horizontal-branch-and-exact-p2-zero-with-one-fixed-gauge.md)：**已证明**原t1次阶历史驱动真实k转正、正j/升高和第二coast唯一总p2零，中心总t1仍正；固定正r另保p1负。准确p2零处p1余项号未定、p0严格正，全部真实费用保，未三p/全M0。
