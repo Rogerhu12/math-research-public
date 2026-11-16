@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WPTV：同一正侧head的冻结交叉块值域尾证书](results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md)：精确constant/reference split避开新径导，保原collar/body双source、完整193mean/ramp/所有交叉；17现有小text+19历史恢复件闭包，不授新数值或finite逆。
+
 - [WMF：精确归一化正权的完整物理均值强迫](results/R133-supplement-exact-normalized-weight-physical-mean-forcing.md)：两个内部mean恒等式完整消去转置中的nonlocal kernel，给同一Fmean的material-direction表示；保独立物理mean、root/端点/jump、g1/Jr，0新数值，不预授更小界。
 
 - [WOBSA：实际完整outer/source/rough/root费用](results/R133-supplement-actual-complete-outer-rows-and-rough-positive-observations.md)：43844596176/1成功18门，6图37新原球齐、42旧/73scope完整，old0/lost0；真实mean与全部affine/七port保，未知G/finite逆不赋值，37目标冻结。
