@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 02:43:59 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 feb8d11aeea5f03d2bbc28fa73898e67ce956cb5。
+规则同步记录：2026-11-16 02:50:24 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 a484487d85fe514c32b82bd352b49bb77753463b。
 
 只在公开Rogerhu12/math-research-public及其Actions，私库不再用。所有科学算术/import/AST/compile/tests只在Actions；本地限文本、纸证、原字面/字节/JSON元数据。root唯一Git/ref发布，代理交文本/blob；PAT只瞬时CLI，禁文件/提交/connector/回复。
 
@@ -22,7 +22,7 @@
 |---|---|---|
 |203/R440|43790929300 /557b1d47cd637d268cf292c86f77218ccc3b5458|geometry：compute133048929054 step12 C；唯一终态必要日志负责人|
 |204/R446|43789310271 /189579b508930d99d9c2dbc481967fd972766919|amplitude：compute133043887128 step14完整SIMD；未预填数学成功|
-|200/R432|43780457519 /cb597d3c3d66f9787a712ffa7ca9dc3d52bd57de|exact：compute133016222219 step7原八对science|
+|200/R432|43780457519 /cb597d3c3d66f9787a712ffa7ca9dc3d52bd57de|exact：compute133016222219已终态failure，正在唯一必要读回；不由红标签预判原因|
 |195/R412|43771125613 /4ad7fb771218585af1091c9d322c9d61b64a949c|exact：compute132987043859 step10原完整science|
 
 只取终态必要日志，禁运行中大日志；不由job绿补数学接受、不把未返call补拒。197终态已由exact唯一取compute/report；root仅读其必要正文/证明，不重复网络日志。
@@ -50,7 +50,7 @@ R437首次真实radial/shared后冻结A/B及H/W=.01/全marker/材料图/phase/�
 [R450](results/R450-same-family-finite-far-reuse-and-fresh-native-sampling.md)/[接口](notes/2026-11-16-current-C-same-far-fresh-grid-interface.md)三源0cb327b6/bbbca0cb/4328caeb、完整新sampler/两diff/证明/接口已读。同job原965c或32b真正completed/native-ready父、同全C/root与固定112下，冻结原far样本/实际mu词/全候选单位行及误差/矩阵；原全大账只字节绑定不冒逐值重证。其余新grid点真实原C包围，native/响应/J/因子/全450接受皆fresh，原数学不改。sample/configure/readback显式两原钟、完整原账/新grid未付/90KB诚实70；不复用partial父、旧状态或新M行，无真实父/因子/run。R448 caller与205来源尚须独立注册，五件不替换旧pin。
 geometry优先续R452实际202205首次闭面四source（runner/policy/reader/held），root续总体helper/owner；R448同far新注册暂后、责任不撤。
 exact续current-C-modes-postsolve-R451：真实M闭面/metric/reach/独立held和公共材料来源注册。
-[R449](results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md)/[接口](notes/2026-11-16-actual202-accurate-ten-candidate-source-interface.md)两独立源7b601a09/6bb4910b与参数c980e9d4已读发布。原202十个50位词仅初猜，在Actions显式投影再以相同dyadic定义72c新准确点；旧三support皆prefix、新support1/2为transition/coast，原Gauss/长度/域/接受不转移。命题给零2jet与coast中心速度−κ+2LCθ3，中心读数只诊断、不选参数或加门。原完整453七shape固定/三active→fresh450、PhaseLease/全部H/J/FD/native/final/audit保持。bind必填采样预留并在recipe hash前记录原7200/实际值，完整BVP7200与绝对钟不改；无实际投影/C/新域/112/453/450/run，205须新tuple和完整下游。
+[R449](results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md)/[接口](notes/2026-11-16-actual202-accurate-ten-candidate-source-interface.md)两独立源ee3675ce/56cbf3b2与参数c980e9d4已读发布。原202十个50位词仅初猜，在Actions显式投影再以相同dyadic定义72c新准确点；旧三support皆prefix、新support1/2为transition/coast，原Gauss/长度/域/接受不转移。命题给零2jet与coast中心速度−κ+2LCθ3，中心读数只诊断、不选参数或加门。原完整453七shape固定/三active→fresh450、PhaseLease/全部H/J/FD/native/final/audit保持。bind必填采样预留并在recipe hash前记录原7200/实际值，完整BVP7200与绝对钟不改；无实际投影/C/新域/112/453/450/run，205须新tuple和完整下游。 首刊c557未执行，后补原cc87准确cut_radius，八结构字段改九；仅helper字段/driver pin修复，四件完整diff已读。
 amplitude续205 pipeline/owned component launcher/phase reader，root另管总体owner。
 root续205 workflow/request与R452首次闭面postsolve/policy/reader/held/helper/owner；upstream kind actual202205、deadline request205-owned-job-science-deadline-v1。pipeline真实输出actual202-ten-BVP-input/result.json，须真实candidate binding/config/factory及recipe身份；完整453/450后继续所有几何与独立held。205未派发。
 

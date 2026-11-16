@@ -46,7 +46,7 @@ MODEL_RECIPE_SCHEMA = "R300-new-continuous-ten-fixed-support1-power4-model-recip
 ACCURATE_TEMPLATE_SHA = "cc87d9327c33a208ac36e7dadaa5608cc3597e8d9f9bc0bd615631a6681fc6fb"
 ACCURATE_TEMPLATE_BYTES = 2136
 ACCURATE_TEMPLATE_SCHEMA = "R300-new-continuous-nine-scalar-model-recipe-v1"
-MODEL_KEYS = ("core_end", "kappa", "collar_width", "first_transition_width",
+MODEL_KEYS = ("core_end", "cut_radius", "kappa", "collar_width", "first_transition_width",
               "last_transition_width", "first_support", "root_choice", "collar_mode")
 BVP_TEMPLATE_SHA = "d926cecf92f35cf4c7ae8cc86ad243287846d73df98c78e8ba1005c568ab8811"
 BVP_TEMPLATE_BYTES = 10294

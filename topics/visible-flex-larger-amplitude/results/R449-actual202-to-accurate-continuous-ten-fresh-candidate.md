@@ -80,7 +80,7 @@ $$
 | p3 / theta3 / eta3 | 第三个prefix窗 | $[S_1,S_1+L_C]$，准确coast |
 | xi | 第二个prefix窗，catalogue3的power4 | 准确第一速度过渡的power4 |
 
-R449的准确结构模板是actual180实际小recipe，2136 B/SHA `cc87d9327c33a208ac36e7dadaa5608cc3597e8d9f9bc0bd615631a6681fc6fb`。只复制 `core_end/kappa/collar_width/first_transition_width/last_transition_width/first_support/root_choice/collar_mode` 八项，所有旧九系数及其origin、所选域证书都不复制。原模板的来源是结构参数来源；不把新点叫作180的已证点。
+R449的准确结构模板是actual180实际小recipe，2136 B/SHA `cc87d9327c33a208ac36e7dadaa5608cc3597e8d9f9bc0bd615631a6681fc6fb`。只复制 `core_end/cut_radius/kappa/collar_width/first_transition_width/last_transition_width/first_support/root_choice/collar_mode` 九项，所有旧九系数及其origin、所选域证书都不复制。原模板的来源是结构参数来源；不把新点叫作180的已证点。
 
 这里固定的 $kappa=1/2$、$delta_A=\delta_B=1/1024$、$d=1/524288$ 是该原配方的字面值。[R323](R323-finite-cut-boxes-and-explicit-uniform-dyadic-windows.md)给其有限包围条件；新C现场仍由原factory实际核全部严格构造条件，不因旧配方已存在而预付。
 
@@ -215,7 +215,9 @@ $$
 
 ## 7. 生命周期、差异与下一完整入口
 
-本稿交付两执行源、参数输入、完整5400→新driver差异及接口。没有新request、workflow、run或未来success。旧cb057 launcher/203 pipeline硬pin原来源；新driver不能借这些旧pin假称被接受。下一完整入口必须显式接新的pipeline、owned tuple、recipe/实际deadline收据及必要reader。
+本稿交付两执行源、参数输入、完整5400→新driver差异及接口。没有新request、workflow、run或未来success。
+
+源码接线修订：首刊 `c5577584a5a914a420755d613b803455ec374300` 版本尚未执行。继续逐项对照72c的实际 `main` 时发现，它在形成factory输出前直接读取 `recipe["cut_radius"]`；原adapter八字段列表漏了这项。当前仅从同一2136字节 `cc87d932…` 原模板按原准确字面复制 `cut_radius`，结构字段由八项改九项。driver只级联helper pin，方程、十词、域条件、资源与全部接受门不变；没有从数值中点或旧解反造cut。旧cb057 launcher/203 pipeline硬pin原来源；新driver不能借这些旧pin假称被接受。下一完整入口必须显式接新的pipeline、owned tuple、recipe/实际deadline收据及必要reader。
 
 新adapter不启动、修改或重启绝对钟，不产生新科学求解预算。原179模板的采样启动预留是7200秒；这与完整双BVP的7200秒process上限是不同字段。为避免后继bind完再改recipe破坏身份，`bind`必须显式接受 `--sampling-startup-reserve-seconds`，在生成最终recipe及其SHA之前写入实际预留，并同时记录原7200、传入值和不变的完整BVP上限。没有默认值。本源不预选未来实际请求；后继若明确沿203的3600秒采样预留，应在这一步传入3600，不能在已绑定recipe上静默覆写。
 

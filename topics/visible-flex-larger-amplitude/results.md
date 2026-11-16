@@ -318,3 +318,8 @@
 ## R450 — 同C完整far复用与真实新网格来源
 
 [R450](results/R450-same-family-finite-far-reuse-and-fresh-native-sampling.md)/[接口](notes/2026-11-16-current-C-same-far-fresh-grid-interface.md)三源0cb327b6/bbbca0cb/4328caeb、完整新sampler/两diff/证明/接口已读。同job原965c或32b真正completed/native-ready父、同全C/root与固定112下，冻结原far样本/实际mu词/全候选单位行及误差/矩阵；原全大账只字节绑定不冒逐值重证。其余新grid点真实原C包围，native/响应/J/因子/全450接受皆fresh，原数学不改。sample/configure/readback显式两原钟、完整原账/新grid未付/90KB诚实70；不复用partial父、旧状态或新M行，无真实父/因子/run。R448 caller与205来源尚须独立注册，五件不替换旧pin。
+
+
+## R449接线修订 — 原准确cut字段完整传入
+
+[R449接线修订](results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md)在未执行的首刊c557之后补齐72c实际必读的cut_radius：从原2136B/cc87模板逐字复制，结构字段八→九；helper31509B/ee3675ce、driver34835B/56cbf3b2。四件10011B完整diff已读，原十词、cut字面、方程、域门、资源与PhaseLease不变；205尚未派发，新launcher/postsolve来源同步级联，原运行不变。

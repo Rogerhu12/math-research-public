@@ -8,12 +8,14 @@
 
 |公开路径|字节|SHA256|Git blob|
 |---|---:|---|---|
-|`computations/geometry_20261116_actual202_accurate_ten_candidate.py`|31495|`7b601a092b61d9c71d83836d7ae8aef5c0af9f25f187a856a21adec20ba0df49`|`e42d41921bff1d5fa15d90b15f76062c45b8d5d7`|
-|`computations/geometry_20261116_actual202_accurate_ten_full453_frozen450.py`|34835|`6bb4910bd26849c141c94094cc0a7d05939655fbb8eefbd95129e8cb03ef1965`|`342255862ada50889d44d4aabe02cfed3ed7e345`|
+|`computations/geometry_20261116_actual202_accurate_ten_candidate.py`|31509|`ee3675ce3465930f2ce32283a468f5fad464639ca6ccda6352f027f00f0c6c38`|`0cea9b9d2d881cb7a48e34305926f1351ab80323`|
+|`computations/geometry_20261116_actual202_accurate_ten_full453_frozen450.py`|34835|`56cbf3b23d80600121adc2bbeb368e3930d4e5cffe6a2e2a0ab4919cc1018615`|`1f9d88ab146ec64ef9dabd0028f170db3f477fa0`|
 |`notes/actual202-accurate-ten-candidate-input.json`|2165|`c980e9d4c6e15455459dc91a890b4fd9d8b02bced26eecd5d632ff9d250dbd4d`|`50a6d95fcd9ac61dfd722e912fa71c1b868b921d`|
-|`results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md`|20011|`8756fa0051bd166b5aae9cca3f323e407d77de56c8ea943e6a2c9541b9e35a15`|`059c6c434d3ee225ffb1532002c1d89608a4e338`|
+|`results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md`|20530|`c084f7b1f56da6a7f4e9e92b890d8a8e87c9d0b29c9043defb5a33b7002e17e1`|`f87940d5a101e55b7758ffe6f8c453133d1461e6`|
 
-本地文本交付目录为 `/workspace/visible-larger-working/actual202-accurate-ten-R449/`。`candidate-driver.complete.diff` 是已发表 `5400aa4a…` driver 到当前独立 driver 的全部文本差异；8111 字节，SHA256 `3958ebdb2bb5f14e60edb65ce50552bf66273b67a4c34fa62e28a828835af976`，blob `0e788c88ae791dd21efe48027c45c18752f1a6ff`。`explicit-resource-reserve-only.diff` 是 root 已读初稿到本次显式预留修订的完整小差异；5747 字节，SHA256 `043979b6a09ed135957bdb692f8128587b168691f76d6b96257b9e9d665a0564`，blob `9053ee004ba8e1ff3b3114257d9b8c8668a73345`。这些差异和清单是源码复核材料，不是科学求值回执。
+本地文本交付目录为 `/workspace/visible-larger-working/actual202-accurate-ten-R449/`。`candidate-driver.complete.diff` 是已发表 `5400aa4a…` driver 到当前独立 driver 的全部文本差异；8120 字节，SHA256 `d35c8ab8a36407ab8a9703a5a2cbfacb4b72a7f3d444a5b59c7cdbc37320ac0a`，blob `54fbfd8e7eee4e273180fdb7147a5edd9b919022`。`explicit-resource-reserve-only.diff` 是 root 已读初稿到本次显式预留修订的完整小差异；5747 字节，SHA256 `043979b6a09ed135957bdb692f8128587b168691f76d6b96257b9e9d665a0564`，blob `9053ee004ba8e1ff3b3114257d9b8c8668a73345`。这些差异和清单是源码复核材料，不是科学求值回执。
+
+首刊 `c5577584a5a914a420755d613b803455ec374300` 尚未执行。当前修订补原准确结构模板的 `cut_radius`：72c main 实际直接读该字段，原八字段列表漏项会在输出建立前失败。现在只复制原 `cc87d932…` 模板同一准确字面，结构列表为九项；driver只更新helper pin，科学体/参数/门不变。相对首刊两源及正文的完整小差异为 `cut-radius-source-and-proof-only.diff`，4842字节、SHA256 `eea662c56c56e64b3cf4a7b69f50d379c0413746bb7a2875b98a12276d98039d`，blob `b6edd08826f9b28d9c9ae476a3aa092e2be4cf29`。
 
 ## 2. 输入只继承真实数词
 
@@ -36,7 +38,7 @@ python computations/geometry_20261116_actual202_accurate_ten_candidate.py prepar
   --out <RUNNER_TEMP内新的candidate-prepare目录>
 ```
 
-结构模板必须是实际180原九族 recipe：2136字节、SHA256 `cc87d9327c33a208ac36e7dadaa5608cc3597e8d9f9bc0bd615631a6681fc6fb`，schema `R300-new-continuous-nine-scalar-model-recipe-v1`。它是同一准确构造的几何政策模板，不保旧180参数/选择/域证书。只复制 `core_end,kappa,collar_width,first_transition_width,last_transition_width,first_support,root_choice,collar_mode` 八个结构字段；原九系数全部替换，并显式加入第十项。
+结构模板必须是实际180原九族 recipe：2136字节、SHA256 `cc87d9327c33a208ac36e7dadaa5608cc3597e8d9f9bc0bd615631a6681fc6fb`，schema `R300-new-continuous-nine-scalar-model-recipe-v1`。它是同一准确构造的几何政策模板，不保旧180参数/选择/域证书。只复制 `core_end,cut_radius,kappa,collar_width,first_transition_width,last_transition_width,first_support,root_choice,collar_mode` 九个结构字段；原九系数全部替换，并显式加入第十项。
 
 实际生成三件仅驻留本 job 临时目录：
 
@@ -83,7 +85,7 @@ python computations/geometry_20261116_actual202_accurate_ten_candidate.py bind \
   --tail-config <当前joint-complete112-config.json> \
   --tail-config-sha256 <当前config实际SHA> \
   --code-directory <当前computations目录> \
-  --candidate-driver-sha256 6bb4910bd26849c141c94094cc0a7d05939655fbb8eefbd95129e8cb03ef1965 \
+  --candidate-driver-sha256 56cbf3b23d80600121adc2bbeb368e3930d4e5cffe6a2e2a0ab4919cc1018615 \
   --request-number <后继真实request号> \
   --sampling-startup-reserve-seconds <该request明确采样启动预留> \
   --out <RUNNER_TEMP内新的candidate-bind目录>
