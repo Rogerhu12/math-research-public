@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W4MA：完整四步物理均值与 Hilbert–Schmidt 接收的实际证明](results/R133-supplement-actual-complete-four-step-physical-mean-and-Hilbert-Schmidt-reception.md)：保存 run43887930151/1 全部 31 槽（30 新、T0 原对象副本）、47 原对象/typed paths、11 全资格和16门/progress；原43886171523预核失败保持 child0，窄修只读取正确的旧归一化字段。两完整选择只与 WRPA 比较；完整两 mean、四端、3070 接缝及未付 finite/high 门都保。全三件112502B，proof47025B/SHA2564817fed3；旧和本次已成目标均禁止重算。
+
 - [WSMFA：逐阶严格通量与完整物理均值的实际全量证明](results/R133-supplement-actual-per-index-strict-flux-and-complete-physical-mean-bound.md)：独核 run43886938106/1 的 SCI、execution、manifest、workflow 和全部原输入；保全部 52 新球、62 原球、4 readback、48 全 context、8 全资格、13 文件身份、两 same-operator 选择及四次真实 pull。完整 whole/reduced 各约 2.095886e302，旧腰 scattering 现主导；18 门全部只认证本次有限界，未授 signed finite/high/Nash/最终族。proof 57905B/SHA256190b66b7，所有已成目标冻结。
 
 - [WMC：完整归一均值通量中的精确漂移消去](results/R133-supplement-exact-drift-cancellation-in-the-complete-normalized-mean-flux.md)：在同一真实 mean 源里合并 eκI−∂φ(eC)+eL，精确保留 scalar c、Π(Se) 的正号及两个零阶投影费用；省去 κ/e 的冗余高导上界，未删 forcing、真势、两 mean、四端或 3070 接缝。完整 47 新量合同仅为未执行候选，WSMF52 已成实际量不重算；不改变 n^-23/6 原单位，不声称数值改善或有限逆。完整 proof SHA256 06e0d860。
