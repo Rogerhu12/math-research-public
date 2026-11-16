@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 05:05:17 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 05:08:13 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 04:27:29定时CLI仍无executor，下一≤05:27:29。最新CI真pull为WAD 11-16 04:20:32.298647→7d7ce88415ed4a23e73ee49abaa1d3c059379a37，两次两README空diff；ref读取不冒真pull。
-最近只读README核：155f19e5e7f5599dce34962d3fdd0460e171882d；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：14b4600e70caddc57789b884dc358ff8fef277f0；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -32,6 +32,7 @@ JI01e4a33b已闭原全[0,rc]真实角逆：SJ Wiener/β<1/4/η>1给D_J≥(79/128
 WUA9cd778ec已给全real同root genuine试探、固定C64 potentialcut及完整N6有限I/J/mean展开；ordinary Ig1积分和真3070接缝各列p2，physicalmean ODE使g2=0但z非零。原β/Cn、PC/root有限差与旧waist replacement全保；strict receiver可接，未授root receiver或wholeE/新球。
 WUR948ad192闭全3块伴随/weakflux与z+ell f真rootnormalform；完成g2后strict correlatedsource接收恰O0m11(ordinary∫||Ig1||+Σ||Ij1||)，不加Jstar，mean反馈全留。finiteparity IJ两gain及真jump p2闭；sameoldtarget全signedtuple含PC/cut/waist，root receiver仍另付。
 WUC6ced5a93以原PW cut=r+−1/200闭全rootcollar源/真jump：实际J给L2与I后H−1，插值+ordinary L²dr得列p5/3，strict p2；原SP20门CO/CR/C1完整接收，准H−σ只1<σ<7/6。保两mean/rootpositive/waist，不移cut、不从列HS授4/3。
+WES8aa7eb5d闭selected全腰T<−L及完整endpoint strong4/3：S−N∞=S(Droot+J∞)原序，potential一阶准确消；finiteFA两row/两phase全输出、Js two-I和N4 physicalmean rank俱在。原ng一次/βroot矩阵非零，同oldY_WJ/Ni不改leading；positive根差另保。
 WAD唯一43803459418/1成功锁，16门/9新球/1child/old0；SCI77d17dad/29708、exec588b9c73/11226、report0a2eb042/4018及WADA2737f96d已闭。新整raw primitive row界4.7487985998848693668…e83选index1，14旧球/9scope及PC/ST4/cut/三源/3070jumps/waistFT全保；两preGit独复/lost0。非小扰动或WPL不同归一化数字。
 BF/FC/SE/RNS的finite/两mean/无限head/rest/trueν与pairings，BT/RBT/jet/RI的原域和8terms/K4η3全保；root核0只撤FC补列，ν-chart保dν。UT/SWA/NWA/NPKA原成功及各窗/四affine保；PSB/PTB fixedscalar all-s/tame不授true背景/完整square。
 

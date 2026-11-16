@@ -60,6 +60,8 @@ $Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
 
 [WUC原root窗口完整接收](results/R133-supplement-root-window-interpolation-and-complete-negative-source-reception.md)6ced5a93：WUA完整$g_1=JQf+F_mk_2-zR_m$经实际J的L2/I两界、全频H−2/3插值及普通L²dr给rootcollar列$p=5/3$；所有truejump同阶，strict为p2。只用原PW cut $r_+-1/200$ 与SP43731464771/1原20门完整CO/CR/C1，原root/mean/源单位保；由逐列HS准$1<\sigma<7/6$，未授4/3或端点。全negative同源已闭，positive/root与waist同signedtuple另接，无新球或旧数学重跑。
 
+[WES完整腰端比较](results/R133-supplement-selected-free-waist-exact-scattering-and-complete-endpoint-comparison.md)8aa7eb5d：原真lift/WX ψ′下界证明selected全腰$T<-L$，全reference为free矩阵乘原input矩阵；$S-N_\infty=S(D_{root}+J_\infty)$保β与整负尾，新增potential幅一阶准确消。finiteFA全两row/I/J/mean+两phase Schur付base L2，剩余p2；原Js two-I、ng一次及完整physicalmean端rank仍在。对同old $Y_{W,J}$的四项腰差完整$H^{-4/3}\to Y_0$已闭，原positive/root/cut同tuple另接，0新数字。
+
 **当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。WFI已闭真实transported补在graph上的有界性与指数账；仍须实际physical有限列、全部输出交叉、pairing及匹配square逆，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 
 ### 2b. 已付系数、坐标与原强界
@@ -176,5 +178,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 只在公开Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据，成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；每consumer实核topic≤200MB且预留120KB。
 
-每结论独推；非FF立即真CLI pull --rebase，保远端循环成功，禁force。每小时实际pull尝试后核两README，只读diff即照新规记H。本机11-16 03:31:44 CLI仍无executor，下次≤04:31:44；该次只读核b16923509deae4d293a0ffe4c9c0e71b89081976两README未变，不冒真pull。根规8仅UTF8<100KB connector，runner真pull/README diff/容量/唯一child以各完整receipt为准。
+每结论独推；非FF立即真CLI pull --rebase，保远端循环成功，禁force。每小时实际pull尝试后核两README，只读diff即照新规记H；最新真实pull/失败尝试及下一时限以HANDOFF执行段为准，ref核不冒真pull。根规8仅UTF8<100KB connector，runner真pull/README diff/容量/唯一child以各完整receipt为准。
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
