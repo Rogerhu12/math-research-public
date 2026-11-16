@@ -32,19 +32,21 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)付同R459可变母类Jtr实际C1成本截面，保非零基准/原宽窗口、有限正配平/整数复制和真桥；按同库R467/464接period/13。未付同一实际字逐点K，不拼R512字面同形库。
 
-[R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)从起点加强同一R459类有限C²纤维，保四自然/共同cap/原20目标，另以真实22行正核取得完整常态平方Qc=0、速度Gc=1。纯self只在三项三导平方完整抵消后才降C²，全部YC/左尾保。固定一次χ得到A=tAc≠0、T=−t²Ac²/2的全相位K0常态段，并在其真实t0前缀以∂ksF=t0非零、自由hs和真实八矩ODE平滑非恒离开。未付返回桥、已锁13规范或末M/T/V/frame/位置，不能借R518末成本替代全路径。
+[R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)从起点加强R459有限C²纤维，保四自然/共同cap/原20值，以真实22行正根付完整Qc0/Gc1。纯self三导三项相消后才降C²，YC/左尾保；一次χ使真A=tAc、T=−t²Ac²/2常段K0，内部真实t0以∂ksF=t0给非恒出口。未付返回、原13规范、M/T/V/frame/位置；不借R518末成本代全路径。
 
 [R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)核原raw八矩：同R520的末常态germ还须完整bc(δA,Ac)=qc(δA)=0，真实第三W保。若εh=hmax√L‖hs‖₂/hmin²<1，同长度八矩等于LMc强迫全程常态；完整M0必须k换号、max|k|>1、εh≥1及oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。仅scalar返回未排，不借局部IFT充有限幅桥。
+
+[R527](results/R527-finite-amplitude-same-gauge-ruling-paths-with-complete-matrix-memory.md)保原20全部指定数值，从起点同母30目标取得完整q三矩与紧弧ℓk>0、ℓtan<0（不用缩放强设Gc1）。明确cosh水平弧跨|k|1及较弱2/hmax门；真实长前缀m=T0Mc/T=−T0²Ac²/2，保B′=Mraw，以q=z0/T0和统一速度Jac给有限T0实际全相位K0/C1跟踪。末m=T0Mc+B不零，常态germ/13/pose/period仍欠；完整较强能量界未授。
 
 ## 5. 不同母库的范围与新的完整history反馈
 
 旧R469–509及成本保[索引](results.md)。R507仅scalar端值，R508/509为局部端口。R512字面同形、YC消去的另一库含常态bulk必失败；R515任意合法secant首阶非零k给p1严格正；R517同库两次周期K0 iff M0，合法实解析整圆可延拓迫M0。均不排一般有限幅/可变母；不能移植其YC全消前提给R520/521。
 
-[R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)另一个from-start库：4包三矩/8副本全cubic，16元O(2)正复制共同0…10矩，完整含第三history的ruling准确为sin²θ一式。在预定h,z,e=hz−k均正紧域，原kss积分系数严格正；固定w=χ=0可解kss，hss为自由控制，真实m/T有限ODE全保。该库不继承R518/520的共同cap/20目标/13规范；尚无完整周期、M/T/frame/位置/period。
+[R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)另一个from-start库：4包三矩/8副本cubic，16元O(2)正复制同0…10矩，含第三真history的ruling为sin²θ。h,z,e正紧域内kss原系数严格正；固定w=χ0，hss自由，原m/T同步有限ODE。未付周期/M/T/pose/period；不继承R459/518/520共同cap、原20或13规范。
 
 [R523](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)付同R521非恒反射段及一次w=−ALD、χ=2TL(φ;D)的真实非交换重锚；Atot=2AL、Ttot=−Atot²/2，短段AL非零。frame/位置/奇germ/第四仍欠，第四加倍；不同L不能各换规范再拼。
 
-[R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)对真实M0/K0段P，w=0/固定χ且反射germs匹配时，继承T_P后PP^R全字段真反射，末M=T=0而第四2V_P；pose闭合须GD=DG、v∥N。另同germs/T_P(φ;D)=0/G=D时P²(P^R)²闭pose/M/T，第四4V_P。原hook在R521导数分包库逐函数盲；实际M0块仍未构造，不套R523非零w或旧无K桥。
+[R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)对真实M0/K0块、w0/固定χ与匹配反射germs，继承T_P后PP^R末M/T零、第四2V_P；pose闭 iff GD=DG、v∥N。另同germs/G=D/T_P(φ;D)0时P²(P^R)²闭pose/M/T、第四4V_P。原hook在R521导数分包上逐函数盲；实际M0块未构造，不借非零w短段或无K桥。
 
 [R528](results/R528-positive-orthogonal-library-and-strict-pole-free-constant-state-obstruction.md)在同一R521正副本库且整个共同窗口1−k(h(x+ω)−k)无零时，原常态完整二次系数严格为−Λc sin²θ、Λc>0，独立真实入A/T及固定w/χ；因此无正长度K0常态段。覆盖k≤0合法域，不排非恒偶germs或跨极点状态，更不排R520另一母。返回工作须付实际非恒端芽。
 

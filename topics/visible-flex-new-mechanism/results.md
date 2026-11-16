@@ -473,3 +473,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R528 正交正副本库的无极点常态严格障碍](results/R528-positive-orthogonal-library-and-strict-pole-free-constant-state-obstruction.md)：**已证明**同一R521库在完整窗口的Möbius分母无零时，原常态时间二次系数严格负sin²θ；真实入历史及固定规范不能修复。覆盖合法k≤0常态，不排非恒偶germs、跨极点或R520不同母；实际M0返回仍欠。
+
+
+- [R527 同规范有限幅ruling路径与完整矩阵记忆](results/R527-finite-amplitude-same-gauge-ruling-paths-with-complete-matrix-memory.md)：**已证明**同一个从起点加强的R520型母保原20值、30实际目标，长真实前缀+统一IFT/ODE给非恒大幅K0并保全部B′=Mraw。曲率换号越1、ω越较弱2/hmax；末八矩非零，未付更强能量界/准确germ/13/pose或period。

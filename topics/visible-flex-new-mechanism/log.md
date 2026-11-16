@@ -801,3 +801,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 
 ## 2026-11-16 13:48 UTC：R528正交库无极点常态严格障碍
 [R528](results/R528-positive-orthogonal-library-and-strict-pole-free-constant-state-obstruction.md)由原完整常段历史、R54迁移及R521有限正交/共同矩恒等得到Qc=−Λc sin²θ且Λc>0。任意真实入A/T和固定w/χ不改时间二次系数，排该无极点域的正长度K0常态；非恒偶germs、极点穿越和R520另一母均未排。原source逐式纸核，0新科学；58与2882.412483226秒/147值不变。旧open逐字归档保当前门。
+
+
+## 2026-11-16 13:53 UTC：R527有限幅同规范真实路径
+[R527](results/R527-finite-amplitude-same-gauge-ruling-paths-with-complete-matrix-memory.md)用原20+10完整目标付统一紧弧速度符号，真实长常态前缀及保B′=Mraw的有限ODE扰动给全相位K0大幅路径。root核完整C²余项、30行独立/正根、原水平式及速度Jac；修去会改变原20非零数值的全圆缩放，仅保g_c>0。只越|k|1/较弱2hmax逆门，末M/T/pose/period未闭，无新科学执行。

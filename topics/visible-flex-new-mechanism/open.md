@@ -72,6 +72,12 @@ $
 
 对任何真实正时间raw M0路径，k须换号且max|k|>1，εh≥1；并有严格oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。该必要界不排仅scalar返回或非零δA满足两二次门；也不给有限幅度反馈正则延拓。下一应在同一个真实规范内构造跨出局部盒的受约束连接，付全部M/T/germ与位置frame；不能只借R518无ruling成本桥。
 
+### R527同规范有限幅路径与完整矩阵记忆
+
+[R527](results/R527-finite-amplitude-same-gauge-ruling-paths-with-complete-matrix-memory.md)保原20全部指定数值，从起点同母30目标取得完整q三矩与紧弧ℓk>0、ℓtan<0（不用缩放强设Gc1）。明确cosh水平弧跨|k|1及较弱2/hmax门；真实长前缀m=T0Mc/T=−T0²Ac²/2，保B′=Mraw，以q=z0/T0和统一速度Jac给有限T0实际全相位K0/C1跟踪。末m=T0Mc+B不零，常态germ/13/pose/period仍欠；完整较强能量界未授。
+
+新30行的主像、真实正核与C²余项共同支付；先固定有限高阶目标、母库和χ，再固定时钟/B0/z0，最后选有限T0。原20的非零目标不受归一改变。完整εF含z0+ℓ+2b(Ac,B)+εH，真实B并未冻结为参考；原水平关系和同一速度Jac在整紧弧非零，故前缀全germ准确接合。实际曲率换号且两边越1、ω越2/hmax；这只付真实非局部延拓，不授M0或常态返回。后继必须从实际末历史继续。
+
 ### R521新的有限正复制与完整history反馈
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)从起点选择4包三矩、8副本全cubic基本块，再用16个正交旋转/反射及每组11个互异正节点的共同0…10矩，令完整第四ruling准确只剩sin²θ一条。整base双collar保证跨base加法，内部真尾与全部第三history保留。在预定h>0、x+ω>0、e=h(x+ω)−k>0紧域，原kss系数有严格正积分及统一正下界；以固定w=χ=0显式解kss，hss是真实自由控制，原m和完整有限第三状态同步演化。
