@@ -1,5 +1,10 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：启动同原SHA的E20远端恢复与全产品
+
+共享executor不可用且未创建projected进程；冻结并全文审四阶段同job重建：全116→三个逆六phase逐字恢复→20×50投影→Q60全1000E/400选列产品。旧constants不改记完成，原observer和新/旧回执分离保真，数组只留TMP。见[接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)。本次发布后实际dispatch；AI-assisted GPT-6 Astra Pro。
+
+
 ## 2026-11-16 — Astra-ISP-789f：原E三个完整逆与诚实终止检查点
 
 原6/5/11逆完整364个E两向产品/1092有理坐标全真，六phase双SHA重新核同；v1零phase及v2后续137原因未证、constants未完。新投影源完整审通过，但环境失效未创建数学进程；冻结全部源码/参数/真实身份，转远端同SHA恢复。见[完整记录](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)。AI-assisted GPT-6 Astra Pro。

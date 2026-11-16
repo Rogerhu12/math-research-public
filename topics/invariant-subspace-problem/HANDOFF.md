@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 3086204af188e0a552af80e01b3e2cbeb277f8e5（2026-11-16 16:37:05 UTC，临时研究session run43906283833实际pull --rebase，两README无差异；详见notes/r150-original-delta-weight10-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** c12ef2907fc74fb9dab7f98545117df3ebfc4dd5（2026-11-16 16:50:08 UTC，Actions run43911829143实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43911829143-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 当前本地executor不可用；实际终端Actions仍可用，算术固定Python3.12.14/flint0.9。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
@@ -11,12 +11,12 @@
 
 ## 当前实际执行接续
 
-- **权十原输入已完成且根独审通过。** 本地v2 prepare275.633秒/RSS154004，200列8037189项；根独立2000坐标/151071880字节ASCII与$\delta b^2$全真，156.362秒/RSS88624/exit0。见[准则及根审计](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)、[接口](notes/2026-11-16-r150-original-delta-weight10-homogeneous127-interface-789f.md)。本地binding dfb2420829d6b6243142e1232e4c2bdba4fa45fb1823fe81d119c4101493e488，manifest410173/d6d4a4921c8b874def17e3de84db64c6fa9716cf9ea173a7207e8538f54b41c5。
-- v1物理梯度应为11权4后6权5，错误新守卫exit1/0列，本轮尚未运输；v2仅修两守卫/FORMAT。根v1独审exit137无最终raw/完整phase，120列只是事件；v2独立新源、逐列checkpoint全过，不证明137原因为OOM。全部失败身份保notes/r150-original-delta-weight10-execution-789f/。
-- **下一实际工作：** 冻结九阶段request与源/桥已全审，已实际dispatch研究run43906283833（16:19:54 UTC，输入审计主提交b8bc3b7585d015442b9d67b7ddfb68b1e846b536）：model/compression/mean/权8 prepare-final各180，104全来源900，权十prepare600/2048、candidate600/4096、完整核600/4096。全父在同job TMP重建；数学manifest/phase SHA不变，新运行raw另入binding。prepare只有真全列增长可续1200，完整核只有完整候选及真验证前缀可续1200/1800；空候选不续。现远端前7阶段均exit0，原210新raw32573/25927982…、桥prepare2027/21766b8c…；候选600正在运行。必须核结束日志，不预称GB/正负答案。
-- **[原E三个完整逆及真实终止范围已封存](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)。** 6、5、11维原E逆全部两向乘回真，共364个E产品/1092有理坐标，六个候选与验证phase双SHA重读全同。随后child−9/shell137、25.514秒，observer未发终止信号，原因未证；完整constants与20×50求解未完成。独立仅投影源已全审，保verified UI及原字典、全1000E/400选列门；本地环境失效使其启动请求未创建进程，当前转同源码远端恢复，不算数学失败或已运行。
-- [仅投影冻结接口](notes/2026-11-16-r150-original-low20-projection-only-exact-interface-789f.md)：源d20db6c…21178/a77cf71a…，父3418 manifest c7b010a…/verified UI1473718 ec9d6e…（逻辑2975996/31bf451e…）。若TMP不可读必须同源码重建并核全部六phase与完整manifest原SHA，单独记真实新执行；不把声明的旧phase当仍存活，不假完成C/CZ。正在冻结最窄恢复runner，之后同job projected60/512→final300/1024，全原observer。
-- 原b³/QE权9秩16046、396全核及模7真单位排b³/K≤11已闭；b4首轮exit14无candidate/source。两个旧600秒全局/稀疏null候选不空续；单Bell首一无收益不重做。详细原门/身份见归档。
+- **本地executor不可用，原E转同job远端恢复。** [已付三个逆/两次终止](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)保364个E/1092Q两向产品和六phase完整身份；旧constants仍未完成。projection启动请求被环境拒绝，未创建数学进程，不算失败/75或已跑。
+- **[四阶段恢复接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)已root全审。** 本次提交后dispatch独立exact-low20工作流：model180/2048完整116→recover120/768停在原225门且C前→projected60/512→final300/1024。全部套原10秒observer，外墙时240/180/120/360，wrapper另留60秒收尾；work35分钟/job40，完整阶段后保同job临时输入最多10分钟供已审后继，源/任务变更仍由root逐条发布。实际启动及完成必须看run回执。
+- 恢复源99b82a8…15715/b451d296…，只调用冻结原函数；必须重算并逐字匹配六phase及3418/c7b010a…原manifest，独立新执行binding/raw，不修改旧137记录。仅投影源d20db6c…21178/a77cf71a…原样消费UI1473718/ec9d6e…（逻辑2975996/31bf451e…）；新全1000E/3000Q及400selected门待实际。全部C/CZ/55展开未冒新计数。wrapper区分旧回执与新执行，完整observer身份保SHA；小final proof双SHA核后只输出job日志，不进Git。
+- **权十空候选预算已真实结束，不空续。** run43906283833/job133435910806前7阶段exit0；完整200输入、真实engine小控制和2000 SSI全真。std本体555.227秒仅START，整体592.369秒/exit75，candidate=null、parsed0、continuationEligible=false，第9独立验证未运行。raw3469/5aa3bc29…，不是数学负/OOM。后继完整77276×13808直接Macaulay/原左见证尚在接口设计，不调用旧9倍cache大内存方案。
+- [200输入根独审](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)已闭：2000坐标、8037189项、151071880 ASCII字节及独立δb²全真，156.362秒/RSS88624。原v1物理权守卫0列失败与根v1 exit137保独立身份，不移成成功。
+- 原b³/QE完整权9秩16046、396全核及模7原unit排b³/K≤11已闭；b4首轮exit14无candidate/source。旧全局/稀疏600秒null候选及单Bell首一无收益不重复。所有完整原门、临时重建法与未列开放项保[本次H快照](notes/2026-11-16-handoff-before-exact-low20-recovery-job-789f.md)及其链。
 
 ## R150已付结构与仍开范围
 
