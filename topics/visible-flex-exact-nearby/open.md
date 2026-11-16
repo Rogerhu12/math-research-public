@@ -46,13 +46,13 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [根jet已成索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD/RBJ/RDA/RBD/RBG五原段：genuine BV/H整替，公共K4/η3/Mrr先消；hrrr/无z曲率/正meanrank/真βn/输入右序/全J与低1/4保。原real/root whole e由R97R严格通过；其他参数/角域不外推，fullincoming/finite/非线性待。
 
-[RNI](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md)d771cf43同real/root97核0及FC空补列已付。[RNE](results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md)030e434e原43792291190/1 child0/16门，SCI57079/579b09aa；两natural逆K−7/6≈2.0519379388e10、K−5/2≈4.2453353027e29。四gain/J/Broot/m2,m4、IR0原1/4/正meanrank保；七图276槽、四原对象/23records原字、0旧重算。M仅strong；selected全δ/双physicalmeans/低与径向head/rest/finitecross/fullincoming仍待。
+[RNI](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md)d771cf43同real/root97核0/FC空补列已付。[RNEA实际完整证明](results/R133-supplement-actual-explicit-uniform-natural-negative-window-inverse-constants.md)257644a4锁43792291190/1 child0/16门、SCI57079/579b09aa；两natural逆≈2.0519379388e10、4.2453353027e29。七图276槽/四gain/两poly及IR0原1/4/正meanrank、四旧对象/23records/两preGit全保，0旧重算。M仅strong；selected全δ/双physicalmeans/低与径向head/rest/finitecross/fullincoming仍待。
 
-[RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264的完整八行/有限pairing保原proof：z=j^-2=16N^-2，hrrr只N^-10/3，无z曲率留h0；正ΠM_E0秩/全J/IR0原1/4/真βn和物理4ℓ保，1+zh另gap。Ai有理下界只real；原real/root whole e已R97R付；负窗数值及incoming/finite待。
+[RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264的完整八行/有限pairing保原proof：z=j^-2=16N^-2，hrrr只N^-10/3，无z曲率留h0；正ΠM_E0秩/全J/IR0原1/4/真βn和物理4ℓ保，1+zh另gap。Ai有理下界只real；原real/root whole e已R97R付；负窗已RNE付，incoming/finite待。
 
 [RI原已成根数据库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)01afb86c核10inputs/7sources：普通高jet/全mean与η3/完整mixed4×5/左∂J普通L2。aux整体fail保，仅1/10000、1/2000成功；4501B与30595B只精确history临时恢复。物理λ/rootV取smallcase，β取large terminal，9/2非λ。完整原球/域/所有恢复身份保proof；无旧重算/fullincoming/finite授予。
 
-[R97配方](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md)543ebc38及[R97R精确接续](results/R133-supplement-exact-root97-saved-prefix-recovery.md)fc8bef9c原式/域/失败限制保。[R97A实际证明](results/R133-supplement-actual-root-cutoff97-stable-injectivity-and-exact-prefix-recovery.md)b2d4bb56锁唯一43789221154/1 child0/9门严格e≈.3028969463<g−≈.9523027953、μ≈.6494058490；35字段/219槽/12progress、原五对象/14继承门、两pull/preGit全保。首R97F失败未存段仅原授权恢复，0旧重算/0history。仅real |δ|≤1e−8/fixedη0/root；negative数值、selected全δ/incoming/finite/真背景待。
+[R97配方](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md)543ebc38及[R97R精确接续](results/R133-supplement-exact-root97-saved-prefix-recovery.md)fc8bef9c原式/域/失败限制保。[R97A实际证明](results/R133-supplement-actual-root-cutoff97-stable-injectivity-and-exact-prefix-recovery.md)b2d4bb56锁唯一43789221154/1 child0/9门严格e≈.3028969463<g−≈.9523027953、μ≈.6494058490；35字段/219槽/12progress、原五对象/14继承门、两pull/preGit全保。首R97F失败未存段仅原授权恢复，0旧重算/0history。仅real |δ|≤1e−8/fixedη0/root；negative数值已RNE付；selected全δ/incoming/finite/真背景待。
 
 [RBT条件tail](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)8a20d39c保384/576带宽、J/L非band及Jt>576双sign/mean/cross Schur。R97A已过97，fallback免算；global finite/两physicalmeans/原head/rest/fullincoming待。
 
