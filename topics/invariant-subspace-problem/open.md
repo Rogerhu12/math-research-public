@@ -122,3 +122,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **R150原Cat3单位纤维与均值消去（2026-11-16）：** [完整原证明](results/R150-appendix-original-cat-rank-three-full-macaulay-rank4368-and-mean-elimination.md)在y†=(2,1,1,1,1,2)保6188源及含constant的4368目标，真实minor模127=61，故原I_y†=(1)。同选行伴随给0≠D(y)∈J∩Q[y]，原权计数42683−40040使degree恰2643，H乘子degree≤3。全部critical mean在D=0，D≠0的非空Cat3开集无纤维；不把异常超曲面等同Cat≤2，原W±及更高本质维数仍续。本地51.200秒，全原1326运输/244990位面核真。
 
 - **R271原连续尾全相容塔门槛（2026-11-16）：** [完整边际及同源平方证明](results/R271-appendix-continuous-compatible-vacuum-tower-marginals-and-linear-deep-return-barrier.md)保复/有符号ν、原无限尾及完整primitive；任意高度≥ceil(7x/4)真塔必有σ_j²||v_j||²≥1+x/32768，不能免费用全高度常数。首列真MP时整个j≥ceil(3x/2)有≥1+(18769/262144)x；完整同a的F_s−z正交平方给≥c*xΣ高层E_j。该门适用R=d/h=2d及原Q≥3d−1；未反实际a，后续须用真C幂或完整源能量支付。
+
+- **R271完整源的log方差一阶矩（2026-11-16）：** [完整证明](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)直接给q̇(logs)=ΣjE_j，选一次s保所有Q≥R+J的同PV/PK/u。固定倍数窗使实际一阶高度矩趋零；[Sx,xSx]给ΣjE≤Δ_Q²/logx且s→0，另有s/Sx→1的无预设速率选择。仅在真实修复系数已证≤Kj时才付KΔ²/logx；canonical M_j/y_j完整系数和中段Schur仍须处理。
