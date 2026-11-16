@@ -2,39 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-eight-dimensional-endpoint-lattices-and-frames",
-  "commit_message": "serre: prove original eight-dimensional endpoint lattices and complete norm frames",
-  "rules_last_read_commit": "785b275964965115bb13cc56ddc727a8d20a26f8",
+  "request_id": "20261116-certified-original-K-defined-bounded-trace-representative",
+  "commit_message": "serre: certify original K-defined bounded trace representative and marked principal",
+  "rules_last_read_commit": "716ea758ac096a7e03ac5d3c75a6e3caa4ea04e5",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "2c2bb948c6d05278cf5948ae6282664ad2207c742bc547418398087a00c81318",
+  "expected_previous_request_sha256": "fe9ff2923822a5b006fc54adca65fedea42c176e0d1a7dd5603b782e845ca907",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md",
-      "sha256": "273ef827c365b7901f349150f0665cffd57e330e2806dd8113649b3482671e97",
+      "path": "topics/serre-uniformity/results/R900-certified-original-K-defined-bounded-trace-representative.md",
+      "sha256": "6c7ebdc5e61fc83abf9cc730ec1245d3e5e02246a1aff856965306e600317a55",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-eight-dimensional-endpoint-lattices.md",
-      "sha256": "1e21746f16cff1db6a51fb3e5f62e61447ed65cae6bc849e6a78d31e3f9addaa",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-K-bounded-representative.md",
+      "sha256": "dc8a370d640f53cf13b6ee52b86281b16b52f0a9d8b54687f853c4fb2f8f525d",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "c9bda03d559ed2dbc9ce2135892a3887c8eeb2755d55297ecd301dccb17b5c15",
-      "expected_previous_sha256": "1e21746f16cff1db6a51fb3e5f62e61447ed65cae6bc849e6a78d31e3f9addaa"
+      "sha256": "da2b87e4cc21c05001e20518f14797ea93f984cbc95551c9087f33aa2847810a",
+      "expected_previous_sha256": "dc8a370d640f53cf13b6ee52b86281b16b52f0a9d8b54687f853c4fb2f8f525d"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "88674f171ead2baa64e345c2ad8f53907ac947d0dd3f79d10a3fcbec787030e9",
-      "expected_previous_sha256": "9cb4b19e21163291505845e8430df7e6e891856996153e9fa4590a65cebfcf41"
+      "sha256": "4505df40e70866786a32d9d60209120a317abb7f72b2190d8423bc8cabe57beb",
+      "expected_previous_sha256": "88674f171ead2baa64e345c2ad8f53907ac947d0dd3f79d10a3fcbec787030e9"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "47d652911184014f85f543d717a9b93671391ff8b612dcd5d21398adbb25c978",
-      "expected_previous_sha256": "a5bf3a29040cccf145adfe10df174bc3c134b61a1c61b5a5d7e1157dc9676048"
+      "sha256": "b46c9d534fc348399ab9168ff2aa58a830dd0ac81be8838d5b80a4e6b4aaf51a",
+      "expected_previous_sha256": "274b2fbe0365dc27cb4e6f687097e1186d953570aa117b00b809141a848e2d99"
     }
   ],
   "dispatch_workflows": []

@@ -349,4 +349,9 @@
 ### 2026-11-16 22:51 Asia/Taipei — serre-public-astra-20261115
 - R912完整纸证单独登记：原2+3+3纤维保秩8/幂零，trace radical与idealizer有限小核以discrim阶4认证完整局部order；两截面格给九纤维坐标。
 - 完整NmΦ/参考格比与原t帧不删；全146几何ι才可运输既成P0 jets到P1并得c1=−c0。实际端点值仍false，R900实际SUCCESS正独立读证，H前态归档。
+- 本push规则：公开Actions真实pull至716ea758ac096a7e03ac5d3c75a6e3caa4ea04e5（2026-11-16T14:51:55.747231+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:54 Asia/Taipei — serre-public-astra-20261115
+- R900真实公开run43889194318完成65stage：原七完整纤维1904全行、真rank1234/962及完整146/418，得到K定义有效DK272并避P0。
+- 原QK=QN·w0/v保阶−8435、未缩放ρ/t首项515264909/898623080和正c^8435，48件旧源复用；R901仍等R902真六σ，128/144与高度未成，H前态归档。
 - 本push规则：公开Actions发布前真实pull并比较两README，若有diff即读并遵守；实际已读提交由恢复worker写回，本仓库Actions独占新数学，主目标OPEN。

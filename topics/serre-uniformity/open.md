@@ -127,10 +127,10 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 - R899：完整K固定418已由公开run43879192431实际认证，三个完整272纤维的816×418矩阵rank418、选定minor157473788；S=QN·BN A^-1。首P0单位列0、未缩放ρ/t首项528708486/590477772，原阶−8435；char0数组/Q下降未成。
 
 
-- R900：实际执行request已填真实R899/R894并激活；core31d09111/wrapper1ccf84b6不变，QN组由R899真实carrier读取。七完整纤维取消QN后真1234→146、962→418仍须算，目标DK272与QK=QN·w0/v保原ρ/t尺度；不能把已成K固定基当成有效代表。
+- R900：[完整实际认证](results/R900-certified-original-K-defined-bounded-trace-representative.md)run43889194318已成65stage；两原1904×1380矩阵真rank1234/962，完整146/418及K定义有效DK272/避P0全成。QK=QN·w0/v保阶−8435、原ρ/t首项515264909/898623080，正c^8435无extra τ；R901只缺R902实际源后整体激活。
 
 
-**R901五原Z的共享有界树已证**：[完整证明](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)固定12χ/24原f-trace/五(6+11+1)=126新flip，R890 D2/E两节点及其累计F直接复用；准确Z_j=(DZj−H)+div(Fj·(Norm Qj)^qj·QK^(−pj))与I_Z正乘、原五阶和t正c幂保全。原六σ必须保持R896每j所有旧图/整数锚，末D一般仅L定义且负支撑不限P0；保完整γQ/Q与七重cocycle，不把I_Z当real Lj³。原R896已成，R900与六σ仍待实际完成，126尚未执行，五128/144和统一height仍OPEN。
+**R901五原Z的共享有界树已证**：[完整证明](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)固定12χ/24原f-trace/五(6+11+1)=126新flip，R890 D2/E两节点及其累计F直接复用；准确Z_j=(DZj−H)+div(Fj·(Norm Qj)^qj·QK^(−pj))与I_Z正乘、原五阶和t正c幂保全。原六σ必须保持R896每j所有旧图/整数锚，末D一般仅L定义且负支撑不限P0；保完整γQ/Q与七重cocycle，不把I_Z当real Lj³。原R896/R900已成，六σ仍待实际完成，126尚未执行，五128/144和统一height仍OPEN。
 
 
 **R903原正Z两权直接接口已证**：[完整证明](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)直接由R901正Z代表和原qχ给Φ=QZ/qχ，正乘O(3H−D−X−18P0)到I_Z(254P0)。同一962乘积像、两个544核得146/418，原18行给128/400，144是(τ,σ)两组128后的真补列；原P0帧c正幂、两图272整纤维和同七重datum保留。实际矩阵、R901终点、Q下降/P1值及高度仍待真实来源，不把纸证当运行。
@@ -157,7 +157,7 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **R905原七源连接纸证已成**：[完整构造](results/R905-original-bounded-divisor-trace-dual-connections.md)。从同一D的最终418截取146，以146＋126真完整纤维单位和同次数认证完整两图格；相对迹对偶给670基，D+H全重数主部544/秩543。D/H相交、分歧与nilpotent均保，特殊度零仅真h时用−dlogh，否则低权格fallback。五Dj、X、DN共七源连接经原QN主函数校正和Gal7/真cY平均直接运输原I_Z；不依赖先完成R900或126聚合。尚无新连接矩阵，原Hecke活跃投影/κν/P1/非p/period/height仍缺，不能把代数连接存在当canonical校准。
 
 
-**R901六件执行源已冻结发布**：[方法](notes/R901-original-five-Z-shared-flip-execution-method.md)与固定126节点计划均已全文核读，core2cacb66f/wrapperc2aad47b继承原R890/R894数学；原D2/E、35主函数、全部t常数及关闭工作准确解闭包保留。pending request的R900/R902保持null，真实R896五源已填；计划文件零完成计数是不可变定义，不作运行证书。收到真源只填实际执行request，不重写原计划或重复旧flip。
+**R901六件执行源已冻结发布**：[方法](notes/R901-original-five-Z-shared-flip-execution-method.md)与固定126节点计划均已全文核读，core2cacb66f/wrapperc2aad47b继承原R890/R894数学；原D2/E、35主函数、全部t常数及关闭工作准确解闭包保留。pending request待整体激活再一次填R900/R902，真实R896五源已填、R900实际源已成；计划文件零完成计数是不可变定义，不作运行证书。收到真源只填实际执行request，不重写原计划或重复旧flip。
 
 
 **R903五件执行源已冻结发布**：[方法](notes/R903-original-five-Iz-two-weight-RR-execution-method.md)，同一962像复用于两权完整核，V4只补272个最高列和旧19行jet的线性延伸。原256列保顺序、真144补、完整272纤维/同度及P0正c幂逐项保全；R901源仍null。原完整主函数carrier保来源，但P1值、Q固定坐标、九Norm及高度均未完成。
