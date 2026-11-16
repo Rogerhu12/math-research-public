@@ -153,3 +153,9 @@ $$
 本次旧 F 的完整基约614秒已成，故保留这套实际基并直接处理原重建循环。一个$r$阶矩阵的模$\ell$逆只作一次，其后为$N$次整数矩阵向量乘法；高精度只存一个$r\times r$方阵。原 Newton germ、方阵构造、完整复乘和特征零证书仍有真实成本，不能仅由这个复杂度说明宣称实测更快。
 
 全部数学执行仍仅在公开 Actions。这里没有本地数学运行，没有新 PASS、原 shadow 或主目标完成声明。run/job/source 与实际输出 hash 在执行完成后按真实日志补记；不将可重算坐标或矩阵入库。
+
+## 8. 首次实际启动与修复
+
+source 5c49d87b19abc3a5201992372b5e531991a3b471 的 [run 43898903977](https://github.com/Rogerhu12/math-research-public/actions/runs/43898903977)、job 133409854237 于15:40:29 UTC创建，15:41:16 UTC在导入 original_newton_cm_germs 时失败。实际原因是消费 request 的 runpy 启动器没有把 scripts 加入模块搜索路径；尚未进入数学步骤，没有可解释成数学失败的输出。
+
+已在同一个启动器明确加入 sys.path.insert(0,p+"scripts")，原参数、算法、代码和所有认证门保持。workflow 修改立即重新触发公开执行；后续运行号按实际元数据补记。

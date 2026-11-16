@@ -318,3 +318,5 @@
 - [R887 §17](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原P6·P28/66/130/60二因子模型保四α/五块窗，两个Z^p真消全部非O补极；二挠极<2p³与原[-1]不变共同给完整C³η[2]=−α^(1/p³)rω。首次C准确读同Q6与四QbRν的γ1，原全A-root trace及exact各保为模型差；仍未证明四指定读数联合非零或替换原p²/p³预算。
 
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)：同原F的Sage完整M2与权10/4矩阵保，固定ℓ1000000007/N256作一次模素数逆及Dixon逐位整除；全部1429行复乘后才有理重建，原QQ短支/权60到6120的完整证书逐字保。新公开workflow消费实际request，未假chart成功、高度界或实测速率；尚无PASS。
+
+- [R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：同原惰性χ处的实际ℓ²端点、全三old提取及wℓ²绝对号完整，只有02与20反号。真实depth-zero新向量紧支/有限Steinberg Gram与Schur正交给Iℓ=(ℓ+1)/ℓ³；全部L因子付volK1归一(ℓ+1)⁻²，YZZ Haar再给(ℓ−1)/(ℓ²(ℓ+1))。原双新全部非平凡字符适用，仍不以复局部非零支付全局AJ/整格除法。

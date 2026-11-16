@@ -64,4 +64,4 @@ jobs:
             -e OMP_NUM_THREADS=4 \
             -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
             --entrypoint /usr/bin/sage "$RANK2_IMAGE" -python -c \
-            'import json,runpy,sys; p="topics/rank2-sha-infinitely-many-p/"; sys.argv=[p+"scripts/produce-r905-original-first-factor-map-dixon.py"]+json.load(open(p+"ci/original-F-dixon-request.json"))["arguments"]; runpy.run_path(sys.argv[0],run_name="__main__")'
+            'import json,runpy,sys; p="topics/rank2-sha-infinitely-many-p/"; sys.path.insert(0,p+"scripts"); sys.argv=[p+"scripts/produce-r905-original-first-factor-map-dixon.py"]+json.load(open(p+"ci/original-F-dixon-request.json"))["arguments"]; runpy.run_path(sys.argv[0],run_name="__main__")'
