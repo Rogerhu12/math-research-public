@@ -151,7 +151,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 执行规则与当前可恢复记录
 
-旧smoothing/uniformtail两NPZ按[白名单](notes/2026-11-15-two-old-smoothing-and-tail-snapshot-deletion-whitelist.json)fd57e301/cdfd4345已普通删721358B，恢复903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd同path。[OMA实际元数据](results/R133-supplement-actual-immutable-old-evolution-report-metadata.md)0f1ee6a6原43777745624/1/9steps成功，两r0235报告720495B原complete/finished与完整SHA已存12428/c1123617；certified/全域false仍保，科学0；[两报告独立白名单](notes/2026-11-16-R133-reviewed-old-evolution-report-deletion-whitelist.md)955eb058已核，720495B原件待freshguard普通删，恢复b9c7cde9同path。source/endpoint/原失败/activepins保。
+旧smoothing/uniformtail两NPZ按[白名单](notes/2026-11-15-two-old-smoothing-and-tail-snapshot-deletion-whitelist.json)fd57e301/cdfd4345已普通删721358B，恢复903645f57e5100f7ba9ceb1a2ecdf3db4f2928bd同path。[OMA实际元数据](results/R133-supplement-actual-immutable-old-evolution-report-metadata.md)0f1ee6a6原43777745624/1/9steps成功，两r0235报告720495B原complete/finished与完整SHA已存12428/c1123617；certified/全域false仍保，科学0；[两报告独立白名单](notes/2026-11-16-R133-reviewed-old-evolution-report-deletion-whitelist.md)955eb058先推886423b4，720495B两原件已fresh SHA+size guard普通删，恢复b9c7cde9同path。source/endpoint/原失败/activepins保。
 
 只用public Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据。成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；旧输入immutable公开history/path/已有artifact临时核SHA恢复，每consumer实核topic≤200MB且预留120KB。
 

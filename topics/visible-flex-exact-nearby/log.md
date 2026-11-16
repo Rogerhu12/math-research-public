@@ -190,3 +190,7 @@ root亲读完整12428B receipt 42223148049d201f7c64bf97c6a056961efb7feb/c1123617
 ## 2026-11-16 00:06:01 UTC — exact two-report whitelist before cleanup
 
 先推7262B独立白名单e7eadf8190977a99df3d8553390b1fea7dced7e8/955eb0580a6a9cc9c878c345058f94835593a2033ae8b48dbe57551b16e75fea。root亲读全部，和OMA原12428B receipt两完整SHA/blob/size/success/限制逐项相符；原producer明确先另存NPZ再写JSON，R126也分开报告与后续endpoint输入。仅两360313+360182=720495B成功诊断JSON；完整恢复b9c7cde9c28a38d9d7db2ad03fcfd3835578ac6b同exactpath。root现存NPK/NW/UT/SC3/SEI/DZ2/WE完整manifest exact basename搜零，peer其余活跃清单同零；OM历史pin不变。两endpoint、canonical origin/direction、原waist失败1195B、source/native/候选/所有小数学结论保留。此提交尚未删；下一单独commit fresh blob+size guard后普通删除，禁历史重写/旧数学重算。两README于a7d3c0f6d4b9c0d10dfd1ad1d07f14fbbd2c2d57空diff。
+
+## 2026-11-16 00:06:23 UTC — ordinary deletion of exactly the two whitelisted reports
+
+白名单已先推886423b4edb5140102069e025ac714cbb49f7c55。root对fresh main逐级Git tree仅取metadata，两个exactpath同时核原blob e7fe4210bae462d8360d967534f3425c9e1756e7/360313B 与 de04339caa70cc10e4c55aaf3e9ea18fdfc719b8/360182B，全吻合才普通删共720495B。仅此二JSON；OMA12428B完整success/scope/哈希小件、两endpoint/source/R126/独立waist失败/canonical origin-direction等不动，历史不改。恢复b9c7cde9c28a38d9d7db2ad03fcfd3835578ac6b同paths，完整SHA在955eb058白名单，不准重跑已成数学。两README于c5f0d84b50ea214323c439ff5491b27c403749b1一致；下一已审NPK consumer仍须其自身fresh200MB+120KB门通过后才新计算。
