@@ -144,3 +144,9 @@ root全文独核31,021B/052bd8ed9550ffebd9cb56744f7d4e56a9b6de5405c363d438813f9a
 ## 2026-11-16 03:51:10 UTC — 已成逆链归档与当前open门整理
 
 把44f19c4f状态的完整open2逐字保 `notes/2026-11-16-completed-inverse-chain-through-physical-waist-leading.md`，14224B/965a4a09ba4b2a767f138a611fcf59206926d0decd4f48c27c0cbfe2cb976d26；新本节按actual physical row、原paid sources、root/finite/trueν门整理，源球/单位/失败/lost在原文及各proof完整保留。新WRA/WPL的窄same-column结论不改旧receipt flags；GH原有序return gate不误接WCS reflected model。未付complete E、实际finite columns/cross/mean/ν、all-s/背景/Nash全保，0科学/0旧重算。read 3eed546e78041770e66ed7c0d8f26f428b928b6b两README未变。
+
+## 2026-11-16 03:56:33 UTC — WBN 保反射的变量系数双边归约
+
+root全文独核26,506B/f6783549a2b29c5eebd4b31b6b604a89ba31345595cd3f03b86f6080927bde95；Newton正式核1–3/9–10并回CN/WPL，Tail正式核4–8/14–34。source A的G-skew闭值域+adjoint核0证明onto，负窗先f+A_G^-1Bf而非把rough输入塞G；sameinverse与fullreal都保。Fa完整outputmean加halfcomm，所有two-I收费在正确中间窗。N⊥压缩不丢fullmean row。whole实际式还保Ti(W^-1−Id)A和E∂W^-1A，C∂不得由旧subtotal直接冒名。
+
+所有new费仅符号，Ctwo/真finite补/physicalν及背景门未求值或宣称通过。本条独推，read b885a23c53246f59e066197b33bbfce79f6813d8两README未变。

@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 03:51:10 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 03:56:33 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 03:31:44定时CLI仍无executor，下一≤04:31:44。最新CI真pull为NIF 11-16 03:04:55.477901→bc20ed50d94fc4236f887d71696d353d3c945c3c，两次两README空diff；ref读取不冒真pull。
-最近只读README核：3eed546e78041770e66ed7c0d8f26f428b928b6b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：b885a23c53246f59e066197b33bbfce79f6813d8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -31,6 +31,7 @@ WRA40fb2167仅δ*/p0/fullU/Xfr−4/3→L2full闭完整Ei，旧SWA整paid复用�
 WIT13c5972c：非mean G=|D|^-1配对中A=−ZJ=S^-dagger S^-1正，W=(Id−ZJ)/2真onto且G逆≤2；完整旧DZA Δ H−4/3→L2经先G解/两窗bootstrap得同逆K_W=1+CΔ/2（符号）。W J=ZW且comm Rb，真域为range hatP97∩Fix(−ZRb)，192/96 finite补全保非ordinaryP97；fullauxmean另有WΔ1⊗Π，actual leading/error同右W^-1。
 WCS4998ef82：同W/B/IC给νi=−μ*/2，正确model P_J Fix(−ZRb)→P_J FixRa 的q_n=½(1−iνi/k)(1+iλ_n)，原CYA ξ=i gap直接给inverse≤2K_CY（旧K=256，未求新球），loss1/graph domain非同阶逆。正确右gate=(2K_CY)C_JΛJ^-1/3<1、序(I+E G)M；physical完整E/variableci/transportedfinite仍待。
 WPL052bd8ed：完整root C−=−R*C+（有限F*奇），co=−Rbci、To=RbTiRb；真pair差保2hΠTi。原R77/germ/P同metric精确偶且C2、bump近腰零⇒βmetric(0)=qr(0)=S(0)=0；Z0含Sr未删。实际归一化腰row=QaTi+E∂，E∂三项=QaVwTi−(h−1)ρi+Qa(Id+Vw)PhEi，Xfr→PFixRa，故首均值确νi。全部two-I/mean/真实state与源/jumps保，C∂仅完整符号式待可用界。
+WBNf6783549：cohom给Ra w=−w、Rb α=−α(α=vi−w)。target N⊥=PNP真逆PN^-1P/fullmean block保；source A=Id−TαI的G-skew给onto逆≤1、两窗同逆poly，无smallness，commZ/Rb/Kb。TiA=NTν+完整Ralg(mean+halfcomm/two-I)。actual N⊥^-1 B∂W^-1A=Mν+整E，保W^-1−Id及全部E∂；Ctwo仅符号，真cut A^-1hatP A/192–96补保。
 BF/FC/SE/RNS保完整(q,z,κ)Schur/PUVP及原mean/head/无限rest/真ν列和双pairing门；root核0仅撤FC补列，ν-chart保dν。BT joint head dual无√193、radialhead无限；RBT cutoff fallback无需重跑。根jet/RI原fullmean/8terms/K4η3及aux两case成功保root-jet索引。PSB/PTB仅fixedscalar all-s/tame，不授true背景。
 UT/UTA、SWA、NWA、NPKA原唯一成功/球/源/两窗/3070jumps/四affine依CE全保waist索引/proof；旧大upper非lower。完整physical square/finite/ordered return/背景及所有独立mean/source/参数仍待。
 

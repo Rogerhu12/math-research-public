@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WBN：反射腰部首系数的精确双边归约](results/R133-supplement-exact-two-sided-reflected-waist-first-coefficient-normalization.md)（9507d853e18de92840abda11cb895a5989df1fc8，26506B，SHA256 f6783549a2b29c5eebd4b31b6b604a89ba31345595cd3f03b86f6080927bde95）。原cohom给两反射odd系数；target N⊥真逆和fullmean block明确，source same-sign A在G中skew，故任意实系数大小下真onto、同distributional两窗逆及real/sign/reflection保持。TiA−NTν的完整mean/comm/two-I差及actual W^-1/物理E∂合成式全有序；Ctwo仅符号，真实有限补为A^-1hatP A，不授actual high/finite/ν或tame gate。0数值、旧NPK/DZA/源界不重算。
+
 - 2026-11-16 — [WPL：完整系数反射和真实paired腰部leading行](results/R133-supplement-complete-coefficient-reflection-and-physical-paired-waist-leading-row.md)（582679b6e48a271153b90ecf1691deca2dc27c9c，31021B，SHA256 052bd8ed9550ffebd9cb56744f7d4e56a9b6de5405c363d438813f9a100c8e24）。完整root C反射及原奇finite gauge推出co=−Rbci、To=RbTiRb和真实common pair的完整meanrank。原R77+actual germ regularity+P compact metric严格给S(0)=0，Z0/Sr保留；实际normalized primitive waist row=QaTi+E∂，三项strong误差和全mean列显式，源Xfr、目标P FixRa明确，首均值因此确νi。提供whole C∂符号式及same-state直接投影式，不授数值小量、finite/ν逆或rough bulk regularity。0新数、0旧重算。
 
 - 2026-11-16 — [WCS：已证Cayley间隙在正确反射腰模型中的应用](results/R133-supplement-certified-Cayley-gap-on-the-reflected-waist-model.md)（4215c33aaec529176b1f8021904fd5f1e173e2fa，12818B，SHA256 4998ef8208e3dc9e5474fe456bed53ebf4e7d987f7684d888f6705c9f1f55d0a）。同W选定参数通过B完整参数费与IC均值身份，νi=−μ*/2；精确归一反射基给q_n=½(1−iνi/k)(1+iλ_n)，CYA原ξ=i全gap直接给一导loss逆≤2K_CY，K_CY原256不重算。明确graph domain和正确target侧E G右预条件，conditional门(2K_CY)C_JΛJ^-1/3<1；不把常mean model或ordinarycut当actual waist。变量系数、complete physical E、true finite complement及原scalar rows仍待。
