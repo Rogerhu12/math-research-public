@@ -349,3 +349,7 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 ## 2026-11-16 17:54 UTC：joint168唯一正式运行已定位
 
 [启动元数据](notes/true58-joint168-body-suffix-launch-20261116.md)：run43923038659/attempt1/source47942fb212bcc2f424fdf546437cd38b08c2d7e1，research133495072427；原创建17:53:13Z，checkout/固定runtime成功，正式step在跑。只读metadata、0在途科学stdout；双仓实际pull以终态原回执核，不预造成功。无额外dispatch/重启，新接受仍无。
+
+## 2026-11-16 17:59 UTC：R559长快高度回路与六个真实矩零
+
+[R559](results/R559-six-exact-matrix-moments-by-a-slow-fast-height-loop-with-one-gauge.md)完整原式纸证，先含最早快入负费证明core正S0净首项，再以增长L的正能量/有序历史小因果核付真实C¹和开放末germ；原三参数加幅/长度与真P2事件共同IFT准确清P0/P1/P2/T1/R1^y/S0^y。交叉S1/R0非零费用保，余两槽与全period/13尚欠。root全文已读，0科学执行，立即推；joint168原构造失败已读取，0solver与费用先入H，完整闭账随后独推。
