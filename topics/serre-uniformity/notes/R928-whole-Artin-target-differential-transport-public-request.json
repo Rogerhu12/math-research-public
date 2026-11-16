@@ -1,0 +1,775 @@
+{
+  "schema": "source-bound-public-Action-v1",
+  "session": "serre-public-astra-20261115",
+  "request_id": "R928-completed-original-z0-numerator-derivatives-and-frame",
+  "result": "R928-original-whole-Artin-target-differential-transport",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "budget_minutes": 300,
+  "maximum_frame_trials": 8,
+  "resume": null,
+  "core": "R928_original_whole_Artin_target_differential_transport.py",
+  "core_sha256": "f899af1a65b2243c47a738bedc6eff3954502b4e3867ab59ae56d80cca045337",
+  "helper": "R885_whole_Artin_algebra.py",
+  "helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+  "wrapper": "R928_public_original_whole_Artin_target_differential_transport.py",
+  "wrapper_sha256": "83d6c51ac1b34e432ac768341363eb090ea7cb24829c03236d05ff7d1abf4fd7",
+  "workflow": ".github/workflows/serre-R928-whole-Artin-target-differential-transport.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R928-original-whole-Artin-target-differential-transport-method.md",
+  "method_sha256": "1a0a9cf2b4ffd5d9edc20cb17e6eea59959d2fcbe4785b76621b6581687ceaa4",
+  "proofs": {
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    },
+    "R882": {
+      "path": "results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md",
+      "sha256": "a92524ab9d33124809fd2a46286e3c8ba49459331ebb46d013a9f41d457c655f"
+    },
+    "R873": {
+      "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+    },
+    "R915": {
+      "path": "results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md",
+      "sha256": "b8ea2f3b8b11b0923e9192122d40dbd46224a5e54e4047c534748e9fabf1dc92"
+    },
+    "R922": {
+      "path": "results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md",
+      "sha256": "75e0e04e986203598b556403b4ea8eec3706da838e934ae11810c5abda569731"
+    }
+  },
+  "sources": {
+    "R919": {
+      "result": "R919-original-whole-Artin-Hecke-differential-trace",
+      "run_id": "43904104159",
+      "source_commit": "1e0ecf187b6e282226833c6c45c5e94661a0a9b1",
+      "core_sha256": "379083fd253ec82af43d185ddd6aed6f33ca6985d70e9864bab8f0a5ce1ef7ee",
+      "configuration_sha256": "cb2e457199bc9856e16fbebcfc1cfecbb0a94388bbee274e65047499ea0e3ede",
+      "artifact_id": 14245060474,
+      "artifact_name": "serre-global-R919-whole-Artin-Hecke-differential-trace-43904104159-1",
+      "archive_bytes": 19073395,
+      "archive_sha256": "863b68d79df7398937d2e56832dc772ee29c4420999448c5e12a2bb57017fa82",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T16:09:19Z",
+      "manifest_bytes": 11229,
+      "manifest_sha256": "3caecf7914afb5763ada21ae04300456bf99f483e3755e03cca6f3f956140ed3",
+      "certificate": {
+        "bytes": 17249,
+        "file": "p41-original-whole-Artin-Hecke-differential-trace-certificate.json",
+        "sha256": "c5b5a3a4f2a7b221d1b10bfbbc4a8f092690cbdeb30f83cc36135d23c91608ca"
+      },
+      "stage_result_location": "top_level",
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-whole-Artin-Hecke-differential-trace-certificate.json",
+        "R919-original-source-inventory.json",
+        "R919-retained-inputs-receipt.json",
+        "R919-basis-derivative-index.json.gz",
+        "R919-original-leaf-derivative-values.json.gz",
+        "R919-nine-original-delta-P-coefficients.json.gz",
+        "R919-complete-Euler-row.json.gz",
+        "R919-complete-eight-basis-trace-identity.json.gz",
+        "R919-trace-identity-U-00.json.gz",
+        "R919-original-characteristic-zero-differential-expression-DAG.json.gz",
+        "R919-basis-derivatives-0000-0064.json.gz",
+        "R919-basis-derivatives-0064-0128.json.gz",
+        "R919-basis-derivatives-0128-0192.json.gz",
+        "R919-basis-derivatives-0192-0256.json.gz",
+        "R919-basis-derivatives-0256-0320.json.gz",
+        "R919-basis-derivatives-0320-0384.json.gz",
+        "R919-basis-derivatives-0384-0448.json.gz",
+        "R919-basis-derivatives-0448-0512.json.gz",
+        "R919-basis-derivatives-0512-0576.json.gz",
+        "R919-basis-derivatives-0576-0640.json.gz",
+        "R919-basis-derivatives-0640-0704.json.gz",
+        "R919-basis-derivatives-0704-0768.json.gz",
+        "R919-basis-derivatives-0768-0832.json.gz",
+        "R919-basis-derivatives-0832-0896.json.gz",
+        "R919-basis-derivatives-0896-0960.json.gz",
+        "R919-basis-derivatives-0960-1024.json.gz",
+        "R919-basis-derivatives-1024-1088.json.gz",
+        "R919-basis-derivatives-1088-1152.json.gz",
+        "R919-basis-derivatives-1152-1216.json.gz",
+        "R919-basis-derivatives-1216-1280.json.gz",
+        "R919-basis-derivatives-1280-1344.json.gz",
+        "R919-basis-derivatives-1344-1408.json.gz",
+        "R919-basis-derivatives-1408-1472.json.gz",
+        "R919-basis-derivatives-1472-1536.json.gz",
+        "R919-basis-derivatives-1536-1600.json.gz",
+        "R919-basis-derivatives-1600-1664.json.gz",
+        "R919-basis-derivatives-1664-1728.json.gz",
+        "R919-basis-derivatives-1728-1792.json.gz",
+        "R919-basis-derivatives-1792-1856.json.gz",
+        "R919-basis-derivatives-1856-1920.json.gz",
+        "R919-basis-derivatives-1920-1984.json.gz",
+        "R919-basis-derivatives-1984-2048.json.gz",
+        "R919-basis-derivatives-2048-2058.json.gz"
+      ],
+      "pinned_files": {
+        "p41-original-whole-Artin-Hecke-differential-trace-certificate.json": {
+          "bytes": 17249,
+          "file": "p41-original-whole-Artin-Hecke-differential-trace-certificate.json",
+          "sha256": "c5b5a3a4f2a7b221d1b10bfbbc4a8f092690cbdeb30f83cc36135d23c91608ca"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 11229,
+          "file": "full-outputs-manifest.json",
+          "sha256": "3caecf7914afb5763ada21ae04300456bf99f483e3755e03cca6f3f956140ed3"
+        },
+        "R919-original-source-inventory.json": {
+          "bytes": 32091,
+          "file": "R919-original-source-inventory.json",
+          "sha256": "068b51a93b681a7f94de062d4f92648933da336a67ff313903a3cb120647e911"
+        },
+        "R919-nine-original-delta-P-coefficients.json.gz": {
+          "bytes": 19655,
+          "file": "R919-nine-original-delta-P-coefficients.json.gz",
+          "sha256": "f3e9b88bb1110b6bc5f05b4004d985b9732e2e916acfcf3a8fb2394a6785883d"
+        },
+        "R919-complete-Euler-row.json.gz": {
+          "bytes": 117875,
+          "file": "R919-complete-Euler-row.json.gz",
+          "sha256": "f9ba6aaace00dbd4f33ddde9517a982e817321be88eca49c6af917eb4d8ba6e0"
+        },
+        "R919-complete-eight-basis-trace-identity.json.gz": {
+          "bytes": 6613,
+          "file": "R919-complete-eight-basis-trace-identity.json.gz",
+          "sha256": "7a9e90075eafc3993ba27d441fea42f39c919adf98156c6da3742f7df2a56f71"
+        },
+        "R919-original-characteristic-zero-differential-expression-DAG.json.gz": {
+          "bytes": 7521,
+          "file": "R919-original-characteristic-zero-differential-expression-DAG.json.gz",
+          "sha256": "9403c6523804f687a9e25d1105f54178abf7ac47f3214f3bdbbb17033d3b6cce"
+        }
+      }
+    },
+    "R885": {
+      "result": "R885-original-whole-Artin-reference-norms",
+      "run_id": "43848870181",
+      "source_commit": "a22acdb019714f55bf182feb958425f8954da2ca",
+      "core_sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
+      "manifest_sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035",
+      "artifact_id": 14218009053,
+      "artifact_name": "serre-global-R885-whole-Artin-reference-norms-43848870181-1",
+      "archive_bytes": 145477237,
+      "archive_sha256": "7a0e8785b1e68d4944d7b44c0f9d8ddaf425cc4debea127352e316bb885e769e",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T10:56:08Z",
+      "certificate": {
+        "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+        "bytes": 58002,
+        "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+      },
+      "configuration_sha256": "9e419bbb3c496d943187e4ca3a368c97247dc3c8531a8f8a09d403758a0b0df6",
+      "files": {
+        "R885-Artin-node-00-complete-fibre-certificate.json.gz": {
+          "file": "R885-Artin-node-00-complete-fibre-certificate.json.gz",
+          "bytes": 20627,
+          "sha256": "a504f127520d83704fd651634aa587e65cb2df71b349b7f1f8385ecc7726a9e0"
+        },
+        "R885-Artin-node-00-correspondence-algebra.json.gz": {
+          "file": "R885-Artin-node-00-correspondence-algebra.json.gz",
+          "bytes": 209840,
+          "sha256": "8ad29e2dad0f992f386dcf9a0708db78dc0fd8cec073b275fe28749c95b70443"
+        },
+        "R885-Artin-node-00-full-target-normal-equations.json.gz": {
+          "file": "R885-Artin-node-00-full-target-normal-equations.json.gz",
+          "bytes": 20318,
+          "sha256": "b27c6019d1bfa495640fac18f12a4e81f2cc3f6bbd0d558bceb66982d4f8e40f"
+        },
+        "R885-Artin-node-00-source-functions.json.gz": {
+          "file": "R885-Artin-node-00-source-functions.json.gz",
+          "bytes": 3079120,
+          "sha256": "d3f79bfb7e8119787014ecd80cb0bccd8f10caf9d93353dfe7cc85592c65361c"
+        },
+        "R885-Artin-node-00-target-normal-000-016.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-000-016.json.gz",
+          "bytes": 186091,
+          "sha256": "5364be66533e04119cefffa0751ab356c2fd7ff251f8f66bb2cc8adc070946f7"
+        },
+        "R885-Artin-node-00-target-normal-016-032.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-016-032.json.gz",
+          "bytes": 196938,
+          "sha256": "fe792aaaa0d1bb357d04950ce9c9e20d81999dfb52c293280f08db9c070076d3"
+        },
+        "R885-Artin-node-00-target-normal-032-048.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-032-048.json.gz",
+          "bytes": 197004,
+          "sha256": "ac4b9a98a35e3f2d86df553d4222efcd057019941ae38206493a7382fb48202d"
+        },
+        "R885-Artin-node-00-target-normal-048-064.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-048-064.json.gz",
+          "bytes": 196930,
+          "sha256": "3fa4ba3b4cad321b249229931a22e7d9ca6b48e6b57159f1d9a70d90db784e9b"
+        },
+        "R885-Artin-node-00-target-normal-064-080.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-064-080.json.gz",
+          "bytes": 197017,
+          "sha256": "ea0f44967050d9755d7fd86192ff89d28dafb6e6599fc335d1d5a1182d27bc28"
+        },
+        "R885-Artin-node-00-target-normal-080-096.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-080-096.json.gz",
+          "bytes": 197005,
+          "sha256": "9ebeaf6f9f51d45813543381ee2bb5b4f64c17cd9dd7eceb33f4f97c12b7fba6"
+        },
+        "R885-Artin-node-00-target-normal-096-112.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-096-112.json.gz",
+          "bytes": 197060,
+          "sha256": "cf1530de0a8477af516567602e4a836bccc6ef91675f21c45a877951b0e2aaa3"
+        },
+        "R885-Artin-node-00-target-normal-112-128.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-112-128.json.gz",
+          "bytes": 196951,
+          "sha256": "a388e675d838172d09e14c75aa9aeab665e234eddfb538c0cf87db7f010e7617"
+        },
+        "R885-Artin-node-00-target-normal-128-144.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-128-144.json.gz",
+          "bytes": 196947,
+          "sha256": "65b265d965ed935209260d6e5ae6e4e869d883dd41f38883488fd91ec0c16133"
+        },
+        "R885-Artin-node-00-target-normal-144-160.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-144-160.json.gz",
+          "bytes": 196858,
+          "sha256": "acd3521f1261e96ecd736870565ba1cf4c8dd407acbf39ad0c23739b95b00345"
+        },
+        "R885-Artin-node-00-target-normal-160-176.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-160-176.json.gz",
+          "bytes": 196833,
+          "sha256": "83251ed1b701db664dd12604c7f20ec9e22c0b02cc40d60619b822353a419e39"
+        },
+        "R885-Artin-node-00-target-normal-176-192.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-176-192.json.gz",
+          "bytes": 196864,
+          "sha256": "a9da83065c4ef35ddc591309d078c28ea290dfbc2c4a823b07e13a0e31262561"
+        },
+        "R885-Artin-node-00-target-normal-192-208.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-192-208.json.gz",
+          "bytes": 196793,
+          "sha256": "c7033a53c27f39a600078bbf93cd19753b6b3a9f05de9a4d81d23e9517f57ba7"
+        },
+        "R885-Artin-node-00-target-normal-208-224.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-208-224.json.gz",
+          "bytes": 197009,
+          "sha256": "58eaa8f3cb36dc16cffe85620726f390aa97a5a27a2e940fda329a4c28c8cdec"
+        },
+        "R885-Artin-node-00-target-normal-224-240.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-224-240.json.gz",
+          "bytes": 196931,
+          "sha256": "b2035968f72b32e6e50b1d70fa597535590c91860aa2c530ca918d034b30afbb"
+        },
+        "R885-Artin-node-00-target-normal-240-256.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-240-256.json.gz",
+          "bytes": 196763,
+          "sha256": "a51c4b7d05cff5f33993364e44c134f96b6b1b4261983424efc5509affc5d3bf"
+        },
+        "R885-Artin-node-00-target-normal-256-272.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-256-272.json.gz",
+          "bytes": 196908,
+          "sha256": "02a60f5ecf8b9f3bf5b5b11317c6058cd29a5b48e4f37b9a6846ae254c42effc"
+        },
+        "R885-Artin-node-00-target-normal-row-index.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-row-index.json.gz",
+          "bytes": 21134,
+          "sha256": "10d53f7c4daa54a2a6a6a3d25a1de04997db2f4214800104b9cc0c2a5511a3e3"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 56003,
+          "sha256": "7413c073772399c5b6127fb024e76a560739bfe34d8d242f77445241c3f0d7e3"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 53331,
+          "sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035"
+        },
+        "p41-original-whole-Artin-reference-norms-certificate.json": {
+          "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+          "bytes": 58002,
+          "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 12860,
+          "sha256": "cd09505b83e7c7649f6b339048d4dc71405320a7967261b92757a91caab2bc2d"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 691,
+          "sha256": "16cb7b9e16b7486e430f4962baccd9f781b9ce236594155978b3c7f83502a998"
+        }
+      },
+      "manifest_bytes": 53331,
+      "manifest_file_count": 334,
+      "stage_result_location": "top_level"
+    },
+    "R827": {
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "expected_conclusion": "failure",
+      "accepted_process_exit_codes": [
+        124
+      ],
+      "files": {
+        "R827-original-W-g-h-reductions.json.gz": {
+          "file": "R827-original-W-g-h-reductions.json.gz",
+          "bytes": 763994,
+          "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+        },
+        "R827-original-place-and-unit-source-audit.json.gz": {
+          "file": "R827-original-place-and-unit-source-audit.json.gz",
+          "bytes": 4261,
+          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 378,
+          "sha256": "80657e1877ebea560fca06ecc808ede7541c42cc9672955cb25203b4ded5611a"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 19902271,
+          "sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 14624,
+          "sha256": "e2ba71d79b50f92f463c6efcfca091ef230bfd9b37e1e8962edc5d4734099583"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 441,
+          "sha256": "41716f65f5e0e9596aed3aaff0487c0ca736517ea904ee6d741adf8aba59de0e"
+        }
+      },
+      "stage_result_location": "configuration"
+    },
+    "R882": {
+      "certificate": {
+        "bytes": 8198,
+        "file": "p41-original-cyclic-seven-common-place-coefficients-certificate.json",
+        "sha256": "717768f087fa709a4412f16b12accf6cd132ac917b082df43b26bbb60e21ad31"
+      },
+      "configuration_sha256": "873a34e40ed6b160732886296dfbc8afe36f6071439fca27e7c10cb5c7cc5b61",
+      "core_sha256": "901466ae4d34bf1b558132a3b7c57c1c0bf6f2a8f097bc2283cd562607ba2e0f",
+      "manifest_bytes": 13197,
+      "manifest_sha256": "262eccbc897addf8f4d9d4623352d48aa55bb5f83fa9375bc02aa0e53fcd864e",
+      "result": "R882-original-cyclic-seven-common-place-coefficients",
+      "run_id": "43839076365",
+      "source_commit": "cb2385cca1fd2c336c7da0e3070bde77129e8e17",
+      "artifact_id": 14211339984,
+      "artifact_name": "serre-global-R882-common-place-coefficients-43839076365-1",
+      "archive_bytes": 386598220,
+      "archive_sha256": "3adfa48450a7be0a336c557891c1e86f91ef2d563d1defd607ec02d0d86413ca",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:24:51Z",
+      "files": {
+        "R882-common-place-same-place-correspondence-coefficients.json.gz": {
+          "file": "R882-common-place-same-place-correspondence-coefficients.json.gz",
+          "bytes": 4961,
+          "sha256": "2c802016ad29e9f15d0c01f66d7217413878a2543a5b3f8a56e0ae5c979837fa"
+        },
+        "R882-common-place-seventeen-coordinates.json.gz": {
+          "file": "R882-common-place-seventeen-coordinates.json.gz",
+          "bytes": 173770,
+          "sha256": "5c79985f7f004633e8bae857c2d23c880739934555a9c85946871543387058ea"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 6371,
+          "sha256": "d33e1021fc92472772584c1f28f1f79d19d818e7e3fe711cb2e6e41596dbed8d"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 13197,
+          "sha256": "262eccbc897addf8f4d9d4623352d48aa55bb5f83fa9375bc02aa0e53fcd864e"
+        },
+        "p41-original-cyclic-seven-common-place-coefficients-certificate.json": {
+          "file": "p41-original-cyclic-seven-common-place-coefficients-certificate.json",
+          "bytes": 8198,
+          "sha256": "717768f087fa709a4412f16b12accf6cd132ac917b082df43b26bbb60e21ad31"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 5574,
+          "sha256": "c58af09820c0acbca5d6e35889e7ccc0ce708e67f58b796f447ebe096b735285"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 676,
+          "sha256": "8c6f440550ce2fd99b86ed0b6d158e9bdb51b2819a709263d7ec524c3d85fdb5"
+        }
+      },
+      "manifest_file_count": 87,
+      "stage_result_location": "top_level"
+    },
+    "R873": {
+      "certificate": {
+        "bytes": 11215,
+        "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+        "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+      },
+      "configuration_sha256": "cc0aa80daad20e534af3f126f3b99363926ffb615adc1925ce6c2992996b5cf0",
+      "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c",
+      "manifest_bytes": 55619,
+      "manifest_sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac",
+      "result": "R873-original-cyclic-seven-correspondence",
+      "run_id": "43832703159",
+      "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
+      "artifact_id": 14209317175,
+      "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43832703159-1",
+      "archive_bytes": 382153683,
+      "archive_sha256": "f9e415113d32822fd563529188c6100d3cd64ab2eb046faca09939eb45e4e3e4",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:42:36Z",
+      "files": {
+        "R873-original-cyclic-seven-source-target-function-DAG.json.gz": {
+          "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz",
+          "bytes": 32165,
+          "sha256": "7f25006cd4d2a500af621360f01baad85a2836b40b4d595ff5f91025f3671b66"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 9204,
+          "sha256": "21f01a84e243aa3dc77e563c3b7a0c0011e9d96e804175e0381a79a030681b95"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 55619,
+          "sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac"
+        },
+        "p41-original-cyclic-seven-correspondence-certificate.json": {
+          "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+          "bytes": 11215,
+          "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 13700,
+          "sha256": "f5d0d2436d128878ad8bf434bd4e55071290870c5380672357c24d4256b0fc97"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 762,
+          "sha256": "a0907d566ff27f2cb36a097596a51803683709598ef4a5eea75c119251084571"
+        }
+      },
+      "manifest_file_count": 380,
+      "stage_result_location": "top_level"
+    }
+  },
+  "input_bindings": {
+    "source_functions": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-source-functions.json.gz"
+    },
+    "correspondence_algebra": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-correspondence-algebra.json.gz"
+    },
+    "fibre_certificate": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-complete-fibre-certificate.json.gz"
+    },
+    "target_normal_index": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-target-normal-row-index.json.gz"
+    },
+    "full_target_equations": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-full-target-normal-equations.json.gz"
+    },
+    "original_W": {
+      "source_group": "R827",
+      "file": "R827-original-W-g-h-reductions.json.gz"
+    },
+    "original_place": {
+      "source_group": "R827",
+      "file": "R827-original-place-and-unit-source-audit.json.gz"
+    },
+    "seventeen_coordinates": {
+      "source_group": "R882",
+      "file": "R882-common-place-seventeen-coordinates.json.gz"
+    },
+    "same_place_interface": {
+      "source_group": "R882",
+      "file": "R882-common-place-same-place-correspondence-coefficients.json.gz"
+    },
+    "correspondence_DAG": {
+      "source_group": "R873",
+      "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz"
+    },
+    "target_normal_blocks": [
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-000-016.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-016-032.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-032-048.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-048-064.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-064-080.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-080-096.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-096-112.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-112-128.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-128-144.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-144-160.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-160-176.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-176-192.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-192-208.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-208-224.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-224-240.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-240-256.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-256-272.json.gz"
+      }
+    ],
+    "basis_derivative_index": {
+      "source_group": "R919",
+      "file": "R919-basis-derivative-index.json.gz"
+    },
+    "source_leaf_derivatives": {
+      "source_group": "R919",
+      "file": "R919-original-leaf-derivative-values.json.gz"
+    },
+    "nine_delta_P_coefficients": {
+      "source_group": "R919",
+      "file": "R919-nine-original-delta-P-coefficients.json.gz"
+    },
+    "Euler_trace_row": {
+      "source_group": "R919",
+      "file": "R919-complete-Euler-row.json.gz"
+    },
+    "full_eight_basis_identity": {
+      "source_group": "R919",
+      "file": "R919-complete-eight-basis-trace-identity.json.gz"
+    },
+    "completed_dotU": {
+      "source_group": "R919",
+      "file": "R919-trace-identity-U-00.json.gz"
+    },
+    "exact_R919_DAG": {
+      "source_group": "R919",
+      "file": "R919-original-characteristic-zero-differential-expression-DAG.json.gz"
+    },
+    "basis_derivative_blocks": [
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0000-0064.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0064-0128.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0128-0192.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0192-0256.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0256-0320.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0320-0384.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0384-0448.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0448-0512.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0512-0576.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0576-0640.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0640-0704.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0704-0768.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0768-0832.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0832-0896.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0896-0960.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-0960-1024.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1024-1088.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1088-1152.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1152-1216.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1216-1280.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1280-1344.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1344-1408.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1408-1472.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1472-1536.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1536-1600.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1600-1664.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1664-1728.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1728-1792.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1792-1856.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1856-1920.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1920-1984.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-1984-2048.json.gz"
+      },
+      {
+        "source_group": "R919",
+        "file": "R919-basis-derivatives-2048-2058.json.gz"
+      }
+    ]
+  },
+  "completed_R919_input_transport": {
+    "source_group": "R919",
+    "package": {
+      "bytes": 14612930,
+      "file": "R919-retained-original-inputs.tar.gz",
+      "sha256": "fb4af55fd04a6eef10029ef913953e07c3bd9d40c798a31c58774a7886620813"
+    },
+    "source_inventory": {
+      "bytes": 32091,
+      "file": "R919-original-source-inventory.json",
+      "sha256": "068b51a93b681a7f94de062d4f92648933da336a67ff313903a3cb120647e911"
+    },
+    "retained_receipt_file": "R919-retained-inputs-receipt.json"
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "665dd92b8703fa7118d90fbee0eba7f07e2d60ee"
+}
