@@ -127,3 +127,5 @@
 - **R599（已证明的准确输入与来源边界组件）**：[完整有理数RN-even十词及实际coast recipe](results/R599-accurate-ten-word-and-actual-coast-recipe-boundaries.md)。小源8620B与接口/证明合30966B；全80B原相等判断保留、原H和数值算法不动，真正receipt继续原全bytes/SHA核。R597后继实际接线尚未冒执行。
 
 - **R585（实际244来源停止与固定控制流范围）**：[完整联合guard失败、必要超限与未启动科学后缀](results/R585-actual244-source-binding-stop-and-complete-necessary-overflow.md)。原454来源前缀过、十当前views未起、子R583原因未返；487638全source超90K70只返1663同字，science reader缺文件，无新科学父、不推quiet。
+
+- **R601（已证明的完整world角导数缺陷与实际对象组件）**：[解析无限导数尾、全部alias、旋转连接及实际全系数残差组合](results/R601-actual-analytic-projection-and-saved-RHS-world-C1-defect.md)。同R580/R596真实对象形成r/r_phi条件界；保全部mean、正gap/向外舍入、原coverage/budget/stop。三件49847B，未执行；真实Aρ/锚/路径/全闭metric及caller不冒完成。
