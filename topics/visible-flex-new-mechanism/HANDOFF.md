@@ -8,7 +8,7 @@
 
 private于16:24:57.132524→16:25:17.334486真实pull读 **9c5ec050ed672180245cf65312af93bef2ab937f**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE会话唯一进行中；下一≤17:25:17。私有正文不发表。
 
-16:26–27的本地public pull虽rc0，却报rebase-merge磁盘满且未整合upstream，**不算成功pull**；当时只在本地生成的H不授新读SHA。清理本仓126个孤立GC临时pack副本2016603782B，保全部正式pack和研究文件；16:31起执行环境不可用，后续原生push无成功回执。按根8用GitHub小UTF8源码/MD接口发布，expected-head且不force；**API读/合并不冒原生pull/rebase**。新公开Actions在科学前真实pull双仓并核规则，获得回执后补H；本地恢复后立刻原生pull。规则改变只读diff立即执行。详见log。
+16:26–27public pull rc0但磁盘满/upstream未整合，**不算成功pull**。仅清本仓126个孤立GC临时副本2016603782B，保正式对象/研究文件。16:31起执行环境不可用；按根8以小UTF8源码/MD接口expected-head非force发布，**API不冒原生pull/rebase**。新Actions科学前真pull双仓核规则、回执补H；本地恢复立即pull。有变只读diff即执行；故障全账见log。
 
 API读1e17368751a8e517a7497aa9d14031ee4817598b双README未变，不替代真pull。旧CI/缺失回执边界见各notes。三来源核对与所读SHA见[来源状态](notes/public-source-topics-current-state-20261116.md)。
 
@@ -24,7 +24,7 @@ API读1e17368751a8e517a7497aa9d14031ee4817598b双README未变，不替代真pull
 
 [真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。原14/准确172盒真；η粗.26600541430262403/细.26600541463999305，κ细57.9997782607127@s.78/θ4.818744981678094。4454/4549池v15/14，峰η在.4725/θ0；.26与连续主门未付。原物理/168身份及全部接受证据见真正58note。55仅永久constructor，58 CACHE2只确存U/T/e/f及selected二jets；不冒全grid二jets/J。
 
-旧ring17/反射R1/联合19/[free36](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)/[prefix102](notes/true58-prefix102-fixed-suffix-metric-failure-zero-solver-20261116.md)/whole34均闭账，0actual，完整原值/失败/费用在各notes。free36环成功但全bodyη6.9794/κ69803.9失败；prefix102的固定后缀η约.54517超预算.26600531463999305且102二jets零，0solver/J，不授连续不可行。prefixMODEL只保全scalar及后缀T/metric/二jets/曲率/PSD，不保全域派生/J。最新whole34原返回及总费用见§5，缺失输出不作免费输入。
+旧ring17/反射R1/联合19/free36/prefix102/whole34均闭，0actual；各原notes保全部返回/成本。free36环成功而全bodyη6.9794/κ69803.9失败；prefix102固定后缀η约.54517超.26600531463999305且102二jets零，0solver/J。其MODEL只有paid scalar/后缀数组，无全域派生/J。whole34缺失输出不作免费输入，见§5。
 
 ## 4. 当前理论支线与不可混用的前提
 
@@ -48,7 +48,9 @@ API读1e17368751a8e517a7497aa9d14031ee4817598b双README未变，不替代真pull
 
 **R545**完整δA/δ²T快系统/端点IFT保全p1正、t1负和第三面积；零入能二阶ρ非负，非零初能量负j接口须从起点同一新Gram，不能拼旧χ。
 
-**R544**同R521母从真零history一次选H0>√3H的新Gram；完整快四端IFT接同反馈germ，原h″吸引反馈准确付质量因子/阻尼/刚度。先高h1=Lh/√λ及尾常数、再λ、最后δ=λ²ζ；完整Abar/Tbar联合bootstrap和j分部付Cλ²/δ长尾，保强合法/全γ²成本，真实净p1<0与中心t1>0同时成立。高尾p2正，其余矩/末germ/pose/第三第四period/13未闭，继续同χ返回，不拼33母。
+**R544**同R521母真零history一次选H0>√3H的新Gram；完整快四端IFT/同反馈germ及h″反馈质量/阻尼/刚度均付。先h1=Lh/√λ/尾常数、再λ、最后δ=λ²ζ；Abar/Tbar联合bootstrap与j分部付Cλ²/δ长尾，保强合法/γ²，净p1<0与中心t1>0同成。p2正、其余矩/返回/13未闭。
+
+**R548**在上述构造起点先选有限大ωc，使同冻结profile的Q0(Y)<0；原高尾完整Riccati历史使Γ0真变正，再同反馈有限下降到k>0/p2负开段。全词仍净p1负/中心t1正，下降法向Oδ项/全速度费用保；未清总p2，不改χ/不拼33母。
 
 R512/515/517的YC字面同形库和所有R469–509旧尾/period/13条件各保原范围，不跨母拼用。后继继续同χ剩余总矩/驻留返回。
 

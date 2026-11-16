@@ -265,3 +265,7 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 ## 2026-11-16 16:43 UTC：R547完整长时成本与真实返回层
 
 [R547](results/R547-complete-joint-matrix-cost-and-the-real-return-layer-after-large-curvature.md)完整原式纸证：原Π/t1/t1中心三个累计分开，任意时长负dc区域的正Π费用受限，当前尺度必须改k号或真实返O(L⁹)零层；原δ反向有向积分与完整ζ联合slab身份均准确，常高度放松下界不授原ruling等号。R546的负γ²成本与全部历史保留；未有慢入口。0科学执行，继续同χ实际返回。全51请求已在source077d1dbb9c184cf4c6edf3e4c20014880d810283启动run43910342020，尚无新观察；原生执行器仍不可用，继续根8小UTF8接口，API不冒pull。
+
+## 2026-11-16 16:44 UTC：R548同规范真实历史转向和负p2开放入口
+
+[R548](results/R548-real-history-turn-and-negative-p2-access-with-one-fixed-gram.md)完整纸证同冻结R521 profiles的有限大ωc从起点子族；Q0(Y)/Q2(Y)准确负号、同χ原高尾的Riccati状态/完整第三使Γ0实际转正，后以同反馈有限下降到原k>0/p2负开段。全词净p1负/中心t1正仍保，非恒高度法向Oδ平衡项与原γ²成本明确；不能以负密度区间冒净p2清零。root已全文读取，0科学执行；继续真实负累计/联合返回。R547已发布3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17；open中R534/535/537/538完整旧条目逐字同层归档，未撤条件。
