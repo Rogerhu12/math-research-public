@@ -761,7 +761,7 @@ def apply_G_adjoint_to_matrix_field(operator, body_forcing, finite_port_inputs,
         mean=_CompleteModalIntegral(profiles,None,
             km.Field(domain,1,k,lambda box:km.Matrix(1,k,[[
                 scales[domain.cell_index(box)]*x
-                for x in whole_forcing(box).values[pos[(1,0)]]]),label+":mean_dual"),
+                for x in whole_forcing(box).values[pos[(1,0)]]]]),label+":mean_dual"),
             km,label+":mean_prefix")
     lookup={coord:i for i,coord in enumerate(operator.atom_coordinates)}
     def evaluate(box):

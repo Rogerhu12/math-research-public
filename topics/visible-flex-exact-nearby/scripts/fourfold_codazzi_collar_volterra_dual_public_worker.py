@@ -189,22 +189,76 @@ def main():
         check(observed==review["readme_sha256"] and not review_diff,"new unread README requires root review")
         return after
 
+    capacity_tree_cache={}
     def capacity(head):
+        """Published whole-tree metadata plus the exact complete local Git delta.
+
+        After a rejected push and a real rebase, HEAD may contain our unpushed
+        output commit.  Such a local tree is not a GitHub REST resource.  The
+        fetched origin/main is published; only changed local blob sizes need
+        Git object reads.  This is administrative byte accounting only.
+        """
         tree_sha=git("rev-parse",head+":"+TOPIC).stdout.strip()
-        request=urllib.request.Request("https://api.github.com/repos/"+REPO+"/git/trees/"+tree_sha+"?recursive=1",
-             headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json"})
-        with urllib.request.urlopen(request,timeout=60) as response:
-            raw=response.read()
-        data=parse(raw)
-        check(data.get("truncated") is False and data["sha"]==tree_sha,"complete capacity metadata")
-        rows=data["tree"]
-        sizes={}
-        for row in rows:
-            if row["type"]=="blob":
-                check(type(row["size"]) is int and row["size"]>=0,"complete Git-tree size")
-                sizes[TOPIC+"/"+row["path"]]=row["size"]
+        base_head=git("rev-parse","origin/main").stdout.strip()
+        base_tree=git("rev-parse",base_head+":"+TOPIC).stdout.strip()
+        if base_tree not in capacity_tree_cache:
+            request=urllib.request.Request(
+                "https://api.github.com/repos/"+REPO+"/git/trees/"+base_tree+"?recursive=1",
+                headers={"Authorization":"Bearer "+token,"Accept":"application/vnd.github+json"})
+            with urllib.request.urlopen(request,timeout=60) as response:
+                raw=response.read()
+            data=parse(raw)
+            check(data.get("truncated") is False and data["sha"]==base_tree,
+                  "complete published-base capacity metadata")
+            base_sizes={};base_blobs={}
+            for row in data["tree"]:
+                if row["type"]=="blob":
+                    check(type(row["size"]) is int and row["size"]>=0,
+                          "complete Git-tree size")
+                    relative=safe_path(TOPIC+"/"+row["path"])
+                    check(relative not in base_sizes,"unique whole published-tree path")
+                    base_sizes[relative]=row["size"]
+                    base_blobs[relative]=row["sha"]
+            capacity_tree_cache.clear()
+            capacity_tree_cache[base_tree]=(len(raw),sha(raw),base_sizes,base_blobs)
+        metadata_bytes,metadata_sha256,base_sizes,base_blobs=capacity_tree_cache[base_tree]
+        sizes=dict(base_sizes);blobs=dict(base_blobs)
+        delta=git("diff","--raw","--no-abbrev","--no-renames","-z",
+                  base_head,head,"--",TOPIC,binary=True).stdout
+        tokens=delta.split(b"\0")
+        check(tokens[-1]==b"" and (len(tokens)-1)%2==0,
+              "complete NUL-delimited local topic delta")
+        changes=[];null_sha="0"*40
+        for i in range(0,len(tokens)-1,2):
+            parts=tokens[i].decode("ascii").split()
+            relative=safe_path(tokens[i+1].decode("utf-8"))
+            check(len(parts)==5 and parts[0].startswith(":")
+                  and parts[4] in ("A","D","M","T"),
+                  "complete ordinary local file delta")
+            old_sha,new_sha=parts[2],parts[3]
+            check(old_sha==blobs.get(relative,null_sha),
+                  "local delta starts at the exact published-base blob")
+            before=sizes.get(relative,0)
+            if new_sha==null_sha:
+                after=0
+                check(relative in sizes,"complete original deleted local blob")
+                del sizes[relative];del blobs[relative]
+            else:
+                check(git("cat-file","-t",new_sha).stdout.strip()=="blob",
+                      "changed local topic object is a complete blob")
+                after=int(git("cat-file","-s",new_sha).stdout.strip())
+                check(after>=0,"exact complete changed local blob size")
+                sizes[relative]=after;blobs[relative]=new_sha
+            changes.append({"path":relative,"status":parts[4],
+                            "old_git_blob_sha":old_sha,"new_git_blob_sha":new_sha,
+                            "old_bytes":before,"new_bytes":after})
         return {"head":head,"topic_tree":tree_sha,"topic_blob_bytes":sum(sizes.values()),
-                "metadata_bytes":len(raw),"metadata_sha256":sha(raw),"blob_count":len(sizes)},sizes
+                "metadata_bytes":metadata_bytes,"metadata_sha256":metadata_sha256,
+                "blob_count":len(sizes),"published_metadata_base_head":base_head,
+                "published_metadata_base_topic_tree":base_tree,
+                "complete_local_delta_bytes":len(delta),
+                "complete_local_delta_sha256":sha(delta),
+                "complete_changed_local_blobs":changes},sizes
 
     def concurrent_pending_reservations():
         """Admit every other active workflow's exact source before classifying it."""

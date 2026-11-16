@@ -382,3 +382,11 @@ H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348
 
 worker第一次push非FF后立刻真正pull --rebase，完整失败commit仍在本地HEAD。下一容量API错查未推local topic tree返回422，故原worker未publish。根现在仅从完整日志补存其原两文件，并以 `notes/2026-11-16-R133-W2C-readonly-AST-failure-and-publication-recovery.json` 保完整二级traceback与四次真pull回执；最后两次HEAD deaf32dd是未推local rebase结果，不冒充GitHub已有commit。17:37:23.005578到dc9e88ed的pull对应已发表main，四次README旧/新及已读规则diff全空，真pull期限更新18:37:23。下一consumer修`capacity`为published origin/main的完整metadata+whole local Git delta/exact changed-blob bytes，不能用不存在的远程树。此补存只真实失败运维，不允许把AST前已经读过的部分文件猜作完整current/AST admission成功。
 2026-11-16 17:39:26 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 10b3bd0c2cf4db82b2426760d4a2035c0df2b113的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+### 2026-11-16 W2C 未执行目标的语法与本地rebase容量修复
+
+只修public只读实际发现的两处：reference dda86→06e08a1f9524c28046bcffb533bfc47db28502a4 /48842 /SHA1ec63fa6528d7082ffa5727b5147e284cf778ee30e2af96d1fda1ccbb4f939c9为唯一`]`；mean-dual整矩阵原公式、193atom和所有科学target未变。worker5e9b→e2a6bf8600edca644f1881d2b6581bd87d7af58c /45086 /SHA19059b2c61576bf843c23788bc0bb98c5bc57e492cc889f49398531797288a4a，只替capacity：published origin/main的完整recursive tree元数据，核非truncated/Git，再NUL whole raw diff精确核原blob，变动local blob cat-file类型/实际bytes；每条delta完整记录，immutable base tree缓存不把未推树当REST资源。预/立即child预算与实际postpublication规则不变；不引入科学重试。
+
+v2纯只读manifest topics/visible-flex-exact-nearby/notes/2026-11-16-R133-W2C-readonly-preflight-v2-current-inputs.json 固定完整60current/21history/23AST、全部原scope、29精确他workflow绑定；17:41:54五状态18active全为已读版本/既有run/head。第一次完整failed输出已7c356193保存，现只重做未通过的AST/native admission，0既成数学目标。H腰段缩为索引，所有原细项逐字保7c356193/HANDOFF.md（Gitb6595e6568f86710e8e628d4b19372ff33ba981c、bytes9965、SHAb5e1cacdc9fd18531cc355db600c7ec84965f23f5c6a196476eb5e6d17164339）与既有open4，未删义务。新版源码/manifest这次先推，独立workflow下一次才触发。
+Phase独立全source窄核capacity修复通过：published immutable metadata cache、完整NUL delta的A/D/M/T、oldSHA和newblob exactsize、零delta与已有输出同path扣回全部正确；未执行Python AST或任何数学，控制/readonly顺序逐字原样。
+2026-11-16 17:43:22 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main b837bebddded526dd7dbafec916799ff7531de6e的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
