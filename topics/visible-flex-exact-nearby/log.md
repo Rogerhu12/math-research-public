@@ -346,3 +346,11 @@ ea33fdb3a410d4f0fb9aa0eb82a1a2efdb87fec8两README同原blob。proof85d9d46e76f91
 根历史Git元数据逐层核：a3d84d905ce72e3a854874bbe98d119623f3f8de的majorant stage fe180735fb6cbfaef8dff2ef68aa511ed3ac0643/4501；46f127c7153f5393dcd2a00f42d4c1d3662c294d的root1b1c6f11478c800ef76e1519c266e80b9d08916c/30595与fold62f71a475135363dd367caea684eb9272303f379/6522，path全在RI。root/fold两原publication小回执2005/89642fd9、2233/1635d69f独立印bytes/SHA。未取binary正文，未解压或新科学计算。
 
 potential最小case root λ=κ*与V可复用，整pieceflagfalse保；β仍原最大case完整276/L1/2000，各complex disk/square只原域，共同真实结论real|δ|≤1e−8/fixedη0。RBO正式Newton同行核现齐；RBT只后备原root tail，不改变97首target。H合并已成PSB/PTB索引，完整原式/条件保414c3a34587250a26ccc482cb86769b0ce0cf970同H，不减fullbackground/incoming/tame义务。
+
+## 2026-11-16 00:58:44 UTC：RBT原根完整band与真finite Schur接口独推
+
+9f414643b4ef33e384b415492b53f6bc5ade6fc8两README同原blob。proof3318ff433ccc722459da8a1b8939c7d6fb2c57c7/17504/8a20d39ced4d6cee182351305f0af9bee0a19f6a0b726b2f1e643d8ce50adc2b根全文读；phase亲核§2–5、newton亲核§6–7皆通过。根亲取RH54773aa52c48a3344f59c98f773da3850b205169/13244/b3bfaf73dda241de03e52e052164b33313166de94b5387304aba771b9ec3a1f2完整原定义，32/96 support为exact，与RH数值δ1e−10范围分开，不扩旧numeric。
+
+逐RBG完整递推：d/p/ell/bop192，Dp与E0/BV384，D²p/ΔC3/ΔRD/E1/H576，Da1≤384；positive meanrank输入≤384/输出≤192故整项band576保。root X=φ，未插入后续composition。真正输入Jt>576使IR0Pt输出标签≥Jt−576，费用只在J/L之前；不假J、L乘积或stable trace为band。tail的ΠBV Pt真0只该输入尾部，原97及两physicalmean不删。
+
+全RBT20 Schur保原97..Jt−1两个sign、真实J/高逆/cross，只有tail strict门与finite nonsingular皆证后才全root逆；SE固定自然窗为定性扩展，未搬L2 numeric。当前唯一root97消费保持不动，本篇无新数值或inverse。另RI6–7 tail独立核现齐：两原J factor/ordinaryL2、potential smallroot vs genuine large terminal/β完整域均通过。

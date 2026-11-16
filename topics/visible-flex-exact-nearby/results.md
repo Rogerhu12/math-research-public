@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/RBT：原根完整带宽与有限 Schur 接口](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)：精确E2/R0带宽384/576，Jt>576的IR0仅在J/L之前得4(Jt−576)间隙；全97..Jt−1双sign真Schur及cross/J/meanrank保。原97门不改、J不作有限带宽；无新数值tailpass/finite/incoming，负窗不冒L2常数。
+
 - [R133/RI：完整根稳定迹的原已成输入库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)：精确10件输入/7原source，已有高root K4、完整η3/mean和4×5混导、sharpJ、物理λ、完整Vroot及真非零β；aux整体失败与仅两成功域原样保。原∂J资格与root/terminal域逐项对应；新组合/whole e尚未运行，不重成功，无stable/incoming/finite声明。
 
 - [R133/RBO：真正根部误差的精确输入频率分阶](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)：z=16N^-2给完整E2及八行R0，hrrr仅N^-10/3而无z曲率不删；正meanrank保，仅纯对角子项ΠD_c0PH精确0。全J低中间频仍1/4；完整Wiener pairing、原非零βn和有理主对角下界保，无新数值/stablepass/incoming/finite声明。
