@@ -196,3 +196,7 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 继续同一 K′=K∩ker(完整β1) 的真实后继链与指定 forcing，不以稳定部分单射替全核排除；δ≥0仍用同一个候选继续 native/其它行。
 
 - [R919 §6](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原四块RR及正规化只依赖同一D,s,L和u/v/at，可先执行再做U；新geometry-first路径在完整原U/两Phi/两Atkin之后才返context。仅重排依赖，未删接受门，尚无新PASS。
+
+## R915：实际连接整窗与原中央核的第二位
+
+[R915](results/R915-original-connection-integral-window-and-second-digit-kernel.md)原ζ在严格2p²窗的全部p分母经Lucas/同LT微分相消，实际a_j整(1≤j≤2p−3)。全i中央核ε_m,i∈1+p²O，准确模p³修正binom(i+2,2)a1/(mc²)，同a1=2[z^(2d)]log(σ/z)；原全尾/regular补项/四来源及R708真O(p²)窗保，未推中央零到边界零。

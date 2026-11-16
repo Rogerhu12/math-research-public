@@ -370,3 +370,5 @@
 - [R918](results/R918-original-stable-direction-carry-unit-and-native-endpoint.md)真实三首十三带完整读取：δ=r+2h−s∈[−13,−1]时同q卷积行给单位·a(G)，完整β1在R916实际K∞单射。δ≥0三带零iff值深到J=T+13；若q(0,Y)=cY，native给(3n²−1)vG+9a(G)u0²e0·1δ0=0，δ0首值非零、δ>0再深1。完整U0/实际高轴/q导数/同R,S保，未排非稳定核。
 
 - [R919 §6](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原四块RR及正规化只依赖同一D,s,L和u/v/at，可先执行再做U；新geometry-first路径在完整原U/两Phi/两Atkin之后才返context。仅重排依赖，未删接受门，尚无新PASS。
+
+- [R915](results/R915-original-connection-integral-window-and-second-digit-kernel.md)原ζ在严格2p²窗的全部p分母经Lucas/同LT微分相消，实际a_j整(1≤j≤2p−3)。全i中央核ε_m,i∈1+p²O，准确模p³修正binom(i+2,2)a1/(mc²)，同a1=2[z^(2d)]log(σ/z)；原全尾/regular补项/四来源及R708真O(p²)窗保，未推中央零到边界零。
