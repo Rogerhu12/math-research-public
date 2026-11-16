@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WSJ：严格区分径向/角向的完整混合jet与fold逆**。冻结$t_0$的逐$(p,q)$系数闭合乘法/有理幂与phase/gap三角递推，纯角行不再引用径向组最大；完整$H^{-1}$四entry和$\mu^{-1}$正因子、$G,w_0$第三径向/完整强迫及自由/genuine第一transport均保。旧phase1..15补absolute edge15；新的relative$\omega$输入只到14且未实算，各slot保同域旧safe fallback。见[完整证明](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8。无新科学执行，不授physical有限逆或最终族。
+
 - **WIC：继承细分的真实尾逆与带权阻抗 circuit**。由完成WPTVS的8个原whole粗有理界，严格证明m160时δ<80553/128000<2/3，真实R160双侧逆可取κ=3；原m1/m2两false和五max冻结。24480个cell的4724833维参考有限方阵分解为96个正pivot阻抗块与一个physical mean块，完整Riesz/transpose/whole norm与principal rho2−rho*均保；actual有限仍须signed e+3dt<1和完整7port/两rhs。见[完整证明](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e及无入口module c5de896f。0新科学执行，无dense数组。
 
 - **WRT：完整retained-profile重分解及新可和终端** — [证明与42量合同](results/R133-supplement-exact-retained-profile-regrouping-and-complete-terminal-bound.md)，SHA7730307f9c42bb87adc41baca7d0a79262946e5c19cd517449325523380bd38d。保留k1/2、整移k3..5到E3，不减旧C6；经完整same-J、符号槽计数和ordinary dr给新terminal band衰减 $N^{-3/2}$，以独立 $\mathcal S_{1/6}$ 保原 $H^{-4/3}$ 输入。全mean/jump/四端/receivers及whole/reduced整选保；75原copy、7图42新scalar尚未算，0逆结论。

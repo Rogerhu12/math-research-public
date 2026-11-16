@@ -50,9 +50,7 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WSPA实际新界](results/R133-supplement-actual-Schur-Parseval-positive-and-exact-coefficient-split-bounds.md)4b5104c2：43816689251/1已16门/4图成功；same Rplus整选3.0660269163…e28，D∞新2.3328477893…e9与ell2非whole Calg。完整PCRA55533B/49slots及全mean/finite保，old0，禁重；全局门仍待。
 
-[WUI](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)2a77f1cd完整typed DAG保。
-[WEJ/WZR/WEJA/WECA完整已成范围](notes/2026-11-16-completed-waist-error-open-scope-index.md)b6de984c逐字保f820cf9c原open四段；完整N6/两负窗/3070jump/真腰重建/四端与whole/reduced均已实际保存，所有域/单位/mean/finite/cross及原failure资格不变。43827705714/1仍failure而23图/39prefix全保；43831678361/1只余30新成功，全26图1684槽冻结。完整保守upper非真实误差下界；高门/finite/96/Θ/ν/两mean/head/all-s/背景与最终族仍待，旧成功不重。
-[WGS全局fold与free transport有限jet](results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md)4d3638fe：strict真flow与root regular quotient分别闭合；完整Φ/X/T I(15,3)、w0 I(14,3)、full−L0w0 I(12,1)、free w1 I(12,2)。全部N/O/ϑHD项、fixed endpoint ordinary dr、根ramification限制和完整8stage保；新增flow/phase5–15，旧已成jet只读。4501+20924历史stage仅公开Actions临时SHA恢复，原whole-wrapper formatter失败仍失败；新数已由唯一43820816332/1的24门/8图/437槽完整成功（SCI8af3af0a/72251、原copy3c5588f1/31632）取得并锁，66+40旧球/9scope/whole c72全保。potential/Bext、N6/mean/J负窗/jump/四端和高门仍待。
+WUI/WEJ/WZR/WEJA/WECA/WGS原完整typed DAG、58输入、1600+9失败prefix和1684完成后继及其全部scope/恢复/未付门逐字保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)。同真实trial、J、两mean、3070跳点与四端不改；已成禁止重算，旧失败不改成成功。
 
 [WGSA实际完整全局jet](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734：唯一43820816332/1已24门/8图/437槽成功；全部原copy/域与两个patch完整保，decoder须恢复a!b!；新几何/幅度是sup/component sum而非A0。四preGit/全stdout与完整原hash已独核，后继只读不重，mean/源/四端等仍待。
 
@@ -62,7 +60,7 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 
 
-[WMR正权证明](results/R133-supplement-positive-weight-physical-mean-propagation-and-complete-error-reassembly.md)550866c0及[WMRA实际](results/R133-supplement-actual-positive-weight-physical-mean-and-whole-error-refinement.md)b2df8a12：43840219992/1完整18门/7图42记录/2exp、旧0；19current/69旧球/13图669非球leaf/原failed-success资格全保。共同aJw/DJ正weight先约，strict/local gap分域、β≥0仅原negative域、两类均值不混；Z/Zr和全仿射g1、原B/T/3070jump/四端/Calg/RF/orderedreadout重组完整。whole只比whole/reduced只比reduced，两者实际选new约2.1163e465，仍仅upper、不授高门/有限逆；42量冻结。更细完整mean源、ν/96/head/finite/背景未付。
+WMR/WMRA完整正权mean与原42记录、四端/jump/全部域和未付门保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)。旧whole界已由WRT另给同算子新候选；不删除任何旧项或授逆。
 
 ### 2b. 已付系数、坐标与原强界
 
@@ -192,3 +190,5 @@ WOBSA37/WMF原全scope与未付门保[完整outer与归一mean](notes/2026-11-16
 [WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole证明m160真tail κ=3、δ<80553/128000<2/3，24480cell/4724833维。reference正pivot/transpose/whole norm、mean及rho2−rho*全闭；actual有限仍须7port/两rhs的signed e+3dt<1，真96/coker未闭。
 
 [WMTA严格flux实算](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7：43856579962全195+2冻结，CFs约1.167e289、whole仍2.1163e465；全mean/jump/端点/8terminal保。[WRT完整重分解](results/R133-supplement-exact-retained-profile-regrouping-and-complete-terminal-bound.md)7730307f整移k3..5到E3，旧C6全保；新terminal p=3/2接独立S1/6，真even0/J/两mean/四端/原receiver及whole/reduced两整选不变。sourcebc168634/manifest38e8211d已排CI，75copy/42新，不预断改善或逆。
+
+[WSJ严格区混合jet](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8：冻结t0的双索引隔开径/角；同strict real r≤3/total≤14，旧Phi1..15与u/s补absolute T/X/phase edge15；WDG relativeω只到14。完整H^-1四entry、μ正因子、G/w0第三径向、全forcing和w1两分支/非零cut/genuine项均保；每slot新/恒等/旧safe fallback明确，原root local与所有mean/端点/jump不减。新数尚未执行，consumer须同时重组profile费，不授真实finite或matching。

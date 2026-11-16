@@ -282,3 +282,5 @@ root完整核所有admission/helper/controller，重建75完整原record9302B/4e
 fresh ec7d61e1b11f45751d54494997658845b5b5dc7c topic=199460089B，完整publication166000+reserve120000及本journal≤200MB；worker预执行/立即science前再次真实pull核README/容量。旧whole/reduced与新完整候选分别比较，结果尚未产生。ec7d61e1b11f45751d54494997658845b5b5dc7c两README同已读；非FF已立即真CLI rebase尝试并保远端循环，前包第4次成功，无force。
 
 2026-11-16 12:06:52 UTC WIC独立推：全文核019b1136/29026/527fc35e与无入口b181bb80/11013/c5de896f；8原whole→m160真tail κ3，旧5max/两false不改。reference正pivot/真实权/transpose/ρ2误差和WDS全残差义务明确；0数学执行/0新矩阵。CI43862924830已成功，四真pull/README完整diff空，最新12:02:27.498937→55858bef，H已更新；实际WRT42完整核读中。只读核README parent e8867d1951d6faa31a2cd9e69e6b9df2fb1c0c68不变。
+
+2026-11-16 12:11:21 UTC WSJ全文数学核24ccac8b并仅规范$定界，正式10c6e422/31568/217cdff8；全部12节/输入表/逐slot fallback完整。r≤3与angle分开，H/μ/G/w0/fullforcing/w1和edge15闭；relativeω14仍待WDG新数，不重算旧WGS。为H/open长度把原全文移notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md，原完整scope/未付门不减。README 2d39761097111c25ce26c4d8385b7da93d844dd2未变，继续新strict/profile与actual signed finite。
