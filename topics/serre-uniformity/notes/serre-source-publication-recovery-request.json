@@ -2,71 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R917-original-two-endpoint-orders-execution",
-  "commit_message": "serre: activate both original endpoint normal orders",
-  "rules_last_read_commit": "1e0ecf187b6e282226833c6c45c5e94661a0a9b1",
+  "request_id": "20261116-R919-actual-complete-original-differential-trace",
+  "commit_message": "serre: certify complete original Hecke differential trace",
+  "rules_last_read_commit": "64228da6693769dcf70fb8bcaec4a72ad0faa445",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "921103311c701641610a420b8d18f2763a9323effb380124e43e8ca8dab1f8fa",
+  "expected_previous_request_sha256": "ee690ca7cac6220db7ee785d59f48d3e959adc7e2db86c9bd9aa4afbbea769e3",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R917_original_two_endpoint_normal_orders.py",
-      "sha256": "f0e321a19ef6dbd259e88de1b670f514b0f9ed0df5b24659a9f787978b8fd743",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R917_endpoint_order_arithmetic.py",
-      "sha256": "c728c8e06cef3dfbe4d33f3a988cbbc1c3012909d67b4684d941effdec67033d",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R917_public_original_two_endpoint_normal_orders.py",
-      "sha256": "f4a5e2a1d1a5405c52b7a602c215e8cad734a4d613c964c197a69c5a28ca7d29",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R917-original-two-endpoint-normal-orders-method.md",
-      "sha256": "fafa85a5ad5e2758f3e866000a34d3a1849825602b616e0067784077b8171941",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R917-original-two-endpoint-normal-orders-public-request.json",
-      "sha256": "4354fff045dd08b3682b73c633853722cdc67b067877c5ae9173dc2200d32e07",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R917-two-endpoint-normal-orders.yml",
-      "sha256": "410d8bb868ee4d61a74b3024d152c275520aa376f2588aeda9692b41495db92b",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-endpoint-execution.md",
-      "sha256": "b5e13b630eff5e28339966d5d878d87418c13742ec3669787be5a06fc547be6f",
+      "path": "topics/serre-uniformity/results/R919-certified-original-whole-Artin-Hecke-differential-trace.md",
+      "sha256": "3bb910312354a7b833afe9900f0818d27827560f66d046c1789efeae9c60943a",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "69c0295f8a802e1294f6185d6d49bff416054e0f2f76f7655eb12031a336dd20",
-      "expected_previous_sha256": "b5e13b630eff5e28339966d5d878d87418c13742ec3669787be5a06fc547be6f"
+      "sha256": "5b9f90f0f7b14abc9e17f3d0528ce05cbc27902d35480b683943a8ca09fa503a",
+      "expected_previous_sha256": "169e0070d954b1fad60b40e9a594e70eb33219242b9a26286d81d71c66bdc03e"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "a6b8a7d10a093781e582c5536a2a4b4ecca27a6eec0991e9e496c16e7f3e18a2",
-      "expected_previous_sha256": "42e3dd6b882012faca83dbb154089e76ec43979a236afc229f4a6df1bb68b099"
+      "sha256": "f014b562d037058a3312c71fc04b726a5d642b110f17519d58fc171cf9088f52",
+      "expected_previous_sha256": "a6b8a7d10a093781e582c5536a2a4b4ecca27a6eec0991e9e496c16e7f3e18a2"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "f024d5e3b986cebba84dad7a86a85dc500f10c4a3d6bb4b82caa4431935d93e0",
-      "expected_previous_sha256": "adc100ff5cfbd74c4235b50b8bd1cad84c1b4732e807c658bd08f8b565f46e72"
-    }
-  ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R917-two-endpoint-normal-orders.yml",
-      "request_path": "topics/serre-uniformity/notes/R917-original-two-endpoint-normal-orders-public-request.json",
-      "request_sha256": "4354fff045dd08b3682b73c633853722cdc67b067877c5ae9173dc2200d32e07"
+      "sha256": "97417a55370d4dbfca8e485f88c0cbc3d67f8ab3c866cca4ca1778a1e5b0e771",
+      "expected_previous_sha256": "2558f5d342c35fcc30bece2731913c2edf429950a82908b67431c65ddb693084"
     }
   ]
 }
