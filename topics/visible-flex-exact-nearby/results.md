@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **s10 派生诊断容量白名单。** [精确恢复记录](notes/2026-11-16-R133-dense-positive-weight-s10-trial-cleanup-whitelist.json)只含633521B浮点报告；原inventory/SHA与固定提交已核，先推白名单，尚未删除。全部canonical、native、原失败与成功不变。
+
 - **WZR同真实腰点的精确角逆与完整有限重建已闭**：[证明](results/R133-supplement-exact-waist-angular-inverse-and-reduced-finite-reconstruction.md)，SHAf5e69090。由同metric β=d=0，Jw:Hs_even,0→Hs+1_odd=ηw^-1I；完整FA六inner mean和两inner tail逐项真0，residual精确仅z³ηg3φ，直接新Crec首项Rw P*||g3φ||/16。outer mean/terminal、independent physical z、βr/Jr与第二Z均保，仍四endpoint；0新数、不改旧successful upper、不授全域或finite。
 
 - **WGSA实际完整全局fold与free transport有限jet已取得**：[完整证明](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)，SHA cd82f734。唯一43820816332/1/24门/8图/437槽；SCI72251B、原copy31632B保全部66+40旧球/9scope/whole c72，严格与根patch同germ。geometry I(15,3)、w0 I(14,3)、full forcing I(12,1)、free w1 I(12,2)，ordinary one-sided/sup类型及全部mean/3070接口保；不授genuine/N6/高门/finite。四preGit和stdout全部hash独复原，旧/新已成量禁止重算。

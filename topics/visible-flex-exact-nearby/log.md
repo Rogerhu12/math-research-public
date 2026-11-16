@@ -396,3 +396,7 @@ WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21�
 ### 2026-11-16 07:12:08 UTC — WZR真实腰点的完整精确简化
 
 独推R133-supplement-exact-waist-angular-inverse-and-reduced-finite-reconstruction.md，blob65a382de/14044B/SHAf5e690908c07ebcd121852c3a2b2efdc2c4e0b1bd3d40398c242fa8201a9d249。回原N2/4–9、FA13–23及WPL32–37确认是同metric β=a_phys'/a_phys、真腰β=d=0；A奇→偶0，J偶0→奇的类型已亲核修正。六innermean/两innertail各自系数真0，g0..3的full residual仅z³ηg3φ、两实际L2 primitive给direct1/16；完整outermean/terminal、zphys(-u/m,1)、βr/Jr/eκ及第二Z和四端全保。新WGS Csup不冒A0，g0..3不取误差界之导。根全文+三处小diff已读，Newton/Phase/Tail分别回原式核完整性；0数值执行、0旧重算。接下去用该完整同算子recipe作新endpoint消费者，其他全域mean/source门不减。282735ad06d3f209ff9d8d4a992c8f4f5ce2aafe两README未变。
+
+## 2026-11-16 07:17:50 UTC — s10 单派生报告先存精确恢复白名单
+
+main 07daec485cb0323646c9ba94cf491b4e5e015308 两README未变。新白名单6c4ecc4ac66bee948f2c009f21c4f52760a6438c642dc291484d61863036025c /23227B仅列 notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-trial.json，blob8d066c24c8748229c2a417d63348d22ba1965d52 /633521B /SHA a0cc1b56c8aa9e3086a2eeb246bf247ecb6b1db0bfc8e6cfa7224bb4d35650b3，restore d5cf6ec08d71b6b7a7240f051198c9800f5d8c06原path。完整小inventory和producer、原proof关联及11份当前完整closure文本已核；不取大body、不推断新数学状态、不动canonical/native/exit137和全部真失败成功。此提交只白名单，下一步freshpath/blob/size guard普通删除。07:16本机实际CLI git pull --rebase origin main返回无executor，Git未执行；CI末真pull07:01:48.999504、下一≤08:01:48照旧。
