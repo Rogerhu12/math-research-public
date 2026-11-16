@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：75940cb4c164e34cab30a6bfc8825a57671ae9ac**（2026-11-16T00:03:01.630850+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态/pins首先见[本次压缩前H](handoff-archive-2026-11-15-before-R837-certified.md)与[本次压缩前open](notes/2026-11-15-open-before-R837-certified.md)，并逐字保于[R837发布前H](handoff-archive-2026-11-15-before-R837-launch.md)及[R837发布前open](notes/2026-11-15-open-before-R837-launch.md)，内接R836及全部旧归档；最新压缩前状态见[隐式CM前H](handoff-archive-2026-11-15-before-implicit-CM.md)，旧结论/限制继续生效。
+**已读规则提交：261102b0eb4e09984c8f3dd6c1bfbd6b82a84a95**（2026-11-16T00:05:42.447459+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次非挠前H](handoff-archive-2026-11-16-before-original-nontorsion.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -34,7 +34,7 @@
 
 **短CM候选准确接受入口**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)证明只需准确A0−qB0=0，再以原L中d≠0、x̂³=q²−b、c(x̂)=ζ²x̂接受x/y′；有限518位及小曲线关系不代大零证。原F_Aᵗλ/e、Cᵗλ在P/free1186完整乘回，129个20维转置卷积免展开C；旧14模逆可复用，但无现成Q逆/dual高度保证，零证未计算。 小L必要筛选本次激活core53bfaa73/wrapper2d19d987，直接读R841载体的185源，仅准确换基和曲线/共轭/微分检验，不重CM/RR；A.1、原点坐标接受、eta/height恒false。
 
-**原点非挠新充分判据**：[分裂处方法](notes/R792-original-padic-CM-point-nontorsion-method.md)b3b88cc9，只读原518商和h0，在原ell1000000753简单分支Hensel得到真实Qell点；Hasse区间BSGS给m，再带绝对精度仿射乘，有限正v(t([m]P))才证明非挠，未确定零诚实停止。无需ell∤m、不用RR候选/非primitive射影Z。原β∈A(Q)及R728 EndQ为域，真非挠后所有非零L-Hom值均非挠，可解特定加法分支；当前尚待实际新证书。
+**原点非挠新充分判据**：[分裂处方法](notes/R792-original-padic-CM-point-nontorsion-method.md)b3b88cc9，只读原518商和h0，在原ell1000000753简单分支Hensel得到真实Qell点；Hasse区间BSGS给m，再带绝对精度仿射乘，有限正v(t([m]P))才证明非挠，未确定零诚实停止。无需ell∤m、不用RR候选/非primitive射影Z。原β∈A(Q)及R728 EndQ为域，真非挠后所有非零L-Hom值均非挠，可解特定加法分支；本次激活coredd3f06a2/wrapper5b6bcaa8，复用R841同185源；30分钟首scope，待实际run/finite witness，A.1/展开/eta-height仍false。
 
 ## 后继来源与期限
 

@@ -1,4 +1,4 @@
-**原点非挠新充分判据**：[分裂处方法](notes/R792-original-padic-CM-point-nontorsion-method.md)b3b88cc9，只读原518商和h0，在原ell1000000753简单分支Hensel得到真实Qell点；Hasse区间BSGS给m，再带绝对精度仿射乘，有限正v(t([m]P))才证明非挠，未确定零诚实停止。无需ell∤m、不用RR候选/非primitive射影Z。原β∈A(Q)及R728 EndQ为域，真非挠后所有非零L-Hom值均非挠，可解特定加法分支；当前尚待实际新证书。
+**原点非挠新充分判据**：[分裂处方法](notes/R792-original-padic-CM-point-nontorsion-method.md)b3b88cc9，只读原518商和h0，在原ell1000000753简单分支Hensel得到真实Qell点；Hasse区间BSGS给m，再带绝对精度仿射乘，有限正v(t([m]P))才证明非挠，未确定零诚实停止。无需ell∤m、不用RR候选/非primitive射影Z。原β∈A(Q)及R728 EndQ为域，真非挠后所有非零L-Hom值均非挠，可解特定加法分支；本次激活coredd3f06a2/wrapper5b6bcaa8，复用R841同185源；30分钟首scope，待实际run/finite witness，A.1/展开/eta-height仍false。
 
 # 未解决的问题
 

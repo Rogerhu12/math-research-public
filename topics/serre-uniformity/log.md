@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:03 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:05 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -37,3 +37,9 @@
 - 精度零球不能判准确零；只在准确multiple相同才倍点，不从非primitive Jacobian坐标猜参数。原Q点β与R728真实Q-simple因子给非挠成功后的全部非零Hom非挠，尚未预填成功。
 - root已读全证并核R728(728.24)/(728.32)，打开Milne II5.4/作者原文与MIT Hasse章节。旧CM、Dixon、候选展开不重；eta/height仍未成，继续实际消费者。
 - 本push规则：本地真实pull至75940cb4c164e34cab30a6bfc8825a57671ae9ac（2026-11-16T00:03:01.630850+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:09（Asia/Taipei）— 激活原真实CM点非挠消费者
+- 方法已推618e4b56；新coredd3f06a2/wrapper5b6bcaa8/workflowd15a4db1，requesta3554621。原185件来源只从R841小载体续传，原B/s根、lambda、h0及原518商逐身份读取，绝不读取RR建议作原点。
+- root已读完整core/wrapper/request/workflow及精度/仿射分支，按方法执行：原分支Hensel、有限域m、每步带绝对精度，只有有限正v(t)才non-torsion；不确定零诚实未认证，A.1/expanded/eta-height恒false。
+- H触10KB前逐字归档并仅压缩归档入口；R839真实D基/原S5来源已纯IO补取，R842正式结果接续发布。候选小L任务也已结束，准确接受仍缺A.1。
+- 本push规则：本地真实pull至261102b0eb4e09984c8f3dd6c1bfbd6b82a84a95（2026-11-16T00:05:42.447459+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

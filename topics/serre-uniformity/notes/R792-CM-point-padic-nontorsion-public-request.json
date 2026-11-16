@@ -1,0 +1,88 @@
+{
+  "session": "serre-public-astra-20261115",
+  "rules_last_read_commit": "75940cb4c164e34cab30a6bfc8825a57671ae9ac",
+  "job": {
+    "result": "R792-original-CM-point-padic-nontorsion",
+    "p": 41,
+    "budget_minutes": 30,
+    "producer_inputs_pending": false,
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "proofs": {
+      "interface": {
+        "path": "notes/R792-original-source-bound-CM-DAG-beta-interface.md",
+        "sha256": "ce50b9c2d4a20c812c811a38ae40fa470f41f958adee018449f5ad676a8bcda3"
+      },
+      "R791": {
+        "path": "results/R791-certified-original-Hom-descent-and-eta-inputs.md",
+        "sha256": "821434c76711f725326a581a4b0e8c281d8d41cb0905333409545a68826c6dcf"
+      },
+      "R792": {
+        "path": "results/R792-original-beta-composition-and-Galois-cube-root.md",
+        "sha256": "75362e44da996c4c481b548816bfeb532f799bde47f63400bcc7791e0aa5f46b"
+      },
+      "unit_chart": {
+        "path": "notes/R787-original-unit-chart-exact-expressions-and-CM-value-consumer.md",
+        "sha256": "8d5b58a5f6e9748805af3c032de1bae955543b1855535b6c51f0ca9cd6947820"
+      },
+      "nontorsion": {
+        "path": "notes/R792-original-padic-CM-point-nontorsion-method.md",
+        "sha256": "b3b88cc94fc3d716bd39227794f3ec780265cd22bdb3082305070e007da0e0a7"
+      },
+      "R616": {
+        "path": "results/R616-original-CM-point-difference-and-explicit-height-basis.md",
+        "sha256": "3812067c107b9bc02feb299d86d2eca00e0e122b35d546ef794385fa0e63ece0"
+      },
+      "R728": {
+        "path": "results/R728-original-Weil-restriction-primitive-projector-and-Neron-lattice.md",
+        "sha256": "f8b68a367164e061b2385de908fe76c0710d13895f01f650d2569a7d5090f86a"
+      }
+    },
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "resume": null,
+    "core": "R792_original_CM_point_padic_nontorsion.py",
+    "core_sha256": "dd3f06a2ed34d31d4d9cc7000eeb5ca763b3fa26b238b418de3e2a47e8dca9c0",
+    "wrapper": "R792_public_original_CM_point_padic_nontorsion.py",
+    "wrapper_sha256": "5b6bcaa89f690011cc47cfd77463dfd58e526044546d64e3b94203e03f16ef38",
+    "dag_core": "R792_original_CM_response_beta_DAG.py",
+    "dag_core_sha256": "afb49c1ac4245674d29364789e817b566517e1f5bf6d506cee684ed03fa34b8b",
+    "dag_wrapper": "R792_public_original_CM_response_beta_DAG.py",
+    "dag_wrapper_sha256": "96045ab00c4b5f4a674031ddb7100b07af98ab5bd5b8560ab56665c0d8cdee66",
+    "parent_source": {
+      "archive_bytes": 1320147,
+      "archive_sha256": "f848bab0e0d1b1e3ffdfd43c606687549d8dacc25d57316bb130340ae7d34d7f",
+      "artifact_id": 14185648917,
+      "artifact_name": "serre-global-R792-CM-response-beta-DAG-43774984563-1",
+      "core_sha256": "afb49c1ac4245674d29364789e817b566517e1f5bf6d506cee684ed03fa34b8b",
+      "expected_conclusion": "success",
+      "result": "R792-original-CM-response-beta-DAG",
+      "run_id": "43774984563",
+      "source_commit": "cbcaa616926e9d4cb7d1376d687c174df086da4b",
+      "wrapper_sha256": "96045ab00c4b5f4a674031ddb7100b07af98ab5bd5b8560ab56665c0d8cdee66",
+      "manifest_sha256": "de6b334f91db6ca6338127168dc608ee3e5590d2398e8177013987b4804e8b8f",
+      "manifest_bytes": 1780,
+      "manifest_file_count": 12,
+      "certificate": {
+        "file": "p41-original-CM-response-beta-DAG-certificate.json",
+        "bytes": 4338,
+        "sha256": "52b80ce26c5bb3c2f2aef6287255f879f747f476827d014aa7c6c47cca6cc51c"
+      },
+      "configuration_sha256": "58164ca82bd34771cf2d84e38be2f4e3991e8873ef46e597af690ba2fae27e6c",
+      "input_bundle": {
+        "file": "R792-CM-DAG-retained-inputs.tar.gz",
+        "bytes": 1211692,
+        "sha256": "1cc858ba3631209472b22211af1ffb0f1647b38db23aac2e57d5d97c67b45f7b"
+      },
+      "selected_file_count": 11,
+      "selected_files_sha256": "a0cce2ce38b5281b9a596a77d534a2cecd9cc9915ac81287e840379acab4f03f",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      }
+    },
+    "workflow": ".github/workflows/serre-R792-CM-point-padic-nontorsion.yml"
+  }
+}
