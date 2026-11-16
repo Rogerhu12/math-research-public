@@ -193,3 +193,7 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 - [R866](results/R866-original-modular-function-certificate-and-level-nine-model.md)：原C_v:Y²+vY=X³精确剥2尺度，Ξ_i*ω_v=H_i且原A_i=2^11κΞ_i，整数n保留。T=η³/η9³的Φ17给18×17原非回溯tower；genus271使完整椭圆方程/基点后541微分项严格认原Hom。1513d+1重建界与有限对角枚举保证终止，不预设n1。原β含2的有限理想公式与三H输入齐；坐标和非零shadow仍待计算。
 
 直接执行原T9/Φ17和H_i，再在同函数域按R866重建实际nΞ0；完整方程、基点与541项全纯微分同时满足才可认原Hom。未先验设n=1、未把形式germ约模当shadow。
+
+- [R867](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原t=a7满足t³−21t−17=0，b与b²共同分母19δ给完整三基矩阵；只要nΞ0已认证，原J的整T7和目标O_K操作便使57nΞ_i全部真整。P1/P2为完整8/64邻点迹，56 cyclic49与8回溯分清；三H现有541项即给全部Hecke三列，次数≤28/784倍原度。未知映射只剩一条，原n/D/Artin不删。
+
+先重建一条nΞ0，再以真实T7/T7²和固定57恢复三原Hom；避免对三条独立无界枚举。更小的原R商函数基正在推进，不能以存在算法代实际非零。

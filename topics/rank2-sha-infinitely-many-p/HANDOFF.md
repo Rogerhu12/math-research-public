@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：a8be95d8afbc9dad24e5ea509335dc03b85918db；2026-11-16 07:37:03 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
+- 最近已读规则提交：5525cf33cafa698fa261efe33bcc9c9d636eac73；2026-11-16 07:39:06 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-modular-coordinate-reconstruction.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–866已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-modular-coordinate-reconstruction.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–867已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 原Z与已付Hom输入：当前第一实际门
@@ -24,13 +24,15 @@ R832真h1 Artin–CM三个mixed rank0 Chow消失；R839有限Hom/Ceresa、R841�
 S(ΠΦX)=Alb H_*(G−φF)^*O，同原所有Artin/闭点迹。实际非零点仍缺。
 [惯性shadow完备性](notes/2026-11-16-original-cm-inert-shadow-chebotarev-completeness.md)：固定ℓ>3，原AJℓ非零 iff某惯性shadowℓ非零 iff其阶无界；每阶门有正密度r，换格成本固定。未付原AJ，固定ℓ不代无穷系数p。
 
-[R862](results/R862-original-seventeen-torsion-product-and-complete-cubic-hom-matrix.md)：M=K(E0[17])有C288满像，η_j=Teich(ρ17)^(-16l_j)完整相认。G32乘积h=∏X([u]P)为原H9生成元，h³生成L=K(∛17)，Norm h=−2^96/17；δ的16步R(x)=−(x³+4)/(3x²)给有限表达。
-C_h:y²=x³+h6，φ_h微分h，Λ(a)=ψ0(a)h/h^σa；完整补Λ((2))=−2。α=−1+2ω、ℓ=αh/h^σα、c=−1−19ω，b³=c、K(b)=Kζ9与L不交。u=(1,τ²ℓ,c/ℓ)，G_j=1+u1/b_j+u2/b_j²；GL原projector=3Id。
-实际准Hom A_i的矩阵Mij=h b_j^iG_j/3，det=−δch³∏G_j/9非零；第一q系数为hL，实际K-Hom上单射。清固定整数n后有X0(2601)→E0，n并入原D，绝不预设Manin1或模r单位。
-完整q和包含2处(-2)^v。原每个非零实际(F,a q0,b q2)在cusp阶(1,1,4)，τ极6、source三商后极2；非全局degree2，非虚拟循环非零。
+[R862](results/R862-original-seventeen-torsion-product-and-complete-cubic-hom-matrix.md)：原E0[17]满C288及完整η=Teichρ^-16l给G32十六项乘积h，K(h)=H9、h³生成L=K(∛17)、Norm h=−2^96/17。δ轨道R(x)=−(x³+4)/(3x²)固定尺度。
+C_h与Λ(a)=ψ0(a)h/h^σa完整包含Λ((2))=−2。α=−1+2ω、ℓ=αh/h^σα、c=−1−19ω，b³=c。GL projector=3Id，Mij=h b_j^iG_j/3完整可逆，实际首q系数hL单射。整数n并入D，不预设Manin1或模r单位。
+原非零实际(F,a q0,b q2) cusp阶(1,1,4)、τ极6/source三商后2；非全局degree2或虚拟循环非零。
+
 - [R866](results/R866-original-modular-function-certificate-and-level-nine-model.md)：原C_v:Y²+vY=X³精确剥2尺度，Ξ_i*ω_v=H_i且原A_i=2^11κΞ_i，整数n保留。T=η³/η9³的Φ17给18×17原非回溯tower；genus271使完整椭圆方程/基点后541微分项严格认原Hom。1513d+1重建界与有限对角枚举保证终止，不预设n1。原β含2的有限理想公式与三H输入齐；坐标和非零shadow仍待计算。
 
 - 正在运行原模函数输入producer：scripts/produce-original-modular-function-input.py，公开生成T9的Φ17及三H的完整541项；只记hash，不预报成功或认形式germ为映射。
+
+- [R867](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原t=a7满足t³−21t−17=0，b与b²共同分母19δ给完整三基矩阵；只要nΞ0已认证，原J的整T7和目标O_K操作便使57nΞ_i全部真整。P1/P2为完整8/64邻点迹，56 cyclic49与8回溯分清；三H现有541项即给全部Hecke三列，次数≤28/784倍原度。未知映射只剩一条，原n/D/Artin不删。
 
 **下一步**：在同原函数域重建这些真实Hom的全局坐标，再算同原R859交点；保所有分母/角色。或从同原cycle证明非零，不以canonical替换。
 
