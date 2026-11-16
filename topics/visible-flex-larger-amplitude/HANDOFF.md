@@ -18,6 +18,7 @@
 
 |请求/结果|实际run / source|唯一owner及最新官方metadata|
 |---|---|---|
+|224/R525|43851068999 /23176ac678ea92882fa38ec6ddcc09e98742ac89|amplitude唯一；10:42:18 compute133243448382已step11完整H/J/R273，running log0|
 |221/R509|43835161762 /8b352f90b97f7c340a2fbebbb11c19080d9a5e08|exact；10:25 compute133189859163仍step10原科学|
 |222/R511|43837980277 /6643ea831419fb5adf1fd5d21fdbc918fe86c4cd|amplitude；10:25 compute133199299786仍step18全physical/far/joint|
 |217/R490|43838608475 /4a08bebb63482c34c3bb7460582772a966e25c51|geometry；10:29:52 compute133207238555仍step19全physical/far，前1–18 success|
@@ -46,10 +47,10 @@ running science日志均0；唯一owner终态各job只取一次，root不重复�
 
 223：a8b/绑定2c805，actual035d整topic e2ad与wf bb517同字，原116身份/115recipe；helper eabd/worker f847仅Actions。原98fresh/八pair/39/17档/FD/10500/175–195min/90K70/owner保；213末父已失不能续。
 
-- **R524/request224本次完整七件发布并由行政公开Actions单次dispatch，实际结果R525/amplitude唯一；run/source待官方receipt绑定，不以发布冒启动。** generator23213/7b83、plan36611/9a18、recipe21539/0c9f、request88551/6aa2、workflow42646/599f、proof16432/b9fb、接口21661/9904，总250653B/topic208007B。原211168全保，150public＋31临时gen=181（旧21+新10），45literal；R523实际T支撑、全部14计数/last存在-null/全226×224和mean、原H/J/FD/fullDN/18000/quiet/90K70保。完整接口notes/2026-11-16-request224-actual-input-support-full112-interface.md，原211已终态接受不迁。
+- **R524/224已498c03a7发布、单POST200，实际R525/amplitude唯一。** 官方run43851068999/attempt1/source23176ac6、compute133243448382；实际source是发布头的直接子提交，两头整topic a9b53a80与.github 5a1fa9e3完全同字，仅另题new-mechanism变。七件250653/topic208007B，150public＋旧21/新10gen=181/原168全保；R523真T支撑/全14计数/last-absent-null/完整226×224和mean、原H/J/FD/fullDN/18000/quiet/90K70保。完整接口及notes/2026-11-16-request224-official-run-binding.md，不迁211已删接受点。
 - exact续 **R527/request225，实际预留R528**：R522完整paired-dot＋R515物理radial cache接R518真实12链及原221入口。R522 operator29617/082d、stage12880/49a7、component33416/93ec、paired_digit_compile_source_binding；R515独立compiler binding均须实际必要reader全保，祖先/原J/fullDN/钟/quiet不改。无新benchmark，不追改221。
 - root研究 **R529**：当前128末state一次RN64后的完整64线性化作为明示近似Newton模型，实际值/残差/audit仍同H128；先核全部源与原门，尚无实现或运行，不用旧J/别的H代替当前。
-- geometry续 **R530**：R526最小完整对应kernel，复用R520实际BoundImages/owner，全候选/交叉边/重复/完整frontier/90K70，暂无新run；仍唯一监控217/223。
+- **R530本次三件完整刊63226B**：kernel29146/d73e、plan10974/bae5、证明接口23106/52e3；全双向对应/重复/交叉边/完整frontier，首未分离叶仅未证。原R520 Binding/OwnedTree/钟/三tuple全保，生成caller46134/3d6f只Actions，两层90K70各守，无实际γ/新run。geometry转R532当前owner全RN64投影与完整stage模型库，配合root R529纸证；217/223监控仍唯一。
 
 ## 已付数学与接口
 
@@ -63,4 +64,4 @@ R516/R517全E(3)pose覆盖已付；R520实际三tuple/4afc owner/启动与BVP de
 
 ## 容量
 
-最近完整官方a16ca8：topic1d78bf5410802491967cf66a7d25b66e6f8ca876，9346blobs/197768055B/9718entries、未截断；后续小稿另计。95旧H/open共1991911B普通删除并固定2e85历史；非MD引用一份及migration/legacy/R456保，旧41/54数组manifest有真实consumer，不泛删未知JSON或科学父。
+最近完整官方23176ac6：topic a9b53a800d4266121f1134694889de1c6fe263e2，9356blobs/198090813B/9728entries、未截断；本次小源另计。95旧H/open共1991911B普通删除并固定2e85；非MD引用一份及migration/legacy/R456保，41/54数组manifest有consumer，不泛删。
