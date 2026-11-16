@@ -101,3 +101,7 @@
 ## 2026-11-16 09:18:29 UTC /root — Request217同C精化完整入口
 
 [217接口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)34979/5c25连六执行件完整刊/dispatch，真222/derived2d1底座458＋7public＋8gen=473；首shared后一次1440/six/cut并测首场，原精化后测两真后继/比较，原全部场/材料/全域/全t责任保，不以包围收紧冒真误差降。原18900+2700贯穿/无新科学门，217自己的workflow实际路径明确；八必要与217→222→220九scope/quiet清理完整。R490/geometry唯一、run待官方；共享workflow86586B用于本题，题内新增253367B无raw/展开/diff。
+
+## 2026-11-16 09:21:31 UTC /root — Request223完整39真实必要角色入口
+
+[223接口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45连五执行件完整刊/dispatch，R512五表与索引准确接原producer；保原213全部112身份、当前112public＋4gen=116，旧两view仅祖先、新helper/eabd和worker/f847真调用。原8pair/39/17档/FD/10500/175/195min/单90K70/owner不改，无容量/接受预填；R513唯一交geometry。共享workflow20571用于本题，题内102736B不含展开/raw；同步H记217实际run43838608475/source4a08（09:20官方queued），未取running日志。

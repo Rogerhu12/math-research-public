@@ -24,6 +24,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R512](results/R512-complete39-actual-producer-role-context-binding.md)定位213真实producer/formatter六处符号失接：五类表实际带original_/returned/records，RMS索引为original_check_index，旧lookup无别名而跳过。新formatter20883/f79328ed只接准确角色与新身份，原七种完整相等/行序/错误/值保全操作不变；不由未返115134B推实际节省量或必fit。223/R513由root接真实helper/worker/request/全部祖先来源，完整即执行；原98fresh、八批/FD/17档/全部预算和90K70/quiet不变，不冒native/fullDN接受，不盲重跑旧失接入口。
 
+[223完整入口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与generator/plan/recipe/request/workflow完整刊并正式dispatch。真实R512五表/索引接线、原213全部112身份保持，112public＋4gen=116、recipe115；旧213两view只保祖先身份，新helper75639/eabd与worker29678/f847实际调用。原98 fresh、8pair/39query/17档/全部FD及10500/175/195min/90K70/owner保；不扩大/分包必要body，不推速度/摘要必fit或native/fullDN接受。R513唯一终态交geometry，root原日志读取0；正式run/head另记。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[368e6a6f时open](https://github.com/Rogerhu12/math-research-public/blob/368e6a6fb1ecde31525d0f4042a77e490b665236/topics/visible-flex-larger-amplitude/open.md)，其f863b71c及全部更早链接继续保原词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全G/H/span、QR/clip/Cauchy及每alpha冻结原Armijo/S球保；有限拒绝不证无解/秩亏，旧201末响应缺失不能由202补。
