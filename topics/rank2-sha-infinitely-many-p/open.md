@@ -189,3 +189,7 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 - [R865](results/R865-actual-high-axis-product-and-first-divided-row.md)：原H_p/h0等于明确有限单位乘积，三阶谐和和给同一Rcal的p³读取；全部真实高位保持。实际K1的指定首配对准确压到r′(Q)D_(m,p,79)，不是三个独立输入；实际g^flat含hΘ。quartic k=13正回旧单位，k>13该首行恒零；第二/第三native页及同R/S仍待计算。
 
 原实际quartic k>13的首位此行恒零，继续同P/R/S的第二和第三native页，不把参考g0漏项或首行零当全余类结论。
+
+- [R866](results/R866-original-modular-function-certificate-and-level-nine-model.md)：原C_v:Y²+vY=X³精确剥2尺度，Ξ_i*ω_v=H_i且原A_i=2^11κΞ_i，整数n保留。T=η³/η9³的Φ17给18×17原非回溯tower；genus271使完整椭圆方程/基点后541微分项严格认原Hom。1513d+1重建界与有限对角枚举保证终止，不预设n1。原β含2的有限理想公式与三H输入齐；坐标和非零shadow仍待计算。
+
+直接执行原T9/Φ17和H_i，再在同函数域按R866重建实际nΞ0；完整方程、基点与541项全纯微分同时满足才可认原Hom。未先验设n=1、未把形式germ约模当shadow。
