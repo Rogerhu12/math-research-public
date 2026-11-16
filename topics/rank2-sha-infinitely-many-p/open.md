@@ -208,3 +208,5 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 ## R920：完整首 Bockstein 核的真实三／四来源链
 
 [R920](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)一般原零纤维的K′=K∩ker完整β1：三首13带使前三实际行深J=T+13。δ∈[−13,−1]的真实相邻后继由2h<J迫a=0、H=EG；V0/V1同入VJ，K′∞=0。S=min(J,s−4)=T+11为原R821已付窗；五/六反门给真实三/四源链单射，3dimK′≤2nJ或4dimK′≤3nJ。全部q/U0/19角/同R,S保，固定P首修正差仍K1、不能自动换K′。
+
+- [R920 附A](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)同固定P的两完整p³解有β1(ΔR)=0；若ΔR真在j(H3)，四块等价才给ΔR∈j(K′)。固定一解且S在全原源格自由时，该R陪集内可延p³的类准确为R+j(K′)；S受限时只保必要式，未判p⁴。

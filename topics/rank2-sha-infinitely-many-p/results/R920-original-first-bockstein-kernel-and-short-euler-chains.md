@@ -458,3 +458,55 @@ R828 三 carry 注，R836 的原单位运输与全局限制，
 R907 的真实后继和逐 charge 帽，R911 的五／六长全重数根界，
 以及 R914/R918 的原窗口与端点范围。
 本篇为同来源代数证明，没有新增数学运行或数值证书。
+
+## 附录 A. 同一个固定 $P$ 的完整 $p^3$ 解纤维
+
+本附录固定原整源格 $\mathscr L_D$、原整目标格及同一个完整实际矩阵
+$M$，包括同一 $h_\Theta$、Hasse 规范、全部 carry 和 normal 行。
+固定一个实际整 $P$。若
+$$
+X=P+pR+p^2S,\qquad X'=P+pR'+p^2S',
+\qquad MX,MX'\in p^3\mathscr T
+\tag{A1}
+$$
+都是原格内的完整解，则相减并除以共同的 $p$ 给
+$$
+M\bigl((R'-R)+p(S'-S)\bigr)\in p^2\mathscr T.
+\tag{A2}
+$$
+因此 $\overline{R'-R}\in K_1$，并且
+$$
+\beta_1(\overline{R'-R})
+=\left[\frac{M(R'-R)}p\bmod p\right]
+=-[\overline M\,\overline{S'-S}]=0.
+\tag{A3}
+$$
+若还实际有 $\overline{R'-R}=\jmath(G)$、$G\in\mathcal H_3$，
+则 R836(20)–(22) 的**四块等价**
+$\jmath^{-1}(K_1)=K$，而非仅一个包含，先给 $G\in K$；
+再由 (A3) 给 $G\in K'$。
+所以正文 (31)–(35) 可以作用于这些真实有限解纤维的同源差。
+若 (A1) 仅通过 $p^2$，(A2) 只能降为模 $p$ 的式子，
+只得到 $K_1$，不能得到 $K'$。
+
+当 $S$ 允许在整个原 $\mathscr L_D$ 内变化，且没有另加矩阵以外的指定值时，
+上述差空间还有准确反向。固定一组 (A1) 的解，取任意 $G\in K'$，
+以及原源格中 $\jmath(G)$ 的整提升 $Y$。
+由 $G\in K$ 有 $MY\in p\mathscr T$，
+而 $\beta_1(\jmath G)=0$ 保证存在同一个原源格的 $Z$，使
+$$
+MY/p+MZ\in p\mathscr T.
+$$
+于是 $(R+Y,S+Z)$ 仍满足完整 (A1)。
+故在固定的剩余类陪集
+$\bar R+\jmath(\mathcal H_3)$ 内，所有可延至原 $p^3$ 的
+$\bar R'$ 准确组成
+$$
+\boxed{\bar R+\jmath(K').}
+\tag{A4}
+$$
+这里补偿 $Z$ 在原 $\mathcal W_D$ 的全部真实列中求解，
+没有换成自由目标格，也没有要求它属于同一个较小 $\mathcal H_3$。
+若 $S$ 已固定、另受子格或其它指定条件限制，
+只保留 (A3) 的必要结论，不冒用 (A4) 的反向。
+对 $p^4$ 及更高页仍须用这一同 $R/S$ 继续读取，(A4) 本身不判定其可解性。

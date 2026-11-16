@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：78cfe3dd48d694397afe9a0a0bfb22796bd1ae0d；2026-11-16 18:04:19 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：02cbb1f6db42a249de18c7b928aecad5f370eae5；2026-11-16 18:07:56 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即推；非快进立即实际pull --rebase并以新head非强推循环。令牌不存/回显。
 - 根/题README blob：21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。实际pull后仅读两README差异并记head；至少每小时，下一最迟18:25 UTC。
 - 数学执行仅公开Actions；重算输出不入库/Release、不分块，只保源/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。
@@ -52,5 +52,5 @@ R902/903真实端点单射不能相加；[R907](results/R907-original-two-step-s
 [R914](results/R914-original-nonstable-kernel-eight-nine-step-cutoff-and-joint-rank.md)在T−h≤L<T先Qf(T)消全零纤维，才T=E；五/六反门给8/9步截止、9dimK≤8nT+d∞或10dimK≤9nT+d∞，d∞≤6。
 [R916](results/R916-original-special-fiber-stable-kernel-and-unique-prefix-test.md)仅f=λY²(Y−1)、1≤ordF(t,0)≤2给K∞≤1；唯一Bn+c(t)Yn以完整19角Pn·k[t]≤Mn和同T前缀判定，εF0/1替d∞，原Λ未判。
 [R918](results/R918-original-stable-direction-carry-unit-and-native-endpoint.md)完整三首13带给δ=r+2h−s∈[−13,−1]时同q卷积单位·a(G)，β1在实际K∞单射。δ≥0三带零iff值深J=T+13；q(0,Y)=cY时native为(3n²−1)vG+9a(G)u0²e0·1δ0=0。δ0非零首值、δ>0再深1，全部U0/实际高轴/q导数/同R,S保持；非稳定核仍开。
-[R920](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)一般原零纤维的K′=K∩ker完整β1：三首13带使前三实际行深J=T+13。δ∈[−13,−1]的真实相邻后继由2h<J迫a=0、H=EG；V0/V1同入VJ，K′∞=0。S=min(J,s−4)=T+11为原R821已付窗；五/六反门给真实三/四源链单射，3dimK′≤2nJ或4dimK′≤3nJ。全部q/U0/19角/同R,S保，固定P首修正差仍K1、不能自动换K′。
+[R920](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)一般原零纤维的K′=K∩ker完整β1：三首13带使前三实际行深J=T+13。δ∈[−13,−1]的真实相邻后继由2h<J迫a=0、H=EG；V0/V1同入VJ，K′∞=0。S=min(J,s−4)=T+11为原R821已付窗；五/六反门给真实三/四源链单射，3dimK′≤2nJ或4dimK′≤3nJ。全部q/U0/19角/同R,S保，附A：同P两完整p³解且ΔR∈jH3才入jK′；固定一解且S全原格自由时R陪集恰R+jK′，受限S只保必要式。
 R834/836/837预算、R840同Kcorr/Hcorr、R842指定WT[b0]及2κ<T≤3κ保持；R895/896只排τ1 quartic低松弛，O4/O6/O7仍开。
