@@ -19,13 +19,15 @@
 | 211 / [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md) | 零H完成、首1/64原全J/R273后α1真接受196395.091→5181.565；下方向stage105原18000预算，正fullDN/final未付，真清无父。 |
 | 223 / [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md) | 16exit0与八eligible/固定控制流付八warm/freshFD交接；whole113011/recovery113361超90K，具体数值/末父未返，quiet而cleanup skip，无可续父。 |
 | 224/R525、227/R539 | amplitude各唯一；run43851068999/23176与43860144962/5b5dd，实际科学中。 |
-| 225/R528、228/R541 | exact各唯一；run43852521165/5af07与43858623707/99f4，实际科学中；228 compute133283168757。 |
+| 225/R528、228/R541 | exact各唯一；225已终态、完整R528待独立刊；228 run43858623707/99f4、compute133283168757仍科学。 |
 | 226/R537 | root唯一；run43863878883/headf93b、compute133287356711，单POST200，前1–10success/11科学；[官方绑定](notes/2026-11-16-request226-official-run-binding.md)。 |
 | 229/[R543](results/R543-actual229-current-request-field-mismatch-before-owner.md) | 终态两必要scope完整；fresh原withJ返回后旧system字段KeyError，owner/replay/model/FD/fullDN全未起，真quiet且removed，无接受父。geometry两日志各唯一；不能判数学拒或6000失败。 |
 
 所有活动run均不读running科学日志，各终态job由指定读者唯一一次；229已按R543完成终态读取。完整真实头与全部元数据见HANDOFF/官方notes；phase成功不替最终科学门，未返不补拒。
 
 ### 1.2 原128缓存、完整并行与当前模型
+
+**[R554/request233](results/R554-current-declared-model-contract-and-complete-source-readback.md)完整五件247832B/topic224801B已形成**：原387/39与九原对象逐值保→397=349public+48gen；九新caller修诚实新键，原owner25621/3917及三个数学consumer不变，不含R550。gen32840/543b、plan61341/abe6、request97103/17ef、wf23031/dd75、正文33517/c732含全CLI/源关系。原source70时现场核读同job完整overflow，保旧70/fallback.false；两具名来源表全字段/行键序/bytes/SHA/错误/未访有完整逆，未知shape保literal，90K70不抬且不保证fit。原19200/6000/1200/8000/600/600/1800、128/replay/同DN模型/FD/fullDN/末audit不减。仅dispatch刊后单POST，R555 geometry唯一。[232官方绑定](notes/2026-11-16-request232-official-run-binding.md)确唯一POST200/run43870893094/head42492、compute133311483693，R552 amplitude待实际，两支源不混。
 
 [R524/224](results/R524-actual-input-support-complete-original-full112-composition.md)181源保原211全部，R523按真实有限T支撑保全部226×224/双mean/原j序/非零下溢和fallback；14计数/last/presence完整。R531/R538的227为193源，真withJ主线程按原n/profile/k取完整profile、每engine原n序、完整226×224/双mean与主端原port/reduction；原noJ/endpoint/audit/十trial/R273不改。全partial/首原numeric error与资源不同，2×3072MiB线程heap另main6144（非RSS），原单18000和90K70/quiet保持。见[R531](results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md)、[正式R538](results/R538-request227-complete576-parallel-full112-executable-composition.md)。不预填收益。
 

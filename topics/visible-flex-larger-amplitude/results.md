@@ -126,3 +126,7 @@
 ## R551 — request232同root复用、诚实模型契约与完整原末门入口
 
 **已证明完整来源和条件接口，实际R552另付。** [R551完整证明与CLI](results/R551-request232-accepted-root-reuse-and-honest-projected-model-complete-entry.md)35933/453e，连gen37196/c501、plan77676/06ac、request91119/1e1b、workflow23242/1ab7共265166B/topic241924B。原387/39和九原输入/科学/资源对象逐值保→351public+51gen=402；实际R547 source-only后R550 prepare、原scope一次直接装R550并保原defer、原128权威/tol/replay/同DN完整模型/lift/FD/fullDN/末audit及19200/allcaps不变。真实新键guard不造旧全128true；完整RootStats/两路13计数/full last、原八表及所有原错误/未访保。原R547 source70时现场读取核完整overflow并保旧70/fallback.false，新层两具名来源表有完整逆/全bytes/SHA/键行序，未知shape literal，原90K超70不保证fit。仅显式dispatch，单正式派发另记官方head/run，amplitude唯一R552，不改已有运行或迁旧已删父。
+
+## R554 — request233诚实模型契约与完整来源读回入口
+
+**已证明完整来源关系与条件接口，实际R555另付。** [R554](results/R554-current-declared-model-contract-and-complete-source-readback.md)33517/c732及四执行件共247832B/topic224801B；原387/39、九原对象逐值保→397=349public+48gen。九新caller修真实新键，原owner25621/3917及三数学consumer保，不含R550；全128/tol/replay/同DN模型/lift/FD/fullDN/末audit与19200/allcaps不减。原source70核读同job完整overflow并保旧70/false，两具名表全字段/顺序/bytes/SHA与错误/未访可逆，未知shape literal，90K70无fit承诺。完整CLI/prepare/reader/quiet/cleanup齐；独立233仅单POST，R555 geometry唯一。232官方POST200/run43870893094/head42492/compute133311483693已核，R552另付。

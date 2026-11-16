@@ -1,0 +1,625 @@
+{
+  "schema": "R554-declared-model-request-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_baseline": {
+    "request": 231,
+    "published_commit": "05ae500a2aa98784fe05f6b4b8b3fcf2424f9d59",
+    "actual229_failure_result": "R543",
+    "source_text_only_not_a_completed_parent": true
+  },
+  "generator": {
+    "file": "root_20261116_live128_declared_model_request_source_views.py",
+    "bytes": 32840,
+    "sha256": "543b1d271a7e98cb72babb8a83ebe805ac2f98f72162703283ea3fa3fed56c70"
+  },
+  "ancestor": {
+    "request": {
+      "file": "public-live128-root-cached-projected-model-original-full112-FD-fullDN-request.json",
+      "bytes": 95286,
+      "sha256": "f70f24d223f018c0c551a4437455d9491f491334a260d5bce30d93822d6a5b66"
+    },
+    "generator": {
+      "file": "root_20261116_live128_cached_projected_source_views.py",
+      "bytes": 23546,
+      "sha256": "57a28670e2fe167c816f470052923ce130197eb4e182dbf3e959547e07846de3"
+    },
+    "plan": {
+      "file": "notes/r547-live128-root-cached-projected-model-complete-source-plan.json",
+      "bytes": 54357,
+      "sha256": "d16616edbadfa2d5bf0c3d4f55b2f3a9b6724dc7a1ae09251898fb945ead1aab"
+    }
+  },
+  "unchanged_owner": {
+    "file": "geometry_20261116_live128_cached_projected_same_call_owner.py",
+    "bytes": 25621,
+    "sha256": "3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee"
+  },
+  "counts": {
+    "original231_public": 348,
+    "original231_generated": 39,
+    "new_generator": 1,
+    "new_caller_views": 9,
+    "public": 349,
+    "generated": 48,
+    "complete": 397
+  },
+  "roles": {
+    "owner": "geometry_20261116_live128_cached_projected_same_call_owner.py",
+    "components": "geometry_20261116_live128_projected_model_final_components.py",
+    "boundary": "geometry_20261116_live128_projected_model_boundary128.cpp",
+    "assembly": "geometry_20261116_live128_projected_model_response_assembly.py",
+    "system": "exact_20261116_live128_declared_model_request_current576_system.py",
+    "qr": "exact_20261116_live128_declared_model_request_current576_chain_qr.py",
+    "pipeline": "geometry_20261116_live128_declared_model_request_call_pipeline.py",
+    "call": "geometry_20261116_live128_declared_model_request_current_call.mjs",
+    "worker": "geometry_20261116_live128_declared_model_request_worker.mjs",
+    "client": "geometry_20261116_live128_declared_model_request_tail_client.py",
+    "fulldn": "geometry_20261116_live128_declared_model_request_original_full_dn.py",
+    "runner": "geometry_20261116_live128_declared_model_request_owned_run.py",
+    "reader": "root_20261116_live128_declared_model_request_necessary.py"
+  },
+  "schemas": {
+    "owner": "R547-current-H-root-cached-owner128-before-projected-model-v1",
+    "components": "R534-current-H-owner-projected64-model-components-v1",
+    "stage": "R534-current-owner-projected64-exact-lifted-stage-model-v1",
+    "boundary": "R534-current-owner-projected64-model-boundary128-v1",
+    "assembly": "R534-current-H-live128-projected-model-response-assembly-v1",
+    "pipeline": "R554-current-H-declared-model-request-call-pipeline-v1",
+    "pipeline_input": "R554-current-H-declared-model-request-call-pipeline-input-v1",
+    "policy": "R554-current-H-declared-model-request-client-policy-v1",
+    "runner": "R554-live128-declared-model-request-original-full112-owned-procedure-v1",
+    "reader": "R554-live128-declared-model-request-original-full112-necessary-v1",
+    "request": "public-live128-declared-model-request-original-full112-FD-fullDN-request-v1",
+    "fulldn": "R554-live128-declared-model-request-actual63-H-original-FD-and-complete-fullDN-v1",
+    "namespace": "visible-live128-declared-model-request233",
+    "window": "R534-current-owner-projected-model-stage-clock-v1",
+    "source": "R554-declared-model-request-source-preparation-v1",
+    "plan": "R554-declared-model-request-complete-source-plan-v1"
+  },
+  "unchanged_model_consumers": [
+    {
+      "role": "boundary",
+      "file": "geometry_20261116_live128_projected_model_boundary128.cpp",
+      "bytes": 12844,
+      "sha256": "0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9"
+    },
+    {
+      "role": "components",
+      "file": "geometry_20261116_live128_projected_model_final_components.py",
+      "bytes": 38561,
+      "sha256": "c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e"
+    },
+    {
+      "role": "assembly",
+      "file": "geometry_20261116_live128_projected_model_response_assembly.py",
+      "bytes": 33269,
+      "sha256": "863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a"
+    }
+  ],
+  "original_runtime_contract": {
+    "science_clock_schema": "R493-original-full112-live128-job-deadline-v1",
+    "science_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "owner_seconds_cap": 6000,
+    "replay_reserve_seconds": 1200,
+    "stage_seconds_cap": 8000,
+    "boundary_seconds_cap": 600,
+    "endpoint_seconds_cap": 600,
+    "audit_seconds_cap": 1800,
+    "threads": 4,
+    "original_state_shape": [
+      577,
+      224
+    ],
+    "local_state_dimension": 226,
+    "mean_rows": 2,
+    "complete_stages": 576,
+    "complete_endpoint_shape": [
+      338,
+      112
+    ],
+    "future_request_number": 231,
+    "science_namespace": "visible-live128-root-cached-projected-model231",
+    "source_metadata_directory": "request231-source-preparation"
+  },
+  "actual_contract_repair": {
+    "producer": {
+      "file": "geometry_20261116_live128_cached_projected_current_call.mjs",
+      "bytes": 45399,
+      "sha256": "8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718"
+    },
+    "consumer": {
+      "file": "exact_20261116_live128_cached_projected_current576_system.py",
+      "bytes": 29009,
+      "sha256": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db"
+    },
+    "function": "request_height_bytes",
+    "before": "    B.same(current['same_call_complete128_final_components_required'],True,\n           'All224/226 and mixed338-by112 are supplied by the same actual128 state')",
+    "after": "    B.same(current['same_call_complete128_value_components_and_explicit64_linear_model_required'],True,\n           'Current128 values/replay and the explicit complete projected64 linear model are required')",
+    "count": 1,
+    "old_true_flag_not_added": true,
+    "all_height_signed_zero_source_current_call_and_snapshot_checks_retained": true,
+    "fresh_snapshot_original_QR_and_owner_math_unchanged": true
+  },
+  "views": [
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_cached_projected_current576_system.py",
+        "bytes": 29009,
+        "sha256": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db"
+      },
+      "output": {
+        "file": "exact_20261116_live128_declared_model_request_current576_system.py",
+        "bytes": 29067,
+        "sha256": "84de243ca9aedde1d8c5d64a6232a6afc184e3f6409d8ef0de988971160a630c"
+      },
+      "replacements": [
+        {
+          "id": "current-role-name-call",
+          "before": "geometry_20261116_live128_cached_projected_current_call.mjs",
+          "after": "geometry_20261116_live128_declared_model_request_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-client",
+          "before": "geometry_20261116_live128_cached_projected_tail_client.py",
+          "after": "geometry_20261116_live128_declared_model_request_tail_client.py",
+          "count": 1
+        },
+        {
+          "id": "bind-the-actual-current-model-request-contract",
+          "before": "    B.same(current['same_call_complete128_final_components_required'],True,\n           'All224/226 and mixed338-by112 are supplied by the same actual128 state')",
+          "after": "    B.same(current['same_call_complete128_value_components_and_explicit64_linear_model_required'],True,\n           'Current128 values/replay and the explicit complete projected64 linear model are required')",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_cached_projected_current576_chain_qr.py",
+        "bytes": 21847,
+        "sha256": "4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2"
+      },
+      "output": {
+        "file": "exact_20261116_live128_declared_model_request_current576_chain_qr.py",
+        "bytes": 21853,
+        "sha256": "50983fd5cff70ab88fb8fdc0724cb2c71b974e78a41e872e95a83f5089bbdbe7"
+      },
+      "replacements": [
+        {
+          "id": "current-role-name-system",
+          "before": "exact_20261116_live128_cached_projected_current576_system.py",
+          "after": "exact_20261116_live128_declared_model_request_current576_system.py",
+          "count": 1
+        },
+        {
+          "id": "current-role-sha-system",
+          "before": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db",
+          "after": "84de243ca9aedde1d8c5d64a6232a6afc184e3f6409d8ef0de988971160a630c",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_call_pipeline.py",
+        "bytes": 43209,
+        "sha256": "280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_declared_model_request_call_pipeline.py",
+        "bytes": 43197,
+        "sha256": "d114a1ee06b93bda09e76556ae4955f75bfb2d11a6e61352e8f57af3c2764b9e"
+      },
+      "replacements": [
+        {
+          "id": "current-role-name-system",
+          "before": "exact_20261116_live128_cached_projected_current576_system.py",
+          "after": "exact_20261116_live128_declared_model_request_current576_system.py",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-qr",
+          "before": "exact_20261116_live128_cached_projected_current576_chain_qr.py",
+          "after": "exact_20261116_live128_declared_model_request_current576_chain_qr.py",
+          "count": 1
+        },
+        {
+          "id": "current-role-sha-system",
+          "before": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db",
+          "after": "84de243ca9aedde1d8c5d64a6232a6afc184e3f6409d8ef0de988971160a630c",
+          "count": 1
+        },
+        {
+          "id": "current-role-sha-qr",
+          "before": "4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2",
+          "after": "50983fd5cff70ab88fb8fdc0724cb2c71b974e78a41e872e95a83f5089bbdbe7",
+          "count": 1
+        },
+        {
+          "id": "current-schema-0",
+          "before": "R547-current-H-root-cached-live128-projected-model-call-pipeline-input-v1",
+          "after": "R554-current-H-declared-model-request-call-pipeline-input-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-1",
+          "before": "R547-current-H-root-cached-live128-projected-model-call-pipeline-v1",
+          "after": "R554-current-H-declared-model-request-call-pipeline-v1",
+          "count": 1
+        },
+        {
+          "id": "explicit-new-pipeline-source",
+          "before": "\"\"\"R547 root-cached owner and projected64 model under one original19200s clock.",
+          "after": "\"\"\"R554: declared-model request binding, cached owner and complete same-DN model.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_current_call.mjs",
+        "bytes": 45399,
+        "sha256": "8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_declared_model_request_current_call.mjs",
+        "bytes": 45410,
+        "sha256": "9e46f0e2907c87c8bdcce8e51b9a225b17f66d5451fc62e936043f459d7d62fd"
+      },
+      "replacements": [
+        {
+          "id": "current-role-name-call",
+          "before": "geometry_20261116_live128_cached_projected_current_call.mjs",
+          "after": "geometry_20261116_live128_declared_model_request_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-worker",
+          "before": "geometry_20261116_live128_cached_projected_worker.mjs",
+          "after": "geometry_20261116_live128_declared_model_request_worker.mjs",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-client",
+          "before": "geometry_20261116_live128_cached_projected_tail_client.py",
+          "after": "geometry_20261116_live128_declared_model_request_tail_client.py",
+          "count": 2
+        },
+        {
+          "id": "current-schema-0",
+          "before": "R547-current-H-root-cached-live128-projected-model-call-pipeline-input-v1",
+          "after": "R554-current-H-declared-model-request-call-pipeline-input-v1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_worker.mjs",
+        "bytes": 8305,
+        "sha256": "374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_declared_model_request_worker.mjs",
+        "bytes": 8315,
+        "sha256": "8ad33ef4380be4a66b9d7cb98931a271fc979d0a5c8e17a4276833b828ec68e7"
+      },
+      "replacements": [
+        {
+          "id": "current-role-name-call",
+          "before": "geometry_20261116_live128_cached_projected_current_call.mjs",
+          "after": "geometry_20261116_live128_declared_model_request_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "explicit-new-worker-source",
+          "before": "// R547 declared root-cached owner128 values with the unchanged complete R534 model.",
+          "after": "// R554 current declared-model request binding; original cached128 owner and R534 model.",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_tail_client.py",
+        "bytes": 34939,
+        "sha256": "89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_declared_model_request_tail_client.py",
+        "bytes": 35661,
+        "sha256": "0613afe5dc875639f53c1c97971b87e4ddff72083d92321eb45dbb899f488c66"
+      },
+      "replacements": [
+        {
+          "id": "isolate-original-source-catalogue",
+          "before": "LIVE_SOURCE_PINS = json.loads(\"{\\\"geometry_20261116_live128_current_call.mjs\\\":\\\"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\\\",\\\"geometry_20261116_live128_worker.mjs\\\":\\\"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\\\",\\\"geometry_20261116_live128_call_pipeline.py\\\":\\\"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\\\",\\\"geometry_20261116_live128_same_call_owner.py\\\":\\\"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\\\",\\\"geometry_20261116_live128_response_assembly.py\\\":\\\"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\\\",\\\"geometry_20261116_live128_final_components.py\\\":\\\"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\\\",\\\"geometry_20261116_native128_live_scalar_source.py\\\":\\\"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\\\",\\\"exact_20261116_binary128_live_response_projection.py\\\":\\\"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\\\",\\\"exact_20261116_live128_current576_system.py\\\":\\\"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\\\",\\\"exact_20261116_live128_current576_chain_qr.py\\\":\\\"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\\\",\\\"geometry_20261116_live128_actual91_seed.py\\\":\\\"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\\\",\\\"geometry_20261116_live128_owned_process.py\\\":\\\"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\\\",\\\"geometry_20261115_native_trace_variation128_bridge.mjs\\\":\\\"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\\\",\\\"geometry_20261115_native_final128_packet.mjs\\\":\\\"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\\\",\\\"geometry_20261115_native_primal128_bridge.mjs\\\":\\\"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\\\",\\\"geometry_20261115_native_primal128.cpp\\\":\\\"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\\\",\\\"exact_20261114_native_damped_chain_qr.py\\\":\\\"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\\\",\\\"exact_20261114_native_allrows_dyadic_residual.py\\\":\\\"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\\\",\\\"geometry_20261116_live128_paired_digit_final_components.py\\\":\\\"93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1\\\",\\\"geometry_20261116_live128_paired_cache225_same_call_owner.py\\\":\\\"a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be\\\",\\\"geometry_20261116_live128_paired_cache225_response_assembly.py\\\":\\\"5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c\\\",\\\"exact_20261116_live128_paired_cache225_current576_system.py\\\":\\\"6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6\\\",\\\"exact_20261116_live128_paired_cache225_current576_chain_qr.py\\\":\\\"9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c\\\",\\\"geometry_20261116_live128_paired_cache225_call_pipeline.py\\\":\\\"c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515\\\",\\\"geometry_20261116_live128_paired_cache225_current_call.mjs\\\":\\\"c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50\\\",\\\"geometry_20261116_live128_paired_cache225_worker.mjs\\\":\\\"0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf\\\",\\\"geometry_20261116_native_physical_radial_mode_cache128.hpp\\\":\\\"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\\\",\\\"geometry_20261116_native128_physical_radial_cache_source.py\\\":\\\"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\\\",\\\"geometry_20261116_native_paired_digit_operator_trace128.hpp\\\":\\\"082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be\\\",\\\"geometry_20261116_native_paired_digit_stage128.cpp\\\":\\\"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\\\",\\\"geometry_20261116_native_paired_exact_digit128.hpp\\\":\\\"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\\\",\\\"geometry_20261116_live128_projected_model_boundary128.cpp\\\":\\\"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\\\",\\\"geometry_20261116_live128_projected_model_same_call_owner.py\\\":\\\"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\\\",\\\"geometry_20261116_live128_projected_model_final_components.py\\\":\\\"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\\\",\\\"geometry_20261116_live128_projected_model_response_assembly.py\\\":\\\"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\\\",\\\"exact_20261116_live128_projected_model_current576_system.py\\\":\\\"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\\\",\\\"exact_20261116_live128_projected_model_current576_chain_qr.py\\\":\\\"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\\\",\\\"geometry_20261116_live128_projected_model_call_pipeline.py\\\":\\\"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\\\",\\\"geometry_20261116_live128_projected_model_current_call.mjs\\\":\\\"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\\\",\\\"geometry_20261116_live128_projected_model_worker.mjs\\\":\\\"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\\\",\\\"geometry_20261116_live128_projected_stage_binding.py\\\":\\\"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\\\",\\\"geometry_20261116_live128_same_dn_projected_stages.mjs\\\":\\\"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\\\",\\\"geometry_20261116_live128_cached_projected_same_call_owner.py\\\":\\\"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\\\",\\\"exact_20261116_live128_cached_projected_current576_system.py\\\":\\\"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\\\",\\\"exact_20261116_live128_cached_projected_current576_chain_qr.py\\\":\\\"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\\\",\\\"geometry_20261116_live128_cached_projected_call_pipeline.py\\\":\\\"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\\\",\\\"geometry_20261116_live128_cached_projected_current_call.mjs\\\":\\\"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\\\",\\\"geometry_20261116_live128_cached_projected_worker.mjs\\\":\\\"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\\\",\\\"root_20261116_native_root_finite_words.hpp\\\":\\\"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\\\",\\\"root_20261116_native_root_finite_words.py\\\":\\\"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\\\",\\\"root_20261116_native_root_finite_words_primal128.cpp\\\":\\\"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\\\",\\\"root_20261116_native_root_finite_words_trace128.cpp\\\":\\\"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\\\"}\")",
+          "after": "R554_ORIGINAL_LIVE_SOURCE_PINS_LITERAL",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-system",
+          "before": "exact_20261116_live128_cached_projected_current576_system.py",
+          "after": "exact_20261116_live128_declared_model_request_current576_system.py",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-qr",
+          "before": "exact_20261116_live128_cached_projected_current576_chain_qr.py",
+          "after": "exact_20261116_live128_declared_model_request_current576_chain_qr.py",
+          "count": 2
+        },
+        {
+          "id": "current-role-name-pipeline",
+          "before": "geometry_20261116_live128_cached_projected_call_pipeline.py",
+          "after": "geometry_20261116_live128_declared_model_request_call_pipeline.py",
+          "count": 2
+        },
+        {
+          "id": "current-role-name-call",
+          "before": "geometry_20261116_live128_cached_projected_current_call.mjs",
+          "after": "geometry_20261116_live128_declared_model_request_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-worker",
+          "before": "geometry_20261116_live128_cached_projected_worker.mjs",
+          "after": "geometry_20261116_live128_declared_model_request_worker.mjs",
+          "count": 1
+        },
+        {
+          "id": "current-schema-2",
+          "before": "R547-current-H-root-cached-live128-projected-model-client-policy-v1",
+          "after": "R554-current-H-declared-model-request-client-policy-v1",
+          "count": 1
+        },
+        {
+          "id": "retain-all-ancestor-pins-and-add-actual-current-roles",
+          "before": "R554_ORIGINAL_LIVE_SOURCE_PINS_LITERAL",
+          "after": "LIVE_SOURCE_PINS = json.loads(\"{\\\"geometry_20261116_live128_current_call.mjs\\\":\\\"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\\\",\\\"geometry_20261116_live128_worker.mjs\\\":\\\"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\\\",\\\"geometry_20261116_live128_call_pipeline.py\\\":\\\"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\\\",\\\"geometry_20261116_live128_same_call_owner.py\\\":\\\"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\\\",\\\"geometry_20261116_live128_response_assembly.py\\\":\\\"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\\\",\\\"geometry_20261116_live128_final_components.py\\\":\\\"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\\\",\\\"geometry_20261116_native128_live_scalar_source.py\\\":\\\"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\\\",\\\"exact_20261116_binary128_live_response_projection.py\\\":\\\"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\\\",\\\"exact_20261116_live128_current576_system.py\\\":\\\"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\\\",\\\"exact_20261116_live128_current576_chain_qr.py\\\":\\\"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\\\",\\\"geometry_20261116_live128_actual91_seed.py\\\":\\\"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\\\",\\\"geometry_20261116_live128_owned_process.py\\\":\\\"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\\\",\\\"geometry_20261115_native_trace_variation128_bridge.mjs\\\":\\\"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\\\",\\\"geometry_20261115_native_final128_packet.mjs\\\":\\\"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\\\",\\\"geometry_20261115_native_primal128_bridge.mjs\\\":\\\"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\\\",\\\"geometry_20261115_native_primal128.cpp\\\":\\\"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\\\",\\\"exact_20261114_native_damped_chain_qr.py\\\":\\\"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\\\",\\\"exact_20261114_native_allrows_dyadic_residual.py\\\":\\\"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\\\",\\\"geometry_20261116_live128_paired_digit_final_components.py\\\":\\\"93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1\\\",\\\"geometry_20261116_live128_paired_cache225_same_call_owner.py\\\":\\\"a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be\\\",\\\"geometry_20261116_live128_paired_cache225_response_assembly.py\\\":\\\"5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c\\\",\\\"exact_20261116_live128_paired_cache225_current576_system.py\\\":\\\"6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6\\\",\\\"exact_20261116_live128_paired_cache225_current576_chain_qr.py\\\":\\\"9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c\\\",\\\"geometry_20261116_live128_paired_cache225_call_pipeline.py\\\":\\\"c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515\\\",\\\"geometry_20261116_live128_paired_cache225_current_call.mjs\\\":\\\"c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50\\\",\\\"geometry_20261116_live128_paired_cache225_worker.mjs\\\":\\\"0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf\\\",\\\"geometry_20261116_native_physical_radial_mode_cache128.hpp\\\":\\\"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\\\",\\\"geometry_20261116_native128_physical_radial_cache_source.py\\\":\\\"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\\\",\\\"geometry_20261116_native_paired_digit_operator_trace128.hpp\\\":\\\"082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be\\\",\\\"geometry_20261116_native_paired_digit_stage128.cpp\\\":\\\"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\\\",\\\"geometry_20261116_native_paired_exact_digit128.hpp\\\":\\\"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\\\",\\\"geometry_20261116_live128_projected_model_boundary128.cpp\\\":\\\"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\\\",\\\"geometry_20261116_live128_projected_model_same_call_owner.py\\\":\\\"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\\\",\\\"geometry_20261116_live128_projected_model_final_components.py\\\":\\\"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\\\",\\\"geometry_20261116_live128_projected_model_response_assembly.py\\\":\\\"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\\\",\\\"exact_20261116_live128_projected_model_current576_system.py\\\":\\\"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\\\",\\\"exact_20261116_live128_projected_model_current576_chain_qr.py\\\":\\\"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\\\",\\\"geometry_20261116_live128_projected_model_call_pipeline.py\\\":\\\"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\\\",\\\"geometry_20261116_live128_projected_model_current_call.mjs\\\":\\\"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\\\",\\\"geometry_20261116_live128_projected_model_worker.mjs\\\":\\\"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\\\",\\\"geometry_20261116_live128_projected_stage_binding.py\\\":\\\"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\\\",\\\"geometry_20261116_live128_same_dn_projected_stages.mjs\\\":\\\"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\\\",\\\"geometry_20261116_live128_cached_projected_same_call_owner.py\\\":\\\"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\\\",\\\"exact_20261116_live128_cached_projected_current576_system.py\\\":\\\"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\\\",\\\"exact_20261116_live128_cached_projected_current576_chain_qr.py\\\":\\\"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\\\",\\\"geometry_20261116_live128_cached_projected_call_pipeline.py\\\":\\\"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\\\",\\\"geometry_20261116_live128_cached_projected_current_call.mjs\\\":\\\"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\\\",\\\"geometry_20261116_live128_cached_projected_worker.mjs\\\":\\\"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\\\",\\\"root_20261116_native_root_finite_words.hpp\\\":\\\"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\\\",\\\"root_20261116_native_root_finite_words.py\\\":\\\"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\\\",\\\"root_20261116_native_root_finite_words_primal128.cpp\\\":\\\"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\\\",\\\"root_20261116_native_root_finite_words_trace128.cpp\\\":\\\"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\\\",\\\"exact_20261116_live128_declared_model_request_current576_system.py\\\":\\\"84de243ca9aedde1d8c5d64a6232a6afc184e3f6409d8ef0de988971160a630c\\\",\\\"exact_20261116_live128_declared_model_request_current576_chain_qr.py\\\":\\\"50983fd5cff70ab88fb8fdc0724cb2c71b974e78a41e872e95a83f5089bbdbe7\\\",\\\"geometry_20261116_live128_declared_model_request_call_pipeline.py\\\":\\\"d114a1ee06b93bda09e76556ae4955f75bfb2d11a6e61352e8f57af3c2764b9e\\\",\\\"geometry_20261116_live128_declared_model_request_current_call.mjs\\\":\\\"9e46f0e2907c87c8bdcce8e51b9a225b17f66d5451fc62e936043f459d7d62fd\\\",\\\"geometry_20261116_live128_declared_model_request_worker.mjs\\\":\\\"8ad33ef4380be4a66b9d7cb98931a271fc979d0a5c8e17a4276833b828ec68e7\\\"}\")",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_original_full_dn.py",
+        "bytes": 40373,
+        "sha256": "a35cf28a196f748ef2429dcd319b7867019b684eec36981599f639b59b40f338"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_declared_model_request_original_full_dn.py",
+        "bytes": 41197,
+        "sha256": "d4f8e87fa0e78243dee302a9a230b69e71d6ec3f7caa4778efa596cc4ea7547d"
+      },
+      "replacements": [
+        {
+          "id": "isolate-original-source-catalogue",
+          "before": "SOURCE_PINS = {\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n    \"exact_20261116_live128_cached_projected_current576_system.py\": \"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\",\n    \"exact_20261116_live128_cached_projected_current576_chain_qr.py\": \"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\",\n    \"geometry_20261116_live128_cached_projected_call_pipeline.py\": \"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\",\n    \"geometry_20261116_live128_cached_projected_current_call.mjs\": \"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\",\n    \"geometry_20261116_live128_cached_projected_worker.mjs\": \"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\",\n    \"root_20261116_native_root_finite_words.hpp\": \"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\",\n    \"root_20261116_native_root_finite_words.py\": \"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\",\n    \"root_20261116_native_root_finite_words_primal128.cpp\": \"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\",\n    \"root_20261116_native_root_finite_words_trace128.cpp\": \"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\",\n    \"geometry_20261116_live128_projected_model_boundary128.cpp\": \"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\",\n    \"geometry_20261116_live128_projected_model_same_call_owner.py\": \"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\",\n    \"geometry_20261116_live128_projected_model_final_components.py\": \"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\",\n    \"geometry_20261116_live128_projected_model_response_assembly.py\": \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\",\n    \"exact_20261116_live128_projected_model_current576_system.py\": \"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\",\n    \"exact_20261116_live128_projected_model_current576_chain_qr.py\": \"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\",\n    \"geometry_20261116_live128_projected_model_call_pipeline.py\": \"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\",\n    \"geometry_20261116_live128_projected_model_current_call.mjs\": \"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\",\n    \"geometry_20261116_live128_projected_model_worker.mjs\": \"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\",\n    \"geometry_20261116_live128_projected_stage_binding.py\": \"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\",\n    \"geometry_20261116_live128_same_dn_projected_stages.mjs\": \"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\",\n    \"geometry_20261114_full_dn_solve.py\": \"c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162\",\n    \"geometry_20261114_full_dn_augmented.py\": \"f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e\",\n    \"geometry_20261114_full_dn_boundary.py\": \"4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2\",\n    \"geometry_20261114_full_dn_response.py\": \"38d21971b3b0d462f8cf1b8f0a1cd174a28db3dcba450e89d0d0baecc5e26e74\",\n    \"geometry_20261114_lifted_modes_profile.py\": \"13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5\",\n    \"geometry_20261114_lifted_modes_prepare.py\": \"9a1ae018d71e38ff901c4b9156b23502a4efde44f812c1ff4e03323878b659db\",\n    \"geometry_20261114_lifted_modes_response.py\": \"c216d2a857670fc859c5edb567d10336482d617c984e2ad00793d271104fd5f7\",\n    \"geometry_20261114_physical_test_boundary.py\": \"3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681\",\n    \"geometry_20261114_physical_test_response.py\": \"83ce387778fb90209e841fc841a81ed3d99e15181d6e86210ec1244fde017e79\",\n    \"geometry_20261114_physical_test_cut_audit.py\": \"7a548961ff0bd3e5171db18f1133d42f606be19e65e5d2e919432514042ba420\",\n    \"geometry_20261114_physical_test_full_dn.py\": \"abbf1a53cb454effc7e90e97166a469b84eb61cd7d75832dc3c2ab0f81add10b\",\n    \"geometry_20261114_lifted_modes_full_dn.py\": \"d885ebc8de5ebd02f006c4104d8b67e856047b4e58f0e125651b38187fb251a5\",\n    \"geometry_20261114_lifted_modes_banded_full_dn.py\": \"390387db4700f64302b76ee684f9a810a611c57c6617eb67d4597a9fa18905c4\",\n    \"geometry_20261114_banded_collocation.py\": \"0780dcc4e331f6cde64141b0fa9ebdd1325eec2af87d94fc455e72405a0524f1\",\n    \"geometry_20261114_constrained_trust_response.py\": \"7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78\",\n    \"exact_20261114_true_tail_client.py\": \"1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09\",\n    \"exact_20261114_seeded_zero_tail_client.py\": \"a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776\",\n    \"geometry_20261114_current576_live_tail_client.py\": \"c9f3377748480d4905a32f7f858e2b9a5bcb8a697b7b7806ffc409e635ed1189\",\n    \"geometry_20261116_live128_paired_cache225_tail_client.py\": \"cfcc205cf0c291dc6a4dfd280a4c60f67f1d84062761e68c62117714867cb328\",\n    \"geometry_20261116_live128_projected_model_tail_client.py\": \"5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af\",\n    CLIENT_NAME: \"89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d\",\n    \"geometry_20261116_live128_tail_client.py\": \"9f32e5ddd376016e51f678d9f0328727e63d8aacb5c4583046dc705949cc1894\",\n    \"geometry_20261116_live128_paired_digit_final_components.py\": \"93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1\",\n    \"geometry_20261116_live128_paired_cache225_same_call_owner.py\": \"a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be\",\n    \"geometry_20261116_live128_paired_cache225_response_assembly.py\": \"5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c\",\n    \"exact_20261116_live128_paired_cache225_current576_system.py\": \"6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6\",\n    \"exact_20261116_live128_paired_cache225_current576_chain_qr.py\": \"9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c\",\n    \"geometry_20261116_live128_paired_cache225_call_pipeline.py\": \"c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515\",\n    \"geometry_20261116_live128_paired_cache225_current_call.mjs\": \"c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50\",\n    \"geometry_20261116_live128_paired_cache225_worker.mjs\": \"0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf\",\n    \"geometry_20261116_native_physical_radial_mode_cache128.hpp\": \"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\",\n    \"geometry_20261116_native128_physical_radial_cache_source.py\": \"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\",\n    \"geometry_20261116_native_paired_digit_operator_trace128.hpp\": \"082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be\",\n    \"geometry_20261116_native_paired_digit_stage128.cpp\": \"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\",\n    \"geometry_20261116_native_paired_exact_digit128.hpp\": \"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\",\n    \"geometry_20261114_current576_live_tail_client_hook.mjs\": \"7e83b398fe0f8a8801700d50c640b1e97bc185ec07627468f94fc54de61a58f5\",\n    \"exact_20261114_live_current576_damped_system.py\": \"9346c0a7e7c7f562d20b02126b82c8819c687a7575aea38258e9796cabb8db4a\",\n    \"exact_20261114_live_current576_damped_chain_qr.py\": \"ee174e8283f3b5454a8b3dbe751dbd4f41f4f0dba1bd9d240b627bd2748f889f\",\n    \"geometry_20261116_live128_current_call.mjs\": \"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\",\n    \"geometry_20261116_live128_worker.mjs\": \"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\",\n    \"geometry_20261116_live128_call_pipeline.py\": \"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\",\n    \"geometry_20261116_live128_same_call_owner.py\": \"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\",\n    \"geometry_20261116_live128_response_assembly.py\": \"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\",\n    \"geometry_20261116_live128_final_components.py\": \"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\",\n    \"geometry_20261116_native128_live_scalar_source.py\": \"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\",\n    \"exact_20261116_binary128_live_response_projection.py\": \"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\",\n    \"exact_20261116_live128_current576_system.py\": \"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\",\n    \"exact_20261116_live128_current576_chain_qr.py\": \"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\",\n    \"geometry_20261116_live128_actual91_seed.py\": \"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\",\n    \"geometry_20261116_live128_owned_process.py\": \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\",\n    \"geometry_20261115_native_trace_variation128_bridge.mjs\": \"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\",\n    \"geometry_20261115_native_final128_packet.mjs\": \"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\",\n    \"geometry_20261115_native_primal128_bridge.mjs\": \"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\",\n    \"geometry_20261115_native_primal128.cpp\": \"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\",\n    \"exact_20261114_native_damped_chain_qr.py\": \"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\",\n    \"exact_20261114_native_allrows_dyadic_residual.py\": \"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\",\n}",
+          "after": "R554_ORIGINAL_FULLDN_SOURCE_PINS_LITERAL",
+          "count": 1
+        },
+        {
+          "id": "current-role-name-client",
+          "before": "geometry_20261116_live128_cached_projected_tail_client.py",
+          "after": "geometry_20261116_live128_declared_model_request_tail_client.py",
+          "count": 1
+        },
+        {
+          "id": "current-schema-2",
+          "before": "R547-current-H-root-cached-live128-projected-model-client-policy-v1",
+          "after": "R554-current-H-declared-model-request-client-policy-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-3",
+          "before": "R547-live128-root-cached-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+          "after": "R554-live128-declared-model-request-actual63-H-original-FD-and-complete-fullDN-v1",
+          "count": 1
+        },
+        {
+          "id": "retain-all-ancestor-pins-and-add-actual-current-roles",
+          "before": "R554_ORIGINAL_FULLDN_SOURCE_PINS_LITERAL",
+          "after": "SOURCE_PINS = {\n    \"exact_20261116_live128_declared_model_request_current576_system.py\": \"84de243ca9aedde1d8c5d64a6232a6afc184e3f6409d8ef0de988971160a630c\",\n    \"exact_20261116_live128_declared_model_request_current576_chain_qr.py\": \"50983fd5cff70ab88fb8fdc0724cb2c71b974e78a41e872e95a83f5089bbdbe7\",\n    \"geometry_20261116_live128_declared_model_request_call_pipeline.py\": \"d114a1ee06b93bda09e76556ae4955f75bfb2d11a6e61352e8f57af3c2764b9e\",\n    \"geometry_20261116_live128_declared_model_request_current_call.mjs\": \"9e46f0e2907c87c8bdcce8e51b9a225b17f66d5451fc62e936043f459d7d62fd\",\n    \"geometry_20261116_live128_declared_model_request_worker.mjs\": \"8ad33ef4380be4a66b9d7cb98931a271fc979d0a5c8e17a4276833b828ec68e7\",\n    CLIENT_NAME: \"0613afe5dc875639f53c1c97971b87e4ddff72083d92321eb45dbb899f488c66\",\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n    \"exact_20261116_live128_cached_projected_current576_system.py\": \"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\",\n    \"exact_20261116_live128_cached_projected_current576_chain_qr.py\": \"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\",\n    \"geometry_20261116_live128_cached_projected_call_pipeline.py\": \"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\",\n    \"geometry_20261116_live128_cached_projected_current_call.mjs\": \"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\",\n    \"geometry_20261116_live128_cached_projected_worker.mjs\": \"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\",\n    \"root_20261116_native_root_finite_words.hpp\": \"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\",\n    \"root_20261116_native_root_finite_words.py\": \"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\",\n    \"root_20261116_native_root_finite_words_primal128.cpp\": \"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\",\n    \"root_20261116_native_root_finite_words_trace128.cpp\": \"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\",\n    \"geometry_20261116_live128_projected_model_boundary128.cpp\": \"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\",\n    \"geometry_20261116_live128_projected_model_same_call_owner.py\": \"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\",\n    \"geometry_20261116_live128_projected_model_final_components.py\": \"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\",\n    \"geometry_20261116_live128_projected_model_response_assembly.py\": \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\",\n    \"exact_20261116_live128_projected_model_current576_system.py\": \"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\",\n    \"exact_20261116_live128_projected_model_current576_chain_qr.py\": \"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\",\n    \"geometry_20261116_live128_projected_model_call_pipeline.py\": \"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\",\n    \"geometry_20261116_live128_projected_model_current_call.mjs\": \"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\",\n    \"geometry_20261116_live128_projected_model_worker.mjs\": \"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\",\n    \"geometry_20261116_live128_projected_stage_binding.py\": \"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\",\n    \"geometry_20261116_live128_same_dn_projected_stages.mjs\": \"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\",\n    \"geometry_20261114_full_dn_solve.py\": \"c6a1f4d8025508ee49fe9324b3401440a2de88329d0b78ef0d0814860c2d3162\",\n    \"geometry_20261114_full_dn_augmented.py\": \"f76b9c37b8549bc670ad5fe95ccc2da6c1da1a967256f21d23eba4973495d87e\",\n    \"geometry_20261114_full_dn_boundary.py\": \"4517274cc4e79a7264d5980e79bbd209d73761f86ae7b015a2fa5671cca35ca2\",\n    \"geometry_20261114_full_dn_response.py\": \"38d21971b3b0d462f8cf1b8f0a1cd174a28db3dcba450e89d0d0baecc5e26e74\",\n    \"geometry_20261114_lifted_modes_profile.py\": \"13cd479d91590a6ce7a82e6461d6cd2c1561d7303264680621e9cbe438b7cee5\",\n    \"geometry_20261114_lifted_modes_prepare.py\": \"9a1ae018d71e38ff901c4b9156b23502a4efde44f812c1ff4e03323878b659db\",\n    \"geometry_20261114_lifted_modes_response.py\": \"c216d2a857670fc859c5edb567d10336482d617c984e2ad00793d271104fd5f7\",\n    \"geometry_20261114_physical_test_boundary.py\": \"3975eb0daf8941516962a46d33efef614aa1f9759a979165e7cc0f83a2838681\",\n    \"geometry_20261114_physical_test_response.py\": \"83ce387778fb90209e841fc841a81ed3d99e15181d6e86210ec1244fde017e79\",\n    \"geometry_20261114_physical_test_cut_audit.py\": \"7a548961ff0bd3e5171db18f1133d42f606be19e65e5d2e919432514042ba420\",\n    \"geometry_20261114_physical_test_full_dn.py\": \"abbf1a53cb454effc7e90e97166a469b84eb61cd7d75832dc3c2ab0f81add10b\",\n    \"geometry_20261114_lifted_modes_full_dn.py\": \"d885ebc8de5ebd02f006c4104d8b67e856047b4e58f0e125651b38187fb251a5\",\n    \"geometry_20261114_lifted_modes_banded_full_dn.py\": \"390387db4700f64302b76ee684f9a810a611c57c6617eb67d4597a9fa18905c4\",\n    \"geometry_20261114_banded_collocation.py\": \"0780dcc4e331f6cde64141b0fa9ebdd1325eec2af87d94fc455e72405a0524f1\",\n    \"geometry_20261114_constrained_trust_response.py\": \"7eafda68979356aa0d39ed8110c47077ccbde23a3caa0c58f8b3fddf94bc9f78\",\n    \"exact_20261114_true_tail_client.py\": \"1cdf0e14ae3f71dd57a8c0ab3036f11943929860296153ca7886e20e7b445a09\",\n    \"exact_20261114_seeded_zero_tail_client.py\": \"a8de071c0667b342dfc7a2731c9a47ce3d071e03496875637f80424864114776\",\n    \"geometry_20261114_current576_live_tail_client.py\": \"c9f3377748480d4905a32f7f858e2b9a5bcb8a697b7b7806ffc409e635ed1189\",\n    \"geometry_20261116_live128_paired_cache225_tail_client.py\": \"cfcc205cf0c291dc6a4dfd280a4c60f67f1d84062761e68c62117714867cb328\",\n    \"geometry_20261116_live128_projected_model_tail_client.py\": \"5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af\",\n    \"geometry_20261116_live128_cached_projected_tail_client.py\": \"89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d\",\n    \"geometry_20261116_live128_tail_client.py\": \"9f32e5ddd376016e51f678d9f0328727e63d8aacb5c4583046dc705949cc1894\",\n    \"geometry_20261116_live128_paired_digit_final_components.py\": \"93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1\",\n    \"geometry_20261116_live128_paired_cache225_same_call_owner.py\": \"a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be\",\n    \"geometry_20261116_live128_paired_cache225_response_assembly.py\": \"5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c\",\n    \"exact_20261116_live128_paired_cache225_current576_system.py\": \"6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6\",\n    \"exact_20261116_live128_paired_cache225_current576_chain_qr.py\": \"9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c\",\n    \"geometry_20261116_live128_paired_cache225_call_pipeline.py\": \"c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515\",\n    \"geometry_20261116_live128_paired_cache225_current_call.mjs\": \"c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50\",\n    \"geometry_20261116_live128_paired_cache225_worker.mjs\": \"0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf\",\n    \"geometry_20261116_native_physical_radial_mode_cache128.hpp\": \"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\",\n    \"geometry_20261116_native128_physical_radial_cache_source.py\": \"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\",\n    \"geometry_20261116_native_paired_digit_operator_trace128.hpp\": \"082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be\",\n    \"geometry_20261116_native_paired_digit_stage128.cpp\": \"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\",\n    \"geometry_20261116_native_paired_exact_digit128.hpp\": \"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\",\n    \"geometry_20261114_current576_live_tail_client_hook.mjs\": \"7e83b398fe0f8a8801700d50c640b1e97bc185ec07627468f94fc54de61a58f5\",\n    \"exact_20261114_live_current576_damped_system.py\": \"9346c0a7e7c7f562d20b02126b82c8819c687a7575aea38258e9796cabb8db4a\",\n    \"exact_20261114_live_current576_damped_chain_qr.py\": \"ee174e8283f3b5454a8b3dbe751dbd4f41f4f0dba1bd9d240b627bd2748f889f\",\n    \"geometry_20261116_live128_current_call.mjs\": \"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\",\n    \"geometry_20261116_live128_worker.mjs\": \"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\",\n    \"geometry_20261116_live128_call_pipeline.py\": \"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\",\n    \"geometry_20261116_live128_same_call_owner.py\": \"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\",\n    \"geometry_20261116_live128_response_assembly.py\": \"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\",\n    \"geometry_20261116_live128_final_components.py\": \"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\",\n    \"geometry_20261116_native128_live_scalar_source.py\": \"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\",\n    \"exact_20261116_binary128_live_response_projection.py\": \"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\",\n    \"exact_20261116_live128_current576_system.py\": \"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\",\n    \"exact_20261116_live128_current576_chain_qr.py\": \"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\",\n    \"geometry_20261116_live128_actual91_seed.py\": \"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\",\n    \"geometry_20261116_live128_owned_process.py\": \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\",\n    \"geometry_20261115_native_trace_variation128_bridge.mjs\": \"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\",\n    \"geometry_20261115_native_final128_packet.mjs\": \"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\",\n    \"geometry_20261115_native_primal128_bridge.mjs\": \"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\",\n    \"geometry_20261115_native_primal128.cpp\": \"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\",\n    \"exact_20261114_native_damped_chain_qr.py\": \"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\",\n    \"exact_20261114_native_allrows_dyadic_residual.py\": \"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\",\n}",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_owned_run.py",
+        "bytes": 39356,
+        "sha256": "8feb1402a654fc4538bc61df14005d121151ed5165a895a88b076f460ad8836e"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_declared_model_request_owned_run.py",
+        "bytes": 39329,
+        "sha256": "ad26ceef60e7be66c5f4b6cd80dd210eb7cdb5b9ce2ca3fb7dd106438ab4485b"
+      },
+      "replacements": [
+        {
+          "id": "current-role-name-fulldn",
+          "before": "geometry_20261116_live128_cached_projected_original_full_dn.py",
+          "after": "geometry_20261116_live128_declared_model_request_original_full_dn.py",
+          "count": 1
+        },
+        {
+          "id": "current-role-sha-fulldn",
+          "before": "a35cf28a196f748ef2429dcd319b7867019b684eec36981599f639b59b40f338",
+          "after": "d4f8e87fa0e78243dee302a9a230b69e71d6ec3f7caa4778efa596cc4ea7547d",
+          "count": 1
+        },
+        {
+          "id": "current-schema-2",
+          "before": "R547-current-H-root-cached-live128-projected-model-client-policy-v1",
+          "after": "R554-current-H-declared-model-request-client-policy-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-4",
+          "before": "R547-live128-root-cached-projected-model-original-full112-owned-procedure-v1",
+          "after": "R554-live128-declared-model-request-original-full112-owned-procedure-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-5",
+          "before": "R547-live128-root-cached-projected-model-original-full112-necessary-v1",
+          "after": "R554-live128-declared-model-request-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-6",
+          "before": "public-live128-root-cached-projected-model-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-declared-model-request-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-7",
+          "before": "visible-live128-root-cached-projected-model231",
+          "after": "visible-live128-declared-model-request233",
+          "count": 1
+        },
+        {
+          "id": "current-entry-Request231",
+          "before": "Request231",
+          "after": "Request233",
+          "count": 1
+        },
+        {
+          "id": "current-entry-request231",
+          "before": "request231",
+          "after": "request233",
+          "count": 9
+        },
+        {
+          "id": "current-entry-231",
+          "before": "==231",
+          "after": "==233",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_cached_projected_necessary.py",
+        "bytes": 59700,
+        "sha256": "bc26bbbe138ba75e0af66ba8793825ae31eeea7fb0d908196f0465594c3f3c98"
+      },
+      "output": {
+        "file": "root_20261116_live128_declared_model_request_necessary.py",
+        "bytes": 59752,
+        "sha256": "8c6e80a5a1ecb9fd9265c2e9e03e636460b0dd628ebb305c54b6f19754365e2e"
+      },
+      "replacements": [
+        {
+          "id": "current-role-name-runner",
+          "before": "geometry_20261116_live128_cached_projected_owned_run.py",
+          "after": "geometry_20261116_live128_declared_model_request_owned_run.py",
+          "count": 1
+        },
+        {
+          "id": "current-role-sha-runner",
+          "before": "8feb1402a654fc4538bc61df14005d121151ed5165a895a88b076f460ad8836e",
+          "after": "ad26ceef60e7be66c5f4b6cd80dd210eb7cdb5b9ce2ca3fb7dd106438ab4485b",
+          "count": 1
+        },
+        {
+          "id": "current-schema-5",
+          "before": "R547-live128-root-cached-projected-model-original-full112-necessary-v1",
+          "after": "R554-live128-declared-model-request-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-6",
+          "before": "public-live128-root-cached-projected-model-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-declared-model-request-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "current-schema-7",
+          "before": "visible-live128-root-cached-projected-model231",
+          "after": "visible-live128-declared-model-request233",
+          "count": 1
+        },
+        {
+          "id": "current-schema-8",
+          "before": "REQUEST231_CACHED_PROJECTED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "after": "REQUEST233_DECLARED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "count": 1
+        },
+        {
+          "id": "current-entry-Request231",
+          "before": "Request231",
+          "after": "Request233",
+          "count": 1
+        },
+        {
+          "id": "current-entry-request231",
+          "before": "request231",
+          "after": "request233",
+          "count": 3
+        },
+        {
+          "id": "current-entry-231",
+          "before": "==231",
+          "after": "==233",
+          "count": 1
+        },
+        {
+          "id": "current-entry-231",
+          "before": "=231,",
+          "after": "=233,",
+          "count": 3
+        },
+        {
+          "id": "separate-actual-composition-from-source-ancestry",
+          "before": "        R547_source_composition=request.get(\"R547_source_composition\"),",
+          "after": "        R554_source_composition=request.get(\"R554_source_composition\"),\n        R547_source_ancestry=request.get(\"R547_source_composition\"),",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "source_readback_scope": {
+    "actual_original_R547_readback_called": true,
+    "old_child70_and_false_transport_preserved": true,
+    "complete_same_job_retained_overflow_read_and_bytes_sha_bound": true,
+    "original_R547_necessary_complete_body_whole_before_named_tables": true,
+    "current_source_record_and_all_ungenerated_suffixes_retained": true,
+    "named_inventory_exact_file_sha_equality_to_complete_frozen_map": true,
+    "actual_inventory_bytes_and_all_original_row_key_orders_retained": true,
+    "named_literal_six_columns_all_values_preserved": true,
+    "only_actual_literal_SHA256_strings_share_a_named_catalogue": true,
+    "missing_null_unknown_shapes_and_error_text_preserved": true,
+    "original_scientific_necessary_selector_unchanged_except_actual_source_schema": true,
+    "no_generic_codec_no_scientific_arrays_coded_or_segmented": true,
+    "new_complete_scope_independent_of_old_child70": true,
+    "each_scope_limit_bytes": 90000,
+    "overflow_exit": 70,
+    "no_unconditional_size_success_promised": true
+  },
+  "scope": {
+    "original387_source_entries_retained_byte_for_byte": true,
+    "original_R547_owner_uses_real_same_job_request231_source_preparation_as_source_ancestry": true,
+    "current_request233_and_namespace_are_distinct": true,
+    "old_run229_or231_raw_not_imported": true,
+    "R550_accepted_RootEval_reuse_not_combined": true,
+    "original_R535_root_finite_words_retained": true,
+    "original19200_clock_and_all_per_call_caps_retained": true,
+    "all576_stages_224_columns_two_means_338x112_full_FD_fullDN_and_final_audit_retained": true,
+    "original128_final_values_and_independent_fresh_replay_remain_authoritative": true,
+    "source_preparation_does_not_import_compile_or_evaluate_science": true,
+    "no_fixture_or_new_scientific_acceptance_gate": true,
+    "actual_run_or_numeric_result_not_prefilled": true
+  }
+}
