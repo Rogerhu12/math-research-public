@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付固定g的|Kg|<2381/11<217<(1000/61)²，必要乘积界未排reach；新增P5四u/P8四v/零高度γ成完整168/172族，旧159真嵌入、接口保。
 
-[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)/[R511](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)：原末三样条全区延拓给整圈metric中性方向，S仅A→A+ℓ·ξ；不变列最优下界√(B²+C²)，全部退化情形及共同17线性区间已付。前6原列不改末片环、物理norm为两组max，但中段非线性交互/全body/原盒/连续reach仍欠；不从两principal排序猜分支。后继ring17源稿未执行，已实际接受58，需绑定该点、计入新frame/Π/曲率/一次solver。
+[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)/[R511](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)付原末三样条全延拓的整圈有限中性族，S仅A→A+ℓξ；不变列下界√(B²+C²)、共同17区间/全部退化与原盒保。前102不改末环，原物理norm两组max，中段完整非线性交互不删；当前实际非轴峰不凭principal排序猜分支。新ring17已启动，见下。
 
 ## 3. 当前理论接口与未付全词
 
@@ -38,6 +38,8 @@ R503–507保同母/w/χ、全部history/尾/端germ与原费用。[R507](result
 
 [R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)固定紧母v给有限秩二阶规则，同一个第三Gram承担完整平方后，全路径K0恰一个关于(v,ν*)的线性函数方程；所有canonical/history保，速度正定二次Gram不变。最右微包前真gap证明常scalar区段的canonical能量严格正t²系数，故任何固定二/三规范都不能修复含正长度常态bulk的本同形圆全词；不排其它圆。继续真正非恒长程词并联立原M/period/13门，未授函数像满秩或全词存在。
 
+[R515](results/R515-uniform-positive-second-variation-of-the-real-p1-port-on-secant-intervals.md)在任意固定合法secant区间，原ω/p0首阶复位给∫b sin=∫b cos=0，J″+J=b双端J=J′0。准确Q=15∫b²/32+∫(J″+5J)²/32+∫tan²σ(J′²+J²)/4，实际Δp1=ε²Q+Oε³。无需短盒/高度单调；只排非零首阶小扰动的负p1，不排有限幅值一般h或全M0。须真正离开secant邻域并同规范处理完整成本。
+
 ## 4. 当前真正接受点58与闭合科学账
 
 [原58结论](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/report133280067378/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。重付57的2ordinary/2selected J；2finite/82iter164系统、2全网、23新梯度、固定7非线性metric/curv预测，α1/4第一actualpair原14门/准确172盒接受58。η粗.26600541430262403、细.26600541463999305，下降.0000016540087044436547；κ细57.9997782607127。metric峰.4725/θ0，细κ峰.78/θ4.818744981678094非轴。帽高微负仅原容差内；4454/4549池v15/14原顺序、无新学习行；.26与主门未付。
@@ -46,8 +48,8 @@ R503–507保同母/w/χ、全部history/尾/端germ与原费用。[R507](result
 
 接受后先学习再导出paid selected二jets，两网complete/errors空，0再ordinary/J。CACHE2 33375405B/9bfdb6d35b131d5b4b1514f0e0902c7f38aa735cabc3288502356b1ba03ffbdf：完整U/T/e/f/grid/168及pool selected X六二jets/T/metric，不是全grid二jets或58 J。原raw86358161B/346de3d6027e21e3b3d9dc020b0890c14d65e6dc588c2178ee63eff9f12fca3e；所有record/SHA在note与新request。report8MiB投影exit1但46条0parseerrors、actual/FINAL完整，不称大数组无损。永久constructor仅原55COMPLETE，不当58状态。
 
-## 5. 正在接续（2026-11-16 12:17 UTC）
+## 5. 正在接续（2026-11-16 12:19 UTC）
 
-[真正58整圈新任务](notes/true58-complete-ring17-original-box-design-20261116.md)源/请求/workflow现提交，尚无run结果。全部两网原环A/B/C/ℓ与实际G、完整R2延拓保；K1000/61，若浮点不变列超界则0solver，否则原172盒min h（不加旧1/128门）最多1个18变量LP≤60秒。统一新600秒含输入/新frame/Π/height/曲率/solver/输出，至多1完整非线性候选、1原actualpair2值；不重放58 ordinary/J。理想精确嵌入不冒最终binary64中性。失败只闭本有限问题，接R0/R1真实值/一阶jet与全body，不重解R2或续旧账。
+[真正58整圈新任务](notes/true58-complete-ring17-original-box-design-20261116.md)run43865295208/research133292183126，source35438c143eda961a0fa8836d387d0e537fba43b2已执行中、尚无结果。全部两网原环A/B/C/ℓ与实际G、完整R2延拓保；K1000/61，若浮点不变列超界则0solver，否则原172盒min h（不加旧1/128门）最多1个18变量LP≤60秒。统一新600秒含输入/新frame/Π/height/曲率/solver/输出，至多1完整非线性候选、1原actualpair2值；不重放58 ordinary/J。理想精确嵌入不冒最终binary64中性。失败只闭本有限问题，接R0/R1真实值/一阶jet与全body，不重解R2或续旧账。
 
-O4接.6<H<H*真实同图五门耦合；R508/509付参考出口和五端正基准开像，继续实际离短盒、全八矩/几何/period/13联调。R507负t1与R509单侧成本不删。三/四原子和唯一LP不重跑；主完成未付，不停止。
+O4接.6<H<H*真实同图五门耦合；R508/509付参考出口和五端正基准开像，按R512/R515离常态bulk与secant小邻域，接有限幅值全八矩/几何/period/13联调。R507负t1与R509单侧成本不删。三/四原子和唯一LP不重跑；主完成未付，不停止。
