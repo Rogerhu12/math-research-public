@@ -98,7 +98,7 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 **R879原参考单极/铅笔实际已成**：[正式结果](results/R879-certified-original-reference-pole254-pencil.md)，run43835253379/job133190260738/source0f74fb43；4stage/1.298767032s，563×418真rank291及全563乘回，(v0)∞恰254P0，(1,v0)全局生成M0。finalbf7172a2/函数bfc553e5/artifact14210388032/4b1d3a03（Nov17 08:56），18原R872件直接复用；t帧c^254/U272未展开，不做参考128/672核。五Lj/九Norm/η支持/height仍缺。
 
 
-**R880原D/cusp有界输入已证明**：[完整方法](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)。旧R845十乘积与1111选择只新269 RHS；123原jets给146，同五纤维新962秩给D*完整418；20cusp+252旧jets另给DC完整418。Ef−1206P0=(DC−H)+3(D*−H)+4(Dχ−H)+divQf，Qf=(a*/v)^3/(uχ/τ²)^4及原ρ首项保全。新核未算，原t帧/五Lj128/144/height不预填；旧χ418与R877 A/B直接用。
+**R880原D/cusp有界输入实际完成**：[认证](results/R880-certified-original-D-and-common-cusp-bounded-RR-inputs.md)。真实43840391925/28stage/15.559026589s，944原件直接复用；共同272×690→418及旧1111→269→123条件146→首试rank962→D*418全成，全部1360关系和投影认证。Ef−1206P0=(DC−H)+3(D*−H)+4(Dχ−H)+divQf，原Qf正乘、ρ阶−1457/首项566605368；a0/v123不重缩放。其余12A/B、原t全部帧、五Lj128/144与height仍缺。
 
 
 **R881原整theta lift与原cuspidal向量已证明**：[完整证明](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)，SHA256 6dbe407b02f62f2b64f803ab82182e877609235ae83f267913a52711bda36481。原有限theta的唯一整torus lift保六级标记，opposite tensor消去Weil扭曲，真Schrödinger模型给原Phi_r/e0、Weyl负号和det二次扭曲；原CM投影与Legendre条件未改。generic比较不等于cuspidal整格/原sigma系数泛函或q-normal；后者继续开放，未断言同h三单位或height。R880六源实际运输见[登记](notes/R880-original-pencil-jet-cusp-source-intake-complete.md)，后继只做新数学。
@@ -115,7 +115,7 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 **R882同处17系数实际已成**：[正式结果](results/R882-certified-original-cyclic-seven-common-place-coefficients.md)。run43839076365/job133202998079/sourcecb2385cc，38.702301378s；p753处旧2058行det377243004、新逆双侧通过、全2200×17回代。final717768f0/17列5c79985f/artifact14211339984/3adfa484（Nov17 09:24）；旧344MBcarrier与q/norm原算术不重。目标整纤维/九Norm/η支持/height仍未做。
 
-**R880首scope激活**：[执行方法](notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md)，coreca46e8f9/wrapper3a888af1，复用六组944原件，先共同cusp418再269→146→D*418及Qf。字段chosen_local_parameter按实际源修正；新秩/核/run待实际读，不预填五Lj或height。
+**R880必要完成源已就绪**：纯IO43842697439真实成功，18个所需原成员4294307B/b0442fa0，artifact14213722649/4f2a361d至Nov17 09:46；原105MB未整搬/无数学重算。共同C*翻转只消费必要原源，保原Qf正乘及第252阶单位。
 
 
 **R885（纸证完成，实际新算术待运行）**：[原单行伴随及完整Artin纤维范数](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)。原加权界deg c_i≤i允许273真实不同节点；八个旧K/逆只补W^272e0，其余节点只新charpoly。单左行递推及完整b272=0认证原adj行；整个272维Artin源与8维对应环上用真实单位/xgcd/Berkowitz/全272乘回，一次charpoly给九范数，不删非半单分量。原dual7、两条框架、未展开t标量及nonp均保留。

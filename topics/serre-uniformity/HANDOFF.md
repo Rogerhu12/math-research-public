@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；按远端main接续，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：13d359a0d8ab164b418f468b429aec12cad3d3ae**（2026-11-16T09:50:39.102258+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-cusp-flip.md)（9772B/f214dd1b），内接全部旧归档；全部边界继续生效。
+**已读规则提交：f5321aabd77f7d0b02796627722e0e5e09026411**（2026-11-16T09:57:48.265693+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-cusp-flip.md)（9772B/f214dd1b），内接全部旧归档；全部边界继续生效。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -48,7 +48,7 @@ R864/866/865全纯核/真T7及R870 N0/16ni/d*已完成，完整pins见归档与�
 
 ## 有界截面、原参数及范数
 
-**R880**：[证明](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)5a833046及[执行方法](notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md)529443f8。coreca46e8f9/wrapper3a888af1；真实43840391925/job133207448529/source3c1ddaf3，15.559026589s/28stage/新rank962，两418及Qf全成，真实12阶段细项最小IO已激活，root取回正式登记。复用六组944原件：intake43836403210/job133194063733/source9070cb76，artifact14210454548/18f08494（Nov17 09:04），index6a0e7d68；不重旧HNF/乘法/逆。首scope共同cusp418优先，旧1111→269→123条件146，新962→D*418；Qf=(a*/v)^3/(uχ/τ²)^4正乘、原ρ^-1457首项保留。已修点linearization实际字段chosen_local_parameter；未执行部分不称成功。
+**R880实际完成**：[认证](results/R880-certified-original-D-and-common-cusp-bounded-RR-inputs.md)7d5d4a52；run43840391925/job133207448529/source3c1ddaf3，15.559026589s/28stage/944原件。共同C+252P0矩阵272×690满秩→418；旧1111选择→269，新123条件→146，首试rank962/全1360关系→D*418。原a0=620415780、v123=465210523均未缩放；Qf正乘，ρ阶−1457/首项566605368。原六源/准确unit-solve身份在证明5a833046/方法529443f8保全。artifact14212028755/5af19f69至Nov17 09:31；最小IO43842697439真实成功，18原件小载体4294307B/b0442fa0，artifact14213722649/4f2a361d至09:46。两418与Qf已成，原C*翻转、其余12A/B、五Lj128/144仍续。
 
 **R887纸证**：[共同cusp翻转与P0单位代表](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)1ebbc0bf。R880共同矩阵取V2的418列→完整146核，旧第252行选未缩放uC；再真实两锚rank962/完整关系恢复C*418，不偷换146。主因子正乘uC/τ²，原ρ阶−1457→−1205，t首项再乘c^1205。exact_height继续真实消费者，保其余12A/B右端。
 
