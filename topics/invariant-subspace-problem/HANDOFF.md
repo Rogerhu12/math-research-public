@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 94ef4fb5410e61a7de69189d70bac1757bb81b87（2026-11-16 14:12:11 UTC，临时研究session run43883188532实际pull --rebase，两README无差异；详见notes/r150-original-rank-four-local-source-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** d236a95e1ed50580393f62c690de0f790f17476a（2026-11-16 14:12:32 UTC，临时研究session run43883188532实际pull --rebase，两README无差异；详见notes/r150-original-rank-four-local-source-execution-789f/）。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
