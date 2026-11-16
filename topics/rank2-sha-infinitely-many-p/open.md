@@ -169,3 +169,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - 原finite-test附A已付两共轭点完整selector：在实际O0=Zp[μ18]，17惯性整双投影、Sah与Nakayama使模p独立两组的联合像为全p^n矩阵；已用p环类层及原Euler单位条件同时保。扩大系数只保真实det非零；usual core0，下一门是真paired finite–singular关系，未套MR core1。
+
+
+- [原第二核有限类刚性](notes/2026-11-16-r872-second-kernel-finite-class-and-first-source-rigidity.md)已付：全39带在actual轴给三长s（ell2/3补项完整运输）；d<κ+s+2时K2零类真返V2+J3但保联合β1，且整个来源含t²。因此同P的两p³修正若全球o类相同，其整个[t]R六次多项式相同，低二次块遗漏方向也非自由；继续实际仿射类与全前缀。
