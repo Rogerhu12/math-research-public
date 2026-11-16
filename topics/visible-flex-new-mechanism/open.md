@@ -14,7 +14,7 @@
 
 ### O2 最新实际
 
-[末已付方向实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)三尺度原14门均真但η均上升，学fine159001后停止，仍accepted52/η.2660182947853381。最新双钟/122值与余cone32见后段；固定g、主精度/reach义务不变。
+[cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)唯一model28/cone32 AlmostSolved、原有限门全过；full-grid fine87417抬rho使gain−.000011406471767227977，0物理trial。原accepted52/η.2660182947853381/κ57.999249547251196与实际池4448/4544v13/13不变。32cone与64HiGHS均封存；新195.335570869秒/2恢复值，锥累计968.675704986/原1324.805525247秒、62/124值。完整161及当前bank保在原stdout。下一纸证已付p32完整线包络；不把单点失败说成整段失败或驻点，任何新标量方法另计调用和恢复费用。
 
 ### 仍须支付
 
@@ -153,14 +153,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### 原64封存；唯一cone32入口已发待原stdout
+### 原64/32封存；新完整线包络问题
 
-[已付方向实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)三尺度两网14门/163盒真但η均升，全拒，学fine159001即停。末52/η.2660182947853381/κ57.999249547251196；pool4448/4544v13/13、bank512+8support、learning62/61/0、B.00025/streak0/0。新6value/115.395022724s全部收费；原common-height前两步超B，不追授资格。
+[末cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)完整保161与模型绑定，原linear/box/included cone全过，但fine87417首次完整分离使rho=.0060297012571054465、gain负。5761→5762只是有限锥tags，未第二次求解、未实际池学习；0trial、0接受，不能归实际曲率门失败。bank512四分支观察更新、8supp/62学习events/61commits/pending0与原52全向量不变。两末钟以COMPLETE为准，不用较早ledger/CP少计报告费；新2恢复值、无独立末audit、原6/12/11/9检查不重。
 
-锥累计773.3401341169999s/60值，原1129.469954378s/122值；上限1200/1800秒、96/160值交集余426.659865883s/36值，31/32锥余1；原64HiGHS封存。完整旧账见原actual notes，不重m27或缺向量LP64。
-
-[设计](notes/final-cone32-after-paid-vector-values-design-20261116.md)和[根审源](notes/final-cone32-current-model-entry-review-20261116.md)已随唯一request发表：189绑定、原182/98args不变，0旧/新developer/tinycone。仅52+新行当前模型28与cone32，必要冷恢复/J/factory收费，原全部验收和学习保持；raw161、p159、rho/norm先保存再筛。待原stdout真实pull/返回/残差/验收/费用；预算耗尽不增加33，子题结束继续新未付方法，主门未放宽。
-
+两个solver额度均永久用尽；科学时间/values余额不授权cone33。新任务若用已付p32考察α∈[0,1]，先证明全metric谱分支凸及全active右导条件，核必要完整e0/f0/de/df输入。原四attainer不能代表全184320点；可研究不需位置的first-jet诊断以免无用cold prefix。任何新增标量优化/完整oracle都明记次数、身份、限额与全部科学时间，真实试点仍原完整几何/14门/精确盒，不改固定g、.26中间目标或主README门。
 
 ### R399新的第二period内部通道已实际付至四点
 

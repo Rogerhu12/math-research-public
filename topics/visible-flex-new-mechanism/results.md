@@ -270,3 +270,6 @@
 
 
 - **原唯一cone32：累计预算与完整161入口已发表。** [设计](notes/final-cone32-after-paid-vector-values-design-20261116.md)和[根审源](notes/final-cone32-current-model-entry-review-20261116.md)（审源6816B/SHA5e8fa19f4c6a3110f9fe7310bde7b12f719cfbb00d2487a639b7d3648a5e3c5b）接最新点52、fine159001/13,13与773.340/1129.470权威双钟、122值、31已启动锥；只余一次新cone32。189绑定中原182/98args不变，0旧/新developer/tinycone，原验收/controller全保。新161/p159/rho/norm在filter前准确保存，组件计时缺口分口径明示。已发唯一实际入口，结果、实际pull及全部费用待原stdout，不提前授运行通过。
+
+
+- **cone32首实际：有限锥残差全过，完整网格撤销改善。** [完整实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)（19117B/SHAd0c7bc22ad1fbf5a9f3a380048aaea7e6b53bd8143c7e4c43f06f70768709ab9），run43800505444/job133079366251/source8dfe5272。AlmostSolved完整161在筛选前保存；新fine87417使rho=.0060297012571054465、gain−.000011406471767227977，0trial/0接受。tags5761→5762未再解，actual池/原52/全部实际门不变；bank仅四次affine观察更新。新195.335570869秒/2值、累计锥968.675704986/原1324.805525247秒与62/124值；32/32cone及旧64封存。全部实际pull、189绑定、旧收据复用、vector/hash和计时scope已完整核读，不宣stationarity/主目标完成，继续新p32线包络问题。
