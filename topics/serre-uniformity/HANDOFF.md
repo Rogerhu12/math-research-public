@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：b353a12dd8d1fb2d03c5c2cc4d606c9be820f662**（2026-11-16T14:45:58.276336+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[K固定基完成前H](handoff-archive-2026-11-16-before-certified-K-fixed-basis.md)，内接全部旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：785b275964965115bb13cc56ddc727a8d20a26f8**（2026-11-16T14:47:43.871409+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[精确CM粘合前H](handoff-archive-2026-11-16-before-exact-CM-gluing.md)，内接全部旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -17,7 +17,7 @@
 |R854原41 N112续|43880489423 / 133344905148|source20984736，已入compute；旧BudgetStop124/1041stage直接续，四球未成|
 |R787半dual541后|43869450077 / 133306600874|393efa24，同coreffe5dcff/wrapper1552e403，542正残差直接读|
 |R815准确Γ|43853995004 / 133253466821|c1b3bfb1，core80516ff9/wrapperab725da0，准确g直接复用|
-|R900 K定义D272|本次激活，待实际run|真R899/R894，core31d09111/wrapper1ccf84b6不变|
+|R900 K定义D272|43889194318 / 待compute job|source1418d76e，真R899/R894，core31d09111/wrapper1ccf84b6|
 |R902严格六σ|43881907151 / 133349808252|sourceec6b6cf1，已入compute；coreb0f5510e/wrapperdb561206保原固定选择|
 
 全部同核续不重旧位/行；原断点完整pins和source文件沿前态链。[N112断点](notes/R854-N112-budget-checkpoint-and-same-core-continuation.md)保完整算子112、末profile63输入49/rank7；manifest3ea125ba/art14229723159/9e1f26d2至Nov17 13:38，cfg22776712不变继续112。非最终逆界，R858两个input仍null。原S_m/full2560/free1186、ZP正号、t/u双条件、全H_n/tail及Trace14/2/cχ保全。
@@ -38,7 +38,7 @@ R890/R880/R885/R893及上述源全部完整pins、旧W/K/正常/jets与不可改
 
 **[R899实际已成](results/R899-certified-original-K-fixed-seven-trace-RR-basis.md)**：43879192431/job133366133706/source34001929，280stage/9.162s，finalff97cb88/manifestcb951c29。完整0/1/2纤维816×418秩418，原minor157473788；S=QN·BN A^-1的418列K固定。首P0 unit列0不缩放，w0=88897486、ρ/t首项528708486/590477772、阶−8435。art14234003349/907c1ef8至Nov17 14:33，原164件carriereabd0664；char0展开/Q下降未成。
 
-**R900** 本次填真R899/R894并激活，core31d09111/wrapper1ccf84b6/methodb6db29ae不变；QN小组从真实R899 carrier读。取消QN后真1234→146、962→418才得K定义DK272；QK=QN·w0/v、ρ阶−8435/t正c^8435不改，正常数组无extra τ。实际rank与DK待算。
+**R900** 真R899/R894已填，run43889194318已受理，core31d09111/wrapper1ccf84b6/methodb6db29ae不变；QN小组从真实R899 carrier读。取消QN后真1234→146、962→418才得K定义DK272；QK=QN·w0/v、ρ阶−8435/t正c^8435不改，正常数组无extra τ。实际rank与DK待算。
 
 **[R902方法](notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md)** 30严格共轭：同原I/J/F仅初始B0/B1两rhs；完整残余/146/418、原投影/v/w及ρ/t保全，仅δA6新。首run43879863247源schema即退未入核，精确R809/R827配置内result修复已单独登记；coreb0f5510e/wrapperdb561206，真run43881907151已compute。
 
@@ -60,11 +60,11 @@ R859–R898原BT/Drinfeld/cusp/CM/KS/theta整lift与两旗36源均已证，完�
 
 **[R904原Wronskian](results/R904-original-six-channel-Wronskians-and-torsion-vanishing-sequences.md)**：Q^r六列r≥5在K^p独立，ordinary Wr非零/36挠点同权≤p；r5 div=pE[6]和原常数，r≥6真实六行消失序列/w≡5mod6已证。不冒互补primitive/Legendre指定jet非零。
 
-**[R906整Tate像](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)**：原fine level6图/period lattice在σ下固定，正CM实际M上σ−1整可逆，原qTpJ=qB TpB且逐h index不变。不换optimal；e=p²−1不许小分歧cotangent定理。
+**[R906整Tate像](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)**：原fine level6图/period在σ下固定，正CM实际M上σ−1整可逆，qTpJ=qB TpB且原逐h index不变。e=p²−1，禁小分歧cotangent捷径。
 
-**[R908有限平坦CM](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)**：原e_hq_B=[p^a_h]f_h，真kernel闭包商D_h带δ的Fp²作用；Raynaud尺度及Cartier对偶Lie单射给r∈{0,p−1,ρ_h}。good-model原content：r0恰ea_h，非零≥ea_h+pr；未冒指定盘normal。
+**[R908有限平坦CM](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)/[R910原normalizer](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)**：原e_hqB=[p^a_h]f_h，真kernel闭包商带Fp²作用；Raynaud尺度/Cartier对偶Lie单射、全u作用及Igusa μ_(2n)点态核已证，原a_h保留。
 
-**[R910原normalizer限制](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)** 已证：真实全惯性u在fine Drinfeld quotient上(X,Y)→(q²X,qY)，q=u^(p−1)；q=−1为hyperelliptic，dual Lie同−1，排r=p−1。原Igusa普通datum经w1/−I给μ_(2(p+1))点态核，故h<(p+1)/2时r=0，h>(p+1)/2仅r∈{0,2h−p−1}。非零支两Lie线分别来自Drinfeld/Igusa；不假定Igusa ordinary，原a_h、指定盘normal、同h第五jet及height仍保留。sigma_uniform继续真实Igusa αp字符。
+**[R911精确CM粘合](results/R911-original-Picard-descent-and-exact-CM-gluing-dichotomy.md)**：实际Picard下降中ωB为分支H0Ω，Lie(B∨)为其对偶；Drinfeld余切只有q^(1,3,…<n/2)，Igusa无primitive t_h。上半r0将给不可能的余切非零，所以严格r_h=0（h<n/2）、r_h=2h−n（h>n/2）。上半两实际αp子群分别嵌入BD∨/BI∨，其不同字符给Igusa a-number下界。原content下半恰ea_h，上半≥ea_h+p(2h−n)；不宣称上半等号/a_h0/指定CM盘normal或同h jet非零。Milne/EP原文与双逆号已核；sigma_uniform续原Igusa companion。
 
 ## 关闭边界，全部继承
 

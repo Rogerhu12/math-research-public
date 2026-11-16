@@ -2,51 +2,40 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-certified-K-fixed-418-and-activate-original-K-representative",
-  "commit_message": "serre: certify original K-fixed trace basis and activate bounded K representative",
-  "rules_last_read_commit": "25aff780e965fc4d9d06b7fe145ad4f18ac8cf3c",
+  "request_id": "20261116-original-Picard-descent-and-exact-CM-gluing",
+  "commit_message": "serre: prove original Picard descent and exact CM gluing dichotomy",
+  "rules_last_read_commit": "b353a12dd8d1fb2d03c5c2cc4d606c9be820f662",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "af243bacba40369cb1bfb252c19ebbe61116e26b693571a6926c501b83fa3417",
+  "expected_previous_request_sha256": "09c25ac96e0dd644bf36b7907108e9e99521a7f9a48122a95ea1cab49717dffb",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R899-certified-original-K-fixed-seven-trace-RR-basis.md",
-      "sha256": "c233acd4007ac396ecef7aed6d91e797d7b2a2f4aaa815c7805f9d91567f9ac7",
+      "path": "topics/serre-uniformity/results/R911-original-Picard-descent-and-exact-CM-gluing-dichotomy.md",
+      "sha256": "239eb795deea5adbd406c4709f01e9034fa92d08b1258ab4668d3e3944f5089f",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R900-K-defined-degree272-public-request.json",
-      "sha256": "a5cc380c3dac4065cb729906a850cc3f4364afc812f9e382301d9390a3386e27",
-      "expected_previous_sha256": "c2ad9b9d27bf731aedaa6938188c1c5b2d35f2299cdc304bcc5fcd1fae441079"
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-K-fixed-basis.md",
-      "sha256": "2c387ec60912efa24364a069108b3eaeb2ddb5dc76b58544d926e5e722c73212",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-exact-CM-gluing.md",
+      "sha256": "39c4e9aabc0b542dfd994ba1cd025a470e6d09a72232c1021b0439485f71cd81",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "8f201d503e8087dcd81de9318fcc72f60668bca127540fe1f7da8dc702488c55",
-      "expected_previous_sha256": "2c387ec60912efa24364a069108b3eaeb2ddb5dc76b58544d926e5e722c73212"
+      "sha256": "e43901e128e159afc4b4593e1b8a1806b7542514ddce17627efe9a32891a7e67",
+      "expected_previous_sha256": "39c4e9aabc0b542dfd994ba1cd025a470e6d09a72232c1021b0439485f71cd81"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "a52a4e9e856fcc6998d9b92a07e892562cb58a6bb5918ab7d8435e3e30b26990",
-      "expected_previous_sha256": "993b3e18eeb0880b9d060290110b3ef5206c7c62296fa6460c7fc98e72e31dbc"
+      "sha256": "9cb4b19e21163291505845e8430df7e6e891856996153e9fa4590a65cebfcf41",
+      "expected_previous_sha256": "a52a4e9e856fcc6998d9b92a07e892562cb58a6bb5918ab7d8435e3e30b26990"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "9bd958b00c598d559eb96edc7763edd4a0457d346b39e40a9bd673e446940144",
-      "expected_previous_sha256": "e68e9141a4332ee1dad613c808c3731387056e680bb7c76d2519ae99d0ed80ac"
+      "sha256": "be63cfc673f0dd02e93df21e227e961eb61e5343fe9c901dd377443d9f3db01d",
+      "expected_previous_sha256": "05a83c6d246d5356af4ef08b9496d35726244f9ade208d5cc014bb4ebd31cf4e"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R900-K-defined-degree272.yml",
-      "request_path": "topics/serre-uniformity/notes/R900-K-defined-degree272-public-request.json",
-      "request_sha256": "a5cc380c3dac4065cb729906a850cc3f4364afc812f9e382301d9390a3386e27"
-    }
-  ]
+  "dispatch_workflows": []
 }

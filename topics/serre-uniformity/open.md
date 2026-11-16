@@ -175,3 +175,5 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **[R907九范数执行源](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)** 六件已全文读并冻结：corecf905290/helper7e4a8d88/wrapperb8a5f94b/method44e3ef90。原128给816×836真实672；完整A272/E2176中一次A[T] Berkowitz、19584坐标CH并正乘NormΦ，九值保全部幂零。QN另从R899真实闭包读取，不把R901 metadata当叶值；参考九值/旧K全复用。pending R903/R901/R899仍null，ARTIN已成43848870181绑定；两图九生成元/colon逆/dual7为准确表达，P0/P1数值仍false。exact_height继续原两固定支与两长度3轨道的端点帧。
 
 **[R899完整K固定418实际认证](results/R899-certified-original-K-fixed-seven-trace-RR-basis.md)**：280stage，finalff97cb88/manifestcb951c29；全部列通过同418逆归一、七重cocycle和原未缩放P0行保留。三个正规空间纤维与164件原输入carrier可直接复用，不重16flip/旧W/K/正常/jets。R900激活实际请求而非重复R899；五Lj/连接/period/height仍未成。
+
+**[R911精确CM粘合二分](results/R911-original-Picard-descent-and-exact-CM-gluing-dichotomy.md)** 已证：保持原半线性环约定，Picard余切与曲线H0Ω同字符，dual Lie反字符；原Drinfeld余切仅低半奇权，Igusa无primitive t_h，故R910上半r0被排。严格r_h=0（h<n/2）或2h−n（h>n/2）；上半实际αp两线分别嵌入BD∨/BI∨且给后者a-number下界。原微分content分别ea_h与≥ea_h+p(2h−n)，原Tate指数、指定盘normal及R897/898同h关键jet桥仍缺。
