@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：9471d916d76d755b9a67bced53544c218a983a15**（2026-11-16T02:06:55.227403+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[配对继承前完整H](handoff-archive-2026-11-16-before-dual-pairing-reuse.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：2857199339d6f7a2e95775db8533e5c98aefe0fa**（2026-11-16T02:09:09.456878+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[配对继承前完整H](handoff-archive-2026-11-16-before-dual-pairing-reuse.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -35,7 +35,7 @@ R787旧518格（56detU1/56新D非零）、R815旧49拒/九维调度均已闭，�
 
 ## 正在推进的原后继
 
-**全局原五极理想**：[GP.7/15](notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md)520bfbd5/[契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4。2709真源/fp a2839071、完整F1234/W34/C12/S51234、R845八准确外叶/R791真σ全保。run43788533339/job133041569193/sourced39fa378：wrapper39bef619已通过全部来源，core995a1298在prepare误断言field.dimension_over_Q==14而退出；实际源为完整M+维280，agent按原schema修，不放松数学条件。artifact14191591612/687028df，manifest1a81c768；无新数学stage。仅全局准确DAG，未得理想规范格/刚性化/η零/高度。
+**全局原五极理想**：[GP.7/15](notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md)520bfbd5/[契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4。2709真源/fp a2839071、完整F1234/W34/C12/S51234、R845八准确外叶/R791真σ全保。第二run43788533339/job133041569193/sourced39fa378已过全部来源，prepare两处原schema误断言，未入数学；[精准修正](notes/R839-global-polar-original-field-and-chart-schema-fix.md)新core544241ac/wrapper39bef619：原M+280与L14分开，旧chart历史flag保持false、完整关系仍由R840原单位chart证明绑定。本push重启，随后记run；仅准确DAG，未得规范理想格/刚性化/η零/高度。
 
 **c0首项纸证已推e289ffe5**：[原不分歧/比较首项](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)d29ef204。原K[T]简单模与P0∉D给全部原非零Hom不分歧；t=a³下ord R_j=14(p−q)。原六V=U/E6只用M6末四行/Φ0/Φ73；λ³=108W，真Norm/Trace给κ和d。指定帧比较纤维非完整刚性化/height。新consumer core4f8a4193/wrappera7b91ecd、35原源/fp d689a039已全读，待公开激活，无本地新算术。
 

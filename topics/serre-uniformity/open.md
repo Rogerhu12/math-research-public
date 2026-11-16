@@ -126,3 +126,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原清转置第二次启动修复**：[真实eZ标签与已成配对继承](notes/R787-cleared-dual-second-start-eZ-label-and-pairing-reuse.md)。run43787626643/source1abe4778已成原J/Jinverse 4629B/b384a331，随后因原index实际标签“1,s”与block标签不同退出；corebad97414/wrapper5388274精准适配并将六件旧阶段作PAIRING外源保原tag/字节继承。1481输入与Θ/Dixon/RR/full35840/Δ不变；新dual从1位，旧518非其精度，未接受或拒绝q。
 
 **原c0首项与五比较一阶**：[c0完整纸证](notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md)保原t=a³、六V末四行/Φ0/Φ73、λ³=108W及五ord14(p−q)、真实κ与d；仅指定帧比较纤维，非完整刚性化。原五D_j有限见证run43789012126已实际全得估值0/A518，五R_j′非零的正式结果正在登记；真实高度、标准Jacobian、A.1及全p仍缺。原Toeplitz零子式边界e3ba7a28及中央二标签9560403b全保，不拼不同h。
+
+**原全局第二次启动修复**：[原字段与chart](notes/R839-global-polar-original-field-and-chart-schema-fix.md)。2709源已全通过，core544241ac仅按真实源把完整M+维数断言14改280及初始chart历史flag true改false；关系系数L14、原20坐标、R840完整关系证明和DAG不变。wrapper39bef619不变重新触发；该失败没有新数学stage。

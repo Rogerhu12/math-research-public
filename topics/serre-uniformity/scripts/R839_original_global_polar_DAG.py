@@ -319,7 +319,10 @@ class Job:
         assert r787.tag['R787_method_sha256']==OLD_METHOD and r787.tag['R786_proof_sha256']==OLD_PROOF
         assert r787.tag['basis_dimension']==1234 and r787.tag['basis_integer_scale']=='13744803133596058624'
         self.field=r787.tag['field'];assert self.field['original_b_replaced_by_another_twist'] is False
-        assert self.field['dimension_over_Q']==14
+        # This unchanged R781 descriptor is M^+=L(t_xi), of degree 280.
+        # The relation unknowns are in L=Q(B,s), of degree 14; each
+        # original Laurent coefficient has 20 real cyclotomic coordinates.
+        assert self.field['dimension_over_Q']==280
         same_origin(r787.tag['retained_artifacts']['R781'],r781.item)
         same_origin(r787.tag['retained_artifacts']['R786'],r786.item)
         self.chart=r787.get('R787-prime-1000000753-chart.json.gz')
@@ -327,7 +330,10 @@ class Job:
         self.selection=r787.get('R787-prime-1000000753-selection.json.gz')
         assert self.chart['chosen_free_column']==1186 and self.chart['actual_modular_rank']==1186
         assert self.chart['other_free_columns_set_to_zero'] is True
-        assert self.chart['all_14_branches_already_verified'] is True
+        # The persisted initial chart predates the all-branch verification.
+        # The bound R840 unit-chart expression below certifies the full
+        # original relation; this historical source flag remains unchanged.
+        assert self.chart['all_14_branches_already_verified'] is False
         assert self.blocks['exact_E0_Z_zero_verified'] is True
         assert self.blocks['A_inverse_over_Q_computed'] is False
         self.pivots=self.chart['pivot_columns'];assert len(set(self.pivots))==1186
