@@ -271,3 +271,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R508 — 原输入身份与限定归属的221后继
 
 **条件实现已完成；原14科学/协议源、全部数学门与19200单钟不改。** [正文](results/R508-live128-scoped-ownership-and-original-input-repair.md)12168/a28c1cec、[接口](notes/2026-11-16-request221-live128-scoped-original-full112-interface.md)14354/5c0f369b连四入口源发表：outer38924/6f211144、reader35283/687168ef、request54884/0fa9fe29、workflow13301/83849e83。只按R502三个实际错补原正确64字输入pin、以登记/startticks/组/session/实际后代/namespace界定quiet、改单行保留说明消除坏heredoc。stat图先于uid筛选，真实/可疑own不可读或身份变化仍unknown，不向未登记组发信号；外部sameuid不可读不凭此归own。原必要选择器/单90K/超70/再次quiet及原清理条件不动；336pins含全部旧334。实际R509必须独立真实run，不由源码组合或219未起状态补数值结论。
+
+## R506 — 实际220的政策JSON源码分类停止
+
+**实际220：第六层来源生成失败，R503新点尚未求值。** [全文](results/R506-actual220-policy-JSON-source-classification-stop.md)14881/0fde227a，run43833995131/source3ea0620a、compute133185959623/report133187249530各终志唯一且均failure。原R496 checked_source仅允许.py/.mjs，plan第6个required_public_sources却为政策JSON，后缀校验ValueError；前五生成调用已返回0是有原源码支持的前缀，4165B事务正文未返，当前46view循环未起，bootstrap此前单独生成/AST不混称无源码执行。正式dispatch/refinement未建，C485B仅未启动null帧同字，规则/closed/refinement/composition body均未返；cleanup真实skip，report固定概括不作存在证据。所有C/far/native/BVP/几何/精化未起；222只修JSON分类且仍外层完整字节核，四outer/46科学tuple/原门/原钟保，不改旧220、不由SHA恢复临时现场。
