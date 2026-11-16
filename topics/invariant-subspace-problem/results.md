@@ -166,3 +166,5 @@
 - **R150原rank3完整关联与不可约六次pencil（2026-11-16，已证明）：** [全部核与高亏秩界](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)保固定E双向参数运输、全部84真六次系数，原I3(M)=(y)³使六行关联概形恰为rank3退化；全225四minor给I4(T′)=(μ)^4，全21五cofactor把rank4例外放在单一仿射图且长度≤35。原127线完整Rabin与Gauss给E不可约，非绝对不可约；rank4处整P1核不删。三实际阶段127.391/10.488/0.00855秒均exit0，来源/参数/输出SHA齐全；全部Bell1余关系仍未判空。
 
 - **R150原未乘31目标的四次参数来源与完整四参数检验（2026-11-16，已证明）：** [原全局H0和真实系数层证明](results/R150-appendix-original-hstar-fourth-parameter-annihilator-and-complete-four-scalar-test.md)以x²h*全17模p³证书给B_root1=0、x²B⊂p³T∩T[p]真七维，再以已付p³B=p⁴T和同指数块得x⁴B=0，九原目标均有无31分母来源费≤8515。I/K恰为四轴(p⁴,px,x²,x³)到S⁹的63×4共同核，K=(p⁵,p²x,px²,x⁴)；前两轴独立，后两读数未执行。小审0.331693秒/exit0，保26原H25系数及5040参数乘回，不重210，不声称四次最小。
+
+- **R271相邻创建来源的完整右配对及真正帽运输（2026-11-16，已证明）：** [完整h段与原全核证明](results/R271-appendix-adjacent-creation-actual-return-pair-and-true-hat-transport.md)对η⊥K_Q、支撑≤Q保<Rr,P_EYη>=<Ur,η_left>−<Jb r,Yη>，全配对≤||w||||η||。原相邻σ/α创建族满足此门，付3e8||w||Δ/x，外投影交换差付4e8||w||Δ/x；真E/逆伴随/帽E按原次序运输，裸端误差保留，帽费乘1+C0²。原主V⊥缺陷也被完整支付，剩同一PK_Qf的实际返回测试；不以小核投影或Bessel冒普通右费，N=M仍开。
