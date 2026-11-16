@@ -382,3 +382,7 @@
 ## 2026-11-16 05:45 UTC /root — Request213完整必要上下文公开入口
 
 [213完整接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)及plan/recipe已刊 `f7ba484fb3bdb0428b4b1efef815673b513a78a8`，R479核心已a9ff7bec。本次独立刊request22988B/bb4005b4与workflow19127B/c0543ec8，由新请求路径触发公开仓库自身Actions；原98父、108旧来源/110public+2现场view、全39八批/17α/全部原门/10500秒/单90KB超70均保持。科学生成和必要读回严格按实际范围报告，不以step success补数学通过；实际run/source待官方绑定，R480由exact唯一终态读取。
+
+## 2026-11-16 05:47 UTC /root — Request213官方运行绑定
+
+[213完整接口](notes/2026-11-16-request213-fixed-context-whole-chain-readback-interface.md)实际source `fe0a0d737440bcad59d5af9cb9d08b24131204f4`，公开Actions [run43812359001](https://github.com/Rogerhu12/math-research-public/actions/runs/43812359001)于2026-11-16T05:46:04Z/attempt1启动；compute133116630470在05:47官方metadata前1–7成功，第8原complete39 model/freshFD八批科学运行，必要读回/rules/清理待起。R480由exact唯一后续与终态读取；此处步骤状态不补实际批数、语义变换生效范围、90KB容量或接受。入口官方topic tree `9790fd062fdbe2713ce0bbebe32d081b3e1aede6` 为9265blobs/196672604B、9637entries，truncated=false。
