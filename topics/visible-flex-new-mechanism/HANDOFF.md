@@ -38,8 +38,10 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 完整**54** MODEL27410526B/**2aeadf3edb066a2687af605ef6d33a24322221d886751c177977199b68212ed5**，bindinge69cafa6a8e8811d3595f4490a95c14a1cdea390aa94ab71079b5a5095777ced。真实**55** CACHE2 **29873051B/9e2d8986f82674d5fef27b530b177798419a203bfbef4782c632c23a8ed5870f**，binding **697ee3cbaa48d26e0d6b0e230524523732c3cd96e572711ebf2044e9c5a3a2b6**，只含本次已付U/T/e/f/radial/theta/159（0额外重算）；不含positions/curvature/二jets/J。54完整模型不冒55模型，原方向已闭。全部payload原stdout，不进Git/artifact/Release/cache。
 
-## 5. 正在接续（2026-11-16 08:57:35 UTC）
+## 5. 正在接续（2026-11-16 09:10:25 UTC）
 
-root已完成54新模型并接受55，当前接真正新完整body列（拟9列全活动域扩展）与同g非线性/曲率/非局部reach。新族须完整ordinary/JVP/身份与原实际门；如从拥有paid MODEL的54零新列点起，明确保55为best而不冒55 J。旧所有有限矩阵/方向已闭，不重复旧solver。新数学设计与脚本先可审写入，研究只公开Actions。
+真正三原子五参数cap已建新请求与源码：[执行边界](notes/three-curvature-atom-cap5-new-model-design-20261116.md)，workflow visible-three-atom-cap5-search.yml。完整12L/8Aj/五Delta/解析5J，36固定起点；同120秒/5000完整值J，105秒停搜索，首原G∞≤1e−8才同账有向收缩。0旧cap15/ψ3/self/ODE/J/rank/开发重算，原stdout不入Git。新研究及只读报告启动后立即记run/job/源和实际pull；真零尚未得到。
 
-[真实cap五门有限观察](notes/cap-five-positive-curvature-bounded-observation-20261116.md)已结束：run43833666242/job133184846641/source39fc3f0e…，同原120秒含旧首步失败总 **114.27892698800002秒**、166started/164complete/2fail，954103RHS/63已付prefix（新0）；0旧checks/开发。六固定起点前三完成、第四112秒截断、第五六未启动。best96→同参精化165/166，H.6960893596735331，完整五门reduced∞ **.17708499746487424**，完整E=−.0002570121087685784+.0001102404668311685i，非零且非驻点；精化差3.55e−12仅浮点。旧15族任务闭合不重开；接真实新自由度/全局障碍，R481/487局部正规不等全局零。冻结ψ3完整E严格非零任务已闭（run43827984553，0旧重算，新.3593075210000052秒、连旧self16.0500706319999152）。R482/486完整单份低维路径与同规范/全部第四V继续。主完成门未付，继续open。
+新几何从真正55开始，冻结旧159，仅增加R490完整9列：独立168/物理172。旧54 MODEL不冒55；55原CACHE缺二jets，必要两网ordinary与新9导数同一新600秒；最多16新行集/完整双网分离、64新attainer、64scalar、3actualpairs。所有原14门及准确172盒，须比55新降≥1e−7才接受56。旧159 defect不当新9证书；有限9fiber失败不排完整168族。源码装配中。
+
+旧cap15已闭：run43833666242/job133184846641/source39fc3f0e…，总114.27892698800002秒，166/164/2次、954103RHS，原G∞.17708499746487424非零且非驻点；不重开余额。R492真实source商、同规范even与真实桥继续。主完成门未付，继续open。

@@ -1,0 +1,161 @@
+{
+  "schema": "three-curvature-atom-cap5-request-v1",
+  "entry_point": "scripts/literature_three_atom_cap5_search.py",
+  "scientific_scope": "new_three_curvature_atoms_offset_complete_five_gates",
+  "mathematical_scope": {
+    "parameters": [
+      "a1",
+      "a2",
+      "b1",
+      "b2",
+      "C"
+    ],
+    "strict_domain": "0<a1<a2<1, 0<b1<b2<1, C>0",
+    "complete_targets": [
+      "Delta1",
+      "Delta2",
+      "Delta3",
+      "Delta4",
+      "Delta6"
+    ],
+    "original_density_terms": 12,
+    "original_accumulated_coefficients": 8,
+    "finite_term_maximum_degree": 21,
+    "integration": "exact finite monomial antiderivatives; no ODE or quadrature",
+    "Jacobian": "analytic through all segment limits, C_i, tau_i, H, endpoint potentials and search chart",
+    "boundary_candidate_is_not_a_smooth_profile": true,
+    "regular_zero_lift_reference": "R493 Section 6"
+  },
+  "budget": {
+    "entry_seconds": 120,
+    "search_seconds": 105,
+    "complete_oracle_calls": 5000,
+    "stdout_soft_bytes": 33554432,
+    "rational_integer_bits": 1000000
+  },
+  "search": {
+    "starts": 36,
+    "per_start_max_nfev": 120,
+    "candidate_unscaled_G_infinity": 1e-8,
+    "first_four_z_bounds": [
+      -4,
+      4
+    ],
+    "last_z_bounds": [
+      -8,
+      3
+    ],
+    "residual_scaling": "(1+H)**(nu/2-4) * (Delta_nu/R5)",
+    "ftol": 1e-12,
+    "xtol": 1e-12,
+    "gtol": 1e-10
+  },
+  "initial_points_rule": {
+    "first_32": "lexicographic product q1,q2,q3,q4 in (1/4,3/4); for each C=1/32 then C=1",
+    "final_4": "all q_i=1/2; C=1/128,1/8,1,8 in that order",
+    "chart": "a1=q1*q2,a2=q2,b1=q3*q4,b2=q4,C=exp(z5); q_i=sigmoid(z_i)",
+    "no_old_cap15_point_is_read_or_fitted": true
+  },
+  "certificate": {
+    "decimal_precision": 80,
+    "decimal_newton_calls": 8,
+    "decimal_stop_G": "1e-55",
+    "center_dyadic_bits": 160,
+    "inverse_dyadic_bits": 128,
+    "box_radius_negative_binary_exponents": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ]
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "single_thread_environment": [
+      "OPENBLAS_NUM_THREADS",
+      "OMP_NUM_THREADS",
+      "MKL_NUM_THREADS",
+      "NUMEXPR_NUM_THREADS"
+    ]
+  },
+  "source_manifest": [
+    {
+      "path": "scripts/literature_three_atom_cap5_search.py",
+      "bytes": 41769,
+      "sha256": "af7b497b3b8f94846fb05947bf028b50c9811e3eb37d25acf18e59ea48a55fbc"
+    },
+    {
+      "path": "results/R491-complete-complex-phase-and-two-curvature-atom-five-condition-boundary.md",
+      "bytes": 14652,
+      "sha256": "da2d85b3e12defc9d33120a690d59285318a3e368e07c952b68aefeb706d7efc"
+    },
+    {
+      "path": "results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md",
+      "bytes": 15713,
+      "sha256": "48521ac33d597b290aec5c2aa515786766431a8be6cdf3e2c79ae34ae2828e63"
+    }
+  ],
+  "paper_provenance": [
+    {
+      "name": "R491",
+      "commit": "648e84998a03d15c5762c4be90e809ebb0adbffc",
+      "blob": "32e33d45e019b256cdb743a54d6dc5166fc5d8ce",
+      "sha256": "da2d85b3e12defc9d33120a690d59285318a3e368e07c952b68aefeb706d7efc"
+    },
+    {
+      "name": "R493",
+      "blob": "75af1e9945bbaf1fdd3a1a3b390cd63e485111d2",
+      "sha256": "48521ac33d597b290aec5c2aa515786766431a8be6cdf3e2c79ae34ae2828e63",
+      "commit": "64dddfdd29d1b93467fa816e6641e8503cf517c9"
+    }
+  ],
+  "outputs": {
+    "records": "CAP3_RECORD with sequence, payload SHA256, ordered chain SHA256, all complete values and analytic Jacobians",
+    "final_report": "CAP3_FINAL_REPORT, transient --out only",
+    "final_clock": "CAP3_FINAL_CLOCK sampled after final report and file output, supersedes pre-output fields",
+    "raw_scientific_output_must_not_be_committed": true,
+    "no_artifact_upload": true
+  },
+  "forbids": [
+    "old cap15 ODE/prefix/restarts/log recovery",
+    "old four-self or frozen-psi3 observation",
+    "old rank/mapper/forcing/development suite",
+    "complex-E-only search",
+    "claiming a floating residual is an exact zero",
+    "claiming finite-model failure proves cap nonexistence",
+    "replacing an r jump with one-sided value times a delta"
+  ],
+  "previous_account": {
+    "status": "closed; informational only; no input restoration",
+    "run": 43833666242,
+    "job": 133184846641,
+    "source": "39fc3f0e3ebdb88b0c69405df3d6319afa5bff09",
+    "cumulative_seconds": 114.27892698800002,
+    "does_not_fund_or_extend_this_new_model": true
+  },
+  "repository": "Rogerhu12/math-research-public",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "queue_session": "Astra-new-mechanism-9974ea84",
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/literature_three_atom_cap5_search.py": "af7b497b3b8f94846fb05947bf028b50c9811e3eb37d25acf18e59ea48a55fbc",
+    "topics/visible-flex-new-mechanism/scripts/observe_three_atom_cap5_stdout.py": "9bf7cdac0eadb602f0cb60282a9ef95af323f288db1632f2489afdaec7077385",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+    "topics/visible-flex-new-mechanism/results/R491-complete-complex-phase-and-two-curvature-atom-five-condition-boundary.md": "da2d85b3e12defc9d33120a690d59285318a3e368e07c952b68aefeb706d7efc",
+    "topics/visible-flex-new-mechanism/results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md": "48521ac33d597b290aec5c2aa515786766431a8be6cdf3e2c79ae34ae2828e63",
+    ".github/workflows/visible-three-atom-cap5-search.yml": "729ae3f7292aaeceb22036ad518d62d6577c051afb8fc96248948150848e398c"
+  }
+}

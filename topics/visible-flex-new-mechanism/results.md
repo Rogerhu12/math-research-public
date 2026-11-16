@@ -327,3 +327,7 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 ### 2026-11-16 09:06:04 UTC — R492 原十三规范锁正割奇行，转真实source/前缀条件
 
 [R492](results/R492-the-original-thirteen-row-gauge-locks-secant-odd-ruling-and-real-prefix-compatibility.md)完整保R/T左尾、母三次pairing、真实平台项和2u′²：sec odd行在母上为ζ_i∫(u_i−y u_i′)u_i″²/4，在平台上为d_i μi0/4。当前each even母∫u′u″²0，故在整个period核上β恰为原P−4/P−3/P−2/HB0四行的显示组合ℓ；原period/同13核修正不能再改变odd residual。非even余项(e/(8t)−ω/4)Σλζ∫u′u″²明确保留，不外推全紧输入。含真实中心的段，odd条件准确是完整period-source商泛函(β−ℓ)(k)加两真实中心前缀差的β读出，≤4相位生成系数；尚未判这些实际系数零/非零，更未授新秩。两个even、完整连接段全s/全成本仍要同一个规范联合解决；0新执行。并行新9维55fiber已按完整family/原实际门实施源码，主课题继续。
+
+### 2026-11-16 09:10:25 UTC — 三曲率原子完整五门新模型启动
+
+[执行设计](notes/three-curvature-atom-cap5-new-model-design-20261116.md)与源/请求/工作流同提交。新五实参数、全12L/8Aj/五Delta及完整解析J，36固定起点，120秒含imports/input/output与5000完整值J，105秒停搜索；仅首原G∞≤1e−8候选可同账有理收缩。旧15族/ψ3/self/ODE/rank/开发0，日志/证书只在原Actions stdout。此处尚无数值结果；主任务仍进行，根同时装配55的完整新9fiber，纸面接真实source商与桥。
