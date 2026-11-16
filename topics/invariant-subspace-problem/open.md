@@ -118,3 +118,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **非rank-one真两原子局部来源已付。** [原全部H-minor与局部理想](results/R150-appendix-original-two-atom-nonrankone-linear-minor-and-local-source-certificate.md)：真y=e0+e5，固定H0后全部6y/11H导数，exact17×11与T3图均rank11；原det非零，D(M)M=adjC·F，I_D=(M)，source degree≤10。ab(1−st)D给非空原参数开支；保D，不扩到所有fixedy/Cat3或Bell算子逆。另同一原全Macaulay本地已经满4367，正式去M分母证明随后逐条发表。
 
 - **R150非rank-one两原子完整纤维（2026-11-16）：** [完整原来源证明](results/R150-appendix-original-two-atom-full-macaulay-rank4367-and-parameter-open-critical-ideal.md)在真y=e0+e5保全部6188源/4367正次数目标，原minor模127=55，故Q原理想恰(M)，每个m_j有乘子degree≤3的原17梯度来源。固定均值的所有M均覆盖；在有序两原子参数ab(1−st)D≠0上完整拉回理想为(M,Z)，D仅依参数，原第三矩/Bell均零。D=0、合流及Cat3未由本结论覆盖；本地48.971秒、全1309原运输及244990位面核真。
+
+- **R150原Cat3单位纤维与均值消去（2026-11-16）：** [完整原证明](results/R150-appendix-original-cat-rank-three-full-macaulay-rank4368-and-mean-elimination.md)在y†=(2,1,1,1,1,2)保6188源及含constant的4368目标，真实minor模127=61，故原I_y†=(1)。同选行伴随给0≠D(y)∈J∩Q[y]，原权计数42683−40040使degree恰2643，H乘子degree≤3。全部critical mean在D=0，D≠0的非空Cat3开集无纤维；不把异常超曲面等同Cat≤2，原W±及更高本质维数仍续。本地51.200秒，全原1326运输/244990位面核真。

@@ -1,0 +1,154 @@
+{
+  "format": "r150-source-parameters-execution-output-sha256-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "execution": {
+    "kind": "local-executor",
+    "completionUTC": "2026-11-16T04:06:32.805479+00:00",
+    "initialToolChunk": "6853e8",
+    "sessionId": 16700,
+    "completionToolChunk": "453dba",
+    "exitCode": 0,
+    "workingDirectory": "/tmp/normal_nonrankone_789f",
+    "temporaryOut": "/tmp/normal_nonrankone_789f/cat3-rank-actual",
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "githubRun": null,
+    "notAGitHubActionsRun": true
+  },
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-nonrankone-cat-rank-three-gradient-789f.py",
+      "blob": "11f058f7d53a9914478f1dd051b887e4342eb9b0",
+      "bytes": 19879,
+      "sha256": "ab088528d828c51136a5746236735d51f2ed22934ccad8c8623dfb29f0090a8f"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-native-789f.cpp",
+      "blob": "592bcfb834a30e6bfcc39dcd8a38ce9dfa9782d1",
+      "bytes": 17996,
+      "sha256": "0d53f3472c0250459da9091a16151f70ca2011c7b99962ef12c84ede62b66d92"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-rank-789f.py",
+      "blob": "a215806be2b019c61d027f5d3dae6005eac8c4f2",
+      "bytes": 22522,
+      "sha256": "50520960e23026c4a3a88c856e321772468d538239eba835b41fa046adf0c822"
+    },
+    {
+      "path": "notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "blob": "796c0d4c790b3f2294bc203f057e78c0fb16d4ed",
+      "bytes": 4691,
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+    }
+  ],
+  "argvTemplate": [
+    "python3",
+    "{scripts}/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-rank-789f.py",
+    "--producer",
+    "{scripts}/2026-11-16-r150-original-nonrankone-cat-rank-three-gradient-789f.py",
+    "--native-source",
+    "{scripts}/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-native-789f.cpp",
+    "--header",
+    "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+    "--out",
+    "{work}/original-nonrankone-cat-rank-three-macaulay",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--compile-seconds",
+    "30"
+  ],
+  "environment": {
+    "PYTHONPATH": "/tmp/normal_nonrankone_789f/python_packages",
+    "dependenciesInstalledOnlyInTemporaryDirectory": true
+  },
+  "parameters": {
+    "prime": 127,
+    "originalMean": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "fixedH0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "originalEquations": 17,
+    "sourceCount": 6188,
+    "targetCountIncludingConstant": 4368,
+    "multiplierDegree": 3,
+    "targetDegreeInterval": [
+      0,
+      5
+    ],
+    "constantCoefficientCount": 17,
+    "fullRankNotPrespecified": true,
+    "seconds": 180,
+    "memoryMiB": 2048,
+    "compileSeconds": 30,
+    "outerSeconds": 240
+  },
+  "smallExactModelExecution": {
+    "kind": "local-executor",
+    "toolChunk": "442746",
+    "exitCode": 0,
+    "sourceSha256": "ab088528d828c51136a5746236735d51f2ed22934ccad8c8623dfb29f0090a8f",
+    "receiptBytes": 4145,
+    "receiptSha256": "d58637ac1f545c9b7feb30d3f7f77881ecc81dd7dc2377ac945718b6e0c662dd"
+  },
+  "inputIdentity": {
+    "paidModelLogicalSha256": "c05317c3fe6ac9342260fe08615d80ff8e21637f03969b80584282bf4848f48d",
+    "modelBinding": "99455cc5512e802d02a50ca74a82b709003d2e5cb448f909469bf41b2463b63d",
+    "mathematicalBinding": "36b9c974fbf4714804204afc3c6798753ebb79a4917ba76da1beda69b6a1b5b7",
+    "nativeInput": {
+      "bytes": 12114,
+      "path": "all-seventeen-original-primitive-equations-f127.bin",
+      "sha256": "704d987062e58108cb825246022fffecb45e9d68641ef83138a48386d33d592d"
+    },
+    "sourceDictionarySha256": "615ac544fb4111e77fa4c4d21e43557027092a58b72d36b3c7f02434083ea14d",
+    "outputDictionarySha256": "a9b637e190c4cbb903085b67d1b2834bddd162479e8713b2bba179ffbdf5bad0"
+  },
+  "outputs": {
+    "completeReceipt": {
+      "path": "original-nonrankone-cat3-complete-macaulay-rank-receipt.json",
+      "bytes": 9208,
+      "sha256": "a1aff8a4a0a39f3b68c18874802e8d3eecf9df8a387cf21a635ca84984dff972"
+    },
+    "nativeReceipt": {
+      "bytes": 860,
+      "path": "original-nonrankone-cat3-macaulay-native-receipt.json",
+      "sha256": "bc464da502b087c880ee86d166e3342bc0371791a4469cbedae36c58ec9213c9"
+    },
+    "completeProfile": {
+      "bytes": 41823,
+      "path": "complete-original-field-profile.json",
+      "sha256": "aae42843c014c402704b18c13dcc41150c572bc934341b81e16dec78677f390c"
+    },
+    "completeFieldKernel": {
+      "bytes": 88,
+      "path": "complete-original-field-kernel.bin",
+      "sha256": "7e9351d8bd52ab6208ae1725a4dc34986796c4ebdb81b0f36dfd1ee8f1ef5d06"
+    },
+    "lastCheckpoint": {
+      "bytes": 16795117,
+      "path": "state-slot-0.bin",
+      "sha256": "db8e566d1f599e62d1387ef644846ab0ae3799f315344de04584bdd5b4b0fedd"
+    }
+  },
+  "recomputableOutputDataIncluded": false
+}

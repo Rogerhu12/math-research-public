@@ -1,0 +1,96 @@
+{
+  "format": "r150-original-cat-rank-three-complete-macaulay-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-nonrankone-cat-rank-three-gradient-789f.py",
+      "blob": "11f058f7d53a9914478f1dd051b887e4342eb9b0",
+      "bytes": 19879,
+      "sha256": "ab088528d828c51136a5746236735d51f2ed22934ccad8c8623dfb29f0090a8f"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-native-789f.cpp",
+      "blob": "592bcfb834a30e6bfcc39dcd8a38ce9dfa9782d1",
+      "bytes": 17996,
+      "sha256": "0d53f3472c0250459da9091a16151f70ca2011c7b99962ef12c84ede62b66d92"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-rank-789f.py",
+      "blob": "a215806be2b019c61d027f5d3dae6005eac8c4f2",
+      "bytes": 22522,
+      "sha256": "50520960e23026c4a3a88c856e321772468d538239eba835b41fa046adf0c822"
+    },
+    {
+      "path": "notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "blob": "796c0d4c790b3f2294bc203f057e78c0fb16d4ed",
+      "bytes": 4691,
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+    }
+  ],
+  "parameters": {
+    "prime": 127,
+    "originalMean": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "fixedH0": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "originalEquations": 17,
+    "sourceCount": 6188,
+    "targetCountIncludingConstant": 4368,
+    "multiplierDegree": 3,
+    "targetDegreeInterval": [
+      0,
+      5
+    ],
+    "constantCoefficientCount": 17,
+    "fullRankNotPrespecified": true,
+    "seconds": 180,
+    "memoryMiB": 2048,
+    "compileSeconds": 30,
+    "outerSeconds": 240
+  },
+  "originalModel": {
+    "sourceExecutionKind": "local-executor",
+    "logicalBytes": 159454,
+    "logicalSha256": "c05317c3fe6ac9342260fe08615d80ff8e21637f03969b80584282bf4848f48d",
+    "binding": "99455cc5512e802d02a50ca74a82b709003d2e5cb448f909469bf41b2463b63d",
+    "exactModelReceiptBytes": 4145,
+    "exactModelReceiptSha256": "d58637ac1f545c9b7feb30d3f7f77881ecc81dd7dc2377ac945718b6e0c662dd"
+  },
+  "argvTemplate": [
+    "python3",
+    "{scripts}/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-rank-789f.py",
+    "--producer",
+    "{scripts}/2026-11-16-r150-original-nonrankone-cat-rank-three-gradient-789f.py",
+    "--native-source",
+    "{scripts}/2026-11-16-r150-original-nonrankone-cat-rank-three-macaulay-native-789f.cpp",
+    "--header",
+    "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+    "--out",
+    "{work}/original-nonrankone-cat-rank-three-macaulay",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--compile-seconds",
+    "30"
+  ],
+  "historicalLargeInputs": [],
+  "permanentOutputs": "source, parameters, execution identity and output SHA only"
+}
