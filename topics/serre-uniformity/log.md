@@ -594,3 +594,9 @@
 - R872纸证已推5b6d5dc2；两次纯IO已保R799/R801的2050源和R800/R827最小包，完整平台/tar SHA另记notes；原R827确exit124/no-final，只消费已成stage。
 - reader1370ce20加指定小metadata读取，requestb18f14e4仅读R824 current与596历史对应，不重已读606历史/任何数学；共享workflow原用途不变。
 - 本push规则：公开Actions真实pull至dd7b2881f12e353e0c54e1de8e0e88a0bbe3391a（2026-11-16T08:00:38.513025+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:05 Asia/Taipei — serre-public-astra-20261115
+- R824真实596 currente0aaa50a/history31993dac完整目标及lift071c3390一致，原core BudgetStop/1；只改resume requestba760988，300min原27权5+244权6/free1187从597续，1186仍归R787。
+- 两次公开纯IO只读小元数据，不把84MB lift/612MB carrier说成本地重哈希；同wrapperc5907739实际恢复全部必要原源。r28/129/142/280Q与旧边界保留。
+- R787570后已实际启动run43827877594/job133165978118/source38abf721并在原数学步；R873的原范数17rhs消费者五件已齐，R872 RR消费者继续接真源。
+- 本push规则：公开Actions真实pull至87130840762325c819f717a2f77d17ca5e72bc80（2026-11-16T08:05:36.935825+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
