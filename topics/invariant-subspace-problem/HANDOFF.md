@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** e177c8aa0aa6c4fb45ff6b461aa3a8037b055b90（2026-11-16 04:33:45 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0432-complete31-exponent-six.json。
+- **最近成功实际 pull 与已读规则提交：** a925d76c7fae50207ccdb31171d1267dd0e1998e（2026-11-16 04:36:24 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0436-isotropic-cat3-branches.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
@@ -27,7 +27,8 @@
 
 - **[两原子完整纤维](results/R150-appendix-original-two-atom-full-macaulay-rank4367-and-parameter-open-critical-ideal.md)：** 真推c4adb38d；原y=e0+e5、6188→4367满秩、minor127=55，Q I=(M)，原乘子degree≤3。参数only D非零，ab(1−st)D上完整I=(M,Z)，每个纤维全部M覆盖；D=0/合流未处理。原1309/244990全核，本地48.971秒，raw7454·190d134f。
 - **[Cat3消去](results/R150-appendix-original-cat-rank-three-full-macaulay-rank4368-and-mean-elimination.md)：** 真推75d1e27f；y†=(2,1,1,1,1,2)，原6188×4368含constant满秩、minor127=61，Q I_y†=(1)。同原选行给0≠D(y)∈J∩Q[y]，齐次degree2643、H源degree≤3；critical mean皆在D=0，绝不等同全部Cat3无点。全1326/244990真，本地51.200秒，raw9208·a1aff8a4。
-- 当前转真正异常集与已付W±/Bell零分支；代理已算原参数兼容及Q三次域Cat3正支，正式稿/原33门待根接入。后继须先剥已知Bell零分支，处理Bell非零饱和/essT3≥4，不能把Cat≤2根式当全J目标。临时/tmp/normal_nonrankone_789f，数组不入Git。
+- **[原W±兼容与Cat3正支](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)：** 全H/V交空间均维3，完整10系数消成4×3，增广det=κ·CatCubic·R±；rankA3且Cat3开集相容iff R±=0。两真Q三次数域点均原33梯度/36H/216V全真、Cat3/essT3=3，raw2925·e2597960；故Cat三阶minor不全在√J，不能追全Cat3为空。三个匹配Bell仍全零。
+- 后继保完整原梯度，逐三个匹配方向做J+(1−ηB_r)或等价Bell非零饱和，不能只用三Bell乘积；真正剩essT3≥4。正在构造原Bell的11×6 H系数与完整加权6的3520目标/388来源低次门。临时/tmp/normal_nonrankone_789f，数组不入Git。
 
 ## 边界：原同源接口、完整头与下一实际费用
 

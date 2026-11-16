@@ -1,0 +1,129 @@
+{
+  "format": "r150-source-parameters-execution-output-sha256-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-isotropic-plane-mean-compatibility-789f.py",
+      "blob": "044e5ffbc078a0e404324af4a1bd457550f2fa80",
+      "bytes": 10935,
+      "sha256": "a0fdc5849f43d481701926acef3141b4bee498e7a8cae20b39cd37b21c4ad323"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-isotropic-plane-cat3-critical-points-789f.py",
+      "blob": "2e2bfec7c82b436eb47784749f04e060b8aca84d",
+      "bytes": 14719,
+      "sha256": "cb9cd6d933eb64dbab823a8e0d685329b32bbeddc7bf5b90436444a2319c1596"
+    }
+  ],
+  "execution": {
+    "kind": "local-executor",
+    "githubRun": null,
+    "notAGitHubActionsRun": true,
+    "workingDirectory": "/tmp/normal_nonrankone_789f",
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "pythonFlint": "0.9.0",
+    "steps": [
+      {
+        "id": "original-two-plane-complete-mean-compatibility",
+        "completionUTC": "2026-11-16T04:15:52.968000+00:00",
+        "initialToolChunk": "5da9ed",
+        "sessionId": 3259,
+        "completionToolChunk": "5ea88c",
+        "exitCode": 0,
+        "argvTemplate": [
+          "python3",
+          "{scripts}/2026-11-16-r150-original-isotropic-plane-mean-compatibility-789f.py",
+          "--out",
+          "{work}/original-two-plane-mean-compatibility",
+          "--seconds",
+          "60",
+          "--memory-mib",
+          "1024"
+        ],
+        "parameters": {
+          "seconds": 60,
+          "memoryMiB": 1024,
+          "signs": [
+            "plus",
+            "minus"
+          ],
+          "meanParameterCount": 3,
+          "allOrdinaryCubicCoefficients": 10,
+          "physicalConstraintSpaces": [
+            [
+              10,
+              6
+            ],
+            [
+              40,
+              10
+            ]
+          ]
+        },
+        "temporaryOut": "/tmp/normal_nonrankone_789f/two-plane-mean-compat-actual",
+        "binding": "ed7174cd2a10d5eee4ddfa45f4d764385c6899f87c209b8d96696e82a9124956",
+        "outputs": {
+          "receipt": {
+            "path": "original-two-plane-mean-compatibility-receipt.json",
+            "bytes": 9081,
+            "sha256": "2bc10ce59803dc4f6a5170b3c1ab5bd4c6ce5ac792b78bf2444743315bfa253b"
+          },
+          "completeParameterModel": {
+            "bytes": 26409,
+            "path": "complete-original-two-plane-parameters.json",
+            "sha256": "17ecc103fd28b5e617353eda80c417494d2de03ca49836d6c64eb3c2e64f9f66"
+          }
+        }
+      },
+      {
+        "id": "original-two-plane-exact-cat3-critical-points",
+        "completionUTC": "2026-11-16T04:20:32.401998+00:00",
+        "toolChunk": "26f0e8",
+        "exitCode": 0,
+        "argvTemplate": [
+          "python3",
+          "{scripts}/2026-11-16-r150-original-isotropic-plane-cat3-critical-points-789f.py",
+          "--parameters",
+          "{work}/original-two-plane-mean-compatibility/complete-original-two-plane-parameters.json",
+          "--out",
+          "{work}/original-two-plane-cat3-critical-points",
+          "--seconds",
+          "60",
+          "--memory-mib",
+          "1024"
+        ],
+        "parameters": {
+          "seconds": 60,
+          "memoryMiB": 1024,
+          "meanSpecialization": [
+            "1",
+            "0",
+            "t"
+          ],
+          "fullOriginalGradientCount": 33
+        },
+        "temporaryOut": "/tmp/normal_nonrankone_789f/isotropic-cat3-points-actual",
+        "binding": "0715aebdcb12a2feed9acdd36fe54ec70d98b0be7191833275d5fab2011c6d37",
+        "inputIdentity": {
+          "bytes": 26409,
+          "sha256": "17ecc103fd28b5e617353eda80c417494d2de03ca49836d6c64eb3c2e64f9f66",
+          "binding": "ed7174cd2a10d5eee4ddfa45f4d764385c6899f87c209b8d96696e82a9124956"
+        },
+        "outputs": {
+          "receipt": {
+            "path": "original-cat3-critical-points-receipt.json",
+            "bytes": 2925,
+            "sha256": "e25979602982923666385c370e7dc8f64eee300931434e065b1b5e7e798aebd9"
+          },
+          "completeOriginalPoints": {
+            "bytes": 23525,
+            "path": "complete-original-cat3-critical-points.json",
+            "sha256": "969f61a81956a9712eeb9df01da5989939115e4ad5f6c1423689da52393a900c"
+          }
+        }
+      }
+    ]
+  },
+  "recomputableOutputDataIncluded": false
+}

@@ -1,0 +1,90 @@
+{
+  "format": "r150-original-isotropic-plane-complete-mean-and-cat3-points-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-isotropic-plane-mean-compatibility-789f.py",
+      "blob": "044e5ffbc078a0e404324af4a1bd457550f2fa80",
+      "bytes": 10935,
+      "sha256": "a0fdc5849f43d481701926acef3141b4bee498e7a8cae20b39cd37b21c4ad323"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-isotropic-plane-cat3-critical-points-789f.py",
+      "blob": "2e2bfec7c82b436eb47784749f04e060b8aca84d",
+      "bytes": 14719,
+      "sha256": "cb9cd6d933eb64dbab823a8e0d685329b32bbeddc7bf5b90436444a2319c1596"
+    }
+  ],
+  "dependencies": {
+    "python": "3.12.14",
+    "sympy": "1.14.0",
+    "python-flint": "0.9.0"
+  },
+  "steps": [
+    {
+      "id": "original-two-plane-complete-mean-compatibility",
+      "argv": [
+        "python3",
+        "{scripts}/2026-11-16-r150-original-isotropic-plane-mean-compatibility-789f.py",
+        "--out",
+        "{work}/original-two-plane-mean-compatibility",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "1024"
+      ],
+      "parameters": {
+        "seconds": 60,
+        "memoryMiB": 1024,
+        "signs": [
+          "plus",
+          "minus"
+        ],
+        "meanParameterCount": 3,
+        "allOrdinaryCubicCoefficients": 10,
+        "physicalConstraintSpaces": [
+          [
+            10,
+            6
+          ],
+          [
+            40,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "id": "original-two-plane-exact-cat3-critical-points",
+      "argv": [
+        "python3",
+        "{scripts}/2026-11-16-r150-original-isotropic-plane-cat3-critical-points-789f.py",
+        "--parameters",
+        "{work}/original-two-plane-mean-compatibility/complete-original-two-plane-parameters.json",
+        "--out",
+        "{work}/original-two-plane-cat3-critical-points",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "1024"
+      ],
+      "parameters": {
+        "seconds": 60,
+        "memoryMiB": 1024,
+        "meanSpecialization": [
+          "1",
+          "0",
+          "t"
+        ],
+        "fullOriginalGradientCount": 33
+      },
+      "requiredInput": {
+        "bytes": 26409,
+        "sha256": "17ecc103fd28b5e617353eda80c417494d2de03ca49836d6c64eb3c2e64f9f66",
+        "binding": "ed7174cd2a10d5eee4ddfa45f4d764385c6899f87c209b8d96696e82a9124956"
+      }
+    }
+  ],
+  "historicalLargeInputs": [],
+  "permanentOutputs": "source, parameters, execution identity and output SHA only"
+}

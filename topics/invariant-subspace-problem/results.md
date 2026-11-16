@@ -86,3 +86,5 @@
 - **R271真强头幂支付完整深修复高段（2026-11-16）：** [全常数证明](results/R271-appendix-true-strong-head-powers-and-complete-deep-return-high-tail.md)由真实借位及强位幂零给||C^j||≤7^j exp[−(770/256)(j−x)_+⁴]；在x≥1024，整个j≥ceil(x+2√x(logx)^(1/4))的canonical同源差平方≤exp(−x²logx)||a||²。任意a/J<h及任何h=d+R均成立，保真正逐层MP自然域，不假a低孔；R=d原Q窗中先前j≥3x/2线性门已付。剩下真实中段与完整Schur，不据此称全修复或N=M。
 
 - **R150完整31谱与原九个精确p²h0来源（2026-11-16）：** [自足证明](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)的全210 p7实际1104.606秒/30stage，新商rank1、315合并rank16、I4(B)=9，唯一E恰6。全部tors指数1²/2⁵/3²/4⁴/5²/6、长度50；123717110原整除坐标及完整自由/参数作用核真，旧两探针零仍保。结合N的p饱和、C/T自由及已付原p6身份，九个31²h0*t均在原L中，原source费用≤8515；不消s−2、不把有限模直接当exact。最少分母e仍1或2，完整七socle继续。
+
+- **R150原W±兼容三次与Cat3真临界正支（2026-11-16）：** [完整原参数与数域证明](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)保全部H/V物理交空间及十个T3系数；rankA3、Cat3开集的原兼容性恰为不同三次R±=0。两Q三次数域点原33梯度/36H/216V与Cat3/ess3全部实核，故全Cat minor根式目标过强；两点及该支仍属已付Bell零范围。后续逐匹配B_r非零饱和、essT3≥4，不以三个Bell乘积替代至少一者非零。参数1.148秒/点0.409秒，完整source与执行SHA保留。
