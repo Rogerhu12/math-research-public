@@ -278,3 +278,6 @@ AI/Astra-ISP-789f：[完整证明](results/R271-appendix-physical-tail-kernel-pa
 
 ## 2026-11-16 14:35 UTC — 完整原权八秩1312及74全核
 AI/Astra-ISP-789f：实际17674×1386全输入秩1312，1286原前缀独立，100个NiC留26/删74；201阶段与全10/18乘回闭。根独立原1312子式det4及1,307,876核坐标全零、核秩74。来源≤8维3425→3451为分级推论，不跑新大矩阵；未称稳定/单位/E。[正式证明](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)。
+
+## 2026-11-16 14:37 UTC — δ14原稀疏局部600秒边界
+AI/Astra-ISP-789f：run43883188532/job133354233895原父两步exit0，原50/17、15双adj、四Bell40/4、自测和560 SSI全真；候选583.183秒仅START，整体592.146秒/75无candidate/source。根全log独立重构19983 raw/SHA及binding，null→null不空续；转已付有限空间具体RHS，不判全理想非成员。[完整边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)。
