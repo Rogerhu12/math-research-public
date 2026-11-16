@@ -2,6 +2,8 @@
 
 Date: 2026-11-16. Status: **proved for the original objects and labels of R908–R911**. The actual upper-half additive subgroup supplies a nonzero functional on a specified Cartier cokernel. Its Igusa weight is different from the weight of the possible first nonzero good-model cotangent layer. Both weights have explicit complete Fourier companions for the same original label. The proof does not assert that this functional detects the named CM vector, or that the indicated cotangent layer is nonzero.
 
+**Convention clarification (2026-11-16).** In §2 the geometric dual endomorphism $\delta^D$ is now distinguished explicitly from the contragredient semilinear descent of R911. The former has the same scalar on the dual additive coordinate and its usual tangent map. This corrects only the justification of the already stated $\zeta^2$ Lie character; no character value, displayed formula, theorem, or remaining nonvanishing boundary changes.
+
 ## 1. Original objects and the two weights
 
 Retain
@@ -61,7 +63,7 @@ b_h=n((p-2)h+1)\pmod e,
 u^{b_h}=\operatorname N(u)^{1-h}=\chi_+(u).
 \tag{913.7}
 $$
-The geometric deck transformation $\delta:a\mapsto\zeta a$ acts on this Lie line as $\zeta^p=\zeta^2$. Indeed, its original Raynaud coordinate is the second, conjugate $\mathcal O_{K_p}/p$ character; Cartier duality reverses its coordinate character, and passage to Lie reverses it again. This is exactly R911(911.12–14), with the positive order fixed in R908.
+The geometric deck transformation $\delta:a\mapsto\zeta a$ acts on this Lie line, through its natural dual endomorphism, as $\zeta^p=\zeta^2$. To check the convention, its original second Raynaud coordinate satisfies $\delta^*y_1=\zeta^2y_1$. The Cartier pairing obeys $e(y,\delta^Dz)=e(\delta y,z)$; in the additive reduction the pairing $\exp(y_1z_1)$ therefore gives $(\delta^D)^*z_1=\zeta^2z_1$. Its usual tangent map has the same scalar $\zeta^2$. This is a geometric endomorphism calculation, distinct from the inverse actions used for semilinear inertia descent in R911. The Picard–Serre pairing then pairs this Lie character with the $\delta=\zeta$ cotangent character used below.
 
 Choose a nonzero tangent vector $v_h$ in the image of (913.6). Its line, rather than an arbitrary vector of the ambient Lie space, comes from the original quotient. The product of the canonical component polarizations and Picard–Serre duality of R911 give a perfect pairing
 $$

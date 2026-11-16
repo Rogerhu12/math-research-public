@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：795295ce36e139df60be65c1c5c71ed683b98a95**（2026-11-16T15:29:01.149991+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。R901另一次真pull c2359e514c58df71f6fa74012a62f3d6aad9471d/15:10:22.721057UTC也已读、两SHA不变。最新前态逐字在[精确Hodge前H](handoff-archive-2026-11-16-before-exact-Hodge-content.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：dc85bc9751fcf568d5c3fd30391004e4279ab413**（2026-11-16T15:31:29.244621+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。R901另一次真pull c2359e514c58df71f6fa74012a62f3d6aad9471d/15:10:22.721057UTC也已读、两SHA不变。最新前态逐字在[精确Hodge前H](handoff-archive-2026-11-16-before-exact-Hodge-content.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -49,7 +49,7 @@ R859–R898原BT/Drinfeld/cusp/CM/KS/theta整lift及两旗36源已证。R898原J
 
 [R908有限平坦](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)/[R910 normalizer](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)/[R911精确粘合](results/R911-original-Picard-descent-and-exact-CM-gluing-dichotomy.md)：原e_hqB=[p^a_h]f_h、真kernel闭包商/Fp²作用、Picard余切和dual Lie双逆号已固定。严格r=0（h<n/2）或2h−n（h>n/2）；上半两αp实嵌BD∨/BI∨，后者给a-number下界。R911原给content下半ea_h/上半下界；R916现补全精确ea_h+pr，原a_h、指定盘normal/jet保留。
 
-**[R913原Igusa泛函与两CM伴随](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)**：上半实际λ_h为(W_+/C W_−)∨非零、对应k_−=2p+2−2h；L_h=π^−pr f_h*ω的另一χ_+层对应k_+=2h−p+1，其约化非零现由R916补齐。两tame level9 CM及Θ全Fourier关系、原ζ²/1/6/level6和Hecke的ℓ^(h−1)/ℓ^(p−h)标度逐式保留。Gross5.2/5.7/5.9、Oda3.14、Cais、EP(12)原文已核。不以谱一致推出λ_h(V_k−†)≠0、不假设重数一或饱和；原指数/同h三因子/指定J32/height仍缺。sigma_uniform继续，R915已登记。
+**[R913原Igusa泛函与两CM伴随](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)**：上半实际λ_h为(W_+/C W_−)∨非零、对应k_−=2p+2−2h；L_h=π^−pr f_h*ω的另一χ_+层对应k_+=2h−p+1，其约化非零现由R916补齐。两tame level9 CM及Θ全Fourier关系、原ζ²/1/6/level6和Hecke的ℓ^(h−1)/ℓ^(p−h)标度逐式保留。Gross/Oda/Cais/EP原文已核。δ^D为几何自然对偶，坐标/通常Lie同ζ²；与半线性descent逆作用分开，§2证明措辞已更正，角色值不变。不以谱一致推出λ_h(V_k−†)≠0、不假设重数一或饱和；原指数/同h三因子/指定J32/height仍缺。sigma_uniform继续，R915已登记。
 
 **[R915原Hecke微分迹](results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md)**：全Artin底环Euler系数λ_p满足Tr(h)=λ_p(p′h)；原八次迹=−a8^−1[U7](A_t∂zP mod p)dz，ν版保靶g。先作真函数域导数再约化，只新增九P系数导数；17块/PU逆/272靶值复用。真dual7/diamond/−3/Nm帧保留，λ无p′逆不消除a8/靶PU/χT。尚无新Hecke数值/端点/活跃支持/非p/height。
 

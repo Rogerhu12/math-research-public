@@ -174,3 +174,5 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 R897/R898的原36维整Gauss源与J_h继续保留：β̄=P_(h−1)(1/s)/P_(h−1)(0)，指定J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12；R916仅控制good-model整微分，尚未把它接到这个指定同h原向量或height格。
 
 **R787真670同核续已准备并激活**：[实际断点与唯一IO修复](notes/R787-original-power5-670-outer-timeout-continuation.md)。原run43846878233外层exit124、无core receipt/null coreSHA，真实manifestf756e254/1261项与完整670 lift8c9052ec已核，76旧lift身份留history。wrapperdff10f45只在失败124且无trueFINAL时容许缺receipt，所有manifest/配置/完整模关系保留；数学core93d3d72b与300min/1372源/14支不变，直接原artifact续，不重旧位或造负结论。
+
+R913 §2已更正几何δ^D的证明约定：Cartier配对 e(y,δ^Dz)=e(δy,z)给dual αp坐标及通常Lie同ζ²，Picard–Serre配到ω的ζ层；不把它套成半线性惯性descent的两次逆号。全部显示角色/公式和非零边界不变，R916整ann证明独立。
