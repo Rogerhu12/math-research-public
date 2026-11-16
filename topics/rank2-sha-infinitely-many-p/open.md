@@ -137,3 +137,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R863附录A.4–A.5](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Z2−(455/2664)S准确等于∇Θ17 C0，固定whole C0从z7起，故消去全部Θ17高商与连接高端。C0=−σ(2z)^3 H22/21312给完整两个严格低于p的配对，binomial常数−1/10656付清；原q_F低连接项保留。未把H22认作V66/免费中央，也未判指定配对非零。
+
+
+- [R875附录A](results/R875-original-exact-eisenstein-degree-gram.md)：同I∞的精确整二次型完成平方证明q<664仅±u，q≤712仅±u、±uθ、±u(θ+eps2)，三者都是同真整unit轨道；k6帽612无其它候选。迹权w′=(376−56θ−72eps2)/3及codifferent式付整个Gram整性，仍不替实际Hom。

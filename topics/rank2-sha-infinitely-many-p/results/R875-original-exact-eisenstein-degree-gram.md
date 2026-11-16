@@ -508,3 +508,71 @@ $$
 这是对全部分数理想的严格最小值，不依赖R874有限LLL窗口。
 任何该 packet 的实际非零 Hom 因必要整 q 条件也有度数至少376；
 最小准方向是否已是实际 Hom，仍须正在运行的完整坐标证书。
+
+
+## 附录 A. 低度方向的完整分类
+
+仍只在必要格 $I_\infty$ 中讨论准度数。
+对 $e=x+y\vartheta+z(\vartheta+\vartheta^2-2)$，
+这一整基由(30)的基作 unimodular 变换得到，且
+$$
+q(ue)/8=
+47x^2+83y^2+89z^2-10xy-32xz+62yz.
+\tag{A1}
+$$
+完成 $x$ 的平方，
+$$
+q(ue)/8=
+47\left(x-\frac{5y+16z}{47}\right)^2
++\frac1{47}(3876y^2+2754yz+3927z^2).
+\tag{A2}
+$$
+第二项的矩阵减 $50I$ 后，分子为
+$$
+\begin{pmatrix}1526&1377\\1377&1577\end{pmatrix},
+\qquad\det=510373>0.
+$$
+因此只要 $y^2+z^2\ge2$，就有 $q(ue)/8>100$。
+若 $y^2+z^2=1$，(A1)分别成为
+$47x^2\mp10x+83$ 或 $47x^2\mp32x+89$；
+其整数 $x$ 的最小值各为83或89，且都仅在 $x=0$ 取得。
+若 $y=z=0$，非零整数 $x$ 的最小值为47。
+这严格证明
+$$
+\boxed{\{v\in I_\infty:0<q(v)<664\}=\{u,-u\},}
+\tag{A3}
+$$
+以及
+$$
+\boxed{
+\{v\in I_\infty:0<q(v)\le712\}
+=\{\pm u,\ \pm u\vartheta,\ \pm u(\vartheta+\vartheta^2-2)\}.
+}
+\tag{A4}
+$$
+这是全部整格的分类，不来自有限LLL窗口。
+
+$\vartheta$ 的整逆是 $3-\vartheta^2$；
+$\vartheta+\vartheta^2-2$ 的整逆是 $\vartheta-1$。
+所以(A4)三类都在同一个真正整 Hecke 单位轨道，
+其是否成为实际 Hom 完全等价。
+特别在权6的度数帽612内，(A3)只留下原 $\pm u$；
+不能通过改选该权下的其它单位方向避开这个实际整性问题。
+
+还有一个透明的极化整数解释。令
+$$
+w'=\frac{376-56\vartheta-72(\vartheta^2-2)}3.
+$$
+利用 $\operatorname{Tr}(1)=3$、$\operatorname{Tr}\vartheta
+=\operatorname{Tr}(\vartheta^2-2)=0$，
+以及两基元平方/乘积的迹为 $6,6,-3$，(30)准确等价于
+$$
+q(ue)=\operatorname{Tr}_{E/\mathbf Q}(w'e^2).
+$$
+原 monogenic 整数环的不同理想由
+$f'(\vartheta)=3\vartheta^2-3$ 生成，而
+$$
+(3\vartheta^2-3)w'=8(47\vartheta^2-5\vartheta-58)\in\mathcal O_E.
+$$
+故 $w'$ 在 codifferent 中，解释整个 $u\mathcal O_E$ Gram 的整性。
+它仍然只是极化的必要条件，不补尚未付的实际坐标。
