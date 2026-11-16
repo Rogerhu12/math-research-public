@@ -11,11 +11,11 @@
 
 ## 当前实际执行接续
 
-- **原E低20实际解与95核已完成并推送。** run43911869940全原116/六逆/3418清单/投影成功；新两4解20.893秒全64逆/1000E/3000Q/400selected真；95门0.196秒D70/T95/unit38。旧Q60真实360秒TERM/143独留，job failure仅该步，missing=[]。原constants未完成不改写，结束job的TMP不假定存活。
-- 根独立[日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)重生完整标签与两4semantic，high95/两4 raw及小final逐字SHA核同；数组只TMP/原job日志。[恢复接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)保六逆历史SHA及source重建。
+- 原E低20/95核已闭：run43911869940两4解20.893秒、全1000E/3000Q/400selected；95原unit38。旧Q60真实360秒TERM/143独留，未改写原constants失败，完整身份在下列审计及归档。结束job的TMP须按源重建。
+- 根[低20/95日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)重生字典、semantic、raw与小final SHA全同；历史六逆恢复完整pins保归档，不重复旧Q60。
 - **[原Koszul55混合95单位与40原标签已实际完成](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。** 新job43919468897重116→high95→mixed全0；原混合子式det127=69，选$J_{40}=\{0,\ldots,33,40,\ldots,44,60\}$，全25575原坐标、18050逆、9025/3800选列恒等真。原E伴随公式与真实G-Koszul校正落实200/210呈示；不把field坐标提升或重建参数数组。根独立重生标签/binding/raw9335字节SHA并核新high95完整父相位；数学0.127秒。
-- **[权十空候选预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** run43906283833完整父/200输入/真实引擎/2000 SSI全真，std555.227秒仅START、whole592.369秒75，第9未跑，非正非负，不空续。根重建2172semantic及2027/3469 raw SHA全同；旧v1权守卫失败与根v1 137保真。后继完整77276×13808直接Macaulay＋全原左证，单bitplane/DAG/完整列checkpoint；接口已全文审，native/driver/checker在冻结，不重旧9倍cache算法。
-- 原b³/QE负门及已闭计算不重算。旧失败范围、完整源/hash和所有未列open保[本次H快照](notes/2026-11-16-handoff-before-characteristic-zero-rank-sandwich-789f.md)及归档链，未列不算关闭。
+- **权十直接门继续。** [旧候选预算边界](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)run43906283833 std仅START/whole592.369秒75，非正非负不空续。新native/checker均全文静审，完整77276×13808、单bitplane/完整DAG/整列checkpoint及独立全列左证不删。现先运行[独立编译控制](notes/2026-11-16-r150-original-weight10-macaulay-controls127-interface-789f.md)：120秒/1024MiB、outer150，不读200父；无实际成功预填。完整driver/source正分支仍在审。
+- 原b³/QE负门及已闭计算不重算。旧失败范围、完整源/hash和所有未列open保[本次H快照](notes/2026-11-16-handoff-before-weight10-native-controls-789f.md)及归档链，未列不算关闭。
 
 ## R150已付结构与仍开范围
 

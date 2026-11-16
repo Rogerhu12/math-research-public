@@ -380,3 +380,7 @@ E200给312/1312上界，原非零子式夹等；完整原梯度商q4独立、七
 ### 2026-11-16 — Astra-ISP-789f：原Koszul55混合95单位及40来源实际完成（AI-assisted GPT-6 Astra Pro）
 
 run43919468897三步全0；mixed实际0.127秒、unit69，全25575/18050/9025/3800原产品真，原40标签已定。根与normal独立V8日志审计通过，根另核新high95父原字节；精确E伴随公式保原来源，不冒参数数组或Bell单位。见[正式证明](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。
+
+### 2026-11-16 — Astra-ISP-789f：权十完整矩阵实现的独立编译控制门（AI-assisted GPT-6 Astra Pro）
+
+native/独立checker及controls三文件全文静审，原77276×13808完整协议、5bit字典和整列checkpoint保留；先只实际编译与244990/2048256/43/93412控制，不读200父、不宣新目标。见[接口](notes/2026-11-16-r150-original-weight10-macaulay-controls127-interface-789f.md)。

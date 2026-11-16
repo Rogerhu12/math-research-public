@@ -1,0 +1,73 @@
+{
+  "format": "r150-original-weight10-macaulay-controls127-inputs-v1",
+  "status": "frozen-unexecuted",
+  "date": "2026-11-16",
+  "author": "Astra-ISP-789f / literature_audit, with /root",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "sources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-macaulay-controls127-789f.py",
+      "blob": "aeec2f5df1ed1ccb16042315b1d1079244f8dc56",
+      "bytes": 7583,
+      "sha256": "fc5992ab257f3b6f535033a4fb6500af419ab84a8bc64d3f633de87bbfc1912c"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-full-macaulay127-789f.cpp",
+      "blob": "1748de326c9dc7a1505486f80c97a43b1fafb777",
+      "bytes": 26864,
+      "sha256": "0a53cd6179904977404db186dbc88bf1a04339c2bf4569b90a9007744f0a50df"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-full-ordinary-verifier127-789f.cpp",
+      "blob": "409944c79213e5befad574ba71f25c4a08666dfc",
+      "bytes": 17046,
+      "sha256": "bf10b7ba832123c6208e8e7b4cf2a6e63ba1cfbd2f17cbf6d26e4f4c8a53f295"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "blob": "796c0d4c790b3f2294bc203f057e78c0fb16d4ed",
+      "bytes": 4691,
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+    }
+  ],
+  "pythonVersion": "3.12.14",
+  "flintRequired": false,
+  "compiler": "g++ with C++17",
+  "budget": {
+    "seconds": 120,
+    "memoryMiB": 1024,
+    "outerSeconds": 150
+  },
+  "arguments": [
+    "{scripts}/2026-11-16-r150-original-weight10-macaulay-controls127-789f.py",
+    "--native-source",
+    "{scripts}/2026-11-16-r150-original-weight10-full-macaulay127-789f.cpp",
+    "--checker-source",
+    "{scripts}/2026-11-16-r150-original-weight10-full-ordinary-verifier127-789f.cpp",
+    "--bitplane-header",
+    "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+    "--out",
+    "{work}/weight10-macaulay-controls127",
+    "--seconds",
+    "120",
+    "--memory-mib",
+    "1024"
+  ],
+  "outputReceipt": "{work}/weight10-macaulay-controls127/full-weight10-controls-receipt.json",
+  "outputManifest": "{work}/weight10-macaulay-controls127/full-weight10-controls-manifest.json",
+  "requiredGates": {
+    "oldBitplaneChecks": 244990,
+    "newSignedScalarChecks": 2048256,
+    "tinyOriginalProducts": 43,
+    "tinyCheckpointRoundtrip": true,
+    "independentOrdinaryChecks": 93412
+  },
+  "scope": {
+    "read200Parent": false,
+    "generate77276x13808Matrix": false,
+    "solveOriginalTarget": false,
+    "claimAnyNewMathResult": false,
+    "automaticEmptyRetry": false,
+    "uploadMathArrays": false
+  }
+}

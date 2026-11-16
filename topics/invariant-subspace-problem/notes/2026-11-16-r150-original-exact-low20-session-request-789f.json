@@ -1,7 +1,7 @@
 {
   "format": "isp-original-exact-low20-manifest-session-v1",
   "author": "Astra-ISP-789f / root with normal_annihilator; AI-assisted GPT-6 Astra Pro",
-  "rulesReadAtCommit": "c5ac2e11ee593dcf0adff4b8430e90b56b0d21c7",
+  "rulesReadAtCommit": "c1b9af51ca99990f2917d7f7b4ebd8b5490783e6",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -14,158 +14,60 @@
   "workflowHardMinutes": 40,
   "steps": [
     {
-      "id": "original-koszul55-rebuild-field-model180",
+      "id": "original-weight10-macaulay-compile-controls120",
       "requires": [],
       "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
       "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
       "sources": [
         {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
-          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-macaulay-controls127-789f.py",
+          "sha256": "fc5992ab257f3b6f535033a4fb6500af419ab84a8bc64d3f633de87bbfc1912c"
         },
         {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
-          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-full-macaulay127-789f.cpp",
+          "sha256": "0a53cd6179904977404db186dbc88bf1a04339c2bf4569b90a9007744f0a50df"
         },
         {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
-          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-full-ordinary-verifier127-789f.cpp",
+          "sha256": "bf10b7ba832123c6208e8e7b4cf2a6e63ba1cfbd2f17cbf6d26e4f4c8a53f295"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
         }
       ],
       "argv": [
         "--outer-seconds",
-        "240",
+        "150",
         "--heartbeat-seconds",
         "10",
         "--stdout",
-        "{work}/original-koszul55-rebuild-field-model180.math.log",
+        "{work}/original-weight10-macaulay-compile-controls120.math.log",
         "--heartbeats",
-        "{work}/original-koszul55-rebuild-field-model180.heartbeats.jsonl",
+        "{work}/original-weight10-macaulay-compile-controls120.heartbeats.jsonl",
         "--identity",
-        "{work}/original-koszul55-rebuild-field-model180.observed.json",
+        "{work}/original-weight10-macaulay-compile-controls120.observed.json",
         "--",
         "python",
-        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
-        "--model-driver",
-        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
-        "--helper",
-        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "{scripts}/2026-11-16-r150-original-weight10-macaulay-controls127-789f.py",
+        "--native-source",
+        "{scripts}/2026-11-16-r150-original-weight10-full-macaulay127-789f.cpp",
+        "--checker-source",
+        "{scripts}/2026-11-16-r150-original-weight10-full-ordinary-verifier127-789f.cpp",
+        "--bitplane-header",
+        "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
         "--out",
-        "{work}/original-ten-parameter-module127-v2",
-        "--through",
-        "seeds",
+        "{work}/weight10-macaulay-controls127",
         "--seconds",
-        "180",
-        "--memory-mib",
-        "2048"
-      ],
-      "timeoutSeconds": 300,
-      "receiptPath": "{work}/original-ten-parameter-module127-v2/original-parameter-module-receipt.json",
-      "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
-      "mathematicalScriptSHA256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4",
-      "mathematicalScope": "Rebuild all original116 source columns and every complete original coordinate gate in this new job; no previous temporary files assumed."
-    },
-    {
-      "id": "original-koszul55-rebuild-paid-high95-60",
-      "requires": [
-        "original-koszul55-rebuild-field-model180"
-      ],
-      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
-      "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
-      "sources": [
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
-          "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
-        },
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
-          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
-        },
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
-          "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c"
-        }
-      ],
-      "argv": [
-        "--outer-seconds",
         "120",
-        "--heartbeat-seconds",
-        "10",
-        "--stdout",
-        "{work}/original-koszul55-rebuild-paid-high95-60.math.log",
-        "--heartbeats",
-        "{work}/original-koszul55-rebuild-paid-high95-60.heartbeats.jsonl",
-        "--identity",
-        "{work}/original-koszul55-rebuild-paid-high95-60.observed.json",
-        "--",
-        "python",
-        "{scripts}/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
-        "--exact-helper",
-        "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
-        "--field-model-source",
-        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
-        "--field-model-out",
-        "{work}/original-ten-parameter-module127-v2",
-        "--out",
-        "{work}/original-quartic-syzygy95-small-gate127",
-        "--seconds",
-        "60",
         "--memory-mib",
-        "512"
+        "1024"
       ],
-      "timeoutSeconds": 180,
-      "receiptPath": "{work}/original-quartic-syzygy95-small-gate127/original-quartic95-receipt.json",
-      "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
-      "mathematicalScriptSHA256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c",
-      "mathematicalScope": "Rebuild the same complete original high95 dictionaries and both phases; their full stored and logical bytes must match the pinned actual prior phases."
-    },
-    {
-      "id": "original-koszul55-mixed95-unit60",
-      "requires": [
-        "original-koszul55-rebuild-paid-high95-60"
-      ],
-      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
-      "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
-      "sources": [
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
-          "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c"
-        },
-        {
-          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-koszul55-mixed95-source-unit127-789f.py",
-          "sha256": "fc1dfea5219a773af1140c3c9e8ba52bcb6acfd36ae67bd325c9317e416d0ab5"
-        }
-      ],
-      "argv": [
-        "--outer-seconds",
-        "120",
-        "--heartbeat-seconds",
-        "10",
-        "--stdout",
-        "{work}/original-koszul55-mixed95-unit60.math.log",
-        "--heartbeats",
-        "{work}/original-koszul55-mixed95-unit60.heartbeats.jsonl",
-        "--identity",
-        "{work}/original-koszul55-mixed95-unit60.observed.json",
-        "--",
-        "python",
-        "{scripts}/2026-11-16-r150-original-koszul55-mixed95-source-unit127-789f.py",
-        "--parent-source",
-        "{scripts}/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
-        "--parent-out",
-        "{work}/original-quartic-syzygy95-small-gate127",
-        "--out",
-        "{work}/original-koszul55-mixed95-unit127",
-        "--seconds",
-        "60",
-        "--memory-mib",
-        "512"
-      ],
-      "timeoutSeconds": 180,
-      "receiptPath": "{work}/original-koszul55-mixed95-unit127/original-koszul55-mixed95-receipt.json",
-      "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-koszul55-mixed95-source-unit127-789f.py",
-      "mathematicalScriptSHA256": "fc1dfea5219a773af1140c3c9e8ba52bcb6acfd36ae67bd325c9317e416d0ab5",
-      "mathematicalScope": "Verify all55 original Koszul sources, choose40 original multiplied sources on the paid95 rows, and check all25575 complete coordinates and both new mixed inverses. No parameter arrays or characteristic-zero coordinate lifting."
+      "timeoutSeconds": 210,
+      "receiptPath": "{work}/weight10-macaulay-controls127/full-weight10-controls-receipt.json",
+      "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-weight10-macaulay-controls127-789f.py",
+      "mathematicalScriptSHA256": "fc5992ab257f3b6f535033a4fb6500af419ab84a8bc64d3f633de87bbfc1912c",
+      "mathematicalScope": "Compile both frozen complete-matrix implementations and execute all original bitplane, new signed-scalar, tiny positive/negative and complete-column checkpoint controls plus independent ordinary controls. No200 parent or large matrix read, and no target membership conclusion."
     }
   ],
   "sameJobPolicy": {
@@ -175,9 +77,7 @@
     "noEmptyRetries": true,
     "noAutomaticBudgetResume": true,
     "noArrayArtifactOrReleaseUpload": true,
-    "prefixRebuiltFromSourcesOnly": true,
-    "allOldPhysicalAndLogicalSHARequired": true,
-    "threeReviewedStepsOnly": true,
+    "oneReviewedControlStepOnly": true,
     "completeObserverExecutionIdentityIncluded": true,
     "stalePreviousReceiptNeverReportedAsCurrent": true,
     "originalIdealOrISPConclusion": false
