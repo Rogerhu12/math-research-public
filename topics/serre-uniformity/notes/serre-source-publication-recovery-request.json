@@ -2,34 +2,41 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R924-original-completed-Hom-first-normal-function",
-  "commit_message": "serre: determine original first normal function and calibrated coefficient content",
-  "rules_last_read_commit": "e2926e647f68910857d347e9333760c3699b7ea0",
+  "request_id": "20261116-R824-R787-ended-no-new-output-continuations",
+  "commit_message": "serre: continue saved original checkpoints after ended runs without new outputs",
+  "rules_last_read_commit": "3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "9a35ff127c2e9991acea99d3c4b586d71aa5f3988168d9d3a51bc4d9bbf7eebf",
+  "expected_previous_request_sha256": "4bc1a044eabf171b0a086377171b949d202ddeec4daf906ee003dd0c2d8ebc7f",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R924-original-completed-Hom-lift-and-marked-normal-function.md",
-      "sha256": "3095899513c6f3db34b6f0bab966563446a7285420a88e9f44c031d156e6d248",
+      "path": "topics/serre-uniformity/notes/2026-11-16-R824-R787-ended-without-new-checkpoints.md",
+      "sha256": "7e656958e878b8cdd4dd4835cb8d60d862349833280958d49523e94377b67a03",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "5d7802f6ae1f71bd4914e2ea9f12c67e4b9f92305ad296f88b024f4a8a471fbc",
-      "expected_previous_sha256": "7aa44681a126ba4082de84edbb9e027869e583bcc934391c52bb5d728fe09eb8"
-    },
-    {
-      "path": "topics/serre-uniformity/open.md",
-      "sha256": "efd158d031f7fb09005011cbd8206ff7630dec9267a78635d21dd9a5c8a628c4",
-      "expected_previous_sha256": "98857007598bafd5064b4022d579fa8a5dcfcd5e4b1bc377d4fba2363356ecb3"
+      "sha256": "050bbf4e07eba03fb935bf76690e62dd6f5c005688c966e71087f7f9b65d6b69",
+      "expected_previous_sha256": "d3fc42804274778657fd70cabfd0e107584f47f9c4f8f2829dce7afc680f9b2b"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "042dc504275a8953d61264054991a9275dc17c143595db0d16e5bf91871f0c32",
-      "expected_previous_sha256": "704496ff87da0f94fcde2f961359c76df3c2cc8a2a25c7997ae5d29257e104a3"
+      "sha256": "b3e8563444f90912cb315f8c8c493b1cb92888284a04cae492103d4ac9c362b5",
+      "expected_previous_sha256": "759058fe44957ac04f1f5b389fd69e3eaf4730998dcd8e25aa4e5a0d3396110b"
+    }
+  ],
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-p41-original-global-polar-generators.yml",
+      "request_path": "topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json",
+      "request_sha256": "073d09631297bb05ef1d4f4593a4fca2ee10f75b8786ce3cc72e07ff7e59d566"
+    },
+    {
+      "workflow": "serre-p41-original-power5-relation.yml",
+      "request_path": "topics/serre-uniformity/notes/R787-public-original-power5-relation-request.json",
+      "request_sha256": "0ef37410cc917490bbdfde04764ce6b1700292a7bf093d672d388e720f94a95e"
     }
   ]
 }

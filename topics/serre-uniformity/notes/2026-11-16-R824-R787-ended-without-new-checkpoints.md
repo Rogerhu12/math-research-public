@@ -1,0 +1,23 @@
+# R824 与 R787：未留新数学产物的已结束运行及原检查点恢复
+
+日期：2026-11-16。本次只记录实际平台状态和恢复动作，不增加数学结论、位数或成功旗标。
+
+## R824 的实际关闭信号
+
+run43877576209 / job133334539270 / source7e0e27d9c4ff65adb006a5a42d2ac79d7b118314 已实际结束为 failure。读取该 job 原日志可见：2026-11-16T13:51:38Z 进程退出143，runner 明确报告 received a shutdown signal。此前日志只有输入取回完成，不能据此报告更多原 Dixon 位。API 本次返回该 run 没有 artifact。
+
+因此没有新的可恢复 current 或完整数学阶段。仍直接使用请求中已核的原693断点：run43828509061 / source9829a0385c61e9262c6038a365bc3de1c26015d2，artifact14228777115，1406291457 bytes，ZIP SHA256 bc0ea420a7b66e40a50559aedfd2e57adcfde3d86d9de8dd921ed1c975d5fd0d，原 manifest9960bfffa9da5bb91181e0be580b4355f1994afeb3fbf84134995ee38ba9a72d。它保存原全部来源与真实已成阶段，不能退回初始输入重算。
+
+原 active request 保持逐字10696 bytes / SHA256073d09631297bb05ef1d4f4593a4fca2ee10f75b8786ce3cc72e07ff7e59d566；core1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb、wrapperc590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c、300分钟预算及原27+244范围全部不改。
+
+## R787 的实际失败及无新数学 artifact
+
+run43897255536 / job133404214755 / source8767592fd9c4224554a792a5f0693b389fba4c2c 已实际结束为 failure，API updated_at 为2026-11-16T16:28:50Z。job 面板将数学步骤列为 success，却将后续上传和最终证书步骤列为 skipped。其日志下载返回404 BlobNotFound；没有可据以确认数学出口的日志或 core receipt，故不猜测内部停止原因，也不从步骤 success 推出完整关系已成。
+
+该 run 仅有规则回执 artifact14239851204，678 bytes；没有数学输出 artifact。规则产物不能当作 lift。因此继续使用已有真实670断点：run43846878233 / sourcefe3da6c73f0b1ea87a9b57f5f520eca8647ec1e9，artifact14237434353，472657363 bytes，ZIP SHA25685bb473206cad22c1b59a7cdf3ddd23373e9acd0f0818c110c3b62aadcf1c025；manifest430387 bytes/1261条/f756e25445ff7916d16fad4e1a4b19c84ae18ba54b124ff8d59e26c53848ac1c。670位、lift与完整history仍按已发布来源续用。
+
+原 active request 保持3722 bytes / SHA2560ef37410cc917490bbdfde04764ce6b1700292a7bf093d672d388e720f94a95e；core93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04、wrapperdff10f4528eac7b8d5501e18d113aa7151c63d31ab236dc097b8de2ed4cd047c及300分钟预算均不改。此前严格缺 receipt 恢复分支仍只接受已固定的 exit124/null sourceSHA/无 true FINAL 情形，不扩大例外。
+
+## 动作与范围
+
+在公开恢复发布 workflow 真实 pull --rebase main、比较两份 README 并提交本说明后，分别 dispatch 当前原 R824 和 R787 workflows。两份请求均不改数学字段、不更换已成阶段 tag、不重复活跃 job。这里只重启已经实际结束、没有留下更晚可消费数学产物的运行。每次结束后继续读取真实 manifest/current；预算或执行器失败都不构成数学否定结论。
