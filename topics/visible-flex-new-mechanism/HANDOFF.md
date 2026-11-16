@@ -8,7 +8,7 @@
 
 private于12:27:46.951829→12:28:02.584993实际pull读 **199fa7501eef29206e301da42ef4062f1b5810e6**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
-最新ring两job真实pull已读：public35438c143eda961a0fa8836d387d0e537fba43b2（12:18:24）/a82ba1e06935fbb0f199d4dc846bae876a13afc0（12:19:25）；private2b0ee51feb39f78c8a8320e876aa56747abe784e/dbfd5b3dc491f5bffb3f0e9971374b71f3ef8d75（12:19:29）。README空diff/QUEUE进行中，原收据在ring笔记；更早已读SHA保H历史和各原run notes。
+最新反射R1两job真实pull已读：public0b8bb24ce9d4a9acb3219c6fe01f35328aba4139（13:10:48）/34e3d11a3415c6eafa1197683e5c6782aa1c0362（13:11:38）；privateab08c9a38724710d5ffdc0dba75f089a45c5b8f9/7ffc92ce60712412d67d0d962b97c981fe5df18e（13:11:42）。README空diff/QUEUE进行中；全部原收据见新note，更早SHA保H历史和各run notes。
 
 三公开来源13:01复核7e61b12677e830e9997f3fcb3c7270b74ede060c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只用本公开Actions；本地只纸证、源码文本、元数据和已有输出读取。PAT仅瞬时CLI/env，不入文件/提交。根12不加开发检查/冻结复跑；根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，旧data54107494B保留。API读取不是pull。
 
@@ -24,9 +24,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 58 physical94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54、ind168 e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf。接受后学习并从paid ordinary导出U/T/e/f和原pool selected二jets；不是全grid二jets或58 J。原55仅永久constructor；58任务185.978494641秒/4值已闭，全部旧成本/原输出身份见上述note。
 
-[最后ring17](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)run43865295208/research133292183126/report133292744189/source35438c143eda961a0fa8836d387d0e537fba43b2。两网不变列最大5.502593686251275/5.502593694661017未排1000/61；原盒5056行18变量LP status2/nit0/raw18和dual None，无候选/预测/actual。32.28273412599998秒/0值闭，最新累计 **2863.061635735秒/147值**；不是准确不可行或全51排除，不重解该R2实例。原MODEL全圈二jets/A/B/C/ell可读，完整V17/全grid二jets/J未存。
+[旧ring17](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)32.28273412599998秒/0值闭，原盒唯一LP status2/nit0/x与dual None；不授准确不可行，不重解。其原二jets/A/B/C/ell已保，新R1现补齐V17。
 
-**当前新科学run43873254906/research133319615177**，source **0b8bb24ce9d4a9acb3219c6fe01f35328aba4139**，13:11 metadata为research进行中。原盒反射R1请求已进入实际研究步骤，未读运行中科学日志；尚无新结论/59，成本待原FINAL_CLOCK闭账。
+[最新反射R1](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)run43873254906/research133319615177/report133320069292/source0b8bb24ce9d4a9acb3219c6fe01f35328aba4139已闭：共同17维BVLS成功；七幅度中1/2 metric失败，其余六个通过环门。首选3/8的唯一新R2 LP status2/nit0/raw18与dual None，0预测/actual，无59；R1-only环κ约79.9617。新19.350847490999968秒/0值，累计 **2882.412483226秒/147值**。MODEL保存全V17/Lx/Hxx；不重解LS或此LP，其余幅度未解，不授准确不可行。
 
 ## 4. 已闭cap路线与原库真实路径
 
@@ -46,8 +46,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 ## 6. O2后继及当前工作顺序
 
-R514/R516付原51三jet/同盒、纯R1共同17维二次jet与四次列门、剩余R2原盒support-function iff；实际G/完整Π/中段耦合保。当前ring未存完整17个Π三向量，下一必要kernel须新付；未给可行新态，不重原R2 LP。
+R514/R516付原51三jet/同盒、纯R1共同17维二次jet与四次列门、剩余R2原盒support-function iff；实际G/完整Π/中段耦合保。新反射R1已付并保存完整17Π/Lx/Hxx；未给可接受全body新态，不重原R2或首选幅度LP。
 
-[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付固定圈原E/F的反射支、解析退化接合、零均值必要门及完整Tu/Tv lift。落原9/8才属原51；非零mean需不同metric或原γ盒内真实高度补偿。[新请求](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)已提交：原J1盒内一次共同两网BVLS、固定7幅度和仅一个新非零态R2 LP；独立600秒/至多1完整预测1actualpair，0射线0LP。mean/残差/实际G/全body门保，准确R1+R2相加后一次舍入。request66246B/70f7e91d7ecacb1fa24f0834728e2df638412ff1e53b1ccc020ceb027f0fa046；run/job见§3；尚无运行结果，不记59。
+[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付反射支、零均值及原9/8成员门。新射线的反射第三mean约.11228保留，近似投影不能套准确等距式；原盒BVLS和七幅度观察已闭，下一须用已存真实二次模型处理低阶/曲率耦合及全body。
 
 继续三个真实问题：原盒下R0/R1低阶环态与其全body候选；R518同一实际字的非恒逐点ruling；同一固定规范下有限幅值非恒周期轨道。所有新系数/缺失数组/求解/预测/actual都在未来明确Actions科学账；已有输出只按原身份读。每一子问题结束接open下一项，不把条件定理或有限观察当主完成。

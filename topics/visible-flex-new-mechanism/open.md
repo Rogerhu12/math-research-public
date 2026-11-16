@@ -14,19 +14,19 @@
 
 ### O2 最新实际
 
-[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)在完整168/172族两网过原14门/准确盒；η粗.26600541430262403、细.26600541463999305，κ细57.9997782607127。实际下降.0000016540087044436547，fixed g/b0/永久reference保；新185.978494641秒/4full值（2necessary+2actual）已闭，累计2830.778901609秒/147值。已保存58完整U/T/e/f及原pool selected二jets，58 J/全grid二jets未存；57导数不可跨点。细κ峰.78/θ4.818744981678094非轴，ring17必须完整S；主reach/连续门与.26未过。后继[ring17原观察](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)支付32.28273412599998秒/0值、LP未返候选，累计2863.061635735秒/147值，当前仍58。
+[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)在完整168/172族两网过原14门/准确盒；η粗.26600541430262403、细.26600541463999305，κ细57.9997782607127。实际下降.0000016540087044436547，fixed g/b0/永久reference保；新185.978494641秒/4full值（2necessary+2actual）已闭，累计2830.778901609秒/147值。已保存58完整U/T/e/f及原pool selected二jets，58 J/全grid二jets未存；57导数不可跨点。细κ峰.78/θ4.818744981678094非轴，ring17必须完整S；主reach/连续门与.26未过。后继[ring17原观察](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)支付32.28273412599998秒/0值、LP未返候选，累计2863.061635735秒/147值，当前仍58。最新[反射R1观察](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)再付19.350847490999968秒/0值，累计2882.412483226秒/147值；BVLS成功而首选3/8新R2 LP未返向量，没有59。
 
 ### R516已付R1共同低阶域；下一须给真实新态
 
 [R516](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)在原x0=0的同17一阶径向坐标上，付U仿射、Xss完整二次、原172盒的准确投影与剩余R2区间。原metric门为共同二次条件，实际G下形算子不变列目标为显式四次条件，剩余原盒曲率 iff 所有非负行组合的support-function不等式；没有逐角独立选法向，也未把浮点LP状态升格为严格分离。连续圈身份为B²+C²=|nθ|²/(a²G)，另须连续系数与uniform非退化。
 
-当前58尚无可行非零x。下一先从真正R1几何方向形成共同低阶态，再在其真实R2剩余盒内构造；原ring成功stdout未保存完整17个Π三向量V，只存ell收缩与hash，因此所需缺失kernel必须列入未来新Actions成本。原二阶LP已闭，不为补输出重跑；新候选最终仍需全body预测、准确舍入后的实际168/172与原两网14门。
+当前58尚无全body验收的新非零x。原ring未存V17的欠项已由新反射R1任务真实付清：两网完整V17、选定方向Lx/Hxx及原二jets保在原MODEL stdout。下一直接读取这些已付输出，研究同原盒的低阶/曲率耦合；不重建旧Π、不重解原二阶LP或已选3/8 LP。任何新候选仍需完整body预测、准确舍入后的168/172和原两网14门。
 
 ### R519反射支给下一明确几何方向
 
 [R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)证明在整圈保E/F的纯R1候选只有原支及关于span(T,Tθ)的反射支（退化/切支范围保）。固定高度时必须零均值；完整Tu/Tv正交lift可从起点冻结一对角函数，但只有准确落原9/8列时仍属原51族。原角对称、闭合、完整径向延拓及全body变化都已给式；非零mean只能保减均值后的不同metric公式，或在原γ盒内另付真实高度补偿。
 
-下一新计算由这个确定目标取得一次原J1盒约束的共同两网L2射线，保实际G、mean残差和投影后一般F变化；仅非零且过共同低阶/原盒门的幅度才付一个真正新R2问题。已按[新明确范围](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)提交固定七幅度、一次有界LS/一次LP，0射线则0LP；运行身份待回读，不把提交计为科学已付。最后仍须全body预测和原actual14，不沿用反射的等距公式给近似投影授资格。
+[本次实际返回](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)已完成一次原J1盒共同两网BVLS。反射第三mean粗/细.1122799870321235/.11228005841559864保留；非零投影是近似方向。七预定幅度中1/2 metric失败，3/8、1/4、1/8、1/16、1/32、1/64过环metric/列/剩余盒门；首选3/8的唯一R2 LP status2/nit0，x/dual None，其他五个未解。该处R1-only环κ约79.9617，不能据metric改善接受。下一用已存完整模型形成几何上不同的低阶与二阶耦合任务，不盲重跑原实例；新代数/求解/预测/actual必须另列Actions科学账。
 
 ### 仍须支付
 

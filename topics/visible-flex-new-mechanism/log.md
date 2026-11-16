@@ -777,3 +777,7 @@ R521以真实有限正交复制保全部第三history，原kss行经完整IBP在
 
 ## 2026-11-16 13:12 UTC：R523真实反射段的完整端口
 [R523](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)付非恒k/同scalar端值及一次合法w/χ，完整重锚保有序交叉项，Ttot=−Atot²/2但短段Atot≠0；frame/位置/奇germ/第四累计仍须同轨道支付。新R1 run43873254906/job133319615177已进入研究，仅读metadata；source0b8bb24c及NFF后实际pull双README空diff已记H，当前58与旧终账不变。
+
+
+## 2026-11-16 13:21 UTC：真正58反射R1任务完整闭账
+[实际观察](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)保原10记录：一次共同BVLS成功、七幅度完整表，首合格3/8唯一R2 LP status2/nit0/raw18与dual None；0预测/actual，无59。新19.350847490999968秒/0值，累计2882.412483226秒/147值；全V17/Lx/Hxx已存原stdout，下一做真实耦合新问题，不重解旧LS/LP。
