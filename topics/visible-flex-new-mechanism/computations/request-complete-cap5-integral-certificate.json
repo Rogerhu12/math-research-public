@@ -1,0 +1,224 @@
+{
+  "version": "complete-cap5-integral-certificate-v1",
+  "status": "fixed_before_first_execution",
+  "task": "One new complete five-gate integral-certificate LP and one exact rational defect judge",
+  "execution_authority": "all new research only in this public repository GitHub Actions",
+  "repository_checkout": ".",
+  "design_path": "topics/visible-flex-new-mechanism/notes/complete-cap5-integral-positive-certificate-design-20261116.md",
+  "entry_path": "topics/visible-flex-new-mechanism/scripts/complete_cap5_integral_certificate.py",
+  "request_path": "topics/visible-flex-new-mechanism/computations/request-complete-cap5-integral-certificate.json",
+  "source_manifest": [
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/complete_cap5_integral_certificate.py",
+      "bytes": 40404,
+      "sha256": "86a98b92d29c2c3fd4f394adf06c39d4f9441096a504e0daf45e37f934b1e0e6"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/notes/complete-cap5-integral-positive-certificate-design-20261116.md",
+      "bytes": 14069,
+      "sha256": "56003d874582e927787b7051cfbeb4de157bc0d056720f161ea1ce5f9b28c0c5"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/observe_complete_cap5_certificate_stdout.py",
+      "bytes": 16603,
+      "sha256": "645216f21d79547c300dff791024d3e42cafb0c7d10520c77fd02c38c2a3a51d"
+    },
+    {
+      "path": "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py",
+      "bytes": 50679,
+      "sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+    },
+    {
+      "path": ".github/workflows/visible-complete-cap5-integral-certificate.yml",
+      "bytes": 9079,
+      "sha256": "d878763597609c50f105ac35bd857d442ccf23f904f0b2678e385ea516411f10"
+    }
+  ],
+  "immutable_source_blobs": {
+    "entry": "af16cadb1c666a8f52364531b10a890b2790ba75",
+    "design": "ffd95233b9334c6e387fa033ca8fa59af35a452a"
+  },
+  "published_math": {
+    "R471": {
+      "commit": "d5cf6ec08d71b6b7a7240f051198c9800f5d8c06",
+      "scope": "the complete five same-cap gates and the unique common proportionality condition"
+    },
+    "R491": {
+      "commit": "648e84998a03d15c5762c4be90e809ebb0adbffc",
+      "blob": "32e33d45e019b256cdb743a54d6dc5166fc5d8ce",
+      "scope": "complete twelve density terms, eight cumulative coefficients, original endpoint primitives, and full weak jump convention"
+    },
+    "R495": {
+      "commit": "ddfee4bec1f80bcd4ad22cb86d961fbeb4667643",
+      "blob": "471b1f34d420083497a83845a00dcc0c18703871",
+      "scope": "true concave graph, C tail, Af nonnegativity, p >= r^3, and complete coefficient constraints"
+    },
+    "R499": {
+      "commit": "db844bc1a9567aa4525c2aa0975d4d910cbc7f4e",
+      "blob": "d9e6396e889e929bf26398e79cd0fc30fa0f3976",
+      "scope": "a common zero must have 3/5 < H < H_star < 67/36"
+    },
+    "provenance_contract": "These immutable paper references are provenance, not recomputed scientific inputs. The complete formulas are inline in the separately hash-bound design and entry."
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "budget": {
+    "total_seconds": 600,
+    "solver_seconds": 180,
+    "minimum_seconds_reserved_after_LP": 180,
+    "stdout_bytes": 41943040,
+    "single_new_account": true,
+    "all_inputs_imports_assembly_LP_rationalization_failures_and_output_share_ENTRY_STARTED_AT": true,
+    "final_clock_after_report_is_authoritative": true
+  },
+  "hard_caps": {
+    "variables": 60000,
+    "coefficient_rows": 85000,
+    "matrix_nonzeros_before_sum": 7000000,
+    "exact_nonzero_coefficients": 85000
+  },
+  "static_combinatorial_upper_bounds": {
+    "variables": 59405,
+    "coefficient_rows": 82650,
+    "matrix_nonzeros_before_sum": 6483518,
+    "scope": "paper upper bounds without the fixed grade filters; these are not computed LP sizes or an executed preflight"
+  },
+  "fixed_ansatz": {
+    "height_lo": [
+      "3",
+      "5"
+    ],
+    "height_hi": [
+      "67",
+      "36"
+    ],
+    "potential_count": 85,
+    "n_parameter_degree": [
+      1,
+      1
+    ],
+    "B_parameter_degree": [
+      8,
+      1
+    ],
+    "multiplier_parameter_degree": [
+      2,
+      1
+    ],
+    "residual_parameter_degree": [
+      8,
+      2
+    ],
+    "endpoint_parameter_degree": [
+      12,
+      1
+    ],
+    "A_state_degree_limit": 6,
+    "Q_state_degree_limit": 4,
+    "rounding_power_of_two": 40,
+    "single_LP_calls": 1,
+    "single_exact_judges": 1,
+    "generator_products": false
+  },
+  "fixed_scope": {
+    "gate_ids": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "height_parameterization": "H = 3/5 + (67/36 - 3/5)*xi",
+    "tail_parameterization": "C = (H-3/5)*zeta; xi,zeta in [0,1], without division at H=3/5",
+    "complete_original_density_terms": 12,
+    "complete_original_cumulative_coefficients": 8,
+    "nonnegative_generators": [
+      "1-p",
+      "1-r",
+      "U-C",
+      "H-U",
+      "5(U-C)r-3p^2",
+      "3p+(2T-3)r",
+      "1-p-Tr",
+      "2(H-U)-2Tp-T^2r",
+      "p-r^3"
+    ],
+    "total_derivative": "D_t B = -B_T + p B_U + r B_p + q B_r",
+    "original_q_identity": "q = r^2/(3p) + Af/(6p)",
+    "left_potential": "exactly zero by the fixed potential tail weights, including C>0",
+    "weak_jump_rule": "retain the full actual dr path; never substitute a one-sided r value times a jump",
+    "rationalization": "exact binary64 to the fixed 2^-40 grid; clamp rounded negative nonnegative-variable values to zero and pay every induced polynomial defect",
+    "LP_corner_normalization": "sum of the two nonnegative n parts <= 1 at each of four parameter corners; only a search-scale normalization, not a certificate hypothesis",
+    "strict_certificate": "E_min > D_A + D_Q as an exact rational comparison on the entire closed parameter square",
+    "float_solver_return_is_not_a_certificate": true,
+    "failure_or_no_certificate_does_not_resolve_the_actual_cap_class": true,
+    "adaptive_basis_degree_interval_or_rounding_changes": 0,
+    "old_cap_evaluations": 0,
+    "old_rank_calls": 0,
+    "old_mapper_calls": 0,
+    "development_tests": 0,
+    "atomic_search_restarts": 0
+  },
+  "LP": {
+    "implementation": "one scipy.optimize.linprog(method='highs') call",
+    "minimization_objective": "-epsilon",
+    "presolve": true,
+    "primal_feasibility_tolerance": 1e-8,
+    "dual_feasibility_tolerance": 1e-8,
+    "positive_row_rescaling": "divide each row by max(1,max absolute original coefficient); exact judge uses the unscaled original rational columns",
+    "returned_candidate": "record all returned nonzero binary64 coefficients before the post-return deadline check; an unfinished/non-success LP may supply a candidate but never a proof"
+  },
+  "stdout_contract": {
+    "record_tag": "CAP5_CERT_RECORD",
+    "final_report_tag": "CAP5_CERT_FINAL_REPORT",
+    "authoritative_clock_tag": "CAP5_CERT_FINAL_CLOCK",
+    "reserve_for_final_report_and_clock_bytes": 262144,
+    "records": "monotone sequence, exact payload bytes/SHA256, and chain",
+    "candidate_and_rational_coefficients": "complete nonzero entries with canonical variable labels; all omitted variables are exactly zero",
+    "residuals": "every nonzero spatial coefficient polynomial, all 27 Bernstein coefficients, exact minimum, original integral bound, and full loss",
+    "endpoint": "all 26 Bernstein coefficients and their exact minimum",
+    "partial_failure": "retain the actual phase, started/finished counters, fees, last record/chain, LP return and any completed exact judge; never replace them by a fabricated zero",
+    "output_storage": "public stdout and temporary --out only; no artifacts and no raw research output in Git"
+  },
+  "closed_previous_accounts": {
+    "cap15": "closed; do not read or recompute",
+    "three_atom_run": "43837374645",
+    "four_atom_run": "43845218578",
+    "rule": "This is a different polynomial-certificate problem. No previous search budget is inherited."
+  },
+  "workflow_root_requirements": [
+    "Before source checkout, perform actual public/private pulls and print the real before/after commits, double README identities/diffs, private root identity and queue state under the established project rules.",
+    "After those rule reads, detach the request-bound source commit; bind the final request and workflow identities outside their own content.",
+    "Pin the runtime versions and four single-thread environment variables; execute this entry exactly once from repository root.",
+    "Do not run a development suite, py_compile, a scale preflight, an old atom search, or a second LP.",
+    "If research fails, preserve the original stdout and final accounting; do not silently rerun or alter the fixed ansatz.",
+    "Any result note must distinguish the exact rational decision from solver status and from account/output status."
+  ],
+  "repository": "Rogerhu12/math-research-public",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "queue_session": "Astra-new-mechanism-9974ea84",
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/complete_cap5_integral_certificate.py": "86a98b92d29c2c3fd4f394adf06c39d4f9441096a504e0daf45e37f934b1e0e6",
+    "topics/visible-flex-new-mechanism/notes/complete-cap5-integral-positive-certificate-design-20261116.md": "56003d874582e927787b7051cfbeb4de157bc0d056720f161ea1ce5f9b28c0c5",
+    "topics/visible-flex-new-mechanism/scripts/observe_complete_cap5_certificate_stdout.py": "645216f21d79547c300dff791024d3e42cafb0c7d10520c77fd02c38c2a3a51d",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+    ".github/workflows/visible-complete-cap5-integral-certificate.yml": "d878763597609c50f105ac35bd857d442ccf23f904f0b2678e385ea516411f10"
+  }
+}

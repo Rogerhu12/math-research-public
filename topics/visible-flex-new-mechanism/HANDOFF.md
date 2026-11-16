@@ -6,8 +6,6 @@
 
 根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于11:32:35→11:32:50 UTC真实pull --rebase，已读上游 **99f4ee650e031448e9fcb33ead672e48a8babd3d**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:52:32 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-早前NFF实际read 99a83bde6ec9654dfee36057afaf2dcdcc8a5c15、2ed5c7bb1af5283fac6a6131fb4605d8234ea8ad，双README空diff；逐pull历史保H提交。
-
 private于10:52:23.800032→10:52:32.780639实际pull读 **507d08ba813bad8699caaf3b6443a7ac0fa44714**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前小域run43851980835两job也均真实拉两仓/README空diff；私有正文不发表。
 
 三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。已部分克隆，现用本地Git；API读取不是pull。
@@ -32,7 +30,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 **真实cap。** R471五门Δ1/2/3/4/6、R475完整12L/8Aj、Af/simple根/双germ/真宽/C尾、R495完整凹图、R489质量窗均保。十五参数/三原子/四原子搜索均已闭且无零，不再重跑；有限失败不排全类。[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)保严格Dd余项，完整ImE在H≥H*严格负，H*∈(13/7,67/36)，真零只可能.6<H<H*。[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)固定图offset虚部真三次、当前H≥1严格凹至多两根；实部完整四次首项C4/5，尚未排共同零/低端凹性。
 
-[新的五门证书设计](notes/complete-cap5-integral-positive-certificate-design-20261116.md)直接保80H³Δ五密度、C尾、85个已证左端零势、q=r²/(3p)+Af/(6p)原余项和九真不等式。固定全H∈[3/5,67/36]/C参数Bernstein有限LP；唯一成功门是有理E_min>D_A+D_Q，所有负余系数按原积分界扣。0执行、未得证书，不续atom余额；源正在实现。
+[新的五门证书设计](notes/complete-cap5-integral-positive-certificate-design-20261116.md)直接保80H³Δ五密度、C尾、85个已证左端零势、q=r²/(3p)+Af/(6p)原余项和九真不等式。固定全H∈[3/5,67/36]/C参数Bernstein有限LP；唯一成功门是有理E_min>D_A+D_Q，所有负余系数按原积分界扣。已固定[唯一新入口](notes/complete-cap5-integral-certificate-single-new-scope-20261116.md)：600秒、一次LP≤180秒、后留180秒有理judge；即由请求push触发公开Actions，尚无结果。不续atom余额。
 
 **真实路径。** R469/472保A/T/全部W/V；R482原13状态/2输入、完整K与Mraw、R484保护芽rank边界、R486仅开域障碍、R488 secant t1′<0、R492 period/13锁、R494真实桥odd残值均继续。R500异ω前缀差商只消相对门，不能删共同门/桥K；详原索引。
 
