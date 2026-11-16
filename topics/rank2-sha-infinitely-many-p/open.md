@@ -161,3 +161,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R879](results/R879-original-v66-heat-and-degree22-trace-defect.md)：原V66的R855完整第一次热连接后，准确Tδ,22(V[1])=−σ22(19X³−119bX²+56b²X+32b³)/21。全D²与零阶项保；原三点变分−2a²∂a+12b∂ρ直接读出非零四坐标，不能把TδV=0横向求导成零。原B(V)=0不授热伴随中央，续同D行的完整trace缺陷。
+
+
+- [R872同因子提升与二近支](notes/2026-11-16-r872-factored-corrector-last-row-and-residual-branches.md)：真正同预算Pfact在全M/p³下才获同J/p²，原ER|C的s−1首项−11、E²/E³的28/−36与同R三重零准确联立。若F|R，R=tFH的两近支系数(7±√−17)/6，零链亏量2或3；实际条件2h≤B_D·C−κ−3减严格f0而非总纤维。未判F∤R及完整K1尾像。
