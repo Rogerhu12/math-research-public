@@ -28,7 +28,7 @@ R406：run43775998866唯一新两Ω给n4=n6=0、n2=∫12项L≠0，Lrr=3x²(p−
 
 R408/409：原允许wθ不改totals、Af累计flux及平台二次；完整affine两常数仍保。八末复制的16真实d/e可在M5≠0时读λ+，故M5零是当前母的必要条件；不扩一般芽，有限圆须实际因子化。
 
-R411/R412：原16个4minor/正解析IFT付n2四平移系数0，再于同流形以远离局部jets的normal、restricted max-F和r+4校正同付19真根/共同F外区。所有p/Af仅有限简单零；R410的一对不转给该四约束母。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。R413：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；此低层问题已由R429在共同A内闭合，内部period另欠。
+R411/R412已付完整n2四平移系数0、19真根与共同F，H*是同实际圆ker(E,totals)中的λ1 signed见证，非负路径。R413从起点保D−E>0/共同D,E，低层字符已由R429闭合。新[R431](results/R431-common-exterior-degeneracies-in-the-complete-four-constraint-nineteen-target-library.md)在同一次初选进一步保全部Af根/整邻域/全jets共同：解析Euler唯一性把四normal移入中心Af<0，cap固定q图册上真max-F+19minor；有号集中保实际U′，大三阶项全区≤0，非C3-small，有限N取根不生新Af点。同μ真连通路径付全部外根self″cap；最终内区C∞、外cap/端解析，不授全内部解析或旧数值纤维。实际两partial保真实width/suffix/totals，Euler-current仍仅signed ker(E,Λall)，有限A0不代它。
 
 R415–R427完整低层链：原N0/N2、Gamma/水平Y及真尾全保。R416/419/421给负六static/hh自然0、kk=−3(1+k²)²B_Q4/64；共同偶M5零母/ordered3+2全0，PSD消cross，非零−6正字符已排。R420全负四static=3S³F_Q4/32、R425全hh=−3S²F_Q4/16；原共同D/E的Q4平移像与同权wholeE响应补偿后使static/hh/cross字符0，非原算子0。R423保四原势，R426完整k0 kk=A=3F_Q4/128+∫(3p³r²−2upr³)/64，后项偶母全affine0，故λA0。R427全原式两级支撑给Λkk=A+k²B+k⁴C；S整除iffΛ(B−A−C)=0，不能猜。[两新实际](notes/kk-minus4-natural-flux-first-completed-actual-20261116.md)run43790439330：B完整五项C²密度/Euler14非零，C整个left/local/Euler空，双nonlocal空；38源/12新self/9旧响应、science2.833311144/RSS234388，旧研究0。[R429](results/R429-complete-kk-minus4-values-and-actual-common-joint-sections.md)手核B偶母平移=−(D+3E)c/16，M25准确消；真幅宽中心/成本H²同NH，故原共同D/E库已付B/C∈N A(U−3)，不用新增观察。普遍S整除false，Euler差最高项−9upr/16；与共同商N像不混。
 

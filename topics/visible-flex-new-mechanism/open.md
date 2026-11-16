@@ -160,9 +160,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R403/405使该包恰一对Af根，不能据此升级全包实际满射。
 
 
-### R403/405保十九真根与共同外区，继续全部包的真实像
+### R403–R431：同四约束/十九根母库的全部退化点现有共同外区
 
-[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)在内区restricted affine空间取真最大F秩，原19完整C1集中/正核给有限根，外区准确ψ3且每包两Af简单点；原actual宽w_i各自保留。跨包period Q=L+Σm_jJ_j，wholeE0仅消m_j″，二阶成为局部；全Λall0再由原3+2与Euler齐次给显式三次current。全部镜点C_i=a_i³J_{n_i}共用含真w/suffix的有限表，同宽每侧≤21生成、总≤42|W|，非秩或满射；共同平移可至8次。actual仅wholeE0，右镜仍保原ordered总通量。[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)现闭sameμ内支撑真实连通路径的S″cap不变，前提原M0/同端口闭frame，Q0但不额外π0。全部d/e左右镜点公式保完整u0 selfcap、真wi/suffix与整包ω_i/A_i；≤7n固定自然查询准确读totals，cap同宽68生成/全68|W|只是上界。实际全Λ0已被R406排，下一求这些有限共同值的真实像与13同规范，不拼分别截面。
+[R431](results/R431-common-exterior-degeneracies-in-the-complete-four-constraint-nineteen-target-library.md)从同一次新初选同时付q四约束、共同D/E和F_rat、19完整根，并使全部Af简单根及整邻域/jets准确共同；非把R410一对与R412另一母拼接。先解析母的Euler唯一性把四normal放进任意中心负Af窗，再在cap固定q图册上取真restricted max-F和19minor；同号三导集中保实际U′，高项在左右都≤0，不需C3小，所有纠正严格中心。最终有限N母内区C∞、外区/端解析；不保持旧冻结数值纤维。
+
+同μ实际连通路径使R407完整self″cap身份用于全部外根。每根真实partial由共同参考self cap+局部ordered cap积分组成，右根另消耗完整total；真实wi、ξi、幅权和所有suffix保留。在共同合法窗口内可消费R429付wholeE/有限total，但尚未付该完整cap表的全部目标。R405 Euler current只能用于signed ker(E,Λall)及R0列；finiteA0不能升级universal身份。42m|W|仅生成上界，非秩。下一比较一般actual cap表与完整响应像、继续像外商和同13规范。
 
 
 ### R408独立二阶规范的已付不变量
@@ -185,9 +187,9 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 R416/419/421已排−6；R420/425的−4static/hh/cross加新kk，先同权响应补wholeE再λN，排六候选权全部正字符。[R428](results/R428-conditional-complete-joint-cost-cone-and-finite-actual-C1-sections.md)的唯一低权条件因此解除。在从起点共同合法窗口前提内，wholeE与所需全部有限自然self/ordered得到同一固定有限C1真词截面；原型、两次商基准、桥2VA、真倒行、响应与Klein背景全部保留。不授任意旧窄窗口、另库或旧冻结g。
 
-实际零目标只付原有限Λui/Λui+uj、全部真实suffix的两整包totals、平台G″与原解析端germ。仍须同一最终成本逐个支付每个Af简单根的两条partial：Ri si(x)+Σj>i Rj sij(x)=0，Ti si(x)+Σj>i Tj sij(x)=0。原gauge的Lf像不能改变这些点；右端total0不能代内部值。R412仅有限简单根，不保证R410一对或R405共同cap，旧≤4/≤11对应点结果不外推全点。
+实际零目标只付原有限Λui/Λui+uj、全部真实suffix的两整包totals、平台G″与原解析端germ。仍须同一最终成本逐个支付每个Af简单根的两条partial：Ri si(x)+Σj>i Rj sij(x)=0，Ti si(x)+Σj>i Tj sij(x)=0。原gauge的Lf像不能改变这些点；右端total0不能代内部值。R431从起点在同q/D/E/19根库加强全部根共同cap；不限制只有一对，旧≤4/≤11对应点结果仍不外推全点。
 
-内部门全付后，仍须两真正period特解、保端jets的gap连接、∫k′=0所改平台值、右collar仿射输出，以及同一个incoming m*、核列和13行相位系统；Smith零行/单位圆可去极点均未付。完整第四以后仍有高阶收敛、同g有限族、全域reach/嵌入/幅度。下一工作为响应核完整内部像及同q四约束母库能否保所需局部cap/jet，均不重旧秩/19根/forcing。
+内部门全付后，仍须两真正period特解、保端jets的gap连接、∫k′=0所改平台值、右collar仿射输出，以及同一个incoming m*、核列和13行相位系统；Smith零行/单位圆可去极点均未付。完整第四以后仍有高阶收敛、同g有限族、全域reach/嵌入/幅度。下一工作为完整响应核与actual共同cap目标的内部像比较及同13规范，均不重旧秩/19根/forcing。
 
 ### R430：同包旧两列限制与新的完整保J核
 
@@ -195,4 +197,4 @@ R416/419/421已排−6；R420/425的−4static/hh/cross加新kk，先同权响�
 
 原Z中新τ†=−(δH+1024χ30)/8完整c0、a=xAf+2pr、b=−6x(rt)′−10rt；(ar)′+bp=0给原同锚partial=a(pw″−rw′)，wholeE/Λall保持0。Af根新增pr²列；三点实际jet det非零才付三C，手工自由jet例det2只排universal零身份，不宣冻结根已满秩。n_i=0包全部C自动0，生成数可至m+m*，不是rank。
 
-下一继续完整P(R0)及P(kerJ)的像外商；若后者包含于前者，才能连同所有原型/wholeJ校正的F基准在同一有限实际词里付全点。有限A0不使universal Euler0；R412当前未保共同cap，不能直接借R405全自然核的current。即使内部两flux全付，仍须真period/gap平台值/同13规范，不拼逐点截面。
+下一继续完整P(R0)及P(kerJ)的像外商；若后者包含于前者，才能连同所有原型/wholeJ校正的F基准在同一有限实际词里付全点。有限A0不使universal Euler0；R431已另从同一新初选付共同cap；仍不能把有限A0当R405全自然核current前提。即使内部两flux全付，仍须真period/gap平台值/同13规范，不拼逐点截面。
