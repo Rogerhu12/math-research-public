@@ -446,3 +446,9 @@
 - 空runner改用R815新109MB53源carrier选R80645、R856 13MB569源carrier选R8057、R853直接9；全原成员SHA后仅保61。真实7键producer身份按BASE和两certificate项分别核，R815124/core-null仅运输；原源码/来源/数学不重做。
 - root已读全core/wrapper/workflow及方法；本地只源IO/AST，R862纸证afa1e0d0已推d004a18c。H完整归档后重写，原规则/源/闭路保留；下一canonical核R864与真A投影小算术继续。
 - 本push规则：本地真实pull至1d95c32be8ca15b44832449bdc06c24e8e389fcd（2026-11-16T05:36:09.715272+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:44 Asia/Taipei — serre-public-astra-20261115
+- R864新纸证3f308ffa：原L(Hτ)146基经ν准确给全部正则微分；两20×146 cusp评价共同核理论rank19/维127。σ图vf、原V1 e73额外a1、82原微分尺度均保留；未预称实际核列已取得。
+- 新16原件从R856同569载体取得；core/wrapper五件已齐，接下去公开求19minor、127自由行identity及两图全核。真实Q-fixed结构另由原cY求，YP128/634/period仍开。
+- R860首run43811325290/sourcecb6f93b6已success，实际产物正纯IO读取；R862完整源代码/封装/请求已全读，马上激活6×6与12×12新小算术。所有旧W/Γ/Hom/Gram均不重做。
+- 本push规则：本地真实pull至fd85eeaf1e7ec8339595244a301200b87055f8bf（2026-11-16T05:44:25.847502+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

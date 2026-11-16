@@ -174,3 +174,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R861（已证明）**：[原CM Néron Fourier基与实际normal形式参数](results/R861-original-CM-Neron-Fourier-basis-and-normal-parameters.md)。原r0/α的有限惯性投影v和u=r/v给逆different完整逐标签基f_h=u v^(1−h)，β_h=v^-hΩ_h准确联系原good Fourier格；primitive筛后basechange指数恰(p−1)h。规范X_h^can=v^-h c*Y_h整且线性项1，原G_h在深盘是同一原q的Néron参数拉回。保原twist/基点/相位/尺度，content数值、首项单位与height未得。SHA256 3461121b59cfe745a7fdfdbbf09c402745c1a90b75a08d1c447bdb5a5574a153。
 
 - **R862（已证明，新小算术待执行）**：[由原七个Hom对应构造同一Rosati投影与准确整数分母](results/R862-original-Rosati-projector-from-certified-Hom-correspondences.md)。真D_A=q_R†q_R=Σ七个原f_R pull–push，已成a_A=κM_v给P_A=Norm(X−a_A)，E_A=1−P_A(D_A)/P_A(0)=q†κ^-1q，d_A=P_A(0)>0整化为有限对应。五方向保原g_R/极化/κ；E_Aφ*=0，不能代Y活跃eη/d/N或完整nonp。SHA256 afa1e0d08d0a0bd65374fee1996f0d644588840dee35fec7d766cc2f4e5707d0。
+
+- **R864（已证明，实际核待公开计算）**：[原尖点评价构造全部正则微分](notes/R864-original-holomorphic-differentials-from-cusp-evaluation.md)3f308ffa2c4ce7bc217f12f1f1b5c31bd0ef425ed90953721e7176e863ac8c7e。完整L(Hτ)146基乘原ν给H⁰Ω，原20尖点有限代数的两20×146评价核理论维127/rank19；第二图检vf，原V1 e73另加a1、82只在微分。实际rank/19阶非零minor/127独立列与两图全核由新Actions取得；未将有理坐标当原Q下降，也不代YP128/634或height。

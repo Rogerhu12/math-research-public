@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：1d95c32be8ca15b44832449bdc06c24e8e389fcd**（2026-11-16T05:36:09.715272+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[原Rosati投影前完整H](handoff-archive-2026-11-16-before-original-Rosati-projector.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：fd85eeaf1e7ec8339595244a301200b87055f8bf**（2026-11-16T05:44:25.847502+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[原Rosati投影前完整H](handoff-archive-2026-11-16-before-original-Rosati-projector.md)，内接此前全部归档；旧结论/限制继续生效。
 完整前态逐字保于[原余子式消费者激活前H](handoff-archive-2026-11-16-before-resolvent-activation.md)，内接全部归档；所有旧结论/规范/关闭边界继续生效。open最新归档为notes/2026-11-16-open-before-original-Rosati-projector.md。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
@@ -43,7 +43,7 @@ R824[501](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：artif
 **R860**：[激活记录](notes/R860-semilinear-resolvent-DAG-activation.md)，paper7a200b7d（仅FM.27引用号更正）、method20fa1948/core4b70a64d/wrapperd9b7a23c/requestd4becaf4/workflowf57cc45b。β72=N/D，总次数272/271，D首一T271由原次数272给函数域非零；删行72/列0、真实cY替换与δ/ν固定，FM.27因子1。60min首scope只原源余子式DAG，不是展开/新RR。
 空runner真正续源：R80645由R815最新53件109958828B/051571e1 carrier；R8057由R856569件13406926B/fd6329bd carrier；R8539直接成功源。两carrier全成员核后仅保61件/112979829B；旧原producer/config不改，R815124/core-null只运输。原W/三共轭/旧cyclic不重。root已读全core/wrapper及真实7键receipt接口，最小dict投影修复；未运行本地数学。
 
-**后继RR**：FM a5d65aa4完整两图矩阵/实际minor给有限kernel，YP [原RR/Hecke行](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5需真实128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。exact正作R864原20×146 cusp限制的127维holomorphic核；已确认未有同核，不代η的128/634完成。
+**后继RR**：FM a5d65aa4完整两图矩阵/实际minor给有限kernel，YP [原RR/Hecke行](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5需真实128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。R864纸证3f308ffa已成：原20×146两cusp评价共同核精确给127维H⁰Ω；σ图检vf、原V1第73项另加a1，82只在ν。实际rank/19minor/127列/双图全乘回待首Actions，不代η128/634；16原件由R856同569carrier取。
 
 ## 真正全p及原高度缺口
 

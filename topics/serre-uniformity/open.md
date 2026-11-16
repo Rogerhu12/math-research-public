@@ -130,3 +130,5 @@ E_Aφ*=0，所以本投影不能替代YP的eη，d_A不代其d或挠阶N；相�
 根独占main/共享索引；每结论立即push，每push及至少每小时真实pull并读两README差异/记H。新数学仅本公开Actions，raw不进Git/Release或悬挂blob，一日artifact只携必要原源/断点。主目标OPEN，完成子问题立即续下一项。
 
 **R860实际激活**：[记录](notes/R860-semilinear-resolvent-DAG-activation.md)。core4b70a64d/wrapperd9b7a23c/method20fa1948/requestd4becaf4，60min，原61件真正从R815/R856当前carrier及R853取得；源身份/34W/三共轭不重算。完成旗标只指余子式/下降源DAG；二元展开、canonical/RR/period仍待各自真实输出。后继R864将求尚未有同一输出的20×146 cusp限制127维holomorphic核，不冒充YP128/634。
+
+**R864正则微分新入口已证**：[纸证](notes/R864-original-holomorphic-differentials-from-cusp-evaluation.md)3f308ffa。原L(Hτ)=(1,z,β1…β144)，原ν的除子Hτ−C使全纯条件恰20×146尖点评价共同核；理论rank19/kernel127。实际消费者只做新有理消元、真实19minor、127自由行identity及两张图各20×127全乘回；σ图须vf，原V1第73项加a1。原16件经R856569载体保真实R805/R820身份，未求新W/Γ或q尾。坐标有理不等于原Q定义，真实cY固定基由R866续；YP128/634/507、η/Hecke/height仍未成。
