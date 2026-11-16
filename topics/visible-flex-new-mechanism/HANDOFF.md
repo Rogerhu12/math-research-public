@@ -10,7 +10,7 @@ private于12:27:46.951829→12:28:02.584993实际pull读 **199fa7501eef29206e301
 
 最新ring两job真实pull已读：public35438c143eda961a0fa8836d387d0e537fba43b2（12:18:24）/a82ba1e06935fbb0f199d4dc846bae876a13afc0（12:19:25）；private2b0ee51feb39f78c8a8320e876aa56747abe784e/dbfd5b3dc491f5bffb3f0e9971374b71f3ef8d75（12:19:29）。README空diff/QUEUE进行中，原收据在ring笔记；更早已读SHA保H历史和各原run notes。
 
-三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只用本公开Actions；本地只纸证、源码文本、元数据和已有输出读取。PAT仅瞬时CLI/env，不入文件/提交。根12不加开发检查/冻结复跑；根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，旧data54107494B保留。API读取不是pull。
+三公开来源13:01复核7e61b12677e830e9997f3fcb3c7270b74ede060c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只用本公开Actions；本地只纸证、源码文本、元数据和已有输出读取。PAT仅瞬时CLI/env，不入文件/提交。根12不加开发检查/冻结复跑；根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，旧data54107494B保留。API读取不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -36,13 +36,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 ## 5. 同规范路径的当前严格边界
 
-R469–509完整W/V、13状态/2输入、K/Mraw、incoming、端germ及原费用保[索引](results.md)。R507仅scalar返回且t1负，未付M0或period；R508新同形母/B=P−cR_y给真secant出口及p2双号；R509只给p1正半像/五端submersion，未付全词。
+R469–509完整W/V、13状态/2输入、K/Mraw、incoming、端germ和全部费用保[索引](results.md)。R507仅scalar端值返回；R508/509只给secant局部出口/正半像，未付完整词。
 
-[R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)一次固定紧母v与第三Gram保完整平方后，K0等价于一个关于(v,ν*)的线性全路径方程，保canonical/history及速度正定Gram。最右真gap给常scalar区段严格正t²项，排本同形圆含正长度常态bulk的全词；不授函数像满秩或别的圆排除。
-
-[R515](results/R515-uniform-positive-second-variation-of-the-real-p1-port-on-secant-intervals.md)在任意合法secant区间，原ω/p0首阶返回使Δp1=ε²Q+Oε³且Q≥15∫b²/32。延长区间仍不能用非零首阶小扰动得到负p1；不判一般有限幅值h或更高阶首动。须真正离开secant邻域。
-
-[R517](results/R517-periodic-scalar-ruling-and-automatic-real-matrix-return.md)付固定Δ的八维尾忠实性；周期scalar在0/L/2L的完整K二差为−2sin²θ E(Φ_MΔ)>0系数的负值。已付一次K0的光滑周期模板，第二次也K0 iff M0；若scalar本来是合法实解析整圆，一周期K0由解析延拓自动迫M0。未构造这种轨道，也未授frame/位置/T/V/两个period/13规范返回；R507端值返回不能冒全周期germ。
+[R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)同形母一次固定二/三规范的全路径线性方程保真实history；最右真gap给常态bulk严格正t²项，排该同形圆的正长度常态段，不排其它圆。R515在任意合法secant区间给真实p1二次系数Q≥15∫b²/32，排延长区间加非零首阶小扰动取负p1，不排一般有限幅值h。R517以八维尾忠实性证明：同一已付K0的光滑周期scalar模板第二次重复也K0 iff M0；合法实解析整圆的一周期K0可延拓迫M0。未构造此轨道，未付frame/位置/T/V/period/13返回；这些结论只属各自字面同形库，不能移植到下面保YC的新库。
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)新from-start库以4包三矩/8副本完整cubic及16元O(2)正复制的共同0…10矩，将完整含第三history的ruling准确化为sin²θ一式。在预定h,z,e=hz−k均正紧域，kss系数=(16/(3072h⁵))Σ正权∫eF⁴/Q²严格正；固定w=χ=0可显式解kss，hss为自由控制，保真实m/T有限ODE。未给周期/M/frame/位置/T/period；不继承R518另一母库。
 
