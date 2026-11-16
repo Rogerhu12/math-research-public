@@ -346,3 +346,9 @@ proof b6cd802c613f7ec193329af609c63f59a6efded3/19752B/SHA741df919addd04766685724
 ## 2026-11-16 13:35:34 UTC — 启动 WSM152 首次公开 Actions
 
 两README于49b712e1da64da90dd42c67d8cd2073a301b97dc与已读一致。package49b712e1已先在main，随后独立workflow 1ea8da9cc227a55a517c9dc79d047a4a78d80850 / 2943 B / ff292eea4eca8a4f2cdf44b07344a84881c6b1cd9f805b9e2edc9dedc4e3145d，仅该workflow路径push自然触发。固定manifest eb8cb83b/b9add676、worker1b6737b1/cc8111c1；Python3.12.14/python-flint0.9.0。runner真pull/review/preflight/consumed marker/即时容量后只启一个新child，不重WBF83/WJR56/其他旧目标；成功或失败均保存三个自然完整prefix结论与全index/exec。此刻结果待实际run，未宣称数值门通过。
+
+## 2026-11-16 13:39:56 UTC — 四件已成运行回执普通清理
+
+两README于74982ed4c356539dd3eef8368179b1c5208292a2同已读。WPS36/19新包需要151016B源+31551B worker+48445B manifest、183000B完整pub与120000B余量；当前199487337B再加这些已越200MB，故普通删已完整读核且非WSM20/WPS36输入的WRT/WDG/WBF/WJR四exec共92566B。精确restore4e7249810f4b71922daf3cc88557cb30c21cd5e1，完整path/Git/SHA/bytes、原source/manifest/run/stdout身份/原scope与四次pull链均保notes/2026-11-16-completed-four-small-execution-receipts-restore-note.md，6971c631/10121/5f8fa468。既往科学结论及失败不改，禁止重算，未来仅历史原字临时恢复。
+
+WSM43877268949/1实际已全152新39copy/22门成，root完整3图/index/exec资格45组通过；末真pull13:36:16.081258→61a4fcd6，两README全diff空，链aba13310fe0658d62bf6dbd6011e12bc02f4e968789984b8ab29873c61fc7e59。科学actual3f35c86e、3.154379049秒，完整whole/reduced新约1.90736e323，mean仍e319主导；WSMA完整证明正在登记，此处不宣称smallness或最终完成。继续WPS首次完整有限候选与WRP后继40，不重任何旧目标。
