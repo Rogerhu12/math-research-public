@@ -121,3 +121,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原41 sigma输入已证**：[真实域与倍率42](notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md)133d64af：原b的Eisenstein七次域与s未分歧二次给L41(e7/f2)，r^6=b/16给E(e42/f2/84次)。E27的Frob²=−41使[42]把全部原点/七共轭送形式群，原A≥1/7及u≡1同时成立。L_b=L16−log r、Z_b=rZ16、ψ_n缩放和原帧保留；42/84为41单位，optional41^a全尾与2a损失准确。未求41四响应/点值/period，必须原U.1或已接受A.1，不用辅助518。
 
 **原Y连接与同源校准行已构造**：[YP](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5：原O(−Z)经128维RR移到254度T，保c/a(P1)；634维微分→508完整主部、秩507，α=α0−dloga。两图Laurent界给有限全系数图，原Cν直接供微分模，无需全Γ。原e经真f=de/挠N和刚性化给连接幂等投影；同一实际Hecke L及完整非p纤维行U给YP35一次列。a/T/N/L/U均未数值化，不重登UE相消或删inactive/torsion。
+
+**原三同源与一个Z的一次收缩已证**：[ZA](notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md)268fa3fb：ψα=αx、L(αP)=3L(P)+log(αx)，与RF真R完整相消，零阶仍留χ(M_f^p/M_g^q)/q及原v。真实加法斜率与ρ给ZA24七基点；41处唯一L41内可直接用[42]求一个Z，σ共轭和trace给3(Bg−p/qBf)=7trχ,L(C_j Z+D_j)。保T^7=ζ²/原尺度/规范trace，ZA32再接YP同一Y/Hecke/nonp行；未求实际41值/系数/高度，无非零宣称。
