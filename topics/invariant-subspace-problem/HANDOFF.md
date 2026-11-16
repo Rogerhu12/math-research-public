@@ -14,7 +14,9 @@
 - 已全成：四参数run43830684123/job133175032397、原pencil run43836278134/job133193599424；正式结论/身份见下及归档。根全日志/原raw/binding独核；数学数据只tmp/日志，不冒旧tmp存活。
 - **旧Bell作业43832009393已结束：** 双degree自测/权5–7完整；权8来源核但pair未完，conditional900在候选dump终标前75，E未跑。根四raw已无损独核；旧tmp不冒存活，详归档。
 
-- **Bell次数9新实际队列：** [单目标来源/严格E接口](notes/2026-11-16-r150-original-bell-target-only-interface-789f.md)已全审：std仅发现，真纯tt才求原18×1，SSI整存/回读、原完整积＋独立FLINT双积再E全三分量。实run43846433774/job133227659894在算，首600实592.300秒/75；600→1200→1800仅75续、E600；4GiB/90min，全部步骤预冻结。正/负结论均未预填；无纯列仅发现记录，不称完整负。旧临时数组不沿用。
+- **Bell direct9在算：** [原单目标/E队列](notes/2026-11-16-r150-original-bell-target-only-interface-789f.md)实run43846433774，首600实592.300秒/75，1200/1800仅真75续。纯tt候选须原18乘回/SSI＋FLINT及严格E三分量；没有新positive或完整权9负证。
+
+- **[模7原Bell立方资格已闭](results/R150-appendix-original-bell-cube-prime-seven-admission-and-complete-weight-nine-dictionaries.md)：** 本地13.410秒/exit0，全部134399原Q系数7整，三次系数式mod7不可约；全部三Q立方/49368输出/16442来源字典真核。根raw/binding及16.999MB模型双SHA独核。下一真实原增广行秩到16047才排b³，未算新秩。
 
 ## R150原rank-one精确系数接续
 
