@@ -247,3 +247,7 @@ run `43896937318/1`、workflow `5a391cf1c8fca666df9484266a4a12af84c03473`、actu
 ### 2026-11-16 15:56:52 UTC — WCTR首次运行身份已出现
 
 公开仓库自身Actions run43901776543/1，event head `ef5a809c4bf3020b9e6473b98d1864eb71fe0ba8`，created15:55:43Z，in_progress；本次只读run/job metadata，无大log。完整actual尚未收到，192000B最大发布pending继续计入同topic容量。启动推送首次因远端main前进被拒，立即15:55:34 UTC真CLI git pull --rebase origin main仍报No usable execution environment，随后保留远端及两README新核成功推送；下一本地尝试≤16:55:34。40a91573aa3169334c9dcbf6e0479e082f85cca9 两README仍同已读，未以ref读取冒充git pull。
+
+### 2026-11-16 15:58:46 UTC — 九旧compact-metric浮点派生报告普通清理
+
+在 4ddcafb14dfd75b78937a1a229c52e5e79c974a9 核两README未变，依根规15正常删除九派生JSON共337304B，不改历史。完整恢复提交 `b1516ca01023ba29e939dbdf34f1eafc24dd5935`；九原path/Git/bytes/SHA和所有资格见 `notes/2026-11-16-nine-compact-floating-reports-history-recovery.md`，Git `374ef41d6316d889535e630c4fd9ff6e8783a619` /92585B/SHA `ba1c91bee9ef5e2a7bbb3d14de49085375a0a010fdf316f9b118a8b771226c37`。每原件均known-size小UTF8完整读取；25公共字段逐token相同，各specific字段及原省略字段token+LF hash覆盖每件全部顶层键。两m16报告的全部12attempts逐项保success/failure/diagnostics/mean与精确nu，完整数组/迭代史仍在immutable整件，不由摘要替代输入；所有accepted checkpoint原回执不改最终失败，不声称内部旧scratch路径仍可恢复。全九件certified=false且三whole域false；finite成功只是旧浮点诊断，ν/waist变化不作最终fixedmetric族，非线性tail/mean-height/flux/非第四角费均未付。只删九report，未触sources、候选、guess、方向/native或内部对象；当前WVC/WCTR/WEX完整input路径逐件排除。清理前topic199624096B，净释放244719B再扣本次文档；WCTR43901776543/1完整192000B pending与120000Breserve仍保。没有新数值、没有旧目标重跑。
