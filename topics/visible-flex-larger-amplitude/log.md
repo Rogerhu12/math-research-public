@@ -139,3 +139,8 @@
 ## 2026-11-16 02:56:00 UTC /root — R432八组真实推进与必要读回未付
 
 [R432实际200](results/R432-actual200-eight-complete39-pairs-and-single-summary-overflow.md)run43780457519/sourcecb597d3c3d66f9787a712ffa7ca9dc3d52bd57de；16原model/FD子程exit0、8本地记录/真实父交接true、trial计数4/4/3/3/2/2/1/1共20。结合原eligible分支可推出8次progress/warm配对/fresh FD门通过，不能推出未输出误差/merit/α/末三词/native/fullDN。whole-chain148732B/459fb8c8与recovery149082B/61e677cf均超90KB真实70，成功正文帧0；唯一compute日志93500B/16b3120f、68原事件48451B/cba4c1ba已读。原4次规则sync无变，group quiet无signals/unknown；8批raw已退休，但最终cleanup实际skipped、未读必要/末carrier只留至runner销毁。后继须真98重生并仅语义去重，不能从SHA恢复或跨run补数。
+
+
+## 2026-11-16 03:01:59 UTC /root — Request205三组件实际来源
+
+[205三组件完整接口](notes/2026-11-16-request205-candidate-pipeline-and-owned-tuple-interface.md)及baa207cc/227ef601/80c26207已全文/完整差异核后独立发布：真正202十词→新准确十族factory，原采样后以真实config→R449 binding→最终recipe；construction必要仅一次在binding后/BVP前，真实candidate receipt传完整453→fresh450 launcher。新增binding role但原18900/2700绝对钟、3600采样启动预留/7200完整BVP上限和原所有终门不变。config仅记实际policy/template/geometry/preparation，不虚构尚未生成recipe。两份各自scope的单90KB读回保原失败/未起与十词来源，所有几何/held及七scope必要/静止后方可清理；目前未派发、无实际新C/BVP/闭面接受，完整入口须接已冻结R452来源。

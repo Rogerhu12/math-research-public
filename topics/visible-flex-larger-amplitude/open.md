@@ -64,6 +64,8 @@ R427/R431只对真193或同源已接受mesh，以父全词/knots/准确midpoint�
 
 [R450](results/R450-same-family-finite-far-reuse-and-fresh-native-sampling.md)/[接口](notes/2026-11-16-current-C-same-far-fresh-grid-interface.md)三源0cb327b6/bbbca0cb/4328caeb、完整新sampler/两diff/证明/接口已读。同job原965c或32b真正completed/native-ready父、同全C/root与固定112下，冻结原far样本/实际mu词/全候选单位行及误差/矩阵；原全大账只字节绑定不冒逐值重证。其余新grid点真实原C包围，native/响应/J/因子/全450接受皆fresh，原数学不改。sample/configure/readback显式两原钟、完整原账/新grid未付/90KB诚实70；不复用partial父、旧状态或新M行，无真实父/因子/run。R448 caller与205来源尚须独立注册，五件不替换旧pin。
 
+[205三组件完整接口](notes/2026-11-16-request205-candidate-pipeline-and-owned-tuple-interface.md)及baa207cc/227ef601/80c26207已全文/完整差异核后独立发布：真正202十词→新准确十族factory，原采样后以真实config→R449 binding→最终recipe；construction必要仅一次在binding后/BVP前，真实candidate receipt传完整453→fresh450 launcher。新增binding role但原18900/2700绝对钟、3600采样启动预留/7200完整BVP上限和原所有终门不变。config仅记实际policy/template/geometry/preparation，不虚构尚未生成recipe。两份各自scope的单90KB读回保原失败/未起与十词来源，所有几何/held及七scope必要/静止后方可清理；目前未派发、无实际新C/BVP/闭面接受，完整入口须接已冻结R452来源。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
