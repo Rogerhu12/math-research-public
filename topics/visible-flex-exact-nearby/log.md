@@ -156,3 +156,9 @@ root全文独核26,506B/f6783549a2b29c5eebd4b31b6b604a89ba31345595cd3f03b86f6080
 root全文独核28,366B/0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546f641702a，并回原SP28–37和ST完整propagate/endpoint_readouts及25成功门。Phase正式核2–5；Newton正式核6–8/10、SP31–35、ST正矩阵与全部14record。真实第二mean dual、非局部adjoint、ng gauge、同坐标terminal、反射等距与全部signed cut/source/jump/correction tuple均保。第一行支配资格来自完整positive reverse ordered product，不把finite adjoint sample当infinite norm。
 
 新receiver仅完整符号式；新scalar consumer准备中，尚未运行。三源改善不能删PC/ST4/其它正预算，也未宣称任何physical gate通过。此结论独推，read d11d6f85fe82342583be24a0696783eda6fe088f两README未变。
+
+## 2026-11-16 04:03:29 UTC — WBP 双侧坐标的多项式逆与完整相关余项
+
+root完整独核18,114B/19f0182fb19cb3842948ee427993f7478af0557f2ec790c7c2f8ce5849015a7e并独立展开两式；Newton正式核3–5，Tail正式核1–2/6。新的target B不是old N或N⊥；G-skew的真实onto与rough窗先构造再bootstrap使两边都不需指数界。TiA−BTν的两种完整写法是同一算子，函数级Fα+Fw=Fvi不靠扣减upper；Qa只消aux常数，真(h−1)ρi/fullE∂仍在。A/W/B全部侧序与finitecut如原，两个new whole候选同坐标方可选择，不与WBN不同left-normalized量混比。
+
+无新球、无旧成功重做；仅坐标存在及完整符号strong预算成立，不授实际matching inverse或最终family。本条独推，read b03902ab42c3efc9734e92be20b52d8244a8abaf两README未变。

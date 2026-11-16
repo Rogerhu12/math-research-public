@@ -54,7 +54,9 @@ $(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$，
 
 [WBN双边非恒系数归约](results/R133-supplement-exact-two-sided-reflected-waist-first-coefficient-normalization.md)f6783549：原cohom使$R_aw=-w$、$R_b\alpha=-\alpha$($\alpha=v_i-w$)；target $N_\perp=PNP$真逆$PN^{-1}P$且fullmean block保。source $\mathcal A=1-\mathcal T_\alpha I$的same-sign压缩在G配对为skew，真onto逆G≤1、L2/H−4/3同逆为多项式符号界，精确保Z/Rb/real。完整$T_i\mathcal A=NT_\nu+R_{\rm alg}$保mean+halfcomm及有序two-I；actual双边行还保$T_i(W^{-1}-1)\mathcal A$和$E_\partial W^{-1}\mathcal A$。新$C_{\rm two}$仅whole符号式，源cut确为$\mathcal A^{-1}\widehat P_{97}\mathcal A$，非ordinarycut。
 
-**当前须闭合：** WBN已给完整非恒定first coefficient归约；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。实现真实transported finite complement的全部行/列/交叉及匹配square，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
+[WBP多项式双边坐标](results/R133-supplement-polynomial-two-sided-reflected-waist-normalizer-bounds.md)19f0182f给显式不同target $\mathcal B=1+\mathcal T_wI$：两侧同G-skew构造皆真onto且L2/H−4/3同逆poly，不调用旧NPK指数。完整$R_{ss}=F_{v_i}-M_{c_i}I\mathcal T_\alpha I-\nu\mathcal T_wI^2$先函数级收集，再由Qa精确消aux常数；实际$(h-1)\rho_i$不是常数，不能删。actual $\mathcal B^{-1}\mathcal B_\partial W^{-1}\mathcal A$保W改动、whole E∂和真transported有限补。两个whole candidate属于此同一坐标才能选；不与WBN不同left-normalized remainder直接min。全部界仍符号。
+
+**当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。实现真实transported finite complement的全部行/列/交叉及匹配square，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 
 ### 2b. 已付系数、坐标与原强界
 

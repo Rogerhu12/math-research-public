@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WBP：双边反射腰部坐标的多项式界](results/R133-supplement-polynomial-two-sided-reflected-waist-normalizer-bounds.md)（54f859b305861a1c4be4be7826c059e1e4ffc3e8，18114B，SHA256 19f0182fb19cb3842948ee427993f7478af0557f2ec790c7c2f8ce5849015a7e）。新target B与source A的G-skew给同distributional两窗真逆poly；完整收集余项的sign commutator仅含vi，Qa后aux常数精确消，physical density mean-rank及whole E∂全保。新left-coordinate不同于WBN，不能跨坐标min。全式仍符号，192/96真补、high/finite/ν/背景门未解；0数值。
+
 - 2026-11-16 — [WAD：完整物理腰行伴随与已存第一行接收](results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md)（1dfa6d56a249157b27d23d6249fb451cb9fdb6d0，28366B，SHA256 0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546f641702a）。精确adjoint保全部mean/非局部和gauge项，反射折叠后才取完整row范数。保存ST正reverse第一行给新whole receiver符号式，所有原PC/ST4/cut/三源/3070jumps/waistFT保；14旧record有准确路径，新9球未求值，不授可用inverse/finite/ν门。0数值、旧成功不重。
 
 - 2026-11-16 — [WBN：反射腰部首系数的精确双边归约](results/R133-supplement-exact-two-sided-reflected-waist-first-coefficient-normalization.md)（9507d853e18de92840abda11cb895a5989df1fc8，26506B，SHA256 f6783549a2b29c5eebd4b31b6b604a89ba31345595cd3f03b86f6080927bde95）。原cohom给两反射odd系数；target N⊥真逆和fullmean block明确，source same-sign A在G中skew，故任意实系数大小下真onto、同distributional两窗逆及real/sign/reflection保持。TiA−NTν的完整mean/comm/two-I差及actual W^-1/物理E∂合成式全有序；Ctwo仅符号，真实有限补为A^-1hatP A，不授actual high/finite/ν或tame gate。0数值、旧NPK/DZA/源界不重算。
