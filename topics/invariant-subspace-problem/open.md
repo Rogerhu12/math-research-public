@@ -1,11 +1,13 @@
 # 未解决的问题
 
+**全W31的剩余差现限根2、长度至多8。** [完整原P双局部谱及整范围](results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md)保两边完整field torsion7/32和固定J1，实投影正长度6/22与原M field像1/10相同；借自由格饱和，只推出U/M⊂p(T/S)。真H=(1,1)⊕(2,2,2,3,4)，故根1完全闭，根2差嵌(1,1,1,2,3)，31³U⊂M。root独立原二次型Taylor/1088源blockToeplitz与directSNF已同值，未判该差为0。严格C_P=C/U与tors(C_P)=H/(U/M)已付；接原155×224小呈示四轮系数饱和，保全部formal核和真实Taylor/p精度，不重A/210。
+
 **完整二孔第三旗的跨头费用已付。** [有限池与同一首头完整证明](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)在相同F3上保全部primitive/零源，真实K2截尾误差²≤ε_f+2t，无强头逆损失；一般有限核的原carry/fresh6d修复保全部支撑。τ14切点使Σ(q2−q0)<∞，因此第三旗真实Schur能量可和。此仅支付qflat在K∩RanC²的通道，高旗补、完整受限逆及返回费继续；不据此宣N=M。
 
 **原十行参数种子现已实付。** [完整有限域原来源](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)在(127,100)保全部十二y/w参数，实际重建5个10×10乘法/18×10来源、6mean、100comm和10Bell，116条逐原18乘回；全部118阶段双SHA/binding/root独读通过。v1实现错误和原失败身份保留，v2仅局部变量改名、新binding/新目录完整22.198秒。已有完整种子不等于Ni稳定闭包；下一做精确加权列压缩且每删列保原来源，再在十二参数上寻e0，阳性须回E全原18乘回；无候选不作负证。
 
 
-**原首低通道及全部未闭旧接口保[完整最新open快照](notes/2026-11-16-open-before-two-hole-finite-pool-789f.md)；归档不等于关闭。**
+**原首低通道及全部未闭旧接口保[完整最新open快照](notes/2026-11-16-open-before-whole-W31-gap-789f.md)；归档不等于关闭。**
 
 ## 主目标与完成标准
 
@@ -37,9 +39,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## R150原rank-one模块的剩余问题
 
 - **原Q零点及完整相对模块已闭，续整数来源。** [全部原检测与完整不变因子](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)用原6188×11×5精确源乘回及已证T0维5，得Q作用幂秩5,2,1,0、T0=(3,1,1)，全T≅Q[s]/s⊕Q[s]/s⊕Q[s]/h*。原t2,t3,t4为最少三生成；每j有sT=Q[s]s[tj]及循环商(Q[s]/s)²。这是独立Q证明，已关闭旧(3,2)/(3,1,1)二选，非从F31降秩外推。D=Z_(31)上完整B=<h*[tj]>的ann现由下条关闭，继续共同模结构及其余整来源；monic h*允许Ann_D[s](T_D)=h*Ann_D[s](B)，必须保完整系数扭子；后续原H0全局证书现已独立排B的root1，见下条，不由有限域支持推断。
-- **D31共同M完整分类已闭，续整个W。** [原ann及精确参数—分母定理](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)给 $p=31,x=s-2$，$\operatorname{Ann}M=h_*(p^5,p^2x,x^2)$，单原Rt的D型 $D^{23}\oplus D/p^5\oplus D/p^2$；任乘子精确31指数仍为 $\max(0,5-v_p f(2),2-v_p f'(2))$，真monic额外次数恰2、H25来源费≤8515。[共同B](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)的D型 $(1^6,2,3,4,4,5)$、长24/dD11/dR8，完整18×22关系和x作用均付。[自由格](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)真饱和25，原t2前23列单位；[全部系数扭子](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md) $S=M\cap T$ 的D型 $(1,2^7,4,5,5,6)$、长35/dD12/dR8。根1独立中心两位与根2真p12六位/完整关系均已付，全部来源/失败与只读修复身份保正文和本次open快照。完整 $M\simeq_D D^{25}\oplus S$、dD37/dR8；[参数呈示及非裂类](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)给 $(R/s)^2\oplus R/(31,s-1)\oplus E_2$，真27×53呈示保K/X/c，末扩张类恰31阶且primitive；$S/B=(1^5,2^3)$。这一M分类不再重复。下一全 $U_{31}=(W+L)/L$：由有理相等与自由像饱和，$U_{31}/M\hookrightarrow T/S$、长度至多15，是否填满尚未计算。保原有限载体C的D自由298及 $C/pC\hookrightarrow Q_{315}$ 的一维J余项，不能把315当314；完整field M像34也不等于M/pM，不以modp交像猜高p。
+- **D31原M完整分类已闭。** [完整ann及分母](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)、[完整35长系数扭子](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md)、[真R扩张呈示及31阶类](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)与所有逐原输入/失败修复/独核均保正文及[本轮完整open归档](notes/2026-11-16-open-before-whole-W31-gap-789f.md)；后继是整个W，不能把九目标分类当全W来源。
 
-- **全W在127处的整资格已闭。** [R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)在 $D_{127}=\mathbf Z_{(127)},R_{127}=D_{127}[s]$ 上证明 $U_{127}=M_{127}\oplus R_{127}/(127,s+64)$；完整R型为两R/(s)、R/(h)及该一维扭子，D自由25加一个127扭子，dD26/dR3。原完整P(63) rank142、单位子式97及80444原核乘回真；局部单位Schur给cokerP自由13，严格识别全扭子入U，无点交像交换。AnnU=h*(127,s+64)，$h_*qW\subset L$ 恰 $q(63)=0\bmod127$，全W最小127指数恰1；根从primitive用二次型独重全部6188行/完整字典并以FLINT独核。这里只付原来源存在性和排除，不新增4212展开源或费用。
+- **全W在127处已完整闭合。** [完整原投影/整结构](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)给U127=M127⊕R127/(127,s+64)、AnnU=h*(127,s+64)，系数指数恰1；原6188全行/142子式与root独立二次型审计已付。未提供新的全部4212展开来源费；31处范围接最新项。
 - 已付全Q相对25/ann h*、h*W⊂L及有理全W来源费8391继续按原范围；rank-one Bell8/整个𝔫⁸仍仅原归一构造，127新结论不代31整源费或完整非rank-one Bell/算子桥。
 
 

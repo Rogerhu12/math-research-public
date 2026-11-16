@@ -1,0 +1,37 @@
+{
+  "format": "r150-root-independent-p31-block-jet-execution-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-isolated",
+  "source": {
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-whole-w31-independent-block-jet-audit-789f.py",
+    "blob": "e20b47f44fb6231d54b1b1ddeadb23359643b039",
+    "bytes": 8249,
+    "sha256": "bd20a434503c3a9736e6c04b5b77a85ca30c7d64a784543d56db3ceaa112a2ad"
+  },
+  "inputs": {
+    "blob": "3b75d89deccb22c8312444faa098c95a340930e7"
+  },
+  "parameters": {
+    "jetLengths": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "memoryMiB": 768,
+    "prime": 31,
+    "seconds": 90
+  },
+  "status": "completed",
+  "exitCode": 0,
+  "elapsedSeconds": 8.253256338008214,
+  "peakRssKiB": 148852,
+  "rawReceipt": {
+    "bytes": 1910,
+    "sha256": "64d5babc1f29f77ebbfcbcd74a8ee7eb2fe1ead4951c10736db4b3a7e8e7e5b5",
+    "temporaryPath": "/tmp/isp-root-original-p31-block-jet-audit.json"
+  },
+  "method": "symmetric-quadratic-form-Taylor-congruence-and-original-1088-row-block-Toeplitz-ranks; direct-integer-SNF",
+  "rule15": "Mathematical matrices and raw result receipt temporary only; source, parameters, execution and hashes committed."
+}

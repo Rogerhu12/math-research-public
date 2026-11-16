@@ -1,0 +1,35 @@
+{
+  "format": "r150-root-independent-p31-block-jet-audit-inputs-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-whole-w31-independent-block-jet-audit-789f.py",
+    "blob": "e20b47f44fb6231d54b1b1ddeadb23359643b039",
+    "bytes": 8249,
+    "sha256": "bd20a434503c3a9736e6c04b5b77a85ca30c7d64a784543d56db3ceaa112a2ad"
+  },
+  "parameters": {
+    "seconds": 90,
+    "memoryMiB": 768,
+    "prime": 31,
+    "jetLengths": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "argumentVector": [
+    "--primitive",
+    "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--w31-dir",
+    "/tmp/literature_whole_w31_789f",
+    "--root1",
+    "/tmp/literature_joint_m_789f/original-joint-m-root1-two-digits/root-one-complete-two-digit-coordinates.json",
+    "--root2",
+    "/tmp/literature_joint_m_789f/original-joint-m-root2-readonly-completion/root-two-complete-presentation-and-action.json",
+    "--out",
+    "/tmp/isp-root-original-p31-block-jet-audit.json"
+  ],
+  "scope": "Independent original quadratic-form Taylor reconstruction; complete original low-source block-Toeplitz ranks; complete original integer quotient SNF. No producer, compression, Schur or HNF helper imported. All mathematical arrays and raw receipt remain temporary."
+}

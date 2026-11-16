@@ -1,0 +1,149 @@
+{
+  "author": "Astra-ISP-789f / literature_audit",
+  "date": "2026-11-16",
+  "execution": "completed",
+  "formalRepositoryPath": "topics/invariant-subspace-problem/results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md",
+  "format": "r150-whole-w31-projection-and-gap-local-execution-v1",
+  "projectionInvocations": [
+    {
+      "elapsedSeconds": 2.6226324570016004,
+      "execution": "local-completed",
+      "exitCode": 0,
+      "inputPins": {
+        "core": {
+          "bytes": 34432,
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        },
+        "generator": {
+          "bytes": 15328,
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        "primitive": {
+          "bytes": 65159,
+          "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+        },
+        "schur": {
+          "bytes": 37379,
+          "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+        }
+      },
+      "name": "original-projection-field31-center-1",
+      "parameters": {
+        "TaylorDegree": 12,
+        "center": 1,
+        "memoryMiB": 768,
+        "prime": 31,
+        "seconds": 120
+      },
+      "peakRssKiB": 48556,
+      "raw": {
+        "bytes": 6740,
+        "sha256": "4ca163bbc3084bc2c05dab47a60a96dcfe8c90d242d2bc68cb63d1c66521e4b9"
+      },
+      "rawTemporaryPath": "/tmp/literature_whole_w31_789f/actual-root1/original-projection-field31-local-smith-receipt.json",
+      "semanticBinding": "86f0ce5c0b636d26846fbf64a11454b1e12ce9c65d1b3c08e61f8e61f5e527b2",
+      "temporaryData": {
+        "bytes": 104447,
+        "path": "/tmp/literature_whole_w31_789f/actual-root1/original-projection-field31-complete-smith-data.json",
+        "sha256": "b556f0f3be28c32e5152f70fb677f64c3060c24babe6b6012c87093680385ead",
+        "temporaryOnly": true
+      }
+    },
+    {
+      "elapsedSeconds": 2.682043754000915,
+      "execution": "local-completed",
+      "exitCode": 0,
+      "inputPins": {
+        "core": {
+          "bytes": 34432,
+          "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+        },
+        "generator": {
+          "bytes": 15328,
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        "primitive": {
+          "bytes": 65159,
+          "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+        },
+        "schur": {
+          "bytes": 37379,
+          "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+        }
+      },
+      "name": "original-projection-field31-center-2",
+      "parameters": {
+        "TaylorDegree": 12,
+        "center": 2,
+        "memoryMiB": 768,
+        "prime": 31,
+        "seconds": 120
+      },
+      "peakRssKiB": 47952,
+      "raw": {
+        "bytes": 7828,
+        "sha256": "9acb3368250f9efeeed1b358036f3ee6620846ba48fb176f6b2011a94c00e2a4"
+      },
+      "rawTemporaryPath": "/tmp/literature_whole_w31_789f/actual-root2/original-projection-field31-local-smith-receipt.json",
+      "semanticBinding": "544b53829f50ec0ce0f5293c9bec19d55802a743da43041c454c011fda501eee",
+      "temporaryData": {
+        "bytes": 141149,
+        "path": "/tmp/literature_whole_w31_789f/actual-root2/original-projection-field31-complete-smith-data.json",
+        "sha256": "ed0bee68fe780eac85a6c0f5fadc3f07e46ddcde662a5eb1825109a99c35b6b4",
+        "temporaryOnly": true
+      }
+    }
+  ],
+  "projectionSource": {
+    "blob": "59dfb331f06d7ef1f84bf8c1aeca9a16848a1b10",
+    "bytes": 20153,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection-field31-local-complete-smith-789f.py",
+    "sha256": "9261795904bf7181e4db84bac1cd4ec5bfaecc431af62755d8a1bd9f2e7d8c7f"
+  },
+  "pythonExecutable": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "pythonFlintVersion": "0.9.0",
+  "quotientAuditInvocation": {
+    "elapsedSeconds": 0.015706092002801597,
+    "execution": "local-completed",
+    "exitCode": 0,
+    "inputPins": {
+      "projection1": {
+        "bytes": 6740,
+        "sha256": "4ca163bbc3084bc2c05dab47a60a96dcfe8c90d242d2bc68cb63d1c66521e4b9"
+      },
+      "projection2": {
+        "bytes": 7828,
+        "sha256": "9acb3368250f9efeeed1b358036f3ee6620846ba48fb176f6b2011a94c00e2a4"
+      },
+      "qualification": {
+        "bytes": 20106,
+        "sha256": "9b8c104b8cbd9d7fbe17c7e6fbddd1067c66d6a6a17252ed9c8f854b7cd2a2a7"
+      },
+      "root1": {
+        "bytes": 662,
+        "sha256": "2598ebf23851c2bd48e2c32049dc5adb9a660984c336698bccd36215ead5fc55"
+      },
+      "root2": {
+        "bytes": 16797,
+        "sha256": "46cb736d61e85daf6af0a4476ffa857c98b06f84d8c6e149b6180ce054d14a5c"
+      }
+    },
+    "inputTemporaryPaths": {
+      "qualification": "/tmp/literature_joint_m_789f/qualification-paid-full210/original-joint-m-primitive-lattice-qualification.json",
+      "root1": "/tmp/literature_joint_m_789f/original-joint-m-root1-two-digits/root-one-complete-two-digit-coordinates.json",
+      "root2": "/tmp/literature_joint_m_789f/original-joint-m-root2-readonly-completion/root-two-complete-presentation-and-action.json"
+    },
+    "raw": {
+      "bytes": 2013,
+      "sha256": "1ac4cfed2d998f11b9c382f814287d46f5a02e4be64e7b2db856839482a2b8f9"
+    },
+    "rawTemporaryPath": "/tmp/literature_whole_w31_789f/whole-w31-remaining-torsion-quotient-audit.json"
+  },
+  "quotientAuditSource": {
+    "blob": "51689a84617b161f546e21a8f955ade0a7338038",
+    "bytes": 8197,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-whole-w31-remaining-torsion-quotient-audit-789f.py",
+    "sha256": "64308da9647fa11266483c0b9087610777d83e48a062f427bc7b7133ded04323"
+  },
+  "rule15": "Sources, parameters and run/hash identity only; mathematical arrays and raw result receipts remain temporary."
+}
