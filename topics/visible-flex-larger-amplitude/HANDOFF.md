@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 08:32:16 UTC root委托本公开仓库Actions run43832010509真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f469536ce182773a56a62e7d0d67260afe59784d。
+规则同步记录：2026-11-16 08:34:24 UTC root委托本公开仓库Actions run43832292705真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 dbd2b674e0c75124b5452d90229df64b725f7a70。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -47,4 +47,4 @@
 - exact：唯一208/R467、216/R488终态；08:16仍10完整112、18原far/point采样，未取running日志。207/R460已6dc0dd1e，213/R480已894cd120，原日志唯一已读禁重取。R493逐H live128合同27709/115e78be已49f8e8ca；request219/R501实现接口、R502实际结论编号已留。真实7ba完整父为actual63 prefix＋accepted96/原port，91仅尾初猜；320min单science deadline、350min job分列，不给每call重置204预算。十数组/全R273→每当前H同call128 owner/replay/四组件→完整338混合response→原FD/fullDN；13scalar raw/hex真一次RN，双mean/负零/全部原门保。实际worker/process/client/fullentry/outer必要与quiet仍收口，未有219run。各draft完整文本/blob已保，尚不声明全链可运行。
 - root：此前各实际推送与全部恢复参数保6c2935a6 H；R499原完整选择/语义表/单90K与真实owner保，R497cache仍原attempt而非解1M停。R503四件ad086cf8完整政策见results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md：实际202原投影后只p3/theta3/eta3显式+0、另七词保，原完整coast仿射条件与两端二jet保；新点/new g不继承旧接受。p3后续仍active，固定theta3/eta3为0，原453→450/32GiB/钟不变；220以实际218最终来源和全10candidate_rows/新帧接线，不把三旧preview SHA冒actual。R504已761a2ed8，R507本次独立推；继续具体217/219/220与各既有运行终态，无新增fixture/独审/来源审查停点。
 
-最近容量：761a2ed8 topic treed37bb8f4122531a549520b22c654d6528ad91913，9351blobs/198864005B、9723entries、truncated=false；余1135995B，新源/说明继续计入。219约0.47MB、220约0.49MB，217亦须计。root正核两旧actual54重复取回清单的内容/依赖，尚未删；原62/63指定清单普通删改及全部父/历史保旧H，不泛删未知文件。
+最近容量：761a2ed8 topic treed37bb8f4122531a549520b22c654d6528ad91913，9351blobs/198864005B、9723entries、truncated=false；余1135995B，新源/说明继续计入。219约0.47MB、220约0.49MB，217亦须计。本次仅删两旧actual54重复下载目录清单（各702911B），源/参数/run/SHA/494cc311完整历史和五文件精确引用核记录保notes/2026-11-16-two-old54-download-receipts-retention.md；actual55/57科学结果/全部父保；原62/63指定清单普通删改及全部父/历史保旧H，不泛删未知文件。
