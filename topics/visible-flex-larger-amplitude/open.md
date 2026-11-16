@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R588具名完整关系](results/R588-complete-named-source-and-root-statistics-relations.md)**：完整source scope及八catalogue里的五代binding/四RootStats的2/3/3/5 paths、全部full last/unknown/error以同一必要body内完整列记录可逆共享；非有限/marker冲突保原值，原数值/门/90K70不变，不承诺下一fit。薄组件39323B独立刊，R589/246真实CLI/选择/正常恢复与正式run另付。
+
 **[R555实际233](results/R555-actual233-science-return-and-two-necessary-overflow-boundaries.md)**：397真来源与原prepare成功，source153703/科学122410均超90K未返，仅1800/1115诚实70；science/rules/outer1、quiet true、removed false，全部内部科学未知无父。239正式e396/43891863925唯一POST200但step3早期失败，geometry唯一读R571并修R591/247；不混R555与239。root R588继续两全必要的具名无损表示，原门不动。
 
 **[R570/request239](results/R570-actual-same-call-cubic-current-field-and-complete-source-chain.md)/[接口](notes/2026-11-16-request239-same-call-cubic-complete-chain-interface.md)八件完整刊**：618源/11层、原557全保、56真实view；三原driver同次PPoly/九数组全成员、同CP与真实675/target、原全DFS旁诊断、三phase完整正常/recovery及总reader均接。原单worker/原接受/钟/90K70不改，R575未自动调用、无实际接受或fit承诺；刊后唯一POST，R571 geometry唯一。233已两job终态、R555按原一次日志成文。
