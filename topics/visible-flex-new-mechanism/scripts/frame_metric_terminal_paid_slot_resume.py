@@ -77,9 +77,9 @@ class TerminalPaidSlotObjective(DirectReferenceGuardObjective):
                 "initial_curvature_defect_samples", "source_cfg", "direct_reference_policy")),
                 "no new-task or event replay constructor path")
         require(replay["inherited_science_seconds"] == INHERITED_SCIENCE_SECONDS
-                and replay["paid_first_attempt"]["paid_cost"]["cumulative_same_task_scientific_seconds"] ==
+                and replay["paid_terminal_attempt"]["paid_cost"]["cumulative_same_task_scientific_seconds"] ==
                     INHERITED_SCIENCE_SECONDS,
-                "same-task clock must include the authenticated first failure")
+                "same-task clock must include the authenticated prior failures")
         self.scientific_started = float(scientific_started)
         self.inherited_science_seconds = float(replay["inherited_science_seconds"])
         self.model_phase_started = None
@@ -194,7 +194,7 @@ class TerminalPaidSlotObjective(DirectReferenceGuardObjective):
             "source_snapshot_scalar_counters": copy.deepcopy(counts),
             "original_source_cumulative_scientific_seconds": SOURCE_SCIENCE_SECONDS,
             "inherited_cumulative_scientific_seconds": self.inherited_science_seconds,
-            "paid_first_attempt_cost": copy.deepcopy(replay["paid_first_attempt"]["paid_cost"]),
+            "paid_terminal_attempt_cost": copy.deepcopy(replay["paid_terminal_attempt"]["paid_cost"]),
             "inherited_LPs": copy.deepcopy(replay["inherited_ledger"]),
             "inherited_values": SOURCE_VALUES,
             "source_current_bank_entries": 512, "original_independent_supplements": 4,

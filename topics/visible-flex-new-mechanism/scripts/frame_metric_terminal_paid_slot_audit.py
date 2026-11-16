@@ -182,7 +182,7 @@ def run_audit(prepared, output, *, scientific_started, segments, development_rec
         "same_task_inherited_values": 58,
         "same_task_inherited_science_seconds": replay["inherited_science_seconds"],
         "original_source_scientific_seconds": SOURCE_SCIENCE_SECONDS,
-        "paid_first_attempt_receipt": copy.deepcopy(replay["paid_first_attempt"]),
+        "paid_terminal_attempt_receipt": copy.deepcopy(replay["paid_terminal_attempt"]),
         "new_recovery_entries": 0, "new_independent_final_geometry_calls": 0,
         "old_developer_optimizer_LP_geometry_or_direction_replays": 0,
         "new_SOC_calls_authorized": 0,
@@ -340,7 +340,7 @@ def main():
     request = json.loads(raw_request)
     scientific_started = None
     development_receipt = None
-    paid_first_attempt = None
+    paid_terminal_attempt = None
     try:
         transfer.require(request["parameters"]["policy"] == POLICY, "explicit terminal-slot request required")
         for path, expected in request["source_sha256"].items():
@@ -359,10 +359,10 @@ def main():
         current_scientific_started = time.monotonic()
         scientific_started = current_scientific_started-transfer.INHERITED_SCIENCE_SECONDS
         reuse_read_started = time.monotonic()
-        paid_first_attempt = transfer.read_paid_first_attempt(
+        paid_terminal_attempt = transfer.read_paid_terminal_attempt(
             request, scientific_started=scientific_started)
         reuse_read_seconds = time.monotonic()-reuse_read_started
-        development_receipt = copy.deepcopy(paid_first_attempt)
+        development_receipt = copy.deepcopy(paid_terminal_attempt)
         emit("DEVELOPMENT_REUSED", development_receipt)
         source_read_started = time.monotonic()
         completed = transfer.read_completed(request, scientific_started=scientific_started)
@@ -371,7 +371,7 @@ def main():
         input_started = time.monotonic()
         prepared = transfer.prepare_transfer(
             request, output, PROCESS_STARTED, completed=completed,
-            scientific_started=scientific_started, paid_first_attempt=paid_first_attempt)
+            scientific_started=scientific_started, paid_terminal_attempt=paid_terminal_attempt)
         segments = {
             "original_source_cumulative_scientific_seconds": SOURCE_SCIENCE_SECONDS,
             "already_paid_cumulative_scientific_seconds": transfer.INHERITED_SCIENCE_SECONDS,
@@ -381,7 +381,7 @@ def main():
             "current_scientific_input_prepare_seconds": time.monotonic()-current_scientific_started,
             "new_development_seconds_separate_from_science": 0,
             "new_development_group_and_case_executions": 0,
-            "first_failure_process_and_development_cost_only_in_paid_receipt": True,
+            "prior_failure_process_and_development_costs_only_in_paid_receipt": True,
             "current_process_before_scientific_start_including_import":
                 current_scientific_started-PROCESS_STARTED,
             "old_failed_attempt_costs_already_inside257_seconds_not_added_twice": True,
@@ -399,7 +399,7 @@ def main():
             "scientific_started_monotonic": scientific_started,
             "same_task_inherited_science_seconds": transfer.INHERITED_SCIENCE_SECONDS,
             "original_source_scientific_seconds": SOURCE_SCIENCE_SECONDS,
-            "paid_first_attempt_receipt": copy.deepcopy(paid_first_attempt),
+            "paid_terminal_attempt_receipt": copy.deepcopy(paid_terminal_attempt),
             "same_task_inherited_ledger": {"linear_program_invocation_count": 63,
                 "primary_LP_invocation_count": 62, "correction_LP_invocation_count": 1},
             "same_task_inherited_values": 58,
