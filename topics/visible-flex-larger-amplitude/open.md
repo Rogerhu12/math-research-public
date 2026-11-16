@@ -72,6 +72,8 @@ R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前
 
 [R468](results/R468-same-job-incremental-mode-joint-refinement-and-display-composition.md)/[209接口](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)已刊8e897f99三源0dc290/96b969/acdea6、proof4f2b/interfacec691：同真实三级父改用R464增M128，旧112 far与真接受父分责；245已刊+15现场视图=260，生成完整后才绑定角色。每级真几何/held、同新evidence schema误差、3/5/9帧显示；display保末900，measure/compare用终测余额，全部原门/原钟/单90KB超70/八读取quiet后清。完整union必要范围、source生成和每帧错误/未访保。实际sourcecfd63e66a3d6090f86fa906b46dec8db808b04a6、run43805615033、compute133095582437、04:41:34Z/attempt1已绑，geometry唯一R469终态。入口requestaaf74021/workflow1c53b3c2不预填接受父、误差下降、全域几何或容差终点；不增无限精化/跨级C²门。
 
+按根README第15条，[actual63两生成清单清理记录](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)保留真实run43646179305/source db6d728f、原request/脚本/全部参数与原62父输入、现有紧凑结论和现用203–209/210已形成计划的依赖边界。本次仅从当前树普通删除其eighteen-condensed-warm/domain-operator/manifest.json（493850B/ff034c85）与optimization-intent.json（948087B/688c586b），共1441937B；实际blob字节已核，不改历史，不删父warm/status、原91/98 archive或现用源/输入。旧确切字节仍由既有cfd63e66历史路径可取，科学重做不承诺旧运行逐字复现。删除前官方R473树198614173B，净新大小须连本说明/索引增减按新官方树另核；不改变数学状态。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

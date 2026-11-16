@@ -477,3 +477,8 @@
 ## R473 — 完整linear中删除实际零系数项的条件
 
 **已证明（限实际有限输入和原binary64 RN运算条件）；尚无实现或运行。** [R473](results/R473-zero-coefficient-elision-in-complete-finite-trace-linear-products.md)14166B/93d57da3全文核对原195 a7a90668与R466 c29b0120的相同linear正文。所有实际A及被用T前$K\times K$词有限时，只跳实际`z===0`的j项，保原先乘后加/非零j序/正零初值及完整$(K+2)\times K$输出：有限累计不会变负零，最终有限词相同；溢出后保正负Inf/NaN分类和首次非有限j，不冒NaN payload/raw SHA。T含Inf/NaN时零乘积是反例，须原完整fallback而非新增拒收；无需入射T分块或两mean输入为零，完整两mean输出仍保。原linear自身无finite检查或throw，只能条件性陈述原下游相同谓词的bad mask。独立实现/真实来源、资源时刻、计时、整体逐词和原最终数学接受均未付，不改R471/208/210。
+
+
+## 2026-11-16 — actual63两份生成清单的普通删除
+
+按根README第15条，[actual63两生成清单清理记录](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)保留真实run43646179305/source db6d728f、原request/脚本/全部参数与原62父输入、现有紧凑结论和现用203–209/210已形成计划的依赖边界。本次仅从当前树普通删除其eighteen-condensed-warm/domain-operator/manifest.json（493850B/ff034c85）与optimization-intent.json（948087B/688c586b），共1441937B；实际blob字节已核，不改历史，不删父warm/status、原91/98 archive或现用源/输入。旧确切字节仍由既有cfd63e66历史路径可取，科学重做不承诺旧运行逐字复现。删除前官方R473树198614173B，净新大小须连本说明/索引增减按新官方树另核；不改变数学状态。
