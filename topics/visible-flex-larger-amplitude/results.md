@@ -251,3 +251,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R504 — 同一C重算查询的六个完整实际消费者
 
 **已证明（完整来源组合和原算法的条件命题）；新源未执行。** [全文](results/R504-recomputed-C-query-complete-metric-and-evidence-consumers.md)11796/0c140acf及[接口](notes/2026-11-16-same-C-recomputed-tail-metric-consumers-interface.md)16222/541fa7fa，fixed facade7655/0cda42f0、gen9454/3c282629、plan38102/34436dfc均完整。六view为1fixed＋5live，evidence原已有live；全原field/CP/材料/十词/准确cut/六jet先通过，再接R500同C闭query交/完整覆盖/fallback与实际新source累计半径。固定根若重分则全计划根重算，live保原11参数/绝对钟/预算；四Loewner/DFS/全t/端点±/帽/完整比较不减。只有0阶E包围新求值，固定g语义签名不混工作结果SHA；完整测量query/source/error/unvisited与series身份范围区分，不伪造未读正文。仅R495四明确原族和actual202205钟，未有request217/run/误差下降；新218/220源须另登记真实tuple。源码完整即登记，无新增fixture、试跑或科学前门。
+
+## R507 — 实际218来源生成后、科学启动前的语法停止
+
+**实际218：来源物化完成，当前union owner语法绑定失败，科学未起。** [全文](results/R507-actual218-source-binding-stop-before-science.md)18208/5f33d330，run43830433500/source0f101b69，compute133174205129/report133174986936各终志仅一次。五层15/5/13/49/51共133生成与272公开/405组合身份成功，不冒全语法/科学通过；首错77279/57beb568 owner第119行在普通字典项后裸推导式，R496祖先77205/f6b48也有同结构。正式dispatch/refinement未建立，所有后继缺文件不数数学拒；C485B为未起null，R4994468B完整仅两实际资源记录，composition79007B只返回身份。原owner真quiet，cleanup正文明确skip，report缺四primary/refinement；无C、far、BVP、FD/fullDN、闭面或误差结果。后继当前owner须独立dict unpack源并全来源级联；历史错误源保原字节但不冒语法过，不改旧218/原科学门、32GiB及18900+2700钟。
