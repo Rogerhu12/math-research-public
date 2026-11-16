@@ -76,9 +76,11 @@
 - [R530 双边完整反馈与四个真实偶端矩](results/R530-two-sided-complete-ruling-feedback-and-four-real-even-endpoint-moments.md)：**已证明**同R521两半完整K方程共同解加速度，真历史正反时和交换ODE付中心全jets；四奇中心参数小L准确清奇端入值，原八矩缩为同轨道四偶根。左端一次合法w/χ准确恢复；四偶根、端germs、pose及完整第四尚未付，小L严格非M0。
 
 
-- [真正58自由R1/R2与曲率minimax新任务](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)：**已提交，待实际观察**。34物理R0零面控制与K/h共同优化，原盒/实际G谱三门；每网新142列Pi付完整L17/H125，已付字段不重算。337源，一次600总秒/180solver秒/600完整评价，合格候选才完整预测和原actualpair；未授59或主门。
+- [真正58自由R1/R2与曲率minimax新任务](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)：**已完成；环通过而全body失败，见后列闭账**。34物理R0零面控制与K/h共同优化，原盒/实际G谱三门；每网新142列Pi付完整L17/H125，已付字段不重算。337源，一次600总秒/180solver秒/600完整评价，合格候选才完整预测和原actualpair；未授59或主门。
 
 
 - [R531 三零母库中的实际负p1子段与同一固定规范](results/R531-real-negative-p1-segments-in-the-three-zero-library-with-one-fixed-gauge.md)：**已证明**保原20/三q0的同母，三Gram状态斜率、完整memory短窗面积与真两脉冲IFT给原p1<0；平滑σ过渡后真实保持一段常负密度，入history不重置。总pulse p1仍正，长负累计/全八矩/13/pose尚未付；补全非零q固定零叶任意入口的排除。
 
 - [R532 双边全反馈族的中心jets与真实四偶开像](results/R532-central-jet-control-and-four-even-endpoint-open-image-of-the-two-sided-ruling-family.md)：**已证明**一次三Gram配真实中心jets并共同清四奇端，原四偶半端映射det=v²L⁷/(11520H⁵)+O(L⁹)>0。小L t₁严格负，零不在开像；参数间最终χ会变，不授固定规范拼接、M0或其余端口。
+
+- [真正58自由R1/R2环成功与完整曲面失败](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)：**实际观察完成**，SLSQP0/true、11完整评价，原盒和环谱通过，κ环约16.39344；唯一全bodyη6.979414564941248/κ69803.90363577171失败，0actual，仍58。新72.22285305100002秒/0值，累计2974.589423877秒/147值；完整L17/H125已存，预测大数组未存。继续固定环的原102中部修复，不重开旧范围。

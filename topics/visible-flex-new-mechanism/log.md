@@ -169,3 +169,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 14:30 UTC：R532同一全反馈族的真实四偶开像
 
 [R532](results/R532-central-jet-control-and-four-even-endpoint-open-image-of-the-two-sided-ruling-family.md)完成三个固定Gram的三角真实jet配置、四奇端联合IFT及四偶完整Taylor/Schur消元；四偶半端det=v²L⁷/(11520H⁵)+O(L⁹)，总端倍数16。root和独立纸审通过，t₁负区、参数间规范变化及全部闭合义务明确；没有新科学执行或M0声明。当前58及2974.589423877秒/147值不变。
+
+## 2026-11-16 14:33 UTC：自由36环成功、全body失败的完整闭账
+
+[原输出观察](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)完整读11记录，原后端SLSQP0/true及两网环门通过，但唯一全bodymetric/曲率失败；0actual/0接受，仍58。72.22285305100002秒/0值闭、祖2974.589423877/147，余额关闭，报告3.608391687秒只读单列。两job各真实pull及README空diff已记H；候选准确身份、未存预测数组与环/全body不同frame费用明确。R516/R519/R525背景按完整条目逐字移至[同根归档](open-archive-R516-R519-R525-ring-background-20261116.md)，当前open继续原102前缀新问题；0本地科学。

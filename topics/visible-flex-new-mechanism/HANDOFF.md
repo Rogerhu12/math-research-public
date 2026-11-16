@@ -8,7 +8,7 @@
 
 private于14:08:50.558190→14:09:12.326653实际pull读 **e7f3575ad7152555fab208113400647bd0aad04f**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
-联合19两个job的实际pull已读：public25c98ff4198cfc10552ddcd0dc9307110a6be8de（13:53:50）/2d24741f9fdd36088ff28184eab749159044f25e（13:54:32）；privated0f167e40e085e3d4508d658c8bf14b9241ebf11/0e2bfe83d4592292f66350dcf4a102f06ffe235f（13:54:37）。README空diff、QUEUE唯一进行中，私有正文不发表；完整时间及源身份见[新闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)。
+free36两job实际pull已读：public7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c（14:18:33）/4ef462296a239c5abf90ea3239f210cfc23be002（14:20:10）；private2ec2f53e843d76f5b6227736b59a1b94195bac01/b589b1e9590411cc499b175994efe2a8b94294b3（14:20:14）。双README空diff、QUEUE唯一进行中；完整回执及原11记录见[闭账](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)，不发表私有正文。
 
 三公开来源14:01–14:03复核ec067fabbc723f7c1a45c05212d4a0353381f55c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本、元数据与已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。API读取不冒actual pull。
 
@@ -28,7 +28,7 @@ private于14:08:50.558190→14:09:12.326653实际pull读 **e7f3575ad7152555fab20
 
 [联合19闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)19.9540876秒/0值，SLSQP8/false、nit16/46完整评价；谱门仍负，0候选/预测/actual，累计2902.366570826秒/147值，余额关闭。
 
-**最新自由36实际** run43884276617/research133358065602/report133359165070/source7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c。SLSQP0/true、nit11/11完整评价，K16.393442622950822，原盒及环未平方门真；唯一wholebody预测η6.979414564941248、κ69803.90363577171失败，0actual，仍58。新 **72.22285305100002秒/0值**，相关累计 **2974.589423877秒/147值**，余额关闭/0overrun。新两批142列Pi及完整L17/H125已存MODEL，预测大数组未存不冒可恢复；完整闭账note正在整理，下一真实加入body耦合，旧ring问题不重开。
+[**最新自由36完整闭账**](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md) run43884276617/research133358065602/report133359165070/source7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c。SLSQP0/true、nit11/11完整评价，K16.393442622950822，原盒及环未平方门真；唯一wholebody预测η6.979414564941248、κ69803.90363577171失败，0actual，仍58。新 **72.22285305100002秒/0值**，相关累计 **2974.589423877秒/147值**，余额关闭/0overrun。新两批142列Pi及完整L17/H125已存MODEL，预测大数组未存不冒可恢复；完整11记录/后端/精确候选身份与费用已读，下一固定末环二jets的102前缀body修复，旧ring不重开。
 
 ## 4. 当前理论支线与不可混用的前提
 
@@ -55,7 +55,7 @@ R512/515/517的YC消去字面同形库另有常态排除、secant p1正性及周
 
 ## 5. 已在继续的真实下一问题
 
-**O2**自由36原环优化已成功，但上述wholebody两门失败，完整原候选未被接受。新L17/H125只按原MODEL读；下一把真实body metric/曲率耦合纳入新问题，必要时释放R0并另付对应field/Π/J。不得只重解旧ring、换初点或增预算；真正候选仍须原body预测/14门/准确盒，有限网不授连续主门。
+**O2**自由36原环优化已成功，但上述wholebody两门失败，完整原候选未被接受。新L17/H125只按原MODEL读；下一原102前缀保持s≥.765后缀，先必要后缀门、合格才全body修复；新field/Π/J另付。不得只重解旧ring、换初点或增预算；真正候选仍须原body预测/14门/准确盒，有限网不授连续主门。
 
 **O4**R531已到真实负p1并付平滑局部保持，继续同χ足够负累计和八矩配平；另一R521库继续非恒偶germs/全m,T控制。R530双边全K和R532四偶真实开像已付，继续同一实际反馈的有限L四偶根；不得借任意几何配平。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
 

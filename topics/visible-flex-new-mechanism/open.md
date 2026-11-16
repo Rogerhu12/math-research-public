@@ -16,23 +16,9 @@
 
 [真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)在完整168/172族两网过原14门/准确盒；η粗.26600541430262403、细.26600541463999305，κ细57.9997782607127。实际下降.0000016540087044436547，fixed g/b0/永久reference保；新185.978494641秒/4full值（2necessary+2actual）已闭，累计2830.778901609秒/147值。已保存58完整U/T/e/f及原pool selected二jets，58 J/全grid二jets未存；57导数不可跨点。细κ峰.78/θ4.818744981678094非轴，ring17必须完整S；主reach/连续门与.26未过。后继[ring17原观察](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)支付32.28273412599998秒/0值、LP未返候选，累计2863.061635735秒/147值，当前仍58。最新[反射R1观察](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)再付19.350847490999968秒/0值，累计2882.412483226秒/147值；BVLS成功而首选3/8新R2 LP未返向量，没有59。
 
-### R516已付R1共同低阶域；下一须给真实新态
+### 已付环结构与当前边界
 
-[R516](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)在原x0=0的同17一阶径向坐标上，付U仿射、Xss完整二次、原172盒的准确投影与剩余R2区间。原metric门为共同二次条件，实际G下形算子不变列目标为显式四次条件，剩余原盒曲率 iff 所有非负行组合的support-function不等式；没有逐角独立选法向，也未把浮点LP状态升格为严格分离。连续圈身份为B²+C²=|nθ|²/(a²G)，另须连续系数与uniform非退化。
-
-当前58尚无全body验收的新非零x。原ring未存V17的欠项已由新反射R1任务真实付清：两网完整V17、选定方向Lx/Hxx及原二jets保在原MODEL stdout。下一直接读取这些已付输出，研究同原盒的低阶/曲率耦合；不重建旧Π、不重解原二阶LP或已选3/8 LP。任何新候选仍需完整body预测、准确舍入后的168/172和原两网14门。
-
-### R519反射支给下一明确几何方向
-
-[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)证明在整圈保E/F的纯R1候选只有原支及关于span(T,Tθ)的反射支（退化/切支范围保）。固定高度时必须零均值；完整Tu/Tv正交lift可从起点冻结一对角函数，但只有准确落原9/8列时仍属原51族。原角对称、闭合、完整径向延拓及全body变化都已给式；非零mean只能保减均值后的不同metric公式，或在原γ盒内另付真实高度补偿。
-
-[本次实际返回](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)已完成一次原J1盒共同两网BVLS。反射第三mean粗/细.1122799870321235/.11228005841559864保留；非零投影是近似方向。七预定幅度中1/2 metric失败，3/8、1/4、1/8、1/16、1/32、1/64过环metric/列/剩余盒门；首选3/8的唯一R2 LP status2/nit0，x/dual None，其他五个未解。该处R1-only环κ约79.9617，不能据metric改善接受。下一用已存完整模型形成几何上不同的低阶与二阶耦合任务，不盲重跑原实例；新代数/求解/预测/actual必须另列Actions科学账。
-
-### R525共同幅度与完整R2的一个新有限问题
-
-[R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)保同一实际58、原xstar射线和原172盒，准确写U=U0+αV、Xss=B0+αL+α²H+V17y；不要求未存的任意R1二次张量。完整曲率谱可清分母为6/4/8次三门，必须同时保R≥0和Qcross>0，实际G不置1；原未平方PSD仍作真实候选判定。自由A的最优值−C给trace零几何目标，原盒有准确逐角可达区间；同一17y的纤维余量连续并有完整minimax判据，离散失败不能排连续α域。
-
-[完整设计](notes/true58-joint-alpha-R2-original-box-design-20261116.md)、唯一request与新源现提交公开Actions：19变量(α,y17,h)，α[1/64,1/2]，min完整合成物理norm上界h；唯一α1/4初点，原剩余精确盒中点及实际binary64解码盒状态分别记录。一次SLSQP/解析Jac，maxiter160、400完整新评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。原58 CACHE2 selected metric读固定a；新MODEL后固定行尺度、初残差/Jac与真实返回由SOLVE_TRACE/NONLINEAR_RESULT保留。一次准确共同合成/舍入的合格候选才付固定metric/2首jets绑定、至多1全body预测与1原actualpair。request71258B/383d0d45ecd6c617385eae3a4979856db997beb2b1c76029b7e98b7702c037d3、326源hash已绑定；独立源码纸审完成并按实际输出布尔值记录。该唯一任务已按下述原输出闭账，不重开。
+R516共同R1域、R519反射支、R525共同α/R2问题及当时全部成本的逐字记录见[归档](open-archive-R516-R519-R525-ring-background-20261116.md)。三问题与自由36均已闭账；新环有限解已真实得到，但全body失败，当前仍58。下一原102前缀保持已付末环二jets，必要的新完整值/Π/J独立计费，原盒、两网十四门与连续主门全保。
 
 ### 仍须支付
 
@@ -52,11 +38,13 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 新19.9540876秒/0值闭，相关累计2902.366570826秒/147值，0overrun；完整新系数、初Jac/残差、固定尺度、末评价及后端原字段保stdout。两job实际pull及README空diff已记H/note。余额580.0459124关闭，不延长原会话。下一在同一原172盒/固定R0态释放R1完整17方向，结合R2的17列；已付完整new_grids字段按原身份读，尚缺L17/全二次交互另付新科学，不把Hxstar,xstar冒全张量。确需R0则完整新值/frame/Π/实际G另建模。全body/原14/准确盒及连续主门仍须真实支付。
 
-### 自由R1/R2与曲率minimax的新公开范围
+### 自由R1/R2已解环，但全body失败；下一固定环的102前缀
 
-[完整设计](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)及[生成列合同](notes/true58-free-R1-R2-125-generator-model-contract-20261116.md)现提交：原固定R0平面34个物理尺度控制，另加K/h，min K+1e−6h，准确K∈[1000/61,58]。从原58零增量/K58/h0开始，已付frame/Z17/PiZ17/V17/a/a_s按身份读；每网新142列Pi支付L17/H125，uu45/uv44/vv36不是rank声明。原盒/实际G/完整谱三门/准确共同合成一次舍入均保，K下端只向区间内包binary64。
+[完整闭账](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)run43884276617/research133358065602/report133359165070、source7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c。一次SLSQP0/true、nit11/nfev11/njev10，原172盒/准确epigraph及两网未平方环门真；K16.393442622950822为1000/61向内包binary64，原ring_K_above_target保真。环κ粗16.393442215426443/细16.393396474844106；仅有限环，不授连续reach。
 
-一次新SLSQP180秒/200iter/600完整解析评价，总600秒含5源输入/新系数/失败/大输出，至多1全body预测及1原actualpair；原cfg曲率/η下降1e−7/原14门和准确盒不换。raw36/decoded36/全部后端字段及真实partial保存；线性norm按原容差，准确epigraph真假另报，不伪修h。request75313B/SHA498633426b4bc0928e9397379235ad390dade8b54be2febe87457a74e6cecc6f、337源绑定，root和独立纸审通过；未做本地编译/测试/科学，尚无实际run返回。当前58及2902.366570826秒/147值暂不变；本范围结束后继续主open。
+唯一全body预测η6.979414564941248@s.585、κ69803.90363577171@s.7125，原下降/PSD/direct门失败，0actual/0接受，仍58。新72.22285305100002秒/0full值闭，累计2974.589423877秒/147值；527.777146949余额关闭，0overrun。新两网L17/H125完整MODEL已存，预测大数组未保存，后继不能冒免费输入；11原记录、精确候选、后端字段/实际pull全部见note。
+
+下一新几何问题：R514原前六径向列102系数只动s<.765，固定free36未接受候选的末51/Q/height/new9及已获末环二jets。先新付必要完整后缀metric/曲率/area；后缀违规则整个该102纤维无法修复，0solver结束，不能盲重跑。后缀若过，用原盒102+一个phase-I slack、原两池及111/131完整角圈固定行，分块解析Jac/每次全网真实value；一次新solver，合格才原actual14。全部新科学在公开Actions，source58与未接受ring候选严格分开，不重解旧ring。
 
 ## O4：完整真实第四成本与新首阶机制
 
