@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 03:02:13 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 6de02eac5ac1b6efbc48c7817d1e4be9abb64223。
+规则同步记录：2026-11-16 03:02:26 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 81413ed5635e98925148c1bc77198d1a4a7553e0。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests均只在Actions；本地限文本、纸证、原字面/JSON/字节元数据。root唯一Git/ref，代理仅文本/blob；PAT只瞬时CLI，禁文件/提交/connector/回复。
 部分克隆/workspace/visible-larger-working/visible-larger-root-git-180，blob:none、add --sparse。每真实pull核双README，有变仅读差异立刻遵守，至少每小时；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，不丢实质冲突。根12禁新fixture/独审/科学前门；根15禁可再生raw/证书/编码拆包入Git/Release/artifact。题≤200MB、各MD<100KB、H<10KB、open<30KB、log≤5物理行/条、不写根LOG。open§4–6逐字保。
@@ -47,7 +47,7 @@ R449最新ee3675ce/56cbf3b2已刊aa7c7f5a：202十原词→Actions投影→同dy
 
 所有暂存目录在/workspace/visible-larger-working；丢失依已刊原源和下面身份重做，不靠已删raw或暂存manifest造证据。
 - amplitude：205三组件及最终接口20777/dd0b912d已刊，pipeline32025/baa207cc、launcher20657/227ef601、phase reader29882/80c26207；selection/construction/binding/readback四phase，实际config→recipe，construction必要仅binding后/BVP前一次。文本复核root完整入口；唯一204/未来205日志。
-- geometry：actual202-closed-R452四源及接口已完整diff/全文读，policy37958/b49769f1、runner26899/89a90b2d、reader10412/e3a4a702、held5449/8d0927cc；actual202205/56cb/227e/205deadline，原policy2198/fe932b50和work3356/8a03c854不变。续R456独立接R450同far+R448真正fresh450及205/R452来源；不改旧源，M/公共材料另欠。唯一203日志。
+- geometry：R452四源及接口已刊并完整diff/全文读，policy37958/b49769f1、runner26899/89a90b2d、reader10412/e3a4a702、held5449/8d0927cc；actual202205/56cb/227e/205deadline，原policy2198/fe932b50和work3356/8a03c854不变。续R456独立接R450同far+R448真正fresh450及205/R452来源；不改旧源，M/公共材料另欠。唯一203日志。
 - exact：current-C-modes-postsolve-R451已封14件，manifest31464/48dd9fe8，12diff96981/94da2d97；真实M五stage/held与独立公共材料helper，首图原R437112、当前全M；无实际执行。root待读刊。续R454必要语义去重与206/R455同原八组重生，只真实98父、不增门或90K。
 - root：request205-entry内owner14815/f779c6a2（新增binding role/同reserve核）和helper47078/b60c85eb（R452完整来源）。draft request97406/06ae0670、workflow95676/b87a1142尚待最后source/参数接口绑定和完整差异阅读；不可冒已派发。request schema public-actual202-accurate-ten450-closed-geometry-request-v1，namespace visible-current-C-actual202-ten450-closed-geometry205，kind actual202205。sampling后binding真实config→recipe，construction必要只读一次在binding后/BVP前，再完整BVP和所有几何/独立held；原钟/90KB/quiet不变。
 

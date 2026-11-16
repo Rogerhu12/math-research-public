@@ -66,6 +66,8 @@ R427/R431只对真193或同源已接受mesh，以父全词/knots/准确midpoint�
 
 [205三组件完整接口](notes/2026-11-16-request205-candidate-pipeline-and-owned-tuple-interface.md)及baa207cc/227ef601/80c26207已全文/完整差异核后独立发布：真正202十词→新准确十族factory，原采样后以真实config→R449 binding→最终recipe；construction必要仅一次在binding后/BVP前，真实candidate receipt传完整453→fresh450 launcher。新增binding role但原18900/2700绝对钟、3600采样启动预留/7200完整BVP上限和原所有终门不变。config仅记实际policy/template/geometry/preparation，不虚构尚未生成recipe。两份各自scope的单90KB读回保原失败/未起与十词来源，所有几何/held及七scope必要/静止后方可清理；目前未派发、无实际新C/BVP/闭面接受，完整入口须接已冻结R452来源。
 
+[R452完整接口](notes/2026-11-16-actual202-ten450-first-closed-parameter-block-interface.md)及b49769f1/89a90b2d/e3a4a702/8d0927cc已完整差异/正文核后发布：独立actual202205来源明确核R449当前56cb driver、已刊227e launcher和205原deadline，不能假称原193/203。原2198B闭参数policy和3356B工作选择逐字保；真450接受后才现场形成首次construction与A/B，依序真radial/atlas/shared/metric/reach并独立held，原5bb生命周期与必要/quiet保持。数学消费者未替换，旧分支不改；实际全闭同g/公共材料R447调用与跨精化误差仍分别未付。目前无205 run、原接受场或首次A/B、闭面参数/metric/reach/held成功，root完整入口继续绑定。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
