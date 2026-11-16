@@ -2,46 +2,66 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0805-R824-real596-same-core-continuation",
-  "commit_message": "serre: continue original polar generators from the actual 596-digit checkpoint",
-  "rules_last_read_commit": "dd7b2881f12e353e0c54e1de8e0e88a0bbe3391a",
+  "request_id": "20261116-0809-R873-original-cyclic-seven-consumer-activation",
+  "commit_message": "serre: activate the genuine cyclic-seven correspondence consumer",
+  "rules_last_read_commit": "87130840762325c819f717a2f77d17ca5e72bc80",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "9497de1156797f2704d49ca01421385231c5047c896f53fbd33bd0428f17ee4e",
+  "expected_previous_request_sha256": "0c4bfaefc6e1013eef657a888a3bea603d141bcd01d4436096509cda9338a4fd",
   "files": [
     {
-      "path": "topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json",
-      "sha256": "ba760988505debb9d508afb7def48e3de220cc6585724c0aa5e694a4abcf40b1",
-      "expected_previous_sha256": "5ae46382eba283193d825da0b955ccc2d8cc483043dec20e3953a743827e15e6"
+      "path": "topics/serre-uniformity/scripts/R873_original_cyclic_seven_correspondence.py",
+      "sha256": "efe62506123f586dc441758e691df6468d1d4af151ea62e6e8087e1a13c721cd",
+      "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R824-596-digit-checkpoint-and-same-core-continuation.md",
-      "sha256": "4185af52a7253ec9533a0837f905ac0e98504fe9dae13d48c46941af0e2c9249",
+      "path": "topics/serre-uniformity/scripts/R873_public_original_cyclic_seven_correspondence.py",
+      "sha256": "03c2d2275704e773117cc3e075c0b0868c43d763f0d50426f5637b722241820b",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R873-original-cyclic-seven-correspondence-consumer-method.md",
+      "sha256": "803b93515ccc61388e1564c5161a27f58f13a818bc7fe5544b3aef88ca2384e5",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R873-original-cyclic-seven-correspondence-public-request.json",
+      "sha256": "846d985088c8d40e6d349c3dba744e8d8fb829b03bb38d499d5a1fc5a8686bf0",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R873-original-cyclic-seven-correspondence.yml",
+      "sha256": "818ad444e382054b423b22324e9a3b7dbe876f75eb9866f800bca69baa518331",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R873-original-cyclic-seven-correspondence-activation.md",
+      "sha256": "2d2d20c11992eadb6924c58085d6b753ac797c5c992adfb1f0e15a8b3e30e7d8",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "d595a2798d7ba4828ef50db918d4709441570507a086cddf9d06aadd1612d783",
-      "expected_previous_sha256": "727a0b59e0992f367d7ccf5081a44d1e2b746c04c223aff44e56647e1045c799"
+      "sha256": "ce880c2d81d415c7b824e693b05a931d20275e9b443c986ead43aeed9591a9bb",
+      "expected_previous_sha256": "d207fa07af6914b832bb21e9199e6a283a0e350d2941a8a24178b5f06c6b8b3d"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "cdcbd62ec2546de887b44336eaebb6778275d3d35b4ffe5f43af133b19bb597c",
-      "expected_previous_sha256": "17dd2f2d961519e2845b1711cdaf9347e8ee75275749d51555c885622134d29b"
+      "sha256": "6ec24c01eb7796221381c091dc19cbbd95f123b9b2e46dbc7eb1cfe85a598a12",
+      "expected_previous_sha256": "cdcbd62ec2546de887b44336eaebb6778275d3d35b4ffe5f43af133b19bb597c"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "1f244062d50af430a4d2aa7a469f323023900f4031e9a9be55f5a7be64b578ec",
-      "expected_previous_sha256": "99660821ef2fb9c1660e98f63e2860dcd3c4e17804abee7d562518295e7295cc"
+      "sha256": "c0df95078e9395ebd492514f4a04af3f079e8ea85b0854ee6cfa83c6ed0a6d98",
+      "expected_previous_sha256": "2c2d23a423aa42d32272eeb99f6909daf46cdcaebb7139a4db8fff9af4f13ca2"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-p41-original-global-polar-generators.yml",
-      "request_path": "topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json",
-      "request_sha256": "ba760988505debb9d508afb7def48e3de220cc6585724c0aa5e694a4abcf40b1"
+      "workflow": "serre-R873-original-cyclic-seven-correspondence.yml",
+      "request_path": "topics/serre-uniformity/notes/R873-original-cyclic-seven-correspondence-public-request.json",
+      "request_sha256": "846d985088c8d40e6d349c3dba744e8d8fb829b03bb38d499d5a1fc5a8686bf0"
     }
   ]
 }
