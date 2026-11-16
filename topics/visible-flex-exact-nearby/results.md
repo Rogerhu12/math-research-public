@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R97A：原97完整稳定单射与精确前缀恢复的实际证明](results/R133-supplement-actual-root-cutoff97-stable-injectivity-and-exact-prefix-recovery.md)（`b2d4bb5605021b9b20589a8d16350a7e7747d7e51de5f774c85900f70b3844ca`）：唯一43789221154/1 child0/9门严格通过，e≈.3028969463、g−≈.9523027953、μ≈.6494058490；完整35字段、219scalar/12progress、五旧对象原字、14继承门和两preGit/pull全保，0旧重算/0history。实际正μ支付RNI同real/root的kernel/coker0和FC空补列；负窗显式数值、selected全δ、两physicalmeans/head/rest/fullincoming/finite/真背景仍待。
+
 - [R97R：原97精确前缀只读恢复](results/R133-supplement-exact-root97-saved-prefix-recovery.md)（`fc8bef9cd1db3fc94fe4b401256957544baa315ab30350d719ba4b0de4b03ac9`）：原SCI/exec/source/manifest锁15原pins、18旧receipts及14旧门；五已存对象原字复用，9current/3AST/0history。所有signed平方九处用x*x保同一包围，upper/lower/signed解码分明。仅原未存radial和未执行后段续，9新门/35字段/真实比较计数；无新实际e/g或逆结论，旧成功不重。
 
 - [R97F：原97首失败与已保存前缀](results/R133-supplement-actual-root97-interruption-and-preserved-domain-prefix.md)（`6ab486cf993451e3d2de854cfda8f28be447ce43e8cce7b73faeff58e9607dc2`）：原43786583355/1的14门、40 mixed选择及完整root-domain逐字锁定；radial序列化失败未存，后续未执行，实际e/g比较0。全部三小件/旧身份/辅助失败/两真实pull/SCI及两preGit恢复见原证。仅这些精确已存量只读接续未存radial及后段，成功不重；未获stable/incoming/finite/非线性背景。

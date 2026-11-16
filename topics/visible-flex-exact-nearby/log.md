@@ -432,3 +432,7 @@ fresh main 83c4b4cb86b91f08f742c9dca300beb5f5cd8cba两README仍原blob。唯一4
 ### 2026-11-16 02:04:39 UTC — 实际进度对象键数的说明纠正
 
 fresh main 453e27fd7eee0e418f81c521f9c4674bcb446222双README不变。原R97R SCI、source及worker的actual_progress逐值一致，实际是12个键；此前两处log说明误写13，现据完整原JSON键表改正。35顶层字段、9新门、219新scalar槽、strict true及所有hash均不变，0科学重算。open的定时CLI指针同步H：01:40:11真实命令无executor，下次≤02:40:11；最新成功真实pull仍为CI01:57:42.758210/2600bb87，API核不冒pull。
+
+## 2026-11-16 02:11:37 UTC — R97A 完整实际结论独推
+
+从不可变blob dee5dc9a0092d8c90ade09b0a6f0994adc6a2163完整读67984B，SHA b2d4bb5605021b9b20589a8d16350a7e7747d7e51de5f774c85900f70b3844ca。根全文审正文，附录5新图和progress/rootdomain/retained_scope共8 JSON对象逐字canonical对比actual SCI全同；219 scalar含217 bracket与2 exact，9新/14继承/12progress不混。实际运行43789221154/1与三原小件、source/worker/manifest、9current/3AST、两truepull和两preGit原byte复原已独核，无新数学重算。仅同real/root97严格e<g−激活RNI kernel/coker0及FC空补列；所有负窗显式费/selected全δ/physicalmeans/head/rest/incoming/finite/非线性仍保。HANDOFF仅缩已成SCA/CEBA索引，完整此前保9471d916同H/proofs，未付不减。只读README核ab2d1dc319e59d72c1c562e3d4e2b8e56f02c310两blob未变；API不冒真pull。下一继续RNE显式负窗新量及完整参数Schur。
