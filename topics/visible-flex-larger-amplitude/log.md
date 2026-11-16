@@ -309,3 +309,8 @@
 ## 2026-11-16 04:59 UTC /root — R474完整线性乘积的条件省零
 
 **已证明（限R473实际输入与局部语义）；新源未执行。** [R474](results/R474-finite-input-zero-coefficient-linear-implementation.md)/[接口](notes/2026-11-16-finite-trace-zero-coefficient-linear-interface.md)四件全文及完整flow差异已核：helper4832B/eb487b2d、flow9510B/1a5ce3f7、proof10209B/c7ab29f0、interface10604B/09bf81b6。每次实际A全部与被用T前K²词有限才跳`z===0`，否则原完整i/j/k；保+0分配、非零j顺序/原乘加、完整226×224及两mean，不要求T分块。有限输出词同，Inf符号/NaN分类同，不冒NaN payload；没有finite-output新门，正常return不等于科学通过。新flow明确导入已刊R471，原root/noJ/复制/fromCaptured/四场RK/cusp/observer正文不变。九计数、两真实fallback原因及最后i/j/未逐k范围保；不捕获重试、不重开钟，资格扫描的成本不冒同资源停止或速度。211/R475真实调用、来源闭包、必要读回及运行另付，不改冻结210。
+
+
+## 2026-11-16 05:06 UTC /root — R440实际203与必要读回缺口
+
+**实际203：全112 far/nominal行完成；物理采样资源partial，无BVP。** [R440](results/R440-actual203-complete112-far-and-physical-point-sampling-work-stop.md)31298B/aabe16f3全文核后刊，run43790929300/source557b1d47、compute133048929054/report133098221382；两原日志各唯一读取。C1440/六primitive与whole闭域完整，2609合法coarse工作未决非漏域；初始十词准确域1846passed/3273processed，无pending。全部112真实far及112 joint nominal行形成（不冒共同准确C实现），linear2044754/25000000 work、5611.207128034999秒。采样1000000/1000000 work、322.25932238300084秒停，3完整unique point、499931叶（499929coarse），0stage field occurrence；非域/试步拒。必要selector漏首point半径/role/全pending闭片段/已留leaf范围，虽原2740B两行曾写并parse，正文未回传且raw已清，不能凭SHA或循环次序补值。两个BVP/338×112/FD/fullDN/450/闭面均未起。七类必要摘要及owner/rules真实quiet后确清，约96.8GB仅归属hash非独立逐值审计；原先前阶段仅startup clipping不冒覆盖setup的硬总钟。新实验须fresh完整采样/全far及补必要字段，不能从partial造接受父，其他run不据此预填失败。
