@@ -155,3 +155,5 @@
 - **R610**：[真实前缀入口锚与R601到完整相对Gram输运](results/R610-actual-prefix-anchor-and-R601-relative-metric-transport.md)，[调用接口](notes/2026-11-16-actual-prefix-anchor-R601-metric-interface.md)：同一原retirement/全模式/正分母/实际径向积分，原完整R601消费一次；条件证明，无实际新数值或闭面证书。
 
 - **R590**：[actual246 来源完成、原科学exit1与双必要超限](results/R590-actual246-source-complete-scientific-exit-and-necessary-overflows.md)：451源/恢复true、外层quiet事件true；454913及150098完整正文未返、双70、removed=false；两原log各一次，内层原因未知。
+
+- **R560**：[actual235 完整采样及准确参数/闭面配方绑定停止](results/R560-actual235-complete-sampling-and-accurate-parameter-binding-stops.md)：545源、全112传播/13850点完成，C2609工作分辨率责任保；BVP与closed工程边界停、全部必要≤90K完整、真实quiet后清raw。

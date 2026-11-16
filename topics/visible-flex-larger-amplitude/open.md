@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R560（实际235，本次独立刊）**：[完整结论](results/R560-actual235-complete-sampling-and-accurate-parameter-binding-stops.md)。545全源/九层248生成完成，C全自然粗界有效但2609数值工作分辨率片段未付；完整十参数域、112深尾/有限far联合代表、13850点和16128出现均完。BVP1.799s在准确有理串float转词报错，453/450未起；closed旧recipe名缺失，而真实coast配方存在；原15refinement/8sameC角色完整未起责任保。generation86540/composition86886/rules87369/BVP82642/refinement66187/sameC50648等原独立必要全部完整，原quiescence重核后17:27:40.076Z实清raw。R599已修两源码边界，此次不重派旧235；大logconnector整读偏差如实入文/H，后续只Actions一次+完整scope小回读，原科学事实不变。
+
 **R590（实际246，本次独立刊）**：[完整结论](results/R590-actual246-source-complete-scientific-exit-and-necessary-overflows.md)。451源与原63/78/91恢复实际完成，原科学外层/rules/science均1，signal/stopnull，ownedquiet事件true；两终态log各由公开Actions一次读取，全10event及双描述返。完整source454913/be88aa4e及science150098/2d0cbfb4未返，分别1802/61b6f07b和1094/bf7997c5/70，cleanup removed=false。R589overflow分支固定source_preparation_complete=false不覆盖原prepare true，report success不覆盖双70。内层RootStats/H/J/FD/fullDN/error仍未知，不能推owner6000耗尽或数学失败；原246不重派，后继保具名完整同体关系与原90K。
 
 **R610（同一实际前缀锚/完整相对Gram消费者，独立刊）**：[证明](results/R610-actual-prefix-anchor-and-R601-relative-metric-transport.md)与[完整接口](notes/2026-11-16-actual-prefix-anchor-R601-metric-interface.md)，source31602/4b49ea2a。真实R553原retirement取得A(0)全cell交集、R596全首节点/core词与原rho正界，支付R514全模式锚；只消费一次已实际完成R601的B0/B1，同原完整覆盖/ledger下沿Lnum积分，再向外形成δ/q及相对Gram谱界。两mean、物理φ、μ、全部角/端点/反射保，原clock/接受/必要90000未改。仅条件源码结论，尚无实际run/数值常数；未来完整caller真实接线，common-first-material/full-phase和tail/collar/patch/caps/seams、闭面floor/精化/reach/held-image/全D仍未付。

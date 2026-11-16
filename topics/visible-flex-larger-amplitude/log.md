@@ -253,3 +253,7 @@ open§1.3旧全文固定4cc33b31，§1.1/1.2及§2–6原字保；R598已刊、R
 ## 2026-11-16 17:43 UTC /root — R590 actual246 源完成、原科学1与双完整必要超限
 
 结论：R590实际246完整18119/23f154b3；451来源与恢复true，原外层/rules/science1、stop/signalnull、ownedquiettrue，source454913/be88aa4e和science150098/2d0cbfb4皆超90000，仅1802/1094原描述70。原两log由公开Actions各一次读，十events/双描述完整、无raw上传；removedfalse，内层科学原因不补造，report success只描述运输。完成即独立普通推，继续251/253与原open责任。
+
+## 2026-11-16 17:46 UTC /root — R560 actual235 全采样与必要完成、准确参数及配方绑定停止
+
+结论：R560实际235完整31805/4993361f；全545源/112deep+far/13850点完成，C2609工作分辨率未付；BVP float(n/d)与closed旧recipe名停止，453/450及后继未起。全部独立必要≤90000完整，17:27:40.076Z真quiet后清raw；R599既有修复不重复。作者两大logconnector整读偏差如实补文/H，后续Actions一次+独立完整scope小report；完成即独立普通推。
