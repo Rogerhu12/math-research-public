@@ -440,3 +440,9 @@
 - E_Aφ*=0，明确不能代YP的eη/d/N、线丛刚性化或非p支持。R860只更正FM.23→实际FM.27引用号，proof SHA8c9ea5ae→7a200b7d，数学不变；原FM本文已读该处。
 - R858已推b44144f8，R815新job133108436809在原数学步。H/open完整逐字归档后压缩已成重复接口，保O1–O6、全部原规范和可执行缺口；R860消费者空runner活跃载体接口已补齐。
 - 本push规则：本地真实pull至df8deeeb6832af1170d697681193ceb6adc635d5（2026-11-16T05:32:23.701056+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:36 Asia/Taipei — serre-public-astra-20261115
+- R860首公开消费者激活：core4b70a64d/wrapperd9b7a23c/method20fa1948/requestd4becaf4/workflowf57cc45b，61真实源/34原W组/60min，仅准确余子式与下降源DAG，不称展开/RR/period完成。
+- 空runner改用R815新109MB53源carrier选R80645、R856 13MB569源carrier选R8057、R853直接9；全原成员SHA后仅保61。真实7键producer身份按BASE和两certificate项分别核，R815124/core-null仅运输；原源码/来源/数学不重做。
+- root已读全core/wrapper/workflow及方法；本地只源IO/AST，R862纸证afa1e0d0已推d004a18c。H完整归档后重写，原规则/源/闭路保留；下一canonical核R864与真A投影小算术继续。
+- 本push规则：本地真实pull至1d95c32be8ca15b44832449bdc06c24e8e389fcd（2026-11-16T05:36:09.715272+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

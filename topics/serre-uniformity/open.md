@@ -99,7 +99,7 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 
 继续保RF e2b87b99的I_Z、P1/P0帧、v_R=κv³/R、ν、完整Corr、theta二挠及其Picard反因子；保SP a06a80ea的μ3唯一二类补、u原分支、ψ2=−2y、完整尾与归一；保ZA268fa3fb的T7=ζ²、五C/D、Trace14/2与完整Y/ℓ/nonp全行。原cχ、splitting、c0/c1、b/s/λ、246、82^10均不可删改。
 
-[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4已用完整两图生成矩阵及实际minor给有限余模/membership核，不先HNF；原YP笔记（完整路径见归档，证明身份bdbb6cc5固定），要求实际128/634 RR、254度/508主部rank507、c/a(P1)、活跃eη、真实d/N与全球Hecke/nonp校准。算法有限性不等于这些核/主函数/period已计算。
+[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4已用完整两图生成矩阵及实际minor给有限余模/membership核，不先HNF；[原YP笔记](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)（证明身份bdbb6cc5固定），要求实际128/634 RR、254度/508主部rank507、c/a(P1)、活跃eη、真实d/N与全球Hecke/nonp校准。算法有限性不等于这些核/主函数/period已计算。
 
 R853 f9635345的三个实际共轭cτ=τ、cσ=e1−e73、cw=w及全部560×3已经完成。[R860](notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md)7a200b7d进一步给β72=N/D：N=adj(TI−W)0,72删行72/列0，D=adj(TI−W)00首一T271，原最小次数272给非零；总次数界272/271。真实cYF=barF(z−2N/D,w)，normal右端用有边框行列式；δ与ν=82τdq/q固定，FM.27比较因子1。分母非零仅函数域意义，仍按原正规环处理可去零点。新完整源DAG正接活跃R815/R856载体，余子式展开/完整RR/period未成；不重W34/三共轭。
 
@@ -128,3 +128,5 @@ R832完整接触上界R−1+binom(R,2)(6G−4)，G=(p−1)²/4、R=21G+4，可�
 E_Aφ*=0，所以本投影不能替代YP的eη，d_A不代其d或挠阶N；相同Jacobian算子不使未刚性化截面相等。实际对应方程/原c0/c1主函数比较仍须完整R849/R850全局源。d_A的素因子不等于非p高度完整支撑；完整修正非p值零不迫各因子零。
 
 根独占main/共享索引；每结论立即push，每push及至少每小时真实pull并读两README差异/记H。新数学仅本公开Actions，raw不进Git/Release或悬挂blob，一日artifact只携必要原源/断点。主目标OPEN，完成子问题立即续下一项。
+
+**R860实际激活**：[记录](notes/R860-semilinear-resolvent-DAG-activation.md)。core4b70a64d/wrapperd9b7a23c/method20fa1948/requestd4becaf4，60min，原61件真正从R815/R856当前carrier及R853取得；源身份/34W/三共轭不重算。完成旗标只指余子式/下降源DAG；二元展开、canonical/RR/period仍待各自真实输出。后继R864将求尚未有同一输出的20×146 cusp限制127维holomorphic核，不冒充YP128/634。

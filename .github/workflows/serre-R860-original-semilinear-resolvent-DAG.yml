@@ -1,0 +1,135 @@
+name: Serre R860 original semilinear resolvent DAG
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R860-semilinear-resolvent-DAG-public-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R860-original-semilinear-resolvent-DAG
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R860-semilinear-resolvent-DAG-public-request.json
+      - name: Pull main and compare both rule files with the read commit
+        env:
+          REQUEST_SOURCE: ${{ github.sha }}
+          RECEIPT_PATH: ${{ runner.temp }}/R860-semilinear-resolvent-DAG-rules-pull.json
+        run: |
+          python - <<'PY'
+          import datetime as dt, hashlib, json, os, subprocess
+          from pathlib import Path
+          path='topics/serre-uniformity/notes/R860-semilinear-resolvent-DAG-public-request.json'
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
+          request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+path]))
+          subprocess.run(['git','checkout','-B','r860-semilinear-resolvent-rules-main'],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          old=request['rules_last_read_commit']
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',old],check=True)
+          actual={key:hashlib.sha256(Path(name).read_bytes()).hexdigest()
+                  for key,name in [('root','README.md'),('topic','topics/serre-uniformity/README.md')]}
+          changed=actual!=request['readme_sha256']
+          receipt={'actual_git_pull_rebase_completed':True,'actual_head':head,'previous_read_commit':old,
+                   'actual_UTC':dt.datetime.now(dt.timezone.utc).isoformat(),'readme_sha256':actual,
+                   'expected_readme_sha256':request['readme_sha256'],'rules_changed':changed}
+          Path(os.environ['RECEIPT_PATH']).write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n')
+          print('R860_RULES_PULL='+json.dumps(receipt,sort_keys=True))
+          if changed:
+              subprocess.run(['git','diff',old,head,'--','README.md','topics/serre-uniformity/README.md'],check=True)
+              raise SystemExit('Both README changes must be read before the new mathematics.')
+          PY
+      - name: Preserve the actual pull receipt for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R860-semilinear-resolvent-rules-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R860-semilinear-resolvent-DAG-rules-pull.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  construct:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R860_original_semilinear_resolvent_DAG.py
+            /topics/serre-uniformity/scripts/R860_public_original_semilinear_resolvent_DAG.py
+            /topics/serre-uniformity/scripts/R837_original_branch_pencil_public.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/results/R802-original-semilinear-parity-and-degree-seven-relations.md
+            /topics/serre-uniformity/results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md
+            /topics/serre-uniformity/results/R806-certified-original-primitive-multiplication.md
+            /topics/serre-uniformity/results/R813-certified-original-Wronskian-normal-vectors.md
+            /topics/serre-uniformity/results/R853-certified-original-three-V1-conjugates-and-semilinear-generators.md
+            /topics/serre-uniformity/notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md
+            /topics/serre-uniformity/notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md
+            /topics/serre-uniformity/notes/R860-original-semilinear-resolvent-DAG-method.md
+            /topics/serre-uniformity/notes/R860-semilinear-resolvent-DAG-public-request.json
+            /.github/workflows/serre-R860-original-semilinear-resolvent-DAG.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse source files without importing mathematical code
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          base=Path('topics/serre-uniformity/scripts')
+          for name in ('R860_original_semilinear_resolvent_DAG.py',
+                       'R860_public_original_semilinear_resolvent_DAG.py',
+                       'R837_original_branch_pencil_public.py',
+                       'R824_public_original_global_polar_generators.py'):
+              p=base/name
+              ast.parse(p.read_text(),filename=str(p))
+              print('AST_OK',name)
+          PY
+      - name: Construct the source-complete original semilinear fraction expressions
+        run: |
+          python topics/serre-uniformity/scripts/R860_public_original_semilinear_resolvent_DAG.py compute \
+            --request topics/serre-uniformity/notes/R860-semilinear-resolvent-DAG-public-request.json \
+            --output "$RUNNER_TEMP/R860-semilinear-resolvent-DAG/output"
+      - name: Preserve the 61 original sources and completed expressions
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R860-original-semilinear-resolvent-DAG-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R860-semilinear-resolvent-DAG/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
+      - name: Read source and expression certificate interfaces
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R860_public_original_semilinear_resolvent_DAG.py verify \
+            --request topics/serre-uniformity/notes/R860-semilinear-resolvent-DAG-public-request.json \
+            --output "$RUNNER_TEMP/R860-semilinear-resolvent-DAG/output"
