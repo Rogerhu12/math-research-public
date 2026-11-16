@@ -1,0 +1,2228 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "R597-accurate-ten-boundaries-and-complete-current-field-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": {
+    "actual_R599_factory_report_words_only": true,
+    "actual_R599_launch_recipe_receipt_and_original_complete_read": true,
+    "all_original_current_H_word_native_solver_gates_unchanged": true,
+    "all_changed_actual_parents_and_generated_consumers_explicit": true,
+    "old_source_names_not_overwritten": true,
+    "no_source_execution_import_AST_compile_or_fixture_here": true
+  },
+  "generator": {
+    "file": "root_20261116_current_C_zero_linear_source_views.py",
+    "bytes": 11895,
+    "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+  },
+  "required_public_sources": [
+    {
+      "file": "geometry_20261116_accurate_ten_source_boundaries.py",
+      "bytes": 8620,
+      "sha256": "236c24d0f8e101240c9469f29180c05e71838734cc76b4d35f383c27073a59b7"
+    }
+  ],
+  "semantic_schema_rebindings": {},
+  "view_count": 49,
+  "literal_patches": {
+    "p0000": {
+      "before": "CANDIDATE_NAME=\"geometry_20261116_actual202_coast_base_zero_linear_gzip_accurate_ten_candidate.py\"\nPINS={",
+      "after": "CANDIDATE_NAME=\"geometry_20261116_actual202_coast_base_zero_linear_gzip_accurate_ten_candidate.py\"\nACCURATE_BOUNDARIES_NAME=\"geometry_20261116_accurate_ten_source_boundaries.py\"\nPINS={\n ACCURATE_BOUNDARIES_NAME:\"236c24d0f8e101240c9469f29180c05e71838734cc76b4d35f383c27073a59b7\","
+    },
+    "p0001": {
+      "before": "    d.candidate=load(CANDIDATE_NAME,PINS[CANDIDATE_NAME],\"_r449_actual_candidate_binding\")",
+      "after": "    d.candidate=load(CANDIDATE_NAME,PINS[CANDIDATE_NAME],\"_r449_actual_candidate_binding\")\n    d.accurate_source_boundaries=load(ACCURATE_BOUNDARIES_NAME,\n        PINS[ACCURATE_BOUNDARIES_NAME],\"_R599_actual_accurate_source_boundaries\")"
+    },
+    "p0002": {
+      "before": "if raw_words(full_p)!=raw_words(target_owner.data['report']['starting_parameters']):",
+      "after": "if raw_words(full_p)!=d.accurate_source_boundaries.factory_parameter_words(\n            target_owner.data['report']['starting_parameters']):"
+    },
+    "p0003": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far_native_worker.mjs",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far_native_worker.mjs"
+    },
+    "p0004": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_same_far_gzip_resampling.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_same_far_gzip_resampling.py"
+    },
+    "p0005": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_native_worker.mjs",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_native_worker.mjs"
+    },
+    "p0006": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_incremental_M_gzip_far_union.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_incremental_M_gzip_far_union.py"
+    },
+    "p0007": {
+      "before": "geometry_20261116_request239_same_call_cubic_full453_frozen450.py",
+      "after": "geometry_20261116_request249_same_call_cubic_full453_frozen450.py"
+    },
+    "p0008": {
+      "before": "51960b100c5d14bb8f8790fca161051e61df8aab93273c59fbec19d4ab91953f",
+      "after": "9ae37ef938cbf035c6ae24a587cd59a434afdb78bc496f0524c8f369321c0742"
+    },
+    "p0009": {
+      "before": "3d6e12241230707ff38567be204d46c059c3aca35f8360d6d90a68d3e0ae865d",
+      "after": "0b3b1790a6488c8f55f10ac30c6c8518614b9964e0437a7d19de8b174cbd8546"
+    },
+    "p0010": {
+      "before": "geometry_20261116_request239_same_call_cubic_full453_frozen450_launch.py",
+      "after": "geometry_20261116_request249_same_call_cubic_full453_frozen450_launch.py"
+    },
+    "p0011": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far_tail_client.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far_tail_client.py"
+    },
+    "p0012": {
+      "before": "5f12d7d7775e4da1d66c119663897c3487de15663b93fa9a2618ed43d769c319",
+      "after": "ba57d93210b8951a7d1ee5a6e610f263caf8bcaa75cd01709b643e97037fb6ba"
+    },
+    "p0013": {
+      "before": "bef3daf3bef336ae5f1a39471b7d6df5d8dedffc71875cf0bbb550ea035420b3",
+      "after": "457cf9875400a6975d1e1b24bbeda229b5ff33397e0fb606bf75fea48cac499d"
+    },
+    "p0014": {
+      "before": "geometry_20261116_actual202_captured239_coast_base_zero_linear_gzip_ten450_closed_parameter_policy.py",
+      "after": "geometry_20261116_actual202_captured249_coast_base_zero_linear_gzip_ten450_closed_parameter_policy.py"
+    },
+    "p0015": {
+      "before": "feb069b4cadd7d0915bdb57c501f089127fcce893ef7d61b594b78e8d83265e1",
+      "after": "0aedc5202060b99624472c50b7d8c4cd78de616f06e2c20779b2144883e49249"
+    },
+    "p0016": {
+      "before": "geometry_20261116_request239_same_C_full_head.py",
+      "after": "geometry_20261116_request249_same_C_full_head.py"
+    },
+    "p0017": {
+      "before": "9b777721ab4d6872a05b83c76ac3de2292a7e81b407c05e59aeaf849e6ea9773",
+      "after": "3a0af874abab49e4fc42bc866a310027db48fe0bf51f44b8647debc51f231445"
+    },
+    "p0018": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_tail_client.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_tail_client.py"
+    },
+    "p0019": {
+      "before": "744172e1800295ddab59710b65c790b87c56e3d02431a090c6167c56737a86ad",
+      "after": "fc95652843129d524449602d11974d02eb4b772d89d5b1081841b411d5fb644a"
+    },
+    "p0020": {
+      "before": "f8ab3769e23a1c9e766b1fc411006ebb23077bf4df7e925bb8edce21ef66f927",
+      "after": "761eb549709b196506a0575237b134118ca83e1fe3ac35e80fe564edb7f67961"
+    },
+    "p0021": {
+      "before": "aab3879248821c440871fa4c0d67c9e03eb3796eb70de70ce0e19f92eeda9bff",
+      "after": "b11ff3d25ef0c066cf43387677b7ae27ff1c61fe7b50dbac61d7f095ee2febc5"
+    },
+    "p0022": {
+      "before": "geometry_20261116_actual202_captured239_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve.py",
+      "after": "geometry_20261116_actual202_captured249_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve.py"
+    },
+    "p0023": {
+      "before": "23d5f2b99cd1f3dfc967e90db378cbd77aae7b84c305cce723e038b5e3ffe5e8",
+      "after": "e0dae5074bf28564307c73226006ff716ba97e060dd177dec9c5439147a23c7b"
+    },
+    "p0024": {
+      "before": "geometry_20261116_request239_same_C_leaf_target_cut.py",
+      "after": "geometry_20261116_request249_same_C_leaf_target_cut.py"
+    },
+    "p0025": {
+      "before": "4006dff57a894e26ce4debe8eaa35c3725a3793b84ddd39ca85008ea6c2ad633",
+      "after": "27277635e2e0dc0de845b19522b7ed1a263d53fe747ad5abb4b5a241be65fb42"
+    },
+    "p0026": {
+      "before": "34eeddf02d3b962cd8c3c57cc33b3bbaf406fc51213e4bb354e417ab8e9b1be7",
+      "after": "e24ec766b36545936ca09eaaacaa46a65bcda21b856b169b2f0d879edd339d39"
+    },
+    "p0027": {
+      "before": "geometry_20261116_request239_same_call_cubic_refined112.py",
+      "after": "geometry_20261116_request249_same_call_cubic_refined112.py"
+    },
+    "p0028": {
+      "before": "302e13c6f6ae11809f6469ca38e39c55bd6bdac39fdf2f324479f30fe08066b0",
+      "after": "7a39d9180d044a3c5ad2709a282efeb496fd76c42db10e0e163ba4ac6dd3a4bc"
+    },
+    "p0029": {
+      "before": "root_20261116_actual202_captured239_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_necessary.py",
+      "after": "root_20261116_actual202_captured249_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_necessary.py"
+    },
+    "p0030": {
+      "before": "f6ef36b286bf82ae1710ee61b1475af1f0df664bfa0ec2af6536d72bd20fbf42",
+      "after": "12118388fcca834e7e77de547ea5c6eca9948f7d3263fc1d817c653df956d82e"
+    },
+    "p0031": {
+      "before": "geometry_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_checkpoint.py",
+      "after": "geometry_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_checkpoint.py"
+    },
+    "p0032": {
+      "before": "2f0e69710f0e09fb6d1ede272130862da1221d2df479790a07a57ba13bd452c0",
+      "after": "5a1912a2066f5f17d4c4677f8c5cca1823e35a5dc38a2ca41b8b6cd444fe74ae"
+    },
+    "p0033": {
+      "before": "geometry_20261116_request239_same_call_cubic_refined112_owned.py",
+      "after": "geometry_20261116_request249_same_call_cubic_refined112_owned.py"
+    },
+    "p0034": {
+      "before": "6bd18cdf13bfee6f88f60db733923e2d132dc2c0937936f2236f72e8f35fb8f2",
+      "after": "1c51451c8848c3844d7967c4519aabac65c35d701056635c3a15d561ab46ed7d"
+    },
+    "p0035": {
+      "before": "LIMIT = 90000\nSOURCE_ROLES = {",
+      "after": "LIMIT = 90000\nACCURATE_BOUNDARIES = (\"geometry_20261116_accurate_ten_source_boundaries.py\", 8620,\n    \"236c24d0f8e101240c9469f29180c05e71838734cc76b4d35f383c27073a59b7\")\nSOURCE_ROLES = {"
+    },
+    "p0036": {
+      "before": "        self.H = load_pinned(self.comp, LIFECYCLE, \"lifecycle\")",
+      "after": "        self.H = load_pinned(self.comp, LIFECYCLE, \"lifecycle\")\n        self.accurate_source_boundaries = load_pinned(\n            self.comp, ACCURATE_BOUNDARIES, \"actual_accurate_source_boundaries\")"
+    },
+    "p0037": {
+      "before": "        recipe_path = self.base / \"actual202-ten-BVP-input\" / \"actual202-accurate-ten-full453-frozen450-recipe.json\"",
+      "after": "        recipe_path = self.accurate_source_boundaries.actual_coast_recipe_path(\n            self.base, launch[\"recipe\"])"
+    },
+    "p0038": {
+      "before": "geometry_20261116_actual202_captured239_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_held.py",
+      "after": "geometry_20261116_actual202_captured249_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_held.py"
+    },
+    "p0039": {
+      "before": "geometry_20261116_request239_actual202_bound_coast_closed_postsolve.py",
+      "after": "geometry_20261116_request249_actual202_bound_coast_closed_postsolve.py"
+    },
+    "p0040": {
+      "before": "344c00923ddede5225e3394ea867d439eed2583c394188c643eee64e0b0549cc",
+      "after": "70d8796d0c0ddda33141e2a7aa135ebe832a2b40dd637349e3ccb0f78bae98e9"
+    },
+    "p0041": {
+      "before": "geometry_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_saved_prefix.py",
+      "after": "geometry_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_saved_prefix.py"
+    },
+    "p0042": {
+      "before": "c8bcc4848a501d7ad0277b96e3b3873330a9eea538402d35ecfa2a9c53a0640c",
+      "after": "eba4aa8e1e0baa747ef700895fa9eb98fb8b553fc13017d9d4be4abd66a4504f"
+    },
+    "p0043": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_radial_readout.mjs",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_radial_readout.mjs"
+    },
+    "p0044": {
+      "before": "e6a82fe64a29d16e84bdf7bac7bc343db3fe9af3c0b14c5643a6bca2cfbb082d",
+      "after": "8aa66c92591966a482885cc6dd70e60870cc4d9f520a57875ac0eb679756ec04"
+    },
+    "p0045": {
+      "before": "geometry_20261116_request239_same_call_cubic_incremental_M.py",
+      "after": "geometry_20261116_request249_same_call_cubic_incremental_M.py"
+    },
+    "p0046": {
+      "before": "3c5424c37ac35cde4d55129a34cea69425421faa7d6a97f0fa910f4cde6df715",
+      "after": "84d24e8e137cf15a07809cc7e905019bf2e502b2fb3b2f9584daae957de92aa5"
+    },
+    "p0047": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far450_coast_postsolve_geometry.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far450_coast_postsolve_geometry.py"
+    },
+    "p0048": {
+      "before": "804a0d93d69f58ee699366fc0a0380e7214af853339f5270c2d16ab0c4438645",
+      "after": "6846568171e33b5eac03044544b1bcf5f0c1e2ed545228d0c5687ec9676006a9"
+    },
+    "p0049": {
+      "before": "geometry_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_prefix_metric.py",
+      "after": "geometry_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_prefix_metric.py"
+    },
+    "p0050": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_shared_field.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_shared_field.py"
+    },
+    "p0051": {
+      "before": "34f0962868e4d3f5380d481ab3863d72cd1b152b7d0fd82accffa4135a0ea056",
+      "after": "7c28f9ead09e1dcadc468824ea5f1694aecf9be9a5ac991e5eab205ebd2fab06"
+    },
+    "p0052": {
+      "before": "66633831e9576b0acdeaa1a68b7a83e2de30b19269b6de31408fa2ef978c6bdd",
+      "after": "2d1a61fb9c12f4b1041e5e551474d33b5644eacc9d944a090dbcda17d83032e8"
+    },
+    "p0053": {
+      "before": "geometry_20261116_request239_same_call_cubic_incremental_M_owned.py",
+      "after": "geometry_20261116_request249_same_call_cubic_incremental_M_owned.py"
+    },
+    "p0054": {
+      "before": "root_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_phase_readout.py",
+      "after": "root_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_phase_readout.py"
+    },
+    "p0055": {
+      "before": "288cb2531197ab76eed1276d6af5de332633fa03b61ac9f9413e5a3fe14751bc",
+      "after": "e1b8a821c2480a9c86db8d1421afae86e17c9687223aad84a964ce8567adedc2"
+    },
+    "p0056": {
+      "before": "e0ce1312c959ed7c0c123d9262d19b61e1b0761c9ed8079b11c1dc26b4a457a6",
+      "after": "03b198c47494f92414619a730084e1fcce11265032a94aba87ad79317f03b2aa"
+    },
+    "p0057": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_original_cuff_atlas.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_original_cuff_atlas.py"
+    },
+    "p0058": {
+      "before": "f80537af9fcf7d1981b1bd86f2fee487373399e712100b5af619c184bcd2565b",
+      "after": "6ed28ae8a916c0649b339d3e47cff009e888dfdc7a925e8ac807b79764d97aa0"
+    },
+    "p0059": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_accurate_cut_patch.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_accurate_cut_patch.py"
+    },
+    "p0060": {
+      "before": "a15d596d48eda963531d54db0ce8b9a55a59840c503e07ea2f56e83000249df2",
+      "after": "26c2c7e05c3a4d6a00f988c88fc7e6daee551e3b271dbedada2b13af054479e6"
+    },
+    "p0061": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py"
+    },
+    "p0062": {
+      "before": "58e2020af36cd9ba9b91a9fe5fe5a9c5416886c6de7a45a3780aec21be85b32d",
+      "after": "e5a1069a1f5632eaf8b5d95957a7d4df27ca9d0178a10eed94eccfbf66a9c5f5"
+    },
+    "p0063": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py"
+    },
+    "p0064": {
+      "before": "7205fce93be53061714aa8bfc4839116e4702b0a092e44eada6467a0e9b519c9",
+      "after": "0660a60b5a72c72a6117c1d8364ba2a06b352e464debfef17a6375bbc7cf2571"
+    },
+    "p0065": {
+      "before": "geometry_20261116_request239_same_C_tail_queries.py",
+      "after": "geometry_20261116_request249_same_C_tail_queries.py"
+    },
+    "p0066": {
+      "before": "geometry_20261116_request239_same_C_metric_family.py",
+      "after": "geometry_20261116_request249_same_C_metric_family.py"
+    },
+    "p0067": {
+      "before": "d1ea81a9b50a998754bc854a7a42c5fb9ec3ac4c114146af8a7c910e680c0586",
+      "after": "261398efa1c1145979f2fbd8f331d891f4a96fc876e2873b2c0ea9226b2ae878"
+    },
+    "p0068": {
+      "before": "18505c4a73a7e09e8cc22079461eaeedbe1d8d669031695baa12bddd3e2f3900",
+      "after": "42bebcdbcf7bcb9ca9af0057599ea29f4373dc4201c566c47895d59d6ad44b74"
+    },
+    "p0069": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_complete_reach_cover.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_complete_reach_cover.py"
+    },
+    "p0070": {
+      "before": "7795f154f4f2a2258ebdb3340ebcb174b0bf9afcd9dc8667743a588cdcf1bbfa",
+      "after": "36fd372c4657ff963c19be85df20106186cdb12b8b8b2ba473de955a0e602ffc"
+    },
+    "p0071": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py"
+    },
+    "p0072": {
+      "before": "c666ace931f6028d8d6358c62366cc583890546490578c7a0f91a0181384f732",
+      "after": "ab58befeafa2d3ccf93e4dc3822b67d42f0c539d055c3b0c146071d487c78506"
+    },
+    "p0073": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_complete_block_reach_cover.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_complete_block_reach_cover.py"
+    },
+    "p0074": {
+      "before": "d28c2c1391ddb09cf04b74e19d778ea6d93479967004f2d8de5165028f55e39b",
+      "after": "8a817d40223f0ff4692e30f8716f11f1913a633b4f988ee55f8c61ea0c1e4dcb"
+    },
+    "p0075": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_geometry.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_geometry.py"
+    },
+    "p0076": {
+      "before": "e398c46d90aff58efd56b815ec17bb4ccb60111bdb64042e90fc36cf1a9f051e",
+      "after": "d7cf297ac52c94d867f45488bf9560cc98880213c4aa8f8a64cb2ee150b29586"
+    },
+    "p0077": {
+      "before": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py",
+      "after": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py"
+    },
+    "p0078": {
+      "before": "2b593b27f185765cdaec8a3e02c34db0f7ff43193d0334844d1bf64ade317096",
+      "after": "da4f6c95411401f7d528acbd639c80b1767854db5ccd579398a058c213aced30"
+    }
+  },
+  "views": [
+    {
+      "role": "first_driver",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_call_cubic_full453_frozen450.py",
+        "bytes": 35203,
+        "sha256": "51960b100c5d14bb8f8790fca161051e61df8aab93273c59fbec19d4ab91953f"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_call_cubic_full453_frozen450.py",
+        "bytes": 35578,
+        "sha256": "9ae37ef938cbf035c6ae24a587cd59a434afdb78bc496f0524c8f369321c0742"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 1
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_worker",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far_native_worker.mjs",
+        "bytes": 19900,
+        "sha256": "5f12d7d7775e4da1d66c119663897c3487de15663b93fa9a2618ed43d769c319"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far_native_worker.mjs",
+        "bytes": 19900,
+        "sha256": "ba57d93210b8951a7d1ee5a6e610f263caf8bcaa75cd01709b643e97037fb6ba"
+      },
+      "applications": [
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_client",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far_tail_client.py",
+        "bytes": 23494,
+        "sha256": "bef3daf3bef336ae5f1a39471b7d6df5d8dedffc71875cf0bbb550ea035420b3"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far_tail_client.py",
+        "bytes": 23494,
+        "sha256": "457cf9875400a6975d1e1b24bbeda229b5ff33397e0fb606bf75fea48cac499d"
+      },
+      "applications": [
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_worker",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_native_worker.mjs",
+        "bytes": 19805,
+        "sha256": "744172e1800295ddab59710b65c790b87c56e3d02431a090c6167c56737a86ad"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_native_worker.mjs",
+        "bytes": 19805,
+        "sha256": "fc95652843129d524449602d11974d02eb4b772d89d5b1081841b411d5fb644a"
+      },
+      "applications": [
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_client",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_tail_client.py",
+        "bytes": 24012,
+        "sha256": "f8ab3769e23a1c9e766b1fc411006ebb23077bf4df7e925bb8edce21ef66f927"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_tail_client.py",
+        "bytes": 24012,
+        "sha256": "761eb549709b196506a0575237b134118ca83e1fe3ac35e80fe564edb7f67961"
+      },
+      "applications": [
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_launcher",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_call_cubic_full453_frozen450_launch.py",
+        "bytes": 20615,
+        "sha256": "3d6e12241230707ff38567be204d46c059c3aca35f8360d6d90a68d3e0ae865d"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_call_cubic_full453_frozen450_launch.py",
+        "bytes": 20615,
+        "sha256": "0b3b1790a6488c8f55f10ac30c6c8518614b9964e0437a7d19de8b174cbd8546"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_policy",
+      "baseline": {
+        "file": "geometry_20261116_actual202_captured239_coast_base_zero_linear_gzip_ten450_closed_parameter_policy.py",
+        "bytes": 37983,
+        "sha256": "feb069b4cadd7d0915bdb57c501f089127fcce893ef7d61b594b78e8d83265e1"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_captured249_coast_base_zero_linear_gzip_ten450_closed_parameter_policy.py",
+        "bytes": 37983,
+        "sha256": "0aedc5202060b99624472c50b7d8c4cd78de616f06e2c20779b2144883e49249"
+      },
+      "applications": [
+        {
+          "patch": "p0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_head",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_full_head.py",
+        "bytes": 42275,
+        "sha256": "9b777721ab4d6872a05b83c76ac3de2292a7e81b407c05e59aeaf849e6ea9773"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_C_full_head.py",
+        "bytes": 42275,
+        "sha256": "3a0af874abab49e4fc42bc866a310027db48fe0bf51f44b8647debc51f231445"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_reader",
+      "baseline": {
+        "file": "root_20261116_actual202_captured239_coast_base_zero_linear_gzip_two_phase_necessary_readout.py",
+        "bytes": 32662,
+        "sha256": "508885ca68dc0500a8bd5923b2cfb90746ebb118bc4fd25a83cb5160d153a7e9"
+      },
+      "output": {
+        "file": "root_20261116_actual202_captured249_coast_base_zero_linear_gzip_two_phase_necessary_readout.py",
+        "bytes": 32662,
+        "sha256": "921b4a67d1fae0dcf8bf9c14cfdf4d0810ffbd9ac2e6b76401127ec4db69dfde"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_sampler",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_same_far_gzip_resampling.py",
+        "bytes": 52151,
+        "sha256": "aab3879248821c440871fa4c0d67c9e03eb3796eb70de70ce0e19f92eeda9bff"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_same_far_gzip_resampling.py",
+        "bytes": 52151,
+        "sha256": "b11ff3d25ef0c066cf43387677b7ae27ff1c61fe7b50dbac61d7f095ee2febc5"
+      },
+      "applications": [
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_post",
+      "baseline": {
+        "file": "geometry_20261116_actual202_captured239_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve.py",
+        "bytes": 27208,
+        "sha256": "23d5f2b99cd1f3dfc967e90db378cbd77aae7b84c305cce723e038b5e3ffe5e8"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_captured249_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve.py",
+        "bytes": 27208,
+        "sha256": "e0dae5074bf28564307c73226006ff716ba97e060dd177dec9c5439147a23c7b"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_leaf",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_leaf_target_cut.py",
+        "bytes": 35531,
+        "sha256": "4006dff57a894e26ce4debe8eaa35c3725a3793b84ddd39ca85008ea6c2ad633"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_C_leaf_target_cut.py",
+        "bytes": 35531,
+        "sha256": "27277635e2e0dc0de845b19522b7ed1a263d53fe747ad5abb4b5a241be65fb42"
+      },
+      "applications": [
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_sampler",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_incremental_M_gzip_far_union.py",
+        "bytes": 55484,
+        "sha256": "34eeddf02d3b962cd8c3c57cc33b3bbaf406fc51213e4bb354e417ab8e9b1be7"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_incremental_M_gzip_far_union.py",
+        "bytes": 55484,
+        "sha256": "e24ec766b36545936ca09eaaacaa46a65bcda21b856b169b2f0d879edd339d39"
+      },
+      "applications": [
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_driver",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_call_cubic_refined112.py",
+        "bytes": 56144,
+        "sha256": "302e13c6f6ae11809f6469ca38e39c55bd6bdac39fdf2f324479f30fe08066b0"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_call_cubic_refined112.py",
+        "bytes": 56144,
+        "sha256": "7a39d9180d044a3c5ad2709a282efeb496fd76c42db10e0e163ba4ac6dd3a4bc"
+      },
+      "applications": [
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_postreader",
+      "baseline": {
+        "file": "root_20261116_actual202_captured239_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_necessary.py",
+        "bytes": 11237,
+        "sha256": "f6ef36b286bf82ae1710ee61b1475af1f0df664bfa0ec2af6536d72bd20fbf42"
+      },
+      "output": {
+        "file": "root_20261116_actual202_captured249_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_necessary.py",
+        "bytes": 11237,
+        "sha256": "12118388fcca834e7e77de547ea5c6eca9948f7d3263fc1d817c653df956d82e"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_tail",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_tail_queries.py",
+        "bytes": 29686,
+        "sha256": "d1ea81a9b50a998754bc854a7a42c5fb9ec3ac4c114146af8a7c910e680c0586"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_C_tail_queries.py",
+        "bytes": 29686,
+        "sha256": "261398efa1c1145979f2fbd8f331d891f4a96fc876e2873b2c0ea9226b2ae878"
+      },
+      "applications": [
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0024",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_checkpoint",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_checkpoint.py",
+        "bytes": 56043,
+        "sha256": "2f0e69710f0e09fb6d1ede272130862da1221d2df479790a07a57ba13bd452c0"
+      },
+      "output": {
+        "file": "geometry_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_checkpoint.py",
+        "bytes": 56043,
+        "sha256": "5a1912a2066f5f17d4c4677f8c5cca1823e35a5dc38a2ca41b8b6cd444fe74ae"
+      },
+      "applications": [
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_owner",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_call_cubic_refined112_owned.py",
+        "bytes": 57370,
+        "sha256": "6bd18cdf13bfee6f88f60db733923e2d132dc2c0937936f2236f72e8f35fb8f2"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_call_cubic_refined112_owned.py",
+        "bytes": 57370,
+        "sha256": "1c51451c8848c3844d7967c4519aabac65c35d701056635c3a15d561ab46ed7d"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_held",
+      "baseline": {
+        "file": "geometry_20261116_actual202_captured239_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_held.py",
+        "bytes": 5769,
+        "sha256": "344c00923ddede5225e3394ea867d439eed2583c394188c643eee64e0b0549cc"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_captured249_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_held.py",
+        "bytes": 5769,
+        "sha256": "70d8796d0c0ddda33141e2a7aa135ebe832a2b40dd637349e3ccb0f78bae98e9"
+      },
+      "applications": [
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0029",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_saved",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_saved_prefix.py",
+        "bytes": 19310,
+        "sha256": "c8bcc4848a501d7ad0277b96e3b3873330a9eea538402d35ecfa2a9c53a0640c"
+      },
+      "output": {
+        "file": "geometry_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_saved_prefix.py",
+        "bytes": 19310,
+        "sha256": "eba4aa8e1e0baa747ef700895fa9eb98fb8b553fc13017d9d4be4abd66a4504f"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_radial",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_radial_readout.mjs",
+        "bytes": 24193,
+        "sha256": "e6a82fe64a29d16e84bdf7bac7bc343db3fe9af3c0b14c5643a6bca2cfbb082d"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_radial_readout.mjs",
+        "bytes": 24193,
+        "sha256": "8aa66c92591966a482885cc6dd70e60870cc4d9f520a57875ac0eb679756ec04"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_driver",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_call_cubic_incremental_M.py",
+        "bytes": 52845,
+        "sha256": "3c5424c37ac35cde4d55129a34cea69425421faa7d6a97f0fa910f4cde6df715"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_call_cubic_incremental_M.py",
+        "bytes": 52845,
+        "sha256": "84d24e8e137cf15a07809cc7e905019bf2e502b2fb3b2f9584daae957de92aa5"
+      },
+      "applications": [
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_post",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far450_coast_postsolve_geometry.py",
+        "bytes": 65888,
+        "sha256": "804a0d93d69f58ee699366fc0a0380e7214af853339f5270c2d16ab0c4438645"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far450_coast_postsolve_geometry.py",
+        "bytes": 65888,
+        "sha256": "6846568171e33b5eac03044544b1bcf5f0c1e2ed545228d0c5687ec9676006a9"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far_necessary_readout.py",
+        "bytes": 38807,
+        "sha256": "43eb4b2ace963a7249d53e344316e219778b5816da268ec6ea964d8ba40239da"
+      },
+      "output": {
+        "file": "root_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far_necessary_readout.py",
+        "bytes": 38807,
+        "sha256": "003497412e484d9e21834025061bbfffafa1e702e15414691be9d6cc11048104"
+      },
+      "applications": [
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "first_post_entry",
+      "baseline": {
+        "file": "geometry_20261116_request239_actual202_bound_coast_closed_postsolve.py",
+        "bytes": 47503,
+        "sha256": "ba8c49fa3894e745557ae9d04e3ae4eb09307ef227e792dbe331e963958b696f"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_actual202_bound_coast_closed_postsolve.py",
+        "bytes": 47799,
+        "sha256": "c21ab64dd966645bfc59595fbfa76e4e129ba57d2d152129a9398c9481f0a557"
+      },
+      "applications": [
+        {
+          "patch": "p0035",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0029",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_prefix",
+      "baseline": {
+        "file": "geometry_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_prefix_metric.py",
+        "bytes": 32890,
+        "sha256": "34f0962868e4d3f5380d481ab3863d72cd1b152b7d0fd82accffa4135a0ea056"
+      },
+      "output": {
+        "file": "geometry_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_prefix_metric.py",
+        "bytes": 32890,
+        "sha256": "7c28f9ead09e1dcadc468824ea5f1694aecf9be9a5ac991e5eab205ebd2fab06"
+      },
+      "applications": [
+        {
+          "patch": "p0041",
+          "count": 2
+        },
+        {
+          "patch": "p0042",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_shared",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_shared_field.py",
+        "bytes": 49628,
+        "sha256": "66633831e9576b0acdeaa1a68b7a83e2de30b19269b6de31408fa2ef978c6bdd"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_shared_field.py",
+        "bytes": 49628,
+        "sha256": "2d1a61fb9c12f4b1041e5e551474d33b5644eacc9d944a090dbcda17d83032e8"
+      },
+      "applications": [
+        {
+          "patch": "p0041",
+          "count": 1
+        },
+        {
+          "patch": "p0043",
+          "count": 1
+        },
+        {
+          "patch": "p0042",
+          "count": 1
+        },
+        {
+          "patch": "p0044",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_owner",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_call_cubic_incremental_M_owned.py",
+        "bytes": 77531,
+        "sha256": "288cb2531197ab76eed1276d6af5de332633fa03b61ac9f9413e5a3fe14751bc"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_call_cubic_incremental_M_owned.py",
+        "bytes": 77531,
+        "sha256": "e1b8a821c2480a9c86db8d1421afae86e17c9687223aad84a964ce8567adedc2"
+      },
+      "applications": [
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_phase_reader",
+      "baseline": {
+        "file": "root_20261116_continuous_ten_captured239_coast_base_zero_linear_gzip_incremental_M_phase_readout.py",
+        "bytes": 19756,
+        "sha256": "e0ce1312c959ed7c0c123d9262d19b61e1b0761c9ed8079b11c1dc26b4a457a6"
+      },
+      "output": {
+        "file": "root_20261116_continuous_ten_captured249_coast_base_zero_linear_gzip_incremental_M_phase_readout.py",
+        "bytes": 19756,
+        "sha256": "03b198c47494f92414619a730084e1fcce11265032a94aba87ad79317f03b2aa"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_postreader",
+      "baseline": {
+        "file": "root_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far450_coast_postsolve_necessary.py",
+        "bytes": 27557,
+        "sha256": "ebf8f22c7f0b573448c6ca1cc5b4d83ccc582254cd2543c636b77ed5c7bb9623"
+      },
+      "output": {
+        "file": "root_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far450_coast_postsolve_necessary.py",
+        "bytes": 27557,
+        "sha256": "bc1116bfd09b6c02e3e8d274e9a1e5e888232b48d5ce0d120f7b45b89f16ec35"
+      },
+      "applications": [
+        {
+          "patch": "p0047",
+          "count": 1
+        },
+        {
+          "patch": "p0048",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_held",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_same_far450_coast_postsolve_held.py",
+        "bytes": 44242,
+        "sha256": "c11c1a05c9366015f01bff1e06db2b5ccb7250bed9ea2fc35ce91cf1fc59f458"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_same_far450_coast_postsolve_held.py",
+        "bytes": 44242,
+        "sha256": "fc9acce319621e4fda597abc325869be4c3e886b4ebc2bcfb48b3951a86fe923"
+      },
+      "applications": [
+        {
+          "patch": "p0047",
+          "count": 2
+        },
+        {
+          "patch": "p0048",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_cut",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_accurate_cut_patch.py",
+        "bytes": 26248,
+        "sha256": "a15d596d48eda963531d54db0ce8b9a55a59840c503e07ea2f56e83000249df2"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_accurate_cut_patch.py",
+        "bytes": 26248,
+        "sha256": "26c2c7e05c3a4d6a00f988c88fc7e6daee551e3b271dbedada2b13af054479e6"
+      },
+      "applications": [
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0051",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_atlas",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_original_cuff_atlas.py",
+        "bytes": 29569,
+        "sha256": "f80537af9fcf7d1981b1bd86f2fee487373399e712100b5af619c184bcd2565b"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_original_cuff_atlas.py",
+        "bytes": 29569,
+        "sha256": "6ed28ae8a916c0649b339d3e47cff009e888dfdc7a925e8ac807b79764d97aa0"
+      },
+      "applications": [
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_necessary_readout.py",
+        "bytes": 35584,
+        "sha256": "2f27532fe25ef0da70b87f6ce58e124eb854ded8ac513037df9d7ae3c685b850"
+      },
+      "output": {
+        "file": "root_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_necessary_readout.py",
+        "bytes": 35584,
+        "sha256": "9489afb2119707c52b94d5ca839ae66cde7d4e96f8cd6c91aef9a50ec876f2f7"
+      },
+      "applications": [
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0053",
+          "count": 1
+        },
+        {
+          "patch": "p0054",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        },
+        {
+          "patch": "p0056",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_caps",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py",
+        "bytes": 23748,
+        "sha256": "58e2020af36cd9ba9b91a9fe5fe5a9c5416886c6de7a45a3780aec21be85b32d"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py",
+        "bytes": 23748,
+        "sha256": "e5a1069a1f5632eaf8b5d95957a7d4df27ca9d0178a10eed94eccfbf66a9c5f5"
+      },
+      "applications": [
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_material",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py",
+        "bytes": 38968,
+        "sha256": "7205fce93be53061714aa8bfc4839116e4702b0a092e44eada6467a0e9b519c9"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_common_material_phase.py",
+        "bytes": 38968,
+        "sha256": "0660a60b5a72c72a6117c1d8364ba2a06b352e464debfef17a6375bbc7cf2571"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        },
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0042",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_bridge",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_metric_family.py",
+        "bytes": 12382,
+        "sha256": "18505c4a73a7e09e8cc22079461eaeedbe1d8d669031695baa12bddd3e2f3900"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_C_metric_family.py",
+        "bytes": 12382,
+        "sha256": "42bebcdbcf7bcb9ca9af0057599ea29f4373dc4201c566c47895d59d6ad44b74"
+      },
+      "applications": [
+        {
+          "patch": "p0024",
+          "count": 1
+        },
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        },
+        {
+          "patch": "p0051",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_reach",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_complete_reach_cover.py",
+        "bytes": 60618,
+        "sha256": "7795f154f4f2a2258ebdb3340ebcb174b0bf9afcd9dc8667743a588cdcf1bbfa"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_complete_reach_cover.py",
+        "bytes": 60618,
+        "sha256": "36fd372c4657ff963c19be85df20106186cdb12b8b8b2ba473de955a0e602ffc"
+      },
+      "applications": [
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_held_consumer",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py",
+        "bytes": 53942,
+        "sha256": "2b593b27f185765cdaec8a3e02c34db0f7ff43193d0334844d1bf64ade317096"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py",
+        "bytes": 53942,
+        "sha256": "da4f6c95411401f7d528acbd639c80b1767854db5ccd579398a058c213aced30"
+      },
+      "applications": [
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_metric",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py",
+        "bytes": 56432,
+        "sha256": "c666ace931f6028d8d6358c62366cc583890546490578c7a0f91a0181384f732"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_coast_live_query_complete_metric.py",
+        "bytes": 56432,
+        "sha256": "ab58befeafa2d3ccf93e4dc3822b67d42f0c539d055c3b0c146071d487c78506"
+      },
+      "applications": [
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        },
+        {
+          "patch": "p0051",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "display",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_multitime_display.py",
+        "bytes": 41941,
+        "sha256": "57a9a694e086ecf0dcf1cc4f21bffd2aa7f1102e07902d07ce15b9fe22672e4a"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_multitime_display.py",
+        "bytes": 41941,
+        "sha256": "3489f6c98789ad4c82918841d54411ed7e34223be3270473467bea1a15a0c9f9"
+      },
+      "applications": [
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        },
+        {
+          "patch": "p0063",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0064",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_metric0",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_original112_metric.py",
+        "bytes": 57273,
+        "sha256": "a355a75520e74c32e87eba71fea145bf26a995d4c22199ddf873d15755b1d30c"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_C_original112_metric.py",
+        "bytes": 57273,
+        "sha256": "0c6a21516900ba4278a9ecdbe214f6e9bbc3ce60fdf3587f886946b27c1b2321"
+      },
+      "applications": [
+        {
+          "patch": "p0065",
+          "count": 1
+        },
+        {
+          "patch": "p0066",
+          "count": 1
+        },
+        {
+          "patch": "p0067",
+          "count": 1
+        },
+        {
+          "patch": "p0068",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_metric1",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_resolution112_metric.py",
+        "bytes": 57300,
+        "sha256": "76e565fb87490dd2782a03cde53c4c3afbbd2353f24b1c19a92e07900131cd16"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_C_resolution112_metric.py",
+        "bytes": 57300,
+        "sha256": "0807ea0f7ede364e0a92da37fb51c9effb8f6b382e9e5ca3e510cef7752b36a4"
+      },
+      "applications": [
+        {
+          "patch": "p0065",
+          "count": 1
+        },
+        {
+          "patch": "p0066",
+          "count": 1
+        },
+        {
+          "patch": "p0067",
+          "count": 1
+        },
+        {
+          "patch": "p0068",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "217_metric2",
+      "baseline": {
+        "file": "geometry_20261116_request239_same_C_incremental_M_metric.py",
+        "bytes": 57477,
+        "sha256": "6f0f8f06e57ca963754bcc9bffdcafc069e658e33d8308dab5eed7324ba2cb23"
+      },
+      "output": {
+        "file": "geometry_20261116_request249_same_C_incremental_M_metric.py",
+        "bytes": 57477,
+        "sha256": "b1be7eee603f0a0b183b5db2a9ede97bdde2fa0f8870f058531c652fc30708b0"
+      },
+      "applications": [
+        {
+          "patch": "p0065",
+          "count": 1
+        },
+        {
+          "patch": "p0049",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        },
+        {
+          "patch": "p0066",
+          "count": 1
+        },
+        {
+          "patch": "p0067",
+          "count": 1
+        },
+        {
+          "patch": "p0051",
+          "count": 1
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0068",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_block",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_complete_block_reach_cover.py",
+        "bytes": 45673,
+        "sha256": "d28c2c1391ddb09cf04b74e19d778ea6d93479967004f2d8de5165028f55e39b"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_complete_block_reach_cover.py",
+        "bytes": 45673,
+        "sha256": "8a817d40223f0ff4692e30f8716f11f1913a633b4f988ee55f8c61ea0c1e4dcb"
+      },
+      "applications": [
+        {
+          "patch": "p0069",
+          "count": 1
+        },
+        {
+          "patch": "p0070",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "evidence",
+      "baseline": {
+        "file": "geometry_20261116_captured239_coast_base_zero_linear_gzip_incremental_M_coast_fixed_target_metric_evidence.py",
+        "bytes": 63289,
+        "sha256": "ace34734150fcca0964e639c05044e2233f27ba3a6497e43ee4f83d3adba147e"
+      },
+      "output": {
+        "file": "geometry_20261116_captured249_coast_base_zero_linear_gzip_incremental_M_coast_fixed_target_metric_evidence.py",
+        "bytes": 63289,
+        "sha256": "5b6f97c608847081f5a9c50fe357ebad5a1c7d5c1d4af15a3e0e55506d626436"
+      },
+      "applications": [
+        {
+          "patch": "p0063",
+          "count": 1
+        },
+        {
+          "patch": "p0071",
+          "count": 1
+        },
+        {
+          "patch": "p0064",
+          "count": 1
+        },
+        {
+          "patch": "p0072",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_post",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_geometry.py",
+        "bytes": 72519,
+        "sha256": "e398c46d90aff58efd56b815ec17bb4ccb60111bdb64042e90fc36cf1a9f051e"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_geometry.py",
+        "bytes": 72519,
+        "sha256": "d7cf297ac52c94d867f45488bf9560cc98880213c4aa8f8a64cb2ee150b29586"
+      },
+      "applications": [
+        {
+          "patch": "p0014",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        },
+        {
+          "patch": "p0043",
+          "count": 1
+        },
+        {
+          "patch": "p0050",
+          "count": 1
+        },
+        {
+          "patch": "p0059",
+          "count": 1
+        },
+        {
+          "patch": "p0057",
+          "count": 1
+        },
+        {
+          "patch": "p0061",
+          "count": 1
+        },
+        {
+          "patch": "p0063",
+          "count": 1
+        },
+        {
+          "patch": "p0069",
+          "count": 1
+        },
+        {
+          "patch": "p0071",
+          "count": 1
+        },
+        {
+          "patch": "p0073",
+          "count": 1
+        },
+        {
+          "patch": "p0045",
+          "count": 1
+        },
+        {
+          "patch": "p0053",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        },
+        {
+          "patch": "p0044",
+          "count": 1
+        },
+        {
+          "patch": "p0052",
+          "count": 2
+        },
+        {
+          "patch": "p0060",
+          "count": 1
+        },
+        {
+          "patch": "p0058",
+          "count": 1
+        },
+        {
+          "patch": "p0062",
+          "count": 1
+        },
+        {
+          "patch": "p0064",
+          "count": 1
+        },
+        {
+          "patch": "p0070",
+          "count": 1
+        },
+        {
+          "patch": "p0072",
+          "count": 1
+        },
+        {
+          "patch": "p0074",
+          "count": 1
+        },
+        {
+          "patch": "p0046",
+          "count": 1
+        },
+        {
+          "patch": "p0055",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_postreader",
+      "baseline": {
+        "file": "root_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_necessary.py",
+        "bytes": 27601,
+        "sha256": "2fa2751994d9fc42b56b51a0609f4e9fcc8412d68907168198ffa43f21d9e6e1"
+      },
+      "output": {
+        "file": "root_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_necessary.py",
+        "bytes": 27601,
+        "sha256": "617abc51ac5cde876305415fc82331df918d8be0caf066d485c816c0b5f0db8b"
+      },
+      "applications": [
+        {
+          "patch": "p0075",
+          "count": 1
+        },
+        {
+          "patch": "p0076",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "union_held",
+      "baseline": {
+        "file": "geometry_20261116_current_C_captured239_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_held.py",
+        "bytes": 44394,
+        "sha256": "ea1feb89b754431435c5c54c78dcd4165b0a1abeff75bf4b5db444f6b2e5bded"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_captured249_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_held.py",
+        "bytes": 44394,
+        "sha256": "82c7ce1b466ad1e08ecd74396cb6dcab8d20ef3aa216cc9291b1638148cccec3"
+      },
+      "applications": [
+        {
+          "patch": "p0077",
+          "count": 1
+        },
+        {
+          "patch": "p0075",
+          "count": 2
+        },
+        {
+          "patch": "p0078",
+          "count": 1
+        },
+        {
+          "patch": "p0076",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "original_R570_plan": {
+    "file": "r570-same-call-cubic-complete-source-plan.json",
+    "bytes": 71198,
+    "sha256": "05513054b03e64c1d82c16db2458ec270e5364198dfa382c39fb81fed3128504",
+    "repository_file": "topics/visible-flex-larger-amplitude/notes/r570-same-call-cubic-complete-source-plan.json"
+  }
+}
