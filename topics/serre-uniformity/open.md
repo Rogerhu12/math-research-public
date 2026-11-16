@@ -179,3 +179,5 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **[R911精确CM粘合二分](results/R911-original-Picard-descent-and-exact-CM-gluing-dichotomy.md)** 已证：保持原半线性环约定，Picard余切与曲线H0Ω同字符，dual Lie反字符；原Drinfeld余切仅低半奇权，Igusa无primitive t_h，故R910上半r0被排。严格r_h=0（h<n/2）或2h−n（h>n/2）；上半实际αp两线分别嵌入BD∨/BI∨且给后者a-number下界。原微分content分别ea_h与≥ea_h+p(2h−n)，原Tate指数、指定盘normal及R897/898同h关键jet桥仍缺。
 
 **[R912原八维端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)** 已证：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0，不能用R853三列替代；原2+3+3秩8正规order的discrim阶4，trace-radical/idealizer有限核不拆因子。两截面8×16格给九纤维坐标，完整帧仍为Nm(q*Φ)detUj/detU0并保原t首项/dual7。两端共同λ在0..16，旧z0不代端点；实际新146矩阵/端点值仍false，exact_height正写必要小叶。
+
+**[R913原Igusa Cartier泛函与两CM伴随](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)** 已证：上半实际αp子群给非零λ_h∈(W_+/C W_−)∨，其原χ_−层对应k_−=2p+2−2h；π^−pr f_h*ω的χ_+层则对应k_+=2h−p+1，约化可能零。原两个tame level9 CM与Θ的全Fourier关系、level6的ζ²/1/6及Hecke标度ℓ^(h−1)/ℓ^(p−h)逐项固定，完整Norm惯性和det−1校正保留。Gross/Oda/Cais/EP原式已读；同特征系数不推出指定CM向量配对非零，不假设Hecke半单、重数一或格饱和。原a_h、normal首项、36/J32同h桥和height仍缺。
