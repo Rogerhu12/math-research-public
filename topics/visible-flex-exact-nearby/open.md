@@ -60,6 +60,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 新链均为同selected实际对象的完整解析recipe，0新球/旧math0；原PC/root有限差、cut、oldtarget/leading/Ni与独立physicalmean/amp均保。完整whole新预算须组同一signedtuple，不能把单源阶当wholeE。
 
+[WUE完整同物理行](results/R133-supplement-complete-global-genuine-trial-physical-waist-error.md)e191f96a：$E_\partial^{fr}=D_{alg}+L_\partial(R_++R_F+T_{neg}+E_{end})N_i$，同旧WPL leading、$1<\sigma\le4/3$。全trial替换精确望远镜接WES端差，旧ST4不另重复；原PC两received及CG一次仍全额，完整mean/two-I/原Js保。Ni用同ambient有界延拓插值，4/3直接原A−；WUC列法仍仅1<σ<7/6独立替代。所有旧五球逐字锁，未算whole新数/高门，未授finite/ν/背景/总验收。
+
 **当前须闭合：** 得到可用的same-operator whole强误差预算并付正确高门；实际physical有限列、全部输出交叉/pairing、真square逆及完整finite/mean/ν块仍待。unknown radialhead/source/exterior/amp与trueν仍独立，reference不代physical，Ti同空间Fourierχ和坐标像定义不代onto。下一positive新trial及whole物理行预算只能按全式改界，不重旧成功。
 
 ### 2b. 已付系数、坐标与原强界

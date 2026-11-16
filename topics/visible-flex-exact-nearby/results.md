@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WUE / 2026-11-16** — [全genuine试探的完整物理腰行](results/R133-supplement-complete-global-genuine-trial-physical-waist-error.md)，SHA256 e191f96acc39ab802adb93ace2d1e57691b017629ed762ddd39624d3bcb61ce1。主范围1<σ≤4/3，同old WPL leading/真实Xfr，完整误差=Dalg+L∂(R++RF+Tneg+Eend)Ni；精确trial替换把旧ST4望远镜入WES，不减upper。原PC两received、CG一次、fullmean/twoI、Ni同ambient插值和4/3原A−全保；WUB全负源强窗已付，WUC列法仍只弱窗独立替代。原五完整球逐字锁，新数学运行0；whole新数/可用高门/finite/ν/背景与总验收未授。
+
 - **WUB：完整dyadic Airy负源恢复原strong窗。** [完整证明](results/R133-supplement-complete-dyadic-Airy-source-blocks-and-original-strong-window.md)，Git blob5c8fd0d44b3ed47fedcc311dfa0cc4242afbd005 /30443B /SHA256 ef141ab072deb0154008db74f19dbb5183a5e8f8db5acae8a55d2fa1487e0619。exact Liouville/Jost方程q=t^−2[5/36+(4/9)s²Vext]、完整Volterra和有限Ck递推付五导；原S_n/β以纯input矩阵保，near exactODE与far两真phase给uniform角C4。全输出weightedSchur含所有low/mean，实际同parity J两负窗（非stable-trace逆、非旧J0替费）给rootcollar ordinaryL²dr与全部truejump block p5/3、strict IJ block p2。N6全部terminal和physicalmean单独整项HS为更快阶；只有正交inputbands求和，故完整Tneg:H−4/3_nat,97→原density+两mean闭，亦有0≤σ<5/3的此源窗。原PW cPW/CO/CR/C1不移，jump不乘length，root端独立，positive/root/WES/wholeleading/Ni全留。Phase正式§1–5、Tail§6–10通过；final仅数学delimiter及显写Wronskian−2i。全部新常数未数值求值，无scientific运行/旧重算，未授可用高cut、finite逆或core。
 
 - **全实genuine源/腰端检查点。** [逐字归档](notes/2026-11-16-completed-global-genuine-source-and-waist-checkpoint.md)保存1c56d4663e0b1a9e3fc9d72b4953672cffa656f5的open2a完整8805B与H活动链3608B，两段各有原SHA256。仅缩已成索引，为下一whole结论留页容量；所有原球/域/mean/旧失败/lost/恢复和未付义务不减，全部成功禁重。

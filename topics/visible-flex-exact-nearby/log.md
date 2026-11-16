@@ -266,3 +266,13 @@ root全文20433B/231ff8b1核所有graph/投影/低因子与两个finite方程，
 2026-11-16 05:13:29 UTC 完成链逐字归档并压缩活动索引。freshmain b8a354fdc86e81d89821fb0cf787353c471e92f9两README不变。源1c56d4663e0b1a9e3fc9d72b4953672cffa656f5的open2a8805B/H活动3608B各完整原字入notes/2026-11-16-completed-global-genuine-source-and-waist-checkpoint.md；两原段SHA及档全文hash已静态核，替换仅该两段。保全部原球/域/mean/失败/lost/恢复身份与open其余未付门；成功WAD/WUC及全部旧数学不重。为WUE整物理row/WUB真band源留10K/30K页空间，未授新数值或总完成。
 
 2026-11-16 05:14:23 UTC WUB独立结论推送。freshmain fa4a40ba100d8c53d9886db7850c5f19ee0c3126两README不变。root完成exact Jost Volterra递推、完整near/far band全输出weightedSchur、typed actual angularJ负窗及ordinarydr/全jump接线；Phase§1–5、Tail§6–10正式读draft59d09f0a/30746/c8d531a8通过。final 5c8fd0d44b3ed47fedcc311dfa0cc4242afbd005 /30443B/SHAef141ab072deb0154008db74f19dbb5183a5e8f8db5acae8a55d2fa1487e0619仅根规4的math delimiter规范和显写constantWronskian−2i。完整negative源block p5/3/strictp2恢复H−4/3，N6终端/physicalmean与3070列表/其他真实接口俱保；原PWcut及全receiver不移，0新球/旧math0。PC/root/WES及全WPL坐标同tuple另接，未计算尾门或finite矩阵。继续WUE whole物理row和positive相关根估计。
+
+## 2026-11-16 05:21:48 UTC — WUE 同旧leading的完整物理腰行独推
+
+README只读核提交8adc90dfe2c6943ab3ba3eaf67a52682302026a3，两blob不变。05:17:05 UTC再次实际尝试本地 `git pull --rebase origin main`，仍由工具报告无可用执行环境；失败不冒成功。随后在735d8bfa1370900f794f169dbbd4ca7a88c5332d逐blob检查两README均未变，下一本地尝试≤06:17:05。原最新CI真pull仍WAD04:20:32.298647，正在准备独立非数学规则同步，不能以API ref检查替代真pull。
+
+WUE final9b5b13f0178c9a292ae8ba11264051c1fe438c14 /32557B /e191f96acc39ab802adb93ace2d1e57691b017629ed762ddd39624d3bcb61ce1。Root通读初稿和全部最终WUB差异；PC§7–9原完整source/head/receiver、PC/CG/NIF actual完整目标/scope/gates、原五球字串逐字核。Phase正式核§2–3/6/9及最后范围差；Tail正式核§7–8及最后WUB差。final无非GitHub数学分隔符、无尾空白，SHA/bytes与blob全同。
+
+同一完整物理row等于 Dalg+L∂(R++RF+Tneg+Eend)Ni。原root误差e+−PFhG不漏；PC两whole received费不重复receiver，旧ST4在完整trial替换中精确望远镜入WES端差而不从upper相减。原leading/选中真实反射域Xfr、CG完整finite/twoI及两mean、ng一次、原Js保。WUB完整负源blocks给原H−4/3，WUC逐列仅作1<σ<7/6替代；主全式1<σ≤4/3，Ni中间窗由同ambient延拓插值且4/3直接原A−。五旧完整ball和域未变，不评新乘积，不重任何成功数学。
+
+这是完整替代解析budget，尚无新的可用数界或finite cutoff；旧PC正侧和CG粗费仍大，不能据upper判真算子大。继续同原Poisson稳定/head/outer对象的χ/ζ紧支试探及IC同ci纯系数完整新预算，同时审全局r_n/jump/J负窗实际输入闭包。全部physical finite/交叉/mean/ν/背景/wholecore和最终曲面门仍保。
