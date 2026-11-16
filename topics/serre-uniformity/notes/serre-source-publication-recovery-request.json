@@ -2,56 +2,40 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1104-R892-full-theta-distributions",
-  "commit_message": "serre: prove full theta recursion and original divided contraction criterion",
-  "rules_last_read_commit": "ae7e1f6246a48476713081e7b2affc7aa2c1c980",
+  "request_id": "20261116-1108-certified-seven-original-normal-inputs",
+  "commit_message": "serre: certify all seven original Galois normal inputs",
+  "rules_last_read_commit": "afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "ae349c3993a3335583309c4bbeebe4260d356659e028acceb5b60c9efecbcb4d",
+  "expected_previous_request_sha256": "f66583955cb7a40a7a2d1ade800f67880feb78ada60d0b0b2070ee98fc2a8f92",
   "files": [
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-full-theta-distributions.md",
-      "sha256": "ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e",
+      "path": "topics/serre-uniformity/results/R880-certified-original-seven-Galois-normal-inputs.md",
+      "sha256": "4965dda3bf48e32d63b57cd7011c98659be82d391c4d8eb8554435c1e1299526",
       "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/results/R892-original-theta-recursion-and-divided-split-contraction.md",
-      "sha256": "5c46551eb6de7350b651c14a2c8d6ee36098a41adb2d5b8de405b894d65250ed",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R880-six-Dstar-source-intake-request.json",
-      "sha256": "634060679eac27d699f02e346f2c7b801f2784c5bec0bd988695581c3b1c980c",
-      "expected_previous_sha256": "ca80ba378daf514b556d6d4cc1e722da6b8b075a35eb9eef4e56b7d376d2124a"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "bc040a6262902641dea64fd3984e69d50bb51d351e0d4bc26c58a3ee765e651a",
-      "expected_previous_sha256": "ba76d9733b41eda55a830d99def4c993075932cc3ef328c82393af832c1e720e"
+      "sha256": "3c7b34861df5210f9c8ca916f3b6db992ea625e080dc35e142a25b69b63be845",
+      "expected_previous_sha256": "21aabbf5e64fbe41c5e5a5a3d24d7a4e33d3e7c95d66bfbf9fbeb5d797578535"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "0561173b1d663e5253c020532445898bc7dda8da16730f42cace3150a99bc1d1",
-      "expected_previous_sha256": "0bf6637c51d84044a59fcdd0fd6e7669c16d2a284531521a34ffe60287f79684"
+      "sha256": "33adce5088abd0a852b4a12c192ed5c7dfa203a5c3c0730fbc125448a4d46abf",
+      "expected_previous_sha256": "0561173b1d663e5253c020532445898bc7dda8da16730f42cace3150a99bc1d1"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "28c5f7d0a82ae262ec1394e96f539219292e4bce7e8cbb92e6ad05cb63cf4499",
-      "expected_previous_sha256": "d3dfb05fc0e037693e29529952711fbc6778b9a21c49bdedf9b47ab7582eac68"
+      "sha256": "7e9f21711156f9649724f2cd2ab7b767cd5422b141082bf0f4b418b3e9e3bf1d",
+      "expected_previous_sha256": "28c5f7d0a82ae262ec1394e96f539219292e4bce7e8cbb92e6ad05cb63cf4499"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "a94925a55ef5d7b7bce1de6401466df6c3cf4a459378a6738247b1e285c4a782",
-      "expected_previous_sha256": "2f86d8d17d5714b13da1e0ec89cb9259f752c7b02f813f479a4fde1a42e6bc85"
+      "sha256": "daa75593cf4fe84a4ecc7d1820fb749a4d76bdaaf9318cf34ec6997e167af49d",
+      "expected_previous_sha256": "a5403f0608d08efbe37152da9f25c9ab85b380d050b8c3ea2a5c6eece27bed80"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R880-six-Dstar-source-intake.yml",
-      "request_path": "topics/serre-uniformity/notes/R880-six-Dstar-source-intake-request.json",
-      "request_sha256": "634060679eac27d699f02e346f2c7b801f2784c5bec0bd988695581c3b1c980c"
-    }
-  ]
+  "dispatch_workflows": []
 }

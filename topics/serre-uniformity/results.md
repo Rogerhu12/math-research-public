@@ -278,3 +278,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R892原first-p² theta递推与真正除p判据已证**：[完整证明](results/R892-original-theta-recursion-and-divided-split-contraction.md)。total degree<p²下真实群律、κ(SY^p−S^pY)标量Weil log给所有Θ_n的非交换两指标递推，Θ2p/Θ3p跨p修正明确。原γ两旗/θ_h/未分歧S_FG的K_h,n保全，真实π*饱和及原varpi^e/p≡+1给C_h/p整 iff低带全零，单位向量再须末带非零；未证明所需消失或原scalar非零/height。SHA256 5c46551eb6de7350b651c14a2c8d6ee36098a41adb2d5b8de405b894d65250ed。
+
+
+- **R880七原Galois正常输入实际认证**：[正式结果](results/R880-certified-original-seven-Galois-normal-inputs.md)。run43849775574/source4a459acc，37stage/4.386065837s/80源；真σ支次序(0,6,1,2,4,3,5)，六新A/B、完整1380×12乘回且全非零。保原free1186/82尺度和准确unit-solve定义，不重原branch0/F69/S5逆；小IO43853961723绑定60项manifestc7deae05及七输入24b236ef。实际六D*/五Lj、char0展开/height仍缺。SHA256 4965dda3bf48e32d63b57cd7011c98659be82d391c4d8eb8554435c1e1299526。
