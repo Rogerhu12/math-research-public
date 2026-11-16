@@ -2,39 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-positive-Z-shared-two-weight-interface",
-  "commit_message": "serre: prove original positive-Z shared two-weight RR interface",
-  "rules_last_read_commit": "b4ff63479aea312f4a8e3fc45e139781327002c9",
+  "request_id": "20261116-original-six-channel-Wronskians-and-torsion-sequences",
+  "commit_message": "serre: prove original six-channel Wronskians and torsion vanishing sequences",
+  "rules_last_read_commit": "9a620dd3514206ac2decea2a901b00ac1cc103bb",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "000f5fbd83f47329d1ead558a440a82129f386e96725ef9c37341bc36e3dd6b1",
+  "expected_previous_request_sha256": "34a77d3e41516b7a49a8a970eba90504175181c033596416c1f09e12da71d7c6",
   "files": [
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-shared-two-weight-interface.md",
-      "sha256": "8f2eaffad9fc527a659c1d5be3d8e7d587a4e67affcf9ed5015e6e12fe8d7414",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-six-channel-Wronskians.md",
+      "sha256": "3c8b542a59d4a66a16c2d0cc2343ba5aa2df2b215ddd5ba639816a2b3e45fbcb",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md",
-      "sha256": "9fcf3c2cb08688bfe40fdaed91358bed5097a0e0442276e30d30eb63bfaab855",
+      "path": "topics/serre-uniformity/results/R904-original-six-channel-Wronskians-and-torsion-vanishing-sequences.md",
+      "sha256": "8f78fe2578753a537559055f5b67407429413bfa2b8ac8d67e1e0c2b03e42f2e",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "3c36ded44200a4e03fed6f0f958664c041cdec2d3b68e47046288f963c1d9790",
-      "expected_previous_sha256": "8f2eaffad9fc527a659c1d5be3d8e7d587a4e67affcf9ed5015e6e12fe8d7414"
+      "sha256": "219af8ebc4ddacc32550e23c3f6225c25360b52b341dd50fe4bfe23090e87d87",
+      "expected_previous_sha256": "3c8b542a59d4a66a16c2d0cc2343ba5aa2df2b215ddd5ba639816a2b3e45fbcb"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "370b0b2469387c25402330aa78d8dcef27650df0ef0c4d0319ad3d110d62d237",
-      "expected_previous_sha256": "af4a13c3b6bc77dd06460ff1a59eb123a494959920439ab9096167ce9341dc1e"
+      "sha256": "f56303877752b0ca98ac57f3bb1e0c71aabf8430b1cd11ddbe6c95c7b3c88903",
+      "expected_previous_sha256": "370b0b2469387c25402330aa78d8dcef27650df0ef0c4d0319ad3d110d62d237"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "c84e9b67999efcea4349f0b5adae30f27a3ce119819400dedc629ed6be5c45ac",
-      "expected_previous_sha256": "eb55c5b2663bc8681f1b6a5b2fa9484392db9f65a11b5fe4003e710079a3cb82"
+      "sha256": "19c76db7a59e69399ce7a3dc5ab00cb6cb46e33a7a8a1c82937442193402559d",
+      "expected_previous_sha256": "4c47317a4bef33b66b0128db4f659f59b918b1950d083fe5f89276f7ae75ae9d"
     }
   ]
 }

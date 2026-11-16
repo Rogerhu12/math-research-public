@@ -160,6 +160,51 @@ def read_source(row, work, output):
                     if "source_new_Krylov_matrix" in node:
                         take_refs([node["source_new_Krylov_matrix"]])
                     auto_summary.append(node_ref["file"])
+        elif mode == "R896_complete_required":
+            final_name="p41-original-five-sum-Hom-low-weight-residual-RR-certificate.json"
+            assert fs[final_name]==row["certificate"]
+            fetch(metadata)
+            final=m.read(out/final_name)
+            assert final["complete"] is True and final["all_five_complete_low_weight_RR_spaces_certified"] is True
+            assert final["completed_directions"]==[1,2,3,4,5]
+            def take(ref, full=False):
+                assert ref.get("source_group") is None
+                pin=m.plain(ref)
+                assert fs[pin["file"]]==pin
+                if pin["file"] not in names:
+                    fetch([pin["file"]])
+                    names.add(pin["file"])
+                (auto_full if full else auto_summary).append(pin["file"])
+                return m.read(out/pin["file"])
+            def take_kernel(ref):
+                kernel=take(ref,True)
+                take(kernel["source_canonical_kernel"])
+                take(kernel["source_rank_profile"],True)
+                inverse=m.plain(kernel["source_selected_unit_inverse"])
+                assert fs[inverse["file"]]==inverse
+                for check in kernel["source_all_original_row_checks"]:
+                    take(check)
+                return kernel
+            take(final["source_audit"],True)
+            for j in range(1,6):
+                cert=take(final["complete_direction_certificates"][str(j)],True)
+                assert cert["j"]==j and cert["complete_original_low_weight_RR_and_marked_principal_certified"] is True
+                take(cert["source_marked_original_pair"])
+                residual=take(cert["source_complete_two_B_residual_certificate"],True)
+                take(residual["source_B1"])
+                take_kernel(residual["source_complete_relation_kernel"])
+                take(cert["complete_residual_normal_V3_space"])
+                padded=take(cert["complete_padding146_space"])
+                take_kernel(padded["source_complete_padding_kernel"])
+                take(cert["source_unscaled_exact_v"])
+                bounded=take(cert["source_complete_Dstd_certificate"],True)
+                take(bounded["source_exact_w"])
+                take_kernel(bounded["source_complete_relation_kernel"])
+                take(cert["complete_normal418_space"])
+                take(cert["marked_principal_Q"],True)
+            for node in range(7,27):
+                name=f"R896-node-{node:06d}-new-normal-V3-evaluation.json.gz"
+                take(fs[name])
         elif mode == "R800":
             names.add("R800-retained-producer-inputs.tar.gz")
             names.update(n for n in fs if "index" in n and fs[n]["bytes"] < 2000000)

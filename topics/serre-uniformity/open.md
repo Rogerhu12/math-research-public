@@ -136,3 +136,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **R903原正Z两权直接接口已证**：[完整证明](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)直接由R901正Z代表和原qχ给Φ=QZ/qχ，正乘O(3H−D−X−18P0)到I_Z(254P0)。同一962乘积像、两个544核得146/418，原18行给128/400，144是(τ,σ)两组128后的真补列；原P0帧c正幂、两图272整纤维和同七重datum保留。实际矩阵、R901终点、Q下降/P1值及高度仍待真实来源，不把纸证当运行。
+
+
+**R904六通道Wronskian已证**：[完整证明](results/R904-original-six-channel-Wronskians-and-torsion-vanishing-sequences.md)。原Q^r六列(r≥5)在K^p独立，真实ordinary Wr非零；36六挠点共同权w_r≤p，r5整除子=pE[6]。r≥6原最高独立六系数行给准确消失序列及w_r≡5 mod6，原两维weight0不丢。尚无跨互补r的足够约束，原same-h primitive/Legendre可见第五jet和统一高度仍OPEN；不得以Wr非零替指定系数非零。

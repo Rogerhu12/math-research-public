@@ -1,18 +1,18 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-original-low-weight-five-complete-and-global-polar-ended",
+  "request_id": "20261116-original-low-weight-fixed-choices-and-polar693-current",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "b4ff63479aea312f4a8e3fc45e139781327002c9",
+  "rules_last_read_commit": "9a620dd3514206ac2decea2a901b00ac1cc103bb",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
   "helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
-  "reader_sha256": "a06db07f4c658fbd88dbe9c6d5353c8e5a5b6b0306645c65d14de3fa8199584a",
+  "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R896-five-complete",
+      "label": "R896-complete-required",
       "source": {
         "result": "R896-original-five-sum-Hom-low-weight-residual-RR",
         "run_id": "43872960726",
@@ -25,51 +25,15 @@
         "manifest_sha256": "2875d857feb3ae5c786b35946782b6a4cf74d429679c5d54d3dc1c3215755a93",
         "expected_conclusion": "success"
       },
-      "mode": "named_original_members",
-      "names": [
-        "R896-j1-complete-low-weight-RR-certificate.json.gz",
-        "R896-j2-complete-low-weight-RR-certificate.json.gz",
-        "R896-j3-complete-low-weight-RR-certificate.json.gz",
-        "R896-j4-complete-low-weight-RR-certificate.json.gz",
-        "R896-j5-complete-low-weight-RR-certificate.json.gz"
-      ],
-      "known_file_pins": [
-        {
-          "bytes": 6671,
-          "file": "R896-j1-complete-low-weight-RR-certificate.json.gz",
-          "sha256": "86c051f4d7a1af96e90f4dbe5a2ebbbc9dc2be8617822587c728692fbb5ac2f2"
-        },
-        {
-          "bytes": 6647,
-          "file": "R896-j2-complete-low-weight-RR-certificate.json.gz",
-          "sha256": "41d62ab6086e2d12fb6af7bce86f9aaad81a925128979c9ddda31ece476b7caf"
-        },
-        {
-          "bytes": 6632,
-          "file": "R896-j3-complete-low-weight-RR-certificate.json.gz",
-          "sha256": "e08cca3ab6c30c647ffdc69bb8e916c72b94b97e44001125c55ff6bb2d3ce30f"
-        },
-        {
-          "bytes": 6664,
-          "file": "R896-j4-complete-low-weight-RR-certificate.json.gz",
-          "sha256": "96f6b100ede5880bcefdbeec080269fc1e01ff314693d3efeb5c509d08271393"
-        },
-        {
-          "bytes": 6665,
-          "file": "R896-j5-complete-low-weight-RR-certificate.json.gz",
-          "sha256": "7abcdd1593f95e0375b6814560f382e8627d839947d7c616889f3199b3f08345"
-        }
-      ],
-      "print_json_files": [
-        "R896-j1-complete-low-weight-RR-certificate.json.gz",
-        "R896-j2-complete-low-weight-RR-certificate.json.gz",
-        "R896-j3-complete-low-weight-RR-certificate.json.gz",
-        "R896-j4-complete-low-weight-RR-certificate.json.gz",
-        "R896-j5-complete-low-weight-RR-certificate.json.gz"
-      ]
+      "mode": "R896_complete_required",
+      "certificate": {
+        "bytes": 15429,
+        "file": "p41-original-five-sum-Hom-low-weight-residual-RR-certificate.json",
+        "sha256": "66218771f4b0f8d7822282839ca94bcb34049fc3d867248ae4eddf6348fdb24c"
+      }
     },
     {
-      "label": "R824-global-polar-ended",
+      "label": "R824-polar693-current",
       "source": {
         "result": "R824-original-global-polar-generators",
         "run_id": "43828509061",
@@ -79,9 +43,25 @@
         "artifact_name": "serre-global-R824-original-global-polar-generators-43828509061-1",
         "archive_bytes": 1406291457,
         "archive_sha256": "bc0ea420a7b66e40a50559aedfd2e57adcfde3d86d9de8dd921ed1c975d5fd0d",
-        "expected_conclusion": "failure"
+        "expected_conclusion": "failure",
+        "manifest_sha256": "9960bfffa9da5bb91181e0be580b4355f1994afeb3fbf84134995ee38ba9a72d"
       },
-      "mode": "ended"
+      "mode": "named_original_members",
+      "names": [
+        "R824-power5-free-1187-current.json.gz",
+        "R824-power5-free-1187-history-00000693.json.gz"
+      ],
+      "known_file_pins": [
+        {
+          "file": "R824-power5-free-1187-current.json.gz",
+          "bytes": 5690,
+          "sha256": "761b228c658be34bc42471275ce1f7c88ef4d6eeba835d6b3fda84c5dd805945"
+        }
+      ],
+      "print_json_files": [
+        "R824-power5-free-1187-current.json.gz",
+        "R824-power5-free-1187-history-00000693.json.gz"
+      ]
     }
   ]
 }
