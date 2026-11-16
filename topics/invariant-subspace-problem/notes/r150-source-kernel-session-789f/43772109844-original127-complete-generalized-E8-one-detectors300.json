@@ -1,0 +1,122 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-complete-generalized-E8-one-detectors300",
+  "executionSourceCommit": "31e7e9dfeecaf851f268fc5b6e644045a47e7d2a",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-complete-generalized-critical-detectors-789f.py",
+  "scriptSHA256": "e671f2b18e4b5840ddc8a60c9cffe9f127a52d1e0707fefa77fcda148153b271",
+  "argvTemplate": [
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--profile-out",
+    "{work}/original127-critical-primary-profiles",
+    "--sources-root",
+    "{scripts}",
+    "--factor",
+    "E8-1",
+    "--out",
+    "{work}/original127-generalized-critical-detectors",
+    "--seconds",
+    "300",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 1,
+  "wallSeconds": 0.16404605900061142,
+  "fullTemporaryReceiptBytes": 1959,
+  "fullTemporaryReceiptSHA256": "092503c957c1a40eec6e0716806f27c88d0ef8a49de7ba59c3d85022c036b9c0",
+  "result": {
+    "binding": "fe257edf7bb69283832551e9a3f578843c168e12ec2ef4a5261117329f789095",
+    "elapsedSeconds": 0.07614294099948893,
+    "format": "r150-original127-complete-generalized-critical-detectors-v1",
+    "status": "failed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allLargeArraysTemporaryOnly": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "characteristicZeroConclusionInferred": false,
+      "coefficientBocksteinComputed": false,
+      "completedTemporaryPhases": {},
+      "cyclicBlockCount": 2,
+      "error": {
+        "message": "actual monic graded leading component",
+        "type": "ValueError"
+      },
+      "extensionDegree": 2,
+      "factorCoefficients": [
+        43,
+        1,
+        1
+      ],
+      "factorLabel": "E8-1",
+      "finiteFieldScopeOnly": true,
+      "gradedBasisRecomputed": false,
+      "identity": {
+        "algorithm": "degree-zero-GB-unit-quotient-complete-local-jet-kernel-and-whole-primary-restriction-v1",
+        "helperSHA256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3",
+        "originalGBBinding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+        "originalGBBytes": 43787388,
+        "originalGBSHA256": "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d",
+        "phasesIndependentlyKeyedByAllFiveFactorLabels": true,
+        "prime": 127,
+        "profileBinding": "7fd6a5d4a535e55f7fb06909bcec10634e7c8e0706f8fa1bd6dfd115a6da51c2",
+        "profileManifestSHA256": "1a5901c7b7621dbfcc4b73bf3ee032872948e0a988291b6c7a3ac1d8017cd654",
+        "wholeBinding": "05c13d9a57fee12f0751d40feccbfb601686b3d02f497d0e8a99092c44db4211",
+        "wholeStateSHA256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60",
+        "wrapperSHA256": "e671f2b18e4b5840ddc8a60c9cffe9f127a52d1e0707fefa77fcda148153b271"
+      },
+      "jetOrder": 3,
+      "memoryMiB": 4096,
+      "normalFormsRecomputed": false,
+      "original4367TransportComplete": false,
+      "primaryDimension": 10,
+      "prime": 127,
+      "pythonFlintVersion": "0.9.0",
+      "seconds": 300.0,
+      "temporaryManifest": {
+        "bytes": 171,
+        "file": "generalized-detectors-manifest.json",
+        "sha256": "ccb4d78e84a7133d1362d37f39617683e19286e13743735ba9d6a987d3961ef4",
+        "temporaryOnly": true
+      },
+      "wholeTorsionRecomputed": false
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 01:51:59 UTC",
+      "beforeReadCommit": "a9ad16ee65f3aff9dff1a287bc4fe18667168d42",
+      "originMainAfterPull": "31e7e9dfeecaf851f268fc5b6e644045a47e7d2a",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 01:52:00 UTC",
+      "beforeReadCommit": "31e7e9dfeecaf851f268fc5b6e644045a47e7d2a",
+      "originMainAfterPull": "31e7e9dfeecaf851f268fc5b6e644045a47e7d2a",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 38,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 13035,
+    "logicalJsonSHA256": "7989012bb47353970112ca099a2580d4edeecb361c3df00082e218c40f6d4d6c",
+    "itemCount": 38
+  },
+  "lastRulesReadCommit": "31e7e9dfeecaf851f268fc5b6e644045a47e7d2a",
+  "summaryExcludesRecomputableArraysOnly": false
+}
