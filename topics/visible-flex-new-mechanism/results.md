@@ -261,3 +261,6 @@
 
 
 - **已付MaxTime方向首实际：三次真拒绝与新增细网软行。** [完整记录](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)（16823B/SHA4280b80ca63bd55d4476a0082ae43321b4ea5139ce6aef94c25929da29cbbe31），run43798128882/job133071559203/sourceb8577eaa成功。三个未试尺度原两网14门/163盒全真但η均增，学fine soft159001后停止，同52不接受；α1/1/2原height步范数超B，不冒模型合格。新6value/115.395022724s、0solver/J/JVP，6新check全过、旧12/11/9只读。池4448/4544v13/13，累计新锥773.340134117秒/60值、原1129.469954378秒/122值；剩426.659865883秒/36值/唯一cone32。全payload只原stdout，主门未付。
+
+
+- **R441：非零c的同锚Wronskian补偿与第二十二个self方向。** [证明](results/R441-nonzero-order-Wronskian-compensation-and-a-new-local-self-current.md)（11906B/SHA140c6de3b3b38c572143cfa135c23bd130148c8b925311f25c20da5a1015ab28）保P常尾、R−S仿射尾和三右常数，V whole尾准确为Wronskian边界0；扣BRτ1/3同清primitive与Af ordered，具体原U*在全部Af根给ur⁴且E/J⁺/C零。formal22、固定镜actual仍16、整镜盲核增第六列r⁴(u−h*r)，全部真实根判据相应五列→六列；r0仍全盲。保actual全基准和同一V的joint C前提，不冒全根已付。无新执行。

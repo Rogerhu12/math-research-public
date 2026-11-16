@@ -34,7 +34,7 @@ R432原Z18内cτ0恰5维，32非盲标签不是rank；三个真实suffix共享�
 
 [R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)七式恰D_F(x)=c_F(x;(1,x,x²))，共同144像=kerD；抛物线只是代数代入，非实际点包。给七完整剩余代表。全部实际根/幅/宽/suffix的signed补偿iff为[D_F]=0于Pol≤6/D(kerEval)。原D=∫[kQβ_n/(4h)+kQ²τ_n/(16h³)]ds代n=(1,x,x²)，真history/周期端项全保；不授D自动零/全R像/actual成本基准。形式D非零不等于有限点不可解。
 
-R435完整self保真左常数，K0=−8r⁵/45，r0首K5=1024p⁵；R436/R438 P/S常尾给18formal、11左+4右actual15。[R440](results/R440-complete-zero-order-compatible-self-module-and-sixteen-actual-fluxes.md)列全原c0标签universal C核：8 P/S+3真实Ξ，J尾准确相消；加K恰21formal。保完整K4/常数，新L4左0/rightκx4，原同库11左+5右actual16。全镜族像(P≤10,TP+Q≤4)恰16，核心清后全部其余根iff落同五条明确blind成本像；r0点五列全盲，仅本模块限制。J⁺可实际追加16行/全基准；保其它全C仍需joint前提。H*有限核λ1，完整cell含三矩闭circle。全真实目标外商/全R/actual全根不冒付。
+R435完整self保真左常数，K0=−8r⁵/45，r0首K5=1024p⁵；R440闭c0 universal C核，8 P/S+3Ξ、加K21formal，同镜11左+5右actual16。完整K4/原J尾/基准均保。[R441](results/R441-nonzero-order-Wronskian-compensation-and-a-new-local-self-current.md)用J0/2与H1/6的P/(R−S)Wronskian杀whole尾；再扣BRτ1/3同时杀primitive与全部Af ordered行。具体U*准确给ur⁴、E/J⁺/C全零；formal22、同镜仍16，新增第六blind r⁴(u−h*r)。先同一V共同付C，16核心后所有其它根iff落六条完整blind成本评价像；r0全盲，仅本模块限制。J⁺实际追加及全基准仍需joint前提，signed余像不冒actual全根。R443拟直接消费R434已付53关系的新完整self像，0旧rank/0旧检查。
 
 [R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)完整FY2/原尾给P2θ(k)=κI2(Yff,k)/24且θ独立，杀整个kerLf；13行rank≤12、底≤9，仅上界。两个period特解必须I2(Yff,kd)=I2(Yff,ke)=0，核补偿不能调。incoming X准确加I2(Yff,XΔ)、减I2(Yff,Xfg)，不是自由参数；余12行还保同一相位光滑k/种子/降秩整除及全部平台代价。
 
@@ -54,4 +54,4 @@ m27保存真实未试p159 SHA17605ea24e9cefa4a73410913b3287c7b0f4b5303550a38f2da
 
 ## 5. 当前工作
 
-R439后追真实D与全实际求值商、同规范兼容；R440已闭c0-compatible self模块，继续五列真实目标余像及更大原响应。数值已付方向验收子题完成即接剩余合法末槽，具体source/合同按新note。原问题、固定g和完成门不放宽。root持续发表结论/更新H与open，不以本交接或阶段结果收尾。
+R439后追真实D与全实际求值商、同规范兼容；R441已给22formal/16actual/6blind，继续原53关系完整self像与真实余目标。数值已付方向验收子题完成即接剩余合法末槽，具体source/合同按新note。原问题、固定g和完成门不放宽。root持续发表结论/更新H与open，不以本交接或阶段结果收尾。

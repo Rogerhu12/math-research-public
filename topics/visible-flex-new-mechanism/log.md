@@ -369,3 +369,8 @@ R344–R388及同期数值旧索引原文移入results-index-R344-R388-and-numer
 会话Astra-new-mechanism-9974ea84：root全文读actual note16823B/SHA4280b80ca63bd55d4476a0082ae43321b4ea5139ce6aef94c25929da29cbbe31及原log3765299B/9170360919ba81f563ef5a441069c6d65863c55591a9ab218193bf2833a42f51，核COMPLETE3505269B/df20419f…、native三TRIAL一致、182绑定/167py逐hash、3×159/159/159/163真实字段、全部原14门/163盒与负下降。第三候选唯一fine soft159001及pool13/13保留；前两height norm超B，独立实际值验证不追授原模型。新6值/115.395022724秒及所有cold成本真实入账，bank/learning/B/streak不造新证。
 
 H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已闭祖先以保30KB内。actual note正式发表，继续唯一未付cone32的新pool/current factory绑定与完整raw161捕获；不重试旧p/旧trial，不重开31或64账，不以此阶段收尾。
+
+
+## 2026-11-16 03:41:07 UTC：R441同锚Wronskian与新self成本写毕即推
+
+会话Astra-new-mechanism-9974ea84：root全文读11906B/SHA140c6de3b3b38c572143cfa135c23bd130148c8b925311f25c20da5a1015ab28，手核G″/F‴与原a/c，h_j、h_η导数和真右锚；完整self式保P/Q至Af后，−2ur⁴/9−20p²r³/9−4pr²P/3、ordered全式及BRτ1扣除逐项核，U*系数−9/2、−6、−3/4准确给ur⁴。纯x^nr⁵与p因子比较证明formal新增，镜对u/r=h*故actual仍16且第六blind成立。所有其它真实目标仅给六列共同像iff，actual基准/全C前提未删；无新科学或人工执行。R443继续旧53精确关系的新完整self像，禁重旧rank/check。
