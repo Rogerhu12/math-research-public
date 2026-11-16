@@ -31,3 +31,5 @@
 - [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：原R商D=X0(867)、h(Q)=H0(q)³∈S6。A,B∈M_k、C=(DQ A)B−A DQ B，完整C³=n³hA²(A+vB)²B²与原germ严格认nΞ0；k2用120维空间/低前缀409/最终0..1836项。任意非零低核同一比值，允许共同cusp零；成功degree≤204、真degree≤119保证k2有解。原Cv三角germ递推保全部n/3尺度；n1尚未运行成功。
 
 - [R867附录A](results/R867-original-single-hom-and-integral-hecke-three-basis.md#附录-a加入原-t_13-后的整单位与共同-3-清分母)：完整原13相位付 r=2a7²+7a7−8a13−28、r³−3r+1=0；原整Hecke R及3−R²在原Hom格真互逆。两条δζ式使同一nΞ0一旦认证即3nΞ_i全部真整，改进旧57；不认整个J上R可逆，不认n1。
+
+- [R871](results/R871-original-sigma-thirteen-unit-and-low-hurwitz-readers.md)：真实目标单位V_S^-13保原w13/39carry，Φ/S13全whole且保P134/十九角。指定整行ΛS的全部p高尾给同P/R/S三位，实际Hurwitz指标降为1,p+2,2p+3；完整J0与绝对γ常数保留。模p行差仅原39低带，整高尾不能删；k>13 quartic首行仍零，未判实际后两页。
