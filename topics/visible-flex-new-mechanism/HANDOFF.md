@@ -26,7 +26,7 @@ R411/412/431从起点同q4/F★/D,E/19门及全部共同外Af根，有限N有号
 
 R434原144：Q秩59/核85、三尾current像32/核53及7ann已付，所有suffix须同成本。R446二/四次homotopy保双端、原u4消，联合核Af局部≤3；R443无分母是另一个已付实际。R439 D=c(x;(1,x,x²))给七形式缺口，真实全根补偿仍取其Eval商，不外推全R或actual。
 
-R442保原M0/周期端项，D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]。D0 iff三次矩型被n0n2−n1²整除；当前actual路径值/原型基准未付。
+[R453](results/R453-local-geometric-action-of-the-seven-ordered-current-remainders.md)保M0/两次真实端项，D=½Tr Fself+4∫kpRloc、p=Q/(8h)>0；wholeQ0只杀trace，余五项完整Rloc仍在。一次s分部给纯h,k,ω/一阶速度六次action和D5/D6全式，已消history不授值零/符号。R442一般三次矩型/FP条件保原范围。
 
 R443唯一run43801705436的53完整self全五次local/无分母高jet，fresh53+adapter2过；self38/核15、K11合49，旧11 current MEMBER，非完整成本相等。249原记录/来源已发，0旧rank或实际根。R448固定r*≠0/s≠0镜对像Pol10图+Pol7恰19，给原K11+L8、真实11左8右及49核30的Π0；全C先清后其余根须在该同一真实评价像。R452正母r*=0简单镜对像Pol5图+Pol2恰9/核40，原K0…4全盲但成本非零。两者皆不把旧22模块的六blind当完整判据。
 
@@ -36,7 +36,7 @@ R437最高P2θ=κell_f/24杀全kerLf；13rank≤12/底≤9仅上界。R442有限
 
 R450完整U的self/2+2位置≤11；同最终V/F/G的12真中心range经Vandermonde给紧逆≤11，ell六权使e≤17，原12仅余≤6。新初选外8四次幅g翻号宏copy以18差分清全e，覆盖完整actual基准但以最终真range为前提。全角F_rat平移系数与每宏R/T三矩保留，新C²余项进入b_new，由同20/有限N方程付；改母/成本不能借旧range收据。
 
-R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af像或全R分类。原Θ71(kerΠ71)外部来源仍可能必要。当前R453追真实D_path/全C，R454追全R响应，R455唯一镜对母已付；继续同成本全根、两period真正入像、d/余9/其它s段actual联合。高阶收敛、嵌入/reach与同g有限族均未付。
+R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af像或全R分类。原Θ71(kerΠ71)外部来源仍可能必要。R453已付局部D action，当前追D5/6与全C，R454追全R响应，R455唯一镜对母已付；继续同成本全根、两period真正入像、d/余9/其它s段actual联合。高阶收敛、嵌入/reach与同g有限族均未付。
 
 ## 4. 数值费用与最新实际末态
 

@@ -324,3 +324,6 @@
 
 
 - **R455：四完整自然矩与唯一Af镜对在同一二十目标母库实现。** [完整有限构造与原20目标接口](results/R455-four-natural-moments-with-one-common-degenerate-pair-and-twenty-targets.md)（19426B/SHA400acc8713cec91649bf329f4430e7c38dcf536e39df54340933586cfe17e3c6）。周期ζ保持Af<−1/准确二次接缝，原半capM5零与四个宏cell的完整局部矩增量给N归一四式和真实可逆矩阵；有限N根q=0，J正使D−E5>0。四normal避J，restricted F★/原20 principal/完整正锥给同一点(V19,dP)=(0,η)并保唯一Af镜对及r*>0；允许多个有限简单p零，不偷用全core单调性。R451余外根义务在此新母消失，跨角色C/actual/range继续，0新执行。
+
+
+- **R453：actual七项current余量完整降为局部几何action。** [完整history消去与D5/D6](results/R453-local-geometric-action-of-the-seven-ordered-current-remainders.md)（15875B/SHA59befbbb439c8b401e35f998f6bc4073036bc02d3540e8074e1fb026f842d556）。两world向量配对导数给Cpath的真实端项；原尾与canonical self主项trace相差五项Rloc。wholeQ0后D=4∫kpRloc，一阶化给六次位置多项式局部action，不预授零/符号；p=Q/(8h)>0、M0迫k正负。保完整R295非紧尾/C²余量、第二次周期边项与同一actual路径，0新执行。

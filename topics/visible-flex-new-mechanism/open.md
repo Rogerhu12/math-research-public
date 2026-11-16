@@ -202,4 +202,4 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 [R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)将R434七条关系合为D_F(x)=c_F(x;(1,x,x²))，原144共同像=kerD，并列七个完整代表含p-only。这里抛物线只作代数代入；真实各根仍用原μ/suffix、wi/ξi/u,p,r和4ai³因子。整个实际C目标可由该模块同一signed成本消去 iff [D_F]=0于Pol≤6/D(kerEval)；formal D非零不等实际无解，尚未计算该真商维数。
 
-R442现在保两种原边项后消β：D=C_path(1,x,x²)，C_path(n)=−4∫a_n p_n[(t_n/h)ss+t_n/h−kq_n/h]，只用第二累计history。D恒0 iff该真实三次矩型属于(n0n2−n1²)·Pol1；七系数与十个三次矩逐项映射已列全。未证当前actual E/O使D0、恒号或可调，也未付实际Eval商。原允许w不改Af点门；P2真实目标的FP条件仍独立，尽管伴随通量在Af上是−Θ4。下一同一实际路径的真D/余商与全self/period/规范，保所有prototype/J基准。
+[R453](results/R453-local-geometric-action-of-the-seven-ordered-current-remainders.md)从原world向量U_s=h²(T×v)、v_s=ρN、(U·v)_s=pρ和M0端项，准确得D=½Tr Fself+4∫kpRloc。R295完整wholeQ主项及全部C²/左尾给Q0→trace0；剩五项Rloc不因Q0自动消失。一次保周期端项s分部给仅h,k,ω与一阶速度的完整六次action，D6=∫h[−k(1+k²)+2kA²+A k_s]/256，D5另保d/平方速度全式；A=h_s/h。p>0且M0只迫k两号，不授余量正性或0。新真正入口是同一路径的这些局部积分与真实Eval商、全self/period/同13门，不再求未知β或重锚；R442的一般三次矩型与FP真range范围保留。
