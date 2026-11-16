@@ -18,7 +18,7 @@
 |R787半dual541后|43869450077 / 133306600874|393efa24，coreffe5dcff/wrapper1552e403；542正残差保留|
 |R815准确Γ586后|43908105148 / 133442347214|84a31a9b；core80516ff9/wrapperab725da0，原Γ586/17520bit，g696已成不重|
 |R901固定126树|43893483097 / 133390762003|dbfb172d；core2cacb66f/wrapperc2aad47b，实际结果待读|
-|R923两端目标函数|43915625047 / 133469002048 已success|655stage/两端实测d0、267项；v25读后继所需源metadata|
+|R923两端目标函数|43915625047 / 133469002048 已success|655stage/两端实测d0、267项；v25已核真manifest1d619081/666件|
 
 R824旧43877576209实际runner shutdown143，无新artifact；R787旧43897255536 failure且无数学artifact，内部原因未臆测。两者原693/670请求不变续算，不能填新进度。R815 requesta469e685/原art14246345143/manifest42e141cb/currentd361a554，v24仅元数据，不代完整Γ；全部53原输入原样。完整tail/尺度/Trace/旧缺receipt严格分支沿前态。
 

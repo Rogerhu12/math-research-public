@@ -2,9 +2,9 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R928-certified-target-differential-R923-required-source-IO",
+  "request_id": "20261116-R928-certified-target-differential-R923-required-source-IO-source-IO-already-complete",
   "commit_message": "serre: certify whole target differential transport and read endpoint source metadata",
-  "rules_last_read_commit": "2ee498676684fa3eac29b4cdbf8c68c8f39bcfd2",
+  "rules_last_read_commit": "cc190facb9cc01480faf26598cc654e3e730cc8c",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -18,7 +18,7 @@
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "d1c8089d34280a1c9e15aa3f16bb11737c0cdfcafe131161a65b05a9fdcc5ffe",
+      "sha256": "620c8bc67f09b71a0ba9868398e7c1ad6cb5918a0335a4ce67c1dccd4a539696",
       "expected_previous_sha256": "4505c1172015a543d0a693a04877bef8f84a8241f8f7f5898592e004926641de"
     },
     {
@@ -28,20 +28,8 @@
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "b71ba0de8e809b8073e561e174429d0d88ad2a52c8c3ec6e6c205ab35af8dec6",
+      "sha256": "16a09cc3c3b5cdccc609cb352311f2ed144df09a0f82bcb05af67d31a14c72b0",
       "expected_previous_sha256": "06a27cd38ea0986212e56ae85fcdc89c6ad631d6ad3ed72d2e68447041f592aa"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
-      "sha256": "97018e84fcba98f27cf1cbdacf5c480a540bf6300f6ddd3296482e79f924cd2f",
-      "expected_previous_sha256": "5215ca591381a6662fe3f32034f3f35354b3bba470a87c42a75d1c66431f2401"
-    }
-  ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-source-artifact-intake.yml",
-      "request_path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
-      "request_sha256": "97018e84fcba98f27cf1cbdacf5c480a540bf6300f6ddd3296482e79f924cd2f"
     }
   ]
 }
