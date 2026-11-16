@@ -279,3 +279,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R484 — 实际214完整浅逆采样与原BVP磁盘启动停止
 
 **实际214：完整浅逆采样已返；原BVP启动磁盘门未满足，非试步拒绝。** [完整记录](results/R484-actual214-complete-shallow-sampling-and-startup-storage-limit.md)28274B/d960df3b，run43815427382/source29df28d3、compute133126277648/report133188443098均failure、两终志各唯一读取。全112far/nominal、13850unique/16128field/65102attempts/15123coarse完整，unpaid为空但32bit工作未达；完整C闭域/六primitive、cut二jet及当前准确十点来源均已读，factory1810/10394/15与coast中心反证独立。原BVP free11840286720<34359738368即停，child/native/453/450/fullDN/末audit未起；20文件95962633410B、far95028212980B/1604049行仅原完整hash/行数范围，不冒逐值审计。8必要scope已返，独立rules96257B/7563fae9超单90K→70正文未返；cleanup明确skip/raw仅至runner销毁。首闭面与15后继role全未起，无接受450父或误差下降序列；冻结214不追改，R498/R499及新点/新入口另有责任。当前H/open§2压缩前全文保368e6a6f历史，open§4–6逐字保。
+
+## R512 — 完整39必要表的真实producer角色接线
+
+**已证明（固定source与必要语义）；尚无新科学运行。** [R512](results/R512-complete39-actual-producer-role-context-binding.md)完整指出213 formatter的五类表名及RMS索引不匹配producer，相关lookup必跳过，其他操作不由此推未发生。新formatter20883/f79328ed只纠正这些符号及当前schema，原全部canonical相等/同trial/观察坐标/相邻行序/错误和原值保持；完整逐操作语义证明已付，不复算旧115134B正文或承诺90K必fit。原科学/全部选择器/原预算/单90K超70与quiet清理不变；223/R513实际来源由root接线，新运行不冒旧213数据或native/fullDN接受。
