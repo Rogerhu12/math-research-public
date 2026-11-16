@@ -20,6 +20,8 @@ R465/466/471/474只付各自明确实际有限输入/原fallback的局部语义�
 
 [R496](results/R496-current-C-three-level-native-zero-elision-source-registration.md)/[接口](notes/2026-11-16-current-C-three-level-zero-eliding-native-interface.md)49独立source views以正式216为基线，实际将R494/R474接三层captured205b runtime，真实新/祖先noJ receipt分列，九计数/未返地址保；sampler/三worker/client/config/driver、union CP及完整几何材料消费者真接。samefar按实际legacy SHA选匹配hook，修源码断口不归因未运行之失败、原FD不跳过。普通plan77274/e1bef含166literal/445应用，旧33先实际生成；49展开源不入Git。未执行/无提速或接受承诺。218须完成R498完整临时账表示及真实消费者、R499单90K必要读回、公开workflow_dispatch入口；原全部科学、唯一18900+2700钟和32GiB门不减。
 
+[R499](results/R499-complete-rule-resource-semantic-tables-and-single-readback.md)/[接口](notes/2026-11-16-complete-rule-resource-readback-interface.md)完整新reader17117/b42e80eb已成：先按原6000/600b选择出全部必要规则/资源，再用明确列名、原恒true字段和README原词对形成可读语义表；逐分支显式逆恢复原selected对象与原canonical，未知/不合格行整行原样保，错误/遗漏/完整性不删。UTF-8直写只缩JSON非ASCII转义，不改数值/负零/错误全文；原run/source/owner/quiet、单90000B超70、完整marker与清理条件保持。新source/祖先身份明确，表格可能仍超限，不恢复212已失94138正文。冻结reader仍绑定原f779 owner，218须新真实owner来源view并把composition必要读回拆独立always步骤；这是实际接线，不加科学门。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[已刊R494时open](https://github.com/Rogerhu12/math-research-public/blob/f863b71c0fd82b4b6b5a131ce2d99b14dea7bc95/topics/visible-flex-larger-amplitude/open.md)，包括其全部更早链接、词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全部G/H/span、全QR/clip/Cauchy及每alpha冻结原Armijo/S球保，有限拒绝不证无解/秩亏。旧201末响应缺失不能由202补。

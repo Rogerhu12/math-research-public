@@ -212,3 +212,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 
 必要新统计只在原quiet后完整读流核每次实际来源、保九计数/fallback/最后未完地址，缺文件不补零；正常call/统计不冒J或接受。原全部H/J/FD/fullDN/RMS/BC/final fresh audit、18900+2700唯一钟、32GiB free门与原112 far账后继消费保持。R498完整临时表示/R499必要读回属于218待接的真实资源后继；本件不预填run/性能/闭面接受，也不另加科学前门。
 
+
+
+## R499 — 完整原规则资源选择的语义表与严格逆
+
+**完整源码与条件证明已成；无新读回或科学运行。** [R499](results/R499-complete-rule-resource-semantic-tables-and-single-readback.md)10761/aba63ec3、[接口](notes/2026-11-16-complete-rule-resource-readback-interface.md)8645/80eb5f49、reader17117/b42e80eb三件分列真实身份。原6000/600b reader完整选择先运行，原文件遍历、quiet/owner/run/source、R.document/small/log_view与全部错误/omission保持；只对严格形状的身份、JSON/text/resource行和两个确切规则schema的README原词对采用固定有名列，其他行整行原样保。逐分支证明显式expand恢复原selected对象，原canonical逐字恢复；UTF-8输出保原JSON值及孤立surrogate合法转义，不删错误全文、数值或负零，不声称恢复原selector本已未选的内容。原单90000B/超70在BEGIN前、原complete错误body后2、marker完整写出后xb/fsync与全部cleanup scope保持；新body/schema/源码/祖先实际身份明确，possible overhead不承诺任何长度或fit。冻结reader仍真绑f779 owner，218另接真实新owner与独立composition always步骤，未执行/无原门接受提升；实际212失去的94138B正文不能补回。
