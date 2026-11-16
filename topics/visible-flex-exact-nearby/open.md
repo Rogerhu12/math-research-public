@@ -174,7 +174,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 全部旧删除/restore/原scope/source/输入/失败，含四R64/R66/R91/R95、五R93/R94/D5及三D5 endpoint，逐字保576de7aa3736a2ee7b0b88377c15f9fbb1830973同open/H及各原清单；所有历史可精确恢复，归档不授重算。前3step02白名单f8987588和2Newton白名单1fcc7238继续。
 旧2Newton/jet/七报告1589068B普通删，完整恢复保ebf4bade858deb2bcf03f638291a167c5e5b206b同H/open和原名单。[九报告恢复表](notes/2026-11-15-nine-additional-old-floating-report-deletion-whitelist.json)68f83dd4先推1b09dba7：9件504341B已freshguard普通删，restore4c5287d0f59a6569f5e10fbbe46070b414f5b219同path。全部source/native/候选/失败/proof/activepins保，旧成功禁重。[两旧derived interval数组恢复表](notes/2026-11-15-two-old-materialized-interval-array-deletion-whitelist.json)da74b983先推bce4d622，773501B已freshguard普通删，restore439bee991bb3f3fc7e3ecbf1b01b363eba29591f同path。两原membership/root certificate和原checkpoint身份全保。
 
-每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机11-15 23:50:00定时CLI仍无executor，下一定时真CLI≤11-16 00:50；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
+每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机11-16 01:40:11定时CLI仍无executor，下次≤02:40:11；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
 
