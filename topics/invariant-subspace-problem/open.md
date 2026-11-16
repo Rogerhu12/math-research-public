@@ -1,8 +1,10 @@
 # 未解决的问题
 
+**[原有限域临界参数模的稳定闭包至多两轮完成](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)。** 原二次算子全自由十轴→第一轮、原三次降次和三类词序误差→第二轮，严格给Cl_N(P0)=P2；无需假第一轮已稳定。原36种子完整首轮106列加24权9/80权10，形成整个原Bell临界商的10×210呈示。新增104列有完整18源递推公式，尚未另生成新数组；继续实际逐列生成与目标成员性。未证明商零、最小停止轮数或特征零单位。
+
 **同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
 
-**[36原低权种子的稳定闭包与完整首轮已闭](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。** 十四旧高权列全部由原10/18来源换出，普通参数模仍106换106；Cl_N(L36)=Cl_N(L50)，L36完整首轮恰该106列模。第一轮稳定仍未付；继续原交换子压缩第二轮来源和具体图目标。
+**[36原低权种子的稳定闭包与完整首轮已闭](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。** 十四旧高权列全部由原10/18来源换出，普通参数模仍106换106；Cl_N(L36)=Cl_N(L50)，L36完整首轮恰该106列模。最小停止轮数仍未确定；完整第二轮已证明稳定，继续实际完整来源和具体图目标。
 
 **[δ14七目标有限空间负及来源权≤8排除](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)已完成。** bδ与六yi bδ在完整权7/8状态中均有非零余式；113798原坐标产品及根独立FLINT复核全真。因梯度模最低权5，δ权4的来源≤8恰需bδ∈G7，故该有界表示也排除；更高来源、完整闭包及E成员性仍开放。
 

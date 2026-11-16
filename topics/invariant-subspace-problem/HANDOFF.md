@@ -27,9 +27,9 @@
 
 - **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386全部原输入；G8秩1106、加180个yNiY后1286独立，100个NiC贡献26；全10/18乘回与201阶段已闭。根独立原1312子式det4、全部1,307,876核坐标零且核秩74。完整来源≤8维3425→3451为分级推论，未另跑30387行；不称未截断L1独立或稳定/单位。14旧D换源已闭见下；δ七RHS已核全非零见下，不重消元。
 
-- **[36原种子的同一稳定闭包及完整首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)：** 原74×14核投影满14，19404组合坐标及14个完整10/18换源全真。普通P=P′仍106换106，向量只少72项；Cl_N(L36)=Cl_N(L50)=原116闭包，L36全部第一轮恰P，保完整原临界商。根全16阶段双SHA/语义绑定及两个包含核；未付P稳定/E/单位。继续90个指定二次均值像的原交换子降重及完整第二轮界，不启动大矩阵。
+- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。根/lit全量词审，无循环、无参数逆；不称最小轮数2/单位/E。104来源公式已证但新数组未生产；先冻逐phase全10/18消费者。
 
-- **[δ14七目标完整有限空间负](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)：** 只读权7/8完成状态，bδ及六yi bδ余式全非零；实7.560秒/exit0，113798原坐标产品全真，根另13.503秒普通FLINT全乘回/主元余零核。严格排首轮梯度模的δ来源权≤8；不排高来源/更大闭包/完整理想，未提升E。此前[稀疏600边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)保run43883188532/560 SSI、候选仅START/75及null→null无空续；Schur失败/输入源见其链接。继续原稳定闭包二轮停止的完整源证明及四规范q目标，未先填结论。
+- **[δ14七目标完整有限空间负](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)：** 只读权7/8完成状态，bδ及六yi bδ余式全非零；实7.560秒/exit0，113798原坐标产品全真，根另13.503秒普通FLINT全乘回/主元余零核。严格排首轮梯度模的δ来源权≤8；不排高来源/更大闭包/完整理想，未提升E。此前[稀疏600边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)保run43883188532/560 SSI、候选仅START/75及null→null无空续；Schur失败/输入源见其链接。二轮闭合已证见上；四规范q目标仍须真变换/完整原乘回。
 
 - **[单Bell首一约简无规模收益](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)：** 实18.599秒核500除法/50原18和完整四Bell门；原50项315888→315892，同删四Bell后315860→315864，无新零列/来源权下降。仅fmpz统计转int修复且保首失败log，无raw照实记；不据此新增同一δ14候选。
 

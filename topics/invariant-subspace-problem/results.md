@@ -6,6 +6,7 @@
 
 ## 最近接续结论
 
+- **[原有限域稳定闭包至多两轮与完整10×210参数呈示](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)**：对完整自由十轴先证原11二次算子像⊂P1，再由35三次来源与三类重排误差证P2稳定；Cl_N(P0)=P2。原106首轮加四quad路径×26原低种子共104列，完整呈示原Bell商。源公式全18、不倒参数；新数组未生产，不称单位/最小轮数2/E。
 - **[原δ14的七个完整有限空间负及Bell来源权≤8排除](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)**：完整权7/8的bδ与六yi bδ均非成员；113798原输入产品/全主元余零及根独立普通FLINT复核。最低权递推给δ在首轮梯度模加Bell的来源≤8表示不存在；不排高来源、完整稳定闭包、原理想或E成员性。
 - **[十四旧高权来源换出、36低权种子的同一稳定闭包与完整首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)**：74×14原核投影满14，19404坐标及14全十/十八来源乘回；普通参数模106换106，真实项数仅少72。Cl_N(L36)=Cl_N(L50)=原116闭包，完整第一轮恰已付106列模；不称第一轮稳定、单位或特征零。
 - **[完整原权八前沿：秩1312、26新来源与74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)**：全部17674×1386原输入，1106及1286完整前缀独立；100个NiC贡献26，十坐标与18来源全乘回。根直接原子式det4、1,307,876个全核乘积零且核秩74独核；全来源≤8维3425→3451，无未截断稳定/单位断言。
