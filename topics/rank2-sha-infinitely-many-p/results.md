@@ -41,3 +41,5 @@
 - [R864附录A](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：原e=18−7a与η=324+126a+49a²整互逆，η²=−av，故同一目标小参数v_sm=e³v=7−18a²/17满足x³−21x²+147x+1/17。显式整单位同构保原n/次数/全部Artin，微分变ηHi；形式参数(nη)³v_sm=n³v不变，不假称度数或germ改善。
 
 - [R865附录A](results/R865-actual-high-axis-product-and-first-divided-row.md)：同一原有限L1准确为q_p(2)/3−3q_p(3)/4+1/3 modp，完整Rflat/a=1−q2/3+3q3/4。两binomial/cubic-unit谐和式及六分之一截断自含证明付全常数；h1和四中央下同Qc规范同步。未证该Fermat商组合无穷非零，更高谐和位/原三残差/同P/R/S全部保。
+
+- [R872](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：原quartic τ=k−13∈{1,2,3}、τ<ell≤r+h−4，固定同X=P+pR+p²S已过全p³，第三13带行ε³w^(τ+9)对实际首高位的单位响应准确−6ab0C0u²e²；第二块折回+12a不能漏。真实联合式Bτ+6aC0u²e²·η0F(h0)/p=0保全高尾。S的可调性正是K1上[w^(s+τ−4)]W2的最后三尾泛函，尚未判全同源页不可解。

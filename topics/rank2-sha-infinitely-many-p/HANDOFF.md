@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：1567fffd690d601b69068e89ebca6584be932e80；2026-11-16 08:29:51 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:20:40 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
+- 最近已读规则提交：0620f8d68bb4b06637ee3cdba916cce5e11906d1；2026-11-16 08:30:12 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:20:40 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-original-norm-selection.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–871已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-original-norm-selection.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–872已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 当前第一实际门：原Hom与原shadow
@@ -45,6 +45,8 @@ theta续同M_pc*/BS；当前低松弛常数charge f2=t³(t−1)为E2Jν列，四
 R861/R865实际a*=−34C_H对齐保持M，H/h0有限乘积与三谐和位给Rcal；真实g^flat含hΘ，quartic k13首像旧unit、k>13此行恒零，参考g0须恢复3H[w4]BW3。R865附A全证 L1=q2/3−3q3/4+1/3 modp；不假其非零。
 R868原σ_t=min(ord P_n−A_n)控制t^-τ返回；τ=k−13≤σ_t且ell≤s−h时首像unit，故Λ0不下降第二页左行，R/S调标量同时改全余类。最小r=b0=3,c0≤2时σ_t0，仍开。
 [R871](results/R871-original-sigma-thirteen-unit-and-low-hurwitz-readers.md)：真实V_S^-13单位保w13/39carry，BΦ=Φ/S13全whole并保P134/十九角；完整ΛS给D1/Dp+2/D2p+3、J0和绝对γ。模p行差仅39低带，整高尾不能删；k>13首位仍零。deep续低松弛同P/R/S与四原中央，不再新增gauge等价或免费伙伴。
+
+- [R872](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：原quartic τ=k−13∈{1,2,3}、τ<ell≤r+h−4，固定同X=P+pR+p²S已过全p³，第三13带行ε³w^(τ+9)对实际首高位的单位响应准确−6ab0C0u²e²；第二块折回+12a不能漏。真实联合式Bτ+6aC0u²e²·η0F(h0)/p=0保全高尾。S的可调性正是K1上[w^(s+τ−4)]W2的最后三尾泛函，尚未判全同源页不可解。
 
 ## 其它原门与同步
 
