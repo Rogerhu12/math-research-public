@@ -9,20 +9,20 @@ POLICY="same159-true53-four-cut-exchange-master-v1"
 SOURCE_ACCEPTED_INDEX=53
 SOURCE_ORIGINAL_VALUES=128
 SOURCE_GLOBAL_SECONDS=1658.9797906909998
-CARRIED_SCIENCE_SECONDS=36.79963991600005
+CARRIED_SCIENCE_SECONDS=91.37788493000002
 CARRIED_FAILED_SOURCE={
-    "run_id": "43825241350",
-    "job_id": "133157415075",
-    "source_commit": "5189a1a78eac6215db75bf5c7d851a8913c6db0f",
+    "run_id": "43826338594",
+    "job_id": "133160965959",
+    "source_commit": "de4d16fe93b12ef77d946bc8eef64e51fa9ed5a5",
     "workflow": ".github/workflows/visible-true53-augmented-master.yml",
-    "log_bytes": 3741178,
-    "log_sha256": "997e9b9ddaa0ec6ae72f27a94f66895bfe6a1cc51be5850ae204cc4d70566944"
+    "log_bytes": 3757837,
+    "log_sha256": "e9bb74a1749ad0d689070f7261d544895d6c91080d7a1af1075bb1aa6ab21ea2"
 }
 CARRIED_FINAL_CLOCK={
     "tag": "FINAL_CLOCK",
     "ordinal": 1,
-    "JSON_plus_LF_bytes": 6015,
-    "JSON_plus_LF_sha256": "a9648db960caa66e4f2562bbd4af2e32c9cd72cb34cdd69a58625fafafd4ffe9"
+    "JSON_plus_LF_bytes": 10813,
+    "JSON_plus_LF_sha256": "7ad8d3c6acd6851d1055e4da26d8a07ca4da3f9a01e041ee3a524ec83fffe2ce"
 }
 SOURCE_PHYSICAL_SHA="9ffba0f1400c504343f9b0b8847be7f14745144f66b3cd89dfe698f45d81548e"
 SOURCE_CFG_SHA="1c8a50e50f7428e61e5fc6aedb258c857afff72c1819b2f7950677f014964e19"
@@ -33,9 +33,9 @@ LIMITS={
     "finite_master_iterations":3072,
     "finite_master_newton_systems":6144,
     "first_jet_input_restores":1,
-    # The first restore failed after producing ephemeral fields only. Its one
-    # debit is retained; one explicit repair restores those unavailable fields.
-    "first_jet_input_restore_repairs":1,
+    # Both prior input attempts left only metadata, not reusable context arrays.
+    # Their restore1/repair1 debits remain; exactly one further repair is added.
+    "first_jet_input_restore_repairs":2,
     "pair_first_jet_jvps":32,
     "new_attainer_gradients":128,
     "scalar_sessions":1,
@@ -68,6 +68,7 @@ class AugmentedDirectionLedger:
         self.limits=selected
         self.counts={k:0 for k in selected if k!="science_seconds"}
         self.counts["first_jet_input_restores"]=1
+        self.counts["first_jet_input_restore_repairs"]=1
         self.carried_receipt_verified=False
         self.carried_receipt=None
         self.events=[]
@@ -80,16 +81,16 @@ class AugmentedDirectionLedger:
     def bind_carried_failed_attempt(self,clock,receipt):
         require(not self.carried_receipt_verified,"one carried failed attempt only")
         prior=clock["ledger"]
-        old_counts={k:0 for k in LIMITS
-                    if k not in ("science_seconds","first_jet_input_restore_repairs")}
+        old_counts={k:0 for k in LIMITS if k!="science_seconds"}
         old_counts["first_jet_input_restores"]=1
+        old_counts["first_jet_input_restore_repairs"]=1
         require(receipt["source"]==CARRIED_FAILED_SOURCE
                 and receipt["final_clock_record"]==CARRIED_FINAL_CLOCK
                 and clock["status_at_final_emit"]=="new-augmented-input-or-scientific-error"
                 and clock["scope_exhausted"] is False
                 and prior["scientific_seconds"]==CARRIED_SCIENCE_SECONDS
                 and prior["ancestor_scientific_seconds"]==SOURCE_GLOBAL_SECONDS
-                and prior["total_ancestor_plus_new_scientific_seconds"]==1695.779430607
+                and prior["total_ancestor_plus_new_scientific_seconds"]==1750.3576756209998
                 and prior["started_counts"]==old_counts
                 and prior["attempted_distinct_finite_problem_bindings"]==[]
                 and prior["total_source_plus_new_full_value_debits"]==SOURCE_ORIGINAL_VALUES,
@@ -98,7 +99,7 @@ class AugmentedDirectionLedger:
         self.carried_receipt_verified=True
         self.events=copy.deepcopy(prior["events"])+self.events
         for event in self.events:
-            event["carried_from_original_failed_source"]=copy.deepcopy(CARRIED_FAILED_SOURCE)
+            event.setdefault("carried_from_original_failed_source",copy.deepcopy(CARRIED_FAILED_SOURCE))
         self.check("carried-failed-input-read")
     def check(self,stage=""):
         value=self.elapsed()
@@ -164,7 +165,8 @@ class AugmentedDirectionLedger:
             "carried_failed_source_read_verified":self.carried_receipt_verified,
             "carried_failed_source_receipt":copy.deepcopy(self.carried_receipt),
             "same600_second_total_not_reset_after_input_failure":True,
-            "original_restore_debit_retained_and_one_explicit_repair_added":True,
+            "original_restore_and_prior_repair_debits_retained":True,
+            "one_current_explicit_context_repair_added":True,
             "ancestor_scientific_seconds":SOURCE_GLOBAL_SECONDS,
             "total_ancestor_plus_new_scientific_seconds":SOURCE_GLOBAL_SECONDS+value,
             "source_original_full_values":SOURCE_ORIGINAL_VALUES,

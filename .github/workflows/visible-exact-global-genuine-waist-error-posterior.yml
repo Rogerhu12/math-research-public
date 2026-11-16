@@ -1,0 +1,93 @@
+name: visible-exact complete genuine waist error posterior
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-global-genuine-waist-error-posterior.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-global-genuine-waist-error-posterior
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  WEJ_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-WEJ-posterior-current-inputs.json
+  WEJ_MANIFEST_SHA: 1f2269650a9e8b8d8c62f0f1f2cf6dfdf6eccb9b67e921832b07b7b06110fbda
+  WEJ_PIPELINE_SHA: ab8e6dc81c61d101189603e50c828f1002d1a11227e55fa7cf80bd8d865d2f76
+  WEJ_WORKER_SHA: f92560310dd9b8be44ced9f3da70b3bf55cf90597d9b49570395d130509e165e
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  global-genuine-waist-error-posterior:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 360
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_posterior_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-WEJ-posterior-current-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_posterior_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['WEJ_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_posterior_public_worker.py --mode hydrate
+          --manifest "$WEJ_MANIFEST" --manifest-sha "$WEJ_MANIFEST_SHA"
+          --pipeline-sha "$WEJ_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['WEJ_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Evaluate only the new complete posterior with all original results read verbatim
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_posterior_public_worker.py --mode run
+          --manifest "$WEJ_MANIFEST" --manifest-sha "$WEJ_MANIFEST_SHA"
+          --pipeline-sha "$WEJ_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-global-genuine-waist-error-posterior-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-global-genuine-waist-error-posterior-output"
+      # Root rule15: 39 complete current UTF-8 inputs, 9 pinned Python AST files, no historical restoration.
+      # Only the new scientific driver and four new support/admission modules are imported.
+      # All 26 natural graphs and both original-input documents precede final validation and publication.
+      # Every complete or partial value is retained; a partial node has three lossless natural JSON projections.
+      # One child only. Prior completed targets and all preserved attempted prefixes block automatic repetition.
+      # No upload-artifact, Release upload or native/per-row numerical-data commit.
+      # Actual pulls recheck both README files; full static branch capacity and actual final capacity are separate gates.

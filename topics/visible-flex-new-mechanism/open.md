@@ -189,3 +189,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R480：全W外矩/任意A0块重复漂移已付
 
 [新完整母库](results/R480-finite-full-third-outer-moments-and-zero-matrix-prototype-ruling.md)从起点加入全部28交换子×3真实外矩×≤10平移系数的有限F（至多924生成、不称独立）；完整local变分差和三Green边项、唯一线性u'''的真IBP给quartic C²。任意3×3有序核的前缀次数≤5/对称对角≤4，余只原三面积；原十矩/12copy/五block一次同付，不新增复制层。R455同四q图册/限制最大minor/原20principal同点选择给真实有限库。全W的I_j(φ,T(φ;D))全θ0，故任意真A0/T_B∈W块的重复全s K_j=K0；第三incoming b通常仍变。下一解每个真实块自身K0、A≠0子桥与唯一13核规范；全部第四V/一般w项保留，R468的actual条件必须同这个新F库，不能混旧冻结库。
+
+
+### 准确支撑metadata继续：保两次失败与同600秒
+
+[接线设计](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)直接复用已绑定basis的精确9/250、423/500作metadata view；原classify只读这两属性，全部5743顺序/installed/5+4梯度与全网外部值仍保。两个原输入失败clock累计91.37788493000002秒/restore1/repair1继承，明确新增一个repair、仍同600秒；所有finite/JVP/新行/scalar/actual配额不变，首9662行尚无solve。2源码/242绑定，request54948B/5c881dfdcd21cac62daba5ac10f8036c26da3b43a15bcdf1a13c3ad535b498bc。唯一继续run待登记，旧科学不重跑；当前主点53和全部未付完成门保持。

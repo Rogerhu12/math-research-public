@@ -217,3 +217,13 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R499 — 完整原规则资源选择的语义表与严格逆
 
 **完整源码与条件证明已成；无新读回或科学运行。** [R499](results/R499-complete-rule-resource-semantic-tables-and-single-readback.md)10761/aba63ec3、[接口](notes/2026-11-16-complete-rule-resource-readback-interface.md)8645/80eb5f49、reader17117/b42e80eb三件分列真实身份。原6000/600b reader完整选择先运行，原文件遍历、quiet/owner/run/source、R.document/small/log_view与全部错误/omission保持；只对严格形状的身份、JSON/text/resource行和两个确切规则schema的README原词对采用固定有名列，其他行整行原样保。逐分支证明显式expand恢复原selected对象，原canonical逐字恢复；UTF-8输出保原JSON值及孤立surrogate合法转义，不删错误全文、数值或负零，不声称恢复原selector本已未选的内容。原单90000B/超70在BEGIN前、原complete错误body后2、marker完整写出后xb/fsync与全部cleanup scope保持；新body/schema/源码/祖先实际身份明确，possible overhead不承诺任何长度或fit。冻结reader仍真绑f779 owner，218另接真实新owner与独立composition always步骤，未执行/无原门接受提升；实际212失去的94138B正文不能补回。
+
+
+## R480 — 实际213八个原39-query接受与fresh FD完成，必要全链超限
+
+**实际八次原续算判定通过；必要正文未完整读回，未调用当前H/native/fullDN。** [R480](results/R480-actual213-eight-original39-pairs-and-necessary-readback-overflow.md)18078/14f8dd6e，run43812359001/sourcefe0a0d73、单compute133116630470终态failure，唯一日志112672/75e66e94未重取。八model及八freshFD全exit0，八next_actual_parent_pair_retained=true与固定3c2c worker唯一eligible赋值路径共同确认optimization_progress、accepted_warm_steps=1、完整pair校验、FD implementation gate及同次warm SHA；不从exit0孤立推接受。真实98父/110public+2view/原39、非连续32节点/自由461消元与17α/10500等全部原数学和预算保。实际trial计数4/3/4/3/3/2/2/3共24，未返正文不补值。全链115134/3b27adee、always recovery115484/72ae354a均在BEGIN前超90000而70；R479严格语义共享未使实际摘要装下，不混不同run长度推压缩率。每批必要记录先真实保存再退大payload，07:36:28原owner quiet后最终cleanup事件明确skip；step自身success非删除。24trial全值/失败query与角地址/FD具体误差/最终参数和完整pair身份未返回，无跨run续算父、不凭SHA恢复。只刊本次实质推进及缺口，不自动派发昂贵重算、不放宽/拆包90K或增加科学门，继续原live128及全README责任。
+
+
+## R498 — 完整far账本消费者与从第一行起的无损临时存储
+
+**表示等价与实际依赖命题已证明；新科学与压缩率未运行。** [R498](results/R498-complete-far-ledger-consumers-and-streamed-lossless-storage.md)19411/96a3df1e、[接口](notes/2026-11-16-complete-far-ledger-gzip-storage-and-consumer-interface.md)16863/0155e076、helper15744/d07d1844与四view plan16786/eb4925e3完整登记。实际212 prepared账95028212980B/1604049行，首native数值不读其正文，但5f14 samefar/5da13 union真实完整核原字节/行数/SHA与mode span，故不能先删或只留hash。新writer用原canonical每完整行一个gzip member，完整写/flush后才返回原prepared→tube→commit流程；无明文镜像或全账缓存，所有解码字节/行序/span/错误/候选/事务原样，失败member真实前缀与原异常保。descriptor明确物理stored与完整decoded双身份，后继仍先全读stored再逐原行解码核验，两遍原budget检查；旧明文、原选择、mode/mu/QPi/source与必要完整scope保。四接点只改首prepared、union新增prepared及其实际读者的存储/身份；原32GiB门/唯一钟/全部native/FD/fullDN/final/audit不减。plan输出是级联前预览，218仍须完整实际来源接线，不能用预览SHA假充；没有空间足够/同墙钟/接受或同g完成保证，不把临时科学账提交Git/artifact或删早。

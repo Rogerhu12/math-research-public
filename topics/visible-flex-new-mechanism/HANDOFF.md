@@ -48,6 +48,6 @@ R472：Reach3(A)=Tend−A²/2+W；真实返回桥付相容A/T，P=GB整A=T0使�
 
 [四cut增广设计](notes/true53-four-cut-exchange-master-design-20261116.md)首run43825241350/research133157415075在9662行装配后输入失败，[记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)。0finite/JVP/新gradient/scalar/actual；36.79963991600005秒含全部失败/输出，累计 **1695.779430607秒/128值**，仍点53。
 
-[分类修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)续run43826338594/research133160965959/source de4d16fe…在新增subspace metadata构造失败：[布局描述记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)。coordinates.layout只是切片，原构造要完整published descriptor；正在改回原生产接口。0finite/JVP/新gradient/scalar/actual，点53不变。同task **91.37788493000002秒**含首失败和本次；祖先累计 **1750.3576756209998秒/128值**。保restore1/repair1及所有失败，仍同600秒；必要新增修复须明列，全部其它配额不重置。U/T/J/旧finite/旧方向不重算，payload仅原stdout。
+[准确支撑metadata续入口](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)已推request触发唯一继续run，run待登记。原classify仅读left/right，直接取已绑定basis的准确9/250、423/500，不重造子空间或猜layout；5743逐序/installed/5+4仍全部保。前两次失败[首记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)/[布局记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)均0finite/JVP/新行/actual；同task **91.37788493000002秒**已付，累计 **1750.3576756209998秒/128值**。延续同600秒，保restore1/repair1再明确加1repair，其余全部配额不重置。2源码/242绑定，request54948B/5c881dfd…；首次9662行尚未求解，完整合格后才原guard/14门，旧科学不重跑，payload仅原stdout。
 
 理论R477已付正则单门与四门局部开放，R481继续真正全零；R478保临界power非零与实际近似，文学线准备原冻结ψ3新E观察；R480已从头付全W外矩/任意A0重复无漂移，继续单份K0和A≠0桥。主完成门未付，任何有限任务/阶段都不结束主课题。

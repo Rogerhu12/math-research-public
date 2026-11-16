@@ -58,6 +58,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WZR真腰点精确重建](results/R133-supplement-exact-waist-angular-inverse-and-reduced-finite-reconstruction.md)f5e69090：同metric β(0)=d(0)=0，Jw:even0→odd=ηw^-1I；FA六inner mean/两inner terminal逐项真0，完整residual仅z³ηg3φ，Crec首项可直接Rw P*||g3φ||/16。outer mean/terminal、physical z及(-u/m,1)、βr/Jr/第二Z、四endpoint均保。仅解析0新球，不从旧upper相减；各sup/L2/A0类型保。
 
+[WEJ完整后继运行合同](notes/2026-11-16-R133-WEJ-posterior-current-inputs.json)1f226965已冻结39current/9AST/12old、26图/32门并提交一次公开Actions触发。全部输出/失败前缀自然完整保存，旧成功禁重；当前仍须读取实际新结论，尚不声称whole数值/高门/finite/背景已闭。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。
