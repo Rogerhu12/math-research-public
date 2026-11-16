@@ -136,3 +136,5 @@ R832接触界R−1+binom(R,2)(6G−4)可接原提取器，不假T_p非零或代�
 **R868原P0的有限RR入口已证**：[完整方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)148d1e44。真实W(z0)−w0I用271合法mod素minor及全272K准确核取得socle，不假fiber étale；两图f=r/(base−base0)与I_P0^-m=(1,f^m)保完整DVR订单，overlap单位−zz0。原146截面加f得147；五个真正eta_degree_zero_fractional_ideal的254P0推下固定O^128⊕O(−1)^144，128/144两权截面全图membership及单非零fiberminor才闭RR。实际h、128/634、connection/YP校准仍待Actions；不把real_descent_Lj^3替代原Lj。
 
 **R865真实T7及无重谱已闭**：[正式结果](results/R865-certified-original-Y-Hecke-T7-and-squarefree-spectrum.md)。run43817070047/sourcea907063a，82stage/全部560×127，原K/Q矩阵及16不可约因子均已成，因子次数2,3,3,3,4,4,4,4,8,8,8,12,12,16,18,18，重数全1；直接消费谱0b8dbbb6和投影0643d7d2。原−3twist/σ47、σ7与82规范保留。下一实际N和80个Picard零判输入沿R870；不重H/J/逆、特征多项式或CRT，未把无重性当作原η活跃支持已判。
+
+**R870原有理Picard挠判及校准整数来源已证**：[完整证明](results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md)5b44808d。RF原完整七项极除子在Q下降，ξ_j∈JY(Q)；真T7在7的ES关系与全部有理挠单射给R torsion⇔(T7−8)R=0。真实N=m7(8)，逐块fi(8)/统一LCM对应分母和80个整Picard条件待最小新Actions求值；R865真实重数全1满足16块分离。实际Hecke norm模、RR零判和η活跃支持尚未计算，c0/h及c0/c1刚性化方向保原帧/nonp，不把存在性或零局部log当主函数证书。
