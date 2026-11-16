@@ -296,3 +296,7 @@ AI/Astra-ISP-789f：独立用原E未压缩116、全部comm列和原11/35单位�
 
 ## 2026-11-16 15:12 UTC — 四规范q的权8负与增广秩1316
 AI/Astra-ISP-789f：实9.350秒核原32+168/八poly及70696产品，四qb²余非零、coeff全0。根另2.008秒从原T独构全目标，1312原unit坐标全零；q系数det8与原unit det4给四维商独立/增广1316，无新消元。仅该来源≤8边界，不升E/全理想。[证明](notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-boundary-789f.md)。
+
+## 2026-11-16 15:21 UTC — 原非Bell完整200列及完整十七梯度商低权非零
+AI/Astra-ISP-789f：**[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。此完整参数呈示内排非零规范 $q$ 的 Bell 来源权 $\le10$、$\delta_{14}$ 的 $\le9$；不冒称任意原十八来源过滤界或特征零结论。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
+根逐节复核无Bell稳定性、循环双向同构与模三权递推；normal独立交叉审计通过，无新数组/消元。四q结论已实际push71372fb8；本次继续真实104来源与不同权次目标。

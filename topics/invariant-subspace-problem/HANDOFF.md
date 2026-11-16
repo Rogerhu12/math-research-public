@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 718e292262f6c942e506701f93a6b1c350830bfc（2026-11-16 15:14:35 UTC，Actions run43894207737实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43894207737-1.json。
+- **最近成功实际 pull 与已读规则提交：** 892220a8f2f636f2b44e8a3986e613b529a92da2（2026-11-16 15:22:12 UTC，Actions run43895531134实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43895531134-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-canonical-q-rank1316-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-nonbell200-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -23,21 +23,17 @@
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
 - **[原116→50同参数模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)** 与全部原10/18/17来源已闭。[全局50首次600边界](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)run43878449638：父两步0、实际自测/500 SSI真，候选仅START、exit75/null→null无空续；不重试同一空前缀。完整原运行身份保正文/归档。
 
-- **[权≤7/Bell饱和](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)：** 917→947及全7754×312/根全乘回已付；齐次V入L0恰∃q使b^qV∈G，来源界非未截断像。旧权10大矩阵未跑，完整原源/尺寸保正文。
-
 - **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386、前1286独立、100NiC留26；根原unit det4及1,307,876核坐标全零。来源≤8像3425→3451；完整201阶段/原10/18源见正文，δ/q复用已闭状态。
 
-- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。无循环或参数逆；不称最小轮数2/单位，原E见下。104来源公式已证；v1prepare原106/50border已过；mean因fmpz统计序列化exit1、新列0。独立v2仅修统计int，重建中，完整源门不变。
+- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。无循环或参数逆；不称最小轮数2/单位，原E见下。104来源公式已证；v1prepare原106/50border已过；mean因fmpz统计序列化exit1、新列0。独立v2仅修统计int，prepare实27.175秒exit0，全106来源/56首像/50border复核真；mean120实际运行中，完整源门不变。
 
 - **[原E完整970列/至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)：** 原未压缩116的全comm与原E11/35恒等给Cl=L2；1070仅删十个字面零comm及其像→≤970，coker为原Bell临界商。全18源/固定常数逆，不用field20/14/210提升。表达式未展开、商零仍开。
 
-- **[δ14七目标完整有限空间负](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)：** 只读权7/8完成状态，bδ及六yi bδ余式全非零；113798原坐标产品和根FLINT全乘回/主元余零核。严格排首轮梯度模的δ来源权≤8；不排高来源/更大闭包/完整理想，未提升E。此前[稀疏600边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)保run43883188532/560 SSI、候选仅START/75及null→null无空续；Schur失败/输入源见其链接。二轮闭合已证见上；四规范q目标仍须真变换/完整原乘回。
-
-- **[四规范q的完整权8负/增广秩1316](notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-boundary-789f.md)：** 原T→T′的32+168/八poly全核，四qb²余378/357/378/378、source全0；根从原T独构70696坐标，1312原unit坐标全0。q系数块det8使四方向模G8独立，增广17674×1390秩1316；排该首轮来源≤8，不升E/全理想。无新消元。
-
-- **[单Bell首一约简无收益](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)：** 完整500除法/50原源已核，315888→315892项、无零列/来源权下降；首fmpz统计失败与修复实身份保正文，不重开同候选。
-
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
+
+- **[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。此完整参数呈示内排非零规范 $q$ 的 Bell 来源权 $\le10$、$\delta_{14}$ 的 $\le9$；不冒称任意原十八来源过滤界或特征零结论。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
+
+- 已付有界饱和、七δ右端、四q增广秩1316与根原乘回复核、单Bell首一无收益及两个600秒null候选边界保刚归档H和结果索引。200完整性仅把指定低权非零类提升到完整$J_{17}$；未排加Bell商或更高$b$倍。
 
 ## R271真实投影返回与剩余交叉
 
