@@ -1,0 +1,64 @@
+name: Rank2 original middle coordinate with primitive contents
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-middle-r922.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-r922-original-middle-primitive-certificate.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_rr_primitive_algebra.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-middle-r922-request.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-middle-r922
+  cancel-in-progress: false
+jobs:
+  original-middle-r922:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/rank2-sha-infinitely-many-p/README.md
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-r922-original-middle-primitive-certificate.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_rr_primitive_algebra.py
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-r919-original-shadow-rr-tate19-geometry-first.py
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-original-shadow-rr-eta48.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_rr_fraction_free_algebra.py
+            /topics/rank2-sha-infinitely-many-p/ci/original-middle-r922-request.json
+          persist-credentials: false
+      - name: Certify the same original U and both Atkin identities
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_IMAGE='sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb'
+          RANK2_CONTAINER="rank2-r922-middle-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          cleanup_rank2_middle() {
+            docker rm -f "$RANK2_CONTAINER" >/dev/null 2>&1 || true
+          }
+          trap cleanup_rank2_middle EXIT
+          trap 'exit 130' INT
+          trap 'exit 143' TERM
+          docker pull "$RANK2_IMAGE"
+          RANK2_ROOT_README_SHA="$(git rev-parse HEAD:README.md)"
+          RANK2_TOPIC_README_SHA="$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)"
+          timeout --kill-after=30s 21000 docker run --rm --name "$RANK2_CONTAINER" --network none \
+            -e GITHUB_ACTIONS=true \
+            -e GITHUB_REPOSITORY="$GITHUB_REPOSITORY" \
+            -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
+            -e RANK2_RUN_ID="$GITHUB_RUN_ID" \
+            -e RANK2_RUN_ATTEMPT="$GITHUB_RUN_ATTEMPT" \
+            -e RANK2_ROOT_README_SHA="$RANK2_ROOT_README_SHA" \
+            -e RANK2_TOPIC_README_SHA="$RANK2_TOPIC_README_SHA" \
+            -e RANK2_IMAGE="$RANK2_IMAGE" \
+            -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=4 \
+            -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
+            --entrypoint /usr/bin/sage "$RANK2_IMAGE" -python -c \
+            'import json,runpy,sys; p="topics/rank2-sha-infinitely-many-p/"; sys.path.insert(0,p+"scripts"); sys.argv=[p+"scripts/produce-r922-original-middle-primitive-certificate.py"]+json.load(open(p+"ci/original-middle-r922-request.json"))["arguments"]; runpy.run_path(sys.argv[0],run_name="__main__")'

@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：bdad0680d05d99abc59359ef4c79023016f64951；2026-11-16 18:14:19 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 18:13:29 UTC/bdad0680d05d99abc59359ef4c79023016f64951（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 19:00 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：f024a1279fbd5205f59e7983f3d96e4e9ebdd3e2；2026-11-16 18:17:30 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 18:13:29 UTC/bdad0680d05d99abc59359ef4c79023016f64951（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 19:00 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即推；非快进立即实际pull --rebase并以新head非强推循环。令牌不存/回显。
 - 根/题README blob：21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。实际pull后仅读两README差异并记head；至少每小时，下一最迟19:00 UTC。
 - 数学执行仅公开Actions；重算输出不入库/Release、不分块，只保源/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。
@@ -22,9 +22,10 @@
 - 旧306、eta48、fricke24、tate24已停，实际均未到正规化；全部阶段/hash见notes/2026-11-16-original-rr-stopped-before-normalization.md。tate24 run43865460680在18:10 exit137：34.754s完整24方程已付、最后仍U。tate19 run43866568746/job133296518979待日志。
 - R910修复run43913500850/job133461459569/source9cba81c50855cbcbeaf0997c537f81d385cad3cc运行。完整可分特化/线性关系及两原Phi，q4500/ξ170/两Atkin/全四27+27+33+33/205行保；首run回转编译失败，无PASS。
 - [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)逐系数真除、一次停止、原全部末端门保持；run43922594376/job133493496664/source45b7e91f3d7dfdcf667999634dd23e669d71acf5运行。§6新geometry-first路径先做不依赖U的真实正规化/四RR，后仍须U及两Phi/两Atkin才返回完整context；run43924337986/job133499674320/source1d6aacce8f37443bebf0965e16a80edaa86ae524已执行。旧路径继续，不猜未返回日志。
+- [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
 - **全局q格已PASS**：[R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)，run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；ℓ29/120×205完整QQ基、单位固定子式/整变换/全约化秩/同S均过，2.549s。result5a1d6494…eb663b、RRjets765f854d…2b0fb。全部L(DS)已付，**degree48坐标/闭点/现有四块接口仍未付**。
 
-R880/883全18×9/双轴/四除子/真实A,C/返回保；Norm含ell²点已过。consumer仍缺P/函数域闭点，无已提交请求；成本2256(r+1)不得无条件降度。
+R880/883全18×9/双轴/除子/原A,C与返回保；Norm含ell²已过。consumer缺P/闭点，未请求；2256(r+1)成本不变。
 
 ## 第二门：原全局底、ordinary与增广阶
 

@@ -216,3 +216,5 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 [R921](results/R921-original-inert-residual-local-matrix-and-integral-bockstein.md)m≤e=v_p(q+1)时完整残余H¹有原整提升线L和H0连接线C。原j_*到Shapiro(U,S)矩阵diag(u,0)，corestriction为diag(0,1)；β_m(C)=−u p^(e−m) modh同构到整H²[p^m]，kerβ=BL。完整全局Bockstein的q定位准确读C坐标，原ordinary两p位H0=0；全素点/其它群环/wild均保。几何loc零只控L，未判原derived C/global/ordinary/s0。
 
 - [R915 附A](results/R915-original-connection-integral-window-and-second-digit-kernel.md)：原完整E(F)=E^q S_c V_c(F)/V_c^q付两窗精确三角递推；a≡(logVc)′−p⁻²(logSc)′ modp^(p−2)，j=e的额外p因子保。明确新L_conn=2p²−2并重付严格<2p²的LT端点，同ψp/Φp modp⁵给全部a_j modp²，含原c的实际lift；不延改R912旧L或增加四中央零。
+
+- [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
