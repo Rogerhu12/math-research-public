@@ -14,7 +14,7 @@
 
 ### O2 当前实际末态与唯一新接口
 
-[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)保run43767357527的6普通α1接受、两网14门及m7未合gap；[冷恢复结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)保run43773136836唯一粗value205.448292651s耗尽旧120门、LP10/value15/active241.314203844。该epoch关闭，不能重开旧LP11或加时重付冷恢复。[新direct设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)继承438+4/祖先学习，独立1800科学秒/64LP/160值含全部输入冷费；[第二次gate入口失败](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)及下方首完整实际记录全部累计费用。原14门、固定g与metric/reach要求不变；最新64LP/62value末态及新锥入口见本文件后段。
+[guard首实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)与[已关闭冷恢复](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)保原6接受/10LP及205秒冷失败全部费用；不重开。后继direct及末槽原64LP已完成，最新真实状态、新锥合同及全账见后段。原14门、固定g与主精度/reach义务不变。
 
 ### 仍须支付
 
@@ -205,4 +205,4 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 ### R427：只余两个完整kk自然读出
 
-[R427](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)在一般ω先作Y=∂k+(2h)⁻¹∂ω，以完整YC/ZZ/n1四scalar支撑、原四势和真实有序尾证明Λkk负四=A+k²B+k⁴C；奇项与高于4只在natural层0，不冒原成本为0。A已由R426纸证支付；只续B=[h⁻⁴k²]、C=[h⁻⁴k⁴]两新Ω。S=1+k²整除准确iffΛ(B−A−C)=0，当前不假定；共同字符剩k²b+k⁴c非负iff b,c≥0，仍须实际消两列。
+[R427](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)在一般ω先作Y=∂k+(2h)⁻¹∂ω，以完整YC/ZZ/n1四scalar支撑、原四势和真实有序尾证明Λkk负四=A+k²B+k⁴C；奇项与高于4只在natural层0，不冒原成本为0。A已由R426纸证支付；两新B=[h⁻⁴k²]、C=[h⁻⁴k⁴]的[唯一观察请求](notes/kk-minus4-natural-flux-design-20261116.md)已发，尚无actual；原k0不重算。S=1+k²整除准确iffΛ(B−A−C)=0，当前不假定；共同字符剩k²b+k⁴c非负iff b,c≥0，仍须实际消两列。
