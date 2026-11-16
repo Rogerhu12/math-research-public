@@ -1,0 +1,42 @@
+{
+  "format": "isp-minimal-historical-recovery-bootstrap-v1",
+  "runId": "43883188532",
+  "sourceCommit": "94ef4fb5410e61a7de69189d70bac1757bb81b87",
+  "sessionScriptSHA256": "289355d438035cdd38347c681f680c8ba72fddb69c8ae0b2604364b3413102d0",
+  "historicalInputsVerified": [],
+  "historicalInputCount": 0,
+  "releaseAssetsUsedOrCreated": false,
+  "largeDataUploadedOrCommitted": false,
+  "workingDataTemporaryOnly": true,
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 14:12:10 UTC",
+      "beforeReadCommit": "400b1f73f9a177e69d75c9b62e31b8f85dad72cc",
+      "originMainAfterPull": "94ef4fb5410e61a7de69189d70bac1757bb81b87",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 14:12:11 UTC",
+      "beforeReadCommit": "94ef4fb5410e61a7de69189d70bac1757bb81b87",
+      "originMainAfterPull": "94ef4fb5410e61a7de69189d70bac1757bb81b87",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 2,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 687,
+    "logicalJsonSHA256": "9c4cecb54a2b3cc6a0ec45661613cf49129e34974c259bb0a642c47b992fed8e",
+    "itemCount": 2
+  },
+  "lastRulesReadCommit": "94ef4fb5410e61a7de69189d70bac1757bb81b87",
+  "summaryExcludesRecomputableArraysOnly": false
+}
