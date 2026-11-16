@@ -1,0 +1,450 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-complete-critical-primary-profile60",
+  "executionSourceCommit": "a9ad16ee65f3aff9dff1a287bc4fe18667168d42",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-complete-critical-primary-profiles-789f.py",
+  "scriptSHA256": "5b9b656473766069ff34df2e25f5f56cadda452cc504dd13094360d09abf3dea",
+  "argvTemplate": [
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--hstar",
+    "{scripts}/2026-11-16-r150-original-hstar-integer-parameters-789f.json",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-critical-primary-profiles",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "timeoutSeconds": 90,
+  "exitCode": 0,
+  "wallSeconds": 0.8658054180014005,
+  "fullTemporaryReceiptBytes": 7885,
+  "fullTemporaryReceiptSHA256": "5685d638b0cd509481fa482571435c6310b39c85873082fc1421b1a0a63c695f",
+  "result": {
+    "binding": "7fd6a5d4a535e55f7fb06909bcec10634e7c8e0706f8fa1bd6dfd115a6da51c2",
+    "elapsedSeconds": 0.8032273790013278,
+    "format": "r150-original127-complete-critical-primary-profiles-v1",
+    "outcome": "all-five-complete-original-critical-primary-profiles",
+    "status": "completed",
+    "parameters": {
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allFiveCriticalFactorsComplete": true,
+      "allLargeArraysTemporaryOnly": true,
+      "allOriginalKernelAndActionProductCoordinates": 52624,
+      "allPrimaryBasesDirectSumVerified": true,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "characteristicZeroConclusionInferred": false,
+      "coefficientBocksteinComputed": false,
+      "completePrimaryProfiles": [
+        {
+          "actionProductCoordinates": 7176,
+          "allOriginalPrimaryActionProductsVerified": true,
+          "allOriginalPrimaryKernelProductsVerified": true,
+          "allPrimaryDirectionsRetained": true,
+          "canonicalKernelFreeIdentityVerified": true,
+          "characteristicMultiplicity": 8,
+          "coefficients": [
+            100,
+            108,
+            122,
+            1
+          ],
+          "completeCyclicExponents": [
+            3,
+            5
+          ],
+          "cyclicBlockCount": 2,
+          "cyclicBlockCountsAtLeastEachPower": [
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "degree": 3,
+          "entirePrimaryCharacteristicVerified": true,
+          "exactMinimalPolynomialVerified": true,
+          "kernelProductCoordinates": 7176,
+          "label": "FPlus-1",
+          "maximumExponent": 5,
+          "originalFactor": "FPlus",
+          "powerNullitiesIncludingZero": [
+            0,
+            6,
+            12,
+            18,
+            21,
+            24
+          ],
+          "powerRanksIncludingZero": [
+            299,
+            293,
+            287,
+            281,
+            278,
+            275
+          ],
+          "primaryDimension": 24,
+          "requiredUnramifiedRingDimensionForOneMaximalJet": 15
+        },
+        {
+          "actionProductCoordinates": 7176,
+          "allOriginalPrimaryActionProductsVerified": true,
+          "allOriginalPrimaryKernelProductsVerified": true,
+          "allPrimaryDirectionsRetained": true,
+          "canonicalKernelFreeIdentityVerified": true,
+          "characteristicMultiplicity": 8,
+          "coefficients": [
+            122,
+            122,
+            27,
+            1
+          ],
+          "completeCyclicExponents": [
+            3,
+            5
+          ],
+          "cyclicBlockCount": 2,
+          "cyclicBlockCountsAtLeastEachPower": [
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "degree": 3,
+          "entirePrimaryCharacteristicVerified": true,
+          "exactMinimalPolynomialVerified": true,
+          "kernelProductCoordinates": 7176,
+          "label": "FMinus-1",
+          "maximumExponent": 5,
+          "originalFactor": "FMinus",
+          "powerNullitiesIncludingZero": [
+            0,
+            6,
+            12,
+            18,
+            21,
+            24
+          ],
+          "powerRanksIncludingZero": [
+            299,
+            293,
+            287,
+            281,
+            278,
+            275
+          ],
+          "primaryDimension": 24,
+          "requiredUnramifiedRingDimensionForOneMaximalJet": 15
+        },
+        {
+          "actionProductCoordinates": 2990,
+          "allOriginalPrimaryActionProductsVerified": true,
+          "allOriginalPrimaryKernelProductsVerified": true,
+          "allPrimaryDirectionsRetained": true,
+          "canonicalKernelFreeIdentityVerified": true,
+          "characteristicMultiplicity": 5,
+          "coefficients": [
+            43,
+            1,
+            1
+          ],
+          "completeCyclicExponents": [
+            2,
+            3
+          ],
+          "cyclicBlockCount": 2,
+          "cyclicBlockCountsAtLeastEachPower": [
+            2,
+            2,
+            1
+          ],
+          "degree": 2,
+          "entirePrimaryCharacteristicVerified": true,
+          "exactMinimalPolynomialVerified": true,
+          "kernelProductCoordinates": 2990,
+          "label": "E8-1",
+          "maximumExponent": 3,
+          "originalFactor": "E8",
+          "powerNullitiesIncludingZero": [
+            0,
+            4,
+            8,
+            10
+          ],
+          "powerRanksIncludingZero": [
+            299,
+            295,
+            291,
+            289
+          ],
+          "primaryDimension": 10,
+          "requiredUnramifiedRingDimensionForOneMaximalJet": 6
+        },
+        {
+          "actionProductCoordinates": 2990,
+          "allOriginalPrimaryActionProductsVerified": true,
+          "allOriginalPrimaryKernelProductsVerified": true,
+          "allPrimaryDirectionsRetained": true,
+          "canonicalKernelFreeIdentityVerified": true,
+          "characteristicMultiplicity": 5,
+          "coefficients": [
+            46,
+            91,
+            1
+          ],
+          "completeCyclicExponents": [
+            2,
+            3
+          ],
+          "cyclicBlockCount": 2,
+          "cyclicBlockCountsAtLeastEachPower": [
+            2,
+            2,
+            1
+          ],
+          "degree": 2,
+          "entirePrimaryCharacteristicVerified": true,
+          "exactMinimalPolynomialVerified": true,
+          "kernelProductCoordinates": 2990,
+          "label": "E8-2",
+          "maximumExponent": 3,
+          "originalFactor": "E8",
+          "powerNullitiesIncludingZero": [
+            0,
+            4,
+            8,
+            10
+          ],
+          "powerRanksIncludingZero": [
+            299,
+            295,
+            291,
+            289
+          ],
+          "primaryDimension": 10,
+          "requiredUnramifiedRingDimensionForOneMaximalJet": 6
+        },
+        {
+          "actionProductCoordinates": 5980,
+          "allOriginalPrimaryActionProductsVerified": true,
+          "allOriginalPrimaryKernelProductsVerified": true,
+          "allPrimaryDirectionsRetained": true,
+          "canonicalKernelFreeIdentityVerified": true,
+          "characteristicMultiplicity": 5,
+          "coefficients": [
+            35,
+            7,
+            54,
+            45,
+            1
+          ],
+          "completeCyclicExponents": [
+            2,
+            3
+          ],
+          "cyclicBlockCount": 2,
+          "cyclicBlockCountsAtLeastEachPower": [
+            2,
+            2,
+            1
+          ],
+          "degree": 4,
+          "entirePrimaryCharacteristicVerified": true,
+          "exactMinimalPolynomialVerified": true,
+          "kernelProductCoordinates": 5980,
+          "label": "E8-3",
+          "maximumExponent": 3,
+          "originalFactor": "E8",
+          "powerNullitiesIncludingZero": [
+            0,
+            8,
+            16,
+            20
+          ],
+          "powerRanksIncludingZero": [
+            299,
+            291,
+            283,
+            279
+          ],
+          "primaryDimension": 20,
+          "requiredUnramifiedRingDimensionForOneMaximalJet": 12
+        }
+      ],
+      "completedTemporaryPhases": {
+        "primary-E8-1": {
+          "bytes": 3418,
+          "file": "primary-E8-1.json.gz",
+          "payloadSHA256": "b4405ed53fa654cc6fcbb66c5791a8237e3f2943b98ce64d729f389e7f77bc75",
+          "sha256": "5cc86b6777d4ca9fc07ae11607542f2831ebd998e7a5fa4cb51e0bfe260d7728",
+          "temporaryOnly": true
+        },
+        "primary-E8-2": {
+          "bytes": 3417,
+          "file": "primary-E8-2.json.gz",
+          "payloadSHA256": "14e410ae6bea7b2e833a957ed5de3cfec6a56168e44b4b372c754ea7e6bd98c7",
+          "sha256": "901f1f44bdc7f9c1b4094f240b887191098c8bec249f31dcfe4fb58050d6fb71",
+          "temporaryOnly": true
+        },
+        "primary-E8-3": {
+          "bytes": 5840,
+          "file": "primary-E8-3.json.gz",
+          "payloadSHA256": "2de7a7e9a30fa0023d04c4e484b17f33f991a0c85ac4b3e56189791dbd3bc7f5",
+          "sha256": "20be3b63139107d2f0cbbef13dcf1f63453b8429d0ea285e481ce9910e676433",
+          "temporaryOnly": true
+        },
+        "primary-FMinus-1": {
+          "bytes": 6526,
+          "file": "primary-FMinus-1.json.gz",
+          "payloadSHA256": "a397e75ebf513b9bb1eaee21ac6fdb35322f38301c2cbc6d010890dab421148a",
+          "sha256": "35390adce78cc0c629660467e2520414330317ebb8f2431562bc377cb5e7723f",
+          "temporaryOnly": true
+        },
+        "primary-FPlus-1": {
+          "bytes": 6541,
+          "file": "primary-FPlus-1.json.gz",
+          "payloadSHA256": "4138eb0b13d934afe1b4384b647fcc87ee1417fc69ddda2d816efaaa3679e74b",
+          "sha256": "2ec6a795eac197168a345edbe6f1cfc8830dce1c10235caf3a30859edf8fa86e",
+          "temporaryOnly": true
+        }
+      },
+      "criticalPrimaryDimension": 88,
+      "finiteFieldScopeOnly": true,
+      "generalizedDetectorMustCoverAllCyclicBlocks": true,
+      "gradedBasisRecomputed": false,
+      "identity": {
+        "algorithm": "complete-h-primary-powers-canonical-kernels-and-original-action-v1",
+        "completePrimaryNotOnlyParameterEigenvectors": true,
+        "criticalIntegerFactors": [
+          "FPlus",
+          "FMinus",
+          "E8"
+        ],
+        "helperSHA256": "d520b190ac84f1990ed8ee84d405cc34c31d09e140ad26b8442c099872d26ed3",
+        "originalHStarParameters": {
+          "bytes": 1286,
+          "sha256": "e04560989cfe0d888995290fa917b457f09f6caa975f59889ee0864e5b82ae31"
+        },
+        "paidFiles": {
+          "original127-whole-torsion-pipeline-receipt.json": {
+            "bytes": 9819,
+            "sha256": "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+          },
+          "torsion-whole-state.bin": {
+            "bytes": 1414575,
+            "sha256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+          },
+          "whole-torsion-characteristic.json": {
+            "bytes": 2560,
+            "sha256": "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+          }
+        },
+        "prime": 127,
+        "wholeBinding": "05c13d9a57fee12f0751d40feccbfb601686b3d02f497d0e8a99092c44db4211",
+        "wholeGBBinding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+        "wrapperSHA256": "5b9b656473766069ff34df2e25f5f56cadda452cc504dd13094360d09abf3dea"
+      },
+      "memoryMiB": 512,
+      "normalFormsRecomputed": false,
+      "originalStateAudit": {
+        "actionSHA256": "e20f48af183a36dde7db407720467167dde00675c4a8d4dda68aeb2f3de55155",
+        "allNineBoundedAndTorsion": true,
+        "allOriginalTargetCoordinateProductsVerified": true,
+        "completeSourceAndFreeDirectionsInheritedFromPaidWholeState": true,
+        "observationRank": 506,
+        "originalTargetCoordinateProductCount": 7245,
+        "originalTargetCoordinatesSHA256": "3d3e83fe6c67fa15ed153b678ce4598cc32eed53ed1b937070770b0430149706",
+        "originalTargetLabels": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "prime": 127,
+        "torsionDimension": 299,
+        "wholeStateDimension": 805
+      },
+      "prime": 127,
+      "pythonFlintVersion": "0.9.0",
+      "seconds": 60.0,
+      "temporaryManifest": {
+        "bytes": 1379,
+        "file": "critical-primary-manifest.json",
+        "sha256": "1a5901c7b7621dbfcc4b73bf3ee032872948e0a988291b6c7a3ac1d8017cd654",
+        "temporaryOnly": true
+      },
+      "wholeTorsionRecomputed": false
+    },
+    "events": [
+      {
+        "elapsedSeconds": 0.22914778300037142,
+        "phase": "primary-FPlus-1",
+        "reused": false
+      },
+      {
+        "elapsedSeconds": 0.3900798249997024,
+        "phase": "primary-FMinus-1",
+        "reused": false
+      },
+      {
+        "elapsedSeconds": 0.5105280380012118,
+        "phase": "primary-E8-1",
+        "reused": false
+      },
+      {
+        "elapsedSeconds": 0.6303545530008705,
+        "phase": "primary-E8-2",
+        "reused": false
+      },
+      {
+        "elapsedSeconds": 0.7959185569998226,
+        "phase": "primary-E8-3",
+        "reused": false
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 01:33:02 UTC",
+      "beforeReadCommit": "e3b56e0d5646c4b6e1dec06a32c56a33bf7e44ea",
+      "originMainAfterPull": "a9ad16ee65f3aff9dff1a287bc4fe18667168d42",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 01:33:03 UTC",
+      "beforeReadCommit": "a9ad16ee65f3aff9dff1a287bc4fe18667168d42",
+      "originMainAfterPull": "a9ad16ee65f3aff9dff1a287bc4fe18667168d42",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 36,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 12349,
+    "logicalJsonSHA256": "6a17d82eb1c80180738a80a36a9e9d929fc94076f7694761d24ce973188a3fd1",
+    "itemCount": 36
+  },
+  "lastRulesReadCommit": "a9ad16ee65f3aff9dff1a287bc4fe18667168d42",
+  "summaryExcludesRecomputableArraysOnly": false
+}
