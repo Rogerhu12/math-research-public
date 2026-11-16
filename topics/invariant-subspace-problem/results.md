@@ -192,3 +192,5 @@
 
 - **R150共同原九目标系数模的完整D型、长度24及最少八参数生成元（2026-11-16，已证明）：** [完整真实来源及模呈示](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)由真$31^9$/35项的$8\to7\to3\to1$重建、高三位和十五低目标六位原carry，取得$B\cong_D(D/p)^6\oplus D/p^2\oplus D/p^3\oplus(D/p^4)^2\oplus D/p^5$，长度24、$d_D=11,d_{D[s]}=8$。原$xB$类型$(1,1,1,2)$、$pxB$类型$(1)$；完整十八生成/二十二真关系经模$p^6$变换的D提升及独立等长证明为真实呈示，原$x$动作保关系且$x^2=0$，九个单循环全为$(5,2)$。$B/pB$上$x$型$(2^3,1^5)$，$\ell(pB\cap xB)=2$、$\ell\ker x=19$；原$M\to B$满射给$d_R(M)\in\{8,9\}$，仍须算共同M。实run43841516263选源178.678秒/消费者268.741秒，根与lit各自重构完整raw54717及binding；根另核父raw27357、96阶段/25整数乘回/12 unit求解/17类/9坐标/6payload，附可复现只读审计源码，不重矩阵或保存数学数组。
 
+
+- **原权九严格秩上界。** [完整396条Koszul关系与立方负门](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)由已付原权6的388列独立推出权5的72列及396真关系全部独立，完整M9形状49368×16442且Q/E秩≤16046。仅未来完整mod127增广秩严格超界才付原b³负证；三个Q分量/同d100单目标均可，本文没有新的权9数值秩或负结论。

@@ -1,0 +1,320 @@
+{
+  "schema": "R522-native128-paired-digit-complete-component-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_native128_paired_digit_source_views.py",
+    "bytes": 10717,
+    "sha256": "1554a5e5fb80f382c382aa6530b19b1bfc7b065371e96d66847195ecc396dfce"
+  },
+  "published_component_ancestor": "bfe02a5249db7c01665fef163034d436d66ebdbd",
+  "public_inputs": [
+    {
+      "path": "computations/geometry_20261115_native_exact_digit128.hpp",
+      "bytes": 18871,
+      "sha256": "5c2a0cb17c5fedfa5fe98b193d586b2e82171de20ddc61bcbfdf04ec556329fc"
+    },
+    {
+      "path": "computations/geometry_20261115_native_final128_components.py",
+      "bytes": 25877,
+      "sha256": "ddbe1a49cb18cf363c5e1144d3b49484225b0cc8756154a1cfbdec8a18443045"
+    },
+    {
+      "path": "computations/geometry_20261115_native_hoisted_operator_trace128.hpp",
+      "bytes": 26768,
+      "sha256": "ab246a536ba65399174aeafb56582d398c648700c51e5b0d3b11c29090c2ec4d"
+    },
+    {
+      "path": "computations/geometry_20261115_native_operator_final128.py",
+      "bytes": 21548,
+      "sha256": "a2ee773ccc553f8e77567efc1e4f43f7f6aae3ebea6d06833e1f4a4554306fef"
+    },
+    {
+      "path": "computations/geometry_20261115_native_operator_stage128.cpp",
+      "bytes": 10682,
+      "sha256": "86782f8038e57bd87f578ca8a4b48640514ce36e8b11de4df172b20bd10d2926"
+    },
+    {
+      "path": "computations/geometry_20261115_native_operator_trace128.hpp",
+      "bytes": 24617,
+      "sha256": "950e1810106f2d268dd87da89be9c042ad3d3a014ea25e7c688701d731a3ddb0"
+    },
+    {
+      "path": "computations/geometry_20261115_native_preassembled_namespace_qualified_trace128.hpp",
+      "bytes": 24775,
+      "sha256": "f82cd9504fc7396664941a76e687abd489aae8766482977c80a675c9e9a9b9ae"
+    },
+    {
+      "path": "computations/geometry_20261115_native_preassembled_operator_trace128.hpp",
+      "bytes": 24706,
+      "sha256": "b16fac2b38cc873da63a759f505fde7ccf5b3b6fd9bd0f709647b65be78a7dc8"
+    },
+    {
+      "path": "computations/geometry_20261115_native_simd_digit_operator_stage128.cpp",
+      "bytes": 12670,
+      "sha256": "b6537c6ce86754a6a2a75eb928e543a7083fa2311eb70a4764066f2a70dda91a"
+    },
+    {
+      "path": "computations/geometry_20261115_native_simd_digit_operator_trace128.hpp",
+      "bytes": 29035,
+      "sha256": "b183eeecf4f3009bf202dd0f465c8d4fdb17d8cc0ce14bb90d1ed5e6ecf485ac"
+    },
+    {
+      "path": "computations/geometry_20261115_native_simd_exact_digit128.hpp",
+      "bytes": 9006,
+      "sha256": "1695b945c706523036ab85d46e1db89494719ff1b5a86efe469c39d696a556e6"
+    },
+    {
+      "path": "computations/geometry_20261115_native128_qualified_json_components_v2.py",
+      "bytes": 17484,
+      "sha256": "5e68f581d75f3a9fe61acadd016f8c7b6f3bcec245fb39b342a3fecdd0b267bf"
+    },
+    {
+      "path": "computations/geometry_20261116_live128_final_components.py",
+      "bytes": 32027,
+      "sha256": "2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866"
+    },
+    {
+      "path": "computations/geometry_20261116_native_paired_exact_digit128.hpp",
+      "bytes": 8729,
+      "sha256": "480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47"
+    },
+    {
+      "path": "computations/geometry_20261116_native_physical_radial_mode_cache128.hpp",
+      "bytes": 5253,
+      "sha256": "959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51"
+    },
+    {
+      "path": "computations/geometry_20261116_native_simd_stats_qualified_stage128.cpp",
+      "bytes": 12691,
+      "sha256": "eca87efc267d692e401d2ed49904d3d8e73cc16cad12eb3ae24042328f81025e"
+    },
+    {
+      "path": "computations/geometry_20261116_native128_live_scalar_source.py",
+      "bytes": 15897,
+      "sha256": "06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b"
+    },
+    {
+      "path": "computations/geometry_20261116_native128_physical_radial_cache_source.py",
+      "bytes": 13235,
+      "sha256": "22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6"
+    },
+    {
+      "path": "notes/r515-physical128-radial-mode-cache-source-plan.json",
+      "bytes": 8662,
+      "sha256": "5950052fac0d9c23e96f29421c03df79f4748828b2d7a6e9a4ed7f40bd090666"
+    }
+  ],
+  "views": [
+    {
+      "role": "operator",
+      "baseline": {
+        "file": "geometry_20261115_native_simd_digit_operator_trace128.hpp",
+        "bytes": 29035,
+        "sha256": "b183eeecf4f3009bf202dd0f465c8d4fdb17d8cc0ce14bb90d1ed5e6ecf485ac"
+      },
+      "patches": [
+        {
+          "id": "explicit-paired-kernel-include",
+          "before": "#include \"geometry_20261115_native_simd_exact_digit128.hpp\"",
+          "after": "#include \"geometry_20261116_native_paired_exact_digit128.hpp\"",
+          "count": 1
+        },
+        {
+          "id": "independent-operator-header-guard",
+          "before": "VISIBLE_NATIVE_SIMD_DIGIT_OPERATOR_TRACE128_HPP",
+          "after": "VISIBLE_NATIVE_PAIRED_DIGIT_OPERATOR_TRACE128_HPP",
+          "count": 2
+        },
+        {
+          "id": "complete-dense-map-paired-product",
+          "before": "V out=exact_digit_simd128::multiply(values.data(),x.data(),rows,columns,count,",
+          "after": "V out=paired_digit128::multiply(values.data(),x.data(),rows,columns,count,",
+          "count": 1
+        },
+        {
+          "id": "cached-right-complete-pairs-and-odd-tail",
+          "before": "      for(size_t j=0;j<columns;++j)\n        out.at(i,static_cast<int>(j))=exact_digit_simd128::dot(row,packed_columns[j],stats.digits,time_check);",
+          "after": "      size_t j=0;\n      for(;columns-j>=2;j+=2){\n        const auto pair=paired_digit128::dot_pair(row,packed_columns[j],packed_columns[j+1],\n                                                stats.digits,time_check);\n        out.at(i,static_cast<int>(j))=pair[0];\n        out.at(i,static_cast<int>(j+1))=pair[1];\n      }\n      if(j<columns)\n        out.at(i,static_cast<int>(j))=exact_digit_simd128::dot(row,packed_columns[j],stats.digits,time_check);",
+          "count": 1
+        },
+        {
+          "id": "actual-paired-kernel-statistics-scope",
+          "before": "    <<\",\\\"R414_same_completed_word_dot_contract\\\":true\"",
+          "after": "    <<\",\\\"R522_complete_output_pairs_share_left_integer_plane_load\\\":true\"\n    <<\",\\\"R522_same_one_row_packing_reservation\\\":true\"\n    <<\",\\\"R522_original_zero_wide_and_odd_tail_fallbacks\\\":true\"\n    <<\",\\\"R522_pair_block_has_at_most_two_original_2048_term_reductions\\\":true\"\n    <<\",\\\"R414_same_completed_word_dot_contract\\\":true\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_native_paired_digit_operator_trace128.hpp",
+        "bytes": 29617,
+        "sha256": "082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be"
+      }
+    },
+    {
+      "role": "stage",
+      "baseline": {
+        "file": "geometry_20261116_native_simd_stats_qualified_stage128.cpp",
+        "bytes": 12691,
+        "sha256": "eca87efc267d692e401d2ed49904d3d8e73cc16cad12eb3ae24042328f81025e"
+      },
+      "patches": [
+        {
+          "id": "actual-operator-view-include",
+          "before": "#include \"geometry_20261115_native_simd_digit_operator_trace128.hpp\"",
+          "after": "#include \"geometry_20261116_native_paired_digit_operator_trace128.hpp\"",
+          "count": 1
+        },
+        {
+          "id": "independent-complete-stage-schema",
+          "before": "native-persistent128-complete-simd-dyadic-recorded-stage-maps-v1",
+          "after": "R522-native-persistent128-complete-paired-dyadic-stage-maps-v1",
+          "count": 2
+        },
+        {
+          "id": "actual-complete-stage-pair-scope",
+          "before": "      <<\",\\\"complete_dyadic_dot_then_once_RN113\\\":true\"",
+          "after": "      <<\",\\\"complete_dyadic_dot_then_once_RN113\\\":true\"\n      <<\",\\\"complete_output_pairs_share_left_integer_plane_load\\\":true\"\n      <<\",\\\"all_original_zero_wide_odd_tail_fallbacks_preserved\\\":true\"\n      <<\",\\\"pair_performance_measured\\\":false\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_native_paired_digit_stage128.cpp",
+        "bytes": 12880,
+        "sha256": "49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55"
+      }
+    },
+    {
+      "role": "component",
+      "baseline": {
+        "file": "geometry_20261116_live128_final_components.py",
+        "bytes": 32027,
+        "sha256": "2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866"
+      },
+      "published_prefix": {
+        "plan": {
+          "path": "notes/r515-physical128-radial-mode-cache-source-plan.json",
+          "bytes": 8662,
+          "sha256": "5950052fac0d9c23e96f29421c03df79f4748828b2d7a6e9a4ed7f40bd090666"
+        },
+        "section": "component_layer",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_final_components.py",
+          "bytes": 32429,
+          "sha256": "0a7f47213789bc4779a6241b121f636d2356302b9f258fdf7a94b3dec4b02f8b"
+        }
+      },
+      "patches": [
+        {
+          "id": "actual-paired-component-description",
+          "before": "\"\"\"R515 complete original live128 components with a local physical mode cache.\n\nThe complete SIMD stage map and boundary mathematics are unchanged. The\nphysical endpoint and audit compiler use the explicit R515 source adapter.\nOnly finite radial-mode words are shared inside one physical_jets query;\nall original angular sums, C solves, rows, independent audit and gates remain.\nNo local science, complete derivative enclosure or speed promise is made.\n\"\"\"",
+          "after": "\"\"\"R522 complete live128 components with paired complete dyadic stage dots.\n\nR515 physical radial words remain local to each original query. Stage matrix\nproducts share a left integer plane across two complete outputs while every\ndyadic dot retains the original final RN113 and zero/wide/odd-tail fallback.\nAll original columns, means, C solves, owner and science gates remain.\nNo compilation, execution, derivative enclosure or speed result is claimed.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "id": "actual-component-schema",
+          "before": "SCHEMA = \"R515-live128-cached-radial-final-components-launch-v1\"",
+          "after": "SCHEMA = \"R522-live128-paired-digit-final-components-launch-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-stage-schema",
+          "before": "STAGE_SCHEMA = \"native-persistent128-complete-simd-dyadic-recorded-stage-maps-v1\"",
+          "after": "STAGE_SCHEMA = \"R522-native-persistent128-complete-paired-dyadic-stage-maps-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-stage-operator-name",
+          "before": "HEADER = \"geometry_20261115_native_simd_digit_operator_trace128.hpp\"",
+          "after": "HEADER = \"geometry_20261116_native_paired_digit_operator_trace128.hpp\"\nPAIR_KERNEL = \"geometry_20261116_native_paired_exact_digit128.hpp\"",
+          "count": 1
+        },
+        {
+          "id": "actual-stage-translation-unit-name",
+          "before": "STAGE = \"geometry_20261116_native_simd_stats_qualified_stage128.cpp\"",
+          "after": "STAGE = \"geometry_20261116_native_paired_digit_stage128.cpp\"",
+          "count": 1
+        },
+        {
+          "id": "retain-operator-ancestor-and-bind-new-kernel",
+          "before": "    HEADER: \"b183eeecf4f3009bf202dd0f465c8d4fdb17d8cc0ce14bb90d1ed5e6ecf485ac\",",
+          "after": "    HEADER: \"082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be\",\n    \"geometry_20261115_native_simd_digit_operator_trace128.hpp\": \"b183eeecf4f3009bf202dd0f465c8d4fdb17d8cc0ce14bb90d1ed5e6ecf485ac\",\n    PAIR_KERNEL: \"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\",",
+          "count": 1
+        },
+        {
+          "id": "retain-stage-ancestor-and-bind-new-stage",
+          "before": "    STAGE: \"eca87efc267d692e401d2ed49904d3d8e73cc16cad12eb3ae24042328f81025e\",",
+          "after": "    STAGE: \"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\",\n    \"geometry_20261116_native_simd_stats_qualified_stage128.cpp\": \"eca87efc267d692e401d2ed49904d3d8e73cc16cad12eb3ae24042328f81025e\",",
+          "count": 1
+        },
+        {
+          "id": "copy-all-actual-compiler-headers",
+          "before": "for name in (HEADER, DIGIT_KERNEL, SIMD_KERNEL, RECORDED_HEADER, SHARED_HOISTED_HEADER, STAGE):",
+          "after": "for name in (HEADER, PAIR_KERNEL, DIGIT_KERNEL, SIMD_KERNEL, RECORDED_HEADER, SHARED_HOISTED_HEADER, STAGE):",
+          "count": 1
+        },
+        {
+          "id": "actual-compiler-binding-schema",
+          "before": "schema=\"native128-simd-stats-qualified-operator-compiler-input-v1\"",
+          "after": "schema=\"R522-native128-paired-digit-operator-compiler-input-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-stage-ancestry-in-compiler-binding",
+          "before": "            stage_single_stats_type_qualified=True,",
+          "after": "            stage_single_stats_type_qualified=True,\n            paired_complete_dyadic_outputs=True,\n            original_qualified_stage_ancestor=receipt(HERE/\"geometry_20261116_native_simd_stats_qualified_stage128.cpp\"),\n            original_simd_operator_ancestor=receipt(HERE/\"geometry_20261115_native_simd_digit_operator_trace128.hpp\"),\n            same_original_packing_limit_and_wide_fallback=True,",
+          "count": 1
+        },
+        {
+          "id": "actual-stage-binding-file",
+          "before": "binding_path = directory/\"simd_digit-source-binding.json\"",
+          "after": "binding_path = directory/\"paired-digit-source-binding.json\"",
+          "count": 1
+        },
+        {
+          "id": "actual-returned-stage-binding-key",
+          "before": "result[\"exact_digit_compile_source_binding\"] = binding",
+          "after": "result[\"paired_digit_compile_source_binding\"] = binding",
+          "count": 1
+        },
+        {
+          "id": "actual-complete-derivative-implementation-label",
+          "before": "derivative_numerical_implementation=\"R402-recorded-literal-simd_digit-maps-nominal-factor-binary128\"",
+          "after": "derivative_numerical_implementation=\"R522-paired-complete-dyadic-maps-original-nominal-factor-binary128\"",
+          "count": 1
+        },
+        {
+          "id": "separate-original-single-partial-from-new-pair",
+          "before": "        R414_exact_integer_SIMD_partial_implementation=True,",
+          "after": "        R414_original_single_partial_fallbacks_preserved=True,\n        R522_complete_paired_integer_partial_implementation=True,",
+          "count": 1
+        },
+        {
+          "id": "accurate-operator-dependency-and-executed-view-scope",
+          "before": "        original196_header_and_digit_kernel_bytes_unchanged=True,",
+          "after": "        original196_operator_header_retained_as_pinned_dependency=True,\n        actual_stage_operator_is_explicit_R522_source_view=True,\n        original_R405_and_R414_digit_kernel_bytes_unchanged=True,",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_paired_digit_final_components.py",
+        "bytes": 33416,
+        "sha256": "93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1"
+      }
+    }
+  ],
+  "scope": {
+    "three_expanded_sources_only_in_Actions": true,
+    "complete_component_caller_implemented": true,
+    "original_R515_physical_query_cache_retained": true,
+    "original_complete_stage_columns_means_nominal_factor_solves_preserved": true,
+    "original_one_row_packing_limit_and_order_retained": true,
+    "zero_wide_odd_tail_use_original_complete_dot": true,
+    "each_completed_dot_same_exact_dyadic_sum_and_once_RN113": true,
+    "no_whole_run_trace_or_timing_equivalence": true,
+    "pair_reducer_at_most_two_original_2048_term_blocks_between_polls": true,
+    "original_absolute_clock_not_created_or_reset": true,
+    "current_owner_pipeline_reader_not_silently_reregistered": true,
+    "no_new_public_request_workflow_or_run": true,
+    "no_import_AST_compile_scientific_execution_or_benchmark": true
+  }
+}

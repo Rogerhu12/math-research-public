@@ -260,3 +260,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R888（已证明）**：[原两循环商与sigma源运输](results/R888-original-two-cyclic-quotients-and-sigma-source-transport.md)。实际Hadamard给两个原循环p商的degree4饱和拉回；原CM degree3再给degree12，trace/4、trace/12均保content。原源−K Y−δ^(6p−5)与混合θ(r+t)同h权、两级theta线、全部六级标记保真；原quotient微分和残域ell±明确，cs残值−s。criticalTaylor/第五lift、除p整和height仍开。SHA256 50b12755920b34072073e497bc3112b79a818458287cbe0e1794dfac05881cd0。
 
 - **R883（实际完成）**：[原t首项与标架方向认证](results/R883-certified-original-t-first-order-frame.md)。run43843430426/sourcea41eaf28，5stage/0.186012313s/28旧原件；原B0=829783888单位、c=354813668 modp753，完整三项比值乘回。准确c=(a1b0−a0b1)/(48s b0²)沿原unit-solve源；原t(P0)=0与theta准确消失引用既成证明，模零不反推。c^254/1205/1457的实际幂与正乘方向保存；不是41单位或完整高度。SHA256 5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce。
+
+
+- **R887原共同cusp翻转实际完成**：[认证](results/R887-certified-original-common-cusp-flip-and-bounded-RR-inputs.md)。43844745726/12.558248493s/20stage/388原件；完整U146、原u252首项207667877、首试rank962/C*418及全1360×418关系认证。原Qtilde正乘，ρ阶−1205/首项267133051，t帧必须另乘R883 c^1205；准确K-fixed不冒Q下降。七项范数类保−7C*、3ΣD*、28Dχ及原主因子，六D*/五Lj/height仍缺。 SHA256 81bd4dd38ee613d5b5188dff5f6ea7f417b830f65edec1026f8cb79c0d47c032。

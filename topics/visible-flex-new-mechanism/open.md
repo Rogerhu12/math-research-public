@@ -161,3 +161,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ### 2026-11-16 10:05:13 UTC — 四原子64起点完整观察闭合
 
 [四原子原结论](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)：run43845218578/source18a30d5054a4a2755616ca1c71fcf8870ce1f3d8，64新起点均返回、2071完整值0fail，总6.541216640999892秒；原G∞ best.0014851172678647607、H.6104871150176137（start46中间seq2925）。没有候选、没有minor/Decimal/有理证书；有限返回不当驻点/全局无根。账户闭，不再用余额；继续(.6,2)完整图与真正56全168联合模型。research/report真实pull双README空diff，最新0e259e94…、私有2d9aabe7…QUEUE进行中，下一≤11:03:38。
+
+## 2026-11-16：真实56全168联合模型正式进入公开Actions
+
+[设计](notes/true56-full168-joint-model-design-20261116.md)将全部168列在非零新9的实际56场求导，保原全部pool行、172准确盒及原14实际门。新600秒账户，h=4||Mδ||∞≤1，2ordinary/2selectedJ、8分离/8新增行集master、32新tag、64scalar、3actualpairs。来源56run43842056373+只读55构造COMPLETE；旧56余额不重开。继续读取原stdout后付真实候选或明确本新任务界限，不停在阶段结论；主完成门仍未付。

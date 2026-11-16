@@ -185,4 +185,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 完整WHS/WOB/WPT已成原段逐字保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md；上述原域/七port/两mean/全部coker和finite交叉/严格充分门/未付signed逆及系数导数义务不变。
 
-[WOBSA实际完整外端和粗域观测](results/R133-supplement-actual-complete-outer-rows-and-rough-positive-observations.md)c2eff7d8：43844596176成功，18门/6图37新/1exp1pow7sqrt，42旧record/73scope/112旧gate全保，old0/lost0；全部37原球/输入/运维pins见proof，三件76722B。outer high完整行约.00846292含真mean，完整Phi/Upsilon/rough/root/zero-IVP端点费用已付；未知G/Btarget/high右因子、WHVA false及actual signed finite逆全部仍待。37新目标冻结禁重。
+WOBSA37量冻结及WMF完整恒等式的原段逐字保[完整outer与归一mean scope](notes/2026-11-16-complete-outer-and-normalized-mean-open-scope.md)622d8420。原球/域/两物理mean/全部terminal与g1/Jr、WHVA false及未知G/Btarget/high右因子/signed逆义务不变。
+
+[WPTV值域尾合同](results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md)dda500b8及[inventory](notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json)f7dd2ed0：同GH精确分frozen B0+全signed差，原collar/body双source列保，δvalue=max(h_i e_i/π)+hmax B_K/π<1才授tail逆；外Q_iV0无右Q，ramp/193mean/全Schur不减。17小text+19history实核，原13parts+centre5+repair足基线，完整δ差全付，无需新径导。固定mesh及新e/EB/CA/CB/gate尚未算；false不自动扩网格，不授finite逆。

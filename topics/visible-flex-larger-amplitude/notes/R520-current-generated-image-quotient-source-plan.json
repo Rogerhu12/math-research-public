@@ -1,0 +1,247 @@
+{
+  "schema": "R520-current-generated-image-quotient-source-registration-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "baseline_R517": {
+    "file": "geometry_20261116_full_E3_quotient_lower_bound.py",
+    "bytes": 39936,
+    "sha256": "0c69c61c09a8f518e792495fd1109b7f310d57da69676368a51233b648a4ba89",
+    "schema": "R517-complete-R425-image-full-E3-rational-lower-bound-v1"
+  },
+  "actual_derived220_request": {
+    "bytes": 99330,
+    "sha256": "2d1c3a7d56093f0009367bce0e201af14692b51541b759aa3d60b7737dfdaad2"
+  },
+  "families": {
+    "original112": {
+      "level": 0,
+      "producer": {
+        "file": "geometry_20261115_current_C_ten_held_and_rigidity_inputs.py",
+        "bytes": 53711,
+        "sha256": "c87b3a9b9d17f74d8c4f4066f65318e50fed5a56143f620628049a86dcf77ef2",
+        "schema": "R425-current-C-ten450-whole-image-held-and-planar-germ-inputs-v1"
+      },
+      "cap": {
+        "file": "geometry_20261115_current_C_ten450_fixed_cap_balls.py",
+        "bytes": 23622,
+        "sha256": "0ff1fa60a619a7df8e58e72e240dc42e99850eacd05b6426cc70e9083f76afae",
+        "schema": "R417-current-ten450-fixed-cap-rational-six-jets-and-balls-v1"
+      },
+      "kernel": {
+        "file": "geometry_20261116_full_E3_quotient_lower_bound.py",
+        "bytes": 39936,
+        "sha256": "0c69c61c09a8f518e792495fd1109b7f310d57da69676368a51233b648a4ba89",
+        "schema": "R517-complete-R425-image-full-E3-rational-lower-bound-v1"
+      },
+      "wrapper": {
+        "file": "geometry_20261116_actual202_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve_held.py",
+        "bytes": 5745,
+        "sha256": "fc6bceb11912270c2a408bf9dc764926471b5b1d1680b24d8a54fb17954b2282",
+        "schema": "R505-actual202-coast-base-zero-linear-coast-ten450-parameter-block-held-v1"
+      },
+      "postsolve": {
+        "file": "geometry_20261116_actual202_coast_base_zero_linear_gzip_coast_ten450_parameter_block_postsolve.py",
+        "bytes": 27226,
+        "sha256": "4c53c7008ea5744fecbf5e35f5c9a037ecd587395d26aff963b9d2d77d0e55f7",
+        "schema": "R505-actual202-coast-base-zero-linear-coast-ten450-first-parameter-block-postsolve-v1"
+      }
+    },
+    "resolution112": {
+      "level": 1,
+      "producer": {
+        "file": "geometry_20261116_current_C_resolution_held_and_rigidity_inputs.py",
+        "bytes": 53737,
+        "sha256": "144da57a9d55547fa3b85ccb43c0f4261db2e2dcb41e91094c8d3a16c9b7d7b1",
+        "schema": "R441-current-C-resolution450-whole-image-held-and-planar-germ-inputs-v1"
+      },
+      "cap": {
+        "file": "geometry_20261116_current_C_resolution_fixed_cap_balls.py",
+        "bytes": 23665,
+        "sha256": "ca53bdc5c0cdd5764065301f0edb1259d083fdffa9f3d767a5a38b4a7cafe364",
+        "schema": "R441-current-resolution450-fixed-cap-rational-six-jets-and-balls-v1"
+      },
+      "kernel": {
+        "file": "geometry_20261116_R520_resolution112_quotient_kernel.py",
+        "bytes": 40003,
+        "sha256": "5e53b80c1dd1db9f2817241bb6de06755b51381b4d61e5842847fe3784e9a02a",
+        "schema": "R520-resolution112-registered-full-E3-rational-lower-bound-v1"
+      },
+      "wrapper": {
+        "file": "geometry_20261116_current_C_coast_base_zero_linear_gzip_same_far450_coast_postsolve_held.py",
+        "bytes": 44218,
+        "sha256": "2fbf7500bbf75b58fa540487586a239e97c642d8d7bcdd8bb6fa301b81571852",
+        "schema": "R496-current-C-zero-linear-same-far-resolution450-coast-held-v1",
+        "frame": "R496_ZERO_LINEAR_SAME_FAR_COAST_HELD_NECESSARY"
+      },
+      "postsolve": {
+        "file": "geometry_20261116_current_C_coast_base_zero_linear_gzip_same_far450_coast_postsolve_geometry.py",
+        "bytes": 65905,
+        "sha256": "e9b24e4a88561b62ebed859931207eb26daf782d4dc56e9bad0988ec7c325155",
+        "schema": "R496-current-C-zero-linear-same-far-resolution450-coast-block-geometry-v1"
+      }
+    },
+    "incrementalM": {
+      "level": 2,
+      "producer": {
+        "file": "geometry_20261116_current_C_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py",
+        "bytes": 53906,
+        "sha256": "c9d4d7cb65511bec07f3e783f3f2ef1b5b51ef511927b08feb004e44cf37cf68",
+        "schema": "R464-current-C-incremental-M-whole-image-held-and-planar-germ-inputs-v1"
+      },
+      "cap": {
+        "file": "geometry_20261116_current_C_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py",
+        "bytes": 23724,
+        "sha256": "f7f657f4c2fda82e97bfed3846b3f45e045708eb31d7c0837b280e2781260b38",
+        "schema": "R464-current-C-incremental-M-fixed-cap-rational-six-jets-and-balls-v1"
+      },
+      "kernel": {
+        "file": "geometry_20261116_R520_incrementalM_quotient_kernel.py",
+        "bytes": 40066,
+        "sha256": "372a7d3cb7000e21fb3427568175b48d86e589538d3897116e3cc53f7aa63139",
+        "schema": "R520-incrementalM-registered-full-E3-rational-lower-bound-v1"
+      },
+      "wrapper": {
+        "file": "geometry_20261116_current_C_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_held.py",
+        "bytes": 44358,
+        "sha256": "fc1183419729c5e454c9854e3b930cd20bb84cfd474a090ff1a7627cccc65cdf",
+        "schema": "R496-current-C-zero-linear-incremental-M-coast-held-v1",
+        "frame": "R496_ZERO_LINEAR_INCREMENTAL_M_COAST_HELD_NECESSARY"
+      },
+      "postsolve": {
+        "file": "geometry_20261116_current_C_coast_base_zero_linear_gzip_incremental_M_coast_postsolve_geometry.py",
+        "bytes": 72420,
+        "sha256": "77a235f6a5cf28a20743171e060530155d58a0f1a2c02c5f912782a82326e3da",
+        "schema": "R496-current-C-zero-linear-incremental-M-coast-block-geometry-v1"
+      }
+    }
+  },
+  "views": [
+    {
+      "family": "resolution112",
+      "baseline": {
+        "file": "geometry_20261116_full_E3_quotient_lower_bound.py",
+        "bytes": 39936,
+        "sha256": "0c69c61c09a8f518e792495fd1109b7f310d57da69676368a51233b648a4ba89",
+        "schema": "R517-complete-R425-image-full-E3-rational-lower-bound-v1"
+      },
+      "output": {
+        "file": "geometry_20261116_R520_resolution112_quotient_kernel.py",
+        "bytes": 40003,
+        "sha256": "5e53b80c1dd1db9f2817241bb6de06755b51381b4d61e5842847fe3784e9a02a",
+        "schema": "R520-resolution112-registered-full-E3-rational-lower-bound-v1"
+      },
+      "replacements": [
+        {
+          "before": "SCHEMA = \"R517-complete-R425-image-full-E3-rational-lower-bound-v1\"",
+          "after": "SCHEMA = \"R520-resolution112-registered-full-E3-rational-lower-bound-v1\"",
+          "count": 1
+        },
+        {
+          "before": "R425_NAME = \"geometry_20261115_current_C_ten_held_and_rigidity_inputs.py\"",
+          "after": "R425_NAME = \"geometry_20261116_current_C_resolution_held_and_rigidity_inputs.py\"",
+          "count": 1
+        },
+        {
+          "before": "R425_SHA = \"c87b3a9b9d17f74d8c4f4066f65318e50fed5a56143f620628049a86dcf77ef2\"",
+          "after": "R425_SHA = \"144da57a9d55547fa3b85ccb43c0f4261db2e2dcb41e91094c8d3a16c9b7d7b1\"",
+          "count": 1
+        },
+        {
+          "before": "R425_SCHEMA = \"R425-current-C-ten450-whole-image-held-and-planar-germ-inputs-v1\"",
+          "after": "R425_SCHEMA = \"R441-current-C-resolution450-whole-image-held-and-planar-germ-inputs-v1\"",
+          "count": 1
+        },
+        {
+          "before": "CAP_NAME = \"geometry_20261115_current_C_ten450_fixed_cap_balls.py\"",
+          "after": "CAP_NAME = \"geometry_20261116_current_C_resolution_fixed_cap_balls.py\"",
+          "count": 1
+        },
+        {
+          "before": "CAP_SHA = \"0ff1fa60a619a7df8e58e72e240dc42e99850eacd05b6426cc70e9083f76afae\"",
+          "after": "CAP_SHA = \"ca53bdc5c0cdd5764065301f0edb1259d083fdffa9f3d767a5a38b4a7cafe364\"",
+          "count": 1
+        },
+        {
+          "before": "CAP_SCHEMA = \"R417-current-ten450-fixed-cap-rational-six-jets-and-balls-v1\"",
+          "after": "CAP_SCHEMA = \"R441-current-resolution450-fixed-cap-rational-six-jets-and-balls-v1\"",
+          "count": 1
+        },
+        {
+          "before": "source_generated_views_registered=False",
+          "after": "source_generated_views_registered=True",
+          "count": 1
+        },
+        {
+          "before": "generated_R425_views_or_future_workflow_registered=False",
+          "after": "actual_R520_generated_R425_cap_tuple_registered=True,\n        future_workflow_registered=False",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "family": "incrementalM",
+      "baseline": {
+        "file": "geometry_20261116_full_E3_quotient_lower_bound.py",
+        "bytes": 39936,
+        "sha256": "0c69c61c09a8f518e792495fd1109b7f310d57da69676368a51233b648a4ba89",
+        "schema": "R517-complete-R425-image-full-E3-rational-lower-bound-v1"
+      },
+      "output": {
+        "file": "geometry_20261116_R520_incrementalM_quotient_kernel.py",
+        "bytes": 40066,
+        "sha256": "372a7d3cb7000e21fb3427568175b48d86e589538d3897116e3cc53f7aa63139",
+        "schema": "R520-incrementalM-registered-full-E3-rational-lower-bound-v1"
+      },
+      "replacements": [
+        {
+          "before": "SCHEMA = \"R517-complete-R425-image-full-E3-rational-lower-bound-v1\"",
+          "after": "SCHEMA = \"R520-incrementalM-registered-full-E3-rational-lower-bound-v1\"",
+          "count": 1
+        },
+        {
+          "before": "R425_NAME = \"geometry_20261115_current_C_ten_held_and_rigidity_inputs.py\"",
+          "after": "R425_NAME = \"geometry_20261116_current_C_coast_base_zero_linear_gzip_incremental_M_held_and_rigidity_inputs.py\"",
+          "count": 1
+        },
+        {
+          "before": "R425_SHA = \"c87b3a9b9d17f74d8c4f4066f65318e50fed5a56143f620628049a86dcf77ef2\"",
+          "after": "R425_SHA = \"c9d4d7cb65511bec07f3e783f3f2ef1b5b51ef511927b08feb004e44cf37cf68\"",
+          "count": 1
+        },
+        {
+          "before": "R425_SCHEMA = \"R425-current-C-ten450-whole-image-held-and-planar-germ-inputs-v1\"",
+          "after": "R425_SCHEMA = \"R464-current-C-incremental-M-whole-image-held-and-planar-germ-inputs-v1\"",
+          "count": 1
+        },
+        {
+          "before": "CAP_NAME = \"geometry_20261115_current_C_ten450_fixed_cap_balls.py\"",
+          "after": "CAP_NAME = \"geometry_20261116_current_C_coast_base_zero_linear_gzip_incremental_M_fixed_cap_balls.py\"",
+          "count": 1
+        },
+        {
+          "before": "CAP_SHA = \"0ff1fa60a619a7df8e58e72e240dc42e99850eacd05b6426cc70e9083f76afae\"",
+          "after": "CAP_SHA = \"f7f657f4c2fda82e97bfed3846b3f45e045708eb31d7c0837b280e2781260b38\"",
+          "count": 1
+        },
+        {
+          "before": "CAP_SCHEMA = \"R417-current-ten450-fixed-cap-rational-six-jets-and-balls-v1\"",
+          "after": "CAP_SCHEMA = \"R464-current-C-incremental-M-fixed-cap-rational-six-jets-and-balls-v1\"",
+          "count": 1
+        },
+        {
+          "before": "source_generated_views_registered=False",
+          "after": "source_generated_views_registered=True",
+          "count": 1
+        },
+        {
+          "before": "generated_R425_views_or_future_workflow_registered=False",
+          "after": "actual_R520_generated_R425_cap_tuple_registered=True,\n        future_workflow_registered=False",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "scientific_arithmetic_changed": false,
+  "source_materialization_is_text_only": true,
+  "new_names_only_no_global_monkey_patch": true,
+  "all_previous_source_bytes_kept": true
+}

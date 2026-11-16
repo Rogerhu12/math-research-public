@@ -1,0 +1,63 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43846433774",
+  "stepId": "original-bell-direct9-single-original-source600",
+  "executionSourceCommit": "eb3c37c6f80650e50d82e04ec279ddd329520a1a",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-target-only-source-789f.py",
+  "scriptSHA256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39",
+  "argvTemplate": [
+    "--model-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/original-bell-target-only-source",
+    "--singular",
+    "Singular",
+    "--degree",
+    "9",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 75,
+  "wallSeconds": 592.299910322,
+  "fullTemporaryReceiptBytes": 4683,
+  "fullTemporaryReceiptSHA256": "da9d42d47c4d525ae3d94b95351d42cc18161d6456719615a6184026e6fff311",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 10:11:24 UTC",
+      "beforeReadCommit": "99c73baa1677c3ae266ece96da97ba0594fe8976",
+      "originMainAfterPull": "eb3c37c6f80650e50d82e04ec279ddd329520a1a",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 10:21:18 UTC",
+      "beforeReadCommit": "eb3c37c6f80650e50d82e04ec279ddd329520a1a",
+      "originMainAfterPull": "674702f10933ac6190d9cb00f2fab7e44ae90462",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 4,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1373,
+    "logicalJsonSHA256": "d88c6d1f30fd06aa978542e12f2dfbe257f65da16cc8286364a731331df06a84",
+    "itemCount": 4
+  },
+  "lastRulesReadCommit": "674702f10933ac6190d9cb00f2fab7e44ae90462",
+  "summaryExcludesRecomputableArraysOnly": false
+}

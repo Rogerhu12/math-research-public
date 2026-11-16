@@ -87,7 +87,13 @@
 - R787原570后任务已结束failure，artifact14214393616/26d1058c；立即纯IO读实际末断点，未读core log前不虚称BudgetStop。R883已推c558e0da，NFF已立即pull/rebase第二次成功；H逐字归档。
 - 本push规则：公开Actions真实pull至77f899dc742db5f8520bde17b284118c66a03cd2（2026-11-16T10:08:20.025742+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
-### 2026-11-16 18:12 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 18:13 Asia/Taipei — serre-public-astra-20261115
 - R787已真570→594位，core BudgetStop/exit1、完整history及原lift bb437fd0保留；新请求仅resume更新与budget300，同核心/同原field/proof/source继续，未冒完整函数或高度。
 - 纯IO43846063483读回末日志/1262项manifest247c23d8；R887 u252=207667877、Qtilde首项267133051和六支同s原source均已实际读，继续各消费者。
-- 本push规则：按既读两README执行，发布器真实pull并记录本push提交；主目标OPEN。
+- 本push规则：公开Actions真实pull至f763b778f7fb85d30b4ce341a73054d93fe85dcd（2026-11-16T10:13:21.851230+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 18:23 Asia/Taipei — serre-public-astra-20261115
+- R887实际完成正式登记：原146/252/962/418完整认证，u252=207667877、Qtilde首项267133051与ρ阶−1205；全部源/残差/准确函数DAG完整保留。
+- 小IO43846120888读取实际14件；原t帧正乘c^1205，不冒Q下降、其余六D*、五Lj或height。六分支intake已成并接新12rhs，主目标OPEN。
+- 本push规则：由公开恢复Actions实际pull/rebase并比较两README，准确提交号由发布器在本条与H登记。

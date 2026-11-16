@@ -1140,3 +1140,134 @@ $$
 本附录未把它称作一条固定 holomorphic Hasse–Witt 行，
 没有删去(C18)的低 cross，更没有由覆盖有限或基行列式为单位
 推出 $K_{u,p},K_{v,p}$ 的指定组合非零。
+
+
+## 附录 E. 原质量一 Theta 行的完整 native Gaussian 规范
+
+本附录把(C18)、(D16)中的同一个
+$\mathcal D_{2,p,1}(\Theta)$ 接回
+[R861](R861-original-hasse-aligned-gaussian-and-three-hurwitz-readers.md)
+的完整物理矩阵。与该文第2节以后相同，本节固定共同模型 $b=1$。
+一般单位 $b$ 的(A6)不被未经重标地塞进原 $M$。
+
+记
+$$
+\mathcal C_p=(p+1)\binom{3s-1}{2s-1},\qquad
+U_p=\frac{(p+1)!}{p}\in\mathbf Z_{(p)}^\times,\qquad
+w=z^6 .
+\tag{E1}
+$$
+$\mathcal C_p$ 正是(A6)的准确 $\widehat c_p$ 在 $b=1$ 的值，
+不是其任意模 $p$ 提升。R861 的 Hasse 对齐来源为
+$$
+\kappa^\flat=-34\mathcal C_p/p,\qquad
+g^\flat=d\Theta^{17}e^{-\kappa^\flat w^s}.
+$$
+因此取常数项一的准确十七次根，得到
+$$
+\boxed{
+\Theta^\flat:=(g^\flat/d)^{1/17}
+=\Theta\exp(2\mathcal C_pw^s/p).
+}
+\tag{E2}
+$$
+这个根是原 Gaussian 重标中的同一来源。
+R861 的原整重标及 R602 的 Hurwitz 整性在 $s<p$ 的窗口给
+$\theta_s^\flat:=[w^s]\Theta^\flat\in\mathcal O$。
+没有将未正则化的 $\Theta$ 第 $s$ 系数先当作整数。
+
+在 $w^s$ 处，(E2)精确给
+$$
+[w^s]\Theta=\theta_s^\flat-2\mathcal C_p/p.
+$$
+故原指定行准确等于
+$$
+\boxed{
+\mathcal D_{2,p,1}(\Theta)
+=U_p\theta_s^\flat
+-\frac{2\mathcal C_p(U_p+1)}p.
+}
+\tag{E3}
+$$
+两项均整：Wilson 恒等式给 $U_p\equiv-1\pmod p$。
+若使用标准 Wilson 商
+$$
+W_p=\frac{(p-1)!+1}{p},
+$$
+则还准确有
+$$
+\frac{U_p+1}{p}=(p+1)W_p-1.
+$$
+因此
+$$
+\boxed{
+\mathcal D_{2,p,1}(\Theta)
+\equiv-\theta_s^\flat-2c_p(W_p-1)\pmod p.
+}
+\tag{E4}
+$$
+这里不假设 $W_p$ 在任何素数族中非零。
+
+为了核定没有借参考重标改变此行，回到原任一
+$\kappa=34c_\sigma+\Delta$、$a=p\kappa$，并置
+$$
+\widehat\Theta=(g/d)^{1/17}
+=\Theta e^{-\kappa w^s/17},\qquad
+\widehat\theta_s=[w^s]\widehat\Theta.
+$$
+同一个准确系数恒等式给
+$$
+\boxed{
+\mathcal D_{2,p,1}(\Theta)
+=U_p\widehat\theta_s+
+\frac{U_pa/17-2\mathcal C_p}{p}.
+}
+\tag{E5}
+$$
+最后一个分子整，因为 R861(3)给
+$a\equiv-34c_p\pmod p$。
+若 $\kappa\mapsto\kappa+\varepsilon$ 是原整重标，则
+$$
+a\mapsto a+p\varepsilon,\qquad
+\widehat\theta_s\mapsto\widehat\theta_s-\varepsilon/17.
+$$
+(E5)两项的改变准确相消。
+这与 R861(9)–(11)逐列保持同一个完整 $M$ 一致；
+三条十三行 carry、原公共来源和后两位都未被重选。
+
+将(E3)与(D16)相接，得到固定水平框与原 native 系数的准确等式
+$$
+\boxed{
+\left.
+\frac4{\mathfrak f}
+(Lu\,K_{v,p}-Lv\,K_{u,p})
+\right|_P
+=
+U_p\theta_s^\flat-
+2\mathcal C_p\bigl((p+1)W_p-1\bigr).
+}
+\tag{E6}
+$$
+因此(C18)中的 degree10 旧行也可直接写为
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{10,p,4}(B_{10})
+\equiv{}&
+-36D_2^B-24\theta_s^\flat-68c_p
+-48c_pW_p-72c_pq_p(3)\\
+&+24\mathcal Z_p+\mathcal Y_p\pmod p.
+\end{aligned}
+}
+\tag{E7}
+$$
+两个低卷积仍为(C12)、(C16)的完整原值。
+
+$\theta_s^\flat$ 是整个正则化 $\Theta^\flat$ 的第 $s$ 系数。
+R828 的四个近顶轴及其 $H_p/h_1$ 读的是
+$t^{s-4},\ldots,t^{s-1}$；R861(7)–(8)明确这些轴在上述
+Gaussian 重标下保持，而完整低余项须同步变化。
+因此(E3)–(E7)没有把 $\theta_s^\flat$ 认成 $H_p,h_1,L_1$
+或原 $K_1$ 末三尾之一。
+若要消去该行，仍须同一个物理来源中的实际关系；
+质量一、水平基行列式为单位或本节的整规范都不提供新的中央零。

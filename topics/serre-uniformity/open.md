@@ -130,3 +130,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 **R883原t首项实际完成**：[认证](results/R883-certified-original-t-first-order-frame.md)。43843430426/5stage/0.186012313s；28原件直接用，原B0=829783888/c=354813668均在p753为单位，完整三个比值系数乘回。准确c=(a1b0−a0b1)/(48s b0²)绑定原R807/801/872；原t0准确证明及theta/82尺度相消一次。原帧正乘c^254/c^1205/c^1457，模值各485783778/201313487/902983214；不冒41处单位、全部Picard帧或height。
 
 **R888（完整证明）**：[原两循环商与sigma源运输](results/R888-original-two-cyclic-quotients-and-sigma-source-transport.md)。Hadamard度4与原CM[s]后度12拉回均有整trace左逆、保存完整content；真实两循环p商及原quotient微分框架固定。原源明确为−K Y−δ^(6p−5)(s12p⊠s12p)，θ(r+t)同h混合权、六级标记、高δ因子与Legendre条件完整保留；ell±是原u/varpi残值，ell+^(p²−1)=1，cs残值−s。尚缺与原critical Taylor/fifthlift的指定比较及除p整性，不冒q-normal单位或height。
+
+
+**R887原共同cusp翻转实际完成**：[认证](results/R887-certified-original-common-cusp-flip-and-bounded-RR-inputs.md)。43844745726/12.558248493s/20stage/388原件；完整U146、原u252首项207667877、首试rank962/C*418及全1360×418关系认证。原Qtilde正乘，ρ阶−1205/首项267133051，t帧必须另乘R883 c^1205；准确K-fixed不冒Q下降。七项范数类保−7C*、3ΣD*、28Dχ及原主因子，六D*/五Lj/height仍缺。

@@ -2,41 +2,40 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1012-R787-594-same-core-continuation",
-  "commit_message": "serre: continue original R787 from the actual 594 digit checkpoint",
-  "rules_last_read_commit": "77f899dc742db5f8520bde17b284118c66a03cd2",
+  "request_id": "20261116-1023-R887-actual-common-cusp-flip",
+  "commit_message": "serre: certify the actual original common cusp flip and bounded RR inputs",
+  "rules_last_read_commit": "f763b778f7fb85d30b4ce341a73054d93fe85dcd",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "dddf909353d518210764c00c84c412e87f727f0de6fc7dbc34a02765c66da64f",
+  "expected_previous_request_sha256": "fd20973a3331ea272721aaa44ac187a4a33588fac4c3ea362793d130724feedf",
   "files": [
     {
-      "path": "topics/serre-uniformity/notes/R787-594-digit-checkpoint-and-same-core-continuation.md",
-      "sha256": "b4f7cf29df93996c8b3d421a38dc3b301b061724fc81131704b1b154ff5b3664",
+      "path": "topics/serre-uniformity/results/R887-certified-original-common-cusp-flip-and-bounded-RR-inputs.md",
+      "sha256": "81bd4dd38ee613d5b5188dff5f6ea7f417b830f65edec1026f8cb79c0d47c032",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R787-public-original-power5-relation-request.json",
-      "sha256": "d76216326376b8a96b228d407dbba39595641cf28c9c6fb7046fb1a234dcf61d",
-      "expected_previous_sha256": "00802d0d68f925a53f523bcf9e080964248a307944c9eaf820d3b83d361d8115"
+      "path": "topics/serre-uniformity/HANDOFF.md",
+      "sha256": "ba5320e519a7ded88eff3d05192e83fc7a9e208ea16f0f8683f8c559ed3fae9a",
+      "expected_previous_sha256": "c9544ed519a623a815eed60b0c41ba1641ea8de7adf257bbff13c7e3dcb16cae"
     },
     {
-      "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "c6551349275607d4a28b1859bda6c2cee4a0f4d25da8dbf958c098d81a95b141",
-      "expected_previous_sha256": "1c381b9f659598d89087623c0d16246e68d5a9b373b8a7571f898e7a2470159a"
+      "path": "topics/serre-uniformity/open.md",
+      "sha256": "da49eeea4b9980d73bf8beaece00224c47e1a082c1a931e693c234d5e8166810",
+      "expected_previous_sha256": "8d0ffd32a4b6efd2fa90e1528c024219b220225103292bcd8453cd74b7ecab84"
+    },
+    {
+      "path": "topics/serre-uniformity/results.md",
+      "sha256": "8fd46b19b354318afd16326ff8fcf3fce4adc2295df5d33f8c62e30b0c24a466",
+      "expected_previous_sha256": "78806751fc346c06c2e7e3666c106d5276d71aed035141f2b83d30e1d69b48b0"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "4d5d4ed4f3a1ef73287b23a013511eb41f949de09e8c112d891cc7f8e14aae55",
-      "expected_previous_sha256": "ce4b35656703e8fba3ebd8ca1f304c47250305039366acd191f2479f795a82d6"
+      "sha256": "43c9175a316a4286bf7629fb39358b5b17fd7219f9c2f1b081b318e4d9de281a",
+      "expected_previous_sha256": "672e8862fcb9b354eb303ddc5de915459756df5192908821074cb32ee3e1074a"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-p41-original-power5-relation.yml",
-      "request_path": "topics/serre-uniformity/notes/R787-public-original-power5-relation-request.json",
-      "request_sha256": "d76216326376b8a96b228d407dbba39595641cf28c9c6fb7046fb1a234dcf61d"
-    }
-  ]
+  "dispatch_workflows": []
 }

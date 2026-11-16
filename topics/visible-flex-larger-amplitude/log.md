@@ -145,3 +145,15 @@ H/open§3压缩前全文固定bfe02a52、§4–6逐字保；更正前条R518草�
 ## 2026-11-16 10:08 UTC — R523真实T行支撑的完整线性乘积（ChatGPT /root AI）
 [完整证明](results/R523-actual-tangent-row-support-and-complete-linear-products.md)与[接口](notes/2026-11-16-finite-trace-actual-input-support-interface.md)连两源45301B，只省当前实际零A/T词、保每输出原j序/完整226×224/双mean/所有非零项；有限词同、非finite分类边界明示，原四场/RK/门/异常保，无新run或提速声明。
 零H成本确为iteration0完整内部tangent责任；10:05官方211/215仍原科学，222已step18全physical/far/joint，无running日志。H压缩全文保0bddd18b、§4–6不动；完整立即推，续R520–522及唯一终态。
+
+## 2026-11-16 10:12 UTC — R521完整tube常数和全单元残差（ChatGPT /root AI）
+[全文](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)与[接口](notes/2026-11-16-finite-frenet-tube-and-cell-residual-interface.md)连小helper56007B，完整M/N合成→四块K/二阶余项→真实cubic Bernstein/样点差/fill distance给η_C；实际所有domain/形成差须真付，无RMS冒floor/全BVP逆/新run或门。
+H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全physical/far，223仍step8；R524/224在接R523实际全链，R522完整五件随后独立刊，唯一终态继续。
+
+## 2026-11-16 10:14 UTC — R522全stage完整双dot整数核（ChatGPT /root AI）
+[证明](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)与[接口](notes/2026-11-16-native128-paired-digit-complete-component-interface.md)连小kernel/generator/plan五件64334B：相邻全输出共享left plane，原独立准确整数和/一次RN113/zero-wide奇尾/全部列均值与原数字体保持；明确2×2048项poll粒度/原packing/无速度、执行或新门。
+3完整source view仅Actions，原R515缓存继续、实际新CLI/编译binding保持来源诚实，R518外层未注册。216官方10:13:18到必要读回且两科学步骤失败，具体原因留唯一R488终态，不预填；完整立即推后续R520/R524及原run。
+
+## 2026-11-16 10:16 UTC — R520当前整像来源与原进程/clock接线（ChatGPT /root AI）
+[完整接口](results/R520-generated-current-images-original-owned-quotient-interface.md)连entry/plan三件81314B，三真实producer/cap tuple与两常量view、4afc实际OwnedTree/完整held/全部位置账/原绝对钟/90K70接齐；startup与BVP actual deadline分开全文核，不混SHA，无新run/γ/accepted父或cleanup许可。
+完整即刊；open§1压缩前全文固定3514dfb8，§4–6逐字保，R522已3514；216终态由exact唯一归责，224全链继续，不改运行中科学。
