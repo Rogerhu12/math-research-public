@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WGSA实际完整全局fold与free transport有限jet已取得**：[完整证明](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)，SHA cd82f734。唯一43820816332/1/24门/8图/437槽；SCI72251B、原copy31632B保全部66+40旧球/9scope/whole c72，严格与根patch同germ。geometry I(15,3)、w0 I(14,3)、full forcing I(12,1)、free w1 I(12,2)，ordinary one-sided/sup类型及全部mean/3070接口保；不授genuine/N6/高门/finite。四preGit和stdout全部hash独复原，旧/新已成量禁止重算。
+
 - **WEJ局部mean/γ输入桥已闭解析资格（数值门待）**：[完整合同](notes/2026-11-16-R133-WEJ-local-mean-gamma-bridge-inputs.json)，SHA14158b39。只在[rc,r+]同原germ，以FA2原切点|m|下界减长度×完整普通V_r，正门后由η=−γm给γ/γ_r；完整FA2参数/24门/RR scope及whole c资格保。4原记录+8新槽未求值，不把row790移根，不授对称盘或省mean。
 
 - [WSPA：实际 Schur/Parseval 正侧界与精确系数余项](results/R133-supplement-actual-Schur-Parseval-positive-and-exact-coefficient-split-bounds.md)：唯一43816689251/1的16门/4完整图给 same Rplus整选3.0660269163…e28、独立D∞新界2.3328477893…e9及完整ell2/组合dual；全部finite/mean另保，不替whole Calg。31字段、49位置及完整旧55533B逐字保，三发布前/日志哈希独复原；无高门或全逆。

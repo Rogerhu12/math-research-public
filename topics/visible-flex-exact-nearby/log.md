@@ -388,3 +388,7 @@ WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21�
 ### 2026-11-16 07:09:31 UTC — 同真实局部区间的mean/γ完整输入桥
 
 已推notes/2026-11-16-R133-WEJ-local-mean-gamma-bridge-inputs.json，blob40d7a4f7/14247B/SHA14158b39b976fecbc25006db56e38eeda031c86660f17732f245d1a1d325560b。原FA2 2001f4e2/35718完整成功52字段/24门、参数/RR q/ng/mean所有资格逐字保；原normrow790仅rc本点。根亲核原anchored_coefficients：ep为|eta|上界、eratio为eta1/em上界，ordinary V[1][0]覆盖同germ，故新m下界=mc−(r+−rc)V_r仅[rc,r+]；若严格正，再合法给γ及γ_r两项。4原copy+8新槽计划完整，无球求值/无旧调用/无history恢复，不改WGS已成功包。全局physical mean与对称盘等义务不减。7e75c17db5721ddb1b8a70e2983d4f14d9d2bec3两README未变。
+
+### 2026-11-16 07:11:37 UTC — WGSA完整实际结论独立成文
+
+已推R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md，blob a6c817a4/17939B/SHAcd82f7340bcb5bae91d9f3f3554fa9a77886f746e2d140b9f51d4acd2c1af3ce。全文保唯一WGS43820816332/1实际24门/8图/437槽、全部4file/full pins/19roles/2history及旧formatter失败；两patch/精确degreegroup/a!b! decoder、9个实际正下界原字、sup与A0类型边界和所有false flags清楚。根已全读8个实际新图、local c72与stage40、完整exec/report；40项机械身份/形状/hash全过，无球重算。独立同伴复核双件/673项JSON形状与4preGit通过。新增actual证明不授全received/mean/finite/high/背景，继续后半；eb46ca019bfe2098799cd97a5b31dab27ad3c9a1两README无变化。

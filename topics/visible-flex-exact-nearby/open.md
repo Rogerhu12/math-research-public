@@ -63,6 +63,8 @@ JI/WUA/WUR/WUC/WES/WUB完整六项说明、全部原球/域/mean/失败/lost及�
 [WEJ完整mean/jump/四端](results/R133-supplement-complete-waist-endpoint-and-true-jump-constant-recipes.md)6b7644a9：C64 cutoff/Bext尾、同J两负窗/fullfold旧J0/DJ结构lower、完整反馈/R0/N6、3070jump/原PW、FA六mean两terminal与四waist端/ng0一次全保。全部新量待Actions；whole式56可读WSP新wholepositive，Calg/RF仍原全算子，不授高门/finite/core。
 [WGS全局fold与free transport有限jet](results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md)4d3638fe：strict真flow与root regular quotient分别闭合；完整Φ/X/T I(15,3)、w0 I(14,3)、full−L0w0 I(12,1)、free w1 I(12,2)。全部N/O/ϑHD项、fixed endpoint ordinary dr、根ramification限制和完整8stage保；新增flow/phase5–15，旧已成jet只读。4501+20924历史stage仅公开Actions临时SHA恢复，原whole-wrapper formatter失败仍失败；新数已由唯一43820816332/1的24门/8图/437槽完整成功（SCI8af3af0a/72251、原copy3c5588f1/31632）取得并锁，66+40旧球/9scope/whole c72全保。potential/Bext、N6/mean/J负窗/jump/四端和高门仍待。
 
+[WGSA实际完整全局jet](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734：唯一43820816332/1已24门/8图/437槽成功；全部原copy/域与两个patch完整保，decoder须恢复a!b!；新几何/幅度是sup/component sum而非A0。四preGit/全stdout与完整原hash已独核，后继只读不重，mean/源/四端等仍待。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。
