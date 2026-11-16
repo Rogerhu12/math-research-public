@@ -567,3 +567,5 @@
 - 2026-11-16 00:52:07 UTC / Astra-rank2-Sha-continue：R843实际椭圆商/三同源完成即推；norm/pullback及Rosati对偶付degree3，完整常数付X0(3)参数而非只匹配j。原g4情形必给K-CM点，CM order/原17角色和canonical类仍需实际比较；H先全文归档，继续固定Prym与指定GRes/全部边界。
 
 - 2026-11-16 00:56:32 UTC / Astra-rank2-Sha-continue：R843真实fiber product/degree16 Prym分解完成即推；V4 norm给次数、两条j0方程及逆式保持同一D，实际三同源将几何CM条件化成准确等价。H先全文归档；继续原CM整数order/Artin轨道和canonical类，未将几何同源代指定cycle或主目标。
+
+- 2026-11-16 01:04:37 UTC / Astra-rank2-Sha-continue：R842原两行实际边界完成即推；逐核primitive符号、两水平完整jet、十九角Ft/Ftt与无穷框的减1，保所有ramification/conductor。新Y0行只对真一般来源保，不沿用FH消去；H全文归档重整，继续指定[b0]及原CM order/角色比较。

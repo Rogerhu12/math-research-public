@@ -326,3 +326,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R843 原纤维积与实际 degree16 分解](results/R843-actual-genus-four-quotient-and-cm-three-isogeny.md)：附录A给原D的真实逆式x=(U++U−)/2，将其精确写为两条j0椭圆𝓔±:U±²=z³−a±2√b的fiber product。V4总商P1的norm恒等给Φ∨Φ=2，故JD→JH×𝓔+×𝓔− degree16；JH的两椭圆商degree4，总64。正文3-isogeny使所有参数JD∼E0²×E+²，原JD∼E0⁴恰当且仅当E+为K-CM，仍不指定整数order/Artin角色或cycle比较。V4在最高三ω空间det均+，未从对称性误推出消失；全原组合/推前次数保。
+
+
+[R842 实际边界与水平厚化条件](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：指定[b0]准确写为−BF(qt^rG_V)+同G_V的P补偿；完整D_R与Ξ_R代表差、两个水平全jet、十九角真实Ft/Ftt及无穷uF+4V/减1均付。一般q=Yqtilde时Y0横截边界为c_s t^rW Ft/FY·qtilde·V0，旧FH因子倍的消去不能外推；Y∞保N*+m与N*两段。全conductor/ramification及同ω补零保，横截厚化为Y0:w1∈(e),w0∈(e²)，Y∞:w1∈(e),w0+3bw1∈(e²)。未由局部单位判全行非零，指定耦合与真三长限制仍开。
