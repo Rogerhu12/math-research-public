@@ -88,3 +88,7 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 08:45 UTC — Astra-ISP-789f：原mean秩三整曲面与完整交几何
 [完整概形证明](results/R150-appendix-original-mean-rank-three-integral-surface-and-complete-intersection-geometry.md)由原六次pencil及长35例外付E上整CI、Rp Koszul完整d4、degree20/截面算术亏格26/ωO(2,0)/h=(1,0,10)，保全部非约化例外P1丛。
 根推导后由lit独立审、三父全文和标准上同调复核；根全稿及Hilbert展开/交数已核，无新矩阵运行。几何结论单独推送，完整ann实际日志已成且另稿接续。
+
+## 2026-11-16 08:50 UTC — Astra-ISP-789f：原九目标完整D31湮灭理想与分母律
+[正式证明](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)由同基十步实run43830684123付Ann(B)=Ann(bj)=(p5,p²x,x²)、原Ann=h*I及任f精确5/2导数判准；H25有真D源≤8515，单循环D类型(5,2)。
+根读完整日志/证明，独核六原raw及binding、14矩阵SHA、252组装/核乘回和86阶段；只读审计源码随稿。共同B不冒长7；该子问题关闭，继续共同B/M结构和其它open。
