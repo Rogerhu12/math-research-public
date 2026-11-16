@@ -203,3 +203,6 @@
 
 
 - [R884附录D](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原U四纤维全因式H36=4σ36(X+b)³A2/(2457b)给J36−2[2]*C9=[δ]*K12；同C120的2-new伙伴完整返回已知C8，保C9奇半特征。全Leibniz准确付B(C9)=O8−P8，原S与U合法消去同一O8，得到2457(BU+XU−Bnew)+42BS=42O24new+2P8−42PS。原N/J两配对分成实际2/δ拉回项，所有new读数/低cross/高位Fermat缺陷保，不把核为零冒中央零。
+
+
+- [R882附录E](results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原属19商的L极为145P∞加8个简单cusps，s唯一极阶24，故首一24系数的num≤153/den≤8。ξ=1/s后按h_m=floor145m/24缩放，Newton每项只加ξ的0/1次，不损失170项；4500原Q单位/反演覆盖所需最高ν4079。全部系数由161严格界唯一重建，P_t=t144F_(t+t^-1)(Z/t6)准确回原48域，27+27+33+33和Au/Av/branch全保，未预设执行成功。
