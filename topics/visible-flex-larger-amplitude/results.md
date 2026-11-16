@@ -43,3 +43,7 @@
 | R528 — actual225一次完整128接受与原owner预算partial | [R528](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md) |
 | R561 — 保原首乘积与原累加的准确normal二次平均 | [R561](results/R561-exact-normal-dyadic-average-and-original-first-products.md) |
 | R562 — request236准确二次平均与全部原末门完整入口 | [R562](results/R562-request236-exact-dyadic-average-and-complete-projected-model-entry.md) |
+
+## 行政恢复索引
+
+- [两旧domain manifest的当前依赖判读和固定历史恢复](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)：只普通移出两旧元数据清单1456843B，r6固定d195实际完整必要和全部具体用途/未扫范围、root主线差异与最后真pull守护齐；不改科学结论，不删现用warm/status/gzip/源/输入。

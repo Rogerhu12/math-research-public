@@ -29,3 +29,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:01 UTC /root — R541实际228完整整链结果
 
 [R541](results/R541-actual228-eight-complete39-pairs-and-one-necessary-summary.md)32986/45d99826完整独立刊；八模型+八新warm FD/24trial、单whole87376/46fff9e3原90K内全返，全部失败地址/原QP后验/末参数保。8warm改善后原八批止，success/new_coupled_acceptance=false、native/fullDN未起，跨批权不同不相减；quiet且原raw清。72ed原necessary误建detached Git对象如实记且不再复制，H/open/索引同步；r6完整行政body已返，root补实际delta后普通容量整理，原科学继续。
+
+## 2026-11-16 14:07 UTC /root — 两旧domain清单普通容量整理
+
+[完整审计/恢复](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)依据r6实际89713/d9d正文与23组具体用途，仅两manifest1456843B普通移出，固定e6/d195同字可恢复，全部warm/status/gzip/当前源输入保。r1–5失败/未返及两类操作偏离完整记；root两段27commit/13275新增行/24词零新命中、40新文件完整blob匹配，最终每次真pull后guard重查新源和≤200MB再普通push。H/open/index同步，R569未刊旧f349已换ρ正确最终45975；腾容量后各完整R559/R564/R565/R567/R556/R569逐条即时推/必要入口单派发，不停在整理。
