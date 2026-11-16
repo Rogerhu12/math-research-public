@@ -6,6 +6,7 @@
 
 ## 最近接续结论
 
+- **[十四旧高权来源换出、36低权种子的同一稳定闭包与完整首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)**：74×14原核投影满14，19404坐标及14全十/十八来源乘回；普通参数模106换106，真实项数仅少72。Cl_N(L36)=Cl_N(L50)=原116闭包，完整第一轮恰已付106列模；不称第一轮稳定、单位或特征零。
 - **[完整原权八前沿：秩1312、26新来源与74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)**：全部17674×1386原输入，1106及1286完整前缀独立；100个NiC贡献26，十坐标与18来源全乘回。根直接原子式det4、1,307,876个全核乘积零且核秩74独核；全来源≤8维3425→3451，无未截断稳定/单位断言。
 - **同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
 

@@ -2,7 +2,9 @@
 
 **同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
 
-**原来源计算继续完整有限前沿与受控局部图。** 全116→50、三十NiYj及来源权≤7的917→947和Bell全部幂饱和边界已付；[完整权8前沿](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)实际17674×1386秩1312，保26个NiC、74全核，根原子式det4及全核独核。来源≤8维3425→3451；只在声明有界空间内独立。继续复用完整状态作旧D换源与具体δ RHS；全局50候选600秒未返完整candidate，不空续。[δ14稀疏10×56实际600秒边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)已核：run43883188532的全部原门/560 SSI完成，但candidate583.183秒仅START、整体exit75，完整前缀null→null即停，无source/remainder；转完整权7/8的bδ与六yi bδ只读RHS。单图δ幂仍须全原来源回填；单Bell首一约简不省项，已记录不重复。全W31/W127及各8515/26410整来源费已闭，其余原范围见[结果索引](results.md)。
+**[36原低权种子的稳定闭包与完整首轮已闭](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。** 十四旧高权列全部由原10/18来源换出，普通参数模仍106换106；Cl_N(L36)=Cl_N(L50)，L36完整首轮恰该106列模。第一轮稳定仍未付；继续原交换子压缩第二轮来源和具体图目标。
+
+**原来源计算继续完整有限前沿与受控局部图。** 全116→50、三十NiYj及来源权≤7的917→947和Bell全部幂饱和边界已付；[完整权8前沿](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)实际17674×1386秩1312，保26个NiC、74全核，根原子式det4及全核独核。来源≤8维3425→3451；只在声明有界空间内独立。旧D换源已闭，具体δ RHS继续只读完整状态；全局50候选600秒未返完整candidate，不空续。[δ14稀疏10×56实际600秒边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)已核：run43883188532的全部原门/560 SSI完成，但candidate583.183秒仅START、整体exit75，完整前缀null→null即停，无source/remainder；转完整权7/8的bδ与六yi bδ只读RHS。单图δ幂仍须全原来源回填；单Bell首一约简不省项，已记录不重复。全W31/W127及各8515/26410整来源费已闭，其余原范围见[结果索引](results.md)。
 
 完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-physical-kernel-parameter-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
 
