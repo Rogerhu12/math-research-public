@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 10:14:50 UTC root委托本公开仓库Actions run43847079166真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 97f57084af7698dd9b1fe5f0105af92e3b33a128。
+规则同步记录：2026-11-16 10:16:37 UTC root委托本公开仓库Actions run43847367802真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3891cd383f09c9a87b330f16cf589ca5cc9509b9。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull；每pull核双README，变则仅读差异照新规并记读commit。原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功，禁止force。部分克隆blob:none/sparse；终端失联后委托公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -48,8 +48,8 @@
 - **R521已f763b778三件56007B完整刊**：helper18782/4217、proof21611/d8df、接口15614/79c4。完整M/有限N合成→合法tube四块K与二阶余项→真实cubic Bernstein C′/C″＋样点形成/目标差＋fill distance给η_C及quintic传递。P正界/所有scalar/完整原词仍须真付；无样点null、相对dyadic正sqrt，不以RMS阈值冒floor；尾μ′/连续角投影/全闭项未付，无新run。
 - R515 02320＋R518 bfe02a：同call finite dp共享保原Csolve/全角/负零/原338×112/576audit；R518四件99187B的339public＋12gen=351/71literal接真实原全链，真compiler receipt区分准备与返回，221只内部祖先号。无编译/速度/新request，不改运行221。
 - **R523已534ffc1b四件45301B**：helper6246/e16b、flow9504/14c6、proof16055/4c73、接口13496/3dbe。原同次扫描存真实T行非零地址，完整226×224/双mean/每输出原j序/所有非零下溢项保；有限词同，非finite仅分类不冒NaN payload，输入非法走完整fallback。14真实计数/partial/四场RK保。**amplitude在接R524/request224，实际预留R525**；原211全方法/源闭包/loader/worker/完整reader/18000/quiet保持，新接线成后root发布派发，不停旧211。
-- R516 72fb全E(3)条件γ；R517 f436 source39936/0c69与接口21846/177c真读c87b R425/0ff1帽全部账/成员，双向所有target/8根/partial/90K70保。原active反转全齐，须真帽点，R20/R238不撤；无当前γ/accepted450。**geometry接R520**真实original/resolution/union tuple和4afc OwnedTree，分别核222 startup与BVP actual deadline，不混SHA，不新增实验或门。
-- **R522本次五件64334B完整刊**：kernel8729/480b、gen10717/1554、plan16347/724e、proof14577/12db、接口13964/1b28。完整双dot复用左整数plane，原准确和/一次RN113/zero-wide-奇尾/packing/全224列/双mean保；scalar/AVX2安全界完整，无速度/严格导数声称。3临时view operator29617/082d、stage12880/49a7、component33416/93ec，仅Actions；新compiler binding实际key和CLI明确，R515物理缓存原件保，原钟不重开（单pair至多2×2048项后poll）。尚未注册R518外层，无编译/科学/新run，不追改当前运行。
+- R516 72fb全E(3)条件γ；R517 f436 source39936/0c69与接口21846/177c真读c87b R425/0ff1帽全部账/成员，双向所有target/8根/partial/90K70保。原active反转全齐，须真帽点，R20/R238不撤；无当前γ/accepted450。**R520本次三件81314B完整刊**：entry47597/8d48、plan11453/e288、接口22264/7c21；实际original c87b/0ff1、resolution144da/ca53、union c9d4/f7f6三tuple，两常量view只Actions。prepare/launch/run/readback复用4afc OwnedTree真实PID/startticks/session、原18900+2700/900/30/8–2GiB；222 startup与BVP actual deadline分别全绑，不混SHA。原held/完整位置账/pending/90K70保、cleanup_allowed始终false，无新request/实际γ。
+- **R522已3514dfb8五件64334B完整刊**：kernel8729/480b、gen10717/1554、plan16347/724e、proof14577/12db、接口13964/1b28。完整双dot复用左整数plane，原准确和/一次RN113/zero-wide-奇尾/packing/全224列/双mean保；scalar/AVX2安全界完整，无速度/严格导数声称。3临时view operator29617/082d、stage12880/49a7、component33416/93ec，仅Actions；新compiler binding实际key和CLI明确，R515物理缓存原件保，原钟不重开（单pair至多2×2048项后poll）。尚未注册R518外层，无编译/科学/新run，不追改当前运行。
 
 准确C的结构C²已由R286/R300/R294/R409/R413/R416/R417条件组成付，不重造R298 clip证明；实际accepted450/同场全输出仍待上述run。每结论真完成立即推后继续open，不能在源已接或阶段报告上结束。
 
