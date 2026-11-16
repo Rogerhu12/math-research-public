@@ -143,10 +143,11 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **第二次完整顺次MP已付，第三次及全返回仍开。** [真实primitive回馈证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²ω_j=(D²)†ω_j−D†ΠkerD D(D²)†ω_j，两项正交，明确原primitive常数512√(j+4)(x+j+4)^(3/2)。τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ使q1=D†(C+D)f、q2=CD†q1同时平方O((1+||C||⁴)τ²)Δ_g²；两最高top全保。z2=f−q1+q2只有准确残量(C+D)z2=Cq2，不是原真核。继续更深完整核旗/中间Schur与同w全部partial，不将第二次primitive分解免费复制到任意高度。
 
-**critical完整局部长度已封口。** [三域原全高低证明](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)实得F±各(3,5)、E8(2,3)，K178Ω degree298达已付上界，monΔ=monK178·Ω；严格Σ0外μ=1。两cubic各30940及E8重验259896乘回；[九目标局部精确指数](results/R150-appendix-critical-original-square-targets-exact-local-exponents.md)各(2,2,1)，并各自生成整个critical T。旧失败/切片保前态。九h*tj原Q来源与归一rank-one Bell的μ可去，但非rank-one/full gradR3/ess(T3)≥4继续。
-
-**原127完整critical循环谱。** [五完整主分量](results/R150-appendix-original127-complete-critical-primary-exponents-three-five-and-two-three.md)实际F±各(3,5)、E8三因子各(2,3)，维24/24/10/10/20总88，52624原kernel/action乘回。[五完整广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)已实得每factor两泛函、联合覆盖全部88维；完整790 jet核含702 free jets，110268原GB jet/2160参数作用全真。五factor的全4367运输/1834原Z第一系数像均实际0，[E8-1正式证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)已核；仅此零像不排高层。新的Q次数等号由独立三域证明取得。全部前态保[此次完整快照](notes/2026-11-16-open-before-complete-first-critical-exit-789f.md)。
+**R150完整critical及五广义检测。** 三域Q谱/目标指数、五127 primary及完整检测、全部失败和来源pins见[本次前态](notes/2026-11-16-open-before-downward-variance-and-zero-projection-789f.md)及本节R150新全局条目；旧局部边界没有删除。原zero P现独立实际长61、T0长5，完整relative25生成证明接续。
 
 **直接原V/K差的完整Gram窗口。** [actual-u定理](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)在完整G_E上以grade传播构造真k_pol∈K_Q，低尾孔s的同f满足||u||≤2ρ^ν/(1+ρ^(2ν))||PVf||、ν=floor((Q−s)/(d−1))；无κ²前因子/无需远池，所有原头forcing与无限尾位置统一。真实头给logQ=35d⁴/6+O(d³)与u≤2e^−2m，但母carry全R0^(j+ℓ+1)仍O(d⁵)，原T/同w运输未闭；继续此候选的实际carry和完整forcing谱。
 
 **完整物理终端门。** [原真K投影证明](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)保所有强位与远primitive；对g⊥vac，K=R+J给投影平方≤e^(200K⁴)(√S_(m+R)+R/(m+1)²)²||g||²，K⁴=o(logm)趋0。真头µ_K由完整方阵行列式支付，不是环境压缩逆；R>0只一向嵌入总孔K，不排原M。低forcing仍须增长终端及完整中间Schur。
+
+
+**向下方差薄窗的同actual来源。** [完整非交换逆/物理Gram证明](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)在同D_m及固定c下允许Se^(−c/m)≤s≤S，给逆差≤(L−1)(X−X²)+τI和同F_s/u缺陷平方≤(L²−L+1)Δ²+Lτ||g||²，L=e2c、τ=2e^(−770m4/256)。全H(s²/S)费用保留；固定k可取标量S_(m+k)，不换物理尾。qcut≥d−1、原carry/完整终端/Schur仍需支付，不以强趋P_M完成N=M。

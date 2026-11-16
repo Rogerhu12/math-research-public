@@ -500,3 +500,6 @@
 
 
 - **R150完整31系数分布只余一个指数（2026-11-16）：** [原有限载体定理](results/R150-appendix-coefficient31-sixteen-cyclic-summands-and-one-remaining-exponent.md)以monΔ298、完整Ω31及J=s−2给χ(T/pT)=(s−1)²(s−2)^14、恰16循环因子；完整global t1…t5=(2,5,2,4,2)，只余root2一个E≥6，D挠长度44+E，f2=17/u=v=w=1。全B第四累计像8+m6、增量m6∈{0,1}；若E6，旧完整modp6来源可升精确p²h0，当前仅条件。小多项式121/9/315/316系数已复算。
+
+
+- **R271向下方差薄窗与同actual来源（2026-11-16）：** [完整原证明](results/R271-appendix-downward-variance-window-idempotence-defect-and-same-actual-source.md)在Se^(−c/m)≤s≤S及固定c下，0≤X−Y≤(L−1)(X−X²)+τI；真正H(s²/S)保原物理Gram，完整F_s保持PV/PK/u，距u平方≤(L²−L+1)Δ²+Lτ||g||²。L=e2c、τ=2e^(−770m4/256)，固定标量S_(m+k)合法；物理D_m不移动、qcut≥d−1/完整Schur/carry未省。
