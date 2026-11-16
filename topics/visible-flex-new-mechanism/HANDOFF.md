@@ -36,7 +36,9 @@ R460以H′=pG″支付simple-p无留数；真实Lf range仍保Af/platform/total
 
 [R464](results/R464-nonzero-cubic-mothers-and-complete-nine-row-same-period-gauge-control.md)：从起点双矩rank2选M3≠0、保M5=0和最终各母非零；对同完整成本已有两period/最高P2零，前三行三平移×两gflip、后六平台真表因子H(1−κ⁴−4ε)/(16K)给相位光滑右逆，保seed；最后合法3矩保持十port。完整13规范条件已付。
 
-[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)：KP=B_PH∈R−8、NKP=0，杀整个Jaff。真range上的dτ以有限U截面合法延拓，KP值−η/τ≠0；R463vertical给同一actual(Jaff,d~)截面，完整保n·prototype及两次校正。固定τ/保护芽incoming X*和Klein4倍后目标为−(J(Vbase),d~Vbase+d_fX*)/4；最高e由原包装零，再接R464同一个13规范。前提仍同库两成员/满锥；只付所选端芽，其他s段须用同一wθ。R468正以非仿射真实参数补余一维，试把条件降到满锥；尚未宣完成。
+[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)：KP=B_PH∈R−8、NKP=0，杀整个Jaff。真range上的dτ以有限U截面合法延拓，KP值−η/τ≠0；R463vertical给同一actual(Jaff,d~)截面，完整保n·prototype及两次校正。固定τ/保护芽incoming X*和Klein4倍后目标为−(J(Vbase),d~Vbase+d_fX*)/4；最高e由原包装零，再接R464同一个13规范。前提仍同库两成员/满锥；只付所选端芽，其他s段须用同一wθ。R468已补真实非仿射参数，见下；仍未宣主完成。
+
+[R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)：同共同合法窗口，**h∈span(y)已iff完整Jaff实际有限C1截面**。余商非零时y系数≠0，真collar logh=logh0+εaχ，ΔM=O_C1(ε)，独立R70前缀先精确补整M0，再WW^R使T0。原完整action导数4ya∫χ″²/ε+O(ε)≠0；ε固定有限，全部新块基准入严格正整数配平，真实仿射桥/两次商校正/最后响应收缩不删。可把R467取得J截面的条件降为共同关系；其余vertical/保护芽/同13门前提仍保，所有其它s段与主几何门未付。
 
 四self run43818340099已付两Q-RHS/seq707/三旧self的10记录；head.bind_input缺source_hashes失败，新self0。现发布同任务续接：receipt填原normal.head.source_identity()严格来源树，已付Q-RHS逐字恢复不重算；仅再读R434六abc输入，继续3静态/8响应恢复与四self。源码72268B/240a82b6…，request26887B/eda47811…。原5.033211667秒、2910运算/49120B stdout计同180秒/原上限，前置.005253693秒另保；未有新self结论。
 

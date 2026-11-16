@@ -396,3 +396,7 @@
 
 - **R467已证明条件实际联合定理：全Jaff核内P-hook支付最高d，再接同一13规范。** [完整条件定理](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)保真range有限U延拓、−η/τ、n·prototype/两次J校正、固定incoming与Klein4倍；同一最终成本再清e并接R464。两self/同增强满锥前提尚未代付，其它s段仍欠。
 - **四self已付两Q-RHS后恢复容器失败，续未付self。** [原始记录](notes/weight-zero-four-self-paid-Q-RHS-and-restore-container-failure-20261116.md)：run43818340099/job133135408458，10记录完整，5.033211667秒保同180秒；0新self，不重已付Q逆，修source_hashes容器续行。
+
+## R468｜真实高度脉冲补余商与完整增强成本实际控制
+
+[R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)（29166B；SHA256 `176eb93b7cce398fee3a2109f7ce8edf6315f90feea56244a3b455f7cc3aca9e`）。同一共同窗口下，R466的h∈span(y)已等价于完整Jaff的实际有限C1截面。余商一维的对偶必有y≠0；真collar高度脉冲只改h，ΔM=O_C1(ε)，独立R70前缀补整M0后真WW^R给T0，原完整action导数4ya∫χ″²/ε+O(ε)非零。ε固定有限，全新块基准进入严格正整数配平；原桥、两次商校正、prototype×n及最后有限响应根完整保留。可替换R467取得J截面的较强条件，未预判四self、其它s段或主几何门。根全文读原式推导，0新执行。

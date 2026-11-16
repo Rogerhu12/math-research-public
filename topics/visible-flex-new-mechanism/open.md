@@ -144,46 +144,11 @@ R399–405有限对应点、R408规范不变量、R409–431四约束/D,E/完整
 
 R443十五条输入核中另七条只知Af self为0，未判完整响应是否为0或落八hook像。这个新下界是纸面旗标加真实八尾论证，不重数学秩；若需完整核，必须另消费原完整成本。R247的全pure核仍可在144+K之外；R454已证这些外源在保E的current上不新增方向，完整self分类仍未付。当前优先49真实镜/全根与period。
 
-### R433/R439：actual全ordered零值与真实全点对角商
-
-R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与Klein背景；全部R自然零不被扩成actual Λall0。E/O0下完整local current13=7p-only+6含u代表，三真实suffix共享同一系数。
-
-[R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)将R434七条关系合为D_F(x)=c_F(x;(1,x,x²))，原144共同像=kerD，并列七个完整代表含p-only。这里抛物线只作代数代入；真实各根仍用原μ/suffix、wi/ξi/u,p,r和4ai³因子。由R454该kerD已是全R∩kerE的current像；整个实际C目标可由同一signed响应消去 iff [D_F]=0于Pol≤6/D(kerEval)；formal D非零不等实际无解；下述R456已付同宽真商及多宽上下界。
-
-[R453](results/R453-local-geometric-action-of-the-seven-ordered-current-remainders.md)从原world向量U_s=h²(T×v)、v_s=ρN、(U·v)_s=pρ和M0端项，准确得D=½Tr Fself+4∫kpRloc。R295完整wholeQ主项及全部C²/左尾给Q0→trace0；剩五项Rloc不因Q0自动消失。一次保周期端项s分部给仅h,k,ω与一阶速度的完整六次action，D6=∫h[−k(1+k²)+2kA²+A k_s]/256，D5另保d/平方速度全式；A=h_s/h。p>0且M0只迫k两号，不授余量正性或0。新真正入口是同一路径的这些局部积分与真实Eval商、全self/period/同13门，不再求未知β或重锚；R442的一般三次矩型与FP真range范围保留。
-
-
-### R456：唯一共同镜对的真实有序商；接同一路径D
-
-[R456](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)固定一个真实宽度，将完整13×三尾current代入(x,p/r)=(t∓b,±s)、u/r=h>0及真实n(t)=(n0,n1+tn0,n2+2tn1+t²n0)。两方向degree≤7；末low/high原角色n0=εB²(4√2+3/2)μhigh,0≠0，外部完整cell R/T三矩闭合、12真中心、γ7归一均保原成本。degree7差检D6，去其列后degree5和检−n0(h/6+2s²+10bs/3)D5；没有把n三分量自由化。
-
-同一显式二次c镜盲提升，在任意suffix及全部位置/role共用，给DkerEval=Pol≤4，故全R_E的实际formal商恰D5,D6，二者0 iff同一signed响应能清这一宽度全部C。不同宽度仍共用一个成本：κcap=ur/p²不变的c=1,x盲式只普遍付Pol≤3，已知Pol≤3⊂DkerEval_full⊂Pol≤4，R458在两宽各有原3low/同high与8copy时已付精确额外D4；原冻结库不自动具两宽，仍不移植各宽右逆。
-
-该原canonical/Γ正规化已由R457支付：H*+J4或H*+J6同λ1/J⁺0且整个D0。即使C已全清，仍须同一补偿成本的完整self partial/真range、p点极性、平台连接与actual原型/商/桥/Klein全基准；实际U是否映满两商未作声明。
-
-
-### R457–R459：自然d与同宽全角色共同signed核已付
-
-[R457](results/R457-natural-seven-current-quotient-complete-normalization-and-weight-zero-witness.md)全U自然d=draw−TrFhat/8杀全R、真H^-5协变；原R130完整Γ正规化给dC2=−3x5/128、dC4=dC6=+3x5/128，c0=−1，同母Hhat=H*+J4/J6权0、J⁺/D0、λ1。正规action/全部边项与signed范围保原稿。
-
-[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)用完整current的H^-1真协变、全R/kerE稳定与13点有号谱投影，把完整响应右逆取成权0，从Hhat得到V0全formalC0。任意权0V0的self平移≤8，N8在TR/r4使两镜最高项共同；同μ真实内区路径将完整cap/总通量输运到所有最终母，R448一次原成本右逆W匹配整双多项式。故同一个V#=H*+J4−R_C−W清所有角色/微包/8×12复制两Af×d,e内部门，保J⁺0/全C0/λ1和实际Λ=n2查询0。
-
-共同物理宽度从R280/324/447/450/455起点选定，不修改旧冻结多宽库。最终W可混权，不能再套权0次数界；同宽全门零不自动在所有正H查询闭包零。接完整R0剩余self/全H，或不依赖新affine闭包的实际正锥证明；原型/两次商/桥/Klein完整基准仍付。signed核不授两period真range/平台germ/同13规范，更不授主C²有限族。0新执行。
-
-### R458：实际两宽条件与同宽范围
-
-[R458](results/R458-three-real-suffix-roles-and-two-widths-detect-the-third-ordered-invariant.md)在每宽有三末low/同high和≥8真中心时，完整十三列给DkerEval=Pol≤3，恰余D4/5/6；κ两必要值矛盾排所有例外，并给有限D4读出。当前库可从起点全同宽，不擅增物理宽；仿射查询两H与实际两宽布局分开。R457 D0已可formal全C补偿，R459仅同宽self，下一按R462处理全H。
-
-
-### R462：完整权零self/current核只剩两成本余部
-
-[R462](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)从R201全R0维16/pure3和R316原13列wholeQrank7得全R_E,0维6；R459真实H^-1current律使39空间权0仅A1²/A2¹，七关系剩一条，完整全R lift经Π0给currentrank1，故K0恰5。R443原齐次source表给旧49的权0恰K8/V51/V52；全原self常项/x7小det−13h³s³/3312及K8非零x8证其同镜像rank3。
-
-全正H匹配准确iff同宽目标落完整权0像，旧49的19维混权右逆不能移植。仍余恰两完整cost，self可能增0/1/2维，当前V0成员未付。R316原日志保存13pure列/全T,Euler但未印六核代表；下一只取真正新需的current/self contraction及原差重构，不重旧pure/wholeQ秩/检查。actual锥/固定词基准与九行仍另付。
+已付R433–R462的完整current/self商、镜对和signed背景保于[原文摘录](notes/open-paid-background-R433-R462-actual-enhanced-20261116.md)。以下继续实际增强与同一规范。
 
 ### R461–R467：同一真period/最高值/13规范条件实际衔接
 
-R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十port。[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)证明KP=B_PH整个Jaff核且d~KP=−η/τ≠0；真range最高泛函以U截面合法延拓，用原两次J校正/n·prototype/固定τ/保护芽X*/Klein4倍，实际同时清Jaff与最高d，再由包装清最高e、接同一13规范。仅条件于同一加强库的两个self成员/满锥，未宣已过。其它s段必须把同一wθ代入完整ruling，允许齐次域仅kerLf∩合法矩∩原十port；不能逐段另选规范。
+R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十port。[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)证明KP=B_PH整个Jaff核且d~KP=−η/τ≠0；真range最高泛函以U截面合法延拓，用原两次J校正/n·prototype/固定τ/保护芽X*/Klein4倍，实际同时清Jaff与最高d，再由包装清最高e、接同一13规范。其实际J截面现可由R468在同一加强库共同关系h∈span(y)下取得；四self尚未判定该关系。其它s段必须把同一wθ代入完整ruling，允许齐次域仅kerLf∩合法矩∩原十port；不能逐段另选规范。
 
 
 ### R463：实际双参数控制的完整条件
@@ -195,7 +160,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 
 [首次正有限候选](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671/source de1c7d5a…，1LP/34迭代/68系统，9658原行全部通过；修复h=.25000001109908276、gain=7.0414711481267545e−6，p SHA3fade7f704238c45a9eca095af36035ab10c4741e059d000359cc9d0600f5e09。0新J/JVP/geometry/scalar/actual；同新finite累计14.132776896秒（含BOM失败5.828010012），祖先累计1608.573003992/128值，原点仍53。
 
-现在直接读原已付方向与MODEL；只恢复原MODEL未保存而新JVP必要的U/T，不重旧hardJ/ordinary geometry/finite LP。完整原两网格新方向分离通过才进入原scalar guard、exact163/rounding与真实双网actual；否则保新attainer/gradient后继续新的有限问题。原old64/32/Hildreth账户与主门不变。权威clock/原向量/SHA与全部费用详note；已读最新actual pull ed935a6…两README空diff，下一07:31:53。
+现在直接读原已付方向与MODEL；只恢复原MODEL未保存而新JVP必要的U/T，不重旧hardJ/ordinary geometry/finite LP。完整原两网格新方向分离通过才进入原scalar guard、exact163/rounding与真实双网actual；否则保新attainer/gradient后继续新的有限问题。原old64/32/Hildreth账户与主门不变。权威clock/原向量/SHA与全部费用详note；实际pull与已读提交以HANDOFF最新记录为准。
 
 
 ### R464：原九行与seed已由同一真period核支付
@@ -204,7 +169,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 
 ### R465–R466：同一权零self的联合关系与actual条件
 
-[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)已给Qaff,0/NQaff,1≅S(W0)/S(K0)，原W0/K0成本维7/5。[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)完整换锚mirror保P2/total/ordered，−6以真三列Pol2、−4以已付七列+K4 Pol4及N³H* lift付两增强负权字符。现在同Jaff满闭锥准确iff h∈span(y)；既有双参数actual引理仍需h=y=0。四self保同current纠正后两补响应/两目标的共同完整镜对，不能仅两个MEMBER，也不能把残词判固定母非成员。若满锥但余商非零，续一般actual参数控制。
+[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)已给Qaff,0/NQaff,1≅S(W0)/S(K0)，原W0/K0成本维7/5。[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)完整换锚mirror保P2/total/ordered，−6以真三列Pol2、−4以已付七列+K4 Pol4及N³H* lift付两增强负权字符。现在同Jaff满闭锥准确iff h∈span(y)；既有双参数引理单独仍需h=y=0，R468已用真实高度参数把实际截面条件降到同一个共同关系。四self保同current纠正后两补响应/两目标的共同完整镜对，不能仅两个MEMBER，也不能把残词判固定母非成员。实际参数补足已由R468支付；继续消费完整四self与同一wθ的其它s段。
 
 
 ### 权零四列：已付Q-RHS，修恢复容器续未付self
@@ -214,3 +179,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 ### 四self已付结果续接（2026-11-16 06:52:36 UTC）
 
 原run43818340099两Q-RHS不再应用；同180秒扣已付5.033211667秒。续接只读该10记录与R434六abc，填原完整source_identity后继续未付3静态/8响应混合根与四self，仍保真实左尾及h∈span(y)联合关系。源码240a82b6…/requesteda47811…，原失败和费用不删除。
+
+### R468：满锥条件已给实际完整截面，继续共同关系与全段
+
+[R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)（29166B；SHA256 176eb93b7cce398fee3a2109f7ce8edf6315f90feea56244a3b455f7cc3aca9e）用真实高度脉冲、独立八矩前缀及整块真倒行，给余商唯一非零头的非零参数导数；固定有限ε后将全基准加入正整数配平，保两次商校正/桥/原型，得到同Jaff actual C1 iff h∈span(y)。这只替换R467的取得J截面接口，不提前宣四self共同关系或其它s段ruling、结构、高阶与主几何门。
