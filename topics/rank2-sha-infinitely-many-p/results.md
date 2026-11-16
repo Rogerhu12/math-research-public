@@ -221,3 +221,6 @@
 
 
 - [原Y完整地方Kummer后端](notes/2026-11-16-original-local-kummer-divisor-backend.md)：沿同属19/37/eta48底和原δ常数层逐2/3层提升全部真实闭点，原域双逆/绝对嵌入全保。完整norm零极加全部系数极给严格完整支撑；逐地方核Σef、范数赋值和原F_(r²)次数，含负floor/不分裂剩余扩张及两δ嵌入。已接consumer的四RR与global/local可选路径、manifest/checkout齐，默认未改；原双PASS门/全四除子/全边界/Tate/scalar保，尚未执行。
+
+
+- [R872原quartic的两charge连接核](notes/2026-11-16-r872-quartic-two-charge-global-connecting-kernel.md)：同一非零t³F⁴q来源迫余乘子最低charge j≤2，真实residual次数逐charge单调，故A1/A3/A4的H¹均只保0/1。j0时全部D的全球连接核消失；j1/2的H¹A4维≤3/14。准确核仅[f0a0]3,0与[41f0a1+44f1a0]3,1，A1行由实际F²束态射冗余，所有原Gauss框和f0非单位可能保。有限纤维、全K1长前缀/Π及同R/S仍需联立。

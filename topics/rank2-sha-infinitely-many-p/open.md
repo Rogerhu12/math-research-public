@@ -98,3 +98,8 @@ R834/836/837全单位块和真三长/两长预算保旧完整open；自然Bost47
 ## 持续执行标准
 
 上述活动门及归档中的O4/O6/O7、R364/R561/R654/R712全部未闭。子问题完成即续下一门，主目标完成前持续研究。有限p、复秩一、局部单位、条件height或另一个cycle均不完成本课题；AST/strict/fine不替通常全Selmer。每条完整结论立即推送；HANDOFF记录实际pull、两README差异/已读提交和最新检查点。
+
+
+### 原 quartic 全球连接核的最新缩小
+
+[R872原quartic的两charge连接核](notes/2026-11-16-r872-quartic-two-charge-global-connecting-kernel.md)：同一非零t³F⁴q来源迫余乘子最低charge j≤2，真实residual次数逐charge单调，故A1/A3/A4的H¹均只保0/1。j0时全部D的全球连接核消失；j1/2的H¹A4维≤3/14。准确核仅[f0a0]3,0与[41f0a1+44f1a0]3,1，A1行由实际F²束态射冗余，所有原Gauss框和f0非单位可能保。有限纤维、全K1长前缀/Π及同R/S仍需联立。
