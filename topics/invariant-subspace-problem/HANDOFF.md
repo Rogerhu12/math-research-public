@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 63d5770ac6940fdc413dd5e1ca5d369dccc4fd76（2026-11-16 05:31:59 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0533-parallel-far-source-restoration.json。
+- **最近成功实际 pull 与已读规则提交：** d004a18ccb1c0f34efa23147226b86c6bc3d9f1d（2026-11-16 05:32:46 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0534-complete-twelve-gradient-normal-forms.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
@@ -26,7 +26,7 @@
 - [原W± Cat3正支](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)：完整4×3增广det=κ CatCubic R±；rankA3/Cat3下相容iff R±=0。两真三次数域点33梯度/36H/216V全真，故Cat三阶minor非全在√J；matched Bell仍全零。已有全essT3≤3分类给三个Bell全零，真正剩ess4/5/6。
 - [完整平方非成员](results/R150-appendix-complete-matched-bell-coefficient-charts-and-natural-square-nonmembership.md)：六mean/十一H全自由，wt6全3520×388，模127满列388/加三个平方分量391，严格升Q得每匹配B_r²∉J；任意高来源不绕过，未排√J/更高幂。实际4.414秒/raw2789·c37ab216。
 - [全局双线性坐标](results/R150-appendix-global-matched-bell-hyperbolic-coordinates-and-normalized-critical-ideal.md)：w=MH+∇β/3、u=余五H，B=y·w；完整36双逆/578 Jacobian/34 Euler实真，只除固定数域常数，原R′保完整直线组合。B=1理想=(R′,B∂R′−2R′∂B,B−1)，六yi图保16切向导数+R′，不能二次缩放。实际1.979秒/raw1846·89a175fe。
-- **[原五u全参数free32](results/R150-appendix-original-five-moment-jacobian-complete-intersection-and-parameter-free-rank32.md)：** 全degree6 210×350、Q表示630×1050模127满630，原五二次regular/Hilbert(1,5,10,10,5,1)；Koszul降次只用固定E常数，全部E[y,w]及B=1后五梯度商free32。实际14.830秒/raw1747·1af39e72。[实际squarefree32基](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)全u^ε固定，degree2…6 unit det44/58/5/60/1；adj/det准确E降次，0.376秒。剩12梯度完整NF现成功146.204秒/exit0，12×16及12×5原source全真，raw6274·afc272f8/binding8fb21996，待独立推；v1序列化137为失败。normal_annihilator续6×10 w二次块与全35×55三次门；临时/tmp/normal_nonrankone_789f/twelve-nf-actual-v2。
+- **[原五u全参数free32](results/R150-appendix-original-five-moment-jacobian-complete-intersection-and-parameter-free-rank32.md)：** 全degree6 210×350、Q表示630×1050模127满630，原五二次regular/Hilbert(1,5,10,10,5,1)；Koszul降次只用固定E常数，全部E[y,w]及B=1后五梯度商free32。实际14.830秒/raw1747·1af39e72。[实际squarefree32基](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)全u^ε固定，degree2…6 unit det44/58/5/60/1；adj/det准确E降次，0.376秒。**[剩12梯度完整NF](results/R150-appendix-complete-original-twelve-gradient-low-normal-forms-over-all-parameters.md)已闭：** 12×16全参数正规形及12×5原source逐原式全真，原17梯度两次可逆运输；实际146.204秒/exit0/raw6274·afc272f8/binding8fb21996。全15输出的压缩/逻辑SHA根独立核；v1序列化137记失败。normal_annihilator续11个H梯度的10生成结构及六y降次，未以rowspan代ideal；临时/tmp/normal_nonrankone_789f/twelve-nf-actual-v2。
 
 ## R271：原完整源、边界与当前工作
 

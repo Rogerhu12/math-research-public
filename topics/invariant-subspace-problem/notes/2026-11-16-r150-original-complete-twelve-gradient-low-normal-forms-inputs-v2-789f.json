@@ -1,0 +1,73 @@
+{
+  "format": "r150-original-complete-twelve-gradient-low-normal-forms-inputs-v2",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssistance": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete-twelve-gradient-low-normal-forms-v2-789f.py",
+    "blob": "eadc4a38cf435ab600fbc1082a4ee9e542cc2294",
+    "bytes": 19286,
+    "sha256": "23f99635b7abe21ff9bd621175fd2d9d82ffd6146690cac7c7b893f443382117"
+  },
+  "parents": [
+    {
+      "name": "hyperbolic",
+      "generator": "notes/2026-11-16-r150-original-matched-bell-global-hyperbolic-coordinates-v2-789f.py",
+      "generatorBlob": "ecd579aa974ae04e14da017542402d36c0cc6cee",
+      "file": "complete-original-hyperbolic-coordinate-model.json.gz",
+      "bytes": 1777288,
+      "sha256": "46537ffbe520ff47df2f18448541a3d2608578ca067a0c865b43e8c44ab55fdc",
+      "logicalSha256": "5a10a784f9d9ee9455f97bdd8a077ff32f1d75eefba392e5c58e5cd6f5de5ee3",
+      "binding": "d939c3506ce8276d82c662f382ae4ffe5c93163929ec1931c2174ecf001c1a8f"
+    },
+    {
+      "name": "squarefree",
+      "generator": "notes/2026-11-16-r150-original-five-moment-squarefree32-fixed-reduction-789f.py",
+      "generatorBlob": "12fc8f80f6b475d00b231449221cf720bc8edf65",
+      "file": "complete-original-squarefree32-fixed-reduction-operators.json.gz",
+      "bytes": 578763,
+      "sha256": "4be5d8a3a900799d41e5428671e1453a30082f0fdb8c3c2a130b416563031c42",
+      "logicalSha256": "b74faeb4ddf0a8ea38f6ece1585c437b01611f06cd11a1822ce9e145b902e62f",
+      "binding": "67f86e42cd7b1e01e30ca0184d136e2983842cfd6df31d28bd3d75fc8a0e8b33"
+    }
+  ],
+  "argv": [
+    "--hyperbolic",
+    "{hyperbolic_model}",
+    "--squarefree",
+    "{squarefree_model}",
+    "--out",
+    "{work}/original-twelve-gradient-low-normal-forms",
+    "--seconds",
+    "600",
+    "--memory-mib",
+    "4096"
+  ],
+  "matchedCubicAscending": [
+    52565262336,
+    6080833024,
+    -43931504,
+    3725
+  ],
+  "fieldCoordinate": "d",
+  "newVariableOrder": [
+    "y0",
+    "y1",
+    "y2",
+    "y3",
+    "y4",
+    "y5",
+    "w0",
+    "w1",
+    "w2",
+    "w3",
+    "w4",
+    "w5",
+    "u0",
+    "u1",
+    "u2",
+    "u3",
+    "u4"
+  ],
+  "scope": "all seventeen original gradient generators transported over the complete parameter ring; five u gradients and twelve exact low normal forms; no assertion that the remaining critical ideal is solved",
+  "persistence": "source, parameters and execution identities/output SHA only; complete polynomial arrays are temporary"
+}

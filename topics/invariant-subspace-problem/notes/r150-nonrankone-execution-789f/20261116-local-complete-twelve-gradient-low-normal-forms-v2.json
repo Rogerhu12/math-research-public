@@ -1,0 +1,169 @@
+{
+  "format": "r150-local-execution-manifest-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssistance": "GPT-6 Astra Pro",
+  "task": "original complete twelve-gradient low normal forms",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete-twelve-gradient-low-normal-forms-v2-789f.py",
+    "blob": "eadc4a38cf435ab600fbc1082a4ee9e542cc2294",
+    "bytes": 19286,
+    "sha256": "23f99635b7abe21ff9bd621175fd2d9d82ffd6146690cac7c7b893f443382117"
+  },
+  "parameters": {
+    "seconds": 600,
+    "memoryMiB": 4096,
+    "pythonFlint": "0.9.0",
+    "argv": [
+      "--hyperbolic",
+      "{hyperbolic_model}",
+      "--squarefree",
+      "{squarefree_model}",
+      "--out",
+      "{work}/original-twelve-gradient-low-normal-forms",
+      "--seconds",
+      "600",
+      "--memory-mib",
+      "4096"
+    ]
+  },
+  "completedUtc": "2026-11-16T05:22:30.058589+00:00",
+  "execution": {
+    "startChunk": "614029",
+    "sessionId": 13343,
+    "completionChunk": "31676f",
+    "exitCode": 0,
+    "elapsedSeconds": 146.2035727620023,
+    "maxResidentKiB": 496352,
+    "binding": "8fb21996da88d9abaa7d8a0c96208129603808d7c5c1e03b9acf6caa1dca6545"
+  },
+  "outputs": {
+    "receipt": {
+      "path": "original-twelve-gradient-low-normal-forms-receipt.json",
+      "bytes": 6274,
+      "sha256": "afc272f8ef0032518d53fda2db3fd137a12cf5dbe0e50914c20155d85c194956"
+    },
+    "manifest": {
+      "bytes": 1921,
+      "logicalBytes": 4135,
+      "logicalSha256": "d58cf0f99c7d2fee7087ca76297d30e70dd4b8ba830ab7b42709b7ab8c6ccc52",
+      "path": "complete-original-twelve-gradient-low-normal-forms.json.gz",
+      "sha256": "ca4c3d98675ab404cb2b8e05c8ddacd32c02d936f751cf05fe572eb57d510e48"
+    },
+    "fiveGradients": {
+      "bytes": 14899120,
+      "logicalBytes": 33246234,
+      "logicalSha256": "e07d41646cb4835c16249133ed48a0a2fe5781a19d182abfb8417d971671597a",
+      "path": "complete-original-five-u-gradient-coefficients.json.gz",
+      "sha256": "19d62f761aa1ec99bc1a410d414beca16bd7457d0e6fdc0446ffc9b3434dc7cc"
+    },
+    "squareInverse": {
+      "bytes": 638039,
+      "logicalBytes": 1289592,
+      "logicalSha256": "a25f7b495c8a9d91f10db97a633d3a2c8e320c97221353434c7af66ed38eb06d",
+      "path": "exact-original-five-square-inverse.json.gz",
+      "sha256": "987f8b552de6d3d4d8dfab8d2ea5c282d8cb60291411e451f1a3d87fcb92778a"
+    },
+    "completeRows": [
+      {
+        "bytes": 25368352,
+        "logicalBytes": 51756648,
+        "logicalSha256": "151a2b544ec24770a7c3e3b3a7b3bdd9a182ff5aae80bfaa48f3f1d817382481",
+        "path": "complete-original-normal-form-01.json.gz",
+        "sha256": "da69f1d1520d9aedd1aeda6fe43d83fba53cbefbf05236d61e7500f149f7bb3c"
+      },
+      {
+        "bytes": 25348574,
+        "logicalBytes": 51757951,
+        "logicalSha256": "88d26d80eaeb5a93b4392cd678a0bf396f9850765339dfe37e46460d5bbecf7c",
+        "path": "complete-original-normal-form-02.json.gz",
+        "sha256": "50743121ea450f017c8ba62a5fea1e9fee575eaf759782b5f08fba88a55b0821"
+      },
+      {
+        "bytes": 25395850,
+        "logicalBytes": 51759886,
+        "logicalSha256": "4bd2bcd48a0f12356c35423567b0ef4144bfe0273514c19a30e1937f43543a2f",
+        "path": "complete-original-normal-form-03.json.gz",
+        "sha256": "6b00299d824a30c0dc60925cb5101a93a87fdeb8a0ff3a35f600e5ced614461c"
+      },
+      {
+        "bytes": 25383338,
+        "logicalBytes": 51757432,
+        "logicalSha256": "daa2642e6ed51376a0aeff7f9b386c258a0cb897b68bc4a1ccf0f2ee410f2980",
+        "path": "complete-original-normal-form-04.json.gz",
+        "sha256": "583e342c2a2d82ad07bbe99713154f4c8a47297af95b5f9d11a49a7e839a2ca4"
+      },
+      {
+        "bytes": 25428256,
+        "logicalBytes": 51762347,
+        "logicalSha256": "a01d41ab93dea8f770c059e2c3f19e4f913f50dbabaeab94f4a2b13ab487eb8f",
+        "path": "complete-original-normal-form-05.json.gz",
+        "sha256": "71415c592fc91daa830f027331cc770c8189e3b34033c83fe493b0aba1551814"
+      },
+      {
+        "bytes": 25404936,
+        "logicalBytes": 51759443,
+        "logicalSha256": "04a87b90e5a3e143f39e1341a19be521fe755a56ccb5da447cd015c106278dd1",
+        "path": "complete-original-normal-form-06.json.gz",
+        "sha256": "7b7407164bc90b6c8e358041ab639016d46e9b1f69bbd195dc9173abff750cdb"
+      },
+      {
+        "bytes": 8523498,
+        "logicalBytes": 17339744,
+        "logicalSha256": "ee4b23abf456401f9d02dfeecf2b4fe6f4e9c99881b18cac16f333111c23af8e",
+        "path": "complete-original-normal-form-07.json.gz",
+        "sha256": "4e9576b525cc3d7cd26361031c2ec212b5a1ce1dcbfda77ef5dee93bab940e18"
+      },
+      {
+        "bytes": 8531082,
+        "logicalBytes": 17339465,
+        "logicalSha256": "1200401781cc1e90ebdc2f51edfc8e180b7e4c64540cdfe957d5835f5f2d70ac",
+        "path": "complete-original-normal-form-08.json.gz",
+        "sha256": "dfa1bdb9542880ec0565e4e74ef440d2721e0e1e99f646faf38ca503062b049b"
+      },
+      {
+        "bytes": 8491008,
+        "logicalBytes": 17337266,
+        "logicalSha256": "35ce13033302d8216efdbffd2d6a1fbd6adc6e6f26a384a534871232e3878353",
+        "path": "complete-original-normal-form-09.json.gz",
+        "sha256": "73fc9a6fd3d16276a31b57638f5ca563ab40333b300ddf3cd2eca272bb1ce4ae"
+      },
+      {
+        "bytes": 8513518,
+        "logicalBytes": 17339418,
+        "logicalSha256": "981085866909d00794679321e40ea9b678aeb64e6bfa594c7dd7693d7d85798d",
+        "path": "complete-original-normal-form-10.json.gz",
+        "sha256": "f8b74d7b293e060c040336cadae8fc5eee46b92899ef5440a8f54e4a201bcb82"
+      },
+      {
+        "bytes": 8513560,
+        "logicalBytes": 17338425,
+        "logicalSha256": "ec5689aac246566d779146bdf8abe824232a2e7a7c21f7ee5aec9d166272e7b9",
+        "path": "complete-original-normal-form-11.json.gz",
+        "sha256": "50d36d278a13c76b71eeffa8b4a2451f605e527de4afec183685147d4113a00c"
+      },
+      {
+        "bytes": 8508049,
+        "logicalBytes": 17334128,
+        "logicalSha256": "00c39d2e137cd83eddaa68635c29e79755a4bdad7e154e0561883596d193b64b",
+        "path": "complete-original-normal-form-12.json.gz",
+        "sha256": "963d445ae79ce8ddcf1bfba036c52452ecf47c6c6802fb8bf2fc77b02496d74d"
+      }
+    ]
+  },
+  "earlierFailedExecution": {
+    "source": {
+      "blob": "35c06e93e2eacbfdbdf96263b21c148da8ddd23e",
+      "bytes": 16512,
+      "sha256": "b487ba8f2b3e9e284d0f95347a8d0900867cc9fcb3bca07e25dba4d2a461230a"
+    },
+    "startChunk": "35db48",
+    "sessionId": 81401,
+    "completionChunk": "aa2995",
+    "exitCode": 137,
+    "lastPrintedPhase": "complete-original-normal-form-12",
+    "lastPrintedElapsedSeconds": 170.74662142399757,
+    "completeOutputModelProduced": false,
+    "scope": "killed while preparing aggregate exact coefficient serialization; not a completed certificate"
+  },
+  "persistence": "No computed polynomial arrays, raw receipt or checkpoints are committed."
+}
