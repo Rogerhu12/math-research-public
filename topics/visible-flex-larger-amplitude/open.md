@@ -91,6 +91,11 @@
 
 [R516](results/R516-finite-full-E3-cover-and-quantitative-quotient-distance.md)/[R517](results/R517-rational-full-E3-kernel-and-current-image-binding.md)/R520完整E(3)覆盖、真像/帽见证及原owner双deadline已付，实际当前γ仍无。[R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)及[R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)全双向可重复对应/交叉边/frontier给0≤L*≤Δ≤dE、Δ=0 iff含反射全等，误差2E+ω/2+h；仅γ<Δ有细化保证。首未分离叶仅未证，原R425全账/真帽成员、source绑定、90K70/raw保/无cleanup权及R520原钟/三tuple仍须实际付，不把条件构造当完整场或比例通过。
 
+
+### R511 / actual222：完整新coast域与真正源码停止
+
+[R511](results/R511-actual222-coast-base-domain-complete-and-native-source-binding-stop.md)32170/5d95；run43837980277、source6643ea831419fb5adf1fd5d21fdbc918fe86c4cd，两终日志amplitude各唯一已读。requested新十点域1028通过/1637处理、未决/未访0；112far/joint、13850点/16128occ/65102work、四数组与gzip20.36GB/decoded95.03GB身份齐。BVP child实起1.379754821s/exit1，旧client argv对新driver来源guard，在prepare_design/phase之前；closed另ENTRY缺coast_base。composition必要超过原90K且无body/准确失败长度，15精化未起；原quiet真而cleanup明确skip，无接受父。与217实际b3ce/b754/387相同但不混本次时钟/正文；R544两guard及完整source关系后继继续，所有原门保。226官方run43863878883/headf93b、compute133287356711已step11科学，root唯一R537终态读者，running日志0。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
