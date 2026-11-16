@@ -93,3 +93,7 @@
 ## 2026-11-16 09:14:22 UTC /root — R510/222冻结220分类薄修完整入口
 
 [R510](results/R510-frozen220-source-list-repair-and-single-clock-composition.md)14224/98ab0a65及[完整接口](notes/2026-11-16-request222-frozen220-source-classification-repair-interface.md)18145/a0568407连四执行件完整刊/dispatch；仅源名单JSON分类改，外层政策全字核、四outer/179生成/46当前源和全部科学/原32GiB/18900+2700保。derived22099330/2d1c真工作视图/HERE，原f6ca checkout不改，唯一原起点含全部copy/准备；独立来源90K/marker后exec原九范围quiet-cleanup。R511/amplitude唯一，正式run/head另记；新增本题136217B、共享workflow99393B用于本题公开计算，无raw归档。
+
+## 2026-11-16 09:17:25 UTC /root — Request222官方绑定及当前检查范围
+
+[222绑定](notes/2026-11-16-request222-official-run-binding.md)正式run43837980277/source6643ea83/compute133199299786，09:14:40Z单次POST200；09:14:51metadata-view step3，不填科学。wf31200586的继承PYPINS仅查祖先220.yml，原科学/四outer/179源范围不改，冻结run不回改/不重启；217在自身caller查实际217。R511/amplitude唯一；H/open§3全文历史保6643，§4–6逐字保，223/217完整入口继续普通发布。
