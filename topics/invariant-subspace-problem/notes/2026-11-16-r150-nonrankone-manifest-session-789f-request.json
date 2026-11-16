@@ -1,0 +1,32 @@
+{
+  "format": "isp-original-nonrankone-manifest-only-session-v1",
+  "rulesReadAtCommit": "57e3c1c6dffd37f1fce226f42265b604ed2167a4",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "historicalInputs": [],
+  "maximumIdleSeconds": 60,
+  "closeSessionWhenStepsComplete": true,
+  "steps": [
+    {
+      "id": "original-two-atom-seventeen-gradients",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py",
+      "scriptSHA256": "3729a351a361039e286b2435571da8c2c91d09d9822cc79cacb9cecf887928cc",
+      "sources": [],
+      "argv": [
+        "--out",
+        "{work}/original-nonrankone-two-atom-gradient",
+        "--seconds",
+        "180",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 240,
+      "receiptPath": "{work}/original-nonrankone-two-atom-gradient/original-nonrankone-two-atom-gradient-receipt.json"
+    }
+  ],
+  "largeDataPersistenceAllowed": false,
+  "mathematicalProgramStatus": "Actual rational full17-gradient and 17x11 linear-part computation at the true two-atom mean; no rank assumed."
+}
