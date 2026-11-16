@@ -355,3 +355,6 @@
 
 
 - **R461：B hook全13盲，原三base合法矩右逆，将同规范精确降九行。** [原完整端口、同步period与固定六参数接口](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)（18043B/SHA78a28b0d1a3fc34b186dfe7c8eb6c720ad8b7d50293f83f2c62575b4575019a7）。Bhat(BD)=R_E+2ER2给B全十三行盲；三真平移circle base由原二次矩闭合/cubic/localT度≤5给合法三矩右逆，同时在kerLf和全十port核。最高d/e后原九行可最后合法化；dP调d后仅六固定hook候选+B盲，未授rank。Smith≤36只界非零行局部整除，actual基准/incoming/gap全保，0新执行。
+
+
+- **true53首次实际：23次完整分离无合格方向，接受53保留。** [首次原输出、全部门和费用](notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md)（15430B/SHA5af6b33ca483ff045a50557428978c4fd10bc417ee583c0f8b37467a00602ed4）。run43811870681/source42f95905…；三新case通过，1prox/184sweep/724792坐标/23完整分离/5新gradient，最后完整gain−5.887796501991287e−7，原mastermetric残差1.588778857197029e−6。搜索配额结束预留1槽，不是600秒/1M用尽；0scalar/actual，仍53。新188.188974004s、祖先1594.440227096s/128值，完整MODEL/dual仅原stdout；四pull空README差异及全部SHA保note，不宣不可行/驻点。

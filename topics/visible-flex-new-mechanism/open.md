@@ -14,9 +14,11 @@
 
 ### O2 最新实际
 
-[p32完整线首实际](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)run43804573954/sourceab1ba331a1d376d61e6e9f9b7f29f2bb9221a1e2：从52同p32的一次完整first-jet cache/1scalar/62query得到alpha≈.5421904710711004；唯一实际pair原28门/163盒真，接受53，η.2660182947853381→.26601514422985384，降3.1505554842770067e−6。κ细57.9992694544513、target13/50仍false；5新fine soft行使池4448/4549 v13/14。其完整53向量与门都在原stdout，来源/指纹/有限容差边界保note。
+[p32首线](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)唯一实际pair曾接受53，η细.26601514422985384、κ57.9992694544513，target13/50未达；池4448/4549 v13/14。旧52cache不能作53模型。
 
-新科学81.445727845秒（含3case dev），祖先总1406.2512530919998秒/126值；UTC job约530秒另列。旧32cone/64HiGHS仍封存；本次生产0solver/J/factory，完整线已完。52 cache不能当53模型。[新请求](computations/request-true53-projected-direction.json)现封存212来源/184py并启动唯一公共Actions：新600秒含3case开发、53完整首阶模型、1投影/≤12prox/≤24全网分离；保全部gap/原hard与163盒，合格后至多1scalar/64query/3实际pair。原模型/cache只原stdout，消费首次真实输出后再继续，不宣已过dev/有方向/改善。不能从有限改进外推精确最优或主门收敛。
+[true53首次实际](notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md)run43811870681/source42f95905deec3024dfee7a687bdc806d38c79baf：新3case通过，完整当前模型建成；1prox/184sweep/724792坐标、23全网分离、5新gradient，全部候选修复gain负，末−5.887796501991287e−7。原master末metric残差1.588778857197029e−6、norm残差5.118940978312495e−7；有限投影尚未原始可行，不能凭dual stationarity小或负gap宣收敛/不可行。搜索23配额结束、1最终复核槽未用，不是600秒或1M用尽。0生产scalar/query/actual trial，接受点仍53，η未变。
+
+新科学188.188974004秒（含新开发），祖先 **1594.440227096秒/128值**，只新增2必要当前模型value。完整原模型/J/梯度/最终dual与161迭代只在原stdout；所有来源、门和费用保note，旧32cone/64LP仍封存。下一研究原有限master可行性/坐标度量与完整gain，必须用已付输出及明确不同方法问题，不余额重试或重建旧模型作检查。所有主几何门继续。
 
 ### 仍须支付
 
@@ -70,31 +72,15 @@ R459的同宽signedV#满足这四门，可在固定τ/history下接两period真�
 
 R460现已把多峰光滑内部与不变解析cap接全：canonical wholeE/这些原totals0给两真平端germ，剩余恰所有simple-Af原partial；simple-p不加门。原平台G″0、gap对k值闭合和同右锚不可删。R459仅signed共同partial零，actual及同一九行rhs继续保留。
 
-### R345/R435–R448：完整49 self模块与准确19/30真实接口
+### R443–R462：已付49模块、唯一镜对与完整权零剩余
 
-R435 K11保真左常数，K0=−8r⁵/45、r0首K5=1024p⁵；R440 c0 universal C核与R441非零c的Wronskian/ur⁴给旧22formal，同固定镜16/六blind。旧六列余商仍只属于该22子模块，不能称增广模块的完整核。所有原K/J尾及实际prototype/J⁺基准保其原稿。
+[R443](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)首次run43801705436已付53完整Af self五次local/无p分母高jet，像38/核15、K11合49，旧11仅MEMBER；完整249记录/原source与费用保原稿，不重旧秩。R446 wholeQ的2+2+四次homotopy给局部性，不能以有限suffix零替formal核。
 
-[R443完整实际](results/R443-complete-self-image-of-the-paid-joint-kernel-and-forty-nine-formal-directions.md)run43801705436/job133083261189/source9c796878a2f7f1b910ebcebadd0b2d05dc0d42ac，直接读R434已付18算子/85Q核/53关系。新53完整2K current先保同锚/左常数，再仅外Af替换，全部成为无p分母的五次local多项式、无非local/高jet残余。fresh53与2新adapter全过；新self像38/系数核15，K11+53 union49/核15，11旧非K全member，旧22包含且新增27formal。完整38基/15核/11成员的原144来源与249记录定位已发表；science1.2916408s、entry3.150114956s、RSS45356KiB；0旧rank/检查、0实际profile/root。
+[R448](results/R448-nineteen-real-mirror-fluxes-and-the-complete-thirty-dimensional-self-remainder.md)同宽非零r镜对完整像Pol10图+Pol7恰19/核30，K完整左逆和L0…7保全部低项/常数；旧22的六blind不是增广全核。64输入另外15只是Af输出盲，不是完整成本0。R452在r0简单点给像9/核40，正母退化u0另有边界；它不制造当前母的新根。
 
-[R446](results/R446-quartic-homotopy-and-locality-of-joint-kernel-self-currents.md)已纸证whole-Q universal的不交2+2迫三密度各有真局部νj；四次M=homotopy/4保双端，h′=−cu使全部u4消，3剩Jj系数恰原current的4倍。因此联合核必Af局部Laurent，R443无p分母是额外实际；不能用少数suffix零代formal核。
+[R455](results/R455-four-natural-moments-with-one-common-degenerate-pair-and-twenty-targets.md)从同一新初选付q四式/F★/D−E5>0和(V19,dP)=(0,η任意有限)，全母仅一对Af简单根/r*>0。原半cap接正反周期核、四宏cell归一矩IFT、中央单调J有号集中和其它C4小纠正全保完整cap/有限N基准，p允许多个简单零；原μ连通路径支付self cap，不只jets。
 
-[R448](results/R448-nineteen-real-mirror-fluxes-and-the-complete-thirty-dimensional-self-remainder.md)只消费原三列V31/V44/V51的唯一x5/x6/x7最高项；同r*≠0、s≠0的真实镜对准确像(P,T P+Q)、degP≤10/degQ≤7，恰19维且无generic h条件。旧五MEMBER改用新V_i原lift，K完整左逆及L0…L7递推保所有低阶/常数，原11左+8右第五幅/位置矩阵真可逆。
-
-49选定独立lift空间的镜对核恰30，Π0 C=C−K[f−]−Σ[x^j](f+−Tf−)L_j给全部原source生成。先同一成本付全部C、用真实normalized η/(ρ⁵r*⁵)清19核心；其余所有根signed可付 iff剩η落Π0原49列在每个真实jet的像。不同母/宽度或r0点保原多项式读出，不沿用旧六blind全盲。64输入的45镜核中另15只是全Af输出盲，不宣完整成本零。
-
-[R451](results/R451-weight-zero-positive-representative-on-complete-real-mirror-copy-families.md)已直接把原H*真实目标送入本像：H*∈U0/λ1/J⁺0，ΣN9=0故self平移≤8；ΣN8H*=αTR+βr4，原2TR=−r4/3−2Lf(Puu)/3给共同γ=(α−6β)/(8!10!)，减γK8后所有根partial≤7。完整K左逆加L0…7得到一个原W，清固定非零r镜对全部同宽对应copy，保λ1/J⁺0；同μ真实内区路径使共同cap最终母全部适用，不只比较jets。
-
-完整对应cell角色的suffix按三矩二次输运，原ordered current次数≤5，故eta额外≤7亦能同一W清；C保原值，首/末角色C因E为0、其它角色未付。所有其它根仅剩八个真正原cap系数与30blind同source像比较，r0按R452另保七高系数。任意混权C修正可增至11次，只有同权0/单独已证八次项一致时能继承H*结论；signed见证不授all-copy actual增强。该同母缺口已由下述R455的新有限周期核构造支付；原R410单独仍只付q0。
-
-R453已给完整局部D action，R454已闭全R current=kerD32；继续R456真实同role镜对余商、全self/period及同一原型×n/两次商/桥/Klein的actual联合。仍未授完整R_p0=144+K，不重R443/旧rank。
-
-[R455](results/R455-four-natural-moments-with-one-common-degenerate-pair-and-twenty-targets.md)从一次新初选同时付q四完整自然矩、D−E5>0、原F★和(V19,dP)=(0,η)，且全母只有同一对Af简单根/r*>0。原R410半cap接正反周期核；四有序宏cell块的全q增量保全部低项，N^(2j+1)归一后基线O(N^-2)、矩阵为正Vandermonde积分，有限N真实根θ=O(N^-2)。J每周期正、cap位移正、纠正仅O(N^-1)，所以D/E条件同母成立。
-
-正常支持全在内负Af区、避开中央单调J；同一q图册的restricted F★最大minor与20原jet minor共同非零，最高有号脉冲只放J，其它处固定C4小纠正，原全部copy/完整基线给有限集中根。p允许有限多个简单零，不用全core单调性；端cap/根/jets准确固定，三矩连通路径保完整self cap。R45119镜像接口因而覆盖该新母的全部Af根；不同role的同一W、全部C/actual基准、真range及p点极性/同13门仍欠。0新执行。
-
-[R452](results/R452-nine-real-fluxes-at-zero-second-jet-and-the-forty-dimensional-remainder.md)补正母r*=0简单镜点：p*≠0/t*=0，准确像Pol5图+right Pol2、rank9/49核40；K5…10与V31/44/51给真实6左+3右。原K0…4全盲但成本非零；其它根仍用同一Π原source，保全C/actual共同前提。
-
-这不制造当前母的r0根。全部53已付r0项仅22非零，显式x≤3且最高p5左右反号；K完整生成式给Pol5左逆，三新右leading为a·(13/128,5x/468,−67x²/92)，a=u*/p*≠0。若离开正母允许u*=0则rank6/核43，不强除a；实际全根目标未由此自动入像。
+R451权0self≤8和共同最高项给同角色copy；R457自然d0与R459真权0全C补偿现已推进到同一W的全角色signed核。R460支付p点及真range，R461支付合法矩/九行接口。R462说明全R0 current核恰5、旧49权0恰3，剩两完整cost与全H成员未付。各层条件不能合并成actual截面；当前继续明确新门，不重新求旧19/30或49像。
 
 ### 完整period与同一w joint仍须真正求解
 
@@ -142,11 +128,9 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)原n2完整非零/n6=n4零，自然权零增强商恰1且λ+经全N下降；canonical正时长M0闭frame有λ+=L+∫(h′/h)²>0，不能建actual全Λall0背景。当前R411–429母消有限真实读出，H*作signed核见证；不能把universal障碍转成该固定圆因子化。全部原计算/开发/费用保原稿，不重。
 
-### 原64/32与首标量线封存；新53完整方向问题
+### 原64/32、p32单线与true53投影观察均封存
 
-原cone32全步gain负，但本次已付同方向内部尺度真实接受53，证明“全步失败”不能排整线。新cache完整15.234MB仅原stdout，先发再62完整query，未再做geometry/J旧检查；实际才付冷前缀。全部scope及祖先账见[p32实际](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)，remaining64/3trial/600额度不授重做已完单线。
-
-[新53完整方向合同](notes/true53-complete-grid-maximin-projection-direction-design-20261116.md)已付：保368640分支的全部当前gap与target常支路，原159→163 coupled box/trust/norm及source53 hard/curvature guard不改；G=diag(KᵀK,1,1)投影的非负对偶逐半空间更新，完整JVP分离补新真实行。数学为新的完整两网一阶LP，未调用旧backend仍算新solver；完整非负dual零延拓给下界，有限浮点不授驻点/不可行。guard域可能不含0，真实p绑定后先交所有合法α（可能正下端），再完整仿射谱线及原14门。新53模型/J/JVP均须独立源与有限配额；只读旧53门/旧52cache不可冒新模型，0旧64/32重启；尚未执行。根15 payload只stdout。
+p32全步失败后的一次完整线曾真实接受53，不能由全步失败排整线。随后true53新完整多峰方法已按上方首次actual note执行，23完整分离无合格方向；不是尚未运行，也没有新实际点。两次原cache/model均只stdout，各自task已结束，剩余额度不授重做。旧64/32及96/160/1200/1800不重命名；后续若改方法须承认原失败和所有新J/JVP/solver成本，明确当前原模型与新子问题。
 
 ### 已付自然/共同cap背景与完整全R current像
 
