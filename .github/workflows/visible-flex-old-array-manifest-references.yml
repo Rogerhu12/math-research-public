@@ -1,0 +1,95 @@
+name: visible-flex administrative old array manifests
+on:
+  push:
+    branches:
+      - visible-flex-larger-amplitude-old-array-manifest-references-20261116
+permissions:
+  contents: read
+jobs:
+  references:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      VISIBLE_SOURCE_COMMIT: '02320c3a035d03c31c4e1fada1d19d9661bf7179'
+      VISIBLE_REPO_TOKEN: ${{ github.token }}
+    steps:
+      - name: Inspect exact old manifest references and metadata structure
+        shell: bash
+        run: |
+          python3 -u - <<'VISIBLE_ARRAY_REFERENCES_PY'
+          import base64, hashlib, json, os, pathlib, subprocess, tempfile
+          repo="Rogerhu12/math-research-public"
+          source=os.environ["VISIBLE_SOURCE_COMMIT"]
+          root=pathlib.Path(tempfile.mkdtemp(prefix="visible-array-metadata-",dir=os.environ["RUNNER_TEMP"]))
+          checkout=root/"repository"
+          env=os.environ.copy()
+          env["GIT_TERMINAL_PROMPT"]="0"
+          env["GIT_CONFIG_COUNT"]="1"
+          env["GIT_CONFIG_KEY_0"]="http.https://github.com/.extraheader"
+          env["GIT_CONFIG_VALUE_0"]="AUTHORIZATION: basic "+base64.b64encode(("x-access-token:"+os.environ["VISIBLE_REPO_TOKEN"]).encode()).decode()
+          def git(*args):
+              p=subprocess.run(["git",*args],env=env,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+              if p.returncode:
+                  print(p.stderr[-3000:],flush=True)
+                  raise SystemExit("Administrative Git operation failed")
+              return p.stdout.strip()
+          git("clone","--filter=blob:none","--depth=1","--no-checkout","--sparse","https://github.com/"+repo+".git",str(checkout))
+          git("-C",str(checkout),"fetch","--depth=1","origin",source)
+          git("-C",str(checkout),"sparse-checkout","set","--no-cone","/README.md","/topics/visible-flex-larger-amplitude/","/.github/workflows/")
+          git("-C",str(checkout),"checkout","--detach","FETCH_HEAD")
+          actual=git("-C",str(checkout),"rev-parse","HEAD")
+          if actual!=source:raise SystemExit("Frozen reference source mismatch")
+          topic="topics/visible-flex-larger-amplitude/"
+          targets=[
+          topic+"notes/public-actions-43622149326-1-rawcell0steps/native-rawcell0-step-capture/rawcell0-step-array-manifest.json",
+          topic+"notes/public-actions-43634889730-1-directld/native-rawcell0-direct-ld/direct-ld-array-manifest.json"]
+          patterns=[]
+          target_metadata=[]
+          def shape(v):
+              if isinstance(v,dict):return {"type":"object","keys":list(v),"entries":len(v)}
+              if isinstance(v,list):return {"type":"array","entries":len(v),"first_element_structure":shape(v[0]) if v else None}
+              if isinstance(v,str):return {"type":"string","characters":len(v)}
+              return {"type":type(v).__name__}
+          for path in targets:
+              raw=(checkout/path).read_bytes()
+              sha=hashlib.sha256(raw).hexdigest()
+              obj=json.loads(raw)
+              row={"path":path,"bytes":len(raw),"sha256":sha,"git_blob":git("-C",str(checkout),"rev-parse","HEAD:"+path),"structure":shape(obj)}
+              if isinstance(obj,dict):
+                  row["top_level_value_structure"]={k:shape(v) for k,v in obj.items()}
+                  row["selected_source_identity_strings"]={k:v for k,v in obj.items() if k in ("schema","source","source_commit","source_file","implementation","run","run_id","artifact","artifact_id") and isinstance(v,(str,int,bool)) and len(str(v))<=3000}
+              target_metadata.append(row)
+              patterns.extend([path, pathlib.Path(path).name, sha, row["git_blob"]])
+          patterns=list(dict.fromkeys(patterns))
+          command=["git","-C",str(checkout),"grep","-I","-l","-F"]
+          for pattern in patterns:command.extend(["-e",pattern])
+          scope=[topic,".github/workflows","README.md"]
+          command.extend(["HEAD","--",*scope])
+          scan=subprocess.run(command,env=env,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+          if scan.returncode not in (0,1):raise SystemExit("Administrative reference search failed: "+scan.stderr[-3000:])
+          paths=sorted(set(x.removeprefix("HEAD:") for x in scan.stdout.splitlines()))
+          records=[]
+          for path in paths:
+              if path in targets:continue
+              raw=(checkout/path).read_bytes()
+              value=raw.decode("utf-8")
+              matches=[]
+              for number,line in enumerate(value.splitlines(),1):
+                  positions=[]
+                  for i,pattern in enumerate(patterns):
+                      at=0
+                      while True:
+                          at=line.find(pattern,at)
+                          if at<0:break
+                          positions.append({"pattern_index":i,"character":at,"context":line[max(0,at-220):min(len(line),at+len(pattern)+220)]})
+                          at+=len(pattern)
+                  if positions:matches.append({"line":number,"characters":len(line),"whole_line":line if len(line)<=1500 else None,"all_match_contexts":positions})
+              records.append({"path":path,"bytes":len(raw),"sha256":hashlib.sha256(raw).hexdigest(),"matches":matches})
+          rules={p:git("-C",str(checkout),"rev-parse","HEAD:"+p) for p in ("README.md",topic+"README.md")}
+          expected={"README.md":"21bd547f56590b7f2dd279d0297efb289a9b2783",topic+"README.md":"bff8aea253a9e6a7a4fac28d810ac454c5499fec"}
+          if rules!=expected:raise SystemExit("README source identity changed; report withheld for new rules")
+          report={"schema":"administrative-old-array-manifest-reference-and-shape-scan-v1","source_commit":actual,"rules_blobs":rules,"partial_clone":True,"scientific_computation_performed":False,"search_tool":"git grep -I -l -F; rg unavailable in prior same runner class","scope":scope,"targets":target_metadata,"patterns":patterns,"matching_files_excluding_targets":records,"all_matches_in_scope_included":True,"no_scientific_array_values_returned":True}
+          encoded=json.dumps(report,ensure_ascii=False,sort_keys=True).encode()
+          if len(encoded)>85000:raise SystemExit("Administrative complete report exceeds 85000; nothing printed as complete")
+          print("OLD_ARRAY_MANIFEST_REFERENCES_JSON "+encoded.decode(),flush=True)
+          VISIBLE_ARRAY_REFERENCES_PY
