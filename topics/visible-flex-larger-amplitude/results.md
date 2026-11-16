@@ -111,3 +111,5 @@
 - [R594：request248原完整full112与明确owner12000资源入口](notes/2026-11-16-request248-native-owner12000-original-full112-interface.md)：新增题29401B及workflow25123B，R593实际454来源和完整全CLI、全局钟/全部原门/真实分配必要；未来R595另付。
 
 - **R583（已证明的有条件源码等价及完整安装接口）**：[完整内循环模式观察与原乘积字](results/R583-complete-inner-loop-rounding-observation-and-original-product-words.md)。四loop实际mode稳定时保八路径RN128/完整统计/原求和；六plan/24依赖/一次真owner安装完整，未声明科学接受或速度。
+
+- **R596（已证明的同场条件缺陷与完整实现）**：[实际保存RHS、全有限DFT和原cubic/quintic单元连接](results/R596-actual-saved-RHS-and-complete-finite-DFT-defect.md)，[完整接口](notes/2026-11-16-actual-saved-RHS-and-complete-finite-DFT-defect-interface.md)。全DY/DU来源/全N双mean/实际Q-C_lit/R521连接已成；真实场数值、caller/原reader接线由R597继续，无新增接受门。

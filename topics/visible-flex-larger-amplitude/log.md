@@ -161,3 +161,7 @@ R594新request8964/接口20437/workflow25123独立刊，已刊R593三件保；45
 ## 2026-11-16 16:18 UTC /root — R583 完整内循环模式观察与实际一次编译安装
 
 R583 header/adapter/plan及完整证明写完即普通发布；原全核两替换、四完整loop/八路径等价有明确actual mode条件，六plan source-only+一次真owner安装，所有原科学门/失败保。248唯一正式run43903713053/headb38a46a6/job133426820200与真实NFF立即pull回执一并记；未读running日志，无新科学成功。
+
+## 2026-11-16 16:19 UTC /root — R596 同场保存RHS、完整有限DFT与原cubic单元缺陷
+
+R596三件104903B完成即独立刊：真实CP/capture/all RHS字、四原物理源、准确有限DFT全N全行、Q/C_lit整cell残差及R521真实sample-fill/transfer，cp.directory新来源修复与全正域范围明确。未注册新run/owned/cleanup，不伪报数值或接受；R597249继续接线。R583已7c16a9e8真pull/普通push，双README未变记H；retention5后续只做已明确两件清理。

@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 16:18:51 UTC root委托本公开仓库Actions run43906086358真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e689aa98060c7062549c9af62eca66e9355ccc8e。
+规则同步记录：2026-11-16 16:20:48 UTC root委托本公开仓库Actions run43906289507真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 496aa3cacf119f55ba0b2a3ecc7c3bf199c48656。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -42,20 +42,19 @@
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[b38a46a6固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/b38a46a6d0f34f250cff6d13c64ffafa65931ef8/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/b38a46a6d0f34f250cff6d13c64ffafa65931ef8/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[7c16a9e8固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-R583本次完整独立刊：原R564全核仅两字面变换，四完整原inner loops各一次真实线程模式观察；同loop实际mode及观察值不变条件下八类原产品/17计数/全部last/累加顺序逐字同。header4657、adapter22648、plan24218、证明23351B；实际六plan source-only和一次owner安装/24额外编译依赖完整，未有新科学运行/加速/接受。248已正式b38a46a6，唯一POST200/run43903713053/job133426820200，16:07前1–10成功/11原科学；官方note本次刊，R595 exact唯一。
+R596三件104903B完整独立刊：真实CP全Y/DY/U/DU/mesh/core、原四物理源closure和同次C_lit捕获，分别保physical DY与逐节点DU；准确全N×(3M+2)有限DFT/direct formation及完整Q/C_lit cell残差、原R521 sample-fill/transfer已实际写成。cp.directory/checkpoint.json修复旧basename-cwd来源问题仅为新源码事实，不预填241/247结果。全N点正域与全连续角cover分开，同R575/同ledger合成有明确条件；没有新caller/运行/数值。R583已7c16a9e8完整刊，publisher43906086358真pull读e689aa98/双README未变、16:19:12普通push，actualtopic199855439B。
 
 ## 完整待发表来源
 
 下面证明和来源均完整；detached manifest只供恢复完整path/bytes/SHA/blob，不冒main已刊或实际计算。各件独立即时发表，实际入口仅正式发布后唯一POST，未知派发不盲重试。
 
-- R596实际保存DY/DU、全有限DFT与整cell Q/C_lit缺陷三件完整104903B，geometry已交；manifest c52bf9982f155734756d7bf8e6ae52a941550260，下一独立刊。
 - 两22/23 manifest固定7af9完整审计body77014/1b8e8bd7已恢复，完整作者说明61249B/54b4ee79已成；最新26patterns delta守卫后只移两件1228897B，其余输入/arrays/warm/status/source全保。
 
 ## 当前执行与紧接责任
 
-R584/request244 exact接R583真六层源与R594原初猜/owner12000，10实际caller视图在写，R585 exact唯一；不混242三参数初猜。R596完整三件已交104903B，root下一立即独立刊，geometry继续R597/request249/R598真同对象caller。22/23完整审计77014/1b8e8bd7及18组93行/真实artifact consumers的作者说明已齐，root做固定7af9至每次最新真pull的26pattern全delta守卫，只删两manifest。原238已采样success但BVP/closed failure，27必要步骤尚running，geometry等终态一次整读；其他各run责任保持，root246仍原科学。
+geometry继续R597/request249/R598真实当前R575 slot/cell/退休/原Budget内summary及必要正常compare/recovery完整接线；R596库已成不等运行再刊。R584244 exact接R583六层/原R59412000基线，10caller469来源在写，R585 exact唯一。root立即完成retention5固定7af9后最新全delta的26patterns守卫，只移两22/23manifest；完整原audit77014/1b8e8bd7、18组93行/真实readers和作者说明61249已齐。现有所有科学run仍原参数/原责任，238等完整终态一次读取，246 root只看metadata。
 
 容量逐笔按f7真实基数加全部变化Git blob size≤200MB；两26/28、两25及两24旧manifest已分别f7d56b2/80840b54/8d1cfb2普通移出，固定完整恢复/全部来源及实际guard见三retention notes。两24最终88874必要可精确逆141568，138完整变化/未知未扫错误0；全部现用warm/status/数组保。根8旧大manifest误读、根15的6fa/72ed原necessary误存detached Git对象继续如实保且停止raw复制，非交付/科学父；只作者源/证明可小文本交接。每次真pull核双README/读commit入H，NFF立即真实pull--rebase再普通push循环，不用force。
 
