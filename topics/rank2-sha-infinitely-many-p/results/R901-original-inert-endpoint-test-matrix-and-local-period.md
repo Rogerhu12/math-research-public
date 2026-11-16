@@ -342,3 +342,105 @@ $$
 - Andrew Knightly–Carl Ragsdale, *Matrix coefficients of depth-zero supercuspidal representations of GL(2)*, Involve7(2014),669–690，DOI [10.2140/involve.2014.7.669](https://doi.org/10.2140/involve.2014.7.669)，[刊本](https://msp.org/involve/2014/7-5/involve-v7-n5-p08-s.pdf)：Proposition1.1、Theorem2.7、Proposition3.1及§3.3。formal degree与单位向量的区别在本文§4显式保留。
 - Dimitrov–Nyssen, *Test vectors for trilinear forms when at least one representation is not supercuspidal*，[作者全文](https://arxiv.org/pdf/1005.0724)，Theorem3。本文的绝对积分由§4–7自含求出，不只引用非零测试判据。
 - Yuan–Zhang–Zhang, *Triple product L-series and Gross–Kudla–Schoen cycles*，[2023作者全文](https://web.math.princeton.edu/~shouwu/publications/triple2023.pdf)：§1.4的 Haar、式(2.2.6)的 local factor。只用其明确规范；未调用含未付坏位项的 global nonvanishing推论。
+
+
+## 附录 A：真实有限端点在自然局部整格中是本原元
+
+本附录进一步区别(25)的平均积分与向量本身的整性。固定 q=ℓ≡−1 modp，故 q 和 q−1 都是 p 单位。取一个有限扩张 E/Q_p，其整数环 O 含 θ 的值及所用非平凡 F_q 加性角色的值，并在需要时包含原局部表示与向量的定义域。
+
+### A.1 两个实际有限模型
+
+用 Knightly–Ragsdale(2-11)–(2-13)的 Kirillov 模型定义
+$$
+L_\theta=\mathcal O[\mathbf F_q^\times].
+\tag{A1}
+$$
+上三角矩阵的作用只是单位相位与置换；其余矩阵的每个 entry是
+$$
+-\frac1q\cdot(\text{加性单位相位})\cdot
+\sum_{N(u)=c}\text{加性单位相位}\,\theta(u).
+$$
+唯一显示分母 q 是 p 单位。逆矩阵也由同一公式给出，所以(A1)是完整稳定整格，不只一个 E-空间的任意基。
+
+令 t∈L_θ 为常数函数1，令
+$$
+t^\vee=\sum_{a\in\mathbf F_q^\times}e_a^\vee
+\in L_\theta^\vee.
+\tag{A2}
+$$
+两者都被 split torus T 固定，且
+$$
+t^\vee(t)=q-1\in\mathcal O^\times.
+\tag{A3}
+$$
+这里 L_θ^∨ 是真正的 O-linear contragredient；不对 p-adic 系数作复共轭。
+
+对原一个球表示，取一个球向量 v，并令 v_x为§5的 q+1 个实际邻点平移。定义其生成格
+$$
+M_{\rm sph}=\sum_{x\in\mathbf P^1(\mathbf F_q)}\mathcal O v_x.
+$$
+(19)是准确关系；(20)在 E 上给秩 q。因此
+$$
+\boxed{
+M_{\rm sph}\simeq
+M:=\mathcal O[\mathbf P^1(\mathbf F_q)]/
+     \mathcal O\!\left(\sum_xe_x\right),
+\qquad \bar e_x\longmapsto v_x.}
+\tag{A4}
+$$
+没有额外整关系：任何 E-关系均为常数向量的倍数，而该向量的各坐标都是1，所以整关系系数必在 O。特别(A4)是商格，不可在 p|q+1 时免费换成 augmentation-kernel 格；两者在 E 上同构不代表其整指标为单位。
+
+### A.2 不除群阶的完整不变泛函
+
+对 x≠y，取 g_{xy}∈PGL₂(F_q) 把有序对 (∞,0) 送至 (x,y)，令
+$$
+A_{xy}=\rho_\theta^\vee(g_{xy})t^\vee,\qquad A_{xx}=0.
+\tag{A5}
+$$
+有序对的稳定子正是 T，故(A5)与 g_{xy} 的选择无关，且全部 A_xy 在 L_θ^∨ 中整。
+
+对固定 x，行和 Σ_yA_xy 被 x的 Borel稳定子固定。cuspidal Kirillov模型没有 Borel-fixed 向量，故该和严格为0。这里也可以直接用上 unipotent作用核：非平凡加性根的阶是 q，与 p 互素，相关根减1是 p 单位；因此其 fixed空间已经在 O 上为0。列和同理。于是(A5)给整 equivariant映射
+$$
+M\otimes_{\mathcal O}M\longrightarrow L_\theta^\vee.
+\tag{A6}
+$$
+与 evaluation配对，再除以(A3)的单位，得到
+$$
+\boxed{
+\mathscr L_\theta:
+L_\theta\otimes M\otimes M\longrightarrow\mathcal O,
+\qquad
+\mathscr L_\theta(v,\bar e_x,\bar e_y)
+=\frac{A_{xy}(v)}{q-1}.}
+\tag{A7}
+$$
+它是完整有限群不变泛函，构造中没有除 |PGL₂(F_q)|、q+1或任何 p-primary群阶。
+
+原不同端点的值准确为
+$$
+\boxed{
+\mathscr L_\theta(t,\bar e_\infty,\bar e_0)=1.}
+\tag{A8}
+$$
+交换两个端点时，(13)给−1。这与(15)的真实反号一致。
+
+### A.3 Coinvariant 的准确本原性
+
+设
+$$
+C_\theta=(L_\theta\otimes M\otimes M)_{PGL_2(\mathbf F_q)}.
+$$
+§6已经证明 C_θ⊗E为一维。(A7)在 C_θ 上满射到 O，因为(A8)取1。它的 kernel在 E 上为零，所以恰为 C_θ 的 O-torsion。因而
+$$
+\boxed{
+C_\theta/C_{\theta,\rm tors}\simeq\mathcal O,
+}
+\tag{A9}
+$$
+且原端点 t⊗ē_∞⊗ē_0在这个 free quotient中是一个生成元。
+
+对两个新增惰性素数，取两个(A7)的张量积，同样在相应两个有限群的 coinvariant去torsion后把真实双端点读为1。因此这些自然局部整格本身不强迫一因子 p，更不强迫 (ℓ₁+1)(ℓ₂+1) 的整除。
+
+(A9)不把原 CM/Shapiro 全局 cohomology格与这个自然 Kirillov/邻点格无证相认：该实际全局比较、有限角色提取及其可能的指标仍须单独核定。它给出的严格信息是，(25)中平均得到的 q+1不能被解释成原端点张量在上述完整局部格中的可除性。原全局类可能因全局关系而可除或为零；本附录没有断言相反结论。
+
+这里全部结论由明确矩阵、两个 permutation格和行列和推得，没有运行有限群数值计算。

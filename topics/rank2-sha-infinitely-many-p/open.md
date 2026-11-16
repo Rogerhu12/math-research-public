@@ -60,7 +60,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - 继续针对同矩阵重建的实际成本；R899的固定split素数Dixon算法/实现已完整证明并请求公开执行（p1000000033、N128、k6）；run43895102858/job133396398465已运行，source1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f，尚无PASS。只有原首项/三嵌入/完整特征零椭圆恒等式通过才认原 map；预算或 chart 未成功不能排映射。
 
 
-- [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120完整证书保；首run43898903977/job133409854237在数学开始前因runpy未加脚本目录失败，已补路径并重触发，无PASS。
+- [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120完整证书保；首run43898903977/job133409854237在数学开始前因runpy路径失败；修复source6a1a9b66b2a0cfaa9e8dbde3692ad3a023793af4的新run43899744213/job133412821010已进入数学步骤，无PASS。
 
 R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。
 
@@ -93,7 +93,7 @@ R897附B进一步付清一条实际限制：原Δ来源pull到full ray再trace�
 
 [R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。附A完整保旧split层，所有惰性子集有同原格Möbius分解；奇数全新块严格0，奇数总层只付min v_p(ℓ+1)整除，偶数新块未付乘积整除。惰性主理想在任prime-to-ℓ原环类塔Frob恒1，所以R891所需长剩余次数不可套；不推s0。
 
-[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)新增惰性真ℓ²端点/三old矩阵只02及20反号；原单位向量Iℓ=(ℓ+1)/ℓ³，volK1 Euler归一=(ℓ+1)⁻²，YZZ实际Haar=(ℓ−1)/(ℓ²(ℓ+1))。全χ/绝对度数及p非unit保，局部非零不付双新全局非零/乘积整除。
+[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)新增惰性真ℓ²端点/三old矩阵只02及20反号；原单位向量Iℓ=(ℓ+1)/ℓ³，volK1 Euler归一=(ℓ+1)⁻²，YZZ实际Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A构造不除群阶的整不变泛函，真Kirillov格与邻点商格的coinvariant去torsion=O，原端点取1而为生成元；不能把球向量商格改成augmentation-kernel，也尚未证明该自然格与全局CM/Shapiro格的饱和比较。全χ/绝对度数及p非unit保，局部非零不付双新全局非零/乘积整除。
 
 **下一实质门：** 原c1非零、Dfun阶s=0及同目标p的无穷性。继续实际同源关系或新的合法几何输入，不能把条件rank1或一个辅助层非零当成ordinary loc注入。
 

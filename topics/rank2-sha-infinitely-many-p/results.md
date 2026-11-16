@@ -320,3 +320,5 @@
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)：同原F的Sage完整M2与权10/4矩阵保，固定ℓ1000000007/N256作一次模素数逆及Dixon逐位整除；全部1429行复乘后才有理重建，原QQ短支/权60到6120的完整证书逐字保。新公开workflow消费实际request，未假chart成功、高度界或实测速率；尚无PASS。
 
 - [R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：同原惰性χ处的实际ℓ²端点、全三old提取及wℓ²绝对号完整，只有02与20反号。真实depth-zero新向量紧支/有限Steinberg Gram与Schur正交给Iℓ=(ℓ+1)/ℓ³；全部L因子付volK1归一(ℓ+1)⁻²，YZZ Haar再给(ℓ−1)/(ℓ²(ℓ+1))。原双新全部非平凡字符适用，仍不以复局部非零支付全局AJ/整格除法。
+
+- [R901 附A](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：真实有限Kirillov格仅除ℓ，邻点球格准确为O[P¹]/OΣ；行列和构造不除群阶的不变泛函ℒ，原端点值1。实际三张量coinvariant去torsion为O、由原端点生成；平均积分的ℓ+1不代表这个自然格中的端点可除，原全球CM/Shapiro格饱和比较仍须另付。

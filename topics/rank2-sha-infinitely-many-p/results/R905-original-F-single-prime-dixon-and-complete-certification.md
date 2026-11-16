@@ -159,3 +159,5 @@ $$
 source 5c49d87b19abc3a5201992372b5e531991a3b471 的 [run 43898903977](https://github.com/Rogerhu12/math-research-public/actions/runs/43898903977)、job 133409854237 于15:40:29 UTC创建，15:41:16 UTC在导入 original_newton_cm_germs 时失败。实际原因是消费 request 的 runpy 启动器没有把 scripts 加入模块搜索路径；尚未进入数学步骤，没有可解释成数学失败的输出。
 
 已在同一个启动器明确加入 sys.path.insert(0,p+"scripts")，原参数、算法、代码和所有认证门保持。workflow 修改立即重新触发公开执行；后续运行号按实际元数据补记。
+
+修复已推至 source 6a1a9b66b2a0cfaa9e8dbde3692ad3a023793af4；实际 [run 43899744213](https://github.com/Rogerhu12/math-research-public/actions/runs/43899744213)，job 133412821010，于2026-11-16 15:44:59 UTC创建。15:45:47 UTC该 job 的数学步骤为 in_progress；尚无认证结果。

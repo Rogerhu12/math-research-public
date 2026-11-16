@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：908dd1ce6ded940b5fa66aa915e14bb6bd0275ae；2026-11-16 15:44:48 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:10 UTC再实际pull。
+- 最近已读规则提交：ffae5cb5f64004a4239f224e070aed320f7774fb；2026-11-16 15:48:10 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -26,7 +26,7 @@ root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀
 
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)同P固定split素数Dixon已证并请求：p1000000033/N128/k6、三根同chart、每支一次逆/全窗及原char0证书齐；run43895102858/job133396398465已运行，无PASS。
 
-- [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120证书保；首run43898903977/job133409854237启动缺模块路径，已修runpy路径重触发，无数学PASS。
+- [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120证书保；首run43898903977启动路径失误已修；新run43899744213/job133412821010数学步骤运行，无PASS。
 
 R881 r29局部19/12位及τ仅formal；R882原18源/36cusps/绝对端点/D204保，下列五RR未获PASS：
 - 306 run43850251992/job133240631228；eta48 run43850252040/job133240628667；共同来源见完整H。
@@ -47,7 +47,7 @@ R886/897同原finite/wild split范数、统一格及spDn=Ep,n cn全证，Ep,n整
 
 [R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。附A付所有旧split层单惰性返回/全整Möbius分解，奇数全新块0、奇数层仅min v整除；偶数新块未付乘积整除。惰性主理想在原环类塔Frob恒1，R891长剩余次数不可套，不推s0。
 
-[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)新增惰性真ℓ²端点/三old矩阵只02及20反号；原单位向量Iℓ=(ℓ+1)/ℓ³，volK1 Euler归一=(ℓ+1)⁻²，YZZ实际Haar=(ℓ−1)/(ℓ²(ℓ+1))。全χ/绝对度数及p非unit保，局部非零不付双新全局非零/乘积整除。
+[R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)新增惰性真ℓ²端点/三old矩阵只02及20反号；原单位向量Iℓ=(ℓ+1)/ℓ³，volK1 Euler归一=(ℓ+1)⁻²，YZZ实际Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A真Kirillov格⊗邻点商格有整不变泛函ℒ(endpoint)=1，coinvariant/tors=O；全χ/度数/p非unit保，尚不认全球CM格饱和或付双新整除。
 
 ## 第二门：四原中央与同一低配对
 
