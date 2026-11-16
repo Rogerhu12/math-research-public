@@ -184,7 +184,7 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WBFA实际sharp流83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355全成，SCI df5ea6ff/87621ade。Rω14约1.496e94仍非smallness；WSM接同域新包，F1/P1/K1及WDG80只读，全独立义务保。
 
-[WCPR完整cut/profile](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2：真Gi/cut lower/free分量、非零cut和普通dr后genuine；原正预算near2/far4、whole0独copy、全3×5权。WSM152接WBF83，mean/四端/3070jump/finite/matching保。
+[WCPR完整cut/profile](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2全义务保。WSM152包eb8cb83b读取WBF83/WJR56，三图32+89+31/39copy，22门和全失败prefix已备，待首次CI；原mean/四端/3070jump/finite/matching不减。
 
 [WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff：Jρ=(I−QfΔρ)PfGD，actual E0/D/T式15和式24完整保degree32、cut高trial差、b/mean/7port；两moment只收投影finite，GD保全L2源。reference K∈[0,1]；e+3dt<1待算。
 

@@ -336,3 +336,9 @@ proof b6cd802c613f7ec193329af609c63f59a6efded3/19752B/SHA741df919addd04766685724
 2026-11-16 13:20:03 UTC visible-exact-astra-0df9：按根规15普通删除已成V0/V1两正文两summary及physical-tail，共464459B，fresh五件Git/size guard；原完整域/units/mean/方向/旧失败和依赖保恢复页8989ec03/7702/52058497，每件Git/bytes/SHA与restore19d780齐。3大正文未取，SHA来自已读小manifest；两summary全读核SHA，3生产源及小proof原字已核，科学0/无重算。未锁身份high-boundary batch不删，辅助239529B manifest不冒全文读。fresh README8d34ba170cf89583d399ea73a0b407353d921741同已读；释放WSM首次/WPS候选空间并继续。
 
 2026-11-16 13:28:09 UTC visible-exact-astra-0df9：WRP9f55708c/16951/95be269f完整证明登记。root逐式核真实CΦ*密度两次角微分、ordinary inverse χ2..4、同L2的3×3全Schur与全Bessel双负窗、15profile权、原所有source/mean/jump/正root/四端项；精确40新后继只读成功WSM全N6/profile，0科学、旧K0/profile0不重。压缩已归档旧H/open索引以守字节上限、全部义务保；fresh README05b27ca31a08c1c2ff53a743303e9a03dafafb41同已读。继续首次WSM20input/152与WPS实际finite门。
+
+## 2026-11-16 13:35:09 UTC — WSM20 首次完整混合估计包
+
+只读两README于4e176e43c60c1761c3e7d5e052c3c5723e7adee1，均同已读。新manifest eb8cb83b52d5c022aa9f9006c9459794e48ca2c3 / 27318 B / b9add6767c3773d05cfcbe96b8cf2287c2229c012faa6f8a19cbebdbf243aed2；20 current精确次序，12旧actual417122 B、全部输入733495 B，0history。三新科学源 science3964d345、supportc19a56d9、finishingf8b38c6f，完整schemafa42654c与worker1b6737b1；主proof WSJ10c6e422/WCPRda151900已在main。绝对流/phase取WBF83，relative phase/omega取WJR56；同实际正base先除再作一次factorial归一，原全部径向递推及domain不变。
+
+三个自然完整结论32+89+31=152新、6+1+32=39原copy；34-field index、22 gates；每node启动先存0record完整骨架，后续每球全量原字保存并readback再接算。全完成/三partial/after-all/runtime/N6入口失败/>4pull的8完整静态模型已计，科学原字不截断，private工作表不发布，不自动重跑。完整interface0ddf14e6/52784/ca65ed1a、operation model5ac4caa3/87994/a3a6a291：最坏总198813 B；计划publication230000 B，index50000、sidecars40000/70000/45000、exec80000、report8000，另marker4000与预执行120000余量。fresh tree4e176e43实199097453 B，含新增258439 B源/schema/worker、manifest及6000 B文档保守预留后总预算199743210 B<200MB。runner启动前再真pull/两README完整diff/全预算复核。本包尚未做新数学；随后单独提交自然触发workflow。所有finite/负head/高门/nonlinear/matching及最终验收继续未付。
