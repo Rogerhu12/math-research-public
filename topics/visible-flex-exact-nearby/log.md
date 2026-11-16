@@ -41,3 +41,7 @@ WPS36、WRP9完整冻结manifest与WSMF完整proof当前输入说明，均无26�
 2026-11-16 14:12:25 UTC；README核63a1cb3b5c85fca6606e43502df60be03e695b81未变。完整proof 1fd6aacd03c683b7d862682bdfcad4966a8b9863/24193/500adf388bd745f894b8d096e6b2d4c5f55d9dabffcab4c805af2d1f18275d91。根整读24式，明确物理mean z_ph,n与inverse-frequency z_n不同；读取WMTA v3两angular行0/1×degree0..5，共12原球，另新c0、7完整terminal和CF4，绝不重旧N5。全真实四fold输入j≥97、每pair≤2方向，sum(4j)^-3给Bessel/768的完整HS，输出不假设正交；primitive L1先pointwise输入Cauchy再dr。新n^-17/6单位全程保持，local n^-23/6原量÷388。
 
 原root条件、完整Gs/As/Tk、两physicalmean、两个真实普通dr receiver、3070原jump、whole四waist端和whole/reduced独立各选全保。new mean collar用disjoint真实径向两段平方和，只1新sqrt。最初5old实例仍保；当前2完整oldactual=WMTA90421+成功WRPA82508，typed Bc/Bt/完整NT/11receivers/5finaltuple/两selected路径全精确，原failedancestry不改true。完整9+6+8+2+6=31新目标，未执行任何科学；source/interface继续封，不另加审批门。
+
+## 2026-11-16：W4M 零度末项严格复用原记录
+
+2026-11-16 14:20:03 UTC；README核7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c未变。完整proof更新为8114ed738385635e004c93d64e2f3160378a04ee/24710B/SHA73497dbad99b42fa2edc47d7284746d48b5a65546b3264bf08be8e0dca1b1b71。相对已成1fd6aacd只修改防重计数与说明；全部display公式原字保留。degree-zero terminal T0精确等于WMTA已存v3[1][0]，potential项为零且1!因子为一，必须原record直接复制，连upper+0也不执行。完整首图9槽为8新+1copy，总31槽为30新+1copy。全部HS、物理mean、域/单位、两patch、四端/3070和当前WMTA+WRPA完整provider不变。尚未执行新科学；controller/models同步这一精确边界。

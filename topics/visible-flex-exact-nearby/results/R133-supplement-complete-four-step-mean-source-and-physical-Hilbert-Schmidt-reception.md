@@ -127,7 +127,7 @@ $$
 $$
 The product $c_0$ is a new named complete target in this recipe, not a claim that this unsaved working product was a pre-existing record.
 
-This immediate forcing graph has nine new records: $c_0$, seven whole $T_k^{[4]}$, and the whole $C_{F,s}^{[4]}$. All twelve old coefficients and three old scalar records are copied verbatim. It computes no exponential, fractional power, logarithm, flow, ordinary differential equation, or quadrature.
+This immediate forcing graph has nine saved records: eight new targets and one exact old copy. The degree-zero terminal is exactly $T_0^{[4]}=V_{1,0}^{[3]}$, because its potential term is absent and the first-derivative factorial is one. It is copied verbatim; even an upper-endpoint addition of zero is unnecessary. The new targets are $c_0$, the six whole $T_1^{[4]},\ldots,T_6^{[4]}$, and the whole $C_{F,s}^{[4]}$. All twelve old coefficients and three old scalar input records are also copied verbatim. It computes no exponential, fractional power, logarithm, flow, ordinary differential equation, or quadrature.
 
 The old $C_{F,s}^{[5]}$ has another declared decay power. Its scalar value is not compared directly with (8). Any comparison must use a complete bound in common units, or the final complete physical operators below. The fixed four-step branch does not authorize recomputing an old five-step branch if that branch would win.
 
@@ -346,17 +346,17 @@ Their selected paths and complete same-operator definitions are validated, rathe
 
 The WRP file already binds its five complete original files, both WJR/WSM processes, all direct WSM dependencies and the full consumed scopes. The new two-file reader verifies those full retained identities and the complete current WRP schema. It copies every newly consumed scalar object and mathematical qualification, and retains the original files' complete immutable references. It does not require reopening or rerunning a completed WSM producer.
 
-One fixed target graph has 31 new records:
+One fixed complete continuation has 31 saved scalar slots: 30 new targets and one exact original record copy:
 
-| Complete new graph | New records | Scope |
+| Complete conclusion | Saved slots | Scope |
 |---|---:|---|
-| Four-step terminal | 9 | $c_0$, all seven coefficients, whole $C_{F,s}^{[4]}$ |
+| Four-step terminal | 9: eight new and one original copy | New $c_0$, six new positive-degree terminals and whole $C_{F,s}^{[4]}$; degree zero copied exactly |
 | Mean in the new units | 6 | two local unit conversions, $Z_s,Z_{r,s}$, raw and primitive strict source |
 | Complete negative reception | 8 | two nonmean received coefficients, their full sum with $N_T$; collar $L^2$ mean; its two receivers; complete mean and complete negative |
 | Complete endpoint | 2 | whole mean-row contribution and all four endpoint terms |
 | Whole and reduced operators | 6 | each complete source sum, received sum and final norm |
 
-The only new non-rational elementary operation in this version is the one square root in (18). All integer inverse-frequency powers are finite rational coefficients. The first graph does not rerun WMT's levels or final five-step target, and the receiver does not rerun WSM's retained or terminal targets.
+The only new non-rational elementary operation in this version is the one square root in (18). All integer inverse-frequency powers are finite rational coefficients. The first graph does not rerun WMT's levels, its saved zero-degree terminal predecessor, or its final five-step target. The receiver does not rerun WSM's or WRP's retained or terminal targets.
 
 An alternative future input using new per-index flux certificates is permitted only after those actual certificates exist. Its new predecessor targets must be stated separately. It is not a reason to rerun any completed private recurrence, or to call an old producer to recover an unsaved intermediate.
 
