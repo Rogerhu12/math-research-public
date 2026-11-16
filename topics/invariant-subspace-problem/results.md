@@ -490,3 +490,5 @@
 - **R150原E8-1完整第一系数像零（2026-11-16）：** [原全源证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)用两完整泛函运输全4367输出，核39996 prebasis、74256 p²原leaf、69407428 GB reducers/832889136分量进位及RU=V全22008坐标，全部1834原多项式零源像0。它覆盖该10维primary双块(2,3)，无正源故reverse分支为空；只凭此排一阶系数贡献，未排高层或推Q。其余四实际同为0，完整后继另记。
 
 - **R150九原平方的精确critical指数及完整投影谱（2026-11-16）：** [完整长度/非零dual证明](results/R150-appendix-critical-original-square-targets-exact-local-exponents.md)先由原低jet注入给δP≥6/4，配full8/5得lengthT≤2/1；实际逐九t·square或square配对非零迫等号。故每目标critical指数恰(2,2,1)、各自生成T；随后反推完整P谱(3,3)/(3,3)/(2,2)，无未付P/S等价。E8只col9可非零的原支撑与9行9非零数联合核实。
+
+- **R271完整物理终端真核门（2026-11-16）：** [N/Y全强位与全远尾证明](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)由逐孔真核顶方程得C^(J+1)a0=0、A_m^(R+J+1)a0=0；真实头T_K全输出行列式给µ_K^-1≤e^(100K⁴)。同低forcing的整个真核投影平方≤e^(200K⁴)(√S_(m+R)+R/(m+1)²)²||g||²（g⊥vac），固定或K⁴=o(logm)趋0。原总孔cut只一向包含，不由此排原M或付全Schur/carry。
