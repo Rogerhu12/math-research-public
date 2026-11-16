@@ -81,7 +81,7 @@ original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按�
 
 R879附A–E付原V/C30热trace、H22整CM词、高端/q3消元、degree10旧行与同D2B4/D1Theta及全Y/Z；原m2的固定degree24水平框仍保依p高算子/modp²。共同b1原D1Theta接g_flat的s行，不是Hp/h1或K1末三尾。所有new余项仍保。
 
-R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X−32b³)/28；Ghat=G24+∇C24/20消E0高端，Ebar=(51E1+222E2)/770。指定D5=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+完整严格<p余配对。BT0不赋热左行零，参考秩0不赋BDref0。附A原VΘ−T/Θ²=8bK46H′22实搬两个中央，仍保两个cross；K46=σ2³J34、∇Θ17A34=J34保真实非恒定权。J34/S=Dlog(−y/x²)/8接同P2^34 Cartier，未获新零。附B同A=SΘ与真N36=A−old，将原VT两差准确减成Q(N36,J36)和Q(N36,A)：L36−J36=252A，3VΘ³−2T=A(D36+1008bN36)。后者是同S自配对，仍保三个质量一cross，未赋零。附C真实H36=T2,36(UA8)含X+b且h(0)=−32b⁴/2457；固定左行Λ=6561 ev0−1024 ev−b杀A/N/J而给H值−7776b⁴/91，故同好p真不在三原span。U全cross与U144new仍保。U四纤维run43862249339/job133281755877已精确成功：H36=4σ36(X+b)³A2/(2457b)，全六行rank3→4；run/hash见执行注，不赋新中央零。theta续实际乘子/原配对。
+R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X−32b³)/28；Ghat=G24+∇C24/20消E0高端，Ebar=(51E1+222E2)/770。指定D5=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+完整严格<p余配对。BT0不赋热左行零，参考秩0不赋BDref0。附A原VΘ−T/Θ²=8bK46H′22实搬两个中央，仍保两个cross；K46=σ2³J34、∇Θ17A34=J34保真实非恒定权。J34/S=Dlog(−y/x²)/8接同P2^34 Cartier，未获新零。附B同A=SΘ与真N36=A−old，将原VT两差准确减成Q(N36,J36)和Q(N36,A)：L36−J36=252A，3VΘ³−2T=A(D36+1008bN36)。后者是同S自配对，仍保三个质量一cross，未赋零。附C/D原U四纤维run43862249339已精确成功，H36=4σ36(X+b)³A2/(2457b)真增rank3→4；其全因式给J36−2[2]*C9=[δ]*K12，C9=σC8保奇半特征。原C120同2-new且T2(C120A8)=−[2]*C8/(9828b)，C8正是原C24的δ-old伙伴。完整Leibniz付B(C9)=O8−P8，原U/S两行合法消同O8：2457(BU+XU−Bnew)+42BS=42O24new+2P8−42PS；所有new/低卷积和p²倍率缺陷保，不新赋零。theta续原N36的2/δ核与实际cross。
 
 ## 第三实际门：原低松弛同P/R/S后两页
 

@@ -291,3 +291,6 @@
 
 
 - [R882附录D](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原B+的全部J极为P0+289P∞+16个简单cusp；单首一24次系数c_m的t0极仅c24至多1，有限非零分母总degree≤16，∞pole≤floor(289m/24)。故t^εc_m num≤306/den≤16，330项唯一。原u24=t、Q~u使24个全迹由J(Q(u))^j抽24倍指数，Newton只除1..24；Q单位/逆精度8000准确覆盖全部所需项。于是原24模型可直接唯一Padé恢复，不构造576/288 resultant/factor，仍保原48域/U-GCD/两RR返回，未执行替代前端。
+
+
+- [R884附录D](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原U四纤维全因式H36=4σ36(X+b)³A2/(2457b)给J36−2[2]*C9=[δ]*K12；同C120的2-new伙伴完整返回已知C8，保C9奇半特征。全Leibniz准确付B(C9)=O8−P8，原S与U合法消去同一O8，得到2457(BU+XU−Bnew)+42BS=42O24new+2P8−42PS。原N/J两配对分成实际2/δ拉回项，所有new读数/低cross/高位Fermat缺陷保，不把核为零冒中央零。

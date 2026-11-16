@@ -1208,3 +1208,302 @@ trace 零不使右侧 new 余项的 $\mathfrak B$ 为零，
 本附录所有结论均为固定四纤维、有理多项式及线丛局部零阶的手证。
 公开 Fraction producer 只用于进一步恢复(C9)的全部坐标，
 不是(C10)–(C17)的证明前提。
+
+
+## 附录 D. 原 U 四纤维的全因式、同一 C8 返回及实际旧标量消元
+
+### D.1. 完整特征零迹与准确剩余来源
+
+对(C8)的原四纤维作全 Laurent Newton 迹，得到
+$$
+(h_0,h_1,h_2,h_3,h_4,h_5)
+=\frac1{2457}(-32,-16,148,220,92,4).
+\tag{D1}
+$$
+因此一般原单位 $b$ 的完整来源不是拟合值，而是
+$$
+\boxed{
+\mathcal H_{36}
+=\frac{4}{2457b}\sigma^{36}(X+b)^3
+ (X^2+20bX-8b^2).
+}
+\tag{D2}
+$$
+展开右端的五次多项式，准确给
+$$
+(X+b)^3A_2
+=X^5+23bX^4+55b^2X^3+37b^3X^2-4b^4X-8b^5,
+$$
+故(D2)同时恢复(C10)、(C12)，并进一步支付非零二挠点的六阶零。
+
+为使(D1)可完整重算，固定 $b=1$，令 $p_j=\operatorname{Tr}x^j$。
+由(C7)，其正幂初值为
+$$
+p_0=4,\quad p_1=4a,\quad p_2=16a^2,\quad
+p_3=64a^3+24,\quad p_4=256a^4+144a,
+$$
+并有
+$$
+p_j=4ap_{j-1}+8p_{j-3}+4ap_{j-4}\quad(j\ge5).
+$$
+逆根满足
+$u^4+(2/a)u^3+u-1/(4a)=0$，故负幂初值及递推为
+$$
+\begin{aligned}
+p_{-1}&=-2/a,&p_{-2}&=4/a^2,\\
+p_{-3}&=-8/a^3-3,&p_{-4}&=16/a^4+9/a,\\
+p_{-j}&=-2p_{-(j-1)}/a-p_{-(j-3)}
+       +p_{-(j-4)}/(4a)\quad(j\ge5).
+\end{aligned}
+$$
+在(C8)中用
+$(x^3+1)^{-17}=(x-4a)^{17}/(9x)^{17}$，
+只需上述 $-14\le j\le63$ 的完整幂和。
+逐项相加后所有负次及非 $3$ 倍次幂均消失，六个剩余系数恰为(D1)。
+同一算法恢复原 $\mathrm T_{2,34}U=0$ 及
+$\mathrm T_{2,2}A_8=-\Theta/3$，所以绝对倍率与原来源同时核定。
+
+对附录 B 的三个实际列，完整六行还给
+$$
+\boxed{
+\mathcal H_{36}
+=\frac5{1248b}(A-N_{36})
+-\frac{J_{36}}{78624b}
++\frac{243}{2912}\sigma^{36}X^4.
+}
+\tag{D3}
+$$
+三个原列的秩为三，附加本来源后秩为四。
+最后一项不可删除；它正是(C14)检测到的实际剩余。
+
+但这个剩余不是另一个待猜测的高 degree 来源。
+原准确式
+$\sigma(\delta z)=\delta x\sigma^3$、$\delta^{12}=729$
+给
+$$
+[\delta]^*\sigma^{12}=729\sigma^{36}X^4.
+$$
+再用(B2)的 $A-N_{36}=-[\delta]^*A_{12}/63$，置
+$$
+K_{12}:=\sigma^{12}(4b-5X)=9b\sigma^{12}-5A_{12},
+$$
+便将(D3)化为
+$$
+\boxed{
+J_{36}+78624b\,\mathcal H_{36}=[\delta]^*K_{12}.
+}
+\tag{D4}
+$$
+此式的右端保留原范数三拉回，不用任何新算术零。
+
+### D.2. 原 C120 与已经出现的同一个 C8
+
+设
+$$
+C_{120}
+=-\frac{\sigma^{120}x^2yQ_7F_4G_4H_8}{91},
+\qquad C_8=\sigma^8y,\qquad B_4=\sigma(2z)/2.
+\tag{D5}
+$$
+$C_{120}$ 是 whole degree120、型五、首 $z^5$ 系数一的实际来源。
+由
+$\sigma(4z)=-4yA_2\sigma^{16}$，原(C5)准确给
+$$
+\boxed{
+U=C_{120}\frac{\sigma(4z)}4
+=\frac12C_{120}[2]^*B_4,\qquad
+\mathrm T_{2,30}C_{120}=0.
+}
+\tag{D6}
+$$
+最后一式由 $\mathrm T_{2,34}U=0$ 和完整投影公式推出；
+目标非零截面 $B_4$ 可在函数域中约消，不能把这步改成逐纤维消失。
+
+对(C1)应用同一投影公式，得到
+$$
+\mathcal H_{36}
+=\frac{B_4}{2}\,\mathrm T_{2,32}(C_{120}A_8).
+$$
+在(D2)中使用
+$$
+[2]^*C_8=32\sigma^{32}y^5A_2,
+$$
+遂有完整身份
+$$
+\boxed{
+\mathrm T_{2,32}(C_{120}A_8)
+=-\frac{[2]^*C_8}{9828b}.
+}
+\tag{D7}
+$$
+这里没有以 $C_{120}$ 的 trace 零删除乘法后的 trace。
+(D7)是原 U 的全伙伴返回，而其目标 $C_8$ 正是
+R877(16)–(19)已出现的 $C_{24}$ 范数三 old 伙伴：
+$$
+C_{24}^{\mathrm{old}}
+=-\frac1{21\delta}[\delta]^*C_8,\qquad
+C_{24}^{\mathrm{new}}=C_{24}-C_{24}^{\mathrm{old}}.
+\tag{D8}
+$$
+两次返回用的是同一个 $\sigma^8y$，绝对倍率和原 $b$ 全部一致。
+
+再令
+$$
+C_9=\sigma C_8=\sigma^9y.
+$$
+(D2)也准确等于
+$$
+\boxed{
+\mathcal H_{36}
+=\frac{\sigma(4z)\sigma(2z)^5}{78624b}
+=-\frac{[2]^*C_9}{39312b}.
+}
+\tag{D9}
+$$
+$C_9$ 保留其实际奇 degree 的标准半特征；
+这里只通过其真实倍点拉回使用它，
+没有把它免费并入 R856 的偶 degree 整格。
+结合(D4)，得到另一个可直接展开核对的原来源身份：
+$$
+\boxed{
+J_{36}-2[2]^*C_9=[\delta]^*K_{12}.
+}
+\tag{D10}
+$$
+其共同 $\sigma^{36}$ 多项式为
+$135X^5+4536bX^4+6480b^2X^3+8640b^3X^2$；
+这还独立检查了所有符号与尺度。
+
+### D.3. 同一 C8 在原 U 与原 S 中的合法消去
+
+记
+$$
+O_{8,p}=j_p(C_8)/p,\qquad
+O_{24,p}^{\mathrm{new}}=j_p(C_{24}^{\mathrm{new}})/p .
+\tag{D11}
+$$
+这两个数的整性来自 R856 的原 whole degree8/24 递推及
+$j_1(C_8)=j_1(C_{24}^{\mathrm{new}})=0$。
+定义完整低卷积
+$$
+P_{8,p}=
+\sum_{\substack{5\le r\le p-6\\r\equiv5\ (6)}}
+ \frac{j_r(C_8)j_{p+1-r}(\sigma)}{r(r-1)}.
+\tag{D12}
+$$
+全部参与的 jet 指标严格小于 $p$。
+对 $C_9=\sigma C_8$ 用完整 Leibniz：
+唯一高端为 $(p+1)j_p(C_8)$，其余二项式除 $p$ 后，
+因为 $r$ 为奇数，准确带负号。
+故
+$$
+\boxed{\mathfrak B(C_9)=O_{8,p}-P_{8,p}\pmod p.}
+\tag{D13}
+$$
+这里 $\mathfrak B(C_9)$ 的整性既可由该完整乘法式，
+也可由(D9)及单位 $2^{p+1}$ 得到；
+不需要一个未证明的奇 degree 普遍递推。
+
+于是(C17)变成同一个实际旧标量的准确行：
+$$
+\boxed{
+\mathfrak B(U)+\mathscr X_p(U,\Theta^4)
+=\mathfrak B(\mathcal U_{144}^{\mathrm{new}})
+-\frac2{2457}(O_{8,p}-P_{8,p})\pmod p.
+}
+\tag{D14}
+$$
+原 $\mathcal U_{144}^{\mathrm{new}}$ 也有完全显式表达
+$$
+\mathcal U_{144}^{\mathrm{new}}
+=U\Theta^4+\frac{[4]^*C_9}{19656}.
+$$
+其 trace 零依旧不等于其中央读数为零。
+
+另一方面，固定原 $S=C_{24}J_S$，
+$J_S=-\sigma^{10}y(X-8b)$，$j_1(J_S)=1$，并置
+$$
+P_{S,p}^{24}=
+\sum_{\substack{5\le r\le p-6\\r\equiv5\ (6)}}
+ \frac{j_r(C_{24})j_{p+1-r}(J_S)}{r(r-1)}.
+$$
+由(D8)，在模 $p$ 后
+$$
+j_p(C_{24}^{\mathrm{old}})/p
+=-\delta^{p-1}O_{8,p}/21
+\equiv O_{8,p}/21.
+$$
+完整 Leibniz 因而给
+$$
+\boxed{
+\mathfrak B(S)=O_{24,p}^{\mathrm{new}}
++\frac1{21}O_{8,p}-P_{S,p}^{24}.
+}
+\tag{D15}
+$$
+(D14)、(D15)消去的是同一个已经支付来源的 $O_{8,p}$：
+$$
+\boxed{
+\begin{aligned}
+&2457\bigl(
+\mathfrak B(U)+\mathscr X_p(U,\Theta^4)
+-\mathfrak B(\mathcal U_{144}^{\mathrm{new}})\bigr)
++42\mathfrak B(S)\\
+&\hspace{12mm}
+=42O_{24,p}^{\mathrm{new}}+2P_{8,p}-42P_{S,p}^{24}
+\pmod p.
+\end{aligned}
+}
+\tag{D16}
+$$
+所以无需假设这枚旧标量非零。
+在原 $S,U$ 两条必要中央零下，只删除(D16)中的
+$\mathfrak B(S)$、$\mathfrak B(U)$；
+所有 new 行和低卷积仍为所显示的实际值。
+
+还有一个与附录 B 两个配对直接同源的写法。
+(D10)的三个来源均质量零，因此其真实倍点读数在首位给
+$$
+\mathfrak B(J_{36})-8\mathfrak B(C_9)=3\mathfrak B(K_{12}).
+$$
+将它代入(D14)，便得
+$$
+\boxed{
+9828\bigl(
+\mathfrak B(U)+\mathscr X_p(U,\Theta^4)
+-\mathfrak B(\mathcal U_{144}^{\mathrm{new}})\bigr)
+=3\mathfrak B(K_{12})-\mathfrak B(J_{36}).
+}
+\tag{D17}
+$$
+约化前的倍率仍是 $2^{p+1}$、$\delta^{p+1}$；
+这里不将高位 Fermat 缺陷省掉。
+同一固定来源关系还可代入(B13)，准确给
+$$
+Q_{1,p}
+=2\mathcal Q_p(N_{36},[2]^*C_9)
++\mathcal Q_p(N_{36},[\delta]^*K_{12}).
+\tag{D18}
+$$
+没有把最后一项以“new 与 old 正交”为由删除：
+(B13)的权是实际 $1/[r(r-1)]$，
+尚未证明它与原范数三投影交换。
+(D16)–(D18)也不把 $\mathfrak B(J_{36})$ 认成
+$\mathcal Q_p(N_{36},J_{36})$。
+这留下的都是同一原 $U,S,N_{36},J_{36}$ 的完整相应读者，
+不是额外的算术假设。
+
+### D.4. 公开精确执行来源
+
+(D1)的完整 Laurent Newton 算法已在本仓库公开 Actions 实际执行：
+
+- run 43862249339，job 133281755877；
+- source commit 9dbad443f488c8cbba484ed58e7430b70e93abdf；
+- 脚本：[check-r884-original-u-a8-two-division-trace.py](../scripts/check-r884-original-u-a8-two-division-trace.py)，无参数，Python 标准库 Fraction；
+- script SHA256：53cfb87bcde3d8a350a54e6ea6107afe4c29d7f93482c713d51540c8d380c5b0；
+- RANK2_U_A8_CM_RESULT 原完整结果 SHA256：f6e8722eb41fce6c246e92a2401e9698e3de7ccc5640ff693f36e91bb1e144e9。
+
+原 U 的 trace 零、$A_8$ 的绝对 trace、全六坐标与三个实际列的
+全部左余量均在同一次精确运行中验证。
+本稿不另提交可重算输出文件，也没有目标素数扫描。
+(D2)以后所有因式化、来源运输和首除 $p$ 消元为上述准确恒等式的手推。
