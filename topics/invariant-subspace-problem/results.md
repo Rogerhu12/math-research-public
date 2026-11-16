@@ -6,6 +6,7 @@
 
 ## 最近接续结论
 
+- **[完整210列与200原梯度来源已实际完成](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)。** 新增24均值/80交换子均保完整十向量及十八源、Bell槽0；最终实291.639秒exit0。根独立分两次核104的1040/1872递推坐标、104原乘回及权9/10，未导入producer。实际7,034,750向量项/2,707,447来源项；106phase双SHA完整。200/210余核完整性已证，未做新秩/GB/单位。续权十$\delta b^2$、权十一$qb^3$及真E来源，不重旧权7/8。
 - **[原十八来源与完整200列的加权过滤等价](results/R150-appendix-original-eighteen-source-weight-filtration-equivalence.md)已闭。** 固定有序 $\pi(f)=f(N)e_0$ 保权且仅在商中可交换；完整齐次核给 $\Gamma\cap F_{\le K}=\sum B_{\le K-\nu_j}\gamma_j$，与同权原源回填双向无损。因此原十八方程中，非零规范 $q$ 组合没有加权来源权 $\le10$ 的表示，$\delta_{14}$ 没有 $\le9$ 的表示。权是 $y:1,w/u:2$，不改称普通次数或特征零界；更高来源仍开放。
 - **[完整两轮呈示的24条新均值来源实际完成](notes/2026-11-16-r150-original-complete210-mean24-source-checkpoint-789f.md)。** 独立v2保原106父来源，24新十坐标/十八来源全乘回；根未导入producer，独核240/432递推和全部24原多项式产品，同权9、Bell来源0。真实向量901884项/来源278113项；v1统计序列化失败与新列0如实保留。80条交换子像仍由独立final继续，不预填完整210实际生产。
 - **[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。此完整参数呈示内排非零规范 $q$ 的 Bell 来源权 $\le10$、$\delta_{14}$ 的 $\le9$；不冒称任意原十八来源过滤界或特征零结论。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
