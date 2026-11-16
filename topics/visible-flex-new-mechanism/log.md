@@ -335,3 +335,7 @@ full62源码868f2f6b5ba55affa26cc5f9d42186a565ea0a43已触发run43916013327/rese
 ## 2026-11-16 17:43 UTC：固定来源及当前规则文字核对
 
 [三来源note](notes/public-source-topics-current-state-20261116.md)在b837bebddded526dd7dbafec916799ff7531de6e读取三个完整H；根/题README身份不变。仍无可直接移植的本题.3D全门族，0源科学执行、0在途stdout读取。API GET不冒实际pull；下个真实双仓同步期限18:16:04/08仍保。前两条R558/R557仅保准确日期，移除无独立时钟回执的分钟标签；原证明/发布身份不变。
+
+## 2026-11-16 17:51 UTC：R560同χ短快高度反馈及完整有号面积费用
+
+[R560](results/R560-same-gauge-short-fast-height-feedback-and-complete-signed-area-cost.md)完整原式纸证，同支原F/τ²和全部m方程真付h_s=κBk/两端γ0；正面积Θτ⁻³、Φ净降Θτ⁻¹及准备负费保。原两hold实际C¹/IFT可保持末p2零/Π负，入B正与h增加不混零入版本；只排该短快类。root全文已读，0科学执行，立即推并接R561实际长程返回；H完整旧条件保固定链接。
