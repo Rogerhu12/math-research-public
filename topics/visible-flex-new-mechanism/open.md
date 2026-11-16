@@ -174,3 +174,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R476：Z块完整重复漂移已消，单份内部方程仍欠
 
 [完整证明](results/R476-full-third-diagonal-kernel-is-invisible-to-disjoint-rank-one-circles.md)对真不交rank-one平面P，任意τ∈Z=kerΔ都有τ(P;P,P)=0作为全区间函数；局部A_vv=0、齐次二次与三右零常数均保，不仅三个外矩。于是实际A_B=0/T_B∈Z块对任意真实incoming a,b原样传递，任意重复的每个内部位置K_j=K0；可以原R80真分配有限Z目标并令总T=τH。第四仍V+2T(a;D)−4T(φ;φ,a)，一般a不在P；不能删基准或把整个块结论下放给A≠0子桥。全W仅因子化ΔW18，旧库quartic门未免费支付。R480继续完整有限观测增强；所有路径仍同一13核、一个最终规范。
+
+
+### 原布局描述接线待修，全部已付时间继续
+
+[第二输入失败](notes/true53-four-cut-layout-descriptor-failure-20261116.md)：run43826338594/research133160965959已继承首clock，却把简化coordinates.layout传给要完整published descriptor的原子空间。仍0finite/JVP/新行/scalar/actual；同task91.37788493000002秒、累计1750.3576756209998/128值，restore1/repair1均保。只修真正生产descriptor接口，全部finite/全网/actual配额不重置，继续同600秒；若再次恢复未导出context则明确增加修复计数。最新actual双pull07:49空diff，下一08:49:48。
