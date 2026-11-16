@@ -359,3 +359,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R408｜独立二阶规范的准确不变量与字符延拓
 
 [R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)（18257B；SHA256 fd80635254a6479ce1fc4351d923406db0e9cf60a218463550bb2df70bc2a9f5）。原forcing平方/Gram项、同锚Lf完整保留；pLf″=[Af(pw″−rw′)]′使每包total、Af点部分flux与平台二次对任意允许w不变，真实affine尾仍须匹配。两实际ω/A组合准确，单圆w不定义各辅助natural改量。固定compact-output双线性W的G_W全π/Q/Λ0，λ+在U+G上良定义；固定圆仍需额外因子化条件，未授无解。两谐波特解可有限秩提升，任意kernel相位与原13门仍保。全文纸证无新执行。
+
+
+## R409｜八个实际末包的十六总通量承载严格正字符
+
+[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)（15907B；SHA256 bc8decef8816aad6b9be821ef84b600ae2c7ea09f4327021f55ba486e8cd4d84）。全U自然平移degree≤7、七次系数−3λ+M5/80；权−9/−8完整消去、+2响应及λ+杀平移支付其它权。原八/十二/五复制保基本块三矩闭合，选同一基本末包八副本有真实suffix0/同形同宽异中心；两总量极化准确恢复Λ，Lagrange给λ+的16原实际读出。M0/同端口闭frame/wholeπ0正时长成本λ+>0，M5≠0时有限目标原点不可达，任意允许w不能改变。非零M5可加入新母非零minor乘积并在有限N保原19根；旧冻结圆只得M5=0必要，不冒该矩已非零。只纸证无执行；下一精确零例外/其它机制。

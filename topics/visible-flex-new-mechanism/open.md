@@ -56,25 +56,14 @@ R222一般有限观测真实控制保全部原型基准、mixed成本和最后�
 
 R105/109/130原有限U保完整history，非零M的N²/N³项不能删。R84真倒行成本同号；span或闭锥不是实际逆元。R156仅α∈πZ的输入相位合法。
 
-### 全self的新准确接口及剩余shape兼容
+### 全self已付接口，继续完整mixed与真实共同控制
 
-R292/295保完整右累计并由末真实high/low推出平台矩阵T_B0及各self必要门；q不是C²低阶量。R297 χ32/37/40给九个真实矩阵单位；R298 χ30/P给T0、完整q=3/512∫u″²u‴²>0，单个固定u可真m10指定。
+R292/295的真实平台/self条件、R297九矩单位、R298能量、R303全平移次数≤9、R307/309最高两系数、R310非even新J及R313十五维模块均保原证，不再作孤立增rank。固定even母的全平移不能忠实分离全部profile函数；完整有限控制仍须保全部原型与真实基准。
 
-R303保移动左尾与完整分子，证明全U的q_{u_c}∈Pol≤9；十条H6×p2的N链覆盖同母全平移，与T9/whole pure真19观测联调。任意中心数不再扩大这个固定母模块。
+[R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)已给whole-pure核完整self结构：有序三矩九维非局部项+局部quartic三jet密度；Euler全六jet字面系数与九矩是忠实坐标，原左右尾全保。[R322](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)给真权移σ→σ−2，齐次成员须同权响应支付，跨权不能挽救。
 
-R307/R309给普适完整层 [c9]q=D9 I、[c8]q=D8 I+D9(9I1−3J)，I=∫u″²u‴²，D9/D8皆有保原history的积分式。R9=−Ktop/1080和R8=−NKtop/9720为pure/T核三角单位，九矩与两层可真11观测联付。若已清一个母的全平移，同几何D9=D8=0，全部其他母次数≤7。
+[R316](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md)的原完整H*已付π/self全0而λ+=1，13原列/14目标/37忠实行的实际结果及明确old编号组合保原稿；不能由同profile self0推mixed0或实际负路径。之后R333已进一步给全部pure/self实际截面，见下；当前真正欠的是同一成本的finite自然/period与同w joint，不重算旧成员、rank7或forcing。
 
-[R310](results/R310-full-self-direction-invisible-to-all-translates-of-even-profiles.md)给明确新KJ=64B_P(χ34−3χ32)：pure/T9全零，完整q_u=J(u)=∫u′u″u‴²，无C²余项。Euler六jet+真实紧变分证明有非zero母，even母却在全部允许平移/幅/宽都J0。故全self像至少11维，固定even母全平移不是universal忠实query；九矩/十even母查询加一个指定非even母查询可真20观测联控，不冒全Q。
-
-[R313](results/R313-complete-five-dimensional-J-self-module-and-fifteen-dimensional-image.md)完整计算𝔍根×五个p0=p1=p2=0方向，真affine尾配c前两矩给T0，所有q保C²项。新N模块为4链+常链，常F=2A0−C0/6≥C0/18>0；N核span(J0,F)与旧十链核I0用反射/真实允许宽度−8/−7/−9分离，故完整self像≥15。九矩/十五真实query与pure可24观测联付，非总Q已满。下一比较完整canonical self空间与响应像，不继续孤立增rank。
-
-[R314](results/R314-ordered-matrix-defect-localization-and-faithful-Euler-self-coordinates.md)现已给完整结构：pure零总V的有序不交self缺陷恰μuᵀT(V)μv。保原左ℓ常数和J² Fubini，双核两次有限IBP将所有对角边项收回局部C²；两次Euler最高4/2/0递降严格消剩余双核。准确 q=N_T+∫L，N_T=∫x<y j(x)ᵀTj(y)，L为局部quartic三jet，三阶至多二次。九矩是完整非局部商（六对称总矩+三有序面积），T0 iff局部；Euler(L)的全部六jet三次字面系数为忠实有限坐标，非仅principal。
-
-[R322](results/R322-full-self-scaling-shift-and-exact-reduction-to-the-matching-response-weight.md)进一步在同一真实空间证明完整self的真权移σ→σ−2，R及pure核的有限Laurent谱投影仍在原空间，任意合法profile都有开缩放区间可分离各权。因此齐次H的完整self跨全部R_p0支付当且仅当同权R^(0)_p0支付；其他权不能另行挽救这个齐次成员问题。此纸证不替代实际门，也不授实际有符号控制。
-
-[R316公开实际](results/R316-complete-weight-zero-self-membership-and-positive-character-representative.md) run43735872441首次成功：12新人工、14完整self目标，13维完整权零响应pure核的self像rank7、增广7、37忠实T/Euler行，MEMBER。准确H*=C2+649Rold2/768−73Rold3/3072+649Rold4/1536−821Rold5/768+Rold7/64+187Rold9/1024，全部原R126 old编号；πH*=0、整universalQ(H*)=0、λ+=1。fresh原2497项复合差用独立mapper保全部真尾/对角项，T/Euler0、全word重构0，实际selfword字面0。故λ在pure核上不经完整self因子化。旧fullH0/纯查询/3974未重算；33请求/45报告源码记录与原receipt逐项同。
-
-下一是该具体代表的全mixed/cross与真实几何有符号控制：不能由所有同profile self零推任意f,g成本零，也不能由线性span推实际半群。沿R302保共享原型基准/整词倒行/history及有限增强IFT，随后原period/同w joint；R304/306被排旧类不因此恢复。不再重复已成完整self成员门。
 
 ### R333已付全pure/self实际控制；下一同一成本的mixed与规范联合门
 
@@ -168,9 +157,9 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### 直接reference求值已源码闭合，准备最小新接口
+### 直接reference新任务正在首次公开执行
 
-[直接reference冷路径设计](notes/direct-reference-cold-path-elimination-design-20261115.md)证明SingleQ只用base三字段；新模块直接用原metric、height_jets、固定同锚primitive和九高度积分，保完整当前角场/二阶jets/原163→159J。原被覆盖查询积分及四角未用几何被准确删除，不把205.4483s全归于它们。新ordinary SHA诚实变更；原g/b0/坐标不变。旧epoch active241.314203844>120/LP仍10，不能续m7。[同进程迁移与新预算](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已闭：新科学1800s/64LP/160值（冷费全计），原LP10s/14门/Bcap1/4000不变；438法向精确unitball/ID核后fresh context，4attainer另附不覆盖，γ原8event/7commit保祖先hash不重训。3组9新人工、首次两ordinary由最终objective拥有后同进程消费J/模型/实际步；新constructor/outer已发布，transfer/audit接线中，未执行，不重旧开发/旧geometry，不存数组。
+[直接reference设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已全部接完，run43777844163/job133008102089/source ad3b104606347c345020d229b6fbc1c648dabacc正在首跑。新ordinary直接消费原metric/height/fixed center，当前角场/二阶jets/J不改；不预把旧205s全归冗余。独立science1800s/64LP/160值含输入与cold费用，同进程缓存接J/实步。原438法向freshcontext、4attainer分离、祖先γ8/7保留；首两网14门取新收据，9新人工只一次。旧已耗epoch关闭、费用保祖先；读取首次结果后只针对实际新信息继续，不重旧研究/开发或存payload。
 
 
 ### R399新的第二period内部通道已实际付至四点
@@ -189,3 +178,8 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R408允许的独立二阶规范已核：有限实际不变量不能借w改变
 
 [R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)对任意原允许光滑wθ（可跨gap、含高谐波）保全部平端，逐包total与所有Af点累计flux严格不变，平台二次同而左affine两常数可变。canonical ω_i/ordered A_i只作为实际两组组合受保护；不能给固定圆w的辅助universal查询独立改值。固定双线性W另给π/Q/Λall核和λ+延拓，未付固定圆评价核。原incoming、第三合法性、13行同一个k及相位核不删；下一把λ+写成真实有限包不变量，或处理该读出失效的精确例外。
+
+
+### R409八个实际末包已给正字符：下一只付第五矩零例外
+
+[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)证明全自然平移次数≤7（完整最低两权消去、正权1/3为常数），最高系数=−3λ+M5/80。原八复制组的同形同宽末包保真实全库R/T三矩suffix0，16个原d/e总量准确Lagrange读λ+>0；依R408，任意允许w不能改变它。故该实际M5≠0范围的全period目标不可达，不再沿其增加内部flux列。新初选可以保M5非零及原19根，说明局部门不充分；旧未知母只得M5=0必要，未称已评价。下一在同点精确M5=0条件下重新核max-F/19根、全部低次自然translation系数及真实joint，或改复制/whole-pure背景/机制。M5=0单独不授period。

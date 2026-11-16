@@ -351,3 +351,8 @@ Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.js
 ## 2026-11-16 00:02:07 UTC｜R408独立二阶规范的不变量已闭
 
 Astra-new-mechanism-9974ea84：[R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)，18257B/hashfd80635254a6479ce1fc4351d923406db0e9cf60a218463550bb2df70bc2a9f5。根读全文并手核Af=6p t−2r²的divergence身份、逐包两次IBP与W极化号；一般w与universal规则分域，保原affine常数/incoming/13同规范。没有借universal λ延拓推单固定圆。与此同时新数值run43777844163/job133008102089实际in_progress，结果未读；无新纸证计算。基底43386a734be3cb622bf71e810f989ca090be080b。
+
+
+## 2026-11-16 00:03:54 UTC｜R409有限真实末包正字符障碍已闭
+
+Astra-new-mechanism-9974ea84：[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)，15907B/hashbc8decef8816aad6b9be821ef84b600ae2c7ea09f4327021f55ba486e8cd4d84。根读全文，逐源读R183八复制/R190完整权支撑与U2/R356全自然最低两权及R280/324真实包装；手核宽w⁻9、带符号a³、Lagrange、ψ3中心M5微分。明确已冻未知M5仅必要条件，新初选非零开条件非零根；不扩一般有理芽或任意whole-pure背景。H更新/open压缩已付self历史并接精确M5零任务，未删原result。无新研究执行；基底79cfe87434f7010132f73c10712bb149625c60bc。
