@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 00:37:43 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 00:38:55 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 23:50:00定时CLI仍无executor，下一≤11-16 00:50。最新CI真pull为CEB11-16 00:28:42.676355→a0d71ea94446f0fcf64d1f69e4dbadd5910204ba，三次两README空diff；ref读取不冒真pull。
-最近只读README核：ed56a07c9370a0108126a9dea84745e7c1d4e562；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ff7527bbde58b8508757680ff63b0c046e1c8afa；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -32,7 +32,7 @@ DZA50d9712b原43773671216/1/24锁；ToD/[To,Z]/EoZ^S、two-sign/独立meanrank�
 BF e8e29c49真实square T+E+LV、χ=K0 CE ΛJ^-4/3及增广Schur保PUVP/两mean；actualcolumns/全E/matrix仍待。SE22201747的S_nat=Dc+K增2/3、自然−7/6/−5/2窗index0保。FC46ccc206新证固定smooth kernel/cokernel有限W使A+W同一各固定窗可逆，不靠incoming。实际Poisson补列覆盖同一given-head整图，共同diag(Csharp,Id_rest)可在真正incoming逆确成后同侧消。原C核不宣称0；m/真实F列与dual/完整mean/独立ports/finiteinverse及参数uniform仍待。
 BTb5c2f844全已证细节保7a037e78同H/proof：head dual=E97*S^-1 joint无√193，scalarΠ≠physicalmeans；Q97双消、右Z97 unitary、rootFF≤1215/固定FT/mean/cross finite。radialhead及r积分仍可无限；actualcolumns/square/独立ports/无限费/finiteinverse未付，旧SJ/CG/WE全保。
 
-RD34eec24f完整stable门保positive meanrank/J/低中间频、非零β_n/g_n>17/57。RBJa19878f7给T三阶/D²a0/b1根值与两sign结构；RDA8d2570c7给Da1=−iεR的完整低jet式，genuine修正首导0。Db1须邻域DFb/D³a0，禁止微分root-only式。cutoff97 whole e、全乘子/J1/L0/潜势数值未付，不授kernel0/incoming。
+RD34eec24f完整stable门保positive meanrank/J/低中间频、非零β_n/g_n>17/57。RBJa19878f7给T三阶/D²a0/b1，RDA8d2570c7给Da1完整低jet式；RBD5d7c045f由真T四阶/D³a0与邻域L5给完整Db1，禁止微分root-only式。K4/η3/全背景jets、cutoff97 whole e及全乘子/J1/L0/潜势数值未付，不授kernel0/incoming。
 PSB e6c777a7完整mean同号Fredholm onto、nilpotent导数矩阵及adjoint/dual/interpolation给同一各固定Hs逆；实coefficient球r<κ、有序resolvent/各阶导数已证。actual高导/数值/真背景membership及fullincoming仍待。
 UT/UTA d23b71f8原43776528869/1/22锁，fullT三source/3070jump/两端全付后SF≈2.772751688e92、paid≈1.63981109e99；全回执见proof/新scope索引。CG一次/两mean/WT同逆/六retained保，Ei/incoming/finite/return未付。
 SW72bb6b3c已证单一W=A(1+M_C I)Lc同cut、完整DW/Q/T1F2/两mean/3070jump/双端；CG旧whole仅正支配复用，最终同actual整paid对比。11current/4AST/24门唯一新标量包已部署待Actions，SCId0380618/worker3362fba9/manifest5d62a5e7，不替换不同trial的SF分项；六retained/incoming/finite/return保。
@@ -60,4 +60,4 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 已成cleanup完整白名单/恢复身份保7a037e78同H与open8：smoothing/uniformtail721358B及OMA两报告720495B均已普通删。OMA43777745624/1/9steps原12428/c1123617成功且科学0；两报告先推886423b4/955eb058，恢复b9c7cde9c28a38d9d7db2ad03fcfd3835578ac6b同path。原未认证限制/source/endpoint/失败/activepins保，禁重算与重复删。
 
 既往cleanup均已按先推白名单→fresh SHA/size guard→普通删除完成，全部精确path/恢复commit/hash/source与失败保open第8节及e0d74db25a5db1a7e3df06ea8f0905d568aff366同H。旧2Newton/jet/七报告1589068B、九报告504341B、两interval NPZ773501B，禁重复删/成功重算；当前source/native/候选/proof/activepins保。
-继续SC3和open余项→全strong/incoming/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。
+继续open余项→全strong/incoming/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。

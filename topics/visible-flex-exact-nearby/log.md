@@ -274,3 +274,13 @@ ed56a07c9370a0108126a9dea84745e7c1d4e562两README同原blob。最终proof a55b08
 三真pull00:28:32.065339/37.474240/42.676355，两README全空diff；第三非FF从local15877ff...到公开a0d71ea...，未重启child。容量公开199471543→最终projection199547438；a65dff20f7f63b3f41791b9b31be6b0911c18821仅本地owned头，API此ref404不冒公开restore，公开base处liveindex1933/cad95f7c1e849ae46513bc596bb348571de92ef9ece450ee6a4de74670922754已根亲取同policy。原预留120KB门保持。
 
 两selected上界原完整球见proof；非线性body约1.30e−7仍是已付误差主项，known约3.84e−13属于另一对象。真γ/trace/core/height/waist/high/finite/incoming/return所有未付条件继续，成功计算锁定，接open下一问题。
+
+## 2026-11-16 00:38:55 UTC：RBD完整Db1真实邻域推导独推
+
+ff7527bbde58b8508757680ff63b0c046e1c8afa两README仍同blob。RBD6688dd6a2f1110b8c2efd7709c924baa1962f33b，17757B/SHA5d7c045fbda7a2db441620f742f1481d941823e69599e1167135e8409cebc63e；root全文核并回原L/G2/I19/RBJ，newton独核四阶/三阶/forcing和成文RBD5，tail亲取原L核RBD4完整mean/local jets。无新科学运行。
+
+真实DT=QXφ、DX=−QTTφ及η²K=Q²T给t4的2/9递推，DX=Oτ³只从下一Xφ系数起影响；D³log(T/K)完整保−6dL2φ−3(d_r−dp)L1φ+3d²L1φφ。leading第三导经真实logG/logXφ给C3，Mrr保βrr、k2〈v²〉、4k1〈vvr〉及全部mean。完整bDD、DT0/DtQ、DV0保−k1(ell²−4βηvuφ)，未在求导前令K=0。
+
+完整L5的Fb邻域先D后root：η²K a0φφ导数因根圈a0=1消，ϑQTb0的该分量一阶导因Oτ³消；原ϑ在其他forcing/邻域/完整余项不删。G2给Dμ/μ=4t而非微分λ²常数；DFb=−4t b1−λ^-2 R_D，I19的3b1T与λl=2t−T0得到RBD30。genuine Db1V=Db1+λVn′/3+Vn A0保持原右输入对角。
+
+最高新intrinsic K4与η3、完整u/v径2和d径2角3为有限新输入库存；η3完整mean需mrrr，真实root须位于同一解析piece。RBD33 Cauchy只对已核同参数真root复盘有资格，不能由旧实三导推四导。正预算只是未来Actions合同，所有实际jet球/全δ全角乘子/RD whole e门/原J与positive meanrank/独立ports/incoming/finite/return/真core仍未付。

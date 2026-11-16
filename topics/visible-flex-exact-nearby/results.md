@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/RBD：真实四阶fold jet给完整首Airy b根导数](results/R133-supplement-complete-first-Airy-b-derivative-from-genuine-fourth-root-jets.md)：实际邻域递推T四阶、完整D³a0及Mrr/DV0，先微分L5再限制根得到Db1=((T0−6t)b1−λ^-2 R_D)/3。原μ导数、径向mean、K导数及genuine potential原序全保；只完成有限jet解析合同，K4/η3等数值、完整stable门/incoming/finite/非线性仍未付。
+
 - [R133/CEBA：全帽p2/p4包络的首次完整实际接收界](results/R133-supplement-actual-whole-cap-weight-envelope-receivers.md)：唯一43780532148/1 child0/22及12steps成功，12个完整weight/domain行、24积分和两whole比较；两域选1/16，full≈1.368216022e−7、tail≈1.363011621e−7，均保原SC3整行。全mean/原y/左10d/known/outer与γ条件保持，非线性body仍主导；真实trace/core/incoming/finite/return未授，成功冻结。
 
 - [R133/SW：单一完整根首系数试探与同对象有序腰误差](results/R133-supplement-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)：W=A(1+M_C I)Lc在原cut准确等Bc；C含F*及mean，完整DW/Q含T1F2、两mean/全部3070jump/双端原序保留。SW29a确认最终paid对象不因试探函数改变，CGwhole只经已识别正加数支配复用；仅提出current-only新标量组合，未授新数字或incoming/finite/return。
