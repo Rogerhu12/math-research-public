@@ -21,7 +21,7 @@ def sha(data):
     return hashlib.sha256(data).hexdigest()
 
 def git(*args, check=True):
-    p = subprocess.run(["git", *args], capture_output=True, text=True)
+    p = subprocess.run(["git", "-c", "user.name="+SESSION, "-c", "user.email=research-agent@users.noreply.github.com", *args], capture_output=True, text=True)
     if check and p.returncode:
         print(p.stdout, end="")
         print(p.stderr, end="", file=sys.stderr)

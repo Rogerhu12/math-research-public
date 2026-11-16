@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0731-R870-certified",
+  "request_id": "20261116-0733-R870-certified-rebase-identity",
   "source_branch": "serre-public-recovery-20261116",
   "base_commit": "49f8e8cabc576b601ce405c9bc50c1230ded1a7e",
   "rules_last_read_commit": "e5d6498d6b176bb4fc71faa9f5ca6956e690e541",
@@ -39,8 +39,13 @@
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "46d123f48f3015f29ce044fc64bfe4626ad5228349d4e847ce15d094d0557747",
+      "sha256": "f12f8de22511e27f741bb9d9d80e5c50e7915244c4630d6496ecbe2211b93317",
       "expected_previous_sha256": "31467d2e2f8599b455548ea0039a10c43299e71e30c69ed14fc564e640fc2556"
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/serre_public_source_publication_recovery.py",
+      "sha256": "61dbf54162681abe34a36daacd9a0c25bd2c6849e5a01b3ce0d283f19b776dba",
+      "expected_previous_sha256": "f17ab11b3659dbaec04bbbc9b45e7c11c86e6f05aae54dab6be24518990e1aeb"
     }
   ],
   "dispatch_workflows": []
