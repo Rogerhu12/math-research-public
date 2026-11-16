@@ -1,0 +1,809 @@
+{
+  "schema": 1,
+  "session": "serre-public-astra-20261115",
+  "request_id": "20261116-R880-six-original-branches-twelve-normal-RHS",
+  "result": "R880-original-six-branch-A-B-normal-inputs",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "all_new_mathematics_only_in_public_Actions": true,
+  "core": "R880_original_six_branch_A_B_normal_inputs.py",
+  "core_sha256": "3094615c9d73d77119065bfa74321a5ab42ba8714fe6b09624725919e8b46d23",
+  "wrapper": "R880_public_original_six_branch_A_B_normal_inputs.py",
+  "wrapper_sha256": "ec7d719b49c3b1e9bccbbf803516bf4008c2dbf4cb2ebecaa659b1d3050c0e45",
+  "workflow": ".github/workflows/serre-R880-six-branch-A-B-normal-inputs.yml",
+  "legacy_R877_core_sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a",
+  "legacy_R877_IO_sha256": "a574bd4fa95c2d80b1b6b6037f7e944a0c9f79660b7c4667ac99e97be3507221",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R880-original-six-branch-A-B-normal-input-method.md",
+  "method_sha256": "d7a1f32172e42623da64828713a5b4c01bf26406bb61164f72298aa006b8eea4",
+  "proofs": {
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "GP": {
+      "path": "notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md",
+      "sha256": "520bfbd521cadfeff2b519c864217a56258a991a07039ee33e923db7e9be4e0a"
+    }
+  },
+  "budget_minutes": 300,
+  "resume": null,
+  "rules_last_read_commit": "aff47758db6336e48ea7cf8549c466740bba4ac0",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "intake": {
+    "run_id": "43846124349",
+    "source_commit": "aaddadb00929b355bc93db1ea869642ecbf59a6e",
+    "artifact_id": 14215526085,
+    "artifact_name": "serre-R880-six-branch-source-intake-43846124349-1",
+    "archive_bytes": 125776703,
+    "archive_sha256": "d78e3d52305a2caa8b4aab28010b3d91e0c6c8d5f08e9473761d889853bc913f",
+    "expected_conclusion": "success",
+    "request_sha256": "b847fdf3f7a97a9d053f201ae0a6b4b474cd27faa756fd826d0ee179fa43633a",
+    "source_index": {
+      "file": "intake-source-index.json",
+      "bytes": 14797,
+      "sha256": "685e7eb8ccf0b7d3f7e55b7dbf6795ea05b93761531fc5b7491bbdd2b4089d58"
+    },
+    "bundles": {
+      "R877": {
+        "file": "R877-intake-selected-original-sources.tar.gz",
+        "bytes": 7214469,
+        "sha256": "304cac88d6a3d54ce503b63a2de728cb63f139a07acf363c26036eb3f10c127d"
+      },
+      "R824": {
+        "file": "R824-intake-selected-original-sources.tar.gz",
+        "bytes": 88806587,
+        "sha256": "7f8d3f3fcc619d4bd54d497fef2f7fad10022ae6da76a1d7f9f1448caac7b647"
+      },
+      "R827": {
+        "file": "R827-intake-selected-original-sources.tar.gz",
+        "bytes": 11628766,
+        "sha256": "f8cb9665d46d97e5a847219bd0bfeb865f5b54378c8855554ef5206d8a799324"
+      },
+      "R842": {
+        "file": "R842-intake-selected-original-sources.tar.gz",
+        "bytes": 8514046,
+        "sha256": "b42d11f81dfe7613faf92a341131be6cdf0956156d4030bccf3e49d28c36ac10"
+      },
+      "R787": {
+        "file": "R787-intake-selected-original-sources.tar.gz",
+        "bytes": 9266504,
+        "sha256": "a5f754f8543c1ffeac7bcec3e6efa40f18372dd4aa46035dff6c224803545132"
+      },
+      "R849": {
+        "file": "R849-intake-selected-original-sources.tar.gz",
+        "bytes": 213460,
+        "sha256": "f72477203f67329bc71abf5aac771b1cd00638e94c5d9b1fb0a2137f008128df"
+      }
+    }
+  },
+  "sources": {
+    "R877": {
+      "result": "R877-original-canonical-A-normal-input",
+      "run_id": "43833857220",
+      "source_commit": "87f3bfe4c7873258c45a55ccf9ee6c41ff7cf6a4",
+      "artifact_id": 14209578116,
+      "artifact_name": "serre-R877-canonical-A-normal-input-43833857220-1",
+      "archive_bytes": 79882282,
+      "archive_sha256": "6f0e627c7d5c330c8a85647c1e333ecd036ce4531f1b8de0983b98c7fdbd7322",
+      "expected_conclusion": "success",
+      "core_sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a",
+      "wrapper_sha256": "a574bd4fa95c2d80b1b6b6037f7e944a0c9f79660b7c4667ac99e97be3507221",
+      "manifest_sha256": "b0558cdb41d161647162b67164ab187e20b48f54b06e56627ef373657bf28215",
+      "manifest_file_count": 42,
+      "manifest_bytes": 7254,
+      "configuration_sha256": "8cfd8587d963b36000c2491dcae30cd577d980478bbed7e6c4d54b5ef3313731",
+      "certificate": {
+        "file": "p41-original-canonical-A-normal-input-certificate.json",
+        "bytes": 8158,
+        "sha256": "6305b52f59be5cf0a5f6181e02cdcee4d81b37a67c2ab1e189d9483ad3c554e1"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R877-canonical-A-normal-vector.json.gz",
+        "R877-current.json.gz",
+        "R877-new-A-full1380-right-hand-side.json.gz",
+        "R877-original-V5-prefix-and-A-part-0000-0064.json.gz",
+        "R877-original-V5-prefix-and-A-part-0064-0128.json.gz",
+        "R877-original-V5-prefix-and-A-part-0128-0192.json.gz",
+        "R877-original-V5-prefix-and-A-part-0192-0256.json.gz",
+        "R877-original-V5-prefix-and-A-part-0256-0320.json.gz",
+        "R877-original-V5-prefix-and-A-part-0320-0384.json.gz",
+        "R877-original-V5-prefix-and-A-part-0384-0448.json.gz",
+        "R877-original-V5-prefix-and-A-part-0448-0512.json.gz",
+        "R877-original-V5-prefix-and-A-part-0512-0576.json.gz",
+        "R877-original-V5-prefix-and-A-part-0576-0640.json.gz",
+        "R877-original-V5-prefix-and-A-part-0640-0704.json.gz",
+        "R877-original-V5-prefix-and-A-part-0704-0768.json.gz",
+        "R877-original-V5-prefix-and-A-part-0768-0832.json.gz",
+        "R877-original-V5-prefix-and-A-part-0832-0896.json.gz",
+        "R877-original-V5-prefix-and-A-part-0896-0960.json.gz",
+        "R877-original-V5-prefix-and-A-part-0960-1024.json.gz",
+        "R877-original-V5-prefix-and-A-part-1024-1088.json.gz",
+        "R877-original-V5-prefix-and-A-part-1088-1152.json.gz",
+        "R877-original-V5-prefix-and-A-part-1152-1216.json.gz",
+        "R877-original-V5-prefix-and-A-part-1216-1234.json.gz",
+        "R877-original-global-y-normal-fraction-input.json.gz",
+        "R877-original-source-audit.json.gz",
+        "R877-original-source-inventory.json",
+        "R877-retained-inputs-receipt.json",
+        "R877-stage-manifest-81679e615d1cb23661f4.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-canonical-A-normal-input-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "file_pins": {
+        "R877-original-source-audit.json.gz": {
+          "file": "R877-original-source-audit.json.gz",
+          "bytes": 67244,
+          "sha256": "9388a01314254333287c82927c29f5dbeb3e06209fe7176d4fef4efcbcd1fe48"
+        },
+        "R877-stage-manifest-81679e615d1cb23661f4.json.gz": {
+          "file": "R877-stage-manifest-81679e615d1cb23661f4.json.gz",
+          "bytes": 4234,
+          "sha256": "4855cd346a116a3196d37e20bd1d0ac84784e74ac23d99e00e8fb26edb11497a"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 7087,
+          "sha256": "190c54c6c6c28d67cadba9bf2ec4336029603dbb2c96b08297a94fc2cec2268f"
+        },
+        "p41-original-canonical-A-normal-input-certificate.json": {
+          "file": "p41-original-canonical-A-normal-input-certificate.json",
+          "bytes": 8158,
+          "sha256": "6305b52f59be5cf0a5f6181e02cdcee4d81b37a67c2ab1e189d9483ad3c554e1"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 23399,
+          "sha256": "df0536e3e17106152115278d9888bf30df9c120b3bad86461605a5e26fe6192a"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 534,
+          "sha256": "5f65a3cbc906a9ecb8740081ed805d66732a18a26ccd56e4f56f2e599e7c1c4b"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 7254,
+          "sha256": "b0558cdb41d161647162b67164ab187e20b48f54b06e56627ef373657bf28215"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 177,
+          "sha256": "b92ee313cdb2b1fb03acd841890fa5e2a19faa00d5002e1e951f2c8451e85976"
+        },
+        "R877-original-V5-prefix-and-A-part-0000-0064.json.gz": {
+          "bytes": 246806,
+          "file": "R877-original-V5-prefix-and-A-part-0000-0064.json.gz",
+          "sha256": "caa987c618abd9283b1c51039aa46ab9255069f080076ab8c8c694681f3d80b6"
+        },
+        "R877-original-V5-prefix-and-A-part-0064-0128.json.gz": {
+          "bytes": 424719,
+          "file": "R877-original-V5-prefix-and-A-part-0064-0128.json.gz",
+          "sha256": "e8d7ad807684fd44ba6782208712c477dfc9960d963f27955306c440c76638fc"
+        },
+        "R877-original-V5-prefix-and-A-part-0128-0192.json.gz": {
+          "bytes": 309093,
+          "file": "R877-original-V5-prefix-and-A-part-0128-0192.json.gz",
+          "sha256": "4ef7aca6223b67e7bff9cd3fea7118bd1aedd710d5642768407e8f10de315a52"
+        },
+        "R877-original-V5-prefix-and-A-part-0192-0256.json.gz": {
+          "bytes": 371671,
+          "file": "R877-original-V5-prefix-and-A-part-0192-0256.json.gz",
+          "sha256": "ed4ae8c294cdbc5cdaf3445011bbb5f3b4e1ae6c6929b1799756cdf26bcf1f4f"
+        },
+        "R877-original-V5-prefix-and-A-part-0256-0320.json.gz": {
+          "bytes": 361918,
+          "file": "R877-original-V5-prefix-and-A-part-0256-0320.json.gz",
+          "sha256": "33b2be5962aaaf5fb4578d2b57586bde4e3e9acc914ac4bd6133402a6e9d98af"
+        },
+        "R877-original-V5-prefix-and-A-part-0320-0384.json.gz": {
+          "bytes": 375237,
+          "file": "R877-original-V5-prefix-and-A-part-0320-0384.json.gz",
+          "sha256": "96f0472cdc483f6015a4cd0126fe70a1bd12cd6221bc2817521f6224ddcfc181"
+        },
+        "R877-original-V5-prefix-and-A-part-0384-0448.json.gz": {
+          "bytes": 353450,
+          "file": "R877-original-V5-prefix-and-A-part-0384-0448.json.gz",
+          "sha256": "348d851b6d7edf246aed1cf666c47f3118e7bb7af094ba2a78db67fe36d837b2"
+        },
+        "R877-original-V5-prefix-and-A-part-0448-0512.json.gz": {
+          "bytes": 319068,
+          "file": "R877-original-V5-prefix-and-A-part-0448-0512.json.gz",
+          "sha256": "44892a4e68bb4a1f8a6c761c33e909ebd98871a09a38e6b3e99dad520f9cdd8b"
+        },
+        "R877-original-V5-prefix-and-A-part-0512-0576.json.gz": {
+          "bytes": 414814,
+          "file": "R877-original-V5-prefix-and-A-part-0512-0576.json.gz",
+          "sha256": "edbed6ff2e2196d244e25c4d360f6c1985f6a65e2180cb4a3f6b6d8a1000e6ab"
+        },
+        "R877-original-V5-prefix-and-A-part-0576-0640.json.gz": {
+          "bytes": 322465,
+          "file": "R877-original-V5-prefix-and-A-part-0576-0640.json.gz",
+          "sha256": "f29c450c15c5825e38f1059b39e0308b0e021ffafcdc212e68318f6fd89d8353"
+        },
+        "R877-original-V5-prefix-and-A-part-0640-0704.json.gz": {
+          "bytes": 404221,
+          "file": "R877-original-V5-prefix-and-A-part-0640-0704.json.gz",
+          "sha256": "c09d63d44432a07b12953dede277a31b61c12e37a7c631bd66c550cd799a9631"
+        },
+        "R877-original-V5-prefix-and-A-part-0704-0768.json.gz": {
+          "bytes": 266574,
+          "file": "R877-original-V5-prefix-and-A-part-0704-0768.json.gz",
+          "sha256": "40f2eaf8dc10396d3cf2e284280384f799869059c14a7c6f62ab025124f14305"
+        },
+        "R877-original-V5-prefix-and-A-part-0768-0832.json.gz": {
+          "bytes": 457233,
+          "file": "R877-original-V5-prefix-and-A-part-0768-0832.json.gz",
+          "sha256": "b0d0074ef2e8f4268824337effd8ff9b5e9457393f2e4dbfb9a82db57515b06e"
+        },
+        "R877-original-V5-prefix-and-A-part-0832-0896.json.gz": {
+          "bytes": 279245,
+          "file": "R877-original-V5-prefix-and-A-part-0832-0896.json.gz",
+          "sha256": "ff19a345dc9d4555d3aac41d81594ba1fd8d737a29ccc9f54e3d0a631fc2783f"
+        },
+        "R877-original-V5-prefix-and-A-part-0896-0960.json.gz": {
+          "bytes": 449344,
+          "file": "R877-original-V5-prefix-and-A-part-0896-0960.json.gz",
+          "sha256": "382d50d343059e335429d9863848046e037260e1ca2593e42a0cefa13c2a1a18"
+        },
+        "R877-original-V5-prefix-and-A-part-0960-1024.json.gz": {
+          "bytes": 255821,
+          "file": "R877-original-V5-prefix-and-A-part-0960-1024.json.gz",
+          "sha256": "251527274e329fc29c34b480675c83a5ab64ffbe990f77edd1672670a6737a25"
+        },
+        "R877-original-V5-prefix-and-A-part-1024-1088.json.gz": {
+          "bytes": 421720,
+          "file": "R877-original-V5-prefix-and-A-part-1024-1088.json.gz",
+          "sha256": "68c055b894085587f9e825c221720bfa8f9eea9d543fed8b99f040884181c1b3"
+        },
+        "R877-original-V5-prefix-and-A-part-1088-1152.json.gz": {
+          "bytes": 312416,
+          "file": "R877-original-V5-prefix-and-A-part-1088-1152.json.gz",
+          "sha256": "a0410bca2e59853dcb127eae122703e7879f45af9bcc114628dfd2d8968e19df"
+        },
+        "R877-original-V5-prefix-and-A-part-1152-1216.json.gz": {
+          "bytes": 420741,
+          "file": "R877-original-V5-prefix-and-A-part-1152-1216.json.gz",
+          "sha256": "70f24808b515571ba7317a844dc393ca9e0a1ef603ceac5fa07cfc8e26c33d16"
+        },
+        "R877-original-V5-prefix-and-A-part-1216-1234.json.gz": {
+          "bytes": 123650,
+          "file": "R877-original-V5-prefix-and-A-part-1216-1234.json.gz",
+          "sha256": "11cdbed3ff2d5f9d4ca9a4d48536be771c82a76642997f2a99c13a8163ddb198"
+        },
+        "R877-canonical-A-normal-vector.json.gz": {
+          "file": "R877-canonical-A-normal-vector.json.gz",
+          "bytes": 146021,
+          "sha256": "fede856745aff22b269797476deadd06275444bca62a66b6e039d6d7cbb41e23"
+        },
+        "R877-original-global-y-normal-fraction-input.json.gz": {
+          "file": "R877-original-global-y-normal-fraction-input.json.gz",
+          "bytes": 3281,
+          "sha256": "b2849e285080984f7a235c52ece53486ecbafe44bee4565262a12220233c20e0"
+        },
+        "R877-new-A-full1380-right-hand-side.json.gz": {
+          "file": "R877-new-A-full1380-right-hand-side.json.gz",
+          "bytes": 11717,
+          "sha256": "a5b46aa2a42201c18a6b756f615c32e8868fb02240fc4960953abf6ee1280506"
+        }
+      },
+      "expected_selected_file_count": 34
+    },
+    "R824": {
+      "result": "R824-original-global-polar-generators",
+      "run_id": "43729293174",
+      "source_commit": "87c131f1cda02a90da5d66e8c8c9ad440d6f9f25",
+      "artifact_id": 14168007461,
+      "artifact_name": "serre-global-R824-original-global-polar-generators-43729293174-1",
+      "archive_bytes": 1304153559,
+      "archive_sha256": "bf5be60b98de0c0745fdd757e2947c321ad5eeda25fec9815971d1de89a44d63",
+      "expected_conclusion": "success",
+      "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
+      "wrapper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+      "manifest_sha256": "0ca75934c9aa8b740697b0ccf8380051eac1cc4d3633843af0e0dbae86d8dc9f",
+      "manifest_file_count": 359,
+      "manifest_bytes": 90798,
+      "configuration_sha256": "3911ac3f5427424504fe914b6cdb78ae013f28efa5c4dbc9d289ba187b08cd4a",
+      "certificate": {
+        "file": "p41-original-global-polar-generators-certificate.json",
+        "bytes": 10234,
+        "sha256": "028b4d4416c067a5f4f3720573eb42c3e65e896906e02faf40f1cfff8c45a135"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R824-power5-prime-1000000753-branch-01.json.gz",
+        "R824-power5-prime-1000000753-branch-02.json.gz",
+        "R824-power5-prime-1000000753-branch-03.json.gz",
+        "R824-power5-prime-1000000753-branch-04.json.gz",
+        "R824-power5-prime-1000000753-branch-05.json.gz",
+        "R824-power5-prime-1000000753-branch-06.json.gz",
+        "R824-power5-prime-1000000753-chart.json.gz",
+        "R824-stage-manifest.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-global-polar-generators-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "file_pins": {
+        "R824-power5-prime-1000000753-chart.json.gz": {
+          "file": "R824-power5-prime-1000000753-chart.json.gz",
+          "bytes": 7335,
+          "sha256": "b985f8fa6e50b788c15e1688fc84f50ab200f8a917ca85f12ef6e827b9b475d5"
+        },
+        "R824-stage-manifest.json.gz": {
+          "file": "R824-stage-manifest.json.gz",
+          "bytes": 22814,
+          "sha256": "8c77705d821387e9d500bbb20c2727435e891979f9c563166bf1b1d295f108a5"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 363,
+          "sha256": "197b82614297ab926c47568c96dc5824929775bef14497626133bdde074962d8"
+        },
+        "p41-original-global-polar-generators-certificate.json": {
+          "file": "p41-original-global-polar-generators-certificate.json",
+          "bytes": 10234,
+          "sha256": "028b4d4416c067a5f4f3720573eb42c3e65e896906e02faf40f1cfff8c45a135"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 9518,
+          "sha256": "6281c90e61675ca3c674db171c17ee74a4f0afce5db44529d61bf2fad08bd38d"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 424,
+          "sha256": "09146455d70631a64b7e0119b710b7dbcd805d6eee62c4232073bc37e7753d35"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 90798,
+          "sha256": "0ca75934c9aa8b740697b0ccf8380051eac1cc4d3633843af0e0dbae86d8dc9f"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 357,
+          "sha256": "9b922ace027c5cf224904e75a494c62c1ad00c9ccbc4183a5ce4ec200916397d"
+        },
+        "R824-power5-prime-1000000753-branch-01.json.gz": {
+          "bytes": 14787152,
+          "file": "R824-power5-prime-1000000753-branch-01.json.gz",
+          "sha256": "f6f8da663e7cae57380153b9a554b4af3fbacc57fbf30e9b89ec1900526b9641"
+        },
+        "R824-power5-prime-1000000753-branch-02.json.gz": {
+          "bytes": 14787341,
+          "file": "R824-power5-prime-1000000753-branch-02.json.gz",
+          "sha256": "ab6d152fd0dd16da028a9d3283d5c8db269f09185bf135717d2be721958d68d2"
+        },
+        "R824-power5-prime-1000000753-branch-03.json.gz": {
+          "bytes": 14786067,
+          "file": "R824-power5-prime-1000000753-branch-03.json.gz",
+          "sha256": "fd23e495ed2457cc5aeb3d2c9ba1621bc8211dca6fb6435ccf82e8036689e0ee"
+        },
+        "R824-power5-prime-1000000753-branch-04.json.gz": {
+          "bytes": 14786646,
+          "file": "R824-power5-prime-1000000753-branch-04.json.gz",
+          "sha256": "f83cf2b182a0a7a65fe4186745f4007b2e7b67118db601b4b4caad3d51f20ea6"
+        },
+        "R824-power5-prime-1000000753-branch-05.json.gz": {
+          "bytes": 14786293,
+          "file": "R824-power5-prime-1000000753-branch-05.json.gz",
+          "sha256": "6106f6c967942b61e628f04863d6544adf912818c07a6d76d6272f4cc7f95fda"
+        },
+        "R824-power5-prime-1000000753-branch-06.json.gz": {
+          "bytes": 14786384,
+          "file": "R824-power5-prime-1000000753-branch-06.json.gz",
+          "sha256": "a543dc95703b1c8d0fc9081432ca8f8ef11b669d853203cfdb51a5c6e47e7e89"
+        }
+      },
+      "expected_selected_file_count": 14
+    },
+    "R827": {
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "expected_conclusion": "failure",
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "result": "R827-original-global-modular-derivative-termination",
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d",
+      "manifest_file_count": 72997,
+      "manifest_bytes": 19902271,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "certificate": null,
+      "configuration_stage": {
+        "file": "R827-original-place-and-unit-source-audit.json.gz",
+        "bytes": 4261,
+        "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+      },
+      "expected_selected_file_count": 9,
+      "file_pins": {
+        "R827-canonical-B-normal-vector.json.gz": {
+          "file": "R827-canonical-B-normal-vector.json.gz",
+          "bytes": 131371,
+          "sha256": "23f4ced8dc2d461d0c13e31443fd2bf9d15a731fa3834ae2df228063a9be8f33"
+        },
+        "R827-canonical-B-original-V5-expansion.json.gz": {
+          "file": "R827-canonical-B-original-V5-expansion.json.gz",
+          "bytes": 21458,
+          "sha256": "0560f89f71f6a2b60bfeb2120d32390c60ab0a65b863fa0e01cad206ec89af93"
+        },
+        "R827-original-place-and-unit-source-audit.json.gz": {
+          "file": "R827-original-place-and-unit-source-audit.json.gz",
+          "bytes": 4261,
+          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+        },
+        "R827-prime-1000000753-S5-fixed-minor-inverse.json.gz": {
+          "file": "R827-prime-1000000753-S5-fixed-minor-inverse.json.gz",
+          "bytes": 7699685,
+          "sha256": "73e93557f987d6ea117f83919d4d477663ebca80a641e82f134932e9e3ed599b"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 378,
+          "sha256": "80657e1877ebea560fca06ecc808ede7541c42cc9672955cb25203b4ded5611a"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 390,
+          "sha256": "3cc7c0445ff18d7d6c451828cdf2ef93f0193a33d5b0a6351aa3621ec99dd262"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 19902271,
+          "sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 14624,
+          "sha256": "e2ba71d79b50f92f463c6efcfca091ef230bfd9b37e1e8962edc5d4734099583"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 441,
+          "sha256": "41716f65f5e0e9596aed3aaff0487c0ca736517ea904ee6d741adf8aba59de0e"
+        }
+      },
+      "accepted_checkpoint_exit_codes": [
+        124
+      ],
+      "selected_file_names": [
+        "R827-canonical-B-normal-vector.json.gz",
+        "R827-canonical-B-original-V5-expansion.json.gz",
+        "R827-original-place-and-unit-source-audit.json.gz",
+        "R827-prime-1000000753-S5-fixed-minor-inverse.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ]
+    },
+    "R842": {
+      "archive_bytes": 192975030,
+      "archive_sha256": "9a4b0b02988784492bd958859096ee7307e1091ae8c5661eedd91e2fcfe77f50",
+      "artifact_id": 14186901203,
+      "artifact_name": "serre-global-R839-original-two-chart-short-RR-spaces-and-D-kernel-43776927742-1",
+      "core_sha256": "6fe0a0d3f37592b1ac3081a8347a205503de41cdd54e41a05529c837a7b3c73e",
+      "expected_conclusion": "success",
+      "manifest_sha256": "5bb824d2697e369af3a65ff76cdbe2029ce92d153723c4f5012288118d36e1ba",
+      "run_id": "43776927742",
+      "source_commit": "ccc94341bcab2c33e4732fcb9d6bce517b6243f3",
+      "result": "R839-original-two-chart-short-RR-spaces-and-D-kernel",
+      "wrapper_sha256": "f27a4585deb43880e162b337a9c6b39528086ce864ea12e17c23192cbb260d2a",
+      "manifest_file_count": 111,
+      "manifest_bytes": 18828,
+      "configuration_sha256": "7597a9d59b4f8fb08548891a298d76cbc745a72245b6e9cb35f973a25ee4fcc4",
+      "certificate": {
+        "file": "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+        "bytes": 507973,
+        "sha256": "51dff9f0b9fff3117b93a4281c21c0cf37a487c0b09bc88a18f8ffdb80d878fe"
+      },
+      "configuration_stage": null,
+      "expected_selected_file_count": 7,
+      "file_pins": {
+        "R839-original-S5-fixed-place-matrix.json.gz": {
+          "file": "R839-original-S5-fixed-place-matrix.json.gz",
+          "bytes": 8341255,
+          "sha256": "1c1647ea17b1c8cc77e38ba589d1426efee6c165312b090c6823663d6cde1219"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 726,
+          "sha256": "c9ed32d199f9bc744f7248c8840beef91cd99bf29c1e441442b32bfb223278a9"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 236,
+          "sha256": "dcf721174617f2cb6d811e162a377c6b0cc0bf48e79de9b91bd93d40acc08069"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 18828,
+          "sha256": "5bb824d2697e369af3a65ff76cdbe2029ce92d153723c4f5012288118d36e1ba"
+        },
+        "p41-original-two-chart-short-RR-and-D-kernel-certificate.json": {
+          "file": "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+          "bytes": 507973,
+          "sha256": "51dff9f0b9fff3117b93a4281c21c0cf37a487c0b09bc88a18f8ffdb80d878fe"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 4510,
+          "sha256": "3ce9053a15ce6ffab2d6195d3a7a0bf0a0eae097f3ccae68cb65dc83d8b61f16"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 461,
+          "sha256": "88ac7c4f2b5887280dafac4181274a9c45a0188cafd853ed385c0476048d88ef"
+        }
+      },
+      "selected_file_names": [
+        "R839-original-S5-fixed-place-matrix.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ]
+    },
+    "R787": {
+      "archive_bytes": 5148711108,
+      "archive_sha256": "32652fdbb99ef41340bffb4ba1c9d1a56479de346c999f723023db2e1427645f",
+      "artifact_id": 14159006977,
+      "artifact_name": "serre-global-R787-original-power5-function-relation-43683912711-1",
+      "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+      "expected_conclusion": "failure",
+      "manifest_sha256": "613f436b2c398cdcd5c9a92c4eb47e72bc81f8d0e8395322eff6455c89c0821c",
+      "run_id": "43683912711",
+      "source_commit": "eab5e58bbf951c48ccf13a109bbdf0b0289a6f23",
+      "result": "R787-original-power5-function-relation",
+      "wrapper_sha256": "1a8924c2f2fbf0cf09699f9a9026ed0f326415b90aadec8e41f018a618e2e025",
+      "manifest_file_count": 1517,
+      "manifest_bytes": 440819,
+      "configuration_sha256": "71ea66416a42e024de61cf5927bc493fbc8422dc1b5970d75c51bd788d88529d",
+      "certificate": null,
+      "configuration_stage": {
+        "file": "R787-prime-1000000753-chart.json.gz",
+        "bytes": 5829,
+        "sha256": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96"
+      },
+      "expected_selected_file_count": 8,
+      "file_pins": {
+        "R787-prime-1000000753-chart.json.gz": {
+          "file": "R787-prime-1000000753-chart.json.gz",
+          "bytes": 5829,
+          "sha256": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96"
+        },
+        "R787-prime-1000000753-rational-blocks.json.gz": {
+          "file": "R787-prime-1000000753-rational-blocks.json.gz",
+          "bytes": 9169464,
+          "sha256": "fb8a82957474e657fc476aa2baa0d8ce9f4c8b6cc86c2b55a79e75913d610b3b"
+        },
+        "R787-prime-1000000753-selection.json.gz": {
+          "file": "R787-prime-1000000753-selection.json.gz",
+          "bytes": 5759,
+          "sha256": "a420d94a9a2f56fa449946bac6379f437e7e53120a651d7df95b5f9ef9b07adb"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 308,
+          "sha256": "ec4673e2b51e4b3e47b2fbea4ac75c34c7923e90d47ab3f80110cf35f426e8f7"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 369,
+          "sha256": "4cc8d1f7af551de1de9c28bac378796798dd7ad00ffb184bfdb4c32b8bdc21d7"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 440819,
+          "sha256": "613f436b2c398cdcd5c9a92c4eb47e72bc81f8d0e8395322eff6455c89c0821c"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 5895,
+          "sha256": "500ed43dc256e16fa068e9e02f33c1b80ad2f9d864ba761ed2cbad7465387a03"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 542,
+          "sha256": "09bf889dccc65e6894ce7e86ced1f207f79fa258284307869658411e1c2e619d"
+        }
+      },
+      "accepted_checkpoint_exit_codes": [
+        1
+      ],
+      "selected_file_names": [
+        "R787-prime-1000000753-chart.json.gz",
+        "R787-prime-1000000753-rational-blocks.json.gz",
+        "R787-prime-1000000753-selection.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ]
+    },
+    "R849": {
+      "archive_bytes": 396226833,
+      "archive_sha256": "6a52068e04e91bc7b45b13de08a143ca2baef4a3bdfd1f8fac9bab1946d94083",
+      "artifact_id": 14192171293,
+      "artifact_name": "serre-global-R839-original-global-addition-polar-ideal-DAGs-43790410670-1",
+      "core_sha256": "544241acf5f3451df34c779d513ea6494616d4d4caa26cd2531749edc895aea7",
+      "expected_conclusion": "success",
+      "manifest_sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd",
+      "run_id": "43790410670",
+      "source_commit": "391191590dcb8bcc6f8f2d777610726fa79dc2a3",
+      "result": "R839-original-global-addition-polar-ideal-DAGs",
+      "wrapper_sha256": "39bef61981f6c2193e64cd1797331a0ce9340ed468fc93dc785d8994c8d2a541",
+      "manifest_file_count": 12,
+      "manifest_bytes": 2144,
+      "configuration_sha256": "87a0e26e7b0c6677905313753e4e2a36ea82e9e6a33d6f32d6d6cf7616e13183",
+      "certificate": {
+        "bytes": 7447,
+        "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+        "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+      },
+      "configuration_stage": null,
+      "expected_selected_file_count": 8,
+      "file_pins": {
+        "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz": {
+          "file": "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz",
+          "bytes": 202890,
+          "sha256": "529822ba7ab26beeb06de8aeb466eedd3de63326e019e6b9a041096e554a2e79"
+        },
+        "R839-global-polar-source-audit.json.gz": {
+          "file": "R839-global-polar-source-audit.json.gz",
+          "bytes": 5340,
+          "sha256": "3df16cb4ec814bc3909c6aa2a3bd95226cb254048aa5ba7d1eb8995703264fef"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 6600,
+          "sha256": "b36e1ce4447c9d785dda5b0c0e47238e362d5f8dd1bb1330e91e2a96f8c9c132"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 228,
+          "sha256": "82e4ca163df7e266181ff45036b99d6a71818bf4daf64555d3f7df03fa0bcbdb"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 2144,
+          "sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd"
+        },
+        "p41-original-global-addition-polar-ideal-DAG-certificate.json": {
+          "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+          "bytes": 7447,
+          "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 10997,
+          "sha256": "53938ac9f7d05cbc7fed1d2d0d766e589bf6147387f03d20e88aff4bf3812f82"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 495,
+          "sha256": "2815230bf89b9ef47112236b39f38a39675dcc74c4b15790da577f8593a5428f"
+        }
+      },
+      "selected_file_names": [
+        "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz",
+        "R839-global-polar-source-audit.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ]
+    }
+  },
+  "input_selectors": {
+    "canonical_coefficients": {
+      "source_group": "R827",
+      "file": "R827-canonical-B-original-V5-expansion.json.gz",
+      "bytes": 21458,
+      "sha256": "0560f89f71f6a2b60bfeb2120d32390c60ab0a65b863fa0e01cad206ec89af93"
+    },
+    "B_normal": {
+      "source_group": "R827",
+      "file": "R827-canonical-B-normal-vector.json.gz",
+      "bytes": 131371,
+      "sha256": "23f4ced8dc2d461d0c13e31443fd2bf9d15a731fa3834ae2df228063a9be8f33"
+    },
+    "S5_inverse": {
+      "source_group": "R827",
+      "file": "R827-prime-1000000753-S5-fixed-minor-inverse.json.gz",
+      "bytes": 7699685,
+      "sha256": "73e93557f987d6ea117f83919d4d477663ebca80a641e82f134932e9e3ed599b"
+    },
+    "S5_matrix": {
+      "source_group": "R842",
+      "file": "R839-original-S5-fixed-place-matrix.json.gz",
+      "bytes": 8341255,
+      "sha256": "1c1647ea17b1c8cc77e38ba589d1426efee6c165312b090c6823663d6cde1219"
+    },
+    "global_DAG": {
+      "source_group": "R849",
+      "file": "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz",
+      "bytes": 202890,
+      "sha256": "529822ba7ab26beeb06de8aeb466eedd3de63326e019e6b9a041096e554a2e79"
+    },
+    "place_audit": {
+      "source_group": "R827",
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "bytes": 4261,
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+    },
+    "original_chart": {
+      "source_group": "R787",
+      "file": "R787-prime-1000000753-chart.json.gz",
+      "bytes": 5829,
+      "sha256": "47ac1ce2a95781417a4e3b51f2128d2dd4836e5d1793cf2a50793911dcedce96"
+    },
+    "original_rational_blocks": {
+      "source_group": "R787",
+      "file": "R787-prime-1000000753-rational-blocks.json.gz",
+      "bytes": 9169464,
+      "sha256": "fb8a82957474e657fc476aa2baa0d8ce9f4c8b6cc86c2b55a79e75913d610b3b"
+    },
+    "original_selection": {
+      "source_group": "R787",
+      "file": "R787-prime-1000000753-selection.json.gz",
+      "bytes": 5759,
+      "sha256": "a420d94a9a2f56fa449946bac6379f437e7e53120a651d7df95b5f9ef9b07adb"
+    },
+    "parent_source_audit": {
+      "source_group": "R877",
+      "file": "R877-original-source-audit.json.gz",
+      "bytes": 67244,
+      "sha256": "9388a01314254333287c82927c29f5dbeb3e06209fe7176d4fef4efcbcd1fe48"
+    },
+    "parent_normal_A": {
+      "source_group": "R877",
+      "file": "R877-canonical-A-normal-vector.json.gz",
+      "bytes": 146021,
+      "sha256": "fede856745aff22b269797476deadd06275444bca62a66b6e039d6d7cbb41e23"
+    },
+    "parent_normal_fraction": {
+      "source_group": "R877",
+      "file": "R877-original-global-y-normal-fraction-input.json.gz",
+      "bytes": 3281,
+      "sha256": "b2849e285080984f7a235c52ece53486ecbafe44bee4565262a12220233c20e0"
+    },
+    "parent_full_rhs": {
+      "source_group": "R877",
+      "file": "R877-new-A-full1380-right-hand-side.json.gz",
+      "bytes": 11717,
+      "sha256": "a5b46aa2a42201c18a6b756f615c32e8868fb02240fc4960953abf6ee1280506"
+    },
+    "R824_chart": {
+      "source_group": "R824",
+      "file": "R824-power5-prime-1000000753-chart.json.gz",
+      "bytes": 7335,
+      "sha256": "b985f8fa6e50b788c15e1688fc84f50ab200f8a917ca85f12ef6e827b9b475d5"
+    }
+  },
+  "mathematical_scope": "Twelve new A/B normal right hand sides for the remaining six original same-s branches; original sigma(b) gives the seven-cycle; exact unit-solve definitions and all1380 by12 verification.",
+  "old_branch0_A_B_F69_or_inverse_requested_again": false,
+  "characteristic_zero_normal_coordinates_requested": false,
+  "original_five_Lj_RR128_or_144_requested": false
+}
