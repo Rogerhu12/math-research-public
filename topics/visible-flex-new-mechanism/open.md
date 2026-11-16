@@ -40,19 +40,25 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 共同α/R2、free36及prefix102提交时的完整原记录逐字保于[历史](open-archive-joint-free36-and-prefix102-launch-20261116.md)；其中旧“下一/待运行”仅表示当时状态，各原范围现已闭。全部旧失败/成本/适用边界仍有效。
 
-### 全后缀34控制已闭；下一释放原后缀全部51系数
+### 全后缀34控制已闭；其后51范围亦已在下节闭账
 
 [完整闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb。唯一SLSQP9/false/120iter/142值/120J，原返回K18.45692174062725、h63.87343696103953；原准确172盒在58/61失败，准确范数epigraph也失败。0qualified/预测/actual/接受，仍58，不修剪/重启/晋升callback。
 
 新184.71003744799998秒，总3231.8129525510003秒/147原full值；另明计142新两网后缀物理点、120J、1920导数block、12,063,298,236临时写bytes。余额415.289962552关闭。生产者大trace收据存在，但job API与原run ZIP当前只提供3条尾记录367277B；MODEL/初末J/大trace/完整OptimizeResult等正文缺失，不得当免费后继输入。已读BODY_SOLUTION保raw36、q168/172、失败门及初始摘要，COMPLETE/FINAL_CLOCK付最终账。
 
-下一是新的53变量问题：原u54…80与v129…152全部51个字面系数释放（包括旧R0的17方向），加K/h；同g/b0/原准确盒，唯一true58初点，完整21径向/双全角网。新900总秒/360solver秒/240iter/480新物理点及960不同backend上限，完整body/原14actual仍只在原返回合格后一次。新源/协议正在接线，尚未执行；新输出只保存有界紧凑轨迹和实际返回向量，大J只绑定身份/成本，不承诺未来免费复用。不重旧36维范围或恢复缺失科学输出。
+下一是新的53变量问题：原u54…80与v129…152全部51个字面系数释放（包括旧R0的17方向），加K/h；同g/b0/原准确盒，唯一true58初点，完整21径向/双全角网。新900总秒/360solver秒/240iter/480新物理点及960不同backend上限，完整body/原14actual仍只在原返回合格后一次。该51原设计现已执行，以下全51闭账为当前结论；其输出只保存有界紧凑轨迹和实际返回向量，大J只绑定身份/成本，不承诺未来免费复用。不重旧36维范围或恢复缺失科学输出。
 
 ### 全51新范围已闭；继续真实高度/全body控制
 
 [完整闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)记录run43910342020/research133450221925/source077d1dbb9c184cf4c6edf3e4c20014880d810283。原solver360秒限，实际local362.24296968，未返OptimizeResult/候选，0预测/actual，仍58。末完成value180：K17.03922875676163、细κ17.039315013999914、η.2660088845229819，metric/PSD/当前K曲率门false；另last_backend53字段是不同binding，不能移配或推广。
 
 新410.626657796秒，祖总3642.4396103470003/147原值；180q/179J/2864blocks，0磁盘/峰RSS1315268KiB，余额489.373342204关闭。全部9记录取得，MODEl/J等大科学数组从设计上只有bindings而不作未来free输入。新的真实问题是原168中51之外的高度/全body控制与完整172 affine null-height图；先按原源码确认实际非零作用和全链，再做一个新范围。原g/b0/14门/盒/norm保，不借prefix102支撑外零jets扩大名义维数，不重启本次钟停scope。
+
+### full62：实际高度与完整body的新范围已接线
+
+[设计](notes/true58-full62-whole-suffix-design-20261116.md)与[模型合同](notes/true58-full62-whole-suffix-model-contract-20261116.md)固定原51加q157、158及body9共62真实控制；q153…156后缀零列排除，另外106独立坐标固定。64后端变量、63非零物理行，原row162保−3/8、−5/16耦合；先独立一次RN，再原准确physical172图。474线性与145152非线性行，hmax明确只作该新范围限制，原所有门和同g/b0保。
+
+一次1800总秒/1200solver秒/320iter/640新q/1280backend，唯一true58初点。382源request85793B/a6ba3811d6acd125d24018be293aa4bc9614502ef569f00c2d105a5d2f9a19b2，祖3642.4396103470003秒/147值；尚无执行结论。只有原成功返回并全后缀/准确盒/norm合格，才一次canonical全body预测及至多1原actualpair。原raw64/OptimizeResult全保，大数组仅bindings/当前q RAM；旧full51与whole34数组不借用，不重跑旧scope。
 
 ## O4：完整真实第四成本与新首阶机制
 

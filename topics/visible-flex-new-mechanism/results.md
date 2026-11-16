@@ -140,3 +140,5 @@
 - [R551 同一33母固定规范的真实负δ入段](results/R551-real-negative-delta-entry-on-the-same-thirty-three-mother-and-fixed-gauge.md)：**已证明**从实际W*>0正X端，经原矩脉冲/完整conic中心/同根切换达到非零dc返回，保净Π负/k>2；小正hc从起点子族付W号，不能推广任意旧末态。全T和Oτ负t1成本保，整层/慢恢复/全矩仍待。
 
 - [R553 同一固定规范的完整实际返回层与k换号](results/R553-complete-real-return-to-the-centered-zero-layer-with-one-fixed-gauge.md)：**已证明**同33母从k>2通过完整源移位/同支根/有限真实history刷新准确到dc=0，并继续到dc>0/k<0，保净Π负。hc=ε^(5/2)排高度退化，所有原t1负费/T保；新p2正密度不授总矩，慢恢复/全M0/末germ/pose/period仍待。
+
+- [真正58完整高度/body的62控制新范围](notes/true58-full62-whole-suffix-design-20261116.md)：**源码已接线，待公开Actions实际观察**。真实62+K/h、145626×64，原172耦合/一次独立RN/全部门保；382源，1800总秒/1200solver秒一次scope，祖3642.4396103470003/147，仍58。它新增11实际方向，不延长旧full51。

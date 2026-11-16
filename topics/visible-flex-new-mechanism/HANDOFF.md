@@ -50,7 +50,9 @@ R534/535的真零history正δ⁷预算不能由小固定d负δ¹⁰清；R537/53
 
 ## 5. 已在继续的真实下一问题
 
-**O2**[whole34闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)保9/false/盒58/61与norm失败、缺失MODEL/J大trace边界。最新[full51闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)：run43910342020/research133450221925/source077d1dbb9c184cf4c6edf3e4c20014880d810283；solver360钟停实际362.24296968，无OptimizeResult/returned vector，0预测/actual，仍58。末完成K17.03922875676163/细κ17.039315013999914、η.2660088845229819仍违约；另last backend不同不移配。新410.626657796秒/180q/179J/2864blocks，总**3642.4396103470003/147**；余额闭，九原记录完整，大数组只有bindings，0磁盘写/1315268KiB峰RSS。下一源级确认为62真实控制+K/h共64变量；新增4后缀零列排除，完整172 affine图/63非零物理norm行/原显式h上界保，唯一true58，正在写新源，不重开旧范围。
+**O2**[full51闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)无OptimizeResult/返回向量，0预测/actual仍58；末完成η/PSD/当前K曲率失败，last backend异点不移配。新410.626657796秒/180q/179J/2864blocks，祖总**3642.4396103470003/147**；余额闭、九记录完整、0磁盘，大数组bindings不授free，whole34缺失正文亦不恢复。
+
+**full62新范围已接线**：[设计](notes/true58-full62-whole-suffix-design-20261116.md)/[合同](notes/true58-full62-whole-suffix-model-contract-20261116.md)。原51+q157/158及body9共62真实控制，64变量/63物理非零行/474线性+145152非线性；q153…156零列固定。先RN独立168再原exact物理172，row162耦合保；原hmax仅本范围限制，不称新全盒充分。唯一true58，1800总/1200solver秒、320iter、640q/1280backend，最多1预测/1actualpair。request85793B/a6ba3811d6acd125d24018be293aa4bc9614502ef569f00c2d105a5d2f9a19b2，382源；仅源码待公开原观察，不重开旧scope。
 
 **O4**同R533母R536、同R521母R539各已付一次χ的净负总p1及单矩准确零，R540另已付33母同支k>2，R542已付快族t1总负/真实驻留时长门，继续各自同χ慢轨道、其余七矩和全部返回门。R537/538只授先固定有限高度/时长后δ，近k0的t1仍负；R530/532四偶局部开像尚无真零。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付，不能混母或逐段换χ。
 
