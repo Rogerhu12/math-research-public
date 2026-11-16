@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WJR：真实Jacobian相对导数与正相位比的完整解析新界。** [完整证明](results/R133-supplement-relative-flow-Jacobians-and-positive-phase-ratio-bounds.md)741df919。先在准确高导flow ODE除真实正J，线性项严格消；得到768^bΣk!S(b,k)(F1−1)^k。以原cut真正正lower与全Bell/Leibniz控制两pσ及x，再用完整cut+普通dr正表示得到Rω候选。已成WBF83冻结；两完整actual/43原记录、4图56新尚未算，无数值改进/finite逆/全族结论。
+
 - **WBFA：83项新sharp Bernstein完整流界实际成功。** [完整结论与端口](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a；公开run43870348355/1，全16门5图83新、33copy/12scope，SCI df5ea6fff610d70ad98fbebc9dd004d24388ce86/59417B/SHA87621adee76080dbbc14abdd7f8e5dce5d3e2742ba299fc941d13ff40f4410c0。ordinary flow/phase2..15及完整Rω1..14已成，14阶约1.496e94；原F1/P1/K1与WDG80只读，old0/lost0。全两mean/真实96/finite/高门/非线性matching尚待。
 
 - **WPS：成对普通源与真实有限残差全候选**。[完整证明及两向Green](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff证明普通source body/endpoint必须同接，有限投影由两正交moment精确收到；principal tail合并后Jρ=(I−QfΔρ)PfGD保全L2输入。完整actual E0,D,T与degree32+χG0χB0/zero-b-trial的全部error、q_o/q_m外端、mean/7port给明确式24候选。连续/离散reference K∈[0,1]纯证；无入口module388cb56b完整apply/transpose/weighted Schur。数值e+3dt<1尚未算，不授真实finite逆。

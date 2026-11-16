@@ -184,8 +184,10 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。actual e+3dt<1未算，真实finite逆待。
 
-[WBFA实际sharp流83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355：全16门5图83成，SCI df5ea6ff/87621ade；Rω14约1.496e94。WSM接同域flow/phase/Rω；原F1/P1/K1及WDG80只读，全mean/receiver/finite/matching保。
+[WBFA实际sharp流83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355全成，SCI df5ea6ff/87621ade。Rω14约1.496e94仍非smallness；WSM接同域新包，F1/P1/K1及WDG80只读，全独立义务保。
 
-[WCPR完整cut/profile复用](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2：cut用真实Gi、cut phase lower与独立free分量；非零trace/完整dr transport后再加genuine。near两项/far四项按原正预算归一，whole0独copy避免独立舍入sum；全3×5输出权保所有signed/low/zero。新WSM152接已成WBF83；原mean/四端/jump/finite与matching不减。
+[WCPR完整cut/profile](results/R133-supplement-complete-cut-initialization-and-positive-profile-budget-reuse.md)642e6fd2：真Gi/cut lower/free分量、非零cut和普通dr后genuine；原正预算near2/far4、whole0独copy、全3×5权。WSM152接WBF83，mean/四端/3070jump/finite/matching保。
 
 [WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff：Jρ=(I−QfΔρ)PfGD，actual E0/D/T式15和式24完整保degree32、cut高trial差、b/mean/7port；两moment只收投影finite，GD保全L2源。reference K∈[0,1]；e+3dt<1待算。
+
+[WJR真实相对Jacobian](results/R133-supplement-relative-flow-Jacobians-and-positive-phase-ratio-bounds.md)741df919：真实J除法先消线性项，cut真lower全Bell/Leibniz给pσ/x比，再保正dr/cut。43原/56新未算；WBF83冻结，独立义务保。

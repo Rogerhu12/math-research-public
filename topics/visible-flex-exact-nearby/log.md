@@ -322,3 +322,7 @@ run43870348355/1一个child0，checkout6c7e71e0cd53bb15ebdfe024cc7f9574d27c0a84�
 ### 2026-11-16 12:57:26 UTC — 三份已完成派生报告普通清理，精确历史恢复
 
 按根规15删除R61单点时间缺陷修正182918B、真实β′完整transfer107484B、R120已完成九截面metric138934B，合429336B。完整原说明/参数/成功证据与3producer全文核读；Git-tree确认原blob，SHA逐字取保留原完整清单，未取大正文、未重跑任何旧producer。恢复点bdbbd506ceb20141dcf56b7cbf843405507b64ae同path；恢复页c7d74574bea67752baf1a40bb5bad8e5ba3b9856/7947/SHA1efbb74b01be80664fb9c3211d5f6f16d45d5731fe85d3c0db97967e7819ef9e含完整身份、源、参数、原执行说明、scope及全部原失败/未付门。R61只是第419子段一个复标签；β′只原Δ5且失败叶未授；metric只是九径向点，全mean/真实尾/无wholecore不变。删除前再次guard原字身份，不改历史不force。README核4f91916290708d7b28be9538042450a159d3e6c9不变；继续WSM/WPS新消费者。
+
+### 2026-11-16 13:01:06 UTC — WJR完整真实相对Jacobian解析结论
+
+proof b6cd802c613f7ec193329af609c63f59a6efded3/19752B/SHA741df919addd04766685724f1e6d131eef8b03bc6875f9a50ff7de9ad5061c2f全文核读后独推。真实Yj=χ^(j)/J先消vφ线性项，正三角比较等于Wj/F；Stirling有限多项式因式F准确消，无数值reciprocal/exp/log。cut真m_c、cut2..15与已存flow1..14全Bell/Leibniz给同p±/x相对比，再原WBF Kcut只读与新bulk整max。两完整actual/43原/4×14=56首新目标未算，WBF83不重做。仅strict实域ordinary ratio≤14，不扩root/参数域，不替换absolute Phi，全mean/96/finite/matching不减。本地12:59:26按小时真CLI pull仍无executor；下一本地≤13:59:26，公开CI真pull仍12:51:48，下一≤13:51:48。README核294f2ad82638b2cb9d3c28a3ddf55d330765ce65不变；并行WSM原子prefix和WPS全残差实际消费者继续。
