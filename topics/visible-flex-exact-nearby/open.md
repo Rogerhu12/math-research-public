@@ -36,8 +36,6 @@ WAD/WTS、JI/WUA/WUR/WUC/WES/WUB及WPC/PCRA本节逐项完整原说明亦逐字�
 
 WPL052bd8ed/WUEe191f96a完整原式与scope逐字保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)及各proof：同物理primitive leading/two-I/first mean与完整Dalg、R±/RF/Tneg/Eend/Ni保；同ambient插值只1<σ≤4/3，WUC列法独立1<σ<7/6。新same-operator whole预算/finite/ν/背景未闭。
 
-
-
 **当前须闭合：** 得到可用的same-operator whole强误差预算并付正确高门；实际physical有限列、全部输出交叉/pairing、真square逆及完整finite/mean/ν块仍待。unknown radialhead/source/exterior/amp与trueν仍独立，reference不代physical，Ti同空间Fourierχ和坐标像定义不代onto。下一positive新trial及whole物理行预算只能按全式改界，不重旧成功。
 
 [WFR](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：完整root有限因子/WBP/graph；E°进高门、z=Vu留border，高输出不删。全部entries/cross、真96/Θ、physicalmean/ν/无限head仍待；原scope与维数完整保62353730862c1defd1379abcacc3099357d09e70。
@@ -51,10 +49,6 @@ WUI/WEJ/WZR/WEJA/WECA/WGS原完整typed DAG、58输入、1600+9失败prefix和16
 [WGSA](results/R133-supplement-actual-global-fold-and-free-first-transport-finite-jets.md)cd82f734/43820816332全24门/8图437槽冻结；原域/copy/两patch、a!b!恢复及sup/component-sum非A0、完整hash/pull全保proof与b353a12d同open；后继只读，余门不减。
 
 [WHR/WHV/W96完整原scope](notes/2026-11-16-positive-head-open-scope-before-signed-residual.md)9f69ecd3保原三段及全部未付义务：193是angular fiber，真radial Fredholm index0/mH/coker/H¹补列/dual/trace-safe端点和cross不减。WHVA43838214094已成24目标，eps35.51628/N4096充分门false、requiredN145475超cap，无resolvent或奇异结论。W96真实outer193行给核96+ℓ，至少96列存在；指定root96仍须signed193+mH square/basis/Gram。PW全density两mean→WPL、Θ/ν/cross及消head全部high新费保；旧WGB E不可复用，最终族未授。
-
-
-
-
 
 WMR/WMRA完整正权mean与原42记录、四端/jump/全部域和未付门保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)。旧whole界已由WRT另给同算子新候选；不删除任何旧项或授逆。
 
@@ -174,32 +168,14 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 [WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole粗界已证m160真tailκ3/24480cell；所有原reference/mean/rho2−rho*资格保proof。[WPN全系统重建](results/R133-supplement-complete-paired-Neumann-reconstruction-and-root96-normalization.md)dc553f11证明同完整e+3dt<1⇒两rhs双边Neumann逆与两残差误差界、指定root-even I96；实际门仍待，其他readout/7port/ν/Θ/负head/匹配独立。
 
-
-
-
-
-
-
-
-
 [WQS](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372全域/mean/两state/7port/ε及WPS false保proof与4ef462296a239c5abf90ea3239f210cfc23be002同open，旧目标冻结。
 
-
-
-
-
-[WVCA全实际](results/R133-supplement-actual-continuous-centre-tracefree-candidate-and-false-finite-gate.md)17df3c0c43891414339/1全56新+5prefix/96changed/23门成，SCI746ec1e1/85fd5bc6、execc8cd8e8b/5e560887；e+3dt≈11066.29746充分门false/finite0、不推奇异。原WPS60/6prefix及全两mean/7ports/两rhs/四块κ3真96保，old0/lost0，禁重；后继WCTR或全接收新目标。
+[WVCA与WEXA原完成记录](notes/2026-11-16-completed-WVCA-and-WEXA-open-record.md)逐字保原两段及完整proof链接：WVC56与WEX31均锁，充分门false或整候选仍大；两mean/7ports/两rhs/真96和finite/负head/ν/Θ/高/matching条件不减，old0/lost0。
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
-
-
-
-
 
 [WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
 
 [WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59首43901776543/1已全成冻结：96changed/36新+20copy/六图五prefix/24门，45current/19history/16AST，SCI b123f0ec/2524a110、exec51c9089f/d5b4b857。e+3dt≈11976.30849仍充分门false/finite0，不推奇异；old0/lost0。全matrixρ2^-1/两rate/S/τ/actualκ3、193mean/7ports/两rhs和原WPS60/WVC56资格保；完整actual proof进行。下一W2C固定原WVC参考，已成36不重算，其他matching仍待。
-
-[WEX](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)6ffd46a4首31已在43896937318/1完整实现：4图12+6+6+7/15gates/12current/2AST/0history，62旧record/18整体context全部保；同P/B0B1/C1C2/profile、Cs/WT/physicalmean/四端/RF与whole/reduced完整对象不改。各整候选选新约3.790258283e255，仍非小；旧0/lost0，此31冻结。完整actual见 notes/exact_waist_flux_endpoints_ci/run-43896937318-1/，[完整实际WEXA](results/R133-supplement-actual-exact-waist-flux-and-complete-endpoint-reception.md)de1dc669已成；finite/负head/ν/Θ/全matching独立未闭。
 
 [W2H](results/R133-supplement-two-sided-high-feedback-and-complete-centre-correctors.md)72bef388与[W2C](results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md)09ada380已证固定WVC的双侧collar-Volterra候选：两collar residual二阶、完整transition/familyΔ/true dual H1/signed-centre；compact-core保持真实homogeneous图。角224/残差416，50新(+2)尚未算，旧T等同对象整球copy、旧EHigh重付。[W2CI](notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json)389e6c6a已锁两native/原19history/29同对象整球；piece2549真cubic+65signed offsets+13signed intrinsic+193 family upper实际payload仍待CI验，zero_packet不作实际系数。原固定预算>128/25及KH>171仍仅旧recipe障碍；全atoms/两mean/七ports/两rhs/finite和其余matching保。WVC56/WEX31冻结，继续新source。
