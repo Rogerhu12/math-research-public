@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：dd653369a92a2d199af548f798dc80d442a5e183**（2026-11-16T13:27:35.458143+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[六通道Wronskian前H](handoff-archive-2026-11-16-before-six-channel-Wronskians.md)，内接两权接口前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：4e7249810f4b71922daf3cc88557cb30c21cd5e1**（2026-11-16T13:37:33.251141+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[六通道Wronskian前H](handoff-archive-2026-11-16-before-six-channel-Wronskians.md)，内接两权接口前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -32,7 +32,7 @@
 
 **[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，真实五minor/所有Schur与整纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)，artifact14224626902/cc7cc8e5至Nov17 12:03:18。IO v17 43864802081/art14224774305/tarc599a933真392件，五A/B及全纤维值、0..7旧K/8..26新K已可直接消费。
 
-**[R896低权残余核](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：run43872960726/job133318710623/source259e2448已实际SUCCESS，core23281231/wrapper558ad67f，五complete/566stage/324.523s；final66218771/manifest2875d857，artifact14228364447/09709b33。最小IO读五cert后立即正式登记，不重原Schur/正常纤维/jets。旧43868495711零job排队在同并发重排后也晚启动并完成；如实保记录，以先完成43872960726为唯一后继源，不再重派。R896最小271件闭包v20已成；R824[693断点](notes/R824-original-global-polar-693-checkpoint-and-same-core-continuation.md)实际current/history已读，原核续接。
+**[R896五低权实际完成](results/R896-certified-original-five-low-weight-RR-and-marked-principals.md)**：43872960726/job133318710623/source259e2448，566stage/324.523172599s，五真两B秩984/1192/1066/1202/1159、残余396/188/314/178/221、padding250/42/168/32/75→146、末962→完整418。五原ρ/t首项和Q=Gqχ^(−(n−2))详正式结果，未缩放；cfg0f52c636/final66218771/manifest2875d857，art14228364447/09709b33。必要271件IO43875866536/art14230107731/tar7429a99c，原0..26正常/固定选择全可用；六σ未算。旧零job队列后也重算完成，如实保记录，仅消费先成source，不再重派。
 
 **[R894七极trace](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)**：3Σ(Dj−H)+7(−C*+H+4χ)用18flip，R890两节点直接复用只新16。QN=Qorb FN正乘，ρ阶−8435，t正乘(c^1205)^7；末D_N只L定义，旧K下降(γQN/QN)γs。实际run43864869152/job133290893516/sourcebf74b397正在新16flip，core9a2793c7/wrapperbcf31979，保原56源/旧H与E14评价，闭合后才清非live扫描并留hash史。
 
