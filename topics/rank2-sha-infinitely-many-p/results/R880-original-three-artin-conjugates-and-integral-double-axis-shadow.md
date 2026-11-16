@@ -651,31 +651,31 @@ $$
 ### C.1 全部定义域和实际方向
 
 令 \(H=H_{34}\)，其 \(K\) 上 Galois 群为循环十八阶；\(H_9\) 是九次子域。令 \(\sigma\) 为正文 \(\widetilde\tau\) 在 \(H\) 中的唯一九阶提升，\(\epsilon\) 为二阶元。二者交换，且
-$
+$$
  \operatorname{Gal}(H/K)
  =\{\sigma^l\epsilon^e:0\le l<9,\ 0\le e<2\}.
  \tag{C1}
-$
+$$
 这里 \(\epsilon\) 固定 \(H_9\)。仍固定 \(\theta_{17}^6=17\)、\(a=\theta_{17}^2\) 和原实嵌入；故 \(\epsilon(\theta_{17})=-\theta_{17}\)。
 
 实际余循环的方向为
-$
+$$
  \boxed{\sigma(a)=\omega^2a,\qquad
         \sigma(\theta_{17})=\omega\theta_{17}.}
  \tag{C2}
-$
+$$
 第一式可直接在 R864 的 \(\ell\) 与 \(a^3=17\) 中检验。方向也由本题公开 local-input 运行 43850679589/job 133242082519 完整固定：原三个 \(a\) 的余值按 \(12,12\omega,17+17\omega\) 排列时，真实余循环给置换 \((2,0,1)\)。这不是凭另选一个有限域根替换 Artin 方向：全局 \(\sigma(a)/a\) 先已属于 \(\{1,\omega,\omega^2\}\)，三者在这个好位约化互不相同，因此一次准确余值便辨别了原全局等式。第二式由第一式先给 \(\pm\omega\)；负号会使 \(\sigma^9(\theta_{17})=-\theta_{17}\)，与 \(\sigma\) 阶九矛盾，故只能为正号。
 
 原第一因子是在 \(\mathbf Q\) 上的 \(X\to E_{17}\) 映射后接
 \((x,y)\mapsto(x/\theta_{17}^2,y/\theta_{17}^3)\)。所以
-$
+$$
  \boxed{F^\sigma=[\omega]F,\qquad F^\epsilon=-F.}
  \tag{C3}
-$
+$$
 这些是实际映射等式，基点仍为 \(O\)，没有额外平移。
 
 三条原共轭映射则全部在 \(H_9\) 上，且由正文(4)、(12)、(14)有
-$
+$$
  \boxed{
  \mathcal A_r^{\sigma^l}
   =[\omega]^{\lfloor(r+l)/3\rfloor}
@@ -683,46 +683,46 @@ $
  \mathcal A_r^\epsilon=\mathcal A_r.
  }
  \tag{C4}
-$
+$$
 系数中的 \(\zeta,\omega\) 不随 (C1) 的点因子作用改变；此约定与附录A一致。
 
 ### C.2 一个源自同构准确支付所有相位
 
 在固定同一个几何约化处，定义
-$
+$$
  D_j(a,b)=
  \bigl(\overline{\mathcal A}_bq_2
        -[\omega]^j\varphi_r\overline{\mathcal A}_aq_0\bigr)^*[O],
  \qquad
  P_{ab}=\operatorname{Alb}\overline F_*D_0(a,b).
  \tag{C5}
-$
+$$
 原 \(R\) 作用满足
 \(\mathcal A_bq_2R=[\omega]\mathcal A_bq_2\)、
 \(\varphi_r\mathcal A_aq_0R=[\omega^2]\varphi_r\mathcal A_aq_0\)。
 因而作为完整 Cartier 除子，
-$
+$$
  R^*D_j(a,b)=D_{j+1}(a,b),\qquad
  \operatorname{Alb}\overline F_*D_j(a,b)
        =[\omega]^{-j}P_{ab}.
  \tag{C6}
-$
+$$
 后一式使用 \(FR=[\omega]F\) 及自同构拉回在所有闭点上的准确重数与剩余域迹。它不是只对仿射相交点成立。
 
 对 \(a,b\in\{0,1,2\}\) 和 \(0\le l<9\)，唯一写成
-$
+$$
  a+l=3u+a',\quad b+l=3v+b',\qquad 0\le a',b'<3.
-$
+$$
 由真正 Frobenius 关系
 \(\varphi_r[\omega]^u=[\omega]^{2u}\varphi_r\)，
 (C3)、(C4) 及 (C6) 遂给
-$
+$$
  \boxed{
  P_{\sigma^l\epsilon^e,a,b}
  =(-1)^e[\omega]^{\,l-2u+v}P_{a'b'}.
  }
  \tag{C7}
-$
+$$
 左边恰为附录A(A5)中的该 \(\sigma^l\epsilon^e,a,b\) 项，含其第一输出因子。式(C7)亦可在两边同时乘6后使用。它以九个完整除子 \(D_0(a,b)\) 产生全部 \(18\times9\) 个真实输入；不把 Artin 动作换成几何的 \(r\) 次 Frobenius，也不令其作用于角色系数域。
 
 例如 \(l=3\) 时 \(u=v=1,a'=a,b'=b\)，输出为
@@ -733,15 +733,15 @@ $
 在正文已固定的 CM 符号中，
 \(\mathcal B_j^\sigma=\zeta_j^{-1}\mathcal B_j\)，
 而 \(F^\sigma=[\omega]F\)。因此原有序对 \((j,k)\) 的点因子角色准确为
-$
+$$
  \boxed{\chi_{jk}(\sigma)=\omega/(\zeta_j\zeta_k),
         \qquad\chi_{jk}(\epsilon)=-1.}
  \tag{C8}
-$
+$$
 这是原 \((g_{10},g_{16})\)、\((g_{16},g_4)\)、\((g_4,g_{10})\) 三对来源的完整总角色，不是只据阶数选择的角色。仍须保正文(21)的两个独立 Fourier 投影。
 
 用 \(\zeta^3=\omega^2\)、\(\omega=\zeta^6\)，表为
-$
+$$
 \begin{array}{c|c|c}
 (j,k)&\chi_{jk}(\sigma)&\chi_{jk}(\epsilon)\\ \hline
 (0,1)&\zeta^7&-1\\
@@ -749,7 +749,7 @@ $
 (2,0)&\zeta&-1
 \end{array}.
 \tag{C9}
-$
+$$
 消费者因此在固定系数域中按
 \(\chi_{jk}(\sigma^l\epsilon^e)=\chi_{jk}(\sigma)^l(-1)^e\)
 逐项填入原 \(1/162\) 式；几何输入则按 (C7) 使用实际 CM 矩阵。

@@ -218,3 +218,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R880附录C](results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：原H34的阶9提升由实跑方向定σ(a)=ω²a、σθ17=ωθ17；Fσ=ωF、Fε=−F，三A按原循环。完整源R拉回给P_(σ^l ε^e,a,b)=(-1)^e[ω]^(l−2u+v)P_a′b′。三真χ为ζ^7/ζ^4/ζ；先eω后整18×9和准确回(1/9)eωΣζj^aζk^b[6]P_ab，九个真实完整除子足够。未先把几何ω当系数ω，原两认证/所有边界仍保。
+
+
+- [R884](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原T72=(K30/3δ)δ*A14，完整三纤维付traceT=0而同第一次热trace为G24=−σ24x(7X³−18bX²−120b²X−32b³)/28。加∇C24/20后精确消E0高端，Ebar=(51E1+222E2)/770；指定D5回(20708b/407)B(S)+(136b/55)B(Dref)+(2592b/7)Lp(C0)+完整严格<p余配对。全部q24高端/原Cp提升/二挠分母和原两H22读者保，不由B(T)0赋左行零。
