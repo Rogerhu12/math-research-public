@@ -219,3 +219,9 @@ run `43896937318/1`、workflow `5a391cf1c8fca666df9484266a4a12af84c03473`、actu
 依据根规15，仅删除四个exact current路径，总204505B；restore commit `8d1cfb2062e40c08ffd1334ea28fc0aab07f4f46`。完整恢复索引 `52268464f2e8f59411245e9f62e90177184520a4` /31430B/SHA `c4fd99934dafead95274567e97b718aac042ac96f141bf3377614ac3a88a9705`，逐件全path/Git/bytes/SHA齐；四原全文均先完整读取核hash。选取完整资格字段27/6/42/40，原词法JSON token不重排数值；其余完整字段token给bytes/hash并保整原文恢复。density Q报告仅原实H_N^s −2..2及fullmean，不扩旧complex contour；prefix仅113项/center0004/uniform-hybrid0003、failedprobes和later exclusions保；两个return报告完整whole-parameter/两强窗/两mean/普通与齐次source/regular ports、nonzero-head equation、全部七个false完工标志不改，high particular不冒finite解。
 
 当前WVC/WEX/WPS完整manifest无四路径current依赖；未来consumer需要时必须从该immutable commit按原path整件暂恢复，验证全bytes/Git/SHA，禁止重跑原producer。仅删四报告，不删清单内113对象/任何source/native parts/原scientific成果，history不改。清理前树199355899B；只读恢复说明和当前H/log新增计实际下一fresh容量，不把gross节省当净节省。2e639c714186336b2af120f5107586146ffa5d6f两README同已读。
+
+### 2026-11-16 15:41:48 UTC — WEXA完整实际证明已推
+
+全文 `ef8324a0af567fb4a240110336bc4517b4e85278` /77999B/SHA `de1dc669dd5c455de9a150cc4797f1fa4748dfcb3aa36598db19e4e8ad33cbde`。根完整读8节/9式与所有附录说明；5完整JSON块逐对象核全真（31新全graph、62原dict、62 typed role/path/endpoint、18整体scope、gates/progress/choices）；typed path仅字段名展示不同，经明确三键对应即原source完整合同，未删字段。9整对象canonicalbytes/hash、12current pins、3actual pins、四receipt完整chain、原旧scattering/second两球来源、9个jobsteps全部success已独核。whole32 SCI与43执行正文canonical+LF逐字重建等于完整原文件，report按原worker模板独重建453B完全同；preflight全25724B hash同。Consumed marker `893961143f3279a83f0392e79ae878ac2174cf7c` /645B在78a19a60确实存在。无大stdout下载，无新科学数，无旧target重算。
+
+正文准确区分saved interval与其directed upper，whole/reduced radius分别4.69e180/4.70e180；旧WSMF两个endpoint、negative、mean、WT、positive、RF/Calg/D∞和最终有序receiver保全。新界虽改进但仍非小，96真实列/ν/Θ/负head/七port/全nonlinear独立。四旧derived报告清理后fresh topic 199184604B；完整77999B proof及文档纳实际预算。3ca6bddf9912c27f36a1a4a978bd65b8502063a4两README同已读，31完成目标继续冻结。

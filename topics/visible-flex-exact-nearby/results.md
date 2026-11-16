@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WEXA：31 项腰部端点界的完整实际证明](results/R133-supplement-actual-exact-waist-flux-and-complete-endpoint-reception.md)：全31新对象、62原记录和精确typed paths、18整体scope、15gates/16progress、两完整选择与32 SCI/43实际exec资格全保；同完整whole/reduced界约3.790258283e255，未宣告小门或总验收。
+
 - [W2H：完整双侧高反馈与中心修正](results/R133-supplement-two-sided-high-feedback-and-complete-centre-correctors.md)：精确 primal/dual residual 恒等式保全同算子、两 RHS、两均值、所有原子与 ports；证明旧固定 collar 的正预算障碍，未推出真实误差下界。新整 signed-centre、family 与角224/416边界已列清，0新科学数。
 
 - [WEX31 完整实际结论](notes/exact_waist_flux_endpoints_ci/run-43896937318-1/actual-scientific-conclusion.json)：首轮31新全成、15结构门全真、0旧重算/0 lost；whole与reduced各选新完整候选约3.790258283e255，原62球/18范围/两均值及所有独立义务保留。该界仍非小，未推出有限逆或闭合曲面族。
