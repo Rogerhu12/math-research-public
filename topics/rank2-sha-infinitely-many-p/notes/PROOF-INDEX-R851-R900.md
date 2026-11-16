@@ -249,3 +249,6 @@
 
 
 - [R883附录E](../results/R883-original-relative-six-shadow-and-complete-boundary.md)：在原F25/F7上ζ³=ω²不可约，完整对称九项原角色读数为(A+ζω^m B+ζ²ω^(2m)C)/9。三pair单个零等价全零；真实Frob关系进一步给A点=p00−ω²p12、C点=p11+ωφp01，全部原读数非零 iff其中一点非零。φ反交换付ell7分裂的另一CM线，不误称单投影全单射；仍待实际四除子计算，未付无穷系数p。
+
+
+- [R884附录A](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原VΘ−T/Θ²=8bK46H′22为whole degree68身份，原B(V)−B(T)准确留下同K46严格<p配对与两个完整cross。K46=σ2³J34且∇Θ17 A34=J34，带权原H22行不能冒未加权Lp(C0)；A34有限极消去/二挠点−797分子保。J34/S=Dlog(−y/x²)/8付同P2^34的原weighted Cartier返回，输出仍由两个cross决定而未赋零。

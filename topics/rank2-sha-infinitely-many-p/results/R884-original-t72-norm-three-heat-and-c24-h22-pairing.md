@@ -420,3 +420,327 @@ $\mathcal R_{T,p}$ 的每一项由(24)、(26)、(28)在严格低于 $p$
 - [R863 原连接伴随及 H22 两低配对](R863-original-balanced-frobenius-factor-and-partner-chain.md)。
 - [R877 原 canonical 范数三 trace](R877-original-norm-three-common-source-and-h22-partner.md)。
 - [R879 实际热共轭与全部原 trace 缺陷](R879-original-v66-heat-and-degree22-trace-defect.md)。
+
+
+## 附录 A. 原 V/T 两中央的同 degree68 搬运与真实带权 H22 行
+
+本附录给原 $\mathfrak B(V)-\mathfrak B(T)$ 的完整同源搬运，而不把
+§6 的热读者设为零。以下固定 $p=6s-1>211$ 和原坏集；
+未标模 $p$ 的来源式均为原特征零全恒等式。
+所有 $\sigma$、$\Theta=x\sigma^2$、$x,y,b$ 保正文的原绝对规范。
+
+### A.1. 两个真实 whole degree68 来源
+
+在正文的 $Q_7,A_2$ 之外记
+$$
+f=X+b,\quad d=X-8b,\quad
+P_-=X^3-96bX^2+48b^2X+64b^3,\quad
+P_+=X^3+228bX^2+48b^2X+64b^3 .
+\tag{A1}
+$$
+原来源的完整式为
+$$
+S=\frac{\sigma^{34}x^2fdQ_7}{7},\quad
+T=\frac{\sigma^{72}Xfd(X+4b)Q_7A_2P_-}{7},\quad
+V=\frac{\sigma^{66}Xfd^2(X+4b)Q_7P_+}{7}.
+\tag{A2}
+$$
+令
+$$
+W_{68}=\frac{T}{\Theta^2}
+=\frac{\sigma^{68}xfd(X+4b)Q_7A_2P_-}{7}.
+\tag{A3}
+$$
+(A3)是 whole 来源：原 $T$ 的 $x^3$ 因子被 $x^2$ 除后仍留下
+$x$，没有新增有限极。它与 $V\Theta$ 都在原 degree68 格内、
+型零且首项为 $z^6$。这里没有把 $W_{68}$ 单独赋中央零。
+
+直接乘开原三个多项式得
+$$
+X(X-8b)P_+-A_2P_-
+=8b(X+b)(37X^3-24bX^2-240b^2X+64b^3).
+\tag{A4}
+$$
+定义确定的同模型来源
+$$
+\begin{aligned}
+H'_{22}&=\sigma^{22}(37X^3-24bX^2-240b^2X+64b^3),\\
+F_{12}&=\sigma^{12}(X+b)(X+4b),\\
+K_{46}&=\frac SxF_{12}
+=\frac{\sigma^{46}xf^2d(X+4b)Q_7}{7}.
+\end{aligned}
+\tag{A5}
+$$
+于是有完整同 degree 身份
+$$
+\boxed{\Delta_{68}:=V\Theta-W_{68}=8bK_{46}H'_{22}.}
+\tag{A6}
+$$
+$F_{12}$ 的质量为一，$K_{46}=z^8+\cdots$，
+$H'_{22}=37z^4+\cdots$，故 $\Delta_{68}=296bz^{12}+\cdots$。
+各多项式仅在 $O$ 有极且极阶小于相应 sigma 次数：
+$K_{46}$ 的最大极阶为 $38$，$H'_{22}$ 为 $18$。
+因此(A6)没有用一个仅局部合法的除法替代 whole 格。
+
+### A.2. 两个原中央条件的完整 cross 搬运
+
+对本节实际型零来源 $A$ 及质量一型零伙伴 $B$，令
+$$
+\mathscr X_p(A,B)=
+\sum_{\substack{6\le r\le p-5\\r\equiv0\ (6)}}
+\frac{j_r(A)j_{p+1-r}(B)}{r(r-1)} .
+\tag{A7}
+$$
+本节只用 $(A,B)=(V,\Theta)$、$(W_{68},\Theta^2)$。
+其质量分别为 $(0,1)$，一次 jet 都为零。
+真实 Leibniz 公式中的两个端项是 $j_{p+1}(A)$ 和零，
+而 $2\le r\le p-1$ 时
+$$
+\frac1p\binom{p+1}{r}\equiv\frac{(-1)^r}{r(r-1)}\pmod p.
+$$
+非零项的 $r$ 都为六的倍数，所以没有额外负号。
+这逐项证明
+$$
+\mathfrak B(V\Theta)=\mathfrak B(V)+\mathscr X_p(V,\Theta),
+\qquad
+\mathfrak B(T)=\mathfrak B(W_{68})
++\mathscr X_p(W_{68},\Theta^2).
+\tag{A8}
+$$
+所有(A7)的单因子 jet 都严格低于 $p$；两个原
+$\mathfrak B$ 的整性仍来自 R855/R856 的同一原 whole 格。
+
+在(A6)右边，两个零阶分别为八和四，因此其完整首读数也是严格低窗：
+$$
+\mathscr W_p(H)=
+\sum_{\substack{8\le r\le p-3\\r\equiv2\ (6)}}
+\frac{j_r(K_{46})j_{p+1-r}(H)}{r(r-1)}
+\quad
+\left(H\in\sigma^{22}\langle X^3,bX^2,b^2X,b^3\rangle\right).
+\tag{A9}
+$$
+每个这样的 $H$ 首阶至少四；(A9)正是
+$\mathfrak B(K_{46}H)$，没有漏掉高端，也没有增添一个首
+$\Theta$ 对数商。由(A6)、(A8)得
+$$
+\boxed{
+8b\,\mathscr W_p(H'_{22})
+=\mathfrak B(V)-\mathfrak B(T)
++\mathscr X_p(V,\Theta)+\mathscr X_p(W_{68},\Theta^2).
+}
+\tag{A10}
+$$
+因此两个原中央首必要条件确实给出
+$$
+8b\,\mathscr W_p(H'_{22})
+=\mathscr X_p(V,\Theta)+\mathscr X_p(W_{68},\Theta^2),
+\tag{A11}
+$$
+而不是 $\mathscr W_p(H'_{22})=0$。
+(A11)使用原两个条件，未用热伴随的一个假零。
+
+### A.3. 同一个 sigma2 三次因子与准确连接权
+
+令 $\sigma_2=\sigma(2z)$。因为 $\sigma_2=-2y\sigma^4$，
+(A5)准确分解为
+$$
+\boxed{
+K_{46}=\sigma_2^3J_{34},\qquad
+J_{34}=-\frac{\sigma^{34}xyQ_7(X-8b)(X+4b)}{56}.
+}
+\tag{A12}
+$$
+$J_{34}=z^5/8+\cdots$ 是 whole degree34 型五来源。
+(A9)于是确与正文(30)共享同一个原 $\sigma_2^3$；
+区别是这里仍有固定的非恒定权 $J_{34}$。
+
+这个权有以下准确的原连接原函数。保持
+$$
+F=\Theta^{17},\qquad q_F=F'/F=34(\zeta+y/x),\qquad
+\nabla_F=D_z-q_F,
+$$
+并定义
+$$
+A_{34}=\sigma^{34}x^2
+\left(\frac{X^4}{48}-\frac{bX^3}{21}
+-\frac{4b^2X^2}{21}+\frac{b^3X}{21}-\frac{32b^4}{105}\right).
+\tag{A13}
+$$
+则
+$$
+\boxed{\nabla_FA_{34}=J_{34}.}
+\tag{A14}
+$$
+完整核对如下：若 $A=\sigma^{34}x^2P(X)$，则
+$$
+\nabla_FA=6\sigma^{34}xy(XP'(X)-5P(X)).
+$$
+而
+$$
+Q_7(X-8b)(X+4b)
+=7X^4-32bX^3-192b^2X^2+64b^3X-512b^4.
+$$
+将(A13)代入上一行即得(A14)，包括全部 $b$ 项。
+此处 $A_{34}$ 首项 $z^6/48$，最大极阶为二十八；
+连接产生的有限极已经由显示的 $x^2$ 因子消去。
+
+对 $C_H=\sigma_2^3H$，完整乘积连接式为
+$$
+\boxed{
+K_{46}H
+=J_{34}C_H
+=\nabla_{F^2}(A_{34}C_H)-A_{34}\nabla_FC_H.
+}
+\tag{A15}
+$$
+这里 $\nabla_{F^2}=D_z-2q_F$，不可省略第二项。
+若 $H=H'_{22}$，其非零常数项 $64b^3$ 使
+$\nabla_FC_H$ 自身在 $x=0$ 有真实极；该极在
+$A_{34}\nabla_FC_H$ 中被 $A_{34}$ 的 $x^2$ 因子消去。
+所以(A15)右边的实际 whole 乘积合法，却不能把裸
+$\nabla_FC_H$ 当成一个已经支付的 whole 算术来源。
+
+还可将(A15)直接写成原读者。$A_{34}C_H$ 首阶至少十三，
+型一；其原 $\mathcal D_{68,p,2}$ 的两个低 Hasse 项均为零。
+因为 $q_F$ 从第五阶起，所有下列卷积严格低于 $p$，
+故(A15)给
+$$
+\boxed{
+\begin{aligned}
+\mathscr W_p(H)
+={}&\mathcal D_{68,p,2}(A_{34}C_H)
++2\!\!\sum_{\substack{5\le r\le p-12\\r\equiv5\ (6)}}
+ \frac{j_r(q_F)j_{p+1-r}(A_{34}C_H)}{r(r-1)}
+-\mathfrak B(A_{34}\nabla_FC_H).
+\end{aligned}}
+\tag{A16}
+$$
+正号来自 $r$ 为奇数时
+$\binom{p+1}{r}/p\equiv-1/[r(r-1)]$。
+(A16)只是同一个实际(A9)的完整带权连接式；
+没有将其中某个新伴随赋零。
+
+这个权不能通过原三列的线性换基删去。
+在特征零的三个非零二挠点 $X=-b$ 上，
+(A13)的括号值为 $-797b^4/1680\ne0$，
+而原 $Z_j=E_jJ_S$ 全带因子 $X+b$，均为零。
+故 $A_{34}$ 不在原 $\langle Z_0,Z_1,Z_2\rangle$ 中。
+此断言是显示来源的特征零比较，不把它升级成所有允许素数上的
+指定读数非零；若约化该点值，还须保固定分子 $797$。
+
+### A.4. 与原 H22 及本篇两低读者的准确联合
+
+使用 R879 原
+$$
+G_{22}=-\frac{\sigma^{22}}{21}
+(19X^3-119bX^2+56b^2X+32b^3),\qquad
+B_{22}=\sigma^{22}X(X+b)(X-8b),
+$$
+则原四坐标的逐项恒等式为
+$$
+\boxed{
+H'_{22}=\frac{69}{25}H_{22}-42G_{22}
+-\frac{902}{5}B_{22}-\frac{76896}{25}b^2\sigma^{22}X.
+}
+\tag{A17}
+$$
+因此(A9)中可用(A17)线性展开，但全部四项都仍由同一
+$K_{46}$ 读。R876 支付了这一整个 degree22 四维 CM 来源，
+并未支付将有限 CM word 从带权读者中移走的交织。
+
+联合正文(32)，原 $\mathfrak B(S)=\mathfrak B(T)=
+\mathfrak B(V)=0$ 准确留下以下两条显示关系：
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{24,p,5}(\widehat G_{24})-\mathcal R_{T,p}
+&=\frac{136}{55}b\,\mathfrak B(D_{\rm ref})
++\frac{2592}{7}b\,\mathcal L_p(C_0),\\
+8b\,\mathscr W_p(H'_{22})
+&=\mathscr X_p(V,\Theta)+\mathscr X_p(W_{68},\Theta^2).
+\end{aligned}}
+\tag{A18}
+$$
+第一条保持正文(30)的两项原低配对及完整参考；
+第二条保持(A7)的两个原 cross。
+$\mathcal L_p(C_0)$ 与 $\mathscr W_p$ 不是同一泛函：
+前者为 degree34 的原未加权连接行，后者为(A12)–(A16)
+显示的 degree68 带权行。
+所以(A17)不能将(A18)第二条直接代成第一条的一个常数倍。
+目前真实减少的是(A10)里的两个原中央首项，而非这些
+固定的低卷积或连接伴随。这里没有宣称四原首行不可能同时为零。
+
+### A.5. 原有理坐标的对数微分式及 R853 的同 P2 输入
+
+(A12)还有一个不更换 sigma frame 的有理形式。令
+$$
+v=-\frac y{x^2}.
+$$
+由 $D_zy=3x^2$、$D_zx=2y$ 得
+$$
+D_z\log v=\frac{3x^2}{y}-\frac{4y}{x}
+=-\frac{X+4b}{xy}.
+$$
+故
+$$
+\boxed{
+\frac{J_{34}}S=\frac18D_z\log v,\qquad
+\Delta_{68}=b\,S\,(\sigma_2^3H'_{22})\,D_z\log v.
+}
+\tag{A19}
+$$
+其全部有限极都由同一显示乘积抵消；不能将 $D\log v$ 单独删去。
+在原 $t=-b/X$ 坐标上，
+$$
+v^6=-\frac{t(1-t)^3}{b},\qquad
+d\log v=\frac{1-4t}{6t(1-t)}\,dt.
+\tag{A20}
+$$
+
+具体接 R853 时固定其 $b=1$ 模型与同一个
+$Z,G,\mathcal P_2$，不重新选择 Frobenius 初值。
+对 degree $2n$ 的代数来源 $\sigma^{2n}R$，
+记 $\widehat A=\mathcal P_2^nR$。则(A19)在这个实际有理模型中仍逐项为
+$$
+\boxed{
+Z^{-p-2}\widehat\Delta_{68}\,\omega
+=Z^{-p-2}\widehat S\,\widehat C_{H'_{22}}\,d\log v .
+}
+\tag{A21}
+$$
+左右的 $\mathcal P_2$ 总幂均为三十四。
+没有由 $\widehat S$ 或 $\widehat C_H$ 中抽出一个未经支付的 $p$ 次幂。
+
+R853 §§2–6 的完整极证明适用于(A21)：
+$\widehat\Delta_{68}$ 在 $O$ 阶至少十二；
+非原点 $Z$ 零点仍由同一指定 $\mathcal P_2$ 的至少 $p$ 阶零抵消；
+三个二挠点的极帽可用 $n=34$ 的原上界。
+型零不变性亦保持。因此若
+$$
+\alpha_\Delta=[z^{p+1}]\widehat\Delta_{68},
+$$
+则准确有
+$$
+\boxed{
+\mathcal C^4\!\left(
+ Z^{-p-2}\widehat S\,\widehat C_{H'_{22}}\,d\log v
+\right)
+=-\alpha_\Delta^{1/p^4}\frac{x^2}{y}\omega .
+}
+\tag{A22}
+$$
+原有限窗口给
+$\mathfrak B(\Delta_{68})=U_p\alpha_\Delta$，
+$U_p=(p+1)!/p\equiv-1\pmod p$。
+所以在原 $V,T$ 两首必要行零时，
+$$
+\alpha_\Delta=
+-\mathscr X_p(V,\Theta)-\mathscr X_p(W_{68},\Theta^2)
+\pmod p.
+\tag{A23}
+$$
+(A22)保同一原输入及其全部 Frobenius 资料；
+$\mathcal C(d\log v)=d\log v$ 不会把(A21)的非 $p$ 次幂乘子消掉。
+(A23)也明确：原两中央并不让这个新的加权 Cartier 输出为零。
+若要由它排除四中央共同零，仍须对这里的实际完整乘子或
+(A18)的两个 cross 证明额外关系，不能只依固定对数目标的一维性。
