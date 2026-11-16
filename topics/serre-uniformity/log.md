@@ -286,7 +286,12 @@
 - 真R896先成source259e2448及271件必要闭包绑定，不消费迟后重复run；R854实际BudgetStop124/1041stage，正读取同核续算断点，无四球或高度完成声明。
 - 本push规则：公开Actions真实pull至b865820101704e51b448acd7b604ee05ca3dc7ee（2026-11-16T13:51:33.930209+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-16 21:54 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 21:55 Asia/Taipei — serre-public-astra-20261115
 - R854 N112实际BudgetStop124/1041stage；完整算子112已成，末profile63为输入49/rank7，非最终满秩或四球。真实manifest3ea125ba/core f98499fa和原135MB carrier已读。
 - 只更新真实resume来源，同核/同配置/N112直接续；R899已见run43879192431排队不重派，R902已成功发布和受理30对任务。H前态逐字归档。
-- 本push规则：公开Actions真实pull至b865820101704e51b448acd7b604ee05ca3dc7ee（2026-11-16T13:51:33.930209+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+- 本push规则：公开Actions真实pull至96d59f17bf974dd0b6d845ecae8d3c6bedf7dc44（2026-11-16T13:55:28.819837+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 21:57 Asia/Taipei — serre-public-astra-20261115
+- R906完整纸证：原fine level6整图/period lattice在σ下固定，原正CM残余指数皆奇；Cayley–Hamilton在实际M上给σ−1整逆，得原qTpJ=qB TpB，逐h原index不变。
+- EP/Emerton/Mazur原文已核；不冒Hodge饱和或原CM normal项。R902首run来源schema即退、核未执行，正修；R854同核N112续已受理，H前态逐字归档。
+- 本push规则：公开Actions真实pull至96d59f17bf974dd0b6d845ecae8d3c6bedf7dc44（2026-11-16T13:55:28.819837+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

@@ -151,3 +151,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **R854 N112实际预算断点**：[来源及同核续算](notes/R854-N112-budget-checkpoint-and-same-core-continuation.md)。完整算子112与1041stage已保存，末完整profile63记录输入49/rank7，尚非最终单位逆界；false FINAL无四球。新resume只换实际run43832705685/art14229723159，保持同core/config/112，不重旧位，R858仍null。
+
+
+**R906原整Tate像已证**：[完整证明](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)。原fine Cartan/level6源在σ=τ^(e/2)下的period lattice固定；原正CM实际残余指数皆奇，σ−1在实际q(TpJ)整可逆。由原Raynaud整序列得qTpJ=qB TpB，逐h及原清分母p-index全部保留，未换optimal商。高分歧e=p²−1不满足Mazur–Raynaud小分歧cotangent条件，故Hodge饱和/原CM normal-content与指定第五jet仍待实际finite-flat比较。

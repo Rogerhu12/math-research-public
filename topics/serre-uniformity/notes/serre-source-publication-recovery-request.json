@@ -2,51 +2,40 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-N112-budget-checkpoint-same-core-continuation",
-  "commit_message": "serre: preserve actual N112 stages and continue original response solver",
-  "rules_last_read_commit": "b865820101704e51b448acd7b604ee05ca3dc7ee",
+  "request_id": "20261116-original-integral-CM-Tate-image-through-abelian-part",
+  "commit_message": "serre: prove the original integral CM Tate image comes from Raynaud abelian part",
+  "rules_last_read_commit": "96d59f17bf974dd0b6d845ecae8d3c6bedf7dc44",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "a27f32d97371a7ffb30ce6bf4e50e6d868984bade403cf74e3f6761894ed3ff9",
+  "expected_previous_request_sha256": "d2c56a99394ef70e8960ae4b2f44a98883c477b46997fdfb6193fd009120a45a",
   "files": [
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-N112-continuation.md",
-      "sha256": "754fbf92ef280dccc1746009dcc2c046fad90119afdacebe0d6be08606505e47",
+      "path": "topics/serre-uniformity/results/R906-original-period-lattice-and-integral-CM-Tate-image.md",
+      "sha256": "eb1a1e0d4be64bab8222987a9dbdc6e564acafff3aa8f1940dd32ffe8a496cb5",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R854-N112-budget-checkpoint-and-same-core-continuation.md",
-      "sha256": "b223e0b7431dc90a76947dfc8cb3ae5d64aedadee597c48a91d38db76a7b307f",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-integral-Tate-image.md",
+      "sha256": "1e82bf4771e93856e8458b6fe6d39f951375bbd6d276733221ea3b1d10a280b5",
       "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
-      "sha256": "d86a3059d6faeca1edaecae68542f052c4aa42e80f76269c56b2e3385345fcc5",
-      "expected_previous_sha256": "68d12483e8f75ce0134ac008b42cf05433652680f983f92a763c0e2360120905"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "e45712c10d97f6d39bedfc90bc17769f817cdd63aee1bd9bc2aa0bfccbe02922",
-      "expected_previous_sha256": "754fbf92ef280dccc1746009dcc2c046fad90119afdacebe0d6be08606505e47"
+      "sha256": "6bad7eb970cb73ed99e8e0e6da76d686dface132cefa3254cdc1d55e707fe198",
+      "expected_previous_sha256": "1e82bf4771e93856e8458b6fe6d39f951375bbd6d276733221ea3b1d10a280b5"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "b885ebb5687d2e39bad53767f6162a9ce8f798c5bc9da30034aaeaf1709eb92a",
-      "expected_previous_sha256": "8e0bed0f4df276037101ef4a755c41840c6869032feb41951dcb37bed6b2aec3"
+      "sha256": "74096662302d144003b2b38df946e51750e19869e4944d7118a71a678d63761f",
+      "expected_previous_sha256": "b885ebb5687d2e39bad53767f6162a9ce8f798c5bc9da30034aaeaf1709eb92a"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "053ff1b8550bd6d87102228769ff8c2e48e7ee3bd2f7eea294bc1d7d930d364a",
-      "expected_previous_sha256": "64c95605997aff6991894f6952ba251753e833b3443981b4dc70f19333ccca56"
+      "sha256": "23f2e86796a813e5a885c66ac630b7ad5d33d986a8e2356ebe78adb2f58980ee",
+      "expected_previous_sha256": "d36324291145c761aed918e6399b8f5a501aacf8115bc57f9b6648a340c9408c"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R854-original-p41-response-solver.yml",
-      "request_path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
-      "request_sha256": "d86a3059d6faeca1edaecae68542f052c4aa42e80f76269c56b2e3385345fcc5"
-    }
-  ]
+  "dispatch_workflows": []
 }
