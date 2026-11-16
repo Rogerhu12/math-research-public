@@ -237,3 +237,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R503 — 显式coast-base新初点与完整原两阶段
 
 **完整条件构造和三个源视图已成；新候选算术/科学未执行。** [R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)10972/fe5a2532、[接口](notes/2026-11-16-explicit-coast-base-two-phase-interface.md)6859/d33a489b、gen6663/0c19c91b、plan18919/2f6113ce四件。由实际212中心反证及R449-C明确固定theta3的三p不能修准确中心，但不把它冒已发生数值RHS异常或全搜索无解。新政策原202全十词投影后仅索引2/5/8显式正零，另七原投影词保；全部原投影/新选择/准确差额逐行分列，新点和metric无旧接受转移。准确coast三项消失成为原仿射基底，原全族端值正/0<κ<1条件下整段严格半径/速度域成立；端点零二jet/其它准确分片保，非全数字程序同词或全域/几何通过。原453三active p不变，p3后续可变，theta3/eta3固定0；原全H/J/FD/fullDN/17档8outer/RMS/BC/final/audit、真末十词独立450及7200共享钟/32GiB保持。candidate/driver/launcher三preview33550/5c62、34418/02ca、20494/d2a3，展开只Actions；实际launcher candidate.schema同步新源。未来220须组合218完整新来源和新必要字段/frame，未做source闭包的preview不能冒最终入口；没有新run/接受/固定g下降，不给原BVP增加域门。
+
+
+## Request218 — 三层实际native、完整gzip消费者和必要读回入口
+
+[218完整接口](notes/2026-11-16-request218-zero-linear-gzip-complete-chain-interface.md)34152/78fad96f及七件源/入口本次完整发布：正式216为基线，272public+133生成=405，15→5→13→49→51真实层次；R496三层captured-product caller、全零j资格/fallback/九计数，R498逐原行gzip与全部samefar/union读者，R499实际owner来源/原完整规则选择和独立composition always全接。新51层110literal/334应用含first launcher candidate.schema明确配真实R496，旧49不改，不归因旧run。原453→真450→五factor2→真父M128、同C/目标/材料/全域metric/held/reach/4/8/16t与3/5/9显示、全部FD/fullDN/末门/唯一18900+2700/32GiB保持。所有九必要scope与实际owner quiet才清，单90K超限诚实失败，无压缩比/提速/接受预测。workflow显式workflow_dispatch，根端实际Git推后以本公开仓库token官方启动，实际run/head另核；R507由amplitude唯一终态。R503新初点只属后继220，不偷偷改变218参数。
