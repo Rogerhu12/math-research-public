@@ -6,6 +6,7 @@
 
 ## 最近接续结论
 
+- **[原E低交换子的二十来源及670列上界已闭](results/R150-appendix-original-characteristic-zero-low-commutators-factor-through-twenty-cubic-sources.md)。** 五十低comm的线性$u$来源落原55→35的20维核；二次消去唯一决定全部低项，故向量与原11/17来源同时由同20原列以固定E常数生成。127独立性只证原E子式非零，真实系数由原伴随/行列式定义。原116→76是普通参数模等式，保40高列；已付两轮给66×10＋10=670完整呈示。补投影使16条旧三次来源项字面消失，小消费者只需20×50真E乘回；尚未物化新数组或证明单位。
 - **[原两孔最优费用、同Q真锚与倒数门槛已闭](results/R271-appendix-optimal-two-far-source-saturation-same-q-anchor-and-complete-schur-direction.md)。** 对整个首核严格凸极小得$\kappa_{\rm opt}^2=S^{-1}\zeta\le S^{-1}$。同一真实$V_Q/K_Q$投影和低支撑直接保锚，原$\tau_{14}$给误差$\le e^{-5d^4}\|w\|$；同w两行Bessel使非零锚必要$\sum S/\zeta<\infty$。故实际费用上界$c_m$的倒数和发散即可封该锚，尚未取得此界。全部h段/真帽保同源、flow误差取$\min(1,\kappa)$。完整$(1-\theta)R_{\rm opt,p}\preceq S_{b,p}$只给已付增益的费用下界比较，不能反向付上界；原高旗逆继续。
 - **[完整210列与200原梯度来源已实际完成](results/R150-appendix-actual-complete210-parameter-columns-and-all200-original-gradient-sources.md)。** 新增24均值/80交换子均保完整十向量及十八源、Bell槽0；最终实291.639秒exit0。根独立分两次核104的1040/1872递推坐标、104原乘回及权9/10，未导入producer。实际7,034,750向量项/2,707,447来源项；106phase双SHA完整。200/210余核完整性已证，未做新秩/GB/单位。续权十$\delta b^2$、权十一$qb^3$及真E来源，不重旧权7/8。
 - **[原十八来源与完整200列的加权过滤等价](results/R150-appendix-original-eighteen-source-weight-filtration-equivalence.md)已闭。** 固定有序 $\pi(f)=f(N)e_0$ 保权且仅在商中可交换；完整齐次核给 $\Gamma\cap F_{\le K}=\sum B_{\le K-\nu_j}\gamma_j$，与同权原源回填双向无损。因此原十八方程中，非零规范 $q$ 组合没有加权来源权 $\le10$ 的表示，$\delta_{14}$ 没有 $\le9$ 的表示。权是 $y:1,w/u:2$，不改称普通次数或特征零界；更高来源仍开放。
