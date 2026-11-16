@@ -1,5 +1,7 @@
 # 已得结果
 
+**[原E二十低源实际坐标与完整乘回已闭](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)。** 两原4×4单位在20.893秒求出完整$\Lambda\in E^{20\times50}$，64个双向逆产品、1000E/3000Q/1000place及400选列恒等全真；原20/M/B子式64/96/69。原核单射及canonical低次校正把该精确坐标运输到全部参数/原11和17来源，普通76列/至多670完整呈示保40高列。根独立重生字典、重建binding及4064raw/2484最后phase全SHA同；不冒新55维或参数展开，Bell判空仍开。
+
 **[单远孔代表、只乘核列的双塔误差及整高度倒数门已闭](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。** 每个$r$先在整个强头真Galerkin核投影，完整$((C^*)^r)^\dagger$给纯$r$远孔代表；canonical $W/V$运输后核项是真物理最小投影，误差只乘范数≤1核列。所有$r\le1+\lfloor\sqrt{x+1}/(8(m+1))\rfloor$同原$Q/w$，全高度Bessel与统一吸收给非零锚必要$\sum_{m,r}\kappa_{m,r}^{-2}<\infty$。只累计高度数乘$\eta_m^2$，不累计双塔误差；完整强头费用上界及帽逆后的误差仍开，未证$N=M$。
 
 **[权十真实预算边界与完成日志审计已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** run43906283833完整八次尝试已逐源/绑定核对；真实engine和2000 SSI门通过，std555.227秒仅START、整体592.369秒/75、完整candidate=null，不空续。根另实际运行纯V8审计，重建2172字节semantic及2027/3469两个完整raw的字节/SHA全同；缺省的201项旧权8phase列表仅保完整身份。第9验证未跑，无成员/非成员新增结论。下一全77276×13808直接消元/原左证另建接口。

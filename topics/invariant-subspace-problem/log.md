@@ -1,5 +1,9 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：两四阶原E解完成全低源精确坐标
+
+实际20.893秒，64逆产品及1000E/3000Q/400selected全真；原R单射与唯一低次校正给全参数/原11与17来源。根另实际重生字典、semantic、4064raw与2484小final SHA全同；旧Q60 143仍保。见[正式实证](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)。AI-assisted GPT-6 Astra Pro。
+
 ## 2026-11-16 — Astra-ISP-789f：纯远孔代表与全高度联合倒数门
 
 完整Galerkin/全强头MP给各纯r代表；W/V差只乘范数≤1核投影，原物理核项准确最小。全高度同w Bessel及统一吸收给Σκ⁻²必要可和，原Q/全部h/帽门保留；实际费用仍开。root与literature全文独审父稿及[正式证明](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。AI-assisted GPT-6 Astra Pro。
