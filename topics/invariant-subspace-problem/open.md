@@ -1,6 +1,6 @@
 # 未解决的问题
 
-**[四规范q的权8负与完整增广秩1316已闭](notes/2026-11-16-r150-original-canonical-mean-quadrics-bounded-rhs127-boundary-789f.md)。** 四qb²原余式均非零、来源系数全0；根从原T/U/V独构全部70696目标坐标，并核1312原unit坐标全0。规范四q系数det8给四维目标空间与完整G8交0，故增广17674×1390秩1316。该首轮模的q来源≤8排除；更高来源和完整理想仍须推进，不重复旧权8。
+**[原未加 Bell 的完整 200 列梯度商与新来源权下界](results/R150-appendix-original-nonbell-two-round-twohundred-presentation-and-weight-thresholds.md)已闭。** 全部低列压缩、十四换源和两轮稳定性均不使用 Bell，故 $F/\Gamma_2\simeq S/J_{17}$；命名列权为 $5^6,6^{20},7^{30},8^{40},9^{24},10^{80}$。新增权九/十列不改权七/八，已付 $b\delta,y_i b\delta,q_jb^2$ 因而是完整原有限域十七梯度商中的非零类，四个 $q_jb^2$ 仍独立。此完整参数呈示内排非零规范 $q$ 的 Bell 来源权 $\le10$、$\delta_{14}$ 的 $\le9$；不冒称任意原十八来源过滤界或特征零结论。继续新增104实际来源及新目标 $\delta b^2$（权十）、$q_jb^3$（权十一），不重跑旧权八。
 
 **[原数域完整临界参数模也至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。** 直接从未压缩116原种子出发，原E二次/三次恒等和完整comm列给Cl_N(L0)=L2；保留1070字面列，删十个原E已知零comm及其像后≤970列。整个原Bell商严格等于此参数模cokernel，没有借用有限域210换源，也未证明商为零。继续真实来源构造与成员性，固定数域逆/全部参数分支均保留。
 
@@ -10,11 +10,9 @@
 
 **[36原低权种子的稳定闭包与完整首轮已闭](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。** 十四旧高权列全部由原10/18来源换出，普通参数模仍106换106；Cl_N(L36)=Cl_N(L50)，L36完整首轮恰该106列模。最小停止轮数仍未确定；完整第二轮已证明稳定，继续实际完整来源和具体图目标。
 
-**[δ14七目标有限空间负及来源权≤8排除](notes/2026-11-16-r150-original-rank-four-bounded-rhs127-boundary-789f.md)已完成。** bδ与六yi bδ在完整权7/8状态中均有非零余式；113798原坐标产品及根独立FLINT复核全真。因梯度模最低权5，δ权4的来源≤8恰需bδ∈G7，故该有界表示也排除；更高来源、完整闭包及E成员性仍开放。
-
 **原来源计算继续完整有限前沿与受控局部图。** 全116→50、三十NiYj及来源权≤7的917→947和Bell全部幂饱和边界已付；[完整权8前沿](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)实际17674×1386秩1312，保26个NiC、74全核，根原子式det4及全核独核。来源≤8维3425→3451；只在声明有界空间内独立。旧D换源与七δ RHS有限空间负已闭；全局50候选600秒未返完整candidate，不空续。[δ14稀疏10×56实际600秒边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)已核：run43883188532的全部原门/560 SSI完成，但candidate583.183秒仅START、整体exit75，完整前缀null→null即停，无source/remainder；其七个只读RHS现已完成，全部有限空间余式非零。单图更高δ幂仍须全原来源回填；单Bell首一约简不省项，已记录不重复。全W31/W127及各8515/26410整来源费已闭，其余原范围见[结果索引](results.md)。
 
-完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-physical-kernel-parameter-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
+完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-nonbell200-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
 
 ## 主目标与完成标准
 
