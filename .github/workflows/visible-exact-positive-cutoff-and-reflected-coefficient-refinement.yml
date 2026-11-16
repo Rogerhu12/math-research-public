@@ -1,0 +1,91 @@
+name: visible-exact positive cutoff and reflected coefficient refinement
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-positive-cutoff-and-reflected-coefficient-refinement.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-positive-cutoff-and-reflected-coefficient-refinement
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PCR_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-positive-cutoff-and-reflected-coefficient-refinement-CI-inputs.json
+  PCR_MANIFEST_SHA: 11389e0b5148a1e35f48d6b561e817095f7185d111dbf620ddfde397bc9b7ed2
+  PCR_PIPELINE_SHA: 1dfbb387e58ec15f4add9c717ba8b4874682952acd25da9377e18b50684417c9
+  PCR_WORKER_SHA: f1f0a98e98e019bab04f165c5c80966136e6a31e28929927653c2e25afbbb58c
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  positive-cutoff-and-reflected-coefficient-refinement:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_cutoff_and_reflected_coefficient_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-positive-cutoff-and-reflected-coefficient-refinement-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_cutoff_and_reflected_coefficient_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['PCR_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_cutoff_and_reflected_coefficient_public_worker.py --mode hydrate
+          --manifest "$PCR_MANIFEST" --manifest-sha "$PCR_MANIFEST_SHA"
+          --pipeline-sha "$PCR_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['PCR_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read five immutable successes and evaluate two new complete operator bounds
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_cutoff_and_reflected_coefficient_public_worker.py --mode run
+          --manifest "$PCR_MANIFEST" --manifest-sha "$PCR_MANIFEST_SHA"
+          --pipeline-sha "$PCR_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-positive-cutoff-and-reflected-coefficient-refinement-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-positive-cutoff-and-reflected-coefficient-refinement-output"
+      # Root rule15: ten current text inputs, two AST files, zero historical restores.
+      # Five old successes are read only; old profiles integrals exponentials matrix words and completed scalar products are never recomputed.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain150000 bytes before any new arithmetic.

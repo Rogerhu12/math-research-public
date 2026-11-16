@@ -312,3 +312,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 05:49:08 UTC — WUI完整全局输入与导数图静态闭合
 
 已全读31558B proof及peer分区核：严格真flow/root商、全transport/潜在尾/N6+4/mean/J负窗/全jump/四端无省，11旧小收据逐域复用，缺全fold仅4501B原history临时恢复。新算术0；全局budget与高/finite/core门仍待，两README在d2ead352f4b9797b43692f40ccbdc82b01f0daf2不变。
+
+## 2026-11-16 05:51:52 UTC — WPC/WCE唯一新正标量图与公开Actions接线
+
+冻结SCI1dfbb387、workerf1f0a98e、manifest11389e0b和完整预算59f84d2a：10current/2AST/5旧success只读，42原界+3资格/5完整scope，7graph/38fields/22门/18progress/90slots含复制。各图先atomic、全stdout先size门、old0/history0；容量fresh bb91e616为199382380B，四新topic文件187540B，留足150KB。两README在8eeab7e4d19081f47053c89e084734adefdcb82e同原blob；该新workflow提交触发唯一child，尚无新结果或whole逆声称。
