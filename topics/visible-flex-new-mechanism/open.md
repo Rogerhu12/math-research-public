@@ -181,13 +181,10 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 全正H匹配准确iff同宽目标落完整权0像，旧49的19维混权右逆不能移植。仍余恰两完整cost，self可能增0/1/2维，当前V0成员未付。R316原日志保存13pure列/全T,Euler但未印六核代表；下一只取真正新需的current/self contraction及原差重构，不重旧pure/wholeQ秩/检查。actual锥/固定词基准与九行仍另付。
 
-### R461：合法三矩独立支付，完整同规范只余原九行
+### R461–R464：同一真period下的完整规范已付
 
-[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)在原R312/326完整式代k=BD得Bhat(BD)=R_E+2ER2，十门与cubic使这条hook同步补偿保持全部13行。三完整circle base的真实二次矩由R280逐布局ΣRµ=ΣTµ0支付；八复制cubic和localT平移度≤5使它们的F/G在全十port核，三中心µ Vandermonde给Rθ三合法矩右逆，同时在kerLf。可最后合法化任何九行解，不变period/端口/seed、不加Gram分母。
+[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)原完整Bhook全13盲，R280三矩及三真实circle bases给kerLf/全port盲的合法三矩右逆。R464现已在同起点M3非零库上，用统一真逆/原差分/真实平台付剩余九行及seed；先前九行Smith接口不再是当前未知秩。前提仍是同一最终成本的两真period及最高P2，原gap/incoming/实际prototype全保，继续actual增强与其它s段。
 
-最高b_d=b_e0以后，原九行Dθη=bθ+Σz_X HθX是完整准确接口。原dP≠0先调b_d、十二包装e(X)=0保b_e；余ker d由B及六Z_X生成，B全盲。六z_X必须是同一固定实向量，ηθ才可变；没有宣六维像或九行满秩。Dθ二次、rhs三次，原Smith零行多项式及单位圆根全部重数都须通过，非零行总局部重数≤36仅上界。
-
-R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；实际词产生的新基准与δX*必须同时进入全部门。下一支付固定z的原九行兼容或其明确障碍，并做实际增强/其它s段，不能把两个截面相加。
 
 ### R463：实际双参数控制的完整条件
 
@@ -207,3 +204,7 @@ R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；�
 [R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)以原t6/t5系数付F零⇒权0完整current零，以同cap真路径/12中心/degree8付kerJaff∩U0=kerS|W0。原R196 N像只有C6且d5非零，W0→原二维头核恰五维K0；故Qaff,0/NQaff,1≅S(W0)/S(K0)。W0维7/K0维5不冒self秩，必须同判经固定seq707 current补偿的X_H=H*+J4与X_Y=J4−J6。两头R126展开和C20完整self/pure/真左尾已给，后者未补偿不能冒X_Y。
 
 最小新科学为两缺失response的完整self加两normal目标完整self及必要唯一current RHS，原七Qpivot/seq707/三已付self复用；原差全镜对成员，不重旧13核/Qrank7/currentrank/19像。−8已由完整TR=−r4/6−LfP/3及Kseed匹配，真实Af边项全零，故Jaff(U−8)=Jaff(R−8)。−6/−4新增partial与同一满锥/实际prototype仍欠；即使两成员失败也不宣actual一般不可能。
+
+### 权零四列真正新观察已定范围
+
+[设计](notes/weight-zero-complete-self-four-column-design-20261116.md)只恢复3static mixed与R126 old0/2/3/4/5/7/8/9八响应。两新补列K8old/K9old先用七paid Qpivot，再用seq707唯一current校正；两normal X_H/X_Y的wholeE已付，只补current并读取全self。原R443三self直接消费，旧rank/mapper/dev不重做。完整右/左累计保X_H的n2端常数（仅真实q母上零）和ordered3+2原字；nonlocal/highjet/分母全部保，未局部不得宣固定母非成员。一次180秒总科学含日志/恢复/失败，完成四值后立即接两成员；当前源码在写，未运行。

@@ -370,3 +370,6 @@
 
 
 - **R465：增强零权商恰为7/5镜对self商，两头成员及−8已付。** [自然同构、两头原式与最低偶权增强](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)（23368B/SHA5e6cfce5684cc403ab6622489888c8604aa974822a06f70cbe1510cf480066e6）。Qaff,0/NQaff,1≅S(W0)/S(K0)，7/5是成本维数，双参数门iff两个固定完整目标同属五核镜像；C20原self/pure/左尾保留。−8全partial响应覆盖已证，−6/−4仍欠。0新执行/旧rank。
+
+
+- **权零四列新self观察：两补响应与两正常目标。** [完整原标签、七pivot/唯一current与新scope](notes/weight-zero-complete-self-four-column-design-20261116.md)（15516B/SHA9c93fc0862e2ff79fb1ee949d175469bb331217be3d9f738752faea1cab4f009）。3静态+8响应输入，0旧rank/mapper/dev；X_H真n2左常数只在当前q母归零，残词保全不冒固定母非成员。源码在写、未执行；四新值后直接续两成员。

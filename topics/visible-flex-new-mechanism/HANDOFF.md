@@ -57,4 +57,6 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 ## 5. 当前工作
 
-true53观察已完；[新有限主问题设计](notes/true53-all-paid-finite-master-central-path-design-20261116.md)复用原5743soft/2937hard+5新梯度，rγ正坐标与primal/dual Newton，保全部原盒/guard。仅一次新有限LP、至多96迭代/192系统/240秒，0旧solver/J/JVP/值；未执行，正有限gain还欠完整分离。R464九行/M3已付；R465续两self成员和−6/−4增强锥。全主门仍欠，继续open。
+[全已付finite master](notes/true53-all-paid-finite-master-central-path-design-20261116.md)源码就绪，复用5743soft/2937hard+5新gradient，共9658行；新一次LP≤96迭代/192系统/240秒，0J/JVP/值。原始/对偶中心路径非旧Hildreth，正finite gain仍欠完整分离及actual。
+
+[四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)从原mixed恢复3静态+8响应，只求两新补响应与X_H/X_Y，复用七Qpivot/seq707/三已付self。X_H右/左累计差n2完整保留，仅当前q母上零；nonlocal残词不能冒固定母非成员。拟一次180秒包含输入/全部失败、无旧rank/dev；源码在写，未执行。R464全13规范已条件付；R466续完整换锚反射与−6/−4增强门。全主目标未完，继续open。
