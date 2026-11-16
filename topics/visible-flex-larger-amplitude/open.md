@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[201前检查点](notes/2026-11-16-open-checkpoint-before-request201.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R429前检查点](notes/2026-11-16-open-checkpoint-before-R429.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -18,15 +18,13 @@
 
 ### 1B. 完整128末态和固定trace
 
-原完整范围见[199前检查点](notes/2026-11-15-open-checkpoint-before-request199.md)，链回R418/196及全部原文。[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)128/replay接受而stage20/576、audit全576/7488仅C-based有限程序；raw清。[R302](results/R302-shared-finite-root-traces-and-complete-boundary-response.md)/[R305](results/R305-literal-gram-root-contraction-and-nominal-factor-defects.md)/R314/R325的225Gram/226态/224列及两回代缺陷保，[R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)仅单stage/RK/field230列320bit，不付全链/准确ODE/IEEE/分支。
+原全段逐字见[R429前检查点](notes/2026-11-16-open-checkpoint-before-R429.md)，内链保199/R418/196及全部历史。[R394实际160](results/R394-actual160-one128-acceptance-complete-audit-and-stage-budget-stop.md)128/replay接受、stage20/576，audit576/7488仅C-based有限程序，raw清。R302/R305/R314/R325完整225Gram/226态/224列/两回代缺陷及[R345实际161](results/R345-actual161-single-field-230-column-strict-certificate-and-native-scope.md)单stage/field230列320bit界保，不付全链/准确ODE/IEEE/分支。
 
-[186](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)/R397的64pins、[R402](results/R402-recorded-literal-block-operator-equivalence-and-rounding-scope.md)/[190](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)的70pins、[R405](results/R405-complete-dyadic-digits-and-once-rounded-binary128-dot-products.md)/[192](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)的77pins、[R414](results/R414-complete-signed-digit-SIMD-and-RN113-equivalence.md)/[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)的84pins均完整保。全113位/真实指数/wide226bit/一次RN113、全部偶奇/尾/scalar及原旗标保，不冒旧顺序Q/准确导数/速度。各链fresh原全576×224/112/338×112/audit，全部预算、失败、未访与读回清理见原入口，不跨run回填。
+[186](notes/2026-11-15-request186-hoisted-complete-final128-interface.md)64pins、[190](notes/2026-11-15-request190-preassembled-recorded-final128-interface.md)70pins、[192](notes/2026-11-15-request192-full-bit-dyadic-complete-final128-interface.md)77pins、[196](notes/2026-11-15-request196-SIMD-complete-final128-interface.md)84pins的完整参数/旗标/预算/读回/quiet清理全保原接口。R402/R405/R414全113位/真实指数/wide226bit/一次RN113/所有偶奇尾/scalar不冒旧顺序Q、准确导数或速度；全576×224/112/338×112/audit必须实际返回，不跨run补。
 
-[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)128α1/replay同，stage实际ADL编译阻；audit575/576、7485/7488，stage575 query9后推进及[10,13)未付，1800内部budget，raw清。[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)完整129248/576的128α1达9.68582474751023176032080482454992093e−11、全词fresh replay同；stage/112/338=false、C-based audit=true仅原flags，内部具体错误/覆盖/极值未读。science成功后reader硬写190在build前失败，最终必要摘要缺；cleanup skip非主动清，runner结束亦不可SHA恢复。[R415实际196](results/R415-actual196-persistent128-return-and-SIMD-readback-identity-block.md)实际129248/576一方向一trial一接受，末128范数9.68582474751023176032080482454992093e−11与226态/全残差fresh replay同；stage/112/338=false、audit=true仅本次flag，具体stage原因/SIMDbackend/覆盖/极值未返回。科学child0/wallfalse/全局未耗尽，reader硬190在build前阻，report仅missing、cleanup skip；runner结束不凭SHA恢复。199已独立接线修元数据和三限定，未借旧现场或回填组件。
+[R403实际190](results/R403-actual190-persistent128-acceptance-stage-compile-block-and-partial-audit.md)128α1/replay同，stage实际ADL编译阻；audit575/576、7485/7488及[10,13)未付、1800内部budget，raw清。[R406实际192](results/R406-actual192-persistent128-return-and-request-number-readback-block.md)/[R415实际196](results/R415-actual196-persistent128-return-and-SIMD-readback-identity-block.md)各128/replay接受，末范数9.68582474751023176032080482454992093e−11；stage/112/338=false、audit=true仅本次flags，具体原因/backend/覆盖/极值未返。reader硬190在build前阻、report缺必要正文，cleanup skip；runner结束不可SHA恢复，不借190原因。196一方向一trial一接受不据地址补α，child0/wallfalse并非全局预算耗尽。
 
-[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)只三调用限定，逆换全b16，wrapper/参数/算术不变；192/196源码风险不替其实际细节。
-
-[199完整入口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)八件全文/完整diff核后接线，R423 header f82cd950已先发；原196全部84pins逐值保→89，实际SIMD header/stage/R405/R414和所有输入、阈值、编译旗标、wall对象不变。只有三namespace限定及必要reader检查/输出的190→199；实际临时旧basename明确写新f82字节，旧b16仅baseline，完整逆换和原/新/实际身份分别返回。真91→fresh64/J/R273→持久128/replay→完整576×224/112/338×112/audit，原19200/6000/1200/8000/600/600/1800与330/350分钟保。原全部113位/偶奇尾/scalar/wide、有限root/mean/完整C残差保，非连续导数或性能保证。单90KB保全部原字段/未访/工程错误，quiet与必要complete后才清理；不借190/192/196现场或预称编译/native成功，amplitude唯一R424，官方run/源码见H。
+[R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/[199完整入口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)只三限定逆换全b16及reader两编号199，原84pins逐值保→89。真91→fresh64/J/R273→持久128/replay→完整576×224/112/338×112/audit；原19200/6000/1200/8000/600/600/1800和330/350分钟、全部输入/阈值/旗标/算术/未访/错误保。实际旧basename新f82字节与b16baseline身份分明，不预称编译/native成功；单90KB及quiet/readback条件不变，amplitude唯一R424，官方run见H。
 
 ### 1C. 真37→38、实际独立39及原非线性域
 
@@ -99,6 +97,8 @@
 [R427](results/R427-current-ten-frozen450-nested-mesh-and-fresh-original-solve.md)/[接口](notes/2026-11-15-current-ten-frozen450-mesh-refinement-interface.md)/70a5709d：同job真43f217 frozen450、同十词/C/DAG/公共u；全旧mesh+准确midpoint→RN64+全部knots只作新seed/preflight，450 RHS/H/338×112J/FD/8×17/fullDN/final/audit/writer全新。机器无新点/容量不足显式partial，最终state/mesh以真solver输出为准；外层clock/90KB/清理/实际parent/配方/run未接，M/N/native不变。
 
 [R425](results/R425-current-C-whole-image-held-and-reflection-rigidity-inputs.md)/[接口](notes/2026-11-15-current-C-whole-image-held-and-rigidity-interface.md)/c87b3a9b完整源已核：同R416准确场/R417完整两帽/R413 cuff，整闭F0位置覆盖与全D给held下界；R254完整前缀及全tail/collar/patch非平面责任、四真实marker和R238含反射刚性保持，仍须实际嵌入，actual_delta_E=false。fresh输出严格RUNNER_TEMP并保护输入；成功尾组仅完整索引ranges/实际分布/原件身份，全部失败尝试/当前组/未访保；单90KB超限仍70，完整临时账不改。无实际450、见证/阈值、全held或δE证书，不冒C²/metric/reach。
+
+[R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)/[完整接口](notes/2026-11-15-current-C-ten450-postsolve-complete-geometry-interface.md)/84d0450f+79296f4f：同job真193两阶段accepted450、全十词/43f217/C原件，原deadline bytes/SHA先同upstream再核namespace起点，五阶段R409径向→R413 atlas→共享场→R418 metric与独立R422 reach。各阶段只取原剩余钟，metric未过不阻reach；原owner/PID/start静止后读，全部stage/未起后缀/错误与资源保，单90KB超限70、raw不删。未来workflow清理须原193读回∧新读回∧全部quiet；原4件C及2件source保到消费者结束。尚无新request/recipe/run或actual450几何，不接R425/R426，不付新数学接受。
 
 ## 4. 同一g闭合与真正九冻结450
 

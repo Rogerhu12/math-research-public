@@ -158,3 +158,8 @@
 ## 2026-11-16 — Request201：实际198返回十词的原完整三残差续算
 
 [201完整入口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)七件及六完整diff已核：真198末十词双路径554B/1732ad59，只作新初猜；旧121+17 pins逐值保→122+19，实际51→52。2911f896/原normal与continue正文同；全3×10、固定actual157 S/半径1、16×8/20/3×20、初末120FD/原160bit/depth14/453终门及2400钟保持。cb724a6e单90KB全部原试步地址/错误/未访，809cf513原quiet/条件清理保；不继承未返J或末FD。request9c30ac0d/workflow5b836f55，实际run43779219117/sourceaa2f1d05470df29f8e4546ccc990b99432a56a44，compute133012382468已入runtime安装；root唯一R430终态，无新科学接受。
+
+
+## R429 — 原两阶段450后的同job完整几何编排
+
+[R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)/[完整接口](notes/2026-11-15-current-C-ten450-postsolve-complete-geometry-interface.md)/84d0450f+79296f4f：同job真193两阶段accepted450、全十词/43f217/C原件，原deadline bytes/SHA先同upstream再核namespace起点，五阶段R409径向→R413 atlas→共享场→R418 metric与独立R422 reach。各阶段只取原剩余钟，metric未过不阻reach；原owner/PID/start静止后读，全部stage/未起后缀/错误与资源保，单90KB超限70、raw不删。未来workflow清理须原193读回∧新读回∧全部quiet；原4件C及2件source保到消费者结束。尚无新request/recipe/run或actual450几何，不接R425/R426，不付新数学接受。

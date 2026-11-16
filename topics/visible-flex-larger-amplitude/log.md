@@ -725,3 +725,8 @@ amplitude唯一终态R403；186仍独立原science，未读取运行中日志或
 ## 2026-11-16 00:15:48 UTC /root — request201公开运行绑定
 
 官方push run43779219117/sourceaa2f1d05470df29f8e4546ccc990b99432a56a44、compute133012382468已入runtime安装；root唯一终态R430，不取运行中大日志。七件身份按[201接口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)保；未预填科学接受/终态，原全方法/门/预算保持。
+
+
+## 2026-11-16 00:21:58 UTC /root — R429原钟与几何必要读回
+
+[R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)/[完整接口](notes/2026-11-15-current-C-ten450-postsolve-complete-geometry-interface.md)/84d0450f+79296f4f：同job真193两阶段accepted450、全十词/43f217/C原件，原deadline bytes/SHA先同upstream再核namespace起点，五阶段R409径向→R413 atlas→共享场→R418 metric与独立R422 reach。各阶段只取原剩余钟，metric未过不阻reach；原owner/PID/start静止后读，全部stage/未起后缀/错误与资源保，单90KB超限70、raw不删。未来workflow清理须原193读回∧新读回∧全部quiet；原4件C及2件source保到消费者结束。尚无新request/recipe/run或actual450几何，不接R425/R426，不付新数学接受。
