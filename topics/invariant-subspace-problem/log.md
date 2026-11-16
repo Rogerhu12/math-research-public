@@ -257,3 +257,6 @@ AI/Astra-ISP-789f：[原失败与完整核验](notes/2026-11-16-r150-original-pa
 
 ## 2026-11-16 13:59 UTC — 原rank4六行准备失败与全Schur尺寸诊断
 AI/Astra-ISP-789f：[实际边界](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)保v1的62.532秒MemoryError；独立诊断102.749秒/607836KiB核全部480 adj和460原坐标，完整展开4,768,130项，未序列化矩阵/未到Singular。根全文差异/双raw/manifest核；后继另绑定原稀疏10×56，不抹失败或宣成员。
+
+## 2026-11-16 14:04 UTC — 三十均值首层原来源与完整权七秩312
+AI/Astra-ISP-789f：[完整证明](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)保NiYj的原十八来源及全部7754×312原行列，实17.097秒满列秩；root独立61双SHA与2,419,248原来源坐标产品/312主元全真。只得相对282有限前缀商维30，不宣整个L0新增/稳定/单位；源码、身份与SHA入库，数组留TMP。

@@ -1,0 +1,49 @@
+{
+  "argv": [
+    "--model-source",
+    "2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--model-out",
+    "original-ten-parameter-module127-v2",
+    "--compression-source",
+    "2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "--compression-out",
+    "original-parameter-seed-compression127",
+    "--native-source",
+    "2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+    "--header",
+    "2026-11-15-r150-original-f127-bitplane-789f.hpp",
+    "--out",
+    "original-mean-first-frontier127",
+    "--through",
+    "final",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "768"
+  ],
+  "computationalOutputPersisted": false,
+  "dateUTC": "2026-11-16",
+  "elapsedIncludesCompilation": true,
+  "elapsedSeconds": 17.096617878007237,
+  "executionId": "local-20261116-original-mean-first-frontier127-180",
+  "exitCode": 0,
+  "format": "isp-local-temporary-source-parameters-execution-sha256-v1",
+  "fullTemporaryReceiptBytes": 25766,
+  "fullTemporaryReceiptSHA256": "20405495e04e812ddd06366e1edd300f4cf7d612ccc959eeadb836a9323594ea",
+  "largeDataUploadedOrCommitted": false,
+  "log": {
+    "bytes": 29598,
+    "sha256": "7ef59de473287dc174a249ed3c106ddef4f233d746ed88d8031f04f6a8f3732c"
+  },
+  "manifest": {
+    "bytes": 25958,
+    "path": "original-mean-frontier-manifest.json",
+    "sha256": "2b2011f80201661ab7b9680aeb86f8f11414244b4adbf21a6fb2728babfa72c9"
+  },
+  "producerGitBlob": "049028bbcfa486e8335d589c203d7cf682c4d7ac",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "pythonFlint": "0.9.0",
+  "script": "notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+  "scriptSHA256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e",
+  "timeoutSeconds": 240
+}
