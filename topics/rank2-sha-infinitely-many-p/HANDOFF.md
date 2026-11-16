@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：7af9e725e58983a740d3cb53c66b73166914e247；2026-11-16 15:53:35 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:10 UTC再实际pull。
+- 最近已读规则提交：bfc89ce663bf754a2e8c3c646ee39de3271d3cea；2026-11-16 15:59:14 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -24,7 +24,7 @@ root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同P/F germ精度倍增已证；run43883945027，P job133356889710、F job133356889202运行。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)原完整M2改固定PARI有理基已证基不变性；同mfinit整矩阵/QQ/全前缀/seed与版本齐，旧全部rank/CRT/最终认证保。run43888054599已运行；P job133371441947、F job133371442286，无PASS。
 
-- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常结束：三嵌入rank904/free863及全部1226行modℓ¹²⁸均过，3827bits不足有理恢复，无map PASS；已请求同ℓ1000000033/N256/k6。
+- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常结束：三嵌入rank904/free863及全部1226行modℓ¹²⁸均过，3827bits不足有理恢复，无map PASS；同ℓ1000000033/N256/k6续轮run43901392214/job133418654415运行，source7ef59c0d。
 
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120证书保；首run43898903977启动路径失误已修；新run43899744213/job133412821010数学步骤运行，无PASS。
 
