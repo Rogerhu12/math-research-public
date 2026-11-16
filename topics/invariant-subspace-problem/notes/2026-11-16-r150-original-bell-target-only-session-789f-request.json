@@ -1,0 +1,120 @@
+{
+  "format": "isp-original-bell-target-only-manifest-session-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "rulesReadAtCommit": "85049ecab0b62dd5e7a3983841844ddee52b3da4",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "sessionScriptSHA256": "31bec4304c9cc7f69a63d431048dfe145dc0c849944376ffd4ab40d7e5a3b876",
+  "historicalInputs": [],
+  "maximumIdleSeconds": 300,
+  "closeSessionWhenStepsComplete": true,
+  "sessionWorkMinutes": 80,
+  "workflowHardMinutes": 90,
+  "steps": [
+    {
+      "id": "original-bell-direct9-single-original-source600",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-target-only-source-789f.py",
+      "scriptSHA256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        }
+      ],
+      "argv": [
+        "--model-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--out",
+        "{work}/original-bell-target-only-source",
+        "--singular",
+        "Singular",
+        "--degree",
+        "9",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeSeconds": [
+        600,
+        1200,
+        1800
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-bell-target-only-source/original-bell-target-only-source-receipt.json",
+      "mathematicalScope": "Candidate std at weight9; if a pure parameter column is found, one original18 lift with degBound0, full homogeneous multiplication and independent FLINT homogeneous/affine products. No completed standard-basis or negative conclusion."
+    },
+    {
+      "id": "original-bell-one-source-exact-E-lift600",
+      "requires": [
+        "original-bell-direct9-single-original-source600"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-target-only-exact-support-lift-789f.py",
+      "scriptSHA256": "d9b25c79d5dad9c108fd7620b83de6e194644b0da40e7f184c37d8c27a10afd9",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+          "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+          "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-target-only-source-789f.py",
+          "sha256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39"
+        }
+      ],
+      "argv": [
+        "--field-driver",
+        "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+        "--target-driver",
+        "{scripts}/2026-11-16-r150-original-bell-target-only-source-789f.py",
+        "--helper",
+        "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+        "--field-out",
+        "{work}/original-bell-target-only-source",
+        "--out",
+        "{work}/original-bell-target-only-exact-E",
+        "--seconds",
+        "600",
+        "--memory-mib",
+        "4096",
+        "--max-unit-rank",
+        "512",
+        "--max-support",
+        "2048",
+        "--max-profile-elements",
+        "20000000"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeSeconds": [
+        600
+      ],
+      "budgetOuterPaddingSeconds": 60,
+      "receiptPath": "{work}/original-bell-target-only-exact-E/original-full-bell-exact-support-lift-receipt.json",
+      "mathematicalScope": "Strict new producer binding and full field source; retain all original E coefficient rows; only all3 complete original E polynomial products certify characteristic-zero1 and originalBell^3 source."
+    }
+  ],
+  "sameJobPolicy": {
+    "actualBudget75": "Only genuine75 resumes same source/out/binding at600,1200,1800. Whole SSI, source product and text stages are reused; no half-file is a completed phase.",
+    "mathematicalOrInputFailure": "No automatic syntax, input, memory or arithmetic-verification retry.",
+    "sourcePrinting": "No full Sources matrix and no all-basis monomial dump. Whole G and one18x1 source use temporary SSI with exact roundtrip.",
+    "dataLifetime": "Only current job has temporary arrays; no cross-job reuse without faithful reconstruction and actual matching descriptors.",
+    "actualRules": "Real pull and both README identities before each step/publication and during long tasks before30minutes.",
+    "deadline": "Start only if complete outer budget plus120seconds fits80minute session and88minutes after workflowstart."
+  },
+  "largeDataPersistenceAllowed": false,
+  "computationalOutputsInRepositoryAllowed": false,
+  "mathematicalProgramStatus": "New source prepared only. No direct9 discovery, lift, original field1, exact E1 or Bell^3 positive result is prefilled."
+}

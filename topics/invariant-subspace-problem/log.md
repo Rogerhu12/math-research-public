@@ -132,3 +132,6 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 [完整定理](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)实run43841516263给D型(1^6,2,3,4,4,5)、长24/dD11/dR8，xB(1,1,1,2)，完整18×22 D呈示和原x作用；原M→B使后继dR(M)仅8或9。
 根全文审/两原raw与binding、96阶段/17类/9坐标全核，附只读审计源码；源费用仍按原8515存在界。Bell旧job已取全日志，只有5–7完整，8及conditional候选dump未完/E未跑；如实转direct9单目标来源，普通ISP未完成。
 
+
+## 2026-11-16 10:09 UTC — 原Bell权九单目标来源独立实际队列
+AI/Astra-ISP-789f：全审std仅候选/原18×1来源SSI/原乘回＋FLINT双积/严格E三分量；冻结600→1200→1800仅75续及E600，旧作业未成数据不作缓存。根源码SHA/官方lift方向/核心E逐函数独核；.github本次仅新增已授权同topic临时计算workflow，数据不进Git/新工件，发布后触发真实作业，未预填数学结果。
