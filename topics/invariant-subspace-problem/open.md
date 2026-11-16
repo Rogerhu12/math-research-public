@@ -1,5 +1,7 @@
 # 未解决的问题
 
+**原rank4六行准备边界已记录。** [失败及完整尺寸诊断](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)保62.532秒MemoryError；诊断全15双adj/460原坐标通过，δ14的6×46展开4,768,130项，未成完整矩阵检查点、未调Singular。后继改同δ的原稀疏10×56，另核四Bell冗余、清ρ及全10/18/17原来源；局部单位、E和完整十九图仍待付。
+
 **全W31生成、ann及统一整来源费均已闭。** [完整四轮饱和](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)给field长度22,22,19,18,17、Tp长13=H2，故全U31=M31；原AnnU=h*(31⁵,31²(s−2),(s−2)²)，共同最小31指数5/2及全部M型继承。[整来源度数证明](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)对每个4212基目标给费用≤max(8515,124+degq)，三个ann生成元均8515。来自真D31 leading-unit原minor/单首一Δ298和完整三支除法；不借九平方小目标权、不声称任意高参数组合固定费，不扩D127。原计算/独立重放/根双SHA均见正文；未展开4212源数组或给系数高度，其余普通ISP/Bell理想继续。
 
 **完整低旗标上的整个返回源 Schur 能量已付。** [同一原首头、全零源及跨头完整证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)给 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，取ℓ=2d−2后，准确增益为 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。完整canonical Fock保全部birth/物理最小源，F2及混合块仍精确；有限池 $y=(m+1)^4dx$ 支付ε_f+ℓt，fresh6d正交修复使Σ(qℓ−q0)<2，从而支付整个返回源而非仅第三旗分量。bosonic Schur总能<4，但 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；去正则项、外部高旗Schur及原 $\sigma_2^2\|(C^{*2})^\dagger\mathfrak h\|^2$ 完整费仍须另证。源在低旗不保证MP逆像在低旗；不据此宣N=M。原τ14、全h/matched/cut不变。

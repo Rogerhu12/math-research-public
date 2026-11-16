@@ -1,0 +1,72 @@
+{
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "continuation": "Preserve the failed v1 identity. Diagnose original Schur storage separately; no automatic budget continuation and no claim of a complete local matrix.",
+  "dataPolicy": {
+    "mathematicalArraysInRepository": false,
+    "rawMathematicalReceiptInRepository": false,
+    "uploadedArtifact": false
+  },
+  "executionKind": "actual-local-executor",
+  "format": "r150-original-rank-four-local-source-execution-identity-v1",
+  "inputs": {
+    "bytes": 2625,
+    "gitBlob": "17dea03d95fb7f8d102a62e073bde7e48f501e53",
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-six-row-local-source-inputs-789f.json",
+    "sha256": "60f2ef7a185478dec1bc4c15e07f82a8d1975c6f1f7dc1029402ccbaab099e2d"
+  },
+  "interface": {
+    "bytes": 11249,
+    "gitBlob": "97c3022d9ff70314463eed216783d390747f41f5",
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-six-row-local-source-interface-789f.md",
+    "sha256": "e01cc840a6d26295852062f111af48a96cbf51aa24a99ad7f0669486d1066262"
+  },
+  "outcome": {
+    "binding": "80caa3180268144d8dcb4f25bd1e33ffea53adcf74ae46e3de9279c4fc7582fc",
+    "completeSchurCheckpointProduced": false,
+    "elapsedSeconds": 62.53164866899897,
+    "error": {
+      "message": "",
+      "type": "MemoryError"
+    },
+    "exitCode": 1,
+    "lastWholePhase": "all-original-fifty-seeds-and-full-source-transport",
+    "mathematicalNonmembershipClaimed": false,
+    "peakRssKiB": 1881148,
+    "singularInvoked": false,
+    "status": "failed"
+  },
+  "parameters": {
+    "chart": "sparsest",
+    "memoryMiB": 2048,
+    "out": "/tmp/literature_bell_rank4_789f/sparsest-original-chart",
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "pythonFlintVersion": "0.9.0",
+    "pythonVersion": "3.12.14",
+    "seconds": 300,
+    "through": "prepare"
+  },
+  "sessionId": 54052,
+  "source": {
+    "bytes": 33705,
+    "gitBlob": "c56cc3ea13be44ef68f1032731a8188de57e9b00",
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-six-row-local-source127-789f.py",
+    "sha256": "2e52674af37101cd9c6f12afbb9870fffe723f9ac01d7cb66d3663b9e1af851b"
+  },
+  "temporaryOutputIdentities": {
+    "log": {
+      "bytes": 1017,
+      "path": "/tmp/literature_bell_rank4_789f/prepare-first.log",
+      "sha256": "47846b79c48de0658837fe7bd29db5c35c9efa2f2b8b74283e2c1f2c929f5470"
+    },
+    "manifest": {
+      "bytes": 15943,
+      "path": "/tmp/literature_bell_rank4_789f/sparsest-original-chart/rank-four-local-source-manifest.json",
+      "sha256": "7d6797d296b162d7254e20a7e9e2ff20e665f6a3bf7888bf0d6515eea5b2c056"
+    },
+    "rawReceipt": {
+      "bytes": 866,
+      "path": "/tmp/literature_bell_rank4_789f/sparsest-original-chart/rank-four-local-source-receipt.json",
+      "sha256": "5003ce3516a00ffdeeb1b98db559d326bab799a2c7fba7bd02992f02f572b03a"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "characteristicZeroUnitIdentityClaimed": false,
+  "format": "r150-original-rank-four-local-source-inputs-v1",
+  "helpers": [
+    {
+      "bytes": 23879,
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "bytes": 20434,
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+    }
+  ],
+  "interface": {
+    "bytes": 11249,
+    "repositoryPath": "notes/2026-11-16-r150-original-rank-four-six-row-local-source-interface-789f.md",
+    "sha256": "e01cc840a6d26295852062f111af48a96cbf51aa24a99ad7f0669486d1066262"
+  },
+  "mathematicalArraysCommitted": false,
+  "outputDirectory": "/tmp/literature_bell_rank4_789f/sparsest-original-chart",
+  "parameters": {
+    "chart": "sparsest",
+    "memoryMiB": 2048,
+    "seconds": 300,
+    "through": "prepare"
+  },
+  "parents": [
+    {
+      "base": {
+        "bytes": 776254,
+        "logicalBytes": 4442756,
+        "logicalSha256": "f07c273c934e671f5e1069954771286c14e5d10ab7c4652d998a02f71beb7d05",
+        "path": "complete-original-ten-parameter-action127.json.gz",
+        "sha256": "5cbba4f798ab95fe24538f35d23d4b3a2f0d6197ee3ed33f3149b7371b0d222c"
+      },
+      "binding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+      "directory": "/tmp/r150-normal-789f-20261116-1040/original-ten-parameter-module127-v2",
+      "kind": "complete-original-ten-parameter-module127-v2",
+      "manifest": {
+        "bytes": 30466,
+        "path": "original-parameter-module-manifest.json",
+        "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+      }
+    },
+    {
+      "binding": "baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca",
+      "directory": "/tmp/r150-normal-789f-20261116-1040/original-parameter-seed-compression127",
+      "kind": "complete-116-to50-original-seed-compression127",
+      "pureMathematics": {
+        "bytes": 620742,
+        "sha256": "a1d73ea1ce5809c87bdc34724c1eb4407d6a5c0ae78fbf16aa3650563aa089dd"
+      }
+    }
+  ],
+  "runtime": {
+    "pythonFlint": "0.9.0",
+    "pythonVersion": "3.12.14",
+    "singularRequiredOnlyAfterPreparation": true
+  },
+  "source": {
+    "blob": "c56cc3ea13be44ef68f1032731a8188de57e9b00",
+    "bytes": 33705,
+    "repositoryPath": "notes/2026-11-16-r150-original-rank-four-six-row-local-source127-789f.py",
+    "sha256": "2e52674af37101cd9c6f12afbb9870fffe723f9ac01d7cb66d3663b9e1af851b"
+  }
+}
