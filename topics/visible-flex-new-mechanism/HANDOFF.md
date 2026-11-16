@@ -34,11 +34,11 @@ R415–R427完整低层链：原N0/N2、Gamma/水平Y及真尾全保。R416/419/
 
 [R428](results/R428-conditional-complete-joint-cost-cone-and-finite-actual-C1-sections.md)的最后条件已由R429在同库支付：六候选权正字符全排，完整J=(E,A)满实际闭锥与同一有限C1真词截面成立。保两次商基准校正、桥2VA/真倒行、响应及Klein非零背景、共同合法窗口。E=A0仅付实际有限Λself/ordered、全部suffix totals/平台G″/端germ；不冒universal自然0，内部Af partial/平台值/13行仍欠。
 
-[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)：共同A只含actual self与ordered3+2的affine轨道，辅助self不加；A(U0)=0。删自然≤−4为真不变商，逐权排正字符，原两次商校正/全部基准给wholeE+高自然商同一有限C1截面。物理实施明确须库/矩基/右锚/完整有限controls共享合法窗口，从起点一次坐标识别后冻结，不授旧seed。[R424](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)从起点F★=(F_rat,D,E5,M25)仍保19真根：任何完整局部C²负四自然函数仅六项，真幅宽中心读出同Q4的NH列成比例，ordered3+2全0；同权响应补wholeE后负四平移头杀之。局部性必须先付，不由C²连续或principal消项代替；本次B/C不需新M25，内部period仍欠。
+R414/424原路线保从起点同库/矩基/右锚/全部有限controls的共同合法窗口，一次坐标识别后冻结，不授任意旧seed。restricted max-F增加有限C²观察仍可保19根；本次自然低层用原D/E，不需另加M25。
 
 R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚累计flux0。R405/407证明同μ内支撑连通路径固定self二次cap；actual wholeE0仅消跨包primitive二导，仍有各ω_i/ordered A_i及真实wi/suffix。7n读真实totals，68|W|仅生成界；全Λ核Euler current不能免费用于actual。
 
-[R430](results/R430-complete-packet-partial-fluxes-a-new-joint-kernel-and-the-remaining-internal-quotient.md)：同包全部Af点旧τ*的C像仅p²r、p²(xr−p)两列，旧K0..10的C0；三点det只限此模块。新τ†=−(δH+1024χ30)/8有c0、a=xAf+2pr、b=−6x(rt)′−10rt，保wholeE/Λall0；同锚partial=a(pw″−rw′)，新增pr²列可破旧det。n_i=0包的C对全部wholeE成本自动0，≤m+m*仅生成界。全部内部像仍须P(kerJ)⊂P(R0)，保实际原型/后置J校正的全部基准；R394同13规范/Smith零行/平台值未付，≤52非rank。
+R430已给旧同包两列限制及新τ1。新[R432](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)完整分类原18维Z中c≡0恰5维：a=p²、Af、xAf+2pr、x²Af+4xpr−4p²、x³Af+6x²pr−4xp²，完整b/c与原锚都付；非整个R0。全部根两通道32标签；C=2a_i³p_i³Σ(n_i)_j Q_j(x,r/p)，Q_j属同7多项式，21生成非实际rank，系数全圆共用。R431每根6项真jet/J数据按实际wi/ξi输运，非6根；n_i=0的C普遍0。仍欠P(kerJ)⊂P(R0)及actual原型/后置基准/同13规范，旧≤52非rank。
 
 R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不排高阶才动/别芽/一般C²面。不回同类增频；完整第四、高阶收敛和同g有限族仍欠。
 

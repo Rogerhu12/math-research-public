@@ -191,10 +191,10 @@ R416/419/421已排−6；R420/425的−4static/hh/cross加新kk，先同权响�
 
 内部门全付后，仍须两真正period特解、保端jets的gap连接、∫k′=0所改平台值、右collar仿射输出，以及同一个incoming m*、核列和13行相位系统；Smith零行/单位圆可去极点均未付。完整第四以后仍有高阶收敛、同g有限族、全域reach/嵌入/幅度。下一工作为完整响应核与actual共同cap目标的内部像比较及同13规范，均不重旧秩/19根/forcing。
 
-### R430：同包旧两列限制与新的完整保J核
+### R430–R432：完整c零第三核及全部内部点响应表
 
-[R430](results/R430-complete-packet-partial-fluxes-a-new-joint-kernel-and-the-remaining-internal-quotient.md)在同一实际profiles/根/宽/中心/右锚/suffix下，全部Af点的C=RiHe+TiHd。旧τ*八响应在同包只有p²r和p²(xr−p)两列，旧K0..10的C恒0；任三点有明确det湮没它们，跨副本插值不支付同包不同根。这个det不是整个R0障碍。
+[R432](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)在原18维Z中完整分类cτ≡0恰5维，a依次p²、Af、xAf+2pr、x²Af+4xpr−4p²、x³Af+6x²pr−4xp²；保全abc/真右锚/全仿射闭包，未宣整个R0分类。R430旧τ*同包只有两列、旧K0..10的C0；新的四非盲方向配E8给32个完整两通道标签，另可接原11列，数目非rank。
 
-原Z中新τ†=−(δH+1024χ30)/8完整c0、a=xAf+2pr、b=−6x(rt)′−10rt；(ar)′+bp=0给原同锚partial=a(pw″−rw′)，wholeE/Λall保持0。Af根新增pr²列；三点实际jet det非零才付三C，手工自由jet例det2只排universal零身份，不宣冻结根已满秩。n_i=0包全部C自动0，生成数可至m+m*，不是rank。
+全部Af点的C精确为2a_i³p_i³Σj(n_i)_j Q_j(x,r/p)，同一三个Qj属于span{1,s,xs,s²,xs²,x²s²,3x³s²−5x²s+2x}，共21生成函数。常数列由真实三响应组合取得；每包/每点不能另选系数。原完整Hd/He另保self与两个真实suffix。R431任意2m根的每根6项u,p,r,J0,J1,J2按真实wi/ξi输运，充分读全部响应列，不授一般actual self cap由六数据决定。
 
-下一继续完整P(R0)及P(kerJ)的像外商；若后者包含于前者，才能连同所有原型/wholeJ校正的F基准在同一有限实际词里付全点。有限A0不使universal Euler0；R431已另从同一新初选付共同cap；仍不能把有限A0当R405全自然核current前提。即使内部两flux全付，仍须真period/gap平台值/同13规范，不拼逐点截面。
+下一继续c≠0但wholeE相消、第三对角非零而第四pure零的完整R0响应，以及当前actual cap目标的像外商。准确条件仍是−P(V)∈P(R0)；全kerJ像被包含才可连全部prototype/J校正的leading基准用同一个有限真词支付。finiteA0不能冒universal Euler0，lit正研究加入整个ordered 3+2的真实增强。即使全部内点两flux付清，真period/gap平台值/同13规范仍继续。
