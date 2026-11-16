@@ -1,0 +1,117 @@
+{
+  "session": "serre-public-astra-20261115",
+  "job": {
+    "result": "R882-original-cyclic-seven-common-place-coefficients",
+    "p": 41,
+    "producer_inputs_pending": false,
+    "core": "R882_original_common_place_coefficients.py",
+    "core_sha256": "901466ae4d34bf1b558132a3b7c57c1c0bf6f2a8f097bc2283cd562607ba2e0f",
+    "wrapper": "R882_public_original_common_place_coefficients.py",
+    "wrapper_sha256": "ceeee385c64d3c0620d1cf772fe77229949d641d5490656fd766761f21854038",
+    "workflow": ".github/workflows/serre-R882-common-place-coefficients.yml",
+    "source_io_helper": "R873_public_original_cyclic_seven_correspondence.py",
+    "source_io_helper_sha256": "033a8cacb5d9699f3426e0a66cb11d2659a724e1300a5f4d4488f27483d2560a",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "method": "notes/R882-original-common-place-seventeen-coefficients-method.md",
+    "method_sha256": "a1dde9ad9a618d3aebde774a96a33fe19d891d5dbed24c5014a9a2277a055be1",
+    "proofs": {
+      "R882": {
+        "path": "results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md",
+        "sha256": "a92524ab9d33124809fd2a46286e3c8ba49459331ebb46d013a9f41d457c655f"
+      },
+      "R873": {
+        "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+        "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+      },
+      "R876": {
+        "path": "results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md",
+        "sha256": "2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47"
+      },
+      "R879": {
+        "path": "results/R879-original-reference-pole254-pencil-from-completed-syzygies.md",
+        "sha256": "5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055"
+      }
+    },
+    "rules_last_read_commit": "8dfc6d8c0fe4bcc414c842e473a11286487bc2ff",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "budget_minutes": 300,
+    "source_artifact": {
+      "result": "R873-original-cyclic-seven-correspondence",
+      "run_id": "43832703159",
+      "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
+      "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c",
+      "wrapper_sha256": "033a8cacb5d9699f3426e0a66cb11d2659a724e1300a5f4d4488f27483d2560a",
+      "artifact_id": 14209317175,
+      "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43832703159-1",
+      "archive_bytes": 382153683,
+      "archive_sha256": "f9e415113d32822fd563529188c6100d3cd64ab2eb046faca09939eb45e4e3e4",
+      "expected_conclusion": "success",
+      "manifest_sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac",
+      "manifest_bytes": 55619,
+      "certificate": {
+        "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+        "bytes": 11215,
+        "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+      }
+    },
+    "original_carrier": {
+      "input_bundle": {
+        "file": "R873-retained-original-inputs.tar.gz",
+        "bytes": 344533352,
+        "sha256": "73069a32febc888d5b3f777593279e002e0a9dbf3b45be360e600121b2f5ea2a"
+      },
+      "source_inventory": {
+        "file": "R873-original-source-inventory.json",
+        "bytes": 918766,
+        "sha256": "5daa5696f21d76817b071ab7a0a6d814c24fea8d3b5bbbc66951759191cc094f"
+      },
+      "selected_file_count": 4960
+    },
+    "original_source_pins": {
+      "R799": {
+        "result": "R799-original-power7-power8-short-bases",
+        "run_id": "43695571499",
+        "source_commit": "2ebb10bc2cca7000374f83fa855030723deca2f4",
+        "core_sha256": "32ff9d381d6482e1fd623b6cc54efb26dcf7604767b1109f022e3b96d6cde054",
+        "manifest_sha256": "41640ebc6bc567c52b5f6ee840f59776769c7ba851ff24e405a7150267168933",
+        "manifest_bytes": 1595203,
+        "manifest_file_count": 5347,
+        "certificate_name": "p41-original-power7-power8-short-bases-certificate.json",
+        "certificate_sha256": "5a6c7fbebbaee90cd17c40828556b2e27a53c83d3f18aa28a5f54cca02524b9b"
+      },
+      "R801": {
+        "result": "R801-original-power6-to8-long-tails",
+        "run_id": "43701282817",
+        "source_commit": "92961ce5b5a526109c3ba6c101961dc3c3100a85",
+        "core_sha256": "ba9c52a31b17439de3f945d4cd3e2575b3f6a812f7685f8ac5f07af0e656ce4d",
+        "manifest_sha256": "4f636429e38767b7cc57c010f0480391ecf301d7edffe98ba09249a14990371f",
+        "manifest_bytes": 8877946,
+        "manifest_file_count": 30781,
+        "certificate_name": "p41-original-power6-to8-long-tails-certificate.json",
+        "certificate_sha256": "1fbcd66fb639ac94942d6f82df5ca0c291fdf3cb7af3a13c7971a6b42992c64b"
+      }
+    },
+    "selection_pins": {
+      "V8_index": {
+        "file": "R799-original-power8-basis-index.json.gz",
+        "bytes": 140608,
+        "sha256": "bc202037fb41aaa3138432c387ed8a69ae3f324cc6fc87c0fc5f50894155d2fd"
+      },
+      "V8_frontier": {
+        "file": "R801-original-power8-frontier-0193.json.gz",
+        "bytes": 335382,
+        "sha256": "a71961611cc951408aa10bb68bdb48fc62c6c2499f81af56e7197b880a7fe75a"
+      },
+      "recipe_plan": {
+        "file": "R801-original-recipe-dependency-plan.json.gz",
+        "bytes": 1104557,
+        "sha256": "b9d98f46026da8049878d780ac6b597920d61f260224e307f04a5757ef0078ce"
+      }
+    },
+    "resume": null
+  }
+}
