@@ -1,0 +1,58 @@
+{
+  "format": "r150-original-complete210-source-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-two-round-complete210-sources127-789f.py",
+    "gitBlob": "9ab5efd0991b6d6285d9824667e31b7aec279b3d",
+    "bytes": 22547,
+    "sha256": "9aeb996a38cd6eb3a76625697f043751a9ccf8fbf49aaf5259f9ddf9b71052dc"
+  },
+  "parameters": {
+    "through": "mean",
+    "seconds": 120.0,
+    "memoryMiB": 768,
+    "binding": "fe0f1d1e8ad5a95b366505daf20307a75737cfc866042779c9e321e263fec55d",
+    "out": "original-two-round-complete210-sources127"
+  },
+  "execution": {
+    "dateUTC": "2026-11-16",
+    "exitCode": 1,
+    "status": "error",
+    "elapsedSeconds": 2.9688105669920333,
+    "peakRssKiB": 95512,
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "error": {
+      "message": "Object of type fmpz is not JSON serializable",
+      "type": "TypeError"
+    }
+  },
+  "rawOutput": {
+    "path": "mean120-failed-complete210-sources-receipt.json",
+    "bytes": 2863,
+    "sha256": "d945424568ffb0692130a5d6094ebd2fb607ead75fc05f072f798d7866847f97"
+  },
+  "manifest": {
+    "path": "mean120-failed-complete210-sources-manifest.json",
+    "bytes": 114786,
+    "sha256": "4b0e8639e1b40caaac4b8eb2a3a3d49e521509b39685db7ceccadac1882f49c9"
+  },
+  "log": {
+    "path": "original-two-round-complete210-mean120.log",
+    "bytes": 2979,
+    "sha256": "d795a1f8631a38f233c1a8b5f7d3b231c7afdb3e4cedbb55f26f4df8cf665dae"
+  },
+  "completePhaseIdentities": {
+    "complete-original106-parent-validation": {
+      "bytes": 13407,
+      "logicalBytes": 56502,
+      "logicalSha256": "a1ad0a82c93885554750576c90db50d3eaef2a5ee3cfbc403f2cb5890dec21c4",
+      "path": "complete-original106-parent-validation.json.gz",
+      "sha256": "8aeafad59294eda667bdaf724f519340c853a1041f15e47cce6ee59342c7be59"
+    }
+  },
+  "registeredNewMeanColumns": 0,
+  "registeredNewCommutatorColumns": 0,
+  "dataPolicy": "Only source, parameters, actual execution identity and output SHA; no mathematical arrays."
+}

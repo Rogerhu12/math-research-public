@@ -25,7 +25,7 @@
 
 - **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386、前1286独立、100NiC留26；根原unit det4及1,307,876核坐标全零。来源≤8像3425→3451；完整201阶段/原10/18源见正文，δ/q复用已闭状态。
 
-- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。无循环或参数逆；不称最小轮数2/单位，原E见下。104来源公式已证；v1prepare原106/50border已过；mean因fmpz统计序列化exit1、新列0。独立v2仅修统计int，prepare实27.175秒exit0，全106来源/56首像/50border复核真；mean120实际运行中，完整源门不变。
+- **[完整临界参数模至多两轮稳定/210列](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)：** 36原种子P0，已付[14换源/106列首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。原11二次算子全F→P1，完整35三次降次的三类comm误差→P2，故Cl_N(P0)=P2且NiP2⊂P2。仅新增四字面quad路径×(6Y+20C)=24权9＋80权10；10×210严格等于完整原Bell商。无循环或参数逆；不称最小轮数2/单位，原E见下。104来源公式已证；[新增24均值来源实成](notes/2026-11-16-r150-original-complete210-mean24-source-checkpoint-789f.md)：v1统计fmpz失败/新列0保留；独立v2prepare27.175秒、mean31.453秒exit0，根26.848秒独核全240/432递推与24原乘回。实际901884向量/278113来源项，同权9、Bell源0；80交换子final实际继续。
 
 - **[原E完整970列/至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)：** 原未压缩116的全comm与原E11/35恒等给Cl=L2；1070仅删十个字面零comm及其像→≤970，coker为原Bell临界商。全18源/固定常数逆，不用field20/14/210提升。表达式未展开、商零仍开。
 

@@ -1,0 +1,164 @@
+{
+  "format": "r150-original-two-round-complete210-source-inputs-v2",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+    "gitBlob": "9fede0af90889e05eb07cfc87146bec707844794",
+    "bytes": 22552,
+    "sha256": "20cb960bc20fea18001488e84dae35518d74f3338697dfed619eaadae6a6b2aa"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "requiresSingular": false,
+    "requiresNativeCompiler": false
+  },
+  "inputSources": [
+    {
+      "argument": "--model-source",
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "argument": "--compression-source",
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+    },
+    {
+      "argument": "--mean-frontier-source",
+      "path": "notes/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+      "sha256": "810904a2c797b08493ed377c069abd75018e0a0df8035cb700baad80616bea1e"
+    },
+    {
+      "argument": "--weight8-source",
+      "path": "notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "sha256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936"
+    }
+  ],
+  "actualParentScopes": [
+    {
+      "argument": "--model-out",
+      "path": "original-ten-parameter-module127-v2",
+      "binding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+      "manifest": {
+        "bytes": 30466,
+        "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+      }
+    },
+    {
+      "argument": "--compression-out",
+      "path": "original-parameter-seed-compression127",
+      "binding": "baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca",
+      "wholeMathematicalPayload": {
+        "bytes": 620742,
+        "sha256": "a1d73ea1ce5809c87bdc34724c1eb4407d6a5c0ae78fbf16aa3650563aa089dd"
+      }
+    },
+    {
+      "argument": "--mean-frontier-out",
+      "path": "original-mean-first-frontier127",
+      "binding": "9502b11bf94390e8833cdc236a1ad85746d9823f9f4fe1e62de60f1932434bfd",
+      "all30PhaseDescriptorMapping": {
+        "bytes": 7561,
+        "sha256": "84602b544bc3a7275ba3e0d4aa6cbcdfb87eb01c29f5ddca045a344e3144c2df"
+      }
+    },
+    {
+      "argument": "--weight8-out",
+      "path": "original-complete-weight8-frontier127",
+      "binding": "1fdb39f00f53e51f33cbecef6c25c503c43e85575ad79abbd189ade9fdc7d069",
+      "all100PhaseDescriptorMapping": {
+        "bytes": 25501,
+        "sha256": "3f2c8d3b78df200d460c88a81ed9400ce20c84fb3040587f4cb51ec8709ad1b4"
+      },
+      "wholeMathematicalPayload": {
+        "bytes": 1838728,
+        "sha256": "875b3bced3dec064a7312e8c09ffdc19a329bc9608a831a798edd6610df40cf3"
+      }
+    }
+  ],
+  "parameters": {
+    "prime": 127,
+    "coefficientRoot": 100,
+    "literalQuadraticPaths": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "oldParentColumns": 106,
+    "newMeanColumns": 24,
+    "newLowCommutatorColumns": 80,
+    "completeColumns": 210,
+    "out": "original-two-round-complete210-sources127-v2",
+    "firstRun": {
+      "through": "prepare",
+      "seconds": 180,
+      "memoryMiB": 768,
+      "outerTimeoutSeconds": 240
+    },
+    "meanOnly": {
+      "through": "mean",
+      "seconds": 120,
+      "memoryMiB": 768,
+      "outerTimeoutSeconds": 180
+    },
+    "final": {
+      "through": "final",
+      "seconds": 300,
+      "memoryMiB": 1024,
+      "outerTimeoutSeconds": 360
+    }
+  },
+  "columnOrder": {
+    "old106": "paid retained50; all i0..4 mean0..5; actual kept26 weight8 keys in paid order",
+    "new104": "family mean then low-commutator; four literal paths in listed order; original seed IDs in retained paid order"
+  },
+  "completeProductGates": [
+    "50 original border products and nine literal paths",
+    "all106 original ten-vector/eighteen-source parent products",
+    "each actual first-image ten-vector and all18 source coefficients replayed",
+    "all104 new original18 polynomial products",
+    "each new vector is parameter-only of weight9 or10",
+    "all104 new Bell source coefficients exactly zero"
+  ],
+  "wholePhaseContinuation": {
+    "completePhasesOnly": true,
+    "partialColumnNotCredited": true,
+    "sameSourceAndBindingRequired": true,
+    "timingMetadataIsNotMathematics": true,
+    "parentNativeResultsNotRecomputed": true
+  },
+  "mathematicalUpperTermCounts": {
+    "perMeanVector": 37874,
+    "perMeanSource": 16442,
+    "perCommutatorVector": 77276,
+    "perCommutatorSource": 46304,
+    "newVectorTotal": 7091056,
+    "newSourceTotal": 4098928,
+    "notActualTermCounts": true
+  },
+  "arithmeticStatus": "v2 AST parsed only; v1 prepare succeeded, v1 mean failed before registering any new column; no v2 mathematical execution yet",
+  "dataPolicy": "All coefficient arrays, phase payloads, full raw outputs and caches remain temporary. Git stores source, parameters, proof and execution identity/SHA only.",
+  "v1Failure": {
+    "sourceBlob": "9ab5efd0991b6d6285d9824667e31b7aec279b3d",
+    "rawBytes": 2863,
+    "rawSha256": "d945424568ffb0692130a5d6094ebd2fb607ead75fc05f072f798d7866847f97",
+    "errorType": "TypeError",
+    "errorMessage": "Object of type fmpz is not JSON serializable",
+    "registeredNewColumnCount": 0,
+    "fix": "cast only sourceMaximumUDegree statistic to Python int; independent format/source/output; no arithmetic gate changed"
+  }
+}

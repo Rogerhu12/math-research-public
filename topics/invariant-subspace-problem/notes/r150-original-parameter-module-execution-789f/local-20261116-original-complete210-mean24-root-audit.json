@@ -1,0 +1,29 @@
+{
+  "format": "isp-root-complete210-mean24-independent-execution-v1",
+  "author": "OpenAI ChatGPT /root; GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-complete210-mean24-source-audit-789f.py",
+    "bytes": 5894,
+    "sha256": "242e690c5e41227c4ced39126e1ae9504a9619ddee6d5354f642fa722612637b"
+  },
+  "execution": {
+    "sessionId": 33563,
+    "dateUTC": "2026-11-16",
+    "exitCode": 0,
+    "elapsedSeconds": 26.848439391993452,
+    "peakRssKiB": 123824
+  },
+  "binding": "41638323f597133aadeb65b2a1639899a162e2afbe6e7f7c477e93fae912cd80",
+  "inputManifest": {
+    "bytes": 121269,
+    "sha256": "965d7980bcd7d95bebb353371fe78f78f460f1d526b2c0dda64492ae366130e8"
+  },
+  "rawOutput": {
+    "path": "isp-root-complete210-mean-source-audit.json",
+    "bytes": 752,
+    "sha256": "639e14945451dc71e5b348cd5449a11265f5f7dfba6081fa1e03f63119672af8"
+  },
+  "scope": "all24 whole ten-vector and18-source recurrences, all24 original polynomial products, same-weight checks; no producer import",
+  "dataPolicy": "Only source, parameters, actual identity and output hashes; no mathematical arrays."
+}

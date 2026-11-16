@@ -1,0 +1,54 @@
+{
+  "format": "r150-original-complete210-source-execution-identity-v2",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-two-round-complete210-sources127-v2-789f.py",
+    "gitBlob": "9fede0af90889e05eb07cfc87146bec707844794",
+    "bytes": 22552,
+    "sha256": "20cb960bc20fea18001488e84dae35518d74f3338697dfed619eaadae6a6b2aa"
+  },
+  "parameters": {
+    "through": "prepare",
+    "seconds": 180.0,
+    "memoryMiB": 768,
+    "binding": "41638323f597133aadeb65b2a1639899a162e2afbe6e7f7c477e93fae912cd80",
+    "out": "original-two-round-complete210-sources127-v2"
+  },
+  "execution": {
+    "dateUTC": "2026-11-16",
+    "exitCode": 0,
+    "status": "completed-prefix",
+    "elapsedSeconds": 27.174693003995344,
+    "peakRssKiB": 95168,
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "rawOutput": {
+    "path": "prepare180-complete210-sources-receipt.json",
+    "bytes": 2904,
+    "sha256": "57f6aa0448f98ca5a719ccad62930f76df3380775541883047b13c31273deb6c"
+  },
+  "manifest": {
+    "path": "prepare180-complete210-sources-manifest.json",
+    "bytes": 114789,
+    "sha256": "a39ca2f8daba66cf0a73fa10a9b4934764e70edb001e8e818c852144438c57c7"
+  },
+  "log": {
+    "path": "original-two-round-complete210-v2-prepare180.log",
+    "bytes": 3051,
+    "sha256": "b9e74fcb06d95cfab4d832b0e2aa9d17c9faa2e9f47cd356c7123e9448db44b4"
+  },
+  "completePhaseIdentities": {
+    "complete-original106-parent-validation": {
+      "bytes": 13399,
+      "logicalBytes": 56502,
+      "logicalSha256": "85b19f9583c6a751712cc1d7df83789d32d7989744f98e927686f6d3e31b64f9",
+      "path": "complete-original106-parent-validation.json.gz",
+      "sha256": "59415c9b318f619bd40ed0518812c5dd2ab56a7ca799f952637b1bad7fd410b3"
+    }
+  },
+  "registeredNewMeanColumns": 0,
+  "registeredNewCommutatorColumns": 0,
+  "dataPolicy": "Only source, parameters, actual execution identity and output SHA; no mathematical arrays."
+}
