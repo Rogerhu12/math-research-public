@@ -18,6 +18,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付全抽象闭面固定g的|Kg|<2381/11<217<(1000/61)²；原六弓帽/椭圆柱K0，R=.274是材料盘半径。Gaussian必要乘积界未排reach，不授外曲率/存在。完整新增P5四u/P8四v及零总高度P8′一列，旧159嵌入168，新9物理函数商独立；全T三导/位置二jet/J公式与左C4/右平坦保原接口，尚待新模型。
 
+[R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)付新sin列轴上T/Ts/Tss和Xt/Xst有限不变，但Xs/Xss含全角Π不能删除；f0/e非0时度量盲须8条真实U·∂s(aΠδT)=0。圆背景给显式非零δe，另4组合可保所有轴一阶I/位置/径向jets而动两轴类κθ；仅该背景，不冒55秩。曲率须保实际I、normal变分与完整Π记忆。
+
 ## 3. 当前理论接口与剩余义务
 
 完整原式/范围在[results](results.md)，活动任务在[open](open.md)；R495以前详细H保于[已发布前页](https://github.com/Rogerhu12/math-research-public/blob/ddfee4bec1f80bcd4ad22cb86d961fbeb4667643/topics/visible-flex-new-mechanism/HANDOFF.md)，压缩不撤任何端germ、原成本、whole-period或同规范义务。

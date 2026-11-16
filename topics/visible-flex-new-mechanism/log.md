@@ -582,3 +582,8 @@ R493第一次非force更新收到GitHub UNKNOWN且main确已并发推进，立�
 ### 2026-11-16 09:47:15 UTC — R496 完整复cap相位与H≥2严格排除
 
 [R496](results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md)已证明完整Z相位单调及A/R≥(b²−1)/2；保所有原端项/C≥0的一次IBP给ImE=b∫R(d²+b²)[r(b²R²−3A²)−2AR²]。H≥2即b²≥3，故ImE≤−8b³(b²−1)/15015<0，全部真实五门零/原弱零极限必须3/5<H<2，强于原大H界；不是只凭扇形猜号。另将严格平方余量接原λ区间并付A6与A7真实端界；一个准确形式八系数通过所列有限门，说明未解3/5<H<2不能被该有限代数条件宣无解。0新执行；继续真正新四原子全量模型/全图构造及主几何。
+
+
+### 2026-11-16 09:48:38 UTC — R497 完整角原函数与轴上度量曲率响应
+
+[R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)已证明sin新列在轴仅保T/Ts/Tss、Xt/Xst有限不变，Xs/Xss的全角零均值Π不能删；f0/e非0时八列是否metric盲准确取8条U·∂s(aΠδT)投影。圆背景δeu=4j a_s(aP)_s(−1)^(jk)/(4j²−1)、δev=−b(aQ)_s(−1)^(jk)/j可非零。完整实际I/II/normal与主曲率变分保Π记忆；该背景另4组合可保全轴位置/径向二jet/度量一阶而独立动两轴类κθ。不是55真实峰/秩/下降或全圈等距证据；0执行，当前同账新9仍在公开Actions运行。
