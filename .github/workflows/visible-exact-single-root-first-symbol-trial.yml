@@ -1,0 +1,90 @@
+name: visible-exact single complete root first-symbol trial
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-single-root-first-symbol-trial.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-single-root-first-symbol-trial
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  SW_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-single-root-first-symbol-trial-CI-inputs.json
+  SW_MANIFEST_SHA: 5d62a5e758cd11d4325d1797666bb57683ee94f79e4d4fb4351c33b7f94d78e4
+  SW_PIPELINE_SHA: d0380618d0e57fe4771ad0fb5b6a92990225abc9c6f2f379959653eab4e93fb9
+  SW_WORKER_SHA: 3362fba994909fd15060cba902f9a4c4f605a422c2887f2dc3d6b5e0b921c628
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  single-root-first-symbol-trial:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_single_root_first_symbol_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-single-root-first-symbol-trial-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_single_root_first_symbol_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['SW_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_single_root_first_symbol_public_worker.py --mode hydrate
+          --manifest "$SW_MANIFEST" --manifest-sha "$SW_MANIFEST_SHA"
+          --pipeline-sha "$SW_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the new consumer and evidence-only SJ and CG sources before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['SW_MANIFEST']).read_text())
+          for role in ('source','sj_source','cg_source'):
+              item=next(x for x in manifest['files'] if x['role']==role)
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Read five completed records and evaluate only the new single first-symbol trial
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_single_root_first_symbol_public_worker.py --mode run
+          --manifest "$SW_MANIFEST" --manifest-sha "$SW_MANIFEST_SHA"
+          --pipeline-sha "$SW_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-single-root-first-symbol-trial-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-single-root-first-symbol-trial-output"
+      # Root rule15: all eleven inputs are current small text; zero old binaries or artifacts are restored.
+      # The original SJ and CG sources are AST-only evidence; neither is imported or called.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # Complete science is atomically saved and printed before publication-size guards.
+      # The actual topic capacity must retain120000 bytes before any new arithmetic.

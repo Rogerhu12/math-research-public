@@ -250,3 +250,13 @@ RDA19–22仅全角/全δ前瞻正上界合同；Ar=−iM_R(P+−P−)准确，�
 真实W=A(1+M_C I)Lc满足同cut，C保F*和scalarmean；DW含两原primitive rank与两个有序I，完整源(P[T DW−QW],−ZyTW)保全第二normalizer/T1F2、所有3070接缝、cut原UT和新waist FT。Lc的√2只两physical wave，输入sign正交；wholecut/逆方向WX/原Ng不倒置upper。SW29a精确保同actual normalized operator−principal，CG Cproj=(1+BX)Ralg+BX PC的识别正项只向前支配，不作upper减法；仅最终完整paid可和UTA整选。
 
 本次已成scope归档1052267b8ad3681d3cd3e5abb596572971aa252e，6409B/SHAeb6f922835bba9c3ce5849d83ad1b2be62b5817d0c683c1d47f44c531c8eea33，原十段全文从84a4bff41a469826a58dfa5d62e7a79a805bc4d2同open搬入notes，仅结果链接前缀改../results/；原条件/球/失败lost/恢复和全部未付门保，H/open只缩已成索引。没有新科学运行，SW新包尚未部署；旧成功冻结，全Ei/Eo/incoming/finite/return/非线性仍未付。
+
+## 2026-11-16 00:36:40 UTC：SW唯一新标量consumer部署
+
+7d697902df3de37ef3ce8c460f6adaca7c762258两README仍同原blob。已全文审SCI480行、成功UT基底worker全部465行差异、manifest/flow；root九个既有current文件在7d697902df3de37ef3ce8c460f6adaca7c762258逐SHA/bytes/blob独核，五actual全部runtime/source/manifest/run/gates与30路径再次静核。14个成功基础helper原字；phase核新scalar/wholepaid及worker validator/render/CLI，newton核五原schema/30原球/SJ与CG原文字算法。AST实际执行只由本公开Actions完成。
+
+最终四件：SCI23c793d11a632cf2607dd8e31f6b506eecd6a6e5，39892B/SHAd0380618d0e57fe4771ad0fb5b6a92990225abc9c6f2f379959653eab4e93fb9；workerc6916fc7a0627408993d7737ea528b05c588ba8e，56842B/3362fba994909fd15060cba902f9a4c4f605a422c2887f2dc3d6b5e0b921c628；manifest4d47334aed628a735f032c73041ddebac5b12fff，16114B/5d62a5e758cd11d4325d1797666bb57683ee94f79e4d4fb4351c33b7f94d78e4；flowf684d188c7cfeb018fd1f4988cb66626b754f32b，4704B/3c96ca37fce1879a733a20076cc8d80e755de4d5c9f92987444e736cb7751435。11current/380738B、8mathpins、4AST、5原actual/30球/24门，旧SJ/CG仅AST/text绝不import/call。
+
+纯文字完整格式模型用每新球150字符、24gate名各180字符且保原五identity/30球/6retained，31879B；无Arb或数学计算。源≤40000B、report≤12000B、preGit/execution≤59000B，原atomic/stdout先于最终格式门；同成功源/pins/runtime跨wrapper复用，incomplete明确挡重跑，执行前/最终真实pull+双README/liveindex/容量≤200MB且预留120KB保持。
+
+只flow首次push自然触发唯一run，不另dispatch。完整new DW/Q/Zy/3070jump/同cut/新waist、原CG正支配与ordered state全齐后比较同actual整paid；旧成功全部冻结，原6retained/fullEi/Eo/incoming/finite/return/非线性仍未付，当前没有新科学结果。
