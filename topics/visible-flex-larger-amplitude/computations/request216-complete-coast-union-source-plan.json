@@ -1,0 +1,856 @@
+{
+  "schema": "R487-complete-coast-union-three-level-source-view-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "helper": {
+    "file": "geometry_20261116_complete_coast_bernstein_enclosures.py",
+    "bytes": 18291,
+    "sha256": "3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae"
+  },
+  "generator": {
+    "file": "root_20261116_request216_coast_source_views.py",
+    "bytes": 8787,
+    "sha256": "560638a565b9cdccfff5d04a3412921c845b913da55d8ad38e905e33997d49c2",
+    "schema": "R487-complete-coast-union-three-level-source-view-generation-v1"
+  },
+  "original_R483": {
+    "commit": "3559e04efd5587989da5074b04cd825fe9694a89",
+    "proof": {
+      "file": "R483-complete-coast-Bernstein-ranges-in-current-metric-consumers.md",
+      "bytes": 15453,
+      "sha256": "d16119fda315a8aac2254375c83fbd548c5d4d414f08f33806b58df856ed03fa"
+    }
+  },
+  "scope": {
+    "actual_R464_fifteen_views_must_be_materialised_first": true,
+    "actual_R483_five_views_must_be_materialised_before_any_consumer": true,
+    "definition_compiler_profile_and_scientific_field_sources_unchanged": true,
+    "first_policy_A_B_and_material_source_b497_unchanged": true,
+    "original_214_sampling_depth_two_and_all_work_resources_unchanged": true,
+    "factory_initial_domain_not_replaced": true,
+    "full_original_source_closure_required_independently": true
+  },
+  "views": [
+    {
+      "key": "union_metric",
+      "baseline": {
+        "file": "geometry_20261116_current_C_incremental_M_live_query_complete_metric.py",
+        "bytes": 55099,
+        "sha256": "2592d09e9dc471679d4e6d8588a409c3a180132b3b478fc47fbeb1a9d91886f8"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_incremental_M_coast_live_query_complete_metric.py",
+        "schema": "R487-current-C-incremental-M-coast-Bernstein-live-metric-v1",
+        "frame": "R487_INCREMENTAL_M_COAST_LIVE_METRIC_SUMMARY",
+        "bytes": 56260,
+        "sha256": "577a206b72456bedf54249350faa405ddef3e609fd2b385fdd3d207df62f6c46"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R483 generated consumer: the original field/definition/compiler stay fixed.\n# Only an explicit local prefix-range argument uses the complete coast formula.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R464-current-C-incremental-M-relative-metric-live-queries-v1\"",
+          "after": "SCHEMA = \"R487-current-C-incremental-M-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS = {\n",
+          "after": "COAST_NAME = \"geometry_20261116_complete_coast_bernstein_enclosures.py\"\nVIEW_BASELINE_NAME = \"geometry_20261116_current_C_incremental_M_live_query_complete_metric.py\"\nSOURCE_PINS = {\n    COAST_NAME: \"3730c62b5c1a40fb594c9a2d9ed95a523a9134f12eb0b8def59c764d79e3edae\",\n    VIEW_BASELINE_NAME: \"2592d09e9dc471679d4e6d8588a409c3a180132b3b478fc47fbeb1a9d91886f8\",\n",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta):",
+          "after": "def inspect_cell(Prefix, Kernel, M, current, tail, spec, eta, prefix_range):",
+          "count": 1
+        },
+        {
+          "before": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta)",
+          "after": "inspect_cell_once(Prefix, Kernel, M, current, tail, spec, eta, prefix_range)",
+          "count": 2
+        },
+        {
+          "before": "            if name == BASE_METRIC_NAME:",
+          "after": "            if name in (BASE_METRIC_NAME, VIEW_BASELINE_NAME):",
+          "count": 1
+        },
+        {
+          "before": "raise ValueError(\"The published R418 algorithm baseline differs\")",
+          "after": "raise ValueError(\"The declared metric algorithm baseline differs\")",
+          "count": 1
+        },
+        {
+          "before": "result = Prefix.inspect(M, Kernel, field, current.target, spec, eta)",
+          "after": "result = Prefix.inspect(M, Kernel, field, prefix_range, spec, eta)",
+          "count": 1
+        },
+        {
+          "before": "current_bundle = tail = cap_record = plan = journal = None",
+          "after": "current_bundle = tail = cap_record = plan = journal = prefix_range = None",
+          "count": 1
+        },
+        {
+          "before": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n",
+          "after": "        current_bundle = Cut.load_accurate_cut_field(actual_args)\n        prefix_range = loaded[COAST_NAME].CoastTargetRange(current_bundle.target)\n",
+          "count": 1
+        },
+        {
+          "before": "        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "after": "        members[\"prefix_range_implementation\"] = write(large / \"same-target-coast-range-binding.json\",\n            prefix_range.describe(), args.out)\n        members[\"actual_C_target\"] = write(large / \"actual-complete-C-query-target.json\",",
+          "count": 1
+        },
+        {
+          "before": "            source=receipt(__file__), direct_source_closure=source_rows,\n",
+          "after": "            source=receipt(__file__), direct_source_closure=source_rows,\n            actual_prefix_range_implementation=members[\"prefix_range_implementation\"],\n            original_factory_initial_domain_flags_not_replaced=True,\n            original_definition_profile_compiler_and_field_not_modified=True,\n",
+          "count": 1
+        },
+        {
+          "before": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta)",
+          "after": "report = inspect_cell(Prefix, Kernel, M, current_bundle, tail, current_cell, eta, prefix_range)",
+          "count": 1
+        },
+        {
+          "before": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n",
+          "after": "        source_commit=os.environ.get(\"GITHUB_SHA\"), source=receipt(__file__),\n        actual_prefix_range_work=None if prefix_range is None else prefix_range.status(),\n",
+          "count": 1
+        },
+        {
+          "before": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",",
+          "after": "            \"counts\", \"same_actual_C_target\", \"scope\", \"resource_stop\", \"execution_error\",\n            \"actual_prefix_range_work\",",
+          "count": 1
+        },
+        {
+          "before": "\"BEGIN_R451_COMPLETE_M_METRIC_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"BEGIN_R487_INCREMENTAL_M_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        },
+        {
+          "before": "\"END_R451_COMPLETE_M_METRIC_CURRENT_C_LIVE_QUERY_CLOSED_METRIC_SUMMARY\"",
+          "after": "\"END_R487_INCREMENTAL_M_COAST_LIVE_METRIC_SUMMARY\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "union_evidence",
+      "baseline": {
+        "file": "geometry_20261116_incremental_M_fixed_target_metric_evidence.py",
+        "bytes": 62333,
+        "sha256": "0eb5d8171664db099824698a8319e91a0324344b8d915032ebab932c29707f2b"
+      },
+      "output": {
+        "file": "geometry_20261116_incremental_M_coast_fixed_target_metric_evidence.py",
+        "schema": "R487-fixed-target-incremental-M-coast-Bernstein-metric-evidence-v1",
+        "frame": "R487_INCREMENTAL_M_COAST_FIXED_TARGET_METRIC_EVIDENCE",
+        "bytes": 63173,
+        "sha256": "38cb0a67efe0fd2da358c569fff67e019a659a6c4e438b025d82dfdabb190f68"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R483 generated evidence consumer: same accepted field and fixed target;\n# only the explicit prefix target-range object uses complete coast Bernstein.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R464-same-accurate-closed-target-incremental-M-metric-evidence-v1\"",
+          "after": "SCHEMA = \"R487-fixed-target-incremental-M-coast-Bernstein-metric-evidence-v1\"",
+          "count": 1
+        },
+        {
+          "before": "file=\"geometry_20261115_current_C_ten_live_query_complete_metric.py\",",
+          "after": "file=\"geometry_20261116_current_C_coast_live_query_complete_metric.py\",",
+          "count": 1
+        },
+        {
+          "before": "sha256=\"77be1d98c7401c4d0962adae7b824fd22c66b3a0127885b080859edc0f4a7892\",",
+          "after": "sha256=\"fb6f05cc505727401e165d2a65f6c5071b3b253f281f6ee84ef4b52b60aab535\",",
+          "count": 1
+        },
+        {
+          "before": "schema=\"R426-current-C-accurate-ten-complete-closed-relative-metric-live-queries-v1\"",
+          "after": "schema=\"R483-current-C-original112-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "file=\"geometry_20261116_current_C_resolution_live_query_complete_metric.py\",",
+          "after": "file=\"geometry_20261116_current_C_resolution_coast_live_query_complete_metric.py\",",
+          "count": 1
+        },
+        {
+          "before": "sha256=\"fd263af28a7d55a7246a49283d367e420786f48f16556dd5a7d61406b1c8459b\",",
+          "after": "sha256=\"37db784cada1a426eaf0aa59f04d10c1da0c3bdad4e1102c5e9712b1d1dfa61b\",",
+          "count": 1
+        },
+        {
+          "before": "schema=\"R441-current-C-resolution450-complete-relative-metric-live-queries-v1\"",
+          "after": "schema=\"R483-current-C-resolution112-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "file=\"geometry_20261116_current_C_M_live_query_complete_metric.py\",",
+          "after": "file=\"geometry_20261116_current_C_M_coast_live_query_complete_metric.py\",",
+          "count": 1
+        },
+        {
+          "before": "sha256=\"fc35c6408aacbf2131a89fbac37ca4ae98c1665d9fbdc4ba78a50a43ca7f3a47\",",
+          "after": "sha256=\"44f5b66d59b35d35ff5e59da1496820fc23afb7b5c0430f2d4b2d6a31d54b25b\",",
+          "count": 1
+        },
+        {
+          "before": "schema=\"R451-current-C-complete-M-relative-metric-live-queries-v1\"",
+          "after": "schema=\"R483-current-C-completeM-coast-Bernstein-live-metric-v1\"",
+          "count": 1
+        },
+        {
+          "before": "        self.Metric = self.M = self.Kernel = self.current = self.tail = self.common = None\n",
+          "after": "        self.Metric = self.M = self.Kernel = self.current = self.tail = self.common = None\n        self.prefix_range = None\n",
+          "count": 1
+        },
+        {
+          "before": "        for key in (\"CUT_NAME\", \"PREFIX_NAME\", \"KERNEL_NAME\", \"C_NAME\", \"CUFF_NAME\", \"CAP_NAME\", \"LIVE_NAME\"):",
+          "after": "        for key in (\"CUT_NAME\", \"PREFIX_NAME\", \"KERNEL_NAME\", \"C_NAME\", \"CUFF_NAME\", \"CAP_NAME\", \"LIVE_NAME\", \"COAST_NAME\"):",
+          "count": 1
+        },
+        {
+          "before": "        self.current = loaded[\"CUT_NAME\"].load_accurate_cut_field(args)\n",
+          "after": "        self.current = loaded[\"CUT_NAME\"].load_accurate_cut_field(args)\n        self.prefix_range = loaded[\"COAST_NAME\"].CoastTargetRange(self.current.target)\n",
+          "count": 1
+        },
+        {
+          "before": "        cfg = cp.native_configuration\n        self.tolerances = dict(",
+          "after": "        self.members[\"prefix_range_implementation\"] = write(\n            self.large/\"same-target-coast-range-binding.json\", self.prefix_range.describe())\n        cfg = cp.native_configuration\n        self.tolerances = dict(",
+          "count": 1
+        },
+        {
+          "before": "            actual_input=self.input_id, direct_sources=copy.deepcopy(self.sources),\n",
+          "after": "            actual_input=self.input_id, direct_sources=copy.deepcopy(self.sources),\n            actual_prefix_range_implementation=self.members[\"prefix_range_implementation\"],\n            original_factory_initial_domain_flags_not_replaced=True,\n            original_definition_profile_compiler_and_field_not_modified=True,\n",
+          "count": 1
+        },
+        {
+          "before": "jets, radial_metric, target_record = self.current.target.closed_range(*radial)",
+          "after": "jets, radial_metric, target_record = self.prefix_range.closed_range(*radial)",
+          "count": 1
+        },
+        {
+          "before": "            actual_input=self.input_id, phase=self.phase,\n",
+          "after": "            actual_input=self.input_id, phase=self.phase,\n            actual_prefix_range_work=None if self.prefix_range is None else self.prefix_range.status(),\n",
+          "count": 1
+        },
+        {
+          "before": "        \"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\",",
+          "after": "        \"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\", \"actual_prefix_range_work\",",
+          "count": 1
+        },
+        {
+          "before": "\"BEGIN_R459_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "after": "\"BEGIN_R487_INCREMENTAL_M_COAST_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "count": 1
+        },
+        {
+          "before": "\"END_R459_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "after": "\"END_R487_INCREMENTAL_M_COAST_FIXED_TARGET_METRIC_EVIDENCE\"",
+          "count": 1
+        },
+        {
+          "before": "'file': 'geometry_20261116_current_C_incremental_M_live_query_complete_metric.py'",
+          "after": "'file': 'geometry_20261116_current_C_incremental_M_coast_live_query_complete_metric.py'",
+          "count": 1
+        },
+        {
+          "before": "'sha256': '2592d09e9dc471679d4e6d8588a409c3a180132b3b478fc47fbeb1a9d91886f8'",
+          "after": "'sha256': '577a206b72456bedf54249350faa405ddef3e609fd2b385fdd3d207df62f6c46'",
+          "count": 1
+        },
+        {
+          "before": "'schema': 'R464-current-C-incremental-M-relative-metric-live-queries-v1'",
+          "after": "'schema': 'R487-current-C-incremental-M-coast-Bernstein-live-metric-v1'",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "first_base",
+      "baseline": {
+        "file": "geometry_20261116_current_C_ten450_original_or_refined_block_postsolve.py",
+        "bytes": 66873,
+        "sha256": "5bb2ee1d9526a10ec707d1106763e4ebe94599d7e5152f726864a6812ba8af95"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_coast_ten450_original_or_refined_block_postsolve.py",
+        "schema": "R487-current-C-coast-original-or-refined-block-postsolve-v1",
+        "bytes": 67003,
+        "sha256": "c2a9399489aa8bc66098a6bee1977faad7ac6a02735a294772e5e1aaddb3f751"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"current-C-ten450-original-or-refined-same-job-live-query-block-reach-geometry-v1\"",
+          "after": "SCHEMA = \"R487-current-C-coast-original-or-refined-block-postsolve-v1\"",
+          "count": 1
+        },
+        {
+          "before": "METRIC = \"geometry_20261115_current_C_ten_live_query_complete_metric.py\"",
+          "after": "METRIC = \"geometry_20261116_current_C_coast_live_query_complete_metric.py\"",
+          "count": 1
+        },
+        {
+          "before": "    METRIC: \"77be1d98c7401c4d0962adae7b824fd22c66b3a0127885b080859edc0f4a7892\",",
+          "after": "    METRIC: \"fb6f05cc505727401e165d2a65f6c5071b3b253f281f6ee84ef4b52b60aab535\",",
+          "count": 1
+        },
+        {
+          "before": "    \"metric\": \"R426-current-C-accurate-ten-complete-closed-relative-metric-live-queries-v1\",",
+          "after": "    \"metric\": \"R483-current-C-original112-coast-Bernstein-live-metric-v1\",",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "first_post",
+      "baseline": {
+        "file": "geometry_20261116_actual202_ten450_parameter_block_postsolve.py",
+        "bytes": 26899,
+        "sha256": "89a90b2d5d762510c228c5d3a4f6fe27a573c890b760268aecace2a44ab9e010"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_coast_ten450_parameter_block_postsolve.py",
+        "schema": "R487-actual202-coast-ten450-first-parameter-block-postsolve-v1",
+        "bytes": 27101,
+        "sha256": "5660378eed3f8c308c5765370e6521beefb46e7620e9e10240796fb203a35e74"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = 'R452-actual202-accurate-ten450-first-parameter-block-postsolve-v1'",
+          "after": "SCHEMA = 'R487-actual202-coast-ten450-first-parameter-block-postsolve-v1'",
+          "count": 1
+        },
+        {
+          "before": "BASE_NAME = \"geometry_20261116_current_C_ten450_original_or_refined_block_postsolve.py\"",
+          "after": "BASE_NAME = \"geometry_20261116_current_C_coast_ten450_original_or_refined_block_postsolve.py\"",
+          "count": 1
+        },
+        {
+          "before": "BASE_SHA = \"5bb2ee1d9526a10ec707d1106763e4ebe94599d7e5152f726864a6812ba8af95\"",
+          "after": "BASE_SHA = \"c2a9399489aa8bc66098a6bee1977faad7ac6a02735a294772e5e1aaddb3f751\"",
+          "count": 1
+        },
+        {
+          "before": "require(actual[\"sha256\"] == BASE_SHA, \"Keep the exact original R438 source\")",
+          "after": "require(actual[\"sha256\"] == BASE_SHA, \"Bind the explicit R487 coast-only view of the frozen R438 procedure\")",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "first_reader",
+      "baseline": {
+        "file": "root_20261116_actual202_ten450_parameter_block_postsolve_necessary.py",
+        "bytes": 10412,
+        "sha256": "e3a4a70277c3267ff412e1ac3f63590be135ed28f5cfc3c1e553e4e2e9cd7f3c"
+      },
+      "output": {
+        "file": "root_20261116_actual202_coast_ten450_parameter_block_postsolve_necessary.py",
+        "schema": "R487-actual202-coast-ten450-parameter-block-necessary-v1",
+        "frame": "R487_PARAMETER_BLOCK_POSTSOLVE_NECESSARY",
+        "bytes": 11054,
+        "sha256": "81d810566362dd7b8b307c378b94a26f423dd1ba2aff4cfed0f45b12b6e304af"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_NAME = 'geometry_20261116_actual202_ten450_parameter_block_postsolve.py'",
+          "after": "PROCEDURE_NAME = 'geometry_20261116_actual202_coast_ten450_parameter_block_postsolve.py'",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SHA = '89a90b2d5d762510c228c5d3a4f6fe27a573c890b760268aecace2a44ab9e010'",
+          "after": "PROCEDURE_SHA = '5660378eed3f8c308c5765370e6521beefb46e7620e9e10240796fb203a35e74'",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SCHEMA = 'R452-actual202-accurate-ten450-first-parameter-block-postsolve-v1'",
+          "after": "PROCEDURE_SCHEMA = 'R487-actual202-coast-ten450-first-parameter-block-postsolve-v1'",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = 'R452-actual202-ten450-parameter-block-postsolve-one-necessary-conclusion-v1'",
+          "after": "SCHEMA = 'R487-actual202-coast-ten450-parameter-block-necessary-v1'",
+          "count": 1
+        },
+        {
+          "before": "R452_PARAMETER_BLOCK_POSTSOLVE_NECESSARY",
+          "after": "R487_PARAMETER_BLOCK_POSTSOLVE_NECESSARY",
+          "count": 2
+        },
+        {
+          "before": "REPLACEMENTS = (\n",
+          "after": "REPLACEMENTS = (\n    (\"    \\\"metric\\\": \\\"R426-current-C-accurate-ten-complete-closed-relative-metric-live-queries-v1\\\",\",\n     \"    \\\"metric\\\": \\\"R483-current-C-original112-coast-Bernstein-live-metric-v1\\\",\"),\n    (\"          \\\"counts\\\", \\\"members\\\", \\\"same_actual_C_target\\\", \\\"scope\\\", \\\"timer_scope\\\")\",\n     \"          \\\"counts\\\", \\\"members\\\", \\\"same_actual_C_target\\\", \\\"scope\\\", \\\"timer_scope\\\", \\\"actual_prefix_range_work\\\")\"),\n",
+          "count": 1
+        },
+        {
+          "before": "original_five_stage_selectors_changed=False,",
+          "after": "original_five_stage_selectors_changed=True,\n    selector_change_only_metric_schema_and_actual_prefix_range_work=True,",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "first_held",
+      "baseline": {
+        "file": "geometry_20261116_actual202_ten450_parameter_block_postsolve_held.py",
+        "bytes": 5449,
+        "sha256": "8d0927cc335faa6a0a639f0f0ecec063ee2d65bbc0ef11bd990eb118aa971ffb"
+      },
+      "output": {
+        "file": "geometry_20261116_actual202_coast_ten450_parameter_block_postsolve_held.py",
+        "schema": "R487-actual202-coast-ten450-parameter-block-held-v1",
+        "frame": "R487_CURRENT_TEN_PARAMETER_BLOCK_HELD_NECESSARY",
+        "bytes": 5609,
+        "sha256": "eb13fc3039c4751149e5638807c7aae98e564da2cd27522bf1750be361c98873"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = 'R452-actual202-ten450-parameter-block-same-job-held-after-shared-v1'",
+          "after": "SCHEMA = 'R487-actual202-coast-ten450-parameter-block-held-v1'",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_NAME = 'geometry_20261116_actual202_ten450_parameter_block_postsolve.py'",
+          "after": "PROCEDURE_NAME = 'geometry_20261116_actual202_coast_ten450_parameter_block_postsolve.py'",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SHA = '89a90b2d5d762510c228c5d3a4f6fe27a573c890b760268aecace2a44ab9e010'",
+          "after": "PROCEDURE_SHA = '5660378eed3f8c308c5765370e6521beefb46e7620e9e10240796fb203a35e74'",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SCHEMA = 'R452-actual202-accurate-ten450-first-parameter-block-postsolve-v1'",
+          "after": "PROCEDURE_SCHEMA = 'R487-actual202-coast-ten450-first-parameter-block-postsolve-v1'",
+          "count": 1
+        },
+        {
+          "before": "READER_NAME = 'root_20261116_actual202_ten450_parameter_block_postsolve_necessary.py'",
+          "after": "READER_NAME = 'root_20261116_actual202_coast_ten450_parameter_block_postsolve_necessary.py'",
+          "count": 1
+        },
+        {
+          "before": "READER_SHA = 'e3a4a70277c3267ff412e1ac3f63590be135ed28f5cfc3c1e553e4e2e9cd7f3c'",
+          "after": "READER_SHA = '81d810566362dd7b8b307c378b94a26f423dd1ba2aff4cfed0f45b12b6e304af'",
+          "count": 1
+        },
+        {
+          "before": "R452_CURRENT_TEN_PARAMETER_BLOCK_HELD_NECESSARY",
+          "after": "R487_CURRENT_TEN_PARAMETER_BLOCK_HELD_NECESSARY",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "orchestrator",
+      "baseline": {
+        "file": "geometry_20261116_request205_actual202_closed_postsolve.py",
+        "bytes": 47078,
+        "sha256": "b60c85eb2c1c9659ab51d5a206207d0a6469bc08dc7d203551d44212963fbbd4"
+      },
+      "output": {
+        "file": "geometry_20261116_request216_actual202_coast_closed_postsolve.py",
+        "schema": "request216-actual202450-coast-first-closed-postsolve-orchestration-v1",
+        "frame": "REQUEST216_CLOSED_POSTSOLVE_METADATA",
+        "bytes": 47243,
+        "sha256": "a22d0bca225407702ecddf91991a59955008b8a3696232160a24bffa13861fd5"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "ENTRY = \"geometry_20261116_request205_actual202_closed_postsolve.py\"",
+          "after": "ENTRY = \"geometry_20261116_request216_actual202_coast_closed_postsolve.py\"",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"request205-actual202450-first-closed-postsolve-orchestration-v1\"",
+          "after": "SCHEMA = \"request216-actual202450-coast-first-closed-postsolve-orchestration-v1\"",
+          "count": 1
+        },
+        {
+          "before": "MARKER_SCHEMA = \"request205-closed-postsolve-readback-complete-v1\"",
+          "after": "MARKER_SCHEMA = \"request216-coast-closed-postsolve-readback-complete-v1\"",
+          "count": 1
+        },
+        {
+          "before": "RUNNER_SCHEMA = \"R452-actual202-accurate-ten450-first-parameter-block-postsolve-v1\"",
+          "after": "RUNNER_SCHEMA = \"R487-actual202-coast-ten450-first-parameter-block-postsolve-v1\"",
+          "count": 1
+        },
+        {
+          "before": "\"geometry_20261116_actual202_ten450_parameter_block_postsolve.py\", 26899,\n        \"89a90b2d5d762510c228c5d3a4f6fe27a573c890b760268aecace2a44ab9e010\"",
+          "after": "\"geometry_20261116_actual202_coast_ten450_parameter_block_postsolve.py\", 27101,\n        \"5660378eed3f8c308c5765370e6521beefb46e7620e9e10240796fb203a35e74\"",
+          "count": 1
+        },
+        {
+          "before": "READER_SCHEMA = \"R452-actual202-ten450-parameter-block-postsolve-one-necessary-conclusion-v1\"",
+          "after": "READER_SCHEMA = \"R487-actual202-coast-ten450-parameter-block-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "before": "\"root_20261116_actual202_ten450_parameter_block_postsolve_necessary.py\", 10412,\n        \"e3a4a70277c3267ff412e1ac3f63590be135ed28f5cfc3c1e553e4e2e9cd7f3c\"",
+          "after": "\"root_20261116_actual202_coast_ten450_parameter_block_postsolve_necessary.py\", 11054,\n        \"81d810566362dd7b8b307c378b94a26f423dd1ba2aff4cfed0f45b12b6e304af\"",
+          "count": 1
+        },
+        {
+          "before": "HELD_SCHEMA = \"R452-actual202-ten450-parameter-block-same-job-held-after-shared-v1\"",
+          "after": "HELD_SCHEMA = \"R487-actual202-coast-ten450-parameter-block-held-v1\"",
+          "count": 1
+        },
+        {
+          "before": "\"geometry_20261116_actual202_ten450_parameter_block_postsolve_held.py\", 5449,\n        \"8d0927cc335faa6a0a639f0f0ecec063ee2d65bbc0ef11bd990eb118aa971ffb\"",
+          "after": "\"geometry_20261116_actual202_coast_ten450_parameter_block_postsolve_held.py\", 5609,\n        \"eb13fc3039c4751149e5638807c7aae98e564da2cd27522bf1750be361c98873\"",
+          "count": 1
+        },
+        {
+          "before": "REQUEST205_CLOSED_POSTSOLVE_METADATA",
+          "after": "REQUEST216_CLOSED_POSTSOLVE_METADATA",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "resolution_post",
+      "baseline": {
+        "file": "geometry_20261116_current_C_same_far450_postsolve_geometry.py",
+        "bytes": 65588,
+        "sha256": "4770c16a51da7c384354c2999a8c97c76b7a8c315dbfedd304f7c9ff622614f2"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_same_far450_coast_postsolve_geometry.py",
+        "schema": "R487-current-C-same-far-resolution450-coast-block-geometry-v1",
+        "bytes": 65740,
+        "sha256": "3f0c4eb314528a07029b11c4f2fb3fb590da3506471ad70195aefcd5aed78454"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = 'R456-current-C-same-far-resolution450-same-job-live-query-block-geometry-v1'",
+          "after": "SCHEMA = 'R487-current-C-same-far-resolution450-coast-block-geometry-v1'",
+          "count": 1
+        },
+        {
+          "before": "METRIC = \"geometry_20261116_current_C_resolution_live_query_complete_metric.py\"",
+          "after": "METRIC = \"geometry_20261116_current_C_resolution_coast_live_query_complete_metric.py\"",
+          "count": 1
+        },
+        {
+          "before": "    METRIC: \"fd263af28a7d55a7246a49283d367e420786f48f16556dd5a7d61406b1c8459b\",",
+          "after": "    METRIC: \"37db784cada1a426eaf0aa59f04d10c1da0c3bdad4e1102c5e9712b1d1dfa61b\",",
+          "count": 1
+        },
+        {
+          "before": "    \"metric\": \"R441-current-C-resolution450-complete-relative-metric-live-queries-v1\",",
+          "after": "    \"metric\": \"R483-current-C-resolution112-coast-Bernstein-live-metric-v1\",",
+          "count": 1
+        },
+        {
+          "before": "FIRST_PARAMETER_RUNNER=\"geometry_20261116_actual202_ten450_parameter_block_postsolve.py\"",
+          "after": "FIRST_PARAMETER_RUNNER=\"geometry_20261116_actual202_coast_ten450_parameter_block_postsolve.py\"",
+          "count": 1
+        },
+        {
+          "before": "FIRST_PARAMETER_RUNNER_SHA=\"89a90b2d5d762510c228c5d3a4f6fe27a573c890b760268aecace2a44ab9e010\"",
+          "after": "FIRST_PARAMETER_RUNNER_SHA=\"5660378eed3f8c308c5765370e6521beefb46e7620e9e10240796fb203a35e74\"",
+          "count": 1
+        },
+        {
+          "before": "FIRST_PARAMETER_SCHEMA=\"R452-actual202-accurate-ten450-first-parameter-block-postsolve-v1\"",
+          "after": "FIRST_PARAMETER_SCHEMA=\"R487-actual202-coast-ten450-first-parameter-block-postsolve-v1\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "resolution_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_same_far450_postsolve_necessary.py",
+        "bytes": 27343,
+        "sha256": "21e61e28c867cad82bff012f453f41a2c08d069669f470c6dc5d088b3ff14fd8"
+      },
+      "output": {
+        "file": "root_20261116_current_C_same_far450_coast_postsolve_necessary.py",
+        "schema": "R487-current-C-same-far-resolution450-coast-postsolve-necessary-v1",
+        "frame": "R487_SAME_FAR_COAST_POSTSOLVE_NECESSARY",
+        "bytes": 27459,
+        "sha256": "02ea18ab6dce352c28332205cfc87a2d6927d864c730b665f36726c814936444"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R456-current-C-same-far-resolution450-block-postsolve-one-necessary-conclusion-v1\"",
+          "after": "SCHEMA = \"R487-current-C-same-far-resolution450-coast-postsolve-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SCHEMA = 'R456-current-C-same-far-resolution450-same-job-live-query-block-geometry-v1'",
+          "after": "PROCEDURE_SCHEMA = 'R487-current-C-same-far-resolution450-coast-block-geometry-v1'",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_NAME = \"geometry_20261116_current_C_same_far450_postsolve_geometry.py\"",
+          "after": "PROCEDURE_NAME = \"geometry_20261116_current_C_same_far450_coast_postsolve_geometry.py\"",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SHA = \"4770c16a51da7c384354c2999a8c97c76b7a8c315dbfedd304f7c9ff622614f2\"",
+          "after": "PROCEDURE_SHA = \"3f0c4eb314528a07029b11c4f2fb3fb590da3506471ad70195aefcd5aed78454\"",
+          "count": 1
+        },
+        {
+          "before": "    \"metric\": \"R441-current-C-resolution450-complete-relative-metric-live-queries-v1\",",
+          "after": "    \"metric\": \"R483-current-C-resolution112-coast-Bernstein-live-metric-v1\",",
+          "count": 1
+        },
+        {
+          "before": "          \"counts\", \"members\", \"same_actual_C_target\", \"scope\", \"timer_scope\")",
+          "after": "          \"counts\", \"members\", \"same_actual_C_target\", \"scope\", \"timer_scope\", \"actual_prefix_range_work\")",
+          "count": 1
+        },
+        {
+          "before": "CURRENT_C_TEN450_ORIGINAL_OR_REFINED_BLOCK_POSTSOLVE_NECESSARY",
+          "after": "R487_SAME_FAR_COAST_POSTSOLVE_NECESSARY",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "resolution_held",
+      "baseline": {
+        "file": "geometry_20261116_current_C_same_far450_postsolve_held.py",
+        "bytes": 43986,
+        "sha256": "4f1e8a9d396a741934c50ebdf413f2d825ad99a53848e633881174899cf172e1"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_same_far450_coast_postsolve_held.py",
+        "schema": "R487-current-C-same-far-resolution450-coast-held-v1",
+        "frame": "R487_SAME_FAR_COAST_HELD_NECESSARY",
+        "bytes": 44092,
+        "sha256": "653e6039fe79012575442678fc420015bbc87664fdcc121d165e6f85ad5cf8c1"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R456-current-C-same-far-resolution450-same-job-held-after-shared-v1\"",
+          "after": "SCHEMA = \"R487-current-C-same-far-resolution450-coast-held-v1\"",
+          "count": 1
+        },
+        {
+          "before": "SUPPORTED_POSTSOLVE = {\n    'geometry_20261116_current_C_same_far450_postsolve_geometry.py': dict(\n        sha256='4770c16a51da7c384354c2999a8c97c76b7a8c315dbfedd304f7c9ff622614f2',\n        schema='R456-current-C-same-far-resolution450-same-job-live-query-block-geometry-v1',\n        input_schema='R456-current-C-same-far-resolution450-same-job-live-query-block-geometry-v1-input-v1'),\n}\n",
+          "after": "SUPPORTED_POSTSOLVE = {\n    \"geometry_20261116_current_C_same_far450_coast_postsolve_geometry.py\": dict(\n        sha256=\"3f0c4eb314528a07029b11c4f2fb3fb590da3506471ad70195aefcd5aed78454\",\n        schema=\"R487-current-C-same-far-resolution450-coast-block-geometry-v1\", input_schema=\"R487-current-C-same-far-resolution450-coast-block-geometry-v1-input-v1\"),\n}\n",
+          "count": 1
+        },
+        {
+          "before": "POSTSOLVE = \"geometry_20261115_current_C_ten450_postsolve_geometry.py\"",
+          "after": "POSTSOLVE = \"geometry_20261116_current_C_same_far450_coast_postsolve_geometry.py\"",
+          "count": 1
+        },
+        {
+          "before": "R456_CURRENT_C_RADIAL_RESOLUTION_HELD_NECESSARY",
+          "after": "R487_SAME_FAR_COAST_HELD_NECESSARY",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "union_post",
+      "baseline": {
+        "file": "geometry_20261116_current_C_incremental_M_postsolve_geometry.py",
+        "bytes": 71729,
+        "sha256": "480ed1ebc76e00bef781c309946773a5e03b3cea6fa9f000c81c462849c72563"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_incremental_M_coast_postsolve_geometry.py",
+        "schema": "R487-current-C-incremental-M-coast-block-geometry-v1",
+        "bytes": 71899,
+        "sha256": "419638c896ef6e14bc8b6faf937224545ed52fa48e42974cbca7dabe09c9d135"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = 'R464-current-C-incremental-M-live-query-block-geometry-v1'",
+          "after": "SCHEMA = 'R487-current-C-incremental-M-coast-block-geometry-v1'",
+          "count": 1
+        },
+        {
+          "before": "METRIC = \"geometry_20261116_current_C_incremental_M_live_query_complete_metric.py\"",
+          "after": "METRIC = \"geometry_20261116_current_C_incremental_M_coast_live_query_complete_metric.py\"",
+          "count": 1
+        },
+        {
+          "before": "    METRIC: \"2592d09e9dc471679d4e6d8588a409c3a180132b3b478fc47fbeb1a9d91886f8\",",
+          "after": "    METRIC: \"577a206b72456bedf54249350faa405ddef3e609fd2b385fdd3d207df62f6c46\",",
+          "count": 1
+        },
+        {
+          "before": "    \"metric\": \"R464-current-C-incremental-M-relative-metric-live-queries-v1\",",
+          "after": "    \"metric\": \"R487-current-C-incremental-M-coast-Bernstein-live-metric-v1\",",
+          "count": 1
+        },
+        {
+          "before": "FIRST_PARAMETER_RUNNER=\"geometry_20261116_actual202_ten450_parameter_block_postsolve.py\"",
+          "after": "FIRST_PARAMETER_RUNNER=\"geometry_20261116_actual202_coast_ten450_parameter_block_postsolve.py\"",
+          "count": 1
+        },
+        {
+          "before": "FIRST_PARAMETER_RUNNER_SHA=\"89a90b2d5d762510c228c5d3a4f6fe27a573c890b760268aecace2a44ab9e010\"",
+          "after": "FIRST_PARAMETER_RUNNER_SHA=\"5660378eed3f8c308c5765370e6521beefb46e7620e9e10240796fb203a35e74\"",
+          "count": 1
+        },
+        {
+          "before": "FIRST_PARAMETER_SCHEMA=\"R452-actual202-accurate-ten450-first-parameter-block-postsolve-v1\"",
+          "after": "FIRST_PARAMETER_SCHEMA=\"R487-actual202-coast-ten450-first-parameter-block-postsolve-v1\"",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "union_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_incremental_M_postsolve_necessary.py",
+        "bytes": 27287,
+        "sha256": "5d7bc6bfc7b057458a4b998f55d4bdd5592fb11d1cd10d50a76d33a350d39313"
+      },
+      "output": {
+        "file": "root_20261116_current_C_incremental_M_coast_postsolve_necessary.py",
+        "schema": "R487-current-C-incremental-M-coast-postsolve-necessary-v1",
+        "frame": "R487_INCREMENTAL_M_COAST_POSTSOLVE_NECESSARY",
+        "bytes": 27491,
+        "sha256": "6d2026f288edbb504f20a49edf58d41e9342e9dd5ba35c854f329a9353f6fb15"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R464-current-C-incremental-M-postsolve-necessary-readback-v1\"",
+          "after": "SCHEMA = \"R487-current-C-incremental-M-coast-postsolve-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SCHEMA = 'R464-current-C-incremental-M-live-query-block-geometry-v1'",
+          "after": "PROCEDURE_SCHEMA = 'R487-current-C-incremental-M-coast-block-geometry-v1'",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_NAME = \"geometry_20261116_current_C_incremental_M_postsolve_geometry.py\"",
+          "after": "PROCEDURE_NAME = \"geometry_20261116_current_C_incremental_M_coast_postsolve_geometry.py\"",
+          "count": 1
+        },
+        {
+          "before": "PROCEDURE_SHA = \"480ed1ebc76e00bef781c309946773a5e03b3cea6fa9f000c81c462849c72563\"",
+          "after": "PROCEDURE_SHA = \"419638c896ef6e14bc8b6faf937224545ed52fa48e42974cbca7dabe09c9d135\"",
+          "count": 1
+        },
+        {
+          "before": "    \"metric\": \"R464-current-C-incremental-M-relative-metric-live-queries-v1\",",
+          "after": "    \"metric\": \"R487-current-C-incremental-M-coast-Bernstein-live-metric-v1\",",
+          "count": 1
+        },
+        {
+          "before": "          \"counts\", \"members\", \"same_actual_C_target\", \"scope\", \"timer_scope\")",
+          "after": "          \"counts\", \"members\", \"same_actual_C_target\", \"scope\", \"timer_scope\", \"actual_prefix_range_work\")",
+          "count": 1
+        },
+        {
+          "before": "R464_INCREMENTAL_M_POSTSOLVE_NECESSARY",
+          "after": "R487_INCREMENTAL_M_COAST_POSTSOLVE_NECESSARY",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "union_held",
+      "baseline": {
+        "file": "geometry_20261116_current_C_incremental_M_postsolve_held.py",
+        "bytes": 44030,
+        "sha256": "07876025cad4b3548eb4593431f609db95a4c288b6d0a37dcfeeec24fb986951"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_incremental_M_coast_postsolve_held.py",
+        "schema": "R487-current-C-incremental-M-coast-held-v1",
+        "frame": "R487_INCREMENTAL_M_COAST_HELD_NECESSARY",
+        "bytes": 44204,
+        "sha256": "c99c7f58a451c12d229ef79ca02fdb610b61c6e81cb30361f50e5c6d55691466"
+      },
+      "replacements": [
+        {
+          "before": "from __future__ import annotations\n",
+          "after": "from __future__ import annotations\n\n# R487 independent source view: same solved field, first construction and gates.\n# Only coast-range implementation bindings and their exact source identities differ.\n",
+          "count": 1
+        },
+        {
+          "before": "SCHEMA = \"R464-current-C-incremental-M-held-after-shared-v1\"",
+          "after": "SCHEMA = \"R487-current-C-incremental-M-coast-held-v1\"",
+          "count": 1
+        },
+        {
+          "before": "SUPPORTED_POSTSOLVE = {\n    'geometry_20261116_current_C_incremental_M_postsolve_geometry.py': dict(\n        sha256='480ed1ebc76e00bef781c309946773a5e03b3cea6fa9f000c81c462849c72563',\n        schema='R464-current-C-incremental-M-live-query-block-geometry-v1', input_schema='R464-current-C-incremental-M-live-query-block-geometry-v1-input-v1'),\n}\n",
+          "after": "SUPPORTED_POSTSOLVE = {\n    \"geometry_20261116_current_C_incremental_M_coast_postsolve_geometry.py\": dict(\n        sha256=\"419638c896ef6e14bc8b6faf937224545ed52fa48e42974cbca7dabe09c9d135\",\n        schema=\"R487-current-C-incremental-M-coast-block-geometry-v1\", input_schema=\"R487-current-C-incremental-M-coast-block-geometry-v1-input-v1\"),\n}\n",
+          "count": 1
+        },
+        {
+          "before": "POSTSOLVE = \"geometry_20261116_current_C_incremental_M_postsolve_geometry.py\"",
+          "after": "POSTSOLVE = \"geometry_20261116_current_C_incremental_M_coast_postsolve_geometry.py\"",
+          "count": 1
+        },
+        {
+          "before": "R464_INCREMENTAL_M_HELD_NECESSARY",
+          "after": "R487_INCREMENTAL_M_COAST_HELD_NECESSARY",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}
