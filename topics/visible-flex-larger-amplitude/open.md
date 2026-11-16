@@ -21,7 +21,9 @@
 | 231/[R549](results/R549-actual231-declared-model-contract-and-source-readback-overflow.md) | 旧键在owner前止；387源准备完整，source必要102413超90K只返1368/70，science45129完整；quiet但removed=false，无父。 |
 | 230/[R546](results/R546-actual230-source-materialization-stop-and-complete-returned-scope.md) | index6/R544来源非零，535仅合同、内部子异常未返；12缺dispatch/3缺reader/全科学后缀未起。cleanup缺入口exit2且实现未执行，非已观察skip/全quiet删除，无父。 |
 
-活动224/R525、227/R539、232/R552、236/R563归amplitude；226/R537归root；228/R541归exact；233/R555归geometry。实际run/head/job和完整官方单POST绑定见HANDOFF及notes。running只看metadata，每终态job指定读者唯一一次；owner/phase/code0不替最终科学门，不混各run的H/J/父或未返正文。
+活动224/R525、227/R539、232/R552、236/R563归amplitude；226/R537归root；233/R555归geometry。228/R541已终态，exact唯一完整读取。实际run/head/job和完整官方单POST绑定见HANDOFF及notes。running只看metadata，每终态job指定读者唯一一次；owner/phase/code0不替最终科学门，不混各run的H/J/父或未返正文。
+
+**[R541实际228](results/R541-actual228-eight-complete39-pairs-and-one-necessary-summary.md)本次完整刊**：八模型及八新warm FD、24trial全部实际返，单whole87376/46fff9e3低于原90K完整；8warm接受、9中点域拒/7全RMS域拒、59选定失败/16中点/8RMS全部地址及末参数保。原8batch上限停止，success/new_coupled_acceptance=false，native/fullDN未调用。末物理max .007104815144455722仍interval461/radial cos2；末批同权merit43.114660350451786→43.103765694009034，跨批权不同不相减。八FD原5e−5门true，QP原大stationarity/负raw下界不删除。真quiet且原raw清理，非完整科学父；一次原necessary误存detached对象在正文如实记，未来不再保存可重算raw。
 
 ### 1.2 当前原算术与真实入口
 
