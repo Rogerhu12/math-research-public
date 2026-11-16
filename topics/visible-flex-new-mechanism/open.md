@@ -132,3 +132,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 3. **原 O2。** 真新54模型已按[notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)接受55，完整paid模型/原值/费用见前部；下一九个完整body新列与其实际非线性门推进，不能把η.26或κ58当README门。54已付MODEL不冒55 J，参数变化另有完整身份和必要成本。
 
 当前公开/私有实际pull与README已读commit在HANDOFF；每个结论立即推送，NFF实际rebase后续推，所有新研究只在本公开Actions。主完成门没有支付，继续上述工作。
+
+### 2026-11-16 09:00:19 UTC — R493 真三曲率原子五参数与有限光滑恢复
+
+[R493](results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md)固定a1<a2<1、b1<b2<1、C>0；以ξ=√v写三段p=ξ³/r=aξ/U=C_i+3ξ⁵/(5a)，全部12L/8Aj由≤21次有限幂差直接给，原五G含完整端势，5×5解析J保移动端点/实际H敏感度。严格内正则真零若存在，则三峰正ρ/远尾C/两矩纠正参数C¹趋近，一次有限IFT给有限尺度的真C∞、平左端/末simple-A、全五门零cap。未找到零、未调用科学。新预定36起点/5logistic-exp坐标、120秒含全部工作/5000值J、105秒搜索保首候选有向验证；不读回/重开旧15ρ族账户。任何浮点候选只在同原G的有理盒收缩(19)支付后称真零，随后还欠同母库安装/共同成本/完整路径及主几何。新源码正在写，公开首执行由root统一触发。
