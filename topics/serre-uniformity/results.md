@@ -138,3 +138,5 @@
 - **原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想，128/634 RR与三共轭尚待真正执行。
 
 - **原41四响应/单Z真实消费契约已定**：[41C](notes/2026-11-16-original-41-single-Z-consumer-source-contract.md)569aa684绑定同一2420 solve、原四响应/17域常量/529→733不变。直接L41十四坐标球，须实际41逆范数界＋完整残差后才认精度；[42]/ψ₂=−2y/6n−1分母全尾给一个Z，其七共轭等距运输。ZA268fa3f的五C/D及7tr已正式pin，非41/Y/ℓ不删；R854实际求解核心在写，无新41数值。
+
+- **R854原41全行饱和算法已证**：[方法](notes/R854-original-41-cleared-row-saturation-and-four-responses.md)ab970169：同2420未知/free1186，读原R/K/F/Z构造2560×2420完整cleared算子，正rhs=−C_free；各m块乘246³κ^(m+1)真实可逆，不挪用同号选行。DVR依赖行消去后除B使全minor理想严格下降；实际单位行＋逐行T下界给左逆范数，整化尺度须减回。只F41²求逆、单rhs π-Dixon、原全129×20×14残差后才认四响应。core在写，未运行41新算术。

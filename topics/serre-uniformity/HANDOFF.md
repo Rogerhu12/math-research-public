@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：063c8643c68fe6a8b2fe0b7ef3f65cba666dd047**（2026-11-16T03:50:54.538205+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[有限RR前完整H](handoff-archive-2026-11-16-before-finite-RR-source.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：61744a5861019c304b1842c5fff921ecacb5acd7**（2026-11-16T03:57:22.930949+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[41行饱和前完整H](handoff-archive-2026-11-16-before-41-row-saturation.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -33,13 +33,9 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 ## 真正全p缺口与已闭边界
 
-完整前态、全部source与否定边界逐字保上方归档，open.md保未闭项，不因压缩重开旧路线。R317仍余p2/5mod9完整非分裂正规化子、a³+db³1且p|b；D/bc无上界。R707固定41全部129盘/八CM已闭，不外推全p。R575实际正CM根号负，逆twist秩零撤回；R616/726非挠/log/rank及R832统一有限接触阶均不代原高度/全尾共同根。
+全部旧来源和关闭边界逐字在上方完整归档，继续生效，不重开旧路线。R317余p2/5mod9完整非分裂正规化子、a³+db³1/p|b而D/bc无界；R707固定41/129盘八CM已闭。R575正CM根号负，逆twist秩零撤回。R616/726非挠/log/rank、R832有限接触阶均不代原height/全尾共同根。
 
-UE审计9a54e844保Ui=c(aiVi−AiLi)、原Picard与ℓ的共同二类项整函数相消，指定degree dY+2 period多项式仍未知。End⁰G=F、任何非零torus商维≥g+1；线性AST、η−、E0^g/代数幂等元/ordinary泛型wild不填原高度。μ3只给qφ*=0，不能删Y。
-
-原sigma须同一primitive/Legendre可见h三个单位。R739/R741/R737不同标签不拼；R808/810、unitary交叉heat、原八源/R830真p导子及R831/833/834已闭。CR指定P0的S=αRp/1458、same-h仍缺；HC/CN全局Carβ非零不代指定值。原C^-5、Wronskian1−κU^pJ、Fermat/Ωη保。两个三分交换本原标签[窗口](notes/2026-11-16-sigma-two-swapped-primitive-labels-at-thirds.md)543d03f8给两Legendre不全零，仅反射Legendre不反射f/g。Toeplitz旧41零子式不排指定minor。
-
-ordinary原43/776bitq已Gaussian5排非反例；Shapiro337a/θ7388同Σ、唯一Kglob/Θ=i aq及C4/T²杯积只复R779，真实Θ未得，不巨大q枚举。R729/816/818/819/821/823共同c1不分歧不代height。
+UE9a54e844二类项全函数相消但原degree dY+2 period未知；End⁰G=F与非零torus商维≥g+1、μ3的qφ*=0均不删Y或给高度非零。原sigma须同primitive/Legendre可见h三单位；R739/R741/R737异标签不可拼，CR/HC/CN全局非零不代P0，同标签f仍缺。旧双标签Legendre窗口543d03f8不移到R851新h。R808/810/unitary交叉heat/R830真p导子等已闭。ordinary43/776bitq已Gaussian5排，Shapiro/θ同Σ及C4/T²杯积只复R779；共同c1不分歧不代height。全部具体旧pins见完整归档。
 
 **同标签三次CM companion**：[四同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b保原χ6/θ、导子6p/level108p²、完整Gauss6p及周期p尺度；ψ+=C_(2p^e)秩1、ψ−=C_(4p^e)秩0。坏p functional及同标签f/Legendre仍需实证。
 
@@ -54,3 +50,5 @@ ordinary原43/776bitq已Gaussian5排非反例；Shapiro337a/θ7388同Σ、唯一
 **原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想，128/634 RR与三共轭尚待真正执行。
 
 **原41四响应/单Z真实消费契约已定**：[41C](notes/2026-11-16-original-41-single-Z-consumer-source-contract.md)569aa684绑定同一2420 solve、原四响应/17域常量/529→733不变。直接L41十四坐标球，须实际41逆范数界＋完整残差后才认精度；[42]/ψ₂=−2y/6n−1分母全尾给一个Z，其七共轭等距运输。ZA268fa3f的五C/D及7tr已正式pin，非41/Y/ℓ不删；R854实际求解核心在写，无新41数值。
+
+**R854原41全行饱和算法已证**：[方法](notes/R854-original-41-cleared-row-saturation-and-four-responses.md)ab970169：同2420未知/free1186，读原R/K/F/Z构造2560×2420完整cleared算子，正rhs=−C_free；各m块乘246³κ^(m+1)真实可逆，不挪用同号选行。DVR依赖行消去后除B使全minor理想严格下降；实际单位行＋逐行T下界给左逆范数，整化尺度须减回。只F41²求逆、单rhs π-Dixon、原全129×20×14残差后才认四响应。core在写，未运行41新算术。
