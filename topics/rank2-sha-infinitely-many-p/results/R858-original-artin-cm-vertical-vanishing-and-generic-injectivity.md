@@ -527,3 +527,108 @@ canonical correspondence。主中央同时零的排除、指定 AJ 对无穷 $p$
    不新假设实现忠实性。
 
 本篇没有新增数值扫描、计算证书或自由非零假设。
+
+## 附录 A. 同一 local3 消失的独立 toric 判据
+
+本附录只核对第4节已经证明的满三级 CM trace 消失，
+不把局部 Hom 为零代替该节的 Chow 证明，也不增加原中央零。
+
+满三级 Scholl 因子的归一 cusp form 是
+$$
+g_9(z)=\eta_{\rm Dedekind}(3z)^8
+=\theta(\psi_0^3),
+\tag{A1}
+$$
+其中 $\psi_0$ 是原 $E_0:Y^2=X^3+1$ 的 Hecke 角色。
+这里 $\psi_0^3$ 的2部分消去，3处导子为 $(\delta)$，
+所以其 theta form 的 level 为9、weight 为4、中心角色平凡。
+这个身份也可由 level9 的一维 cusp 空间和首系数1确定；
+它只固定本附录的局部表示，不重选(31)的几何三微分。
+
+令 $F=\mathbf Q_3$、$K_3=F(\delta)$，并令
+$\epsilon_{K_3/F}$ 为对应的二次角色。它是3处导子1的分歧角色，且
+$$
+\epsilon_{K_3/F}(-1)=-1.
+$$
+把 $(\psi_0^3)_3$ unitary 化，记为 $\kappa$。
+原 CM 极化和中心角色给
+$$
+\kappa^c=\kappa^{-1},\qquad
+\kappa|_{F^\times}=\epsilon_{K_3/F},\qquad
+\kappa(-1)=-1.
+\tag{A2}
+$$
+故原 $\pi_3$ 的 base change 是 $\kappa\oplus\kappa^{-1}$。
+
+对于本文任一原 $\chi=\eta_j^{\pm1}$，既有完整局部角色给
+$$
+\chi\text{ 在3处不分歧},\qquad
+\chi(\delta)=-1,\qquad
+\chi^2=1,\qquad
+\chi|_{F^\times}=1.
+\tag{A3}
+$$
+特别 $3=-\delta^2$ 使 $\chi(3)=1$。这里保留了 uniformizer 的
+负号；“不分歧”不等于把整个局部角色设成1。
+原 order34 的唯一3素理想平方为 $(3)$ 且非 principal：
+若 $a+34b\omega$ 的范数为3，则 $b\ne0$ 时范数至少867，而
+$b=0$ 时需 $a^2=3$。故它在 $C_{18}$ 中是唯一二阶元；
+三个原指数13、1、7均奇，确给 $\chi(\delta)=-1$。
+
+设 $\psi_F$ 为任一非平凡加性角色，
+$\psi_{K_3}=\psi_F\circ\operatorname{Tr}_{K_3/F}$。
+Tate 的对偶 epsilon 恒等式准确为
+$$
+\epsilon\!\left(\tfrac12,\theta,\psi_{K_3}\right)
+\epsilon\!\left(\tfrac12,\theta^{-1},\psi_{K_3}\right)
+=\theta(-1).
+$$
+由(A2)–(A3)，两个 base-change 因子互为逆，
+于是
+$$
+\epsilon_{\rm BC}
+:=
+\epsilon\!\left(\tfrac12,
+ \pi_{3,K_3}\otimes\chi,\psi_{K_3}\right)
+=(\kappa\chi)(-1)=-1.
+\tag{A4}
+$$
+
+必须区分这个 base-change epsilon 与 Rankin–Selberg epsilon。
+Cai–Shu–Tian，*Explicit Gross–Zagier and Waldspurger formulae*，
+Algebra & Number Theory 8 (2014)，印页2554–2555，
+§3 的实际定义及 Tunnell–Saito 判据为
+$$
+\begin{aligned}
+\epsilon_{\rm RS}
+ &=\epsilon_{K_3/F}(-1)\epsilon_{\rm BC},\\
+\dim\operatorname{Hom}_{K_3^\times}
+       (\pi_3^B,\chi^{-1})=1
+&\iff
+\epsilon_{\rm RS}
+ =\chi(-1)\epsilon_{K_3/F}(-1)\epsilon(B).
+\end{aligned}
+\tag{A5}
+$$
+$\epsilon(B)=1$ 对 split quaternion，等于 $-1$ 对 division quaternion；
+$\pi_3^B$ 表示在相应 quaternion 上的 Jacquet–Langlands 表示。
+原文链接：
+<https://msp.org/ant/2014/8-10/ant-v8-n10-p.pdf>，
+印页2555的 §3A 开头。所引用的是这一明确规范，不能只保判据右边
+而漏掉第一行的二次角色因子。
+
+代入(A3)–(A4)，$\epsilon_{\rm RS}=+1$，而(A5)右边为
+$-\epsilon(B)$。故所需局部 quaternion 必须为 division：
+$$
+\boxed{
+\operatorname{Hom}_{K_3^\times}
+(\pi_3,\chi^{-1})=0
+\quad\text{对原 split }GL_2(\mathbf Q_3)\text{ 表示}.
+}
+\tag{A6}
+$$
+这与第4节的原全层 Chow 计算相合：原不分歧 $\chi$ 不允许把
+满三级 CM divisor 的 relative $C_3$ trace 当成一个非零 toric
+来源。该局部计算本身不构造 division Shimura 来源，也不提供
+它与 $\mathcal Z_{\rm orig}$ 或 R854 的 $H_j$ 之间的循环对应。
+它尤其不改变第9节关于7993检测对象的区别。
