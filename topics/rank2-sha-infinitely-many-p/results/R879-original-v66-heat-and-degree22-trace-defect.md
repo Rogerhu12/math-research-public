@@ -229,3 +229,215 @@ $$
 [R877 同一范数三 trace 与原 V](R877-original-norm-three-common-source-and-h22-partner.md)；
 [R876 原 H22 四维完整算子](R876-original-h22-complete-cm-source.md)；
 [R816 原 V66 全来源](R816-original-minus-eleven-rank-two-schwartz-and-degree66-source.md)。
+
+
+## 附录 A. 原 H22 的实际 CM 词返回与指定 D5 的 Fermat 缺陷
+
+本附录继续使用同一个原 $V$、(3)的热伴随和(15)的全迹。
+记
+$$
+G_{22}:=\mathrm T_{\delta,22}V^{[1]},\qquad
+H_{22}=\sigma^{22}X(65X^2-380bX+464b^2).
+\tag{A1}
+$$
+以下恒等式没有新增数学执行；有限算子的全部原数据来自
+[R876 的实际公开运行](R876-original-h22-complete-cm-source.md)，
+其余是对这些特征零算子及 R856 原整行的手工代数运算。
+
+### A.1 同一四维来源上的固定 CM 词
+
+固定 R876(3)–(4) 的完整标准 theta 算子
+$$
+A=\mathcal N_{3+\omega},\qquad B=\mathcal N_{4+\omega},
+\qquad
+\mathsf U=2A+B,\quad \mathsf V=B/\delta,\quad
+\mathsf J=\mathsf U\mathsf V.
+\tag{A2}
+$$
+这里仍有全部纤维、sigma 比和 $1/\gamma$；
+$\mathsf U,\mathsf V$ 不是重新归一的特征值。
+由 R876 的全空间身份 $B=-A^3$、$A^4-A^2+I=0$，准确有
+$$
+\mathsf U^2=3I,\quad \mathsf V^2=I/3,\quad
+\mathsf J=(I-2A^2)/\delta,\quad \mathsf J^2=I.
+\tag{A3}
+$$
+
+在(16)的同一基 $b^{3-j}\sigma^{22}X^j$ 中，令
+$g=(-32,-56,119,-19)^{\mathsf t}/21$。
+将 R876 的完整两个矩阵作用于此实际向量，得到
+$$
+\mathsf Ug=\frac1{21}(-176,-24,48,-23)^{\mathsf t},
+$$
+$$
+\mathsf Vg=\frac1{189}(112,984,1200,85)^{\mathsf t},\qquad
+\mathsf Jg=\frac1{189}(96,2664,1071,-39)^{\mathsf t}.
+\tag{A4}
+$$
+这些是原公开完整算子的四个有理向量相乘；不是辅助模素数的计算。
+例如将四列统一乘以 $189$，其准确列矩阵为
+$$
+\begin{pmatrix}
+-288&-1584&112&96\\
+-504&-216&984&2664\\
+1071&432&1200&1071\\
+-171&-207&85&-39
+\end{pmatrix}.
+$$
+与列向量 $(-983808,191849,54621,150360)^{\mathsf t}$ 相乘，
+逐坐标准确等于
+$189\cdot10362(0,464,-380,65)^{\mathsf t}$。
+故得到指定来源的恒等式
+$$
+\boxed{
+10362H_{22}
+=\bigl(-983808I+191849\mathsf U+
+54621\mathsf V+150360\mathsf J\bigr)G_{22}.
+}
+\tag{A5}
+$$
+新分母 $10362=6\cdot11\cdot157$ 在原 $p>211$ 范围全为单位。
+原 $b$ 的尺度由 R876(13)统一运输，因而(A5)对原单位 $b$
+完整成立，不限于 $b=1$。
+
+这已经将 R863(A20)–(A22) 的指定 $H_{22}$ 返回为
+**原 $V$ 的第一次热连接、原三点 trace、固定 CM 词**。
+特别可把(A5)逐项代入 R863 的两个完整低卷积；
+但必须把每个 CM 词放在实际输入中，不能未经证明移到读者另一侧，
+也不能只代第一配对而删掉 $q_F C_0$ 的第二配对。
+
+### A.2 原 CM 纤维的准确拉回除 p 公式
+
+固定 R856(39)的特征零原提升 $H_p$ 和 $C_p=L_2H_p$。
+在原 $p=6s-1$ 的 CM 纤维，
+$$
+H_p=0,\qquad
+\widehat c_p:=C_p(0,-4b)
+=(p+1)\binom{3s-1}{2s-1}b^s.
+\tag{A6}
+$$
+$\widehat c_p$ 的模 $p$ 值为既有 $c_p$。
+以下除法先在特征零中进行，不能将 $\widehat c_p$
+提前换成任意同余提升。
+
+对任一原 whole degree $m$ 截面 $F$，写
+$[\delta]^*F(z)=F(\delta z)$，其 degree 为 $3m$。
+由于 $j_r([\delta]^*F)=\delta^rj_r(F)$，
+直接代入同一指定整行，得
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{3m,p,k}([\delta]^*F)
+={}&\delta^{p+k}\mathcal D_{m,p,k}(F)\\
+&+mk\,\widehat c_p\,\delta^{k-1}
+ \epsilon_{\delta,p}\,j_{k-1}(F),
+\end{aligned}
+\qquad
+\epsilon_{\delta,p}:=\frac{\delta^{p+1}-3}{p}.
+}
+\tag{A7}
+$$
+这是 CM 纤维上的特征零等式。
+其中 $k=0$ 的第二项按零解释；$k\ge1$ 按显示式。
+除 $p$ 的整性来自 $\delta^p\equiv-\delta\pmod p$，
+而不是删去这项。
+
+为保绝对符号，令
+$t_p=\delta^{p+1}/3=-(-3)^{(p-1)/2}$。
+它是有理整数，$t_p\equiv1\pmod p$，且
+$t_p^2=3^{p-1}$。因此在
+$q_p(3)=(3^{p-1}-1)/p$ 的原规范下，
+$$
+\boxed{\epsilon_{\delta,p}\equiv\frac32q_p(3)\pmod p.}
+\tag{A8}
+$$
+当 $k=1$ 且原 $F$ 的质量准确为零时，(A7)的第二项才消失；
+它不能在下述 $k=5$ 行中消失。
+
+### A.3 同一 V 热源的 old／new 分解与真实 D5 行
+
+按 R877 的 canonical deck 投影，定义
+$$
+V^{[1]}_{\mathrm{new}}
+=V^{[1]}-\frac13[\delta]^*G_{22}.
+\tag{A9}
+$$
+由于 $\mathrm T_{\delta,22}[\delta]^*=3I$，
+这是原 whole degree66 中的准确截面，并满足
+$\mathrm T_{\delta,22}V^{[1]}_{\mathrm{new}}=0$。
+这项的来源不是新的任意输入，但其 trace 为零也不是中央条件。
+
+对(A9)使用(A7)，先保完整整式：
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{66,p,k}(V^{[1]})
+={}&\mathcal D_{66,p,k}(V^{[1]}_{\mathrm{new}})
++\frac{\delta^{p+k}}3\mathcal D_{22,p,k}(G_{22})\\
+&+\frac{22k\,\widehat c_p\,\delta^{k-1}}3
+  \epsilon_{\delta,p}\,j_{k-1}(G_{22}).
+\end{aligned}
+}
+\tag{A10}
+$$
+两来源的型均为四；原第一相容余行是 $k=5$。
+由(15)，准确有
+$$
+j_4(G_{22})=-\frac{152}{7},\qquad
+\delta^{p+5}/3\equiv9\pmod p,\quad \delta^4=9.
+$$
+所以(A10)给出
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{66,p,5}(V^{[1]})
+\equiv{}&
+\mathcal D_{66,p,5}(V^{[1]}_{\mathrm{new}})
++9\mathcal D_{22,p,5}(G_{22})\\
+&-\frac{75240}{7}c_pq_p(3)\pmod p.
+\end{aligned}
+}
+\tag{A11}
+$$
+若暂不代入(A8)，末项准确为
+$-50160\,c_p\epsilon_{\delta,p}/7$。
+这里的 $q_p(3)$ 来自原倍点与原 degree 的不同比例，
+不是额外选取的参考 Gaussian。
+
+### A.4 与原 V 全参数读者的同源接合
+
+对 R856(41)取 $m=66,k=5$，再在原 $R_V$ 上求值。
+完整对偶热连接满足
+$$
+(\nabla\ell)(R_V)=L_2\bigl(\ell(R_V)\bigr)
+-\ell(\mathcal H_{66}R_V).
+$$
+原 $j_2(R_V)=j_4(R_V)=0$ 在特征零参数环内恒等成立；
+其余显示 $g_2$ 项在最后 CM 特化时为零。
+因此得到精确等式
+$$
+\boxed{
+\mathcal D_{66,p,5}(V^{[1]})
+=
+\left.L_2\bigl(\mathcal D_{66,p,5}(R_V)\bigr)\right|_{\rm CM}
+-\frac1{132}
+ \left.\mathcal D_{66,p,7}(R_V)\right|_{\rm CM}.
+}
+\tag{A12}
+$$
+这里的 $L_2$ 作用于原完整双变量参数多项式；
+不能先取 CM 值再对其零值求导。
+尤其型别虽使 $\mathcal D_{66,p,5}(R_V)|_{\rm CM}=0$，
+并不使(A12)中的参数导数为零。
+$\mathcal D_{66,p,7}$ 也仍使用原
+$7\cdot66\,\widehat c_pj_6(R_V)$ 的完整减项。
+
+将(A12)代入(A11)，便把原 $V$ 的两条指定高行、
+其真实 trace 零热余项、实际 degree22 伙伴和明确 Fermat 项
+放入同一个等式。原 $\mathfrak B(V)=\mathcal D_{66,p,1}(R_V)=0$
+没有单独使这些项中的任何一项为零。
+同样，(A5)允许返回 R863 的整个指定低配对，
+并没有把该低配对等同于 $\mathcal D_{22,p,5}$。
+下一步仍须处理两种实际读者的完整连接与(A11)中的余项；
+本附录没有由有限来源循环性、非零向量或 Fermat 商系数的单位性
+推出四个原 $\mathfrak B$ 不能同时为零。

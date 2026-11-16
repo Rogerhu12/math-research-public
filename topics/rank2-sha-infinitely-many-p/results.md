@@ -101,3 +101,6 @@
 
 
 - [R881](results/R881-original-good-prime-direct-coordinate-reconstruction.md)：两原char0证书成功后，可在同好r直接恢复其真实约化，无需重放有理CRT。E3=−DQlogT3给实际degree204除子D_S，Mw/S^(w/2)=L((w/2)D_S)完整；g/F原递推仅损Σv_r(3n+1)/Σv_r(6n+1)，r29在N1226/1428至多45/52，64位足够。原完整低核由除子次数严格唯一，不冒charp微分注入；helper已写，原求交尚未执行。
+
+
+- [R879附录A](results/R879-original-v66-heat-and-degree22-trace-defect.md)：同实际四维CM词给10362H22=(−983808+191849U+54621V+150360UV)G22。原δ拉回的指定D行完整保ε=(δ^(p+1)−3)/p；同V热源D5=new+9D22,5(G22)−75240c_p q_p(3)/7，并接全参数L2D66,5(V)−D66,7(V)/132。trace零余项和原两个配对均保，不赋任何新增中央零。
