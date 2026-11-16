@@ -270,3 +270,6 @@
 
 
 - [R883附录G](../results/R883-original-relative-six-shadow-and-complete-boundary.md)：E(F_r²)=E[6ell]使底域约化Tate限制完美；以实际gT平移比定义方向并证t_d(T,P)=t_1(T,Tr_dP)，所有d含ell倍数均保。每条原完整除子的[6]迹可由同基两配对的完整(r^(2d)−1)/ell指数与固定2×2矩阵恢复；另一基U/2U覆盖全部Miller支持和P=−R边界，使用原常数嵌入。不以扩域限制非退化或d模ell替代全迹，尚未切换实际consumer。
+
+
+- [R884附录B](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：同A=SΘ的全δ old/new与固定两degree36伙伴满足L36−J36=252A，故3VΘ³−2T=A(D36+1008bN36)。原VT两中央行准确减为同N36的Q1=Q(N36,J36)、Q2=Q(N36,A)，完整1/[r(r−1)]严格低配对及三个质量一cross全保；全三点迹证明其old项与原S同源。Q2已回同S自配对而未获零，U二挠/未加权H22/参考与原三中央仍须联立。

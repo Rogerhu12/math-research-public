@@ -744,3 +744,248 @@ $\mathcal C(d\log v)=d\log v$ 不会把(A21)的非 $p$ 次幂乘子消掉。
 (A23)也明确：原两中央并不让这个新的加权 Cartier 输出为零。
 若要由它排除四中央共同零，仍须对这里的实际完整乘子或
 (A18)的两个 cross 证明额外关系，不能只依固定对数目标的一维性。
+
+
+## 附录 B. 同 degree36 的实际 new 因子与两原差的减项
+
+本附录继续附 A 的同一个原 $S,T,V$。其新增来源内容是：
+两条不同 degree22 伙伴在完整原乘法中有一个确定的差，
+准确回到 $S\Theta$；这把带权差减少成一个固定伙伴配对和
+一个同 $S$ 的自配对。全部质量一 cross 仍保留。
+它不把自配对设为零，也不替换正文(30)的未加权 $\mathcal L_p$。
+
+### B.1. 原 STheta 的完整范数三分解
+
+记
+$$
+A=S\Theta,\qquad
+A_{12}=\sigma^{12}(X+b),\qquad
+B_{12}=\Theta^3F_6=\sigma^{12}X(X-8b),\qquad
+D_{36}=[\delta]^*B_{12}.
+\tag{B1}
+$$
+$A$ 的 degree 为 $36$、首项为 $z^6$；
+$A_{12}$ 首阶六；$B_{12}$ 与 $D_{36}$ 的质量为一。
+由原
+$$
+J_S\Theta=-\sigma^{12}xy(X-8b)
+=\frac{\sigma(2\delta z)}{2\delta}
+=\frac1\delta[\delta]^*\frac{\sigma(2z)}2
+$$
+和 R877 的完整式
+$\mathrm T_{\delta,8}C_{24}=-\sigma^8y/(7\delta)$，
+使用同一个三点迹的投影公式，得到
+$$
+\boxed{\mathrm T_{\delta,12}A=-\frac1{21}A_{12}.}
+\tag{B2}
+$$
+这里保 $\sigma(2z)/2=-y\sigma^4$ 以及 $\delta^2=-3$，
+故显示的负号也已固定。
+
+定义同一原来源的真实投影
+$$
+A^{\rm old}=\Pi_\delta^{(36)}A
+=-\frac1{63}[\delta]^*A_{12},\qquad
+N_{36}=A-A^{\rm old}.
+$$
+准确的多项式为
+$$
+\boxed{
+A^{\rm old}=\frac37\sigma^{36}X^2(X+b)(X-8b)^2,\qquad
+N_{36}=\frac47\sigma^{36}X(X+b)^2(X-8b)(X+4b).
+}
+\tag{B3}
+$$
+证明只需用原
+$$
+[\delta]^*A_{12}=-27\sigma^{36}X^2(X+b)(X-8b)^2
+$$
+以及
+$$
+Q_7=3X(X-8b)+4(X+b)(X+4b).
+\tag{B4}
+$$
+所以 $\mathrm T_{\delta,12}N_{36}=0$ 是原完整投影的身份。
+还有准确的既有伙伴表达
+$$
+N_{36}=C_{24}^{\rm new}\,\frac{\sigma(2\delta z)}{2\delta},
+\qquad
+C_{24}^{\rm new}=-\frac47\sigma^{24}x^2y(X+b)(X+4b).
+\tag{B5}
+$$
+这里没有把 $C_{24}$ 的两个投影部分分别赋中央零。
+
+### B.2. 两个 degree36 伙伴及其同源差
+
+沿用附 A 的 $P_+,P_3=37X^3-24bX^2-240b^2X+64b^3$，定义
+$$
+J_{36}=\sigma^{36}Q_7P_+,\qquad
+L_{36}=\sigma^{36}Q_7P_3 .
+\tag{B6}
+$$
+二者均为原 whole degree36 型零来源，首阶至少六；
+$J_{36}$ 首系数为七，$L_{36}$ 首系数为 $259$。
+原 sigma 除法式逐项给
+$$
+[\delta]^*\Theta=\sigma^6(X+4b),\qquad
+[\delta]^*F_6=\sigma^{18}P_+,
+$$
+因此
+$$
+\boxed{D_{36}=\sigma^{36}(X+4b)^3P_+.}
+\tag{B7}
+$$
+
+现在在同一个 degree72 格中，有两个完整身份
+$$
+\boxed{
+V\Theta^3=A D_{36}-4bN_{36}J_{36},\qquad
+V\Theta^3-T=2bN_{36}L_{36}.
+}
+\tag{B8}
+$$
+第一式将(A2)、(B3)、(B7)代入后只剩
+$(X+4b)^2-X(X-8b)=16b(X+b)$。
+第二式即(A6)乘 $\Theta^2$，全部系数仍是原系数。
+
+两个右伙伴不是独立的四谱输入。直接相减原三次多项式：
+$$
+P_3-P_+=36X(X+b)(X-8b),
+$$
+故
+$$
+\boxed{
+L_{36}-J_{36}=252A.
+}
+\tag{B9}
+$$
+这是固定来源身份，不是对环境空间作维数计数。
+在(B8)中消掉同一个 $N_{36}J_{36}$ 后得到
+$$
+\boxed{
+3V\Theta^3-2T=A(D_{36}+1008bN_{36}).
+}
+\tag{B10}
+$$
+因而其中一个实际配对确回到了原 $A=S\Theta$ 自身。
+
+### B.3. 全三点迹中的同一 old 项
+
+为明确(B8)没有只保边际，以下给出其相关完整迹。
+R877 原 $C_{30}$ 满足 $V=C_{30}[\delta]^*B_*$，其中
+$$
+B_*=\frac{\delta}{3}\sigma^{12}xy(X-8b).
+$$
+在正文(6)的三个根上，
+$$
+\operatorname{Tr}x^{-1}=0,\quad
+\operatorname{Tr}x^{-4}=\frac{9a^2}{8b^2},\quad
+\operatorname{Tr}x^{-7}=-\frac{63a^2}{64b^3}.
+$$
+而 $C_{30}\sigma^6$ 除以 $\sigma(\delta z)^{12}$ 后的完整商是
+$$
+\frac{3\delta^{-11}c}{7}
+(7x^{-1}-4b x^{-4}+16b^2x^{-7}).
+$$
+括号的迹准确为 $-81a^2/(4b)$，于是
+$$
+\mathrm T_{\delta,12}(C_{30}\sigma^6)
+=-\frac{\delta}{84b}\sigma^{12}x^2y,
+\qquad
+\mathrm T_{\delta,24}(V\sigma^6)
+=\frac{\sigma^{24}X(X+b)(X-8b)}{84b}.
+\tag{B11}
+$$
+再由
+$\Theta^3=[\delta]^*\Theta-4b\sigma^6$、
+$\mathrm T_{\delta,22}V=0$ 与正文(11)，得到
+$$
+\boxed{
+\mathrm T_{\delta,24}(\Theta^2\Delta_{68})
+=-\frac{\sigma^{24}X(X+b)(X-8b)}{21}
+=B_{12}\,\mathrm T_{\delta,12}(A).
+}
+\tag{B12}
+$$
+所以这里的 old 项与(B2)确为同一原来源。
+(B11)保全部三个纤维及绝对 sigma 商，没有将 $B_*$ 从错误的轴抽出。
+(B12)也不让首除 $p$ 读者与迹无缺陷交换。
+
+### B.4. 两原差变成同一个 new 因子的两个对称低配对
+
+对本节实际两个 degree36、型零且从第六阶起的来源，定义
+$$
+\mathcal Q_p(F,G)=
+\sum_{\substack{6\le r\le p-5\\r\equiv0\ (6)}}
+\frac{j_r(F)j_{p+1-r}(G)}{r(r-1)}.
+\tag{B13}
+$$
+完整 Leibniz 公式给
+$\mathcal Q_p(F,G)=\mathfrak B(FG)$。
+两个端项均由质量零和一次 jet 零消去，所有剩余 jet 严格小于 $p$。
+在模 $p$ 中用 $r\mapsto p+1-r$，
+其分母变为 $(1-r)(-r)=r(r-1)$，故
+$\mathcal Q_p(F,G)=\mathcal Q_p(G,F)$。
+这里的权始终是 $1/[r(r-1)]$，没有换成另一种 apolar 配对。
+
+记以下两个确定值和三个完整质量一 cross：
+$$
+\begin{aligned}
+Q_{1,p}&=\mathcal Q_p(N_{36},J_{36}),&
+Q_{2,p}&=\mathcal Q_p(N_{36},A),\\
+x_{S,p}&=\mathscr X_p(S,\Theta),&
+x_{D,p}&=\mathscr X_p(A,D_{36}),&
+x_{V,p}&=\mathscr X_p(V,\Theta^3).
+\end{aligned}
+\tag{B14}
+$$
+$\mathscr X_p$ 仍是(A7)的准确低卷积。
+对(B8)、(B10)逐项应用同一原 $\mathfrak B$，得到
+$$
+\boxed{
+\begin{aligned}
+4bQ_{1,p}
+&=\mathfrak B(S)-\mathfrak B(V)
++x_{S,p}+x_{D,p}-x_{V,p},\\
+1008bQ_{2,p}
+&=-\mathfrak B(S)+3\mathfrak B(V)-2\mathfrak B(T)
+-x_{S,p}-x_{D,p}+3x_{V,p}.
+\end{aligned}}
+\tag{B15}
+$$
+没有对 $N_{36}$、$J_{36}$ 或 $A D_{36}$ 另设中央条件。
+从原三条必要零条件只能删除(B15)中三个原
+$\mathfrak B(S),\mathfrak B(T),\mathfrak B(V)$，其余五个显示低值原样保留。
+
+第二个值具有更精确的“同 S”含义：
+$$
+\boxed{
+N_{36}/A=\frac{4(X+b)(X+4b)}{Q_7},\qquad
+A^{\rm old}/A=\frac{3X(X-8b)}{Q_7}.
+}
+\tag{B16}
+$$
+两个商相加为一，但它们的有限极不能在任意来源上删去。
+在本节的实际 $A^2$ 上，$Q_7$ 因子充分，故
+$$
+Q_{2,p}=
+\mathfrak B\!\left(
+ A^2\,\frac{4(X+b)(X+4b)}{Q_7}
+\right)
+=\mathfrak B(AN_{36})
+\tag{B17}
+$$
+确为 whole degree72 自配对。
+原 $\mathfrak B(S)=0$ 并不使(B17)为零：
+它是两因子低卷积，正是(B13)，而不是单一来源中央的乘方传播。
+
+这给附 A 带权行一个真实减项：
+$H'_{22}-\sigma^{22}P_+=36B_{22}$ 在完整乘法之后，
+其中第二项准确回成(B17)的同原 $S$ 自配对。
+正文(30)、(32)的未加权 $\mathcal L_p(C_0)$、
+$\mathfrak B(D_{\rm ref})$ 和 $\mathcal R_{T,p}$ 仍然保留；
+(B15)没有把它们认作这两个 degree72 配对。
+原 $U$ 的二挠 new 行亦未改变。
+后续若要排除共同零，须约束(B15)这同一五个低值，
+或把(B17)与原 $U$ 的完整二挠伙伴实际相连。
+单凭配对对称、同 degree 或 $N_{36}$ 的迹零都不足以完成该步。
