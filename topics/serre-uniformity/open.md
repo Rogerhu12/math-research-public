@@ -123,3 +123,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原Y连接与同源校准行已构造**：[YP](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5：原O(−Z)经128维RR移到254度T，保c/a(P1)；634维微分→508完整主部、秩507，α=α0−dloga。两图Laurent界给有限全系数图，原Cν直接供微分模，无需全Γ。原e经真f=de/挠N和刚性化给连接幂等投影；同一实际Hecke L及完整非p纤维行U给YP35一次列。a/T/N/L/U均未数值化，不重登UE相消或删inactive/torsion。
 
 **原三同源与一个Z的一次收缩已证**：[ZA](notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md)268fa3fb：ψα=αx、L(αP)=3L(P)+log(αx)，与RF真R完整相消，零阶仍留χ(M_f^p/M_g^q)/q及原v。真实加法斜率与ρ给ZA24七基点；41处唯一L41内可直接用[42]求一个Z，σ共轭和trace给3(Bg−p/qBf)=7trχ,L(C_j Z+D_j)。保T^7=ζ²/原尺度/规范trace，ZA32再接YP同一Y/Hecke/nonp行；未求实际41值/系数/高度，无非零宣称。
+
+**R851全充分大允许p的原Cartier-g单位已证**：[结果](results/R851-original-cubic-central-value-and-third-position-Cartier-unit.md)afe25117：p≥257，e=1/2对应p2/5mod9，D=4p^e的真S_D=L(C_D,1)/Ω_D∈Z非零。Rubin坏惰性p适用的BSD/Cassels给偶v_p，精确AFE纸界0<|S_D|<p²迫单位。原χ6/CRT/36p/Ω相位完整给S0/C0=p S_D/(3D^(1/3))；整μ_(p²−1)全尾及R683/R770准确推出C_k、g_((k−2)/6)单位，k=(3−e)(p+1)/3。同原h=e(p+1)/3−3本原；p18r5为g_r，p18r11为g_(2r+1)。同h的f_i及Legendre仍缺，未称三个单位或主目标完成；无新算术。
