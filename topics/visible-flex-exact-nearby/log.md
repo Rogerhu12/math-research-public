@@ -234,3 +234,9 @@ root全文25135B/e7d23c58独核域、投影和高/低块各符号，并回读WFI
 root全文14073B/9ee0806f核两次Bessel插值指数、homogeneous比较r4与L2→energy的1/2，并亲核原DZA26909B/05036749的J0/Jminus/CD三个完整record、selected scope和已付meanrank。Newton正式核2–4，Tail正式核1/5–6，Phase复核同inverse。rough f用f+W_G^-1 Rf构造，不把f强行放energy；R+R W_G^-1 R的右/中/左窗口完整，whole bound保同一W。
 
 本条仅新解析正表达式，未求任何fractional power或数值最小值、未调用旧sign/KAM/producer。full density auxiliarymean不是原uncompressed公式，保WΔ1⊗Π及实际(h−1)ρi、true finite complement。WBP/WGB只能在同左右坐标里使用whole候选，未授小扰动/finite inverse。fresh read a70c8d7c152c2d6a7f73f80cefe67e5f66d26bc7 两README未变，本条独推后继续U源项。
+
+## 2026-11-16 04:37:26 UTC — 仅一份R43追加scale派生报告的清理白名单先推
+
+当前topic在a925d76c7fae50207ccdb31171d1267dd0e1998e的完整metadata差分总199867761B，低于200MB但不足150KB新consumer reserve。本次只预告notes/2026-11-13-negative-root-full-Airy-operator-additional-scale.json，blob84014a5610e062cdcb19ce592fdea119b6a0646c/383423B，原graph proof§9记录SHA e8bea2d84985897aa0930c3efd3f0669502ba086883bc9d3ec1fad3b855059bc，restore7d7ce884同path。root/Tail完整读小proof两份及producer并核bytes/SHA，未取大body/未冒重hash，现WAD/NIF/新U无该输入。旧complete domain/native/source/proof与全部scope/mean/未付门保；后继只能restore不得重算。
+
+白名单本次先独推，尚未删除；下步再fresh metadata guard普通删除。300847f2401a2108f6fd8a4d0904a93faf5922b4两README未变。
