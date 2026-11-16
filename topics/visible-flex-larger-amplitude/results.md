@@ -106,3 +106,7 @@
 ## R545 — request230真实来源与完整同C执行入口
 
 **完整来源组合与条件接口已证明，实际R546另付。** [R545](results/R545-request230-complete-current-source-and-same-C-chain.md)/[接口](notes/2026-11-16-request230-current-source-complete-chain-interface.md)七件341400B/topic254482B：composer60360/8366、entry32822/12cb、plan85503/b35d、outer35731/f96c、wf86918/3cae、proof17208/460e、interface22858/d79f。原217473全保→293public+242gen=535，前六179+历史8+当前49+metadata6真形成，修正argv/ENTRY保guard；三层场/完整精化/8sameC/9原scope/owner/cleanup真接。当前inner从原2d1完整元数据生成、由实际receipt/env绑定，不预填SHA或混旧f6/2d1/derived205；original216 provenance漏键补原实descriptor，源map三列表与R544完整composition关系保全部语义、whole严格小才用、不保证90K。原18900+2700/360min/32GiB/所有科学门/quiet保持；workflow仅main精确request路径push及手动入口，本次GITHUB_TOKEN push后单官方POST，R546 exact唯一。九行政记录已3b607e1d普通移出，固定恢复及科学输入均保。
+
+## R543 — 实际229当前请求字段断口在owner之前
+
+**已证明本次终态、完整必要读回和真实来源控制流；未得到新科学接受。** [R543](results/R543-actual229-current-request-field-mismatch-before-owner.md)28715/ba9a，run43863347779/head4a0f，compute133285545704 failure/report133294150607 success，两日志geometry各唯一。372source76567/206d与science40325/7125完整且两job同体；call0001原fresh withJ返回、binary64 norm14074125.72142333，system旧complete128-final字段缺失而caller只写新value+explicit64-model契约。KeyError先于factor/owner，QRchild2非timeout；owner/replay/model/FD/fullDN全未起，原6000/tol与模型质量未试，外层FloatingPointError不作数值失败。全部原错误、实际partial、空账、quiet/真实removed作用域完整保；无接受父，不加虚假旧true。另[230官方绑定](notes/2026-11-16-request230-official-run-binding.md)确认单POST200/run43867442383/同9f2b/compute133299541234；R546 exact唯一，原科学结果待付。
