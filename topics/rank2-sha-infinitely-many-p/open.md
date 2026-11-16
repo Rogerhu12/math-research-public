@@ -80,7 +80,9 @@ R855/R856付whole格中真正整除p及全参数Frobenius，B=j_(p+1)/p只在整
 
 R860/R863给原Witt交叉Cp−cD^p=D·N²Q/(2mnM)，完整奇N项与所有高端保留。r2伙伴含原Ξν+σ(2z)²Lνj/4，r3含全部连接及σ(2z)Ltilde；二挠组合27/7和伙伴低jet单位不能替四原B forcing。法向p递推不免费补已缺前缀。
 
-**继续：** 同原M_pc*与BS共同相容性，任何theta异方向重指标须回原四来源；不新增伙伴中央零，不把模p端点相消用于除p后删项。
+- [R863附录A](results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Zj=EjJ_S与R307三算术线的交恰二维span(S,H3−H5)，剩余坐标−4c0+c1+2c2，真实f2不能免费扩中央零。固定Θ17有唯一全纯C2和c_b=−351/(2816b)，Z2=∇C2+c_bΘ17；完整whole除p行保同frame首对数商与全部低卷积，单位项不能替指定B非零。
+
+**继续：** 计算同一Θ17的实际连接商与原M_pc*/BS共同相容性；原H3/H5的质量一差保其两条参考导数，不赋额外中央零。真实f2亦不能以三列自由中央条件替代。
 
 ## 第三实际门：低松弛quartic与同P/R/S后两页
 
