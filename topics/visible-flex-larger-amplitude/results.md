@@ -317,3 +317,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R467 — 实际208收缩路径、首正高度资源停止与完整读回
 
 **实际数值/执行证据；无新非零接受或全J。** [全文](results/R467-actual208-contracted-trace-resource-partial-and-complete-readback.md)25544/c8709222，run43804793905/source9b05bfc5、compute133092971995 failure/report133209057444 success，两终志各唯一；单53307/d5b5必要逐字一致且complete。140pins/4数学+2几何输入、原actual119六词λ=.001/112/226/224/338×112/两mean/全部原门与18000一钟保。零H5774.44365s收敛/residual0，无J/audit；首1/64H12195.31508s finite-trace-direction-resource-budget停stage366/cell5/segment8，0非零完整iteration/0trial/0当前R273/完整FD-fullDN未入。累计45434 root/45433 localJ/28278收缩与6334272方向列真返，不冒当前全J、严格IEEE导数或提速。内层resource=true、wrapper75/outer budget_exhausted=false/external_signal=null明确分列；完整读回/原marker/owner与规则父静止后真实removed=true，不能从SHA续旧场。规则round0–6无README变；非数学拒绝/无解，后续原各门保持未付。
+
+## R517 — 原完整像账到全E(3)有理内核
+
+**来源明确的执行接口已完成；仅R516条件正确性，尚未运行。** [完整接口](results/R517-rational-full-E3-kernel-and-current-image-binding.md)21846/177cbc96与独立源码39936/0c69c61c，严格只原c87b R425/0ff1帽完整字节tuple。真result/input/position/witness及位置账stored/decoded/ordinal/所有terminal全读，active转1/4周、cap保持形成两端全像；显式合法帽参数用原完整有理图求真成员e=0，支持负振幅/重叠/正确side。4四元数图×2正交分量、完整平移立方体、两向每见证对所有target最小值、全闭DFS/球范数/所有partial游标保持；全部八根付齐才报γ及γ/Dupper。API只调用既有budget callback并保clock provenance，不自证owner/deadline、无新launcher/request/generated-M接线；单90K/70、不写cleanup marker/不删raw。原未完成position与帽参数后缀全返，23a4草稿已由0c69替代；不承诺固定C盒/预算/有限帽点会成功，无实际数值或新门。

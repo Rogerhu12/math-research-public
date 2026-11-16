@@ -82,6 +82,8 @@ R459相对广义谱与准确材料共轭付全t；严格真误差下降、仅upp
 
 [R514](results/R514-complete-field-defect-transport-and-literal-residual-transfer.md)完整条件桥26256/e2bf：同一准确F和目标μ²dx²+A²ρ²dφ²，合法明确σ支的速度缺陷r及只用六jet的角长输运τ给全相对Gram显式界；不先假设未知准确等距参考。原BC全M权/ρ正界、frozen-RHS斜率差、cubic→quintic DDY、有限角/舍入/目标/B/两mean/patch项全部保。尚无实际δ/T/ηC/KN或floor；接点为既有R459同场六jet/闭target/live E，不另重跑独审、不将可选合法V或全BVP逆界添为门，原直接Gram继续。
 
+[R517](results/R517-rational-full-E3-kernel-and-current-image-binding.md)source39936/0c69与完整接口21846/177c落实R516：只冻结c87b R425/0ff1帽tuple，完整result/成员/位置stored+decoded账与全部terminal真读；active准确1/4转、cap不动，两向真帽有理成员点/全部target最小值/8根闭DFS及所有partial地址保。仅API、原callback/clock provenance不自证owned deadline，未接launcher/generated-M/实际request；单90K/70、无cleanup marker/删raw，无当前γ或accepted450。后继需实际同现场来源/owner接线，不增原完成门。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
