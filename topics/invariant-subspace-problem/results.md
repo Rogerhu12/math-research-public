@@ -531,3 +531,7 @@
 ## R271：相干列的真实二次顺次MP与同源两步修复（2026-11-16）
 
 [完整证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)将(D†)²ω_j与(D²)†ω_j之差精确写为D†ΠkerD D(D²)†ω_j，保真正交回馈；仅对已证primitive的源用R239多项式界。二步Bernoulli真逆及全层修复给相对coherent误差²O(J³/x+J⁴/x²)。新τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ付q1与q2平方O((1+||C||⁴)τ²)ε≤同常数Δ_g²，两个最高top均计入。R=0移动实际头仍保原V/K/u及强极限，不取消扩块门。z2=f−q1+q2的残量恰Cq2，第三次和完整返回未外推。
+
+### 原临界因子的弱二次列与正jet运输（2026-11-16）
+
+[完整构造证明](results/R150-appendix-critical-weak-quadratic-columns-and-positive-jet-transfer.md)：原 $[L,Cv,Dv]$ 的真核给最多3个完整高零列；与低51×36及原低jet残量联立，实际leading rank $13+h$ 给完整局部长至少 $2e+h$。源码f211696b/接口23fd13c2已全根审，plus/minus/e8各排300秒；此处只确立原正证书构造，不预报任何新长度或μ=1。
