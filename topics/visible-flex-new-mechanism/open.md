@@ -185,3 +185,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:39:47 UTC：全168实际拒绝与新小物理域
 
 [原结论](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)保3finite/3fullscan/8新梯度/62scalar/1实际粗值，κ58.007888653387816>58且metric变差；18曲率违例全已选，新soft104448停止方向，0接受，仍56。188.38691980800002秒/3新完整值账户闭，累计2421.953314364秒/141值。接h≤1/128的新全168域，复用已付INPUT3、8梯度及56 U/T，只补新增原metric行；0新ordinary输入，仍保172盒/全部原门。新模型尚无执行结果，不把信赖域缩小当下降证明。
+
+## 2026-11-16 10:41:07 UTC：R503非零前缀反射的完整片段构造
+
+[R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)从必要差商推进为保持构造：完整ΔK含β odd及全部3even矩；q*=BD、E=−2B使even逐项相消，β四相位真实核≥4维且实际改变第二场。原R70桥实现有限非回文±B标记字，共用同w和同χ；未锁Gram可一次清全部片段，原13已锁则必须保其兼容。下一真正义务是非secant连接段内部K=F+Chh″+Ckk″、同一完整period/13与所有V，不能以桥末值可达代替内部解。

@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)付新sin轴响应与完整Π记忆，不能删Xs/Xss；圆背景显式δe和4个metric盲/κ响应组合仅属该背景，不冒56秩；曲率保实际I/normal/全Π。
 
-[R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)原H含±I5，物理M含±I168；加rho目标/h上界得170有限A的det±1子式，任何正slack/dual的精确Newton正规矩阵正定，未授条件数/可行/收敛。两辅助变量可精确凸分段线性消元。56κ峰s=.78在body内，高度P8及P8′非零，排共同固定区解释，未证dκ或可行下降；原全Π/14门仍保。
+[R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)M含±I168，rho/h行补det±1有限170子式；正权Newton精确SPD，未授条件数/可行/收敛。两辅助量可精确PL消元；56曲率峰在body内且P8/P8′非零，未证可行下降。
 
 ## 3. 当前理论接口与剩余义务
 
@@ -30,13 +30,15 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3A6²>0、首原子消失先并Ceff再完整输运。R496用真实端项给A/R≥(y−1)/2、相位单调与H≥2排除，但左d可正无界。
 
-**[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)更强全图门：** R/Rc≥1且递减，Rc=(r−r³)/2；反向Chebyshev给N0≤13D0/4及正部界c*=1/4+89/(216√3)。d≥0区r/R≤3，d<0区才d²≤1，因此N≤(13/4+c*/y)D−(1/4+c*/y)Dd，保严格余项。令P*(y)=39y³+(12c*−114)y²+(23−40c*)y+12c*，在[8/3,∞)唯一根y*∈(19/7,49/18)；H*=(1+y*)/2∈(13/7,67/36)。完整ImE在H≥H*严格负（等号也由Dd项付），故五门真零仅可 **3/5<H<H***。同稿给完整ReE式，尚未证该剩余区间联立无零；C、线性图段与所有端项保。
+[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)完整R/Rc比较与反向Chebyshev保严格Dd余项：N≤(13/4+c*/y)D−(1/4+c*/y)Dd，c*=1/4+89/(216√3)。原三次P*的根给H*∈(13/7,67/36)，H≥H*完整ImE<0，含C/线性段/端项；故真零只可.6<H<H*。完整Re同图联立仍欠；正斜率不能错用|d|≤1。
 
 [R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)固定真图R时y=B+2C、A=A0+C(1−r)、U=U0+C；I=ImE/√y为完整三次、I3<0。以p≥r³/右切线/原A界分三段证明当前H≥1时I″<0（低端未判），虚部至多两根；Re为完整四次首项C4/5。没有推共同零不存在，五门其余三实条件仍欠。
 
 **真实路径。** R469/472保A/T、双芽、所有W/V与一般w；R480外三矩仅付重复A0无漂移。R482原13状态/2输入完整K=F+Chh″+Ckk″及Mraw保；R484离保护芽须实际rank退化，R486只排开状态域F恒0。R488单真secant的t1′<0排自身M0返回/常collar；R492 even period核odd β锁原13行。R494任意紧输入β不依H且对ω仿射，双真中心odd差β((A2−A1)D)；R70真桥除至多一ω有残值，不能同w/后置复位消，但非全路径障碍。接非even完整period及新构造，主几何仍欠。
 
-[R500](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)把异ω三真secant中心的共同规范准确差掉：β^ω=B0+ωB1，Σλ=Σλω0给真实前缀不变量。A1=A3=A*、A2=A*+tP的π/2值=−(ω3−ω1)t(ω2−ωblind)∫g″⁴；R70有限正长度桥/两半Mraw/共同窗口均保。多中心N−2相对门可取t_j0消，未付共同odd、even或连接段K；接非对称实际可消自由度，不推全路径无解。
+[R500](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)付异ω三中心真实前缀差商；R70正长度桥保两半Mraw/共同窗口。N−2相对门可消，未付共同odd/even/桥K；不推全路径无解。
+
+[R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)正向付非零真实前缀反射：同w=−AgD、中心Ag±B，完整even增量四项逐矩抵消；四条全相位β行给≥4维真实非零核（degree≤4多项式呈示），非假零history。R70实际有限正时桥可排非回文±B标记字；这些完整secant片段共用K。未锁第三Gram时一套χ可清全部，已锁13仅给保持定理。**桥内部K、共同period/13和完整V未付**，不替换原particular。
 
 ## 4. 当前真正接受点56与已付输入
 

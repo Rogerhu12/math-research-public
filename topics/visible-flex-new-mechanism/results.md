@@ -409,3 +409,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R501 当前168族的精确满列秩与非固定曲率峰](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)：**已证明**完整170有限A有det±1子式，正权Newton正规矩阵精确正定；两辅助变量可消，56κ峰不是共同固定区，未授条件数/可行下降/主reach。
 
 - [R502 完整offset多项式与高端严格凹性](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)：**已证明**固定凹图的ImE/√y为真三次、当前H≥1时严格凹且至多两根；完整Re四次与C4/5首项保，未判共同零或低端凹性。
+
+- [R503 非零前缀反射与一套规范的完整secant片段](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)：**已证明**全even逐项保持、四相位完整odd核的非零真实性、真实非回文有限标记字共用完整K；未锁Gram可一次清片段，已锁13仅保持，桥内部/全period/完整V仍欠。
