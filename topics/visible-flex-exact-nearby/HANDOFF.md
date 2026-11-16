@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 15:24:32 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 15:29:09 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:57:36非FF真CLI仍无executor，下一本地尝试≤15:57:36。最新CI真pull为43891414339/1于11-16 15:11:07.503340→76dade3353eab3689a9ca5fa53b705cebda9e406；4次两README完整diff空/同已读，exec全保且根独核完整chain。下一真pull≤16:11:07；ref读取不冒真pull。
-最近只读README核：2a4fd4348701c76f5b05be950986ba748f3f3d7f；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：786b53153a01dc0e0d236cbe3e3ee5ca8a4adbf1；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -58,6 +58,6 @@ WDH06cad487已证selected homogeneous高块：同WSMF whole及9完整原界，�
 
 WCTR efe08e59新纯定理：scalar-trace clip±c/64、两rate≥c/64、真实matrixρ2^-1与S/两τ/全signed action齐，lift5/4；全actual仍同κ3。WVC56供体已成，拟20原copy+36新，alltrace0全copy保6/5；尚无新numeric入口/actual，finite门仍条件。
 
-WEX6ffd46a4纯证明已成：真实waist全BFV四block，原B0/B1同P保留，另一/二primitive完整T1/T2；cB,n先精确拆fixed angular+input scalar。C1/C2乘子与同profile0/2插值，全两terminal N^-2及Cs/WT/physicalmean/四端全保。8原小JSON/62原record根逐path全核；拟31=12+6+6+7新，数学目标未算、source合同进行，旧upper不相减/不重旧target。
+WEX6ffd46a4完整证明及首31合同已成：source8dc54c3c/92477B、manifest4cbba857/23796B；12current/2AST/0history，8原件/62完整record/18完整context；新31=12+6+6+7、旧0。根独立重建六全模型精确hash皆同，fullfailure66676B/ops59300B；147000发布+120000reserve、4000marker，启动前再核。新source未执行，后独推ownpath-only workflow；同P/B0B1/Cs/WT/physicalmean/四端保，whole/reduced各整候选比较、旧相等优先。
 
 3旧field/constant-split/R109派生预算200661B普通清理；完整原域/球/历史execution及full_cap_gap_paid=false，exact恢复1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f见notes/2026-11-16-three-derived-field-and-energy-budgets-history-recovery.md。只3exact报告，原sources/证书/内列inputs不删；旧target禁重。

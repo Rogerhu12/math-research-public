@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WEX31 首轮完整消费合同](notes/2026-11-16-R133-exact-waist-flux-endpoints-current-inputs.json)：8 原小件、62 原记录及 18 整体范围引用全保；12 current / 2 AST / 0 history，31 新目标尚未执行。根独立重建成功、完整失败、preflight、execution 成败及 marker 六模型，全部 bytes/Git/SHA 原字相同；已完成目标 0 重算。
+
 - [WVCA完整实际证明](results/R133-supplement-actual-continuous-centre-tracefree-candidate-and-false-finite-gate.md)：逐字保43891414339/1全56新记录、5modal前缀及witness、16完整JSON对象与旧60/6prefix全资格。根逐对象与表项核同完整SCI；43SCI/44exec/25progress、4真pull链齐。有限充分门false/finite0与全部物理义务保，不重算。
 
 - [WVC首次完整实际结果](notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json)与[执行记录](notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/execution.json)：56新、96模态、23结构门完整成，e+3dt约11066.29746，充分门仍false/finite0；不推奇异。全输入/原mean/端/两rhs/fullscope、旧WPS60/6prefix保，old0/lost0，成功目标冻结。

@@ -200,4 +200,4 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 [WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯定理：trace clip±c/64、两向rate/τ、完整matrixρ2^-1及S/action/transpose、lift5/4；实际四块与κ3不改。完整WVC56已成，后继拟20copy+36新/真gate另2，alltrace0完整copy保原6/5。无新actual，e+3dt<1/全两rhs/7ports/physicalmean及其他匹配仍待。
 
-[WEX](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)6ffd46a4全BFV通量→原B0/B1同P+完整一/二primitive T1/T2，cB,n固定乘子拆分/C1C2负窗与同profile插值合法。8原小件/62对象只读，31新=12+6+6+7尚未算；Cs/WT/physicalmean/四端/RF/whole/reduced全保，finite/负head/ν/Θ/全matching独立。下一执行精确旧JSON合同和新31 source。
+[WEX](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)6ffd46a4全BFV通量→原B0/B1同P+完整一/二primitive T1/T2，cB,n固定乘子拆分/C1C2负窗与同profile插值合法。8原小件/62对象只读，31新=12+6+6+7尚未算，12current/2AST/0history首轮合同4cbba857已成；Cs/WT/physicalmean/四端/RF/whole/reduced全保，finite/负head/ν/Θ/全matching独立。source8dc54c3c完整prefix与六静态模型已核；下一独推workflow首算，旧已成禁止重算。
