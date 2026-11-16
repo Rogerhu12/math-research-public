@@ -1,6 +1,6 @@
 # 未解决的问题
 
-最新完整前态逐字保于[高阶Abel单位前open](notes/2026-11-16-open-before-higher-Abel-unit.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
+最新完整前态逐字保于[固定理想结果前open](notes/2026-11-16-open-before-fixed-ideal-result.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
 
 **直接复用已成输入**：[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原同点非挠；[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原五Hom点/比较值；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)D两生成元与Ey八生成元/真实1111minor、两图及完整690 RHS。旧算术不重，实下降I_EyR=(y²−b)I_Ey³正乘。全局五极理想、c0刚性化与高度继续；原global y U.1已定义，CM点不能代全局函数。
 
@@ -106,19 +106,7 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 
 **同标签三次CM companion已证**：[四条原同余](notes/2026-11-16-sigma-third-labels-and-cubic-CM-companions.md)b738750b：h±原角色分别连到ψ+=C_(2p^e)、ψ−=C_(4p^e)，四条整q展开同余保原χ6/θ方向。两ψ及5/7/13次幂真导子(6p)、level108p²；原加性规范完整Gauss=6p。ψ+秩1/ψ−秩0方向与原R575一致；Ω_D=2Ω/(αβD^(1/3))保p尺度−e/3。未证明坏p整模型上的central/Cartier functional运输或same-h三单位。
 
-**原41 sigma输入已证**：[真实域与倍率42](notes/2026-11-16-original-41-adic-field-good-model-and-sigma-input.md)133d64af：原b的Eisenstein七次域与s未分歧二次给L41(e7/f2)，r^6=b/16给E(e42/f2/84次)。E27的Frob²=−41使[42]把全部原点/七共轭送形式群，原A≥1/7及u≡1同时成立。L_b=L16−log r、Z_b=rZ16、ψ_n缩放和原帧保留；42/84为41单位，optional41^a全尾与2a损失准确。未求41四响应/点值/period，必须原U.1或已接受A.1，不用辅助518。
-
-**原Y连接与同源校准行已构造**：[YP](notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md)bdbb6cc5：原O(−Z)经128维RR移到254度T，保c/a(P1)；634维微分→508完整主部、秩507，α=α0−dloga。两图Laurent界给有限全系数图，原Cν直接供微分模，无需全Γ。原e经真f=de/挠N和刚性化给连接幂等投影；同一实际Hecke L及完整非p纤维行U给YP35一次列。a/T/N/L/U均未数值化，不重登UE相消或删inactive/torsion。
-
-**原三同源与一个Z的一次收缩已证**：[ZA](notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md)268fa3fb：ψα=αx、L(αP)=3L(P)+log(αx)，与RF真R完整相消，零阶仍留χ(M_f^p/M_g^q)/q及原v。真实加法斜率与ρ给ZA24七基点；41处唯一L41内可直接用[42]求一个Z，σ共轭和trace给3(Bg−p/qBf)=7trχ,L(C_j Z+D_j)。保T^7=ζ²/原尺度/规范trace，ZA32再接YP同一Y/Hecke/nonp行；未求实际41值/系数/高度，无非零宣称。
-
-**R851全充分大允许p的原Cartier-g单位已证**：[结果](results/R851-original-cubic-central-value-and-third-position-Cartier-unit.md)afe25117：p≥257，e=1/2对应p2/5mod9，D=4p^e的真S_D=L(C_D,1)/Ω_D∈Z非零。Rubin坏惰性p适用的BSD/Cassels给偶v_p，精确AFE纸界0<|S_D|<p²迫单位。原χ6/CRT/36p/Ω相位完整给S0/C0=p S_D/(3D^(1/3))；整μ_(p²−1)全尾及R683/R770准确推出C_k、g_((k−2)/6)单位，k=(3−e)(p+1)/3。同原h=e(p+1)/3−3本原；p18r5为g_r，p18r11为g_(2r+1)。同h的f_i及Legendre仍缺，未称三个单位或主目标完成；无新算术。
-
-**原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想；三共轭现见R853正式结果，128/634 RR仍待执行。
-
-**原41四响应/单Z真实消费契约已定**：[41C](notes/2026-11-16-original-41-single-Z-consumer-source-contract.md)569aa684绑定同一2420 solve、原四响应/17域常量/529→733不变。直接L41十四坐标球，须实际41逆范数界＋完整残差后才认精度；[42]/ψ₂=−2y/6n−1分母全尾给一个Z，其七共轭等距运输。ZA268fa3f的五C/D及7tr已正式pin，非41/Y/ℓ不删；R854实际求解核心在写，无新41数值。
-
-**R854原41全行饱和算法已证**：[方法](notes/R854-original-41-cleared-row-saturation-and-four-responses.md)ab970169：同2420未知/free1186，读原R/K/F/Z构造2560×2420完整cleared算子，正rhs=−C_free；各m块乘246³κ^(m+1)真实可逆，不挪用同号选行。DVR依赖行消去后除B使全minor理想严格下降；实际单位行＋逐行T下界给左逆范数，整化尺度须减回。只F41²求逆、单rhs π-Dixon、原全129×20×14残差后才认四响应。core在写，未运行41新算术。
+**原后继理论接口直接复用**：41S133d64af已定原L41(e7/f2)、同[42]盘/两分支条件与全尺度；YPbdbb6cc5保原128/634 RR、刚性化c/a(P1)、真e/N/Hecke L及完整非p行；FMa5d65aa4用两图完整生成矩阵及实际minor给有限membership核，不先HNF；ZA268fa3fb保T7=ζ²、五C/D与7tr(CZ+D)及原Y/ℓ/nonp全行；41C569aa684绑同2420/四响应/17常量/733，须真逆界及全残差。R854ab970169/92cb6ec5给全2560行DVR饱和及真实几何整化；原算术/规范不重做。全部完整公式与source pins逐字见本页首归档。R851同原h固定m2的g已单位，f/Legendre仍未一同解决；R855高m另见下。
 
 **R852原五C准确展开/秩5已成**：[结果](results/R852-certified-original-five-one-Z-coefficients-and-constant-DAG.md)run43801628875/job133083063775/sourced0023643；0.035879553s/3stage，839node继承733，新逆/点加法0。五C原L十四坐标与准确非零5minor已成；五D保原DAG。finale9acbfa2/C621199e5/DAGbf0a518c/manifestdde01718/configf15d53fd；artifact14196442913/01ae4657，9原件2529608B carrier44d40476保270叶，整2.74MB ZIP/11产物纯IO已核。原41四响应/Z/Y/height/A.1/allp未成。
 
@@ -134,9 +122,10 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 **R857原Abel共同相位/深盘根数已证**：[结果](results/R857-original-higher-unit-Abel-phase-and-deep-disc-root-count.md)34d9f444以R855同h的高jet为参考，M_(3j−1,h)/M_mh∈Qp，全部jet整数赋值。原727.28全阶乘/全尾给A_j=p^(3j)M/(3j)!的v≥1且趋∞，第J=(m+1)/3项v=1。I/(p b_h)∈V Zp〈V〉、V=z_f³/p³；最小unit阶r≤J，经形式Weierstrass和原coarse变换，在v(a−1)>3内恰r个零含center/重数，非center≤J−1。保c_h真实赋值；正秩候选不必使Abel增量零，未得r=1或height排除。
 
 
-**R856固定支撑完整基与三标量入口已证**：[方法](notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md)e2f61908：原R837值给P0两图272基值；原cusp基C的实际非零评价r_k给H_k=(x−x0)C_k、H_j=C_j−r_j/r_k C_k，完整Cusp+P0基/det(x−x0)P20/余长21，不另求秩。原R838 J2用Leibniz及两图三角运输恰(f,δf,δ²f)，在原L=Q(b,ζ)上I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)。首core只算固定支撑，不预称原B/三导数坐标或RR完成。[执行契约](notes/R856-original-fixed-branch-ideal-bases-method.md)9a89c865及core80c4e508/wrapper3b722b5b/真request已提交首次公开运行：42原子stage、两图完整点理想及Cusp+P0各272列；真实569源逐SHA，旧C/Fourier/秩不重算，B/D/RR/η/height未成。
+**R856完整固定支撑基实际已成**：[结果](results/R856-certified-original-two-chart-point-and-fixed-branch-ideals.md)；run43805659598/job133095773462/sourceebdb4e51，29.229620817s/42stage，两图真实pivot0；点理想余长1、Cusp+P0余长21，各272列完整准确基及全部乘回。finala80fb42e/stagece02bb69；artifact14198217155/125c93ef至Nov17 04:43，569原件载体fd6329bd。原固定支撑闭合；证明e2f61908另给L上I_E=mP0 C^-2(f³,(δf)³,(δ²f)³)，实际B/导数/RR/η/height仍缺。
 
 
-**R854原41首次实际请求已提交**：[执行记录](notes/R854-original-p41-response-solver-activation.md)，core1feb579a/helperfa545b18/wrapperf6b97a7d，原2420/free1186/全部2560原行，56位算子/目标7位/300min只为控制。首跑核真实GLOBAL载体后保1645原叶+20父元数据；成功须实际单位子式/左逆界＋全残差，不再乘CM原scale。四响应球/A.1/Z尚未成，R858待真输出；已实际触发run43805506433/source dc6ffb07b398e5262d6b1e62dbc72378a163b5f3，最近queued。
+
+**R854原41首次实际请求已提交**：[执行记录](notes/R854-original-p41-response-solver-activation.md)，core1feb579a/helperfa545b18/wrapperf6b97a7d，原2420/free1186/全部2560原行，56位算子/目标7位/300min只为控制。首跑核真实GLOBAL载体后保1645原叶+20父元数据；成功须实际单位子式/左逆界＋全残差，不再乘CM原scale。四响应球/A.1/Z尚未成，R858待真输出；已实际触发run43805506433/source dc6ffb07b398e5262d6b1e62dbc72378a163b5f3，原数学步骤正在执行。
 
 **避免重登旧实下降/盘界**：R750 已给全部h/全部jet的共同实相位与signed conjugates；R742 已给unramified firstjet/depth7，R744 已给某低firstjet分量在闭depth4的非center根数≤3。R857新内容仅R855具体同h高unit对开盘v(a−1)>3的最小unit与根数；不称首次根数或改进旧界，后继直接引用三旧记录。

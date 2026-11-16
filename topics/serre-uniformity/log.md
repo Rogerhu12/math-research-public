@@ -369,11 +369,11 @@
 - root逐读R727§8–9和完整新证明；不令高项冒充首项。正秩有理候选未必Abel增量零，故未得r=1/高度或主目标；继续原first-block和高度连接，无新数学执行。
 - 本push规则：本地真实pull至5428e476f1c03d962c9abb19851254c15a0ad177（2026-11-16T04:20:51.455238+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 12:41 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 12:48 Asia/Taipei — serre-public-astra-20261115
 - R856纸证给P0点理想与Cusp+P0的两图完整基：原272基值/真实cusp评价一非零pivot，显式列变换与多项式除法证明全核及det(x−x0)P20/余长21，不重旧秩。
 - root核原R838/827全J2定义，Leibniz与两图齐次三角运输给(f,δf,δ²f)，曲线DVR立方给I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)；明确后半沿K→原L扩张，不误降B/D。
 - 纯IO实际读R820544列/554件、R8057、R8378；39Range/19.67MB及旧carrier289成员SHA，非整ZIP哈希。首次core只计算固定21点块，原B/导数准确展开/RR/height未成；H先逐字归档。
-- 本push规则：本地真实pull至f2e7e9381c5a20df2abebab74378e9430a92116a（2026-11-16T04:41:54.419950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至f7b46ef6f8bd81385e71f193377e16c5f8c4e755（2026-11-16T04:48:15.374370+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ## 2026-11-16 12:39 Asia/Taipei — serre-public-astra-20261115
 
@@ -386,3 +386,9 @@
 - 提交R856固定21点完整两图理想core80c4e508/wrapper3b722b5b/执行契约9a89c865与真实请求：原R820554件、R805七件、R837八件共569来源，不重旧C/Fourier/秩/primitive；首次只新P0正规值/点理想/Cusp+P0完整基。
 - 修改课题外.github/workflows/serre-R856-fixed-branch-ideal-bases.yml供首次公开运算并一日保必要来源/断点；所有新数学尚待Actions，无本地数值。R854已真触发run43805506433/source dc6ffb07b398，最近queued。
 - 后继继续R858实际四响应→单Z与五行规范trace；B/D坐标、RR、η与height未成，不放宽主目标。
+
+## 2026-11-16 12:46 Asia/Taipei — serre-public-astra-20261115
+
+- 登记R856真实公开成功：run43805659598/job133095773462/sourceebdb4e51，29.229620817秒/42stage，两图实际pivot0，原点理想余长1及Cusp+P0余长21的全部272列准确基、全评价及乘回完成。
+- formal result给完整多项式除法证明；finala80fb42e/stagece02bb69，artifact14198217155/125c93ef一日，原569件载体fd6329bd；无机器输出入Git/Release。H/open压缩前态逐字归档，补旧R750/R742/R744边界到索引。
+- R854 run43805506433/job133095311242仍原数学in_progress；继续R858原单Z与真实B/导数入口，未称RR/η/height或主目标完成。

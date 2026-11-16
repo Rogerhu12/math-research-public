@@ -150,10 +150,15 @@
 - **R853三条原V1共轭实际已成**：[结果](results/R853-certified-original-three-V1-conjugates-and-semilinear-generators.md)f9635345，run43801910753/job133083952887/source813f9b81；0.281772742s/3stage，560×3全乘回及二次作用一致。实际cτ=τ、cσ=e1−e73、cw0=w0，故cYz=z−2β72、cYw=w，原6724保。finalc1e16216/坐标4b397fcb/DAG8b0cc65b/manifestf5e82a8c；artifact14197275258/807c974b，169原件3.237MB carriere17c356b，整ZIP/13产物纯IO已核。W34/R805仅规格不代已取原件；三个Krylovsolve未执行，实际仅剩β72需幂基转换；RR/period/height未成。
 
 
-- **R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c尚未算，旧方法/2420/全2560行/四泛函不变，核心未激活。
+- **R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c待真实run；原方法/2420/全2560行/四泛函不变，R854已触发run43805506433。
 
 
 - **R857原Abel共同相位/深盘根数已证**：[结果](results/R857-original-higher-unit-Abel-phase-and-deep-disc-root-count.md)34d9f444以R855同h的高jet为参考，M_(3j−1,h)/M_mh∈Qp，全部jet整数赋值。原727.28全阶乘/全尾给A_j=p^(3j)M/(3j)!的v≥1且趋∞，第J=(m+1)/3项v=1。I/(p b_h)∈V Zp〈V〉、V=z_f³/p³；最小unit阶r≤J，经形式Weierstrass和原coarse变换，在v(a−1)>3内恰r个零含center/重数，非center≤J−1。保c_h真实赋值；正秩候选不必使Abel增量零，未得r=1或height排除。
 
 
-- **R856固定支撑完整基与三标量入口已证**：[方法](notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md)e2f61908：原R837值给P0两图272基值；原cusp基C的实际非零评价r_k给H_k=(x−x0)C_k、H_j=C_j−r_j/r_k C_k，完整Cusp+P0基/det(x−x0)P20/余长21，不另求秩。原R838 J2用Leibniz及两图三角运输恰(f,δf,δ²f)，在原L=Q(b,ζ)上I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)。首core只算固定支撑，不预称原B/三导数坐标或RR完成。纯IO已得R820544列/554件、R8057、R8378；core继续写。
+- **R856固定支撑完整基与三标量入口已证**：[方法](notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md)e2f61908：原R837值给P0两图272基值；原cusp基C的实际非零评价r_k给H_k=(x−x0)C_k、H_j=C_j−r_j/r_k C_k，完整Cusp+P0基/det(x−x0)P20/余长21，不另求秩。原R838 J2用Leibniz及两图三角运输恰(f,δf,δ²f)，在原L=Q(b,ζ)上I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)。首core只算固定支撑，不预称原B/三导数坐标或RR完成。原固定支撑的首次实际计算已成，见下方R856正式结果；三标量B/导数入口仍未数值化。
+
+
+- **R856实际完整固定支撑基已证明**：[两图点理想与Cusp+P0完整基](results/R856-certified-original-two-chart-point-and-fixed-branch-ideals.md) 0834de1f32917960a21d3b66b3d4d9f9a512a913001cfea9d991254f21b583fc；run43805659598/sourceebdb4e51，29.229620817秒/42stage，真实两图pivot0、各272列，余长1/21、全部准确乘回。artifact14198217155/125c93ef；原569件来源直接继承。B/D、RR、η及height仍开。
+
+R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，R744已有某低firstjet分量闭depth4非center根数≤3。R857新增仅R855同h高unit在完整开盘v(a−1)>3的最小unit/根数，不称首次盘界或优于旧界。
