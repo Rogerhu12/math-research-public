@@ -19,7 +19,7 @@
 |211 / [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)|81156/5994全读；零H284.145s收敛，首1/64全576J/R273后α1真实接受196395.0911309943→5181.565456345417；下方向iteration1 stage105/cell1/segment4原18000预算止，正response/338/audit/FD-fullDN未付，10:25:27真清。|
 |223 / [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md)|run43839064900/source035d，16exit0＋8原eligible和f847控制流付8warm/freshFD交接，非native/coupled/fullDN。whole113011/fc09、recovery113361/1cc7超90K70无body；具体α/merit/FD值/末三词/末父7未返。八必要先存再退原大payload，quiet但cleanup skip；runner销毁后无可续末父。|
 
-204/R446虽四组件旗返但111829必要超限、不能补215；208/R467零H5774s而首1/64 stage366停、0R273/0trial，原清理与完整记录均保正文。206/R455及213/R480原八39交接亦不冒完整BVP。运行中仅如下四个，以唯一读者终态正文为准，root不重复取科学日志：
+204/R446虽四组件旗返但111829必要超限、不能补215；208/R467零H5774s而首1/64 stage366停、0R273/0trial，原清理与完整记录均保正文。206/R455及213/R480原八39交接亦不冒完整BVP。运行中如下五个，以唯一读者终态正文为准，root不重复取科学日志：
 
 |请求/结果|真实run / source / compute|唯一终态读者|
 |---|---|---|
@@ -27,6 +27,7 @@
 |225/R528|43852521165 /5af07ed64877475bc05a488306246c9be22926bb /133248437738|exact；11:00 step11原科学|
 |222/R511|43837980277 /6643ea831419fb5adf1fd5d21fdbc918fe86c4cd /133199299786|amplitude；11:00 step18全physical/far|
 |228/R541|43858623707 /99f4ee650e031448e9fcb33ead672e48a8babd3d /官方job待reader记录|exact；11:33官方queued，唯一POST200；217已终态R490|
+|227/R539|43860144962 /5b5dd03b0d69c8a059282b963b7192679fd43f67 /133274517805|amplitude；单POST200，11:43 setup；[官方绑定](notes/2026-11-16-request227-official-run-binding.md)|
 
 ### 1.2 已接来源与实际瓶颈
 
