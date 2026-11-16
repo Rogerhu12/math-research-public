@@ -430,3 +430,8 @@
 - R919五执行源全文读完并激活：仅原九δP/8维Euler行/272正常目标像新算；73原件与完整A272/E2176、所有分母/幂零/真dual7和两帧保留。
 - R905连接目标求值仍待R922；原两端order待R917；R921保留c1分支点及未知首项，主目标OPEN。H/open前态逐字归档并压缩当前接口。
 - 本push规则：公开Actions真实pull至f4d0c3cf67793648314b3094f3b291ce6f938086（2026-11-16T16:08:01.520461+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:10 Asia/Taipei — serre-public-astra-20261115
+- R917六执行源全文核读并激活：共同θ0²/273叶、仅损a首一/四块idealizer、完整8³及双向Laurent逆；真discrim4才停，40原件直接消费。
+- 只认证两端原rank8正规order/primitive-t帧，五目标272/NmΦ/height均false；R919实际43904104159/133428298451已计算，真pull1e0ecf18/16:08:17UTC两README无变已读。
+- 本push规则：公开Actions真实pull至6f20a2be4707cebed09652888fb05f58a3ee3d60（2026-11-16T16:10:05.917171+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

@@ -2,71 +2,71 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R919-original-whole-Artin-differential-trace",
-  "commit_message": "serre: activate original whole Artin Hecke differential trace",
-  "rules_last_read_commit": "4e4b63ade989caa96748cd114385c9ea32e85f26",
+  "request_id": "20261116-R917-original-two-endpoint-orders-execution",
+  "commit_message": "serre: activate both original endpoint normal orders",
+  "rules_last_read_commit": "1e0ecf187b6e282226833c6c45c5e94661a0a9b1",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "4d807484e087a37d80e6cd9fdc7a8229f9ecf1b3133f86e7a3f43e9448f18f2d",
+  "expected_previous_request_sha256": "921103311c701641610a420b8d18f2763a9323effb380124e43e8ca8dab1f8fa",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R919_original_whole_Artin_Hecke_differential_trace.py",
-      "sha256": "379083fd253ec82af43d185ddd6aed6f33ca6985d70e9864bab8f0a5ce1ef7ee",
+      "path": "topics/serre-uniformity/scripts/R917_original_two_endpoint_normal_orders.py",
+      "sha256": "f0e321a19ef6dbd259e88de1b670f514b0f9ed0df5b24659a9f787978b8fd743",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R919_public_original_whole_Artin_Hecke_differential_trace.py",
-      "sha256": "0c5b7cc64a0cb8c0d12c0a953f430291c6ae3fc921c1f4f3245ce66992484ad4",
+      "path": "topics/serre-uniformity/scripts/R917_endpoint_order_arithmetic.py",
+      "sha256": "c728c8e06cef3dfbe4d33f3a988cbbc1c3012909d67b4684d941effdec67033d",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R919-original-whole-Artin-Hecke-differential-trace-method.md",
-      "sha256": "2024a082f600a9296786575d59d5694082ac21a43569fe4d8a5caca96a6a6b60",
+      "path": "topics/serre-uniformity/scripts/R917_public_original_two_endpoint_normal_orders.py",
+      "sha256": "f4a5e2a1d1a5405c52b7a602c215e8cad734a4d613c964c197a69c5a28ca7d29",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R919-whole-Artin-Hecke-differential-trace-public-request.json",
-      "sha256": "8cc51f4b2aa84abff97bcd71bb62afcae448a27413f1fb7db523d959990393cc",
+      "path": "topics/serre-uniformity/notes/R917-original-two-endpoint-normal-orders-method.md",
+      "sha256": "fafa85a5ad5e2758f3e866000a34d3a1849825602b616e0067784077b8171941",
       "expected_previous_sha256": null
     },
     {
-      "path": ".github/workflows/serre-R919-whole-Artin-Hecke-differential-trace.yml",
-      "sha256": "3f97e2bc54ac18682484afadd788a6dd655d51fcb3eac9e5cfdce19be560216a",
+      "path": "topics/serre-uniformity/notes/R917-original-two-endpoint-normal-orders-public-request.json",
+      "sha256": "4354fff045dd08b3682b73c633853722cdc67b067877c5ae9173dc2200d32e07",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-original-differential-trace.md",
-      "sha256": "5d3c27176253bb480af329d58e18a4708f9fc79133f5ea6240f46fc75d0b99f2",
+      "path": ".github/workflows/serre-R917-two-endpoint-normal-orders.yml",
+      "sha256": "410d8bb868ee4d61a74b3024d152c275520aa376f2588aeda9692b41495db92b",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/2026-11-16-open-before-original-differential-trace.md",
-      "sha256": "e672a8ea0e5f5f5ad1bae4f4e93091619b6d4bfab562c86f32e48e63a5c9023e",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-endpoint-execution.md",
+      "sha256": "b5e13b630eff5e28339966d5d878d87418c13742ec3669787be5a06fc547be6f",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "d04bd7aea945575218a80ce0312bda9297540b50547bcdcbe0d5830b24b8b538",
-      "expected_previous_sha256": "5d3c27176253bb480af329d58e18a4708f9fc79133f5ea6240f46fc75d0b99f2"
+      "sha256": "69c0295f8a802e1294f6185d6d49bff416054e0f2f76f7655eb12031a336dd20",
+      "expected_previous_sha256": "b5e13b630eff5e28339966d5d878d87418c13742ec3669787be5a06fc547be6f"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "42e3dd6b882012faca83dbb154089e76ec43979a236afc229f4a6df1bb68b099",
-      "expected_previous_sha256": "e672a8ea0e5f5f5ad1bae4f4e93091619b6d4bfab562c86f32e48e63a5c9023e"
+      "sha256": "a6b8a7d10a093781e582c5536a2a4b4ecca27a6eec0991e9e496c16e7f3e18a2",
+      "expected_previous_sha256": "42e3dd6b882012faca83dbb154089e76ec43979a236afc229f4a6df1bb68b099"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "5e2e8f39d0129106411fc97a04b1dac3abdbefadf41236064f847334bdc9f2eb",
-      "expected_previous_sha256": "10030371c396a68d231a6d4d30d0c8fa80bd5fe93ae5ccfa7bf7e1c22819d55c"
+      "sha256": "f024d5e3b986cebba84dad7a86a85dc500f10c4a3d6bb4b82caa4431935d93e0",
+      "expected_previous_sha256": "adc100ff5cfbd74c4235b50b8bd1cad84c1b4732e807c658bd08f8b565f46e72"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R919-whole-Artin-Hecke-differential-trace.yml",
-      "request_path": "topics/serre-uniformity/notes/R919-whole-Artin-Hecke-differential-trace-public-request.json",
-      "request_sha256": "8cc51f4b2aa84abff97bcd71bb62afcae448a27413f1fb7db523d959990393cc"
+      "workflow": "serre-R917-two-endpoint-normal-orders.yml",
+      "request_path": "topics/serre-uniformity/notes/R917-original-two-endpoint-normal-orders-public-request.json",
+      "request_sha256": "4354fff045dd08b3682b73c633853722cdc67b067877c5ae9173dc2200d32e07"
     }
   ]
 }
