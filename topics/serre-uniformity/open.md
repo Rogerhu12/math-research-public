@@ -71,7 +71,7 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **R841原点及指定下降点表达式已成**：[正式结果](results/R841-certified-original-CM-point-and-descent-DAG.md)run43774984563/job132999220068/sourcecbcaa616，0.037801001秒，4stage/50node/174旧源。准确β_C=(3h0Q/N,A0/B0)、原f_R点均true，B0/Q/N非零有来源/几何证明；原v/κ及Galois全保。final52b80ce2/manifestde6b334f/config58164ca8，artifact14185648917/f848bab0至Nov16 23:28:50，最小carrier1.21MB/1cc858ba。全部1.32MB ZIP纯IO重哈希；旧CM/Hom/Norm不重。展开坐标/旧R792展开入口/抽象A前像/eta/height均false，后继点加法仍需具体准确零判。
 
 
-**短CM候选准确接受入口**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)证明只需准确A0−qB0=0，再以原L中d≠0、x̂³=q²−b、c(x̂)=ζ²x̂接受x/y′；有限518位及小曲线关系不代大零证。原F_Aᵗλ/e、Cᵗλ在P/free1186完整乘回，129个20维转置卷积免展开C；旧14模逆可复用，但无现成Q逆/dual高度保证，零证未计算。 小L必要筛选本次激活core53bfaa73/wrapper2d19d987，直接读R841载体的185源，仅准确换基和曲线/共轭/微分检验，不重CM/RR；A.1、原点坐标接受、eta/height恒false。
+**短CM候选的准确接受仍缺A.1**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；原F_Aᵗλ/Cᵗλ全乘回与129×20转置卷积接口保留，无现成Q逆/dual高度界。[小L七条件已全部准确通过](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)：run43777163403/sourceea5996fe，0.048331866秒/2stage，原q/d共轭、非零、x̂³和微分均true；final4d9a6ec5/manifestce1d0e39，artifact14186558953/4683b467到Nov16 23:53:10。原A.1、原点坐标接受、旧R792 success、eta/height仍false，不重本七条件。
 
 ### 全p sigma：同一个真正可见标签的三个单位
 

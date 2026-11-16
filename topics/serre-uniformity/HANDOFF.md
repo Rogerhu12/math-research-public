@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f87f8a4bedace3c8c27efc40f39f322ad80d8c29**（2026-11-16T00:09:11.375606+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次非挠前H](handoff-archive-2026-11-16-before-original-nontorsion.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：ec32746479497d3659cd6f1873bd90e3aba541ad**（2026-11-16T00:11:27.126410+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次非挠前H](handoff-archive-2026-11-16-before-original-nontorsion.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -32,7 +32,7 @@
 **R841原点及指定下降点表达式已成**：[正式结果](results/R841-certified-original-CM-point-and-descent-DAG.md)run43774984563/job132999220068/sourcecbcaa616，0.037801001秒，4stage/50node/174旧源。准确β_C=(3h0Q/N,A0/B0)、原f_R点均true，B0/Q/N非零有来源/几何证明；原v/κ及Galois全保。final52b80ce2/manifestde6b334f/config58164ca8，artifact14185648917/f848bab0至Nov16 23:28:50，最小carrier1.21MB/1cc858ba。全部1.32MB ZIP纯IO重哈希；旧CM/Hom/Norm不重。展开坐标/旧R792展开入口/抽象A前像/eta/height均false，后继点加法仍需具体准确零判。
 
 
-**短CM候选准确接受入口**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)证明只需准确A0−qB0=0，再以原L中d≠0、x̂³=q²−b、c(x̂)=ζ²x̂接受x/y′；有限518位及小曲线关系不代大零证。原F_Aᵗλ/e、Cᵗλ在P/free1186完整乘回，129个20维转置卷积免展开C；旧14模逆可复用，但无现成Q逆/dual高度保证，零证未计算。 小L必要筛选本次激活core53bfaa73/wrapper2d19d987，直接读R841载体的185源，仅准确换基和曲线/共轭/微分检验，不重CM/RR；A.1、原点坐标接受、eta/height恒false。
+**短CM候选的准确接受仍缺A.1**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；原F_Aᵗλ/Cᵗλ全乘回与129×20转置卷积接口保留，无现成Q逆/dual高度界。[小L七条件已全部准确通过](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)：run43777163403/sourceea5996fe，0.048331866秒/2stage，原q/d共轭、非零、x̂³和微分均true；final4d9a6ec5/manifestce1d0e39，artifact14186558953/4683b467到Nov16 23:53:10。原A.1、原点坐标接受、旧R792 success、eta/height仍false，不重本七条件。
 
 **原点非挠新充分判据**：[分裂处方法](notes/R792-original-padic-CM-point-nontorsion-method.md)b3b88cc9，只读原518商和h0，在原ell1000000753简单分支Hensel得到真实Qell点；Hasse区间BSGS给m，再带绝对精度仿射乘，有限正v(t([m]P))才证明非挠，未确定零诚实停止。无需ell∤m、不用RR候选/非primitive射影Z。原β∈A(Q)及R728 EndQ为域，真非挠后所有非零L-Hom值均非挠，可解特定加法分支；本次激活coredd3f06a2/wrapper5b6bcaa8，复用R841同185源；30分钟首scope，待实际run/finite witness，A.1/展开/eta-height仍false。
 

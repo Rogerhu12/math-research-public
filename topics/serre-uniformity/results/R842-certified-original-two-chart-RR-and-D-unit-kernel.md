@@ -189,7 +189,7 @@ run receipt为461 bytes、88ac7c4f2b5887280dafac4181274a9c45a0188cafd853ed385c04
 - [R836短核证明](R836-original-reduced-D-fixed-branch-pencil-and-short-RR-kernels.md)、
   [R837原固定两锚](R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)、
   [R838完整I2](R838-certified-original-second-derivative-ideal-and-minimal-order3.md)。
-- [R839原短RR更正证明](../notes/R839-original-short-RR-and-D-kernel.md)与
+- [R839原短RR更正证明](../notes/R839-original-short-RR-spaces-from-homogeneous-source-rank.md)与
   [已结束单图及两图补全](../notes/R839-ended-tau-source-rank-and-two-chart-completion.md)。
 - [本次两图执行方法](../notes/R839-original-two-chart-short-RR-and-D-kernel-method.md)及
   [原请求](../notes/R839-two-chart-public-request.json)。
