@@ -214,4 +214,9 @@
 ### 2026-11-16 20:23 Asia/Taipei — serre-public-astra-20261115
 - R893五原初始RR实际结论单独登记：412.672739265s/632stage/131源，完整168/376/250/386/343空间、五原unit minor、全部Schur与A−yB整纤维关系均成；不冒特征零数组重构。
 - 必要IO v17真读392件/完整A/B与原纤维值，0..7旧K复用、8..26新K保真；R896消费者接这些已成源，R894已真run43864869152入十六flip。
-- 本push规则：等待公开Actions真实pull/rebase并核两README；主目标OPEN。
+- 本push规则：公开Actions真实pull至8aad49cb6bb6b1a1d2778c3cc64651e7dd3c60bd（2026-11-16T12:23:17.407456+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 20:29 Asia/Taipei — serre-public-astra-20261115
+- R899：原K完整纤维坐标实际418单位子式足够给唯一K固定完整基，旧下降矩阵保准确DAG、新作用I418；不预断三纤维注入或六次共轭数组。
+- 激活R896五原低权残余RR消费者，接R893真实392件/五A/B与全纤维、旧正常与jets，保τ权/负χ幂/原未缩放t首项；R899消费者仍等R894真源。
+- 本push规则：公开Actions真实pull并逐次比两README；已读8aad49cb6bb6b1a1d2778c3cc64651e7dd3c60bd，SHA6979d793/35f82f3d无diff；每结论单独推，主目标OPEN。

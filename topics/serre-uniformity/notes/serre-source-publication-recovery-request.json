@@ -2,40 +2,71 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1223-certified-five-original-complete-initial-RR",
-  "commit_message": "serre: certify all five original sum-Hom complete initial RR spaces",
-  "rules_last_read_commit": "89085c72b92590139eca41c510f81f9deee8437e",
+  "request_id": "20261116-1229-K-fixed-trace-basis-and-low-weight-execution",
+  "commit_message": "serre: prove original K-fixed trace basis and activate low-weight kernels",
+  "rules_last_read_commit": "8aad49cb6bb6b1a1d2778c3cc64651e7dd3c60bd",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "0b147930f7cedec7eb0a209e97a6be1a81ac2354091fa6c6e88c6b0c32f1d189",
+  "expected_previous_request_sha256": "cadcccfbaed7870834e21c323d539ba8d5a16b6e923a1de1adc28ece6da9321d",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R893-certified-original-five-sum-Hom-complete-initial-RR.md",
-      "sha256": "bd5f004efd6e7f12cdb9ccae1717c3862e17e066d309310205397bd0f2442d5e",
+      "path": "topics/serre-uniformity/results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md",
+      "sha256": "3350668f7adcb9f9cb5c0feee58582a87b40313af7a9c89e3c76a5394bf4f88a",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R896_original_five_sum_Hom_low_weight_RR.py",
+      "sha256": "cb1b669afb6dc6a7190c60835d54e8c838a064838181b2087c2409282c10b4e8",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R896_public_original_five_sum_Hom_low_weight_RR.py",
+      "sha256": "00e94e7f82e1d770f58dbbb584e09c66ad3d7d755cbbecb53dd9728d5661a023",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R896-original-five-sum-Hom-low-weight-RR-consumer-method.md",
+      "sha256": "8c27bd771868bfa1ad5904c0887ff96226a009bd616674a7177744f05456d0bf",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R896-five-sum-Hom-low-weight-RR-public-request.json",
+      "sha256": "b5b90ae6299e0edab64ccedd02979e86fd7b43d44cd246e4f1325197e4920c09",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R896-five-sum-Hom-low-weight-RR.yml",
+      "sha256": "86025dfe55e4b4be73e1a5cea586c34d71296aa8498753a09f489f1aba70ce62",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "79832db5d4c91dfac67687293fa5d2587607a7d1acd7ce4cc4005f3e4efc2819",
-      "expected_previous_sha256": "963a1564ee111fce09dd9d115aa2708e7bd604ac326e026485f3a0801a038304"
+      "sha256": "0bec23590996a6818a6dc04e0644226d4afc740060efa232d5113597f5458cff",
+      "expected_previous_sha256": "698a6ad0b73140c0e6972c646692eeef5351d15ce96c1981123e7d7386c3f8a6"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "cf11f74b93aa506de10e4f091f5aa86f7353d178d5ad8b720e32fe99a4ee5ce7",
-      "expected_previous_sha256": "36e0e6d34eff150be0fefddc037ea07586eabcebf00398a2d8bb9b23df2ba0f6"
+      "sha256": "b2c0f58fcf737da364dc399ee1be7865ce42f4a19daa3ce07ed08faddabf4809",
+      "expected_previous_sha256": "cf11f74b93aa506de10e4f091f5aa86f7353d178d5ad8b720e32fe99a4ee5ce7"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "a9a6f90e46b3e1ef18975f0db55f8decdec73a1f56e2e48a8cafe83731f0567a",
-      "expected_previous_sha256": "e83c3ebc72798a5b23dceb5c0a35d44eed48fb5be6382a2ea3a8e166c9561c33"
+      "sha256": "47577d55e4cb2c047ac85a90f60272cc907dba4a7a4e690416e622d22f36085d",
+      "expected_previous_sha256": "a9a6f90e46b3e1ef18975f0db55f8decdec73a1f56e2e48a8cafe83731f0567a"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "cea5dd891f001ba5029d25c972881de7cf714da0c03e135f2857aa4948d23f2d",
-      "expected_previous_sha256": "cda8ab546f0b028ef6d27fbe294a497f8419fa2340f7db136707d32b142b19d1"
+      "sha256": "c707aa352eab3b634057ce8af4afe00eaa603c9ef480851806037e51c32170ba",
+      "expected_previous_sha256": "858a8eab70ccdaeb7474db344cd692827279bfab8d92242ae1fb8df1b3b7f63d"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R896-five-sum-Hom-low-weight-RR.yml",
+      "request_path": "topics/serre-uniformity/notes/R896-five-sum-Hom-low-weight-RR-public-request.json",
+      "request_sha256": "b5b90ae6299e0edab64ccedd02979e86fd7b43d44cd246e4f1325197e4920c09"
+    }
+  ]
 }

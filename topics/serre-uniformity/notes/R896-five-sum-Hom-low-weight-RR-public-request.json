@@ -1,0 +1,412 @@
+{
+  "schema": "public-original-source-bound-arithmetic-request-v1",
+  "session": "serre-public-astra-20261115",
+  "request_id": "R896-original-five-sum-Hom-low-weight-RR-first-completed-input-scope",
+  "result": "R896-original-five-sum-Hom-low-weight-residual-RR",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "all_new_mathematics_only_in_public_Actions": true,
+  "core": "R896_original_five_sum_Hom_low_weight_RR.py",
+  "core_sha256": "cb1b669afb6dc6a7190c60835d54e8c838a064838181b2087c2409282c10b4e8",
+  "wrapper": "R896_public_original_five_sum_Hom_low_weight_RR.py",
+  "wrapper_sha256": "00e94e7f82e1d770f58dbbb584e09c66ad3d7d755cbbecb53dd9728d5661a023",
+  "workflow": ".github/workflows/serre-R896-five-sum-Hom-low-weight-RR.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R896-original-five-sum-Hom-low-weight-RR-consumer-method.md",
+  "method_sha256": "8c27bd771868bfa1ad5904c0887ff96226a009bd616674a7177744f05456d0bf",
+  "proofs": {
+    "R896": {
+      "path": "results/R896-original-two-denominator-low-weight-residual-RR-kernels.md",
+      "sha256": "ca0d8891a04683f712c1fe347f1da3e707854aa889163c7c3207ec8656b70341"
+    },
+    "R893": {
+      "path": "results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md",
+      "sha256": "91ce6834bda528976265a331fe0c987f4350049e7b228f1cc6c77e0a69142416"
+    },
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R848": {
+      "path": "results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md",
+      "sha256": "d7ab0082aff2add9af3e356a3124fed7650ff964fdd49790b4218497e767c9ad"
+    },
+    "c0": {
+      "path": "notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md",
+      "sha256": "d29ef204c77e7abe1b61ed50628574f58fc46f684ad4d00f8495ecd15c6a9073"
+    }
+  },
+  "budget_minutes": 300,
+  "requested_directions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "maximum_B_pencil_trials": 4,
+  "maximum_U_pencil_trials": 4,
+  "resume": null,
+  "rules_last_read_commit": "8aad49cb6bb6b1a1d2778c3cc64651e7dd3c60bd",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "source_artifacts": {
+    "R893": {
+      "result": "R893-original-five-sum-Hom-complete-initial-RR",
+      "run_id": "43861874528",
+      "source_commit": "fe27ac55e0c5d538ac60473df9f1c33f1f90f3b3",
+      "core_sha256": "c199ccbf95de73fb8e1f156a4adaea9ce517cb1c42c427b55c2dcc4901065daa",
+      "wrapper_sha256": "247980f1ecec1616004dd4569724b8742ce356df8b45a28231b6725c004beaac",
+      "configuration_sha256": "cd3f53628b4d16176691923ad029eae443075ccc7804927c9377a6d67dc94c9d",
+      "manifest_sha256": "58a66985fc3bcb663ab5e7c4238546d8d33a876a3fd69663e9f4f817fb8eb8b4",
+      "manifest_bytes": 98261,
+      "manifest_file_count": 643,
+      "certificate": {
+        "file": "p41-original-five-sum-Hom-complete-initial-RR-certificate.json",
+        "bytes": 18395,
+        "sha256": "ad135ab7a624beaad0e1fba76230a63cfe478b3aa667b6b33624f763269cf728"
+      },
+      "artifact_id": 14224626902,
+      "artifact_name": "serre-global-R893-five-sum-Hom-initial-RR-43861874528-1",
+      "archive_bytes": 576747513,
+      "archive_sha256": "cc7cc8e58754205f1472929b4a733e20bf594732aae869a19004d9c32fb01893",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T12:03:18Z"
+    },
+    "R880": {
+      "result": "R880-original-D-and-cusp-bounded-RR-inputs",
+      "run_id": "43840391925",
+      "source_commit": "3c1ddaf3c94d63aee2f9dd0bee32b6dbdeff35b9",
+      "core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+      "wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+      "configuration_sha256": "a45fbf96ab0c58b64609bbf147b2ced7c8edd16f6ac59829d3e870641380b873",
+      "manifest_sha256": "ce5240b0e1385253ea5cce459842888f0f4e374a255f496a6d93bb54869983db",
+      "manifest_bytes": 8526,
+      "manifest_file_count": 50,
+      "certificate": {
+        "file": "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+        "bytes": 18296,
+        "sha256": "a9b24bacd5965ab387d719d70238e83c5a12dfd9b101970649b6a3f889a3c3f8"
+      },
+      "artifact_id": 14212028755,
+      "artifact_name": "serre-R880-D-cusp-bounded-RR-inputs-43840391925-1",
+      "archive_bytes": 105609871,
+      "archive_sha256": "5af19f69961afba3a1d7fba8cd71e7bb9ef5d5b0b5d99b390e5aafecc2028bb3",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:31:44Z"
+    },
+    "R872": {
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "certificate": {
+        "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "bytes": 17961,
+        "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+      },
+      "artifact_id": 14207558653,
+      "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+      "archive_bytes": 146222980,
+      "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:19:10Z",
+      "configuration_sha256": null,
+      "derive_configuration_from_pinned_original_stage": true
+    },
+    "R883": {
+      "result": "R883-original-t-first-order-frame",
+      "run_id": "43843430426",
+      "source_commit": "a41eaf283496222761525ba06efd1e3d61ab4f47",
+      "core_sha256": "2778a81b5639a1eb6285718574af0ce4b48b00e92b648c6ac29ffe70c1da66f7",
+      "wrapper_sha256": "91799e07dbf3a5875734df8fb4fdb3e4e15e7427195647973e76ac3ce82da76b",
+      "configuration_sha256": "ea27184f1beb64978adfa1940cf0b01343461e978319b4531b283d5b80b62a99",
+      "manifest_sha256": "d2e9de1f1d969695f1d7b8b3ebbd933264d292e377113f622ed623a68076390f",
+      "manifest_bytes": 2783,
+      "certificate": {
+        "file": "p41-original-t-first-order-frame-certificate.json",
+        "bytes": 9033,
+        "sha256": "3ae22a7651cecd492c170c44a034bea71356e01bd4fdc880851b86742298daeb"
+      },
+      "artifact_id": 14214835037,
+      "artifact_name": "serre-global-R883-original-t-first-order-frame-43843430426-1",
+      "archive_bytes": 8018550,
+      "archive_sha256": "3041116aa53b458e37635b8b5fccab6a2b988f4a57a05d6e5ba086229f0392bc",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:51:15Z"
+    },
+    "R827": {
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "expected_conclusion": "failure",
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d",
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "accepted_process_exit_codes": [
+        124
+      ]
+    },
+    "R890": {
+      "result": "R890-original-Ef-eight-flip-and-marked-frame",
+      "run_id": "43853462674",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+      "artifact_id": 14222786594,
+      "artifact_name": "serre-global-R890-eight-flip-Ef-43853462674-1",
+      "archive_bytes": 3818946840,
+      "archive_sha256": "c5e609ffdbcdaf1247dc33da59a4e74bc4bfabe63e8abfae8002569e0fb6ca41",
+      "expected_conclusion": "success",
+      "configuration_sha256": "75267c1ba5c7b60c69d22b6a4359a564c7636706b99be9dff781959523155f8e",
+      "manifest_sha256": "d51ef99be161206ab53cb00fd1807e200915305f5e06602ab93dd06af8f09a00",
+      "manifest_bytes": 1451468,
+      "manifest_file_count": 9239,
+      "certificate": {
+        "file": "p41-original-Ef-eight-flip-and-marked-frame-certificate.json",
+        "bytes": 12331,
+        "sha256": "986e2ea9a0015eec7842c8b678610fc143986472a7eb8f77d6708eef52080793"
+      }
+    },
+    "C0": {
+      "result": "R803-original-c0-Hodge-jets-and-comparison-leading-coefficients",
+      "run_id": "43790534424",
+      "source_commit": "a576ab9d3b6d155027ec6f52cb689205ee5e9b98",
+      "core_sha256": "4f8a41933c16727932308a52100376a86dc8b4e57458c4559ab00648fc33019e",
+      "wrapper_sha256": "a7b91ecd18b8f185e4f1a78ef82549c0ce4d8f56fa62dde4f707f48550cbf7d2",
+      "configuration_sha256": "06d8d96e468abc71be779d34084cdbb17bbe40ea779e1f198e7f58366110c78f",
+      "manifest_sha256": "b90422a5c839f59cfa500d717c83ab7b27352dbbac44d1d8beecd279f0b4d049",
+      "manifest_bytes": 5889,
+      "manifest_file_count": 34,
+      "certificate": {
+        "file": "p41-original-c0-Hodge-jets-and-comparison-leading-coefficients-certificate.json",
+        "bytes": 13827,
+        "sha256": "775a07af76479e2b891caae410677a49265df34c0df02d979e74d33be663e09a"
+      },
+      "artifact_id": 14191923906,
+      "artifact_name": "serre-global-R803-original-c0-Hodge-jets-and-comparison-leading-coefficients-43790534424-1",
+      "archive_bytes": 159795243,
+      "archive_sha256": "1aa8c65d83443f56095bcda4abd7958f98f8d944cb83fbb984cd32aa9940b625",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T02:11:15Z"
+    }
+  },
+  "R827_transport": {
+    "producer": {
+      "result": "R885-original-polynomial-one-row-adjugate",
+      "run_id": "43842694142",
+      "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+      "artifact_id": 14214590084,
+      "artifact_name": "serre-global-R885-polynomial-one-row-adjugate-43842694142-1",
+      "archive_bytes": 64381078,
+      "archive_sha256": "42bebd740b7bf4535ac7af50f072bcac8d1b7fc3a29796c43ad218c5c140021b",
+      "expected_conclusion": "success",
+      "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "wrapper_sha256": "12790bfaecf685ec66e2d6a1dca9a9cd4f74ad39f70f48e172bf5c23ac652c17",
+      "manifest_sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154",
+      "manifest_bytes": 77918,
+      "manifest_file_count": 560,
+      "configuration_sha256": "f4a4973d93b328bd76f93d41b668e70a0817c1510012b9824370a18858ed634a",
+      "certificate": {
+        "bytes": 7104,
+        "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30"
+      }
+    },
+    "source_inventory": {
+      "bytes": 5704,
+      "file": "R885-original-source-inventory.json",
+      "sha256": "18ebb9b23926f08780155a19ec0c24bacaa28d75d4adf9179f4f9322e608a1c0"
+    },
+    "retained_inputs_receipt": {
+      "bytes": 1765,
+      "file": "R885-retained-inputs-receipt.json",
+      "sha256": "58f2043a78e1301e96d3666eea5a87be075c1ba83b8b150a249430d4d8d0bdad"
+    },
+    "package": {
+      "bytes": 13461744,
+      "file": "R885-retained-R827-inputs.tar.gz",
+      "sha256": "95e2c88502c73b285a37f26df0765abd8bb4830742c231ced6f64a066fafa26b"
+    }
+  },
+  "prepared_transports": {
+    "R893": [
+      {
+        "archive": {
+          "run_id": "43864802081",
+          "source_commit": "9d3c15161c03fa207a06fcf99ba95093198b8dd7",
+          "artifact_id": 14224774305,
+          "artifact_name": "serre-required-original-source-intake-43864802081-1",
+          "archive_bytes": 151090834,
+          "archive_sha256": "fed29b488d1c87ef68d0b07ff21cbad4f833722f81a50ab729fbc6b92e7fbf6f",
+          "expected_conclusion": "success"
+        },
+        "package": {
+          "file": "R893-five-initial-RR-complete-intake-selected-original-sources.tar.gz",
+          "bytes": 150809978,
+          "sha256": "c599a9335b1fc8a2a519d066d8d0cfec471fd7ee4cf2ce241517f82638888397"
+        }
+      }
+    ],
+    "R890": [
+      {
+        "archive": {
+          "run_id": "43860838780",
+          "source_commit": "fc4fa39cb817c093ef870cb168222670612163fc",
+          "artifact_id": 14222928598,
+          "artifact_name": "serre-required-original-source-intake-43860838780-1",
+          "archive_bytes": 31320925,
+          "archive_sha256": "721e2601fdbcbe3d035a18b69c9c1905731496201cd88cc3352a97a8bf0e2fba",
+          "expected_conclusion": "success"
+        },
+        "package": {
+          "file": "R890-eightflip-complete-intake-selected-original-sources.tar.gz",
+          "bytes": 30951546,
+          "sha256": "4a307ff22a105f057dfecdfa4cdae82197100b217e877a74beb498b4e2c205ef"
+        }
+      }
+    ]
+  },
+  "input_selectors": {
+    "normal_V3_point_jets": {
+      "source_group": "R880",
+      "file": "R880-original-V3-252-point-jet-matrix.json.gz",
+      "bytes": 901788,
+      "sha256": "5f40695a800339604c7fba0fcf19e73c677dd54579170f50c46b054b9b903120"
+    },
+    "point_linear_functional": {
+      "source_group": "R872",
+      "file": "R872-point-linearization.json.gz",
+      "bytes": 1133054,
+      "sha256": "93ca998817049b278b1b0d3a7fd791f749acceefb05a9a33ed563cbcf51034fe"
+    },
+    "fixed_chi_divisor": {
+      "source_group": "R872",
+      "file": "R872-original-fixed-chi-divisor-and-section-source.json.gz"
+    },
+    "fixed_chi_anchor": {
+      "source_group": "R872",
+      "file": "R872-anchor-u.json.gz"
+    },
+    "t_frame": {
+      "source_group": "R883",
+      "file": "R883-original-t-first-order-unit-and-frame-DAG.json.gz",
+      "bytes": 3850,
+      "sha256": "136dd22c3aaddb0b650a5513eefd6db70bfee8a088f0f0cd437a5b6927f6094a"
+    }
+  },
+  "input_pins": {
+    "normal_V3_point_jets": {
+      "source_group": "R880",
+      "file": "R880-original-V3-252-point-jet-matrix.json.gz",
+      "bytes": 901788,
+      "sha256": "5f40695a800339604c7fba0fcf19e73c677dd54579170f50c46b054b9b903120"
+    },
+    "point_linear_functional": {
+      "source_group": "R872",
+      "file": "R872-point-linearization.json.gz",
+      "bytes": 1133054,
+      "sha256": "93ca998817049b278b1b0d3a7fd791f749acceefb05a9a33ed563cbcf51034fe"
+    },
+    "t_frame": {
+      "source_group": "R883",
+      "file": "R883-original-t-first-order-unit-and-frame-DAG.json.gz",
+      "bytes": 3850,
+      "sha256": "136dd22c3aaddb0b650a5513eefd6db70bfee8a088f0f0cd437a5b6927f6094a"
+    }
+  },
+  "cached_normal_V3_fibres": {
+    "0": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-0.json.gz",
+      "bytes": 442164,
+      "sha256": "ad6c22b19f4b462eb68bd24e0d47935d3d1640d6f8c766bcacbf86745e11c5de"
+    },
+    "1": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-1.json.gz",
+      "bytes": 568252,
+      "sha256": "9cbaecb63a5a051c15c19ac362fb7081feea90068c584577c65986e7777f6cd0"
+    },
+    "2": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-2.json.gz",
+      "bytes": 949175,
+      "sha256": "dddcf85768eea906a3f103356083a16ec26f83e4c3012197eea1ad59b7cfc70d"
+    },
+    "3": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-3.json.gz",
+      "bytes": 948756,
+      "sha256": "b316ed7699e0c6e16eea6a779f76b678f6fd66c9c18ac6e9d1da2694f09b181d"
+    },
+    "4": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-4.json.gz",
+      "bytes": 948657,
+      "sha256": "b8fde69ab3ef2ea7741be3430f5cd4fa7e0893199c557019b8e3866d6c89690e"
+    },
+    "5": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-5.json.gz",
+      "bytes": 948493,
+      "sha256": "fd761f63018d5e6d96c93487534a0c9fedb653d85ea75e259ce09aaf4d714293"
+    },
+    "6": {
+      "source_group": "R890",
+      "file": "R890-normal-V3-fibre-6.json.gz",
+      "bytes": 948171,
+      "sha256": "61233d7d41399fedd90c927a783b2b93bc510296f58e88830fa5851bcb3c1fb7"
+    }
+  },
+  "mathematical_scope": {
+    "source_complete_initial_RR_already_certified": true,
+    "source_R893_run": "43861874528",
+    "source_R893_all_five_complete_initial_RR_spaces_certified": true,
+    "new_arithmetic": [
+      "original unscaled B0 and same-space integer B1 selection",
+      "complete two-B low-weight product kernels and full original fibre-row checks",
+      "old-jet padding to146 and actual exact-order unscaled v",
+      "complete962-rank two-anchor kernels and normal418 projections",
+      "original tau-weight/negative-chi-power principal DAG and actual marked t-leading"
+    ],
+    "residual_dimensions": [
+      396,
+      188,
+      314,
+      178,
+      221
+    ],
+    "padding_orders": [
+      250,
+      42,
+      168,
+      32,
+      75
+    ],
+    "old_initial_Schur_whole_Q_Krylov_inverses_jets_delta_B_recomputed": false,
+    "original_Lj128_Picard_Hecke_support_connection_period_or_height_requested": false,
+    "characteristic_zero_coordinates_reconstruction_requested": false
+  }
+}

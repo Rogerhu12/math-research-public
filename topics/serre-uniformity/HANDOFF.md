@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main接续；旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：89085c72b92590139eca41c510f81f9deee8437e**（2026-11-16T12:15:01.190991+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字在[完整Cartan与trace执行前H](handoff-archive-2026-11-16-before-full-Cartan-and-trace-execution.md)（9990B/c8a8aa2d69874710b4383b5bc6ee520f47b1b5e18fec41b6da5250e1eaa67ee3），内接全部早先归档；原来源、已证结论与关闭边界继续有效。
+**已读规则提交：8aad49cb6bb6b1a1d2778c3cc64651e7dd3c60bd**（2026-11-16T12:23:17.407456+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字在[完整Cartan与trace执行前H](handoff-archive-2026-11-16-before-full-Cartan-and-trace-execution.md)（9990B/c8a8aa2d69874710b4383b5bc6ee520f47b1b5e18fec41b6da5250e1eaa67ee3），内接全部早先归档；原来源、已证结论与关闭边界继续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推直到成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw仅当前必要一日artifact，外部只纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。公开恢复workflow执行真实partial/sparse git发布。
 
@@ -32,9 +32,12 @@ R787 primal594、R824596、R787半坐标370/371及R854 N56→N112的真实断点
 
 **R880七A/B/六D*及R885整Artin已成**：原σ次序(0,6,1,2,4,3,5)、固定unit图/free1186及六原ρ首项保留；[七输入](results/R880-certified-original-seven-Galois-normal-inputs.md)、[六D*](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)、[整Artin/九Norm](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)和前态保存全pins。R893/R894直接接已成δB/418/Qtilde，原δB8×272/δ²B10×272；全Artin保nilpotents与dual7/帧，尚非全局Norm或height。
 
-**[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，五真实原minor单位与所有Schur/全纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)；artifact14224626902/cc7cc8e5至Nov17 12:03:18。必要IO v17 43864802081/art14224774305/tarc599a933实读392件，五A/B与全部B/yB纤维值供R896；8..26新K、0..7旧K复用。只初始RR，不冒V2n注入/标记pair/418/五Lj。 **[R896低权残余核已证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同完整B空间两截面的[B0V3,B1V3]实际最大秩690+δ排共同额外零；N>n+3直接注入，关系核投影维690−δ，经k=544−δ原jet padding得146，真962再得418。原τ^(3−n)/G/qχ和m0=1帧保留；尚无本项新秩，旧初始核/评价/273jets不重。五Lj128/144、YP/FM128/634/508rank507与c/a(P1)、eη/d/N/nonp/高度仍缺；I_Z不代Lj³。
+**[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，五真实原minor单位与所有Schur/全纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)；artifact14224626902/cc7cc8e5至Nov17 12:03:18。必要IO v17 43864802081/art14224774305/tarc599a933实读392件，五A/B与全部B/yB纤维值供R896；8..26新K、0..7旧K复用。只初始RR，不冒V2n注入/标记pair/418/五Lj。 **[R896低权残余核已证](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：同完整B空间两截面的[B0V3,B1V3]实际最大秩690+δ排共同额外零；N>n+3直接注入，关系核投影维690−δ，经k=544−δ原jet padding得146，真962再得418。原τ^(3−n)/G/qχ和m0=1帧保留；corecb1b669a/wrapper00e94e7f五件已激活，直接消费R893真实五A/B/全部纤维、R890七正常与旧273jets；新秩仍待Actions，不重旧初始核。五Lj128/144、YP/FM128/634/508rank507与c/a(P1)、eη/d/N/nonp/高度仍缺；I_Z不代Lj³。
 
 **[R894七极trace完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)**：六D*后直接18flip聚合3Σ(Dj−H)+7(−C*+H+4χ)，R890 D/E实际可读则只新16；不先做另六Ef各八flip。QN=Qorb FN正乘，ρ阶−8435/t首项正乘(c^1205)^7；非对称末代表只L定义，原K下降为(γQN/QN)γs、七重cocycle=1。core9a2793c7/wrapperbcf31979五件现激活：原56源原样、R890 D2/E/七正常及14旧H/E评价复用，只新16flip，完整证书后才清非live扫描并留全hash史；实际run43864869152/job133290893516/sourcebf74b397已入compute。K-fixed基/下降矩阵/五Lj/Hecke高度待算。
+
+
+**[R899原K固定完整基已证](results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md)**：V_K=H0(2H−T0)维418；原K完整纤维坐标实际418 minor A若单位，则S=QN·w·A^−1由唯一性逐列K固定。旧下降Cγ=A^−1γA只给DAG，新基准确I418，不重六次σ/16flip；三纤维不预断注入。完整Artin分母unit、原ρ/t阶−8435及418首项/首unit列须实际输出。R894真源完成后接最小消费者；K固定不冒Q固定或D_N定义域下降。
 
 ## 全p：原积分源
 
