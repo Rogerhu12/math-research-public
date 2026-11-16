@@ -3,11 +3,11 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：f99dfa9a59ac3b0d42b9df92bacefcc71510f1c5；2026-11-16 11:43:35 UTC核两README无变。实际CI pull 2026-11-16 11:01:37 UTC/98924967bf87b1fa30f8dd367f932511235355a8（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:43:09 UTC仍无环境。最迟2026-11-16 11:50 UTC再实际pull。
+- 最近已读规则提交：5c8f7cb49d812ab9c5300546675da7929f2d37de；2026-11-16 11:47:17 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:43:09 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 库存32,873,509B/2433文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；实际CI pull与API读head分清。
+- 库存33,009,180B/2443文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；实际CI pull与API读head分清。
 
 ## 完整检查点与分工
 
@@ -33,7 +33,7 @@ R882原18源/全17方块/绝对B0B2端点和目标尺度已付；eta商t12=T/V�
 
 R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整新shadow经无挠H1返回同原有理类，无需预乘人为D的5。r29几何F841、角色F5^6；实际[6]迹为E[5]点。真σθ=ωθ、R*D_j=D_j+1使原18×9和在eω后为(1/9)Σζj^aζk^b p_ab，χσ=ζ7/ζ4/ζ；不可在未拆二维点上先把几何ω当系数。
 
-R883全相对6算法保q_*D=div(yA−yB)+两pole、所有闭点/重数/分歧/∞及全d的[6]迹；Y属559，X属1729。原W与实际c∞ε给pab=pba、p02=−ωφp01、p22=−ω²φp11，只求00/01/11/12四完整除子。原三pair同零，由A=p00−ω²p12、C=p11+ωφp01两真点判定，ell7另一线也付。附F同整循环shadow改Abq2输出(Aaq0−φF)，从真实pole(yF)读dF，dF<2256才选2256+r*dF，否则2256(r+1)；无Manin1假设。所有局部公式/原18×9及九项系数见R883和完整H。
+R883全相对6算法保q_*D=div(yA−yB)+两pole、所有闭点/重数/分歧/∞及全d的[6]迹；Y属559，X属1729。原W与实际c∞ε给pab=pba、p02=−ωφp01、p22=−ω²φp11，只求00/01/11/12四完整除子。原三pair同零，由A=p00−ω²p12、C=p11+ωφp01两真点判定，ell7另一线也付。附F同整循环shadow改Abq2输出(Aaq0−φF)，从真实pole(yF)读dF，dF<2256才选2256+r*dF，否则2256(r+1)；无Manin1假设。所有局部公式/原18×9及九项系数见R883和完整H。附G以同底域两Tate读数准确恢复完整[6]迹，含ell|d；固定底配对完美、原常数嵌入/两辅助点和全指数已付，尚未切换实现。
 
 original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按真dF选循环表示；原288次正规化/真端点/全迹、实际CM和Frob矩阵、两真点判据及18×9/九项完整读数同核，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none；原请求触发workflow/host launcher已就绪，完整依赖及双进程状态保。尚无consumer请求、未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
 
@@ -45,7 +45,7 @@ original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按�
 
 R879附A–E付原V/C30热trace、H22整CM词、高端/q3消元、degree10旧行与同D2B4/D1Theta及全Y/Z；原m2的固定degree24水平框仍保依p高算子/modp²。共同b1原D1Theta接g_flat的s行，不是Hp/h1或K1末三尾。所有new余项仍保。
 
-R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X−32b³)/28；Ghat=G24+∇C24/20消E0高端，Ebar=(51E1+222E2)/770。指定D5=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+完整严格<p余配对。BT0不赋热左行零，参考秩0不赋BDref0。附A原VΘ−T/Θ²=8bK46H′22实搬两个中央，仍保两个cross；K46=σ2³J34、∇Θ17A34=J34保真实非恒定权。J34/S=Dlog(−y/x²)/8接同P2^34 Cartier，未获新零。theta续实际乘子/原配对。
+R884把同T72热trace送回实际C24/H22：G24=−σ24x(7X³−18bX²−120b²X−32b³)/28；Ghat=G24+∇C24/20消E0高端，Ebar=(51E1+222E2)/770。指定D5=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+完整严格<p余配对。BT0不赋热左行零，参考秩0不赋BDref0。附A原VΘ−T/Θ²=8bK46H′22实搬两个中央，仍保两个cross；K46=σ2³J34、∇Θ17A34=J34保真实非恒定权。J34/S=Dlog(−y/x²)/8接同P2^34 Cartier，未获新零。附B同A=SΘ与真N36=A−old，将原VT两差准确减成Q(N36,J36)和Q(N36,A)：L36−J36=252A，3VΘ³−2T=A(D36+1008bN36)。后者是同S自配对，仍保三个质量一cross，未赋零。theta续实际乘子/原配对。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 

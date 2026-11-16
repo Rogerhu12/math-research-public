@@ -206,3 +206,5 @@
 - **R271首头真一孔核消去、物理两孔正Schur与同完整来源（2026-11-16，已证明）：** [完整物理两孔定理](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)以原偶强头K⊥Z保全部一孔dark/coherent真核，得F1=(I−PK≤1)f1；真实低伴随像ζ(z)=zω1+A zω2最小化给F2=q♯ω2−λω1 z♯及准确费γ2²=σ2²<q,(I+λAA*)⁻¹q>，其中λ=σ2²/S。两个代表原物理正交且在原PV−PK、完整matched源及真帽运输上相同，给最优调和费用；两孔整行交叉σ2(y)/σ2(x)及所有h段Bessel保同w/同源误差。γ2移动上界仍开，未据条件费用律宣N=M。纯证明，根全文独审，无新数值运行。
 
 - **R150 原t2指定循环自由项（2026-11-16）：** [完整整自由格§7](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)的全225列实际只读核验给原t2前23自由列单位，因而可取U=R·t2的自由像≅R/h，实际M≅(R/s)²⊕E、E=S+Rt2；不抹系数扭子或未定扩张。其余原九模31秩逐实报告，4/10为22。
+
+- **R150 原共同M根二长34与全局八生成（2026-11-16）：** [完整定理](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)以六位原carry/完整26D关系给S2型(2^7,4,5,5,6)、长34/dD11，xS2=(1,2,2,3)、pxS2=(1,1,2)，dR(S2)=dR(M)=8；补18列B后只读完成，根用独立整数HNF复核。S1仍0或p、完整S长34或35，余R/h扩张保留。

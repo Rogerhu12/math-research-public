@@ -1037,3 +1037,208 @@ $p_{ab}$ 的恒等式，不依赖 (F4) 采用哪一种呈示。
 因此仍只需要计算 $(0,0),(0,1),(1,1),(1,2)$ 四个完整除子，
 保留原18项 Artin、双轴 Fourier、CM 符号和全部归一；
 不会把 (F6) 的选择算成新的独立来源。
+
+
+## 附录 G：用两个约化 Tate 读数准确恢复完整闭点 trace
+
+本节仅替换附录 A 中每个剩余域点的大整数椭圆乘法。原四个完整除子、所有共同交重、
+唯一额外提升、源上的相对三次分歧、两轴 Artin 系数以及附录 F 的可选呈示全部保持。
+没有执行新的数值计算，也不预报任一原影子非零。
+
+置
+$$
+(r,\ell)=(29,5)\ \text{或}\ (41,7),\qquad
+k=\mathbf F_{r^2},\quad q=r^2,\qquad E=E_0:y^2=x^3+1 .
+$$
+正文及附录 A 已付整个几何端同态
+$$
+\pi=\operatorname{Frob}_{q}=[-r].
+\tag{G1}
+$$
+故精确有
+$$
+E(k)=\ker(\pi-1)=E[r+1]=E[6\ell],
+\qquad
+E[\ell]\hookrightarrow E(k)/\ell E(k)
+\ \text{是同构}.
+\tag{G2}
+$$
+第二式使用 $\ell\nmid6$；它不是从 $\ell\mid\#E(k)$ 单独推出。
+
+### G.1 固定底域上的配对和绝对方向
+
+对 $T\in E[\ell]$ 取
+$$
+f_T\in k(E)^\times,\qquad
+\operatorname{div}(f_T)=\ell[T]-\ell[O].
+$$
+对 $P\in E(k_d)$，其中 $k_d=\mathbf F_{q^d}$，选择辅助点
+$R\in E(k)$ 使所写值均有限且非零，定义
+$$
+\boxed{
+t_d(T,P)=
+\left(\frac{f_T(P+R)}{f_T(R)}\right)^{(q^d-1)/\ell}
+\in\mu_\ell\subset k^\times .
+}
+\tag{G3}
+$$
+函数的常数归一因子在比值中消掉。由 Weil reciprocity，改变同一
+$[P]-[O]$ 的无交支撑代表只改变一个 $\ell$ 次幂，故 (G3) 不依赖 $R$。
+这正是第一变量为挠点的约化 Tate–Lichtenbaum 规范；可核
+Enge, *Bilinear pairings on elliptic curves*, §4、§5
+<https://arxiv.org/pdf/1301.5520>，
+以及 Galbraith 作者修订稿 §26.3、式(26.2)与 Definition26.3.4
+<https://www.math.auckland.ac.nz/~sgal018/crypto-book/ch26.pdf>。
+下面对本曲线给自含的非退化和 trace 证明，不要求任意扩域上的限制配对非退化。
+
+为固定可能的 Weil 配对逆号，直接定义以下辅助配对。除子
+$$
+[\ell]^*([T]-[O])
+$$
+次数零、群和为 $\ell T=O$，所以是主除子。取定义于 $k$ 的函数
+$g_T$ 为它的函数；可用原点处首项1作 Galois 不变归一。
+于是
+$$
+g_T^\ell=c_T\, f_T\circ[\ell],\qquad c_T\in k^\times.
+$$
+对 $S\in E[\ell]$ 定义
+$$
+\varepsilon_\ell(T,S)=\frac{g_T(Z+S)}{g_T(Z)}.
+\tag{G4}
+$$
+其值与一般点 $Z$ 无关且属于 $\mu_\ell$，因为该比值的除子为零，
+其 $\ell$ 次幂为1。它在两变量双线性。
+若某 $T$ 对所有 $S$ 的比值均为1，则 $g_T$ 对整个 $E[\ell]$ 平移不变，
+从而沿 $[\ell]$ 下降为一个函数，其除子为 $[T]-[O]$；这迫 $T=O$。
+故 (G4) 是完美配对。此定义已经指定方向，不借用一个可能取逆的库约定。
+
+若 $[\ell]\widetilde P=P$，同取 $[\ell]\widetilde R=R$，
+将 $g_T(\widetilde P+\widetilde R)/g_T(\widetilde R)$ 的
+$q^d$ 次幂与自身相除，得到
+$$
+\boxed{
+t_d(T,P)=
+\varepsilon_\ell\bigl(T,\pi^d\widetilde P-\widetilde P\bigr).
+}
+\tag{G5}
+$$
+理由是该比值的 $\ell$ 次幂恰为 (G3) 括号内的函数比值；
+$\widetilde R$ 的 Frobenius 差在分子、分母完全抵消。
+所以辅助点和 $c_T$ 均不产生额外倍率。
+
+特别对底域的 $P\in E[\ell]$，由 (G1) 有
+$\pi\widetilde P-\widetilde P=-(r+1)\widetilde P=-6P$，故
+$$
+\boxed{t_1(T,P)=\varepsilon_\ell(T,-6P).}
+\tag{G6}
+$$
+因 $-6\in\mathbf F_\ell^\times$，固定底域上
+$t_1:E[\ell]\times E[\ell]\to\mu_\ell$ 完美。
+这同时给出了 (G2) 在本问题所需的真实非退化，而非只引用一个群阶条件。
+
+### G.2 任意剩余域次数的完整相容性
+
+取正文的某闭点 $Q$，完整剩余域为 $k_d$，实际输出点为 $P\in E(k_d)$。
+令
+$$
+\operatorname{Tr}_dP=\sum_{i=0}^{d-1}\pi^iP\in E(k).
+$$
+以 $\sum_{i=0}^{d-1}\pi^i\widetilde P$ 作它的 $\ell$ 除点，
+其 Frobenius 差恰为 $\pi^d\widetilde P-\widetilde P$。
+(G5) 因而给
+$$
+\boxed{
+t_d(T,P)=t_1(T,\operatorname{Tr}_dP)
+\quad\text{对每个整数 }d\ge1\text{ 成立}.
+}
+\tag{G7}
+$$
+同式也可逐函数核对：
+$\operatorname{Norm}_{k_d/k}(u)=u^{(q^d-1)/(q-1)}$，再乘底域的
+$(q-1)/\ell$ 次幂恰是 (G3) 的指数；范数除子的类是
+$[\operatorname{Tr}_dP]-[O]$。
+
+**这里允许 $\ell\mid d$。** 此时扩域上将第二变量再限制到原
+$E(k)[\ell]$ 的配对确实退化：若 $P\in E(k)[\ell]$，其 trace
+为 $[d]P=O$，(G7) 的两边都是1。程序不把这个退化限制拿来恢复
+$P$，而只读取原来的完整 trace。对一般 $P\in E(k_d)$，
+(G3) 仍保完整指数 $(r^{2d}-1)/\ell$；不把它换成依赖
+$d\bmod\ell$ 的指数，也不先将 $P$ 当作 $\ell$ 挠点。
+
+附录 A 的大整数点乘与这里所得完全相同：
+$$
+[6]\operatorname{Tr}_dP
+=\left[\frac{1-(-r)^d}{\ell}\right]P.
+\tag{G8}
+$$
+本附录把 (G8) 的点乘换成两个 (G3) 的有限域幂和一次固定矩阵求解，
+没有改变闭点的剩余次数。
+
+### G.3 两个固定辅助点已足够，含 $P=-R$ 的边界
+
+令 $T_1,T_2$ 是原消费者已经验证的 $E(k)[\ell]$ 基。
+计算以 $T_i$ 为第一变量的 (G3) 时，取另一个基向量 $U_i$，
+只在
+$$
+R=U_i\quad\text{和}\quad R=2U_i
+\tag{G9}
+$$
+中选择。二者都不在 $\langle T_i\rangle$。若两个
+$P+U_i,P+2U_i$ 都在该循环子群，其差 $U_i$ 也在该子群，
+矛盾。因此至少一个 $R$ 同时满足
+$$
+R\notin\langle T_i\rangle,\qquad
+P+R\notin\langle T_i\rangle .
+\tag{G10}
+$$
+这个选择可用最多 $\ell$ 个已知点比较准确执行，无随机失败分支。
+
+用 $T_i$ 的短 Miller 加法链计算 $f_{T_i}$ 时，每个线函数和竖直函数的
+零极均支撑于 $\langle T_i\rangle$；所以 (G10) 连中间表达式的
+$0/0$ 都排除。它比仅避开最后函数的 $O,T_i$ 更强。
+若 $P=-U_i$，第一选择落在 $O$，第二选择给 $P+2U_i=U_i$，
+仍安全；$P=-2U_i$ 同理。$P=O$ 时两种比值都为1。
+正文认定输出为射影原点的分支直接贡献零向量，不能对其仿射坐标作未定义代入。
+
+剩余域中的 $T_i,U_i,\mu_\ell$ 都沿该闭点的**原常数域嵌入**
+$k\hookrightarrow k_d$ 输入，不能另选一个未对齐的同构。
+同样原几何 $\omega$ 与 Artin 系数域中的角色在后续仍按附录 C–E 的约定处理。
+
+### G.4 原两坐标、全部交重及四点检测保持
+
+固定任意 $\xi_\ell\in k$ 的精确阶为 $\ell$ 的根，定义
+$$
+M_{ij}=\log_{\xi_\ell}t_1(T_i,T_j)\in\mathbf F_\ell.
+\tag{G11}
+$$
+由 (G6)，$\det M\ne0$。$M$ 使用 (G3) 的同一实际 Miller 规范计算；
+因此无需假定某软件的 Weil 配对方向，也无需猜定基的行列号。
+
+将原有效除子及正文共同项、唯一提升全部处理后，设对应的完整输出为
+$$
+p_{ab}=[6]\sum_Q n_Q\operatorname{Tr}_{d_Q}P_Q .
+$$
+这里 $n_Q$ 是原完整交重；相对三次分歧已按正文处理，射影原点项为零。
+令
+$$
+b_i=
+6\sum_Q n_Q\log_{\xi_\ell}t_{d_Q}(T_i,P_Q)
+\pmod\ell,\qquad
+\binom{x_1}{x_2}=M^{-1}\binom{b_1}{b_2}.
+\tag{G12}
+$$
+由 (G7) 和双线性，
+$$
+\boxed{p_{ab}=x_1T_1+x_2T_2.}
+\tag{G13}
+$$
+在执行 (G3)/(G7) 后，才可在 (G12) 中将交重系数约模 $\ell$；
+这不是先把未 trace 的点或闭点次数约掉。
+离散对数仅在已固定的 $\ell=5$ 或7个根中查表，且每个值应断言
+确在该表中。
+
+所以同样的四个完整 $p_{00},p_{01},p_{11},p_{12}$ 被恢复，
+附录 D 的常数 Frobenius、附录 E 的两点非零判据及
+完整18项／九项 Fourier核验均可原样使用。
+这给一个可选的严格计算替换；尚未比较实际运行时间，
+也不把本配对的非退化当作原循环影子已经非零。

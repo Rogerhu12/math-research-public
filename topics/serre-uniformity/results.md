@@ -301,3 +301,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 **R895原全带收缩与未分歧源content已完整证明**：[结果](results/R895-original-all-band-theta-contraction-and-unramified-content.md)。真实非交换Θ递推给所有band，trace有限和化(1−xy)^L；Gauss只有最大整数次数差可入，保跨p修正的真实边界。C_h(S)/p整等价全部指定奇a的36维源系数为零，此时末带也零，故该未分歧源类上除p向量不能为整单位。原x⊗−xy系数明确，未判原R770标量为零；实际分歧quotient/Γ来源比较继续，不加有限素数窗口。
 
 - **R896（完整证明，算术未运行）**：**R896已证、待原算术**：[两B低权残余核](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)直接消费R893完整初始B空间，不扩大其首scope。五个[B0V3,B1V3]矩阵列数1380，真目标秩984/1192/1066/1202/1159；全部原N满足N>n+3，故无需V2n。第二投影给396/188/314/178/221维完整残余空间，padding 250/42/168/32/75条件得146，再真962两锚得418。B0原P0标记、v第k阶、τ^(3−n)及qχ负幂不能删；原m0=1、t首项正乘c^(e−m0)，不预填任何模秩。以后同一j的Galois必须保同unit-solve索引和整数组合。 SHA256 ca0d8891a04683f712c1fe347f1da3e707854aa889163c7c3207ec8656b70341。
+
+- **R880六共轭实算已成**：[实际认证](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)，run43857317518成功，六新418、原固定单位图/295/269/146/962链及七主函数原ρ首项全部完成。σ幂1..6对应branch6/1/2/4/3/5，原局部单位不缩放；本producer没有t首项或特征零展开。R893直接接已成五δB，R894直接接七418与Qtilde，不重算旧共轭空间。 SHA256 715339267183a1e0553354da8d73dcf5cad5e780083af57c2fd64d35ed768e73。

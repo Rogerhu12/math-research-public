@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 41decac2cb9430cba1f26e044c3c2af96d5d04cc（2026-11-16 11:38:41 UTC，Actions run43859458831实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43859458831-1.json。
+- **最近成功实际 pull 与已读规则提交：** a2c765ec1669b23c188a82f7257bf0239ff4b200（2026-11-16 11:47:05 UTC，Actions run43860752876实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43860752876-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-t2-cyclic-free-lattice-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-complete-root-two-M-eight-generators-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -24,9 +24,9 @@
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
 - **[共同B完整D型及八参数生成元已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35项同父run43841516263/job133211082521全成，选源178.678秒＋消费268.741秒；B=(D/p)^6⊕D/p²⊕D/p³⊕(D/p4)^2⊕D/p5，长24，dD11/dR8，xB=(1,1,1,2)、pxB=(1)。真原18×22呈示经D提升/独立等长，完整x²0及原九单循环(5,2)全核。根两raw27357/54717、双binding、96原阶段/17类/9坐标/6payload独审，未重矩阵。正式稿真实push59d9cd0e（run43844738994），非仅API准备。
 
-- **[共同M整自由格已闭](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)：** 原225列/真T16商给饱和自由25，R模恰R/s⊕R/s⊕R/h；新原t2前23自由列单位，最后项可指定R·t2自由像，余实际E=S+Rt2；s在T上可逆使前两项真分裂，余E为R/h与S=M∩T的扩张。full210本地3.923秒与远端run43849025211选源307.279秒＋消费2.168秒独立全成；全部共同数学字段SHA一致。域像34/最少6生成，根1交像0、根2交像9，仍8≤dR(M)≤9。完整S/余扩张仍开，root1保自有G/V。
+- **[共同M整自由格已闭](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)：** 全225原列/真T16给饱和自由25，恰R/s⊕R/s⊕R/h；原t2前23列单位，可指定末项为原t2自由像。s在T可逆使两简单项真分裂，余E=S+Rt2。full210本地与独立p9/35远端全部数学字段一致，完整来源/身份见正文；S1及余扩张续算。
 
-- **[原bounded50父全成／p12末处理续算](notes/2026-11-16-r150-original-joint-m-root-two-p12-interface-789f.md)：** 父750.971秒全30阶段完成，稳定末层30项/旧25前缀/真T16全核。session35280已611.718秒退出1：42原阶段、六315类与五原carry全成；末B检查把9原b的D像误当含xb的R像，原失败raw37792/SHAe6867a8f20e37f90aeaa08b8df44ead2fdac73475a6725a5114285609142afc2保留。仅小坐标后处理补完整[B,xB]再核，不重42阶段，不预填M新结论。root全源码/整数界/父及原失败身份已核。
+- **[共同M根二长34／原全局八生成已闭](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)：** S2=(D/p²)^7⊕D/p4⊕(D/p5)^2⊕D/p6，dD11；xS2=(1,2,2,3)/长8，pxS2=(1,1,2)/长4，dR(S2)=dR(M)=8。50项父750.971秒30阶段；p12原611.718秒42阶段全成，末B漏xb闭包失败原件保留。只读2.946秒核133输出、六位/完整26D关系及x作用、18列B/九单型全过；根独立整数HNF1.671秒再核全部133输出、指数/两个Nakayama数，未重原solve。完整binding/源SHA/失败与完成身份见正文。S1仍0或p，总S长34或35；root1必须自有中心G/V，下一核两digits及实际扩张，不把自由D分裂改成R分裂。
 
 ## R150完整非rank-one及Bell1
 

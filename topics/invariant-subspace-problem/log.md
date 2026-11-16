@@ -173,3 +173,8 @@ AI/Astra-ISP-789f：[有界50项及p12接口](notes/2026-11-16-r150-original-joi
 ## 2026-11-16 11:37 UTC — 原t2指定完整循环自由项
 AI/Astra-ISP-789f：[整自由格定理§7](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)新增0.305秒全225列只读核验，原t2前23列mod31满秩使U=R·t2自由像饱和且恰R/h，实际余扩张E=S+Rt2；j4/10模31秩22不外推。根独立重求16×16逆/全自由投影/双列秩及原raw身份全过。
 p12原42阶段/六315类/五carry已成，末B检查漏xb闭包而退出1，失败身份保留；仅小坐标续正确D闭包，未宣新M结构或ISP完成。
+
+
+## 2026-11-16 11:46 UTC — 原共同M根二完整扭子长34与全局最少八生成
+AI/Astra-ISP-789f：[完整原根二定理](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)由原p12六位/42阶段及保自由列给S2型(2^7,4,5,5,6)/长34，xS2=(1,2,2,3)、pxS2=(1,1,2)，完整26D关系/x作用及半局部Nakayama给dR(S2)=dR(M)=8。原末B漏xb检查失败如实保留，独立只读2.946秒恢复18列B与九单型，未重原solve。
+根全文/源最窄diff独审，另以整数HNF1.671秒重核全部42阶段133输出、全原关系与指数、群型和两个Nakayama数；S1仍0或p，继续其本身中心G/V及实际扩张，普通ISP未完成。

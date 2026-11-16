@@ -177,7 +177,13 @@
 - 本push规则：公开Actions真实pull至08f120e3ed3580341b872c3257cc0f2acc06834f（2026-11-16T11:38:04.051936+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
 
-### 2026-11-16 19:50 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 19:47 Asia/Taipei — serre-public-astra-20261115
 - R896单独登记：原五sum-Hom同完整B空间的两B低权乘积核，最大秩直接排额外共同零，初始N已足够；旧全纤维/初始核/原jets不重，新padding/962/418仍待实际运行。
 - R890真8flip/9228stage/1874.06585011s成功，激活必要小IO v16供实际首项登记与R894复用D2/E；保全部原主函数、未缩放单位与t正幂。
-- 本push规则：待本公开Actions真实pull并更新，根与课题规则SHA预期不变，主目标OPEN。
+- 本push规则：公开Actions真实pull至14f696e354df5ef83405fd9c0160c86bd89e6612（2026-11-16T11:47:45.533689+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 19:53 Asia/Taipei — serre-public-astra-20261115
+- R880六非零共轭D*实际结论单独登记：351.082761716s/1093stage/230源，完整六418与原固定图、主函数、ρ首项全成；σ幂与branch逐项分清，t值仍待实际下游。
+- 小IO v15逐原manifest读42件/11.99MB，R893复用已成δB、R894接七原418及主函数；原K/第零支/原jets不重，新raw仅一日artifact。
+- 本push规则：待本公开Actions真实pull并更新，两README SHA预期不变；主目标OPEN。
