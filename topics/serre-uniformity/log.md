@@ -336,7 +336,12 @@
 - 原QN需R899独立实际闭包，旧参考九范数与目标272正常行直接消费；R903/R901/R899仍null，仅ARTIN已有真实源。两端数值false，准确两图ideal/dual7不冒材料化格或height；H前态归档。
 - 本push规则：公开Actions真实pull至25aff780e965fc4d9d06b7fe145ad4f18ac8cf3c（2026-11-16T14:34:39.615588+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-16 22:49 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 22:45 Asia/Taipei — serre-public-astra-20261115
 - R899真实公开run43879192431完成280stage：完整816×418秩418/minor157473788，全部K固定列及原P0列0、ρ/t首项528708486/590477772已认证，原列不缩放。
 - 原164件闭包直接接R900，真实R899/R894填入并激活；1234/962与DK仍待算。旧flip/全纤维/jets未重，原H逐字归档。
+- 本push规则：公开Actions真实pull至b353a12dd8d1fb2d03c5c2cc4d606c9be820f662（2026-11-16T14:45:58.276336+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:47 Asia/Taipei — serre-public-astra-20261115
+- R911完整纸证单独登记：实际Picard余切与dual Lie逆号逐式固定，Drinfeld仅低半余切权/Igusa无primitive字符，迫上半r=2h−n；下半r=0。
+- 上半两实际αp子群及Igusa a-number下界保同h，原content不冒指定盘normal/jet；Milne与EP原文已读。R899已推1418d76e，R900真run43889194318已受理，H前态归档。
 - 本push规则：公开Actions发布前真实pull并比较两README，若有diff即读并遵守；实际已读提交由恢复worker写回，本仓库Actions独占新数学，主目标OPEN。
