@@ -21,7 +21,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 已证闭域/共同正则器只按原范围使用：全H稠密不传未知限制/有限旗，G不扩一般慢Acal，UHF不运输未知Haar格。正常态/边界奇异态、固定次数/全部向量不同；C未必保M，全等向不代局部等向，不能删域或压缩中央耦合。所有结果仍为中间结论。
 
-所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
+本轮完整前态另保[target25前全文](notes/2026-11-16-open-before-complete-target25-789f.md)。所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
 
 **原式来源与31饱和。** 已付原h0模31²分母指数恰1、完整原17模31³费用87及e0任意次数mod961负证；详细来源/旧计数保[完整前态](notes/2026-11-15-open-before-external120-and-relative-normal-789f.md)。最新同原全局因子、系数tors与p6范围见末节；有限模身份不代char0。
 
@@ -133,10 +133,6 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 原G_reg同forcing/carry、Haar普通循环性、正常有限秩相容链及前文全部开放接口继续。普通ISP完整定理或反例出现前继续工作。
 
-- **[全局第二系数像已完整核：I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)。** 全197原17式/p³÷p²/505/315/J/DAG给维7、χ=(s−1)²(s−2)^5，exact t2=5且该级χ=(s−1)(s−2)^4；Δ≤299/μ≤21未降。实际Ω约化及两独立完整系数乘回给barΩ=Q60²、barμ|(s−1)(s−2)²P+²P−²E6。完整global I3须197纠偏除源+7个参数图关系+b8（pb9在像中零），保原p4算术；不能遗漏七个sI−J7关系。root2完整210 recipe已付但p7/六整数零carry/第四像仍开；并行F127原模块与完整∞资格：旧model发现3333+2195仅5528而停止，旧NF未运行；新model全364×17/4433系数/18单位真；[全正常形](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)已63.3021秒核3333基及2855全源，660新增中658零、6046/6063两行非零，全入GB；GB已150.248秒全核，rank1021/free13/B8/Σd701，完整状态805，整torsion/∞资格待付。未预填好素数或μ1。
-
-- **原正常商的完整来源接口。** [6012真源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)与[显式商泛函/无Ω倒置投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)保全原120单位/13零输出/6012=5100+864+48。实际z_j=1、Mz=f²q给ℓ=zᵀ modf²，imMᵀ=kerℓ；多项式E取e_i−z_i e_j及f²e_j，Mᵀ=EV，三原det/f²的Σ-Bezout给VR=I。P=I−RV保全部rank34核，T=coker[B,H_M P]在原Σ局部化成立；新adj/R/P及完整W尾未实算。
-
 - **原连续相干列的全层MP。** [随机池完整证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)构造同D的q与精确r，候选相对最低费≤Sx/Sx+k+1、残量≤e^(−Sx+k/zx)；用真全层12·512^k修复得k=o(x)完整D†渐近最优，同fcoh低j一次MP小量。任意r步误差恰外池少于r位概率。k≈x、C+D返回和全partial仍开；原A_m含多降阶，不以假grade令H^-1g截低层。
 
 - **同actual-u的精确核与moving模型窗口已付。** [兼容Bernoulli塔/完整W_L源短缩](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)保同事件N≥L的Dv_r=v_(r−1)及真正压缩Gram；[缩放真实头/Chebyshev完整能量](results/R271-appendix-scaled-head-similarity-chebyshev-source-energy-and-moving-model-window.md)给logχ≤47d⁴/4、δ²≤min(1,4ϑ^(2ν))||f_L||²，ν=floor(L/(d−1))。x=ceil e^(12d⁴)、L=ceil e^(71d⁴/12)、Q≥x−m+L时全部原头forcing的u统一趋0，显式k_pol∈K_(m,L)并逼近同f_L。母提升实际保R0^(j+ℓ+1)及跨块2z−1，不能按一次Q²费；旧e^(26d³)合法窗未扩大。须针对该真候选支付原carry及同w完整D导数，模型结论不代T的N=M。
@@ -144,3 +140,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **放大方差下的同actual来源。** [完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许任意s_m≥S_m→0、任意强前缀R_m及任意1≤J_m<h_m，完整强头H_(C,J)(s_m)^−1强趋原P_M。阻尼物理列在Q≥R+J保持同一V_Q/K_Q/u，远孔指数矩≤q、正能量ε=q−||a||²→0且||f−a||²≤(S_x/s)ε，故f→P_Mg。完整塔残量保正占据因子[1−r+W/s]Cf；截断top未丢。强头a仍含全部R_m孔，未付真实K_Q或全局N的逼近，不能由小Cf免费乘D†。可优先在旧合法carry窗检验小J的正则化方程与同一中间Schur。
 
 - **F127精确系数载体仍待饱和。** [Ω127/J0证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)给C127/127恰为全部299维torsion，degΔ+Σt127=299。完整barΩ=Ψ60²，余包络barμ|F+²F−²E8(s+64)度21；s+64不是自由商缺陷，只可能来自127系数tors或有理因子约化，尚未判定。下一实际九目标循环模块/h*像将区分哪些field方向由原目标命中；有理critical两F±/E8的额外20次完整原jet仍待付，任何一次mod127零都不直接升Q成员。
+
+- **九原目标在F127中的完整25维模块已成。** [原全部乘回证明](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)给joint维25/χ=s²mon(h*)，每个目标cyclic23且最小式同mon(h*)，h*和h0九列实际全零/完整像0；s+64和Ω不在target模块内。原6188来源的field成员存在已付，但九来源尚未新展开，Q或p127²成员未付。25个原target/power标签可指导原relative T的Q选元，不能把有限域图当成有理图。

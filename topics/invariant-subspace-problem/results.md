@@ -519,3 +519,7 @@
 ## R150：外除子127完整约化、自由商缺陷零与299维系数载体（2026-11-16）
 
 [完整证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)由实际121/61系数核确认barΩ=Ψ60²；原Q13的2015式/6069系数和全部211 minors在Q/127独立给small230/full1150，8primary差全0，故J127=0。完整C127/127即field全torsion299，严格degΔ+Σt127=299；新增s+64不能扣作J。余乘子仍barμ|F+²F−²E8(s+64)、deg≤21。root另核全部300χ系数、121平方和231H3系数，B21完整升幂SHA7fe313c97a1d001e2848d1f3df5d475b3d71b9c10860e93855fc3961014ae400。未搬31的tors下界，未识别Q μ或未乘μ的九目标来源。
+
+## R150：原F127九目标完整25维子模与共同最小湮灭子h*（2026-11-16）
+
+[完整证明](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)由1.783252747秒实际运行、全7245原target坐标/7475不变作用/2691种子乘回和双包含，得九目标joint25，χ=s²mon(h*)。九个单目标均前23幂独立、23阶首关系恰mon(h*)；原24整数系数重乘后h*与h0实际九列全零，完整h*像模块0。s+64、s−2、s+6和Ω均不入该target模块，整体299分量仍保。仅付F127原6188来源成员存在，未展开九来源，不升Q或127幂；完整25原基/作用仍临时。
