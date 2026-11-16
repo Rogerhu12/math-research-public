@@ -16,7 +16,7 @@
 
 R465/466/471/474只付各自明确实际有限输入/原fallback的局部语义，不冒IEEE导数、whole-run词同或速度。210在native前缺lifted_modes_response；211按真实HERE补递归闭包，原六词/λ=.001/18000/112/224方向/338J/全FD/fullDN/audit不变，R475/amplitude唯一。不要把这个finite-root-trace链与当前C captured-product链混用。
 
-[R455实际206](results/R455-actual206-eight-complete39-pairs-and-tabular-summary-overflow.md)八组39/freshFD与24trial仅计数，119344/119694单份超90K正文未返、末pair已失。R479/213仍从原98再生，原八档39/17α/10500/1200/600/90/30/4096、全值/误差/末参数/连续真pair保，只共享固定重复必要context；R480/exact待实际，不拿hash补末父。
+[R455实际206](results/R455-actual206-eight-complete39-pairs-and-tabular-summary-overflow.md)八组39/freshFD与24trial仅计数，119344/119694单份超90K正文未返、末pair已失。[R480实际213](results/R480-actual213-eight-original39-pairs-and-necessary-readback-overflow.md)已从原98真再生八批39；16子程exit0与八next_actual_parent_pair_retained=true结合唯一eligible控制流，确认八个原新warm接受/完整pair校验及fresh FD门/当次warm身份，非仅看step状态。原八档39/17α/10500/1200/600/90/30/4096与全门保；trial计数4/3/4/3/3/2/2/3共24。R479表示下whole115134/3b27adee、recovery115484/72ae354a均超90000而70，完整正文未返；各trial值/失败query/FD误差/末pair不由gate或SHA补。批次大payload先按原必要记录持久化后退，最终quiet后cleanup明确skip，末pair未跨run保留。当前H/native/fullDN未调用；不盲目追加八批重算或扩大/分包90K，live128主线继续。
 
 [R496](results/R496-current-C-three-level-native-zero-elision-source-registration.md)/[接口](notes/2026-11-16-current-C-three-level-zero-eliding-native-interface.md)49独立source views以正式216为基线，实际将R494/R474接三层captured205b runtime，真实新/祖先noJ receipt分列，九计数/未返地址保；sampler/三worker/client/config/driver、union CP及完整几何材料消费者真接。samefar按实际legacy SHA选匹配hook，修源码断口不归因未运行之失败、原FD不跳过。普通plan77274/e1bef含166literal/445应用，旧33先实际生成；49展开源不入Git。未执行/无提速或接受承诺。218须完成R498完整临时账表示及真实消费者、R499单90K必要读回、公开workflow_dispatch入口；原全部科学、唯一18900+2700钟和32GiB门不减。
 
