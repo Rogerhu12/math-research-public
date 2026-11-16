@@ -79,11 +79,11 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 ## 当前接口三：一般系数行、多个模式与中央域
 
-原慢行与未知限制、同ζ双行正常见证、导子实际源、一般多模式、相对乘积及自然域的全部五组开放条目保[当前完整快照](notes/2026-11-15-open-before-global197-i2-session-789f.md)，未列不算关闭；所有原来源/同向量/域限制仍有效。rank-one Bell16已有μ来源，但μ1及全gradR3的非rank-one/ess(T3)≥4仍开。R150现接下节，子题结束继续这些原接口。
+原慢行与未知限制、同ζ双行正常见证、导子实际源、一般多模式、相对乘积及自然域的全部五组开放条目保[当前完整快照](notes/2026-11-15-open-before-global197-i2-session-789f.md)，未列不算关闭；所有原来源/同向量/域限制仍有效。归一rank-one Bell16现有无μ原来源；全gradR3的非rank-one/ess(T3)≥4仍开。R150现接下节，子题结束继续这些原接口。
 
 ### R150 六模式三次：当前入口
 
-全部原范围、过去局部障碍及未列缺口完整保于[本次开放问题快照](notes/2026-11-15-open-before-common-factor67-789f.md)；这些条目并未因归档关闭。当前接续在下文“最新接续”：原29显式核/完整36常核、有限K70/指定∞50，以及参数Smith与原目标成员性须分别处理。
+全部原范围、过去局部障碍及未列缺口完整保于[本次开放问题快照](notes/2026-11-15-open-before-common-factor67-789f.md)；这些条目并未因归档关闭。当前接续在下文：九原Q目标/参数除子已封口；继续非rank-one、完整零点投影及31剩余系数指数。
 
 ## 其他仍开放的路线与不可互换的极限
 
@@ -101,22 +101,18 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 本节替换前全部状态、参数、失败路线和链接保[本次完整快照](notes/2026-11-15-open-before-free-thirteen-defect-789f.md)及其归档链；未列问题不算关闭。执行/恢复以HANDOFF、原证明和小回执为准。
 
-### R150：完整原来源、双域比较与九目标
+### R150：原九目标来源已证，继续完整非rank-one与系数结构
 
-本段替换前所有参数、历史演变和未列缺口完整保于[本次快照](notes/2026-11-16-open-before-full127-torsion299-789f.md)及其归档链；未列不算关闭。
+替换前所有来源、历史参数、失败与未列接口保[完整前态](notes/2026-11-16-open-before-unmultiplied-original-sources-789f.md)及归档链；未列不算关闭。
 
-原 $A:6188\to4367$ 泛秩4354，$W=(I^2)_{\le5}$ 秩4212。九目标 $h_*t_j$ 的特征零全局成员仍开，$h_*=s^3F_+^2F_-^2E_8=h_0/(s-2)$；仅rank-one均值截面，不等于全部gradR3。
+原A:6188→4367、W秩4212与全部degree≤3 source字典保持。[新原全局定理](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)给monΔ=monK178·Ω、degree298/齐次364、严格Σ0外μ=1。九h*tj∈im_Q[s]A，h*=s³F+²F−²E8 degree23；原有理来源三支8386/8391/171，统一8391。
 
-- **原有限点。** 二点full/P均长12且完整W局部入像；负六同为12。零点完整长66、九 $s^3t_j$ 局部入像且 $t_2$ 恰需3；$F_\pm^2W$、$E_8W$ 已付。准确原来源和局部normal校正均保快照。
-- **无穷远。** Q/F31完整同谱 $1^4,3,4^3,5,6,7,8,10,11$，full66/sub55/max11、自由13/右核1834。D31完整Smith、1632/E216原直和和同202规范整核已付；新原minor degree8769/leading31单位。旧243指定平方与此区分。
-- **有限系数载体。** $C/pC$ 为field315除精确 $J=k[s]/(s-2)$，长314；$\operatorname{rank}_D C=\deg\Delta_{\rm aff}$。root2前五系数p谱 $(1,4,2,4,2)$，全球至少15个tors方向/系数长至少44。$284\le\deg\Delta_{\rm aff}\le298$；九真差源p阶5不等于h0分母。
-- **完整外除子与剩余乘子。** [原56行全核](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)已证 $\Omega=f_{60}^2$、投影商 $S^{13}\oplus S/(f^2)$。$\mu=R_{\rm out}/\Omega$ 度数至多14，九 $\mu h_*t_j$ 有原Q来源/共同费8411；$\mu=1$ 仍未证。根/独立全系数乘回已核 $\overline\Omega_{31}=Q_{60}^2$ 和 $\overline\mu_{31}\mid(s-1)(s-2)^2P_+^2P_-^2E_6$。
-- **已有来源全精度8535。** Ω首一D31整且原D* leading单位给q8491，任意已有同余保原e/n降费 $\max(8535,\tau+1)$；固定e任意高n才exact，单p6不够。e0任意次数mod961负证保持。
-- **完整I2与后继。** [全197原除源](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)实得 $I_2=U_7$、$\chi=(s-1)^2(s-2)^5$、exact指数2五个。完整I3须197纠偏源、七个参数图关系及b8/pb9，保原p4算术。root2全210 recipe已付但p7/六整数零carry/第四像未付，仍 $u+v=2$。
-- **独立F127完整模块。** [全6188正常形/基](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)实际补齐660来源，其中658零、6046/6063非零；全2855补集得到rank1021/free13/B8/Σd701。[全torsion](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)在完整805状态中去506观测，实际长度299、全参数作用/9目标/源DAG真。$\chi_{127}=s^{66}(s-2)^{12}(s+6)^{12}\widehat F_+^8\widehat F_-^8\widehat E_8^5(s+64)\Psi_{60}^2$ 全300系数根乘回；独立小审计现已逐121系数实核Ψ²=barΩ，完整J127实际为0；s+64已由下述原127系数正证占满。
-- **[F127自然∞/Gauss](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)：** 同原Q/127完整∞66、3959098单位给原单位首项minor、有限D127系数载体和monic Δ保次数。J127=0本身不降299；随后真正root63系数正证已独立降至298，见下。
-
-旧live43756208221已success结束；其临时数组须按原小源码/旧SHA最小重算。新live43772109844仍保127原basis/state及global197/root2 recipe。只小源码、参数、run/SHA、回执永久，精确恢复以HANDOFF及原回执为准。
+- **当前真正未闭的全局范围。** 归一rank-one图册已有br^16∈原17式理想，源moment次数≤26；全部rank≤1均值临界点已付B_r∈√(J+C1)。不得删cone理想，未付全J非rank-one/ess(T3)≥4、振幅全局清分母或实际Bell算子桥。
+- **完整相对模块。** Σ0外T=W/(L∩W)已零；±2两点T=0，critical每处T循环且九目标各自生成。原s=0全224×155投影长度仍需真计算；∞小P61不搬。九joint的Q维数不能从field25复制；原R/P/全W尾及6012来源表达继续。
+- **来源费用与31分母。** 原D*8769/31 leading unit，monΔ298给商8471；已有同模或精确D31解可降费max(8515,τ+1)。固定e任意高精度才exact；新Q成员给某有限分母，不指定e。旧e0任意度mod961负证、九差源p阶5均保原范围。
+- **31完整系数页。** C31/pC=field315除J31=s−2，dim314；全I2=U7、χ=(s−1)²(s−2)^5，指数2恰5个。root2首五(1,4,2,4,2)、全210 recipe已付；新Δ298和已核Ω31=Q60²的精确分布后继在审。完整第四新页必须保真p7/六carry/全部原源覆盖，旧globalI3全部接口仍保。
+- **127原模块及系数。** 全6188/NF3333+2855/GB1021/state805/obs506给tors299；原∞同谱66/J127=0/Ω127=Ψ60²保证有限D127载体。root63真实p²源占simple s+64，五critical广义消费I1全零。结合Δ298的唯一系数因子及九D127源另审；只凭各零像不排高层。
+- **永久证据与临时缓存。** 所有旧small-source/run/SHA保全。旧run43756208221结束，需原代码重建；新run43772109844仍有127全NF/GB/state、global197、root2 recipe与三域新原缓存。大型数组不上传；当前源参数以HANDOFF为准。
 
 ### 原边界：真实测试及全旗二阶已控，顺次返回继续
 
