@@ -1,0 +1,133 @@
+{
+  "format": "r150-critical-e8-readonly-completion-recovery-interface-v1",
+  "date": "2026-11-16",
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-e8-readonly-completion-recovery-789f.py",
+    "blob": "80c2428361209cb0092362e24af2a35817ddd642",
+    "bytes": 12012,
+    "sha256": "00be5668fe1ea288869ff799421033b5b209d0c7577087dfa285955ac12fb0cf"
+  },
+  "failedActualOuter": {
+    "bytes": 6141,
+    "sha256": "1bbd8ff2cdb5e734e5d294d8510c01b0b47bc505a2ff693c059f5e65e6ffbfde",
+    "blob": "639c0900722c431dca5839e0c3e9add88579e644",
+    "binding": "60419855f26164ad652d38a00de0f467bc69722e9a558020611cc7ecc7b6e2d2",
+    "manifest": {
+      "bytes": 5769,
+      "file": "checkpoints/manifest.json",
+      "sha256": "e1c1dc7fac528cce31bbed18e409f4e7763a4ad0bc8296f28c1167eb9e80cfee"
+    }
+  },
+  "actualLogPath": "{work}/critical-e8-complete-first-exit.log",
+  "runnerEvidence": "The actual current session step function saves combined stdout/stderr to WORK/(task.id+'.log'). It exposes the tail only if the raw receipt is absent, so this existing stale raw hid the exception from the published outer.",
+  "algorithm": "Read-only complete manifest and every phase file/payload verification. Only if a verified complete cochain exists, replay the unmodified frozen compute function against a read-only cache; reject all new RREF/profile and all new phase writes. Check every original source product again. Summarize square readouts by exact hashes/counts while retaining full values and all arrays in old temporary phases.",
+  "successMeaning": "Require mathematicalCompletionRecovered=true as well as exit0. Diagnostic-only completion does not prove any connection rank.",
+  "resources": {
+    "seconds": 120,
+    "memoryMiB": 2048,
+    "outer": 150
+  },
+  "tasks": [
+    {
+      "id": "critical-e8-first-exit-readonly-completion",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-e8-readonly-completion-recovery-789f.py",
+      "scriptSHA256": "00be5668fe1ea288869ff799421033b5b209d0c7577087dfa285955ac12fb0cf",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-cubic-positive-jets-789f.py",
+          "sha256": "634b258dec87cdba34d01a2be8f1ab61fce7f944b910b5c9438343b3b423a314"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-high-number-field-seven-789f.py",
+          "sha256": "de723d530fe0f2b3ab7876b76c8fc605a5156702309482f02a38c7b582a54753"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+          "sha256": "8b17d7ffc4bc63f6a8d8d7be42df1767c8fe1088958e4a8745e394ef4898d211"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-e8-complete-high-number-field-seven.json",
+          "sha256": "ce2556100ea766678d9f8a84f6113a0f9c8fcb74221bb4b9e14a53f44cf125c2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-complete-first-exit-789f.py",
+          "sha256": "4938d26273a72b16185af28c185ea304771a4c91cea0054b1a538de1ef0993ad"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43772109844-critical-e8-complete-first-exit.json",
+          "sha256": "1bbd8ff2cdb5e734e5d294d8510c01b0b47bc505a2ff693c059f5e65e6ffbfde"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--low-generator",
+        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+        "--field-helper",
+        "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+        "--weak-driver",
+        "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+        "--cubic-helper",
+        "{scripts}/2026-11-16-r150-critical-weak-cubic-positive-jets-789f.py",
+        "--high-driver",
+        "{scripts}/2026-11-16-r150-critical-complete-high-number-field-seven-789f.py",
+        "--field",
+        "e8",
+        "--parent-out",
+        "{work}/critical-e8-weak-quadratic-positive-jets",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+        "--high-out",
+        "{work}/critical-e8-complete-high-number-field-seven",
+        "--high-receipt",
+        "{scripts}/43756208221-critical-e8-complete-high-number-field-seven.json",
+        "--high-receipt-sha",
+        "ce2556100ea766678d9f8a84f6113a0f9c8fcb74221bb4b9e14a53f44cf125c2",
+        "--high-receipt-bytes",
+        "12248",
+        "--out",
+        "{work}/critical-e8-first-exit-readonly-completion",
+        "--remaining-seconds",
+        "120",
+        "--memory-mib",
+        "2048",
+        "--first-driver",
+        "{scripts}/2026-11-16-r150-critical-complete-first-exit-789f.py",
+        "--failed-out",
+        "{work}/critical-e8-complete-first-exit",
+        "--failed-outer",
+        "{scripts}/43772109844-critical-e8-complete-first-exit.json",
+        "--step-log",
+        "{work}/critical-e8-complete-first-exit.log"
+      ],
+      "timeoutSeconds": 150,
+      "receiptPath": "{work}/critical-e8-first-exit-readonly-completion/critical-e8-readonly-completion-receipt.json",
+      "requires": [
+        "recompute-critical-e8-high-original"
+      ]
+    }
+  ]
+}
