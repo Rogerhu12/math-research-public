@@ -409,9 +409,9 @@
     {
       "role": "readonly_admission",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_readonly.py",
-      "git_blob_sha": "2ba6a06881c94c3d8000a0653a77001f7afaf2b0",
-      "bytes": 27463,
-      "sha256": "cdbf14ee685ad6580fd99267fb7914960d84d838b1a3896dc89c28fadc5cabfa"
+      "git_blob_sha": "10ec74b5e0f31255b58b45b440c91dd41a3325fb",
+      "bytes": 29294,
+      "sha256": "d084a228b8c7962468536476a56cef1c4efda4f82b2790adbd70467db20e9893"
     }
   ],
   "worker": {
@@ -579,9 +579,9 @@
     {
       "role": "readonly_admission",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_readonly.py",
-      "git_blob_sha": "2ba6a06881c94c3d8000a0653a77001f7afaf2b0",
-      "bytes": 27463,
-      "sha256": "cdbf14ee685ad6580fd99267fb7914960d84d838b1a3896dc89c28fadc5cabfa"
+      "git_blob_sha": "10ec74b5e0f31255b58b45b440c91dd41a3325fb",
+      "bytes": 29294,
+      "sha256": "d084a228b8c7962468536476a56cef1c4efda4f82b2790adbd70467db20e9893"
     },
     {
       "role": "worker",
@@ -721,7 +721,7 @@
     "capacity_lifecycle": "120000-byte reserve plus the full publication budget before science and immediately before the new child; completed or failed actual outputs only require projected topic <=200000000 and retain complete bytes.",
     "publication_readme_retention": "Every full actual pull receipt is printed. Execution retains first and last three, total count and complete chain hash if more than four; no claim that omitted old receipts are embedded.",
     "bits_parameter": "bits",
-    "readonly_diagnostic_only": true
+    "readonly_diagnostic_only": false
   },
   "complete_scientific_input_guards": {
     "original_current_complete_text_inputs": 17,
@@ -789,37 +789,170 @@
     "maximum_report_bytes": 8000,
     "maximum_total_publication_bytes": 128000,
     "reserve_before_science_bytes": 120000,
-    "shape_interface_git_blob_sha": "cecb015b2fe62ca693f6022c5946436f9903d504",
-    "shape_interface_sha256": "6c0023458007c7bd13c8b4204c18a3694636691e3957ada73191a11c81847606",
+    "shape_interface_git_blob_sha": "2010c2520363e85fb26d01413d76a722b8f7ed9f",
+    "shape_interface_sha256": "58ab43bd27b91788811f4d6b448bcdba335581740401f2e6b380d11ac3d573f6",
     "shape_interface_not_republished_as_an_extra_input": true,
-    "diagnostic_additional_complete_original_stderr_bytes": 1395,
-    "failure_execution_model_with_original_stderr_upper_bytes": 55000,
-    "readonly_only_new_flag_bytes_and_full_diagnostic_fit_execution_cap": true
+    "whole_failed_preflight_diagnostic_additional_budget": 4000,
+    "complete_execution_failure_model_including_diagnostic_upper_bytes": 57000
   },
   "operational_recovery": {
-    "kind": "complete_readonly_diagnostic_retry_after_zero_science_v1",
-    "failure_run_id": "43851901811",
-    "failure_run_attempt": "1",
-    "failure_execution": {
-      "path": "topics/visible-flex-exact-nearby/notes/frozen_cross_block_value_tail_ci/run-43851901811-1/execution.json",
-      "git_blob_sha": "68d313d9e3c406ea18deef910205e2f528dad52c",
-      "bytes": 26981,
-      "sha256": "eddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f"
+    "kind": "exact_typed_record_admission_correction_after_two_zero_science_runs_v1",
+    "preceding_failures": [
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/frozen_cross_block_value_tail_ci/run-43851901811-1/execution.json",
+        "git_blob_sha": "68d313d9e3c406ea18deef910205e2f528dad52c",
+        "bytes": 26981,
+        "sha256": "eddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f"
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/frozen_cross_block_value_tail_ci/run-43852589080-1/execution.json",
+        "git_blob_sha": "cd8806141263c8cb143f6d73a62b56701e53f623",
+        "bytes": 28491,
+        "sha256": "0f1adff816076873acdfcd40b634f7dbb070bc281dd87eeae211844f57dba7e4"
+      }
+    ],
+    "preceding_failure_record_commits": [
+      "685b8a0865235b70edf630122a8c28bb2c9ea799",
+      "9ed93794bd39da91bb3aaccba19ea194cff9d13f"
+    ],
+    "exact_original_stderr": {
+      "bytes": 1395,
+      "sha256": "113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74",
+      "retained_verbatim_in_second_execution": true
     },
-    "failure_record_commit": "685b8a0865235b70edf630122a8c28bb2c9ea799",
-    "scientific_children_started": 0,
-    "scientific_targets_completed": [],
-    "new_mathematics_saved": 0,
-    "new_mathematics_lost": 0,
-    "all_original_five_targets_unstarted": [
+    "prior_scientific_children": 0,
+    "prior_completed_targets": [],
+    "prior_new_mathematical_outputs_saved": 0,
+    "prior_lost_mathematical_outputs": 0,
+    "remaining_unstarted_targets": [
       "complete_frozen_cell_coefficient_maxima",
       "complete_uniform_refinement_one",
       "complete_uniform_refinement_two",
       "complete_predeclared_mesh_selection",
       "conditional_same_tail_resolvent"
     ],
-    "expected_preflight_stderr_bytes": 1395,
-    "expected_preflight_stderr_sha256": "113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74",
-    "scope": "Repeat only readonly restoration and preflight to preserve the complete UTF8 diagnostic; operational guard before marker forbids any scientific child even if preflight unexpectedly succeeds."
+    "corrected_original_schema": {
+      "original_intrinsic_enclosure": {
+        "keys": [
+          "a",
+          "beta",
+          "Ebar",
+          "R",
+          "K",
+          "gamma",
+          "Cref"
+        ],
+        "record_keys": [
+          "ball",
+          "lower",
+          "upper",
+          "mid_float",
+          "radius_upper_float"
+        ],
+        "display_metadata": "Both display fields are finite JSON int/Decimal values; bool is forbidden and radius_upper_float is nonnegative. All five fields are retained verbatim; display numbers are never numerical bounds."
+      },
+      "original_complete_repaired_bounds": {
+        "keys": [
+          "mean_v",
+          "radial_speed",
+          "U_A0",
+          "V_A0",
+          "U_phi_A0",
+          "V_phi_A0",
+          "V_nonmean_A0",
+          "drift_A0",
+          "drift_phi_A0",
+          "full_S_mean",
+          "local_a_A0",
+          "local_e_A0",
+          "local_b_A0",
+          "local_a_sup",
+          "local_e_sup",
+          "local_b_sup",
+          "primitive_raw_L2",
+          "mean_rank_raw_L2",
+          "mean_own_rate",
+          "mean_nonmean_feedback_L2",
+          "real_physical_inverse_gap"
+        ],
+        "record_keys": [
+          "ball",
+          "lower",
+          "upper"
+        ]
+      },
+      "complete_delta_bounds": {
+        "keys": [
+          "mean_v",
+          "radial_speed",
+          "U_A0",
+          "V_A0",
+          "U_phi_A0",
+          "V_phi_A0",
+          "V_nonmean_A0",
+          "drift_A0",
+          "drift_phi_A0",
+          "full_S_mean",
+          "local_a_A0",
+          "local_e_A0",
+          "local_b_A0",
+          "local_a_sup",
+          "local_e_sup",
+          "local_b_sup",
+          "primitive_raw_L2",
+          "mean_rank_raw_L2",
+          "mean_own_rate",
+          "mean_nonmean_feedback_L2",
+          "real_physical_inverse_gap"
+        ],
+        "record_keys": [
+          "ball",
+          "lower",
+          "upper"
+        ]
+      },
+      "complete_delta_fees": {
+        "keys": [
+          "delta_u_squared",
+          "delta_v_squared",
+          "delta_uv",
+          "delta_S",
+          "local_a",
+          "local_e",
+          "local_b",
+          "drift",
+          "drift_phi",
+          "mean_own_rate"
+        ],
+        "record_keys": [
+          "ball",
+          "lower",
+          "upper"
+        ]
+      },
+      "original_record_format_sources": [
+        {
+          "key": "wptIntrinsicRecordMetricHelper",
+          "git_blob_sha": "cc1c1e0b271e69e7415712c5bb82678c94c3e5f8",
+          "bytes": 13046,
+          "sha256": "c4196dddcbfab15116c06a9be8a2120916c05d77fe3d7cb152f842f16b80a7de",
+          "function": "record: calls beta_interval.ball_record"
+        },
+        {
+          "key": "wptIntrinsicBallRecordHelper",
+          "git_blob_sha": "6a0713f931680adfd04e87949087189aa1d75e02",
+          "bytes": 30343,
+          "sha256": "ff159224bc1870b7580ef6e5f0370a4fcc385ed556d947003a0bb1667e6f4b0f",
+          "function": "ball_record: emits exactly the five intrinsic fields"
+        }
+      ],
+      "qualification": "Static original-source schema evidence, not two new science inputs; native data is verified solely in its original restored container. The first two runs stopped at readonly admission before any new target."
+    },
+    "scientific_main_byte_for_byte_unchanged": true,
+    "all_mathematical_formulas_parameters_and_ordered_targets_unchanged": true,
+    "old_producers_never_imported_or_run": true,
+    "whole_failed_preflight_UTF8_diagnostics_retained_by_worker": true,
+    "readonly_diagnostic_only": false,
+    "consumed_marker_still_required_before_the_first_new_scientific_child": true
   }
 }

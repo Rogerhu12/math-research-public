@@ -39,6 +39,21 @@ ROW_BOUNDS=("p_row_lower","g_row_lower","W_lower","K_over_W_upper","E",
 ROW_KERNELS=("complete_forward_kernel","complete_backward_kernel",
  "complete_forward_ordinary_source_square","complete_backward_ordinary_source_square")
 
+INTRINSIC_KEYS=("a","beta","Ebar","R","K","gamma","Cref")
+COMPLETE_COEFFICIENT_KEYS=(
+ "mean_v","radial_speed","U_A0","V_A0","U_phi_A0","V_phi_A0",
+ "V_nonmean_A0","drift_A0","drift_phi_A0","full_S_mean",
+ "local_a_A0","local_e_A0","local_b_A0","local_a_sup","local_e_sup",
+ "local_b_sup","primitive_raw_L2","mean_rank_raw_L2","mean_own_rate",
+ "mean_nonmean_feedback_L2","real_physical_inverse_gap")
+DELTA_FEE_KEYS=("delta_u_squared","delta_v_squared","delta_uv","delta_S",
+ "local_a","local_e","local_b","drift","drift_phi","mean_own_rate")
+INFLATED_GROUP_KEYS={
+ "original_intrinsic_enclosure":INTRINSIC_KEYS,
+ "original_complete_repaired_bounds":COMPLETE_COEFFICIENT_KEYS,
+ "complete_delta_bounds":COMPLETE_COEFFICIENT_KEYS,
+ "complete_delta_fees":DELTA_FEE_KEYS}
+
 def require(ok,message):
  if not ok: raise ValueError(message)
 
@@ -65,12 +80,28 @@ def at(value,path):
  for key in path: value=value[key]
  return value
 
-def record(value):
+def record(value,context="original record"):
  require(isinstance(value,dict) and set(value)=={"ball","lower","upper"},
-         "original complete record shape")
+         context+": exact three-field record required")
  require(all(isinstance(x,str) and x.isascii() and 0<len(x)<=128 and not re.search(r"nan|inf",x,re.I)
              and all(len(e)<=6 for e in re.findall(r"[eE][+-]?(\d+)",x))
-             for x in value.values()),"original finite record text")
+             for x in value.values()),context+": finite original record text")
+ return value
+
+def intrinsic_record(value,context):
+ # Original metric_defect.record calls beta_interval.ball_record (five fields).
+ # The two JSON numbers are display metadata; no mathematical bound uses them.
+ require(isinstance(value,dict) and set(value)==
+         {"ball","lower","upper","mid_float","radius_upper_float"},
+         context+": exact five-field intrinsic record required")
+ record({key:value[key] for key in ("ball","lower","upper")},context)
+ for key in ("mid_float","radius_upper_float"):
+  number=value[key]
+  require(type(number) is int or
+          (isinstance(number,Decimal) and number.is_finite()),
+          context+"/"+key+": finite JSON numeric display metadata required")
+ require(value["radius_upper_float"]>=0,
+         context+"/radius_upper_float: nonnegative display radius required")
  return value
 
 def read_spec(repo,spec):
@@ -359,15 +390,19 @@ def admit(repo,manifest_path,manifest_sha,native_path,receipts_path,candidate_pa
 
  require(native["actual_family_value_and_all_angular_derivative_jumps_zero"] is True,
          "complete actual family value continuity")
- for row in inflated:
+ for row_index,row in enumerate(inflated):
+  row_context="inflated_rows["+str(row_index)+"]"
   require(type(row["original_candidate_piece"]) is int
-          and 0<=row["original_candidate_piece"]<6144,"original cubic piece identity")
-  for group in ("original_intrinsic_enclosure","original_complete_repaired_bounds",
-                "complete_delta_bounds","complete_delta_fees"):
-   require(isinstance(row[group],dict) and row[group],"complete saved coefficient group")
-   for value in row[group].values():record(value)
+          and 0<=row["original_candidate_piece"]<6144,
+          row_context+": original cubic piece identity")
+  for group,keys in INFLATED_GROUP_KEYS.items():
+   context=row_context+"/"+group
+   require(group in row and isinstance(row[group],dict)
+           and set(row[group])==set(keys),context+": exact original coefficient keys")
+   check=intrinsic_record if group=="original_intrinsic_enclosure" else record
+   for key in keys: check(row[group][key],context+"/"+key)
   for key in ("full_delta_A0","full_delta_angular_A0","independent_mean_variation_bound"):
-   record(row[key])
+   record(row[key],row_context+"/"+key)
   if row["original_right_interface"] is not None:
    interface=row["original_right_interface"]
    require(interface["homogeneous_linear_interface"]=="identity in the same moving unknown"
