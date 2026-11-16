@@ -30,3 +30,8 @@
 ## 2026-11-16 08:07:00 UTC /root — R500同C完整头部与tail闭查询
 
 [R500](results/R500-same-C-recomputed-head-and-complete-tail-query-enclosures.md)/[接口](notes/2026-11-16-same-C-refined-head-tail-query-interface.md)三件API29687/2ab6、proof14699/a902、接口12496/82a5；先原target全绑定再真用R489新source累计半径，唯一原R426与原budget/绝对钟，完整闭覆盖/合法交/旧粗界fallback/全根族与未访保。只0阶E，不冒cut二jet外推、全tail导数、误差下降或新接受；R504继续外层实际注册，不改运行入口/加门。H以0d825bb8保存全历史并更新真实当前分工/新初点与容量。
+
+
+## 2026-11-16 08:13:00 UTC /root — R503显式coast-base新初点
+
+[R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)/[接口](notes/2026-11-16-explicit-coast-base-two-phase-interface.md)四件gen6663/0c19、plan18919/2f61、proof10972/fe5a、接口6859/d33a；原202全投影后仅p3/theta3/eta3显式+0、七词保，准确coast回原仿射基底（原正端值/κ条件），新点/metric不继承旧接受。原p3仍active、全部453→真450/门/钟/32GiB保，三preview仅源文、未来220须沿218真实级联；不预填数值RHS/新接受、不改原运行或增gate。H旧详细已刊范围保0d825bb8全文。

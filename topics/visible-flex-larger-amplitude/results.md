@@ -232,3 +232,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R500 — 同一C重算完整头部进入tail闭查询
 
 **条件来源/包含证明及完整独立API已成，尚无实际精化或接受。** [R500](results/R500-same-C-recomputed-head-and-complete-tail-query-enclosures.md)14699/a90255dc、[接口](notes/2026-11-16-same-C-refined-head-tail-query-interface.md)12496/82a51807、API29687/2ab6b97f三件登记。原R495只改变cut语义叶，旧ActualCompleteCTarget/R426仍读旧source累计半径；新API先原完整target加载再绑定实际R492/R495四族bundle、R489新四query成员及全部同语义条件，唯一原LiveQueryTarget真读新完整source-piece-index/1440panel/累计半径，不由三cut叶外推tail。全根族同物理闭域的两合法包围可交，完整旧/新子query并覆盖才hull，所有端点/来源/未访/原错误保；缺新界保旧完整粗界，空交报告不一致，work_resolution不变新门。正式query只有0阶E，API明确只提供它；cut二jet、全场六jet/光滑性仍各自原依据。原budget对象/metric起点/job绝对钟转发、不新增进程或硬杀声称，必要原scope与90K/quiet保。外层实际六view/selector接线尚由R504推进，不修改冻结214/216/218，未启动217/R490、未付actual error decrease或README。
+
+
+## R503 — 显式coast-base新初点与完整原两阶段
+
+**完整条件构造和三个源视图已成；新候选算术/科学未执行。** [R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)10972/fe5a2532、[接口](notes/2026-11-16-explicit-coast-base-two-phase-interface.md)6859/d33a489b、gen6663/0c19c91b、plan18919/2f6113ce四件。由实际212中心反证及R449-C明确固定theta3的三p不能修准确中心，但不把它冒已发生数值RHS异常或全搜索无解。新政策原202全十词投影后仅索引2/5/8显式正零，另七原投影词保；全部原投影/新选择/准确差额逐行分列，新点和metric无旧接受转移。准确coast三项消失成为原仿射基底，原全族端值正/0<κ<1条件下整段严格半径/速度域成立；端点零二jet/其它准确分片保，非全数字程序同词或全域/几何通过。原453三active p不变，p3后续可变，theta3/eta3固定0；原全H/J/FD/fullDN/17档8outer/RMS/BC/final/audit、真末十词独立450及7200共享钟/32GiB保持。candidate/driver/launcher三preview33550/5c62、34418/02ca、20494/d2a3，展开只Actions；实际launcher candidate.schema同步新源。未来220须组合218完整新来源和新必要字段/frame，未做source闭包的preview不能冒最终入口；没有新run/接受/固定g下降，不给原BVP增加域门。
