@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 07:34:18 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3e6ae6360bf8accdb573fcc905408dde7363e068。
+规则同步记录：2026-11-16 07:37:47 UTC root委托本公开仓库Actions run43825160764真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f748d7a860269df6548542ba016b4fe45ea80d9b。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -22,7 +22,7 @@
 |208/R467|43804793905 /9b05bfc5160bf667cde0cb0ba059b0c8b0332bd5|exact唯一；07:25仍step10完整112科学，待R467|
 |209/R469|43805615033 /cfd63e66a3d6090f86fa906b46dec8db808b04a6|geometry两日志各已唯一读，R469已dfa01b9b；禁止重取|
 |211/R475|43810051801 /7e62fb22bff15bfe53e1481b4e7ba21d2f905786|amplitude唯一；07:28:54 compute133109494332仍step11完整科学；未取running日志|
-|212/R478|43810550597 /9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060|geometry已唯一取终态compute133111042532/report133152030600均failure；完整R478整理中，root不重取|
+|212/R478|43810550597 /9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060|geometry两终态日志已唯一读，compute133111042532/report133152030600均failure；R478本次刊，禁重取|
 |213/R480|43812359001 /fe0a0d737440bcad59d5af9cb9d08b24131204f4|exact唯一；07:25仍step8原八批科学；未取running日志|
 |214/R484|43815427382 /29df28d35ef85a7c4a6474c28451c58d9f25c802|geometry唯一；07:18前16成功、17采样；未取running日志|
 |215/R486|43816406919 /b952df814c98ef5927a4f5013364d2eed6002d74|amplitude唯一；07:28:54 compute133129348123仍step14原128四组件；未取running日志|
@@ -43,9 +43,9 @@ R456–464真同C/full112→五factor2→全M union/15现场views，R459固定g�
 ## 当前接续与未推重做
 
 2026-11-16 07:19执行环境失联，R469本地54798ff4尚未推；root保完整文本重建，委托本公开仓库Actions逐结论真实部分克隆/pull/rebase/双README核对/推送，实际run及规则行随成功更新。未推R493/R497全文保在会话，R495/R496/live128草稿按完整正文与已刊源恢复为detached source blobs；不把路径或SHA冒已恢复全文。临时源原在/workspace/visible-larger-working；遗失依已刊原源/完整接口重做，不靠已删raw。root唯一Git/ref，每结论立即推、每pull核双README。源文/完整证明写成即登记，不等额外审查或重跑。
-- geometry：唯一214/R484终态；212两原日志各已唯一取，R478全文继续。浅逆depth2真完成13850unique/16128field/65102attempt，BVP因free11761553408<34359738368未起，rules94138超90K、composition未起/cleanup skip，不冒数学拒。R495五件本次刊：bridge12303/06656a5e、gen9410/39b2b455、plan55758/1875db99、proof15191/f4a06c61、接口21890/9f675efd，全按失联前原字恢复；R489→R492新叶已接四真实场族的target/cut/Loewner/evidence，tail E(r)和材料t点field仍原有效包围，actual202205钟/全门保。R498继续95GB far账真实consumer及原资源门；217/R490未建。
+- geometry：唯一214/R484终态；212两原日志各已唯一读，R47832019/8aee6da0本次刊。浅逆depth2真完成13850unique/16128field/65102attempt，BVP因free11761553408<34359738368未起，rules94138超90K、composition未起/cleanup skip，不冒数学拒。R495五件已744efc00：bridge12303/06656a5e、gen9410/39b2b455、plan55758/1875db99、proof15191/f4a06c61、接口21890/9f675efd，全按失联前原字恢复；R489→R492新叶已接四真实场族的target/cut/Loewner/evidence，tail E(r)和材料t点field仍原有效包围，actual202205钟/全门保。R498继续95GB far账真实consumer/完整临时表示；root R499接原6000/600b规则reader固定元数据重复与单90K，不恢复已失94138正文。217/R490未建。
 - amplitude：唯一211/R475、215/R486终态，原全科学/94pins+R485reader与90K/quiet保持；215四组件不补normal response/fullDN。R494当前C captured-product只linear接原R474已f863b71c，新旧runtime身份/九计数分列，不冒trace或速度。R496三层worker/client/config/driver与union CP49views继续；失联后新plan75475/fe75abd3已完整detached blob，不冒旧82219/e05f；generator11895/4d4c507e、stats5941/0b875858原字保。218继续以正式216全链接，明确212实际资源风险不降原门/钟；R496纸证完成即刊不等R498门。
 - exact：唯一207/R460、208/R467、213/R480、216/R488终态。R483五源已3559，R487八件已29971；216入口634c4c85/run43819978588、绑定289f89c3，260公开+33生成、15→5→13、原三层depth2/全部门/唯一钟保。07:25官方仍14原C运行。R493逐H live128合同27709/115e78be已49f8e8ca；完整原7ba父是actual63 prefix＋accepted96/原port，91仅尾初猜，原320min/350minjob分列不套216。投影/标量wrapper/4literal计划已detached blob恢复草稿，真实组装/worker继续；不重标旧probe或假H父。
-- root：R469实际209已dfa01b9b，经公开恢复run43823694642真实pull/rebase/双README核/推送；未调用科学。R493已49f8e8ca；R497五件已258da7a3：helper10239/cf517af6、gen6299/0d7853ea、plan3050/ddefa7df、proof12955/f1017fce、接口8801/75ad967d，单已完成闭片复用仍原每次attempt，不解1M停；新main70299/ae9dde未登记request。R495五件本次刊；R496新49view计划已完整恢复修订，源码合同继续。全部原身份/失败/未返/预算保历史链接，不拿SHA冒正文；按open持续至原标准，不停阶段报告。
+- root：R469实际209已dfa01b9b，经公开恢复run43823694642真实pull/rebase/双README核/推送；未调用科学。R493已49f8e8ca；R497五件已258da7a3：helper10239/cf517af6、gen6299/0d7853ea、plan3050/ddefa7df、proof12955/f1017fce、接口8801/75ad967d，单已完成闭片复用仍原每次attempt，不解1M停；新main70299/ae9dde未登记request。R495已744efc00；R496新49view计划已完整恢复修订，源码合同继续。全部原身份/失败/未返/预算保历史链接，不拿SHA冒正文；按open持续至原标准，不停阶段报告。
 
-216入口634c4c85官方topic treeaf260cad5417a640d9e8dfd8b2c5c2fb589f6f13：9300blobs/197715378B、9672entries，truncated=false。62两生成清单已77fae38c普通删1352194B（仅4d61/ef5e），63已b696cc15；原父/源/历史保，不存新raw。
+744efc00官方topic tree8fc300dbfc753a523cd64f43116f30425545e543：9315blobs/197989423B、9687entries，truncated=false。62两生成清单已77fae38c普通删1352194B（仅4d61/ef5e），63已b696cc15；原父/源/历史保，不存新raw。
