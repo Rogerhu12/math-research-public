@@ -18,7 +18,7 @@
 
 [guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/source6f886c385bdc12c8963d451369c9250fa19a45a0，旧140Python/146总绑定、新4通过/旧14复用全部已核。前6普通α1接受两网14门；η.26623355613853394，κC/F57.99651016191997/57.99982504159888，.26/主1e−6/reach欠。当前physical e0ab278d…/bank438 hash1a1d5585…、池4432/4525版本1/2、B.00025双0；γ17.022353404161095/18.064283125328743，8events全commit。
 
-原m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合、无返回/无trial，非驻点。后续四见证单次接口的真实结局见[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：两个评估身份恢复同原，但冷粗值205.448292651秒耗尽原时间，模型/J/LP11/新接受全0；原LP仍10而累计active241.314203844/values15。16人工只复用，原438/学习8/两池/原门不变。该epoch已关闭。[新直接reference设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接全部入口：438+4/freshcontext/祖先γ，独立1800科学秒/64LP/160值含输入与冷费；[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)已返回9通过/入口字段停止，新value/J/LP未入；修字段并复用9收据，所有准备费归同新钟。全部14门与metric/reach要求不变。
+原m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合、无返回/无trial，非驻点。后续四见证单次接口的真实结局见[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：两个评估身份恢复同原，但冷粗值205.448292651秒耗尽原时间，模型/J/LP11/新接受全0；原LP仍10而累计active241.314203844/values15。16人工只复用，原438/学习8/两池/原门不变。该epoch已关闭。[新直接reference设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接全部入口：438+4/freshcontext/祖先γ，独立1800科学秒/64LP/160值含输入与冷费；[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)已核9仅复用/order修复/迁移通过，旧gate身份在首次ordinary前拒绝；累计science28.690336299，按原构造新gate后继续。全部14门与metric/reach要求不变。
 
 ### 仍须支付
 
@@ -157,9 +157,9 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### 直接reference九项已付，修入口字段后进入首次真实求值
+### 直接reference九项已付、迁移通过，修新gate身份后进入首次真实求值
 
-[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)记录run43777844163的9新人工全部通过、配置缺primitive_order在objective构造前停止；新adapter研究value/J/model/LP/接受均未进入。本次science13.756976061000046s及全部准备费归同1800限额，后继必须读取完整通过收据复用9项、不重跑；原成功入口primitive order已从同Bounded对象/fixed_primitive核定，audit修复与完整9收据复用已安装，唯一修复request已发，待读实际。原64LP/160值、同g/14门、438+4/freshcontext/祖先γ全保。真实速度、首模型绑定和新下降仍未知，原205s不能全归已删冗余。旧closed epoch费用另列，根15不存payload。
+[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：43778983026仅复用9项，primitive order8和objective/438/祖先γ迁移构造通过；原159 gate仍绑定旧field，完整assert_context在首次adapter调用前拒绝，geometry/value/J/model/LP/接受0。累计同任务science28.690336299000023s（本次14.933360238），所有历史保留。下一用原FiveNullHeightGate.from_original绑定新adapter，逐项保持同物理门/163box/159bounds与全部14验收，不删检查；核其它身份消费者后唯一修复。同1800/64/160累计，9只读传递复用，实际factory绑定/速度/下降尚未发生。
 
 
 ### R399新的第二period内部通道已实际付至四点

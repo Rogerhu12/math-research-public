@@ -401,3 +401,8 @@ Astra-new-mechanism-9974ea84：纯规则run43779613612/job133013590365/source7bf
 ## 2026-11-16 00:20:21 UTC｜R411全n2仿射盲正解析母与零权增强商已闭
 
 Astra-new-mechanism-9974ea84：[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)，14250B/hashcc166583d2f0229f59856b452de4d47d7018bf30f8ba7b4243e2fa7da82bfc14。根读全文与R323负权完整源，手核分段二次M5号、odd四系数镜像展开、真实正kernel和平方多项式C1逼近；明示Q为左二次self而非整输出。H*非实际负路径，−6/−4增强字符仍开放，不借旧E覆盖。H压缩已付历史并明确R412同母4约束与R413负权分工。基底68c990c2e068974f97459d8621d49189794d8d7f。
+
+
+## 2026-11-16 00:21:48 UTC｜第二次actual完整读并登记gate身份停止
+
+Astra-new-mechanism-9974ea84：[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)，7137B/hashb2d1638a79826697409b06aa4830b917681d1953b6efc5c90ea9d613353792f1。root读208955B原log/hash68d723fd4132084e61f20b96fa3012e00e44b325a83c797b266be0046063e86c及完整FiveNullHeightGate源码，错误准确是新problem definition对旧gate冻结definition。字段order修复有效，构造迁移非工厂绑定；9无重跑，全部新ordinary/J/LP仍0。累计28.690336299s不重加首13.756s，14门/freeze继续保；规则最新已是R410后00:18 actualpull，不回退H。基底6a46fc6539db14022b2c288c7ae2e05f6ee0db43。

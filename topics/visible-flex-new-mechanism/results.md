@@ -379,3 +379,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R411｜完整n2仿射轨道全零的正解析母与增强商边界
 
 [R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)（14250B；SHA256 cc166583d2f0229f59856b452de4d47d7018bf30f8ba7b4243e2fa7da82bfc14）。精确两类非负偶母M5异号，4真实半径/16不交包给8正第五幅权与有限可逆4minor；以ψ3乘严格正偶多项式作参数C1逼近，有限IFT精确清全部4个n2平移系数。全正仿射轨道0，H*给ker(E,A_u)/λ1的真实signed反例；J零权商确0。原完整权界、R356/R323及R188/R196排掉其它候选，actual闭锥只余−6/−4新增natural的完整正字符，未称可达。具体原19/内部退化/实际joint仍欠，无执行。
+
+
+## direct-reference第二次：严格门身份发现未完成的adapter绑定
+
+[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)（7137B；SHA256 b2d1638a79826697409b06aa4830b917681d1953b6efc5c90ea9d613353792f1）。run43778983026/job133011642024，9只读复用通过/order8正确/新objective与438+祖先γ迁移成功；原gate仍冻结旧ordinary，首次求值前assert_context拒绝，新adapter geometry_started0，值/J/model/LP/接受0。累计science28.690336299000023s/本次增量14.933360238/进程16.883830579，全部费用保留。下一按原from_original创建新数值gate并核同物理约束，不删freeze；无速度/优化结果，主题继续。
