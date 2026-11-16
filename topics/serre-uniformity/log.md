@@ -411,7 +411,12 @@
 - 原fine Igusa指定SS准确阶2p−5、cusp系数c_h非零；保a_h、不认作coarse c1 normal/指定Legendre/J32或height。Brau–Jones与Cais原文独立核；H前态逐字归档，继续R920权10及原normal桥。
 - 本push规则：公开Actions真实pull至c2c61d1a20caa5ef28a1c45d83fe058f999d8aef（2026-11-16T15:47:05.528398+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-16 23:49 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 23:48 Asia/Taipei — serre-public-astra-20261115
 - R914真run43898224893/1b397d40认证：143新准确RHS、81760原方程与C²，完整146有理反射及原P1的272×273正常jets；26stage/0.658301383s，469原来源全保。
 - 原ρ1=ι*ρ0、c1=−c0=645187085/t1三项及CM公共τ保留；rank8/Norm/刚性帧/height仍false。R917直接接真实源；正文对角作用用(n,r)行标明(−1)^n。
-- 本push规则：R914 rules真pullbf30a01f/15:36:57UTC与最新发布pull两README不变已读；公开Actions真实pull核规则后发布，主目标OPEN。
+- 本push规则：公开Actions真实pull至834b106ae49d19d52d2bf8e51313039e2162f974（2026-11-16T15:48:32.229268+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:52 Asia/Taipei — serre-public-astra-20261115
+- R917完整纸证与真实源合同：原17列θ0²共同清分母成V10，首一统一损a阶；两个≤8未知核和完整负阶整性验证，原2+3+3/discrim4停止标准与精度明确。
+- 已绑定R914真C/P0P1叶jets；保持primitive det uρ^(28h−I)、原t系数cε^(−m)、dual7/ν。新order与九目标NmΦ/刚性帧均尚未执行，consumer续写；H前态逐字归档。
+- 本push规则：实际pull834b106a/15:48:32UTC两README无diff已读；公开Actions真实pull核规则后发布，主目标OPEN。
