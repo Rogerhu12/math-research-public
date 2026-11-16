@@ -744,3 +744,7 @@ GB native d5227d55/runner b1c12af8及完整2855/DAG/210B双槽状态已逐行根
 ## 2026-11-16 00:06:48 UTC — F127全模基4354与完整805状态入口
 GB实际150.248秒，全2855/DAG/9目标真，rank1021/free13/B8/Σd701，故原泛秩4354、完整finite-window805；raw5289·3442ad58，非torsion长度。
 全根审native ad6306ec/runner2e7390ed及所有free尾/C A^j稳定/CK/AK=KJ，依赖paid GB排60秒/2GiB+独立char30秒。∞第7schema KeyError保真实前6/错误回执；两README不变，实际pull核规后push。
+
+## 2026-11-16 00:09:12 UTC — 原∞127按真实历史schema恢复
+独立读取6/7/8/9/10 creator源码及SHA，7/8确用twoMaps和显式高normal系数；修复8a7b0365保全各高块，9/10才generic，禁止默认空高字典。
+新step35/独立out与binding排600秒/4GiB，只重做9秒前缀、旧失败与全部paid数组不改；manifest65d04846/interface0e3d991a根核diff。两README不变，实际pull核规后push。

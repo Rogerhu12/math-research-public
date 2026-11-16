@@ -6,9 +6,9 @@
   "mathematicalStatus": "unexecuted-new-127-qualification; no 127 spectrum is prefilled as an actual result",
   "source": {
     "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-prime127-qualification-789f.py",
-    "blob": "de2a51da91747e59fea0ecb58a5ac375f0db83da",
-    "bytes": 37459,
-    "sha256": "5b77b53126830cb376a52b7199680998aa070d1bb7d9ad00d517607cd218d104"
+    "blob": "8a7b03650185d01a3800cf37d99e2058a4f8aa9f",
+    "bytes": 38730,
+    "sha256": "a7fdfb046c166ab5f70391db1b965232e9f891ab2a186f4541722058473c1730"
   },
   "native": {
     "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-prime127-high-native-789f.cpp",
@@ -167,9 +167,9 @@
   "largeDataUploadedOrCommitted": false,
   "newNormalFormOr4340Gaussian": false,
   "step": {
-    "id": "infinity-complete-original-prime127-qualification",
+    "id": "infinity-complete-original-prime127-qualification-creator-schemas",
     "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-prime127-qualification-789f.py",
-    "scriptSHA256": "5b77b53126830cb376a52b7199680998aa070d1bb7d9ad00d517607cd218d104",
+    "scriptSHA256": "a7fdfb046c166ab5f70391db1b965232e9f891ab2a186f4541722058473c1730",
     "sources": [
       {
         "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
@@ -230,14 +230,14 @@
       "--native-header",
       "{scripts}/2026-11-15-r150-original-f127-bitplane-789f.hpp",
       "--out",
-      "{work}/infinity-complete-prime127-qualification",
+      "{work}/infinity-complete-prime127-qualification-v2",
       "--remaining-seconds",
       "600",
       "--memory-mib",
       "4096"
     ],
     "timeoutSeconds": 660,
-    "receiptPath": "{work}/infinity-complete-prime127-qualification/infinity-complete-prime127-qualification-receipt.json",
+    "receiptPath": "{work}/infinity-complete-prime127-qualification-v2/infinity-complete-prime127-qualification-receipt.json",
     "requires": [
       "infinity-complete-tenth-after-high-probe"
     ]
@@ -251,5 +251,13 @@
   "outputs": {
     "receipts": "small text only",
     "originalMatricesAndNativeParticular": "same-job temporary only"
+  },
+  "revision": {
+    "reason": "Read the exact seventh/eighth historical creator keys, preserving every high coordinate.",
+    "priorSourceSHA256": "5b77b53126830cb376a52b7199680998aa070d1bb7d9ad00d517607cd218d104",
+    "priorActualRawReceiptSHA256": "84150e9e8ef999bda105f390646574956abd0d00210c825d11b9176933939b06",
+    "priorActualSeconds": 9.181149115000153,
+    "checkpointPolicy": "New output and source binding; recompute the nine-second prefix. No old binding is relabeled or implicitly accepted.",
+    "nativeUnchanged": true
   }
 }
