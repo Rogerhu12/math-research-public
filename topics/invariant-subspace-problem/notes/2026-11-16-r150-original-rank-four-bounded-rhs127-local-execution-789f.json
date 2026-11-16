@@ -1,0 +1,165 @@
+{
+  "dateUTC": "2026-11-16",
+  "execution": {
+    "argv": [
+      "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+      "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-bounded-rhs127-789f.py",
+      "--model-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--compression-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "--weight7-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-mean-first-frontier127-789f.py",
+      "--weight8-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "--chart-source",
+      "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+      "--rank-source",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-16-r150-original-parameter-seed-compression-rank127-789f.cpp",
+      "--header",
+      "/tmp/r150-normal-789f-20261116-1040/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "--native-source",
+      "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-completed-row-rhs127-789f.cpp",
+      "--model-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-ten-parameter-module127-v2",
+      "--compression-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-parameter-seed-compression127",
+      "--weight7-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-mean-first-frontier127",
+      "--weight8-out",
+      "/tmp/r150-normal-789f-20261116-1040/original-complete-weight8-frontier127",
+      "--out",
+      "/tmp/literature_bell_rank4_789f/original-rank-four-bounded-rhs127",
+      "--seconds",
+      "180",
+      "--memory-mib",
+      "2048"
+    ],
+    "endUTC": "2026-11-16T14:38:51.742357+00:00",
+    "exitCode": 0,
+    "format": "r150-local-source-run-identity-v1",
+    "log": {
+      "bytes": 6982,
+      "path": "original-rank-four-bounded-rhs127-180.log",
+      "sha256": "c8627733d861a5d8f0046cf8d55c256a7b549d1849025e944d85db61b71351e6"
+    },
+    "startUTC": "2026-11-16T14:38:44.035596+00:00",
+    "wallSeconds": 7.706783040994196
+  },
+  "format": "r150-original-rank-four-bounded-rhs127-local-execution-v1",
+  "inputs": {
+    "bytes": 6735,
+    "gitBlob": "59a5cdf4c5c2e74a640f2a38303a77b75481b2de",
+    "path": "2026-11-16-r150-original-rank-four-bounded-rhs127-inputs-789f.json",
+    "sha256": "e77c9689d52c35b48257f0968bcf37f673063e6805d7060ed9620fdd5beac338"
+  },
+  "interface": {
+    "bytes": 7675,
+    "gitBlob": "8051eeaeaf1a6583151ea4e252d14cd61ef38653",
+    "path": "2026-11-16-r150-original-rank-four-bounded-rhs127-interface-789f.md",
+    "sha256": "61b2df35ef6dbf6fc1c87aa8f04730a5e317d4bd7337852e2ef70e333daac283"
+  },
+  "mathematicalBinding": "e7a6e012e59891f741e579181bf7f5fcf2f5d872e688959e2255967a06c98baa",
+  "nativeSource": {
+    "bytes": 5825,
+    "gitBlob": "97c6316a82e7e1a570496db044074417bcc88034",
+    "path": "2026-11-16-r150-original-completed-row-rhs127-789f.cpp",
+    "sha256": "9707a53c28f7c3082fec631675aea3974b2f637cdd5c5333bfeee46dac5d05a1"
+  },
+  "outputs": {
+    "completeManifest": {
+      "bytes": 9055,
+      "path": "rank-four-bounded-rhs-manifest.json",
+      "sha256": "1d2fa67473940ea6a64225b6e66cda850e320d0cbb8707ab50315c4a40185ce4"
+    },
+    "completeNativeResults": {
+      "7": {
+        "input": {
+          "bytes": 7914,
+          "path": "literal-original-rhs-input.bin",
+          "sha256": "f31573c05251a2f075cd3f01ebe705fc7d8f79f3e828bda0bea2f3c11c3b2c6b"
+        },
+        "log": {
+          "bytes": 572,
+          "path": "native.log",
+          "sha256": "fd8e89eeceb7a0f897b22fdedc1e989d34d0da9fc4a8b848ed7fc418fd14f1e8"
+        },
+        "receipt": {
+          "bytes": 571,
+          "path": "complete-original-rhs-native-receipt.json",
+          "sha256": "e49b5c8eceaa0e3b2ae0fc2ead4493235634d8056b050560da613660dba56e5c"
+        },
+        "result": {
+          "bytes": 8230,
+          "path": "complete-original-rhs-result.bin",
+          "sha256": "7bcacd54b6398ba22959e8ccaa3eb60024403bc4a323b73482ca9dd8c2ef3999"
+        }
+      },
+      "8": {
+        "input": {
+          "bytes": 106204,
+          "path": "literal-original-rhs-input.bin",
+          "sha256": "1bc1d77e8cebc92887cac9a62c63c5ada664f410d71103fb668f16f0fe234745"
+        },
+        "log": {
+          "bytes": 608,
+          "path": "native.log",
+          "sha256": "2e86d931403ea4e3a8aa64618746558ecc9f1db88f60570d9b8da2db8ea9eeca"
+        },
+        "receipt": {
+          "bytes": 607,
+          "path": "complete-original-rhs-native-receipt.json",
+          "sha256": "dd3f1b410fbf0a20d6ce2f6df8d20ef383611fe46ea117e9ae2427dd01f5cfbf"
+        },
+        "result": {
+          "bytes": 114544,
+          "path": "complete-original-rhs-result.bin",
+          "sha256": "89936c7d48b6be0801b9d35546aab9a660a2524465b5635e295c787f377891db"
+        }
+      }
+    },
+    "rawReceipt": {
+      "bytes": 6587,
+      "path": "rank-four-bounded-rhs-receipt.json",
+      "sha256": "48fcfcbf7b2f482c11c82927eef843d1c219805c1f564294fecef179637863ed"
+    }
+  },
+  "parameters": {
+    "chartIndex": 14,
+    "coefficientRoot": 100,
+    "memoryMiB": 2048,
+    "prime": 127,
+    "seconds": 180
+  },
+  "parentStatesReadOnly": true,
+  "resourceUsage": {
+    "childIncludesCompiler": true,
+    "childPeakRssKiB": 195616,
+    "parentPeakRssKiB": 107920
+  },
+  "sameMathematicalSourceAfterLauncherFailure": true,
+  "separatePreMathematicalLauncherAttempt": {
+    "error": {
+      "message": "/usr/bin/time not present",
+      "type": "FileNotFoundError"
+    },
+    "format": "r150-pre-math-launch-failure-v1",
+    "mathematicalProcessStarted": false,
+    "retainedFailureIdentity": {
+      "bytes": 255,
+      "path": "bounded-rhs-pre-math-time-launch-failure.json",
+      "sha256": "9a106e6e2e9613a557d1a5a93929be93bb819c1e37ad277bbf9ed7b2011a4cbd"
+    },
+    "sourceUnchanged": true,
+    "utc": "2026-11-16T14:38:44.035122+00:00"
+  },
+  "source": {
+    "bytes": 25458,
+    "gitBlob": "18d8e4f21b5ce464e2b47b0a40ff040df4aa6009",
+    "path": "2026-11-16-r150-original-rank-four-bounded-rhs127-789f.py",
+    "sha256": "f613a6d1ed47548117e7b725b6680ea6bd3b3e147b1fa88d2d3a64784177d34f"
+  },
+  "sourceElapsedSeconds": 7.559555421001278,
+  "status": "completed",
+  "storage": "Source, parameters, execution identity and hashes only; all mathematical arrays and raw outputs remain temporary."
+}
