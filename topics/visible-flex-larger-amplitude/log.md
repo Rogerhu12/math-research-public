@@ -193,3 +193,7 @@ R599三件30966B完整即独立刊：准确工厂十词用整数最近偶数解�
 ## 2026-11-16 16:45 UTC /root — R585 actual244来源联合guard停止与未返范围
 
 R585完整21212B/698d2fbf即独立刊：244两终态唯一全文读，实际R584联合source guard失败/外2与内部子条件未知分开；原454前缀和10当前未起由固定控制流支持，父248env不冒244请求。source487638原70/1663同字、scienceENOENT、全科学未起、removedfalse/quiet未推，R604/R600继续不猜未返值。R599已fbdae401、R597/R602/R601与现有runs持续。
+
+## 2026-11-16 16:47 UTC /root — R601全解析投影与实际saved-RHS的world C1缺陷
+
+R601完整三件49847B写完即独立刊：完整解析tail角导数+全部alias+world连接D0、全3M+2系数角权推同场r/r_phi；实际同R580/R596对象/同R575/全coverledger退休才组合，原finish唯一、无新field/DFT/clock，r_hi1保正gap，原stop元数据恢复。直接引用R514输运/R519既有六jet，不冒实际常数或新门；R600待下一独立刊，R539真实227终态成文，现有科学与R597/R602/R604继续。

@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R601同一实际prefix的world C1缺陷完整组件已刊**：[完整证明](results/R601-actual-analytic-projection-and-saved-RHS-world-C1-defect.md)、[真实对象/原finish接口](notes/2026-11-16-actual-analytic-saved-RHS-world-C1-interface.md)。R580全带/全部tail与alias导数，加真实world frame连接D0；R596全系数η乘完整角权，给同Q/同准确scalar的r与r_phi。只能同R575/R553对象、原完整cover/ledger/退休全一致；不填外常数，不重算角网/DFT/field，原stop后元数据恢复不重试。接已有R514的|τ|≤|r_phi|/(Aρ)，实际Aρ/锚/全径向和闭面各片仍未付；不重证R519、不加新接受门。新源码未执行，后继真实caller必须明示接管两件原finish而非重复调用。
+
 **R585实际244完整终态已刊**：[来源联合guard停止、487638超限和科学未起](results/R585-actual244-source-binding-stop-and-complete-necessary-overflow.md)。真实R584第409行合取未成立、外prepare2；子R583退出码/两CPP实际前缀/哪个子条件假均未返，不假定70或某异常。原454source前缀已过，当前十view全未起，env残留是父248；source487638/fa361f56未返→1663/d26b12f6 honest70同字，science reader ENOENT，全数值未起，raw未删/quiet未推。R604按已读真实契约处理工程断口，R600只改同对象具名元数据关系；都不借新运行补写本次未知。
 
 **R599准确来源边界完整组件已刊**：[整数RN-even十词与真实coast配方证明](results/R599-accurate-ten-word-and-actual-coast-recipe-boundaries.md)、[完整接口](notes/2026-11-16-accurate-ten-word-and-actual-coast-recipe-interface.md)。只将已绑定准确工厂十参数串按准确有理语义形成原80B比较右侧，原H/state/RHS/J不改；正负零/非法/非有限/溢出明确。closed从实际launcher.recipe.file严格同namespace原coast路径读，再原全bytes/SHA/schema/clock/accepted/quiet条件；不建假旧文件。R597249负责完整实际caller及来源级联，本库未执行不冒已经修好运行，不改238/241/247。R596+599均不添加原科学接受门。
