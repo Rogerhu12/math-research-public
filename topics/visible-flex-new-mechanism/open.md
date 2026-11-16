@@ -180,3 +180,7 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### 2026-11-16 08:42:28 UTC — R489 排真实单曲率集中及两个分离质量窗
 
 [R489](results/R489-no-single-curvature-concentration-for-the-five-cap-conditions.md)在p*=r*=1归一保ν=v″dt质量2/3与一次矩1，有界H尾一次矩一致可积；单原子只能(2/3)δ−3/2。η=v(−3/2)=||v−vcrit||∞=W1/3，并得r差L1≤6η；完整十二L/八Aj含真实远左C偏置给|Aj−Ajcritical-offset(H)|≤Kj(M)η^((j+2)/9)。原E的端势同端相消，R485全部C≥0非零和R483大H界遂付统一η*>0：任何真五门零必须η>η*，而且两个固定分离区间各有正曲率质量。此结论不把质量当点态正窗或五控制统一逆，也未排两簇/线性v/其它边界；0新执行，继续真实全零或新边界，主完成未付。
+
+### 2026-11-16 08:44:11 UTC — cap五门首步修复，消费同一剩余账户
+
+[唯一修复补记](notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md)：DOP853显式first_step=1e−6，其余数学族/六起点/容差/maxstep/解析敏感度不变。原run43831664308/job133178210211已付prefix从原stdout一次恢复，删除前缀求积函数与导入；carry .5630522320000182秒、2/1/1积分、14RHS、63prefix回调、8431输出字节，下一积分id3/记录id7。仍原120秒/400started，科学imports/input/失败/输出扣同一余额；FINAL总时钟读total_same_scope_seconds_including_carried，不能只读新进程时长。原文件/hash见request；0本地执行/编译/测试/旧checks。Public同workflow只触发本次实际错误续算，尚无完整新结果，主门继续。

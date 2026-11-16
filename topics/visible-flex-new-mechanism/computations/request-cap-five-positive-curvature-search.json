@@ -1,8 +1,8 @@
 {
   "schema": "cap5-positive-curvature-search-v1",
   "entry_point": "scripts/literature_cap5_positive_curvature_search.py",
-  "scope": "First bounded search on one actual 15-parameter positive-curvature cap family for all five complete R471 conditions.",
-  "scientific_inputs": "new_family_only_no_paid_logs",
+  "scope": "One actual startup repair continuing the same bounded 15-parameter cap5 search; restore the completed paid prefix and carry the original failure account.",
+  "scientific_inputs": "same_cap5_family_paid_prefix_only_one_startup_repair",
   "limits": {
     "seconds": 120,
     "started_integrals": 400,
@@ -163,13 +163,18 @@
   "source_manifest": [
     {
       "path": "scripts/literature_cap5_positive_curvature_search.py",
-      "bytes": 31582,
-      "sha256": "ab19482e582c93a552b915d8d813cc6f4d36c94f88f2b2ed4eb266179b892c38"
+      "bytes": 42426,
+      "sha256": "783b7fef36672ba1d331a5cff2019ce37065aba80293d9390285630c3bba3485"
     },
     {
       "path": "notes/cap-five-positive-curvature-search-design-20261116.md",
       "bytes": 11527,
       "sha256": "917789e58b5cddf3ebe0131f6e0d9aa58236e68f880be072041fb6ace39fa8ea"
+    },
+    {
+      "path": "notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md",
+      "bytes": 7815,
+      "sha256": "8496eca52cfa9e6b28aeb8dd4cbc0fe9092e9435141ccc092900da5c3be8814a"
     }
   ],
   "mathematical_sources": [
@@ -196,7 +201,7 @@
   ],
   "outputs": {
     "records": "CAP5_RECORD, every started/completed/failed integral and exact parameters",
-    "final_clock": "CAP5_FINAL_CLOCK; includes imports, input, failures and complete output",
+    "final_clock": "CAP5_FINAL_CLOCK; total_same_scope_seconds_including_carried includes the original failed attempt plus current imports, I/O, failures and complete output; entry_elapsed_seconds_including_output is only the new process.",
     "complete_fields": [
       "raw endpoint",
       "raw I[0..7]",
@@ -210,7 +215,8 @@
     ],
     "science_data_only_in_stdout_and_runner_temp": true,
     "no_raw_output_git_blob": true,
-    "no_artifact": true
+    "no_artifact": true,
+    "carried_prefix": "Literal original record 3 and record 6 payloads, authenticated once; zero new prefix integrations/callbacks."
   },
   "classification": {
     "floating_small_candidate_is_not_exact_zero": true,
@@ -233,10 +239,61 @@
   },
   "queue_session": "Astra-new-mechanism-9974ea84",
   "source_sha256": {
-    "topics/visible-flex-new-mechanism/scripts/literature_cap5_positive_curvature_search.py": "ab19482e582c93a552b915d8d813cc6f4d36c94f88f2b2ed4eb266179b892c38",
+    "topics/visible-flex-new-mechanism/scripts/literature_cap5_positive_curvature_search.py": "783b7fef36672ba1d331a5cff2019ce37065aba80293d9390285630c3bba3485",
     "topics/visible-flex-new-mechanism/notes/cap-five-positive-curvature-search-design-20261116.md": "917789e58b5cddf3ebe0131f6e0d9aa58236e68f880be072041fb6ace39fa8ea",
     "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
-    ".github/workflows/visible-cap-five-positive-curvature-search.yml": "b9e7cb3806ca4df8f8aca526ff03319889857c4756d89ab665350edda82b84a4"
+    ".github/workflows/visible-cap-five-positive-curvature-search.yml": "b9e7cb3806ca4df8f8aca526ff03319889857c4756d89ab665350edda82b84a4",
+    "topics/visible-flex-new-mechanism/notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md": "8496eca52cfa9e6b28aeb8dd4cbc0fe9092e9435141ccc092900da5c3be8814a"
   },
-  "publication_policy": "Only sources, parameters, identities and human conclusions in Git; raw results only original public Actions stdout and runner temp."
+  "publication_policy": "Only sources, parameters, identities and human conclusions in Git; raw results only original public Actions stdout and runner temp.",
+  "continuation_policy": "cap5-paid-prefix-startup-repair-v1",
+  "carried_source": {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43831664308",
+    "job_id": "133178210211",
+    "source_commit": "03bfffd120026aa5f25187dc0c0ec5c01705e709",
+    "workflow": ".github/workflows/visible-cap-five-positive-curvature-search.yml",
+    "log_bytes": 106370,
+    "log_sha256": "0e78611cfb99dc2e6a9158991d920a3740185919bb25924c5a4865333fce2520",
+    "original_request": {
+      "path": "topics/visible-flex-new-mechanism/computations/request-cap-five-positive-curvature-search.json",
+      "bytes": 6143,
+      "sha256": "353d61eae47e5763176eee3dff13edd56b0e000660afe959cbbe44f799d85c8f"
+    }
+  },
+  "carried_records": [
+    {
+      "tag": "CAP5_RECORD",
+      "kind": "PREFIX_COMPLETE",
+      "record": 3,
+      "bytes": 655,
+      "sha256": "d1bd2dca8e358f526f9fd904fe37e79c6d651c00ac36e502712b8c98c4015c76"
+    },
+    {
+      "tag": "CAP5_RECORD",
+      "kind": "INTEGRAL_FAILED",
+      "record": 5,
+      "bytes": 854,
+      "sha256": "37a2d67d6536a04d4cfb87e59cfd03a83c83e5b4e57dc64f75af8addab85a7a3"
+    },
+    {
+      "tag": "CAP5_RECORD",
+      "kind": "FINAL_REPORT",
+      "record": 6,
+      "bytes": 4837,
+      "sha256": "858e14bf1727a21e3740e54140158f642339ce4e1b04066cf0218174884ca6b6"
+    },
+    {
+      "tag": "CAP5_FINAL_CLOCK",
+      "kind": "FINAL_CLOCK",
+      "record": null,
+      "bytes": 333,
+      "sha256": "a4ec5d0df80d2f929bae363319c95095d744989a4a329d9af06dbf4ae688b4ef"
+    }
+  ],
+  "startup_control": {
+    "first_step": 0.000001,
+    "no_exponential_clipping": true,
+    "same_math_family_targets_and_six_starts": true
+  }
 }
