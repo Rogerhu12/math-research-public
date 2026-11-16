@@ -57,6 +57,6 @@ R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧�
 
 ## 5. 当前工作
 
-[全已付finite master](notes/true53-all-paid-finite-master-central-path-design-20261116.md)首次run43816639046输入BOM漏行失败，0LP/0Newton；已耗5.828010012秒计入同240秒后续，只修parser不改模型；复用5743soft/2937hard+5新gradient，共9658行；request e8746af4de865e855a2b682c38279606fc3a2e2c60a385d849b3931b1e66f730；一次LP≤96迭代/192系统/240秒，0J/JVP/值。原始/对偶中心路径非旧Hildreth，正finite gain仍欠完整分离及actual。
+[全已付finite master](notes/true53-all-paid-finite-master-central-path-design-20261116.md)首次run43816639046输入BOM失败0LP/0Newton；5.828010012秒已扣同240秒，修复续行入口已提交待回读；复用5743soft/2937hard+5新gradient，共9658行；续行request 295f3fe94a214d5f16cff80b6ee402c458d15e01d494c3ca07b18c5949085a9d；一次LP≤96迭代/192系统/240秒，0J/JVP/值。原始/对偶中心路径非旧Hildreth，正finite gain仍欠完整分离及actual。
 
 [四self设计](notes/weight-zero-complete-self-four-column-design-20261116.md)从原mixed恢复3静态+8响应，只求两新补响应与X_H/X_Y，复用七Qpivot/seq707/三已付self。X_H右/左累计差n2完整保留，仅当前q母上零；nonlocal残词不能冒固定母非成员。拟一次180秒包含输入/全部失败、无旧rank/dev；源码在写，未执行。R464全13规范已条件付；R466续完整换锚反射与−6/−4增强门。全主目标未完，继续open。

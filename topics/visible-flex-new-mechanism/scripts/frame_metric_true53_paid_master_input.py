@@ -91,7 +91,7 @@ def read_paid_source(request, ledger):
     ledger.check()
     found = {}
     for line in raw.decode("utf-8-sig").splitlines():
-        clean = reader.ANSI.sub("", line)
+        clean = reader.ANSI.sub("", line).lstrip("\ufeff")
         match = reader.TIME_PREFIX.match(clean)
         if match is None:
             continue
@@ -141,7 +141,7 @@ def read_paid_source(request, ledger):
         "source_global_scientific_seconds": SOURCE_GLOBAL_SECONDS,
         "source_full_grid_descent_or_new_physical_point_not_inferred": True,
         "source_arrays_only_read_from_original_stdout_not_recreated_or_uploaded": True,
-        "earlier_source_log_reads": 0}
+        "earlier_source_log_reads": request["parameters"]["earlier_source_log_reads"]}
     ledger.check()
     return model, completed, receipt
 

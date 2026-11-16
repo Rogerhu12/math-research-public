@@ -1,5 +1,5 @@
 {
-  "request": "true53-all-paid-finite-master-central-path-once",
+  "request": "true53-all-paid-finite-master-resume-unstarted-LP-after-input-BOM",
   "repository": "Rogerhu12/math-research-public",
   "goal": "Solve the unresolved finite original-unit maximin master using all already-paid selected gradients, before any new complete-grid direction evaluation.",
   "source": {
@@ -65,25 +65,28 @@
     "new_actual_trials": 0,
     "development_or_old_independent_checks": 0,
     "source_raw_log_reads": 1,
-    "earlier_source_log_reads": 0,
+    "earlier_source_log_reads": 1,
     "source_accepted_index": 53,
     "source_physical_state_sha256": "9ffba0f1400c504343f9b0b8847be7f14745144f66b3cd89dfe698f45d81548e",
     "old_HiGHS64_cone32_projection_scopes_closed": true,
     "all_started_failed_work_is_charged": true,
     "numerical_primal_dual_diagnostics_not_interval_optimality_certificate": true,
     "positive_finite_primal_requires_later_original_complete_separation_and_actual_gates": true,
-    "tolerated_dual_box_support_uses_original_bound_row_expansion": true
+    "tolerated_dual_box_support_uses_original_bound_row_expansion": true,
+    "already_charged_scientific_seconds": 5.828010012000021,
+    "science_seconds_remain_same_total": 240
   },
   "source_sha256": {
     "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
     "topics/visible-flex-new-mechanism/scripts/frame_entry_body_subspace.py": "09f91a1d53c807ff58bb8862c7e7765cb21d09ca93bc0ccfc100f19ef446d022",
     "topics/visible-flex-new-mechanism/scripts/frame_height_null_coordinates.py": "5ebfde0a3322bd119704fda517b2f15db48964fad7a3a344b1e863ec4c2f2f22",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_input.py": "194cd32f67ebba88fe61efdfe57b500210ea2a16a2c6f41a70a03976849d8020",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_audit.py": "be0d4a1a4d456d417f95da0403ba8443f74f5a0e415c65300f03971f9712e302",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_input.py": "d4cce2957795af08f93fc733b9fa21b307c440e9d8d7fed0256edd3620efc6d4",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_audit.py": "247c2682f4b12a6cf71824fadf926923c5d5bbb6e54327f9a865019e1f217715",
     "topics/visible-flex-new-mechanism/notes/true53-all-paid-finite-master-central-path-design-20261116.md": "5f4c6e8eeec1cc4c82bb87febd1b13475ad18dc613f2187fb89d13f9b409461a",
     "topics/visible-flex-new-mechanism/notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md": "5af6b33ca483ff045a50557428978c4fd10bc417ee583c0f8b37467a00602ed4",
     ".github/workflows/visible-true53-paid-master-central-path.yml": "87a74156e9f5de26f0dbd35e1801bc148c51ca865247a6c1794929ba3b69fb13",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_central_path.py": "29672cb2cd041adfce547c3fb04a679b7d4d6238f464c3af3ee6e9f061e56ae6"
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_true53_paid_master_central_path.py": "29672cb2cd041adfce547c3fb04a679b7d4d6238f464c3af3ee6e9f061e56ae6",
+    "topics/visible-flex-new-mechanism/notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md": "a4f44a962371c0db0f5b888667ca39aaedb0994b4a6a38c460e879cb087d09ce"
   },
   "scientific_imports": "New input/core/audit modules, NumPy2.3.5, standard library, and the pinned standard-library original-log reader; no old research entry or backend.",
   "publication_policy": "Only scripts, request, design, run references, hashes and human conclusions in Git. Source arrays read once from original stdout. New result is one ordinary original stdout record. No artifact, Release, cache, encoded or chunked payload.",
@@ -92,5 +95,16 @@
     "frame_metric_true53_paid_master_central_path.py",
     "frame_metric_true53_paid_master_input.py",
     "frame_metric_true53_paid_master_audit.py"
-  ]
+  ],
+  "resume_after_input_failure": {
+    "run_id": "43816639046",
+    "job_id": "133130076418",
+    "source_commit": "01614a9cbbc2ce1cfe93318915dee05292dc586a",
+    "final_clock_JSON_plus_LF_bytes": 1385,
+    "final_clock_JSON_plus_LF_sha256": "9c5e533ec4948fb9b8bbc2189cbb185ab75f25b3c0b35a61f3863925e9499e16",
+    "science_seconds": 5.828010012000021,
+    "finite_LP_calls": 0,
+    "newton_systems": 0,
+    "source_raw_log_reads": 1
+  }
 }

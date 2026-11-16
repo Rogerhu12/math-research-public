@@ -20,6 +20,18 @@ from frame_metric_true53_paid_master_input import (
     read_paid_source, assemble_paid_master, finite_candidate, require)
 
 TAG = "TRUE53_PAID_MASTER_"
+PRIOR_INPUT_FAILURE = {
+    "run_id": "43816639046",
+    "job_id": "133130076418",
+    "source_commit": "01614a9cbbc2ce1cfe93318915dee05292dc586a",
+    "final_clock_JSON_plus_LF_bytes": 1385,
+    "final_clock_JSON_plus_LF_sha256": "9c5e533ec4948fb9b8bbc2189cbb185ab75f25b3c0b35a61f3863925e9499e16",
+    "science_seconds": 5.828010012000021,
+    "finite_LP_calls": 0,
+    "newton_systems": 0,
+    "source_raw_log_reads": 1
+}
+PRIOR_SCIENCE_SECONDS = PRIOR_INPUT_FAILURE["science_seconds"]
 
 
 def emit(suffix, value):
@@ -36,14 +48,17 @@ def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--request", required=True)
     args=parser.parse_args()
-    ledger=NewMasterLedger(started_monotonic=PROCESS_STARTED)
+    ledger=NewMasterLedger(started_monotonic=PROCESS_STARTED-PRIOR_SCIENCE_SECONDS)
+    ledger.note("prior_input_failure_carried_forward", **PRIOR_INPUT_FAILURE)
     report={"schema":POLICY+"-audit","status":"starting","timing_segments":{},
             "source_log_read_attempts":0,"actual_finite_LP_calls_started":0,
             "new_geometry_values":0,"new_hard_J":0,"new_JVP":0,"new_metric_gradients":0,
             "new_scalar_searches":0,"new_actual_trials":0,"new_actual_acceptances":0,
             "old_HiGHS_cone_Hildreth_or_development_calls":0,
             "full_grid_feasibility_or_main_goal_not_claimed":True,
-            "only_original_stdout_new_result_not_Git_artifact_release_or_cache":True}
+            "only_original_stdout_new_result_not_Git_artifact_release_or_cache":True,
+            "prior_failed_input_receipt":copy.deepcopy(PRIOR_INPUT_FAILURE),
+            "same_finite_master_scope_resumed_without_clock_or_LP_reset":True}
     result=None
     try:
         require(os.environ.get("GITHUB_ACTIONS")=="true"
@@ -56,7 +71,9 @@ def main():
                 and request["parameters"]["science_seconds"]==240
                 and request["parameters"]["maximum_iterations"]==96
                 and request["parameters"]["maximum_newton_systems"]==192
-                and request["parameters"]["finite_LP_calls"]==1,
+                and request["parameters"]["finite_LP_calls"]==1
+                and request["resume_after_input_failure"]==PRIOR_INPUT_FAILURE
+                and request["parameters"]["earlier_source_log_reads"]==1,
                 "the one new finite-method scope is immutable")
         for path,sha in request["source_sha256"].items():
             require(reader.digest(Path(path).read_bytes())==sha,
@@ -131,9 +148,12 @@ def main():
         "schema":POLICY+"-final-clock",
         "status_at_final_emit":report["status"] if scope_error is None else "new-finite-scope-ended",
         "scope_check_error":scope_error,"complete_receipt":complete_receipt,
-        "this_new_scientific_seconds":elapsed,
+        "this_process_scientific_seconds":elapsed,
+        "prior_failed_input_scientific_seconds":PRIOR_SCIENCE_SECONDS,
+        "this_new_scientific_seconds":PRIOR_SCIENCE_SECONDS+elapsed,
         "ancestor_scientific_seconds":SOURCE_GLOBAL_SECONDS,
-        "total_ancestor_plus_new_scientific_seconds":SOURCE_GLOBAL_SECONDS+elapsed,
+        "total_ancestor_plus_new_scientific_seconds":SOURCE_GLOBAL_SECONDS+PRIOR_SCIENCE_SECONDS+elapsed,
+        "total_source_raw_log_reads_for_this_finite_master":1+report["source_log_read_attempts"],
         "ancestor_actual_values":SOURCE_VALUES,"new_actual_values":0,
         "total_source_plus_new_actual_values":SOURCE_VALUES,
         "one_new_finite_LP_calls_started":report["actual_finite_LP_calls_started"],

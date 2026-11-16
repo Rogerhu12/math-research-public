@@ -193,7 +193,7 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 ### true53全已付有限主问题：输入修复后同账户续行
 
-[首次失败](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)：run43816639046/job133130076418，MODEL/COMPLETE内部行前BOM使锚首时间解析漏行；raw log指纹已过。0LP/0Newton/0新geometry/J/JVP/actual，5.828010012秒照计，同新finite任务240秒不重置；原5743soft/2937hard+5/652物理范数/320外界/target的9658行和96/192/1范围不变。修timestamp前BOM、原payload逐个SHA仍不变后续首次有限求解；原日志再读一次单列。祖先累计1600.268237108秒/128值。
+[首次失败](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)：run43816639046/job133130076418，MODEL/COMPLETE内部行前BOM使锚首时间解析漏行；raw log指纹已过。0LP/0Newton/0新geometry/J/JVP/actual，5.828010012秒照计，同新finite任务240秒不重置；原5743soft/2937hard+5/652物理范数/320外界/target的9658行和96/192/1范围不变。timestamp前BOM已修，续行唯一入口已提交待消费；原payload逐个SHA仍不变，首次有限求解尚待原结果；原日志再读一次单列。祖先累计1600.268237108秒/128值。
 
 正finite候选仍须完整双网分离、原guard/round/actual；不宣新实际点、全网下降或不可行。下一actual pull07:25:49前，已读01614a9…两README空diff。
 

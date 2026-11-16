@@ -379,3 +379,6 @@
 
 
 - **true53 finite master首次输入BOM失败，0LP/0Newton，同240秒续行。** [原始失败及续行口径](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)：run43816639046/job133130076418，5.828010012秒，累计1600.268237108秒/128值。原MODEL/COMPLETE行前BOM已定位，仅修输入；本次actual双pull/双空diff已读记H。无有限/全网结论。
+
+
+- **true53输入BOM修复，同finite账户续行首次LP入口。** [失败口径](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)；仅逐行timestamp前lstrip BOM，payload不改，续行ledger扣5.828010012000021秒并报告本进程/同任务累计。request 295f3fe94a214d5f16cff80b6ee402c458d15e01d494c3ca07b18c5949085a9d；1LP/96/192/240仍原上限，无新科学结论。
