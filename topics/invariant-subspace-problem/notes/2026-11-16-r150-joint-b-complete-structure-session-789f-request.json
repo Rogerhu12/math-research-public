@@ -1,0 +1,278 @@
+{
+  "format": "isp-original-joint-b-complete-structure-manifest-only-session-v1",
+  "rulesReadAtCommit": "02320c3a035d03c31c4e1fada1d19d9661bf7179",
+  "rulesGitBlobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+  },
+  "historicalInputs": [],
+  "maximumIdleSeconds": 60,
+  "closeSessionWhenStepsComplete": true,
+  "steps": [
+    {
+      "id": "restore-original197-minimal-historical-inputs",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-input-recovery-789f.py",
+      "scriptSHA256": "fe0e3dff72bdb75f4478eb17a71a6f8ef912bf6419c9c16f3e3afe2086031623",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+          "sha256": "a5d9cd78042fcbde42a6cc4fb8c740ce30b4064fb2be60f85b48b8c1db66aeac"
+        }
+      ],
+      "argv": [
+        "--manifest",
+        "{scripts}/2026-11-15-r150-global197-i2-original-input-manifest-789f.json",
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/global197-original-inputs",
+        "--remaining-seconds",
+        "600",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 660,
+      "receiptPath": "{work}/global197-original-inputs/original-input-recovery-receipt.json",
+      "budgetResumeAttempts": 2
+    },
+    {
+      "id": "restore-six-small-paid-inputs",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-small-historical-inputs-789f.py",
+      "scriptSHA256": "4f247de6788b4829d53445a169f59959460a64007b7ddf263ed48eb872afcb2b",
+      "sources": [],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--out",
+        "{work}/root2-fourth-small-inputs"
+      ],
+      "timeoutSeconds": 600,
+      "receiptPath": "{work}/root2-fourth-small-inputs/root2-fourth-small-inputs-restore-receipt.json"
+    },
+    {
+      "id": "restore-four-true-families-and-exact-map",
+      "requires": [],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-p7-extra-input-recovery-789f.py",
+      "scriptSHA256": "ffbc4a5c706c6983f820e75f94a98fce789d373f4297dbb7ab8134988fc4a47d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-positive-two-p7-manifest-789f.json",
+          "sha256": "16e4bc219a2c77433aec58aae78b574155405537a4efed66be196de2f01a9cf7"
+        }
+      ],
+      "argv": [
+        "--repo",
+        "{repo}",
+        "--manifest",
+        "{scripts}/2026-11-16-r150-root2-fourth-positive-two-p7-manifest-789f.json",
+        "--work",
+        "{work}",
+        "--seconds",
+        "600"
+      ],
+      "timeoutSeconds": 660,
+      "budgetResumeAttempts": 2,
+      "receiptPath": "{work}/root2-fourth-p7-extra-input-recovery-receipt.json"
+    },
+    {
+      "id": "rebuild-selected-true16-original-p9-through35",
+      "requires": [
+        "restore-original197-minimal-historical-inputs",
+        "restore-six-small-paid-inputs",
+        "restore-four-true-families-and-exact-map"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-true16-source-rebuild-p9-789f.py",
+      "scriptSHA256": "e4b2b935882e899a55d7db10d590e5ce8d35f5fedcab6063a14008a5efe4b69e",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-common35-789f.hpp",
+          "sha256": "3fb7910935f46592c3f22cb3c2c727e8c25fdb0b34e7c8d65d1c558dca6e402c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-vq35-789f.cpp",
+          "sha256": "4381ac9e5c8b12567cb31b8f7f7151a20914ac5218cb5f0a0d9eec0880d054db"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-original-transport35-789f.cpp",
+          "sha256": "d7f5dd75eb8139b014f309f8c8da3b98c7380efff3aa1243e4e9f921ddd74cb6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-normal35-789f.cpp",
+          "sha256": "b21a633ae018ccd54f4f4890ebfa4daec3f719a212a82ffd3a3e941decd493b3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-unit-solve35-789f.py",
+          "sha256": "3a1d41ddd0c7eaeb1047fbbf18da01e1af667a4726e462fcc41c381c7c2e7e62"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-integer-p9-jets-789f.cpp",
+          "sha256": "1e309f6ecfc5e492b25dc39e58c37c1ee8ad685de798285f3fb398313115608e"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-original-model-p9-789f.py",
+          "sha256": "1043eaacc50d0228f9bb2e8c00198a99ba4f405d1cad78453c2011455f4932f6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp",
+          "sha256": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+          "sha256": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+          "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+          "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
+          "sha256": "105961c4d6f105dd16a3f70e5ce974c28c1e0e64534510e1af50370525c9fb51"
+        }
+      ],
+      "argv": [
+        "--notes-root",
+        "{scripts}",
+        "--original-input-dir",
+        "{work}/global197-original-inputs",
+        "--small-input-dir",
+        "{work}/root2-fourth-small-inputs",
+        "--true-source-dir",
+        "{work}/root2-fourth-true-source-inputs",
+        "--exact-gzip",
+        "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+        "--jet-map-dir",
+        "{work}/root2-fourth-jet-map",
+        "--recipe",
+        "{work}/joint-b-selected-true16/prepared210/complete210-fourth-source-recipes.json.gz",
+        "--out",
+        "{work}/joint-b-selected-true16",
+        "--seconds",
+        "1800",
+        "--memory-mib",
+        "4096",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 1860,
+      "budgetResumeAttempts": 3,
+      "receiptPath": "{work}/joint-b-selected-true16/selected-true16-source-rebuild-receipt.json"
+    },
+    {
+      "id": "complete-original-joint-b-structure-p9",
+      "requires": [
+        "rebuild-selected-true16-original-p9-through35"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-joint-b-complete-structure-p9-789f.py",
+      "scriptSHA256": "76308b437da77f3aef3c25390a197af2af0f4d485129d8e6ee9d1431d080fee3",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-common35-789f.hpp",
+          "sha256": "3fb7910935f46592c3f22cb3c2c727e8c25fdb0b34e7c8d65d1c558dca6e402c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-vq35-789f.cpp",
+          "sha256": "4381ac9e5c8b12567cb31b8f7f7151a20914ac5218cb5f0a0d9eec0880d054db"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-original-transport35-789f.cpp",
+          "sha256": "d7f5dd75eb8139b014f309f8c8da3b98c7380efff3aa1243e4e9f921ddd74cb6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-normal35-789f.cpp",
+          "sha256": "b21a633ae018ccd54f4f4890ebfa4daec3f719a212a82ffd3a3e941decd493b3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-local-unit-solve35-789f.py",
+          "sha256": "3a1d41ddd0c7eaeb1047fbbf18da01e1af667a4726e462fcc41c381c7c2e7e62"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-integer-p9-jets-789f.cpp",
+          "sha256": "1e309f6ecfc5e492b25dc39e58c37c1ee8ad685de798285f3fb398313115608e"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-original-model-p9-789f.py",
+          "sha256": "1043eaacc50d0228f9bb2e8c00198a99ba4f405d1cad78453c2011455f4932f6"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-f31-bitplane-789f.hpp",
+          "sha256": "73d113f207c718b230162c786dfc8d367c5113193ed5fe590166af414c6fe8ec"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-common-789f.hpp",
+          "sha256": "591dedf2c8a1d9d67fc644d21fae6e56ffc7ef8c840560831422197cbc5e9531"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-local-jet-unit-schur-helper-789f.py",
+          "sha256": "d31c917fe0aaa0e9008e5cb0a85cb81600b5a431fe691261948354fb1d1ee42b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-ninth-first-matrices-789f.py",
+          "sha256": "3f0da5d1814dac10b3dcfa31ac07c67dec38cab420eeedb3037bb4575c61b00a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-14-r150-torsion-characteristic-789f.py",
+          "sha256": "8825680181815794c9b361d267fde5dc679dc1fa2fced44a36470d6c45416ec2"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-root2-fourth-complete210-source-preparation-789f.py",
+          "sha256": "105961c4d6f105dd16a3f70e5ce974c28c1e0e64534510e1af50370525c9fb51"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-true16-source-rebuild-p9-789f.py",
+          "sha256": "e4b2b935882e899a55d7db10d590e5ce8d35f5fedcab6063a14008a5efe4b69e"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-selected-parent-reader-p9-789f.py",
+          "sha256": "a99c8308e47d940bcd06861bfedd81666e14ec1a28499c8116d267376a7af39a"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-b-target-integer-p9-jets-789f.cpp",
+          "sha256": "1b35e729813e2ed162c3a7a314a798797073b5ff6269c5644492fa09742df93b"
+        }
+      ],
+      "argv": [
+        "--notes-root",
+        "{scripts}",
+        "--original-input-dir",
+        "{work}/global197-original-inputs",
+        "--small-input-dir",
+        "{work}/root2-fourth-small-inputs",
+        "--true-source-dir",
+        "{work}/root2-fourth-true-source-inputs",
+        "--exact-gzip",
+        "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+        "--jet-map-dir",
+        "{work}/root2-fourth-jet-map",
+        "--recipe",
+        "{work}/joint-b-selected-true16/prepared210/complete210-fourth-source-recipes.json.gz",
+        "--parent-out",
+        "{work}/joint-b-selected-true16",
+        "--out",
+        "{work}/complete-original-joint-b",
+        "--seconds",
+        "1800",
+        "--memory-mib",
+        "4096",
+        "--through",
+        "final"
+      ],
+      "timeoutSeconds": 1860,
+      "budgetResumeAttempts": 3,
+      "receiptPath": "{work}/complete-original-joint-b/original-joint-b-complete-d-module-receipt.json"
+    }
+  ],
+  "largeDataPersistenceAllowed": false,
+  "computationalOutputsInRepositoryAllowed": false,
+  "mathematicalProgramStatus": "source-prepared: complete joint B low invariant factors and minimum generators remain uncomputed",
+  "full210RecomputationRequested": false
+}

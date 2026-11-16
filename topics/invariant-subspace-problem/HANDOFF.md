@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 02320c3a035d03c31c4e1fada1d19d9661bf7179（2026-11-16 09:35:20 UTC，Actions run43841053629实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43841053629-1.json。
+- **最近成功实际 pull 与已读规则提交：** 79da26b47506828352640cfd247b6783eac57a4d（2026-11-16 09:38:11 UTC，Actions run43841482525实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43841482525-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor约07:20失效、09:00复探仍不可用；旧tmp未冒存活。现有Actions执行真实pull/rebase/push，API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-moving-first-far-bessel-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-joint-b-complete-structure-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -18,23 +18,18 @@
 
 ## R150原rank-one精确系数接续
 
-- 全原17梯度/6188来源/4367输出与degree23的h*保持。Q相对25、h*W⊂L、全W源费8391；rank-one Bell8/𝔫⁸只原归一构造，九目标整源不外推全W。完整公式/范围见归档。
-- [原Q完整模块](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)已闭：T0=(3,1,1)、全不变因子(s,s,h*)；原t2,t3,t4最少三生成，每j的sT循环且商(Q[s]/s)²。完整原源已核，不据Q猜D分解。
-- **[D31共同及逐九完整ann已闭](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)：** p=31,x=s−2,B=<h*tj>,M=<tj>。Ann(B)=Ann(bj)=I=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f的精确分母指数=max(0,5−v31(f(2)),2−v31(f′(2)))；h*/xh*/x²h*指数5/2/0，额外首一参数次数最小2。H25有真D[s]来源≤8515；任高次f成员源费≤max(8515,64+degf)，不声称其它素数分母已消。
-- 单Rbj≅_D D/p5⊕D/p²；原单R[tj]≅_D D23⊕D/p5⊕D/p²，未称R分裂。共同B只知是长7商环的忠实模，**不称B本身长7/循环**。Ann(p^aB)=(p^max(5−a,0),p^max(2−a,0)x,x²)，原p^aM再乘h*。
-- 原完整T指数(1,1,2,2,2,2,2,3,3,4,4,4,4,5,5,6)、长50，原free D298；四参数同父86阶段及全部raw/binding/矩阵已独核，身份见ann稿/归档。真U16/J16及104/505/315门保留，不重旧210。
-- **下一具体项：** lit求共同B完整D31结构/最少生成元，再共同M。x²B=0给18个D生成列bj/xbj；复用p³B=p⁴T与已付B高指数3,4,4,5，低层须真实来源。旧job tmp不冒存活；新计算复用最小8→7→3→1历史/真基恢复。原127其它来源和全W整费用及归档open继续。
+- 原17梯度/6188来源/4367输出与degree23的h*保持；全Q相对T维25/ann h*、h*W⊂L、全W源费8391。Bell8/𝔫⁸仅原归一rank-one构造。唯一127扭子/九目标整源不外推全W，完整公式见归档。
+- [原Q完整模块](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)已闭：T0=(3,1,1)、全不变因子(s,s,h*)，原t2,t3,t4最少三生成。
+- [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
+- **共同B完整结构新队列待实际启动：** [五步及严格证明接口](notes/2026-11-16-r150-original-joint-b-complete-structure-interface-789f.md)，只三原恢复＋真p9/35项的8→7→3→1重建＋同父消费者，不重210/currentK4/H25。全4433原整数系数，14个真实root2基；高三数字及低六数字，15低目标含独立ph3，18×22真关系的D提升/等长门与18×18参数作用完整核。原104/315/505门全保，两个数学段1800秒/4GiB、75才同job续。源已静审，未预填低重数/最少生成元；结果后续共同M及其它open。
 
 ## R150完整非rank-one及Bell1
 
-- 两原子ab(1−st)D开集I=(M,Z)、Cat3一点满秩给degree2643 D(y)∈J，均不覆盖例外。全essT3≤3已证matched Bell零；[真W±Cat3点](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)33梯度全真，不能追整个Cat3空。Bell非零仍ess4/5/6。
-- [全局9×57/Bell基9×56完整原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系与18来源，固定E逆/literal单位消元；矩阵u≤1、source u≤3。实12.363秒/binding3299f05e，完整free32/十低生成/原56图册见归档，全部均已实核。
-- [完整rank3关联与六次pencil](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)付概形双逆、全部84原E系数、非零参数rank≥4；rank5保核点、rank4保整P1。原运行127.391/10.488/0.00855秒；几何整性由下列节点稿补全。
-- [原rank4自由35基](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)及[原mean完整交](results/R150-appendix-original-mean-rank-three-integral-surface-and-complete-intersection-geometry.md)已付：X≅V(I4M) degree20、h(O)=(1,0,10)、ω=O(2,0)、u²6/uv15/v²20、K²24。所有Bell余关系保留。
-- **[同原六次曲面恰35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)：** 精确E唯一余项识别及D_(127,d=100)自由35，trace det95使Z有限étale；全19原(q,I4M)七次unit双逆1254528坐标给(y)^7包含，排所有rank5奇点。rank4处原2×2 Schur三条目是真局部参数，det=unit(ac−b²)；故六次面几何整/正规，原X平滑几何整且为极小解消，恰35条两两不交(−2)核线，不称E有理点。实2.981秒，根全source/回执/binding及局部几何独核。下一保全rank3与rank4均值支路，处理Bell1原9×56所有余关系；节点几何不等于临界理想空。
-
-- **[原四二次覆盖及对偶正规化](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)：** 原(q,I4M)七次单位给四q在X≅V(I4M)无基点，φ*O(1)=2v充足⇒finite；char0满秩微分μ·dq=0给Gauss有理逆，X是原六次对偶的正规化，degree80。每rank4核P1映完整Veronese conic，不判这些像相交。原七次source乘multinomial w^α得b7，再减(b−1)Σb^k给全Bell1上四q＋十五δ的19图单位覆盖；q/δ源双次数(5,7)/(3,7)。各图仍须真清幂来源；N=1+Σ(Ni−1)才可全17源粘合，未声称任一图已空。
-
+- 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
+- [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
+- 原rank3关联概形X≅V(I4M)及六次pencil已付，所有非零μ下rank≥4；rank5保核点，rank4保整P1。原rank4代数自由35，X degree20、h(O)=(1,0,10)、ω=O(2,0)、u²6/uv15/v²20、K²24，原证明见归档。
+- **[原六次面恰35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)：** 同原E/D自由35、trace剩余det95使Z étale；全19源(q,I4M)七次792×1848单位双逆1254528门排rank5奇点。rank4局部Schur=unit(ac−b²)，六次面几何整正规、X平滑极小解消，恰35条两两不交(−2)核线，不称E有理。实run43836278134/2.981秒，根raw/binding/来源全核。
+- **[原对偶正规化及全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)：** 四q无基点，2v充足⇒finite，char0微分恢复μ给Gauss有理逆，X是degree80对偶的正规化；每核线映完整conic。同七次原source乘w的multinomial给b7，再保(b−1)源得四q＋十五δ单位覆盖；真各g_i^Ni原17源后才按N=1+Σ(Ni−1)粘合。局部来源尚未取得，原Bell1余理想仍开。
 
 ## R271真实投影返回与剩余交叉
 
