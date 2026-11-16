@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-R930-complete-required-connection-and-trace-source-interfaces",
+  "request_id": "20261116-R903-complete-R927-complete-core-and-R787-half638-ended-metadata",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "a3892a0c2ee543d8fd2b660168e839ec2a7e9057",
+  "rules_last_read_commit": "45b7e91f3d7dfdcf667999634dd23e669d71acf5",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,75 +12,52 @@
   "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R930-complete-original-seven-connections",
+      "label": "R903-five-Iz-two-weight-complete",
       "source": {
-        "run_id": "43921420577",
+        "run_id": "43921416613",
         "source_commit": "280f1840a717c80665133b0ddab8a55a02af7d4e",
-        "artifact_id": 14254752421,
-        "artifact_name": "serre-global-R930-seven-whole-Artin-connection-traces-43921420577-1",
-        "archive_bytes": 42518654,
-        "archive_sha256": "70740e910313d6be510a8d1bab302388f67057d7a56f4ad613f6af1001179f2d",
-        "artifact_expires_at": "2026-11-17T17:44:51Z",
+        "artifact_id": 14254777999,
+        "artifact_name": "serre-R903-five-Iz-two-weight-RR-43921416613-1",
+        "archive_bytes": 329127789,
+        "archive_sha256": "95534023e7392f2f9cbb03158d2201e3982c3e0c7db51df0aedf3e77bf2b3d00",
+        "artifact_expires_at": "2026-11-17T17:48:18Z",
         "expected_conclusion": "success",
-        "core_sha256": "c35f63bec49f3b795c040c64d4900d955af1eed5cf326e3640226880401a0f4e",
-        "wrapper_sha256": "2fad50f49c2e5670d54980da5db75b137eef53d5a265e7bc3895050edd007ec0",
-        "manifest_sha256": "1261b9cf43e691a00e05ac04f7cf48e83e393a58027fa8983dcaa70bc363ef92"
+        "core_sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
+        "wrapper_sha256": "97b91720dec52a8396456aa8164dc367946def7ebd756e8e00f10a1a76f427e0"
       },
-      "mode": "named_original_members",
-      "names": [
-        "R930-source-audit.json.gz",
-        "R930-complete-ordinary-trace-row.json.gz",
-        "R930-completed-trace-transport-factors.json.gz",
-        "R930-seven-original-exact-target-connection-trace-DAG.json.gz",
-        "R930-D1-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D1-whole-target-denominator-unit.json.gz",
-        "R930-D1-target-numerator-contraction-index.json.gz",
-        "R930-D2-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D2-whole-target-denominator-unit.json.gz",
-        "R930-D2-target-numerator-contraction-index.json.gz",
-        "R930-D3-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D3-whole-target-denominator-unit.json.gz",
-        "R930-D3-target-numerator-contraction-index.json.gz",
-        "R930-D4-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D4-whole-target-denominator-unit.json.gz",
-        "R930-D4-target-numerator-contraction-index.json.gz",
-        "R930-D5-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D5-whole-target-denominator-unit.json.gz",
-        "R930-D5-target-numerator-contraction-index.json.gz",
-        "R930-X-complete-whole-target-connection-and-trace.json.gz",
-        "R930-X-whole-target-denominator-unit.json.gz",
-        "R930-X-target-numerator-contraction-index.json.gz",
-        "R930-DN-complete-whole-target-connection-and-trace.json.gz",
-        "R930-DN-whole-target-denominator-unit.json.gz",
-        "R930-DN-target-numerator-contraction-index.json.gz"
-      ],
-      "print_json_summary_files": [
-        "R930-source-audit.json.gz",
-        "R930-complete-ordinary-trace-row.json.gz",
-        "R930-completed-trace-transport-factors.json.gz",
-        "R930-seven-original-exact-target-connection-trace-DAG.json.gz",
-        "R930-D1-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D1-whole-target-denominator-unit.json.gz",
-        "R930-D1-target-numerator-contraction-index.json.gz",
-        "R930-D2-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D2-whole-target-denominator-unit.json.gz",
-        "R930-D2-target-numerator-contraction-index.json.gz",
-        "R930-D3-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D3-whole-target-denominator-unit.json.gz",
-        "R930-D3-target-numerator-contraction-index.json.gz",
-        "R930-D4-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D4-whole-target-denominator-unit.json.gz",
-        "R930-D4-target-numerator-contraction-index.json.gz",
-        "R930-D5-complete-whole-target-connection-and-trace.json.gz",
-        "R930-D5-whole-target-denominator-unit.json.gz",
-        "R930-D5-target-numerator-contraction-index.json.gz",
-        "R930-X-complete-whole-target-connection-and-trace.json.gz",
-        "R930-X-whole-target-denominator-unit.json.gz",
-        "R930-X-target-numerator-contraction-index.json.gz",
-        "R930-DN-complete-whole-target-connection-and-trace.json.gz",
-        "R930-DN-whole-target-denominator-unit.json.gz",
-        "R930-DN-target-numerator-contraction-index.json.gz"
-      ]
+      "mode": "ended"
+    },
+    {
+      "label": "R927-original-reference-complete-core",
+      "source": {
+        "run_id": "43922183082",
+        "source_commit": "e56cbda0e08ce47ff7a3d5bcd7e4837720bd833a",
+        "artifact_id": 14253893174,
+        "artifact_name": "serre-R927-reference-endpoint-norm-frames-43922183082-1",
+        "archive_bytes": 8652140,
+        "archive_sha256": "b88467f38488f0a2c65ed7049a6833572ebd1f1a5270e4341c93c99892bbff90",
+        "artifact_expires_at": "2026-11-17T17:48:47Z",
+        "expected_conclusion": "failure",
+        "core_sha256": "4d0be4a7ced92ca57dad14863fe7433903e2b0c82df1e47e7c1520dfc10aaa28",
+        "wrapper_sha256": "302c960c30f69bd77122008db476bb749aa833c078d58fa0b7b0bf6a53f1a829"
+      },
+      "mode": "ended"
+    },
+    {
+      "label": "R787-half638-actual-ended",
+      "source": {
+        "run_id": "43869450077",
+        "source_commit": "393efa24ed552d52922f22a50a96607dbadde804",
+        "artifact_id": 14253788112,
+        "artifact_name": "serre-global-R787-half-coordinate-dual-CM-value-43869450077-1",
+        "archive_bytes": 415484632,
+        "archive_sha256": "12a3d37de005c00c4ce24e4769304d15ccdcb4249f38fd743a87f045615caa56",
+        "artifact_expires_at": "2026-11-17T17:47:39Z",
+        "expected_conclusion": "failure",
+        "core_sha256": "ffe5dcff0c17b81923741c2b56806cc4907cb812cfdee4499ed2650ea92abe54",
+        "wrapper_sha256": "1552e403d9206d21a7cd7de43c1e7f4975957513e332a316c448fccbb84c46f4"
+      },
+      "mode": "ended"
     }
   ]
 }
