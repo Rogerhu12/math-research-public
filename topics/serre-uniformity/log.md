@@ -458,3 +458,9 @@
 - 真R8529件载体及270叶选R7918，完整schema/父子/旧README身份保留，不访问已过期原包。主线程读完全部core/wrapper/request/workflow；本地未执行数学。
 - R864纸证已推77682d9e；R860真实结果2.029818047秒成功，11次Range读取57小件/1853801B，准确表达DAG已成但展开/RR/height未成，正式结果接着登记。
 - 本push规则：本地真实pull至8184486663a0480a9805ed8efa5c6b4739cc08d8（2026-11-16T05:46:49.923708+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:52 Asia/Taipei — serre-public-astra-20261115
+- R860正式结果c4bb1555：首run43811325290成功，37stage/core总2.029818047s，final4314f242/DAG8b9dcca6/61源carrier5414b58f，原cY/ν/余子式准确源表达已成；展开/RR/height未成。
+- root11Range1853801B实际核57小件/manifest58，不称大carrier或全ZIP已本地重哈希；原53/569载体成员由Actions全部核，旧数学不重做。R864首60min激活core0dfe5d3f/wrapperb9e36cc7/request924e384b，实际19minor/127列/双图全核待输出。
+- R862首run43812454495真实exit1发生在final缺命名文件；artifact14201076909/453f8a21全ZIP/12件已实际核，已成数学stage保留。ordinary修具体命名/兼容续源，禁止重做已成Norm/12matrix；R865/R866共享127块后接。
+- 本push规则：本地真实pull至feebf07a4514fb317a3360f5ff057dc3362b0ad9（2026-11-16T05:52:16.616084+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

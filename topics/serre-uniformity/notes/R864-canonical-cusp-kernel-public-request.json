@@ -1,0 +1,242 @@
+{
+  "budget_minutes": 60,
+  "core": "R864_original_canonical_cusp_kernel.py",
+  "core_sha256": "0dfe5d3fde2adfe90c3384266d5d8083ed46221c1b7b96e04030b0c5c2d26ea9",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R864-original-holomorphic-differentials-from-cusp-evaluation.md",
+  "method_sha256": "3f308ffa2c4ce7bc217f12f1f1b5c31bd0ef425ed90953721e7176e863ac8c7e",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proofs": {
+    "FM": {
+      "path": "notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md",
+      "sha256": "a5d65aa4a841c77eb7d29ccf98e96b01e60691ffdf1d763115487889a1695fbe"
+    },
+    "R805": {
+      "path": "results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md",
+      "sha256": "b48d9f8dd5d8d1a89aa2574ab7f9ee014b83ca21baf41694252b9c53993571e8"
+    },
+    "R814": {
+      "path": "results/R814-original-cusp-zero-ideal-and-exact-multiplicity-peeling.md",
+      "sha256": "6ecbcab0910b6a495d0bab705c69420600aad52b0aba63cc41766d6a2a619b84"
+    },
+    "R820": {
+      "path": "results/R820-certified-original-cusp-finite-algebra-and-ideals.md",
+      "sha256": "7a9293bdb2f0fe345ba3a482702264054bde747aa75a6dec6d33f345398e3ce8"
+    },
+    "R860": {
+      "path": "notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md",
+      "sha256": "7a200b7dd74e1fd51b43e2bac12d277f7b5a3e4fa4161f463bf8c20d51eadf3f"
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R864-original-canonical-cusp-kernel",
+  "resume": null,
+  "rules_last_read_commit": "dd58327584065e20e6106ec112ddb1b0b50a67a9",
+  "sources": {
+    "R805": {
+      "certificate": {
+        "bytes": 5108,
+        "file": "p41-original-affine-pencil-free-basis-certificate.json",
+        "sha256": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0"
+      },
+      "configuration_sha256": "176dcb479f730ff647490a0aaa587195d615a4ded4edac7a64f8331fd46300d4",
+      "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+      "expected_conclusion": "success",
+      "files": {
+        "R805-accepted-pencil.json.gz": {
+          "bytes": 4053,
+          "file": "R805-accepted-pencil.json.gz",
+          "sha256": "83f333404cb147eebe4b4c0d0f3dd383c20b532c7aab69c27269c111eaf6eb8c"
+        },
+        "R805-graded-free-basis.json.gz": {
+          "bytes": 11649,
+          "file": "R805-graded-free-basis.json.gz",
+          "sha256": "74311a7a143fafc43a36d1a43f6146e6aa3cb28809a020e3fa1337fdc4e475c9"
+        },
+        "core-receipt.json": {
+          "bytes": 403,
+          "file": "core-receipt.json",
+          "sha256": "ff885a9ad0b7d1c66d8d1366b9137a975d83fa4cd79fc92df030dad328d6782c"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 451608,
+          "file": "full-outputs-manifest.json",
+          "sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7"
+        },
+        "p41-original-affine-pencil-free-basis-certificate.json": {
+          "bytes": 5108,
+          "file": "p41-original-affine-pencil-free-basis-certificate.json",
+          "sha256": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0"
+        },
+        "public-actions-input.json": {
+          "bytes": 5419,
+          "file": "public-actions-input.json",
+          "sha256": "6d992893216b84c3aff4e2297d006b6f568bc3d297998817e534ef57ecaf4d81"
+        },
+        "run-receipt.json": {
+          "bytes": 650,
+          "file": "run-receipt.json",
+          "sha256": "942b9b9294ea59d77b2012fc4c1ec231cdfb15d35e108976586de7cba0ac58f8"
+        }
+      },
+      "manifest_bytes": 451608,
+      "manifest_file_count": 1322,
+      "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+      "result": "R805-original-affine-pencil-free-basis",
+      "run_id": "43705580592",
+      "selected_file_count": 7,
+      "selected_files_sha256": "c69ebc7bc2d56342415c37c43fe074c02d4a879104010bc37a0e6e60767c375e",
+      "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+      "stage_manifest": {
+        "bytes": 67098,
+        "file": "R805-stage-manifest.json.gz",
+        "sha256": "37d151c36d0c8d01e7ec5af4a1228e1aaa19054889436c4debd17e7b27cc6547"
+      }
+    },
+    "R820": {
+      "certificate": {
+        "bytes": 6047,
+        "file": "p41-original-cusp-finite-algebra-ideals-certificate.json",
+        "sha256": "a2e629d05d561e1144e6989612213b33990075400a21f7c1c2f0c2eb825152b4"
+      },
+      "configuration_sha256": "882b413cb404ee39142757680b5598831fa8a6ae63fb75223fd4d7128ae6736f",
+      "core_sha256": "25f5582ed0c6dae2cf29d5eb288469067c09d917bfe1f565fb042978ea9b173c",
+      "expected_conclusion": "success",
+      "files": {
+        "R820-chart-sigma-cusp-Hermite-index.json.gz": {
+          "bytes": 17119,
+          "file": "R820-chart-sigma-cusp-Hermite-index.json.gz",
+          "sha256": "48e434d4387b8a4065827191fa97f53eda5cf51295f5fac6d4336d0f40528ebd"
+        },
+        "R820-chart-tau-cusp-Hermite-index.json.gz": {
+          "bytes": 17060,
+          "file": "R820-chart-tau-cusp-Hermite-index.json.gz",
+          "sha256": "df8c00e8fb5962a3481d1b07cbefd54e7a5ea51fc54e03e12d39a25354af8365"
+        },
+        "R820-original-cusp-finite-field-interface.json.gz": {
+          "bytes": 328768,
+          "file": "R820-original-cusp-finite-field-interface.json.gz",
+          "sha256": "b58ec39994113b232ae6e1b4549d598352298a8071159eebef62d3901e0169cc"
+        },
+        "R820-stage-manifest-14d0564a3c407f21095b987a.json.gz": {
+          "bytes": 31391,
+          "file": "R820-stage-manifest-14d0564a3c407f21095b987a.json.gz",
+          "sha256": "93064680035284daf511842401420f27e9b6da85cb6726a93c650a1b42b42900"
+        },
+        "core-receipt.json": {
+          "bytes": 510,
+          "file": "core-receipt.json",
+          "sha256": "821543753c4c54cd8b053c08e156ef9f04526d12fb4e37ec7e03ef4bdc803c29"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 154422,
+          "file": "full-outputs-manifest.json",
+          "sha256": "2877dd3dbe604f07a58c8774897085d1de90a6faa38a6d2ed78a5bb9d7f79a8f"
+        },
+        "p41-original-cusp-finite-algebra-ideals-certificate.json": {
+          "bytes": 6047,
+          "file": "p41-original-cusp-finite-algebra-ideals-certificate.json",
+          "sha256": "a2e629d05d561e1144e6989612213b33990075400a21f7c1c2f0c2eb825152b4"
+        },
+        "public-actions-input.json": {
+          "bytes": 5399,
+          "file": "public-actions-input.json",
+          "sha256": "75bc663ccb8446a8d4ead55548d3a61aaff1337b36fc1afcdbc08dc1cc3bcc85"
+        },
+        "run-receipt.json": {
+          "bytes": 529,
+          "file": "run-receipt.json",
+          "sha256": "b8e9812a01b7eb80288f02795ea151c1224f97ca611885d549568c021239aa55"
+        }
+      },
+      "manifest_bytes": 154422,
+      "manifest_file_count": 598,
+      "manifest_sha256": "2877dd3dbe604f07a58c8774897085d1de90a6faa38a6d2ed78a5bb9d7f79a8f",
+      "result": "R820-original-cusp-finite-algebra-and-ideals",
+      "run_id": "43721747750",
+      "selected_file_count": 9,
+      "selected_files_sha256": "f8ed99559a30181ab8e85df83ff865e17198b3fde008f4be91ec0357158c3d8c",
+      "source_commit": "7890fde180ffabee056de2ce8dd241b189a893a2",
+      "stage_manifest": {
+        "bytes": 31391,
+        "file": "R820-stage-manifest-14d0564a3c407f21095b987a.json.gz",
+        "sha256": "93064680035284daf511842401420f27e9b6da85cb6726a93c650a1b42b42900"
+      }
+    }
+  },
+  "transport_helper": "R837_original_branch_pencil_public.py",
+  "transport_helper_sha256": "eec99c9e849c051a8314f00ff594037e962d9bc23e2d2bfaa6334307a3bb5eae",
+  "transport_source": {
+    "actual_carrier_member_count": 569,
+    "actual_process_exit_code": 0,
+    "input_bundle": {
+      "bytes": 13406926,
+      "file": "R856-retained-original-inputs.tar.gz",
+      "sha256": "fd6329bd17f2d729a3c3834e78fe7b4b626be84b692e77d0e51bbdf205f01e41"
+    },
+    "input_receipt": {
+      "bytes": 7509,
+      "file": "R856-retained-inputs-receipt.json",
+      "sha256": "2533c38a4b423404c6c06d5f3ae4c2ffeb3585dae038a9ad8582d45d0eccc8e2"
+    },
+    "metadata_files": {
+      "R856-original-source-inventory.json": {
+        "bytes": 115028,
+        "file": "R856-original-source-inventory.json",
+        "sha256": "df1c712d4e5caec933cc1e46ff7a56e35972d541edd1fd8873de2d51a5f56f38"
+      },
+      "R856-retained-inputs-receipt.json": {
+        "bytes": 7509,
+        "file": "R856-retained-inputs-receipt.json",
+        "sha256": "2533c38a4b423404c6c06d5f3ae4c2ffeb3585dae038a9ad8582d45d0eccc8e2"
+      },
+      "core-receipt.json": {
+        "bytes": 640,
+        "file": "core-receipt.json",
+        "sha256": "4cc7648c178eb236b8bd4c75a365a51a09fad758839f24150a5d4b8bc953dc95"
+      },
+      "public-actions-input.json": {
+        "bytes": 9114,
+        "file": "public-actions-input.json",
+        "sha256": "bb8fafb52327203580d1d3aed9bfd0bb7e65c2a85382b074b9cbcf750d66d2d4"
+      },
+      "run-receipt.json": {
+        "bytes": 447,
+        "file": "run-receipt.json",
+        "sha256": "b1f4ddb4c740f5ce65c5febf2d1d6300b45885bc4cb5aac39f946afe6576abd1"
+      }
+    },
+    "original_groups": [
+      "R805",
+      "R820"
+    ],
+    "source": {
+      "archive_bytes": 47922521,
+      "archive_sha256": "125c93efac847e7b14ba8a256897f6e6c362b3fd060a87bc5befd43ba38b7c25",
+      "artifact_id": 14198217155,
+      "artifact_name": "serre-global-R856-original-fixed-branch-ideal-bases-43805659598-1",
+      "core_sha256": "80c4e508cd0ddc15bcc3f8a5b3a4053ce141233fd3d259c1bcf0935db6a6311b",
+      "expected_conclusion": "success",
+      "manifest_bytes": 9130,
+      "manifest_file_count": 52,
+      "manifest_sha256": "6f40ae27f660816057442e12562d7a4a38d6fa5f4422bbd3f865acf22951b8cc",
+      "result": "R856-original-fixed-branch-ideal-bases",
+      "run_id": "43805659598",
+      "source_commit": "ebdb4e512bb3cb8f8fadbb3bf2b9e69f11127051"
+    },
+    "source_inventory": {
+      "bytes": 115028,
+      "file": "R856-original-source-inventory.json",
+      "sha256": "df1c712d4e5caec933cc1e46ff7a56e35972d541edd1fd8873de2d51a5f56f38"
+    },
+    "type": "one_unchanged_original_input_carrier"
+  },
+  "workflow": ".github/workflows/serre-R864-original-canonical-cusp-kernel.yml",
+  "wrapper": "R864_public_original_canonical_cusp_kernel.py",
+  "wrapper_sha256": "b9e36cc798a48293a603eeb8e2bc799e0d66fe0154bbdf8a360b78382a42b54f"
+}

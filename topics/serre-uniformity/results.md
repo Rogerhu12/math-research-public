@@ -176,3 +176,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R862（已证明，新小算术待执行）**：[由原七个Hom对应构造同一Rosati投影与准确整数分母](results/R862-original-Rosati-projector-from-certified-Hom-correspondences.md)。真D_A=q_R†q_R=Σ七个原f_R pull–push，已成a_A=κM_v给P_A=Norm(X−a_A)，E_A=1−P_A(D_A)/P_A(0)=q†κ^-1q，d_A=P_A(0)>0整化为有限对应。五方向保原g_R/极化/κ；E_Aφ*=0，不能代Y活跃eη/d/N或完整nonp。SHA256 afa1e0d08d0a0bd65374fee1996f0d644588840dee35fec7d766cc2f4e5707d0。
 
 - **R864（已证明，实际核待公开计算）**：[原尖点评价构造全部正则微分](notes/R864-original-holomorphic-differentials-from-cusp-evaluation.md)3f308ffa2c4ce7bc217f12f1f1b5c31bd0ef425ed90953721e7176e863ac8c7e。完整L(Hτ)146基乘原ν给H⁰Ω，原20尖点有限代数的两20×146评价核理论维127/rank19；第二图检vf，原V1 e73另加a1、82只在微分。实际rank/19阶非零minor/127独立列与两图全核由新Actions取得；未将有理坐标当原Q下降，也不代YP128/634或height。
+
+- **R860实际源完整表达已成**：[正式结果](results/R860-certified-original-semilinear-resolvent-DAG.md)c4bb1555970252886c5574187adf578532447fc023c0c4ebd2c35bd6f9e8e5f8；run43811325290/sourcecb6f93b6，37stage/core总2.029818047s，final4314f242、原W系数索引c522daaa、半线性DAG8b9dcca6，61原件carrier5414b58f。原β72余子式/真实cY/ν及FM27因子1源完整；未作二元展开、Krylov、RR或height。root11Range1853801B核57小件，整个ZIP/大载体此处未重哈希；全部新数学仅Actions。

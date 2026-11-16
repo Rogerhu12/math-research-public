@@ -134,3 +134,5 @@ E_Aφ*=0，所以本投影不能替代YP的eη，d_A不代其d或挠阶N；相�
 **R864正则微分新入口已证**：[纸证](notes/R864-original-holomorphic-differentials-from-cusp-evaluation.md)3f308ffa。原L(Hτ)=(1,z,β1…β144)，原ν的除子Hτ−C使全纯条件恰20×146尖点评价共同核；理论rank19/kernel127。实际消费者只做新有理消元、真实19minor、127自由行identity及两张图各20×127全乘回；σ图须vf，原V1第73项加a1。原16件经R856569载体保真实R805/R820身份，未求新W/Γ或q尾。坐标有理不等于原Q定义，真实cY固定基由R866续；YP128/634/507、η/Hecke/height仍未成。
 
 **R862小算术已激活**：[执行记录](notes/R862-original-Rosati-projector-activation.md)，core4656250c/wrapper8c7c82be/request0b928df9，20min标准库四stage。真实R8529+270叶保R7918原身份；新P_A/d_A与原12阶完整乘回尚待运行。投影仍消去φ*JY，活跃Y Hecke/原nonp继续R865，不以本结果替代。
+
+**R860正式闭合、R864首scope激活**：[真实DAG结果](results/R860-certified-original-semilinear-resolvent-DAG.md)：run43811325290/37stage/2.029818047s，final4314f242/DAG8b9dcca6/61源carrier5414b58f已成；不重W或三共轭，未展开/RR。R864[执行记录](notes/R864-original-canonical-cusp-kernel-activation.md)固定core0dfe5d3f/wrapperb9e36cc7/request924e384b，60min只原20×146的真实127核；R866后继真正Q-fixed基与R865 T7共用原127块，不重复消元。R862首run43812454495仅final命名缺文件而exit1，已成stage与原源完整保留，按实际bug修复续接。
