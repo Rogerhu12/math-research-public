@@ -1,0 +1,136 @@
+name: Recover one exact terminal domain-manifest audit body
+on:
+  push:
+    branches: [visible-flex-larger-retention5-log-recovery-20261116]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  recover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Bind one original completed job and recover its entire bounded necessary body
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python -u - <<'PY'
+          import hashlib,json,os,re,sys
+          import urllib.request as U
+          import urllib.error as E
+          import urllib.parse as P
+          REPO="Rogerhu12/math-research-public"
+          RUN=43901415619
+          JOB=133418735831
+          HEAD="6d51f1491d3a3f8210c3ab4e41b568bc10b3d26a"
+          FIXED="7af9e725e58983a740d3cb53c66b73166914e247"
+          WF=".github/workflows/visible-flex-larger-domain-manifest-audit-twenty-two-three.yml"
+          BRANCH="visible-flex-larger-twenty-two-three-manifest-audit-20261116"
+          API="https://api.github.com/repos/"+REPO
+          BEGIN="BEGIN_FIXED_DOMAIN_MANIFEST_RETENTION_AUDIT"
+          END="END_FIXED_DOMAIN_MANIFEST_RETENTION_AUDIT"
+          PREFIX="RETENTION_AUDIT_IDENTITY "
+          def need(ok,code):
+              if not ok: raise RuntimeError(code)
+          def digest(raw):
+              return {"bytes":len(raw),"sha256":hashlib.sha256(raw).hexdigest()}
+          def enc(value):
+              return json.dumps(value,ensure_ascii=False,separators=(",",":"),allow_nan=False)
+          class NoRedirect(U.HTTPRedirectHandler):
+              def redirect_request(self,*args,**kwargs): return None
+          opener=U.build_opener(NoRedirect)
+          headers={"Authorization":"Bearer "+os.environ["GITHUB_TOKEN"],
+              "Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",
+              "User-Agent":"same-repository-terminal-audit-recovery"}
+          def api(path):
+              with opener.open(U.Request(API+path,headers=headers),timeout=120) as response:
+                  return json.loads(response.read())
+          def bind():
+              run=api("/actions/runs/"+str(RUN))
+              job=api("/actions/jobs/"+str(JOB))
+              need(run["id"]==RUN and run["head_sha"]==HEAD and run["run_attempt"]==1
+                  and run["path"]==WF and run["workflow_id"]==420310914
+                  and run["head_branch"]==BRANCH and run["event"]=="push"
+                  and run["status"]=="completed" and run["conclusion"]=="success"
+                  and run["repository"]["full_name"]==REPO,"original-run-identity")
+              need(job["id"]==JOB and job["run_id"]==RUN and job["head_sha"]==HEAD
+                  and job["status"]=="completed" and job["conclusion"]=="success",
+                  "original-job-identity")
+              return run,job
+          try:
+              need(os.environ["GITHUB_REPOSITORY"]==REPO,"same-repository-only")
+              run,job=bind()
+              try:
+                  with opener.open(U.Request(API+"/actions/jobs/"+str(JOB)+"/logs",
+                      headers=headers),timeout=120) as response:
+                      raw=response.read()
+              except E.HTTPError as error:
+                  need(error.code in (301,302,303,307,308),"job-log-response")
+                  location=error.headers.get("Location")
+                  need(bool(location),"job-log-redirect-present")
+                  url=P.urljoin(API+"/actions/jobs/"+str(JOB)+"/logs",location)
+                  target=P.urlsplit(url)
+                  need(target.scheme=="https" and target.hostname
+                      and target.username is None and target.password is None,
+                      "job-log-secure-redirect")
+                  # This request carries NO API headers or Authorization.
+                  # A second redirect is not followed; signed URLs are never printed.
+                  with opener.open(U.Request(url,headers={"User-Agent":"terminal-audit-recovery"}),
+                      timeout=120) as response:
+                      raw=response.read()
+              print("RETENTION_AUDIT_RECOVERY_FETCH "+enc({"original_run":RUN,
+                  "original_job":JOB,"original_head":HEAD,"original_attempt":1,
+                  "original_job_log":digest(raw),"log_endpoint_requests":1,
+                  "redirect_authorization_forwarded":False}),flush=True)
+              text=raw.decode("utf-8")
+              # Strip only the Actions timestamp and line terminator.
+              # The original canonical JSON has no literal interior newline.
+              lines=[re.sub(r"^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d+)?Z ", "",
+                  x[:-1] if x.endswith("\r") else x) for x in text.split("\n")]
+              starts=[i for i,x in enumerate(lines) if x==BEGIN]
+              ends=[i for i,x in enumerate(lines) if x==END]
+              identities=[x[len(PREFIX):] for x in lines if x.startswith(PREFIX)]
+              need(len(starts)==len(ends)==len(identities)==1 and starts[0]<ends[0],
+                  "one-complete-original-frame-and-identity")
+              identity=json.loads(identities[0])
+              body="".join(lines[starts[0]+1:ends[0]]).encode("utf-8")
+              need(identity.get("limit_bytes")==90000 and type(identity.get("bytes")) is int
+                  and 0<identity["bytes"]<=90000 and digest(body)==
+                  {"bytes":identity["bytes"],"sha256":identity["sha256"]},
+                  "original-complete-body-bytes-sha-limit")
+              value=json.loads(body)
+              admin=value["administrative_run"]
+              need(value["schema"]=="fixed-head-twenty-two-three-domain-manifest-retention-audit-v1"
+                  and value["fixed_commit"]==FIXED and value["read_only"] is True
+                  and value["scientific_source_imported_or_executed"] is False
+                  and value["scientific_logs_requested"] is False
+                  and value["deletion_performed_or_authorized"] is False,
+                  "original-body-fixed-scope")
+              need(admin["GITHUB_REPOSITORY"]==REPO and admin["GITHUB_RUN_ID"]==str(RUN)
+                  and admin["GITHUB_RUN_ATTEMPT"]=="1" and admin["GITHUB_SHA"]==HEAD
+                  and admin["GITHUB_WORKFLOW_REF"]==REPO+"/"+WF+"@refs/heads/"+BRANCH,
+                  "original-body-actual-run-identity")
+              bind()
+              print("RETENTION_AUDIT_LOG_RECOVERY "+enc({"schema":"one-original-terminal-audit-log-recovery-v1",
+                  "recovery_run":os.environ["GITHUB_RUN_ID"],"recovery_head":os.environ["GITHUB_SHA"],
+                  "original_run":RUN,"original_job":JOB,"original_head":HEAD,"original_attempt":1,
+                  "original_path":WF,"fixed_scan":FIXED,"original_body":identity,
+                  "old_connector_errors":["-32603 without log text","-32603 without log text",
+                      "unsupported GET endpoint HTTP400 without log text"],
+                  "original_scan_reexecuted":False,"original_body_reencoded":False,
+                  "only_timestamp_line_transport_removed":True,"signed_url_printed":False,
+                  "raw_saved_to_git_or_artifact":False,"deletion_performed":False}),flush=True)
+              print(PREFIX+identities[0],flush=True)
+              print(BEGIN,flush=True)
+              print(body.decode("utf-8"),flush=True)
+              print(END,flush=True)
+          except BaseException as error:
+              if isinstance(error,(KeyboardInterrupt,SystemExit)): raise
+              print("RETENTION_AUDIT_RECOVERY_ERROR "+enc({"type":type(error).__name__,
+                  "http_status":getattr(error,"code",None),
+                  "safe_reason":str(error) if isinstance(error,RuntimeError) else None,
+                  "complete_body_not_returned":True,"no_signed_url_or_token_returned":True,
+                  "no_deletion_authorized":True}),flush=True)
+              sys.exit(1)
+          PY
