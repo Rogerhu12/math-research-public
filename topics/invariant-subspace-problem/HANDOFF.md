@@ -3,11 +3,11 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** db68775a76a5b35a3baf88e0e14c4df99fb0fc57（2026-11-15 23:58:05 UTC，Actions run43777614202实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43777614202-1.json。
+- **最近成功实际 pull 与已读规则提交：** 618e4b561a49a29d25c6d4e4bb172a090dd42a6c（2026-11-16 00:03:14 UTC，Actions run43778079572实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43778079572-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
-- 当前完整前态保[H](notes/2026-11-15-handoff-before-f127-complete-normal-forms-789f.md)/[open](notes/2026-11-15-open-before-global-i2-seven-and-next-pages-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
+- 当前完整前态保[H](notes/2026-11-16-handoff-before-f127-infinity-qualification-789f.md)/[open](notes/2026-11-15-open-before-global-i2-seven-and-next-pages-789f.md)及全部归档链；原来源、失败路线、未列问题均保留，不列不算关闭。
 
 ## R150：原模块、已付结果与当前缺口
 
@@ -19,21 +19,23 @@
 - **[有限载体/J1/299](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)：** C/pC=fieldtors/J长314，rankD C=degΔaff；root2谱前五(1,4,2,4,2)，全球≥15 tors方向/系数长≥44；Δaff≤299/齐次≤365。九真差源exact p阶5，非h0分母。
 - **[完整外投影Ω120/余乘子21](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** Ω=f60²、投影coker=S13⊕S/(f²)，全Δaff∈[278,299]。μ=Rout/Ω≤21，九μh*tj全局Q成员，总乘子≤44，三源费8406/8411/192。不报μ1、九h*自身来源或精确p²h0。
 
-- **[原正常商6012真源](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)与[显式投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)：** 实际z_j=1、Mz=f²q给外商泛函ℓ=zᵀ modf²；imMᵀ=kerℓ。E=(e_i−z_i e_j,f²e_j)、Mᵀ=EV，三原det/f²的Σ-Bezout给VR=I、P=I−RV张完整rank34核。故T=coker[B6012,H_M P]不倒Ω；新adj/R/P及完整W尾尚未数值构造。
+- **[正常商6012](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)/[显式投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)：** z_j=1、Mz=f²q给ℓ与imMᵀ=kerℓ；原E/V和三Σ-Bezout给VR=I、P=I−RV，T=coker[B6012,H_M P]不倒Ω。新R/P及完整W尾尚未数值构造。
 
 - **root2还余二维：** 精确J2=1把旧u+v+w=3更新为u=f2−16≥0、v=Σa≥6 m_a(2)≥0且u+v=2。完整B第四页至多2；若actual=2才迫f2=16、m6=2、更高0。当前未报第四页，不把有理长度与高p指数互换。
 
 
-- **[rank-one Bell十六次原桥](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)：** 当前μ=Rout/Ω已给μ b_r^16∈原截面理想，九平方鸽巢10次+四完整纤维CRT给明确17来源/degree_m≤26。μ1才闭rank-one；全gradR3的非rank-one且ess(T3)≥4仍开，不倒置μ/h*作算子逆。
+- **[rank-one Bell16](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)：** μ b_r^16有原17来源/degree_m≤26；μ1才闭rank-one。全gradR3的非rank-one/ess(T3)≥4仍开，不倒μ/h*作算子逆。
 
 ## 活跃执行与恢复
 
 - run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
 
-- **全56Ω120与约化：** step32/71.12834121秒全核，cert39654723·147a40fa/payload0ca29224。step33/0.002218695秒及两独立全121/316乘回给barΩ=Q60²、barμ|B21；outereca924ad/raw3463·b536af2e，未断μ1。全证明/原范围见上文外除子8411。
+- **Ω约化实核：** step33/0.002218695秒及两独立全121/316乘回给barΩ=Q60²、barμ|B21；outereca924ad/raw3463·b536af2e，μ1未证。
 
 - **[全局I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，全197原4367/505/315/J/DAG真；χ=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21。outerf6b83a6e/raw46870·5d9fc76f；I3须197纠偏源、7参数关系+b8/pb9。step5全210 recipe已0.510477秒核真，33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。
 - **[F127完整正常形已付](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)：** 旧5528覆盖失败保outer77c527bc；新全6188/4433/18单位已核。NF native63.3021秒，3333真基/2855全源/9目标/244990算术核；新增660中658零，6046/6063两行非零，全入GB。raw4468·e77db837/binding36cdc5a0，out original127-normal-forms-all6188。GB900秒/2GiB源696c3c07/e4cb324c，out original127-complete-graded-module，保整行恢复；torsion/∞资格待付。request为notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
+
+- **∞127资格待实算：** 原live run43756208221接step34/infinity-complete-original-prime127-qualification，source5b77b531/native45078410，600秒/4GiB。全5100×3762高块、1088×587低块、所有paid cochain逐6188乘回，实际第11 forcing/高particular/低13，保分母单位门；未借31长度上界。输入/CLI见step34。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
