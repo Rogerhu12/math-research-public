@@ -1,0 +1,128 @@
+{
+  "schema": "R530-original-R520-owned-distance-correspondence-source-view-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "baseline": {
+    "file": "geometry_20261116_current_generated_image_quotient.py",
+    "bytes": 47597,
+    "sha256": "8d48856dcdc642f56779bff949a473b352c26edf0fda9e65937e2ce4feba1ef2",
+    "schema": "R520-current-generated-images-original-owned-quotient-v1"
+  },
+  "kernel": {
+    "file": "geometry_20261116_bidirectional_distance_correspondence.py",
+    "bytes": 29146,
+    "sha256": "d73e4ad2839ad4f058b840895a5708dda3cf324d2574b5ab5a9c82536df77eec",
+    "schema": "R530-complete-bidirectional-distance-correspondence-lower-bound-v1"
+  },
+  "original_image_source_plan": {
+    "file": "R520-current-generated-image-quotient-source-plan.json",
+    "bytes": 11453,
+    "sha256": "e288f2d037c65f05682ec498ab4230613920d82a3deb15780567d43088fe5877"
+  },
+  "output": {
+    "file": "geometry_20261116_current_generated_distance_correspondence.py",
+    "bytes": 46134,
+    "sha256": "3d6ff2c2547e0096c79e9cfe1490399364c55ed571a4c80eac49a2e101ba15f0",
+    "schema": "R530-current-generated-images-original-owned-distance-correspondence-v1"
+  },
+  "replacements": [
+    {
+      "before": "\"\"\"R520: actual generated image tuples and original owned-clock binding for R517.\n\nOnly explicit source/owner/input adapters are new.  R517 arithmetic is used\nunchanged through two complete source views.  No request, experiment, BVP\ngate, numerical field, clock namespace, cleanup or arbitrary source registry.",
+      "after": "\"\"\"R530: finite distance correspondences under the original R520 owned caller.\n\nThe actual R520 image binders, owned processes and absolute clocks remain.\nOnly the numeric call/result registration selects the independent R530\nfinite-correspondence kernel.  No request, field, gamma, gate or cleanup.",
+      "count": 1
+    },
+    {
+      "before": "SCHEMA = \"R520-current-generated-images-original-owned-quotient-v1\"",
+      "after": "SCHEMA = \"R530-current-generated-images-original-owned-distance-correspondence-v1\"",
+      "count": 1
+    },
+    {
+      "before": "FAMILIES = (\"original112\", \"resolution112\", \"incrementalM\")",
+      "after": "FAMILIES = (\"original112\", \"resolution112\", \"incrementalM\")\nFINITE = dict(file=\"geometry_20261116_bidirectional_distance_correspondence.py\", bytes=29146,\n    sha256=\"d73e4ad2839ad4f058b840895a5708dda3cf324d2574b5ab5a9c82536df77eec\",\n    schema=\"R530-complete-bidirectional-distance-correspondence-lower-bound-v1\")\nORIGINAL_ADAPTER = dict(file=\"geometry_20261116_current_generated_image_quotient.py\",\n    bytes=47597, sha256=\"8d48856dcdc642f56779bff949a473b352c26edf0fda9e65937e2ce4feba1ef2\")",
+      "count": 1
+    },
+    {
+      "before": "require(value.get(\"schema\") == SCHEMA+\"-source-preparation\"",
+      "after": "require(value.get(\"schema\") == \"R520-current-generated-images-original-owned-quotient-v1-source-preparation\"",
+      "count": 1
+    },
+    {
+      "before": "def prepare(args):\n    B = Binding(args.base, args.computations, args.plan)\n    out = B.base/SOURCE_OUT\n    require(not out.exists(), \"Prepare the complete source views once in a fresh own directory\")\n    out.mkdir()\n    report = dict(schema=SCHEMA+\"-source-preparation\", repository=REPO,\n        run_id=os.environ[\"GITHUB_RUN_ID\"], source_commit=os.environ[\"GITHUB_SHA\"],\n        source=receipt(__file__), actual_derived220_request=B.request_id,\n        plan=B.plan_id, original_repair=B.repair_id, original_namespace_start=B.start_id,\n        completed=False, actual_generated_sources={}, current_target=None,\n        complete_unconfirmed_sources=[x[\"output\"] for x in B.plan[\"views\"]],\n        science_import_or_arithmetic_performed=False, error=None,\n        original_namespace_clock_restarted=False, original_files_overwritten=False)\n    write = lambda: B.H.write(out/\"result.json\", report)\n    write()\n    try:\n        pending = []\n        for item in B.plan[\"views\"]:\n            baseline, wanted = item[\"baseline\"], item[\"output\"]\n            source, target = B.comp/baseline[\"file\"], B.comp/wanted[\"file\"]\n            require(same(receipt(source), baseline), \"Complete R517 baseline source differs\")\n            require(Path(wanted[\"file\"]).name == wanted[\"file\"] and not target.exists(),\n                \"Every registered source view uses a new absent basename\")\n            text = source.read_text(encoding=\"utf-8\")\n            for patch in item[\"replacements\"]:\n                require(text.count(patch[\"before\"]) == patch[\"count\"],\n                    \"An exact complete source-registration fragment changed\")\n                text = text.replace(patch[\"before\"], patch[\"after\"])\n            raw = text.encode(\"utf-8\")\n            require(same(dict(bytes=len(raw), sha256=hash_bytes(raw)), wanted),\n                \"Full generated source bytes differ\")\n            pending.append((target, raw, wanted))\n        for target, raw, wanted in pending:\n            report[\"current_target\"] = wanted\n            write()\n            with target.open(\"xb\") as stream:\n                stream.write(raw); stream.flush(); os.fsync(stream.fileno())\n            report[\"actual_generated_sources\"][wanted[\"file\"]] = receipt(target)\n            report[\"complete_unconfirmed_sources\"] = [x for x in\n                report[\"complete_unconfirmed_sources\"] if x[\"file\"] != wanted[\"file\"]]\n            write()\n        report.update(completed=True, current_target=None)\n    except BaseException as error:\n        report[\"error\"] = error_record(error)\n    rid = write()\n    print(json.dumps(dict(event=\"R520_actual_complete_source_preparation\",\n        actual_result=rid, completed=report[\"completed\"], error=report[\"error\"],\n        complete_unconfirmed_sources=report[\"complete_unconfirmed_sources\"]), ensure_ascii=True), flush=True)\n    return 0 if report[\"completed\"] else 1\n\n\n",
+      "after": "def prepare(args):\n    # The two original image-binder views are still produced by their actual\n    # original R520 preparer; this is not a second numeric implementation.\n    old = load(Path(args.computations).resolve(), ORIGINAL_ADAPTER,\n        \"_R530_actual_original_R520_preparation\")\n    return old.prepare(args)\n\n\n",
+      "count": 1
+    },
+    {
+      "before": "require(cap_plan.get(\"schema\") == SCHEMA+\"-explicit-cap-points-v1\"",
+      "after": "require(cap_plan.get(\"schema\") == \"R520-current-generated-images-original-owned-quotient-v1-explicit-cap-points-v1\"",
+      "count": 1
+    },
+    {
+      "before": "            \"The new source view must register exactly this complete actual tuple\")\n        def check_budget():",
+      "after": "            \"The new source view must register exactly this complete actual tuple\")\n        C = load(B.comp, FINITE, \"_R530_actual_finite_correspondence\")\n        require(C.SCHEMA == FINITE[\"schema\"],\n            \"Keep the actual independent finite-correspondence source/schema\")\n        def check_budget():",
+      "count": 1
+    },
+    {
+      "before": "report.update(current_stage=\"complete-original-image-and-full-E3-consumption\",\n            started=True, actual_kernel_source=receipt(B.comp/row[\"kernel\"][\"file\"]))",
+      "after": "report.update(current_stage=\"complete-original-image-and-full-finite-correspondence-consumption\",\n            started=True, actual_kernel_source=receipt(B.comp/FINITE[\"file\"]),\n            actual_complete_image_binder_source=receipt(B.comp/row[\"kernel\"][\"file\"]))",
+      "count": 1
+    },
+    {
+      "before": "                answer = K.produce(\n                    computations=B.comp, directory=rawdir, result_sha256=rid[\"sha256\"],",
+      "after": "                answer = C.produce(\n                    backend=K, family=spec[\"family\"], original_plan=spec[\"source_plan\"],\n                    computations=B.comp, directory=rawdir, result_sha256=rid[\"sha256\"],",
+      "count": 1
+    },
+    {
+      "before": "                    max_boxes=resources[\"max_boxes\"],",
+      "after": "                    max_prefixes=resources[\"max_prefixes\"],",
+      "count": 1
+    },
+    {
+      "before": "                    max_cover_balls=resources[\"max_cover_balls\"], max_depth=resources[\"max_depth\"],",
+      "after": "                    max_cover_balls=resources[\"max_cover_balls\"],",
+      "count": 1
+    },
+    {
+      "before": "event=\"R520_actual_original_owned_invocation\"",
+      "after": "event=\"R530_actual_original_owned_correspondence_invocation\"",
+      "count": 1
+    },
+    {
+      "before": "R520_GENERATED_IMAGE_QUOTIENT_NECESSARY",
+      "after": "R530_OWNED_CORRESPONDENCE_NECESSARY",
+      "count": 2
+    },
+    {
+      "before": "event=\"R520_complete_necessary_readback_identity\"",
+      "after": "event=\"R530_complete_necessary_readback_identity\"",
+      "count": 1
+    },
+    {
+      "before": "value[\"entire_R517_scope_not_started\"]",
+      "after": "value[\"entire_R530_scope_not_started\"]",
+      "count": 1
+    },
+    {
+      "before": "\"requested_role_cap_seconds\",\"actual_initial_free_bytes\") if key in report}",
+      "after": "\"requested_role_cap_seconds\",\"actual_initial_free_bytes\",\n            \"actual_kernel_source\",\"actual_complete_image_binder_source\") if key in report}",
+      "count": 1
+    },
+    {
+      "before": "            require(result.get(\"schema\") == family[\"kernel\"][\"schema\"]\n                and same(result.get(\"source\"), family[\"kernel\"]),\n                \"Use the actual complete kernel source and selected family\")",
+      "after": "            require(result.get(\"schema\") == FINITE[\"schema\"]\n                and same(result.get(\"source\"), FINITE)\n                and result.get(\"family\") == spec[\"family\"]\n                and same(result.get(\"actual_complete_registered_binder_source\"), family[\"kernel\"]),\n                \"Use the actual finite kernel and the exact original selected image binder\")",
+      "count": 1
+    },
+    {
+      "before": "                and body.get(\"schema\") == B.plan[\"families\"][spec[\"family\"]][\"kernel\"][\"schema\"]",
+      "after": "                and body.get(\"schema\") == FINITE[\"schema\"]",
+      "count": 1
+    }
+  ],
+  "original_R520_binding_and_actual_three_families_retained": true,
+  "original_owned_tree_launch_termination_quiet_and_absolute_clock_algorithm_retained": true,
+  "old_cap_point_plan_and_complete_image_ledger_binding_retained": true,
+  "numeric_call_is_explicit_new_R530_not_old_pose_relabelled": true,
+  "max_prefixes_is_explicit_work_limit_not_a_gamma_or_acceptance_gate": true,
+  "source_generation_uses_new_basename_only": true,
+  "original_two_binder_views_must_already_be_actually_prepared": true,
+  "current_running_workflows_changed": false,
+  "no_default_gamma_or_new_experiment": true
+}

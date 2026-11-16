@@ -2,76 +2,86 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1030-R889-theta-jet-and-six-branch-inputs",
-  "commit_message": "serre: prove the original theta sigma jet bridge and activate twelve normal inputs",
-  "rules_last_read_commit": "aff47758db6336e48ea7cf8549c466740bba4ac0",
+  "request_id": "20261116-1058-six-Dstar-and-eight-flip-activation",
+  "commit_message": "serre: prove fixed conjugate Dstar construction and activate eight original flips",
+  "rules_last_read_commit": "59cb3ad7369bd96e82f7ab560a9ada672cf08db8",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "68bac3a496ffe7dd52c36f977d6f3ef3a35d80e2c0a9e74b6824742b00ba99df",
+  "expected_previous_request_sha256": "29911b9ed0255e6520016338a04f4e65d8878dd0d0fdb07b7838d3bd41e3e7b5",
   "files": [
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-theta-jet-and-six-branch-normal.md",
-      "sha256": "3a6118dcec8a1c200b3e7c3068422d99a29acc058dd3b966d73e7f89a6939116",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-six-Dstar-and-eight-flips.md",
+      "sha256": "8c354df0fb4a8a8fa8351972b6f3bc5893a43e64713d1482b3efb7d0961c78c9",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/results/R889-original-theta-distribution-and-same-label-sigma-jet.md",
-      "sha256": "43a7d2fd485a36713a758b3930f730da64239ae918f8d8ebe9adeea9709926f3",
+      "path": "topics/serre-uniformity/notes/R880-original-six-conjugate-bounded-Dstar-spaces.md",
+      "sha256": "b2e523171c08f61b4c1f66ee7738e8fb687f45a3e1dd72ccd6956800cc9d2d84",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R880_original_six_branch_A_B_normal_inputs.py",
-      "sha256": "3094615c9d73d77119065bfa74321a5ab42ba8714fe6b09624725919e8b46d23",
+      "path": "topics/serre-uniformity/scripts/R890_original_Ef_eight_flip_and_marked_frame.py",
+      "sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R880_public_original_six_branch_A_B_normal_inputs.py",
-      "sha256": "ec7d719b49c3b1e9bccbbf803516bf4008c2dbf4cb2ebecaa659b1d3050c0e45",
+      "path": "topics/serre-uniformity/scripts/R890_public_original_Ef_eight_flip_and_marked_frame.py",
+      "sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R880-original-six-branch-A-B-normal-input-method.md",
-      "sha256": "d7a1f32172e42623da64828713a5b4c01bf26406bb61164f72298aa006b8eea4",
+      "path": "topics/serre-uniformity/notes/R890-eight-flip-Ef-public-request.json",
+      "sha256": "eef0d95be37692d5e7cc0046d7ee0a32f3bff45fc7451d37c9a1fb4e8a8bc188",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R880-six-branch-A-B-public-request.json",
-      "sha256": "6e0f8d3377eba55d9166c704eeacb84788edf61a9fa3c592ae74149f577893ba",
+      "path": ".github/workflows/serre-R890-eight-flip-Ef.yml",
+      "sha256": "e770263e3e36af92bb0e59b80b398422164cc3afc8c1ec238a4765099990846c",
       "expected_previous_sha256": null
     },
     {
-      "path": ".github/workflows/serre-R880-six-branch-A-B-normal-inputs.yml",
-      "sha256": "38733fd9563a2aada826bfddf2789f312986132e15d0fc6e7b2c5532b55ab14c",
+      "path": "topics/serre-uniformity/notes/R880-six-Dstar-source-intake-request.json",
+      "sha256": "ca80ba378daf514b556d6d4cc1e722da6b8b075a35eb9eef4e56b7d376d2124a",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R880-six-Dstar-source-intake.yml",
+      "sha256": "ed46f87a2f276f37b95ac312c8e8b320c5a279a3ae17073e0161607df1d1b715",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "52701537d4b8a25990c5f843069898b9a99cf4e8d9ca61394dbd99ff2d8539ee",
-      "expected_previous_sha256": "3a6118dcec8a1c200b3e7c3068422d99a29acc058dd3b966d73e7f89a6939116"
+      "sha256": "35f9152ee95662a3de6bd629ffa68d0e9e94a23d14caf4330681b34e38ec056d",
+      "expected_previous_sha256": "8c354df0fb4a8a8fa8351972b6f3bc5893a43e64713d1482b3efb7d0961c78c9"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "82f173a0e3fe920c6e5e04f33bd2eb3529e343598d69b88fd5e9878739dd8db1",
-      "expected_previous_sha256": "66ccd79613d7b45f144160af494b6a13a5e47db7c2a103ea1a0dfc78f9e392d7"
+      "sha256": "5a59d78326a685102c4807981211c4e1b711d2cf2f06ad33931e0de9cbd11a45",
+      "expected_previous_sha256": "82f173a0e3fe920c6e5e04f33bd2eb3529e343598d69b88fd5e9878739dd8db1"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "bd8e3b3b21beaa61b65808312225a9138549a597c45a859d04cf18e533f6d40c",
-      "expected_previous_sha256": "f6375ba0c7372819da88ce422c2d417561496dfa8b1fe84609d1e9a81a7f3d33"
+      "sha256": "db1354a4b1ea5e3b9eb35b5744a498cc2fecdea5ee4a6305df9ea5d9582f256f",
+      "expected_previous_sha256": "bd8e3b3b21beaa61b65808312225a9138549a597c45a859d04cf18e533f6d40c"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "cab6445debf70fe8eabf67e6f0ac1534c9561950d29fb97b675baf5f85852fcd",
-      "expected_previous_sha256": "ce81e1e37de9bf2957fa36b1a1282d358a6942047482acea3ef64da542dcf177"
+      "sha256": "3a0a457310f58c2d0c7bda233dd2320dfddfd5fb3618859320f65e5f74942c76",
+      "expected_previous_sha256": "67f06d4959bad51fd04f64a0f0449935571d6acf7c719b4fdeeeeef482300ecc"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R880-six-branch-A-B-normal-inputs.yml",
-      "request_path": "topics/serre-uniformity/notes/R880-six-branch-A-B-public-request.json",
-      "request_sha256": "6e0f8d3377eba55d9166c704eeacb84788edf61a9fa3c592ae74149f577893ba"
+      "workflow": "serre-R890-eight-flip-Ef.yml",
+      "request_path": "topics/serre-uniformity/notes/R890-eight-flip-Ef-public-request.json",
+      "request_sha256": "eef0d95be37692d5e7cc0046d7ee0a32f3bff45fc7451d37c9a1fb4e8a8bc188"
+    },
+    {
+      "workflow": "serre-R880-six-Dstar-source-intake.yml",
+      "request_path": "topics/serre-uniformity/notes/R880-six-Dstar-source-intake-request.json",
+      "request_sha256": "ca80ba378daf514b556d6d4cc1e722da6b8b075a35eb9eef4e56b7d376d2124a"
     }
   ]
 }

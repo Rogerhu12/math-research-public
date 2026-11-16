@@ -349,3 +349,33 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R486 — actual215完整必要读回与真实stage／audit预算后缀
 
 **实际215终态，完整必要读回和清理成功；原native/fullDN尚未接受。** [R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md)27077B/2331fc82，run43816406919/sourceb952df81，compute133129348123/report133231387864两终log各仅amplitude取一次。85438B/5923ad0e正文两job逐字同且完整读回，R485表示本次适用，不能和204未返111829B作压缩率。owner全576/129248行1方向1trial α1原严格下降，norm0.00012209605459741098949→9.68582474751023176057e−11，独立全残差/226输出replay逐词同。后stage8000s只完整478段，478为7/12、479为1/12、480..575零推进，全部地址/统计/错误保；boundary/endpoint因完整前件未生未启动。audit574段/7479query，574:q12与575:q5及后1advance尚未完成，partial极值不外推。原audit缺顶层budget字段导致父resource_partial=false，原stage错误明确预算停止，两者均保。原64受控停止、native/fullDN false、原当前H FD/完整外场/最终门未执行。10:17:38必要与quiet后实际三树清除，无可恢复raw，不借204flag补本次；没有提预算或新增小试。
+
+## R526 — 双向全对应距离判据与准确终止范围
+
+**已证明，纯纸证；未选择实际γ/未运行。** [R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)21774B，真实双向成员球到对方完整cover全部联合对应（允许重复），全部同侧/交叉边给0≤L*≤Δ≤dE，含全部反射/平移。证明紧集Δ=0当且仅当环境全等，真实非空cover/全成员h网及距离区间误差给max(0,Δ−2E−ω/2−h)≤L*；这些是有限终止条件，成功证书不额外要求它们。只γ<Δ可保证细化有限终止，三点弯折例Δ<ε/4<dE=ε/2显示不能扩大为所有γ<dE。部分失败边可退役整笛卡尔后缀，完整未访仍保；不假定marker唯一/支撑中心为峰，不把单向包含当全等。现有R520全像/真帽点/全部stored-decoded消费仍须真实同场，未添计算或门。
+
+## R488 — actual216完整far与采样、BVP启动空间停止及规则未返
+
+**实际216完整必要范围已读，BVP未启动。** [R488](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)26748B/8f85ed9e，run43819978588/source634c4c85，compute133140597135/report133232554737各仅exact取一次。八必要scope齐、六report同字；C1440/six/全合法粗域保，2873resolution+1integral未付；当前factory1810passed/8617未决/13未访与原coast中心严格速度反证分开，不冒本次停止原因。全部112far/joint、13850unique/16128fields齐；95GB prepared账仅完整bytes/SHA/rows，parsed_rows0。启动实际12456181760<34359738368，child=false/exitnull，453/450/native-FD-fullDN及15后继未始，退出124是startup资源分支非运行超时。rules98410/90K70无marker未返，实际cleanup_skipped，静止不补清理完成，raw只随runner销毁。R498/R499后继不倒填216，不新开重复存储入口或降低原门。
+
+## R475 — actual211正高度首个完整J/R273与真实接受步
+
+**数值证据；正高native仍未收敛。** [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)29967B/bdf29d59，run43810051801/source7e62fb22，compute133109494332/report133235382702终log各仅amplitude一次；81156B/5994fe81必要同字全部读。零H原完整内部J/mean/predictor后284.14535s收敛；首1/64H完整576 J及129248行R273校正返回，trial0/step1原norm196395.0911309943→5181.565456345417真实接受。下一iteration1 stage105/rawCell1/rawSegment4触有限trace方向资源停止，原18000/TERM124，正H完整response/338J/FD-fullDN未付。完整R273行/模型诊断（含1.0273e22梯度）、原累计R466/R471/R474、全部engine末位/原null/错误/未访均保，不冒准确导数或新门。10:25:27完整必要quiet后真清，不凭已删state续；与208计时是两个实际run，非分项微基准。初猜prepared SHA已据唯一缓存原body补全漏录字词，科学值未改。
+
+## R524 — Request224完整原112输入支撑优化入口
+
+**已证明来源组合与条件算术；正式实际结果预留R525。** [R524](results/R524-actual-input-support-complete-original-full112-composition.md)/[接口](notes/2026-11-16-request224-actual-input-support-full112-interface.md)完整七件250653B（topic208007B）：gen23213/7b83、plan36611/9a18、recipe21539/0c9f、request88551/6aa2、workflow42646/599f、proof16432/b9fb、接口21661/9904。原211168source逐字保，150public＋21历史/10当前gen=181；45literal计划不复制81398旧计划或展开31源，真实loader/factory/十链与当前YAML/PYPINS均接实际224。R523只按当次T实际非零地址省有限零乘项，保全部226×224/mean/原j序/非零下溢，非法输入原fallback；全部14计数、完整last/absent-null、原R466/471/当前R273/错误后缀保。原四输入/六词λ=.001/完整H/J/FD/fullDN/18000/quiet/单90K70不改，R475已删接受点不迁。七件发布后公开Actions真实单POSTdispatch并另记官方run/head，不由源生成、语法或job色预判速度/成功。
+
+## R530 — 完整双向对应内核与原OwnedTree真实调用
+
+**已证明程序条件与来源；未选γ或运行。** [R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)三件63226B：kernel29146/d73e、plan10974/bae5、完整证明接口23106/52e3。直接用R520原三族BoundImages/fullposition账/真帽点，所有双向候选允许重复，全部交叉边逐前缀支付；失败边退役完整后缀，当前半边/未分离叶及完整frontier真实保。仅全退役才给γ，首未分离叶返回未证2，不冒全等或全局L*。18literal生成caller46134/3d6f仅Actions，原R520 Binding/OwnedTree/PID/session/deadline/quiet正文保；startup与BVP真实deadline分绑、原32GiB与18900+2700不改。两层90K/70不保证都fit，不删raw/造cleanup；没有新request。同步登记[224官方run绑定](notes/2026-11-16-request224-official-run-binding.md)：498c发布、单POST200，实际23176直接子提交整topic/.github同字，R525/amplitude唯一。
+
+
+## R527 — 当前H配对stage与径向缓存完整live128调用链
+
+**完整源码组合与条件保持；实际225待官方启动与R528。** [R527](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)/[接口](notes/2026-11-16-request225-live128-paired-cache-original-full112-interface.md)六件201991B，topic183473；gen22915/b30d、plan55391/6e81、request64734/42fe、workflow18518/5ed7、正文18592/2b6a、接口21841/8d90全文身份齐。原336＋6public＋3正式R522/11新caller=356，R51812原view仅内存重建全核，不执行/落盘；正式R522 component33416/93ec、operator29617/082d、stage12880/49a7原字不改。新225 policy/ns实际接owner→assembly/pipeline→client→原完整FD/fullDN；配对stage真实compiler完整binding与R515 boundary/endpoint/audit物理编译receipt分责回读，不从prepared推compiler返回。有限配对RN113/调用内有限词缓存适用范围沿原证明，全576/224/226/338×112/双mean及mixed-J原限保。原19200单钟/64GiB启动/2GiB运行/所有component caps/120reserve/FD/RMS/BC/fresh audit/quiet保持，source与science是两个独立必要scope各90K70，超限不拆包、不预保证fit/收益。不改221，不添测试/全解析门；本次公开真实push后官方单POST，run/source和实际结果另记。
+
+
+## R513 — 实际223八个原39交接与必要摘要超限
+
+**实际223八原warm/freshFD交接；整份必要科学正文未返。** [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md)22053B/ca75全文刊，run43839064900/source035d/compute133202897349；geometry终志116544/c65d唯一一次。16child exit0和空stderr，8次next_actual_parent_pair_retained=true结合f847真实status/identity/freshFD控制流，确认8个原eligible，不以exit0独推科学验收。trial计数4/3/4/3/3/2/2/3仅计数；whole113011/fc09、recovery113361/1cc7均超90K70无body，具体α/merit/错误地址/FD值/末三词和parent-after-007身份未返，不从前七父SHA补末点。原8必要先落盘后大batch已退，最后quiet真但cleanup step success实为skip；必要/末父留至runner销毁，原支线native/fullDN从未请求。原rules两轮无change/error；不复取日志、抬限、分包或添门，R533继续实际语义组织。同期[225官方绑定](notes/2026-11-16-request225-official-run-binding.md)3285/9599确认发布与实际同5af07ed6/run43852521165，前1–10success/11科学；R528 exact唯一。R527两文338行序勘误为真实slope/second/两mean/height，proof现18998/2028、接口22190/5eea，冻结执行源/request不改，原历史output_jets_order说明不参与数值索引。

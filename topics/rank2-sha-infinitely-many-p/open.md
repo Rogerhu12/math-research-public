@@ -203,3 +203,21 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R880附录B](results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：同原差映射A−φ_rB的源R特征为ω/ω²，整数degree极化与1+ω+ω²=0严格迫交叉项0。每一a/b/σ的真实degree=2256(r+1)，r29为67680、r41为94752；完整pullback[O]=x差图极除子/2，极重均偶、闭点度/∞/分母取消全部保。此给实际求交总次数门，未当作已计算点值或shadow非零。
+
+
+- [原全CM与对角Euler-system适用范围](notes/2026-11-16-original-cm-diagonal-euler-system-big-image-scope.md)：亲读ACR Theorem B/(HW)/(HS)及Castella–Do v2 Theorem B/§4.3。原同K的两CM输入在G_K上拆四角色，饱和线格使任意整格剩余亦非绝对不可约；拆成二维后剩余f仍CM。两现成秩一定理不能直接付原AJ/全Selmer门，类构造与另立单线论证保留。
+
+
+- [R872真正因子层尾像](notes/2026-11-16-r872-tail-adjustments-in-cubic-and-square-factor-lattices.md)：同原WD/K1下，F³剩因子含t²，非F⁴必d−3κ≥h−7；F²层四原行/六次帽再迫剩因子含t²，非F³必d−2κ≥min(2h−11,h+ell)+4。两严格反门下K1∩V2=V4，实际W2从s+1起，三尾全0。严格f0成本为3，全部非F²余来源和同R/S仍开，未假门对所有候选成立。
+
+
+- [R881执行附录](results/R881-original-good-prime-direct-coordinate-reconstruction.md)：原r29形式输入run43850679589已成功，三个P到1226实loss44/保证19位、F到1428实loss51/保证12位；原τ标号(2,0,1)、实支/F_r和另外两支常数Frob全核。仅存源码/参数/run/hash，尚非两char0地图证书或shadow非零。
+
+
+- [R883](results/R883-original-relative-six-shadow-and-complete-boundary.md)：原X/R=X3468的相对6域上完整q_*D=div(yA−yB)+pole(yA)+pole(yB)，有效且degree2256(r+1)。全部分歧像为δ三挠，6倍严格0；非分歧共同O/三挠交重m的三点和全消，唯一额外lift重数k=e−3m，输出F点准确由(a0 f0/c0,yF)读且保任意高相消/闭点迹。原端点两Hecke gcd、t绝对支及F尺度(v_s+4)/v_s全保；两char0 PASS仍前提，未算非零。
+
+
+- [R880附录C](results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：原H34的阶9提升由实跑方向定σ(a)=ω²a、σθ17=ωθ17；Fσ=ωF、Fε=−F，三A按原循环。完整源R拉回给P_(σ^l ε^e,a,b)=(-1)^e[ω]^(l−2u+v)P_a′b′。三真χ为ζ^7/ζ^4/ζ；先eω后整18×9和准确回(1/9)eωΣζj^aζk^b[6]P_ab，九个真实完整除子足够。未先把几何ω当系数ω，原两认证/所有边界仍保。
+
+
+- [R884](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原T72=(K30/3δ)δ*A14，完整三纤维付traceT=0而同第一次热trace为G24=−σ24x(7X³−18bX²−120b²X−32b³)/28。加∇C24/20后精确消E0高端，Ebar=(51E1+222E2)/770；指定D5回(20708b/407)B(S)+(136b/55)B(Dref)+(2592b/7)Lp(C0)+完整严格<p余配对。全部q24高端/原Cp提升/二挠分母和原两H22读者保，不由B(T)0赋左行零。

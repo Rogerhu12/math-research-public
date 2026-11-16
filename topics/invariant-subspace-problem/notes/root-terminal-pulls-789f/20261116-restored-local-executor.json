@@ -1,0 +1,71 @@
+{
+  "format": "isp-restored-local-executor-pull-records-v1",
+  "author": "Astra-ISP-789f; AI-assisted GPT-6 Astra Pro",
+  "pulls": [
+    {
+      "format": "isp-789f-actual-local-pull-v1",
+      "utc": "2026-11-16 10:42:30 UTC",
+      "beforeCommit": "42478da8ffbe5865cf63c24938e8eb0395c0c3c8",
+      "remoteCommit": "23873c4978fdba1d7f097685ff0de513fa59b4f4",
+      "actualPullRebaseSucceeded": true,
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesUnchanged": true,
+      "executionEnvironment": "restored-shared-executor"
+    },
+    {
+      "format": "isp-789f-actual-local-pull-v1",
+      "utc": "2026-11-16 10:46:54 UTC",
+      "beforeCommit": "23873c4978fdba1d7f097685ff0de513fa59b4f4",
+      "remoteCommit": "e219159a8309b014270217d7827c93b7cf228b7a",
+      "actualPullRebaseSucceeded": true,
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesUnchanged": true,
+      "executionEnvironment": "restored-shared-executor"
+    },
+    {
+      "format": "isp-789f-actual-local-pull-v1",
+      "utc": "2026-11-16 10:47:55 UTC",
+      "beforeCommit": "e219159a8309b014270217d7827c93b7cf228b7a",
+      "remoteCommit": "74c8a7cb989792d79330f1ed6363af19f512f5d3",
+      "actualPullRebaseSucceeded": true,
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesUnchanged": true,
+      "executionEnvironment": "restored-shared-executor"
+    },
+    {
+      "format": "isp-789f-actual-local-pull-v1",
+      "utc": "2026-11-16 10:48:12 UTC",
+      "beforeCommit": "74c8a7cb989792d79330f1ed6363af19f512f5d3",
+      "remoteCommit": "ea830b592add06e41b65c4980b5b363fb3a801a0",
+      "actualPullRebaseSucceeded": true,
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesUnchanged": true,
+      "executionEnvironment": "restored-shared-executor"
+    },
+    {
+      "format": "isp-789f-actual-local-pull-v1",
+      "utc": "2026-11-16 10:48:29 UTC",
+      "beforeCommit": "ea830b592add06e41b65c4980b5b363fb3a801a0",
+      "remoteCommit": "0c932307b33d2bb3f0d8fd05f4a9de150e3e47b9",
+      "actualPullRebaseSucceeded": true,
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesUnchanged": true,
+      "executionEnvironment": "restored-shared-executor"
+    }
+  ]
+}

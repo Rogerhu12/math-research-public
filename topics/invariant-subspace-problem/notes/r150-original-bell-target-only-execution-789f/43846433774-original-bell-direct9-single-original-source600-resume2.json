@@ -1,0 +1,63 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43846433774",
+  "stepId": "original-bell-direct9-single-original-source600-resume2",
+  "executionSourceCommit": "2cacf911988e56b35b585c6c9a560494e3b7f20f",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-target-only-source-789f.py",
+  "scriptSHA256": "8ac1e9275f9e3d3412f2744c0fe31acc06d58eda677ec270c9a37e39f9372b39",
+  "argvTemplate": [
+    "--model-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/original-bell-target-only-source",
+    "--singular",
+    "Singular",
+    "--degree",
+    "9",
+    "--seconds",
+    "1200",
+    "--memory-mib",
+    "4096"
+  ],
+  "timeoutSeconds": 1260,
+  "exitCode": 75,
+  "wallSeconds": 1192.20932365,
+  "fullTemporaryReceiptBytes": 3880,
+  "fullTemporaryReceiptSHA256": "c306d3c355bae1a973113e3d12f15ad9d45ea5220a2ec0716ec49bdcdb95d7ca",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 10:21:20 UTC",
+      "beforeReadCommit": "674702f10933ac6190d9cb00f2fab7e44ae90462",
+      "originMainAfterPull": "2cacf911988e56b35b585c6c9a560494e3b7f20f",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 10:41:13 UTC",
+      "beforeReadCommit": "2cacf911988e56b35b585c6c9a560494e3b7f20f",
+      "originMainAfterPull": "23176ac678ea92882fa38ec6ddcc09e98742ac89",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 6,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 2059,
+    "logicalJsonSHA256": "daa85c3874ec0cbb98ee3d04c865fe59759c5dc43e5d33e706745e27b445c2fc",
+    "itemCount": 6
+  },
+  "lastRulesReadCommit": "23176ac678ea92882fa38ec6ddcc09e98742ac89",
+  "summaryExcludesRecomputableArraysOnly": false
+}

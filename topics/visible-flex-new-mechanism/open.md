@@ -177,3 +177,19 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:28:31 UTC：R501精确满列秩与非固定曲率峰
 
 [R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)由原H的±I5子块构造M的±I168及完整有限A的det±1子式；正slack/dual下Newton正规矩阵精确正定，浮点病态/可行域/有限未收敛仍须读原记录，不添gauge约束。rho/h可准确消为凸分段线性目标，但不能省全网分离。56κ峰s=.78严格在新body内，完整高度位置/径向一jet非零，排共同固定区解释；未证实际dκ非零或满足原硬域的下降。正在运行的joint168不据纸证预报成功，主reach/同g全时门继续欠。
+
+## 2026-11-16 10:33:35 UTC：R502固定凹图offset的完整多项式与严格高端凹性
+
+[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)保真实C作用，I(C)=ImE/√(B+2C)为完整三次且I3<0；利用原Af p≥r³、R≤1−r与A≥(y−1)R/2证明当前H≥1区间I″<0，最多两根，B≥1时覆盖全部C≥0。Re完整四次首项C4/5仍须同C联立，不由凹性/正首项推无解；H<1低端未判。接真实同图共同零/非对称whole-path。全168原任务已返回，root继续登记真实失败门和新小物理域输入复用；主完成未付。
+
+## 2026-11-16 10:39:47 UTC：全168实际拒绝与新小物理域
+
+[原结论](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)保3finite/3fullscan/8新梯度/62scalar/1实际粗值，κ58.007888653387816>58且metric变差；18曲率违例全已选，新soft104448停止方向，0接受，仍56。188.38691980800002秒/3新完整值账户闭，累计2421.953314364秒/141值。接h≤1/128的新全168域，复用已付INPUT3、8梯度及56 U/T，只补新增原metric行；0新ordinary输入，仍保172盒/全部原门。新模型尚无执行结果，不把信赖域缩小当下降证明。
+
+## 2026-11-16 10:41:07 UTC：R503非零前缀反射的完整片段构造
+
+[R503](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)从必要差商推进为保持构造：完整ΔK含β odd及全部3even矩；q*=BD、E=−2B使even逐项相消，β四相位真实核≥4维且实际改变第二场。原R70桥实现有限非回文±B标记字，共用同w和同χ；未锁Gram可一次清全部片段，原13已锁则必须保其兼容。下一真正义务是非secant连接段内部K=F+Chh″+Ckk″、同一完整period/13与所有V，不能以桥末值可达代替内部解。
+
+## 2026-11-16 10:47:21 UTC：真正56的新小物理域全168任务
+
+[设计](notes/true56-small168-paid-input-new-physical-domain-design-20261116.md)将完整物理步长改为1/512（h≤1/128），保所有168参数/172盒/原门。已付9002行J/g、8新梯度与56 U/T直接恢复，补coarse104448 metric-only168导数；旧大域方向/实例不重跑。新300秒、0ordinary输入/0旧J、8scan/32新行/8master/64scalar/3actualpair6值，累计祖账2421.953314364秒/141值保。代码参数已提交触发唯一public Actions，尚无新科学观察；得到原结果立即记录并继续。

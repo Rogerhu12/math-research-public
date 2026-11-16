@@ -161,3 +161,33 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:25:02 UTC /root — R486实际215完整读回与原预算部分完成
 
 [R486](results/R486-actual215-complete-necessary-readback-and-stage-audit-budget-partial.md)27077/2331，run43816406919/sourceb952df、两终log仅amplitude各一次，85438/5923ad0e必要同字全读；owner1方向α1 norm1.22096e−4→9.68582e−11、完整replay词同。stage8000s仅478/576、audit1800s574/576与7479/7488，原活动query/advance/全部地址/errors/partial统计保，boundary/endpoint依赖未起；父audit resource_partial=false按原缺字段口径不覆盖预算错。原64controlled stop/native-fullDN false，10:17:38必要quiet后三树真清，不能以204补或由rawSHA续；规则/原完整门不改。
+
+## 2026-11-16 10:29:57 UTC /root — R526双向全对应的定量商距离下界
+
+[R526](results/R526-complete-bidirectional-distance-correspondences-and-quotient-lower-bound.md)21774B完整纸证即刊：允许重复的双向全部对应＋全部交叉边，0≤L*≤Δ≤dE；紧集Δ=0 iff含反射全等，完整误差账给γ<Δ有限终止，三点例阻止夸大至任意γ<dE。原R520完整像/真成员/所有候选/后缀责任保，无新run/阈值/门。只将原稿526.18的单$显示段改$$，公式不变；同时更正open的residual措辞，更新已核222/217 gzip消费者来源。
+
+## 2026-11-16 10:31:10 UTC /root — R488实际216完整远端后BVP启动空间停止
+
+[R488](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)26748/8f85，run43819978588/source634c4；两终log各唯一，八必要/六report同字，C/factory未付及原coast反证完整保。112far/joint与13850/16128齐，free12456181760<34359738368导致child未起、453/450及15后继全未始；rules98410>90K70未返、cleanup_skipped，无可续raw。222/217已有R498/R499不另造存储入口。H压缩全文留59cb历史；本提交实际补R526§526.18的$$显示定界（21774/a02c），上次文本替换未生效，证明不变。
+
+## 2026-11-16 10:35:15 UTC /root — R475实际211正高度完整当前J及一步接受
+
+[R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)29967/bdf2，run43810051801/source7e62，两终log各唯一、81156/5994同字全读；零H284.145s收敛，首1/64 current576 J/129248行R273齐，trial0 α1真接受196395.0911309943→5181.565456345417。iteration1 stage105/cell1/segment4原方向资源止，18000/TERM124；正response/末338J/audit/FD-fullDN未付，完整原统计/梯度/null/未访/quiet保，10:25:27真清。原prepared SHA漏录仅查已缓存body补足，‘私有源码’澄清为隔离临时源码，全部实际源仍公开；224按原输入重建不借删父。
+
+## 2026-11-16 10:39:46 UTC /root — R524完整Request224入口与真实发布派发
+
+[R524](results/R524-actual-input-support-complete-original-full112-composition.md)/[接口](notes/2026-11-16-request224-actual-input-support-full112-interface.md)七件250653/topic208007B：原211168全保、150public＋31gen=181、45literal真十链，R523实际T支撑/14计数/完整last与absent-null保。原全112/226×224/mean/H/J/FD/fullDN/18000/quiet/90K70不改，已删211接受不迁；新根workflow visible-larger-public-six-control-input-support-contracted-trace-r273.yml 为该正式计算，当前YAML语法路径与dispatch明确。此条真实pull/rebase发布并单POST派发，R525/amplitude唯一；官方run/source随后绑定，H/open压缩全文留bd4a历史、§4–6逐字保。
+
+## 2026-11-16 10:43:39 UTC /root — R530完整对应核与224正式run绑定
+
+[R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)三件63226B完整刊：原BoundImages/fullledger/真帽点、双向全部候选/重复/交叉边/完整frontier保；首未分离叶只未证，18literal沿原R520真实Binding/OwnedTree/clock/quiet，生成46134/3d6f只Actions、两层90K70，无新run/γ。224已498c普通推＋唯一dispatch200，run43851068999/actualsource23176ac6/compute133243448382，官方两头整topic a9b53a80/.github5a1fa9e3同字，amplitude唯一终态；[正式绑定](notes/2026-11-16-request224-official-run-binding.md)保差异来源与未读科学范围。容量官方198090813B，继续原完整求解与R527/529/531/532。
+
+
+## 2026-11-16 10:50:27 UTC /root — R527完整225调用链与实际启动入口
+
+**完整源码组合与条件保持；实际225待官方启动与R528。** [R527](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)/[接口](notes/2026-11-16-request225-live128-paired-cache-original-full112-interface.md)六件201991B，topic183473；gen22915/b30d、plan55391/6e81、request64734/42fe、workflow18518/5ed7、正文18592/2b6a、接口21841/8d90全文身份齐。原336＋6public＋3正式R522/11新caller=356，R51812原view仅内存重建全核，不执行/落盘；正式R522 component33416/93ec、operator29617/082d、stage12880/49a7原字不改。新225 policy/ns实际接owner→assembly/pipeline→client→原完整FD/fullDN；配对stage真实compiler完整binding与R515 boundary/endpoint/audit物理编译receipt分责回读，不从prepared推compiler返回。有限配对RN113/调用内有限词缓存适用范围沿原证明，全576/224/226/338×112/双mean及mixed-J原限保。原19200单钟/64GiB启动/2GiB运行/所有component caps/120reserve/FD/RMS/BC/fresh audit/quiet保持，source与science是两个独立必要scope各90K70，超限不拆包、不预保证fit/收益。不改221，不添测试/全解析门；本次公开真实push后官方单POST，run/source和实际结果另记。
+
+
+## 2026-11-16 10:53:20 UTC /root — R513真实223终态、225同head启动与338行序勘误
+
+**实际223八原warm/freshFD交接；整份必要科学正文未返。** [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md)22053B/ca75全文刊，run43839064900/source035d/compute133202897349；geometry终志116544/c65d唯一一次。16child exit0和空stderr，8次next_actual_parent_pair_retained=true结合f847真实status/identity/freshFD控制流，确认8个原eligible，不以exit0独推科学验收。trial计数4/3/4/3/3/2/2/3仅计数；whole113011/fc09、recovery113361/1cc7均超90K70无body，具体α/merit/错误地址/FD值/末三词和parent-after-007身份未返，不从前七父SHA补末点。原8必要先落盘后大batch已退，最后quiet真但cleanup step success实为skip；必要/末父留至runner销毁，原支线native/fullDN从未请求。原rules两轮无change/error；不复取日志、抬限、分包或添门，R533继续实际语义组织。同期[225官方绑定](notes/2026-11-16-request225-official-run-binding.md)3285/9599确认发布与实际同5af07ed6/run43852521165，前1–10success/11科学；R528 exact唯一。R527两文338行序勘误为真实slope/second/两mean/height，proof现18998/2028、接口22190/5eea，冻结执行源/request不改，原历史output_jets_order说明不参与数值索引。

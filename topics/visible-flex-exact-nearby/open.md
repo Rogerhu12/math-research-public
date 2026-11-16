@@ -187,6 +187,6 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 WOBSA37量冻结及WMF完整恒等式的原段逐字保[完整outer与归一mean scope](notes/2026-11-16-complete-outer-and-normalized-mean-open-scope.md)622d8420。原球/域/两物理mean/全部terminal与g1/Jr、WHVA false及未知G/Btarget/high右因子/signed逆义务不变。
 
-[WPTV值域尾合同](results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md)dda500b8及[inventory](notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json)f7dd2ed0：同GH精确分frozen B0+全signed差，原collar/body双source列保，δvalue=max(h_i e_i/π)+hmax B_K/π<1才授tail逆；外Q_iV0无右Q，ramp/193mean/全Schur不减。17小text+19history实核，原13parts+centre5+repair足基线，完整δ差全付，无需新径导。固定mesh及新e/EB/CA/CB/gate尚未算；false不自动扩网格，不授finite逆。
+[WPTV值域尾](results/R133-supplement-frozen-cross-block-value-enclosures-for-the-positive-head.md)dda500b8/[WPTVR五whole maxima](results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md)62adc53e、[原输入](notes/2026-11-16-R133-frozen-cross-block-readonly-input-inventory.json)f7dd2ed0：同GH的frozen B0+全signed差，collar/body两source及真正T*给预锁m1,2整δ。外Q_iV0无右Q/ramp、193mean/全部finite Schur不减，false不自动扩网。24current+19history/原4650行3594接口的新consumer已冻结，首次43851901811只readonly失败，child0；5全max/两m门全未算；完整合同/恢复/pins保[执行清单](notes/2026-11-16-R133-frozen-cross-block-current-inputs.json)。仅成功tail门可授同tail逆，0finite逆。
 
-[WPTVR五个whole maxima](results/R133-supplement-five-whole-maxima-and-inherited-positive-head-refinements.md)62adc53e保完整外primitive的T*，给预锁统一细分m的整δm；同parent包络仅算一次。所有mean/ramp/完整Schur保，无新数值或finite逆。
+[WMT strict flux](results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md)51eb08d0：全Vext/三幅值/L1正权/五次mean递推保八terminal与原衰减。真root/local/jump/两mean均保；WMR42冻结，新整支尚未算。
