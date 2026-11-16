@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-R927-complete-parent-reuse-actual-source-and-reference-frames",
+  "request_id": "20261116-R927-complete-parent-reuse-actual-source-file-pin-list",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "5c920c39966b5c7ac854564bf1a3841288d0133a",
+  "rules_last_read_commit": "78cfe3dd48d694397afe9a0a0bfb22796bd1ae0d",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -34,24 +34,28 @@
         "R927-reused-parent-full-outputs-manifest.json",
         "R927-reused-parent-core-receipt.json"
       ],
-      "known_file_pins": {
-        "R927-reference-P0-complete-reference-ideal-and-norm-frame.json.gz": {
+      "known_file_pins": [
+        {
+          "file": "R927-reference-P0-complete-reference-ideal-and-norm-frame.json.gz",
           "bytes": 8689,
           "sha256": "a76ce6d46544c37119ba270404067027ee693d451e5365605d99c1184dd99084"
         },
-        "R927-reference-P1-complete-reference-ideal-and-norm-frame.json.gz": {
+        {
+          "file": "R927-reference-P1-complete-reference-ideal-and-norm-frame.json.gz",
           "bytes": 8694,
           "sha256": "f2f095db623c9cc306cdc478467e53e2826e7883211d4f8d9a32c61fd3259792"
         },
-        "R927-reference-same-global-reference-integer-frame.json.gz": {
+        {
+          "file": "R927-reference-same-global-reference-integer-frame.json.gz",
           "bytes": 6724,
           "sha256": "91f5d0d3b28b37b37adb442959851448018f3d68315bcd60374b157496c97e47"
         },
-        "R927-reference-complete-reference-two-endpoint-t-frame-comparison.json.gz": {
+        {
+          "file": "R927-reference-complete-reference-two-endpoint-t-frame-comparison.json.gz",
           "bytes": 6942,
           "sha256": "7d948e03c8fdfdd357e02ad838cb41b0732bebabcc91730e22aa21e869e0b4c9"
         }
-      },
+      ],
       "print_json_summary_files": [
         "R927-reference-P0-complete-reference-ideal-and-norm-frame.json.gz",
         "R927-reference-P1-complete-reference-ideal-and-norm-frame.json.gz",
