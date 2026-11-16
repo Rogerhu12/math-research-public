@@ -539,3 +539,7 @@
 ### 原critical135坐标高切片的穷尽性与三域零增量（2026-11-16）
 
 [完整证明与实际回执](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)：所有该支撑高零列与 $\ker[L,Cv,Dv]$ 线性同构，ordinary diagonal2及全6137外行均保。plus/minus/e8实际8.9224/9.7126/31.3035秒，各pencil维2、联合51×49秩29、fullleading13，全部6188 jet乘回真；额外长度均0。只此支撑/固定低jet已穷尽，完整局部仍6…8/6…8/4…5，μ≤21未改。
+
+### 原完整二normal、tangent≤2切片及原低jet复用（2026-11-16）
+
+[证明与原入口](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)：原q迫Tdd=0，34×20顶层核及153×≤49对称兼容系统穷尽该270支撑（45坐标真零）；完整高列至多5。102×59低块保旧36及两exact新头，实际旧25 LU及11链不重解；末102×(72+q)真Schur给leading r时局部长≥2e+r−11。源码ae0b291d/三父完整SHA已根核，各300秒入队，未报新长度。
