@@ -1,0 +1,780 @@
+{
+  "all_new_mathematics_only_in_public_Actions": true,
+  "budget_minutes": 300,
+  "carrier_routes": {
+    "R868": {
+      "input_bundle": {
+        "bytes": 109552606,
+        "file": "R868-retained-original-inputs.tar.gz",
+        "sha256": "e7cd24e29757254cae9526207a19161f15ef8198b6bc45922481a0720acd8618"
+      },
+      "input_receipt": {
+        "bytes": 9717,
+        "file": "R868-retained-inputs-receipt.json",
+        "sha256": "d14a253d82f560a121574edc533039b3a75538cf92ec5357a8ea2271f60ca837"
+      },
+      "original_member_count": 80,
+      "selected_groups": {
+        "R805": "R805",
+        "R806": "R806",
+        "R856": "R856",
+        "R860": "R860"
+      },
+      "source_inventory": {
+        "bytes": 19470,
+        "file": "R868-original-source-inventory.json",
+        "sha256": "4b09a35bcbc3177cd197612f8d8fbe59c1e3ea7c93e3ead3b95da83f044d4f85"
+      }
+    }
+  },
+  "controls": {
+    "maximum_pencil_trials": 8
+  },
+  "core": "R872_original_point_jets_and_fixed_Picard_space.py",
+  "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+  "inputs": {
+    "Krylov_points": [
+      {
+        "bytes": 1114714,
+        "file": "R827-prime-1000000753-z-0-Krylov.json.gz",
+        "sha256": "8c44c70e79fcd4b1cdd7324ce2cbc7a88ffaadcdeff126d169cf27f3a79f1703",
+        "source_group": "R827"
+      },
+      {
+        "bytes": 1114628,
+        "file": "R827-prime-1000000753-z-1-Krylov.json.gz",
+        "sha256": "f874694d3dbb46df1480112ed2c2ee6bca56b9a0ec62ba4cc34f65f157d34f52",
+        "source_group": "R827"
+      },
+      {
+        "bytes": 1114827,
+        "file": "R827-prime-1000000753-z-2-Krylov.json.gz",
+        "sha256": "3eb36f786cf3a24c458b97e85fb74716df494619a753d7870dff5284b3273978",
+        "source_group": "R827"
+      },
+      {
+        "bytes": 1114390,
+        "file": "R827-prime-1000000753-z-3-Krylov.json.gz",
+        "sha256": "784493e30234ca1c099b53892cdf6ccf2843d364ae2c0bf38abbe8eccef011de",
+        "source_group": "R827"
+      },
+      {
+        "bytes": 1114592,
+        "file": "R827-prime-1000000753-z-4-Krylov.json.gz",
+        "sha256": "cb7aa5ca1095d801ae69153ee49c5cbbfce03202da3e1de77454fa869bdb30ec",
+        "source_group": "R827"
+      }
+    ],
+    "W_reduction": {
+      "bytes": 763994,
+      "file": "R827-original-W-g-h-reductions.json.gz",
+      "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841",
+      "source_group": "R827"
+    },
+    "W_source_index": {
+      "bytes": 11539,
+      "file": "R860-original-W-coefficient-source-index.json.gz",
+      "sha256": "c522daaa220b8b554b733a224a187f3faab5c4641ee71e25867710bed23367c1",
+      "source_group": "R860"
+    },
+    "exact_socle": {
+      "bytes": 1097963,
+      "file": "R868-exact-original-normal-socle-vector.json.gz",
+      "sha256": "5de7d08de2f117aebb5bd607dbf13c40e5ac6feb796b163c8007e4cafe295e07",
+      "source_group": "R868"
+    },
+    "free_basis": {
+      "bytes": 11649,
+      "file": "R805-graded-free-basis.json.gz",
+      "sha256": "74311a7a143fafc43a36d1a43f6146e6aa3cb28809a020e3fa1337fdc4e475c9",
+      "source_group": "R805"
+    },
+    "place_audit": {
+      "bytes": 4261,
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883",
+      "source_group": "R827"
+    },
+    "point_integral_index": {
+      "bytes": 77121,
+      "file": "R868-point-integral-matrix-index.json.gz",
+      "sha256": "6812c5a099a72e624dd624dacc448dd263fa11e68c6e969cc78c99504fb1102c",
+      "source_group": "R868"
+    },
+    "point_inverse": {
+      "bytes": 699696,
+      "file": "R868-fixed-point-minor-inverses.json.gz",
+      "sha256": "a36b8271401477ef205eebf34efef643a2af044e02b330dd6687a326ffc4975d",
+      "source_group": "R868"
+    },
+    "point_minor": {
+      "bytes": 698249,
+      "file": "R868-accepted-point-minor.json.gz",
+      "sha256": "116284cadececb504df3852d3b10e4abf4e6a66d059d102f5b87eb0cd6647ab3",
+      "source_group": "R868"
+    },
+    "point_values": {
+      "bytes": 10744,
+      "file": "R856-original-P0-normal-values.json.gz",
+      "sha256": "503deda300bab3ca728eab7733865b142c6deb65b9f271b3646ff7f20ee4ea5c",
+      "source_group": "R856"
+    }
+  },
+  "intake_routes": {
+    "R827": {
+      "input_bundle": {
+        "bytes": 10114176,
+        "file": "R827-intake-selected-original-sources.tar.gz",
+        "sha256": "d5a5641a858e5a70e5d2525bb003aa8f975581594157ca490fb19933ff560bcf"
+      },
+      "original_member_count": 12,
+      "producer": {
+        "archive_bytes": 17431368,
+        "archive_sha256": "67ea41550432eb7430bf5128771908cf6e40d6cefb68e9463b1caa3a094f04c6",
+        "artifact_id": 14207385683,
+        "artifact_name": "serre-required-original-source-intake-43827207676-1",
+        "expected_conclusion": "success",
+        "run_id": "43827207676",
+        "source_commit": "ee98d42e073f14815dcb14a8b2f38dde3934f233"
+      },
+      "source_index": {
+        "bytes": 1742,
+        "file": "intake-source-index.json",
+        "sha256": "3d70670db1d8daae0fd4d840526b48cfc7a93778902d2889195b2634dc774192"
+      }
+    }
+  },
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "mathematical_scope": "original P0 formal jets; complete H0(2H-272P0) of dimension146; fixed degree272 Dchi and complete H0(3H-Dchi) of dimension418",
+  "method": "notes/R872-original-point-jets-and-fixed-Picard-space-method.md",
+  "method_sha256": "984ea56558a6b0bc8abc95542149aefe6fac4dfb44eab2b1189322c124d1b344",
+  "original_R849_opaque_carrier_not_requested": true,
+  "original_connection_or_height_requested": false,
+  "original_five_Lj_RR128_or_144_requested": false,
+  "original_t_frame_calibration_requested": false,
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proofs": {
+    "R805": {
+      "path": "results/R805-original-two-affine-charts-and-small-polar-divisor-adapter.md",
+      "sha256": "b48d9f8dd5d8d1a89aa2574ab7f9ee014b83ca21baf41694252b9c53993571e8"
+    },
+    "R809": {
+      "path": "results/R809-original-normal-vectors-for-function-and-Hodge-inputs.md",
+      "sha256": "68793d3f3911d6c2ab3d530575634a70953580c221c4c4fed5fa542a2ed88a40"
+    },
+    "R868": {
+      "path": "results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md",
+      "sha256": "98e15284b0c8c080eb01f1a53add7c4eef9ae56e8f10f02c4b8105fc7408d246"
+    },
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+  "resume": null,
+  "rules_last_read_commit": "8a392d65166b97475d7b0ed4a67ff5cfac924608",
+  "selected_original_source_count": 90,
+  "source_transport_uses_completed_R868_and_pure_IO_R827_intake": true,
+  "sources": {
+    "R805": {
+      "certificate": {
+        "bytes": 5108,
+        "file": "p41-original-affine-pencil-free-basis-certificate.json",
+        "sha256": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0"
+      },
+      "configuration_sha256": "176dcb479f730ff647490a0aaa587195d615a4ded4edac7a64f8331fd46300d4",
+      "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+      "expected_conclusion": "success",
+      "files": {
+        "R805-accepted-pencil.json.gz": {
+          "bytes": 4053,
+          "file": "R805-accepted-pencil.json.gz",
+          "sha256": "83f333404cb147eebe4b4c0d0f3dd383c20b532c7aab69c27269c111eaf6eb8c"
+        },
+        "R805-graded-free-basis.json.gz": {
+          "bytes": 11649,
+          "file": "R805-graded-free-basis.json.gz",
+          "sha256": "74311a7a143fafc43a36d1a43f6146e6aa3cb28809a020e3fa1337fdc4e475c9"
+        },
+        "core-receipt.json": {
+          "bytes": 403,
+          "file": "core-receipt.json",
+          "sha256": "ff885a9ad0b7d1c66d8d1366b9137a975d83fa4cd79fc92df030dad328d6782c"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 451608,
+          "file": "full-outputs-manifest.json",
+          "sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7"
+        },
+        "p41-original-affine-pencil-free-basis-certificate.json": {
+          "bytes": 5108,
+          "file": "p41-original-affine-pencil-free-basis-certificate.json",
+          "sha256": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0"
+        },
+        "public-actions-input.json": {
+          "bytes": 5419,
+          "file": "public-actions-input.json",
+          "sha256": "6d992893216b84c3aff4e2297d006b6f568bc3d297998817e534ef57ecaf4d81"
+        },
+        "run-receipt.json": {
+          "bytes": 650,
+          "file": "run-receipt.json",
+          "sha256": "942b9b9294ea59d77b2012fc4c1ec231cdfb15d35e108976586de7cba0ac58f8"
+        }
+      },
+      "manifest_bytes": 451608,
+      "manifest_file_count": 1322,
+      "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+      "result": "R805-original-affine-pencil-free-basis",
+      "run_id": "43705580592",
+      "selected_file_count": 7,
+      "selected_files_sha256": "c69ebc7bc2d56342415c37c43fe074c02d4a879104010bc37a0e6e60767c375e",
+      "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700"
+    },
+    "R806": {
+      "certificate": {
+        "bytes": 14965,
+        "file": "p41-original-primitive-multiplication-certificate.json",
+        "sha256": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99"
+      },
+      "configuration_sha256": "45e05dc171cbc2879e4d6df4e076778d0e2662ca3169617de339e385d2f7ff25",
+      "core_sha256": "b014f9b3cb4923421e6a879eddb4da58dd0baefb28d61a2191f6b0a33e51810d",
+      "expected_conclusion": "success",
+      "files": {
+        "R806-accepted-primitive-candidate.json.gz": {
+          "bytes": 3904,
+          "file": "R806-accepted-primitive-candidate.json.gz",
+          "sha256": "2aac2d669a6f6889d4c84e357cb82aae1e27bcd4fecf43a846ffe5ac7822ce27"
+        },
+        "R806-candidate-0000000000-definition.json.gz": {
+          "bytes": 3548,
+          "file": "R806-candidate-0000000000-definition.json.gz",
+          "sha256": "715faab78be54e3cf91958d0895c8c8d0157d752414feab775cc499859616170"
+        },
+        "R806-candidate-0000000000-group-000-exact-coordinates.json.gz": {
+          "bytes": 1001293,
+          "file": "R806-candidate-0000000000-group-000-exact-coordinates.json.gz",
+          "sha256": "3b2b11873b4c505275845f9d4639215b27273856ff9a21cc771cabf9b504bdfa"
+        },
+        "R806-candidate-0000000000-group-001-exact-coordinates.json.gz": {
+          "bytes": 1332125,
+          "file": "R806-candidate-0000000000-group-001-exact-coordinates.json.gz",
+          "sha256": "316d3126cc815494ce8241ea4f8059c68d05ea53237b6eb28b9e36a170a315bc"
+        },
+        "R806-candidate-0000000000-group-002-exact-coordinates.json.gz": {
+          "bytes": 1332838,
+          "file": "R806-candidate-0000000000-group-002-exact-coordinates.json.gz",
+          "sha256": "5f0fc29272e9d9d24827376618887ddd46f4e2f538c98f887408e81b8f4a2025"
+        },
+        "R806-candidate-0000000000-group-003-exact-coordinates.json.gz": {
+          "bytes": 1332576,
+          "file": "R806-candidate-0000000000-group-003-exact-coordinates.json.gz",
+          "sha256": "791396253967529e3f5e2d4e997d20013bb0bcadcfa904913ad71c5001122a88"
+        },
+        "R806-candidate-0000000000-group-004-exact-coordinates.json.gz": {
+          "bytes": 1332299,
+          "file": "R806-candidate-0000000000-group-004-exact-coordinates.json.gz",
+          "sha256": "88dcab3d25a4ebb92e8934c4f3b5a57cc3977387bebcb6177310e1e69a7e21ac"
+        },
+        "R806-candidate-0000000000-group-005-exact-coordinates.json.gz": {
+          "bytes": 1332597,
+          "file": "R806-candidate-0000000000-group-005-exact-coordinates.json.gz",
+          "sha256": "7b92a885cbc0081989478443f51c32415d2b965823db7405439452605e4912d7"
+        },
+        "R806-candidate-0000000000-group-006-exact-coordinates.json.gz": {
+          "bytes": 1332942,
+          "file": "R806-candidate-0000000000-group-006-exact-coordinates.json.gz",
+          "sha256": "368d7f9ba889427866ecf1c7c51293adf732b8421c03362fb9185821527e8c92"
+        },
+        "R806-candidate-0000000000-group-007-exact-coordinates.json.gz": {
+          "bytes": 1332868,
+          "file": "R806-candidate-0000000000-group-007-exact-coordinates.json.gz",
+          "sha256": "b3d7c7ca60cb5247cd16da0d62074b58f524817e2fc66ec1aa52022297bfcc32"
+        },
+        "R806-candidate-0000000000-group-008-exact-coordinates.json.gz": {
+          "bytes": 1332398,
+          "file": "R806-candidate-0000000000-group-008-exact-coordinates.json.gz",
+          "sha256": "96a59e848aa673a955cec064e4c14d6387a0bfc09264ceab16917cacbfc7037e"
+        },
+        "R806-candidate-0000000000-group-009-exact-coordinates.json.gz": {
+          "bytes": 1166694,
+          "file": "R806-candidate-0000000000-group-009-exact-coordinates.json.gz",
+          "sha256": "88ddd67f178bcff933930d08df95441ab434f2a44483e0bfa82e4aaa45702480"
+        },
+        "R806-candidate-0000000000-group-010-exact-coordinates.json.gz": {
+          "bytes": 1331042,
+          "file": "R806-candidate-0000000000-group-010-exact-coordinates.json.gz",
+          "sha256": "effe47f676b3decd27311e8dbebb21e060f559d1cbf6accf4a534a1dd2b7d93a"
+        },
+        "R806-candidate-0000000000-group-011-exact-coordinates.json.gz": {
+          "bytes": 1332587,
+          "file": "R806-candidate-0000000000-group-011-exact-coordinates.json.gz",
+          "sha256": "4a423ad24b57d116995f878ac3c55d6ebc127257d36e5c809fca3eb50e6df793"
+        },
+        "R806-candidate-0000000000-group-012-exact-coordinates.json.gz": {
+          "bytes": 1333160,
+          "file": "R806-candidate-0000000000-group-012-exact-coordinates.json.gz",
+          "sha256": "caf8b69b87e1dd2be5c6453eb6cdba16c2de7288278c8c80521e0974e493f600"
+        },
+        "R806-candidate-0000000000-group-013-exact-coordinates.json.gz": {
+          "bytes": 1244452,
+          "file": "R806-candidate-0000000000-group-013-exact-coordinates.json.gz",
+          "sha256": "a7fae892aaea357639f49ed6f242de92181743e88e14fdeb88331a078307ba02"
+        },
+        "R806-candidate-0000000000-group-014-exact-coordinates.json.gz": {
+          "bytes": 1331615,
+          "file": "R806-candidate-0000000000-group-014-exact-coordinates.json.gz",
+          "sha256": "81c5af8f5f3d87ea91c77bfcaa93c7585886ac40105486ff306fb0d28af7de8b"
+        },
+        "R806-candidate-0000000000-group-015-exact-coordinates.json.gz": {
+          "bytes": 1332632,
+          "file": "R806-candidate-0000000000-group-015-exact-coordinates.json.gz",
+          "sha256": "6253fb131a9440a9893c7eced985bf5e87097c4c5eaeca8a5511c6551b33f813"
+        },
+        "R806-candidate-0000000000-group-016-exact-coordinates.json.gz": {
+          "bytes": 1332083,
+          "file": "R806-candidate-0000000000-group-016-exact-coordinates.json.gz",
+          "sha256": "2faa97c955c4229883d18206af24b4f643e5ff60131ebbfed7d3966c78aa496b"
+        },
+        "R806-candidate-0000000000-group-017-exact-coordinates.json.gz": {
+          "bytes": 1331637,
+          "file": "R806-candidate-0000000000-group-017-exact-coordinates.json.gz",
+          "sha256": "f1c57d13aa055805196a340acb57c73e11eb07ae7e6aa466022e42dbf72bbcbd"
+        },
+        "R806-candidate-0000000000-group-018-exact-coordinates.json.gz": {
+          "bytes": 4791583,
+          "file": "R806-candidate-0000000000-group-018-exact-coordinates.json.gz",
+          "sha256": "3554f2778b9167c1b9a46a635940c17710f177888ed3677db02ab38442847f4b"
+        },
+        "R806-candidate-0000000000-group-019-exact-coordinates.json.gz": {
+          "bytes": 5285259,
+          "file": "R806-candidate-0000000000-group-019-exact-coordinates.json.gz",
+          "sha256": "9fda9a570042257ee5a799ee83e4d75a13e967136e7e6db05278c8bc3c73bd2f"
+        },
+        "R806-candidate-0000000000-group-020-exact-coordinates.json.gz": {
+          "bytes": 5286134,
+          "file": "R806-candidate-0000000000-group-020-exact-coordinates.json.gz",
+          "sha256": "b96e4fd9623f76b25751dfcf7f557dab0ede96645af634f0d0e812c38ca937c7"
+        },
+        "R806-candidate-0000000000-group-021-exact-coordinates.json.gz": {
+          "bytes": 5287062,
+          "file": "R806-candidate-0000000000-group-021-exact-coordinates.json.gz",
+          "sha256": "5021cf3fbb20b521c76c9e93de077dbac8768988c3ae5c82084ae548b9ce0d27"
+        },
+        "R806-candidate-0000000000-group-022-exact-coordinates.json.gz": {
+          "bytes": 5286441,
+          "file": "R806-candidate-0000000000-group-022-exact-coordinates.json.gz",
+          "sha256": "08d7b85907541543e8aae2558de218cad1a07e9d46060f9dd41ce3836d8c3025"
+        },
+        "R806-candidate-0000000000-group-023-exact-coordinates.json.gz": {
+          "bytes": 5287560,
+          "file": "R806-candidate-0000000000-group-023-exact-coordinates.json.gz",
+          "sha256": "1c7d5c362f914ffb70c7de39b96b512997bca062bfd24c3bf23629fd4564e6c9"
+        },
+        "R806-candidate-0000000000-group-024-exact-coordinates.json.gz": {
+          "bytes": 5286346,
+          "file": "R806-candidate-0000000000-group-024-exact-coordinates.json.gz",
+          "sha256": "8df5de172bfe4e82b883323ca54d6efd1a8b455a67421e7cb2298a013c0b7781"
+        },
+        "R806-candidate-0000000000-group-025-exact-coordinates.json.gz": {
+          "bytes": 5286206,
+          "file": "R806-candidate-0000000000-group-025-exact-coordinates.json.gz",
+          "sha256": "1a585e5a82761f4bf4cc0338a54b21c467482c5d78c16cf292bb60b700fb2d43"
+        },
+        "R806-candidate-0000000000-group-026-exact-coordinates.json.gz": {
+          "bytes": 5286963,
+          "file": "R806-candidate-0000000000-group-026-exact-coordinates.json.gz",
+          "sha256": "639dbcc2697ef1f7195d30a06dbba0b9bbcfb1eaf1ebedb3ab0c6aa27288897c"
+        },
+        "R806-candidate-0000000000-group-027-exact-coordinates.json.gz": {
+          "bytes": 5286809,
+          "file": "R806-candidate-0000000000-group-027-exact-coordinates.json.gz",
+          "sha256": "3c939ce648b09f9f1a6b683173281cb54a935506aeea78e657fed17110cf6470"
+        },
+        "R806-candidate-0000000000-group-028-exact-coordinates.json.gz": {
+          "bytes": 5286500,
+          "file": "R806-candidate-0000000000-group-028-exact-coordinates.json.gz",
+          "sha256": "4f71bc42fe45bb1c6500c5448ff8602c64167c9d05fb0d27990024ebe6efb0ae"
+        },
+        "R806-candidate-0000000000-group-029-exact-coordinates.json.gz": {
+          "bytes": 5286805,
+          "file": "R806-candidate-0000000000-group-029-exact-coordinates.json.gz",
+          "sha256": "0d101b69b819f9f579c412445e496d7361387c7738566052990d10ee36be839c"
+        },
+        "R806-candidate-0000000000-group-030-exact-coordinates.json.gz": {
+          "bytes": 5287526,
+          "file": "R806-candidate-0000000000-group-030-exact-coordinates.json.gz",
+          "sha256": "13f80b37be7c83cbf17bdf64e19587768915ad2f96768d2844f0ccecf54091d9"
+        },
+        "R806-candidate-0000000000-group-031-exact-coordinates.json.gz": {
+          "bytes": 5287147,
+          "file": "R806-candidate-0000000000-group-031-exact-coordinates.json.gz",
+          "sha256": "eb4d0b7f75d2742aace20025141632c490ff8f199741d81db80e553e8ae6dc61"
+        },
+        "R806-candidate-0000000000-group-032-exact-coordinates.json.gz": {
+          "bytes": 5287131,
+          "file": "R806-candidate-0000000000-group-032-exact-coordinates.json.gz",
+          "sha256": "a9ae92bc19fe6b5e883f5b76030c3fd9c721471815311b912f8827a3ebd5e7db"
+        },
+        "R806-candidate-0000000000-group-033-exact-coordinates.json.gz": {
+          "bytes": 5285323,
+          "file": "R806-candidate-0000000000-group-033-exact-coordinates.json.gz",
+          "sha256": "97f0a1911155961475b292baedb6bccbb047e208627563721ab911e834a30782"
+        },
+        "R806-candidate-0000000000-prime-1000000007-z-0-cyclic.json.gz": {
+          "bytes": 374731,
+          "file": "R806-candidate-0000000000-prime-1000000007-z-0-cyclic.json.gz",
+          "sha256": "6d6722d93321e757535fe96f9d3ecc181ac85dc65d67d4bda41a6477ab84f5e8"
+        },
+        "R806-exact-polynomial-multiplier-in-original-normal-basis.json.gz": {
+          "bytes": 10847,
+          "file": "R806-exact-polynomial-multiplier-in-original-normal-basis.json.gz",
+          "sha256": "63b38d14dbeb4b504619db65f56c151146885173b8cef253dfba3bebc76cd2dd"
+        },
+        "R806-original-input-and-coordinate-chart.json.gz": {
+          "bytes": 45370,
+          "file": "R806-original-input-and-coordinate-chart.json.gz",
+          "sha256": "839b29f9042937529b23699dc6bcad4d669f25108d472887718c77e617120c5b"
+        },
+        "R806-stage-manifest.json.gz": {
+          "bytes": 512678,
+          "file": "R806-stage-manifest.json.gz",
+          "sha256": "0b32cfba77138d2fadea50bc922376c9199babb5aa6b7206781d9f030874c652"
+        },
+        "core-receipt.json": {
+          "bytes": 440,
+          "file": "core-receipt.json",
+          "sha256": "6351e689fee7bd171d5f71cf847f5def0107c18946348c7313d8c9f873a89a4c"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 3988631,
+          "file": "full-outputs-manifest.json",
+          "sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69"
+        },
+        "p41-original-primitive-multiplication-certificate.json": {
+          "bytes": 14965,
+          "file": "p41-original-primitive-multiplication-certificate.json",
+          "sha256": "dd266ee6d46dab53be5cb73553af56a3cb96d6b2cd0459aea79d6e4ebf06ba99"
+        },
+        "public-actions-input.json": {
+          "bytes": 5297,
+          "file": "public-actions-input.json",
+          "sha256": "b7f72c25073fa7a9d939b021320f49f5b4c7b0d31b77f0e4ed06f0adc935de02"
+        },
+        "run-receipt.json": {
+          "bytes": 632,
+          "file": "run-receipt.json",
+          "sha256": "f6754830ab2e7ea52d708b82cd02426e0459557a9407ebb559de39091c2efa41"
+        }
+      },
+      "manifest_bytes": 3988631,
+      "manifest_file_count": 10603,
+      "manifest_sha256": "cc569ea17dba9685334fdeeec056ee8a21fe53dfa334be9173afbdcfa0629f69",
+      "result": "R806-original-primitive-multiplication",
+      "run_id": "43707290840",
+      "selected_file_count": 45,
+      "selected_files_sha256": "7ebffd60fa624716fd433a661ca77c8a9ce84333d3d8c4c1329ebec0798e339d",
+      "source_commit": "75b1d56c821abe34660477ba8b4c7f7b75a4382b"
+    },
+    "R827": {
+      "accepted_checkpoint_exit_codes": [
+        124
+      ],
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "certificate": null,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "expected_conclusion": "failure",
+      "files": {
+        "R827-original-W-g-h-reductions.json.gz": {
+          "bytes": 763994,
+          "file": "R827-original-W-g-h-reductions.json.gz",
+          "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+        },
+        "R827-original-place-and-unit-source-audit.json.gz": {
+          "bytes": 4261,
+          "file": "R827-original-place-and-unit-source-audit.json.gz",
+          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+        },
+        "R827-prime-1000000753-z-0-Krylov.json.gz": {
+          "bytes": 1114714,
+          "file": "R827-prime-1000000753-z-0-Krylov.json.gz",
+          "sha256": "8c44c70e79fcd4b1cdd7324ce2cbc7a88ffaadcdeff126d169cf27f3a79f1703"
+        },
+        "R827-prime-1000000753-z-1-Krylov.json.gz": {
+          "bytes": 1114628,
+          "file": "R827-prime-1000000753-z-1-Krylov.json.gz",
+          "sha256": "f874694d3dbb46df1480112ed2c2ee6bca56b9a0ec62ba4cc34f65f157d34f52"
+        },
+        "R827-prime-1000000753-z-2-Krylov.json.gz": {
+          "bytes": 1114827,
+          "file": "R827-prime-1000000753-z-2-Krylov.json.gz",
+          "sha256": "3eb36f786cf3a24c458b97e85fb74716df494619a753d7870dff5284b3273978"
+        },
+        "R827-prime-1000000753-z-3-Krylov.json.gz": {
+          "bytes": 1114390,
+          "file": "R827-prime-1000000753-z-3-Krylov.json.gz",
+          "sha256": "784493e30234ca1c099b53892cdf6ccf2843d364ae2c0bf38abbe8eccef011de"
+        },
+        "R827-prime-1000000753-z-4-Krylov.json.gz": {
+          "bytes": 1114592,
+          "file": "R827-prime-1000000753-z-4-Krylov.json.gz",
+          "sha256": "cb7aa5ca1095d801ae69153ee49c5cbbfce03202da3e1de77454fa869bdb30ec"
+        },
+        "core-receipt.json": {
+          "bytes": 378,
+          "file": "core-receipt.json",
+          "sha256": "80657e1877ebea560fca06ecc808ede7541c42cc9672955cb25203b4ded5611a"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 19902271,
+          "file": "full-outputs-manifest.json",
+          "sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e"
+        },
+        "public-actions-input.json": {
+          "bytes": 14624,
+          "file": "public-actions-input.json",
+          "sha256": "e2ba71d79b50f92f463c6efcfca091ef230bfd9b37e1e8962edc5d4734099583"
+        },
+        "run-receipt.json": {
+          "bytes": 441,
+          "file": "run-receipt.json",
+          "sha256": "41716f65f5e0e9596aed3aaff0487c0ca736517ea904ee6d741adf8aba59de0e"
+        }
+      },
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "selected_file_count": 11,
+      "selected_files_sha256": "4d259d7197a0ac62f94c04313bc0d888e16eb29045b194c717a04339b0f50c2a",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d"
+    },
+    "R856": {
+      "archive_bytes": 47922521,
+      "archive_sha256": "125c93efac847e7b14ba8a256897f6e6c362b3fd060a87bc5befd43ba38b7c25",
+      "artifact_id": 14198217155,
+      "artifact_name": "serre-global-R856-original-fixed-branch-ideal-bases-43805659598-1",
+      "certificate": {
+        "bytes": 6533,
+        "file": "p41-original-fixed-branch-ideal-bases-certificate.json",
+        "sha256": "a80fb42e807e0368e6249a56901ef5f391bb5b2326b5f3f29372fcc6866b4383"
+      },
+      "configuration_sha256": "d07431a675a3e7eeb6dca7208fbe2ca871e9def859d52c7221fb5f307f91b99b",
+      "core_sha256": "80c4e508cd0ddc15bcc3f8a5b3a4053ce141233fd3d259c1bcf0935db6a6311b",
+      "expected_conclusion": "success",
+      "files": {
+        "R856-chart-sigma-complete-P0-ideal-basis.json.gz": {
+          "bytes": 10271,
+          "file": "R856-chart-sigma-complete-P0-ideal-basis.json.gz",
+          "sha256": "6b7a285361f03d97104e9346e6a52531514f9fa45e8f0a39045d07fca3a8fbc6"
+        },
+        "R856-chart-tau-complete-P0-ideal-basis.json.gz": {
+          "bytes": 7147,
+          "file": "R856-chart-tau-complete-P0-ideal-basis.json.gz",
+          "sha256": "ba8df16a340219de219ba884f86490055d968414111e177616ac58604a7ef66a"
+        },
+        "R856-original-P0-normal-values.json.gz": {
+          "bytes": 10744,
+          "file": "R856-original-P0-normal-values.json.gz",
+          "sha256": "503deda300bab3ca728eab7733865b142c6deb65b9f271b3646ff7f20ee4ea5c"
+        },
+        "R856-original-source-audit.json.gz": {
+          "bytes": 2335,
+          "file": "R856-original-source-audit.json.gz",
+          "sha256": "95c907daff406a476bba8660252a5e1381890cc4f4f2105f03bf626ac70ee169"
+        },
+        "core-receipt.json": {
+          "bytes": 640,
+          "file": "core-receipt.json",
+          "sha256": "4cc7648c178eb236b8bd4c75a365a51a09fad758839f24150a5d4b8bc953dc95"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 9130,
+          "file": "full-outputs-manifest.json",
+          "sha256": "6f40ae27f660816057442e12562d7a4a38d6fa5f4422bbd3f865acf22951b8cc"
+        },
+        "p41-original-fixed-branch-ideal-bases-certificate.json": {
+          "bytes": 6533,
+          "file": "p41-original-fixed-branch-ideal-bases-certificate.json",
+          "sha256": "a80fb42e807e0368e6249a56901ef5f391bb5b2326b5f3f29372fcc6866b4383"
+        },
+        "public-actions-input.json": {
+          "bytes": 9114,
+          "file": "public-actions-input.json",
+          "sha256": "bb8fafb52327203580d1d3aed9bfd0bb7e65c2a85382b074b9cbcf750d66d2d4"
+        },
+        "run-receipt.json": {
+          "bytes": 447,
+          "file": "run-receipt.json",
+          "sha256": "b1f4ddb4c740f5ce65c5febf2d1d6300b45885bc4cb5aac39f946afe6576abd1"
+        }
+      },
+      "manifest_bytes": 9130,
+      "manifest_file_count": 52,
+      "manifest_sha256": "6f40ae27f660816057442e12562d7a4a38d6fa5f4422bbd3f865acf22951b8cc",
+      "result": "R856-original-fixed-branch-ideal-bases",
+      "run_id": "43805659598",
+      "selected_file_count": 9,
+      "selected_files_sha256": "0a6fa60b74979257d8526c3303cb1852f841f9ce8bd19c70f898b9938af38bdc",
+      "source_commit": "ebdb4e512bb3cb8f8fadbb3bf2b9e69f11127051"
+    },
+    "R860": {
+      "archive_bytes": 110986106,
+      "archive_sha256": "aca10fbe6f1296288fba262ca49bef2f4171f022ea4af88dfd1b486fd46cc9d4",
+      "artifact_id": 14200417324,
+      "artifact_name": "serre-global-R860-original-semilinear-resolvent-DAG-43811325290-1",
+      "certificate": {
+        "bytes": 11274,
+        "file": "p41-original-semilinear-resolvent-DAG-certificate.json",
+        "sha256": "4314f242bbcaaaad16523d5fcac185b57b7964da161579615731880d52f36843"
+      },
+      "configuration_sha256": "d082df1a74457f952f74f748a68bd7308fbd6a0fabe98cf89002e352558a0117",
+      "core_sha256": "4b70a64d3158ff7d0c5272562fab16722bc38af1fde466e93f7b6086d43724d5",
+      "expected_conclusion": "success",
+      "files": {
+        "R860-original-W-coefficient-source-index.json.gz": {
+          "bytes": 11539,
+          "file": "R860-original-W-coefficient-source-index.json.gz",
+          "sha256": "c522daaa220b8b554b733a224a187f3faab5c4641ee71e25867710bed23367c1"
+        },
+        "R860-original-semilinear-resolvent-expression-DAG.json.gz": {
+          "bytes": 4670,
+          "file": "R860-original-semilinear-resolvent-expression-DAG.json.gz",
+          "sha256": "8b9dcca65e39621c1de36da435c537b3902ad6aa355356cb5ba9a3e7a807407b"
+        },
+        "R860-original-source-audit.json.gz": {
+          "bytes": 4340,
+          "file": "R860-original-source-audit.json.gz",
+          "sha256": "3cfe01777eeb5f700d0e932728eb483fe02a4adc4a284202a4c77a80e8b10ef8"
+        },
+        "R860-stage-manifest-53ce6cb650b58eefa39e.json.gz": {
+          "bytes": 3887,
+          "file": "R860-stage-manifest-53ce6cb650b58eefa39e.json.gz",
+          "sha256": "83c0c84ae49906f837a094b131e3815ac7e4605847d7ebe954a925a6343c8c2d"
+        },
+        "core-receipt.json": {
+          "bytes": 759,
+          "file": "core-receipt.json",
+          "sha256": "d9f8c31f482521ded1637cd641ea625790a74ca4443fb9f616329f5a812282eb"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 9902,
+          "file": "full-outputs-manifest.json",
+          "sha256": "a629f9f76a8ca1792314726b8aa3cffd45c2ec7b06c17c0f37e1dc1ba48cfe0a"
+        },
+        "p41-original-semilinear-resolvent-DAG-certificate.json": {
+          "bytes": 11274,
+          "file": "p41-original-semilinear-resolvent-DAG-certificate.json",
+          "sha256": "4314f242bbcaaaad16523d5fcac185b57b7964da161579615731880d52f36843"
+        },
+        "public-actions-input.json": {
+          "bytes": 27957,
+          "file": "public-actions-input.json",
+          "sha256": "e7653ef2b5a7e6f1a5fa0927aa986b96de6da1f570d123bfd477ffd3dd6fdaa5"
+        },
+        "run-receipt.json": {
+          "bytes": 447,
+          "file": "run-receipt.json",
+          "sha256": "be4dbaec3d8c97db71fb400e61de39afed8a4149fb18b4bfe4886ef12d6e39ee"
+        }
+      },
+      "manifest_bytes": 9902,
+      "manifest_file_count": 58,
+      "manifest_sha256": "a629f9f76a8ca1792314726b8aa3cffd45c2ec7b06c17c0f37e1dc1ba48cfe0a",
+      "result": "R860-original-semilinear-resolvent-DAG",
+      "run_id": "43811325290",
+      "selected_file_count": 9,
+      "selected_files_sha256": "4bbd20c0737cb5094968e676d53c11ba82a0888131aef900974c9b4dc304f7e6",
+      "source_commit": "cb6f93b61fb58ec077ed38502479df33edd27404"
+    },
+    "R868": {
+      "archive_bytes": 204985706,
+      "archive_sha256": "d57536f903ec17bd4f637250b341444ba734aa2f6a0dea6386dbe67ca211c27a",
+      "artifact_id": 14203769509,
+      "artifact_name": "serre-R868-original-P0-socle-RR-modules-43819875762-1",
+      "certificate": {
+        "bytes": 8069,
+        "file": "p41-original-P0-socle-and-RR-module-certificate.json",
+        "sha256": "ef1dc965518d2ac987a36bf025ae0aa808fd4dc872ef3b1db68c6bfdb2a17d11"
+      },
+      "configuration_sha256": "d89c0ed6cbf0869191daed5c5e9a6075f4638140b5c9a89f1c486b4e818cda92",
+      "core_sha256": "cdac462c9f96011e4526cd7ad209e5fbd443d4c0e62e38cf31c04219ca525270",
+      "expected_conclusion": "success",
+      "file_pins": {
+        "R868-accepted-point-minor.json.gz": {
+          "bytes": 698249,
+          "file": "R868-accepted-point-minor.json.gz",
+          "sha256": "116284cadececb504df3852d3b10e4abf4e6a66d059d102f5b87eb0cd6647ab3"
+        },
+        "R868-exact-original-normal-socle-vector.json.gz": {
+          "bytes": 1097963,
+          "file": "R868-exact-original-normal-socle-vector.json.gz",
+          "sha256": "5de7d08de2f117aebb5bd607dbf13c40e5ac6feb796b163c8007e4cafe295e07"
+        },
+        "R868-fixed-point-minor-inverses.json.gz": {
+          "bytes": 699696,
+          "file": "R868-fixed-point-minor-inverses.json.gz",
+          "sha256": "a36b8271401477ef205eebf34efef643a2af044e02b330dd6687a326ffc4975d"
+        },
+        "R868-point-integral-matrix-index.json.gz": {
+          "bytes": 77121,
+          "file": "R868-point-integral-matrix-index.json.gz",
+          "sha256": "6812c5a099a72e624dd624dacc448dd263fa11e68c6e969cc78c99504fb1102c"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 117917,
+          "file": "full-outputs-manifest.json",
+          "sha256": "8251e046031b202ea5e49faa2ec2a1591c11c8a103e563fc0b340ab091dae1b8"
+        },
+        "p41-original-P0-socle-and-RR-module-certificate.json": {
+          "bytes": 8069,
+          "file": "p41-original-P0-socle-and-RR-module-certificate.json",
+          "sha256": "ef1dc965518d2ac987a36bf025ae0aa808fd4dc872ef3b1db68c6bfdb2a17d11"
+        }
+      },
+      "manifest_bytes": 117917,
+      "manifest_file_count": 719,
+      "manifest_sha256": "8251e046031b202ea5e49faa2ec2a1591c11c8a103e563fc0b340ab091dae1b8",
+      "result": "R868-original-P0-socle-and-degree254-RR-modules",
+      "run_id": "43819875762",
+      "selected_file_count": 9,
+      "selected_file_names": [
+        "R868-accepted-point-minor.json.gz",
+        "R868-exact-original-normal-socle-vector.json.gz",
+        "R868-fixed-point-minor-inverses.json.gz",
+        "R868-point-integral-matrix-index.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-P0-socle-and-RR-module-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "source_commit": "9586473c46712b6c00a6f8e5736bf387b987ef6b",
+      "wrapper_sha256": "9115331ea60213edef3a3066c82aad4abd43e344dc566a5c5a8be8297ada9033"
+    }
+  },
+  "transport_helper": "R837_original_branch_pencil_public.py",
+  "transport_helper_sha256": "eec99c9e849c051a8314f00ff594037e962d9bc23e2d2bfaa6334307a3bb5eae",
+  "workflow": ".github/workflows/serre-R872-original-point-jets-fixed-Picard.yml",
+  "wrapper": "R872_public_original_point_jets_and_fixed_Picard_space.py",
+  "wrapper_sha256": "2b3d0763196eb48714cb336ff0f504a6e1718e86bca08ef597ddb22602533ce5",
+  "session": "serre-public-astra-20261115"
+}

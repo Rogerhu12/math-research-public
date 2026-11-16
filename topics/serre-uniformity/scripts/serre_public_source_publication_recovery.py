@@ -9,6 +9,8 @@ import re
 import subprocess
 import sys
 import urllib.request
+import urllib.error
+import time
 
 REPO = "Rogerhu12/math-research-public"
 REQUEST = "topics/serre-uniformity/notes/serre-source-publication-recovery-request.json"
@@ -147,8 +149,17 @@ def main():
         url = "https://api.github.com/repos/" + REPO + "/actions/workflows/" + dispatch["workflow"] + "/dispatches"
         body = json.dumps({"ref": "main"}).encode()
         req = urllib.request.Request(url, data=body, method="POST", headers={"Authorization": "Bearer "+token, "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"})
-        with urllib.request.urlopen(req, timeout=60) as response:
-            assert response.status == 204
+        for dispatch_attempt in range(1, 13):
+            try:
+                with urllib.request.urlopen(req, timeout=60) as response:
+                    assert response.status == 204
+                break
+            except urllib.error.HTTPError as error:
+                detail = error.read().decode("utf-8", errors="replace")
+                print("WORKFLOW_DISPATCH_HTTP_ERROR=" + json.dumps({"workflow": dispatch["workflow"], "attempt": dispatch_attempt, "status": error.code, "body": detail[:4096]}), flush=True)
+                if error.code not in (404, 422) or dispatch_attempt == 12:
+                    raise
+                time.sleep(5)
         print("WORKFLOW_DISPATCH_ACCEPTED=" + json.dumps({"workflow": dispatch["workflow"], "published_commit": published, "request_sha256": dispatch["request_sha256"]}), flush=True)
 
 if __name__ == "__main__":
