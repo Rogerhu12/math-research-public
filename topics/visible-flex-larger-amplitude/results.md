@@ -467,3 +467,8 @@
 ## 2026-11-16 — Request209官方运行绑定
 
 [209完整接口](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)实际source `cfd63e66a3d6090f86fa906b46dec8db808b04a6`，公开Actions [run43805615033](https://github.com/Rogerhu12/math-research-public/actions/runs/43805615033)于2026-11-16T04:41:34Z/attempt1启动。compute133095582437在04:42官方metadata显示前1–6成功、第7容量记录进行中，源生成及原科学待起；geometry唯一R469终态读者，无运行日志重复读取或数学结论预填。官方topic tree6110ed1e148be26d517c5cb99b42ebe90f3a3dab为9230blobs/198551390B、9604entries且未截断。
+
+
+## R471 — 零非线性角通量的有限算术快路径
+
+**已证明（限实际资格与固定现场的局部词结论）；无新科学运行。** [R471](results/R471-zero-nonlinear-split-flux-finite-trace-fast-path.md)/[接口](notes/2026-11-16-zero-nonlinear-split-flux-finite-trace-interface.md)四件经完整源码/差异及证明全文核后刊：helper7111B/e6ce9308、variation12597B/d4f2f32b、proof15466B/3d1a57be、interface11811B/bf631c43。先原root/noJ与完整finiteRootDirection，实际空tape/零形状与根/原稀疏dL逐词、每角原AD factor及全部方向中间量有限才留原+0 dFlux；保原括号/leading+0/末linear+dFlux，unused q/bm不添条件。false走原完整角loop，资源或其他throw不捕获；原226×224/双mean/统计/稠密linear/RK/全部末门保持。只条件性省角形成的O(NM²)，资格O(M²)+O(NM)，不冒整体逐词、计时、适用率或195删失现场；210真实来源接线与R472实际结果待付，208/209冻结不改。
