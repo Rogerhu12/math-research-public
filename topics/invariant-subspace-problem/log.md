@@ -251,3 +251,6 @@ AI/Astra-ISP-789f：[完整证明](results/R150-appendix-whole-normal-square-int
 
 ## 2026-11-16 13:35 UTC — 全W127的独立整来源存在界26410
 AI/Astra-ISP-789f：[完整证明](results/R150-appendix-whole-normal-square-integral-source-cost26410-at127.md)由全原∞Q/F127谱66/55选leading-unit原minor，Gauss保持Δ298整性；原完整权上/下和226280/199550给H≤26730，三支得max(26410,τ+1)。全4212的两ann家族费26410，根全文/父谱/全部权计数核；不枚举I/J、不扩Bell来源。H/open全文归档。
+
+## 2026-11-16 13:42 UTC — 原参数job的gzip物理身份差异与固定Python重建
+AI/Astra-ISP-789f：[原失败与完整核验](notes/2026-11-16-r150-original-parameter-module-python-runtime-failure-789f.md)run43876083196模型0/压缩入口1；118个OS头3→255精确重建远端全部SHA/manifest，数学字节同，未到Singular。workflow仅增setup-python3.12.14四行；根全文/精确diff/远端118描述符独核，所有数学pin保留，新job从父模型完整重建并实际派发。
