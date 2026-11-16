@@ -1,0 +1,51 @@
+# 交接
+
+## 主目标、授权与规则
+
+固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
+- 最近已读规则提交：8ef0cdc9386544436b5aedfd6c87bd48e467bb67；2026-11-16 01:56:46 UTC核两README无变。实际CI pull 2026-11-16 01:44:26 UTC/52815b1409d1bbae424e7d7948bc27029ce4086a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 01:55:31 UTC仍无环境。最迟2026-11-16 02:25 UTC再实际pull。
+- 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
+- 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
+- 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
+- 最近盘点30,877,925B/2257文件，无超限，3旧真实输入块。[规则15来源](../notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。
+
+## 完整检查点与当前分工
+
+[压缩前完整H](../notes/2026-11-16-frontier-before-r842-horizontal-adjoint.md)、[完整open](../notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–848已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算更高亏格原2-normalizer/完整作用，root核证明/实际曲线canonical比较。R848已付原degree18商/最高form；literature续R849全CM pool，root续指定商与canonical比较；下一独立编号R850由root协调。
+实际CI pull 01:44:26/run43787991025/job133039844842成功，head 52815b14，两README差异空。回执ci/rule-pull-20261116T014426.json，下一02:25前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
+
+## 原端点、CM来源与实际曲线
+
+R804/806/811/814原指定z=(1/30)prK twν(eηu∞)，全7/13 good pair、三角色/34δ、Euler/period均保；I_j,-2≠0 iff指定loc/AJ/z≠0。R817有限unit、R818复秩1不付无穷p。R829同q0零；R830原q/q⁴局部向量已付。R831矩阵仅Z02=Z、Z20=−Z，X0系数6^-2、X1的12^-2及1632/816不改、不增端点。R832真Chow/mixed rank0与R841原R纯最高λ均见原证，不能当canonical比较。
+R839 Πtop全CH²平移不变，杀超椭圆/真阿贝尔平移内曲线；原Z=ΣcΠΦ*X=½ΣcΠCerΦ保全实际Hom/次数。属三det≠1的Kimura幂等论证排Picard来源，不假高CH实现忠实。R841 whole g-packet平均/双线性/swap/W4给全部对称polarization Φ=(F,a q0,a q2)，S矩阵L=[[-1,0,0],[0,-1,-1],[0,0,1]]保q4微分4倍、det1。
+[R846](../results/R846-original-full-hom-and-genus-four-exclusion.md)已排全部原g4：真实K3下降的H=D/s中reciprocal非零交叉迫Bh∼E17且R=ω²；原全部Hom经K3/K三投影、K/Q反共轭δ和三Ei最小level10404完整枚举，只允许R=ω，矛盾。Hom约定κf=η^-3、κg=η²、κc=κfκg，不与目标twist混号。
+R843–845条件g4几何仍真，但该原来源已被R846排；所有CM域、twist、同源核/次数见原证与归档，不从被排分支作canonical识别。
+
+[R847](../results/R847-original-dyadic-s3-and-genus-seven-lower-bound.md)：原optimal E_f在良好5/7点数6/13迫Q-torsion零，准确消Fw4的cusp常值，故真实L/W=sign⊕std给S3，与R交换且在D/R上仍忠实。g5/6全部分支表：P1的(5,2)/(4,4)/(7,1)由唯一二点轨道排；genus1的(4,1)由A3非零三阶平移排。合R846，原全部generating项g≥7；未判有限总和或AJ非零。
+
+[R848](../results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)：q1:z→2z的原Γ共轭给完整S3商，续原R商得q6:z→6z、X/G=X0(867)、degree18。三个a像是真T2邻点且和0；直线y=mx+n、δ有向判别式给u=m³,v=mX,w=uYδ，目标完整函数域商w²=u(v³+u)[4u²+4un(9−n²)−27(1−n²)²]。原Ω=dv∧du∧dn/(6w)准确；源像degree保持、proper商push给18。Π仍在A原位，未作奇异商projection/canonical同构，后续须实际支付。
+
+## 原完整 critical Hecke
+
+R838完整critical代数A_p=E[t]/t^e、exact=mM及实际dν=a1(t^(e−1)Pcrit Hν)给AJ=(E1β/Eβ)P dν，全部Euler/period、X0/X1归一见原证/归档，不赋单位。实际R=E[[τ]]、x=uτ^e；Cν=bν/w′，lim eτ^(e−1)Cν=dν。全Igusa自扭τ↦−τ迫e=2s_p、u/b偶/C奇；商v=τ²、Cbar=2τC。主极项非零/canonical仍开，未假e2/第一支CM/ordinary。
+
+## 四原中央与同一个Cartier模型
+
+S34/T72/U136/V66、charge17/36/68/33、全部低卷积/39carry/十二尾/末quartic不变；R816/820付E−11 rank≥2及通常全Selmer桥。R824同G0给r+2h≥s+1；R828同K1/C1完整d运输bΘ=b+χ2B4z、βact=βΘ°+apΣvL，χ2落原像未付。低核反射/伴随第二项及Fermat修正全保，不赋q_p(3)单位。
+[固定torsion原注](../notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md) §§1–19保先固定M、真P2,M、CM13全frame和四真Rν。指定非中心trace原点为ανeO；Cν真p²极/全局非零不付原点非零。无exact的固定有限K(X)^pV已排，但p幂+exact真有fνω=hν^p dlogx+dvν，αν=(−2[z]hν)^p。C³返回固定帽；显式Δf保帽/高零/首前jet与C²/C³而首α加1，仅排这些数据自身决定首行，差不保P2^nRν/CM13。四首联合非零/第五伙伴仍开，完整条件及来源见原注/归档。
+
+## 同R、原三真长窗与指定边界
+
+始终M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、十九角和全WD余列；T_M=s−r−13、T_J=s−r。同R高位/全部normal/两13/d₂不拆。
+R834/836原H3三长核、D3/同H2及低行完整保；FH2+eH2单射和临界199κ/48不改全WD/Bost预算。R840 E²H3→2Z的像ker resZ_-、余核z_-≤2，兼容两值定2Z，H*>κ给V2唯一；全提升G2+cF³同c支付第三尾，第四已付前缀和余尾仍用同G*，forcing未付。R837全有限三长/两长预算分别7q(H−r)≤3B_D²+56D、4q(H−r)≤3B_D²+32D；自然47/12余q1/2，旧47/8另付第三长才余q1。各门、所有误差及原十九角/13/39carry见完整归档，不能省。
+R813/822原ResP=γ/6单位及完整γ/6+G_F+B_F=0，GRes读W_sFt²E²R/Y²。R833全D_E像/余核不代高前缀受限像。α*两项、同全局ω、x^(3b+c)尾及r≤11十三尾全保原证与归档。
+[R842](../results/R842-original-gres-double-ramification-transpose-and-joint-prefix-extension.md)的真框d∨H=Hf2−e(DH+(c−a)H)、原λ0/λ1、固定2Z补零、全Serre左端及仿射P值均保。全GRes消失须同ν/同ω0,ω1，不能独立补边界；对更小三长核仅充分。[第一层](../notes/2026-11-16-r842-first-layer-surjectivity-and-actual-restricted-class.md)已满射，剩余指定[b0]∈cokerL_T≅W_T∨仍未知。
+[完整边界](../notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)保b0=−BF+同G的P补偿及D_R/Ξ代表差；十九角真Ft/Ftt、无穷权、所有ramification/conductor不省。t=1整纤维仅在3s>(3b+degYq+1)ord_1F_b，原充分门9s>(D+1)(M_D−r−deg_tQ)未免费满足；h7仅有限Y消去，保Y∞四步链。§11移动Y∞真trace/Newton保2Uτ/U与原J modP²；精度modx^J、J=N*+3+2ordRes(P,Px)，跨p全部W Frobenius项保。
+[负水平全trace](../notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)：原D_Q=(t−tQ)⊂Z、长ℓ≤b，D3=Dx；残数由原D_Q值和S=Tr(1/T_i′)读，二次闭式/所有奇点全付。总D_-≤2b及H3满射已付；V_T需额外T+degD_-<2κ+χ，W_T像未知。[光滑行](../notes/2026-11-16-r842-negative-horizontal-finite-euler-rows.md)保完整jet、双切点消去与节点区别，不能用局部非零替总[b0]。
+[移动水平全分歧转置](../notes/2026-11-16-r842-moving-horizontal-full-ramification-adjoint.md)：仅未吹起moving点且ftunit，e_U=εx^m v、g=ftv。d∨ν=e_U g[w+ε(m−1)−εDx](../ν/g)，负侧rank m−1/核读约化值，正侧2b+1..3b全unit。补零仍同ω0/ω1；不覆盖固定角/奇点，也不付全Q'_T或W_T限制像。当前优先同ν全局左关系/真正兼容核，不再以新增局部行充当forcing。
+
+## 其余未闭门
+
+O4/O6/O7及R364/R561/R654/R712保完整open。E17 Katz同三方向二次项与有限矩不付无穷违反；不外推j0。R768/790/808同R强窗与Δ/p、R815/819/823/825/827、R734/773–801、R812同charge/Smith、R756/758预算177/47及R760三维Bost(0,3)全保归档。b3/b4排除不代b≥5。
+AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条件高度或另一个cycle均不完成。子问题完成即续open，不因时长/阶段结果收尾。

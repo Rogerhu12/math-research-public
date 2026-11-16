@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：8ef0cdc9386544436b5aedfd6c87bd48e467bb67；2026-11-16 01:56:46 UTC核两README无变。实际CI pull 2026-11-16 01:44:26 UTC/52815b1409d1bbae424e7d7948bc27029ce4086a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 01:55:31 UTC仍无环境。最迟2026-11-16 02:25 UTC再实际pull。
+- 最近已读规则提交：057e827bc784a54640eb3b6a1c0c0e2a499af844；2026-11-16 02:08:17 UTC核两README无变。实际CI pull 2026-11-16 01:44:26 UTC/52815b1409d1bbae424e7d7948bc27029ce4086a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:16 UTC仍无环境。最迟2026-11-16 02:25 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,20 +11,17 @@
 
 ## 完整检查点与当前分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-r842-horizontal-adjoint.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
-R1–363、365–560、562–653、655–711、713–848已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算更高亏格原2-normalizer/完整作用，root核证明/实际曲线canonical比较。R848已付原degree18商/最高form；literature续R849全CM pool，root续指定商与canonical比较；下一独立编号R850由root协调。
+[压缩前完整H](notes/2026-11-16-frontier-before-r849.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+R1–363、365–560、562–653、655–711、713–849已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算原CY与模纤维积/canonical对应，root核证明/实际曲线canonical比较。R849完整CM池已付；root续R850光滑中央商/精确循环运输，literature续Schoen真实模纤维积对应；下一独立编号R851由root协调。
 实际CI pull 01:44:26/run43787991025/job133039844842成功，head 52815b14，两README差异空。回执ci/rule-pull-20261116T014426.json，下一02:25前。R818/820/830来源保各证、不复跑；拒推即本地pull后新head非强推重试。
 
 ## 原端点、CM来源与实际曲线
 
 R804/806/811/814原指定z=(1/30)prK twν(eηu∞)，全7/13 good pair、三角色/34δ、Euler/period均保；I_j,-2≠0 iff指定loc/AJ/z≠0。R817有限unit、R818复秩1不付无穷p。R829同q0零；R830原q/q⁴局部向量已付。R831矩阵仅Z02=Z、Z20=−Z，X0系数6^-2、X1的12^-2及1632/816不改、不增端点。R832真Chow/mixed rank0与R841原R纯最高λ均见原证，不能当canonical比较。
 R839 Πtop全CH²平移不变，杀超椭圆/真阿贝尔平移内曲线；原Z=ΣcΠΦ*X=½ΣcΠCerΦ保全实际Hom/次数。属三det≠1的Kimura幂等论证排Picard来源，不假高CH实现忠实。R841 whole g-packet平均/双线性/swap/W4给全部对称polarization Φ=(F,a q0,a q2)，S矩阵L=[[-1,0,0],[0,-1,-1],[0,0,1]]保q4微分4倍、det1。
-[R846](results/R846-original-full-hom-and-genus-four-exclusion.md)已排全部原g4：真实K3下降的H=D/s中reciprocal非零交叉迫Bh∼E17且R=ω²；原全部Hom经K3/K三投影、K/Q反共轭δ和三Ei最小level10404完整枚举，只允许R=ω，矛盾。Hom约定κf=η^-3、κg=η²、κc=κfκg，不与目标twist混号。
-R843–845条件g4几何仍真，但该原来源已被R846排；所有CM域、twist、同源核/次数见原证与归档，不从被排分支作canonical识别。
-
-[R847](results/R847-original-dyadic-s3-and-genus-seven-lower-bound.md)：原optimal E_f在良好5/7点数6/13迫Q-torsion零，准确消Fw4的cusp常值，故真实L/W=sign⊕std给S3，与R交换且在D/R上仍忠实。g5/6全部分支表：P1的(5,2)/(4,4)/(7,1)由唯一二点轨道排；genus1的(4,1)由A3非零三阶平移排。合R846，原全部generating项g≥7；未判有限总和或AJ非零。
-
-[R848](results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)：q1:z→2z的原Γ共轭给完整S3商，续原R商得q6:z→6z、X/G=X0(867)、degree18。三个a像是真T2邻点且和0；直线y=mx+n、δ有向判别式给u=m³,v=mX,w=uYδ，目标完整函数域商w²=u(v³+u)[4u²+4un(9−n²)−27(1−n²)²]。原Ω=dv∧du∧dn/(6w)准确；源像degree保持、proper商push给18。Π仍在A原位，未作奇异商projection/canonical同构，后续须实际支付。
+[R846](results/R846-original-full-hom-and-genus-four-exclusion.md)以实际reciprocal交叉Hom/完整K3来源排全部原g4；R843–845条件几何保真但原分支不实现，全部κ/次数/域见原证及归档。[R847](results/R847-original-dyadic-s3-and-genus-seven-lower-bound.md)付optimal E_f无Q-torsion、W4常值零及真实sign⊕std的S3；与R交换、在D/R仍忠实，完整轨道排g5/6，原generating项g≥7。
+[R848](results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)付原X/(C3×S3)=X0(867)、z→6z degree18。三T2邻点和0给显式目标商w²=u(v³+u)[4u²+4un(9−n²)−27(1−n²)²]，原Ω=dv∧du∧dn/(6w)、像degree及proper push18。Π仍在A原位，奇异商projection/canonical未免费支付。
+[R849](results/R849-original-complete-cm-pool-and-genus-seven-kernels.md)付完整θ(η^kψ0)、k0..17及全部old：R=ω²块准确ε⊕1^6，R=1块零。属七只余(0,5,2;9,0)：JD∼E0³×T²，T signature(1,1)且非E0²；或(2,3,2;3,0)：V0=std,V2=1⊕ε、JD∼E0⁵×E²且E非E0。后者D/c属三étale、D/S3为j0椭圆，与D/R/S3分清；sign核唯一level36 d17。未证剩余存在/原AJ非零，未把非E0幂误称非CM。
 
 ## 原完整 critical Hecke
 

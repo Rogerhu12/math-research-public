@@ -236,3 +236,6 @@
 
 
 [R842 移动水平的完整分歧转置](2026-11-16-r842-moving-horizontal-full-ramification-adjoint.md)：在原未吹起moving水平且ft单位的真实局部块，d=(w+εDx)ι、w=0/3b。完整原配对密度给d∨ν=e_U g[w+ε(m−1)−εDx](ν/g)，g=ftv保全部单位连接。负侧rank m−1、唯一核准确读约化点值；正侧所有系数2b+1..3b为原单位，rank m。原同一ω0/ω1补零得到两行全厚化条件，m1回旧横截式。明确不涵盖固定十九角/奇点，未赋Q'_T/W_T的实际限制像或全[b0]非零。
+
+
+- [R849](../results/R849-original-complete-cm-pool-and-genus-seven-kernels.md)：完整几何E0池恰为θ(η^kψ0)、k=0..17，全部primitive levels/old copies保留；原R=ω²块准确ε⊕1^6，sign仅level36的17-old、六trivial为level2601的2-old，无standard。以真实核的单一CM type强制这一限制，属七六候选四种排除，仅余(0,5,2;9,0)的JD∼E0³×T²、T signature(1,1)且非E0²，以及(2,3,2;3,0)的JD∼E0⁵×E²、E非E0。后者D/c为属三étale商、D/S3为j0椭圆，严格区分D/R/S3；两种只为必要结构，不声称存在、canonical或原AJ非零。
