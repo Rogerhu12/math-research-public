@@ -259,3 +259,8 @@ WDS8的≤4panel/≤5degree/J≤480/N≤322 modewise rational trial只是可尝�
 公开43859287399/1，actualcheckout08f120e3，source159d8fdc/reader858a2368/worker a3c1c6ea/manifest296d3f66；SCI c79f9de9/24767B/bdd8857cf98d3497600b349b05fc81b8aab7441cd7020b6a5f337b6067f774ef，exec48542d9c/31409B/263e6e51aeeb7705b80870af1a6ea5a9936e3efc470a88581696cdd3ece0d3fb，report429B/8e978982。全56605B；大stdout11161346B/e7ab209c仅hash，未读/分块回传。
 原collar5球/witness/chain/count及32fields/44execution全继承；只新152body，153parent/4801交集、18完整门/4targets/11scalar、old0/lost0/finite0。完整五max和m1/m2所有值保WPTSA4de4f5fc/12906B/SHA4f880dce；δ1=8453.721881…、δ2=2121.930735…均false，selected/inverse=null。此是完整科学成功，不是未算；禁止重算或自动扩网，也不证奇异。
 root仅schema/hash核全33fields/18gates、27current/10AST/19history、原全部scope/repair/候选及1580B preflight；无新数值。最后真实pull11:42:53.716692→5b5dd03b，两README diff全空；四回执完整保。下一实算需新解析和资源合同，并继续真实signed有限逆/96/mean/ν/高门。c929c8cf3fad0306b798fe8f02171312e8afa77a读取点入H。
+
+## 2026-11-16 11:52:18 UTC — WRT整项重分解的完整新界
+
+证明9e7c6722efdf37679433f437875b74c3f1a263f8/26894B/SHA7730307f9c42bb87adc41baca7d0a79262946e5c19cd517449325523380bd38d已完整闭合。原full10-word N6恒等中保k1/2，整移k3..5连同旧C6至E3，先真反射/even0投影再同J；sqrt槽数和ordinary dr给p3/2，新S1/6保持原H−4/3，不重乘已含反射factor2。
+原strict C6≈4.388e323仍主导新终端，未删/减upper。完整4端/3070jump/两mean/当前WMT Mc/Mt/Cend与正/root/左receiver只读；whole/reduced各自完整组装后独立比较。7actual/75完整原record canonical9302B/4e7b739f…；7图2/8/7/8/7/4/6=42为新未算目标。root完整读全证，数学0重算；source正在实现，暂不宣称数值改善。1633167ea792ace4cc32331dbdc5ce3d8feb046e两README同已读。
