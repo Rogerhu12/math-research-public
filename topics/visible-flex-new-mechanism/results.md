@@ -482,3 +482,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R529 固定非零平方零叶的原矩阵严格分离](results/R529-fixed-nonzero-quadratic-leaves-and-the-real-positive-matrix-increment.md)：**已证明**穿k0常态的完整水平叶，非退化时原p1严格正、退化时t1严格负，正时往返/重复不能M0。R527实际有限家族由C1误差继承严格正总p1；不排三q全0、横穿曲面或其它真实history控制。
+
+
+- [真正58联合α/R2的status8原返回与闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)：**实际观察完成**，局部SLSQP8/false、nit16/46完整新评价，原谱门仍负，无候选或actual。新增19.9540876秒/0值、累计2902.366570826秒/147值；当前58不变，不授准确全射线不可行，继续原51中自由R1/R2的新模型。

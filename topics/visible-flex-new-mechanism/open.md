@@ -32,7 +32,7 @@
 
 [R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)保同一实际58、原xstar射线和原172盒，准确写U=U0+αV、Xss=B0+αL+α²H+V17y；不要求未存的任意R1二次张量。完整曲率谱可清分母为6/4/8次三门，必须同时保R≥0和Qcross>0，实际G不置1；原未平方PSD仍作真实候选判定。自由A的最优值−C给trace零几何目标，原盒有准确逐角可达区间；同一17y的纤维余量连续并有完整minimax判据，离散失败不能排连续α域。
 
-[完整设计](notes/true58-joint-alpha-R2-original-box-design-20261116.md)、唯一request与新源现提交公开Actions：19变量(α,y17,h)，α[1/64,1/2]，min完整合成物理norm上界h；唯一α1/4初点，原剩余精确盒中点及实际binary64解码盒状态分别记录。一次SLSQP/解析Jac，maxiter160、400完整新评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。原58 CACHE2 selected metric读固定a；新MODEL后固定行尺度、初残差/Jac与真实返回由SOLVE_TRACE/NONLINEAR_RESULT保留。一次准确共同合成/舍入的合格候选才付固定metric/2首jets绑定、至多1全body预测与1原actualpair。request71258B/383d0d45ecd6c617385eae3a4979856db997beb2b1c76029b7e98b7702c037d3、326源hash已绑定；独立源码纸审完成并按实际输出布尔值记录。实际run43880150928/research133343574077、source25c98ff4198cfc10552ddcd0dc9307110a6be8de已进入研究；尚无新科学终账或59，全部费用待真实FINAL。
+[完整设计](notes/true58-joint-alpha-R2-original-box-design-20261116.md)、唯一request与新源现提交公开Actions：19变量(α,y17,h)，α[1/64,1/2]，min完整合成物理norm上界h；唯一α1/4初点，原剩余精确盒中点及实际binary64解码盒状态分别记录。一次SLSQP/解析Jac，maxiter160、400完整新评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。原58 CACHE2 selected metric读固定a；新MODEL后固定行尺度、初残差/Jac与真实返回由SOLVE_TRACE/NONLINEAR_RESULT保留。一次准确共同合成/舍入的合格候选才付固定metric/2首jets绑定、至多1全body预测与1原actualpair。request71258B/383d0d45ecd6c617385eae3a4979856db997beb2b1c76029b7e98b7702c037d3、326源hash已绑定；独立源码纸审完成并按实际输出布尔值记录。该唯一任务已按下述原输出闭账，不重开。
 
 ### 仍须支付
 
@@ -45,6 +45,12 @@
 R74近等距必要式只有其小误差前提满足时才可用。所有随u/v改变的门用当前几何/Jac重建，不复用冻结切向的高度多面体。全部采样通过后仍有连续与非局部义务。
 
 [现有34列局域证明](notes/same-g-body-tangent-columns-and-locality-20261115.md)继续有效；当前末态已由上述入口新峰排除其单独strict-max用途。逐圈Π不沿径向传递、角闭合由水平半转/竖直反射分别支付，但跨区域reach不保。103列支持现已证明；真正新局部自由基仍须独立性/身份说明，未运行不得称可行下降。
+
+### 共同α/R2任务的实际status8与下一自由R1问题
+
+[完整观察](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)run43880150928/research133343574077/report133344023593，source25c98ff4198cfc10552ddcd0dc9307110a6be8de。一次SLSQP status8/false、nit16/nfev46/njev12；原rawα=.2934209846189501/h=63.99998934237297，末scale违约.2445904937714127，trace/det-square仍负。46完整新解析评价，0舍入候选/预测/actual；当前仍58。不授全射线或全51准确不可行，不从callback提升候选。
+
+新19.9540876秒/0值闭，相关累计2902.366570826秒/147值，0overrun；完整新系数、初Jac/残差、固定尺度、末评价及后端原字段保stdout。两job实际pull及README空diff已记H/note。余额580.0459124关闭，不延长原会话。下一在同一原172盒/固定R0态释放R1完整17方向，结合R2的17列；已付完整new_grids字段按原身份读，尚缺L17/全二次交互另付新科学，不把Hxstar,xstar冒全张量。确需R0则完整新值/frame/Π/实际G另建模。全body/原14/准确盒及连续主门仍须真实支付。
 
 ## O4：完整真实第四成本与新首阶机制
 
