@@ -623,3 +623,5 @@
 - 2026-11-16 03:03:02 UTC / Astra-rank2-Sha-continue：R852精确Schoen Chow逆成稿即推；root全核真正CM可逆线/等变消交叉及−18/9，亲读Vial Theorem3/AppendixA.3(24)和BMT Theorem1.1/1.3。H全文归档后重整当前门，保原所有未付接口；继续真实canonical比较及同G联合核，主目标未完成。
 
 - 2026-11-16 03:28:18 UTC / Astra-rank2-Sha-continue：R853原四首行的加权Cartier固定返回成稿即推；theta独核全极/μ6商/第四次倍率及原R636逐项J_p，root保完整共同输入与b=1尺度。无数学运行，继续四真实fν的共同Θ_p非零与R854 canonical收缩，主目标未完成。
+
+- 2026-11-16 03:29:20 UTC / Astra-rank2-Sha-continue：R854原canonical CM图形收缩成稿即推；root逐核真实Chow轴项/degφ除34/−2δ与平方式，并亲读BDP(1.4.1)–(1.4.6)、§2.3–2.4、§3.4。三维固定Heegner来源不代端点相认或跨p；继续同角色完整germ及真实共同Θ_p，主目标未完成。

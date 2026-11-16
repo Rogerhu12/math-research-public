@@ -12,3 +12,5 @@
 - [R852](../results/R852-original-schoen-correspondence-and-exact-chow-inverse.md)：由实际Sym²h1(E0)=L的CM特征分解付C+⊗C−=L，最高M±真可逆且End=系数域；原u=([ω],1,1)与目标σ=(ωx,ω²y,ωr,ω²s)的完整等变图形严格消交叉块。原−18及degree3读出ΓᵗΓ=9Π，故P9=ΓΓᵗ/9、Λ=Γᵗ/9给精确Chow互逆，原Z=ΛZ9及全部Artin/source3/6/12/1632/816保留。AJ正逆−18/−1/18，未把同动机当作R814指定canonical相等或跨p非零。
 
 - [R853](../results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)：原四真实输入加权η=Z^(−p−2)P2^nRνω后，逐付所有额外Z零点抵消及二挠极帽；C³η降入P¹上极帽L=(9,18,34,17)的固定空间。唯一分解ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH，第四次准确C⁴η=−α^(1/p⁴)(x²/y)ω。原η̄共有同一J_p、Θ_p，J_p=A_m/(1−t)^m由R636指定R_p逐项核对，A_m根简单且避0/1。保完整四fν、全部原尺度和M=1范围；固定返回不赋四α不同时零或完整中央非零。
+
+- [R854](../results/R854-original-canonical-cm-contraction-and-threefold-heegner-cycles.md)：同一R814 good pair与原三χ/norm orbit上，Dδ=Γδ−A×0−3(0×A)满足εA Dδ=Dδ、Dδ²=−6；真实收缩Cδ与外积Iδ给CδIδ=−6及mixed投影−IδCδ/6。逐isogeny准确CδΔφ=(degφ/34)H_B，原有限权全保。BDP对称乘积与cup规范给cl(Dδ)=−2δωAηA，故原三维AJ B_j,p=−2δ A_j,p，平方系数+12·34⁴及全部Euler/period/基比齐保。原7993检测付三固定H_j非零、不同finiteχ独立；未付其与R831/R852端点的实际相认或其它p非零。
