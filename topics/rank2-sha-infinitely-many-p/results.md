@@ -322,3 +322,5 @@
 - [R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：同原惰性χ处的实际ℓ²端点、全三old提取及wℓ²绝对号完整，只有02与20反号。真实depth-zero新向量紧支/有限Steinberg Gram与Schur正交给Iℓ=(ℓ+1)/ℓ³；全部L因子付volK1归一(ℓ+1)⁻²，YZZ Haar再给(ℓ−1)/(ℓ²(ℓ+1))。原双新全部非平凡字符适用，仍不以复局部非零支付全局AJ/整格除法。
 
 - [R901 附A](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：真实有限Kirillov格仅除ℓ，邻点球格准确为O[P¹]/OΣ；行列和构造不除群阶的不变泛函ℒ，原端点值1。实际三张量coinvariant去torsion为O、由原端点生成；平均积分的ℓ+1不代表这个自然格中的端点可除，原全球CM/Shapiro格饱和比较仍须另付。
+
+- [R902](results/R902-original-four-block-kernel-and-first-normal-injectivity.md)：原四块核的V1整限制为零分支，通过全局EG=FA真单射到H⁰(N²(−H*P))，H*=min(T,h+ell_eff)；H*>2κ使第一法向值在该完整核单射。原ell_eff≥T−h给实际W_T/Z−二步链，同指定目标/同V1至多一原G；保严格长度、全角帽/charge/F0及其它WD列，未认像满或Euler稳定。

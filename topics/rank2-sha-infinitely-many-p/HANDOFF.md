@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：ffae5cb5f64004a4239f224e070aed320f7774fb；2026-11-16 15:48:10 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:10 UTC再实际pull。
+- 最近已读规则提交：7af9e725e58983a740d3cb53c66b73166914e247；2026-11-16 15:53:35 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-inert-local-period.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–901及R904–905已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-inert-local-period.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–902及R904–905已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀（缺口保档），theta续四原低多项式，literature续原端点s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -24,7 +24,7 @@ root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同P/F germ精度倍增已证；run43883945027，P job133356889710、F job133356889202运行。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)原完整M2改固定PARI有理基已证基不变性；同mfinit整矩阵/QQ/全前缀/seed与版本齐，旧全部rank/CRT/最终认证保。run43888054599已运行；P job133371441947、F job133371442286，无PASS。
 
-- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)同P固定split素数Dixon已证并请求：p1000000033/N128/k6、三根同chart、每支一次逆/全窗及原char0证书齐；run43895102858/job133396398465已运行，无PASS。
+- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常结束：三嵌入rank904/free863及全部1226行modℓ¹²⁸均过，3827bits不足有理恢复，无map PASS；已请求同ℓ1000000033/N256/k6。
 
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120证书保；首run43898903977启动路径失误已修；新run43899744213/job133412821010数学步骤运行，无PASS。
 
@@ -57,14 +57,11 @@ R863/H22、R876/879及R884A–I全部trace/new/cross/质量与高位缺陷保完
 
 ## 第三门：同P/R/S与全实际有限类
 
-原P134/十九角/charge40/conductor10980/39carry/WD与M、TM/TJ全按完整H；τ1 r3/s2h2、1<ell≤h−1。原全p³才付同R的J/p²；ER首−11、E²整h+ell/ E³同ξ及strict f0交数3不变。
-o(R)∈W/(V1+J3)保全finite/H¹；J3=(E+40)⁻¹V3、交V1=V4。ΠJ0不删β1；native λ/τ1同γ项详见完整H，β1必要W0≥s+1。
-quartic余j≤2，j0 H¹0、j1/2≤3/14和两真Laurent行保；A4不是整O_H−。零纤维仅Y²(Y−1)退化，与ρ−重合一行，完整Gauss/G1/K1与4z−≤1+6j仍按档，不能改实际有限像。
-
-[同R零类反门](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：oR0才真返FH+J，必要d≥κ+s+1；结合原预算和h≤3κ+8b，得14s≤3BD²+8D−26−12j。因此p/D²>141/28原渐近窗（含47/8）迫oR非零，仍不排完整p³。
-[第二核刚性](notes/2026-11-16-r872-second-kernel-finite-class-and-first-source-rigidity.md)：actual三长s及ell2/3补项齐；d<κ+s+2时K2零类返V2+J3但保联合β1，遂含t²；同P的完整o类固定整[t]R六次多项式。
-[R888](results/R888-original-factor-lift-invariance-of-the-actual-finite-class.md)：合法R491整因子提升的完整Δ约化属V3，o(R)/整[t]R不变，ξ变化非自由。
-R890全TF伴随模π/固定角/∞/非monic/同R Cech reader均已付，完整公式保档；不添M零行，实际o(K2)未定，不再重复局部像分类。
+完整P134/十九角/charge40/10980/39carry/WD与TM/TJ保最新完整H。全p³才付同R的J/p²；ER首−11、E²全短段/E³同ξ、strict f0成本3不删。
+oR保全部finite/H¹，J3交V1=V4；j0 H¹0、j1/2≤3/14，A4不是整O_H−。零纤维Y²(Y−1)与ρ−一行重合，β1全联合值保。
+R872同R零类仅在14s≤3BD²+8D−26−12j可能；47/8窗迫oR非零而不排p³。K2零类在d<κ+s+2返V2+J3含t²，整[t]R由同o类固定。
+R888合法整因子提升不改完整oR；R890全TF/adj/固定角/∞/Cech reader均保，未加M零或付o(K2)。
+[R902](results/R902-original-four-block-kernel-and-first-normal-injectivity.md)原四块核的V1=0分支真单射H0(N²(−H*P))，H*=min(T,h+ell_eff)。H*>2κ时G↦V1单射；ell_eff≥T−h给真二步W_T∩H0(N³(−TP−Z−))，同指定目标/同V1至多一源。须保T−h>κ、T>3z−、3b<p/F0非零和原qsrc H3全部帽，未付像满/WT类或删其它WD列。
 
 ## 其余原门与同步
 

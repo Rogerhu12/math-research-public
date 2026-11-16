@@ -57,7 +57,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - 旧 F run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa 于15:27取消；[R904](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)付k2矩阵1021×852在1000000007满列秩的完整权8/2比值排除、条件权6截面极除子≥120；k4仅84素数/2512bits/rank1116，无PASS。原8ΔC³=HB²(A²−17ΔB²)²和末端612(k+6)不变，不假 Manin1。
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同原 Newton germ 全残差/唯一性已证。run43883945027，P job133356889710、F job133356889202，尚无PASS。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)同一 PARI 完整有理 M2 基/QQ/全前缀/seed及全认证已付。run43888054599，P job133371441947、F job133371442286，尚无PASS。
-- 继续针对同矩阵重建的实际成本；R899的固定split素数Dixon算法/实现已完整证明并请求公开执行（p1000000033、N128、k6）；run43895102858/job133396398465已运行，source1c20b804c0c7e8b7ce51ac0d2a8e76a26a93435f，尚无PASS。只有原首项/三嵌入/完整特征零椭圆恒等式通过才认原 map；预算或 chart 未成功不能排映射。
+- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常完成：三嵌入秩904/free863，全部1226行modℓ¹²⁸为零，三根恢复过，但3827bits仍不足有理重建，未到char0证书。已立即请求同ℓ1000000033/N256/k6，原全部条件保持；只有最终原证书通过才认map。
 
 
 - [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120完整证书保；首run43898903977/job133409854237在数学开始前因runpy路径失败；修复source6a1a9b66b2a0cfaa9e8dbde3692ad3a023793af4的新run43899744213/job133412821010已进入数学步骤，无PASS。
@@ -132,7 +132,7 @@ R840须用同Kcorr/Hcorr支付两个高前缀，再用同F²L1付第三3η/第�
 当前未闭范围是原R836的2κ<T≤3κ，不能拿quartic的另一范围冒已付。
 即使第四短段延到T−h，也不能从V0,V1,V2∈V_T推V_T对E稳定；
 第三长行仍缺同E³G的ell_eff..T尾。V1=0分支中EG=FA、A∈H2，只有A|C=0才回已排块。
-R899固定素数重建实现已付，deep继续这个实际镜核。
+[R902](results/R902-original-four-block-kernel-and-first-normal-injectivity.md)新付同原四块核中V1=0分支单射H⁰(N²(−H*P))，H*=min(T,h+ell_eff)；H*>2κ真使G↦V1单射。ell_eff≥T−h时进一步进入W_T∩H⁰(N³(−TP−Z−))，同指定完整目标/同V1至多一来源。所有T−h>κ、T>3z−、3b<p、F0非零和qsrc H3返回/真帽仍需成立；未证明实际像满、Euler稳定、指定[b0]消失或删其它WD列。继续非零V1的同一二步链。
 
 ## 持续执行
 
