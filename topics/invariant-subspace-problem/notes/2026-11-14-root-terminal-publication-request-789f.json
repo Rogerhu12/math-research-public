@@ -1,14 +1,15 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "041d24ac44f06ec6048681fa6b55fe70a95b3e27",
-  "createdUtc": "2026-11-16 14:58:26 UTC",
-  "message": "ISP R150: prove two-round stability and complete 210-column parameter presentation",
+  "parentCommit": "cfca551607c84a23b8f386290305284b6d2b5839",
+  "createdUtc": "2026-11-16 15:02:28 UTC",
+  "message": "ISP R150: prove original characteristic-zero two-round closure and complete 970-column presentation",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-originalE-two-round-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/results.md",

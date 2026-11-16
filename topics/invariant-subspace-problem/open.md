@@ -1,5 +1,7 @@
 # 未解决的问题
 
+**[原数域完整临界参数模也至多两轮稳定](results/R150-appendix-original-characteristic-zero-two-round-closure-and-finite-parameter-presentation.md)。** 直接从未压缩116原种子出发，原E二次/三次恒等和完整comm列给Cl_N(L0)=L2；保留1070字面列，删十个原E已知零comm及其像后≤970列。整个原Bell商严格等于此参数模cokernel，没有借用有限域210换源，也未证明商为零。继续真实来源构造与成员性，固定数域逆/全部参数分支均保留。
+
 **[原有限域临界参数模的稳定闭包至多两轮完成](results/R150-appendix-original-parameter-stable-closure-stops-at-two-and-complete210-presentation.md)。** 原二次算子全自由十轴→第一轮、原三次降次和三类词序误差→第二轮，严格给Cl_N(P0)=P2；无需假第一轮已稳定。原36种子完整首轮106列加24权9/80权10，形成整个原Bell临界商的10×210呈示。新增104列有完整18源递推公式，尚未另生成新数组；继续实际逐列生成与目标成员性。未证明商零、最小停止轮数或特征零单位。
 
 **同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
