@@ -37,3 +37,5 @@
 - [R867附录B](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：同原Hom格两整unit r、r²−2及整逆有完整3×3乘法表和原K[b]系数读取；全部H_ab真下降F，首系数c_ab非零且不能从实际微分删除。R870严格证书保(n c_ab)germ、n³H_ab³，成功用整逆返回nΞ0，未知n的可积集合不变；两unit实对数独立及固定范数平衡界已证，不预报低权成功。
 
 - [R867附录C](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原Cv到Y′²+vY′=X′³−7v²的两条显式对偶3同源、微分1/3及全部9/27常数已付。Ψ=φΞ0/3有度数degΞ0/3，但最小分母仅n0|nΨ|3n0，整性未定；同M_k完整新证书成功后以dual直接返回nΞ0。Petersson规范为原指数3672与目标实际面积，选unit可仅用|Gj|²Nj比。
+
+- [R864附录A](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：原e=18−7a与η=324+126a+49a²整互逆，η²=−av，故同一目标小参数v_sm=e³v=7−18a²/17满足x³−21x²+147x+1/17。显式整单位同构保原n/次数/全部Artin，微分变ηHi；形式参数(nη)³v_sm=n³v不变，不假称度数或germ改善。
