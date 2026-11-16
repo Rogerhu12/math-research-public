@@ -1,0 +1,146 @@
+{
+  "format": "r150-local-original-rank-three-pencil-execution-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-mean-rank-three-exact-pencil-789f.py",
+      "blob": "1608cd3261aa69693632d255baebe6160a2c49cd",
+      "sha256": "0c65c893bd73f190a5c0f92bf33e4bcdf6e734a530578ddca93a8a6d46a272ff",
+      "bytes": 10909
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-pencil-complete-minor-coefficient-gates-v2-789f.py",
+      "blob": "3b68f6ac26e51d16cc43de3c38545c4a182812a6",
+      "sha256": "f3230cf14f9dde9f27926b0a7587714f746b757e608574cd6f1aa092b54100a1",
+      "bytes": 9683
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-sextic-pencil-rabin-certificate-789f.py",
+      "blob": "4c8e22acb09aa5359909028d44e6d17e526a3d32",
+      "sha256": "59710ac30ef050620a694c72d1b81ed4a1fe267d480699a208bc5ab7d54b7ec9",
+      "bytes": 6054
+    }
+  ],
+  "inputManifest": "notes/2026-11-16-r150-original-rank-three-pencil-inputs-789f.json",
+  "stages": [
+    {
+      "name": "exact-full-pencil",
+      "startChunk": "b1be49",
+      "sessionId": 6405,
+      "completionChunk": "a308c0",
+      "completedUtc": "2026-11-16T07:03:41.379556+00:00",
+      "exitCode": 0,
+      "elapsedSeconds": 127.39067774399882,
+      "maxResidentKiB": 126800,
+      "binding": "39e2ef818d36588618292515fabf94615f3e7a64f1d047ea25c218e3987c9038",
+      "receipt": {
+        "bytes": 2155,
+        "sha256": "1ca061bbcd4dd4e2503e8492b2d0f719e07e6aaca093e89b9360bd02d81c416e"
+      },
+      "outputs": [
+        {
+          "role": "inverseCandidate",
+          "bytes": 489658,
+          "logicalBytes": 994549,
+          "logicalSha256": "5911ec676a454761bee10819fbd27609f2c86258d4cd4473b2f2cd5204b29f9a",
+          "path": "complete-original-pencil-constant-inverse-candidate.json.gz",
+          "sha256": "5c31d7059d0cde2ed4ca9d4b4488394033cd03a122f1f5aa0648b857a650fba3"
+        },
+        {
+          "role": "canonicalPencil",
+          "bytes": 2265268,
+          "logicalBytes": 4595018,
+          "logicalSha256": "75c485c490d5f8f1918f241c734e49600d1ce8298a8631ac77151a9b1902ffff",
+          "path": "complete-original-canonical-four-matrix-pencil.json.gz",
+          "sha256": "60e60c1683607569b8f58a62071f7e86f61ee2e9bdfc205e98a5d4108b3185d5"
+        },
+        {
+          "role": "sextic",
+          "bytes": 7775547,
+          "logicalBytes": 15633428,
+          "logicalSha256": "685cc84281d7e01abbd0302912437a5aab6ce997ed075a51201370df744ec354",
+          "path": "complete-original-rank-three-pencil-sextic.json.gz",
+          "sha256": "3fc2d9553563143a17032b2b432c81bf15a6dafe780424fe2d58232c883a6e5c"
+        }
+      ]
+    },
+    {
+      "name": "complete-minor-coefficient-gates-v2",
+      "startChunk": "759693",
+      "sessionId": 49624,
+      "completionChunk": "fa79a1",
+      "completedUtc": "2026-11-16T07:07:34.306099+00:00",
+      "exitCode": 0,
+      "elapsedSeconds": 10.488109558005817,
+      "maxResidentKiB": 85524,
+      "binding": "d73ed9dc675a00081cea88a34f47fcc617db89aba1c7df5e56427f9168c641ba",
+      "receipt": {
+        "bytes": 1854,
+        "sha256": "0c035f652464137bb2bd392c9504cc5fb1297ae285309295cbda5aa9b42453d2"
+      },
+      "outputs": [
+        {
+          "role": "fourth",
+          "bytes": 37826,
+          "logicalBytes": 136184,
+          "logicalSha256": "704a5d422c4e9d72b34b93a273a923aa255cc072231d45bf0fe160c4ad8d1c31",
+          "path": "complete-original225-fourth-pencil-minor-coefficients.json.gz",
+          "sha256": "a8847ce10e8dab3350a162d1a00cd63a8ba140090300e1fdc7bb82f8a86db1fc"
+        },
+        {
+          "role": "fifth",
+          "bytes": 7560,
+          "logicalBytes": 21433,
+          "logicalSha256": "8f2bb56859458a259170a9f5440a00371a0de97ab16badab9a30e5d6b1b91267",
+          "path": "complete-original21-pencil-cofactors-plane-coefficients.json.gz",
+          "sha256": "02816896848ad5b6e40c7703d0f38a442da0b6abe17c919d0399507e2b2c889f"
+        },
+        {
+          "role": "factorization",
+          "bytes": 1403,
+          "logicalBytes": 3245,
+          "logicalSha256": "9fffbc82778c464c4e9e60c65a8a104f4385ec003cbe5ea37c9b311f91536b8a",
+          "path": "complete-original-pencil-sextic127-factorization.json.gz",
+          "sha256": "9c92e8d2dd0452d27e0eedbf2ffe8c246aebd6aea3f89a66bbd97ca6b9ba3935"
+        }
+      ]
+    },
+    {
+      "name": "explicit-full-degree-rabin",
+      "completionChunk": "ab630e",
+      "exitCode": 0,
+      "elapsedSeconds": 0.00854849600000307,
+      "binding": "dbceaff1278f156ef40ef317b7d363faeba39079aeefd0177f761ca33a8e231f",
+      "receipt": {
+        "bytes": 782,
+        "sha256": "14f1cb0c98667fb0b27d701f831dbadf62f53a1b9840702a5bcecaaac577c128"
+      },
+      "certificate": {
+        "path": "complete-original-sextic-irreducible-line-rabin-certificate.json.gz",
+        "bytes": 1130,
+        "sha256": "64cc34b338a0256d46aed1bc11789ba8950a8ae5e8d53b4d4c12fc95c8b1d12c",
+        "logicalBytes": 2316,
+        "logicalSha256": "5d8632ae101bd293971416820116558e03aaf08bf69dadb6cf20c23466b50b74"
+      }
+    }
+  ],
+  "historicalFailure": {
+    "sourceBlob": "21e642af2bd69a28df3e4e647d49fe7ce58e4feb",
+    "sourceBytes": 9661,
+    "sourceSha256": "db1518f56a05f7dbb840836e6db838a3083d0a06fbf3949335f96d51a3631ae4",
+    "startChunk": "5ca535",
+    "sessionId": 83245,
+    "completionChunk": "f205bb",
+    "exitCode": 1,
+    "elapsedSeconds": 0.5975830610041157,
+    "error": "Object of type fmpz is not JSON serializable",
+    "receipt": {
+      "bytes": 508,
+      "sha256": "7b2c0a239f68fa0320477df9442bca8e9d7d775a8403494d001fb3ed11531302"
+    },
+    "completeResultClaimed": false
+  },
+  "arraysCommitted": false
+}
