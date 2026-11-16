@@ -438,3 +438,185 @@ $\pi_n(\mathcal E)G$ 是上述同来源迭代的线性组合，仍在 $K$ 中。
 R836 的 $D_3$ 与同一来源限制序列，
 R840 的第二法向前缀，以及 R902/R903。
 本篇为精确代数与原格证明，没有新增数学运行或数值证书。
+
+
+## 8. 与原指定 GRes 的完整反馈：只剩两个实际分歧迹
+
+本节保持 R842 的同一非固定分歧行，不把有限值换成任意新行。
+记 $f_j=\mathcal E^jF$，特别 $f_1=e$、$f_2=\mathcal E^2F$，并置
+$$
+W_s=t^{r+1-s}(1-t)^{3s},\qquad
+c_s=\frac{3(-1)^s}{17},\qquad H_s=c_sW_sF_t^2.
+$$
+对原同来源 $G\in\mathcal H_3$ 定义
+$$
+\boxed{
+\Lambda(G)=\mathfrak G_F(q_{\rm src}t^rG)
+=\sum_{Z^\circ}\mathcal R_{F,e}
+       \bigl(H_s\mathcal E^2(q_{\rm src}t^rG)\bigr).
+}
+\tag{30}
+$$
+$\mathcal R_{F,e}$ 使用 R842 的有序方程 $(F,e)$ 和
+$\Omega_{\log}=dt\wedge dY/Y$。
+$Z^\circ$ 是同一个非固定有限开集；在其余有限局部因子上的行按原定义为零。
+所有剩余域迹、非约化结构及奇点完整交局部代数均保留。
+原固定边界补偿 $\mathfrak B_F$ 没有在 (30) 中被认成零。
+$q_{\rm src}$ 仍是 (2) 的实际余因子，其所有 Euler 导数都保留。
+这里两个 $t^r$ 的来源不同：$W_s$ 中的外权来自 R822(8)、(12) 的原 weighted Cartier 构造；(30) 中另一个 $t^r$ 来自 R822(20)、R842(9)、(12)–(13) 的实际来源返回，所以后文总权 $t^rW_s$ 必须保留。
+
+置
+$$
+m_i=\Lambda(\mathcal E^iF^3).
+\tag{31}
+$$
+
+**命题 4。** 这些实际标量满足
+$$
+\boxed{m_0=m_1=m_2=m_3=0,}
+\tag{32}
+$$
+而下两项准确为
+$$
+\boxed{
+m_4=90c_s\operatorname{Tr}_{Z^\circ/k}
+ \bigl(t^rW_s q_{\rm src}F_t f_2^2\bigr),
+}
+\tag{33}
+$$
+$$
+\boxed{
+m_5=c_s\operatorname{Tr}_{Z^\circ/k}
+ \bigl(t^rW_sF_t
+ [630q_{\rm src}f_2f_3+
+ 180(\mathcal Eq_{\rm src})f_2^2]\bigr).
+}
+\tag{34}
+$$
+这里 $\operatorname{Tr}_{Z^\circ/k}$ 是实际有限代数中的乘法迹，
+不是只对约化点取值之和。特别 (33)–(34) 不断言任何一个迹为单位或非零。
+
+**证明。** 在原完整交商 $\mathcal O/(F,e)$ 中，Leibniz 展开
+$\mathcal E^j(F^3)$ 的每个非零候选，必须让三个 $F$ 因子各被微分至少两次。
+因此
+$$
+\mathcal E^jF^3=0\quad\bmod(F,e)\quad(0\le j\le5).
+$$
+第六次只有分配 $(2,2,2)$，第七次只有 $(2,2,3)$ 的三个排列，故
+$$
+\mathcal E^6F^3=90f_2^3,\qquad
+\mathcal E^7F^3=630f_2^2f_3
+\quad\bmod(F,e).
+\tag{35}
+$$
+由 $\mathcal E(t)=0$，
+$$
+\mathcal E^2(q_{\rm src}t^r\mathcal E^iF^3)
+=t^r\bigl(
+q_{\rm src}\mathcal E^{i+2}F^3+
+2(\mathcal Eq_{\rm src})\mathcal E^{i+1}F^3+
+(\mathcal E^2q_{\rm src})\mathcal E^iF^3
+\bigr).
+$$
+这逐项给 (32)，并在 $i=4,5$ 时分别留下
+$90t^rq_{\rm src}f_2^3$ 和
+$t^r(630q_{\rm src}f_2^2f_3+
+180(\mathcal Eq_{\rm src})f_2^3)$。
+第二导数项是在同一个完整商中为零，并非先丢余因子导数。
+
+相对于 $\Omega_{\log}$ 的真实 Jacobian 是
+$$
+J_\Omega
+=Y(F_te_Y-F_Ye_t)
+=F_tf_2-e\,\mathcal EF_t
+\equiv F_tf_2\pmod{(F,e)}.
+\tag{36}
+$$
+对任意完整交有限局部代数，标准 Jacobian–Grothendieck 留数恒等式为
+$\mathcal R_{F,e}(J_\Omega u)=\operatorname{Tr}(u)$。
+本处的分子实际含有这个 Jacobian 因子：
+例如 $F_t^2f_2^3=(F_tf_2)(F_tf_2^2)$ 模 $(F,e)$。
+所以直接得到 (33)–(34)。
+这一步没有除以 $F_t$ 或 $f_2$；即使它们在原非约化局部代数中非单位，
+恒等式仍成立。逐个局部因子作剩余域迹并相加即得全文公式。证毕。
+
+### 8.1. 六维反馈的指定行只增加两个同源原点 jet
+
+写 (23) 为
+$$
+Q_f(Z)=Z^6+q_5Z^5+\cdots+q_0.
+$$
+同一个零纤维四矩计算给
+$$
+\boxed{q_5=-45+\frac{6f_2(P)}{\gamma}.}
+\tag{37}
+$$
+确实，$\prod_{n=0}^9(Z-n)$ 的次高系数为 $-45$，而
+$$
+\sum_n n^4c_n
+=(\mathcal E^4F^3)(P)=36\gamma^2f_2(P).
+$$
+除以 (24) 的 $6\gamma^3$，正得 (37)。
+
+对任意 $G\in\mathcal H_3$，记 $a_i=a(\mathcal T^iG)$。
+由 (7) 归纳得到完整算子恒等式
+$$
+\mathcal T^jG
+=\mathcal E^jG-\sum_{i=0}^{j-1}
+a_i\mathcal E^{j-1-i}F^3.
+\tag{38}
+$$
+因此 (32) 给
+$$
+\Lambda(\mathcal T^jG)=\Lambda(\mathcal E^jG)
+\quad(0\le j\le4),
+$$
+$$
+\Lambda(\mathcal T^5G)=\Lambda(\mathcal E^5G)-a_0m_4,
+$$
+$$
+\Lambda(\mathcal T^6G)=\Lambda(\mathcal E^6G)-a_0m_5-a_1m_4.
+\tag{39}
+$$
+同时，仍对同一个 $G$，
+$$
+a_1=
+\frac{(\mathcal E^5G)(P)}{6\gamma^3}
+-\frac{6f_2(P)}{\gamma}\,a_0.
+\tag{40}
+$$
+将 (37)、(39)、(40) 合在一起，$f_2(P)$ 的两项准确相消，得到
+$$
+\boxed{
+\begin{aligned}
+\Lambda(Q_f(\mathcal T)G)
+={}&\Lambda(Q_f(\mathcal E)G)\\
+&-\frac{(\mathcal E^4G)(P)}{6\gamma^3}
+       (m_5-45m_4)
+-\frac{(\mathcal E^5G)(P)}{6\gamma^3}m_4 .
+\end{aligned}}
+\tag{41}
+$$
+这是实际来源内的恒等式：
+$\mathcal E$、$\mathcal T$ 和它们的多项式都保 $\mathcal H_3$，
+(2) 的同一个 $q_{\rm src}t^r$ 返回保持原次数和全部角条件。
+没有添加一个新物理来源，也没有把两个原点 jet 当成独立可选参数。
+
+若 $G\in\mathscr A$，$Q_f(\mathcal T)G$ 的整个零纤维多项式为零，
+但它仍可能不是 $K$ 的元素；不能据此删去 (41) 左边。
+只有在已经证明 $G\in K_\infty$ 时，定理 3 才给
+$Q_f(\mathcal T)G=0$，于是 (41) 成为该真正稳定子空间上的必要关系
+$$
+\Lambda(Q_f(\mathcal E)G)
+=\frac{(\mathcal E^4G)(P)}{6\gamma^3}(m_5-45m_4)
++\frac{(\mathcal E^5G)(P)}{6\gamma^3}m_4.
+\tag{42}
+$$
+(42) 不声称 $\Lambda(G)$ 为零，也不声称 $m_4,m_5$ 已被原四中央决定。
+
+对原非稳定 forcing，必须保留 (41) 的完整左边、同一
+$K_{\rm corr}/H_{\rm corr}$ 高前缀及 R842 的全边界联合条件。
+$\mathfrak B_F$、原点短尾、十九角和 conductor、物理余因子的框权、
+三个十三行带、同 $R/S$ 及下一精度均不因 (32)–(42) 消失。
+这份公式把反馈实际接到指定 $\mathfrak G_F$；
+它没有把四条原中央零传播给 $\mathcal T^jG$。

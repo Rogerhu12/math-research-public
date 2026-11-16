@@ -346,3 +346,5 @@
 - [R909 §7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：原F17实际映射已认证：公开run43906594646在ℓ1000003/N512完成完整1429行、QQ、同PARI高基及原权60全部0..6120恒等式；原微分/∞点与全部角色保持，dF≥1080。完整result hash5193c929…4831f；未认P/RR或原shadow已付。
 
 - [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
+
+- [R907 §8](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹；同Qf(T)公式保两实际原点jet及−45项，不除Ft/f2、不删非稳定来源的左边或边界。

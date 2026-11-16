@@ -492,3 +492,5 @@
 - 2026-11-16 16:55:22 UTC / Astra-rank2-Sha-continue：R910同原可分特化和唯一U线性子结式恢复完整即推；新本题.github/workflows/rank2-sha-original-shadow-rr-r910.yml替换实测gcd卡点，保原genus19全部四块/全尖点/两Atkin/205行和DS返回。只请求真实执行，无预报RR PASS；旧任务及三理论门继续。
 
 - 2026-11-16 16:59:10 UTC / Astra-rank2-Sha-continue：R910首run43912835484实际35.5秒RecursionError，亲读全栈定位Sage子结式回转多元环的大表达式编译；改直接一元系数向量/仅两系数，立即推送重执行。原Phi17/完整关系/Atkin与RR门未变，无PASS，继续原三理论门。
+
+- 2026-11-16 16:59:38 UTC / Astra-rank2-Sha-continue：R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹；同Qf(T)公式保两实际原点jet及−45项，不除Ft/f2、不删非稳定来源的左边或边界。完整证明即推，继续原高前缀/非稳定forcing；RR接口修复已重请求。

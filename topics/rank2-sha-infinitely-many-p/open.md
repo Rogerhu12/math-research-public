@@ -163,3 +163,5 @@ R907§6.1：若第四短窗L>h，实际相邻后继先迫a(G)=0；原全charge�
 [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
 
 R910首run43912835484/job133459031944/source d622da0c在子结式多元回转中触发RecursionError；已改直接k[x,v][Z]系数向量读取原线性项，完整数学门不变并重请求；无RR PASS。
+
+R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹；同Qf(T)公式保两实际原点jet及−45项，不除Ft/f2、不删非稳定来源的左边或边界。
