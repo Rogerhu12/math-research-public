@@ -369,4 +369,9 @@
 ### 2026-11-16 23:11 Asia/Taipei — serre-public-astra-20261115
 - R905首run43892405424/job133387056768未入数学核，真实失败是R827必要包artifact_name误写；API核实ID14221081225/ZIP a333e11c和tar f89b9401均原样有效。
 - 只把请求名改为serre-R880-six-Dstar-source-intake-43854607823-1；core/helper/wrapper/method/workflow无diff，resume仍null后重派。R902已推dbfb172d并受理R901固定126树。
-- 本push规则：恢复worker真实pull并比两README后记准确commit/UTC；已核439d4f63两SHA无diff，主目标OPEN。
+- 本push规则：公开Actions真实pull至88eddc3c2044013b993ce4e8a43b2546094d53fe（2026-11-16T15:11:37.459545+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:21 Asia/Taipei — serre-public-astra-20261115
+- R913完整纸证单独登记：实际αp给非零Cartier商泛函，其k_−层与缩放原微分的k_+层分清；两CM的Θ关系及原level6/Hecke全部标度固定。
+- Gross/Oda/Cais/EP原式已读；未把同谱当指定CM配对非零，原a_h/normal/J32/height仍缺。R787真实exit124检查点正纯IO读取，R905二次actual complete正独立读七证书，H逐字归档。
+- 本push规则：公开Actions真实pull后比较两README并记录实际提交；root6979d793/topic35f82f3d，主目标OPEN。
