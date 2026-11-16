@@ -118,3 +118,7 @@
 ## R549 — actual231当前契约遗漏、来源必要超限与实际保留
 
 **已证明本次真实终态、已返必要与源码控制流；未付数值接受。** [R549](results/R549-actual231-declared-model-contract-and-source-readback-overflow.md)30740/5e79，run43865772589/head05ae，compute133293818912 failure/report133300575212 success，两日志geometry各唯一。387源实际准备385109/c78b complete=true/exit0；source必要102413/df6e超90K，只返1368/b358/70，而科学45129/a1a5完整。原fresh withJ/norm14074125.72142333返回后system本run旧字段KeyError，QR.196153913s、owner/compiler/cache/replay/model/FD/fullDN全未起，不推缓存收益或tol失败。全原错误/未访/29missing/八空catalogue/资源与两正文身份保；三registry quiet真，但cleanup实际removed=false，原source范围不完整，留raw至runner销毁，无accepted父。新层须实读完整旧overflow并核identity，保旧70与false，再具名完整逆返回，不抬限或从SHA补未返。
+
+## R546 — actual230来源生成中止及完整已返范围
+
+**启发式/数值证据：完整官方实际记录与冻结源码控制流归责，没有新数学成功。** [R546](results/R546-actual230-source-materialization-stop-and-complete-returned-scope.md)23282/0ee9，run43867442383/head9f2b，compute133299541234/report133300630069 failure，两日志exact各唯一。入口actual inner100869/0561、derived205147145/5be5、唯一原钟形成；535仅合同，generation index6/R544非零，前六child0由真实顺序推出但各receipt未全返，内部异常/前沿不猜。12处缺dispatch、三个未生成reader与cleanup入口缺失，C/far/453/450/closed/同C/精化整个后缀未起。仅body485/4b36、4478/7ec4（无末LF）、8665/d2c9三个实际scope，不能合成全部来源/科学complete；composition110653只是原件非必要测长。旧owner空登记quiet不冒新全链quiet，清理未能装载exit2、未执行删除，不冒skip，无接受父。R559/235独立修真实冻结源与早期完整失败读回；230已跑源不改。
