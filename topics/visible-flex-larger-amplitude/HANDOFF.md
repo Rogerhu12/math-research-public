@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 05:39:53 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 3f08ce43b88afe0a8bab96a5ab06316c06d8b01b。
+规则同步记录：2026-11-16 05:45:13 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 77682d9e2408a3a0a6096f4a7a74d112fe6a9fe9。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -30,7 +30,7 @@
 
 ## 恢复检查点与重要终态
 
-本次压缩前全部H在提交3f08ce43b88afe0a8bab96a5ab06316c06d8b01b的同路径（其中保原f7b46ef6及更早检查点）；其中完整保留旧H/open/log/results检查点、所有原参数、失败/未返/未访与来源。当前open§4–6逐字保持；现用接口/完整证明由results索引追溯。
+本次压缩前全部H在提交77fae38c42e6247b70abbce1f1c81dd26a4b5ff5的同路径（其中保原f7b46ef6及更早检查点）；其中完整保留旧H/open/log/results检查点、所有原参数、失败/未返/未访与来源。当前open§4–6逐字保持；现用接口/完整证明由results索引追溯。
 [R412实际195](results/R412-actual195-finite-root-tangent-resource-partial-before-positive-current-J.md)：零H5063.5455秒norm0；正1/64总18000钟停stage368/rawCell5/rawSegment7，J/residual/trial未返，R273/FD/fullDN/final/audit未起。原224已批、primal未重跑；quiet真清，不是数学拒或接受父；完整词/地址与来源见正文及3f08ce43b88afe0a8bab96a5ab06316c06d8b01b旧H。
 R432实际200真8交接/20eligible trial但必要超90K真70，末carrier失，206从真98重做；R420实际197105far完整、m212资源partial，其余及native未起，quiet后清。R439实际202第三binary64 unit未过只初猜；R424实际199类型歧义/audit560/576，204仅原typefix。
 
@@ -52,10 +52,10 @@ R454/20347abf与206/e8e4be9f保真98父、39八组/108pins/全17α/原钟，实�
 
 ## 当前接续与未推重做
 
-临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
-- exact：唯一207/208终态；R479三件本次刊（formatter689517df/proof31a25a19/generatorb9887b25），固定必要语义相邻分块/实际地址与同trial相等子记录/真pair保全；原整表行序和全部值/错误保，不保证90KB。213完整接线/计划/参数及workflow待交全文，R480实际唯一owner仍exact；R455/206与R472/210已刊，不重取其日志。
-- geometry：唯一209及未来212/R478终态；R476接口/helper已刊00831470；入口9a9dbfa8已刊；run43810550597/source9a9dbfa8本次绑定。只depth24→2工作参数及已刊R477完整point/stack，32bits只work、候选全保/fresh far/原末门，不保预算足。205/207/209冻结原24/32/1M。
-- amplitude：唯一204及211/R475终态；R453/205本次刊后不重取；续查R481准确族/区间责任。211最终六件已完整核，先刊generator/plan/recipe/interface（846a5d0c/4d197084/1a949e87/ee2c4c32），真实168=147public+11历史view+10当前view，补原c216依赖并实际接R474；前四件4f326cd1、入口7e62fb22已刊；实际43810051801/source7e62fb22已绑。原210及全部数学门不改。
-- root：R477已刊8df750ba；211前四件4f326cd1且本次刊请求/workflow，已压缩open§1，旧全字在8df750ba同路径，§4–6逐字不变；211实际run已绑b8ad5c4f；R476/helper已刊00831470；212入口9a9dbfa8及run已绑；本次results旧索引原字归档、open§3去重复（旧全字9a9dbfa8同路径，§4–6不变），R479已刊a9ff7bec；R453已刊3f08ce43；本次完成62两清单清理，续读213五最终件。actual62说明完整审后本次普通删两清单1352194B（仅4d61/ef5e）；其余文件/父/源/历史保；63已清b696cc15。每pull核双README。
+临时源在/workspace/visible-larger-working；丢失依已刊完整接口/父源重做，不靠已删raw或SHA造证。此前此节全文在77fae38c42e6247b70abbce1f1c81dd26a4b5ff5同路径，所有原失败/未返/未访保持。
+- exact：唯一207/R460、208/R467及未来213/R480终态。R479三核心已a9ff7bec；213五最终件全读，plan5cd405f3/recipef2176b25/interface748dfc98本次刊；requestbb4005b4/workflowc0543ec8待下一独立推及官方绑定。110public+2现场源、原108祖先/39八批/17α/原钟/真98父/FD/quiet不变；不保证90KB。206/210终态已刊不重取。
+- geometry：唯一209/R469和212/R478终态。R476/helper00831470、212入口9a9dbfa8、run43810550597已绑；只inverse工作depth24→2与R477完整point/stack，全部候选/原门保，不保证预算/误差。205/207/209原冻结入口不改。仅据已有源码整理闭面各真实证据责任，不加门。
+- amplitude：唯一204/R446及211/R475终态。211前四件4f326cd1、入口7e62fb22、run43810051801已绑；168来源/真实c216依赖/R474九计数与全112原门保。R453实际205已3f08ce43，日志不重取；续查R481准确族coast区间表达式及原验收责任，纸面等价不冒未决原因或必过。
+- root：逐结论立即推，续刊213入口/绑定后继续open；actual62两生成清单已77fae38c普通删1352194B，仅4d61/ef5e，其余/父/源/历史保；63已b696cc15。结果索引完整旧字在results-index-through-request212.md，open§4–6逐字保持。每pull核双README。
 
-212入口官方topic treeffc703240f3467e875aff8228f5ba7a05aa558fb：9257blobs/197827293B、9630entries，truncated=false。actual63两清单已删；actual62两清单本次普通删1352194B，新tree容量待核。不存新raw。
+77fae38c官方topic tree35c18e7283380cf5b46617dd8cdbc59127a75202：9261blobs/196581478B、9633entries，truncated=false；62/63清理均已计入。不存新raw。
