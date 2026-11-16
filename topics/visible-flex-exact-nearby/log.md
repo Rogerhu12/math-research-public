@@ -186,3 +186,7 @@ UT上次非FF已立即真CLI pull --rebase，仍无executor；保远端重建第
 ## 2026-11-16 00:05:36 UTC — OMA actual immutable metadata
 
 root亲读完整12428B receipt 42223148049d201f7c64bf97c6a056961efb7feb/c112361798ede90556326b9f8c20f14a185f34ab1d6cba9fd501ed9b10f81168、7717B证明83dd2b27/0f1ee6a6、R126小件与原producer全文；独立GitHub核43777745624/1 head c9f72b1a、job133007803638全部9steps成功。两360313/360182B旧报告在b9c7cde9同path完整恢复SHA已实际核，原complete/finished/no-exception均真；certified和三whole域假、236sampled rows、只中心/浮点/无closure限制完整保，不升格为数学证书。无原数学/producer/array/artifact/Release/delete。最新实际pull00:00:02.003491双README空diff。topic199886862→199899290为原metadata容量；下一独立白名单只两诊断JSON，endpoint/source/原失败/canonical定义不动。root只读两README于d8a7899c5ca8986b9d3835257ad084e4391ddc0c一致；压缩已成SEIA/NWA/SNA索引，全部原字保c9f72b1a同H/open，未付义务不减。 索引压缩另含已成DZA/SC3/UTA/SEIA，原字仍在c9f72b1a同H/open及proof，未付条目不减；首次plan只因open字节门在建blob前停，未发布/未运行。
+
+## 2026-11-16 00:06:01 UTC — exact two-report whitelist before cleanup
+
+先推7262B独立白名单e7eadf8190977a99df3d8553390b1fea7dced7e8/955eb0580a6a9cc9c878c345058f94835593a2033ae8b48dbe57551b16e75fea。root亲读全部，和OMA原12428B receipt两完整SHA/blob/size/success/限制逐项相符；原producer明确先另存NPZ再写JSON，R126也分开报告与后续endpoint输入。仅两360313+360182=720495B成功诊断JSON；完整恢复b9c7cde9c28a38d9d7db2ad03fcfd3835578ac6b同exactpath。root现存NPK/NW/UT/SC3/SEI/DZ2/WE完整manifest exact basename搜零，peer其余活跃清单同零；OM历史pin不变。两endpoint、canonical origin/direction、原waist失败1195B、source/native/候选/所有小数学结论保留。此提交尚未删；下一单独commit fresh blob+size guard后普通删除，禁历史重写/旧数学重算。两README于a7d3c0f6d4b9c0d10dfd1ad1d07f14fbbd2c2d57空diff。
