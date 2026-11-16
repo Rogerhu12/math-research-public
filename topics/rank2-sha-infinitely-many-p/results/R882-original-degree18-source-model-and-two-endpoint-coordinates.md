@@ -402,3 +402,187 @@ $$
 
 (3)–(17) 与 (20)–(26) 均为明确函数域/模函数恒等式；
 没有新增数学数值执行、独立中央零或 canonical 类的比例假设。
+
+## 附录 A：原底上的 degree48 eta 坐标及可判定的小模型分支
+
+本附录保持正文的 \(T,U,V,Q\)，不改源曲线、两个 endpoint 或任一
+Artin 系数。它把 RR 正规化可采用的有理底次数从306降到48；
+尚不声称相应公开计算已经完成。
+
+### A.1 真实模函数和完整 cusp 表
+
+在 \(B=X_0(867)\) 定义
+$$
+t(Q)=
+\frac{\eta(Q)\eta(Q^{867})}
+     {\eta(Q^3)\eta(Q^{289})}
+=Q^{24}(1+O(Q)).
+\tag{A1}
+$$
+其 eta 指数在 \(1,3,289,867\) 分别为 \(1,-1,-1,1\)。
+权为0，两项模24检验都是576，且
+\(\prod d^{r_d}=867/(3\cdot289)=1\)。
+因此 (A1) 是 \(\Gamma_0(867)\) 的 **trivial-character**
+模函数；不存在待删的 eta multiplier。这里使用 Newman 的
+eta-quotient 判据，及 Ligozat cusp 阶公式，见 Rouse–Webb,
+*On spaces of modular forms spanned by eta-quotients*，作者稿印p2，
+式(2)及其后 Theorem：
+<https://users.wfu.edu/rouseja/cv/etaquos.pdf>。
+
+直接从三个 eta 商相除，得到带首项规范的恒等式
+$$
+\boxed{t^{12}=T/V.}
+\tag{A2}
+$$
+特别不是在某个新 Kummer cover 中另取十二次根。
+
+对 cusp 分母 \(c\mid867\)，下表列每一个几何 cusp 上的阶。
+“个数”是该分母类型的几何 cusp 数，不能在有限域只取有理点。
+
+| \(c\) | 个数 | \(\operatorname{ord}T\) | \(\operatorname{ord}U\) | \(\operatorname{ord}V\) | \(\operatorname{ord}t\) |
+|---:|---:|---:|---:|---:|---:|
+| \(1\) | 1 | 289 | 17 | 1 | 24 |
+| \(3\) | 1 | \(-289\) | \(-17\) | \(-1\) | \(-24\) |
+| \(17\) | 16 | 1 | 17 | 1 | 0 |
+| \(51\) | 16 | \(-1\) | \(-17\) | \(-1\) | 0 |
+| \(289\) | 1 | 1 | 17 | 289 | \(-24\) |
+| \(867\) | 1 | \(-1\) | \(-17\) | \(-289\) | 24 |
+
+为核对该表，写 \(c=3^\epsilon17^j\)，\(j=0,1,2\)。
+对 \(T_3(Q^{17^k})\)，Ligozat 式给
+$$
+\operatorname{ord}_{c}T_3(Q^{17^k})
+=(-1)^\epsilon
+17^{\,\max(2-2j,0)+2\min(j,k)-k}.
+\tag{A3}
+$$
+再以 (A2) 除12即得最后一列。eta 在上半平面无零极，所以表已列出
+\(t\) 的完整除子。四个非零阶 cusp 均为原有理 cusp，因此
+$$
+\boxed{
+\operatorname{div}(t)=24([c_1]+[\infty]-[c_3]-[c_{289}]),
+\qquad \deg(t:B\longrightarrow\mathbf P^1)=48.
+}
+\tag{A4}
+$$
+在 \(r=29,41\) 的原良好约化上，同一结论成立。
+(A2) 保证零极仍仅在 cusp；各原 cusp 展开的首单位和上述阶保持。
+且 \(t=Q^{24}(1+O(Q))\)、\(r\nmid24\)，故该 degree48 映射可分。
+
+### A.2 小模型确实恢复整个原函数域
+
+令 \(k=\mathbf Q\)、其系数扩域，或上述良好有限域。
+正文(13)的非回溯塔给
+$$
+k(B)=k(T,U,V)=k(T,V);
+\tag{A5}
+$$
+第二个等号也可由正文的 monic 一次 gcd 恢复 \(U\)。
+由 \(t\in k(B)\) 和 \(V=T/t^{12}\) 得
+$$
+\boxed{k(B)=k(t,T),\qquad [k(t,T):k(t)]=48.}
+\tag{A6}
+$$
+所以这不是只有 gonality 上界而没有原坐标的存在论。
+
+具体设
+$$
+P(T,V)=
+\frac{\operatorname{Res}_Z
+  (\Phi_{17}^{(3)}(T,Z),\Phi_{17}^{(3)}(Z,V))}
+ {(V-T)^{18}}.
+\tag{A7}
+$$
+对 \(P(X,X/t^{12})\) 清 \(t\) 分母、去 \(k[t]\)-content 及纯 \(X\)
+因子，得到 \(G(t,X)\)。在 \(k(t)[X]\) 分解 \(G\)。
+原 \(T\) 的最小多项式是其中一个精确 degree48 因子
+$$
+F(t,X),\qquad F(t,T)=0.
+\tag{A8}
+$$
+它在原常数域上定义，不要求为构造原模型而扩张到含 \(\mu_{12}\)。
+
+给出一个有限、绝对的选支规则，避免任取某个 degree48 因子。
+将每个不可约因子清分母为 \(k[t,X]\) 的 primitive 多项式。
+给单项式 \(t^iX^j\) 权 \(24i-j\)，取最低权部分
+\(\operatorname{in}_{24,-1}(F)\)。**原因子唯一满足**
+$$
+\operatorname{in}_{24,-1}(F)(1,1)=0.
+\tag{A9}
+$$
+选出后仍核 \(\deg_XF=48\)，并在该分支按原
+\(T=T_3(Q)\)、\(t=t(Q)\) 确定 Tate 地方。
+
+证明唯一性如下。在 \(\bar k\) 上，(A7)加入 \(t^{12}=T/V\) 的
+generic reduced 代数，因原 \(t\) 已在 \(k(B)\)，恰分解为12个原曲线
+拷贝，分别给基坐标 \(t=\zeta\,t_{\rm orig}\)，\(\zeta\in\mu_{12}\)。
+这些拷贝不能进一步混同：一个同时固定 \(T,V\) 的原函数域自同构
+由 (A5) 必为恒等，因此不可能非平凡地改 \(t_{\rm orig}\) 的根单位。
+
+在每个拷贝的 \(t=0\) 上，表中仅有两处：
+一处 \(T\) 零阶289，另一处是原 \(\infty\)，
+\(T\) 极阶1、\(t\) 零阶24。
+后一处有
+$$
+tT^{24}\longrightarrow\zeta.
+\tag{A10}
+$$
+相应极支 Newton 边因此是一个单项式乘
+\(tX^{24}-\zeta\)；它的24个 Puiseux 首根无重，因为 \(r\nmid24\)。
+常数域未代数闭时，一个不可约因子的该边为相应 Galois 轨道这些
+因子的积。故 (A9) 当且仅当轨道含 \(\zeta=1\)。
+该轨道只有1，恰给原 degree48 因子。这同时证明了
+\(G\) 的 geometric 部分为12个互异的 degree48 因子，
+而不是一个未知的高次场扩张。纯 \(t\) 或 \(X\) 的清分母因子
+不参与选支。
+
+### A.3 两个返回公式和原 RR 除子保持
+
+在新域 \(k(t)[T]/(F)\) 中定义
+$$
+V=T/t^{12},\qquad
+U=-[\text{常数项}]
+\gcd_Z\bigl(\Phi_{17}^{(3)}(T,Z),\Phi_{17}^{(3)}(Z,V)\bigr),
+\tag{A11}
+$$
+gcd 取 monic，一次性仍由原非回溯模问题保证。
+这给 (A5)/(A6) 的实际双向函数域同构。
+
+正规化后原 Tate 地方由
+$$
+\operatorname{ord}t=24,\quad
+\operatorname{ord}T=-1,\quad
+\operatorname{ord}U=-17,\quad
+\operatorname{ord}V=-289,\quad
+(tT^{24})(\infty)=1
+\tag{A12}
+$$
+确定；其中 \(1/T\) 仍是该地方的 uniformizer。
+正文的
+$$
+D_S=\operatorname{div}(dT/T)+\sum_{\rm all\ cusps}[c]
+\tag{A13}
+$$
+完全不变，仍为次数204的有效除子。
+全部36个 cusp 由 \(T\) 的零极完整恢复；\(t\) 的四点支撑
+**不能**替代这个 cusp 和。
+
+随后正文(14)–(17)的 level9 gcd、两个原 endpoint、
+(21)的 \(\varepsilon\) 及(23)/(26)的两坐标全部原样读取。
+没有丢失 \(q_0/q_2\)、任何分母零点或原三 Artin 共轭。
+
+实现时，newfield 的元素写为
+\(\sum_{i=0}^{47}a_i(t)T^i\)。
+其 Tate 代入的逐项低阶是
+$$
+24\,\operatorname{ord}_{t=0}a_i-i,
+\tag{A14}
+$$
+可据此严格预付每个 Laurent 取消所需精度。
+这直接消费两份原已认证 germ；不把特征 \(r\) 的微分唯一性
+当成映射存在性。
+
+本附录给出了原 degree48 模型的有限因子生成和绝对选支程序。
+它没有报告一次尚未执行的 factorization 或 RR 运行为成功，
+也没有断言任一 shadow 非零。第一版 degree306 公开运行不因本附录而
+被默认为错误；两者正规化的是同一条原曲线和同一除子。

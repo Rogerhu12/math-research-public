@@ -194,3 +194,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R879附录D](results/R879-original-v66-heat-and-degree22-trace-defect.md)：原m2的k1完整热递推保Rp/Jp−1，D3F2=4L D1F2+2D1Theta。固定光滑六次曲线uv(u4−v4)=f精确degree24覆参数椭圆，显式Lu/Lv与I8/I12给完整水平基det=f/2；F2/Theta绝对冻结和两个Ku/Kv除p读者含全4^N、H、Cp及参数系数导数。固定来源不使p-dependent高算子变固定Hasse–Witt行，不添中央零。
+
+
+- [R882附录A](results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原trivial字符eta商t=η1η867/(η3η289)的完整六类cusp表给divt=24(c1+∞−c3−c289)、degree48，t12=T/V且k(B)=k(t,T)。原P(X,X/t12)去content/pure X后，以最低权(24,−1)在(1,1)零唯一选原48因子；十二geometric拷贝及T/U/V全返回严格付清。D204/all36 cusps/原端点不变，实际RR小模型可执行，未报告尚未运行的因子化成功。
