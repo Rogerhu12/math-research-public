@@ -134,3 +134,8 @@
 ## 2026-11-16 02:49:14 UTC /root — R449补原cut字段
 
 [R449接线修订](results/R449-actual202-to-accurate-continuous-ten-fresh-candidate.md)在未执行的首刊c557之后补齐72c实际必读的cut_radius：从原2136B/cc87模板逐字复制，结构字段八→九；helper31509B/ee3675ce、driver34835B/56cbf3b2。四件10011B完整diff已读，原十词、cut字面、方程、域门、资源与PhaseLease不变；205尚未派发，新launcher/postsolve来源同步级联，原运行不变。
+
+
+## 2026-11-16 02:56:00 UTC /root — R432八组真实推进与必要读回未付
+
+[R432实际200](results/R432-actual200-eight-complete39-pairs-and-single-summary-overflow.md)run43780457519/sourcecb597d3c3d66f9787a712ffa7ca9dc3d52bd57de；16原model/FD子程exit0、8本地记录/真实父交接true、trial计数4/4/3/3/2/2/1/1共20。结合原eligible分支可推出8次progress/warm配对/fresh FD门通过，不能推出未输出误差/merit/α/末三词/native/fullDN。whole-chain148732B/459fb8c8与recovery149082B/61e677cf均超90KB真实70，成功正文帧0；唯一compute日志93500B/16b3120f、68原事件48451B/cba4c1ba已读。原4次规则sync无变，group quiet无signals/unknown；8批raw已退休，但最终cleanup实际skipped、未读必要/末carrier只留至runner销毁。后继须真98重生并仅语义去重，不能从SHA恢复或跨run补数。
