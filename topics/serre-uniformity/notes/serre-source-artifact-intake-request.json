@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-original-low-weight-fixed-choices-and-polar693-current",
+  "request_id": "20261116-original-sixteen-flips-complete-marked-trace",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "9a620dd3514206ac2decea2a901b00ac1cc103bb",
+  "rules_last_read_commit": "dd653369a92a2d199af548f798dc80d442a5e183",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,55 +12,153 @@
   "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R896-complete-required",
+      "label": "R894-sixteen-complete",
       "source": {
-        "result": "R896-original-five-sum-Hom-low-weight-residual-RR",
-        "run_id": "43872960726",
-        "source_commit": "259e2448c7c51131fecc231ee55f7d457397dde8",
-        "core_sha256": "2328123121cb76e50d265222b19510e03ce22588b6bca367c1bd811dd623c1c2",
-        "artifact_id": 14228364447,
-        "artifact_name": "serre-global-R896-five-sum-Hom-low-weight-RR-43872960726-1",
-        "archive_bytes": 525499323,
-        "archive_sha256": "09709b33882b32bab65b1ff855e7cd246561cac8ba344251bcab26e3067634bd",
-        "manifest_sha256": "2875d857feb3ae5c786b35946782b6a4cf74d429679c5d54d3dc1c3215755a93",
+        "result": "R894-original-seven-conjugate-pole-trace-bounded-descent",
+        "run_id": "43864869152",
+        "source_commit": "bf74b397404a0b3b99a035004cfaddcc40359046",
+        "core_sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
+        "wrapper_sha256": "bcf319795c1f9e08211fd471d6b367375ed6d660d96755d26207490090b11836",
+        "configuration_sha256": "3f67098622cf6ed53f6a1afb45e004958a1e929b09ba2c5b75742964d89ca9e5",
+        "manifest_sha256": "6494c3b1fb4d33013265d5bab4acf6534407239dbc911d11283036c21b5cb59c",
+        "manifest_bytes": 74660,
+        "certificate": {
+          "bytes": 26940,
+          "file": "p41-original-seven-conjugate-pole-trace-certificate.json",
+          "sha256": "66684f71abc832615e80a798fe875c8eb3d318fe13984e1d046cb68a23a33f87"
+        },
+        "artifact_id": 14230291708,
+        "artifact_name": "serre-R894-seven-conjugate-pole-trace-43864869152-1",
+        "archive_bytes": 789991719,
+        "archive_sha256": "638b7c6e5acc2ce7d46e8c935571a46513bd9053f81bba6028e7005de487965b",
+        "artifact_expires_at": "2026-11-17T13:25:15Z",
         "expected_conclusion": "success"
-      },
-      "mode": "R896_complete_required",
-      "certificate": {
-        "bytes": 15429,
-        "file": "p41-original-five-sum-Hom-low-weight-residual-RR-certificate.json",
-        "sha256": "66218771f4b0f8d7822282839ca94bcb34049fc3d867248ae4eddf6348fdb24c"
-      }
-    },
-    {
-      "label": "R824-polar693-current",
-      "source": {
-        "result": "R824-original-global-polar-generators",
-        "run_id": "43828509061",
-        "source_commit": "9829a0385c61e9262c6038a365bc3de1c26015d2",
-        "core_sha256": "1ece3cf45f57fda2d1fe40f38efb3e225d2e05ce910a917eb38dbcd85fe3d1cb",
-        "artifact_id": 14228777115,
-        "artifact_name": "serre-global-R824-original-global-polar-generators-43828509061-1",
-        "archive_bytes": 1406291457,
-        "archive_sha256": "bc0ea420a7b66e40a50559aedfd2e57adcfde3d86d9de8dd921ed1c975d5fd0d",
-        "expected_conclusion": "failure",
-        "manifest_sha256": "9960bfffa9da5bb91181e0be580b4355f1994afeb3fbf84134995ee38ba9a72d"
       },
       "mode": "named_original_members",
       "names": [
-        "R824-power5-free-1187-current.json.gz",
-        "R824-power5-free-1187-history-00000693.json.gz"
+        "R894-original-seven-pole-trace-marked-principal-and-descent.json.gz",
+        "R894-flip-01-A1-complete-flip-certificate.json.gz",
+        "R894-flip-02-A2-complete-flip-certificate.json.gz",
+        "R894-flip-03-A3-complete-flip-certificate.json.gz",
+        "R894-flip-04-A4-complete-flip-certificate.json.gz",
+        "R894-flip-05-A5-complete-flip-certificate.json.gz",
+        "R894-flip-06-A6-complete-flip-certificate.json.gz",
+        "R894-flip-07-A7-complete-flip-certificate.json.gz",
+        "R894-flip-08-A8-complete-flip-certificate.json.gz",
+        "R894-flip-09-A9-complete-flip-certificate.json.gz",
+        "R894-flip-10-B3-complete-flip-certificate.json.gz",
+        "R894-flip-11-B4-complete-flip-certificate.json.gz",
+        "R894-flip-12-B5-complete-flip-certificate.json.gz",
+        "R894-flip-13-B6-complete-flip-certificate.json.gz",
+        "R894-flip-14-B7-complete-flip-certificate.json.gz",
+        "R894-flip-15-B8-complete-flip-certificate.json.gz",
+        "R894-flip-16-DN-complete-flip-certificate.json.gz"
       ],
       "known_file_pins": [
         {
-          "file": "R824-power5-free-1187-current.json.gz",
-          "bytes": 5690,
-          "sha256": "761b228c658be34bc42471275ce1f7c88ef4d6eeba835d6b3fda84c5dd805945"
+          "bytes": 10935,
+          "file": "R894-original-seven-pole-trace-marked-principal-and-descent.json.gz",
+          "sha256": "d6d9a5ab99301c104fb811dce1f59e261a8d7494f8baaa4bed66214b12575d8b"
+        },
+        {
+          "bytes": 8692,
+          "file": "R894-flip-01-A1-complete-flip-certificate.json.gz",
+          "sha256": "247f59f5c1432ea26963c80b07b074d55461c975a61a7123a869749e52dfc55a"
+        },
+        {
+          "bytes": 8686,
+          "file": "R894-flip-02-A2-complete-flip-certificate.json.gz",
+          "sha256": "948bbce5ca252be00e10101d8e8f1561eabda3d54dd9761647a227e2652039b2"
+        },
+        {
+          "bytes": 8827,
+          "file": "R894-flip-03-A3-complete-flip-certificate.json.gz",
+          "sha256": "00f16bfc50ee59d6b8934ecb590ba781574239cf13ca0eed03f90d6176c1f503"
+        },
+        {
+          "bytes": 8756,
+          "file": "R894-flip-04-A4-complete-flip-certificate.json.gz",
+          "sha256": "c734a8f9d69104f81e49a0b9c010d70a09399e8b8b3fd8e92452730521888390"
+        },
+        {
+          "bytes": 8692,
+          "file": "R894-flip-05-A5-complete-flip-certificate.json.gz",
+          "sha256": "cc3e4ba74a026b5dd26b87a914e6bc7e14c1ccf30622619d38debc1de0ab39d1"
+        },
+        {
+          "bytes": 8802,
+          "file": "R894-flip-06-A6-complete-flip-certificate.json.gz",
+          "sha256": "ecaeaa96f7f18765833b57ff99d9ad011cdce88cd1cc5d8c70d7fc56f73af0d2"
+        },
+        {
+          "bytes": 8756,
+          "file": "R894-flip-07-A7-complete-flip-certificate.json.gz",
+          "sha256": "b53c8d3faa25dc7d6544f6d198ecfefce2564db591d7405a2303b3c3048c2e82"
+        },
+        {
+          "bytes": 8814,
+          "file": "R894-flip-08-A8-complete-flip-certificate.json.gz",
+          "sha256": "08cce6bb7cdde2cd65d7bec2a6a222578ceb3adcfd88128b5e23b431bb1e68a8"
+        },
+        {
+          "bytes": 8810,
+          "file": "R894-flip-09-A9-complete-flip-certificate.json.gz",
+          "sha256": "7f2ec36801419b5b6e11175644558ff8e1a6575e607a6a052fd2265a41bcff50"
+        },
+        {
+          "bytes": 8737,
+          "file": "R894-flip-10-B3-complete-flip-certificate.json.gz",
+          "sha256": "5f04e7ef69f236ede0919b3ee967c7afd859a494cf48dfd4feab36ef58456340"
+        },
+        {
+          "bytes": 8812,
+          "file": "R894-flip-11-B4-complete-flip-certificate.json.gz",
+          "sha256": "f7f28b1554e46a7fddfd7d6c5f85fcae036a6f79c2f4022dcead3383f5e64862"
+        },
+        {
+          "bytes": 8750,
+          "file": "R894-flip-12-B5-complete-flip-certificate.json.gz",
+          "sha256": "d6b9ca944f8043152ce9c429044c95b90aa9529624d1e2e7dc1e2f230152cb78"
+        },
+        {
+          "bytes": 8743,
+          "file": "R894-flip-13-B6-complete-flip-certificate.json.gz",
+          "sha256": "37cedab08107854eaa062f445348fad0868d9a52f0b55f09af6ea2977c4471cc"
+        },
+        {
+          "bytes": 8822,
+          "file": "R894-flip-14-B7-complete-flip-certificate.json.gz",
+          "sha256": "e65c4147da30cd818169e7a1880361e0063d8e3800aa9b792719aaf1e74c34c5"
+        },
+        {
+          "bytes": 8818,
+          "file": "R894-flip-15-B8-complete-flip-certificate.json.gz",
+          "sha256": "3c0bcbb075cfc0a46e0a281ebd4bff047c151fee7dd82f8116e6944977ee1d03"
+        },
+        {
+          "bytes": 8808,
+          "file": "R894-flip-16-DN-complete-flip-certificate.json.gz",
+          "sha256": "ab0ef1222927a132663e76949ba3c43ad2fcb2ca76951ac3a35fd063113ad6e9"
         }
       ],
       "print_json_files": [
-        "R824-power5-free-1187-current.json.gz",
-        "R824-power5-free-1187-history-00000693.json.gz"
+        "R894-original-seven-pole-trace-marked-principal-and-descent.json.gz",
+        "R894-flip-01-A1-complete-flip-certificate.json.gz",
+        "R894-flip-02-A2-complete-flip-certificate.json.gz",
+        "R894-flip-03-A3-complete-flip-certificate.json.gz",
+        "R894-flip-04-A4-complete-flip-certificate.json.gz",
+        "R894-flip-05-A5-complete-flip-certificate.json.gz",
+        "R894-flip-06-A6-complete-flip-certificate.json.gz",
+        "R894-flip-07-A7-complete-flip-certificate.json.gz",
+        "R894-flip-08-A8-complete-flip-certificate.json.gz",
+        "R894-flip-09-A9-complete-flip-certificate.json.gz",
+        "R894-flip-10-B3-complete-flip-certificate.json.gz",
+        "R894-flip-11-B4-complete-flip-certificate.json.gz",
+        "R894-flip-12-B5-complete-flip-certificate.json.gz",
+        "R894-flip-13-B6-complete-flip-certificate.json.gz",
+        "R894-flip-14-B7-complete-flip-certificate.json.gz",
+        "R894-flip-15-B8-complete-flip-certificate.json.gz",
+        "R894-flip-16-DN-complete-flip-certificate.json.gz"
       ]
     }
   ]
