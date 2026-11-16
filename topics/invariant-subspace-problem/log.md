@@ -856,3 +856,7 @@ E8-1 v2实际9.148795829秒，435×448原常单位商、88完整jet核及两泛�
 ## 2026-11-16 02:15:23 UTC — 三域完整首连接经新会话实际重建接续
 冻结recompute wrapper bc177531/11252B，六原生成器均真实调用并逐原manifest、全部压缩/解压payload SHA与verified状态核；同数学binding不含job/out，旧临时数组不假存活。
 新live21…29按plus/minus/e8各weak→Q7→首连接，先收首域结果；E8高核600秒，其余300，2GiB。首连接全170低方程/7高返回/11退出及原6188各阶，未预填rank；实际pull核两README后push。
+
+## 2026-11-16 02:22:29 UTC — 两cubic完整首连接rank一与次数下界284
+plus/minus实际6.884980137/10.851476776秒；完整S86、G modS7、170×9残余8，β3=1/十四独立头，各346528全原乘回。此前新父完整phase哈希与旧原物全部一致。
+F±长度各7…8，K164Ω给284≤Δ≤298/μ≤14/μh*≤37，B14乘两cubic全21系数真；13 formal-free头的DVR及一条nonfree正延门另付。归档H/open、E8续算，实际pull核两README后push。
