@@ -1,6 +1,6 @@
 # 未解决的问题
 
-最新完整前态逐字保存于[精确Hodge前open](notes/2026-11-16-open-before-exact-Hodge-content.md)。全部旧公式、完整来源、原标记及关闭边界继续生效；已成来源直接消费。实际运行以HANDOFF为准。
+最新完整前态逐字保存于[微分迹前open](notes/2026-11-16-open-before-original-differential-trace.md)。全部旧公式、完整来源、原标记及关闭边界继续生效；已成来源直接消费。实际运行以HANDOFF为准。
 
 **R575现行更正。** 实际六层的正CM角色为Ψθκ4，根号−1、中心值零；R348把相反扭向Ψθκ4^-1识别为实际商的论断撤回。后文及历史归档中的该出现性、实际秩零与有理点零像应用均以[R575](results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md)为准。固定家族的L值与局部代数计算仅按各自假设保留。
 
@@ -38,152 +38,39 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 ## 当前执行与精确缺口
 
-### 当前原任务
+完整历史公式、原标记、全部已成/关闭结论逐字在前态归档；当前实际run、核心hash与两README读过提交见[HANDOFF](HANDOFF.md)。不得重做已登记结论，以下取代旧执行状态。
 
-|任务|实际run / compute job|当前边界|
-|---|---|---|
-|R787 primal670后|43846878233 / 133229330888|实际exit124/无core receipt，真670完整lift保留；同core93d3d72b续，仅补严格运输分支|
-|R824原27+244从693后|43877576209 / 133334539270|同core/wrapper，从693原current/lift恢复；free1187|
-|R815原准确导子|43853995004 / 133253466821|g已准确认证，Γ继续；不独立重构Mh|
-|R854原41响应N112续|43880489423 / 133344905148|旧BudgetStop124/1041stage同核恢复正在计算；四球未成|
-|R787半坐标dual541后|43869450077 / 133306600874|原370→541实际已成，542正残差复用；A.1/准确dual仍未决|
-|R890原Ef八flip（已成）|43853462674 / 133251774019|正式结果已登记；R894复用D2/E，R896复用共同正常节点|
-|R880六共轭D*（已成）|43857317518 / 133264906689|六个新418及原ρ首项已登记；R893/R894直接消费|
+### 固定41原高度路线
 
-全部持续同核原子续接；运行结束只从真实完整manifest、current、core停止原因判断下一请求。预算退出不作数学否定，已完成目标和块直接复用。
+R805–R883原W/两图/146/418/273jets与原未缩放t、R860真cY、R866的127全纯均已成。R896五原低权空间、R894七trace、R899全K固定418、R900定义在K的DK272以及R902三十严格共轭均真实完成；原整数锚/选行列/全部σ/七重datum/ρ-t首项保留。仅旧初始2rhs不能代完整基；所有准确来源直接消费。
 
-R787最新670真实源由IO43895402826确认，先前完整来源见[594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)；R824见[596断点](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)。原A.1的target000a9bbc/Jb384a331/1481原源、HP.2及完整Theta/Delta边界见[半坐标续接](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)，七个小L条件不代A0−qB0。
+[R901](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)固定共享126树已激活真实run43893483097，复用D2/E，只新12χ+24原trace+五18节点；QZj=Fj(NQj)^qj QK^−pj正乘，原五阶/t正c幂、末D仅L及七重下降全部保留。计划7d5300ec的零完成计数不可冒实际结果。实际完成后接[R903](notes/R903-original-five-Iz-two-weight-RR-execution-method.md)：同962像146/418→128/400，原256前缀+真144补，只新272最高列和旧19jets；Φ=QZ/qχ，无extra τ。R903仍pending；不得预填R901源。
 
-R854只升工作精度，保旧532stage/低位；详[实际N56退出与N112续接](notes/R854-actual-N56-precision-stop-and-N112-continuation.md)。R858两input仍null，不启动；2420/free1186/full2560、S_m及DVR逐行左逆、两分母、ZP=(Z42−β42)/42正号、t/u双条件、全部H_n/tail和Trace14/2/cχ保全。目标7不表示112已足够。
+[R905](results/R905-certified-original-seven-trace-dual-connections-and-five-Picard-inputs.md)七原连接已实际认证：全272单位图、670源、544全主部/秩543及全回代，包含分歧/交点/幂零。特征零是同原unit minor给出的准确表达式，未展开坐标。QN先校正再Gal7、负χ幂一次、真cY与κν/极化及两帧保持；下一步R922接实际目标求值，原canonical Hecke、period、非p与height未成。
 
-### 原Y：已完成的源与当前新数学
+[R914](results/R914-certified-original-full-V1-involution-and-P1-jets.md)完整146有理ι及P1的272×273 jets已认证，ρ1=ι*ρ0/c1=−c0、t1仅三项，原CM公共τ一次。[R917](results/R917-original-two-endpoint-normal-orders-and-source-contract.md)原两端rank8正规order纸证/来源合同已成：θ0²共同清分母、首一仅损a阶，完整2+3+3与discrim4、四块idealizer/整性/精度损失及det uρ^(28h−I)均明定；执行consumer正完成。新order/靶272/九NmΦ和两端原刚性帧均未执行。
 
-原R805–R879、R882的准确来源、523原DAG/839刚性化DAG、五C/Q秩5、原P0/socle、两图W、273jets、原146/418、参考254P0单极及两端对应已成，详前态归档与相应正式结果，禁止重算。准确unit-solve定义不冒特征零全系数展开；原cY/δ/ν、β72/FM27、82²一次/微分82、ξ/s共轭/e73负运输全部沿原来源。
+[R919](notes/R919-original-whole-Artin-Hecke-differential-trace-method.md)五执行源已全文读、激活公开Actions：原δ=ν^−1d在减纤维前作用；只新九δP，再由−a8^−1[U7](hδP modp)得到完整8维Euler迹行及272目标正常基像。保A272/E2176所有幂零及真实θ/a8/χT分母、真dual7/diamond/−3/ν/Nm帧；73必要原件直接消费，不重旧逆/Γ。数值结果仍待实际run，不能把正常基迹行当作七连接或canonical投影已成。
 
-**R815准确g已成**：[正式证书](results/R815-certified-original-exact-Wronskian-multiplier.md)。696prime/20809bit后首列逐系数、七准确点完整272×272交换子和两图17块通过；次数≤6与原cyclic唯一性识别真实有理M_g。原齐次G/σ³与同函数g运输有t³区别。Γ未成，既有R827模消费者继续复用旧p753算子。
+[R907](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)执行源已冻结，仍须R901/R903实际完成后整体填源。原128→真672、A272/E2176的一次A[T] Berkowitz/19584坐标CH和九正范数、NormΦ及两图colon/dual7保留；R899已成来源可填，a0仅在无旧全插值时补四原节点。原P0/P1数值及完整刚性化仍false。
 
-**R880/R887/R872有界输入已成**：
+真正高度接口：五Lj128/144与real Rcal I_Z³不可混；YP/FM原128/634、254度/508主部rank507、P1的c/a、活跃eη、d/N、完整nonp、Poincaré/splitting与height尚缺。R870原16 ni/1959位d*与含7-primary挠判，须合法好约化niPiξj非零才判活跃。YL1=0非rank0，UE仍有dY+2period，End⁰G=F/torus≥g+1，μ3qφ*=0不删Y。
 
-|原输入|完成范围|来源|
-|---|---|---|
-|原D*|完整418、原a0/v123、Qf的ρ阶−1457与首项566605368|[R880](results/R880-certified-original-D-and-common-cusp-bounded-RR-inputs.md)|
-|共同C*|完整418、u252=207667877、Qtilde的ρ阶−1205与首项267133051|[R887](results/R887-certified-original-common-cusp-flip-and-bounded-RR-inputs.md)|
-|固定Dχ|273jets、146核、首试rank962与完整418|[R872](results/R872-certified-original-P0-jets-and-fixed-Picard-spaces.md)|
-|原t帧|c=354813668与实际c^254/c^1205/c^1457，theta/82只消一次|[R883](results/R883-certified-original-t-first-order-frame.md)|
-|七σ输入|12新rhs全部1380坐标回代、真次序(0,6,1,2,4,3,5)|[R880七输入](results/R880-certified-original-seven-Galois-normal-inputs.md)|
+R787 primal真670、半dual真541/542正残差，R824真693及R815准确g/Γ、R854 N112同core断点均按HANDOFF实际run继续；R854旧1041stage/末profile63输入49rank7不等四球成。不得因预算或false FINAL造负结论或重做旧位。
 
-辅助素点的单位不冒41或全部nonp单位；K-fixed不冒Q下降。六D*的[固定图证明](notes/R880-original-six-conjugate-bounded-Dstar-spaces.md)与[执行方法](notes/R880-original-six-conjugate-Dstar-RR-execution-method.md)保原所有选行列/free/a/v/trial1，不能任换basis称σ共轭。旧证明§8(2)“各16块”为文字笔误，真实G/Γ各17块×16行；冻结core/request始终正确。只有新原minor真单位及全行乘回，才可登记新六个418。
+### 全p原标签与指定normal接口
 
-R890[八flip方法](notes/R890-original-eight-flip-Ef-and-marked-frame-method.md)保Ef−1206P0=(DE−H)+divQE，Fnew=(qFaFb)^−1、重复父因子、未缩放q(P0)及t首项正乘c^1205。旧全部418/点jets/K逆直接用；不预填实际完成。
+R317只余完整正规化子p≡2,5mod9、a³+db³=1/p|b，D/bc无上界。R707固定41关闭不外推；R575正CM根号−与逆twist秩零撤回，R706 h1反例保留。非挠/log/rank/Abel单位/深盘根数均不代统一height；R851/855/857的大p原g/Abel结果不代固定m2或首高度项。
 
-**R893五原和同态初始RR已证**：[完整证明](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)。原g_j=(1+T^j)f的同权98分子分母、真DVR极除子、完整272纤维Q单位和全行Schur给n=(12,8,8,13,14)、N=(23,15,15,25,27)。原ρ/θ/82尺度施一次；主函数保τ^(3−n)，初始N不能作V2n通用注入。ordinary_local实现原消费者，只有新必要节点可新求K；原五Lj128/144仍未完成。
+R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部继承；R904六列K^p独立及36挠点同权≤p，仍不能保证互补primitive/Legendre同h指定jet。R895完整band收缩已关闭未分歧源除p单位桥，不能换实际分歧源。原J_h、β̄=P_(h−1)(1/s)/P_(h−1)(0)与J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12始终保同h/phase、原−K Y−δ^(6p−5)、六级与cs=−s。
 
-**R885多项式/Artin接口已成**：[273节点与单行伴随](results/R885-certified-original-polynomial-characteristic-relation-and-one-row-adjugate.md)和[完整纤维实际证书](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)。z0整A272/E2176、全部272目标方程和原v0九Norm已成，单rank8 charpoly给九值；保非étale可能性、剩余次数、全部幂零/因子及原dual7/两帧。它给一个有限纤维的值和准确global-expression来源，未给全局Norm系数重构、原Picard支持或height。
+[R906](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)保原qTpJ=qB TpB及原a_h；R908/910/911真finite-flat quotient/完整惯性/两αp线已定上半r=2h−p−1、下半r0。[R916](results/R916-original-finite-flat-quotient-and-exact-Hodge-content.md)由实际H⊂B[p]商和ω_D↪ω_B/p的精确ann，得content(f_h*ω)=π^pr、原q为π^(ea_h+pr)。这是整模注入，残域可零；未消原Tate指数a_h。
 
-[R876九范数路线](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)仍要求原M_j=L_j(254P0)的完整128空间、真无基点两截面，九8次范数完整生成理想；共同M0取消后必须真dual7运输冻结方向与P0刚性化。三完整纤维816×836和672minor不能省。模零不判inactive。
+[R913](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)原χ_+ Igusa层对应k_+=2h−p+1，另一非零λ_h∈(W_+/CW_−)∨对应k_−=2p+2−2h。两tame CM伴随/全Fourier Θ/ζ²与1/6/完整Norm/真det−1和原Hecke标度全保；几何δ^D坐标/Lie同ζ²，不混半线性descent逆号。未推λ在指定companion非零、残余半单/格饱和。
 
-**原高度仍缺的接口**：YP/FM的原128/634核、254度/508主部rank507、c/a(P1)、活跃eη、d/N和完整nonp。R870真实16个ni与1959位d*、原ξj∈JY(Q)及含7-primary挠判仍有效，合法好约化niPiξj非零才判活跃。I_Z不是real-descent Lj³；c0/h、c0/c1、P0/P1/ν和theta二挠刚性化保全。R862的EAφ*=0不代YP投影。
+[R918](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)覆盖允许p≡11mod12：h=(p+3)/2 primitive/r2，实际L̄_h=c_hΦ4(V4†)且c_h≠0，全H6整S4秩一/Cais满射，完整Norm/单Igusa保留；原fine SS准确阶2p−5。[R920](results/R920-original-upper-primitive-Igusa-layer-and-inert-Hecke-row.md)覆盖允许p≡5mod12：h=(p+9)/2 primitive/r8，原δ支路整基V4†E6、V4†η12及T5的一行(−4032s,8)强制V10†=V4†(E6+504sη12)，实际L̄_h=c_hΦ10(V10†)、c_h≠0；两Igusa/C4/非平方Norm保留，原标记V10†/E4=−20E6(V4†/E4)单位，fine SS阶2p−11。
 
-原Y各块L1=0不能作rank0；UE第二类全函数相消仍留dY+2 period，End⁰G=F、非零torus商≥g+1及μ3qφ*=0均不删Y。
+R921继续原整Hodge到Drinfeld/原c1的首normal桥。fine Igusa消失阶不能直接当coarse c1；原c1=(0,0)是分支点，不能假设x是参数或由两项式推至多简单零。原a_h/c_h、另一λ_h、Legendre fi gj指定三因子/J32及height仍OPEN。
 
-### 全p：原积分源与同标签障碍
+原RF e2b87b99/SP a06a80ea/ZA268fa3fb/41S133d64af/41C569aa684，b/s/λζ²一次、CRT6逆、246/82^10、P0/P1/ν/theta二挠/fullCorr/nonp/splitting继续生效。ordinary43/776bitGaussian5已排、R779 Shapiroθ同Σ/C4杯积已闭。
 
-R317仍只余p≡2,5 mod9完整正规化子、a³+db³=1与p|b，D/bc仍无上界。R707固定41关闭，不外推。R575正CM根号负与逆twist秩零撤回；非挠/log/rank/接触/Abel单位/深盘根数界均不代height。R706原h1反例、R750/R742/R744的异标签限制仍有效；R851/R855/R857的大p原g/Abel/深盘结论不代原固定m2或首高度项。
-
-R859–R875原BT/全G/Drinfeld/Cartier/cusp整格、prime-to-p目标、CM常数/首KS都已证；q拉回的Manin/KS/height仍缺，1⊕St不能代原p−1型，每lift只减自身CM常数。R878/R881原有限theta、唯一整lift、Phi_r/e0/Weyl−1/p与det二次扭曲保留。R884的扩大格pole−1/残值−6B不外推至原六维源。R886原两旗type(6,6)/rank36、Γ=−pPhi0和C A Γ=p²N_h、同h Legendre条件均不省。R888度4/12饱和拉回保content、mixed同h、原−K Y−δ^(6p−5)、六级及cs=−s均固定。
-
-|最新完整证明|已得接口|仍缺|
-|---|---|---|
-|[R889](results/R889-original-theta-distribution-and-same-label-sigma-jet.md)|真实Θp=d_p−6Bq、非交换Bell/Frob、首p jet与显式flip J32=(6B)^5/12(fi gj)^p|指定原Γ/C/split源比较和同h非零|
-|[R891](results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md)|fi/gj零等价整个权空间O基点，36六挠点同重数与准确ν_r≤(p−5)/6|不能排除互补primitive/Legendre同h共同零|
-|[R892](results/R892-original-theta-recursion-and-divided-split-contraction.md)|真实first-p²群律给完整Θ递推；原未分歧源下低带全零iff C_h/p整，末带判单位向量|全带已由R895完成；原标量jet/实际源比较继续，错误简单指数候选已撤回|
-
-sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未分歧源的除p单位桥，不等于原critical Taylor第五lift或同h标量为零。
-
-原RF e2b87b99/SP a06a80ea/ZA 268fa3fb/41S 133d64af/41C 569aa684及原b/s/λζ²一次、CRT6逆、246/82^10、c0c1/完整Corr/nonp/splitting全部继承。ordinary43/776bitGaussian5排除与Shapiroθ同Σ/C4杯积R779均关闭。
-
-
-**R894原七常数域极除子trace有界聚合已证**：[完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)。原3Σ(Dj−H)+7T有明确18flip树，R890两固定节点真实完成可读时新16；Q_N=Q_orb F_N、ρ阶−8435与t正乘c^8435保原帧。末代表可只L定义，准确半线性下降(γQ_N/Q_N)γs及七重cocycle保原K线丛。不是曲线Hecke范数，不预填新418/五Lj/支持/height；原G/Γ各17×16来源计数勘误同时登记。
-
-
-**R895原全带收缩与未分歧源content已完整证明**：[结果](results/R895-original-all-band-theta-contraction-and-unramified-content.md)。真实非交换Θ递推给所有band，trace有限和化(1−xy)^L；Gauss只有最大整数次数差可入，保跨p修正的真实边界。C_h(S)/p整等价全部指定奇a的36维源系数为零，此时末带也零，故该未分歧源类上除p向量不能为整单位。原x⊗−xy系数明确，未判原R770标量为零；实际分歧quotient/Γ来源比较继续，不加有限素数窗口。
-
-
-- R899：完整K固定418已由公开run43879192431实际认证，三个完整272纤维的816×418矩阵rank418、选定minor157473788；S=QN·BN A^-1。首P0单位列0、未缩放ρ/t首项528708486/590477772，原阶−8435；char0数组/Q下降未成。
-
-
-- R900：[完整实际认证](results/R900-certified-original-K-defined-bounded-trace-representative.md)run43889194318已成65stage；两原1904×1380矩阵真rank1234/962，完整146/418及K定义有效DK272/避P0全成。QK=QN·w0/v保阶−8435、原ρ/t首项515264909/898623080，正c^8435无extra τ；R902真源已完成，R901实际request已整体激活。
-
-
-**R901五原Z的共享有界树已证**：[完整证明](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)固定12χ/24原f-trace/五(6+11+1)=126新flip，R890 D2/E两节点及其累计F直接复用；准确Z_j=(DZj−H)+div(Fj·(Norm Qj)^qj·QK^(−pj))与I_Z正乘、原五阶和t正c幂保全。原六σ必须保持R896每j所有旧图/整数锚，末D一般仅L定义且负支撑不限P0；保完整γQ/Q与七重cocycle，不把I_Z当real Lj³。原R896/R900/R902已成，126树实际请求已激活、完成数尚0；五128/144和统一height仍OPEN。
-
-
-**R903原正Z两权直接接口已证**：[完整证明](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)直接由R901正Z代表和原qχ给Φ=QZ/qχ，正乘O(3H−D−X−18P0)到I_Z(254P0)。同一962乘积像、两个544核得146/418，原18行给128/400，144是(τ,σ)两组128后的真补列；原P0帧c正幂、两图272整纤维和同七重datum保留。实际矩阵、R901终点、Q下降/P1值及高度仍待真实来源，不把纸证当运行。
-
-
-**R904六通道Wronskian已证**：[完整证明](results/R904-original-six-channel-Wronskians-and-torsion-vanishing-sequences.md)。原Q^r六列(r≥5)在K^p独立，真实ordinary Wr非零；36六挠点共同权w_r≤p，r5整除子=pE[6]。r≥6原最高独立六系数行给准确消失序列及w_r≡5 mod6，原两维weight0不丢。尚无跨互补r的足够约束，原same-h primitive/Legendre可见第五jet和统一高度仍OPEN；不得以Wr非零替指定系数非零。
-
-
-**R896五低权完整空间实际已成**：[认证](results/R896-certified-original-five-low-weight-RR-and-marked-principals.md)，run43872960726/566stage/324.523172599s，五残余/146/418与原Q的ρ/t首项全完成。必要271原件闭包已供R902/R901；原选图、整数锚与尺度逐项固定。只消费此先成来源，旧排队请求迟后重复运行已如实记，不二次计结论。六σ已由R902完成；126聚合、128/144、连接/period/height仍待真实后继。
-
-
-**R894七trace实际已成**：[正式结果](results/R894-certified-original-seven-pole-trace-and-marked-descent.md)，16新+2旧完整flip，DN418与QN原ρ/t阶−8435/首项305966999/397080916全部完成。末D与基仍仅L，七重下降datum保留。R899已实际完成K固定418与P0单位列，R900/R902也已完成，R901实际来源已齐并激活。
-
-
-**R902三十严格共轭实际已成**：[完整认证](results/R902-certified-original-thirty-strict-conjugate-RR-and-marked-principals.md)run43881907151/sourceec6b6cf1完成7015stage/2709.890s；cfg309480a7/finald21d3401，30份完整残余/146/418与原未缩放ρ/t首项全成。同原I/J/F、B0/v列0与整数B1/w1不变；初始只2rhs、其余全核/全行，只δA6新。原首run源schema即退的历史保留；66原件必要IO43892014668/art14236519042已取。R901只填实际request激活，固定126计划不变，特征零坐标/41单位/聚合结果未冒称。
-
-
-**R854 N112实际预算断点**：[来源及同核续算](notes/R854-N112-budget-checkpoint-and-same-core-continuation.md)。完整算子112与1041stage已保存，末完整profile63记录输入49/rank7，尚非最终单位逆界；false FINAL无四球。新resume只换实际run43832705685/art14229723159，保持同core/config/112，不重旧位，R858仍null。
-
-
-**R906原整Tate像已证**：[完整证明](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)。原fine Cartan/level6源在σ=τ^(e/2)下的period lattice固定；原正CM实际残余指数皆奇，σ−1在实际q(TpJ)整可逆。由原Raynaud整序列得qTpJ=qB TpB，逐h及原清分母p-index全部保留，未换optimal商。高分歧e=p²−1不满足Mazur–Raynaud小分歧cotangent条件，故Hodge饱和/原CM normal-content与指定第五jet仍待实际finite-flat比较。
-
-
-**[R905七源实际认证](results/R905-certified-original-seven-trace-dual-connections-and-five-Picard-inputs.md)**：run43893738459/job133391640404/f4589d2b，core48.831394438s、87完整stage；七D均z=0真272单位格、670源/544全主部/秩543、全544回代，七unit minor逐项有值。保持全部分歧/交点/幂零；同原选行列给特征零unit-solve表达式，非已展开有理数组。QN先校正再Gal7、原Qj负χ幂仅一次、真cY运输五I_Z连接；原P0/P1帧及κν/polarization不改。FINAL24045a35/manifestb11afeda/art14238516346（expiry17日15:14UTC），source/cfg和全部七证书完整pin见结果；canonical Hecke/period/nonp/height仍未成。
-
-
-**R901六件执行源已冻结发布**：[方法](notes/R901-original-five-Z-shared-flip-execution-method.md)与固定126节点计划均已全文核读，core2cacb66f/wrapperc2aad47b继承原R890/R894数学；原D2/E、35主函数、全部t常数及关闭工作准确解闭包保留。实际request已一次填R900/R902及35个原终证/418/主函数来源并激活；R902必要小件carrier仅运输原字节，其余原空间直接Range取。计划SHA7d5300ec和零完成计数作为不可变定义保留，未改写原计划或重复旧flip。
-
-
-**R903五件执行源已冻结发布**：[方法](notes/R903-original-five-Iz-two-weight-RR-execution-method.md)，同一962像复用于两权完整核，V4只补272个最高列和旧19行jet的线性延伸。原256列保顺序、真144补、完整272纤维/同度及P0正c幂逐项保全；R901源仍null。原完整主函数carrier保来源，但P1值、Q固定坐标、九Norm及高度均未完成。
-
-
-**[R909完整主部三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)** 已证：V3/(τU_D)为完整544测试商，留数完美配对把全部主部移到不交H_a；同F(a)逆的0/1/2系数给544×670，含全部分歧/交点。目标是完整O_H、O_D两个272代数的乘法迹差；同F0逆实现h_a除法，单个V1乘法与真完整幂基给全部迹，不剥nilpotent或重Γ。R905实际七个完整图/矩阵/连接表达式均已认证，特征零坐标未展开。七源消费者已完成，旧W/四K原逆及七418直接消费，同原I_Z及canonical边界不改。
-
-
-**[R908原有限平坦CM比较](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)** 已证：保原Tate指数a_h，完整BT给原e_hq_B=[p^a_h]f_h；真generic kernel闭包商D_h带原δ的Fp²作用。两Raynaud尺度仅(0,r)/(1,p)，原σ点态平凡排后者并迫r偶。真Cartier对偶Lie单射配原Igusa μ_(p+1)/Drinfeld μ_(p−1)核，得r∈{0,p−1,ρ_h}，ρ_h=2h mod(p+1)最小正余数。r0给good-model微分content恰e a_h，非零支下界e a_h+pr；不当作指定原CM盘normal首项或height单位。root已核Raynaud原式及EP真实作用；sigma_uniform继续原normalizer约束。
-
-
-**[R910原normalizer限制](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)** 已证：真实全惯性u在fine Drinfeld quotient上(X,Y)→(q²X,qY)，q=u^(p−1)；q=−1为hyperelliptic，dual Lie同−1，排r=p−1。原Igusa普通datum经w1/−I给μ_(2(p+1))点态核，故h<(p+1)/2时r=0，h>(p+1)/2仅r∈{0,2h−p−1}。非零支两Lie线分别来自Drinfeld/Igusa；不假定Igusa ordinary，原a_h、指定盘normal、同h第五jet及height仍保留。sigma_uniform继续真实Igusa αp字符。
-
-
-**[R907九范数执行源](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)** 六件已全文读并冻结：corecf905290/helper7e4a8d88/wrapperb8a5f94b/method44e3ef90。原128给816×836真实672；完整A272/E2176中一次A[T] Berkowitz、19584坐标CH并正乘NormΦ，九值保全部幂零。QN另从R899真实闭包读取，不把R901 metadata当叶值；参考九值/旧K全复用。pending R903/R901仍待完成；R899真实源已成，待整体激活时填入，ARTIN43848870181已绑定；两图九生成元/colon逆/dual7为准确表达，P0/P1数值仍false。exact_height继续原两固定支与两长度3轨道的端点帧。
-
-**[R899完整K固定418实际认证](results/R899-certified-original-K-fixed-seven-trace-RR-basis.md)**：280stage，finalff97cb88/manifestcb951c29；全部列通过同418逆归一、七重cocycle和原未缩放P0行保留。三个正规空间纤维与164件原输入carrier可直接复用，不重16flip/旧W/K/正常/jets。R900激活实际请求而非重复R899；五Lj/连接/period/height仍未成。
-
-**[R911精确CM粘合二分](results/R911-original-Picard-descent-and-exact-CM-gluing-dichotomy.md)** 已证：保持原半线性环约定，Picard余切与曲线H0Ω同字符，dual Lie反字符；原Drinfeld余切仅低半奇权，Igusa无primitive t_h，故R910上半r0被排。严格r_h=0（h<n/2）或2h−n（h>n/2）；上半实际αp两线分别嵌入BD∨/BI∨且给后者a-number下界。原微分content分别ea_h与≥ea_h+p(2h−n)，原Tate指数、指定盘normal及R897/898同h关键jet桥仍缺。
-
-**[R912原八维端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)** 已证：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0，不能用R853三列替代；原2+3+3秩8正规order的discrim阶4，trace-radical/idealizer有限核不拆因子。两截面8×16格给九纤维坐标，完整帧仍为Nm(q*Φ)detUj/detU0并保原t首项/dual7。两端共同λ在0..16，旧z0不代端点；实际新146矩阵/端点值仍false，exact_height正写必要小叶。
-
-**[R913原Igusa Cartier泛函与两CM伴随](results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md)** 已证：上半实际αp子群给非零λ_h∈(W_+/C W_−)∨，其原χ_−层对应k_−=2p+2−2h；π^−pr f_h*ω的χ_+层则对应k_+=2h−p+1，约化可能零。原两个tame level9 CM与Θ的全Fourier关系、level6的ζ²/1/6及Hecke标度ℓ^(h−1)/ℓ^(p−h)逐项固定，完整Norm惯性和det−1校正保留。Gross/Oda/Cais/EP原式已读；同特征系数不推出指定CM向量配对非零，不假设Hecke半单、重数一或格饱和。原a_h、normal首项、36/J32同h桥和height仍缺。
-
-**[R915原八次Hecke微分迹](results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md)** 已证：完整Euler系数泛函在任意Artin底环满足Tr(h)=λ_p(p′h)，原微分迹为−a8^−1[U7](A_t∂zP mod p)dz；保持w的真曲线导数、先微分后约化。原17块/PU逆/272靶值复用，新增只九P系数导数；λ的全模延伸不消除a8、靶PU或χT的真实分母。范数参考行列式、dual7/diamond/−3、κν和两端帧保留。仅全局准确DAG已证，新有限数值、原活跃Picard支持/rigidification/非p/height未成。
-
-**[R916原商的精确Hodge content](results/R916-original-finite-flat-quotient-and-exact-Hodge-content.md)** 已证：实际H_h⊂B[p]的商C及ψπ=[p]给原D_h=kerψ和整模ω_D↪ω_B/p，原BT因子/单位c0将ω_h送到dy0；其精确ann π^(e−pr)迫content(f_h*ω_h)=π^pr。原q的content严格π^(ea_h+pr)，上半r=2h−p−1；R913的完整标记k_+ Igusa向量现非零。此注入在残域可变零，未借Hodge饱和或小分歧假设。原a_h未去，指定normal系数、CM companion的准确标量、λ_h在指定向量上非零及same-h三因子/J32仍未成。
-
-R897/R898的原36维整Gauss源与J_h继续保留：β̄=P_(h−1)(1/s)/P_(h−1)(0)，指定J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12；R916仅控制good-model整微分，尚未把它接到这个指定同h原向量或height格。
-
-**R787真670同核续已准备并激活**：[实际断点与唯一IO修复](notes/R787-original-power5-670-outer-timeout-continuation.md)。原run43846878233外层exit124、无core receipt/null coreSHA，真实manifestf756e254/1261项与完整670 lift8c9052ec已核，76旧lift身份留history。wrapperdff10f45只在失败124且无trueFINAL时容许缺receipt，所有manifest/配置/完整模关系保留；数学core93d3d72b与300min/1372源/14支不变，直接原artifact续，不重旧位或造负结论。
-
-R913 §2已更正几何δ^D的证明约定：Cartier配对 e(y,δ^Dz)=e(δy,z)给dual αp坐标及通常Lie同ζ²，Picard–Serre配到ω的ζ层；不把它套成半线性惯性descent的两次逆号。全部显示角色/公式和非零边界不变，R916整ann证明独立。
-
-**[R914完整反射及P1实际认证](results/R914-certified-original-full-V1-involution-and-P1-jets.md)**：run43898224893/job133407590978/source1b397d40，26stage/0.658301383s；143新准确RHS、81760原方程/C²全过，完整146有理C、272×273原P1正常jets均已成。ρ1=ι*ρ0不换z−zP1，c1=645187085=−c0，t1仅前三项；原CM公共τ恰取消一次。FINAL8c2ce53f/manifestfbc71afa/art14241065505及469原成员完整pin见结果；rank8/九Norm/刚性帧仍false，R917直接消费。rules真pullbf30a01f2e26a906cb62f2b2482ae629019de42b/15:36:57UTC两README无diff已读。
-
-
-**[R918原中央Igusa向量](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)**：全部允许p≡11mod12取h=(p+3)/2，primitive/r=2；R916实际非零L̄_h=c_hΦ4(V4†)，c_h≠0。全H6整S4秩一与基变、Cais满射/无SS极点、完整Norm及det−1/ζ²/1/6均已证明；指定fine Igusa SS点准确阶2p−5、cusp首项c_h非零。保原a_h和未知c_h，不把fine参数认作coarse c1 normal，不推另一λ_h(Vp−1†)或同h Legendre/J32/height。另一同余类固定权10由R920接续。
-
-
-**[R917原两端八阶正规order契约](results/R917-original-two-endpoint-normal-orders-and-source-contract.md)**：真实R914全146叶/273项已接；17列共同θ0²清分母为V10，保原P/a8与K/PU；Θ=ρ^hU首一仅损a阶。trace-radical及idealizer两个≤8未知核，四块0/1项、最低−2项整性/每步精度均明确；准确discrim4方可停，保全2+3+3幂零与det uρ^(28h−I)、原cε^(−m)。纸证/来源合同已成，consumer在写，新order/靶272/九NmΦ帧均未执行。
-
-
-**[R920原权十实际向量](results/R920-original-upper-primitive-Igusa-layer-and-inert-Hecke-row.md)**：全部允许p≡5mod12，h=(p+9)/2 primitive/r8，实际L̄_h=c_hΦ10(V10†)，c_h≠0。原全δ支路整基B1=V4†E6、B2=V4†η12，T5的q²行(−4032s,8)强制原CM线B1+504sB2；保τ′=6τ、跨δ与真Hecke零运输、两Igusa/C4及完整非平方Norm。原标记V10†/E4=−20E6·V4†/E4单位，fine SS准确阶2p−11。a_h/c_h与另一λ_h、原同h Legendre/J32/normal/height桥仍保；R921继续。
