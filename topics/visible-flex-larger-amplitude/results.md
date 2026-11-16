@@ -263,3 +263,8 @@
 ## R408 — 实际193的有限头预算停止与未启动453／450
 
 [R408实际193](results/R408-actual193-continuous-ten-finite-far-budget-and-unstarted-full453-frozen450.md)：run43769481114/source51fb1430，五份compute/report必要逐字同；原C闭域完整而2879宽度欠项、十族域和deep112完成。finite-far仅m2..206共103模式完成，m208原declared-phase-wall-budget-reached，210..224八模未起；7049.298秒linear是启动时预留7200后的实际裁剪，不冒双零错误。native_ready=false，453/450均未起；34419B/6a7d632b必要全文及原pending/资源/错误/quiet已读，01:36:08真清owned树。88.85GB仅完整身份及必要scope，不能续用已删raw；下一完整joint入口须诚实重分配时间并重生全部112。
+
+
+## Request204 — R445类型限定接原完整final128链
+
+[204完整入口](notes/2026-11-16-request204-qualified-stats-complete-final128-interface.md)随本提交发布：原199全部89pins逐值保，加已刊[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)单处stats类型源及四入口=94；六份全diff与接口全文已读，原三调用限定函数逐字同。request76649B/7e6f600e、workflow31909B/b5854ae5，真91新生原19200秒/32×10/2e−9/576×224/112/338与全部四组件；原预算、quiet、单90KB和条件清理不变。R446=amplitude唯一终态读回，实际run/source另绑；不借199已删raw，不冒编译或科学成功。

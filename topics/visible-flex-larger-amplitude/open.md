@@ -26,7 +26,7 @@
 
 [R423](results/R423-qualified-column-environment-calls-and-unchanged-numerical-program.md)/[199完整接口](notes/2026-11-15-request199-three-qualified-calls-complete-final128-interface.md)的原89pins/全部组件预算、完整数学及三调用限定仍保。
 
-[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)：原stage b6537c6c只将literal_stats类型从BatchStats限定为simd_digit_trace128::BatchStats，新12691B/eca87efc独立源，逆替换整文件字词同；其它算法/数值/控制流与R423三调用限定保。旧歧义程序未生成可执行文件，不冒运行等价/编译通过。204须新launcher/helper/bridge/reader真实绑定新stage与编号，真91重新生成原19200完整128/replay/576×224/112/338/audit，R446待实际run。
+[204完整入口](notes/2026-11-16-request204-qualified-stats-complete-final128-interface.md)随本提交发布：原199全部89pins逐值保，加已刊[R445](results/R445-single-qualified-SIMD-stats-type-and-unchanged-stage-body.md)单处stats类型源及四入口=94；六份全diff与接口全文已读，原三调用限定函数逐字同。request76649B/7e6f600e、workflow31909B/b5854ae5，真91新生原19200秒/32×10/2e−9/576×224/112/338与全部四组件；原预算、quiet、单90KB和条件清理不变。R446=amplitude唯一终态读回，实际run/source另绑；不借199已删raw，不冒编译或科学成功。
 
 ### 1C. 真37→38、实际独立39及原非线性域
 
