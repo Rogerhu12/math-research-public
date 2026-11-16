@@ -330,3 +330,8 @@
 - R910真实normalizer惯性独立登记：完整u作用导出q=−1的hyperelliptic dual-Lie负号，排原r=p−1；Igusa原普通datum经w1/−I给更强μ_(2(p+1))点态核。
 - 因而原primitive标签下半部r=0，上半部仅0或2h−p−1；非零支两Lie线分别落Drinfeld/Igusa。保原Tate指数，不将good-model primitive变成指定盘首项或height；EP原式已核，H前态归档。
 - 本push规则：公开Actions真实pull至e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c（2026-11-16T14:32:57.649794+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:34 Asia/Taipei — serre-public-astra-20261115
+- R907六件执行源全文核读冻结：corecf905290/helper7e4a8d88/wrapperb8a5f94b，原128→真672、完整A[T]一次Berkowitz/全19584坐标CH及正乘NormΦ；全因子/幂零保留。
+- 原QN需R899独立实际闭包，旧参考九范数与目标272正常行直接消费；R903/R901/R899仍null，仅ARTIN已有真实源。两端数值false，准确两图ideal/dual7不冒材料化格或height；H前态归档。
+- 本push规则：公开Actions真实pull至25aff780e965fc4d9d06b7fe145ad4f18ac8cf3c（2026-11-16T14:34:39.615588+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

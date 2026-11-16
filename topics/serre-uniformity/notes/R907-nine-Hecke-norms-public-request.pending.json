@@ -1,0 +1,123 @@
+{
+  "result": "R907-original-Iz-pencils-and-nine-Hecke-norm-generators",
+  "p": 41,
+  "producer_inputs_pending": true,
+  "session": "serre-public-astra-20261115",
+  "core": "R907_original_Iz_pencils_and_nine_Hecke_norms.py",
+  "core_sha256": "cf905290bf90c1af7247dcd8b6f96f403e8f965cdee628ee01178c036c139d45",
+  "helper": "R907_complete_pencil_norm_algebra.py",
+  "helper_sha256": "7e4a8d882b15b202fed6e440e09b00db03ec7d605103245dfbf912ecfdbd8d57",
+  "wrapper": "R907_public_original_nine_Hecke_norms.py",
+  "wrapper_sha256": "b8a5f94b5f4454d173eb4177f8c61917ba696eeffef1cb828b78b54f028f7e80",
+  "original_Artin_helper": "R885_whole_Artin_algebra.py",
+  "original_Artin_helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+  "stdlib_io": "R890_public_original_Ef_eight_flip_and_marked_frame.py",
+  "stdlib_io_sha256": "5a5e706d11d3b61a6af7acadd4624f7f1e398afe02e6ee77c339fcf7b01f57f1",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md",
+  "method_sha256": "44e3ef90145ad6cde13cefa9fa811100da0f6004efec2ef5edfc24393e4a8057",
+  "workflow": ".github/workflows/serre-R907-nine-Hecke-norms.yml",
+  "proofs": {
+    "R876": {
+      "path": "results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md",
+      "sha256": "2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47"
+    },
+    "R873": {
+      "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+    },
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    },
+    "R879": {
+      "path": "results/R879-original-reference-pole254-pencil-from-completed-syzygies.md",
+      "sha256": "5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055"
+    },
+    "R894": {
+      "path": "results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
+      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b"
+    },
+    "R899": {
+      "path": "results/R899-original-K-fixed-trace-RR-basis-from-fibre-coordinates.md",
+      "sha256": "eff6a8abf489bedf2cda8549a027ebd250717b2ddedece420f2a9d729cebc044"
+    },
+    "R900": {
+      "path": "results/R900-original-K-defined-bounded-trace-representative-and-marked-principal.md",
+      "sha256": "af61b2f016d8280f6abcb23988e6d71aaeb3ffffc7575e3ff08d22ee805d1dcb"
+    },
+    "R901": {
+      "path": "results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md",
+      "sha256": "83a18d8a4236567bbd3b0f76920f37de1ded1085b33bf4275507c039922125f2"
+    },
+    "R903": {
+      "path": "results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md",
+      "sha256": "9fcf3c2cb08688bfe40fdaed91358bed5097a0e0442276e30d30eb63bfaab855"
+    }
+  },
+  "source_artifacts": {
+    "R903": null,
+    "R901": null,
+    "R899": null,
+    "ARTIN": {
+      "result": "R885-original-whole-Artin-reference-norms",
+      "run_id": "43848870181",
+      "source_commit": "a22acdb019714f55bf182feb958425f8954da2ca",
+      "core_sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
+      "wrapper_sha256": "ed310d9c340cf09c98cb71c10c01948f101121d9d6c30329ccf78f6e3d0cebe5",
+      "manifest_sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035",
+      "manifest_bytes": 53331,
+      "manifest_file_count": 334,
+      "configuration_sha256": "9e419bbb3c496d943187e4ca3a368c97247dc3c8531a8f8a09d403758a0b0df6",
+      "certificate": {
+        "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+        "bytes": 58002,
+        "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+      },
+      "artifact_id": 14218009053,
+      "artifact_name": "serre-global-R885-whole-Artin-reference-norms-43848870181-1",
+      "archive_bytes": 145477237,
+      "archive_sha256": "7a0e8785b1e68d4944d7b44c0f9d8ddaf425cc4debea127352e316bb885e769e",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T10:56:08Z"
+    }
+  },
+  "prepared_transport": {},
+  "pending_original_producer_contract": {
+    "R903": {
+      "result": "R903-original-five-Iz-two-weight-RR-and-marked-frame",
+      "core_sha256": "bc3e9a53af16b4897b410ca2d2564959bbef8a0f2ad330f1c91ac5b9e6c1c88c",
+      "required": "actual five128 + marked Phi + R901 original input inventory/carrier"
+    },
+    "R901": {
+      "result": "R901-original-five-Z-shared-bounded-flip-DAG",
+      "required": "complete five QZ, full126 local u plus original35 Qj and QK leaves, exact originals retained"
+    },
+    "R899": {
+      "result": "R899-original-K-fixed-seven-trace-RR-basis",
+      "required": "source-audit.inputs plus original QN leaf inventory/carrier and existing a0 interpolation if actually completed"
+    }
+  },
+  "requested_directions": [
+    1
+  ],
+  "maximum_pencil_trials": 4,
+  "maximum_fibre_triples": 35,
+  "budget_minutes": 300,
+  "minimum_free_disk_bytes": 536870912,
+  "resume": null,
+  "rules_last_read_commit": "e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "all_new_mathematics_only_in_public_Actions": true,
+  "actual_pencils_or_norms_completed_in_this_request": 0,
+  "endpoint_P0_P1_numeric_source": null,
+  "P0_endpoint_numeric_calibration_requested": false,
+  "P1_endpoint_numeric_calibration_requested": false,
+  "endpoint_transition_scalars_set_to_one": false,
+  "old_flips_Krylov_target_normal_rows_reference_norms_or_jets_recomputed": false,
+  "modular_zero_used_for_inactive_or_height": false
+}

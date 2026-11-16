@@ -2,39 +2,64 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-normalizer-inertia-and-one-sided-CM-gluing",
-  "commit_message": "serre: restrict original CM gluing by the complete normalizer inertia action",
-  "rules_last_read_commit": "dafd0969d1b07a3750ebcf87fd16f55b2ab3323b",
+  "request_id": "20261116-freeze-original-Iz-pencil-and-nine-Hecke-norm-consumer",
+  "commit_message": "serre: freeze original Iz pencil and nine whole-Artin norm execution sources",
+  "rules_last_read_commit": "e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "78f390842a855a479fa167d889a5bfb55477bf22b58898816e0d6ad6b507129e",
+  "expected_previous_request_sha256": "788a51556097aec56cf4ca417a51e3cafe699643c4325cdaf8a5aa6d4604daad",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md",
-      "sha256": "d5f43a20d30cf2efa4e926117000bffbebc7394bf7f5aa423c4f84aba879f4d1",
+      "path": "topics/serre-uniformity/scripts/R907_original_Iz_pencils_and_nine_Hecke_norms.py",
+      "sha256": "cf905290bf90c1af7247dcd8b6f96f403e8f965cdee628ee01178c036c139d45",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-normalizer-CM-gluing.md",
-      "sha256": "40cf604b409dd2b5e296a62decc46a6b4db77d3dd225ed85b37320468e10ffeb",
+      "path": "topics/serre-uniformity/scripts/R907_complete_pencil_norm_algebra.py",
+      "sha256": "7e4a8d882b15b202fed6e440e09b00db03ec7d605103245dfbf912ecfdbd8d57",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R907_public_original_nine_Hecke_norms.py",
+      "sha256": "b8a5f94b5f4454d173eb4177f8c61917ba696eeffef1cb828b78b54f028f7e80",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md",
+      "sha256": "44e3ef90145ad6cde13cefa9fa811100da0f6004efec2ef5edfc24393e4a8057",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R907-nine-Hecke-norms.yml",
+      "sha256": "c198a5f9633c9969be2e20b1aeea6ef6c942cb4efd1c7331cdcbc38c81808a34",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R907-nine-Hecke-norms-public-request.pending.json",
+      "sha256": "7332a7fb2384c08fceac1cf7812078f18bf76848141b197f0334676b588c9c99",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-nine-Hecke-norm-consumer.md",
+      "sha256": "8a6bddb1616f1e55495b83112e7e0725ce450317380f94090ef9d0cc093cfa30",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "16477ec503d5c1cc82316287da58a70666c3870916b4b5e46997cc5a99afe9aa",
-      "expected_previous_sha256": "40cf604b409dd2b5e296a62decc46a6b4db77d3dd225ed85b37320468e10ffeb"
+      "sha256": "88a2feaf3a9924124ed42bb5f4ffc4837a949734317bfd960c27330bc5a49099",
+      "expected_previous_sha256": "8a6bddb1616f1e55495b83112e7e0725ce450317380f94090ef9d0cc093cfa30"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "ff55d6cb31ab412ac10aeb46f2ca7232a3e6a9984e4f4355db3d7f76af303e2a",
-      "expected_previous_sha256": "2491619cf5dcbf400031805e996dd930934fbc2edef4534693d5c884b7867494"
+      "sha256": "993b3e18eeb0880b9d060290110b3ef5206c7c62296fa6460c7fc98e72e31dbc",
+      "expected_previous_sha256": "ff55d6cb31ab412ac10aeb46f2ca7232a3e6a9984e4f4355db3d7f76af303e2a"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "4b0bdf611de5499a9cc6f74bbe672b3480c4fcd21c9ebb205d745c20eb812ada",
-      "expected_previous_sha256": "a43f7e98a5da2ee618682eeecc2490c57620eabcf714a41e627d7f05a310ae7a"
+      "sha256": "061589d97ee3ef48b3580a36a2f27cfc946669c8c43aa62612a905ae15a66ec5",
+      "expected_previous_sha256": "781bf0bfd7d5ff061836e3b5c62bd2bdeed08e81992d31c0ea414dd958dc5eb5"
     }
   ],
   "dispatch_workflows": []

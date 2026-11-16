@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c**（2026-11-16T14:32:57.649794+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[正规化子CM限制前H](handoff-archive-2026-11-16-before-normalizer-CM-gluing.md)，内接有限平坦比较前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：25aff780e965fc4d9d06b7fe145ad4f18ac8cf3c**（2026-11-16T14:34:39.615588+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[九Hecke范数消费者前H](handoff-archive-2026-11-16-before-nine-Hecke-norm-consumer.md)，内接正规化子限制前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -48,19 +48,21 @@ R890/R880/R885/R893及上述源全部完整pins、旧W/K/正常/jets与不可改
 
 **[R905七源连接](results/R905-original-bounded-divisor-trace-dual-connections.md)**：同D418→146，真272纤维单位/同度给两图格，迹对偶670/全544主部秩543；特殊真h支和fallback保全。五Dj/X/DN经QN校正、Gal7与真cY平均给原I_Z，不等R900/126树。ordinary_local正写实际消费者。
 
-**[R909三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)**：完整V3/(τU_D)544商与留数完美配对，把全主部移到不交H_a；同F0逆0/1/2阶给矩阵，目标用完整O_D/O_H两个272 Artin迹。低权除法及一个真V1乘法/完整幂基可复用七源；不剥nilpotent/分歧或重Γ。实际新连接旗标仍false。exact_height已冻R907真672/九Norm消费者待root读，两端数值仍缺。
+**[R909三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)**：完整V3/(τU_D)544商与留数完美配对，把全主部移到不交H_a；同F0逆0/1/2阶给矩阵，目标用完整O_D/O_H两个272 Artin迹。低权除法及一个真V1乘法/完整幂基可复用七源；不剥nilpotent/分歧或重Γ。实际新连接旗标仍false。R907已全文核读冻结，详下。
+
+**[R907九范数执行源](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)** 六件已全文读并冻结：corecf905290/helper7e4a8d88/wrapperb8a5f94b/method44e3ef90。原128给816×836真实672；完整A272/E2176中一次A[T] Berkowitz、19584坐标CH并正乘NormΦ，九值保全部幂零。QN另从R899真实闭包读取，不把R901 metadata当叶值；参考九值/旧K全复用。pending R903/R901/R899仍null，ARTIN已成43848870181绑定；两图九生成元/colon逆/dual7为准确表达，P0/P1数值仍false。exact_height继续原两固定支与两长度3轨道的端点帧。
 
 五Lj128/144、原YP/FM128/634/508rank507、c/a(P1)、活跃eη、d/N/nonp、Poincaré/splitting/高度仍缺；I_Z不代real-descent Rcal I_Z³。R870原16 ni/1959位d*及含7-primary挠判有效，仅合法好约化niPiξj非零判活跃。
 
 ## 全p原整源与最新定理
 
-R859–R898 原BT、全G/Drinfeld、cusp整格、CM单位/KS、theta整lift/Φ/e0/Weyl/det、两旗(6,6)/36、Γ=−pΦ0、degree4/12/content/mixedθ、Θ非交换/跨p修正、fi基点/36挠点界及原36整基均已证。R898整J_h、β̄=P_(h−1)(1/s)/P_(h−1)(0)和指定J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12保原chirp/同h；GL2(k)/Hermitian与det半周期不合并。primitive指定jet及真实模曲线/height格桥仍缺。
+R859–R898原BT/Drinfeld/cusp/CM/KS/theta整lift与两旗36源均已证，完整边界沿前态；R898整J_h与β̄=P_(h−1)(1/s)/P_(h−1)(0)、指定J32=(6B)^5(P_(h−1)(1/s)fi gj)^p/12保原同h/phase。GL2(k)/Hermitian/det半周期不合并，指定jet与原模曲线/height格桥仍缺。
 
 **[R904原Wronskian](results/R904-original-six-channel-Wronskians-and-torsion-vanishing-sequences.md)**：Q^r六列r≥5在K^p独立，ordinary Wr非零/36挠点同权≤p；r5 div=pE[6]和原常数，r≥6真实六行消失序列/w≡5mod6已证。不冒互补primitive/Legendre指定jet非零。
 
-**[R906原整Tate像](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)**：原fine level6源的σ=τ^(e/2)固定完整dual graph/period lattice；原正CM残余两指数皆奇，σ−1在实际M=qTpJ上有整逆。原q不换optimal且不除p，严格得qTpJ=qB TpB，逐h原index不变。root已核EP/Emerton/Mazur原文及R390；e=p²−1时小分歧cotangent定理不可用，Hodge饱和/CM第一normal项仍缺。sigma_uniform继续R908实际finite-flat gluing。
+**[R906整Tate像](results/R906-original-period-lattice-and-integral-CM-Tate-image.md)**：原fine level6图/period lattice在σ下固定，正CM实际M上σ−1整可逆，原qTpJ=qB TpB且逐h index不变。不换optimal；e=p²−1不许小分歧cotangent定理。
 
-**[R908有限平坦CM](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)**：保原a_h，完整BT给e_hq_B=[p^a_h]f_h；实际kernel闭包商D_h有原δ的Fp²作用。Raynaud尺度及σ点态平凡给(0,r偶)，真Cartier对偶Lie单射与两原惯性核给r∈{0,p−1,ρ_h}。r0的good-model原content=ea_h，非零支≥ea_h+pr；未冒指定盘normal。root已核Raynaud/EP原文。
+**[R908有限平坦CM](results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md)**：原e_hq_B=[p^a_h]f_h，真kernel闭包商D_h带δ的Fp²作用；Raynaud尺度及Cartier对偶Lie单射给r∈{0,p−1,ρ_h}。good-model原content：r0恰ea_h，非零≥ea_h+pr；未冒指定盘normal。
 
 **[R910原normalizer限制](results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md)** 已证：真实全惯性u在fine Drinfeld quotient上(X,Y)→(q²X,qY)，q=u^(p−1)；q=−1为hyperelliptic，dual Lie同−1，排r=p−1。原Igusa普通datum经w1/−I给μ_(2(p+1))点态核，故h<(p+1)/2时r=0，h>(p+1)/2仅r∈{0,2h−p−1}。非零支两Lie线分别来自Drinfeld/Igusa；不假定Igusa ordinary，原a_h、指定盘normal、同h第五jet及height仍保留。sigma_uniform继续真实Igusa αp字符。
 
