@@ -492,3 +492,6 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 
 - **R437：最高有理规范行是完整period核零行。** [证明](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)（11564B/SHA92556a770172b8c9bc24406bbc45dfe71f561f10a037f4feb12c7a5b8d000dd9）完整FY2总导数与原尾给P2θ=κI2(Yff,k)/24、相位无关，杀整个kerLf；13行rank≤12、底≤9，不授余行独立。两真实period特解的该配对各0是核不可调条件；incoming X两贡献准确保留。已明确R326 V=p2与R259 Y别名；无新执行，未付真实兼容数值/全period/余12行。
+
+
+- **R438：S常尾原列给同一镜对库十五条实际通量。** [证明](results/R438-constant-tail-S-responses-and-fifteen-joint-actual-mirror-fluxes.md)（13954B/SHAa3b99fe2f42cd886ceab9a1df2619170f4f65aefaf7c0fa63fa00b96bc9c4165）完整S self及常尾杀C，K+P/S给18formal；保K3全部u项、Q3完整左多项式，新增L3左0/right3κx³。原11左+4右actual15，无另根ratio；全镜族准确像(P≤10,TP+Q≤3)恰15。共同J⁺实际追加保全基准，保其它C仍需joint前提，H*有限核λ1。全不同根/period/规范仍欠，无新执行。
