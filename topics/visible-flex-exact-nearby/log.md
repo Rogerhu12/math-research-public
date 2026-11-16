@@ -282,3 +282,7 @@ WUE final9b5b13f0178c9a292ae8ba11264051c1fe438c14 /32557B /e191f96acc39ab802adb9
 只新增共享路径.github/workflows/visible-exact-actual-public-rules-pull.yml，理由是本地executor持续不可用且须实际pull至少每小时。workflow仅部分checkout、真实git pull --rebase origin main、与已读提交两README的diff及小运行结论；完全不运行旧或新数学、无数值数组/新artifact/Release。每次非快进立即真pull/rebase再push，两个README每次重核；规则变化只记待人工读diff，不冒已审。
 
 flow 348e0a2ca536da5238dd28f832e4442421450298 /6139B /ef057896ee240d434240a50762e01951362321002cfaee2fec5a47f7bc4306d8，只自身path push触发；记录notes/actual-public-rules-pull.md并检查topic≤200MB。本次准备与发布不冒实际run成功，待Actions回读后把真pull提交记入H；当前README核4f326cd1e0079026ad26bdafcabcc8ebdaacb635两blob不变。
+
+## 2026-11-16 05:28:24 UTC — 修正非数学规则同步的容量检查
+
+独立rules run43809999338/1在git步骤持续，源码复核发现git ls-tree -l在partial clone为读blob size可能懒取正文；立刻改为origin/main本课题tree的GitHub metadata递归只读size，不取数据。只改共享workflow同path，cancel-in-progress=true以替换这个无科学运行的旧同步job；没有旧数学/新数学/lost数值，尚不冒真pull成功。v2 ab5bc2dd82ca3e3fd08546be5cc7b64a1fb0a0f2 /6768B /574c4cd7ae2af07da700c270d8aef0184598865a528861f44545a57951850f71，README核9b9a1ffde84dfab732a121f1fd20a0d4dda875ce两blob同。

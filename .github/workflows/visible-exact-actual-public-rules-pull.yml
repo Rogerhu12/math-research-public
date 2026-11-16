@@ -11,10 +11,10 @@ permissions:
 
 concurrency:
   group: visible-exact-actual-public-rules-pull
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 env:
-  RULE_PULSE: '2026-11-16T05:24:00Z'
+  RULE_PULSE: '2026-11-16T05:28:00Z'
   LAST_READ_COMMIT: 8adc90dfe2c6943ab3ba3eaf67a52682302026a3
   EXPECTED_ROOT_README: 21bd547f56590b7f2dd279d0297efb289a9b2783
   EXPECTED_TOPIC_README: 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12
@@ -41,7 +41,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           python - <<'PY_RULE_PULL'
-          import base64, datetime, hashlib, os, pathlib, subprocess
+          import base64, datetime, hashlib, json, os, pathlib, subprocess, urllib.request
           def git(*args, check=True):
               p = subprocess.run(["git", *args], text=True, capture_output=True)
               if check and p.returncode:
@@ -100,10 +100,18 @@ jobs:
               ])
               receipt.parent.mkdir(parents=True, exist_ok=True)
               receipt.write_text(body)
-              sizes = git("ls-tree", "-r", "-l", "HEAD", "--", topic).stdout.splitlines()
-              total = sum(int(line.split(None, 4)[3]) for line in sizes if line.split(None, 4)[1] == "blob")
-              old_size = git("cat-file", "-s", "HEAD:" + str(receipt), check=False)
-              previous = int(old_size.stdout.strip()) if old_size.returncode == 0 else 0
+              # Blob sizes come from server metadata; git ls-tree -l could hydrate a partial clone.
+              topic_tree = git("rev-parse", "origin/main:" + topic).stdout.strip()
+              request = urllib.request.Request(
+                  "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/" + topic_tree + "?recursive=1",
+                  headers={"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"], "Accept": "application/vnd.github+json"})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  tree = json.load(response)
+              if tree.get("truncated"):
+                  raise RuntimeError("capacity metadata was truncated")
+              blobs = [entry for entry in tree["tree"] if entry["type"] == "blob"]
+              total = sum(entry["size"] for entry in blobs)
+              previous = next((entry["size"] for entry in blobs if entry["path"] == "notes/actual-public-rules-pull.md"), 0)
               if total - previous + len(body.encode()) > 200000000:
                   raise RuntimeError("topic capacity would exceed 200000000 bytes")
               git("add", "--sparse", str(receipt))
