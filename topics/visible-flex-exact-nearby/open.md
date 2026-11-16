@@ -27,14 +27,18 @@ reach/D≥800/25039、Hdiam/D≥360/511、markers145..148。
 
 截至44f19c4f的本节完整原段、球/pins/SCI/preGit、旧失败/lost、域/单位和所有条件逐字保[完整逆链检查点](notes/2026-11-16-completed-inverse-chain-through-physical-waist-leading.md)；更早源表与各原proof继续有效。以下仅更新当前数学入口，不改任何成功receipt或其false flags，全部旧成功禁重。
 
-### 2a. 当前物理腰行与正确输入、目标
+### 2a. 当前物理腰行与正确图域
 
-[WPR实际pair](results/R133-supplement-physical-reflection-pair-and-exact-waist-matching-row.md)707b8269/[RRF真反射](results/R133-supplement-true-reflection-rigidity-and-selected-waist-target.md)803302f2：
-$K_H=R_a-2h\Pi$、$h=U_{H^{-1}}1$、$a=2H(0)$保不置零；nonmean反射严格等距。真primitive腰目标是$P\operatorname{Fix}R_a$，原输入是$X^{\rm fr}=S_*D_+H_{\rm nat}$，两者不同；$T_i/T_o$不保同Xfr，旧fullcircle逆不改作该限制逆。raw行含原角导，不能给免费raw L2界。
+截至d039b72b3767feaf43422feeb1bbf14db532d7a6的完整本节及H活动链逐字保[物理行/graph/插值检查点](notes/2026-11-16-completed-physical-row-graph-and-interpolation-checkpoint.md)；原球、域、mean、失败/lost、恢复及各项未付义务不减。以下仅活动索引，不改成功receipt的false flags，旧成功禁重。
 
-[WPM均值与行账本](results/R133-supplement-physical-reflection-mean-rank-and-complete-scalar-row-ledger.md)65cc1ede：同反射state的两density mean槽只有rank1，只odd腰条件平均冗余。evenmean是完整耦合径向函数，ordinarysource/真ν项/外capmean/amp与所有独立ports保。A原boundary域$(\Pi,\ell_{\rm amp})$ local rank2、投影保mean，不授传播后square；endpoint沿h的自由方向不自动在Poisson图内。
-
-[WRA完整同列误差](results/R133-supplement-complete-reflected-incoming-error-and-physical-waist-row-defect.md)40fb2167仅在同$\delta_*$、p=0、fullU及$X_{-4/3}^{\rm fr}\to L^2_{\rm full}$闭完整Ei，原SWA整界复用；CG有限/two-I/两primitive rank/waist projection与整state各一次。真root低input在该域精确零，不删独立低head/source/第二reference；fullcircle或roughbulk不外推。完整相关row为$\mathcal BQ_R(Y_A-Y_{W,J})$，保PC/ST4/fullsource/3070jumps/cut/waistFT。
+| 已成同对象环节 | 当前可用范围与必须保留的条件 |
+|---|---|
+| WPR/RRF/WPM 真反射与mean | KH=Ra−2hΠ，a=2H(0)保；目标PFixRa与Xfr=S*D+Hnat不同，Ti/To不保Xfr。只有odd腰mean冗余；evenmean径向ODE、普通源、真ν、外capmean/amp及所有ports保；原boundary的local rank2不授传播后square。 |
+| WRA 完整同列Ei | 仅同δ*/p0/fullU/真实Xfr负窗，原SWA whole界和CG/finite/two-I/rank/state各一次。真root低input在该域零，不删独立lowhead/source/第二reference，不外推fullcircle或roughbulk。 |
+| [WIT/WIR 同一W](results/R133-supplement-interpolation-bounds-for-the-same-positive-density-intertwiner.md) | $G=IZ$正配对给同W真逆；WIR两次插值给1+L/2、1+N及whole strong(CD+LN)/2，forward另界，均符号。真hatP=WS P97 S^-1 W^-1及192/96补保；fullauxmean仍含WΔ1⊗Π，leading/error/所有行同右改。 |
+| [WBN/WBP 双边坐标](results/R133-supplement-polynomial-two-sided-reflected-waist-normalizer-bounds.md) | 旧Nperp与新B不同target，sourceA及B为G-skew真onto两窗poly。完整Rss保vi comm与有序two-I，aux常数仅Qa后消，(h−1)ρi保；W改动/whole E∂/真A^-1hatP A全部保，同坐标whole才可min。 |
+| [WCS/WFI 真实graph](results/R133-supplement-graph-domains-and-finite-index-ledger-for-the-reflected-waist-row.md) | 同νi=−μ*/2、原CYA gap只付高model一导loss≤2KCY，低96为reference。真96列落graph/dual有界，Dtrue闭余维96，complete E紧使同高齐次row index−96；投ordinaryhigh仍留96低输出式，补真96列仅调index0。 |
+| [WGB graph与有限边](results/R133-supplement-exact-graph-parameterization-and-physical-finite-border.md) | u=Mbarx得Id+K及尾门2KCY CF ΛJ^-1/3<1；原高列保96式VQ Gbar u=0。只有真Hphys到位才用差列(Hphys−MbarCQ)VQ Gbar。完整(q,z,κ)、rhs/ν高反馈条件等价，不授finiteinverse，未知infinite mean/head/rest不冒finite。 |
 
 [WPL实际leading](results/R133-supplement-complete-coefficient-reflection-and-physical-paired-waist-leading-row.md)052bd8ed：完整C反射给$c_o=-R_bc_i$、$b=a+\Omega$；原metric精确偶性+真实C2+bump近腰零给$\mathbf S(0)=0$。二阶$\mathbf Z(0)$含$\mathbf S_r$保留。实际归一化primitive腰行为
 $Q_aT_i+\mathcal E_\partial:X^{\rm fr}\to P\operatorname{Fix}R_a$，
@@ -42,29 +46,11 @@ $Q_aT_i+\mathcal E_\partial:X^{\rm fr}\to P\operatorname{Fix}R_a$，
 $Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
 因此物理first mean确为$\nu_i=\Pi c_i$；whole $C_\partial$仅有完整符号majorant，仍须可用的same-operator界。式45直接state row与三项余式不双计，不从旧upper删源或只在error侧消共同Ni。
 
-[WIT真实输入交织](results/R133-supplement-positive-density-intertwiner-for-the-true-reflected-input.md)13c5972c：$G=|D|^{-1}$配对使$\mathcal W=(1-Z\mathcal J)/2$无smallness真逆，旧完整DZA之Δ给L2/H−4/3同逆符号界$1+C_\Delta/2$。真域搬成$\operatorname{ran}\widehat P_{97}\cap\operatorname{Fix}(-ZR_b)$，其中$\widehat P_{97}=\mathcal WS P_{97}S^{-1}\mathcal W^{-1}$；192/96有限补不是ordinaryP97，fullauxmean仍有$\mathcal W\Delta1\otimes\Pi$。actual leading/error及所有相连行同右W逆。
-
-[WIR同W插值改进](results/R133-supplement-interpolation-bounds-for-the-same-positive-density-intertwiner.md)9ee0806f：同一完整D及J两窗插值给L2逆$1+L/2$、H−4/3逆$1+N$与whole strong$(C_D+LN)/2$；L/N及forward另界见原式。fullmeanrank/真finite/同坐标全部保，无新球。
-
-[WCS正确model](results/R133-supplement-certified-Cayley-gap-on-the-reflected-waist-model.md)4998ef82：同W/B/IC的$\nu_i=-\mu_*/2$给
-$q_n=\tfrac12(1-i\nu_i/k)(1+i\lambda_n)$。
-原CYA ξ=i的完整native gap使ordinary$P_J$反射model有一导loss逆$G_\nu\le2K_{\rm CY}$（旧K=256，未求新球），onto只在明确graph domain。完整E的正确target门是
-$(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$，
-次序$(1+E G_\nu)M_\nu$。任意自由ν仍可有限共振。
-
 [WAD完整伴随与第一行接收](results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md)0a92e2e5及[WADA实际完整证明](results/R133-supplement-actual-complete-physical-waist-first-row-bound.md)2737f96d：已由唯一43803459418/1实际消费：16门/9新球/1child/old0；[完整science](notes/physical_waist_first_row_receiver_ci/run-43803459418-1/actual-scientific-conclusion.json)77d17dad/29708给同natural-root→raw moving-angle primitive row整界$[4.74879859988486936681168611504295450063760366646214592528987914033956321\mathrm e{83}\pm1.36\mathrm e{11}]$，整条优于旧Cstar并选index1。14旧record/9whole scopes逐字，PC/ST4/cut/三源/全部3070jumps/waistFT全保；两preGit已独复，结果冻结禁重。真adjoint与fold-before-norm不等于已证signed cancellation；这个大upper仍不授小扰动门，也不能直接冒WPL不同归一化的E∂。
-
-[WBN双边非恒系数归约](results/R133-supplement-exact-two-sided-reflected-waist-first-coefficient-normalization.md)f6783549：原cohom使$R_aw=-w$、$R_b\alpha=-\alpha$($\alpha=v_i-w$)；target $N_\perp=PNP$真逆$PN^{-1}P$且fullmean block保。source $\mathcal A=1-\mathcal T_\alpha I$的same-sign压缩在G配对为skew，真onto逆G≤1、L2/H−4/3同逆为多项式符号界，精确保Z/Rb/real。完整$T_i\mathcal A=NT_\nu+R_{\rm alg}$保mean+halfcomm及有序two-I；actual双边行还保$T_i(W^{-1}-1)\mathcal A$和$E_\partial W^{-1}\mathcal A$。新$C_{\rm two}$仅whole符号式，源cut确为$\mathcal A^{-1}\widehat P_{97}\mathcal A$，非ordinarycut。
-
-[WBP多项式双边坐标](results/R133-supplement-polynomial-two-sided-reflected-waist-normalizer-bounds.md)19f0182f给显式不同target $\mathcal B=1+\mathcal T_wI$：两侧同G-skew构造皆真onto且L2/H−4/3同逆poly，不调用旧NPK指数。完整$R_{ss}=F_{v_i}-M_{c_i}I\mathcal T_\alpha I-\nu\mathcal T_wI^2$先函数级收集，再由Qa精确消aux常数；实际$(h-1)\rho_i$不是常数，不能删。actual $\mathcal B^{-1}\mathcal B_\partial W^{-1}\mathcal A$保W改动、whole E∂和真transported有限补。两个whole candidate属于此同一坐标才能选；不与WBN不同left-normalized remainder直接min。全部界仍符号。
 
 [WTS完整过渡替换与强窗阶数](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)bb7dff28：原Q大预算的qstar不含Js；即使改善三源，旧PC仍是该positive recipe的大项，并非真operator下界。新$V_\chi=V+(U-V)\chi$严格保新cut、ordinary source、所有3070jumps和waist term；只在same实际stable/head/rest及原source域下用positive graph uniqueness。critical $\rho_n\sim n^{-2/3}$没有频率衰减，$\chi'$乘宽度不免费；whole received列须$p>11/6$（HS），有true block界可用$p>4/3$。当前继续构造明确uniform U和完整PC/ST4同signed tuple的新界，不能靠删旧upper或重跑旧source。
 
 [JI全实区间角向真逆](results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md)01e4a33b：在原完整[0,rc]及real $|\delta|\le10^{-8}$，保全P/primitive的奇→偶mean0角算子$A$精确化为一个标量分母。由原SJ全pair Fourier A0及角A0，不用I的L∞错误界，解析得$D_J\ge(79/128)e^{-7/4}>0$；显式逆在每个固定$s$为同一个$H^s_{even,0}\to H^{s+1}_{odd}$映射。原rootJ仅真实交域/端点一致，不搬旧数费；N7 physicalmean与第一行、source/jump/boundary仍独立。新J0/J1仅完整符号recipe，未求新球或全段complex strip。这一入口已闭，可继续完整uniformU两行残差。
-
-[WFI实际graph与有限指数账](results/R133-supplement-graph-domains-and-finite-index-ledger-for-the-reflected-waist-row.md)7abf7f41：显式real低96 reference只补模型，先由Mbar在L2有界证明L2入graph；真transported96列落graph、dual在H−1有界，故Dtrue闭余维96。whole E只在真实子域经H−1紧嵌H−4/3，实际同齐次高列→whole反射primitive target Fredholm index=−96。投影到ordinary high target得到index0仍须96条真实低输出式；新增96真物理列也只给index0，不授span cokernel/ker0/逆。source/target必须运输实际graph，independentmean/ν/head/radial及fullPDE仍独立。
-
-[WGB同graph参数化与真实有限边](results/R133-supplement-exact-graph-parameterization-and-physical-finite-border.md)e7d23c58：$u=\overline Mx$给完整$Id+K$及新门$(2K_{CY})C_F\Lambda_J^{-1/3}<1$，未求数值。原高列仍须96式$V_Q\overline Gu=0$；仅真96物理列$H_{phys}$就位后才可改为$Id+K+(H_{phys}-\overline MC_Q)V_Q\overline G$。完整$(q,z,\varkappa)$高反馈/rhs/trueν三块条件等价保，reference不代physical，未知infinite mean/head/rest不冒有限。
 
 **当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。WFI已闭真实transported补在graph上的有界性与指数账；仍须实际physical有限列、全部输出交叉、pairing及匹配square逆，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 

@@ -244,3 +244,7 @@ root全文14073B/9ee0806f核两次Bessel插值指数、homogeneous比较r4与L2�
 ## 2026-11-16 04:37:40 UTC — fresh guard后完成唯一383423B派生报告普通删除
 
 严格按先推1bf298eb86605b1783a9163df8e8b57bb8ee5474白名单，fresh current-tree metadata确认唯一path仍为blob84014a5610e062cdcb19ce592fdea119b6a0646c、383423B后删，未改其原数学。restore7d7ce88415ed4a23e73ee49abaa1d3c059379a37同path及完整SHA e8bea2d84985897aa0930c3efd3f0669502ba086883bc9d3ec1fad3b855059bc。原largebody未下载、未重hash或重producer；smallproof/source/native/canonicaldomain与原失败/未付门全保。fresh 1bf298eb86605b1783a9163df8e8b57bb8ee5474两README未变。当前研究继续真实global U/source与graph high/finite；本删除不授权重复已成科学。
+
+## 2026-11-16 04:38:54 UTC — 已成物理行/graph/插值链逐字归档，活动页压缩
+
+新小检查点notes/2026-11-16-completed-physical-row-graph-and-interpolation-checkpoint.md逐字保d039b72b3767feaf43422feeb1bbf14db532d7a6同open第2a节8904B及H活动链3274B，各原段SHA独记；源码式链接在原文围栏中完全不改。open仅将已成WPR/WPM/WRA/WIT/WIR/WBN/WBP/WCS/WFI/WGB折为活动表，当前WPL/WADA/WTS/JI及剩余门全文保；其余2b–7不动。H同样只缩已成链，全原球/mean/域/失败/lost/恢复/未付finite/ν/wholecore继续有效，不重任何成功数学。fresh f27626c5404c643353ea17597195317210281446两README未变，接着付globalU完整来源和高块门。
