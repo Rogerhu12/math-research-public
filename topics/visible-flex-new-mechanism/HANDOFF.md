@@ -38,10 +38,10 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 54 MODEL已闭，不能当55 J。真实55 CACHE2为29873051B/9e2d8986f82674d5fef27b530b177798419a203bfbef4782c632c23a8ed5870f，binding697ee3cbaa48d26e0d6b0e230524523732c3cd96e572711ebf2044e9c5a3a2b6，只含已付U/T/e/f/grid/159，缺positions/curvature/二jets/J；完整身份见原55note。全部payload仅原stdout。
 
-## 5. 正在接续（2026-11-16 09:30:55 UTC）
+## 5. 正在接续（2026-11-16 09:31:22 UTC）
 
 [三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
 
-[55完整新9fiber首次执行](notes/true55-complete-new-nine-fiber-design-20261116.md)已发布源/参数/工作流，自动Actions待实际run。独立168/物理172，旧159固定55；两网必要ordinary/硬J9/完整metric9同一新600秒。16新行集/全网一阶分离、64新行、64scalar、3actualpairs；先原11维有限问题，再完整φ(e0+αde,f0+αdf)，最后原14实际门+准确172盒，须比55新降≥1e−7。原spectral池学习与Schur实际门保持各自语义。55旧账2073.56241112秒/134值不重开，旧159J/开发0；新9失败只限该纤维。全部缓存仅原stdout，FINAL_CLOCK含大输出与真实overrun，report只读唯一原job。
+[55完整新9fiber首次执行](notes/true55-complete-new-nine-fiber-design-20261116.md)已发布源/参数/工作流，公开run43840452377/source09f498cac5d2fad47a35f007b68fe66218420d98正在运行。独立168/物理172，旧159固定55；两网必要ordinary/硬J9/完整metric9同一新600秒。16新行集/全网一阶分离、64新行、64scalar、3actualpairs；先原11维有限问题，再完整φ(e0+αde,f0+αdf)，最后原14实际门+准确172盒，须比55新降≥1e−7。原spectral池学习与Schur实际门保持各自语义。55旧账2073.56241112秒/134值不重开，旧159J/开发0；新9失败只限该纤维。全部缓存仅原stdout，FINAL_CLOCK含大输出与真实overrun，report只读唯一原job。
 
 旧cap15/冻结ψ3及三原子有限任务均闭；来源/费用见各原notes，不重开余额。主完成门未付，继续open。
