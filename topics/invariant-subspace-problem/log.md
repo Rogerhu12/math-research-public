@@ -828,3 +828,7 @@ H/open全文归档后压缩当前入口，源/界面根全文已审；旧session
 ## 2026-11-16 01:50 UTC — 直接同actual-u的完整Gram真核逼近
 完整V_Q^0物理Gram的grade带宽＋Chebyshev给原k_pol∈K_Q，误差≤2ρ^ν/(1+ρ^(2ν))||PVf||，无κ²前因子或远池；所有低孔forcing统一。
 代真实头logQ主项35d⁴/6、u≤2e^−2m；母carry全双幂仍O(d⁵)、原N=M未闭。根核全证明/物理Ψ原来源，实际pull核规后push。
+
+## 2026-11-16 01:51 UTC — 全七残域高核恢复及原127广义泛函入队
+三域复用4259主元，各约1.6…1.7秒，42126原产品/free-I7全真；完整field核仅162支撑，Q维仍2…7，接153×60真实Q构造。
+原E8-1广义detector300秒/4GiB同步排新live，保全部GB/free13 jets及完整primary10维覆盖，尚无4367运输/Bockstein。实际pull核规后push。
