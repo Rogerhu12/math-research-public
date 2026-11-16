@@ -376,3 +376,7 @@ WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21�
 ### 2026-11-16 06:50:58 UTC — Schur/端点与cleanup的完整恢复检查点
 
 公开2b03224d6e885c863ce9efeb655993d446a9bdaa的H/open全文逐字存notes/2026-11-16-completed-Schur-Parseval-and-endpoint-checkpoint.md（40971B，SHA8920c3fe4a34ceb9abb79d459dd461edfd75a64b740bdae118a958ca83fb8d08）；原38135c98的H9800B/open29954B及全部球/域/mean/failed/lost/restore保全，只压闭合链索引和已完成cleanup说明。WSP43816689251成功禁重，WGS尚未运行；双SCI/437槽完整静态契约继续核。仅文字与hash，0新数学。两README未变，当前读取提交记H。
+
+### 2026-11-16 07:01:06 UTC — WGS完整全局有限jet冻结包
+
+完整全局fold/free transport唯一新消费者已推送独立公开workflow，尚未把静态合同记作actual成功。source8cb11562/94516B/SHA d32fe912b7ebcb1ee6050589cf06ebf5512475a9c2636c584092c2d12be51e4f；math afa3b49b/31846B/cb9c9aa0；worker d8d07995/99748B/5c477f3f；manifest55ee5c9e/27556B/240b445e；budget11fc7149/21544B/bce3b4b5；workflow ed2a5862/5008B/0473b404。20 current+2原history（4501+20924）、19数学roles/7AST/801115输入字节，4旧producer只parse/literal、旧source0调用；原whole数学成功和formatter失败逐字区分。437新球保持75位/320bit，36主/22原copy字段、24门/25progress，8完整graph。root全文核所有改动操作/reader/math，17共用constants和26worker格式核全过；证书元组仅canonical格式修复。完整主SCI95000、原输入SCI50000、report8000、exec59000上限及230000总预留，各自完整独立preGit，原子存双SCI、同输入成功/partial锁，无新array/artifact/Release。freshe619a7a85cdc57ef162a536ba30cd834540528a4两README未变；metadata容量199040767B，topic包275210B，连230000预留+10000文档余量199555977B。仅静态文字/形状/hash工作，0新科学执行；取得唯一run后只读实际完整结果并续后半。

@@ -1,0 +1,461 @@
+{
+  "kind": "complete_global_fold_free_transport_finite_jets_public_inputs_v1",
+  "public_repository": "Rogerhu12/math-research-public",
+  "source_path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets.py",
+  "source_sha256": "d32fe912b7ebcb1ee6050589cf06ebf5512475a9c2636c584092c2d12be51e4f",
+  "contract_paths": {
+    "wgs_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md",
+    "wui_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md",
+    "wua_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md"
+  },
+  "operational_live_review_index": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-live-reviewed-public-CI-rules-index.json",
+  "all_inputs_are_current_small_texts": false,
+  "legacy_artifact_inputs": [],
+  "old_successful_scientific_calls_allowed": false,
+  "new_native_arrays_or_artifact_persistence_allowed": false,
+  "input_paths": {
+    "source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets.py",
+    "math_module": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_jet_math.py",
+    "worker": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py",
+    "rules": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "wgs_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md",
+    "wui_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md",
+    "wua_contract": "topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md",
+    "fa_science": "topics/visible-flex-exact-nearby/notes/free_Airy_first_omitted_cut_scalars_ci/run-43763658978-1/actual-scientific-conclusion.json",
+    "sj_execution": "topics/visible-flex-exact-nearby/notes/strict_radial_first_symbol_defect_ci/run-43768006977-1/execution.json",
+    "wx_execution": "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+    "dza_science": "topics/visible-flex-exact-nearby/notes/fourth_angle_global_sign_budgets_ci/run-43773671216-1/actual-scientific-conclusion.json",
+    "fa_manifest": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-free-Airy-first-omitted-cut-scalars-CI-inputs.json",
+    "adjacent_process": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "adjacent_publication": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "whole_process": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+    "whole_publication": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+    "original_fa_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py",
+    "original_adjacent_source": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py",
+    "original_fold_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "original_whole_algorithm": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py",
+    "fold_majorants_native": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "free_radius_native": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz"
+  },
+  "current_text_input_roles": [
+    "source",
+    "math_module",
+    "worker",
+    "rules",
+    "wgs_contract",
+    "wui_contract",
+    "wua_contract",
+    "fa_science",
+    "sj_execution",
+    "wx_execution",
+    "dza_science",
+    "fa_manifest",
+    "adjacent_process",
+    "adjacent_publication",
+    "whole_process",
+    "whole_publication",
+    "original_fa_source",
+    "original_adjacent_source",
+    "original_fold_algorithm",
+    "original_whole_algorithm"
+  ],
+  "current_input_paths": [
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_jet_math.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md",
+    "topics/visible-flex-exact-nearby/notes/free_Airy_first_omitted_cut_scalars_ci/run-43763658978-1/actual-scientific-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/strict_radial_first_symbol_defect_ci/run-43768006977-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+    "topics/visible-flex-exact-nearby/notes/fourth_angle_global_sign_budgets_ci/run-43773671216-1/actual-scientific-conclusion.json",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-free-Airy-first-omitted-cut-scalars-CI-inputs.json",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py"
+  ],
+  "historical_input_roles": [
+    "fold_majorants_native",
+    "free_radius_native"
+  ],
+  "historical_input_paths": [
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz"
+  ],
+  "file_sha256": {
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets.py": "d32fe912b7ebcb1ee6050589cf06ebf5512475a9c2636c584092c2d12be51e4f",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_jet_math.py": "cb9c9aa0f7e5749967ece4e51210f359b4c58eecc7f83a05040607543ac47621",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py": "5c477f3f0b6eb5ca0b3a072afdbe6e9251320d4121ecf729762e07f732cdb328",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md": "4d3638fe6ae8793b937d4c7f57a4c092d59d41df94991722d8b622ed958e576e",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md": "2a77f1cd53a09c952daa8ba64eebe2bb80bb2e9735c6c78e3ceaba4223ad90d6",
+    "topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md": "9cd778ec8c97904b29524ae8b8252c14304eedfdc67d4ffec48affa79ae18bad",
+    "topics/visible-flex-exact-nearby/notes/free_Airy_first_omitted_cut_scalars_ci/run-43763658978-1/actual-scientific-conclusion.json": "2985b74e314f39fc52d587dae193fd5eacb12d75ea42c45bc88fe73848dc64f2",
+    "topics/visible-flex-exact-nearby/notes/strict_radial_first_symbol_defect_ci/run-43768006977-1/execution.json": "2540a3a81f1b6cd83c24b6a1c9ad2bdc119fb04a9a37c0251f6157a3cbc7cb88",
+    "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12",
+    "topics/visible-flex-exact-nearby/notes/fourth_angle_global_sign_budgets_ci/run-43773671216-1/actual-scientific-conclusion.json": "05036749a28c55499e2ed6fe47019cd31f4438652e3e6ab1319e6f9f2f2c4dba",
+    "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-free-Airy-first-omitted-cut-scalars-CI-inputs.json": "d06951509b4af18ce5039997c032b6377c0c55be07bd01f79a686c2471e4dd6b",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b",
+    "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145",
+    "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py": "a6c89d502f7583bba3b663c4296ec462fd892ad01e94427dbe55bc1c3d304954",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py": "fa344d170bca13c3faec22034aabbeab27da6116daef59f45c128c011998758d",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783",
+    "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81"
+  },
+  "mathematical_input_sha256": {
+    "adjacent_process": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b",
+    "adjacent_publication": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c",
+    "dza_science": "05036749a28c55499e2ed6fe47019cd31f4438652e3e6ab1319e6f9f2f2c4dba",
+    "fa_manifest": "d06951509b4af18ce5039997c032b6377c0c55be07bd01f79a686c2471e4dd6b",
+    "fa_science": "2985b74e314f39fc52d587dae193fd5eacb12d75ea42c45bc88fe73848dc64f2",
+    "math_module": "cb9c9aa0f7e5749967ece4e51210f359b4c58eecc7f83a05040607543ac47621",
+    "original_adjacent_source": "fa344d170bca13c3faec22034aabbeab27da6116daef59f45c128c011998758d",
+    "original_fa_source": "a6c89d502f7583bba3b663c4296ec462fd892ad01e94427dbe55bc1c3d304954",
+    "original_fold_algorithm": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783",
+    "original_whole_algorithm": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81",
+    "sj_execution": "2540a3a81f1b6cd83c24b6a1c9ad2bdc119fb04a9a37c0251f6157a3cbc7cb88",
+    "wgs_contract": "4d3638fe6ae8793b937d4c7f57a4c092d59d41df94991722d8b622ed958e576e",
+    "whole_process": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145",
+    "whole_publication": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099",
+    "wua_contract": "9cd778ec8c97904b29524ae8b8252c14304eedfdc67d4ffec48affa79ae18bad",
+    "wui_contract": "2a77f1cd53a09c952daa8ba64eebe2bb80bb2e9735c6c78e3ceaba4223ad90d6",
+    "wx_execution": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12",
+    "fold_majorants_native": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144",
+    "free_radius_native": "8b31b1c0030f892ec763d32ecf7b4968d468c5f93b30bbfe7408d6bf0b4892d5"
+  },
+  "expected_actual_gate_count": 24,
+  "expected_immutable_AST_files": 7,
+  "expected_input_count": 22,
+  "expected_current_input_count": 20,
+  "expected_historical_input_count": 2,
+  "expected_mathematical_input_roles": 19,
+  "complete_input_bytes": 801115,
+  "scientific_runtime": {
+    "Python": "3.12.14",
+    "python_flint": "0.9.0"
+  },
+  "new_scientific_timeout_seconds": 900,
+  "parameters": {
+    "actual_original_interfaces": 3070,
+    "arithmetic_bits": 320,
+    "background_physical_bandwidth": 384,
+    "complete_genuine_potential_and_received_error_claimed": false,
+    "derivative_convention": "ordinary one-sided radial derivatives and physical angular derivatives; complete Fourier A0 norms",
+    "drift_label_bandwidth": 192,
+    "exact_coefficient_strip": "1/32",
+    "exact_fold_radius": "3/8000",
+    "exact_fold_strip": "3/128",
+    "exact_old_free_holomorphic_radius": "1/6000",
+    "exact_old_free_holomorphic_width": "1/128",
+    "exact_real_delta_radius": "1/100000000",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "exact_saved_free_radius": "9/1000000",
+    "exact_saved_free_width": "1/512",
+    "exact_strict_cut": "76285779072683/320000000000000",
+    "exact_strict_interval": [
+      "0",
+      "76285779072683/320000000000000"
+    ],
+    "expected_actual_gate_count": 24,
+    "expected_current_inputs": 20,
+    "expected_historical_inputs": 2,
+    "expected_immutable_AST_files": 7,
+    "expected_mathematical_input_roles": 19,
+    "expected_total_inputs": 22,
+    "fixed_intrinsic_parameter": "eta_0",
+    "formal_angular_weight": 1,
+    "formal_radial_weight": 1,
+    "historical_gzip_input_only": true,
+    "jet_shapes": {
+      "forcing": [
+        12,
+        1
+      ],
+      "free_transport": [
+        12,
+        2
+      ],
+      "geometry": [
+        15,
+        3
+      ],
+      "leading": [
+        14,
+        3
+      ]
+    },
+    "maximum_strict_radial_degree": 3,
+    "maximum_total_degree": 15,
+    "new_ray_ODE_solves": 0,
+    "new_scalar_exponentials": 0,
+    "new_scalar_logarithms": 0,
+    "old_cut_phase_derivatives_recomputed": 0,
+    "old_flow_derivatives_recomputed": 0,
+    "old_free_amplitude_budgets_recomputed": 0,
+    "old_producer_execution_allowed": false,
+    "original_local_piece_label": 2549,
+    "physical_drift_bandwidth": 768,
+    "physical_frequency": "n=4|j|"
+  },
+  "scope": {
+    "both_characteristic_branches_and_physical_signs": true,
+    "complete_N6_received_source_constants_proved": false,
+    "complete_four_endpoint_constants_proved": false,
+    "complete_ordinary_one_sided_jets_only": true,
+    "complete_physical_means": 2,
+    "genuine_potential_packet_proved": false,
+    "high_contraction_or_finite_border_inverse_proved": false,
+    "individual_root_Phi_radial_three_not_claimed": true,
+    "local_analytic_X_T_and_regular_packet_separate": true,
+    "new_complete_free_jet_graph_only": true,
+    "no_old_targets_recomputed": true,
+    "old_free_w1_distinct_from_genuine_w1V": true,
+    "old_full_complex_domains_only_used_on_qualified_local_piece": true,
+    "old_whole_mathematics_success_and_formatter_failure_distinct": true,
+    "ordinary_dr_transport_nonzero_cut_trace": true,
+    "original_all_partial_intervals_and_interfaces_retained": true,
+    "physical_incoming_or_nonlinear_background_proved": false,
+    "root_or_waist_receiver_norms_newly_proved": false,
+    "same_original_real_family_and_fixed_intrinsic_eta0": true,
+    "selected_true_radial_state_and_original_reflection": true
+  },
+  "publication_limits": {
+    "all_four_preGit_payloads_are_complete_separate_files": true,
+    "complete_execution_max_bytes": 59000,
+    "complete_original_inputs_max_bytes": 50000,
+    "complete_preGit_execution_max_bytes": 59000,
+    "complete_preGit_original_inputs_max_bytes": 50000,
+    "complete_preGit_report_max_bytes": 8000,
+    "complete_preGit_science_max_bytes": 95000,
+    "complete_report_max_bytes": 8000,
+    "complete_science_max_bytes": 95000,
+    "reserved_publication_bytes": 230000
+  },
+  "files": [
+    {
+      "role": "source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets.py",
+      "git_blob": "8cb11562f041f7fd3f0337f6650347ce5e22b2ac",
+      "bytes": 94516,
+      "sha256": "d32fe912b7ebcb1ee6050589cf06ebf5512475a9c2636c584092c2d12be51e4f"
+    },
+    {
+      "role": "math_module",
+      "bytes": 31846,
+      "git_blob": "afa3b49b2035be07abee6a7f9041899c135dcdea",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_jet_math.py",
+      "sha256": "cb9c9aa0f7e5749967ece4e51210f359b4c58eecc7f83a05040607543ac47621"
+    },
+    {
+      "role": "worker",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py",
+      "git_blob": "d8d07995b5e70fb4a86890ac4326c3d4588fef00",
+      "bytes": 99748,
+      "sha256": "5c477f3f0b6eb5ca0b3a072afdbe6e9251320d4121ecf729762e07f732cdb328"
+    },
+    {
+      "role": "rules",
+      "bytes": 2461,
+      "git_blob": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    },
+    {
+      "role": "wgs_contract",
+      "bytes": 28978,
+      "git_blob": "4980f1a2c119b6470afc24a2fc662c75fa210479",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md",
+      "sha256": "4d3638fe6ae8793b937d4c7f57a4c092d59d41df94991722d8b622ed958e576e"
+    },
+    {
+      "role": "wui_contract",
+      "bytes": 31558,
+      "git_blob": "730400be921fbdfd109b9c378a607cf768f674b6",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md",
+      "sha256": "2a77f1cd53a09c952daa8ba64eebe2bb80bb2e9735c6c78e3ceaba4223ad90d6"
+    },
+    {
+      "role": "wua_contract",
+      "bytes": 40111,
+      "git_blob": "7b89251dcd51e8cb78fd3e8e42905114ef982ebf",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md",
+      "sha256": "9cd778ec8c97904b29524ae8b8252c14304eedfdc67d4ffec48affa79ae18bad"
+    },
+    {
+      "role": "fa_science",
+      "bytes": 35718,
+      "git_blob": "2001f4e2eeece1cda56b18b90dccab04b7f6d336",
+      "path": "topics/visible-flex-exact-nearby/notes/free_Airy_first_omitted_cut_scalars_ci/run-43763658978-1/actual-scientific-conclusion.json",
+      "sha256": "2985b74e314f39fc52d587dae193fd5eacb12d75ea42c45bc88fe73848dc64f2"
+    },
+    {
+      "role": "sj_execution",
+      "bytes": 46318,
+      "git_blob": "7dac244799016d9cae317a61f6c5dbe47ca0a013",
+      "path": "topics/visible-flex-exact-nearby/notes/strict_radial_first_symbol_defect_ci/run-43768006977-1/execution.json",
+      "sha256": "2540a3a81f1b6cd83c24b6a1c9ad2bdc119fb04a9a37c0251f6157a3cbc7cb88"
+    },
+    {
+      "role": "wx_execution",
+      "bytes": 43753,
+      "git_blob": "5121a599896025d90e2861450756a256aaba659d",
+      "path": "topics/visible-flex-exact-nearby/notes/true_waist_coordinates_saved_products_ci/run-43763424840-1/execution.json",
+      "sha256": "e9fc1611dc582e0264f0222069e03d8e9a1953616db540fc14896d4765abfb12"
+    },
+    {
+      "role": "dza_science",
+      "bytes": 26909,
+      "git_blob": "67b41ac717207f8696b637c667fb210088fca638",
+      "path": "topics/visible-flex-exact-nearby/notes/fourth_angle_global_sign_budgets_ci/run-43773671216-1/actual-scientific-conclusion.json",
+      "sha256": "05036749a28c55499e2ed6fe47019cd31f4438652e3e6ab1319e6f9f2f2c4dba"
+    },
+    {
+      "role": "fa_manifest",
+      "bytes": 23418,
+      "git_blob": "8ff0dbf8a5042f30f7f31ad68f9c29d93a6af95e",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-R133-free-Airy-first-omitted-cut-scalars-CI-inputs.json",
+      "sha256": "d06951509b4af18ce5039997c032b6377c0c55be07bd01f79a686c2471e4dd6b"
+    },
+    {
+      "role": "adjacent_process",
+      "bytes": 37783,
+      "git_blob": "26a04e8d7f79bc87623b149351599b328da4c427",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/process.json",
+      "sha256": "9e8f1f92660c1b44aa3c5c389a2c621a14aa65611cb0cf4c3a98daac1613a89b"
+    },
+    {
+      "role": "adjacent_publication",
+      "bytes": 26496,
+      "git_blob": "51b165e8b8d93a800524a5aab616f22196d7ed30",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/publication.json",
+      "sha256": "0cfbfcd3866c4fda4fd31020efa630c8e3b5e7e24fc6fafe1219a2e84a3efe3c"
+    },
+    {
+      "role": "whole_process",
+      "bytes": 8346,
+      "git_blob": "ad2035cbd7aed089c2be0fdd7f552243447373c0",
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/process.json",
+      "sha256": "242d82b6f1ead216bf8e90679a9952a2aaad0e9d7ba29293739911e70ab4d145"
+    },
+    {
+      "role": "whole_publication",
+      "bytes": 11945,
+      "git_blob": "eb418b7ece29d12c0274c141364cf3c93dffaa15",
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/publication.json",
+      "sha256": "fc3a190d8b701ef84188f2a37ee846c4f3669b5ac409faa5a6b72850162d1099"
+    },
+    {
+      "role": "original_fa_source",
+      "bytes": 48827,
+      "git_blob": "9e0a75461e0b8302a82e0444828a2c86379c3443",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_free_Airy_first_omitted_cut_scalars.py",
+      "sha256": "a6c89d502f7583bba3b663c4296ec462fd892ad01e94427dbe55bc1c3d304954"
+    },
+    {
+      "role": "original_adjacent_source",
+      "bytes": 53824,
+      "git_blob": "380f628bbabdf146cba2f39b34204b63e92f736a",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_adjacent_piece_correlated_first_Airy_sources.py",
+      "sha256": "fa344d170bca13c3faec22034aabbeab27da6116daef59f45c128c011998758d"
+    },
+    {
+      "role": "original_fold_algorithm",
+      "bytes": 32009,
+      "git_blob": "27427dd6302b1d9c4ce8e0dd4a9d48fa15f920c3",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_anchored_auxiliary_root_fold_direct_leading.py",
+      "sha256": "410675cf78dd30d97ff052558df1a819977291d40c628211fcf623ffc0b5f783"
+    },
+    {
+      "role": "original_whole_algorithm",
+      "bytes": 51126,
+      "git_blob": "327ecef0f265b88be9789212b4044afde9a28f22",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_whole_physical_root_piece_first_Airy_sources.py",
+      "sha256": "66668065abd27ae37f789adf72a9deda9a15eda33d751f0c4b6fef8e54f17a81"
+    }
+  ],
+  "historical_inputs": [
+    {
+      "bytes": 4501,
+      "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+      "git_blob_sha": "fe180735fb6cbfaef8dff2ef68aa511ed3ac0643",
+      "path": "topics/visible-flex-exact-nearby/notes/correlated_adjacent_piece_first_Airy_sources_ci/run-43676926141-1/consumers/stages/complete-original-reference-holomorphic-majorants.json.gz",
+      "role": "fold_majorants_native",
+      "sha256": "29ee1093b7644143c693283f774294c176a7f0989b42c004d384a856d5be5144"
+    },
+    {
+      "bytes": 20924,
+      "commit": "a3d84d905ce72e3a854874bbe98d119623f3f8de",
+      "git_blob_sha": "786700a1a0da5cdb7a0dde90b1dd04eb586db860",
+      "path": "topics/visible-flex-exact-nearby/notes/whole_physical_root_piece_first_Airy_sources_ci/run-43669106351-1/consumers/stages/complete-radius-budget-9-1000000.json.gz",
+      "role": "free_radius_native",
+      "sha256": "8b31b1c0030f892ec763d32ecf7b4968d468c5f93b30bbfe7408d6bf0b4892d5"
+    }
+  ],
+  "manifest_not_a_self_hashed_input": true,
+  "workflow_not_reverse_pinned_from_manifest": true,
+  "original_worker_basis": {
+    "git_blob": "617108f9f34bfe17ad27416beecf7bc79de12551",
+    "bytes": 64789,
+    "sha256": "bd13fdc97df7ed79348df3a85fa569b04571debf00dbb711819f635c191672d6",
+    "actual_success": "43816689251/1",
+    "scope": "Operational helpers only; the WGS admission, graph validator, paired complete science and four independent preGit payloads replace the preceding target. No old mathematical producer is imported or run."
+  },
+  "bounded_prior_target_audit": {
+    "new_distinct_target": "complete global real fold and free first transport finite jets",
+    "new_complete_graphs": 8,
+    "new_scalar_slots": 437,
+    "old_current_records_copied": 66,
+    "old_historical_records_copied": 40,
+    "old_complete_scope_objects": 9,
+    "old_local_coefficient_dictionary_copied_entirely": true,
+    "old_successful_targets_recomputed": 0,
+    "prior_success_reuse_required": true,
+    "prior_incomplete_same_target_blocks_new_arithmetic": true,
+    "source_or_worker_changes_do_not_authorize_repeat": true
+  },
+  "static_publication_budget_review": {
+    "path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-global-fold-free-transport-finite-jets-static-output-budget.json",
+    "git_blob": "11fc71491efbdab0e3c36943137b5ab5f477c3fd",
+    "bytes": 21544,
+    "sha256": "bce3b4b520a3507800829bb53436f3eee2c454a02bd2a01a150109f92acb60e3",
+    "scientific_arithmetic_executed": false
+  },
+  "static_schema_review": {
+    "complete_science_top_fields": 36,
+    "complete_original_input_top_fields": 22,
+    "expected_gates": 24,
+    "expected_progress_fields": 25,
+    "current_inputs": 20,
+    "historical_inputs": 2,
+    "mathematical_inputs": 19,
+    "Python_AST_files": 7,
+    "complete_graphs": 8,
+    "new_scalar_slots": 437,
+    "all_original_scopes_successes_and_formatter_failure_preserved": true
+  },
+  "complete_scientific_file_pair": {
+    "main": "actual-scientific-conclusion.json",
+    "original_inputs": "complete-original-inputs.json",
+    "source_manifest_run_event_checkout_binding": true,
+    "main_original_input_filename_bytes_sha256": true,
+    "no_reverse_hash_cycle": true
+  },
+  "published_files_only": [
+    "actual-scientific-conclusion.json",
+    "complete-original-inputs.json",
+    "report.md",
+    "execution.json"
+  ]
+}

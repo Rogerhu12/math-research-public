@@ -1,0 +1,92 @@
+name: visible-exact complete global fold and free first transport finite jets
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-global-fold-free-transport-finite-jets.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-global-fold-free-transport-finite-jets
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  WGS_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-global-fold-free-transport-finite-jets-CI-inputs.json
+  WGS_MANIFEST_SHA: 240b445ecd984c8c06895a8656b66f5f62173f71ed6f65644007578e35b8f23f
+  WGS_PIPELINE_SHA: d32fe912b7ebcb1ee6050589cf06ebf5512475a9c2636c584092c2d12be51e4f
+  WGS_WORKER_SHA: 5c477f3f0b6eb5ca0b3a072afdbe6e9251320d4121ecf729762e07f732cdb328
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  global-fold-free-transport-finite-jets:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 45
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-global-fold-free-transport-finite-jets-CI-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['WGS_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py --mode hydrate
+          --manifest "$WGS_MANIFEST" --manifest-sha "$WGS_MANIFEST_SHA"
+          --pipeline-sha "$WGS_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['WGS_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Restore the two immutable stages and evaluate only the complete new finite jet graph
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_fold_free_transport_finite_jets_public_worker.py --mode run
+          --manifest "$WGS_MANIFEST" --manifest-sha "$WGS_MANIFEST_SHA"
+          --pipeline-sha "$WGS_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-global-fold-free-transport-finite-jets-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-global-fold-free-transport-finite-jets-output"
+      # Root rule15: twenty current UTF-8 texts, seven AST files and two exact historical gzip inputs.
+      # Historical files are restored only from the public immutable commit; old producers are never imported or run.
+      # The complete main science and original-input copy are atomic, mutually bound and printed before size guards.
+      # Four complete independently hashed preGit payloads precede publication.
+      # No upload-artifact, Release upload, native or per-row numerical-data commit.
+      # The exact topic capacity must retain230000 bytes before any new arithmetic.
