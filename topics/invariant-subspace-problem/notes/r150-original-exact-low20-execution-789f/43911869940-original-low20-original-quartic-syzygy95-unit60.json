@@ -1,0 +1,149 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43911869940",
+  "stepId": "original-low20-original-quartic-syzygy95-unit60",
+  "executionSourceCommit": "ef3bb5ba8b781c0a6f30db38a7a322544da2e558",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+  "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+  "argvTemplate": [
+    "--outer-seconds",
+    "120",
+    "--heartbeat-seconds",
+    "10",
+    "--stdout",
+    "{work}/original-low20-original-quartic-syzygy95-unit60.math.log",
+    "--heartbeats",
+    "{work}/original-low20-original-quartic-syzygy95-unit60.heartbeats.jsonl",
+    "--identity",
+    "{work}/original-low20-original-quartic-syzygy95-unit60.observed.json",
+    "--",
+    "python",
+    "{scripts}/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+    "--exact-helper",
+    "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+    "--field-model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--field-model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--out",
+    "{work}/original-quartic-syzygy95-small-gate127",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "pinnedSupportSources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c"
+    }
+  ],
+  "preexistingReceipt": null,
+  "receiptUnchangedFromBeforeStep": false,
+  "observerIdentity": {
+    "path": "original-low20-original-quartic-syzygy95-unit60.observed.json",
+    "bytes": 2044,
+    "sha256": "d5c5588da3d9e086be7e69ec9103cdc8843ad577f1bcdc02653429b5976c2d24"
+  },
+  "observerExecution": {
+    "childPid": 4331,
+    "childReturnCode": 0,
+    "command": [
+      "python",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "--exact-helper",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "--field-model-source",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/scripts/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--field-model-out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/original-ten-parameter-module127-v2",
+      "--out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940/original-quartic-syzygy95-small-gate127",
+      "--seconds",
+      "60",
+      "--memory-mib",
+      "512"
+    ],
+    "cwd": "/home/runner/work/_temp/isp-original-exact-low20-session-43911869940",
+    "elapsedSeconds": 0.5036411680000583,
+    "finishedAtUTC": "2026-11-16T17:06:37.148671+00:00",
+    "format": "r150-exact-low20-observed-execution-v1",
+    "heartbeatCount": 2,
+    "heartbeatSeconds": 10.0,
+    "heartbeats": {
+      "bytes": 588,
+      "path": "original-low20-original-quartic-syzygy95-unit60.heartbeats.jsonl",
+      "sha256": "a706ef0e623983b34b658bce83572dd1e9c21e341161b05d621a3fa6133c6c98"
+    },
+    "observer": {
+      "bytes": 5855,
+      "path": "2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+    },
+    "outerSeconds": 120.0,
+    "sampledPeakVmRSSKiB": 540,
+    "shellEquivalentExitCode": 0,
+    "source": {
+      "bytes": 15520,
+      "path": "2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c"
+    },
+    "startedAtUTC": "2026-11-16T17:06:36.644807+00:00",
+    "status": "completed",
+    "stdout": {
+      "bytes": 8663,
+      "path": "original-low20-original-quartic-syzygy95-unit60.math.log",
+      "sha256": "27805f0028bb0388dfdbe60e3e6accb357a86e6a769367f4922388756d5fd16c"
+    },
+    "terminationRequestedByObserver": false,
+    "unobservedTerminationCauseInferred": false,
+    "waitedChildRuMaxrssKiB": 84604
+  },
+  "timeoutSeconds": 180,
+  "exitCode": 0,
+  "wallSeconds": 0.666658837,
+  "fullTemporaryReceiptBytes": 8429,
+  "fullTemporaryReceiptSHA256": "7b23309fe6d5d80c52624f3f9f66b4a9ed311d62a23952cbce3a5e7e5e964f0b",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 17:06:36 UTC",
+      "beforeReadCommit": "93e41c94d276b57e7f56c140cce2ecc0f5bb50dd",
+      "originMainAfterPull": "ef3bb5ba8b781c0a6f30db38a7a322544da2e558",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 17:06:37 UTC",
+      "beforeReadCommit": "ef3bb5ba8b781c0a6f30db38a7a322544da2e558",
+      "originMainAfterPull": "ef3bb5ba8b781c0a6f30db38a7a322544da2e558",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 13,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 4460,
+    "logicalJsonSHA256": "152927377f93032210f0b9007c013e8292f27bf03859d101dd188362eb576dd7",
+    "itemCount": 13
+  },
+  "lastRulesReadCommit": "ef3bb5ba8b781c0a6f30db38a7a322544da2e558",
+  "summaryExcludesRecomputableArraysOnly": false
+}
