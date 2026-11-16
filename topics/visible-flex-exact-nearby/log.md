@@ -296,3 +296,7 @@ fresh ec7d61e1b11f45751d54494997658845b5b5dc7c topic=199460089B，完整publicat
 2026-11-16 12:21:25 UTC 单独自然触发WDG workflow 96028fe1898e3c672c7de0aa1a7adc65fa839360/2926/7cb6ad272639603f19e510e8291e341cce9ed8a9eac5b2eded4af364b1c2ff36；唯一新child固定80scalar，原两WGS/35旧record/7scope仅读，consumed marker锁目标。立即前完整topic元数据199303693B，完整132000输出+120000reserve及日志额度仍≤200MB。README 78f72a16ef3dd40692333b579b8f2dfb59d860a7无变。按固定完整保存契约等待实际结果，禁自动重跑。
 
 2026-11-16 12:26:21 UTC WQS全文4dc25130/25330/d6893776及无入口module d39ae087/10070/878c4aec已读，三display定界规范后正式ff2d61db/25336/bea91372。真权双向rank1/transpose/weighted Schur和all-L2head高试探全残差闭；actual energy仍有完整drift/reaction/primitive/mean/outer未付符号，不另冒coercivity。WDG43865837250已成功80新，末真pull12:21:57.120866→0fed4b86，两README空diff，H已记；实际完整结论核读中。README 59c56c693debc1d98b2a99495211ddb5277a40d8未变。
+
+### 2026-11-16 12:30:22 UTC — WDGA：80项实际正漂移角界完整登记
+
+本次从259e7c5f510a00bf42eb5899935c5d05761d1a09核两README未变；公开run43865837250/1完成16门/5图80新，35原record/7完整scope、6current/2AST/0history，旧调用/重算/lost均0。主程序12:21:56.218598→12:21:56.775245，唯一child return0。SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999、report438，总68297B；stdout3940550B只核hash未取正文。root全文结构/80record/原身份/4pull全链共24组核通过，无本地科学计算。WDGA正文371a515a/19954/8f2134de保存同strict real全部14球与正cut/普通dr推论；最终Rω1..14已冻结，WSJ仅除一次b!。不授relative15、root复盘、whole smallness/finite逆/非线性。继续完整scaled mixed/profile和paired signed finite residual。

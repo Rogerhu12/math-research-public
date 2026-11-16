@@ -193,6 +193,6 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WSJ严格区混合jet](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8：冻结t0的双索引隔开径/角；同strict real r≤3/total≤14，旧Phi1..15与u/s补absolute T/X/phase edge15；WDG relativeω只到14。完整H^-1四entry、μ正因子、G/w0第三径向、全forcing和w1两分支/非零cut/genuine项均保；每slot新/恒等/旧safe fallback明确，原root local与所有mean/端点/jump不减。新数尚未执行，consumer须同时重组profile费，不授真实finite或matching。
 
-[WDG正漂移与完整角向相对界](results/R133-supplement-positive-drift-and-complete-relative-angular-fold-bounds.md)212385b5已证ω为正cut与全普通dr积分之和；原all-shorter flow1..14因同d角变分可用于drift，cut真strip 3/128和全Bell给ordinary Rω1..14。只读2个WGS完整文件/35原record，五图10/14/14/28/14共80新已排CI，source282efceb/manifest a88caba5冻结；6current/2AST；无新exp/sqrt/log/ODE。新Rω接WSJ只除一次b!，不授relative15/复盘/root/均值或finite逆；原local及全部receiver义务不减。
+[WDG实际全相对角界WDGA](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de：43865837250/1全16门、五图80新/35copy/7scope冻结；SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999，old0/lost0。完整正cut+普通dr及同d变分资格见WDG212385b5；source282efceb/manifest a88caba5。ordinary Rω1..14接WSJ只除一次b!，高阶仍大，未授whole小界/relative15/root盘/mean/finite逆；原local及所有receiver义务不减。
 
 [WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。actual e+3dt<1未算，真实finite逆待。

@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+### WDGA：正漂移完整相对角界的实际80项结果
+
+[完整证明与实际输出](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)（SHA-256 8f2134de25ed430ba49be74f5c3d3acb642051677fb18a327d7f45966927bc05）：公开Actions 43865837250/1全16门、5图80新、35原record/7scope；source282efceb、manifest a88caba5，SCI67c7070e/47714/04b75743，old0/lost0。WDG正cut与全普通dr证明给同strict实域ordinary relativeω1..14；WSJ初始行只除一次b!，高阶界仍大。完整输入/域/原失败/运行/全14球保正文；不授完整mixed/received bound、finite逆、高门或matching。
+
 - **WQS：双向rank-one阻抗生成式、加权Schur和全输入高响应试探**。同一WIC真权reference inverse化为独立前/后scalar state，不除τ且完整local/endpoint/outer/mean保；完整positive comparison weights在原Hilbert空间给whole Schur界。64模$\chi G_0\chi B^0_{HL}$对任意L2head定义，其χ′、完整系数差和所有原端点/mean/7port残差均保，ε经全四块传到E/D/T。见[完整证明](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372及无入口module878c4aec。actual e+3dt<1未算，尚无真实有限逆。
 
 - **WDG：真实fold间隙的正漂移表示及relative angular1..14**。实际$\omega$等于同cut正项加全普通$dr$正积分；完整旧flow比较只依同$d$角导，故可用于drift。真strip cut Cauchy、全有限Bell和正加权平均给ordinary relative$\omega$1..14，无全gap上界/下界重复放大。数值合同只读2个WGS文件35原record，五图80新目标尚未算，0新exp/sqrt/log/ODE；WSJ输入仅除一次阶乘。见[完整证明](results/R133-supplement-positive-drift-and-complete-relative-angular-fold-bounds.md)212385b5。
