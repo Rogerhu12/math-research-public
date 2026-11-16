@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 12:05:59 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 e1f47ded1ed41793ad51c9e6fcaa382bce468b80。
+规则同步记录：2026-11-16 12:08:28 UTC root委托本公开仓库Actions run43863837569真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 4c6ee04ef586dd396699265aab4d6326216d94c6。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull；每pull核双README，变则仅读差异照新规并记读commit。原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功，禁止force。部分克隆blob:none/sparse；07:19终端失联后委托本公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -22,11 +22,12 @@
 |224/R525|43851068999 /23176ac678ea92882fa38ec6ddcc09e98742ac89 /133243448382|amplitude；11:51 step11完整科学，running日志0|
 |225/R528|43852521165 /5af07ed64877475bc05a488306246c9be22926bb /133248437738|exact；11:33 step11完整科学，running日志0|
 |228/R541|43858623707 /99f4ee650e031448e9fcb33ead672e48a8babd3d /官方job待reader记录|exact；唯一POST200，11:33官方queued；官方绑定note已刊|
+|229/R543|43863347779 /4a0f185ba990b8c2ae2ff39ddd7dcc2d582b8a06 /133285545704|geometry；12:07前1–10成功/11科学；单POST200|
 |227/R539|43860144962 /5b5dd03b0d69c8a059282b963b7192679fd43f67 /133274517805|amplitude；单POST200，11:43 step4 setup；官方head与发布相同|
 
 217/R490完整刊于3b98677，两终志各唯一已读；221/R509、223/R513及旧207–220均保。root不取科学日志。实际source/run优先于内部祖先号。
 
-root R535完整已7ba35，继续R536/request226实际128缓存全链/R537；amplitude R531已fc3dd、R538/227已5b5dd单次dispatch→R539唯一实际读者；geometry R534已924ea，R542/229本次完整入口并单次dispatch/R543；exact R533已90624、R540/228已e5af实际99f4→R541唯一读，另R544连续C两真实guard及composition表示→R545/230/R546。**226/230/231尚未dispatch；229本次发布后单次POST待回执，227实际run43860144962。** 保原全部门与各实验时钟，未返/未访不补数学拒绝。
+root R535完整已7ba35，继续R536/request226实际128缓存全链/R537；amplitude R531已fc3dd、R538/227已5b5dd单次dispatch→R539唯一实际读者；geometry R534已924ea，R542/229本次完整入口并单次dispatch/R543；exact R533已90624、R540/228已e5af实际99f4→R541唯一读，另R544连续C两真实guard及composition表示→R545/230/R546。**230/231尚未dispatch；226本次六件发布后单次POST待实际回执。229官方run43863347779、发布与实际同4a0f。** 保原全部门与各实验时钟，未返/未访不补数学拒绝。
 
 ## 完整历史、恢复与最近实证
 
@@ -45,10 +46,10 @@ root R535完整已7ba35，继续R536/request226实际128缓存全链/R537；ampl
 完整旧接线细节与来源身份逐字保[924ea931 HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/924ea9315f76eeeda789d0bcff82e9f5d213edbd/topics/visible-flex-larger-amplitude/HANDOFF.md)，所有对应results/notes正文不变。当前工作入口如下。
 
 - R524/224原181来源，R523真T支撑与全统计；R531已fc3dd完整并行，R538/227已5b5dd、193源、2×3072MiB线程heap另保main6144、原单18000与90K70，真正withJ/完整列和mean/原门保持，不冒RSS或收益。
-- R527/225原356源，R522三件paired与R515三物理site真compiler分责；R535已7ba35同root有限词与18统计/last。根R536/226已接真实owner_scope安装、原main/replay、全部统计/编译来源reader、五物理source真实目录，361源，原19200/6000/1200/8000/600/600/1800/全部门保；最后操作接口完成即发布/单POST，R537实际尚未启动。
-- R534五件225478B已924ea：372源/13view、原owner/tol/replay先返、post明确deferred、同DN全576×226×224/port/双mean模型准确lift128，再全boundary/338endpoint/独立audit/assembly/FD/fullDN。原128值权威、FD不证DD，投影/flow/lift共享原8000窗口和真owned guard/ready/TERM→KILL/reap/quiet。**R542本次正式229三件121837B/topic99203B，request79743/934d、最终wf22634/cc34、证明接口19460/08e3；source/report/cleanup真接，运输失败清complete，只有workflow_dispatch。** 发布后一次POST，实际R543由geometry唯一；回执前不填run。
+- R527/225原356源，R522三件paired与R515三物理site真compiler分责；R535已7ba35同root有限词与18统计/last。根R536/226已接真实owner_scope安装、原main/replay、全部统计/编译来源reader、五物理source真实目录，361源，原19200/6000/1200/8000/600/600/1800/全部门保；本次六件225426B/topic206671B已完整发表，真request71828/6685、wf18755/0d23单次POST后另记R537实际；不预填run或接受。
+- R534五件225478B已924ea：372源/13view、原owner/tol/replay先返、post明确deferred、同DN全576×226×224/port/双mean模型准确lift128，再全boundary/338endpoint/独立audit/assembly/FD/fullDN。原128值权威、FD不证DD，投影/flow/lift共享原8000窗口和真owned guard/ready/TERM→KILL/reap/quiet。**R542本次正式229三件121837B/topic99203B，request79743/934d、最终wf22634/cc34、证明接口19460/08e3；source/report/cleanup真接，运输失败清complete，只有workflow_dispatch。** 已单POST200/run43863347779、实际同发布4a0f，官方note本次刊，R543 geometry唯一。
 - R533已90624完整必要语义逆、整body含header严格更短才用；R540/228已e5af、实际99f4只H规则行变，120源，原八39/freshFD/10500/175/195min/90K70/quiet保，官方note已刊。
-- exact R544已交完整五件136350B：两真实source guard修复、41核心+8sameC共49view与具名source-pin无损关系；根待独立发表后R545/230/R546实际。222唯一reader也已核其b3ce/b754/387与217首因同，R511全文正成稿，root不复日志。
+- exact R544已交完整五件136350B：两真实source guard修复、41核心+8sameC共49view与具名source-pin无损关系；根待独立发表后R545/230/R546实际。222唯一reader也已核其b3ce/b754/387与217首因同，R511完整32170B/5d95已交待下一笔发表，root不复日志。
 - geometry继续R547诚实合并R535实际owner缓存与R534模型及完整reader，后R548/request231/R549。226/230/231尚未dispatch；独立实验的数学模型、来源和实际结果不混，原所有钟/caps/门不增减。
 
 ## 连续几何、精化与容量

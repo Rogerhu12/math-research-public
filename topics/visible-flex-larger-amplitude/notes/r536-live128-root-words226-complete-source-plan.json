@@ -1,0 +1,973 @@
+{
+  "schema": "R536-live128-root-words-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "original_published_source_ref": "8b352f90b97f7c340a2fbebbb11c19080d9a5e08",
+  "R515_published_source_ref": "02320c3a035d03c31c4e1fada1d19d9661bf7179",
+  "R518_published_source_ref": "bfe02a5249db7c01665fef163034d436d66ebdbd",
+  "R522_published_source_ref": "3514dfb8333ec3d42cf62ba6165c0f799dd3bf6f",
+  "R527_published_source_ref": "5af07ed64877475bc05a488306246c9be22926bb",
+  "R535_published_source_ref": "7ba35e365e3314af5f96bcdf3cc34172141103d0",
+  "baseline_request": {
+    "file": "public-live128-scoped-original-full112-FD-fullDN-request.json",
+    "bytes": 54884,
+    "sha256": "0fa9fe29153913252fd569cb2b99711c85b0afe72d8bc576adf629bd3e3f789e"
+  },
+  "paired_cache_request": {
+    "file": "computations/public-live128-paired-cache-original-full112-FD-fullDN-request.json",
+    "bytes": 64734,
+    "sha256": "42fe3eff48338d540707c690d6aadd0cfdfeaa278a1145b1db885bea9df37285"
+  },
+  "generator": {
+    "file": "root_20261116_live128_root_words226_source_views.py",
+    "bytes": 30464,
+    "sha256": "14a86c71268ccd017c6e85294c7af9b714c2234063c2ef1953caf35458bd6052"
+  },
+  "additional_public_sources": [
+    {
+      "file": "geometry_20261116_native_physical_radial_mode_cache128.hpp",
+      "bytes": 5253,
+      "sha256": "959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51"
+    },
+    {
+      "file": "geometry_20261116_native128_physical_radial_cache_source.py",
+      "bytes": 13235,
+      "sha256": "22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6"
+    },
+    {
+      "file": "root_20261116_live128_cached_radial_source_views.py",
+      "bytes": 17055,
+      "sha256": "c694b2b937d8953169fb62c869e4ebe7acdf421eae12ea1393b7faee9e4d9f69"
+    },
+    {
+      "file": "geometry_20261116_native_paired_exact_digit128.hpp",
+      "bytes": 8729,
+      "sha256": "480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47"
+    },
+    {
+      "file": "root_20261116_native128_paired_digit_source_views.py",
+      "bytes": 10717,
+      "sha256": "1554a5e5fb80f382c382aa6530b19b1bfc7b065371e96d66847195ecc396dfce"
+    },
+    {
+      "file": "root_20261116_live128_paired_cache225_source_views.py",
+      "bytes": 22915,
+      "sha256": "b30d418965454b63d5a0e8f6bc50277e38849e959e24ec92552bc722ec83a3ce"
+    },
+    {
+      "file": "root_20261116_native_root_finite_words.hpp",
+      "bytes": 7102,
+      "sha256": "6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc"
+    },
+    {
+      "file": "root_20261116_native_root_finite_words.py",
+      "bytes": 10892,
+      "sha256": "1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db"
+    },
+    {
+      "file": "root_20261116_live128_root_words226_source_views.py",
+      "bytes": 30464,
+      "sha256": "14a86c71268ccd017c6e85294c7af9b714c2234063c2ef1953caf35458bd6052"
+    }
+  ],
+  "published_metadata_dependencies": [
+    {
+      "file": "notes/r515-physical128-radial-mode-cache-source-plan.json",
+      "bytes": 8662,
+      "sha256": "5950052fac0d9c23e96f29421c03df79f4748828b2d7a6e9a4ed7f40bd090666"
+    },
+    {
+      "file": "notes/r518-live128-cached-radial-complete-source-plan.json",
+      "bytes": 48391,
+      "sha256": "4f2097053bddff0bf07a18f09ffa846bd64eb2fa6dd3d9707ab7f24f3ef62f6b"
+    },
+    {
+      "file": "notes/r522-native128-paired-digit-source-plan.json",
+      "bytes": 16347,
+      "sha256": "724e46e0d70aefd70309e03d77d4719666058e56001c7a78f7544bada76b9ce7"
+    },
+    {
+      "file": "notes/r527-live128-paired-cache225-complete-source-plan.json",
+      "bytes": 55391,
+      "sha256": "6e8109e64bafb6e78428298ccc25a5b4d71df29c0b224b0ea20076da006dd1c6"
+    },
+    {
+      "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+      "bytes": 10232,
+      "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+    },
+    {
+      "file": "computations/public-live128-paired-cache-original-full112-FD-fullDN-request.json",
+      "bytes": 64734,
+      "sha256": "42fe3eff48338d540707c690d6aadd0cfdfeaa278a1145b1db885bea9df37285"
+    }
+  ],
+  "upstream_plans": {
+    "R515": {
+      "file": "notes/r515-physical128-radial-mode-cache-source-plan.json",
+      "bytes": 8662,
+      "sha256": "5950052fac0d9c23e96f29421c03df79f4748828b2d7a6e9a4ed7f40bd090666"
+    },
+    "R518": {
+      "file": "notes/r518-live128-cached-radial-complete-source-plan.json",
+      "bytes": 48391,
+      "sha256": "4f2097053bddff0bf07a18f09ffa846bd64eb2fa6dd3d9707ab7f24f3ef62f6b"
+    },
+    "R522": {
+      "file": "notes/r522-native128-paired-digit-source-plan.json",
+      "bytes": 16347,
+      "sha256": "724e46e0d70aefd70309e03d77d4719666058e56001c7a78f7544bada76b9ce7"
+    },
+    "R527": {
+      "file": "notes/r527-live128-paired-cache225-complete-source-plan.json",
+      "bytes": 55391,
+      "sha256": "6e8109e64bafb6e78428298ccc25a5b4d71df29c0b224b0ea20076da006dd1c6"
+    },
+    "R535": {
+      "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+      "bytes": 10232,
+      "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+    }
+  },
+  "paired_generator": {
+    "file": "root_20261116_native128_paired_digit_source_views.py",
+    "bytes": 10717,
+    "sha256": "1554a5e5fb80f382c382aa6530b19b1bfc7b065371e96d66847195ecc396dfce"
+  },
+  "paired_outputs": [
+    {
+      "file": "geometry_20261116_native_paired_digit_operator_trace128.hpp",
+      "bytes": 29617,
+      "sha256": "082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be"
+    },
+    {
+      "file": "geometry_20261116_native_paired_digit_stage128.cpp",
+      "bytes": 12880,
+      "sha256": "49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55"
+    },
+    {
+      "file": "geometry_20261116_live128_paired_digit_final_components.py",
+      "bytes": 33416,
+      "sha256": "93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1"
+    }
+  ],
+  "root_word_header": {
+    "file": "root_20261116_native_root_finite_words.hpp",
+    "bytes": 7102,
+    "sha256": "6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc"
+  },
+  "root_word_adapter": {
+    "file": "root_20261116_native_root_finite_words.py",
+    "bytes": 10892,
+    "sha256": "1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db"
+  },
+  "root_word_outputs": [
+    {
+      "role": "primal",
+      "output": {
+        "file": "root_20261116_native_root_finite_words_primal128.cpp",
+        "bytes": 25230,
+        "sha256": "3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241"
+      }
+    },
+    {
+      "role": "trace",
+      "output": {
+        "file": "root_20261116_native_root_finite_words_trace128.cpp",
+        "bytes": 34950,
+        "sha256": "2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12"
+      }
+    }
+  ],
+  "counts": {
+    "original_public_files": 336,
+    "additional_public_files": 9,
+    "public_files": 345,
+    "R518_text_only_intermediates": 12,
+    "R527_text_only_intermediates": 11,
+    "paired_generated_files": 3,
+    "root_word_generated_files": 2,
+    "caller_generated_files": 11,
+    "generated_files": 16,
+    "complete_files": 361
+  },
+  "roles": {
+    "runtime": "geometry_20261116_live128_root_words226_owned_run.py",
+    "fullDN": "geometry_20261116_live128_root_words226_original_full_dn.py",
+    "necessary": "root_20261116_live128_root_words226_necessary.py",
+    "client": "geometry_20261116_live128_root_words226_tail_client.py",
+    "worker": "geometry_20261116_live128_root_words226_worker.mjs",
+    "current_call": "geometry_20261116_live128_root_words226_current_call.mjs",
+    "pipeline": "geometry_20261116_live128_root_words226_call_pipeline.py",
+    "owner": "geometry_20261116_live128_root_words226_same_call_owner.py",
+    "components": "geometry_20261116_live128_paired_digit_final_components.py",
+    "assembly": "geometry_20261116_live128_root_words226_response_assembly.py",
+    "system": "exact_20261116_live128_root_words226_current576_system.py",
+    "qr": "exact_20261116_live128_root_words226_current576_chain_qr.py",
+    "stage": "geometry_20261116_native_paired_digit_stage128.cpp",
+    "operator": "geometry_20261116_native_paired_digit_operator_trace128.hpp"
+  },
+  "unchanged_request_members": [
+    "repository",
+    "lanes",
+    "reviewed_README_blobs",
+    "original_inputs",
+    "actual63",
+    "actual91_artifact",
+    "runtime",
+    "live_call_resources",
+    "resources",
+    "retention"
+  ],
+  "descriptive_request_member_correction": {
+    "member": "original_scientific_contract",
+    "field": "output_jets_order",
+    "original": "height112,meanHeight1,slope112,meanSlope1,second112",
+    "current": "slope112,second112,meanSlopeCorrection1,meanSecondCorrection1,height112",
+    "mathematical_shape_indexing_and_values_changed": false,
+    "original_frozen_request_not_modified": true
+  },
+  "views": [
+    {
+      "role": "owner",
+      "published_prefix": {
+        "plan_role": "owner",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_same_call_owner.py",
+          "bytes": 18902,
+          "sha256": "561c1db5122086abab05aa968db4597b46fad77ab887bd7c5faac985a6bdd3ae"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_same_call_owner.py",
+        "bytes": 18905,
+        "sha256": "a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be"
+      },
+      "patches": [
+        {
+          "id": "actual-owner-schema",
+          "before": "SCHEMA = \"R527-current-H-live128-paired-cache-owner-call-v1\"",
+          "after": "SCHEMA = \"R536-current-H-live128-root-words-owner-call-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-adapter-import",
+          "before": "import hashlib\n",
+          "after": "import hashlib\nimport importlib.util\n",
+          "count": 1
+        },
+        {
+          "id": "truthful-owner-mathematical-source",
+          "before": "        original_mathematical_owner_loop_changed=False,",
+          "after": "        original_persistent_main_solve_replay_source_unchanged=True,\n        root_primal_uses_declared_R535_finite_word_source=True,\n        root_finite_word_cache_source_preparation=None,\n        root_finite_word_cache_source_binding=None,\n        root_finite_word_cache_compiler_installation=None,",
+          "count": 1
+        },
+        {
+          "id": "source-binding-and-real-compiler-hook",
+          "before": "\ndef pid_record():\n",
+          "after": "\ndef install_root_finite_words(owner_scope, record, runner):\n    preparation_directory = runner/\"request226-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n            \"Actual source-preparation directory is not a symlink\")\n    preparation_file = preparation_directory/\"source-views.json\"\n    preparation_receipt = identity(preparation_file)\n    checked(preparation_receipt, runner)\n    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R536-live128-root-words-source-view-preparation-v1\"\n            and preparation.get(\"request_number\") == 226\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n            and any(row.get(\"role\") == \"owner\" and row.get(\"actual\") == identity(__file__)\n                    for row in preparation.get(\"generated\", [])),\n            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R535_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R535 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R535\"/\"source-binding.json\",\n            \"The independent actual R535 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n    require(binding == child.get(\"source_result\"),\n            \"The complete source binding agrees with the actual preparation receipt\")\n    record[\"root_finite_word_cache_source_preparation\"] = preparation_receipt\n    record[\"root_finite_word_cache_source_binding\"] = dict(\n        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_native_root_finite_words.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 10892\n            and file_sha(adapter_file) == \"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\",\n            \"The exact published R535 compiler adapter\")\n    module_spec = importlib.util.spec_from_file_location(\"_R536_actual_root_word_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n    sys.modules[module_spec.name] = adapter\n    module_spec.loader.exec_module(adapter)\n    record[\"root_finite_word_cache_compiler_installation\"] = adapter.install_owner_compiler(\n        owner_scope, binding)\n    return record[\"root_finite_word_cache_compiler_installation\"]\n\n\ndef pid_record():\n",
+          "count": 1
+        },
+        {
+          "id": "install-on-the-real-original-owner-scope",
+          "before": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        record[\"executed_original_owner_engineering_sha256\"]",
+          "after": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        install_root_finite_words(owner_scope, record, runner)\n        record[\"executed_original_owner_engineering_sha256\"]",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_same_call_owner.py",
+        "bytes": 21969,
+        "sha256": "934e92b1d381e5c268346556327fb76147c20e73bb9b4b9ddb6ca91aad7ab3fb"
+      }
+    },
+    {
+      "role": "assembly",
+      "published_prefix": {
+        "plan_role": "assembly",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_response_assembly.py",
+          "bytes": 28615,
+          "sha256": "2807377e96e127af2aee6ca3257bafbd8f6b884a5c80e0959d985e8b4d35bffc"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_response_assembly.py",
+        "bytes": 28613,
+        "sha256": "5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c"
+      },
+      "patches": [
+        {
+          "id": "explicit-current-schema-or-namespace-1",
+          "before": "\"R527-current-H-live128-paired-cache-response-assembly-v1\"",
+          "after": "\"R536-current-H-live128-root-words-response-assembly-v1\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_response_assembly.py",
+        "bytes": 28611,
+        "sha256": "1a67a3fe236b97fca188a9fea454b863855bb3b63260a3d75bff9e272176d620"
+      }
+    },
+    {
+      "role": "system",
+      "published_prefix": {
+        "plan_role": "system",
+        "intermediate": {
+          "file": "exact_20261116_live128_cached_radial_current576_system.py",
+          "bytes": 29003,
+          "sha256": "1cf6338e47541cb3af65d507de462dd6143f35aea7661575e8bc45c07fb5c86b"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "exact_20261116_live128_paired_cache225_current576_system.py",
+        "bytes": 29007,
+        "sha256": "6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 2
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_live128_root_words226_current576_system.py",
+        "bytes": 29003,
+        "sha256": "a147c07d859db9207da385f582706fe908d9264aacffbc51b1b62bf6064e4151"
+      }
+    },
+    {
+      "role": "qr",
+      "published_prefix": {
+        "plan_role": "qr",
+        "intermediate": {
+          "file": "exact_20261116_live128_cached_radial_current576_chain_qr.py",
+          "bytes": 21844,
+          "sha256": "9c2cf83ec714f1e225071228320c169416a6ff86eddce0c717163a323a3a83dd"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "exact_20261116_live128_paired_cache225_current576_chain_qr.py",
+        "bytes": 21846,
+        "sha256": "9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 1
+        },
+        {
+          "id": "actual-system-full-source-sha",
+          "before": "6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6",
+          "after": "a147c07d859db9207da385f582706fe908d9264aacffbc51b1b62bf6064e4151",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_live128_root_words226_current576_chain_qr.py",
+        "bytes": 21844,
+        "sha256": "54ffe440189fdc645e3c6aa8ffab8e6abb6c4e704b97479742bf88e4760137d5"
+      }
+    },
+    {
+      "role": "pipeline",
+      "published_prefix": {
+        "plan_role": "pipeline",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_call_pipeline.py",
+          "bytes": 19348,
+          "sha256": "436db54132702cf448169e93a1d6d6d1327a63d5fbce1de1c4dd30ec87912fcd"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_call_pipeline.py",
+        "bytes": 19356,
+        "sha256": "c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 4
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-1",
+          "before": "\"R527-current-H-live128-paired-cache-call-pipeline-v1\"",
+          "after": "\"R536-current-H-live128-root-words-call-pipeline-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-2",
+          "before": "\"R527-current-H-live128-paired-cache-call-pipeline-input-v1\"",
+          "after": "\"R536-current-H-live128-root-words-call-pipeline-input-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-3",
+          "before": "\"R527-current-H-live128-paired-cache-owner-call-v1-input-v1\"",
+          "after": "\"R536-current-H-live128-root-words-owner-call-v1-input-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-4",
+          "before": "\"R527-current-H-live128-paired-cache-response-assembly-v1-input-v1\"",
+          "after": "\"R536-current-H-live128-root-words-response-assembly-v1-input-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-full-source-sha",
+          "before": "a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be",
+          "after": "934e92b1d381e5c268346556327fb76147c20e73bb9b4b9ddb6ca91aad7ab3fb",
+          "count": 1
+        },
+        {
+          "id": "actual-assembly-full-source-sha",
+          "before": "5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c",
+          "after": "1a67a3fe236b97fca188a9fea454b863855bb3b63260a3d75bff9e272176d620",
+          "count": 1
+        },
+        {
+          "id": "actual-system-full-source-sha",
+          "before": "6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6",
+          "after": "a147c07d859db9207da385f582706fe908d9264aacffbc51b1b62bf6064e4151",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-full-source-sha",
+          "before": "9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c",
+          "after": "54ffe440189fdc645e3c6aa8ffab8e6abb6c4e704b97479742bf88e4760137d5",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_call_pipeline.py",
+        "bytes": 19340,
+        "sha256": "cab766daf5549d957454c14ca0365817fdf287a25a01944d597a19c6a4e42318"
+      }
+    },
+    {
+      "role": "call",
+      "published_prefix": {
+        "plan_role": "call",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_current_call.mjs",
+          "bytes": 34383,
+          "sha256": "e9978c3a4692cee5ab7c27339272a45c18ffe5108fd32e8e3531cc4044b29296"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_current_call.mjs",
+        "bytes": 34385,
+        "sha256": "c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-1",
+          "before": "'R527-current-H-live128-paired-cache-call-pipeline-input-v1'",
+          "after": "'R536-current-H-live128-root-words-call-pipeline-input-v1'",
+          "count": 1
+        },
+        {
+          "id": "actual-physical-source-directory-1",
+          "before": "function loadProjectedMaps(desc,callDirectory){",
+          "after": "function materializePhysicalSources(ctx){\n const physical=path.join(ctx.directory,'physical-source-inputs');\n fs.mkdirSync(physical,{recursive:false});\n const rows=[\n  ['78718-tail-tangent-core.mjs',path.join(spec.original_source_topic,'scripts/78718-tail-tangent-core.mjs'),\n   'ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3'],\n  ['f6tail_momentum_physical_jets.mjs',path.join(spec.original_source_root,\n   'topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs'),\n   '2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8'],\n  ['f6tail_actual_metric.mjs',path.join(spec.original_source_root,\n   'topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs'),\n   '36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4'],\n  ['f6tail_cusp_grid.mjs',path.join(spec.original_source_root,\n   'topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs'),\n   'b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f'],\n  ['numerical-tail-slope-jacobian.mjs',path.join(here,'numerical-tail-slope-jacobian.mjs'),\n   '206d82d3b41e6b9ce24b26447a2026c19c1c7126765107c23d58e55da25639e2']];\n const record={schema:'R536-actual-current-physical-source-input-view-v1',\n  source:absoluteReceipt(selfPath),call_number:ctx.call,actual_directory:physical,\n  actual_original_source_root:spec.original_source_root,\n  actual_original_source_topic:spec.original_source_topic,complete:false,sources:[],\n  original_files_modified:false,source_bytes_executed_as_new_science:false};\n try{\n  for(const [name,original,digest] of rows){\n   const raw=fs.readFileSync(original);\n   if(sha(raw)!==digest)throw Error('Actual original physical source changed: '+name);\n   const target=path.join(physical,name);\n   fs.writeFileSync(target,raw,{flag:'wx'});\n   const item=absoluteReceipt(target);\n   if(item.sha256!==digest||item.bytes!==raw.length)throw Error('Physical source copy differs: '+name);\n   record.sources.push({name,original:absoluteReceipt(original),actual:item});\n  }\n  record.complete=true;\n }finally{\n  const filename=path.join(ctx.directory,'physical-source-input-binding.json');\n  fs.writeFileSync(filename,encode(record),{flag:'wx'});\n  ctx.record.actual_physical_source_input_binding=absoluteReceipt(filename);\n }\n return {directory:physical,binding:ctx.record.actual_physical_source_input_binding,\n  receipts:record.sources.map(row=>({...row.actual,file:row.name}))};\n}\n\nfunction loadProjectedMaps(desc,callDirectory){",
+          "count": 1
+        },
+        {
+          "id": "actual-physical-source-directory-2",
+          "before": "    const physical=writeNativeFinal128PhysicalPacket(dn,splitIntegrationInterval,{",
+          "after": "    const physicalSources=materializePhysicalSources(ctx);\n    const physical=writeNativeFinal128PhysicalPacket(dn,splitIntegrationInterval,{",
+          "count": 1
+        },
+        {
+          "id": "actual-physical-source-directory-3",
+          "before": "     sourceReceipts:Object.entries(spec.frozen_sources).map(([file,digest])=>({\n      file,bytes:fs.statSync(path.join(here,file)).size,sha256:digest})),",
+          "after": "     sourceReceipts:physicalSources.receipts,",
+          "count": 1
+        },
+        {
+          "id": "actual-physical-source-directory-4",
+          "before": "     physical_binding:absoluteReceipt(physical.binding.path)});",
+          "after": "     physical_binding:absoluteReceipt(physical.binding.path),\n     original_source_root:physicalSources.directory,\n     physical_source_binding:physicalSources.binding});",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_current_call.mjs",
+        "bytes": 36879,
+        "sha256": "aa05fa425b41382b0177772c21b8134040925fdca323e3aa35ab3473c414055c"
+      }
+    },
+    {
+      "role": "worker",
+      "published_prefix": {
+        "plan_role": "worker",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_worker.mjs",
+          "bytes": 8181,
+          "sha256": "16dd7cb9f1ee91c43d06620aebc3cdf2e67fe75d416caf3c1d118aff9f3e39ae"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_worker.mjs",
+        "bytes": 8183,
+        "sha256": "0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_worker.mjs",
+        "bytes": 8181,
+        "sha256": "39f54dec2d7ff23d28a343296a5b5bfa33085d3ccbf3f96b1545b7cbe08de8f8"
+      }
+    },
+    {
+      "role": "client",
+      "published_prefix": {
+        "plan_role": "client",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_tail_client.py",
+          "bytes": 31726,
+          "sha256": "d4b9a1cae39c744e1b579faa4d3559a5fe2ad3e33a052324cb3099d3c26f56aa"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_tail_client.py",
+        "bytes": 32147,
+        "sha256": "cfcc205cf0c291dc6a4dfd280a4c60f67f1d84062761e68c62117714867cb328"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 14
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-1",
+          "before": "\"R527-current-H-live128-paired-cache-client-policy-v1\"",
+          "after": "\"R536-current-H-live128-root-words-client-policy-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-full-source-sha",
+          "before": "a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be",
+          "after": "934e92b1d381e5c268346556327fb76147c20e73bb9b4b9ddb6ca91aad7ab3fb",
+          "count": 1
+        },
+        {
+          "id": "actual-assembly-full-source-sha",
+          "before": "5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c",
+          "after": "1a67a3fe236b97fca188a9fea454b863855bb3b63260a3d75bff9e272176d620",
+          "count": 1
+        },
+        {
+          "id": "actual-system-full-source-sha",
+          "before": "6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6",
+          "after": "a147c07d859db9207da385f582706fe908d9264aacffbc51b1b62bf6064e4151",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-full-source-sha",
+          "before": "9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c",
+          "after": "54ffe440189fdc645e3c6aa8ffab8e6abb6c4e704b97479742bf88e4760137d5",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-full-source-sha",
+          "before": "c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515",
+          "after": "cab766daf5549d957454c14ca0365817fdf287a25a01944d597a19c6a4e42318",
+          "count": 1
+        },
+        {
+          "id": "actual-call-full-source-sha",
+          "before": "c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50",
+          "after": "aa05fa425b41382b0177772c21b8134040925fdca323e3aa35ab3473c414055c",
+          "count": 1
+        },
+        {
+          "id": "actual-worker-full-source-sha",
+          "before": "0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf",
+          "after": "39f54dec2d7ff23d28a343296a5b5bfa33085d3ccbf3f96b1545b7cbe08de8f8",
+          "count": 1
+        },
+        {
+          "id": "actual-R535-helper-and-include-source-pins",
+          "before": "_20261116_native_paired_digit_stage128.cpp\\\":\\\"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\\\",\\\"geometry_20261116_native_paired_exact_digit128.hpp\\\":\\\"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\\\"}\")",
+          "after": "_20261116_native_paired_digit_stage128.cpp\\\":\\\"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\\\",\\\"geometry_20261116_native_paired_exact_digit128.hpp\\\":\\\"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\\\",\\\"root_20261116_native_root_finite_words.hpp\\\":\\\"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\\\",\\\"root_20261116_native_root_finite_words.py\\\":\\\"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\\\",\\\"root_20261116_native_root_finite_words_primal128.cpp\\\":\\\"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\\\",\\\"root_20261116_native_root_finite_words_trace128.cpp\\\":\\\"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\\\"}\")",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_tail_client.py",
+        "bytes": 32599,
+        "sha256": "dfb8fcf39a118020fc59ea9febc0d2be6bb0d85edd82ac98bf6d8fe645357fa4"
+      }
+    },
+    {
+      "role": "fulldn",
+      "published_prefix": {
+        "plan_role": "fulldn",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_original_full_dn.py",
+          "bytes": 36808,
+          "sha256": "9799a1b33ae52d1e5137ac51207bf48b01d41753732ec67225f738e17f764f91"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_original_full_dn.py",
+        "bytes": 37222,
+        "sha256": "4c5c0c0dab7fe1b96dc4065acc4c027ea872fedbf6b4f750f462cb0af6ee3aca"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 8
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-1",
+          "before": "\"R527-live128-paired-cache-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "after": "\"R536-live128-root-words-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-2",
+          "before": "\"R527-current-H-live128-paired-cache-client-policy-v1\"",
+          "after": "\"R536-current-H-live128-root-words-client-policy-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-3",
+          "before": "\"R527_live128_cached_radial_original_full_DN_orchestration_return\"",
+          "after": "\"R536_live128_cached_radial_original_full_DN_orchestration_return\"",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-full-source-sha",
+          "before": "a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be",
+          "after": "934e92b1d381e5c268346556327fb76147c20e73bb9b4b9ddb6ca91aad7ab3fb",
+          "count": 1
+        },
+        {
+          "id": "actual-assembly-full-source-sha",
+          "before": "5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c",
+          "after": "1a67a3fe236b97fca188a9fea454b863855bb3b63260a3d75bff9e272176d620",
+          "count": 1
+        },
+        {
+          "id": "actual-system-full-source-sha",
+          "before": "6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6",
+          "after": "a147c07d859db9207da385f582706fe908d9264aacffbc51b1b62bf6064e4151",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-full-source-sha",
+          "before": "9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c",
+          "after": "54ffe440189fdc645e3c6aa8ffab8e6abb6c4e704b97479742bf88e4760137d5",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-full-source-sha",
+          "before": "c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515",
+          "after": "cab766daf5549d957454c14ca0365817fdf287a25a01944d597a19c6a4e42318",
+          "count": 1
+        },
+        {
+          "id": "actual-call-full-source-sha",
+          "before": "c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50",
+          "after": "aa05fa425b41382b0177772c21b8134040925fdca323e3aa35ab3473c414055c",
+          "count": 1
+        },
+        {
+          "id": "actual-worker-full-source-sha",
+          "before": "0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf",
+          "after": "39f54dec2d7ff23d28a343296a5b5bfa33085d3ccbf3f96b1545b7cbe08de8f8",
+          "count": 1
+        },
+        {
+          "id": "actual-client-full-source-sha",
+          "before": "cfcc205cf0c291dc6a4dfd280a4c60f67f1d84062761e68c62117714867cb328",
+          "after": "dfb8fcf39a118020fc59ea9febc0d2be6bb0d85edd82ac98bf6d8fe645357fa4",
+          "count": 1
+        },
+        {
+          "id": "actual-R535-public-and-generated-sources",
+          "before": "    \"exact_20261114_native_allrows_dyadic_residual.py\": \"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\",\n}",
+          "after": "    \"exact_20261114_native_allrows_dyadic_residual.py\": \"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\",\n    \"root_20261116_native_root_finite_words.hpp\": \"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\",\n    \"root_20261116_native_root_finite_words.py\": \"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\",\n    \"root_20261116_native_root_finite_words_primal128.cpp\": \"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\",\n    \"root_20261116_native_root_finite_words_trace128.cpp\": \"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\",\n}",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_original_full_dn.py",
+        "bytes": 37692,
+        "sha256": "97bb244447ef809ed17cf73fe3dde75c440630e9d9441c3b188a73f7d7cd32bc"
+      }
+    },
+    {
+      "role": "runner",
+      "published_prefix": {
+        "plan_role": "runner",
+        "intermediate": {
+          "file": "geometry_20261116_live128_cached_radial_owned_run.py",
+          "bytes": 39021,
+          "sha256": "86e416fb5d905bc85864931953d2fbc978f0585f117269b295c5bab3de0cefbe"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "geometry_20261116_live128_paired_cache225_owned_run.py",
+        "bytes": 38997,
+        "sha256": "9e3d7508cfd771e34003e6056020b316cd227f92154280a449226d415f86f400"
+      },
+      "patches": [
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-1",
+          "before": "\"R527-live128-paired-cache-original-full112-owned-procedure-v1\"",
+          "after": "\"R536-live128-root-words-original-full112-owned-procedure-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-2",
+          "before": "\"public-live128-paired-cache-original-full112-FD-fullDN-request-v1\"",
+          "after": "\"public-live128-root-words-original-full112-FD-fullDN-request-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-3",
+          "before": "\"visible-live128-paired-cache225\"",
+          "after": "\"visible-live128-root-words226\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-4",
+          "before": "\"_R527_\"",
+          "after": "\"_R536_\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-5",
+          "before": "\"R527-current-H-live128-paired-cache-client-policy-v1\"",
+          "after": "\"R536-current-H-live128-root-words-client-policy-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-6",
+          "before": "\"R527-live128-paired-cache-original-full112-necessary-v1\"",
+          "after": "\"R536-live128-root-words-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "current-request-labels",
+          "before": "request225",
+          "after": "request226",
+          "count": 9
+        },
+        {
+          "id": "current-request-title",
+          "before": "Request225",
+          "after": "Request226",
+          "count": 1
+        },
+        {
+          "id": "actual-request-guard",
+          "before": "request[\"request_number\"]==225",
+          "after": "request[\"request_number\"]==226",
+          "count": 2
+        },
+        {
+          "id": "actual-fulldn-full-source-sha",
+          "before": "4c5c0c0dab7fe1b96dc4065acc4c027ea872fedbf6b4f750f462cb0af6ee3aca",
+          "after": "97bb244447ef809ed17cf73fe3dde75c440630e9d9441c3b188a73f7d7cd32bc",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_root_words226_owned_run.py",
+        "bytes": 38985,
+        "sha256": "8801c39604dfa6c7a6087886fffb3aefefdcf9f1a0c51152acbb6ff93793a0fd"
+      }
+    },
+    {
+      "role": "reader",
+      "published_prefix": {
+        "plan_role": "reader",
+        "intermediate": {
+          "file": "root_20261116_live128_cached_radial_necessary.py",
+          "bytes": 38722,
+          "sha256": "c186444eacb89add6e75ff6730851978ad8ba581f99dd447154fd5c258b15c2a"
+        }
+      },
+      "paired_cache_intermediate": {
+        "file": "root_20261116_live128_paired_cache225_necessary.py",
+        "bytes": 41304,
+        "sha256": "85631e35dc9f8f3e2ce5b19a05e8b540ee802b2e8c9e6b3cb01cb3c730cbe8e3"
+      },
+      "patches": [
+        {
+          "id": "complete-necessary-root-statistics-and-source-hunk-1",
+          "before": "        else:groups.append(dict(addresses=[index,index+1],values=body))\n    return dict(address=address,range_convention=\"half-open\",contexts=groups)\n\n\nclass Reader:\n    def __init__(self,base):\n        self.base=base;self.errors=[];self.files={}\n\n    def get(self,path,label):\n        path=Path(path)\n",
+          "after": "        else:groups.append(dict(addresses=[index,index+1],values=body))\n    return dict(address=address,range_convention=\"half-open\",contexts=groups)\n\n# R536 adds only these explicitly named necessary metadata records. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n# solver, or changes an original acceptance decision.\nROOT_WORD_COUNTERS=(\n    \"fixed_requests\",\"fixed_builds_started\",\"fixed_builds_completed\",\n    \"fixed_qualified_builds\",\"fixed_nonfinite_mode_fallbacks\",\n    \"fixed_nonfinite_angular_fallbacks\",\"fixed_mode_pairs_formed\",\n    \"fixed_angular_pairs_formed\",\"fixed_evaluations_used\",\n    \"fixed_evaluations_fallback\",\"fixed_evaluations_without_local_cache\",\n    \"u_builds_started\",\"u_builds_completed\",\"u_qualified_builds\",\n    \"u_nonfinite_mode_fallbacks\",\"u_mode_words_formed\",\n    \"u_angular_rows_used\",\"u_angular_rows_fallback\")\nROOT_WORD_SOURCE_KEYS=(\n    \"root_finite_word_cache_source_preparation\",\n    \"root_finite_word_cache_source_binding\",\n    \"root_finite_word_cache_compiler_installation\")\n\n\ndef root_word_signature(value):\n    # Complete parsed-JSON value and type equality, not rounded numbers or\n    # numerical closeness. JSON distinguishes bool/int/float and negative zero.\n    # The original Reader.safe_selected remains responsible for nonfinite\n    # JSON scalar display; no IEEE NaN payload identity is claimed.\n    return json.dumps(value,sort_keys=True,ensure_ascii=True,\n                      separators=(\",\",\":\"),allow_nan=True)\n\n\ndef root_word_equal(left,right):\n    \"\"\"Exact selected JSON types/values; -0 stays distinct; NaN never shares.\"\"\"\n    if type(left) is not type(right):return False\n    if isinstance(left,float):\n        if math.isnan(left) or math.isnan(right):return False\n        return left==right and (left!=0 or math.copysign(1,left)==math.copysign(1,right))\n    if isinstance(left,dict):\n        return left.keys()==right.keys() and all(root_word_equal(left[k],right[k]) for k in left)\n    if isinstance(left,list):\n        return len(left)==len(right) and all(root_word_equal(a,b) for a,b in zip(left,right))\n    return left==right\n\n\ndef root_word_table(values):\n    \"\"\"Fixed named-record columns with an explicit inverse and original order.\"\"\"\n    groups=[];positions={}\n    for index,row in enumerate(values):\n        keys=tuple(row)\n        if keys not in positions:\n            positions[keys]=len(groups)\n            groups.append(dict(columns=list(keys),original_record_indices=[],rows=[]))\n        group=groups[positions[keys]]\n        group[\"original_record_indices\"].append(index);group[\"rows\"].append(row)\n    result=[]\n    for group in groups:\n        columns=[]\n        for name in group[\"columns\"]:\n            rows=[value[name] for value in group[\"rows\"]]\n            columns.append(dict(constant=rows[0]) if all(root_word_equal(v,rows[0]) for v in rows)\n                           else dict(original_values=rows))\n        result.append(dict(columns=group[\"columns\"],\n            original_record_indices=group[\"original_record_indices\"],column_values=columns))\n    return dict(record_count=len(values),groups=result)\n\n\nclass RootWordMetadata:\n    \"\"\"Only R535 RootStats, its exact cache object and named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R536_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R536_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R536_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R536_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R536_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R536_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R536_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R536_physical_source_input_binding_ref\",\n    }\n\n    def __init__(self):\n        self.values={name:[] for name in self.REF_KEYS}\n        self.originals={name:[] for name in self.REF_KEYS}\n        self.seen={name:{} for name in self.REF_KEYS}\n\n    def share(self,name,value,display=None):\n        # Absent fields are not passed here. Present null/scalar/list values\n        # remain literal, so missing and null never become one table entry.\n        if not isinstance(value,dict):return value\n        key=root_word_signature(value)\n        prior=self.seen[name].get(key)\n        if prior is not None and root_word_equal(self.originals[name][prior],value):\n            return {self.REF_KEYS[name]:prior}\n        index=len(self.values[name]);self.seen[name][key]=index\n        self.originals[name].append(value)\n        self.values[name].append(value if display is None else display)\n        return {self.REF_KEYS[name]:index}\n\n    def statistics(self,value):\n        if not isinstance(value,dict):return value\n        display=dict(value)\n        if \"root_finite_word_cache\" in value:\n            display[\"root_finite_word_cache\"]=self.share(\n                \"root_finite_word_cache\",value[\"root_finite_word_cache\"])\n        return self.share(\"root_statistics\",value,display)\n\n    def compilation(self,value):\n        if not isinstance(value,dict):return value\n        display=dict(value)\n        key=\"root_finite_word_cache_compilation_source_binding\"\n        if key in value:\n            display[key]=self.share(\"root_cache_compile_binding\",value[key])\n        return self.share(\"owner_compilation\",value,display)\n\n    def describe(self):\n        return dict(schema=\"R536-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n            reference_key_to_catalogue={key:name for name,key in self.REF_KEYS.items()},\n            complete_named_catalogues={name:root_word_table(values) for name,values in self.values.items()},\n            inverse=dict(\n                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R536_root_statistics_ref, then only its original root_finite_word_cache member when it carries R536_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R536_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R536_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n                no_recursive_arbitrary_tree_codec=True),\n            complete_original_RootStats_members_retained=True,\n            all_returned_cache_keys_not_only_declared18_retained=True,\n            original_last_present_and_full_last_retained=True,\n            missing_null_and_original_array_order_distinguished=True,\n            only_complete_equal_parsed_values_and_types_share_an_index=True,\n            dictionary_member_serialization_order_not_claimed_original=True,\n            no_compile_or_scientific_success_inferred_from_source_preparation=True,\n            no_speed_or_completion_inferred_from_counters=True,\n            no_new_original_gate_or_scientific_evaluation=True)\n\n\nclass Reader:\n    def __init__(self,base):\n        self.base=base;self.errors=[];self.files={}\n        self.root_word_metadata=RootWordMetadata()\n\n    def get(self,path,label):\n        path=Path(path)\n",
+          "count": 1
+        },
+        {
+          "id": "complete-necessary-root-statistics-and-source-hunk-2",
+          "before": "\n    def evaluation(self,value):\n        if not isinstance(value,dict):return value\n        return keep(value,(\"complete\",\"budget_exhausted\",\"stages_completed\",\"rows_completed\",\n            \"expected_rows\",\"norm\",\"below_original_tolerance\",\"mean_height_sum\",\n            \"evaluation_error\",\"worst_row\",\"failed_stages\"))\n\n    def owner_record(self,row):\n        event=row.get(\"event\")\n",
+          "after": "\n    def evaluation(self,value):\n        if not isinstance(value,dict):return value\n        result=keep(value,(\"complete\",\"budget_exhausted\",\"stages_completed\",\"rows_completed\",\n            \"expected_rows\",\"norm\",\"below_original_tolerance\",\"mean_height_sum\",\n            \"evaluation_error\",\"worst_row\",\"failed_stages\"))\n        if \"root_statistics\" in value:\n            result[\"root_statistics\"]=self.root_word_metadata.statistics(value[\"root_statistics\"])\n        return result\n\n    def owner_record(self,row):\n        event=row.get(\"event\")\n",
+          "count": 1
+        },
+        {
+          "id": "complete-necessary-root-statistics-and-source-hunk-3",
+          "before": "                \"scaled_z_infinity_norm\"))\n        return result\n\n    def owner(self,call):\n        directory=call/\"owner\"\n        obj=self.get(directory/\"summary.json\",call.name+\"/owner\")\n",
+          "after": "                \"scaled_z_infinity_norm\"))\n        return result\n\n    def owner_root_source_records(self,call):\n        path=call/\"owner-call-procedure.json\";label=call.name+\"/owner-call-procedure\"\n        value=self.get(path,label)\n        result=dict(actual_file=self.files[label],\n            preparation_or_installation_is_not_actual_compilation=True)\n        if not isinstance(value,dict):\n            result[\"original_value\"]=value\n            return result\n        result[\"actual_procedure\"]=keep(value,(\n            \"schema\",\"source\",\"input\",\"run\",\"call_number\",\"actual_owner_process\",\n            \"original_owner_source\",\"actual_independent_engineering_view\",\n            \"per_H_new_total_clock_started\",\"old_result_or_cached_J_installed\",\n            \"job_deadline\",\"actual_owner_returncode\",\"actual_wrapper_returncode\",\n            \"returned\",\"error\",\"traceback\",\"resource_partial\",\"elapsed_seconds\",\n            \"original_raw_cleanup_deferred\",\"actual_full_owner_summary\",\n            \"original_persistent_main_solve_replay_source_unchanged\",\n            \"root_primal_uses_declared_R535_finite_word_source\"))\n        for name in ROOT_WORD_SOURCE_KEYS:\n            if name in value:\n                result[\"actual_procedure\"][name]=self.root_word_metadata.share(name,value[name])\n        return result\n\n    def root_evaluation_records(self,records):\n        \"\"\"Every actual extra/replay evaluation which returns RootStats.\"\"\"\n        result=[]\n        for index,row in enumerate(records):\n            if not isinstance(row,dict):continue\n            if any(isinstance(row.get(key),dict) and \"root_statistics\" in row[key]\n                   for key in (\"evaluation\",\"current\",\"final\")):\n                result.append(dict(original_record_index=index,record=self.owner_record(row)))\n        return result\n\n    def owner(self,call):\n        directory=call/\"owner\"\n        obj=self.get(directory/\"summary.json\",call.name+\"/owner\")\n",
+          "count": 1
+        },
+        {
+          "id": "complete-necessary-root-statistics-and-source-hunk-4",
+          "before": "                  \"persistent128_direction_lifted\",\"persistent128_owner_final\",\"persistent128_owner_error\")\n        out=dict(records_source=source,\n                 records=[self.owner_record(row) for row in records if row.get(\"event\") in selected])\n        if obj is not None:\n            out.update(keep(obj,(\"schema\",\"actual_call_identity\",\"elapsed_seconds\",\"actual_error\",\n                \"independent_fresh_replay_complete\",\"fresh_replay_full_residual_words_equal_owner\",\n                \"fresh_replay_all226_output_words_equal_owner\",\"state_never_roundtripped_through_binary64\",\n",
+          "after": "                  \"persistent128_direction_lifted\",\"persistent128_owner_final\",\"persistent128_owner_error\")\n        out=dict(records_source=source,\n                 records=[self.owner_record(row) for row in records if row.get(\"event\") in selected])\n        out[\"root_finite_word_cache_source_records\"]=self.owner_root_source_records(call)\n        # Original selected rows stay in place. Extra raw-owner event kinds,\n        # including replay records in an incomplete-summary journal, are kept\n        # only when they actually carry the new complete RootStats member.\n        out[\"additional_root_evaluation_records\"]=[]\n        for original_index,row in enumerate(records):\n            if not isinstance(row,dict) or row.get(\"event\") in selected:continue\n            if any(isinstance(row.get(key),dict) and \"root_statistics\" in row[key]\n                   for key in (\"evaluation\",\"current\",\"final\")):\n                out[\"additional_root_evaluation_records\"].append(\n                    dict(original_record_index=original_index,record=self.owner_record(row)))\n        if obj is not None:\n            if \"compilation\" in obj:\n                out[\"compilation\"]=self.root_word_metadata.compilation(obj[\"compilation\"])\n            out.update(keep(obj,(\"schema\",\"actual_call_identity\",\"elapsed_seconds\",\"actual_error\",\n                \"independent_fresh_replay_complete\",\"fresh_replay_full_residual_words_equal_owner\",\n                \"fresh_replay_all226_output_words_equal_owner\",\"state_never_roundtripped_through_binary64\",\n",
+          "count": 1
+        },
+        {
+          "id": "complete-necessary-root-statistics-and-source-hunk-5",
+          "before": "            if isinstance(replay,dict):\n                out[\"replay\"]=keep(replay,(\"complete\",\"returncode\",\"wall_timeout\",\"error\",\n                    \"input_state_not_converted_to_binary64\",\"native_accepted\"))\n            post=obj.get(\"post_owner_components\") or {}\n            out[\"post_components\"]=keep(post,(\"complete_stage_maps\",\"complete_boundary112_response\",\n                \"complete_mixed_endpoint338x112_readout\",\n",
+          "after": "            if isinstance(replay,dict):\n                out[\"replay\"]=keep(replay,(\"complete\",\"returncode\",\"wall_timeout\",\"error\",\n                    \"input_state_not_converted_to_binary64\",\"native_accepted\"))\n                if \"records\" in replay:\n                    if isinstance(replay[\"records\"],list):\n                        out[\"replay\"][\"actual_root_evaluation_records\"]=self.root_evaluation_records(replay[\"records\"])\n                    else:\n                        out[\"replay\"][\"original_records_member\"]=replay[\"records\"]\n            post=obj.get(\"post_owner_components\") or {}\n            out[\"post_components\"]=keep(post,(\"complete_stage_maps\",\"complete_boundary112_response\",\n                \"complete_mixed_endpoint338x112_readout\",\n",
+          "count": 1
+        },
+        {
+          "id": "complete-necessary-root-statistics-and-source-hunk-6",
+          "before": "                \"owner_response_assembled\",\"protocol_response_returned\",\"actual_error\",\n                \"actual_failure_location\",\"actual_current_original_norm\",\"elapsed_seconds\",\n                \"snapshot\",\"complete_QR_result\",\"literal_packet\",\"physical_packet\",\"actual_response\",\n                \"optional_predictor_maps_returned\",\"optional_predictor_error\")))\n        protocol=self.get(path/\"protocol-written.json\",path.name+\"/protocol-written\")\n        out[\"actual_protocol_write_completed\"]=protocol is not None\n        if protocol:out[\"actual_protocol_write\"]=protocol\n",
+          "after": "                \"owner_response_assembled\",\"protocol_response_returned\",\"actual_error\",\n                \"actual_failure_location\",\"actual_current_original_norm\",\"elapsed_seconds\",\n                \"snapshot\",\"complete_QR_result\",\"literal_packet\",\"physical_packet\",\"actual_response\",\n                \"optional_predictor_maps_returned\",\"optional_predictor_error\",\n                \"actual_physical_source_input_binding\")))\n        physical_label=path.name+\"/physical-source-input-binding\"\n        physical=self.get(path/\"physical-source-input-binding.json\",physical_label)\n        out[\"physical_source_input_binding\"]=dict(actual_file=self.files[physical_label],\n            original_value=self.root_word_metadata.share(\"physical_source_input_binding\",physical),\n            copied_source_completeness_is_not_owner_or_scientific_success=True)\n        protocol=self.get(path/\"protocol-written.json\",path.name+\"/protocol-written\")\n        out[\"actual_protocol_write_completed\"]=protocol is not None\n        if protocol:out[\"actual_protocol_write\"]=protocol\n",
+          "count": 1
+        },
+        {
+          "id": "complete-necessary-root-statistics-and-source-hunk-7",
+          "before": "    answer[\"original_fullDN\"]=reader.fullDN(base/\"science\"/\"full-dn\")\n    answer[\"original_rules\"]=reader.original_rules()\n    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"actual_file_receipts\"]=reader.files\n    answer[\"metadata_read_errors\"]=reader.errors\n    answer[\"necessary_readback_complete\"]=not reader.errors\n",
+          "after": "    answer[\"original_fullDN\"]=reader.fullDN(base/\"science\"/\"full-dn\")\n    answer[\"original_rules\"]=reader.original_rules()\n    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"R536_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_receipts\"]=reader.files\n    answer[\"metadata_read_errors\"]=reader.errors\n    answer[\"necessary_readback_complete\"]=not reader.errors\n",
+          "count": 1
+        },
+        {
+          "id": "actual-source-basenames",
+          "before": "live128_paired_cache225",
+          "after": "live128_root_words226",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-1",
+          "before": "\"R527-live128-paired-cache-original-full112-necessary-v1\"",
+          "after": "\"R536-live128-root-words-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-2",
+          "before": "\"public-live128-paired-cache-original-full112-FD-fullDN-request-v1\"",
+          "after": "\"public-live128-root-words-original-full112-FD-fullDN-request-v1\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-3",
+          "before": "\"visible-live128-paired-cache225\"",
+          "after": "\"visible-live128-root-words226\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-4",
+          "before": "\"_R527_necessary_runtime\"",
+          "after": "\"_R536_necessary_runtime\"",
+          "count": 1
+        },
+        {
+          "id": "explicit-current-schema-or-namespace-5",
+          "before": "\"R527_source_composition\"",
+          "after": "\"R536_source_composition\"",
+          "count": 1
+        },
+        {
+          "id": "current-request-labels",
+          "before": "request225",
+          "after": "request226",
+          "count": 3
+        },
+        {
+          "id": "current-request-title",
+          "before": "Request225",
+          "after": "Request226",
+          "count": 1
+        },
+        {
+          "id": "actual-request-guard",
+          "before": "request[\"request_number\"]==225",
+          "after": "request[\"request_number\"]==226",
+          "count": 1
+        },
+        {
+          "id": "actual-request-number-fields",
+          "before": "request_number=225",
+          "after": "request_number=226",
+          "count": 3
+        },
+        {
+          "id": "actual-runner-full-source-sha",
+          "before": "9e3d7508cfd771e34003e6056020b316cd227f92154280a449226d415f86f400",
+          "after": "8801c39604dfa6c7a6087886fffb3aefefdcf9f1a0c51152acbb6ff93793a0fd",
+          "count": 1
+        },
+        {
+          "id": "actual226-necessary-frame",
+          "before": "FRAME=\"REQUEST225_PAIRED_CACHE_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"",
+          "after": "FRAME=\"REQUEST226_ROOT_WORDS_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_live128_root_words226_necessary.py",
+        "bytes": 52189,
+        "sha256": "e90e3abd2e40ebd469bcd8d4dd7f221848c9926c91b86c8e2ee29235b1be864a"
+      }
+    }
+  ],
+  "scope": {
+    "original336_and_all_original225_public_sources_retained": true,
+    "current_request_number": 226,
+    "original221_and225_are_ancestry_only": true,
+    "current_policy_schema": "R536-current-H-live128-root-words-client-policy-v1",
+    "current_namespace": "visible-live128-root-words226",
+    "source_views_live_in_actual_GITHUB_WORKSPACE_topic_computations": true,
+    "R518_and_R527_intermediates_are_complete_text_only": true,
+    "R522_three_complete_outputs_and_R515_actual_compiler_sites_unchanged": true,
+    "R535_two_source_views_prepared_by_unchanged_published_adapter": true,
+    "real_existing_owner_scope_compile_owner_replaced_by_declared_R535_function_before_original_main": true,
+    "original_persistent_CPP_main_solve_replay_and_all_19200_component_caps_retained": true,
+    "original_all576_all224_226_two_means_338x112_FD_fullDN_and_final_fresh_audit_retained": true,
+    "physical_source_root_repaired_with_five_actual_full_original_bytes_and_new_binding": true,
+    "packet_numeric_chunks_and_original_physical_functions_unchanged": true,
+    "source_preparation_and_installation_do_not_infer_actual_compilation_or_numerical_acceptance": true,
+    "finite_word_statistics_and_actual_compile_receipts_selected_without_inventing_missing_values": true,
+    "original_owned_quiet_retention_and_single90000byte_exit70_preserved": true,
+    "no_new_scientific_gate_or_local_scientific_execution": true,
+    "no_generic_tree_encoding_or_split_scientific_payload": true
+  }
+}
