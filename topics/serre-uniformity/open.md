@@ -73,7 +73,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 **必要原源续载已成**：[完整运输记录](notes/2026-11-16-required-original-source-intake.md)记两次纯IO。首43826442405/source5a21f9d9/artifact14206388855/42a3155f保R7992050原V8 tar175356258/df08e833和R801同2050 q109 tar152592418/e9595cc2；补43827207676/sourceee98d42e/artifact14207385683/67ea4155成功保R80082E1+四M2/旧carrier tar7217285/113be338与R827七原件tar10114176/d5a5641a。包内original/，原身份/meta/manifest逐字保；R827原exit124/no-final不造成功，真实ζ根549966761匹配R868旧逆。小metadata run43827843962已真读current与596历史，complete/target/full lift spec完全相同；同核requestba760988只改resume。不重606历史或数学。
 
-**R877单A消费者已激活**：[方法](notes/R877-original-canonical-A-single-normal-RHS-method.md)/[激活](notes/R877-original-canonical-A-normal-input-activation.md)。corea40ed5b1/wrappera574bd4f，唯一新F69·A右端、旧1234逆与全部1380行乘回，原branch0/free1186及82^10一次保留。源run43831246621/job133176926303/source7789431a success；artifact14209030975/8f4b5cc9（Nov17 08:27），1270原件含1234行、旧S5/B/DAG全在。实际数学run待发布后回填，未报A已成。七同ζ分支/五Lj128或144/height仍缺。
+**R877原A/global y输入实际已成**：[正式结果](results/R877-certified-original-canonical-A-and-global-y-normal-input.md)，run43833857220/job133185550343/source87f3bfe4，24stage/2.9434909s；唯一新A右端及前69阶×20的全部1380行完成。A fede8567/y分式b2849e28/final6305b52f；artifact14209578116/6f0e627c（Nov17 08:46）。1270原件、旧S5/逆/B不重；准确unit-solve不冒char0展开，七同ζ分支与五Lj128/144/height仍缺。
 
 **R876九范数原Hecke理想路线已证**：[完整证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)。原M_j=L_j(254P0)真无基点二截面，九个8次域范数完整生成Nm_p(q*M_j)，含非étale/剩余次数；共同M0取消移动，再真dual7运输冻结Nm_q(p*)与P0刚性化。三完整z纤维816×836的672minor认证无基点；一次目标271右端solve/全272关系复用全部方向。128截面/九理想/实际支持未算，模零不判inactive。
 
