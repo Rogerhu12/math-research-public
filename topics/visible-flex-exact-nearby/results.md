@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WVC首次完整实际结果](notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/actual-scientific-conclusion.json)与[执行记录](notes/continuous_centre_tracefree_residual_ci/run-43891414339-1/execution.json)：56新、96模态、23结构门完整成，e+3dt约11066.29746，充分门仍false/finite0；不推奇异。全输入/原mean/端/两rhs/fullscope、旧WPS60/6prefix保，old0/lost0，成功目标冻结。
+
 - [WEX：真实腰端完整通量与两类原函数余项](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)：精确四block分解保持原B0/B1与同P，C1/C2固定乘子、完整profile和两terminal给同N^-2接收。原Cs/WT/两physicalmean/四端及whole/reduced原域保；31新目标未算，8原小件/62对象完整只读，不减旧upper。
 
 - [WCTR：带裁剪scalar trace的矩阵归一化与完整双向回路](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)：纯证明保同actual四块/κ3，两个连续rate和离散τ、完整matrixρ2^-1/S/signed action/transpose与5/4 lift。未来完整WVC后20copy+36新，alltrace0整候选只读；无新数值，finite充分门及所有原mean/端/其他matching仍条件。

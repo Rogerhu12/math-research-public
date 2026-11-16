@@ -188,7 +188,7 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 
 
-[WVC](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6/manifest229198f5全同算子候选：41current/19history/16AST，56新或49+7copy/真gate另2；43891414339/1首次运行，actual待核。全continuous残差/两mean/7port/实际四块κ3保proof及c3cf5c02原本页，旧false不改。
+[WVC实际56](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)43891414339/1全56新+5prefix/96changed/23门成，SCI746ec1e1/85fd5bc6、execc8cd8e8b/5e560887；e+3dt≈11066.29746充分门false/finite0、不推奇异。原WPS60/6prefix及全两mean/7ports/两rhs/四块κ3真96保，old0/lost0，禁重；后继WCTR或全接收新目标。
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
 
@@ -198,6 +198,6 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 [WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
 
-[WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯定理：trace clip±c/64、两向rate/τ、完整matrixρ2^-1及S/action/transpose、lift5/4；实际四块与κ3不改。完整WVC供体后拟20copy+36新/真gate另2，alltrace0完整copy保原6/5。无新actual，e+3dt<1/全两rhs/7ports/physicalmean及其他匹配仍待。
+[WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯定理：trace clip±c/64、两向rate/τ、完整matrixρ2^-1及S/action/transpose、lift5/4；实际四块与κ3不改。完整WVC56已成，后继拟20copy+36新/真gate另2，alltrace0完整copy保原6/5。无新actual，e+3dt<1/全两rhs/7ports/physicalmean及其他匹配仍待。
 
 [WEX](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)6ffd46a4全BFV通量→原B0/B1同P+完整一/二primitive T1/T2，cB,n固定乘子拆分/C1C2负窗与同profile插值合法。8原小件/62对象只读，31新=12+6+6+7尚未算；Cs/WT/physicalmean/四端/RF/whole/reduced全保，finite/负head/ν/Θ/全matching独立。下一执行精确旧JSON合同和新31 source。
