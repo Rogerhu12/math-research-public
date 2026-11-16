@@ -70,6 +70,8 @@ R427/R431只对真193或同源已接受mesh，以父全词/knots/准确midpoint�
 
 [205完整执行入口](notes/2026-11-16-request205-actual202-accurate-ten-complete-closed-interface.md)已核全部request语义差异/完整workflow与两root源差异：原203143 pins逐项保+11=154，当前driver72/native30/公开恢复78各自保；request97406B/06ae0670、workflow95760B/726d97e1、ownerf779c6a2/helperb60c85eb。真202词→新准确十族factory→全部joint112→真实config/candidate/recipe→完整453→fresh450→R452全部闭场与独立held，同原18900+2700钟/3600采样预留/7200BVP及原全部终门。construction必要仅binding后一次；七scope必要/原owner quiet后清，不转移旧域/接受，不额外科学门。push新note请求触发公开自身Actions，实际R453 run43796116341/sourcee17aef55b9cc4d3f53054d2b79c853ff395d1227已官方绑定，amplitude唯一终态；目前没有新450或闭面成功。
 
+[R451](results/R451-complete-M-closed-geometry-and-common-material-registration.md)/[完整接口](notes/2026-11-16-complete-M-postsolve-geometry-and-material-interface.md)与12独立源已完整差异/正文核后发布：真R442全$4M+2$接受才重做全$3M+2$ Hermite/M材料、radial/atlas/shared/live metric/全部pair reach及独立held；原六jet/四Loewner/全部AA CC AC/帽/marker/O(3)数学保持。radial实际设M容量，不继承112；原源/全数组/全两mean/同18900+2700钟/90KB/quiet保持。首全112材料图与当前全M可由准确$R_\alpha K_M(x,I_M(\Theta_0(q)-\alpha))$共轭；只去明确M/schema/数值spec身份，其余准确target逐字段相等，全export另由R442原源核。新API默认未调用，跨M一致误差仍欠；无实际M/父/求解/几何成功，原R448父/205分支未登记，后续R457独立接205。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

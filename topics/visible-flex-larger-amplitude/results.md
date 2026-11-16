@@ -348,3 +348,8 @@
 ## 2026-11-16 — Request205实际运行绑定
 
 205已实际启动：[run43796116341](https://github.com/Rogerhu12/math-research-public/actions/runs/43796116341)，source e17aef55b9cc4d3f53054d2b79c853ff395d1227，2026-11-16T03:06:19Z/attempt1，compute133065195355；官方初读steps1–6成功、7容量步骤运行，完整source/science后续未起。amplitude唯一R453终态owner，未取运行中日志；job状态不预填任何C/112/453/450/闭面接受。
+
+
+## R451 — 完整有限M的闭面与公共材料来源
+
+[R451](results/R451-complete-M-closed-geometry-and-common-material-registration.md)/[完整接口](notes/2026-11-16-complete-M-postsolve-geometry-and-material-interface.md)与12独立源已完整差异/正文核后发布：真R442全$4M+2$接受才重做全$3M+2$ Hermite/M材料、radial/atlas/shared/live metric/全部pair reach及独立held；原六jet/四Loewner/全部AA CC AC/帽/marker/O(3)数学保持。radial实际设M容量，不继承112；原源/全数组/全两mean/同18900+2700钟/90KB/quiet保持。首全112材料图与当前全M可由准确$R_\alpha K_M(x,I_M(\Theta_0(q)-\alpha))$共轭；只去明确M/schema/数值spec身份，其余准确target逐字段相等，全export另由R442原源核。新API默认未调用，跨M一致误差仍欠；无实际M/父/求解/几何成功，原R448父/205分支未登记，后续R457独立接205。

@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 03:09:04 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 194299b5f99239257e842dc0a4c11cbd4c0cc402。
+规则同步记录：2026-11-16 03:09:20 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 09202fcdb5c5952d598850c6dca25b7019bd74eb。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests均只在Actions；本地限文本、纸证、原字面/JSON/字节元数据。root唯一Git/ref，代理仅文本/blob；PAT只瞬时CLI，禁文件/提交/connector/回复。
 部分克隆/workspace/visible-larger-working/visible-larger-root-git-180，blob:none、add --sparse。每真实pull核双README，有变仅读差异立刻遵守，至少每小时；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，不丢实质冲突。根12禁新fixture/独审/科学前门；根15禁可再生raw/证书/编码拆包入Git/Release/artifact。题≤200MB、各MD<100KB、H<10KB、open<30KB、log≤5物理行/条、不写根LOG。open§4–6逐字保。
@@ -48,7 +48,7 @@ R449最新ee3675ce/56cbf3b2已刊aa7c7f5a：202十原词→Actions投影→同dy
 所有暂存目录在/workspace/visible-larger-working；丢失依已刊原源和下面身份重做，不靠已删raw或暂存manifest造证据。
 - amplitude：205三组件/接口已刊，baa207cc/227ef601/80c26207；四phase、实际config→recipe、binding后/BVP前唯一construction读回。已文本复核root接线；唯一204/205终态日志。
 - geometry：R452四源及接口已刊并完整diff/全文读，policy37958/b49769f1、runner26899/89a90b2d、reader10412/e3a4a702、held5449/8d0927cc；actual202205/56cb/227e/205deadline，原policy2198/fe932b50和work3356/8a03c854不变。续R456独立接R450同far+R448真正fresh450及205/R452来源；不改旧源，M/公共材料另欠。唯一203日志。
-- exact：current-C-modes-postsolve-R451已封14件，manifest31464/48dd9fe8，12diff96981/94da2d97；真实M五stage/held与独立公共材料helper，首图原R437112、当前全M；无实际执行。root待读刊。续R454/206同原八组真98重生；request206暂存helper75482/9840e9ae、worker29658/59276c9e、完整diff50224/8784171b待root读，未改科学/门/90K。
-- root：[205完整入口](notes/2026-11-16-request205-actual202-accurate-ten-complete-closed-interface.md)已刊e17aef55：owner14815/f779c6a2、helper47078/b60c85eb、request97406/06ae0670、workflow95760/726d97e1，154pins全真；原203143逐值保，driver72/native30/恢复78。真202候选→完整C/joint112→453/fresh450→R452全部闭面/独立held，同原钟/所有门/90KB/七必要quiet。实际run43796116341已官方绑定；随后读刊R451/R454/R456并接下一未付精化。
+- exact：R451十四件已刊，12runtime/完整M五stage与独立held/公共材料API；postc5aeb8ba、held0020018c、readere48b7b26、materialdb7df147。首材料仍原R437112，当前全M；API默认未调用，无实际M/父/接受。续R454/206同原八组真98重生：request206暂存helper75482/9840e9ae、worker29658/59276c9e、完整diff50224/8784171b待root读，科学/门/90K不改。
+- root：[205完整入口](notes/2026-11-16-request205-actual202-accurate-ten-complete-closed-interface.md)已刊e17aef55：owner14815/f779c6a2、helper47078/b60c85eb、request97406/06ae0670、workflow95760/726d97e1，154pins全真；原203143逐值保，driver72/native30/恢复78。真202候选→完整C/joint112→453/fresh450→R452全部闭面/独立held，同原钟/所有门/90KB/七必要quiet。实际run43796116341已官方绑定；R451已刊；续读刊R454/R456及R457最小205/M来源，接下一未付精化。
 
 最近实际topic tree 9d849bbe860ea733723e2b73ef68b80373181361（82d6a8d9）9128blobs/195141907B、9502entries未截断；本新增仍控题≤200MB。每结论立即推，每pull核双README；继续全部完成标准与严格存在缺口。
