@@ -29,3 +29,9 @@ WPS36、WRP9完整冻结manifest与WSMF完整proof当前输入说明，均无26�
 ## 2026-11-16：WPSA 完整实际证明与全原球发表
 
 2026-11-16 14:09:52 UTC；README核58047dad4c19192c43410420cb90c47fffb66a13未变。WPSA 6bcd4484f596e39f94cb6adc870dec3b937ad984/50464/470d2547de70dea45468103bc3518e6ed5bcc757c348543896df4edda65a2f92，root完整正文/66原球记录读取与文字核；60新record每个原字符串逐一匹配actual，6prefix保独立末位及witness。3完整JSON附录分别为15原记录2627B/b313df91、原scope8502B/94c59517、当前retainedscope1486B/50eefdca8e6d7359e8e3e5fd9b11ef73d71c096c8e3eb791c6dc1844dcc322e4，与actual逐对象全同。7原对象hash、36/19/16、40最终fields/20progress/22门、6pull首+末3和chain、无lost边界全保；既有4字段大上界false不改成true。原已成target不重算，本次仅发表完整实际结论。WPN有条件重建仍未激活，正侧继续新的完整试探/近似逆候选；负侧WSMF52继续。
+
+## 2026-11-16：WRPA40 完整实际结论发表
+
+2026-11-16 14:11:23 UTC；README核1b5d55350189b12f4976cba948d0d13d20b6733b未变。完整WRPA e11669900368b5d959e9ad59bfcac701b68288e2/36854/b6c22c38f02075cb93f6cc5592d5fbc0abc79efba50e73915f1ce976e81df21c。根全文读数学和操作正文，3完整JSON对象与actual逐对象一致：whole/reduced实际selection、全部3图40新record与44原copy。9scope各自完整hash及原accepted全保，14门/16progress/9current/2AST/0history、4真pull全链、1child/lost0及原mean/端/有限限制均保。只把两处interval不等式写成saved ball的certified upper endpoint并明确定义，未取midpoint当upper，原球未动。
+
+完整source/manifest/workflow/actual原identity保proof；3输出104740B，preflight12874/bd51993a，3.88MBstdout只引已存metadata未取正文。WRP40已成锁定，WSMF52和W4M31可各以完整已成receiver作只读输入。

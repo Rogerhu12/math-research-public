@@ -6,7 +6,7 @@
 
 ## 新增结论
 
-- **WRP40实际完整相对pullback**：43881690924/1全3图40新/14门成功；[原始结论](notes/relative_phase_pullback_receiver_ci/run-43881690924-1/actual-scientific-conclusion.json)146904d0/4b66bd0b。严格Bc约8.421e235、Bt约9.109e225；完整whole/reduced各选new，仍由原mean主导，无smallness或finite逆。44copy/9scope全保，old0/lost0，禁止重算。
+- **WRPA40完整实际相对pullback**：[证明及全部40新/44原记录](results/R133-supplement-actual-relative-phase-pullbacks-and-complete-receiver.md)b6c22c38，43881690924/1全3图/14门。严格Bc约8.421e235、Bt约9.109e225；whole/reduced各选new，均值仍主导，无smallness或finite逆，old0/lost0。
 
 - **WSMF52严格物理均值完整新界**：[证明](results/R133-supplement-per-index-strict-flux-and-complete-physical-mean-bound.md)5845b880。以total7/r2导数包保全angular flux/N5八terminal、两物理均值/四端/3070jump及完整receiver；32+7+13新目标的正递推已证，κ0只读。52尚未计算，未授finite/小量/非线性结论。
 
