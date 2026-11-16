@@ -45,17 +45,23 @@ def names_in(value, files):
 
 def bind_manifest(a, out, item):
     rn, mn = "full-outputs-manifest-reference.json", "full-outputs-manifest.json"
-    members = a.by_name[rn]
-    assert len(members) == 1 and members[0].file_size < 1000000
-    raw = a.zip.read(members[0])
-    (out/rn).write_bytes(raw)
-    ref = json.loads(raw)
-    if "manifest" in ref:
-        ms = m.plain(ref["manifest"])
-    elif all(k in ref for k in ("file","bytes","sha256")):
-        ms = m.plain(ref)
+    ref, rs = {}, None
+    if rn in a.by_name:
+        members = a.by_name[rn]
+        assert len(members) == 1 and members[0].file_size < 1000000
+        raw = a.zip.read(members[0])
+        (out/rn).write_bytes(raw)
+        ref = json.loads(raw)
+        rs = m.file_spec(out/rn)
+        if "manifest" in ref:
+            ms = m.plain(ref["manifest"])
+        elif all(k in ref for k in ("file","bytes","sha256")):
+            ms = m.plain(ref)
+        else:
+            ms = {"file":ref["manifest_file"],"bytes":ref["manifest_bytes"],"sha256":ref["manifest_sha256"]}
     else:
-        ms = {"file":ref["manifest_file"],"bytes":ref["manifest_bytes"],"sha256":ref["manifest_sha256"]}
+        assert item.get("manifest_sha256") and len(a.by_name[mn]) == 1
+        ms = {"file":mn,"bytes":a.by_name[mn][0].file_size,"sha256":item["manifest_sha256"]}
     assert ms["file"] == mn
     if item.get("manifest_sha256"):
         assert ms["sha256"] == item["manifest_sha256"]
@@ -65,11 +71,11 @@ def bind_manifest(a, out, item):
     assert len(files) == len(manifest["files"])
     if "file_count" in ref:
         assert ref["file_count"] == len(files)
-    assert set(a.by_name) == set(files)|{rn,mn}
+    assert set(a.by_name) == set(files)|{mn}|({rn} if rs is not None else set())
     for n,row in files.items():
         m.check_spec(row)
         assert len(a.by_name[n]) == 1 and a.by_name[n][0].file_size == row["bytes"]
-    return manifest, files, ms, m.file_spec(out/rn)
+    return manifest, files, ms, rs
 
 def tar_sources(target, original, names):
     with target.open("wb") as raw:
@@ -94,7 +100,8 @@ def read_source(row, work, output):
         def fetch(names):
             a.extract_many([(n,fs[n]["sha256"],out/n,fs[n]["bytes"]) for n in sorted(set(names))])
         metadata = {n for n in fs if n in ("public-actions-input.json","run-receipt.json","core-receipt.json","stage-manifest.json")
-                    or (n.endswith("-certificate.json") and fs[n]["bytes"] < 2000000)}
+                    or (n.endswith("-certificate.json") and fs[n]["bytes"] < 2000000)
+                    or ("stage-manifest" in n and fs[n]["bytes"] < 20000000)}
         names = set(metadata)
         mode = row["mode"]
         if mode == "ended":
@@ -184,7 +191,9 @@ def read_source(row, work, output):
                     special[n]=value
         def compact(v):
             return None if v is None else {k:x for k,x in v.items() if k not in ("configuration","job")}
-        keep = set(names)|{"full-outputs-manifest.json","full-outputs-manifest-reference.json"}
+        keep = set(names)|{"full-outputs-manifest.json"}
+        if rs is not None:
+            keep.add("full-outputs-manifest-reference.json")
         bundle = output/(label+"-intake-selected-original-sources.tar.gz")
         tar_sources(bundle,out,keep)
         selected = {n:fs[n] for n in sorted(names)}

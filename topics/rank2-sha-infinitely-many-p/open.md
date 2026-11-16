@@ -199,3 +199,5 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 先重建一条nΞ0，再以真实T7/T7²和固定57恢复三原Hom；避免对三条独立无界枚举。更小的原R商函数基正在推进，不能以存在算法代实际非零。
 
 - [R868](results/R868-original-t-slack-and-native-bockstein-image-unit.md)：原σ_t=min_n(ord P_n−A_n)准确控制t^-τ仍在同W_D。实际quartic若τ=k−13≤σ_t且ell≤s−h，P0=t^-τP真在K1并读首像单位；故Λ0不下降第二页左行，R/S沿同P0能调该标量但同时改全余类。σ_t≤r−b0−floor((c0+1)/4)，最小r=b0=3,c0≤2时零松弛，不被此机制覆盖；续其真联合第二/第三页。
+
+- [R869](results/R869-original-modular-input-and-cubic-field-descent.md)：原实17挠点与完整Artin共轭证明H0全部落F=Q(v)≃Q(∛17)，同Ξ0真下降此三次域（非全实Hecke域）。公开run43825112263精确生成Φ17：bidegree18、总degree34、291项；三H541项完整含2，各98非零。producer/run/hash齐，未认n1、未得原函数坐标或非零shadow。

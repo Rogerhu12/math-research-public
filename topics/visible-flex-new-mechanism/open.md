@@ -164,3 +164,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R477：正则单门及四门局部可控已付，真正全零仍欠
 
 [证明](results/R477-regular-cap-normal-and-four-condition-local-open-image.md)在R475两号族前加有限长、有限微小共同正尾，用三个真曲率密度方向准确恢复v′/v/U累计；严格凸K″=3√v/2给统一可逆，原Af根整germ与全部jets不动。新平端Π(ℓ)>0给完整Euler非零及紧normal。固定端jets后，五门Euler最高u''''系数在任意内窗/任意小原jet邻域张满；固定5位置、任意近jets、C³小而u''''有限大脉冲取得完整minor，再以远处normal准确保持Δ6=0，四个剩门有真实局部开放像。未证明全零在像内；R479继续同cap全局可达/真正零构造，不由rank偷换主缺口。新cap选定后才从起点重建q4/F★/20/M3库，沿族不保旧冻结值。
+
+
+### 四cut输入分类修复：同一个600秒账户继续
+
+[准确修复](notes/true53-four-cut-input-classification-repair-and-shared-clock-20261116.md)用原RationalRowGrid.classify与159子空间，只要求真正variable metric行逐序等于原5743 tags；support外零导按原证明处理、其值仍完整扫描，5+4及installed行逐hash保。首失败原FINAL_CLOCK读原log一次，旧36.79963991600005秒和restore debit1继承，另明列未导出context的一次repair，仍同600秒；其余finite/全网/新行/actual配额全部保原。5源码与241绑定，request54701B/23a9bc6681d45928e9f5742c04eb8bdf4fb57844b6dcfb4b0ae0d83a962b8967；唯一续run待登记。闭合或失败后继续真实下一子题，所有几何完成门保持。

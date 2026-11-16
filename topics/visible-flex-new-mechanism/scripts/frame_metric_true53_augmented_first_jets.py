@@ -20,6 +20,7 @@ import time
 import numpy as np
 
 from frame_entry_body_subspace import array_digest
+from frame_entry_tail_height_blocks import EntryTailHeight159Subspace
 from frame_height_null_coordinates import digest
 from frame_collar_bvp import mul
 from frame_complete_affine_metric_oracle import direction_frame_jets
@@ -536,14 +537,33 @@ class AugmentedFirstJets(_PaidImplementation):
         require(set(four_keys)==REQUIRED_NEW_PAID_ROWS
                 and len(self.known_gradients)==5743+5+4,
                 "the new master must retain all old gradients and all four new cuts")
+        # _collect/build_primary records only the original support-variable
+        # rows in active_J.  Exterior metric pool rows are instead classified
+        # as outside-soft-aggregated; their physical derivative is identically
+        # zero by support, not by a small or missing numerical J.
+        # Reuse the actual exact-support subspace and original grid.classify.
+        subspace = EntryTailHeight159Subspace(
+            self.field.coordinates.layout, self.field.coordinates)
         required_from_pools = set()
+        variable_pool_order = []
+        invariant_pool_rows = {}
         for label in LABELS:
-            count = self.grids[label].point_count
-            for flat in model["ordered_original_pool_ids"][label]:
-                require(type(flat) is int and 0 <= flat < 11*count,
-                        "source pool IDs must remain original literal integers")
-                if flat < 2*count:
-                    required_from_pools.add((label,flat))
+            grid = self.grids[label]
+            raw_ids = model["ordered_original_pool_ids"][label]
+            require(all(type(flat) is int for flat in raw_ids),
+                    "source pool IDs must remain original literal integers")
+            parts = grid.classify(raw_ids, subspace)
+            invariant_pool_rows[label] = []
+            for position, flat in enumerate(raw_ids):
+                if flat < 2*grid.point_count:
+                    if bool(parts["variable"][position]):
+                        key = (label,flat)
+                        required_from_pools.add(key)
+                        variable_pool_order.append(key)
+                    else:
+                        invariant_pool_rows[label].append(flat)
+        require(variable_pool_order == selected_keys,
+                "a variable source metric gradient is missing, extra or reordered")
         for row in model["installed_metric_rows"]:
             key = self._row_key(row["grid"],row["flat_row_id"],row["original_row"])
             required_from_pools.add(key)
@@ -558,6 +578,14 @@ class AugmentedFirstJets(_PaidImplementation):
             "selected_order_sha256":digest(selected_keys),
             "additional_MODEL_order_sha256":digest(extra_keys),
             "new_paid_attainer_order":copy.deepcopy(four_keys),
+            "original_pool_metric_classification":{
+                "classifier":"RationalRowGrid.classify with EntryTailHeight159Subspace",
+                "variable_open_interval_exact":[str(subspace.left),str(subspace.right)],
+                "variable_metric_rows":len(variable_pool_order),
+                "variable_metric_order_matches_paid_selected_table":True,
+                "outside_soft_aggregated_original_ids":copy.deepcopy(invariant_pool_rows),
+                "outside_soft_zero_derivative_is_proved_support_not_J_threshold":True,
+                "outside_soft_values_remain_in_complete_grid_scans":True},
             "all_four_required_cuts_available_before_any_new_master_call":True}
         self.capture["known_gradient_sources"] = copy.deepcopy(self.known_gradient_sources)
 

@@ -116,3 +116,5 @@
 - [R867](../results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原t=a7满足t³−21t−17=0，b与b²共同分母19δ给完整三基矩阵；只要nΞ0已认证，原J的整T7和目标O_K操作便使57nΞ_i全部真整。P1/P2为完整8/64邻点迹，56 cyclic49与8回溯分清；三H现有541项即给全部Hecke三列，次数≤28/784倍原度。未知映射只剩一条，原n/D/Artin不删。
 
 - [R868](../results/R868-original-t-slack-and-native-bockstein-image-unit.md)：原σ_t=min_n(ord P_n−A_n)准确控制t^-τ仍在同W_D。实际quartic若τ=k−13≤σ_t且ell≤s−h，P0=t^-τP真在K1并读首像单位；故Λ0不下降第二页左行，R/S沿同P0能调该标量但同时改全余类。σ_t≤r−b0−floor((c0+1)/4)，最小r=b0=3,c0≤2时零松弛，不被此机制覆盖；续其真联合第二/第三页。
+
+- [R869](../results/R869-original-modular-input-and-cubic-field-descent.md)：原实17挠点与完整Artin共轭证明H0全部落F=Q(v)≃Q(∛17)，同Ξ0真下降此三次域（非全实Hecke域）。公开run43825112263精确生成Φ17：bidegree18、总degree34、291项；三H541项完整含2，各98非零。producer/run/hash齐，未认n1、未得原函数坐标或非零shadow。
