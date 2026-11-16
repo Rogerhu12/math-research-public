@@ -48,6 +48,8 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [R97A/RNEA/NIFA完整原段及全部原球索引](notes/2026-11-16-completed-actual-input-and-root-inverse-index.md)：唯一43789221154/1、43792291190/1、43795909913/1成功锁，三proof b2d4bb56/257644a4/1b2c3b70保219/276/23槽、全部原记录/pins/门/两preGit与首失败及精确恢复。R97原real/root97 strict核0/FC空补列；RNE两natural负窗同逆；NIF Xfr=S*D+Hnat/SE8窄修93266089付Ni±及Cs两窗逆。NIFC0867f280固定Ni± opnorm连续，原逐频Riccati前提下Cs± strong/joint/compact-data uniform及固定有限列矩阵连续。M/C opnorm、C1/selected KAM族、双physicalmean/低与无限radialhead/rest/真实双port/range/finitecross/fullincoming/finite/ν/非线性仍待；0旧重算。
 
+[WPR实际双port与腰行](results/R133-supplement-physical-reflection-pair-and-exact-waist-matching-row.md)707b8269由物理h1奇/h2偶及有序TJ推出f−=(R−2Π)f+；KH=UHinv(R−2Π)UH保−2(UHinv1)Π。真实腰primitive为κeᵀTJ P diag(UH)(Icom,Ocom)，raw另∂、mean行单列；端点反射图不冒positive graph/onto。非零principal mean给±n差4nΔn→−2i〈c〉，故旧Ti/To及isolated Cayley不保同Xfr；completeA应用需其完整strong，完整实际square/incoming/finite仍待。
+
 
 
 

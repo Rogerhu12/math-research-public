@@ -74,3 +74,15 @@ README核提交563defb46bc785295265c3f48fcad3fc8897c617，两blob不变。eaf9b1
 ## 2026-11-16 03:16:31 UTC — 已成root/固定输入索引扩充
 
 README核f290879bf1a70e6c62c591ca82645606a5a78ab2仍两原blob。原索引全文不改，追加c9e2203e4e75d3fb8c8731e509e2ae275679ce2b同H/open的R97A/RNEA/NIFA/NIFC八段原字，现blobdaeee89df0cf22448a9d55340360a0efa0bc1efd /7091B /d1a84dd271724ea63899bd7d8cf1bdec037c7bd2e4c58da8a15ecf94ea925c4e。完整首失败/精确恢复、原球/pins/219+276+23槽/两preGit、所有scope和未付义务全部保在该索引与原proof。只合并已成证明索引，固定反射域/两mean/无限head/rest/true双port/所有未付inverse/ν/非线性明列，H/open腾出后续实际WPR与WE结论空间；无新旧数学。
+
+## 2026-11-16 03:17:15 UTC — WPR 物理双端口及腰部行已解析证明
+
+两README在d6c3800bcad204e4573ff07d61f36a217632e704仍相同。完整note226272031762c5fcace679dd7f940a35040401dc /22571B /707b8269e454cab738fe70d84097087a0cf5c74026916a2f8bdc151435eca9cb；root全文逐式核，phase全文回strict N/WY/MS/A原句，tail窄核2–5并回相同primaries均通过，未执行任何新旧数学。
+
+T Jh T^-1=−E、RI=−IR给Ry=Ey/z=−Ez。完整S/Z parity使原有序TJ及同逆与ER对易，f−=(R−2Π)f+含原mean；KH=UHinv(R−2Π)UH的rank为−2(UHinv1)Π，不把density常数像置1。给端点反射状态exact converse，但未把它当positive regular graph或incoming满射。MS outgoing UR B−Z^S原序完整保，只在真正物理restriction上得pair关系。
+
+真实h1(0)=κeᵀ[∂ TJ P f+Π f]，primitive Ih1=κeᵀTJ P f、mean=κeᵀΠ f；不把primitive当raw、不交换∂与TJ或P与UH。反射子类mean和自动0不删全problem原独立mean/amplitude/height/ν/regular/source列。
+
+对完整strong A=Id+Mc I+E1，IC16两rank与density共轭保，双signed n测试差满足4nΔn→−2i〈c〉。因此非零mean下A不保SD+Hnat，Ti/To原selected signs直接适用、isolated realCayley亦可；不否原fullcircle逆、不推广到任意旋转/sign的fullreturn。对实际completeA必须先有完整E1，未付项不能放入假设。AX仅抽象像不证明其等于实际physicaltarget；opposite parity/sign仍无限。
+
+此note闭合真实pair与waist row定义；下一步按同given-head共同Cs因子和完整row组装误差，保SW真state/source费用与独立radialhead/两mean/第二input/全部finitecross。不得靠扩大天文cutoff冒充完整边界逆。每结论独推，继续WE精分与唯一新paired-row target。

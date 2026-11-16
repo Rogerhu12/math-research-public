@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WPR：实际反射双端口与精确腰部匹配行](results/R133-supplement-physical-reflection-pair-and-exact-waist-matching-row.md)（707b8269e454cab738fe70d84097087a0cf5c74026916a2f8bdc151435eca9cb）：从raw物理反射、完整primitive+两mean和有序TJ严格推出f−=(R−2Π)f+及selected KH完整meanrank；给raw h1、其primitive与mean的真正腰行，输出原even-mean0空间，端点反射图不授positive graph/onto。非零〈c〉经精确IC双rank/±n检验排除Ti/To和isolated Cayley在Xfr上的同空间限制逆；旧fullcircle逆保，完整A另须全strong前提。未授完整边界square/Schur/ν/非线性。
+
 - [NIFA：固定反射输入坐标与稳定逆的完整实际证明](results/R133-supplement-actual-uniform-frozen-selected-input-coordinates-and-stable-inverse-constants.md)（1b2c3b704282c0b42bfb2f941c3828a487ca1ed75ee45ce902d8d0be32d395a1）：原43795909913/1唯一成功，完整23新球（7主+16中间）、16原typed记录、四scope/accepted与operator identity完整保。32字段/16门/15progress、8texts/2AST、12steps/两preGit/childstdout均核；事件9948与actual checkoutbc20分列。正确Xfr=S*D+Hnat两窗Cs逆约1.5936238e13与2.2522836e40；旧数学0重算，真实双port/range/fullincoming/finite/非线性未授。
 
 - [NIFC：固定反射输入与真稳定逆的连续性](results/R133-supplement-continuity-of-frozen-reflected-coordinate-and-stable-inverse-families.md)（0867f2800bdc2b6601e17a12beb4cbac3d01a3c48a358e1c4745765cbbbbf7e2）：原B族root固定、TF有限系数/正分母与resolvent使Ni±在固定Xfr/Hnat两窗opnorm连续；RNI7的normalized Shat± opnorm加原逐频Riccati连续前提与uniform bounds，给真Cs± strong/joint及compact-data uniform，并给固定有限列/行矩阵norm连续。完整mean/weights/两窗同逆不变；不授真M/C opnorm、C1、完整incoming或finite非零。
