@@ -74,7 +74,7 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 
 [R918](results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md)覆盖允许p≡11mod12：h=(p+3)/2 primitive/r2，实际L̄_h=c_hΦ4(V4†)且c_h≠0，全H6整S4秩一/Cais满射，完整Norm/单Igusa保留；原fine SS准确阶2p−5。[R920](results/R920-original-upper-primitive-Igusa-layer-and-inert-Hecke-row.md)覆盖允许p≡5mod12：h=(p+9)/2 primitive/r8，原δ支路整基V4†E6、V4†η12及T5的一行(−4032s,8)强制V10†=V4†(E6+504sη12)，实际L̄_h=c_hΦ10(V10†)、c_h≠0；两Igusa/C4/非平方Norm保留，原标记V10†/E4=−20E6(V4†/E4)单位，fine SS阶2p−11。
 
-[R921](results/R921-original-Igusa-node-and-first-Drinfeld-normal-differential.md)已闭原整Hodge→Drinfeld首微分层：联合商/真实节点厚度d6或12及惯性下界迫 b_D(Ω_h)=k_++p−1，原q保ea_h；首层 x^(g−1)(α_h x^M+β_h)dx/y，α_h≠0，β_h尚未定。c1=(0,0)真实参数y，primitive单位次数为p11类的(p−5)/6或(p−1)/2、p5类的(p−11)/6或(p−3)/2，均<p；原vp(a−1)≥4深盘有相应Strassmann零数界。尚未判首map层、原有理候选零像、β或高度，R924继续整Hom与低层p次幂消去。原a_h/c_h、另一λ_h、Legendre fi gj指定三因子/J32及height仍OPEN。
+[R921](results/R921-original-Igusa-node-and-first-Drinfeld-normal-differential.md)真整Hodge/Igusa/节点给首微分层b0=k_+(p−1)，原q保ea_h。[R924](results/R924-original-completed-Hom-lift-and-marked-normal-function.md)由原qTpJ=qB TpB和实际End_Q(A)整完备化，构造真Hom近似/p除法，延拓原节点并在I_D=(π,U)中收敛；低层p次幂的极阶<p且中心为零，故首map层同为b0、首函数κ_h x^(g−1)y。β/α真为5A/4或11A/10且非零，原c1用y。原p^−a_h G_h整restricted、modp次数m_h=(p−5)/6或(p−11)/6且最高项单位，全部系数content恰p^a_h；vp(a−1)≥3原盘非中心零数≤m_h−1。开盘精确数是代数闭完备域按重数的最左单位下标，不是有理零数。a_h=0/单位低项/另一λ与同h Legendre fi gj/J32尚未判，不能换成成长次数的unit；原正秩候选未假定Abel零像，height仍OPEN。
 
 原RF e2b87b99/SP a06a80ea/ZA268fa3fb/41S133d64af/41C569aa684，b/s/λζ²一次、CRT6逆、246/82^10、P0/P1/ν/theta二挠/fullCorr/nonp/splitting继续生效。ordinary43/776bitGaussian5已排、R779 Shapiroθ同Σ/C4杯积已闭。
 

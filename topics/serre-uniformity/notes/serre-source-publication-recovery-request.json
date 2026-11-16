@@ -2,39 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R922-original-seven-connection-target-evaluation",
-  "commit_message": "serre: prove bounded original connection numerators and whole Hecke evaluation",
-  "rules_last_read_commit": "ae8e9944c7ddf0ce238b0fd3eb2dbf33170c1309",
+  "request_id": "20261116-R924-original-completed-Hom-first-normal-function",
+  "commit_message": "serre: determine original first normal function and calibrated coefficient content",
+  "rules_last_read_commit": "e2926e647f68910857d347e9333760c3699b7ea0",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "be45e0baac2cef914d61e9c516882b577f50658730279d8c2f1a7d3bb14e8f31",
+  "expected_previous_request_sha256": "9a35ff127c2e9991acea99d3c4b586d71aa5f3988168d9d3a51bc4d9bbf7eebf",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md",
-      "sha256": "75e0e04e986203598b556403b4ea8eec3706da838e934ae11810c5abda569731",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-connection-target-evaluation.md",
-      "sha256": "6862fe1227275a7cafaa479192db18bc4e6d633c1b13eb8ed967eeb99949a9f2",
+      "path": "topics/serre-uniformity/results/R924-original-completed-Hom-lift-and-marked-normal-function.md",
+      "sha256": "3095899513c6f3db34b6f0bab966563446a7285420a88e9f44c031d156e6d248",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "fc14e85bc2cfcea1aaa42c2554c161e4ae4a0788eb587d2aded991aac8979917",
-      "expected_previous_sha256": "6862fe1227275a7cafaa479192db18bc4e6d633c1b13eb8ed967eeb99949a9f2"
+      "sha256": "5d7802f6ae1f71bd4914e2ea9f12c67e4b9f92305ad296f88b024f4a8a471fbc",
+      "expected_previous_sha256": "7aa44681a126ba4082de84edbb9e027869e583bcc934391c52bb5d728fe09eb8"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "98857007598bafd5064b4022d579fa8a5dcfcd5e4b1bc377d4fba2363356ecb3",
-      "expected_previous_sha256": "7cc7c179c6e3eafdb34c13659466417b5f1c6a3bbc1008d0b0aca4ae2e39224a"
+      "sha256": "efd158d031f7fb09005011cbd8206ff7630dec9267a78635d21dd9a5c8a628c4",
+      "expected_previous_sha256": "98857007598bafd5064b4022d579fa8a5dcfcd5e4b1bc377d4fba2363356ecb3"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "d94c5a5aa2f839ec3fbd791193ad933c66bcbee7a84a231b7da2f7ff665800a3",
-      "expected_previous_sha256": "451d8339570a308ed38e55dedd38615df3393e861843d1efdaa6fd34a99ba4f0"
+      "sha256": "042dc504275a8953d61264054991a9275dc17c143595db0d16e5bf91871f0c32",
+      "expected_previous_sha256": "704496ff87da0f94fcde2f961359c76df3c2cc8a2a25c7997ae5d29257e104a3"
     }
   ]
 }
