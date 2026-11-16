@@ -121,10 +121,12 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 **R885（纸证完成，实际新算术待运行）**：[原单行伴随及完整Artin纤维范数](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)。原加权界deg c_i≤i允许273真实不同节点；八个旧K/逆只补W^272e0，其余节点只新charpoly。单左行递推及完整b272=0认证原adj行；整个272维Artin源与8维对应环上用真实单位/xgcd/Berkowitz/全272乘回，一次charpoly给九范数，不删非半单分量。原dual7、两条框架、未展开t标量及nonp均保留。
 
 
-**R887（完整纸证，实际消费者继续）**：[原共同cusp翻转与避开P0的有界代表](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)。原J_C仅限制418个V2列得完整146核；旧第252行选uC，真实两锚rank962及完整关系/投影才得C*418。原D_C−H=−(C*−H)+div(uC/τ²)，Qf正乘后ρ阶−1205、原t首项乘c^1205；三272代表均避P0，七项Norm保−7C*与全原主因子。五Lj128/144与height仍缺。
+**R887（完整纸证，388原件消费者已激活）**：[原共同cusp翻转与避开P0的有界代表](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)。原J_C仅限制418个V2列得完整146核；旧第252行选uC，真实两锚rank962及完整关系/投影才得C*418。原D_C−H=−(C*−H)+div(uC/τ²)，Qf正乘后ρ阶−1205、原t首项乘c^1205；三272代表均避P0，七项Norm保−7C*与全原主因子。五Lj128/144与height仍缺。
 
 
 **R886（完整证明）**：[原两旗theta下降与原split收缩](results/R886-original-two-flag-theta-descent-and-split-contraction.md)。原正product极化、第二conjugation反辛号与原τ给有限平坦L/L′、真实(type6,6)商及36维U_L；π*s↔s⊗1固定乘法空间，Gauss常数精确−p，Γ_h(s)=−p·s⊗原Phi0h。真实整反向C_h=−p(p²−1)ell_h，C_h=C_hP2h，C_hΓ_h=p²(p²−1)，原CM平均给C_hA_hΓ_h=p²N_h，保Legendre因子和det扭曲。原S_FG收缩已具体定义；未证除p整、critical Taylor比较/第五lift或q-normal单位，R884障碍保留。
 
 
 **R883消费者已激活，实际结果待跑**：[原t首项方法](notes/R883-original-t-first-order-frame-method.md)。R807两原V4与theta沿R801同原recipe、R872既成前三jet求值；真分母单位后完整三系数乘回和原c单位，准确t(P0)=0不从模零反推，原82/θ相消一次。c的准确unit-solve表达式与模像分别保存，原帧指数正乘，所有五Lj/非p/height仍缺。
+
+**R888（完整证明）**：[原两循环商与sigma源运输](results/R888-original-two-cyclic-quotients-and-sigma-source-transport.md)。Hadamard度4与原CM[s]后度12拉回均有整trace左逆、保存完整content；真实两循环p商及原quotient微分框架固定。原源明确为−K Y−δ^(6p−5)(s12p⊠s12p)，θ(r+t)同h混合权、六级标记、高δ因子与Legendre条件完整保留；ell±是原u/varpi残值，ell+^(p²−1)=1，cs残值−s。尚缺与原critical Taylor/fifthlift的指定比较及除p整性，不冒q-normal单位或height。

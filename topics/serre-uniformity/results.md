@@ -256,3 +256,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R883消费者已激活，实际结果待跑**：[原t首项方法](notes/R883-original-t-first-order-frame-method.md)。R807两原V4与theta沿R801同原recipe、R872既成前三jet求值；真分母单位后完整三系数乘回和原c单位，准确t(P0)=0不从模零反推，原82/θ相消一次。c的准确unit-solve表达式与模像分别保存，原帧指数正乘，所有五Lj/非p/height仍缺。
 
 - **R880（实际完成）**：[原D与共同cusp完整有界RR输入认证](results/R880-certified-original-D-and-common-cusp-bounded-RR-inputs.md)。run43840391925/source3c1ddaf3，28stage/15.559026589s/944原件；共同272约束核418、原1111→269→146及首试962秩→D*完整418，全1360关系/投影通过。原a0=620415780、v123=465210523不缩放；Qf正乘/ρ阶−1457/首项566605368，准确表达式保留。最小IO43842697439成功18件；五Lj/其余12A/B/t全部帧/高度仍缺。SHA256 7d5d4a52d88e9651f78c05ed0625f7c22ae4dbef4895ea4e8fb5e2993753681e。
+
+- **R888（已证明）**：[原两循环商与sigma源运输](results/R888-original-two-cyclic-quotients-and-sigma-source-transport.md)。实际Hadamard给两个原循环p商的degree4饱和拉回；原CM degree3再给degree12，trace/4、trace/12均保content。原源−K Y−δ^(6p−5)与混合θ(r+t)同h权、两级theta线、全部六级标记保真；原quotient微分和残域ell±明确，cs残值−s。criticalTaylor/第五lift、除p整和height仍开。SHA256 50b12755920b34072073e497bc3112b79a818458287cbe0e1794dfac05881cd0。
