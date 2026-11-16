@@ -134,3 +134,5 @@
 - **R850原五纤维/完整截面已成**：[结果](results/R850-certified-original-rigidified-Poincare-fibres-and-sections.md)run43796696213/job133067102293/source57b2899f，0.397869762s/2stage/330node/11非零依据。final11b3daca/DAGb3a8cd7f/manifestbcdfc8ce/config82589173；artifact14194427829/b466d4c1，40源398.65MB载体a4c38c0e。保原270点来源与395MB全局载体、ν/κ/R/完整Corr/Q三次纤维，帧−d/2与−3d/2准确；C_h具名、period/height/A.1/allp未成。
 
 - **R851全充分大允许p的原Cartier-g单位已证**：[结果](results/R851-original-cubic-central-value-and-third-position-Cartier-unit.md)afe25117：p≥257，e=1/2对应p2/5mod9，D=4p^e的真S_D=L(C_D,1)/Ω_D∈Z非零。Rubin坏惰性p适用的BSD/Cassels给偶v_p，精确AFE纸界0<|S_D|<p²迫单位。原χ6/CRT/36p/Ω相位完整给S0/C0=p S_D/(3D^(1/3))；整μ_(p²−1)全尾及R683/R770准确推出C_k、g_((k−2)/6)单位，k=(3−e)(p+1)/3。同原h=e(p+1)/3−3本原；p18r5为g_r，p18r11为g_(2r+1)。同h的f_i及Legendre仍缺，未称三个单位或主目标完成；无新算术。
+
+- **原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想，128/634 RR与三共轭尚待真正执行。

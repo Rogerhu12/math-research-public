@@ -125,3 +125,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **原三同源与一个Z的一次收缩已证**：[ZA](notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md)268fa3fb：ψα=αx、L(αP)=3L(P)+log(αx)，与RF真R完整相消，零阶仍留χ(M_f^p/M_g^q)/q及原v。真实加法斜率与ρ给ZA24七基点；41处唯一L41内可直接用[42]求一个Z，σ共轭和trace给3(Bg−p/qBf)=7trχ,L(C_j Z+D_j)。保T^7=ζ²/原尺度/规范trace，ZA32再接YP同一Y/Hecke/nonp行；未求实际41值/系数/高度，无非零宣称。
 
 **R851全充分大允许p的原Cartier-g单位已证**：[结果](results/R851-original-cubic-central-value-and-third-position-Cartier-unit.md)afe25117：p≥257，e=1/2对应p2/5mod9，D=4p^e的真S_D=L(C_D,1)/Ω_D∈Z非零。Rubin坏惰性p适用的BSD/Cassels给偶v_p，精确AFE纸界0<|S_D|<p²迫单位。原χ6/CRT/36p/Ω相位完整给S0/C0=p S_D/(3D^(1/3))；整μ_(p²−1)全尾及R683/R770准确推出C_k、g_((k−2)/6)单位，k=(3−e)(p+1)/3。同原h=e(p+1)/3−3本原；p18r5为g_r，p18r11为g_(2r+1)。同h的f_i及Legendre仍缺，未称三个单位或主目标完成；无新算术。
+
+**原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想，128/634 RR与三共轭尚待真正执行。
