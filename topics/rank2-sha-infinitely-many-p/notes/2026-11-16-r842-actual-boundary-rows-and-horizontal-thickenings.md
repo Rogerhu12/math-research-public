@@ -732,3 +732,277 @@ $\mathfrak B_{\mathcal D}$ 中相应的整块；
 它们没有声称 $\Xi_R$ 与 $\mathcal D_R$ 在每个固定纤维分别有相同残数，
 也没有直接将原 $\mathfrak B_F$ 的同名子和设零。
 原剩余类仍是同一个 (5)/(10)，全部未消边界和同一 $\omega_1$ 未变。
+
+
+## 11. 移动正水平的完整有限 trace 算子
+
+本节将第4节的全部分支读取合成一个同源有限算子，
+包括该正水平点的奇点和 conductor。
+它不把各支的高 jet 当作自由变量。
+
+取原有限底点 $t_Q$，不在六个固定底纤维上，
+并假设 $Q=(t_Q,Y=\infty)$ 位于原曲线。
+先在其剩余域上工作，最后作原域迹。
+记
+$$
+x=Y^{-1},\quad \tau=t-t_Q,\quad
+f(t,x)=x^bF(t,x^{-1}),\quad
+n=\operatorname{ord}_{\tau} f(t_Q+\tau,0).
+$$
+在这个原完成局部环中作唯一的 monic Weierstrass 分解
+$$
+f(t_Q+\tau,x)=U(\tau,x)\mathcal P(\tau,x),\qquad
+U\in k[[\tau,x]]^\times,
+$$
+$$
+\mathcal P=\tau^n+a_{n-1}(x)\tau^{n-1}+\cdots+a_0(x),
+\qquad a_i(x)\in xk[[x]].
+\tag{35}
+$$
+$U$ 是原方程的真实单位，后面不将它省略。
+令
+$$
+\mathscr A=k((x))[\tau]/(\mathcal P),\qquad
+\operatorname{Tr}=\operatorname{Tr}_{\mathscr A/k((x))}.
+$$
+原两投影可分，故 $\mathcal P_\tau$ 和 $\mathcal P_x$
+在这个有限可分代数中都可逆。
+$\mathscr A$ 可以分成几个局部域；这里取全部分量的 trace。
+曲线的全导数准确为
+$$
+D_x=x\left(\partial_x-\frac{\mathcal P_x}{\mathcal P_\tau}
+\partial_\tau\right).
+\tag{36}
+$$
+
+仍取 $N_*=3b+\deg_Yq$，并写
+$$
+J(\tau,x)=x^{N_*}q(t_Q+\tau,x^{-1})G_V(t_Q+\tau,x^{-1}).
+$$
+它在当前原局部环正则。
+在固定 $\tau$ 的偏导规范下，定义原实际元素
+$$
+\mathcal L=
+\operatorname{rem}_{\mathcal P}
+\left[
+W(t_Q+\tau)(t_Q+\tau)^r
+(N_*-x\partial_x)J
+\right]
+=\sum_{j=0}^{n-1}\ell_j(x)\tau^j .
+\tag{37}
+$$
+这里的 remainder 是同一完成环中除以 monic $\mathcal P$ 的
+唯一余式；$\ell_j(x)\in k[[x]]$。
+(37) 需要原 $J$ 的一阶法向资料：
+它因子化经过 $J\bmod\mathcal P^2$，
+不能只由 $G_V|_C$ 自由补选。
+例如 $J\mapsto J+\mathcal P V$ 会使 (37) 改变
+$-xW(t_Q+\tau)(t_Q+\tau)^r\mathcal P_xV\bmod\mathcal P$。
+这与第1节单个边界依赖提升、整个 (10) 不依赖提升完全一致。
+
+置
+$$
+s_j(x)=\operatorname{Tr}(\tau^j),\quad s_0=n,\qquad
+\mathfrak N_{\mathcal P}(\mathcal L)
+=\sum_{j=1}^{n-1}\ell_j
+ \sum_{a=0}^{j-1}s_a s_{j-1-a}.
+\tag{38}
+$$
+每个 $s_j$ 由同一个 $\mathcal P$ 的 Newton 关系读取。
+设 $\mathfrak B_Q^{(+)}(G_V)$ 是 $\mathcal D_{R_V}$
+在 $Q$ 上全部正规化分支残数及剩余域迹的总和。
+准确有
+$$
+\boxed{
+\begin{aligned}
+\frac{\mathfrak B_Q^{(+)}(G_V)}{c_s}
+={}&[x^{N_*+1}]
+\operatorname{Tr}\left[
+\frac{\mathcal P_\tau}{\mathcal P_x}
+\left(N_*\mathcal L-x\partial_x\mathcal L\right)
+\right]\\
+&+[x^{N_*}]
+\left\{
+\mathfrak N_{\mathcal P}(\mathcal L)
++2\operatorname{Tr}\left(\mathcal L\frac{U_\tau}{U}\right)
+\right\}.
+\end{aligned}
+}
+\tag{39}
+$$
+(39) 在 $f_t(Q)$ 非单位时仍成立；
+它因此包括第4节光滑简式没有覆盖的多分支和 conductor。
+其每一个元素仍来自同一原 $F,q,G_V$。
+
+### 11.1 从原两项逐式推导
+
+在一个分裂域中写根为 $\tau_i(x)$。
+原隐函数给
+$$
+\tau_i'=-\frac{\mathcal P_x}{\mathcal P_\tau}(\tau_i,x),
+\quad
+\frac{F_t}{e}=\frac1{x\tau_i'},
+\quad
+\frac{f_{tt}}{f_t}
+=\frac{\mathcal P_{\tau\tau}}{\mathcal P_\tau}
+ +2\frac{U_\tau}{U}.
+\tag{40}
+$$
+这些等式在各局部函数域成立，不要求原点光滑。
+若 $H=(t_Q+\tau)^r(N_*-x\partial_x)J$，
+则 $X_{R_V}=x^{-N_*}H$。
+将 (7) 分部一次，全部分支总和等于
+$$
+c_s[x^{N_*+1}]
+\operatorname{Tr}\left[
+\frac{W}{\tau'}(D_x-N_*)H
+\right]
++c_s[x^{N_*}]
+\operatorname{Tr}
+\left[
+H\left(W'+W\frac{f_{tt}}{f_t}\right)
+\right].
+\tag{41}
+$$
+此处由有限可分局部代数的残数–trace 相容性取总和；
+在驯分歧参数 $x=v^e$ 中也可直接核
+$\operatorname{Res}_x\operatorname{Tr}(h)\,dx
+=\sum_i\operatorname{Tr}_{\kappa_i/k}
+\operatorname{Res}_{v_i}(h_i\,dx)$，
+其中 $\kappa_i$ 是第 $i$ 支的剩余域。
+所以没有将奇点分支的残数分别删除。
+
+使用 $\mathcal L=WH$，
+$$
+\frac{W}{\tau'}(D_x-N_*)H
+=\frac1{\tau'}(D_x-N_*)\mathcal L-xW'H.
+$$
+最后项与 (41) 的整个 $W'$ 项精确相消。
+再由 (36) 得
+$$
+-\frac{\mathcal P_\tau}{\mathcal P_x}
+(D_x-N_*)\mathcal L
+=x\partial_\tau\mathcal L+
+\frac{\mathcal P_\tau}{\mathcal P_x}
+(N_*\mathcal L-x\partial_x\mathcal L).
+\tag{42}
+$$
+因此剩下的第二条 trace 是
+$$
+\operatorname{Tr}
+\left(
+\partial_\tau\mathcal L+
+\mathcal L\frac{\mathcal P_{\tau\tau}}{\mathcal P_\tau}
++2\mathcal L\frac{U_\tau}{U}
+\right).
+$$
+
+对次数小于 $n$ 的唯一余式 (37)，有整数系数恒等式
+$$
+\boxed{
+\operatorname{Tr}
+\left(\partial_\tau\mathcal L+
+\mathcal L\frac{\mathcal P_{\tau\tau}}{\mathcal P_\tau}
+\right)
+=\mathfrak N_{\mathcal P}(\mathcal L).
+}
+\tag{43}
+$$
+确实，在一般可分根处
+$\mathcal P_{\tau\tau}(\tau_i)/\mathcal P_\tau(\tau_i)
+=2\sum_{j\ne i}(\tau_i-\tau_j)^{-1}$。
+对 $\mathcal L=\tau^m$，
+成对相加后准确为
+$$
+\operatorname{Tr}\left(
+\tau^m\frac{\mathcal P_{\tau\tau}}{\mathcal P_\tau}
+\right)
+=\sum_{a=0}^{m-1}s_as_{m-1-a}-m s_{m-1}.
+$$
+加回 $\operatorname{Tr}(\partial_\tau\tau^m)=m s_{m-1}$
+即得 (43)，再线性相加。
+右侧在 $k[[x]]$ 中，故它同时支付左边表面上的
+$\mathcal P_\tau$ 分母及全部 conductor 相消。
+将 (40)、(42)、(43) 代回 (41) 就是 (39)。
+
+### 11.2 真实单位项、有限截断和严格范围
+
+(39) 的最后一项不可因 $U$ 是单位而删去。
+原固定 $Y$ 的二次偏导正是
+$$
+f_{tt}|_C=U\mathcal P_{\tau\tau}
++2U_\tau\mathcal P_\tau .
+$$
+例如仅在公式中把原 $f$ 换成 $g(t)f$，
+同时保持物理 $R_V$，会准确增加
+$$
+2c_s[x^{N_*}]
+\operatorname{Tr}\left(\mathcal L\,g'/g\right).
+\tag{44}
+$$
+所以只保 monic $\mathcal P$ 而删原 $U$，
+不是原来源的合法单位框运输。
+若改真正线丛框，须按第5–7节同时运输全部系数，
+而不能只改这一个偏导。
+
+(39) 是有限读取，不需要选取无限个自由 jet。
+具体令
+$$
+\Delta_x=\det(m_{\mathcal P_x}:\mathscr A\to\mathscr A)
+=\operatorname{Res}_\tau(\mathcal P,\mathcal P_x)\ne0,\qquad
+d_x=\operatorname{ord}_x\Delta_x .
+$$
+以 $1,\tau,\ldots,\tau^{n-1}$ 为基，
+令 $B=m_{\mathcal P_x}$，则
+$B^{-1}=\operatorname{adj}(B)/\Delta_x$。
+一条明确且保守的有限读取门是保留原
+$\mathcal P,\mathcal L,U_\tau/U$（后者先取模 $\mathcal P$）
+的系数 modulo $x^J$，其中
+$
+\boxed{J=N_*+3+2d_x.}
+\tag{45}
+$
+这里 modulo $x^J$ 指精确保留次数小于 $J$ 的全部系数。
+
+为证明此门，令带波浪号的对象是这些实际截断。
+monic 除法及乘法矩阵保持 $x$-整性，
+一次 $\partial_x$ 至多使精度降低一阶，所以
+$
+B-\widetilde B\in x^{J-1}M_n(k[[x]]).
+$
+两行列式之差也在 $x^{J-1}k[[x]]$。
+由于 $J-1>d_x$，$\det\widetilde B$ 的阶仍准确为 $d_x$，
+故 $\widetilde B$ 亦可逆，且两逆的每个条目阶都至少 $-d_x$。
+于是
+$
+B^{-1}-\widetilde B^{-1}
+=B^{-1}(\widetilde B-B)\widetilde B^{-1}
+\in x^{J-1-2d_x}M_n(k[[x]])
+=x^{N_*+2}M_n(k[[x]]).
+\tag{46}
+$
+(39) 第一项的其余乘法矩阵为整矩阵，
+其截断误差至少 $x^J$：
+其中 $x\partial_x\mathcal L$ 不损失精度。
+与至多 $d_x$ 阶的逆极合并后，误差仍严格高于
+所读的 $x^{N_*+1}$。
+第二项的 Newton 多项式及原单位商均整，
+其误差也严格高于 $x^{N_*}$。
+这证明 (45)，同时支付相同 $d_x$ 和可逆性的稳定性。
+
+$d_x$ 可由原非零 resultant 的首项逐步读取，
+它是原实际有限代数的数值，不是另选的截断门。
+这里保留第二份 $d_x$：
+若写 $\Delta_x=x^{d_x}v$，读商的指定项一般还须保
+单位 $v$ 的相应高尾，不能只按分子的第一份损阶计算。
+若所需长度达到或超过 $p$，必须保原 $W_s$ 的所有相应
+Frobenius 系数，不能用 (12) 的对数导数冒充完整 $W_s$。
+
+这给出移动正水平的一个确定有限算子：
+一条真实的 $\mathcal P_\tau/\mathcal P_x$ trace，
+一条无 $\mathcal P_\tau$ 分母的 Newton 卷积，
+以及原单位 $U_\tau/U$ 的完整补项。
+它没有证明这些行在实际 $\mathscr W_T$ 上可任意变化或恒为零，
+也不把第3节、负水平续注的固定纤维商搬成正水平结论。
+(39) 只能与同一原 $P$ 项、剩余固定边界和同一
+$\omega_0,\omega_1$ 一起放回 (10)。

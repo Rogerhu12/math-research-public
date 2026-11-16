@@ -350,3 +350,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R842 全部负水平的原纤维商与真实来源](notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)：对n=ord_tF0为1/2的全部非固定点，含奇点/conductor，原D_Q=(t−tQ)为长ℓ≤b的Cartier交且D_Q⊂Z，D3准确降为Dx。全部分支残数只读qtilde(tQ,x)G(tQ,x) modxℓ，系数S=Tr(1/T_i′)；二次闭式a′(a²−4b)/(b′²−aa′b′+b(a′)²)及S∈x^(1−ℓ)均已付。全D_-长≤2b、H3→D_-真实满射由原RR/κ/χ保证，未将正规化支值自由化。V_T评价另需有限不等式，W_T及更小三长核仍未付；其它边界/同P补偿保留。
+
+
+[R842 正水平的完整有限 trace 与原单位项](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)：§11以同一个原f=UP及J=x^(3b+c)qG，给移动Y∞全部分支/奇点/conductor的准确算子(39)。一条Pτ/Px trace、一条整数Newton卷积，以及不可删的2Tr(L Uτ/U)全保；L经过原J modP²而非任意选择normal值。有限截断准确取modx^J、J=N*+3+2ord Res(P,Px)，以逆矩阵扰动付双份损阶及同resultant阶稳定，跨p保原W全部Frobenius系数。没有赋W_T像或总行非零，仍连同固定边界及B_F/P代表补偿。
