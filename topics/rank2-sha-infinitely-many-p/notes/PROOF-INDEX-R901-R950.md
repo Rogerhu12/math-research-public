@@ -33,3 +33,5 @@
 - [R910](../results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
 
 - [R907 §8](../results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹；同Qf(T)公式保两实际原点jet及−45项，不除Ft/f2、不删非稳定来源的左边或边界。
+
+- [R908 附A](../results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：原全群环CM Hom/整饱和与固定跨p尺度给同D loc_q rawD_nq=0；完整q+1 Igusa/Drinfeld、q−1覆盖、CM degree-zero消全部常数，准确总系数(q−1)u(q+1)/q。全部prime-to-p tame旧层/有限新集合的增广坐标被D杀掉，p∤D则零；wild仅真实增广已运输，不宣称全局类或ordinary loc零。

@@ -350,3 +350,5 @@
 - [R907 §8](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹；同Qf(T)公式保两实际原点jet及−45项，不除Ft/f2、不删非稳定来源的左边或边界。
 
 - [R887 §20](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：R887§20同原Fa的共同有限p算子满足L^p=V^pL；全部Fa的A加权Cartier质量为同非零H，原四行仍保Wν。显式Y=(Fb−1)/b−(Fa−1)/a给真实exact差与十二阶零，四η准确归到同F6²及全部−Yνd(WνF6)伴随；未付四中央联合非零或p²边界。
+
+- [R908 附A](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：原全群环CM Hom/整饱和与固定跨p尺度给同D loc_q rawD_nq=0；完整q+1 Igusa/Drinfeld、q−1覆盖、CM degree-zero消全部常数，准确总系数(q−1)u(q+1)/q。全部prime-to-p tame旧层/有限新集合的增广坐标被D杀掉，p∤D则零；wild仅真实增广已运输，不宣称全局类或ordinary loc零。

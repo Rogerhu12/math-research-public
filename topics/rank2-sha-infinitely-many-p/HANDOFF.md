@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：25265e7eaca1b00a879311032a8520546516416c；2026-11-16 17:16:37 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：ccd3784d69df6c4d387f2d3a2ef72fcc8ab1e7c7；2026-11-16 17:23:54 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:06:56 UTC/e3036ead5cb7310d0df3cd6d86f68496e2fa817d（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:50 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-rr-subresultant.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–910已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-tame-shadow-vanishing.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–910已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低配对及原p²边界，literature续双新增广specialization/原s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -19,8 +19,7 @@ root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低�
 原Z的R804/806/811/814全部角色/Euler/period/端点/R831定向不变。7993只检测canonical。R858三垂直χ零/generic单射、R859整shadow与5/11无挠H1已付；固定ell原AJ非零等价某惯性shadow非零/阶无界，不能跨到无穷系数p或ordinary loc。
 
 原F已由R909完整char0认证；原P尚无PASS。原u/λ/vnew/整数返回17和完整证书保；source沿完整H与各run：
-- 旧P/F取消日志保完整H及R898/R904：P排权4比值/条件函数次数≥324；F排权8/2比值，附A付权6极除子≥180/dF≥1080。旧多素数均无PASS。
-- R889同原Newton已证，run43883945027的P/F仍运行；R892同完整PARI基已证，run43888054599的P/F仍运行。各job/source见最新完整H，无PASS。
+- 旧任务完整source/run/job/取消证书沿最新完整H及各原执行注；R889/R892旧P/F仍运行，无PASS。
 
 - R899首N128三嵌入全行过但3827bits恢复不足；P256续轮run43901392214/job133418654415/source7ef59c0d运行，原全证书保，无PASS。
 
@@ -49,7 +48,7 @@ R893在c1非零前提给同Heegner本原D=UZ°，U unit；同H unit有ccan=H Dfu
 
 [R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：真ℓ²端点只02/20反号；Iℓ=(ℓ+1)/ℓ³、volK1归一(ℓ+1)⁻²、YZZ Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A/B付原Kirillov/邻点全格与CM类型、ℒ(endpoint)=1、双norm核饱和；N12唯一除(σ1−1)(σ2−1)，scalar p格阶不增。old/new余核O/(h)、邻点dual余核及共同目标inverse degree保。原AJ非零/s0/双新scalar整除仍开。
 
-[R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)同原Naug给loc_all N12=u1(σ2−1)a12，u1单位；全部素点/CM frame/Ep,n/D保，精确p阶给原标量整除反门。新层真点代表/实际非零、首层/ordinary及s0仍开，最高奇数消失不杀mixed。
+[R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)保loc_all N12=u1(σ2−1)a12与全坐标/精确p阶。附A已证固定D独立p/n/q使每个prime-to-p tame原raw在新惰性位D·loc=0，故Da12fin=0及真实wild增广Da12sp=0；p∤D时确实零。完整R/Igusa/Drinfeld/常数及(q−1)u(q+1)/q已付；非平凡wild、原全局非零/ordinary及s0仍开。
 
 ## 第二门：四原中央与同一低配对
 

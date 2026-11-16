@@ -110,7 +110,7 @@ R897附B进一步付清一条实际限制：原Δ来源pull到full ray再trace�
 
 R901附B原全新CM商整比较：ACR完整ν_n、p′ Borel矩阵单位及真full-q/T运输给V_A=L_A⊗S_A；原两范数核整饱和等于H¹(I1I2⊗T)，唯一返回A_i=O[Gi]/N_i，N12=(σ1−1)(σ2−1)Naug且scalar p格阶不变。old/new余核O/(h)、邻点dual余核(O/(q+1))^(q−1)及原共同目标次数保，不冒原AJ非零或标量乘积整除。
 
-[R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。最高/三mixed的单新根数相反，最高奇数消失不删除整个对角。继续同一a12的实际新层完整代表。
+[R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。最高/三mixed的单新根数相反，最高奇数消失不删除整个对角。附A已给完整原全群环代表：同一固定D独立p、旧prime-to-p tame层n及新增q，使D loc_q rawD_nq=0；任意有限新集合的全部增广坐标也被D杀掉。完整Igusa和Drinfeld求和保全部常数/覆盖/CM来源，ordinary总系数为(q−1)u(q+1)/q。因此p∤D时a12fin确实零，wild增广也零；p|D只给阶≤p^v_p(D)，非平凡finite wild层尚未覆盖。下一步转原全局非零及ordinary p位，不能再从此tame新增位索取非零。
 
 ## 第三实际门：同P/R/S与实际有限类
 
