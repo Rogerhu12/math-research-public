@@ -79,3 +79,5 @@
 - [R570：request239同次真实cubic、准确quintic与当前完整调用链](results/R570-actual-same-call-cubic-current-field-and-complete-source-chain.md)：618源/十一层/56view，三真实driver和三phase完整reader，原接受/clock/90K不变；实际R571另付。
 
 - [R555：actual233来源真实完成与双必要超限边界](results/R555-actual233-science-return-and-two-necessary-overflow-boundaries.md)：397/原prepare成功；153703与122410正文未返，外1/1/1、quiet true、removed false，无数值父；239官方绑定另note。
+
+- [R588：完整来源与RootStats具名可逆关系](results/R588-complete-named-source-and-root-statistics-relations.md)：薄源19120B，固定source/八catalogue/四统计族完整行列及逆映射；所有unknown/full last/类型/原70保，实际入口R589/246另付。
