@@ -185,3 +185,6 @@
 
 
 - [R872原函数的真零charge与负水平四列](notes/2026-11-16-r872-native-primitive-zero-charge-and-negative-horizontal-value.md)：原q_n帽/共同d^floor(D/2)与两个首重数精确给BD·H−=4。LW=F³A的原t²门使A|H−线束次数2−3z−；z−≥1时全部J3的零charge恒等0，而z−0只得≤3维。原K1常数Vandermonde再给ρ−:K1/(J3∩K1)→t k[t]≤4同W四列，不误认满像或与三尾自由独立；法向/全部R/S仍保。
+
+
+- [R884附录C](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：同原U的完整四纤维伙伴H36=T2,36(UA8)为whole type0 degree36首≥6。原A2令它在全部非零E2消失，h(−b)=0；a0四根完整读数给h(0)=−32b4/2457。固定Λ36=6561 ev0−1024 ev−b杀原A/N/J，却给H36为−7776b4/91，在原p>211为单位，故H36严格不在三来源span。UΘ4=2b[2]*H36+U144new仍保同中央/完整cross/new除p余项，来源边界不能冒原中央不相容。
