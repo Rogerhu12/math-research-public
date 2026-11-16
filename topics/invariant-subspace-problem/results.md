@@ -488,3 +488,5 @@
 - **R150三域原完整谱及剩余乘子封口（2026-11-16）：** [完整原证明](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)实付F±(3,5)、E8(2,3)。两cubic真Q1/非自由head各30940乘回，E8只读原完整pack再验259896乘回；其旧exit1确为回执大小门，不改失败历史。K178Ω恰degree298达到独立全局上界，monΔ=monK178·Ω、严格Σ0外μ=1。九目标及归一rank-one的原来源推论随后逐原范围展开，非rank-one/普通ISP仍开。
 
 - **R150原E8-1完整第一系数像零（2026-11-16）：** [原全源证明](results/R150-appendix-original127-complete-zero-first-coefficient-image-on-E8-one.md)用两完整泛函运输全4367输出，核39996 prebasis、74256 p²原leaf、69407428 GB reducers/832889136分量进位及RU=V全22008坐标，全部1834原多项式零源像0。它覆盖该10维primary双块(2,3)，无正源故reverse分支为空；只凭此排一阶系数贡献，未排高层或推Q。其余四实际同为0，完整后继另记。
+
+- **R150九原平方的精确critical指数及完整投影谱（2026-11-16）：** [完整长度/非零dual证明](results/R150-appendix-critical-original-square-targets-exact-local-exponents.md)先由原低jet注入给δP≥6/4，配full8/5得lengthT≤2/1；实际逐九t·square或square配对非零迫等号。故每目标critical指数恰(2,2,1)、各自生成T；随后反推完整P谱(3,3)/(3,3)/(2,2)，无未付P/S等价。E8只col9可非零的原支撑与9行9非零数联合核实。
