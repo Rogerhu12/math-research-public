@@ -149,3 +149,5 @@
 - [R598](results/R598-actual249-source-binding-stops-and-complete-necessary-boundaries.md)：actual249十五层生成后owner13层及candidate来源guard停止，科学/BVP/capture未起；两必要115399/111177超90K、完整body未返，闭面scope/规则quiet/原cleanup逐项归责，无新场。
 
 - [R611](results/R611-same-engine-six-moment-original-normalization-reuse.md)：同一实际engine六moment私有表原/N逐词一次保存、完整原累加/J/双mean和fallback保持；完整源/八统计/部分范围接口，计数safe-integer限制明确，未作速度或数值接受断言。
+
+- **R609**：[actual252 来源桥联合检查、完整必要超限与科学未启动](results/R609-actual252-source-bridge-guard-and-complete-necessary-overflow.md)：两实际终态唯一读取；原454前缀通过但新十caller未入；487426完整source未返，双job同1626/70，reader缺失/removed=false/quiet未知。
