@@ -183,7 +183,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 完整WHS/WOB/WPT scope保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md。[WDS双侧真Schur证书](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)4c7c9d6e：I−QfM=E+D*R^-1T，须e+κdt<1；全四块/两rhs/193mean/97root+96outer/7port弱Green/δ和coker不减。真tail已由WIC闭合；signed有限逆仍待。
 
-WOBSA37/WMF原全scope与未付门保[完整outer与归一mean](notes/2026-11-16-complete-outer-and-normalized-mean-open-scope.md)622d8420。[WML局部六步mean](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5：原实local/真r*、4完整初amplitudes/6步/10terminal与原Jr/g1/两mean/四端/jump保，无1/T根除。247新量未算，因WMTA非mean主导暂缓数值部署；旧mean冻结，signed逆/高门仍待。
+WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)及原proof。[WML](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5已证原实local归一mean六步/10terminal，无1/T根除；247新量未算，因非mean主导暂缓。原Jr/g1/两mean/四端/jump及signed逆/高门不减。
 
 [WPTSA原实际结果](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)4f880dce：153parents/4801交集与5max全成，m1/2两false冻结；原完整scope/193mean/四块/失败prefix保proof/manifest296d3f66，禁重算。
 
@@ -194,3 +194,5 @@ WOBSA37/WMF原全scope与未付门保[完整outer与归一mean](notes/2026-11-16
 [WSJ严格区混合jet](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8：冻结t0的双索引隔开径/角；同strict real r≤3/total≤14，旧Phi1..15与u/s补absolute T/X/phase edge15；WDG relativeω只到14。完整H^-1四entry、μ正因子、G/w0第三径向、全forcing和w1两分支/非零cut/genuine项均保；每slot新/恒等/旧safe fallback明确，原root local与所有mean/端点/jump不减。新数尚未执行，consumer须同时重组profile费，不授真实finite或matching。
 
 [WDG正漂移与完整角向相对界](results/R133-supplement-positive-drift-and-complete-relative-angular-fold-bounds.md)212385b5已证ω为正cut与全普通dr积分之和；原all-shorter flow1..14因同d角变分可用于drift，cut真strip 3/128和全Bell给ordinary Rω1..14。只读2个WGS完整文件/35原record，五图10/14/14/28/14共80新已排CI，source282efceb/manifest a88caba5冻结；6current/2AST；无新exp/sqrt/log/ODE。新Rω接WSJ只除一次b!，不授relative15/复盘/root/均值或finite逆；原local及全部receiver义务不减。
+
+[WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。actual e+3dt<1未算，真实finite逆待。

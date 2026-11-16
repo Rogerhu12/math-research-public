@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 12:21:25 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 12:26:21 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 12:01:17非FF真CLI仍无executor，下一本地尝试≤13:01:17。最新CI真pull为43862924830/1于11-16 12:02:27.498937→55858bef6b5ef201b11025e0bf1b6e0738944906；两README完整diff空/同已读，exec保4次全回执。下一真pull≤13:02:27；ref读取不冒真pull。
-最近只读README核：78f72a16ef3dd40692333b579b8f2dfb59d860a7；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 12:01:17非FF真CLI仍无executor，下一本地尝试≤13:01:17。最新CI真pull为43865837250/1于11-16 12:21:57.120866→0fed4b86b6734921fafbc183c9b2ebf4c25a71db；两README完整diff空/同已读，exec保4次全回执。下一真pull≤13:21:57；ref读取不冒真pull。
+最近只读README核：59c56c693debc1d98b2a99495211ddb5277a40d8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -38,7 +38,7 @@ WHR289935c3/WHVA9274e696/WMRA b2df8a12/W9602f93880全实际球、输入/端点/m
 
 WHS3e274258/WOBf13024a7：真97..288壳/rough Fs C、outer H−5/6、全coker/ℓ/SE同逆保；未知Gnorm/Btarget。实际pR/outer193全mean/affine/七port与指定96的真square保。A_c=identity+compact/index0，须完整ff/ft/tf/tt及||I−QA_c||<1才授逆，旧finite193对象/未存signed矩阵不可转用；全部scope/顺序保proof及检查点。 WDS4c7c9d6e给真Schur双侧证书I−QfM=E+D*R^-1T，须e+κdt<1；全7port primal/dual弱Green、两rhs/193mean/97root+96outer/完整δ保。reference trial不授actual有限逆；真tail见WIC。
 
-WPT/VS原全scope/球/193mean/四Schur块/两rhs保proof与manifest296d3f66。WPTSA4f880dce：43859287399/1成功18门/4目标/11新；153parents/4801交集，SCI c79f9de9/24767/bdd8857c、exec48542d9c/31409/263e6e51；五max与δ1≈8453.72/δ2≈2121.93两false冻结，old0/lost0/finite0。原collar/失败prefix/readonly child0/badtoken未知全保，禁重算。
+WPT/VS/WPTSA4f880dce全原scope/球/193mean/四块/两rhs与原失败prefix保proof/manifest296d3f66。43859287399/1的153parents/4801交集、五max和m1/2两false冻结；SCI c79f9de9/24767/bdd8857c、exec48542d9c/31409/263e6e51；old0/lost0/finite0，原badtoken未知不补造。
 
 WIC527fc35e由8原whole粗有理界证明m160的真tail δ<80553/128000<2/3、κ=3；新24480cell/4724833维，原m1/2false不变。完整weighted impedance reference正pivot/mean/outer H−5/6/transpose/whole norm及rho2−rho*已证，module c5de896f仅定义无入口。actual有限须全signed e+3dt<1、7port/两rhs/真实96，尚未授逆；不分配dense矩阵。
 
@@ -60,4 +60,6 @@ WSJ217cdff8已证同strict real的frozen t0双索引jet，r≤3与angle分开；
 
 继续open：正侧signed finite inverse/true96 normalization与rough全fee、strict完整mean强迫新界→负head/ν/两mean/Θ/高门→背景/非线性matching→同对象几何。每结论独推；未达总标准不停、不等用户。
 
-WDG212385b5已证ω真实drift正cut+全普通dr积分，旧flow同d角变分可复用；ordinary relativeω1..14由全Bell/max给出。2个WGS完整输入/35copy、五图80新已排CI；source282efceb/manifest a88caba5冻结，6current/2AST/0history，0新exp/sqrt/log/ODE，WSJ仅除一次b!；不授relative15或root盘。
+WDG212385b5已证ω真实drift正cut+全普通dr积分，旧flow同d角变分可复用；ordinary relativeω1..14由全Bell/max给出。2个WGS完整输入/35copy、43865837250五图80成功，实际全文核读中；source282efceb/manifest a88caba5冻结，6current/2AST/0history，0新exp/sqrt/log/ODE，WSJ仅除一次b!；不授relative15或root盘。
+
+WQSbea91372无除τ的双向rank1、真权weighted Schur与64模χG0χB0全L2head试探已证；普通源全残差、全四块ε→E/D/T保。module878c4aec无入口；actual e+3dt<1尚未算，仍无真实finite逆。

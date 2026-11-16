@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WQS：双向rank-one阻抗生成式、加权Schur和全输入高响应试探**。同一WIC真权reference inverse化为独立前/后scalar state，不除τ且完整local/endpoint/outer/mean保；完整positive comparison weights在原Hilbert空间给whole Schur界。64模$\chi G_0\chi B^0_{HL}$对任意L2head定义，其χ′、完整系数差和所有原端点/mean/7port残差均保，ε经全四块传到E/D/T。见[完整证明](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372及无入口module878c4aec。actual e+3dt<1未算，尚无真实有限逆。
+
 - **WDG：真实fold间隙的正漂移表示及relative angular1..14**。实际$\omega$等于同cut正项加全普通$dr$正积分；完整旧flow比较只依同$d$角导，故可用于drift。真strip cut Cauchy、全有限Bell和正加权平均给ordinary relative$\omega$1..14，无全gap上界/下界重复放大。数值合同只读2个WGS文件35原record，五图80新目标尚未算，0新exp/sqrt/log/ODE；WSJ输入仅除一次阶乘。见[完整证明](results/R133-supplement-positive-drift-and-complete-relative-angular-fold-bounds.md)212385b5。
 
 - **WRTA：完整终端重分解42项实际成功**。公开run43862924830/1全18门、7图42新量完成，75原record/10原scope逐字保，旧重算0/lost0。严格完整C3约1.13089e321；负源完整界1.78069e333，原whole与reduced各得到7.44656e339并真选new，旧2.11631e465完整候选保。全十字有序残差、原C4、同even0/J、两mean/四端/3070jump与新S1/6均支付；不授signed有限逆或最终matching。见[完整42球和执行证据](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2。
