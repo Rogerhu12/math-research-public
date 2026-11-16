@@ -101,23 +101,22 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 本节替换前全部状态、参数、失败路线和链接保[本次完整快照](notes/2026-11-15-open-before-free-thirteen-defect-789f.md)及其归档链；未列问题不算关闭。执行/恢复以HANDOFF、原证明和小回执为准。
 
-### R150：二点已封，无穷远与全局来源继续
+### R150：完整原来源、双域比较与九目标
 
-原 $A$ 为 $4367\times6188$、泛秩4354，来源始终是原十七式乘次数≤3；$W=(I^2)_{\le5}$ 秩4212。九平方共同候选h0=s³(s−2)F+²F−²E8的特征零全局成员性仍开。
+本段替换前所有参数、历史演变和未列缺口完整保于[本次快照](notes/2026-11-16-open-before-full127-torsion299-789f.md)及其归档链；未列不算关闭。
 
-- **已闭有限点。** [二点完整Q](results/R150-appendix-two-complete-third-connection-smith12-and-all-original-square-local-membership.md)付β=(7,1,1)、谱 $1^7,2,3$、长12/free13、全部321776原四层产品，P同长故整个W局部入像；不再排第四/第五。F11长14及八h0负读数仅算术跳变。零点完整长66、九s³tj入像且t2恰需3；负六full/P长12且W入像；F±²W和E8W已付，局部原来源保归档。
-- **自然∞全有理谱已完整闭合。** [完整第十](results/R150-appendix-infinity-complete-tenth-connection-one-and-full-characteristic-zero-spectrum66.md)全十一层产品核真，β=(4,0,1,3,1,1,1,1,0,1)，正谱1⁴,3,4³,5,6,7,8,10,11；full66/sub55/max11、4340单位/13自由/右核1834。P∞61/T∞5但循环型未定；higher incoming全保，不需第11定谱。旧O149/高26与新完整D31 Smith分开。
-- **同一个额外乘子的整性与全局来源。** [原齐次Gauss及同∞66](results/R150-appendix-full-affine-divisor-monic-at31-and-residual-envelope157.md)给完整Δaff首一∈Z_(31)[s]、约化保次数并整除field315；首一R=Δaff/monicK158的最新141次包络见下条。R(0)/R(−6)为31单位，R(2)仅Q非零；首一Rout/Ω/M/U也31整。[删二点因子](results/R150-appendix-removing-two-factor-from-global-nine-target-multiplier.md)给h*=h0/(s−2)与h0等价，九Rh*tj原全局来源、最新总乘子≤164；[同源余式整理](results/R150-appendix-global-residual-multiplier-nine-sources-cost8531.md)仍费8531、三支8526/8531/313。未知R系数/高度、原来源31分母和h*自身成员性仍开；乘子整性不代原来源整性。
-- **有限载体、root2谱与实际J1给界299。** [完整实际证明](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)给C/pC恰fieldtors/J长314。原全球colon B=L:p²及完整三页successive2/4/2给root2系数p谱(1,4,2,4,2)，连root1两方向全球≥15 tors，故Δaff≤299/齐次≤365、R≤141，barR|(s−1)(s−2)²P+²P−²E6Q60²。t1=2/t2≥5/t3≥2/t4≥4/t5≥2、系数p长≥44仍真；九真差源各p阶5不是h0分母，未闭更高p阶或九char0成员。
-- **root2剩余二维。** [actual J1](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)把原精确预算u+v+dimJ2=3化为u+v=2；u=f2−16数额外有理约化长度、v=Σa≥6 m_a(2)数高系数p方向。完整B第四新像至多2，若actual=2才迫u=0/m6=2/更高0；当前没有第四页值。有理E8等约化碰撞仍计入f2，不只Q点s2。
-- **原13左核已精确给出饱和缺陷J。** [理论](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)的π真满射/全generic13与31整门全部实际核过，G≅imQᵀ、H有限D、J=H[p]。source7f092c23在0.977497686秒核全部2015项/6069系数和两个完整211式gcd+div；十D-free轴后H3 char长Q230/F31231，χJ=s−2，即J仅root2一维、其它primary0。E8碰撞/所有7primary全核，raw8459/3601de02、binding6f140e28，完整receipt为43756208221-original-free-thirteen-quotient-defect-120-parent-copy.json；未预填数值。因此χ(C/pC)=field315/(s−2)，长度314。
-- **最小目标障碍与外投影。** [完整Ω120/乘子21](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)已证Ω=f60²，投影tors≅S/(f²)。支撑剥离仍给最小式s³F+^aF−^bE8^cU，a,b≤2/c≤1；U|μ=Rout/Ω，degμ≤21、degμh*≤44，九共同原Q源费8411（三支8406/8411/192）。全Δaff∈[278,299]；μ实际系数及μ1/九h*自身成员仍开。
-- **全56原行的精确外除子已闭。** [完整证明](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：run43756208221/step32实际71.12834121秒完成21paid单位、2870square、42RHS、56Ax=fE和56纠偏；全部w=0，精确Ω=f60²、degree120，每个支撑一个指数2。raw4927B/93bcf19e，binding3456b533，gen54临时cert39654723B/147a40fa/payload0ca29224。先前f²整矩阵MemoryError已由固定单位块/两单右端绕开，完整原行仍保留；不重core/det。
-- **完整整核与旧指定商分开。** [D31完整Smith](results/R150-appendix-full-infinity-integral-smith-and-canonical202-source-kernel.md)由Q/F31全谱逐项同给全核1834自由/良好约化，原Φ1632/E216直和、14退出方向给同freeI规范K202整核。原13左核λI=2。旧O149/高26、旧D leading与新minor分别处理；所有具体原列/旧权阶/normal反馈参数保最新快照。
-- **新原始子式首项31单位。** [原证明](results/R150-appendix-new-original-maximal-minor-degree8769-and-unit-leading-coefficient.md)真核补单位给cokerB*=fulltors，H8835/∞66/degree8769/leading31单位、replacement≥66/cofactor≥55；原字典actual及五输入全核保前态，无新大det。
-- **已有解全精度统一8535。** [精确Ω120的整除推论](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)由Ω|Δ及Gauss证明monic Ω31整，保原D*=detB*、只首一K158Ω；q8491/leading31单位，全部Pℓ∈D31[s]。任意既有Ax≡31^e b mod31^n保同e/n降费max(8535,τ+1)；固定e任意高n才exact，单p6不够，e0任意次数mod961负证保留。不是新增解或固定31分母。
+原 $A:6188\to4367$ 泛秩4354，$W=(I^2)_{\le5}$ 秩4212。九目标 $h_*t_j$ 的特征零全局成员仍开，$h_*=s^3F_+^2F_-^2E_8=h_0/(s-2)$；仅rank-one均值截面，不等于全部gradR3。
 
-新run43756208221自20:06:58按小源码重建全部必要祖先，5/P/6/7完整phase与manifest全历史SHA匹配；大矩阵只临时，所有小回执统一notes/r150-source-kernel-session-789f/。第八actual及后继调度、规则pull点见HANDOFF。
+- **原有限点。** 二点full/P均长12且完整W局部入像；负六同为12。零点完整长66、九 $s^3t_j$ 局部入像且 $t_2$ 恰需3；$F_\pm^2W$、$E_8W$ 已付。准确原来源和局部normal校正均保快照。
+- **无穷远。** Q/F31完整同谱 $1^4,3,4^3,5,6,7,8,10,11$，full66/sub55/max11、自由13/右核1834。D31完整Smith、1632/E216原直和和同202规范整核已付；新原minor degree8769/leading31单位。旧243指定平方与此区分。
+- **有限系数载体。** $C/pC$ 为field315除精确 $J=k[s]/(s-2)$，长314；$\operatorname{rank}_D C=\deg\Delta_{\rm aff}$。root2前五系数p谱 $(1,4,2,4,2)$，全球至少15个tors方向/系数长至少44。$278\le\deg\Delta_{\rm aff}\le299$；九真差源p阶5不等于h0分母。
+- **完整外除子与剩余乘子。** [原56行全核](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)已证 $\Omega=f_{60}^2$、投影商 $S^{13}\oplus S/(f^2)$。$\mu=R_{\rm out}/\Omega$ 度数至多21，九 $\mu h_*t_j$ 有原Q来源/共同费8411；$\mu=1$ 仍未证。根/独立全系数乘回已核 $\overline\Omega_{31}=Q_{60}^2$ 和 $\overline\mu_{31}\mid(s-1)(s-2)^2P_+^2P_-^2E_6$。
+- **已有来源全精度8535。** Ω首一D31整且原D* leading单位给q8491，任意已有同余保原e/n降费 $\max(8535,\tau+1)$；固定e任意高n才exact，单p6不够。e0任意次数mod961负证保持。
+- **完整I2与后继。** [全197原除源](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)实得 $I_2=U_7$、$\chi=(s-1)^2(s-2)^5$、exact指数2五个。完整I3须197纠偏源、七个参数图关系及b8/pb9，保原p4算术。root2全210 recipe已付但p7/六整数零carry/第四像未付，仍 $u+v=2$。
+- **独立F127完整模块。** [全6188正常形/基](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)实际补齐660来源，其中658零、6046/6063非零；全2855补集得到rank1021/free13/B8/Σd701。[全torsion](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)在完整805状态中去506观测，实际长度299、全参数作用/9目标/源DAG真。$\chi_{127}=s^{66}(s-2)^{12}(s+6)^{12}\widehat F_+^8\widehat F_-^8\widehat E_8^5(s+64)\Psi_{60}^2$ 全300系数根乘回；Ψ与Ω的127约化尚待独立实核。
+- **F127自然∞已实成。** 修复原7/8历史字段后35.292959568秒，3959098系数分母全127单位；完整H3760/C580、前十和真实第11全6188产品给∞66/sub55/max11/free13。两域原∞一致可用于Gauss；299未迫278，不预填μ1。继续原九目标共同子模/精确最小式、Ω127比较及可能的J127缺陷。
+
+旧live43756208221保Q/∞/Ω所有付费缓存，新live43772109844保127原basis/state及global197/root2 recipe；只小源码、参数、run/SHA、回执永久。精确步号/失败和恢复以HANDOFF及原小回执为准。
 
 ### 原边界：真实测试及全旗二阶已控，顺次返回继续
 

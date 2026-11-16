@@ -505,3 +505,5 @@
 [完整原来源证明](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)把全部197真R2、7原U7种子、505自由/315坐标/参数闭包及DAG实核为I2=U7，χI2=(s−1)²(s−2)^5。结合完整I1得指数恰二的重数5、χ=(s−1)(s−2)^4；Δaff≤299和μ≤21不变。另实际Ω小审计核全部121有理系数31整及f²，根和独立代理对两实际receipt全121/316系数乘回，确认barΩ=Q60²并得barμ|(s−1)(s−2)²P+²P−²E6。新完整global I3 colon明确保197纠偏除源、7个sI−J7图关系、b8和pb9；下一p4产品未算，不拿当前数组补零。完整root2第四页210条recipe已0.510477秒实核，但p7原产品/第四像仍未付。
 
 - [R150：F127全部6188原来源正常形](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)：实际3333常基、2855补集及9目标全核；660恢复源中658零/2非零，完整模块与∞资格继续。
+
+- [R150：完整原F127 torsion299及全参数作用](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：全6188来源、805状态/506完整观测、全CK/AK=KJ、九目标与χ299全系数已核；原∞资格及特征零比较另述。

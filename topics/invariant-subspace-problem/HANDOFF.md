@@ -3,7 +3,7 @@
 ## 目标、授权、规则与完整历史
 
 - **未完成：** 普通复可分无限维Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** d1357577f1390bc8e4d144fb7e09404421f97087（2026-11-16 00:16:14 UTC，临时研究session run43756208221实际pull --rebase，两README无差异；详见notes/r150-source-kernel-session-789f/）。
+- **最近成功实际 pull 与已读规则提交：** c24b0572811a64de6c42834db2f2a878b704f9a1（2026-11-16 00:17:16 UTC，Actions run43779456286实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43779456286-1.json。
 - 仅授权Rogerhu12/math-research-public；根独占main/H/open/results/log，代理交冻结稿。每结论实际终端push；非快进立刻pull --rebase再推至成功，不force。至少每小时/每推前实际pull后比较两README，仅读新diff；每次已读commit记上行。
 - 当前已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI，不进文件/日志。可重算矩阵/证书不进Git/Release/大工件、不分块绕过；仅小源码、参数、run、SHA、回执。topic≤200MB，API仅UTF8<100KB；MD≤100KB、H≤10000B、open尽量≤30KB、log每条≤5行，数学美元符，不写根LOG。
 - 无新增审批门槛；Actions约4核16GB/job≤6h/账号≤20，数学预算自主。本地托管执行不可用，已授权Actions做真实pull/rebase/push；API source commit不冒充主线推送。
@@ -33,9 +33,9 @@
 - **Ω约化实核：** step33/0.002218695秒及两独立全121/316乘回给barΩ=Q60²、barμ|B21；outereca924ad/raw3463·b536af2e，μ1未证。
 
 - **[全局I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，全197原4367/505/315/J/DAG真；χ=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21。outerf6b83a6e/raw46870·5d9fc76f；I3须197纠偏源、7参数关系+b8/pb9。step5全210 recipe已0.510477秒核真，33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。
-- **[F127全正常形/模基已付](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)：** 旧5528覆盖失败保留；全6188/4433/18单位真。NF63.3021秒/3333基/2855源/9目标，新660中658零、6046/6063非零。GB150.248秒，rank1021/free13/B8/Σd701，完整state805；raw5289·3442ad58/binding9e8510d9，basis43787388·144871db。全torsion60秒/2GiB源d92bcb73/3bf32f1f已排，out original127-whole-torsion，完整free泄漏/观测稳定/CK及AK=KJ；不填torsion值。新request为notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。
+- **[F127完整torsion299](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：** 全6188原正常形/2855模基已核，rank4354/free13/B8/Σd701；state805，观测rank506于57稳定，CK/AK=KJ全真。native3.497066秒，raw9819·2c1054b2，state1414575·948d6e78，binding05c13d9a；χ=s66(s−2)12(s+6)12F+8F−8E8⁵(s+64)Ψ60²全300系数根乘回。9目标全torsion，但h*作用/Ω127比较/J127未付；复用out original127-whole-torsion，不重NF/GB。新live request见原global197 session。
 
-- **∞127资格接续：** 原live step34/源5b77b531在9.181149秒第7页KeyError退出；前6/低C580及1422290系数单位真，高门未算，raw4883·84150e9e保留。已核7/8 twoMaps及6/7高系数，9/10才generic schema。新step35/源a7fdfb04，out infinity-complete-prime127-qualification-v2，600秒/4GiB重做9秒前缀，不迁移旧binding；未填∞66。
+- **∞127已实成：** 原live step35/sourcea7fdfb04/35.292959568秒，全部3959098系数单位、H3760/C580、完整β=(4,0,1,3,1,1,1,1,0,1,1)。实际第11高0/低13增1，full66/sub55/max11/free13；raw11805·115e3149/binding3ffa6e91。旧7页schema失败保留，新out infinity-complete-prime127-qualification-v2。Gauss正式稿续，未由299断μ1。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
