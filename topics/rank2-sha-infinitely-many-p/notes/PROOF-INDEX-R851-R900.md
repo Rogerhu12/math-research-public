@@ -324,3 +324,6 @@
 
 
 - [R872原primitive的native Bockstein联合读取](2026-11-16-r872-native-primitive-bockstein-value-and-normal-pair.md)：同四原行及全部首折回给λ(J)=a⁻¹[w^s](5042W0−246W1+3W2)，真实pH A1项由W3>4准确消失。τ1保9U0u0²e0αA，τ2/3不含它；加深值到w^s仍不杀第s行。αA=t1²(a0+a1)且a0v0+a1v1=0，非退化时是其余二支同γ的准确读取，不能自由拼接物理值/normal值。有限层分解后虽ΠJ=0，完整β1仍改变同R/S后页，保全部高前缀/其它纤维/H¹。
+
+
+- [R884附录G](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原C9三迹−R3/(4b)、D9真δ-new；原UΘ4的全八系数由公开Fraction确定，W48=TδUnew准确为Q48−[4]*R3/(78624b)，质量非零且2-new。完整D1保chat=(p+1)cint与Fermat缺陷，D48(W48)=BQ48−DR3/(4914b)+c_pq_p(2)/(819b) modp，未给该行赋零。原V72°=VΘ³−[2]H18/168+[δ]R24/63同时new，V72°−T=2bNJ+504bQ72°；原四中央的三条实际联合式及所有旧B/new/cross全保。

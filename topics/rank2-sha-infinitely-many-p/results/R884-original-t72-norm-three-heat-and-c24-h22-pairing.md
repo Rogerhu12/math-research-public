@@ -2096,3 +2096,336 @@ $\mathfrak B(S),\mathfrak B(T),\mathfrak B(U),\mathfrak B(V)$；
 (F18)–(F20)只在原首位使用它们的剩余值四、三。
 全文为完整纤维、Newton 递推和原投影公式的手证，
 没有新数学数值执行。
+
+
+## 附录 G. 原 U 余项的非零质量与 S/T/V 的完整同时 new 条件
+
+本附录仍使用原 $\mathcal U_{144}^{\mathrm{new}}$，
+而不以相同 degree 或相同 trace 核中的另一来源代替它。
+全部来源的 trace 先在特征零形成；
+涉及 $\mathcal D$ 时，始终使用 R856 的原特征零 Hasse 提升。
+
+### G.1. 同一个 C9 的范数三旧部分
+
+对(D9)的 $C_9=\sigma^9y$，由正文(5)准确有
+$$
+\frac{C_9/\sigma^9}{(\delta x)^3}
+=\frac{c}{X-8b}.
+$$
+在原三次纤维 $x^3+3ax^2+4b=0$ 上，
+$$
+\operatorname{Tr}\frac1{X-8b}
+=-\frac13\operatorname{Tr}\frac1{ax^2+4b}
+=-\frac1{4b}.
+$$
+第二个完整迹可由同一三次 Newton 公式或商代数直接求得，
+并与 R879(C6)所用恒等式一致。
+所以
+$$
+\boxed{
+\mathrm T_{\delta,3}C_9=-\frac{R_3}{4b},
+\qquad R_3=\sigma^3y,\qquad
+\mathrm T_{\delta,3}D_9=0.
+}
+\tag{G1}
+$$
+最后一式使用原(E15)的
+$D_9=[\delta]^*R_3+12bC_9$。
+这还明确了 $D_9$ 的质量 $-1$ 与范数三 new 性可以同时成立；
+不能从 new 性推质量为零。
+$R_3,C_9,D_9$ 的奇 degree 标准半特征全部保留。
+
+### G.2. 原 U 的指定 degree48 来源与两个准确边界
+
+定义同一个完整原输入的迹
+$$
+Q_{48}:=\mathrm T_{\delta,48}(U\Theta^4).
+\tag{G2}
+$$
+在 $E[\delta]$ 的三个原输入点，$U\Theta^4$ 都至少六阶消失：
+原点使用原 $U$ 的六阶零；
+另两点为 $x=0$，原(C5)的 $x^2$ 与 $\Theta^4=x^4\sigma^8$
+分别给二阶、四阶零。
+canonical 局部倍率为单位，故
+$$
+Q_{48}=\sigma^{48}q_b(X),\qquad
+q_b(X)=\sum_{j=0}^7 q_jb^{7-j}X^j,\qquad Q_{48}(0)=0.
+\tag{G3}
+$$
+式末的 $Q_{48}(0)$ 是原 $z=0$ 处的质量；
+下文 $q_b(0)$ 则是有理系数在 $X=0$ 的值，二者不混用。
+
+原输入的完整三纤维公式为
+$$
+\boxed{
+\frac{Q_{48}}{\sigma^{48}}
+=\frac1{91\cdot3^{24}}\,
+ \operatorname{Tr}
+ \frac{(X+b)Q_7(X)A_2(X)F_4(X)G_4(X)H_8(X)}
+      {X^{14}},
+}
+\tag{G4}
+$$
+其中全部三个 $X$ 满足
+$$
+(X+4b)^3+27a^3X^2=0.
+\tag{G5}
+$$
+(G4)来自原 $U\Theta^4=\sigma^{144}X^2(X+b)Q_7A_2F_4G_4H_8/91$
+和准确 $(\delta x)^{48}=3^{24}X^{16}$；
+不是只用目标 degree 恢复的拟合公式。
+(G5)及其倒数三次式给全部 $-14\le k\le7$ 的 Newton 幂和，
+因此(G4)已经指定整个 $q_b$。完整结果为
+$
+\boxed{
+\begin{aligned}
+6552q_b(X)={}&-245X^7+11074bX^6+28416b^2X^5
++7328b^3X^4\\
+&+69248b^4X^3+7680b^5X^2-20480b^6X-8192b^7.
+\end{aligned}}
+\tag{G4a}
+$
+这不是由(G3)的两个边界拟合：公开 Fraction producer
+对(G4)的全部正、负幂逐项求迹，使用全部原(C5)–(C6)因子。
+该完整结果及运行来源列在本附录末尾。
+
+例如目标 $a=0$ 时，三个输入的 $X$ 都为 $-4b$。
+在这个实际值，
+$$
+\begin{aligned}
+Q_7&=2^4 3^2b^2,& A_2&=-2^3 3^2b^2,\\
+F_4&=G_4=2^8 3^4b^4,& H_8&=-2^{15}3^8b^8 .
+\end{aligned}
+$$
+直接代入(G4)，包含三个原纤维的重数，得
+$$
+\boxed{q_b(0)=-\frac{1024}{819}b^7.}
+\tag{G6}
+$$
+它在原好特征下为单位，尤其 $Q_{48}$ 确是非零来源。
+本式不将该来源边界当作其 $\mathfrak B$ 非零。
+
+现在取原(D14)的同一个余项，令
+$$
+W_{48}:=\mathrm T_{\delta,48}\mathcal U_{144}^{\mathrm{new}}.
+$$
+由(D14)、(G1)及 canonical 两倍点交换，
+$$
+\boxed{
+W_{48}=Q_{48}-\frac{[4]^*R_3}{78624b}.
+}
+\tag{G7}
+$$
+若要直接在原多项式模型中读取同一来源，准确倍点公式还给
+$
+[4]^*R_3=-\sigma^{48}K_8,\qquad
+K_8=X^2(X-8b)^6+1280bX(X-8b)^3(X+b)^3
+-32768b^2(X+b)^6.
+\tag{G7a}
+$
+所以 $W_{48}=\sigma^{48}(q_b+K_8/(78624b))$，
+并保完整七次与八次项。
+因为 $R_3(0)=-1$，这个真实迹的质量准确是
+$$
+\boxed{W_{48}(0)=\frac1{78624b}.}
+\tag{G8}
+$$
+它不是一个中心零的派生来源。
+
+全部二挠返回也保持相容：
+由(C4)、(D9)、(G1)，
+$$
+\mathrm T_{2,12}Q_{48}
+=\frac{[2]^*R_3}{19656b}
+=-\frac{\sigma^{12}A_2}{19656b},
+\qquad
+\mathrm T_{2,12}W_{48}=0.
+\tag{G9}
+$$
+这里用了
+$\mathrm T_{\delta,12}\mathcal H_{36}
+=[2]^*R_3/(157248b^2)$，
+以及同一规范 $\mathrm T_{2,12}[4]^*R_3=4[2]^*R_3$。
+因此原 $U$ 的这个实际余项确实返回到一个
+质量非零而二挠 new 的 whole degree48 来源，
+不是从它的环境中另选的向量。
+
+### G.3. 不能省略的质量 Hasse 项与准确除 p 行
+
+以下固定原 $p=6s-1>211$。
+记 R856 的实际特征零提升为
+$
+\widehat c_p=(L_2H_p)|_{\rm CM}
+=(p+1)c_p^{\mathrm{int}},\qquad
+c_p^{\mathrm{int}}=\binom{3s-1}{2s-1}b^s .
+$
+$c_p$ 为其模 $p$ 单位；先除 $p$ 后约化。
+不能在减项中把 $\widehat c_p$ 换成
+$c_p^{\mathrm{int}}$，二者的差除 $p$ 后一般不为零。
+由于 $H_p|_{\rm CM}=0$，(G8)与 whole degree48 递推准确给
+$$
+\boxed{
+j_{p+1}(W_{48})\equiv
+48c_pW_{48}(0)=\frac{c_p}{1638b}\ne0\pmod p.
+}
+\tag{G10}
+$$
+所以此处的原整读者必须是
+$$
+\boxed{
+\mathcal D_{48,p,1}(W_{48})
+=\frac{j_{p+1}(W_{48})-\widehat c_p/(1638b)}p.
+}
+\tag{G11}
+$$
+不能把它写成中心零来源的裸 $j_{p+1}/p$。
+
+为完整处理(G7)的实际旧项，定义
+$$
+D_{R_3,p}:=\frac{j_{p+1}(R_3)+3\widehat c_p}{p}.
+\tag{G12}
+$$
+本式的整性不借一个未支付的奇 degree 普遍定理。
+事实上 $[4]^*R_3$ 是原 whole degree48 截面；
+其质量为 $-1$，且
+$j_k([4]^*R_3)=4^k j_k(R_3)$。
+用 R856 及单位 $4^{p+1}$ 可直接推出(G12)整。
+更准确地，置 $q_p(4)=(4^{p-1}-1)/p$，则特征零全式为
+$$
+\mathcal D_{48,p,1}([4]^*R_3)
+=4^{p+1}D_{R_3,p}-48\widehat c_pq_p(4).
+\tag{G13}
+$$
+这里 $R_3$ 的实际半特征、质量和全部 $p$ 高位都已固定。
+
+由于(G3)的 $Q_{48}$ 严格中心零，(G7)、(G11)逐项给
+$$
+\begin{aligned}
+\mathcal D_{48,p,1}(W_{48})
+={}&\mathfrak B(Q_{48})
+-\frac{4^{p+1}}{78624b}D_{R_3,p}
++\frac{\widehat c_p}{1638b}q_p(4),\\
+\equiv{}&
+\mathfrak B(Q_{48})
+-\frac{D_{R_3,p}}{4914b}
++\frac{c_p}{819b}q_p(2)\pmod p .
+\end{aligned}
+\tag{G14}
+$$
+第一行中 $\mathfrak B(Q_{48})$ 表示其准确整商
+$j_{p+1}(Q_{48})/p$；第二行才取模 $p$。
+这保留了与原 $[4]$ 拉回配套的全部 Fermat 缺陷。
+不假设 $q_p(2)$ 非零，也不以(G10)的单位断言
+(G11)或 $\mathfrak B(Q_{48})$ 非零。
+
+(G10)给的是一个实际未除 $p$ 的非零读数：
+它说明原 $U$ 余项的该返回必须带(G11)的非齐次减项。
+原 $\mathfrak B(U)=0$ 不使
+$\mathcal D_{48,p,1}(W_{48})$ 或 $\mathfrak B(Q_{48})$ 为零，
+也没有证明 $\mathfrak B$ 与本 canonical trace 可直接交换。
+
+### G.4. 同一 V 来源的两个旧部分与原 S/T/V 条件
+
+附录 B 的原全来源式是
+$$
+V\Theta^3-T=2bNJ_{36}+504bNA.
+$$
+应用(F8)、(F15)及原 $T$ 的两个 trace 零，准确得到
+$$
+\boxed{
+\mathrm T_{2,18}(V\Theta^3)=\frac{H_{18}}{42},
+\qquad
+\mathrm T_{\delta,24}(V\Theta^3)=-\frac{R_{24}}{21}.
+}
+\tag{G15}
+$$
+因此原固定截面
+$$
+V_{72}^{\circ}:=
+V\Theta^3-\frac{[2]^*H_{18}}{168}
++\frac{[\delta]^*R_{24}}{63}
+\tag{G16}
+$$
+同时 new，并且满足完整身份
+$$
+\boxed{
+V_{72}^{\circ}-T=2bNJ_{36}+504bQ_{72}^{\circ}.
+}
+\tag{G17}
+$$
+这次被运输的是原 $V$，所有伙伴与 $[2]$、$[\delta]$ 倍率都有来源，
+而非任意选择一个 degree72 中心零截面。
+
+记
+$$
+x_S=\mathscr X_p(S,\Theta),\quad
+x_V=\mathscr X_p(V,\Theta^3),\quad
+x_U=\mathscr X_p(U,\Theta^4),\quad
+x_N=\mathscr X_p(N,[2]^*D_9).
+$$
+在原四个必要中央零
+$\mathfrak B(S)=\mathfrak B(T)=\mathfrak B(U)=\mathfrak B(V)=0$
+下，已经支付的实际条件可并列写成
+$$
+\boxed{
+\begin{aligned}
+2b\,\mathfrak B(\mathcal P_{72}^{\circ})
+&=x_S+\frac{\mathfrak B(A_{12})}{21}-x_N,\\
+2b\,Q_{1,p}+504b\,\mathfrak B(Q_{72}^{\circ})
+&=x_V-\frac{\mathfrak B(H_{18})}{42}
+       +\frac{\mathfrak B(R_{24})}{21},\\
+9828\bigl(x_U-\mathfrak B(\mathcal U_{144}^{\mathrm{new}})\bigr)
+&=3\mathfrak B(K_{12})-\mathfrak B(J_{36}).
+\end{aligned}}
+\tag{G18}
+$$
+同时 $\mathfrak B(R_{24})=\mathfrak B(A_{12})+
+\mathscr X_p(A_{12},B_{12})$，所以第一、二行的旧标量仍可按同源消去。
+(G14)则是第三行同一 $U$ 余项取实际 trace 后所须保留的整读者，
+不额外添加一个零方程。
+
+至此原 $S/T/V$ 的两项配对和原 $U$ 的余项均在确定的
+来源／投影／质量规范内：
+(G17)保两项同时 new 的全部读数，
+(G10)–(G14)保原 $U$ 余项返回时确实非零的质量及其 Hasse 减项。
+尚未支付的仍是这些指定整余项之间能排除四原首行同时为零的关系；
+不能把本附录的迹或单位质量代作额外算术中央条件。
+
+### G.5. 全八系数的精确算法与公开执行来源
+
+为直接复现(G4a)，固定 $b=1$，令 $A=a^3$，
+$c=12+27A$，$s_j=\operatorname{Tr}X^j$。
+完整正幂初值与递推为
+$
+s_0=3,\quad s_1=-c,\quad s_2=c^2-96,\qquad
+s_j=-cs_{j-1}-48s_{j-2}-64s_{j-3}\quad(j\ge3).
+$
+令 $v_j=s_{-j}$，则原倒数多项式为
+$u^3+3u^2/4+cu/64+1/64=0$，因此
+$
+v_0=3,\quad v_1=-\frac34,\quad
+v_2=\frac3{16}-\frac{27A}{32},\qquad
+v_j=-\frac34v_{j-1}-\frac c{64}v_{j-2}-\frac1{64}v_{j-3}.
+$
+把原二十一次多项式
+$(X+1)Q_7A_2F_4G_4H_8=\sum_{i=0}^{21}P_iX^i$
+逐项代入
+$
+q_1(A)=\frac1{91\cdot3^{24}}\sum_{i=0}^{21}P_i s_{i-14}
+$
+便得到(G4a)，这里下标一仅表示 $b=1$。
+原齐次权再恢复一般 $b$ 的 $b^{7-j}$。
+
+这一完整 Fraction 算法已经公开执行，且同一次运行独立使用
+原(C7)的全部四纤维再次核定(G9)，没有只核两个边界：
+
+- run 43870426107，job 133309825034；
+- source commit d5e37c59b7c93488772d4319e41d9a55a4429bde；
+- 脚本：[check-r884-original-u-theta4-norm-three-trace.py](../scripts/check-r884-original-u-theta4-norm-three-trace.py)，无参数，Python 标准库 Fraction；
+- script SHA256：a943b4c799af265c703248ee9cf5abffe0b571023e534ddbef69ba4fe9d160fb；
+- RANK2_U_THETA4_DELTA_RESULT SHA256：5e2e9bdafb00b70178499294aba0ff58588000a6fd7f748815440595d970b71b。
+
+没有提交可重算输出文件，也没有目标素数扫描。
+(G3)、(G6)、(G8)–(G18)的来源、质量、整性及全部减项由上面的
+全纤维和 whole Hurwitz 证明独立支付；
+(G4a)进一步固定了同一实际来源的全部系数。

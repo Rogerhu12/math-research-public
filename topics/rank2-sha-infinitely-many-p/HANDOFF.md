@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：980aaeefe786e36e442cbb889c1af3f9c24d7ee4；2026-11-16 12:56:58 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:51:51 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
+- 最近已读规则提交：c4e88b212b84d172ade5ba752a4ad4d77642aeeb；2026-11-16 12:57:31 UTC核两README无变。实际CI pull 2026-11-16 12:28:38 UTC/ef81c2183582bb82f6cf50c8fdbaa71df306a082（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:57:30 UTC仍无环境。最迟2026-11-16 13:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -42,7 +42,7 @@ consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只�
 
 R863同H22两低配对、R876谱、R879全部热/trace/高端/q3/CM词保原证明及归档。R884正文原T热D5仍含BS/BDref/Lp(C0)/全余项；BT0不赋热零、参考rank0不赋BDref零。附A/B的同V/T差准确回Q1=Q(N,J)、Q2=Q(N,A)，非恒定H22权和三个cross全保。
 
-附C–E原U完整Fraction迹run43862249339付H36=4σ36(X+b)³A2/(2457b)，真增rank3→4，J−2[2]*C9=[δ]*K12。原S/U合法消同O8，原S/T合法消同B(A12)，全new/低cross及p²倍率缺陷保。附F原N²的2迹0、δ迹−R24/(10584b)，N[2]*C9与N[δ]*K12都同时new；P72°=P72+[δ]*R24/(126b)给T=−N[2]*D9−2bP72°。原第二配对NA的2迹H18/(21168b)、δ迹−R24/(10584b)，H18真δ-new；Q1/Q2全双投影已付，原Unew144/所有B与cross仍未消。准确系数见R884D–F；原UΘ4全三纤维run43870426107成功；W48=TδUnew质量1/(78624b)且2-new，必须保完整D1质量减项；theta续真实质量项/四B联立。
+附C–E原U完整Fraction迹run43862249339付H36=4σ36(X+b)³A2/(2457b)，真增rank3→4，J−2[2]*C9=[δ]*K12。原S/U合法消同O8，原S/T合法消同B(A12)，全new/低cross及p²倍率缺陷保。附F原N²的2迹0、δ迹−R24/(10584b)，N[2]*C9与N[δ]*K12都同时new；P72°=P72+[δ]*R24/(126b)给T=−N[2]*D9−2bP72°。原第二配对NA的2迹H18/(21168b)、δ迹−R24/(10584b)，H18真δ-new；Q1/Q2全双投影已付，原Unew144/所有B与cross仍未消。准确系数见R884D–G。U全三纤维run43870426107成功，W48=TδUnew质量1/(78624b)且2-new；完整D1=BQ48−DR3/(4914b)+c_pq_p(2)/(819b) modp，保原chat=(p+1)cint。V72°全双投影及S/T/V/U三条件已付，theta续真实余项联合障碍。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 
