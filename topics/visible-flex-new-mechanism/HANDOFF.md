@@ -16,17 +16,13 @@
 
 core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266012381是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
 
-## 3. 理论接口与剩余义务
+## 3. 当前理论接口与剩余义务
 
-原式、文献、严格范围和历史费用见[results](results.md)，当前任务见[open](open.md)。R406排actual全Λ0，只用完整有限Jaff；R455/464初选同真宽/母/右锚付q4/F★、共同20根、非零最高响应。R460付simple-p自动留数与不变解析端芽，真range仍保Af partial/平台/整包量/双germ/gap/右锚；同13规范和最高period未付不能提前用。
+原式/严格范围/历史费用见[results](results.md)，活动任务见[open](open.md)。R406排actual全Λ0，只用完整有限Jaff。R455/464同真宽/母/右锚付q4/F★/共同20根/非零最高响应；R460 simple-p自动留数及不变解析端芽已付，真range仍保Af partial/平台/整包量/双germ/gap/右锚。原13规范/最高period尚未付。
 
-R471同cap五门Δ1/2/3/4/6全0 iff完整self比例；R475保全部十二L项/八Aj，四列minor真非零。R481原尾Euler给五个真compact控制满秩；[R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)用g=((2/3)p^−1/3φ′)″/ρ准确提升logρ，三normal经8参数IFT保全端germ和正性后作有限径向下降。预选15列未自动满秩，盒内真非零驻点必有模型外下降；无统一步长/全局零。R483真尾紧化保远左常数C/凸v曲率测度，零仅可能3/5+ε*≤h/s²<10¹²；零极限须另付C³正窗和实际逆才提升。[R489](results/R489-no-single-curvature-concentration-for-the-five-cap-conditions.md)用ν质量/一次矩、η=v(−3/2)=W1/3及完整Aj模数，排critical+任意远左C的单原子集中薄层；全零必η>统一正数并保两个分离曲率质量窗，仍无点态正窗/五维统一逆。R485完整critical/uniform全部C≥0 offset族非零，真ψ3左germ及simple-A端近似保留；不排其它cap。冻结ψ3一次严格完整ImE>0，故同冻结库h不在span(y)，R466只在同Jaff/canonical正时长/同端口/M0作用。一般新cap/新机制未排。
+**真新cap。** R471五门Δ1/2/3/4/6全0 iff完整self比例；R475保全12L/8Aj四列真minor。R481/487真compact五控制经gφ=((2/3)p^−1/3φ′)″/ρ提升，再3normal有限IFT保完整端germ/正ρ并径向下降；不授当前15列满秩/统一步长/全局0。R483完整尾紧化保远左C与凸v曲率测度，零仅有限H区；R485完整critical/uniform全部C非零，R489以η=v(−3/2)=W1/3排单曲率集中薄层，必保两个分离质量窗，非点态正窗/统一逆。R491完整E=½∫Z³(4U−3Z)dr及ImZ<0不推出E非零；两原子α/β/C全部Aj有限幂差和五次跳变保留，五门等价五多项式，未判解。下一三原子+offset五实参原积分/合法恢复。多帽还需R479共同c、A7/s、A0/(h³s²)，新cap须从起点新库。冻结ψ3完整ImE严格>0只排该冻结母，R466限同Jaff/canonical正时长/同端口/M0，不排所有cap。
 
-R469/472保真实A/T、全部第四V/一般w及双芽；R476的18维Z只在说明的真传递接口逐函数盲。R480从起点有限扩F（≤924生成，不称秩）付全W三外矩0，重复原型K无第三历史漂移，但A/全V仍在。R482逐点T=Pend−A²/2+W，完整K=F(X;θ)+Ch h″+Ck k″；13真状态/2共用输入、原Mraw/水平ODE和全θ相容/切向性都要满足，未构成闭返回。常scalar段另需−E(AcD,AcD)+2E(φ,Ac(φ;AcD))全θ0。R484若真实两相位加速度minor非零，同前缀全s解锁在有理抛物线；离开须全相位rank降，候选h在≤12次判别根。当前minor值、rank≤1库或奇点平坦分支尚未判。[R486](results/R486-full-ruling-principal-square-and-obstruction-to-an-open-state-family.md)保任意真路径完整principal平方及初端常数，付两完整H差=−10∫g″⁴<0，排完整F在13状态开域恒0；真实低维路径和常scalar关联族M_c=bvᵀ/physical权b/(4h)仍未判。54高阶/108完整生成不是秩，新增C²观察不抹平方门。
-
-[R488](results/R488-real-secant-height-patches-and-complete-same-gauge-ruling.md)分类真L≡0强分支为k0/ω常/h=Hsec，原实际history固定；完整二三阶场对v=tan仿射，全ruling=(a+bv+cv²)/h保全部尾与入值。中心全profile清理使b0，单patch两even有原Gram右逆；旧芽已锁χ时须同13核中新增三个线性兼容行，不能逐patch重选。t1′=−(1+v²)/8<0排该分支自身M0返回/平常collar接合；真实桥/新增行像仍待。
-
-[R491](results/R491-complete-complex-phase-and-two-curvature-atom-five-condition-boundary.md)保完整E=½∫Z³(4U−3Z)dr及真ImZ<0（不推出E非零）；两ρ原子α/β/远左C全部Aj有限幂差、跳变保五次primitive，五门等价α⁷H³Δν五多项式，潜在零离α0/1、β0且H有界；β1终端原子仍留。未判解；接三原子+offset五实参原积分候选。
+**完整真实路径。** R469/472保A/T、双芽、全部第四V及一般w；R476的18维Z只在所述真接口盲。R480扩F≤924生成付全W外三矩，重复A0原型K无漂移，但单份内部K、A≠0桥/全V仍欠。R482原13状态/2共用输入给完整K=F+Chh″+Ckk″，真实Mraw/水平ODE及第三初端常数全保；常scalar另有完整平方门。R484两相位minor非零则保护芽锁定有理延拓，离开须全相位rank降（候选h判别≤12次），实际minor/退化支未判。R486全principal平方及完整两H差=−10∫g″⁴排13状态开域F恒0，不排真实低维路径；54/108生成不是秩，M_c²0不删算子复合。R488真L≡0强分支为k0/ω常/h=Hsec；所有真实入值的二三阶场对v仿射，完整K=(a+bv+cv²)/h。中心全profile清理付b0；单patchGram两even可付，但旧芽锁χ后须同period/13核三条兼容行。t1′=−(1+v²)/8<0排该分支自身M0返回/常collar接合；真实桥/新增行共同像继续。
 
 同cap五门真零、实际全成本/全s同规范、高阶收敛及主几何门仍未付。
 
