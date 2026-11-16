@@ -282,3 +282,6 @@
 
 
 - [R883附录H](../results/R883-original-relative-six-shadow-and-complete-boundary.md)：原Y的z²=T及c³=(z−3δ)/(z+3δ)有明确y双逆和S3作用/绝对Tate支。36cusps全二分歧给Z属187；原T+27的102点各恰三重给div f=3(D+−D−)，三次层处处étale而保可能剩余扩张，cusps全split恢复Y属559/108cusps。有限/无穷整闭包分别O⊕z b⁻¹、O⊕c a⁻¹⊕c²a⁻²，实际分式理想与负floor/乘法逐位全付，可由24底构成48/96/288整基，未实际运行新整基。
+
+
+- [原U·A8完整四纤维执行](2026-11-16-original-u-a8-complete-trace-execution.md)：run43862249339/source9dbad443f488c8cbba484ed58e7430b70e93abdf完整Fraction成功，全正负Newton和给H36=4σ36(X+b)³A2/(2457b)，同批核原U trace0与A8绝对−Θ/3。实际A/N/J六行rank3、增广rank4，三个确定系数后余量仅X4为243/2912；完整源/hash可复现，原U的new与cross及中央门不删。

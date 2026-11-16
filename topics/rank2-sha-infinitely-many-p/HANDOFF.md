@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：15a8cc5d5c2a60c6bfc22da65664946fae86e51c；2026-11-16 12:04:21 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:55:32 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
+- 最近已读规则提交：4a0f185ba990b8c2ae2ff39ddd7dcc2d582b8a06；2026-11-16 12:05:12 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 11:55:32 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -43,7 +43,7 @@ original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按�
 
 R863同H22两个整低配对、R876谱及R879全部热/trace/高端/q3/CM词保[完整H](notes/2026-11-16-frontier-before-two-division-trace.md)与原证明。R884正文把原T热返回接D5Ghat=(20708b/407)BS+(136b/55)BDref+(2592b/7)Lp(C0)+全余配对；BT0不赋热左行零，参考rank0不赋BDref0。附A的VΘ−T/Θ²=8bK46H′22保真实非恒定权和两个cross，J34/S的Dlog仅付同P2 Cartier返回。附B设A=SΘ、N36=A−old，L36−J36=252A及3VΘ³−2T=A(D36+1008bN36)使两原差准确减Q(N36,J36)、Q(N36,A)；第二是同S自配对，三个质量一cross/未加权H22/U均未消。
 
-附C真实H36=T2,36(UA8)含X+b且h(0)=−32b⁴/2457；固定左行Λ=6561 ev0−1024 ev−b杀A/N/J而给H值−7776b⁴/91，故同好p真不在三原span。U全cross与U144new仍保。U四纤维公开run43862249339已完成，精确日志待取；不赋新中央零。theta续同U二挠和原低配对。
+附C真实H36=T2,36(UA8)含X+b且h(0)=−32b⁴/2457；固定左行Λ=6561 ev0−1024 ev−b杀A/N/J而给H值−7776b⁴/91，故同好p真不在三原span。U全cross与U144new仍保。U四纤维run43862249339/job133281755877已精确成功：H36=4σ36(X+b)³A2/(2457b)，全六行rank3→4；run/hash见执行注，不赋新中央零。theta续同U二挠和原低配对。
 
 ## 当前第三门：原低松弛同P/R/S后两页
 
