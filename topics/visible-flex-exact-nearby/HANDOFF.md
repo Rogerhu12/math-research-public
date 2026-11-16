@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 11:52:18 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 11:56:50 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 11:01:31非FF真CLI仍无executor，下一本地尝试≤12:01:31。最新CI真pull为43859287399/1于11-16 11:42:53.716692→5b5dd03b0d69c8a059282b963b7192679fd43f67；两README完整diff空/同已读，exec保4次全回执。下一真pull≤12:42:53；ref读取不冒真pull。
-最近只读README核：1633167ea792ace4cc32331dbdc5ce3d8feb046e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：dbf00d16753f752c3e92565c0831c190dc5dd3d8；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -53,7 +53,7 @@ WMTA b4b5f5f7/43856579962/1成功18门7图195新+2原copy，0新exp/old0/lost0�
 
 ## 恢复、容量和执行
 
-普通清理全记录保14f861f1检查点、fe7649afa同H及各白名单；path/blob/完整SHA/bytes/restore/失败/lost/原scope/历史consumer义务不减。cap first-span白4d2cce13；两exact-bump白f3f28db3；D5白536dd2a1（访问异常/F2依赖保）；Hnodes258白a2e03bcb/删49fefaeb/restore9abcc371；R127白f96517ce先503b76c7后93443fd5删644624B，restore40eeef92同path/1c0abbeb/0f7aa2f4，8+17旧门及原/新producer版本差保。全体仅原字恢复禁重算；各旧native排除只是单次范围。
+普通清理全记录保14f861f1检查点、fe7649afa同H及各白名单；path/blob/完整SHA/bytes/restore/失败/lost/原scope/历史consumer义务不减。cap first-span白4d2cce13；两exact-bump白f3f28db3；D5白536dd2a1（访问异常/F2依赖保）；Hnodes258白a2e03bcb/删49fefaeb/restore9abcc371；R127白f96517ce先503b76c7后93443fd5删644624B，restore40eeef92同path/1c0abbeb/0f7aa2f4，8+17旧门及原/新producer版本差保。全体仅原字恢复禁重算；各旧native排除只是单次范围。 D5两fixed-tau探针100680B恢复见notes/2026-11-16-R133-completed-fixed-tau-probe-history-recovery.md，原F/N保，restore49fefaeb。
 
 
 
