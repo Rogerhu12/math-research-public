@@ -1,6 +1,6 @@
 # 真正58：完整168维全body与后缀的共同非线性问题
 
-日期：2026-11-16。**新问题尚未执行，当前实际接受点仍为58。** 前一[full62原观察](true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)已经闭账：SLSQP原status=0/success=true，但fine metric严格失败，0完整预测/actual。它的返回只作未接受原观察；本范围从唯一true58起步，不延长原范围、不把旧raw向量作为初点，也不改判旧失败。
+日期：2026-11-16。**首尝试因固定高度行的错误实现断言失败；本次是同题原余额内的必要续接，当前实际接受点仍为58。** 前一[full62原观察](true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)已经闭账：SLSQP原status=0/success=true，但fine metric严格失败，0完整预测/actual。它的返回只作未接受原观察；本范围从唯一true58起步，不延长原范围、不把旧raw向量作为初点，也不改判旧失败。
 
 ## 1. 这一问题改变什么
 
@@ -20,7 +20,7 @@ full62只开放后缀上的62个真实独立方向，不能约束其变化在整
 
 q_i = RN(q58_i + z_i/4)
 
-逐独立坐标作一次binary64舍入，再调用原field.full_coefficients(q168,exact=True)。九个依赖物理高度始终保原准确线性关系，不作九次各自舍入。完整P172×168是原准确affine物理图与E的复合；172个物理行均有真实非零控制。
+逐独立坐标作一次binary64舍入，再调用原field.full_coefficients(q168,exact=True)。九个依赖物理高度始终保原准确线性关系，不作九次各自舍入。完整P172×168是原准确affine物理图与E的复合；原准确H使物理158、159的增量恒为零，只有170个非零物理增量行。两固定行的原盒和4条冗余norm行全部保留，仍是原172物理图。
 
 未舍入physical58+Pz的线性门、一次独立舍入后的准确172盒和准确norm终门分别记录。范数为h≥4·max|physical172−physical58|，包含全部耦合物理行，不能换成独立z的最大模。344条原盒、344条norm和K/h四界共692线性行。保原向内binary64上下界；最终准确门失败时不夹坐标、不抬h、不修返回。
 
@@ -67,6 +67,7 @@ prefix102确存原full scalar，以及suffix数据；true58确存完整U/T/e/f�
 | free36 | 43884276617 / 133358065602 | 原basis、q_R与已闭记录，不复用旧34控制图 |
 | prefix102 | 43891282963 / 133382836465 | 确存完整scalar与21行后缀数据，不冒全域派生数组 |
 | full62 | 43916013327 / 133470222034 | 仅BODY_SOLUTION、COMPLETE、FINAL_CLOCK核原失败及费用 |
+| joint168首尝试 | 43923038659 / 133495072427 | 仅MODEL_PARTIAL、COMPLETE、FINAL_CLOCK核实现失败、原余额和完整费用 |
 
 full62原job log为3395530B / c436813e829af5c1c2c7f636d69a199eba4f071395a728abd82995c1f34c251f。三个输入JSON+LF分别为：
 
@@ -76,15 +77,18 @@ full62原job log为3395530B / c436813e829af5c1c2c7f636d69a199eba4f071395a728abd8
 
 父scope新115.53521002299999秒、累计3757.97482037秒/147原full值已经闭。原strict fine metric false、0预测/actual原样保留。其大MODEL/J数组只有bindings，原末J属value69而返回属value70；都不能当本次免费值/J。full51钟停无返回、whole34原缺失正文也不补造或重跑恢复。
 
-新request逐字保382个旧源hash，再绑定本次8个Python源、workflow、设计与模型合同、父full62 request和闭账note，共13新增、395来源。request自身不自引用hash，其准确bytes/hash从原REQUEST记录。只读取这五份指定原日志；input读取、解码、构造器恢复和失败也在科研钟内。
+续接request保382个祖来源hash，绑定当前8个Python源、workflow、设计、合同，以及父full62 request/闭账和首joint168原request/失败闭账，共15项当前及直接父来源、397个来源。首joint168 request在原路径保91699B/0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96不变，它绑定首尝试395来源；当前自己的修复源码hash按真实新内容更新，不冒全395不变。续接request不自引hash，实际身份由新REQUEST记录。只读六份指定原日志，首失败源仅用于原失败和费用，不从中捏造未存数组；所有读取/解码/恢复/失败仍计科学钟。
 
-## 6. 一次正式公开范围
+## 6. 同一问题的原余额内实施续接
+
+首尝试完整原观察见[固定高度断言失败](true58-joint168-fixed-height-assertion-failure-20261116.md)。它在new_full168_linear_rows中ValueError，0模型值/J/solver/预测/actual；唯一build已开始但未完成，2 first-jet绑定/1 metric绑定/1 prepare及全部26.784710984000014秒保入祖账。只删除“172行均非零”的错误断言；原数学问题、完整692行与唯一true58起点均不变。下面的solver和actual配额此前均未消耗。新恢复/构造是本次实际工作，计数另列并加首失败计数为整个问题账；不伪称首次build未发生。
 
 POLICY=true58-joint168-body-suffix-v1。
 
 | 项目 | 本范围上限或定义 |
 |---|---|
-| 整个科学钟 | 1800秒，含导入、输入、所有新工作及输出 |
+| 整个问题原科学钟 | 1800秒，首尝试已用26.784710984000014秒 |
+| 本次续接科学钟 | 仅1773.215289016秒，含导入、六源输入、所有新工作及输出 |
 | solver钟 | 1200秒且不超过实际剩余全钟 |
 | solver sessions | 1，无重启、无备用候选 |
 | SLSQP | maxiter240、ftol1e−9、disp=false |
@@ -94,7 +98,7 @@ POLICY=true58-joint168-body-suffix-v1。
 | first-jet/fixed metric binding | 2 / 1，各一次绑定确存正文 |
 | 原canonical全body预测 | 至多1，仅原成功返回且necessary gates合格后 |
 | 原actual | 至多1 pair、2 grid values |
-| 祖科学费用 | 3757.97482037秒 / 147原full值 |
+| 祖科学费用 | 3784.759531354秒 / 147原full值，含首joint168失败26.784710984000014秒 |
 | 科学stdout | 至多96MiB，逐原记录bytes/SHA256 |
 | 只读观察 | 单独记录wall时间，不重复加入生产科学费 |
 

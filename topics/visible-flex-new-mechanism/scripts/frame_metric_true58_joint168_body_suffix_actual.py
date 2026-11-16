@@ -21,7 +21,8 @@ from frame_curvature_epigraph_exchange import curvature_forms, curvature_rows, P
 from frame_metric_budget_recovery import recovery_decision, separation
 from frame_metric_spectral_soc_scaling import compact_with_all_actual_gates
 from frame_metric_paid_cone_vector import actual_acceptance
-from frame_metric_true58_joint168_body_suffix_scope import POLICY, Suffix58Ledger, require
+from frame_metric_true58_joint168_body_suffix_scope import (
+    POLICY, Suffix58Ledger, require, REMAINING_JOINT_SCIENCE_SECONDS)
 from frame_complete_body_extension168 import array_binding
 from frame_complete_body_extension168_selected_cache import (
     POLICY as SELECTED_CACHE_POLICY, export_selected_current168_geometry)
@@ -33,10 +34,10 @@ SOURCE_PROVENANCE = {
     "source_commit": "0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881",
     "physical_state_sha256":
         "94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54",
-    "closed_ancestor_scientific_seconds": 3757.97482037,
+    "closed_ancestor_scientific_seconds": 3784.759531354,
     "closed_ancestor_full_values": 147,
-    "last_closed_scope_run_id": "43916013327",
-    "last_closed_scope_research_job_id": "133470222034",
+    "last_closed_scope_run_id": "43923038659",
+    "last_closed_scope_research_job_id": "133495072427",
     "closed_ancestor_costs_are_not_new_scope_debits": True}
 
 def array_record(value):
@@ -143,11 +144,11 @@ def rows_from_paid_geometry(data,side,cfg):
 class Suffix58Actual:
     def __init__(self,prepared,completed,ledger):
         require(POLICY==EXPECTED_POLICY, "the new actual58 joint168 body/suffix minimax policy is required")
-        require(isinstance(ledger,Suffix58Ledger),"one new1800-second ledger required")
-        require(ledger.limits.get("science_seconds")==1800
+        require(isinstance(ledger,Suffix58Ledger),"same joint168 problem remaining-allowance ledger required")
+        require(ledger.limits.get("science_seconds")==REMAINING_JOINT_SCIENCE_SECONDS
                 and ledger.limits.get("actual_trial_pairs")==1
                 and ledger.limits.get("actual_grid_values")==2,
-                "this actual owner requires the declared 1800-second/1-pair/2-value scope")
+                "this actual owner requires only the original remaining seconds/1-pair/2-value scope")
         self.prepared,self.completed,self.ledger=prepared,completed,ledger
         self.field,self.cfg=prepared["field168"],prepared["cfg"]
         self.gate=Suffix58HeightGate(prepared)
@@ -190,7 +191,9 @@ class Suffix58Actual:
             "accepted_selected_export_follows_complete_value_only_learning":True,
             "full_U_T_cache_is_retained_in_addition_to_selected_position_jets":True,
             "source_configuration_160_1800_is_not_a_new_task_limit":True,
-            "new_scope1800_has_at_most1_actual_pair_and2_actual_values":True,
+            "original_joint_problem_retains_at_most1_actual_pair_and2_actual_values":True,
+            "same_problem_remaining_scientific_seconds":REMAINING_JOINT_SCIENCE_SECONDS,
+            "prior_failed_attempt_costs_are_not_reset":True,
             "necessary_model_work_is_owned_by_the_same_new_scope":True,
             "old159_bank_defect_gamma_and_controller_not_trained_or_applied":True}
         self.evaluation_sha256=digest(self.evaluation_definition)
@@ -383,7 +386,7 @@ class Suffix58Actual:
             "full_grid_positions_and_two_jets_not_serialized":True,
             "current_parameter_J_not_serialized":True,
             "partial_selected_exports_are_not_reusable_complete_inputs":True,
-            "all_export_and_output_time_is_owned_by_the_same1800_scope":True}
+            "all_export_and_output_time_is_owned_by_the_same_remaining_allowance":True}
         # Install the owner capture first: no repeated export is allowed after failure.
         self._accepted_cache_payload=payload
         self.accepted_cache_export_status.update(

@@ -205,3 +205,7 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 
 当时逐条原文保于[归档](notes/open-archive-actual58-through-reflected-R1-launch-20261116.md)；旧任务已闭账，现时58、费用和仍待主门见前文。原记录中的“正在运行”不作当前状态。
 
+
+### joint168原余额续接已发布
+
+正式请求 request-true58-joint168-fixed-height-continuation.json（94744B / 2c15b48f5c72ddd6187e36f4971f9fdc7efc8351ba9357f93649623880dc5702）保397来源，其中382祖hash逐字不变。当前修复源hash真实更新；首尝试91699B原request及完整失败闭账另作为父输入，不覆盖旧源码身份。scope与transfer将首失败费用/counts和剩余1773.215289016秒带入同一问题，所有新工作重新计费。一次未启动的原solver与actual额度不增加，保持真正58。只由本题公开Actions启动；完整原终态读取后继续open，不在运行时读取科学stdout。

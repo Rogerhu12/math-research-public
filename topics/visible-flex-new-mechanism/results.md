@@ -170,3 +170,5 @@
 - [joint168首尝试固定高度断言错误](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)：**完整原观察**。原H使physical158/159固定，错误172全非零断言导致构造失败，0模型值/J/solver/actual，仍58；新26.784710984000014秒、总3784.759531354/147。7记录全，保全部失败与余额1773.215289016，继续同问题必要实现修复而不放宽原门。
 
 - [R563 第三个真实低尾与六零自由族](results/R563-third-real-low-coast-and-a-six-zero-family-with-free-end-parameters.md)：**已证明**同R521母/一次χ的第三真实incoming、正W∞、完整C¹及三参数六零族；完整R0低尾正项与长回路正交叉使该族R0^y一致严格正。继续真正负R0接口，未清余两矩或period/13。
+
+- [joint168原余额实现续接](notes/true58-joint168-body-suffix-design-20261116.md)：**修复正式发布、尚无续接观察**。删固定高度158/159的错误非零assert，全部原约束保；六份原日志/397来源，只用1773.215289016秒，首失败26.784710984000014与counts全部保。原solver/actual未用额度不增，当前仍58。

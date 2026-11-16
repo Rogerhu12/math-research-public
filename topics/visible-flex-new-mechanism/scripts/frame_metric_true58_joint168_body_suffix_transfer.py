@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Restore actual58 and the literal paid free36/prefix102 inputs.
 
-Five original public Actions bodies are read, never old optimizers. The free36
+Six original public Actions bodies are read, never old optimizers. The free36
 MODEL supplies its exact coordinate embedding and RING_SOLUTION its original
 backend variables. Prefix102 MODEL supplies the actual q_R scalar fields and
 complete paid suffix arrays; no absent whole-grid derived array is invented.
 The fifth input is only the closed full62 final account. Its declared compact
 records are available, but large scientific arrays have bindings only and are
 not reused. The older whole34 missing-array boundary remains. The actual full62 return stays unaccepted; no callback is a
-returned candidate. Every ancestor final clock remains.
+returned candidate. The sixth source is the first joint168 attempt that raised
+during its linear builder before any solver; its full cost and paid-binding
+counts reduce this same problem's remaining allowance. Every final clock remains.
 """
 from __future__ import annotations
 import copy
@@ -26,7 +28,10 @@ import frame_metric_paid_cone_vector_audit as paid
 import frame_metric_direct_reference_audit as direct_audit
 import frame_metric_curvature_defect_guard_transfer as inherited
 import frame_metric_height159_complete_affine_audit as baseline
-from frame_metric_true58_joint168_body_suffix_scope import POLICY, Suffix58Ledger, require
+from frame_metric_true58_joint168_body_suffix_scope import (
+    POLICY,Suffix58Ledger,require,PRIOR_JOINT_SCIENCE_SECONDS,
+    REMAINING_JOINT_SCIENCE_SECONDS,ORIGINAL_JOINT_SCIENCE_LIMIT_SECONDS,
+    PRIOR_JOINT_STARTED_COUNTS,ANCESTOR_SECONDS as CONTINUATION_ANCESTOR_SECONDS)
 
 REPO="Rogerhu12/math-research-public"
 PINS={"run_id":"43859882465","job_id":"133273598120",
@@ -103,6 +108,29 @@ CLOSED_WHOLE_SECONDS=3757.97482037
 WHOLE_PINS={"run_id":"43916013327","job_id":"133470222034","source_commit":"868f2f6b5ba55affa26cc5f9d42186a565ea0a43","workflow":".github/workflows/visible-true58-full62-whole-suffix.yml","log_bytes":3395530,"log_sha256":"c436813e829af5c1c2c7f636d69a199eba4f071395a728abd82995c1f34c251f"}
 WHOLE_RECORDS=[{"tag":"BODY_SOLUTION","ordinal":1,"JSON_plus_LF_bytes":103421,"JSON_plus_LF_sha256":"7d824a6b892ad75c69c45c890240e0cd8acadc869e6d40b5a01a8b519626d17b"},{"tag":"COMPLETE","ordinal":1,"JSON_plus_LF_bytes":277795,"JSON_plus_LF_sha256":"f5fd3c226627321f9676688d65ca526d3c3e61ab9cf2a1299bdbcdc5318ea865"},{"tag":"FINAL_CLOCK","ordinal":1,"JSON_plus_LF_bytes":6684,"JSON_plus_LF_sha256":"423abbc12eecb6c900e797a58a7d016fa9782e85d31f39cf93620f56b08b06cf"}]
 WHOLE_REQUEST={"path":"topics/visible-flex-new-mechanism/computations/request-true58-full62-whole-suffix.json","bytes":85793,"sha256":"a6ba3811d6acd125d24018be293aa4bc9614502ef569f00c2d105a5d2f9a19b2"}
+
+FAILED_JOINT168_PINS={
+    "run_id":"43923038659","job_id":"133495072427",
+    "source_commit":"47942fb212bcc2f424fdf546437cd38b08c2d7e1",
+    "workflow":".github/workflows/visible-true58-joint168-body-suffix.yml",
+    "log_bytes":568954,
+    "log_sha256":"8f8335df21ad4e36e1c930e6aaec982f93cd158c9c386e1b86369c9d6005f851",
+}
+FAILED_JOINT168_RECORDS=[
+    {"tag":"MODEL_PARTIAL","ordinal":1,"JSON_plus_LF_bytes":1297,
+     "JSON_plus_LF_sha256":"87cc4e973f7aa6358291c97e798f478891cee9b3db7d63495cb603b3331bb776"},
+    {"tag":"COMPLETE","ordinal":1,"JSON_plus_LF_bytes":185677,
+     "JSON_plus_LF_sha256":"35f866b1643bff0fa7d28348682ea858ac83eb6ce774b0f37b79d077bf4aab83"},
+    {"tag":"FINAL_CLOCK","ordinal":1,"JSON_plus_LF_bytes":6593,
+     "JSON_plus_LF_sha256":"f9c5fc51500f41376a54ea70363853781bd04e009a0d47c748b37244e95004be"},
+]
+FAILED_JOINT168_REQUEST={
+    "path":"topics/visible-flex-new-mechanism/computations/request-true58-joint168-body-suffix.json",
+    "bytes":91699,
+    "sha256":"0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96",
+}
+CLOSED_FAILED_JOINT168_SECONDS=3784.759531354
+
 FREE_CANDIDATE_PHYSICAL_SHA="ab59622808faafbb1a1896a2edc670585c13373869665fb95c31b6ca8a1f2773"
 FREE_CANDIDATE_ARRAY_SHA="b252055bf59dbdd9e4d22691b2fd1c8ae35f88b2795c7a38f894876cd50c5da7"
 FREE_CANDIDATE_BINDING_SHA="5da50ccd367a7d1f5c9f621737c5b2bafcaba2db0eb39e3875adcb3fe6fffbf0"
@@ -129,7 +157,10 @@ def _pinned_job_log(api,pins):
     require(raw is not None,"empty original log response")
     return raw,redirects
 
-def _read_records(api,pins,prefix,expected,ledger,progress):
+def _read_records(api,pins,prefix,expected,ledger,progress,*,expected_job_conclusion="success"):
+    require(expected_job_conclusion=="success"
+        or (expected_job_conclusion=="failure" and pins==FAILED_JOINT168_PINS),
+        "failure-conclusion eligibility belongs only to the pinned failed joint168 attempt")
     ledger.check("source.metadata")
     run=api.api_json("/actions/runs/"+pins["run_id"])
     job=api.api_json("/actions/jobs/"+pins["job_id"])
@@ -137,7 +168,7 @@ def _read_records(api,pins,prefix,expected,ledger,progress):
         and str(job["id"])==pins["job_id"]
         and run["head_sha"]==job["head_sha"]==pins["source_commit"]
         and run["status"]==job["status"]=="completed"
-        and job["conclusion"]=="success"
+        and job["conclusion"]==expected_job_conclusion
         and run["conclusion"] in ("success","failure")
         and run["path"]==pins["workflow"],"completed original source identity differs")
     progress["original_logs_requested"]+=1
@@ -172,8 +203,65 @@ def _read_records(api,pins,prefix,expected,ledger,progress):
     ledger.check("source.decoded")
     return found,receipts
 
+
+def _read_failed_joint168(api,request,ledger,progress,point):
+    """Only the pinned failed source may have a failure-conclusion research job."""
+    require(request["failed_joint168_source"]==FAILED_JOINT168_PINS
+        and request["failed_joint168_records"]==FAILED_JOINT168_RECORDS
+        and request["failed_joint168_request"]==FAILED_JOINT168_REQUEST,
+        "literal first joint168 source-error attempt required")
+    raw=Path(FAILED_JOINT168_REQUEST["path"]).read_bytes()
+    require(len(raw)==FAILED_JOINT168_REQUEST["bytes"]
+        and reader.digest(raw)==FAILED_JOINT168_REQUEST["sha256"],
+        "the first joint168 request must remain immutable at its original path")
+    original_request=reader.decode_json(raw)
+    records,receipts=_read_records(
+        api,FAILED_JOINT168_PINS,"TRUE58_JOINT168_BODY_SUFFIX_",FAILED_JOINT168_RECORDS,
+        ledger,progress,expected_job_conclusion="failure")
+    partial=records[("MODEL_PARTIAL",1)]
+    real=records[("COMPLETE",1)];clock=records[("FINAL_CLOCK",1)]
+    require(real["status"]==clock["status_at_final_emit"]=="true58-joint168-body-suffix-raised"
+        and clock["scope_exhausted"] is False
+        and clock["sampled_after_all_large_cache_and_complete_write_and_flush"] is True
+        and real["github_sha"]==FAILED_JOINT168_PINS["source_commit"]
+        and str(real["github_run_id"])==FAILED_JOINT168_PINS["run_id"]
+        and real["github_repository"]==REPO
+        and real["new_acceptances"]==0
+        and real["selected_two_grid_physical_point"]==point
+        and real["selected_two_grid_physical_point"]["accepted_index"]==58
+        and real["source_files_sha256"]==original_request["source_sha256"]
+        and real["error"]["type"]=="ValueError"
+        and real["error"]["message"]=="every original physical172 row has an actual full168 direction",
+        "first joint168 attempt is the literal pre-solver implementation failure, not a geometric rejection")
+    require(partial["schema"]==POLICY+"-build-capture" and partial["status"]=="raised"
+        and partial["prepare_charge_receipt"]["ordinal"]==1
+        and partial["local_elapsed_seconds"]==0.09488910999999689
+        and partial["component_counts"]=={
+            "new_full168_linear_rows":{
+                "started":1,"completed":0,"failed":1,"seconds":0.003782735000015691}},
+        "failed linear-builder work and prepare debit cannot be erased or relabelled")
+    final=clock["ledger"]
+    require(final["scientific_seconds"]==PRIOR_JOINT_SCIENCE_SECONDS
+        and final["ancestor_scientific_seconds"]==CLOSED_WHOLE_SECONDS
+        and final["total_ancestor_plus_new_scientific_seconds"]==CLOSED_FAILED_JOINT168_SECONDS
+        and CLOSED_FAILED_JOINT168_SECONDS==CONTINUATION_ANCESTOR_SECONDS
+        and final["total_source_plus_new_started_values"]==ANCESTOR_VALUES
+        and final["started_counts"]==PRIOR_JOINT_STARTED_COUNTS
+        and final["limits"]["science_seconds"]==ORIGINAL_JOINT_SCIENCE_LIMIT_SECONDS
+        and final["remaining_scientific_seconds"]==REMAINING_JOINT_SCIENCE_SECONDS
+        and final["observed_overrun_seconds"]==0.,
+        "the same problem retains all first-attempt costs and only its original remaining allowance")
+    progress["failed_joint168_verified"]={
+        "source":copy.deepcopy(FAILED_JOINT168_PINS),
+        "records":copy.deepcopy(receipts),"source_error":copy.deepcopy(real["error"]),
+        "original_final_ledger":copy.deepcopy(final),
+        "original_model_partial":copy.deepcopy(partial),
+        "pre_solver_implementation_error_not_new_geometric_failure":True,
+        "no_scientific_array_or_unreturned_candidate_from_this_source":True}
+    return partial,real,clock,receipts
+
 def read_source(request,ledger,*,capture=None):
-    require(isinstance(ledger,Suffix58Ledger),"one new whole-suffix account required")
+    require(isinstance(ledger,Suffix58Ledger),"same joint168 remaining-allowance account required")
     progress={} if capture is None else capture
     require(not progress,"fresh input capture required")
     started=time.monotonic()
@@ -459,11 +547,21 @@ def read_source(request,ledger,*,capture=None):
             and whole_final["started_counts"]["actual_trial_pairs"]==0
             and whole_final["started_counts"]["actual_grid_values"]==0,
             "closed full62 strict metric failure and complete input/output costs remain")
-        cost={"ancestor_final_original_scientific_seconds":CLOSED_WHOLE_SECONDS,
-            "source_global_scientific_seconds":CLOSED_WHOLE_SECONDS,
+        failed_partial,failed_real,failed_clock,failed_receipts=_read_failed_joint168(
+            api,request,ledger,progress,point)
+        cost={"ancestor_final_original_scientific_seconds":CLOSED_FAILED_JOINT168_SECONDS,
+            "source_global_scientific_seconds":CLOSED_FAILED_JOINT168_SECONDS,
             "source_original_full_values":ANCESTOR_VALUES,"source_original_values":ANCESTOR_VALUES,
             "source58_final_clock":copy.deepcopy(clock),
-            "source_final_clock":copy.deepcopy(whole_clock),
+            "source_final_clock":copy.deepcopy(failed_clock),
+            "prior_full62_final_clock":copy.deepcopy(whole_clock),
+            "failed_joint168_source":copy.deepcopy(FAILED_JOINT168_PINS),
+            "failed_joint168_model_partial":copy.deepcopy(failed_partial),
+            "prior_joint_attempt_scientific_seconds":PRIOR_JOINT_SCIENCE_SECONDS,
+            "prior_joint_attempt_started_counts":copy.deepcopy(PRIOR_JOINT_STARTED_COUNTS),
+            "original_joint_problem_science_limit_seconds":ORIGINAL_JOINT_SCIENCE_LIMIT_SECONDS,
+            "remaining_joint_scientific_seconds":REMAINING_JOINT_SCIENCE_SECONDS,
+            "same_problem_pre_solver_implementation_continuation":True,
             "prior_prefix102_final_clock":copy.deepcopy(prefix_clock),
             "prior_free36_final_clock":copy.deepcopy(free_clock),
             "all_closed_ring17_reflection_joint_free_prefix_whole34_full51_full62_scopes_not_reopened":True,
@@ -474,7 +572,15 @@ def read_source(request,ledger,*,capture=None):
             "fixed_reference_records":anchor_receipts,"source_request":copy.deepcopy(SOURCE_REQUEST),
             "accepted_index":58,"physical_state_sha256":PHYSICAL_SHA,
             "independent168_array_sha256":STATE_SHA,"accepted_cache_binding_sha256":CACHE_BINDING,
-            "original_log_reads":5,"old_scientific_executions":0,
+            "original_log_reads":6,"old_scientific_executions":0,
+            "failed_joint168_source":copy.deepcopy(FAILED_JOINT168_PINS),
+            "failed_joint168_records":copy.deepcopy(failed_receipts),
+            "failed_joint168_request":copy.deepcopy(FAILED_JOINT168_REQUEST),
+            "failed_joint168_original_error":copy.deepcopy(failed_real["error"]),
+            "last_closed_failed_joint168_scientific_seconds":CLOSED_FAILED_JOINT168_SECONDS,
+            "prior_joint_attempt_started_counts":copy.deepcopy(PRIOR_JOINT_STARTED_COUNTS),
+            "remaining_joint_scientific_seconds":REMAINING_JOINT_SCIENCE_SECONDS,
+            "failed_linear_builder_not_an_old_solver_or_new_geometric_conclusion":True,
             "paid_free_source":copy.deepcopy(FREE_PINS),"paid_free_records":free_receipts,
             "last_closed_free_scientific_seconds":CLOSED_FREE_SECONDS,
             "paid_prefix_source":copy.deepcopy(PREFIX_PINS),"paid_prefix_records":prefix_receipts,
@@ -500,12 +606,14 @@ def read_source(request,ledger,*,capture=None):
             "point":point,"state168":state,"gates":gates,"accepted_cache":cache,
             "source_stage":real["actual_stage"],"receipt":source_receipt,
             "ancestor_cost_receipt":cost,"source_final_clock":clock,
-            "latest_closed_scientific_clock":whole_clock,
+            "latest_closed_scientific_clock":failed_clock,
             "unaccepted_ring_state168":ring_state,"unaccepted_ring_record":ring_record,
             "paid_free_complete":free_real,"paid_free_solution":ring_solution,
             "paid_free_model":free_model,"paid_prefix_model":prefix_model,
             "paid_prefix_complete":prefix_real,"paid_prefix_clock":prefix_clock,
-            "closed_full62_complete":whole_real,"closed_full62_clock":whole_clock}
+            "closed_full62_complete":whole_real,"closed_full62_clock":whole_clock,
+            "failed_joint168_complete":failed_real,"failed_joint168_clock":failed_clock,
+            "failed_joint168_model_partial":failed_partial}
     except Exception as error:
         progress.update(status="raised",error={"type":type(error).__name__,"message":str(error)})
         raise
@@ -620,7 +728,9 @@ def prepare(request,output,completed,ledger,*,process_started):
             "anchor55_state_is_constructor_provenance_not_current58":True,
             "anchor55_independent159_array_sha256":array_digest(anchor_state),
             "original_primitive_order":order,"source_configuration_unchanged":True,
-            "closed_ancestor_scientific_seconds":CLOSED_WHOLE_SECONDS,
+            "closed_ancestor_scientific_seconds":CLOSED_FAILED_JOINT168_SECONDS,
+            "prior_closed_full62_scientific_seconds":CLOSED_WHOLE_SECONDS,
+            "same_joint_problem_remaining_allowance":REMAINING_JOINT_SCIENCE_SECONDS,
             "closed_ancestor_ordinary_values":ANCESTOR_VALUES}}
     ledger.check("prepare.complete")
     return {"accepted_cache":completed["accepted_cache"],"source_binding":source_binding,

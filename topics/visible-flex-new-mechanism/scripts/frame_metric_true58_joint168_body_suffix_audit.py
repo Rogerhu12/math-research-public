@@ -113,10 +113,13 @@ def cost(ledger):
         return ledger.report()
     elapsed=float(time.monotonic()-PROCESS_STARTED)
     return {"scientific_seconds":elapsed,"started_counts":{},
-            "source_original_values_closed":147,"ancestor_scientific_seconds":3757.97482037,
-            "total_ancestor_plus_new_scientific_seconds":3757.97482037+elapsed,
+            "source_original_values_closed":147,"ancestor_scientific_seconds":3784.759531354,
+            "total_ancestor_plus_new_scientific_seconds":3784.759531354+elapsed,
             "total_source_plus_new_started_values":147,"bootstrap_failure_before_ledger":True,
-            "observed_overrun_seconds":max(0.,elapsed-1800)}
+            "observed_overrun_seconds":max(0.,elapsed-1773.215289016),
+            "prior_joint_attempt_scientific_seconds":26.784710984000014,
+            "original_whole_problem_science_limit_seconds":1800.,
+            "this_attempt_scientific_allowance_is_only_original_remainder":True}
 
 def restored_first_jets(prepared,completed,ledger):
     """Bind only literal paid arrays; no metric, frame, Pi or derivative replay."""
@@ -280,7 +283,10 @@ def main():
         internal_metric_budget=float(Q.from_float(metric_budget)-Q(INTERNAL_METRIC_MARGIN_EXACT))
         require(params["policy"]==POLICY and params["limits"]==LIMITS
             and params["variables"]==170 and params["physical_control_independent_count"]==168
-            and params["physical_nonzero_rows"]==172 and params["original_linear_rows"]==692
+            and params["physical_nonzero_rows"]==170
+            and params["fixed_physical_increment_rows"]==[158,159]
+            and params["physical_norm_rows_retained"]==172
+            and params["original_linear_rows"]==692
             and params["wholebody_selected_rows"]==9003
             and params["total_joint_constraint_rows"]==154847
             and params["internal_metric_margin_exact"]==INTERNAL_METRIC_MARGIN_EXACT
@@ -300,13 +306,15 @@ def main():
             and params["target_exact"]==TARGET_EXACT
             and params["maximum_h_exact"]=="18014398507545773/281474976710656"
             and params["maximum_mathematical_stdout_bytes"]==STDOUT_LIMIT,
-            "literal new joint168 body/suffix minimax scope required")
+            "literal same-problem joint168 implementation-continuation scope required")
         ledger=Suffix58Ledger(PROCESS_STARTED,ancestor_receipt={
             "source":copy.deepcopy(request["source"]),
             "source_records":copy.deepcopy(request["source_records"]),
-            "last_closed_source":copy.deepcopy(request["closed_full62_source"]),
-            "last_closed_records":copy.deepcopy(request["closed_full62_records"]),
-            "ancestor_final_original_scientific_seconds":3757.97482037,
+            "last_closed_source":copy.deepcopy(request["failed_joint168_source"]),
+            "last_closed_records":copy.deepcopy(request["failed_joint168_records"]),
+            "same_problem_implementation_continuation":True,
+            "prior_closed_full62_source":copy.deepcopy(request["closed_full62_source"]),
+            "ancestor_final_original_scientific_seconds":3784.759531354,
             "source_original_full_values":147,"closed_scope_not_reopened":True})
         report["request_identity"]={"path":args.request,"bytes":len(raw),"sha256":sha(raw)}
         report["source_files_sha256"]=copy.deepcopy(request["source_sha256"])
@@ -333,6 +341,10 @@ def main():
             "paid_prefix_records":request["paid_prefix_records"],
             "closed_full62_source":request["closed_full62_source"],
             "closed_full62_records":request["closed_full62_records"],
+            "failed_joint168_source":request["failed_joint168_source"],
+            "failed_joint168_records":request["failed_joint168_records"],
+            "first_joint_failure_costs_and_counts_retained":True,
+            "this_attempt_scientific_seconds_limit":1773.215289016,
             "closed_full62_large_arrays_have_bindings_only_and_are_not_reused":True,
             "closed_whole34_missing_large_records_not_reused":True,
             "original_field_reconstruction":prepared["replay"]["source_input_restoration"],
@@ -477,7 +489,7 @@ def main():
     complete_receipt=emit("COMPLETE",report)
     final_cost=cost(ledger)
     exhausted=bool(final_cost.get("deadline_observed_exceeded",
-                                 final_cost["scientific_seconds"]>=1800))
+                                 final_cost["scientific_seconds"]>=1773.215289016))
     emit("FINAL_CLOCK",{"schema":POLICY+"-final-clock","earlier_COMPLETE_status":report["status"],
         "status_at_final_emit":("true58-joint168-body-suffix-scope-exhausted" if exhausted else report["status"]),
         "scope_exhausted":exhausted,"ledger":final_cost,"complete_receipt":complete_receipt,

@@ -54,6 +54,9 @@ def definition():
         "independent_decode": "RN(Q(q58)+Q(z)/4), one exact sum then one RN per independent coordinate",
         "physical_decode": "original exact affine159-to163 map direct sum identity9, after independent RN",
         "all_original172_physical_box_and_norm_rows": True,
+        "fixed_physical172_rows":[158,159],
+        "nonzero_physical_increment_row_count":170,
+        "four_fixed_row_norm_constraints_are_redundant_minus_h_le_zero":True,
         "physical_nine_heights_not_separately_rounded": True,
         "linear_rows": 692, "body_pool_rows": {"coarse":4454,"fine":4549},
         "body_pool_versions": {"coarse":15,"fine":14},
@@ -253,7 +256,8 @@ def _linear_rows(P, base, lower, upper, hmax, target_lower):
     for j in range(172):
         add(P[j],0,0,upper[j]-base[j],{"kind":"physical172_box","index":j,"side":"upper"})
         add(-P[j],0,0,base[j]-lower[j],{"kind":"physical172_box","index":j,"side":"lower"})
-        _require(np.any(P[j]!=0.),"every original physical172 row has an actual full168 direction")
+        # H rows4/5 are exactly zero: physical158/159 stay at the permanent
+        # reference.  Their box rows remain; both norm rows are valid -h<=0.
         add(4*P[j],0,-1,Q(0),{"kind":"norm","index":j,"side":"plus"})
         add(-4*P[j],0,-1,Q(0),{"kind":"norm","index":j,"side":"minus"})
     add(zero,-1,0,-target_lower,{"kind":"K_lower"})
@@ -279,7 +283,8 @@ def _original_box_backend_bounds(independent,physical,lower,upper):
             "inward_independent_exact_binary64":[str(qlo),str(qhi)],
             "backend_interval_binary64":[fl,fu]})
     return bounds,{"schema":POLICY+"-original-box-inward-anchors","rows":rows,
-        "original_box_unchanged":True,"coupled_nonanchor_rows":[157,158,159,162],
+        "original_box_unchanged":True,"nonanchor_physical_rows":[157,158,159,162],
+        "coupled_nonanchor_rows":[157,162],"fixed_nonanchor_rows":[158,159],
         "remaining_coupled_rows_keep_linear_and_exact_terminal_gates":True,
         "no_claim_all_height_rows_are_protected_by_independent_bounds":True,
         "no_failed_return_is_clipped_or_repaired":True}
@@ -496,7 +501,10 @@ def build_joint168_body_suffix_model(
             "independent_scale_exact":"1/4","shape":[172,168],
             "original_H9x5_exact":[[str(v) for v in row] for row in H],
             "exact_P_sha256":digest([[str(v) for v in row] for row in model.exact_P]),
-            "all172_norm_rows_nonzero":True,
+            "all172_norm_rows_retained":True,
+            "nonzero_physical_increment_row_count":170,
+            "fixed_physical172_rows":[158,159],
+            "four_fixed_row_norm_constraints_are_redundant_minus_h_le_zero":True,
             "physical_decode_after_independent_RN":True,
             "new_all168_domain_not_closed62_continuation":True}
         trace=_Trace(wall,sink)

@@ -363,3 +363,9 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 ## 2026-11-16 UTC：R563第三真实低尾与完整正R0边界
 
 [R563](results/R563-third-real-low-coast-and-a-six-zero-family-with-free-end-parameters.md)原式纸证已全文读取，第三真实A/T与W∞、实际高目标/事件/长快C¹和同χ端IFT均保；得到六零的三外参数实际族。原r0静态表付完整正首项，叠加正闭振子cross，明确本族不能仅靠正时长/节点清R0。0科学执行；结论立即推，继续真正负R0作用。R552/556/557原open条目逐字归档，未撤任何条件/成本。
+
+## 2026-11-16 UTC：joint168必要实现修复按原余额发布
+
+仅删除原高度图中“172物理增量行都非零”的错误断言，固定158/159及其原盒/四条冗余norm行全保；数学问题仍692线性、154155非线性、170变量。原geometry/solver未改，actual14与原metric预算均未放宽。scope/transfer/actual/audit串接首失败43923038659/133495072427的原三记录和26.784710984000014秒，累计3784.759531354/147；续接只用1773.215289016秒，不重发1800。此前0solver/预测/actual，原1200秒/240iter/480q/960backend/1pair额度保。
+
+新request 94744B/2c15b48f5c72ddd6187e36f4971f9fdc7efc8351ba9357f93649623880dc5702，397来源，382祖hash不变、当前自有修复源hash真实更新，首请求原路径与身份保。0本地导入/编译/测试/科学执行，源码文字修复后直接正式公开任务。题外 .github/workflows/visible-true58-joint168-body-suffix.yml 仅改本题新请求触发/路径及真实费用说明；双job先真pull双仓核差异，MR_TOKEN在科学前清除。唯一run待定位，接受仍58，首失败不改判。

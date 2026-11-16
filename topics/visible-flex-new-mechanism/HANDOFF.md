@@ -4,7 +4,7 @@
 
 ## 1. 已读规则与实际pull
 
-根/题README已全文读，两仓已blob:none sparse部分克隆。本地最后已确认public16:19:30→16:19:40读7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352；private16:24:57→16:25:17读9c5ec050ed672180245cf65312af93bef2ab937f。后续本地故障不冒成功。
+两仓已部分克隆，根/题README已全文读。本地最后已确认public16:19:30→16:19:40读7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352；private16:24:57→16:25:17读9c5ec050ed672180245cf65312af93bef2ab937f。后续本地故障不冒成功。
 
 最新**公开Actions实际Git pull**：report public17:54:29.742081→17:54:30.132624读 **47942fb212bcc2f424fdf546437cd38b08c2d7e1**；private17:54:33.016460→17:54:33.752780读 **2dc8b0fa60bc03f989904678ee3468b9ca6c9bf2**。双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783/题d0432faff569c8e9af7ed4809847e12880976c11/private根5ba164843b1f5802184178a82d786264404873a3；private题无/QUEUE唯一进行中。下一真pull≤**18:54:30/18:54:33 UTC**；最新四次CI回执见[joint168首尝试](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)。私有正文不发表。
 
@@ -22,7 +22,7 @@
 
 ## 3. 实际点58与全部最近数值账
 
-[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。原14/准确172盒真；η粗.26600541430262403/细.26600541463999305，κ细57.9997782607127@s.78/θ4.818744981678094。4454/4549池v15/14，峰η在.4725/θ0；.26与连续主门未付。原物理/168身份及全部接受证据见真正58note。55仅永久constructor，58 CACHE2只确存U/T/e/f及selected二jets；不冒全grid二jets/J。
+[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。原14/准确172盒真；η粗.26600541430262403/细.26600541463999305，κ细57.9997782607127@s.78/θ4.818744981678094。4454/4549池v15/14，峰η在.4725/θ0；.26与连续主门未付。完整身份/证据见58note。55仅永久constructor，58 CACHE2只确存U/T/e/f及selected二jets；不冒全grid二jets/J。
 
 旧ring17/反射R1/联合19/free36/prefix102/whole34均闭，0actual；各原notes保全部返回/成本。free36环成功而全bodyη6.9794/κ69803.9失败；prefix102固定后缀η约.54517超.26600531463999305且102二jets零，0solver/J。其MODEL只有paid scalar/后缀数组，无全域派生/J。whole34缺失输出不作免费输入，见§5。
 
@@ -56,7 +56,7 @@ R549准确三p=p2(u²+h⁻²,2u,1)，正负质量须匹配均值和二阶矩；�
 
 **joint168首尝试实施失败**：[完整原观察](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)，run43923038659/research133495072427/source47942fb212bcc2f424fdf546437cd38b08c2d7e1。physical158/159在原H中固定，首源错误要求172增量行全非零，构造即ValueError；0模型值/J/solver/预测/actual仍58。新**26.784710984000014秒**、总**3784.759531354/147**，7原记录齐、全部失败保；非几何不可行。
 
-**同题实现续接正在写源**：仅删错断言，170非零物理增量、固定158/159的原盒及4冗余norm行全保，仍692/154847行、170变量。沿原余额**1773.215289016秒**继续，不重发1800；首失败计数和费用带入全链。原1solver/1200秒/240iter/480q/960backend均未用；唯一true58，内部1e−8仅求解行、原budget/14不改。所有新共享几何/J及恢复计费，当前RAM；成功必要门后才≤1canonical预测与≤1actualpair。
+**同题原余额续接正式发布**：新request固定height-continuation，94744B/2c15b48f5c72ddd6187e36f4971f9fdc7efc8351ba9357f93649623880dc5702，397来源/382祖hash保；首原request不覆盖。仅删错误assert，170非零/fixed158159，172盒/norm及692/154847行全保。科学余额**1773.215289016秒**、原1solver/1200秒/240iter/480q/960backend未用；首失败26.784710984000014与全部counts保。唯一true58、内部余量不改原14；新恢复/构造/共享几何/J计费，必要门后≤1预测/actualpair。待唯一run原终态，不宣59。
 
 **O4**分别继续33母的同χ慢t1/其余矩，以及R521母R559的同χ余两矩。全部端germ、M/T/V、pose、period与原13规范须由同一实际路径支付；不跨母、不逐段换χ。
 
