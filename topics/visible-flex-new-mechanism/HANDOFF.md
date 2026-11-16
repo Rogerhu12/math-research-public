@@ -4,7 +4,7 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于12:13:23→12:13:29 UTC真实pull --rebase，已读上游 **93eb013259ae836de5de23e80873744493e10cef**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**12:44:00 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于12:17:35→12:17:50 UTC真实pull --rebase，已读上游 **ed64a7c273fda42f3454935e01778535208784b0**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**12:44:00 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
 private于11:43:33.839986→11:44:00.887215实际pull读 **191d228fcf6c487a515ad67a1644307c009543ad**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
