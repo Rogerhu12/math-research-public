@@ -447,6 +447,11 @@ def complete_signed_reference_kernel(api, domain, profiles, modes, scales,
     result.kernel_override = direct
     result.atom_coordinates = atom_coords
     result.fixed_reference_identity = profiles.identity
+    result.reference_profiles = profiles
+    result.reference_modes = modes
+    result.reference_output_scales = scales
+    result.reference_thetas = thetas
+    result.reference_has_mean = include_mean
     result.reference_projection_coordinates = active
     result.continuous_kernel_has_no_rho2_divisor = True
     result.actual_infinite_high_inverse_is_not_this_reference = True
@@ -479,3 +484,579 @@ def complete_reference_adjoint_blocks(operator, kernel_api, label):
         "all_original_output_observations_transposed_once": True,
         "declared_S_and_outer_Riesz_factors_already_in_kernel": True,
     }
+
+
+# Stable complete modal matrix-field actions. These are internal function
+# enclosures for the SAME fixed reference; no completed q/rho/norm is called.
+
+def _phi1_point(api, x):
+    """Enclose (1-exp(-x))/x at a nonnegative directed endpoint, with x=0 exact."""
+    require(api.lower(x) >= 0, "nonnegative exponential-integral endpoint")
+    if _upper(api, x) == 0:
+        return api.one
+    if api.lower(x) <= 0:
+        return api.interval(api.lower(api.exp(-_upper(api, x))), api.one)
+    return _clip(api, (api.one-api.exp(-x))/x, api.zero, api.one)
+
+
+def _phi1_range(api, x):
+    lo, hi = api.lower(x), _upper(api, x)
+    require(lo >= 0 and lo <= hi, "whole nonnegative exponential-integral argument")
+    return api.interval(api.lower(_phi1_point(api, hi)),
+                        _upper(api, _phi1_point(api, lo)))
+
+
+def _complete_decay_mass(api, rate_lower, rate_upper, length):
+    """Both endpoints of a whole positive, variably decaying integration mass.
+
+    If l<=h<=u and k_lower<=k(t)<=k_upper, the exact mass lies in
+    [l*phi1(k_upper*u), u*phi1(k_lower*l)]. This works in both orientations;
+    it does not identify those two exact integrals with each other.
+    """
+    lo, hi = api.lower(length), _upper(api, length)
+    rl, ru = api.lower(rate_lower), _upper(api, rate_upper)
+    require(0 <= lo <= hi and 0 <= rl <= ru,
+            "complete variable-length and rate enclosure")
+    if hi == 0:
+        return api.zero
+    lower = api.lower(lo*_phi1_range(api, _clip(api, ru*hi, api.zero)))
+    upper = _upper(api, hi*_phi1_range(api, _clip(api, rl*lo, api.zero)))
+    return api.interval(max(api.zero, lower), upper)
+
+
+def _complete_rate_bounds(profiles, j, box):
+    api = profiles.api
+    i = profiles.domain.cell_index(box)
+    a, c, _ = profiles._coefficients(j, i)
+    value = a+c*profiles.at(j, box)["p"]
+    # The reference barrier is an exact proved qualification, not a lower
+    # inferred from an independently stored upper bound.
+    lo = max(api.zero, api.lower(value), api.lower(c/32))
+    hi = _upper(api, value)
+    require(lo <= hi, "complete same-reference damping rate")
+    return lo, hi
+
+
+class _CompleteModalIntegral:
+    """One signed row-field, with both complete damped integral orientations.
+
+    All entries of row_field are first formed as signed whole-box expressions.
+    The positive mass has TWO directed endpoints. No g or tau is divided.
+    Prefix and suffix keep distinct signed states and complete boundary data.
+    j=None is the ordinary integral, including the independent physical mean.
+    """
+    def __init__(self, profiles, j, row_field, kernel_api, label):
+        self.profiles, self.domain, self.api = profiles, profiles.domain, profiles.api
+        self.j, self.field, self.km, self.label = j, row_field, kernel_api, label
+        require(row_field.domain is self.domain and row_field.rows == 1,
+                "complete signed row-field integral")
+        require(j is None or j in profiles.mode, "declared prepared modal integral")
+        self.cols, self.n = row_field.cols, len(self.domain.cells)
+        self.full = {}
+        self.prefix_nodes = [None]*(self.n+1)
+        self.suffix_nodes = [None]*(self.n+1)
+        self.prefix_nodes[0] = kernel_api.zeros(self.api, 1, self.cols)
+        self.suffix_nodes[self.n] = kernel_api.zeros(self.api, 1, self.cols)
+        self.prefix_count, self.suffix_count = 0, self.n
+
+    def _mass(self, box, length):
+        if self.j is None:
+            return length
+        lo, hi = _complete_rate_bounds(self.profiles, self.j, box)
+        return _complete_decay_mass(self.api, lo, hi, length)
+
+    def _integral_box(self, box, length):
+        if _upper(self.api,length)==0:
+            return self.km.zeros(self.api,1,self.cols)
+        return self.km.scale(self.api, self._mass(box, length), self.field.at(box))
+
+    def full_cell(self, i):
+        require(type(i) is int and 0 <= i < self.n, "complete integral cell")
+        if i not in self.full:
+            self.full[i] = self._integral_box(
+                self.domain.whole_cell_box(i), self.domain.full_length(i))
+        return self.full[i]
+
+    def _tau(self, i):
+        return self.api.one if self.j is None else self.profiles.mode[self.j]["tau"][i]
+
+    def before(self, index):
+        require(type(index) is int and 0 <= index <= self.n, "complete prefix boundary")
+        while self.prefix_count < index:
+            i = self.prefix_count
+            self.prefix_nodes[i+1] = self.km.add(self.api,
+                self.km.scale(self.api, self._tau(i), self.prefix_nodes[i]),
+                self.full_cell(i))
+            self.prefix_count += 1
+        return self.prefix_nodes[index]
+
+    def after(self, index):
+        require(type(index) is int and 0 <= index <= self.n, "complete suffix boundary")
+        while self.suffix_count > index:
+            i = self.suffix_count-1
+            self.suffix_nodes[i] = self.km.add(self.api,
+                self.full_cell(i),
+                self.km.scale(self.api, self._tau(i), self.suffix_nodes[i+1]))
+            self.suffix_count -= 1
+        return self.suffix_nodes[index]
+
+    def prefix(self, box):
+        self.domain.validate_box(box)
+        i = self.domain.cell_index(box)
+        cell = self.domain.whole_cell_box(i)
+        endpoint = (i, cell[1], cell[1])
+        tau = (self.api.one if self.j is None else
+               self.profiles.ordered_decay(self.j, endpoint, box))
+        part = self.domain.partial_box(box, "prefix")
+        return self.km.add(self.api,
+            self.km.scale(self.api, tau, self.before(i)),
+            self._integral_box(part, self.domain.partial_length(box, "prefix")))
+
+    def suffix(self, box):
+        self.domain.validate_box(box)
+        i = self.domain.cell_index(box)
+        cell = self.domain.whole_cell_box(i)
+        endpoint = (i, cell[2], cell[2])
+        tau = (self.api.one if self.j is None else
+               self.profiles.ordered_decay(self.j, box, endpoint))
+        part = self.domain.partial_box(box, "suffix")
+        return self.km.add(self.api,
+            self._integral_box(part, self.domain.partial_length(box, "suffix")),
+            self.km.scale(self.api, tau, self.after(i+1)))
+
+
+def _matrix_action_context(operator, forcing, kernel_api):
+    require(hasattr(operator, "reference_profiles")
+            and operator.continuous_kernel_has_no_rho2_divisor is True,
+            "complete fixed-WVC reference action metadata")
+    profiles = operator.reference_profiles
+    require(operator.fixed_reference_identity == profiles.identity
+            and forcing.domain is operator.domain
+            and forcing.rows == len(operator.inputs),
+            "same true reference and whole matrix-field source")
+    return profiles, operator.domain, operator.api, kernel_api
+
+
+def apply_G_to_matrix_field(operator, forcing, kernel_api, label):
+    """Complete signed G applied to every column of one actual matrix field.
+
+    Returns a body Field and an atom-value callable. The callable contains
+    ALL original output observations, including the independent mean.
+    No body integral is replaced by a sampled value or a constant-source
+    approximation; the whole variable source is enclosed on every panel.
+    """
+    profiles, domain, api, km = _matrix_action_context(operator, forcing, kernel_api)
+    modes, scales = operator.reference_modes, operator.reference_output_scales
+    coords, k = operator.inputs, forcing.cols
+    pos = {v:i for i,v in enumerate(coords)}
+    forcing_cache = {}
+    def whole_forcing(box):
+        key=domain.cache_key(box)
+        if key not in forcing_cache:
+            forcing_cache[key]=forcing.at(box)
+        return forcing_cache[key]
+    prefix, suffix = {}, {}
+    for j in modes:
+        def jf(box, j=j):
+            f = whole_forcing(box)
+            p = profiles.at(j, box)
+            odd, even = pos[(0,j)], pos[(1,j)]
+            return km.Matrix(1,k,[[-p["H"]*f.values[odd][b]
+                                   +p["K"]*f.values[even][b] for b in range(k)]])
+        def lf(box, j=j):
+            f = whole_forcing(box)
+            p = profiles.at(j, box)
+            odd, even = pos[(0,j)], pos[(1,j)]
+            return km.Matrix(1,k,[[f.values[odd][b]+p["p"]*f.values[even][b]
+                                   for b in range(k)]])
+        prefix[j] = _CompleteModalIntegral(profiles,j,
+            km.Field(domain,1,k,jf,label+":Jf:"+str(j)),km,label+":prefix:"+str(j))
+        suffix[j] = _CompleteModalIntegral(profiles,j,
+            km.Field(domain,1,k,lf,label+":Lf:"+str(j)),km,label+":suffix:"+str(j))
+    mean = None
+    if operator.reference_has_mean:
+        mean = _CompleteModalIntegral(profiles,None,
+            km.Field(domain,1,k,lambda box:km.Matrix(1,k,
+                [list(whole_forcing(box).values[pos[(1,0)]])]),label+":mean_source"),
+            km,label+":mean_integral")
+    def body(box):
+        out = [[api.zero for _ in range(k)] for _ in operator.outputs]
+        scale = scales[domain.cell_index(box)]
+        for j in modes:
+            p = profiles.at(j,box)
+            y,b = prefix[j].prefix(box).values[0],suffix[j].suffix(box).values[0]
+            odd,even = pos[(0,j)],pos[(1,j)]
+            for col in range(k):
+                out[odd][col] = -p["p"]*y[col]-p["K"]*b[col]
+                out[even][col] = scale*(y[col]-p["H"]*b[col])
+        if mean is not None:
+            b=mean.suffix(box).values[0]
+            out[pos[(1,0)]]=[-scale*x for x in b]
+        return km.Matrix(len(operator.outputs),k,out)
+    atom_cache = []
+    def atoms():
+        if atom_cache:
+            return atom_cache[0]
+        out = [[api.zero for _ in range(k)] for _ in range(operator.atom_count)]
+        if operator.atom_count:
+            lookup={coord:i for i,coord in enumerate(operator.atom_coordinates)}
+            require(operator.atom_count==193 and mean is not None,
+                    "complete low observations, not a body-only surrogate")
+            for j in modes:
+                out[lookup[(0,j)]]=[-x for x in suffix[j].after(0).values[0]]
+                out[lookup[(2,j)]]=[operator.reference_thetas[j]*x
+                    for x in prefix[j].before(len(domain.cells)).values[0]]
+            out[lookup[(1,0)]]=[-x for x in mean.after(0).values[0]]
+        value=km.Matrix(operator.atom_count,k,out)
+        atom_cache.append(value)
+        return value
+    return {"body":km.Field(domain,len(operator.outputs),k,body,label+":whole_body"),
+            "atoms":atoms,"atom_coordinates":operator.atom_coordinates,
+            "complete_original_atom_count":operator.atom_count,
+            "whole_matrix_columns":k,
+            "same_continuous_reference_without_rho2_division":True}
+
+
+def apply_G_adjoint_to_matrix_field(operator, body_forcing, finite_port_inputs,
+                                    kernel_api, label):
+    """Full G*: signed body forcing PLUS every declared finite dual input.
+
+    finite_port_inputs is an explicit atom_count-by-k matrix. Supplying its
+    exact zero matrix restricts that input; omission is rejected. This routine
+    never identifies the body adjoint with the complete adjoint domain.
+    """
+    profiles, domain, api, km = _matrix_action_context(operator,body_forcing,kernel_api)
+    modes,scales=operator.reference_modes,operator.reference_output_scales
+    coords,k=operator.inputs,body_forcing.cols
+    pos={v:i for i,v in enumerate(coords)}
+    require(isinstance(finite_port_inputs,km.Matrix)
+            and finite_port_inputs.shape==(operator.atom_count,k),
+            "all finite-port dual columns explicitly supplied")
+    forcing_cache={}
+    def whole_forcing(box):
+        key=domain.cache_key(box)
+        if key not in forcing_cache:
+            forcing_cache[key]=body_forcing.at(box)
+        return forcing_cache[key]
+    prefix,suffix={},{}
+    for j in modes:
+        def uy(box,j=j):
+            v=whole_forcing(box);p=profiles.at(j,box)
+            scale=scales[domain.cell_index(box)]
+            odd,even=pos[(0,j)],pos[(1,j)]
+            return km.Matrix(1,k,[[p["K"]*v.values[odd][b]
+                +scale*p["H"]*v.values[even][b] for b in range(k)]])
+        def fy(box,j=j):
+            v=whole_forcing(box);p=profiles.at(j,box)
+            scale=scales[domain.cell_index(box)]
+            odd,even=pos[(0,j)],pos[(1,j)]
+            return km.Matrix(1,k,[[-p["p"]*v.values[odd][b]
+                +scale*v.values[even][b] for b in range(k)]])
+        prefix[j]=_CompleteModalIntegral(profiles,j,
+            km.Field(domain,1,k,uy,label+":UstarSstar:"+str(j)),km,label+":prefix:"+str(j))
+        suffix[j]=_CompleteModalIntegral(profiles,j,
+            km.Field(domain,1,k,fy,label+":FstarSstar:"+str(j)),km,label+":suffix:"+str(j))
+    mean=None
+    if operator.reference_has_mean:
+        mean=_CompleteModalIntegral(profiles,None,
+            km.Field(domain,1,k,lambda box:km.Matrix(1,k,[[
+                scales[domain.cell_index(box)]*x
+                for x in whole_forcing(box).values[pos[(1,0)]]]),label+":mean_dual"),
+            km,label+":mean_prefix")
+    lookup={coord:i for i,coord in enumerate(operator.atom_coordinates)}
+    def evaluate(box):
+        out=[[api.zero for _ in range(k)] for _ in coords]
+        for j in modes:
+            p=profiles.at(j,box)
+            y,b=prefix[j].prefix(box).values[0],suffix[j].suffix(box).values[0]
+            odd,even=pos[(0,j)],pos[(1,j)]
+            for col in range(k):
+                out[odd][col]=-p["H"]*b[col]-y[col]
+                out[even][col]=p["K"]*b[col]-p["p"]*y[col]
+            if operator.atom_count:
+                root=finite_port_inputs.values[lookup[(0,j)]]
+                outer=finite_port_inputs.values[lookup[(2,j)]]
+                terminal=operator.reference_thetas[j]*profiles.to_right(j,box)
+                for col in range(k):
+                    out[odd][col] += -p["g"]*root[col]-terminal*p["H"]*outer[col]
+                    out[even][col] += -p["g"]*p["p"]*root[col]+terminal*p["K"]*outer[col]
+        if mean is not None:
+            out[pos[(1,0)]]=[-x for x in mean.prefix(box).values[0]]
+            if operator.atom_count:
+                for col in range(k):
+                    out[pos[(1,0)]][col] -= finite_port_inputs.values[lookup[(1,0)]][col]
+        return km.Matrix(len(coords),k,out)
+    return km.Field(domain,len(coords),k,evaluate,label+":complete_body_and_finite_dual")
+
+
+def _complete_two_decay_mass(api, m_lower, m_upper, n_lower, n_upper, length):
+    """Whole mass of two endpoint decays; no difference of nearly equal decays.
+
+    For exact nonnegative a,b,h the average mass is
+    exp(-min(a,b)*h)*phi1(abs(a-b)*h).
+    Variable rates and l<=h<=u are enclosed by l*average(upper rates,u)
+    and u*average(lower rates,l). Both middle orientations are covered.
+    """
+    lo, hi = api.lower(length), _upper(api,length)
+    ml,mu=api.lower(m_lower),_upper(api,m_upper)
+    nl,nu=api.lower(n_lower),_upper(api,n_upper)
+    require(0<=lo<=hi and 0<=ml<=mu and 0<=nl<=nu,
+            "complete two-rate positive mass data")
+    if hi==0:
+        return api.zero
+    def average(a,b,h):
+        first,last=min(a,b),max(a,b)
+        gap=_clip(api,last-first,api.zero)
+        return api.exp(-first*h)*_phi1_range(api,_clip(api,gap*h,api.zero))
+    low=api.lower(lo*average(mu,nu,hi))
+    high=_upper(api,hi*average(ml,nl,lo))
+    return api.interval(max(api.zero,low),high)
+
+
+class CompleteModalSandwich:
+    """G0 W G0 with signed 2-by-2 modal entries and stable endpoint moments.
+
+    W is the ENTIRE same-point signed matrix, before any magnitude. It may be
+    chi^2 E or the compact WJK factor chi*chi_prime*I+chi^2 E.
+    All64 high modes97..160 and both normalized real parities are retained.
+    The result is an exact-function enclosure, not an operator-norm bound.
+
+    pair(m,n) deliberately does NOT retain all4096 pair states. The owner
+    chooses an explicit bounded batch and its sweep order. This avoids an
+    unannounced multi-million-scalar cache. Releasing a private pair state
+    never releases a completed scientific target.
+    """
+    def __init__(self, profiles, weight, kernel_api, label):
+        self.profiles,self.domain,self.api=profiles,profiles.domain,profiles.api
+        self.km,self.label,self.weight=kernel_api,label,weight
+        self.modes=HIGH_MODES
+        self.coords=_coordinates(self.modes,False)
+        self.position={v:i for i,v in enumerate(self.coords)}
+        require(weight.domain is self.domain and
+                (weight.rows,weight.cols)==(128,128) and
+                set(self.modes).issubset(profiles.mode),
+                "complete raw high128 sandwich factor on fixed WVC")
+        self.weight_cache={}
+
+    def _weight(self,box):
+        key=self.domain.cache_key(box)
+        if key not in self.weight_cache:
+            self.weight_cache[key]=self.weight.at(box)
+        return self.weight_cache[key]
+
+    def contractions(self,m,n,box):
+        """C=Jm W Un, A=Jm W Fn, B=Lm W Un, D=Lm W Fn."""
+        matrix=self._weight(box)
+        pm,pn=self.profiles.at(m,box),self.profiles.at(n,box)
+        mi,me=self.position[(0,m)],self.position[(1,m)]
+        ni,ne=self.position[(0,n)],self.position[(1,n)]
+        w=((matrix.values[mi][ni],matrix.values[mi][ne]),
+           (matrix.values[me][ni],matrix.values[me][ne]))
+        def bilinear(left,right):
+            return left[0]*(w[0][0]*right[0]+w[0][1]*right[1])+\
+                   left[1]*(w[1][0]*right[0]+w[1][1]*right[1])
+        J=(-pm["H"],pm["K"]);L=(self.api.one,pm["p"])
+        U=(pn["K"],pn["H"]);F=(-pn["p"],self.api.one)
+        return (bilinear(J,U),bilinear(J,F),bilinear(L,U),bilinear(L,F))
+
+    def pair(self,m,n):
+        require(type(m) is int and type(n) is int and m in self.modes and n in self.modes,
+                "complete declared high modal pair")
+        return _StableModalSandwichPair(self,m,n)
+
+
+class _StableModalSandwichPair:
+    """One pair's O(number of panels) signed prefix/suffix and transfer data.
+
+    For l<u, A(l,u)=int_l^u Dm(t,u) Dn(l,t) Afield(t)dt,
+    B(l,u)=int_l^u Dm(l,t) Dn(t,u) Bfield(t)dt.
+    Concatenation has no division:
+      A(l,u)=Dm(v,u)A(l,v)+A(v,u)Dn(l,v),
+      B(l,u)=Dn(v,u)B(l,v)+B(v,u)Dm(l,v).
+    Its two diagonal entries are true decays, including exact identity at
+    the root cell. No global g times an independently enclosed g_inverse
+    is ever formed.
+    """
+    def __init__(self,parent,m,n):
+        self.parent,self.m,self.nmode=parent,m,n
+        self.profiles,self.domain,self.api,self.km=\
+            parent.profiles,parent.domain,parent.api,parent.km
+        self.count=len(self.domain.cells)
+        self.full={}
+        self.prefix=[None]*(self.count+1)
+        self.suffix=[None]*(self.count+1)
+        self.prefix[0]=self.api.zero
+        self.suffix[self.count]=self.api.zero
+        self.prefix_count,self.suffix_count=0,self.count
+        self.range_cache={}
+
+    def _rates(self,box):
+        ml,mu=_complete_rate_bounds(self.profiles,self.m,box)
+        nl,nu=_complete_rate_bounds(self.profiles,self.nmode,box)
+        return ml,mu,nl,nu
+
+    def _full(self,i):
+        if i not in self.full:
+            box=self.domain.whole_cell_box(i)
+            length=self.domain.full_length(i)
+            ml,mu,nl,nu=self._rates(box)
+            C,A,B,D=self.parent.contractions(self.m,self.nmode,box)
+            common=_complete_decay_mass(self.api,ml+nl,mu+nu,length)
+            middle=_complete_two_decay_mass(self.api,ml,mu,nl,nu,length)
+            dm=self.profiles.mode[self.m]["tau"][i]
+            dn=self.profiles.mode[self.nmode]["tau"][i]
+            # Full C and D are separate exact oriented integrals. Their
+            # shared mass enclosure is a comparison, not an equality claim.
+            self.full[i]=(dm,dn,middle*A,middle*B,common*C,common*D)
+        return self.full[i]
+
+    def _before(self,i):
+        require(0<=i<=self.count,"complete pair prefix boundary")
+        while self.prefix_count<i:
+            k=self.prefix_count
+            dm,dn,_,_,C,_=self._full(k)
+            self.prefix[k+1]=dm*dn*self.prefix[k]+C
+            self.prefix_count+=1
+        return self.prefix[i]
+
+    def _after(self,i):
+        require(0<=i<=self.count,"complete pair suffix boundary")
+        while self.suffix_count>i:
+            k=self.suffix_count-1
+            dm,dn,_,_,_,D=self._full(k)
+            self.suffix[k]=D+dm*dn*self.suffix[k+1]
+            self.suffix_count-=1
+        return self.suffix[i]
+
+    def _C(self,box):
+        i=self.domain.cell_index(box);cell=self.domain.whole_cell_box(i)
+        endpoint=(i,cell[1],cell[1])
+        dm=self.profiles.ordered_decay(self.m,endpoint,box)
+        dn=self.profiles.ordered_decay(self.nmode,endpoint,box)
+        part=self.domain.partial_box(box,"prefix")
+        ml,mu,nl,nu=self._rates(part)
+        length=self.domain.partial_length(box,"prefix")
+        value=self.parent.contractions(self.m,self.nmode,part)[0]
+        return dm*dn*self._before(i)+\
+            _complete_decay_mass(self.api,ml+nl,mu+nu,length)*value
+
+    def _D(self,box):
+        i=self.domain.cell_index(box);cell=self.domain.whole_cell_box(i)
+        endpoint=(i,cell[2],cell[2])
+        dm=self.profiles.ordered_decay(self.m,box,endpoint)
+        dn=self.profiles.ordered_decay(self.nmode,box,endpoint)
+        part=self.domain.partial_box(box,"suffix")
+        ml,mu,nl,nu=self._rates(part)
+        length=self.domain.partial_length(box,"suffix")
+        value=self.parent.contractions(self.m,self.nmode,part)[3]
+        return _complete_decay_mass(self.api,ml+nl,mu+nu,length)*value+\
+            dm*dn*self._after(i+1)
+
+    def _identity(self):
+        return self.api.one,self.api.one,self.api.zero,self.api.zero
+
+    def _join(self,first,second):
+        """The first interval is followed by the second; their order is fixed."""
+        am,an,aA,aB=first;bm,bn,bA,bB=second
+        return bm*am,bn*an,bm*aA+bA*an,bn*aB+bB*am
+
+    def _range(self,left,right):
+        """Balanced ordered full-cell product, with only O(n) cached tree nodes."""
+        require(type(left) is int and type(right) is int
+                and 0<=left<=right<=self.count,"complete full-cell pair range")
+        if left==right:
+            return self._identity()
+        def node(a,b):
+            key=(a,b)
+            if key not in self.range_cache:
+                if b-a==1:
+                    self.range_cache[key]=self._full(a)[:4]
+                else:
+                    mid=(a+b)//2
+                    self.range_cache[key]=self._join(node(a,mid),node(mid,b))
+            return self.range_cache[key]
+        def query(a,b):
+            if right<=a or b<=left:
+                return self._identity()
+            if left<=a and b<=right:
+                return node(a,b)
+            mid=(a+b)//2
+            return self._join(query(a,mid),query(mid,b))
+        return query(0,self.count)
+
+    def _partial(self,left,right):
+        box,length=self.domain.ordered_span(left,right)
+        if _upper(self.api,length)==0:
+            return self._identity()
+        dm=self.profiles.ordered_decay(self.m,left,right)
+        dn=self.profiles.ordered_decay(self.nmode,left,right)
+        ml,mu,nl,nu=self._rates(box)
+        _,A,B,_=self.parent.contractions(self.m,self.nmode,box)
+        mass=_complete_two_decay_mass(self.api,ml,mu,nl,nu,length)
+        return dm,dn,mass*A,mass*B
+
+    def between(self,left,right):
+        self.domain.validate_box(left);self.domain.validate_box(right)
+        li,ri=self.domain.cell_index(left),self.domain.cell_index(right)
+        require(li<=ri,"ordered full modal-pair interval")
+        if li==ri:
+            return self._partial(left,right)
+        lc,rc=self.domain.whole_cell_box(li),self.domain.whole_cell_box(ri)
+        first=self._partial(left,(li,lc[2],lc[2]))
+        middle=self._range(li+1,ri)
+        last=self._partial((ri,rc[1],rc[1]),right)
+        return self._join(self._join(first,middle),last)
+
+    def kernel(self,r,s,orientation):
+        """Whole signed 2-by-2 block of G0 W G0; no magnitude or norm."""
+        require(orientation in (-1,0,1),"complete ordered radial triangles")
+        if orientation==0:
+            return self.km.hull(self.api,self.kernel(r,s,1),self.kernel(r,s,-1))
+        p,q=self.profiles.at(self.m,r),self.profiles.at(self.nmode,s)
+        F=(-p["p"],self.api.one);U=(p["K"],p["H"])
+        L=(self.api.one,q["p"]);J=(-q["H"],q["K"])
+        def term(v,w,c):
+            return self.km.Matrix(2,2,[[c*v[i]*w[j] for j in range(2)] for i in range(2)])
+        if orientation==1:
+            dm,dn,A,_=self.between(s,r)
+            return self.km.add(self.api,
+                term(F,L,-dm*self._C(s)),
+                term(F,J,A),
+                term(U,J,-dn*self._D(r)))
+        dm,dn,_,B=self.between(r,s)
+        return self.km.add(self.api,
+            term(F,L,-dn*self._C(r)),
+            term(U,L,B),
+            term(U,J,-dm*self._D(s)))
+
+    def raw_reference_kernel(self,r,s,orientation):
+        """Diagonal original G0 block, including its exact inter-mode zeros."""
+        if self.m!=self.nmode:
+            return self.km.zeros(self.api,2,2)
+        if orientation==0:
+            return self.km.hull(self.api,
+                self.raw_reference_kernel(r,s,1),self.raw_reference_kernel(r,s,-1))
+        require(orientation in (-1,1),"true raw reference triangle")
+        p,q=self.profiles.at(self.m,r),self.profiles.at(self.m,s)
+        if orientation==1:
+            decay=self.profiles.ordered_decay(self.m,s,r)
+            return self.km.Matrix(2,2,[
+                [decay*p["p"]*q["H"],-decay*p["p"]*q["K"]],
+                [-decay*q["H"],decay*q["K"]]])
+        decay=self.profiles.ordered_decay(self.m,r,s)
+        return self.km.Matrix(2,2,[
+            [-decay*p["K"],-decay*p["K"]*q["p"]],
+            [-decay*p["H"],-decay*p["H"]*q["p"]]])
+
+    def factored_WJK_body_kernel(self,r,s,orientation,chi):
+        """Same Fbb when the parent W is exactly chi*chi_prime I+chi^2 E.
+
+        This identity is used only for the WHOLE joint signed centre.
+        No derivative term is removed from the primal or dual residual.
+        All exterior Bc/BLHc and the common Gf/atoms still belong to the caller.
+        """
+        xr,xs=chi(r),chi(s)
+        first=self.km.scale(self.api,(2*xr-xr*xr*xr)*xs,
+                           self.raw_reference_kernel(r,s,orientation))
+        second=self.km.scale(self.api,xr*xs,self.kernel(r,s,orientation))
+        return self.km.add(self.api,first,second)

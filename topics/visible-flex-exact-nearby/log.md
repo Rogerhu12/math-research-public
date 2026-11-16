@@ -353,3 +353,13 @@ H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348
 
 2026-11-16 17:15:39.972951 UTC：自身公开Actions `43916466196/1` / job `133471833129` 已成功真实partial clone和 `git pull --rebase origin main`，before=after=`25265e7eaca1b00a879311032a8520546516416c`。root完整读取8656B job log（SHA `04b2f526e188c643e11734a196477b668337d8083b06aae01f7acb01c9096009`），真实pull相邻diff及从明确已读2f72b274的完整两README diff均空；根/题全bytes/Git/SHA仍旧。完整回执单JSON已保存；0科学/0旧target/0producer，未将API read计pull。下一真pull不晚于18:15:39 UTC，环境未恢复则同自身只读运维入口继续。
 2026-11-16 17:17:03 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main ec1cf77e5ddd52ec48cef6ab57bb65e9def4f52e的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+
+## 2026-11-16 W2C 完整入口、可逆凭据与只读验证包
+
+新增owner `c3dcce8b4e06cc405dc7e4e94265a930d381292f` /44777B/`9f1857a3409d92c2efda778cb64e68df92a935ce572c025d5bc34ccc40f0f731`、worker `5e9b736182758eef06321aa6132d044e9ab5d5ae` /41945B/`b0f90c9989ea0fe328d24178009a570f9757d8b86e25afd401049279595ddadd`。44 SCI字段、29门、五图18/15/11/3/3(+2)完整目标、先写完整球再readback、所有scope/false/原29整球/独立mean保持。完整原21恢复壳15033B/8213b004在同次execution全文保存，SCI全run路径/bytes/SHA绑定，worker用实际state再次核；原19壳13771B/4705f2c3不变。14个WVC context与15个collar context以精确可逆来源表存，反解九字段逐字相等；29重复球引用同SCI整4653B对象。删冗余SHA索引，60个五键完整receipt仍整保。原130479B最坏模型经无损去重及完整prefix过估后97647B<99000；没有删减50界或oldscope8502B。全错误原文仍日志，只有运维message/trace限制1000/2048B。完整合同附每字段字节模型/全部目标名/参数/范围。
+
+纯诊断worker在完整preflight成功后、marker及child之前走显式ReadonlyCompleted，正常保存全execution+report；readonly_complete true、scientific_complete false、failureNone、child0，没有科学结果或consumed marker。原15定义+新7+worker的23 AST与21原字节实际验证由公开Actions完成。当前kernel `3a2a71ce5c23448a5b6246650d09ff9d43430da8` /38250、assembly `d65ed7099012a60e1efcaae97b295cd15f0f6445` /60406、reference `dda86ff9280f48da3ab32d70b37290f9d9849c20` /48841全文已锁，供纯admission；前三图已转完整operator-valued scalar比较，第四图共同signed核资源闭合仍在做，不允许用这个中间包跑科学。全部50(+2)未开始，旧targets0。
+
+并行容量已按所有实际active workflow的完整源与输出路由核，独立scope审计cd0c10d7/51481B锁27份workflow，另已读direct-loop prospective补pin（844d5bc7/77549证据）。当时本题pending0；其它题的HANDOFF写入明确区分；新未知active必须补完整scope再开始。每新consumer及立即科学前全publication210000+并行pending+120000≤200MB，完成/失败保存仅按实际总量，无postreserve。此推送不触科学workflow，下一独立push只触严格pure preflight。
+2026-11-16 17:33:51 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 47108c5130cbf5ccba0b3af4d0373f538e18f937的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
