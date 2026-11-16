@@ -1,0 +1,361 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "recompute-critical-e8-weak-original",
+  "executionSourceCommit": "36e4ad24f23fbe909e386a7cda67ddb4986be4aa",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-recompute-and-audit-789f.py",
+  "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+  "argvTemplate": [
+    "--stage",
+    "weak",
+    "--field",
+    "e8",
+    "--generator-source",
+    "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+    "--generated-out",
+    "{work}/critical-e8-weak-quadratic-positive-jets",
+    "--runtime-receipt",
+    "{work}/critical-e8-weak-quadratic-positive-jets/critical-weak-quadratic-positive-jets-receipt.json",
+    "--paid-outer",
+    "{scripts}/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+    "--out",
+    "{work}/critical-e8-weak-recomputed-identity",
+    "--generator-timeout",
+    "330",
+    "--memory-mib",
+    "2048",
+    "--generator-arguments",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--low-generator",
+    "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+    "--field-helper",
+    "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+    "--field",
+    "e8",
+    "--out",
+    "{work}/critical-e8-weak-quadratic-positive-jets",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 32.537503755000216,
+  "fullTemporaryReceiptBytes": 9324,
+  "fullTemporaryReceiptSHA256": "2a1c5a98f87025afc248e5d92339848a99e39cc9d48172048aff7104042ffc15",
+  "result": {
+    "binding": "1067acaae6b8d3f9bc43b00c0f3a5758bef68c9f09b692144001300a342956d0",
+    "elapsedSeconds": 32.442116678001184,
+    "format": "r150-critical-frozen-generator-recompute-and-audit-v1",
+    "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+    "status": "completed",
+    "parameters": {
+      "actualGeneratorExitCode": 0,
+      "actualGeneratorInvoked": true,
+      "allFullPhaseFilesAndPayloadsVerified": true,
+      "allOriginalRuntimeMathematicalGatesPassed": true,
+      "canonicalCacheExistedBeforeInvocation": false,
+      "currentRunId": "43772109844",
+      "exactOriginalManifestMatched": true,
+      "field": "e8",
+      "generatorLog": {
+        "bytes": 343,
+        "file": "frozen-generator.log",
+        "sha256": "b7be301d6b65aff5b4ff2fb8374a4152df74a40fdfd28dc4defb7153754190e0"
+      },
+      "identity": {
+        "currentRunId": "43772109844",
+        "generatorArguments": [
+          "--generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "--jet-actions",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "--low-generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "--field-helper",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "--field",
+          "e8",
+          "--out",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/critical-e8-weak-quadratic-positive-jets",
+          "--remaining-seconds",
+          "300",
+          "--memory-mib",
+          "2048"
+        ],
+        "generatorSourceSHA256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b",
+        "manifest": {
+          "bytes": 10411,
+          "file": "checkpoints/manifest.json",
+          "sha256": "555f91cb50825c78aec5bafc8289bc277fd9f8a30e76a775f7aaa33bf49fdcf3"
+        },
+        "newRuntimeReceipt": {
+          "bytes": 14268,
+          "file": "critical-weak-quadratic-positive-jets-receipt.json",
+          "sha256": "be4a732c7ccec2142adcd86a8512426d4534d35197b1692f7e38695dab0a1a96"
+        },
+        "oldOuter": {
+          "binding": "6b2bd281d07a3796c302c5ca8a09d00f22433fb9501c62ff0df682733d8ce7f5",
+          "bytes": 29037,
+          "manifest": {
+            "bytes": 10411,
+            "file": "checkpoints/manifest.json",
+            "sha256": "555f91cb50825c78aec5bafc8289bc277fd9f8a30e76a775f7aaa33bf49fdcf3"
+          },
+          "sha256": "8b17d7ffc4bc63f6a8d8d7be42df1767c8fe1088958e4a8745e394ef4898d211"
+        }
+      },
+      "largeArraysUploadedOrCommitted": false,
+      "mathematicsExecutedOnlyByTheFrozenGenerator": true,
+      "newMathematicalAlgorithm": false,
+      "newRuntimeIsNotAnAssertionThatOldTemporaryFilesSurvived": true,
+      "paidAncestryReadOnly": true,
+      "phaseCount": 29,
+      "phases": [
+        {
+          "bytes": 6214499,
+          "payloadSHA256": "4cd0ace9439e6bf7ea631b59b46141a50e695be254adcdda104931affd2b02cf",
+          "sha256": "930ba539587a45d7e33a005795b36ef0377cfa62db0f428430a5caa2c287259b",
+          "stage": "candidate-jet-equation-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 190560,
+          "payloadSHA256": "09e767149fc09b2466c15843cd15850e04e96b8c9f623d5a70363b49c97f28bc",
+          "sha256": "b1c919b8811e63b6d027f64c067ad16bdba52a682effef58f1d3ecb2be582afa",
+          "stage": "candidate-jet-equation-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 2024655,
+          "payloadSHA256": "b51950ec197b321975a47ce3401d570bda4240bf8580be2b1954709eb853f7f6",
+          "sha256": "abf88f9a7461ea48b8c329eb6be46ee935c3eb192742345631bab043cd5334df",
+          "stage": "candidate-jet-equation-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 417,
+          "payloadSHA256": "e073ff84fed9370df1fce36b27a6ad75edce985c3be43f39c3952eb2abedf417",
+          "sha256": "cb927aec60c6a368351bb597dcb2e87e17c42a079a4e545147586f6bc3c6ab49",
+          "stage": "candidate-leading-projection-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 802,
+          "payloadSHA256": "5be40a3d86c770b237d0441dbcae9027b2ed64a05e85465ce4ebf9da86de0ef5",
+          "sha256": "1bc0a7d054a816874990099b303d703c613cea9f52c3b5a64c319cd10d71ab31",
+          "stage": "candidate-leading-projection-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 362,
+          "payloadSHA256": "d33a1693f2982a621f929a2033f07e1195fd29c3ae945de9a0a6e384ac487292",
+          "sha256": "15da7022c78dae9c094dfaaa893f62c6df851cc750370f40f733dedd514d8daa",
+          "stage": "candidate-leading-projection-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 1374978,
+          "payloadSHA256": "475903e77acd3b1b9cc10742a991dd7d984a069bba6a9a8e0ff354cf30eeb02b",
+          "sha256": "a99dd3fcf18bb13af28c75223ad24f93b5113f5de860d4823491af8dbabf5305",
+          "stage": "canonical-low-jets",
+          "verified": true
+        },
+        {
+          "bytes": 397461,
+          "payloadSHA256": "28aa0012cae443c6acef201a21ee656b3709b90ff334923a5d5b84ecc8037b20",
+          "sha256": "ba48a8e0eb2d4bea8a0797871c605ee35f459de6037321551a9b2a4e199df18a",
+          "stage": "canonical-low-order-1",
+          "verified": true
+        },
+        {
+          "bytes": 796074,
+          "payloadSHA256": "2c09601135fc2bb10f265fbf5ed12fe60db48aed4f6335542b88a8cac633d4c8",
+          "sha256": "39775f4bba3f2cbcb9b8e28db41a9fc51e3adaf4bccbc2a296154c924b982c32",
+          "stage": "canonical-low-order-2",
+          "verified": true
+        },
+        {
+          "bytes": 1416434,
+          "payloadSHA256": "a609af9709a0139802159c5b5e05df6625460dd462ebf93dc87cbe98e83971b5",
+          "sha256": "ea870402e69b2270800943e2365e9f3a1ba9d199518780ecc7f779f6f93f65b7",
+          "stage": "canonical-low-original-unit-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 540181,
+          "payloadSHA256": "5ef1f6dd42337f2138e290e6049c9828d92c2b08a7708c6cfd4c5fdc5c6e8c2c",
+          "sha256": "a52ca48046b6babb2e14af82b7f9c486b61946f8bbbe38f273e0da2d8f8d1ad8",
+          "stage": "complete-positive-jets-verified",
+          "verified": true
+        },
+        {
+          "bytes": 503789,
+          "payloadSHA256": "ce866e2e053d91ee725b0f4565f95d36f33ebbbaa90ef57f084f791c7edb4b7c",
+          "sha256": "01057e2741dbebd4475d1073cb44613665260b0d2081fd1989ce69c0d0cf5b22",
+          "stage": "constant-low-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 181544,
+          "payloadSHA256": "efe409b18c58b6ceef5f58a1741d0c4f7c1d30cb724da18a2140b6be8e356b08",
+          "sha256": "3f2785cdb51b45ed099ca3b595739354b15f3591138a0ec0affede88a8992367",
+          "stage": "constant-low-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 1060879,
+          "payloadSHA256": "b0a75477c436f74ac43c804cff31c1a49e87ceae73522c6795fb112963c25d13",
+          "sha256": "2bbea8a3a6374908a7b4f09ed73c57a88fe4f358e39234a10ed4c5ca7dc4a991",
+          "stage": "constant-low-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 1851,
+          "payloadSHA256": "1b8ce65807dea1353391996ca6f1a57ae5757924be5fe6015dc804867c8b7bdc",
+          "sha256": "5c3e794e6645557b2e86cec9f1db5f2fabc68b3e377a2b4e9ca69fb9a91d89f6",
+          "stage": "full-original-leading-heads-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 2694,
+          "payloadSHA256": "409a14bf916411083e6d29ebfc08f573ad05a7b8ea9e96208b33ada41eed0317",
+          "sha256": "8cb4333b97a46dfed6d44e48af3788d60c2095f9506ed95ed7799731775adf6e",
+          "stage": "full-original-leading-heads-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 25103,
+          "payloadSHA256": "42a46b18a3aa5322e272cee1f954b34bd1ecd554eb011f7e0fb88cab85591ba5",
+          "sha256": "e9440477b044870823b17995e90fdc81d8b2aad8526e2e3b17519a97ceb5e175",
+          "stage": "normal-linear-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 6504,
+          "payloadSHA256": "581367d2758f382bb8196d56309575f2c98d4a22a779512054b94faefffe1964",
+          "sha256": "3cb1ceb75ba3b8a5fb1ed80e2f9e5f66673130959fb2441cc331de950db3b148",
+          "stage": "normal-linear-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 97238,
+          "payloadSHA256": "29d014399ffa4a1ac0ab374ee7fe6a8a2ea43a90dd60c91b56848f77c9333ac8",
+          "sha256": "33a7221dd2dc3a949dc4db1f2405e2f6bf8acfc55897ff4f1178d11913f3e990",
+          "stage": "normal-linear-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 170393,
+          "payloadSHA256": "9554a6cc406efdd455db6915b119e7ad75248eee3c98d2e36b6e1e2c63336674",
+          "sha256": "04527ea0222050560ee9f236aed8024d08f855cd912c72c79b178b0b1edb4275",
+          "stage": "original-polynomial-model",
+          "verified": true
+        },
+        {
+          "bytes": 12327,
+          "payloadSHA256": "ea41e6a6e06c4e551a6614511fc35889d20d2004fd85c8e77091e1bc6709df76",
+          "sha256": "db04df5275748991aa3f0cc18ffde367fc527f33cf39dc4228ce788234eae1bb",
+          "stage": "paid-low-exit-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 5756,
+          "payloadSHA256": "a8bcf9356655f50a3b38dab9f7784449ae8b9e507d7f37d7533191dd6e18de03",
+          "sha256": "ae9bc461b80841868b549f49bc4410cd2c77ce1787181694fc8f6d0af756330f",
+          "stage": "paid-low-exit-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 5975,
+          "payloadSHA256": "e7df801c4df3a7f2d9bfeddefe59237cf5657ae4a00a5fb35c5b5746891932b3",
+          "sha256": "8006e6b8d82bb5700aac8caae588b576b013e00117232930c5e447f7835872e2",
+          "stage": "paid-low-exit-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 1230,
+          "payloadSHA256": "ccb752a888338fc8f9a632148144aa0c7999afbc89ee067ea6191d6cfe56e446",
+          "sha256": "b4197ab2b55163c1f6a9a08acea86aaa6c0283f2c3eaaf9fdc911ea251691e90",
+          "stage": "weak-quadratic-independent-columns-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 18548,
+          "payloadSHA256": "1513cb00157c67908d3b60f113848e8fdb0d18262895af3be716df152401b2cf",
+          "sha256": "1e5c498d2c9c5d732e605a7e37f8fc1d97f0c43c23755d369b1c9f71499c24c2",
+          "stage": "weak-quadratic-independent-columns-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 900656,
+          "payloadSHA256": "344302ba8358d2a1dab463673d15ee2814adf606fa297045c04d7d6542b4d922",
+          "sha256": "3a75daae738e254dcac46037c13f1520185e277a83baa0b4b739580a2d6464b3",
+          "stage": "weak-quadratic-original-columns",
+          "verified": true
+        },
+        {
+          "bytes": 179895,
+          "payloadSHA256": "5ca8de9f5584fd05746d9fcb297490b179441e1451fcdf132d5804fffb2bdc3c",
+          "sha256": "0b23f6498721396d370d2174f8f430fee59ef2f4a6f2e4ee9fbdb6cb4512e59f",
+          "stage": "weak-quadratic-pencil-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 42277,
+          "payloadSHA256": "d384b79245c3b6f24e6151522eb71400c14c0e0959f48484bccfa30c8d960de7",
+          "sha256": "a7fe433e3c4fbd3f87609e4e17dacc1e0a38a5c0629061e9bac8705b685621c7",
+          "stage": "weak-quadratic-pencil-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 148327,
+          "payloadSHA256": "cfa91fda23ae585491c2ad2554e4b52d642f98e087b48d361ad7235dc3e19210",
+          "sha256": "459794091ad90c28e522244cb9671beb44c9ad4771f2331d52f31b2e3217e29c",
+          "stage": "weak-quadratic-pencil-unit-lu",
+          "verified": true
+        }
+      ],
+      "stage": "weak",
+      "theOriginalMathematicalBindingDoesNotDependOnJobOrOutputDirectory": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 02:18:23 UTC",
+      "beforeReadCommit": "b2e03b6f4f24ddcb7a93684c19bd8bb0b1c18f8a",
+      "originMainAfterPull": "36e4ad24f23fbe909e386a7cda67ddb4986be4aa",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 02:18:56 UTC",
+      "beforeReadCommit": "36e4ad24f23fbe909e386a7cda67ddb4986be4aa",
+      "originMainAfterPull": "36e4ad24f23fbe909e386a7cda67ddb4986be4aa",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 63,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 21610,
+    "logicalJsonSHA256": "3c28238844494cd59838413c97849957eddbf2222de1206cd2ab10ccf3998b03",
+    "itemCount": 63
+  },
+  "lastRulesReadCommit": "36e4ad24f23fbe909e386a7cda67ddb4986be4aa",
+  "summaryExcludesRecomputableArraysOnly": false
+}
