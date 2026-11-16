@@ -1,0 +1,776 @@
+{
+  "schema": "R551-root-reused-current-owner-projected-model-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_baseline": {
+    "R548_published_commit": "05ae500a2aa98784fe05f6b4b8b3fcf2424f9d59",
+    "R547_published_commit": "a33e494c372f284742b0e98136e6042ffb47ef1f",
+    "R535_published_commit": "7ba35e365e3314af5f96bcdf3cc34172141103d0",
+    "only_source_and_input_ancestry": true,
+    "parent231_scientific_result_reused": false,
+    "parent229_scientific_result_reused": false,
+    "R550_published_commit": "bb4a03981babcf956e408930538941d54b2c547a"
+  },
+  "generator": {
+    "file": "root_20261116_live128_reused_projected_source_views.py",
+    "bytes": 37196,
+    "sha256": "c501c85b7ec9fe44b7d5642c49025dea57862b9bb482e656425a282c8eb86f10"
+  },
+  "ancestor": {
+    "request": {
+      "file": "public-live128-root-cached-projected-model-original-full112-FD-fullDN-request.json",
+      "bytes": 95286,
+      "sha256": "f70f24d223f018c0c551a4437455d9491f491334a260d5bce30d93822d6a5b66"
+    },
+    "generator": {
+      "file": "root_20261116_live128_cached_projected_source_views.py",
+      "bytes": 23546,
+      "sha256": "57a28670e2fe167c816f470052923ce130197eb4e182dbf3e959547e07846de3"
+    },
+    "plan": {
+      "file": "notes/r547-live128-root-cached-projected-model-complete-source-plan.json",
+      "bytes": 54357,
+      "sha256": "d16616edbadfa2d5bf0c3d4f55b2f3a9b6724dc7a1ae09251898fb945ead1aab"
+    },
+    "core_plan": {
+      "file": "notes/r534-live128-projected-model-core-source-plan.json",
+      "bytes": 72022,
+      "sha256": "826aabbd34c2282bdaa4b8298a79bb92b90dc8758134b309f665d863301a4648"
+    },
+    "source_metadata_directory": "request231-source-preparation",
+    "source_only_child": true
+  },
+  "additional_public_sources": [
+    {
+      "file": "root_20261116_accepted_root_evaluation_reuse.hpp",
+      "bytes": 7311,
+      "sha256": "8610fdd602ca3cea28a0d28af254e1929e954d7762161cc4887af5a097190f26"
+    },
+    {
+      "file": "root_20261116_accepted_root_evaluation_reuse.py",
+      "bytes": 16634,
+      "sha256": "66c2ff0d0b29c41cef00cc6a77764e4e168d2885c52b3f56c2abd961fad8f97c"
+    }
+  ],
+  "root_reuse_plan": {
+    "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+    "bytes": 12303,
+    "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+  },
+  "root_reuse_header": {
+    "file": "root_20261116_accepted_root_evaluation_reuse.hpp",
+    "bytes": 7311,
+    "sha256": "8610fdd602ca3cea28a0d28af254e1929e954d7762161cc4887af5a097190f26"
+  },
+  "root_reuse_adapter": {
+    "file": "root_20261116_accepted_root_evaluation_reuse.py",
+    "bytes": 16634,
+    "sha256": "66c2ff0d0b29c41cef00cc6a77764e4e168d2885c52b3f56c2abd961fad8f97c"
+  },
+  "root_reuse_outputs": [
+    {
+      "role": "primal",
+      "output": {
+        "file": "root_20261116_accepted_root_evaluation_reuse_primal128.cpp",
+        "bytes": 25794,
+        "sha256": "40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1"
+      }
+    },
+    {
+      "role": "trace",
+      "output": {
+        "file": "root_20261116_accepted_root_evaluation_reuse_trace128.cpp",
+        "bytes": 35565,
+        "sha256": "822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71"
+      }
+    }
+  ],
+  "ancestor_root_word_plan": {
+    "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+    "bytes": 10232,
+    "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+  },
+  "counts": {
+    "original231_public": 348,
+    "original231_generated": 39,
+    "additional_R550_public": 2,
+    "additional_R550_generated": 2,
+    "new_generator": 1,
+    "new_caller_views": 10,
+    "public": 351,
+    "generated": 51,
+    "complete": 402
+  },
+  "roles": {
+    "owner": "geometry_20261116_live128_reused_projected_same_call_owner.py",
+    "components": "geometry_20261116_live128_projected_model_final_components.py",
+    "boundary": "geometry_20261116_live128_projected_model_boundary128.cpp",
+    "assembly": "geometry_20261116_live128_projected_model_response_assembly.py",
+    "system": "exact_20261116_live128_reused_projected_current576_system.py",
+    "qr": "exact_20261116_live128_reused_projected_current576_chain_qr.py",
+    "pipeline": "geometry_20261116_live128_reused_projected_call_pipeline.py",
+    "call": "geometry_20261116_live128_reused_projected_current_call.mjs",
+    "worker": "geometry_20261116_live128_reused_projected_worker.mjs",
+    "client": "geometry_20261116_live128_reused_projected_tail_client.py",
+    "fulldn": "geometry_20261116_live128_reused_projected_original_full_dn.py",
+    "runner": "geometry_20261116_live128_reused_projected_owned_run.py",
+    "reader": "root_20261116_live128_reused_projected_necessary.py"
+  },
+  "unchanged_model_consumers": [
+    {
+      "role": "boundary",
+      "file": "geometry_20261116_live128_projected_model_boundary128.cpp",
+      "bytes": 12844,
+      "sha256": "0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9"
+    },
+    {
+      "role": "components",
+      "file": "geometry_20261116_live128_projected_model_final_components.py",
+      "bytes": 38561,
+      "sha256": "c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e"
+    },
+    {
+      "role": "assembly",
+      "file": "geometry_20261116_live128_projected_model_response_assembly.py",
+      "bytes": 33269,
+      "sha256": "863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a"
+    }
+  ],
+  "schemas": {
+    "owner": "R551-current-H-root-reused-owner128-before-projected-model-v1",
+    "components": "R534-current-H-owner-projected64-model-components-v1",
+    "stage": "R534-current-owner-projected64-exact-lifted-stage-model-v1",
+    "boundary": "R534-current-owner-projected64-model-boundary128-v1",
+    "assembly": "R534-current-H-live128-projected-model-response-assembly-v1",
+    "pipeline": "R551-current-H-root-reused-live128-projected-model-call-pipeline-v1",
+    "pipeline_input": "R551-current-H-root-reused-live128-projected-model-call-pipeline-input-v1",
+    "policy": "R551-current-H-root-reused-live128-projected-model-client-policy-v1",
+    "runner": "R551-live128-root-reused-projected-model-original-full112-owned-procedure-v1",
+    "reader": "R551-live128-root-reused-projected-model-original-full112-necessary-v1",
+    "request": "public-live128-root-reused-projected-model-original-full112-FD-fullDN-request-v1",
+    "fulldn": "R551-live128-root-reused-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+    "namespace": "visible-live128-root-reused-projected-model232",
+    "window": "R534-current-owner-projected-model-stage-clock-v1",
+    "source": "R551-root-reused-current-owner-projected-model-source-preparation-v1",
+    "plan": "R551-root-reused-current-owner-projected-model-complete-source-plan-v1"
+  },
+  "original_runtime_contract": {
+    "science_clock_schema": "R493-original-full112-live128-job-deadline-v1",
+    "science_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "owner_seconds_cap": 6000,
+    "replay_reserve_seconds": 1200,
+    "stage_seconds_cap": 8000,
+    "boundary_seconds_cap": 600,
+    "endpoint_seconds_cap": 600,
+    "audit_seconds_cap": 1800,
+    "threads": 4,
+    "original_state_shape": [
+      577,
+      224
+    ],
+    "local_state_dimension": 226,
+    "mean_rows": 2,
+    "complete_stages": 576,
+    "complete_endpoint_shape": [
+      338,
+      112
+    ],
+    "future_request_number": 232,
+    "science_namespace": "visible-live128-root-reused-projected-model232",
+    "source_metadata_directory": "request232-source-preparation"
+  },
+  "actual_compiler_contract": {
+    "prepare": "R547 source-only child, then R550 source-only preparation of unchanged R535 ancestry and both new includes",
+    "installation": "One direct R550 install_owner_compiler in the original owner_scope before original main, with no previous R535 hook installation",
+    "original_R534_deferred_components_and_projected64_model_unchanged": true,
+    "compilation_actual_receipt_key": "root_finite_word_cache_compilation_source_binding",
+    "preparation_does_not_pay_compilation_or_solver_acceptance": true,
+    "original_owner_main_replay_and_budgets_unchanged": true
+  },
+  "honest_model_guard": {
+    "original_system": {
+      "file": "exact_20261116_live128_cached_projected_current576_system.py",
+      "bytes": 29009,
+      "sha256": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db"
+    },
+    "actual_system": {
+      "file": "exact_20261116_live128_reused_projected_current576_system.py",
+      "bytes": 29055,
+      "sha256": "8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d"
+    },
+    "change": {
+      "before": "B.same(current['same_call_complete128_final_components_required'],True,\n           'All224/226 and mixed338-by112 are supplied by the same actual128 state')",
+      "after": "B.same(current['same_call_complete128_value_components_and_explicit64_linear_model_required'],True,\n           'Current128 values/replay and the explicit complete projected64 linear model are required')",
+      "count": 1
+    },
+    "new_key_written_by_actual_current_call": true,
+    "old_all128_derivative_flag_not_fabricated": true,
+    "original_current128_value_and_explicit_complete_projected64_model_contract_retained": true,
+    "observed229_KeyError_is_not_a_231_numeric_result": true
+  },
+  "necessary_scope": {
+    "original_RootStats_complete_dict_retained": true,
+    "root_accepted_evaluation_reuse": "Complete original member, both primal and trace_variation with all13 counters each and full last/presence",
+    "eight_existing_named_tables_and_exact_inverse_contexts_retained": true,
+    "missing_is_not_null": true,
+    "original_root_counters_count_actual_work": true,
+    "compilation_source_binding_selected_only_from_actual_compilation": true,
+    "limit_bytes": 90000,
+    "overflow_exit": 70,
+    "no_capacity_or_speed_promise": true
+  },
+  "views": [
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_same_call_owner.py",
+        "bytes": 25621,
+        "sha256": "3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_reused_projected_same_call_owner.py",
+        "bytes": 25821,
+        "sha256": "ea354ba982e6904fc43e552f1d75e2171130e0d4c04e4a1a2c2aaf67d392923c"
+      },
+      "patches": [
+        {
+          "before": "#!/usr/bin/env python3\n\"\"\"R547 finite-word cached owner before the same-DN complete projected model.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R551 accepted RootEval reuse and finite-word cache before the same-DN model.\n\n",
+          "count": 1,
+          "id": "owner-literal-1"
+        },
+        {
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R547-current-H-root-cached-owner128-before-projected-model-v1\"\nINPUT_SCHEMA = SCHEMA + \"-input-v1\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R551-current-H-root-reused-owner128-before-projected-model-v1\"\nINPUT_SCHEMA = SCHEMA + \"-input-v1\"\n",
+          "count": 1,
+          "id": "owner-literal-2"
+        },
+        {
+          "before": "\ndef install_root_finite_words(owner_scope, record, runner):\n    preparation_directory = runner/\"request231-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n",
+          "after": "\ndef install_root_evaluation_reuse(owner_scope, record, runner):\n    preparation_directory = runner/\"request232-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n",
+          "count": 1,
+          "id": "owner-literal-3"
+        },
+        {
+          "before": "    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R547-root-cached-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 231\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n",
+          "after": "    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R551-root-reused-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 232\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R550/R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n",
+          "count": 1,
+          "id": "owner-literal-4"
+        },
+        {
+          "before": "            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R535_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R535 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R535\"/\"source-binding.json\",\n            \"The independent actual R535 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n",
+          "after": "            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R550_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R550 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R550\"/\"source-binding.json\",\n            \"The independent actual R550 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n",
+          "count": 1,
+          "id": "owner-literal-5"
+        },
+        {
+          "before": "        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_native_root_finite_words.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 10892\n            and file_sha(adapter_file) == \"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\",\n            \"The exact published R535 compiler adapter\")\n    module_spec = importlib.util.spec_from_file_location(\"_R547_actual_root_word_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n",
+          "after": "        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_accepted_root_evaluation_reuse.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 16634\n            and file_sha(adapter_file) == \"66c2ff0d0b29c41cef00cc6a77764e4e168d2885c52b3f56c2abd961fad8f97c\",\n            \"The exact published R550 compiler adapter; R535 is source ancestry only\")\n    module_spec = importlib.util.spec_from_file_location(\"_R551_actual_accepted_root_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n",
+          "count": 1,
+          "id": "owner-literal-6"
+        },
+        {
+          "before": "        root_primal_uses_declared_R535_finite_word_source=True,\n        root_finite_word_cache_source_preparation=None,\n",
+          "after": "        root_primal_uses_declared_R535_finite_word_source=True,\n        root_primal_uses_declared_R550_accepted_evaluation_reuse_source=True,\n        one_direct_R550_installation_without_prior_R535_hook=True,\n        root_finite_word_cache_source_preparation=None,\n",
+          "count": 1,
+          "id": "owner-literal-7"
+        },
+        {
+          "before": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        install_root_finite_words(owner_scope, record, runner)\n        # This is a new declared executing scope with its own source identity.\n",
+          "after": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        install_root_evaluation_reuse(owner_scope, record, runner)\n        # This is a new declared executing scope with its own source identity.\n",
+          "count": 1,
+          "id": "owner-literal-8"
+        },
+        {
+          "before": "    record, code = execute(spec, identity(args.input))\n    print(json.dumps(dict(event=\"R547_cached_current_owner_before_projected_model_return\",\n        call_number=record[\"call_number\"], actual_wrapper_returncode=code,\n",
+          "after": "    record, code = execute(spec, identity(args.input))\n    print(json.dumps(dict(event=\"R551_reused_current_owner_before_projected_model_return\",\n        call_number=record[\"call_number\"], actual_wrapper_returncode=code,\n",
+          "count": 1,
+          "id": "owner-literal-9"
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_cached_projected_current576_system.py",
+        "bytes": 29009,
+        "sha256": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db"
+      },
+      "output": {
+        "file": "exact_20261116_live128_reused_projected_current576_system.py",
+        "bytes": 29055,
+        "sha256": "8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d"
+      },
+      "patches": [
+        {
+          "before": "BYTE_IO_SHA='b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390'\nSNAPSHOT_LAUNCHER='geometry_20261116_live128_cached_projected_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_cached_projected_current_call.mjs'\nCORE_SHA='ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3'\n",
+          "after": "BYTE_IO_SHA='b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390'\nSNAPSHOT_LAUNCHER='geometry_20261116_live128_reused_projected_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_reused_projected_current_call.mjs'\nCORE_SHA='ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3'\n",
+          "count": 1,
+          "id": "system-literal-1"
+        },
+        {
+          "before": "           'Actual independent128 final component path is explicitly selected')\n    B.same(current['same_call_complete128_final_components_required'],True,\n           'All224/226 and mixed338-by112 are supplied by the same actual128 state')\n    request=current['request']\n",
+          "after": "           'Actual independent128 final component path is explicitly selected')\n    B.same(current['same_call_complete128_value_components_and_explicit64_linear_model_required'],True,\n           'Current128 values/replay and the explicit complete projected64 linear model are required')\n    request=current['request']\n",
+          "count": 1,
+          "id": "system-literal-2"
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_cached_projected_current576_chain_qr.py",
+        "bytes": 21847,
+        "sha256": "4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2"
+      },
+      "output": {
+        "file": "exact_20261116_live128_reused_projected_current576_chain_qr.py",
+        "bytes": 21847,
+        "sha256": "ca4673949b9e30ff44761271f67dc927c2b8e916b8e73f6f2ff556aa780832f3"
+      },
+      "patches": [
+        {
+          "before": "HERE=Path(__file__).resolve().parent\nSYSTEM_NAME='exact_20261116_live128_cached_projected_current576_system.py'\nSYSTEM_SHA='9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db'\nQR_NAME='exact_20261114_native_damped_chain_qr.py'\n",
+          "after": "HERE=Path(__file__).resolve().parent\nSYSTEM_NAME='exact_20261116_live128_reused_projected_current576_system.py'\nSYSTEM_SHA='8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d'\nQR_NAME='exact_20261114_native_damped_chain_qr.py'\n",
+          "count": 1,
+          "id": "qr-literal-1"
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_call_pipeline.py",
+        "bytes": 43209,
+        "sha256": "280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_reused_projected_call_pipeline.py",
+        "bytes": 43209,
+        "sha256": "9bcfa99f38399a2fe7c21f5d15bfe728a6ebbf6c03c51c70d8d25f4415928313"
+      },
+      "patches": [
+        {
+          "before": "#!/usr/bin/env python3\n\"\"\"R547 root-cached owner and projected64 model under one original19200s clock.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R551 root-reused owner and projected64 model under one original19200s clock.\n\n",
+          "count": 1,
+          "id": "pipeline-literal-1"
+        },
+        {
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R547-current-H-root-cached-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R547-current-H-root-cached-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_cached_projected_same_call_owner.py\"\nOWNER_SHA = \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_cached_projected_current576_chain_qr.py\"\nQR_SHA = \"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\"\nSYSTEM = \"exact_20261116_live128_cached_projected_current576_system.py\"\nSYSTEM_SHA = \"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\"\nCOMPONENTS = \"geometry_20261116_live128_projected_model_final_components.py\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R551-current-H-root-reused-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R551-current-H-root-reused-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_reused_projected_same_call_owner.py\"\nOWNER_SHA = \"ea354ba982e6904fc43e552f1d75e2171130e0d4c04e4a1a2c2aaf67d392923c\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_reused_projected_current576_chain_qr.py\"\nQR_SHA = \"ca4673949b9e30ff44761271f67dc927c2b8e916b8e73f6f2ff556aa780832f3\"\nSYSTEM = \"exact_20261116_live128_reused_projected_current576_system.py\"\nSYSTEM_SHA = \"8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d\"\nCOMPONENTS = \"geometry_20261116_live128_projected_model_final_components.py\"\n",
+          "count": 1,
+          "id": "pipeline-literal-2"
+        },
+        {
+          "before": "        owner_resources[\"audit_seconds_cap\"] if spec[\"request\"][\"audit\"] else 0)\n    owner_input = dict(schema=\"R547-current-H-root-cached-owner128-before-projected-model-v1-input-v1\",\n        call_directory=str(root), out=str(root/\"owner\"), call_number=spec[\"call_number\"],\n",
+          "after": "        owner_resources[\"audit_seconds_cap\"] if spec[\"request\"][\"audit\"] else 0)\n    owner_input = dict(schema=\"R551-current-H-root-reused-owner128-before-projected-model-v1-input-v1\",\n        call_directory=str(root), out=str(root/\"owner\"), call_number=spec[\"call_number\"],\n",
+          "count": 1,
+          "id": "pipeline-literal-3"
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_current_call.mjs",
+        "bytes": 45399,
+        "sha256": "8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_reused_projected_current_call.mjs",
+        "bytes": 45399,
+        "sha256": "995334613f7916d5988984fb691275c067280d1b98be1e7ac8f106b34a7d35a8"
+      },
+      "patches": [
+        {
+          "before": " spec.hook_sha256!==fileSHA(selfPath)||\n spec.source_sha256!==fileSHA(path.join(here,'geometry_20261116_live128_cached_projected_tail_client.py'))||\n spec.session_origin?.schema!=='R493-current-H-live128-worker-session-v1')\n",
+          "after": " spec.hook_sha256!==fileSHA(selfPath)||\n spec.source_sha256!==fileSHA(path.join(here,'geometry_20261116_live128_reused_projected_tail_client.py'))||\n spec.session_origin?.schema!=='R493-current-H-live128-worker-session-v1')\n",
+          "count": 1,
+          "id": "call-literal-1"
+        },
+        {
+          "before": " const names={\n  owner:'geometry_20261116_live128_cached_projected_same_call_owner.py',\n  client:'geometry_20261116_live128_cached_projected_tail_client.py',\n  current_call:'geometry_20261116_live128_cached_projected_current_call.mjs',\n  worker:'geometry_20261116_live128_cached_projected_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n",
+          "after": " const names={\n  owner:'geometry_20261116_live128_reused_projected_same_call_owner.py',\n  client:'geometry_20261116_live128_reused_projected_tail_client.py',\n  current_call:'geometry_20261116_live128_reused_projected_current_call.mjs',\n  worker:'geometry_20261116_live128_reused_projected_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n",
+          "count": 1,
+          "id": "call-literal-2"
+        },
+        {
+          "before": " return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R547-current-H-root-cached-owner128-before-projected-model-v1-input-v1',\n  owner_summary:'native-persistent128-chord-launch-summary-v1',\n",
+          "after": " return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R551-current-H-root-reused-owner128-before-projected-model-v1-input-v1',\n  owner_summary:'native-persistent128-chord-launch-summary-v1',\n",
+          "count": 1,
+          "id": "call-literal-3"
+        },
+        {
+          "before": "function pipelineInput(mode,ctx,fields,invocation=mode){\n return {schema:'R547-current-H-root-cached-live128-projected-model-call-pipeline-input-v1',\n  mode,invocation,call_directory:ctx.directory,call_number:ctx.call,job_deadline:spec.job_deadline,\n",
+          "after": "function pipelineInput(mode,ctx,fields,invocation=mode){\n return {schema:'R551-current-H-root-reused-live128-projected-model-call-pipeline-input-v1',\n  mode,invocation,call_directory:ctx.directory,call_number:ctx.call,job_deadline:spec.job_deadline,\n",
+          "count": 1,
+          "id": "call-literal-4"
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_worker.mjs",
+        "bytes": 8305,
+        "sha256": "374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_reused_projected_worker.mjs",
+        "bytes": 8305,
+        "sha256": "57079b19350f4e17e1f694242f6b37cb0a60362699f6616788af99a733ef1f1c"
+      },
+      "patches": [
+        {
+          "before": "// R547 declared root-cached owner128 values with the unchanged complete R534 model.\n// Original warm choices remain. Every requested H uses its actual same-call128\n",
+          "after": "// R551 declared root-reused owner128 values with the unchanged complete R534 model.\n// Original warm choices remain. Every requested H uses its actual same-call128\n",
+          "count": 1,
+          "id": "worker-literal-1"
+        },
+        {
+          "before": "const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;\nconst liveURL=new URL('./geometry_20261116_live128_cached_projected_current_call.mjs',import.meta.url).href;\nconst sha256=x=>crypto.createHash('sha256').update(x).digest('hex');\n",
+          "after": "const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;\nconst liveURL=new URL('./geometry_20261116_live128_reused_projected_current_call.mjs',import.meta.url).href;\nconst sha256=x=>crypto.createHash('sha256').update(x).digest('hex');\n",
+          "count": 1,
+          "id": "worker-literal-2"
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_tail_client.py",
+        "bytes": 34939,
+        "sha256": "89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_reused_projected_tail_client.py",
+        "bytes": 36243,
+        "sha256": "4f4865a5f99a7342965b669e8aea82de252caa05bf47d75c8722ad8f1628fc8c"
+      },
+      "patches": [
+        {
+          "before": "DEFAULT_STORED = TOPIC / \"notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json\"\nLIVE_SOURCE_PINS = json.loads(\"{\\\"geometry_20261116_live128_current_call.mjs\\\":\\\"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\\\",\\\"geometry_20261116_live128_worker.mjs\\\":\\\"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\\\",\\\"geometry_20261116_live128_call_pipeline.py\\\":\\\"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\\\",\\\"geometry_20261116_live128_same_call_owner.py\\\":\\\"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\\\",\\\"geometry_20261116_live128_response_assembly.py\\\":\\\"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\\\",\\\"geometry_20261116_live128_final_components.py\\\":\\\"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\\\",\\\"geometry_20261116_native128_live_scalar_source.py\\\":\\\"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\\\",\\\"exact_20261116_binary128_live_response_projection.py\\\":\\\"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\\\",\\\"exact_20261116_live128_current576_system.py\\\":\\\"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\\\",\\\"exact_20261116_live128_current576_chain_qr.py\\\":\\\"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\\\",\\\"geometry_20261116_live128_actual91_seed.py\\\":\\\"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\\\",\\\"geometry_20261116_live128_owned_process.py\\\":\\\"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\\\",\\\"geometry_20261115_native_trace_variation128_bridge.mjs\\\":\\\"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\\\",\\\"geometry_20261115_native_final128_packet.mjs\\\":\\\"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\\\",\\\"geometry_20261115_native_primal128_bridge.mjs\\\":\\\"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\\\",\\\"geometry_20261115_native_primal128.cpp\\\":\\\"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\\\",\\\"exact_20261114_native_damped_chain_qr.py\\\":\\\"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\\\",\\\"exact_20261114_native_allrows_dyadic_residual.py\\\":\\\"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\\\",\\\"geometry_20261116_live128_paired_digit_final_components.py\\\":\\\"93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1\\\",\\\"geometry_20261116_live128_paired_cache225_same_call_owner.py\\\":\\\"a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be\\\",\\\"geometry_20261116_live128_paired_cache225_response_assembly.py\\\":\\\"5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c\\\",\\\"exact_20261116_live128_paired_cache225_current576_system.py\\\":\\\"6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6\\\",\\\"exact_20261116_live128_paired_cache225_current576_chain_qr.py\\\":\\\"9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c\\\",\\\"geometry_20261116_live128_paired_cache225_call_pipeline.py\\\":\\\"c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515\\\",\\\"geometry_20261116_live128_paired_cache225_current_call.mjs\\\":\\\"c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50\\\",\\\"geometry_20261116_live128_paired_cache225_worker.mjs\\\":\\\"0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf\\\",\\\"geometry_20261116_native_physical_radial_mode_cache128.hpp\\\":\\\"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\\\",\\\"geometry_20261116_native128_physical_radial_cache_source.py\\\":\\\"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\\\",\\\"geometry_20261116_native_paired_digit_operator_trace128.hpp\\\":\\\"082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be\\\",\\\"geometry_20261116_native_paired_digit_stage128.cpp\\\":\\\"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\\\",\\\"geometry_20261116_native_paired_exact_digit128.hpp\\\":\\\"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\\\",\\\"geometry_20261116_live128_projected_model_boundary128.cpp\\\":\\\"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\\\",\\\"geometry_20261116_live128_projected_model_same_call_owner.py\\\":\\\"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\\\",\\\"geometry_20261116_live128_projected_model_final_components.py\\\":\\\"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\\\",\\\"geometry_20261116_live128_projected_model_response_assembly.py\\\":\\\"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\\\",\\\"exact_20261116_live128_projected_model_current576_system.py\\\":\\\"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\\\",\\\"exact_20261116_live128_projected_model_current576_chain_qr.py\\\":\\\"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\\\",\\\"geometry_20261116_live128_projected_model_call_pipeline.py\\\":\\\"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\\\",\\\"geometry_20261116_live128_projected_model_current_call.mjs\\\":\\\"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\\\",\\\"geometry_20261116_live128_projected_model_worker.mjs\\\":\\\"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\\\",\\\"geometry_20261116_live128_projected_stage_binding.py\\\":\\\"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\\\",\\\"geometry_20261116_live128_same_dn_projected_stages.mjs\\\":\\\"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\\\",\\\"geometry_20261116_live128_cached_projected_same_call_owner.py\\\":\\\"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\\\",\\\"exact_20261116_live128_cached_projected_current576_system.py\\\":\\\"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\\\",\\\"exact_20261116_live128_cached_projected_current576_chain_qr.py\\\":\\\"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\\\",\\\"geometry_20261116_live128_cached_projected_call_pipeline.py\\\":\\\"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\\\",\\\"geometry_20261116_live128_cached_projected_current_call.mjs\\\":\\\"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\\\",\\\"geometry_20261116_live128_cached_projected_worker.mjs\\\":\\\"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\\\",\\\"root_20261116_native_root_finite_words.hpp\\\":\\\"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\\\",\\\"root_20261116_native_root_finite_words.py\\\":\\\"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\\\",\\\"root_20261116_native_root_finite_words_primal128.cpp\\\":\\\"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\\\",\\\"root_20261116_native_root_finite_words_trace128.cpp\\\":\\\"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\\\"}\")\nIO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R547-current-H-root-cached-live128-projected-model-client-policy-v1\"\n\n",
+          "after": "DEFAULT_STORED = TOPIC / \"notes/2026-11-13-strong-m28-recovered-full-audit-r1-ready.json\"\nLIVE_SOURCE_PINS = json.loads(\"{\\\"geometry_20261116_live128_current_call.mjs\\\":\\\"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\\\",\\\"geometry_20261116_live128_worker.mjs\\\":\\\"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\\\",\\\"geometry_20261116_live128_call_pipeline.py\\\":\\\"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\\\",\\\"geometry_20261116_live128_same_call_owner.py\\\":\\\"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\\\",\\\"geometry_20261116_live128_response_assembly.py\\\":\\\"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\\\",\\\"geometry_20261116_live128_final_components.py\\\":\\\"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\\\",\\\"geometry_20261116_native128_live_scalar_source.py\\\":\\\"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\\\",\\\"exact_20261116_binary128_live_response_projection.py\\\":\\\"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\\\",\\\"exact_20261116_live128_current576_system.py\\\":\\\"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\\\",\\\"exact_20261116_live128_current576_chain_qr.py\\\":\\\"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\\\",\\\"geometry_20261116_live128_actual91_seed.py\\\":\\\"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\\\",\\\"geometry_20261116_live128_owned_process.py\\\":\\\"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\\\",\\\"geometry_20261115_native_trace_variation128_bridge.mjs\\\":\\\"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\\\",\\\"geometry_20261115_native_final128_packet.mjs\\\":\\\"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\\\",\\\"geometry_20261115_native_primal128_bridge.mjs\\\":\\\"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\\\",\\\"geometry_20261115_native_primal128.cpp\\\":\\\"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\\\",\\\"exact_20261114_native_damped_chain_qr.py\\\":\\\"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\\\",\\\"exact_20261114_native_allrows_dyadic_residual.py\\\":\\\"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\\\",\\\"geometry_20261116_live128_paired_digit_final_components.py\\\":\\\"93ecdd833922f833bdb50a8f264bc5db1913f5ce16dbb0cb4f7fbc7d285070f1\\\",\\\"geometry_20261116_live128_paired_cache225_same_call_owner.py\\\":\\\"a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be\\\",\\\"geometry_20261116_live128_paired_cache225_response_assembly.py\\\":\\\"5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c\\\",\\\"exact_20261116_live128_paired_cache225_current576_system.py\\\":\\\"6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6\\\",\\\"exact_20261116_live128_paired_cache225_current576_chain_qr.py\\\":\\\"9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c\\\",\\\"geometry_20261116_live128_paired_cache225_call_pipeline.py\\\":\\\"c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515\\\",\\\"geometry_20261116_live128_paired_cache225_current_call.mjs\\\":\\\"c9f83fd2f1db33c66dae653291bf48db7e2cfe3a8f5f87b4ba01b92d6626eb50\\\",\\\"geometry_20261116_live128_paired_cache225_worker.mjs\\\":\\\"0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf\\\",\\\"geometry_20261116_native_physical_radial_mode_cache128.hpp\\\":\\\"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\\\",\\\"geometry_20261116_native128_physical_radial_cache_source.py\\\":\\\"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\\\",\\\"geometry_20261116_native_paired_digit_operator_trace128.hpp\\\":\\\"082d5a1fdd900071fb1cc008304c5a4c97bce92b173851bda1514ec1682eb7be\\\",\\\"geometry_20261116_native_paired_digit_stage128.cpp\\\":\\\"49a7e226eadc7748d5d2b3f94119c2e4dd7024348e6878c673e73b1a33db3b55\\\",\\\"geometry_20261116_native_paired_exact_digit128.hpp\\\":\\\"480b1b9a197659722dfa19f8f3e491939b13b414fc60e63f9265b30aa20b1d47\\\",\\\"geometry_20261116_live128_projected_model_boundary128.cpp\\\":\\\"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\\\",\\\"geometry_20261116_live128_projected_model_same_call_owner.py\\\":\\\"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\\\",\\\"geometry_20261116_live128_projected_model_final_components.py\\\":\\\"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\\\",\\\"geometry_20261116_live128_projected_model_response_assembly.py\\\":\\\"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\\\",\\\"exact_20261116_live128_projected_model_current576_system.py\\\":\\\"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\\\",\\\"exact_20261116_live128_projected_model_current576_chain_qr.py\\\":\\\"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\\\",\\\"geometry_20261116_live128_projected_model_call_pipeline.py\\\":\\\"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\\\",\\\"geometry_20261116_live128_projected_model_current_call.mjs\\\":\\\"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\\\",\\\"geometry_20261116_live128_projected_model_worker.mjs\\\":\\\"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\\\",\\\"geometry_20261116_live128_projected_stage_binding.py\\\":\\\"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\\\",\\\"geometry_20261116_live128_same_dn_projected_stages.mjs\\\":\\\"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\\\",\\\"geometry_20261116_live128_cached_projected_same_call_owner.py\\\":\\\"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\\\",\\\"exact_20261116_live128_cached_projected_current576_system.py\\\":\\\"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\\\",\\\"exact_20261116_live128_cached_projected_current576_chain_qr.py\\\":\\\"4156bf688d4fcec917a62d52b56a5f47340c9c39b1cfa95b6da80a6e98597af2\\\",\\\"geometry_20261116_live128_cached_projected_call_pipeline.py\\\":\\\"280c6d7a83a82bd8dae55ddccf98d278069354295dc6536233d69112e1728dde\\\",\\\"geometry_20261116_live128_cached_projected_current_call.mjs\\\":\\\"8c3a3f36c8e837fa4abf8a90b4c61993334a6f15b2677d91ca12fa8d1f055718\\\",\\\"geometry_20261116_live128_cached_projected_worker.mjs\\\":\\\"374e6e667c7f29c6a42f4c3e9ee2e9c8275c5b51f3e547bd0cd67e214825eeb0\\\",\\\"root_20261116_native_root_finite_words.hpp\\\":\\\"6706eae670bf5746eb42d194bd456d290c290d451ddc52d80359d0263f90e7cc\\\",\\\"root_20261116_native_root_finite_words.py\\\":\\\"1c99623e2cd63d0a4700011c96e5054645cf7dd8ee5cf3357f0c77d1727026db\\\",\\\"root_20261116_native_root_finite_words_primal128.cpp\\\":\\\"3e1cb0a416418fe56fbee889df5debdfc9ed097b797a1b8e086b563ce4fd9241\\\",\\\"root_20261116_native_root_finite_words_trace128.cpp\\\":\\\"2e122e0ca6ad21e1c11ab711cc5af40a6955d3ff054f6cd445dbd885fbb98b12\\\",\\\"geometry_20261116_live128_reused_projected_same_call_owner.py\\\":\\\"ea354ba982e6904fc43e552f1d75e2171130e0d4c04e4a1a2c2aaf67d392923c\\\",\\\"exact_20261116_live128_reused_projected_current576_system.py\\\":\\\"8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d\\\",\\\"exact_20261116_live128_reused_projected_current576_chain_qr.py\\\":\\\"ca4673949b9e30ff44761271f67dc927c2b8e916b8e73f6f2ff556aa780832f3\\\",\\\"geometry_20261116_live128_reused_projected_call_pipeline.py\\\":\\\"9bcfa99f38399a2fe7c21f5d15bfe728a6ebbf6c03c51c70d8d25f4415928313\\\",\\\"geometry_20261116_live128_reused_projected_current_call.mjs\\\":\\\"995334613f7916d5988984fb691275c067280d1b98be1e7ac8f106b34a7d35a8\\\",\\\"geometry_20261116_live128_reused_projected_worker.mjs\\\":\\\"57079b19350f4e17e1f694242f6b37cb0a60362699f6616788af99a733ef1f1c\\\",\\\"root_20261116_accepted_root_evaluation_reuse.hpp\\\":\\\"8610fdd602ca3cea28a0d28af254e1929e954d7762161cc4887af5a097190f26\\\",\\\"root_20261116_accepted_root_evaluation_reuse.py\\\":\\\"66c2ff0d0b29c41cef00cc6a77764e4e168d2885c52b3f56c2abd961fad8f97c\\\",\\\"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\\\":\\\"40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1\\\",\\\"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\\\":\\\"822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71\\\"}\")\nIO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R551-current-H-root-reused-live128-projected-model-client-policy-v1\"\n\n",
+          "count": 1,
+          "id": "client-literal-1"
+        },
+        {
+          "before": "    bridge = dict(policy[\"factor_parameters\"],\n        source_file=\"exact_20261116_live128_cached_projected_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_cached_projected_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_cached_projected_current576_system.py\"],\n        factor_engine_source_sha256=LIVE_SOURCE_PINS[\"exact_20261114_native_damped_chain_qr.py\"],\n",
+          "after": "    bridge = dict(policy[\"factor_parameters\"],\n        source_file=\"exact_20261116_live128_reused_projected_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_reused_projected_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_reused_projected_current576_system.py\"],\n        factor_engine_source_sha256=LIVE_SOURCE_PINS[\"exact_20261114_native_damped_chain_qr.py\"],\n",
+          "count": 1,
+          "id": "client-literal-2"
+        },
+        {
+          "before": "        source_sha256=sha(__file__),\n        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_cached_projected_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n",
+          "after": "        source_sha256=sha(__file__),\n        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_reused_projected_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n",
+          "count": 1,
+          "id": "client-literal-3"
+        },
+        {
+          "before": "        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_cached_projected_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_cached_projected_call_pipeline.py\"]),\n        retain_optional_tangent_predictor=policy[\"retain_optional_tangent_predictor\"])\n",
+          "after": "        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_reused_projected_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_reused_projected_call_pipeline.py\"]),\n        retain_optional_tangent_predictor=policy[\"retain_optional_tangent_predictor\"])\n",
+          "count": 1,
+          "id": "client-literal-4"
+        },
+        {
+          "before": "                   \"--import\", str(HERE/\"exact_20261114_tail_capacity_loader.mjs\"),\n                   str(HERE/\"geometry_20261116_live128_cached_projected_worker.mjs\"), str(self.config)]\n        write(suffix(\"_intent.json\"), dict(\n",
+          "after": "                   \"--import\", str(HERE/\"exact_20261114_tail_capacity_loader.mjs\"),\n                   str(HERE/\"geometry_20261116_live128_reused_projected_worker.mjs\"), str(self.config)]\n        write(suffix(\"_intent.json\"), dict(\n",
+          "count": 1,
+          "id": "client-literal-5"
+        }
+      ]
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_original_full_dn.py",
+        "bytes": 40373,
+        "sha256": "a35cf28a196f748ef2429dcd319b7867019b684eec36981599f639b59b40f338"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_reused_projected_original_full_dn.py",
+        "bytes": 41830,
+        "sha256": "b95937dded2084453509c4b5ecaaca36767ae8314076b42cf49f77ea6d92db2a"
+      },
+      "patches": [
+        {
+          "before": "#!/usr/bin/env python3\n\"\"\"R547 actual63 prefix to cached-owner128/current64 model, original FD/fullDN.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R551 actual63 prefix to cached-owner128/current64 model, original FD/fullDN.\n\n",
+          "count": 1,
+          "id": "fulldn-literal-1"
+        },
+        {
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R547-live128-root-cached-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_cached_projected_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R551-live128-root-reused-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_reused_projected_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\n",
+          "count": 1,
+          "id": "fulldn-literal-2"
+        },
+        {
+          "before": "SOURCE_PINS = {\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n",
+          "after": "SOURCE_PINS = {\n    \"geometry_20261116_live128_reused_projected_same_call_owner.py\": \"ea354ba982e6904fc43e552f1d75e2171130e0d4c04e4a1a2c2aaf67d392923c\",\n    \"exact_20261116_live128_reused_projected_current576_system.py\": \"8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d\",\n    \"exact_20261116_live128_reused_projected_current576_chain_qr.py\": \"ca4673949b9e30ff44761271f67dc927c2b8e916b8e73f6f2ff556aa780832f3\",\n    \"geometry_20261116_live128_reused_projected_call_pipeline.py\": \"9bcfa99f38399a2fe7c21f5d15bfe728a6ebbf6c03c51c70d8d25f4415928313\",\n    \"geometry_20261116_live128_reused_projected_current_call.mjs\": \"995334613f7916d5988984fb691275c067280d1b98be1e7ac8f106b34a7d35a8\",\n    \"geometry_20261116_live128_reused_projected_worker.mjs\": \"57079b19350f4e17e1f694242f6b37cb0a60362699f6616788af99a733ef1f1c\",\n    \"root_20261116_accepted_root_evaluation_reuse.hpp\": \"8610fdd602ca3cea28a0d28af254e1929e954d7762161cc4887af5a097190f26\",\n    \"root_20261116_accepted_root_evaluation_reuse.py\": \"66c2ff0d0b29c41cef00cc6a77764e4e168d2885c52b3f56c2abd961fad8f97c\",\n    \"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\": \"40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1\",\n    \"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\": \"822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71\",\n    CLIENT_NAME: \"4f4865a5f99a7342965b669e8aea82de252caa05bf47d75c8722ad8f1628fc8c\",\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n",
+          "count": 1,
+          "id": "fulldn-literal-3"
+        },
+        {
+          "before": "    \"geometry_20261116_live128_projected_model_tail_client.py\": \"5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af\",\n    CLIENT_NAME: \"89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d\",\n    \"geometry_20261116_live128_tail_client.py\": \"9f32e5ddd376016e51f678d9f0328727e63d8aacb5c4583046dc705949cc1894\",\n",
+          "after": "    \"geometry_20261116_live128_projected_model_tail_client.py\": \"5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af\",\n    \"geometry_20261116_live128_cached_projected_tail_client.py\": \"89874678004442e1a1eab19ac14e11adfe604afae5aab30ca3f88ac1bb361b6d\",\n    \"geometry_20261116_live128_tail_client.py\": \"9f32e5ddd376016e51f678d9f0328727e63d8aacb5c4583046dc705949cc1894\",\n",
+          "count": 1,
+          "id": "fulldn-literal-4"
+        },
+        {
+          "before": "    policy = original.read(args.live128_policy)\n    if policy[\"schema\"] != \"R547-current-H-root-cached-live128-projected-model-client-policy-v1\":\n        raise ValueError(\"Explicit actual live128 policy, not an old completed61 response\")\n",
+          "after": "    policy = original.read(args.live128_policy)\n    if policy[\"schema\"] != \"R551-current-H-root-reused-live128-projected-model-client-policy-v1\":\n        raise ValueError(\"Explicit actual live128 policy, not an old completed61 response\")\n",
+          "count": 1,
+          "id": "fulldn-literal-5"
+        },
+        {
+          "before": "        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R547_live128_cached_projected_model_original_full_DN_orchestration_return\",\n            phase=state[\"phase\"], full_DN_returncode=state[\"full_DN_returncode\"],\n",
+          "after": "        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R551_live128_cached_projected_model_original_full_DN_orchestration_return\",\n            phase=state[\"phase\"], full_DN_returncode=state[\"full_DN_returncode\"],\n",
+          "count": 1,
+          "id": "fulldn-literal-6"
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_cached_projected_owned_run.py",
+        "bytes": 39356,
+        "sha256": "8feb1402a654fc4538bc61df14005d121151ed5165a895a88b076f460ad8836e"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_reused_projected_owned_run.py",
+        "bytes": 39356,
+        "sha256": "39712ee8fde3f75299dfced1a699e65a8ae790a472f406761fc03fd68e619079"
+      },
+      "patches": [
+        {
+          "before": "#!/usr/bin/env python3\n\"\"\"Request231: current-owner projected64 linear model with original128 values and full-DN gates.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"Request232: current-owner projected64 linear model with original128 values and full-DN gates.\n\n",
+          "count": 1,
+          "id": "runner-literal-1"
+        },
+        {
+          "before": "REPO = \"Rogerhu12/math-research-public\"\nSCHEMA = \"R547-live128-root-cached-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-root-cached-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-root-cached-projected-model231\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\n",
+          "after": "REPO = \"Rogerhu12/math-research-public\"\nSCHEMA = \"R551-live128-root-reused-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-root-reused-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-root-reused-projected-model232\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\n",
+          "count": 1,
+          "id": "runner-literal-2"
+        },
+        {
+          "before": "PROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_cached_projected_original_full_dn.py\"\nENTRY_SHA = \"a35cf28a196f748ef2429dcd319b7867019b684eec36981599f639b59b40f338\"\nRULES = \"root_20261114_current576_rules_runner.py\"\n",
+          "after": "PROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_reused_projected_original_full_dn.py\"\nENTRY_SHA = \"b95937dded2084453509c4b5ecaaca36767ae8314076b42cf49f77ea6d92db2a\"\nRULES = \"root_20261114_current576_rules_runner.py\"\n",
+          "count": 1,
+          "id": "runner-literal-3"
+        },
+        {
+          "before": "    path=checked_source(name,digest)\n    spec=importlib.util.spec_from_file_location(\"_R547_\"+role,path)\n    module=importlib.util.module_from_spec(spec)\n",
+          "after": "    path=checked_source(name,digest)\n    spec=importlib.util.spec_from_file_location(\"_R551_\"+role,path)\n    module=importlib.util.module_from_spec(spec)\n",
+          "count": 1,
+          "id": "runner-literal-4"
+        },
+        {
+          "before": "    require(base.parent==runner and base.name==NAMESPACE,\n            \"Only this exact request231 namespace is owned\")\n    return base\n",
+          "after": "    require(base.parent==runner and base.name==NAMESPACE,\n            \"Only this exact request232 namespace is owned\")\n    return base\n",
+          "count": 1,
+          "id": "runner-literal-5"
+        },
+        {
+          "before": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==231 and request[\"repository\"]==REPO,\n            \"The actual complete request231 bytes and schema\")\n    base=base_path(namespace)\n",
+          "after": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==232 and request[\"repository\"]==REPO,\n            \"The actual complete request232 bytes and schema\")\n    base=base_path(namespace)\n",
+          "count": 1,
+          "id": "runner-literal-6"
+        },
+        {
+          "before": "    base=base_path(namespace,exists=False)\n    require(not base.exists(),\"Use a fresh actual request231 namespace\")\n    base.mkdir(mode=0o700)\n",
+          "after": "    base=base_path(namespace,exists=False)\n    require(not base.exists(),\"Use a fresh actual request232 namespace\")\n    base.mkdir(mode=0o700)\n",
+          "count": 1,
+          "id": "runner-literal-7"
+        },
+        {
+          "before": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==231 and request[\"repository\"]==REPO,\n            \"The actual independent request231 with frozen221 as source ancestry\")\n    write(base/\"ownership.json\",dict(schema=SCHEMA,namespace=str(base),\n",
+          "after": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==232 and request[\"repository\"]==REPO,\n            \"The actual independent request232 with frozen221 as source ancestry\")\n    write(base/\"ownership.json\",dict(schema=SCHEMA,namespace=str(base),\n",
+          "count": 1,
+          "id": "runner-literal-8"
+        },
+        {
+          "before": "        write(base/\"preparation.json\",report,replace=True)\n        print(json.dumps(dict(event=\"request231_preparation_return\",complete=report[\"complete\"],\n            phase=report[\"phase\"],error=report[\"error\"],actual=receipt(base/\"preparation.json\")),\n",
+          "after": "        write(base/\"preparation.json\",report,replace=True)\n        print(json.dumps(dict(event=\"request232_preparation_return\",complete=report[\"complete\"],\n            phase=report[\"phase\"],error=report[\"error\"],actual=receipt(base/\"preparation.json\")),\n",
+          "count": 1,
+          "id": "runner-literal-9"
+        },
+        {
+          "before": "    os.environ[owner.ENV_NAMESPACE]=str(base)\n    policy=dict(schema=\"R547-current-H-root-cached-live128-projected-model-client-policy-v1\",namespace=str(base),\n        initial_guess=preparation[\"seed\"],job_deadline=receipt(clock),\n",
+          "after": "    os.environ[owner.ENV_NAMESPACE]=str(base)\n    policy=dict(schema=\"R551-current-H-root-reused-live128-projected-model-client-policy-v1\",namespace=str(base),\n        initial_guess=preparation[\"seed\"],job_deadline=receipt(clock),\n",
+          "count": 1,
+          "id": "runner-literal-10"
+        },
+        {
+          "before": "        write(base/\"execution.json\",state,replace=True)\n        print(json.dumps(dict(event=\"request231_actual_science_return\",actual_exit_code=code,\n            rules_returncode=state[\"rules_returncode\"],science_returncode=state[\"science_returncode\"],\n",
+          "after": "        write(base/\"execution.json\",state,replace=True)\n        print(json.dumps(dict(event=\"request232_actual_science_return\",actual_exit_code=code,\n            rules_returncode=state[\"rules_returncode\"],science_returncode=state[\"science_returncode\"],\n",
+          "count": 1,
+          "id": "runner-literal-11"
+        },
+        {
+          "before": "    raw=summary_path.read_bytes();summary=json.loads(raw)\n    require(len(raw)<=90000 and summary.get(\"schema\")==\"R547-live128-root-cached-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n",
+          "after": "    raw=summary_path.read_bytes();summary=json.loads(raw)\n    require(len(raw)<=90000 and summary.get(\"schema\")==\"R551-live128-root-reused-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n",
+          "count": 1,
+          "id": "runner-literal-12"
+        },
+        {
+          "before": "    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request231_cleanup\",removed=False,\n              reason=\"actual-owned-process-quiescence-not-proved\")),flush=True)\n",
+          "after": "    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request232_cleanup\",removed=False,\n              reason=\"actual-owned-process-quiescence-not-proved\")),flush=True)\n",
+          "count": 1,
+          "id": "runner-literal-13"
+        },
+        {
+          "before": "    shutil.rmtree(base)\n    record=dict(event=\"request231_cleanup\",removed=True,namespace=str(base),\n        ownership=identity_before,necessary_summary=summary_identity,\n",
+          "after": "    shutil.rmtree(base)\n    record=dict(event=\"request232_cleanup\",removed=True,namespace=str(base),\n        ownership=identity_before,necessary_summary=summary_identity,\n",
+          "count": 1,
+          "id": "runner-literal-14"
+        },
+        {
+          "before": "        result=quiet(args.namespace)\n        print(json.dumps(dict(event=\"request231_quiet\",quiescent=result[\"quiescent\"],\n              registry_count=len(result[\"registries\"]),unknown=result[\"unknown\"],\n",
+          "after": "        result=quiet(args.namespace)\n        print(json.dumps(dict(event=\"request232_quiet\",quiescent=result[\"quiescent\"],\n              registry_count=len(result[\"registries\"]),unknown=result[\"unknown\"],\n",
+          "count": 1,
+          "id": "runner-literal-15"
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_cached_projected_necessary.py",
+        "bytes": 59700,
+        "sha256": "bc26bbbe138ba75e0af66ba8793825ae31eeea7fb0d908196f0465594c3f3c98"
+      },
+      "output": {
+        "file": "root_20261116_live128_reused_projected_necessary.py",
+        "bytes": 60620,
+        "sha256": "25c2f0937b430ec71c9734296ff79c051e8cc705c1040a31f6211acac16b0318"
+      },
+      "patches": [
+        {
+          "before": "#!/usr/bin/env python3\n\"\"\"Request231 readback after the original scoped owned-process quiescence.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"Request232 readback after the original scoped owned-process quiescence.\n\n",
+          "count": 1,
+          "id": "reader-literal-1"
+        },
+        {
+          "before": "HERE=Path(__file__).resolve().parent\nSCHEMA=\"R547-live128-root-cached-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-root-cached-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-root-cached-projected-model231\"\nRUNTIME=\"geometry_20261116_live128_cached_projected_owned_run.py\"\nRUNTIME_SHA=\"8feb1402a654fc4538bc61df14005d121151ed5165a895a88b076f460ad8836e\"\nMAX_BYTES=90000\nFRAME=\"REQUEST231_CACHED_PROJECTED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"\nRUN_KEYS=(\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\n",
+          "after": "HERE=Path(__file__).resolve().parent\nSCHEMA=\"R551-live128-root-reused-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-root-reused-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-root-reused-projected-model232\"\nRUNTIME=\"geometry_20261116_live128_reused_projected_owned_run.py\"\nRUNTIME_SHA=\"39712ee8fde3f75299dfced1a699e65a8ae790a472f406761fc03fd68e619079\"\nMAX_BYTES=90000\nFRAME=\"REQUEST232_REUSED_PROJECTED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"\nRUN_KEYS=(\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\n",
+          "count": 1,
+          "id": "reader-literal-2"
+        },
+        {
+          "before": "\n# R547 adds only these explicitly named necessary metadata records. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n",
+          "after": "\n# R551 adds only these explicitly named necessary metadata records. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n",
+          "count": 1,
+          "id": "reader-literal-3"
+        },
+        {
+          "before": "    \"u_angular_rows_used\",\"u_angular_rows_fallback\")\nROOT_WORD_SOURCE_KEYS=(\n",
+          "after": "    \"u_angular_rows_used\",\"u_angular_rows_fallback\")\nROOT_REUSE_PATH_COUNTERS=(\n    \"iteration_sites\",\"original_main_evaluations_started\",\n    \"original_main_evaluations_returned\",\"reused_complete_evaluations\",\n    \"accepted_results_offered\",\"qualified_results\",\"shape_declined_results\",\n    \"nonfinite_declined_results\",\"no_next_iteration_results\",\"summary_words_visited\",\n    \"residual_words_visited\",\"angular_rows_visited\",\"angular_words_visited\")\nROOT_WORD_SOURCE_KEYS=(\n",
+          "count": 1,
+          "id": "reader-literal-4"
+        },
+        {
+          "before": "class RootWordMetadata:\n    \"\"\"Only R535 RootStats, its exact cache object and named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R547_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R547_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R547_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R547_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R547_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R547_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R547_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R547_physical_source_input_binding_ref\",\n    }\n",
+          "after": "class RootWordMetadata:\n    \"\"\"Complete RootStats including R535 and R550, plus named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R551_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R551_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R551_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R551_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R551_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R551_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R551_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R551_physical_source_input_binding_ref\",\n    }\n",
+          "count": 1,
+          "id": "reader-literal-5"
+        },
+        {
+          "before": "    def describe(self):\n        return dict(schema=\"R547-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n            reference_key_to_catalogue={key:name for name,key in self.REF_KEYS.items()},\n",
+          "after": "    def describe(self):\n        return dict(schema=\"R551-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n            declared_R550_each_path_counter_names=list(ROOT_REUSE_PATH_COUNTERS),\n            complete_R550_primal_and_trace_variation_and_full_last_retained=True,\n            R550_reuse_object_remains_an_original_complete_RootStats_member=True,\n            absent_or_null_R550_member_not_fabricated=True,\n            original_counters_count_only_actual_executed_work=True,\n            reference_key_to_catalogue={key:name for name,key in self.REF_KEYS.items()},\n",
+          "count": 1,
+          "id": "reader-literal-6"
+        },
+        {
+          "before": "                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R547_root_statistics_ref, then only its original root_finite_word_cache member when it carries R547_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R547_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R547_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n",
+          "after": "                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R551_root_statistics_ref, then only its original root_finite_word_cache member when it carries R551_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R551_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R551_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n",
+          "count": 1,
+          "id": "reader-literal-7"
+        },
+        {
+          "before": "            \"root_primal_uses_declared_R535_finite_word_source\",\n            \"actual_owner_scope_override\",\"executed_original_owner_engineering_sha256\",\n",
+          "after": "            \"root_primal_uses_declared_R535_finite_word_source\",\n            \"root_primal_uses_declared_R550_accepted_evaluation_reuse_source\",\n            \"one_direct_R550_installation_without_prior_R535_hook\",\n            \"actual_owner_scope_override\",\"executed_original_owner_engineering_sha256\",\n",
+          "count": 1,
+          "id": "reader-literal-8"
+        },
+        {
+          "before": "    request_path=args.request.resolve(strict=True)\n    require(sha(request_path)==args.request_sha256,\"Actual request231 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==231,\"Actual independent request231\")\n    base=args.namespace.resolve(strict=True)\n",
+          "after": "    request_path=args.request.resolve(strict=True)\n    require(sha(request_path)==args.request_sha256,\"Actual request232 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==232,\"Actual independent request232\")\n    base=args.namespace.resolve(strict=True)\n",
+          "count": 1,
+          "id": "reader-literal-9"
+        },
+        {
+          "before": "    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request231 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R547_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n",
+          "after": "    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request232 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R551_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n",
+          "count": 1,
+          "id": "reader-literal-10"
+        },
+        {
+          "before": "    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=231,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R547_source_composition=request.get(\"R547_source_composition\"),\n        request_number_is_current_public_request=True,\n",
+          "after": "    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=232,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R551_source_composition=request.get(\"R551_source_composition\"),\n        request_number_is_current_public_request=True,\n",
+          "count": 1,
+          "id": "reader-literal-11"
+        },
+        {
+          "before": "    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"R547_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_receipts\"]=reader.files\n",
+          "after": "    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"R551_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_receipts\"]=reader.files\n",
+          "count": 1,
+          "id": "reader-literal-12"
+        },
+        {
+          "before": "    except Exception as error:\n        answer=dict(schema=SCHEMA,request_number=231,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "after": "    except Exception as error:\n        answer=dict(schema=SCHEMA,request_number=232,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "count": 1,
+          "id": "reader-literal-13"
+        },
+        {
+          "before": "        retained.write_bytes(raw)\n        answer=dict(schema=SCHEMA,request_number=231,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "after": "        retained.write_bytes(raw)\n        answer=dict(schema=SCHEMA,request_number=232,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "count": 1,
+          "id": "reader-literal-14"
+        }
+      ]
+    }
+  ],
+  "source_readback_representation": {
+    "pure_metadata_text_donor": {
+      "file": "root_20261116_live128_declared_model_request_source_views.py",
+      "bytes": 32840,
+      "sha256": "543b1d271a7e98cb72babb8a83ebe805ac2f98f72162703283ea3fa3fed56c70",
+      "blob": "64ffe184486181a1aea3e986aceb0cf48cd04274"
+    },
+    "donor_imported_as_runtime_dependency": false,
+    "original_R547_reader_actually_called": true,
+    "original_child70_and_false_fallback_preserved": true,
+    "complete_retained_overflow_file_read_and_actual_bytes_SHA_bound": true,
+    "same_job_original_overflow_path": "RUNNER_TEMP/request231-source-preparation/necessary-source-overflow.json",
+    "full_original_necessary_scope_not_reconstructed_from_descriptor": true,
+    "actual_R547_source_record_bound_but_not_redundantly_embedded_in_current_prepare": true,
+    "complete_R550_source_binding_and_all_errors_partial_states_retained": true,
+    "fixed_tables": [
+      "verified_ancestor_sources/verified_public_sources exact-source inventories",
+      "literal_changes/replacements full identity rows"
+    ],
+    "inventory_catalogue": "The actual frozen231 complete387 map plus these15 exact current additions; original full paths and SHA must match before indexing, observed actual bytes/key order/row order remain explicit.",
+    "literal_columns": [
+      "id",
+      "count",
+      "before_bytes",
+      "before_sha256",
+      "after_bytes",
+      "after_sha256"
+    ],
+    "literal_SHA_strings_full_named_dictionary": true,
+    "missing_null_key_order_row_order_and_unknown_shapes_retained": true,
+    "ordinary_original_complete_body_or_bound_retained_full_overflow_body_then_new_scope_independent": true,
+    "limit_bytes": 90000,
+    "overflow_exit": 70,
+    "no_segments_no_generic_tree_codec_no_future_size_promise": true,
+    "each_actual_stderr_including_empty_has_identity_and_complete_text": true
+  }
+}
