@@ -14,7 +14,7 @@
 
 闭连通材料面；每个Ft为C²嵌入，t∈[0,1]在C²拓扑连续，**同一固定g**；固定材料H有内点且diamF0(H)≥.2D；无刚体对齐整像δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6且同g/参数/时间精化下降。完整网格每件<5MB，严格存在差距如实报。基本门后继续.5D或严格存在。当前全部门未付。
 
-core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266011746是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
+core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266009923是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付全抽象闭面固定g的|Kg|<2381/11<217<(1000/61)²；原六弓帽/椭圆柱K0，R=.274是材料盘半径。Gaussian必要乘积界未排reach，不授外曲率/存在。完整新增P5四u/P8四v及零总高度P8′一列，旧159嵌入168，新9物理函数商独立；全T三导/位置二jet/J公式与左C4/右平坦保原接口，尚待新模型。
 
@@ -34,20 +34,20 @@ R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；
 
 **完整真实路径。** R469/472保A/T、双芽、所有W/V和一般w；R480全W外三矩只付重复A0无漂移。R482给原13状态/2输入完整K=F+Chh″+Ckk″，第三入值/真实Mraw不删；R484离开保护芽要实际rank退化，R486排开状态域F恒0而非所有路径。R488真sec支(k0,ω常,h=Hsec)的全K=(a+bv+cv²)/h，t1′<0排自身M0返回/常collar接合；R492 even母period核odd β锁在原13行中。R494任意紧输入β不依H/对ω仿射，双真中心odd差只读β((A2−A1)D)；R70桥tP除至多一ω有严格残值，不能由同w/后置复位消，但非全路径障碍。单段even、真实桥全s与全部成本须同一规范解；高阶收敛与主几何仍欠。
 
-## 4. 当前真正接受点55与闭合任务
+## 4. 当前真正接受点56与已付输入
 
-[原55完整来源](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)：run43832870561/research133182173190/report133189124646/source23b37e90cbc1ac33ca6ff8ac1f91fa7a95c903db。2新行集/3cuts、62scalar后1actualpair接受55。η粗 **.2660117457770361**、细 **.2660117461153504**，降6.34918406849927e−7；κ细57.99944919079858略升。两网14门/准确163盒全真，.26target/主reach未付。
+[原56完整结论](notes/true55-new-nine-original-two-grid-accepted56-20261116.md)：run43842056373/research133212892062/report133219956044/source86852956f10ec609ba423990a40327284f081c44。一新11变量模型33迭代/66系统、一次全网分离无新行、62scalar后α1的一actualpair接受56。η粗 **.2660099234147515**、细 **.2660099232963724**，相对55降 **.000001822700598896887**；κ细57.9994439861529。两网原14门/准确172盒全真，.26target/主reach未付，微负cap高度仅原容差内。
 
-55 physical **39e71805432d8e1814032200b8cb70973e95475b4ec02696233a7bb37e57746e**；independent159 **a66f9708cb878b5d700de8ca072017daa39ff3913f061315fe070f8b54bb7fc2**；objective **5407778b5d8290ee1ad257259e0bcfe378147e805a8fc90eb12b4db230d183d1**。两池4453/4549、v14/14本次无新增；bank512/B.00025/streak0/0、learning61/62/0原passive状态保checkpoint。帽高微负浮点在原容差，不称连续证书。
+56 physical **11c07425846f224c2d05997068b6442fa28a65383b5af5dce3eb2789da0593dd**；ind168 **aa7d8f3fb4d1bfea7aa4a05fef3b23babefbc344c5ea78f7b321b141a2d5181b**；coordinate c69967fb9b864f3e95da411610b74d5477c58891352895b493aee6e482d960de；field81e6881cd1f36d87a865cd9cc8c51ee8480d2ac8278241d97fb19666486eba8d；objective812add123c552afc4e7d7cce1c2cd19f9bbbb3e445fc179e73615cafbd122b4f。旧159固定55、新9非零；两池4453/4549、v14/14无新增。原159 bank/controller只保来源，不能当168规范。
 
-原完整stdout身份见55note。该54任务总 **196.268239511秒/4值**，含全部本进程imports/input/output；祖先总 **2073.56241112秒/134值**，旧全部backend/J/验收回放与独立开发0，无overrun，600任务随接受闭合不重开。
+同任务首失败75.06856296999999秒/1已付coarse，续接恢复不重算；最后总 **160.00398343599997秒/4完整值**、祖先 **2233.566394556秒/138值**，无overrun。任务因接受56闭合，不重开余额。旧55源及其原159状态保[前页](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)。
 
-54 MODEL已闭，不能当55 J。真实55 CACHE2为29873051B/9e2d8986f82674d5fef27b530b177798419a203bfbef4782c632c23a8ed5870f，binding697ee3cbaa48d26e0d6b0e230524523732c3cd96e572711ebf2044e9c5a3a2b6，只含已付U/T/e/f/grid/159，缺positions/curvature/二jets/J；完整身份见原55note。全部payload仅原stdout。
+56 CACHE2为29867329B/c8ad34a26c6f5ade483d07189bc718bd13c3bec1c24caa0b9ff3aaa949337a4e，binding a6465ff91278055caf0c64e374751901f06e23361b760d3414c89c4e87020b60，含同点U/T/e/f/grid/168，无positions/曲率二jets/J。原55 MODEL、55方向CACHE和54旧159J均不能冒56输入；全部payload仅stdout。
 
-## 5. 正在接续（2026-11-16 09:42:47 UTC）
+## 5. 正在接续（2026-11-16 10:00:04 UTC）
 
 [三原子完整五门](notes/three-curvature-atom-complete-five-gate-observation-20261116.md)已结束：run43837374645/research133197253175/report133197546045/source7f341445…，36固定起点全返回，2119complete/0fail，总 **4.541460807000007秒**。best原G∞ **.0014877791991098396**（start24中间seq3001，非最终scaledcost），H.6101807800524467；无候选/无有理证书。旧cap15与新三原子36起点任务都闭，不重开余额，不推出cap不存在。接五门全局结构或真正新模型。
 
-[55新9首输入失败](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/report133208451697/source09f498cac5d2fad47a35f007b68fe66218420d98。coarse ordinary已完成，row_values的a(160,)需[:,None]到160×384；0J/0master/0scalar/0actual，55未变。同任务已付75.06856296999999秒/1necessary值，祖先累计2148.63097409秒/135值。partialMODEL26079459B/9eb1bb5aa0c494dc03cc21235bff51c94b634fd47ea24c0b9ecdd561db02a6e8保粗网七数组/metric/height/center/grid；raw/hash见原note。[最小续接](notes/true55-new-nine-paid-coarse-input-shape-repair-20261116.md)源/请求已发布，后继run43842056373/source86852956f10ec609ba423990a40327284f081c44已完成、原报告已取回正在读；恢复已付coarse，不ordinary重算。原75.06856296999999秒/started1先载入同600钟，fine仅余1necessary。原全部16模型/64新行/64scalar/3actualpairs与14门/172盒不变，旧159J/开发0；失败不排9fiber。
+新9已完整接受56，下一步对非零新9的同一当前场求全168联合模型。旧基函数可复用，但T及所有混合链式导数、原scalar收缩须用当前56；不能把55旧159导数拼到新9。R498四原子新模型源正在完成，64固定新起点账户尚未执行。
 
 主完成门未付，继续open。
