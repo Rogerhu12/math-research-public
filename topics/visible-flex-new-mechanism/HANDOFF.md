@@ -22,17 +22,15 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 ## 3. 当前理论接口与剩余义务
 
-完整原式/范围在[results](results.md)，活动任务在[open](open.md)；R495以前详细H保于[已发布前页](https://github.com/Rogerhu12/math-research-public/blob/ddfee4bec1f80bcd4ad22cb86d961fbeb4667643/topics/visible-flex-new-mechanism/HANDOFF.md)，压缩不撤任何端germ、原成本、whole-period或同规范义务。
+完整原式在[results](results.md)、活动任务在[open](open.md)。R495前细H保于[已发布前页](https://github.com/Rogerhu12/math-research-public/blob/ddfee4bec1f80bcd4ad22cb86d961fbeb4667643/topics/visible-flex-new-mechanism/HANDOFF.md)；压缩不撤同母、双germ、全库、原成本和whole-period义务。
 
-**真实cap。** R455/464付同真宽/母/右锚的q4/F★/20根与最高响应；R460保simple-p留数和解析端芽，完整Af partial/平台/gap/双germ仍不可删。R471五门Δ1/2/3/4/6全0 iff原完整self比例；R475全12L/8Aj。R481/487真五控制/logρ与有限IFT只付局部下降。R483紧化保远左C≥0，R485排critical/uniform全部C，R489排单曲率集中并保两个分离质量窗；未给统一逆。R491完整E/两原子五多项式不靠相位猜非零；R493三原子5参/解析J的严格正则真零可有限平滑恢复，但36起点无候选、账户闭。冻结ψ3仅排该母；R466仅限同Jaff/canonical正时长/同端口/M0。任何新母仍要从起点安装原库及R479共同c、A7/s、A0/(h³s²)。
+**真实cap。** R455/464的真宽/q4/F★/20根与最高响应、R460 simple-p留数/解析芽保留。R471五门Δ1/2/3/4/6全0 iff原self比例，R475全12L/8Aj。R481/487有限IFT只局部下降；R483保远尾C≥0，R485排critical/uniform全C，R489排单曲率集中并保两分离质量窗，无统一逆。R491完整E与两原子多项式；R493三原子正则真零可有限恢复但36起点无零；R498四原子7参完整12L/8Aj/5G和解析J，C0只能用5shape列恢复，64起点亦无零。两账户均闭。
 
-R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；严格7A5A7−3A6²>0保正Af/C余项。首原子消失先并Ceff，再全C²/C/1有限差输运五门，新高项受Ceff单侧约束。
+R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3A6²>0、首原子消失先并Ceff再完整输运。R496用真实端项给A/R≥(y−1)/2、相位单调与H≥2排除，但左d可正无界。
 
-**[R496](results/R496-monotone-complete-cap-phase-and-the-strict-H-ge-two-obstruction.md)新全类门：** A=ReZ、b²=2H−1，原图给A/R≥(b²−1)/2及完整单调相位；精确IBP得ImE=b∫R(d²+b²)[r(b²R²−3A²)−2AR²]dr。因此H≥2时ImE≤−8b³(b²−1)/15015<0，任何实际五门零须 **3/5<H<2**；弱原子/远尾C均保。平方余量另给原比例λ必要区间；有形式八系数通过这些有限门，不当实际cap或剩余区间无解。接真正新四原子/7参及全图问题，不重开旧36。
+**[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)更强全图门：** R/Rc≥1且递减，Rc=(r−r³)/2；反向Chebyshev给N0≤13D0/4及正部界c*=1/4+89/(216√3)。d≥0区r/R≤3，d<0区才d²≤1，因此N≤(13/4+c*/y)D−(1/4+c*/y)Dd，保严格余项。令P*(y)=39y³+(12c*−114)y²+(23−40c*)y+12c*，在[8/3,∞)唯一根y*∈(19/7,49/18)；H*=(1+y*)/2∈(13/7,67/36)。完整ImE在H≥H*严格负（等号也由Dd项付），故五门真零仅可 **3/5<H<H***。同稿给完整ReE式，尚未证该剩余区间联立无零；C、线性图段与所有端项保。
 
-[R498](results/R498-four-separated-curvature-atoms-and-complete-seven-parameter-cap5-design.md)付4真原子/7参完整12L、8Aj、5G及5×7解析J；质量≥1/18、真实间距≥3/50、H<2，新64起点180秒/6000值。C0根只能用5个shape列有向验证与正尾IFT，C>0可选7中5；未宣零/秩，旧36账户仍闭。
-
-**完整真实路径。** R469/472保A/T、双芽、所有W/V和一般w；R480全W外三矩只付重复A0无漂移。R482给原13状态/2输入完整K=F+Chh″+Ckk″，第三入值/真实Mraw不删；R484离开保护芽要实际rank退化，R486排开状态域F恒0而非所有路径。R488真sec支(k0,ω常,h=Hsec)的全K=(a+bv+cv²)/h，t1′<0排自身M0返回/常collar接合；R492 even母period核odd β锁在原13行中。R494任意紧输入β不依H/对ω仿射，双真中心odd差只读β((A2−A1)D)；R70桥tP除至多一ω有严格残值，不能由同w/后置复位消，但非全路径障碍。单段even、真实桥全s与全部成本须同一规范解；高阶收敛与主几何仍欠。
+**真实路径。** R469/472保A/T、双芽、所有W/V与一般w；R480外三矩仅付重复A0无漂移。R482原13状态/2输入完整K=F+Chh″+Ckk″及Mraw保；R484离保护芽须实际rank退化，R486只排开状态域F恒0。R488单真secant的t1′<0排自身M0返回/常collar；R492 even period核odd β锁原13行。R494任意紧输入β不依H且对ω仿射，双真中心odd差β((A2−A1)D)；R70真桥除至多一ω有残值，不能同w/后置复位消，但非全路径障碍。接非even完整period及新构造，主几何仍欠。
 
 ## 4. 当前真正接受点56与已付输入
 
@@ -46,7 +44,7 @@ R495用R=p−(t+1)r凹图准确保C/U/H、Af/simple根、8Aj/E和原子跳变；
 
 ## 5. 正在接续（2026-11-16 10:18:03 UTC）
 
-[四原子完整搜索](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)64起点/2071值/6.541216640999892秒，best原G∞.0014851172678647607、H.6104871150176137，无候选；账户闭，不重开余额，不推全局无解。三原子旧36亦闭。理论继续完整凹图 .6<H<2 的Re/Im联立条件与完整13状态周期桥。
+[四原子完整搜索](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)64起点/2071值/6.541216640999892秒，best原G∞.0014851172678647607、H.6104871150176137，无候选；账户闭，不重开余额，不推全局无解。三原子旧36亦闭。理论继续完整凹图 .6<H<H* 的Re/Im联立条件与完整13状态周期桥。
 
 **[真实56全168新模型](notes/true56-full168-joint-model-design-20261116.md)run43847611444/research133231619868运行中。** 同当前非零new9场新求两网ordinary/全部原池selectedJ168，全部168可动，172准确物理盒、h=4||Mδ||∞≤1。保全部原rows/端点/区外，不复用55最终J。新600秒含输入/导数/求解/标量/actual/输出；2ordinary+2selectedJ、8次全网分离/8个严格新增行集master、32新tag、64scalar、最多3actualpair。旧56账户160.00398343599997秒/4值闭，祖先2233.566394556秒/138值保。source a9da16278c336ec5d6ce3be88502263d04429324；workflow visible-true56-joint168.yml；尚无新科学返回。
 

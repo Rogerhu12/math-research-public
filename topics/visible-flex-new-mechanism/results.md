@@ -401,3 +401,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 [四原子原结论](notes/four-separated-curvature-atom-complete-five-gate-observation-20261116.md)：run43845218578/source18a30d5054a4a2755616ca1c71fcf8870ce1f3d8，64新起点均返回、2071完整值0fail，总6.541216640999892秒；原G∞ best.0014851172678647607、H.6104871150176137（start46中间seq2925）。没有候选、没有minor/Decimal/有理证书；有限返回不当驻点/全局无根。账户闭，不再用余额；继续(.6,2)完整图与真正56全168联合模型。research/report真实pull双README空diff，最新0e259e94…、私有2d9aabe7…QUEUE进行中，下一≤11:03:38。
 
 - [真实56全168联合模型设计](notes/true56-full168-joint-model-design-20261116.md)：同一当前场的170变量新模型；原全部rows/172物理盒/14actual门，current selected168+方向JVP；600秒新账户，不复用55最终J或重开旧任务。主完成未付。
+
+- [R499 完整cap加权比较与更强高度障碍](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)：**已证明**R/Rc递减及带d²权的严格比较，五门真零必3/5<H<H*，H*∈(13/7,67/36)由明确三次根指定；同时给完整ReE身份，剩余区间联合符号未付，非主完成。
