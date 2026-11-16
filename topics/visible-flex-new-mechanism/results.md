@@ -122,3 +122,5 @@
 - [R546 同一规范真实二次矩脉冲及单坐标准确归零](results/R546-real-quadratic-matrix-pulses-and-an-exact-same-gauge-zero-coordinate.md)：**已证明**完整M2秩一幂零表、两正则图的有限真实矩增量与四预定读出中一条的双号；端时间IFT给任意有限单目标，保k>2及净负p1。原history全保，t1速度成本仍非正，其余矩/返回门未闭。
 
 - [R544 一个固定Gram内净负p1与净正t1的完整真实路径](results/R544-one-fixed-gram-and-a-real-path-with-negative-p1-and-positive-t1.md)：**已证明**真零历史四端loader、含完整A/T的有效三Gram、原单h″吸引反馈及长尾联合耗散/历史界，在同一χ全词同时付总p1<0与中心总t1>0。快速度负成本、长尾真实γ²与完整强合法门均保；仍有p2及其余矩/末germ/pose/period未闭，不授M0或跨母拼接。
+
+- [真正58全51后缀控制的新53变量设计](notes/true58-full51-whole-suffix-design-20261116.md)：**源码/参数已接线，尚无科学观察**；原51控制全部释放、完整21后缀两网、900秒新账，旧whole34闭账不重开；唯一true58/原g/b0/14门/准确盒保，大数组紧凑绑定及0临时磁盘缓存，待公开Actions原返回。

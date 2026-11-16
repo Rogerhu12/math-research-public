@@ -1,16 +1,18 @@
 # HANDOFF：大振幅新机制
 
-**进行中、未完成；没有满足README全部门的完整候选。** 会话Astra-new-mechanism-9974ea84。root独占refs/push/Actions；结论写完立即推，NFF真实rebase后循环续推。主入口：[open](open.md)、[索引](results.md)、[log](log.md)。本次压缩不撤原前提/成本；完整证明、逐次回执及旧H保在链接和提交历史。
+**进行中、未完成；没有满足README全部门的完整候选。** 会话Astra-new-mechanism-9974ea84。root独占refs/push/Actions；结论写完立即发布；原生NFF真实rebase续推，故障fallback边界见§1。主入口：[open](open.md)、[索引](results.md)、[log](log.md)。本次压缩不撤原前提/成本；完整证明、逐次回执及旧H保在链接和提交历史。
 
 ## 1. 已读规则与实际pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于16:19:30→16:19:40 UTC真实pull --rebase，已读上游 **7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**16:38:36 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆。最后**已确认本地public真pull**为16:19:30.281585→16:19:40.478206 UTC，读 **7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352**；双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一真实public pull须≤**17:19:40 UTC**。
 
-private于15:38:18.302128→15:38:36.939187实际pull读 **5a8a5834cadfca176866c6542849519e82f6adce**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
+private于16:24:57.132524→16:25:17.334486真实pull读 **9c5ec050ed672180245cf65312af93bef2ab937f**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE会话唯一进行中；下一≤17:25:17。私有正文不发表。
 
-各旧CI真实pull回执见原闭账note。whole34研究pull正文当前缺失，不虚构读SHA；report于15:53:31读public7af9e725e58983a740d3cb53c66b73166914e247、15:53:35读privateafa9c6cf31ba0b6f02955fdfd3158001d4b750ab，规则不变/QUEUE唯一进行中，不替代本地小时pull。
+16:26–27的本地public pull虽rc0，却报rebase-merge磁盘满且未整合upstream，**不算成功pull**；当时只在本地生成的H不授新读SHA。清理本仓126个孤立GC临时pack副本2016603782B，保全部正式pack和研究文件；16:31起执行环境不可用，后续原生push无成功回执。按根8用GitHub小UTF8源码/MD接口发布，expected-head且不force；**API读/合并不冒原生pull/rebase**。新公开Actions在科学前真实pull双仓并核规则，获得回执后补H；本地恢复后立刻原生pull。规则改变只读diff立即执行。详见log。
 
-三公开来源14:58–15:00复核ab9fda47b85a427061a3a01639d78507169fedf6，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本、元数据与已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。API读取不冒actual pull。
+本次API读取1e17368751a8e517a7497aa9d14031ee4817598b，双README与上述身份一致，不替代实际pull。旧CI回执及whole34缺失研究pull边界见各notes。三来源核对与所读SHA见[来源状态](notes/public-source-topics-current-state-20261116.md)。
+
+科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本/元数据/已有输出。PAT仅CLI/env，未给API。根12无额外开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。
 
 ## 2. 主门与当前固定几何
 
@@ -30,19 +32,19 @@ private于15:38:18.302128→15:38:36.939187实际pull读 **5a8a5834cadfca176866c
 
 **R533/R536/R540为同一33母路线。** 从原R520类型起点保原20、共同cap、固定I与新13真实目标/能量OΛ；完整速度H在预选合法紧盒不定，独立m/χ。R536真长常态前缀、完整快高度回路、端点IFT与平滑恒负保持，在一次χ下付净负总p1^{ωc}；同段准确停止可清此单矩。t0=L⁻²/Λ=L⁻⁶，正回路成本和完整第三−t0²Ac²/2全部计入。R540再以真实短高度下降准确进入同一X>0支，有限合法null弧/有限光滑脉冲到k>2且保总p1负。m/T从不重置；只有三p列无速度平方，其他五矩可很大。仍欠七矩/全M0、末germ、pose/T/V/period与同一13，不授可加零端口块或完备流。
 
-**R542**已严格排R540的整个短快配平族：真实常态前缀给t1及中心t1^c各−t0/8，后继O(L⁷)时长、任意有限高幅/步数下两总量仍<−t0/16。归零须Q_c T≥−8T_c(entry)+∫(h′/h)²，并付端高度的二次时长下界；完整γ0判别式及足够长同χ慢轨道仍待，未排本母全部路径。
+**R542**同33母原t1/中心t1的前缀−t0/8不能由整个O(L⁷)快族回收；归零须Q_c T≥−8T_c(entry)+∫(h′/h)²。γ0判别式、实际同支慢轨道/足够时长仍待，未排全母。
 
 **R546**同33母原输入付Δ≠0；完整M2表、X/Y真实B²快脉冲与端时间IFT给四预定读出中一条任意有限目标，保k>2/净负p1。原T/ramp全付，t1两方向仍非正；Y非零过Δ0为原正则延续，不授全矩返回。
 
 **R521为另一正交母库。** 固定有限正复制和共同0…10矩付全相位sin²θ、完整k″正系数；不继承R459/520共同cap/原20/13。R523短反射块Atot≠0；R526的倒行/四段闭词须先有真同χ M0/K0块及匹配germs，第四仍加倍/四倍。R528排无极点域正长度K0常态。R530/532双边全history反馈付四奇端IFT及四偶局部开像，小L t1负且参数间χ会变，不授M0。
 
-**R534/535/537/538/539同R521母续接。** 原一次大Gram零history前缀总p1正δ⁷，固定d负增量δ¹⁰不足。完整j/T̃和修改能量付先固定有限高度全段；C⁴/真开放入段的强准备给d/δ²→D_h、j/δ²→J_h及总p1/δ⁴→∫(2D_h²−h²J_hD_h)，D_h须由原A/T生成。R539从起点另选ν2/ν0，真loader/IFT付D_e=h1²J_e/4，保T_e的常高尾D有有界二次漂移；先有限尾长再ε/δ付净负p1及唯一单矩零。t1仍负，其余返回未闭；不预支δ依赖长高路径或原K0常态。
+**R534/535/537/538/539同R521母续接。** 真零history前缀总p1正δ⁷，小固定d负增量δ¹⁰不足；完整j/T和强准备只授先固定有限C⁴高度/时长后δ，D_h由真实A/T生成。R539从起点另选一次Gram，以真实loader/IFT与保留T_e的有限常高尾付净负p1/单矩准确零；t1仍负，不预支δ依赖长高路径或K0常态。
 
 **R541**同R521母从零history另选一次大Gram，稳定非零叶q(h)的完整快慢能量/真强准备付e/e′=Oδ²；先有限高h1/尾长后δ，实际到k>2且总t1^c>0。尾k/ω微变平衡A/T，非原常态；总p1>0/p2<0，未M0，不能拼R539另一χ。
 
-**R543**稳定叶W′>0，任意非恒高度往返仍总p1正；先固定有限T/TV的实际Oδ²跟踪保号。真离叶ρ′=−2(d−q)h′/h³，重新落叶负号门已付；同窗口负p1/正t1^c有限几何目标尚欠真实入口/驻留，不能作已成桥。
+**R543**稳定叶W′>0，有限T/TV实际跟踪总p1仍正；真离叶ρ′=−2(d−q)h′/h³给负号必要门，不预付入口/驻留。完整条件见索引。
 
-**R545**完整δA/δ²T快系统在δ=ζε给真端点IFT；零入能二阶ρ非负，振子返仅清该阶，原p1正/t1负及第三面积成本全保。非零真实初能量负j接口只供从起点一次新Gram，实际慢段/长时统一history待付，不拼旧χ。
+**R545**完整δA/δ²T快系统/端点IFT保全p1正、t1负和第三面积；零入能二阶ρ非负，非零初能量负j接口须从起点同一新Gram，不能拼旧χ。
 
 **R544**同R521母从真零history一次选H0>√3H的新Gram；完整快四端IFT接同反馈germ，原h″吸引反馈准确付质量因子/阻尼/刚度。先高h1=Lh/√λ及尾常数、再λ、最后δ=λ²ζ；完整Abar/Tbar联合bootstrap和j分部付Cλ²/δ长尾，保强合法/全γ²成本，真实净p1<0与中心t1>0同时成立。高尾p2正，其余矩/末germ/pose/第三第四period/13未闭，继续同χ返回，不拼33母。
 
@@ -50,7 +52,7 @@ R512/515/517的YC字面同形库和所有R469–509旧尾/period/13条件各保�
 
 ## 5. 已在继续的真实下一问题
 
-**O2**[whole34完整闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb，9/false/120iter，盒58/61与准确norm失败，0预测/actual，仍58。新184.71003744799998秒，总3231.8129525510003/147原full值；另142新两网q/120J/1920导数block，余额闭。joblog及runZIP只取3条尾记录367277B，MODEL/J/大trace正文缺失不能复用；raw36/q168/172与最终账确存。下一全原后缀51系数+K/h，释放旧R0方向，900总秒/360solver秒/240iter/480物理点/960backend；唯一true58，新源接线中未执行，旧范围不重启。大数组仅binding/成本，有限紧凑输出；原完整14和连续主门全保。
+**O2**[whole34完整闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb，9/false/120iter，盒58/61与准确norm失败，0预测/actual，仍58。新184.71003744799998秒，总3231.8129525510003/147原full值；另142新两网q/120J/1920导数block，余额闭。joblog及runZIP只取3条尾记录367277B，MODEL/J/大trace正文缺失不能复用；raw36/q168/172与最终账确存。下一全原后缀51系数+K/h，释放旧R0方向，900总秒/360solver秒/240iter/480物理点/960backend；唯一true58，[新源/设计](notes/true58-full51-whole-suffix-design-20261116.md)与370源请求已接线，push触发一项新研究；尚无新科学观察，旧范围不重启。53原变量/返回全保，大数组只binding/成本；RAM仅当前q及所需J，0临时磁盘数组。原完整14/连续主门保。
 
 **O4**同R533母R536、同R521母R539各已付一次χ的净负总p1及单矩准确零，R540另已付33母同支k>2，R542已付快族t1总负/真实驻留时长门，继续各自同χ慢轨道、其余七矩和全部返回门。R537/538只授先固定有限高度/时长后δ，近k0的t1仍负；R530/532四偶局部开像尚无真零。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付，不能混母或逐段换χ。
 

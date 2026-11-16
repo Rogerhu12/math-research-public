@@ -253,3 +253,11 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 ## 2026-11-16 16:19 UTC：R544同一χ真实全词兼容两净矩号
 
 [R544](results/R544-one-fixed-gram-and-a-real-path-with-negative-p1-and-positive-t1.md)完整纸证非平衡真零history四端IFT/同反馈germ，以及原h″反馈的非奇异质量因子和法向正刚度/正阻尼。完整Abar/Tbar的长尾联合bootstrap、真实j分部及全γ²成本使同一次Gram下总p1<0、中心总t1>0；root读入全文并明确k/h的全强合法余量，无科学执行。其余矩/返回门继续；不拼33母。R546已推8dbd975a2040a9426e6858745c99c86c484d3221，三次实际pull均README空diff，最新16:16:57读990ae3dd4a6277dbeef3dd4852215740057a1c1c。新全51模型/包装接线中，仍58。
+
+## 2026-11-16 16:41 UTC：真实pull回执修正、环境故障与全51新研究入口
+
+私有16:24:57.132524→16:25:17.334486实际pull读9c5ec050ed672180245cf65312af93bef2ab937f，根规则不变/题README无/QUEUE本会话唯一进行中。public最后已确认真pull仍16:19:40读7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352。16:26–27旧helper只看rc0，但stderr明确rebase-merge磁盘满、upstream未祖先；当时本地H“成功”记录无效且未发布。中止NFF循环后仅删除本仓126个孤立旧GC .tmp-pack副本2016603782B，保正式pack/唯一对象/所有研究数据；禁本地auto GC，helper增加stderr/upstream祖先/README读取验证。16:30续push未得回执，16:31执行环境断开；API核远端仍最后本题R544 8c9927dabbd588c95fe2affd0e1798af3ca779e9，无故障修正伪发布。
+
+按已读根8小UTF8文件fallback，用连接器身份发布源码/Markdown；未传PAT，API读/expected-head合并不称原生pull或rebase，非快进保持他人提交并重新基于最新头发布。16:39读取1e17368751a8e517a7497aa9d14031ee4817598b双README身份未变。新Actions研究/报告首步均真实pull公私仓、核双README/QUEUE后才科学；回执另补H，本地恢复立即pull。工作流文件位于题外.github/workflows，因为用户明确本公开仓Actions且入口必须在该目录；没有改规则。
+
+[全51设计](notes/true58-full51-whole-suffix-design-20261116.md)/[完整合同](notes/true58-full51-whole-suffix-model-contract-20261116.md)和唯一请求绑定370源码，旧359hash不变；请求81390B/d6f68629b5d4824e46cec16da1ecd061456d823d0b2ef2b3a2deca7dc08ac172。释放原51控制+K/h，900总秒/360solver秒/240iter/480q/960backend，原g/b0/14门/172盒不变；原raw53和完整返回保全，大数组绑定摘要/RAM当前缓存，零临时磁盘科学数组。当前只源码文本/元数据，0科学/开发执行；push触发新公开研究，未授59，主门继续。R547/R548完整稿将逐篇读后立即另提交。
