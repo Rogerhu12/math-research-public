@@ -10,3 +10,8 @@
 ## 2026-11-16 07:44:00 UTC /root — R496三层真实native来源与全消费者接线
 
 [R496](results/R496-current-C-three-level-native-zero-elision-source-registration.md)/[接口](notes/2026-11-16-current-C-three-level-zero-eliding-native-interface.md)五件gen11895/4d4c、stats5941/0b875、plan77274/e1bef、proof19163/45d5、接口29531/1937已成；正式216/旧33→49真实新view，166literal/445应用只完整源码，展开不入Git。三worker真用R494 captured205b/R474有限零j作用，新旧receipt分列、双mean/全列/fallback/九计数保；samefar按实际legacy选对应hook且不跳FD。原453→450、同far112、全M/真CP/几何材料显示全来源连接，原H/J/fullDN/末门/钟/32GiB/全far账消费不减；未执行不预填速度或接受，218继续R498/R499实际资源后继和workflow_dispatch。
+
+
+## 2026-11-16 07:57:00 UTC /root — R499完整规则资源语义表
+
+[R499](results/R499-complete-rule-resource-semantic-tables-and-single-readback.md)/[接口](notes/2026-11-16-complete-rule-resource-readback-interface.md)三件reader17117/b42e、proof10761/aba6、接口8645/80eb已成；原6000/600b先完整选择，固定明确列/README原词对表有逐分支严格逆，未知行/错误/omission全部原样，UTF-8保原值。原quiet/来源/单90K超70/完整marker及全部cleanup条件保，不预言fit、不回填21294138；218须独立真实owner来源与composition always接线，无新科学门/运行/接受。
