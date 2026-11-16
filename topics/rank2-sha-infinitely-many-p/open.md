@@ -158,3 +158,8 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 
 - [R844](results/R844-original-genus-four-cm-order-seventeen-and-two-neighbors.md)：原最低g4项的全Hom在Hη=H34定义；τ对F/整个g-packet的−1/ω使实际D/r/s/映射下降K3=K(∛17)，保cubic twist d。真实Prym End无quadratic特征迫√B∈K3，两j0 twist比的17惯性阶6给v17(j±)=|n|/6非整数；CM主定理及域degree≤6唯一迫两个整数order17、K(μ)=H17=K(17^1/6)、A²−4B∈17K3×²。三个实际二邻点才是order34/j域H34，原三同源为唯一horizontal3。全原系数/次数保；未认原q/q4对应、canonical或非零g4存在。
+
+
+### R845：二挠点及四同源结构已付，原对应仍缺
+
+[R845](results/R845-original-two-torsion-field-and-cyclic-four-isogenies.md)在原条件g4项上明确给E+[2]、实际三个二同源、非回溯循环四同源及同原三同源交换方块；原域H17(E+[2])=H34。尚须原全层级/实际Hom来源比较，不能由这些核和j域认成q/q4或指定canonical cycle。R846续核完整Hom是否反而排除g4；在证明前不关闭此条件分支。全部原系数/次数保。

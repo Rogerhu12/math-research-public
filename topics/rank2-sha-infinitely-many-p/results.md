@@ -332,3 +332,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R844](results/R844-original-genus-four-cm-order-seventeen-and-two-neighbors.md)：原最低g4项的全Hom在Hη=H34定义；τ对F/整个g-packet的−1/ω使实际D/r/s/映射下降K3=K(∛17)，保cubic twist d。真实Prym End无quadratic特征迫√B∈K3，两j0 twist比的17惯性阶6给v17(j±)=|n|/6非整数；CM主定理及域degree≤6唯一迫两个整数order17、K(μ)=H17=K(17^1/6)、A²−4B∈17K3×²。三个实际二邻点才是order34/j域H34，原三同源为唯一horizontal3。全原系数/次数保；未认原q/q4对应、canonical或非零g4存在。
+
+
+- [R845](results/R845-original-two-torsion-field-and-cyclic-four-isogenies.md)：同一E+上ρ给三个非零二挠点、Fourier逆严格付全部二挠点域；每个实际degree2商、核与微分符号自含核定。不同邻点复合φ_jφ_i∨为循环4，同邻点为[2]，并保与原degree3同源的互素交换方块。原g4分支用R844准确得到Kρ=H34=H17(E+[2])、三个order34邻点j域H34；未将这些几何自动认作原q/q4/fulllevel或R814 cycle，原全部有限系数及6/12/1632/816不变。
