@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [RNS：实际根部faithfulness后的完整incoming参数Schur约化](results/R133-supplement-actual-root-faithfulness-and-complete-incoming-parameter-Schur-reduction.md)（`ef2cdf03d943e7bad2fc95ddebd72d065f3340cc054467fd7933bdab922c138d`）：本real/root仅撤FC空补列，真实given-head图和common右因子保持所有独立rest。完整BF高块消元给(q,z,κ)矩阵与全部rhs，无需先假regular Schur可逆；单scalarborder只能修corank≤1且须两真实pairing。actual ν-dependent chart含dν后metric Schur不变；physical Robinν与PD raw phase分别保，冻结ν/几何τ不支付任一非零门。无新数值，fullincoming/finite/真背景仍待。
+
 - [RNE：两自然负阶窗口的显式一致逆常数](results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md)（`030e434ed31632c0c5330318251486d37424deba78f3fe35bf8b738960425120`）：原R97A严格余量和完整八正kernel给四e_q；L commutator矩阵/同向J有限bootstrap、Broot=1+e/μ及m2/m4有限多项式，保原IR0=1/4、正meanrank、非零βn和两physicalmeans。只形成新有限公式，未算新常数；新consumer可只读已存SCI，0旧成功重算/0native。两自然逆/selected原权序不授全δ chart/fullincoming/finite/真背景。
 
 - [R97A：原97完整稳定单射与精确前缀恢复的实际证明](results/R133-supplement-actual-root-cutoff97-stable-injectivity-and-exact-prefix-recovery.md)（`b2d4bb5605021b9b20589a8d16350a7e7747d7e51de5f774c85900f70b3844ca`）：唯一43789221154/1 child0/9门严格通过，e≈.3028969463、g−≈.9523027953、μ≈.6494058490；完整35字段、219scalar/12progress、五旧对象原字、14继承门和两preGit/pull全保，0旧重算/0history。实际正μ支付RNI同real/root的kernel/coker0和FC空补列；负窗显式数值、selected全δ、两physicalmeans/head/rest/fullincoming/finite/真背景仍待。

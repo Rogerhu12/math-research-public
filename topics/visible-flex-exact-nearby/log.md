@@ -440,3 +440,7 @@ fresh main 453e27fd7eee0e418f81c521f9c4674bcb446222双README不变。原R97R SCI
 ## 2026-11-16 02:12:17 UTC — RNE 两自然负窗显式逆公式独推
 
 完整正文d6cb8f723584a5f893a01324033d059995d1ee79 /17890B /030e434ed31632c0c5330318251486d37424deba78f3fe35bf8b738960425120已根全文读，tail核§2–5、newton核§6原序通过。四e_q由保存的八R0正kernel带宽192/384/576/192/384/384/0/576及两amplitude项构造；Jo1/97分开，完整meanrank与IR0原1/4保。L commutator derivative-vector矩阵精确对应非齐次Sobolev范数；J同向有限式用CI=sqrt17/4，两个完整BJ候选只whole min。已存μ直接作lower，Broot=1+e/μ与m2/m4给两自然窗完整逆；selected C_s权序及uniform chart条件保。全部为解析新证明，本机/code-mode未做任何新数值或旧目标。下一由独立publicActions算新的有限正标量，旧R97 e/g/图不重算。H/open仅压已成记录，完整前页a5c7bc40及各proof/已存waist索引保，所有未付门不减。a5c7bc40d5b60a82e3876bd34b85a45df7e15e0c两README blob未变；API不冒pull。
+
+## 2026-11-16 02:15:31 UTC — RNS 完整incoming与真实ν参数Schur独推
+
+全文读cc08f8a70fd2fadf4e43b60b866dca95b646eb26 /24595B /ef2cdf03d943e7bad2fc95ddebd72d065f3340cc054467fd7933bdab922c138d。根逐项核完整(q,z,κ)矩阵三行/正负号/完整rhs、Γ/Δ、corank1双pairing及actual chart三角变换，均为解析代数；另原字读A82511358/C366914bf/PD58bdf173/P9a5bcb14，核全第二mean/−Nν符号/physical第四Robin与raw phase分离/冻结设计ν后才用外在τ。R97A仅使FC m/W/F_C空，独立第二input、两physicalmeans、径向head、无限费与其余finite全保；完整square/strong门/实际columns与Schur非零仍待。不宣称谱单调或未证C1 chart；0新科学计算/0旧重算。README只读核5c4c8c2cbce93cc7d2eb79cb619a719f9df94410两blob未变，原真实pull周期不变。 newton已对§2–3/6–7及四primary正式独核通过；phase此前三块纯式核通过，完整窄核续收。
