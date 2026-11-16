@@ -322,3 +322,156 @@ $$
 - [R855 全热连接、整格与原 Hasse 横向项](R855-original-full-heat-connection-and-canonical-divided-jet.md)，尤其(22)–(23)、(35)–(38)及原四来源。
 - [R821 四个完整原角多项式](R821-original-four-central-axes-and-complete-four-block-carries.md)、[R853 同源 Cartier 首行](R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)。原固定坏集、通常完整 Selmer 桥及全部 Newton 尾不变。
 - J. C. Eilbeck, M. England, Y. Ônishi, *Some new addition formulae for Weierstrass elliptic functions*, Proc. R. Soc. A 470 (2014), 20140051，[出版全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC4197466/)，(1.1)–(1.4)。本篇仅调用准确的 addition 身份(1.2)，并在(8)–(18)自行支付通用整平移、模 $p$ 与 whole 格的所有步骤。
+
+
+## 7. 原 Hasse 横向方程的精确除 $p$ 缺陷
+
+本节给(19)与全热连接相容时必须保留的实际非齐次项。
+一切仍在同一个特征零参数环中进行。令
+$$
+n=(p-1)/2,\qquad f(x)=x^3-\frac{g_2x}{4}-\frac{g_3}{4},\qquad
+a_j=[x^j]f(x)^n .
+$$
+于是 $H=a_{p-1}$，超出多项式范围的 $a_j$ 取零。直接代入(5)有
+$$
+L_2f=6xf-\left(2x^2-\frac{g_2}{3}\right)f_x.
+$$
+对 $f^n$ 取系数，得到**特征零**恒等式
+$$
+\boxed{
+L_2a_j=(3p-1-2j)a_{j-1}
++\frac{g_2}{3}(j+1)a_{j+1}.
+}
+\tag{32}
+$$
+特别
+$$
+C_p=(p+1)a_{p-2}+\frac{pg_2}{3}a_p.
+\tag{33}
+$$
+再在 $f(f^n)_x=n f_xf^n$ 中取 $x^{p-1}$，得到
+$$
+(p+3)a_{p-3}
+=-\frac{(p-1)g_2}{4}H-\frac{pg_3}{2}a_p.
+\tag{34}
+$$
+将(32)用于(33)，再代入(34)，逐项合并即得
+$$
+\boxed{
+\mathcal R_p
+:=\frac{L_2^2H+g_2H/12}{p}
+=\frac{5p-4}{12}g_2H
++\frac{3-p}{2}g_3a_p
++\frac{p+1}{9}g_2^2a_{p+1}\in A.
+}
+\tag{35}
+$$
+因此 $L_2^2H\equiv-g_2H/12\pmod p$ 的除 $p$ 余项已被准确指定；
+没有从这个模 $p$ 方程误推出它在模 $p^2$ 也为零。
+
+### 7.1 原 CM 点的实际非零横向二阶项
+
+固定 $p=6s-1>211$，仍写 $b=-g_3/4$，并在特征零中记
+$$
+c_p^{\mathrm{int}}
+=\binom{3s-1}{2s-1}b^s .
+$$
+其约化就是(21)的 $c_p$。多项式 $f^{3s-1}$ 的三个所需首项准确为
+$$
+H=-\frac{s}{4b}c_p^{\mathrm{int}}g_2+O(g_2^4),
+$$
+$$
+a_p=\frac{s(s-1)}{32b^2}c_p^{\mathrm{int}}g_2^2+O(g_2^5),\qquad
+a_{p+1}=\frac1{2b}c_p^{\mathrm{int}}+O(g_2^3).
+\tag{36}
+$$
+这些分式只是表示同一个多项式系数；这里 $b$ 已在原单位域内。
+各式由 $x^3,-g_2x/4,b$ 的唯一相应次数分配取得，保完整多项式的其它项。
+
+代入(35)，$\mathcal R_p$ 被 $g_2^2$ 整除，且利用 $s\equiv1/6\pmod p$，
+$$
+\boxed{
+\left.\frac{\mathcal R_p}{g_2^2}\right|_{g_2=0}
+\equiv \frac{55}{576}\frac{c_p}{b}\pmod p.
+}
+\tag{37}
+$$
+例如三项贡献的模 $p$ 系数分别为
+$1/72,15/576,1/18$，其和为 $55/576$；这是统一代数计算，未作素数扫描。
+
+在 CM 点，
+$L_2=6g_3\partial_{g_2}$；对这里的二次首项作第二次完整参数导数，得
+$$
+\boxed{
+\left.L_2^2\mathcal R_p\right|_{g_2=0,\ g_3=-4b}
+\equiv110\,b\,c_p\ne0\pmod p.
+}
+\tag{38}
+$$
+准确系数为 $2(6g_3)^2(55/576)c_p/b$。
+(38)中 $p>211$ 排除了 $2,5,11$，故所示项确为单位。
+但 $\mathcal R_p|_{\rm CM}=L_2\mathcal R_p|_{\rm CM}=0$；
+若提前冻结参数，会删掉这个已知非零的下一横向项。
+
+## 8. 同一 whole 格上的完整除 $p$ 递推
+
+本节再保 $p\nmid m$，原四个 $m_\nu$ 及共同 $m=24$ 全部满足，所以 R855 的热连接在原 $p$-整环上定义。
+为把(35)放入实际目标，记 $J_k=j_{m,k}$ 为 R855 的同一参数线性行，
+$\nabla=\nabla_m^\vee$ 为其完整对偶热连接，并置 $J_{-1}=0$。
+(20)保证下列**指定**行整：
+$$
+\boxed{
+\mathcal D_{m,p,k}
+=\frac{J_{p+k}-H J_{k+1}-mkC_pJ_{k-1}}p
+\in\mathscr V_m^\vee,\qquad k\ge0 .
+}
+\tag{39}
+$$
+此处固定(5)给出的特征零 $H,C_p$，不任意更换它们的模 $p^2$ 提升。
+在原 CM 点的准确中心零格上，
+$$
+\boxed{
+\mathcal D_{m,p,1}(R)|_{\rm CM}\bmod p
+=\mathfrak B_{m,p}(\bar R).
+}
+\tag{40}
+$$
+因为 $H|_{\rm CM}=0$ 已是特征零恒等式，而 $\varepsilon_m(R)=0$ 精确成立。
+对四个规范提升(29)，(40)正是(28)–(30)的原行。
+
+R855 的准确热递推为
+$$
+J_{k+2}=2m\nabla J_k-\frac{m^2g_2}{12}k(k-1)J_{k-2}.
+$$
+对 $J_{p+k+2}$ 代入此式，再用(39)及
+$\nabla(a\ell)=(L_2a)\ell+a\nabla\ell$，全部同阶项相消后，对每个 $k\ge2$ 得
+$$
+\boxed{
+\begin{aligned}
+\mathcal D_{m,p,k+2}
+={}&2m\nabla\mathcal D_{m,p,k}
+-\frac{m^2g_2}{12}(p+k)(p+k-1)\mathcal D_{m,p,k-2}\\
+&+m^2\left(2k\mathcal R_p+
+ \frac{1-2k-p}{12}g_2H\right)J_{k-1}\\
+&-\frac{m^3g_2C_p}{12}(k-2)(2k+p-1)J_{k-3}.
+\end{aligned}
+}
+\tag{41}
+$$
+$k=2$ 时最后系数为零，$J_{-1}=0$ 的约定足够。
+为核定所有系数，中间两个差准确是
+$$
+(k+1)k-(p+k)(p+k-1)=(1-p)(2k+p),
+$$
+$$
+(k-1)k-(p+k)(p+k-1)=-p(2k+p-1).
+$$
+将 $L_2C_p=-g_2H/12+p\mathcal R_p$ 代入，便逐项得到(41)。
+这证明的是原特征零整行恒等式，可以最后再模 $p$。
+
+(41)保留了真正非齐次项 $2km^2\mathcal R_pJ_{k-1}$ 以及另两项；
+其 CM 值暂时消失不允许在后续 $\nabla$ 中删除。
+各 $\mathcal D_{m,p,k}$ 都由(39)的同一 jet 给定，初行不是新的自由算术参数。
+特别(38)非零并不单独迫(40)在四个固定 $R_\nu$ 之一非零。
+当前待证的仍是四个实际 $\mathcal D_{m_\nu,p,1}(R_\nu)$ 的共同相容性，
+连同 R855 的完整伙伴、原参数导数和全部模 $p^2$ 初始资料。

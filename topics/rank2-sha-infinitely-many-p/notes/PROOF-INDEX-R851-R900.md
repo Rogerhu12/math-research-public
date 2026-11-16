@@ -34,3 +34,5 @@
 - [R856](../results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)：用整单位平移S_T及S_-T、原addition返回Θ−x(T)σ²，保除幂环不能约σ。全偶V_m准确D^pA=Ha DA+m(L2Ha)zA，故全部j_(p+k)=Ha j_(k+1)+mk(L2Ha)j_(k−1) modp。原ss点给全block j_(rp+k)=(mcp)^r(k)_r j_(k−r)及n≥p²为0。四原输入j0=j2=0使j_(p+1)/p在整个双变量整环成立，规范齐次商权p−5；其CM值仍是原未知B，不代四值不同时零。
 
 - [R840非水平厚块](2026-11-16-r840-nonhorizontal-confluent-joint-operator-and-two-tails.md)：原moving非水平F_t-unit图中e=x^(m−1)v，完整ann_Z(f2)=(x)/(x^(m−1))。实际O低m−3行的三角对角−YQ²(j−1)(j+m−1)全unit，唯一核τ/e；最后两行保原B/提升尾，m2保单行。真正J有W_C=a0+a1τ+a2τ²/2+O(x^(2m+1))，Z像只有常数；交中a=W_t(Q)τ/e。保所有奇点/固定角、同K/H高前缀、3η和原carry，未付残余尾联立或forcing。
+
+- [R856除p缺陷](../results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)：§§7–8显式付R_p=(L2²Ha+g2Ha/12)/p整及三个原系数a_j的闭式；ss处R_p/g2²=55c_p/(576b)、L2²R_p=110bc_p为单位。统一D_{m,p,k}=(J_(p+k)−Ha J_(k+1)−mk(L2Ha)J_(k−1))/p全部整，精确非齐次热递推保R_p及两个g2项；原B准确是D1在CM的值。不能先冻结参数、把初行自由化或由已知110单位替四指定B非零。
