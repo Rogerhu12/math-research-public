@@ -440,3 +440,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R858](results/R858-original-artin-cm-vertical-vanishing-and-generic-injectivity.md)：R857同一full3 Scholl动机上，每个实际三阶deck平均全Chow为零。全部CM fibre Dξ定义于K H_(3c)(F)：F=K时新增3惯性层的完整迹零（c1另由μ6处理），F≠K时环类generalized-dihedral群的一维角色仅阶≤2。原η_j在3不分歧且平方阶9，故所有CM垂直部分的原六χ扇区皆零；原泛纤维restriction单射，Zorig,χ=0 iff同同步双点迹Tτ,χ=0。实际3同源保34/102及3/1/9倍率。7993只检测R814/R854 canonical循环，不能据此宣布修复端点或Tτ非零。
+
+
+- [固定代数水平theta基与四条原除p行](notes/2026-11-16-algebraic-horizontal-theta-frame-and-original-divided-rows.md)：完整theta/eta正规给whole H_m的固定代数水平基，连同全部odd列、有限单值性和整étale覆盖；m2另有明确根式。原惰性p上全连接H_m^p=0，但不杀除p缺陷。固定同一CM纤维的水平坐标后，四实际Rν唯一运输为四个先于p的代数fνflat，保所有物理jet，且f=Df=D²f=0、D³f=90/mν³。四原B准确为(2mν)^N(T_N fνflat)(P)/p；全半密度Riccati、两Legendre符号、模p²初始与共同伙伴保留，三阶零不代四除p值非零。
