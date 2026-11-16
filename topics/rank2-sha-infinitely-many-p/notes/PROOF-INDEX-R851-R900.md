@@ -327,3 +327,6 @@
 
 
 - [R884附录G](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原C9三迹−R3/(4b)、D9真δ-new；原UΘ4的全八系数由公开Fraction确定，W48=TδUnew准确为Q48−[4]*R3/(78624b)，质量非零且2-new。完整D1保chat=(p+1)cint与Fermat缺陷，D48(W48)=BQ48−DR3/(4914b)+c_pq_p(2)/(819b) modp，未给该行赋零。原V72°=VΘ³−[2]H18/168+[δ]R24/63同时new，V72°−T=2bNJ+504bQ72°；原四中央的三条实际联合式及所有旧B/new/cross全保。
+
+
+- [R872全局负水平与primitive首项截除](2026-11-16-r872-global-negative-horizontal-and-primitive-leading-moment.md)：原z−≥1给整条[Y0]J=0，LJ=F³A遂迫[Y0]A=0；完整物理前缀再给a1·v1(F0)=0。v1≠0时整个J3∩K1的A/J均含t³，不能调整任何t1/t2来源列，τ1 native normal项真消。v1已化F0=(Y−1)(Y²+αY+β)的明确非零三次条件；实际退化F0=Y²(Y−1)给−6/(47·48·49·50)单位，局部50Y−46方向被全球零charge排除。第s值/其余β1与同R/S继续保留，未冒全K1结论。
