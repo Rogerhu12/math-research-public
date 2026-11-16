@@ -188,7 +188,7 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WSMA实际完整混合界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)：43877268949/1全22门/152新39copy冻结，index7caabc2c/3cb8fa2a。whole/reduced约1.90736e323独选new，mean e319主导；WCPR完整cut/profile及mean/四端/3070jump全保。继续新mean与WRP40，finite/matching仍待。
 
-[WPS完整候选](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff/43878765372：6图60新/22门全成，SCI17a70a8a/0c246786。e+3dt约635240.55，充分门false、finite0，不推出奇异。36/19/16、96mode全保；原mean/7port/两rhs/full96误差及全部旧对象保proof和SCI。old0/lost0，禁重算。
+[WPSA完整实际](results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md)470d2547/43878765372全6图60新/22门；e+3dt约635240.55，充分门false/finite0，不推出奇异。全mean/7port/两rhs/96mode/full96误差/旧对象保proof及SCI17a70a8a。old0/lost0，禁重算。
 
 [WJRA实际相对界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f：43873739440/1全15门56新成，SCI80499e42/69002/806fbeaa；43原/7scope，old0/lost0。真实正J先除与cut真lower，relativeω14约2.078e91；只读接WSM，仍无finite/matching/非线性完成。
 

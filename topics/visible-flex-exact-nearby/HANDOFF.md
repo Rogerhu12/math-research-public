@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 14:08:12 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 14:09:52 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 14:04:59非FF真CLI仍无executor，下一本地尝试≤15:04:59。最新CI真pull为43881690924/1于11-16 14:03:12.218489→6ea61c9cb552537314d535fc98ae1fb88a9537aa；4次两README完整diff空/同已读，exec全保。下一真pull≤15:03:12；ref读取不冒真pull。
-最近只读README核：255317bb3466f1828026aa9ccec6ebd2c1431417；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：58047dad4c19192c43410420cb90c47fffb66a13；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -32,7 +32,7 @@ WIC527fc35e解析m160真tailκ3已成，δ<80553/128000<2/3，N24480/4724833维�
 
 WCPR642e6fd2全cut/profile义务保。WSMAdc566db3/43877268949/1全22门/3图152新39copy成功冻结，index7caabc2c/30834/3cb8fa2a、execb63ab5aa/21759/5b2ee674；whole/reduced约1.90736e323各选new，old0/lost0。源84c2b166/manifestb9add676；mean e319现主导，仍无finite/小量/匹配。
 
-WPSffd000ff全paired义务保原proof；43878765372/1完整6图60新/22门、36current/19history/16AST成功冻结。SCI17a70a8a/65347/0c246786、exec21bf7ec0/35857/01d18a44；e+3dt约635240.55，充分门false/finite0，不推出奇异。96mode/24480cell/4650row/4801交集全成，old0/lost0，不重算。
+WPSA470d2547全实际proof已推，WPSffd000ff原义务保；43878765372/1完整6图60新/22门、36current/19history/16AST成功冻结。SCI17a70a8a/65347/0c246786、exec21bf7ec0/35857/01d18a44；e+3dt约635240.55，充分门false/finite0，不推出奇异。96mode/24480cell/4650row/4801交集全成，old0/lost0，不重算。
 
 WRP95be269f/43881690924首次40新/14门/3图成功冻结；SCI146904d0/82508/4b66bd0b、execf6a3a109/21783/3a5ec986。9current/2AST/0history、44copy/9scope全保，old0/lost0。Bc约8.421e235/Bt9.109e225；whole/reduced约1.90736e323各选new，mean仍主导，无smallness/finite。
 
