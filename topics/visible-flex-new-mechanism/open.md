@@ -206,3 +206,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R427：只余两个完整kk自然读出
 
 [R427](results/R427-even-quartic-curvature-support-of-the-complete-kk-minus4-natural-function.md)在一般ω先作Y=∂k+(2h)⁻¹∂ω，以完整YC/ZZ/n1四scalar支撑、原四势和真实有序尾证明Λkk负四=A+k²B+k⁴C；奇项与高于4只在natural层0，不冒原成本为0。A已由R426纸证支付；[两新实际](notes/kk-minus4-natural-flux-first-completed-actual-20261116.md)给B完整五项C²密度非零、C完整空；38源/12新self/2.833311144秒，原k0及旧研究不重。共同D/E查询与fullJ推论另核。S=1+k²整除准确iffΛ(B−A−C)=0，当前不假定；共同字符剩k²b+k⁴c非负iff b,c≥0，仍须实际消两列。
+
+### R428：完整共同J的条件实际截面
+
+[R428](results/R428-conditional-complete-joint-cost-cone-and-finite-actual-C1-sections.md)精确隔离H：同一个A中B/C∈N A(U−3)。H下逐权排正字符，再沿原两次商校正、全部真实基准/桥/响应/Klein与共同窗口得完整J=(E,A)同一有限C1截面。零目标仅付有限self/ordered查询、全部suffix totals、平台G″和原解析端germ；有限多个simple p零逐点光滑穿过。两新实际已读，共同D/E前提支付另成R429；内部所有Af partial、gap积分改变的平台值及同13规范仍欠，不再添加另一自然目录。
