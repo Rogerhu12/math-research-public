@@ -32,3 +32,5 @@
 - [R840水平联合块](2026-11-16-r840-actual-horizontal-joint-operator-and-zero-charge-control.md)：原moving smooth f_t-unit水平图中，O(a)=−f_t^-1(3w+εD){f_t(3w+εD+εm+εDlogv)a}，完整厚值不删ann(f2)。正侧全对角unit，负侧秩m−1、唯一核τ/e。真正J在正侧W_C∈e²，负侧W_C=G0(t(x))+O(x^(2m+1))；交中a=G0′(tQ)τ/e来自同一个带d因子的最多七维G0格。m≤b不冒m≤2；奇点/固定角与同K/H前缀、第三行仍保。
 
 - [R856](../results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)：用整单位平移S_T及S_-T、原addition返回Θ−x(T)σ²，保除幂环不能约σ。全偶V_m准确D^pA=Ha DA+m(L2Ha)zA，故全部j_(p+k)=Ha j_(k+1)+mk(L2Ha)j_(k−1) modp。原ss点给全block j_(rp+k)=(mcp)^r(k)_r j_(k−r)及n≥p²为0。四原输入j0=j2=0使j_(p+1)/p在整个双变量整环成立，规范齐次商权p−5；其CM值仍是原未知B，不代四值不同时零。
+
+- [R840非水平厚块](2026-11-16-r840-nonhorizontal-confluent-joint-operator-and-two-tails.md)：原moving非水平F_t-unit图中e=x^(m−1)v，完整ann_Z(f2)=(x)/(x^(m−1))。实际O低m−3行的三角对角−YQ²(j−1)(j+m−1)全unit，唯一核τ/e；最后两行保原B/提升尾，m2保单行。真正J有W_C=a0+a1τ+a2τ²/2+O(x^(2m+1))，Z像只有常数；交中a=W_t(Q)τ/e。保所有奇点/固定角、同K/H高前缀、3η和原carry，未付残余尾联立或forcing。

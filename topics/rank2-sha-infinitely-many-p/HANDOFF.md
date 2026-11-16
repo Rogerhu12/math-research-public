@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：3886d47f56cca7c46d755548e8b9631fb556d3a4；2026-11-16 04:11:26 UTC核两README无变。实际CI pull 2026-11-16 04:09:31 UTC/609202907ac565b17e66f64be5d365369fb25a2f（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:08:55 UTC仍无环境。最迟2026-11-16 05:00 UTC再实际pull。
+- 最近已读规则提交：fe22861dc97e556bfa1849b7b3e925ff390c4d57；2026-11-16 04:12:04 UTC核两README无变。实际CI pull 2026-11-16 04:09:31 UTC/609202907ac565b17e66f64be5d365369fb25a2f（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:12:04 UTC仍无环境。最迟2026-11-16 05:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -14,7 +14,7 @@
 
 ## 完整检查点与分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-common-factor.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-nonhorizontal-joint.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
 R1–363、365–560、562–653、655–711、713–856已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者。deep续I+J实际联合交/真W_T（保ann_Z(f2)）；theta续四指定Rν的R855除p行共同约束；literature续R854真三fold Heegner到原端点的cycle对应。R852原Chow逆、R853同源Cartier、R854真CM收缩、R855全热连接均已成稿。
 
@@ -48,7 +48,7 @@ R834/836保FH2+eH2单位块及全D3兼容；R837三长7q(H−r)≤3B_D²+56D、�
 R840付E²H3→2Z像ker resZ_-、余核z_-≤2；兼容V0/V1定2Z，H*>κ使V2唯一；G2+cF³须同c付第三尾6e³η，第四仍同G*。
 [R840 primitive块](notes/2026-11-16-r840-actual-euler-primitive-block-and-zero-first-value-kernel.md)：J=E_+^-1(F²H1^{>0})⊕H3^0与三长核交0；全V1=0由同A/G0高行准确呈示，负纤维只读同G0≤6次值，所有条件/镜轴见原证。
 [Euler缺陷](notes/2026-11-16-r842-euler-primitive-lift-defect-and-zero-charge-repair.md)：原I_L仅L=ce能由H3^0修回零曲线值，唯一cF0³/3，P阶≤6；全缺陷秩见原证，不能外推W_T。
-[原三值束成本](notes/2026-11-16-original-euler-three-jet-bundle-and-hn-source-cost.md)：全H3分离奇点完整长度6二阶jet；正规化未饱和E_act的det缺陷≤3χ+12b，deg≥9κ−3χ−12b。κ>χ+4b时排承全原三值的degree6κ/HNmax≤2κ方案；保十九角/固定水平与同generic识别，仅此范围，不代WT。[联合交已付](notes/2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)：完整ann_Z(f2)及同格O给dim(I∩J)=dim kerO；零参数与真F³尾分清，全部lift改变准确同构。[真水平块](notes/2026-11-16-r840-actual-horizontal-joint-operator-and-zero-charge-control.md)已付：正侧O全unit/J值含e²，负侧核τ/e且a系数=同G0′(tQ)，保d因子及m≤b；其它奇点/固定角与同K/H前缀、第三行续做，不相加单位秩。
+[三值束/联合交](notes/2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)：HN全来源成本仍保原证；完整ann_Z(f2)的O准确给dim(I∩J)=dim kerO，零参数与真F³尾分清。[水平块](notes/2026-11-16-r840-actual-horizontal-joint-operator-and-zero-charge-control.md)正侧全unit、负核τ/e受同G0′及d因子控制。[非水平厚块](notes/2026-11-16-r840-nonhorizontal-confluent-joint-operator-and-two-tails.md)低m−3行全unit，余τ/e同W_t(Q)及两真实尾；m2留单行。其余奇点/十九角、同K/H前缀/3η和forcing续做，不直接相加单位秩。
 R813/822原γ/6单位及γ/6+G_F+B_F=0保全部边界。R842真框d∨H=Hf2−e(DH+(c−a)H)、固定2Z补零、全Serre左端及同ν/ω0/ω1仍须完整；第一层满射后指定[b0]∈cokerL_T≅W_T∨未知。
 R842所有完整边界、负全trace/Jacobian商、moving转置及全局mask见[完整前检](notes/2026-11-16-frontier-before-common-factor.md)与open：十九角/奇点、t1严格门、h7仅有限Y、正侧2Uτ/U及J modP²、全部跨p W项、真实V_T/W_T像和同P补偿均保。mask不已知属Q_T。
 [准确P尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)保K_F=2Ft EFt/e²−Ft²f2/e³，原P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eqv0)，r2每vi十项、r≥12零。W_T上[b0]=−B_D−P_r，ω1的P项零；J长窗的P零不移给M，短sqrt不替全局W。
