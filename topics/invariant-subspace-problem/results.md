@@ -124,3 +124,7 @@
 
 
 - **R271创建合成与共同来源相邻旗返回（2026-11-16）：** [完整原Gram和旗证明](results/R271-appendix-adjoint-creation-synthesis-and-common-source-adjacent-flag-return.md)给真creation块Gram等于deletion块加diag((G−2Mi)/(i+1))，保原源度量且c_x=4/3+1/(x+1)。同一Fock中并行loss+gain总和≤Vg，一次选t给公共物理F0的Σ||EiF0||²≤2Vg；严格EiV_Q⊂V_(Q−1)、EiK_Q⊂K_(Q−1)把K反馈在相邻配对中杀去。完整加权标量行≤√(2c_x)Δg,QΔa,Q−1+(1+√2)||a||Δg,Q/√(x+1)，Q≥R+h+2；标准m≥1/Q≥4d。所有远位/全部合法Q同一个来源；尚未换任意无限w，也不升固定u范数行或全MP返回。
+
+
+
+- **R271准确同w相邻返回整行与无速率合法慢窗（2026-11-16）：** [原物理与完整整行证明](results/R271-appendix-canonical-strong-head-forcing-and-same-w-adjacent-return-row.md)核P_x为原ℓ²标准头投影，真Q孔有限头/后尾分解给κ≤1+log(1+Q/x)。四项源运输保两条交叉的缺陷；进一步原actual carry直接给完整同w行≤||w||τ_x/√(x+1)+√κ(τ_x²+4e−6d⁴||w||²)，原4d+1≤Q≤exp(1601d³/64)全窗成立。θ=τ_x/||w||、L=exp min(logd,θ⁻²)、Q=ceil8dL给Q/h→∞、Q≤8d²+1及行→0，未假尾速率；整个指数母窗仍保τ_x²√logQ，不升为删除范数行或全MP封口。
