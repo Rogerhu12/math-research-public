@@ -354,3 +354,8 @@
 ## 2026-11-16 05:28 UTC /root — Request212完整公开入口
 
 [R476完整接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)及composition已刊 `008314705623395a333b3ef0d3d48f5ae5ad7299`；R477两reader/接口已刊8df750ba。本次独立刊outer9965B/8803750d与workflow99644B/d1022e74，实际新请求路径触发公开Actions。原205完整合同逐字绑定，仅逆像工作深度24→2及真实必要reader/来源接线，全部157来源、原输入/参数/模式/候选/双BVP/全门/原钟和90KB超70保持。outer212与派生205兼容合同分列，实际run/source待官方绑定；R478由geometry唯一终态读取，不预填完整采样、接受父、误差下降或闭面完成。
+
+
+## 2026-11-16 05:31 UTC /root — Request212官方绑定与索引续接
+
+[R476/212完整接口](results/R476-original-C-inverse-work-depth-and-complete212-source-contract.md)实际source `9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060`，公开Actions [run43810550597](https://github.com/Rogerhu12/math-research-public/actions/runs/43810550597)于2026-11-16T05:29:19Z/attempt1启动；compute133111042532在05:30官方metadata前1–6成功，第7容量记录运行，后科学/必要读回尚待。R478由geometry唯一终态读取；执行状态不补采样、全域证明、453/450或README完成。入口时官方topic tree `ffc703240f3467e875aff8228f5ba7a05aa558fb` 为9257blobs/197827293B、9630entries，truncated=false。 原results索引原字存同目录results-index-through-request212.md，open仅§3去重复并链原9a9dbfa8全文，§4–6逐字保持。
