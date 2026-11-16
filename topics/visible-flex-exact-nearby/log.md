@@ -480,3 +480,7 @@ proof c06787e9/22285，唯一43831678361/1 event1567fffd/science5b491875，58cur
 ## 2026-11-16 08:43:14 UTC — WECA完整交接压缩及单份旧操作检查明细的恢复合同
 
 完整原H保存1162cb41/10497（原d5f61af9同H），仅压缩已成旧链索引，所有原域/单位/球/失败/lost/恢复和未付义务完整保。准备154047B旧repack inspection普通删除：完整小verified summary直接给原SHA d676f7ae，原H明确命名该报告，当前restore d5f61af9同path/Git f8724691/size全匹配；大body未取且不冒独立SHA256重算。完整58当前输入对basename/blob均零命中；纯旧操作明细，非数学native/candidate/endpoint。白名单33846e38已先存，实际删除另一步freshguard。两README在8c72a832e334d34e16c0a2ce41a9dfef578587b7版本同已读，08:40非FF本机真pull无executor已更正H。
+
+## 2026-11-16 08:43:38 UTC — 仅删除154047B旧duplicate-repack操作检查明细
+
+白名单33846e38已先推9d0caee71906eb54c89dcb2c00500c12d4bdf367；fresh Git-tree精确guard核path/f8724691/154047B后普通删，恢复d5f61af9a000131263eb396b64e64796138c633a同path，原完整SHA d676f7ae由保留的verified小结论给出。原375正常pack/222426对象与12旧临时包/36文件/释放8748668660B操作事实仍保小结论和全部旧H；数学输入/源/证据/失败记录均未删，0数学/0重算。c3a8081b6442c05583db00752bbd4b16725a5c4b双README版本同已读。
