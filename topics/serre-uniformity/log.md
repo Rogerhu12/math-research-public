@@ -216,3 +216,9 @@
 - final39f3d05f/manifest9bd31692/config7b2a243e/artifact14191283725/1737c833；1421成员/11.20MB整ZIP与原270来源全IO绑定。无新Hensel/Dixon/CM/点加法，辅助ℓ单位不代原41单位/高度/线性独立/A.1/allp。
 - c0消费者已推a576ab9d、run43790534424已success待读实际证书；global新run43790410670组装中、dual43790194976新RHS中，主目标OPEN持续。
 - 本push规则：本地真实pull至28278aaaa095e8f42914b01e65b47ae4b8197cbf（2026-11-16T02:12:31.969982+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 10:14 Asia/Taipei — serre-public-astra-20261115
+- 新全允许p纸证543d03f8：p18k+5取(k−1,2k)、p18k+11取(k,2k)及交换，两h均与完整p+1互素，原临界指标合法。
+- h_i+h_j=p+3使Legendre反射为P_d/P_(d−2)；三项递推在i≠j时迫至少一个原N_h单位，涵盖p11mod12，不反射f/g，不拼不同标签。
+- 仍须该可见标签的原两sigma因子共同单位；继续指定倍指标乘法。R847已推3ebef408；c0实际success正取原κ/d，global/dual/原长作业继续。
+- 本push规则：本地真实pull至557b1d47cd637d268cf292c86f77218ccc3b5458（2026-11-16T02:14:26.358571+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
