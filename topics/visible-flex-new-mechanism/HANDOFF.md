@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于12:27:01→12:27:16 UTC真实pull --rebase，已读上游 **744a93006b33308a9d6ca919674adcf46c88cebe**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**12:44:00 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于12:27:01→12:27:16 UTC真实pull --rebase，已读上游 **744a93006b33308a9d6ca919674adcf46c88cebe**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**13:27:16 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-private于11:43:33.839986→11:44:00.887215实际pull读 **191d228fcf6c487a515ad67a1644307c009543ad**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
+private于12:27:46.951829→12:28:02.584993实际pull读 **199fa7501eef29206e301da42ef4062f1b5810e6**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
 三公开来源已复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只用本公开Actions；本地只纸证/源码文本/元数据/已有输出。PAT仅瞬时CLI/env，不入文件或提交。根12不加开发检查/冻结复跑，根15仅存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache。H<10KB、MD<100KB、open尽量<30KB、topic≤200MB，旧data54107494B保留。API读取不是pull。
 
@@ -26,9 +26,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 全部原式/条件见[results](results.md)与[open](open.md)，历史H在提交中保存；压缩不撤同母、双germ、全库、原成本、whole-period义务。
 
-**真实cap。** R471五门Δ1/2/3/4/6、R475完整12L/8Aj、Af/simple根/双germ/真宽/C尾、R495完整凹图、R489质量窗均保。十五参数/三原子/四原子搜索均已闭且无零，不再重跑；有限失败不排全类。[R499](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)保严格Dd余项，完整ImE在H≥H*严格负，H*∈(13/7,67/36)，真零只可能.6<H<H*。[R502](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)固定图offset虚部真三次、当前H≥1严格凹至多两根；实部完整四次首项C4/5，尚未排共同零/低端凹性。
+**当前正cap类已严格排除。** [R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保R471/R491完整四密度、C≥0/双端/完成跳图，以同一正Af缺量测度消元，证明H∈[3/5,2]时Δ4−β(H)Δ6>7(4+34H)/(1500L)>0，L=4H²+136H−76、β=(270H²−1196H+576)/L；接R496的H≥2完整ImE<0，排当前允许cap全部五门共同零。此是完整积分证明，不来自旧搜索/LP失败，也不排别的profile、合法观察空间或一般几何。该canonical共同镜对路线不再搜索同类cap。
 
-[完整五门证书](notes/complete-cap5-integral-positive-certificate-design-20261116.md)保五密度/C尾/85端势/九真不等式/全部Af余项；唯一有理门E_min>D_A+D_Q。run43859053666的[真实观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)：LP180秒限/nit270738/xNone，183.90384485000004秒/1LP/0judge闭账，无证书或有限不可行性结论；不续atom/LP余额。
+旧cap15/三原子/四原子和唯一LP都已闭；[LP原观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)183.90384485000004秒/1LP/0judge/nit270738/xNone保原no-decision。所有原费用/条件见原notes，不重开或改写成当时已有证书。
 
 **真实路径。** R469–507原全W/V、真实13状态/2输入、完整K/Mraw、germ/rank退化与传入history义务保[索引](results.md)。R507仅h/k/ω返回与全K0，t1负Oε，未付M0/frame/位置/3/4/period；旧母/19/20门/13收据不移植。
 
@@ -52,4 +52,4 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 新32.28273412599998秒/0值闭、0overrun；累计 **2863.061635735秒/147值**。MODEL1 1449765B/b56010f023cae1ba6ce63ce33d6fe3728ce72ec096600f466dd377c216aa9fcc保已付全环A/B/C/ℓ、I/II/二jets，不含X或全grid二jets/J。原raw1949314B/6b893404c4515ae7bc86252efd79c3f920294242e6f51620b49c5d9c55fbda9a，report9记录0parseerror/语义选读成功。全部新frame/Π/height费用含总钟，余额关闭不重解R2。
 
-接原R0/R1改变真实环值/一阶jet、同原盒与中部全body，不能把数值失败归因不变列。O4接真实同图五门解析分离与有限幅值非恒词；R512/R515阻断常态bulk/secant小邻域，完整八矩/height/frame/位置/3/4/period/13仍联立。主完成门未付，继续open。
+接原R0/R1改变真实环值/一阶jet、同原盒与中部全body，不能把数值失败归因不变列。R513已封闭当前同图五门零；O4接严格区分的固定宽真实joint入口与有限幅值非恒词；R512/R515阻断常态bulk/secant小邻域，完整八矩/height/frame/位置/3/4/period/13仍联立。主完成门未付，继续open。

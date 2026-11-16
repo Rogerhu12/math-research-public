@@ -442,3 +442,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [真正58原盒ring17：数值不可行返回、无候选](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)：**实际观察完成**，不变列5.5026未排K，唯一5056行18变量LP报告Infeasible/nit0/raw18与dual无值；0预测/actual。32.28273412599998秒/0值闭、累计2863.061635735秒/147值；当前仍58，不授准确不可行，转低阶真实环态。
 
 - [R514 完整51环控制与条件17维曲率问题](results/R514-complete-fifty-one-ring-controls-and-conditional-seventeen-variable-curvature-fibers.md)：**已证明**原三jet层、实际G形算子及34低阶+17条件线性缩减；三层同原172盒，完整R1二次/normal、R0相位/Π和前102中段混合保。真实metric二次条件及幅界法向障碍已付；未授全body/连续reach或实际可行候选。
+
+- [R513 完整两行cap分离与全五门障碍](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)：**已证明**H∈[3/5,2]的Δ4−β(H)Δ6严格正裕度，保同一正Af缺量、全部C尾/跳图和原完整积分；接R496排当前允许cap全五门共同零。关闭该路线的同类搜索，不据此宣一般几何无解；原正字符下降范围严格按同一商接线。

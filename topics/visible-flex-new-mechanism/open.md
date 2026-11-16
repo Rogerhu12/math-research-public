@@ -30,6 +30,16 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ## O4：完整真实第四成本与新首阶机制
 
+### R513已封闭当前允许正cap的五门共同零
+
+[R513完整分离](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保同一C≥0、全部原密度、双端和完成跳图；H∈[3/5,2]有
+$
+\Delta_4-\beta(H)\Delta_6>7(4+34H)/(1500L(H))>0
+$，
+其中L=4H²+136H−76、β=(270H²−1196H+576)/L。接R496的H≥2完整ImE<0，当前R471/R491允许cap类没有五门共同零。此前单门/局部IFT/形式八系数仍保准确原义，不能升级成共同真零；旧cap15/三原子/四原子/唯一LP均不再重跑。
+
+下一真正入口必须明确避开这个结论的适用链，而不能只给同类cap增参数：研究固定物理宽度的真实joint观察是否足以处理原门，及同一规范下有限幅值非恒路径；全部wholeE、partial、端germ、M/T、frame/位置和period仍须从原实际成本取得。当前尚未给合法替代的完整实际截面或闭词；该cap排除不等于一般C²几何无解。
+
 ### 旧强圆的完整阻断与真正不同的入口
 
 R304/306在0<κ²<.01原Gaussian芽、保全Green/有序尾/合法gauge后，严格排不交及重叠导数rank-one（W=g′f″−f′g″=0）圆。R311另排固定rank-one包空间任何连续幅值轨道；增频、变宽、母形、包序、斜率、椭圆或更多同类列均不能绕过。只是这些族的结论，不称一般C²刚性。
@@ -115,21 +125,15 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 ### 已付条件背景与旧数值来源
 
-R394至R470的原式、各实际条件和所有旧数值费用完整保于[原文摘录](open-archive-R394-through-R470-20261116.md)；旧结论不重跑，当前联合cap/同规范门继续下列R471以后任务。前述O2/O4及全部主门仍有效。
+R394至R470的原式、各实际条件和所有旧数值费用完整保于[原文摘录](open-archive-R394-through-R470-20261116.md)；旧结论不重跑，当前同类cap的共同零已由R513排除，同规范及真正替代入口继续。前述O2/O4及全部主门仍有效。
 
 ### 近期条件与实际费用的原文来源
 
 R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历史完整保于[原文摘录](open-archive-before-R481-20261116.md)。R475实际Δ6零帽已付；R479仍要求多帽各过五门且共用c、A7/s、A0/(h³s²)。R480从起点全W外三矩使任意真A0块重复K无漂移，但单份内部K、A≠0桥、全部第四V与同一13核规范继续。原53四cut增广任务已按[完整实际](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)接受54，同task含两次输入失败218.31438091800004秒/祖先1877.294171609秒130值；旧模型不重用为54，当前状态见O2。
 
-### 当前实际续接：五门真实零、完整路径与新几何
+### 原R481接口的后继边界
 
-R481—R491的逐条原文、所有假设、启动失败、原数值费用及pull来源完整保于[原文摘录](open-archive-R481-through-R491-20261116.md)；不是撤销任何条件或重开旧任务。
-
-1. **真正新 cap。** [R481](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)/[R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)给真五控制满秩、logρ lift和三个normal的有限IFT，只付局部下降。R483全尾紧化保远左C，R485排critical/uniform全部C，R489排单曲率原子集中并保两个分离质量窗；不授统一点态正窗/逆。冻结ψ3完整E一次严格Im>0任务已闭。[十五参数真正观察](notes/cap-five-positive-curvature-bounded-observation-20261116.md)同120预算已闭：114.27892698800002秒/166started/164complete/2fail，无新prefix或旧checks；best96→同参165/166，完整Δ/R5∞.17708499746487424，未零且未驻定。不要重开旧六起点。R491完整相位/跳变与两原子五多项式已付，尚未判有解/无解；正推进三原子+远左C五实参的新原积分候选及有限合法恢复。任何新母仍须原q4/F★/20根安装与多帽共同c、A7/s、A0/(h³s²)，不能移植旧母收据。
-2. **同一全路径规范。** [R482](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)给原真实13状态2输入及完整K=F+Chh″+Ckk″，保第三入值/全部W/V。R484若加速度minor非零则有理保护芽锁定解析延拓，离开要实际rank退化；尚未判minor值或退化支。R486排完整F在状态开域恒零，但不排实际低维路径；原principal与C²余表仍保。R488实际k0/ω常/h=Hsec的完整ruling是(a+bv+cv²)/h；中心整profile清理给b0，单patchGram付两even。但已有保护芽锁χ时必须在原period/13核中解三个明确线性兼容行，不能逐patch重选。该分支t1′<0，不能自身M0返回或保方程接常collar。继续真实连接段全s ruling、完整初历史与新增行共同像，不能只报告单patch可控。
-3. **原 O2。** 真新54模型已按[notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md](notes/true54-fresh-model-two-exchanges-first-actual-accepted55-20261116.md)接受55，完整paid模型/原值/费用见前部；下一九个完整body新列与其实际非线性门推进，不能把η.26或κ58当README门。54已付MODEL不冒55 J，参数变化另有完整身份和必要成本。
-
-当前公开/私有实际pull与README已读commit在HANDOFF；每个结论立即推送，NFF实际rebase后续推，所有新研究只在本公开Actions。主完成门没有支付，继续上述工作。
+原阶段记录逐字保存于[归档](notes/open-R481-current-before-complete-cap-obstruction-20261116.md)。其中同类cap五门共同零由R513严格排除；R482完整13状态/2输入和同规范路径条件继续，不能逐段换规范。O2最新为真实58和R514完整51环控制，原54/55时期入口仅保历史原值/成本。
 
 ### R493 至 R497 的原记录
 
@@ -188,3 +192,10 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [R514](results/R514-complete-fifty-one-ring-controls-and-conditional-seventeen-variable-curvature-fibers.md)付原末三样条R0/R1/R2和每层17共同角系数的一一对应、全区延拓及完整有限场。保actual G后，前34低阶态决定I/n/B/C，固定它们时最后17仅使S11仿射变化；本圈门准确等价于一个34维真实低阶问题和其17维共同曲率纤维（加h为18变量）。原172盒通过同W同时约束三层，固定低阶/h后的最高层可裁为17个闭区间，不能给三层各自独立盒。
 
 R1的Tss平方/交叉及normal变化、R0完整θ+u/c(v)/Π、前102与后51中段有限混合全部保。另付原metric两条准确二次条件和有真实原盒幅界时的normal转动障碍；这些是必要/等价结构，不授当前全51可行。下一项结合已闭ring17原无候选返回构造真实低阶态；每一必要新数组/条件求解/完整body预测与actual另收费，连续全圈/全body/非局部reach主门未付。
+
+
+## 2026-11-16 12:29 UTC：R513完整两行分离，关闭当前cap五门路线
+
+[R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)四个临界端势给同一个正Af缺量测度；保完整C尾/跳图后，原λ及A0列准确消元成D0+∫g dν。真实h≥3s²/5、s+2T/3≥1把密度上界归于一个S≥1三次式；全部有理P0/P1/P2和D三导/局部强凸判号付严格裕度。H∈[3/5,2]得到Δ4−βΔ6>7(4+34H)/(1500L)>0，接原R496覆盖H≥2，故允许类全五门无共同零。
+
+这不是有限搜索失败外推，也不撤单门实际构造；原正字符在该同一仿射增强商的下降按R471/R465/R466接线。未来固定宽真实joint、不同profile或同规范全路径必须各自支付其原门与适用条件，不能借改名移植旧收据。私有于12:28:02实际pull至199fa7501eef29206e301da42ef4062f1b5810e6，README空diff/QUEUE唯一进行中；主目标未付，继续下一项。
