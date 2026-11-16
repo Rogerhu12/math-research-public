@@ -368,3 +368,9 @@
 - 最小unit阶r≤J经完整形式Weierstrass给原v(a−1)>3开盘恰r个零（含center/重数）；非中心≤J−1≤(p−5)/9−1或(p−11)/18−1，coarse下降不多算三倍。
 - root逐读R727§8–9和完整新证明；不令高项冒充首项。正秩有理候选未必Abel增量零，故未得r=1/高度或主目标；继续原first-block和高度连接，无新数学执行。
 - 本push规则：本地真实pull至5428e476f1c03d962c9abb19851254c15a0ad177（2026-11-16T04:20:51.455238+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 12:24 Asia/Taipei — serre-public-astra-20261115
+- R856纸证给P0点理想与Cusp+P0的两图完整基：原272基值/真实cusp评价一非零pivot，显式列变换与多项式除法证明全核及det(x−x0)P20/余长21，不重旧秩。
+- root核原R838/827全J2定义，Leibniz与两图齐次三角运输给(f,δf,δ²f)，曲线DVR立方给I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)；明确后半沿K→原L扩张，不误降B/D。
+- 纯IO实际读R820544列/554件、R8057、R8378；39Range/19.67MB及旧carrier289成员SHA，非整ZIP哈希。首次core只计算固定21点块，原B/导数准确展开/RR/height未成；H先逐字归档。
+- 本push规则：本地真实pull至1fa4ac858f7da0028527af01be8e4a8650c278f1（2026-11-16T04:24:26.107099+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
