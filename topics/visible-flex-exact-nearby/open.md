@@ -176,7 +176,7 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 [WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
 
-[WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59首43901776543/1已全成冻结：96changed/36新+20copy/六图五prefix/24门，45current/19history/16AST，SCI b123f0ec/2524a110、exec51c9089f/d5b4b857。e+3dt≈11976.30849仍充分门false/finite0，不推奇异；old0/lost0。全matrixρ2^-1/两rate/S/τ/actualκ3、193mean/7ports/两rhs和原WPS60/WVC56资格保；完整actual proof进行。下一W2C固定原WVC参考，已成36不重算，其他matching仍待。
+[WCTRA完整实际](results/R133-supplement-actual-clipped-scalar-trace-candidate-and-false-finite-gate.md)a3d329be：43901776543/1全96changed/36新+20原copy/六图五prefix/24门已成；45current/19history/16AST、45 SCI/44 exec、全旧scope/4pull和每球完整保。e+3dt≈11976.30849充分门false/finite0，不推奇异；原WVC/WPSfalse不改。全matrixρ2^-1/两rate/S/τ/κ3、193mean/7ports/两rhs保持，old0/lost0；已成36冻结。下一W2C固定原WVC参考，finite/其余matching仍待。
 
 [W2H](results/R133-supplement-two-sided-high-feedback-and-complete-centre-correctors.md)72bef388与[W2C](results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md)09ada380已证固定WVC的双侧collar-Volterra候选：两collar residual二阶、完整transition/familyΔ/true dual H1/signed-centre；compact-core保持真实homogeneous图。角224/残差416，50新(+2)尚未算，旧T等同对象整球copy、旧EHigh重付。[W2CI](notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json)389e6c6a已锁两native/原19history/29同对象整球；piece2549真cubic+65signed offsets+13signed intrinsic+193 family upper实际payload仍待CI验，zero_packet不作实际系数。原固定预算>128/25及KH>171仍仅旧recipe障碍；全atoms/两mean/七ports/两rhs/finite和其余matching保。WVC56/WEX31冻结，继续新source。
 

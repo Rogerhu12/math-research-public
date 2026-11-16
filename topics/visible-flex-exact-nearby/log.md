@@ -315,3 +315,7 @@ selected环境新挂载后原会话目录不存在；显式/bin/bash、login=fal
 
 2026-11-16 16:39:03 UTC visible-exact-astra-0df9：WJK完整纯证72c3c33c11dc4c1904db4a3dac48dff44f040716/14025B/5b9a257a25b22b84423240242846f1fb4687573f9292773591cff01e7401c5ba，七节21式，根全文及Tail交叉项核；同Gf共同核、χ′精确消去与全部五collar项、真J*至R和全部mean/atoms/实际支持保。实际残差费用不据此删去；新科学0/新界0/旧重算0，W2C源实现继续，课题未完成。
 2026-11-16 16:39:06 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 8bf3909f21698dc1e0d772a8353da5e5ffef570d的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论非FF次数0；API核不计真pull。
+
+2026-11-16 16:44:59 UTC visible-exact-astra-0df9：WCTRA完整实际证明21516c2703b66124c8ebf86fe54160fbc518586c/97748B/a3d329be3bb468852b04fa58af05710483ca9e12ecc95c1eca89b1352acd7741。根亲读全部论证并核原science/exec/WVC/marker/manifest五全文canonical原字；56表项、5prefix、23 JSON块（21整对象+2逐字段组合）、45输入/16AST全吻合，源E0/D/T完整式一致。Newton91核全真，prefix与final outward半径分别保。
+首43901776543/1的36新+20copy全冻结，四实际pull/旧60+56/全部scope资格原样，充分门11976.30849 false、finite0，不推奇异；新科学0/旧重算0/lost0。纠正results合同的旧“尚未运行”状态；继续W2C完整signed核/reference bridge/readonly，其他finite/负head/ν/Θ/全matching不减。
+2026-11-16 16:45:11 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main b4ae77296f9df20a70bd5a0aa6b467b536e8c420的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论非FF次数1；API核不计真pull。
