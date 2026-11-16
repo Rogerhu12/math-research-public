@@ -39,6 +39,7 @@ DEPENDENCIES = (
     "produce-original-shadow-rr-eta48.py",
     "original_shadow_coordinate_tools.py",
     "original_shadow_relative_six_tools.py",
+    "original_shadow_tate_trace_tools.py",
     "original_shadow_coefficient_tools.py",
 )
 WORKFLOW_PATH = Path(".github/workflows/rank2-sha-original-shadow-consumer.yml")
@@ -66,10 +67,13 @@ def read_request(root):
         raise ValueError("The fixed request must contain only the two receipt pins.")
     obj = json.loads(raw)
     required = {"schema", "prime", "first", "packet"}
-    if not required.issubset(obj) or set(obj) - required - {"note"}:
+    if not required.issubset(obj) or set(obj) - required - {"note", "trace_method"}:
         raise ValueError("Unexpected original-shadow request fields.")
     if obj["schema"] != SCHEMA or type(obj["prime"]) is not int:
         raise ValueError("Use the original shadow request schema and integer prime.")
+    trace_method = obj.get("trace_method", "tate")
+    if trace_method not in ("tate", "scalar", "compare"):
+        raise ValueError("trace_method must be tate, scalar, or compare.")
     cli = ["--prime", str(obj["prime"])]
     keys = ("job", "run", "run_head", "source", "result_sha256")
     for stem in ("first", "packet"):
@@ -92,7 +96,7 @@ def read_request(root):
     for stem in ("first", "packet"):
         if request[stem + "_source"] != request[stem + "_run_head"]:
             raise ValueError("For these original producers source must equal run.head_sha.")
-    return cli, request, hashlib.sha256(raw).hexdigest()
+    return cli, request, hashlib.sha256(raw).hexdigest(), trace_method
 
 
 def main():
@@ -110,7 +114,7 @@ def main():
     attempt = os.environ["GITHUB_RUN_ATTEMPT"]
     if not run.isdecimal() or not attempt.isdecimal():
         raise RuntimeError("Missing actual public run identity.")
-    cli, request, request_hash = read_request(root)
+    cli, request, request_hash, trace_method = read_request(root)
     files = [TOPIC / "scripts" / name for name in DEPENDENCIES]
     files += [REQUEST_PATH, WORKFLOW_PATH, Path("README.md"), TOPIC / "README.md"]
     # This checks committed source, not any mathematical result.  Runtime
@@ -125,7 +129,7 @@ def main():
     manifest = dict(
         kind="rank2_original_shadow_host_pipeline",
         source=source, run_id=run, run_attempt=attempt, image=IMAGE,
-        parameters=request, request_sha256=request_hash,
+        parameters=dict(request, trace_method=trace_method), request_sha256=request_hash,
         dependency_sha256=hashes, readme_blobs=readmes,
         token_location="host receipt reader only",
         Sage_network_mode="none", source_mount="read-only",
@@ -158,7 +162,8 @@ def main():
         command.extend(["-e", key + "=" + value])
     command += ["-v", str(root) + ":/work:ro", "-w", "/work",
                 "--entrypoint", "/usr/bin/sage", IMAGE, "-python",
-                str(TOPIC / "scripts/produce-original-shadow-consumer.py"), *cli]
+                str(TOPIC / "scripts/produce-original-shadow-consumer.py"), *cli,
+                "--trace-method", trace_method]
     reader = None
     sage = None
     completed = False

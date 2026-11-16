@@ -37,6 +37,7 @@ jobs:
             /topics/rank2-sha-infinitely-many-p/scripts/produce-original-shadow-rr-eta48.py
             /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_coordinate_tools.py
             /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_relative_six_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_tate_trace_tools.py
             /topics/rank2-sha-infinitely-many-p/scripts/original_shadow_coefficient_tools.py
           persist-credentials: false
       - name: Pull the pinned Sage 10.6 image

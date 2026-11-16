@@ -42,6 +42,8 @@ def import_script(filename,module_name):
 def main():
     parser=argparse.ArgumentParser()
     add_pinned_arguments(parser)
+    parser.add_argument("--trace-method",choices=("tate","scalar","compare"),
+                        default="tate")
     args=parser.parse_args()
     request=pinned_request(args)
     incoming=sys.stdin.buffer.read(2*1024*1024+1)
@@ -57,7 +59,8 @@ def main():
              first_weight=first_weight,packet_weight=packet_weight,
              envelope_sha256=envelope["envelope_sha256"],
              first_source=first["source"],first_run=first["run_id"],
-             packet_source=packet["source"],packet_run=packet["run_id"])
+             packet_source=packet["source"],packet_run=packet["run_id"],
+             trace_method=args.trace_method)
     # No mathematical reconstruction begins before BOTH true whole certificates.
     local_module=import_script("produce-original-shadow-local-input.py","original_shadow_local_input")
     progress("same original full-precision local input start",prime=args.prime)
@@ -73,7 +76,7 @@ def main():
     maps,maps_summary=build_reduced_maps(rr,local,first,packet)
     progress("same original reduced maps complete",summary_sha256=digest(maps_summary))
     from original_shadow_relative_six_tools import consume_original_relative_six
-    result=consume_original_relative_six(rr,maps)
+    result=consume_original_relative_six(rr,maps,trace_method=args.trace_method)
     dependencies=[
         "launch-original-shadow-consumer.py",
         "read-original-shadow-pass-receipts.py",
@@ -85,11 +88,12 @@ def main():
         "produce-original-shadow-rr-eta48.py",
         "original_shadow_coordinate_tools.py",
         "original_shadow_relative_six_tools.py",
+        "original_shadow_tate_trace_tools.py",
         "original_shadow_coefficient_tools.py",
     ]
     manifest={
         "kind":"rank2_original_shadow_consumer_public_execution",
-        "prime":args.prime,"parameters":request,
+        "prime":args.prime,"parameters":dict(request,trace_method=args.trace_method),
         "source":os.environ.get("RANK2_SOURCE_SHA"),
         "run_id":os.environ.get("RANK2_RUN_ID",os.environ.get("GITHUB_RUN_ID")),
         "run_attempt":os.environ.get("RANK2_RUN_ATTEMPT"),

@@ -9,6 +9,8 @@ recomputable point table is written to the repository or to a release.
 The source is the normalization of degree 288 over k(t_eta), equivalently the
 original relative degree-six Y=X_0(3468)->X_0(867).  All nine original pairs are retained via four full divisors and the proved
 whole W and constant-reflection identities.  All cusps, common intersections, and residue degrees remain.
+The explicit trace_method is tate (default), scalar, or compare; compare runs
+both exact readers at every contributing closed point in the SAME torsion basis.
 """
 import os
 if (os.environ.get("GITHUB_ACTIONS") != "true" or
@@ -481,7 +483,9 @@ def prepare_normalized_geometry(six):
                 endpoint_divisors=divisors,F_x_divisor=fD,F_y_poles=yFpoles,
                 first_map_degree=first_degree)
 
-def complete_pair_shadow(six,geometry,torsion,a,b):
+def complete_pair_shadow(six,geometry,torsion,a,b,trace_method="tate",tate_reader=None):
+    assert trace_method in ("tate","scalar","compare")
+    assert (tate_reader is not None)==(trace_method in ("tate","compare"))
     L=six["field"]
     k=six["constants"]
     r=int(six["prime"])
@@ -538,7 +542,7 @@ def complete_pair_shadow(six,geometry,torsion,a,b):
     record_hash=hashlib.sha256()
     counts={"closed_places":0,"ramified_degree":0,"common_degree":0,
             "extra_degree":0,"extra_closed_places":0,"extra_output_infinity_degree":0,
-            "nonzero_scalar_trace_places":0,"maximum_residue_degree":0,
+            "nonzero_six_trace_places":0,"maximum_residue_degree":0,
             "cuspidal_intersection_degree":0}
     support=E.list()
     progress("complete intersection divisor factored",endpoint_pair=[a,b],
@@ -592,22 +596,40 @@ def complete_pair_shadow(six,geometry,torsion,a,b):
                     assert yy**2==xx**3+1
                     EQ=EllipticCurve(kQ,[0,0,0,0,1])
                     P=EQ([xx,yy])
-                    # R883(A1): retain the entire degree d, not d modulo ell.
-                    numerator=ZZ(1)-ZZ(-r)**d
-                    assert numerator%ell==0
-                    scalar=numerator//ell
-                    S=scalar*P
-                    assert ell*S==EQ(0)
-                    omega_res=to_kQ(L(six["omega"]))
+                    # R883(A,G): both methods read the SAME complete [6]trace.
+                    # The actual residue embedding is fixed before any pairing.
+                    embed_base=lambda c:to_kQ(L(c))
+                    omega_res=embed_base(six["omega"])
                     assert omega_res**2+omega_res+1==0
-                    Sbase=read_fixed_field_point(
-                        S,kQ,omega_res,six["omega"],k,E0,r,d)
+                    trace_audit={"trace_method":trace_method}
+                    Tate_point=None
+                    scalar_point=None
+                    if trace_method in ("tate","compare"):
+                        Tate_point,pairing_audit=tate_reader.six_trace(
+                            P,kQ,embed_base,d)
+                        trace_audit["reduced_Tate"]=pairing_audit
+                    if trace_method in ("scalar","compare"):
+                        # Full d is retained here, never d modulo ell.
+                        numerator=ZZ(1)-ZZ(-r)**d
+                        assert numerator%ell==0
+                        scalar=numerator//ell
+                        S=scalar*P
+                        assert ell*S==EQ(0)
+                        scalar_point=read_fixed_field_point(
+                            S,kQ,omega_res,six["omega"],k,E0,r,d)
+                        trace_audit["scalar_bits"]=int(abs(scalar).nbits())
+                    if trace_method=="compare":
+                        assert Tate_point==scalar_point
+                        trace_audit["same_basis_full_point_comparison"]=True
+                    Sbase=scalar_point if trace_method=="scalar" else Tate_point
                     assert ell*Sbase==E0(0)
                     if not Sbase.is_zero():
-                        counts["nonzero_scalar_trace_places"]+=1
+                        counts["nonzero_six_trace_places"]+=1
+                    # Only now is this an ell-torsion point; the full original
+                    # intersection multiplicity extra remains in the record.
                     total+=extra*Sbase
-                    rec.update(scalar_bits=int(abs(scalar).nbits()),
-                               scalar_trace=point_coordinates(Sbase),
+                    rec.update(trace_audit=trace_audit,
+                               six_trace=point_coordinates(Sbase),
                                weighted_trace=point_coordinates(extra*Sbase))
             else:
                 rec["boundary"]="three equal lift contributions sum to zero"
@@ -620,7 +642,8 @@ def complete_pair_shadow(six,geometry,torsion,a,b):
     assert counts["ramified_degree"]+counts["common_degree"]+counts["extra_degree"]==expected
     assert ell*total==E0(0)
     coord=torsion["coordinates"][total]
-    out=dict(endpoint_pair=[a,b],full_intersection_degree=expected,
+    out=dict(endpoint_pair=[a,b],trace_method=trace_method,
+             full_intersection_degree=expected,
              first_map_degree=first_degree,cyclic_presentation=presentation,
              six_times_trace=point_coordinates(total),torsion_coordinates=list(coord),
              complete_closed_records_sha256=record_hash.hexdigest(),**counts)
@@ -694,10 +717,19 @@ def read_full_artin(six,torsion,points):
         "certificate_sources":result["certificate_sources"],
     }
 
-def consume_original_relative_six(rr,maps):
-    """Main in-process consumer.  It writes summaries/hashes only, never data files."""
+def consume_original_relative_six(rr,maps,trace_method="tate"):
+    """Main consumer; tate/scalar/compare all retain the same original data."""
+    assert trace_method in ("tate","scalar","compare")
     six=build_actual_maps_on_six(rr,maps)
     torsion=verified_torsion_basis(six["constants"],six["omega"],six["prime"])
+    tate_reader=None
+    if trace_method in ("tate","compare"):
+        from original_shadow_tate_trace_tools import OriginalTateTraceReader
+        tate_reader=OriginalTateTraceReader(torsion,six["prime"])
+        progress("actual reduced Tate trace calibration",
+                 trace_method=trace_method,**tate_reader.calibration)
+    else:
+        progress("original complete scalar trace selected",trace_method=trace_method)
     geometry=prepare_normalized_geometry(six)
     points=[[None]*3 for _ in range(3)]
     summaries=[]
@@ -706,7 +738,8 @@ def consume_original_relative_six(rr,maps):
     # degree is reduced here: every computed point already is the full trace.
     computed_pairs=((0,0),(0,1),(1,1),(1,2))
     for a,b in computed_pairs:
-        P,summary=complete_pair_shadow(six,geometry,torsion,a,b)
+        P,summary=complete_pair_shadow(
+            six,geometry,torsion,a,b,trace_method,tate_reader)
         points[a][b]=points[b][a]=P
         summaries.append(summary)
     cm=torsion["cm"]
@@ -735,6 +768,9 @@ def consume_original_relative_six(rr,maps):
         "kind":"rank2_same_original_relative_six_frobenius_shadow",
         "status":"complete_original_shadow",
         "prime":six["prime"],"ell":torsion["ell"],
+        "trace_method":trace_method,
+        "Tate_trace_reader":tate_reader.summary() if tate_reader is not None else None,
+        "every_contributing_point_compared_in_same_basis":trace_method=="compare",
         "original_source_level":10404,"relative_six_level":3468,"RR_base_level":867,
         "source_genus":1729,"relative_six_genus":559,
         "degree_over_eta":288,"computed_complete_divisors":[list(p) for p in computed_pairs],
