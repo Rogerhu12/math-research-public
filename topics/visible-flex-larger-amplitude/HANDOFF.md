@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 13:04:04 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 5cd6764ae10b43a1caee88ab7ef8af9b907627d5。
+规则同步记录：2026-11-16 13:04:21 UTC root委托本公开仓库Actions run43872278765真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c9e38a24d388527cc9e4fa960f27d664b0fd2e10。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull；每pull核双README，变则仅读差异照新规并记读commit。原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功，禁止force。部分克隆blob:none/sparse；07:19终端失联后委托本公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -19,15 +19,15 @@
 | 请求/结果 | actual run / source / compute | 最新责任 |
 |---|---|---|
 | 224/R525 | 43851068999 /23176ac678ea92882fa38ec6ddcc09e98742ac89 /133243448382 | amplitude；12:48科学 |
-| 226/R537 | 43863878883 /f93b079e400c336f12751728ba388d6a9e769779 /133287356711 | root；12:55前1–10success/11科学 |
+| 226/R537 | 43863878883 /f93b079e400c336f12751728ba388d6a9e769779 /133287356711 | root；13:03前1–10success/11科学 |
 | 227/R539 | 43860144962 /5b5dd03b0d69c8a059282b963b7192679fd43f67 /133274517805 | amplitude；12:48科学 |
 | 228/R541 | 43858623707 /99f4ee650e031448e9fcb33ead672e48a8babd3d /133283168757 | exact；12:55 step8科学 |
 | 232/R552 | 43870893094 /42492b0c728e260b3b1de8be79b4ab962259ad3e /133311483693 | amplitude；单POST200/attempt1，13:00前1–10success/11科学 |
-| 233/R555 | 本次完整入口刊后单POST，actual另记 | geometry唯一 |
+| 233/R555 | 43872121853 /cec9d8c877fa92bd5edf70f950ff7e0dcd77e2c3 /133315726141 | geometry；单POST200，13:03前1–4success/5设置 |
 
 活动run只看metadata，running科学日志0；终态每job指定读者一次，root不复子agent日志。官方绑定在notes；228实际头仅H规则行不同，source/.github/双README同。未知dispatch不盲重试。
 
-225/R528已终态，exact两日志各唯一，完整正文28538/8ab4已交待独立立即刊。run43852521165/head5af07ed64877475bc05a488306246c9be22926bb，compute133248437738失败/report133308136127成功。原128 iter0 α1完整接受；iter1仅534/576后6000内钟，tol/replay未完成、四后置未起，非paired/cache收益结论；外6982.009654177未到19200，实际quiet且removed=true，无父。完整词/失败/未返责任以R528全文为准，不从摘要补。
+225/[R528](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md)本次完整独立刊，28538/8ab4，exact两日志各唯一。run43852521165/head5af07ed64877475bc05a488306246c9be22926bb，compute133248437738失败/report133308136127成功。原128 iter0 α1完整接受；iter1仅534/576后6000内钟，tol/replay未完成、四后置未起，非paired/cache收益结论；外6982.009654177未到19200，实际quiet且removed=true，无父。完整词/失败/未返责任以R528全文为准，不从摘要补。
 
 ## 完整历史、当前结论与恢复
 
@@ -51,7 +51,7 @@ R550四件62390B已bb4a，完整[证明/CLI](results/R550-same-root-accepted-com
 
 R551/request232五件265166B/topic241924B已42492，[完整证明接口](results/R551-request232-accepted-root-reuse-and-honest-projected-model-complete-entry.md)35933/453e。原387/39/九对象保→402=351public+51gen；实际R550 prepare/原scope直接装一次＋原defer、诚实新键、全部原门/caps、整个RootStats保。真实旧source70全文核读、旧70/false保，两具名表全信息逆，90K70原限。[官方232](notes/2026-11-16-request232-official-run-binding.md)单POST200已绑，R552待实际。
 
-R554/request233五件247832B/topic224801B本次完整刊，[证明/CLI](results/R554-current-declared-model-contract-and-complete-source-readback.md)33517/c732，gen32840/543b、plan61341/abe6、request97103/17ef、wf23031/dd75。原387/39/九对象保→397=349public+48gen，九新caller；原owner25621/3917及三数学consumer不改，不含R550。诚实新键、同次旧source70全文及完整具名逆；19200/allcaps/全部门/90K70/quiet原责保。仅dispatch，R555 geometry唯一。
+R554/request233五件247832B/topic224801B已cec9，[证明/CLI](results/R554-current-declared-model-contract-and-complete-source-readback.md)33517/c732，gen32840/543b、plan61341/abe6、request97103/17ef、wf23031/dd75。原387/39/九对象保→397=349public+48gen，九新caller；原owner25621/3917及三数学consumer不改，不含R550。诚实新键、同次旧source70全文及完整具名逆；19200/allcaps/全部门/90K70/quiet原责保。[官方233](notes/2026-11-16-request233-official-run-binding.md)单POST200已核，R555 geometry唯一。
 
 geometry续R553：实际prefix全系数/角cell形成Frenet tube正域及常数，不冒原cubic/FFT误差或添BVP门。exact在R559/235后续R556→R557/234/R558原112far独立并行、共享25M/绝对钟/原序journal不减。root续R561准确normal dyadic二次平均、保原首乘积/全部fallback/dual原字；三完整源已交R562/request236/R563 amplitude，正文写完即独立刊。R561未推恢复三blob：header3805c2b3db10e37e2897e03eea018b1659b60be6，adapter46c92723c17fda02c2b3aa5e32052261782ffcb1，plan692d007182ea5fa021bbd3794805fc05fcb96191；实际全部CLI/源责任随正文恢复。现有run源不改。
 

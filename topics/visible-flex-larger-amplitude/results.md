@@ -130,3 +130,7 @@
 ## R554 — request233诚实模型契约与完整来源读回入口
 
 **已证明完整来源关系与条件接口，实际R555另付。** [R554](results/R554-current-declared-model-contract-and-complete-source-readback.md)33517/c732及四执行件共247832B/topic224801B；原387/39、九原对象逐值保→397=349public+48gen。九新caller修真实新键，原owner25621/3917及三数学consumer保，不含R550；全128/tol/replay/同DN模型/lift/FD/fullDN/末audit与19200/allcaps不减。原source70核读同job完整overflow并保旧70/false，两具名表全字段/顺序/bytes/SHA与错误/未访可逆，未知shape literal，90K70无fit承诺。完整CLI/prepare/reader/quiet/cleanup齐；独立233仅单POST，R555 geometry唯一。232官方POST200/run43870893094/head42492/compute133311483693已核，R552另付。
+
+## R528 — actual225一次完整128接受与原owner预算partial
+
+**启发式/数值证据；完整官方实际范围。** [R528](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md)28538/8ab4完整，两日志exact各唯一。真同H fullJ/R273及原128首α1全576接受14074125.7215534695603754375431894587→0.00119384020061276193473229654960738502；第二α1只534stage/119840行，42stage原预算错误，normnull/未接受，owner5999.060112429触原6000，保存前完整接受态。tol/replay未付，replay两false仅未完成非词不等；四post/FD/fullDN未起，R522/R515后置无实际覆盖，不能作速度结论。原外19200仅6982.009654177，非总钟/磁盘/外信号；完整来源49780与科学51982正文（无LF）两job同，完整错误/未访/参数/三轮rules保。ownedquiet真且实际removed=true，无可续父或完整112/338/450接受。

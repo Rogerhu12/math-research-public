@@ -19,13 +19,15 @@
 | 211 / [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md) | 零H完成、首1/64原全J/R273后α1真接受196395.091→5181.565；下方向stage105原18000预算，正fullDN/final未付，真清无父。 |
 | 223 / [R513](results/R513-actual223-eight-original39-pairs-and-necessary-summary-overflow.md) | 16exit0与八eligible/固定控制流付八warm/freshFD交接；whole113011/recovery113361超90K，具体数值/末父未返，quiet而cleanup skip，无可续父。 |
 | 224/R525、227/R539 | amplitude各唯一；run43851068999/23176与43860144962/5b5dd，实际科学中。 |
-| 225/R528、228/R541 | exact各唯一；225已终态、完整R528待独立刊；228 run43858623707/99f4、compute133283168757仍科学。 |
+| 225/[R528](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md)、228/R541 | exact各唯一；225原128首步接受后534/576与6000预算partial，全文本次刊；228 run43858623707/99f4、compute133283168757仍科学。 |
 | 226/R537 | root唯一；run43863878883/headf93b、compute133287356711，单POST200，前1–10success/11科学；[官方绑定](notes/2026-11-16-request226-official-run-binding.md)。 |
 | 229/[R543](results/R543-actual229-current-request-field-mismatch-before-owner.md) | 终态两必要scope完整；fresh原withJ返回后旧system字段KeyError，owner/replay/model/FD/fullDN全未起，真quiet且removed，无接受父。geometry两日志各唯一；不能判数学拒或6000失败。 |
 
 所有活动run均不读running科学日志，各终态job由指定读者唯一一次；229已按R543完成终态读取。完整真实头与全部元数据见HANDOFF/官方notes；phase成功不替最终科学门，未返不补拒。
 
 ### 1.2 原128缓存、完整并行与当前模型
+
+**[R528实际225](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md)完整28538/8ab4已刊。** run43852521165/head5af07，两个终日志exact各唯一；原356source生成及同H fullJ/R273真返，128首α1全576/129248行接受：14074125.7215534695603754375431894587→0.00119384020061276193473229654960738502。第二α1只534/576与119840/129248行，stage534..575全explicit-experiment-time-budget，norm/mean/worst null，不是完整下降门拒；6000内钟实际5999.060112429。保存的是首接受态，tol2e−9未过，replay code3/incomplete的两equality=false不代表观察到词不等；四post、FD/fullDN未起，R522/R515无后置执行覆盖/性能结论。外19200仅6982.009654177，resource_stop/external_signal null；两必要49780/0e5b与51982/3192（无分隔LF）两job逐字同，原全部数值/未访/源/三次rules/quiet/实际12:48:37.9242565Z removed=true保，无accepted父。[233官方](notes/2026-11-16-request233-official-run-binding.md)单POST200/run43872121853/headcec9/compute133315726141，R555 geometry唯一，继续实际原门。
 
 **[R554/request233](results/R554-current-declared-model-contract-and-complete-source-readback.md)完整五件247832B/topic224801B已形成**：原387/39与九原对象逐值保→397=349public+48gen；九新caller修诚实新键，原owner25621/3917及三个数学consumer不变，不含R550。gen32840/543b、plan61341/abe6、request97103/17ef、wf23031/dd75、正文33517/c732含全CLI/源关系。原source70时现场核读同job完整overflow，保旧70/fallback.false；两具名来源表全字段/行键序/bytes/SHA/错误/未访有完整逆，未知shape保literal，90K70不抬且不保证fit。原19200/6000/1200/8000/600/600/1800、128/replay/同DN模型/FD/fullDN/末audit不减。仅dispatch刊后单POST，R555 geometry唯一。[232官方绑定](notes/2026-11-16-request232-official-run-binding.md)确唯一POST200/run43870893094/head42492、compute133311483693，R552 amplitude待实际，两支源不混。
 

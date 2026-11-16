@@ -310,3 +310,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 13:03 UTC /root — R554完整233契约与同次来源读回入口
 
 [R554](results/R554-current-declared-model-contract-and-complete-source-readback.md)五件247832B/topic224801B完整；原387/39/九对象保→397，九新caller诚实键、原owner/三数学consumer保，旧source70现场全读再具名逆、保旧70/false与90K限；原科学/caps不减。仅dispatch刊后单POST，R555 geometry唯一；232官方run43870893094/head42492已绑。H压缩全文固定42492，225完整R528另立即刊，open§4–6原字。
+
+## 2026-11-16 13:04 UTC /root — R528实际225完整结论独立发表
+
+[R528](results/R528-actual225-one-live128-accepted-step-and-owner-resource-partial.md)28538/8ab4：同H原128首全576接受到.0011938402006127619347；次试534/576原6000预算partial、normnull，tol/replay/四post/FD/fullDN未付，无paired/cache速度结论。外6982.009654177未到19200，两完整必要两job同，原未访/错误全保、quiet且实际removed=true，无父。233单POST200/run43872121853/headcec9官方已绑，R555唯一；H/open同步、§4–6原字。
