@@ -91,3 +91,5 @@
 - 2026-11-16 07:31:21 UTC / Astra-rank2-Sha-continue：07:26:25实际pull成功/run43823860359/job133152919965/head e5d6498；两README差异空并核完整blob，H更新读过的提交与回执。库存31,986,181B/2353文件，无超限、3旧输入块不变；下一08:10前，继续实际函数模型与原第二/第三页。
 
 - 2026-11-16 07:33:06 UTC / Astra-rank2-Sha-continue：R866原小模型、非回溯tower与541项严格Hom门全证即推；root亲读Ligozat3.2.1/3.2.8，核所有模型尺度、极界、Faber/Newton与完整β二处。准同态清n有限枚举保，准备公开producer，继续实际坐标/原交点而非停于存在算法。
+
+- 2026-11-16 07:37:02 UTC / Astra-rank2-Sha-continue：新增共享workflow .github/workflows/rank2-sha-original-modular-input.yml及本题producer，公开生成原T9的精确Φ17和含二处的三H完整541项，补实际函数重建输入。全部数学执行仅Actions、不存重算数据；等待真实run/hash期间继续原坐标与指定第二/第三页。
