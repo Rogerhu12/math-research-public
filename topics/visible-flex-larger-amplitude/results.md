@@ -117,3 +117,5 @@
 - **两22/23历史manifest（行政来源与固定恢复条件结论）**：[独立完整审计、真实生产/读取链及狭窄整理](notes/2026-11-16-two-twenty-two-three-domain-manifest-retention.md)。仅两份完整静态副本，共1228897B，所有其他现存输入与真实artifact读取合同保；最新delta/实际发布由正文回执绑定。
 
 - **R584/request244（已证明的完整真实入口）**：[R583循环观察接原full112](results/R584-request244-loop-rounding-observation-complete-original-full112-entry.md)，[全部CLI/469源/必要与清理合同](notes/2026-11-16-request244-loop-rounding-observation-original-full112-interface.md)。原R59412000/19200与输入/全科学门保持，六层source-only且R583只装一次；真实R585由本次run支付。
+
+- **R566（已证明的实际237返回范围）**：[432源准备完成、双必要超限及未知内部科学结论](results/R566-actual237-source-and-science-readback-overflow.md)。两终态唯一读取；286365/164993原全体未返，原70/准备true与transport.false区别/quiet保raw完整；无新的科学父。

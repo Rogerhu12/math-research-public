@@ -173,3 +173,7 @@ R596三件104903B完成即独立刊：真实CP/capture/all RHS字、四原物理
 ## 2026-11-16 16:28 UTC /root — R584/request244完整实际循环观察入口
 
 六件完成即独立普通刊后单POST：原454全保→469/十caller/R583六plan与一次安装，原输入/12000-19200/全部FD-fullDN门和90000/70保。题外新增visible-larger-live128-loop-rounding-observation-full112.yml仅承接真实完整入口；R585 exact唯一。并补两22/23实际f370/138完整delta/仅两删回执，R583明确R561无mode读取、R584限定layout先fallback（源码不变）；open1.3全旧词固定f370链，§4–6原字保。
+
+## 2026-11-16 16:30 UTC /root — R566 actual237双必要超限的完整已返范围
+
+R566完整结论23459B写成即独立刊：实际237两job唯一整读，432源准备成功与双必要286365/164993超90K诚实70分开，两个descriptor同字，外1/1/1与nullstop/nullsignal/quiettrue保，内部终因未知且raw未删，非数学拒。另绑244唯一POST200/run43908088860/head46dff606/job133442289891，R585 exact唯一；无running日志读取。
