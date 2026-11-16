@@ -42,7 +42,9 @@ R460以H′=pG″支付simple-p无留数；真实Lf range仍保Af/platform/total
 
 [四self首次完整观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)：run43819806568/job133140037524/source fe9569f7…成功，85原记录；四current0，两补响应/XY局部，XH保12真实左n2积分字。同180秒累计15.690763111含失败；0旧Q/member/rank/dev重跑。R470已消费三维像，联合关系继续。
 
-[R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)：两新响应完整self落K8/V51/V52，S(K0)恰3；XY余式x5=−2s(2s²+17h)<0，y≠0。XH十二词恰Ln2真截断积分，cap给degree≤7 A(x)。继续P_H+A∈span{三响应,XY}；全n2=0不能删partial。
+[R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)：两补响应完整self仍三维，XY余x5<0故y≠0；XH保真实Ln2截断积分。
+
+[R471](results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md)：同真cap的八A_j经六β给五Δν=R5βν−Rνβ5=0 iff h∈span(y)，唯一c=1152β5/R5；非零minor给显式λ+分离行。真cap满足5h>3s²、交替A_j号及A0/A7界；四局部列同二次因子，第一头在复根的完整有序正测度积分仍未判零。R473继续，不授五式可解或障碍。
 
 [R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个已付端芽唯一锁定第三三矩；保完整平方后全段变化=𝒫*Bθη。当前圆全gap对全s盲，只余母/平台2n列，原13核内须解全函数式；平台local=−d_i w′·μ_i/2。两个同坐标ω0真有理端芽满足24P2,b/κb−24P2,a/κa=sin²θ d_f(Xb−Xa)，故须真实Mraw相对prefix零；全成本最高标量只同移不付该差。R70仅已付二阶标记prefix层，T/V/桥内ruling仍继续。
 
@@ -60,4 +62,4 @@ actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [新完整方向任务](notes/true53-positive-direction-full-grid-and-actual-design-20261116.md)已发布9新模块/225来源，request49657B/0608c101…。唯一run43821568604/research133145590135/source323f36fefc0380898aa1e3c0f195e08a32f1fbc1正在运行，结束消费其read-only report。一新600秒含全部input/import/失败/output：必要U/T恢复1、不同双网JVP≤2（先实际舍入p一次）、新argmax≤4、scalar64、实际3pair/6值；0源geometry/旧hardJ/finite/开发。全网合格才原scalar/14门；新U/T和必要方向只原CACHE，如接受54直接保其已付ordinary U/T/e/f，0复算。源点/原g/b0/163盒/guard及pool银行原账户保留；立即消费本唯一Actions实际结果，继续open。
 
-理论R471继续真实cap联合h/y，R473纸证复根正测度积分是否非零；R472继续真实M/第三prefix及同一w全段。主完成门未付，不以任一任务预算/阶段停下。
+理论R471已付五真实cap门；R473解复根积分，R471后续解其余实门；R472接真实M/第三prefix及同一w全段。主完成门未付，不以任一任务预算/阶段停下。

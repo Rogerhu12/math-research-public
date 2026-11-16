@@ -412,3 +412,7 @@
 ## R469｜全局规范锁定、两类完整核列与真实前缀障碍
 
 [R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)（26167B；SHA256 `5e69cbbf4019b2dc3febb31e715fc69ee6c2633907641bb67da8a72f81b7447f`）。一个已付有理端芽唯一锁定第三三矩，完整平方经同一Gram补偿后全段变化=𝒫*Bθη。当前圆所有gap对全s无效，母/平台两类完整列与原13核给准确剩余函数方程；平台local导数项不删。两个真端芽归一最高行差=sin²θ d_f(Xb−Xa)，X是真Mraw前缀；同全成本最高scalar只共同平移，不能付相对门。R70给有限标记二阶prefix，但T/V/全段未付。全文纸证0新执行，根读原式及范围；不宣当前固定路径违反或主完成。
+
+## R471｜共同关系的五个真实 cap 条件与复二矩接口
+
+[R471](results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md)（13544B；SHA256 `40eb73087bc79afaad9fe7a8bbc55695833ed5f0551b761713917a1f4ed552b0`）。固定同一真实cap，八实际积分A_j经原三角pivot得到六个完整β；联合h∈span(y) iff五个Δν=0，比例唯一，失败minor给λ+的显式下降行。原平端/Af正给5h>3s²、交替A_j号、A0/A7严格界。完整三响应/XY共二次因子；原Ln2=DP+3X²w²a²u‴/2及PH+P端项相消，把第一头复根值准确化为正测度的有序复积分。0新执行；未判其非零/可消，未授其余三实门或主完成。

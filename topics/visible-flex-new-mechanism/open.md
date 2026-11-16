@@ -191,3 +191,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 ### 正finite方向的完整双网与actual任务已发布
 
 [设计](notes/true53-positive-direction-full-grid-and-actual-design-20261116.md)，9新模块/225来源/request49657B。直接消费已付p/原MODEL，必要U/T恢复1、先实际舍入差JVP一对，最多4新argmax；合格才接原guard scalar64/最多3实际pair6值。新600秒含全部import/input/失败/output，0旧J/finite/源普通geometry/开发。若接受54从已付ordinary cache保新U/T/e/f；所有大数组只原stdout，完整clock权威。无论新cut/实际改善/失败，消费结果接open下一项。
+
+### R471：同一真实 cap 的五条等价门，继续解复积分与其余实门
+
+[R471](results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md)（13544B；SHA256 `40eb73087bc79afaad9fe7a8bbc55695833ed5f0551b761713917a1f4ed552b0`）给Δν=R5βν−Rνβ5=0（ν=1,2,3,4,6）iff共同h∈span(y)，八A_j均由同一cap积分，不能独立选；唯一比例1152β5/R5。任一非零minor给实际λ+分离行，但尚未证明当前cap有非零minor。真实5h>3s²、交替积分号、−9s/560<A7<0、0<A0<3h³s²/5须保。四局部列同a因子，复根处第一头=3/8∫B²C²dC=−1/4∫BC³dB，q>0不足以直接判复积分号。R473继续必要二实门；机制线继续另三实门/真实cap可能构造，均0执行。若成才接R468/R467，其它s段及主门仍在open。
