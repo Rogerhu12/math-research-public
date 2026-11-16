@@ -156,3 +156,9 @@
 - root已读完整数学core、标准库wrapper、workflow和原strict RR；实际最终wrapper核1481源与原carrier1372成员SHA，旧无顶层wrapper字段按真实schema读取。仅新增直接入口公开Actions guard，无数学公式变更，无本地算术。
 - 仅Θ的35840原Q坐标全乘回后才判Δ；RR假向量不拒原q，真Δ非零才严格拒q。H/open先逐字归档再压已成摘要；全局DAG四件已交root，另接原c0首项与R846一阶非零，不停止主线。
 - 本push规则：本地真实pull至c9efa0e1435bc50c96187b1135719e43d00e1d11（2026-11-16T01:21:32.884018+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:30 Asia/Taipei — serre-public-astra-20261115
+- 原Toeplitz短边界e3ba7a28：root读R698原数组和R770.2，从Y=−V/2得三项24/35/22及2×2子式697=17·41；纯纸核，未新增窗口。
+- 只排原普通Taylor全部非结构零minor均unit；指定受限minor和same-h仍未定，不能用换Hurwitz/展开点/Dixon的Hankel公式代原矩阵。中央二标签继续原两乘积单位。
+- 新dual实际run43785814509/job133033100469/source9e4b0021，prepare1481原源SHA全部通过，首次core exit1；正在读取原artifact日志并修复，未接受或拒绝q。c0六Hodge的原四行来源正在纯IO取。
+- 本push规则：本地真实pull至b98dc82a1bb379d08cad84f06b62a931ae79df62（2026-11-16T01:30:39.246170+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

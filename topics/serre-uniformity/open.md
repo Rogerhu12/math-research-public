@@ -133,3 +133,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 [全局表达式执行契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4冻结八组真源；原κ000、完整F1234/W34/C12与S51234、按需2420/S5/Krylov单位解、一次全局导数和五组三minor/真Norm。R845八生成元是原完整单位解数学叶，保全部refs，不拿模kernel当Q系数；只产准确组合DAG，未物化理想格/标准Jacobian代表/刚性化/高度。
 
 **新dual已激活参数**：coref5fff443/wrapper611e8ad8/request2a96f567，公开workflow serre-R787-cleared-dual-CM-value，300min、reconstruct每8位、首位尝试、无新增位数上限。真实1256 R787+134 R781+4 R786+87 CM共1481源及旧carrier1372成员已按最终wrapper纯IO核定；新RHS从1位，仅严格RR/full35840准确乘回后Δ接受或拒绝q，尚无实际新dual结果。
+
+**原普通Taylor全子式捷径已排**：[短边界](notes/2026-11-16-sigma-original-Toeplitz-minor-boundary.md)e3ba7a28直接用已成R698原41数组及R770的g=−Vf/2。rows{0,1}/cols{3,4}的四项全unit但det697=17·41；不证明真正primitive/Legendre掩码所需的指定minor为零，不改变同h单位问题，无新素数或数学计算。
