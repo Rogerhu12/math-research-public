@@ -2,39 +2,46 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R929-original-auxiliary-ordinary-curve-and-exact-central-shift",
-  "commit_message": "serre: prove ordinary auxiliary curve and exact original central Legendre shift",
-  "rules_last_read_commit": "68154bed55e5f54e803844a566be958c0956b382",
+  "request_id": "20261116-R854-actual-N112-precision-exhausted-same-core-N224",
+  "commit_message": "serre: continue original p41 response solver at N224 from actual precision stop",
+  "rules_last_read_commit": "56bb641c26835b8f9282a0253d49869bd2ebf43b",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "c6ca53e2f13d1a0949692142200d96babcb35f92e4cbdfab9e8dbd2fd53439e8",
+  "expected_previous_request_sha256": "8c14109d179f43e9529f3323144c1a2317a072d6bd61fa149fae462f3a306988",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R929-original-Legendre-auxiliary-ordinary-curve-and-central-shift.md",
-      "sha256": "1d4f22e88fddd0cf2280bed01526cb2e04201162f4876093bf75f47f21ba6471",
-      "expected_previous_sha256": null
+      "path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
+      "sha256": "9019d79c3406b8e25f100c7da68a2bba21ad254c0830a2727f12197960df1937",
+      "expected_previous_sha256": "d86a3059d6faeca1edaecae68542f052c4aa42e80f76269c56b2e3385345fcc5"
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-ordinary-auxiliary-and-reference-norms.md",
-      "sha256": "36f4c3898a30ffc6fb62b59983394becc286a8361141592064bb0e2906c715a9",
+      "path": "topics/serre-uniformity/notes/R854-original-p41-N112-ended-and-N224-continuation.md",
+      "sha256": "511683f8e0c914eda3447bab3d4f5251bbabf6051a06325fe3ea1411e6247c2e",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "c761d8977933e6ed5c29ff4d57bc6c02fcb580eed4157f45344c702539a8b1b2",
-      "expected_previous_sha256": "36f4c3898a30ffc6fb62b59983394becc286a8361141592064bb0e2906c715a9"
+      "sha256": "609c186524a3b4513a87ca323a1e6c3021bf17d5ee19b78ee92a54a25627fd3d",
+      "expected_previous_sha256": "e9c6fd423ab147d857f61b51bad632e44115ed67ead326d60f0cd121150b9f99"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "87b501ad5ffb3a1b9174e8f550f1be5772f8daca759958667878d04968c6f715",
-      "expected_previous_sha256": "028a9814e1023d57e7b02f9316711e57e27bc2aad541c45a065e824af485844d"
+      "sha256": "789db6f7d4b0b01f43675f3224de26df34688e43aa5c7226b3deeb845f859edd",
+      "expected_previous_sha256": "87b501ad5ffb3a1b9174e8f550f1be5772f8daca759958667878d04968c6f715"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "77f7a4637e88ba8cf8200153da1b33519324d6decb2cb753b47faa260f23a5c7",
-      "expected_previous_sha256": "a49fd48e3e049074a0645096a9f5a70851c096d3c1e51d03be970915ab262d0e"
+      "sha256": "39061de6848026f1b6adbef59d89c1069bec82e4e47c49f87cbf1a2f32f3c4c7",
+      "expected_previous_sha256": "a5caeb7d7ae32af3bbb39564118eebd9ab72b2183ae45c29ff80abd6fa21354f"
+    }
+  ],
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R854-original-p41-response-solver.yml",
+      "request_path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
+      "request_sha256": "9019d79c3406b8e25f100c7da68a2bba21ad254c0830a2727f12197960df1937"
     }
   ]
 }
