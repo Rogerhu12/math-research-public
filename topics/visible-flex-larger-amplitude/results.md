@@ -151,3 +151,5 @@
 - [R611](results/R611-same-engine-six-moment-original-normalization-reuse.md)：同一实际engine六moment私有表原/N逐词一次保存、完整原累加/J/双mean和fallback保持；完整源/八统计/部分范围接口，计数safe-integer限制明确，未作速度或数值接受断言。
 
 - **R609**：[actual252 来源桥联合检查、完整必要超限与科学未启动](results/R609-actual252-source-bridge-guard-and-complete-necessary-overflow.md)：两实际终态唯一读取；原454前缀通过但新十caller未入；487426完整source未返，双job同1626/70，reader缺失/removed=false/quiet未知。
+
+- **R610**：[真实前缀入口锚与R601到完整相对Gram输运](results/R610-actual-prefix-anchor-and-R601-relative-metric-transport.md)，[调用接口](notes/2026-11-16-actual-prefix-anchor-R601-metric-interface.md)：同一原retirement/全模式/正分母/实际径向积分，原完整R601消费一次；条件证明，无实际新数值或闭面证书。
