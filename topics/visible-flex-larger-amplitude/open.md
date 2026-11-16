@@ -22,6 +22,8 @@ R465/466/471/474只付各自明确实际有限输入/原fallback的局部语义�
 
 [R499](results/R499-complete-rule-resource-semantic-tables-and-single-readback.md)/[接口](notes/2026-11-16-complete-rule-resource-readback-interface.md)完整新reader17117/b42e80eb已成：先按原6000/600b选择出全部必要规则/资源，再用明确列名、原恒true字段和README原词对形成可读语义表；逐分支显式逆恢复原selected对象与原canonical，未知/不合格行整行原样保，错误/遗漏/完整性不删。UTF-8直写只缩JSON非ASCII转义，不改数值/负零/错误全文；原run/source/owner/quiet、单90000B超70、完整marker与清理条件保持。新source/祖先身份明确，表格可能仍超限，不恢复212已失94138正文。冻结reader仍绑定原f779 owner，218须新真实owner来源view并把composition必要读回拆独立always步骤；这是实际接线，不加科学门。
 
+[R503](results/R503-explicit-coast-base-initial-point-and-original-two-phase-responsibility.md)/[接口](notes/2026-11-16-explicit-coast-base-two-phase-interface.md)明确下一独立初点：原202十词按R449真实投影后，仅p3/theta3/eta3指定+0，另七投影词保；新点/metric不继承旧域/J/接受。R478已回中心反证与R449-C说明原三active p不能修固定theta3中心，不能由此伪造实际数值RHS失败。三个零使整个准确coast为原仿射基底，在原全族正端值/0<κ<1条件下完整半径/速度合法，原两端零二jet/非coast表达式保；其它全域/数值初猜/完整BVP/几何仍另付。第一phase p3初始0但仍active，theta3/eta3才固定0；真正453接受后全末十词再冻结450。gen/plan三个独立preview保所有原门/32GiB/7200共享与绝对钟，candidate/driver/launcher schema真实相配，未执行不冒可接受父。未来220须对218真实zero-linear/gzip来源完整级联并消费全10新candidate_rows/新R503帧，预览不冒其最终SHA；不改冻结218或运行入口，不加中心/domain前门。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[已刊R494时open](https://github.com/Rogerhu12/math-research-public/blob/f863b71c0fd82b4b6b5a131ce2d99b14dea7bc95/topics/visible-flex-larger-amplitude/open.md)，包括其全部更早链接、词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全部G/H/span、全QR/clip/Cauchy及每alpha冻结原Armijo/S球保，有限拒绝不证无解/秩亏。旧201末响应缺失不能由202补。
@@ -65,6 +67,8 @@ R437/433/434/438/452的首闭场须真实同C全field/cut/两帽/atlas/shared、
 容量整理已按根15普通删除[actual63两生成清单](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15的1441937B与[actual62两生成清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)/77fae38c的1352194B；仅指定生成文件，原输入/91、98等真父/参数/源码/历史保，不作科学进展。
 
 R487/216三次来源、入口及官方绑定完整原文保在[289f89c3时open](https://github.com/Rogerhu12/math-research-public/blob/289f89c3b2ae82fe7f754f62b55972c9d362b305/topics/visible-flex-larger-amplitude/open.md)。[R487](results/R487-complete-coast-three-level-incremental-refinement-composition.md)/[总接口](notes/2026-11-16-request216-complete-coast-incremental-refinement-interface.md)八件已29971f03；入口634c4c85的request994c1f2e/wf bcb85d73实际run43819978588/compute133140597135（06:54:14Z），exact唯一R488。260公开+33生成真15→5→13，准备读写同source-preparation216；三层original112/resolution112/incrementalM的metric/post/reader/held与统一evidence真接coast，原72c/C族/十词/compiler/原全部科学与门、depth2、五factor2后M128/四factor1和全部t/display/18900+2700保持。factory初点域不变，不保证收紧/下降；缺B不添门，chain超90K70与composition超限ValueError/1分列。原全部scope/quiet才清。首次官方只前1–6成功/7容量，未取running日志、不预填接受。入口topic容量197715378B/9300blobs/9672entries/truncated=false，treeaf260cad5417a640d9e8dfd8b2c5c2fb589f6f13。
+
+[R500](results/R500-same-C-recomputed-head-and-complete-tail-query-enclosures.md)/[接口](notes/2026-11-16-same-C-refined-head-tail-query-interface.md)独立API29687/2ab6b97f已成，补R495仍留旧累计半径的tail查询断口。先原ActualCompleteCTarget完整绑定，再实际同R492/R495 bundle/provider与R489新result/input/query三成员，完整同语义/全根族不变；唯一原R426 LiveQueryTarget真读新source-piece-index及1440累计径向panel，原预算对象/absolute deadline不重开。固定闭query合法交、完整子区间并覆盖/原粗界fallback保全部端点与未访，空交报来源不一致；work_resolution不增门。API只返回正式query已付的0阶E值盒，cut二jet与field六jet原责任独立；没有全tail导数/实际误差下降/新接受。外层六metric/evidence view真实调用与必要selector由R504继续，当前214/216/218不随本文改变；217/R490尚未建。
 
 ## 4. 同一g闭合与真正九冻结450
 

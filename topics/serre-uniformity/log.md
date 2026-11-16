@@ -605,4 +605,9 @@
 - R873消费者冻结激活：coreefe62506/wrapper03c2d227/method803b9351/request846d9850，只新原四M2尾196..763、八节点7阶范数、17rhs/八补列和真实2058逆；准确unit-solve与模值分字段，Picard支持仍false。
 - 真R799/R801/R800续载包直接消费；R807与R837实际API确认仍活跃，原前缀/矩阵不重算，Nm_target(source*)与c0c1/−3下降/82尺度全保。
 - 新共享workflow818ad444采用partial/sparse两job并真实pull，对上次已读提交作README diff；300min阶段断点同tag续。R824已实际启动43828509061/source9829a038，R787570后在原数学步。
-- 本push规则：待本公开Actions实际pull更新；主目标OPEN。
+- 本push规则：公开Actions真实pull至8a392d65166b97475d7b0ed4a67ff5cfac924608（2026-11-16T08:09:06.650433+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:18 Asia/Taipei — serre-public-astra-20261115
+- R872原点jets/固定Picard消费者全部原件已就绪：90原源、原ζ549966761、复用R868第二逆及R827五Krylov；300min/8试，只新273jets与146/418完整核，五Lj/128/144/t帧/height仍false。
+- R873源码真实推6d5ab806，后续dispatch404无数学；恢复发布只对404/422拒绝作有限重试，记录实际错误体。冻结数学源码不改，随本push再启R873并启R872；R824真实job133167910211回填。
+- 本push规则：公开恢复worker将实际pull、比两README并填真实SHA；root6979d793/topic35f82f3d，§15只必要单日artifact、无raw进Git；主目标OPEN。

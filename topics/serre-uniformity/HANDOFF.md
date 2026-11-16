@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；远端main继续，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：87130840762325c819f717a2f77d17ca5e72bc80**（2026-11-16T08:05:36.935825+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-RR-and-original-source-intake.md)（9714B/a8e0f68c），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：8a392d65166b97475d7b0ed4a67ff5cfac924608**（2026-11-16T08:09:06.650433+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-bounded-RR-and-original-source-intake.md)（9714B/a8e0f68c），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
 
 每结论立即推；每push前和至少每小时真实pull，NFF/ref竞争立即pull --rebase再推循环、禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main与索引。07:19共享终端失联后由公开恢复workflow实际git发布，仍partial/sparse；新数学仅本公开Actions，本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，当前必要源仅单日artifact。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -13,7 +13,7 @@
 |任务|run / job|source commit|实际状态|
 |---|---|---|---|
 |R787原函数570后|43827877594 / 133165978118|38abf72112113bcd39d41ad68dbb301518040e5f|实际原数学步，120min/core93d3d72b/wrapper42157e0d|
-|R824原27+244从596后|43828509061 / 待回填job|9829a0385c61e9262c6038a365bc3de1c26015d2|已实际启动，300min/core1ece3cf4/wrapperc5907739|
+|R824原27+244从596后|43828509061 / 133167910211|9829a0385c61e9262c6038a365bc3de1c26015d2|实际原数学步，300min/core1ece3cf4/wrapperc5907739|
 |R815从696素数|43809724947 / 133108436809|8adc90dfe2c6943ab3ba3eaf67a52682302026a3|300min/core80516ff9/wrapperab725da0，原数学继续|
 |R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|300min/core1feb579a/wrapperf6b97a7d，原数学继续|
 |R787半坐标dual|43823979328 / 133153392094|6110d6a16d2e66becae71454ad2d4e796b7a5c00|已由370及371正残差进入七支续接，300min|
@@ -32,11 +32,11 @@
 
 **R868准确P0已闭**：[正式60d92f04](results/R868-certified-original-P0-socle-and-two-chart-RR-module-sources.md)，run43819875762/source9586473c，699stage/120.828237493s；rank271、真实自由坐标271=1、584位准确h5de7d08d及full272K，逆点13de406d/十模块0e73e6cc。两271模逆a36b8271直接复用；artifact14203769509/d57536f9、80源carriere7cd24e2。128/144截面和height仍未算。
 
-**R872原jets/有界RR纸证已闭**：[完整方法](notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md)bd6ee11a。原rank271通过Nakayama使平面模型在P0正规；α=ℓh、β=ℓW′h择真单位参数，同一旧逆转置求0..272共273系数。完整272×418→146、u恰272阶、[uV3,bV3]秩962及Schur272给固定χ=H−272P0的418空间；V2乘法只用原五Krylov节点0..4。后续六极方向严格需11/23/15/15/25/27个完整272纤维；真sum-Hom源不能用CM响应/旧candidate。五原Lj最终18×146→128、18×418→400再补144列；准确unit-solve与实际模值分字段，t=a³的原帧/共同theta因子不丢。新core/消费者准备，未填数值成功。
+**R872原jets/有界RR纸证已闭**：[完整方法](notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md)bd6ee11a。原rank271通过Nakayama使平面模型在P0正规；α=ℓh、β=ℓW′h择真单位参数，同一旧逆转置求0..272共273系数。完整272×418→146、u恰272阶、[uV3,bV3]秩962及Schur272给固定χ=H−272P0的418空间；V2乘法只用原五Krylov节点0..4。后续六极方向严格需11/23/15/15/25/27个完整272纤维；真sum-Hom源不能用CM响应/旧candidate。五原Lj最终18×146→128、18×418→400再补144列；准确unit-solve与实际模值分字段，t=a³的原帧/共同theta因子不丢。[消费者激活](notes/R872-original-point-jets-and-fixed-Picard-space-activation.md)：core0e589751/wrapper2b3d0763、90原件/旧五Krylov，300min/8试；数值尚待实际运行。
 
 **R864/866/865/R870**：原127核、真H/J/逆、cY/Q-fixed基even54odd73、真T7全部560×127及16无重谱均闭，旧算术不重。R870[正式c2436b74](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)，run43822039811/sourceeb46ca01，20stage/0.579488830s；N0=χ7(8)、16ni、1959位共同d*/80输入已成，finalbe29c872/artifact14205027300/723ec402、42源carrier6a9d22de。原ξj∈JY(Q)，含7-primary的挠判保留；合法好约化处niPiξj真非零⇒Eiηj活跃，模零未定。实际η支持/eη/主函数/nonp未算。
 
-**R873原循环7纸证已闭**：[完整e6401ca8](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)。原8H+4E有2058截面、110阶完整注入；真八次P与w靶=K/P′，七支7×7范数和∞原尺度，−3下降及椭圆4E保真。仅补四原M2尾196..763、17rhs/8补列与新逆；旧2050minor不冒新2058逆。真正dual-isogeny交换两端、j²=[7]在G内为1，原R870 Nm_target(source*)与c0/c1一致。[消费者激活](notes/R873-original-cyclic-seven-correspondence-activation.md)：coreefe62506/wrapper03c2d227/method803b9351/request846d9850，300min只新四M2尾、八节点范数、17rhs/2058逆；两次原源intake直接复用，R807/R837实际仍活跃。实际系数/Picard支持尚待执行，后者本scope保持false。
+**R873原循环7纸证已闭**：[完整e6401ca8](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)。原8H+4E有2058截面、110阶完整注入；真八次P与w靶=K/P′，七支7×7范数和∞原尺度，−3下降及椭圆4E保真。仅补四原M2尾196..763、17rhs/8补列与新逆；旧2050minor不冒新2058逆。真正dual-isogeny交换两端、j²=[7]在G内为1，原R870 Nm_target(source*)与c0/c1一致。[消费者激活](notes/R873-original-cyclic-seven-correspondence-activation.md)：coreefe62506/wrapper03c2d227/method803b9351/request846d9850，300min只新四M2尾、八节点范数、17rhs/2058逆；两次原源intake直接复用，R807/R837实际仍活跃。源码已推6d5ab806；首dispatch404未启动，随本次原样重试。实际系数待执行，Picard支持仍false。
 
 **必要原源续载已成**：[完整运输记录](notes/2026-11-16-required-original-source-intake.md)记两次纯IO。首43826442405/source5a21f9d9/artifact14206388855/42a3155f保R7992050原V8 tar175356258/df08e833和R801同2050 q109 tar152592418/e9595cc2；补43827207676/sourceee98d42e/artifact14207385683/67ea4155成功保R80082E1+四M2/旧carrier tar7217285/113be338与R827七原件tar10114176/d5a5641a。包内original/，原身份/meta/manifest逐字保；R827原exit124/no-final不造成功，真实ζ根549966761匹配R868旧逆。小metadata run43827843962已真读current与596历史，complete/target/full lift spec完全相同；同核requestba760988只改resume。不重606历史或数学。
 
