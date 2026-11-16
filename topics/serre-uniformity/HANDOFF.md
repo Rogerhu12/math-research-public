@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：61744a5861019c304b1842c5fff921ecacb5acd7**（2026-11-16T03:57:22.930949+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[41行饱和前完整H](handoff-archive-2026-11-16-before-41-row-saturation.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：482dce395cd037559aa4c43cb6133e1bec1d8fd7**（2026-11-16T04:02:10.291497+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[41行饱和前完整H](handoff-archive-2026-11-16-before-41-row-saturation.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -29,7 +29,9 @@ R787旧run43766834509仅证runner失联、无新数学产物；[恢复记录](no
 
 **原帧与sigma规范**：[RF](notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md)e2b87b99保I_Z、P0/P1真帧、v_R=κ/R·v³、ν=3^(11δ)mratio与完整Corr/theta二挠。原Q三次纤维/实际C_h/nonp/splitting均保。[SP](notes/2026-11-16-original-CM-sigma-and-Poincare-period-inputs.md)a06a80ea固定μ3补〈xω〉、u²(1−u)=bξ⁶、w/H/F、ψ₂=−2y与SP25–28全尾；41须原U.1或已接受A.1。
 
-正在实施：root R852仅消费R847九件与旧270/733，生成ZA原C_j/D_j五个DAG；ordinary_local准备真实41四响应/单Z算法，exact_height R853只三条真实cτ/cσ/cw0共轭（原560行/146选行）及有限RR叶，不重全Γ/272作用。各源码未推/未运行前不称成功。原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结，必要旧源随当前载体继承，旧artifact到期不授权重算。
+**R852实际新消费者已提交待运行**：[契约](notes/R852-original-one-Z-coefficients-consumer-method.md)e4a4e983，core2fc8df00/wrapper873097d8；仅R847九件/原270叶，733节点不改、旧斜率/ρ逆复用。ZA C_j=3[(2−p/q)+T^j+T^-j]a以原12×12 Hom和十二切向直接展开十四坐标；T^-j=T^(21−j)保ζ²。新五C有理秩/子式待Actions；D_j=3c_jh_g准确DAG，不求四响应/41 Z/Y或height。
+
+其余正在实施：ordinary_local R854真实41四响应核，exact_height R853三条真实cτ/cσ/cw0（原560行/146选行）及有限RR；原b/s/λ/ζ²一次/CRT6逆/246/82^10/c0c1冻结，旧artifact到期不授权重算。
 
 ## 真正全p缺口与已闭边界
 

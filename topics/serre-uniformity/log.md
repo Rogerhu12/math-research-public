@@ -326,3 +326,9 @@
 - 完整剩余域依赖行消去后除B，原全minor理想下降证停止；右端可非整须单独B幂，逐行T下界给真实左逆范数。整化残差先扣共同尺度，原全129×20×14完整残差后才认四响应球。
 - 根逐纸核停止性/误差、实际R787.residual正号和官方矩阵API范围；core仍在写，未预填41单位minor或球。H逐字归档保全部旧边界；R852同时推进准确C_j坐标和D_j原DAG。
 - 本push规则：本地真实pull至61744a5861019c304b1842c5fff921ecacb5acd7（2026-11-16T03:57:22.930949+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 12:02 Asia/Taipei — serre-public-astra-20261115
+- R852新消费者提交：R847九件/270原叶与733节点全保，仅构造ZA五C/D；旧secant/ρ逆直接查原payload，新逆和点加法均零。
+- C_j的ρσ两项准确等于(T^j+T^-j)a，原12Hom矩阵/十二切向即可展开五组十四准确有理坐标，负方向用21−j保T^7=ζ²；有理rank/非零minor由实际Actions给，不预填5。
+- core2fc8df00/wrapper873097d8，stdlib，无原GLOBAL395MB或旧Dixon/Hensel；三数学stage与一日最小载体、真实退出码/manifest齐全。本地只AST和source/schema读取，实际41 Z/四响应/Y/height仍未成。
+- 本push规则：本地真实pull至482dce395cd037559aa4c43cb6133e1bec1d8fd7（2026-11-16T04:02:10.291497+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

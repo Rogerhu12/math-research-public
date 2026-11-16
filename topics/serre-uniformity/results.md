@@ -140,3 +140,5 @@
 - **原41四响应/单Z真实消费契约已定**：[41C](notes/2026-11-16-original-41-single-Z-consumer-source-contract.md)569aa684绑定同一2420 solve、原四响应/17域常量/529→733不变。直接L41十四坐标球，须实际41逆范数界＋完整残差后才认精度；[42]/ψ₂=−2y/6n−1分母全尾给一个Z，其七共轭等距运输。ZA268fa3f的五C/D及7tr已正式pin，非41/Y/ℓ不删；R854实际求解核心在写，无新41数值。
 
 - **R854原41全行饱和算法已证**：[方法](notes/R854-original-41-cleared-row-saturation-and-four-responses.md)ab970169：同2420未知/free1186，读原R/K/F/Z构造2560×2420完整cleared算子，正rhs=−C_free；各m块乘246³κ^(m+1)真实可逆，不挪用同号选行。DVR依赖行消去后除B使全minor理想严格下降；实际单位行＋逐行T下界给左逆范数，整化尺度须减回。只F41²求逆、单rhs π-Dixon、原全129×20×14残差后才认四响应。core在写，未运行41新算术。
+
+- **R852实际新消费者已提交待运行**：[契约](notes/R852-original-one-Z-coefficients-consumer-method.md)e4a4e983，core2fc8df00/wrapper873097d8；仅R847九件/原270叶，733节点不改、旧斜率/ρ逆复用。ZA C_j=3[(2−p/q)+T^j+T^-j]a以原12×12 Hom和十二切向直接展开十四坐标；T^-j=T^(21−j)保ζ²。新五C有理秩/子式待Actions；D_j=3c_jh_g准确DAG，不求四响应/41 Z/Y或height。

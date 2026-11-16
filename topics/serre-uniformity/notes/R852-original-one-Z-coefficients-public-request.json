@@ -1,0 +1,64 @@
+{
+  "result": "R852-original-one-Z-coefficients-and-constant-DAG",
+  "p": 41,
+  "session": "serre-public-astra-20261115",
+  "core": "R852_original_one_Z_coefficients.py",
+  "core_sha256": "2fc8df00b14e14f275a40250ee48bb4a6d076ace1a4ff4017ff421233e9e42cb",
+  "wrapper": "R852_public_original_one_Z_coefficients.py",
+  "wrapper_sha256": "873097d8462f1f20d8cb05adb2e5b3261bbea44a1a58de12a05e9286970dee3c",
+  "dag_core": "R792_original_CM_response_beta_DAG.py",
+  "dag_core_sha256": "afb49c1ac4245674d29364789e817b566517e1f5bf6d506cee684ed03fa34b8b",
+  "source_transport_helper": "R850_public_original_rigidified_fibres.py",
+  "source_transport_helper_sha256": "ff318ca06e5bf2a385c866df2abb0ea102d6606eb2af2a818a0493f075b123cf",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "proofs": {
+    "ZA": {
+      "path": "notes/2026-11-16-original-three-isogeny-sigma-and-one-Z-period-contraction.md",
+      "sha256": "268fa3fbb9647d7f6f3f781534d9425e09c45ad7945e9aea9a9abd2082834d97"
+    },
+    "method": {
+      "path": "notes/R852-original-one-Z-coefficients-consumer-method.md",
+      "sha256": "e4a4e9838343fe6b1aebe8e7ec0565c79859abfc8863b27e40bdf2fe94617358"
+    }
+  },
+  "source": {
+    "accepted_process_exit_codes": [
+      0
+    ],
+    "archive_bytes": 11198983,
+    "archive_sha256": "1737c833763f617e192447f1656d6793cd6d7eb6b78dfdbac0e4d8a9192aac98",
+    "artifact_id": 14191283725,
+    "artifact_name": "serre-global-R792-log-jet-padic-witness-43789012126-1",
+    "certificate_name": "p41-original-comparison-log-jet-padic-witness-certificate.json",
+    "configuration_sha256": "7b2a243eb552a619e8c65ab626cfa4adcb1e6e0e560193a99063efe9ca66dade",
+    "core_sha256": "a3d04929db13d1c73414807f0a7c73b18c0e0e4e749d2349e3a44fdafc160335",
+    "expected_conclusion": "success",
+    "manifest_bytes": 290468,
+    "manifest_file_count": 1421,
+    "manifest_sha256": "9bd3169295d20c87ab72c2c7ed149438db7a257e1197072b2d3bbb992fb3185c",
+    "original_readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "reference": {
+      "bytes": 200,
+      "file": "full-outputs-manifest-reference.json",
+      "sha256": "7ec015222e8df34395909af74c688281e4e3c1b9a5e1771699e08b2266399b2d"
+    },
+    "result": "R792-original-comparison-log-jet-padic-witness",
+    "run_id": "43789012126",
+    "selected_file_count": 9,
+    "selected_files_sha256": "bc5e1c682e41b1312895cf57c6971173f342d083a72271b373eeb23305bd892a",
+    "source_commit": "f699023d15daacb7d7e176f52da41899d69ae26c",
+    "wrapper_sha256": "ea579ada26e837b01250d670be7620f114066967e2ef62dd783aa8cd48dda187"
+  },
+  "producer_inputs_pending": false,
+  "budget_minutes": 30,
+  "resume": null,
+  "workflow": ".github/workflows/serre-R852-original-one-Z-coefficients.yml",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "61744a5861019c304b1842c5fff921ecacb5acd7"
+}
