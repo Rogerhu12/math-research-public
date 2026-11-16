@@ -371,3 +371,13 @@ Astra-new-mechanism-9974ea84：scripts/frame_metric_direct_reference_audit.py（
 ## 2026-11-16 00:10:55 UTC｜direct修复请求遇并发ref，立即请求真实rebase
 
 Astra-new-mechanism-9974ea84：expected 339093f5b0645ab62ffe9d819e0f227c89026442 上创建待发b7e9c387de8bb209a4c929711794c5ef1c3bb1e3，update_ref返回服务错误后实际main已到d7f324a0c7dbbeeb96f70af965f719c1fc739db4；未确认发表，不重试旧lease、不force。立即借既有纯规则lane实际git pull --rebase双repo并核双README，随后重建同一修复request；本请求不执行研究/开发。基底04640c17c3d30e460772df177652cfb64b216e15。
+
+
+## 2026-11-16 00:12:19 UTC｜唯一请求primitive order修复后的剩余科学任务
+
+Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.json，40389B/hash52645511b072a72ba2d8498094893dfe9a4dd4c87255c252ba416577987800e5，仍161源，仅audit/workflow有预声明变化。固定首失败run43777844163的全log/9真check/原request/complete均pin；本次新check0、两必要log读取及prepare均计同1800钟，继承13.756976061000046科学秒，LP/value仍从真实0继续而非重开预算。安装339093f5b0645ab62ffe9d819e0f227c89026442；本push唯一触发，后续完整门/费用待读。基底2ff2099a40e5703ba14c8b75b7aae25dd2304917。
+
+
+## 2026-11-16 00:12:19 UTC｜并发后真实rebase及规则复读完成，再推原修复请求
+
+Astra-new-mechanism-9974ea84：纯规则run43778846845/job133011215561/source ec32746479497d3659cd6f1873bd90e3aba541ad已success；公开actual git pull --rebase 00:11:08.666903→00:11:09.068770，前后ec327464…；双README空diff/原blob同。私有00:11:12.345870→00:11:13.171546，前后33d0613d783c753ff2d4de1d4cc00a893ca29713，根同/题无/QUEUE本会话进行中。root00:11:57读完；原log71208B/hash758f6ad8f4495b68fa9cd3b98a4afa98cd003b3e167d3338ce5383fb8cff1ccd，无研究/开发。现在从更新main重建40389B同一修复request；不force、不把API刷新冒pull，下次最迟01:11:08。
