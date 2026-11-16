@@ -166,3 +166,5 @@
 - [joint168唯一正式run定位](notes/true58-joint168-body-suffix-launch-20261116.md)：43923038659/attempt1、source47942fb212bcc2f424fdf546437cd38b08c2d7e1、research133495072427正在执行；只见运行元数据，尚无科学结果，不宣接受59。
 
 - [R559 同规范缓变快高度回路与六矩准确联合零](results/R559-six-exact-matrix-moments-by-a-slow-fast-height-loop-with-one-gauge.md)：**已证明**含最早负费的完整core正S0余量、增长快区间的统一历史/振子C¹界及真末germ；同词准确P0=P1=P2=T1=R1^y=S0^y=0。两交叉L⁻²费用保，余S1^y/R0^y及全M/T/pose/period/13尚未闭。
+
+- [joint168首尝试固定高度断言错误](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)：**完整原观察**。原H使physical158/159固定，错误172全非零断言导致构造失败，0模型值/J/solver/actual，仍58；新26.784710984000014秒、总3784.759531354/147。7记录全，保全部失败与余额1773.215289016，继续同问题必要实现修复而不放宽原门。

@@ -353,3 +353,9 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 ## 2026-11-16 17:59 UTC：R559长快高度回路与六个真实矩零
 
 [R559](results/R559-six-exact-matrix-moments-by-a-slow-fast-height-loop-with-one-gauge.md)完整原式纸证，先含最早快入负费证明core正S0净首项，再以增长L的正能量/有序历史小因果核付真实C¹和开放末germ；原三参数加幅/长度与真P2事件共同IFT准确清P0/P1/P2/T1/R1^y/S0^y。交叉S1/R0非零费用保，余两槽与全period/13尚欠。root全文已读，0科学执行，立即推；joint168原构造失败已读取，0solver与费用先入H，完整闭账随后独推。
+
+## 2026-11-16 18:01 UTC：joint168原构造失败完整费用与四次真pull
+
+[原观察](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)读完整research/report：原错误非零断言与准确H两固定158/159矛盾，0值/J/solver/actual，新26.784710984000014秒，总3784.759531354/147，原余额1773.215289016用于必要实现续接。7record全/报告无缺失，失败和counts不抹；只修原接线不作几何结论。
+
+原双仓真pull最近public17:54:30.132624→47942fb212bcc2f424fdf546437cd38b08c2d7e1，private17:54:33.752780→2dc8b0fa60bc03f989904678ee3468b9ca6c9bf2；双README空diff、私队唯一进行中，下一≤18:54:30/33。H已更新，full62两段完整open历史逐字归档；无重算或在途科学读取，结论立即推送。

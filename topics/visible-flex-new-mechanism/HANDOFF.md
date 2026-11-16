@@ -6,7 +6,7 @@
 
 根/题README已全文读，两仓已blob:none sparse部分克隆。本地最后已确认public16:19:30→16:19:40读7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352；private16:24:57→16:25:17读9c5ec050ed672180245cf65312af93bef2ab937f。后续本地故障不冒成功。
 
-最新**公开Actions实际Git pull**：report public17:16:03.475263→17:16:04.536661读 **25265e7eaca1b00a879311032a8520546516416c**；private17:16:07.517829→17:16:08.318992读 **5f99e48d3c18028b006b07e3394a9f586f753c2a**。双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783/题d0432faff569c8e9af7ed4809847e12880976c11/private根5ba164843b1f5802184178a82d786264404873a3；private题无/QUEUE唯一进行中。下一真pull≤**18:16:04/18:16:08 UTC**；最新四次CI回执见[full62闭账](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)。私有正文不发表。
+最新**公开Actions实际Git pull**：report public17:54:29.742081→17:54:30.132624读 **47942fb212bcc2f424fdf546437cd38b08c2d7e1**；private17:54:33.016460→17:54:33.752780读 **2dc8b0fa60bc03f989904678ee3468b9ca6c9bf2**。双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783/题d0432faff569c8e9af7ed4809847e12880976c11/private根5ba164843b1f5802184178a82d786264404873a3；private题无/QUEUE唯一进行中。下一真pull≤**18:54:30/18:54:33 UTC**；最新四次CI回执见[joint168首尝试](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)。私有正文不发表。
 
 16:26–27public pull rc0但磁盘满/upstream未整合，**不算成功pull**。仅清本仓126个孤立GC临时副本2016603782B，保正式对象/研究文件。16:31起执行环境不可用；按根8以小UTF8源码/MD接口expected-head非force发布，**API不冒原生pull/rebase**。新Actions科学前真pull双仓核规则、回执补H；本地恢复立即pull。有变只读diff即执行；故障全账见log。
 
@@ -53,7 +53,9 @@ R549准确三p=p2(u²+h⁻²,2u,1)，正负质量须匹配均值和二阶矩；�
 
 **full62已闭**：[原观察](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)，run43916013327/job133470222034/source868f2f6b5ba55affa26cc5f9d42186a565ea0a43。SLSQP0/true但fineη.26600531463999494>budget.26600531463999305，0预测/actual仍58。原完整返回/准确盒/norm/两网其它门及缺失数组边界全保；新115.53521002299999秒，总**3757.97482037/147**，余额闭，末J属value69不移配返回70。
 
-**joint168首尝试构造失败、0solver**，run43923038659/source47942fb212bcc2f424fdf546437cd38b08c2d7e1：[设计](notes/true58-joint168-body-suffix-design-20261116.md)/[合同](notes/true58-joint168-body-suffix-model-contract-20261116.md)。唯一true58、168控制+K/h共170，完整172准确图/692线性（158/159固定，首源非零断言错误）；全部9003原selected11行与145152后缀行联合，共154847×170。内部1e−8余量仅solver行，终门原budget/14不变。1800总秒/1200solver/240iter/480q/960backend，1session无restart；模型值/J尚未进入；新26.784710984000014秒，总3784.759531354/147，原余额1773.215289016用于实现修复，完整闭账正刊。request91699B/0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96，395源，raw170全部真返回保；原成功且同点全域η/selected/后缀/准确门合格才≤1canonical预测及≤1actualpair。0本地科学/预检；旧失败向量不作初点，主门未授。
+**joint168首尝试实施失败**：[完整原观察](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)，run43923038659/research133495072427/source47942fb212bcc2f424fdf546437cd38b08c2d7e1。physical158/159在原H中固定，首源错误要求172增量行全非零，构造即ValueError；0模型值/J/solver/预测/actual仍58。新**26.784710984000014秒**、总**3784.759531354/147**，7原记录齐、全部失败保；非几何不可行。
+
+**同题实现续接正在写源**：仅删错断言，170非零物理增量、固定158/159的原盒及4冗余norm行全保，仍692/154847行、170变量。沿原余额**1773.215289016秒**继续，不重发1800；首失败计数和费用带入全链。原1solver/1200秒/240iter/480q/960backend均未用；唯一true58，内部1e−8仅求解行、原budget/14不改。所有新共享几何/J及恢复计费，当前RAM；成功必要门后才≤1canonical预测与≤1actualpair。
 
 **O4**分别继续33母的同χ慢t1/其余矩，以及R521母R559的同χ余两矩。全部端germ、M/T/V、pose、period与原13规范须由同一实际路径支付；不跨母、不逐段换χ。
 
