@@ -1,0 +1,784 @@
+{
+  "schema": 1,
+  "session": "serre-public-astra-20261115",
+  "result": "R880-original-six-conjugate-Dstar-RR-inputs",
+  "p": 41,
+  "request_id": "20261116-R880-six-original-conjugate-Dstar-RR-inputs",
+  "producer_inputs_pending": false,
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "eff7070bb9324eac442dd7566ea4f8d7c984ac0b",
+  "core": "R880_original_six_conjugate_Dstar_RR_inputs.py",
+  "core_sha256": "5421c814130021587ac0a97b8fa336b04c5d0d4f784a96cbac4088591b86fb17",
+  "wrapper": "R880_public_original_six_conjugate_Dstar_RR_inputs.py",
+  "wrapper_sha256": "9c2fac9d342b274bf3570af34237c5138738869165a46c66a7627db910208cab",
+  "legacy_R880_core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+  "legacy_R880_IO_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R880-original-six-conjugate-Dstar-RR-execution-method.md",
+  "method_sha256": "09715130e506c4696c1dad736d56062a3a409ede0f1a1b4d040c2effd0257142",
+  "proofs": {
+    "six_D": {
+      "path": "notes/R880-original-six-conjugate-bounded-Dstar-spaces.md",
+      "sha256": "b2e523171c08f61b4c1f66ee7738e8fb687f45a3e1dd72ccd6956800cc9d2d84"
+    },
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R887": {
+      "path": "notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md",
+      "sha256": "1ebbc0bff297913a9a2f49a507998d49b173fe96ec6944a0e1ac81cd1295763d"
+    }
+  },
+  "budget_minutes": 300,
+  "maximum_branches": 6,
+  "resume": null,
+  "sources": {
+    "R880": {
+      "result": "R880-original-D-and-cusp-bounded-RR-inputs",
+      "run_id": "43840391925",
+      "source_commit": "3c1ddaf3c94d63aee2f9dd0bee32b6dbdeff35b9",
+      "artifact_id": 14212028755,
+      "artifact_name": "serre-R880-D-cusp-bounded-RR-inputs-43840391925-1",
+      "archive_bytes": 105609871,
+      "archive_sha256": "5af19f69961afba3a1d7fba8cd71e7bb9ef5d5b0b5d99b390e5aafecc2028bb3",
+      "expected_conclusion": "success",
+      "core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+      "manifest_sha256": "ce5240b0e1385253ea5cce459842888f0f4e374a255f496a6d93bb54869983db",
+      "manifest_bytes": 8526,
+      "manifest_file_count": 50,
+      "wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+      "configuration_sha256": "a45fbf96ab0c58b64609bbf147b2ced7c8edd16f6ac59829d3e870641380b873",
+      "derive_configuration_from_pinned_original_stage": false,
+      "certificate": {
+        "file": "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+        "bytes": 18296,
+        "sha256": "a9b24bacd5965ab387d719d70238e83c5a12dfd9b101970649b6a3f889a3c3f8"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R880-complete-standardizing-146-kernel.json.gz",
+        "R880-fixed-v-section.json.gz",
+        "R880-original-D-cusp-chi-principal-inputs.json.gz",
+        "R880-original-P0-unit-anchor-selection.json.gz",
+        "R880-original-V3-252-point-jet-matrix.json.gz",
+        "R880-original-source-place-and-block-audit.json.gz",
+        "R880-standardizing-146-original-V3-basis.json.gz",
+        "R880-trial-000001-Dstar-projected-original-V3-basis.json.gz",
+        "R880-trial-000001-five-fiber-rank.json.gz",
+        "R880-trial-000001-w-section.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "expected_selected_file_count": 16,
+      "file_pins": {
+        "R880-original-P0-unit-anchor-selection.json.gz": {
+          "file": "R880-original-P0-unit-anchor-selection.json.gz",
+          "bytes": 4823,
+          "sha256": "ba4e1de2c230ed62e425f2b78da9afe511dc475bbcda95d8beed34e6d6fc0891"
+        }
+      }
+    },
+    "R842": {
+      "result": "R839-original-two-chart-short-RR-spaces-and-D-kernel",
+      "run_id": "43776927742",
+      "source_commit": "ccc94341bcab2c33e4732fcb9d6bce517b6243f3",
+      "artifact_id": 14186901203,
+      "artifact_name": "serre-global-R839-original-two-chart-short-RR-spaces-and-D-kernel-43776927742-1",
+      "archive_bytes": 192975030,
+      "archive_sha256": "9a4b0b02988784492bd958859096ee7307e1091ae8c5661eedd91e2fcfe77f50",
+      "expected_conclusion": "success",
+      "manifest_sha256": "5bb824d2697e369af3a65ff76cdbe2029ce92d153723c4f5012288118d36e1ba",
+      "core_sha256": "6fe0a0d3f37592b1ac3081a8347a205503de41cdd54e41a05529c837a7b3c73e",
+      "manifest_bytes": 18828,
+      "manifest_file_count": 111,
+      "wrapper_sha256": "f27a4585deb43880e162b337a9c6b39528086ce864ea12e17c23192cbb260d2a",
+      "configuration_sha256": "7597a9d59b4f8fb08548891a298d76cbc745a72245b6e9cb35f973a25ee4fcc4",
+      "derive_configuration_from_pinned_original_stage": false,
+      "certificate": {
+        "file": "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+        "bytes": 507973,
+        "sha256": "51dff9f0b9fff3117b93a4281c21c0cf37a487c0b09bc88a18f8ffdb80d878fe"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R839-T11-unit-quotient.json.gz",
+        "R839-T5-independent-original-row-quotient.json.gz",
+        "R839-anchor-u-products-0000-0017.json.gz",
+        "R839-anchor-u-products-0017-0034.json.gz",
+        "R839-anchor-u-products-0034-0051.json.gz",
+        "R839-anchor-u-products-0051-0068.json.gz",
+        "R839-anchor-u-products-0068-0085.json.gz",
+        "R839-anchor-u-products-0085-0102.json.gz",
+        "R839-anchor-u-products-0102-0119.json.gz",
+        "R839-anchor-u-products-0119-0136.json.gz",
+        "R839-anchor-u-products-0136-0153.json.gz",
+        "R839-anchor-u-products-0153-0170.json.gz",
+        "R839-anchor-u-products-0170-0187.json.gz",
+        "R839-anchor-u-products-0187-0204.json.gz",
+        "R839-anchor-u-products-0204-0221.json.gz",
+        "R839-anchor-u-products-0221-0238.json.gz",
+        "R839-anchor-u-products-0238-0255.json.gz",
+        "R839-anchor-u-products-0255-0272.json.gz",
+        "R839-anchor-u-products-0272-0289.json.gz",
+        "R839-anchor-u-products-0289-0306.json.gz",
+        "R839-anchor-u-products-0306-0323.json.gz",
+        "R839-anchor-u-products-0323-0340.json.gz",
+        "R839-anchor-u-products-0340-0357.json.gz",
+        "R839-anchor-u-products-0357-0374.json.gz",
+        "R839-anchor-u-products-0374-0391.json.gz",
+        "R839-anchor-u-products-0391-0408.json.gz",
+        "R839-anchor-u-products-0408-0425.json.gz",
+        "R839-anchor-u-products-0425-0442.json.gz",
+        "R839-anchor-u-products-0442-0459.json.gz",
+        "R839-anchor-u-products-0459-0476.json.gz",
+        "R839-anchor-u-products-0476-0493.json.gz",
+        "R839-anchor-u-products-0493-0510.json.gz",
+        "R839-anchor-u-products-0510-0527.json.gz",
+        "R839-anchor-u-products-0527-0544.json.gz",
+        "R839-anchor-u-products-0544-0561.json.gz",
+        "R839-anchor-u-products-0561-0578.json.gz",
+        "R839-anchor-u-products-0578-0595.json.gz",
+        "R839-anchor-u-products-0595-0612.json.gz",
+        "R839-anchor-u-products-0612-0629.json.gz",
+        "R839-anchor-u-products-0629-0646.json.gz",
+        "R839-anchor-u-products-0646-0663.json.gz",
+        "R839-anchor-u-products-0663-0680.json.gz",
+        "R839-anchor-u-products-0680-0690.json.gz",
+        "R839-anchor-v-products-0000-0017.json.gz",
+        "R839-anchor-v-products-0017-0034.json.gz",
+        "R839-anchor-v-products-0034-0051.json.gz",
+        "R839-anchor-v-products-0051-0068.json.gz",
+        "R839-anchor-v-products-0068-0085.json.gz",
+        "R839-anchor-v-products-0085-0102.json.gz",
+        "R839-anchor-v-products-0102-0119.json.gz",
+        "R839-anchor-v-products-0119-0136.json.gz",
+        "R839-anchor-v-products-0136-0153.json.gz",
+        "R839-anchor-v-products-0153-0170.json.gz",
+        "R839-anchor-v-products-0170-0187.json.gz",
+        "R839-anchor-v-products-0187-0204.json.gz",
+        "R839-anchor-v-products-0204-0221.json.gz",
+        "R839-anchor-v-products-0221-0238.json.gz",
+        "R839-anchor-v-products-0238-0255.json.gz",
+        "R839-anchor-v-products-0255-0272.json.gz",
+        "R839-anchor-v-products-0272-0289.json.gz",
+        "R839-anchor-v-products-0289-0306.json.gz",
+        "R839-anchor-v-products-0306-0323.json.gz",
+        "R839-anchor-v-products-0323-0340.json.gz",
+        "R839-anchor-v-products-0340-0357.json.gz",
+        "R839-anchor-v-products-0357-0374.json.gz",
+        "R839-anchor-v-products-0374-0391.json.gz",
+        "R839-anchor-v-products-0391-0408.json.gz",
+        "R839-anchor-v-products-0408-0425.json.gz",
+        "R839-anchor-v-products-0425-0442.json.gz",
+        "R839-anchor-v-products-0442-0459.json.gz",
+        "R839-anchor-v-products-0459-0476.json.gz",
+        "R839-anchor-v-products-0476-0493.json.gz",
+        "R839-anchor-v-products-0493-0510.json.gz",
+        "R839-anchor-v-products-0510-0527.json.gz",
+        "R839-anchor-v-products-0527-0544.json.gz",
+        "R839-anchor-v-products-0544-0561.json.gz",
+        "R839-anchor-v-products-0561-0578.json.gz",
+        "R839-anchor-v-products-0578-0595.json.gz",
+        "R839-anchor-v-products-0595-0612.json.gz",
+        "R839-anchor-v-products-0612-0629.json.gz",
+        "R839-anchor-v-products-0629-0646.json.gz",
+        "R839-anchor-v-products-0646-0663.json.gz",
+        "R839-anchor-v-products-0663-0680.json.gz",
+        "R839-anchor-v-products-0680-0690.json.gz",
+        "R839-original-D-short-kernel-matrix.json.gz",
+        "R839-original-D-unit-kernel-basis.json.gz",
+        "R839-two-chart-stage-manifest.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "expected_selected_file_count": 93,
+      "file_pins": {}
+    },
+    "R887": {
+      "result": "R887-original-common-cusp-flip-and-bounded-RR-space",
+      "run_id": "43844745726",
+      "source_commit": "85049ecab0b62dd5e7a3983841844ddee52b3da4",
+      "artifact_id": 14214842060,
+      "artifact_name": "serre-R887-common-cusp-flip-43844745726-1",
+      "archive_bytes": 81369157,
+      "archive_sha256": "1f44a5cadfad375521263f9d2241a7bbf000786f4852a81f48777a0e3526824b",
+      "expected_conclusion": "success",
+      "core_sha256": "d469ef046e8575eaed34e5670275f80554edf8cdae723ef3fb029b979e07508c",
+      "manifest_sha256": "05d289d0727952a451f421385cc37b1e54933cd6d2a5038caeafbcac02d5c1d2",
+      "manifest_bytes": 6525,
+      "manifest_file_count": 38,
+      "wrapper_sha256": "78a00876c4ecc7309df237de6457068745c65e5b6e65e226db0ce1d362f0cf7e",
+      "configuration_sha256": "d325dc06b7328796467d98cce13cde4c52d90aed4fc697fc2d80a422e7d63b6a",
+      "derive_configuration_from_pinned_original_stage": false,
+      "certificate": {
+        "file": "p41-original-common-cusp-flip-and-bounded-RR-certificate.json",
+        "bytes": 9250,
+        "sha256": "c5fa30c7eea59b69de723ea82fd41a05e9536120c49d2b144d4fef831cb1b8bf"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R887-original-Cstar-and-Qtilde-principal-inputs.json.gz",
+        "R887-original-order252-functional-and-u_C.json.gz",
+        "R887-original-source-audit.json.gz",
+        "R887-trial-000001-Cstar-projected-original-V3-basis.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-common-cusp-flip-and-bounded-RR-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "expected_selected_file_count": 10,
+      "file_pins": {}
+    },
+    "R845": {
+      "result": "R839-original-D-pencil-and-eight-generator-pole-ideal",
+      "run_id": "43780953543",
+      "source_commit": "a43b6afad1ffdbcb0357eda63b7683df3c5d2c93",
+      "artifact_id": 14188093176,
+      "artifact_name": "serre-global-R839-original-D-pencil-and-eight-generator-pole-ideal-43780953543-1",
+      "archive_bytes": 110888459,
+      "archive_sha256": "34f85e3c564929e04eceb0f326353a77acc7010ecaee1df315704a75e315f8c0",
+      "expected_conclusion": "success",
+      "manifest_sha256": "8bef49bfa53a00f1bdce31c947e030d92ff5abbae15d0115587f9cf869486099",
+      "core_sha256": "601b0b5aeb89d3d37ef6f74151f03a15f92cc5724fbb8574cc6c87f533158b4b",
+      "manifest_bytes": 9206,
+      "manifest_file_count": 53,
+      "wrapper_sha256": "8be3fb61034da689bbc4bbe8e30f2c69f062c561f034b10a078dc69553fd9e95",
+      "configuration_sha256": null,
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate": {
+        "file": "p41-original-D-pencil-and-pole-ideal-certificate.json",
+        "bytes": 322708,
+        "sha256": "1e71a62ce53d64791ed672591d52d792307e3931dbe0eeea78bed42cee266692"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R839-pole-candidate-000001-five-fiber-rank.json.gz",
+        "R839-pole-candidate-000001-sections.json.gz",
+        "R839-pole-fiber-0-original-V3.json.gz",
+        "R839-pole-fiber-1-original-V3.json.gz",
+        "R839-pole-fiber-2-original-V3.json.gz",
+        "R839-pole-fiber-3-original-V3.json.gz",
+        "R839-pole-fiber-4-original-V3.json.gz",
+        "R839-pole-original-V3-normal-0000-0030.json.gz",
+        "R839-pole-original-V3-normal-0030-0060.json.gz",
+        "R839-pole-original-V3-normal-0060-0090.json.gz",
+        "R839-pole-original-V3-normal-0090-0120.json.gz",
+        "R839-pole-original-V3-normal-0120-0150.json.gz",
+        "R839-pole-original-V3-normal-0150-0180.json.gz",
+        "R839-pole-original-V3-normal-0180-0210.json.gz",
+        "R839-pole-original-V3-normal-0210-0240.json.gz",
+        "R839-pole-original-V3-normal-0240-0270.json.gz",
+        "R839-pole-original-V3-normal-0270-0300.json.gz",
+        "R839-pole-original-V3-normal-0300-0330.json.gz",
+        "R839-pole-original-V3-normal-0330-0360.json.gz",
+        "R839-pole-original-V3-normal-0360-0390.json.gz",
+        "R839-pole-original-V3-normal-0390-0420.json.gz",
+        "R839-pole-original-V3-normal-0420-0450.json.gz",
+        "R839-pole-original-V3-normal-0450-0480.json.gz",
+        "R839-pole-original-V3-normal-0480-0510.json.gz",
+        "R839-pole-original-V3-normal-0510-0540.json.gz",
+        "R839-pole-original-V3-normal-0540-0570.json.gz",
+        "R839-pole-original-V3-normal-0570-0600.json.gz",
+        "R839-pole-original-V3-normal-0600-0630.json.gz",
+        "R839-pole-original-V3-normal-0630-0660.json.gz",
+        "R839-pole-original-V3-normal-0660-0690.json.gz",
+        "R839-pole-original-V3-normal-index.json.gz",
+        "R839-pole-original-source-and-alias-audit.json.gz",
+        "R839-pole-pencil-stage-manifest.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-D-pencil-and-pole-ideal-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "expected_selected_file_count": 39,
+      "file_pins": {
+        "R839-pole-original-V3-normal-index.json.gz": {
+          "file": "R839-pole-original-V3-normal-index.json.gz",
+          "bytes": 112114,
+          "sha256": "19bc45e50852072815408114d0f4c890fcff971368fb94057a26d58d9cd8639a"
+        }
+      }
+    },
+    "R872": {
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "artifact_id": 14207558653,
+      "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+      "archive_bytes": 146222980,
+      "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+      "expected_conclusion": "success",
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "wrapper_sha256": "2b3d0763196eb48714cb336ff0f504a6e1718e86bca08ef597ddb22602533ce5",
+      "configuration_sha256": null,
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate": {
+        "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "bytes": 17961,
+        "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R872-anchor-u.json.gz",
+        "R872-original-fixed-chi-divisor-and-section-source.json.gz",
+        "R872-pencil-trial-000001-complete-fixed-chi-kernel.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "expected_selected_file_count": 9,
+      "file_pins": {}
+    },
+    "R827": {
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "expected_conclusion": "failure",
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d",
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "derive_configuration_from_pinned_original_stage": false,
+      "certificate": null,
+      "configuration_stage": {
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "bytes": 763994,
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "accepted_checkpoint_exit_codes": [
+        124
+      ],
+      "selected_file_names": [
+        "R827-complete-short-operator-identities-and-sigma-transport.json.gz",
+        "R827-original-W-g-h-reductions.json.gz",
+        "R827-original-place-and-unit-source-audit.json.gz",
+        "R827-prime-1000000753-z-0-Krylov.json.gz",
+        "R827-prime-1000000753-z-1-Krylov.json.gz",
+        "R827-prime-1000000753-z-2-Krylov.json.gz",
+        "R827-prime-1000000753-z-3-Krylov.json.gz",
+        "R827-prime-1000000753-z-4-Krylov.json.gz",
+        "R827-target-Gamma-tau-polynomial-index.json.gz",
+        "R827-target-Gamma-tau-rows-000.json.gz",
+        "R827-target-Gamma-tau-rows-016.json.gz",
+        "R827-target-Gamma-tau-rows-032.json.gz",
+        "R827-target-Gamma-tau-rows-048.json.gz",
+        "R827-target-Gamma-tau-rows-064.json.gz",
+        "R827-target-Gamma-tau-rows-080.json.gz",
+        "R827-target-Gamma-tau-rows-096.json.gz",
+        "R827-target-Gamma-tau-rows-112.json.gz",
+        "R827-target-Gamma-tau-rows-128.json.gz",
+        "R827-target-Gamma-tau-rows-144.json.gz",
+        "R827-target-Gamma-tau-rows-160.json.gz",
+        "R827-target-Gamma-tau-rows-176.json.gz",
+        "R827-target-Gamma-tau-rows-192.json.gz",
+        "R827-target-Gamma-tau-rows-208.json.gz",
+        "R827-target-Gamma-tau-rows-224.json.gz",
+        "R827-target-Gamma-tau-rows-240.json.gz",
+        "R827-target-Gamma-tau-rows-256.json.gz",
+        "R827-target-g-tau-polynomial-index.json.gz",
+        "R827-target-g-tau-rows-000.json.gz",
+        "R827-target-g-tau-rows-016.json.gz",
+        "R827-target-g-tau-rows-032.json.gz",
+        "R827-target-g-tau-rows-048.json.gz",
+        "R827-target-g-tau-rows-064.json.gz",
+        "R827-target-g-tau-rows-080.json.gz",
+        "R827-target-g-tau-rows-096.json.gz",
+        "R827-target-g-tau-rows-112.json.gz",
+        "R827-target-g-tau-rows-128.json.gz",
+        "R827-target-g-tau-rows-144.json.gz",
+        "R827-target-g-tau-rows-160.json.gz",
+        "R827-target-g-tau-rows-176.json.gz",
+        "R827-target-g-tau-rows-192.json.gz",
+        "R827-target-g-tau-rows-208.json.gz",
+        "R827-target-g-tau-rows-224.json.gz",
+        "R827-target-g-tau-rows-240.json.gz",
+        "R827-target-g-tau-rows-256.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "expected_selected_file_count": 49,
+      "file_pins": {
+        "R827-original-place-and-unit-source-audit.json.gz": {
+          "file": "R827-original-place-and-unit-source-audit.json.gz",
+          "bytes": 4261,
+          "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+        },
+        "R827-target-g-tau-polynomial-index.json.gz": {
+          "file": "R827-target-g-tau-polynomial-index.json.gz",
+          "bytes": 3403,
+          "sha256": "eaf38623b9f32102614f983f14438ce685668975374fd818be6ac368df12eb8e"
+        },
+        "R827-target-Gamma-tau-polynomial-index.json.gz": {
+          "file": "R827-target-Gamma-tau-polynomial-index.json.gz",
+          "bytes": 3360,
+          "sha256": "275948210bff93db1f007e119955ba824c18cbf9f1451bb98569f4b99a751cc7"
+        }
+      }
+    },
+    "AB": {
+      "result": "R880-original-six-branch-A-B-normal-inputs",
+      "run_id": "43849775574",
+      "source_commit": "4a459acc8e430dbfe0ff232493c5ce1a9f493ced",
+      "core_sha256": "3094615c9d73d77119065bfa74321a5ab42ba8714fe6b09624725919e8b46d23",
+      "artifact_id": 14219900447,
+      "artifact_name": "serre-R880-six-branch-A-B-normal-inputs-43849775574-1",
+      "archive_bytes": 128117604,
+      "archive_sha256": "8e05d15a2a4008ac7091785653f94c062490205a53f444095bbfa5b35a7f91a4",
+      "expected_conclusion": "success",
+      "manifest_sha256": "c7deae057a4c142265e237fb671404ccaa71443d67d23bfbe623a939856f1d1d",
+      "manifest_bytes": 10527,
+      "manifest_file_count": 60,
+      "manifest_reference": {
+        "file": "full-outputs-manifest-reference.json",
+        "bytes": 182,
+        "sha256": "ea7b9e9a88f95c6d6e38ec6074f8223137913c021f5e7f60324ab2a945c69dd9"
+      },
+      "wrapper_sha256": "ec7d719b49c3b1e9bccbbf803516bf4008c2dbf4cb2ebecaa659b1d3050c0e45",
+      "configuration_sha256": "839ee1e1709b319a4c980cf8dba2c32e34f6bf149ca4b15b0c0920d16e71bee9",
+      "certificate": {
+        "file": "p41-original-six-branch-A-B-normal-inputs-certificate.json",
+        "bytes": 17836,
+        "sha256": "1392b1d2cf74725e439ca1034e3c230a624c713c22e64a344fecc65b42e01e55"
+      },
+      "configuration_stage": null,
+      "selected_file_names": [
+        "R880-six-branch-branch-01-original-normal-A-B-pair.json.gz",
+        "R880-six-branch-branch-02-original-normal-A-B-pair.json.gz",
+        "R880-six-branch-branch-03-original-normal-A-B-pair.json.gz",
+        "R880-six-branch-branch-04-original-normal-A-B-pair.json.gz",
+        "R880-six-branch-branch-05-original-normal-A-B-pair.json.gz",
+        "R880-six-branch-branch-06-original-normal-A-B-pair.json.gz",
+        "R880-six-branch-original-source-audit.json.gz",
+        "R880-six-branch-seven-original-Galois-normal-inputs.json.gz",
+        "core-receipt.json",
+        "full-outputs-manifest-reference.json",
+        "full-outputs-manifest.json",
+        "p41-original-six-branch-A-B-normal-inputs-certificate.json",
+        "public-actions-input.json",
+        "run-receipt.json"
+      ],
+      "expected_selected_file_count": 14,
+      "file_pins": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 45661,
+          "sha256": "fed2930a5894493a646e19f283658645e1b86e9f94681178f2bc0166c8add096"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 546,
+          "sha256": "0856c42368637f88e919b9d2b5f0151f20565fa111c324107f3e6698d23cdb46"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 685,
+          "sha256": "d265380a9082494ab7024dc834b7faf7fe74ea9ca1d6a7840e9928695034b76e"
+        },
+        "p41-original-six-branch-A-B-normal-inputs-certificate.json": {
+          "file": "p41-original-six-branch-A-B-normal-inputs-certificate.json",
+          "bytes": 17836,
+          "sha256": "1392b1d2cf74725e439ca1034e3c230a624c713c22e64a344fecc65b42e01e55"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 10527,
+          "sha256": "c7deae057a4c142265e237fb671404ccaa71443d67d23bfbe623a939856f1d1d"
+        },
+        "full-outputs-manifest-reference.json": {
+          "file": "full-outputs-manifest-reference.json",
+          "bytes": 182,
+          "sha256": "ea7b9e9a88f95c6d6e38ec6074f8223137913c021f5e7f60324ab2a945c69dd9"
+        },
+        "R880-six-branch-original-source-audit.json.gz": {
+          "file": "R880-six-branch-original-source-audit.json.gz",
+          "bytes": 6006,
+          "sha256": "aa935d8f295e6e41a27507b222229ab5ba46a0775f1746d2ea7410be744954ab"
+        },
+        "R880-six-branch-seven-original-Galois-normal-inputs.json.gz": {
+          "file": "R880-six-branch-seven-original-Galois-normal-inputs.json.gz",
+          "bytes": 6538,
+          "sha256": "24b236efc15629932a903d6d33b9e85e77b3462191f6a27430c06f443c07852d"
+        },
+        "R880-six-branch-branch-01-original-normal-A-B-pair.json.gz": {
+          "file": "R880-six-branch-branch-01-original-normal-A-B-pair.json.gz",
+          "bytes": 22567,
+          "sha256": "ed1cc7789a0794155e2aa9a9659ee5da81972fc33a1fe0f005b7b6ef40abcfef"
+        },
+        "R880-six-branch-branch-02-original-normal-A-B-pair.json.gz": {
+          "file": "R880-six-branch-branch-02-original-normal-A-B-pair.json.gz",
+          "bytes": 22556,
+          "sha256": "93390990c3517421104c095a5f59a0b8dd587cd9169d25981cd892329dc9515b"
+        },
+        "R880-six-branch-branch-03-original-normal-A-B-pair.json.gz": {
+          "file": "R880-six-branch-branch-03-original-normal-A-B-pair.json.gz",
+          "bytes": 22514,
+          "sha256": "0555d895f96dfd8455e8c4d7f3d2b30dff408cb08a8863ce2b6198e15d10f88f"
+        },
+        "R880-six-branch-branch-04-original-normal-A-B-pair.json.gz": {
+          "file": "R880-six-branch-branch-04-original-normal-A-B-pair.json.gz",
+          "bytes": 22504,
+          "sha256": "e2957688c5f86f9caf3db122bec884db5983c125644fea73bc44e19533a15e86"
+        },
+        "R880-six-branch-branch-05-original-normal-A-B-pair.json.gz": {
+          "file": "R880-six-branch-branch-05-original-normal-A-B-pair.json.gz",
+          "bytes": 22522,
+          "sha256": "a6ad29203c26cc70e50fa8ac968cfa32f44556c249f0388d32290df1975625ca"
+        },
+        "R880-six-branch-branch-06-original-normal-A-B-pair.json.gz": {
+          "file": "R880-six-branch-branch-06-original-normal-A-B-pair.json.gz",
+          "bytes": 22554,
+          "sha256": "d749e959379dbc680aa6dd3ec6faaaa2c8a7b56c8102a79dc03245e0adb7bed5"
+        }
+      }
+    }
+  },
+  "input_selectors": {
+    "seven_inputs": {
+      "source_group": "AB",
+      "file": "R880-six-branch-seven-original-Galois-normal-inputs.json.gz",
+      "bytes": 6538,
+      "sha256": "24b236efc15629932a903d6d33b9e85e77b3462191f6a27430c06f443c07852d"
+    },
+    "AB_audit": {
+      "source_group": "AB",
+      "file": "R880-six-branch-original-source-audit.json.gz",
+      "bytes": 6006,
+      "sha256": "aa935d8f295e6e41a27507b222229ab5ba46a0775f1746d2ea7410be744954ab"
+    },
+    "W_reduction": {
+      "source_group": "R827",
+      "file": "R827-original-W-g-h-reductions.json.gz"
+    },
+    "place_audit": {
+      "source_group": "R827",
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "bytes": 4261,
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+    },
+    "g_index": {
+      "source_group": "R827",
+      "file": "R827-target-g-tau-polynomial-index.json.gz",
+      "bytes": 3403,
+      "sha256": "eaf38623b9f32102614f983f14438ce685668975374fd818be6ac368df12eb8e"
+    },
+    "Gamma_index": {
+      "source_group": "R827",
+      "file": "R827-target-Gamma-tau-polynomial-index.json.gz",
+      "bytes": 3360,
+      "sha256": "275948210bff93db1f007e119955ba824c18cbf9f1451bb98569f4b99a751cc7"
+    },
+    "operator_identity": {
+      "source_group": "R827",
+      "file": "R827-complete-short-operator-identities-and-sigma-transport.json.gz"
+    },
+    "T11_chart": {
+      "source_group": "R842",
+      "file": "R839-T11-unit-quotient.json.gz"
+    },
+    "T5_chart": {
+      "source_group": "R842",
+      "file": "R839-T5-independent-original-row-quotient.json.gz"
+    },
+    "D_chart": {
+      "source_group": "R842",
+      "file": "R839-original-D-unit-kernel-basis.json.gz"
+    },
+    "D_matrix": {
+      "source_group": "R842",
+      "file": "R839-original-D-short-kernel-matrix.json.gz"
+    },
+    "rank1111": {
+      "source_group": "R845",
+      "file": "R839-pole-candidate-000001-five-fiber-rank.json.gz"
+    },
+    "old_sections": {
+      "source_group": "R845",
+      "file": "R839-pole-candidate-000001-sections.json.gz"
+    },
+    "normal_index": {
+      "source_group": "R845",
+      "file": "R839-pole-original-V3-normal-index.json.gz",
+      "bytes": 112114,
+      "sha256": "19bc45e50852072815408114d0f4c890fcff971368fb94057a26d58d9cd8639a"
+    },
+    "alias_audit": {
+      "source_group": "R845",
+      "file": "R839-pole-original-source-and-alias-audit.json.gz"
+    },
+    "old_anchor_selection": {
+      "source_group": "R880",
+      "file": "R880-original-P0-unit-anchor-selection.json.gz",
+      "bytes": 4823,
+      "sha256": "ba4e1de2c230ed62e425f2b78da9afe511dc475bbcda95d8beed34e6d6fc0891"
+    },
+    "V3_jets": {
+      "source_group": "R880",
+      "file": "R880-original-V3-252-point-jet-matrix.json.gz"
+    },
+    "standardizing_kernel": {
+      "source_group": "R880",
+      "file": "R880-complete-standardizing-146-kernel.json.gz"
+    },
+    "standardizing_basis": {
+      "source_group": "R880",
+      "file": "R880-standardizing-146-original-V3-basis.json.gz"
+    },
+    "old_v": {
+      "source_group": "R880",
+      "file": "R880-fixed-v-section.json.gz"
+    },
+    "old_w": {
+      "source_group": "R880",
+      "file": "R880-trial-000001-w-section.json.gz"
+    },
+    "rank962": {
+      "source_group": "R880",
+      "file": "R880-trial-000001-five-fiber-rank.json.gz"
+    },
+    "old_Dstar": {
+      "source_group": "R880",
+      "file": "R880-trial-000001-Dstar-projected-original-V3-basis.json.gz"
+    },
+    "old_principal": {
+      "source_group": "R880",
+      "file": "R880-original-D-cusp-chi-principal-inputs.json.gz"
+    },
+    "u_C": {
+      "source_group": "R887",
+      "file": "R887-original-order252-functional-and-u_C.json.gz"
+    },
+    "Cstar_principal": {
+      "source_group": "R887",
+      "file": "R887-original-Cstar-and-Qtilde-principal-inputs.json.gz"
+    },
+    "Cstar_basis": {
+      "source_group": "R887",
+      "file": "R887-trial-000001-Cstar-projected-original-V3-basis.json.gz"
+    },
+    "chi_anchor": {
+      "source_group": "R872",
+      "file": "R872-anchor-u.json.gz"
+    },
+    "chi_divisor": {
+      "source_group": "R872",
+      "file": "R872-original-fixed-chi-divisor-and-section-source.json.gz"
+    },
+    "chi_kernel": {
+      "source_group": "R872",
+      "file": "R872-pencil-trial-000001-complete-fixed-chi-kernel.json.gz"
+    }
+  },
+  "expected_total_selected_file_count": 230,
+  "intakes": {
+    "fixed_five": {
+      "run_id": "43853465428",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "artifact_id": 14217904616,
+      "artifact_name": "serre-R880-six-Dstar-source-intake-43853465428-1",
+      "archive_bytes": 75152268,
+      "archive_sha256": "53814315459fd58cbdeab867e1ffba3beb3c7b5fbb1c8b7c61db6fc67f867f1e",
+      "expected_conclusion": "failure",
+      "source_index": {
+        "file": "intake-source-index.json",
+        "bytes": 5451,
+        "sha256": "6287ceae5edb5faa1e5ed1699fad32feb6d5c0df5652a8ff16f6e05393110f3d"
+      },
+      "request_sha256": "ca80ba378daf514b556d6d4cc1e722da6b8b075a35eb9eef4e56b7d376d2124a",
+      "source_labels": [
+        "R842",
+        "R845",
+        "R880",
+        "R887",
+        "R872"
+      ],
+      "expected_error_labels": [
+        "R827"
+      ],
+      "bundles": {
+        "R880": {
+          "file": "R880-intake-selected-original-sources.tar.gz",
+          "bytes": 3409609,
+          "sha256": "d518747abc3ed954ca5734253e925eb1a708db11e054ca280405e25a09aa425e"
+        },
+        "R842": {
+          "file": "R842-intake-selected-original-sources.tar.gz",
+          "bytes": 54429410,
+          "sha256": "8a279fd16ac1e44b07281a886b44ad0e2adc8b0e0609e7e6037c0034fcba22ff"
+        },
+        "R887": {
+          "file": "R887-intake-selected-original-sources.tar.gz",
+          "bytes": 1815681,
+          "sha256": "93a12561480175a932333c992bf7f229db3168005bc390487526ec7e8ecbf24b"
+        },
+        "R845": {
+          "file": "R845-intake-selected-original-sources.tar.gz",
+          "bytes": 12455757,
+          "sha256": "fb9f2ff8de4a6dd8853ae0a3ab055bbcf14596f4142a1b7bd09b414bb3460375"
+        },
+        "R872": {
+          "file": "R872-intake-selected-original-sources.tar.gz",
+          "bytes": 2847108,
+          "sha256": "579cf6d3488355e4299080548d4d65537a511218a54a36544e1bcdfe607a226e"
+        }
+      }
+    },
+    "R827": {
+      "run_id": "43854607823",
+      "source_commit": "ed3ed6bf901aa66b3b8668d24b2173e608d82b72",
+      "artifact_id": 14221081225,
+      "artifact_name": "serre-R880-six-Dstar-source-intake-43854607823-1",
+      "archive_bytes": 12926425,
+      "archive_sha256": "a333e11c9c99617d6c8f66c0e61cd47ae36009f57afacb14fdada74c67043b99",
+      "expected_conclusion": "success",
+      "source_index": {
+        "file": "intake-source-index.json",
+        "bytes": 1219,
+        "sha256": "14a9b780d38d35eced4658d6699496ca634b5ad2371291e4e41d7e2023250284"
+      },
+      "request_sha256": "634060679eac27d699f02e346f2c7b801f2784c5bec0bd988695581c3b1c980c",
+      "source_labels": [
+        "R827"
+      ],
+      "expected_error_labels": [],
+      "bundles": {
+        "R827": {
+          "file": "R827-intake-selected-original-sources.tar.gz",
+          "bytes": 12876078,
+          "sha256": "f89b94019e6a8e567444e5b6326d449c9d21ea1c2878e3f1efa5a18b2d3e9766"
+        }
+      }
+    }
+  }
+}

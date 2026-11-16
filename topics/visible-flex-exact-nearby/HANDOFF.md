@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 11:17:58 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 11:18:21 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 11:01:31非FF真CLI仍无executor，下一本地尝试≤12:01:31。最新CI真pull为43854566735/1于11-16 11:05:54.432963→1e9d0191b5167facc9fda1e3c94e2662f6da2b54；两README完整diff空/同已读，exec保4次全回执。下一真pull≤12:05:54；ref读取不冒真pull。
-最近只读README核：4d6bb02b07fb81a60aa63db9f2c4fe803291caa5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ac838ab0197d2d76826df3af484b39658fdef5f4；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -49,7 +49,7 @@ WOBSA c2eff7d8/43844596176成功18门6图37新/1exp1pow7sqrt、old0/lost0；三�
 
 WMF14900631同J/primitive归一正权与完整Fmean恒等已证，0新数/逆；完整physical z/root/两waist mean/Jr/g1/内部drift和径向IBP的er/端点/jump保proof及完整检查点。
 
-WMT51eb08d0同strict全Vext/三幅值/L1正权/5mean递推保8terminal及n^-23/6，真r*/local/3070jump/四端/两mean保。5oldactual/131record/33scope与全部资格原字锁；source19624752/manifest8870b8be/worker7abb8783已冻结，9current/2AST/0history。七图197槽=195新+2旧copy，0exp，WMR42只读；独立workflow尚待，0新数/finite逆。
+WMT51eb08d0同strict全Vext/三幅值/L1正权/5mean递推保8terminal及n^-23/6，真r*/local/3070jump/四端/两mean保。5oldactual/131record/33scope与全部资格原字锁；source19624752/manifest8870b8be/worker7abb8783已冻结，9current/2AST/0history。七图197槽=195新+2旧copy，0exp，WMR42只读；独立workflow已启，actual待；0finite逆。
 
 ## 恢复、容量和执行
 
