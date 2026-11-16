@@ -62,7 +62,7 @@ R866/R869公开producer已给原T9的Φ17（18×18，总degree34，291项）与�
 
 [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)给真正小入口D=X0(867)：h(Q)=H0(q)³∈S6，A,B∈M_k、C=(DQ A)B−A DQ B。完整C³=n³h A²(A+vB)²B²检验0..612(k+1)项，连同原germ和∞基点即严格认原nΞ0。k2的M维120、低截止409、最后截止1836，成功degree≤204；degree≤119保证有k2表示。任意非零低核给同一比值，允许共同cusp零。
 
-**原整数/单位低权轨道已排除：** R866附A证17|n必要；R873公开完整范数给所有整数单位实际degree>23194880、三同源>7731626，故k2/4/6/8全部排除。n1/2旧矩阵满秩另已记录，k4无结果。下一搜索一般有理Hecke方向u的全q整性格I∞={u:λ(uO_E)⊂aO_F}，并用同正度数范数筛选；实际Hom仍须完整坐标证书，不认q整性已充分。
+**原单位轨道与全packet界：** R866附A和R873排原整数单位/3同源k≤8。R874已求一般有理Hecke全q理想I∞=u*OE，Norm17/55569，全packetdegree>364.3945，故k2全排。u*=(915+1097θ+2962eps2)/55569有真实首项(68+7a−13a²)/3、严格准度数距376<10^-88，u*(106+59θ+185eps2)=17。下一以同原完整Hu做k4/6坐标证书；q整/度数区间不等于映射已整，不据376显示值取整。
 
 [R867附录A](results/R867-original-single-hom-and-integral-hecke-three-basis.md)给真实整R=2T7²+7T7−8T13−28，其packet值r³−3r+1=0、逆3−R²；仅在原Hom格互逆，不认整个J可逆。原完整8/64/14邻点迹与闭点重数保留。原同nΞ0一旦认证，δζ两式给3nΞ_i全部真整，改进旧57；可用整unit换同格映射并以整逆返回，首微分系数不得免费归一。
 
@@ -131,3 +131,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 - [R870附录A](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：公开run43827859642的(n,k)=(1,2)/(2,2)真实410×240矩阵在好素数1000037均秩240，严格排各固定低核；k4只到基构造，取消无结果。R866原17必要条件后，run43832115772成功执行参数门并停止无效请求；完整source/args/run/hash保，不假原坐标成功。
 
 原CM范数producer已公开触发，先由真实n17和全部unit的次数下界判定可行权；k4取消没有提供结果。
+
+
+- [R872附录A](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：只假同P+pR已过p²，真实第二页必要式baseline₂+a²b0γF/3=0，R可调性仍K1第二长块末尾；τ4须用原Λ0而非单行，响应−36b0γF/a²，第二页加2b0γF/a、第三页保同Qc。τ≥5该第一高位对39carry/Λ0不可见，仅限这些行；全同R/S和未知baseline不删。

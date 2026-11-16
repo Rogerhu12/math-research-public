@@ -93,3 +93,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R878原有限theta作用已证**：[完整证明](results/R878-original-finite-theta-action-and-section-projections.md)。原E:y²=x³−1、ω、六级标记上，fppf τ与真实E[p]的norm1作用给规范真群律，kerD上固定1；H0(6pO)六条长度p的D链只含χ^0,χ^2,…,χ^p。原x/−xy的χ²/χ⁵投影经D^(p−1)/D^(p−4)分别为−B/B24，故真非零；扩大空间的原sigma低jet积分性、原标签与q-normal比较仍缺。
+
+
+**R879原参考单极函数消费者激活**：[完整证明](results/R879-original-reference-pole254-pencil-from-completed-syzygies.md)/[方法](notes/R879-original-reference-pole254-function-method.md)。直接读R872的418对S/T与原jets，两个272最高项截断及19局部条件组成563×418；准确rank291，实际单位子式和全563回代后才认证(v0)∞=254P0及M0铅笔(1,v0)。corea8573c2a/wrapper2703bec3，30min；不重原核/乘法/逆，不搬122MB源包，不先求参考128。真实run待回填；t帧保c^254/U272不设1，五Lj/九Norm/支持/height仍缺。

@@ -224,3 +224,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R873 原循环7对应的17系数与两端函数域实际完成**：[正式结果](results/R873-certified-original-cyclic-seven-correspondence.md)。run43832703159/source2ee14751，184.720277599s；739处2058子式det510，全部2200行/17rhs回代，准确char0 unit-solve与DAG完成。finalb3b89a56/artifact14209317175/f9e41511；旧4960原源复用，实际Picard范数/η支持/height未算。
 
 - **R877 原canonical A与global y的normal输入实际完成**：[正式结果](results/R877-certified-original-canonical-A-and-global-y-normal-input.md)。run43833857220/source87f3bfe4，24stage/2.9434909s；原branch0/free1186、唯一A右端、全部1380行与原y=A/B完成。A fede8567/final6305b52f/artifact14209578116/6f0e627c；旧S5/逆/B不重，七同ζ分支、五Lj128/144与height仍开。
+
+- **R879 从已成配对核构造参考单极函数已证明并激活**：[完整证明](results/R879-original-reference-pole254-pencil-from-completed-syzygies.md)，SHA256 5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055。两个原最高项截断及19个已成jet给563×418/rank291；成功后原v0恰254P0单极，(1,v0)为参考M0铅笔，无须参考128核或672minor。准确原t/x单位保留未展开；消费者待实际运行，不预填模子式或真实height。

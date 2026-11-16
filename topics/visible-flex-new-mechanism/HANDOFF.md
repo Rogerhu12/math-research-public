@@ -26,6 +26,8 @@ R469/472保真实A/T、全部第四V/一般w及双芽；R476的18维Z只在说�
 
 [R488](results/R488-real-secant-height-patches-and-complete-same-gauge-ruling.md)分类真L≡0强分支为k0/ω常/h=Hsec，原实际history固定；完整二三阶场对v=tan仿射，全ruling=(a+bv+cv²)/h保全部尾与入值。中心全profile清理使b0，单patch两even有原Gram右逆；旧芽已锁χ时须同13核中新增三个线性兼容行，不能逐patch重选。t1′=−(1+v²)/8<0排该分支自身M0返回/平常collar接合；真实桥/新增行像仍待。
 
+[R491](results/R491-complete-complex-phase-and-two-curvature-atom-five-condition-boundary.md)保完整E=½∫Z³(4U−3Z)dr及真ImZ<0（不推出E非零）；两ρ原子α/β/远左C全部Aj有限幂差、跳变保五次primitive，五门等价α⁷H³Δν五多项式，潜在零离α0/1、β0且H有界；β1终端原子仍留。未判解；接三原子+offset五实参原积分候选。
+
 同cap五门真零、实际全成本/全s同规范、高阶收敛及主几何门仍未付。
 
 ## 4. 当前真正接受点54与闭合任务

@@ -307,3 +307,7 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 ### 2026-11-16 08:52:00 UTC — R488 真正低维正割patch与完整同规范三行
 
 [R488](results/R488-real-secant-height-patches-and-complete-same-gauge-ruling.md)从原Mraw/history分类universal局部principal-null分支：k=0、ω常、h=Hsec(s−s*)，相应八矩严格固定。实际浸入X=(H²v,H/y,−Hv/y)，原五分量式证明任意真实入值的完整二、三阶场对v仿射，全部第四ruling准确(a+bv+cv²)/h，不丢尾/平方/第三初值。中心q*=A*D+w整函数0给b0；单patch两个even由原R47 Gram同χ支付。已有保护芽锁三χ矩时，须在原period/十三行核中解新增三个显示线性行，不能再消费Gram。t1raw=−(1+v²)/8<0，原分支无正长度M0返回且不能保分支接常collar；桥内部全ruling与原核共同像仍待。纯纸推/0执行，继续完整可接路径，主课题未完成。
+
+### 2026-11-16 08:52:04 UTC — R491 完整相位与两曲率原子五门边界
+
+[R491](results/R491-complete-complex-phase-and-two-curvature-atom-five-condition-boundary.md)保全部端势给E=½∫Z³(4U−3Z)dr，原Af>0给ImZ<0但不由半平面猜E非零。两个ρ=v″原子由α、β及远左C准确参数化，U原常数逐段保留，r从αβ跳至β时原q表示须完整五次primitive；直接十二L原积分无附加点质量。八Aj全由有限幂差式确定，α⁷H³Δ1/2/3/4/6为五明确有理系数多项式且无清分母伪零；原五门零等价此三变量系统，尚未判有解/无解。R489/R483使潜在零离α0/1、β0且C有限，β1终端原子不可删。正曲率/真左germ/simple-A近似接口保原端值。0研究执行；接真正三原子+offset五实参候选及有限合法恢复，不重开已闭15参数任务，主门继续。
