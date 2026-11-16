@@ -193,3 +193,8 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 
 [R852](results/R852-original-schoen-correspondence-and-exact-chow-inverse.md)：由实际Sym²h1(E0)=L的CM特征分解付C+⊗C−=L，最高M±真可逆且End=系数域；原u=([ω],1,1)与目标σ=(ωx,ω²y,ωr,ω²s)的完整等变图形严格消交叉块。原−18及degree3读出ΓᵗΓ=9Π，故P9=ΓΓᵗ/9、Λ=Γᵗ/9给精确Chow互逆，原Z=ΛZ9及全部Artin/source3/6/12/1632/816保留。AJ正逆−18/−1/18，未把同动机当作R814指定canonical相等或跨p非零。
 **继续：** 将这个固定P9与原R814非Dirichlet good-pair的实际CM/Kuga–Sato类比较；既有Γ/Λ只运输原Z及其像，不能补另一个KS来源的Tate对应、CH rank1或p-adic AJ注入。
+
+
+### R853：原首行的固定对数返回
+
+[R853](results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md) 原四真实输入加权η=Z^(−p−2)P2^nRνω后，逐付所有额外Z零点抵消及二挠极帽；C³η降入P¹上极帽L=(9,18,34,17)的固定空间。唯一分解ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH，第四次准确C⁴η=−α^(1/p⁴)(x²/y)ω。原η̄共有同一J_p、Θ_p，J_p=A_m/(1−t)^m由R636指定R_p逐项核对，A_m根简单且避0/1。保完整四fν、全部原尺度和M=1范围；固定返回不赋四α不同时零或完整中央非零。 **继续：** 在(25)的同一个J_p、Θ_p与四个完整fν上证明无穷p至少一个指定留数非零；不能以固定目标替换随p的原输入，也不能将必要首行零反用为完整中央零。

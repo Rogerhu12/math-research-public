@@ -10,3 +10,5 @@
 - [R840补注](2026-11-16-r840-actual-euler-primitive-block-and-zero-first-value-kernel.md)：在原T−h>κ、T≤2h、T>3z_-下，实际J=E_+^-1(F²H1^{>0})⊕H3^0与三长核交零，维(κ+χ)/2+2z_-+1。全V1=0分支准确由同A∈H2^{>0}的2η镜轴和原函数3z_-+1..T−1系数行呈示，唯一G0修正；真实V2=eA_C单射。全部负D_Q上I(A)=0，负行仅读同G0(tQ)，固定d因子及全部剩余域迹保。未与R834单位秩相加，实际联合像/forcing仍开。
 
 - [R852](../results/R852-original-schoen-correspondence-and-exact-chow-inverse.md)：由实际Sym²h1(E0)=L的CM特征分解付C+⊗C−=L，最高M±真可逆且End=系数域；原u=([ω],1,1)与目标σ=(ωx,ω²y,ωr,ω²s)的完整等变图形严格消交叉块。原−18及degree3读出ΓᵗΓ=9Π，故P9=ΓΓᵗ/9、Λ=Γᵗ/9给精确Chow互逆，原Z=ΛZ9及全部Artin/source3/6/12/1632/816保留。AJ正逆−18/−1/18，未把同动机当作R814指定canonical相等或跨p非零。
+
+- [R853](../results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)：原四真实输入加权η=Z^(−p−2)P2^nRνω后，逐付所有额外Z零点抵消及二挠极帽；C³η降入P¹上极帽L=(9,18,34,17)的固定空间。唯一分解ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH，第四次准确C⁴η=−α^(1/p⁴)(x²/y)ω。原η̄共有同一J_p、Θ_p，J_p=A_m/(1−t)^m由R636指定R_p逐项核对，A_m根简单且避0/1。保完整四fν、全部原尺度和M=1范围；固定返回不赋四α不同时零或完整中央非零。

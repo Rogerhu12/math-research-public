@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：7f300e57c9165ae28d01d03846a4bc7000a81ee7；2026-11-16 03:03:11 UTC核两README无变。实际CI pull 2026-11-16 02:57:07 UTC/3a32e48955de6f7609ea25c46a1a23cac1b7afdd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 03:03:09 UTC仍无环境。最迟2026-11-16 03:40 UTC再实际pull。
+- 最近已读规则提交：a3156c0a424538efef59c3f772306fc60eb93591；2026-11-16 03:28:27 UTC核两README无变。实际CI pull 2026-11-16 02:57:07 UTC/3a32e48955de6f7609ea25c46a1a23cac1b7afdd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 03:28:26 UTC仍无环境。最迟2026-11-16 03:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -13,8 +13,8 @@
 ## 完整检查点与分工
 
 [压缩前完整H](notes/2026-11-16-frontier-before-r852.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
-R1–363、365–560、562–653、655–711、713–852已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者。deep续R840 primitive块与R834的联合交/真W_T；theta续K_F原低ODE与同G全边界；literature/root续R814非Dirichlet good-pair的实际canonical比较。R852已付原Schoen图形精确Chow逆；下一独立编号R853由root协调。
+R1–363、365–560、562–653、655–711、713–853已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者。deep续R840 primitive块与R834的联合交/真W_T；theta续K_F原低ODE与同G全边界；literature/root续R814非Dirichlet good-pair的实际canonical比较。R852已付原Schoen图形精确Chow逆；R853已付原加权Cartier读取，R854 canonical CM收缩稿正核。
 
 ## 原循环与canonical主门
 
@@ -31,6 +31,8 @@ R851付原Schoen全不变域逆、E0³→W0(9)degree9/Z余3、F0*ΩW=−18ΩA及
 R838保完整A_p=E[t]/t^e、exact=mM、最高dν与AJ=(E1β/Eβ)P dν。全Euler/period不预赋单位；变权R=E[[τ]]、x=uτ^e、C=b/w′给lim eτ^(e−1)C=d，χ−3自扭迫e=2s_p、u/b偶/C奇、Cbar=2τC。未假e2/noble/ordinary第一支；指定主项/canonical仍开。
 S34/T72/U136/V66的charge17/36/68/33、39carry/十二尾/末quartic及通常全Selmer保。R816/820付E−11 rank≥2；R824同G0给r+2h≥s+1，R828同K1/C1的χ2原像未付，q_p(3)不预赋单位。
 [固定torsion原注](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md) §§1–19保先固定M、真P2,M、四P2^nRν及CM13全frame。真实Cν有p²极，全球非零不付O处四α。无exact固定K(X)^pV已排，但p幂+exact真有fνω=hν^p dlogx+dvν、α=(-2[z]hν)^p。C³回固定帽；显式Δf保帽/高零/首前jet与C²/C³却首加1，差不保原P2^nRν/CM13。须续四真正Rν或真实第五伙伴。
+
+[R853](results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)：原η=Z^(−p−2)P2^nRνω的全部极已付；C³降固定P¹极帽L=9/18/34/17，ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH，C⁴η=−α^(1/p⁴)(x²/y)ω。原共同η̄公式保同J_p/Θ_p/四fν；J_p=A_m/(1−t)^(3s−1)来自指定R636，A_m简单根避0/1。只读原首行，四α同时零仍开；M=1不冒CM13 frame。接续真实共同Θ_p约束。
 
 ## 同R、三真长窗和指定总类
 
