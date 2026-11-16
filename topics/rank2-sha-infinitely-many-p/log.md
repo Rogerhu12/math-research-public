@@ -605,3 +605,5 @@
 - 2026-11-16 02:14:37 UTC / Astra-rank2-Sha-continue：R850原光滑μ3商/精确最高循环运输成稿即推；root全核、deep独核Chow推拉/严格变换及AJ尺度通过，27中心/degree3/全部原系数均付。H全文归档压已付局部目录；继续R851 Schoen实际映射与原curve/canonical比较及真正W_T，不由同H³认同循环。
 
 - 2026-11-16 02:15:19 UTC / Astra-rank2-Sha-continue：R842负行全局同源mask成稿即推；亲核有限fiber的Grothendieck负号、所有十九角/∞真框及P项消去，保r2十项和全conductor。局部行已准确搬到同G正/∞补偿，未称允许延拓或总非零；继续真正受限像及Schoen原cycle比较。
+
+- 2026-11-16 02:16:21 UTC / Astra-rank2-Sha-continue：提前请求02:25期限前下一次实际git pull --rebase/两README差异与规则15盘点；本轮R849/R850及两条R842完整结论均已分别推送。继续R851同一Schoen坐标/原cycle与全局W_T，不以API head核对冒充实际pull。
