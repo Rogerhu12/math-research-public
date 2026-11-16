@@ -122,3 +122,9 @@ root完整读f9cbf697 15148B及最终cdb4b957 15266B（SHA256 803302f2924da51022
 root全文读23,951B/SHA256 65cc1edec37adb5b0a3667c7e37df2a94bb24201697a53f4a1c7f9bc341f68c7；tail回N/strictN/A/PC/IN/FC/NIF/WPR八小primary核身份，phase正式peer核rank1、原腰三行、A local rank2及13a full-density endpoint mean。i0=i−hHΠi虽保primitive row，不宣称i0在actual incoming range；evenmean动态/source/ν/外cap/amp全部保。rank2仅原完整boundary域，非传播PDE square。旧ambient两slot估计保，原独立inputs不混同；后续finite/mean Schur须按真实rank及完整graph形成。
 
 本条独推，read 2a13cad5de98cd421f30b29b5e4709879e1f943c两README未变，0新数学求值/0旧重算。
+
+## 2026-11-16 03:46:05 UTC — WIT 无小量输入交织与同逆
+
+root全文独核21,308B/13c5972c82dd1af1ded73ccdfdd6b8ba69da3c3a84bb278aea602d3dd90ba437；Newton正式核最终2–4、Tail正式核最终5–6。root并独取原ZD82fabb43/18961/715f2876与实际DZ2 67b41ac7/26909/05036749，核其n,p≥1完整无限和、inputmean rank、complete_D原ball逐字匹配，不把原input97总体scope误作D低频遗漏。G-adjoint非L2adjoint、先G解再L2提升、负窗f+W_G^-1 Rf与同逆、fullmean rank和真实finite projector均保。
+
+只符号新K_W及strong差，不求新球。为保持H/open上限，原已成H段与WPR/RRF/WPM/WRA open段逐字保52ad980a/7075/4db123fd scope索引，再压索引，无未付门删除。此结论独推，read b4636a6dbf4f82ddddd21b44e2f6db90e70e0def两README未变。

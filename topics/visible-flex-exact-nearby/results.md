@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WIT：真实反射输入的正密度交织算子](results/R133-supplement-positive-density-intertwiner-for-the-true-reflected-input.md)（68737e28209551cab5b45aa251869892bc51b380，21308B，SHA256 13c5972c82dd1af1ded73ccdfdd6b8ba69da3c3a84bb278aea602d3dd90ba437）。完整nonmean的primitive配对保持给W=(1−ZJ)/2正且G逆≤2，无小量门；完整原DZA Δ两sign/mean费用只作新L2与H−4/3同逆bootstrap，K_W=1+CΔ/2不求值。W准确搬J与true反射，同时搬原P97及192/96有限补；fullauxmean仍有WΔ1⊗Π。独立q_n模型仅列精确块/条件失导逆，未擅用任意ν或actual Fourier cut。0新数/0旧重算。
+
 - 2026-11-16 — [WPM：反射均值rank与完整scalar行](results/R133-supplement-physical-reflection-mean-rank-and-complete-scalar-row-ledger.md)（f6bc0eafe774149bb768bb71c9dfc4ea39e82a15，23951B，SHA256 65cc1edec37adb5b0a3667c7e37df2a94bb24201697a53f4a1c7f9bc341f68c7）。精确density mean injection/extraction在反射state上rank1，只有odd waist平均行冗余；完整evenmean ODE、ordinary source/ν/outercapmean与amp保留。原A admitted boundary域(Π,ℓamp) local rank2，P_v保mean；端点hH均值方向被primitive row消掉而非Poisson free kernel。完整storage/unknown/port/row账本及限定等价化明确，未授完整square或finite/ν逆。0新数/0重算。
 
 - 2026-11-16 — [RRF：真实反射刚性与物理腰部目标](results/R133-supplement-true-reflection-rigidity-and-selected-waist-target.md)（cdb4b957f6976c7b72e974fcccc8f2a15afbee74，15266B，SHA256 803302f2924da51022e2aa16a36c928ee0789fde93277f5ea9fd9c2ae2a3630f）。真PF root rays及原W exact irrational rotation使selected J0=Ra、J1=Ra+Ω；原lift相位a保留，nonmean paired reflection为所有固定Sobolev窗的严格等距。完整KH仍Ra−2hΠ，两个存储mean槽及原独立matching行保留。目标P FixRa与NIF phase/transported-cut input Xfr准确区分，fullauxmean rank写齐；不授actual onto/physical square inverse。0新数、0旧重算。

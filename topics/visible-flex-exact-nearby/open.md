@@ -48,11 +48,9 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 [R97A/RNEA/NIFA完整原段及全部原球索引](notes/2026-11-16-completed-actual-input-and-root-inverse-index.md)：唯一43789221154/1、43792291190/1、43795909913/1成功锁，三proof b2d4bb56/257644a4/1b2c3b70保219/276/23槽、全部原记录/pins/门/两preGit与首失败及精确恢复。R97原real/root97 strict核0/FC空补列；RNE两natural负窗同逆；NIF Xfr=S*D+Hnat/SE8窄修93266089付Ni±及Cs两窗逆。NIFC0867f280固定Ni± opnorm连续，原逐频Riccati前提下Cs± strong/joint/compact-data uniform及固定有限列矩阵连续。M/C opnorm、C1/selected KAM族、双physicalmean/低与无限radialhead/rest/真实双port/range/finitecross/fullincoming/finite/ν/非线性仍待；0旧重算。
 
-[WPR实际双port与腰行](results/R133-supplement-physical-reflection-pair-and-exact-waist-matching-row.md)707b8269由物理h1奇/h2偶及有序TJ推出f−=(R−2Π)f+；KH=UHinv(R−2Π)UH保−2(UHinv1)Π。真实腰primitive为κeᵀTJ P diag(UH)(Icom,Ocom)，raw另∂、mean行单列；端点反射图不冒positive graph/onto。非零principal mean给±n差4nΔn→−2i〈c〉，故旧Ti/To及isolated Cayley不保同Xfr；completeA应用需其完整strong，完整实际square/incoming/finite仍待。
+[WPR/RRF/WPM完整原段及域账本](notes/2026-11-16-completed-reflected-waist-scope-index.md)保三独立proof 707b8269/803302f2/65cc1ede：真实paired $K_H=R_a-2h\Pi$、$a=2H(0)$不置零，nonmean等距；物理waist target为$P\operatorname{Fix}R_a$，与原$X^{\rm fr}$不同，$T_i/T_o$不自保。反射两density mean槽rank1，只odd腰平均冗余；evenmean径向方程/source/真$\nu$/外capmean/amp及各独立port保，局部mean/amp rank2不推PDE square，endpoint mean方向不授Poisson free kernel。真正transported finite projector/fullmean ranks及raw/primitive区别全保。
 
-[RRF真反射刚性与目标](results/R133-supplement-true-reflection-rigidity-and-selected-waist-target.md)803302f2：从真实root ODE与原exact irrational $\Omega$得$J_0=R_a,J_1=R_{a+\Omega}$，$a=2\mathcal H(0)$不擅置零；$K_H=R_a-2h\Pi$，nonmean严格等距但fullmean列保。真正物理waist目标坐标为$P\operatorname{Fix}R_a$；输入仍原$P_{97}^{\mathcal S}(\mathrm{Id}-Z^{\mathcal S}R_{a+\Omega})/2$像，不能换普通Fourier cutoff或同一反射空间。selected结论仅同$\delta_*$；不授range/onto/finite inverse。
-
-[WPM物理均值rank/全scalar行](results/R133-supplement-physical-reflection-mean-rank-and-complete-scalar-row-ledger.md)65cc1ede：同一反射state的两density mean槽仅rank1，唯一冗余为odd腰条件的平均；evenmean仍为N/A完整耦合径向函数，须保source/真$\nu$项、外capmean及amplitude。A原boundary域$(\Pi,\ell_{\rm amp})$ local rank2、$P_v$保mean，不授传播后square/Schur。selected endpoint mean沿$h_H$可被primitive行精确消掉，但该自由方向未必在regular Poisson图内。任何消元须保原独立ports、exact injection/rank及其余matching行，不能用两dependent槽配一条zero行凑square。
+[WIT正密度输入变换](results/R133-supplement-positive-density-intertwiner-for-the-true-reflected-input.md)13c5972c：$G=|D|^{-1}$正配对给$\mathcal W=(1-Z\mathcal J)/2$无smallness真逆；以旧完整DZA之$\Delta$得L2/H−4/3同逆的符号界$1+C_\Delta/2$。它把true input反射搬至Fix(−ZRb)，实际cut仍$\widehat P_{97}=\mathcal W\mathcal SP_{97}\mathcal S^{-1}\mathcal W^{-1}$、192/96补空间和fullmean rank全保；leading/error均同右W逆，不能只在error上改坐标。
 
 
 
@@ -67,7 +65,7 @@ FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域�
 
 BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠physicalmeans。SQ97S^-1/右Z97、rootFF≤1215/固定FT/density/mean/cross finite；radialhead及传播积分仍可无限。actualcolumns/dual/square/独立ports/无限费/finiteinverse未付，六register与旧SJ/CG/WE保。
 
-[WRA完整同列与物理腰行](results/R133-supplement-complete-reflected-incoming-error-and-physical-waist-row-defect.md)40fb2167已在唯一$\delta_*$、$p=0$、full-density、真正$X_{-4/3}^{\rm fr}\to L^2_{\rm full}$证明完整$E_i^{\rm fr}$，整界原字复用SWA；不等于fullcircle/独立source误差。因$T_i$不保$X^{\rm fr}$，该界不能直接代普通Fourier $\chi=K_0C_i\Lambda_J^{-4/3}$而称物理逆。下一门为真正paired leading $L_{\partial,W}^{\rm phys}=\mathcal BQ_RY_{W,J}$及完整相关row $E_{\partial,W}^{\rm phys}=\mathcal BQ_R(Y_A-Y_{W,J})$，在原even meanzero目标证明leading domain/range与整row界，再按正确square做Neumann/Schur；原fullcircle路线须另证square兼容。
+[WRA完整同列/新腰row](results/R133-supplement-complete-reflected-incoming-error-and-physical-waist-row-defect.md)40fb2167仅同$\delta_*/p0/fullU/X_{-4/3}^{\rm fr}\to L^2_{\rm full}$闭完整Ei，原SWA整界复用。禁止由此直接套Ti逆/ordinaryFourierχ；下一为实际paired leading及完整$\mathcal BQ_R(Y_A-Y_{W,J})$，保PC/ST4/3070jumps/fullsource/cut/waistFT，先证真实square与可用整row界，再作正确Neumann/Schur。原独立head/source/mean/amp/exterior/ν保，完整原段在上述scope索引。
 
 [WY](results/R133-supplement-four-ordered-waist-receivers-and-complete-strong-error-assembly.md)ebf87135/[WE](results/R133-supplement-current-input-audit-for-complete-waist-strong-errors.md)49616d85：
 $C_*=C_{PC}+C_{ST,4}+C_{SF}$，SJ已含cut不能再加。左序同Js逆→Jσ→真U_X−σ逆，右$\Lambda_\sigma^{-1}T_F^{-1}\mathcal S^{-1}$。state左角恰约消到H逆，费用$A_{\rm state}=B_{H,0}K_{W,0}K_\Lambda K_{F,-}K_{\mathcal S^{-1},-}$；CG完整coeff费用原字加一次。两ε同一完整bound不用√2，若合两σ须实际pair规则。
