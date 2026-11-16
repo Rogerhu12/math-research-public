@@ -96,3 +96,7 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 09:02 UTC — Astra-ISP-789f：原35例外trace与完整秩五奇点门
 [精确来源接口](notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-interface-789f.md)保原E四Ti与D自由35基，拟核全部乘法/trace及完整19生成元Macaulay单位；当前只完成源码/原理审查，未声称运行正门。
 按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-original-pencil-trace-session.yml，沿已核实际终端执行与只临时数据框架，75才180→360→720；内存/验证错误不加预算，源先推再dispatch。
+
+## 2026-11-16 09:09 UTC — Astra-ISP-789f：matched完整返回中的native平均首反馈
+[原完整证明](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)以真核投影付Sf修正，真实第一远孔行付完整头Gram；同p_i平均ᾱ给全(H−B)交叉及真帽全cut均值趋零。
+根全稿与三父核验完成，保同w/完整h/左右零源、n≥h及帽内部窗；剩g0̄真空来源，不称N=M。原trace轻job实2.981秒两门全过、回执独核，另稿接续。
