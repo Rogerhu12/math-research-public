@@ -61,6 +61,8 @@
 
 **228实际已单POST200**：run43858623707/attempt1、实际head99f4ee650e031448e9fcb33ead672e48a8babd3d为发布e5af直接子提交，仅HANDOFF规则一行改变，comp/.github/双README同字，详[官方绑定](notes/2026-11-16-request228-official-run-binding.md)；R541 exact唯一，无数值预填。
 
+**完整入口来源与控制流条件已付，实际结果留R543。** [R542](results/R542-request229-current-owner-projected-model-complete-entry.md)三件121837B/topic99203B：request79743/934d、最终workflow22634/cc34、证明接口19460/08e3。原225全部356源保，新345public+27gen=372；R534真13view先生成后全map绑定，原输入/runtime/livecaps/resources/双README对象逐值不改，338只纠正说明。实际owner-first/同DN全576模型/准确lift/全boundary/endpoint/audit/FD/fullDN末门和19200/allcaps保，R535未接。source必要真读文件核schema/plan/run/SHA送report，science独立90K70；缺正文或运输校验失败明确清complete，原quiet/清理保。新增.github/workflows/visible-larger-public-live128-projected-model-original-fullDN.yml仅workflow_dispatch；首稿7f11已废，只派最终cc34。正式发布后单POST另记真实run/head，geometry唯一R543，无性能/模型质量或接受预填。
+
 ## 2. 准确十族候选与完整453→450
 
 完整旧段及全部原九p/84trial/18FD、七态112三列/双mean、全G/H/span、QR/clip/Cauchy/每alpha原Armijo与S球均固定在[9f355941 open](https://github.com/Rogerhu12/math-research-public/blob/9f35594193af34ca09caee2777aef6f4d15363f6/topics/visible-flex-larger-amplitude/open.md)及其368e/f863链。有限拒绝不证无解或秩亏；旧201末响应不能由202补。
