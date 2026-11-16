@@ -107,3 +107,5 @@
 - [R593：同一全局时钟、真实owner局部窗口与既有跨H初猜](results/R593-one-clock-native-owner-resource-window-and-existing-continuation.md)：三件54101B，唯一6000→12000资源变化；同19200/1200replay/原全部后继cap与科学门保，454来源与真实分配必要字段；无新数值接受。
 
 - [R581：同次解析角带、完整指数尾与真实request243](results/R581-same-return-analytic-angle-projection-executable-composition.md)：六件379862B/topic287039B，原642保→653/14层；同一R553/R575返回及原退休、原Budget内全局summary、完整必要具名单关系；原门/90K70保持，实际R582另付。
+
+- [R594：request248原完整full112与明确owner12000资源入口](notes/2026-11-16-request248-native-owner12000-original-full112-interface.md)：新增题29401B及workflow25123B，R593实际454来源和完整全CLI、全局钟/全部原门/真实分配必要；未来R595另付。
