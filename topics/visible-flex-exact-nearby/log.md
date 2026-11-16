@@ -484,3 +484,7 @@ proof c06787e9/22285，唯一43831678361/1 event1567fffd/science5b491875，58cur
 ## 2026-11-16 08:43:38 UTC — 仅删除154047B旧duplicate-repack操作检查明细
 
 白名单33846e38已先推9d0caee71906eb54c89dcb2c00500c12d4bdf367；fresh Git-tree精确guard核path/f8724691/154047B后普通删，恢复d5f61af9a000131263eb396b64e64796138c633a同path，原完整SHA d676f7ae由保留的verified小结论给出。原375正常pack/222426对象与12旧临时包/36文件/释放8748668660B操作事实仍保小结论和全部旧H；数学输入/源/证据/失败记录均未删，0数学/0重算。c3a8081b6442c05583db00752bbd4b16725a5c4b双README版本同已读。
+
+## 2026-11-16 08:47:18 UTC — WHV精确零Volterra预处理与只读旧4650行的新头部门
+
+proof e993f068/22319 + inventory80f9f606/23789；root完整读，Phase formal §§2–4/7核V0左右变换、cokernel、端点、Poincare和完整矩阵顺序；新3wholemax在原body producer/小summary均未保存，9原literal与13历史parts完整绑定。只在自己Actions临时恢复原native25507783B/1f3e5fa6，完整4650rows/3594interfaces和原progress4608均保；不重旧coeff/flows/source/同态图。Newton写≤22KB新science/admission，root写worker，预声明N=cap4096，不分配finite矩阵；实际门未执行。WEJA/WECA长状态已在1162cb41原字保存后压缩H。最近非FF08:43:38立即真CLI pull无executor后保远端成功；16d843db59fac18cecbbc4c47b32692bf87e0f67两README版本同已读，CI真pull仍08:30:30期限09:30:30。
