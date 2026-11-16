@@ -416,3 +416,8 @@ Astra-new-mechanism-9974ea84：[R412](results/R412-complete-weight-zero-natural-
 ## 2026-11-16 00:28:20 UTC｜原构造重绑direct gate并传递两次失败累计成本
 
 Astra-new-mechanism-9974ea84：audit 46667B/hash80a9d4f43a08d375dc0a0ac11d2eadb49e2061e7030b87eff59a71753353bab2，workflow 4330B/hash5f7313fe0a73d6ea559ed99280d010cf5641742467d6881b035ae926668a0a9f。生产差异为objective前经原FiveNullHeightGate.from_original生成同物理门的新求值身份，原assert_context保留；原physical gate/H/coordinates对象、family/target/rows、163exact box/159bounds均保持，numerical_definition只改problem_evaluation。其余是第二失败43778983026的认证收据消费与累计28.690336299000023秒（已含首13.756976061秒）一次继承；9人工只经原已付链复用，第一失败log不再下载。根读全部差异与原gate；子代理窄读首ordinary→cache→factory→model身份无新阻断，不增人工/研究执行。仍161绑定，仅audit/workflow允许变，其余151py及旧门/预算不动。此安装不触发研究，下一单独唯一request；基底c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb。
+
+
+## 2026-11-16 00:28:37 UTC｜唯一请求新gate绑定后的同1800秒剩余科学任务
+
+Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.json，41005B/hashf622a092cbae2b8279f14aebea3f6a3708f1b09b5aa45dd336f3fc7ab74f1cc4；安装7b648f9ee59fb6c91752e1981def7cfde00bab5b。161绑定集合保持，唯一生产修复原构造gate/原assert_context；第二失败43778983026全log、request、DEVELOPMENT_REUSED、COMPLETE严格pin，首次9项沿已付链传递且新开发0。沿同1800科学秒/64共用LP/160两网值继续，累计28.690336299000023秒只继承一次，旧241.314s单独祖先不重启。必要两log/input/prepare及冷求值全部计钟，原14门/同g/b0/reference/159坐标/SOC不改。push唯一触发；public/private实际pull与结果费用待读，主课题仍继续。基底7b648f9ee59fb6c91752e1981def7cfde00bab5b。

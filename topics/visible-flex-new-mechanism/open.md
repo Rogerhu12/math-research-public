@@ -159,7 +159,7 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 
 ### direct gate原构造修复已安装，待同预算首次真实求值
 
-[第二次身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：43778983026几何/value/J/model/LP/接受全0，science累计28.690336299000023s。现用原FiveNullHeightGate.from_original重绑adapter并照常assert_context，物理门/163box/159bounds/14门逐项保持；仅audit及workflow文本变，其余151py不动。9项通过沿第二失败认证收据复用，新开发0；两必要log与prepare继续计同1800s/64LP/160值，不重加已含的首13.756976061s。源码已装，下一唯一请求，实际factory绑定/速度/下降仍欠。
+[第二次身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：43778983026几何/value/J/model/LP/接受全0，science累计28.690336299000023s。现用原FiveNullHeightGate.from_original重绑adapter并照常assert_context，物理门/163box/159bounds/14门逐项保持；仅audit及workflow文本变，其余151py不动。9项通过沿第二失败认证收据复用，新开发0；两必要log与prepare继续计同1800s/64LP/160值，不重加已含的首13.756976061s。源码已装且唯一同预算修复请求已发，待读实际factory绑定/速度/下降。
 
 
 ### R399新的第二period内部通道已实际付至四点
