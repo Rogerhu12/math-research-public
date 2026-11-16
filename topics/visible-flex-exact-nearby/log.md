@@ -392,3 +392,9 @@ fresh main 1abe47786bd30a2c5f58363ce283e783d797d2c0，两README blob不变。独
 ### 2026-11-16 01:44:22 UTC — 保留完整已付腰部与交换子索引后压缩活动页
 
 fresh main 52815b1409d1bbae424e7d7948bc27029ce4086a两README不变。将5d70e503同open中的UTA/SWA/NWA/NPKA四段完整已成索引保存到 notes/2026-11-16-completed-waist-and-commutator-norm-index.md，Git c74410a8d40a03cb4e89b48d72decc7fb38588c5，SHA256 21c01539cf41706b731838021d8f931dd42622eb8ca14983772be43e05ba6724，2083B；仅调整该页relative links。活动页压缩重复已成pins/数字，六retained、两physicalmeans、head/独立ports/无限sign、全Ei/Eo/incoming/finite/return、linear μ²和CE依赖全部继续显列。原scope/失败/原球/SCI/preGit/同trial限制保原文，不授权旧成功重算；R97首失败与精确接续边界不动。
+
+### 2026-11-16 01:45:30 UTC — 单425182B旧energy派生报告清理白名单先推
+
+fresh main 02f162b527b669282a33d08d54634e41b3ca3bc0两README同原blob。root独读白名单be8cbf940c04e634fa84d6023a4fbd29baf6d0e9 /10567B /b330b0a088e4f947a2c4e059600ed80531b2c97d0ba85f47d2a46b5ac86cfe14，另核5个完整小primary SHA并读原proof第7节/producer输出及4门/downstream完整success与4门/input/checker。唯一候选notes/2026-11-13-R46-unshifted-half-density-energy.json，blob2724486e24e540898eb65b7bd3978a32d40fa2b7 /425182B /ebe435c41b5337b3f92aeadfc132ae173e459c54d2cfd9befaeaadf5afad384e，恢复5d70e50322249c20a62291c0a15237f8036fed01同path。此推仅白名单，不删；之后fresh SHA/size匹配才普通删。全部small proof/source/downstream/失败、canonical/native/候选/端点/active inputs保，原fullreturn/finite/newνbody等未付scope保，0重算。未取425182B大正文，完整SHA由原proof与checked downstream独立锁；未杜撰原runID。
+
+此前索引推送遇非FF，立即真实CLI git pull --rebase origin main，仍无executor；随后保新远端重建并于第二次推成功995be608。没有force，也未把API读取冒作真pull。
