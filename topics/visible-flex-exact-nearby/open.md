@@ -48,6 +48,8 @@ FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Pois
 
 [RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264把Δ0=z c0、Δ1=d10+z c1精确分开，z=j^-2=16N^-2；BV/H/DV全乘积使hrrr仅在N^-10/3，无z曲率留h0。完整八行R0和正ΠM_E0秩保，仅纯输入对角ΠD_c0PH=0；IR0仍r0/4。Wiener完整finite pairing/物理4ℓ及1+zh另gap保。真βn保，Ai有理A*=35/57、D*=7/19，g−=17/19(1/3+4λ−/(21η+))仅real族；原全ν/δ输入、whole e严格门/同自然负窗、incoming/finite仍未付。
 
+[RI原已成根数据库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)01afb86c核10inputs/7sources：high-v2原普通K/beta/gamma/s0..9；aux整体child1保，仅1/10000与1/2000成功；全η/mean径0..3，4501B原mixed4×5与30595B原sharpJ可精确history临时恢复。完整∂J由原factor并含ordinaryL2，9/2非物理λ；λ/Vroot用smallcase，原β用largecase terminal，均不重算。新相关组合/完整rational/whole e及同realδ1e−8域待，native/shard大件不聊天取，完整incoming/finite保。
+
 BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠physicalmeans。SQ97S^-1/右Z97、rootFF≤1215/固定FT/density/mean/cross finite；radialhead及传播积分仍可无限。actualcolumns/dual/square/独立ports/无限费/finiteinverse未付，六register与旧SJ/CG/WE保。
 
 须先取得完整$E_i:H^{-4/3}\to L^2$的$C_i$，再真实$T_i^{-1}$左预条件、双窗$\chi=K_0C_i\Lambda_J^{-4/3}$、RHS $K_0/K_-$，最后按新序处理finite/physicalmean Schur，旧Green不自动适用。

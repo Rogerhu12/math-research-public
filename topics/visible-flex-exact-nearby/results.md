@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/RI：完整根稳定迹的原已成输入库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)：精确10件输入/7原source，已有高root K4、完整η3/mean和4×5混导、sharpJ、物理λ、完整Vroot及真非零β；aux整体失败与仅两成功域原样保。原∂J资格与root/terminal域逐项对应；新组合/whole e尚未运行，不重成功，无stable/incoming/finite声明。
+
 - [R133/RBO：真正根部误差的精确输入频率分阶](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)：z=16N^-2给完整E2及八行R0，hrrr仅N^-10/3而无z曲率不删；正meanrank保，仅纯对角子项ΠD_c0PH精确0。全J低中间频仍1/4；完整Wiener pairing、原非零βn和有理主对角下界保，无新数值/stablepass/incoming/finite声明。
 
 - [R133/R46容量白名单](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)：唯一551730B已成派生报告968ee851/f86e1cd3的原producer、完整成功下游及严格checker证据齐，恢复5423c8a7同path。仅先登记白名单，fresh SHA/size守门后另普通删除；不删canonical/失败/native，不重成功。
