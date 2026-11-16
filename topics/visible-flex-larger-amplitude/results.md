@@ -337,3 +337,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R521 — 全有限Frenet tube常数与cubic闭单元残差
 
 **完整条件证明与准确有理helper，尚无实际常数或数值。** [全文](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)21611/d8df73d7、[接口](notes/2026-11-16-finite-frenet-tube-and-cell-residual-interface.md)15614/79c4、helper18782/4217，共56007B。全3M+2状态/有限N准确合成和全部投影行，合法P与AW下界→四块K及状态二阶余项；真实保存cubic全Bernstein C′/C″和准确scalar导数给残差Lipschitz，实际样点/原形成与目标差/准确fill distance给η_C及η_C+E1+KyE0。复用R354/R314而不冒全BVP逆或226-native误差；相对dyadic正sqrt不丢正下端，无样点null。原RMS阈值/数值scalar不代全准确界，尾μ′/有限到连续角/全部闭片与径向锚仍未付；无新run、solver floor或新接受门。
+
+## R522 — 完整dyadic矩阵双输出与共享整数位平面
+
+**已证明（完整点积字等价与真实组件源码），未编译/科学运行。** [全文](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)14577/12db5415、[接口](notes/2026-11-16-native128-paired-digit-complete-component-interface.md)13964/1b28，连kernel8729/480b、generator10717/1554和plan16347/724e五件64334B。原R414每dot准确整数和后一次RN113，在scalar/AVX2共享左plane读/奇位移；各2048项部分和<2^51，两个独立ExactSum及normal/subnormal/符号零/overflow规则全保。全矩阵两列＋奇尾、原zero/wide fallback、相同一行packing与全部224列/226双mean/原系数/nominalfactor/C residual/RK不变；仅完成点积对R414词同，不冒R305旧图或完整严格导数。3临时view operator082d/stage49a7/component93ec真接原四组件，R515物理缓存保；旧pin/新source/准备receipt/真实compiler返回分责，当前R518外层尚未注册。原绝对clock不重开，pair至多两个原block后poll；无时序/性能/实际接受声称或额外试验门。
