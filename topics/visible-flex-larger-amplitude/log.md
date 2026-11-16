@@ -251,3 +251,8 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 12:04:36 UTC /root — R542完整229入口及一次公开派发
 
 **完整入口来源与控制流条件已付，实际结果留R543。** [R542](results/R542-request229-current-owner-projected-model-complete-entry.md)三件121837B/topic99203B：request79743/934d、最终workflow22634/cc34、证明接口19460/08e3。原225全部356源保，新345public+27gen=372；R534真13view先生成后全map绑定，原输入/runtime/livecaps/resources/双README对象逐值不改，338只纠正说明。实际owner-first/同DN全576模型/准确lift/全boundary/endpoint/audit/FD/fullDN末门和19200/allcaps保，R535未接。source必要真读文件核schema/plan/run/SHA送report，science独立90K70；缺正文或运输校验失败明确清complete，原quiet/清理保。新增.github/workflows/visible-larger-public-live128-projected-model-original-fullDN.yml仅workflow_dispatch；首稿7f11已废，只派最终cc34。正式发布后单POST另记真实run/head，geometry唯一R543，无性能/模型质量或接受预填。
+
+
+## 2026-11-16 12:08:12 UTC /root — R536完整六件入口及229官方同头绑定
+
+**完整真实原128入口及条件保持已付，实际结果留R537。** [R536](results/R536-original128-root-finite-words-complete-full112-entry.md)/[接口](notes/2026-11-16-request226-root-finite-words-full112-interface.md)六件225426B/topic206671B：gen30464/14a8、plan62193/772e、request71828/6685、workflow18755/0d23、proof18510/6d6f、接口23676/28f2。原342public＋R535两public＋新gen=345，三R522＋两R535＋十一caller=16，实际361源；R518/R527中间仅完整文本。真owner_scope先安装R535编译函数再原main，原persistent CPP/main/solve/replay及19200/6000/1200/8000/600/600/1800全门不改；旧frozen旗false、准备/安装/真正g++回执分列。完整RootStats/18cache计数/full last/实际compiler/三安装来源/五物理source manifest真回读，八具名关系完整逆含全部header计原90K70、不保证fit。五原源真目录修复不改数值packet；原R522/R515后置保字，R534模型不混。新workflow只dispatch，必要缺失/运输错误清complete、原quiet/清理保。只纠正338行序说明，全scientific对象其余逐值核；完整源码即发布后单次官方派发，不添测试/科学门或恢复已删父。同笔[229官方绑定](notes/2026-11-16-request229-official-run-binding.md)确认run43863347779、actual与发布同4a0f、compute133285545704前1–10success/11科学，geometry唯一R543。
