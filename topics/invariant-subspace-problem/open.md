@@ -130,3 +130,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **R150完整31谱与原九个精确p²h0来源（2026-11-16）：** [自足证明](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)的全210 p7实际1104.606秒/30stage，新商rank1、315合并rank16、I4(B)=9，唯一E恰6。全部tors指数1²/2⁵/3²/4⁴/5²/6、长度50；123717110原整除坐标及完整自由/参数作用核真，旧两探针零仍保。结合N的p饱和、C/T自由及已付原p6身份，九个31²h0*t均在原L中，原source费用≤8515；不消s−2、不把有限模直接当exact。最少分母e仍1或2，完整七socle继续。
 
 - **R150原W±兼容三次与Cat3真临界正支（2026-11-16）：** [完整原参数与数域证明](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)保全部H/V物理交空间及十个T3系数；rankA3、Cat3开集的原兼容性恰为不同三次R±=0。两Q三次数域点原33梯度/36H/216V与Cat3/ess3全部实核，故全Cat minor根式目标过强；两点及该支仍属已付Bell零范围。后续逐匹配B_r非零饱和、essT3≥4，不以三个Bell乘积替代至少一者非零。参数1.148秒/点0.409秒，完整source与执行SHA保留。
+
+- **R271原连续塔的真实中段指数障碍（2026-11-16）：** [完整复边际证明](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)对原b_i=(i+1)^−2及任意相容至x的复真空塔，给max{σ_k²||v_k||²,σ_x²||v_x||²}≥¼e^(x/12800)，k=floor(x/48)、x≥64。所有primitive与自由首列均保；两层都低于已付高段J*。条件化pair负相关经hole cylinder给真Chernoff，均匀删除与复TV给指数障碍；故公共塔固定多项式预算不可行。未给实际a能量下界，未反actual-u/W；后继保全部头源/零源的完整Schur。

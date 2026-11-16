@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a925d76c7fae50207ccdb31171d1267dd0e1998e（2026-11-16 04:36:24 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0436-isotropic-cat3-branches.json。
+- **最近成功实际 pull 与已读规则提交：** f2c683f33cca6ffc19478adc93d05f8fa1f6eb42（2026-11-16 04:43:29 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0444-exponential-middle-barrier.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
@@ -40,4 +40,5 @@
 - **[原连续全塔](results/R271-appendix-continuous-compatible-vacuum-tower-marginals-and-linear-deep-return-barrier.md)：** 真推bd82cb9f，复/有符号完整边际给高至7x/4必有σ_j²||v_j||²≥1+x/32768；首列真MP时全j≥3x/2有线性下界。完整同a的F−z正交平方≥c*xΣ高E，保Q≥R+h−1；不反实际a。
 - **[完整log方差选择](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)：** q̇(logs)=ΣjE_j，完整inverse无交换假设。一次选s适用所有Q≥R+J；固定倍数窗给ΣjE→0，窗[Sx,xSx]给≤Δ_Q²/logx，仍s→0；另有s/Sx→1的真实端点选择。不得删canonical系数M_j/y_j−2+y_j中的1/y_j，未据此付全修复。
 - **[真C幂与完整高段](results/R271-appendix-true-strong-head-powers-and-complete-deep-return-high-tail.md)：** ||C^j||≤7^j e^(−(770/256)(j−x)_+⁴)，保全强位/真实借位。x≥1024、J*=ceil(x+2√x(logx)^(1/4))，任意a/J<h/s≥Sx的整个canonical修复高段≤e^(−x²logx)||a||²，不依h≤2x；R=d原Q窗合法。先前线性高层必要门已付，剩1≤j<J*中段/完整源Schur。
+- **[中段指数障碍](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)：** 任意复公共相容真空塔至x（x≥64），max{M_floor(x/48),M_x}≥¼e^(x/12800)；全部primitive/自由首列仍成立，均在未付中段。已排任何固定多项式公共塔系数预算，不给actual a坏能量；续真实源依赖完整Schur/逐位硬核损失。
 - 母ordinary预算仍需同源合并负部≤c_m Q||F_mu||²且Σ1/c_m发散，尚无此界。
