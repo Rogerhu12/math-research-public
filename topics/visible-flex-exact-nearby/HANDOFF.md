@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 04:06:13 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 04:06:39 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 03:31:44定时CLI仍无executor，下一≤04:31:44。最新CI真pull为NIF 11-16 03:04:55.477901→bc20ed50d94fc4236f887d71696d353d3c945c3c，两次两README空diff；ref读取不冒真pull。
-最近只读README核：f03a35a79fc57520ed3c7edbd333104664ad24f3；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：5b4814f97d0a5c35015a67450d8d59d75e068743；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -48,5 +48,5 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 ## 恢复与执行顺序
 
 全部已执行cleanup的精确path/SHA/size/restore/source/scope/失败，逐字保[03:31检查点](notes/2026-11-16-0331-completed-state-and-cleanup-checkpoint.md)及其逐项原白名单；均先推白名单→fresh SHA/size guard→普通删除。已删2Newton/jet/七报告1589068B、九报告504341B、两interval773501B、smoothing721358B、OMA720495B、R46density551730B/energy425182B/scaled429437B/strict371382B。禁重复删或重算；当前source/native/候选/proof/activepins保，恢复只能按原表。
-待删仅R46 leaf0060 integer-energy v2 296883B：白名单notes/2026-11-16-R133-R46-leaf0060-integer-energy-cleanup-whitelist.md（9f671a70）；restore44f19c4f同path，原proof/producer/native全保；须后续fresh SHA/size guard。
+R46 leaf0060 integer-energy v2 296883B已依先推5762e2a6白名单及fresh SHA/size guard普通删；白名单notes/2026-11-16-R133-R46-leaf0060-integer-energy-cleanup-whitelist.md（9f671a70），restore44f19c4f同path。原proof/source/native/failed记录全保，禁重算。
 继续open余项→完整物理square/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。
