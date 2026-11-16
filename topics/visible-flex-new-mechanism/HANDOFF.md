@@ -8,7 +8,7 @@
 
 private于14:48:24.811392→14:48:44.222552实际pull读 **3679fb6c825fcd6811126a944a6e82b3aecdf19b**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
-free36两job实际pull已读：public7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c（14:18:33）/4ef462296a239c5abf90ea3239f210cfc23be002（14:20:10）；private2ec2f53e843d76f5b6227736b59a1b94195bac01/b589b1e9590411cc499b175994efe2a8b94294b3（14:20:14）。双README空diff、QUEUE唯一进行中；完整回执及原11记录见[闭账](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)，不发表私有正文。
+free36两job的public/private实际pull、README空diff和QUEUE唯一进行中完整回执见[闭账](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)；最晚report14:20:14。私有正文不发表。
 
 三公开来源14:01–14:03复核ec067fabbc723f7c1a45c05212d4a0353381f55c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本、元数据与已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。API读取不冒actual pull。
 
@@ -28,7 +28,7 @@ free36两job实际pull已读：public7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c（
 
 [**最新自由36完整闭账**](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md) run43884276617/research133358065602/report133359165070/source7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c。SLSQP0/true、nit11/11完整评价，K16.393442622950822，原盒及环未平方门真；唯一wholebody预测η6.979414564941248、κ69803.90363577171失败，0actual，仍58。新 **72.22285305100002秒/0值**，相关累计 **2974.589423877秒/147值**，余额关闭/0overrun。新两批142列Pi及完整L17/H125已存MODEL，预测大数组未存不冒可恢复；完整11记录/后端/精确候选身份与费用已读，下一固定末环二jets的102前缀body修复，旧ring不重开。
 
-**新prefix102已提交**：[设计](notes/true58-fixed-ring-prefix102-body-repair-design-20261116.md)/[合同](notes/true58-fixed-ring-prefix102-model-contract-20261116.md)，request73398B/**0538456b189cdad619b16d4ee43b12df8be4128cdf0e4e66ee88b307b63b08c9**、348源。固定未接受free36后缀，原102+slack；先新两网后缀门，失败0solver，合格才一次180秒/120iter/240新点值，Jac按需计；总600秒含全部输入/失败/输出，至多原1actualpair。root/独立接口纸审通过；尚无新运行返回，祖账/58不变。
+**新prefix102正在运行**：run43891282963/source30136a383796ea3a255c00e10e482c358b4e822b；[设计](notes/true58-fixed-ring-prefix102-body-repair-design-20261116.md)/[合同](notes/true58-fixed-ring-prefix102-model-contract-20261116.md)，request73398B/**0538456b189cdad619b16d4ee43b12df8be4128cdf0e4e66ee88b307b63b08c9**、348源。固定未接受free36后缀，原102+slack；先新两网后缀门，失败0solver，合格才一次180秒/120iter/240新点值，Jac按需计；总600秒含全部输入/失败/输出，至多原1actualpair。root/独立接口纸审通过；尚无新运行返回，祖账/58不变。
 
 ## 4. 当前理论支线与不可混用的前提
 
@@ -50,7 +50,7 @@ free36两job实际pull已读：public7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c（
 
 **R532**在同R530原双反馈族以一次三Gram精确配h″0/k‴b/h⁽⁴⁾0，并共同解四奇端；真实四偶半端映射det=v²L⁷/(11520H⁵)+O(L⁹)>0，总端×16。t₁<−L/16，零不在小L开像；各参数路径最终χ会变，不授同χ拼接/M0。
 
-**R534**同R521母从真A/T0、w0出发，一次大Gram的完整重缩放给实际sin弧与负p₁极小O(δ¹⁰)；原prefix累计仍正O(δ⁷)。原K/ρ″两行可逆、平滑cutoff后同χ真恒负；仅局部，切换后恢复全八矩，不授长负累计/M0。
+**R534/535**同R521真A/T0、w0、一次大Gram给实际sin前缀/负p₁极小δ¹⁰，累计正δ⁷。R534付同χ局部恒ρ；R535原K/d″行列式正、δ⁴平滑刹停保全ΔT=Oδ³，真固定d>0支为η=ch、k=ch²−d。完整A/T正规极限给统一正T*、有限高度增加和真实负累计Θδ¹⁰；总前缀仍正。系数无上界高度域不授全局流；此支t₁非负须实际高度至少δ⁻⁵ᐟ²。全八矩/末端仍待。
 
 R512/515/517的YC消去字面同形库另有常态排除、secant p1正性及周期K0→M0；不能移植给R520/521。原R469–509、所有尾/13/period条件和费用保索引/原文。
 
@@ -58,6 +58,6 @@ R512/515/517的YC消去字面同形库另有常态排除、secant p1正性及周
 
 **O2**prefix102新范围接真实free36未接受候选，固定后缀先必要门、合格才完整body修复。新值/Π/J另付；每次wholegrid值及最后原14/准确盒全保，不重旧ring。收到原返回即闭本账继续新几何问题，有限网不授连续主门。
 
-**O4**R531负入口和R533全m正则图已付，继续同一新33母、同χ有界延拓/足够负累计和八矩配平；另一R521库R534也已付真零history负入口与局部恒负，继续足量负累计/全m,T控制。R530双边全K和R532四偶真实开像已付，继续同一实际反馈的有限L四偶根；不得借任意几何配平。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
+**O4**R531负入口和R533全m正则图已付，继续同一新33母、同χ有界延拓/足够负累计和八矩配平；另一R521库R534/535已付真零history负入口及统一正时长的固定d负支，继续真实大高度或同χ变d控制、足量负累计/全m,T控制。R530双边全K和R532四偶真实开像已付，继续同一实际反馈的有限L四偶根；不得借任意几何配平。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
 
 每一子问题结束接open下一项；不因阶段、运行余额、时长或条件定理停主课题。最新费用/来源/规则随真实进展更新。

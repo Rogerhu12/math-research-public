@@ -185,3 +185,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 14:53 UTC：固定环prefix102新body范围提交
 
 [新设计](notes/true58-fixed-ring-prefix102-body-repair-design-20261116.md)及[合同](notes/true58-fixed-ring-prefix102-model-contract-20261116.md)与request73398B/SHA0538456b189cdad619b16d4ee43b12df8be4128cdf0e4e66ee88b307b63b08c9绑定348源。新完整两网输入、后缀必要门、102+slack的一次全body修复，600总秒/180solver秒/120iter/240新点值、J按需；同168原门合格才actual。root全文/作者静态自查/独立窄接口纸审完成，修正常MODEL费用、Jac输出重复与旧51元数据，无编译/测试/本地科学。private14:48:24→14:48:44真实pull读3679fb6c825fcd6811126a944a6e82b3aecdf19b，根未变、QUEUE唯一进行中。祖账及58不变；原结果回来立即闭账续主open。
+
+## 2026-11-16 14:58 UTC：R535同χ固定d真支与统一正时长负增量
+
+[R535](results/R535-fixed-geometric-d-and-uniform-negative-matrix-increment-with-one-gauge.md)用原K/d″行列式、δ⁴过渡的L¹加速度界及完整第三O(δ³)界，付同R521真入值后的固定d支；完整A/T的正规参数极限给统一正T*与有限高度增加。负累计δ¹⁰、总前缀正δ⁷，t₁必要高度δ⁻⁵ᐟ²只作后继目标，不冒可达/M0。root与mechanism独立全文纸核通过，0科学执行。prefix102已于14:57:34推送30136a383796ea3a255c00e10e482c358b4e822b，run43891282963进行中；两次NFF已真实pull/rebase并读双README空diff，最新ab9fda47b85a427061a3a01639d78507169fedf6。当前58/祖2974.589423877秒147值未变。

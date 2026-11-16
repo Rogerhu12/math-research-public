@@ -140,6 +140,10 @@ R459的原同宽混权核现由R518推进为真正Jtr实际成本截面，原sim
 
 [完整证明](results/R534-real-zero-history-entry-into-negative-matrix-density-and-fixed-gauge-continuation.md)固定原窗口/母库、w0、A/T0，以一次Gram ν₁=2Ck,c/δ²从k_s=δ²起。原C速度/加速度权与完整A/T重缩放给真有限ODE极限Ktt=−K；首个k0的真实η>0，原p₁极小−a²π²δ¹⁰/(8H²)+O(δ¹²)，但prefix累计πδ⁷/4+O(δ⁹)>0。负极小点原K与ρ″两行det>0，用保全部jets的二阶密度cutoff在同χ/真history下达到准确常负−Pδ。仅付局部时长；切换脱离双边奇偶，全部八矩/第三/pose/第四必须重新全保。继续同一实际轨道足够负累计及闭合，不能把局部负值冒M0或混入R531另母。
 
+### R535：同一固定规范的固定d支与统一负累计时间
+
+[R535](results/R535-fixed-geometric-d-and-uniform-negative-matrix-increment-with-one-gauge.md)从R534真负极小点以δ⁴长d_s cutoff接d=hη−k的实际正定值；原K/d″行列式严格正，完整第三增量O(δ³)含速度×加速度，不删入A/T。真实支η=ch、k=ch²−d的完整有限ODE有正规参数极限，故同χ给不随δ缩短的正时间及有限高度增量，原p₁负累计Θ(δ¹⁰)。总前缀仍正πδ⁷/4+O(δ⁹)，未M0；加速度系数在无上界高度域不退化不等于流全局存在。此支原t₁非负至少须实际高度~δ⁻⁵ᐟ²并支付速度项。继续同一完整(28)(30)或真实变d输入，取得足量负累计与其余七矩/末germ/pose/period；不改χ、不借另一母库。root和mechanism独立纸核通过，0科学执行。
+
 ### R533：完整速度不定式与全八矩历史的正则图
 
 [完整证明](results/R533-complete-velocity-quadratic-form-and-all-history-regular-ruling-coordinates.md)从R520同类型母起点保原20/共同cap/固定I，新增13真实高阶目标有原33维有限正根。十四principal仅一关系、删B₁后恢复其完整O(1)余值；正幅O(Λ)与先Λ后有限频率给未指定三导能量O(Λ)。完整速度H与m/固定χ无关，H₁₁=O1/H₁₂=−Λc+O1/H₂₂=OΛ使任意预选合法scalar紧盒严格不定，ξ_tar仅代数目标编码、不是负x支撑。
