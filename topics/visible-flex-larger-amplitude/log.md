@@ -109,3 +109,7 @@ R563完整18618B独立刊：236实际417来源/prepare完整，科学/rules/oute
 ## 2026-11-16 15:13 UTC /root — R571 actual239实际reader来源集合差与未起范围
 
 R571完整18985B独立刊：239新captured239 first_reader与composer旧bound230常量四名set不等，初始化真ValueError；8894B必要完整但deadline null/科学false/十一层未起。全部env级联、primary/same-C缺失及两cleanup未调用/raw false保，无父；R591/247直接修严格来源接口，不加门。
+
+## 2026-11-16 15:14 UTC /root — R586/request245真实schema与完整生成必要关系
+
+R586八件327430B独立刊：旧234的616来源全保→626/13层，原PYPINS真实sampler schema绑定；原完整generation必要具名身份/前缀/两行/唯一相等parent可逆共享，只严格较小时采用，声明与observed角色原字保。原R556/R557数学/25M/18900+2700/90K70/quiet清理不变，无fit或实际科学承诺；正式刊后唯一POST，R587 exact唯一。

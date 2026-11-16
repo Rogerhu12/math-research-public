@@ -1,0 +1,1121 @@
+{
+  "schema": "public-current-C-same-semantic-head-parallel245-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 245,
+  "upstream": {
+    "request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "schema": "public-current-C-parallel245-coast-base-source-closure-request-v1",
+      "request_number": 245,
+      "identity_from": "source-binding245/result.json:actual_derived_request",
+      "published_source_count": 308,
+      "generated_source_count": 318,
+      "complete_source_count": 626
+    },
+    "request_schema": "public-current-C-parallel245-coast-base-source-closure-request-v1",
+    "request_number": 245,
+    "workflow": {
+      "file": ".github/workflows/visible-current-C-coast-base-zero-linear-gzip-incremental-M-refinement220.yml",
+      "bytes": 94508,
+      "sha256": "c1cb332dc9bd9b9b2c0b94b94477152c55d4448323dbd32f6b727142ae39524f"
+    },
+    "workflow_is_frozen_source_ancestor_not_actual_run": true,
+    "owner": {
+      "file": "geometry_20261116_request245_owned_roles.py",
+      "bytes": 25834,
+      "sha256": "a2b3466bbb368774753b974c70def0709ba4dc8f38fd335cf0d5e41ef003781d",
+      "schema": "request245-zero-linear-gzip-owned-nested-role-v1"
+    },
+    "runner": {
+      "file": "geometry_20261116_request245_joint_refinement.py",
+      "bytes": 48822,
+      "sha256": "4b4abbebd315a55e91cc95b87851b00cef6b1b6a71cb3e02d427d9d2d694f8d5",
+      "schema": "request245-zero-linear-gzip-complete-refinement-evidence-displays-v1"
+    },
+    "reader": {
+      "file": "root_20261116_request245_refinement_necessary.py",
+      "bytes": 44531,
+      "sha256": "46a65462e8ba9f4ec348063fe7207855f3c26b0f1e58c2c65d80e9add326dcc2",
+      "schema": "request245-zero-linear-gzip-refinement-one-necessary-readback-v1"
+    },
+    "composer": {
+      "file": "root_20261116_request245_sampling_refinement_composition.py",
+      "bytes": 72830,
+      "sha256": "386f7d7c9ddb2d0323be8bd361290a719ff64d88362946d0bb98968d7c28a6c8"
+    },
+    "namespace": "visible-current-C-actual202-ten450-closed-geometry205",
+    "deadline_schema": "request205-owned-job-science-deadline-v1",
+    "refinement_directory": "refinement220",
+    "actual_origin": {
+      "kind": "actual202220",
+      "driver": {
+        "file": "geometry_20261116_current_C_parallel234_first_driver.py",
+        "bytes": 34388,
+        "sha256": "e1a2c01438ad2f509d7dbc1c9055cbdc6e7065cc731025d003d2c8b571d183d1",
+        "schema": "R503-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-physical-DN-v1",
+        "recipe_schema": "R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1"
+      },
+      "launcher": {
+        "file": "geometry_20261116_current_C_parallel234_first_launcher.py",
+        "bytes": 20496,
+        "sha256": "8fa38cfd2ccb69ed5da5356f0d0c5ddd15c26a7db23284f8eab0e46201910b01",
+        "schema": "R503-actual202-coast-base-ten-full453-frozen450-owned-process-launch-v1",
+        "recipe_schema": "R503-explicit-actual202-coast-base-accurate-ten-joint-full453-to-frozen450-recipe-v1"
+      }
+    },
+    "original_binding_block": {
+      "heredoc": "PYPINS",
+      "bytes": 19255,
+      "sha256": "cc39da8308e718f4b755670730d855c204c0785a9ebb21b025b62868cf1b0281",
+      "source_workflow": {
+        "file": ".github/workflows/visible-current-C-coast-base-source-classification-repair222.yml",
+        "bytes": 99393,
+        "sha256": "312005867b9a144c04e2cc47afb7620de2d43b1ecb3f9f9ad2a509f8746458d3"
+      },
+      "source_scope": "Complete frozen222 PYPINS block; actual245 inner digest/count, real current composer, actual current workflow and current sampler schema are explicit source-metadata bindings. All original scientific parameters/assertions and numerical acceptance gates remain.",
+      "original_frozen220_block": {
+        "bytes": 19255,
+        "sha256": "fa217ddf76aee2a2c71dfb8dd9efbb30248fb84a473ae0dc37e37cbf4d27e111"
+      },
+      "original_checked_workflow": ".github/workflows/visible-current-C-coast-base-zero-linear-gzip-incremental-M-refinement220.yml"
+    },
+    "frozen220_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "bytes": 99218,
+      "sha256": "f6ca63871733d3f5e48ef3eb8d540fc137806ceb1ae74cef01af6b21e25f3aba"
+    },
+    "repair": {
+      "entry": {
+        "file": "root_20261116_request245_actual_source_entry.py",
+        "bytes": 35671,
+        "sha256": "f3e345a57dc6bd0983ebcb271dfb13d7e0eb16896a658f6e9095335b2c98bf6f"
+      },
+      "schema": "request245-current-C-source-binding-entry-v1",
+      "receipt": "source-binding245/result.json",
+      "frozen_request_copy": "source-binding245/frozen220-request.json",
+      "repaired222_copy": "source-binding245/repaired222-source-contract.json",
+      "working_view": "request245-runtime-metadata-workspace",
+      "environment_script": "request245-runtime-env.sh",
+      "necessary_marker": "request245-source-binding-readback-complete.json",
+      "necessary_marker_schema": "request245-current-C-source-binding-entry-v1-readback-complete-v1",
+      "current_source_metadata_generation_not_an_old_run_or_precomputed_scientific_result": true
+    },
+    "all_original_473_source_ancestors_retained_with_actual_new_binding_sources": true,
+    "old_run_or_raw_or_accepted_parent_not_reused": true,
+    "all_original_535_source_ancestors_retained_with_actual_generation_sources": true,
+    "all_original_545_source_ancestors_retained_with_actual_parallel_sources": true,
+    "all_original_616_source_ancestors_retained_with_actual_metadata_repair": true
+  },
+  "roles": {
+    "runner": {
+      "file": "geometry_20261116_request245_same_C_refinement.py",
+      "bytes": 45661,
+      "sha256": "a5cfdd561c56d83372501b08205a5e71b77fd2cc5b9da22485a50173eb51f61e",
+      "schema": "request245-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "reader": {
+      "file": "root_20261116_request245_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "8c9d42cb4b7a05f9d0bc1e26018bbcf26c4d84ee06f149568bdf4482aa80fd65",
+      "schema": "request245-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "composer": {
+      "file": "root_20261116_request245_same_C_composition.py",
+      "bytes": 29875,
+      "sha256": "172daea876e962f52f605ce4a43db830ecf352b05f35107f9d7a93c3ddc72a1e",
+      "schema": "request245-actual-source-and-same-C-registration-composition-v1"
+    },
+    "head": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_head.py",
+      "bytes": 42250,
+      "sha256": "914c4795c9da63b276d8b51c935698fba56e00e36a4fc84052a3385312addbd1",
+      "schema": "request230-actual220-same-C-complete-head-and-cut-refinement-v1",
+      "frame": "REQUEST230_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+    },
+    "leaf": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_leaf.py",
+      "bytes": 35537,
+      "sha256": "178d25d1ba08836c2579a30c5cbd3efa34bcdb3dc86b4e5cf4c42a592828ff19",
+      "schema": "request230-same-C-refined-leaf-target-cut-v1"
+    },
+    "bridge": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_bridge.py",
+      "bytes": 12283,
+      "sha256": "3a883c84d6707583dc59dc1975aaea17aa5e416c0eac3ddff916ae3bb3e18df1",
+      "schema": "request230-same-C-refined-leaf-actual220-metric-family-v1"
+    },
+    "tail": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_tail.py",
+      "bytes": 29692,
+      "sha256": "83b6ef856edcf599f5df9c79ef20a479c91c9edcf8790e5276ba34262025c036",
+      "schema": "request230-same-semantic-C-recomputed-head-tail-queries-v1"
+    },
+    "metric0": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_metric0.py",
+      "bytes": 57280,
+      "sha256": "ab0f43adbe6d0a16619e41477093095bc630c5181ba0a8ac115ae30eaa636f31",
+      "schema": "request230-same-C-original112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_ORIGINAL112_METRIC"
+    },
+    "metric1": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_metric1.py",
+      "bytes": 57307,
+      "sha256": "ce80e8651a71144c19187bcb9c2b3e8c47db2ffd1d49e6854064d6bddd06e844",
+      "schema": "request230-same-C-resolution112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_RESOLUTION112_METRIC"
+    },
+    "metric2": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_metric2.py",
+      "bytes": 57288,
+      "sha256": "826dd3fa9d9dab5fe56ab90f940f5e562354d89ab8090a90ace7607dc830a24d",
+      "schema": "request230-same-C-incremental_M-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+    },
+    "evidence": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_evidence.py",
+      "bytes": 65231,
+      "sha256": "fac00bcfe0836a94fa9752baaa9b6558f984be4a73b761a54c1ad91199cd7ed0",
+      "schema": "request230-fixed-target-recomputed-C-metric-evidence-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_FIXED_TARGET_EVIDENCE"
+    }
+  },
+  "runtime_sources": {
+    "geometry_20261116_same_C_full_head_refinement.py": {
+      "file": "geometry_20261116_same_C_full_head_refinement.py",
+      "bytes": 42246,
+      "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+    },
+    "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+      "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+      "bytes": 35549,
+      "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+    },
+    "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+      "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+      "bytes": 12303,
+      "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+    },
+    "geometry_20261116_same_C_refined_head_tail_queries.py": {
+      "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+      "bytes": 29687,
+      "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+    },
+    "root_20261116_request245_same_C_composition.py": {
+      "file": "root_20261116_request245_same_C_composition.py",
+      "bytes": 29875,
+      "sha256": "172daea876e962f52f605ce4a43db830ecf352b05f35107f9d7a93c3ddc72a1e",
+      "schema": "request245-actual-source-and-same-C-registration-composition-v1"
+    },
+    "geometry_20261116_request245_same_C_refinement.py": {
+      "file": "geometry_20261116_request245_same_C_refinement.py",
+      "bytes": 45661,
+      "sha256": "a5cfdd561c56d83372501b08205a5e71b77fd2cc5b9da22485a50173eb51f61e",
+      "schema": "request245-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "root_20261116_request245_same_C_necessary.py": {
+      "file": "root_20261116_request245_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "8c9d42cb4b7a05f9d0bc1e26018bbcf26c4d84ee06f149568bdf4482aa80fd65",
+      "schema": "request245-complete-same-C-consumer-necessary-readback-v1"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_head.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_head.py",
+      "bytes": 42250,
+      "sha256": "914c4795c9da63b276d8b51c935698fba56e00e36a4fc84052a3385312addbd1",
+      "schema": "request230-actual220-same-C-complete-head-and-cut-refinement-v1",
+      "frame": "REQUEST230_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_leaf.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_leaf.py",
+      "bytes": 35537,
+      "sha256": "178d25d1ba08836c2579a30c5cbd3efa34bcdb3dc86b4e5cf4c42a592828ff19",
+      "schema": "request230-same-C-refined-leaf-target-cut-v1"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_bridge.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_bridge.py",
+      "bytes": 12283,
+      "sha256": "3a883c84d6707583dc59dc1975aaea17aa5e416c0eac3ddff916ae3bb3e18df1",
+      "schema": "request230-same-C-refined-leaf-actual220-metric-family-v1"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_tail.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_tail.py",
+      "bytes": 29692,
+      "sha256": "83b6ef856edcf599f5df9c79ef20a479c91c9edcf8790e5276ba34262025c036",
+      "schema": "request230-same-semantic-C-recomputed-head-tail-queries-v1"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_metric0.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_metric0.py",
+      "bytes": 57280,
+      "sha256": "ab0f43adbe6d0a16619e41477093095bc630c5181ba0a8ac115ae30eaa636f31",
+      "schema": "request230-same-C-original112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_ORIGINAL112_METRIC"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_metric1.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_metric1.py",
+      "bytes": 57307,
+      "sha256": "ce80e8651a71144c19187bcb9c2b3e8c47db2ffd1d49e6854064d6bddd06e844",
+      "schema": "request230-same-C-resolution112-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_RESOLUTION112_METRIC"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_metric2.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_metric2.py",
+      "bytes": 57288,
+      "sha256": "826dd3fa9d9dab5fe56ab90f940f5e562354d89ab8090a90ace7607dc830a24d",
+      "schema": "request230-same-C-incremental_M-live-complete-metric-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+    },
+    "geometry_20261116_current_C_parallel234_same_C_evidence.py": {
+      "file": "geometry_20261116_current_C_parallel234_same_C_evidence.py",
+      "bytes": 65231,
+      "sha256": "fac00bcfe0836a94fa9752baaa9b6558f984be4a73b761a54c1ad91199cd7ed0",
+      "schema": "request230-fixed-target-recomputed-C-metric-evidence-v1",
+      "frame": "REQUEST230_RECOMPUTED_C_FIXED_TARGET_EVIDENCE"
+    }
+  },
+  "source_generation": {
+    "plan": {
+      "file": "topics/visible-flex-larger-amplitude/notes/r557-current-C-two-worker-complete-consumer-source-plan.json",
+      "bytes": 81824,
+      "sha256": "1c0bf991e80212dd902dc68e83bfe73be460c36e029f6e66fad22d76bae83a77"
+    },
+    "receipt": "same-C245-source-views/result.json",
+    "receipt_schema": "request245-actual-same-C-source-registration-v1",
+    "materialization": {
+      "receipt": "source-views-parallel234-consumers/result.json",
+      "generator": {
+        "file": "root_20261116_current_C_zero_linear_source_views.py",
+        "bytes": 11895,
+        "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+      },
+      "schema": "R496-current-C-zero-linear-three-level-source-generation-v1"
+    },
+    "generated_sources": {
+      "geometry_20261116_current_C_parallel234_same_C_head.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_head.py",
+        "bytes": 42250,
+        "sha256": "914c4795c9da63b276d8b51c935698fba56e00e36a4fc84052a3385312addbd1",
+        "schema": "request230-actual220-same-C-complete-head-and-cut-refinement-v1",
+        "frame": "REQUEST230_SAME_C_FULL_HEAD_REFINEMENT_NECESSARY"
+      },
+      "geometry_20261116_current_C_parallel234_same_C_leaf.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_leaf.py",
+        "bytes": 35537,
+        "sha256": "178d25d1ba08836c2579a30c5cbd3efa34bcdb3dc86b4e5cf4c42a592828ff19",
+        "schema": "request230-same-C-refined-leaf-target-cut-v1"
+      },
+      "geometry_20261116_current_C_parallel234_same_C_bridge.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_bridge.py",
+        "bytes": 12283,
+        "sha256": "3a883c84d6707583dc59dc1975aaea17aa5e416c0eac3ddff916ae3bb3e18df1",
+        "schema": "request230-same-C-refined-leaf-actual220-metric-family-v1"
+      },
+      "geometry_20261116_current_C_parallel234_same_C_tail.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_tail.py",
+        "bytes": 29692,
+        "sha256": "83b6ef856edcf599f5df9c79ef20a479c91c9edcf8790e5276ba34262025c036",
+        "schema": "request230-same-semantic-C-recomputed-head-tail-queries-v1"
+      },
+      "geometry_20261116_current_C_parallel234_same_C_metric0.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_metric0.py",
+        "bytes": 57280,
+        "sha256": "ab0f43adbe6d0a16619e41477093095bc630c5181ba0a8ac115ae30eaa636f31",
+        "schema": "request230-same-C-original112-live-complete-metric-v1",
+        "frame": "REQUEST230_RECOMPUTED_C_ORIGINAL112_METRIC"
+      },
+      "geometry_20261116_current_C_parallel234_same_C_metric1.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_metric1.py",
+        "bytes": 57307,
+        "sha256": "ce80e8651a71144c19187bcb9c2b3e8c47db2ffd1d49e6854064d6bddd06e844",
+        "schema": "request230-same-C-resolution112-live-complete-metric-v1",
+        "frame": "REQUEST230_RECOMPUTED_C_RESOLUTION112_METRIC"
+      },
+      "geometry_20261116_current_C_parallel234_same_C_metric2.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_metric2.py",
+        "bytes": 57288,
+        "sha256": "826dd3fa9d9dab5fe56ab90f940f5e562354d89ab8090a90ace7607dc830a24d",
+        "schema": "request230-same-C-incremental_M-live-complete-metric-v1",
+        "frame": "REQUEST230_RECOMPUTED_C_INCREMENTAL_M_METRIC"
+      },
+      "geometry_20261116_current_C_parallel234_same_C_evidence.py": {
+        "file": "geometry_20261116_current_C_parallel234_same_C_evidence.py",
+        "bytes": 65231,
+        "sha256": "fac00bcfe0836a94fa9752baaa9b6558f984be4a73b761a54c1ad91199cd7ed0",
+        "schema": "request230-fixed-target-recomputed-C-metric-evidence-v1",
+        "frame": "REQUEST230_RECOMPUTED_C_FIXED_TARGET_EVIDENCE"
+      }
+    },
+    "source_registration_does_not_repeat_source_generation": true,
+    "original_historical8_and_current49_actual_receipts_separate": true,
+    "source_syntax_only_in_actual_Actions": true,
+    "current57_outputs_include_all8_actual_same_C_roles": true
+  },
+  "same_C_work": {
+    "head_work": {
+      "precision_bits": 384,
+      "integral_absolute_bits": 128,
+      "integral_relative_bits": 112,
+      "analytic_guard_bits": 8,
+      "integral_evaluation_limit": 100000,
+      "value_width_bits": 32,
+      "max_depth": 48,
+      "query_depth": 16,
+      "max_panels": 400000,
+      "max_query_nodes": 400000,
+      "budget_seconds": 1650
+    },
+    "head_resources": {
+      "complete_phase_budget_seconds": 1800,
+      "cut_readout_budget_seconds": 120,
+      "child_shutdown_reserve_seconds": 30,
+      "free_bytes_reserve": 2147483648
+    },
+    "child_shutdown_reserve_seconds": 30,
+    "free_bytes_resource_stop": 2147483648,
+    "terminal_measurement_and_close_reserve_seconds": 900,
+    "metric_budget_seconds": 240,
+    "comparison_budget_seconds": 120,
+    "metadata_reader_cap_seconds": 300,
+    "measurement": {
+      "budget_seconds": 300,
+      "free_bytes_reserve": 2147483648,
+      "interval_bits": 256,
+      "sqrt_bits": 128,
+      "initial_angular_depth": 2,
+      "max_depth": 20,
+      "max_cells": 100000,
+      "measurement_width_goal": "1/100000000",
+      "metric_reference_eta": "1/1000000",
+      "max_inverse_steps": 80,
+      "max_phase_query_cells": 100000
+    },
+    "c_queries": {
+      "precision_bits": 256,
+      "integral_absolute_bits": 128,
+      "integral_relative_bits": 128,
+      "analytic_guard_bits": 8,
+      "integral_evaluation_limit": 200000,
+      "value_width_bits": 80,
+      "integral_max_depth": 40,
+      "inverse_max_depth": 40,
+      "max_panels": 100000,
+      "max_nodes": 200000,
+      "budget_seconds": 900
+    },
+    "time_subdivisions": [
+      4,
+      8,
+      16
+    ],
+    "common_time_witnesses": [
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": true
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": true
+      }
+    ],
+    "all_caps_clipped_to_actual_original_deadline": true,
+    "stages_run_once_per_real_input_no_automatic_retry": true,
+    "budget_total_is_a_plan_not_a_completion_or_timing_guarantee": true
+  },
+  "execution": {
+    "job_timeout_minutes": 360,
+    "original_science_seconds": 18900,
+    "original_readback_seconds": 2700,
+    "original_clock_reset": false,
+    "first_slot": "After the genuine first shared field and original readback; before the complete current refinement",
+    "successor_slot": "After complete actual mesh/M/geometry/evidence/display returns",
+    "new_rules_parent_uses_original_2700_second_sync_runner": true,
+    "original_metric_and_reach_pass_not_required_to_start_same_C_consumers": true,
+    "missing_first_material_B_only_leaves_common_material_measurement_unpaid": true,
+    "repair_original_clock_precedes_source_copy": true,
+    "metadata_working_view": "Explicit245 temporary source/metadata copy; original checked-out205/220/222/230/235/234 contracts remain frozen. The one original namespace clock starts before every copy or materialization."
+  },
+  "scientific_scope": {
+    "original_full1440_ordered_head_six_primitives_and_complete_original_query_plan_recomputed": true,
+    "original_config_calibration_stored_reference_queries_proof_and_restored_source_origin_bound": true,
+    "same_accurate_C_original_all_root_family_cut_and_ten_words_unchanged": true,
+    "current_C_queries_can_remain_partial_with_complete_old_coarse_bounds_retained": true,
+    "cut_leaf_intersection_is_not_a_new_midpoint_or_field": true,
+    "entire_accepted_CP_definition_nodes_R249_background_material_and_construction_preserved": true,
+    "newly_registered_actual_field_families": [
+      "original112",
+      "resolution112",
+      "incrementalM"
+    ],
+    "complete_tail_E_values_query_the_genuine_new_head_and_preserve_original_valid_bounds": true,
+    "whole_tail_Er_Err_not_newly_claimed": true,
+    "same_field_actual_error_sup_does_not_change_when_only_enclosures_are_refined": true,
+    "operator_error_actual_lower_and_upper_separately_returned": true,
+    "full_time_transfer_uses_original_common_material_congruence_and_all_angle_coverage": true,
+    "real_nested_t_queries_not_substituted_for_all_time_theorem": true,
+    "interval_overlap_or_failed_metric_is_not_an_original_BVP_or_refinement_rejection": true,
+    "actual_450_or_error_decrease_machine_precision_or_solver_floor_not_preset": true,
+    "complete_original112_far_modes_have_two_actual_workers": true,
+    "actual_worker_count": 2,
+    "original_mode_input_and_root_family_unchanged": true,
+    "original_mode_order_global_ledger_commits": true,
+    "original_all112_momentum_consumer_and_all_native_FD_full453_frozen450_gates_unchanged": true,
+    "original_single25000000_work_counter_and_absolute_phase_deadline": true,
+    "separate_actual_started_scientific_entry_and_globally_committed_scopes": true,
+    "started_or_successful_subset_is_not_complete_far_family": true,
+    "no_original_science_values_or_initial_point_changed": true,
+    "new_floating_trajectories_or_timing_not_prefilled": true
+  },
+  "retention": {
+    "full_scientific_temporary_raw_remains_until_original_and_new_complete_readbacks": true,
+    "each_semantically_distinct_head_metric_measurement_compare_body_limit": 90000,
+    "no_encoded_or_split_large_payload_transport": true,
+    "new_composition_frame": "REQUEST245_SAME_C_SOURCE_COMPOSITION_NECESSARY",
+    "new_combined_frame": "REQUEST245_SAME_C_COMPLETE_NECESSARY",
+    "necessary_marker_schema": "request245-complete-same-C-consumer-readback-marker-v1",
+    "necessary_marker": "same-C245-readback/readback-complete.json",
+    "original_all_readback_outcomes_and_cleanup_predicates_preserved": true,
+    "new_rule_directories_are_explicit_distinct_semantic_scopes_not_old_raw_partitions": true,
+    "original_full_reports_not_duplicated_into_job_outputs": true,
+    "report_receives_new_identity_and_step_outcomes_only": true,
+    "source_generation_failure_or_unknown_process_scope_retains_actual_raw": true,
+    "original222_repair_necessary_marker_and_cleanup_predicates_preserved": false,
+    "cleanup_order": "Public245 complete immutable13-layer source-generation readback; current same-C composition/necessary/actual quiet; actual-source-entry readback; original nine current refinement outcomes and full owned quiet. R556 private mode retirement alone never authorizes namespace cleanup.",
+    "complete_repair_source_scope_frame": "REQUEST245_ACTUAL_SOURCE_BINDING_NECESSARY",
+    "source_composition_frame": "REQUEST245_SOURCE_COMPOSITION_NECESSARY",
+    "whole_composition_relation_only_if_strictly_smaller": true,
+    "composition_original_file_and_selected_body_identities_separate": true,
+    "generation_scope": {
+      "frame": "REQUEST245_COMPLETE_SOURCE_GENERATION_NECESSARY",
+      "single_body_limit_bytes": 90000,
+      "source": "root_20261116_request245_sampling_refinement_composition.py",
+      "command": "generation-readback",
+      "summary": "source-generation245-readback/summary.json",
+      "marker": "source-generation245-readback/readback-complete.json",
+      "marker_schema": "request245-current-C-actual-source-composition-v1-generation-readback-complete-v1",
+      "original_errors_and_stderr_returned_without_truncation": true,
+      "complete_transport_is_not_generation_success_or_process_quiet": true,
+      "overflow_returns70_without_body_splitting_or_cleanup_marker": true,
+      "all_thirteen_generations_and_318_declared_source_addresses_retained": true,
+      "source_metadata_representation": {
+        "file": "root_20261116_complete_generation_source_relations.py",
+        "bytes": 13605,
+        "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+      },
+      "fixed_named_source_receipts_and_two_row_schemas_only": true,
+      "original_selected_object_is_exactly_recoverable_without_external_raw": true,
+      "candidate_used_only_when_complete_body_is_strictly_smaller": true,
+      "fit_not_promised_before_actual_body_exists": true
+    },
+    "source_generation_failure_or_missing_generated_cleanup_reports_skip_without_claiming_removal": true,
+    "complete_parallel_ownership_and_uncommitted_original_domain_selected": true,
+    "private_mode_payload_retirement_requires_original_order_global_commit": true,
+    "complete_global_original_stored_and_decoded_ledger_binding_retained": true,
+    "parallel_numeric_state_witnesses_use_existing_original_selectors_not_complete_vector_export": true,
+    "parallel_worker_ownership_unknown_forbids_safe_cleanup_claim": true,
+    "original_source_preparation_scope_preserved_with_actual245_entry_and_marker": true
+  },
+  "workflow": ".github/workflows/visible-current-C-two-worker-preflight-complete-refinement245.yml",
+  "status": "Independent245 repairs the actual234 sampler-schema preflight and complete source-generation metadata transport. All original616 source ancestors and all original two-worker scientific files remain. Only the new current job may establish scientific execution, whole-family completion and actual transport length.",
+  "source_counts": {
+    "original205": 154,
+    "original234_public": 304,
+    "original234_generated": 312,
+    "original234_complete": 616,
+    "added_current_public": 4,
+    "added_current_metadata": 6,
+    "complete_public": 308,
+    "complete_generated": 318,
+    "complete_declared_union": 626,
+    "actual_source_generation_layers": 13,
+    "all616_original_source_pins_retained_without_replacement": true,
+    "scientific_source_files_changed": 0
+  },
+  "entry": {
+    "file": "root_20261116_request245_actual_source_entry.py",
+    "bytes": 35671,
+    "sha256": "f3e345a57dc6bd0983ebcb271dfb13d7e0eb16896a658f6e9095335b2c98bf6f"
+  },
+  "frozen217_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-same-semantic-head-refinement217-request.json",
+    "bytes": 26106,
+    "sha256": "dbb6c4c6b4e8fecb955c40fa90c271733dccddef70c3bda9104829bd86a6a75c"
+  },
+  "frozen217_workflow": {
+    "file": ".github/workflows/visible-current-C-same-semantic-head-refinement217.yml",
+    "bytes": 86586,
+    "sha256": "e361dfc2b7b932a6ec9ddbf923612c95af329ad23c2181252a9f3f8fdaf6c2a7"
+  },
+  "frozen217_source_commit": "4a08bebb63482c34c3bb7460582772a966e25c51",
+  "source_binding": {
+    "original222_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-source-classification-repair222-request.json",
+      "bytes": 9442,
+      "sha256": "37f0b3b767eb233d2e714a143b4055e47dfc4629f2963e046b0511e05ba63672"
+    },
+    "repaired222_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "bytes": 99330,
+      "sha256": "2d1c3a7d56093f0009367bce0e201af14692b51541b759aa3d60b7737dfdaad2"
+    },
+    "composer": {
+      "file": "root_20261116_request245_sampling_refinement_composition.py",
+      "bytes": 72830,
+      "sha256": "386f7d7c9ddb2d0323be8bd361290a719ff64d88362946d0bb98968d7c28a6c8"
+    },
+    "core_plan": {
+      "file": "r544-current-C-actual-binding-source-plan.json",
+      "bytes": 76039,
+      "sha256": "10002d1bacbf88792750884537ae16b0c1993049be8bb2306502339032a98a2b",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r544-current-C-actual-binding-source-plan.json"
+    },
+    "historical217_plan": {
+      "file": "request217-complete-same-C-source-plan.json",
+      "bytes": 80964,
+      "sha256": "68c284041ccb330e4d61f66161a0799643b9fd83c90016ddcdde3d9649a4b4de",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request217-complete-same-C-source-plan.json"
+    },
+    "metadata_plan": {
+      "file": "request235-complete-generation-metadata-source-plan.json",
+      "bytes": 90706,
+      "sha256": "a13eca1ca47d21ba5f5afc42fecd4a6e9d0d9794f21bf961cd570edc7db93913",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request235-complete-generation-metadata-source-plan.json"
+    },
+    "current_inner_contract": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-coast-base-zero-linear-gzip-incremental-M-refinement220-request.json",
+      "schema": "public-current-C-parallel245-coast-base-source-closure-request-v1",
+      "request_number": 245,
+      "identity_from": "source-binding245/result.json:actual_derived_request",
+      "published_source_count": 308,
+      "generated_source_count": 318,
+      "complete_source_count": 626
+    },
+    "additional_public_sources": {
+      "geometry_20261116_same_C_full_head_refinement.py": {
+        "file": "geometry_20261116_same_C_full_head_refinement.py",
+        "bytes": 42246,
+        "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+      },
+      "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+        "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+        "bytes": 35549,
+        "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+      },
+      "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+        "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+        "bytes": 12303,
+        "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+      },
+      "geometry_20261116_same_C_refined_head_tail_queries.py": {
+        "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+        "bytes": 29687,
+        "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+      },
+      "geometry_20261116_request217_same_C_refinement.py": {
+        "file": "geometry_20261116_request217_same_C_refinement.py",
+        "bytes": 45394,
+        "sha256": "3c56bbdd264babfe128d2895a8498bb3003669b60fc17245c608a3b59004a2f7",
+        "schema": "request217-same-C-head-refinement-and-complete-field-consumers-v1"
+      },
+      "root_20261116_request217_same_C_necessary.py": {
+        "file": "root_20261116_request217_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "c64ef46a766d91ccb2f5dc684b4b663f8bdc75aa31e57c3f1f866f186c63600e",
+        "schema": "request217-complete-same-C-consumer-necessary-readback-v1"
+      },
+      "root_20261116_request217_same_C_composition.py": {
+        "file": "root_20261116_request217_same_C_composition.py",
+        "bytes": 30178,
+        "sha256": "ea0b98b410e04dc1abcc0eeb20f38d3cbd74a84a4854a258ce3ab749cdc4406f",
+        "schema": "request217-frozen220-and-same-C-source-composition-v1"
+      },
+      "request217-complete-same-C-source-plan.json": {
+        "file": "request217-complete-same-C-source-plan.json",
+        "bytes": 80964,
+        "sha256": "68c284041ccb330e4d61f66161a0799643b9fd83c90016ddcdde3d9649a4b4de",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request217-complete-same-C-source-plan.json"
+      },
+      "root_20261116_complete_source_composition_relations.py": {
+        "file": "root_20261116_complete_source_composition_relations.py",
+        "bytes": 8567,
+        "sha256": "7bc351fe46ce6c8bf94ba067b106a0a21bd89950277910fe46006c502815b163"
+      },
+      "root_20261116_current_C_bound_source_views.py": {
+        "file": "root_20261116_current_C_bound_source_views.py",
+        "bytes": 16140,
+        "sha256": "78ac0c9624beaa1ea2dd660f761b8c49ef56c49794d3928233625d86faff5104"
+      },
+      "r544-current-C-actual-binding-source-plan.json": {
+        "file": "r544-current-C-actual-binding-source-plan.json",
+        "bytes": 76039,
+        "sha256": "10002d1bacbf88792750884537ae16b0c1993049be8bb2306502339032a98a2b",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r544-current-C-actual-binding-source-plan.json"
+      },
+      "root_20261116_request230_sampling_refinement_composition.py": {
+        "file": "root_20261116_request230_sampling_refinement_composition.py",
+        "bytes": 60360,
+        "sha256": "8366daf6f6773526385a4530c844d0a6d51ed3fd7229f84c1c8c26bdbeb88c19"
+      },
+      "root_20261116_request230_actual_source_entry.py": {
+        "file": "root_20261116_request230_actual_source_entry.py",
+        "bytes": 32822,
+        "sha256": "12cb094f0b91039efd54eaf56426da4e0ba5ec6d046eeb2b9a3f69768a7f1cb4"
+      },
+      "request230-complete-binding-metadata-source-plan.json": {
+        "file": "request230-complete-binding-metadata-source-plan.json",
+        "bytes": 85503,
+        "sha256": "b35d109844eee3e0d185da6a9267178fc16816fabdcf19c7d010ad0ef3f4226b",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request230-complete-binding-metadata-source-plan.json"
+      },
+      "root_20261116_current_C_actual_engine_source_views.py": {
+        "file": "root_20261116_current_C_actual_engine_source_views.py",
+        "bytes": 16553,
+        "sha256": "e094576644fc7a048de8f47af02b49aab776162a66de538e21b044326df936dc"
+      },
+      "root_20261116_request235_sampling_refinement_composition.py": {
+        "file": "root_20261116_request235_sampling_refinement_composition.py",
+        "bytes": 74598,
+        "sha256": "090f33c586fd3667c2cb630ad364d83c8b1a52cb2298a43813db3fbfc209b5c7"
+      },
+      "root_20261116_request235_actual_source_entry.py": {
+        "file": "root_20261116_request235_actual_source_entry.py",
+        "bytes": 35660,
+        "sha256": "fafe3ec5306b252e9189a39f8a5f82491c1bb54cc868e7304fb39222d2683fe8"
+      },
+      "request235-complete-generation-metadata-source-plan.json": {
+        "file": "request235-complete-generation-metadata-source-plan.json",
+        "bytes": 90706,
+        "sha256": "a13eca1ca47d21ba5f5afc42fecd4a6e9d0d9794f21bf961cd570edc7db93913",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request235-complete-generation-metadata-source-plan.json"
+      }
+    },
+    "generation_specs": [
+      {
+        "generator": {
+          "file": "root_20261116_current_C_actual_engine_source_views.py",
+          "bytes": 16553,
+          "sha256": "e094576644fc7a048de8f47af02b49aab776162a66de538e21b044326df936dc"
+        },
+        "plan": {
+          "file": "r544-current-C-actual-binding-source-plan.json",
+          "bytes": 76039,
+          "sha256": "10002d1bacbf88792750884537ae16b0c1993049be8bb2306502339032a98a2b"
+        },
+        "receipt_directory": "source-views-binding235",
+        "schema": "R559-complete-current-C-binding-source-generation-v1",
+        "expected_generated_source_count": 57
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request230-complete-binding-metadata-source-plan.json",
+          "bytes": 85503,
+          "sha256": "b35d109844eee3e0d185da6a9267178fc16816fabdcf19c7d010ad0ef3f4226b"
+        },
+        "receipt_directory": "source-views-metadata230",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 6
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request235-complete-generation-metadata-source-plan.json",
+          "bytes": 90706,
+          "sha256": "a13eca1ca47d21ba5f5afc42fecd4a6e9d0d9794f21bf961cd570edc7db93913"
+        },
+        "receipt_directory": "source-views-metadata235",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 6
+      }
+    ],
+    "full_original222_object_reconstructed_by_original_literal_plan_before_source_only_changes": true,
+    "current_inner_full_bytes_and_SHA_formed_once_then_used_by_all_callers": true,
+    "actual_same_C_sources_registered_after_real_R544_creation_not_generated_twice": true,
+    "original_guard_predicates_and_scientific_work_values_unchanged": true,
+    "source_preparation_starts_inside_original_namespace_clock": true,
+    "historical_metadata_plan": {
+      "file": "request230-complete-binding-metadata-source-plan.json",
+      "bytes": 85503,
+      "sha256": "b35d109844eee3e0d185da6a9267178fc16816fabdcf19c7d010ad0ef3f4226b",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request230-complete-binding-metadata-source-plan.json"
+    },
+    "original230_complete_535_source_contract_preserved": true,
+    "original230_metadata_six_created_as_explicit_ancestors": true,
+    "actual_source_engine_checks_real_bound_module_file_not_missing_attribute": true,
+    "original235_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-complete-generation-refinement235-request.json",
+      "bytes": 40569,
+      "sha256": "35c1e4230d5ae9b48157d280028cc5f364113a00b2df1041b2193087fe6d4378"
+    },
+    "parallel_sampler_plan": {
+      "file": "r556-current-C-two-worker-complete112-source-plan.json",
+      "bytes": 9553,
+      "sha256": "2373f6d3e574f8730a751b84cba2c83c73ff98b8100e0c114414c1adc8e7b9a8",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r556-current-C-two-worker-complete112-source-plan.json"
+    },
+    "parallel_consumer_plan": {
+      "file": "r557-current-C-two-worker-complete-consumer-source-plan.json",
+      "bytes": 81824,
+      "sha256": "1c0bf991e80212dd902dc68e83bfe73be460c36e029f6e66fad22d76bae83a77",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/r557-current-C-two-worker-complete-consumer-source-plan.json"
+    },
+    "parallel_metadata_plan": {
+      "file": "request234-complete-two-worker-metadata-source-plan.json",
+      "bytes": 12594,
+      "sha256": "c946d8308732e35458bd49c91c83af64aef16c8e53bf2a2bb503b5749646ba14",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request234-complete-two-worker-metadata-source-plan.json"
+    },
+    "parallel_public_sources": {
+      "geometry_20261116_current_C_two_worker_far_propagation.py": {
+        "file": "geometry_20261116_current_C_two_worker_far_propagation.py",
+        "bytes": 50793,
+        "sha256": "563022ef9b22ef547ebb800d0689ef4530345f5a728216f47b2239cb1c3eb5c8"
+      },
+      "r556-current-C-two-worker-complete112-source-plan.json": {
+        "file": "r556-current-C-two-worker-complete112-source-plan.json",
+        "bytes": 9553,
+        "sha256": "2373f6d3e574f8730a751b84cba2c83c73ff98b8100e0c114414c1adc8e7b9a8",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r556-current-C-two-worker-complete112-source-plan.json"
+      },
+      "root_20261116_current_C_two_worker_necessary_scope.py": {
+        "file": "root_20261116_current_C_two_worker_necessary_scope.py",
+        "bytes": 14198,
+        "sha256": "0130048a2914a81a5c4d2ec745c86f264f0ce58c3c3ec21c4e62c500872a331c"
+      },
+      "r557-current-C-two-worker-complete-consumer-source-plan.json": {
+        "file": "r557-current-C-two-worker-complete-consumer-source-plan.json",
+        "bytes": 81824,
+        "sha256": "1c0bf991e80212dd902dc68e83bfe73be460c36e029f6e66fad22d76bae83a77",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/r557-current-C-two-worker-complete-consumer-source-plan.json"
+      },
+      "request234-complete-two-worker-metadata-source-plan.json": {
+        "file": "request234-complete-two-worker-metadata-source-plan.json",
+        "bytes": 12594,
+        "sha256": "c946d8308732e35458bd49c91c83af64aef16c8e53bf2a2bb503b5749646ba14",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request234-complete-two-worker-metadata-source-plan.json"
+      },
+      "root_20261116_request234_sampling_refinement_composition.py": {
+        "file": "root_20261116_request234_sampling_refinement_composition.py",
+        "bytes": 72408,
+        "sha256": "5e479b163fdcea7c7af1b70c69541af4bac48223dde05201342930c20eab77b2"
+      },
+      "root_20261116_request234_actual_source_entry.py": {
+        "file": "root_20261116_request234_actual_source_entry.py",
+        "bytes": 35666,
+        "sha256": "2adeaa1bb3a0467505a411e9110924aac85d10cf68be3c4f54090716abe2f7a3"
+      }
+    },
+    "parallel_generation_specs": [
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "r556-current-C-two-worker-complete112-source-plan.json",
+          "bytes": 9553,
+          "sha256": "2373f6d3e574f8730a751b84cba2c83c73ff98b8100e0c114414c1adc8e7b9a8"
+        },
+        "receipt_directory": "source-views-parallel234-sampler",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 1
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "r557-current-C-two-worker-complete-consumer-source-plan.json",
+          "bytes": 81824,
+          "sha256": "1c0bf991e80212dd902dc68e83bfe73be460c36e029f6e66fad22d76bae83a77"
+        },
+        "receipt_directory": "source-views-parallel234-consumers",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 57
+      },
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request234-complete-two-worker-metadata-source-plan.json",
+          "bytes": 12594,
+          "sha256": "c946d8308732e35458bd49c91c83af64aef16c8e53bf2a2bb503b5749646ba14"
+        },
+        "receipt_directory": "source-views-metadata234",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 6
+      }
+    ],
+    "original235_complete_545_source_contract_preserved": true,
+    "original235_nine_generations_created_as_explicit_ancestors": true,
+    "actual_sampler_and_complete_consumers_generated_before_current_metadata_callers": true,
+    "actual_same_C_sources_registered_after_real_R557_creation_not_generated_twice": true,
+    "original234_request": {
+      "file": "topics/visible-flex-larger-amplitude/notes/current-C-two-worker-complete-refinement234-request.json",
+      "bytes": 50294,
+      "sha256": "9f98873fccd2557e282266998c0d9aa5d390f0a8124439e43560ac928c54bd15"
+    },
+    "current_metadata_plan": {
+      "file": "request245-complete-generation-relations-metadata-source-plan.json",
+      "bytes": 12280,
+      "sha256": "a4b74b30dc7561608383c28d00c8ec3d8bc7aa3ed886bde29dafd0b2c9556509",
+      "repository_file": "topics/visible-flex-larger-amplitude/notes/request245-complete-generation-relations-metadata-source-plan.json"
+    },
+    "current_metadata_public_sources": {
+      "root_20261116_request245_sampling_refinement_composition.py": {
+        "file": "root_20261116_request245_sampling_refinement_composition.py",
+        "bytes": 72830,
+        "sha256": "386f7d7c9ddb2d0323be8bd361290a719ff64d88362946d0bb98968d7c28a6c8"
+      },
+      "root_20261116_request245_actual_source_entry.py": {
+        "file": "root_20261116_request245_actual_source_entry.py",
+        "bytes": 35671,
+        "sha256": "f3e345a57dc6bd0983ebcb271dfb13d7e0eb16896a658f6e9095335b2c98bf6f"
+      },
+      "root_20261116_complete_generation_source_relations.py": {
+        "file": "root_20261116_complete_generation_source_relations.py",
+        "bytes": 13605,
+        "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+      },
+      "request245-complete-generation-relations-metadata-source-plan.json": {
+        "file": "request245-complete-generation-relations-metadata-source-plan.json",
+        "bytes": 12280,
+        "sha256": "a4b74b30dc7561608383c28d00c8ec3d8bc7aa3ed886bde29dafd0b2c9556509",
+        "repository_file": "topics/visible-flex-larger-amplitude/notes/request245-complete-generation-relations-metadata-source-plan.json"
+      }
+    },
+    "current_metadata_generation_specs": [
+      {
+        "generator": {
+          "file": "root_20261116_current_C_zero_linear_source_views.py",
+          "bytes": 11895,
+          "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+        },
+        "plan": {
+          "file": "request245-complete-generation-relations-metadata-source-plan.json",
+          "bytes": 12280,
+          "sha256": "a4b74b30dc7561608383c28d00c8ec3d8bc7aa3ed886bde29dafd0b2c9556509"
+        },
+        "receipt_directory": "source-views-metadata245",
+        "schema": "R496-current-C-zero-linear-three-level-source-generation-v1",
+        "expected_generated_source_count": 6
+      }
+    ],
+    "current_generation_representation": {
+      "file": "root_20261116_complete_generation_source_relations.py",
+      "bytes": 13605,
+      "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+    },
+    "original234_complete_616_source_contract_preserved": true,
+    "original234_twelve_generations_created_as_explicit_ancestors": true,
+    "all_two_worker_scientific_and_consumer_source_files_remain_original234": true,
+    "actual_preflight_sampler_schema_comes_from_bound_current_role": true,
+    "current_source_generation_necessary_has_complete_named_inverse": true
+  },
+  "additional_runtime_sources": {
+    "geometry_20261116_same_C_full_head_refinement.py": {
+      "file": "geometry_20261116_same_C_full_head_refinement.py",
+      "bytes": 42246,
+      "sha256": "0ce2f7ab8d1cfc95097ac8089c41ecc1f888343c8432255bd91b1d6cc5d3f8f8"
+    },
+    "geometry_20261116_same_C_refined_leaf_target_and_cut.py": {
+      "file": "geometry_20261116_same_C_refined_leaf_target_and_cut.py",
+      "bytes": 35549,
+      "sha256": "a7b1bd9d64db43986b5718d664dc6209227cd89a0cd9fb490e8dc6f9f4482aa7"
+    },
+    "geometry_20261116_same_C_refined_metric_family_bridge.py": {
+      "file": "geometry_20261116_same_C_refined_metric_family_bridge.py",
+      "bytes": 12303,
+      "sha256": "06656a5ed8bd020d7ab476ed9790f8fc9e4e75d3e7f61ef9c9cc1fb765ddfc74"
+    },
+    "geometry_20261116_same_C_refined_head_tail_queries.py": {
+      "file": "geometry_20261116_same_C_refined_head_tail_queries.py",
+      "bytes": 29687,
+      "sha256": "2ab6b97fc77c520ed8b888d31a766d9e4e744fb40dc8af46dfd4d287f015b580"
+    },
+    "root_20261116_request245_same_C_composition.py": {
+      "file": "root_20261116_request245_same_C_composition.py",
+      "bytes": 29875,
+      "sha256": "172daea876e962f52f605ce4a43db830ecf352b05f35107f9d7a93c3ddc72a1e",
+      "schema": "request245-actual-source-and-same-C-registration-composition-v1"
+    },
+    "geometry_20261116_request245_same_C_refinement.py": {
+      "file": "geometry_20261116_request245_same_C_refinement.py",
+      "bytes": 45661,
+      "sha256": "a5cfdd561c56d83372501b08205a5e71b77fd2cc5b9da22485a50173eb51f61e",
+      "schema": "request245-same-C-head-refinement-and-complete-field-consumers-v1"
+    },
+    "root_20261116_request245_same_C_necessary.py": {
+      "file": "root_20261116_request245_same_C_necessary.py",
+      "bytes": 35746,
+      "sha256": "8c9d42cb4b7a05f9d0bc1e26018bbcf26c4d84ee06f149568bdf4482aa80fd65",
+      "schema": "request245-complete-same-C-consumer-necessary-readback-v1"
+    }
+  },
+  "frozen230_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-actual-source-bound-complete-refinement230-request.json",
+    "bytes": 35731,
+    "sha256": "f96cff4dce95c5b7fb744ab6b3d4049fc0b432c2edef14c53c29b6ef5fc3793e",
+    "source_commit": "9f2b9a45d39c22ea979b5a1c4870d26d13de7d5a"
+  },
+  "frozen230_workflow": {
+    "file": ".github/workflows/visible-current-C-actual-source-bound-refinement230.yml",
+    "bytes": 86918,
+    "sha256": "3cae42ef9f7137b9b555068ed9ddd8cf705850dafe5faeb8185bf70d0c915b12"
+  },
+  "frozen235_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-complete-generation-refinement235-request.json",
+    "bytes": 40569,
+    "sha256": "35c1e4230d5ae9b48157d280028cc5f364113a00b2df1041b2193087fe6d4378",
+    "source_commit": "63a1cb3b5c85fca6606e43502df60be03e695b81"
+  },
+  "frozen235_workflow": {
+    "file": ".github/workflows/visible-current-C-generation-complete-refinement235.yml",
+    "bytes": 91176,
+    "sha256": "a65d73cbb8f974c8d7a3e9e6e6a29d846877a84999c516b506019865674ab5d6"
+  },
+  "original_engineering_failure_basis": {
+    "actual230_conclusion": "R546",
+    "actual230_source": "9f2b9a45d39c22ea979b5a1c4870d26d13de7d5a",
+    "actual230_run": 43867442383,
+    "actual_returned_stop": "R544 source materialization did not complete; current-generation index6",
+    "original_child_exception_was_not_returned_in_actual230": true,
+    "new_R559_source_inference": "Frozen R496 engine has no module.HERE; use its exact bound __file__ and actual computations parent, preserving engine's own original path predicate",
+    "prior_source_repairs": {
+      "conclusion": "R490",
+      "source_commit": "4a08bebb63482c34c3bb7460582772a966e25c51",
+      "first_launcher_passed_old_client_basename_before_science": true,
+      "closed_ENTRY_omitted_coast_base_before_science": true,
+      "composition_original_file_identity_not_necessary_frame_byte_count": true,
+      "old_logs_or_raw_not_inputs": true
+    },
+    "old_logs_or_raw_not_inputs": true
+  },
+  "actual_cost_basis": {
+    "conclusion": "R511",
+    "source_commit": "3034a2069904a391deaad55ec8fa3a4ea836100b",
+    "original_actual222_linear_phase_elapsed_seconds": 6124.8677721839995,
+    "original_actual222_linear_phase_work_units": 2044754,
+    "original_actual222_linear_phase_checks": 4053992,
+    "original_actual222_phase_finished": true,
+    "original_actual222_stop": null,
+    "purpose": "Fresh complete same-C mode propagation under one shared unchanged work/clock contract; original actual cost is motivation only.",
+    "old_run_logs_ledger_or_far_rows_are_not_inputs": true,
+    "speedup_peak_space_or_scientific_completion_not_inferred": true
+  },
+  "source_proof_contract": {
+    "theorem": "R556",
+    "complete_entry": "R557",
+    "actual_result_reserved": "R587",
+    "actual_first_sampler": {
+      "file": "geometry_20261116_current_C_two_worker_joint_gzip_radial_sampling.py",
+      "bytes": 73294,
+      "sha256": "c90137cdb2da1159338838a68c04156dc24046d306798c1cada8da85df624f69",
+      "schema": "R556-current-C-two-worker-joint-physical-radial-samples-and-general-far-v1"
+    },
+    "metadata_scope_helper": {
+      "file": "root_20261116_current_C_two_worker_necessary_scope.py",
+      "bytes": 14198,
+      "sha256": "0130048a2914a81a5c4d2ec745c86f264f0ce58c3c3ec21c4e62c500872a331c"
+    },
+    "original_serial_sampler": {
+      "file": "geometry_20261116_current_C_joint_gzip_radial_sampling.py",
+      "bytes": 71361,
+      "sha256": "21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6"
+    },
+    "original235_is_source_contract_not_accepted_scientific_parent": true,
+    "original25M_is_one_shared_counter_not_per_worker": true,
+    "original_phase_absolute_deadline_not_restarted": true,
+    "at_most_two_mode_payload_spools": true,
+    "arbitrary_unknown_source_names_not_accepted": true,
+    "current_metadata_repair": {
+      "schema": "R586-current-sampler-schema-and-complete-generation-metadata-relations-v1",
+      "source": {
+        "file": "root_20261116_complete_generation_source_relations.py",
+        "bytes": 13605,
+        "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+      },
+      "original_two_worker_science_and_complete_consumers_unchanged": true,
+      "canonical_same_key_presence_types_values_negative_zero_and_order_required": true,
+      "same_nine_scientific_scopes_and_all_source_errors_preserved": true,
+      "no_body_split_or_limit_increase_or_new_scientific_gate": true
+    },
+    "original234_actual_result": "R558",
+    "current_metadata_complete_entry": "R586"
+  },
+  "original234_source_counts": {
+    "original205": 154,
+    "original222_public": 279,
+    "original222_generated": 179,
+    "original222_complete": 458,
+    "original217_total_ancestors": 473,
+    "original230_public": 293,
+    "original230_generated": 242,
+    "original230_complete": 535,
+    "original235_public": 297,
+    "original235_generated": 248,
+    "original235_complete": 545,
+    "added_current_public": 7,
+    "added_two_worker_sampler": 1,
+    "added_current_consumers": 57,
+    "added_current_metadata": 6,
+    "complete_public": 304,
+    "complete_generated": 312,
+    "complete_declared_union": 616,
+    "actual_source_generation_layers": 12,
+    "all545_original_source_pins_retained_without_replacement": true
+  },
+  "frozen234_request": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-two-worker-complete-refinement234-request.json",
+    "bytes": 50294,
+    "sha256": "9f98873fccd2557e282266998c0d9aa5d390f0a8124439e43560ac928c54bd15"
+  },
+  "frozen234_workflow": {
+    "file": ".github/workflows/visible-current-C-two-worker-complete-refinement234.yml",
+    "bytes": 91702,
+    "sha256": "b564699b028e280f6f27154b61b4e34b97a18fed5f86a906f6fdd81ef4183e47"
+  },
+  "original234_engineering_failure_basis": {
+    "result": "results/R558-actual234-source-schema-preflight-stop-and-complete-readback-overflow.md",
+    "published_commit": "dad996456f6638d1851c560869481944ab64a14e",
+    "actual_run_id": 43888839185,
+    "actual_source_commit": "a04e5a75a147fdfe273542b2126003001c62ae93",
+    "preflight_original_line": 206,
+    "original_assertion_schema": "current-C-pruefer-joint-nominal-row-physical-radial-samples-and-general-far-v1",
+    "actual_bound_schema": "R556-current-C-two-worker-joint-physical-radial-samples-and-general-far-v1",
+    "whole_generation_necessary_bytes": 107643,
+    "whole_generation_necessary_sha256": "7a434a28ace046a969a3cdc17b53e271e7003f5112cc646d594b3b204232d877",
+    "whole_original_body_was_not_returned": true,
+    "scientific_computation_unstarted": true,
+    "actual_cleanup_skipped": true,
+    "original_missing_body_is_not_reconstructed_or_used_as_input": true
+  }
+}

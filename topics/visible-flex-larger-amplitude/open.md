@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R586/request245](results/R586-current-sampler-schema-and-complete-generation-relations.md)/[接口](notes/2026-11-16-request245-current-schema-and-complete-source-relations-interface.md)八件完整刊**：旧616全保→626/13层，真实当前sampler schema接原完整PYPINS；同一完整generation必要按具名三字段身份/真路径前缀/两固定行/唯一完整相等parent作可逆共享，只严格较小时采用，声明与观测原角色不变。R556/R557原科学/25M/全账/18900+2700/90K70/quiet全保，不预承诺fit；正式刊后唯一POST，R587 exact唯一。
+
 **[R571实际239](results/R571-actual239-source-reader-binding-stop-and-complete-metadata-boundary.md)**：新captured239 reader已在inner而composer仍旧bound230，真实四名set检查停止；8894B初始化必要完整，deadline null/科学false/十一层未起。各后scope不可用，cleanup两实现未调用、raw false，无capture或accepted父。R591/request247真修该来源常量与hardpin，原guard/数学/资源全保。
 
 **[R563实际236](results/R563-actual236-dyadic-owner-and-two-incomplete-necessary-readbacks.md)**：417真实source/prepare完成，source225803与science177614全正文未返，仅1813/1130诚实70；outer/rules/science1、quiet true、removed false。R561实际计数/原owner/误差/异常原因全未知，不借232/时长推因，无父；R589真实全必要关系入口正在接。
