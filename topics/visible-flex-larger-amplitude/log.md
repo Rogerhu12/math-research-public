@@ -20,3 +20,8 @@
 ## 2026-11-16 07:56:00 UTC /root — R480实际213八次原接受和fresh FD
 
 [R480](results/R480-actual213-eight-original39-pairs-and-necessary-readback-overflow.md)18078/14f8dd6e，run43812359001/sourcefe0a0d73、单compute133116630470；日志112672/75e66e94唯一已读。八原接受/八freshFD由16exit0＋八eligible保父事件及固定控制流确认，trial24仅计数；whole115134/3b27、recovery115484/72ae均超单90K而70，具体门值/失败地址/末参数未回不补。八批大raw按原必要记录先存后退，quiet后最终cleanup skip；无当前H/native/fullDN或可续末父，不盲重算/分包/加门。
+
+
+## 2026-11-16 07:57:00 UTC /root — R498完整账本无损存储与真实消费者
+
+[R498](results/R498-complete-far-ledger-consumers-and-streamed-lossless-storage.md)/[接口](notes/2026-11-16-complete-far-ledger-gzip-storage-and-consumer-interface.md)四件helper15744/d07d、plan16786/eb49、proof19411/96a3、接口16863/0155齐；samefar/union真实全读旧95GB账，首native不用不许可早删。逐原canonical行完整gzip member在commit前写完，双stored/decoded身份/全行/span/事务/原异常与预算保；原32GiB不变、无压缩率/空间足够/新接受承诺。218续完整真实来源级联，展开源/临时raw不入Git，不新增科学门。

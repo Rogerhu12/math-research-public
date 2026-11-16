@@ -1,0 +1,210 @@
+{
+  "schema": "R498-complete-temporary-gzip-core-source-view-contract-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "helper": {
+    "file": "geometry_20261116_complete_jsonl_gzip_storage.py",
+    "bytes": 15744,
+    "sha256": "d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089",
+    "blob": "e639f8e16523777df6d9161bc46410aee8cd6675"
+  },
+  "R496_baseline_plan": {
+    "bytes": 77274,
+    "sha256": "e1bef5ad7727107014c9a4c494b22fd066a2866b7f5d97eb8dc1a424b0268360",
+    "blob": "63091cf8b87e22cf4759c7cee10b2f611cfc0e0f"
+  },
+  "views": [
+    {
+      "role": "first_sampler",
+      "baseline": {
+        "file": "geometry_20261115_current_C_pruefer_joint_radial_sampling.py",
+        "bytes": 69702,
+        "sha256": "32b0b7e2b02f54f5086b6c9485c1f63bce4702c3a690fed49bbc78d9d690d5f4"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_joint_gzip_radial_sampling.py",
+        "bytes": 71361,
+        "sha256": "21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6"
+      },
+      "replacements": [
+        {
+          "before": "def require_actions():",
+          "after": "\nR498_STORAGE_NAME = \"geometry_20261116_complete_jsonl_gzip_storage.py\"\nR498_STORAGE_SHA = \"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\"\n_R498_STORAGE = None\n\ndef r498_storage_helper():\n    global _R498_STORAGE\n    if _R498_STORAGE is None:\n        path = Path(__file__).resolve().with_name(R498_STORAGE_NAME)\n        raw = path.read_bytes()\n        if hashlib.sha256(raw).hexdigest() != R498_STORAGE_SHA:\n            raise ValueError(\"Use the explicit R498 complete JSONL storage source\")\n        spec = importlib.util.spec_from_file_location(\"_R498_complete_jsonl_storage\", path)\n        module = importlib.util.module_from_spec(spec)\n        sys.modules[spec.name] = module\n        try:\n            spec.loader.exec_module(module)\n        except BaseException:\n            sys.modules.pop(spec.name, None)\n            raise\n        _R498_STORAGE = (module, dict(file=R498_STORAGE_NAME,\n            bytes=len(raw), sha256=R498_STORAGE_SHA))\n    return _R498_STORAGE[0], dict(_R498_STORAGE[1])\n\ndef require_actions():",
+          "count": 1
+        },
+        {
+          "before": "        runtime,sources,proof=load_runtime(args)\n",
+          "after": "        runtime,sources,proof=load_runtime(args)\n        ledger_storage, ledger_storage_source = r498_storage_helper()\n        report[\"actual_complete_ledger_storage\"] = dict(\n            schema=ledger_storage.SCHEMA, source=ledger_storage_source,\n            compressed_logical_streams=[\"far-accepted-panels\"], compression_level=1,\n            original_scientific_schema_and_canonical_rows_unchanged=True,\n            stored_and_decoded_identities_are_distinct=True)\n",
+          "count": 1
+        },
+        {
+          "before": "            journals[name]=B.Journal(large/(name+\".jsonl\"),args.out)\n",
+          "after": "            journals[name] = (ledger_storage.GzipJSONLJournal(\n                large/(name+\".jsonl.gz\"), args.out,\n                canonicalizer=B.canonical, compression_level=1)\n                if name == \"far-accepted-panels\" else\n                B.Journal(large/(name+\".jsonl\"),args.out))\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_far_sampler",
+      "baseline": {
+        "file": "geometry_20261116_current_C_zero_linear_same_far_resampling.py",
+        "bytes": 51367,
+        "sha256": "5cb69b92c1cdf1d95b613f62d260b5dbbf9f95169d984f78999d3cf17b3d8c2a"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_zero_linear_same_far_gzip_resampling.py",
+        "bytes": 52092,
+        "sha256": "2abf6d20b2e1904b68daae07dd35a86a695a13fe4e87d8edf11353d207618012"
+      },
+      "replacements": [
+        {
+          "before": "def require_actions():",
+          "after": "\nR498_STORAGE_NAME = \"geometry_20261116_complete_jsonl_gzip_storage.py\"\nR498_STORAGE_SHA = \"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\"\n_R498_STORAGE = None\n\ndef r498_storage_helper():\n    global _R498_STORAGE\n    if _R498_STORAGE is None:\n        path = Path(__file__).resolve().with_name(R498_STORAGE_NAME)\n        raw = path.read_bytes()\n        if hashlib.sha256(raw).hexdigest() != R498_STORAGE_SHA:\n            raise ValueError(\"Use the explicit R498 complete JSONL storage source\")\n        spec = importlib.util.spec_from_file_location(\"_R498_complete_jsonl_storage\", path)\n        module = importlib.util.module_from_spec(spec)\n        sys.modules[spec.name] = module\n        try:\n            spec.loader.exec_module(module)\n        except BaseException:\n            sys.modules.pop(spec.name, None)\n            raise\n        _R498_STORAGE = (module, dict(file=R498_STORAGE_NAME,\n            bytes=len(raw), sha256=R498_STORAGE_SHA))\n    return _R498_STORAGE[0], dict(_R498_STORAGE[1])\n\ndef require_actions():",
+          "count": 1
+        },
+        {
+          "before": "geometry_20261115_current_C_pruefer_joint_radial_sampling.py",
+          "after": "geometry_20261116_current_C_joint_gzip_radial_sampling.py",
+          "count": 1
+        },
+        {
+          "before": "32b0b7e2b02f54f5086b6c9485c1f63bce4702c3a690fed49bbc78d9d690d5f4",
+          "after": "21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6",
+          "count": 1
+        },
+        {
+          "before": "NATIVE_PINS={\n",
+          "after": "NATIVE_PINS={\n    \"geometry_20261116_complete_jsonl_gzip_storage.py\": \"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\",\n",
+          "count": 1
+        },
+        {
+          "before": "def bound_stream(directory,desc,budget,selected=None,visit=None,progress=None):\n    \"\"\"Read every original byte once; only designated scientific rows are parsed.\"\"\"\n    p=contained(directory,desc[\"file\"]);h=hashlib.sha256();size=count=0;chosen=[]\n    with p.open(\"rb\") as handle:\n        for raw in handle:\n            budget.check();h.update(raw);size+=len(raw)\n            require(raw.endswith(b\"\\n\"),\"A completed original ledger has an unfinished physical line\")\n            if selected is None or selected(count):\n                value=json.loads(raw)\n                if visit is not None:visit(count,value)\n                else:chosen.append(value)\n            count+=1\n            if progress is not None:progress.update(bytes_read=size,physical_lines_read=count)\n    require((size,count,h.hexdigest())==(desc[\"bytes\"],desc[\"rows\"],desc[\"sha256\"]),\n        \"Complete original ledger bytes/rows/SHA differ: \"+desc[\"file\"])\n    return chosen,dict(directory=str(Path(directory).resolve()),descriptor=copy.deepcopy(desc),\n        actual_full_bytes_read=size,actual_full_rows_read=count,actual_sha256=h.hexdigest())\n",
+          "after": "def bound_stream(directory,desc,budget,selected=None,visit=None,progress=None):\n    \"\"\"Complete original stored/decoded bytes and row scope, under the same clock.\"\"\"\n    storage, _source = r498_storage_helper()\n    return storage.bound_stream(directory,desc,budget,\n        selected=selected,visit=visit,progress=progress)\n\n",
+          "count": 1
+        },
+        {
+          "before": "        budget=Budget(args,absolute,started);budget.install();budget.check()\n",
+          "after": "        budget=Budget(args,absolute,started);budget.install();budget.check()\n        ledger_storage, ledger_storage_source = r498_storage_helper()\n        report[\"actual_complete_ledger_storage\"] = dict(\n            schema=ledger_storage.SCHEMA, source=ledger_storage_source,\n            original_stored_and_decoded_streams_fully_rebound=True,\n            no_original_far_ledger_deleted_or_replaced_by_digest=True)\n",
+          "count": 1
+        },
+        {
+          "before": "\"completed\",\"native_geometry_ready\",\"error\",\"internal_exit_code\",\"elapsed_seconds\",\n",
+          "after": "\"completed\",\"native_geometry_ready\",\"error\",\"internal_exit_code\",\"elapsed_seconds\",\n        \"actual_complete_ledger_storage\",\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "incremental_M_union",
+      "baseline": {
+        "file": "geometry_20261116_current_C_zero_linear_incremental_M_far_union.py",
+        "bytes": 53547,
+        "sha256": "7d1aaa9504fd8fe2722ab58a5e1cf1b53e152c921848f9030c27144fc10fcf72"
+      },
+      "output": {
+        "file": "geometry_20261116_current_C_zero_linear_incremental_M_gzip_far_union.py",
+        "bytes": 55405,
+        "sha256": "349bc8af3b428bd54610efb53d73359000c26644b551a4331052d86b48e765b2"
+      },
+      "replacements": [
+        {
+          "before": "def require(value, message):",
+          "after": "\nR498_STORAGE_NAME = \"geometry_20261116_complete_jsonl_gzip_storage.py\"\nR498_STORAGE_SHA = \"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\"\n_R498_STORAGE = None\n\ndef r498_storage_helper():\n    global _R498_STORAGE\n    if _R498_STORAGE is None:\n        path = Path(__file__).resolve().with_name(R498_STORAGE_NAME)\n        raw = path.read_bytes()\n        if hashlib.sha256(raw).hexdigest() != R498_STORAGE_SHA:\n            raise ValueError(\"Use the explicit R498 complete JSONL storage source\")\n        spec = importlib.util.spec_from_file_location(\"_R498_complete_jsonl_storage\", path)\n        module = importlib.util.module_from_spec(spec)\n        sys.modules[spec.name] = module\n        try:\n            spec.loader.exec_module(module)\n        except BaseException:\n            sys.modules.pop(spec.name, None)\n            raise\n        _R498_STORAGE = (module, dict(file=R498_STORAGE_NAME,\n            bytes=len(raw), sha256=R498_STORAGE_SHA))\n    return _R498_STORAGE[0], dict(_R498_STORAGE[1])\n\ndef require(value, message):",
+          "count": 1
+        },
+        {
+          "before": "geometry_20261116_current_C_zero_linear_same_far_resampling.py",
+          "after": "geometry_20261116_current_C_zero_linear_same_far_gzip_resampling.py",
+          "count": 1
+        },
+        {
+          "before": "5cb69b92c1cdf1d95b613f62d260b5dbbf9f95169d984f78999d3cf17b3d8c2a",
+          "after": "2abf6d20b2e1904b68daae07dd35a86a695a13fe4e87d8edf11353d207618012",
+          "count": 1
+        },
+        {
+          "before": "NATIVE_PINS = {\n",
+          "after": "NATIVE_PINS = {\n    \"geometry_20261116_complete_jsonl_gzip_storage.py\": \"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\",\n",
+          "count": 1
+        },
+        {
+          "before": "        runtime, sources, proof = S.load_runtime(args); whole.check()\n",
+          "after": "        runtime, sources, proof = S.load_runtime(args); whole.check()\n        ledger_storage, ledger_storage_source = r498_storage_helper()\n        report[\"actual_complete_ledger_storage\"] = dict(\n            schema=ledger_storage.SCHEMA, source=ledger_storage_source,\n            compressed_logical_streams=[\"new-mode-accepted-panels\"], compression_level=1,\n            original_scientific_schema_and_canonical_rows_unchanged=True,\n            stored_and_decoded_identities_are_distinct=True)\n",
+          "count": 1
+        },
+        {
+          "before": "            journals[name] = S.B.Journal(args.out/\"large-arrays\"/(name+\".jsonl\"), args.out)\n",
+          "after": "            journals[name] = (ledger_storage.GzipJSONLJournal(\n                args.out/\"large-arrays\"/(name+\".jsonl.gz\"), args.out,\n                canonicalizer=S.B.canonical, compression_level=1)\n                if name == \"new-mode-accepted-panels\" else\n                S.B.Journal(args.out/\"large-arrays\"/(name+\".jsonl\"), args.out))\n",
+          "count": 1
+        },
+        {
+          "before": "        \"M_changed\", \"actual_origin_launch\", \"actual_job_deadline\", \"original_clock\", \"requested_work\",\n",
+          "after": "        \"M_changed\", \"actual_origin_launch\", \"actual_job_deadline\", \"original_clock\", \"requested_work\",\n        \"actual_complete_ledger_storage\",\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "base_sampling_reader",
+      "baseline": {
+        "file": "root_20261116_current_C_sampling_scope_necessary_readout.py",
+        "bytes": 55606,
+        "sha256": "47d7ec771331f417dffb783a79e02d1ae9720e9ad0a699a72c37cf3031718cb2"
+      },
+      "output": {
+        "file": "root_20261116_current_C_gzip_sampling_scope_necessary_readout.py",
+        "bytes": 57097,
+        "sha256": "47a1c4438a2f1d66733daf46f10da2cbb0f65c4912822e0e42402033d05a4149"
+      },
+      "replacements": [
+        {
+          "before": "import hashlib\n",
+          "after": "import hashlib\nimport importlib.util\n",
+          "count": 1
+        },
+        {
+          "before": "def actions():",
+          "after": "\nR498_STORAGE_NAME = \"geometry_20261116_complete_jsonl_gzip_storage.py\"\nR498_STORAGE_SHA = \"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\"\n_R498_STORAGE = None\n\ndef r498_storage_helper():\n    global _R498_STORAGE\n    if _R498_STORAGE is None:\n        path = Path(__file__).resolve().with_name(R498_STORAGE_NAME)\n        raw = path.read_bytes()\n        if hashlib.sha256(raw).hexdigest() != R498_STORAGE_SHA:\n            raise ValueError(\"Use the explicit R498 complete JSONL storage source\")\n        spec = importlib.util.spec_from_file_location(\"_R498_complete_jsonl_storage\", path)\n        module = importlib.util.module_from_spec(spec)\n        sys.modules[spec.name] = module\n        try:\n            spec.loader.exec_module(module)\n        except BaseException:\n            sys.modules.pop(spec.name, None)\n            raise\n        _R498_STORAGE = (module, dict(file=R498_STORAGE_NAME,\n            bytes=len(raw), sha256=R498_STORAGE_SHA))\n    return _R498_STORAGE[0], dict(_R498_STORAGE[1])\n\ndef actions():",
+          "count": 1
+        },
+        {
+          "before": "geometry_20261115_current_C_pruefer_joint_radial_sampling.py",
+          "after": "geometry_20261116_current_C_joint_gzip_radial_sampling.py",
+          "count": 1
+        },
+        {
+          "before": "32b0b7e2b02f54f5086b6c9485c1f63bce4702c3a690fed49bbc78d9d690d5f4",
+          "after": "21032e3c4fef44b022a7d91394ff0269dcfd3f94f8ee1a9cab9a0696b2530eb6",
+          "count": 1
+        },
+        {
+          "before": "SOURCE_PINS={\n",
+          "after": "SOURCE_PINS={\n    \"geometry_20261116_complete_jsonl_gzip_storage.py\": \"d07d1844aaf54b5aaea550a1c0d8aea63b9306f9ce44f66bd0b1e18aa3e40089\",\n",
+          "count": 1
+        },
+        {
+          "before": "\"nominal_parameter_point_is_not_selected_exact_global_C\")\n",
+          "after": "\"nominal_parameter_point_is_not_selected_exact_global_C\",\"actual_complete_ledger_storage\")\n",
+          "count": 1
+        },
+        {
+          "before": "    return dict(**got,rows=count,parsed_rows=parsed,\n        decoded_stream_bytes=decoded_bytes,decoded_stream_sha256=decoded_hash.hexdigest(),\n        whole_original_bytes_hashed=True,\n        parse_scope=\"all original rows parsed in Actions\" if callback is not None else \"byte identity and line count only\")\n",
+          "after": "    result=dict(**got,rows=count,parsed_rows=parsed,\n        decoded_stream_bytes=decoded_bytes,decoded_stream_sha256=decoded_hash.hexdigest(),\n        whole_original_bytes_hashed=True,\n        parse_scope=\"all original rows parsed in Actions\" if callback is not None else \"byte identity and line count only\")\n    if expected is not None and expected.get(\"storage\") is not None:\n        storage, source = r498_storage_helper()\n        result[\"complete_stored_and_decoded_original_binding\"] = storage.verify_decoded_readback(expected,result)\n        result[\"actual_storage_source\"] = source\n    return result\n",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "original_scientific_schemas_and_logical_row_bytes_retained": true,
+    "all_scientific_source_names_and_hashes_must_be_explicitly_reregistered": true,
+    "new_compressed_storage_schema_is_distinct": true,
+    "only_first_and_new_mode_prepared_ledgers_compressed": true,
+    "all_commit_candidate_inverse_unpaid_and_numeric_arrays_retained": true,
+    "no_original_large_ledger_deleted": true,
+    "preview_output_identity_is_before_request218_source_closure_cascade": true,
+    "final218_driver_worker_client_owner_checkpoint_and_reader_registration_not_claimed_here": true,
+    "no_scientific_run_import_AST_compile_or_fixture_performed": true,
+    "original_34359738368_startup_storage_threshold_unchanged": true,
+    "compression_ratio_completion_or_new_acceptance_not_promised": true
+  }
+}

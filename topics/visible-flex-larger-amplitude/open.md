@@ -44,6 +44,8 @@ R465/466/471/474只付各自明确实际有限输入/原fallback的局部语义�
 
 [R460实际207](results/R460-actual207-complete112-far-and-point-sampling-resource-partial.md)19190/fc266857，run43801267782/source1e054424，两终态日志各唯一读。C1440/six/两个合法闭query齐，whole work2887片及1积分未决非漏域；当前十点1810pass/8598terminal/16stack不冒域反证。全112far/unit/joint名义行齐，linear7628.961588603999s/2044754work；随后点1M/486.5222847770001s停3unique/0field，非far/磁盘/时间/native拒。旧reader未回point半径/role/pending，raw真清不从SHA补；BVP/first closed/held以及新增12mesh/M/t/compare角色全未起。八必要各<90K、两job六主body同，07:28:46.8446582Z真实quiet再核后namespace删除；无可续accepted父。新212浅逆实绩独立见R478，不倒填207。
 
+[R498](results/R498-complete-far-ledger-consumers-and-streamed-lossless-storage.md)/[接口](notes/2026-11-16-complete-far-ledger-gzip-storage-and-consumer-interface.md)已查明首native只数值消费geometry/四数组，但后续samefar 5f14和union 5da13仍完整核prepared/commit字节/行数/SHA及全部mode span，所以95GB账不能凭首BVP不用就早删。新helper15744/d07d1844从第一原canonical行起逐行生成完整gzip member，decoded逐字等原逻辑流，stored与decoded各自身份，全行/候选/错误/span/事务/原预算异常不减；不先存全明文再压缩、不上传raw。四接点plan16786/eb4925e3保原数学/32GiB/绝对钟，原consumer仍完整stored+decoded读取核验，不把压缩SHA冒旧明文。压缩成本与新真实资源停止未测，不承诺空间足够或新场。218须把R496后四view的新身份级联到全部worker/client/driver/CP/owner/readers/几何材料真实HERE，预览SHA不冒最终闭包；该普通接线不成新科学门。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 本节压缩前全文逐字保在[已刊R483时open](https://github.com/Rogerhu12/math-research-public/blob/3559e04efd5587989da5074b04cd825fe9694a89/topics/visible-flex-larger-amplitude/open.md)，继续保9a9dbfa8及更早检查点。所有原参数、原词、资源/失败/未返/未访和来源仍有效；只去重复，§4–6逐字不变。同η重复pass或来源接通不补真实接受父、固定g下降、README完成。
