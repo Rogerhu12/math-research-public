@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **NIF实际成功（禁止重跑）**：原公开run43795909913/1、job133064556560、child0/16门/12steps全部成功；完整SCI43294b0c保32字段/23新标量（7主+16中间）。四旧成功/16记录/4scope逐字一致，旧数学0重算。冻结正确反射输入Xfr=S*D+Hnat上的Ni±1及两个Cs逆界已实际付：Cinv0≈1.5936238065e13、Cinv−4/3≈2.2522836490e40；完整球见原SCI。仅该real参考族/两窗/原有序权，真实双port、完整incoming、有限Schur及非线性未授。
+
 - **NIF唯一公开CI包（数学尚未执行）**：已发布同real族固定反射域的7主常数/16中间量消费者；SCI d75ad8a2、worker5b5a9b75、manifest138fe8d9、flow63a9e468。8 current UTF8/2 AST/5 math，四原成功 TF/KL/WX/RNE 只读；原16 records与4scope逐字保留。完整静态预算30694B SCI/6036B report/37209B preGit，执行前fresh topic容量须再留150000B。实际run成功前不授任何新数值，且真实双port/fullincoming/finite义务不变。
 
 - [NIF 全实参数族的固定反射输入坐标](results/R133-supplement-uniform-frozen-selected-input-coordinates-for-the-real-reference-family.md)（8f378447，2026-11-16）：固定Xfr=S*D+Hnat，Λ+,δ=aδD+的固定sign相位和TF真奇偶性给同一域上的Ni/同逆与两窗Cs自然逆；显式7主scalar待唯一公开计算。同步窄修[SE8具体域](results/R133-supplement-natural-stable-port-Fredholm-and-exact-reference-elimination.md)93266089，原22201747保历史；fullsigned与natural反射投影分开，不把无限反射补空间当head。旧数值不变，完整principal restriction/incoming/finite仍待。

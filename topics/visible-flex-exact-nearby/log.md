@@ -29,3 +29,30 @@ README读取提交9eeabe9c55d8ab6f8bea1e82d8ab7e1e2c60e8a0，两blob不变；本
 Root全读source/helper/worker/manifest及小budget、逐常量/schema/pin/order核；source/admission/数学有独立peer核。8 current共297952B、2 AST、5 math、0 history；4旧actual、16原记录(14对象/2字符串)、4scope路径值及accepted三hash原字。32完整字段/16门/15progress；三图10/8/5项=7主+16中间，只eta取lower，其余15旧bound取upper；0旧producer/import/exp/log/R97/RNE图重算。静态模型128B非数值占位，SCI30694/report6036/preGit37209；含全图失败压力39970/6632/47085，不把该模型当任意异常文本的普适界。Root完整核预算与原记录、Tail独立完整文字渲染核；未运行Python数学。最初root静态对EXPECTED_ACCEPTED层级比较错在wrapper，改为同层original_successes后全同，未改变任何冻结件。
 
 本次只flow自身path push触发一次新run；source/worker/manifest自反pin无环，budget仅元数据引用。worker须新鲜tree+ownedHEADdelta后topic再预留150000B；真实CLI pull并读两README，运行中600s再核；完整SCI原子落盘/stdout先于size guard，科学与执行两preGit副本，3小结论落Git，禁新artifact/Release/数组。旧成功或不完整同target均阻止误重跑。CLI/AST仅在公开Actions执行。尚无本次actual run或新球，后续读唯一run与完整三文件、立即锁成功再写实际证明；fullincoming/finite/真ν/背景/最终曲面未授。
+
+## 2026-11-16 03:06:41 UTC — NIF 原43795909913/1完整实际成功锁定
+
+两README在d5637ab22445227405d29fabb6fd2264e9eb06b1逐blob仍相同。唯一push run43795909913/1，event9948aec967519e5b39535443f55adfcfb7e9d8f3；实际科学checkout为bc20ed50d94fc4236f887d71696d353d3c945c3c，不把event冒充checkout。job133064556560从03:04:22到03:05:03Z，12实际steps全success，科学step9为03:04:50–59Z；onechild0/complete/proved true。
+
+三文件来自notes/frozen_common_input_uniform_inverse_constants_ci/run-43795909913-1：
+
+- SCI7142de95e64d5b3c6df7af705c8b0bf08a5c5c5e /29829B /43294b0cd0fdcffea58a805ecfb3cf06d60136d5ffbb3c8269b3040ce5ea9883。
+- execution42548fb36cc0d3947d00b76d13878d695a237b24 /11713B /8a897235272b4eae3673ff61c9d571d74d20d718372b99a9f2107b245a3c88cd。
+- report8a6e7daa484088c40fef8ac9a85f1b7508022e9a /5752B /bbe0fd2bbea1e8d360d53130d2b1eac2ff490044186fcbf24ed046c2faf62a79。
+- complete run API13335B /3fab705d35400fd6da2395fb36845f96d290111fb3f7c41c0e668f1ad06f03b8，full jobs3228B /b18b6eb269c65aca48649d94787e94734bbd00787f22c7c335034f2c9bd6e015。
+
+Root以完整原文本核32字段、16全true门/15progress、精确scope/parameters/order/identity；16旧原records、四scope和accepted全逐字等于原型三hash。8 current/2AST/5math，input receipts168ee7e5e720447e762caaac1291d9366c4e93f43a2ff90cac7bee6b2255cdf5、AST602a50fccdde25e2253694bdfd856f5e3b1c315324880900d97a5697a63c4d05；runtime Python3.12.14/flint0.9.0/320bits。三图10/8/5=23槽，最长92B。完整图canonical+LF：forward1802B/05f5b742965700940158a8d8b26f0d78d6fcb4849a9affb5a9a6178d9abe0a77，coordinates1549B/cc017d50e4ed81cad2519a50b75a6e7b54995f71d24013fac602a111256b11b5，stable1322B/fda373f25260c956880bc5884d52e5ac5be672b2ac8d81efbc2a78be69a4de5d。
+
+- KLambda+: `[141.193338114685244512497543235565477903811740354802032645655700902537200683 +/- 6.84e-74]`
+- Ni 0: `[58.4555218876859644080734125988791898352764800412066670928638795018857278065 +/- 2.88e-74]`
+- Ni inverse 0: `[776.638118829540202218817534551538271360482147648106777846810552570201825427 +/- 4.70e-73]`
+- Ni -4/3: `[5820880.70108924034549622179082990441640584186735462238854309412204748833574 +/- 1.87e-69]`
+- Ni inverse -4/3: `[53052786824.8448885951218403284570560599254112027527196723364956100751274357 +/- 4.70e-65]`
+- C inverse 0: `[15936238064517.4828057467372890968538119846801465565268662528492477586809519 +/- 4.51e-63]`
+- C inverse -4/3: `[22522836490233569635107454255538470713632.6498065587114788209249542737189971 +/- 3.47e-35]`
+
+以上为原完整球；约数仅索引，用原上端点授界。五原forward输入保持真reverse/绝对short/eta lower；两独立physicalmean与完整head/rest/第二输入全保。
+
+Root按完整renderer与真实早期状态静态逐字重建两preGit：SCI+earlyreport5644B合35933B/e17b7933a27d6c181a5e7989b5644dd208fa63727ad339ebe1f5971fc773f6eb；earlyexecution9154B/df921f849e71a288b1a69c047f0ac8a209bc2f60c817c8121a010fe89ce04d7d。child完整stdout29955B/801b3fabc44817a9d860c040d08ad3fe9388ed3a5a27a9522364bece4a0d0f37亦由原SCI+原marker逐字重建吻合。仅hash/文字/metadata核，无本地数学。
+
+真实CLI两pull03:04:50.781149、03:04:55.477901都到bc20ed50，两README空diff。fresh容量199747711B先留150000B后才启动，最终三文件合47294B使projected199795005B；0history/旧producer/exp/log/R97/RNE重算，0artifact/Release/新数组。此唯一成功立即冻结；继续独立NIFA实际证明、NIFC固定域连续性与实际腰部双port/range，不以阶段报告停。fullincoming/finite/ν/背景/最终曲面仍未付。
