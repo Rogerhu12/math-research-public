@@ -300,3 +300,5 @@
 - [R896](results/R896-original-small-slack-prime-density-and-quartic-exclusion.md)：原N_D=47D²/24+41D/6+周期常数；逐p取最小N_D≥(p+1)/3后，a≤D+15在p≡11mod12中准确密度12/47、全素数密度3/47。已发表实幂素数等分布加完整AP Fourier/端点夹逼支付无穷性，故真排R895该quartic的p³；不排一般K1、不换别的固定D来源或声称Sha完成。
 
 - [R897](results/R897-original-endpoint-complete-wild-tame-system-and-specialization.md)：原同一CM商/普通对角塔与全部wild–tame norm已接通，保一侧ray到反对角的准确识别及统一格。各层sp D_n=E_{p,n}c_n，E_{p,n}为显式整群环unit；同底rank-one归一保。整个有界系统可除T当且仅当所有有限tame层c_n都零，单n1零只给trace零，不推出s0。
+
+- [R898](results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)：原P公开run43835679463的k4矩阵818×648在1000000033、a=50539607满列秩；结合完整M4基与分母单位，严格排所有特征零权4比值，也排权2。若原Ynew延成X0(867)有理函数，RR迫次数≥324。k6只53素数/1585位后取消，未认证也未排除。
