@@ -478,3 +478,5 @@
 - **R150真实162支撑的完备小化（2026-11-16）：** [原高源级153×60定理](results/R150-appendix-complete162-critical-high-slice-and-sixty-variable-reduction.md)在实际Lz=q/Lv=0/rank[v,z]=2门下，把全部162支持列准确参数化为T0的45、u的9及两份Sym²(v,z)各3；普通对角/全部6018来源均保，7独立真列才夹全高核。
 
 - **R150三数域完整高核恰七（2026-11-16）：** [完整特征零证明](results/R150-appendix-complete-critical-high-kernels-seven-in-all-three-number-fields.md)将162支持严格化成153×60，三域实rank53；七原列各43316乘回真，高6018行全零，配规定残域rank4259得完整Q高核7。实际39.423/50.272/276.666秒，normal≥3全零，低170×7返回全部保留。它覆盖早先Q维2…7的状态；尚未增加参数长度，完整首连接继续。
+
+- **R150原127首个完整广义检测族（2026-11-16）：** [E8-1两泛函完整证明](results/R150-appendix-original127-complete-generalized-E8-one-detectors.md)保全部1021 GB行，586真常单位后435×448；正规表示870×896 rank866、完整12×90残余rank2，88核含78自由jet＋10主分量。两泛函限制rank6→10，12252原GB jet及120参数作用乘回真；实际9.149秒。尚未4367运输或系数Bockstein，继续同源其余四factor。
