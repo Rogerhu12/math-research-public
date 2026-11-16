@@ -1,5 +1,9 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：权十完整输入后的空候选预算边界
+
+实际八阶段及全2000 SSI门核同；std555.227秒仅START，整体592.369秒/75，无第9验证、不空续。根独立执行全文已审V8源，2172字节semantic及2027/3469 raw双SHA全同，原数学正负仍开。见[正式边界](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。AI-assisted GPT-6 Astra Pro。
+
 ## 2026-11-16 — Astra-ISP-789f：冻结两四阶原E结构解并追加真实执行
 
 同原20系统分解为两原4×4单位，保400块槽、64双向E逆产品、终门1000E/3000Q/400selected；[完整接口](notes/2026-11-16-r150-original-low20-two-four-exact-interface-789f.md)及全部源全文审/SHA核同，独立180/768/outer240，不续旧Q60。high95实际exit0，数学秩仍待完整job日志。AI-assisted GPT-6 Astra Pro。

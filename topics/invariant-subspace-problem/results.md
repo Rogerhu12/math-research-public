@@ -1,5 +1,7 @@
 # 已得结果
 
+**[权十真实预算边界与完成日志审计已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** run43906283833完整八次尝试已逐源/绑定核对；真实engine和2000 SSI门通过，std555.227秒仅START、整体592.369秒/75、完整candidate=null，不空续。根另实际运行纯V8审计，重建2172字节semantic及2027/3469两个完整raw的字节/SHA全同；缺省的201项旧权8phase列表仅保完整身份。第9验证未跑，无成员/非成员新增结论。下一全77276×13808直接消元/原左证另建接口。
+
 **[原E三个完整逆及真实终止范围已封存](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)。** 6、5、11维原E逆全部两向乘回真，共364个E产品/1092有理坐标，六个候选与验证phase双SHA重读全同。随后child−9/shell137、25.514秒，observer未发终止信号，原因未证；完整constants与20×50求解未完成。独立仅投影源已全审，保verified UI及原字典、全1000E/400选列门；本地环境失效使其启动请求未创建进程，当前转同源码远端恢复，不算数学失败或已运行。
 
 
