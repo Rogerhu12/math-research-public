@@ -29,7 +29,7 @@
 
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点degree2643来源均不覆盖例外。全essT3≤3已证matched Bell零；真W±Cat3点33梯度全零，所以不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
-- **[原十行116种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭。** [运行时失败](notes/2026-11-16-r150-original-parameter-module-python-runtime-failure-789f.md)由全118物理/逻辑文件核为gzip头差；仅workflow固定3.12.14。新run43878449638父模型/压缩成功，候选回执已返回而无完整candidate，根正核日志。[正门](notes/2026-11-16-r150-original-compressed-parameter-module-positive127-interface-789f.md)保全10/18/17、U=I及独立E门；仅75加新完整验证前缀可续。
+- **[原十行116种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭。** [固定运行时后三步实际边界](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)：run43878449638/job133337613806模型0/压缩0；真实module正负/SSI/U=I自测与全部500原坐标真。候选实584.999秒仅START，整体592.055秒/exit75，无candidate/source、null→null不空续。根独读全日志并核三raw/全manifest SHA。改用新来源或受控局部入口；全10/18/17和另E门仍欠，未判稳定闭包或成员正负。
 
 - **[30均值首层原来源及完整权7秩312](results/R150-appendix-original-thirty-mean-images-and-complete-weight-seven-rank312.md)：** V_ij=NiYj、τ_ij=uiσj−SiYj，全原18乘回；全部7754×312满列秩，旧282前缀与30新增商维30。实17.097秒；root另读61双SHA并核全部2,419,248原来源坐标产品/312真主元，实15.649秒。仅此有限权前缀，不声称相对整个L0严格新增/稳定/e0/E；后继沿完整来源继续。
 

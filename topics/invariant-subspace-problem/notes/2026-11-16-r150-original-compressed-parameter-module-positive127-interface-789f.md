@@ -155,3 +155,7 @@ python 2026-11-16-r150-original-compressed-parameter-module-positive127-789f.py
 ## 10. 首次真实作业与固定运行时重建
 
 实际 run43876083196 的完整模型成功，但压缩入口在父manifest物理SHA门停止；尚未执行Singular自测或候选。[完整失败记录与118文件核验](2026-11-16-r150-original-parameter-module-python-runtime-failure-789f.md)精确定位Python3.14的gzip OS头差。当前workflow仅增加setup-python@v5并固定Python3.12.14；原所有数学源码、request、输入字节pin和binding均保留。新版仍从完整父模型重新运行全部三步，只有实际命中旧manifest物理SHA并完成原门才推进。/root另直接对完成日志的全部118实际描述符逐一核对，只改内存OS头后所有stored/logical SHA均相同，实际0.65624055秒/exit0，原文件未改。
+
+## 11. 固定运行时后真实600秒边界
+
+独立 run43878449638/job133337613806 已结束，全部原模型、50列压缩、真实module正负/SSI/lift U=I/独立FLINT自测和500原SSI坐标均通过。实际候选584.998632592秒只出现START，第三步592.055255068秒、exit75，未产生完整candidate或来源；wrapper实见null→null而没有启动1200/1800空续。完整执行身份、三raw、manifest和root独立核验见[实际边界](2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)。本接口的数学正门未完成，不能以该预算结果判成员正负；后继采用另有原来源的输入或局部图。
