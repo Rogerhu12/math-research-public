@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：07dafecef13e725aff7cc850dd4631029f0909b6**（2026-11-16T00:29:40.012214+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次点与极理想启动前H](handoff-archive-2026-11-16-before-Hom-word-and-pole-launch.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：84a4bff41a469826a58dfa5d62e7a79a805bc4d2**（2026-11-16T00:30:32.841833+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次点与极理想启动前H](handoff-archive-2026-11-16-before-Hom-word-and-pole-launch.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -37,7 +37,7 @@
 
 **原Hom字消费者已激活待真产物**：core719c170a/wrapperbb0cce85/request3d36761a/workflow0e33bba7；251件原源含R843真实非挠66件与185父载体，旧50node逐字导入。只五原g_j点/七σ及比较函数DAG，30min；所有展开/A.1/全局极除子/eta-height仍false，run待实际读取。
 
-**原D铅笔与八生成元方法已证**：[完整方法](notes/R839-original-D-pencil-and-eight-generator-pole-ideal.md)ccf70498：原Ey=ℬ+3D，W_D完整且deg(3H−D)=421全局生成；两截面a,b共同零D+Z时原V3²→V6秩1111−degZ。因此五旧纤维1360×1380的真1111minor足证I_D=(a,b)，无需评价注入。原u/v给八个V11乘法DAG，I_Ey=I_ℬ I_D³；实下降I_EyR=(y²−b)I_Ey³保原主函数。仅新690个旧τ²V3=V5 RHS/full1380与五纤维乘法；旧Krylov/S5逆/前缀复用，1111任务待真输出。五加法极除子/η未成。
+**原D铅笔与八生成元方法已证**：[完整方法](notes/R839-original-D-pencil-and-eight-generator-pole-ideal.md)ccf70498：原Ey=ℬ+3D，W_D完整且deg(3H−D)=421全局生成；两截面a,b共同零D+Z时原V3²→V6秩1111−degZ。因此五旧纤维1360×1380的真1111minor足证I_D=(a,b)，无需评价注入。原u/v给八个V11乘法DAG，I_Ey=I_ℬ I_D³；实下降I_EyR=(y²−b)I_Ey³保原主函数。仅新690个旧τ²V3=V5 RHS/full1380与五纤维乘法；旧Krylov/S5逆/前缀复用，[五纤维执行契约](notes/R839-original-five-fiber-pole-pencil-method.md)f8bc9d63固定七源1979件、690新RHS/23组和原五节点；1111任务待真输出。五加法极除子/η未成。
 
 ## 后继来源与期限
 
