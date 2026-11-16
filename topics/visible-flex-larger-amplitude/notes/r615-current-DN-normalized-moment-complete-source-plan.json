@@ -1,0 +1,814 @@
+{
+  "schema": "R615-live128-normalized-moment-complete-source-plan-v1",
+  "generator": {
+    "file": "root_20261116_live128_normalized_moment_source_views.py",
+    "bytes": 29985,
+    "sha256": "3329580248e7a19121d4e1fe05e65334ba667b46d48f0272aed17725845521b7"
+  },
+  "parent": {
+    "request": {
+      "file": "computations/public-live128-current-DN-input-support-composition-request.json",
+      "bytes": 12474,
+      "sha256": "160492decfaeef22c37e391f8001ed11105b6c988723ab32b056bc6e3283877c"
+    },
+    "request_number": 250,
+    "request_schema": "public-live128-input-support-composition-request-v1",
+    "source_generator": {
+      "file": "root_20261116_live128_input_support_source_views.py",
+      "bytes": 29284,
+      "sha256": "ae2167c351f728089fdd308adbb8acbed6c6318ac28a99a264e9384ae73c7426"
+    },
+    "source_plan": {
+      "file": "notes/r603-current-DN-input-support-complete-source-plan.json",
+      "bytes": 37436,
+      "sha256": "a5ec7151e5953989bc486250f2697e5e8920babf51cc4adafb7e3ba539e212ac"
+    },
+    "preparation_schema": "R603-live128-input-support-complete-source-preparation-v1",
+    "necessary_schema": "R603-live128-input-support-complete-source-preparation-v1-necessary-v1",
+    "current_request_schema": "public-live128-input-support-original-full112-FD-fullDN-request-v1",
+    "source_preparation_directory": "request250-source-preparation",
+    "record_basename": "source-views.json",
+    "overflow_basename": "necessary-source-overflow.json",
+    "source_contract_is_ancestry_only": true,
+    "published_main": "25265e7eaca1b00a879311032a8520546516416c"
+  },
+  "counts": {
+    "parent_complete_sources": 466,
+    "parent_public_sources": 366,
+    "parent_generated_sources": 100,
+    "new_public_sources": 4,
+    "new_generated_views": 10,
+    "complete_sources": 480,
+    "public_sources": 370,
+    "generated_sources": 110
+  },
+  "additional_public_sources": [
+    {
+      "file": "geometry_20261116_normalized_six_moment_fourier_jacobian.mjs",
+      "bytes": 9963,
+      "sha256": "54a76c39befca05381f10b744c5986ac761dffb8db6d3ebe4fa0c48fa9f5d6d7"
+    },
+    {
+      "file": "geometry_20261116_normalized_six_moment_fourier_product_flow.mjs",
+      "bytes": 2814,
+      "sha256": "b768c6bf377e1a7d3ebe03692948ac0f42ed3d6cdc50ff67a16662fa45043453"
+    },
+    {
+      "file": "geometry_20261116_normalized_six_moment_root_split_factory.mjs",
+      "bytes": 2415,
+      "sha256": "1f3f99b01b59565e6713cc894082e0579f92558e2f7cc71d65a8cb0ce08ba386"
+    }
+  ],
+  "current_factory": {
+    "file": "geometry_20261116_current_DN_normalized_moment_input_support_flow.mjs",
+    "bytes": 6625,
+    "sha256": "f1f21641f3f7c2f36616d7f2a841ef8cab94251eaac3758ca221b0bba0bbb011"
+  },
+  "current_product_helper": {
+    "file": "geometry_20261116_finite_trace_actual_input_support_linear.mjs",
+    "bytes": 6246,
+    "sha256": "e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3"
+  },
+  "current_normalized_local_J": {
+    "file": "geometry_20261116_normalized_six_moment_fourier_jacobian.mjs",
+    "bytes": 9963,
+    "sha256": "54a76c39befca05381f10b744c5986ac761dffb8db6d3ebe4fa0c48fa9f5d6d7"
+  },
+  "actual_Fourier_product_flow": {
+    "file": "geometry_20261116_normalized_six_moment_fourier_product_flow.mjs",
+    "bytes": 2814,
+    "sha256": "b768c6bf377e1a7d3ebe03692948ac0f42ed3d6cdc50ff67a16662fa45043453"
+  },
+  "actual_root_split_factory": {
+    "file": "geometry_20261116_normalized_six_moment_root_split_factory.mjs",
+    "bytes": 2415,
+    "sha256": "1f3f99b01b59565e6713cc894082e0579f92558e2f7cc71d65a8cb0ce08ba386"
+  },
+  "unchanged_model_consumers": {
+    "owner": {
+      "file": "geometry_20261116_live128_synthesis_product_projected_same_call_owner.py",
+      "bytes": 26666,
+      "sha256": "2af373696034e49f61e6dcc49707e668ed60d600b5a4f9dbf0d71d85cd24ad17"
+    },
+    "model_library": {
+      "file": "geometry_20261116_live128_same_dn_projected_stages.mjs",
+      "bytes": 32316,
+      "sha256": "2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a"
+    },
+    "final_components": {
+      "file": "geometry_20261116_live128_projected_model_final_components.py",
+      "bytes": 38561,
+      "sha256": "c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e"
+    },
+    "response_assembly": {
+      "file": "geometry_20261116_live128_projected_model_response_assembly.py",
+      "bytes": 33269,
+      "sha256": "863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a"
+    }
+  },
+  "roles": {
+    "current_factory": {
+      "file": "geometry_20261116_current_DN_normalized_moment_input_support_flow.mjs",
+      "bytes": 6625,
+      "sha256": "f1f21641f3f7c2f36616d7f2a841ef8cab94251eaac3758ca221b0bba0bbb011"
+    },
+    "system": {
+      "file": "exact_20261116_live128_normalized_moment_current576_system.py",
+      "bytes": 29117,
+      "sha256": "231b181fe9bb357f8dd40054085aa885985b7dc3f8bd4daf9e49f5cda58d4fa6"
+    },
+    "qr": {
+      "file": "exact_20261116_live128_normalized_moment_current576_chain_qr.py",
+      "bytes": 21848,
+      "sha256": "b0c4bf366945b578f75d133cb427f8f4b6944e0abdfdbef75f2b0c2b9c148be5"
+    },
+    "pipeline": {
+      "file": "geometry_20261116_live128_normalized_moment_call_pipeline.py",
+      "bytes": 43266,
+      "sha256": "b35179c75351edc50d4aba725f6b754ea165ca8090acccfe4987e760c9a61ad0"
+    },
+    "call": {
+      "file": "geometry_20261116_live128_normalized_moment_current_call.mjs",
+      "bytes": 51193,
+      "sha256": "337b769cff9260dc2c7d2ddb40dd2ff0e0225ecf54ebab5a6c8cc3ca95a1283f"
+    },
+    "worker": {
+      "file": "geometry_20261116_live128_normalized_moment_worker.mjs",
+      "bytes": 9025,
+      "sha256": "08c8bab4c91f0038c55b6fa75f3a03a34ec0c54a16b89a157a5e947a0f8853df"
+    },
+    "client": {
+      "file": "geometry_20261116_live128_normalized_moment_tail_client.py",
+      "bytes": 42721,
+      "sha256": "64cb7979dc1874bca5175b950e2772efc56f27eb303294dff0c6e16fd3ddd538"
+    },
+    "fulldn": {
+      "file": "geometry_20261116_live128_normalized_moment_original_full_dn.py",
+      "bytes": 49006,
+      "sha256": "49bd45f7cc55ce62474bf6f41d7f82f48d4b2f1af1460c8ca1d8112ed4d0ace7"
+    },
+    "runner": {
+      "file": "geometry_20261116_live128_normalized_moment_owned_run.py",
+      "bytes": 39362,
+      "sha256": "74c6fe1694ecc7d02605e4fe5131e3a0a8c3462b4925760d08d62a53dabb75a1"
+    },
+    "reader": {
+      "file": "root_20261116_live128_normalized_moment_necessary.py",
+      "bytes": 68247,
+      "sha256": "94078d508648b97f2c3cd9d71f2c4381224ba12029d8eb091e0e757a933ae4f2"
+    }
+  },
+  "views": [
+    {
+      "role": "current_factory",
+      "baseline": {
+        "file": "geometry_20261116_current_DN_input_support_fourier_product_flow.mjs",
+        "bytes": 5625,
+        "sha256": "f37bee075251957649c9ee5dc25582fac5c17fc3d3b804219cb537abf35f24f0"
+      },
+      "patches": [
+        {
+          "id": "current-component-header",
+          "before": "// R602: original Fourier-product local Jacobian and original717ac RK/grid.\n// Only its complete A*T uses the published R523 actual-input support helper.\n// Original root/rows/six moments/one Cholesky/all224 right sides already share;\n// they are not new optimizations here. This module supplies a real factory,\n// not a replacement finite-root-trace algorithm or a scientific acceptance gate.",
+          "after": "// R615/request253: same original complete Fourier-product J with R611's\n// same-engine original normalized table words and R602/R523 complete A*T.\n// One actual local-J constructor is used; no old unused local-J table is built.\n// Original root/rows/Cholesky/RK/all224 directions and both means remain.",
+          "count": 1
+        },
+        {
+          "id": "actual-factory-schema",
+          "before": "'R602-original-Fourier-product-current-DN-actual-input-support-v1'",
+          "after": "'R615-current-DN-input-support-and-normalized-six-moment-v1'",
+          "count": 1
+        },
+        {
+          "id": "separate-actual-and-original-source-paths",
+          "before": "const factoryPath=path.resolve(topic,'scripts/78718-tail-fourier-root-split-engine.mjs'),\n flowPath=path.resolve(topic,'scripts/78718-tail-fourier-product-flow.mjs'),\n jacobianPath=path.resolve(topic,'scripts/78718-tail-fourier-product-jacobian.mjs'),\n gridPath=path.resolve(sourceRoot,'topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs');",
+          "after": "const originalFactoryPath=path.resolve(topic,'scripts/78718-tail-fourier-root-split-engine.mjs'),\n flowPath=path.resolve(topic,'scripts/78718-tail-fourier-product-flow.mjs'),\n jacobianPath=path.resolve(topic,'scripts/78718-tail-fourier-product-jacobian.mjs'),\n rootPath=path.resolve(topic,'scripts/78718-tail-fourier-root-momentum.mjs'),\n factoryPath=fileURLToPath(new URL('./geometry_20261116_normalized_six_moment_root_split_factory.mjs',import.meta.url)),\n actualFlowPath=fileURLToPath(new URL('./geometry_20261116_normalized_six_moment_fourier_product_flow.mjs',import.meta.url)),\n actualJacobianPath=fileURLToPath(new URL('./geometry_20261116_normalized_six_moment_fourier_jacobian.mjs',import.meta.url)),\n gridPath=path.resolve(sourceRoot,'topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs');",
+          "count": 1
+        },
+        {
+          "id": "actual-complete-constructor-and-normalized-source-receipts",
+          "before": " original_factory:bindSource(factoryPath,{bytes:2045,\n  sha256:'a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372'}),",
+          "after": " original_factory:bindSource(originalFactoryPath,{bytes:2045,\n  sha256:'a47df10fcde701c6c657b496d003dbe837eecfca4a51abaf40d6f7c387049372'}),\n actual_factory:bindSource(factoryPath,{bytes:2415,\n  sha256:'1f3f99b01b59565e6713cc894082e0579f92558e2f7cc71d65a8cb0ce08ba386'}),\n actual_Fourier_product_flow:bindSource(actualFlowPath,{bytes:2814,\n  sha256:'b768c6bf377e1a7d3ebe03692948ac0f42ed3d6cdc50ff67a16662fa45043453'}),\n actual_normalized_local_J:bindSource(actualJacobianPath,{bytes:9963,\n  sha256:'54a76c39befca05381f10b744c5986ac761dffb8db6d3ebe4fa0c48fa9f5d6d7'}),\n actual_original_root_module:bindSource(rootPath),",
+          "count": 1
+        },
+        {
+          "id": "explicit-new-normalization-scope",
+          "before": " local_J_is_original_Fourier_product_moments_not_finite_root_trace:true,",
+          "after": " local_J_is_original_Fourier_product_moments_not_finite_root_trace:true,\n local_J_uses_actual_R611_same_engine_original_division_words:true,\n one_actual_local_J_constructor_without_an_unused_legacy_J_table:true,\n original78_source_restore_binds_the_actual_original_root_module:true,",
+          "count": 1
+        },
+        {
+          "id": "actual-construction-alias",
+          "before": "const {createFourierRootSplitFluxEngine:originalFactory}=\n await import(pathToFileURL(factoryPath));",
+          "after": "const {createFourierRootSplitFluxEngine:actualNormalizedFactory}=\n await import(pathToFileURL(factoryPath));",
+          "count": 1
+        },
+        {
+          "id": "actual-one-normalized-construction",
+          "before": "// Same signature as the original worker factory. OriginalFactory constructs\n// exactly its original root/split/RHS/local-J objects, tables and cusp wrapper.\n// Its original withJ closure is replaced; rhsWithJacobian itself is not rebuilt.\n// Each actual engine gets one separate statistics object; original statistics\n// and all existing function references except flowStateWithJacobian survive.",
+          "after": "// Same worker factory signature. The declared actual factory constructs the\n// original root/split/RHS and one R611 local-J, then the original cusp wrapper.\n// This original R602 flow consumes that actual rhsWithJacobian without rebuilding\n// its tables. Original statistics and R611's complete observer objects survive.",
+          "count": 1
+        },
+        {
+          "id": "actual-factory-invocation",
+          "before": " const base=originalFactory(options),{M,size,rhsWithJacobian}=base,Kdim=2*M,",
+          "after": " const base=actualNormalizedFactory(options),{M,size,rhsWithJacobian}=base,Kdim=2*M,",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_current_DN_normalized_moment_input_support_flow.mjs",
+        "bytes": 6625,
+        "sha256": "f1f21641f3f7c2f36616d7f2a841ef8cab94251eaac3758ca221b0bba0bbb011"
+      }
+    },
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_input_support_current576_system.py",
+        "bytes": 29109,
+        "sha256": "d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338"
+      },
+      "patches": [
+        {
+          "id": "actual-client-basename",
+          "before": "geometry_20261116_live128_input_support_tail_client.py",
+          "after": "geometry_20261116_live128_normalized_moment_tail_client.py",
+          "count": 1
+        },
+        {
+          "id": "actual-hook-basename",
+          "before": "geometry_20261116_live128_input_support_current_call.mjs",
+          "after": "geometry_20261116_live128_normalized_moment_current_call.mjs",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_live128_normalized_moment_current576_system.py",
+        "bytes": 29117,
+        "sha256": "231b181fe9bb357f8dd40054085aa885985b7dc3f8bd4daf9e49f5cda58d4fa6"
+      }
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_input_support_current576_chain_qr.py",
+        "bytes": 21844,
+        "sha256": "1d880f96a979dd9d60e17c8c4e3001f7dd143a8393324fe34e3596a4cb967d67"
+      },
+      "patches": [
+        {
+          "id": "actual-current-system",
+          "before": "exact_20261116_live128_input_support_current576_system.py",
+          "after": "exact_20261116_live128_normalized_moment_current576_system.py",
+          "count": 1
+        },
+        {
+          "id": "actual-current-system-hash",
+          "before": "d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338",
+          "after": "231b181fe9bb357f8dd40054085aa885985b7dc3f8bd4daf9e49f5cda58d4fa6",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_live128_normalized_moment_current576_chain_qr.py",
+        "bytes": 21848,
+        "sha256": "b0c4bf366945b578f75d133cb427f8f4b6944e0abdfdbef75f2b0c2b9c148be5"
+      }
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_input_support_call_pipeline.py",
+        "bytes": 43258,
+        "sha256": "de7cb5aae4e80694a899ca36eaa6e067d14f8af60dfd7da074805316a8ff3303"
+      },
+      "patches": [
+        {
+          "id": "actual-QR-name",
+          "before": "exact_20261116_live128_input_support_current576_chain_qr.py",
+          "after": "exact_20261116_live128_normalized_moment_current576_chain_qr.py",
+          "count": 1
+        },
+        {
+          "id": "actual-QR-hash",
+          "before": "1d880f96a979dd9d60e17c8c4e3001f7dd143a8393324fe34e3596a4cb967d67",
+          "after": "b0c4bf366945b578f75d133cb427f8f4b6944e0abdfdbef75f2b0c2b9c148be5",
+          "count": 1
+        },
+        {
+          "id": "actual-system-name",
+          "before": "exact_20261116_live128_input_support_current576_system.py",
+          "after": "exact_20261116_live128_normalized_moment_current576_system.py",
+          "count": 1
+        },
+        {
+          "id": "actual-system-hash",
+          "before": "d16c37c7732ab9b2b9b7ba2eb5f1203bc9d95617e35171ceacce4d6ec36ea338",
+          "after": "231b181fe9bb357f8dd40054085aa885985b7dc3f8bd4daf9e49f5cda58d4fa6",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_normalized_moment_call_pipeline.py",
+        "bytes": 43266,
+        "sha256": "b35179c75351edc50d4aba725f6b754ea165ca8090acccfe4987e760c9a61ad0"
+      }
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_input_support_current_call.mjs",
+        "bytes": 48864,
+        "sha256": "678a216ea7c030ca2b66129befb6a4f9f8f53845c46daa4bfc32b668b8c830cb"
+      },
+      "patches": [
+        {
+          "id": "actual-source-name-client",
+          "before": "geometry_20261116_live128_input_support_tail_client.py",
+          "after": "geometry_20261116_live128_normalized_moment_tail_client.py",
+          "count": 2
+        },
+        {
+          "id": "actual-source-name-call",
+          "before": "geometry_20261116_live128_input_support_current_call.mjs",
+          "after": "geometry_20261116_live128_normalized_moment_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "actual-source-name-worker",
+          "before": "geometry_20261116_live128_input_support_worker.mjs",
+          "after": "geometry_20261116_live128_normalized_moment_worker.mjs",
+          "count": 1
+        },
+        {
+          "id": "actual-factory-schema",
+          "before": "'R602-original-Fourier-product-current-DN-actual-input-support-v1'",
+          "after": "'R615-current-DN-input-support-and-normalized-six-moment-v1'",
+          "count": 1
+        },
+        {
+          "id": "actual-factory-hash",
+          "before": "'f37bee075251957649c9ee5dc25582fac5c17fc3d3b804219cb537abf35f24f0'",
+          "after": "'f1f21641f3f7c2f36616d7f2a841ef8cab94251eaac3758ca221b0bba0bbb011'",
+          "count": 1
+        },
+        {
+          "id": "whole-two-observer-binding-pools",
+          "before": " const engines=[],indexes=new Map(),stage_to_engine=[],bindings=[];",
+          "after": " const engines=[],indexes=new Map(),stage_to_engine=[],bindings=[],moment_bindings=[];",
+          "count": 1
+        },
+        {
+          "id": "actual-normalized-component-binding",
+          "before": "    throw Error('Actual current-DN R602 factory/helper source binding');\n   let source_index=",
+          "after": "    throw Error('Actual current-DN R615 factory and unchanged R523 helper source binding');\n   const moment=engine.normalizedMomentSourceBinding,statistics=engine.normalizedMomentStatistics;\n   if(engine.momentEvaluation!=='R611-current-Fourier-product-six-moment-original-normalization-v1'||\n      !moment||!statistics||statistics.schema!=='R611-current-Fourier-product-six-moment-original-normalization-v1-statistics'||\n      moment.current_source.sha256!=='54a76c39befca05381f10b744c5986ac761dffb8db6d3ebe4fa0c48fa9f5d6d7'||\n      encode(moment.current_source)!==encode(binding.actual_normalized_local_J)||\n      spec.frozen_sources[path.basename(moment.current_source.file)]!==moment.current_source.sha256)\n    throw Error('Actual one-engine R611 normalized local-J source and complete observers');\n   for(const id of [binding.actual_factory,binding.actual_Fourier_product_flow,binding.actual_normalized_local_J])\n    if(!id||spec.frozen_sources[path.basename(id.file)]!==id.sha256)\n     throw Error('Every current normalized-moment constructor source is genuinely bound');\n   let moment_source_index=moment_bindings.findIndex(row=>encode(row)===encode(moment));\n   if(moment_source_index<0){moment_source_index=moment_bindings.length;moment_bindings.push(moment);}\n   let source_index=",
+          "count": 1
+        },
+        {
+          "id": "actual-engine-both-source-indices",
+          "before": "engines.push({engine,source_index,actual_flow_source_sha256:",
+          "after": "engines.push({engine,source_index,moment_source_index,actual_flow_source_sha256:",
+          "count": 1
+        },
+        {
+          "id": "actual-binding-pools-return",
+          "before": " return {engines,stage_to_engine,bindings};",
+          "after": " return {engines,stage_to_engine,bindings,moment_bindings};",
+          "count": 1
+        },
+        {
+          "id": "current-progress-schema",
+          "before": "'R603-current-DN-actual-engine-input-support-progress-v1'",
+          "after": "'R615-current-DN-input-support-and-normalized-moment-progress-v1'",
+          "count": 1
+        },
+        {
+          "id": "full-normalized-bindings-in-progress",
+          "before": "  actual_source_bindings:ctx.support.bindings,",
+          "after": "  actual_source_bindings:ctx.support.bindings,\n  actual_normalized_moment_source_bindings:ctx.support.moment_bindings,",
+          "count": 1
+        },
+        {
+          "id": "full-eight-counters-and-safe-integer-scope",
+          "before": "   actual_statistics:row.engine.linearInputSupportStatistics})),",
+          "after": "   actual_statistics:row.engine.linearInputSupportStatistics,\n   normalized_moment_source_binding_index:row.moment_source_index,\n   actual_normalized_moment_statistics:row.engine.normalizedMomentStatistics,\n   normalized_moment_counter_scope:{\n    accurate_integer_count_interpretation_requires_safe_integer:true,\n    original_Number_values_preserved_without_clamping_or_conversion:true,\n    source_has_no_BigInt_or_counter_overflow_detection:true,\n    qualification_does_not_reject_science:true,\n    actual_safe_integer_fields:Object.fromEntries([\n     'table_elements_scanned','normalization_divisions_completed','rhs_calls_started','rhs_calls_returned',\n     'cached_moment_rows_completed','fallback_moment_rows_completed',\n     'cached_normalized_table_reads_in_complete_rows','fallback_normalization_divisions_in_complete_rows'\n    ].map(name=>[name,Number.isSafeInteger(row.engine.normalizedMomentStatistics[name])]))}})),",
+          "count": 1
+        },
+        {
+          "id": "core-whole-normalized-source-binding",
+          "before": "  actual_input_support_stage_to_engine:inputSupport.stage_to_engine,\n  actual_flow_factory_is_R602:true,original_flow_source_claimed_identical:false,",
+          "after": "  actual_input_support_stage_to_engine:inputSupport.stage_to_engine,\n  actual_normalized_moment_source_bindings:inputSupport.moment_bindings,\n  actual_flow_factory_combines_R602_AT_and_R611_same_engine_normalized_words:true,\n  original_flow_source_claimed_identical:false,",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_normalized_moment_current_call.mjs",
+        "bytes": 51193,
+        "sha256": "337b769cff9260dc2c7d2ddb40dd2ff0e0225ecf54ebab5a6c8cc3ca95a1283f"
+      }
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_input_support_worker.mjs",
+        "bytes": 8878,
+        "sha256": "18a6da3f8a9133128e048686fd78c11b05d7cbecbac9e459e652cd6c30520370"
+      },
+      "patches": [
+        {
+          "id": "actual-flow-factory",
+          "before": "geometry_20261116_current_DN_input_support_fourier_product_flow.mjs",
+          "after": "geometry_20261116_current_DN_normalized_moment_input_support_flow.mjs",
+          "count": 1
+        },
+        {
+          "id": "actual-current-call",
+          "before": "geometry_20261116_live128_input_support_current_call.mjs",
+          "after": "geometry_20261116_live128_normalized_moment_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "truthful-current-local-J-normalization",
+          "before": " original_Fourier_product_local_J_and_717ac_grid_retained:true,\n R602_replaces_only_withJ_A_times_T_actual_input_support:true,",
+          "after": " original_Fourier_product_local_J_math_and_717ac_grid_retained:true,\n R602_actual_withJ_A_times_T_input_support_retained:true,\n R611_one_actual_same_engine_normalized_trigonometric_word_table:true,\n old205b_source_identity_is_ancestry_not_new_execution_identity:true,",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_normalized_moment_worker.mjs",
+        "bytes": 9025,
+        "sha256": "08c8bab4c91f0038c55b6fa75f3a03a34ec0c54a16b89a157a5e947a0f8853df"
+      }
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_input_support_tail_client.py",
+        "bytes": 41346,
+        "sha256": "c4aaf9f1da54f6cf843cc138b79bce4a9d94a07a990118ae3bf494ff864c4e39"
+      },
+      "patches": [
+        {
+          "id": "actual-QR-module",
+          "before": "source_file=\"exact_20261116_live128_input_support_current576_chain_qr.py\"",
+          "after": "source_file=\"exact_20261116_live128_normalized_moment_current576_chain_qr.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-QR-pin-selection",
+          "before": "LIVE_SOURCE_PINS[\"exact_20261116_live128_input_support_current576_chain_qr.py\"]",
+          "after": "LIVE_SOURCE_PINS[\"exact_20261116_live128_normalized_moment_current576_chain_qr.py\"]",
+          "count": 1
+        },
+        {
+          "id": "actual-system-pin-selection",
+          "before": "LIVE_SOURCE_PINS[\"exact_20261116_live128_input_support_current576_system.py\"]",
+          "after": "LIVE_SOURCE_PINS[\"exact_20261116_live128_normalized_moment_current576_system.py\"]",
+          "count": 1
+        },
+        {
+          "id": "actual-hook-pin-selection",
+          "before": "LIVE_SOURCE_PINS[\"geometry_20261116_live128_input_support_current_call.mjs\"]",
+          "after": "LIVE_SOURCE_PINS[\"geometry_20261116_live128_normalized_moment_current_call.mjs\"]",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-module",
+          "before": "pipeline=dict(source_file=\"geometry_20261116_live128_input_support_call_pipeline.py\"",
+          "after": "pipeline=dict(source_file=\"geometry_20261116_live128_normalized_moment_call_pipeline.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-pin-selection",
+          "before": "LIVE_SOURCE_PINS[\"geometry_20261116_live128_input_support_call_pipeline.py\"]",
+          "after": "LIVE_SOURCE_PINS[\"geometry_20261116_live128_normalized_moment_call_pipeline.py\"]",
+          "count": 1
+        },
+        {
+          "id": "actual-worker-command",
+          "before": "str(HERE/\"geometry_20261116_live128_input_support_worker.mjs\")",
+          "after": "str(HERE/\"geometry_20261116_live128_normalized_moment_worker.mjs\")",
+          "count": 1
+        },
+        {
+          "id": "retain-all-old-pins-add-whole-current-family",
+          "before": "\ndef sha(path):",
+          "after": "\n# R615: all previous LIVE_SOURCE_PINS remain; these are additional real sources.\nLIVE_SOURCE_PINS.update({\n    \"geometry_20261116_normalized_six_moment_fourier_jacobian.mjs\": \"54a76c39befca05381f10b744c5986ac761dffb8db6d3ebe4fa0c48fa9f5d6d7\",\n    \"geometry_20261116_normalized_six_moment_fourier_product_flow.mjs\": \"b768c6bf377e1a7d3ebe03692948ac0f42ed3d6cdc50ff67a16662fa45043453\",\n    \"geometry_20261116_normalized_six_moment_root_split_factory.mjs\": \"1f3f99b01b59565e6713cc894082e0579f92558e2f7cc71d65a8cb0ce08ba386\",\n    \"geometry_20261116_current_DN_normalized_moment_input_support_flow.mjs\": \"f1f21641f3f7c2f36616d7f2a841ef8cab94251eaac3758ca221b0bba0bbb011\",\n    \"exact_20261116_live128_normalized_moment_current576_system.py\": \"231b181fe9bb357f8dd40054085aa885985b7dc3f8bd4daf9e49f5cda58d4fa6\",\n    \"exact_20261116_live128_normalized_moment_current576_chain_qr.py\": \"b0c4bf366945b578f75d133cb427f8f4b6944e0abdfdbef75f2b0c2b9c148be5\",\n    \"geometry_20261116_live128_normalized_moment_call_pipeline.py\": \"b35179c75351edc50d4aba725f6b754ea165ca8090acccfe4987e760c9a61ad0\",\n    \"geometry_20261116_live128_normalized_moment_current_call.mjs\": \"337b769cff9260dc2c7d2ddb40dd2ff0e0225ecf54ebab5a6c8cc3ca95a1283f\",\n    \"geometry_20261116_live128_normalized_moment_worker.mjs\": \"08c8bab4c91f0038c55b6fa75f3a03a34ec0c54a16b89a157a5e947a0f8853df\"\n})\n\ndef sha(path):",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_normalized_moment_tail_client.py",
+        "bytes": 42721,
+        "sha256": "64cb7979dc1874bca5175b950e2772efc56f27eb303294dff0c6e16fd3ddd538"
+      }
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_input_support_original_full_dn.py",
+        "bytes": 47523,
+        "sha256": "b2bae392a4746db7e9741fa6b26c893f124cb48c4c2448f2c9a277fe2934e542"
+      },
+      "patches": [
+        {
+          "id": "actual-client-selector",
+          "before": "CLIENT_NAME = \"geometry_20261116_live128_input_support_tail_client.py\"",
+          "after": "CLIENT_NAME = \"geometry_20261116_live128_normalized_moment_tail_client.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-client-complete-source",
+          "before": "CLIENT_NAME: \"c4aaf9f1da54f6cf843cc138b79bce4a9d94a07a990118ae3bf494ff864c4e39\"",
+          "after": "CLIENT_NAME: \"64cb7979dc1874bca5175b950e2772efc56f27eb303294dff0c6e16fd3ddd538\"",
+          "count": 1
+        },
+        {
+          "id": "current-fullDN-schema",
+          "before": "\"R603-live128-input-support-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "after": "\"R615-live128-normalized-moment-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "count": 1
+        },
+        {
+          "id": "retain-old-client-and-complete-current-family",
+          "before": "\ndef sha(path):",
+          "after": "\n# R615: preserve every former SOURCE_PINS item, including the former actual client.\nSOURCE_PINS.update({\n    \"geometry_20261116_normalized_six_moment_fourier_jacobian.mjs\": \"54a76c39befca05381f10b744c5986ac761dffb8db6d3ebe4fa0c48fa9f5d6d7\",\n    \"geometry_20261116_normalized_six_moment_fourier_product_flow.mjs\": \"b768c6bf377e1a7d3ebe03692948ac0f42ed3d6cdc50ff67a16662fa45043453\",\n    \"geometry_20261116_normalized_six_moment_root_split_factory.mjs\": \"1f3f99b01b59565e6713cc894082e0579f92558e2f7cc71d65a8cb0ce08ba386\",\n    \"geometry_20261116_current_DN_normalized_moment_input_support_flow.mjs\": \"f1f21641f3f7c2f36616d7f2a841ef8cab94251eaac3758ca221b0bba0bbb011\",\n    \"exact_20261116_live128_normalized_moment_current576_system.py\": \"231b181fe9bb357f8dd40054085aa885985b7dc3f8bd4daf9e49f5cda58d4fa6\",\n    \"exact_20261116_live128_normalized_moment_current576_chain_qr.py\": \"b0c4bf366945b578f75d133cb427f8f4b6944e0abdfdbef75f2b0c2b9c148be5\",\n    \"geometry_20261116_live128_normalized_moment_call_pipeline.py\": \"b35179c75351edc50d4aba725f6b754ea165ca8090acccfe4987e760c9a61ad0\",\n    \"geometry_20261116_live128_normalized_moment_current_call.mjs\": \"337b769cff9260dc2c7d2ddb40dd2ff0e0225ecf54ebab5a6c8cc3ca95a1283f\",\n    \"geometry_20261116_live128_normalized_moment_worker.mjs\": \"08c8bab4c91f0038c55b6fa75f3a03a34ec0c54a16b89a157a5e947a0f8853df\",\n    \"geometry_20261116_live128_input_support_tail_client.py\": \"c4aaf9f1da54f6cf843cc138b79bce4a9d94a07a990118ae3bf494ff864c4e39\"\n})\n\ndef sha(path):",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_normalized_moment_original_full_dn.py",
+        "bytes": 49006,
+        "sha256": "49bd45f7cc55ce62474bf6f41d7f82f48d4b2f1af1460c8ca1d8112ed4d0ace7"
+      }
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_input_support_owned_run.py",
+        "bytes": 39323,
+        "sha256": "4ad124b99196e6574a3f2cecc9e731dd8a32858e1f9fd9e03dc3312b9e9a3489"
+      },
+      "patches": [
+        {
+          "id": "current-request-capital",
+          "before": "Request250",
+          "after": "Request253",
+          "count": 1
+        },
+        {
+          "id": "current-request-lower",
+          "before": "request250",
+          "after": "request253",
+          "count": 9
+        },
+        {
+          "id": "current-number",
+          "before": "request_number\"]==250",
+          "after": "request_number\"]==253",
+          "count": 2
+        },
+        {
+          "id": "current-owned-schema",
+          "before": "R603-live128-input-support-original-full112-owned-procedure-v1",
+          "after": "R615-live128-normalized-moment-original-full112-owned-procedure-v1",
+          "count": 1
+        },
+        {
+          "id": "current-necessary-schema",
+          "before": "R603-live128-input-support-original-full112-necessary-v1",
+          "after": "R615-live128-normalized-moment-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "current-request-schema",
+          "before": "public-live128-input-support-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-normalized-moment-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "current-namespace",
+          "before": "visible-live128-input-support250",
+          "after": "visible-live128-normalized-moment253",
+          "count": 1
+        },
+        {
+          "id": "current-module-label",
+          "before": "_R603_",
+          "after": "_R615_",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-name",
+          "before": "geometry_20261116_live128_input_support_original_full_dn.py",
+          "after": "geometry_20261116_live128_normalized_moment_original_full_dn.py",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-hash",
+          "before": "b2bae392a4746db7e9741fa6b26c893f124cb48c4c2448f2c9a277fe2934e542",
+          "after": "49bd45f7cc55ce62474bf6f41d7f82f48d4b2f1af1460c8ca1d8112ed4d0ace7",
+          "count": 1
+        },
+        {
+          "id": "truthful-current-flow-description",
+          "before": "original full-DN consumer with R602 current A*T source.",
+          "after": "original full-DN consumer with R602 A*T and R611 normalized-moment source.",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_normalized_moment_owned_run.py",
+        "bytes": 39362,
+        "sha256": "74c6fe1694ecc7d02605e4fe5131e3a0a8c3462b4925760d08d62a53dabb75a1"
+      }
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_input_support_necessary.py",
+        "bytes": 68099,
+        "sha256": "e08f0e5f4077e337e95c1fbb3f9bb74c37eab44dbebf72093169d5b2bd2ef8e5"
+      },
+      "patches": [
+        {
+          "id": "current-request-capital",
+          "before": "Request250",
+          "after": "Request253",
+          "count": 1
+        },
+        {
+          "id": "current-request-lower",
+          "before": "request250",
+          "after": "request253",
+          "count": 3
+        },
+        {
+          "id": "current-number-assert",
+          "before": "request_number\"]==250",
+          "after": "request_number\"]==253",
+          "count": 1
+        },
+        {
+          "id": "current-number-record",
+          "before": "request_number=250",
+          "after": "request_number=253",
+          "count": 3
+        },
+        {
+          "id": "current-necessary-schema",
+          "before": "R603-live128-input-support-original-full112-necessary-v1",
+          "after": "R615-live128-normalized-moment-original-full112-necessary-v1",
+          "count": 1
+        },
+        {
+          "id": "current-request-schema",
+          "before": "public-live128-input-support-original-full112-FD-fullDN-request-v1",
+          "after": "public-live128-normalized-moment-original-full112-FD-fullDN-request-v1",
+          "count": 1
+        },
+        {
+          "id": "current-namespace",
+          "before": "visible-live128-input-support250",
+          "after": "visible-live128-normalized-moment253",
+          "count": 1
+        },
+        {
+          "id": "actual-runtime-name",
+          "before": "geometry_20261116_live128_input_support_owned_run.py",
+          "after": "geometry_20261116_live128_normalized_moment_owned_run.py",
+          "count": 1
+        },
+        {
+          "id": "actual-runtime-hash",
+          "before": "4ad124b99196e6574a3f2cecc9e731dd8a32858e1f9fd9e03dc3312b9e9a3489",
+          "after": "74c6fe1694ecc7d02605e4fe5131e3a0a8c3462b4925760d08d62a53dabb75a1",
+          "count": 1
+        },
+        {
+          "id": "current-frame",
+          "before": "REQUEST250_CURRENT_INPUT_SUPPORT",
+          "after": "REQUEST253_NORMALIZED_MOMENT",
+          "count": 1
+        },
+        {
+          "id": "current-runtime-module",
+          "before": "_R603_necessary_runtime",
+          "after": "_R615_necessary_runtime",
+          "count": 1
+        },
+        {
+          "id": "current-progress-schema",
+          "before": "R603-current-DN-actual-engine-input-support-progress-v1",
+          "after": "R615-current-DN-input-support-and-normalized-moment-progress-v1",
+          "count": 1
+        },
+        {
+          "id": "current-progress-source-label",
+          "before": "Actual complete R603 engine snapshot schema",
+          "after": "Actual complete R615 engine snapshot and full normalized-moment scope",
+          "count": 1
+        },
+        {
+          "id": "actual-hook-name",
+          "before": "geometry_20261116_live128_input_support_current_call.mjs",
+          "after": "geometry_20261116_live128_normalized_moment_current_call.mjs",
+          "count": 1
+        },
+        {
+          "id": "actual-client-name",
+          "before": "geometry_20261116_live128_input_support_tail_client.py",
+          "after": "geometry_20261116_live128_normalized_moment_tail_client.py",
+          "count": 1
+        },
+        {
+          "id": "retain-parent-and-add-current-contract",
+          "before": "        R603_current_DN_input_support=request.get(\"R603_current_DN_input_support\"),",
+          "after": "        R603_current_DN_input_support=request.get(\"R603_current_DN_input_support\"),\n        R615_current_DN_normalized_moments=request.get(\"R615_current_DN_normalized_moments\"),",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_live128_normalized_moment_necessary.py",
+        "bytes": 68247,
+        "sha256": "94078d508648b97f2c3cd9d71f2c4381224ba12029d8eb091e0e757a933ae4f2"
+      }
+    }
+  ],
+  "actual_source_order": {
+    "all_old466_sources_prepared_first": true,
+    "original250_generator_invoked_once_with_its_exact_outer": true,
+    "original78_script_restoration_remains_later_in_original_runtime_prepare": true,
+    "new_small_public_constructors_are_real_source_files_not_fake_restored_scripts": true,
+    "original_a47df_717ac_205b_and_cusp_checked_at_actual_factory_import": true,
+    "original_root_module_still_loaded_from_real_original_topic_path": true,
+    "old_capacity_loader_applies_to_the_same_original_root_path": true,
+    "one_actual_local_J_constructor_no_unused_old_local_J_table": true,
+    "new_source_preparation_does_not_import_or_execute_any_scientific_module": true,
+    "new_normalization_runs_inside_original_scientific_clock": true,
+    "original_capacity_loader": {
+      "file": "exact_20261114_tail_capacity_loader.mjs",
+      "bytes": 4499,
+      "sha256": "07d45b95a970d38489c17142b9202ceeca648a549f76cecaba7c7036261fa395",
+      "original_root_file_sha256": "cbf753894f32e3460e646725757cbaed1f227b166f9693dda54829ee46ecfc88",
+      "original_root_actual_path_unchanged": true,
+      "loader_matches_exact_three_original_paths_new_public_constructors_not_intercepted": true
+    }
+  },
+  "source_scope": {
+    "all466_prior_pins_retained": true,
+    "all_ten_new_views_baselines_are_actual_complete_computations_files": true,
+    "original_unchanged_script_baselines_of_two_small_public_sources_bound_at_runtime": true,
+    "all_generated_views_beside_real_callers": true,
+    "all_generated_full_hashes_checked": true,
+    "no_generated_expanded_sources_committed": true,
+    "all_previous_numeric_objects_and_unchanged_mathematical_schemas_preserved": true,
+    "old_R603_records_are_ancestry_not_current_factory_identity": true
+  },
+  "original_resource_contract": {
+    "live_call_resources": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "owner_seconds_cap": 12000,
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "total_scientific_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "job_minutes": 350,
+    "science_step_minutes": 320,
+    "all_values_equal_actual_derived250": true
+  },
+  "necessary_scope": {
+    "all_original_R588_RootStats_relations_and_unknown_fields_retained": true,
+    "actual_current_engine_progress_schema": "R615-current-DN-input-support-and-normalized-moment-progress-v1",
+    "all14_input_support_counters_full_fallback_reasons_last_and_unknown_fields": true,
+    "all8_normalized_moment_Number_counters_full_last_and_unknown_fields": true,
+    "safe_integer_status_is_metadata_only_no_scientific_rejection": true,
+    "per_engine_actual_component_source_binding_and_actual_dimensions_retained": true,
+    "only_byte_identical_complete_binding_objects_share_one_named_index": true,
+    "all_actual_stage_to_engine_addresses": true,
+    "no_success_inferred_from_saved_cumulative_statistics": true,
+    "last_saved_snapshot_not_hard_stop_location": true,
+    "inner_moment_k_progress_not_recorded_or_fabricated": true,
+    "source_and_science_each_original_limit": 90000,
+    "whole_body_overflow_exit": 70,
+    "original_R603_readback_called_once": true,
+    "original_parent_overflow_read_completely_and_old_exit_preserved": true,
+    "optional_R588_relation_only_current_source_record_with_full_inverse": true,
+    "full_parent_representation_not_transcribed_or_pruned": true
+  },
+  "component_R611": {
+    "published_main": "24d17b9332e535e9be33684b9dbe84bac1542b5e",
+    "original_division_words_and_six_moment_order": true,
+    "no_finite_input_implies_finite_all_intermediate_claim": true,
+    "no_NaN_payload_fenv_or_whole_run_speed_claim": true,
+    "actual_clock_and_resource_frontier_remain_real": true
+  }
+}
