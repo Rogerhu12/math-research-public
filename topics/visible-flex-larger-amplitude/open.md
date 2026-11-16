@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R574实际240已完整刊**：[原准备完成、双必要超限及未返内部科学](results/R574-actual240-source-and-science-readback-overflow.md)。447绑定和原准备true，外science/rules/exit各1、stop/signal null、quiettrue；source350903/4478a5eb与science221520/64da8ede均未返，原1846/eeff2a1d与1163/9c3983b8 honest70并两job同字，raw未删。transport.source_preparation_complete=false不覆盖实际preparetrue；祖先同目录286365/372dfd68是同240job而非实际237。内部数值/门/具体终因未知。R600继续原完整必要对象的具名来源表示，90K/70/全部unknown/error/stats不减；正在运行246/248只按自己的真实结果归责。
+
 **R568实际238已完整刊**：[全 far/采样、准确有理串与真实 recipe 路径两入口错误](results/R568-actual238-complete-sampling-rational-word-and-closed-recipe-failures.md)。本次C/准确域/all112far/112联合行/13850物理点完整，gzip stored20359322057/decoded95028212980全核，startupfree86797705216；真实BVP因bare-float不能解析准确有理串在453/450两phase前失败，closed独立找旧recipe basename失败。全部后继几何/精化未起；generation91528/4d9dc1bc超90K70缺marker且cleanup未调用/rawfalse。R599按准确生产者语义和actual launcher receipt修两处，再R597249；不重写238/241/247、不取消逐词/源身份核、不当数学拒。
 
 **R566实际237已完整刊**：[原准备成功、双必要超限及未返科学](results/R566-actual237-source-and-science-readback-overflow.md)。432源绑定/sourceprepare true/0，原输入prepare true；外exit/rules/science1/null stop/null signal/quiet=true。全source286365/f5c4a3a6、science164993/63f1f5ba均未返，分别1837/910e9708与1154/d8f1897e honest70且compute/report同字。sourcefallback.false与真实prepare.true分属不同分支；raw removed=false。内部终因/owner/full模型/FD/fullDN都未知，不借旧run归因或造父。R600继续明确六层来源关系，244已正式46dff606/run43908088860，R585 exact唯一。
