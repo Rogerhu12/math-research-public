@@ -144,7 +144,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 原cone32全步gain负，但本次已付同方向内部尺度真实接受53，证明“全步失败”不能排整线。新cache完整15.234MB仅原stdout，先发再62完整query，未再做geometry/J旧检查；实际才付冷前缀。全部scope及祖先账见[p32实际](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)，remaining64/3trial/600额度不授重做已完单线。
 
-继续新53多峰一阶方向合同：保全部完整两网当前值/gap，不能只取87417；原精确163盒、原curvature/物理提案边界及14门继续。新模型/导数若必要必须独立源绑定53与池13/14，旧52 cache、旧primary/银行上下文不改名重用；先给不同数学子问题和有限新执行范围。根15所有原payload仍只stdout，0artifact/cache/Git。
+[新53完整方向合同](notes/true53-complete-grid-maximin-projection-direction-design-20261116.md)已付：保368640分支的全部当前gap与target常支路，原159→163 coupled box/trust/norm及source53 hard/curvature guard不改；G=diag(KᵀK,1,1)投影的非负对偶逐半空间更新，完整JVP分离补新真实行。数学为新的完整两网一阶LP，未调用旧backend仍算新solver；完整非负dual零延拓给下界，有限浮点不授驻点/不可行。guard域可能不含0，真实p绑定后先交所有合法α（可能正下端），再完整仿射谱线及原14门。新53模型/J/JVP均须独立源与有限配额；只读旧53门/旧52cache不可冒新模型，0旧64/32重启；尚未执行。根15 payload只stdout。
 
 ### R399–R405已付有限对应点，不外推全根
 

@@ -48,7 +48,7 @@ R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af�
 
 权威FINAL_CLOCK新81.445727845s、祖先总1406.2512530919998s、总126值；UTC research04:31:00–04:39:50约530s另列，不猜差额。新dev1组3case/3人工scalar/186小query内含.041553418s，生产62 query .630576168s；24 paid adapter误差0，0旧检查/新LP/cone/J/factory。build14.261769182s不建position prefix，实际trial才冷建53.580497472s，全geometry54.00788738s全部计费。
 
-完整原cache15234255B/fea965f210f9af45917461a56b6ea7719fa83495f15005c699cf8d4564d6b54e、binding dc2e3a630ab01e821cb0311e1615c4b3d24d420c1362b090adf7a819d7f35df7只属52/p32，不是53线性化。完整研究stdout19369550B，后置report只读462043B；单cache/末钟/74tag/200源齐备。该单线问题已完，不用余额再查询或重试53；下一是53的完整多峰方向与线包络合同，尚未执行。
+完整原cache15234255B/fea965f210f9af45917461a56b6ea7719fa83495f15005c699cf8d4564d6b54e、binding dc2e3a630ab01e821cb0311e1615c4b3d24d420c1362b090adf7a819d7f35df7只属52/p32，不是53线性化。完整研究stdout19369550B，后置report只读462043B；单cache/末钟/74tag/200源齐备。该单线问题已完，不用余额再查询或重试53；[新53方向合同](notes/true53-complete-grid-maximin-projection-direction-design-20261116.md)已发：完整368640分支/gap、原163盒及guard；G物理度量半空间投影+完整JVP分离，数学仍LP类/新solver真实计费。guard域可能不含0，先求含正下端的合法α区间，再全线及原14门；新预算/源尚未执行。
 
 ## 5. 当前工作
 

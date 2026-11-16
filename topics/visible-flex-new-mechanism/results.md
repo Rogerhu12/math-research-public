@@ -318,3 +318,6 @@
 
 
 - **R451：H*真实全copy目标可由一个原49模块成本补偿。** [完整原目标与七次全根余量](results/R451-weight-zero-positive-representative-on-complete-real-mirror-copy-families.md)（20019B/SHAa9c1bcbd1b9908d960254034183d717e04197ef45532fb204b11e4b1ad179a16）。H*真权0的完整self≤8；原最低两模板与真非紧P尾给共同γK8支付所有根八次项。一个原K0…8/L0…7组合清指定非零r镜对全部同宽/同cap对应copy，保持J⁺/λ1；同角色真实suffix≤7且第五幅齐备，C不自动清。其余全部根只余八个原cap系数与30blind像比较，r0另七条件；混权C补偿/actual额外查询/一对Af与q4共同母仍欠，0新执行。
+
+
+- **true53完整两网一阶方向与投影/合法线区间合同已付。** [完整数学与执行范围](notes/true53-complete-grid-maximin-projection-direction-design-20261116.md)（26085B/SHA932941239b5f3a894c19091b75bebc18b7c325bf55d1dead99fc13d7122fc53e）。原全部gap/368640分支+target和原hard/physical域下最大净一阶改善；以正定物理G投影与非负对偶坐标/全网JVP分离求新方向，诚实记新LP类solver。源53原guard可能排零步，合法α含正下端，保原0基准和所有查询收费；完整线再原14门/真实下降才接受。新接口、祖先1406.2512530919998秒/126值及全部新工作费用定义齐备，具体预算未开、0新执行。
