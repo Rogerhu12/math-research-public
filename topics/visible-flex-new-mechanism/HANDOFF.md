@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。最后已读公开actual pull：a6ca911815e8965c37e1a99d41d7a0b15cf078f0，2026-11-16 02:34:38.756708 UTC，run43792959676/job133055320913；02:46 root核双README空diff。下次最迟2026-11-16 03:34:35。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
+根/题README已全文读。最后已读公开actual pull：563defb46bc785295265c3f48fcad3fc8897c617，2026-11-16 03:13:49.207936 UTC，run43796872698/job133067569306；root已核双README空diff/rc0。下次最迟2026-11-16 04:13:48。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有actual pull：d9c989360de427dc418a82695a10c95059675441，02:34:41.897552 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。各次完整拉取记录保log。
+私有actual pull：b762edcd826d9f57138c530d0e5c854c37e119fe，03:13:52.386864 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。各次完整拉取记录保log。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（02:21:51复核exec-server缺失，命令未启动），依根8小UTF8发布；API非pull。
 
@@ -40,7 +40,7 @@ R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚
 
 R430–[R432](results/R432-complete-zero-order-kernel-and-all-degenerate-point-response-matrices.md)：原Z18的c0恰5维，非全R0；32非盲标签有完整两通道表。全Af点C=2ai³pi³ΣnjQj，三个Q共享七多项式，21formal共同生成非实际根rank。每根u,p,r,J0,J1,J2按真宽/中心输运；n_i0使C普遍0。R434唯一新144原响应joint wholeQ/current已审源并随request启动，待原实际；原型/J校正基准及同13规范保欠。
 
-[R435](results/R435-complete-local-self-currents-and-joint-actual-internal-flux-control.md)完整self F_z=A_z³(4A_z²−10z²uA_z−20w⁴r²/3)/15，真左常数保；K0=−8r⁵/45，r0则K5=1024p⁵非零。每单点非盲；同形/同宽/同基点已有副本≤11或≤6可接同一actual J⁺，全K对整个C为0但保C的actual追加仍须joint前提。H*经该原矩阵修成λ1的新有限联合核。完整cell指含全部三矩闭编码的circle副本，非孤立α³差分包；全根self余商/同13仍欠。
+R435完整F_z=A_z³(4A_z²−10z²uA_z−20w⁴r²/3)/15保真左常数；K0=−8r⁵/45，r0首K5=1024p⁵。对应已有同形/同宽/同基点≤11或≤6实际控制。[R436](results/R436-fifteen-self-directions-and-fourteen-joint-actual-degenerate-fluxes.md)加入原P的σ/τ1–3，合15形式方向；完整K2保u项。同一镜对11左+3右用原L0/L1/L2得14实际独立行，全部列杀J⁺及全圆C；全镜族本模块像(P,TP+Q2)恰14。第15另根需r≠0且|p/r|≠s*，不假定。可接同一J⁺实际截面，保C另需joint前提；H*有限核修正仍λ1。完整cell含原三矩闭circle，非孤立α³差分包。全根self余商/同13仍欠。
 
 R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不排高阶才动/别芽/一般C²面。不回同类增频；完整第四、高阶收敛和同g有限族仍欠。
 

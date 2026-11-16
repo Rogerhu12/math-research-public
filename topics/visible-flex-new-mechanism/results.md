@@ -483,3 +483,6 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 
 - **原144响应wholeQ/current唯一入口完成源审，结果待原Actions。** [执行前审阅](notes/complete-response-self-current-entry-review-20261116.md)（7680B/SHA33b03c65d807f6f99be2a182736519e7229cec2dab60eac8b6ab4da5c8816917）保10源/6旧依赖闭包与原锚/尺度/39共同坐标。根直接对R261纠正chi109 d_bar x4的−128rt，再审完整progress/output修订；新仅2人工，旧研究0。每个已完成Q/current/证书单次原stdout，异常保stage/费用/指纹；180秒/1GiB及双mapper合计500k/300k。签名像与actual/全R/13门分开，未预宣通过。
+
+
+- **R436：十五原形式self方向与十四条实际镜对通量。** [证明](results/R436-fifteen-self-directions-and-fourteen-joint-actual-degenerate-fluxes.md)（14674B/SHA8b145fafc3d0fe1303ab969a7bc366bcda53bd4c2a81b415a3a45b188c6efd19）原P的σ/τ1–3与K0…10给15形式方向，全列J⁺/全C零；完整K2保u项，三个L列清全左、右κ*(1,2x,3x²)，同一圆11左+3右实际矩阵可逆。整个镜族本模块像(P,TP+Q2)恰14；15th另根条件不预设。实际追加保全部基准、全C另需joint前提；H*联合核仍λ1，未付所有根/13行，无新执行。

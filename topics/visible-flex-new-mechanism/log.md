@@ -323,3 +323,10 @@ root全文读原14673B，手推D_x A_z=(1−zx)²u‴、pU′−rU−A_z⁵/15�
 根全文读36631B首源及全部54281B终源差、9269B请求/4165Bworkflow/14475B设计，读六依赖imports与实际helper接口，10绑定当前bytes/hash全同。对R258/R261完整abc逐项读核，执行前修chi109 d_bar x4原−128rt；手核Green h′=−cu/原左常数/2及K/4、六canonical当前代表。全Q和39current同原144系数，18含u目标保21p-only，residual/高jet不截断。新仅2人工；不执行旧forcing/profile/rank/root或原suite。
 
 终源采用shared progress及逐条CURRENT_Q_RECORD，仅最终摘要/身份链另发；预算或异常保已完成量和实际clock/RSS，stdoutcap保128KiB最终费用。10源manifest、driver SHA18d5578869860f9da52d31137352f6a503a27610eab5e133b9a1c0f9ca85e8f5、request fd6e8526d6f7e9492911848b17a852d64a31654513a267ba61e5bdb9390ffb01。本提交唯一request触发public，先实际双pull核README，后两新check及唯一科学；未宣结果。当前H已读actual仍02:34双pull，下次03:34:35前。
+
+
+## 2026-11-16 03:19:39 UTC：R436十四条实际镜对通量写毕即推，登记最新实拉
+
+root全文阅读14674B/SHA8b145fafc3d0fe1303ab969a7bc366bcda53bd4c2a81b415a3a45b188c6efd19，手核原P真实常数尾、四条完整self、K2含u项、L0/L1/L2清整个左族及右κ*(1,2x,3x²)，14行块三角与15th条件，镜族完整像恰14。保实际同库/两次商/全部原型基准与全C联合前提，未把形式15当实际15；无新科学执行。
+
+R434原run43796872698/job133067569306中的真实git receipt已读：公开03:13:48.835847→03:13:49.207936 UTC，before=after563defb46bc785295265c3f48fcad3fc8897c617，pull rc0，双README blob原样且空diff；私有03:13:51.495633→03:13:52.386864，before=afterb762edcd826d9f57138c530d0e5c854c37e119fe，根README相同、题README无、QUEUE唯一进行中。下次actual pull最迟04:13:48 UTC；API读取不当拉取。R434科学输出另核后单独结论即推。
