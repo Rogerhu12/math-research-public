@@ -1,0 +1,383 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "request245-complete-generation-relations-metadata-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Six explicit metadata callers derived from frozen234; sampler/native/full453/frozen450/mesh/M/geometry/evidence and original clocks remain byte-identical. The current sampler schema is bound in the actual original preflight; complete selected source-generation metadata has a named exact inverse under the same90000 limit.",
+  "required_public_sources": [
+    {
+      "file": "root_20261116_request245_sampling_refinement_composition.py",
+      "bytes": 72830,
+      "sha256": "386f7d7c9ddb2d0323be8bd361290a719ff64d88362946d0bb98968d7c28a6c8"
+    },
+    {
+      "file": "root_20261116_request245_actual_source_entry.py",
+      "bytes": 35671,
+      "sha256": "f3e345a57dc6bd0983ebcb271dfb13d7e0eb16896a658f6e9095335b2c98bf6f"
+    },
+    {
+      "file": "root_20261116_complete_generation_source_relations.py",
+      "bytes": 13605,
+      "sha256": "0ed83517eb6dd726e4e82f6b2b5f6dc391432994f7fcff93ef3b0e0692717484"
+    }
+  ],
+  "semantic_schema_rebindings": {
+    "request234-zero-linear-gzip-owned-nested-role-v1": "request245-zero-linear-gzip-owned-nested-role-v1",
+    "public-current-C-parallel234-coast-base-source-closure-request-v1": "public-current-C-parallel245-coast-base-source-closure-request-v1",
+    "request234-zero-linear-gzip-complete-refinement-evidence-displays-v1": "request245-zero-linear-gzip-complete-refinement-evidence-displays-v1",
+    "request234-zero-linear-gzip-refinement-one-necessary-readback-v1": "request245-zero-linear-gzip-refinement-one-necessary-readback-v1",
+    "request234-refinement-necessary-readback-complete-v1": "request245-refinement-necessary-readback-complete-v1",
+    "public-current-C-same-semantic-head-parallel234-request-v1": "public-current-C-same-semantic-head-parallel245-request-v1",
+    "request234-actual-source-and-same-C-registration-composition-v1": "request245-actual-source-and-same-C-registration-composition-v1",
+    "request234-actual-same-C-source-registration-v1": "request245-actual-same-C-source-registration-v1",
+    "request234-same-C-head-refinement-and-complete-field-consumers-v1": "request245-same-C-head-refinement-and-complete-field-consumers-v1",
+    "request234-complete-same-C-consumer-necessary-readback-v1": "request245-complete-same-C-consumer-necessary-readback-v1",
+    "request234-complete-same-C-consumer-readback-marker-v1": "request245-complete-same-C-consumer-readback-marker-v1"
+  },
+  "view_count": 6,
+  "literal_patches": {
+    "p0001": {
+      "before": "request234",
+      "after": "request245"
+    },
+    "p0002": {
+      "before": "Request234",
+      "after": "Request245"
+    },
+    "p0003": {
+      "before": "parallel234-coast-base-source-closure-request-v1",
+      "after": "parallel245-coast-base-source-closure-request-v1"
+    },
+    "p0004": {
+      "before": "==234",
+      "after": "==245"
+    },
+    "p0005": {
+      "before": "explicit234",
+      "after": "explicit245"
+    },
+    "p0006": {
+      "before": "5e479b163fdcea7c7af1b70c69541af4bac48223dde05201342930c20eab77b2",
+      "after": "386f7d7c9ddb2d0323be8bd361290a719ff64d88362946d0bb98968d7c28a6c8"
+    },
+    "p0007": {
+      "before": "require(len(specs)==12,\"Keep all original nine layers and actual sampler/consumer/metadata families\")",
+      "after": "require(len(specs)==13,\"Keep all original twelve layers and the six actual current metadata callers\")"
+    },
+    "p0008": {
+      "before": "zip(specs,(15,5,13,49,51,46,57,6,6,1,57,6))",
+      "after": "zip(specs,(15,5,13,49,51,46,57,6,6,1,57,6,6))"
+    },
+    "p0009": {
+      "before": "require(len(expected)==312,\"Keep all original248 plus actual64 new complete generated sources\")",
+      "after": "require(len(expected)==318,\"Keep all original312 plus six current complete metadata sources\")"
+    },
+    "p0010": {
+      "before": "+request[\"binding_source_generations\"]+request[\"parallel_source_generations\"]):",
+      "after": "+request[\"binding_source_generations\"]+request[\"parallel_source_generations\"]\n            +request[\"metadata_relation_source_generation\"]):"
+    },
+    "p0011": {
+      "before": "number=234",
+      "after": "number=245"
+    },
+    "p0012": {
+      "before": "7573f0b4c77ddf8b577530b88066d211bf80632bd315584332ac4fcc02904fc6",
+      "after": "a2b3466bbb368774753b974c70def0709ba4dc8f38fd335cf0d5e41ef003781d"
+    },
+    "p0013": {
+      "before": "REQUEST234",
+      "after": "REQUEST245"
+    },
+    "p0014": {
+      "before": "same-C234",
+      "after": "same-C245"
+    },
+    "p0015": {
+      "before": "same-C-refinement234",
+      "after": "same-C-refinement245"
+    },
+    "p0016": {
+      "before": "parallel234-request-v1",
+      "after": "parallel245-request-v1"
+    },
+    "p0017": {
+      "before": "== 234",
+      "after": "== 245"
+    },
+    "p0018": {
+      "before": "independent234",
+      "after": "independent245"
+    },
+    "p0019": {
+      "before": "generated234",
+      "after": "generated245"
+    },
+    "p0020": {
+      "before": "(\"workflow=repo/\"+repr(descriptor[\"original_checked_workflow\"]),\n            \"workflow=repo/\"+repr(request[\"workflow\"]),1)]",
+      "after": "(\"workflow=repo/\"+repr(descriptor[\"original_checked_workflow\"]),\n            \"workflow=repo/\"+repr(request[\"workflow\"]),1),\n        (repr(\"current-C-pruefer-joint-nominal-row-physical-radial-samples-and-general-far-v1\"),\n            \"CURRENT_SAMPLER_SCHEMA\",1)]"
+    },
+    "p0021": {
+      "before": "    adapted=body\n",
+      "after": "    sampler=parent[\"native_registration\"][\"current_roles\"][\"first_sampler\"]\n    adapted=body\n"
+    },
+    "p0022": {
+      "before": "actual_bound_globals=dict(CURRENT_INNER_SHA=pid[\"sha256\"],\n            CURRENT_SOURCE_COUNT=parent[\"complete_source_count\"]),",
+      "after": "actual_bound_globals=dict(CURRENT_INNER_SHA=pid[\"sha256\"],\n            CURRENT_SOURCE_COUNT=parent[\"complete_source_count\"],\n            CURRENT_SAMPLER_SCHEMA=sampler[\"schema\"]),\n        actual_sampler_source=dict(sampler),\n        current_sampler_schema_is_metadata_not_a_new_numerical_gate=True,"
+    },
+    "p0023": {
+      "before": "\"CURRENT_INNER_SHA\":pid[\"sha256\"],\"CURRENT_SOURCE_COUNT\":parent[\"complete_source_count\"]})",
+      "after": "\"CURRENT_INNER_SHA\":pid[\"sha256\"],\"CURRENT_SOURCE_COUNT\":parent[\"complete_source_count\"],\n         \"CURRENT_SAMPLER_SCHEMA\":sampler[\"schema\"]})"
+    }
+  },
+  "views": [
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_request234_owned_roles.py",
+        "bytes": 25774,
+        "sha256": "7573f0b4c77ddf8b577530b88066d211bf80632bd315584332ac4fcc02904fc6"
+      },
+      "output": {
+        "file": "geometry_20261116_request245_owned_roles.py",
+        "bytes": 25834,
+        "sha256": "a2b3466bbb368774753b974c70def0709ba4dc8f38fd335cf0d5e41ef003781d"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 7
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 2
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_request234_joint_refinement.py",
+        "bytes": 48822,
+        "sha256": "64f004a7fd5eabf365101688771d114d3d88f004fa2187e4ce9a411af41ce50b"
+      },
+      "output": {
+        "file": "geometry_20261116_request245_joint_refinement.py",
+        "bytes": 48822,
+        "sha256": "4b4abbebd315a55e91cc95b87851b00cef6b1b6a71cb3e02d427d9d2d694f8d5"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 9
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_request234_refinement_necessary.py",
+        "bytes": 44531,
+        "sha256": "4bcccf33d946d0e8f1a1324c6655b11b2b632f9f7896c8a571db050faa5b4cb1"
+      },
+      "output": {
+        "file": "root_20261116_request245_refinement_necessary.py",
+        "bytes": 44531,
+        "sha256": "46a65462e8ba9f4ec348063fe7207855f3c26b0f1e58c2c65d80e9add326dcc2"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 18
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 2
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_composer",
+      "baseline": {
+        "file": "root_20261116_request234_same_C_composition.py",
+        "bytes": 29435,
+        "sha256": "f798d3e324766900c7d3d6ea6b413f949995296c4b4d68d8df34a0f37f3b62cb"
+      },
+      "output": {
+        "file": "root_20261116_request245_same_C_composition.py",
+        "bytes": 29875,
+        "sha256": "172daea876e962f52f605ce4a43db830ecf352b05f35107f9d7a93c3ddc72a1e"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 11
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 3
+        },
+        {
+          "patch": "p0014",
+          "count": 10
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 2
+        },
+        {
+          "patch": "p0018",
+          "count": 1
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_runner",
+      "baseline": {
+        "file": "geometry_20261116_request234_same_C_refinement.py",
+        "bytes": 45661,
+        "sha256": "947b4597aa05337f8364038cb9564962ebe94874941809646ac89bce52b9f401"
+      },
+      "output": {
+        "file": "geometry_20261116_request245_same_C_refinement.py",
+        "bytes": 45661,
+        "sha256": "a5cfdd561c56d83372501b08205a5e71b77fd2cc5b9da22485a50173eb51f61e"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 8
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 4
+        },
+        {
+          "patch": "p0015",
+          "count": 1
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_reader",
+      "baseline": {
+        "file": "root_20261116_request234_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "5fe87fc2b3100f21bc5fba1eb7baaf83fc53b3b93303dbc47c0168c0439ca4ef"
+      },
+      "output": {
+        "file": "root_20261116_request245_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "8c9d42cb4b7a05f9d0bc1e26018bbcf26c4d84ee06f149568bdf4482aa80fd65"
+      },
+      "applications": [
+        {
+          "patch": "p0001",
+          "count": 6
+        },
+        {
+          "patch": "p0013",
+          "count": 2
+        },
+        {
+          "patch": "p0014",
+          "count": 4
+        }
+      ]
+    }
+  ]
+}

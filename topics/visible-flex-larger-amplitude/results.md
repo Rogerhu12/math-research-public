@@ -85,3 +85,5 @@
 - [R563：actual236真实dyadic来源与双完整必要未返](results/R563-actual236-dyadic-owner-and-two-incomplete-necessary-readbacks.md)：417来源/prepare实际完成；225803与177614原正文超90K，全部内层科学未知，quiet true/removed false，无父。
 
 - [R571：actual239真实reader来源集合差与完整初始化读回](results/R571-actual239-source-reader-binding-stop-and-complete-metadata-boundary.md)：8894B immutable scope完整；十一层/科学未起、deadline null，所有级联缺失与cleanup未调用，无父。
+
+- [R586：request245真实sampler schema与完整来源生成具名关系](results/R586-current-sampler-schema-and-complete-generation-relations.md)：626/13层、旧616全保，真实预检来源修复与原必要无损较小选择，数学/资源/90K不改；实际R587另付。
