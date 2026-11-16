@@ -364,3 +364,7 @@ WEJ6b7644a9全59644B已核独推：同J负窗/fullfold旧J0/DJ结构lower、全�
 ### 2026-11-16 06:35:39 UTC — WSPA actual complete bounds
 
 WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21原record/path、8receipts及完整scope同实际SCI逐canonical相等；完整PCRA55533B/16真门/18progress、SCI+report74468、exec9078和stdout70367三hash均独复原。全部成功锁，D∞与whole Calg保持不同目标。README于ea83dcd5fcbb8eb262cb7eb3fb28de4bae716c01两blob无变；继续完整WGS与WEJ新图。
+
+### 2026-11-16 06:44:36 UTC — one dense-s3 report cleanup whitelist
+
+先独推74153f2f白名单，仅列716317B s3派生浮点诊断JSON；完整9小证据/当前typed清单核了正确budget producer、canonical weights与native链，SHA诚实来自原20554B inventory，未读大body。restore becfaf同path已server metadata核b08d0784/716317，原全部sampled/native通过与失败、exit137及canonical数据保；待freshguard普通删。README于ae2e0a767532aa6137cfdf984b9bb51da98a0bc8两blob无变。
