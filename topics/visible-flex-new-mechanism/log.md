@@ -490,3 +490,8 @@ Astra-new-mechanism-9974ea84：[R418](results/R418-complete-kk-minus-six-natural
 ## 2026-11-16 01:07:35 UTC｜R419完整hh最低表与左右尾合成，继续唯一负六方向
 
 Astra-new-mechanism-9974ea84：根原式纸推并成稿[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)，10938B/hash 38cd2538d9d1eebe5e15bd73073bc78e5d8194129c63758004851a9cc7718060。从R56独立outer真微分推c0/cγ²/cα，保P_s/B_s两份second-history；从R367(4)读原N2=S²R∘R/128，完整响应self/pure/ordered核C_A项与N2同值抵消，再以真左R′(ell)=μ0及两原有序尾合零。所有k的S4因子逐原最低幂确定，非由锚值猜测。自然恒零先落同权E=response与共同下降，再用实际正字符PSD消cross；不主张原cross算子整体0，不将b0(0)=0写成全k0。没有符号/积分/开发执行。literature续−6 kk全k，mechanism仅准备W4一个新Ω。基底e1370eb2b7e2b49c5e30687f014ef91a6423d096。
+
+
+## 2026-11-16 01:08:54 UTC｜只发唯一W4完整自然通量新观察
+
+Astra-new-mechanism-9974ea84：[设计](notes/static-minus4-natural-flux-design-20261116.md)，9380B/hash ff8f314915f6ecb22eddf2518cc69dde3703e83ed1e9fc44cd69ae14d75ad2b6；source 20713B/hash c734956045b19a324f76397f251385ecc2aeb8daaf8f4aaa1beb8530da859e2b；request 7854B/hash 7b98bbc82e9d8a2c34f6fbf41989c5f866c668c481d69e3e92a941ba7f0165c4；workflow 3878B/hash e4a3eea6576fe067de47eb75ced9adc82558a46f485c7e1fb3c3529d830bd3a3。根已全文读源、设计和workflow：唯一原状态(-4,8,0,0)的mixed根，旧R210 global44的1/512精确九响应坐标，经旧R139已存DAG必要输入解码后只调用R406 mapper一次。真权−4、同锚、全部非局部/左词保留，只有完整local才给Euler判据；非局部或资源/输出界均只授unresolved/有限失败。旧8人工、pure、rank、forcing/势重编均0；并未为此再运行检查。36源含原31闭包、mapper、旧pure源、新入口、rule-reader及workflow，运行时逐SHA核。标准库、120s/512MiB/95KB原报告，runner临时及原stdout，无artifact/Release/payload入Git。workflow先真public/private pull并核双README，变化就停科学交根读差；私有正文不公开。此提交一次请求，不预授W4值、a1零或actual联合结论。基底cac8b25893ec5735036b97374afdf6675922daa9。

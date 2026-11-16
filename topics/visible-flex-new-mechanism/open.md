@@ -188,7 +188,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 ### R413–R417：负六静态全消，负四只余一个静态自然函数
 
-共同D/E且D−E>0使Q4仅−2头，ordered3+2局部全0，两个负权字符杀完整A/H/Q4。R415两锚给a(0)=0、μ=2a(1)p2*、μm2=0；R416原self/pure/有序尾使负六全部k静态a=μ=0。[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)保完整N0外槽及YC/ZZ全表，将负四自然压成S³(A+k²B)，故a(k)=a1 k²S³/8，唯一未知为W4=[h^-4k8]F0的完整自然值，a1仍未排。后续原静态M−2/已付pure响应只读复用，最多新增该Ω，不重pure/rank；[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)新增完整kk在k=ω0的h^-6自然=−3B_Q4/64；偶M5零母的全affine self与不交3+2均0。[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)新增完整hh的h^-8自然全k0：C_Aq0/N2及左右尾准确抵消。故负六正字符PSD迫hh/cross全k0，仅余b0(k)≥0、b0(0)=0；继续其全k kk及负四。全部原势/水平/真尾保留，不从单锚外推。实际joint、全period及13同一k仍欠。
+共同D/E且D−E>0使Q4仅−2头，ordered3+2局部全0，两个负权字符杀完整A/H/Q4。R415两锚给a(0)=0、μ=2a(1)p2*、μm2=0；R416原self/pure/有序尾使负六全部k静态a=μ=0。[R417](results/R417-two-term-static-minus4-natural-image-and-one-remaining-anchor.md)保完整N0外槽及YC/ZZ全表，将负四自然压成S³(A+k²B)，故a(k)=a1 k²S³/8，唯一未知为W4=[h^-4k8]F0的完整自然值，a1仍未排。W4唯一Ω请求已发（[设计](notes/static-minus4-natural-flux-design-20261116.md)），只读原静态M−2/九个已存响应及paidpure坐标，不重pure/rank；[R418](results/R418-complete-kk-minus-six-natural-coefficient-and-common-query-cancellation.md)新增完整kk在k=ω0的h^-6自然=−3B_Q4/64；偶M5零母的全affine self与不交3+2均0。[R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)新增完整hh的h^-8自然全k0：C_Aq0/N2及左右尾准确抵消。故负六正字符PSD迫hh/cross全k0，仅余b0(k)≥0、b0(0)=0；继续其全k kk及负四。全部原势/水平/真尾保留，不从单锚外推。实际joint、全period及13同一k仍欠。
 
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实
