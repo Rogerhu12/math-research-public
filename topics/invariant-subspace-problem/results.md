@@ -527,3 +527,7 @@
 ## R271：小阻尼截断的完整一次MP残量与同actual缺陷预算（2026-11-16）
 
 [完整证明](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)用真D†ω_j的精确平方相消、真实ν_j及Bernoulli全层修复，在整个完整H_(C,J)(s)^−1来源上付低段与最高top。τ=(log(x+1)/x)^(1/3)、c=1+τ、J=ceil8log(x+1)/τ给||D†(C+D)f||²≤O((1+||C||²)τ²)ε，而同源ε≤Δ_g²。R=0/x=m的实际A_m满足||A_m||≤||T||，故moving m时仍小且保原V/K/u，无χ。只在原合法cut使用，不取消R=d扩块门；一次后准确剩项−C D†(C+D)f、下一非coherent列/完整返回未付。
+
+## R271：相干列的真实二次顺次MP与同源两步修复（2026-11-16）
+
+[完整证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)将(D†)²ω_j与(D²)†ω_j之差精确写为D†ΠkerD D(D²)†ω_j，保真正交回馈；仅对已证primitive的源用R239多项式界。二步Bernoulli真逆及全层修复给相对coherent误差²O(J³/x+J⁴/x²)。新τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ付q1与q2平方O((1+||C||⁴)τ²)ε≤同常数Δ_g²，两个最高top均计入。R=0移动实际头仍保原V/K/u及强极限，不取消扩块门。z2=f−q1+q2的残量恰Cq2，第三次和完整返回未外推。
