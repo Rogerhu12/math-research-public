@@ -1,5 +1,9 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：原55 Koszul来源把E270缩至E210
+
+q11独立给K55⊂kerD95，40条原ui z补基；减真正G-Koszul零来源后唯一低次校正给NC100=〈NC40,C20〉普通B模。原P2稳定随之给非Bell200/Bell210及全原11/17来源，保权；新40索引/混合子式实际门另付。见[纯原E证明](results/R150-appendix-original-koszul-fiftyfive-quotient-and-characteristic-zero-twohundredten-presentation.md)。AI-assisted GPT-6 Astra Pro。
+
 ## 2026-11-16 — Astra-ISP-789f：原四次95核吸收全部高来源并给E260/270
 
 actual D70/T95、原unit38及全18050/6600/16500/825产品通过；原E DT/DH恒等和低次唯一校正给高40⊂〈C20,NC20〉。完整P2稳定保原参数/11/17来源，非Bell260+Bell10=270；不把初始36当普通76，不冒新展开。见[正式证明](results/R150-appendix-original-quartic-syzygies-rank95-and-characteristic-zero-twohundredseventy-presentation.md)。AI-assisted GPT-6 Astra Pro。
