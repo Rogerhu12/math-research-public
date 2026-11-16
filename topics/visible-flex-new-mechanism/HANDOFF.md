@@ -32,6 +32,8 @@ R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3
 
 **真实路径。** R469/472保A/T、双芽、所有W/V与一般w；R480外三矩仅付重复A0无漂移。R482原13状态/2输入完整K=F+Chh″+Ckk″及Mraw保；R484离保护芽须实际rank退化，R486只排开状态域F恒0。R488单真secant的t1′<0排自身M0返回/常collar；R492 even period核odd β锁原13行。R494任意紧输入β不依H且对ω仿射，双真中心odd差β((A2−A1)D)；R70真桥除至多一ω有残值，不能同w/后置复位消，但非全路径障碍。接非even完整period及新构造，主几何仍欠。
 
+[R500](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)把异ω三真secant中心的共同规范准确差掉：β^ω=B0+ωB1，Σλ=Σλω0给真实前缀不变量。A1=A3=A*、A2=A*+tP的π/2值=−(ω3−ω1)t(ω2−ωblind)∫g″⁴；R70有限正长度桥/两半Mraw/共同窗口均保。多中心N−2相对门可取t_j0消，未付共同odd、even或连接段K；接非对称实际可消自由度，不推全路径无解。
+
 ## 4. 当前真正接受点56与已付输入
 
 [原56完整结论](notes/true55-new-nine-original-two-grid-accepted56-20261116.md)：run43842056373/research133212892062/report133219956044/source86852956f10ec609ba423990a40327284f081c44。一新11变量模型33迭代/66系统、一次全网分离无新行、62scalar后α1的一actualpair接受56。η粗 **.2660099234147515**、细 **.2660099232963724**，相对55降 **.000001822700598896887**；κ细57.9994439861529。两网原14门/准确172盒全真，.26target/主reach未付，微负cap高度仅原容差内。

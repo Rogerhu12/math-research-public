@@ -403,3 +403,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [真实56全168联合模型设计](notes/true56-full168-joint-model-design-20261116.md)：同一当前场的170变量新模型；原全部rows/172物理盒/14actual门，current selected168+方向JVP；600秒新账户，不复用55最终J或重开旧任务。主完成未付。
 
 - [R499 完整cap加权比较与更强高度障碍](results/R499-complete-cap-weighted-comparison-and-improved-end-height-obstruction.md)：**已证明**R/Rc递减及带d²权的严格比较，五门真零必3/5<H<H*，H*∈(13/7,67/36)由明确三次根指定；同时给完整ReE身份，剩余区间联合符号未付，非主完成。
+
+- [R500 异平移正割中心的真实前缀差商](results/R500-different-shift-secant-centers-and-real-prefix-divided-difference.md)：**已证明**三真中心的共同规范/完整source消去和R70可实现非零值；N−2相对odd门可独立配平，完整whole-path与主几何未付。
