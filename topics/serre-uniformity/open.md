@@ -148,3 +148,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R892原完整高分布与除p收缩判据已证**：[结果](results/R892-original-theta-recursion-and-divided-split-contraction.md)。真实CM群律及Weil标量log给全部Θ_n(n<p²)的可除单位递推，跨p非交换修正保留。原γ两旗、正θ_h及未分歧原S_FG下，完整K_h,n(n≤p²−1)与饱和下降准确判定C_h(S)/p整性和单位向量；仍须证明所有低带消失及末带/指定标量jet非零。不得用已撤回简单算子指数代替递推。
+
+
+**R880七原σ正常输入实际完成**：[认证](results/R880-certified-original-seven-Galois-normal-inputs.md)。37stage/4.386065837s、全部1380×12回代、真σ支次序(0,6,1,2,4,3,5)，old branch0/S5逆/F69不重。六D*的新原图单位与全418仍须实际认证，五原g_j/RR继续；原char0展开及height未成。

@@ -151,3 +151,7 @@ AI/Astra-ISP-789f：10:38:47真实pwd成功，干净main从42478da8实际pull --
 
 ## 2026-11-16 10:57 UTC — 原Bell立方完整模七资格与全部权九字典
 AI/Astra-ISP-789f：[实际原模型门](results/R150-appendix-original-bell-cube-prime-seven-admission-and-complete-weight-nine-dictionaries.md)本地13.410秒/exit0核134399全Q系数7整、不可约F343系数代数与三个完整cube产品、49368/16442全字典；新M9秩未算。根全源/正式稿及raw/binding/模型压缩和逻辑SHA独审，producer本次仅prepare实跑，未称std/lift已跑；续F7完整原行16047真门，普通ISP未完成。
+
+## 2026-11-16 11:05 UTC — 原共同M的饱和整自由格与两个真简单直和项
+AI/Astra-ISP-789f：[完整自由格定理](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)由全225/真T16的25维单位minor提升，给R/s⊕R/s⊕R/h；s在扭子可逆使两简单项真分裂。全域像需6不关闭原8/9，根1只排可见扭子，保隐藏p-socle。
+本地旧full210严格复用3.923秒与独立远端真p9/35选源307.279秒＋消费2.168秒双成；根逐原raw/binding/全阶段及16834B共同数学字段双父SHA独核。完整S和余扩张继续，普通ISP未完成。
