@@ -75,3 +75,6 @@
 
 
 - [原[3]运输的固定补偿因子](2026-11-16-original-sv-common-odd-source-and-su-horizontal-cancellation.md)：原整数[3]完整运输给V=(S(3z)/3⁶)W3，W3=3⁵∏五输入σ(ξz)/σ(3ξz)，准确首差7072bz6、degree−240；整体S3在degree306，乘W3才回V66。其g270=g/81、O270=O30/81及B306(S3/729)=BS/81全规范付清；完整低卷积仍读X0，原V另读729X0，不能借整体中央零省掉真实W3。
+
+
+- [原Frobenius shadow的整Chow逆](../results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：R859附A以Sym²E→E的P¹丛和原Poincaré双线性付几何Sym²h1=L（仅倒置2），CM后C+⊗C−=L（另倒置3）。实际φ²−r给Chow收缩同构；I_r(P)=Π(D_r×(P−O))、三交数(−2r,r,r)付SI=−r、IS=−rΠ。因此整个ΠCH²(E³/F_(r²))[1/6r,ω]真同构E(F_(r²))[1/6r,ω]，r+1杀最高群。非整Kimura/实现忠实推断，未构造原非零点。

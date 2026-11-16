@@ -534,3 +534,263 @@ $\Sha[p^\infty]$ 主目标。
   本篇没有声称已经亲读不可提取的原 PDF 全文。
 - 原(20)的全局无挠性和(16)的最高块整同构均在本文自含证明，
   不以任何新数值或待证 regulator 假设为输入。
+
+
+## 附录 A. 同一个 shadow 的实际有限域 Chow 逆
+
+本附录加强§4的整实现同构。仍取同一个惯性素数
+$r>3$、$k=\mathbf F_{r^2}$、$E=E_0/k$、$\varphi=\varphi_r$
+和正文(2)的实际投影 $\Pi$。系数环置
+$$
+\mathscr R=\mathbf Z[1/(6r),\omega].
+\tag{A1}
+$$
+以下等式在 Chow 对应中成立，因而也可用于正文原系数环的任一
+$\ell>3,\ \ell\ne r$ 完备化。它们不只是在 étale 实现上成立。
+
+记正文的交积对应为
+$$
+S_r(Z)=\operatorname{pr}_{3,*}
+       \bigl(Z\cdot\operatorname{pr}_{12}^*D_r\bigr),
+\qquad
+D_r=\Gamma_\varphi-E\times O-r\,O\times E.
+$$
+反向对应定义为
+$$
+\boxed{
+I_r(P)=\Pi\bigl(D_r\times([P]-[O])\bigr).
+}
+\tag{A2}
+$$
+这里 $P$ 可先是一个点，再线性延拓为 $\operatorname{Pic}^0(E)$
+中的类。作为动机对应，$I_r$ 的来源是
+$\mathbb L\otimes h^1(E)$；不是在特征零中另选一个 Frobenius lift。
+
+### A.1 两个复合的实际系数
+
+对任意椭圆自同态 $\alpha$ 置
+$$
+D_\alpha=\Gamma_\alpha-E\times O-(\deg\alpha)\,O\times E.
+$$
+图形和两条轴的直接交积给出
+$$
+D_\alpha D_\beta
+ =\deg(\alpha-\beta)-\deg\alpha-\deg\beta.
+\tag{A3}
+$$
+$\alpha=\beta$ 时图形自交为0，因为其正规丛是椭圆曲线的
+平凡切丛；$\alpha\ne\beta$ 时图形交集按
+$\ker(\alpha-\beta)$ 的完整长度计算。因此(A3)保留不可分重数。
+
+正文已付 $\varphi[\omega]=[\omega^2]\varphi$，所以
+$$
+D_k:=([\omega^k],[\omega^k])_*D_r
+       =D_{[\omega^{2k}]\varphi},
+\qquad k=0,1,2.
+\tag{A4}
+$$
+$\deg(1-\omega)=\deg(1-\omega^2)=3$，从而
+$$
+(D_rD_0,D_rD_1,D_rD_2)=(-2r,r,r).
+\tag{A5}
+$$
+各 $D_k$ 均已在 $h^1(E)\otimes h^1(E)$ 中，而
+$[P]-[O]$ 已在第三个 $h^1$ 中。因此按 $\Pi$ 的实际三项平均，
+$$
+\begin{aligned}
+S_rI_r(P)
+ &=\frac13\bigl(-2r\,P+r[\omega]P+r[\omega^2]P\bigr)\\
+ &=-r\,P.
+\end{aligned}
+\tag{A6}
+$$
+最后一步使用椭圆自同态环中的
+$[1]+[\omega]+[\omega^2]=0$。同一交积计算给出
+$\mathbb L\otimes h^1(E)$ 上的对应等式
+$S_rI_r=-r\,\mathrm{id}$，而不只给出有理点上的等式。
+
+为证明另一侧 $I_rS_r=-r\Pi$，还需证明 $S_r$ 在 Chow 动机上
+确为同构。不能仅从正文的 étale 行列式为单位推出这一点。
+下面给出所需的整数系数椭圆引理。
+
+### A.2 椭圆 $h^1$ 的几何对称平方是实际 Tate 线
+
+令 $E$ 为任意特征不为2的椭圆曲线，基点为 $O$，$H=h^1(E)$。
+设 $\tau$ 为 $E^2$ 的几何交换。则在
+$\mathbf Z[1/2]$ 系数的 Chow 动机中，
+$$
+\boxed{
+\operatorname{im}\left(
+   \frac{1+\tau_*}{2}\,\pi_1^{\otimes2}\right)
+ \simeq\mathbb L.
+}
+\tag{A7}
+$$
+这里是几何交换的 $+1$ 块；在 cohomology 上包含两个奇次数
+因子的 Koszul 符号，所以其实现为通常的
+$\bigwedge^2 H^1$。以下证明直接在 Chow 对应上进行。
+
+取有限平坦次数2的商
+$$
+q:E^2\longrightarrow Y=\operatorname{Sym}^2E.
+$$
+它满足实际对应式
+$q^*q_*=\mathrm{id}+\tau_*$、$q_*q^*=2\,\mathrm{id}$。
+加法给出
+$$
+a:Y\longrightarrow E,\qquad P+Q\longmapsto P+Q,
+$$
+这是一个 $\mathbf P^1$ 丛；截面为 $i(P)=O+P$。
+截面除子在每条纤维上的次数为1，故 projective-bundle 公式
+可用 $a^*$ 和 $i_*$ 给出 $h(Y)$ 的两份实际生成元。
+其中一份为 $a^*h(E)$，另一份是 $i_*h(E)$ 的相应 Tate 移位。
+
+将 $(1+\tau_*)\pi_1^{\otimes2}/2$ 通过 $q$ 搬到 $Y$，
+记所得幂等元为 $p_Y$。
+由于
+$$
+q^*i_*=j_{1,*}+j_{2,*},
+\qquad
+j_1(P)=(P,O),\quad j_2(P)=(O,P),
+$$
+$\pi_1^{\otimes2}$ 杀掉整个 $q^*i_*$；所以 $p_Y$ 杀掉第二份
+生成元。对第一份有
+$$
+q^*a^*=m^*,
+\qquad m:E^2\longrightarrow E,\quad m(P,Q)=P+Q.
+$$
+
+还要在 Chow 而非仅在实现上说明
+$\pi_1^{\otimes2}m^*$ 杀 $h^0(E)$ 与 $h^1(E)$。
+$h^0$ 的陈述直接成立。对 $h^1$，令
+$\mathcal L=\mathcal O_E(O)$，
+$\mathcal B=m^*\mathcal L\otimes
+ \operatorname{pr}_1^*\mathcal L^{-1}\otimes
+ \operatorname{pr}_2^*\mathcal L^{-1}$ 为规范 Poincaré 双扩张。
+在 $E^3$ 上，$m$ 的图形是
+$P+Q-R=O$ 这一个除子；双扩张的双线性给出
+$$
+\mathcal O(\Gamma_m)
+ \simeq
+ \mathcal L_1\otimes\mathcal L_2\otimes\mathcal L_3
+ \otimes\mathcal B_{12}
+ \otimes\mathcal B_{13}^{-1}
+ \otimes\mathcal B_{23}^{-1}.
+\tag{A8}
+$$
+各项只依赖至多两个坐标，故施加三份 $\pi_1$ 后全为0。
+这正是 $\pi_1^{\otimes2}m^*\pi_1=0$ 的实际除子对应式；
+没有使用一般 realization faithfulness。
+
+剩下的 $h^2(E)=\mathbb L$ 生成元 $[O]$ 满足
+$$
+m^*[O]=[\Gamma_{[-1]}],
+\qquad
+\pi_1^{\otimes2}m^*[O]=-D_{\mathrm{id}},
+$$
+其中
+$$
+D_{\mathrm{id}}=\Delta_E-E\times O-O\times E.
+\tag{A9}
+$$
+后一等式同样是规范双扩张的双线性：
+$D_{[-1]}=-D_{\mathrm{id}}$。
+于是 $p_Yh(Y)$ 整个通过由 $D_{\mathrm{id}}$ 生成的一份
+$\mathbb L$ 因子化。另一方面
+$$
+\tau_*D_{\mathrm{id}}=D_{\mathrm{id}},
+\qquad
+\pi_1^{\otimes2}D_{\mathrm{id}}=D_{\mathrm{id}},
+\qquad
+D_{\mathrm{id}}^2=-2.
+\tag{A10}
+$$
+$-D_{\mathrm{id}}^{\,t}/2$ 因而给该线的实际左逆。
+由于整个像已经由这条线生成，它也是所需的右逆。
+这证明(A7)，只需倒置2；没有把 Kimura 有限维性误用成
+任意整数系数的 realization 忠实性。
+
+回到 $E_0$ 并再倒置3。$[\omega]$ 的实际幂等元将
+$$
+H=C_+\oplus C_-
+$$
+分裂成两个 CM 因子。在(A7)的 Tate 线上
+$[\omega]\otimes[\omega]$ 的作用为1；在
+$\operatorname{Sym}^2C_+$、$\operatorname{Sym}^2C_-$ 上分别为
+$\omega^2,\omega$。这些特征与1的差在 $\mathscr R$ 中为单位，
+故两个同号几何对称平方为0，而异号的对称块给出
+$$
+\boxed{C_+\otimes C_-\simeq\mathbb L.}
+\tag{A11}
+$$
+可把该同构选为限制后的 cup/polarization 对应；
+(A9)–(A10)给其真实逆。因子2和
+$\omega-\omega^2$ 均已在 $\mathscr R$ 中可逆。
+因此(A11)是实际 Chow 线的可逆性，不是只从 Betti 维数1作判断。
+
+### A.3 两侧互逆及全部有限域最高 Chow 群
+
+正文的实际 Frobenius 关系给出
+$$
+\varphi^*:C_+\longleftrightarrow C_-,
+\qquad
+(\varphi^*)^2=-r\,\mathrm{id},
+\qquad
+(\varphi^*)^{-1}=-(1/r)\varphi^*.
+\tag{A12}
+$$
+因此，在每一个最高块上，$S_r$ 都是下面两条实际同构的复合：
+$$
+C_\pm^{\otimes3}
+ \xrightarrow{\ \mathrm{id}\otimes\varphi^*\otimes\mathrm{id}\ }
+ C_\pm\otimes C_\mp\otimes C_\pm
+ \xrightarrow{\ \mathrm{cup}\otimes\mathrm{id}\ }
+ \mathbb L\otimes C_\pm.
+\tag{A13}
+$$
+这就是正文(14)的收缩规范在 Chow 对应上的提升。
+(A11)–(A12)证明 $S_r$ 为同构；将(A6)作为其另一侧逆，
+得到完整等式
+$$
+\boxed{
+S_rI_r=-r\,\mathrm{id},
+\qquad
+I_rS_r=-r\,\Pi.
+}
+\tag{A14}
+$$
+
+特别地，不仅是某一有限域 AJ 像，而是整个实际最高 Chow 群满足
+$$
+\boxed{
+S_r:
+ \Pi\operatorname{CH}^2(E_0^3/k)_{\mathscr R}
+ \ \xrightarrow{\ \sim\ }\
+ \operatorname{Pic}^0(E_0/k)\otimes\mathscr R
+ =E_0(k)\otimes\mathscr R,
+\qquad
+S_r^{-1}=-(1/r)I_r.
+}
+\tag{A15}
+$$
+正文已付 $E_0(k)=E_0[r+1]$，故
+$$
+\boxed{
+(r+1)\,\Pi\operatorname{CH}^2(E_0^3/\mathbf F_{r^2})_{\mathscr R}=0.
+}
+\tag{A16}
+$$
+对任意原系数素数 $\ell>3,\ \ell\ne r$ 完备化，
+(A15)给同一 $\ell$-primary 最高 Chow 群和有限点群的真实同构。
+因此正文(29)–(30)的原点读数若非零，检测到的也是同一原类
+约化后的实际 Chow 类，而不只是一个可能丢失 torsion 的
+有理 realization。
+
+(A14)并未构造原类的非零约化。任意选择 $P$ 后的 $I_r(P)$
+是在这一有限特征纤维中的类；反向对应使用反 CM 的
+$\varphi_r$，不能把它提升成特征零中的一个自由可选原来源。
+原 $\mathcal Z_{\rm orig}$ 的 shadow 仍必须使用正文(4)和
+(29)–(30)中全部真实 Hom、原 $q_0/q_2$、系数与 point-factor
+角色来计算。canonical7993 与原端点的区别、普通指定局部化
+的缺口、主 $\Sha$ 目标的未闭状态均保持。
+
