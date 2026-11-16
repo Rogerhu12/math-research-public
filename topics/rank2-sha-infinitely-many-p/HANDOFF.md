@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：85a1a64b381e014c53909a1a9dde6766d3c1cc95；2026-11-16 07:21:27 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:21:01 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
+- 最近已读规则提交：4eeb544bbf71ef63f2fcfae4394961c70cbfd813；2026-11-16 07:24:29 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:21:01 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-original-hom-matrix.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–863已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-original-hom-matrix.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–864已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 原Z与已付Hom输入：当前第一实际门
@@ -30,7 +30,7 @@ C_h:y²=x³+h6，φ_h微分h，Λ(a)=ψ0(a)h/h^σa；完整补Λ((2))=−2。α=
 完整q和包含2处(-2)^v。原每个非零实际(F,a q0,b q2)在cusp阶(1,1,4)，τ极6、source三商后极2；非全局degree2，非虚拟循环非零。
 **下一步**：在同原函数域重建这些真实Hom的全局坐标，再算同原R859交点；保所有分母/角色。或从同原cycle证明非零，不以canonical替换。
 
-原17挠点producer已公开成功：脚本scripts/produce-original-seventeen-torsion-input.py、参数ci/seventeen-torsion-input-request.json，source062a0c64/run43822409558/job133148299804。得h九次式、h³纯三次坐标及实际ℓ，正在写独立完整结论；不存重算输出。
+- [R864](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：公开Actions精确求得原h九次式及t=h³，缩放v=t/2^32满足v³+367395v²+147v+1/17=0，明确同K(∛17)坐标。定向[−1+2ω]有理映射给原τ和ℓ的完整三次基表，严格在分点商环核等式及Normℓ=−1−19ω；全部Hom输入固定，仍待原全局坐标/非零shadow。producer/run43822409558/hash齐，不保存重算输出。
 
 ## 四原B：当前第二实际门
 
