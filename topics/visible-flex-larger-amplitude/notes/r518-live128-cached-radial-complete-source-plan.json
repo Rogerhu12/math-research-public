@@ -1,0 +1,724 @@
+{
+  "schema": "R518-live128-radial-cache-complete-source-plan-v1",
+  "original_published_source_ref": "8b352f90b97f7c340a2fbebbb11c19080d9a5e08",
+  "local_cache_published_source_ref": "02320c3a035d03c31c4e1fada1d19d9661bf7179",
+  "baseline_request": {
+    "file": "public-live128-scoped-original-full112-FD-fullDN-request.json",
+    "bytes": 54884,
+    "sha256": "0fa9fe29153913252fd569cb2b99711c85b0afe72d8bc576adf629bd3e3f789e"
+  },
+  "generator": {
+    "file": "root_20261116_live128_cached_radial_source_views.py",
+    "bytes": 17055,
+    "sha256": "c694b2b937d8953169fb62c869e4ebe7acdf421eae12ea1393b7faee9e4d9f69"
+  },
+  "additional_public_sources": [
+    {
+      "file": "geometry_20261116_native_physical_radial_mode_cache128.hpp",
+      "bytes": 5253,
+      "sha256": "959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51"
+    },
+    {
+      "file": "geometry_20261116_native128_physical_radial_cache_source.py",
+      "bytes": 13235,
+      "sha256": "22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6"
+    },
+    {
+      "file": "root_20261116_live128_cached_radial_source_views.py",
+      "bytes": 17055,
+      "sha256": "c694b2b937d8953169fb62c869e4ebe7acdf421eae12ea1393b7faee9e4d9f69"
+    }
+  ],
+  "published_metadata_dependencies": [
+    {
+      "file": "topics/visible-flex-larger-amplitude/notes/r515-physical128-radial-mode-cache-source-plan.json",
+      "bytes": 8662,
+      "sha256": "5950052fac0d9c23e96f29421c03df79f4748828b2d7a6e9a4ed7f40bd090666"
+    }
+  ],
+  "counts": {
+    "original_public_files": 336,
+    "additional_public_files": 3,
+    "public_files": 339,
+    "generated_files": 12,
+    "complete_files": 351
+  },
+  "roles": {
+    "runtime": "geometry_20261116_live128_cached_radial_owned_run.py",
+    "fullDN": "geometry_20261116_live128_cached_radial_original_full_dn.py",
+    "necessary": "root_20261116_live128_cached_radial_necessary.py",
+    "client": "geometry_20261116_live128_cached_radial_tail_client.py",
+    "worker": "geometry_20261116_live128_cached_radial_worker.mjs",
+    "current_call": "geometry_20261116_live128_cached_radial_current_call.mjs",
+    "pipeline": "geometry_20261116_live128_cached_radial_call_pipeline.py",
+    "owner": "geometry_20261116_live128_cached_radial_same_call_owner.py",
+    "components": "geometry_20261116_live128_cached_radial_final_components.py",
+    "assembly": "geometry_20261116_live128_cached_radial_response_assembly.py",
+    "system": "exact_20261116_live128_cached_radial_current576_system.py",
+    "qr": "exact_20261116_live128_cached_radial_current576_chain_qr.py"
+  },
+  "component_contract": {
+    "schema": "R518-live128-cached-radial-original-full112-component-contract-v1",
+    "namespace": "visible-live128-cached-radial-R518",
+    "frozen_internal_request_number": 221,
+    "future_actual_public_request_number_not_assigned": true,
+    "actual_derived_request_SHA_is_computed_from_its_complete_written_bytes": true,
+    "old_0fa9_request_identity_is_ancestry_only_for_new_execution": true,
+    "unchanged_JSON_members": [
+      "repository",
+      "request_number",
+      "lanes",
+      "reviewed_README_blobs",
+      "original_inputs",
+      "actual63",
+      "actual91_artifact",
+      "runtime",
+      "live_call_resources",
+      "resources",
+      "original_scientific_contract",
+      "arithmetic",
+      "retention"
+    ],
+    "updated_metadata_members": [
+      "schema",
+      "operation",
+      "namespace",
+      "execution_entry",
+      "scientific_entry",
+      "necessary_reader",
+      "source_sha256",
+      "source_contract",
+      "R518_source_composition",
+      "results",
+      "publication"
+    ]
+  },
+  "views": [
+    {
+      "role": "components",
+      "baseline": {
+        "file": "geometry_20261116_live128_final_components.py",
+        "bytes": 32027,
+        "sha256": "2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866"
+      },
+      "patches": [
+        {
+          "id": "current-source-description",
+          "before": "\"\"\"Request204: complete original SIMD chain with the R445 stage type qualification.\n\nEvery passed finite-word matrix dot retains the complete binary128 words,\nuses exact integer accumulation and one RN113, including wide-exponent\nfallback. Small recorded H/point coefficients are still formed in binary128.\nAll224 state columns are batched; original nominal-factor solves, all C\nresiduals, primal/root trace and complete final components remain. There is\nno complete derivative error enclosure, old-word identity or speed promise.\n\"\"\"",
+          "after": "\"\"\"R515 complete original live128 components with a local physical mode cache.\n\nThe complete SIMD stage map and boundary mathematics are unchanged. The\nphysical endpoint and audit compiler use the explicit R515 source adapter.\nOnly finite radial-mode words are shared inside one physical_jets query;\nall original angular sums, C solves, rows, independent audit and gates remain.\nNo local science, complete derivative enclosure or speed promise is made.\n\"\"\"",
+          "count": 1
+        },
+        {
+          "id": "new-component-source-schema",
+          "before": "SCHEMA = \"R493-live128-same-call-final-components-launch-v1\"",
+          "after": "SCHEMA = \"R515-live128-cached-radial-final-components-launch-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-source-adapter",
+          "before": "QUALIFIER = \"geometry_20261116_native128_live_scalar_source.py\"",
+          "after": "QUALIFIER = \"geometry_20261116_native128_physical_radial_cache_source.py\"",
+          "count": 1
+        },
+        {
+          "id": "old-and-new-source-closure",
+          "before": "    QUALIFIER: \"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\",",
+          "after": "    QUALIFIER: \"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\",\n    \"geometry_20261116_native128_live_scalar_source.py\": \"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\",\n    \"geometry_20261116_native_physical_radial_mode_cache128.hpp\": \"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\",",
+          "count": 1
+        },
+        {
+          "id": "explicit-physical-source-scope",
+          "before": "        original_R302_boundary_and_physical_math_sources_unchanged=True,",
+          "after": "        original_R302_boundary_math_source_unchanged=True,\n        original_physical_header_retained_as_pinned_dependency=True,\n        physical_compiler_uses_explicit_finite_radial_mode_cache=True,\n        complete_original_physical_formulas_and_angular_sum_order_retained=True,",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_final_components.py",
+        "bytes": 32429,
+        "sha256": "0a7f47213789bc4779a6241b121f636d2356302b9f258fdf7a94b3dec4b02f8b"
+      }
+    },
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_live128_same_call_owner.py",
+        "bytes": 18850,
+        "sha256": "5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5"
+      },
+      "patches": [
+        {
+          "id": "actual-owner-source-schema",
+          "before": "SCHEMA = \"R493-current-H-live128-owner-call-v1\"",
+          "after": "SCHEMA = \"R518-current-H-live128-radial-cache-owner-call-v1\"",
+          "count": 1
+        },
+        {
+          "id": "declared-whole-component-source-view",
+          "before": "VIEW_PLAN = json.loads(r'''{\"schema\":\"R493-current-H-owner-engineering-view-v1\",\"baseline_file\":\"geometry_20261116_native_simd_stats_qualified_final128_same_job.py\",\"baseline_bytes\":38408,\"baseline_sha256\":\"8855ef79037bf552f44bd926e92ff5b2874fa17e8e35e1773c6344b71fd2c37c\",\"derived_bytes\":39115,\"derived_sha256\":\"2adbc342095e9b7c793ba708c9e3345ba6b822eb15a70bf446ada4508d1c41ec\",\"patches\":[{\"old\":\"COMPONENTS = \\\"geometry_20261116_native_simd_stats_qualified_final128.py\\\"\",\"new\":\"COMPONENTS = \\\"geometry_20261116_live128_final_components.py\\\"\",\"count\":1},{\"old\":\"COMPONENTS_SHA = \\\"e5c85e6bf5e864de39b0675f997c716466ead0dd158a6c22b73c714257e7433f\\\"\",\"new\":\"COMPONENTS_SHA = \\\"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\\\"\",\"count\":1},{\"old\":\"SCHEMA = \\\"native-persistent128-simd-digit-stats-qualified-same-job-final-components-procedure-v1\\\"\",\"new\":\"SCHEMA = \\\"R493-current-H-live128-owner-call-procedure-v1\\\"\",\"count\":1},{\"old\":\"summary[\\\"schema\\\"] == \\\"native-persistent128-simd-digit-stats-qualified-final-components-launch-v1\\\"\",\"new\":\"summary[\\\"schema\\\"] == \\\"R493-live128-same-call-final-components-launch-v1\\\"\",\"count\":1},{\"old\":\"item[\\\"scientific_complete\\\"] = summary.get(\\\"scientific_complete\\\") is True and process[\\\"returncode\\\"] == 0\",\"new\":\"item[\\\"scientific_complete\\\"] = summary.get(\\\"scientific_complete\\\") is True\\n                    item[\\\"full_scientific_summary_consumed_independently_of_transport_exit70\\\"] = True\",\"count\":1},{\"old\":\"if not final or not state.is_file() or not owner_result.get(\\\"final_state128\\\"):\",\"new\":\"if (not final or not state.is_file() or not owner_result.get(\\\"final_state128\\\")\\n                or final.get(\\\"final\\\", {}).get(\\\"complete\\\") is not True\\n                or final.get(\\\"final\\\", {}).get(\\\"below_original_tolerance\\\") is not True\\n                or owner_result.get(\\\"independent_fresh_replay_complete\\\") is not True):\",\"count\":1},{\"old\":\"record[\\\"not_started_reason\\\"] = \\\"actual-complete-owner-final-state-not-available\\\"\",\"new\":\"record[\\\"not_started_reason\\\"] = \\\"original-current-H-final-primal-tolerance-or-replay-not-complete\\\"\",\"count\":1},{\"old\":\"reason=\\\"actual-complete-owner-final-state-not-available\\\", scientific_complete=False)\",\"new\":\"reason=\\\"original-current-H-final-primal-tolerance-or-replay-not-complete\\\", scientific_complete=False)\",\"count\":1},{\"old\":\"schema=\\\"native-persistent128-simd_stats_qualified_digit-precleanup-components-v1\\\"\",\"new\":\"schema=\\\"R493-current-H-live128-precleanup-components-v1\\\"\",\"count\":1},{\"old\":\"        inverse=changed.replace(new_flag,old_flag,1).replace(replacement,original_transport,1)\\n        inverse=inverse.replace(OWNER_INSERT,\\\"\\\",1)\",\"new\":\"        deadline_old = \\\"    started = time.monotonic(); until = started+args.seconds\\\"\\n        deadline_new = \\\"    started = time.monotonic(); until = min(started+args.seconds, int(os.environ[\\\\\\\"R493_OWNER_ABSOLUTE_DEADLINE_NS\\\\\\\"])/1_000_000_000)\\\"\\n        require(changed.count(deadline_old)==1, \\\"Unique existing owner wall clock formation\\\")\\n        changed=changed.replace(deadline_old,deadline_new,1)\\n        inverse=changed.replace(deadline_new,deadline_old,1)\\n        inverse=inverse.replace(new_flag,old_flag,1).replace(replacement,original_transport,1)\\n        inverse=inverse.replace(OWNER_INSERT,\\\"\\\",1)\",\"count\":1}]}''')",
+          "after": "VIEW_PLAN = json.loads(r'''{\"schema\":\"R518-current-H-owner-R515-source-view-v1\",\"baseline_file\":\"geometry_20261116_native_simd_stats_qualified_final128_same_job.py\",\"baseline_bytes\":38408,\"baseline_sha256\":\"8855ef79037bf552f44bd926e92ff5b2874fa17e8e35e1773c6344b71fd2c37c\",\"derived_bytes\":39154,\"derived_sha256\":\"ce39e94d07b279bf136bd2af007e3f0f664015e37be3a8ea2197b7cd392696b7\",\"patches\":[{\"old\":\"COMPONENTS = \\\"geometry_20261116_native_simd_stats_qualified_final128.py\\\"\",\"new\":\"COMPONENTS = \\\"geometry_20261116_live128_cached_radial_final_components.py\\\"\",\"count\":1},{\"old\":\"COMPONENTS_SHA = \\\"e5c85e6bf5e864de39b0675f997c716466ead0dd158a6c22b73c714257e7433f\\\"\",\"new\":\"COMPONENTS_SHA = \\\"0a7f47213789bc4779a6241b121f636d2356302b9f258fdf7a94b3dec4b02f8b\\\"\",\"count\":1},{\"old\":\"SCHEMA = \\\"native-persistent128-simd-digit-stats-qualified-same-job-final-components-procedure-v1\\\"\",\"new\":\"SCHEMA = \\\"R518-current-H-live128-radial-cache-owner-procedure-v1\\\"\",\"count\":1},{\"old\":\"summary[\\\"schema\\\"] == \\\"native-persistent128-simd-digit-stats-qualified-final-components-launch-v1\\\"\",\"new\":\"summary[\\\"schema\\\"] == \\\"R515-live128-cached-radial-final-components-launch-v1\\\"\",\"count\":1},{\"old\":\"item[\\\"scientific_complete\\\"] = summary.get(\\\"scientific_complete\\\") is True and process[\\\"returncode\\\"] == 0\",\"new\":\"item[\\\"scientific_complete\\\"] = summary.get(\\\"scientific_complete\\\") is True\\n                    item[\\\"full_scientific_summary_consumed_independently_of_transport_exit70\\\"] = True\",\"count\":1},{\"old\":\"if not final or not state.is_file() or not owner_result.get(\\\"final_state128\\\"):\",\"new\":\"if (not final or not state.is_file() or not owner_result.get(\\\"final_state128\\\")\\n                or final.get(\\\"final\\\", {}).get(\\\"complete\\\") is not True\\n                or final.get(\\\"final\\\", {}).get(\\\"below_original_tolerance\\\") is not True\\n                or owner_result.get(\\\"independent_fresh_replay_complete\\\") is not True):\",\"count\":1},{\"old\":\"record[\\\"not_started_reason\\\"] = \\\"actual-complete-owner-final-state-not-available\\\"\",\"new\":\"record[\\\"not_started_reason\\\"] = \\\"original-current-H-final-primal-tolerance-or-replay-not-complete\\\"\",\"count\":1},{\"old\":\"reason=\\\"actual-complete-owner-final-state-not-available\\\", scientific_complete=False)\",\"new\":\"reason=\\\"original-current-H-final-primal-tolerance-or-replay-not-complete\\\", scientific_complete=False)\",\"count\":1},{\"old\":\"schema=\\\"native-persistent128-simd_stats_qualified_digit-precleanup-components-v1\\\"\",\"new\":\"schema=\\\"R518-current-H-live128-radial-cache-precleanup-components-v1\\\"\",\"count\":1},{\"old\":\"        inverse=changed.replace(new_flag,old_flag,1).replace(replacement,original_transport,1)\\n        inverse=inverse.replace(OWNER_INSERT,\\\"\\\",1)\",\"new\":\"        deadline_old = \\\"    started = time.monotonic(); until = started+args.seconds\\\"\\n        deadline_new = \\\"    started = time.monotonic(); until = min(started+args.seconds, int(os.environ[\\\\\\\"R493_OWNER_ABSOLUTE_DEADLINE_NS\\\\\\\"])/1_000_000_000)\\\"\\n        require(changed.count(deadline_old)==1, \\\"Unique existing owner wall clock formation\\\")\\n        changed=changed.replace(deadline_old,deadline_new,1)\\n        inverse=changed.replace(deadline_new,deadline_old,1)\\n        inverse=inverse.replace(new_flag,old_flag,1).replace(replacement,original_transport,1)\\n        inverse=inverse.replace(OWNER_INSERT,\\\"\\\",1)\",\"count\":1}]}''')",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_same_call_owner.py",
+        "bytes": 18902,
+        "sha256": "561c1db5122086abab05aa968db4597b46fad77ab887bd7c5faac985a6bdd3ae"
+      }
+    },
+    {
+      "role": "assembly",
+      "baseline": {
+        "file": "geometry_20261116_live128_response_assembly.py",
+        "bytes": 28584,
+        "sha256": "08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb"
+      },
+      "patches": [
+        {
+          "id": "actual-assembly-source-schema",
+          "before": "SCHEMA = \"R493-current-H-live128-response-assembly-v1\"",
+          "after": "SCHEMA = \"R518-current-H-live128-radial-cache-response-assembly-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-component-name",
+          "before": "COMPONENTS = \"geometry_20261116_live128_final_components.py\"",
+          "after": "COMPONENTS = \"geometry_20261116_live128_cached_radial_final_components.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-component-SHA",
+          "before": "COMPONENTS_SHA = \"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\"",
+          "after": "COMPONENTS_SHA = \"0a7f47213789bc4779a6241b121f636d2356302b9f258fdf7a94b3dec4b02f8b\"",
+          "count": 1
+        },
+        {
+          "id": "actual-component-schema",
+          "before": "COMPONENT_SCHEMA = \"R493-live128-same-call-final-components-launch-v1\"",
+          "after": "COMPONENT_SCHEMA = \"R515-live128-cached-radial-final-components-launch-v1\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_response_assembly.py",
+        "bytes": 28615,
+        "sha256": "2807377e96e127af2aee6ca3257bafbd8f6b884a5c80e0959d985e8b4d35bffc"
+      }
+    },
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_current576_system.py",
+        "bytes": 28975,
+        "sha256": "e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2"
+      },
+      "patches": [
+        {
+          "id": "actual-snapshot-client",
+          "before": "SNAPSHOT_LAUNCHER='geometry_20261116_live128_tail_client.py'",
+          "after": "SNAPSHOT_LAUNCHER='geometry_20261116_live128_cached_radial_tail_client.py'",
+          "count": 1
+        },
+        {
+          "id": "actual-snapshot-hook",
+          "before": "SNAPSHOT_HOOK='geometry_20261116_live128_current_call.mjs'",
+          "after": "SNAPSHOT_HOOK='geometry_20261116_live128_cached_radial_current_call.mjs'",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_live128_cached_radial_current576_system.py",
+        "bytes": 29003,
+        "sha256": "1cf6338e47541cb3af65d507de462dd6143f35aea7661575e8bc45c07fb5c86b"
+      }
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_current576_chain_qr.py",
+        "bytes": 21830,
+        "sha256": "faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49"
+      },
+      "patches": [
+        {
+          "id": "actual-system-name",
+          "before": "SYSTEM_NAME='exact_20261116_live128_current576_system.py'",
+          "after": "SYSTEM_NAME='exact_20261116_live128_cached_radial_current576_system.py'",
+          "count": 1
+        },
+        {
+          "id": "actual-system-SHA",
+          "before": "SYSTEM_SHA='e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2'",
+          "after": "SYSTEM_SHA='1cf6338e47541cb3af65d507de462dd6143f35aea7661575e8bc45c07fb5c86b'",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_live128_cached_radial_current576_chain_qr.py",
+        "bytes": 21844,
+        "sha256": "9c2cf83ec714f1e225071228320c169416a6ff86eddce0c717163a323a3a83dd"
+      }
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_call_pipeline.py",
+        "bytes": 19240,
+        "sha256": "137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8"
+      },
+      "patches": [
+        {
+          "id": "actual-owner-name",
+          "before": "OWNER = \"geometry_20261116_live128_same_call_owner.py\"",
+          "after": "OWNER = \"geometry_20261116_live128_cached_radial_same_call_owner.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-SHA",
+          "before": "OWNER_SHA = \"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\"",
+          "after": "OWNER_SHA = \"561c1db5122086abab05aa968db4597b46fad77ab887bd7c5faac985a6bdd3ae\"",
+          "count": 1
+        },
+        {
+          "id": "actual-assembly-name",
+          "before": "ASSEMBLER = \"geometry_20261116_live128_response_assembly.py\"",
+          "after": "ASSEMBLER = \"geometry_20261116_live128_cached_radial_response_assembly.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-assembly-SHA",
+          "before": "ASSEMBLER_SHA = \"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\"",
+          "after": "ASSEMBLER_SHA = \"2807377e96e127af2aee6ca3257bafbd8f6b884a5c80e0959d985e8b4d35bffc\"",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-name",
+          "before": "QR = \"exact_20261116_live128_current576_chain_qr.py\"",
+          "after": "QR = \"exact_20261116_live128_cached_radial_current576_chain_qr.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-qr-SHA",
+          "before": "QR_SHA = \"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\"",
+          "after": "QR_SHA = \"9c2cf83ec714f1e225071228320c169416a6ff86eddce0c717163a323a3a83dd\"",
+          "count": 1
+        },
+        {
+          "id": "actual-system-name",
+          "before": "SYSTEM = \"exact_20261116_live128_current576_system.py\"",
+          "after": "SYSTEM = \"exact_20261116_live128_cached_radial_current576_system.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-system-SHA",
+          "before": "SYSTEM_SHA = \"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\"",
+          "after": "SYSTEM_SHA = \"1cf6338e47541cb3af65d507de462dd6143f35aea7661575e8bc45c07fb5c86b\"",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-schema",
+          "before": "SCHEMA = \"R493-current-H-live128-call-pipeline-v1\"",
+          "after": "SCHEMA = \"R518-current-H-live128-radial-cache-call-pipeline-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-input-schema",
+          "before": "INPUT_SCHEMA = \"R493-current-H-live128-call-pipeline-input-v1\"",
+          "after": "INPUT_SCHEMA = \"R518-current-H-live128-radial-cache-call-pipeline-input-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-owner-input-schema",
+          "before": "\"R493-current-H-live128-owner-call-v1-input-v1\"",
+          "after": "\"R518-current-H-live128-radial-cache-owner-call-v1-input-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-assembly-input-schema",
+          "before": "\"R493-current-H-live128-response-assembly-v1-input-v1\"",
+          "after": "\"R518-current-H-live128-radial-cache-response-assembly-v1-input-v1\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_call_pipeline.py",
+        "bytes": 19348,
+        "sha256": "436db54132702cf448169e93a1d6d6d1327a63d5fbce1de1c4dd30ec87912fcd"
+      }
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_current_call.mjs",
+        "bytes": 34356,
+        "sha256": "c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21"
+      },
+      "patches": [
+        {
+          "id": "actual-client-word",
+          "before": "'geometry_20261116_live128_tail_client.py'",
+          "after": "'geometry_20261116_live128_cached_radial_tail_client.py'",
+          "count": 1
+        },
+        {
+          "id": "actual-pipeline-input-schema",
+          "before": "'R493-current-H-live128-call-pipeline-input-v1'",
+          "after": "'R518-current-H-live128-radial-cache-call-pipeline-input-v1'",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_current_call.mjs",
+        "bytes": 34383,
+        "sha256": "e9978c3a4692cee5ab7c27339272a45c18ffe5108fd32e8e3531cc4044b29296"
+      }
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_worker.mjs",
+        "bytes": 8167,
+        "sha256": "8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72"
+      },
+      "patches": [
+        {
+          "id": "actual-call-module",
+          "before": "'./geometry_20261116_live128_current_call.mjs'",
+          "after": "'./geometry_20261116_live128_cached_radial_current_call.mjs'",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_worker.mjs",
+        "bytes": 8181,
+        "sha256": "16dd7cb9f1ee91c43d06620aebc3cdf2e67fe75d416caf3c1d118aff9f3e39ae"
+      }
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_tail_client.py",
+        "bytes": 30316,
+        "sha256": "9f32e5ddd376016e51f678d9f0328727e63d8aacb5c4583046dc705949cc1894"
+      },
+      "patches": [
+        {
+          "id": "actual-client-worker-reference",
+          "before": "\"geometry_20261116_live128_worker.mjs\"",
+          "after": "\"geometry_20261116_live128_cached_radial_worker.mjs\"",
+          "count": 1
+        },
+        {
+          "id": "actual-client-pipeline-reference",
+          "before": "\"geometry_20261116_live128_call_pipeline.py\"",
+          "after": "\"geometry_20261116_live128_cached_radial_call_pipeline.py\"",
+          "count": 2
+        },
+        {
+          "id": "actual-client-call-reference",
+          "before": "\"geometry_20261116_live128_current_call.mjs\"",
+          "after": "\"geometry_20261116_live128_cached_radial_current_call.mjs\"",
+          "count": 1
+        },
+        {
+          "id": "actual-client-system-reference",
+          "before": "\"exact_20261116_live128_current576_system.py\"",
+          "after": "\"exact_20261116_live128_cached_radial_current576_system.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-client-qr-reference",
+          "before": "\"exact_20261116_live128_current576_chain_qr.py\"",
+          "after": "\"exact_20261116_live128_cached_radial_current576_chain_qr.py\"",
+          "count": 2
+        },
+        {
+          "id": "actual-and-original-full-client-source-map",
+          "before": "LIVE_SOURCE_PINS = json.loads(\"{\\\"geometry_20261116_live128_current_call.mjs\\\":\\\"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\\\",\\\"geometry_20261116_live128_worker.mjs\\\":\\\"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\\\",\\\"geometry_20261116_live128_call_pipeline.py\\\":\\\"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\\\",\\\"geometry_20261116_live128_same_call_owner.py\\\":\\\"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\\\",\\\"geometry_20261116_live128_response_assembly.py\\\":\\\"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\\\",\\\"geometry_20261116_live128_final_components.py\\\":\\\"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\\\",\\\"geometry_20261116_native128_live_scalar_source.py\\\":\\\"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\\\",\\\"exact_20261116_binary128_live_response_projection.py\\\":\\\"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\\\",\\\"exact_20261116_live128_current576_system.py\\\":\\\"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\\\",\\\"exact_20261116_live128_current576_chain_qr.py\\\":\\\"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\\\",\\\"geometry_20261116_live128_actual91_seed.py\\\":\\\"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\\\",\\\"geometry_20261116_live128_owned_process.py\\\":\\\"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\\\",\\\"geometry_20261115_native_trace_variation128_bridge.mjs\\\":\\\"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\\\",\\\"geometry_20261115_native_final128_packet.mjs\\\":\\\"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\\\",\\\"geometry_20261115_native_primal128_bridge.mjs\\\":\\\"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\\\",\\\"geometry_20261115_native_primal128.cpp\\\":\\\"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\\\",\\\"exact_20261114_native_damped_chain_qr.py\\\":\\\"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\\\",\\\"exact_20261114_native_allrows_dyadic_residual.py\\\":\\\"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\\\"}\")",
+          "after": "LIVE_SOURCE_PINS = json.loads(\"{\\\"geometry_20261116_live128_current_call.mjs\\\":\\\"c20af799243d35a045c9c5be7900fbd19bb8b391acb9efb26fe9c5265566cd21\\\",\\\"geometry_20261116_live128_worker.mjs\\\":\\\"8cc51b3e1a1c232c8b5769ef1cfc39261deb7aba84d0b8365b62cbf88c270b72\\\",\\\"geometry_20261116_live128_call_pipeline.py\\\":\\\"137cc95996dca1d876640fb81e4fd3290d41e32e9b23027cb29d103b5cb0eda8\\\",\\\"geometry_20261116_live128_same_call_owner.py\\\":\\\"5c1d4908fe6cca3917ef8ad6ed6269251e29b99efbb81e54b91b4f43391fc3b5\\\",\\\"geometry_20261116_live128_response_assembly.py\\\":\\\"08d48b55934e5306258d70a26aa8f8f57c89f71b45f6175b777ab46405cd43eb\\\",\\\"geometry_20261116_live128_final_components.py\\\":\\\"2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866\\\",\\\"geometry_20261116_native128_live_scalar_source.py\\\":\\\"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\\\",\\\"exact_20261116_binary128_live_response_projection.py\\\":\\\"b2336bcf56ba294efd1ba19e02b5d9acaedebb6eb669489fa1d869be7259626e\\\",\\\"exact_20261116_live128_current576_system.py\\\":\\\"e37b13457b9dd9cbd0e918a2bf98988b5027b49fad5c54ffd824016dd2efa7c2\\\",\\\"exact_20261116_live128_current576_chain_qr.py\\\":\\\"faac8b013b9151ba92760962d4303c847301a9057834e7230ab37ea6d0c04b49\\\",\\\"geometry_20261116_live128_actual91_seed.py\\\":\\\"219f5f8b26af05c17e596a1534e1fe5390c72ecb895de3b5606505525b8e429a\\\",\\\"geometry_20261116_live128_owned_process.py\\\":\\\"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\\\",\\\"geometry_20261115_native_trace_variation128_bridge.mjs\\\":\\\"61e21ded03f1569c7d05742d3059553d1f3830c52a62643fd64883bc821c83a7\\\",\\\"geometry_20261115_native_final128_packet.mjs\\\":\\\"824b7440d2604e828df4326b1cef1b1bf332d203eeb7e81968704d2febdcd7c2\\\",\\\"geometry_20261115_native_primal128_bridge.mjs\\\":\\\"3655c81a5771deaa26a0d22b8fc4bbbead0302cd06983ddd4f5d12eded44ebe8\\\",\\\"geometry_20261115_native_primal128.cpp\\\":\\\"1b59cd1059c147f3fedf28a663fed25049c80a42d782838506aba4a7b7df591d\\\",\\\"exact_20261114_native_damped_chain_qr.py\\\":\\\"9b951f9525966d243c602b304dc77d48c554afa2cc003eb65665f46f8db0ad33\\\",\\\"exact_20261114_native_allrows_dyadic_residual.py\\\":\\\"0bc8f9782077bbae2fd4f10c4f085c00356caf5005d331b18fc4f4d949da378f\\\",\\\"geometry_20261116_live128_cached_radial_final_components.py\\\":\\\"0a7f47213789bc4779a6241b121f636d2356302b9f258fdf7a94b3dec4b02f8b\\\",\\\"geometry_20261116_live128_cached_radial_same_call_owner.py\\\":\\\"561c1db5122086abab05aa968db4597b46fad77ab887bd7c5faac985a6bdd3ae\\\",\\\"geometry_20261116_live128_cached_radial_response_assembly.py\\\":\\\"2807377e96e127af2aee6ca3257bafbd8f6b884a5c80e0959d985e8b4d35bffc\\\",\\\"exact_20261116_live128_cached_radial_current576_system.py\\\":\\\"1cf6338e47541cb3af65d507de462dd6143f35aea7661575e8bc45c07fb5c86b\\\",\\\"exact_20261116_live128_cached_radial_current576_chain_qr.py\\\":\\\"9c2cf83ec714f1e225071228320c169416a6ff86eddce0c717163a323a3a83dd\\\",\\\"geometry_20261116_live128_cached_radial_call_pipeline.py\\\":\\\"436db54132702cf448169e93a1d6d6d1327a63d5fbce1de1c4dd30ec87912fcd\\\",\\\"geometry_20261116_live128_cached_radial_current_call.mjs\\\":\\\"e9978c3a4692cee5ab7c27339272a45c18ffe5108fd32e8e3531cc4044b29296\\\",\\\"geometry_20261116_live128_cached_radial_worker.mjs\\\":\\\"16dd7cb9f1ee91c43d06620aebc3cdf2e67fe75d416caf3c1d118aff9f3e39ae\\\",\\\"geometry_20261116_native_physical_radial_mode_cache128.hpp\\\":\\\"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\\\",\\\"geometry_20261116_native128_physical_radial_cache_source.py\\\":\\\"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\\\"}\")",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_tail_client.py",
+        "bytes": 31726,
+        "sha256": "d4b9a1cae39c744e1b579faa4d3559a5fe2ad3e33a052324cb3099d3c26f56aa"
+      }
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_original_full_dn.py",
+        "bytes": 35318,
+        "sha256": "63bbbefcfda8ae5761be314da743afc5291ad1a83749cf6d554003d429f5508e"
+      },
+      "patches": [
+        {
+          "id": "actual-fullDN-schema",
+          "before": "SCHEMA = \"R501-live128-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "after": "SCHEMA = \"R518-live128-cached-radial-actual63-H-original-FD-and-complete-fullDN-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-client-name",
+          "before": "CLIENT_NAME = \"geometry_20261116_live128_tail_client.py\"",
+          "after": "CLIENT_NAME = \"geometry_20261116_live128_cached_radial_tail_client.py\"",
+          "count": 1
+        },
+        {
+          "id": "old-client-retained-and-actual-pins-added",
+          "before": "    CLIENT_NAME: \"9f32e5ddd376016e51f678d9f0328727e63d8aacb5c4583046dc705949cc1894\",",
+          "after": "    CLIENT_NAME: \"d4b9a1cae39c744e1b579faa4d3559a5fe2ad3e33a052324cb3099d3c26f56aa\",\n    \"geometry_20261116_live128_tail_client.py\": \"9f32e5ddd376016e51f678d9f0328727e63d8aacb5c4583046dc705949cc1894\",\n    \"geometry_20261116_live128_cached_radial_final_components.py\": \"0a7f47213789bc4779a6241b121f636d2356302b9f258fdf7a94b3dec4b02f8b\",\n    \"geometry_20261116_live128_cached_radial_same_call_owner.py\": \"561c1db5122086abab05aa968db4597b46fad77ab887bd7c5faac985a6bdd3ae\",\n    \"geometry_20261116_live128_cached_radial_response_assembly.py\": \"2807377e96e127af2aee6ca3257bafbd8f6b884a5c80e0959d985e8b4d35bffc\",\n    \"exact_20261116_live128_cached_radial_current576_system.py\": \"1cf6338e47541cb3af65d507de462dd6143f35aea7661575e8bc45c07fb5c86b\",\n    \"exact_20261116_live128_cached_radial_current576_chain_qr.py\": \"9c2cf83ec714f1e225071228320c169416a6ff86eddce0c717163a323a3a83dd\",\n    \"geometry_20261116_live128_cached_radial_call_pipeline.py\": \"436db54132702cf448169e93a1d6d6d1327a63d5fbce1de1c4dd30ec87912fcd\",\n    \"geometry_20261116_live128_cached_radial_current_call.mjs\": \"e9978c3a4692cee5ab7c27339272a45c18ffe5108fd32e8e3531cc4044b29296\",\n    \"geometry_20261116_live128_cached_radial_worker.mjs\": \"16dd7cb9f1ee91c43d06620aebc3cdf2e67fe75d416caf3c1d118aff9f3e39ae\",\n    \"geometry_20261116_native_physical_radial_mode_cache128.hpp\": \"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\",\n    \"geometry_20261116_native128_physical_radial_cache_source.py\": \"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\",",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-event",
+          "before": "event=\"R501_live128_original_full_DN_orchestration_return\"",
+          "after": "event=\"R518_live128_cached_radial_original_full_DN_orchestration_return\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_original_full_dn.py",
+        "bytes": 36808,
+        "sha256": "9799a1b33ae52d1e5137ac51207bf48b01d41753732ec67225f738e17f764f91"
+      }
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_scoped_original_fullDN_owned_run.py",
+        "bytes": 38924,
+        "sha256": "6f211144ec8411f60981d699841e18c75d7f3f8000ee8ba8fe5d500322ad8dde"
+      },
+      "patches": [
+        {
+          "id": "source-schema",
+          "before": "SCHEMA = \"R508-live128-scoped-original-full112-owned-procedure-v1\"",
+          "after": "SCHEMA = \"R518-live128-cached-radial-original-full112-owned-procedure-v1\"",
+          "count": 1
+        },
+        {
+          "id": "component-contract-schema",
+          "before": "REQUEST_SCHEMA = \"public-live128-scoped-original-full112-FD-fullDN-request-v1\"",
+          "after": "REQUEST_SCHEMA = \"R518-live128-cached-radial-original-full112-component-contract-v1\"",
+          "count": 1
+        },
+        {
+          "id": "owned-namespace",
+          "before": "NAMESPACE = \"visible-live128-scoped-original-fullDN221\"",
+          "after": "NAMESPACE = \"visible-live128-cached-radial-R518\"",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-source",
+          "before": "ENTRY = \"geometry_20261116_live128_original_full_dn.py\"",
+          "after": "ENTRY = \"geometry_20261116_live128_cached_radial_original_full_dn.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-fullDN-SHA",
+          "before": "ENTRY_SHA = \"63bbbefcfda8ae5761be314da743afc5291ad1a83749cf6d554003d429f5508e\"",
+          "after": "ENTRY_SHA = \"9799a1b33ae52d1e5137ac51207bf48b01d41753732ec67225f738e17f764f91\"",
+          "count": 1
+        },
+        {
+          "id": "matching-necessary-schema",
+          "before": "\"R508-live128-scoped-original-full112-necessary-v1\"",
+          "after": "\"R518-live128-cached-radial-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "internal-component-description",
+          "before": "\"The actual independent request221\"",
+          "after": "\"The actual R518 view of the frozen221 internal component contract\"",
+          "count": 1
+        },
+        {
+          "id": "namespace-description",
+          "before": "\"Only this exact request221 namespace is owned\"",
+          "after": "\"Only this exact R518 component namespace is owned\"",
+          "count": 1
+        },
+        {
+          "id": "binding-description",
+          "before": "\"The actual complete request221 bytes and schema\"",
+          "after": "\"The actual complete R518 derived component bytes and schema\"",
+          "count": 1
+        },
+        {
+          "id": "fresh-description",
+          "before": "\"Use a fresh actual request221 namespace\"",
+          "after": "\"Use a fresh actual R518 component namespace\"",
+          "count": 1
+        },
+        {
+          "id": "module-source-label",
+          "before": "spec_from_file_location(\"_R508_\"+role,path)",
+          "after": "spec_from_file_location(\"_R518_\"+role,path)",
+          "count": 1
+        },
+        {
+          "id": "docstring-source-label",
+          "before": "\"\"\"Request221: real original112 full-DN with one live128 same-H response owner.",
+          "after": "\"\"\"R518 source component: frozen221 full-DN with a live128 radial-word cache.",
+          "count": 1
+        },
+        {
+          "id": "actual-event-request221_preparation_return",
+          "before": "\"request221_preparation_return\"",
+          "after": "\"R518_component_preparation_return\"",
+          "count": 1
+        },
+        {
+          "id": "actual-event-request221_actual_science_return",
+          "before": "\"request221_actual_science_return\"",
+          "after": "\"R518_component_actual_science_return\"",
+          "count": 1
+        },
+        {
+          "id": "actual-event-request221_cleanup",
+          "before": "\"request221_cleanup\"",
+          "after": "\"R518_component_cleanup\"",
+          "count": 2
+        },
+        {
+          "id": "actual-event-request221_quiet",
+          "before": "\"request221_quiet\"",
+          "after": "\"R518_component_quiet\"",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_cached_radial_owned_run.py",
+        "bytes": 39021,
+        "sha256": "86e416fb5d905bc85864931953d2fbc978f0585f117269b295c5bab3de0cefbe"
+      }
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_scoped_original_fullDN_necessary.py",
+        "bytes": 35283,
+        "sha256": "687168ef5ec3414c79667deda4df40c233e60265c1b12605c40a891964f709a7"
+      },
+      "patches": [
+        {
+          "id": "reader-source-schema",
+          "before": "SCHEMA=\"R508-live128-scoped-original-full112-necessary-v1\"",
+          "after": "SCHEMA=\"R518-live128-cached-radial-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "reader-component-contract",
+          "before": "REQUEST_SCHEMA=\"public-live128-scoped-original-full112-FD-fullDN-request-v1\"",
+          "after": "REQUEST_SCHEMA=\"R518-live128-cached-radial-original-full112-component-contract-v1\"",
+          "count": 1
+        },
+        {
+          "id": "reader-namespace",
+          "before": "NAMESPACE=\"visible-live128-scoped-original-fullDN221\"",
+          "after": "NAMESPACE=\"visible-live128-cached-radial-R518\"",
+          "count": 1
+        },
+        {
+          "id": "actual-runtime-name",
+          "before": "RUNTIME=\"geometry_20261116_live128_scoped_original_fullDN_owned_run.py\"",
+          "after": "RUNTIME=\"geometry_20261116_live128_cached_radial_owned_run.py\"",
+          "count": 1
+        },
+        {
+          "id": "actual-runtime-SHA",
+          "before": "RUNTIME_SHA=\"6f211144ec8411f60981d699841e18c75d7f3f8000ee8ba8fe5d500322ad8dde\"",
+          "after": "RUNTIME_SHA=\"86e416fb5d905bc85864931953d2fbc978f0585f117269b295c5bab3de0cefbe\"",
+          "count": 1
+        },
+        {
+          "id": "independent-frame",
+          "before": "FRAME=\"REQUEST221_SCOPED_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"",
+          "after": "FRAME=\"R518_LIVE128_CACHED_RADIAL_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"",
+          "count": 1
+        },
+        {
+          "id": "source-only-docstring",
+          "before": "\"\"\"One necessary request221 readback, after actual owned-process quiescence.",
+          "after": "\"\"\"R518 component readback after the original scoped owned-process quiescence.",
+          "count": 1
+        },
+        {
+          "id": "binding-description",
+          "before": "\"Actual request221 SHA\"",
+          "after": "\"Actual R518 derived frozen221 component SHA\"",
+          "count": 1
+        },
+        {
+          "id": "schema-description",
+          "before": "\"Actual independent221\"",
+          "after": "\"Actual R518 view of the frozen221 internal component\"",
+          "count": 1
+        },
+        {
+          "id": "namespace-description",
+          "before": "\"Only the one scoped221 namespace\"",
+          "after": "\"Only the one R518 component namespace\"",
+          "count": 1
+        },
+        {
+          "id": "module-source-label",
+          "before": "\"_R508_necessary_runtime\"",
+          "after": "\"_R518_necessary_runtime\"",
+          "count": 1
+        },
+        {
+          "id": "actual-source-method",
+          "before": "    def component(self,call,name):\n",
+          "after": "    def physical_source_bindings(self,call,name,obj):\n        \"\"\"Actual compiler-source receipts; preparation alone is not execution.\"\"\"\n        directory=call/\"owner\"/\"final-components\"/name\n        sites=((\"height-forcing\",directory/\"forcing-compiler\"/\"compile\"),) if name==\"boundary\" else (\n              ((\"main\",directory/\"compile\"),) if name in (\"endpoint\",\"audit\") else ())\n        result=[]\n        key=\"live128_physical_radial_mode_cache_source_binding\"\n        for site,work in sites:\n            path=work/\"physical-radial-mode-cache-source-binding.json\"\n            value=self.get(path,call.name+\"/\"+name+\"/\"+site+\"/R515-source-binding\")\n            item=dict(compiler_site=site,source_preparation_binding_returned=value is not None,\n                      compiler_execution_or_success_not_inferred_from_preparation=True)\n            if isinstance(value,dict):\n                item[\"selected_source_identity\"]=keep(value,(\"schema\",\"implementation\",\n                    \"upstream_factory\",\"prepared_ancestor_source\",\"actual_executed_source\",\n                    \"actual_executed_source_path\",\"unchanged_generated_R283_prefix\"))\n                if \"complete_copied_headers\" in value:\n                    item[\"actual_header_copies\"]=value[\"complete_copied_headers\"]\n                item[\"original_source_scope\"]=keep(value,(\n                    \"upstream_receipt_execution_labels_are_preparation_ancestry_only\",\n                    \"complete_338_by_112_mixed_endpoint_preserved\",\n                    \"all_original_physical_audit_queries_preserved\",\n                    \"all_angular_sums_and_original_C_solve_retained\",\n                    \"finite_word_cache_lifetime\",\n                    \"nonfinite_mode_words_recomputed_by_original_expression\",\n                    \"cross_query_cache\",\"new_acceptance_test\",\n                    \"existing_process_deadline_and_errors_delegated_unchanged\",\n                    \"original_public_sources_modified\",\"whole_run_word_identity_or_speed_claimed\"))\n                item[\"returned_process_records\"]=[]\n                for index,row in enumerate((obj or {}).get(\"lifecycle\",[])):\n                    observed=row.get(key)\n                    if not isinstance(observed,dict):continue\n                    if observed.get(\"actual_executed_source_path\")!=value.get(\"actual_executed_source_path\"):\n                        continue\n                    item[\"returned_process_records\"].append(dict(lifecycle_index=index,\n                        complete_binding_equals_file=canonical(observed)==canonical(value),\n                        process=keep(row,(\"started\",\"returncode\",\"actual_process_returncode\",\n                            \"wall_timeout\",\"elapsed_seconds\",\"actual_wall_allowance_seconds\",\n                            \"requested_cap_seconds\",\"pid\",\"pid_start_time\"))))\n            result.append(item)\n        return result\n\n    def component(self,call,name):\n",
+          "count": 1
+        },
+        {
+          "id": "all-actual-source-receipts-even-after-summary-partial",
+          "before": "        if obj is None:return dict(started=directory.is_dir(),summary_returned=False)\n        out=dict(summary_returned=True,**keep(obj,",
+          "after": "        physical_sources=self.physical_source_bindings(call,name,obj)\n        if obj is None:return dict(started=directory.is_dir(),summary_returned=False,\n                                   physical_compiler_sources=physical_sources)\n        out=dict(summary_returned=True,physical_compiler_sources=physical_sources,**keep(obj,",
+          "count": 1
+        },
+        {
+          "id": "selected-actual-component-source-scope",
+          "before": "\"schema\",\"component\",\"scientific_started\",",
+          "after": "\"schema\",\"component\",\"source_sha256\",\"scientific_started\",\n            \"physical_compiler_uses_explicit_finite_radial_mode_cache\",\n            \"complete_original_physical_formulas_and_angular_sum_order_retained\",",
+          "count": 1
+        },
+        {
+          "id": "actual-source-view-contract-readback",
+          "before": "        namespace=str(base),necessary_readback_complete=False,",
+          "after": "        namespace=str(base),necessary_readback_complete=False,\n        R518_source_composition=request.get(\"R518_source_composition\"),\n        request_number_is_frozen_internal_component_identifier=True,",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_live128_cached_radial_necessary.py",
+        "bytes": 38722,
+        "sha256": "c186444eacb89add6e75ff6730851978ad8ba581f99dd447154fd5c258b15c2a"
+      }
+    }
+  ],
+  "scope": {
+    "no_scientific_module_import_or_compilation_in_generator": true,
+    "baseline_original_files_and_old_336_pins_all_retained": true,
+    "old_source_dependency_JSON_is_actual_metadata_not_an_executable_source": true,
+    "all_generated_loaders_use_true_GITHUB_WORKSPACE_topic_computations": true,
+    "no_old_generated_view_assumed_to_be_public": true,
+    "no_full_expanded_source_or_raw_scientific_output_to_Git": true,
+    "full_owner_cpp_fresh_replay_RK_and_all_576_by_224_stage_math_unchanged": true,
+    "every_original_226_row_and_two_mean_outputs_unchanged": true,
+    "original_mixed_338_by_112_contract_not_promoted_to_all_analytic": true,
+    "original_affine_FD_fullDN_and_fresh_audit_gates_unchanged": true,
+    "component_completion_is_not_global_native_or_fullDN_acceptance": true,
+    "first_input_artifacts_are_only_original_initial_guesses": true,
+    "original_per_job_clock_19200_not_reset": true,
+    "original_storage_memory_allocation_threads_and_caps_unchanged": true,
+    "old_R508_scoped_PID_start_ticks_quiet_and_cleanup_unchanged": true,
+    "R515_prepare_receipt_alone_does_not_prove_compiler_ran": true,
+    "no_speed_or_scientific_acceptance_result_claimed": true,
+    "current_221_and_all_active_runs_unmodified": true
+  }
+}

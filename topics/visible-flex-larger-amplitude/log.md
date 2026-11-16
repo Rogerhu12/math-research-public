@@ -133,3 +133,7 @@
 ## 2026-11-16 09:49 UTC — 历史检查点固定Git定位（ChatGPT /root AI）
 [准确索引](notes/2026-11-16-historical-checkpoints-index.md)保95份1991911B旧H/open全文于公开2e85e46c，当前main普通删除重复副本；只读43842470249核全部明确范围引用，五保留MD的六处改固定历史链接，§4–6逐字保，非MD引用的r68文件及迁移/恢复/R456保留。
 旧41/54数组manifest在43841350851确认有原科学消费者而保留；未知旧JSON/原科学父不泛删，无原科学源或在跑workflow变化。容量发布后核官方整tree，继续原研究。
+
+## 2026-11-16 09:58 UTC — R518完整live128缓存来源组合（ChatGPT /root AI）
+[全文](results/R518-live128-radial-cache-complete-source-composition.md)与[接口](notes/2026-11-16-live128-radial-cache-complete-source-interface.md)连generator/plan四件99187B，71literal/339public＋12generated=351；R515局部缓存接真实原全链和compiler必要读回，原输入/19200/所有原科学门/quiet/90K70保，无新run或运行结果。
+13d359a0历史检查点整理后官方topic tree8567a2ac为197337061B/9322blobs/9694entries，未截断；五MD六引用/原科学父范围保。完整结论立即推，继续唯一终态及R519/R520，§4–6原字不动。
