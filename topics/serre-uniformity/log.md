@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:14 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:15 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -61,3 +61,9 @@
 - 原β∈A(Q)与R728全部EndQ为域给Q-simple，稠密循环群证明任何非零原L-Hom值非挠；同靶原整数Hom字正负准确判点加法分支，不选抽象A前像。A.1/展开/eta-height仍false。
 - finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f，完整1.90MB/69成员已纯IO；185源carrierdd6bb50b。一日续传不重数学。R815新run43777837244/job133008081839实际计算中，582断点/core/模式不变。
 - 本push规则：本地真实pull至759fd79e5f0fd0aa395f6c53c8065f0aa2eafe0a（2026-11-16T00:14:13.867754+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:16（Asia/Taipei）— 原D两截面与原极理想八生成元
+- 新方法64bef427证明原V3²乘法秩1111−degZ，五旧纤维评价只需秩下界；实际1111minor才给共同零恰D。原W_D的295基现在已由R842真实取得，旧τ²V3=V5前690逐recipe alias可直接读。
+- 原Ey=ℬ+3D与R837两锚给八个V11生成元和两图完整Cartier理想；原三同源EyR=3Ey+div(y²−b)给分式理想(y²−b)^−1 I_Ey³。保实际标量/刚性化，不把类相同当函数常数1；五加法极除子/eta-height仍缺。
+- R843已推4ca3456b；H接近10KB先逐字归档再压缩R787/R840/R841已成说明，完整入口保留。继续新1111消费者，旧Krylov/S5逆/Fourier不重，尚无1111结果。
+- 本push规则：本地真实pull至a9f3537462c2aed30d09e7e60b408e5f16c237e7（2026-11-16T00:15:34.282712+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
