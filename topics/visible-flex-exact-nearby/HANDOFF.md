@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 12:01:18 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 12:01:54 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 12:01:17非FF真CLI仍无executor，下一本地尝试≤13:01:17。最新CI真pull为43859287399/1于11-16 11:42:53.716692→5b5dd03b0d69c8a059282b963b7192679fd43f67；两README完整diff空/同已读，exec保4次全回执。下一真pull≤12:42:53；ref读取不冒真pull。
-最近只读README核：24d862dd85684fedd472414f6e9a77d896062a89；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：ec7d61e1b11f45751d54494997658845b5b5dc7c；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -49,7 +49,7 @@ WOBSA c2eff7d8/43844596176成功18门6图37新/1exp1pow7sqrt、old0/lost0；三�
 
 WMF14900631同J/primitive归一正权与完整Fmean恒等已证，0新数/逆；完整physical z/root/两waist mean/Jr/g1/内部drift和径向IBP的er/端点/jump保proof及完整检查点。 WMLa67961a5已证原local归一L1/4强迫amplitude/6步/10terminal，无1/T根除；247新量尚未算，依WMTA非mean主导暂缓部署。
 
-WMTA b4b5f5f7/43856579962/1成功18门7图195新+2原copy，0新exp/old0/lost0；SCI edd66cdb/90421/c6680025、exec15540/9d992cf3、report443。131原record/33scope及5actual资格全冻结；CFs约1.167e289，whole/reduced仍2.1163e465且各真选new。原local/3070jump/四端/两mean/8terminal/真r*及全scope保proof；非mean项仍主导，0finite逆。 WRT7730307f整移k3..5到E3，旧C6/两mean/四端/jump保，p3/2接S1/6。sourcebc168634/manifest38e8211d；11current/2AST/75copy/7图42新未始。
+WMTA b4b5f5f7/43856579962/1成功18门7图195新+2原copy，0新exp/old0/lost0；SCI edd66cdb/90421/c6680025、exec15540/9d992cf3、report443。131原record/33scope及5actual资格全冻结；CFs约1.167e289，whole/reduced仍2.1163e465且各真选new。原local/3070jump/四端/两mean/8terminal/真r*及全scope保proof；非mean项仍主导，0finite逆。 WRT7730307f整移k3..5到E3，旧C6/两mean/四端/jump保，p3/2接S1/6。sourcebc168634/manifest38e8211d；11current/2AST/75copy/7图42新已排CI。
 
 ## 恢复、容量和执行
 
