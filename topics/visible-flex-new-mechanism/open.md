@@ -183,3 +183,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 ### R470：完整响应self仍三维，y严格非零；继续真实cap第一头
 
 [R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)（12565B；SHA256 bc51ed386a75d8eb6f1933a7b0db39c18d3afb48f86931820ef0f291473c12f8）给两新响应完整17项恒等，S(K0)=span{K8,V51,V52}恰三维。XY经x8/x7/x0三角投影的六项余式，其x5=−2s(2s²+17h)<0，故当前共同cap上y≠0。XH十二词恰真Ln2截断积分A(x)，degree≤7但由同固定cap积分决定，不可自由选系数或因全n2零删去。下一判同一P_H+A∈span{三响应,XY}；若成比例R468仍给actual，不以单独非成员停止。其它s段同规范/主几何门继续。
+
+### R469：已付端芽锁定第三矩，全段只余同一13核列及真实前缀门
+
+[R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)（26167B；SHA256 5e69cbbf4019b2dc3febb31e715fc69ee6c2633907641bb67da8a72f81b7447f）完整保二阶规范平方/交叉，第三三矩由一个已付真有理端芽唯一决定；其它段变化是同一𝒫*Bθη。当前rank-one圆所有gap对全s盲，剩母与平台2n列，平台真local=−d_i w′·μ_i/2；须在原13核内解全s函数式，42生成元不是秩。两个同坐标ω0有理端芽的最高差=sin²θ d_f(Φ∫Mraw)，共同w与第三规范全消；全M0只付周期，不付相对prefix。R70可实际设计有限标记矩阵prefix，但未保T/V、桥内部ruling或全段。下一先接真M/第三prefix与完整新增V，再保同一全段规范，不逐端口重锚。

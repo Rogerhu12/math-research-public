@@ -408,3 +408,7 @@
 ## R470｜完整权零响应 self 三维像与第二头严格非零
 
 [R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)（12565B；SHA256 `bc51ed386a75d8eb6f1933a7b0db39c18d3afb48f86931820ef0f291473c12f8`）。消费85原记录，两个补响应的完整Af self均在旧K8/V51/V52像，五维成本核的self像恰三维；完整17单项表及两组精确有理关系保原稿。XY由x8/x7/x0唯一投影后六项余式的x5严格负，故真cap h,s>0上y≠0。XH十二非局部词恰原Ln2的真实左截断积分，化为同cap degree≤7多项式但不置零，准确剩下联合h∈span(y)。0新执行，根全文消费纸证；未宣满锥失败或主完成。
+
+## R469｜全局规范锁定、两类完整核列与真实前缀障碍
+
+[R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)（26167B；SHA256 `5e69cbbf4019b2dc3febb31e715fc69ee6c2633907641bb67da8a72f81b7447f`）。一个已付有理端芽唯一锁定第三三矩，完整平方经同一Gram补偿后全段变化=𝒫*Bθη。当前圆所有gap对全s无效，母/平台两类完整列与原13核给准确剩余函数方程；平台local导数项不删。两个真端芽归一最高行差=sin²θ d_f(Xb−Xa)，X是真Mraw前缀；同全成本最高scalar只共同平移，不能付相对门。R70给有限标记二阶prefix，但T/V/全段未付。全文纸证0新执行，根读原式及范围；不宣当前固定路径违反或主完成。
