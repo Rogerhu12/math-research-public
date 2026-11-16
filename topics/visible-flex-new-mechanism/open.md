@@ -28,6 +28,12 @@
 
 [本次实际返回](notes/true58-reflected-R1-ray-selected-fiber-infeasible-no-candidate-20261116.md)已完成一次原J1盒共同两网BVLS。反射第三mean粗/细.1122799870321235/.11228005841559864保留；非零投影是近似方向。七预定幅度中1/2 metric失败，3/8、1/4、1/8、1/16、1/32、1/64过环metric/列/剩余盒门；首选3/8的唯一R2 LP status2/nit0，x/dual None，其他五个未解。该处R1-only环κ约79.9617，不能据metric改善接受。下一用已存完整模型形成几何上不同的低阶与二阶耦合任务，不盲重跑原实例；新代数/求解/预测/actual必须另列Actions科学账。
 
+### R525共同幅度与完整R2的一个新有限问题
+
+[R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)保同一实际58、原xstar射线和原172盒，准确写U=U0+αV、Xss=B0+αL+α²H+V17y；不要求未存的任意R1二次张量。完整曲率谱可清分母为6/4/8次三门，必须同时保R≥0和Qcross>0，实际G不置1；原未平方PSD仍作真实候选判定。自由A的最优值−C给trace零几何目标，原盒有准确逐角可达区间；同一17y的纤维余量连续并有完整minimax判据，离散失败不能排连续α域。
+
+已明确下一独立会话：19变量(α,y17,h)，α∈[1/64,1/2]，min完整合成物理norm上界h；初α1/4和原剩余盒中点。一次SLSQP/解析Jac，maxiter160、最多400完整新模型评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。候选准确合成一次round后，至多1全body预测及1原actualpair；全部新代数/导数/失败费用另记。当前只写源码，尚无新科学执行或59。所需固定a从当前58原CACHE2 selected metric读取，缺值不得反推或伪造。
+
 ### 仍须支付
 
 1. 把完整连接的metric误差降至同g精化收敛；有限首jet修复和现有163维改进不证明完整非线性边值问题可解。R64的后续 $u_5/v_8/b_7$ 若启用须含完整body项、扣原参考并成套改变自由基。

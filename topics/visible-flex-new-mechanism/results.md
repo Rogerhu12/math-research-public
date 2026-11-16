@@ -464,3 +464,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R524 同规范常态返回门与真实矩阵有限幅度障碍](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)：**已证明**末常态继续 iff 完整bc/qc两门；原raw p1/t1给小高度速度盒内同长度八矩传递刚性。任意M0须k换号、max|k|>1、εh≥1和严格ω振幅下界；不排仅scalar返回，不授全局反馈、闭合或主几何。
+
+
+- [R525 一参数共同R1/R2与原盒多项式曲率域](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)：**已证明**已付射线的完整二次jets、实际G的6/4/8次谱等价、自由最优A=−C、原盒trace区间与同17列minimax/连续余量。新19变量联合会话已明确但未执行；不据旧status2排整射线，不授全body或连续reach。

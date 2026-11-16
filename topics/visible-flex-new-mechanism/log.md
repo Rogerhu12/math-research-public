@@ -789,3 +789,7 @@ R521以真实有限正交复制保全部第三history，原kss行经完整IBP在
 
 ## 2026-11-16 13:24 UTC：R520完整导数呈示更正
 R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc的C²余项，αc及22行principal、固定规范结论不变。按原T_y定义纸面两次求导核对；没有新科学执行，当前58及2882.412483226秒/147值不变。
+
+
+## 2026-11-16 13:30 UTC：R525共同射线与原盒曲率域
+[R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)付单α完整有限模型、实际G下6/4/8次谱三门、原盒trace区间及共同纤维minimax/连续性；root逐式核对正分母、退化C=±K、谱门R≥0与源数组尺度。下一19变量新会话源码准备，600总秒/120solver秒/400解析评价、0旧LS/LP或Π重算；尚未执行，58及总账不变。

@@ -38,8 +38,6 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)核原raw八矩：同R520的末常态germ还须完整bc(δA,Ac)=qc(δA)=0，真实第三W保。若εh=hmax√L‖hs‖₂/hmin²<1，同长度八矩等于LMc强迫全程常态；完整M0必须k换号、max|k|>1、εh≥1及oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。仅scalar返回未排，不借局部IFT充有限幅桥。
 
-R520(13)解释已补T_y″完整C²余项4ypr−2y²r²−2p²；原βc已含它，αc/principal和既有结论不变。该修文无科学执行。
-
 ## 5. 不同母库的范围与新的完整history反馈
 
 原R469–509、R512/515/517和全部成本保[索引](results.md)。R507只有scalar端值；R508/509只给secant局部端口。R512字面同形母一次固定规范的完整方程在常态bulk有正t²障碍；R515任何合法secant上p1二次系数Q≥15∫b²/32；R517在同一特殊库中证明光滑周期模板第二次K0 iff M0，合法实解析整圆一周期K0可延拓迫M0。这些不排一般有限幅值/可变母，也未构造周期轨道；不能移植其YC全消前提给R520/521。
@@ -50,8 +48,8 @@ R520(13)解释已补T_y″完整C²余项4ypr−2y²r²−2p²；原βc已含它
 
 ## 6. O2后继及当前工作顺序
 
-R514/R516付原51三jet/同盒、纯R1共同17维二次jet与四次列门、剩余R2原盒support-function iff；实际G/完整Π/中段耦合保。新反射R1已付并保存完整17Π/Lx/Hxx；未给可接受全body新态，不重原R2或首选幅度LP。
+[R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)由已付射线给共同α+y17完整有限式，实际G/Qcross的6/4/8次谱三门须保R≥0；自由A最优−C，原盒trace区间和共同纤维minimax/连续性已证。只存Hx*x*，不称全R1张量。下一19变量一次SLSQP：α[1/64,1/2]，600秒/solver120秒/160iter/400新解析评价，至多1预测/actualpair；源码准备，尚未执行。原LS/3/8 LP不重跑。
 
-[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付反射支、零均值及原9/8成员门。新射线的反射第三mean约.11228保留，近似投影不能套准确等距式；原盒BVLS和七幅度观察已闭，下一须用已存真实二次模型处理低阶/曲率耦合及全body。
+[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)的原9/8成员/均值门仍保；实际反射mean约.11228未消，近似射线不是等距支。新完整V17/Lx/Hxx已付，后继读取，不重Π。
 
 继续三个真实问题：原盒下R0/R1低阶环态与其全body候选；R518同一实际字的非恒逐点ruling；同一固定规范下有限幅值非恒周期轨道。所有新系数/缺失数组/求解/预测/actual都在未来明确Actions科学账；已有输出只按原身份读。每一子问题结束接open下一项，不把条件定理或有限观察当主完成。
