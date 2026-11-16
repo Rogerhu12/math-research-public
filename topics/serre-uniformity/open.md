@@ -127,3 +127,6 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 
 [原比较函数一阶接口](notes/R792-original-Hom-comparison-log-jets-from-certified-point-DAG.md)2d613dc1：只读R844点与R791十二切向，dlog(y_u²−b)=6y_u h_u/x_u；真七σ trace给五R_j'/R_j，不称其非零/刚性化/高度，尚未运行新jet。
+
+
+**原全局三射影子式极理想公式已证**：[GP.7/15与源契约](notes/R839-original-global-addition-polar-ideals-and-eta-DAG.md)520bfbd5：I_E(P+Q)=I_EP³I_EQ³((xP−xQ)³,(yP+yQ)³,(xP yQ+xQ yP)³)。原始平面坐标的反对角概形理想、DVR立方与φ平坦下降保O/O、二挠及分歧全部重数；无需R804支撑饱和。原global y直接用已成U.1，原W/χ可分微分与C_j/C0给五原同比函数；η负理想类号及三同源正乘R_j均保留。下一实际源DAG装配须补全1234 real行、R806全W34组、R809六C12组，690行/五fiber/CM点值不能代全局叶；未称η类零/规范代表/高度。

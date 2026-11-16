@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:48 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:50 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -120,3 +120,9 @@
 - 原五R_j的log导为原r_j系数下的七σ trace差，原值仍保Nb/b7及全部常数。只需R844已成529节点和R791十二切向，不重CM/加法/Hodge；未运行新jet，未证明非零、刚性化或高度。
 - R845已实际推036f8a1e；全局三射影minor极理想新证明准备发布，直接消费已成原全局y单位chart与全局W/C来源。
 - 本push规则：本地真实pull至85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621（2026-11-16T00:48:05.659158+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:49（Asia/Taipei）— 原五加法极理想的全局三射影子式公式
+- 新GP.7/15证明520bfbd5：反对角的三个平面minor经原两端极理想清极，再在曲线DVR立方并沿φ平坦下降，准确给I_E(P+Q)；覆盖O/O、二挠及分歧。不把有限图分母零点当极点，也不在多元环误用三次幂等式。
+- 原global y的U.1已登记直接消费；原六C、全局W的χ与按需unit solve给全局导数/五同比函数，非CM点值或五fiber代替。原η保O(−Z)负类号，三同源I_ZR=R_j I_Z³正乘、原范数常数与刚性化缺口保留。
+- 下一只装配来源完整全局DAG，补全1234 F/W34/C12旧产物，不重R845铅笔或大逆。H缩R845重复metadata，全部正式结果/归档仍在；没有预填新机器产物或η/height结论。
+- 本push规则：本地真实pull至b340cb34d3243f6836bc3fdcf29939293e44cb7b（2026-11-16T00:50:10.256839+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
