@@ -2,7 +2,7 @@
 
 **未完成。** 持续到[课题README](README.md)全标准，随后加强比例；时长、单批次、阶段报告或子题完成都不是终点。固定同一g、连通闭C²嵌入和全t强C²族；固定有内点H且diamH≥.2D，整像δhold≥.2D、含反射δE>0，全t reach≥.03D、全域相对metric算子≤1e−6，D取完整闭F0。
 
-压缩前完整正文逐字存[202前检查点](notes/2026-11-16-open-checkpoint-before-request202.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
+压缩前完整正文逐字存[R443前检查点](notes/2026-11-16-open-checkpoint-before-R443.md)，内链回R404/197/R418/R396及全部原历史。只合并重复索引；原参数、错误、未访、预算、清理和未付责任保各结果/接口；§4–6逐字不变。真实run/唯一负责人/规则记录见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public及Actions科学计算；本地限源码、纸证、原字面与元数据。每结论同时写results/HANDOFF/open/log并立即推，每真实pull核双README，有变仅读差异；至少每小时pull。只保存源码、参数、run/SHA和紧凑结论，不重存可重算raw、不拆编码大数据、不凭已删SHA制造父，不增fixture/独审/科学前门。
 
@@ -108,6 +108,8 @@ R429原五阶段与R426现场完整闭查询的全部来源、11查询资源、�
 [R436](results/R436-original-or-refined450-same-job-complete-geometry-source-binding.md)/43565f7c+a565bc88+ad492e57显式接原193或真R431/70a/43f新450，核同origin/直接父/实际checkpoint/全十词/C-DAG/原deadline，13旧pins逐值保→15；原writer/SavedPrefix/径向/atlas/shared已动态支持新driver和mesh，数学源不改。五阶段及独立held都从新场重做，原参数/门/剩余钟/owner/90KB保，旧几何不转贴。全闭同g另须冻结首次W/帽高/完整marker/材料运输/尾帽及源码解释，当前入口不自动跨postsolve比较；R437付首次冻结。单90KB超限70/raw不删，没有新actual450/参数/run或几何接受；R438再明确接块reach。
 
 [R438](results/R438-original-or-refined450-block-reach-and-held-source-binding.md)/5bb2ee1d+57413c73+119ec38c将R435/e3fcd9eb明确接真193或真R431新450的原五阶段，原15pins逐值保→16，R422仍实依赖；两个父bind/OwnedChild/原deadline/invoke/五阶段正文/finish不改。原12个reach参数加3显式工作资源，全部当前blockfrontier/原singleton空间相位栈/union frames/曲率pending完整返；union仅完整canonical字节相同才引用去重，历史未付叶只原ledger地址/身份。held新增严格第四source/schema/input三元组、仍原R425/三真实前件，metric/reach非前门。原90KB超限70/raw不删，首次W/帽高/全marker/材料/尾帽仍须R437冻结；无actualparent/recipe/run或几何接受。
+
+[R443](results/R443-common-material-angle-pullback-and-fixed-closed-target.md)核当前core→Phi、R418前缀/径向Phi_q²目标及R413固定笛卡尔帽。首图到当前图须psi_j=Theta_j^{-1}∘Theta_0，prefix另用公共u；原严格正材料逆前提下准确拉回同一g，帽靠共同cuff过渡保持恒等，不将非线性角换元伸到中心。四Loewner合同保原eta，整像/固定帽H/reach/含反射差异不变；全部混合/高jet、真实消费者和统一C²收敛仍未付。H常量不进入帽metric，W/H冻结另是README构造责任；不以坐标纸证冒实际闭面或精化。
 
 ## 4. 同一g闭合与真正九冻结450
 

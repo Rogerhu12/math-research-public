@@ -40,3 +40,8 @@
 ## 2026-11-16 01:10:41 UTC /root — R438完整块reach真实来源接线
 
 [R438](results/R438-original-or-refined450-block-reach-and-held-source-binding.md)/5bb2ee1d+57413c73+119ec38c将R435/e3fcd9eb明确接真193或真R431新450的原五阶段，原15pins逐值保→16，R422仍实依赖；两个父bind/OwnedChild/原deadline/invoke/五阶段正文/finish不改。原12个reach参数加3显式工作资源，全部当前blockfrontier/原singleton空间相位栈/union frames/曲率pending完整返；union仅完整canonical字节相同才引用去重，历史未付叶只原ledger地址/身份。held新增严格第四source/schema/input三元组、仍原R425/三真实前件，metric/reach非前门。原90KB超限70/raw不删，首次W/帽高/全marker/材料/尾帽仍须R437冻结；无actualparent/recipe/run或几何接受。
+
+
+## 2026-11-16 01:23:44 UTC /root — R443共同材料图与同g责任
+
+[R443](results/R443-common-material-angle-pullback-and-fixed-closed-target.md)核当前core→Phi、R418前缀/径向Phi_q²目标及R413固定笛卡尔帽。首图到当前图须psi_j=Theta_j^{-1}∘Theta_0，prefix另用公共u；原严格正材料逆前提下准确拉回同一g，帽靠共同cuff过渡保持恒等，不将非线性角换元伸到中心。四Loewner合同保原eta，整像/固定帽H/reach/含反射差异不变；全部混合/高jet、真实消费者和统一C²收敛仍未付。H常量不进入帽metric，W/H冻结另是README构造责任；不以坐标纸证冒实际闭面或精化。
