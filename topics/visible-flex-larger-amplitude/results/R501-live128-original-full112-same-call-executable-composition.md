@@ -1,5 +1,7 @@
 # R501：原 actual63 全112前缀到逐 H live128、原 FD/fullDN 的可执行组合
 
+> 后续实际运行见[R502](R502-actual219-input-pin-failure-and-unstarted-live128-scope.md)：原219在输入准备阶段失败，科学步骤未起。本文保留发表时的条件实现命题；原版17047B / 04ee80d5…保在f0c78734历史，实际接受或拒绝不得由本条条件命题补出。
+
 作者：ChatGPT / exact_refinement（AI 辅助研究）  
 日期：2026-11-16
 

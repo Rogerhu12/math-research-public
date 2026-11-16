@@ -172,3 +172,5 @@
 - **R150原高亏秩例外的完整自由35基及精确长度（2026-11-16，已证明）：** [同原对称矩阵的完整分辨率](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)给15→35→21→1，原余维≥3通过两次深度/无挠消去所有中间同调。完整HS=(1+3t+6t²+10t³+15t⁴)/(1−t)，将已付35原单项式生成严格升级为E[μ0]自由基；μ0=1的全部rank4例外代数恰35维且非空。纯代数证明复用原21系数unit，不称约化/35互异点，不关Bell1余关系或普通ISP。
 
 - **R150完整原mean秩三概形的整曲面与完整交几何（2026-11-16，已证明）：** [原六双线性方程及两投影](results/R150-appendix-original-mean-rank-three-integral-surface-and-complete-intersection-geometry.md)由原不可约六次pencil、rank≥4和长35例外严格给E上整的dim2 CI。保Rp Koszul的d4，得P5正合层分辨10→24→15→1、Hilbert多项式10n²−15n+11、degree20/截面算术亏格26；h(O)=(1,0,10)、ω=O(2,0)，交数u²6/uv15/v²20、K²24。整个scheme Z上是真P1核丛，不称35互异线、光滑/正规或几何整；全Bell余关系与普通ISP仍开放。纯证明复用三已付原父，不新跑矩阵。
+
+- **R150原九目标完整D31湮灭理想及全参数分母公式（2026-11-16，已证明）：** [同基四轴与原模定理](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)实run43830684123十步全成；共同/逐九核均span(e3,e4)，得Ann(B)=Ann(bj)=(p⁵,p²x,x²)、原Ann=h*I。任f的最小31指数=max(0,5−v31 f(2),2−v31 f′(2))；H25有精确D源费8515、额外monic参数最小次数2。单b D类型(5,2)、原单target D²³⊕(5,2)，不称共同B长7。根独核六raw/六binding、十四矩阵SHA/252组装及核乘回，保86原阶段；共同B/M真实结构继续。

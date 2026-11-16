@@ -1,0 +1,165 @@
+name: visible-exact old r010 diagnostic metadata
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-old-r010-report-metadata.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visible-exact-old-r010-report-metadata
+  cancel-in-progress: false
+
+env:
+  RULE_PULSE: '2026-11-16T08:50:00Z'
+  LAST_READ_COMMIT: 2f72b274f8647dbf6ce236ff2185cbe22153f8e1
+  EXPECTED_ROOT_README: 21bd547f56590b7f2dd279d0297efb289a9b2783
+  EXPECTED_TOPIC_README: 7e2b93d66ee7dc61b0962cd6f2545dceb01daf12
+
+jobs:
+  actual-pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Partially check out the two rule files
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/notes/old_r010_report_metadata_ci/
+      - name: Read one immutable old diagnostic and publish only its metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY_RULE_PULL'
+          import base64, datetime, hashlib, json, os, pathlib, subprocess, urllib.request
+          def git(*args, check=True):
+              p = subprocess.run(["git", *args], text=True, capture_output=True)
+              if check and p.returncode:
+                  raise RuntimeError("git command failed: " + " ".join(args) + "\n" + p.stderr[-4000:])
+              return p
+          def utc():
+              return datetime.datetime.now(datetime.timezone.utc).isoformat()
+          token = base64.b64encode(("x-access-token:" + os.environ["GITHUB_TOKEN"]).encode()).decode()
+          os.environ["GIT_CONFIG_COUNT"] = "1"
+          os.environ["GIT_CONFIG_KEY_0"] = "http.https://github.com/.extraheader"
+          os.environ["GIT_CONFIG_VALUE_0"] = "AUTHORIZATION: basic " + token
+          topic = "topics/visible-flex-exact-nearby"
+          paths = ["README.md", topic + "/README.md"]
+          expected = [os.environ["EXPECTED_ROOT_README"], os.environ["EXPECTED_TOPIC_README"]]
+          last_read = os.environ["LAST_READ_COMMIT"]
+          git("fetch", "--filter=blob:none", "--depth=1", "origin", last_read)
+          receipt = pathlib.Path(topic + "/notes/old_r010_report_metadata_ci/run-" + os.environ["GITHUB_RUN_ID"] + "-" + os.environ["GITHUB_RUN_ATTEMPT"] + "/actual-report-metadata.json")
+          pulls = []
+          def pull_and_check():
+              before = git("rev-parse", "HEAD").stdout.strip()
+              started = utc()
+              git("pull", "--rebase", "origin", "main")
+              after = git("rev-parse", "HEAD").stdout.strip()
+              blobs = [git("rev-parse", after + ":" + p).stdout.strip() for p in paths]
+              diff = git("diff", last_read, after, "--", *paths).stdout
+              row = {"started": started, "finished": utc(), "before": before, "after": after,
+                     "blobs": blobs, "diff_sha256": hashlib.sha256(diff.encode()).hexdigest()}
+              pulls.append(row)
+              if diff:
+                  print("RULE DIFF REQUIRES AUTHOR REVIEW\n" + diff, flush=True)
+              return row, blobs == expected and not diff
+          row, unchanged = pull_and_check()
+          if not unchanged:
+              raise RuntimeError("README changed; stop before the old-report read")
+          restore = "7504ff96122762833150a2d3190d35b83c298a08"
+          report_path = topic + "/notes/2026-11-13-codazzi-evolution-r010-n1024-floating.json"
+          expected_blob = "c216e006fa797ea10814381a02e41e974c7cfba4"
+          git("fetch", "--filter=blob:none", "--depth=1", "origin", restore)
+          observed_blob = git("rev-parse", restore + ":" + report_path).stdout.strip()
+          if observed_blob != expected_blob:
+              raise RuntimeError("immutable old-report blob mismatch")
+          read = subprocess.run(["git", "show", restore + ":" + report_path], capture_output=True, check=True)
+          raw = read.stdout
+          if len(raw) != 156450 or hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest() != expected_blob:
+              raise RuntimeError("complete old-report byte identity mismatch")
+          nonfinite = []
+          def saved_nonfinite(s):
+              nonfinite.append(s)
+              return {"original_nonfinite_token": s}
+          doc = json.loads(raw.decode("utf-8"), parse_constant=saved_nonfinite)
+          if doc.get("kind") != "floating_dealiased_two_field_Codazzi_with_position_reconstruction":
+              raise RuntimeError("unexpected old producer kind")
+          if doc.get("source_sha256") != "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36":
+              raise RuntimeError("old producer binding mismatch")
+          rows = doc.get("rows")
+          if not isinstance(rows, list) or not rows or any(not isinstance(x, dict) or "r" not in x for x in rows):
+              raise RuntimeError("old report rows not complete objects")
+          original = {key: val for key, val in doc.items() if key != "rows"}
+          audit = {
+              "kind": "one_immutable_old_r010_report_metadata_v1",
+              "repository": "Rogerhu12/math-research-public",
+              "run_id": os.environ["GITHUB_RUN_ID"],
+              "run_attempt": os.environ["GITHUB_RUN_ATTEMPT"],
+              "workflow_event_commit": os.environ["GITHUB_SHA"],
+              "metadata_checkout": row["after"],
+              "complete": True,
+              "immutable_report": {"commit": restore, "path": report_path, "git_blob_sha": observed_blob,
+                                   "bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()},
+              "original_metadata_all_except_rows": original,
+              "original_row_count": len(rows),
+              "original_first_last_r": [rows[0]["r"], rows[-1]["r"]],
+              "original_nonfinite_tokens": nonfinite,
+              "original_success_flag_read_from_report": doc.get("complete") is True and doc.get("status") == "finished" and doc.get("exception") is None,
+              "status_is_metadata_not_a_new_scientific_certificate": True,
+              "scientific_computations": 0, "old_mathematics_recomputed": 0, "producer_imports": 0,
+              "arrays_published": 0, "artifacts_created": 0, "releases_created": 0, "deleted_files": 0,
+              "old_body_read_only_in_public_runner": True,
+              "endpoint_object_and_failure_records_preserved": True
+          }
+          print(json.dumps(audit, sort_keys=True, indent=2), flush=True)
+          attempt = 0
+          while True:
+              attempt += 1
+              run = os.environ["GITHUB_RUN_ID"]
+              run_attempt = os.environ["GITHUB_RUN_ATTEMPT"]
+              status = "Both README blobs match the already read versions; diff is empty." if unchanged else "README changed; the diff requires author review before further research."
+              audit["readme_checks"] = pulls
+              audit["publication_attempts"] = attempt
+              audit["rules_unchanged"] = unchanged
+              body = json.dumps(audit, sort_keys=True, indent=2) + "\n"
+              if len(body.encode()) >= 20000:
+                  raise RuntimeError("metadata conclusion exceeds declared complete budget")
+              receipt.parent.mkdir(parents=True, exist_ok=True)
+              receipt.write_text(body)
+              # Blob sizes come from server metadata; git ls-tree -l could hydrate a partial clone.
+              topic_tree = git("rev-parse", "origin/main:" + topic).stdout.strip()
+              request = urllib.request.Request(
+                  "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/" + topic_tree + "?recursive=1",
+                  headers={"Authorization": "Bearer " + os.environ["GITHUB_TOKEN"], "Accept": "application/vnd.github+json"})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  tree = json.load(response)
+              if tree.get("truncated"):
+                  raise RuntimeError("capacity metadata was truncated")
+              blobs = [entry for entry in tree["tree"] if entry["type"] == "blob"]
+              total = sum(entry["size"] for entry in blobs)
+              previous = next((entry["size"] for entry in blobs if entry["path"] == str(receipt.relative_to(topic))), 0)
+              if total - previous + len(body.encode()) + 120000 > 200000000:
+                  raise RuntimeError("topic capacity would exceed 200000000 bytes")
+              git("add", "--sparse", str(receipt))
+              git("-c", "user.name=github-actions[bot]", "-c", "user.email=41898282+github-actions[bot]@users.noreply.github.com",
+                  "commit", "-m", "visible-exact: preserve one immutable r010 diagnostic status and recovery hash")
+              pushed = git("push", "origin", "HEAD:main", check=False)
+              if pushed.returncode == 0:
+                  print(body, flush=True)
+                  print("Published receipt commit " + git("rev-parse", "HEAD").stdout.strip(), flush=True)
+                  break
+              print("Push rejected; immediately pulling with rebase and rechecking both READMEs.", flush=True)
+              row, unchanged = pull_and_check()
+              if not unchanged:
+                  raise RuntimeError("README changed during publication; all metadata remains in stdout")
+          PY_RULE_PULL

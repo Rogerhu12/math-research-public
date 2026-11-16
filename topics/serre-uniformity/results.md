@@ -222,3 +222,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R878 原有限theta作用与两条原截面投影已证明**：[完整证明](results/R878-original-finite-theta-action-and-section-projections.md)，SHA256 264b0daa84b18736e305596c9e1d1a588f87782d6cc2d163df4237a5ce60bb5f。fppf τ保原六级标记，相对非退化theta表示及kerD标定给真群律；6p维完整权过滤与原x/−xy两投影−B/B24非零。高sigma分母的原低jet积分性、实际cuspidal标签/原q-normal比较均未冒认。
 
 - **R873 原循环7对应的17系数与两端函数域实际完成**：[正式结果](results/R873-certified-original-cyclic-seven-correspondence.md)。run43832703159/source2ee14751，184.720277599s；739处2058子式det510，全部2200行/17rhs回代，准确char0 unit-solve与DAG完成。finalb3b89a56/artifact14209317175/f9e41511；旧4960原源复用，实际Picard范数/η支持/height未算。
+
+- **R877 原canonical A与global y的normal输入实际完成**：[正式结果](results/R877-certified-original-canonical-A-and-global-y-normal-input.md)。run43833857220/source87f3bfe4，24stage/2.9434909s；原branch0/free1186、唯一A右端、全部1380行与原y=A/B完成。A fede8567/final6305b52f/artifact14209578116/6f0e627c；旧S5/逆/B不重，七同ζ分支、五Lj128/144与height仍开。

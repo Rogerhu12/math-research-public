@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；远端main继续，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：f820cf9c38867648b60ca85f16270a4c006f28c3**（2026-11-16T08:48:17.438693+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-single-canonical-A.md)（9880B/5f8e12bc），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：262990d7bfa5d6811833699b4db4ef09e3d70295**（2026-11-16T08:50:57.775282+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-single-canonical-A.md)（9880B/5f8e12bc），内接所有旧归档；全部来源和关闭边界继续生效。open完整旧态在[本次open归档](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
 
 每结论立即推；每push前和至少每小时真实pull，NFF/ref竞争立即pull --rebase再推循环、禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main与索引。07:19共享终端失联后由公开恢复workflow实际git发布，仍partial/sparse；新数学仅本公开Actions，本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，当前必要源仅单日artifact。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -40,7 +40,7 @@
 
 **必要原源续载已成**：[运输记录](notes/2026-11-16-required-original-source-intake.md)与H归档保所有SHA；43826442405/R799+R801、43827207676/R800+R827均保必要源。原身份/manifest及R827 failure124/no-FINAL不改，新消费者只读复用。
 
-**R877单A消费者已激活**：[方法](notes/R877-original-canonical-A-single-normal-RHS-method.md)/[激活](notes/R877-original-canonical-A-normal-input-activation.md)。corea40ed5b1/wrappera574bd4f，唯一新F69·A右端、旧1234逆与全部1380行乘回，原branch0/free1186及82^10一次保留。源run43831246621/job133176926303/source7789431a success；artifact14209030975/8f4b5cc9（Nov17 08:27），1270原件含1234行、旧S5/B/DAG全在。run43833857220/job133185550343/source87f3bfe4实际success，24stage/2.9434909s；小cert待取。七同ζ分支/五Lj128或144/height仍缺。
+**R877原A/global y输入实际已成**：[正式结果](results/R877-certified-original-canonical-A-and-global-y-normal-input.md)，run43833857220/job133185550343/source87f3bfe4，24stage/2.9434909s；唯一新A右端及前69阶×20的全部1380行完成。A fede8567/y分式b2849e28/final6305b52f；artifact14209578116/6f0e627c（Nov17 08:46）。1270原件、旧S5/逆/B不重；准确unit-solve不冒char0展开，七同ζ分支与五Lj128/144/height仍缺。
 
 **R876九范数原Hecke理想路线已证**：[完整证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)。原M_j=L_j(254P0)真无基点二截面，九个8次域范数完整生成Nm_p(q*M_j)，含非étale/剩余次数；共同M0取消移动，再真dual7运输冻结Nm_q(p*)与P0刚性化。三完整z纤维816×836的672minor认证无基点；一次目标271右端solve/全272关系复用全部方向。128截面/九理想/实际支持未算，模零不判inactive。
 

@@ -488,3 +488,11 @@ proof c06787e9/22285，唯一43831678361/1 event1567fffd/science5b491875，58cur
 ## 2026-11-16 08:47:18 UTC — WHV精确零Volterra预处理与只读旧4650行的新头部门
 
 proof e993f068/22319 + inventory80f9f606/23789；root完整读，Phase formal §§2–4/7核V0左右变换、cokernel、端点、Poincare和完整矩阵顺序；新3wholemax在原body producer/小summary均未保存，9原literal与13历史parts完整绑定。只在自己Actions临时恢复原native25507783B/1f3e5fa6，完整4650rows/3594interfaces和原progress4608均保；不重旧coeff/flows/source/同态图。Newton写≤22KB新science/admission，root写worker，预声明N=cap4096，不分配finite矩阵；实际门未执行。WEJA/WECA长状态已在1162cb41原字保存后压缩H。最近非FF08:43:38立即真CLI pull无executor后保远端成功；16d843db59fac18cecbbc4c47b32692bf87e0f67两README版本同已读，CI真pull仍08:30:30期限09:30:30。
+
+## 2026-11-16 08:49:10 UTC — 新公开r010旧诊断纯metadata读取入口
+
+新增题外workflow .github/workflows/visible-exact-old-r010-report-metadata.yml（82f84ff6）以自己的公开Actions只读immutable7504ff96122762833150a2d3190d35b83c298a08原c216e006/156450B，核Git字节并保存原status/complete/exception、完整SHA256与原全部非rows元数据和首尾radial记录，不运行旧producer、不重算任何科学量。目的为在保留原endpoint/candidate/失败资格后释放旧派生report容量；删除未执行。复用已读规则truepull/diff/非FF立即rebase循环，输出预算<20000B并预留120000B。修改共享workflow仅为本题原报告恢复。两README在5f9b164da4f13230dec6fc9e9465c0c22fe682ad版本同已读。
+
+## 2026-11-16 08:51:24 UTC — WMR正权mean和全负源/四端/whole重组
+
+proof550866c0/31643，root全文及全部38式读核，Tail§2–5与Newton§6–8正式核通过。原Πu²与weighted u²不混，strict79/128/local3/4各域独证；metricβsign只到真root，非扩大local矩形。old meanbase/CF/k/kr/E/Ik/所有B-T-jumps-幂/三个非mean端/最终ordered readout原字读；只新完整positive表达，不减old upper、不把endpoint rank1误作whole radial mean有限。7图42新record/2exp后继合同在写，尚未新数。open四已成段逐字移b6de984c/2500以保30KB；H旧cleanup细节保完整前档/白名单后缩写。纯metadata43834351809/1另已成功读5847B回执dcb54e37，真实pull08:49:28，两READMEdiff空；aa0c9162736d9e7b984468c0585103054f69c311版本同已读。

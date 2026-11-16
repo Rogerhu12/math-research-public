@@ -1,0 +1,134 @@
+{
+  "arrays_published": 0,
+  "artifacts_created": 0,
+  "complete": true,
+  "deleted_files": 0,
+  "endpoint_object_and_failure_records_preserved": true,
+  "immutable_report": {
+    "bytes": 156450,
+    "commit": "7504ff96122762833150a2d3190d35b83c298a08",
+    "git_blob_sha": "c216e006fa797ea10814381a02e41e974c7cfba4",
+    "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-codazzi-evolution-r010-n1024-floating.json",
+    "sha256": "c86ce74fcf7f3ba1be41e0f270c3092cdb194a783fbde57726cf2c51de1f7e81"
+  },
+  "kind": "one_immutable_old_r010_report_metadata_v1",
+  "metadata_checkout": "508e61a9f7398ed537f4164cb1a9d9ce0dcf84e2",
+  "old_body_read_only_in_public_runner": true,
+  "old_mathematics_recomputed": 0,
+  "original_first_last_r": [
+    0.0,
+    0.1
+  ],
+  "original_metadata_all_except_rows": {
+    "Nyquist_removed": true,
+    "angular_grid": 1024,
+    "atol": 3e-12,
+    "certified": false,
+    "complete": true,
+    "dependency_sha256": {
+      "fourfold_phase_core_low_block.py": "d3b554e05f13112679786bd11a113ab8a29442b4da8f6ea0cf73c2ebb93d37be",
+      "fourfold_phase_geometry.py": "ef3e8261afd187bd97637f65d90f25048ad25accaaeb479097b5875e0db2e937",
+      "fourfold_phase_local_correction_probe.py": "b689ee14eefeb96dc4dc72e00116690dff2e042cfe5882f812ed03317f7550cf",
+      "fourfold_phase_symmetric_geometry.py": "322205cff55ed31a7eeca478880e1716917958741f9eaf4ad56b12b0cae575ad"
+    },
+    "direction_sha256": "8db5d57d65ea49cfe3a0df250714392300c98feeb2e0de2774aacbb4764d89ab",
+    "endpoint_state_path": "notes/2026-11-13-codazzi-evolution-r010-n1024-endpoint-floating.npz",
+    "endpoint_state_sha256": "06f7ddafb35d5087178403d8048db1f2102d0a17037b0771d0c02a156f408854",
+    "exact_center_parameter": {
+      "denominator": "4611686018427387904",
+      "numerator": "-7789843107295549"
+    },
+    "exception": null,
+    "finished_radial_interval": [
+      0.0,
+      0.1
+    ],
+    "kind": "floating_dealiased_two_field_Codazzi_with_position_reconstruction",
+    "limitations": [
+      "Floating arithmetic, time interpolation/integration error and infinite Fourier tails are not certified.",
+      "Nonlinearities are sampled on a doubled grid, then projected; the listed projection defects are sampled diagnostics only.",
+      "Auxiliary parameter is only its exact center; no whole-eta or continuous angular/radial enclosure.",
+      "No cap, regular/mean return or global closure condition is imposed."
+    ],
+    "max_rhs": 100000,
+    "max_step": 0.00025,
+    "mean_retained": true,
+    "method": "DOP853, doubled-grid nonlinear evaluation and Fourier Galerkin projection",
+    "n_floor": 0.02,
+    "nonlinear_grid": 2048,
+    "object_sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+    "origin_sha256": "0d17500ac49c845b402145c4d0a48170b7163ec0d7e6ed6f0eedcc1c649ca59b",
+    "original_target_fixed": true,
+    "primitive_nodes": 512,
+    "requested_radial_interval": [
+      0.0,
+      0.1
+    ],
+    "rhs_calls": 6503,
+    "rtol": 3e-10,
+    "sampled_maxima": {
+      "C0": 0.00018509943640070256,
+      "X_theta_compatibility": 8.319662203656184e-12,
+      "Y_theta_compatibility": 5.7208522190379114e-12,
+      "characteristic_speed_max": 2.7325137877469765,
+      "ell_omitted_resolved_coefficient_l1": 1.8178064709626217e-11,
+      "frame_orthogonality_defect": 1.7681064498383322e-14,
+      "frame_projection_defect": 1.9877117094481164e-11,
+      "maximum_abs_ell": 2.394770155322401,
+      "maximum_abs_m": 0.6804909300389899,
+      "minimum_abs_n": 0.43482731108278805,
+      "n_max": -0.34704771220876474,
+      "n_min": -6.61788487941695,
+      "normal_theta_compatibility": 5.633317262093339e-12,
+      "old_normal_Hessian_HS": 1.2834148734279855,
+      "original_induced_C1": 0.015331316656159744,
+      "original_induced_H11": 0.3575997004911693,
+      "original_induced_H12": 0.2247096167351833,
+      "original_induced_H22": 1.2834500666210564,
+      "original_induced_Hessian_HS": 1.2834737642374772,
+      "original_source_C0": 0.6126128161916654,
+      "position_theta_compatibility": 5.089014829737271e-12,
+      "two_field_projection_defect": 2.7197787133730083e-08,
+      "two_field_upper_half_coefficient_l1": 1.9004383092397946e-06,
+      "updated_absolute_principal_curvature_max": 7.593297106649388,
+      "updated_curvature_defect_C0": 1.1794153209621072e-08,
+      "updated_metric_defect_C0": 1.9539334089787175e-12,
+      "updated_source_C0": 1.3011891994038683e-08,
+      "updated_support_min": 1.0032352248237288
+    },
+    "sampled_minimum_abs_n": 0.34704771220876474,
+    "sampled_support_min": 0.9751251226694151,
+    "source_sha256": "2d9e8a9dd185e13c1c506a628f36847fe6180390bca3b60014d7c1beb8a69c36",
+    "status": "finished",
+    "wall_seconds": 88.16728005799996,
+    "whole_parameter_interval": false,
+    "whole_radial_domain": false,
+    "whole_real_angular_circle": false
+  },
+  "original_nonfinite_tokens": [],
+  "original_row_count": 101,
+  "original_success_flag_read_from_report": true,
+  "producer_imports": 0,
+  "publication_attempts": 1,
+  "readme_checks": [
+    {
+      "after": "508e61a9f7398ed537f4164cb1a9d9ce0dcf84e2",
+      "before": "508e61a9f7398ed537f4164cb1a9d9ce0dcf84e2",
+      "blobs": [
+        "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "7e2b93d66ee7dc61b0962cd6f2545dceb01daf12"
+      ],
+      "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished": "2026-11-16T08:49:28.524525+00:00",
+      "started": "2026-11-16T08:49:28.209062+00:00"
+    }
+  ],
+  "releases_created": 0,
+  "repository": "Rogerhu12/math-research-public",
+  "rules_unchanged": true,
+  "run_attempt": "1",
+  "run_id": "43834351809",
+  "scientific_computations": 0,
+  "status_is_metadata_not_a_new_scientific_certificate": true,
+  "workflow_event_commit": "508e61a9f7398ed537f4164cb1a9d9ce0dcf84e2"
+}
