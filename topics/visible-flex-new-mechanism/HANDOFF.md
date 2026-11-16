@@ -28,7 +28,7 @@ R457定义整个U自然d=draw−TrFhat/8，杀全R、真H^-5协变、像Pol≤6�
 
 R443已付53完整self五次local/无分母高jet，像38/核15、K11合49；旧11仅MEMBER。R446联合核全Q的2+2和四次homotopy给局部≤3阶，R443无p分母额外保留。R448同宽r*≠0镜对self像Pol10图+Pol7恰19/核30，有一个真实线性右逆Π0；R452 r*=0像9/核40。均非全R分类，也不把Af盲称完整成本0。
 
-R451权0 H*的self平移≤8，最高N8落TR/r4，减共同γK8使全部Af partial≤7；R448一个W清同宽/cap全同角色copy。R456把真实末low/high suffix与12中心放回后，同宽所有角色DkerEval=Pol≤4，formal商恰D5/D6；R458若两实际宽各有三末low角色和≥8copy则准确另检D4。当前库可全同宽，不擅加两宽。R457已付自然d0，续一个同成本全角色C/self见证；同宽消去不等于所有H缩放都消去。
+R456同宽全部角色DkerEval=Pol≤4、商恰D5/D6；R458两实际宽各三末low/≥8copy才另检D4。[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)从起点共同w0、R455唯一镜对：全current真协变H^-1且全R/kerE稳定，13个近1正H的有号Π0把R457的D0 lift成权0全C0的V0。任意V0 self≤8且两镜最高项共同，R407真实μ路径转全部最终母cap，R448同一个W匹配完整双多项式，得到V#=H*+J4−R_C−W：J⁺/formalC/所有微包两Af×d,e门全0、λ1、Λ=n2。最终可混权；仅同宽signed核，不授全H查询闭包/actual正锥/range/13规范，续这些门。
 
 R437原P2θ=κell_f/24杀全kerLf，13rank≤12/余底≤9仅上界。R442真Lf像的有限部分/原简单p根/exp端保全部边项，不以有限部分替range；D_path与P2未证等价。R444八hook=2Lf(XD)保J⁺/partial/C/三合法矩；原12差分e=0，R445 d(Bε)=d(Y)=0。R447 η≠0给signed最高d轴，actual增强仍欠。
 
@@ -44,8 +44,8 @@ R450整个U的self/2+2位置≤11；同最终V/F/G的12真中心已入range时�
 
 池4448/4549 v13/14，五新fine行全soft；bank512、learning62/61/0、gamma、B.00025/streak0/0被动保留。新objectivefa4757cdc16c284e47cec422bbccea6abfa379e36c456d7bec453559c93b8e77；下一模型必须真绑定53/新池。权威新科学81.445727845s（含dev3case），祖先总1406.2512530919998s/126值；UTC job约530s另列，不猜差额。全部原记录/哈希/成本段在actual note，旧52/p32 cache绝不能当53模型。
 
-[新53方向合同](notes/true53-complete-grid-maximin-projection-direction-design-20261116.md)及8新模块、workflow、request已封存：212来源/184py，request SHA256 85b076f483a41385888468aeb2ac51e56c1cf5253d738af1a73d40fb439d4fe4。新600s含输入/3case开发/完整模型/1投影≤12prox/≤1M真实坐标访问/≤24全网分离/≤96新行；原hard/163盒/guard全保，G物理度量不调用旧solver。仅有合格方向才开1scalar≤64query与≤3实际pair，保正下端合法区间/真零基准、最后rounded步原域校验。全部费用含失败，2必要模型value另记；0旧检查/LP/cone/legacy-J。原模型/一次线cache只原stdout，report只读同run；当前尚无首次实际结果，不宣dev或改善。
+[新53方向合同](notes/true53-complete-grid-maximin-projection-direction-design-20261116.md)及8新模块、workflow、request已封存：212来源/184py，request SHA256 85b076f483a41385888468aeb2ac51e56c1cf5253d738af1a73d40fb439d4fe4。新600s含输入/3case开发/完整模型/1投影≤12prox/≤1M真实坐标访问/≤24全网分离/≤96新行；原hard/163盒/guard全保，G物理度量不调用旧solver。仅有合格方向才开1scalar≤64query与≤3实际pair，保正下端合法区间/真零基准、最后rounded步原域校验。全部费用含失败，2必要模型value另记；0旧检查/LP/cone/legacy-J。原模型/一次线cache只原stdout，report只读同run；唯一run43811870681/source42f95905deec3024dfee7a687bdc806d38c79baf进行中；尚未消费首次输出，不宣dev或改善。
 
 ## 5. 当前工作
 
-本提交启动true53唯一公共Actions，先消费其原开发/完整模型/分离/实际门/FINAL_CLOCK，再按真实结果继续下一不同子问题；不重复该有界任务。理论继续R457同权signed见证→同一全角色C/self→actual全根/两period/余9接口；同宽与全缩放必须分别付。R455唯一根母与R450真range后清e继续保留，所有主完成门仍欠。继续open，不以阶段/预算/时长结束。
+本提交启动true53唯一公共Actions，先消费其原开发/完整模型/分离/实际门/FINAL_CLOCK，再按真实结果继续下一不同子问题；不重复该有界任务。R459已付同一个全角色C/self signed核；理论继续全H查询闭包或实际正锥、两period/余9接口，同宽不冒全缩放。R455唯一根母与R450真range后清e继续保留，所有主完成门仍欠。继续open，不以阶段/预算/时长结束。

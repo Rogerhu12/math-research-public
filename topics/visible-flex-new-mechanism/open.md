@@ -180,14 +180,13 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 该原canonical/Γ正规化已由R457支付：H*+J4或H*+J6同λ1/J⁺0且整个D0。即使C已全清，仍须同一补偿成本的完整self partial/真range、p点极性、平台连接与actual原型/商/桥/Klein全基准；实际U是否映满两商未作声明。
 
 
-### R457：自然d已给λ1/D0权零代表；接全C与self同成本
+### R457–R459：自然d与同宽全角色共同signed核已付
 
-[R457](results/R457-natural-seven-current-quotient-complete-normalization-and-weight-zero-witness.md)在整个U定义d=local ur[(S−P)ordered/4]−Tr(Fhat_Q)/8，保原三primitive唯一分裂、全部真边项；R454 raw pure-cross无ur桥给d杀全部R，真仿射律H^-5d(Hx+c)。完整canonical action就是R453的ρ0+ρ2，不先假Q0；原R130全M0零积分经真倒行/端点纤维/同乘子提升到开平端路径，才合法分时长及微幅，准确扣Γm0与Γm2。
+[R457](results/R457-natural-seven-current-quotient-complete-normalization-and-weight-zero-witness.md)全U自然d=draw−TrFhat/8杀全R、真H^-5协变；原R130完整Γ正规化给dC2=−3x5/128、dC4=dC6=+3x5/128，c0=−1，同母Hhat=H*+J4/J6权0、J⁺/D0、λ1。正规action/全部边项与signed范围保原稿。
 
-正规F0的顶两式给dC2=−3x5/128、dC4=dC6=+3x5/128；正规加速度/H/Q4全d0，故旧C20=C4+c0C6+R中的c0=−1。实际正常F0值有非零六次项，真小平移使d(U)=Pol≤6（纸面函数商，不是positive实际rank）。同母四自然矩和ordered闭包给Hhat=H*+J4或+J6∈U0∩ker(J⁺,d)，λ+=1，universal Λ仍n2非零。
+[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)用完整current的H^-1真协变、全R/kerE稳定与13点有号谱投影，把完整响应右逆取成权0，从Hhat得到V0全formalC0。任意权0V0的self平移≤8，N8在TR/r4使两镜最高项共同；同μ真实内区路径将完整cap/总通量输运到所有最终母，R448一次原成本右逆W匹配整双多项式。故同一个V#=H*+J4−R_C−W清所有角色/微包/8×12复制两Af×d,e内部门，保J⁺0/全C0/λ1和实际Λ=n2查询0。
 
-下一同权0选择整个formal C的R_E右逆，保证补偿后仍可用R451平移≤8及R448同一个W清全部roles self。要证明该右逆可保真权0、全C0使全部suffix partial恒0、不同宽在共同评价内处理；之后才能把新partial核接原实际有限锥/基准。signed λ1不自动授positive cone，更不授全Lf range/p极性/平台/germ或同十三规范。0新执行。
-
+共同物理宽度从R280/324/447/450/455起点选定，不修改旧冻结多宽库。最终W可混权，不能再套权0次数界；同宽全门零不自动在所有正H查询闭包零。接完整R0剩余self/全H，或不依赖新affine闭包的实际正锥证明；原型/两次商/桥/Klein完整基准仍付。signed核不授两period真range/平台germ/同13规范，更不授主C²有限族。0新执行。
 
 ### R458：两宽第三余量的真实判别；原单宽不改
 
