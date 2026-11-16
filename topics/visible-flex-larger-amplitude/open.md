@@ -76,6 +76,8 @@ R437/433/434/438与R452保首次同C闭构造的真实全场、原cut/两帽/atl
 
 **R482：浅逆像与同job真实精化的来源/条件组合；尚无本次实际结果。** [证明](results/R482-shallow-inverse-and-same-job-incremental-refinement-composition.md)16368B/6ad857f4、[完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)21164B/396a2ca0和四调用源7ca36597/5b9e9039/39f1d36c/b4106f39本次刊。原205/209/212六合同逐字绑定；保原245公开与15生成源，新增四调用及两R477 reader，真实251+15=266。24→2工作深度实际传给首32b0、R456新grid与R462增模三层；全候选/field计划/32bits work-only/1M/原误差保，不保证预算或精度。唯一原18900+2700时钟，首full453→真冻结450父→五factor2→M128/继承新分辨率，全部原H/J/FD/fullDN/final/audit及新场闭面/held/固定g误差/t/display角色保持；任一必要父未返不以SHA补。新metadata派生字节不冒06ae，9必要scope加真quiet才清；源生成/读回失败保原范围，无新fixture或科学门。独立请求/workflow另次推，R484/geometry唯一未来终态。
 
+[R482/214完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)四源、证明与接口已刊 `0e78e97fa380327094b85bd3413b1653ad60ef4c`。本次独立刊request42062B/c81530fe与workflow97252B/9ce85151，新路径触发公开仓库自身Actions。原245公开/15生成源保，实际251+15=266；同job三级深度2、全候选/原误差/真实accepted父/原完整方程与各闭面角色/唯一18900+2700钟/九scope与quiet保持。实际run/source待官方绑定，R484由geometry唯一终态读取；不预填采样齐、有限接受、固定g下降或README完成。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
