@@ -180,3 +180,6 @@
 
 
 - [R874§12.1](../results/R874-original-cusp-integral-hecke-ideal-and-low-degree-return.md)：β³−7β²+5β−2给真整幂基OF=Z[β]，相对(1,a,t)换基det−1。原全部归一化H_u/λ系数的Z-模准确β⁻¹OF，所有系数乘2整、唯一负赋值位恰前述范数2位；Néron输入系数模为OF，未认形式积分或实际Hom。
+
+
+- [R879](../results/R879-original-v66-heat-and-degree22-trace-defect.md)：原V66的R855完整第一次热连接后，准确Tδ,22(V[1])=−σ22(19X³−119bX²+56b²X+32b³)/21。全D²与零阶项保；原三点变分−2a²∂a+12b∂ρ直接读出非零四坐标，不能把TδV=0横向求导成零。原B(V)=0不授热伴随中央，续同D行的完整trace缺陷。

@@ -158,3 +158,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R878](results/R878-original-first-factor-level867-coordinate-certificate.md)：原第一F在X10404→B867的18覆盖上，w4常值由与R交换及无理3挠排零，整个S3为真sign；V=η12y、H=f³η12下降原M12。真实germ及8ΔC³=H B²(A²−17ΔB²)²保E2/2、6与17，低末端204k+612/全末端612(k+6)；同M2乘积基可执行，不预设Manin1或degree1296，独立公开producer已启动。
+
+
+- [R879](results/R879-original-v66-heat-and-degree22-trace-defect.md)：原V66的R855完整第一次热连接后，准确Tδ,22(V[1])=−σ22(19X³−119bX²+56b²X+32b³)/21。全D²与零阶项保；原三点变分−2a²∂a+12b∂ρ直接读出非零四坐标，不能把TδV=0横向求导成零。原B(V)=0不授热伴随中央，续同D行的完整trace缺陷。
