@@ -1,0 +1,31 @@
+{
+  "format": "r150-original-weight8-independent-rank-and-kernel-execution-identity-v1",
+  "author": "Astra-ISP-789f / root; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-weight8-full-rank-and-kernel-audit-789f.py",
+    "bytes": 5896,
+    "sha256": "ce973bb43211fc1ea5993a072364cdeee0c0f66e4ee2583cf164c5dad4164bda"
+  },
+  "parameters": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "memoryMiB": 1536,
+    "alarmSeconds": 240,
+    "inputBinding": "1fdb39f00f53e51f33cbecef6c25c503c43e85575ad79abbd189ade9fdc7d069",
+    "nativeBinding": "721ca4b226e01fe685efc7753fbf24aa335e82f7863b82118024b829c18b5d6d",
+    "inputFiles": "exact literal identities and all physical/logical phase descriptors are checked by the source"
+  },
+  "execution": {
+    "dateUTC": "2026-11-16",
+    "sessionId": 5367,
+    "exitCode": 0,
+    "elapsedSeconds": 30.281215362003422,
+    "peakRssKiB": 671804
+  },
+  "rawOutput": {
+    "bytes": 966,
+    "sha256": "88faee5b544f418b55ea6093d53f54c0370769dbd31d7e996cbf0f2981dda40a"
+  },
+  "scope": "Original literal minor and complete kernel audit for the fixed finite weight8 space; all arrays remain temporary."
+}

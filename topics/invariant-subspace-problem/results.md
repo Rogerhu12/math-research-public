@@ -6,6 +6,7 @@
 
 ## 最近接续结论
 
+- **[完整原权八前沿：秩1312、26新来源与74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)**：全部17674×1386原输入，1106及1286完整前缀独立；100个NiC贡献26，十坐标与18来源全乘回。根直接原子式det4、1,307,876个全核乘积零且核秩74独核；全来源≤8维3425→3451，无未截断稳定/单位断言。
 - **同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
 
 - **三十条新来源对完整来源权七旧像的独立性已闭。** [完整有界来源与Bell饱和证明](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)用已付312秩及最低权交零，将范围扩至全部五十原列的合法来源乘子：G维344、Bell维573，旧像917、加入30为947，完整输出12713；没有新大矩阵计算。此像不等于L0∩F≤7。对权7的V，完整成员恰存在q使b^qV∈G；来源权≤10恰bV∈G10，10122旧源＋30目标/77276行尚未运行。继续完整权8来源前沿，不能从有限q独立宣全L0扩大。

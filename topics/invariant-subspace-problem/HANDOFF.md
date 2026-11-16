@@ -27,6 +27,8 @@
 
 - **[完整来源权≤7的917→947及Bell饱和边界](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)：** 已付30个NiYj及7754×312满列秩保原18源，root全2,419,248产品/312主元核。完整G≤7维344与Bell系数573由最低权交零，旧有界像917、加30为947，完整输出12713；纯代数推出，未跑新矩阵。来源权界不等于L0∩F≤7。权7齐次V入L0恰存在q使b^qV∈G；≤10恰bV∈G10，原10122＋30目标/77276接口未跑，不能由q=0独立排全部饱和。
 
+- **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386全部原输入；G8秩1106、加180个yNiY后1286独立，100个NiC贡献26；全10/18乘回与201阶段已闭。根独立原1312子式det4、全部1,307,876核坐标零且核秩74。完整来源≤8维3425→3451为分级推论，未另跑30387行；不称未截断L1独立或稳定/单位。复用完成状态审14旧D换源及δ的具体RHS，不重消元。
+
 - **[原rank4δ14的稀疏10×56正门](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)：** v2 prepare实9.871秒/140588KiB，原50/17运输、全部480 adj、四Bell40坐标/4原18乘回真，保原46列315860项及10局部器；仅初始模局部同模。原list/tuple失败另保，仅规范四indices；[六行MemoryError/完整尺寸诊断](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)仍保。根全源/wrapper差异/request/原raw与5MB ASCII SHA核；独立run43883188532以Python3.12.14按180/180/600秒实重建中，不预填候选。仅75加新完整candidate/验证前缀续；正证须清ρ后原10/18/17全乘回，再另付E/19图。
 
 - **[单Bell首一约简无规模收益](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)：** 实18.599秒核500除法/50原18和完整四Bell门；原50项315888→315892，同删四Bell后315860→315864，无新零列/来源权下降。仅fmpz统计转int修复且保首失败log，无raw照实记；不据此fork正在运行的δ14候选。
