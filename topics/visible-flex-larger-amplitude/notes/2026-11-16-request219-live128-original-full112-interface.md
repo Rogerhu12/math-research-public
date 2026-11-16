@@ -1,5 +1,7 @@
 # Request219：actual63 原全112前缀、逐 H live128 与原 FD/fullDN 接口
 
+> **2026-11-16 后续勘误与实际运行：** [R502](../results/R502-actual219-input-pin-failure-and-unstarted-live128-scope.md)记录 actual219 在准备阶段失败、科学与19200秒钟未启动。本页原 ledger-ready 表曾漏一个 `e`；该表现已改为原204/208合同的正确64字符 SHA（`edae34`），actual219 实际请求仍是当时错误的63字符声明。原21110B / bc484aa47e7f0ec15902ec78bacaf5a7509b331070f8e86c6046e9eeaac181e7版完整保在[f0c78734历史](https://github.com/Rogerhu12/math-research-public/blob/f0c787340f29734e17c9428ba7588e2a58ae665e/topics/visible-flex-larger-amplitude/notes/2026-11-16-request219-live128-original-full112-interface.md)。除这处表项与本说明，以下正文保留发表时叙述；实际执行范围以R502为准，原219请求/workflow/程序未修改。
+
 作者：ChatGPT / exact_refinement（AI 辅助研究）  
 日期：2026-11-16
 
@@ -62,7 +64,7 @@
 | actual63 status gzip | 231286 | 6443fce5e818ff20fd36075f6038ee60630d0b77e8ed2304d41e4d072ea6a005 |
 | 上行解压后的原status | 1810333 | 8785231faf9785c29dffc37bf4415d235d4dbb78d249a06f7cdbe658aef76f46 |
 | T112 config | 2161 | 01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5 |
-| frozen ledger ready | 109004 | 563a99973230a7f15d1c1ba8537eda34bc02158a0cfff90160d37f57e3ab2f6 |
+| frozen ledger ready | 109004 | 563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6 |
 | frozen stored ready | 29774 | c1c44f2384845c25d2dcb0ec7127934fa46b54aa74613efcd6f9f6bcf0eb541d |
 
 actual63 run43646179305，原source `db6d728f30ee2d0c9ea62c96c622d8d85d2354b2`。status只解压，不重序列化后冒原SHA。原warm中的 `/complete_scalar_profile/complete_original_port` 全对象写入一个**新**临时port transport，记录其新的真实身份；不伪称这就是某个旧port文件的字节。

@@ -74,6 +74,9 @@ R489以原完整f12f1440/six及同五输入/完整数学字段重算同根族，
 
 [R505/220完整接口](notes/2026-11-16-request220-explicit-coast-base-complete-chain-interface.md)41174/8f9b1668与七入口件完成：request99218/f6ca6387、workflow94508/c1cb332d、plan66325/14970cc2；278public＋179gen=457，原218的272＋133逐项保，新增46真实view以124literal/364应用由原R496 generator在实际HERE生成，无展开/diff归档。R503新三词+0政策实际接全10candidate_rows/原投影-新点差额/新R503帧，新的准确十词、config、driver、CP与材料A/B全部真来源，不能搬旧域/J/接受。当前union owner77443/b8ff8aaa修dict unpack，两个明确旧错误owner只核完整历史字节而非AST/调用，其余原检查保；不改旧218。仍真453→末十词fresh450→首五几何/独立held→五因子2→全M128/四因子1继承实际parentsteps，全部新场自付metric/reach/held/全t/误差与display。原32GiB、18900+2700与前段硬钟边界/各cap、九完整读回与真实quiet均保，无全解析J或factory新门。R505只源码/条件组合，原新点全域、正常BVP/全几何/加密下降仍待R506实际；217须以这次真实tuple独立登记R489/R504，不能凭family标签继承。
 
+
+[R502实际219](results/R502-actual219-input-pin-failure-and-unstarted-live128-scope.md)13503/4391677e完整：run43832887523/sourcef0c78734，compute133182240807 failure/report133182459836 success，两原终志各唯一；334源syntax与容量成功不补恢复。ledger-ready SHA手录63字符漏e，原204/208同blob正确64字为563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6；实际bytes/SHA联合guard报错，日志未打印所取raw SHA，不能说正确值是本次测得。前四输入返回只是控制流推论，preparation55039仅身份与原错误事件，后stored-ready/78/91/所有H和19200科学钟未起。quiet对两个无归属证据的sameuid不可读environ保unknown，完整必要2101/074caaa8只是未证静止；cleanup heredoc未解析，未有应用层删除/保留事件。R501接口已明示更正并保原f0历史，原219执行件冻结。221/R508/R509仅更正pin、以真实own证据限定quiet及修heredoc；真实/可疑own不可读仍阻读删，14科学/协议源/单19200钟/全原门保，无新fixture或接受。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
