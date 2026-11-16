@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：42be9686e54ab5355d860b6defe1726eec197c9a；2026-11-16 12:27:54 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:06:08 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
+- 最近已读规则提交：ffcb55b8c6fea804c04ac930511685bc11bdf2ec；2026-11-16 12:28:26 UTC核两README无变。实际CI pull 2026-11-16 11:43:47 UTC/dc326ad44f71296d4a069648030c25f4256ceabf（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 12:28:26 UTC仍无环境。最迟2026-11-16 12:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -29,7 +29,7 @@ R881局部r29 run43850679589/job133242082519成功：P1226三嵌入保19位、F1
 R882原18源/绝对端点与eta degree48底已付；T/U/V/36cusps/D204全保。RR初run解包已修：
 - 306重跑43850251992/job133240631228；
 - eta48重跑43850252040/job133240628667；
-共同source acf294c6，尚未报RR成功。R882附B原w867商degree24/属37已手证，St不变分母的54+66完整RR及St/S回旧DS保；576 reciprocal先降288再选24，fricke24 run43860032290/job133274126644/source be4e0074e90508b3f7bd6e2ce3ee083165049288已实际运行；两map及三RR均无PASS。附C属19/9cusps的27+27+33+33完整RR已手证。附D由18 cusp的J极阶1/289/16×1付各系数num≤306/den≤16；原Q精度8000、t精度330的全24迹/Newton+Padé唯一重建24模型，无需大resultant/factor。tate24 run43865460680/job133292732291/sourcea82ba1e06935fbb0f199d4dc846bae876a13afc0已实际运行。附E同属19商pole(L)=145P∞+8cusps，num153/den8；4500原Q→170项scaled Newton唯一重建，完整四RR保，独立tate19已交公开CI；尚无RR成功。
+共同source acf294c6，尚未报RR成功。R882附B原w867商degree24/属37已手证，St不变分母的54+66完整RR及St/S回旧DS保；576 reciprocal先降288再选24，fricke24 run43860032290/job133274126644/source be4e0074e90508b3f7bd6e2ce3ee083165049288已实际运行；两map及三RR均无PASS。附C属19/9cusps的27+27+33+33完整RR已手证。附D由18 cusp的J极阶1/289/16×1付各系数num≤306/den≤16；原Q精度8000、t精度330的全24迹/Newton+Padé唯一重建24模型，无需大resultant/factor。tate24 run43865460680/job133292732291/sourcea82ba1e06935fbb0f199d4dc846bae876a13afc0已实际运行。附E同属19商pole(L)=145P∞+8cusps，num153/den8；4500原Q→170项scaled Newton唯一重建，完整四RR保，tate19 run43866568746/source59c56c693debc1d98b2a99495211ddb5277a40d8实际运行；尚无RR成功。
 
 R880原三Artin共轭/独立双轴/三χ与eω全保；整新shadow经5/11无挠H1返回原有理类。18×9和准确为eω后的(1/9)Σζj^aζk^b p_ab；χσ=ζ7/ζ4/ζ，r29点E[5]/几何F841/角色F5^6，实际6已含。未拆二维点前不将ω冒系数，全部相位见R880。
 

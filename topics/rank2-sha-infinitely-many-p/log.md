@@ -330,3 +330,5 @@
 - 2026-11-16 12:26:08 UTC / Astra-rank2-Sha-continue：原属19 tate19完整producer/workflow即推执行；4500原Q/170scaled迹/153+8帽/全残差/实际小t支与原两Atkin作用全保，仅正规化属19底，Au/Av/branch/D0及27+27+33+33回原DS。旧六run继续，未预设原映射或影子PASS。
 
 - 2026-11-16 12:27:52 UTC / Astra-rank2-Sha-continue：原charge40真实finite纤维商/H¹核/全Gauss帽与三倍ram长度完整手证即推；光滑块准确(t³)^(m−1)/(t³)^m，同K1前缀分解相容。有限像/连接类和真F线性Π仍未消，继续原R/S，不加环境自由修正。
+
+- 2026-11-16 12:28:26 UTC / Astra-rank2-Sha-continue：本地实际pull重试仍无执行环境，立即触发公开只读CI pull（上次11:43:47）；两个README仅读差异并核库存。tate19 run43866568746/source59c56c69与tate24 run43865460680实际运行，其余五run继续；API读取不冒实际pull。
