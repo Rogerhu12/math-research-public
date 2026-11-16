@@ -363,3 +363,10 @@ H压为当前consumer接线摘要，完整旧H9797B/0bc65097/f323ccb5以9dfc7348
 
 并行容量已按所有实际active workflow的完整源与输出路由核，独立scope审计cd0c10d7/51481B锁27份workflow，另已读direct-loop prospective补pin（844d5bc7/77549证据）。当时本题pending0；其它题的HANDOFF写入明确区分；新未知active必须补完整scope再开始。每新consumer及立即科学前全publication210000+并行pending+120000≤200MB，完成/失败保存仅按实际总量，无postreserve。此推送不触科学workflow，下一独立push只触严格pure preflight。
 2026-11-16 17:33:51 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 47108c5130cbf5ccba0b3af4d0373f538e18f937的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
+
+### 2026-11-16 W2C 完整纯只读预检合同独立冻结
+
+源码及无损输出合同已推69597141fef7696ee017984a3d922002a5ec9552，实际topic198618850B。本次独立manifest `notes/2026-11-16-R133-W2C-readonly-preflight-current-inputs.json` 完整60个五键current specs、21历史恢复、7新模块及23 AST，精确固定原WVC而非WCTR；参数28、44SCI字段、29门和五图50(+2)只作未执行的owner合同。`readonly_diagnostic_only=true` 必在全preflight通过后、flint/输出创建/consume/scientific child之前返回；仅完整execution/report入库，不能把成功诊断计作科学目标或有限逆成立。三份preliminary math source尚缺最终graph4流式接线，不允许科学launch。
+
+17:34:48五状态新API元数据中发现他题publication-recovery43919708577/1，完整9141B workflow d19f7cab/SHA700caa28已逐字读；不是只靠contents权限分类。其唯一cherry-pick源ac129137388e987a1d67c6a3004f8a7c56e65639完整五file差分均为visible-flex-larger-amplitude，后续stamp/冲突处理只改该题H；writes_topic=false限定本题。完整补证 `notes/2026-11-16-R133-W2C-active-workflow-scope-extension.json` 保此源与原五状态快照（queued total_count=1但实际返回list为空的时间竞争也原样保留，不据此虚称原子快照）；29精确source bindings和actual-run重读保在manifest，未来未知版本在science前拒绝。本次只有文字/JSON/hash/Git元数据，无任何数学执行或新数组。manifest完整publication预算210000B，加并行pending及120000预留；发布已成诊断按实际总量≤200MB保存，不虚增postreserve。
+2026-11-16 17:36:10 UTC：publication前真CLI pull尝试返回No usable execution environment；GitHub只读核main 45f565262739a347d97098f9ee27484a73b892fe的根/题README仍21bd547f/7e2b93d6，diff空，依根规8 UTF8小文本非force提交。此前本结论ref更新失败后pull尝试次数0；API核不计真pull。
