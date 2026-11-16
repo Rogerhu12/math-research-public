@@ -162,92 +162,191 @@ def guard_view(value):
 
 
 def lp_view(lp):
-    out = selected(lp, (
-        "primary_SOC_pair_allocation", "original_and_scaled_residuals",
-        "SOC_original_and_scaled_residuals", "same_step_scalar_and_affine_budget_comparison",
-        "physical_values_or_Jacobians_inside_inner_solver",
-        "final_repaired_original_residuals", "original_residuals"), 3)
     if not isinstance(lp, dict):
-        return out
+        return compact(lp)
+    out = scalars(lp)
+    for key in ("primary_SOC_pair_allocation", "same_step_scalar_and_affine_budget_comparison",
+                "original_and_scaled_residuals", "SOC_original_and_scaled_residuals",
+                "final_repaired_original_residuals", "original_residuals"):
+        if key in lp:
+            out[key] = compact(lp[key], 1, key)
     for key in ("inner_LPs", "cut_rounds"):
         if isinstance(lp.get(key), list):
-            out[key] = [selected(item, (
-                "source_primary_allocation", "residuals", "final_residual",
-                "objective", "limits"), 2) for item in lp[key]]
-    complete = lp.get("complete_original_grid_model")
-    if isinstance(complete, dict):
-        out["complete_original_grid_model"] = selected(complete, ("summary",), 2)
-        oracle = complete.get("oracle", {})
-        out["complete_original_grid_model"]["oracle"] = selected(
-            oracle, ("statistics", "initial_four_maxima"), 2)
+            out[key] = []
+            for original in lp[key]:
+                row = scalars(original)
+                for name in ("source_primary_allocation", "limits", "residuals", "final_residual"):
+                    if name in original:
+                        row[name] = compact(original[name], 1, name)
+                inherited = original.get("inherited_scalar_LP_report")
+                if isinstance(inherited, dict):
+                    row["inherited_scalar_LP_report"] = scalars(inherited)
+                    for name in ("original_residuals", "scaled_residuals",
+                                 "original_and_scaled_residuals"):
+                        if name in inherited:
+                            row["inherited_scalar_LP_report"][name] = compact(
+                                inherited[name], 1, name)
+                if "repaired_residual" in original:
+                    row["repaired_residual"] = compact(original["repaired_residual"], 1)
+                row["original_item_fingerprint"] = reader.fingerprint(original)
+                out[key].append(row)
     return out
-
 
 def trial_view(trial):
-    out = selected(trial, (
-        "coarse_decision", "fine_decision", "scale_feedback",
-        "restricted_support_invariants", "fine_violation_groups",
-        "curvature_nonlinear_defect_diagnostic", "SOC_LP_opportunity_allocation",
-        "rebound_model_binding"), 4)
     if not isinstance(trial, dict):
-        return out
-    if "curvature_defect_guard_sample" in trial:
-        sample = trial["curvature_defect_guard_sample"]
-        out["curvature_defect_guard_sample"] = selected(
-            sample, ("coefficients_observed",), 1)
+        return compact(trial)
+    out = scalars(trial)
+    for key in ("coarse_decision", "fine_decision"):
+        value = trial.get(key)
+        if isinstance(value, dict):
+            out[key] = scalars(value)
+            for name in ("actual_gate_booleans", "physical_parameter_box_and_height_gate"):
+                if name in value:
+                    out[key][name] = compact(value[name], 1, name)
+        elif key in trial:
+            out[key] = value
+    for key in ("scale_feedback", "SOC_LP_opportunity_allocation"):
+        if key in trial:
+            out[key] = compact(trial[key], 1, key)
+    for key in ("restricted_support_invariants", "fine_violation_groups",
+                "curvature_nonlinear_defect_diagnostic"):
+        if key in trial:
+            value = trial[key]
+            out[key] = {"original_scalar_fields": scalars(value),
+                        "original_detail_fingerprint": reader.fingerprint(value),
+                        "detail_not_copied_to_avoid_repeated_per_row_tables": True}
+    sample = trial.get("curvature_defect_guard_sample")
+    if isinstance(sample, dict):
+        out["curvature_defect_guard_sample"] = scalars(sample)
+        for key in ("coefficients_observed", "actual_physical_norm_record",
+                    "original_signed_group_summaries"):
+            if key in sample:
+                out["curvature_defect_guard_sample"][key] = compact(sample[key], 2, key)
     error = trial.get("affine_metric_error_decomposition")
     if isinstance(error, dict):
-        out["affine_metric_error_decomposition"] = selected(error, (
-            "difference_terms", "complete_model_difference_terms",
-            "maximum_slack_difference_terms", "complete_affine_four_maxima"), 3)
+        out["affine_metric_error_decomposition"] = scalars(error)
+        for key in ("difference_terms", "complete_model_difference_terms",
+                    "maximum_slack_difference_terms", "complete_affine_four_maxima"):
+            if key in error:
+                out["affine_metric_error_decomposition"][key] = compact(error[key], 2, key)
     return out
 
 
+def controller_view(value):
+    """Keep each real controller proof once, rather than its nested frozen copies."""
+    if not isinstance(value, dict):
+        return compact(value)
+    out, proofs, seen = scalars(value), [], set()
+    def walk(node, path):
+        if not isinstance(node, dict):
+            return
+        checks = node.get("checks")
+        if isinstance(checks, dict):
+            identity = reader.fingerprint(node)
+            token = identity["canonical_json_sha256"]
+            if token not in seen:
+                seen.add(token)
+                record = scalars(node)
+                record["checks"] = compact(checks, 1, "checks")
+                for key in ("failed_conditions", "trigger_trial_indices"):
+                    if key in node:
+                        record[key] = compact(node[key], 1, key)
+                coverage = node.get("coverage")
+                if isinstance(coverage, dict):
+                    record["coverage_scalar_fields"] = scalars(coverage)
+                    if "checks" in coverage:
+                        record["coverage_checks"] = compact(coverage["checks"], 1)
+                proofs.append({"original_path": path, "original_node_fingerprint": identity,
+                               "record": record})
+        for key, item in node.items():
+            if isinstance(item, dict):
+                walk(item, path+"."+key)
+    walk(value, "$")
+    out["unique_original_controller_proofs"] = proofs
+    if "trigger_trial_indices" in value:
+        out["trigger_trial_indices"] = compact(value["trigger_trial_indices"], 1)
+    out["nested_frozen_duplicate_records_not_copied_again"] = True
+    return out
+
 def model_view(model):
-    out = selected(model, (
-        "SOC_hold_model_binding", "primary_step_cost_diagnostic",
-        "primary_allocation_before_factory", "original_model_fingerprint",
-        "scale_feedback_update", "expanded_pool_rebound_eligibility",
-        "expanded_pool_rebound_budget", "accepted_SOC_base_total_step_diagnostic",
-        "accepted_rebound_SOC_base_total_step_diagnostic",
-        "failed_y_post_learning_cache_restore", "error"), 4)
+    out = scalars(model)
+    for key in ("SOC_hold_model_binding", "primary_allocation_before_factory",
+                "original_model_fingerprint", "expanded_pool_rebound_eligibility",
+                "expanded_pool_rebound_budget", "failed_y_post_learning_cache_restore", "error"):
+        if key in model:
+            out[key] = compact(model[key], 2, key)
+    for key in ("primary_step_cost_diagnostic", "accepted_SOC_base_total_step_diagnostic",
+                "accepted_rebound_SOC_base_total_step_diagnostic"):
+        value = model.get(key)
+        if isinstance(value, dict):
+            out[key] = scalars(value)
+            for name in ("binding_checks", "actual_correction_physical_norms",
+                         "actual_total_physical_norms", "model_binding"):
+                if name in value:
+                    out[key][name] = compact(value[name], 1, name)
+    if "scale_feedback_update" in model:
+        out["scale_feedback_update"] = controller_view(model["scale_feedback_update"])
     if "curvature_defect_guard" in model:
-        out["curvature_defect_guard"] = guard_view(model["curvature_defect_guard"])
+        value = model["curvature_defect_guard"]
+        out["curvature_defect_guard"] = scalars(value)
+        for key in ("frozen_coefficients", "per_grid", "pending_commit_before_model"):
+            if key in value:
+                out["curvature_defect_guard"][key] = compact(value[key], 2, key)
     if "curvature_defect_sample_final_record" in model:
-        out["curvature_defect_sample_final_record"] = selected(
-            model["curvature_defect_sample_final_record"], ("coefficients_observed",), 1)
+        value = model["curvature_defect_sample_final_record"]
+        out["curvature_defect_sample_final_record"] = scalars(value)
+        if "coefficients_observed" in value:
+            out["curvature_defect_sample_final_record"]["coefficients_observed"] = compact(
+                value["coefficients_observed"], 1)
     if "ordinary_covered_context" in model:
-        out["ordinary_covered_context"] = selected(model["ordinary_covered_context"], (
-            "final_model_binding", "old_pool_versions", "old_ID_counts",
-            "old_ID_sha256"), 2)
+        value = model["ordinary_covered_context"]
+        out["ordinary_covered_context"] = scalars(value)
+        for key in ("old_pool_versions", "old_ID_counts", "old_ID_sha256"):
+            if key in value:
+                out["ordinary_covered_context"][key] = compact(value[key], 1, key)
     out["linear_program"] = lp_view(model.get("linear_program", {}))
     if "complete_model" in model:
         out["complete_model"] = complete_model_view(model["complete_model"])
     out["trials"] = [trial_view(v) for v in model.get("trials", [])]
     out["corrections"] = []
     for correction in model.get("corrections", []):
-        part = selected(correction, (
-            "rebound_model_binding", "original_primary_model_binding", "corrected_trial_added_rows"), 2)
+        part = scalars(correction)
+        for key in ("rebound_model_binding", "original_primary_model_binding",
+                    "corrected_trial_added_rows"):
+            if key in correction:
+                part[key] = compact(correction[key], 1, key)
         part["linear_program"] = lp_view(correction.get("linear_program", {}))
         out["corrections"].append(part)
     return out
 
-
-
 def complete_model_view(value):
-    out = selected(value, ("summary", "supplemental_paid_normals",
-                          "new_task_resource_limits", "new_support_requests"), 3)
+    out = scalars(value)
+    for key in ("summary", "new_task_resource_limits"):
+        if key in value:
+            out[key] = compact(value[key], 1, key)
+    supplemental = value.get("supplemental_paid_normals")
+    if isinstance(supplemental, dict):
+        out["supplemental_paid_normals"] = scalars(supplemental)
+        out["supplemental_paid_normals"]["rebuild_records"] = [
+            scalars(x) for x in supplemental.get("rebuild_records", [])]
     oracle = value.get("oracle", {})
-    out["oracle"] = selected(oracle, ("statistics", "binding", "initial_four_maxima"), 2)
-    out["oracle"]["direction_events"] = [
-        selected(x, ("attainers", "four_maxima", "maxima", "grids"), 2)
-        for x in oracle.get("direction_events", [])]
+    out["oracle"] = scalars(oracle)
+    out["oracle"]["statistics"] = compact(oracle.get("statistics", {}), 1)
+    out["oracle"]["direction_events"] = []
+    for event in oracle.get("direction_events", []):
+        record = scalars(event)
+        for key in ("four_maxima", "maxima"):
+            if key in event:
+                record[key] = compact(event[key], 1, key)
+        if "attainers" in event:
+            record["attainers_fingerprint"] = reader.fingerprint(event["attainers"])
+        if "grids" in event:
+            record["grids"] = compact(event["grids"], 1)
+        out["oracle"]["direction_events"].append(record)
     out["oracle"]["new_original_row_J_events"] = [
-        selected(x, ("original_row",), 1) for x in oracle.get("new_original_row_J_events", [])]
-    out["norm_direction_memory"] = selected(
-        value.get("norm_direction_memory", {}), ("statistics", "context"), 2)
+        selected(x, ("original_row",), 0) for x in oracle.get("new_original_row_J_events", [])]
+    out["norm_direction_memory"] = scalars(value.get("norm_direction_memory", {}))
     return out
-
 
 def geometry_timing_view(value):
     if not isinstance(value, dict):
@@ -267,9 +366,12 @@ def complete_view(report):
         "final_full_grid_constraints", "final_doubled_constraints",
         "final_exact_box", "final_selection_validation", "value_evaluation_counts",
         "bank_migration_and_new_activity", "final_bank_scalar_report",
-        "factorized_selected_J_execution", "complete_original_grid_oracle_progress",
+        "factorized_selected_J_execution",
         "source_final_selection_validation", "source_paid_point_remains_available_as_ancestral_input",
         "actual_counters_at_error", "limitations", "ancestor_costs", "error"), 3)
+    out["complete_original_grid_oracle_progress"] = [
+        selected(x, ("statistics",), 1)
+        for x in report.get("complete_original_grid_oracle_progress", [])]
     if "new_adapter_timing_at_error" in report:
         out["new_adapter_timing_at_error"] = geometry_timing_view(report["new_adapter_timing_at_error"])
     stage = report.get(STAGE, {})
@@ -318,8 +420,14 @@ def complete_view(report):
             if k in cp:
                 out["future_direct_checkpoint"][k] = omitted(
                     cp[k], "exact reusable input remains solely in the original log")
-        out["future_direct_checkpoint"]["curvature_defect_guard_learning_checkpoint"] = learning_view(
-            cp.get("curvature_defect_guard_learning_checkpoint", {}))
+        learning = cp.get("curvature_defect_guard_learning_checkpoint", {})
+        out["future_direct_checkpoint"]["curvature_defect_guard_learning_checkpoint"] = selected(
+            learning, ("coefficients", "coefficient_binary64_exact",
+                       "maximizing_event_indices", "pending_event_indices"), 1)
+        for key in ("events", "commits", "context"):
+            if key in learning:
+                out["future_direct_checkpoint"]["curvature_defect_guard_learning_checkpoint"][key] = omitted(
+                    learning[key], "original history fingerprint; live per-model observations are emitted once")
     return out
 
 

@@ -1,15 +1,14 @@
 {
   "mode": "read-only-completed-direct-reference-log-v1",
   "repository": "Rogerhu12/math-research-public",
-  "goal": "Read the already completed third direct-reference result once after both native transports closed; inspect original costs, gates, migration and model decisions without research or development replay.",
+  "goal": "Read the already completed direct-reference result through a bounded nonduplicated semantic view, preserving all original model/trial gates and costs and the final primary LP stopping evidence.",
   "original_run_id": "43780594182",
   "original_job_id": "133016656592",
   "original_source_commit": "a0d71ea94446f0fcf64d1f69e4dbadd5910204ba",
   "expected_original_conclusion": "success",
   "original_request_bytes": 41005,
   "original_request_sha256": "f622a092cbae2b8279f14aebea3f6a3708f1b09b5aa45dd336f3fc7ab74f1cc4",
-  "original_log_identity_unobserved": true,
-  "source_sha256": "77d49363ce18ab1c02b80cfb7b9965f57b6ea521d099ee905f4bf1f0ebe1a705",
+  "source_sha256": "d2e3a74eff584118df471720fee0ddfacc8f4fdbfdcae33f0a6a9d44a3c9048b",
   "helper_source_sha256": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
   "workflow_path": ".github/workflows/visible-direct-reference-log-readback.yml",
   "workflow_sha256": "833ad78b6f6cc797ea1018edf4cc21f8205a08d6de1ca7df42f80434b06e6694",
@@ -35,5 +34,13 @@
     "metadata_hashes_and_lengths_do_not_certify_mathematics": true,
     "observed_original_run_success_is_not_a_substitute_for_original_science_records": true,
     "original_log_download_count_is_per_observer_run": true
-  }
+  },
+  "original_log_bytes": 8352495,
+  "original_log_sha256": "ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9",
+  "readback_round": 2,
+  "previous_readback_run_id": "43781737655",
+  "previous_readback_job_id": "133020248595",
+  "previous_readback_log_bytes": 92970,
+  "previous_readback_log_sha256": "63c606e63b300ac3e4898798f7605c3127a69622438e3dbf701682285e063c3a",
+  "previous_readback_scope": "The first read-only observer validated the original raw log, request, reused nine-check evidence and 152-Python source closure, but its 2439337-byte semantic view exceeded 660000 bytes. This request reads the same hash-bound log with narrower nonduplicated model, controller, gate and cost selectors; no scientific or developer execution."
 }
