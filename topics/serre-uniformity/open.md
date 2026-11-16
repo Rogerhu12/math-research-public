@@ -62,7 +62,7 @@ R805–R883原W/两图/146/418/273jets与原未缩放t、R860真cY、R866的127�
 
 真正高度接口：五Lj128/144与real Rcal I_Z³不可混；YP/FM原128/634、254度/508主部rank507、P1的c/a、活跃eη、d/N、完整nonp、Poincaré/splitting与height尚缺。R870原16 ni/1959位d*与含7-primary挠判，须合法好约化niPiξj非零才判活跃。YL1=0非rank0，UE仍有dY+2period，End⁰G=F/torus≥g+1，μ3qφ*=0不删Y。
 
-R787 primal真670、半dual真541/542正残差，R824真693及R815准确g/Γ、R854 N112同core断点均按HANDOFF实际run继续；R854旧1041stage/末profile63输入49rank7不等四球成。不得因预算或false FINAL造负结论或重做旧位。
+R787 primal真670、半dual真541/542正残差，R824真693及R815准确g/Γ均按HANDOFF实际run继续。[R854 N112→N224](notes/R854-original-p41-N112-ended-and-N224-continuation.md)：原真NeedPrecision/exit125，outer_timeout=false，FINAL37314bcb/manifest729e2eb2/1184件/art14248459820/ZIP37800018、原输入135471278B/bca10118。仅精度224与真实resume改动，原source/tag/300min/四球请求7不变；旧profile0..111/逆/行组合与低位全复用，新高精度代表确需算术。整行格Λ_(h+1)=B^-1Λ_h∩O^2420，h*=最大Smith指数，目前仅h*≥112；单位图后N≥R+h*+δ−w*+7s充分，粗界R+3h*+7s，224不预保证。四球/单位图/Dixon仍未出现。 不得因预算或false FINAL造负结论或重做旧位。
 
 ### 全p原标签与指定normal接口
 

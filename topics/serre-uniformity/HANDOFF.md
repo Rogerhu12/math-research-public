@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不以阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：68154bed55e5f54e803844a566be958c0956b382**（2026-11-16T17:43:48.110390+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-ordinary-auxiliary-and-reference-norms.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
+**已读规则提交：56bb641c26835b8f9282a0253d49869bd2ebf43b**（2026-11-16T17:45:54.556874+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整此前状态逐字在[本次前H](handoff-archive-2026-11-16-before-ordinary-auxiliary-and-reference-norms.md)，内接全部旧归档与原pins/公式/关闭边界；不重做旧结果。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端失联，恢复workflow实际partial/sparse pull发布。
 
@@ -14,13 +14,15 @@
 |---|---|---|
 |R787 primal670后|43912581432 / 133458306139|source33d44d4d；原670/f756e254/8c9052ec；core93d3d72b/wrapperdff10f45|
 |R824原27+244从693后|43912577191 / 133458143804|source33d44d4d；原current761b228c/liftf8972f29；core1ece3cf4/wrapperc5907739|
-|R854原41 N112|43880489423 / 133344905148 已停125|20984736，真1174stage/1665载体；v26读停止原因，四球未成|
+|R854原41 N224|本次从N112真125续接|原43880489423/20984736，1174stage/1184manifest729e2e；core1feb579a/wrapperf6b97a7d|
 |R787半dual541后|43869450077 / 133306600874|393efa24，coreffe5dcff/wrapper1552e403；542正残差保留|
 |R815准确Γ586后|43908105148 / 133442347214|84a31a9b；core80516ff9/wrapperab725da0，原Γ586/17520bit，g696已成不重|
 |R903五Iz双权|43921416613，source280f1840|corebc3e9a53/wrapper97b91720；128/144两图待实际|
 |R930七连接目标迹|43921420577，source280f1840|corec35f63be/wrapper2fad50f4；85原件/全E分母单位|
 
 R824旧43877576209实际runner shutdown143，无新artifact；R787旧43897255536 failure且无数学artifact，内部原因未臆测。两者原693/670请求不变续算，不能填新进度。R815 requesta469e685/原art14246345143/manifest42e141cb/currentd361a554，v24仅元数据，不代完整Γ；全部53原输入原样。完整tail/尺度/Trace/旧缺receipt严格分支沿前态。
+
+[R854 N112→N224](notes/R854-original-p41-N112-ended-and-N224-continuation.md)：原真NeedPrecision/exit125，outer_timeout=false，FINAL37314bcb/manifest729e2eb2/1184件/art14248459820/ZIP37800018、原输入135471278B/bca10118。仅精度224与真实resume改动，原source/tag/300min/四球请求7不变；旧profile0..111/逆/行组合与低位全复用，新高精度代表确需算术。整行格Λ_(h+1)=B^-1Λ_h∩O^2420，h*=最大Smith指数，目前仅h*≥112；单位图后N≥R+h*+δ−w*+7s充分，粗界R+3h*+7s，224不预保证。四球/单位图/Dixon仍未出现。
 
 ## 原Y高度路线：只补当前缺口
 
