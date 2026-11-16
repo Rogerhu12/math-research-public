@@ -254,3 +254,5 @@ root全文14073B/9ee0806f核两次Bessel插值指数、homogeneous比较r4与L2�
 root全文20433B/231ff8b1核所有graph/投影/低因子与两个finite方程，回读完整N.1–末及WAD/WTS源域。Tail正式核2–4，Newton正式核5–7，二peer齐。改变的是exact operator split：低reference输出在Q97，所以high左投影精确零；未从norm upper相减，全部Qblocks/Theta96/physcols仍在。
 
 σ>1给H−1→H−σ紧性和真实one-loss后ΛJ^−(σ−1)；列/块门只在全部source、positive/root、waist、actualinput/output坐标已付的同wholeE上使用。trial第二行零的density源身份为条件式，未把新U尚在核的体源阶授为whole证书。本条零数值，不重旧模型或CYA，fresh read ebdb4e512bb3cb8f8fadbb3bf2b9e69f11127051两README未变。
+
+2026-11-16 04:56:01 UTC WUA独立结论推送。freshmain c1bfc657f1fa42ad674eb7400f2e3d54ca1d7202 两README身份不变。完整亲读40111B（首稿全文+final仅两diff），原N/O/F/L/A/IN逐式核；Phase正式§6–7有限总N6/one-gain/degree0，Tail§8–10完整mean/seam/root/waist核通过。新文件7b89251dcd51e8cb78fd3e8e42905114ef982ebf，SHA9cd778ec8c97904b29524ae8b8252c14304eedfdc67d4ffec48affa79ae18bad。只解析全real同root genuine构造及完整Ig1/jump p2，fixed C64非all-s或全complex。保原Cn/β、physicalmean与全部I/J终端，positive/root有限差、cut、oldwaist density-to-raw不省。无scientific执行/旧数学重跑/新数值；wholeE、实际有限square与全core仍未完成，继续下一入口。

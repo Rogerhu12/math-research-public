@@ -54,6 +54,8 @@ $Q_aV_wT_i-(h-1)\rho_i+Q_a(1+V_w)P_hE_i$。
 
 [JI全实区间角向真逆](results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md)01e4a33b：在原完整[0,rc]及real $|\delta|\le10^{-8}$，保全P/primitive的奇→偶mean0角算子$A$精确化为一个标量分母。由原SJ全pair Fourier A0及角A0，不用I的L∞错误界，解析得$D_J\ge(79/128)e^{-7/4}>0$；显式逆在每个固定$s$为同一个$H^s_{even,0}\to H^{s+1}_{odd}$映射。原rootJ仅真实交域/端点一致，不搬旧数费；N7 physicalmean与第一行、source/jump/boundary仍独立。新J0/J1仅完整符号recipe，未求新球或全段complex strip。这一入口已闭，可继续完整uniformU两行残差。
 
+[WUA全实 genuine 试探与完整两行源](results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md)9cd778ec：原真两ray全real fold、JI同一parity逆、固定C64 potentialcut与原Cn/β给同root genuine试探；完整ordered Q/N6有限I/J/projection/mean逐项消去，原n7/6已计，ordinary $\int\|Ig_1\|dr$及全部3070真jump列各$p=2$。physicalmean ODE完整解使$g_2=0$，z仍在；leading C1/first C0证明真jump，所有有限终端和mean项留。原positive修正、root finite差、cut及旧density waist replacement保持同signedtuple；只闭试探和源阶，未授root接收/wholeE/新数值。
+
 **当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。WFI已闭真实transported补在graph上的有界性与指数账；仍须实际physical有限列、全部输出交叉、pairing及匹配square逆，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 
 ### 2b. 已付系数、坐标与原强界

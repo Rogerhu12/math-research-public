@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WUA：全实 genuine Airy 试探及完整源阶闭合。** [完整证明](results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md)，Git blob7b89251dcd51e8cb78fd3e8e42905114ef982ebf /40111B /SHA256 9cd778ec8c97904b29524ae8b8252c14304eedfdc67d4ffec48affa79ae18bad。原真两ray/JI给全负实fold；固定C64 cutoff只在原paid V段使用，保原两profile、Cn/β和root trace，sharp real Airy bounds纯解析。完整N6有限I/J、所有ordered Q/one-gain forcing/投影/mean终端不省，首校正消完整degree0；原n7/6下，ordinary primitive第一源积分与全部3070真实接缝各列p2。完整physicalmean ODE给g2=0而不删z，g1=JQf+Fmean k2−zRmean。leading C1/first C0及完整J证明跳跃；正侧/根finite/cut/旧density waist replacement仍同signedtuple，原β只计一次。根完整读首稿并仅核final两处diff、回读N/O/F/L/A/IN；Phase§6–7与Tail§8–10正式独核。无新数字/运行，未授wholeE/root receiver/高尾小门或总完成。
+
 - 2026-11-16 — [WGT：实际graph高块门与完整源正则门](results/R133-supplement-sharp-graph-high-block-tests-and-complete-source-thresholds.md)（2827aec2afb53d395218c7d6dbf488083eb66df4，20433B，SHA256 231ff8b11d405591cdd23c56831a33796a61976cb813165787b6212dd2511d08）。任1<σ≤4/3保持同graph/index−96；exact P_J(Mν−Mbar)=0让高门只含完整physical E，原低reference仍在Q/Theta。尾门2KCY CE,σ KP,σ ΛJ^−(σ−1)；完整received列p>σ+1/2或真dyadicblockp>σ为充分门，不能用relativeAiry阶代完整物理误差。96真实列/metric/mean/high feedback及infinitehead仍未付；0新数值。
 
 - 2026-11-16 — [WIR：同一正密度交织子的插值界](results/R133-supplement-interpolation-bounds-for-the-same-positive-density-intertwiner.md)（833fc9a7045a50cc46c1fd5acd6c9579e5cb7597，14073B，SHA256 9ee0806fc2eb0929d6be9fb1cc3f3c843ab11177404eb070de3aa8085c40a770）。同D/J两窗插值给L=d0^(5/8)CD^(3/8)、N=(17/16)^(1/4)dminus^(3/8)CD^(5/8)，原同W在L2及H−4/3逆分别≤1+L/2、1+N；完整strong差≤(CD+LN)/2，forward界独立。保fullmeanrank/actualfinite/真同operator/window，未执行幂/产品或重DZA，所有后续whole物理候选仍须完整原项。
