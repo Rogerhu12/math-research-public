@@ -1,3 +1,5 @@
+**原点非挠新充分判据**：[分裂处方法](notes/R792-original-padic-CM-point-nontorsion-method.md)b3b88cc9，只读原518商和h0，在原ell1000000753简单分支Hensel得到真实Qell点；Hasse区间BSGS给m，再带绝对精度仿射乘，有限正v(t([m]P))才证明非挠，未确定零诚实停止。无需ell∤m、不用RR候选/非primitive射影Z。原β∈A(Q)及R728 EndQ为域，真非挠后所有非零L-Hom值均非挠，可解特定加法分支；当前尚待实际新证书。
+
 # 未解决的问题
 
 **R575现行更正。** 实际六层的正CM角色为Ψθκ4，根号−1、中心值零；R348把相反扭向Ψθκ4^-1识别为实际商的论断撤回。后文及历史归档中的该出现性、实际秩零与有理点零像应用均以[R575](results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md)为准。固定家族的L值与局部代数计算仅按各自假设保留。
