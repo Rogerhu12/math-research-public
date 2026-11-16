@@ -2027,3 +2027,204 @@ $$
 (109)的四个指定低卷积和同一原高精度边界研究。
 
 本节仅用原有限整窗口中的手证，没有数学执行或素数扫描。
+
+
+## 20. 原 P_a 的共同算子、同一 Cartier 质量与四个完整带权伴随
+
+本节仍在原 $K=k(E)$、$K_0=K^p$ 和基
+$1,Z,\ldots,Z^{p-1}$ 中工作。记
+$$
+\mathfrak A=Z^{-1}-G,\qquad
+\mathfrak B=Z^{-1}+r,\qquad
+\mathfrak V=\mathfrak B/\mathfrak A,\qquad
+\mathscr L=\mathfrak A^{-1}D,\qquad
+\mathfrak C=H^pZ^{p-1}/\mathfrak A .
+\tag{111}
+$$
+原 $H=G+r=\mathfrak B-\mathfrak A$。
+这些都是同一指定 $Z,G$ 的有理函数，没有更换 Frobenius 初始资料。
+在 $O$，原低项给
+$$
+\mathfrak A=-z^5/35+O(z^{11}),\qquad
+\mathfrak B=4z^5/7+O(z^{11}),\qquad
+H=3z^5/5+O(z^{11}).
+$$
+所以三者均非零，且
+$\mathfrak V^p\ne0,1$ 于 $K_0$。
+以下逆算子是在完整函数域中取；不把这些非零量免费认成所有局部整格的单位。
+
+### 20.1 同一算子同时读取全部指定 P_a
+
+令
+$$
+F_a=P_a/Z^a .
+$$
+由(69)，所有实际 $a\in\{6,28,66,130,60\}$ 满足
+$$
+\boxed{(\mathscr L+a)F_a=a\mathfrak C.}
+\tag{112}
+$$
+同一个 $\mathscr L$ 的准确特征多项式为
+$$
+\boxed{\det(T-\mathscr L)=T^p-\mathfrak V^pT,\qquad
+\mathscr L^p=\mathfrak V^p\mathscr L.}
+\tag{113}
+$$
+证明：$D^{p-1}\mathfrak A=-Z^{-p}-r^p=-\mathfrak B^p$。
+对 $K_0$ 上的不定元 $u$，标量连接公式给
+$$
+(D+u\mathfrak A)^p
+=u^p\mathfrak A^p-u\mathfrak B^p.
+$$
+因维数为 $p$，其行列式就是右边；
+再除去乘法算子 $\mathfrak A$ 的范数 $\mathfrak A^p$，
+得到 $\det(u+\mathscr L)=u^p-\mathfrak V^pu$。
+$p$ 为奇数，换成特征多项式即得(113)，后式由 Cayley--Hamilton 得出。
+
+特别 $\mathscr L+a$ 对每个实际 $a$ 可逆，而且
+$$
+\boxed{
+F_a=
+\frac{(\mathscr L+a)^{p-1}-\mathfrak V^p}
+     {1-\mathfrak V^p}\,\mathfrak C .
+}
+\tag{114}
+$$
+这是(112)的唯一有理解，故仍为原 $P_a/Z^a$，
+不是另选一个具有相同低 jet 的解。
+(114)保全部 $Z^p$ 折回和原分母。
+
+### 20.2 零特征空间上的共同非零分量
+
+对 $f\in K$ 定义
+$$
+\boxed{
+\Pi_0f=
+\frac{[\mathfrak Af]_{p-1}}{\mathfrak B^p}
+=\left(1-\frac{\mathscr L^{p-1}}{\mathfrak V^p}\right)f .
+}
+\tag{115}
+$$
+方括号是原 $K_0$ 基的坐标，不能改成原点 Taylor 系数。
+事实上 $[\mathfrak A]_{p-1}=\mathfrak B^p$，
+而 $[Dg]_{p-1}=0$，所以前式固定常数并杀掉 $\mathscr L K$。
+$\ker\mathscr L=K_0$；这给直和 $K=K_0\oplus\mathscr L K$。
+(113)中的后一个投影具有同样的像和核，故二式相同。
+
+将(115)作用于(112)，得到同一原全函数等式
+$$
+\boxed{
+\Pi_0F_a=(H/\mathfrak B)^p,\qquad
+\mathcal C(\mathfrak A F_a\omega)=H\omega .
+}
+\tag{116}
+$$
+因为 $\mathfrak A\mathfrak C=H^pZ^{p-1}$。
+其共同零特征分量非零，在原点的值是 $21/20$。
+这属于带 $\mathfrak A$ 的质量；它并不是原四个 $\alpha_\nu$。
+
+原实际权必须明确写为
+$$
+W_\nu=\frac{Z^{m_\nu-p-2}R_\nu}{\mathfrak A},\qquad b_\nu=m_\nu-6 .
+$$
+由(90)，准确有
+$$
+\boxed{
+\gamma_{\nu,1}
+=\mathfrak B^p\Pi_0(W_\nu F_6F_{b_\nu}),\qquad
+\mathcal C\eta_{\nu,p}^{[2]}
+=\mathfrak B\,\Pi_0(W_\nu F_6F_{b_\nu})^{1/p}\omega .
+}
+\tag{117}
+$$
+因此不能将(116)的非零分量越过 $W_\nu$，
+也不能以它代替(91)随后两次 Cartier 的指定读数。
+
+### 20.3 真正的有理原函数及其原点阶
+
+两个实际指标 $a,b$ 之间有显式有理函数
+$$
+\boxed{
+Y_{a,b}=\frac{F_b-1}{b}-\frac{F_a-1}{a},
+\qquad dY_{a,b}=\mathfrak A(F_a-F_b)\omega .
+}
+\tag{118}
+$$
+这直接由 $DF_a=a\mathfrak A(\mathfrak C-F_a)$ 相减得到，
+没有选积分常数或删掉 $p$ 次幂项。
+显示式准确给 $Y_{a,b}(O)=0$。
+
+原 $\sigma^\circ/z=1+z^6/210+O(z^{12})$，
+而(70)、$Z=z+O(z^{5p})$ 支付
+$F_a=(\sigma^\circ/z)^a$ 至所需低阶。
+所以完整的一次项相消，且
+$$
+\boxed{
+Y_{a,b}=\frac{b-a}{88200}\,z^{12}+O(z^{18}).
+}
+\tag{119}
+$$
+$z^{12}$ 系数中 $\sigma^\circ/z$ 自身的二次项亦相消；
+余下是 $(b-a)(1/210)^2/2$。
+对本篇 $a=b_\nu,b=6$，系数为
+$(12-m_\nu)/88200$，在 $p>211$ 都是单位。
+这是同一实际原函数的准确十二阶零，不给它新增中央零。
+
+### 20.4 四行统一到 F6² 时必须留下的完整伴随
+
+置 $Y_\nu=Y_{b_\nu,6}$。式(118)直接给整个有理微分等式
+$$
+\boxed{
+\eta_{\nu,p}^{[2]}
+=\mathfrak A W_\nu F_6^2\omega
+-Y_\nu\,d(W_\nu F_6)
++d(W_\nu F_6Y_\nu).
+}
+\tag{120}
+$$
+所以全部 exact 项经过 Cartier 消失后，
+$$
+\boxed{
+-\alpha_\nu^{1/p^3}r\omega
+=\mathcal C^3\left(
+\mathfrak A W_\nu F_6^2\omega
+-Y_\nu\,d(W_\nu F_6)\right).
+}
+\tag{121}
+$$
+右边第一个因子已统一为同一个 $F_6^2$，
+第二项则是确定的四个原带权伴随，不能删除。
+其无 $DR_\nu/R_\nu$ 分母的完整式为
+$$
+\boxed{
+\begin{aligned}
+d(W_\nu F_6)
+=\frac{Z^{m_\nu-p-2}}{\mathfrak A}
+\bigg\{&
+F_6\left[
+DR_\nu+
+\left(\frac{m_\nu-8}{Z}+6G
+-\frac{D\mathfrak A}{\mathfrak A}\right)R_\nu
+\right]\\
+&+6\mathfrak A\mathfrak C R_\nu
+\bigg\}\omega .
+\end{aligned}}
+\tag{122}
+$$
+这里 $m_\nu-p-2$ 在求导系数中约为 $m_\nu-2$；
+$DF_6=6\mathfrak A(\mathfrak C-F_6)$ 的所有项均保留。
+(120)在 $\mathfrak A$ 的零点也作为完整亚纯微分恒等式成立，
+不能分别删去各项的极部。
+
+在 $O$，
+$W_\nu F_6=-35z^{-p-1}(1+O(z^6))$，
+因而 $d(W_\nu F_6)$ 的首项准确为
+$35z^{-p-2}dz$，并非零。
+与(119)相乘后，伴随的首阶为 $z^{10-p}dz$；
+这给原实际补项的较高起阶，没有将整个补项或其留数判为零。
+
+本节付的是同一个指定有限 $p$ 模型中的共同算子、共同质量、
+显式原函数与四个完整带权返回。原初始化、全部 $R_\nu$ 和
+(117)的投影顺序均保持。它没有从矩阵可逆、共同非零质量或
+十二阶零推出四个指定 $\alpha_\nu$ 不能同时为零，
+也没有替代 R699 的原两位条件。没有数学执行或素数扫描。

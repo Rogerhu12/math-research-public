@@ -348,3 +348,5 @@
 - [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
 
 - [R907 §8](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：R907§8把真实反馈接到原GRes：m0..3=0，m4/m5为完整Jacobian乘法迹；同Qf(T)公式保两实际原点jet及−45项，不除Ft/f2、不删非稳定来源的左边或边界。
+
+- [R887 §20](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：R887§20同原Fa的共同有限p算子满足L^p=V^pL；全部Fa的A加权Cartier质量为同非零H，原四行仍保Wν。显式Y=(Fb−1)/b−(Fa−1)/a给真实exact差与十二阶零，四η准确归到同F6²及全部−Yνd(WνF6)伴随；未付四中央联合非零或p²边界。
