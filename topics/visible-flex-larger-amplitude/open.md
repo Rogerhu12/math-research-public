@@ -54,6 +54,8 @@
 
 **R481：准确恒等式与完整区间包含的条件证明；无新数值。** [R481](results/R481-fixed-ten-semantic-domain-and-complete-coast-polynomial-enclosures.md)22205B/7e1402a1全文及72c真实函数核后刊：十系数是固定dyadic，同C三cut语义叶的相关集合仅被直积盒外包。coast准确三jet为 $a=A-\kappa\ell t+\ell^2P(t)$、$a_s=-\kappa+\ell P'(t)$、$a_{ss}=P''(t)$；xi真实支撑在前transition且端点二jet零。给定正宽度盒的速度全矩形条件等价于两端宽度的四个完整七次多项式正性；半径保双次数(2,8)全部27 Bernstein系数，不能只取角点。原重复宽度依赖可准确消去，但同C输入信息宽度与公共u/全部候选片/真实当前十点责任保留；已有R352/165方法不冒新发明。未归因205未决主因、不保证原预算可过、不加factory域前门、不把native或一次metric通过补C²/reach/精化。新实现与真实执行另付。
 
+[R482/214完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)实际入口 `29df28d35ef85a7c4a6474c28451c58d9f25c802`，公开Actions [run43815427382](https://github.com/Rogerhu12/math-research-public/actions/runs/43815427382)于2026-11-16T06:14:42Z/attempt1启动；compute133126277648在06:19官方metadata前1–12成功，第13原完整continuous E cover运行。R484由geometry唯一终态读取，未取running日志；当前执行状态不补完整采样、真453/450父、闭面或固定g精化。入口官方topic tree `848edead50260fccf5f3c8a889c98cc9cd24c232`：9274blobs/196948669B、9646entries，truncated=false。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 本节全部原文逐字保在[212入口时open](https://github.com/Rogerhu12/math-research-public/blob/9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060/topics/visible-flex-larger-amplitude/open.md)，含原资源/参数/失败/未返/未访和所有更早检查点；当前只去重复，§4–6逐字不变。所有真实接受父及精化证据仍未付，不能从来源接线或同η重复pass补齐。

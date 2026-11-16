@@ -402,3 +402,7 @@
 ## 2026-11-16 06:13 UTC /root — Request214完整同job精化公开入口
 
 [R482/214完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)四源、证明与接口已刊 `0e78e97fa380327094b85bd3413b1653ad60ef4c`。本次独立刊request42062B/c81530fe与workflow97252B/9ce85151，新路径触发公开仓库自身Actions。原245公开/15生成源保，实际251+15=266；同job三级深度2、全候选/原误差/真实accepted父/原完整方程与各闭面角色/唯一18900+2700钟/九scope与quiet保持。实际run/source待官方绑定，R484由geometry唯一终态读取；不预填采样齐、有限接受、固定g下降或README完成。
+
+## 2026-11-16 06:19 UTC /root — Request214实际公开运行绑定
+
+[R482/214完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)实际入口 `29df28d35ef85a7c4a6474c28451c58d9f25c802`，公开Actions [run43815427382](https://github.com/Rogerhu12/math-research-public/actions/runs/43815427382)于2026-11-16T06:14:42Z/attempt1启动；compute133126277648在06:19官方metadata前1–12成功，第13原完整continuous E cover运行。R484由geometry唯一终态读取，未取running日志；当前执行状态不补完整采样、真453/450父、闭面或固定g精化。入口官方topic tree `848edead50260fccf5f3c8a889c98cc9cd24c232`：9274blobs/196948669B、9646entries，truncated=false。
