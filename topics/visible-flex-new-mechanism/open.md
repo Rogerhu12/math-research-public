@@ -68,6 +68,14 @@ R513同类cap排除、R518固定宽接口、R520/524/527/529原20母的返回障
 
 常高度尾J恒定，密度准确为2(D−h²J/4)²−h⁴J²/8；应在同一规范与完整有序history内真正把D靠近此中心。C⁴及先固定有限路径后δ的选择次序必须保；t1仍总负，四阶p1判据不清其余矩/末germ/pose/period。下一直接构造原系统可实现的负泛函或有限幅离k0路径。
 
+### R539：同一正交母与从起点固定的单规范净负总矩
+
+[R539](results/R539-one-fixed-gram-and-a-real-negative-total-matrix-entry-in-the-orthogonal-library.md)在原R521母从起点选有限ν2及对应ν0，证明R534—538的完整真前缀/强准备仍适用。预选有限ε高度loader完整保内部T=Oε⁻²及末端T_e=Oε⁻¹，准确产生J_e=−B*ε⁻²/(2cH³)+Oε⁻¹；一个完整参数IFT付D_e=h1²J_e/4，没有末端重设规范或history。
+
+同一高度恒定尾的真实canonical历史为A=A_e+tAc、T=T_e−tAc∘A_e−t²Ac²/2，所以D=D_e+b1t+b2t²且b1/b2一致有界。有限尾长先选到足以压过整个loader正成本，再选ε、最后δ，得到含全部真实正前缀的总p1<0；同一实际尾的严格负密度又给唯一停止时刻使单个p1准确零。t1依然严格负，其余七矩和全部端germ/pose/T/V/period未闭，不能套R526零块闭词。
+
+下一继续同一固定χ实际系统离近k0范围的有限幅/长期控制并配其余矩；C⁴高度与任意先固定有限时间定理不预支δ相关发散区间，也不因正规加速度系数便宣称全局轨道存在。
+
 ### R533：完整速度不定式与全八矩历史的正则图
 
 [完整证明](results/R533-complete-velocity-quadratic-form-and-all-history-regular-ruling-coordinates.md)从R520同类型母起点保原20/共同cap/固定I，新增13真实高阶目标有原33维有限正根。十四principal仅一关系、删B₁后恢复其完整O(1)余值；正幅O(Λ)与先Λ后有限频率给未指定三导能量O(Λ)。完整速度H与m/固定χ无关，H₁₁=O1/H₁₂=−Λc+O1/H₂₂=OΛ使任意预选合法scalar紧盒严格不定，ξ_tar仅代数目标编码、不是负x支撑。

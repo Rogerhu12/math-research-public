@@ -102,3 +102,5 @@
 - [R536 同一33母的完整快高度回路与真实净负总矩](results/R536-real-negative-total-matrix-density-from-a-complete-fast-height-loop.md)：**已证明**一次χ、真前缀及完整八矩/第三下，有限高度闭回路和同规范平滑恒负保持使总p1^{ωc}<0；同一保持段内准确停止可清单个p1。其它七矩、末germ、pose、T/V及period未闭，不授可加零端口块。
 
 - [R538 完整四阶矩单路径泛函与真实强准备](results/R538-complete-fourth-order-matrix-functional-for-prescribed-height-paths.md)：**已证明**同χ、真固定d开放入段及预给有限C⁴高度下，d/δ²与j/δ²强收敛，真实总p1/δ⁴趋于∫(2D_h²−h²J_hD_h)。D_h保完整A/T，常高度尾负中心已明确；尚未由本稿实现负例，其余七矩与返回门仍待。
+
+- [R539 同一正交库与一次Gram的真实净负总矩](results/R539-one-fixed-gram-and-a-real-negative-total-matrix-entry-in-the-orthogonal-library.md)：**已证明**从起点选有限ν2，完整高度loader/端点IFT把真实四阶缺额送到负中心；有序常高尾的有界二次漂移使总p1<0，同一尾可准确停到单矩零。t1仍负，其余七矩和全部返回门未闭，不授同母M0或跨母拼接。
