@@ -422,3 +422,9 @@
 - 12次Range/264566B只读九小件与完整manifest，大lift/全ZIP此处只引原身份。请求仅改resume为artifact14198754717/a188db0f；120min/core93d3/wrapper42157及全部原数学冻结，后继全核恢复并从546继续，不重1–545/旧518格。
 - R861已推b55bcacd；R815新696素数/20809bits断点实际已取，大vector919902566B/506e675a，接着按同核心续接，Mg/Γ未成。
 - 本push规则：本地真实pull至735d8bfa1370900f794f169dbbd4ca7a88c5332d（2026-11-16T05:17:51.581430+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:21 Asia/Taipei — serre-public-astra-20261115
+- R815原run43777837244实际696素数/20809bits，g/component0末素数1000014397/current919902566B/506e675a，最新step9195c6b2与manifest5665/8c03d9bc相合；退出124、预算说明、无core receipt/算子证书，未造core BudgetStop或Mg完成。
+- 11次Range/808536B读四小件与完整manifest；大current/ZIP只引原身份。请求只改resume为artifact14198893567/c403e270，300min/core80516ff9/wrapperab725da0/framework849bca27及原目标/模式冻结，全部旧阶段续载，不重1–696/49拒/九维调度。
+- R787545接续已推834098ca，真实新run正查询；R858封装/原源核读取完整，后续登记pending，R854仍在原41数学步。
+- 本push规则：本地真实pull至9762653a88d7c1eac1b02573ba23da4604adffe6（2026-11-16T05:21:35.448841+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

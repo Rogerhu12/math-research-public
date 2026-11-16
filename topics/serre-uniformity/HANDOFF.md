@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：735d8bfa1370900f794f169dbbd4ca7a88c5332d**（2026-11-16T05:17:51.581430+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[原余子式下降前完整H](handoff-archive-2026-11-16-before-adjugate-descent.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：9762653a88d7c1eac1b02573ba23da4604adffe6**（2026-11-16T05:21:35.448841+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[原余子式下降前完整H](handoff-archive-2026-11-16-before-adjugate-descent.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -13,12 +13,12 @@
 | 任务 | run / job | source commit | 状态 |
 |---|---|---|---|
 | R787从545位接续 | 43795851660 / 133064488949（已结束） | 9eeabe9c55d8ab6f8bea1e82d8ab7e1e2c60e8a0 | 真BudgetStop/545；请求已改最新resume，新run待实际登记 |
-| R815原582-prime续接 | 43777837244 / 133008081839 | 7cddfd0d5896f0d1ea7d49143dd1a91a68eb11d7 | 数学步已结束，正上传实际产物；未以步骤success判Mg完成 |
+| R815原696-prime续接 | 43777837244 / 133008081839（已结束） | 7cddfd0d5896f0d1ea7d49143dd1a91a68eb11d7 | 真current696/退出124，无core receipt；新resume已写，待真实run |
 | R824原27+244从501位继续 | 43792912432 / 133055178711 | 33f5c3288305cdfc8ed1adb5e1e4fee3ed940870 | 原数学步续接；core1ece3cf4/wrapperc5907739 |
 | R854原41四响应首跑 | 43805506433 / 133095311242 | dc6ffb07b398e5262d6b1e62dbc72378a163b5f3 | 原数学步骤in_progress；原N_B56/目标7/300min |
 | 新R787清转置接受 | 43790194976 / 133046704617 | ad0278b29f83c035d83f44a262a1e375137c3450 | 原来源已过、新RHS；corebad97414/wrapper5388274 |
 
-R787[545断点](notes/R787-545-digit-checkpoint-and-same-core-continuation.md)：真BudgetStop，lift76988028B/2aa94259；manifest1262/66c3fdb0、history545/4fc18ea3和compaction一致。artifact14198754717/a188db0f至Nov17 05:05:48；本地只小件IO，后继全核恢复。resume已改最新，120min/core93d3/wrapper42157不变，从546继续。旧run43766834509仅runner失联、无新数学；[恢复记录](notes/R787-runner-disconnection-and-518-checkpoint-recovery.md)保真实518源。518全格56detU1/56D非零已闭，不重。R815[582来源](notes/R815-582-prime-checkpoint-and-same-core-continuation.md)及旧49拒/九维固定调度继承，80516ff9/ab725da0及目标/模式不变；实际新current待读。R824[501来源](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：artifact14192476595/7f1c8d82、lift70788183B/a2f5c38c、carrier612745716B/71b16a02；仅27权5+244权6，1186归R787；129/142/280Q/r28不变。
+R787[545断点](notes/R787-545-digit-checkpoint-and-same-core-continuation.md)：真BudgetStop，lift76988028B/2aa94259；manifest1262/66c3fdb0、history545/4fc18ea3和compaction一致。artifact14198754717/a188db0f至Nov17 05:05:48；本地只小件IO，后继全核恢复。resume已改最新，120min/core93d3/wrapper42157不变，从546继续。旧run43766834509仅runner失联、无新数学；[恢复记录](notes/R787-runner-disconnection-and-518-checkpoint-recovery.md)保真实518源。518全格56detU1/56D非零已闭，不重。R815[696断点](notes/R815-696-prime-checkpoint-and-same-core-continuation.md)：g/component0，1000014397/20809bits，current919902566B/506e675a，step9195c6b2与manifest5665/8c03d9bc一致。artifact14198893567/c403e270至Nov17 05:07；退出124/预算到达但缺core receipt，不造BudgetStop。resume已改，300min/core80516ff9/wrapperab725da0/模式不变；旧49拒/九维调度闭合。R824[501来源](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)：artifact14192476595/7f1c8d82、lift70788183B/a2f5c38c、carrier612745716B/71b16a02；仅27权5+244权6，1186归R787；129/142/280Q/r28不变。
 
 **A.1仍缺原零证**：七小L条件不代A0−qB0=0。当前full dual保PAIRING J4629B/b384a331/1481源，全35840乘回才判。半坐标[契约](notes/R787-half-coordinate-dual-continuation-source-contract.md)1f1ea6b2/coreffe5dcff/wrapper1552e403仍source=null；须当前full真正结束后继承J/target/current/下一residual-correction-witness，n+1七支/17920RR补±s全核。禁取消full、primal518、重J/旧位；RR失败不拒q，仅真fullΘ可转Δ/A.1。
 
