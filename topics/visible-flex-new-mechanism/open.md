@@ -80,7 +80,7 @@ R384/385已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-tota
 
 两真实目标先完整入像，再须P_f(Gd^c)=P_f(Ge^c)=0；同一incoming X准确加ell(XΔ)、减ell(Xfg)，非免费参数。F=−Θ4−x4aAf/6给Af点的局部连接，未证D与最高规范等价。余12行仍须同一k、全圆光滑相位/seed、Smith零行与降秩整除，全部gap/平台代价保留。
 
-[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)从完整B_XH原三项化为2Lf(XD)，whole三矩使XD/XΔ/Xfg真紧。8原响应属于kerJ⁺且全Af partial/C0，变化为真Lf像，不能使初始不入像目标免费入像。最高像泛函变化为−d_f(X)/τ、+e_f(X)/τ，实际P2再乘κ/24。当前实际12复制用四次εγ⁴=11差分权；Y真二次尾与紧Xfg的I2跨项准确消，平移次数≤10，故e_f(E8)=0及incoming-e项0。八列支路可同时付最高两值 iff be=0且τbd∈d_f(E8)，d八真值仍未判，不宣rank1或全R盲。原八复制已保3合法矩，余9端口行/其它s段仍须同k联立；signed响应与actual原型×n、桥及J⁺基准不混。下一R445查真实d像/八列之外。
+[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)从完整B_XH原三项化为2Lf(XD)，whole三矩使XD/XΔ/Xfg真紧。8原响应属于kerJ⁺且全Af partial/C0，变化为真Lf像，不能使初始不入像目标免费入像。最高像泛函变化为−d_f(X)/τ、+e_f(X)/τ，实际P2再乘κ/24。当前实际12复制用四次εγ⁴=11差分权；Y真二次尾与紧Xfg的I2跨项准确消，平移次数≤10，故e_f(E8)=0及incoming-e项0。八列支路可同时付最高两值 iff be=0且τbd∈d_f(E8)，d八真值仍未判，不宣rank1或全R盲。原八复制已保3合法矩，余9端口行/其它s段仍须同k联立；signed响应与actual原型×n、桥及J⁺基准不混。[R445](results/R445-two-exact-highest-gauge-null-directions-and-the-complete-P-self-formula.md)已付完整ρ2=κI2(Yff,BεD)/24、Z4=−κ²I2(Yff,YD)/(144Hε)，故d(Bε)=d(Y)=0，剩P/R/S/L/U/V六真实值；不称非零或六自由参数。十二copy的d用正binomial平均，Pol≤10上可逆但冻结值可零。全部micro跨尾准确0给dP=Σai²Ri I2(Yui²,Pui²)，完整单包式为−2∫x4Cr t²+2∫(u−xp)²r²−∫x4r4/12。下一若用新principal，须同q/F★受限、真实copy/正核/有限频率19门一起付，不能改冻结圆取巧。
 
 ### R389：有理端口两period的真实整包通量与全部零端germ
 

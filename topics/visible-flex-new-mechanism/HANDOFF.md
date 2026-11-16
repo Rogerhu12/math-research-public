@@ -34,7 +34,7 @@ R435/R440/R441旧有限self模块22formal、同镜16/六blind；真实K左常数
 
 R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f−xp+x²r/2、W=x²a²、F=−pW′+rW−2a³/3，F′=−pW″；真正G=Lf k有ell=−ΣFP∫F JG/(Af p²)。简单p根只双极、简单Af/原exp端支付边界；不扩其它端/多根。F=−Θ4−x4aAf/6不授D/P2等价，两个真period最高值须0，核不能调。
 
-[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核。δP_f(Gd)=−d(X)/τ、δP_f(Ge)=e(X)/τ，P2另乘κ/24。当前12副本真四次差分、quadratic Y跨尾消、平移≤10给e(E8)=0及incoming-e0；d八值未判，仅此支路最高可付iff be=0且τbd∈d(E8)，不宣全R盲。R326保3合法矩，余9端口行/其它s段/相位seed及actual原型×n基准仍欠。
+[R444](results/R444-original-hook-response-action-and-the-highest-second-period-blind-row.md)原B_XH=2Lf(XD)，whole三矩使XD真紧；8响应在J⁺/全部partial/C核。δP_f(Gd)=−d(X)/τ、δP_f(Ge)=e(X)/τ，P2另乘κ/24。当前12副本真四次差分、quadratic Y跨尾消、平移≤10给e(E8)=0及incoming-e0；[R445](results/R445-two-exact-highest-gauge-null-directions-and-the-complete-P-self-formula.md)由已付ρ2与全Z4证d(Bε)=d(Y)=0，未知缩为P/R/S/L/U/V六真值；不宣非零。最高可付仍iff be=0且τbd∈d(E8)，仅此支路。R326保3合法矩，余9端口行/其它s段/相位seed及actual原型×n基准仍欠。
 
 完整第四所有Af根/period/同规范、高阶收敛、嵌入/reach及同g有限族均未完成。
 
@@ -52,4 +52,4 @@ R437最高P2θ=κell/24杀全kerLf，13rank≤12/底≤9仅上界。R442令a=f�
 
 ## 5. 当前工作
 
-R443实际已核，写完整人读稿即推；接R446局部性纸证和49新同镜/全根评价。R445继续d真实像/已付零行；R442真D与period/同规范不放下。数值推进新first-jet标量线包络设计与唯一公开执行。继续open，不以阶段/预算/时长结束。
+R443实际已核，写完整人读稿即推；接R446局部性纸证和49新同镜/全根评价。R445已付两零/完整dP式，继续同q/F★纤维的真实d像；R442真D与period/同规范不放下。数值推进新first-jet标量线包络设计与唯一公开执行。继续open，不以阶段/预算/时长结束。

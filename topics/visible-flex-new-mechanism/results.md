@@ -282,3 +282,6 @@
 
 
 - **已付p32的新线包络：完整凸性与严格下降判据。** [纸证及输入边界](notes/paid-p32-complete-grid-line-envelope-convexity-20261116.md)（10231B/SHA4a3bfa4168496af94ac61a2472d7d69e0674b3bdb5ac6c9f56b0c2f3cf29b761）：原epsilon正谱分支沿线凸，完整368640分支max凸，存在α>0严格下降 iff α0全部精确active的最大导数<0；全步坏不排内部谷。浮点active非精确证书，原4attainer仅下界；需要完整线系数。全步通过加强guard不授任意缩放，真实14门/盒另验。新标量方法另记solver/oracle/恢复费并保原1200/1800、32/64封存，未执行。
+
+
+- **R445：两个已付最高规范零方向与完整P自配对。** [完整证明](results/R445-two-exact-highest-gauge-null-directions-and-the-complete-P-self-formula.md)（11415B/SHA88ee07ba6f18660687000271e2e9bf98b23e429c557cc70d8f7f8f8814a266da）从原ρ2和完整有理Z4保中心常数/所有幂次，准确得d(Bε)=d(Y)=0；R444未知第一通道缩为P/R/S/L/U/V六真值，未判非零。十二copy正binomial平均不消非零整多项式但冻结点可零。原P左常/Y左纯x²跨micro配对全消，单包I2(Y,P)=−2∫x4Cr t²+2∫(u−xp)²r²−∫x4r4/12保全部低项/端。新可调方案还须same-q/F★、正核、19完整门，未预授。无新执行。
