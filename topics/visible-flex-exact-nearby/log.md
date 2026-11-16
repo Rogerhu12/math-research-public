@@ -402,3 +402,9 @@ fresh main 02f162b527b669282a33d08d54634e41b3ca3bc0两README同原blob。root独
 ### 2026-11-16 01:46:04 UTC — 只删已白名单R46 energy派生报告425182B
 
 fresh main a55d9aa4266bb00d6d0e1f826cb385211413ba66两README仍同原blob；在已独推77c2feb545ec2bec069c6af8aee9328bad012468完整白名单基础上，再从最新三层Git metadata逐项核唯一path/blob2724486e24e540898eb65b7bd3978a32d40fa2b7/425182B匹配，实施普通Git单路径删除。原完整SHA ebe435c41b5337b3f92aeadfc132ae173e459c54d2cfd9befaeaadf5afad384e、恢复5d70e50322249c20a62291c0a15237f8036fed01同notes/2026-11-13-R46-unshifted-half-density-energy.json。不得重新生产成功数据；以后需要该报告只按该固定commit/path/原blob/size/SHA临时恢复，原upstream恢复义务同保。五small primary/所有失败及真正canonical/native/候选/端点/source/当前inputs均未动，0科学执行、0新artifact/Release。新consumer启动前仍必须在公开Actions对当时published tree独立核总容量及150000B预留。
+
+### 2026-11-16 01:46:56 UTC — R97R精确前缀接续合同独推
+
+fresh main 8f901fcbd999aeeb9a0217aee20ec9ba0b375f1f两README同原blob。root全文独读4f4a4adec13ff9eb1d0a2ad4a5ccabadf3efa00e /14338B /fc8bef9cd1db3fc94fe4b401256957544baa315ab30350d719ba4b0de4b03ac9，phase与tail各独审通过。六数学小text加新source/worker/rules共9current，3AST含原source只parse/literal_eval绝不import，0history。原15pins/18receipt/14gate只继承旧证据，不能记本次验证18；原SCId8bb/manifestacc09858/prefix95aa/exec a807全锁。五原对象exact结构及球串保，mixed/η模/upper只向上，eta_low/λlow/qgap只向下，Kβ保持signed全球。只九处signed square换x*x，公共项/mean/两ref/原顺序不变。
+
+35终态字段、9新结构门与原14门分列；COUNTS计划1另命名，actual_progress真正完成比较才1。nonfinite path与失败新stage诊断保，75K science/90K preGit/8Kreport/59Kexec/150K reserve不变。合同仅解析无新数学；源包/worker待完整静核后由root单次部署公开Actions。R46energy唯一清理已77c2feb5先证后8f901fcb普通删，后者两次非FF均立刻真CLI因无executor失败后保远端至成功，禁force/重复删。

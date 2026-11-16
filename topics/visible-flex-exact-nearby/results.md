@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R97R：原97精确前缀只读恢复](results/R133-supplement-exact-root97-saved-prefix-recovery.md)（`fc8bef9cd1db3fc94fe4b401256957544baa315ab30350d719ba4b0de4b03ac9`）：原SCI/exec/source/manifest锁15原pins、18旧receipts及14旧门；五已存对象原字复用，9current/3AST/0history。所有signed平方九处用x*x保同一包围，upper/lower/signed解码分明。仅原未存radial和未执行后段续，9新门/35字段/真实比较计数；无新实际e/g或逆结论，旧成功不重。
+
 - [R97F：原97首失败与已保存前缀](results/R133-supplement-actual-root97-interruption-and-preserved-domain-prefix.md)（`6ab486cf993451e3d2de854cfda8f28be447ce43e8cce7b73faeff58e9607dc2`）：原43786583355/1的14门、40 mixed选择及完整root-domain逐字锁定；radial序列化失败未存，后续未执行，实际e/g比较0。全部三小件/旧身份/辅助失败/两真实pull/SCI及两preGit恢复见原证。仅这些精确已存量只读接续未存radial及后段，成功不重；未获stable/incoming/finite/非线性背景。
 
 - [R133 supplement: conditional original97 faithfulness and uniform natural-window inverses](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md) — RNI `d771cf43`: conditional on an actual uniform R97 strict gap, the original stable kernel/cokernel and FC completion vanish; exact finite smoothing formulas give separate natural-window bounds, with physical means/head/rest ports and continuity qualifications retained.
