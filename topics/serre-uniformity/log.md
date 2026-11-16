@@ -380,3 +380,8 @@
 - R915完整纸证单独登记：任意Artin底环的Euler系数泛函给原八次微分迹，含分歧/幂零；真函数域导数、先微分后约化和九新系数接口固定。
 - 范数双行列式/dual7/diamond/−3与原κν两端帧保留，不把无p′逆的公式冒作所有分母可逆或新Hecke数值。R787真670断点及无core receipt已由原IO确认，正严格同核续；H前态归档。
 - 本push规则：公开Actions真实pull至71b2eb5b59e437fe9d2f201bf51301c6edc62740（2026-11-16T15:25:42.917833+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:29 Asia/Taipei — serre-public-astra-20261115
+- R916完整纸证单独登记：实际有限平坦商C=B/H及ψπ=[p]给整模余切注入，原dy0精确ann迫原微分content严格π^(ea_h+pr)，补齐原上半下界的等号。
+- 原BT因子、单位c0及D=kerψ逐式证明，Moonen原商定理已读；R913 k_+层现非零，原a_h/指定normal/CM配对/J32/height仍保留。H/open前态逐字归档，不重旧结论。
+- 本push规则：公开Actions真实pull至795295ce36e139df60be65c1c5c71ed683b98a95（2026-11-16T15:29:01.149991+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
