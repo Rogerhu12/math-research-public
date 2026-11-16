@@ -125,3 +125,7 @@ R589五件完整入口独立刊：原447→451只加helper/generator/两caller�
 ## 2026-11-16 15:36 UTC /root — 两24完整引用审计与仅两历史manifest保留整理
 
 只两旧24 domain清单合1301002B在实际guard后普通移出；本次439d/43895375578/133397372679必要76213全返、17组94行/真实producer与临时ZIP reader逐义核，所有兄弟/数组/现用输入保。首次finaldelta131809超90K70未push；九固定行政行族同body精确列/路径逆保全并重做最终每次pull delta全bytes/23词/候选全SHA/200MB守护，R58921新generic原source pins完整解释，无raw存Git；补246正式f70acbf1/run43897098674/root唯一，R591容量释放后立即刊派。
+
+## 2026-11-16 15:40 UTC /root — R591/request247真实captured reader完整来源修复
+
+R591六件306392B/topic214372B独立刊：严格四项集合的旧bound230修到真实captured239，原618全保→627/12层，R57056科学输出逐字不改；原门/18900+2700/32GiB/90K70保，单派247、R592 geometry唯一。补两24实际88874完整guard/精确逆141568/138变化/仅21原pin与普通8d1cfb2/198761353容量；open仅§1.3折叠到该固定全原文，§4–6原字。
