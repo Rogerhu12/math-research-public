@@ -2,34 +2,76 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R923-certified-two-endpoint-target-normal-coordinates",
-  "commit_message": "serre: certify both complete endpoint target normal coordinates",
-  "rules_last_read_commit": "24d17b9332e535e9be33684b9dbe84bac1542b5e",
+  "request_id": "20261116-R901-certified-five-directions-R903-R930-activation",
+  "commit_message": "serre: certify five original Z directions and execute RR kernels and connection traces",
+  "rules_last_read_commit": "ece4e4b5138d0174ad4f577ec8f4e82cca588d45",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "e4fd0a43b9caa0b20e9ee7cc5b338caaee0d6e350580dec93d9b2482b827a1c9",
+  "expected_previous_request_sha256": "93e36fc9098344e1d776301c3e40111429bf00687c0a805eb3d4c405c1a972c7",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R923-certified-original-two-endpoint-target-normal-coordinates.md",
-      "sha256": "49d7ae340eb9fe8877d232016ffe13edf4c54414ed41e7cf94016b538fed443b",
+      "path": "topics/serre-uniformity/results/R901-certified-original-five-Z-shared-flips-and-marked-principals.md",
+      "sha256": "13542ce66cbeeb035a48896a32023de40ae6e50d05c7932f76b2e4512d59abb9",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R903-five-Iz-two-weight-RR-public-request.json",
+      "sha256": "5633db831470431ecb6a551a1b458dfdca7bf5ed822af2ff9e9b7a22a67d08e6",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R930_original_seven_whole_Artin_connection_traces.py",
+      "sha256": "c35f63bec49f3b795c040c64d4900d955af1eed5cf326e3640226880401a0f4e",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R930_public_original_seven_whole_Artin_connection_traces.py",
+      "sha256": "2fad50f49c2e5670d54980da5db75b137eef53d5a265e7bc3895050edd007ec0",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R930-original-seven-whole-Artin-connection-traces-method.md",
+      "sha256": "b204e207052dfa231172a0903de8318f59efcdfff06bd64f4e008f074187c855",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R930-seven-whole-Artin-connection-traces-public-request.json",
+      "sha256": "ea4dee4a66b9075016a7b07d4085cfc7eade8733cec31f7c938001dc18a611f4",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R930-seven-whole-Artin-connection-traces.yml",
+      "sha256": "776bd0e25a7ae2d89d29d762ee2dadb574840bf757a2aac0de6c617505beac0f",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "4ab2949f7884e6984b089de429c9a57a202cd2767076ae274bb5daf37dbd96c3",
-      "expected_previous_sha256": "62d9d287711c87d647daee593feb3b738aa25f1ee639a255f84d9b72947e281c"
+      "sha256": "b5a6ef59f90bb14c72e09425643ff95e3838e8a0f591e81dd96cc9082e566daa",
+      "expected_previous_sha256": "085602fa3ec85af8b5e07bdd9ccd74ae26af334d39e50d0f5621d920c57e8218"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "3a50da3d031abeb4674b0109ee56223d3d10d65bbf0c85527ac04258c30177ce",
-      "expected_previous_sha256": "ecbb8adde2bcbc085f53971fe4dff01cf7eea4b2c655523b1ca3f3c9a7006fff"
+      "sha256": "028a9814e1023d57e7b02f9316711e57e27bc2aad541c45a065e824af485844d",
+      "expected_previous_sha256": "3a50da3d031abeb4674b0109ee56223d3d10d65bbf0c85527ac04258c30177ce"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "7e86ed84ec94900de95b6e5eaa890b828bdcdb4500fee373e5730c08d081a51f",
-      "expected_previous_sha256": "aeb06dd39772f28820f80fc80168f204326086ecfe5da3174f6ec660325ecb68"
+      "sha256": "757147a5c7a1b936ad1ba95698f03b1a9140e4c394c799ee275861a1975f9469",
+      "expected_previous_sha256": "4bab11061877507d011d5f9ab231f8dfbb696ae1f782475dd632109a9b0a7b25"
+    }
+  ],
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R903-five-Iz-two-weight-RR.yml",
+      "request_path": "topics/serre-uniformity/notes/R903-five-Iz-two-weight-RR-public-request.json",
+      "request_sha256": "5633db831470431ecb6a551a1b458dfdca7bf5ed822af2ff9e9b7a22a67d08e6"
+    },
+    {
+      "workflow": "serre-R930-seven-whole-Artin-connection-traces.yml",
+      "request_path": "topics/serre-uniformity/notes/R930-seven-whole-Artin-connection-traces-public-request.json",
+      "request_sha256": "ea4dee4a66b9075016a7b07d4085cfc7eade8733cec31f7c938001dc18a611f4"
     }
   ]
 }

@@ -1,0 +1,804 @@
+{
+  "schema": "source-bound-public-Action-v2-manifest-expanded",
+  "session": "serre-public-astra-20261115",
+  "request_id": "R930-original-seven-whole-Artin-connection-traces",
+  "result": "R930-original-seven-whole-Artin-connection-traces",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "budget_minutes": 300,
+  "maximum_divisors": 7,
+  "resume": null,
+  "core": "R930_original_seven_whole_Artin_connection_traces.py",
+  "core_sha256": "c35f63bec49f3b795c040c64d4900d955af1eed5cf326e3640226880401a0f4e",
+  "helper": "R885_whole_Artin_algebra.py",
+  "helper_sha256": "e47cd50d254700b98446866297d79694c100f1435c46f3b4f42e3835763f897d",
+  "wrapper": "R930_public_original_seven_whole_Artin_connection_traces.py",
+  "wrapper_sha256": "2fad50f49c2e5670d54980da5db75b137eef53d5a265e7bc3895050edd007ec0",
+  "workflow": ".github/workflows/serre-R930-seven-whole-Artin-connection-traces.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R930-original-seven-whole-Artin-connection-traces-method.md",
+  "method_sha256": "b204e207052dfa231172a0903de8318f59efcdfff06bd64f4e008f074187c855",
+  "proofs": {
+    "R885": {
+      "path": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    },
+    "R882": {
+      "path": "results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md",
+      "sha256": "a92524ab9d33124809fd2a46286e3c8ba49459331ebb46d013a9f41d457c655f"
+    },
+    "R873": {
+      "path": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+    },
+    "R915": {
+      "path": "results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md",
+      "sha256": "b8ea2f3b8b11b0923e9192122d40dbd46224a5e54e4047c534748e9fabf1dc92"
+    },
+    "R922": {
+      "path": "results/R922-original-bounded-connection-numerators-and-whole-Hecke-evaluation.md",
+      "sha256": "75e0e04e986203598b556403b4ea8eec3706da838e934ae11810c5abda569731"
+    },
+    "R905": {
+      "path": "results/R905-certified-original-seven-trace-dual-connections-and-five-Picard-inputs.md",
+      "sha256": "7fd90966e9b7713f1991be10840156b6b7138892e07f6f20f966e3e3082ade2a"
+    }
+  },
+  "sources": {
+    "R922": {
+      "result": "R922-original-shared-low-weight-trace-dual-multiplier",
+      "run_id": "43913992769",
+      "source_commit": "fec176005094b37d86b143de7e460b4ab60471ea",
+      "core_sha256": "a03394a509a14bd6f29df404f7f66c2877185c932e206ba32adecfa3192d90db",
+      "configuration_sha256": "94a0009b06ff3ca92b2eacafdc2bbf526c1facec2b9ef5d5c3dec4ab9fb576cd",
+      "artifact_id": 14249830182,
+      "artifact_name": "serre-global-R922-shared-low-weight-trace-dual-43913992769-1",
+      "archive_bytes": 17061851,
+      "archive_sha256": "62a3420c5feb43be8fe9d9d15f58fe876ed0e49072ff86dc42c231445a0b2059",
+      "expected_conclusion": "success",
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "artifact_expires_at": "2026-11-17T17:02:43Z",
+      "manifest_bytes": 5655,
+      "manifest_sha256": "575390c170edd61f71b18de13a3b559edeee9990d492ec75c6d4a35013961080",
+      "certificate": {
+        "bytes": 11271,
+        "file": "p41-original-shared-low-weight-trace-dual-multiplier-certificate.json",
+        "sha256": "921c5992dfe0658e8febfb21cb4a435f5bb72eb34baa6af79ada8514e7bebce9"
+      },
+      "stage_result_location": "top_level",
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-shared-low-weight-trace-dual-multiplier-certificate.json",
+        "R922-trace-dual-complete-polynomial-low-weight-R.json.gz",
+        "R922-trace-dual-complete-original-RG-equals-Mg.json.gz",
+        "R922-trace-dual-exact-original-trace-dual-expression.json.gz"
+      ],
+      "pinned_files": {
+        "full-outputs-manifest.json": {
+          "bytes": 5655,
+          "file": "full-outputs-manifest.json",
+          "sha256": "575390c170edd61f71b18de13a3b559edeee9990d492ec75c6d4a35013961080"
+        },
+        "p41-original-shared-low-weight-trace-dual-multiplier-certificate.json": {
+          "bytes": 11271,
+          "file": "p41-original-shared-low-weight-trace-dual-multiplier-certificate.json",
+          "sha256": "921c5992dfe0658e8febfb21cb4a435f5bb72eb34baa6af79ada8514e7bebce9"
+        },
+        "R922-trace-dual-complete-polynomial-low-weight-R.json.gz": {
+          "bytes": 412278,
+          "file": "R922-trace-dual-complete-polynomial-low-weight-R.json.gz",
+          "sha256": "e4ecf5602c332a06bb75360913deb8119c3ba3e70a2a788b461a05e8d57a80d3"
+        },
+        "R922-trace-dual-complete-original-RG-equals-Mg.json.gz": {
+          "bytes": 4387,
+          "file": "R922-trace-dual-complete-original-RG-equals-Mg.json.gz",
+          "sha256": "885c75092420de257f047e3f2036c1cbc684929e94dc5652aa3aa8ccce999c36"
+        },
+        "R922-trace-dual-exact-original-trace-dual-expression.json.gz": {
+          "bytes": 5946,
+          "file": "R922-trace-dual-exact-original-trace-dual-expression.json.gz",
+          "sha256": "beec5e5d966515bde23a3d5294714222402cf4fdd2c161c91c8369ca96792274"
+        }
+      }
+    },
+    "R926": {
+      "result": "R926-original-seven-bounded-connection-polynomial-numerators",
+      "run_id": "43916091665",
+      "source_commit": "665dd92b8703fa7118d90fbee0eba7f07e2d60ee",
+      "core_sha256": "970a539931f7d101b8c624b2c7fc56b74b96b75e727e65fe22808de37af9583d",
+      "configuration_sha256": "8d865612158629b0241e9a0f0799ad6ae4270fd934a43af2d3782e040cc697ff",
+      "artifact_id": 14251085383,
+      "artifact_name": "serre-global-R926-seven-connection-polynomial-numerators-43916091665-1",
+      "archive_bytes": 31075923,
+      "archive_sha256": "03c783c6cab1f2b68315155b8d3cce97091a0e2e5cdad34c49e2e5be43b8b6b9",
+      "expected_conclusion": "success",
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "artifact_expires_at": "2026-11-17T17:14:40Z",
+      "manifest_bytes": 40833,
+      "manifest_sha256": "9f1be86937b3cb48554b7f47801c15250e55e8cda87c32a83bffa2576a48c8c9",
+      "certificate": {
+        "bytes": 12088,
+        "file": "p41-original-seven-bounded-connection-polynomial-numerators-certificate.json",
+        "sha256": "e60d5ebbe3c4a6b3632db30856c5f697130ba41fb26f352b72983616fea6bb54"
+      },
+      "stage_result_location": "top_level",
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-seven-bounded-connection-polynomial-numerators-certificate.json",
+        "R926-D1-complete-bounded-connection-certificate.json.gz",
+        "R926-D1-complete-denominator-norm.json.gz",
+        "R926-D1-complete-bounded-polynomial-numerator.json.gz",
+        "R926-D2-complete-bounded-connection-certificate.json.gz",
+        "R926-D2-complete-denominator-norm.json.gz",
+        "R926-D2-complete-bounded-polynomial-numerator.json.gz",
+        "R926-D3-complete-bounded-connection-certificate.json.gz",
+        "R926-D3-complete-denominator-norm.json.gz",
+        "R926-D3-complete-bounded-polynomial-numerator.json.gz",
+        "R926-D4-complete-bounded-connection-certificate.json.gz",
+        "R926-D4-complete-denominator-norm.json.gz",
+        "R926-D4-complete-bounded-polynomial-numerator.json.gz",
+        "R926-D5-complete-bounded-connection-certificate.json.gz",
+        "R926-D5-complete-denominator-norm.json.gz",
+        "R926-D5-complete-bounded-polynomial-numerator.json.gz",
+        "R926-X-complete-bounded-connection-certificate.json.gz",
+        "R926-X-complete-denominator-norm.json.gz",
+        "R926-X-complete-bounded-polynomial-numerator.json.gz",
+        "R926-DN-complete-bounded-connection-certificate.json.gz",
+        "R926-DN-complete-denominator-norm.json.gz",
+        "R926-DN-complete-bounded-polynomial-numerator.json.gz"
+      ],
+      "pinned_files": {
+        "full-outputs-manifest.json": {
+          "bytes": 40833,
+          "file": "full-outputs-manifest.json",
+          "sha256": "9f1be86937b3cb48554b7f47801c15250e55e8cda87c32a83bffa2576a48c8c9"
+        },
+        "p41-original-seven-bounded-connection-polynomial-numerators-certificate.json": {
+          "bytes": 12088,
+          "file": "p41-original-seven-bounded-connection-polynomial-numerators-certificate.json",
+          "sha256": "e60d5ebbe3c4a6b3632db30856c5f697130ba41fb26f352b72983616fea6bb54"
+        },
+        "R926-D1-complete-bounded-connection-certificate.json.gz": {
+          "bytes": 4978,
+          "file": "R926-D1-complete-bounded-connection-certificate.json.gz",
+          "sha256": "3ee158cf4b47011a258cba1640afa2c1a7e8124f9724e1e1c67ad2bb3f2dc158"
+        },
+        "R926-D2-complete-bounded-connection-certificate.json.gz": {
+          "bytes": 4989,
+          "file": "R926-D2-complete-bounded-connection-certificate.json.gz",
+          "sha256": "5ded42d6ddae3614d3b81e9e582ce2a8e314615e952ccf88375e15a0215b2e81"
+        },
+        "R926-D3-complete-bounded-connection-certificate.json.gz": {
+          "bytes": 4990,
+          "file": "R926-D3-complete-bounded-connection-certificate.json.gz",
+          "sha256": "5900e82e656ad084e8350bb02be29386b1991e40e5ef3451a8b1f70ac9372023"
+        },
+        "R926-D4-complete-bounded-connection-certificate.json.gz": {
+          "bytes": 4978,
+          "file": "R926-D4-complete-bounded-connection-certificate.json.gz",
+          "sha256": "90bc50a5dc92c3ad6c5fc1ff13be4716399288de27827a4b551158ba6239146e"
+        },
+        "R926-D5-complete-bounded-connection-certificate.json.gz": {
+          "bytes": 4978,
+          "file": "R926-D5-complete-bounded-connection-certificate.json.gz",
+          "sha256": "5ba1fb1b8b7b4b7c4f52933946cd9e643e7b5da98358b145f54a902014cbe150"
+        },
+        "R926-DN-complete-bounded-connection-certificate.json.gz": {
+          "bytes": 4997,
+          "file": "R926-DN-complete-bounded-connection-certificate.json.gz",
+          "sha256": "72f971fb223a512a9608b6592b5394e370829101efa211fdf24972ea3dfb1618"
+        },
+        "R926-X-complete-bounded-connection-certificate.json.gz": {
+          "bytes": 4995,
+          "file": "R926-X-complete-bounded-connection-certificate.json.gz",
+          "sha256": "4bb484856066f126049ffb5358dd7233e424a5dc0237d3770c5133bcbc418571"
+        }
+      }
+    },
+    "R928": {
+      "result": "R928-original-whole-Artin-target-differential-transport",
+      "run_id": "43918212179",
+      "source_commit": "10288e01680361bddf2a650cd98c38eb7b47889e",
+      "core_sha256": "f899af1a65b2243c47a738bedc6eff3954502b4e3867ab59ae56d80cca045337",
+      "configuration_sha256": "68132fe8e1e35804bde764cee49cba9d4f207630963303b8c44033dbf0693f5d",
+      "artifact_id": 14250307542,
+      "artifact_name": "serre-global-R928-whole-Artin-target-differential-transport-43918212179-1",
+      "archive_bytes": 17419419,
+      "archive_sha256": "6535112c49a5f1fdd582abbf7ad4589f17e7ad95fefee2fb0e3b976beb5b136e",
+      "expected_conclusion": "success",
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "artifact_expires_at": "2026-11-17T17:26:00Z",
+      "manifest_bytes": 9882,
+      "manifest_sha256": "6095a0628dd530ddd6a6008bffa0976e88451e722c4242710134d4e3ce92cfa6",
+      "certificate": {
+        "bytes": 20552,
+        "file": "p41-original-whole-Artin-target-differential-transport-certificate.json",
+        "sha256": "713fcc41b6276513dbad0110fa660963d9d8c93c91f95007c29ab8bb69e66f5c"
+      },
+      "stage_result_location": "top_level",
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-whole-Artin-target-differential-transport-certificate.json",
+        "R928-complete-target-differential-transport.json.gz",
+        "R928-whole-quotient-derivative.json.gz",
+        "R928-whole-target-g-h.json.gz",
+        "R928-original-characteristic-zero-target-transport-DAG.json.gz",
+        "R928-original-source-inventory.json",
+        "R928-retained-inputs-receipt.json"
+      ],
+      "pinned_files": {
+        "full-outputs-manifest.json": {
+          "bytes": 9882,
+          "file": "full-outputs-manifest.json",
+          "sha256": "6095a0628dd530ddd6a6008bffa0976e88451e722c4242710134d4e3ce92cfa6"
+        },
+        "p41-original-whole-Artin-target-differential-transport-certificate.json": {
+          "bytes": 20552,
+          "file": "p41-original-whole-Artin-target-differential-transport-certificate.json",
+          "sha256": "713fcc41b6276513dbad0110fa660963d9d8c93c91f95007c29ab8bb69e66f5c"
+        },
+        "R928-complete-target-differential-transport.json.gz": {
+          "bytes": 41536,
+          "file": "R928-complete-target-differential-transport.json.gz",
+          "sha256": "cea050abb47f452df115d366b3634c5e27f7371e32bfa01f63e0907bad19c042"
+        },
+        "R928-whole-quotient-derivative.json.gz": {
+          "bytes": 96268,
+          "file": "R928-whole-quotient-derivative.json.gz",
+          "sha256": "2d15be76c7a88848295b3a068fe3c521015b9bcfbcdd2207139deb5bb44e26a3"
+        },
+        "R928-whole-target-g-h.json.gz": {
+          "bytes": 31779,
+          "file": "R928-whole-target-g-h.json.gz",
+          "sha256": "1f5b6bd905b3b031c3cff9bd51ea607cfb3d9bc3b630579b657dec68125329f0"
+        },
+        "R928-original-characteristic-zero-target-transport-DAG.json.gz": {
+          "bytes": 8846,
+          "file": "R928-original-characteristic-zero-target-transport-DAG.json.gz",
+          "sha256": "cc5e9c2e58e44927bd57aac387ca9ec572426a38c2f3ecde5ca582df551f4b9b"
+        },
+        "R928-original-source-inventory.json": {
+          "bytes": 38994,
+          "file": "R928-original-source-inventory.json",
+          "sha256": "2146a42f79c691a3539e049933110828a6f4cb9acacd0324512497996f5a6be9"
+        }
+      },
+      "required_references": {
+        "target_frame_unit": {
+          "from_file": "R928-complete-target-differential-transport.json.gz",
+          "field": "selected_whole_E_unit_trial"
+        }
+      }
+    },
+    "R905": {
+      "result": "R905-original-seven-bounded-divisor-connections-and-five-Picard-inputs",
+      "run_id": "43893738459",
+      "source_commit": "f4589d2b0d8f5e2a914ca165a601351d09c303a9",
+      "core_sha256": "d0810c2938bfd6abe1c371bb0d3f1c2b6514fa38c381431c4af84cc9af72a92c",
+      "configuration_sha256": "fe220a1b3216cd28a16d0d3c1916f4660b7708c39a129e8696ba285c2c9e7136",
+      "manifest_sha256": "b11afeda52eb05af86a6fe162484854c29e0764acb26fb383f3f04d214b63fb0",
+      "manifest_bytes": 14778,
+      "manifest_file_count": 98,
+      "artifact_id": 14238516346,
+      "artifact_name": "serre-global-R905-trace-dual-connections-43893738459-1",
+      "archive_bytes": 67679896,
+      "archive_sha256": "f4ef0ba08998b69ffd87d7d2bf2fca51701d11a518273a8b7e00071fa3b6cf0a",
+      "expected_conclusion": "success",
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "stage_result_location": "top_level",
+      "certificate": {
+        "file": "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json",
+        "bytes": 17015,
+        "sha256": "24045a35dcd878cad48d28aea20bce7077161b0eb9dc86113a54ba83bc71d4a4"
+      },
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json"
+      ],
+      "pinned_files": {
+        "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json": {
+          "file": "p41-original-seven-bounded-divisor-connections-and-five-Picard-inputs-certificate.json",
+          "bytes": 17015,
+          "sha256": "24045a35dcd878cad48d28aea20bce7077161b0eb9dc86113a54ba83bc71d4a4"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 14778,
+          "sha256": "b11afeda52eb05af86a6fe162484854c29e0764acb26fb383f3f04d214b63fb0"
+        }
+      }
+    },
+    "R885": {
+      "result": "R885-original-whole-Artin-reference-norms",
+      "run_id": "43848870181",
+      "source_commit": "a22acdb019714f55bf182feb958425f8954da2ca",
+      "core_sha256": "1ad56fd6b93d066f9efa241f597063a60300bd0d1cbf126576ee7da4ecd7ab77",
+      "manifest_sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035",
+      "artifact_id": 14218009053,
+      "artifact_name": "serre-global-R885-whole-Artin-reference-norms-43848870181-1",
+      "archive_bytes": 145477237,
+      "archive_sha256": "7a0e8785b1e68d4944d7b44c0f9d8ddaf425cc4debea127352e316bb885e769e",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T10:56:08Z",
+      "certificate": {
+        "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+        "bytes": 58002,
+        "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+      },
+      "configuration_sha256": "9e419bbb3c496d943187e4ca3a368c97247dc3c8531a8f8a09d403758a0b0df6",
+      "files": {
+        "R885-Artin-node-00-complete-fibre-certificate.json.gz": {
+          "file": "R885-Artin-node-00-complete-fibre-certificate.json.gz",
+          "bytes": 20627,
+          "sha256": "a504f127520d83704fd651634aa587e65cb2df71b349b7f1f8385ecc7726a9e0"
+        },
+        "R885-Artin-node-00-correspondence-algebra.json.gz": {
+          "file": "R885-Artin-node-00-correspondence-algebra.json.gz",
+          "bytes": 209840,
+          "sha256": "8ad29e2dad0f992f386dcf9a0708db78dc0fd8cec073b275fe28749c95b70443"
+        },
+        "R885-Artin-node-00-full-target-normal-equations.json.gz": {
+          "file": "R885-Artin-node-00-full-target-normal-equations.json.gz",
+          "bytes": 20318,
+          "sha256": "b27c6019d1bfa495640fac18f12a4e81f2cc3f6bbd0d558bceb66982d4f8e40f"
+        },
+        "R885-Artin-node-00-source-functions.json.gz": {
+          "file": "R885-Artin-node-00-source-functions.json.gz",
+          "bytes": 3079120,
+          "sha256": "d3f79bfb7e8119787014ecd80cb0bccd8f10caf9d93353dfe7cc85592c65361c"
+        },
+        "R885-Artin-node-00-target-normal-000-016.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-000-016.json.gz",
+          "bytes": 186091,
+          "sha256": "5364be66533e04119cefffa0751ab356c2fd7ff251f8f66bb2cc8adc070946f7"
+        },
+        "R885-Artin-node-00-target-normal-016-032.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-016-032.json.gz",
+          "bytes": 196938,
+          "sha256": "fe792aaaa0d1bb357d04950ce9c9e20d81999dfb52c293280f08db9c070076d3"
+        },
+        "R885-Artin-node-00-target-normal-032-048.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-032-048.json.gz",
+          "bytes": 197004,
+          "sha256": "ac4b9a98a35e3f2d86df553d4222efcd057019941ae38206493a7382fb48202d"
+        },
+        "R885-Artin-node-00-target-normal-048-064.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-048-064.json.gz",
+          "bytes": 196930,
+          "sha256": "3fa4ba3b4cad321b249229931a22e7d9ca6b48e6b57159f1d9a70d90db784e9b"
+        },
+        "R885-Artin-node-00-target-normal-064-080.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-064-080.json.gz",
+          "bytes": 197017,
+          "sha256": "ea0f44967050d9755d7fd86192ff89d28dafb6e6599fc335d1d5a1182d27bc28"
+        },
+        "R885-Artin-node-00-target-normal-080-096.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-080-096.json.gz",
+          "bytes": 197005,
+          "sha256": "9ebeaf6f9f51d45813543381ee2bb5b4f64c17cd9dd7eceb33f4f97c12b7fba6"
+        },
+        "R885-Artin-node-00-target-normal-096-112.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-096-112.json.gz",
+          "bytes": 197060,
+          "sha256": "cf1530de0a8477af516567602e4a836bccc6ef91675f21c45a877951b0e2aaa3"
+        },
+        "R885-Artin-node-00-target-normal-112-128.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-112-128.json.gz",
+          "bytes": 196951,
+          "sha256": "a388e675d838172d09e14c75aa9aeab665e234eddfb538c0cf87db7f010e7617"
+        },
+        "R885-Artin-node-00-target-normal-128-144.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-128-144.json.gz",
+          "bytes": 196947,
+          "sha256": "65b265d965ed935209260d6e5ae6e4e869d883dd41f38883488fd91ec0c16133"
+        },
+        "R885-Artin-node-00-target-normal-144-160.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-144-160.json.gz",
+          "bytes": 196858,
+          "sha256": "acd3521f1261e96ecd736870565ba1cf4c8dd407acbf39ad0c23739b95b00345"
+        },
+        "R885-Artin-node-00-target-normal-160-176.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-160-176.json.gz",
+          "bytes": 196833,
+          "sha256": "83251ed1b701db664dd12604c7f20ec9e22c0b02cc40d60619b822353a419e39"
+        },
+        "R885-Artin-node-00-target-normal-176-192.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-176-192.json.gz",
+          "bytes": 196864,
+          "sha256": "a9da83065c4ef35ddc591309d078c28ea290dfbc2c4a823b07e13a0e31262561"
+        },
+        "R885-Artin-node-00-target-normal-192-208.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-192-208.json.gz",
+          "bytes": 196793,
+          "sha256": "c7033a53c27f39a600078bbf93cd19753b6b3a9f05de9a4d81d23e9517f57ba7"
+        },
+        "R885-Artin-node-00-target-normal-208-224.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-208-224.json.gz",
+          "bytes": 197009,
+          "sha256": "58eaa8f3cb36dc16cffe85620726f390aa97a5a27a2e940fda329a4c28c8cdec"
+        },
+        "R885-Artin-node-00-target-normal-224-240.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-224-240.json.gz",
+          "bytes": 196931,
+          "sha256": "b2035968f72b32e6e50b1d70fa597535590c91860aa2c530ca918d034b30afbb"
+        },
+        "R885-Artin-node-00-target-normal-240-256.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-240-256.json.gz",
+          "bytes": 196763,
+          "sha256": "a51c4b7d05cff5f33993364e44c134f96b6b1b4261983424efc5509affc5d3bf"
+        },
+        "R885-Artin-node-00-target-normal-256-272.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-256-272.json.gz",
+          "bytes": 196908,
+          "sha256": "02a60f5ecf8b9f3bf5b5b11317c6058cd29a5b48e4f37b9a6846ae254c42effc"
+        },
+        "R885-Artin-node-00-target-normal-row-index.json.gz": {
+          "file": "R885-Artin-node-00-target-normal-row-index.json.gz",
+          "bytes": 21134,
+          "sha256": "10d53f7c4daa54a2a6a6a3d25a1de04997db2f4214800104b9cc0c2a5511a3e3"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 56003,
+          "sha256": "7413c073772399c5b6127fb024e76a560739bfe34d8d242f77445241c3f0d7e3"
+        },
+        "full-outputs-manifest.json": {
+          "file": "full-outputs-manifest.json",
+          "bytes": 53331,
+          "sha256": "8bbbe3d01fc4118dc3b1fc5238bfa906a50e850f1eea234302a1c1f7ea38f035"
+        },
+        "p41-original-whole-Artin-reference-norms-certificate.json": {
+          "file": "p41-original-whole-Artin-reference-norms-certificate.json",
+          "bytes": 58002,
+          "sha256": "bb4866e7e72dbfe6f773ea604759afdd2cee6caaabe625a115a5848394608ff7"
+        },
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 12860,
+          "sha256": "cd09505b83e7c7649f6b339048d4dc71405320a7967261b92757a91caab2bc2d"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 691,
+          "sha256": "16cb7b9e16b7486e430f4962baccd9f781b9ce236594155978b3c7f83502a998"
+        }
+      },
+      "manifest_bytes": 53331,
+      "manifest_file_count": 334,
+      "stage_result_location": "top_level"
+    },
+    "R919": {
+      "result": "R919-original-whole-Artin-Hecke-differential-trace",
+      "run_id": "43904104159",
+      "source_commit": "1e0ecf187b6e282226833c6c45c5e94661a0a9b1",
+      "core_sha256": "379083fd253ec82af43d185ddd6aed6f33ca6985d70e9864bab8f0a5ce1ef7ee",
+      "configuration_sha256": "cb2e457199bc9856e16fbebcfc1cfecbb0a94388bbee274e65047499ea0e3ede",
+      "artifact_id": 14245060474,
+      "artifact_name": "serre-global-R919-whole-Artin-Hecke-differential-trace-43904104159-1",
+      "archive_bytes": 19073395,
+      "archive_sha256": "863b68d79df7398937d2e56832dc772ee29c4420999448c5e12a2bb57017fa82",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T16:09:19Z",
+      "manifest_bytes": 11229,
+      "manifest_sha256": "3caecf7914afb5763ada21ae04300456bf99f483e3755e03cca6f3f956140ed3",
+      "certificate": {
+        "bytes": 17249,
+        "file": "p41-original-whole-Artin-Hecke-differential-trace-certificate.json",
+        "sha256": "c5b5a3a4f2a7b221d1b10bfbbc4a8f092690cbdeb30f83cc36135d23c91608ca"
+      },
+      "stage_result_location": "top_level",
+      "files": null,
+      "required_names": [
+        "public-actions-input.json",
+        "run-receipt.json",
+        "core-receipt.json",
+        "full-outputs-manifest.json",
+        "p41-original-whole-Artin-Hecke-differential-trace-certificate.json",
+        "R919-complete-Euler-row.json.gz",
+        "R919-complete-eight-basis-trace-identity.json.gz"
+      ],
+      "pinned_files": {
+        "p41-original-whole-Artin-Hecke-differential-trace-certificate.json": {
+          "bytes": 17249,
+          "file": "p41-original-whole-Artin-Hecke-differential-trace-certificate.json",
+          "sha256": "c5b5a3a4f2a7b221d1b10bfbbc4a8f092690cbdeb30f83cc36135d23c91608ca"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 11229,
+          "file": "full-outputs-manifest.json",
+          "sha256": "3caecf7914afb5763ada21ae04300456bf99f483e3755e03cca6f3f956140ed3"
+        },
+        "R919-complete-Euler-row.json.gz": {
+          "bytes": 117875,
+          "file": "R919-complete-Euler-row.json.gz",
+          "sha256": "f9ba6aaace00dbd4f33ddde9517a982e817321be88eca49c6af917eb4d8ba6e0"
+        },
+        "R919-complete-eight-basis-trace-identity.json.gz": {
+          "bytes": 6613,
+          "file": "R919-complete-eight-basis-trace-identity.json.gz",
+          "sha256": "7a9e90075eafc3993ba27d441fea42f39c919adf98156c6da3742f7df2a56f71"
+        }
+      }
+    }
+  },
+  "input_bindings": {
+    "R_low_weight_polynomial": {
+      "source_group": "R922",
+      "file": "R922-trace-dual-complete-polynomial-low-weight-R.json.gz"
+    },
+    "R_complete_identity": {
+      "source_group": "R922",
+      "file": "R922-trace-dual-complete-original-RG-equals-Mg.json.gz"
+    },
+    "R_exact_expression": {
+      "source_group": "R922",
+      "file": "R922-trace-dual-exact-original-trace-dual-expression.json.gz"
+    },
+    "source_functions": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-source-functions.json.gz"
+    },
+    "correspondence_algebra": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-correspondence-algebra.json.gz"
+    },
+    "fibre_certificate": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-complete-fibre-certificate.json.gz"
+    },
+    "target_normal_index": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-target-normal-row-index.json.gz"
+    },
+    "target_normal_blocks": [
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-000-016.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-016-032.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-032-048.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-048-064.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-064-080.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-080-096.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-096-112.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-112-128.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-128-144.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-144-160.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-160-176.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-176-192.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-192-208.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-208-224.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-224-240.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-240-256.json.gz"
+      },
+      {
+        "source_group": "R885",
+        "file": "R885-Artin-node-00-target-normal-256-272.json.gz"
+      }
+    ],
+    "full_target_equations": {
+      "source_group": "R885",
+      "file": "R885-Artin-node-00-full-target-normal-equations.json.gz"
+    },
+    "Euler_trace_row": {
+      "source_group": "R919",
+      "file": "R919-complete-Euler-row.json.gz"
+    },
+    "full_eight_basis_identity": {
+      "source_group": "R919",
+      "file": "R919-complete-eight-basis-trace-identity.json.gz"
+    },
+    "target_transport": {
+      "source_group": "R928",
+      "file": "R928-complete-target-differential-transport.json.gz"
+    },
+    "target_quotient_derivative": {
+      "source_group": "R928",
+      "file": "R928-whole-quotient-derivative.json.gz"
+    },
+    "target_g_h": {
+      "source_group": "R928",
+      "file": "R928-whole-target-g-h.json.gz"
+    },
+    "target_frame_unit": {
+      "source_group": "R928",
+      "derived_reference": "target_frame_unit"
+    },
+    "exact_transport_DAG": {
+      "source_group": "R928",
+      "file": "R928-original-characteristic-zero-target-transport-DAG.json.gz"
+    },
+    "divisors": {
+      "D1": {
+        "certificate": {
+          "source_group": "R926",
+          "file": "R926-D1-complete-bounded-connection-certificate.json.gz"
+        },
+        "denominator": {
+          "source_group": "R926",
+          "file": "R926-D1-complete-denominator-norm.json.gz"
+        },
+        "numerator": {
+          "source_group": "R926",
+          "file": "R926-D1-complete-bounded-polynomial-numerator.json.gz"
+        }
+      },
+      "D2": {
+        "certificate": {
+          "source_group": "R926",
+          "file": "R926-D2-complete-bounded-connection-certificate.json.gz"
+        },
+        "denominator": {
+          "source_group": "R926",
+          "file": "R926-D2-complete-denominator-norm.json.gz"
+        },
+        "numerator": {
+          "source_group": "R926",
+          "file": "R926-D2-complete-bounded-polynomial-numerator.json.gz"
+        }
+      },
+      "D3": {
+        "certificate": {
+          "source_group": "R926",
+          "file": "R926-D3-complete-bounded-connection-certificate.json.gz"
+        },
+        "denominator": {
+          "source_group": "R926",
+          "file": "R926-D3-complete-denominator-norm.json.gz"
+        },
+        "numerator": {
+          "source_group": "R926",
+          "file": "R926-D3-complete-bounded-polynomial-numerator.json.gz"
+        }
+      },
+      "D4": {
+        "certificate": {
+          "source_group": "R926",
+          "file": "R926-D4-complete-bounded-connection-certificate.json.gz"
+        },
+        "denominator": {
+          "source_group": "R926",
+          "file": "R926-D4-complete-denominator-norm.json.gz"
+        },
+        "numerator": {
+          "source_group": "R926",
+          "file": "R926-D4-complete-bounded-polynomial-numerator.json.gz"
+        }
+      },
+      "D5": {
+        "certificate": {
+          "source_group": "R926",
+          "file": "R926-D5-complete-bounded-connection-certificate.json.gz"
+        },
+        "denominator": {
+          "source_group": "R926",
+          "file": "R926-D5-complete-denominator-norm.json.gz"
+        },
+        "numerator": {
+          "source_group": "R926",
+          "file": "R926-D5-complete-bounded-polynomial-numerator.json.gz"
+        }
+      },
+      "X": {
+        "certificate": {
+          "source_group": "R926",
+          "file": "R926-X-complete-bounded-connection-certificate.json.gz"
+        },
+        "denominator": {
+          "source_group": "R926",
+          "file": "R926-X-complete-denominator-norm.json.gz"
+        },
+        "numerator": {
+          "source_group": "R926",
+          "file": "R926-X-complete-bounded-polynomial-numerator.json.gz"
+        }
+      },
+      "DN": {
+        "certificate": {
+          "source_group": "R926",
+          "file": "R926-DN-complete-bounded-connection-certificate.json.gz"
+        },
+        "denominator": {
+          "source_group": "R926",
+          "file": "R926-DN-complete-denominator-norm.json.gz"
+        },
+        "numerator": {
+          "source_group": "R926",
+          "file": "R926-DN-complete-bounded-polynomial-numerator.json.gz"
+        }
+      }
+    }
+  },
+  "completed_R928_input_transport": {
+    "source_group": "R928",
+    "nested_groups": [
+      "R885",
+      "R919"
+    ],
+    "package": {
+      "bytes": 15081891,
+      "file": "R928-retained-original-inputs.tar.gz",
+      "sha256": "effd19da84b57607c8e32e9aec7c2773a84168e0606a6cabf904262cc2766dd1"
+    },
+    "source_inventory": {
+      "bytes": 38994,
+      "file": "R928-original-source-inventory.json",
+      "sha256": "2146a42f79c691a3539e049933110828a6f4cb9acacd0324512497996f5a6be9"
+    },
+    "retained_receipt_file": "R928-retained-inputs-receipt.json"
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "ece4e4b5138d0174ad4f577ec8f4e82cca588d45"
+}

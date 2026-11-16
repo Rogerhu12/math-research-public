@@ -515,4 +515,9 @@
 ### 2026-11-17 01:34 Asia/Taipei — serre-public-astra-20261115
 - R923两端目标实际认证：655stage/317原件，两端真共享分母d0、V及全部272正常坐标均267项，全272×8原方程通过；原discrim/B逆顺序和幂零/两帧保真，不冒五理想或NormΦ。
 - v25必要纯IO给真manifest1d619081/666件，只8metadata不代全部坐标。R901实际126新翻转/3976stage/五方向已成，R854原N112停125/1174stage；v26仅读后继所需元数据及真实停止原因。
-- 本push规则：待本仓库恢复Actions真实pull并核两README；最新已读24d17b9332e535e9be33684b9dbe84bac1542b5e（2026-11-16T17:31:15.825065+00:00），两README SHA6979d793/35f82f3d无diff，主目标OPEN。
+- 本push规则：公开Actions真实pull至69597141fef7696ee017984a3d922002a5ec9552（2026-11-16T17:34:10.963459+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:39 Asia/Taipei — serre-public-astra-20261115
+- R901实际认证：126新+2旧翻转、3976stage/五原完整418与QZ/t首项/准确下降datum已成；FINAL69da20e9/3987manifest e3e4eefd，旧35共轭及D2/E不重，终末基未冒K固定。
+- R903按真R901完整源激活，同962像/128与144补/原Φ与t不改；R930五件全文读完并激活，85真原件/实际t引用，先全E七分母单位再完整目标与三种迹。原σ/cY/五Picard数值及height未成。
+- 本push规则：待本仓库恢复Actions真实pull并核两README；最新已读ece4e4b5138d0174ad4f577ec8f4e82cca588d45（2026-11-16T17:34:14.556798+00:00），两README SHA6979d793/35f82f3d无diff，主目标OPEN。
