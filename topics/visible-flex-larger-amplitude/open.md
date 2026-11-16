@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R580完整复角带/尾/alias](results/R580-complete-complex-angle-strip-and-exponential-tail-alias.md)/[接口](notes/2026-11-16-same-evaluation-analytic-angle-projection-interface.md)**：同次R553全系数/joint管、真实cylindrical消元、严格W/P半裕量正带与完整向量sup，全部signed bins/两mean/无限alias、正确方向的正Taylor与有理幂和；global只原全DFS真付，phase/FFT形成/ρ/原cubic差另付。三件74680B完整刊，未有实际科学run/strip/数值收益，新诊断不是原门。245正式5664/43894406245单派发，官方note保。
+
 **[R586/request245](results/R586-current-sampler-schema-and-complete-generation-relations.md)/[接口](notes/2026-11-16-request245-current-schema-and-complete-source-relations-interface.md)八件完整刊**：旧616全保→626/13层，真实当前sampler schema接原完整PYPINS；同一完整generation必要按具名三字段身份/真路径前缀/两固定行/唯一完整相等parent作可逆共享，只严格较小时采用，声明与观测原角色不变。R556/R557原科学/25M/全账/18900+2700/90K70/quiet全保，不预承诺fit；正式刊后唯一POST，R587 exact唯一。
 
 **[R571实际239](results/R571-actual239-source-reader-binding-stop-and-complete-metadata-boundary.md)**：新captured239 reader已在inner而composer仍旧bound230，真实四名set检查停止；8894B初始化必要完整，deadline null/科学false/十一层未起。各后scope不可用，cleanup两实现未调用、raw false，无capture或accepted父。R591/request247真修该来源常量与hardpin，原guard/数学/资源全保。
