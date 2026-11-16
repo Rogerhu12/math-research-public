@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [NPKA：周期核消费者实际双窗与完整sign系数](results/R133-supplement-actual-normalizer-periodic-kernel-refinement.md)：43778474673/1/18门成功；同逆两whole选K0≈3.19764e38、K−≈2.43651e44，四affine有序完整候选已付；全部CE/incoming/finite仍未付。
+
 - [CEB：同一真实帽修正的二次、四次积分包络](results/R133-supplement-whole-cap-envelope-from-completed-radial-weights.md)：已成整帽径向权给完整点态包络，精确J2/J4闭式支付97维body，左/右/mean/known/outer一次保留后whole选；仅解析规则，新数值待。
 
 - [OMA：两份旧演化报告实际元数据](results/R133-supplement-actual-immutable-old-evolution-report-metadata.md)：唯一43777745624/1、9steps成功；两完整恢复SHA/原complete=true、未认证与全域false保留，纯metadata科学0，尚未删除。

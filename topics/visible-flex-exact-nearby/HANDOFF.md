@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 00:08:05 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 00:13:32 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 23:50:00定时CLI仍无executor，下一≤11-16 00:50。最新CI真pull为OM11-16 00:00:02.003491→c9f72b1a899e7cf316fa76f3d508bfd63678110e，两README空diff；ref读取不冒真pull。
-最近只读README核：11d3d5e441f3a49129634782b55e6cd25e17df87；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-15 23:50:00定时CLI仍无executor，下一≤11-16 00:50。最新CI真pull为NPK11-16 00:07:48.835350→12ae0a1e822b953ce3a2b96287ee3c0af0243992，两README空diff；ref读取不冒真pull。
+最近只读README核：73b3782abdd77ab51eddca0b6c0fc8defc0601d9；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -36,9 +36,9 @@ RD34eec24f已证T二阶/Da0−b全mean精确式，原R0完整positive meanrank/J
 PSB e6c777a7完整mean同号Fredholm onto、nilpotent导数矩阵及adjoint/dual/interpolation给同一各固定Hs逆；实coefficient球r<κ、有序resolvent/各阶导数已证。actual高导/数值/真背景membership及fullincoming仍待。
 UT/UTA d23b71f8原43776528869/1 child0/22、12steps锁；全部pins/18原球/SCI22856/3817fbec/preGit31001/e36c531d见UTA与c9f72b1a同H。fullT三source+3070jump/两端完整返原trial后whole新SF≈2.772751688e92、WE paid≈1.63981109e99。CG一次/两mean/同WT腰逆/六retained保，Ei/incoming/finite/return未付。
 
-NW/NWA b7fc4876原43775614821/1 child0/20、12steps锁；SCI24234/55019238/preGit27805/362a7562全核，完整pins/71字段/原球见NWA与c9f72b1a同H。真实K_N0≈2.47494e73、K_N−≈1.88584e79，两个optional false不否定CN同逆。两mean/第二comm/linear μ²费保，A_Cay+B_Cay CE仍条件，全部CE/incoming/finite/return未付。
+NWA b7fc4876原43775614821/1/20锁，完整原norm/log/optional false/71字段与scope保NWA及a537ecd1同H；8整对象和13原球由NPKA原字继承，旧成功禁重。
 
-NPK1ab985bc已证同CN双mean核K0≤1+(π/2)W0E0²；新包67d54e08/7dc92fb0/950be9b6/d4559887已部署，7current160477B/2AST/18门，0新exp/log/旧重算。待唯一实际receipt；全CE/incoming/finite/return仍未付。
+NPKAee814e0c原43778474673/1 child0/18、12steps锁；7pins/2AST/13旧球8整对象原字，SCI25650/bbeb12f7/preGit29917/972f36ad已全核。两whole选新同逆K0≈3.19764e38、K−≈2.43651e44，四有序affine同完整候选A≈1.42008e93/B≈4.44111e91。双mean/global sign/linear μ²费保、0新exp/log/旧重算；CE/incoming/finite/return仍未付。
 
 PTB0ee90c65已证fullprincipal tame：fixed低Wiener cW与L2逆K下，positive估计线性依赖cHs，adjoint/dual negative估计线性依赖cH(s−1)；exact DA=−A Mh I A保一次primitive gain与均值。仅fixedcircle scalar组件，真背景high norms/坐标导数/fulloperator tame仍待。
 

@@ -206,3 +206,9 @@ root已全文审391行science/589行worker、manifest/flow；worker相对实际�
 ## 2026-11-16 00:08:05 UTC — CEB analytic whole-cap envelope contract
 
 新完整证明4f7476c14e4ce8185c034537d1fc773e6bff9870/17071B/ff118cc75152796bf68de616b43e6e6fac0f6d1eb859ce0af2ef73f36ea40462全文root审；phase/tail18–27窄核齐。root亲读原RW science57702/ec6e088f、process16350/daabac14、source31066/f8d97a14中reference_coefficients/weighted_kernel/weight_integrals/compose_case与SA20–25；确认lambda_max来自whole949row，旧inverse-weight integral仅[.9,.95]不用于本全帽。保持同实际y、jointWiener→点态Euclidean、完整mean/θ归一与普通ℓ=89/40，m=min(ρ,Xe^(at))；p2/4闭式含zero/crossing/branch不确定fallback，sqrtJ4为二次余项L2而非L4 norm。D/Q原norm不二sqrt/Hessian，13点态原域未放宽。六weight每个先全计body/left+10d/outer/known，再与旧整row whole min。未执行新数学，不授新trace/core/入口。SC3与UT已成索引压缩前原字保12ae0a1e同H/open，所有未付范围原样。两README于11d3d5e441f3a49129634782b55e6cd25e17df87一致，每结论独推。
+
+## 2026-11-16 00:13:32 UTC — NPKA full actual conclusion
+
+完整证明270774ea5e9690461cba2614c5f81eaf3e2d88d2/23304/ee814e0cdee5b388e3a285ae4854842e396c60007cf763813f20b21a1238e909全文root核；29处23种原球、全部18门文字与60成功字段吻合。root独读唯一push43778474673/1/head12ae0a1e与job133010076980全部12steps成功，run/jobs原metadata13314/aea9ad23及3238/21b71c38同hash。13旧球、8整对象直接比原NW无改；完整科学lexical复原25650/bbeb12f723b5bb65326d399132e1be08b39383b68989879c52630d68df52391d；21字段完整preGit29917/972f36ade45a85e1126844b2f17814de4dc4b8686a131f08775399b68ad46fa4全吻合。7输入160477B digestbad3e682、2AST568db898独重建同原；无旧科学重跑、无新exp/log/optional test。两whole均选新，4affine同一完整组保global sign/双mean/F−次序，linear μ²独立旧费保；CE仍未授。临时native7053/93627d5c仅原receipt身份，未取本体。
+
+实际两pull00:07:47.281616/48.835350同12ae0a1e且双README空diff，原容量199274929→199313228；只旧球copy+新有限scalar，无data/artifact/Release。旧NWA已成索引压缩原字保a537ecd1同H及8复制对象，全部未付不减。root读73b3782abdd77ab51eddca0b6c0fc8defc0601d9两README一致，唯一成功冻结。
