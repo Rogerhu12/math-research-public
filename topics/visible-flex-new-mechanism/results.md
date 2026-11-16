@@ -431,3 +431,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 [R419](results/R419-all-curvature-hh-minus6-natural-cancellation-and-PSD-reduction.md)（10938B；SHA256 38cd2538d9d1eebe5e15bd73073bc78e5d8194129c63758004851a9cc7718060）。原hh h^-8最低表含两ZZ history、真正加速度−∂h、C_Aq0与原N2完整Green。以I=∫LtJ(tR′)、Z=∫tR′²、K=∫L³t²，消原N2后Y=S4(−9I−2K)/256、ZZ=S4(−9Z−4K)/512；原左恒等2I−Z=−μ0M3/3与两有序尾均−9S4n0M3/1536最终全消，所有k统一S4=(1+k²)^4。故完整hh自然全profile/allk0；R416的μ0结合PSD迫−6 hh/cross全k0，仅剩h^-6b0(k)ks²，b0≥0且由R418仅知b0(0)=0。全k kk及负四/actual joint仍欠；无新执行。
 
 - **R420：W4完整自然零、负四静态字符余量消失。** [完整证明与首次实际](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)：run43784526298/job133029071528/sourcece04a915bf8d57d6b233aa329e602c6156ef7095，唯一新Ω的真实左word/local/nonlocal全空，旧研究0重跑；科学1.370958935s/RSS94920KiB/36源全符。R417遂给ΛV4(k)=3(1+k²)^3F_Q4/32，所余下降正字符a1=a(k)=μ=0；原报告false字段不改，Q2/actual joint仍欠。
+
+- **末槽支持合同与不同的有限锥接口。** [原最后slot](notes/terminal-paid-attainer-final-slot-design-20261116.md)和新core24723B/dev9528B已写，尚无执行/通过声明，原63/58/257.595同账及64/160/1800不变。[有限锥原式证明](notes/finite-cone-affine-metric-design-20261116.md)给每行φ≤target+ρ iff (2(target+ρ)−σe,e,2f,ε)∈L4，准确支付该行全部单位球支持，保完整oracle和实际原门；先完成末slot再选择新算法，未选求解器/未增预算。

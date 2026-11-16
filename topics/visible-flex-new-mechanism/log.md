@@ -501,3 +501,9 @@ Astra-new-mechanism-9974ea84：[设计](notes/static-minus4-natural-flux-design-
 已全文读原run43784526298/job133029071528 stdout103968B/SHA4331825126c9b3f2c7ba129437a712b5c00455d7abab9789d9a0290b9aaa1054、完整科学23562B/SHA807ed8f2e6e9b62dbd2099617422d29845f9e2c277cff4f7affb2b470785bec0。原静态1根/响应9根直接解码，paidpure44坐标复用，唯一新Ω完整左word为空；没有旧pure/self/rank/人工重跑。科学总1.370958935s含原日志.896866212、输入.273982093、新观察.188732182；RSS94920KiB。R420全文已读并纸面核C²分部积分和共同响应下降；ΛW4=0⇒a1=a=μ=0，非一般ΛV4或Q2为零。
 
 公开actual pull 01:09:16.652040→18.972099 UTC：ce04a915…→1a757004b7ebff1f43563bd57b5d13961648d681；根21bd547f…/题d0432faf…双diff空。私有01:09:21.159310→21.549406：before=after210d6ba3f178eefff06b6716a4e8bf55d081221c，根5ba16484…不变、题无、QUEUE唯一进行中；root01:13读完，H已记，下次actual pull最迟02:09:16。随后workflow返回原ce04source，36源全符才一次执行。原stdout/计算payload不挂tree；人类稿、源、请求和指纹提交。继续负六kk/负四二速度及原最后slot，不以本阶段收尾。
+
+## 2026-11-16 01:21:53 UTC：末槽完整合同及有限锥等价接口已写
+
+root已读末槽设计12857B、core24723B/dev9528B全源；发布这些新源和合同但不触发工作流。3组4/3/4共11新分支仅待首次公开Actions，旧九组与旧研究不重。当前恢复constructor/transfer/显式recovery/audit仍在落实，特别保pending0、原模型binding、完整池/有序bank与已经收费的63LP/58value/257.595331213秒。
+
+另完成纸面notes/finite-cone-affine-metric-design-20261116.md，9219B/SHAd9c20ce56c32952bee9d2b5b9ae235b33259ed0ec6b6133a1e92e23d7cfa5097：原谱函数与有限4维Lorentz锥精确等价，完整同一行范数约束强于有限支持且不保证新物理改善。原线性约束、bank、曲率guard、完整两网oracle及实际14门不删；明确未来入口取末slot真实结局、旧未知向量不伪造、全费用保留、solver原语独立计数。该设计无数值/人工执行或求解器选型，不授额外64次旧LP，不替当前slot，也不作连续存在声明。
