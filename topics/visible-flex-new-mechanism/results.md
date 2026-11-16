@@ -172,3 +172,7 @@
 - [R563 第三个真实低尾与六零自由族](results/R563-third-real-low-coast-and-a-six-zero-family-with-free-end-parameters.md)：**已证明**同R521母/一次χ的第三真实incoming、正W∞、完整C¹及三参数六零族；完整R0低尾正项与长回路正交叉使该族R0^y一致严格正。继续真正负R0接口，未清余两矩或period/13。
 
 - [joint168原余额实现续接](notes/true58-joint168-body-suffix-design-20261116.md)：**修复正式发布、尚无续接观察**。删固定高度158/159的错误非零assert，全部原约束保；六份原日志/397来源，只用1773.215289016秒，首失败26.784710984000014与counts全部保。原solver/actual未用额度不增，当前仍58。
+
+- [R562 余交叉矩成本与完整正R0边界](results/R562-remaining-cross-moment-gram-cost-and-positive-r0-obstruction.md)：**已证明**完整core的正R0首项和P0锁定、R559六零词总R0严格正；闭振子负交叉需同步负S0，当前供给少R/M。保所有真实端项/原费用，限定当前族；一般路径未排，继续实际负R0。
+
+- [joint168原余额续接run定位](notes/true58-joint168-fixed-height-continuation-launch-20261116.md)：唯一run43925761699/source951c553ae1ccb1df9dcd5b44944acb311a7a89ec、research133504652845进行中；仅运行元数据，未读在途stdout，仍58。

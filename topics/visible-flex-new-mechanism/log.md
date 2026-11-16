@@ -369,3 +369,9 @@ workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外�
 仅删除原高度图中“172物理增量行都非零”的错误断言，固定158/159及其原盒/四条冗余norm行全保；数学问题仍692线性、154155非线性、170变量。原geometry/solver未改，actual14与原metric预算均未放宽。scope/transfer/actual/audit串接首失败43923038659/133495072427的原三记录和26.784710984000014秒，累计3784.759531354/147；续接只用1773.215289016秒，不重发1800。此前0solver/预测/actual，原1200秒/240iter/480q/960backend/1pair额度保。
 
 新request 94744B/2c15b48f5c72ddd6187e36f4971f9fdc7efc8351ba9357f93649623880dc5702，397来源，382祖hash不变、当前自有修复源hash真实更新，首请求原路径与身份保。0本地导入/编译/测试/科学执行，源码文字修复后直接正式公开任务。题外 .github/workflows/visible-true58-joint168-body-suffix.yml 仅改本题新请求触发/路径及真实费用说明；双job先真pull双仓核差异，MR_TOKEN在科学前清除。唯一run待定位，接受仍58，首失败不改判。
+
+## 2026-11-16 18:09 UTC：R562完整正R0边界及续接run定位
+
+[R562](results/R562-remaining-cross-moment-gram-cost-and-positive-r0-obstruction.md)原式纸证已全文读，付完整core正R0、P0锁定、R559六零词总正号与带边项的闭振子负cross/S0严格成本；非一般不可达。0科学执行，结论立即推。R563第三真实low已公开，继续真正负R0/完整端图。
+
+本题joint168同问题余额续接唯一run43925761699/attempt1于18:08:55Z创建，source951c553ae1ccb1df9dcd5b44944acb311a7a89ec，research133504652845已进入checkout。只读运行元数据，尚无科学结果，不读在途stdout、不宣59。双仓新真pull待原终态回执；当前最近已核仍17:54:30/33，不预造新成功。

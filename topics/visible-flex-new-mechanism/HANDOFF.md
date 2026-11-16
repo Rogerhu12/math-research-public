@@ -46,17 +46,17 @@ R549准确三p=p2(u²+h⁻²,2u,1)，正负质量须匹配均值和二阶矩；�
 
 **R552/556/557/559同一R521母。** 真低尾/高目标/完整有序history与端IFT依次清三P、T1、R1^y。R559含最早负费的core正S0余量，以L=ℓ√R/M¹ᐟ⁴长快高度回路、正振子能量/真实历史小因果核和末germ，共同准确给**P0=P1=P2=T1=R1^y=S0^y=0**；交叉S1负/R0正费用保。全部参数序/原坐标变换见原文。
 
-**R563**已付第三真实low incoming、两种有序复合、各次W∞、高目标及完整C¹；正0/2/4权重在实际端图实现，L=ℓ√R的统一长快费用保，得到外参数(两节点,ℓ)的同χ六零族。但低尾原R0正首项加长回路正cross，使整个族R0^y严格正；增加正时长不能清最后槽。继续真正负R0及其同步S0/T1/第三费用，余S1/fullM/T/pose/period/13不冒完成，不跨33母。
+**R562/563**：第三真实low的完整incoming、两种有序复合、各次W∞/高目标/C¹已付；正0/2/4权重经真实端IFT及L=ℓ√R快回路给三参数同χ六零族。R562付完整core正R0首项，清P0锁为3cA Z³/(4g0)>0；R559长回路使总R0严格正，R563族也正。闭振子负cross必付−ΔS0>2H²β(−ΔR0)，当前S0预算小R/M，不能廉价补。继续真正负R0及同步S0/T1/第三费用；余S1/fullM/T/pose/period/13未闭，不跨33母。
 
 ## 5. 已在继续的真实下一问题
 
 **O2**旧ring/反射/joint/free36/prefix102/whole34/full51均闭、0actual；原失败/缺失正文/完整费用见各notes，不重跑。最新full62如下。
 
-**full62已闭**：[原观察](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)，run43916013327/job133470222034/source868f2f6b5ba55affa26cc5f9d42186a565ea0a43。SLSQP0/true但fineη.26600531463999494>budget.26600531463999305，0预测/actual仍58。原完整返回/准确盒/norm/两网其它门及缺失数组边界全保；新115.53521002299999秒，总**3757.97482037/147**，余额闭，末J属value69不移配返回70。
+**full62已闭**：[原观察](notes/true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)，run43916013327/job133470222034。SLSQP0/true但fineη.26600531463999494>budget.26600531463999305，0预测/actual仍58；完整返回与缺失数组边界保。新115.53521002299999秒，总**3757.97482037/147**，余额闭；末J属69不配返回70。
 
 **joint168首尝试实施失败**：[完整原观察](notes/true58-joint168-fixed-height-assertion-failure-20261116.md)，run43923038659/research133495072427/source47942fb212bcc2f424fdf546437cd38b08c2d7e1。physical158/159在原H中固定，首源错误要求172增量行全非零，构造即ValueError；0模型值/J/solver/预测/actual仍58。新**26.784710984000014秒**、总**3784.759531354/147**，7原记录齐、全部失败保；非几何不可行。
 
-**同题原余额续接正式发布**：新request固定height-continuation，94744B/2c15b48f5c72ddd6187e36f4971f9fdc7efc8351ba9357f93649623880dc5702，397来源/382祖hash保；首原request不覆盖。仅删错误assert，170非零/fixed158159，172盒/norm及692/154847行全保。科学余额**1773.215289016秒**、原1solver/1200秒/240iter/480q/960backend未用；首失败26.784710984000014与全部counts保。唯一true58、内部余量不改原14；新恢复/构造/共享几何/J计费，必要门后≤1预测/actualpair。待唯一run原终态，不宣59。
+**同题原余额续接正式发布**：新request固定height-continuation，94744B/2c15b48f5c72ddd6187e36f4971f9fdc7efc8351ba9357f93649623880dc5702，397来源/382祖hash保；首原request不覆盖。仅删错误assert，170非零/fixed158159，172盒/norm及692/154847行全保。科学余额**1773.215289016秒**、原1solver/1200秒/240iter/480q/960backend未用；首失败26.784710984000014与全部counts保。唯一true58、内部余量不改原14；新恢复/构造/共享几何/J计费，必要门后≤1预测/actualpair。唯一run43925761699/research133504652845/source951c553ae1ccb1df9dcd5b44944acb311a7a89ec已在跑；待原终态，不宣59。
 
 **O4**分别继续33母的同χ慢t1/其余矩，以及R521母R559的同χ余两矩。全部端germ、M/T/V、pose、period与原13规范须由同一实际路径支付；不跨母、不逐段换χ。
 
