@@ -121,3 +121,9 @@
 - 六共轭D*固定图方法完成：原G/Γ及五旧节点12合流条件，原σ补列与完整2451/830/395核、原1111/269/146/962/418和真实归一全部保留，实际新空间待跑。
 - 激活R890八flip消费者与六D*旧源IO；R815已结束false/exit1，纯IO v13读真实末检查点和core停止原因后同核续算，不预填BudgetStop。H前态逐字归档。
 - 本push规则：公开Actions真实pull至9ed93794bd39da91bb3aaccba19ea194cff9d13f（2026-11-16T10:57:35.732003+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 19:01 Asia/Taipei — serre-public-astra-20261115
+- R891完整证明单独登记：原fi/gj零等价完整六维权空间基点，六primary theta传到36原六挠点，同重数/36倍数及准确ν_r公式保留；只有随p增长界，原互补same-h非零仍缺。
+- R815实读BudgetStop及6718项manifest后同核新artifact续300；R885整Artin与六支12A/B实际success，激活必要小IO供正式认证及下游。六D源IO只R827名字不匹配，已成其余5组保留。
+- 本push规则：公开Actions真实pull至ae7e1f6246a48476713081e7b2affc7aa2c1c980（2026-11-16T11:01:10.832933+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

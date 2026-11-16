@@ -142,3 +142,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R880六个共轭D*完整固定图方法已证**：[方法](notes/R880-original-six-conjugate-bounded-Dstar-spaces.md)。新B配原G/Γ、旧五节点12合流条件恢复F0/F1/F2；全原σ补列/2451图/830行/395秩核以及1111/269/146/962/418保真实固定归一，不能任换基冒σ。旧源纯IO与12A/B消费者已激活；实际六D*仍待新原minor单位与全部行乘回。R890八flip执行同步激活，三个旧418与原t帧直接消费，结果未预判。
+
+
+**R891 sigma零的原基除子解释已证**：[结果](results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md)。fi/gj的零等价对应原六维theta权空间在O的共同基点；真正六primary theta把同重数传到36个六挠点，完整基除子度是36倍数，ν_r的完整首p系数公式给ν_r≤(p−5)/6。仍不能排除互补两个权空间同时有这些基点，未证明原primitive/Legendre同h非零。
