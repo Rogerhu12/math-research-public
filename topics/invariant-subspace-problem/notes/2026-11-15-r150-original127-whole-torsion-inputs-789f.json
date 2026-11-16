@@ -1,0 +1,104 @@
+{
+  "format": "r150-original127-whole-torsion-frozen-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted, GPT-6 Astra Pro",
+  "status": "prepared-not-compiled-or-executed",
+  "prime": 127,
+  "files": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+      "blob": "796c0d4c790b3f2294bc203f057e78c0fb16d4ed",
+      "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3",
+      "bytes": 4691
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-state-789f.cpp",
+      "blob": "ad6306ec33870f4c5325d8894d68a757b8215442",
+      "sha256": "d92bcb7395f4d81c89b6a5d291951a6d7bf920862ea68c6bb6b3fe454e485528",
+      "bytes": 20507
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-runner-789f.py",
+      "blob": "2e7390ed3cb7ce63f854ce707509c7c4e5e825d1",
+      "sha256": "3bf32f1f48ebb8b1944562ee7186ff17748725d9023dd68c37d4dd3207234fe1",
+      "bytes": 17250
+    }
+  ],
+  "parent": {
+    "directory": "{work}/original127-complete-graded-module",
+    "receipt": "original127-graded-module-pipeline-receipt.json",
+    "requiredFormat": "r150-original127-complete-graded-module-pipeline-v1",
+    "requiredStatus": "completed",
+    "originalSourceCount": 6188,
+    "completeComplement": 2855,
+    "GBNativeSHA256": "696c3c07461de74f9a2d3d92dbe835e1b5aa057d7dd1392c0baf8d7ffe57e508",
+    "originalBasisAndDAGHashesResolvedFromActualParent": true
+  },
+  "argv": [
+    "python",
+    "{scripts}/2026-11-15-r150-original127-whole-torsion-runner-789f.py",
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-whole-torsion",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "2048",
+    "--compile-seconds",
+    "30",
+    "--characteristic-seconds",
+    "30"
+  ],
+  "budget": {
+    "nativeSeconds": 60,
+    "compileSeconds": 30,
+    "characteristicSeconds": 30,
+    "outerSeconds": 150,
+    "memoryMiB": 2048
+  },
+  "geometry": {
+    "components": 1034,
+    "maximumOriginalPolynomialDegree": 45,
+    "B": "actual maximum leading degree",
+    "freeRank": "actual1034-basisRank",
+    "stateDimension": "sumActualLeadingDegrees+B*freeRank",
+    "allocationCapStateDimension": 8192,
+    "characteristicExpansionCap": 2048,
+    "noAssumed820Or315": true
+  },
+  "proofGates": {
+    "completeNormalFormsIncludingFreePolynomialTails": true,
+    "allStateColumnsFromOriginalNormalOperations": true,
+    "allCApowersUntilActualRowSpaceStability": true,
+    "actualStableLayerReducesToZero": true,
+    "completeObservabilityKernelAndFreeI": true,
+    "allCKZeroAndAKEqualsKJ": true,
+    "allTargetsFullPolynomialNormalFormsRetained": true,
+    "noTargetMembershipRequiredForWholeTorsion": true,
+    "characteristicIsOfEntireAction": true
+  },
+  "continuation": {
+    "twoSlots": true,
+    "exactSourceOperationOffset": true,
+    "stateColumnPrefix": true,
+    "observationRowPrefix": true,
+    "nextCAMultiplicationRowPrefix": true,
+    "allKernelAndActionCandidatesSavedBeforeFinalProducts": true,
+    "verifiedKernelColumnPrefix": true,
+    "completedNativeAndCharacteristicReused": true,
+    "timeAndMemoryNotInMathematicalBinding": true
+  },
+  "API": {
+    "pythonFlintNmodMat": "https://python-flint.readthedocs.io/en/latest/nmod_mat.html",
+    "pythonFlintVersionRecordedAtExecution": true,
+    "systemFLINTDevelopmentHeadersRequired": false
+  },
+  "limitations": {
+    "noCharacteristicZeroUpperBoundFromAffineDegreeAlone": true,
+    "independentInfinityQualificationStillRequired": true,
+    "noTargetH0OrHStarIdentityInferred": true,
+    "largeDataTemporaryOnly": true
+  }
+}

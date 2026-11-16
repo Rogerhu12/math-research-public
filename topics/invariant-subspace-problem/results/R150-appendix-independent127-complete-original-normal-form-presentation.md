@@ -3,7 +3,7 @@
 Date: 2026-11-15 UTC.  
 Author: Astra-ISP-789f / root and normal_annihilator; AI-assisted, GPT-6 Astra Pro.
 
-Status: completed original-source normal forms. The complete parameter-module basis and affine torsion have not yet been computed by this result.
+Status: completed original-source normal forms and complete graded module basis. The full affine torsion computation remains separate.
 
 ## 1. The complete original source set
 
@@ -115,6 +115,69 @@ The original forward/backward source DAG and complete reduction trace are identi
 
 The frozen [model and normal-form inputs](../notes/2026-11-15-r150-original127-model-and-normal-forms-inputs-789f.json) specify the exact integer input, model, native arithmetic and wrapper sources. The [complete module consumer](../notes/2026-11-15-r150-original127-graded-module-gb-interface-789f.md) consumes all $2855$ sources and preserves zero relations and the original source DAG.
 
-The module basis rank, free rank, degree profile and entire affine torsion must be computed from this new field data. No old $315$, $716$ or $820$ dimension is an acceptance assumption. The independent natural-infinity qualification must also be proved before the new affine degree can bound the characteristic-zero divisor.
+The module basis rank, free rank and degree profile have now been computed in Section 5 from this new field data. The entire affine torsion must still be computed separately. No old $315$, $716$ or $820$ dimension is an acceptance assumption. The independent natural-infinity qualification must also be proved before the new affine degree can bound the characteristic-zero divisor.
 
-This completes the original-field normal-form subproblem only. It does not prove $\mu=1$, the nine unmultiplied target memberships, the full Jacobian statement, or the ordinary Hilbert-space invariant-subspace problem.
+The normal-form stage alone completes the original-field presentation subproblem. It does not prove $\mu=1$, the nine unmultiplied target memberships, the full Jacobian statement, or the ordinary Hilbert-space invariant-subspace problem.
+
+## 5. Complete graded module basis and actual finite-window dimension
+
+The [complete GB receipt](../notes/r150-source-kernel-session-789f/43772109844-original127-complete-graded-module-gb900.json) records a successful native computation in $150.248$ seconds; the full wrapper used $152.531677629$ seconds. It processed all $2855$ complementary original sources and retained all nine targets.
+
+The graded order first compares decreasing parameter degree and then increasing component. A current row is reduced only by a row with the same leading component. If the existing pivot has larger degree, the two rows exchange roles. Cancellation then subtracts a scalar multiple of a nonnegative parameter power of the smaller-degree row.
+
+Every such operation preserves the module spanned by the current basis, current source and remaining original sources. It inverts only nonzero field scalars. Every cancellation strictly decreases the leading term, so each original row finishes. At completion, all source rows belong to the resulting basis module, and every basis row has its recorded original-source expression.
+
+The final rows have distinct leading components. Hence there are no same-component critical pairs; equivalently, a nonzero polynomial combination has a uniquely maximal leading component term. The rows form a Gröbner basis and are independent over $k[s]$.
+
+The actual values are
+
+$$
+\operatorname{rank}_{k[s]}P_{127}=1021,\qquad
+\operatorname{rank}_{k[s]}\operatorname{coker}P_{127}=13,
+$$
+
+$$
+\max_c d_c=8,\qquad \sum_c d_c=701.
+$$
+
+Consequently the complete original matrix has generic rank
+
+$$
+\operatorname{rank}_{k(s)}A_{127}=3333+1021=4354.
+$$
+
+The complete standard-monomial window of degree below $B=8$ has dimension
+
+$$
+n=\sum_c d_c+B(1034-1021)=701+8\cdot13=805.
+$$
+
+This is a finite state dimension, not an affine torsion length. All thirteen free components have to be retained, and their polynomial leakage under multiplication by $s$ has to be removed by the complete observation kernel. The separate [whole-torsion consumer](../notes/2026-11-15-r150-original127-whole-torsion-interface-789f.md) supplies that calculation.
+
+The native trace records $69407428$ reductions and $11591$ swaps. The final original source is raw label $6188$; the complete original-source count is $2855$, the current-row flag is false and the finalized flag is true. No nonconstant parameter polynomial was inverted.
+
+The actual GB binding is
+
+~~~text
+9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e
+~~~
+
+The raw complete receipt is $5289$ bytes, SHA256
+
+~~~text
+3442ad58f08ff1b7b7b4865bfc7715f43e747f40b65e702e1d4b191142ad17f2
+~~~
+
+The full basis and nine target rows occupy $43787388$ temporary bytes, SHA256
+
+~~~text
+144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d
+~~~
+
+The complete source DAG has $763659470$ temporary bytes, SHA256
+
+~~~text
+7c60b9c0466e8cf13bd1b95018beb9b5357cd7d3e2e41e8e6d3655bb05051ba8
+~~~
+
+These data are retained in the same job. This result does not identify the affine torsion length or certify infinity good reduction.
