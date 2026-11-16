@@ -507,3 +507,7 @@
 - [R150：F127全部6188原来源正常形](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)：实际3333常基、2855补集及9目标全核；660恢复源中658零/2非零，完整模块与∞资格继续。
 
 - [R150：完整原F127 torsion299及全参数作用](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：全6188来源、805状态/506完整观测、全CK/AK=KJ、九目标与χ299全系数已核；原∞资格及特征零比较另述。
+
+## R150：原无穷远127完整谱66与独立Gauss有限端上界299（2026-11-16）
+
+[完整证明](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)核全3959098分母/原H3760+C580、6…10完整incoming及第11实际高forcing和低增秩，给完整谱1⁴,3,4³,5,6,7,8,10,11、总66/次最大55/max11/free13。与同原有理谱相等使某齐次原minor的u66系数为127单位；Gauss遂给首一Δ∈Z_(127)[s]、约化保次数并除全χ299。独立得到278≤degΔ≤299和Rout的127包络；Ω127与Ψ²、J127尚由另两小审计实核，不能由299断μ1。

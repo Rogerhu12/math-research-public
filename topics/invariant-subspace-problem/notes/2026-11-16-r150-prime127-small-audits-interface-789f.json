@@ -1,0 +1,85 @@
+{
+  "format": "r150-original-prime127-small-audits-interface-v1",
+  "date": "2026-11-16",
+  "author": "AI (ChatGPT / literature_audit)",
+  "noNewLargeInputs": true,
+  "noDeterminantOrOriginalEliminationRecomputed": true,
+  "steps": [
+    {
+      "id": "paid-outside-divisor-reduction127-audit-60",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-paid-outside-divisor-reduction127-audit-789f.py",
+      "sourceBlob": "090cf2b2ba881cdd3c70584f99859cb5cb6679c9",
+      "sourceBytes": 14334,
+      "sourceSHA256": "e4ca530ceeb301f31c0744907809a1ede0c1cf7f1ced134475ab41e40348767d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43772109844-original127-complete-whole-torsion60.json",
+          "basename": "43772109844-original127-complete-whole-torsion60.json",
+          "blob": "1c421e54e33f0a0e7477ae23034ba510fc59f193",
+          "bytes": 21892,
+          "sha256": "5b9e34b3d091194a4dd2072ab9c9f2320e6c804879a4716ae9c2ebfbb1932a7e"
+        }
+      ],
+      "argv": [
+        "--upper",
+        "{work}/original-three-minor-determinant-upper/current-outside-gcd-upper.json.gz",
+        "--omega-receipt",
+        "{work}/original56-single-kernel-bockstein/original56-single-kernel-bockstein-receipt.json",
+        "--whole-receipt",
+        "{scripts}/43772109844-original127-complete-whole-torsion60.json",
+        "--out",
+        "{work}/paid-outside-divisor-reduction127-audit",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "temporaryReceipt": "{work}/paid-outside-divisor-reduction127-audit/outside-divisor-reduction127-audit-receipt.json",
+      "timeoutSeconds": 90,
+      "positiveClaimRequires": [
+        "status=completed",
+        "omegaEqualsIndependentWholeExterior=true",
+        "squareRootEqualsIndependentPsi60=true"
+      ],
+      "negativeComparisonMeaning": "A false coefficient comparison is reported as data; it does not negate either separately certified polynomial."
+    },
+    {
+      "id": "original-free-thirteen-quotient-defect127-120",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-free-thirteen-quotient-defect127-789f.py",
+      "sourceBlob": "d74c70715d723c2a5ff6147d7c27f2961bd815dc",
+      "sourceBytes": 29198,
+      "sourceSHA256": "eba857040649223034e043008d50e2d7f2f48169a8b2c392c8f58c7ee9b74dd3",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-original-global-projection-polynomial-core.json",
+          "basename": "43756208221-original-global-projection-polynomial-core.json",
+          "blob": "afcf6ee02ba3541079816043aac3ca6d4e8abf31",
+          "bytes": 11075,
+          "sha256": "7db7d2437583105a9bb2474612cb5b4001989f7911ca79bd22992d025a056aa2"
+        }
+      ],
+      "argv": [
+        "--core-receipt",
+        "{scripts}/43756208221-original-global-projection-polynomial-core.json",
+        "--checkpoint-dir",
+        "{work}/original-global-projection-polynomial/checkpoints",
+        "--out",
+        "{work}/original-free-thirteen-quotient-defect127",
+        "--remaining-seconds",
+        "120",
+        "--memory-mib",
+        "1024"
+      ],
+      "temporaryReceipt": "{work}/original-free-thirteen-quotient-defect127/j-quotient-defect-receipt.json",
+      "timeoutSeconds": 150,
+      "inheritsOnlyOriginalRationalKernel": true,
+      "prime31CheckpointNeverReused": true,
+      "expectedJDimension": null,
+      "primaryFactorsDiscoveredFromActualCompleteFieldGcd": true
+    }
+  ],
+  "sourceReviewScope": "Both sources are forks of already executed small readers. No local Python, compile, or mathematical execution is claimed; the remote task parses and executes the pinned source.",
+  "dependencyScope": "These steps do not depend on each other. Each reads only its own pinned original phase and small receipt. Copy the listed receipt to scripts because the sparse repository checkout may omit it.",
+  "budgetExitCode": 75,
+  "proofScope": "Neither an Omega comparison nor a J characteristic alone proves the nine original characteristic-zero targets belong to the source module."
+}
