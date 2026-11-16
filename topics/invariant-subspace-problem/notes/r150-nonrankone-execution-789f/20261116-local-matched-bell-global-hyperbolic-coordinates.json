@@ -1,0 +1,68 @@
+{
+  "format": "r150-original-matched-bell-global-hyperbolic-local-execution-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "executionKind": "actual-local-exec",
+  "githubActionsRunId": null,
+  "source": {
+    "path": "notes/2026-11-16-r150-original-matched-bell-global-hyperbolic-coordinates-v2-789f.py",
+    "blobSha": "ecd579aa974ae04e14da017542402d36c0cc6cee",
+    "bytes": 12892,
+    "sha256": "b1775794093cd0fdd8afdfbe4b53c129bb4cf9672c7f5b4e5a63d71c8a5c258e"
+  },
+  "parameters": {
+    "seconds": 180,
+    "memoryMiB": 2048
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "command": [
+    "python3",
+    "notes/2026-11-16-r150-original-matched-bell-global-hyperbolic-coordinates-v2-789f.py",
+    "--model",
+    "{work}/matched-bell-parameter-actual-v2/complete-original-matched-bell-parameter-model.json.gz",
+    "--out",
+    "{work}/matched-bell-hyperbolic-actual-v2",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "toolIdentity": {
+    "startChunk": "7ca1eb",
+    "sessionId": 70487,
+    "completionChunk": "713411"
+  },
+  "completedUTC": "2026-11-16T04:46:04.754311+00:00",
+  "exitCode": 0,
+  "elapsedSeconds": 1.9785726400004933,
+  "binding": "d939c3506ce8276d82c662f382ae4ffe5c93163929ec1931c2174ecf001c1a8f",
+  "outputs": {
+    "receipt": {
+      "path": "original-matched-bell-global-hyperbolic-receipt.json",
+      "bytes": 1846,
+      "sha256": "89a175feaa0726b198b42f09cf97e2db6e92f86cf598ebfa693878867852c1ed"
+    },
+    "model": {
+      "bytes": 1777288,
+      "logicalBytes": 4241152,
+      "logicalSha256": "5a10a784f9d9ee9455f97bdd8a077ff32f1d75eefba392e5c58e5cd6f5de5ee3",
+      "path": "complete-original-hyperbolic-coordinate-model.json.gz",
+      "sha256": "46537ffbe520ff47df2f18448541a3d2608578ca067a0c865b43e8c44ab55fdc"
+    }
+  },
+  "priorFailedAttempt": {
+    "sourceBlob": "f69db99bb1b96d4861e067d2c6e251d324c4ff16",
+    "sourceSha256": "f99059120780cf6bae9c0e9960899530566a7dbe66c25710d8d3b054aefd76c1",
+    "exitCode": 1,
+    "errorType": "MemoryError",
+    "elapsedSeconds": 121.03776070700405,
+    "memoryMiB": 2048,
+    "receiptBytes": 488,
+    "receiptSha256": "ef3748dc0f346152cedcf3053f6c7e913f99d1617e3de08a4371c8b24523bbed",
+    "correction": "The new source verifies both original polynomial maps and the entire inverse source Jacobians; it represents the full transformed potential by exact composition, without expanding it or dropping original terms."
+  },
+  "storageScope": "Only source, parameters, execution identity and output SHA values."
+}

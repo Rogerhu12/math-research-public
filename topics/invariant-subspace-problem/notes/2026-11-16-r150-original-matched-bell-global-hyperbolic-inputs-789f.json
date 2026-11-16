@@ -1,0 +1,44 @@
+{
+  "format": "r150-original-matched-bell-global-hyperbolic-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-matched-bell-global-hyperbolic-coordinates-v2-789f.py",
+    "blobSha": "ecd579aa974ae04e14da017542402d36c0cc6cee",
+    "bytes": 12892,
+    "sha256": "b1775794093cd0fdd8afdfbe4b53c129bb4cf9672c7f5b4e5a63d71c8a5c258e"
+  },
+  "parent": {
+    "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "blobSha": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+    "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10",
+    "temporaryModel": {
+      "bytes": 504873,
+      "logicalBytes": 1850453,
+      "logicalSha256": "adab3268447f90c430c9d219fc988ddc8e54cb5f8697dd05fe6599a61166908d",
+      "path": "complete-original-matched-bell-parameter-model.json.gz",
+      "sha256": "7fe125c8cc6019c5e7c756cac3fb9265b9fcf817b1d2acea3f7580c2c5b024dc"
+    }
+  },
+  "parameters": {
+    "seconds": 180,
+    "memoryMiB": 2048
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0"
+  },
+  "command": [
+    "python3",
+    "notes/2026-11-16-r150-original-matched-bell-global-hyperbolic-coordinates-v2-789f.py",
+    "--model",
+    "{work}/matched-bell-parameter-actual-v2/complete-original-matched-bell-parameter-model.json.gz",
+    "--out",
+    "{work}/matched-bell-hyperbolic-actual-v2",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "storage": "No new mathematical data or phase payload committed; parent and child models are deterministic temporary computations."
+}
