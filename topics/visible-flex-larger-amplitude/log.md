@@ -434,3 +434,8 @@
 ## 2026-11-16 06:36 UTC /root — R491原native/fullDN主门与128响应接点
 
 **R491：原native/fullDN主门与128末态的正向消费合同；无新执行。** [完整逐源结论](results/R491-original-native-fullDN-gates-and-complete128-response-consumption.md)32598B/890ecf40本次刊。原338×112本就混合解析first-slope/meanSlope与原对称差分，内层AffineTail只用前112行；其余完整行/两mean/末态仍须保，全338解析不是原接受门。204/215原bridge受控停止64、未返回新128正常响应，也未调用完整前缀fullDN，固定false不表示数值拒绝。真正后继须同job逐当前H消费全128state/jets/J/audit、明确128→原数值接口的投影/来源，再实际执行原FD、完整内层RMS≤1e-6/BC≤1e-11、新H非线性回算、冻结参数physical RMS、fresh同H J/audit、audited BC及原cut/H/材料合法性合同；不凭四complete改flag或从SHA造payload。215必要字段可判组件范围/原极值/实际错误但不传全数组，溢出仍未读。准确全解析、有限trace径向导数、C=Fe和连续几何属于更强另付声明，不增原门；未接live client、accepted前缀/闭面均未预付。 H终态重复仅压缩并链919803fd全文，open§4–6逐字不变。
+
+
+## 2026-11-16 06:49 UTC /root — R492同C新叶真实target与cut消费
+
+**R492：同一C新叶的真实target与准确cut消费；无新执行。** [证明](results/R492-same-C-leaf-refinement-for-the-fixed-target-and-accurate-cut-field.md)13296B/600a8a63、[接口](notes/2026-11-16-same-C-refined-leaf-target-and-cut-interface.md)16139B/87c51b04与source35549B/a7b1bd9d本次刊。先原R416完整加载，实际R489旧C/cut须逐源等于当前定义，再交同一根族E/E_r/E_rr；独立view重算原完整DAG/L和七cut系数，原R400 closed_range及原675完整六jet真读新盒。原CP/definition/十词/全节点/B/材料不变、无globals替换，不冒新accepted场或严格收紧。只登记原R400/R416，tail E(r) query、R418/R459及R441/R451/R464/R483来源尚未接；R495继续这些真实接口。原205绝对钟/预算、完整当前/未访地址、单90KB超70保；未启动217，不添BVP门。 H旧主线、open§1旧局部结果仅去重复并链abeed0e0全文，open§4–6逐字保。

@@ -10,15 +10,7 @@
 
 本节压缩前全部原文逐字保在[已刊R477时open](https://github.com/Rogerhu12/math-research-public/blob/8df750baa50c9b4d6f5b95319e9b4e140bbffebb/topics/visible-flex-larger-amplitude/open.md)，其内链接继续保全部更早检查点。全部参数、原词、失败/未返/未访、预算和来源仍有效；只去当前重复，不撤数学责任。§4–6逐字保持。
 
-[R412实际195](results/R412-actual195-finite-root-tangent-resource-partial-before-positive-current-J.md)：零H5063.5455秒norm0；正s=1/64到18000总钟，stage368/rawCell5/rawSegment7，currentJ/residual/iteration/trial未返，R273 correction0、FD/fullDN/final/audit未起。45540root/45539localJ是累计，原224已批处理、fromCaptured未重跑primal；无逐函数计时/唯一原因。受控124/quiet后真清，不是数学拒绝或接受父。
-
-[R465](results/R465-recorded-factor-backsolve-defect-and-complete-column-contraction.md)/[R466](results/R466-recorded-factor-contracted-finite-trace-implementation.md)保真实因子/回代缺陷和完整225×224名义收缩；准确dyadic再一次RN，丢失非零/overflow/收缩非有限原显式fallback，资源不吞。局部常缺陷模型不冒IEEE导数、原195逐词、roundoff界或速度。原root/noJ、226双mean/RK和全末门保持；[208](notes/2026-11-16-request208-recorded-factor-contracted-finite-trace-complete112-interface.md)原140pins/λ=.001/18000冻结，R467/exact唯一终态。
-
-[R470](results/R470-zero-shape-finite-root-trace-full-local-block-variation.md)的零现场块命题须真实前提及RK入射结构。[R471](results/R471-zero-nonlinear-split-flux-finite-trace-fast-path.md)先原完整finiteRootDirection，再按实际空tape/稀疏dL/原AD和每角方向有限省零dFlux；false原角loop、throw不吞。[R473](results/R473-zero-coefficient-elision-in-complete-finite-trace-linear-products.md)/[R474](results/R474-finite-input-zero-coefficient-linear-implementation.md)仅A及被用T有限时省实际零j，保+0分配/非零j乘加序/两mean；有限词同、Inf符号/NaN类同，不付NaN载荷、全run词同或速度。false原全i/j/k，九实际计数/末未逐k范围不冒输出有限或完整J。
-
-[R472实际210](results/R472-actual210-private-import-closure-failure-before-native.md)run43807229341/sourceb418c6e6：声明143public+11view生成/绑定完成后，原physical_test_response缺lifted_modes_response，1.033246秒导入返回1，native/H/初猜/J/R273/FD/fullDN/试探未起，预算未耗。必要16973B/e299e3cb两job同字，owner/rules-parent quiet后真清。210接口只文字补正，原科学冻结不改；154来源身份不冒完整递归可执行链。
-
-[R424实际199](results/R424-actual199-persistent128-acceptance-SIMD-type-compile-block-and-partial-audit.md)类型编译断点和560/576 audit不补112/338；[204](notes/2026-11-16-request204-qualified-stats-complete-final128-interface.md)只限定原type名，全部94pins/19200/32×10/576×224/原门保持，R446/amplitude唯一终态。
+本节R412/195、R465/466/470/471/473/474、R472/210与R424/199、204入口的完整原文逐字保在[abeed0e0时open](https://github.com/Rogerhu12/math-research-public/blob/abeed0e09fc341a90c56ddd5f51f96e373f7f4fd/topics/visible-flex-larger-amplitude/open.md)，参数/失败/未返/未访/源身份不撤。195正H在18000秒停stage368，未返J/trial非接受父；R466完整225×224名义收缩与原fallback保，不冒IEEE导数。R471只在实际有限/稀疏条件下省零flux；R474只在全部A及所用T有限时省实际零j、保原非零顺序/双mean，false原loop，有限词同而非NaN载荷/全run/速度。210缺lifted_modes_response在native前停，源计数不证递归闭包；211已补真实同HERE来源。199类型断点/560阶段partial不补完整112；204真实结果见下R446，原四科学和全部门未减。
 
 [R407](results/R407-exact-internal-hole-affine-condensation-for-actual39.md)全33node/free461仿射QR/109core/全H/B/C与所有原query责任保持；八档有限闭段不冒native/连续角。R404/191和[R432/200](results/R432-actual200-eight-complete39-pairs-and-single-summary-overflow.md)真八组但必要超90KB；[R455/206](results/R455-actual206-eight-complete39-pairs-and-tabular-summary-overflow.md)16model/freshFD子程、8真父交接、24trial仅计数，119344/119694B均BEGIN前70、完整正文0，cleanup真skip、末pair已失，不能补逐trial误差/α/merit/FD/末参数。R479/213须从原98再生、保全部必要语义与单90KB/超70，不分包编码、不拿hash造父；R480/exact待实际。
 
@@ -77,6 +69,8 @@ R437/433/434/438/452的首闭场须真实同C全field/cut/两帽/atlas/shared、
 **R489：同C完整重积分及合法包围交的来源实现；无新数值。** [证明](results/R489-same-C-complete-head-recomputation-and-cut-enclosure-intersection.md)11974B/4ade14ea、[接口](notes/2026-11-16-same-C-complete-head-refinement-interface.md)15697B/6df55f1a与source42246B/0ce2f7ab本次刊。原f12f全1440/six、1c39完整point叶的E/E_r/E_rr读取、5bb2 OwnedChild原字复用；五实际输入/完整非work binding与原深根族相同才允许同语义交，所有真实成员仍被包围，不取midpoint共同实现。重算新累计端点/全头/自然外端/原闭query，cut三叶及完整六积分/自然端逐项交；不保证严格收紧，空交报来源/算术不一致。只登记真实205内部227e/56cb与18900+2700钟，新phase不重开；中断保实际原件和未付，未登记child result仅metadata读回不补算，单90KB/超70/quiet保且本组件不清raw。独立新包围不改CP/definition/field；R400/R416消费未接、原query E宽目标不冒导数精度，217/R490未建。R492继续真实同语义叶adapter，非BVP前门。
 
 容量整理已按根15普通删除[actual63两生成清单](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15的1441937B与[actual62两生成清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)/77fae38c的1352194B；仅指定生成文件，原输入/91、98等真父/参数/源码/历史保，不作科学进展。
+
+**R492：同一C新叶的真实target与准确cut消费；无新执行。** [证明](results/R492-same-C-leaf-refinement-for-the-fixed-target-and-accurate-cut-field.md)13296B/600a8a63、[接口](notes/2026-11-16-same-C-refined-leaf-target-and-cut-interface.md)16139B/87c51b04与source35549B/a7b1bd9d本次刊。先原R416完整加载，实际R489旧C/cut须逐源等于当前定义，再交同一根族E/E_r/E_rr；独立view重算原完整DAG/L和七cut系数，原R400 closed_range及原675完整六jet真读新盒。原CP/definition/十词/全节点/B/材料不变、无globals替换，不冒新accepted场或严格收紧。只登记原R400/R416，tail E(r) query、R418/R459及R441/R451/R464/R483来源尚未接；R495继续这些真实接口。原205绝对钟/预算、完整当前/未访地址、单90KB超70保；未启动217，不添BVP门。
 
 ## 4. 同一g闭合与真正九冻结450
 
