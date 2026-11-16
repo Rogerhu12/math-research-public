@@ -2,46 +2,61 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R854-actual-N112-precision-exhausted-same-core-N224",
-  "commit_message": "serre: continue original p41 response solver at N224 from actual precision stop",
-  "rules_last_read_commit": "56bb641c26835b8f9282a0253d49869bd2ebf43b",
+  "request_id": "20261116-R927-original-reference-complete-endpoint-Norm-frame-execution",
+  "commit_message": "serre: execute original reference ideals and complete norm frames at both endpoints",
+  "rules_last_read_commit": "85b4f0dca5ee12913449be16d832e4240de47c03",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "8c14109d179f43e9529f3323144c1a2317a072d6bd61fa149fae462f3a306988",
+  "expected_previous_request_sha256": "f1b5b96e7663e7565563bc096fda1137ac72441922c28fa238a2318768756a13",
   "files": [
     {
-      "path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
-      "sha256": "9019d79c3406b8e25f100c7da68a2bba21ad254c0830a2727f12197960df1937",
-      "expected_previous_sha256": "d86a3059d6faeca1edaecae68542f052c4aa42e80f76269c56b2e3385345fcc5"
+      "path": "topics/serre-uniformity/scripts/R927_original_two_endpoint_reference_norm_frames.py",
+      "sha256": "4d0be4a7ced92ca57dad14863fe7433903e2b0c82df1e47e7c1520dfc10aaa28",
+      "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R854-original-p41-N112-ended-and-N224-continuation.md",
-      "sha256": "511683f8e0c914eda3447bab3d4f5251bbabf6051a06325fe3ea1411e6247c2e",
+      "path": "topics/serre-uniformity/scripts/R927_public_original_reference_norm_frames.py",
+      "sha256": "302c960c30f69bd77122008db476bb749aa833c078d58fa0b7b0bf6a53f1a829",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R927-original-reference-endpoint-norm-frames-method.md",
+      "sha256": "74347cfb1b6029e3975fbcbc1220c437a01abe0ca61adb61dc309c2878f8feaf",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json",
+      "sha256": "7d169e76e346b0e9f6b41814b5102d7bda7ec545078c819a3c774adca81bfda8",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R927-reference-endpoint-norm-frames.yml",
+      "sha256": "66a5ab749f2b67152f1747bbecc7083282cead2a9ac7d690fd46c1518730cdb1",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "609c186524a3b4513a87ca323a1e6c3021bf17d5ee19b78ee92a54a25627fd3d",
-      "expected_previous_sha256": "e9c6fd423ab147d857f61b51bad632e44115ed67ead326d60f0cd121150b9f99"
+      "sha256": "8b135e3a5a85e41122a22990e1c4d693229e969216f2c7621f02cd4b80a3b6d5",
+      "expected_previous_sha256": "0e7cff3b2924473ebdd8562131723519dd41005182fe97859f3b3a5f01d5ce36"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "789db6f7d4b0b01f43675f3224de26df34688e43aa5c7226b3deeb845f859edd",
-      "expected_previous_sha256": "87b501ad5ffb3a1b9174e8f550f1be5772f8daca759958667878d04968c6f715"
+      "sha256": "b1962b8c0c6d303e5806b789ed00ce0c692d6fb7105e6bb880e1d170993d61d7",
+      "expected_previous_sha256": "789db6f7d4b0b01f43675f3224de26df34688e43aa5c7226b3deeb845f859edd"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "39061de6848026f1b6adbef59d89c1069bec82e4e47c49f87cbf1a2f32f3c4c7",
-      "expected_previous_sha256": "a5caeb7d7ae32af3bbb39564118eebd9ab72b2183ae45c29ff80abd6fa21354f"
+      "sha256": "9b838b03b2355925fec1f0037e02fc339c52d6bf3053b908df53281bf29493c6",
+      "expected_previous_sha256": "4e7992a37c953f89a4429353a73735c6b667790d588e6d71ab75f6f92bcd4d9b"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R854-original-p41-response-solver.yml",
-      "request_path": "topics/serre-uniformity/notes/R854-original-p41-response-solver-public-request.json",
-      "request_sha256": "9019d79c3406b8e25f100c7da68a2bba21ad254c0830a2727f12197960df1937"
+      "workflow": "serre-R927-reference-endpoint-norm-frames.yml",
+      "request_path": "topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json",
+      "request_sha256": "7d169e76e346b0e9f6b41814b5102d7bda7ec545078c819a3c774adca81bfda8"
     }
   ]
 }

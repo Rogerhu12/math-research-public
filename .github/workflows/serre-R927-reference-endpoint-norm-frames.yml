@@ -1,0 +1,149 @@
+name: R927 original two-endpoint reference ideal and Norm frames
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R927-reference-endpoint-norm-frames
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json
+      - name: Pull actual main and compare both rule files
+        env:
+          REQUEST_SOURCE: ${{ github.sha }}
+          RECEIPT_PATH: ${{ runner.temp }}/R927-rules-pull.json
+        run: |
+          python - <<'PY'
+          import datetime as dt, hashlib, json, os, subprocess
+          from pathlib import Path
+          path='topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json'
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
+          request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+path]))
+          assert request['producer_inputs_pending'] is False
+          subprocess.run(['git','checkout','-B','R927-rules-current-main'],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          actual={key:hashlib.sha256(Path(name).read_bytes()).hexdigest()
+                  for key,name in [('root','README.md'),('topic','topics/serre-uniformity/README.md')]}
+          changed=actual!=request['readme_sha256']
+          receipt={'actual_git_pull_rebase_completed':True,'actual_head':head,
+                   'previous_read_commit':request['rules_last_read_commit'],
+                   'actual_UTC':dt.datetime.now(dt.timezone.utc).isoformat(),
+                   'readme_sha256':actual,'expected_readme_sha256':request['readme_sha256'],
+                   'rules_changed':changed}
+          Path(os.environ['RECEIPT_PATH']).write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n')
+          print('R927_RULES_PULL='+json.dumps(receipt,sort_keys=True))
+          if changed:
+              old=request['rules_last_read_commit']
+              subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',old],check=True)
+              subprocess.run(['git','diff',old,head,'--','README.md','topics/serre-uniformity/README.md'],check=True)
+              raise SystemExit('Read the actual changed rules before new mathematical execution.')
+          PY
+      - name: Preserve the actual rules pull receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R927-rules-pull-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R927-rules-pull.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  construct:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+      PYTHONINTMAXSTRDIGITS: "0"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R927_original_two_endpoint_reference_norm_frames.py
+            /topics/serre-uniformity/scripts/R917_endpoint_order_arithmetic.py
+            /topics/serre-uniformity/scripts/R927_public_original_reference_norm_frames.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/results/R927-original-endpoint-pencil-content-and-complete-norm-frames.md
+            /topics/serre-uniformity/results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md
+            /topics/serre-uniformity/results/R923-original-target-normal-coordinates-in-certified-endpoint-orders.md
+            /topics/serre-uniformity/results/R879-original-reference-pole254-pencil-from-completed-syzygies.md
+            /topics/serre-uniformity/results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md
+            /topics/serre-uniformity/notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md
+            /topics/serre-uniformity/notes/R927-original-reference-endpoint-norm-frames-method.md
+            /topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json
+            /.github/workflows/serre-R927-reference-endpoint-norm-frames.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Parse the bound source text
+        run: |
+          python - <<'PY'
+          import ast, hashlib, json
+          from pathlib import Path
+          base=Path('topics/serre-uniformity')
+          job=json.loads((base/'notes/R927-reference-endpoint-norm-frames-public-request.json').read_text())
+          for key in ('core','helper','wrapper','io_helper'):
+              path=base/'scripts'/job[key]
+              raw=path.read_bytes()
+              assert hashlib.sha256(raw).hexdigest()==job[key+'_sha256']
+              ast.parse(raw,filename=str(path))
+              print('AST_AND_SHA_OK',path.name)
+          for row in job['proofs'].values():
+              assert hashlib.sha256((base/row['file']).read_bytes()).hexdigest()==row['sha256']
+          assert hashlib.sha256((base/job['method']).read_bytes()).hexdigest()==job['method_sha256']
+          PY
+      - name: Install the pinned rational and polynomial arithmetic library
+        run: |
+          python -m pip install --only-binary=:all: python-flint==0.9.0
+      - name: Compute original reference ideals and complete Norm frames at both endpoints
+        id: construct
+        continue-on-error: true
+        run: |
+          python topics/serre-uniformity/scripts/R927_public_original_reference_norm_frames.py \
+            --output "$RUNNER_TEMP/R927-reference-endpoint-norm-frames/output"
+      - name: Read the actual source and output interfaces
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R927_public_original_reference_norm_frames.py \
+            --verify --output "$RUNNER_TEMP/R927-reference-endpoint-norm-frames/output"
+      - name: Preserve the original sources and atomic results for one day
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R927-reference-endpoint-norm-frames-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R927-reference-endpoint-norm-frames/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn
+      - name: Preserve the actual mathematical exit status
+        if: always() && steps.construct.outcome != 'success'
+        run: |
+          exit 1

@@ -527,7 +527,12 @@
 - 原中央h的偏移精确为(169A+896xA′)/105；零等价指定对数导数值，仍未排除且Q′未知，不冒J32/三单位。R90343921416613与R93043921420577实际启动；H前态逐字归档。
 - 本push规则：公开Actions真实pull至56bb641c26835b8f9282a0253d49869bd2ebf43b（2026-11-16T17:45:54.556874+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-17 01:47 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-17 01:46 Asia/Taipei — serre-public-astra-20261115
 - R854真N112在profile111后耗尽，exit125/1174stage/1184manifest729e2e，尚无单位图/Dixon/四球；从实际artifact14248459820同core续至N224，仅改精度和真实resume，旧profile/逆/行组合/低位不重。
 - 新证饱和整行格递推及h*=最大Smith指数，目前仅h*≥112；单位图后充分N≥R+h*+δ−w*+7s，224不作成功保证。更高精度代表需真实算术，不能冒称仅IO或高位差分优化；原A.1/Z/height仍false。
-- 本push规则：公开Actions真实pull至56bb641c26835b8f9282a0253d49869bd2ebf43b（2026-11-16T17:45:54.556874+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+- 本push规则：公开Actions真实pull至85b4f0dca5ee12913449be16d832e4240de47c03（2026-11-16T17:46:51.394912+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:48 Asia/Taipei — serre-public-astra-20261115
+- R927参考端点消费者五件全文核读并激活：真实R923/R917/R914/R879/R872源、267项只取9项，完整I^8/ann/幂等两块、原qρ0范数首项和补块单位商，不重正规阶/旧坐标/参考解。
+- 两端共用λ0、九完整8维行列式、原Nm参考和t帧/dual7全部保留，空块范数1；五目标仍null。R93043921420577实际success待真证，R854 N224实际43921950983已启动，R903继续。
+- 本push规则：公开Actions真实pull至85b4f0dca5ee12913449be16d832e4240de47c03（2026-11-16T17:46:51.394912+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
