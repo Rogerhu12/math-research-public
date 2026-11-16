@@ -64,3 +64,9 @@ Root按完整renderer与真实早期状态静态逐字重建两preGit：SCI+earl
 当前B族root邻域intrinsic bump恒零，r*确固定。有限degree192的Fδ原系数连续，固定Fourier shifts在各Hs有有限norm，故TFδ opnorm连续；原two-window inverse与真正resolvent给TFδ^-1同样连续。完整KL aδ相关式保所有mean，用固定有限partition/原正分母/common integrable domination的普通dr积分连续，不借seam径导、不重积分或exp。固定L=S*D+和NIF精确Ni L=aδ^-1 TFδ^-1给Ni±的固定域opnorm连续。
 
 RNI7已付normalized Shat± opnorm连续；真M±只在原fixed-frequency Riccati连续依赖前提下由Fourier dominated convergence给strong。原有序weight/coordinate组合保真正Cs± strong与joint，并在compact数据集uniform；固定有限L/V压缩矩阵norm连续，无矩阵求值/非零断言。只有对角有界不足推continuity，前提未删；M/C opnorm、C1/未知selected KAM族、actualincoming/range/finite/trueν/背景/曲面全未授。仅整理已成NIF索引，完整数字与身份保原SCI及43ba87b3同H/log，未付义务不减。旧成功0重算/新scalar0，结论独推后继续实际双port/WE。
+
+## 2026-11-16 03:14:00 UTC — NIFA 完整实际证明独立发布
+
+README核提交563defb46bc785295265c3f48fcad3fc8897c617，两blob不变。eaf9b11066ee5f3d8ac36263db179e75af4a2fba /49164B /1b2c3b704282c0b42bfb2f941c3828a487ca1ed75ee45ce902d8d0be32d395a1；root已通读32482B证明叙述及全部table，三个完整JSON附录分别逐值等于原SCI的四scope、accepted与exact operator。全部23新球逐字存在，16旧record保持14对象+2字符串原型，fullSCI/exec/report/run/jobs/两preGit/childSHA全同；16门/15progress、8pins/2AST/runtime/source/manifest全闭合。Phase独立完整词法复原早期两payload，Tail独立shape+old copies+report预算复原，Newton两Cs有序窗口/scope核均通过。
+
+真正唯一run43795909913/1仍冻结，未dispatch/重跑。NIFC0867f280另已bd1038f7独推；这里不混入新continuous-family量。NIFA7主界全部是原球上端点，KΛ+与Ni±/Cs±的mean/sign/原input-output权域按NIF完整保；fullcircle principal/Cayley与实际反射range仍需独立证，双physicalmeans/low与无限radialhead/第二input/rest/ν/非线性/曲面全未授。仅缩已成open/H索引，完整43ba87b3/bd1038f7历史及各实际proof保留，不减未付义务。继续下一实际双port与WE六项精分。

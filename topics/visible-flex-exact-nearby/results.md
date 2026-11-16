@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [NIFA：固定反射输入坐标与稳定逆的完整实际证明](results/R133-supplement-actual-uniform-frozen-selected-input-coordinates-and-stable-inverse-constants.md)（1b2c3b704282c0b42bfb2f941c3828a487ca1ed75ee45ce902d8d0be32d395a1）：原43795909913/1唯一成功，完整23新球（7主+16中间）、16原typed记录、四scope/accepted与operator identity完整保。32字段/16门/15progress、8texts/2AST、12steps/两preGit/childstdout均核；事件9948与actual checkoutbc20分列。正确Xfr=S*D+Hnat两窗Cs逆约1.5936238e13与2.2522836e40；旧数学0重算，真实双port/range/fullincoming/finite/非线性未授。
+
 - [NIFC：固定反射输入与真稳定逆的连续性](results/R133-supplement-continuity-of-frozen-reflected-coordinate-and-stable-inverse-families.md)（0867f2800bdc2b6601e17a12beb4cbac3d01a3c48a358e1c4745765cbbbbf7e2）：原B族root固定、TF有限系数/正分母与resolvent使Ni±在固定Xfr/Hnat两窗opnorm连续；RNI7的normalized Shat± opnorm加原逐频Riccati连续前提与uniform bounds，给真Cs± strong/joint及compact-data uniform，并给固定有限列/行矩阵norm连续。完整mean/weights/两窗同逆不变；不授真M/C opnorm、C1、完整incoming或finite非零。
 
 - **NIF实际成功（禁止重跑）**：原公开run43795909913/1、job133064556560、child0/16门/12steps全部成功；完整SCI43294b0c保32字段/23新标量（7主+16中间）。四旧成功/16记录/4scope逐字一致，旧数学0重算。冻结正确反射输入Xfr=S*D+Hnat上的Ni±1及两个Cs逆界已实际付：Cinv0≈1.5936238065e13、Cinv−4/3≈2.2522836490e40；完整球见原SCI。仅该real参考族/两窗/原有序权，真实双port、完整incoming、有限Schur及非线性未授。
