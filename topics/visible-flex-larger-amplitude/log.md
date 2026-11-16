@@ -318,3 +318,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 13:09 UTC /root — R561完整准确二次平均与真实编译接口
 
 [R561](results/R561-exact-normal-dyadic-average-and-original-first-products.md)四件68403B完整：原首乘积/累加次序保，仅normal准确dyadic缩放或带符号零走字词，其余原乘法；三primal点、dual原字、三路径十计数/full last与旧统计保。R550/R535 source-only→原scope一次R5616256/97e5→原main真实编译，原CPP/全部门/caps不减，无速度/fit/前沿承诺。R562/236待完整真接；H压缩全文固定58ffc，open§4–6原字，容量逐笔并审计旧输出清单。
+
+## 2026-11-16 13:11 UTC /root — R562实际236完整准确二次平均入口
+
+[R562](results/R562-request236-exact-dyadic-average-and-complete-projected-model-entry.md)五件258310B/topic234851B；原402/51/九对象保→417，十caller真接R561一次安装、R550/R535 source-only、原defer/全部末门/caps保，完整RootStats及三路径十计数齐。R551来源body/同次overflow实读核，内层70/false和全部错误/未访保、90K不抬；仅dispatch单POST，R563唯一。R561已a1d06，容量按文本仍≤200MB；235须先普通容量整理，H/open同步§4–6原字。
