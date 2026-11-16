@@ -52,6 +52,8 @@
 
 R532只是两库：R534尚须真实owner-first handoff、同对象执行、全部J/双mean准确lift128、诚实new boundary/endpoint/audit/assembly与全source闭包/必要reader/原owned clock。原a090入口先readG，即使base不依G也不能冒现有noJ接口。R509未tol/replay时不具完整R532输入，后置设计不能假称解决先行停止。当前无新request/真实J/新accepted父。
 
+**228实际已单POST200**：run43858623707/attempt1、实际head99f4ee650e031448e9fcb33ead672e48a8babd3d为发布e5af直接子提交，仅HANDOFF规则一行改变，comp/.github/双README同字，详[官方绑定](notes/2026-11-16-request228-official-run-binding.md)；R541 exact唯一，无数值预填。
+
 ## 2. 准确十族候选与完整453→450
 
 完整旧段及全部原九p/84trial/18FD、七态112三列/双mean、全G/H/span、QR/clip/Cauchy/每alpha原Armijo与S球均固定在[9f355941 open](https://github.com/Rogerhu12/math-research-public/blob/9f35594193af34ca09caee2777aef6f4d15363f6/topics/visible-flex-larger-amplitude/open.md)及其368e/f863链。有限拒绝不证无解或秩亏；旧201末响应不能由202补。
@@ -63,6 +65,8 @@ R532只是两库：R534尚须真实owner-first handoff、同对象执行、全�
 [R488实际216](results/R488-actual216-complete-far-sampling-storage-stop-and-readback-scope.md)全112far/joint、13850点/16128field完成，但free12456181760<34359738368，BVP/453/450及15后继未始；八必要齐而rules98410>90K未返/cleanup skip，无可续父。C/factory未付与coast中心严格反证各按原域保。当前222/217已真实另接R498首行gzip及所有stored/decoded消费者、R499全规则reader，不能倒填216或预保证空间。
 
 218/R507的union57beb裸dict语法错与220/R506政策JSON误入source-only名单均在科学前停止；完整source/pin/失败/未返/cleanup skip保各正文与固定旧open。当前222独立修复分类，原既有run不追改、不把源准备成功冒数值成功。首完整accepted453→同g真450仍未返，不能从已删原state、SHA或任何同C采样补接受父。
+
+**[R490实际217](results/R490-actual217-complete-shallow-sampling-and-source-binding-stops.md)32593/319d本次完整刊**：source4a08/run43838608475，compute133207238555/report133265145172两终志各唯一。新R503准确十点factory requested域1028 passed/1637 processed且unresolved/unvisited0；全C有效包围仍有2609工作分辨率未达，非新数学门。全112far/joint/13850点/16128field/4数组齐；R498 stored20359322057与decoded95028212980/1604049行真核，末free86813122560，BVP实际已启动1.029s后native source guard而非旧空间门。closed另独立orchestrator guard；旧220 composition原件93236且necessary超90K无marker，refinement71079 body返但依赖不全。R499 rules85398与21755742完整，原15后继和新8roles全not-started，没有453/450。原quiet范围齐仍实际cleanup skipped，绿色step不冒删除，无下一job可用父。exact续R544真实launcher/owner/orchestrator来源和完整composition具名语义修复→R545/230/R546；原scientific/32GiB/钟/全门不减，不以source错误判无解。
 
 ## 3. 完整C/far、闭场与固定目标精化
 

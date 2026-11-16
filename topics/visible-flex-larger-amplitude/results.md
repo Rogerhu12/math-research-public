@@ -49,3 +49,8 @@
 ## R540 — Request228原八组完整39与可逆必要语义接线
 
 **完整真实接线已付，无预填数值/容量结果。** [R540](results/R540-complete39-lossless-semantic-relations-original-eight-pair-entry.md)/[接口](notes/2026-11-16-request228-complete39-lossless-semantic-relations-interface.md)七件169296B/topic147317B：114public＋6生成=120，原actual223的116逐值保；四历史view仅身份、当前helper75760/bb02与worker29708/ea2d在真computations执行。原assemble_chain实际import R533→原f793→具名可逆关系，normal/recovery同publish；f793无输入schema gate，旧223-contexts只是格式，真实request/run/source为228，两合法格式都保。原八39/model/各新warm完整freshFD、98原父/所有门/10500/175min/195min/90K70/owner/quiet不改。超限只增真实10根/25角色大小；新cleanup一行将实际comp放sys.path，原223此支未达不冒旧实发错误。新增.github/workflows/visible-larger-public-thirty-nine-semantic-relation-batches.yml为本题完整入口；根README不改。正式发布后一次官方dispatch，实际head/run待回执，R541 exact唯一终态，无unknownbody fit保证或旧删父复用。
+
+
+## R490 — 实际217新十点全域、完整浅逆采样与三个工程阻断
+
+**实际217全必要边界已完整成文。** [R490](results/R490-actual217-complete-shallow-sampling-and-source-binding-stops.md)32593/319d，run43838608475/source4a08，compute133207238555/report133265145172两终志各唯一。R503本次新十dyadic域complete、requested1028 leaves/1637nodes/无未访；完整112far/joint、13850点/16128field、4全数组齐。R498 stored20359322057/623e与decoded95028212980/aba4、1604049行真核，末sampling free86813122560；不再旧空间停。BVP真启动1.029s后current-C native source guard，design453/frozen450未起；closed另独立orchestrator guard。旧220 composition原件93236/5c20而必要record超90K未返marker，refinement71079 body返但依赖不全；R499 rules85398完整，217必要55742完整且8roles全未起，原15后继也全未起。所有quiet范围分责；实际request220_cleanup_skipped，绿色step不冒删除，无接受父。R544继续真实argv/pin/完整composition语义修复，原全部门不减。另[228官方绑定](notes/2026-11-16-request228-official-run-binding.md)确认唯一dispatch/run43858623707、实际99f4为e5af直接子头，只HANDOFF规则一行不同，comp/.github/双README全同，R541 exact唯一。

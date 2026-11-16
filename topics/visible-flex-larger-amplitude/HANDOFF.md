@@ -21,11 +21,11 @@
 |224/R525|43851068999 /23176ac678ea92882fa38ec6ddcc09e98742ac89 /133243448382|amplitude；11:18 step11全H/J/R273，running日志0|
 |225/R528|43852521165 /5af07ed64877475bc05a488306246c9be22926bb /133248437738|exact；11:22 step11原科学，running日志0|
 |222/R511|43837980277 /6643ea831419fb5adf1fd5d21fdbc918fe86c4cd /133199299786|amplitude；11:18 step18全physical/far，running日志0|
-|217/R490|43838608475 /4a08bebb63482c34c3bb7460582772a966e25c51 /133207238555|geometry；已终态，compute/report133265145172 failure，两日志各唯一已读；完整R490正在成文，不从step标签推清理|
+|228/R541|43858623707 /99f4ee650e031448e9fcb33ead672e48a8babd3d /待官方job|exact；唯一POST200，11:33官方queued，科学日志0；官方绑定note已刊|
 
-221/R509、223/R513及旧207–220终态已刊，旧科学日志不重取；217唯一reader继续全必要scope/真实失败/清理分责，root不重复。实际source/run优先于内部祖先号。
+217/R490本次完整刊，两终志各唯一已读，不再读取；221/R509、223/R513及旧207–220均保。root不取科学日志。实际source/run优先于内部祖先号。
 
-root R535局部cache本次完整刊，继续R536/request226原完整live128链、R537实际；amplitude R531完整withJ并行source→R538/227/R539；exact R533已刊→R540/228本次完整入口/R541唯一实际读者；geometry R532两库已刊→R534完整实际同DN链→R542/229/R543。**228/R540本次真实入口即刊并安排单次官方dispatch；run/head待官方回执，绝不预填。226/227/229仍仅预留。** exact完成R540后续R544连续C真实source guard修复→R545/230/R546，230同样仅预留；不因此改原运行/门。
+root R535局部cache本次完整刊，继续R536/request226原完整live128链、R537实际；amplitude R531完整withJ并行source→R538/227/R539；exact R533已刊→R540/228本次完整入口/R541唯一实际读者；geometry R532两库已刊→R534完整实际同DN链→R542/229/R543。**228已e5af发布/单POST200，实际99f4仅HANDOFF规则行变；官方note已刊。226/227/229仍仅预留。** exact完成R540后续R544连续C真实source guard修复→R545/230/R546，230同样仅预留；不因此改原运行/门。
 
 ## 完整历史与恢复边界
 
@@ -35,6 +35,8 @@ root R535局部cache本次完整刊，继续R536/request226原完整live128链�
 
 ## 最近真实科学结果
 
+**217/R490本次32593/319d刊**：本次新coast-base全10域完整，112far/joint、13850点/16128field/4数组齐；完整gzip存20.36GB/解码95.03GB身份真核，末free86.81GB。BVP已启动但native source guard、closed独立guard；453/450与15+8后继皆未起。旧220 composition原件93236而necessary超90K缺marker；refinement body返不全，rules85398及21755742 scope完整。真cleanup skipped，无accepted父，R544按真实来源/完整语义修，不数学拒绝。
+
 **221/R509** 22299/da19，两终job唯一、71252/efd2必要同字全读。当前H全J/R273/两包返；128初norm14074125.721549422871→iter0 α1全576/129248行接受到.0011938401993273305；iter1 α1只133stage/30016行，133..575显式预算错误。owner5999.327/6000，原2e−9与fresh replay未过；post四组件/protocol/FD/fullDN未起，global余11852非外层耗尽。10:56:30.9007389Z真quiet再removed=true，无可续state；后置R532不能单独解决此前置停止。
 
 **223/R513** 22053/ca75，16exit0＋8真实eligible结合f847控制流只付8warm/freshFD交接，非coupled/native/fullDN。whole113011/fc09、recovery113361/1cc7超90K70无body；α/merit/FD值/末三词/末父7未返。八必要先存后大payload退、quiet但最终cleanup skip，无可续末父。R533不倒填这些数字。
@@ -43,7 +45,7 @@ root R535局部cache本次完整刊，继续R536/request226原完整live128链�
 
 ## 当前来源、已刊构造与实际接线
 
-222/217已实际启用R498首行gzip＋所有stored/decoded same-far/union消费者、R499全规则reader，不倒填216或保证空间。222279public+179gen=458、derived22099330/2d1c；18900+2700始钟含准备/32GiB/九scope/四owner，PYPINS核祖先220。2174a08、473源，自查workflow；真accepted shared后同C1440/six/cut与实际level0/1/2全metric/measure/compare，原钟/末900/全部held及217→222→220 quiet链保。尚无accepted450；217此次源guard完整责任待R490/R544真修。
+222/217真正R498首行gzip与完整stored/decoded消费者、R499规则reader已接。222458源/derived22099330/2d1c、217473源；原18900+2700/32GiB/全部scope、same-C真父后level0/1/2与quiet链不变。完整来源/参数/失败保固定历史与各接口。
 
 224/R524七件250653/topic208007B已498c；实际23176直接子提交与发布整topic/.github同字，官方note已刊。150public+31gen=181，原211168身份全保；R523真T支撑/全14统计/last/presence、完整226×224/两mean、全部原门/18000/quiet/90K70保持。R531须把2–4线程真接原withJ、完整profile/engine顺序/统计/partial和实际ownerwrapper，不能只交未调用视图。
 
@@ -51,7 +53,7 @@ root R535局部cache本次完整刊，继续R536/request226原完整live128链�
 
 R529完整模型/重新anchor责任及R532三件已5c851；真实同次128/tol/replay→一次全577×224投影→同DN全576×226×224/port/双mean。原128值/末门仍权威，FD不证DD。R534尚接真owner-first、全部lift/新boundary/assembly/source与同步cell owned hard-stop，无新科学结果；细节全保正文/固定历史。
 
-R533已90624三件65743B，接口c1a4含11→10勘误；全部既选语义精确可逆、whole含header严格缩小才采用，未知113011不保证fit。**R540/228本次七件169296B/topic147317B**：114public+6gen=120保原116，当前helper75760/bb02与worker29708/ea2d真调用R533及overflow具名大小；原八39/freshFD/10500/175/195min/90K70保。正常/recovery共用真实compose，f793无输入schema guard、旧223-format只格式，body真228。cleanup仅补真实comp入sys.path；原owner/quiet不改，R541 exact唯一终态。workflow外题改动见本题log。
+R533已90624三件65743B，接口c1a4含11→10勘误；完整已选对象精确可逆，whole含header严格缩小才用，不保证90Kfit。R540/228七件已e5af，114public+6gen=120保原116，helperbb02/workerea2d真接新表示/overflow大小与真实comp cleanup导入；原八39/freshFD/10500/175/195min/90K70/owner/quiet不改。实际99f4/run43858623707见官方note，R541 exact唯一。
 
 **R535本次五件56753B**：header7102/6706、adapter10892/1c99、plan10232/f3b7、proof17788/5643、接口10739/c98d。仅同root固定momentum/pt/P/Pt与同evaluation U系数，完整有限词/j序/角点/fallback保；18计数/last真打印，无速度或资源前沿承诺。实际HERE新primal25230/3e1c、trace34950/2e12，原CPP7789/main/replay/caps不改，旧frozen旗false、实际compiler区别准备。R536仍须实际caller安装与完整必要reader，无执行/接受实证。
 
