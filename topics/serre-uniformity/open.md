@@ -130,3 +130,5 @@ R863[原格与完整首π相位](results/R863-original-cuspidal-extension-and-fu
 R832接触界R−1+binom(R,2)(6G−4)可接原提取器，不假T_p非零或代全p单位。End⁰G=F、非零torus商维≥g+1、μ3 qφ*=0、非挠/log/rank都不消去Y/height。
 
 根独占main及共享索引；每结论立即push，非快进立即真实pull/rebase再推循环。每pull检查两README差异并记H，至少每小时一次。所有新数学只本公开Actions；raw不进Git/Release/悬挂blob，一日artifact只携仍必要原源/断点。主目标OPEN，完成子问题后继续下一项。
+
+**R866正式闭合、R865真实激活**：[原Q基结果](results/R866-certified-original-Q-holomorphic-basis-and-semilinear-action.md)ef5fdaa6，run43815338283/52stage，完整127基/cY、even54/odd73、全560行及C²已成；不重H/逆。R865[执行记录](notes/R865-original-Y-Hecke-T7-activation.md)固定core3d074559/wrapper9b05e7ff/method88a3c9dd/request28aa9adc，120min只新T7/谱，真实175源闭合。R870随后核原ξ_j定义域与7处Frobenius挠界/实际Picard谱支持，未预填N或eη。

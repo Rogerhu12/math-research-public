@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：08040ecf71c1df27468ff39ed697b7730f7597e3**（2026-11-16T06:22:45.387159+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[原Y Hecke方法前H](handoff-archive-2026-11-16-before-original-Y-Hecke-method.md)（9929B/fb366b1a），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
+**已读规则提交：e99341ea80eb7ba5a634ee6c21bc9ac73252562d**（2026-11-16T06:29:07.596018+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[原Y Hecke方法前H](handoff-archive-2026-11-16-before-original-Y-Hecke-method.md)（9929B/fb366b1a），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -35,9 +35,9 @@ R824[501断点](notes/R824-501-digit-checkpoint-and-same-core-continuation.md)�
 
 **R856/860固定源已成**：R856两图点与Cusp+P0各272完整基、余长1/21，artifact14198217155/125c93ef、569源carrierfd6329bd；I_E=mP0 C^-2(f³,(δf)³,(δ²f)³)实际三标量/导数待求。R860正式c4bb1555：run43811325290/37stage，final4314f242/DAG8b9dcca6；artifact14200417324/aca10fbe至Nov17 05:37，61原源109142444B carrier5414b58f（R80645/R8057/R8539）。β72=N/D、cY/δ/ν固定保FM27因子1，未展开余子式/RR；root只核57小件，未重哈希大carrier。
 
-**R864/866真实全纯部分已成**：R864正式28f73540，run43813041008/source3e31c973，rank19/原19minor/127列及两图全核；basis7f2ee6a0/kernelb36915cb，artifact14201401009/d83abe95、16源carrier80122621。R866 run43815338283/job133126104764/source6373b025，3.399841967s/52stage，真cY与完整Q固定基已成，final00398c7c/H3c9ce8d3/逆e93951a0/C70af52dd/Q基c9560601/config7e6a55e2；实际even54/odd73，全560×127和C²核。artifact14202411654/007b72c8至Nov17 06:14，178源carrier2289659B/b865217a；整ZIP/65产物已核。原e_i已含82²，H不二次缩放、微分82H，c0固定ξ但共轭s，e73一次负运输。首R866仅YAML错误无job，已修，不重数学。
+**R864/866真实全纯部分已成**：R864正式28f73540，run43813041008/source3e31c973，rank19/原19minor/127列及两图全核；basis7f2ee6a0/kernelb36915cb，artifact14201401009/d83abe95、16源carrier80122621。R866[正式结果](results/R866-certified-original-Q-holomorphic-basis-and-semilinear-action.md)ef5fdaa6，run43815338283/job133126104764/source6373b025，3.399841967s/52stage，真cY与完整Q固定基已成，final00398c7c/H3c9ce8d3/逆e93951a0/C70af52dd/Q基c9560601/config7e6a55e2；实际even54/odd73，全560×127和C²核。artifact14202411654/007b72c8至Nov17 06:14，178源carrier2289659B/b865217a；整ZIP/65产物已核。原e_i已含82²，H不二次缩放、微分82H，c0固定ξ但共轭s，e73一次负运输。首R866仅YAML错误无job，已修，不重数学。
 
-**R865原T7纸证已成**：[真双陪集/短注入](results/R865-original-Hecke-T7-from-certified-level82-Fourier-rows.md)50bfc4bd。g7=T(1,2)、八个陪集；σ47(a7n)+7[7|n]σ7(a_n/7)，ξ41上首项σ6，原−3 twist交换且Rosati对称。13阶全部40坐标因20×13>252注入；旧q≤91已成，只消费R866同H/J/逆，新增12块A_nB及完整T7/谱。实际T7矩阵尚未执行；不冒YP eη/d/N或完整等型。ordinary正在封装真实175原件闭包，active请求尚未登记。
+**R865原T7纸证已成**：[真双陪集/短注入](results/R865-original-Hecke-T7-from-certified-level82-Fourier-rows.md)50bfc4bd。g7=T(1,2)、八个陪集；σ47(a7n)+7[7|n]σ7(a_n/7)，ξ41上首项σ6，原−3 twist交换且Rosati对称。13阶全部40坐标因20×13>252注入；旧q≤91已成，只消费R866同H/J/逆，新增12块A_nB及完整T7/谱。实际T7矩阵尚未执行；不冒YP eη/d/N或完整等型。[R865已激活](notes/R865-original-Y-Hecke-T7-activation.md)：core3d074559/wrapper9b05e7ff/method88a3c9dd/request28aa9adc/120min，175原件真闭包，run待本push查询。ordinary续R870原η谱支持/7处真实挠界，先核ξ_j定义域。
 
 **原Y RR**：FM a5d65aa4与YP bdbb6cc5需实际128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。exact续R868真实P0 fiber-socle：若W(z0)−w0I实际rank271则得单极生成元与I_P0^-254，准备新准确核；不假fiber étale或已得h。未消去Y/period。
 
