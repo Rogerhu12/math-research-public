@@ -2,71 +2,45 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0846-publish-R877-single-canonical-A",
-  "commit_message": "serre: compute the original canonical A using one new normal right hand side",
-  "rules_last_read_commit": "39cc6b4ebb82938774b21d2c3546d174a822514d",
+  "request_id": "20261116-0848-R878-original-finite-theta-action",
+  "commit_message": "serre: prove the actual finite theta action and original section projections",
+  "rules_last_read_commit": "fc6d692d2429e1e058c4c371e59b0f49ce201baf",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "785b023863f3882cd3f465fc2d04008a86357596ea47ec18b1206825bcccc530",
+  "expected_previous_request_sha256": "84a0bfc28b136aacaa3080cf0bc0dbfe03b493289e86ab5f5b84277efaba22fa",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R877_original_canonical_A_normal_input.py",
-      "sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R877-original-canonical-A-single-normal-RHS-method.md",
-      "sha256": "8b2f5cc4360f43931492c54ccd8f175469148a956a8b9a4777b97821173afe27",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R877_public_original_canonical_A_normal_input.py",
-      "sha256": "a574bd4fa95c2d80b1b6b6037f7e944a0c9f79660b7c4667ac99e97be3507221",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R877-canonical-A-public-request.json",
-      "sha256": "c7690bde16c5b6165463aa7b2ef4b1feccbc7e8c48fc7f3e0aa3cf3a2746b654",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R877-canonical-A-normal-input.yml",
-      "sha256": "be636790228f9962350d09148ea2723c0bf1cfb644a3037902530ae40cd32920",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R877-original-canonical-A-normal-input-activation.md",
-      "sha256": "16a3e409fb672bc028df86ea5b23f25ad0516e286793cd4ada9d5c5a75543280",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-single-canonical-A.md",
-      "sha256": "5f8e12bce4dc9aac50fca321576b11e7c511b1ca0f6a4a82bdb207cab1ac6095",
+      "path": "topics/serre-uniformity/results/R878-original-finite-theta-action-and-section-projections.md",
+      "sha256": "264b0daa84b18736e305596c9e1d1a588f87782d6cc2d163df4237a5ce60bb5f",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "6037b59e1425761e7ba772b21414a9216eff0e069585fa62236d853270f7f0bf",
-      "expected_previous_sha256": "5f8e12bce4dc9aac50fca321576b11e7c511b1ca0f6a4a82bdb207cab1ac6095"
+      "sha256": "534972fc71b46dfd0788f0353a9006858f776a70cc02f3e0e500bbe73a5bb975",
+      "expected_previous_sha256": "171dcfb87effa4bb81852190552669ca3eb6faa3c1a0d4ee0fd023fc1c7afea6"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "0b3cbf518077ed361fccf9b36b34ea6ff5f70d7a2df3bdcb072cb3b1c3b22bee",
-      "expected_previous_sha256": "79c5a7a7d1ce2797e22b81d5eac6ab0184b3c30ab2713ea42905224f4f171d68"
+      "sha256": "6036553d81b0cd55ad963027545c00960c089300fdbdffc5df6da1a9f93618d4",
+      "expected_previous_sha256": "0b3cbf518077ed361fccf9b36b34ea6ff5f70d7a2df3bdcb072cb3b1c3b22bee"
+    },
+    {
+      "path": "topics/serre-uniformity/results.md",
+      "sha256": "517334c95dbf0600e05e3a62ecdeaff15a7e6d428304b9369873c6775d80bcf1",
+      "expected_previous_sha256": "443b088a792229242b654aac4c3135d8de8576d9022685ffdeab15513c5b5c7c"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "dd4b319705a8d038f332a005dfae9b6bd020ac4d6e97c6a513de1d460c7007e7",
-      "expected_previous_sha256": "c2d085de2326e4b5aab863f4da23362354fac1f754673c247c4c3a15151bb86d"
+      "sha256": "a633ce08bff6a011aacfb36d075bd2d77d0f618d50f8e17d50875e4deedf1fd2",
+      "expected_previous_sha256": "ea8c4b921a07bdefc57f3e80fa0b6cda7c89da16705456021251741ec7f6c1fc"
+    },
+    {
+      "path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
+      "sha256": "34f7506328c112db3f6e9f32be8a65e66748211bfcc35ac81b1bbcee24c3328e",
+      "expected_previous_sha256": "0091c311f545052d152ca93acdc97d699feda30097ddc2f5bd3e9d2c5472a116"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R877-canonical-A-normal-input.yml",
-      "request_path": "topics/serre-uniformity/notes/R877-canonical-A-public-request.json",
-      "request_sha256": "c7690bde16c5b6165463aa7b2ef4b1feccbc7e8c48fc7f3e0aa3cf3a2746b654"
-    }
-  ]
+  "dispatch_workflows": []
 }

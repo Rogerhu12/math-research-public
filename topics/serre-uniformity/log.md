@@ -637,7 +637,12 @@
 - R854真实NeedPrecision/N56/depth55 rank0，532stage已保；同core/helper/wrapper只升N112并继承完整原断点，目标仍7，响应未成/R858不启动。
 - 本push规则：公开Actions真实pull至39cc6b4ebb82938774b21d2c3546d174a822514d（2026-11-16T08:37:10.605312+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
 
-### 2026-11-16 16:46 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 16:45 Asia/Taipei — serre-public-astra-20261115
 - R877单A消费者激活：1270原件全部保真，旧S5/逆/B不重，唯一新F69·A与全1380行乘回；corea40ed5b1/wrappera574bd4f，实际结果待跑，五Lj/height仍未成。
 - R873修复续跑43832703159/133181675900、R854 N112续跑43832705685/133181715849均已进原数学；旧输入与完成阶段继续复用。H前态完整归档。
-- 本push规则：待公开Actions实际pull并回填；两README预期6979d793/35f82f3d，主目标OPEN。
+- 本push规则：公开Actions真实pull至fc6d692d2429e1e058c4c371e59b0f49ce201baf（2026-11-16T08:45:30.283891+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:48 Asia/Taipei — serre-public-astra-20261115
+- R878完成实际有限theta群与规范真T作用：原六级标记/ω与Frobenius固定六维源全保，完整D权过滤给原x、−xy两投影−B/B24；原低jet/标签/q-normal桥仍待做。
+- R873已actual success，17系数与2058阶单位子式；R877已actual success，24stage/单A及全1380行。只读实际小证书并保持原大输出为单日必要源，不重数学。
+- 本push规则：待公开Actions真实pull回填，两README预期6979d793/35f82f3d；主目标OPEN。

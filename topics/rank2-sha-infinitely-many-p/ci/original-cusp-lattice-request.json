@@ -1,0 +1,13 @@
+{
+  "request_id": "rank2-20261116T0845-original-cusp-lattice",
+  "utc": "2026-11-16 08:44:45 UTC",
+  "parameters": {
+    "M": 1024,
+    "bits": 384,
+    "radius": 2,
+    "top": 12
+  },
+  "image": "sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb",
+  "scope": "Original rational Hecke packet, exact full q-integrality necessary lattice for the original target Neron differential, and rigorous original Petersson degree bounds. LLL only selects candidates; q-integrality does not certify an actual Hom or a shadow.",
+  "output_policy": "Public Actions console only. Persist source, parameters, run and hashes; no recomputable coefficient/certificate output files, artifacts, or releases."
+}

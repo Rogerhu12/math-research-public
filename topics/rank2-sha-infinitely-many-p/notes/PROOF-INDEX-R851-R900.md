@@ -141,3 +141,6 @@
 
 
 - [R873](../results/R873-original-cm-petersson-norms-and-integral-hom-degree-bounds.md)：原β²准确conductor17/weight3level867，全3/17根号及Euler给正根AFE和严格尾；原指数3672与目标面积给Nj=L(βj²,2)/(24√3π²)、正度数权aj。公开run43832670630在3.862秒付d0∈(81734.1176,81734.1177)、g∈(26753.0337,26753.0338)；全unit真degree>23194880、3同源>7731626，故k2/4/6/8该全部轨道排除。未取整/未认一般有理Hecke方向不可行，转实际整微分格。
+
+
+- [R863附录A](../results/R863-original-balanced-frobenius-factor-and-partner-chain.md)：原Zj=EjJ_S与R307三算术线的交恰二维span(S,H3−H5)，剩余坐标−4c0+c1+2c2，真实f2不能免费扩中央零。固定Θ17有唯一全纯C2和c_b=−351/(2816b)，Z2=∇C2+c_bΘ17；完整whole除p行保同frame首对数商与全部低卷积，单位项不能替指定B非零。

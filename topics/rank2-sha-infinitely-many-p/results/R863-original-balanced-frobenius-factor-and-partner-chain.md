@@ -329,3 +329,240 @@ $$
 并保了 R860 已发现的所有 $\Xi,L$ 以及第一个奇伙伴。
 它没有将首尾单位、多项式非零或(23)的来源非零
 替代(26)中指定读数的非零。
+
+
+## 附录 A. 原第二列的算术交、唯一连接伴随与完整除 p 行
+
+本附录固定原 $J_S$，不把四个不同伙伴相认。所有 $b$ 尺度都保留；
+$q_F$ 表示下面固定 frame 的对数导数，不是另一个可选择的来源。
+引用 [R307](R307-jzero-three-original-sources-exact-reference-values-and-full-first-companion.md)
+的完整原 CM13 三线及其(18)–(25)的连接规范。
+
+### A.1 三个实际乘积与恰为二维的算术交
+
+令
+$$
+Z_j=E_jJ_S,\qquad P_c(X)=(X+b)(X-8b)=X^2-7bX-8b^2.
+$$
+由本篇(1)及共同 C24 注(6)，准确有
+$$
+\boxed{Z_j=\sigma^{34}x^2\,b^jX^{2-j}P_c(X),\qquad j=0,1,2.}
+\tag{A1}
+$$
+特别 $Z_2=b^2\sigma^{34}x^2P_c$，其首项为 $b^2z^{18}$。
+它属于原 whole degree34 型零格，原点质量严格为零。
+
+为使算术范围明确，R307 的三条原线在同一个 $b$ 模型中为
+$S=\sigma^{34}x^2P_{1,b}$、$H_3=\sigma^{34}x^2P_{3,b}$、
+$H_5=\sigma^{34}x^2P_{5,b}$，其中
+$$
+\begin{aligned}
+P_{1,b}&=X^4-\frac{53b}{7}X^3-\frac{12b^2}{7}X^2
+-\frac{80b^3}{7}X-\frac{128b^4}{7},\\
+P_{3,b}&=X^5-208bX^4+400b^2X^3+8128b^3X^2
++12032b^4X-2048b^5,\\
+P_{5,b}&=X^5+272bX^4-272b^2X^3-14912b^3X^2
+-6784b^4X+1024b^5 .
+\end{aligned}
+\tag{A2}
+$$
+在原 $b=17$ 算术框，它们分别是 $E_{17},E_{17^3},E_{17^5}$
+的已识别来源；R307 已支付后两者移到共同微分尺度的全部倍率。
+本附录只使用它们在同一框中的完整截面，不改变各自的 Hecke 角色。
+
+将(A2)与(A1)逐项比较，得到
+$$
+\boxed{
+S=Z_0-\frac47Z_1+\frac{16}{7}Z_2,\qquad
+D_{\rm ref}:=-\frac{H_3-H_5}{96b}=5Z_0+28Z_1-4Z_2 .
+}
+\tag{A3}
+$$
+因此，若
+$$
+\mathcal Z=\langle Z_0,Z_1,Z_2\rangle,\qquad
+\mathcal A=\langle S,H_3,H_5\rangle,
+$$
+则
+$$
+\boxed{\mathcal Z\cap\mathcal A=\langle S,D_{\rm ref}\rangle.}
+\tag{A4}
+$$
+证明不依赖一个未计算的谱投影：$\mathcal Z$ 全部质量零；
+$S(0)=0$、$H_3(0)=H_5(0)=1$，
+故 $\mathcal A$ 中质量零部分恰为右边的二维空间。
+(A3)把它包含在 $\mathcal Z$ 中，且两向量线性独立。
+
+准确的剩余坐标是
+$$
+\ell(c_0,c_1,c_2)=-4c_0+c_1+2c_2 .
+\tag{A5}
+$$
+它同时杀掉 $(1,-4/7,16/7)$ 和 $(5,28,-4)$，
+而 $\ell(0,0,1)=2$。更完整地，
+$$
+\boxed{
+\sum_{j=0}^2c_jZ_j
+=\frac{7(28c_0-5c_1)}{216}S
++\frac{4c_0+7c_1}{216}D_{\rm ref}
++\frac{\ell(c)}2Z_2 .
+}
+\tag{A6}
+$$
+所以 $Z_2$ 是此实际商的一条代表；没有说它本身已是纯 CM 谱线。
+
+在 $b=1$ 的原 $W_D$ 规范，写 $\rho=d(t)\Theta^{17}$、$d(t)=1+8t$。
+三个固定列 $f_j=(-1)^jt^{j+1}(t-1)$ 满足
+$$
+\rho f_j=Z_j,\qquad
+\sum_jc_{*,j}f_j=t(t-1)h_7(t)/7 .
+\tag{A7}
+$$
+一般 $b$ 时第一式为 $b^{-1}\rho f_j=Z_j$。
+特别深层接口实际出现的 $f_2=t^3(t-1)$
+并不在(A3)的两个已识别方向之内。
+(A7)只是同一个原输入的准确运输，不把整个 $K_1$ 尾像变成这三列，
+也不对相应整目标单位的高位 carry 作截断。
+
+### A.2 固定 Θ17 frame 下的唯一全纯伴随
+
+保持 R307 的
+$$
+F=\Theta^{17}=\sigma^{34}x^{17},\qquad
+\nabla_F=\partial_z-\frac{F'}F,\qquad X=x^3 .
+$$
+对 $C_R=\sigma^{34}x^3yR(X)$、$\deg R\le4$，
+$$
+\nabla_FC_R=\sigma^{34}x^2\mathcal L_bR,\qquad
+\mathcal L_bR=6X(X+b)R'-(25X+28b)R .
+\tag{A8}
+$$
+这是完整原点连接；一般 $\sigma^{34}yP(X)$
+在 $x=0$ 的两个点会留下 R307(21)的极，不能免费扩大全纯域。
+
+定义
+$$
+\begin{aligned}
+R_b(X)
+={}&\frac{2b^3}{7}-\frac{b^2X}{154}
+-\frac{135bX^2}{2464}
++\frac{351X^3}{4928}
+-\frac{351X^4}{2816b},\\
+c_b&=-\frac{351}{2816b},\qquad
+C_2=\sigma^{34}x^3yR_b(X).
+\end{aligned}
+\tag{A9}
+$$
+则有完整来源恒等式
+$$
+\boxed{Z_2=\nabla_FC_2+c_bF,\qquad C_2'(0)=-c_b.}
+\tag{A10}
+$$
+证明可直接按
+$$
+\mathcal L_bX^j=b(6j-28)X^j+(6j-25)X^{j+1}
+$$
+计算：$\mathcal L_bR_b=b^2P_c-c_bX^5$。
+这个两项带状矩阵的五个首 pivot 均非零，
+故在 $\deg R\le4$、余项为 $cX^5$ 的原规范中，$(R_b,c_b)$ 唯一。
+这也可由 R307 的原余行
+$(-6175,6916,-8008,9856,-14080,56320)$
+对 $X^2-7X-8$ 的值 $-7020$ 复核。
+没有将“存在一个 meromorphic primitive”代替这枚明确全纯伴随。
+
+$C_2$ 是原 whole degree34 型一截面，首阶为一；
+它在 $x=0$ 至少三阶零，全部有限连接极已经支付。
+(A9)分母只含 $2,7,11$ 和固定 $b$；
+$c_b=-3^3\cdot13/(2^8\cdot11b)$ 在本文原好素数处为单位。
+$F$ 的质量为一并原样保留，尚未被认作另一条已知算术中央来源。
+
+### A.3 同一伴随的 whole 除 p 行和不能删除的连接商
+
+以下所有 Hurwitz 读数都取原 CM 纤维，写
+$j_k(A)=\partial_z^kA(0)$，并记
+$c_p=(L_2H)(P)$ 为 R856 的实际 Hasse 导数。
+为避免混淆，$c_b$ 始终是(A9)的固定连接系数。
+
+R856 对原 whole degree34 截面 $A$ 给整量
+$$
+\mathcal D_{34,p,k}(A)
+=\frac{j_{p+k}(A)-34c_p\,k\,j_{k-1}(A)}p ,
+\tag{A11}
+$$
+这是原全参数定义在 $H(P)=0$ 的纤维值。
+尤其(A10)的两个 whole 输入准确满足
+$$
+j_{p+2}(C_2)=-68c_pc_b+p\mathcal D_{34,p,2}(C_2),
+\qquad
+j_{p+1}(F)=34c_p+p\mathcal D_{34,p,1}(F).
+\tag{A12}
+$$
+现在固定
+$$
+q_F=\frac{F'}F=34\left(\zeta+\frac yx\right).
+$$
+它是原点处的整 Hurwitz 级数，从五阶起；
+全局的准周期和有限连接极均仍在。
+特别不把 $q_FC_2$ 称为 whole degree34 输入。
+
+对(A10)取 $p+1$ 阶，使用 $Z_2(0)=0$ 的准确整性，
+得到
+$$
+\boxed{
+\mathcal K_{2,p}
+:=\frac{j_{p+1}(q_FC_2)+34c_pc_b}{p}\in\mathcal O_p,
+}
+\tag{A13}
+$$
+以及
+$$
+\boxed{
+\mathfrak B(Z_2)
+=\mathcal D_{34,p,2}(C_2)
++c_b\mathcal D_{34,p,1}(F)
+-\mathcal K_{2,p}\pmod p .
+}
+\tag{A14}
+$$
+(A13)的整性是(A10)、(A12)和原 $Z_2$ 的质量零共同推出的；
+没有对非 whole 乘积套用 R856。
+这显示 $c_b$ 是单位也不能单独决定 $\mathfrak B(Z_2)$。
+
+连接商还可把全部低卷积写明。因为 $F(0)=1$，$F'=q_FF$，
+Leibniz 式在第 $p$ 阶给
+$j_p(q_F)\equiv j_{p+1}(F)\equiv34c_p\pmod p$。
+定义原固定 frame 的整量
+$$
+\mathcal L_p(F)=\frac{j_p(q_F)-34c_p}{p}.
+$$
+由 $q_F$ 型五、$C_2$ 型一及 $j_1(C_2)=-c_b$，
+准确得到
+$$
+\boxed{
+\mathcal K_{2,p}\equiv
+-c_b\bigl(34c_p+\mathcal L_p(F)\bigr)
+-\sum_{\substack{5\le r\le p-6\\r\equiv5\ (6)}}
+\frac{j_r(q_F)\,j_{p+1-r}(C_2)}{r(r-1)}
+\pmod p .
+}
+\tag{A15}
+$$
+这里先保端项
+$-(p+1)c_bj_p(q_F)$，再用
+$\binom{p+1}{r}/p\equiv-1/(r(r-1))$；
+原端项的下一位不能在除 $p$ 前删除。
+和式所有读数严格低于 $p$，而 $\mathcal L_p(F)$
+仍是同一个实际 $\Theta^{17}$ 的首对数商，不是可自由指定的数。
+
+最后，(A3)在原 canonical 行上的参考项准确为
+$$
+\mathfrak B(D_{\rm ref})
+=-\frac{\mathcal D_{34,p,1}(H_3)
+-\mathcal D_{34,p,1}(H_5)}{96b}\pmod p .
+\tag{A16}
+$$
+两个质量一来源的 Hasse 修正相消；没有分别对 $H_3,H_5$
+使用质量零的定义。R307 的秩零和非零复中央值
+不将这两条原中央导数赋零。
+因此(A6)、(A14)–(A16)保留了原第二列的全部实际算术参考和连接商，
+没有给四条原中央条件以外的附加零。

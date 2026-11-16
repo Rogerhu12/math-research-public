@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""New bounded search for the five complete real cap conditions. No old inputs."""
+"""Continue one cap5 search after its actual startup failure; reuse its paid prefix."""
 import time
 ENTRY_STARTED = time.perf_counter()
 
 import argparse
+import copy
+import io
 import hashlib
 import json
 import math
@@ -15,6 +17,65 @@ import sys
 import traceback
 
 SCHEMA = "cap5-positive-curvature-search-v1"
+
+# This is the same original120-second/400-started-integral allocation.
+# The prior failure and its completed prefix are never erased or rerun.
+CONTINUATION_POLICY = "cap5-paid-prefix-startup-repair-v1"
+CARRIED_SECONDS = 0.5630522320000182
+CARRIED_STARTED = 2
+CARRIED_COMPLETED = 1
+CARRIED_FAILED = 1
+CARRIED_RHS_CALLS = 14
+CARRIED_PREFIX_CALLS = 63
+CARRIED_RECORD_COUNT = 6
+CARRIED_RECORD_OUTPUT_BYTES = 8431
+FIRST_STEP = 1e-6
+REPAIR_DESIGN = "notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md"
+
+CARRIED_SOURCE = {
+    "repository": "Rogerhu12/math-research-public",
+    "run_id": "43831664308",
+    "job_id": "133178210211",
+    "source_commit": "03bfffd120026aa5f25187dc0c0ec5c01705e709",
+    "workflow": ".github/workflows/visible-cap-five-positive-curvature-search.yml",
+    "log_bytes": 106370,
+    "log_sha256": "0e78611cfb99dc2e6a9158991d920a3740185919bb25924c5a4865333fce2520",
+    "original_request": {
+        "path": "topics/visible-flex-new-mechanism/computations/request-cap-five-positive-curvature-search.json",
+        "bytes": 6143,
+        "sha256": "353d61eae47e5763176eee3dff13edd56b0e000660afe959cbbe44f799d85c8f"
+    }
+}
+CARRIED_RECORDS = [
+    {
+        "tag": "CAP5_RECORD",
+        "kind": "PREFIX_COMPLETE",
+        "record": 3,
+        "bytes": 655,
+        "sha256": "d1bd2dca8e358f526f9fd904fe37e79c6d651c00ac36e502712b8c98c4015c76"
+    },
+    {
+        "tag": "CAP5_RECORD",
+        "kind": "INTEGRAL_FAILED",
+        "record": 5,
+        "bytes": 854,
+        "sha256": "37a2d67d6536a04d4cfb87e59cfd03a83c83e5b4e57dc64f75af8addab85a7a3"
+    },
+    {
+        "tag": "CAP5_RECORD",
+        "kind": "FINAL_REPORT",
+        "record": 6,
+        "bytes": 4837,
+        "sha256": "858e14bf1727a21e3740e54140158f642339ce4e1b04066cf0218174884ca6b6"
+    },
+    {
+        "tag": "CAP5_FINAL_CLOCK",
+        "kind": "FINAL_CLOCK",
+        "record": None,
+        "bytes": 333,
+        "sha256": "a4ec5d0df80d2f929bae363319c95095d744989a4a329d9af06dbf4ae688b4ef"
+    }
+]
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 N = 15
 A_START = 1.0 / 32.0
@@ -41,7 +102,6 @@ BINOMIAL = tuple(tuple(math.comb(k, j) if j <= k else 0
                        for k in range(8)) for j in range(8))
 np = None
 solve_ivp = None
-quad_vec = None
 least_squares = None
 
 
@@ -74,14 +134,16 @@ def finite_json(value):
 class Ledger:
     def __init__(self):
         self.stage = "entry"
-        self.integrals_started = 0
-        self.integrals_completed = 0
-        self.integrals_failed = 0
-        self.rhs_calls = 0
-        self.prefix_calls = 0
+        self.integrals_started = CARRIED_STARTED
+        self.integrals_completed = CARRIED_COMPLETED
+        self.integrals_failed = CARRIED_FAILED
+        self.rhs_calls = CARRIED_RHS_CALLS
+        self.prefix_calls = CARRIED_PREFIX_CALLS
+        self.carried_receipt_verified = False
+        self.carried_receipt = None
         self.cache_hits = 0
-        self.output_bytes = 0
-        self.record_count = 0
+        self.output_bytes = CARRIED_RECORD_OUTPUT_BYTES
+        self.record_count = CARRIED_RECORD_COUNT
         self.output_cap = 3000000
         self.output_compacted = 0
         self.output_limit_reached = False
@@ -98,7 +160,7 @@ class Ledger:
         self.whitening_singular_values = None
 
     def elapsed(self):
-        return time.perf_counter() - ENTRY_STARTED
+        return CARRIED_SECONDS + time.perf_counter() - ENTRY_STARTED
 
     def check(self, phase=None):
         e = self.elapsed()
@@ -111,6 +173,8 @@ class Ledger:
 
     def charge(self, phase, details):
         self.check(phase)
+        if not self.carried_receipt_verified or self.prefix is None:
+            raise RuntimeError("authenticate and restore the completed prefix before new science")
         if self.integrals_started >= 400:
             raise BudgetStop("shared 400 started integral cap reached")
         if phase == "search" and self.integrals_started >= 397:
@@ -142,6 +206,15 @@ class Ledger:
     def costs(self):
         return {
             "elapsed_from_before_scientific_imports": self.elapsed(),
+            "current_process_elapsed_seconds": time.perf_counter() - ENTRY_STARTED,
+            "carried_failed_attempt_seconds": CARRIED_SECONDS,
+            "same_original120_second_allocation_not_reset": True,
+            "carried_receipt_verified": self.carried_receipt_verified,
+            "current_process_integrals_started": self.integrals_started-CARRIED_STARTED,
+            "current_process_integrals_completed": self.integrals_completed-CARRIED_COMPLETED,
+            "current_process_integrals_failed": self.integrals_failed-CARRIED_FAILED,
+            "current_process_rhs_calls": self.rhs_calls-CARRIED_RHS_CALLS,
+            "current_process_prefix_quadrature_calls": self.prefix_calls-CARRIED_PREFIX_CALLS,
             "integrals_started": self.integrals_started,
             "integrals_completed": self.integrals_completed,
             "integrals_failed": self.integrals_failed,
@@ -395,43 +468,137 @@ def endpoint_pack(state, parameters, integral_id, phase, settings, diagnostics):
     }
 
 
-def prepare_prefix(ledger):
-    ledger.stage = "new_exact_germ_prefix_integral"
-    iid = ledger.charge("prefix", {"interval": [0.0, A_START]})
-    started = time.perf_counter()
-    try:
-        def callback(y):
-            ledger.prefix_calls += 1
-            ledger.check()
-            u, p, r, _, _, _ = germ_data(float(y))
-            return translation_matrix(float(y)-1.0) @ density(u, p, r)[0]
-        values, error = quad_vec(
-            callback, 0.0, A_START, epsabs=1e-25, epsrel=1e-12,
-            norm="max", limit=200)
-        u, _, _, v, vp, _ = germ_data(A_START)
-        ledger.prefix = {"coefficients": np.asarray(values),
-                         "u": u, "v": v, "v_prime": vp,
-                         "estimated_error": float(error)}
-        ledger.integrals_completed += 1
-        ledger.last_completed = {"integral_id": iid, "phase": "prefix",
-                                 "prefix": ledger.prefix}
-        ledger.emit("PREFIX_COMPLETE", {
-            "integral_id": iid, "coefficients": values,
-            "initial_u_v_vprime": [u, v, vp],
-            "estimated_error_not_rigorous": float(error),
-            "elapsed_integral": time.perf_counter()-started,
-            "original_interval_not_truncated": [0.0, A_START],
-            "analytic_limit_at_zero": 0.0,
-            "floating_underflow_is_not_an_exact_vanishing_claim": True,
-        })
-    except Exception as exc:
-        ledger.integrals_failed += 1
-        ledger.emit("INTEGRAL_FAILED", {
-            "integral_id": iid, "phase": "prefix", "error": repr(exc),
-            "elapsed_integral": time.perf_counter()-started,
-            "costs": ledger.costs()})
-        raise
-
+def restore_paid_prefix(request, ledger):
+    """One read of the original failed job; no germ or quadrature evaluation."""
+    ledger.stage = "read_paid_cap5_prefix_and_failed_account"
+    import read_original_actions_log as reader
+    if (request.get("continuation_policy") != CONTINUATION_POLICY
+            or request.get("carried_source") != CARRIED_SOURCE
+            or request.get("carried_records") != CARRIED_RECORDS
+            or request.get("startup_control") != {
+                "first_step": FIRST_STEP, "no_exponential_clipping": True,
+                "same_math_family_targets_and_six_starts": True}):
+        raise ValueError("the exact source failure and one startup repair are required")
+    ledger.check()
+    api = reader.GitHubReader(CARRIED_SOURCE["repository"])
+    run_meta = api.api_json("/actions/runs/" + CARRIED_SOURCE["run_id"])
+    job_meta = api.api_json("/actions/jobs/" + CARRIED_SOURCE["job_id"])
+    if not (str(run_meta["id"]) == str(job_meta["run_id"]) == CARRIED_SOURCE["run_id"]
+            and str(job_meta["id"]) == CARRIED_SOURCE["job_id"]
+            and run_meta["head_sha"] == job_meta["head_sha"] == CARRIED_SOURCE["source_commit"]
+            and run_meta["status"] == job_meta["status"] == "completed"
+            and run_meta["conclusion"] == job_meta["conclusion"] == "failure"
+            and run_meta["path"] == CARRIED_SOURCE["workflow"]):
+        raise ValueError("the original failed cap5 run/job/source differs")
+    ledger.check()
+    original_request = CARRIED_SOURCE["original_request"]
+    original_request_bytes = api.content(
+        original_request["path"], CARRIED_SOURCE["source_commit"], 8192)
+    if (len(original_request_bytes) != original_request["bytes"]
+            or hashlib.sha256(original_request_bytes).hexdigest() != original_request["sha256"]):
+        raise ValueError("the original mathematical request changed")
+    original = reader.decode_json(original_request_bytes)
+    for name in ("schema", "entry_point", "limits", "dependencies", "family",
+                 "starts", "mathematical_sources", "classification"):
+        if request.get(name) != original.get(name):
+            raise ValueError("startup repair changed the original mathematical request: " + name)
+    ledger.check()
+    raw, redirects = api.job_log(CARRIED_SOURCE["job_id"])
+    if (len(raw) != CARRIED_SOURCE["log_bytes"]
+            or hashlib.sha256(raw).hexdigest() != CARRIED_SOURCE["log_sha256"]):
+        raise ValueError("the original failed cap5 raw stdout changed")
+    expected = {(pin["tag"], pin["record"]): pin for pin in CARRIED_RECORDS}
+    saved, complete_records, clocks = {}, [], []
+    record_output_bytes = 0
+    for line in io.StringIO(raw.decode("utf-8-sig")):
+        clean = reader.ANSI.sub("", line.rstrip("\r\n")).lstrip("\ufeff")
+        match = reader.TIME_PREFIX.match(clean)
+        if match is None:
+            continue
+        body = match.group(2).lstrip("\ufeff")
+        tag, sep, payload = body.partition(" ")
+        if not sep or tag not in ("CAP5_RECORD", "CAP5_FINAL_CLOCK"):
+            continue
+        ledger.check()
+        literal = payload.encode("utf-8") + b"\n"
+        value = reader.decode_json(literal)
+        if tag == "CAP5_RECORD":
+            complete_records.append(value)
+            record_output_bytes += len((tag+" ").encode("utf-8")) + len(literal)
+            key = (tag, value.get("record"))
+        else:
+            clocks.append(value)
+            key = (tag, None)
+        if key in expected:
+            pin = expected[key]
+            if (len(literal) != pin["bytes"]
+                    or hashlib.sha256(literal).hexdigest() != pin["sha256"]
+                    or (tag == "CAP5_RECORD" and value.get("kind") != pin["kind"])):
+                raise ValueError("the paid cap5 record bytes/hash changed: " + str(key))
+            if key in saved:
+                raise ValueError("duplicate paid cap5 record")
+            saved[key] = value
+    del raw
+    if (set(saved) != set(expected) or len(clocks) != 1
+            or [x.get("record") for x in complete_records] != list(range(1, 7))
+            or record_output_bytes != CARRIED_RECORD_OUTPUT_BYTES):
+        raise ValueError("the complete paid failure/prefix record sequence is required")
+    prefix = saved[("CAP5_RECORD", 3)]["data"]
+    failure = saved[("CAP5_RECORD", 5)]["data"]
+    report = saved[("CAP5_RECORD", 6)]["data"]
+    clock = saved[("CAP5_FINAL_CLOCK", None)]
+    cost = report["costs_before_final_output"]
+    if not (clock["entry_elapsed_seconds_including_output"] == CARRIED_SECONDS
+            and clock["authoritative_clock_supersedes_pre_output_costs"] is True
+            and clock["integrals_started"] == cost["integrals_started"] == CARRIED_STARTED
+            and clock["integrals_completed"] == cost["integrals_completed"] == CARRIED_COMPLETED
+            and clock["integrals_failed"] == cost["integrals_failed"] == CARRIED_FAILED
+            and cost["rhs_calls"] == CARRIED_RHS_CALLS
+            and cost["prefix_quadrature_calls"] == CARRIED_PREFIX_CALLS
+            and report["status"] == "partial_or_entry_failure"
+            and failure["integral_id"] == 2 and failure["rhs_calls_actual"] == CARRIED_RHS_CALLS
+            and failure["error"] == "OverflowError('math range error')"
+            and report["request_bytes"] == original_request["bytes"]
+            and report["request_sha256"] == original_request["sha256"]
+            and report["partial_progress"]["best"] is None
+            and report["partial_progress"]["starts"] == []
+            and report["partial_progress"]["refinements"] == []):
+        raise ValueError("the prior failed startup account or unchanged-search state differs")
+    restored = copy.deepcopy(report["partial_progress"]["prefix"])
+    if not (prefix["integral_id"] == 1
+            and prefix["original_interval_not_truncated"] == [0.0, A_START]
+            and prefix["coefficients"] == restored["coefficients"]
+            and prefix["initial_u_v_vprime"] == [restored["u"], restored["v"], restored["v_prime"]]
+            and prefix["estimated_error_not_rigorous"] == restored["estimated_error"]
+            and report["partial_progress"]["last_completed"]["prefix"] == restored
+            and len(restored["coefficients"]) == 8
+            and all(math.isfinite(x) for x in restored["coefficients"])
+            and all(math.isfinite(restored[k]) and restored[k] > 0
+                    for k in ("u", "v", "v_prime"))):
+        raise ValueError("the exact paid prefix payload is incomplete")
+    ledger.prefix = restored
+    ledger.last_started = copy.deepcopy(report["partial_progress"]["last_started"])
+    ledger.last_rhs = copy.deepcopy(report["partial_progress"]["last_rhs"])
+    ledger.last_completed = copy.deepcopy(report["partial_progress"]["last_completed"])
+    ledger.carried_receipt = {
+        "policy": CONTINUATION_POLICY, "source": copy.deepcopy(CARRIED_SOURCE),
+        "records": copy.deepcopy(CARRIED_RECORDS), "source_final_clock": copy.deepcopy(clock),
+        "carried_counts": {"started": CARRIED_STARTED, "completed": CARRIED_COMPLETED,
+                           "failed": CARRIED_FAILED, "rhs": CARRIED_RHS_CALLS,
+                           "prefix_callbacks": CARRIED_PREFIX_CALLS},
+        "prefix_original_integral_id": 1, "failed_original_integral_id": 2,
+        "no_completed_cap_was_available": True, "next_integral_id": 3,
+        "original_math_request_compared_field_by_field": True,
+        "redirect_count_no_credential_forwarding": redirects,
+        "new_prefix_quadrature_calls": 0}
+    ledger.carried_receipt_verified = True
+    ledger.emit("PREFIX_RESTORED", {
+        "prefix": ledger.prefix, "paid_source": ledger.carried_receipt,
+        "first_step": FIRST_STEP,
+        "no_new_integral_or_prefix_rhs_charged_for_restore": True,
+        "all_read_import_and_serialization_seconds_in_same_remaining_budget": True,
+        "costs": ledger.costs()})
+    ledger.check()
 
 def evaluate(ledger, parameters, phase, rtol, atol, max_step):
     parameters = np.asarray(parameters, dtype=float)
@@ -440,13 +607,14 @@ def evaluate(ledger, parameters, phase, rtol, atol, max_step):
     if np.max(np.abs(parameters)) > 6.000000000001:
         raise ValueError("fixed parameter box exceeded")
     key = (tuple(float(x).hex() for x in parameters),
-           float(rtol), float(atol), float(max_step))
+           float(rtol), float(atol), float(max_step), FIRST_STEP)
     if key in ledger.cache:
         ledger.cache_hits += 1
         ledger.check(phase)
         return ledger.cache[key]
     settings = {"method": "DOP853", "rtol": rtol, "atol": atol,
-                "max_step": max_step, "analytic_sensitivities": N,
+                "max_step": max_step, "first_step": FIRST_STEP,
+                "analytic_sensitivities": N,
                 "positive_state_coordinates": "log(v),log(v_prime),log(u)"}
     ledger.stage = "new_cap_integral_" + phase
     iid = ledger.charge(phase, {"parameters": parameters.tolist(),
@@ -463,9 +631,12 @@ def evaluate(ledger, parameters, phase, rtol, atol, max_step):
             ledger.rhs_calls += 1
             ledger.check(phase)
             state = flat.reshape(11, N+1)
-            v, w, u = (math.exp(float(state[j, 0])) for j in range(3))
+            logs = [float(state[j, 0]) for j in range(3)]
             ledger.last_rhs = {"integral_id": iid, "coordinate": float(y),
-                               "v": float(v), "v_prime": float(w), "u": float(u)}
+                               "log_v_log_vprime_log_u": logs}
+            # Preserve the actual failing stage if exp raises; never clip it.
+            v, w, u = (math.exp(value) for value in logs)
+            ledger.last_rhs.update(v=float(v), v_prime=float(w), u=float(u))
             if v <= 0.0 or w <= 0.0 or u < 0.0:
                 raise ArithmeticError("nonpositive floating interior state")
             bb = basis(float(y))
@@ -495,7 +666,8 @@ def evaluate(ledger, parameters, phase, rtol, atol, max_step):
             return out.ravel()
         sol = solve_ivp(
             rhs, (A_START, 1.0), state0.ravel(), method="DOP853",
-            rtol=rtol, atol=atol, max_step=max_step, dense_output=False)
+            rtol=rtol, atol=atol, max_step=max_step,
+            first_step=FIRST_STEP, dense_output=False)
         if not sol.success or abs(float(sol.t[-1])-1.0) > 1e-14:
             raise ArithmeticError("complete cap integration did not reach endpoint: " +
                                   str(sol.message))
@@ -550,15 +722,16 @@ def validate_request(request, ledger):
     }:
         raise ValueError("request must retain fixed limits")
     expected_paths = {"scripts/literature_cap5_positive_curvature_search.py",
-                      "notes/cap-five-positive-curvature-search-design-20261116.md"}
+                      "notes/cap-five-positive-curvature-search-design-20261116.md",
+                      REPAIR_DESIGN}
     if {x.get("path") for x in request.get("source_manifest", [])} != expected_paths:
-        raise ValueError("complete two-source manifest required")
+        raise ValueError("entry, original design and one repair addendum are required")
     for item in request.get("source_manifest", []):
         path = ROOT / item["path"]
         data = path.read_bytes()
         if len(data) != item["bytes"] or hashlib.sha256(data).hexdigest() != item["sha256"]:
             raise ValueError("bound source bytes/hash changed: " + item["path"])
-    if request.get("scientific_inputs") != "new_family_only_no_paid_logs":
+    if request.get("scientific_inputs") != "same_cap5_family_paid_prefix_only_one_startup_repair":
         raise ValueError("unexpected input scope")
     starts = request["starts"]
     if len(starts) != 6 or any(len(x) != N for x in starts):
@@ -571,13 +744,16 @@ def validate_request(request, ledger):
 
 
 def run(request, ledger):
-    global np, solve_ivp, quad_vec, least_squares
+    global np, solve_ivp, least_squares
+    # Restore only the paid prefix/account before any new scientific call.
+    validate_request(request, ledger)
+    restore_paid_prefix(request, ledger)
     ledger.stage = "scientific_imports"
     import numpy
     import scipy
-    from scipy.integrate import solve_ivp as sivp, quad_vec as qv
+    from scipy.integrate import solve_ivp as sivp
     from scipy.optimize import least_squares as ls
-    np, solve_ivp, quad_vec, least_squares = numpy, sivp, qv, ls
+    np, solve_ivp, least_squares = numpy, sivp, ls
     if platform.python_version() != "3.12.14":
         raise ValueError("Python version must be 3.12.14")
     if np.__version__ != "2.3.5" or scipy.__version__ != "1.17.0":
@@ -589,9 +765,9 @@ def run(request, ledger):
     ledger.emit("ENTRY", {
         "python": platform.python_version(), "numpy": np.__version__,
         "scipy": scipy.__version__, "family": request["family"],
-        "no_old_scientific_inputs": True, "costs": ledger.costs()})
-    validate_request(request, ledger)
-    prepare_prefix(ledger)
+        "only_paid_prefix_reused_no_old_self_rank_or_psi3E": True,
+        "continuation_policy": CONTINUATION_POLICY,
+        "startup_first_step": FIRST_STEP, "costs": ledger.costs()})
     base = evaluate(ledger, np.zeros(N), "search", 2e-9, 1e-13, 1/128)
     ledger.check("search")
     jac0 = np.asarray(base["reduced_parameter_jacobian"])
@@ -736,6 +912,9 @@ def main():
     finally:
         report["last_stage"] = ledger.stage
         report["costs_before_final_output"] = ledger.costs()
+        report["carried_source_receipt"] = ledger.carried_receipt
+        report["continuation_policy"] = CONTINUATION_POLICY
+        report["startup_first_step"] = FIRST_STEP
         report["partial_progress"] = {
             "last_started": ledger.last_started,
             "last_rhs": ledger.last_rhs,
@@ -757,9 +936,18 @@ def main():
             print("CAP5_FINAL_OUTPUT_FAILURE " + json.dumps({
                 "error": repr(exc), "costs": ledger.costs(),
                 "no_further_science": True}, allow_nan=False), flush=True)
-        final_elapsed = time.perf_counter() - ENTRY_STARTED
+        current_elapsed = time.perf_counter() - ENTRY_STARTED
+        final_elapsed = CARRIED_SECONDS + current_elapsed
         print("CAP5_FINAL_CLOCK " + json.dumps({
-            "schema": SCHEMA, "entry_elapsed_seconds_including_output": final_elapsed,
+            "schema": SCHEMA, "entry_elapsed_seconds_including_output": current_elapsed,
+            "carried_failed_attempt_seconds": CARRIED_SECONDS,
+            "total_same_scope_seconds_including_carried": final_elapsed,
+            "same_original120_second_allocation_not_reset": True,
+            "carried_receipt_verified": ledger.carried_receipt_verified,
+            "current_process_integrals_started": ledger.integrals_started-CARRIED_STARTED,
+            "current_process_integrals_completed": ledger.integrals_completed-CARRIED_COMPLETED,
+            "current_process_integrals_failed": ledger.integrals_failed-CARRIED_FAILED,
+            "rhs_calls": ledger.rhs_calls, "prefix_quadrature_calls": ledger.prefix_calls,
             "authoritative_clock_supersedes_pre_output_costs": True,
             "budget_seconds": 120.0, "overrun": final_elapsed > 120.0,
             "integrals_started": ledger.integrals_started,
