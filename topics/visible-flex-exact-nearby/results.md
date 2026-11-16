@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WDH：完整腰端误差给出的显式高频块可逆门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)：同一selected homogeneous图域，九条旧完整界与精确dyadic比较给J=2^4608、χ<2^-44、逆范数<2。仅该高target块；J−1维finite/Θ96/原96列/physical两mean/ν/无限radialhead及all-s仍待。新球与旧重算均0。
+
 - [W4MA：完整四步物理均值与 Hilbert–Schmidt 接收的实际证明](results/R133-supplement-actual-complete-four-step-physical-mean-and-Hilbert-Schmidt-reception.md)：保存 run43887930151/1 全部 31 槽（30 新、T0 原对象副本）、47 原对象/typed paths、11 全资格和16门/progress；原43886171523预核失败保持 child0，窄修只读取正确的旧归一化字段。两完整选择只与 WRPA 比较；完整两 mean、四端、3070 接缝及未付 finite/high 门都保。全三件112502B，proof47025B/SHA2564817fed3；旧和本次已成目标均禁止重算。
 
 - [WSMFA：逐阶严格通量与完整物理均值的实际全量证明](results/R133-supplement-actual-per-index-strict-flux-and-complete-physical-mean-bound.md)：独核 run43886938106/1 的 SCI、execution、manifest、workflow 和全部原输入；保全部 52 新球、62 原球、4 readback、48 全 context、8 全资格、13 文件身份、两 same-operator 选择及四次真实 pull。完整 whole/reduced 各约 2.095886e302，旧腰 scattering 现主导；18 门全部只认证本次有限界，未授 signed finite/high/Nash/最终族。proof 57905B/SHA256190b66b7，所有已成目标冻结。

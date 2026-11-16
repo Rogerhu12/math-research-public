@@ -40,9 +40,9 @@ WPL052bd8ed/WUEe191f96a完整原式与scope逐字保[当前完整检查点](note
 
 **当前须闭合：** 得到可用的same-operator whole强误差预算并付正确高门；实际physical有限列、全部输出交叉/pairing、真square逆及完整finite/mean/ν块仍待。unknown radialhead/source/exterior/amp与trueν仍独立，reference不代physical，Ti同空间Fourierχ和坐标像定义不代onto。下一positive新trial及whole物理行预算只能按全式改界，不重旧成功。
 
-[WFR精确根有限因子](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：同RF经真实root有限trace因子化，安全386实维、原mean0/parity可用384/192；完整接左右WBP与graph，仅E°进入高Neumann门，root因子以z=Vu全额留border，不要求其high/high小。全部U/V实际entries、真实96列/Θ约束、physicalmean/ν及无限radialhead仍待；不减任何旧upper，不把高输出丢掉。
+[WFR](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：完整root有限因子/WBP/graph；E°进高门、z=Vu留border，高输出不删。全部entries/cross、真96/Θ、physicalmean/ν/无限head仍待；原scope与维数完整保62353730862c1defd1379abcacc3099357d09e70。
 
-[WCF精确系数有限因子](results/R133-supplement-exact-finite-coefficient-factors-and-remaining-graph-error.md)452ee9e4：同Dalg保完整FJ、两primitive ranks、原−(h−1)ρi及新+(h−1)ell2；仅其余两twoI组成D∞，直接正费无Ph，不减wholeupper。安全2431/实际反射可1119只是aux维数；与WFR接同WGB high/finite全部cross、Θ/真96列/ν/无限head，实际entries及passinggate仍待。
+[WCF](results/R133-supplement-exact-finite-coefficient-factors-and-remaining-graph-error.md)452ee9e4：完整FJ/primitive/ρi/ell2留finite，两twoI余项D∞直接正费，无Ph不减upper。全部aux维数和原scope同上述不可变页；cross/Θ/真96/ν/无限head/实际entries仍待。
 
 [WSPA实际新界](results/R133-supplement-actual-Schur-Parseval-positive-and-exact-coefficient-split-bounds.md)4b5104c2：43816689251/1已16门/4图成功；same Rplus整选3.0660269163…e28，D∞新2.3328477893…e9与ell2非whole Calg。完整PCRA55533B/49slots及全mean/finite保，old0，禁重；全局门仍待。
 
@@ -195,3 +195,5 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 [WRPA实际相对pullback](results/R133-supplement-actual-relative-phase-pullbacks-and-complete-receiver.md)b6c22c38/43881690924全40/14门冻结；Bc约8.421e235/Bt9.109e225，whole/reduced各选new。44原/9scope及原mean/端全保，old0/lost0，无smallness。
 
 [W4MA](results/R133-supplement-actual-complete-four-step-physical-mean-and-Hilbert-Schmidt-reception.md)4817fed3/43887930151全30新+T0copy/5图16门冻结；47old/11scope、两mean/四端/3070全保。whole/reduced只对WRPA选new≈2.095886e302，不冒与WSMF比较。首438861预核failed/child0保，old0/lost0；finite/matching未闭。
+
+[WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
