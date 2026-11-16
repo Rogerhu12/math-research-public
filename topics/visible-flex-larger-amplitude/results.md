@@ -98,3 +98,7 @@
 ## R548 — request231缓存owner与完整同DN模型实际入口
 
 **完整请求、工作流及来源/原门组合已证明，实际结果R549另付。** [R548](results/R548-request231-cached-owner-and-same-DN-model-complete-entry.md)三件144327B/topic121313B：request95286/f70f、workflow23014/f1d3、证明全接口26027/fd1b。原229372全pin和八原输入/runtime/resources/contract/README对象逐值不变，当前348public+39gen=387；真R547 prepare→实际全来源→原输入→唯一19200科学，实际R535 compiler+R534 defer同scope，全128tol/replay/同DN全576模型/准确lift/338endpoint/全FD/fullDN/freshaudit及全部cap不减。八完整RootStats/来源表及原model/guard/未访保持，source/science各90K，缺正文或运输错清complete、report第二体always、cleanup实际重核quiet。独立workflow_dispatch，只发布后单次POST另记官方run/head，geometry唯一R549，不借226/229数值、无速度/接受预填。
+
+## 固定f93行政保留与231官方绑定
+
+[完整引用审计和九件恢复索引](notes/2026-11-16-fixed-f93-historical-administrative-retention.md)19644/1832：run43865360393/job133292401375完整32,263/087a，固定f93全55367跟踪文件、88模式/30文件/47行完整返回；九旧行政inventory/receipt/配套archive-manifest共1223890B只内部引用。root另核f93→05ae全97文件新增范围，21缺patch全文补齐、36候选token无新引用且九当前blob/bytes未变，普通移出main、固定f93完整恢复，四producer/十一研究log/全部科学输入/41/54保。首次audit因缺rg未扫描，第二次真实git-grep回退，不作新数学结论。[231官方绑定](notes/2026-11-16-request231-official-run-binding.md)证单POST200/run43865772589/head同05ae、compute133293818912已step11，geometry唯一R549，未读running日志。
