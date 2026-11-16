@@ -1,0 +1,1059 @@
+{
+  "budget_minutes": 60,
+  "core": "R866_original_holomorphic_descent.py",
+  "core_sha256": "2b8aa7c10efcca6899df4de84abb3eb0b81e414aae931de9cca578dfffcc9fce",
+  "input_carrier": {
+    "input_bundle": {
+      "bytes": 3237190,
+      "file": "R853-retained-original-inputs.tar.gz",
+      "sha256": "e17c356b73a1e08c64c71e02373b9afa58ddcd219956d437c7d20881ec5ed13c"
+    },
+    "input_receipt": {
+      "bytes": 11764,
+      "file": "R853-retained-inputs-receipt.json",
+      "sha256": "7f9569ccb4fbbfda1f3498500e81bb0596cebc33274ba80614008ae47407789f"
+    },
+    "original_member_count": 169,
+    "selected_original_groups": [
+      "R786",
+      "R837"
+    ],
+    "source_inventory": {
+      "bytes": 31959,
+      "file": "R853-original-source-inventory.json",
+      "sha256": "89c1807f1822ec9fe0a774596d5f0d025fc2835eea47953eeaf7ec0269466369"
+    },
+    "source_label": "R853"
+  },
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R866-original-holomorphic-semilinear-action-and-Q-fixed-basis.md",
+  "method_sha256": "0ecc37602135f9605e52e667a9e180215213772192f09897dce33026030a96f9",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proofs": {
+    "R802": {
+      "path": "results/R802-original-semilinear-parity-and-degree-seven-relations.md",
+      "sha256": "2e8a3b19685d6f607d4f1b000c98e34a98370aa54a98ffeeb2c59e892ba393ca"
+    },
+    "R853": {
+      "path": "results/R853-certified-original-three-V1-conjugates-and-semilinear-generators.md",
+      "sha256": "f9635345f5f1ab4a3911fc34d8a5f303b73205486faef1ab3b06fe79f8087333"
+    },
+    "R853_method": {
+      "path": "notes/R853-original-three-V1-conjugates-method.md",
+      "sha256": "bd82f308ea3949cf71f956ae4210fb8191b171b1d85981028a3b97c7afd872a3"
+    },
+    "R860": {
+      "path": "notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md",
+      "sha256": "7a200b7dd74e1fd51b43e2bac12d277f7b5a3e4fa4161f463bf8c20d51eadf3f"
+    },
+    "R864": {
+      "path": "notes/R864-original-holomorphic-differentials-from-cusp-evaluation.md",
+      "sha256": "3f308ffa2c4ce7bc217f12f1f1b5c31bd0ef425ed90953721e7176e863ac8c7e"
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R866-original-holomorphic-semilinear-descent",
+  "resume": null,
+  "rules_last_read_commit": "aa45ec93ff0530a2af545bfea1185b8c5a8ac6cd",
+  "sources": {
+    "R786": {
+      "certificate": {
+        "bytes": 8510,
+        "file": "p41-exact-original-power5-short-basis-certificate.json",
+        "sha256": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9"
+      },
+      "configuration_sha256": "fb62a25c326ece7550813849457e39479d17eec2d7fd31741e7e65e84feb9061",
+      "core_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
+      "expected_conclusion": "success",
+      "files": {
+        "R786-exact-power-1-row-0000.json.gz": {
+          "bytes": 9117,
+          "file": "R786-exact-power-1-row-0000.json.gz",
+          "sha256": "4a0c8371deaf8e2fb1b94faa626f0eb206d4d1738ddc5e8cfcf461615ffdbdf7"
+        },
+        "R786-exact-power-1-row-0001.json.gz": {
+          "bytes": 9110,
+          "file": "R786-exact-power-1-row-0001.json.gz",
+          "sha256": "0840b3a130c034620507c64ba6f68652b9b0f9394076425a27655ded81456937"
+        },
+        "R786-exact-power-1-row-0002.json.gz": {
+          "bytes": 9114,
+          "file": "R786-exact-power-1-row-0002.json.gz",
+          "sha256": "cb284900f198b236abac240c88c9de85714891d2f963537d679810dd0000a7da"
+        },
+        "R786-exact-power-1-row-0003.json.gz": {
+          "bytes": 9194,
+          "file": "R786-exact-power-1-row-0003.json.gz",
+          "sha256": "a31daaeb4192588626dd9494a0bbeca105072eda0c4c0d8034bdbcde10b74b09"
+        },
+        "R786-exact-power-1-row-0004.json.gz": {
+          "bytes": 9028,
+          "file": "R786-exact-power-1-row-0004.json.gz",
+          "sha256": "32e76416ef338b096328722b09a18fd30ded12888ec5724a2cadf8667a5a1d12"
+        },
+        "R786-exact-power-1-row-0005.json.gz": {
+          "bytes": 9040,
+          "file": "R786-exact-power-1-row-0005.json.gz",
+          "sha256": "0e8f181e1469cb270eb611cb7e93b5e47d4720604199ad0073f90d05aeeac572"
+        },
+        "R786-exact-power-1-row-0006.json.gz": {
+          "bytes": 9026,
+          "file": "R786-exact-power-1-row-0006.json.gz",
+          "sha256": "2392991bbba51d84b08dc5f3d6f8cbb6d68a141ab7edc52c71ea4f7207d83315"
+        },
+        "R786-exact-power-1-row-0007.json.gz": {
+          "bytes": 9063,
+          "file": "R786-exact-power-1-row-0007.json.gz",
+          "sha256": "098e7df6b8eb5b7f80435e68b2ec7bfa517c613249d7a76da794f7afcf236d5c"
+        },
+        "R786-exact-power-1-row-0008.json.gz": {
+          "bytes": 9039,
+          "file": "R786-exact-power-1-row-0008.json.gz",
+          "sha256": "5cc3a350dcbf10210b20f3cb6fed41e8fa417ad1f3dd8b241fe16232a85c9d9c"
+        },
+        "R786-exact-power-1-row-0009.json.gz": {
+          "bytes": 9129,
+          "file": "R786-exact-power-1-row-0009.json.gz",
+          "sha256": "6cd368dc236d642f0ed1ea6c5162686e986152918b9d5738b49ba8ca8eed3f9f"
+        },
+        "R786-exact-power-1-row-0010.json.gz": {
+          "bytes": 9059,
+          "file": "R786-exact-power-1-row-0010.json.gz",
+          "sha256": "10920b3ed96c887b46e71f723b205b52f27322c8e53429a860de8857176aed45"
+        },
+        "R786-exact-power-1-row-0011.json.gz": {
+          "bytes": 9085,
+          "file": "R786-exact-power-1-row-0011.json.gz",
+          "sha256": "9842e78bb43e156b4015289b860cb8466f453451675c01d4517406469b662f4b"
+        },
+        "R786-exact-power-1-row-0012.json.gz": {
+          "bytes": 9120,
+          "file": "R786-exact-power-1-row-0012.json.gz",
+          "sha256": "f188015bc45fe4327deee058436e8789f3da1e156d8deba214b27c2854e3ff71"
+        },
+        "R786-exact-power-1-row-0013.json.gz": {
+          "bytes": 9088,
+          "file": "R786-exact-power-1-row-0013.json.gz",
+          "sha256": "36f85a9deaa640d95a46058b63fd1d9485731c0ef81d0e633578341c313c12ea"
+        },
+        "R786-exact-power-1-row-0014.json.gz": {
+          "bytes": 9045,
+          "file": "R786-exact-power-1-row-0014.json.gz",
+          "sha256": "127d3d44050dd4915cb16850f7912b6cc146633b47e0466c8289f4d2a99caa29"
+        },
+        "R786-exact-power-1-row-0015.json.gz": {
+          "bytes": 9105,
+          "file": "R786-exact-power-1-row-0015.json.gz",
+          "sha256": "0b1ed596d9530aca49110e64674893432369f8203c0dc632eacd3a178a4a15f4"
+        },
+        "R786-exact-power-1-row-0016.json.gz": {
+          "bytes": 9088,
+          "file": "R786-exact-power-1-row-0016.json.gz",
+          "sha256": "582293cb02bb462abe1460e998415f2019f6310350f8016ad11245154602e9ef"
+        },
+        "R786-exact-power-1-row-0017.json.gz": {
+          "bytes": 9036,
+          "file": "R786-exact-power-1-row-0017.json.gz",
+          "sha256": "9545c9be03a7e995595e816353f020de74530325c0d888c02ae93b5a4169c0d2"
+        },
+        "R786-exact-power-1-row-0018.json.gz": {
+          "bytes": 9055,
+          "file": "R786-exact-power-1-row-0018.json.gz",
+          "sha256": "2a5c57bb1de14f32cd7ad9c32adb817f3c3a02760c2929156982b75358a13c02"
+        },
+        "R786-exact-power-1-row-0019.json.gz": {
+          "bytes": 9805,
+          "file": "R786-exact-power-1-row-0019.json.gz",
+          "sha256": "749b3c39f13013f2596cb20c4abc16080ba5141d725b3b0fabee4962981f9a6d"
+        },
+        "R786-exact-power-1-row-0020.json.gz": {
+          "bytes": 9717,
+          "file": "R786-exact-power-1-row-0020.json.gz",
+          "sha256": "1dbc600526ef0de8819824420a7eab0145c4742a36f47160c99514d13397e351"
+        },
+        "R786-exact-power-1-row-0021.json.gz": {
+          "bytes": 9638,
+          "file": "R786-exact-power-1-row-0021.json.gz",
+          "sha256": "e00bc3b89fa492079c97ee579927dd6001a2e1b5dde2fa2b164e34de3e2925d8"
+        },
+        "R786-exact-power-1-row-0022.json.gz": {
+          "bytes": 9732,
+          "file": "R786-exact-power-1-row-0022.json.gz",
+          "sha256": "3f3c24c8e8a92d4572145ac7add8d68a3c52190191a89d8710898f3c4dd14d44"
+        },
+        "R786-exact-power-1-row-0023.json.gz": {
+          "bytes": 9668,
+          "file": "R786-exact-power-1-row-0023.json.gz",
+          "sha256": "ca876008d65ef1fe93beeda1303fc6291dea40ff81a4696a83b470d0cbea3673"
+        },
+        "R786-exact-power-1-row-0024.json.gz": {
+          "bytes": 9536,
+          "file": "R786-exact-power-1-row-0024.json.gz",
+          "sha256": "5e07da12aee78d7edb0921f5d89014182303a99db3397c3384a1e79129f6c3fa"
+        },
+        "R786-exact-power-1-row-0025.json.gz": {
+          "bytes": 9703,
+          "file": "R786-exact-power-1-row-0025.json.gz",
+          "sha256": "26ed4b37cfa15aaf3cf90a8dfddbb03cbe092874b9c4af494a45ff3cb38e0cf4"
+        },
+        "R786-exact-power-1-row-0026.json.gz": {
+          "bytes": 9609,
+          "file": "R786-exact-power-1-row-0026.json.gz",
+          "sha256": "3e63946b959880dde43af71e7944507e3f82e774b970f77209eac5a6cad48c22"
+        },
+        "R786-exact-power-1-row-0027.json.gz": {
+          "bytes": 9602,
+          "file": "R786-exact-power-1-row-0027.json.gz",
+          "sha256": "6eb7af82fd0d47c0e6c9654ede96dc8c613ed556855380acb2189862fd532011"
+        },
+        "R786-exact-power-1-row-0028.json.gz": {
+          "bytes": 9666,
+          "file": "R786-exact-power-1-row-0028.json.gz",
+          "sha256": "2fa9fe15825eed84d45ec7461a4afceed7b6de70501eb7adafd943653b7c275e"
+        },
+        "R786-exact-power-1-row-0029.json.gz": {
+          "bytes": 9713,
+          "file": "R786-exact-power-1-row-0029.json.gz",
+          "sha256": "df071539b5916568ddc8f71e4ce6b5b0e4c249da55158553841948ac63507508"
+        },
+        "R786-exact-power-1-row-0030.json.gz": {
+          "bytes": 9744,
+          "file": "R786-exact-power-1-row-0030.json.gz",
+          "sha256": "688926373fb99f09defda2a601f10510089fd00ebff27792a66635c5078d2f68"
+        },
+        "R786-exact-power-1-row-0031.json.gz": {
+          "bytes": 9396,
+          "file": "R786-exact-power-1-row-0031.json.gz",
+          "sha256": "afcf8244189f239e12ee1dd79e84d687c1272eb78d0897524a559f9a9d7ae872"
+        },
+        "R786-exact-power-1-row-0032.json.gz": {
+          "bytes": 9717,
+          "file": "R786-exact-power-1-row-0032.json.gz",
+          "sha256": "a8127568cc2a3b6a34d99f838347268126e58e34b33624a4d91ab0a43d942ff4"
+        },
+        "R786-exact-power-1-row-0033.json.gz": {
+          "bytes": 9621,
+          "file": "R786-exact-power-1-row-0033.json.gz",
+          "sha256": "ba64baa6eefd1d0ca4751b4aeee704319eee2220d62a9aa481b9c076d0105147"
+        },
+        "R786-exact-power-1-row-0034.json.gz": {
+          "bytes": 9599,
+          "file": "R786-exact-power-1-row-0034.json.gz",
+          "sha256": "0c691866342ddb43e03b8bbd4358bf036ce9e82b62b4677a5d9d463b43554731"
+        },
+        "R786-exact-power-1-row-0035.json.gz": {
+          "bytes": 9699,
+          "file": "R786-exact-power-1-row-0035.json.gz",
+          "sha256": "e98cbe2f378be004df83ede2d27c956926c8f94e7a3462c0babe667cdf31e6b5"
+        },
+        "R786-exact-power-1-row-0036.json.gz": {
+          "bytes": 9757,
+          "file": "R786-exact-power-1-row-0036.json.gz",
+          "sha256": "32cdbe98778e25808083f49f629ae3c9a9add6fb95d910bd2cd376130efa4872"
+        },
+        "R786-exact-power-1-row-0037.json.gz": {
+          "bytes": 9773,
+          "file": "R786-exact-power-1-row-0037.json.gz",
+          "sha256": "4f9d50228a5ef0a76d5b23e031c736a00abf1788c28bab4a7e88097fdb9b3bfe"
+        },
+        "R786-exact-power-1-row-0038.json.gz": {
+          "bytes": 9626,
+          "file": "R786-exact-power-1-row-0038.json.gz",
+          "sha256": "01ac96f1682096e3c8ce674c2d3ebd0d33d10b529504896c25f074598e7b3f0d"
+        },
+        "R786-exact-power-1-row-0039.json.gz": {
+          "bytes": 9718,
+          "file": "R786-exact-power-1-row-0039.json.gz",
+          "sha256": "eca0b73fcd94dc0a2f7fdcf68e2e927bb27d7fe8311f6c093f66e00db1a5e8da"
+        },
+        "R786-exact-power-1-row-0040.json.gz": {
+          "bytes": 9596,
+          "file": "R786-exact-power-1-row-0040.json.gz",
+          "sha256": "e392985917ac10c261bb07f5050c12e44de1afe3104f7882c5ce03f20e05908b"
+        },
+        "R786-exact-power-1-row-0041.json.gz": {
+          "bytes": 9678,
+          "file": "R786-exact-power-1-row-0041.json.gz",
+          "sha256": "6fd7552c75d9690c21f2f909cb5c5e4364e1bd68cac1be8ca5bf493cff5193e2"
+        },
+        "R786-exact-power-1-row-0042.json.gz": {
+          "bytes": 9685,
+          "file": "R786-exact-power-1-row-0042.json.gz",
+          "sha256": "d433658d43f9f45c8750c7d7cc8c67d4d79bc47c790b3f1c0f6dd21033fb256a"
+        },
+        "R786-exact-power-1-row-0043.json.gz": {
+          "bytes": 9466,
+          "file": "R786-exact-power-1-row-0043.json.gz",
+          "sha256": "2d2873ad75b5502d929203b732018e069cd8b6b7d2602592d8b1e20d253805f6"
+        },
+        "R786-exact-power-1-row-0044.json.gz": {
+          "bytes": 9818,
+          "file": "R786-exact-power-1-row-0044.json.gz",
+          "sha256": "b2d708c4b0a979780c31421893befe70f81aac21ebf5a1c4ecb43b6795242491"
+        },
+        "R786-exact-power-1-row-0045.json.gz": {
+          "bytes": 9588,
+          "file": "R786-exact-power-1-row-0045.json.gz",
+          "sha256": "75d2cbfe0de45c279e6c8eb67f01c3d469f60605f1a89eafee29eb453c5ee09e"
+        },
+        "R786-exact-power-1-row-0046.json.gz": {
+          "bytes": 9379,
+          "file": "R786-exact-power-1-row-0046.json.gz",
+          "sha256": "cd4234b1f1258d6b859a625705f19fdb3055583a7007927d8707c5d0e3092a8f"
+        },
+        "R786-exact-power-1-row-0047.json.gz": {
+          "bytes": 9739,
+          "file": "R786-exact-power-1-row-0047.json.gz",
+          "sha256": "74c818c927b93dd7fa9f0ee9beb486502dffc506563030f5c351bde3d44a9c24"
+        },
+        "R786-exact-power-1-row-0048.json.gz": {
+          "bytes": 9737,
+          "file": "R786-exact-power-1-row-0048.json.gz",
+          "sha256": "bd976bd96251a68f124f5b0f9b1de660128286b95144bded3ea03207612a4eda"
+        },
+        "R786-exact-power-1-row-0049.json.gz": {
+          "bytes": 9825,
+          "file": "R786-exact-power-1-row-0049.json.gz",
+          "sha256": "47c82b44b763098487294eccb08ace85db6ca5adb498531a8f0f73dbd3ad90f0"
+        },
+        "R786-exact-power-1-row-0050.json.gz": {
+          "bytes": 9737,
+          "file": "R786-exact-power-1-row-0050.json.gz",
+          "sha256": "ca0a9a4e5f5174a31a2e374f88a0634b6417da740117fd6720e97ed8b3e9a353"
+        },
+        "R786-exact-power-1-row-0051.json.gz": {
+          "bytes": 9638,
+          "file": "R786-exact-power-1-row-0051.json.gz",
+          "sha256": "9f754e5731b9118a1863097ef6bbf0ea966263d683a79290e3d95930774725e2"
+        },
+        "R786-exact-power-1-row-0052.json.gz": {
+          "bytes": 9729,
+          "file": "R786-exact-power-1-row-0052.json.gz",
+          "sha256": "fb6445488e0ade61b81320ba9c7ba258b316f7c37b0494785b1ee619daa244ee"
+        },
+        "R786-exact-power-1-row-0053.json.gz": {
+          "bytes": 9317,
+          "file": "R786-exact-power-1-row-0053.json.gz",
+          "sha256": "db7b13f9c31e4af76665f351c8a8d6b4e445dbb4e17fcd6568e7745036befad6"
+        },
+        "R786-exact-power-1-row-0054.json.gz": {
+          "bytes": 9767,
+          "file": "R786-exact-power-1-row-0054.json.gz",
+          "sha256": "d43680e824999632b75d8b33de132cf36b3803a12e796ab9fe150273d6705576"
+        },
+        "R786-exact-power-1-row-0055.json.gz": {
+          "bytes": 9795,
+          "file": "R786-exact-power-1-row-0055.json.gz",
+          "sha256": "038b51e09486d79db7825e610574ec8fde40777b02bd5b58c22cf96499cae939"
+        },
+        "R786-exact-power-1-row-0056.json.gz": {
+          "bytes": 9614,
+          "file": "R786-exact-power-1-row-0056.json.gz",
+          "sha256": "3cf06205e5a6df304577afc74a4c977e71538826b1eef6449ce5584b66d317b0"
+        },
+        "R786-exact-power-1-row-0057.json.gz": {
+          "bytes": 9659,
+          "file": "R786-exact-power-1-row-0057.json.gz",
+          "sha256": "19703d6b16043ce3cbbdf808aa55be5d4851aae7804dd2f93e7b518cf030d6f6"
+        },
+        "R786-exact-power-1-row-0058.json.gz": {
+          "bytes": 9722,
+          "file": "R786-exact-power-1-row-0058.json.gz",
+          "sha256": "4f86c59a652eb0f74c15d3b40dca683a407d2b457c8cbebb0b3653907189dfaf"
+        },
+        "R786-exact-power-1-row-0059.json.gz": {
+          "bytes": 9707,
+          "file": "R786-exact-power-1-row-0059.json.gz",
+          "sha256": "e756ff8f5936666b4bf06237deacdee09b180f7e72c46d6ace890bf0305a8a11"
+        },
+        "R786-exact-power-1-row-0060.json.gz": {
+          "bytes": 9722,
+          "file": "R786-exact-power-1-row-0060.json.gz",
+          "sha256": "aabc36bbfb8015b556dd14db850611c437ed2dbc2e05f95c149c3f5ea584d3d2"
+        },
+        "R786-exact-power-1-row-0061.json.gz": {
+          "bytes": 9872,
+          "file": "R786-exact-power-1-row-0061.json.gz",
+          "sha256": "be50122e0862881ff8b579404e509dcfb15c94192351b756ffe4f39c9b688de4"
+        },
+        "R786-exact-power-1-row-0062.json.gz": {
+          "bytes": 9747,
+          "file": "R786-exact-power-1-row-0062.json.gz",
+          "sha256": "c7579dd74951d1186acd3390a38ac8bb3573463473ee4743145dbefdc2b3ccba"
+        },
+        "R786-exact-power-1-row-0063.json.gz": {
+          "bytes": 9831,
+          "file": "R786-exact-power-1-row-0063.json.gz",
+          "sha256": "549af64db512a0064e796af67b3c080f987408a8c2d86fb8e0743e4e0fc495ca"
+        },
+        "R786-exact-power-1-row-0064.json.gz": {
+          "bytes": 9693,
+          "file": "R786-exact-power-1-row-0064.json.gz",
+          "sha256": "e01bbc50fc941836f5ada3c5e16c7a3d3d930b9650b1a2baedf8cee8077c51bd"
+        },
+        "R786-exact-power-1-row-0065.json.gz": {
+          "bytes": 9749,
+          "file": "R786-exact-power-1-row-0065.json.gz",
+          "sha256": "ef711bc81d9e5ee153f5614ffd3a39857956e142224fba81cd325b10efe4624d"
+        },
+        "R786-exact-power-1-row-0066.json.gz": {
+          "bytes": 9637,
+          "file": "R786-exact-power-1-row-0066.json.gz",
+          "sha256": "4879338e4521efb9fffc236df722a4ce343cef1bf36a5e78d67ec733d229bfdd"
+        },
+        "R786-exact-power-1-row-0067.json.gz": {
+          "bytes": 9609,
+          "file": "R786-exact-power-1-row-0067.json.gz",
+          "sha256": "526e8670978606da3587730dee7e89916f3018ff11937742c731b60bea5e81d2"
+        },
+        "R786-exact-power-1-row-0068.json.gz": {
+          "bytes": 9699,
+          "file": "R786-exact-power-1-row-0068.json.gz",
+          "sha256": "6e29789aa17cf6e47fbe9e660c5679364743e7096917d6d52d18b264b2f2ebce"
+        },
+        "R786-exact-power-1-row-0069.json.gz": {
+          "bytes": 9718,
+          "file": "R786-exact-power-1-row-0069.json.gz",
+          "sha256": "f06df4e37dff8656d8d632361683a91b1477de13839ba5ca5e822c710db0368c"
+        },
+        "R786-exact-power-1-row-0070.json.gz": {
+          "bytes": 9558,
+          "file": "R786-exact-power-1-row-0070.json.gz",
+          "sha256": "1c7420a3e8044c25de58a378a99ea64e549d9011f50bc81b1eb22a3f486cb666"
+        },
+        "R786-exact-power-1-row-0071.json.gz": {
+          "bytes": 9624,
+          "file": "R786-exact-power-1-row-0071.json.gz",
+          "sha256": "2c8367af1f3281accb4d902e9fe1cb9bc439fcd9900e9b4973a53eba1c1b355c"
+        },
+        "R786-exact-power-1-row-0072.json.gz": {
+          "bytes": 9569,
+          "file": "R786-exact-power-1-row-0072.json.gz",
+          "sha256": "7ae0cc16e5c8237a2fd54f045cfc7297a7c60e175b026b5f6007bc42e3b1be42"
+        },
+        "R786-exact-power-1-row-0073.json.gz": {
+          "bytes": 6135,
+          "file": "R786-exact-power-1-row-0073.json.gz",
+          "sha256": "474f75e0201ec4fb9a8ce68b5122ce62e1b0b97db373a23e219d1dd0d9d623b4"
+        },
+        "R786-exact-power-1-row-0074.json.gz": {
+          "bytes": 14665,
+          "file": "R786-exact-power-1-row-0074.json.gz",
+          "sha256": "6814b0de19af18293554ae270d7b90048bcd3bcbb76242e66c8fc01a1d2735b4"
+        },
+        "R786-exact-power-1-row-0075.json.gz": {
+          "bytes": 14650,
+          "file": "R786-exact-power-1-row-0075.json.gz",
+          "sha256": "ff3533abc35027103d2d7dafaee9eab5ff3b43924f47543c26eba1fd0777f895"
+        },
+        "R786-exact-power-1-row-0076.json.gz": {
+          "bytes": 14894,
+          "file": "R786-exact-power-1-row-0076.json.gz",
+          "sha256": "d48f0f9662ab942e9b4ca3bd5cc9e7194a0a5f5e07851528bd7faa17d8fafc8c"
+        },
+        "R786-exact-power-1-row-0077.json.gz": {
+          "bytes": 14821,
+          "file": "R786-exact-power-1-row-0077.json.gz",
+          "sha256": "fc8c3ad7e0cc1de16a8505f9155be75bbdf7c3f7c53566580a9a04dd750d86ec"
+        },
+        "R786-exact-power-1-row-0078.json.gz": {
+          "bytes": 14695,
+          "file": "R786-exact-power-1-row-0078.json.gz",
+          "sha256": "d4254519fa266e371d17d6f51e7cb3916f84111f6b0d9849234de2820be58b08"
+        },
+        "R786-exact-power-1-row-0079.json.gz": {
+          "bytes": 14998,
+          "file": "R786-exact-power-1-row-0079.json.gz",
+          "sha256": "6e2aecdbe1f505ec6dcf7bd59504bd7e614bccd88e65de078ae2754cdc7cec65"
+        },
+        "R786-exact-power-1-row-0080.json.gz": {
+          "bytes": 14584,
+          "file": "R786-exact-power-1-row-0080.json.gz",
+          "sha256": "43930f28ede9c94c97cb8d6a6d7b20d443f432dcd60cfc052a912b60eb7e1b00"
+        },
+        "R786-exact-power-1-row-0081.json.gz": {
+          "bytes": 14784,
+          "file": "R786-exact-power-1-row-0081.json.gz",
+          "sha256": "bb105ab1ef5ee655e228dc6661fa5478e95c9266eedb23f4a519254fe5d8cc3b"
+        },
+        "R786-exact-power-1-row-0082.json.gz": {
+          "bytes": 14576,
+          "file": "R786-exact-power-1-row-0082.json.gz",
+          "sha256": "d8cb959a6166ab1039a164c6c21d35d3a6eeecc0c0c6eab7384a11a053775338"
+        },
+        "R786-exact-power-1-row-0083.json.gz": {
+          "bytes": 14915,
+          "file": "R786-exact-power-1-row-0083.json.gz",
+          "sha256": "15f908acfe426523b02006b2b9b887dac741cf1467327f69b28476bfc46e6e54"
+        },
+        "R786-exact-power-1-row-0084.json.gz": {
+          "bytes": 14852,
+          "file": "R786-exact-power-1-row-0084.json.gz",
+          "sha256": "342437e5ccf00a0cb30ee7184f22057800134de6d0c1f234ab5ba2b451d8f585"
+        },
+        "R786-exact-power-1-row-0085.json.gz": {
+          "bytes": 14788,
+          "file": "R786-exact-power-1-row-0085.json.gz",
+          "sha256": "41eeedde1dad78f2d2735ff09915c65e4d9e3be82bab155c8e4f90d3e9659e34"
+        },
+        "R786-exact-power-1-row-0086.json.gz": {
+          "bytes": 14880,
+          "file": "R786-exact-power-1-row-0086.json.gz",
+          "sha256": "dbc66bce42a855f33b7d3eea25f09c9e28014fd05bbc98abd2f3b335e9fcf7b1"
+        },
+        "R786-exact-power-1-row-0087.json.gz": {
+          "bytes": 14940,
+          "file": "R786-exact-power-1-row-0087.json.gz",
+          "sha256": "ad02602adaae9f840187bf4756e3a4728fbeee39596dc00a42f57aeb13bc709f"
+        },
+        "R786-exact-power-1-row-0088.json.gz": {
+          "bytes": 14846,
+          "file": "R786-exact-power-1-row-0088.json.gz",
+          "sha256": "3e764cab2c1e2a1b38baae554d45cfb40ba8fb9dd65dbc9c1b0475990916b3ee"
+        },
+        "R786-exact-power-1-row-0089.json.gz": {
+          "bytes": 14426,
+          "file": "R786-exact-power-1-row-0089.json.gz",
+          "sha256": "3dd0553b9cf99cc71e0ff3470bfa3420edf9f78dd2779b56e19ca65a041bc2e1"
+        },
+        "R786-exact-power-1-row-0090.json.gz": {
+          "bytes": 14787,
+          "file": "R786-exact-power-1-row-0090.json.gz",
+          "sha256": "b519611c07fdc26966974bf2302d096b85c9e2e3d13fed77498a5af80acec64c"
+        },
+        "R786-exact-power-1-row-0091.json.gz": {
+          "bytes": 15084,
+          "file": "R786-exact-power-1-row-0091.json.gz",
+          "sha256": "9dbf76a77b26761a45f01457b7847047759b1ca0fef187d63183a090ea250b04"
+        },
+        "R786-exact-power-1-row-0092.json.gz": {
+          "bytes": 14836,
+          "file": "R786-exact-power-1-row-0092.json.gz",
+          "sha256": "e3a48a1de4c221996f961e399887010ad9a7cf9cd23f6c5d84eb6c49773770ec"
+        },
+        "R786-exact-power-1-row-0093.json.gz": {
+          "bytes": 14706,
+          "file": "R786-exact-power-1-row-0093.json.gz",
+          "sha256": "0ea24c14c864d68f2a53d30b2562874ef0fd9e273719227a58ad548f45d2ac5c"
+        },
+        "R786-exact-power-1-row-0094.json.gz": {
+          "bytes": 14524,
+          "file": "R786-exact-power-1-row-0094.json.gz",
+          "sha256": "670d8f69b4bf971306b3848d71ee1ae321c20745d9808c367138da33e366d6ec"
+        },
+        "R786-exact-power-1-row-0095.json.gz": {
+          "bytes": 14803,
+          "file": "R786-exact-power-1-row-0095.json.gz",
+          "sha256": "c410945c3861f6ac8fe91dd2dbbeedbb40dcce30012da621dae5b7d800eaadc5"
+        },
+        "R786-exact-power-1-row-0096.json.gz": {
+          "bytes": 14900,
+          "file": "R786-exact-power-1-row-0096.json.gz",
+          "sha256": "b85a528d92458bf2f8278c4a06d63ba0f01dd9cae722a02b4d75f5f637138c4e"
+        },
+        "R786-exact-power-1-row-0097.json.gz": {
+          "bytes": 14713,
+          "file": "R786-exact-power-1-row-0097.json.gz",
+          "sha256": "455eadad5780a547eab9073e6f914ce43da33f1ce64428f3a858775a59b753fa"
+        },
+        "R786-exact-power-1-row-0098.json.gz": {
+          "bytes": 14626,
+          "file": "R786-exact-power-1-row-0098.json.gz",
+          "sha256": "662c20d5ea58c9d34cffee873e61944bc407dc1800f210ffd56c9343a46ce98b"
+        },
+        "R786-exact-power-1-row-0099.json.gz": {
+          "bytes": 14728,
+          "file": "R786-exact-power-1-row-0099.json.gz",
+          "sha256": "c796c88ab12b99ba1455142d913c2eb433b39b559fa6dfe5513fbe48ed6a5b5d"
+        },
+        "R786-exact-power-1-row-0100.json.gz": {
+          "bytes": 14817,
+          "file": "R786-exact-power-1-row-0100.json.gz",
+          "sha256": "f8fdd442392ca92c56da17d99212305d22a5b967f2d5f98425600e3e35b89676"
+        },
+        "R786-exact-power-1-row-0101.json.gz": {
+          "bytes": 14723,
+          "file": "R786-exact-power-1-row-0101.json.gz",
+          "sha256": "287b2b95aa5ee6323385fe81f87e75eabf3fe3b973e6c386eb9780f5f9571642"
+        },
+        "R786-exact-power-1-row-0102.json.gz": {
+          "bytes": 14829,
+          "file": "R786-exact-power-1-row-0102.json.gz",
+          "sha256": "5f48d10cee6c012a9df51c4b625ac4e98f371a91ecc054d676749e43be13f21d"
+        },
+        "R786-exact-power-1-row-0103.json.gz": {
+          "bytes": 14804,
+          "file": "R786-exact-power-1-row-0103.json.gz",
+          "sha256": "70d99a9b72594bcd2cd6568ae36e13ee94fe0c4bb23808fdeae5245c1c9ab88a"
+        },
+        "R786-exact-power-1-row-0104.json.gz": {
+          "bytes": 14658,
+          "file": "R786-exact-power-1-row-0104.json.gz",
+          "sha256": "b7af7ec8097c205b254e822da4d947730e241fbd1126c392584cf94a73c80a2d"
+        },
+        "R786-exact-power-1-row-0105.json.gz": {
+          "bytes": 14879,
+          "file": "R786-exact-power-1-row-0105.json.gz",
+          "sha256": "2b113d5674b0a7c203eed9199a372640ec8c258d289153bb8967411ffc76c706"
+        },
+        "R786-exact-power-1-row-0106.json.gz": {
+          "bytes": 14709,
+          "file": "R786-exact-power-1-row-0106.json.gz",
+          "sha256": "6ec4d1d73cd44c9157b42e82bbecde29fcdf7833c95daf93e4ac36a54309b5a1"
+        },
+        "R786-exact-power-1-row-0107.json.gz": {
+          "bytes": 14827,
+          "file": "R786-exact-power-1-row-0107.json.gz",
+          "sha256": "bdd2e84baad2d43550525821fc2dad98d9ab12fb24ea7badfc86487b224f8960"
+        },
+        "R786-exact-power-1-row-0108.json.gz": {
+          "bytes": 14766,
+          "file": "R786-exact-power-1-row-0108.json.gz",
+          "sha256": "0f4cb8720a95585bdb5ab38a53b58b13501ad82285af1877d7c6e7bb94fb300a"
+        },
+        "R786-exact-power-1-row-0109.json.gz": {
+          "bytes": 14814,
+          "file": "R786-exact-power-1-row-0109.json.gz",
+          "sha256": "de967bf1cfd09495921782061dfbaa2a9dd5d1293672d0f2c10bcfb47a49965c"
+        },
+        "R786-exact-power-1-row-0110.json.gz": {
+          "bytes": 14906,
+          "file": "R786-exact-power-1-row-0110.json.gz",
+          "sha256": "422b7113518dd5c7c91d82b763a7a163eae2b6813b45f08a3ec635a4b892ddef"
+        },
+        "R786-exact-power-1-row-0111.json.gz": {
+          "bytes": 14433,
+          "file": "R786-exact-power-1-row-0111.json.gz",
+          "sha256": "17f6bf5b8e64a8effe530e0c8226dcff17b2971b532c77290791aa37d21729f1"
+        },
+        "R786-exact-power-1-row-0112.json.gz": {
+          "bytes": 6196,
+          "file": "R786-exact-power-1-row-0112.json.gz",
+          "sha256": "498a35feef728f8d045f4f744d32c0cbf6b31113dd252e3ceea6087da6abea79"
+        },
+        "R786-exact-power-1-row-0113.json.gz": {
+          "bytes": 14957,
+          "file": "R786-exact-power-1-row-0113.json.gz",
+          "sha256": "6ab33911781541be11985b81de00b3e960a1ddd9c41366663c93149716f0e18d"
+        },
+        "R786-exact-power-1-row-0114.json.gz": {
+          "bytes": 14861,
+          "file": "R786-exact-power-1-row-0114.json.gz",
+          "sha256": "b04356500687a8dc1d9a31b76999f173bfe88e5cd117c246a22e1cb375075f21"
+        },
+        "R786-exact-power-1-row-0115.json.gz": {
+          "bytes": 14774,
+          "file": "R786-exact-power-1-row-0115.json.gz",
+          "sha256": "42a79eb29144d297e208a9b57428bb0fc13afc69972975727ce8e03bfa9b3eed"
+        },
+        "R786-exact-power-1-row-0116.json.gz": {
+          "bytes": 14439,
+          "file": "R786-exact-power-1-row-0116.json.gz",
+          "sha256": "5cea9f694800372a5bf54e7b2855aa14cab54d85b229e2bc6bbea0eaf4de5ce8"
+        },
+        "R786-exact-power-1-row-0117.json.gz": {
+          "bytes": 15051,
+          "file": "R786-exact-power-1-row-0117.json.gz",
+          "sha256": "7fe8bf10a62495470e6543d671661670a4c378908ecc42c7277c2f9b16841319"
+        },
+        "R786-exact-power-1-row-0118.json.gz": {
+          "bytes": 14855,
+          "file": "R786-exact-power-1-row-0118.json.gz",
+          "sha256": "8ba40dcd77e2657fbefbddb1dc25a743c5c7bcabe6682c8ed087aed9ed24e034"
+        },
+        "R786-exact-power-1-row-0119.json.gz": {
+          "bytes": 14750,
+          "file": "R786-exact-power-1-row-0119.json.gz",
+          "sha256": "4f9892832cb00926818614b22eea829ec3d4062e095497c5ec80c6348bb0bb10"
+        },
+        "R786-exact-power-1-row-0120.json.gz": {
+          "bytes": 14804,
+          "file": "R786-exact-power-1-row-0120.json.gz",
+          "sha256": "b4f9231271bb104c32f5790a140d68326a4c8b9780bcab05f97f13e180dc63de"
+        },
+        "R786-exact-power-1-row-0121.json.gz": {
+          "bytes": 14409,
+          "file": "R786-exact-power-1-row-0121.json.gz",
+          "sha256": "202217f8282269811e993631aee17e31d9c164912d681419bfbf075087395da3"
+        },
+        "R786-exact-power-1-row-0122.json.gz": {
+          "bytes": 14830,
+          "file": "R786-exact-power-1-row-0122.json.gz",
+          "sha256": "e9c806e087d32cf13021a75d0072e8791f8a71379733cc499d88d9fdeb6bfcf6"
+        },
+        "R786-exact-power-1-row-0123.json.gz": {
+          "bytes": 15176,
+          "file": "R786-exact-power-1-row-0123.json.gz",
+          "sha256": "79e8179104d081c26c505ad3b6b187d9000dc24c1d6dc1885bc90958e59b8cae"
+        },
+        "R786-exact-power-1-row-0124.json.gz": {
+          "bytes": 14543,
+          "file": "R786-exact-power-1-row-0124.json.gz",
+          "sha256": "962948aba663feb0eb1550b34f5a6661c1ec81c0b15d2da5f27e98b851c696d2"
+        },
+        "R786-exact-power-1-row-0125.json.gz": {
+          "bytes": 14623,
+          "file": "R786-exact-power-1-row-0125.json.gz",
+          "sha256": "23a0d075753b196d0ec5e7bcd434589d1e47f7f09556494fe8e4a3d8dbf198d0"
+        },
+        "R786-exact-power-1-row-0126.json.gz": {
+          "bytes": 14944,
+          "file": "R786-exact-power-1-row-0126.json.gz",
+          "sha256": "36342a9b21d73740d0c6d75c739d6171e83bddd1ef019266aeb53d32d9b174a0"
+        },
+        "R786-exact-power-1-row-0127.json.gz": {
+          "bytes": 14800,
+          "file": "R786-exact-power-1-row-0127.json.gz",
+          "sha256": "4c62e70e31e8d657e0e224fe0368fd83829089f0320c7fb0c207376d8af6d7c9"
+        },
+        "R786-exact-power-1-row-0128.json.gz": {
+          "bytes": 14769,
+          "file": "R786-exact-power-1-row-0128.json.gz",
+          "sha256": "e154ae4aec05badae4c63ff6eb50a35aa44e01a928e567cdd57cc66f2e1c77fa"
+        },
+        "R786-exact-power-1-row-0129.json.gz": {
+          "bytes": 14817,
+          "file": "R786-exact-power-1-row-0129.json.gz",
+          "sha256": "53b3cde58697fe48fe3969e77c602913dee9dc9fe00fc178fca2a8658279b679"
+        },
+        "R786-exact-power-1-row-0130.json.gz": {
+          "bytes": 14641,
+          "file": "R786-exact-power-1-row-0130.json.gz",
+          "sha256": "3ce4560f55279613e989679ebe92f7ecc4a74fb52c5dd3a9421a74c5ca229906"
+        },
+        "R786-exact-power-1-row-0131.json.gz": {
+          "bytes": 14850,
+          "file": "R786-exact-power-1-row-0131.json.gz",
+          "sha256": "fc357c825b8719b4b09ba897d459127113203c1a05bf0380a317cca156e1cfb3"
+        },
+        "R786-exact-power-1-row-0132.json.gz": {
+          "bytes": 14806,
+          "file": "R786-exact-power-1-row-0132.json.gz",
+          "sha256": "5758e79a41f6e61798ee9eb381a0a051057a58d8f6a1f5df4600c1ec639e7ea2"
+        },
+        "R786-exact-power-1-row-0133.json.gz": {
+          "bytes": 14717,
+          "file": "R786-exact-power-1-row-0133.json.gz",
+          "sha256": "cb45f16aac6d88de516a04bcdfc7e2f0525651f06e9b2cc7ef30d6fc5ed24706"
+        },
+        "R786-exact-power-1-row-0134.json.gz": {
+          "bytes": 14984,
+          "file": "R786-exact-power-1-row-0134.json.gz",
+          "sha256": "41544b12d65f2c8a3c0994cf05af29447239bb4bc588149f5be374df30b24f09"
+        },
+        "R786-exact-power-1-row-0135.json.gz": {
+          "bytes": 14923,
+          "file": "R786-exact-power-1-row-0135.json.gz",
+          "sha256": "cb3eb762561a1d1e37687fdd86b64626153f9c1c865621c92ec6f895f1426dc2"
+        },
+        "R786-exact-power-1-row-0136.json.gz": {
+          "bytes": 14964,
+          "file": "R786-exact-power-1-row-0136.json.gz",
+          "sha256": "c378430bc26bb88fe77142f1f3bd02ea849b2b5ae2950e4643734c1661ec6258"
+        },
+        "R786-exact-power-1-row-0137.json.gz": {
+          "bytes": 14977,
+          "file": "R786-exact-power-1-row-0137.json.gz",
+          "sha256": "425de51fdcf512acdcb5a9f52ff84cd7c842dbbcc9e9980fbaddc1a161e0b3ed"
+        },
+        "R786-exact-power-1-row-0138.json.gz": {
+          "bytes": 14772,
+          "file": "R786-exact-power-1-row-0138.json.gz",
+          "sha256": "9059f20a03670365335a1d08c5e1b9cbb42a790df0283d6bb3bfb6722aabd37d"
+        },
+        "R786-exact-power-1-row-0139.json.gz": {
+          "bytes": 14623,
+          "file": "R786-exact-power-1-row-0139.json.gz",
+          "sha256": "f8b9b85679927f32663ac6fabf24e1359f57524e384187548fe95aad97bb21a5"
+        },
+        "R786-exact-power-1-row-0140.json.gz": {
+          "bytes": 14893,
+          "file": "R786-exact-power-1-row-0140.json.gz",
+          "sha256": "4fa021f767261cd9f990ca0b541801deac892eeddefb1de2a59f9da3114ab797"
+        },
+        "R786-exact-power-1-row-0141.json.gz": {
+          "bytes": 14809,
+          "file": "R786-exact-power-1-row-0141.json.gz",
+          "sha256": "e6198fd611755d8b92a7fd36d1ad54c530d68013c416d2c3740f6ae63ece0bc7"
+        },
+        "R786-exact-power-1-row-0142.json.gz": {
+          "bytes": 14773,
+          "file": "R786-exact-power-1-row-0142.json.gz",
+          "sha256": "55384b28c53e969edcab391408080b7beeacf9e698546e209a8881c2ccb37a9c"
+        },
+        "R786-exact-power-1-row-0143.json.gz": {
+          "bytes": 14721,
+          "file": "R786-exact-power-1-row-0143.json.gz",
+          "sha256": "c88a16cf3bbba675f7f50c663d3dc5dfe2f3539290d58ca0d9c8c625eec62e18"
+        },
+        "R786-exact-power-1-row-0144.json.gz": {
+          "bytes": 14769,
+          "file": "R786-exact-power-1-row-0144.json.gz",
+          "sha256": "0ac36ceb398ffb1d4f76887773a2a476e44ad113ecd25ad5c9c5a8ae22e0adf2"
+        },
+        "R786-exact-power-1-row-0145.json.gz": {
+          "bytes": 14827,
+          "file": "R786-exact-power-1-row-0145.json.gz",
+          "sha256": "a2121272cefee76c8f850220751a091380533133fe14c0d6d8e3027fd10cf338"
+        },
+        "R786-exact-stages-manifest.json.gz": {
+          "bytes": 185110,
+          "file": "R786-exact-stages-manifest.json.gz",
+          "sha256": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+        },
+        "core-receipt.json": {
+          "bytes": 320,
+          "file": "core-receipt.json",
+          "sha256": "e423c36480f8c1a0e2f5d48790d48a3b47613216f8e60b93913460f35a3fc8b6"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 1085673,
+          "file": "full-outputs-manifest.json",
+          "sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a"
+        },
+        "p41-exact-original-power5-short-basis-certificate.json": {
+          "bytes": 8510,
+          "file": "p41-exact-original-power5-short-basis-certificate.json",
+          "sha256": "dc6c23568f80b861d839280846c3250063abdfb2716a20481779816bb7cd37d9"
+        },
+        "public-actions-input.json": {
+          "bytes": 6700,
+          "file": "public-actions-input.json",
+          "sha256": "373043ddf76cb3e8db8971939868d79d000c4a4cdb31693bb7d07e9e7fc2bc99"
+        },
+        "run-receipt.json": {
+          "bytes": 572,
+          "file": "run-receipt.json",
+          "sha256": "b1e1c06f13cb65df5b1e1b77ceec68ea91241727c4e18f4116ddcadd0fa279c5"
+        }
+      },
+      "manifest_bytes": 1085673,
+      "manifest_file_count": 3740,
+      "manifest_sha256": "e3c29e85236c8cc665bdf88e9ffd2bbab9180b6f977f0b2b22f54266762f405a",
+      "result": "R786-exact-original-power5-short-basis",
+      "run_id": "43682100611",
+      "selected_file_count": 152,
+      "selected_files_sha256": "e39b4755532241af178422fcc1e15f8feed96c5db5b1b9ae902b0f5a9b0b4cc4",
+      "source_commit": "dd262672a8b1e2af82277b15e0fa766038609670",
+      "stage_manifest": {
+        "bytes": 185110,
+        "file": "R786-exact-stages-manifest.json.gz",
+        "sha256": "f8bf6c1d9968b0acd3664b2480efbe9d6563a0a61ef4bd027fff3bf96a4d3f02"
+      }
+    },
+    "R837": {
+      "certificate": {
+        "bytes": 5040,
+        "file": "p41-original-fixed-branch-pencil-certificate.json",
+        "sha256": "83234905bd30dd774ec4fd4ed6bfaef46f7bcacc1ff8fe0f5b00e4119ca31eb1"
+      },
+      "configuration_sha256": "1fbdd4c7173879f69cac92f39b2c485a583deb1cada140b4ac9afadc7d2622f9",
+      "core_sha256": "5702b42ee014ab7552e61383e24b738fe5ed48955dfc207ad3d85cae08e8b924",
+      "expected_conclusion": "success",
+      "files": {
+        "R837-original-V1-reflection-minor-prime-index-0000.json.gz": {
+          "bytes": 2478,
+          "file": "R837-original-V1-reflection-minor-prime-index-0000.json.gz",
+          "sha256": "0253c85a68e7d391f0836f653eb5d94e59b83c367ee6872e7102fbbfeb6c96ba"
+        },
+        "R837-original-V1-reflection-minor.json.gz": {
+          "bytes": 2567,
+          "file": "R837-original-V1-reflection-minor.json.gz",
+          "sha256": "237ec9c58cc86956be7e999d13fdf4e7672e1d8969b23e7a5e3e1729be5a9cf8"
+        },
+        "R837-stage-manifest.json.gz": {
+          "bytes": 9664,
+          "file": "R837-stage-manifest.json.gz",
+          "sha256": "4cae97c2b31a9a1fd024849d84580c289c6b1ee26649766e51c7938345236a71"
+        },
+        "core-receipt.json": {
+          "bytes": 644,
+          "file": "core-receipt.json",
+          "sha256": "04b78eca25723b25ee4401b7033e67c1c0e754bda370b2aa0c021c389aeb0b1d"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 26808,
+          "file": "full-outputs-manifest.json",
+          "sha256": "fe2aee5e584b5e6e8800d2ef30ff17ed76fdfb349d5f783880c1e08cf7a64e43"
+        },
+        "p41-original-fixed-branch-pencil-certificate.json": {
+          "bytes": 5040,
+          "file": "p41-original-fixed-branch-pencil-certificate.json",
+          "sha256": "83234905bd30dd774ec4fd4ed6bfaef46f7bcacc1ff8fe0f5b00e4119ca31eb1"
+        },
+        "public-actions-input.json": {
+          "bytes": 5303,
+          "file": "public-actions-input.json",
+          "sha256": "db7aadcd9ea5108ed65032654eb868e5ffcc3b77040158b3222c03d866efe245"
+        },
+        "run-receipt.json": {
+          "bytes": 442,
+          "file": "run-receipt.json",
+          "sha256": "f2a72e5ea61e5ea1622a3a78d79a0490d135a1774179121389873a918b3855b5"
+        }
+      },
+      "manifest_bytes": 26808,
+      "manifest_file_count": 151,
+      "manifest_sha256": "fe2aee5e584b5e6e8800d2ef30ff17ed76fdfb349d5f783880c1e08cf7a64e43",
+      "result": "R837-original-fixed-branch-pencil",
+      "run_id": "43770995901",
+      "selected_file_count": 8,
+      "selected_files_sha256": "b11f66ce31c98f2bfbfcf4e495b15272c3d03a60f005e9b04d1ac3d40c8a5e0d",
+      "source_commit": "fa17c77fe36fddd9df06677569984d1ea71a6b41",
+      "stage_manifest": {
+        "bytes": 9664,
+        "file": "R837-stage-manifest.json.gz",
+        "sha256": "4cae97c2b31a9a1fd024849d84580c289c6b1ee26649766e51c7938345236a71"
+      }
+    },
+    "R853": {
+      "archive_bytes": 3370404,
+      "archive_sha256": "807c974bc188c21aa0ea75c51c3da5a3f5717178fb149ec4314a54f27a40997b",
+      "artifact_id": 14197275258,
+      "artifact_name": "serre-global-R853-original-semilinear-V1-generator-conjugates-43801910753-1",
+      "certificate": {
+        "bytes": 5897,
+        "file": "p41-original-semilinear-V1-conjugates-certificate.json",
+        "sha256": "c1e162160acda34cdefb9879e44286dd4c2bb39c8b46e01215639836b8a29f54"
+      },
+      "certificate_name": "p41-original-semilinear-V1-conjugates-certificate.json",
+      "configuration_sha256": "3fcb2f72309d5bb60c674665072f9b7ccc513d5ff52cbe6fa8e2222fb9037920",
+      "core_sha256": "5b65e7ccf7c6663949155fdd30abc4c765823e861259c8f9b90b26d0bc1511df",
+      "expected_conclusion": "success",
+      "files": {
+        "R853-original-V1-prefix-and-source-audit.json.gz": {
+          "bytes": 10603,
+          "file": "R853-original-V1-prefix-and-source-audit.json.gz",
+          "sha256": "7046a9b370fe40698ae6c3a168b28d069ebe1d3dc1770a8cee59b183b29e5146"
+        },
+        "R853-original-semilinear-function-field-generator-DAG.json.gz": {
+          "bytes": 5531,
+          "file": "R853-original-semilinear-function-field-generator-DAG.json.gz",
+          "sha256": "8b0cc65b9772ea3eb3bd0950c851604454cf02cc623a56e5bdc6f510ecd09eee"
+        },
+        "R853-stage-manifest.json.gz": {
+          "bytes": 2336,
+          "file": "R853-stage-manifest.json.gz",
+          "sha256": "74f33cb2cc7f0f40827df16e5a117a7eac0ab057557cf29829936fa9d2530a4f"
+        },
+        "R853-three-exact-original-V1-conjugates.json.gz": {
+          "bytes": 10604,
+          "file": "R853-three-exact-original-V1-conjugates.json.gz",
+          "sha256": "4b397fcb470302666fcc6b3cb33366fd0d110b36956f064f59c45130b15db616"
+        },
+        "core-receipt.json": {
+          "bytes": 697,
+          "file": "core-receipt.json",
+          "sha256": "6aaaa91cdc86dae3af6e2f4c6143c81480305f2bd7a67e392c79c40a27e640bf"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 2248,
+          "file": "full-outputs-manifest.json",
+          "sha256": "f5e82a8c1cf1ccaaef85dc0818b4f62555685ded1df82542bbcb7c0b5c3326ae"
+        },
+        "p41-original-semilinear-V1-conjugates-certificate.json": {
+          "bytes": 5897,
+          "file": "p41-original-semilinear-V1-conjugates-certificate.json",
+          "sha256": "c1e162160acda34cdefb9879e44286dd4c2bb39c8b46e01215639836b8a29f54"
+        },
+        "public-actions-input.json": {
+          "bytes": 12890,
+          "file": "public-actions-input.json",
+          "sha256": "65c3f17b03cd3d98835fce7b7ec9450c197b66d5535575ad272e7d65519bbd5e"
+        },
+        "run-receipt.json": {
+          "bytes": 457,
+          "file": "run-receipt.json",
+          "sha256": "324d80bae549eefc7ca588927d905577e09b805e1e0a44c087caac9dc2983b80"
+        }
+      },
+      "manifest_bytes": 2248,
+      "manifest_file_count": 13,
+      "manifest_sha256": "f5e82a8c1cf1ccaaef85dc0818b4f62555685ded1df82542bbcb7c0b5c3326ae",
+      "result": "R853-original-semilinear-V1-generator-conjugates",
+      "run_id": "43801910753",
+      "selected_file_count": 9,
+      "selected_files_sha256": "52397dcc32327a075a2300a05dcc67c360ceb4422083845b460386b80f1d8632",
+      "source_commit": "813f9b813fe131dedadd3891bfedfbc2074e3406"
+    },
+    "R864": {
+      "archive_bytes": 2332941,
+      "archive_sha256": "d83abe9541db2cd772fc3673d67783caf5038ef485b8abfe73cb787d6f7a6991",
+      "artifact_id": 14201401009,
+      "artifact_name": "serre-R864-original-canonical-cusp-kernel-43813041008-1",
+      "certificate": {
+        "bytes": 4962,
+        "file": "p41-original-canonical-cusp-kernel-certificate.json",
+        "sha256": "54583705eaaacc8fd8ea303bf3474232b1a1cd21e29c455f47b0cab7c9b508f9"
+      },
+      "configuration_sha256": "670acc389134f7a9c79b1a6a9ec25069a7df1baac6694daa3a9c32a38a729f59",
+      "core_sha256": "0dfe5d3fde2adfe90c3384266d5d8083ed46221c1b7b96e04030b0c5c2d26ea9",
+      "expected_conclusion": "success",
+      "files": {
+        "R864-exact-stages-manifest.json.gz": {
+          "bytes": 3625,
+          "file": "R864-exact-stages-manifest.json.gz",
+          "sha256": "3f0cdc8806427354ec6f614d477339624628207a6765660c06713895a1942c44"
+        },
+        "R864-holomorphic-basis.json.gz": {
+          "bytes": 48833,
+          "file": "R864-holomorphic-basis.json.gz",
+          "sha256": "7f2ee6a0a0cd8ddb3d2f68ddf48e436125232134d72bd8373dafe126020e1856"
+        },
+        "R864-kernel.json.gz": {
+          "bytes": 27548,
+          "file": "R864-kernel.json.gz",
+          "sha256": "b36915cb776ef5e55586d14b792c3d87d7773bbcad43600140f68a93e4ea6a51"
+        },
+        "R864-source-audit.json.gz": {
+          "bytes": 1884,
+          "file": "R864-source-audit.json.gz",
+          "sha256": "9bd6717612b926c804685aa2c26ebb8c96b2b935e95f504ed12feb476fd109b2"
+        },
+        "core-receipt.json": {
+          "bytes": 440,
+          "file": "core-receipt.json",
+          "sha256": "e0ad3eb9b5cd003c1965821a37944582c639d168fe8a1e3f60d9d9e37b8529d1"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 9153,
+          "file": "full-outputs-manifest.json",
+          "sha256": "4bf84ef0415cc4e145a155fea6506734cab5cbe0fee50019094d5e7253d4cd5f"
+        },
+        "p41-original-canonical-cusp-kernel-certificate.json": {
+          "bytes": 4962,
+          "file": "p41-original-canonical-cusp-kernel-certificate.json",
+          "sha256": "54583705eaaacc8fd8ea303bf3474232b1a1cd21e29c455f47b0cab7c9b508f9"
+        },
+        "public-actions-input.json": {
+          "bytes": 13653,
+          "file": "public-actions-input.json",
+          "sha256": "16a0da1fb256eb7959765363df38b05840a8b1f5af4b90a26b312f9314665556"
+        },
+        "run-receipt.json": {
+          "bytes": 444,
+          "file": "run-receipt.json",
+          "sha256": "25a1c87caaf11942d6ecef6e0ff71a87aabce9dd33ed4ed9ed7b706f828a47df"
+        }
+      },
+      "manifest_bytes": 9153,
+      "manifest_file_count": 57,
+      "manifest_sha256": "4bf84ef0415cc4e145a155fea6506734cab5cbe0fee50019094d5e7253d4cd5f",
+      "result": "R864-original-canonical-cusp-kernel",
+      "run_id": "43813041008",
+      "selected_file_count": 9,
+      "selected_files_sha256": "b562c6e31634d9bba6db015daad2bfed92a2dfdc3d06c70a8282074cd4b6f1e2",
+      "source_commit": "3e31c9735b5ecf85948b4447782a5e0062e32167"
+    }
+  },
+  "transport_helper": "R837_original_branch_pencil_public.py",
+  "transport_helper_sha256": "eec99c9e849c051a8314f00ff594037e962d9bc23e2d2bfaa6334307a3bb5eae",
+  "workflow": ".github/workflows/serre-R866-original-holomorphic-semilinear-descent.yml",
+  "wrapper": "R866_public_original_holomorphic_descent.py",
+  "wrapper_sha256": "7074905457e9299219fd8822b0272a034941cdb21fe07c94110fe5275b1b787c"
+}
