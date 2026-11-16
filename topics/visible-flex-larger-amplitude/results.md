@@ -363,3 +363,8 @@
 ## 2026-11-16 — Request206真实98重算与单份必要表入口
 
 [206完整入口](notes/2026-11-16-request206-original39-eight-pairs-and-single-table-summary-interface.md)已核实际200完整entry差异28571B/54ebd2c0及全文接口：request17310/056fc24b、workflow14363/9a3b52bc，新helper/worker/recipe为R454真实身份，原105 pins逐项保且总108源。只从真实98原809042943B artifact和两warm/status恢复，八组完整39模型+每组fresh FD/原预算门与175/195分钟/同3b8规则runner不变；单份必要表、90KB/70、原自有session静止和条件cleanup。新request路径push触发自己的公开Actions，实际R455/source/run待官方绑定、exact唯一终态；没有实际新batch/参数/接受结论，不补actual200失去的正文。
+
+
+## 2026-11-16 — Request206实际运行绑定
+
+206已实际启动：[run43797755759](https://github.com/Rogerhu12/math-research-public/actions/runs/43797755759)，source e8e4be9f5cd3885399453b8945ea750b1a365ce4，2026-11-16T03:22:01Z/attempt1，compute133070353121；官方初读steps1–6成功（含原源码/语法与输入绑定）、7原八组科学运行，8–10未起。exact唯一R455终态owner，未取运行中日志；不以job状态预填batch、FD数值、末参数或完整非零112接受。
