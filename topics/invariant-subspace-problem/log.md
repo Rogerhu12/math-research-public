@@ -748,3 +748,7 @@ GB实际150.248秒，全2855/DAG/9目标真，rank1021/free13/B8/Σd701，故原
 ## 2026-11-16 00:09:12 UTC — 原∞127按真实历史schema恢复
 独立读取6/7/8/9/10 creator源码及SHA，7/8确用twoMaps和显式高normal系数；修复8a7b0365保全各高块，9/10才generic，禁止默认空高字典。
 新step35/独立out与binding排600秒/4GiB，只重做9秒前缀、旧失败与全部paid数组不改；manifest65d04846/interface0e3d991a根核diff。两README不变，实际pull核规后push。
+
+## 2026-11-16 00:13:55 UTC — 完整原F127扭结299及全参数作用
+native3.497066044秒/whole7.098588608秒，805全状态/观测506稳定57、299全核/CK及AK=KJ/9目标真；raw9819·2c1054b2，根全300系数乘回χ=s66(s−2)12(s+6)12F+8F−8E8⁵(s+64)Ψ60²。
+正式证明保全部free尾/原来源，299不作Q取等或μ1；∞新actual35.29296秒全66已记录，Gauss独立正式稿续。归档完整open并更新，实际pull核两README后push。
