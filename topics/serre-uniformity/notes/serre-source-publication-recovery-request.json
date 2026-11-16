@@ -2,41 +2,66 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R824-R787-ended-no-new-output-continuations",
-  "commit_message": "serre: continue saved original checkpoints after ended runs without new outputs",
-  "rules_last_read_commit": "3487ac68fabbdbc043f1d5af4c0dad2d7bbd6e17",
+  "request_id": "20261116-R922-original-shared-low-weight-trace-dual-activation",
+  "commit_message": "serre: execute the original shared low-weight trace-dual multiplier",
+  "rules_last_read_commit": "da2c64d3a7f5d940266fe42064cbf933790be937",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "4bc1a044eabf171b0a086377171b949d202ddeec4daf906ee003dd0c2d8ebc7f",
+  "expected_previous_request_sha256": "b7b0ac55b2bde32b7fdd12253e7e5caee3495fa86d2094f0cdab5b307ba566b3",
   "files": [
     {
-      "path": "topics/serre-uniformity/notes/2026-11-16-R824-R787-ended-without-new-checkpoints.md",
-      "sha256": "7e656958e878b8cdd4dd4835cb8d60d862349833280958d49523e94377b67a03",
+      "path": "topics/serre-uniformity/scripts/R922_original_shared_low_weight_trace_dual.py",
+      "sha256": "a03394a509a14bd6f29df404f7f66c2877185c932e206ba32adecfa3192d90db",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R922_public_original_shared_low_weight_trace_dual.py",
+      "sha256": "6465d4c7e1f2474bd4745a5b2c5b4fa16d4e8ac134897f32f13476465e5e972c",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R922-original-shared-low-weight-trace-dual-method.md",
+      "sha256": "5e293257730be33228a01dd8091e8f9e818027cfc30978aed497e4ed56661d25",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R922-shared-low-weight-trace-dual-public-request.json",
+      "sha256": "0b0993547f9859195a3714fabdaca03b806657a3890a45d6a713e1605a4efc39",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R922-shared-low-weight-trace-dual.yml",
+      "sha256": "65d311ab2f8d6b38bf440e7e2468490f2d2130f06c68eb97990c6f4b206c8fbd",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-shared-trace-dual-and-target-evaluation.md",
+      "sha256": "aadb7bda94c2362a4f51977cf33b02e9b249f6bfdaf959bff890f8bd1b890224",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "050bbf4e07eba03fb935bf76690e62dd6f5c005688c966e71087f7f9b65d6b69",
-      "expected_previous_sha256": "d3fc42804274778657fd70cabfd0e107584f47f9c4f8f2829dce7afc680f9b2b"
+      "sha256": "edba769efe30d32ec03cb8c88fcd0772e13cba5fa9462cd6298ab8bd61fc815d",
+      "expected_previous_sha256": "aadb7bda94c2362a4f51977cf33b02e9b249f6bfdaf959bff890f8bd1b890224"
+    },
+    {
+      "path": "topics/serre-uniformity/open.md",
+      "sha256": "8e516d50bed570c03303b9ce18ab38aff7a5eed8d52ce27b8f8c83188aaf43a1",
+      "expected_previous_sha256": "efd158d031f7fb09005011cbd8206ff7630dec9267a78635d21dd9a5c8a628c4"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "b3e8563444f90912cb315f8c8c493b1cb92888284a04cae492103d4ac9c362b5",
-      "expected_previous_sha256": "759058fe44957ac04f1f5b389fd69e3eaf4730998dcd8e25aa4e5a0d3396110b"
+      "sha256": "32d9d90ef6398312aa77ed58c05d9bebf2acd18ed7f3b641f95ad10c053dce18",
+      "expected_previous_sha256": "6928600cc08f6f4753d1af1ee1f322bb2a92fc58881702602d8728c62e729537"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-p41-original-global-polar-generators.yml",
-      "request_path": "topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json",
-      "request_sha256": "073d09631297bb05ef1d4f4593a4fca2ee10f75b8786ce3cc72e07ff7e59d566"
-    },
-    {
-      "workflow": "serre-p41-original-power5-relation.yml",
-      "request_path": "topics/serre-uniformity/notes/R787-public-original-power5-relation-request.json",
-      "request_sha256": "0ef37410cc917490bbdfde04764ce6b1700292a7bf093d672d388e720f94a95e"
+      "workflow": "serre-R922-shared-low-weight-trace-dual.yml",
+      "request_path": "topics/serre-uniformity/notes/R922-shared-low-weight-trace-dual-public-request.json",
+      "request_sha256": "0b0993547f9859195a3714fabdaca03b806657a3890a45d6a713e1605a4efc39"
     }
   ]
 }
