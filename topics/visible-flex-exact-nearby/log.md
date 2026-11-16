@@ -185,3 +185,9 @@ workflow afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2；实际科学 checkout 1e9d01
 root全读九个原小primary（N/F0/S0/P/D/DR/J及已读同字F1/N3），完整producer18177B把native traces另存、只full-loop后写complete；下游D/DR确实使用该258-grid，保真实历史依赖，F0/F1不改。后续如需须从9abcc371同path临时恢复核Git/bytes/完整SHA，禁止重跑ray/Newton或旧producer。所有独立definitions/native/小失败报告不动。
 
 Tail完整24current/19history边界及Phase/Newton各已持文本scope保白；root补核最终WMT manifest8870b8be/9输入、原WPTV manifest9b52fa3c、已失败SCI/exec完整小文本、GMR及H/open/WDS已持文本，exact basename均0。尚未冻结的WPTV suffix不冒已审；其新consumer仍须完整入口核验。只此一path，先本白再fresh guard普通删除，0数学/0旧重算。毛释放72503B，扣本白净46205B，journal另计。两README核 572535065716880da2d43ac8fd120585dc880c2a。
+
+### 2026-11-16 11:16:28 UTC — Hnodes258 白名单先推后唯一 fresh-guard 普通删除
+
+白名单提交 4ba6fe05816fe903c647952061dc308d0a63afc5 已先成功，final白 233c8f5ecb910223db0be4e8b9f5ef3a922e697e /26298B /SHA256 a2e03bcb660438d01042e9e2f7accc82486e624c1b91d98f9b9a354ab5f384eb。本提交每次重建均读取fresh main Git-tree，严格要求唯一 topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-Hnodes258.json 为100644 blob 2f8bb2302a44a27ed228c6ebd29ea271f4e4bb9a /72503B 后普通删除；不force，不改其它目标/definitions/native/旧失败/原frozen dependency。0新数学/0旧重算/0target body访问。
+
+完整恢复提交9abcc371fa7c838b959e0672d8a4498847436168同path/Git/72503B/SHA7850b8382f131b630d0fa0f334243a470318b8526201c5e421b156853ba53c6f；旧Newton258与F0/F1依赖保留，需用先恢复，不再生成。净释放46205B为扣白后、未扣journal；最终topic容量将fresh实核供WMT完整预算。两README核 4ba6fe05816fe903c647952061dc308d0a63afc5。

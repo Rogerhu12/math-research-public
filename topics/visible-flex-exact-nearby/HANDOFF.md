@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 11:16:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 11:16:28 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 11:01:31非FF真CLI仍无executor，下一本地尝试≤12:01:31。最新CI真pull为43854566735/1于11-16 11:05:54.432963→1e9d0191b5167facc9fda1e3c94e2662f6da2b54；两README完整diff空/同已读，exec保4次全回执。下一真pull≤12:05:54；ref读取不冒真pull。
-最近只读README核：572535065716880da2d43ac8fd120585dc880c2a；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：4ba6fe05816fe903c647952061dc308d0a63afc5；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -61,4 +61,4 @@ WMT51eb08d0：同genuine trial的完整strict transport/全Vext给径向→角fl
 
 继续open：正侧signed finite inverse/true96 normalization与rough全fee、strict完整mean强迫新界→负head/ν/两mean/Θ/高门→背景/非线性matching→同对象几何。每结论独推；未达总标准不停、不等用户。
 
-D5 probe3420a025/117565B先71ce988e白536dd2a1后删，restore2184a463/F2 archive_required及访问异常保白。Hnodes258旧float2f8bb230/72503B白a2e03bcb已先推待fresh删，restore9abcc371同path；真实Newton258依赖须原字恢复，禁止重算。
+D5 probe3420a025/117565B先71ce988e白536dd2a1后删，restore2184a463/F2 archive_required及访问异常保白。Hnodes258旧float2f8bb230/72503B白a2e03bcb先4ba6fe05后freshguard普通删，restore9abcc371同path；真实Newton258依赖须原字恢复，禁止重算。
