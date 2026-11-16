@@ -26,7 +26,7 @@
 
 [R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)证明在整圈保E/F的纯R1候选只有原支及关于span(T,Tθ)的反射支（退化/切支范围保）。固定高度时必须零均值；完整Tu/Tv正交lift可从起点冻结一对角函数，但只有准确落原9/8列时仍属原51族。原角对称、闭合、完整径向延拓及全body变化都已给式；非零mean只能保减均值后的不同metric公式，或在原γ盒内另付真实高度补偿。
 
-下一新计算由这个确定目标取得一次原J1盒约束的共同两网L2射线，保实际G、mean残差和投影后一般F变化；仅非零且过共同低阶/原盒门的幅度才付一个真正新R2问题。拟固定七幅度、一次有界LS/一次LP，0射线则0LP；尚未执行，也不把此计划计为已付。最后仍须全body预测和原actual14，不沿用反射的等距公式给近似投影授资格。
+下一新计算由这个确定目标取得一次原J1盒约束的共同两网L2射线，保实际G、mean残差和投影后一般F变化；仅非零且过共同低阶/原盒门的幅度才付一个真正新R2问题。已按[新明确范围](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)提交固定七幅度、一次有界LS/一次LP，0射线则0LP；运行身份待回读，不把提交计为科学已付。最后仍须全body预测和原actual14，不沿用反射的等距公式给近似投影授资格。
 
 ### 仍须支付
 
@@ -177,3 +177,9 @@ R1的Tss平方/交叉及normal变化、R0完整θ+u/c(v)/Π、前102与后51中�
 [R517](results/R517-periodic-scalar-ruling-and-automatic-real-matrix-return.md)用固定Δ各非零差幅、三个真实母矩Vandermonde和全部gap尾，证明Φ_MΔ=0必M=0。真正周期scalar保所有端germ并重复时，完整K对次数为准确二次式；[0,2L]三个原端点0/L/2L的二差给−2sin²θ E(Φ_MΔ)，故两次全K0迫原八矩M0。反之已付一次K0且M0则所有正时长重复都K0。
 
 若同一个scalar本来定义在合法实解析整圆上，固定C∞profile仍只进入有界固定配对，完整K对时间实解析；一周期K0由解析延拓自动给M0。它不允许把局部secant随意周期化，也不把R507三个端值返回当全周期jet匹配。下一项是真正构造该有限幅值周期轨道；frame/位置/全T,V/period/13及主完成门仍须另付。
+
+## 2026-11-16 13:09 UTC：真正58有界反射R1与一次新R2纤维提交
+
+[完整设计](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)消费原58首jets和已闭ring17完整MODEL，新增完整V17与唯一射线Lx/Hxx；原J1盒BVLS后全七幅度均读，首个合格非零R1态才取得一个新R2 LP。原172盒/组合物理norm/实际G保；准确R1+R2统一加到58再舍入一次。request66246B/70f7e91d7ecacb1fa24f0834728e2df638412ff1e53b1ccc020ceb027f0fa046、315源hash已绑定。
+
+独立600秒含全部输入/import/失败/输出，最多一次完整body预测及一对原actual14；历史固定metric provenance准确恢复，新取值仍收费，完整LS/LP和新向量仅存原stdout。当前未读到新run结果，58与累计2863.061635735秒147值暂不变。0射线/全幅度阻断均0LP，不重开已闭纯R2；子问题结束继续open。

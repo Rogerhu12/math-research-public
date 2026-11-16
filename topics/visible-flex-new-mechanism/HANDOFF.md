@@ -26,7 +26,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [最后ring17](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)：run43865295208/research133292183126/report133292744189/source35438c143eda961a0fa8836d387d0e537fba43b2。完整两网不变列最大5.502593686251275/5.502593694661017未排K1000/61；原172盒5056行18变量唯一LP返回status2/Infeasible/nit0/raw18及dual全None。无候选/预测/actual，当前仍58；不是准确不可行或全51排除。
 
-新32.28273412599998秒/0值闭、0overrun；最新累计 **2863.061635735秒/147值**。MODEL1 1449765B/b56010f023cae1ba6ce63ce33d6fe3728ce72ec096600f466dd377c216aa9fcc保全环A/B/C/ell、I/II/二jets，不含X/fullgrid二jets/J或完整17个Π三向量。原raw1949314B/6b893404c4515ae7bc86252efd79c3f920294242e6f51620b49c5d9c55fbda9a；report9条0parseerror。所有新frame/Π/height含总钟；余额已闭，不重解R2。当前无待读科学run。
+新32.28273412599998秒/0值闭、0overrun；最新累计 **2863.061635735秒/147值**。MODEL1 1449765B/b56010f023cae1ba6ce63ce33d6fe3728ce72ec096600f466dd377c216aa9fcc保全环A/B/C/ell、I/II/二jets，不含X/fullgrid二jets/J或完整17个Π三向量。原raw1949314B/6b893404c4515ae7bc86252efd79c3f920294242e6f51620b49c5d9c55fbda9a；report9条0parseerror。所有新frame/Π/height含总钟；余额已闭，不重解R2。新reflected-R1请求已提交，运行身份待metadata回读；尚无新结果。
 
 ## 4. 已闭cap路线与原库真实路径
 
@@ -46,6 +46,6 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 R514/R516付原51三jet/同盒、纯R1共同17维二次jet与四次列门、剩余R2原盒support-function iff；实际G/完整Π/中段耦合保。当前ring未存完整17个Π三向量，下一必要kernel须新付；未给可行新态，不重原R2 LP。
 
-[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付固定圈原E/F的反射支、解析退化接合、零均值必要门及完整Tu/Tv lift。落原9/8才属原51；非零mean需不同metric或原γ盒内真实高度补偿。下一拟一次原J1盒内共同两网投影、固定7幅度和仅一个新非零态R2 LP；0射线0LP，mean/投影残差/全body门保，尚未执行。
+[R519](results/R519-fixed-ring-reflection-branch-and-mean-compatible-radial-lift.md)付固定圈原E/F的反射支、解析退化接合、零均值必要门及完整Tu/Tv lift。落原9/8才属原51；非零mean需不同metric或原γ盒内真实高度补偿。[新请求](notes/true58-reflected-R1-ray-and-new-R2-fiber-design-20261116.md)已提交：原J1盒内一次共同两网BVLS、固定7幅度和仅一个新非零态R2 LP；独立600秒/至多1完整预测1actualpair，0射线0LP。mean/残差/实际G/全body门保，准确R1+R2相加后一次舍入。request66246B/70f7e91d7ecacb1fa24f0834728e2df638412ff1e53b1ccc020ceb027f0fa046；尚无运行结果，不记59。
 
 继续三个真实问题：原盒下R0/R1低阶环态与其全body候选；R518同一实际字的非恒逐点ruling；同一固定规范下有限幅值非恒周期轨道。所有新系数/缺失数组/求解/预测/actual都在未来明确Actions科学账；已有输出只按原身份读。每一子问题结束接open下一项，不把条件定理或有限观察当主完成。
