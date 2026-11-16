@@ -100,3 +100,7 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 09:09 UTC — Astra-ISP-789f：matched完整返回中的native平均首反馈
 [原完整证明](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)以真核投影付Sf修正，真实第一远孔行付完整头Gram；同p_i平均ᾱ给全(H−B)交叉及真帽全cut均值趋零。
 根全稿与三父核验完成，保同w/完整h/左右零源、n≥h及帽内部窗；剩g0̄真空来源，不称N=M。原trace轻job实2.981秒两门全过、回执独核，另稿接续。
+
+## 2026-11-16 09:11 UTC — Astra-ISP-789f：同原六次面恰35几何普通双点
+[完整原证明](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)用实2.981秒的同原D自由35/trace95及全19源七次792×1848单位，排全部rank5奇点；局部Schur给35 A1节点、几何整正规及原X平滑极小解消。
+根全source/正式稿、3926字节raw和binding独核，修清模127导数记号；七次双逆1254528坐标实真，未虚填det数值。该奇点子题关闭，继续原Bell1完整余理想，普通ISP未完成。
