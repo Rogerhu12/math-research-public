@@ -1,0 +1,792 @@
+{
+  "schema": "request224-layered-exact-literal-source-view-plan-v1",
+  "original208_request": {
+    "file": "topics/visible-flex-larger-amplitude/computations/public-six-control-contracted-trace-r273-request.json",
+    "bytes": 40395,
+    "sha256": "435e90b615b1d5416794c490f7ba9493c5425e19c442de02083807dfa935a5fe"
+  },
+  "original211_request": {
+    "file": "topics/visible-flex-larger-amplitude/computations/public-six-control-zero-eliding-contracted-trace-r273-request.json",
+    "bytes": 80994,
+    "sha256": "5985662c19540f55c9bf1d2137ebc568db9d70bd026ffddd4bc89f0d0112a4ed"
+  },
+  "original211_plan": {
+    "file": "topics/visible-flex-larger-amplitude/computations/request211-zero-eliding-contracted-source-plan.json",
+    "bytes": 81398,
+    "sha256": "4d19708494cf1f33b8fcbe47053769b9fe7653d6cc33624a7e3126db77787fda"
+  },
+  "original211_source_commit": "7e62fb22bff15bfe53e1481b4e7ba21d2f905786",
+  "scope": "The complete frozen211 source plan regenerates all21 historical views from its original public208 bytes; these ten current224 views are exact literal transformations of that same-job current211 output, not preexisting Git files.",
+  "historical_source_plan_not_duplicated_or_executed_as_a_generator": true,
+  "original211_generated_view_count": 21,
+  "current_generated_view_count": 10,
+  "literal_patches": {
+    "current-file-geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs": {
+      "before": "geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs",
+      "after": "geometry_20261116_original64_input_support_contracted_finite_trace_loader.mjs"
+    },
+    "current-file-exact_20261116_original64_zero_eliding_contracted_finite_trace_tail_base.py": {
+      "before": "exact_20261116_original64_zero_eliding_contracted_finite_trace_tail_base.py",
+      "after": "exact_20261116_original64_input_support_contracted_finite_trace_tail_base.py"
+    },
+    "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client_hook.mjs": {
+      "before": "geometry_20261116_zero_eliding_contracted_trace_r273_tail_client_hook.mjs",
+      "after": "geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs"
+    },
+    "current-file-exact_20261116_zero_eliding_contracted_trace_r273_current576_system.py": {
+      "before": "exact_20261116_zero_eliding_contracted_trace_r273_current576_system.py",
+      "after": "exact_20261116_input_support_contracted_trace_r273_current576_system.py"
+    },
+    "current-file-exact_20261116_zero_eliding_contracted_trace_r273_current576_chain_qr.py": {
+      "before": "exact_20261116_zero_eliding_contracted_trace_r273_current576_chain_qr.py",
+      "after": "exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py"
+    },
+    "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py": {
+      "before": "geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py",
+      "after": "geometry_20261116_input_support_contracted_trace_r273_tail_client.py"
+    },
+    "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_height_path.py": {
+      "before": "geometry_20261116_zero_eliding_contracted_trace_r273_height_path.py",
+      "after": "geometry_20261116_input_support_contracted_trace_r273_height_path.py"
+    },
+    "current-file-geometry_20261116_six_control_zero_eliding_contracted_trace_r273_full112.py": {
+      "before": "geometry_20261116_six_control_zero_eliding_contracted_trace_r273_full112.py",
+      "after": "geometry_20261116_six_control_input_support_contracted_trace_r273_full112.py"
+    },
+    "current-file-root_20261116_six_control_zero_eliding_contracted_trace_r273_run.py": {
+      "before": "root_20261116_six_control_zero_eliding_contracted_trace_r273_run.py",
+      "after": "root_20261116_six_control_input_support_contracted_trace_r273_run.py"
+    },
+    "current-file-root_20261116_six_control_zero_eliding_contracted_trace_r273_scalar_readout.py": {
+      "before": "root_20261116_six_control_zero_eliding_contracted_trace_r273_scalar_readout.py",
+      "after": "root_20261116_six_control_input_support_contracted_trace_r273_scalar_readout.py"
+    },
+    "current-file-geometry_20261116_original64_zero_eliding_finite_trace_flow.mjs": {
+      "before": "geometry_20261116_original64_zero_eliding_finite_trace_flow.mjs",
+      "after": "geometry_20261116_original64_input_support_finite_trace_flow.mjs"
+    },
+    "current-file-geometry_20261116_finite_trace_zero_coefficient_linear.mjs": {
+      "before": "geometry_20261116_finite_trace_zero_coefficient_linear.mjs",
+      "after": "geometry_20261116_finite_trace_actual_input_support_linear.mjs"
+    },
+    "current-file-root_20261116_zero_eliding_contracted_source_views.py": {
+      "before": "root_20261116_zero_eliding_contracted_source_views.py",
+      "after": "root_20261116_input_support_contracted_source_views.py"
+    },
+    "factory": {
+      "before": "createOriginal64ZeroElidingFiniteTraceVariationalEngine",
+      "after": "createOriginal64InputSupportFiniteTraceVariationalEngine"
+    },
+    "current-schema-family": {
+      "before": "zero-eliding",
+      "after": "input-support"
+    },
+    "current-module-family": {
+      "before": "zero_eliding",
+      "after": "input_support"
+    },
+    "current-environment": {
+      "before": "ZERO_ELIDING",
+      "after": "INPUT_SUPPORT"
+    },
+    "current-request-lower": {
+      "before": "request211",
+      "after": "request224"
+    },
+    "current-request-upper": {
+      "before": "REQUEST211",
+      "after": "REQUEST224"
+    },
+    "current-request-number": {
+      "before": "request=211",
+      "after": "request=224"
+    },
+    "linear-schema": {
+      "before": "original64-finite-input-zero-coefficient-linear-v1",
+      "after": "original64-finite-input-row-support-linear-v1"
+    },
+    "loader-linear-policy": {
+      "before": "finite_input_zero_coefficient_linear",
+      "after": "finite_input_row_support_linear"
+    },
+    "helper-receipt": {
+      "before": "linear_zero_helper_source_sha256",
+      "after": "input_support_helper_source_sha256"
+    },
+    "adapter-helper-receipt": {
+      "before": "finite_linear_zero_helper_sha256",
+      "after": "finite_input_support_helper_sha256"
+    },
+    "policy-keys": {
+      "before": "zero_coefficient_linear",
+      "after": "input_support_linear"
+    },
+    "stat-field": {
+      "before": "linear_zero_elision",
+      "after": "linear_input_support"
+    },
+    "stat-constant": {
+      "before": "LINEAR_ZERO",
+      "after": "INPUT_SUPPORT"
+    },
+    "stat-function": {
+      "before": "linear_zero_stats",
+      "after": "input_support_stats"
+    },
+    "source-sha-1a5ce3f7b2af7016b2752af1654be68d1d708c3b4cc6660fbec33bb468f09ae1": {
+      "before": "1a5ce3f7b2af7016b2752af1654be68d1d708c3b4cc6660fbec33bb468f09ae1",
+      "after": "14c691bec5ca228495027185ed642730d90d17ce65467ac76662c9407cd7d960"
+    },
+    "source-sha-eb487b2dff111d0af543a722c0882d28f7408eeb61e4e25559cef147d2e16e02": {
+      "before": "eb487b2dff111d0af543a722c0882d28f7408eeb61e4e25559cef147d2e16e02",
+      "after": "e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3"
+    },
+    "loader-actual-input-support-contract": {
+      "before": "  actual_A_and_used_T_checked_each_call:true,\n  false_eligibility_uses_original_complete_i_j_k_loop:true,",
+      "after": "  actual_A_and_used_T_checked_each_call:true,\n  actual_T_row_support_rebuilt_each_call:true,\n  actual_nonzero_T_words_never_omitted:true,\n  no_block_structure_or_zero_H_assumption:true,\n  fourteen_actual_integer_counters_and_complete_last_observation:true,\n  false_eligibility_uses_original_complete_i_j_k_loop:true,"
+    },
+    "source-sha-9ca91d9f3efac6d944d81545b6ad89f1b33eb07a942598e35065319782243d13": {
+      "before": "9ca91d9f3efac6d944d81545b6ad89f1b33eb07a942598e35065319782243d13",
+      "after": "208fae784a8922b0d2c1fd16b0740ea4580e6050f5989243942d0d40c75b7a7f"
+    },
+    "source-sha-b5595fde2d1dd61b996aa9a39ae40451e85db27f7effcb3981f016ff5123de24": {
+      "before": "b5595fde2d1dd61b996aa9a39ae40451e85db27f7effcb3981f016ff5123de24",
+      "after": "cdce0914ca0b27ad5171cbd950f7ddf56cfc82040bff81596f4fa4a16c421f2e"
+    },
+    "source-sha-251774b5ee729622cd47f69844697f0059e75022653ce7cbd50f1ef042ccc010": {
+      "before": "251774b5ee729622cd47f69844697f0059e75022653ce7cbd50f1ef042ccc010",
+      "after": "a1ed1ac6b02bc01c5d0261dd5e9e361c0a831798f42e981f2e96f72ffff0d83c"
+    },
+    "source-sha-eeb889b4db25d6eab3f431177098a2ddc236718c2cdfe277ea47eb4a92e82482": {
+      "before": "eeb889b4db25d6eab3f431177098a2ddc236718c2cdfe277ea47eb4a92e82482",
+      "after": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70"
+    },
+    "source-sha-6602f2713ffc871467259476de8f0ef48f9c0cd4ad2ae43415ec8708f3bc7f40": {
+      "before": "6602f2713ffc871467259476de8f0ef48f9c0cd4ad2ae43415ec8708f3bc7f40",
+      "after": "75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294"
+    },
+    "source-sha-871451052bf60d7471f64aec53314c11bc262aad597763885130ab578a7ab1d5": {
+      "before": "871451052bf60d7471f64aec53314c11bc262aad597763885130ab578a7ab1d5",
+      "after": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1"
+    },
+    "source-sha-3abb453d31306ea3a2d128a8f2cd03255cab51f40c501db218d971fe66b0c315": {
+      "before": "3abb453d31306ea3a2d128a8f2cd03255cab51f40c501db218d971fe66b0c315",
+      "after": "e5b52b2bc1b2068dc264ea26ac01a8b0c9adff3e17c28dce1008365f0011e1ee"
+    },
+    "full112-actual-input-support-contract": {
+      "before": "            actual_finite_input_row_support_linear_only=True,\n            linear_false_qualification_original_complete_loop=True,",
+      "after": "            actual_finite_input_row_support_linear_only=True,\n            actual_T_row_support_rebuilt_each_call=True,\n            actual_nonzero_T_words_never_omitted=True,\n            linear_false_qualification_original_complete_loop=True,"
+    },
+    "source-sha-ef7c20b204df3acf42c326fea4012900c47eca76034b8d090dedf618629a3a91": {
+      "before": "ef7c20b204df3acf42c326fea4012900c47eca76034b8d090dedf618629a3a91",
+      "after": "0a1a7cca83bdd0b3738df6e92f2534a280cd00b1a17e218b75256dd6283e342d"
+    },
+    "source-sha-d9bde91cf8b369ce377a837038ab8ee9ae3d8fc201397479433e5ab8cb3e82c7": {
+      "before": "d9bde91cf8b369ce377a837038ab8ee9ae3d8fc201397479433e5ab8cb3e82c7",
+      "after": "3ce47137edc42df9e97997d6819860deedea74909970dfcac9bdab1ce89fda2d"
+    },
+    "reader-fourteen-input-support-counters": {
+      "before": "    \"zero_j_terms_skipped\",\"scalar_products_skipped\",\"retained_j_terms_completed\")\nINPUT_SUPPORT_SCOPE=",
+      "after": "    \"zero_j_terms_skipped\",\"scalar_products_skipped\",\"retained_j_terms_completed\",\n    \"actual_nonzero_T_words_indexed\",\"actual_zero_T_words_seen\",\"T_rows_indexed\",\n    \"zero_T_products_skipped_after_nonzero_A\",\"retained_scalar_products_completed\")\nINPUT_SUPPORT_SCOPE="
+    },
+    "reader-all-input-support-scope": {
+      "before": "INPUT_SUPPORT_SCOPE=(\"schema\",\"actual_used_T_is_only_first_K_rows\",\n    \"both_mean_output_rows_retained\",",
+      "after": "INPUT_SUPPORT_SCOPE=(\"schema\",\"actual_used_T_is_only_first_K_rows\",\n    \"support_is_rebuilt_from_actual_T_for_every_call\",\n    \"no_support_reused_across_fields_steps_or_calls\",\"no_block_structure_or_zero_H_assumption\",\n    \"both_mean_output_rows_retained\","
+    },
+    "reader-complete-null-or-absent-last-observation": {
+      "before": "        observation=c.get(\"last_observation\")\n        if observation is not None:\n            last.append(dict(engine_index=row.get(\"engine_index\"),first_stage=row.get(\"first_stage\"),\n                stage_count=row.get(\"stage_count\"),last_observation=small_original(observation),\n                calls_started=c.get(\"calls_started\"),calls_completed=c.get(\"calls_completed\")))\n    return dict(actual_integer_counter_totals=totals,actual_fallback_reason_counts=reasons,",
+      "after": "        observation_present=\"last_observation\" in c\n        last_row=dict(engine_index=row.get(\"engine_index\"),first_stage=row.get(\"first_stage\"),\n            stage_count=row.get(\"stage_count\"),last_observation_present=observation_present,\n            calls_started=c.get(\"calls_started\"),calls_completed=c.get(\"calls_completed\"))\n        if observation_present:\n            last_row[\"last_observation\"]=small_original(c[\"last_observation\"])\n        last.append(last_row)\n    return dict(actual_integer_counter_totals=totals,actual_fallback_reason_counts=reasons,"
+    },
+    "reader-input-support-partial-scope": {
+      "before": "        retained_j_and_skipped_products_count_only_qualified_calls=True,\n        interrupted_inner_k_progress_not_inferred=True,",
+      "after": "        retained_j_and_skipped_products_count_only_qualified_calls=True,\n        input_support_scan_counts_can_include_an_incomplete_or_fallback_scan=True,\n        retained_scalar_product_count_committed_only_after_complete_inner_loop=True,\n        all_original_last_observation_fields_and_null_presence_retained=True,\n        interrupted_inner_k_progress_not_inferred=True,"
+    }
+  },
+  "views": [
+    {
+      "base": {
+        "file": "geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs",
+        "bytes": 11829,
+        "sha256": "9ca91d9f3efac6d944d81545b6ad89f1b33eb07a942598e35065319782243d13"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_finite_trace_flow.mjs",
+          "count": 2
+        },
+        {
+          "patch": "current-file-geometry_20261116_finite_trace_zero_coefficient_linear.mjs",
+          "count": 1
+        },
+        {
+          "patch": "factory",
+          "count": 2
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 1
+        },
+        {
+          "patch": "linear-schema",
+          "count": 1
+        },
+        {
+          "patch": "loader-linear-policy",
+          "count": 1
+        },
+        {
+          "patch": "helper-receipt",
+          "count": 1
+        },
+        {
+          "patch": "loader-actual-input-support-contract",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_original64_input_support_contracted_finite_trace_loader.mjs",
+        "bytes": 12041,
+        "sha256": "208fae784a8922b0d2c1fd16b0740ea4580e6050f5989243942d0d40c75b7a7f"
+      }
+    },
+    {
+      "base": {
+        "file": "exact_20261116_original64_zero_eliding_contracted_finite_trace_tail_base.py",
+        "bytes": 20305,
+        "sha256": "b5595fde2d1dd61b996aa9a39ae40451e85db27f7effcb3981f016ff5123de24"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_finite_trace_flow.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_finite_trace_zero_coefficient_linear.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_original64_input_support_contracted_finite_trace_tail_base.py",
+        "bytes": 20312,
+        "sha256": "cdce0914ca0b27ad5171cbd950f7ddf56cfc82040bff81596f4fa4a16c421f2e"
+      }
+    },
+    {
+      "base": {
+        "file": "geometry_20261116_zero_eliding_contracted_trace_r273_tail_client_hook.mjs",
+        "bytes": 55084,
+        "sha256": "251774b5ee729622cd47f69844697f0059e75022653ce7cbd50f1ef042ccc010"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_finite_trace_flow.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_finite_trace_zero_coefficient_linear.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 32
+        },
+        {
+          "patch": "current-environment",
+          "count": 1
+        },
+        {
+          "patch": "loader-linear-policy",
+          "count": 2
+        },
+        {
+          "patch": "helper-receipt",
+          "count": 3
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs",
+        "bytes": 55119,
+        "sha256": "a1ed1ac6b02bc01c5d0261dd5e9e361c0a831798f42e981f2e96f72ffff0d83c"
+      }
+    },
+    {
+      "base": {
+        "file": "exact_20261116_zero_eliding_contracted_trace_r273_current576_system.py",
+        "bytes": 29341,
+        "sha256": "eeb889b4db25d6eab3f431177098a2ddc236718c2cdfe277ea47eb4a92e82482"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client_hook.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 9
+        },
+        {
+          "patch": "source-sha-b5595fde2d1dd61b996aa9a39ae40451e85db27f7effcb3981f016ff5123de24",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_input_support_contracted_trace_r273_current576_system.py",
+        "bytes": 29352,
+        "sha256": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70"
+      }
+    },
+    {
+      "base": {
+        "file": "exact_20261116_zero_eliding_contracted_trace_r273_current576_chain_qr.py",
+        "bytes": 22086,
+        "sha256": "6602f2713ffc871467259476de8f0ef48f9c0cd4ad2ae43415ec8708f3bc7f40"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-exact_20261116_zero_eliding_contracted_trace_r273_current576_system.py",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 6
+        },
+        {
+          "patch": "source-sha-eeb889b4db25d6eab3f431177098a2ddc236718c2cdfe277ea47eb4a92e82482",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py",
+        "bytes": 22093,
+        "sha256": "75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294"
+      }
+    },
+    {
+      "base": {
+        "file": "geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py",
+        "bytes": 20973,
+        "sha256": "871451052bf60d7471f64aec53314c11bc262aad597763885130ab578a7ab1d5"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs",
+          "count": 2
+        },
+        {
+          "patch": "current-file-exact_20261116_original64_zero_eliding_contracted_finite_trace_tail_base.py",
+          "count": 2
+        },
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client_hook.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-exact_20261116_zero_eliding_contracted_trace_r273_current576_system.py",
+          "count": 1
+        },
+        {
+          "patch": "current-file-exact_20261116_zero_eliding_contracted_trace_r273_current576_chain_qr.py",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_finite_trace_flow.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_finite_trace_zero_coefficient_linear.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 10
+        },
+        {
+          "patch": "current-module-family",
+          "count": 1
+        },
+        {
+          "patch": "current-environment",
+          "count": 1
+        },
+        {
+          "patch": "current-request-lower",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-1a5ce3f7b2af7016b2752af1654be68d1d708c3b4cc6660fbec33bb468f09ae1",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-eb487b2dff111d0af543a722c0882d28f7408eeb61e4e25559cef147d2e16e02",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-9ca91d9f3efac6d944d81545b6ad89f1b33eb07a942598e35065319782243d13",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-b5595fde2d1dd61b996aa9a39ae40451e85db27f7effcb3981f016ff5123de24",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-eeb889b4db25d6eab3f431177098a2ddc236718c2cdfe277ea47eb4a92e82482",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-6602f2713ffc871467259476de8f0ef48f9c0cd4ad2ae43415ec8708f3bc7f40",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_input_support_contracted_trace_r273_tail_client.py",
+        "bytes": 20997,
+        "sha256": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1"
+      }
+    },
+    {
+      "base": {
+        "file": "geometry_20261116_zero_eliding_contracted_trace_r273_height_path.py",
+        "bytes": 23984,
+        "sha256": "3abb453d31306ea3a2d128a8f2cd03255cab51f40c501db218d971fe66b0c315"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 3
+        },
+        {
+          "patch": "current-request-lower",
+          "count": 4
+        },
+        {
+          "patch": "source-sha-871451052bf60d7471f64aec53314c11bc262aad597763885130ab578a7ab1d5",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_input_support_contracted_trace_r273_height_path.py",
+        "bytes": 23988,
+        "sha256": "e5b52b2bc1b2068dc264ea26ac01a8b0c9adff3e17c28dce1008365f0011e1ee"
+      }
+    },
+    {
+      "base": {
+        "file": "geometry_20261116_six_control_zero_eliding_contracted_trace_r273_full112.py",
+        "bytes": 50842,
+        "sha256": "ef7c20b204df3acf42c326fea4012900c47eca76034b8d090dedf618629a3a91"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-exact_20261116_original64_zero_eliding_contracted_finite_trace_tail_base.py",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client_hook.mjs",
+          "count": 1
+        },
+        {
+          "patch": "current-file-exact_20261116_zero_eliding_contracted_trace_r273_current576_system.py",
+          "count": 1
+        },
+        {
+          "patch": "current-file-exact_20261116_zero_eliding_contracted_trace_r273_current576_chain_qr.py",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py",
+          "count": 5
+        },
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_height_path.py",
+          "count": 4
+        },
+        {
+          "patch": "current-file-geometry_20261116_original64_zero_eliding_finite_trace_flow.mjs",
+          "count": 2
+        },
+        {
+          "patch": "current-file-geometry_20261116_finite_trace_zero_coefficient_linear.mjs",
+          "count": 2
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 5
+        },
+        {
+          "patch": "current-module-family",
+          "count": 2
+        },
+        {
+          "patch": "loader-linear-policy",
+          "count": 1
+        },
+        {
+          "patch": "adapter-helper-receipt",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-1a5ce3f7b2af7016b2752af1654be68d1d708c3b4cc6660fbec33bb468f09ae1",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-eb487b2dff111d0af543a722c0882d28f7408eeb61e4e25559cef147d2e16e02",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-9ca91d9f3efac6d944d81545b6ad89f1b33eb07a942598e35065319782243d13",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-b5595fde2d1dd61b996aa9a39ae40451e85db27f7effcb3981f016ff5123de24",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-251774b5ee729622cd47f69844697f0059e75022653ce7cbd50f1ef042ccc010",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-eeb889b4db25d6eab3f431177098a2ddc236718c2cdfe277ea47eb4a92e82482",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-6602f2713ffc871467259476de8f0ef48f9c0cd4ad2ae43415ec8708f3bc7f40",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-871451052bf60d7471f64aec53314c11bc262aad597763885130ab578a7ab1d5",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-3abb453d31306ea3a2d128a8f2cd03255cab51f40c501db218d971fe66b0c315",
+          "count": 1
+        },
+        {
+          "patch": "full112-actual-input-support-contract",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_six_control_input_support_contracted_trace_r273_full112.py",
+        "bytes": 50982,
+        "sha256": "0a1a7cca83bdd0b3738df6e92f2534a280cd00b1a17e218b75256dd6283e342d"
+      }
+    },
+    {
+      "base": {
+        "file": "root_20261116_six_control_zero_eliding_contracted_trace_r273_run.py",
+        "bytes": 14992,
+        "sha256": "d9bde91cf8b369ce377a837038ab8ee9ae3d8fc201397479433e5ab8cb3e82c7"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py",
+          "count": 1
+        },
+        {
+          "patch": "current-file-geometry_20261116_six_control_zero_eliding_contracted_trace_r273_full112.py",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 3
+        },
+        {
+          "patch": "current-module-family",
+          "count": 1
+        },
+        {
+          "patch": "current-request-lower",
+          "count": 2
+        },
+        {
+          "patch": "loader-linear-policy",
+          "count": 1
+        },
+        {
+          "patch": "policy-keys",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-871451052bf60d7471f64aec53314c11bc262aad597763885130ab578a7ab1d5",
+          "count": 1
+        },
+        {
+          "patch": "source-sha-ef7c20b204df3acf42c326fea4012900c47eca76034b8d090dedf618629a3a91",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_six_control_input_support_contracted_trace_r273_run.py",
+        "bytes": 14990,
+        "sha256": "3ce47137edc42df9e97997d6819860deedea74909970dfcac9bdab1ce89fda2d"
+      }
+    },
+    {
+      "base": {
+        "file": "root_20261116_six_control_zero_eliding_contracted_trace_r273_scalar_readout.py",
+        "bytes": 48927,
+        "sha256": "6131ffcb23042cc8be445ccdc46c983fed74205c560f2a18b18a193a8a07fe76"
+      },
+      "base_location": "actual-same-job-generated-current211",
+      "applications": [
+        {
+          "patch": "current-file-root_20261116_six_control_zero_eliding_contracted_trace_r273_run.py",
+          "count": 1
+        },
+        {
+          "patch": "current-schema-family",
+          "count": 4
+        },
+        {
+          "patch": "current-module-family",
+          "count": 1
+        },
+        {
+          "patch": "current-environment",
+          "count": 2
+        },
+        {
+          "patch": "current-request-lower",
+          "count": 5
+        },
+        {
+          "patch": "current-request-upper",
+          "count": 2
+        },
+        {
+          "patch": "current-request-number",
+          "count": 2
+        },
+        {
+          "patch": "policy-keys",
+          "count": 4
+        },
+        {
+          "patch": "stat-field",
+          "count": 3
+        },
+        {
+          "patch": "stat-constant",
+          "count": 5
+        },
+        {
+          "patch": "stat-function",
+          "count": 2
+        },
+        {
+          "patch": "reader-fourteen-input-support-counters",
+          "count": 1
+        },
+        {
+          "patch": "reader-all-input-support-scope",
+          "count": 1
+        },
+        {
+          "patch": "reader-complete-null-or-absent-last-observation",
+          "count": 2
+        },
+        {
+          "patch": "reader-input-support-partial-scope",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_six_control_input_support_contracted_trace_r273_scalar_readout.py",
+        "bytes": 49693,
+        "sha256": "e9be110da50ccdb71dc066bc246aea78564b793d9e82580280c3813abf93712f"
+      }
+    }
+  ],
+  "current_generated_source_sha256": {
+    "geometry_20261116_original64_input_support_contracted_finite_trace_loader.mjs": "208fae784a8922b0d2c1fd16b0740ea4580e6050f5989243942d0d40c75b7a7f",
+    "exact_20261116_original64_input_support_contracted_finite_trace_tail_base.py": "cdce0914ca0b27ad5171cbd950f7ddf56cfc82040bff81596f4fa4a16c421f2e",
+    "geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs": "a1ed1ac6b02bc01c5d0261dd5e9e361c0a831798f42e981f2e96f72ffff0d83c",
+    "exact_20261116_input_support_contracted_trace_r273_current576_system.py": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70",
+    "exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py": "75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294",
+    "geometry_20261116_input_support_contracted_trace_r273_tail_client.py": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1",
+    "geometry_20261116_input_support_contracted_trace_r273_height_path.py": "e5b52b2bc1b2068dc264ea26ac01a8b0c9adff3e17c28dce1008365f0011e1ee",
+    "geometry_20261116_six_control_input_support_contracted_trace_r273_full112.py": "0a1a7cca83bdd0b3738df6e92f2534a280cd00b1a17e218b75256dd6283e342d",
+    "root_20261116_six_control_input_support_contracted_trace_r273_run.py": "3ce47137edc42df9e97997d6819860deedea74909970dfcac9bdab1ce89fda2d",
+    "root_20261116_six_control_input_support_contracted_trace_r273_scalar_readout.py": "e9be110da50ccdb71dc066bc246aea78564b793d9e82580280c3813abf93712f"
+  },
+  "generated_source_sha256": {
+    "geometry_20261116_original64_zero_flux_contracted_finite_trace_flow.mjs": "800a1a5f3bed422ecb343284416cc143b8932c498d4e6f5dae788f65087fa1c2",
+    "geometry_20261116_original64_zero_flux_contracted_finite_trace_loader.mjs": "fccf2c7c528a377300bba85dad976ae407ed4f0ec141ce1066ce52541ab92f61",
+    "exact_20261116_original64_zero_flux_contracted_finite_trace_tail_base.py": "b58896d529b979910d5bcb8955bd2ff8629c0bf3c387476e7b1df314e8311530",
+    "geometry_20261116_zero_flux_contracted_trace_r273_tail_client_hook.mjs": "d02da6b8d7bbb4a6ce1a30d3ed55559401e75a312d811258ed671b339de19971",
+    "exact_20261116_zero_flux_contracted_trace_r273_current576_system.py": "4197aa0ac5f29a947f753380489797efe2ef8c9c1d5375ca39e80deb1cd90180",
+    "exact_20261116_zero_flux_contracted_trace_r273_current576_chain_qr.py": "099a0d2919cb3d3569d827e6d8fa90461d7b67c9fa31a7ead189d9b0476f7dcd",
+    "geometry_20261116_zero_flux_contracted_trace_r273_tail_client.py": "2936e1bb32043c9cd7a5487ff4767c5d25cf6ab0d96f3054a0f8bd5911329104",
+    "geometry_20261116_zero_flux_contracted_trace_r273_height_path.py": "6f2a0d42921a92689d62b58766152175d91b8fed8850959942d4255b07c6e4ea",
+    "geometry_20261116_six_control_zero_flux_contracted_trace_r273_full112.py": "79d174b34c8bd3574db189c727c0fba633f82bca85d09c1b000ee8d56c870dcf",
+    "root_20261116_six_control_zero_flux_contracted_trace_r273_run.py": "6cbb2404a314061916d9e6e68ebee77a2bdb1379b86a869b161998bdb13e14dd",
+    "root_20261116_six_control_zero_flux_contracted_trace_r273_scalar_readout.py": "a13fe1105958d7439c609b4d8cf229c0c5c29ac79224c206235a3ebab1e801a6",
+    "geometry_20261116_original64_zero_eliding_contracted_finite_trace_loader.mjs": "9ca91d9f3efac6d944d81545b6ad89f1b33eb07a942598e35065319782243d13",
+    "exact_20261116_original64_zero_eliding_contracted_finite_trace_tail_base.py": "b5595fde2d1dd61b996aa9a39ae40451e85db27f7effcb3981f016ff5123de24",
+    "geometry_20261116_zero_eliding_contracted_trace_r273_tail_client_hook.mjs": "251774b5ee729622cd47f69844697f0059e75022653ce7cbd50f1ef042ccc010",
+    "exact_20261116_zero_eliding_contracted_trace_r273_current576_system.py": "eeb889b4db25d6eab3f431177098a2ddc236718c2cdfe277ea47eb4a92e82482",
+    "exact_20261116_zero_eliding_contracted_trace_r273_current576_chain_qr.py": "6602f2713ffc871467259476de8f0ef48f9c0cd4ad2ae43415ec8708f3bc7f40",
+    "geometry_20261116_zero_eliding_contracted_trace_r273_tail_client.py": "871451052bf60d7471f64aec53314c11bc262aad597763885130ab578a7ab1d5",
+    "geometry_20261116_zero_eliding_contracted_trace_r273_height_path.py": "3abb453d31306ea3a2d128a8f2cd03255cab51f40c501db218d971fe66b0c315",
+    "geometry_20261116_six_control_zero_eliding_contracted_trace_r273_full112.py": "ef7c20b204df3acf42c326fea4012900c47eca76034b8d090dedf618629a3a91",
+    "root_20261116_six_control_zero_eliding_contracted_trace_r273_run.py": "d9bde91cf8b369ce377a837038ab8ee9ae3d8fc201397479433e5ab8cb3e82c7",
+    "root_20261116_six_control_zero_eliding_contracted_trace_r273_scalar_readout.py": "6131ffcb23042cc8be445ccdc46c983fed74205c560f2a18b18a193a8a07fe76",
+    "geometry_20261116_original64_input_support_contracted_finite_trace_loader.mjs": "208fae784a8922b0d2c1fd16b0740ea4580e6050f5989243942d0d40c75b7a7f",
+    "exact_20261116_original64_input_support_contracted_finite_trace_tail_base.py": "cdce0914ca0b27ad5171cbd950f7ddf56cfc82040bff81596f4fa4a16c421f2e",
+    "geometry_20261116_input_support_contracted_trace_r273_tail_client_hook.mjs": "a1ed1ac6b02bc01c5d0261dd5e9e361c0a831798f42e981f2e96f72ffff0d83c",
+    "exact_20261116_input_support_contracted_trace_r273_current576_system.py": "465a8789867037e2e4fe8af80462790e8af67a799aad5e5a027f76385a775f70",
+    "exact_20261116_input_support_contracted_trace_r273_current576_chain_qr.py": "75ff9ef6b212c9b7338479fa262d783a169d3833ee012bf25d64b00725471294",
+    "geometry_20261116_input_support_contracted_trace_r273_tail_client.py": "aa9139a85d3debf268568167249c23af0f12a31b4ad7352da7e8e80a64f26fe1",
+    "geometry_20261116_input_support_contracted_trace_r273_height_path.py": "e5b52b2bc1b2068dc264ea26ac01a8b0c9adff3e17c28dce1008365f0011e1ee",
+    "geometry_20261116_six_control_input_support_contracted_trace_r273_full112.py": "0a1a7cca83bdd0b3738df6e92f2534a280cd00b1a17e218b75256dd6283e342d",
+    "root_20261116_six_control_input_support_contracted_trace_r273_run.py": "3ce47137edc42df9e97997d6819860deedea74909970dfcac9bdab1ce89fda2d",
+    "root_20261116_six_control_input_support_contracted_trace_r273_scalar_readout.py": "e9be110da50ccdb71dc066bc246aea78564b793d9e82580280c3813abf93712f"
+  },
+  "R523_scientific_sources": {
+    "helper": {
+      "file": "geometry_20261116_finite_trace_actual_input_support_linear.mjs",
+      "bytes": 6246,
+      "sha256": "e16be66d2a7ab528a31cb643702864c6fae493bbfc3059f6c18419d9dec485f3"
+    },
+    "flow": {
+      "file": "geometry_20261116_original64_input_support_finite_trace_flow.mjs",
+      "bytes": 9504,
+      "sha256": "14c691bec5ca228495027185ed642730d90d17ce65467ac76662c9407cd7d960"
+    }
+  },
+  "scientific_execution_or_test_performed_during_generation": false,
+  "generated_views_published_as_duplicate_source_files": false
+}

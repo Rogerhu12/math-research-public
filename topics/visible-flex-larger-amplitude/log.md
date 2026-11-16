@@ -173,3 +173,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:35:15 UTC /root — R475实际211正高度完整当前J及一步接受
 
 [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)29967/bdf2，run43810051801/source7e62，两终log各唯一、81156/5994同字全读；零H284.145s收敛，首1/64 current576 J/129248行R273齐，trial0 α1真接受196395.0911309943→5181.565456345417。iteration1 stage105/cell1/segment4原方向资源止，18000/TERM124；正response/末338J/audit/FD-fullDN未付，完整原统计/梯度/null/未访/quiet保，10:25:27真清。原prepared SHA漏录仅查已缓存body补足，‘私有源码’澄清为隔离临时源码，全部实际源仍公开；224按原输入重建不借删父。
+
+## 2026-11-16 10:39:46 UTC /root — R524完整Request224入口与真实发布派发
+
+[R524](results/R524-actual-input-support-complete-original-full112-composition.md)/[接口](notes/2026-11-16-request224-actual-input-support-full112-interface.md)七件250653/topic208007B：原211168全保、150public＋31gen=181、45literal真十链，R523实际T支撑/14计数/完整last与absent-null保。原全112/226×224/mean/H/J/FD/fullDN/18000/quiet/90K70不改，已删211接受不迁；新根workflow visible-larger-public-six-control-input-support-contracted-trace-r273.yml 为该正式计算，当前YAML语法路径与dispatch明确。此条真实pull/rebase发布并单POST派发，R525/amplitude唯一；官方run/source随后绑定，H/open压缩全文留bd4a历史、§4–6逐字保。

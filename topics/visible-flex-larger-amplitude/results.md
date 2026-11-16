@@ -361,3 +361,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R475 — actual211正高度首个完整J/R273与真实接受步
 
 **数值证据；正高native仍未收敛。** [R475](results/R475-actual211-zero-height-complete-positive-height-accepted-and-resource-partial.md)29967B/bdf29d59，run43810051801/source7e62fb22，compute133109494332/report133235382702终log各仅amplitude一次；81156B/5994fe81必要同字全部读。零H原完整内部J/mean/predictor后284.14535s收敛；首1/64H完整576 J及129248行R273校正返回，trial0/step1原norm196395.0911309943→5181.565456345417真实接受。下一iteration1 stage105/rawCell1/rawSegment4触有限trace方向资源停止，原18000/TERM124，正H完整response/338J/FD-fullDN未付。完整R273行/模型诊断（含1.0273e22梯度）、原累计R466/R471/R474、全部engine末位/原null/错误/未访均保，不冒准确导数或新门。10:25:27完整必要quiet后真清，不凭已删state续；与208计时是两个实际run，非分项微基准。初猜prepared SHA已据唯一缓存原body补全漏录字词，科学值未改。
+
+## R524 — Request224完整原112输入支撑优化入口
+
+**已证明来源组合与条件算术；正式实际结果预留R525。** [R524](results/R524-actual-input-support-complete-original-full112-composition.md)/[接口](notes/2026-11-16-request224-actual-input-support-full112-interface.md)完整七件250653B（topic208007B）：gen23213/7b83、plan36611/9a18、recipe21539/0c9f、request88551/6aa2、workflow42646/599f、proof16432/b9fb、接口21661/9904。原211168source逐字保，150public＋21历史/10当前gen=181；45literal计划不复制81398旧计划或展开31源，真实loader/factory/十链与当前YAML/PYPINS均接实际224。R523只按当次T实际非零地址省有限零乘项，保全部226×224/mean/原j序/非零下溢，非法输入原fallback；全部14计数、完整last/absent-null、原R466/471/当前R273/错误后缀保。原四输入/六词λ=.001/完整H/J/FD/fullDN/18000/quiet/单90K70不改，R475已删接受点不迁。七件发布后公开Actions真实单POSTdispatch并另记官方run/head，不由源生成、语法或job色预判速度/成功。
