@@ -1,0 +1,149 @@
+name: Diagnose actual frozen252 source-only bridge causal return
+on:
+  push:
+    branches: [visible-flex-actual252-source-causal-diagnosis-20261116]
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout: |
+            topics/visible-flex-larger-amplitude
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Call the original source-only preparation once and observe whole causal errors
+        shell: bash
+        run: |
+          python -u - <<'PY'
+          import hashlib,json,os,subprocess,sys,traceback
+          from pathlib import Path
+          REPO="Rogerhu12/math-research-public"
+          PREFIX=Path(os.environ["GITHUB_WORKSPACE"]).resolve()
+          TOPIC=PREFIX/"topics/visible-flex-larger-amplitude"
+          HERE=TOPIC/"computations"
+          OUT=Path(os.environ["RUNNER_TEMP"])/"request252-source-preparation"
+          GEN=HERE/"root_20261116_live128_direct_loop_source_views.py"
+          REQUEST=HERE/"public-live128-direct-loop-source-composition-request.json"
+          REQUEST_SHA="fdafd91e34f874ae97e298d8fbb3c715a5044de5195b3f4fe6e14f825e85eb1c"
+          GEN_SHA="e528780ecc5556c4181d1cbe137f6e02140d978525702de8f99d71bb25bc4d58"
+          LIMIT=80000
+          def require(ok,msg):
+              if not ok: raise RuntimeError(msg)
+          def identity(path):
+              path=Path(path)
+              raw=path.read_bytes()
+              return dict(file=str(path.resolve()),bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+          def enc(value):
+              return (json.dumps(value,sort_keys=True,ensure_ascii=True,separators=(",",":"),
+                                 allow_nan=False)+"\n").encode("ascii")
+          def ordinary(path):
+              return path.is_file() and not path.is_symlink()
+          run={key:os.environ.get(key) for key in
+               ("GITHUB_REPOSITORY","GITHUB_RUN_ID","GITHUB_RUN_ATTEMPT","GITHUB_SHA")}
+          result=dict(schema="R616-actual-original252-source-only-causal-return-diagnosis-v1",
+              run=run,original_scientific_run_not_reexecuted=43917735686,
+              original_source_generator=None,actual_source_exit=None,
+              source_only_preparation_called_once=False,
+              original_source_guard_or_function_modified=False,
+              scientific_input_restore_or_compilation_or_solver_called=False,
+              scientific_clock_created=False,complete_observed_files=[],
+              absent_files=[],unreturned_files=[],original_source_record=None,
+              complete_original_source_error=None,complete_original_R583_child_stdout=None,
+              complete_original_R583_child_stderr=None,error=None,
+              source_or_scientific_success_not_inferred=True,
+              no_raw_or_Actions_output_uploaded_to_git_release_or_artifact=True)
+          try:
+              require(os.environ.get("GITHUB_ACTIONS")=="true"
+                  and os.environ.get("GITHUB_REPOSITORY")==REPO,"actual public Actions only")
+              require(not OUT.exists(),"one fresh actual original source preparation")
+              require(ordinary(GEN) and identity(GEN)["bytes"]==39322
+                  and identity(GEN)["sha256"]==GEN_SHA,"whole unchanged original R605 generator")
+              require(ordinary(REQUEST) and identity(REQUEST)["bytes"]==23556
+                  and identity(REQUEST)["sha256"]==REQUEST_SHA,"whole original252 request")
+              result["original_source_generator"]=identity(GEN)
+              result["original_source_request"]=identity(REQUEST)
+              result["actual_python"]=sys.version
+              result["actual_head"]=subprocess.check_output(
+                  ["git","-C",str(PREFIX),"rev-parse","HEAD"],text=True).strip()
+              require(result["actual_head"]==os.environ["GITHUB_SHA"],"actual source checkout head")
+              for rel,digest in (("README.md","21bd547f56590b7f2dd279d0297efb289a9b2783"),
+                      ("topics/visible-flex-larger-amplitude/README.md",
+                       "bff8aea253a9e6a7a4fac28d810ac454c5499fec")):
+                  raw=(PREFIX/rel).read_bytes()
+                  require(hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\0"+raw).hexdigest()==digest,
+                          "actual already-read README identity: "+rel)
+              stdout=Path(os.environ["RUNNER_TEMP"])/"R616-original-source.stdout.log"
+              stderr=Path(os.environ["RUNNER_TEMP"])/"R616-original-source.stderr.log"
+              command=[sys.executable,"-u",str(GEN),"prepare","--request",str(REQUEST),
+                       "--request-sha256",REQUEST_SHA,"--computations",str(HERE),"--out",str(OUT)]
+              result["actual_source_command"]=command
+              result["source_only_preparation_called_once"]=True
+              with stdout.open("xb") as out,stderr.open("xb") as err:
+                  child=subprocess.run(command,stdout=out,stderr=err,check=False,
+                                       start_new_session=False,timeout=480)
+              result["actual_source_exit"]=child.returncode
+              wanted=[
+                 ("outer_source_stdout",stdout),("outer_source_stderr",stderr),
+                 ("current_source_record",OUT/"source-views.json"),
+                 ("original_R583_child_stdout",OUT/"R583-prepare.stdout.log"),
+                 ("original_R583_child_stderr",OUT/"R583-prepare.stderr.log"),
+                 ("original_R604_complete_bridge_receipt",OUT/"R583"/"bridge-receipt.json"),
+                 ("original_R583_complete_binding",OUT/"R583"/"source-binding.json"),
+              ]
+              for role,path in wanted:
+                  if not path.exists():
+                      result["absent_files"].append(dict(role=role,file=str(path)));continue
+                  require(ordinary(path),"ordinary actual diagnostic source output: "+role)
+                  desc=identity(path)
+                  row=dict(role=role,actual=desc,complete_text=None)
+                  raw=path.read_bytes()
+                  # Whole source outputs only. An oversize file keeps its full identity
+                  # and explicitly unreturned status; no prefixes, chunks or encoded payload.
+                  if len(raw)>LIMIT:
+                      result["unreturned_files"].append(dict(role=role,actual=desc,
+                          reason="whole source observation exceeds administrative limit"))
+                      continue
+                  row["complete_text"]=raw.decode("utf-8","surrogateescape")
+                  candidate=result["complete_observed_files"]+[row]
+                  trial=dict(result,complete_observed_files=candidate)
+                  if len(enc(trial))>LIMIT:
+                      result["unreturned_files"].append(dict(role=role,actual=desc,
+                          reason="whole independent observation cannot fit together; no partial body"))
+                      continue
+                  result["complete_observed_files"]=candidate
+                  if role=="current_source_record":
+                      value=json.loads(raw)
+                      result["complete_original_source_error"]=value.get("error")
+                      result["original_source_record"]=dict(schema=value.get("schema"),
+                          complete=value.get("complete"),phase=value.get("phase"),
+                          actual_exit=value.get("actual_exit"),actual=desc)
+                  elif role=="original_R583_child_stdout":
+                      result["complete_original_R583_child_stdout"]=dict(actual=desc,
+                          full_text_present_in_complete_observed_files=True)
+                  elif role=="original_R583_child_stderr":
+                      result["complete_original_R583_child_stderr"]=dict(actual=desc,
+                          full_text_present_in_complete_observed_files=True)
+          except Exception as error:
+              result["error"]=dict(type=type(error).__name__,message=str(error),
+                                  traceback=traceback.format_exc())
+          raw=enc(result)
+          if len(raw)>LIMIT:
+              # Never replace an unknown original error with an invented concise success.
+              value=dict(schema=result["schema"]+"-overflow",run=run,
+                  attempted_bytes=len(raw),attempted_sha256=hashlib.sha256(raw).hexdigest(),
+                  complete_body_returned=False,source_or_scientific_success_not_inferred=True,
+                  no_raw_upload_or_body_splitting=True)
+              raw=enc(value)
+          print("R616_SOURCE_DIAGNOSIS_IDENTITY "+json.dumps(dict(bytes=len(raw),
+                sha256=hashlib.sha256(raw).hexdigest()),sort_keys=True),flush=True)
+          print("BEGIN_R616_ACTUAL_SOURCE_ONLY_CAUSAL_DIAGNOSIS",flush=True)
+          sys.stdout.write(raw.decode("ascii"));sys.stdout.flush()
+          print("END_R616_ACTUAL_SOURCE_ONLY_CAUSAL_DIAGNOSIS",flush=True)
+          PY
