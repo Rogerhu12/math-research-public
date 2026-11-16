@@ -4,11 +4,11 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于12:19:20→12:19:31 UTC真实pull --rebase，已读上游 **a82ba1e06935fbb0f199d4dc846bae876a13afc0**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**12:44:00 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
+根/题README已全文读。两仓blob:none sparse部分克隆；本地public于12:23:37→12:23:48 UTC实际pull --rebase，已读上游 **3621bb9406598d1844b2a9d1e02f250a59a67c35**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**12:44:00 UTC**；变更只读diff立即执行并记SHA，NFF实际rebase续推。
 
 private于11:43:33.839986→11:44:00.887215实际pull读 **191d228fcf6c487a515ad67a1644307c009543ad**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
-三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。已部分克隆，现用本地Git；API读取不是pull。
+三公开来源已复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只用本公开Actions；本地只纸证/源码文本/元数据/已有输出。PAT仅瞬时CLI/env，不入文件或提交。根12不加开发检查/冻结复跑，根15仅存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache。H<10KB、MD<100KB、open尽量<30KB、topic≤200MB，旧data54107494B保留。API读取不是pull。
 
 最新ring两job真实pull：public **35438c143eda961a0fa8836d387d0e537fba43b2**（12:18:24）、**a82ba1e06935fbb0f199d4dc846bae876a13afc0**（12:19:25）；private **2b0ee51feb39f78c8a8320e876aa56747abe784e**、**dbfd5b3dc491f5bffb3f0e9971374b71f3ef8d75**（12:19:29）。双README空diff/QUEUE唯一进行中，全部原收据见ring/58笔记。
 
@@ -30,11 +30,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [完整五门证书](notes/complete-cap5-integral-positive-certificate-design-20261116.md)保五密度/C尾/85端势/九真不等式/全部Af余项；唯一有理门E_min>D_A+D_Q。run43859053666的[真实观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)：LP180秒限/nit270738/xNone，183.90384485000004秒/1LP/0judge闭账，无证书或有限不可行性结论；不续atom/LP余额。
 
-**真实路径。** R469/472保A/T/全部W/V；R482原13状态/2输入、完整K与Mraw、R484保护芽rank边界、R486仅开域障碍、R488 secant t1′<0、R492 period/13锁、R494真实桥odd残值均继续。R500异ω前缀差商只消相对门，不能删共同门/桥K；详原索引。
+**真实路径。** R469–507原全W/V、真实13状态/2输入、完整K/Mraw、germ/rank退化与传入history义务保[索引](results.md)。R507仅h/k/ω返回与全K0，t1负Oε，未付M0/frame/位置/3/4/period；旧母/19/20门/13收据不移植。
 
-R503–507保同母/w/χ、全部history/尾/端germ与原费用。[R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)只付h/k/ω返回和完整K0，t1负Oε；frame/位置/3/4未回，不授M0/period。旧母/19/20门及13收据不移植。
-
-[R508](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)从起点选同形母与原B=P−cR_y，完整β0付整secant；高三阶/低二阶有限母使∂γE非零，原germ可离开。三权Wronskian给终k/ω复位与m_p2小双号，其余七矩及全部几何/3/4仍付真实成本。[R509](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)四normal复位k/ω/p0^y/p2并给p1^y=η>0、五端submersion；完整Volterra界C≤1/2时p1≥¼∫k²，全M0迫C≥1。不能叠短片冒全矩/period返回。
+[R508](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)一次新同形母与B=P−cR_y规范给真secant出口、终k/ω复位和p2小双号；[R509](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)再付p0复位、p1正半像及五端submersion。短盒C≤1/2时p1≥¼∫k²、全M0迫C≥1；其它矩阵/height/frame/位置/完整3/4成本仍联合，不授纯端口或全词。
 
 [R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)固定紧母v给有限秩二阶规则，同一个第三Gram承担完整平方后，全路径K0恰一个关于(v,ν*)的线性函数方程；所有canonical/history保，速度正定二次Gram不变。最右微包前真gap证明常scalar区段的canonical能量严格正t²系数，故任何固定二/三规范都不能修复含正长度常态bulk的本同形圆全词；不排其它圆。继续真正非恒长程词并联立原M/period/13门，未授函数像满秩或全词存在。
 
@@ -44,7 +42,7 @@ R503–507保同母/w/χ、全部history/尾/端germ与原费用。[R507](result
 
 [原58结论](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/report133280067378/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。重付57的2ordinary/2selected J；2finite/82iter164系统、2全网、23新梯度、固定7非线性metric/curv预测，α1/4第一actualpair原14门/准确172盒接受58。η粗.26600541430262403、细.26600541463999305，下降.0000016540087044436547；κ细57.9997782607127。metric峰.4725/θ0，细κ峰.78/θ4.818744981678094非轴。帽高微负仅原容差内；4454/4549池v15/14原顺序、无新学习行；.26与主门未付。
 
-58 physical94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54，ind168 e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf；坐标/field/g/b0/永久reference未变，全部identity见原58笔记。本次185.978494641秒/4full值（2necessary+2actual）闭、0overrun；祖账2830.778901609秒/147值。所有失败/原费用保[57](notes/true56-small168-seven-exchanges-original-two-grid-accepted57-20261116.md)/58原note，nested不重复相加，余额不跨点续。
+58 physical94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54，ind168 e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf；其它identity见原58笔记，同g/b0/永久reference不换。58本次185.978494641秒/4full值闭、0overrun，至该点2830.778901609秒/147值。全部旧失败和nested费用保原notes，不跨点续余额；后继ring另见下。
 
 接受后先学习再导出paid selected二jets，两网complete/errors空，0再ordinary/J。CACHE2 33375405B/9bfdb6d35b131d5b4b1514f0e0902c7f38aa735cabc3288502356b1ba03ffbdf：完整U/T/e/f/grid/168及pool selected X六二jets/T/metric，不是全grid二jets或58 J。原raw86358161B/346de3d6027e21e3b3d9dc020b0890c14d65e6dc588c2178ee63eff9f12fca3e；所有record/SHA在note与新request。report8MiB投影exit1但46条0parseerrors、actual/FINAL完整，不称大数组无损。永久constructor仅原55COMPLETE，不当58状态。
 
