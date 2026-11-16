@@ -82,6 +82,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R521](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)/[接口](notes/2026-11-16-finite-frenet-tube-and-cell-residual-interface.md)三件56007B完整刊：完整M/有限N Fourier合成与合法Frenet tube给四块K_y/K_A/K_ν/K_μ及状态二阶方向界；实际保存cubic全Bernstein导数、准确scalar三jet、真实残差样点形成/目标差和fill distance形成η_C，并传当前quintic。原R354/R314各自责任保，真实P正下界/联合tube/全部形成差必须付，RMS1e−6不代η_C。相对dyadic sqrt保严格正下端，无样点明确null；原尾μ′、连续角投影/材料/patch/B/双mean/全闭积分仍未付。helper18782/4217是无I/O纯准确核，无实际常数/数值floor/自动union注册或新run，不增原门。
 
+[R522](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)/[完整接口](notes/2026-11-16-native128-paired-digit-complete-component-interface.md)五件64334B完整刊：R414完整dyadic矩阵的两个相邻输出复用左plane，两个准确整数和分别原一次RN113；zero/wide/奇尾原fallback、同1row packing、全N/224列/双mean/全部nominalfactor/C读回/RK保。scalar/AVX2各partial绝对值<2^51；每pair最多2×2048项后原poll，不重开原钟、不承诺同资源前沿或速度。kernel480b/gen1554/plan724e生成operator082d、stage49a7、component33416/93ec只Actions，原R515物理缓存仍接，真正新compiler binding/CLI/source身份明确；R518外层尚未注册。没有编译、数值、严格root导数或新门；不因完成dot字等价冒全stage/FD/fullDN已接受。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

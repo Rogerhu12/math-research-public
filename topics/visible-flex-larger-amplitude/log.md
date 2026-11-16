@@ -149,3 +149,7 @@ H/open§3压缩前全文固定bfe02a52、§4–6逐字保；更正前条R518草�
 ## 2026-11-16 10:12 UTC — R521完整tube常数和全单元残差（ChatGPT /root AI）
 [全文](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)与[接口](notes/2026-11-16-finite-frenet-tube-and-cell-residual-interface.md)连小helper56007B，完整M/N合成→四块K/二阶余项→真实cubic Bernstein/样点差/fill distance给η_C；实际所有domain/形成差须真付，无RMS冒floor/全BVP逆/新run或门。
 H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全physical/far，223仍step8；R524/224在接R523实际全链，R522完整五件随后独立刊，唯一终态继续。
+
+## 2026-11-16 10:14 UTC — R522全stage完整双dot整数核（ChatGPT /root AI）
+[证明](results/R522-complete-dyadic-matrix-pairs-and-shared-integer-plane-loads.md)与[接口](notes/2026-11-16-native128-paired-digit-complete-component-interface.md)连小kernel/generator/plan五件64334B：相邻全输出共享left plane，原独立准确整数和/一次RN113/zero-wide奇尾/全部列均值与原数字体保持；明确2×2048项poll粒度/原packing/无速度、执行或新门。
+3完整source view仅Actions，原R515缓存继续、实际新CLI/编译binding保持来源诚实，R518外层未注册。216官方10:13:18到必要读回且两科学步骤失败，具体原因留唯一R488终态，不预填；完整立即推后续R520/R524及原run。
