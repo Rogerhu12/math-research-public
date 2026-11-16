@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 1ff81eafe88b994165f4b579b458cd4805e36553（2026-11-16 05:10:36 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0511-actual-squarefree32-basis.json。
+- **最近成功实际 pull 与已读规则提交：** a9db00672fd00163cb38cc3c853c16077ff1a3bf（2026-11-16 05:12:46 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0513-original31-zero-target-module.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
@@ -17,7 +17,7 @@
 - **[完整31谱](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)：** C=D^298⊕tors，指数1²/2⁵/3²/4⁴/5²/6，总长50/最高6；root1为1/2，root2重数(1,4,2,4,2,1)。全210真跑1104.606秒/30stage，完整315秩16/新增1，I4累计9、首L6 index12/30013，123717110整除坐标全真。binding712f9b42，raw42372·dd867cfb；旧208/209零不再决定全页。
 - **[九原h0目标最少分母全部恰31²](results/R150-appendix-original-nine-h0-targets-exact-two31-denominator-and-complete-socle.md)：** 保h0=(s−2)h*，九31²h0t∈L且31h0t∉L，任意参数次数也不能降一阶；精确来源费≤8515。完整七socle矩阵rank1/九列全非零，五整数stage2554695坐标、两G139590/93060及104/315/505全真。实际171.103秒/16stage，bindingdce92fb5，raw23423·6533b887；52输出SHA/三个span独立复核。未把h0换h*。
 - 31源码/log在/tmp/literature_root2_789f；work为/workspace/scratch/789f3e887d7c/literature_root2_789f_work，父root2-fourth-complete210-p7与子original-h0-seven-socle完整cochains暂留。运行/续接见notes/2026-11-16-r150-original-h0-seven-socle-runtime-interface-789f.md及同stem-local-execution-789f.json。全部数组只临时，源和身份已推。
-- **下一原zero T0：** 完整zero P长61/free13、相对T0长5/s³杀，分拆(3,2)或(3,1,1)未决。literature_audit正查既有K0…K10完整left-jet平方读数，用sT的18原列{s t_j,s²t_j}共同秩3/2判别；不能只九列、不伪造只存hash的旧数组。原h*的31分母也未由h0结论自动关闭。
+- **[原F31 zero目标完整(3,1,1)](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)：** 315真状态/原九目标，q(J)投影与99 Krylov完整双包含，5维作用幂秩5,2,1,0，原7380/258300/4095/4545及315乘回全真；0.725秒/raw1983·5138d5c8。Q zero P长61/free13、相对T0长5/s³杀，(3,2)/(3,1,1)仍未决；field rank2不升Q上界。旧leftjet只有hash不伪恢复；literal h*的完整U16坐标小消费者正跑，未付时不猜h*分母，也不消掉h0的s−2。
 
 ## R150：完整非rank-one与Bell非零
 

@@ -102,3 +102,5 @@
 - **R150五余变量完全交与无参数例外的自由秩32（2026-11-16）：** [原全范围证明](results/R150-appendix-original-five-moment-jacobian-complete-intersection-and-parameter-free-rank32.md)对固定原纯三次保全部degree6的210×350来源，Q正规表示630×1050模127满630；225原polar坐标及47250有理列清分母乘回全真，14.830秒/raw1747·1af39e72。由m_u^6包含得五二次梯度regular/Hilbert(1,5,10,10,5,1)；反对称Koszul降次给完整参数F_i=∂u_iR′的初始理想相等，同32单项式在任意参数及B=1后仍free。只倒固定E常数，原来源u次数≤max(D−2,0)；剩12梯度和全Bell非零饱和继续，未称全critical商秩32。
 
 - **R150实际无平方32基及原常数降次映射（2026-11-16）：** [完整原块证明](results/R150-appendix-actual-squarefree32-basis-and-original-constant-reduction-operators.md)保预先固定的全部u^ε、ε∈{0,1}⁵；degree2…6原完整输出15/35/70/126/210及全部来源在合法(127,d=100)实选原unit，det44/58/5/60/1，132652左右逆坐标真。每原E块以adj(U)/det(U)给固定常数精确降次，未称展开巨逆；同32基对全部参数及B=1有效。剩12梯度u次数≤2，NF只落16低次基，先付原source的12×16参数式；行的线性span不代完整ideal。实际0.376秒/raw1534·6ada56d4。
+
+- **R150原F31零点目标完整分拆(3,1,1)（2026-11-16）：** [完整99 Krylov证明](results/R150-appendix-original31-zero-target-module-partition-three-one-one.md)复用原315状态、九目标及真实J，KΞ=原targets/AK=KJ/CK=0和505自由观测全真。原minpoly=s¹¹q、q0=25，q(J)九列生成完整零点子模，维5/作用幂秩5,2,1,0，完整双包含及315乘回真；实际0.725秒/raw1983·5138d5c8。只F31分拆，Q的(3,2)/(3,1,1)仍两种，不能由field rank2升Q上界；续原h*系数分母及零点原来源判别。

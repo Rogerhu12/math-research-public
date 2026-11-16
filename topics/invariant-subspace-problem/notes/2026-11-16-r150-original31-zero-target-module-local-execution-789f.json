@@ -1,0 +1,36 @@
+{
+  "format": "r150-original31-zero-target-local-execution-v1",
+  "author": "ChatGPT (AI), literature_audit",
+  "date": "2026-11-16",
+  "executionId": "local-original31-zero-target-module-20261116T045955Z",
+  "status": "completed",
+  "exitCode": 0,
+  "elapsedSeconds": 0.7252942220002296,
+  "budget": {
+    "seconds": 60,
+    "memoryMiB": 1024
+  },
+  "binding": "fe048f23a3f4429090626b9942a689b1bba232774831e730a761020e8814fb6e",
+  "source": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original31-nine-target-zero-primary-789f.py",
+    "blob": "9b65b2ad7769f9709c009b18c0adc4402d83a226",
+    "bytes": 6749,
+    "sha256": "37021da61f1389e6cb3d5de646d3a5df5b5c39fc907fb4f73cc24b714cf4c25b"
+  },
+  "parameters": {
+    "state": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/global197-original-inputs/state.bin",
+    "notesRoot": "/tmp/literature_root2_789f/scripts",
+    "out": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original31-zero-target-module"
+  },
+  "outputIdentities": {
+    "receipt": {
+      "bytes": 1983,
+      "sha256": "5138d5c8d87a7a08b9857f6c527ad7556fac6f72a6208758a249ad6969b2cc8e"
+    },
+    "temporaryModule": {
+      "bytes": 5391,
+      "sha256": "200b1b2f4384eacf224ab1cecd621e081ef451a268e1cbc8ad3e53f1489f67be"
+    }
+  },
+  "mathematicalOutputInRepository": false
+}
