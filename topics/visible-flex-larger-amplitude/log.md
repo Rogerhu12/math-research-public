@@ -204,3 +204,8 @@
 ## 2026-11-16 03:54 UTC /root — R462完整远端族增频率联合
 
 **已证明（限所列完整来源与包含条件）**：[R462](results/R462-same-C-old-mode-far-families-and-new-mode-propagation.md)/[接口](notes/2026-11-16-incremental-M-complete-far-union-interface.md)给出独立union52848B/5da13c5f、worker18663B/b536850a、client23746B/d9db5098。固定同准确C/全根族、同物理far和真实正μ词时，单模态物理方程与取向行不依赖所保留其它模式数；故旧完整112族、全部候选误差和两系数字可保留，新模式仍真调用原point_column/N.form。旧Π系数移至新M偏移列，全M外包包含每个共同C真实向量，却不证明任意数值代表共同实现。旧112 data先按原binding完整读取，新M deep另完整付；新增模式保真实全局索引与旧far/μ，全部其它grid/native/J/全4M+2仍fresh。三源及两完整差异已读，原M数学核不改；单90KB/原绝对钟/未访与原账/无cleanup保持。当前没有实际新M行或时间收益，driver/checkpoint/owned caller注册仍待R463及后继；207首版继续全M重算，不受本刊影响。
+
+
+## 2026-11-16 03:56 UTC /root — R458真实父链与原时钟调用组合
+
+**已证明（限完整来源组合、控制流与所列条件命题）**：[R458](results/R458-same-job-joint-refinement-and-fixed-target-evidence.md)及三独立源owner17026B/304eaa41、runner44927B/76881ec3、reader33942B/7902848f已全文/完整delta读后发布。新job真执行冻结205子合同，再以真accepted450→R456五factor各2→R457完整M128四factor1组成直接父链；M的steps来自真R456父，精确14个sampling工作键不重传旧steps。所有M deep/far/native/两mean/4M+2及原末门仍fresh。每场自己的五几何/独立held和R459全域relative误差/真实t=4、8、16查询各自记录；缺B只测量未付，几何/误差失败不另作下一求解门。单18900+2700原钟、末900测量余量、全部cap/2400节点只是资源；真实PID/startticks及nested sessions/未知scope保留，原七必要加新单90KB/70与实际quiet后才清。R459完整series同目标/同clock/各level保原字段，不以同eta pass代下降。当前只有有限调用合同，无实际父/求解/误差或README完成；207完整入口另次发布启动，不接R461/R462。
