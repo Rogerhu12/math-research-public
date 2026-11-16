@@ -185,4 +185,4 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 完整WHS/WOB/WPT已成原段逐字保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md；上述原域/七port/两mean/全部coker和finite交叉/严格充分门/未付signed逆及系数导数义务不变。
 
-[WOBS完整标量包](scripts/fourfold_codazzi_outer_rows_and_rough_positive_observations.py)a12df86c与manifest390a3992已冻结：6旧actual/42原record/73scope全保，拟6图37新/1exp1pow7sqrt；旧sqrt2直接读。只算WOB完整outer/source/rough/root费用，未知G/Btarget与signed finite逆不赋值；待单次公开Actions，尚无新数。
+[WOBSA实际完整外端和粗域观测](results/R133-supplement-actual-complete-outer-rows-and-rough-positive-observations.md)c2eff7d8：43844596176成功，18门/6图37新/1exp1pow7sqrt，42旧record/73scope/112旧gate全保，old0/lost0；全部37原球/输入/运维pins见proof，三件76722B。outer high完整行约.00846292含真mean，完整Phi/Upsilon/rough/root/zero-IVP端点费用已付；未知G/Btarget/high右因子、WHVA false及actual signed finite逆全部仍待。37新目标冻结禁重。
