@@ -34,3 +34,7 @@ root已读完整core、标准库wrapper、方法、workflow及来源/请求。�
 I_P0^-254=(1,f_chart^254)，再保十个原Lj目标模块。无巨型特征零det、无第二个独立kernel。
 
 首成功旗标只覆盖真实socle、两图点逆理想和五个模块DAG。degree254_RR_basis_128_computed与original_connection_or_height_computed保持false；下一R872继续真正两权截面与128维核。机器产物与必要80原件仅一日artifact，Git不存raw。
+
+## 来源时效措辞更正
+
+2026-11-16 07:00对原R849 artifact14192171293的真实API读取显示其仍活跃，到期为2026-11-17 02:13:18 UTC。因此冻结方法§2所称旧下载“已到期”并不准确。本次实际通过R850载体取回R849十个小件，原数学身份和字节不变；不修改已运行的冻结方法/tag，也不因此重算。后继按当时实际活跃来源使用最小Range；R870直接使用原R849 artifact。

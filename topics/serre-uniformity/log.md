@@ -548,3 +548,9 @@
 - 原R(0)、p特征齐次项和κ4真实下降保留；原cyclic-p/π层/KS/q-normal未成，R706 p137147的h1限制继续生效，不把tame单位当原height。
 - R868真实run43819875762/job133140317613/source9586473c在构造步；R870小整数消费者已冻结待读完激活，R872两权RR与R873实际η支持继续。H前态逐字归档34de94d3，旧pins无丢失。
 - 本push实际pull及两README差异检查由发布记录更新；主目标OPEN。
+
+### 2026-11-16 15:11 Asia/Taipei — serre-public-astra-20261115
+- R870最小42件消费者激活：core0e32a7f0/wrapperfc0fb7a7/method42799fe5/request9083cae5，只新N0/ni/共同d*及80原Picard输入；原谱/CRT/H/J/逆不重，实际η支持未冒成。
+- R868真实run43819875762/source9586473c success，120.82823749299996s；finalef1dc965/h5de7d08d/逆点13de406d/十模块0e73e6cc，718小件纯Range核。R872直接续实际128/144截面。
+- H前态逐字归档a0371428并压缩活动索引；R849旧artifact仍活跃的措辞已更正，不改R868冻结tag。R873实际循环7源、R874原q-normal桥继续，本地无数学。
+- 本push规则：本地真实pull至62fb22a5faa1b97382b2859c6dc6e886ced847e8（2026-11-16T07:11:05.973086+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

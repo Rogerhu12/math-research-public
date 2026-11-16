@@ -1,0 +1,348 @@
+{
+  "budget_minutes": 30,
+  "core": "R870_original_Y_torsion_Hecke_inputs.py",
+  "core_sha256": "0e32a7f0cb75efb762b069de7b55217d94aaeb23f100594eaba4ecee18dd7006",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "large_original_carriers_required": false,
+  "method": "notes/R870-original-Y-torsion-Hecke-inputs-consumer-method.md",
+  "method_sha256": "42799fe505ee573a3884a953dd3c836731c250e27234291de46cc081fd22c09e",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proofs": {
+    "R865": {
+      "path": "results/R865-original-Hecke-T7-from-certified-level82-Fourier-rows.md",
+      "sha256": "50bfc4bd4d0629e0ceda09eb15bf40add53333fe4dab87430a7b34697d74cc19"
+    },
+    "R870": {
+      "path": "results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md",
+      "sha256": "5b44808d9dc6a09b2a520f5e542e33f2d0b5e2e92217183a017c92b8984bd1f0"
+    },
+    "RF": {
+      "path": "notes/2026-11-16-original-c0-rigidified-Poincare-fibres-and-theta-section-DAG.md",
+      "sha256": "e2b87b990914fe7b47bbbc10348a9f4512dd48da0e28dcddf1883ca42fa232f5"
+    },
+    "YP": {
+      "path": "notes/2026-11-16-original-Y-RR-connections-and-Hecke-period-row.md",
+      "sha256": "bdbb6cc590a455a9fba75c378658be69fb19dc1d318c0ec2342edde09e1d06b8"
+    }
+  },
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "result": "R870-original-Y-rational-torsion-and-Hecke-support-inputs",
+  "resume": null,
+  "rules_last_read_commit": "6a9e21301c1c9e39d088f548ed200d3148187ed8",
+  "sources": {
+    "FIBRES": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 398744768,
+      "archive_sha256": "b466d4c1cb6e0b495e3ca1ba892406d9e51c771b75769505dfec2a8bd49a11c3",
+      "artifact_id": 14194427829,
+      "artifact_name": "serre-global-R850-original-rigidified-fibres-43796696213-1",
+      "certificate": {
+        "bytes": 4420,
+        "file": "p41-original-rigidified-Poincare-fibres-certificate.json",
+        "sha256": "11b3daca7c11ea37f41d6a56308664a14578719370b5fea22d6b3bbe43664676"
+      },
+      "configuration_sha256": "8258917304ffb3fbe08cb674fb5115a626beb83ebe861d4afa709b90e1901d17",
+      "core_sha256": "ad8a8237092e907a44a4e4fc679ee40512afd980f801a6063b744a9fa3caa975",
+      "expected_conclusion": "success",
+      "files": {
+        "R850-rigidified-fibres-five-original-fibres-and-sections-DAG.json.gz": {
+          "bytes": 44145,
+          "file": "R850-rigidified-fibres-five-original-fibres-and-sections-DAG.json.gz",
+          "sha256": "b3a8cd7fc0bf51506e8fcb45536d81ca861d9334268f6f44b229535c48824f68"
+        },
+        "R850-rigidified-fibres-source-audit.json.gz": {
+          "bytes": 3175,
+          "file": "R850-rigidified-fibres-source-audit.json.gz",
+          "sha256": "1ed7a7408b40027bfaebb88f07840fb9138cbbd5635832408d3b8ceb5b5c30f2"
+        },
+        "R850-rigidified-fibres-stage-manifest.json.gz": {
+          "bytes": 1774,
+          "file": "R850-rigidified-fibres-stage-manifest.json.gz",
+          "sha256": "aef09f7554e3848ff49d4556e00ffb5e456ddfed325df1e3be278912741e2186"
+        },
+        "core-receipt.json": {
+          "bytes": 306,
+          "file": "core-receipt.json",
+          "sha256": "49d47ed16d1dfed9dd9c122fec6320adb54154b4aa40669de8519526f4b7e187"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 2159,
+          "file": "full-outputs-manifest.json",
+          "sha256": "bcdfc8ce5c7d8f9e412651f7af51dfe93a4661613135f4810de3b7d9b06dd0e5"
+        },
+        "p41-original-rigidified-Poincare-fibres-certificate.json": {
+          "bytes": 4420,
+          "file": "p41-original-rigidified-Poincare-fibres-certificate.json",
+          "sha256": "11b3daca7c11ea37f41d6a56308664a14578719370b5fea22d6b3bbe43664676"
+        },
+        "public-actions-input.json": {
+          "bytes": 6915,
+          "file": "public-actions-input.json",
+          "sha256": "54ae1ec02712208beedd85e59a5baef189d2c05236c650d753a63be6ceeee8cc"
+        },
+        "run-receipt.json": {
+          "bytes": 495,
+          "file": "run-receipt.json",
+          "sha256": "f0396b6152ba9f0157f17f1ab3e04b6109122e92b1f8b8fcf41093b8c509cce0"
+        }
+      },
+      "manifest_bytes": 2159,
+      "manifest_file_count": 12,
+      "manifest_sha256": "bcdfc8ce5c7d8f9e412651f7af51dfe93a4661613135f4810de3b7d9b06dd0e5",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R850-original-rigidified-Poincare-fibres-and-theta-section",
+      "run_id": "43796696213",
+      "selected_file_count": 8,
+      "selected_files_sha256": "6f22904664c1d784d2063318cee82df0f581e12a1cb6847b140df7ac00d91313",
+      "source_commit": "57b2899f61cb23b73bc7b8532f3ee2ae78d28206",
+      "wrapper_sha256": "ff318ca06e5bf2a385c866df2abb0ea102d6606eb2af2a818a0493f075b123cf"
+    },
+    "GLOBAL": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 396226833,
+      "archive_sha256": "6a52068e04e91bc7b45b13de08a143ca2baef4a3bdfd1f8fac9bab1946d94083",
+      "artifact_id": 14192171293,
+      "artifact_name": "serre-global-R839-original-global-addition-polar-ideal-DAGs-43790410670-1",
+      "certificate": {
+        "bytes": 7447,
+        "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+        "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+      },
+      "configuration_sha256": "87a0e26e7b0c6677905313753e4e2a36ea82e9e6a33d6f32d6d6cf7616e13183",
+      "core_sha256": "544241acf5f3451df34c779d513ea6494616d4d4caa26cd2531749edc895aea7",
+      "expected_conclusion": "success",
+      "files": {
+        "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz": {
+          "bytes": 202890,
+          "file": "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz",
+          "sha256": "529822ba7ab26beeb06de8aeb466eedd3de63326e019e6b9a041096e554a2e79"
+        },
+        "R839-global-polar-source-audit.json.gz": {
+          "bytes": 5340,
+          "file": "R839-global-polar-source-audit.json.gz",
+          "sha256": "3df16cb4ec814bc3909c6aa2a3bd95226cb254048aa5ba7d1eb8995703264fef"
+        },
+        "R839-global-polar-stage-manifest.json.gz": {
+          "bytes": 2957,
+          "file": "R839-global-polar-stage-manifest.json.gz",
+          "sha256": "d3dd9464c79be9faf4249083d49d0399ac6c03cdbd13238606e07ba17adb351f"
+        },
+        "core-receipt.json": {
+          "bytes": 6600,
+          "file": "core-receipt.json",
+          "sha256": "b36e1ce4447c9d785dda5b0c0e47238e362d5f8dd1bb1330e91e2a96f8c9c132"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 2144,
+          "file": "full-outputs-manifest.json",
+          "sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd"
+        },
+        "p41-original-global-addition-polar-ideal-DAG-certificate.json": {
+          "bytes": 7447,
+          "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+          "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+        },
+        "public-actions-input.json": {
+          "bytes": 10997,
+          "file": "public-actions-input.json",
+          "sha256": "53938ac9f7d05cbc7fed1d2d0d766e589bf6147387f03d20e88aff4bf3812f82"
+        },
+        "run-receipt.json": {
+          "bytes": 495,
+          "file": "run-receipt.json",
+          "sha256": "2815230bf89b9ef47112236b39f38a39675dcc74c4b15790da577f8593a5428f"
+        }
+      },
+      "manifest_bytes": 2144,
+      "manifest_file_count": 12,
+      "manifest_sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R839-original-global-addition-polar-ideal-DAGs",
+      "run_id": "43790410670",
+      "selected_file_count": 8,
+      "selected_files_sha256": "650c22fad08b4b1aab1b09b4940099f9aa4cbc7f0add509d2732433c8a7fdeb1",
+      "source_commit": "391191590dcb8bcc6f8f2d777610726fa79dc2a3",
+      "wrapper_sha256": "39bef61981f6c2193e64cd1797331a0ce9340ed468fc93dc785d8994c8d2a541"
+    },
+    "R865": {
+      "accepted_process_exit_codes": [
+        0
+      ],
+      "archive_bytes": 8616104,
+      "archive_sha256": "b03edc4c17bd04db7cb742c7208616e4f365dce11c3d232c8ceec5ac8b5a5a00",
+      "artifact_id": 14203241087,
+      "artifact_name": "serre-R865-original-Y-Hecke-T7-43817070047-1",
+      "certificate": {
+        "bytes": 6632,
+        "file": "p41-original-Y-Hecke-T7-certificate.json",
+        "sha256": "a48e185d91c6f44b5b6ae07da0589d078c0ce39e1c5834c4b360d93701ee930f"
+      },
+      "configuration_sha256": "838aa72678ac890d2ad656e91bbd77ae8de228b59dad23019416800c746eec88",
+      "core_sha256": "3d074559a3cb84ef39656dce0937cd6aaf3d55252fbb21d075293d5eb7f6ce10",
+      "expected_conclusion": "success",
+      "files": {
+        "R865-T7-characteristic-polynomial-and-factorization.json.gz": {
+          "bytes": 5823,
+          "file": "R865-T7-characteristic-polynomial-and-factorization.json.gz",
+          "sha256": "0b8dbbb654e4b6e2fe25d294c489f75318dc9a506bad804302b99a4a5c9c4b4f"
+        },
+        "R865-T7-spectral-projector-000.json.gz": {
+          "bytes": 20526,
+          "file": "R865-T7-spectral-projector-000.json.gz",
+          "sha256": "701f5bb2cbc48a42dde2f5c3a61041c592306d655d2addae422c279f38bf377d"
+        },
+        "R865-T7-spectral-projector-001.json.gz": {
+          "bytes": 35795,
+          "file": "R865-T7-spectral-projector-001.json.gz",
+          "sha256": "45cb780d5c8c07ce2bb2db9a2664654281197e542dd17696f4b48f7c04e0003c"
+        },
+        "R865-T7-spectral-projector-002.json.gz": {
+          "bytes": 26335,
+          "file": "R865-T7-spectral-projector-002.json.gz",
+          "sha256": "0918549fe0351fc91becc425ab1ef05351d3ccca0c155a75921f25babc2c133f"
+        },
+        "R865-T7-spectral-projector-003.json.gz": {
+          "bytes": 31620,
+          "file": "R865-T7-spectral-projector-003.json.gz",
+          "sha256": "6e29ba9b5ce67a492e3edf46fb8b21125910adcf889013018b861feb26314a20"
+        },
+        "R865-T7-spectral-projector-004.json.gz": {
+          "bytes": 31198,
+          "file": "R865-T7-spectral-projector-004.json.gz",
+          "sha256": "0520e03cf4d6a9c20821af333b0d9bcf338bffda7a3b51e0190eacd8c8752944"
+        },
+        "R865-T7-spectral-projector-005.json.gz": {
+          "bytes": 30200,
+          "file": "R865-T7-spectral-projector-005.json.gz",
+          "sha256": "5fabe1f27724473f84215f9cca88336ac29acfcafb774f11515b380f0e1a4714"
+        },
+        "R865-T7-spectral-projector-006.json.gz": {
+          "bytes": 28716,
+          "file": "R865-T7-spectral-projector-006.json.gz",
+          "sha256": "81a4727dbba2afcb283caa976671b22bfb3c0cb6a6cd601134be5326aaa66114"
+        },
+        "R865-T7-spectral-projector-007.json.gz": {
+          "bytes": 43222,
+          "file": "R865-T7-spectral-projector-007.json.gz",
+          "sha256": "5ead310198ba5a8246c654bd9b8805309fa68b5487c269f792eebd5590d7fca6"
+        },
+        "R865-T7-spectral-projector-008.json.gz": {
+          "bytes": 61325,
+          "file": "R865-T7-spectral-projector-008.json.gz",
+          "sha256": "2019d9ec67b69899043c9521f5cf6e4ace60e52b7dcbc66d51eb64eb79212dd2"
+        },
+        "R865-T7-spectral-projector-009.json.gz": {
+          "bytes": 84014,
+          "file": "R865-T7-spectral-projector-009.json.gz",
+          "sha256": "3f33a9fb24ebc7bcc92c2e9aba7bbddf17b94a356133534322e795de207c100f"
+        },
+        "R865-T7-spectral-projector-010.json.gz": {
+          "bytes": 83974,
+          "file": "R865-T7-spectral-projector-010.json.gz",
+          "sha256": "28dc86cafae006bad0b015bacfcea8cf374a6a20c0b5ca2f07860cfc412ef57e"
+        },
+        "R865-T7-spectral-projector-011.json.gz": {
+          "bytes": 95936,
+          "file": "R865-T7-spectral-projector-011.json.gz",
+          "sha256": "866f775861ce21dbe7c32148dc01acc2d727456da98415086e253a2acef856c9"
+        },
+        "R865-T7-spectral-projector-012.json.gz": {
+          "bytes": 103187,
+          "file": "R865-T7-spectral-projector-012.json.gz",
+          "sha256": "7ad4fe488a4e64e8723012a8ce2aa6a094ee1de058cb5317d244c6f1b3fff4f1"
+        },
+        "R865-T7-spectral-projector-013.json.gz": {
+          "bytes": 104158,
+          "file": "R865-T7-spectral-projector-013.json.gz",
+          "sha256": "8d747f7a5b54a0a79fe2fc8679719f6b9a51667afdecf014657cb39384d18088"
+        },
+        "R865-T7-spectral-projector-014.json.gz": {
+          "bytes": 142204,
+          "file": "R865-T7-spectral-projector-014.json.gz",
+          "sha256": "b7f3a10db09f2e02006f17199e2b89db0e75cdf1eaa652688da811de2cde7be9"
+        },
+        "R865-T7-spectral-projector-015.json.gz": {
+          "bytes": 138859,
+          "file": "R865-T7-spectral-projector-015.json.gz",
+          "sha256": "1d228c0135fc5ab4540ce06ed065ac247d035aee48f104fa979229c5ffe8f287"
+        },
+        "R865-T7-spectral-projector-index.json.gz": {
+          "bytes": 3332,
+          "file": "R865-T7-spectral-projector-index.json.gz",
+          "sha256": "0643d7d2605c05a7de38cbf7cf3b6127ada6ac588b69f722bd570c47427852d7"
+        },
+        "R865-original-double-coset-and-Galois-maps.json.gz": {
+          "bytes": 2867,
+          "file": "R865-original-double-coset-and-Galois-maps.json.gz",
+          "sha256": "9acec700398bf51b32b23097ba450483df5f943758bb56d33f91c20bf076eac6"
+        },
+        "R865-source-audit.json.gz": {
+          "bytes": 10054,
+          "file": "R865-source-audit.json.gz",
+          "sha256": "baa6328ec6390ae022d285a2edc25dcf6a436bf7d15332a8d584d81e7128eee5"
+        },
+        "R865-stage-manifest-ef9d50447e51b9667a627c143e7c175325eca428ed5646159a7e9a4503ab747e.json.gz": {
+          "bytes": 6542,
+          "file": "R865-stage-manifest-ef9d50447e51b9667a627c143e7c175325eca428ed5646159a7e9a4503ab747e.json.gz",
+          "sha256": "958fc66d48c4c8a19733ba26260a9e61758c28eaa9257d467c502be0d6f78e0e"
+        },
+        "core-receipt.json": {
+          "bytes": 4663,
+          "file": "core-receipt.json",
+          "sha256": "d7a490849c86a1910152dff562e892df98c4b091fbbd0f57486540a0e708fc3b"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 13016,
+          "file": "full-outputs-manifest.json",
+          "sha256": "a99407421c9c999ad958c60fea11d2d542e674edf23f94eb77eebbe19b8a30ae"
+        },
+        "p41-original-Y-Hecke-T7-certificate.json": {
+          "bytes": 6632,
+          "file": "p41-original-Y-Hecke-T7-certificate.json",
+          "sha256": "a48e185d91c6f44b5b6ae07da0589d078c0ce39e1c5834c4b360d93701ee930f"
+        },
+        "public-actions-input.json": {
+          "bytes": 41380,
+          "file": "public-actions-input.json",
+          "sha256": "b11cd156b92634ce9ba1555f0cfb1b2f63019f28a06bde565ad5e016ba39d2a1"
+        },
+        "run-receipt.json": {
+          "bytes": 509,
+          "file": "run-receipt.json",
+          "sha256": "65919056bf76f13e0764be79520602ae3ce0cd8f77ed815fc6c5e61a6fe44f8f"
+        }
+      },
+      "manifest_bytes": 13016,
+      "manifest_file_count": 92,
+      "manifest_sha256": "a99407421c9c999ad958c60fea11d2d542e674edf23f94eb77eebbe19b8a30ae",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "result": "R865-original-Y-Hecke-T7-and-spectral-projectors",
+      "run_id": "43817070047",
+      "selected_file_count": 26,
+      "selected_files_sha256": "48929628bbabdc9daac928bdcdef41d0b4146d4762105b2f76cdd61e65005496",
+      "source_commit": "a907063a1ba95f6cdb1ff7ce5c40178ace72aca1",
+      "wrapper_sha256": "9b05e7ffefcdd035f89658330c15a24b5cc815f50fdcc76562ba66eb737461ae"
+    }
+  },
+  "workflow": ".github/workflows/serre-R870-original-Y-torsion-Hecke-inputs.yml",
+  "wrapper": "R870_public_original_Y_torsion_Hecke_inputs.py",
+  "wrapper_sha256": "fc0fb7a76fd4515b959d424f10fa52052b792c73119478b419ab94dd1b3d94c0"
+}
