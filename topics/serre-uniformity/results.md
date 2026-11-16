@@ -226,3 +226,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R877 原canonical A与global y的normal输入实际完成**：[正式结果](results/R877-certified-original-canonical-A-and-global-y-normal-input.md)。run43833857220/source87f3bfe4，24stage/2.9434909s；原branch0/free1186、唯一A右端、全部1380行与原y=A/B完成。A fede8567/final6305b52f/artifact14209578116/6f0e627c；旧S5/逆/B不重，七同ζ分支、五Lj128/144与height仍开。
 
 - **R879 从已成配对核构造参考单极函数已证明并激活**：[完整证明](results/R879-original-reference-pole254-pencil-from-completed-syzygies.md)，SHA256 5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055。两个原最高项截断及19个已成jet给563×418/rank291；成功后原v0恰254P0单极，(1,v0)为参考M0铅笔，无须参考128核或672minor。准确原t/x单位保留未展开；消费者待实际运行，不预填模子式或真实height。
+
+- **R880 复用原D铅笔与共同cusp构造有界输入已证明**：[完整证明/契约](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)，SHA256 5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e。旧1111子式给269完整残余核，123jets给146，新962秩给D*418，20+252条件给共同DC418；Ef的准确除子等式、Qf及ρ^-1457首项均保留。真实新核/五Lj128或144/t帧/height尚未计算，不混参考v0。

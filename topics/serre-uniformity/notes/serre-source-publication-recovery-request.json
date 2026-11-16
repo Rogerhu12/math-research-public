@@ -2,81 +2,45 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0856-R879-original-reference-pole254",
-  "commit_message": "serre: construct the original reference pole-254 pencil from completed syzygies",
-  "rules_last_read_commit": "968b553605c05ffcadb42e04268fdaa06892e38e",
+  "request_id": "20261116-0859-R880-original-bounded-D-and-cusp-inputs",
+  "commit_message": "serre: reduce the original polar divisor using retained pencils and common cusp kernels",
+  "rules_last_read_commit": "07bcd8608a6fd2e178593ce8f830375689ed7461",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "c2806c6e564a3c938bc3674c7c01037cea7a078cd10e23332da98ac4727cccbe",
+  "expected_previous_request_sha256": "1db9462c752c578c7bde18c02a8f4a7ca4c15f97a2fc5f65d0637ec19b307abc",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R879-original-reference-pole254-pencil-from-completed-syzygies.md",
-      "sha256": "5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R879-original-reference-pole254-function-method.md",
-      "sha256": "7734c14b3438d91de0357f6033302029223be0f0357c28b9f120eec08d413caf",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R879_original_reference_pole254_function.py",
-      "sha256": "a8573c2a0dfd830cd3cd41dda0858fa108dbcfe0e0fc1ad1d4f78a1b95a2bf33",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R879_public_original_reference_pole254_function.py",
-      "sha256": "2703bec3094e8050f1830dca5be02c10df504252ebef1a53f08ab796e3a8fd35",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R879-reference-pole254-public-request.json",
-      "sha256": "87535212d2b4822349791bdd9b2c6793a0b0a1ef513bfb58c09ad52ed6f043ad",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R879-reference-pole254.yml",
-      "sha256": "e196a5ede561fad7bc1a9f89b2a38574987024763b3da7b1eebdc9cc53e157a4",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-reference-pencil.md",
-      "sha256": "5e5f61491cda72317a68b0c269c334a70d61da06ae91267a721b0b6fa2863f75",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/log-archive-2026-11-16-before-reference-pencil.md",
-      "sha256": "af7f7340e11c3077ad9e47c3000d23649c8e59d6387fdd9cfbd2b27c925bb63f",
+      "path": "topics/serre-uniformity/notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "e00212579c0ed1b8e3285e0f4a937d2c96f44ee1214e85cbe920ebb3ee67b725",
-      "expected_previous_sha256": "5e5f61491cda72317a68b0c269c334a70d61da06ae91267a721b0b6fa2863f75"
+      "sha256": "b1a80072b9f4253b1bfbb8f30e9eb6ad8a89679f63a8cc0614e6d803a99c35de",
+      "expected_previous_sha256": "739abcf1edb87f9c27c61364dd410d63e5c5b7dae245ac5df86aec65f8b0adbb"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "1223ac96dcfb66e47f20ba5b2f8b3832797150045e08cf5859d66ffd447dc01a",
-      "expected_previous_sha256": "84bbe7ffbbdb993f3f9905b386c128b164b3c92f941ac22f3b48fa8b25ef5781"
+      "sha256": "a6e8d9c689bd5d6af02dfe3ca67ed2aa60316854870f6447cf9bb8adcdfdad5a",
+      "expected_previous_sha256": "1223ac96dcfb66e47f20ba5b2f8b3832797150045e08cf5859d66ffd447dc01a"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "d122c98b2ac7176d852c7643d4fcf2066de039f5d05c9b84df7edaf7c143ce0c",
-      "expected_previous_sha256": "b9cae28a66176de70b2b2954ac9dac8c0f2fe9cb8ae7430fca5dcb5750afac20"
+      "sha256": "5882952c06456a1b9c98e7eafe2c10a6b43837a76b18d1874d4ff260a43efbf9",
+      "expected_previous_sha256": "d122c98b2ac7176d852c7643d4fcf2066de039f5d05c9b84df7edaf7c143ce0c"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "fb037be90a27b0a41b87f72cb50a198f238d1ab8f49887fe465619b2366eb151",
-      "expected_previous_sha256": "af7f7340e11c3077ad9e47c3000d23649c8e59d6387fdd9cfbd2b27c925bb63f"
+      "sha256": "69f6a60d53be1d7ecafeb830a937cd6e2b71127d421db424a8fa833277096822",
+      "expected_previous_sha256": "7060c48f84bd8401b2d8141ec3f086fa9f9af38c17f887cc1c62b7dbc0abc1a9"
+    },
+    {
+      "path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
+      "sha256": "51deac250622bc3056e837df078f81cd56f2393b394be7d99fcd2c46d456f33e",
+      "expected_previous_sha256": "34f7506328c112db3f6e9f32be8a65e66748211bfcc35ac81b1bbcee24c3328e"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R879-reference-pole254.yml",
-      "request_path": "topics/serre-uniformity/notes/R879-reference-pole254-public-request.json",
-      "request_sha256": "87535212d2b4822349791bdd9b2c6793a0b0a1ef513bfb58c09ad52ed6f043ad"
-    }
-  ]
+  "dispatch_workflows": []
 }
