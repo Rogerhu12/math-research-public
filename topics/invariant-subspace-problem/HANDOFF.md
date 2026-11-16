@@ -11,9 +11,9 @@
 
 ## R150：原模块、精确已付结论与仍缺的特征零成员性
 
-原 $A:6188\to4367$ 泛秩4354；$W=(I^2)_{\le5}$ 秩4212，17式仅在归一rank-one截面。九个原 $h_*t_j$ 的全局Q成员性仍开，不等于全gradR3。
+原 $A:6188\to4367$ 泛秩4354；$W=(I^2)_{\le5}$ 秩4212，17式仅在归一rank-one截面。九个原 $h_*t_j$ 的全局Q来源由μ1封口；不等于全gradR3，非rank-one仍开。
 
-- **[原外除子/源费用](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** Ω=f60² degree120原证不变；新[完整首连接](results/R150-appendix-complete-critical-first-connection-and-local-lengths.md)付F±长度各7…8，故K164=K158F+F−、284≤degΔ≤298、μ≤14。原h*=s³F+²F−²E8 degree23，九μh*tj有Q来源，μh*≤37，费用8406/8411/191保持。μ1未证，不倒μ/h*作算子逆。
+- **[原外除子/源费用](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)：** Ω=f60² degree120。新[三域完整谱](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)实付F±各(3,5)、E8(2,3)，K178Ω degree298夹全局上界298，故monΔ=monK178·Ω、μ=R_out/Ω=1。原h*=s³F+²F−²E8 degree23；九h*tj有Q来源的既有局部到全局论证现可去μ，完整范围/新费用另行审计，不倒h*作算子逆。
 - **原同余费用：** D*8769/31首项单位、q8491；已有Ax≡31^e b mod31^n统一费max(8535,τ+1)。固定e任意高n才exact，单p6不够；旧e0负证/九差源exact p阶5和全部输入保归档。
 - **[原相对正常商](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)/[原投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)：** z_j=1、Mz=f²q，原E/V及Σ-Bezout给VR=I、P=I−RV，T=coker[B6012,H_M P]不倒Ω。实际R/P及全W尾尚未构造；field25基只能作选元参考。
 - **[31系数像I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** 全197原源/505/315/J/DAG给χ=(s−1)²(s−2)^5、t2=5；C31/31长314/J31=s−2，至少15方向/系数长44。I3的197纠偏+7图关系+b8/pb9/真p4未付，原pins保归档。
@@ -22,14 +22,14 @@
 - **[∞127/Gauss](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)：** 全3959098单位、原高低与11阶给full66/sub55/max11；同Q∞66给原单位首项minor、C127有限及Δ首一127整/保次数。失败schema保留，新v2成功。
 - **[Ω127/J0](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)：** 全121给barΩ=Ψ60²；原Q13全部2015式/6069系数/双211 minors同230，J127=0。因此C127/127全299、degΔ+Σt127=299；新增系数方向见下。
 - **[九目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)；九单cyclic23且最小式均mon(h*)，h*/h0九列全零。全部原7245/7475/2691乘回真；仅field成员，不升Q或p²，父NF/GB/state不重。
-- **rank-one及critical：** μb_r^16有17原来源/degree_m≤26；μ1、非rank-one/ess(T3)≥4仍开。135/270/300受限无增及全Q高核7原证保前态。现两cubic完整S170×101 rank86/G7 modS rank7/残余170×9 rank8，β3=1、14heads，各346528原乘回；完整局部长7…8/7…8/4…5。E8首连接exit1，完整秩未认定；只读诊断/条件恢复与两cubic真Q1 nonfree正延已入队。13 formal-free头的DVR证明已付，负切片不当完整负页。
+- **rank-one及critical：** 原μb_r^16/17来源/degree_m≤26已付，现在μ1；归一rank-one范围的完整推论正在审计，非rank-one/ess(T3)≥4仍开。三域完整高核7；F±真Q1非自由正延各30940原products，leading对13free实rank14，谱(3,5)。E8只读原完整pack重验259896产品，β2=1、谱(2,3)；不将旧受限负切片当完整负页。
 
 - **[root63真实127系数扭](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 全1834 Z中925读非零；原node26969742/3463反传支持4324，4367 p²读40。I1占满simple s+64，barΔ|χ299/(s+64)、Δ≤298/齐次≤364；925不当维数。新F±7结合后barμ|F+F−E8，B14升幂全21系数核真。
 
 ## 活跃执行、临时缓存与立即恢复
 
-- 旧run43756208221已结束，56步（含失败/预算）回执全推；旧tmp不再视活。新run43772109844已实际重建三域weak/Q7，原每phase全SHA相同；两cubic首连接成功。E8首连接exit1/旧raw started，原因待准确日志与当前manifest；只在原verified完整pack存在且全部6188乘回重验后恢复结论，不改变旧binding。
-- 新live run43772109844始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。旧30步控制全文归档notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json；done仍在当前进程，现仅列新增7步：E8只读恢复120秒/2GiB、F±各一nonfree正延300秒/2GiB、其余四广义Bockstein各300秒/4GiB。重新启动须按控制归档重建父缓存。
+- 旧run43756208221已结束，56步回执全推，旧tmp不再视活。新run43772109844真正重建三域weak/Q7且每phase全SHA相同；三critical最终谱均成功。E8原exit1确为最终回执超过90000B，旧失败保留；只读恢复raw9456·15349fa5/binding9e283e5d，原数学binding60419855及全部phase不变。
+- 新live run43772109844始22:57:13 UTC/350分钟，约04:47结束；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json。旧30步控制全文归档notes/2026-11-16-exact-session-completed-steps-one-to-thirty-newrun-789f.json；done仍在当前进程，当前列新增7步：三critical完成，余四广义Bockstein各300秒/4GiB正在消费。重新启动须按控制归档重建父缓存。
 - [五广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)联合分离88维；E8-1全1834原Z第一系数像已实际为0，raw12201·66006800/outer19465·c40fc443/binding787000d2，15.503秒。仅I1为零，高层与Q不推出；其余四待实际。global197/root2/127 NF/GB/state/target25/primary及三critical原缓存仍临时。
 - runner每30分钟/每步/每push前真实pull核两README；回执在notes/r150-source-kernel-session-789f/。失败/budget保留；同绑定续接新step ID，requires只指exit0祖先。root独占索引，代理仅冻结稿；每结论全审后实际push，非快进立即rebase重推。
 

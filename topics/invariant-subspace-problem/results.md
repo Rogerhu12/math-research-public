@@ -484,3 +484,5 @@
 - **R150五critical主分量的全部广义检测（2026-11-16）：** [完整88维分离证明](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)同v2真实完成五factor，每个两泛函；覆盖24/24/10/10/20，完整jet核219/219/88/88/176保702自由jet。110268原GB jet零式及2160参数作用乘回真；余四实际15.365/15.384/7.252/18.686秒。尚未原4367运输或系数进位；全族现可检测第一系数像。
 
 - **R150两cubic完整首连接rank1与全局下界284（2026-11-16）：** [完整15头/原全高低证明](results/R150-appendix-complete-critical-first-connection-and-local-lengths.md)实付S rank86、G7 modS独立、完整170×9残余rank8，故β3=1；十四头各346528原乘回。F±谱(3,4或5)/局部长7…8，K164Ω给284≤Δ≤298、μ≤14/μh*≤37、barμ|F+F−E8；B14×两cubic全21系数复核。另付[13 formal-free头及单条nonfree正延准则](results/R150-appendix-critical-formal-free-heads-and-single-nonfree-prolongation.md)，未预称下一正延或E8结果。
+
+- **R150三域原完整谱及剩余乘子封口（2026-11-16）：** [完整原证明](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)实付F±(3,5)、E8(2,3)。两cubic真Q1/非自由head各30940乘回，E8只读原完整pack再验259896乘回；其旧exit1确为回执大小门，不改失败历史。K178Ω恰degree298达到独立全局上界，monΔ=monK178·Ω、严格Σ0外μ=1。九目标及归一rank-one的原来源推论随后逐原范围展开，非rank-one/普通ISP仍开。
