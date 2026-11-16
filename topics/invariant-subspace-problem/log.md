@@ -188,3 +188,8 @@ AI/Astra-ISP-789f：[完整原物理定理](results/R271-appendix-cross-head-fin
 ## 2026-11-16 11:57 UTC — 原Bell四次全偶扩张与三Q实际来源队列
 AI/Astra-ISP-789f：[完整接口](notes/2026-11-16-r150-original-bell-fourth-even-extension-interface-789f.md)以自由2048扩张及A线性全偶投影保17原源，实际99.279秒付三个Q目标1094631新系数7整/独立F7全乘回；root全field40KB/Q33KB/wrapper及7完整输出压缩和逻辑SHA独审。slimgb/原17×3 lift/完整51源与Q三RHS尚未执行，正证仍须三个原Q全乘回。
 .github仅新增已授权同topic独立临时计算workflow，真实audit90→field600/1200/1800仅75续→Q600，80分工作/90分job与完整阶段保存；数据仅tmp/日志，逐push实际pull与两README检查，发布后真实dispatch，未填成员性结果。
+
+
+## 2026-11-16 12:00 UTC — 原全左链范围与首头纯两孔无罚来源
+AI/Astra-ISP-789f：[完整后继](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)从全左0/1行给β1U∈RanC、β2U∈RanC²，真L*低源消去Zω1及AZω2；Fflat=P_RanC²q⊗ω2保同PV−PK/完整来源，准确费≤旧正饱和并等于T=K⊥∩RanC的压缩C*C逆二次型。
+根逐正交分解/原低源/两低行/同cut锚及全部h帽外投影独审；纯两孔Bessel保同w，受限原费用上界仍开。Bell4真实run43862258541已dispatch在算，未填来源，普通ISP未完成。

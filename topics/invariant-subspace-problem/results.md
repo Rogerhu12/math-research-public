@@ -210,3 +210,5 @@
 - **R150 原共同M根二长34与全局八生成（2026-11-16）：** [完整定理](results/R150-appendix-original-joint-target-root-two-torsion-length34-and-eight-generators.md)以六位原carry/完整26D关系给S2型(2^7,4,5,5,6)、长34/dD11，xS2=(1,2,2,3)、pxS2=(1,1,2)，dR(S2)=dR(M)=8；补18列B后只读完成，根用独立整数HNF复核。S1仍0或p、完整S长34或35，余R/h扩张保留。
 
 - **R271 跨头有限真核与完整首反馈行（2026-11-16）：** [完整证明](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)以原一步carry≤18κ、fresh6d池及同残量B^(3d)=0给可和真实核运输；固定首头投影增益可和，任意同一w的完整moving首反馈行<16||w||²，actual W另有独立2Bλ+8Ση²预算。原τ14与全帽cut保留，未控制核外第二逆。
+
+- **R271 全左范围与纯两孔无罚来源（2026-11-16）：** [完整证明](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)以全左0/1行和真实低伴随像消去Z一孔及AZ两孔；Fflat=P_RanC²q⊗ω2与原首头同投影/同完整源，γflat²≤旧γ2²且准确是T=K⊥∩RanC上压缩C*C的逆费用。原锚、纯两孔Bessel和真正帽外投影保留，原受限费用上界仍未付。
