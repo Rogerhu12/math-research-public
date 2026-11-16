@@ -69,6 +69,8 @@ R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)�
 
 附G以同底域两Tate读数准确恢复完整[6]迹，含ell|d；固定底配对完美、原常数嵌入/两辅助点和全指数已付，consumer已集成tate（默认）/scalar/compare，所有依赖hash与ro checkout齐；固定r29/41对照首两run遇E.points的PARI omega名冲突，已改原底群逐点全枚举重跑，回执待取，原consumer尚无请求。
 
+附H同Y/B用z²=T、c³=(z−3δ)/(z+3δ)与y=δ(1+c)/(1−c)真双逆：Z属187，三层全étale但非全split；36cusps全split成108。两整闭包O⊕z b⁻¹及O⊕c a⁻¹⊕c²a⁻²逐位付全负floor，未实现。
+
 original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按真dF选循环表示；原288次正规化/真端点/全迹、实际CM和Frob矩阵、两真点判据及18×9/九项完整读数同核，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none；原请求触发workflow/host launcher已就绪，完整依赖及双进程状态保。尚无consumer请求、未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
 
 ## 第二实际门：四原B与同一低配对

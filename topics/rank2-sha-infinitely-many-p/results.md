@@ -188,3 +188,6 @@
 
 
 - [R884附录C](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：同原U的完整四纤维伙伴H36=T2,36(UA8)为whole type0 degree36首≥6。原A2令它在全部非零E2消失，h(−b)=0；a0四根完整读数给h(0)=−32b4/2457。固定Λ36=6561 ev0−1024 ev−b杀原A/N/J，却给H36为−7776b4/91，在原p>211为单位，故H36严格不在三来源span。UΘ4=2b[2]*H36+U144new仍保同中央/完整cross/new除p余项，来源边界不能冒原中央不相容。
+
+
+- [R883附录H](results/R883-original-relative-six-shadow-and-complete-boundary.md)：原Y的z²=T及c³=(z−3δ)/(z+3δ)有明确y双逆和S3作用/绝对Tate支。36cusps全二分歧给Z属187；原T+27的102点各恰三重给div f=3(D+−D−)，三次层处处étale而保可能剩余扩张，cusps全split恢复Y属559/108cusps。有限/无穷整闭包分别O⊕z b⁻¹、O⊕c a⁻¹⊕c²a⁻²，实际分式理想与负floor/乘法逐位全付，可由24底构成48/96/288整基，未实际运行新整基。
