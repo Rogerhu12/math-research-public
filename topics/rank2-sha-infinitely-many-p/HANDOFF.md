@@ -3,11 +3,11 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：dfa01b9b280bd8a1a5b5f3e9f2f80f424a165fe9；2026-11-16 07:26:12 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
+- 最近已读规则提交：258da7a3d3c27ae2f8cf0f366dd1313f234057ec；2026-11-16 07:31:22 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 07:26:11 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 库存31,877,320B/2341文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；实际CI pull与API读head分清。
+- 库存31,986,181B/2353文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；实际CI pull与API读head分清。
 
 ## 完整检查点与分工
 
@@ -52,7 +52,7 @@ M=c*U0w13J保P134/总charge40、39carry、10980、十九角/全WD；TM=s−r−1
 [R861](results/R861-original-hasse-aligned-gaussian-and-three-hurwitz-readers.md)：真实C_H及a*=−34C_H整对齐，原b=1，g/AΦ/a/Rcal同步后M不变。Λ0M/p确读D_(m,p,79)、D_(m,p,p+80)、D_(m,p,2p+81)和仅40/41/42阶乘低项，m=34Q；末系数−1/(a*³81!)单位不代指定组合非零。deep续第二/第三页。
 - [R865](results/R865-actual-high-axis-product-and-first-divided-row.md)：原H_p/h0等于明确有限单位乘积，三阶谐和和给同一Rcal的p³读取；全部真实高位保持。实际K1的指定首配对准确压到r′(Q)D_(m,p,79)，不是三个独立输入；实际g^flat含hΘ。quartic k=13正回旧单位，k>13该首行恒零；第二/第三native页及同R/S仍待计算。
 
-- 已触发07:30实际CI pull；等待真实回执，最迟07:35要求不变。
+- 07:26:25实际CI pull成功；run43823860359/job133152919965，两README差异空且blob一致；下一08:10前。
 
 
 ## 其余原门不撤销
