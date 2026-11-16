@@ -126,3 +126,9 @@
 - 原global y的U.1已登记直接消费；原六C、全局W的χ与按需unit solve给全局导数/五同比函数，非CM点值或五fiber代替。原η保O(−Z)负类号，三同源I_ZR=R_j I_Z³正乘、原范数常数与刚性化缺口保留。
 - 下一只装配来源完整全局DAG，补全1234 F/W34/C12旧产物，不重R845铅笔或大逆。H缩R845重复metadata，全部正式结果/归档仍在；没有预填新机器产物或η/height结论。
 - 本push规则：本地真实pull至b340cb34d3243f6836bc3fdcf29939293e44cb7b（2026-11-16T00:50:10.256839+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:01 Asia/Taipei — serre-public-astra-20261115
+- 原比较函数一阶consumer冻结：core417f2df7/wrapperf79f4aa3/requestfe21a774，沿2d613dc1方法，只在原529node上加六Hom切向和五个真七σ trace；原值/范数常数逐字保留，零次新点加法。
+- 纯IO复用原R844 carrier479f587a并逐父子来源核261件，config0b9025c1；已读全部源码/实际schema并AST解析，无本地数学。公开Actions预算30分钟、仅一日输入/完整stage，未预填运行或非零/高度结论。
+- H先逐字归档再缩已成摘要；并行纯IO补全全局W34/C12/F1234来源，旧690行和已成D/Ey理想直接复用。dual清转置继续按原14支与严格RR契约装配，旧518不冒充新dual精度。
+- 本push规则：本地真实pull至b8d3c5e450051b60c6afb3939fb761bc3f1f89d3（2026-11-16T01:01:35.534034+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
