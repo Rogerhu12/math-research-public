@@ -1,0 +1,52 @@
+{
+  "format": "isp-original-weight10-verified-whole-prefix-resume-decision-v1",
+  "runId": "43926933406",
+  "taskId": "original-weight10-full-macaulay600",
+  "completedAttempt": 1,
+  "nextAttempt": 2,
+  "nextBudgetSeconds": 900,
+  "nextIsProgressTail": false,
+  "sourceSHA256": "fcfdc0a05b35952a27ac05f84fe1752e6cb157d5ec387741c0bce9b470eb3aa1",
+  "guardKind": "full-macaulay",
+  "previousSignatureSHA256": null,
+  "newCompleteSignatureSHA256": "85c074c1e414558c24e23532034d57b20ce0a48115517f0698b0c5ee5fca045e",
+  "actualExitCode": 75,
+  "sourceContinuationEligible": true,
+  "allExactWholePrefixGuardsPassed": true,
+  "wholeSignatureChanged": true,
+  "sessionDeadlineFitsTimeoutPlus120": true,
+  "decision": "continue",
+  "mathematicalArraysIncluded": false,
+  "sameFrozenMathematicalSource": true,
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 18:32:50 UTC",
+      "beforeReadCommit": "bde07574590579908958828c08d73a52c05cf37e",
+      "originMainAfterPull": "c47672b6e7cac1811f9786000736c3ebaab46852",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 18:32:53 UTC",
+      "beforeReadCommit": "c47672b6e7cac1811f9786000736c3ebaab46852",
+      "originMainAfterPull": "ba09b5002fdb874434e1e4cefb234c2f85179a5a",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 22,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 7547,
+    "logicalJsonSHA256": "df851f7cbbc975b5bc2f183101145cf2886608093e4ba72048224deaf0ebaee3",
+    "itemCount": 22
+  },
+  "lastRulesReadCommit": "ba09b5002fdb874434e1e4cefb234c2f85179a5a",
+  "summaryExcludesRecomputableArraysOnly": false
+}
