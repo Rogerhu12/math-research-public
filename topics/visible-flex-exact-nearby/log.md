@@ -452,3 +452,7 @@ Phase亲核23项最终manifest/flow闭合：39唯一current、9AST、1378390原�
 ## 2026-11-16 08:17:02 UTC — WHR完整正侧径向head解析结论
 
 完整核读0cb48560/28267/289935c3：T=VB_LHP_a经有限angular fiber的H¹紧嵌入给Fredholm index0，mH未定；真正boundary chart与raw trace分开，Volterra endpoint行/H¹completion/完整两套Schur rhs与cross全保。Tail核前后段、Phase正式核§4–7、root全文复核。新径向tail gate未计算；不从巨大whole腰误差推gate，不冒负侧/rough输入/physical96/ν/背景已付。全部成功不重。此次README对照ad086cf8ac6294559e7f323f65e788721121547e，两blob同已读，H记录08:00:07实际CI pull与09:00:07期限。
+
+## 2026-11-16 08:24:16 UTC — WEJA全实际23图与39失败记录原字验收
+
+保存完整proof8f1b7094/25058：root已全读30科学件并递归核全部23图shape、每原5-key binding及direct dependencies；Tail完整18支持图，Phase原copy/preGit与prefix和N6/jump，原两64hash已由实际exec字段纠正。run43827705714/1仍失败；1600完整new+39partialnew、9originalcopy，lost0；只余13/8/9，原whole不存在。16MBstdout未取不冒独核。正准备只余30的新consumer，原失败源和输出不修改、不重跑。两README在172263d7a903a1033cd76fd95be1376fde4aa064版本同已读；真实pull仍08:00:07、期限09:00:07。
