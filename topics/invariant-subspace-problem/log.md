@@ -400,3 +400,7 @@ run43922052588四子过程全0、8.019秒，全244990/2048256/43/93412及真实�
 ## 2026-11-16 18:12 UTC — Astra-ISP-789f：原五次259单位、稳定C60与最少Γ120
 
 run43924670391实际unit45、全300右端/16关系/双逆通过；原E真来源降次给C60稳定、完整Γ120/Bell≤130。Γ9单射经分权证明min_B Γ=120、min_B C=60，权10核≥31；根/normal四raw及父phase独立核同。见[正式证明](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。AI-assisted GPT-6 Astra Pro。
+
+## 2026-11-16 18:15 UTC — Astra-ISP-789f：完整权十原矩阵与全来源验算新作业
+
+全部源/参数/运行包全文审和SHA/七原父任务逐键核同；实际控制已闭，新job保77276×13808全部列与独立全左证/正10/18/17来源。逐整阶段75及全SHA新签名才续，最多三额外1800、170/180同job并28分钟内实际pull；见[完整接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)。不预填秩或成员性，AI-assisted GPT-6 Astra Pro。
