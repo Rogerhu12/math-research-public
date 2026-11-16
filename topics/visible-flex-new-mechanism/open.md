@@ -191,11 +191,11 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 [R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)原χ5/χ6否定全partial的vertical响应覆盖；平移仅到NQ，桥2VA仅O(1)。13近1H与13小c给最小有限仿射闭包，Q0非零使旧D单独不可逆。新actual引理须同一满闭锥及DQ+NQ=Q⇔Q0⊂NQ1，保真(H,c)放大/两次商/prototype×n/Klein基准；R465现给准确两头self门，负权满锥仍另付。
 
 
-### true53全已付有限主问题：输入修复后同账户续行
+### true53 finite正方向：立即完整双网分离与原actual门
 
-[首次失败](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)：run43816639046/job133130076418，MODEL/COMPLETE内部行前BOM使锚首时间解析漏行；raw log指纹已过。0LP/0Newton/0新geometry/J/JVP/actual，5.828010012秒照计，同新finite任务240秒不重置；原5743soft/2937hard+5/652物理范数/320外界/target的9658行和96/192/1范围不变。timestamp前BOM已修，续行唯一入口已提交待消费；原payload逐个SHA仍不变，首次有限求解尚待原结果；原日志再读一次单列。祖先累计1600.268237108秒/128值。
+[首次正有限候选](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671/source de1c7d5a…，1LP/34迭代/68系统，9658原行全部通过；修复h=.25000001109908276、gain=7.0414711481267545e−6，p SHA3fade7f704238c45a9eca095af36035ab10c4741e059d000359cc9d0600f5e09。0新J/JVP/geometry/scalar/actual；同新finite累计14.132776896秒（含BOM失败5.828010012），祖先累计1608.573003992/128值，原点仍53。
 
-正finite候选仍须完整双网分离、原guard/round/actual；不宣新实际点、全网下降或不可行。下一actual pull07:25:49前，已读01614a9…两README空diff。
+现在直接读原已付方向与MODEL；只恢复原MODEL未保存而新JVP必要的U/T，不重旧hardJ/ordinary geometry/finite LP。完整原两网格新方向分离通过才进入原scalar guard、exact163/rounding与真实双网actual；否则保新attainer/gradient后继续新的有限问题。原old64/32/Hildreth账户与主门不变。权威clock/原向量/SHA与全部费用详note；已读最新actual pull ed935a6…两README空diff，下一07:31:53。
 
 
 ### R464：原九行与seed已由同一真period核支付

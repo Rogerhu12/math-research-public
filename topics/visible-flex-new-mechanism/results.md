@@ -382,3 +382,6 @@
 
 
 - **true53输入BOM修复，同finite账户续行首次LP入口。** [失败口径](notes/true53-paid-master-input-bom-failure-and-same-scope-resume-20261116.md)；仅逐行timestamp前lstrip BOM，payload不改，续行ledger扣5.828010012000021秒并报告本进程/同任务累计。request 295f3fe94a214d5f16cff80b6ee402c458d15e01d494c3ca07b18c5949085a9d；1LP/96/192/240仍原上限，无新科学结论。
+
+
+- **true53全部9658已知行的finite master首次正收益，仍欠全网与actual。** [数值记录](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671，1LP/34迭代/68系统、gain7.0414711481267545e−6；新任务14.132776896秒含输入失败，祖先累计1608.573003992/128值。0新J/JVP/ordinary/actual。立刻继续新方向完整分离及原门，非完成候选。
