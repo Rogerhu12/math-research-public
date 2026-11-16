@@ -199,3 +199,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### 冻结psi3的完整E：唯一新严格区间观察
 
 [完整设计](notes/frozen-psi3-complex-cap-interval-design-20261116.md)只求R455冻结正幅/正仿射ψ3 cap在R471上复二矩根的原E；Af唯一根有理夹、可变上限与复参数依赖全包，平端真实tail解析上界。256bit定点有向整数/47–48交错exp/六阶Taylor区间，至多1024叶/4096新jet/新240秒，全部小结果原stdout。四self原85记录0重算/0读取，旧科学15.69076311099991秒与前置metadata失败单列保。任一完整分量区间离0才判本冻结cap非零；未分离仅unresolved，不判E0或所有cap，任务不足不结束主课题。源码30193B/e8bd874e…、request3934B/e6ce88a7…，唯一run待登记。
+
+
+### R481：每个允许cap的五门处处正则，接真正全局零目标
+
+[完整证明](results/R481-polynomial-flat-tail-regularity-for-all-five-cap-conditions.md)保原全部12密度项、复余量与真左积分；非零门组合P7不恒零，精确平端Euler~−3P7κ¹⁰U⁴即使P7端零仍非零。任一解析尾开窗5个分离真compact方向满秩，实际有限IFT可F→(1−ε)F；Δ6=0内余4门处处submersion，无非零内部局部极小。但逆矩阵/正性/共同collar/步长未统一，不能迭代偷得0；继续全局可达或边界障碍。单cap变后仍从起点新q4/F★/20/M3库，多个cap共同条件R479保持。
