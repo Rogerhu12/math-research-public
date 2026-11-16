@@ -1,0 +1,149 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43924670391",
+  "stepId": "original-quintic-rebuild-field-model180",
+  "executionSourceCommit": "321b9746ea8acc00a9067349399b8c882e8bc289",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+  "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+  "argvTemplate": [
+    "--outer-seconds",
+    "240",
+    "--heartbeat-seconds",
+    "10",
+    "--stdout",
+    "{work}/original-quintic-rebuild-field-model180.math.log",
+    "--heartbeats",
+    "{work}/original-quintic-rebuild-field-model180.heartbeats.jsonl",
+    "--identity",
+    "{work}/original-quintic-rebuild-field-model180.observed.json",
+    "--",
+    "python",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--model-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--through",
+    "seeds",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048"
+  ],
+  "pinnedSupportSources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "preexistingReceipt": null,
+  "receiptUnchangedFromBeforeStep": false,
+  "observerIdentity": {
+    "path": "original-quintic-rebuild-field-model180.observed.json",
+    "bytes": 1914,
+    "sha256": "25a2bf1d372f45ce1ef9b018183511ba6440821e26451bc17d7b4a2da7190491"
+  },
+  "observerExecution": {
+    "childPid": 2599,
+    "childReturnCode": 0,
+    "command": [
+      "python",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/scripts/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "--model-driver",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/scripts/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "--helper",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/scripts/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "--out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/original-ten-parameter-module127-v2",
+      "--through",
+      "seeds",
+      "--seconds",
+      "180",
+      "--memory-mib",
+      "2048"
+    ],
+    "cwd": "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391",
+    "elapsedSeconds": 18.504756081000004,
+    "finishedAtUTC": "2026-11-16T18:03:21.042525+00:00",
+    "format": "r150-exact-low20-observed-execution-v1",
+    "heartbeatCount": 3,
+    "heartbeatSeconds": 10.0,
+    "heartbeats": {
+      "bytes": 933,
+      "path": "original-quintic-rebuild-field-model180.heartbeats.jsonl",
+      "sha256": "bce959c79d86383edf18fb24c79b7f5bdf0cfa51481cae8afaf974266393fdc8"
+    },
+    "observer": {
+      "bytes": 5855,
+      "path": "2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+    },
+    "outerSeconds": 240.0,
+    "sampledPeakVmRSSKiB": 119956,
+    "shellEquivalentExitCode": 0,
+    "source": {
+      "bytes": 23879,
+      "path": "2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    "startedAtUTC": "2026-11-16T18:03:02.537533+00:00",
+    "status": "completed",
+    "stdout": {
+      "bytes": 40458,
+      "path": "original-quintic-rebuild-field-model180.math.log",
+      "sha256": "1acda8761f93a969028364cf67cb0f98f1819dd32923a0352f4e92a8dd67d727"
+    },
+    "terminationRequestedByObserver": false,
+    "unobservedTerminationCauseInferred": false,
+    "waitedChildRuMaxrssKiB": 125100
+  },
+  "timeoutSeconds": 300,
+  "exitCode": 0,
+  "wallSeconds": 18.709157244000004,
+  "fullTemporaryReceiptBytes": 30919,
+  "fullTemporaryReceiptSHA256": "0cc1c085f3d154733ca39d8ad70ac996f7535f196aabef83a46259e3858b1360",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 18:03:22 UTC",
+      "beforeReadCommit": "321b9746ea8acc00a9067349399b8c882e8bc289",
+      "originMainAfterPull": "86199c7ab026378152e53c1ff41710562b83852c",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 18:03:23 UTC",
+      "beforeReadCommit": "86199c7ab026378152e53c1ff41710562b83852c",
+      "originMainAfterPull": "532c4d4c8df97d3c68e3be4c305bf36b725c25fd",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 5,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 1716,
+    "logicalJsonSHA256": "b1c9c6c050f56b957d56cb7f79976e22ff41a5c6e3a979839f1c27786fdf5f1f",
+    "itemCount": 5
+  },
+  "lastRulesReadCommit": "532c4d4c8df97d3c68e3be4c305bf36b725c25fd",
+  "summaryExcludesRecomputableArraysOnly": false
+}
