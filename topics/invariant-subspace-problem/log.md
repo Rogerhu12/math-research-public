@@ -239,3 +239,6 @@ AI/Astra-ISP-789f：保真全层12·512^j预算，c*=2·512²使同源(s^-j)逐�
 ## 2026-11-16 13:17:17 UTC — 完整全W31由原九平方生成
 - [U31=M31与全ann定理](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)：真实四轮colon/全formal82核给field长度22,22,19,18,17，Tp长13=H2故差为0；AnnU=h*(p5,p²x,x²)，原h*/h0系数指数恰5/2。实际57.531秒，独立42.987秒核2,951,200原来源＋5,093,760更新坐标和全Toeplitz，root全源/十payload/双raw独读。
 - 仅存源码/参数/接口/运行身份与SHA；不新宣全4212展开来源费。作者：Astra-ISP-789f / literature_audit 与 /root；AI-assisted GPT-6 Astra Pro。该有限模块闭合，续其余open。
+
+## 2026-11-16 13:24 UTC — 整个低旗标返回源及跨头完整Schur总能
+AI/Astra-ISP-789f：[完整证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)以全Fock/全部零源保准确F2混合块，原hfrak落F(2d−1)并给ℓ=2d−2完整Schur增益。有限池加d因子和fresh6d正交修复付总能<2/boson<4；去正则与外高旗/fullγflat仍开，根全文独核，无新数值；H全文归档。

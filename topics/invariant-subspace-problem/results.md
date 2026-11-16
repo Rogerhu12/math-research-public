@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **整个低旗标返回源的跨头完整Schur总能。** [完整原物理源和所有核旗证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)把原 $\mathfrak h=C^*r$ 放入 $F_{2d-1}\ominus F_2$，ℓ=2d−2的整个核最小Gram保全部birth/零源，准确 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。同τ14、有限池 $y=(m+1)^4dx$ 与fresh6d正交修复给 $E_m\le3/d^2$，故完整Schur总能<2，boson版<4。原F2混合块精确，全部h/真Q门保留；$M_2+I+T^*(SI+JJ^*)^{-1}T$ 的正则项与外高旗Schur尚不可删除，原完整γflat上界及N=M仍开。
+
 - **全部高度的一次真实MP与同w可和修正。** [固定方差倍数证明](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)保全层512^j而以同源阻尼付完整D†，c*=2·512²、K*=1+47616c*给统一费用，不截中段或顶层。同w全高度预算使一次修正、相对P_xw误差与准确残余−Cq1平方可和；同PV/PK仅对原f_s保持，修正向量有已付误差。后继顺次循环与完整物理修复仍须另证。
 
 - **全W在127处的完整整结构与一层系数障碍。** [整个原正常平方模](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)给 $U=M\oplus R/(127,s+64)$，原九目标漏掉唯一系数扭子；完整R型为两R/s、R/h及这一扭子，dD26/dR3。AnnU=h*(127,s+64)，$h_*qW\subset L$ 恰q(63)=0 mod127，故h*W无全整源而127h*W和(s+64)h*W均有。原6188投影/单位Schur及根独立二次型全行重建核合；没有给新的4212展开源或来源费。
