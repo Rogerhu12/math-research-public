@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """One explicitly reassigned last-slot primary; original ordinary trials only.
 
-The actual63/64 ledger and257.595331213 scientific seconds are inherited.
+The actual63/64 ledger and the authenticated cumulative scientific clock are inherited.
 No source primary is rerun. The unchanged full-grid acceptance, actual learning
 and ordinary backtracking/controller calls operate on the one NEW candidate.
 There is no new SOC opportunity after LP64 and no second outer model.
@@ -365,7 +365,9 @@ def run_terminal_paid_slot_recovery(objective, initial, *, restored_controller):
     result["new_SOC_started_this_attempt"] = result["solver"]["correction_LP_invocation_count"]-1
     result["new_shared_values_this_attempt"] = objective.full_value_evaluations-SOURCE_VALUES
     result["new_scientific_seconds_this_attempt"] = (
-        time.monotonic()-objective.scientific_started-SOURCE_SCIENCE_SECONDS)
+        time.monotonic()-objective.scientific_started-objective.inherited_science_seconds)
+    result["inherited_cumulative_scientific_seconds"] = objective.inherited_science_seconds
+    result["original_source_cumulative_scientific_seconds"] = SOURCE_SCIENCE_SECONDS
     result["new_candidate_step_record"] = copy.deepcopy(
         getattr(objective.complete_models[-1], "new_candidate_step_record", None)
         if objective.complete_models else None)

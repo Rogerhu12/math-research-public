@@ -21,7 +21,6 @@ from frame_metric_budget_recovery import require_public_research_environment
 from frame_metric_terminal_paid_slot import POLICY, SOURCE_SCIENCE_SECONDS, definition
 from frame_metric_terminal_paid_slot_resume import TerminalPaidSlotObjective
 from frame_metric_terminal_paid_slot_recovery import run_terminal_paid_slot_recovery
-import frame_metric_terminal_paid_slot_development as development
 import frame_metric_terminal_paid_slot_transfer as transfer
 import frame_metric_direct_reference_audit as original_audit
 import frame_metric_height159_complete_affine_audit as baseline
@@ -114,7 +113,8 @@ def save_report(output, report):
     if report.get("scientific_started_monotonic") is not None:
         cumulative = now-report["scientific_started_monotonic"]
         report["cumulative_same_task_scientific_seconds"] = cumulative
-        report["new_scientific_seconds_this_attempt"] = cumulative-SOURCE_SCIENCE_SECONDS
+        report["new_scientific_seconds_this_attempt"] = (
+            cumulative-report["same_task_inherited_science_seconds"])
     report["peak_rss_kib_linux"] = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
     atomic_save(output, report)
     atomic_save(Path(output).with_name("terminal-paid-slot-audit-summary.json"), summary(report))
@@ -179,7 +179,10 @@ def run_audit(prepared, output, *, scientific_started, segments, development_rec
         "source_current_accepted_index": 27,
         "same_task_limits": {"LP": 64, "value": 160, "science_seconds": 1800, "single_LP_seconds": 10},
         "same_task_inherited_ledger": copy.deepcopy(replay["inherited_ledger"]),
-        "same_task_inherited_values": 58, "same_task_inherited_science_seconds": SOURCE_SCIENCE_SECONDS,
+        "same_task_inherited_values": 58,
+        "same_task_inherited_science_seconds": replay["inherited_science_seconds"],
+        "original_source_scientific_seconds": SOURCE_SCIENCE_SECONDS,
+        "paid_first_attempt_receipt": copy.deepcopy(replay["paid_first_attempt"]),
         "new_recovery_entries": 0, "new_independent_final_geometry_calls": 0,
         "old_developer_optimizer_LP_geometry_or_direction_replays": 0,
         "new_SOC_calls_authorized": 0,
@@ -337,6 +340,7 @@ def main():
     request = json.loads(raw_request)
     scientific_started = None
     development_receipt = None
+    paid_first_attempt = None
     try:
         transfer.require(request["parameters"]["policy"] == POLICY, "explicit terminal-slot request required")
         for path, expected in request["source_sha256"].items():
@@ -350,31 +354,35 @@ def main():
             "source_commit": os.environ.get("GITHUB_SHA"),
             "request_bytes": len(raw_request), "request_sha256": reader.digest(raw_request),
             "source_sha256": request["source_sha256"], "parameters": request["parameters"]})
-        development_started = time.monotonic()
-        development_receipt = development.developer_check()
-        development_receipt["current_execution_elapsed_seconds"] = time.monotonic()-development_started
-        emit("DEVELOPMENT", development_receipt)
-        transfer.require(development_receipt["all_passed"] is True,
-                         "only the new terminal-release branches must pass before science")
-        # Same task clock, not a new1800s grant. Development remains a separate
-        # explicit process cost; every necessary old-output/input read is science.
+        # Start before either paid failure or original source is read.
+        # The old eleven verdicts are consumed, never executed again.
         current_scientific_started = time.monotonic()
-        scientific_started = current_scientific_started-SOURCE_SCIENCE_SECONDS
+        scientific_started = current_scientific_started-transfer.INHERITED_SCIENCE_SECONDS
+        reuse_read_started = time.monotonic()
+        paid_first_attempt = transfer.read_paid_first_attempt(
+            request, scientific_started=scientific_started)
+        reuse_read_seconds = time.monotonic()-reuse_read_started
+        development_receipt = copy.deepcopy(paid_first_attempt)
+        emit("DEVELOPMENT_REUSED", development_receipt)
         source_read_started = time.monotonic()
         completed = transfer.read_completed(request, scientific_started=scientific_started)
         source_read_seconds = time.monotonic()-source_read_started
         emit("PRIOR_WORK_REUSED", completed[3])
         input_started = time.monotonic()
         prepared = transfer.prepare_transfer(
-            request, output, PROCESS_STARTED, completed=completed, scientific_started=scientific_started)
+            request, output, PROCESS_STARTED, completed=completed,
+            scientific_started=scientific_started, paid_first_attempt=paid_first_attempt)
         segments = {
-            "already_paid_cumulative_scientific_seconds": SOURCE_SCIENCE_SECONDS,
+            "original_source_cumulative_scientific_seconds": SOURCE_SCIENCE_SECONDS,
+            "already_paid_cumulative_scientific_seconds": transfer.INHERITED_SCIENCE_SECONDS,
+            "current_failed_attempt_receipt_read_and_validation_seconds": reuse_read_seconds,
             "current_source_log_read_and_validation_seconds": source_read_seconds,
             "current_necessary24_input_and_immutable_prepare_seconds": time.monotonic()-input_started,
             "current_scientific_input_prepare_seconds": time.monotonic()-current_scientific_started,
-            "new_development_seconds_separate_from_science":
-                development_receipt["current_execution_elapsed_seconds"],
-            "current_process_before_scientific_start_including_import_and_new_dev":
+            "new_development_seconds_separate_from_science": 0,
+            "new_development_group_and_case_executions": 0,
+            "first_failure_process_and_development_cost_only_in_paid_receipt": True,
+            "current_process_before_scientific_start_including_import":
                 current_scientific_started-PROCESS_STARTED,
             "old_failed_attempt_costs_already_inside257_seconds_not_added_twice": True,
             "closed_old_m7_epoch_costs_remain_separate_ancestor_history": True}
@@ -389,7 +397,9 @@ def main():
             "source_files_sha256": implementation_hashes(),
             "development_receipt": copy.deepcopy(development_receipt),
             "scientific_started_monotonic": scientific_started,
-            "same_task_inherited_science_seconds": SOURCE_SCIENCE_SECONDS,
+            "same_task_inherited_science_seconds": transfer.INHERITED_SCIENCE_SECONDS,
+            "original_source_scientific_seconds": SOURCE_SCIENCE_SECONDS,
+            "paid_first_attempt_receipt": copy.deepcopy(paid_first_attempt),
             "same_task_inherited_ledger": {"linear_program_invocation_count": 63,
                 "primary_LP_invocation_count": 62, "correction_LP_invocation_count": 1},
             "same_task_inherited_values": 58,

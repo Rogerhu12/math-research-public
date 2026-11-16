@@ -537,3 +537,9 @@ root全文读六新源/合同/公开流程、请求各非manifest字段及7新so
 root已全文静态核29380B新源码、10075B设计、9954B请求与3887B薄workflow。只新增[h^-6k0]和[h^-6k6]两目标的完整self装配及Ω：原v2的γ²/−∂hα（含log导数）、−Bm0N2/−Bm2N0全保，outer非紧二次左尾不删；Γ/reference缺席仅由原m2标量h支撑证明。R210两个原pure行及R139九响应只读，38源绑定；旧forcing/pure/rank/profiles/developer执行0。新势self收缩明确计费，不冒完整mixed已付。
 
 source SHA774250847785de793468d67de2ee7e8ae08a1b93fd51a981cef3674f73da5112，design SHA59623d43fb0c1a21c0aa6437beadc67a577f1880566ad7059a2fbd205cf3fc55，request SHA13b5e3ea43bbedc78f9611cbbd521e6124e0311e9f0e8d60e9ea17b9b32f53b1，workflow SHA3c590a1594aed130fe4feeddfd2104bd7c654b9c0eac8e569bee1badb8d154b8。120s/512MiB等原资源门；原stdout完整公式只留公开Actions。未预定两函数零或负四字符已排；等待唯一actual，继续kk及数值末槽。不以本次请求或中间结果收尾。
+
+## 2026-11-16 01:44:08 UTC：末槽原10.0类型修复与旧11复用请求
+
+root逐diff核完core/transfer/resume/recovery/audit五源与6047B人读补记。core只把原float10.0的single-LP数值上限从int计数检查分开，其他三整数限保持；transfer读固定首失败136943B原stdout，核11真通过/零科学到达及158/168闭包，并要求当前core逆文本修复精确回旧hash。当前11/旧9不重，旧verdict不改称新core已测。当前所有科学读之前继承260.479586314；原257.595仅source身份，新增量与各早退/恢复报告全减新的累计基线，首失败process/dev独列不二次相加。
+
+五源SHA和168路径清单已与请求逐项核，只有该五py变；原workflow/dev/98inputargs不变。request40238B/SHA25822ee45cc6a5739911a8b7b3ac60db887fac581d94e0c7827a25716d4e5801；补记SHA1b3471363fa8f268c8493e4710a88efb9f62dfd1b9691f22c50f5f77ad45ecc1。仅继续未付恢复/支持判重/至多LP64，原63/58/64/160/1800及两网14门不变。源码静态核后由唯一公开Actions首次执行该修复，不假改善。

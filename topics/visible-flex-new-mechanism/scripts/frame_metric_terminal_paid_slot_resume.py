@@ -27,7 +27,7 @@ import frame_metric_expanded_layout_hold as inherited_hold
 import frame_metric_expanded_pool_soc as expanded
 from frame_metric_terminal_paid_slot import (
     POLICY, SOURCE_SCIENCE_SECONDS, SOURCE_VALUES, SOURCE_MODEL)
-from frame_metric_terminal_paid_slot_transfer import IDENTITIES, require
+from frame_metric_terminal_paid_slot_transfer import IDENTITIES, INHERITED_SCIENCE_SECONDS, require
 
 
 def restore_learning(objective, checkpoint):
@@ -76,7 +76,12 @@ class TerminalPaidSlotObjective(DirectReferenceGuardObjective):
         require(not any(k in kwargs for k in ("initial_direction_records",
                 "initial_curvature_defect_samples", "source_cfg", "direct_reference_policy")),
                 "no new-task or event replay constructor path")
+        require(replay["inherited_science_seconds"] == INHERITED_SCIENCE_SECONDS
+                and replay["paid_first_attempt"]["paid_cost"]["cumulative_same_task_scientific_seconds"] ==
+                    INHERITED_SCIENCE_SECONDS,
+                "same-task clock must include the authenticated first failure")
         self.scientific_started = float(scientific_started)
+        self.inherited_science_seconds = float(replay["inherited_science_seconds"])
         self.model_phase_started = None
         self.direct_reference_policy = DIRECT_POLICY
         self.terminal_paid_slot_policy = POLICY
@@ -187,7 +192,9 @@ class TerminalPaidSlotObjective(DirectReferenceGuardObjective):
             "source_factorization_definition_sha256": self.factorized.definition_sha256,
             "source_cfg_sha256": digest(self.cfg),
             "source_snapshot_scalar_counters": copy.deepcopy(counts),
-            "inherited_cumulative_scientific_seconds": SOURCE_SCIENCE_SECONDS,
+            "original_source_cumulative_scientific_seconds": SOURCE_SCIENCE_SECONDS,
+            "inherited_cumulative_scientific_seconds": self.inherited_science_seconds,
+            "paid_first_attempt_cost": copy.deepcopy(replay["paid_first_attempt"]["paid_cost"]),
             "inherited_LPs": copy.deepcopy(replay["inherited_ledger"]),
             "inherited_values": SOURCE_VALUES,
             "source_current_bank_entries": 512, "original_independent_supplements": 4,

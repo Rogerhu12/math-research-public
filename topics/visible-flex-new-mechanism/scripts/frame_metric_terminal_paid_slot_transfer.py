@@ -54,6 +54,29 @@ IDENTITIES = {
 }
 
 
+FIRST_ATTEMPT = {
+    "run_id": "43786841449",
+    "job_id": "133036290253",
+    "source_commit": "60ff5c1171c3c94ac84f7fcb88427c530daf69e8",
+    "log_bytes": 136943,
+    "log_sha256": "0216ddbbdd392d1e23240378b8aa6d61c4e154076db42895e2806004fab416eb",
+    "request_record_bytes": 27707,
+    "request_record_sha256": "37a8976234f4966ce643dc993336346949049b92ab654c97bbd68315922cd8ae",
+    "development_record_bytes": 1792,
+    "development_record_sha256": "6cf5254aaeef45fe6cc68ece4c9b0f5b6359dbe0ac1233d3f53dc02d01de1a06",
+    "complete_record_bytes": 21997,
+    "complete_record_sha256": "ef90eadd0fe0314cfe4f388c311cd619748ba8c64b357dcde593e355b54f94da",
+    "request_bytes": 38549,
+    "request_sha256": "0b571b9cdcd1305c56b79130270883d77a6941e0ba1f994b4f6ef8847fa6e4f1",
+    "inherited_cumulative_scientific_seconds": 260.479586314,
+    "original_source_scientific_seconds": 257.595331213,
+    "failed_attempt_scientific_seconds": 2.884255101000008,
+}
+INHERITED_SCIENCE_SECONDS = FIRST_ATTEMPT["inherited_cumulative_scientific_seconds"]
+CORE_OLD_TYPE_CHECK = "    for name, value in ((\"max_linear_models\", 64), (\"max_physical_evaluations\", 160),\n                        (\"max_seconds\", 1800), (\"linear_program_seconds\", 10)):\n        require(type(cfg.get(name)) is int and cfg[name] == value,\n                \"original direct-task resource limit differs: \"+name)\n"
+CORE_FIXED_TYPE_CHECK = "    for name, value in ((\"max_linear_models\", 64), (\"max_physical_evaluations\", 160),\n                        (\"max_seconds\", 1800)):\n        require(type(cfg.get(name)) is int and cfg[name] == value,\n                \"original direct-task resource limit differs: \"+name)\n    require(finite_number(cfg.get(\"linear_program_seconds\"))\n            and cfg[\"linear_program_seconds\"] == 10,\n            \"original direct-task single-LP time limit differs\")\n"
+
+
 def check_clock(scientific_started):
     require(type(scientific_started) in (int, float)
             and math.isfinite(scientific_started) and scientific_started <= time.monotonic(),
@@ -69,6 +92,142 @@ def one(records, tag, bytes_value, sha_value):
     require(len(raw) == bytes_value and reader.digest(raw) == sha_value,
             "paid original JSON plus LF differs: "+tag)
     return value
+
+
+def read_paid_first_attempt(request, *, scientific_started):
+    """Read old verdicts and paid failure cost; execute no developer operation."""
+    check_clock(scientific_started)
+    source = request["paid_first_attempt"]
+    require(all(source.get(k) == v for k, v in FIRST_ATTEMPT.items()),
+            "fixed first terminal-slot failure required")
+    api = reader.GitHubReader(REPO)
+    run = api.api_json("/actions/runs/"+source["run_id"])
+    job = api.api_json("/actions/jobs/"+source["job_id"])
+    require(str(run["id"]) == source["run_id"] and str(job["id"]) == source["job_id"]
+            and str(job["run_id"]) == source["run_id"]
+            and run["head_sha"] == job["head_sha"] == source["source_commit"]
+            and run["status"] == job["status"] == "completed"
+            and run["conclusion"] == job["conclusion"] == "failure",
+            "paid first failure run/job/head link differs")
+    raw, redirects = api.job_log(source["job_id"])
+    require(len(raw) == source["log_bytes"] and reader.digest(raw) == source["log_sha256"],
+            "paid first failure raw log differs")
+    tags = ("TERMINAL_SLOT_REQUEST", "TERMINAL_SLOT_DEVELOPMENT",
+            "TERMINAL_SLOT_COMPLETE", "TERMINAL_SLOT_MODEL")
+    records = inherited.tagged_records(raw, tags)
+    requested = one(records, tags[0], source["request_record_bytes"], source["request_record_sha256"])
+    dev = one(records, tags[1], source["development_record_bytes"], source["development_record_sha256"])
+    complete = one(records, tags[2], source["complete_record_bytes"], source["complete_record_sha256"])
+    require(records[tags[3]] == []
+            and requested["source_commit"] == source["source_commit"]
+            and requested["request_bytes"] == source["request_bytes"]
+            and requested["request_sha256"] == source["request_sha256"],
+            "paid failure source/request or zero-model boundary differs")
+    old_manifest, current_manifest = requested["source_sha256"], request["source_sha256"]
+    require(set(old_manifest) == set(current_manifest) and len(old_manifest) == 168,
+            "same168 source paths required")
+    prefix = "topics/visible-flex-new-mechanism/scripts/"
+    changed = {prefix+name for name in (
+        "frame_metric_terminal_paid_slot.py", "frame_metric_terminal_paid_slot_transfer.py",
+        "frame_metric_terminal_paid_slot_resume.py", "frame_metric_terminal_paid_slot_recovery.py",
+        "frame_metric_terminal_paid_slot_audit.py")}
+    require({p for p in old_manifest if old_manifest[p] != current_manifest[p]} == changed,
+            "only the explicit type/receipt/clock five-source patch is permitted")
+    for path, sha in current_manifest.items():
+        require(reader.digest(Path(path).read_bytes()) == sha,
+                "requested current source changed: "+path)
+    old_python = {Path(p).name: sha for p, sha in old_manifest.items() if p.endswith(".py")}
+    require(len(old_python) == 158 and complete["source_files_sha256"] == old_python,
+            "paid complete/request158 Python closure differs")
+    core_path = Path(prefix+"frame_metric_terminal_paid_slot.py")
+    current_core = core_path.read_text(encoding="utf-8")
+    require(current_core.count(CORE_FIXED_TYPE_CHECK) == 1,
+            "unique narrow current core type patch required")
+    restored_old_core = current_core.replace(CORE_FIXED_TYPE_CHECK, CORE_OLD_TYPE_CHECK)
+    require(reader.digest(restored_old_core.encode("utf-8")) == old_python[core_path.name],
+            "current core contains another change beyond the single time-limit type check")
+    names = ["terminal_release_eligibility", "support_bundle_nonreplacement",
+             "single_slot_ledger_and_failure"]
+    require(dev["all_passed"] is True and dev["new_group_count"] == 3
+            and dev["executed_check_count"] == dev["expected_check_count"] == 11
+            and dev["expected_group_check_counts"] == [4, 3, 4]
+            and [g["name"] for g in dev["groups"]] == names
+            and [len(g["checks"]) for g in dev["groups"]] == [4, 3, 4]
+            and all(g["passed"] is True and all(v is True for v in g["checks"].values())
+                    for g in dev["groups"]),
+            "the old three groups/eleven actual verdicts did not all pass")
+    require(dev["execution"] == {
+        "new_stub_callbacks_started": 3, "real_LP_calls": 0,
+        "ordinary_geometry_calls": 0, "full_directional_JVP_calls": 0,
+        "old_developer_suites_executed": 0, "scientific_optimization_calls": 0},
+        "old development execution boundary differs")
+    for name, evidence in dev["source_files"].items():
+        require(name in ("frame_metric_terminal_paid_slot.py",
+                         "frame_metric_terminal_paid_slot_development.py")
+                and evidence["sha256"] == old_python[name],
+                "old development source receipt differs")
+    require(set(dev["source_files"]) == {
+        "frame_metric_terminal_paid_slot.py", "frame_metric_terminal_paid_slot_development.py"}
+        and dev["source_files"]["frame_metric_terminal_paid_slot.py"]["bytes"] == 24723
+        and dev["source_files"]["frame_metric_terminal_paid_slot_development.py"]["bytes"] == 9528,
+        "old core/developer receipt lengths differ")
+    stage = complete["terminal_paid_slot_stage"]
+    require(complete["schema"] == POLICY+"-audit"
+            and complete["status"] == "terminal-paid-slot-input-or-development-error"
+            and complete["github_sha"] == source["source_commit"]
+            and str(complete["github_run_id"]) == source["run_id"]
+            and complete["github_repository"] == REPO
+            and complete["development_receipt"] == dev
+            and complete["error"]["type"] == "ValueError"
+            and complete["error"]["message"] ==
+                "original direct-task resource limit differs: linear_program_seconds"
+            and stage["model_count"] == 0 and stage["solver"] == {}
+            and stage["selected_two_grid_physical_point"] is None
+            and complete["new_values_J_LPs_or_accepted_points_before_input_ready"] == 0
+            and complete["same_task_inherited_values"] == 58
+            and complete["same_task_inherited_ledger"] == {
+                "linear_program_invocation_count": 63,
+                "primary_LP_invocation_count": 62, "correction_LP_invocation_count": 1},
+            "first failure did not stop at the fixed pre-input type check")
+    cumulative = complete["cumulative_same_task_scientific_seconds"]
+    delta = complete["new_scientific_seconds_this_attempt"]
+    require(all(type(v) in (int, float) and math.isfinite(v) and v >= 0
+                for v in (cumulative, delta, complete["process_total_elapsed_seconds"],
+                          dev["current_execution_elapsed_seconds"]))
+            and complete["same_task_inherited_science_seconds"] == SOURCE_SCIENCE_SECONDS
+            and cumulative == INHERITED_SCIENCE_SECONDS
+            and delta == source["failed_attempt_scientific_seconds"]
+            and cumulative-SOURCE_SCIENCE_SECONDS == delta,
+            "first failure cumulative scientific cost differs")
+    receipt = {
+        "schema": POLICY+"-paid-eleven-development-reuse",
+        "passed": True, "source": copy.deepcopy(FIRST_ATTEMPT),
+        "passed_source_groups": copy.deepcopy(dev["groups"]),
+        "passed_source_files": copy.deepcopy(dev["source_files"]),
+        "paid_source_group_count": 3, "paid_source_check_count": 11,
+        "all_paid_source_checks_passed": True,
+        "current_development_groups_executed": 0,
+        "current_development_checks_executed": 0,
+        "current_stub_solver_calls": 0, "current_old_developer_or_science_replays": 0,
+        "current_core_not_retested_or_relabelled_as_old_passed_source": True,
+        "only_core_patch": "finite numeric single-LP limit10; first three integer limits unchanged",
+        "inverse_text_patch_matches_paid_core_sha256": True,
+        "unchanged_source_paths": len(old_manifest)-len(changed),
+        "changed_source_paths": sorted(changed),
+        "original_failed_error": copy.deepcopy(complete["error"]),
+        "original_source11_receipt_elapsed_seconds": dev["current_execution_elapsed_seconds"],
+        "paid_cost": {
+            "original_source_cumulative_scientific_seconds": SOURCE_SCIENCE_SECONDS,
+            "failed_attempt_new_scientific_seconds": delta,
+            "cumulative_same_task_scientific_seconds": cumulative,
+            "failed_attempt_process_total_elapsed_seconds": complete["process_total_elapsed_seconds"],
+            "failed_attempt_peak_rss_kib_linux": complete["peak_rss_kib_linux"],
+            "failed_attempt_new_values_J_LPs_accepted": 0,
+            "process_and_development_not_added_again_to_scientific_clock": True},
+        "no_raw_log_or_checkpoint_payload_republished": True}
+    check_clock(scientific_started)
+    return receipt
+
 
 
 def source_scalar_trace(models, selected):
@@ -232,8 +391,12 @@ def read_completed(request, *, scientific_started):
     return real, models, cp, receipt, source_trace
 
 
-def prepare_transfer(request, output, process_started, *, completed, scientific_started):
+def prepare_transfer(request, output, process_started, *, completed, scientific_started, paid_first_attempt):
     check_clock(scientific_started)
+    require(paid_first_attempt["passed"] is True
+            and paid_first_attempt["paid_cost"]["cumulative_same_task_scientific_seconds"] ==
+                INHERITED_SCIENCE_SECONDS,
+            "authenticated first failure cumulative clock required")
     real, models, cp, paid, scalar_trace = completed
     args = inherited.previous.old_input_namespace(request, output)
     prepared = baseline.growth.prepare_run(args, process_started=process_started)
@@ -277,7 +440,9 @@ def prepare_transfer(request, output, process_started, *, completed, scientific_
         "historical_accepted_scalar_trace": scalar_trace,
         "source_snapshot_scalar_counters": copy.deepcopy(stage["snapshot_scalar_counters"]),
         "inherited_ledger": copy.deepcopy(paid["inherited_actual_ledger"]),
-        "inherited_science_seconds": SOURCE_SCIENCE_SECONDS,
+        "original_source_science_seconds": SOURCE_SCIENCE_SECONDS,
+        "inherited_science_seconds": INHERITED_SCIENCE_SECONDS,
+        "paid_first_attempt": copy.deepcopy(paid_first_attempt),
         "inherited_coarse_values": 29, "inherited_fine_values": 29,
         "controller_continuation": controller, "pool_versions": [7, 6],
         "canonical_physical_state_sha256": IDENTITIES["physical"],

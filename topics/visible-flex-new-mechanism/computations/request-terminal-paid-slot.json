@@ -1,7 +1,7 @@
 {
-  "request": "terminal-MODEL28-paid-support-final-original-slot",
+  "request": "terminal-MODEL28-final-slot-resume-after-type-check-only-stop",
   "repository": "Rogerhu12/math-research-public",
-  "goal": "Read the completed MODEL28/current checkpoint once; keep its original512+4 supports and frozen guard; append distinct valid supports from its paid four attainers; only then explicitly reassign the one original remaining LP slot to one new primary, with no SOC and all original actual acceptance gates.",
+  "goal": "Consume the already-passed11 development verdicts and the first failed input-read cost without replay; preserve original numeric10.0 and the cumulative260.479586314s clock, restore the same paid MODEL28, and use at most the one remaining original LP slot only after distinct valid supports are appended.",
   "source": {
     "run_id": "43780594182",
     "job_id": "133016656592",
@@ -188,13 +188,9 @@
     "historical_missing_vectors_stay_unknown": true,
     "current_scientific_clock_starts_before_source_input_reads": true,
     "old_two_failed_attempt_times_already_in_source_clock_not_added_twice": true,
-    "new_development_groups": 3,
-    "new_development_checks": 11,
-    "new_group_check_counts": [
-      4,
-      3,
-      4
-    ],
+    "new_development_groups": 0,
+    "new_development_checks": 0,
+    "new_group_check_counts": [],
     "old9_geometry_checks_reused_without_execution": true,
     "old_optimizer_LP_JVP_or_trial_replay_calls": 0,
     "required_paid_source_log_downloads": 1,
@@ -206,7 +202,22 @@
     "new_candidate_exact159_saved_once_even_if_repaired_return_rejects": true,
     "same_runner_cache_used_from_ordinary_to_J_to_new_model": true,
     "no_science_arrays_or_log_payload_published": true,
-    "scope_does_not_claim_stationarity_or_completion": true
+    "scope_does_not_claim_stationarity_or_completion": true,
+    "paid_development_groups": 3,
+    "paid_development_checks": 11,
+    "paid_group_check_counts": [
+      4,
+      3,
+      4
+    ],
+    "current_core_has_only_single_LP_numeric_type_guard_patch": true,
+    "current_core_not_claimed_as_reexecuted_by_paid_development": true,
+    "original_configuration_float_single_LP_limit_not_normalized": true,
+    "inherited_cumulative_scientific_seconds_after_first_attempt": 260.479586314,
+    "failed_attempt_scientific_seconds_already_in_inherited_total": 2.884255101000008,
+    "current_scientific_clock_starts_before_failed_and_source_log_reads": true,
+    "additional_failed_attempt_receipt_log_downloads": 1,
+    "first_failed_process_and_development_costs_not_added_again_to_science": true
   },
   "publication_policy": "Only source, parameters, run identity, hashes and human conclusions in Git; all temporary report/checkpoint payload stays in this runner and its original log, without artifact, Release, cache or payload commit.",
   "completion_claim": "This is the one final-slot mechanism in the existing task, not another64-LP task; complete metric/reach goals remain open. After this one result, a different method requires its own explicit contract.",
@@ -371,12 +382,12 @@
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_strip_reserve.py": "0d653e66947b95efe56e518e8bf4705076bc9ef687e5a596a1884b8367d22ae3",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth_audit.py": "801f1c3038d54dec422e9d8e3bb1162105fc560374debb5bf83a8b38083be3e6",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_spectral_trust_growth.py": "19394bea4779c4497851c169a15dddad5839469067d550f64bef7af3bb88dcc6",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_audit.py": "ccb8744e4959408e9e9f5243fcc0b67657b208ee9b71b0145a64bf542ea90188",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_audit.py": "300adcc6e470fee2be5f09180a016be9ed2ca3c419c0d5ec95504a0cf3d57f08",
     "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_development.py": "3ea04322743cb45efbb157a4bd6f449ed227552ca5d53faab324491bb7036f45",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_recovery.py": "1afa238a0eaa8f984a3223adb48aea89a5761f32ab68d44ffe4bda0a7ca5845c",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_resume.py": "1d596adf0f41ea54c1d20dfbc2f3e5a2dcfd245d14e0f430e53f912aa1665d37",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_transfer.py": "735a1df9f26e07d0da434860a023379fa40189e55499e1926bbe73516cdf6867",
-    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot.py": "0042cb95a8f61f53f35e9edeed028fa0ed8f42215c952dd4b19c889fcd9afe40",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_recovery.py": "eb9e3399ef001b89893dd616f6840f22b8e21199a4090fba3307d51c2d0406fa",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_resume.py": "628a783179e0a5f1d89f99b5ff36f6c11948ad957b99cae5615038e141dc29c0",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot_transfer.py": "61de0f7e955b9dddd05379cc935ff8087e8ee46f063448b4e11e35112fed0461",
+    "topics/visible-flex-new-mechanism/scripts/frame_metric_terminal_paid_slot.py": "519d3e9d2853a25af5f04de1db5d71604660c22b0ec715a61af8d0324865638d",
     "topics/visible-flex-new-mechanism/scripts/frame_published_height_rows.py": "6b59b7650604bb8031ba0214ff31e22e37e8214d40233f53a3cdf6b0a316f3d2",
     "topics/visible-flex-new-mechanism/scripts/frame_second_order_correction_scaling.py": "3b74cc8cc840aaece3aaf4c188728fffff4a7409289d65d1aba6aeb9e70ef98f",
     "topics/visible-flex-new-mechanism/scripts/frame_selected_row_metric_observables.py": "83ec95f6a48a01e0da7cb034a4c7615864f6e896ca088e99dcd17168de1a0754",
@@ -387,5 +398,23 @@
     "topics/visible-flex-new-mechanism/scripts/polygonal_tail_natural_extension.py": "da2cfa48679658573036456e1b6be234cdee7865fe9da2e6535634400fc0265f",
     "topics/visible-flex-new-mechanism/scripts/polygonal_tail_saturated_heat_extension.py": "cda1570637d8b9bdc8d5891a944ee6fc2a6a2252d56141c2a6b8053b73ccfcdc",
     "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a"
+  },
+  "paid_first_attempt": {
+    "run_id": "43786841449",
+    "job_id": "133036290253",
+    "source_commit": "60ff5c1171c3c94ac84f7fcb88427c530daf69e8",
+    "log_bytes": 136943,
+    "log_sha256": "0216ddbbdd392d1e23240378b8aa6d61c4e154076db42895e2806004fab416eb",
+    "request_record_bytes": 27707,
+    "request_record_sha256": "37a8976234f4966ce643dc993336346949049b92ab654c97bbd68315922cd8ae",
+    "development_record_bytes": 1792,
+    "development_record_sha256": "6cf5254aaeef45fe6cc68ece4c9b0f5b6359dbe0ac1233d3f53dc02d01de1a06",
+    "complete_record_bytes": 21997,
+    "complete_record_sha256": "ef90eadd0fe0314cfe4f388c311cd619748ba8c64b357dcde593e355b54f94da",
+    "request_bytes": 38549,
+    "request_sha256": "0b571b9cdcd1305c56b79130270883d77a6941e0ba1f994b4f6ef8847fa6e4f1",
+    "inherited_cumulative_scientific_seconds": 260.479586314,
+    "original_source_scientific_seconds": 257.595331213,
+    "failed_attempt_scientific_seconds": 2.884255101000008
   }
 }

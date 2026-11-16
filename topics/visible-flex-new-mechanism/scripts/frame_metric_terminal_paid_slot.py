@@ -69,9 +69,12 @@ def definition():
 
 def _ledger_guard(cfg, ledger):
     for name, value in (("max_linear_models", 64), ("max_physical_evaluations", 160),
-                        ("max_seconds", 1800), ("linear_program_seconds", 10)):
+                        ("max_seconds", 1800)):
         require(type(cfg.get(name)) is int and cfg[name] == value,
                 "original direct-task resource limit differs: "+name)
+    require(finite_number(cfg.get("linear_program_seconds"))
+            and cfg["linear_program_seconds"] == 10,
+            "original direct-task single-LP time limit differs")
     for name, value in (("linear_program_invocation_count", SOURCE_TOTAL_LPS),
                         ("primary_LP_invocation_count", SOURCE_PRIMARY_LPS),
                         ("correction_LP_invocation_count", SOURCE_SOC_LPS)):
