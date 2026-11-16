@@ -69,6 +69,7 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 [WSP非对称Schur/Parseval](results/R133-supplement-asymmetric-Schur-Parseval-bound-for-the-positive-cutoff.md)80d28207：ROW用完整pointwise界，固定j COLUMN用Parseval；L128只分和，全output/mean/两row与原receiver保。直接读PCRA已成D0/D2/CX/Jwords/Kχ，新的wholepositive正组合未算。
 
 [WUI全局输入与有限DAG](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)2a77f1cd：旧小receipt只读，strict真flow/原root商接全w1 forcing、C64 potential与非零Bext尾、N6后全C4/physicalmean/J负窗、3070接口和四endpoint。旧FA局部jet/SJ积分不冒全局；global新jet/whole预算尚未算，缺全fold仅按4501B原stage临时恢复。
+[WGS全局fold与free transport有限jet](results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md)4d3638fe：strict真flow与root regular quotient分别闭合；完整Φ/X/T I(15,3)、w0 I(14,3)、full−L0w0 I(12,1)、free w1 I(12,2)。全部N/O/ϑHD项、fixed endpoint ordinary dr、根ramification限制和完整8stage保；新增flow/phase5–15，旧已成jet只读。4501+20924历史stage仅公开Actions临时SHA恢复，原whole-wrapper formatter失败仍失败；新数、potential/Bext、N6/mean/J负窗/jump/四端和高门仍待。
 
 ### 2b. 已付系数、坐标与原强界
 

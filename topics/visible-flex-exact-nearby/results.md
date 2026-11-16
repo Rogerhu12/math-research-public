@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WGS：全局 fold 与自由首阶输运的完整有限导数合同](results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md)：严格负区真 flow 与 root 正则商接完整 forcing；冻结 I(15,3)/I(14,3)/I(12,1)/I(12,2)、所有有限阶索引、旧 stage 的准确资格和新八阶段图。只给完整新计算目标；未产生新数值或全逆。
+
 - [WCF：精确系数有限因子与剩余graph误差](results/R133-supplement-exact-finite-coefficient-factors-and-remaining-graph-error.md)：FJ与两rank及ρi/ell2完整列行分出，剩余两two-I按原序给新直接正费；2431/1119仅aux载体，同WFR/WGB的Θ/真实96列/ν/全cross不变。452ee9e4，无新数/有限逆声称。
 
 - [WSP：同positive cutoff的非对称Schur与Parseval完整界](results/R133-supplement-asymmetric-Schur-Parseval-bound-for-the-positive-cutoff.md)：变化symbol的ROW只用pointwise，固定input COLUMN用Parseval，完整两和sqrt(RC)及原物理两row/receiver给新whole候选；读已成PCRA无需旧重算。80d28207，新数未算。
