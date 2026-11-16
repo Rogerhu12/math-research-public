@@ -28,7 +28,7 @@ R434原144的Q59/核85、current32/核53与7ann已付。[R454](results/R454-comp
 
 [R453](results/R453-local-geometric-action-of-the-seven-ordered-current-remainders.md)保M0/两次真实端项，D=½Tr Fself+4∫kpRloc、p=Q/(8h)>0；wholeQ0只杀trace，余五项完整Rloc仍在。一次s分部给纯h,k,ω/一阶速度六次action和D5/D6全式，已消history不授值零/符号。R442一般三次矩型/FP条件保原范围。
 
-R443唯一run43801705436的53完整self全五次local/无分母高jet，fresh53+adapter2过；self38/核15、K11合49，旧11 current MEMBER，非完整成本相等。249原记录/来源已发，0旧rank或实际根。R448固定r*≠0/s≠0镜对像Pol10图+Pol7恰19，给原K11+L8、真实11左8右及49核30的Π0；全C先清后其余根须在该同一真实评价像。R452正母r*=0简单镜对像Pol5图+Pol2恰9/核40，原K0…4全盲但成本非零。两者皆不把旧22模块的六blind当完整判据。
+R443 run43801705436已付53完整self五次local/无分母高jet，self38/核15、K11合49，旧11仅current MEMBER。R448同宽r*≠0镜对完整self像Pol10图+Pol7恰19/核30，原K11+L8给Π0；R452 r*=0时像Pol5图+Pol2恰9/核40。原来源/249记录/新开发费用在各结果，不重旧rank；两者都非旧六blind完整判据。
 
 [R451](results/R451-weight-zero-positive-representative-on-complete-real-mirror-copy-families.md)H*真权0/λ1/J⁺0的完整self平移≤8；ΣN8H*=αTR+βr4，用共同γ=(α−6β)/(8!10!)K8使所有根partial降≤7。一个原W∈49清指定非零r镜对同宽/同cap全部对应copy；完整同角色suffix亦≤7。其余全根仍比八个原cap系数与30blind像；r0另七高系数未付。仅signedλ1核见证，不授all-copy actual或C0；任意混权C补偿可重新出现≤11次，不能偷用H*界。
 
@@ -36,7 +36,7 @@ R437最高P2θ=κell_f/24杀全kerLf；13rank≤12/底≤9仅上界。R442有限
 
 R450完整U的self/2+2位置≤11；同最终V/F/G的12真中心range经Vandermonde给紧逆≤11，ell六权使e≤17，原12仅余≤6。新初选外8四次幅g翻号宏copy以18差分清全e，覆盖完整actual基准但以最终真range为前提。全角F_rat平移系数与每宏R/T三矩保留，新C²余项进入b_new，由同20/有限N方程付；改母/成本不能借旧range收据。
 
-R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af像或全R分类。R454已闭全R的C像，未分类完整self。R453已付局部D action，当前R456追真实D5/6镜对商，R455唯一镜对母已付；继续同成本全根、两period真正入像、d/余9/其它s段actual联合。高阶收敛、嵌入/reach与同g有限族均未付。
+R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af像或全R分类。R454已闭全R的C像，未分类完整self。[R456](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)把完整镜对放回真实末low/high suffix和12中心：n0≠0，γ7归一保真；同宽全部角色D(kerEval)=Pol≤4，formal商恰D5/D6。多宽仅知Pol≤3⊂DkerEval⊂Pol≤4，额外至多D4，不拼右逆。接R457自然D/权零signed核，再同成本全根、两period/余9 actual联合。高阶收敛、嵌入/reach与同g有限族均未付。
 
 ## 4. 数值费用与最新实际末态
 
@@ -52,4 +52,4 @@ R449完整8hook独立使144真像≥137/核≤7，K11增广≥148；不是49 Af�
 
 ## 5. 当前工作
 
-R443实际/R446局部性及R448的19/30、R452的r0九/四十接口已发；R451已付同角色全部copy、R455同q四/20根唯一镜对母，R453/454已付局部D与全R的C像，接R456实际镜对余商。R450新初选宏库在真range后清最高e，继续完整range、d/余9实际联合；R442真D与period/同规范不放下。数值首线真实接受53已发，继续其新完整多峰方向合同；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。
+R443实际/R446局部性及R448的19/30、R452的r0九/四十接口已发；R451已付同角色全部copy、R455同q四/20根唯一镜对母，R453/454已付局部D与全R的C像，R456同宽实际余商已付，接R457自然D与全角色signed见证。R450新初选宏库在真range后清最高e，继续完整range、d/余9实际联合；R442真D与period/同规范不放下。数值首线真实接受53已发，继续其新完整多峰方向合同；0旧cone/LP/selectedJ，原600秒新总账不替旧限额。继续open，不以阶段/预算/时长结束。

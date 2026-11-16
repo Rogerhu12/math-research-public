@@ -154,7 +154,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 R399–405有限对应点、R408规范不变量、R409–431四约束/D,E/完整有限自然与共同cap、R430–434原18核/144三尾像的全部原文见[已付背景](notes/open-paid-common-cap-and-natural-background-through-R454-20261116.md)。R429/433的actual J⁺截面保全部原型、桥、两次商和共同窗口；它仍不授新partial/同13门。R455现在另给同四矩/20目标唯一Af镜对的新母，原宽度、suffix、完整cap和实际基准继续保留。
 
-[R454](results/R454-complete-response-self-principal-trace-and-seven-ordered-current-invariants.md)已从全部W71交换子和全Z原右三常数统一证明Tr F_R=8DΣ；原左二次self的完整C²余量/边项保留，高频纸证给wholeQ0→F_R0。R344 raw pure有序2+2=2q_J且local无ur，所以(S−P)定义域也准确；不外推一般U。结合R434反向包含，整个R∩ker(π,Q)在39维规范current中的像恰kerD32；先改E再用响应改回也不能留下D改变。H*六旧响应修正DΣ0准确定位但不冒C2单YC值。当前实际像仍Eval_actual(kerD)，七形式不等七实际障碍；R456接唯一镜对/真实同role suffix余商，R453局部action继续。
+[R454](results/R454-complete-response-self-principal-trace-and-seven-ordered-current-invariants.md)已从全部W71交换子和全Z原右三常数统一证明Tr F_R=8DΣ；原左二次self的完整C²余量/边项保留，高频纸证给wholeQ0→F_R0。R344 raw pure有序2+2=2q_J且local无ur，所以(S−P)定义域也准确；不外推一般U。结合R434反向包含，整个R∩ker(π,Q)在39维规范current中的像恰kerD32；先改E再用响应改回也不能留下D改变。H*六旧响应修正DΣ0准确定位但不冒C2单YC值。当前实际像仍Eval_actual(kerD)，七形式不等七实际障碍；R456已把同宽所有role的真实商降为D5/D6；多宽至多另余D4，接R457原canonical自然D，R453局部action继续。
 
 ### R449：完整响应核与Af诊断核分清
 
@@ -166,6 +166,15 @@ R443十五条输入核中另七条只知Af self为0，未判完整响应是否�
 
 R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与Klein背景；全部R自然零不被扩成actual Λall0。E/O0下完整local current13=7p-only+6含u代表，三真实suffix共享同一系数。
 
-[R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)将R434七条关系合为D_F(x)=c_F(x;(1,x,x²))，原144共同像=kerD，并列七个完整代表含p-only。这里抛物线只作代数代入；真实各根仍用原μ/suffix、wi/ξi/u,p,r和4ai³因子。由R454该kerD已是全R∩kerE的current像；整个实际C目标可由同一signed响应消去 iff [D_F]=0于Pol≤6/D(kerEval)；formal D非零不等实际无解，尚未计算该真商维数。
+[R439](results/R439-diagonal-current-quotient-and-exact-simultaneous-cap-criterion.md)将R434七条关系合为D_F(x)=c_F(x;(1,x,x²))，原144共同像=kerD，并列七个完整代表含p-only。这里抛物线只作代数代入；真实各根仍用原μ/suffix、wi/ξi/u,p,r和4ai³因子。由R454该kerD已是全R∩kerE的current像；整个实际C目标可由同一signed响应消去 iff [D_F]=0于Pol≤6/D(kerEval)；formal D非零不等实际无解；下述R456已付同宽真商及多宽上下界。
 
 [R453](results/R453-local-geometric-action-of-the-seven-ordered-current-remainders.md)从原world向量U_s=h²(T×v)、v_s=ρN、(U·v)_s=pρ和M0端项，准确得D=½Tr Fself+4∫kpRloc。R295完整wholeQ主项及全部C²/左尾给Q0→trace0；剩五项Rloc不因Q0自动消失。一次保周期端项s分部给仅h,k,ω与一阶速度的完整六次action，D6=∫h[−k(1+k²)+2kA²+A k_s]/256，D5另保d/平方速度全式；A=h_s/h。p>0且M0只迫k两号，不授余量正性或0。新真正入口是同一路径的这些局部积分与真实Eval商、全self/period/同13门，不再求未知β或重锚；R442的一般三次矩型与FP真range范围保留。
+
+
+### R456：唯一共同镜对的真实有序商；接同一路径D
+
+[R456](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)固定一个真实宽度，将完整13×三尾current代入(x,p/r)=(t∓b,±s)、u/r=h>0及真实n(t)=(n0,n1+tn0,n2+2tn1+t²n0)。两方向degree≤7；末low/high原角色n0=εB²(4√2+3/2)μhigh,0≠0，外部完整cell R/T三矩闭合、12真中心、γ7归一均保原成本。degree7差检D6，去其列后degree5和检−n0(h/6+2s²+10bs/3)D5；没有把n三分量自由化。
+
+同一显式二次c镜盲提升，在任意suffix及全部位置/role共用，给DkerEval=Pol≤4，故全R_E的实际formal商恰D5,D6，二者0 iff同一signed响应能清这一宽度全部C。不同宽度仍共用一个成本：κcap=ur/p²不变的c=1,x盲式只普遍付Pol≤3，已知Pol≤3⊂DkerEval_full⊂Pol≤4，可能另余D4；不授额外秩或移植各宽右逆。
+
+下一把R453完整action及新的自然D延伸作用于原canonical/Γ正规值，寻找同λ1/J⁺0且D0的原signed代表。即使C已全清，仍须同一补偿成本的完整self partial/真range、p点极性、平台连接与actual原型/商/桥/Klein全基准；实际U是否映满两商未作声明。

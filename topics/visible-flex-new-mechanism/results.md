@@ -330,3 +330,6 @@
 
 
 - **R454：整个原响应的三尾current像准确仍为32维kerD。** [原self主系数、完整尾与全空间证明](results/R454-complete-response-self-principal-trace-and-seven-ordered-current-invariants.md)（20895B/SHAfd6a9cb2069e005b8270f83b4a259b3c0844285d37bc8d84601cab775ba93280）。原八尾给M_AB对称，W71直接self/2+2与全Z右三常数/u5桥统一Tr F_R=8DΣ；全部C²余量及左端边项保留，wholeQ0迫主项0。R344 pure-cross无local ur使(S−P)同系数，结合已付144反向包含得全R_E C像=kerD32，无新rank。H*六R126源及修正DΣ0已定位；actual Eval商/self完整性及canonical localD不外推。
+
+
+- **R456：真实同宽全部角色的有序评价商恰剩D5、D6。** [真实suffix、完整镜点多项式与共同补偿](results/R456-two-highest-ordered-current-invariants-on-real-mirror-copy-families.md)（19950B/SHA244048f3ce29dd891acf75d0dd4cab3be25e493211b9d7302798598ab2ae4ddf）。完整13列及实际n(t)给两degree7；原末low/high n0非零、cell三矩闭合/12中心和γ7归一使最高degree7差/degree5和真实读取D6/D5。显式二次c blind提升给全部同宽role共同DkerEval=Pol≤4；多宽的宽不变c=1,x仅付Pol≤3，至多另余D4，保实际联合边界。0新执行/旧秩。
