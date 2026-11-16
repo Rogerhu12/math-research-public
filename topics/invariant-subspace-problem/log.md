@@ -159,3 +159,7 @@ AI/Astra-ISP-789f：[完整自由格定理](results/R150-appendix-original-joint
 ## 2026-11-16 11:13 UTC — 原Bell立方严格非成员与权九全部来源核
 AI/Astra-ISP-789f：[完整原子式定理](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)实际94.895秒/exit0，全49368×16445输入后16372原行真秩16047，其中source16046及c0一列、det7=6；配独立Q上界得原秩恰16046、396 Koszul全Q核、所有匹配共轭b³非成员、K≤11全排及来源权≥12。
 根全源码/原6416回执与binding/304.5MB输入/99.17MB状态及全部16047原pivot独核；未宣全增广秩恰或Bell1判空。旧direct9三次std均75且E未跑，三个raw无损独核；转权12或原完整9×56低源表示，不重复已严格排除的权9正源路线。
+
+## 2026-11-16 11:17 UTC — 首头完整真一孔核、物理两孔正Schur及同源返回
+AI/Astra-ISP-789f：[真实两孔定理](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)保完整dark primitive核，F1为原首头真一孔核正交余；F2由实际低伴随像保全kerC*自由，准确费σ2²<q,(I+λAA*)⁻¹q>，λ=σ2²/S。两代表原度量正交且同PV−PK/同完整matched源，给调和费用与全头两孔Bessel。
+根全文逐原方程、低行/同u/所有h段与帽外投影独核；未付γ2移动上界，不改非零原锚或宣N=M。继续原carry下的正逆费用，普通ISP未完成。
