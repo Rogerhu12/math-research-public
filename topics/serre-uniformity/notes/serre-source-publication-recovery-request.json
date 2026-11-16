@@ -2,40 +2,76 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1028-R885-certified-polynomial-and-row",
-  "commit_message": "serre: certify the completed original characteristic relation and one row adjugate",
-  "rules_last_read_commit": "cbc646dc86ada06eb988e26acb2f18a7b055f10d",
+  "request_id": "20261116-1030-R889-theta-jet-and-six-branch-inputs",
+  "commit_message": "serre: prove the original theta sigma jet bridge and activate twelve normal inputs",
+  "rules_last_read_commit": "aff47758db6336e48ea7cf8549c466740bba4ac0",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "55f26fb258cc85839a2dbf7f5600b02f5cbcf0e5e6a395eef47e6ace5098c3b3",
+  "expected_previous_request_sha256": "68bac3a496ffe7dd52c36f977d6f3ef3a35d80e2c0a9e74b6824742b00ba99df",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R885-certified-original-polynomial-characteristic-relation-and-one-row-adjugate.md",
-      "sha256": "332faf00d95bcdaa198dfab7d330ff5061426929cd5b25c8d11689f003551ce4",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-theta-jet-and-six-branch-normal.md",
+      "sha256": "3a6118dcec8a1c200b3e7c3068422d99a29acc058dd3b966d73e7f89a6939116",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/results/R889-original-theta-distribution-and-same-label-sigma-jet.md",
+      "sha256": "43a7d2fd485a36713a758b3930f730da64239ae918f8d8ebe9adeea9709926f3",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R880_original_six_branch_A_B_normal_inputs.py",
+      "sha256": "3094615c9d73d77119065bfa74321a5ab42ba8714fe6b09624725919e8b46d23",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R880_public_original_six_branch_A_B_normal_inputs.py",
+      "sha256": "ec7d719b49c3b1e9bccbbf803516bf4008c2dbf4cb2ebecaa659b1d3050c0e45",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R880-original-six-branch-A-B-normal-input-method.md",
+      "sha256": "d7a1f32172e42623da64828713a5b4c01bf26406bb61164f72298aa006b8eea4",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R880-six-branch-A-B-public-request.json",
+      "sha256": "6e0f8d3377eba55d9166c704eeacb84788edf61a9fa3c592ae74149f577893ba",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R880-six-branch-A-B-normal-inputs.yml",
+      "sha256": "38733fd9563a2aada826bfddf2789f312986132e15d0fc6e7b2c5532b55ab14c",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "b5df2403d133bd69ee678ca022c36f7f31df26af12de758db0a945f8cdba35fe",
-      "expected_previous_sha256": "63959d2977f7b6ce1ef07adc57880d8558443348fdc3d5eec429eafd905ff050"
+      "sha256": "52701537d4b8a25990c5f843069898b9a99cf4e8d9ca61394dbd99ff2d8539ee",
+      "expected_previous_sha256": "3a6118dcec8a1c200b3e7c3068422d99a29acc058dd3b966d73e7f89a6939116"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "66ccd79613d7b45f144160af494b6a13a5e47db7c2a103ea1a0dfc78f9e392d7",
-      "expected_previous_sha256": "da49eeea4b9980d73bf8beaece00224c47e1a082c1a931e693c234d5e8166810"
+      "sha256": "82f173a0e3fe920c6e5e04f33bd2eb3529e343598d69b88fd5e9878739dd8db1",
+      "expected_previous_sha256": "66ccd79613d7b45f144160af494b6a13a5e47db7c2a103ea1a0dfc78f9e392d7"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "f6375ba0c7372819da88ce422c2d417561496dfa8b1fe84609d1e9a81a7f3d33",
-      "expected_previous_sha256": "8fd46b19b354318afd16326ff8fcf3fce4adc2295df5d33f8c62e30b0c24a466"
+      "sha256": "bd8e3b3b21beaa61b65808312225a9138549a597c45a859d04cf18e533f6d40c",
+      "expected_previous_sha256": "f6375ba0c7372819da88ce422c2d417561496dfa8b1fe84609d1e9a81a7f3d33"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "83024246c42e7086a8e22e3cdfe4339fa8ec36195636cda273a0578679ba1a41",
-      "expected_previous_sha256": "c05a0fa5f0ab3e428bf7f20cb8abe743a4eba1c52c013e10c73c0df7bfa37915"
+      "sha256": "cab6445debf70fe8eabf67e6f0ac1534c9561950d29fb97b675baf5f85852fcd",
+      "expected_previous_sha256": "ce81e1e37de9bf2957fa36b1a1282d358a6942047482acea3ef64da542dcf177"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R880-six-branch-A-B-normal-inputs.yml",
+      "request_path": "topics/serre-uniformity/notes/R880-six-branch-A-B-public-request.json",
+      "request_sha256": "6e0f8d3377eba55d9166c704eeacb84788edf61a9fa3c592ae74149f577893ba"
+    }
+  ]
 }

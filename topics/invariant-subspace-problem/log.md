@@ -138,3 +138,6 @@ AI/Astra-ISP-789f：全审std仅候选/原18×1来源SSI/原乘回＋FLINT双积
 
 ## 2026-11-16 10:19 UTC — 原权九396条独立关系与严格立方负门
 AI/Astra-ISP-789f：[原秩上界](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)由已付388独立列推出72与396独立，完整49368×16442矩阵的Q/E秩≤16046；三个Q分量或同d100单目标的完整模127增广秩超界才是真b³负证。root/normal独立推导，未运行新M9或预填秩；direct9实run43846433774继续，普通ISP未完成。
+
+## 2026-11-16 10:26 UTC — 共同M完整整自由格资格与生成数实际入口
+AI/Astra-ISP-789f：[全225原Krylov/真T16接口](notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-interface-789f.md)冻结原35项父重建后120秒资格门，保完整315/505/CRT及饱和后才Nakayama；新增全域目标primary最少生成数，真需9才关闭8/9二选。根全源审/窄差异与SHA独核；.github仅新增已授权同topic真实恢复计算workflow，五步完即读全日志，不冒旧tmp；数学数据仍只tmp/日志。

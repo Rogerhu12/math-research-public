@@ -20,6 +20,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)付新sin列轴上T/Ts/Tss和Xt/Xst有限不变，但Xs/Xss含全角Π不能删除；f0/e非0时度量盲须8条真实U·∂s(aΠδT)=0。圆背景给显式非零δe，另4组合可保所有轴一阶I/位置/径向jets而动两轴类κθ；仅该背景，不冒55秩。曲率须保实际I、normal变分与完整Π记忆。
 
+[R501](results/R501-exact-full-column-rank-and-nonfixed-curvature-peak-in-the-current-168-family.md)原H含±I5，物理M含±I168；加rho目标/h上界得170有限A的det±1子式，任何正slack/dual的精确Newton正规矩阵正定，未授条件数/可行/收敛。两辅助变量可精确凸分段线性消元。56κ峰s=.78在body内，高度P8及P8′非零，排共同固定区解释，未证dκ或可行下降；原全Π/14门仍保。
+
 ## 3. 当前理论接口与剩余义务
 
 完整原式在[results](results.md)、活动任务在[open](open.md)。R495前细H保于[已发布前页](https://github.com/Rogerhu12/math-research-public/blob/ddfee4bec1f80bcd4ad22cb86d961fbeb4667643/topics/visible-flex-new-mechanism/HANDOFF.md)；压缩不撤同母、双germ、全库、原成本和whole-period义务。
@@ -50,4 +52,4 @@ R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3
 
 **[真实56全168新模型](notes/true56-full168-joint-model-design-20261116.md)run43847611444/research133231619868运行中。** 同当前非零new9场新求两网ordinary/全部原池selectedJ168，全部168可动，172准确物理盒、h=4||Mδ||∞≤1。保全部原rows/端点/区外，不复用55最终J。新600秒含输入/导数/求解/标量/actual/输出；2ordinary+2selectedJ、8次全网分离/8个严格新增行集master、32新tag、64scalar、最多3actualpair。旧56账户160.00398343599997秒/4值闭，祖先2233.566394556秒/138值保。source a9da16278c336ec5d6ce3be88502263d04429324；workflow visible-true56-joint168.yml；尚无新科学返回。
 
-56原CACHE2无完整二jets，必要ordinary计新task。读56原log并另只读55 COMPLETE取得永久参考构造，不执行旧科学。成功唯一INPUT保存当前J/g，MODEL不重复大阵；所有payload仅stdout。有限变量明确delta168/rho/h共170；完整first-order与affine-observable标量预测分开，实际14门和172盒最后验收。主完成门未付，继续open。
+唯一INPUT保存当前J/g，所有payload仅stdout；full first-order、affine-observable标量与actual14门/172盒分开。主完成未付，继续open。

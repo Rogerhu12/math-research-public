@@ -1,19 +1,24 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "a2467421d341778650f22b356a22ef287c728b6f",
-  "createdUtc": "2026-11-16 10:19:57 UTC",
-  "message": "ISP: prove weight-nine Koszul rank ceiling and rigorous original Bell cube obstruction gate",
+  "parentCommit": "aac4bbeb0ce11712580e5795fa7785063dac1fbe",
+  "createdUtc": "2026-11-16 10:26:43 UTC",
+  "message": "ISP: run complete original joint M primitive lattice and generator qualification",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-bell-koszul-ceiling-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-m-qualification-session-789f.py",
+    ".github/workflows/invariant-subspace-r150-joint-m-qualification-session.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/log.md",
     "topics/invariant-subspace-problem/open.md",
-    "topics/invariant-subspace-problem/results.md",
-    "topics/invariant-subspace-problem/results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-joint-m-qualification-session-789f-request.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-interface-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
+  ],
+  "dispatchWorkflows": [
+    "invariant-subspace-r150-joint-m-qualification-session.yml"
   ]
 }

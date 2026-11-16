@@ -266,3 +266,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R885原多项式与单行伴随实际完成**：[认证](results/R885-certified-original-polynomial-characteristic-relation-and-one-row-adjugate.md)。43842694142/49.878974848s/549stage；全部273节点认证完整χ(z,T)，273行层递推及完整b272=0给原e0^T adj(TI−W)。八旧K/逆只读，未重W或旧算术。小IO43844748582核560项manifest51dff643、chi fb8dbdd0、adjindex b49becb6、原15件载体95e2c885；整Artin和九范数由新consumer继续，不冒已完成。 SHA256 332faf00d95bcdaa198dfab7d330ff5061426929cd5b25c8d11689f003551ce4。
+
+
+- **R889实际theta与原same-h第五jet比较已证**：[完整证明](results/R889-original-theta-distribution-and-same-label-sigma-jet.md)。从原对称theta截面的Cartier除子与commutator确定Θp=d_p−6Bq，保[d_p,q]非交换；实际Q幂与原sigma⁶ Bell/Frobenius连接及首p jet全常数给J_(3,2)(S_h^flip)=(6B)^5/12(fi gj)^p。显式两因子/jet翻转固定χ^(2h)，仍保整数(a,b)、det半周期/六级与原Legendre同h。不是原Γ/C或split源的冒认，未证明该指定jet非零/除p整/q-normal/height。 SHA256 43a7d2fd485a36713a758b3930f730da64239ae918f8d8ebe9adeea9709926f3。
