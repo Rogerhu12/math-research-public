@@ -1,6 +1,6 @@
 # 未解决的问题
 
-**全W31的剩余差现限根2、长度至多8。** [完整原P双局部谱及整范围](results/R150-appendix-whole-normal-square-projection-at31-and-eight-length-remaining-gap.md)保两边完整field torsion7/32和固定J1，实投影正长度6/22与原M field像1/10相同；借自由格饱和，只推出U/M⊂p(T/S)。真H=(1,1)⊕(2,2,2,3,4)，故根1完全闭，根2差嵌(1,1,1,2,3)，31³U⊂M。root独立原二次型Taylor/1088源blockToeplitz与directSNF已同值，未判该差为0。严格C_P=C/U与tors(C_P)=H/(U/M)已付；接原155×224小呈示四轮系数饱和，保全部formal核和真实Taylor/p精度，不重A/210。
+**全W31生成与ann已完全闭合。** [原四轮系数饱和和完整证明](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)给长度22,22,19,18,17，真实Tp长13=H2，故全U31=M31。原AnnU=h*(31⁵,31²(s−2),(s−2)²)，h*W/h0W最小31指数5/2；D型、八R生成及非裂扩张均继承已付M。原57.531秒/独立42.987秒、完整colon/源/Toeplitz和root十payload全核；此前至多8长差已严格为0，不再列作待算。仍未展开全4212来源或取得新的统一参数费，普通ISP/Bell全理想及其余open继续。
 
 **完整二孔第三旗的跨头费用已付。** [有限池与同一首头完整证明](results/R271-appendix-complete-two-hole-finite-pool-truncation-and-cross-head-third-flag-gain.md)在相同F3上保全部primitive/零源，真实K2截尾误差²≤ε_f+2t，无强头逆损失；一般有限核的原carry/fresh6d修复保全部支撑。τ14切点使Σ(q2−q0)<∞，因此第三旗真实Schur能量可和。此仅支付qflat在K∩RanC²的通道，高旗补、完整受限逆及返回费继续；不据此宣N=M。
 

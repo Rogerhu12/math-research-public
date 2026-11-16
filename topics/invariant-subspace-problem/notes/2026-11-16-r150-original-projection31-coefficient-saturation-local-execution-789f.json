@@ -1,0 +1,195 @@
+{
+  "actual": {
+    "checkpointManifest": {
+      "bytes": 34722,
+      "sha256": "709ae4705596a71519ebc3800b1a6f03cf296523f90463815ab72a89504fdb23"
+    },
+    "elapsedSeconds": 57.53148655300902,
+    "exitCode": 0,
+    "inputs": {
+      "core": {
+        "bytes": 34432,
+        "sha256": "727175cf485a8ba5b5146a4cc6e749962e109c9e42265a2dd45f58cecdf933fb"
+      },
+      "gap_audit": {
+        "bytes": 2013,
+        "sha256": "1ac4cfed2d998f11b9c382f814287d46f5a02e4be64e7b2db856839482a2b8f9"
+      },
+      "generator": {
+        "bytes": 15328,
+        "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+      },
+      "primitive": {
+        "bytes": 65159,
+        "sha256": "44350c49f9f60c61427b7278bf7f3d24b6cb2e6583848a113b03bb109516d4fe"
+      },
+      "projection_receipt": {
+        "bytes": 7828,
+        "sha256": "9acb3368250f9efeeed1b358036f3ee6620846ba48fb176f6b2011a94c00e2a4"
+      },
+      "schur": {
+        "bytes": 37379,
+        "sha256": "dc17dc88a5f1415c648b6ba5bf3fab4f7fb810aef6cc1552a5b2ea4acacbdf79"
+      }
+    },
+    "kind": "local",
+    "parameters": {
+      "initialCoefficientDigits": 5,
+      "initialTaylorDegree": 24,
+      "memoryMiB": 2048,
+      "prime": 31,
+      "residueCenter": 2,
+      "seconds": 600
+    },
+    "peakRssKiB": 153384,
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "pythonFlintVersion": "0.9.0",
+    "raw": {
+      "bytes": 26562,
+      "sha256": "7e1a65781f45f53a77dbac77c73f155979db71988b6fad9043116f51c25b12be"
+    },
+    "semanticBinding": "7699b41009fc57c84b54055757d05e72a3aa1295082e289436c6856235daed71",
+    "startedAtUTC": "2026-11-16 13:05:33 UTC",
+    "status": "completed",
+    "temporaryCheckpointManifestPath": "/tmp/literature_whole_w31_789f/coefficient-saturation-actual/checkpoints/checkpoint-manifest.json",
+    "temporaryPhases": {
+      "field-0": {
+        "bytes": 323842,
+        "decodedBytes": 4218979,
+        "file": "field-0-63264e5089734428cc9c41d7f9caa161ff02cba4e5d66a7e16a1f9ecbff156a9.bin.gz",
+        "payloadSha256": "63264e5089734428cc9c41d7f9caa161ff02cba4e5d66a7e16a1f9ecbff156a9",
+        "sha256": "cfeb98397ce92066d61bf68351c3d7fe30f9265f824323e7f408567b7555149c",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "field-1": {
+        "bytes": 246982,
+        "decodedBytes": 3415873,
+        "file": "field-1-5eb487d37b6b18cc74f46629604daa077ca8636addbcf652259d7348a38a5da1.bin.gz",
+        "payloadSha256": "5eb487d37b6b18cc74f46629604daa077ca8636addbcf652259d7348a38a5da1",
+        "sha256": "606e9505d0edb7bf75e8b2e46db19f0d5b02ef88323eb7787e5a4857f6effa5c",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "field-2": {
+        "bytes": 203052,
+        "decodedBytes": 2612795,
+        "file": "field-2-6755b7f9e7df3c370055ed0bc2a6bd5cee6ac819826431bb587e8ad2baff1665.bin.gz",
+        "payloadSha256": "6755b7f9e7df3c370055ed0bc2a6bd5cee6ac819826431bb587e8ad2baff1665",
+        "sha256": "956ea5b6194dfc62ba3a8123120aa3019ab47d30646cca717517edddb333218a",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "field-3": {
+        "bytes": 139227,
+        "decodedBytes": 1809484,
+        "file": "field-3-ff348bd06e585536a7ed6947c3b9072670daa5b34325f123b30100b506abe27e.bin.gz",
+        "payloadSha256": "ff348bd06e585536a7ed6947c3b9072670daa5b34325f123b30100b506abe27e",
+        "sha256": "fc8bacd9d0349462d27c69288df63dea2275fff13c778c3bb3182f523f67c768",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "field-4": {
+        "bytes": 78679,
+        "decodedBytes": 1006400,
+        "file": "field-4-5f1091cc7b897c76fe80d473aafc8fa430806ece71e985bed2c85813597585ab.bin.gz",
+        "payloadSha256": "5f1091cc7b897c76fe80d473aafc8fa430806ece71e985bed2c85813597585ab",
+        "sha256": "bff4419cd2783b8eeecac0d80d1f214fd43a46aed68dc5dca041b2fc41562a21",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "state-0": {
+        "bytes": 134590,
+        "decodedBytes": 8493503,
+        "file": "state-0-761845b33341b56d76f37bd2ca33e21ffb08031b5243019880b2917ef0c3b1d5.bin.gz",
+        "payloadSha256": "761845b33341b56d76f37bd2ca33e21ffb08031b5243019880b2917ef0c3b1d5",
+        "sha256": "65aec5169bdc822438a9787bb06e2061d6892f29693d25aa06730cb703d8ce59",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "state-1": {
+        "bytes": 1275093,
+        "decodedBytes": 7135176,
+        "file": "state-1-09404aa006928f82589812f94c534b6ecc0295f082297056cf60dcfd6d136f3d.bin.gz",
+        "payloadSha256": "09404aa006928f82589812f94c534b6ecc0295f082297056cf60dcfd6d136f3d",
+        "sha256": "d0b63c1ffb429a5dae1bf30a3e2dfe5b7988cdc62008b877ad67c93f9146da39",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "state-2": {
+        "bytes": 1373923,
+        "decodedBytes": 5776301,
+        "file": "state-2-3e5ba9fc5fe4a2f50e33f6de28a56005229654f3aef93f8e2b07c893b9221e44.bin.gz",
+        "payloadSha256": "3e5ba9fc5fe4a2f50e33f6de28a56005229654f3aef93f8e2b07c893b9221e44",
+        "sha256": "f77c1f21444925e27d17b6d3e099e7b3a61270d6822bc5b2de75dd4e6ad49172",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "state-3": {
+        "bytes": 1054285,
+        "decodedBytes": 4417423,
+        "file": "state-3-3c7b08cb2e539423cf74ef12587e9d7e0ac9c947e00816e4091f73dfd36961a6.bin.gz",
+        "payloadSha256": "3c7b08cb2e539423cf74ef12587e9d7e0ac9c947e00816e4091f73dfd36961a6",
+        "sha256": "86ed02d86befade2ec7d8e0dc7b4627428047331f106a9e134f2e8d7637783b8",
+        "temporaryOnly": true,
+        "verified": true
+      },
+      "state-4": {
+        "bytes": 611521,
+        "decodedBytes": 3058543,
+        "file": "state-4-a1fd9332a4ca5ca0603fc8f1dedbda98fa9e9353cb75141c03ac19fc6e7690b8.bin.gz",
+        "payloadSha256": "a1fd9332a4ca5ca0603fc8f1dedbda98fa9e9353cb75141c03ac19fc6e7690b8",
+        "sha256": "9a78b43d514a63b92e93497c134ed846675ee0eeff96f8bb9761e9a2b23ea3e6",
+        "temporaryOnly": true,
+        "verified": true
+      }
+    },
+    "temporaryRawPath": "/tmp/literature_whole_w31_789f/coefficient-saturation-actual/original-projection31-complete-coefficient-saturation-receipt.json",
+    "toolSession": 11767
+  },
+  "author": "Astra-ISP-789f / literature_audit",
+  "date": "2026-11-16",
+  "formalRepositoryPath": "topics/invariant-subspace-problem/results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md",
+  "format": "r150-original-projection31-coefficient-saturation-local-execution-v1",
+  "frozenRequest": {
+    "blob": "c4125e59b3330cb3430355f1278649a51a98ed4e",
+    "bytes": 2695,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection31-coefficient-saturation-local-request-789f.json",
+    "sha256": "06c7466d4a321bb76f5425f27f49842dbc929a2b1e5b3f170623d237799f2c21"
+  },
+  "independentReplay": {
+    "coreAndSchurHelperNotImported": true,
+    "elapsedSeconds": 42.986977564010886,
+    "exitCode": 0,
+    "kind": "local",
+    "producerNotImported": true,
+    "raw": {
+      "bytes": 1590,
+      "sha256": "579ce6c9d6c3dd6206ebb03635e3a65d837ace0323a144b9c421d9c04d5a34cc"
+    },
+    "source": {
+      "blob": "5fca8338ee707e646aa21ea9d0a11777d1cdeddf",
+      "bytes": 9511,
+      "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection31-colon-independent-replay-789f.py",
+      "sha256": "1136c918f2fa2257d83dfbf48da15d5f4b65658a7d2b6a28d641f81da64e79b5"
+    },
+    "status": "completed",
+    "temporaryRawPath": "/tmp/literature_whole_w31_789f/coefficient-saturation-independent-replay.json",
+    "toolSession": 42634
+  },
+  "interface": {
+    "blob": "bda95b09fac311d0c03d75d7e2737d224621940a",
+    "bytes": 9206,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection31-complete-coefficient-saturation-interface-789f.md",
+    "sha256": "829a35fa4d11386be4c7fa53b23fc5e6d1f3b674dc440fc36e9daaed8ef4ded8"
+  },
+  "rule15": "Only sources, parameters and execution/hash identity; all mathematical arrays and result receipts remain temporary.",
+  "sharedMainNotModifiedByThisExecution": true,
+  "source": {
+    "blob": "e771dd03b21e04a645bc204a2e64302de72048de",
+    "bytes": 36017,
+    "repositoryPath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-projection31-complete-coefficient-saturation-789f.py",
+    "sha256": "6cfc2b933992b96d012599f493389bc370cb4989d865e765b7b94a542ad13338"
+  },
+  "status": "completed"
+}
