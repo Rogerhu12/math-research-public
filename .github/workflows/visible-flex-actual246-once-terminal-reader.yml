@@ -1,0 +1,179 @@
+name: Read actual246 terminal necessary scopes once
+on:
+  push:
+    branches: [visible-flex-actual246-once-terminal-reader-20261116]
+permissions:
+  contents: read
+  actions: read
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Read two original terminal logs once and return whole bounded original scopes
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 -u - <<'PY'
+          import hashlib,json,os,re,sys
+          import urllib.request as U
+          import urllib.error as E
+          import urllib.parse as P
+          REPO="Rogerhu12/math-research-public"
+          RUN=43897098674
+          HEAD="f70acbf1886f0f363c3c1d6b60760438f59e545c"
+          WF=".github/workflows/visible-larger-public-live128-named-necessary-original-fullDN.yml"
+          JOBS=((133403519298,"failure"),(133480137925,"success"))
+          API="https://api.github.com/repos/"+REPO
+          FRAME_NAMES=(
+           "R589_NAMED_NECESSARY_SOURCE_PREPARATION_NECESSARY",
+           "REQUEST246_NAMED_NECESSARY_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          )
+          LIMIT=90000
+          def need(ok,reason):
+              if not ok: raise RuntimeError(reason)
+          def identity(raw):
+              return dict(bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+          def enc(value):
+              return json.dumps(value,ensure_ascii=True,sort_keys=True,separators=(",",":"),allow_nan=False)
+          class NoRedirect(U.HTTPRedirectHandler):
+              def redirect_request(self,*args,**kwargs): return None
+          opener=U.build_opener(NoRedirect)
+          headers={"Authorization":"Bearer "+os.environ["GITHUB_TOKEN"],
+           "Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",
+           "User-Agent":"same-repository-actual246-terminal-necessary-reader"}
+          def api(path):
+              with opener.open(U.Request(API+path,headers=headers),timeout=120) as response:
+                  return json.loads(response.read())
+          def original_log(job):
+              endpoint=API+"/actions/jobs/"+str(job)+"/logs"
+              try:
+                  with opener.open(U.Request(endpoint,headers=headers),timeout=120) as response:
+                      return response.read()
+              except E.HTTPError as error:
+                  need(error.code in (301,302,303,307,308),"original-log-endpoint")
+                  location=error.headers.get("Location")
+                  need(bool(location),"original-log-location")
+                  url=P.urljoin(endpoint,location);target=P.urlsplit(url)
+                  need(target.scheme=="https" and target.hostname and target.username is None
+                       and target.password is None,"secure-original-log-redirect")
+                  with opener.open(U.Request(url,headers={"User-Agent":"terminal-necessary-reader"}),
+                          timeout=120) as response:
+                      return response.read()
+          def run_bound():
+              run=api("/actions/runs/"+str(RUN))
+              need(run["id"]==RUN and run["head_sha"]==HEAD and run["path"]==WF
+                   and run["workflow_id"]==420286275 and run["run_attempt"]==1
+                   and run["event"]=="workflow_dispatch" and run["head_branch"]=="main"
+                   and run["status"]=="completed" and run["conclusion"]=="failure"
+                   and run["repository"]["full_name"]==REPO,"same-complete-original-run")
+              return run
+          try:
+              need(os.environ["GITHUB_REPOSITORY"]==REPO,"same-public-repository")
+              run=run_bound()
+              observations=[];bodies={};events=[]
+              for job_id,expected in JOBS:
+                  job=api("/actions/jobs/"+str(job_id))
+                  need(job["id"]==job_id and job["run_id"]==RUN and job["head_sha"]==HEAD
+                       and job["status"]=="completed" and job["conclusion"]==expected,
+                       "same-complete-original-job")
+                  raw=original_log(job_id)
+                  lines=[]
+                  for number,line in enumerate(raw.decode("utf-8").splitlines(),1):
+                      plain=re.sub(r"^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d+)?Z ","",line)
+                      lines.append((number,plain))
+                  frames=[];claimed=set()
+                  for name in FRAME_NAMES:
+                      starts=[i for i,(_,s) in enumerate(lines) if s=="BEGIN_"+name]
+                      ends=[i for i,(_,s) in enumerate(lines) if s=="END_"+name]
+                      need(len(starts)==len(ends) and len(starts)<=1,"unique-original-frame")
+                      if not starts: continue
+                      i,j=starts[0],ends[0];need(i<j,"complete-original-frame")
+                      body=("\n".join(s for _,s in lines[i+1:j])+"\n").encode("utf-8")
+                      value=json.loads(body)
+                      need(isinstance(value,dict) and identity(body)["bytes"]<=90000,
+                           "whole-original-necessary-body-limit")
+                      framed=dict(frame=name,body=identity(body),first_line=lines[i][0],
+                                  last_line=lines[j][0],schema=value.get("schema"))
+                      frames.append(framed);claimed.update(range(i,j+1))
+                      key=(name,hashlib.sha256(body).hexdigest())
+                      if key not in bodies:
+                          bodies[key]=dict(frame=name,identity=identity(body),raw=body,
+                                           original_jobs=[job_id])
+                      else:
+                          need(bodies[key]["raw"]==body,"same-digest-full-original-body")
+                          bodies[key]["original_jobs"].append(job_id)
+                  in_group=False
+                  for i,(number,line) in enumerate(lines):
+                      if line.startswith("##[group]"):
+                          in_group=True;continue
+                      if line.startswith("##[endgroup]"):
+                          in_group=False;continue
+                      if in_group or i in claimed or not line.startswith("{"): continue
+                      try: value=json.loads(line)
+                      except (ValueError,TypeError): continue
+                      if isinstance(value,dict) and ("event" in value or "schema" in value):
+                          events.append(dict(original_job=job_id,line=number,whole_event=value))
+                  observations.append(dict(original_job=job_id,conclusion=expected,
+                      whole_original_log=identity(raw),log_endpoint_requests=1,
+                      full_log_read_once_in_public_Actions=True,frames=frames,
+                      steps=[dict(number=s["number"],name=s["name"],status=s["status"],
+                                  conclusion=s.get("conclusion")) for s in job.get("steps",[])]))
+              run_bound()
+              ordered=sorted(bodies.values(),key=lambda x:(
+                  0 if x["frame"]==FRAME_NAMES[1] else 1,x["frame"],x["identity"]["sha256"]))
+              meta=dict(schema="actual246-once-terminal-whole-necessary-readback-v1",
+                  repository=REPO,original_run=RUN,original_head=HEAD,original_workflow=WF,
+                  original_attempt=1,reader_run=os.environ["GITHUB_RUN_ID"],
+                  reader_head=os.environ["GITHUB_SHA"],original_jobs=observations,
+                  all_named_frame_identities=[{k:v for k,v in item.items() if k!="raw"} for item in ordered],
+                  all_original_runtime_JSON_events=events,
+                  selected_frames=[],unreturned_frames=[],
+                  selected_whole_event_count=len(events),
+                  source_or_scientific_completeness_not_inferred_from_step_status=True,
+                  mathematical_source_not_imported_or_evaluated=True,
+                  original_source_or_science_not_reexecuted=True,
+                  original_necessary_body_not_reencoded=True,
+                  no_raw_uploaded_to_git_release_or_artifact=True,
+                  no_cleanup_or_quiet_inference=True,
+                  signed_URL_or_token_not_returned=True,
+                  independent_original_frames_never_split=True)
+              def block(item):
+                  return ("BEGIN_"+item["frame"]+"\n").encode()+item["raw"]+("END_"+item["frame"]+"\n").encode()
+              all_blocks=b"".join(block(item) for item in ordered)
+              event_bytes=enc(events).encode("ascii")
+              meta["all_original_runtime_JSON_events_identity"]=identity(event_bytes)
+              # If the two independent whole scopes and all runtime events cannot fit,
+              # return whole scientific scope first and explicitly mark other scopes unreturned.
+              # This is only a bounded read of existing logs, not a new science necessary selector.
+              output_meta=lambda: ("TERMINAL_READBACK_METADATA "+enc(meta)+"\n").encode("ascii")
+              if len(output_meta())+len(all_blocks)>LIMIT:
+                  meta["all_original_runtime_JSON_events"]=None
+                  meta["selected_whole_event_count"]=0
+                  meta["runtime_event_values_unreturned_due_to_administrative_limit"]=True
+              selected=[]
+              for item in ordered:
+                  desc={k:v for k,v in item.items() if k!="raw"}
+                  trial=selected+[item]
+                  meta["selected_frames"]=[{k:v for k,v in row.items() if k!="raw"} for row in trial]
+                  meta["unreturned_frames"]=[{k:v for k,v in row.items() if k!="raw"}
+                      for row in ordered if row not in trial]
+                  if len(output_meta())+sum(len(block(row)) for row in trial)<=LIMIT:
+                      selected=trial
+              meta["selected_frames"]=[{k:v for k,v in row.items() if k!="raw"} for row in selected]
+              meta["unreturned_frames"]=[{k:v for k,v in row.items() if k!="raw"}
+                  for row in ordered if row not in selected]
+              output=output_meta()+b"".join(block(row) for row in selected)
+              need(len(output)<=LIMIT,"bounded-whole-terminal-readback")
+              print("TERMINAL_READBACK_IDENTITY "+enc(identity(output)),flush=True)
+              sys.stdout.write(output.decode("utf-8"));sys.stdout.flush()
+          except BaseException as error:
+              if isinstance(error,(KeyboardInterrupt,SystemExit)): raise
+              print("TERMINAL_READBACK_ERROR "+enc(dict(type=type(error).__name__,
+                  http_status=getattr(error,"code",None),
+                  safe_reason=str(error) if isinstance(error,RuntimeError) else None,
+                  complete_original_scope_not_invented=True,no_raw_copy_or_cleanup=True,
+                  no_signed_URL_or_token_printed=True)),flush=True)
+              sys.exit(1)
+          PY
