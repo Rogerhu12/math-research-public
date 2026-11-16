@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 943a3405b885627d12d394739bcfe8b9725dd270（2026-11-16 04:56:42 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0457-exact-nine31-denominators.json。
+- **最近成功实际 pull 与已读规则提交：** b418c6e6e5428be5774917210878c41b4245fdf0（2026-11-16 04:58:29 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0458-onebit-joint-height-moments.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
@@ -35,5 +35,5 @@ M=kerT，N=closure BM，N=M仍开。保同w/u、负前缀/未来、全部partial
 - [真实C高段](results/R271-appendix-true-strong-head-powers-and-complete-deep-return-high-tail.md)：||C^j||≤7^j e^(−(770/256)(j−x)_+⁴)；x≥1024、J*=ceil(x+2√x(logx)^(1/4))以上整个canonical高段≤e^(−x²logx)||a||²，不依h≤2x。未付中段j<J*。
 - [公共塔指数障碍](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)：任意复公共相容塔至x，max{M_floor(x/48),M_x}≥¼e^(x/12800)，x≥64；保全部primitive/自由首列。排固定多项式公共塔预算，不给actual源坏能量或W反例。
 - [同源log方差](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)：q̇=ΣjE_j；固定倍数窗给一阶矩→0，[Sx,xSx]给≤Δ_Q²/logx，同一次选参适用全部合法Q。不可删canonical M_j/y_j中的1/y_j。
-- boundary_core新一位完整Schur及联合矩稿已冻90a7e995，根已全核，待下一条真推：真实投影损失被碰撞二阶能量夹住，逐位准确累计；另在y∈[x,2x)、辅助t∈[Sx,2Sx]同一次选择使Σ[j+j(j−1)/x]E_j≤30000 Vx≤30000Δ_Q²，Vx→0；Q≥6d保原母窗。额外t非物理尾，后续源重新最小化，未付全核修复。
+- **[一位完整Schur与联合高度矩](results/R271-appendix-one-bit-hardcore-complete-source-schur-and-joint-height-moments.md)：** 两mode保全部横向源，准确2×2 Gram/Schur及真实投影损失c_j(p)E_j≤q0−q1≤(A_j(p)−1)E_j逐j求和；原逐位损失准确累计到kerL_m，不换M。y∈[x,2x)、辅助t∈[Sx,2Sx]一次选源，Σ[j+j(j−1)/x]E_j≤30000 Vx≤30000Δ_Q²，Vx→0，原Q≥6d母窗合法。t非物理尾；后续源重新最小化的漂移/完整中段返回继续，未付全核修复。
 - 普通封口仍需原same-w合并负部≤c_m Q||F_mu||²且Σ1/c_m发散；当前无此完整界。原G_reg同forcing/carry、Haar普通循环性、正常有限秩链及其它全部open继续。
