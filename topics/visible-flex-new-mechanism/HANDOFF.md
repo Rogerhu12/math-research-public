@@ -32,7 +32,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 [R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保R471/R491全部密度、C≥0、双germ与完成跳图，以同一正Af缺量证明H∈[3/5,2]时Δ4−βΔ6>7(4+34H)/(1500L)>0，L=4H²+136H−76、β=(270H²−1196H+576)/L；接R496的H≥2完整ImE<0，**排当前允许cap全五门共同零**。由原R471/R465/R466接同一仿射增强商的正字符障碍；不排不同合法观察空间/profile或一般几何。
 
-旧cap15/三原子/四原子搜索均闭且无零；唯一LP183.90384485000004秒/1LP/0judge/nit270738/xNone的[原no-decision](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)仍保当时原义，不改写成已有证书。禁止重开同类cap搜索。新的固定物理宽度真实joint入口仍须逐条证明全部原行、有限actual截面及完整基准，不能把signed span/满闭锥或另一母收据当实际零成本。
+旧cap15/三原子/四原子搜索均闭且无零；唯一LP183.90384485000004秒/1LP/0judge/nit270738/xNone的[原no-decision](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)仍保当时原义，不改写成已有证书。禁止重开同类cap搜索。[R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)已付固定宽Jtr=(J0,FN^j)完整实际C1截面：双极端在Jaff排非零权、同宽混权核排λ+；原响应/仿射桥导数加真实高度脉冲给非零基准开球，再以有限非负配平和整数复制覆盖紧目标。一次共同ω平移/真桥保原窗口与全部成本，接原period/13规范；不要求已排的伸缩partial零。此为R459内区可变母库，不能拼R512同形母；全词逐点K仍欠。
 
 ## 5. 同规范路径的当前严格边界
 
@@ -50,4 +50,4 @@ R469–509完整W/V、13状态/2输入、K/Mraw、incoming、端germ及原费用
 
 [R516](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)付纯R1共同17维完整二次jet、原172盒准确投影、metric二次门和曲率第二列四次门；剩余R2原盒曲率 iff 全非负组合的support-function分离不等式。连续法向速度身份保实际G，有限网格不冒连续证书。原ring只存ell而未存完整17个Π三向量，下一R1须如实支付缺失kernel；尚无可行新x，不重原R2 LP。
 
-继续三个真实问题：原盒下R0/R1低阶环态与其全body候选；固定宽joint能否给同一完整成本实际截面；同一固定规范下有限幅值非恒周期轨道。所有新系数/缺失数组/求解/预测/actual都在未来明确Actions科学账；已有输出只按原身份读。每一子问题结束接open下一项，不把条件定理或有限观察当主完成。
+继续三个真实问题：原盒下R0/R1低阶环态与其全body候选；R518同一实际字的非恒逐点ruling；同一固定规范下有限幅值非恒周期轨道。所有新系数/缺失数组/求解/预测/actual都在未来明确Actions科学账；已有输出只按原身份读。每一子问题结束接open下一项，不把条件定理或有限观察当主完成。

@@ -448,3 +448,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R517 周期scalar完整ruling与自动真实八矩返回](results/R517-periodic-scalar-ruling-and-automatic-real-matrix-return.md)：**已证明**固定Δ八维尾忠实性、0/L/2L完整二差及两次重复判据；真正合法实解析整圆上一周期K0自动M0。未授周期轨道存在或frame/位置/第三第四period返回，主目标继续。
 
 - [R516 共同R1四次域与原盒曲率分离](results/R516-common-first-radial-jet-quartic-domain-and-original-box-curvature-separation.md)：**已证明**同17低阶坐标的完整二次jet、原盒投影、metric二次门与实际G四次列门；固定低阶后给剩余原盒曲率的support-function iff，含连续整圈有限子族范围。原ring缺失完整Π向量已明确，未授当前58可行新态或连续reach。
+
+- [R518 固定宽度完整period成本与实际有限C1截面](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)：**已证明**原Jtr的满闭锥、真实导数满像、保基准开球和有限正配平/整数复制实际截面；原窗口合法化保共同母与全部桥成本，按同库接口接两period/13规范。R513排的额外伸缩partial不再作目标；未付同一完整实现字逐点ruling，不与R512同形母混用。
