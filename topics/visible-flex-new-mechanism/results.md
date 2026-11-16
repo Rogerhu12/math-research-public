@@ -411,3 +411,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R502 完整offset多项式与高端严格凹性](results/R502-complete-offset-polynomials-and-strict-upper-cap-concavity.md)：**已证明**固定凹图的ImE/√y为真三次、当前H≥1时严格凹且至多两根；完整Re四次与C4/5首项保，未判共同零或低端凹性。
 
 - [R503 非零前缀反射与一套规范的完整secant片段](results/R503-nonzero-prefix-reflection-and-one-gauge-for-complete-secant-patches.md)：**已证明**全even逐项保持、四相位完整odd核的非零真实性、真实非回文有限标记字共用完整K；未锁Gram可一次清片段，已锁13仅保持，桥内部/全period/完整V仍欠。
+
+- [R504 完整168真实参数线、二阶metric与原PSD余项](results/R504-complete-168-parameter-line-second-metric-jets-and-curvature-PSD-remainders.md)：**已证明**完整全角first-jet差式、方向二阶与显式Taylor界、原曲率四行余项及必需基点二阶输入边界；未给当前数值证书或可行下降，旧affine-line凸性不转移。
