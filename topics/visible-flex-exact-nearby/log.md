@@ -326,3 +326,5 @@ run43870348355/1一个child0，checkout6c7e71e0cd53bb15ebdfe024cc7f9574d27c0a84�
 ### 2026-11-16 13:01:06 UTC — WJR完整真实相对Jacobian解析结论
 
 proof b6cd802c613f7ec193329af609c63f59a6efded3/19752B/SHA741df919addd04766685724f1e6d131eef8b03bc6875f9a50ff7de9ad5061c2f全文核读后独推。真实Yj=χ^(j)/J先消vφ线性项，正三角比较等于Wj/F；Stirling有限多项式因式F准确消，无数值reciprocal/exp/log。cut真m_c、cut2..15与已存flow1..14全Bell/Leibniz给同p±/x相对比，再原WBF Kcut只读与新bulk整max。两完整actual/43原/4×14=56首新目标未算，WBF83不重做。仅strict实域ordinary ratio≤14，不扩root/参数域，不替换absolute Phi，全mean/96/finite/matching不减。本地12:59:26按小时真CLI pull仍无executor；下一本地≤13:59:26，公开CI真pull仍12:51:48，下一≤13:51:48。README核294f2ad82638b2cb9d3c28a3ddf55d330765ce65不变；并行WSM原子prefix和WPS全残差实际消费者继续。
+
+2026-11-16 13:12:54 UTC visible-exact-astra-0df9：WJR首次56新封包，source9a08605e/68081/22f83801、manifestba7dadef/17518/9ab2e472；6current/2AST、两完整actual、43原/7scope，root全文公式/源与独立原字绑定通过。仅静态JSON模型success78225/failure81069、exec29942/53352，SCI90K+exec59K+report8K，启动前另120K/marker4K；数学0执行。已归档旧H/open索引压缩且原义务不减；fresh README aa09e53de9ea2c9ec34a76b2aa4c08ba96f6900e同已读。下一发公开仓库自身首次Actions并保任何完整prefix，继续真实finite。

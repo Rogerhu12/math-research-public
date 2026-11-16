@@ -1,8 +1,7 @@
 # 待解：同一个精确闭等距族的剩余实际接口
 
 更新2026-11-16。**总任务未完成，持续工作，不等用户。**
-本次压缩前完整29307B页逐字存[共同输入sign补正完整检查点](notes/2026-11-15-open-through-common-input-sign-correction.md)，Git blob93c7638a、SHAc266c0f1；仅缩已成源索引，全部条件及未付义务继续有效。
-本页聚焦当前未付门。逐字完整前页见[首系数与主逆前档](notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md)，原提交ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log保存全部原球、域、单位、mean、失败/lost和恢复身份；其递归原档继续有效。压缩不取消任何义务，不授权重算成功数学。
+本页及H全部递归前页见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45/40345/35475095；其内逐字保存共同sign补正、ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef及全部既有原球/域/单位/mean/失败/lost/恢复和未付义务。压缩仅索引，旧成功禁止重算。
 
 ## 1. 总验收与同一个对象
 
@@ -158,8 +157,7 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 执行规则与当前可恢复记录
 
-本节压缩前完整原文及当时H逐字保[03:31检查点](notes/2026-11-16-0331-completed-state-and-cleanup-checkpoint.md)，read commit b16923509deae4d293a0ffe4c9c0e71b89081976。所有已删件的精确path、Git/SHA256、size、restore commit、成功链/旧失败/原scope及白名单链接均在该表；归档不授重算。
-已完成普通删除：2Newton/jet/七报告1589068B、九报告504341B、两interval773501B、smoothing/uniformtail721358B、OMA两报告720495B、R46density551730B/energy425182B/scaled429437B/strict371382B；全部先推白名单后fresh SHA/size guard，禁重复删除。source/native/候选/失败/proof/activepins保；需旧输入须按原表immutable恢复并核原SHA。
+本节此前完整清理表、全部原path/Git/SHA256/bytes/restore及成功/失败/scope逐字见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)，并递归03:31档/b16923509deae4d293a0ffe4c9c0e71b89081976。既成删除不可重复，任何旧输入须按原表完整历史恢复核SHA、禁重算。旧表各次对native/source等的排除只描述当次清理范围，不创设根规15之外的永久豁免或未来审批门。
 
 只在公开Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据，成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；每consumer实核topic≤200MB且预留120KB。
 
@@ -190,4 +188,4 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff：Jρ=(I−QfΔρ)PfGD，actual E0/D/T式15和式24完整保degree32、cut高trial差、b/mean/7port；两moment只收投影finite，GD保全L2源。reference K∈[0,1]；e+3dt<1待算。
 
-[WJR真实相对Jacobian](results/R133-supplement-relative-flow-Jacobians-and-positive-phase-ratio-bounds.md)741df919：真实J除法先消线性项，cut真lower全Bell/Leibniz给pσ/x比，再保正dr/cut。43原/56新未算；WBF83冻结，独立义务保。
+[WJR真实相对Jacobian](results/R133-supplement-relative-flow-Jacobians-and-positive-phase-ratio-bounds.md)741df919：真实J先消线性项、cut真lower全Bell/Leibniz给pσ/x比，再保正dr/cut。源22f83801/manifest9ab2e472封6current/2AST/43原/7scope；首次4图56新CI待发，WBF83不重算。
