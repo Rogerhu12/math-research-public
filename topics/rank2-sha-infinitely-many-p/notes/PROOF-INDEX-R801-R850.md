@@ -221,3 +221,6 @@
 
 
 - [R846](../results/R846-original-full-hom-and-genus-four-exclusion.md)：原全部generating genus4项被排除。真实K3下降的属二商中reciprocal的非零Bg→Bh交叉Hom逐付完整κ角色与hyperelliptic符号，迫Bh∼K3E17且原R作用ω²。K3/K三个实际投影、Ei显式同构和K/Q反共轭δ涵盖整个Hom；三条Ei最小level10404均new/multiplicity one，原范数支撑1mod3使完整Hom只能有R特征ω，严格矛盾。于是原polarization的generating项g≥5，保全部原系数/次数；R843–845条件几何仍真但不能在此原g4来源实现。没有判原最高cycle零/非零或付canonical比较。
+
+
+- [R847](../results/R847-original-dyadic-s3-and-genus-seven-lower-bound.md)：原完整S/W二处作用准确给忠实C3×S3。先以optimal E_f及良好5/7点数6/13消每个实际F的W4 cusp常值，再核源矩阵关系/与R交换及目标sign⊕std；S3在D/R上仍忠实且分别保持两种monodromy。g5/6所有分支候选由P1唯一二点轨道与椭圆商A3非零三阶平移严格排除，合R846得每个原generating项g≥7。整个Hom/polarization、有限Artin系数/实际推前degree及X0/X1归一均保；没有cycle零或非零、canonical比较或跨p AJ结论。

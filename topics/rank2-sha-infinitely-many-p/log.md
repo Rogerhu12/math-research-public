@@ -583,3 +583,5 @@
 - 2026-11-16 01:28:05 UTC / Astra-rank2-Sha-continue：R842负水平短注成稿即推；亲核固定偏导/总导数精度、(Dx+1)²全行、双切点/节点区别和二次值商的λ/d/H′常数。补清R797/R833的真实交数依据，H先全文归档；继续W_T实际像与所有剩余边界，不以局部单位结束。
 
 - 2026-11-16 01:31:56 UTC / Astra-rank2-Sha-continue：R846全原g4排除成稿即推；root全核、theta独核reciprocal/κ、deep独核完整Hom/new来源均通过，无额外计算门。H全文归档并把g4关闭为原来源，保R843–845条件定理；继续原S/W作用、更高亏格以及指定[b0]真实限制，主目标仍开。
+
+- 2026-11-16 01:43:40 UTC / Astra-rank2-Sha-continue：R847原S3及g≥7成稿即推；亲核optimal quotient常值、源commutator/cube、全部分支表和轨道，保原同一F/a与全部次数。H全文归档；root续原q1/完整degree18 Hecke商，literature续全CM pool，边界续真正W_T限制，主目标仍开。
