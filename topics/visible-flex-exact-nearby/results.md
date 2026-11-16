@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **s10 白名单执行。** 先提交6d782189，再freshguard普通删除唯一8d066c24/633521B派生报告；[完整原样恢复及失败保留](notes/2026-11-16-R133-dense-positive-weight-s10-trial-cleanup-whitelist.json)。0数学执行。
+
 - **s10 派生诊断容量白名单。** [精确恢复记录](notes/2026-11-16-R133-dense-positive-weight-s10-trial-cleanup-whitelist.json)只含633521B浮点报告；原inventory/SHA与固定提交已核，先推白名单，尚未删除。全部canonical、native、原失败与成功不变。
 
 - **WZR同真实腰点的精确角逆与完整有限重建已闭**：[证明](results/R133-supplement-exact-waist-angular-inverse-and-reduced-finite-reconstruction.md)，SHAf5e69090。由同metric β=d=0，Jw:Hs_even,0→Hs+1_odd=ηw^-1I；完整FA六inner mean和两inner tail逐项真0，residual精确仅z³ηg3φ，直接新Crec首项Rw P*||g3φ||/16。outer mean/terminal、independent physical z、βr/Jr与第二Z均保，仍四endpoint；0新数、不改旧successful upper、不授全域或finite。
