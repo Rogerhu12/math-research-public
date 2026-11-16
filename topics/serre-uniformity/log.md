@@ -81,3 +81,8 @@
 - R883真实5stage/0.186012313s完成：原B0=829783888单位、c=354813668 modp753，原两截面三系数全乘回，准确来源DAG保真，旧28件不重算。
 - 原帧正乘c^254/1205/1457及实际幂全部登记；辅助素点单位不冒41或全nonp。R888已推85049eca，R887及R885小IO真实dispatch，继续五Lj与完整范数。
 - 本push规则：公开Actions真实pull至d9b74f07f31b2b0c4baee550c78a4369869e422b（2026-11-16T10:01:55.846234+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 18:08 Asia/Taipei — serre-public-astra-20261115
+- R887真实20stage/12.558248493s/388源完成，U146/u252/C*418/原Qtilde四flags真；最小完成源IO激活。六b分支intake仅抽原同s/free1186及20旧F69块，不重旧逆或行。
+- R787原570后任务已结束failure，artifact14214393616/26d1058c；立即纯IO读实际末断点，未读core log前不虚称BudgetStop。R883已推c558e0da，NFF已立即pull/rebase第二次成功；H逐字归档。
+- 本push规则：公开Actions真实pull至77f899dc742db5f8520bde17b284118c66a03cd2（2026-11-16T10:08:20.025742+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

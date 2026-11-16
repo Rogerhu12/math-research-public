@@ -2,40 +2,71 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1002-R883-actual-original-t-first-order-frame",
-  "commit_message": "serre: certify actual original t first order unit and marked frame direction",
-  "rules_last_read_commit": "18760e9472f0f1ff2d4dd21d5fd3dc33b5bc91df",
+  "request_id": "20261116-1008-R887-completed-source-and-six-branch-intake",
+  "commit_message": "serre: retain completed cusp flip and remaining original six branch inputs",
+  "rules_last_read_commit": "d9b74f07f31b2b0c4baee550c78a4369869e422b",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "9cb67d0a54ffd69e533f80d9cb13e0e981ae580cbc42ebf37ce919cb237a0060",
+  "expected_previous_request_sha256": "abdc92f391857bea65e608de997a4df75062a0ef74b5cfc87ff7ca7c5a2a533d",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R883-certified-original-t-first-order-frame.md",
-      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-bounded-arithmetic.md",
+      "sha256": "2f4442fd90dbc77442cd38e61f64a01f7d293a3faa698ba259a17f6de2fd733b",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R887_public_completed_common_cusp_flip_IO.py",
+      "sha256": "627d16d0d68503ffa7ab482b8fa4fb11a458d29ed41434491abcb987388af9ae",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R887-completed-common-cusp-flip-IO-request.json",
+      "sha256": "db72af6a63fd97be0046c73b0865bf2f7769fc052b8dce56a38fdd6360fc04f5",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R887-completed-common-cusp-flip-IO.yml",
+      "sha256": "8568b63c769312d627ce527ef63c672bbc15cdf8908564c650b6115e23d85732",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R880_public_original_six_branch_source_intake.py",
+      "sha256": "c4ced3b64b7a3afb368543d0e5963e92c0e83916a3cd44c7155bb772d4aa3128",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R880-six-branch-source-intake-request.json",
+      "sha256": "b847fdf3f7a97a9d053f201ae0a6b4b474cd27faa756fd826d0ee179fa43633a",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R880-six-branch-source-intake.yml",
+      "sha256": "0abd3a9161c6dff63b11a67609c3f389e75c7029bc9eec328088f685e39b6272",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "99394ae74ea3e262c128a22cd58e19bb434dc7206a41ba1f5b7d224ac6d72b36",
-      "expected_previous_sha256": "d31ad5e6b4994b664d372ab1915991ba0d0e45cdde41d544684459944235154d"
-    },
-    {
-      "path": "topics/serre-uniformity/open.md",
-      "sha256": "8d0ffd32a4b6efd2fa90e1528c024219b220225103292bcd8453cd74b7ecab84",
-      "expected_previous_sha256": "d8e8786ebcdf474d2519bbffef628f71dc5d509967611083e8d7981617292b14"
-    },
-    {
-      "path": "topics/serre-uniformity/results.md",
-      "sha256": "78806751fc346c06c2e7e3666c106d5276d71aed035141f2b83d30e1d69b48b0",
-      "expected_previous_sha256": "7461057432a8c232109e789be119c3c4ef6cc6dd271136219e3d36c1f22ce159"
+      "sha256": "5acce8bbc507a88d21c231dbff33cff171bbd82322d9863ce6a79a4cbfae52b0",
+      "expected_previous_sha256": "2f4442fd90dbc77442cd38e61f64a01f7d293a3faa698ba259a17f6de2fd733b"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "545c993d3413009e3b73d92a04b2a554f5a21d87aa89a876609c3355bf79af37",
-      "expected_previous_sha256": "f3bc3df69619feecedf73b46b128a982b5ea93d33e4e2573d830119366ef6af1"
+      "sha256": "8b67a1db671d40e4009cb670c6f1b5be5779bc90446bd77441905708b99053b3",
+      "expected_previous_sha256": "9662b4b369442ca308902830d546268246e33d3a6d72748999cbc6e8c24d031b"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R887-completed-common-cusp-flip-IO.yml",
+      "request_path": "topics/serre-uniformity/notes/R887-completed-common-cusp-flip-IO-request.json",
+      "request_sha256": "db72af6a63fd97be0046c73b0865bf2f7769fc052b8dce56a38fdd6360fc04f5"
+    },
+    {
+      "workflow": "serre-R880-six-branch-source-intake.yml",
+      "request_path": "topics/serre-uniformity/notes/R880-six-branch-source-intake-request.json",
+      "request_sha256": "b847fdf3f7a97a9d053f201ae0a6b4b474cd27faa756fd826d0ee179fa43633a"
+    }
+  ]
 }
