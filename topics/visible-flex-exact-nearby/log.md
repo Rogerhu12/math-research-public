@@ -180,3 +180,9 @@ root完整独核18,114B/19f0182fb19cb3842948ee427993f7478af0557f2ec790c7c2f8ce58
 root全文27,396B/bb7dff28独核所有cut/source/jump/waist符号及HS/block权；另fresh读FA35,718B/2985b74e与SJexecution46,318B/2540a3a8之原实际成功门和相关fields，连同完整SW scope逐项核11旧ball字符串均原字。Tail正式核1–2/4/7并回SW/SJ/PC/IN，Phase正式核3/5–6。固定cut ζ<1只是原记录的定性有理比较；FA all-positive-argument theorem并未被否定。critical n^-2/3 cut和χ′width无免费gain，原有限transition范围/mean/两sign/J和positive修正一项不删。
 
 新的目标须同物理行整signed tuple；尚未构造更宽uniform U或求新有效误差，更未解physical finite/ν/非线性。继续该实质构造而非停在建议。此结论独推，read 3d373ffd7c70370dc5a52b1312a3c750c63da499两README未变。
+
+## 2026-11-16 04:14:09 UTC — WFI 真graph域、完整紧误差及96有限账
+
+root全文23,476B/7abf7f41独核real相位basis、graph闭性与dense core、真实finite投影列/dual和紧嵌的精确方向；Newton正式核3–5/13–26，Tail正式核2/6–7。L2入graph来自Mbar L2有界而非只靠L2⊂H−1；E仅在真实子域，不虚造全圆扩张。Dtrue→H−1仅有界，紧的是下一H−1→H−4/3。完整physical E/meanrank都留，actualrow index−96；只投hightarget要保96条actual输出式，补真96physical列只调index，不当reference已是解。
+
+全系数固定同δ*，不给其它s/背景/νchart或wholePDE Fredholm资格。继续正确graph参数化与真finiteborder、实际源控制。此结论独推，read 713d0afc89b88995b94d9fa747b4027c0375072b两README未变。

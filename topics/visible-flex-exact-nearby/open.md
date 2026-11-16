@@ -58,7 +58,9 @@ $(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$，
 
 [WTS完整过渡替换与强窗阶数](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)bb7dff28：原Q大预算的qstar不含Js；即使改善三源，旧PC仍是该positive recipe的大项，并非真operator下界。新$V_\chi=V+(U-V)\chi$严格保新cut、ordinary source、所有3070jumps和waist term；只在same实际stable/head/rest及原source域下用positive graph uniqueness。critical $\rho_n\sim n^{-2/3}$没有频率衰减，$\chi'$乘宽度不免费；whole received列须$p>11/6$（HS），有true block界可用$p>4/3$。当前继续构造明确uniform U和完整PC/ST4同signed tuple的新界，不能靠删旧upper或重跑旧source。
 
-**当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。实现真实transported finite complement的全部行/列/交叉及匹配square，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
+[WFI实际graph与有限指数账](results/R133-supplement-graph-domains-and-finite-index-ledger-for-the-reflected-waist-row.md)7abf7f41：显式real低96 reference只补模型，先由Mbar在L2有界证明L2入graph；真transported96列落graph、dual在H−1有界，故Dtrue闭余维96。whole E只在真实子域经H−1紧嵌H−4/3，实际同齐次高列→whole反射primitive target Fredholm index=−96。投影到ordinary high target得到index0仍须96条真实低输出式；新增96真物理列也只给index0，不授span cokernel/ker0/逆。source/target必须运输实际graph，independentmean/ν/head/radial及fullPDE仍独立。
+
+**当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。WFI已闭真实transported补在graph上的有界性与指数账；仍须实际physical有限列、全部输出交叉、pairing及匹配square逆，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 
 ### 2b. 已付系数、坐标与原强界
 
