@@ -1,0 +1,178 @@
+name: Read retention7publication complete terminal scopes once
+on:
+  push:
+    branches: [visible-flex-retention7publication-complete-scopes-once-20261116]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: retention7publication-original-terminal-logs-once
+  cancel-in-progress: false
+jobs:
+  collect:
+    name: Bind retention7publication and read each original terminal job log once
+    if: github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      matrix: ${{ steps.collect.outputs.matrix }}
+      meta: ${{ steps.collect.outputs.meta }}
+      p00: ${{ steps.collect.outputs.p00 }}
+      p01: ${{ steps.collect.outputs.p01 }}
+      p02: ${{ steps.collect.outputs.p02 }}
+      p03: ${{ steps.collect.outputs.p03 }}
+      p04: ${{ steps.collect.outputs.p04 }}
+      p05: ${{ steps.collect.outputs.p05 }}
+      p06: ${{ steps.collect.outputs.p06 }}
+      p07: ${{ steps.collect.outputs.p07 }}
+      p08: ${{ steps.collect.outputs.p08 }}
+      p09: ${{ steps.collect.outputs.p09 }}
+      p10: ${{ steps.collect.outputs.p10 }}
+      p11: ${{ steps.collect.outputs.p11 }}
+      p12: ${{ steps.collect.outputs.p12 }}
+      p13: ${{ steps.collect.outputs.p13 }}
+      p14: ${{ steps.collect.outputs.p14 }}
+      p15: ${{ steps.collect.outputs.p15 }}
+      p16: ${{ steps.collect.outputs.p16 }}
+      p17: ${{ steps.collect.outputs.p17 }}
+      p18: ${{ steps.collect.outputs.p18 }}
+      p19: ${{ steps.collect.outputs.p19 }}
+      p20: ${{ steps.collect.outputs.p20 }}
+      p21: ${{ steps.collect.outputs.p21 }}
+      p22: ${{ steps.collect.outputs.p22 }}
+      p23: ${{ steps.collect.outputs.p23 }}
+      p24: ${{ steps.collect.outputs.p24 }}
+      p25: ${{ steps.collect.outputs.p25 }}
+      p26: ${{ steps.collect.outputs.p26 }}
+      p27: ${{ steps.collect.outputs.p27 }}
+      p28: ${{ steps.collect.outputs.p28 }}
+      p29: ${{ steps.collect.outputs.p29 }}
+      p30: ${{ steps.collect.outputs.p30 }}
+      p31: ${{ steps.collect.outputs.p31 }}
+      p32: ${{ steps.collect.outputs.p32 }}
+      p33: ${{ steps.collect.outputs.p33 }}
+      p34: ${{ steps.collect.outputs.p34 }}
+      p35: ${{ steps.collect.outputs.p35 }}
+      p36: ${{ steps.collect.outputs.p36 }}
+      p37: ${{ steps.collect.outputs.p37 }}
+      p38: ${{ steps.collect.outputs.p38 }}
+      p39: ${{ steps.collect.outputs.p39 }}
+      p40: ${{ steps.collect.outputs.p40 }}
+      p41: ${{ steps.collect.outputs.p41 }}
+      p42: ${{ steps.collect.outputs.p42 }}
+      p43: ${{ steps.collect.outputs.p43 }}
+      p44: ${{ steps.collect.outputs.p44 }}
+      p45: ${{ steps.collect.outputs.p45 }}
+      p46: ${{ steps.collect.outputs.p46 }}
+      p47: ${{ steps.collect.outputs.p47 }}
+      p48: ${{ steps.collect.outputs.p48 }}
+      p49: ${{ steps.collect.outputs.p49 }}
+      p50: ${{ steps.collect.outputs.p50 }}
+      p51: ${{ steps.collect.outputs.p51 }}
+      p52: ${{ steps.collect.outputs.p52 }}
+      p53: ${{ steps.collect.outputs.p53 }}
+      p54: ${{ steps.collect.outputs.p54 }}
+      p55: ${{ steps.collect.outputs.p55 }}
+      p56: ${{ steps.collect.outputs.p56 }}
+      p57: ${{ steps.collect.outputs.p57 }}
+      p58: ${{ steps.collect.outputs.p58 }}
+      p59: ${{ steps.collect.outputs.p59 }}
+      p60: ${{ steps.collect.outputs.p60 }}
+      p61: ${{ steps.collect.outputs.p61 }}
+      p62: ${{ steps.collect.outputs.p62 }}
+      p63: ${{ steps.collect.outputs.p63 }}
+    steps:
+      - name: Bind three authored metadata sources then read the two original logs once
+        id: collect
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          python3 -u - <<'PY'
+          import base64,hashlib,json,os,pathlib,sys
+          import urllib.request as U
+          REPO="Rogerhu12/math-research-public"
+          SOURCES=[{"file":"visible_flex_terminal_scope_parser.py","bytes":13241,"sha256":"3b7d9ede1f92f6a81c72e8fcc19a1215c19fc718903a574a8cd294355f9d3c11","blob":"da835d7b4710d5599f6efcf4dbdad0ec904dec6c"},{"file":"visible_flex_terminal_scope_transport.py","bytes":18414,"sha256":"1747be65e1442ed4268aa3df33a6192fe1e1bbb8a1c657a13ad7b20b72f1dc97","blob":"709bc71ce0358be8aaca52eccd440d4fc2ba06fa"},{"file":"retention7publication-terminal-reader.json","bytes":527,"sha256":"3d05b9e967ad0f00aadfb7170d99c5fd33a2ceb7b90916f2cba6b488fcfaa583","blob":"20cfb9346818eb624f58c5da9821b0e152943822"}]
+          if os.environ["GITHUB_REPOSITORY"]!=REPO or os.environ["GITHUB_RUN_ATTEMPT"]!="1":
+              raise RuntimeError("fixed-public-repository-and-first-reader-attempt")
+          class NoRedirect(U.HTTPRedirectHandler):
+              def redirect_request(self,*args,**kwargs): return None
+          opener=U.build_opener(NoRedirect)
+          headers={"Authorization":"Bearer "+os.environ["GITHUB_TOKEN"],
+                   "Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",
+                   "User-Agent":"retention7publication-authored-metadata-source-bootstrap"}
+          target=pathlib.Path(os.environ["RUNNER_TEMP"])/"retention7publication-once-complete-scopes"
+          target.mkdir(mode=0o700,exist_ok=False)
+          bound=[]
+          for source in SOURCES:
+              url="https://api.github.com/repos/"+REPO+"/git/blobs/"+source["blob"]
+              with opener.open(U.Request(url,headers=headers),timeout=120) as response:
+                  value=json.loads(response.read())
+              if value.get("encoding")!="base64" or value.get("sha")!=source["blob"]:
+                  raise RuntimeError("exact-authored-source-blob-response")
+              raw=base64.b64decode(value["content"])
+              sha=hashlib.sha256(raw).hexdigest()
+              gitsha=hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\0"+raw).hexdigest()
+              if (len(raw)!=source["bytes"] or sha!=source["sha256"]
+                      or gitsha!=source["blob"]):
+                  raise RuntimeError("complete-authored-source-bytes-and-two-identities")
+              path=target/source["file"]
+              with path.open("xb") as stream: stream.write(raw)
+              bound.append(source)
+          print("RETENTION7_PUBLICATION_TERMINAL_READER_SOURCE_BINDING "+json.dumps(
+              {"sources":bound,"original_log_requests_before_source_binding":0,
+               "source_is_only_standard_library_metadata":True},
+              sort_keys=True,separators=(",",":")),flush=True)
+          os.execv(sys.executable,[sys.executable,"-u",
+              str(target/"visible_flex_terminal_scope_transport.py"),
+              "--config",str(target/"retention7publication-terminal-reader.json")])
+          PY
+  scope:
+    name: Whole terminal scope ${{ matrix.slot }}
+    needs: collect
+    if: always() && needs.collect.outputs.matrix != ''
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix: ${{ fromJSON(needs.collect.outputs.matrix) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Display this whole scope once and verify its received bytes
+        env:
+          SCOPE_EXPECTED: ${{ toJSON(matrix) }}
+          SCOPE_PAYLOAD: ${{ needs.collect.outputs[matrix.slot] }}
+        shell: bash
+        run: |
+          python3 -u - <<'PY'
+          import hashlib,json,os
+          expected=json.loads(os.environ["SCOPE_EXPECTED"])
+          received=os.environ["SCOPE_PAYLOAD"]
+          def identity(raw):
+              return {"bytes":len(raw),"sha256":hashlib.sha256(raw).hexdigest()}
+          raw_display=received.encode("utf-8")
+          if identity(raw_display)!=expected["display_identity"]:
+              raise RuntimeError("actual-whole-environment-display-identity")
+          prefix=expected["begin"]+"\n"
+          suffix="\n"+expected["end"]
+          if not received.startswith(prefix) or not received.endswith(suffix):
+              raise RuntimeError("actual-complete-administrative-display-delimiters")
+          payload=received[len(prefix):-len(suffix)].encode("utf-8")
+          if identity(payload)!=expected["payload_identity"] or len(payload)>90000:
+              raise RuntimeError("actual-complete-original-scope-bytes-and-SHA")
+          # The runner already displays SCOPE_PAYLOAD in its environment group.
+          # Do not print it a second time. This is an administrative display,
+          # not a fabricated original BEGIN/END event or a new scientific result.
+          print("RETENTION7_PUBLICATION_TERMINAL_SCOPE_DELIVERY "+json.dumps({
+              "schema":"retention7publication-whole-scope-environment-delivery-v1",
+              "slot":expected["slot"],"kind":expected["kind"],
+              "scope_id":expected.get("scope_id"),
+              "payload_identity":identity(payload),
+              "display_identity":identity(raw_display),
+              "actual_received_bytes_verified":True,
+              "whole_body_display_location":"SCOPE_PAYLOAD in runner environment group",
+              "body_not_printed_again_on_stdout":True,
+              "original_source_or_science_not_executed":True,
+              "no_new_scientific_success_or_quiet_claim":True},
+              sort_keys=True,separators=(",",":")),flush=True)
+          PY
