@@ -122,3 +122,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R887（完整纸证，实际消费者继续）**：[原共同cusp翻转与避开P0的有界代表](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)。原J_C仅限制418个V2列得完整146核；旧第252行选uC，真实两锚rank962及完整关系/投影才得C*418。原D_C−H=−(C*−H)+div(uC/τ²)，Qf正乘后ρ阶−1205、原t首项乘c^1205；三272代表均避P0，七项Norm保−7C*与全原主因子。五Lj128/144与height仍缺。
+
+
+**R886（完整证明）**：[原两旗theta下降与原split收缩](results/R886-original-two-flag-theta-descent-and-split-contraction.md)。原正product极化、第二conjugation反辛号与原τ给有限平坦L/L′、真实(type6,6)商及36维U_L；π*s↔s⊗1固定乘法空间，Gauss常数精确−p，Γ_h(s)=−p·s⊗原Phi0h。真实整反向C_h=−p(p²−1)ell_h，C_h=C_hP2h，C_hΓ_h=p²(p²−1)，原CM平均给C_hA_hΓ_h=p²N_h，保Legendre因子和det扭曲。原S_FG收缩已具体定义；未证除p整、critical Taylor比较/第五lift或q-normal单位，R884障碍保留。
