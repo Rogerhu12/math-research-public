@@ -174,3 +174,9 @@ root完整独核18,114B/19f0182fb19cb3842948ee427993f7478af0557f2ec790c7c2f8ce58
 前置白名单已推5762e2a6444b7e44f6a3529379f674e45d2baee2。Tail另独立全文小proof/producer与WAD完整活动闭包核通过；全部7 current roles、14旧球和9whole scope无candidate basename。此条fresh main 5b4814f97d0a5c35015a67450d8d59d75e068743路径/size/blob精确guard后仅普通删除notes/2026-11-13-R46-actual-leaf0060-integer-energy10-v2.json：ad627bc4d082c455aa2adae4a810a8aec8a01791，296883B，原整SHA b5ddf7396fadbd7b8e8d29bbcaff0d242116837e5ccd72d8d6f80adc9e45443a，restore44f19c4fa4da49cb8be164b8527efcb0d8f4345f同path。
 
 未读大正文、未执行旧producer、未删native/definition/candidate/source/proof/失败；此报告仍仅原leaf0060 family/window成功，whole strict/turning/return/highcut及R133未付门全保。两README未变。
+
+## 2026-11-16 04:10:56 UTC — WTS 完整过渡tuple与真实负窗gain门
+
+root全文27,396B/bb7dff28独核所有cut/source/jump/waist符号及HS/block权；另fresh读FA35,718B/2985b74e与SJexecution46,318B/2540a3a8之原实际成功门和相关fields，连同完整SW scope逐项核11旧ball字符串均原字。Tail正式核1–2/4/7并回SW/SJ/PC/IN，Phase正式核3/5–6。固定cut ζ<1只是原记录的定性有理比较；FA all-positive-argument theorem并未被否定。critical n^-2/3 cut和χ′width无免费gain，原有限transition范围/mean/两sign/J和positive修正一项不删。
+
+新的目标须同物理行整signed tuple；尚未构造更宽uniform U或求新有效误差，更未解physical finite/ν/非线性。继续该实质构造而非停在建议。此结论独推，read 3d373ffd7c70370dc5a52b1312a3c750c63da499两README未变。

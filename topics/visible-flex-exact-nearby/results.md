@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WTS：完整源审计与频率过渡替换](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)（08ec2cc5289729dcbfb3de3ebc5799ba8f7dce95，27396B，SHA256 bb7dff28f8f8f0064029a63622b2a8ef949894733fa06384c8c3b4b084dbb94d）。完整trial替换的cut/source/jump/waist恒等，same-positive-graph stable/head/rest资格，以及whole column p>11/6、true dyadic-block p>4/3充分强窗门明确。11旧球原字核；critical Airy cutoff无免费频率增益，PC positive-recipe floor非operator下界。仅新解析合同，未造uniform U/新小误差/finite inverse，0数值。
+
 - 2026-11-16 — [WBP：双边反射腰部坐标的多项式界](results/R133-supplement-polynomial-two-sided-reflected-waist-normalizer-bounds.md)（54f859b305861a1c4be4be7826c059e1e4ffc3e8，18114B，SHA256 19f0182fb19cb3842948ee427993f7478af0557f2ec790c7c2f8ce5849015a7e）。新target B与source A的G-skew给同distributional两窗真逆poly；完整收集余项的sign commutator仅含vi，Qa后aux常数精确消，physical density mean-rank及whole E∂全保。新left-coordinate不同于WBN，不能跨坐标min。全式仍符号，192/96真补、high/finite/ν/背景门未解；0数值。
 
 - 2026-11-16 — [WAD：完整物理腰行伴随与已存第一行接收](results/R133-supplement-complete-adjoint-physical-waist-row-and-saved-first-row-receiver.md)（1dfa6d56a249157b27d23d6249fb451cb9fdb6d0，28366B，SHA256 0a92e2e5e5c1f0e1e93bc509ad5883d20630ad9909be3b33eaff7546f641702a）。精确adjoint保全部mean/非局部和gauge项，反射折叠后才取完整row范数。保存ST正reverse第一行给新whole receiver符号式，所有原PC/ST4/cut/三源/3070jumps/waistFT保；14旧record有准确路径，新9球未求值，不授可用inverse/finite/ν门。0数值、旧成功不重。

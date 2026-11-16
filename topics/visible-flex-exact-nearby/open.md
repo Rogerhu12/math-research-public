@@ -56,6 +56,8 @@ $(2K_{\rm CY})C_J\Lambda_J^{-1/3}<1$，
 
 [WBP多项式双边坐标](results/R133-supplement-polynomial-two-sided-reflected-waist-normalizer-bounds.md)19f0182f给显式不同target $\mathcal B=1+\mathcal T_wI$：两侧同G-skew构造皆真onto且L2/H−4/3同逆poly，不调用旧NPK指数。完整$R_{ss}=F_{v_i}-M_{c_i}I\mathcal T_\alpha I-\nu\mathcal T_wI^2$先函数级收集，再由Qa精确消aux常数；实际$(h-1)\rho_i$不是常数，不能删。actual $\mathcal B^{-1}\mathcal B_\partial W^{-1}\mathcal A$保W改动、whole E∂和真transported有限补。两个whole candidate属于此同一坐标才能选；不与WBN不同left-normalized remainder直接min。全部界仍符号。
 
+[WTS完整过渡替换与强窗阶数](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)bb7dff28：原Q大预算的qstar不含Js；即使改善三源，旧PC仍是该positive recipe的大项，并非真operator下界。新$V_\chi=V+(U-V)\chi$严格保新cut、ordinary source、所有3070jumps和waist term；只在same实际stable/head/rest及原source域下用positive graph uniqueness。critical $\rho_n\sim n^{-2/3}$没有频率衰减，$\chi'$乘宽度不免费；whole received列须$p>11/6$（HS），有true block界可用$p>4/3$。当前继续构造明确uniform U和完整PC/ST4同signed tuple的新界，不能靠删旧upper或重跑旧source。
+
 **当前须闭合：** WBN/WBP已给完整非恒定first coefficient归约及可选多项式坐标；仍须对真实waist second normalizer/mean ranks、W输入改动及全部physical error取得可用的同一个whole strong E界。实现真实transported finite complement的全部行/列/交叉及匹配square，再付正确高尾门和完整finite/mean/ν块。禁止用Ti同空间Fourierχ、单paid subtotal或坐标像的定义代physical onto。所有独立radialhead/source/exterior/amp与trueν仍保。
 
 ### 2b. 已付系数、坐标与原强界
