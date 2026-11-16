@@ -2,54 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0749-R874-cyclic-p-scales-and-original-source-intake",
-  "commit_message": "serre: prove actual cyclic-p quotient and KS scales; retain required original sources",
-  "rules_last_read_commit": "52ea8f96e8bee2817a76f7a0368b8bea6e536585",
+  "request_id": "20261116-0750-source-intake-rules-syntax-repair",
+  "commit_message": "serre: repair the public source intake rules script and resume required IO",
+  "rules_last_read_commit": "1099f319ec76e3bd33761c5b997f553f89e9f603",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "5366d3d8f165e8e202847c01283c356c8924d96d0167e9ea4136475e4aa6d6e0",
+  "expected_previous_request_sha256": "205cdf61357fd977b5e4ae865d2a34b54404b5e20239419e243a373f879c6a83",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md",
-      "sha256": "6ca20e6c92b83c3ed9149b2d4b19f7c77c0855c8529c6b6b05650f88046c4d43",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/serre_public_artifact_source_intake.py",
-      "sha256": "bc07f13ff87f92dd1460ed753a5bded7c8cb78029ec05176f2ce2652886f0ce4",
-      "expected_previous_sha256": null
+      "path": ".github/workflows/serre-source-artifact-intake.yml",
+      "sha256": "3c046c2899fa1f96ec6349cf8150aae9cfb68aa99f2763f3f6f293b2011a185b",
+      "expected_previous_sha256": "5f5e23187a11c98dbd55ff408e7e40ec065d396eddf66d35927aa6ccff9a6695"
     },
     {
       "path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
-      "sha256": "db160e8a3dcf93d78cae91020031bea44acfcfcbc513ac858db9ee07d0c564a9",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-source-artifact-intake.yml",
-      "sha256": "5f5e23187a11c98dbd55ff408e7e40ec065d396eddf66d35927aa6ccff9a6695",
-      "expected_previous_sha256": null
+      "sha256": "68134dab95275b0231f23d83313ea17ed686a528f92715e6fc672a9dc3f2ed14",
+      "expected_previous_sha256": "db160e8a3dcf93d78cae91020031bea44acfcfcbc513ac858db9ee07d0c564a9"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "9fc69bf98ffacbf20e6f8d9eac24e018029118741e46995ce3a21d68374c75c2",
-      "expected_previous_sha256": "cc6e3e3ee3757b7ad9bb366a5155a3672a5a055bcdd8be0f1e5757cb236dad16"
-    },
-    {
-      "path": "topics/serre-uniformity/open.md",
-      "sha256": "2f51db1cc890ed9d159d80db7ff347f4e4c3dffa90fabaa7c387acfca8bb66bb",
-      "expected_previous_sha256": "c6bb0e255af6ae8d641d76f595468ab549b3c26544de6cf0b058a0b2c9cb22fb"
-    },
-    {
-      "path": "topics/serre-uniformity/results.md",
-      "sha256": "d9ff71bbe2cc332463c69e86cc667f236a81945ac475bcb98c70d2386b16462d",
-      "expected_previous_sha256": "a3ac0abf04e32ee31eb0b11b1735c6f506332032a2d009ce35a59f740650fcf5"
+      "sha256": "0311810253ce2946172a439ad15a0e954366adf6381cf1cf611cb3dcba87a8e9",
+      "expected_previous_sha256": "8c6e9e494d91d0cc33f8f4f7188c269a52a68cc78c4609fed02f9c9d0d5de761"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "a8414e3bd30bd9e092fd33961836c05c92711ed689e759649cb12fc61b1b1d3c",
-      "expected_previous_sha256": "640eae223442fbbb369439674a9cf65db6dd91ffacc334e7453277a74e4128f1"
+      "sha256": "251fc80bbe25995bc18a370157ce82a39f016fd2c01caa1b10b5c147dd91146f",
+      "expected_previous_sha256": "51068051aaa5f0eadc889b3f2a41e517f577fedb57da709d96221555f46df020"
     }
   ],
   "dispatch_workflows": []
