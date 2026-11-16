@@ -2,40 +2,76 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0925-R884-original-sigma-functional-pole",
-  "commit_message": "serre: prove the exact first-pole obstruction on the original enlarged theta lattice",
-  "rules_last_read_commit": "a8b508b7d2b8e925e97ebcfc269e2cfb53578d38",
+  "request_id": "20261116-0929-R882-certified-and-R880-bounded-consumer",
+  "commit_message": "serre: certify common-place cyclic-seven coefficients and activate bounded original divisor inputs",
+  "rules_last_read_commit": "b379ea09e5cb74f9087553ad8b23477d3fed2c3d",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "7efd847676f1945801a17e735d7c0db0dc626ba8a3b7e4c9c70165e776e9bec4",
+  "expected_previous_request_sha256": "63cb110f2461a0aa264c0fff7c3a45673bd64eb329c8db6f97bc380c309e6019",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R884-original-enlarged-theta-lattice-coefficient-pole.md",
-      "sha256": "aee35fc2b3ae991b06e0a857dc4dbe3423a1001d9cdf8b1fd220330fc8a749c9",
+      "path": "topics/serre-uniformity/results/R882-certified-original-cyclic-seven-common-place-coefficients.md",
+      "sha256": "fee7df0899489d0a2a9190f2fc81f9873f54eb8c19db1284b5eec683991d9a5c",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R880_original_D_and_cusp_bounded_RR_inputs.py",
+      "sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R880_public_original_D_and_cusp_bounded_RR_inputs.py",
+      "sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md",
+      "sha256": "529443f81c0c1b57d8dfdc80008c9e4ee7c4b6bca5f3c7f00ff64841a7a8aac2",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R880-D-cusp-bounded-RR-public-request.json",
+      "sha256": "7e472299b4337645933dfcbcd8df5547414a07e019164b7ff577d54963109575",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R880-D-cusp-bounded-RR-inputs.yml",
+      "sha256": "12a04332495681786ef06aa54a3416448e179671bfe444ec8342f1971ea06b88",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-common-place-success.md",
+      "sha256": "412d7077da927f543f619595e035e3face05add5f540bc1fae82174253f4a6e9",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "eef92d58f76c2877a89df653df4a5c970161c09cbb293178e10a2ec93ddf7651",
-      "expected_previous_sha256": "60db89ac6e0653fdc6465f74b2a8e7c665ee71c9561dac71f905fd9558dcb0c3"
+      "sha256": "23951e3147837a86aa33ccddbdb4859a6d0abb9385fdb795852e35365b04caca",
+      "expected_previous_sha256": "412d7077da927f543f619595e035e3face05add5f540bc1fae82174253f4a6e9"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "9f1bca0f0ae048d8142c7b964b480c9ccf4620839c2d5f41ad3163841fcdc229",
-      "expected_previous_sha256": "9fdd3d75bf9d32a6139c159efe0de057956750da1f9f2ba9b045d3d94df1d8aa"
+      "sha256": "52b1322f9a2ce33c60ede14c511d74c4f502d76b71743bff14b4c30bf2e38e17",
+      "expected_previous_sha256": "9f1bca0f0ae048d8142c7b964b480c9ccf4620839c2d5f41ad3163841fcdc229"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "f7559d2ed035e82c4ccfd0e3c394bd09336cd328a6876600b9e8ca2f291571fb",
-      "expected_previous_sha256": "cf29363ad9d8c67147b38b04101b77085f767aedb036ca9b5c985ae25ea6cc09"
+      "sha256": "429f619b6c471decaf49aee202561a812f215925b8636c02c5ac5c83ec7b6043",
+      "expected_previous_sha256": "f7559d2ed035e82c4ccfd0e3c394bd09336cd328a6876600b9e8ca2f291571fb"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "5cb771646a5bd82bf7f7094ad2ff1c811680e26e4b9884edc1912cf8733445e2",
-      "expected_previous_sha256": "9812cc73e4045a07d7ffd672b95c163baa87e42c30157df500b7cdb0dcbc9b41"
+      "sha256": "14119d91ea19131278e687751dbbb61e276fc3d903ce374904ec551f312e4403",
+      "expected_previous_sha256": "f8b2b3662720b82c1a04f9d4ed50c824e73625a835f60853806a1f7ab9b000ec"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R880-D-cusp-bounded-RR-inputs.yml",
+      "request_path": "topics/serre-uniformity/notes/R880-D-cusp-bounded-RR-public-request.json",
+      "request_sha256": "7e472299b4337645933dfcbcd8df5547414a07e019164b7ff577d54963109575"
+    }
+  ]
 }

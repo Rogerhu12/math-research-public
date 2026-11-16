@@ -111,3 +111,8 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R884原sigma泛函的扩大格障碍已证明**：[完整证明](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)，SHA256 aee35fc2b3ae991b06e0a857dc4dbe3423a1001d9cdf8b1fd220330fc8a749c9。每个原critical F/G指数均有真整global monomial section，仍在原μ6角色中，实际p倍值模p为−6B，故泛函值赋值恰−1。只用原R702有限首pole块；不把反证外推至原H0(6O)或指定torus投影源，后者继续核。R882实际43839076365/job133202998079/sourcecb2385cc已进新数学步；未登记结果。
+
+
+**R882同处17系数实际已成**：[正式结果](results/R882-certified-original-cyclic-seven-common-place-coefficients.md)。run43839076365/job133202998079/sourcecb2385cc，38.702301378s；p753处旧2058行det377243004、新逆双侧通过、全2200×17回代。final717768f0/17列5c79985f/artifact14211339984/3adfa484（Nov17 09:24）；旧344MBcarrier与q/norm原算术不重。目标整纤维/九Norm/η支持/height仍未做。
+
+**R880首scope激活**：[执行方法](notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md)，coreca46e8f9/wrapper3a888af1，复用六组944原件，先共同cusp418再269→146→D*418及Qf。字段chosen_local_parameter按实际源修正；新秩/核/run待实际读，不预填五Lj或height。

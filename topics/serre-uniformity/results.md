@@ -239,3 +239,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R884 原扩大theta整格上critical sigma泛函的首pole已证明**：[完整证明](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)，SHA256 aee35fc2b3ae991b06e0a857dc4dbe3423a1001d9cdf8b1fd220330fc8a749c9。对每个critical F/G指数给真整global monomial，pole≤p+6，原μ6角色保留；原R702有限截断直接给p倍值−6B，赋值恰−1。只否定扩大格上无条件积分性，未否定原六维源、指定torus投影或same-h判据；无新素数扫描或数学计算。
+
+
+- **R882 原循环7的17系数在同一辅助素点实际完成**：[正式结果](results/R882-certified-original-cyclic-seven-common-place-coefficients.md)。run43839076365/sourcecb2385cc，38.702301378s；p1000000753处2058旧选行det377243004、完整新逆两侧及全2200×17关系通过。同一准确系数合法运输，final717768f0/artifact14211339984/3adfa484；目标Artin代数/九范数/支持/height仍未算，旧norm与q尾不重。

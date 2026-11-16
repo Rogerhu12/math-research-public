@@ -1,0 +1,402 @@
+{
+  "schema": 1,
+  "session": "serre-public-astra-20261115",
+  "request_id": "20261116-R880-original-D-cusp-bounded-RR-first-scope",
+  "result": "R880-original-D-and-cusp-bounded-RR-inputs",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "all_new_mathematics_only_in_public_Actions": true,
+  "core": "R880_original_D_and_cusp_bounded_RR_inputs.py",
+  "core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+  "wrapper": "R880_public_original_D_and_cusp_bounded_RR_inputs.py",
+  "wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+  "workflow": ".github/workflows/serre-R880-D-cusp-bounded-RR-inputs.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md",
+  "method_sha256": "529443f81c0c1b57d8dfdc80008c9e4ee7c4b6bca5f3c7f00ff64841a7a8aac2",
+  "proofs": {
+    "R880": {
+      "path": "notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md",
+      "sha256": "5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e"
+    },
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R845": {
+      "path": "results/R845-certified-original-D-pencil-and-eight-pole-generators.md",
+      "sha256": "e365e82958d540fa503776e847f34f01911381b913409e0096a2ffffbeba9460"
+    }
+  },
+  "budget_minutes": 300,
+  "maximum_trials": 4,
+  "resume": null,
+  "rules_last_read_commit": "b379ea09e5cb74f9087553ad8b23477d3fed2c3d",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "intake": {
+    "run_id": "43836403210",
+    "source_commit": "9070cb76eb300d4c00e3c29f1536a368b8035e88",
+    "artifact_id": 14210454548,
+    "artifact_name": "serre-R880-pencil-jet-cusp-source-intake-43836403210-1",
+    "archive_bytes": 75882449,
+    "archive_sha256": "18f0849433899c479918cd95913048945b7c050b61b7505752c405a2f43758f2",
+    "expected_conclusion": "success",
+    "expires_at": "2026-11-17T09:04:22Z",
+    "request_sha256": "590f53c005359906dc1d1069cf56510528c7e8ae2f994bb9f0b4c50dbae96864",
+    "source_index": {
+      "file": "intake-source-index.json",
+      "bytes": 5718,
+      "sha256": "6a0e7d6880fb5538275bc3f9161d048ecb0b612c3bd611b797f01e8fe134fb52"
+    },
+    "bundles": {
+      "R827": {
+        "file": "R827-intake-selected-original-sources.tar.gz",
+        "bytes": 10193309,
+        "sha256": "02fd60b89bb1c3412cea1c81d6d9c93408cc705158250e49412ccf59ab88656c"
+      },
+      "R845": {
+        "file": "R845-intake-selected-original-sources.tar.gz",
+        "bytes": 23108380,
+        "sha256": "e4fb2cc76b01e63202f2047b5bd92936b41385ff5f0f1d878740fca678cecc6f"
+      },
+      "R872": {
+        "file": "R872-intake-selected-original-sources.tar.gz",
+        "bytes": 23880757,
+        "sha256": "f8ce7d72ceb1b6fcc97c660014c814b5f427f65394341472e9b1aeaac7baa01f"
+      },
+      "R820": {
+        "file": "R820-intake-selected-original-sources.tar.gz",
+        "bytes": 13211273,
+        "sha256": "df8c70fd254f7323bf22488a76910c4751e6c4f5fbafcdf2f715b09723ac6a23"
+      },
+      "R849": {
+        "file": "R849-intake-selected-original-sources.tar.gz",
+        "bytes": 368737,
+        "sha256": "6eeba209ab1994510b27eca6a5cfac743dee59f3cfdbfd4a341be7211ec4dd4e"
+      },
+      "R842": {
+        "file": "R842-intake-selected-original-sources.tar.gz",
+        "bytes": 4150936,
+        "sha256": "c9ff0b481a1edc35b857713b717287f1698ec8bdf250518d2e15b8d624b30b89"
+      }
+    }
+  },
+  "sources": {
+    "R845": {
+      "result": "R839-original-D-pencil-and-eight-generator-pole-ideal",
+      "run_id": "43780953543",
+      "source_commit": "a43b6afad1ffdbcb0357eda63b7683df3c5d2c93",
+      "core_sha256": "601b0b5aeb89d3d37ef6f74151f03a15f92cc5724fbb8574cc6c87f533158b4b",
+      "wrapper_sha256": "8be3fb61034da689bbc4bbe8e30f2c69f062c561f034b10a078dc69553fd9e95",
+      "manifest_sha256": "8bef49bfa53a00f1bdce31c947e030d92ff5abbae15d0115587f9cf869486099",
+      "manifest_bytes": 9206,
+      "manifest_file_count": 53,
+      "selected_math_and_metadata_count": 48,
+      "expected_selected_file_count": 50,
+      "configuration_sha256": null,
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate_name": "p41-original-D-pencil-and-pole-ideal-certificate.json",
+      "configuration_stage_name": null,
+      "accepted_checkpoint_exit_codes": [],
+      "file_pins": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 9805,
+          "sha256": "2204716ffc09930039c91673a8f3029a36e6df125c5a666ed617593362a88477"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 462,
+          "sha256": "2065900bca623092c68c80c1b6139437ad26a00393e46a56fefc45d403464451"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 547,
+          "sha256": "df08b097bd726b2841f93ac89962d992b149cf36e52d97d10a56d813974b385e"
+        },
+        "p41-original-D-pencil-and-pole-ideal-certificate.json": {
+          "file": "p41-original-D-pencil-and-pole-ideal-certificate.json",
+          "bytes": 322708,
+          "sha256": "1e71a62ce53d64791ed672591d52d792307e3931dbe0eeea78bed42cee266692"
+        }
+      }
+    },
+    "R872": {
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "wrapper_sha256": "2b3d0763196eb48714cb336ff0f504a6e1718e86bca08ef597ddb22602533ce5",
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "selected_math_and_metadata_count": 305,
+      "expected_selected_file_count": 307,
+      "configuration_sha256": null,
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate_name": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+      "configuration_stage_name": null,
+      "accepted_checkpoint_exit_codes": [],
+      "file_pins": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 41228,
+          "sha256": "ecf32387354172ca539bb0317fa2adc5bfd491c94853e72fa6f29d228bf5b2b4"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 457,
+          "sha256": "93e8b01010a79052a4088419857e38baa374ad23a28757e83818ebf19824567f"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 11213,
+          "sha256": "0babf613fd38963cf3c0aace5ddbfa16f3e8baec84323931c7c5826e4c4c5ede"
+        },
+        "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json": {
+          "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+          "bytes": 17961,
+          "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+        }
+      }
+    },
+    "R827": {
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d",
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "selected_math_and_metadata_count": 11,
+      "expected_selected_file_count": 13,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate_name": null,
+      "configuration_stage_name": "R827-original-W-g-h-reductions.json.gz",
+      "accepted_checkpoint_exit_codes": [
+        124
+      ],
+      "file_pins": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 14624,
+          "sha256": "e2ba71d79b50f92f463c6efcfca091ef230bfd9b37e1e8962edc5d4734099583"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 441,
+          "sha256": "41716f65f5e0e9596aed3aaff0487c0ca736517ea904ee6d741adf8aba59de0e"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 378,
+          "sha256": "80657e1877ebea560fca06ecc808ede7541c42cc9672955cb25203b4ded5611a"
+        }
+      }
+    },
+    "R820": {
+      "result": "R820-original-cusp-finite-algebra-and-ideals",
+      "run_id": "43721747750",
+      "source_commit": "7890fde180ffabee056de2ce8dd241b189a893a2",
+      "core_sha256": "25f5582ed0c6dae2cf29d5eb288469067c09d917bfe1f565fb042978ea9b173c",
+      "wrapper_sha256": "64da695501afe93d1e41987cc1932d6f8fb58795fe085bbab6b242140157af65",
+      "manifest_sha256": "2877dd3dbe604f07a58c8774897085d1de90a6faa38a6d2ed78a5bb9d7f79a8f",
+      "manifest_bytes": 154422,
+      "manifest_file_count": 598,
+      "selected_math_and_metadata_count": 552,
+      "expected_selected_file_count": 554,
+      "configuration_sha256": "882b413cb404ee39142757680b5598831fa8a6ae63fb75223fd4d7128ae6736f",
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate_name": "p41-original-cusp-finite-algebra-ideals-certificate.json",
+      "configuration_stage_name": null,
+      "accepted_checkpoint_exit_codes": [],
+      "file_pins": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 5399,
+          "sha256": "75bc663ccb8446a8d4ead55548d3a61aaff1337b36fc1afcdbc08dc1cc3bcc85"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 529,
+          "sha256": "b8e9812a01b7eb80288f02795ea151c1224f97ca611885d549568c021239aa55"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 510,
+          "sha256": "821543753c4c54cd8b053c08e156ef9f04526d12fb4e37ec7e03ef4bdc803c29"
+        },
+        "p41-original-cusp-finite-algebra-ideals-certificate.json": {
+          "file": "p41-original-cusp-finite-algebra-ideals-certificate.json",
+          "bytes": 6047,
+          "sha256": "a2e629d05d561e1144e6989612213b33990075400a21f7c1c2f0c2eb825152b4"
+        }
+      }
+    },
+    "R842": {
+      "result": "R839-original-two-chart-short-RR-spaces-and-D-kernel",
+      "run_id": "43776927742",
+      "source_commit": "ccc94341bcab2c33e4732fcb9d6bce517b6243f3",
+      "core_sha256": "6fe0a0d3f37592b1ac3081a8347a205503de41cdd54e41a05529c837a7b3c73e",
+      "wrapper_sha256": "f27a4585deb43880e162b337a9c6b39528086ce864ea12e17c23192cbb260d2a",
+      "manifest_sha256": "5bb824d2697e369af3a65ff76cdbe2029ce92d153723c4f5012288118d36e1ba",
+      "manifest_bytes": 18828,
+      "manifest_file_count": 111,
+      "selected_math_and_metadata_count": 7,
+      "expected_selected_file_count": 9,
+      "configuration_sha256": "7597a9d59b4f8fb08548891a298d76cbc745a72245b6e9cb35f973a25ee4fcc4",
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate_name": "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+      "configuration_stage_name": null,
+      "accepted_checkpoint_exit_codes": [],
+      "file_pins": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 4510,
+          "sha256": "3ce9053a15ce6ffab2d6195d3a7a0bf0a0eae097f3ccae68cb65dc83d8b61f16"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 461,
+          "sha256": "88ac7c4f2b5887280dafac4181274a9c45a0188cafd853ed385c0476048d88ef"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 726,
+          "sha256": "c9ed32d199f9bc744f7248c8840beef91cd99bf29c1e441442b32bfb223278a9"
+        },
+        "p41-original-two-chart-short-RR-and-D-kernel-certificate.json": {
+          "file": "p41-original-two-chart-short-RR-and-D-kernel-certificate.json",
+          "bytes": 507973,
+          "sha256": "51dff9f0b9fff3117b93a4281c21c0cf37a487c0b09bc88a18f8ffdb80d878fe"
+        }
+      }
+    },
+    "R849": {
+      "result": "R839-original-global-addition-polar-ideal-DAGs",
+      "run_id": "43790410670",
+      "source_commit": "391191590dcb8bcc6f8f2d777610726fa79dc2a3",
+      "core_sha256": "544241acf5f3451df34c779d513ea6494616d4d4caa26cd2531749edc895aea7",
+      "wrapper_sha256": "39bef61981f6c2193e64cd1797331a0ce9340ed468fc93dc785d8994c8d2a541",
+      "manifest_sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd",
+      "manifest_bytes": 2144,
+      "manifest_file_count": 12,
+      "selected_math_and_metadata_count": 9,
+      "expected_selected_file_count": 11,
+      "configuration_sha256": "87a0e26e7b0c6677905313753e4e2a36ea82e9e6a33d6f32d6d6cf7616e13183",
+      "derive_configuration_from_pinned_original_stage": true,
+      "certificate_name": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+      "configuration_stage_name": null,
+      "accepted_checkpoint_exit_codes": [],
+      "file_pins": {
+        "public-actions-input.json": {
+          "file": "public-actions-input.json",
+          "bytes": 10997,
+          "sha256": "53938ac9f7d05cbc7fed1d2d0d766e589bf6147387f03d20e88aff4bf3812f82"
+        },
+        "run-receipt.json": {
+          "file": "run-receipt.json",
+          "bytes": 495,
+          "sha256": "2815230bf89b9ef47112236b39f38a39675dcc74c4b15790da577f8593a5428f"
+        },
+        "core-receipt.json": {
+          "file": "core-receipt.json",
+          "bytes": 6600,
+          "sha256": "b36e1ce4447c9d785dda5b0c0e47238e362d5f8dd1bb1330e91e2a96f8c9c132"
+        },
+        "p41-original-global-addition-polar-ideal-DAG-certificate.json": {
+          "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+          "bytes": 7447,
+          "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+        }
+      }
+    }
+  },
+  "input_selectors": {
+    "old_rank": {
+      "source_group": "R845",
+      "file": "R839-pole-candidate-000001-five-fiber-rank.json.gz"
+    },
+    "old_sections": {
+      "source_group": "R845",
+      "file": "R839-pole-candidate-000001-sections.json.gz"
+    },
+    "old_normal_index": {
+      "source_group": "R845",
+      "file": "R839-pole-original-V3-normal-index.json.gz",
+      "bytes": 112114,
+      "sha256": "19bc45e50852072815408114d0f4c890fcff971368fb94057a26d58d9cd8639a"
+    },
+    "old_alias_audit": {
+      "source_group": "R845",
+      "file": "R839-pole-original-source-and-alias-audit.json.gz"
+    },
+    "old_pole_DAG": {
+      "source_group": "R845",
+      "file": "R839-pole-original-D-and-Ey-eight-generator-DAG.json.gz"
+    },
+    "D_basis": {
+      "source_group": "R842",
+      "file": "R839-original-D-unit-kernel-basis.json.gz"
+    },
+    "D_matrix": {
+      "source_group": "R842",
+      "file": "R839-original-D-short-kernel-matrix.json.gz"
+    },
+    "point_jets": {
+      "source_group": "R872",
+      "file": "R872-point-jets-index.json.gz",
+      "bytes": 18398,
+      "sha256": "8966690eabe3c1f8ca1e35aa28437ef869ec63c9977ff1fef1dcc07733b527b9"
+    },
+    "point_linearization": {
+      "source_group": "R872",
+      "file": "R872-point-linearization.json.gz"
+    },
+    "V2_jets": {
+      "source_group": "R872",
+      "file": "R872-V2-original-point-jet-matrix.json.gz"
+    },
+    "chi_divisor": {
+      "source_group": "R872",
+      "file": "R872-original-fixed-chi-divisor-and-section-source.json.gz"
+    },
+    "chi_kernel": {
+      "source_group": "R872",
+      "file": "R872-pencil-trial-000001-complete-fixed-chi-kernel.json.gz"
+    },
+    "chi_anchor": {
+      "source_group": "R872",
+      "file": "R872-anchor-u.json.gz"
+    },
+    "cusp_reduction": {
+      "source_group": "R827",
+      "file": "R827-original-two-chart-C-reduction.json.gz",
+      "bytes": 79991,
+      "sha256": "4b5d3828f164a2b8db43ee4227938b03a7d78acbe26aaff39b5dfb2b2fce09fd"
+    },
+    "place_audit": {
+      "source_group": "R827",
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "bytes": 4261,
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883"
+    },
+    "W_reduction": {
+      "source_group": "R827",
+      "file": "R827-original-W-g-h-reductions.json.gz"
+    },
+    "global_DAG": {
+      "source_group": "R849",
+      "file": "R839-global-polar-exact-global-function-and-five-polar-expression-DAG.json.gz"
+    }
+  },
+  "mathematical_scope": "original_Dstar_418_and_common_C_252P0_418_with_exact_unit_solve_definitions",
+  "old_products_or_Hensel_jets_repeated": false,
+  "original_five_Lj_RR128_or_144_requested": false
+}
