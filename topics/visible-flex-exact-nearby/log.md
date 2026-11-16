@@ -348,3 +348,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ### 2026-11-16 06:20:35 UTC — WGS complete finite-jet contract
 
 WGS4d3638fe全件28978B已核并独推，strict/root分域、完整N/O/ϑHD forcing及ordinary-dr free transport全保；旧jet只读，4501+20924历史stage仅自身Actions临时恢复，旧formatter失败未改。新数/后半mean-J-jump-四端仍待。README于a8ed544806e6b86ba4cfee436caad1011b2ecae1核两blob无变；06:15:48本地真pull尝试仍无executor，未冒成功，持续下一新计算。
+
+### 2026-11-16 06:25:47 UTC — one new WSP/WCF public consumer
+
+已推完整8current/2AST/0history包：source8c7ab51d、workerbd13fdc9、manifest11690e1b、budget4a09b719；唯一新4graph/49slot、全部PCRA55533B原样保，旧数学0。新增共享.github/workflows/fourfold-codazzi-positive-cutoff-schur-parseval-public.yml（2a2366a1）仅为自身公开Actions一次新计算、真pull/README与容量检查；静态闭包已核，未在本机算数学，run随后记。README于01614a9cbbc2ce1cfe93318915dee05292dc586a两blob未变，继续global/mean/endpoint。

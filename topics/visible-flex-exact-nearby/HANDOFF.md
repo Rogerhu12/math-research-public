@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 06:20:35 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 06:25:47 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 06:15:48定时真CLI尝试仍无executor（未执行Git），下一本地尝试≤07:15:48。最新CI真pull为43812987299/1于11-16 05:52:33.863065→05b386115aa5ba1d63caf008ee8890977b6f288b，三次pull均两README空diff；exec77451f44全件已核。下一真pull≤06:52:33；ref读取不冒真pull。
-最近只读README核：a8ed544806e6b86ba4cfee436caad1011b2ecae1；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：01614a9cbbc2ce1cfe93318915dee05292dc586a；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -29,7 +29,7 @@ WUA/WUR/WUB/WES/WUE已闭同root genuine全real的N6+4、完整ordinary/3070jump
 WFR cb72cb37精确RF trace finite factor以386/384/192真实维数进辅助border，非96physical列；可从high范数直接分出，全部真U/V/高低cross/Θ/ν/means保，未授inverse。
 WCF452ee9e4将同Dalg精确拆D∞+FJ/两primitive ranks−(h−1)ρi+(h−1)ell2；2431/可选1119仅aux载体。D∞两完整twoI直接新正费无Ph，ell2新dual仍保；接WFR/WGB全cross/Θ/96physical/ν，不授矩阵逆，新数待。
 PCRAf2b1e603：WPC/WCE唯一43812987299/1/22门/7graph成功锁，SCIe2cb2aac/55533、exec77451f44/14961、reportb2950e6f；same Rplus选1.0395639775…e30、same Dalg仅selected投影选2.1334995458…e10。10current/2AST/42+3原record/5scope/90slots含复制全保；WPC原χ/两row/volume/FH/root、WCE full-density/两rank/mean/TF after-right/twoI/Js不可省。后续只读，old0/history0。
-WSP80d28207同positive矩阵ROW点值/COLUMN固定j Parseval、L128分和、sqrt(RC)全output/mean，直接读PCRA D0/D2/CX/Jwords/Kχ；新wholepositive待唯一Actions，不重旧图。
+WSP80d28207同positive ROW点值/COLUMN固定j Parseval、L128分和、sqrt(RC)全output/mean；WCF直接D∞与ell2不同于旧Dalg，不比较旧Calg。联合唯一新包：source8c7ab51d/59662、workerbd13fdc9/64789、manifest11690e1b/12474、budget4a09b719/8046、flow2a2366a1/4830；8current/5math/2AST/0history，一child，31field/16gate/18progress/4graph/49slots其中45新record、5power/6sqrt。PCRA完整55533B逐字嵌入，旧图零重算。包推送触发公开自身Actions，run待记；atomic全SCI/preGit先打印，same-input partial禁止重启，若失败只按真实保留图与H逐项lost复核。静态model含全部旧与新图，128B/record成功72029B、完整失败74933B；不是数学输出。
 WUI2a77f1cd原全DAG保。WGS4d3638fe已闭前半：strict真flow/根regular quotient、Φ/X/T I(15,3)、w0 I(14,3)、完整−L0w0 I(12,1)、free w1 I(12,2)；旧flow/cut phase≤4、旧local w1≤(2,3)只读，新增完整Bell/forcing/ordinary dr transport。4501fold+20924free-radius仅Actions临时恢复；原formatter失败资格原样保，不改成功。新数待；WEJ后半完整mean/J负窗/jump/四端仍写，global高门/finite/core未闭。
 WAD43803459418/1/16门/9球成功锁；raw整界4.7487985998848693668…e83，仅原natural→raw，不冒WPL归一化新数；SCI77d17dad/exec588b9c73/report0a2eb042与完整旧失败链保档。BT/RI/UT/SWA/NWA/NPKA及all-s/tame原scope全保；继续完整物理square/γ/ν/finite/非线性matching。
 
