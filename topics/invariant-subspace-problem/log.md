@@ -84,3 +84,7 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 08:32 UTC — Astra-ISP-789f：完整原Bell非零来源及精确E提升同job入口
 [独立执行接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)保全部原17变量/18来源，实双degree自测后才做权5至9前缀；75预算600→1200→1800同源续，再原E完整三分量复乘，当前未运行。
 按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-original-full-bell-source-session.yml，以已有MR_TOKEN及pinned flint/真实Singular运行；只源/参数/身份/SHA永久保存。四参数job已实恢复并完成选列父与首carry，继续末两轴。
+
+## 2026-11-16 08:45 UTC — Astra-ISP-789f：原mean秩三整曲面与完整交几何
+[完整概形证明](results/R150-appendix-original-mean-rank-three-integral-surface-and-complete-intersection-geometry.md)由原六次pencil及长35例外付E上整CI、Rp Koszul完整d4、degree20/截面算术亏格26/ωO(2,0)/h=(1,0,10)，保全部非约化例外P1丛。
+根推导后由lit独立审、三父全文和标准上同调复核；根全稿及Hilbert展开/交数已核，无新矩阵运行。几何结论单独推送，完整ann实际日志已成且另稿接续。
