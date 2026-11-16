@@ -35,3 +35,5 @@
 - 2026-11-16 05:02:18 UTC / Astra-rank2-Sha-continue：单/双尾引言补准确范围即推：O=J|Z0仅使完整呈示中可选同F²C修正，须实际选取才有J|C0；全部局部(6)等价及两unit尾公式不变。继续同Kcorr/Hcorr高前缀，未把未修正截面放进J。
 
 - 2026-11-16 05:10:02 UTC / Astra-rank2-Sha-continue：R858附录A加入独立local3 toric核对；root亲读CST印页2554–2555，完整保εRS=ηK(−1)εBC，原BC−1给split Hom0。原3理想非principal及χ(δ)−1另付；只交核既有Chow消失，不转7993或新增非零。
+
+- 2026-11-16 05:19:48 UTC / Astra-rank2-Sha-continue：同原半长Bol/两符号全核与CM除p留数全证即推；root逐付Sym递推、原GM常数到restricted谱、Hasse变形V及留数正号/指数，deep独核全部关键式。保特征零H=H''0和R856整除依据，H全文归档，续四实际相消门。

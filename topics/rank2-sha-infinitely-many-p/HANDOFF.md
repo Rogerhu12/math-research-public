@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：72954f776cd79214c0e5c554e61c4d1984108a9b；2026-11-16 05:02:19 UTC核两README无变。实际CI pull 2026-11-16 04:49:26 UTC/3b85ae2e5df089252a7aad380060fa1d4c051720（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 04:49:15 UTC仍无环境。最迟2026-11-16 05:40 UTC再实际pull。
+- 最近已读规则提交：52401d9d160857bd5a79e6d918882a4275776cea；2026-11-16 05:19:49 UTC核两README无变。实际CI pull 2026-11-16 04:49:26 UTC/3b85ae2e5df089252a7aad380060fa1d4c051720（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 05:10:06 UTC仍无环境。最迟2026-11-16 05:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -13,7 +13,7 @@
 
 ## 完整检查点与分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-horizontal-theta.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-half-bol-residue.md)、[完整open](notes/2026-11-16-open-before-hn-source-cost.md)沿链保所有旧公式/条件/来源，未撤任何门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
 R1–363、365–560、562–653、655–711、713–858已登记；R364/R561/R654/R712与主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者。deep续I+J实际联合交/真W_T（保ann_Z(f2)）；theta续四指定Rν的R855除p行共同约束；literature续R858同原泛纤维迹及R854指定cycle对应。R852原Chow逆、R853同源Cartier、R854真CM收缩、R855全热连接均已成稿。
 
@@ -37,9 +37,8 @@ S34/T72/U136/V66的charge17/36/68/33、39carry/十二尾/末quartic及通常全S
 [固定torsion原注](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)保原M/P2,M/CM13全frame及p²/p³全极。p幂+exact联合式与无权C³固定帽已付，但旧Δf可保C²/C³而改首行，不保四指定Rν。固定K(X)^pV范围已排，不能代R853的p依赖输入。
 [R853](results/R853-original-weighted-cartier-return-and-fixed-logarithmic-line.md)：原加权η全极/C³固定帽L=9/18/34/17及C⁴η=−α^(1/p⁴)(x²/y)ω已付；唯一ρ̄=α^(1/p³)dlog(t/(1−t))/6+dH。四原η̄仍同J_p/Θ_p/四fν；指定A_m简单根与M=1范围保前检。只读原首行，四α同时零仍开，续真实共同Θ_p约束。
 
-[R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)：whole V_m的完整H_m热连接与整核I=ker ε上B=j_(p+1)/p、α=−B全证；仅εmodp0不良定。双变量递推保二次势，L2Ha|CM=c_p及D^(p−1)x=−c_p；不冻结g2。原四m=34/72/136/66和C⁴读数相认，四B共同零仍开。
-
-R855§§9–11付共同六sigma A24/28及四质量1伙伴，四B=同B(A24)+实际低jet反对角配对，balanced热项不删。[R856](results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)全偶格D^pA=Ha DA+m(L2Ha)zA与四指定j_(p+1)/p双变量整、权p−5已付。§§7–8原Hasse缺陷R_p整，L2²R_p|CM=110bc_p单位；全D_k非齐次热递推保横向/g2/模p²初始，原四D1共同零仍开。
+[R855](results/R855-original-full-heat-connection-and-canonical-divided-jet.md)保whole H_m、整核I=ker ε上的B=j_(p+1)/p及α=−B；仅εmodp0不良定，原四m/全部C⁴读数不变。共同A24的六sigma绝对/28与四质量1伙伴10/48/112/42、全低卷积/相对balanced项已付。四B共同零仍开。
+[R856](results/R856-original-full-hurwitz-frobenius-recurrence-and-universal-divisibility.md)给全偶D_z^pA=H D_zA+mCzA、全block及四双变量整商权p−5。Hasse缺陷R=(D²H+g2H/12)/p整，CM处R/g2²=55cp/(576b)、D²R=110bcp单位。全部除p D_k非齐次热递推保横向/g2/模p²初始；较晚p+7单位和110单位均不代四指定D1。
 
 [同角色整germ及附录A/B](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)保完整JΦ=QΦJ、Gaussian整Γ_h、coverℓ^r和同degree49m两独立源；其中央导数全好p自动零来自局部因子，不代primitive非零或预算。
 
@@ -48,9 +47,11 @@ R855§§9–11付共同六sigma A24/28及四质量1伙伴，四B=同B(A24)+实�
 
 [固定代数水平格与四函数](notes/2026-11-16-algebraic-horizontal-theta-frame-and-original-divided-rows.md)：whole H_m有先于p的代数水平基（含odd列），原惰性p上H_m^p0。同纤维冻结坐标给四固定fνflat，保全部物理jet，P处恰三阶零且D³=90/mν³。原B=(2mν)^N(T_N fνflat)(P)/p，两ε与全GM半密度/模p²初始保；只点上整除p，三零不迫四B非零。
 
+[原半长Bol与除p留数](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)：T_N模p=Sym^nGM，δ=H²D有δ^p=H^(2p)δ，两ε核交仅H^nF^p。保特征零a_H=a−pR/H的整修正V_N；原CM精确B=2mε[N!C^(N+1)Res(fνflat ω/H^(N+1))/p−V_Nfνflat(P)]。留数整除p来自原R856，非三零；原四实际相消未排。
+
 ## 同R、三真长窗和指定总类
 
-完整原式/局部块/十九角在上方[完整H](notes/2026-11-16-frontier-before-horizontal-theta.md)沿链保留。M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、全部WD余列不变；TM=s−r−13与TJ=s−r不混，同R/normal/两13/d₂不拆。
+完整原式/局部块/十九角在上方[完整H](notes/2026-11-16-frontier-before-half-bol-residue.md)沿链保留。M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、全部WD余列不变；TM=s−r−13与TJ=s−r不混，同R/normal/两13/d₂不拆。
 R834/836的(F,e)单位块、R837三长7q(H−r)≤3BD²+56D/两长4q(H−r)≤3BD²+32D保原预算；自然47/12仍q1/2。R840完整ann_Z(f2)给O及dim(I∩J)=dim kerO；原J与三长核交0不代I+J总核。负全水平β_-(a)=[V_a0]规范，同G0=F0²C0−F0V_a0，O的z_-值行恒零。正水平全unit、负核τ/e；O=J|Z为同F²C修正可选条件，未修正J|Z0不等于J|C0；完整非水平O_Q0 iff W_C−W_t(Q)τ∈x^(2m)，m2单尾/其余双尾已付。所有奇点/∞/固定角与d因子保。
 剩余须同Kcorr/Hcorr付两高前缀，再同F²L1付第三3η镜轴/第四短行；交表示K不冒Kcorr，最后同cF³不能逐行另取。R842第一层满射后指定[b0]∈cokerLT≅WT∨仍未知。
 R813/822原γ/6单位及γ/6+GF+BF=0保全边界。R842负全trace/Jacobian商、moving转置/全mask、十九角、t1严格门、h7仅有限Y、正侧2Uτ/U及JmodP²、跨p W项、同P补偿仍开；mask不知属QT。

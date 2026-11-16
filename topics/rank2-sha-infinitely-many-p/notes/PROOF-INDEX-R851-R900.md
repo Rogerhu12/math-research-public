@@ -54,3 +54,6 @@
 
 
 - [固定代数水平theta基与四条原除p行](2026-11-16-algebraic-horizontal-theta-frame-and-original-divided-rows.md)：完整theta/eta正规给whole H_m的固定代数水平基，连同全部odd列、有限单值性和整étale覆盖；m2另有明确根式。原惰性p上全连接H_m^p=0，但不杀除p缺陷。固定同一CM纤维的水平坐标后，四实际Rν唯一运输为四个先于p的代数fνflat，保所有物理jet，且f=Df=D²f=0、D³f=90/mν³。四原B准确为(2mν)^N(T_N fνflat)(P)/p；全半密度Riccati、两Legendre符号、模p²初始与共同伙伴保留，三阶零不代四除p值非零。
+
+
+- [原半长Bol、两谱及CM除p留数](2026-11-16-original-half-bol-and-cm-divided-residue.md)：原n=(p−1)/2半长T_N模p恰为GM的Sym^n算子；以δ=H²D准确T_N=H^(−n−2)δ^N H^(−n)，原Pp给D^(p−1)H^−2=−1及δ^p=H^(2p)δ。两ε核全分解为H^n(F^p⊕Vε)，交H^nF^p；原四函数各有真非零符号份额但不代B非零。特征零a_H=a−pR/H给整V_N=(G_N−T_N)/p及全递推；CM准确H=H''0、Cunit付G_Nf(P)=N!C^(N+1)Res(fω/H^(N+1))。四原B=2mε[该留数/p−V_Nf(P)]，两项整性用原R856而非三零，仍须排实际相消。
