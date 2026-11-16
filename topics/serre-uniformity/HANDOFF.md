@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：5f5257d576d45a3d1bbdd0037225394f32384671**（2026-11-16T00:32:05.802558+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[本次点与极理想启动前H](handoff-archive-2026-11-16-before-Hom-word-and-pole-launch.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：5319b1cd38dc60817ebff9cd4965378ccb7244b1**（2026-11-16T00:36:53.537971+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R844前完整H](handoff-archive-2026-11-16-before-R844-certified.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -25,7 +25,7 @@
 
 **准确前置已成、不重算**：[R835](results/R835-certified-original-order4-termination-and-reduced-D.md)真I4=C、D约化/K1；[R837](results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md)原146CM值、U397与两锚共同零恰C20+P0（p000009真1213minor）；[R838](results/R838-certified-original-second-derivative-ideal-and-minimal-order3.md)真J2=I2/E2=C20+D、P0∉D、完整I3=C且最小阶3。全部run/source/artifact/hash逐字保[本次双图前H](handoff-archive-2026-11-15-before-R839-two-chart.md)及各正式结果；不再开q3或旧导数/旧两锚/旧前缀。三个结果均非D坐标/eta/height。
 
-**R842原两图短RR与D完整基已成**：[正式结果](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)run43776927742/job133005301364/sourceccc94341，35.966809456秒/101stage；实际T11秩2451/det483777893、T5秩415/det628817039、D秩395/det422341556，原H0(3H−D)295准确单位解基及全830乘回已成。final51dff9f0/manifest5bb824d2/config7597a9d5；artifact14186901203/9a4b0b02至Nov16 23:52:18，2919原源carrier115.52MB/a1f8b947。原D基ec71c061、D矩阵42e09dcc、S5矩阵1c1647ea已纯IO取。首τ2431不足/源修正e9269c0e保留；仅续20σ列4..9和81移位、旧矩阵/0..3/S5逆不重。准确展开坐标/eta/height仍false；后继真实D极理想。
+**R842两图短RR/D完整基已成**：[结果](results/R842-certified-original-two-chart-RR-and-D-unit-kernel.md)run43776927742/sourceccc94341，35.966809456秒；原T11/T5/D秩2451/415/395，295准确单位解基及全830乘回已成。final51dff9f0/artifact14186901203至Nov16 23:52:18，2919源carrier115.52MB/a1f8b947。基ec71c061/矩阵42e09dcc/S51c1647ea已读；旧τ2431不足与两图修正保留，旧算术不重。展开/eta-height false，全部pins见结果和归档。
 
 **R840/R841原点接口已成**：[R840](results/R840-certified-original-implicit-CM-value-and-first-jet.md)原准确四响应与518位14支单位，final5de210b5/artifact14185198226；[R841](results/R841-certified-original-CM-point-and-descent-DAG.md)原β_C=(3h0Q/N,A0/B0)、f_R点与50node准确DAG，final52b80ce2/artifact14185648917。所有原v/κ/T7、单位非零、run/source/hash/carrier逐字保上方归档及正式结果。展开坐标/抽象A前像/eta-height仍false，旧CM/Dixon不重。
 
@@ -33,9 +33,9 @@
 
 **短CM候选的准确接受仍缺A.1**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；原F_Aᵗλ/Cᵗλ全乘回与129×20转置卷积接口保留，无现成Q逆/dual高度界。[小L七条件已全部准确通过](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)：run43777163403/sourceea5996fe，0.048331866秒/2stage，原q/d共轭、非零、x̂³和微分均true；final4d9a6ec5/manifestce1d0e39，artifact14186558953/4683b467到Nov16 23:53:10。原A.1、原点坐标接受、旧R792 success、eta/height仍false，不重本七条件。
 
-**R843原p41点非挠已证**：[正式结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/job133009730596/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518真实响应给m999960637，实际[m]P的t赋值1/绝对精度518（x−2/515,y−3/514），Qell好约化形式群无挠证原P非挠。原β∈A(Q)及R728 EndQ为域再给所有非零L-Hom值非挠，原同靶加法正负分支由Hom字可判。finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f至Nov17 00:06:16，185源carrier1.256MB/dd6bb50b。全1.90MB/69件纯IO；不重518/44步/BSGS。A.1/展开/eta-height仍false。 [Hom字后继接口](notes/R792-original-Hom-word-point-DAG-after-nontorsion.md)39880a1f只取R791五个g_j=(1+T^j)f，五次真点加法/七共轭/原实下降/比较函数值；非零分母凭同点非挠和原字，完整σ作用所有叶，Norm不删Nb/b7，待实际DAG产物。
+**R843原p41点非挠已证**：[结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518给m999960637，44步后真实t赋值1/A518，Qell形式群无挠证原P非挠。原β∈A(Q)/Q-simple给全部非零L-Hom值非挠及原字正负分支；finale4f926d3/artifact14187431986至Nov17 00:06:16，185源carrierdd6bb50b。原算术不重，A.1/展开/eta-height false。
 
-**原Hom字消费者已激活待真产物**：core719c170a/wrapperbb0cce85/request3d36761a/workflow0e33bba7；251件原源含R843真实非挠66件与185父载体，旧50node逐字导入。只五原g_j点/七σ及比较函数DAG，30min；所有展开/A.1/全局极除子/eta-height仍false，run43780702248/job133017074300/source5ebcfafb已结束，待读真实产物。
+**R844原五Hom点与比较函数值已成**：[结果](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)run43780702248/job133017074300/source5ebcfafb，0.022079987秒/3stage/529nodes含原50逐字节点；原五g_j=(1+T^j)f及指定下降/七σ分量/原R_j(c1)准确DAG全部完成。五次真secant分母凭R843同点非挠与原Hom字，完整σ作用/常数保留。final57a2e3ec/program97a8fb3f/manifestb21b40d4/configfbbcb472；artifact14188376841/dd4c04a1至Nov17 00:30:22，251源carrier1.816MB/479f587a。完整13成员已纯IO；旧CM/非挠/Hom不重，A.1/展开/全局五极除子/刚性化/eta-height仍false。
 
 **原D铅笔与八生成元已激活待真产物**：[完整证明](notes/R839-original-D-pencil-and-eight-generator-pole-ideal.md)ccf70498、[执行契约](notes/R839-original-five-fiber-pole-pencil-method.md)f8bc9d63。R842原295单位解基；共同零D+Z时V3²乘法秩1111−degZ，五旧纤维只需真1111下界，原u/v给八个V11生成元。I_Ey=I_ℬ I_D³；实下降正乘I_EyR=(y²−b)I_Ey³，先前逆号已更正。
 

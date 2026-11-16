@@ -116,3 +116,6 @@
 
 
 - **R843（原p41点非挠实际已证）**：[真实CM点非挠及Hom值分离](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)。run43778335282/sourcea7d3c0f6，0.854057531秒/59stage；沿旧518真实商/h0及原branch0，Hasse-BSGS m999960637消原约化点，44个有精度仿射步给v(t)=1/A518，x−2/A515、y−3/A514，Qell好约化形式群无挠证原P非挠。原Q点β与Q-simple再给全部非零L-Hom值非挠、正负加法分支由准确Hom字判定。finale4f926d3/manifest2ed1269a，artifact14187431986/9adbba8f；旧CM/Dixon/RR不重，A.1/expanded/eta-height仍未成。
+
+
+- **R844（实际准确点表达式完成）**：[结果](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)run43780702248/job133017074300/source5ebcfafb，0.022079987秒/3stage/529nodes含原50逐字节点；原五g_j=(1+T^j)f及指定下降/七σ分量/原R_j(c1)准确DAG全部完成。五次真secant分母凭R843同点非挠与原Hom字，完整σ作用/常数保留。final57a2e3ec/program97a8fb3f/manifestb21b40d4/configfbbcb472；artifact14188376841/dd4c04a1至Nov17 00:30:22，251源carrier1.816MB/479f587a。完整13成员已纯IO；旧CM/非挠/Hom不重，A.1/展开/全局五极除子/刚性化/eta-height仍false。

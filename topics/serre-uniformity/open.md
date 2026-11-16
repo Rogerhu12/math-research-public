@@ -4,7 +4,7 @@
 
 **R843原p41点非挠已证**：[正式结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/job133009730596/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518真实响应给m999960637，实际[m]P的t赋值1/绝对精度518（x−2/515,y−3/514），Qell好约化形式群无挠证原P非挠。原β∈A(Q)及R728 EndQ为域再给所有非零L-Hom值非挠，原同靶加法正负分支由Hom字可判。finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f至Nov17 00:06:16，185源carrier1.256MB/dd6bb50b。全1.90MB/69件纯IO；不重518/44步/BSGS。A.1/展开/eta-height仍false。 [Hom字后继接口](notes/R792-original-Hom-word-point-DAG-after-nontorsion.md)39880a1f只取R791五个g_j=(1+T^j)f，五次真点加法/七共轭/原实下降/比较函数值；非零分母凭同点非挠和原字，完整σ作用所有叶，Norm不删Nb/b7，待实际DAG产物。
 
-**原Hom字消费者已激活待真产物**：core719c170a/wrapperbb0cce85/request3d36761a/workflow0e33bba7；251件原源含R843真实非挠66件与185父载体，旧50node逐字导入。只五原g_j点/七σ及比较函数DAG，30min；所有展开/A.1/全局极除子/eta-height仍false，run待实际读取。
+**R844原五Hom点与比较函数值已成**：[结果](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)run43780702248/job133017074300/source5ebcfafb，0.022079987秒/3stage/529nodes含原50逐字节点；原五g_j=(1+T^j)f及指定下降/七σ分量/原R_j(c1)准确DAG全部完成。五次真secant分母凭R843同点非挠与原Hom字，完整σ作用/常数保留。final57a2e3ec/program97a8fb3f/manifestb21b40d4/configfbbcb472；artifact14188376841/dd4c04a1至Nov17 00:30:22，251源carrier1.816MB/479f587a。完整13成员已纯IO；旧CM/非挠/Hom不重，A.1/展开/全局五极除子/刚性化/eta-height仍false。
 
 # 未解决的问题
 
