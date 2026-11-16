@@ -1,0 +1,130 @@
+{
+  "schema": "R553-actual-prefix-tube-metric-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_prefix_tube_metric_source_view.py",
+    "bytes": 8288,
+    "sha256": "a75c5d6028aa1899ce73ad887f7248b19f1024dad9555073118c8d2724b9fc4c"
+  },
+  "baseline": {
+    "file": "geometry_20261116_recomputed_C_fixed_target_metric_evidence.py",
+    "bytes": 65229,
+    "sha256": "18a96d962da2fc3010e0b52144030a72e506bb6860fed7a953d94ac65b8e4a32"
+  },
+  "helpers": [
+    {
+      "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+      "bytes": 24412,
+      "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+    },
+    {
+      "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+      "bytes": 18782,
+      "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+    },
+    {
+      "file": "geometry_20261115_shared_active_interval_balls.py",
+      "bytes": 33310,
+      "sha256": "675ab8dffaaa86dd7a760dba8502d03d83f04fed15e88224c13da35a4151514b"
+    }
+  ],
+  "output": {
+    "file": "geometry_20261116_prefix_tube_complete_metric_evidence.py",
+    "bytes": 68077,
+    "sha256": "a077da3833ce0f7844631441c235e123fcceab2a3a8e6a4638f6776a9ba4442f",
+    "schema": "R553-same-target-prefix-tube-and-complete-metric-evidence-v1",
+    "frame": "R553_PREFIX_TUBE_COMPLETE_METRIC_EVIDENCE"
+  },
+  "replacements": [
+    {
+      "before": "\"\"\"R504 actual same-target metric evidence with recomputed-C tail queries.\n\nKeep the full R495/R459 operator-norm, complete-domain coverage, common-material\nphase transfer, real nested t witnesses and interval comparison. The actual\nR489 query members and retained recomputed source panels now enter the ONE\noriginal live query path through R500. Original factory C identities remain\nseparate, all fields and target parameters stay fixed, and no extra clock,\nacceptance gate, evidence threshold or source-global mutation is introduced.\nOnly public Actions executes arithmetic; no actual bound or success is preset.\n\"\"\"",
+      "after": "\"\"\"R553 actual complete prefix tubes beside full same-target metric evidence.\n\nThe complete R504/R459 metric, same-C head/live queries, common-material phase\ntransfer, exact operator norm and original DFS predicates remain unchanged.\nOne optional observer now consumes the SAME actual prefix target return and\nthe bound field's entire rational Hermite coefficient set. It certifies a\njoint coefficient/scalar/angle box before calling the original R521 majorants.\nEvery failed or unfinished tube remains unpaid; it never changes a metric,\nBVP, native, FD, fullDN or refinement acceptance condition.\n\nAll field modes, both means, closed endpoints, reflections and original\nfrontier responsibilities survive. These are bounds for the actual accurate\nquintic reference, not a substituted original solver cubic or FFT error proof.\nOnly the named public Actions executes arithmetic under the original clock.\nAuthor: geometry agent (AI), 2026-11-16.\n\"\"\"",
+      "count": 1
+    },
+    {
+      "before": "SCHEMA = \"R504-same-accurate-closed-target-recomputed-C-metric-evidence-v1\"",
+      "after": "SCHEMA = \"R553-same-target-prefix-tube-and-complete-metric-evidence-v1\"",
+      "count": 1
+    },
+    {
+      "before": "SUMMARY_LIMIT = 90000",
+      "after": "SUMMARY_LIMIT = 90000\nPREFIX_TUBE_NAME = \"geometry_20261116_actual_prefix_coefficient_tube_majorants.py\"\nPREFIX_TUBE_SHA = \"81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b\"\nPREFIX_TUBE_SCHEMA = \"R553-actual-complete-prefix-coefficient-tube-majorants-v1\"",
+      "count": 1
+    },
+    {
+      "before": "        self.refined = self.prefix_range = self.Bridge = None",
+      "after": "        self.refined = self.prefix_range = self.Bridge = None\n        self.prefix_tubes = None",
+      "count": 1
+    },
+    {
+      "before": "        TailQuery, self.sources[TAIL_QUERY_NAME] = load_source(data[\"computations\"], TAIL_QUERY_NAME, TAIL_QUERY_SHA)",
+      "after": "        Tube, self.sources[PREFIX_TUBE_NAME] = load_source(data[\"computations\"], PREFIX_TUBE_NAME, PREFIX_TUBE_SHA)\n        require(Tube.SCHEMA == PREFIX_TUBE_SCHEMA, \"The actual complete-prefix tube observer differs\")\n        TailQuery, self.sources[TAIL_QUERY_NAME] = load_source(data[\"computations\"], TAIL_QUERY_NAME, TAIL_QUERY_SHA)",
+      "count": 1
+    },
+    {
+      "before": "        cfg = cp.native_configuration\n        self.tolerances",
+      "after": "        self.prefix_tubes = Tube.BoundPrefixTubes(self.current,\n            angular_count=self.resolution[\"field_angular_quadrature\"],\n            sqrt_bits=work[\"sqrt_bits\"], budget_check=self.budget.check,\n            actual_checkpoint=cp.receipt, actual_expression=self.members[\"accurate_field\"])\n        self.sources[Tube.MAJORANT_NAME] = self.prefix_tubes.majorant_source\n        cfg = cp.native_configuration\n        self.tolerances",
+      "count": 1
+    },
+    {
+      "before": "            jets, radial_metric, target_record = self.prefix_range.closed_range(*radial)\n            if jets[0].lo <= 0:\n                return None, dict(reason=\"accurate_prefix_radius_positive_lower_unresolved\", target=target_record)",
+      "after": "            jets, radial_metric, target_record = self.prefix_range.closed_range(*radial)\n            prefix_context = dict(schema=PREFIX_TUBE_SCHEMA+\"-same-target-return\",\n                original_numeric_s_interval=encode(radial),\n                radius=encode((jets[0].lo, jets[0].hi)),\n                accurate_arc_derivative=encode((jets[1].lo, jets[1].hi)),\n                accurate_arc_second_derivative=encode((jets[2].lo, jets[2].hi)),\n                numeric_s_radial_metric=encode((radial_metric.lo, radial_metric.hi)),\n                actual_target_return_identity=value_identity(target_record),\n                target_requeried_for_this_observer=False)\n            if jets[0].lo <= 0:\n                return None, dict(reason=\"accurate_prefix_radius_positive_lower_unresolved\", target=target_record,\n                    actual_prefix_tube_context=prefix_context)",
+      "count": 1
+    },
+    {
+      "before": "            return (g11, g22), dict(kind=\"complete_accurate_ten_public_u\", target=target_record)",
+      "after": "            return (g11, g22), dict(kind=\"complete_accurate_ten_public_u\", target=target_record,\n                actual_prefix_tube_context=prefix_context)",
+      "count": 1
+    },
+    {
+      "before": "    def base_once(self, cell):\n        self.budget.check()\n        piece = self.current.field.pieces[cell[\"piece_index\"]]\n        radial, angular = pair(cell[\"radial\"]), pair(cell[\"angular\"])\n        target, target_record = self.target(piece, radial, angular)\n        if target is None:\n            return dict(available=False, target=target_record)\n        values = self.current.evaluate(piece, radial, angular, cell[\"lower\"])\n        X, Y = tuple(value.d[1] for value in values), tuple(value.d[2] for value in values)\n        E, B, C = (self.M.bounds(self.M.dot(a, b)) for a, b in ((X, X), (X, Y), (Y, Y)))\n        result = relative_norm(E, B, C, *target, self.data[\"work\"][\"sqrt_bits\"])\n        result[\"target\"] = target_record\n        result[\"all_current_modes_both_means_and_mixed_jets_used\"] = True\n        return result\n\n",
+      "after": "    def base_once(self, cell):\n        self.budget.check()\n        piece = self.current.field.pieces[cell[\"piece_index\"]]\n        radial, angular = pair(cell[\"radial\"]), pair(cell[\"angular\"])\n        target, target_record = self.target(piece, radial, angular)\n        if target is None:\n            result = dict(available=False, target=target_record)\n        else:\n            values = self.current.evaluate(piece, radial, angular, cell[\"lower\"])\n            X, Y = tuple(value.d[1] for value in values), tuple(value.d[2] for value in values)\n            E, B, C = (self.M.bounds(self.M.dot(a, b)) for a, b in ((X, X), (X, Y), (Y, Y)))\n            result = relative_norm(E, B, C, *target, self.data[\"work\"][\"sqrt_bits\"])\n            result[\"target\"] = target_record\n            result[\"all_current_modes_both_means_and_mixed_jets_used\"] = True\n        if piece[\"kind\"] == \"prefix\":\n            result[\"actual_prefix_joint_tube\"] = self.prefix_tubes.inspect(\n                cell, target_record.get(\"actual_prefix_tube_context\"))\n        return result\n\n",
+      "count": 1
+    },
+    {
+      "before": "                self.cells.append(record)\n                if refine:",
+      "after": "                if self.prefix_tubes is not None:\n                    record[\"actual_prefix_tube_retirement\"] = self.prefix_tubes.commit_original_retirement(\n                        cell, report.get(\"actual_prefix_joint_tube\"), split=refine)\n                self.cells.append(record)\n                if refine:",
+      "count": 1
+    },
+    {
+      "before": "            coverage=coverage,\n            original_tolerance_evidence=",
+      "after": "            coverage=coverage,\n            actual_prefix_joint_tube_constants=(None if self.prefix_tubes is None else\n                self.prefix_tubes.summary(original_coverage=coverage,\n                    complete_cell_ledger=self.members.get(\"complete_cell_ledger\"),\n                    original_error=self.error, original_stop=self.stop, close_errors=close_errors)),\n            original_tolerance_evidence=",
+      "count": 1
+    },
+    {
+      "before": "\"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\",",
+      "after": "\"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\",\n        \"actual_prefix_joint_tube_constants\",",
+      "count": 1
+    },
+    {
+      "before": "            global_relative_operator_error=row[\"global_relative_operator_error\"],",
+      "after": "            global_relative_operator_error=row[\"global_relative_operator_error\"],\n            actual_prefix_joint_tube_constants=row[\"actual_prefix_joint_tube_constants\"],",
+      "count": 1
+    },
+    {
+      "before": "BEGIN_R504_RECOMPUTED_C_FIXED_TARGET_EVIDENCE",
+      "after": "BEGIN_R553_PREFIX_TUBE_COMPLETE_METRIC_EVIDENCE",
+      "count": 1
+    },
+    {
+      "before": "END_R504_RECOMPUTED_C_FIXED_TARGET_EVIDENCE",
+      "after": "END_R553_PREFIX_TUBE_COMPLETE_METRIC_EVIDENCE",
+      "count": 1
+    }
+  ],
+  "scope": {
+    "actual_R504_field_target_queries_full_DFS_and_opnorm_preserved": true,
+    "source_generation_only_no_project_execution": true,
+    "one_actual_new_evidence_source": true,
+    "all_original_transitive_sources_retained": true,
+    "all_3M_plus_2_Hermite_components_and_all_physical_frequencies": true,
+    "same_actual_prefix_target_return_used": true,
+    "strict_joint_box_P_required_only_for_diagnostic_majorants": true,
+    "complete_metric_split_and_acceptance_do_not_use_diagnostic": true,
+    "original_clock_budget_and_pending_coverage_preserved": true,
+    "old_sources_read_only_fresh_basename_only": true,
+    "tail_patch_collar_caps_do_not_claim_prefix_finite_model": true,
+    "no_original_cubic_FFT_error_or_metric_floor_claim": true,
+    "no_new_request_run_actual_parent_or_numeric_result": true
+  }
+}
