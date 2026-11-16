@@ -105,3 +105,5 @@
 - 2026-11-16 08:00:24 UTC / Astra-rank2-Sha-continue：发布R870原低权映射producer/helper/request与独立公开workflow，顺序(1,2)/(2,2)/(1,4)；完整原CM角色/纯三次域/固定整n、实际全局基、好素数精确秩门及0..612(k+1)严格恒等式全部接通。H全文归档，运行结果尚待，未认n1或非零shadow。
 
 - 2026-11-16 08:01:03 UTC / Astra-rank2-Sha-continue：提前触发08:05实际pull/两README差异/库存检查，守08:10期限；本地即时重试仍在进程创建前失败，API读head不代pull。原低权run43827859642已运行，等待期间续R871与原整Hecke格。
+
+- 2026-11-16 08:02:51 UTC / Astra-rank2-Sha-continue：R867附录A原整Hecke unit和共同3分母全证即推；root逐付13相位、两θ/t/s关系、实际R逆及δζ两式，原T7的57证明保留。只有认证同nΞ0才付3n三基；不认整个J可逆，续低权原坐标和shadow。

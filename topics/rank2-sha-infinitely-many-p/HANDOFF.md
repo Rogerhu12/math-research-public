@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：27286239a9edc20620da705629ea57bb2f0af289；2026-11-16 08:01:14 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:01:13 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
+- 最近已读规则提交：5104179cb2ce1131f849ce0b2a224a021691d91c；2026-11-16 08:02:53 UTC核两README无变。实际CI pull 2026-11-16 07:26:25 UTC/e5d6498d6b176bb4fc71faa9f5ca6956e690e541（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:01:13 UTC仍无环境。最迟2026-11-16 08:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -26,7 +26,7 @@ C_h与Λ(a)=ψ0(a)h/h^σa完整包含Λ((2))=−2。α=−1+2ω、ℓ=αh/h^σα
 
 - [R869](results/R869-original-modular-input-and-cubic-field-descent.md)：原H0全部在F=Q(v)≃Q(∛17)，Ξ0真下降F。run43825112263精确生成Φ17（18×18/总34/291项）及三H541项（各98非零/含2）；producer/hash齐，未认n1、未付坐标或shadow。
 
-- [R867](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原t=a7满足t³−21t−17=0，b与b²共同分母19δ给完整三基矩阵；只要nΞ0已认证，原J的整T7和目标O_K操作便使57nΞ_i全部真整。P1/P2为完整8/64邻点迹，56 cyclic49与8回溯分清；三H现有541项即给全部Hecke三列，次数≤28/784倍原度。未知映射只剩一条，原n/D/Artin不删。
+- [R867及附录A](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原t=a7三次式、完整三基矩阵和8/64邻点迹已付。新增原a13完整相位给r=2t²+7t−8a13−28、r³−3r+1=0；整R及3−R²在packet Hom格互逆。δζ两式使同nΞ0认证后 **3nΞ_i全部真整**，改进旧57；完整14邻点/整数n/Artin保留。不认R在整个J可逆。
 
 - [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：原R商D=X0(867)、h(Q)=H0(q)³∈S6。A,B∈M_k、C=(DQ A)B−A DQ B，完整C³=n³hA²(A+vB)²B²与原germ严格认nΞ0；k2用120维空间/低前缀409/最终0..1836项。任意非零低核同一比值，允许共同cusp零；成功degree≤204、真degree≤119保证k2有解。原Cv三角germ递推保全部n/3尺度；n1尚未运行成功。
 

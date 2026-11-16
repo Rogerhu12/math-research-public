@@ -203,3 +203,5 @@ O4/O6/O7与R364/R561/R654/R712保完整open；R768/790/808同R强窗/Δp、R815/
 - [R869](results/R869-original-modular-input-and-cubic-field-descent.md)：原实17挠点与完整Artin共轭证明H0全部落F=Q(v)≃Q(∛17)，同Ξ0真下降此三次域（非全实Hecke域）。公开run43825112263精确生成Φ17：bidegree18、总degree34、291项；三H541项完整含2，各98非零。producer/run/hash齐，未认n1、未得原函数坐标或非零shadow。
 
 - [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：原R商D=X0(867)、h(Q)=H0(q)³∈S6。A,B∈M_k、C=(DQ A)B−A DQ B，完整C³=n³hA²(A+vB)²B²与原germ严格认nΞ0；k2用120维空间/低前缀409/最终0..1836项。任意非零低核同一比值，允许共同cusp零；成功degree≤204、真degree≤119保证k2有解。原Cv三角germ递推保全部n/3尺度；n1尚未运行成功。
+
+R867附录A已付原T13完整相位、整unit R与真packet逆及三基共同3分母；不改变未知n或非零shadow门。可在同原Hom格内用unit缩短映射，成功后用整逆返回。
