@@ -32,6 +32,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R518](results/R518-live128-radial-cache-complete-source-composition.md)/[完整接口](notes/2026-11-16-live128-radial-cache-complete-source-interface.md)四件99187B已成：generator c694/plan4f20接R515真实组件→owner/assembly/system/QR/pipeline/call/worker/client/fullDN/R508 runner/reader，336祖先pin＋3public＋12generated=351，71明确literal，不存展开源。原221请求实际computations/HERE；新派生合同用实际完整SHA，221仅内部祖先号，无新实验或当前221变更。原19200/64GiB启动/全部112×224/576/338×112/双mean/FD/fullDN/quiet/单90K70保；必要reader实读R515 binding与真正返回compiler process，准备receipt不冒执行。没有编译、速度、当前H或接受结果；后续只按原实际需要接执行，不添fixture/科学门。
 
+[R523](results/R523-actual-tangent-row-support-and-complete-linear-products.md)/[接口](notes/2026-11-16-finite-trace-actual-input-support-interface.md)四件45301B完整刊，helper6246/e16b与flow9504/14c6接R474真实T行非零地址，原同次有限扫描、完整226×224/双mean/每输出原j序/所有非零下溢项保；只省实际零输入，不依赖零H或块标签。finite输出字同，overflow/NaN仅分类同不冒payload；输入非finite仍原完整三循环，无finite-output门。14实际计数/完整partial字段与四原field/RK/cusp保，当前loader/必要reader尚未接，无运行/速度。R467首零H的5774秒包含iteration0全内部J，不能省mean/predictor或原末门。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[368e6a6f时open](https://github.com/Rogerhu12/math-research-public/blob/368e6a6fb1ecde31525d0f4042a77e490b665236/topics/visible-flex-larger-amplitude/open.md)，其f863b71c及全部更早链接继续保原词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全G/H/span、QR/clip/Cauchy及每alpha冻结原Armijo/S球保；有限拒绝不证无解/秩亏，旧201末响应缺失不能由202补。
