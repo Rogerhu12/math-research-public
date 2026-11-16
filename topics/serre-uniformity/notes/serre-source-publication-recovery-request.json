@@ -2,34 +2,71 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R925-original-low-normal-coefficients-same-label-critical-jet",
-  "commit_message": "serre: identify original low normal coefficients and same-label critical jet",
-  "rules_last_read_commit": "82114b539ffef1631f36050030a51619c55119a5",
+  "request_id": "20261116-R922-certified-shared-trace-dual-R923-target-activation",
+  "commit_message": "serre: certify shared trace dual and execute original endpoint target coordinates",
+  "rules_last_read_commit": "aeab769e3066a3984abea3274298f2dcf78d88a8",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "d434f550f6662b432a93861828ada3699078b2b5f432df46e802daaacd03c378",
+  "expected_previous_request_sha256": "e404ec430ab1f1c6552a6667e98243d0649aa4e13e686dd2de1995b0ea4d30cb",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R925-original-low-normal-coefficients-and-same-label-critical-jet.md",
-      "sha256": "5dcf1454fb023e0fffcd866cdb626570843245d6e99d29d476d85c51c9cad717",
+      "path": "topics/serre-uniformity/results/R922-certified-original-shared-polynomial-trace-dual-multiplier.md",
+      "sha256": "a7ff2778ff1a65e3c3f55cb6155af3abdd8f47fedd9c87d52f02427a90a8f72e",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R923_original_two_endpoint_target_normal_coordinates.py",
+      "sha256": "4aef4b448338f62216d3ce44135ace89f83c5be966acb6f90dc47adaed4d334c",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R923_public_original_two_endpoint_target_normal_coordinates.py",
+      "sha256": "d6bda530f750d8c7bdf8d4f302ea83ad2bcf23e116d4dcf364d98983bffeeddf",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R923-original-two-endpoint-target-normal-coordinates-method.md",
+      "sha256": "dfd781d304b1d0fbb8de6b7267b1cbc543403ce47e1226316e97893a62c48cef",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R923-original-two-endpoint-target-normal-coordinates-public-request.json",
+      "sha256": "0dfbba7aa8bba6f03a04cce565c937d7fa81e39bff9cb4b1b3c6275140e3fe5e",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R923-two-endpoint-target-normal-coordinates.yml",
+      "sha256": "32286cdd0902219dce5533fe3cabdfc43a0fc40dba8ca8043c316dfc1306dffa",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-trace-dual-and-endpoint-targets.md",
+      "sha256": "2bc1439bed260699c59b9f9b047d1ac7f66b6f09d96abbb7c8ed2c40127af61b",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "c4b0fcb6d36b3d2c7480d17b32ac9be41df7e4d5832022e0283388a3b1a471ba",
-      "expected_previous_sha256": "0992a2a44cf12900f342d28f957d022556bd350ec9d1590606c9961c96f9cdfd"
+      "sha256": "c299ae0b74a91fb8568d3eaf3d73c4ff78e1c03b1fa70366251ddae7dc32d34b",
+      "expected_previous_sha256": "2bc1439bed260699c59b9f9b047d1ac7f66b6f09d96abbb7c8ed2c40127af61b"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "a4d8c5a2ef085296ad7d91d71952c0367b86eeafa7e094b3c3eedad99e2e6ed7",
-      "expected_previous_sha256": "8e516d50bed570c03303b9ce18ab38aff7a5eed8d52ce27b8f8c83188aaf43a1"
+      "sha256": "2ce20a03598d2538a3c2ddf587734b794eeb028c2a61a2eff6948d591bff147d",
+      "expected_previous_sha256": "a4d8c5a2ef085296ad7d91d71952c0367b86eeafa7e094b3c3eedad99e2e6ed7"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "b280229944e10c8ff49730a87269807e7125bc0497906fa9da125fb31816c448",
-      "expected_previous_sha256": "f7bfe6ae83c4943871066df7271a35d2269a75e8ab674db24e6698023b4101aa"
+      "sha256": "6e86b6e2ae28899161aa73ab1807e99f73595369f117b11bdf8bb70df32c8bf6",
+      "expected_previous_sha256": "dfd8f6f0c9499c76662c4c5b2140b9829068845b9a796b9f5f518340fcf098c9"
+    }
+  ],
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R923-two-endpoint-target-normal-coordinates.yml",
+      "request_path": "topics/serre-uniformity/notes/R923-original-two-endpoint-target-normal-coordinates-public-request.json",
+      "request_sha256": "0dfbba7aa8bba6f03a04cce565c937d7fa81e39bff9cb4b1b3c6275140e3fe5e"
     }
   ]
 }

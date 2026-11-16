@@ -1,0 +1,200 @@
+{
+  "result": "R923-original-two-endpoint-target-normal-coordinates",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "session": "serre-public-astra-20261115",
+  "core": "R923_original_two_endpoint_target_normal_coordinates.py",
+  "core_sha256": "4aef4b448338f62216d3ce44135ace89f83c5be966acb6f90dc47adaed4d334c",
+  "helper": "R917_endpoint_order_arithmetic.py",
+  "helper_sha256": "c728c8e06cef3dfbe4d33f3a988cbbc1c3012909d67b4684d941effdec67033d",
+  "wrapper": "R923_public_original_two_endpoint_target_normal_coordinates.py",
+  "wrapper_sha256": "d6bda530f750d8c7bdf8d4f302ea83ad2bcf23e116d4dcf364d98983bffeeddf",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R923-original-two-endpoint-target-normal-coordinates-method.md",
+  "method_sha256": "dfd781d304b1d0fbb8de6b7267b1cbc543403ce47e1226316e97893a62c48cef",
+  "proofs": {
+    "R923": {
+      "file": "results/R923-original-target-normal-coordinates-in-certified-endpoint-orders.md",
+      "sha256": "d0c2ceada8d5d2888efe8258a390d4625ad4193958d840332f3830733ef9fc97"
+    },
+    "R917": {
+      "file": "results/R917-original-two-endpoint-normal-orders-and-source-contract.md",
+      "sha256": "c3466fae4079d55d992a5470be4b90de127ee5aa64bf05948e8cf00bb709bf55"
+    },
+    "R912": {
+      "file": "results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md",
+      "sha256": "273ef827c365b7901f349150f0665cffd57e330e2806dd8113649b3482671e97"
+    },
+    "R860": {
+      "file": "notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md",
+      "sha256": "7a200b7dd74e1fd51b43e2bac12d277f7b5a3e4fa4161f463bf8c20d51eadf3f"
+    },
+    "R885": {
+      "file": "results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md",
+      "sha256": "1c67eca3f9140f7cd67b77e86c85a1fac7fdc89634331de3bc1ed80579a978f7"
+    },
+    "R873": {
+      "file": "results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md",
+      "sha256": "e6401ca85f64c5b9a19afbf9bee2b8f4199864e82eff2e4689bdae882735716f"
+    }
+  },
+  "workflow": ".github/workflows/serre-R923-two-endpoint-target-normal-coordinates.yml",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "rules_last_read_commit": "aeab769e3066a3984abea3274298f2dcf78d88a8",
+  "budget_minutes": 300,
+  "requested_minimum_output_precision": 1,
+  "resume": null,
+  "source_pins": {
+    "R917": {
+      "result": "R917-original-two-endpoint-normal-orders",
+      "run_id": "43904492746",
+      "source_commit": "64228da6693769dcf70fb8bcaec4a72ad0faa445",
+      "core_sha256": "f0e321a19ef6dbd259e88de1b670f514b0f9ed0df5b24659a9f787978b8fd743",
+      "manifest_sha256": "d8bac1cf2d29e385afd7222d87805506732e2dfecc440980b187e6112bb2af2b",
+      "manifest_bytes": 32468,
+      "manifest_file_count": 184,
+      "configuration_sha256": "1d1e0b7e6cd16ad4108e0674c2a9cca73ff1eadf35902269f1673a2199b5fb4b",
+      "certificate": {
+        "file": "p41-original-two-endpoint-normal-orders-certificate.json",
+        "bytes": 13981,
+        "sha256": "cf539a58a7ab8212bb0e0d56c9621c2c6916ca25c2cbc3b50ce7be3890c15349"
+      }
+    },
+    "POLY": {
+      "result": "R885-original-polynomial-one-row-adjugate",
+      "run_id": "43842694142",
+      "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+      "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "manifest_sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154",
+      "manifest_bytes": 77918,
+      "manifest_file_count": 560,
+      "configuration_sha256": "f4a4973d93b328bd76f93d41b668e70a0817c1510012b9824370a18858ed634a",
+      "certificate": {
+        "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "bytes": 7104,
+        "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30"
+      }
+    },
+    "R827": {
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "certificate": null,
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      }
+    },
+    "R873": {
+      "result": "R873-original-cyclic-seven-correspondence",
+      "run_id": "43832703159",
+      "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
+      "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c",
+      "manifest_sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac",
+      "manifest_bytes": 55619,
+      "manifest_file_count": 380,
+      "configuration_sha256": "cc0aa80daad20e534af3f126f3b99363926ffb615adc1925ce6c2992996b5cf0",
+      "certificate": {
+        "file": "p41-original-cyclic-seven-correspondence-certificate.json",
+        "bytes": 11215,
+        "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
+      }
+    }
+  },
+  "source_artifacts": {
+    "R917": {
+      "result": "R917-original-two-endpoint-normal-orders",
+      "run_id": "43904492746",
+      "source_commit": "64228da6693769dcf70fb8bcaec4a72ad0faa445",
+      "core_sha256": "f0e321a19ef6dbd259e88de1b670f514b0f9ed0df5b24659a9f787978b8fd743",
+      "manifest_sha256": "d8bac1cf2d29e385afd7222d87805506732e2dfecc440980b187e6112bb2af2b",
+      "manifest_bytes": 32468,
+      "manifest_file_count": 184,
+      "configuration_sha256": "1d1e0b7e6cd16ad4108e0674c2a9cca73ff1eadf35902269f1673a2199b5fb4b",
+      "certificate": {
+        "file": "p41-original-two-endpoint-normal-orders-certificate.json",
+        "bytes": 13981,
+        "sha256": "cf539a58a7ab8212bb0e0d56c9621c2c6916ca25c2cbc3b50ce7be3890c15349"
+      },
+      "artifact_id": 14244312360,
+      "artifact_name": "serre-R917-two-endpoint-normal-orders-43904492746-1",
+      "archive_bytes": 13739001,
+      "archive_sha256": "4ae6c58082f591a195978646039658a40c850df5c8c66803de234f29b7eb3056",
+      "artifact_expires_at": "2026-11-17T16:10:56Z",
+      "expected_conclusion": "success"
+    },
+    "POLY": {
+      "result": "R885-original-polynomial-one-row-adjugate",
+      "run_id": "43842694142",
+      "source_commit": "0210f90f1ac7d2c89e948cae0cdc5f64f775dc07",
+      "core_sha256": "dd4ef0d445e7c90caf568d7aa87951166d6730cc86da0a44be11b664742d3035",
+      "manifest_sha256": "51dff64343665bf629603f42e43cc21ecc10aaf17912df5cc6f20bb7b8973154",
+      "manifest_bytes": 77918,
+      "manifest_file_count": 560,
+      "configuration_sha256": "f4a4973d93b328bd76f93d41b668e70a0817c1510012b9824370a18858ed634a",
+      "certificate": {
+        "file": "p41-original-polynomial-one-row-adjugate-certificate.json",
+        "bytes": 7104,
+        "sha256": "fc323a7d1b74a03ff3c846c2dfa92e4cd7c5269b20b3eebd857439e727d73d30"
+      },
+      "artifact_id": 14214590084,
+      "artifact_name": "serre-global-R885-polynomial-one-row-adjugate-43842694142-1",
+      "archive_bytes": 64381078,
+      "archive_sha256": "42bebd740b7bf4535ac7af50f072bcac8d1b7fc3a29796c43ad218c5c140021b",
+      "artifact_expires_at": "2026-11-17T09:47:33Z",
+      "expected_conclusion": "success"
+    }
+  },
+  "input_pins": {
+    "correspondence_DAG": {
+      "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz",
+      "bytes": 32165,
+      "sha256": "7f25006cd4d2a500af621360f01baad85a2836b40b4d595ff5f91025f3671b66",
+      "source_group": "R873"
+    },
+    "exact_coordinate_expression": {
+      "file": "R873-seventeen-exact-unit-solve-and-modular-coordinate-expression.json.gz",
+      "bytes": 69078,
+      "sha256": "d14c134fb887f36034f3805d13184c097162f3b37ca07f8174e47e1894a7c793",
+      "source_group": "R873"
+    },
+    "adjugate_row_index": {
+      "file": "R885-adjugate-full-polynomial-adjugate-certificate.json.gz",
+      "bytes": 17474,
+      "sha256": "b49becb6df241cdb0e075c810f7e25865255de1389d62475c3f6db082517a106",
+      "source_group": "POLY"
+    },
+    "characteristic_relation": {
+      "file": "R885-adjugate-polynomial-characteristic-relation.json.gz",
+      "bytes": 194378,
+      "sha256": "fb8dbdd0a97eef2cd10a08f61afc55865203267c157d7e64c78c9a311a73486b",
+      "source_group": "POLY"
+    },
+    "original_W": {
+      "bytes": 763994,
+      "file": "R827-original-W-g-h-reductions.json.gz",
+      "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841",
+      "source_group": "R827"
+    },
+    "original_place": {
+      "bytes": 4261,
+      "file": "R827-original-place-and-unit-source-audit.json.gz",
+      "sha256": "7f4d511a9871d31d38565703211d7f14636a195b9fa2db48818996afb084e883",
+      "source_group": "R827"
+    }
+  },
+  "future_target_sources": {
+    "R903": null,
+    "R907": null
+  }
+}
