@@ -404,3 +404,137 @@ $$
 $$
 
 54 个分歧 cusp 各给一个 $X$ cusp，其余 54 个非分歧 cusp 各给三个，因此原 $X$ 有 $54+3\cdot54=216$ 个几何 cusp。这同时核对了相对六倍实现确实保留原 $X_0(10404)$ 的边界，没有把另一个光滑化或部分仿射分支当作源曲线。
+
+
+## 附录 C：原端点交换与六个实际除子
+
+本节仍须同两张原特征零地图已经通过认证。以下对实际映射的等式由 R882 的已识别坐标给出，不是对一个任意形式 ODE 解作同一假设。
+
+### C.1 固定底的完整源自同构
+
+在原十八倍源上定义
+
+$$
+ W(y_s)=\frac{y_s+3}{y_s-1},\qquad
+ W(x_s)=\frac{2x_s}{y_s-1},\qquad W|_{k(B)}=1.
+\tag{C1}
+$$
+
+直接代入 $y_s^2=x_s^3+1$ 与 $T$ 的原公式，得到 $W^2=1$ 且 $W(T)=T$，所以 (C1) 是同一个光滑正规化上的自同构，并下降到相对六次域。它固定 $T,U,V,t$，在 cusp 或显示分母为零处按这个自同构延拓。
+
+写 $v_s=y_s^2-1$，则 R882 的
+
+$$
+ A=\frac{v_s+4}{x_s^2},\quad
+ B_0=\frac{N_0}{x_s^4},\quad B_2=\frac{v_s-2}{x_s},
+ \quad N_0=(y_s+1)(-y_s^2+6y_s+3)
+$$
+
+准确满足
+
+$$
+W(A)=A,\qquad W(B_0)=B_2,\qquad W(B_2)=B_0.
+\tag{C2}
+$$
+
+例如
+$N_0(Wy_s)=16(y_s+1)(y_s^2-3)/(y_s-1)^3$，除以
+$W(x_s)^4$ 后恰为 $B_2$，并无遗漏的三次根相位。
+原完整线性 Hecke gcd 随 (C2) 运输，所以两个端点的全部 $T_i,U_i,V_i,t_i,Y_i,R_i$ 都相交换。保 (22) 中的 $x_s$ 因子后，得到实际映射等式
+
+$$
+(\mathcal A_a q_0)W=\mathcal A_a q_2,\qquad
+(\mathcal A_a q_2)W=\mathcal A_a q_0.
+\tag{C3}
+$$
+
+第一因子中 $R_F,v_F$ 在固定底上，而
+$y'=y_s(v_s-8)/v_s$ 满足 $W(y')=-y'$。故原 $\varepsilon=-Ty'/A^6$ 变号，
+$x_F=A R_F/\theta_{17}^2$ 不变，$y_F$ 变号，即
+
+$$
+\boxed{FW=-F.}
+\tag{C4}
+$$
+
+特别，运输 $x_s f_0$ 时必须保留 $W(x_s)/x_s=2/(y_s-1)$。
+单独把 $f_0$ 的函数表达式作 $W$ 而不运输这个因子，会给错端点坐标。
+
+### C.2 归一 Poincaré 交项的准确对称性
+
+令 $L=\mathcal O_{E_0}(O)$，对两个 $X\to E_0$ 的映射 $C,D$ 写
+
+$$
+\mathcal Q(C,D)=(C+D)^*L-C^*L-D^*L\quad\text{于 }\operatorname{Pic}(X).
+$$
+
+这是由原点刚化的 Poincaré 双线性配对。它对称且在每个变量上可加；
+对任一椭圆端同态 $\alpha$ 有
+$\mathcal Q(C,\alpha D)=\mathcal Q(\alpha^\dagger C,D)$。
+原 $r$-Frobenius 的对偶满足 $\varphi_r^\dagger=-\varphi_r$，
+因为其迹为零且 $\varphi_r^2=[-r]$。
+
+令 $C_a=\mathcal A_aq_0,\ D_b=\mathcal A_bq_2$，并将本正文实际除子归一为
+
+$$
+\mathcal N_{ab}=(D_b-\varphi_r C_a)^*L-D_b^*L-(\varphi_r C_a)^*L
+              =-\mathcal Q(D_b,\varphi_r C_a).
+\tag{C5}
+$$
+
+由 (C3) 及上述对偶恒等式，完整 Picard 类满足
+
+$$
+\begin{aligned}
+ W^*\mathcal N_{ab}
+ &=-\mathcal Q(C_b,\varphi_r D_a)
+ =\mathcal Q(\varphi_r C_b,D_a)\\
+ &=-\mathcal N_{ba}.
+\end{aligned}
+\tag{C6}
+$$
+
+这包含全部极点与交重；使用的是整个线束类，未删掉仿射外的分量。
+由 (C4)，对任何除子类 $Z$，
+
+$$
+\operatorname{Alb}F_*W^*Z=-\operatorname{Alb}F_*Z.
+$$
+
+将它用于 (C6)，得到
+$\operatorname{Alb}F_*\mathcal N_{ab}=\operatorname{Alb}F_*\mathcal N_{ba}$。
+
+还要支付 (C5) 中减去的两条轴。任一轴除子 $Z$ 在原 $R$ 下不变，
+因为 $C_aR=[\omega]C_a$、$(\varphi_r C_a)R=[\omega^2]\varphi_r C_a$，
+而 $O$ 被两者固定。于是
+$\operatorname{Alb}F_*Z=[\omega]^{-1}\operatorname{Alb}F_*Z$。
+其像被 $1-\omega$ 消去，因此被 3 消去，六倍后严格为零。
+故对正文的完整点 $P_{ab}=\operatorname{Alb}F_*(D_b-\varphi_r C_a)^*O$，
+
+$$
+\boxed{p_{ab}:=[6]P_{ab}=p_{ba}.}
+\tag{C7}
+$$
+
+(C7) 是原完整输出点的等式，不是宣称两个有效交点除子本身相同。
+实现可只算三个对角和三个无序非对角标签；三个对角项仍然保留。
+
+### C.3 同原角色读数的六除子形式
+
+将 (C7) 代入 [R880(C10)](R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)，得到
+
+$$
+\boxed{
+[6]\mathscr S_{jk,\chi_{jk}}
+=\frac19e_\omega\left(
+ \sum_{a=0}^2(\zeta_j\zeta_k)^a p_{aa}
+ +\sum_{0\le a<b\le2}
+   (\zeta_j^a\zeta_k^b+\zeta_j^b\zeta_k^a)p_{ab}
+ \right).
+}
+\tag{C8}
+$$
+
+原三个有序角色对仍为 $(0,1),(1,2),(2,0)$，CM 符号和系数域照旧。
+(C8) 不删原 Artin 条件，只用已证明的源自同构和归一配对消除重复的实际求交。
+每个所计算的除子仍须按本正文处理全部闭点、边界和高交重。

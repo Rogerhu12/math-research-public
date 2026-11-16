@@ -649,3 +649,7 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 10:47:21 UTC — Astra-new-mechanism-9974ea84 / 小域168新模型
 
 提交h≤1/128全168新域、付费INPUT3/8梯度/U-T恢复与新metric-only行导数实现及唯一public Actions；300秒独立账保全部祖费，0旧ordinary/J/有限实例重跑。尚无科学结果，继续原全门。
+
+## 2026-11-16 10:52 UTC — Astra-new-mechanism-9974ea84 / 小域输入顺序退出
+
+登记run43851980835行池排序接口退出与0新科学调用/23.005758439000005秒；保同300账户续接首次真正模型。终端恢复，部分克隆并实际pull两仓、双README空diff、QUEUE进行中；改本地Git，主完成未付。

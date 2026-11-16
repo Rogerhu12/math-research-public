@@ -272,3 +272,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R880六共轭D*固定图方法已证明**：[原六共轭有界空间](notes/R880-original-six-conjugate-bounded-Dstar-spaces.md)。原G/Γ与五个旧节点的12合流条件恢复三个乘法算子；保原σ补列zF1−(5+ε)GF0、原2451/415图/830行/395核及1111→269→146→962→418，原a、v、trial1和函数首项不换。所有原图在新嵌入须真实单位，六个新完整空间的实际认证待执行；五Lj/高度未成。SHA256 b2e523171c08f61b4c1f66ee7738e8fb687f45a3e1dd72ccd6956800cc9d2d84。
+
+
+- **R891原sigma零与完整六挠基除子已证**：[完整证明](results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md)。fi=0/gj=0分别等价原六维V_(6i+4)/V_(6j+1)在O有共同基点；真实六primary theta传播全部36六挠点，degD_r∈36Z、D_r≥ν_rΣE[6]，ν_r=r−max{n≤r:c_n≠0}且仅ν_r≤(p−5)/6。保原两个序列与同h，不冒互补非零、Legendre可见或q-normal/height。SHA256 7ed8ff000434db230023f8023daf1d3257f2bd52a5e7eab9a54609a1c7a49901。
