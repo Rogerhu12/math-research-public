@@ -188,4 +188,4 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff：Jρ=(I−QfΔρ)PfGD，actual E0/D/T式15和式24完整保degree32、cut高trial差、b/mean/7port；两moment只收投影finite，GD保全L2源。reference K∈[0,1]；e+3dt<1待算。
 
-[WJR真实相对Jacobian](results/R133-supplement-relative-flow-Jacobians-and-positive-phase-ratio-bounds.md)741df919：真实J先消线性项、cut真lower全Bell/Leibniz给pσ/x比，再保正dr/cut。源22f83801/manifest9ab2e472封6current/2AST/43原/7scope；首次4图56新CI待发，WBF83不重算。
+[WJR真实相对Jacobian](results/R133-supplement-relative-flow-Jacobians-and-positive-phase-ratio-bounds.md)741df919：真实J先消线性项、cut真lower全Bell/Leibniz给pσ/x比，再保正dr/cut。源22f83801/manifest9ab2e472封6current/2AST/43原/7scope；首次4图56新公开Actions工作流已发、actual待收，WBF83不重算。
