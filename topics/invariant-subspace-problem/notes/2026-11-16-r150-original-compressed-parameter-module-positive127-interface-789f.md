@@ -35,7 +35,7 @@ $$
 | 原十行模型 | notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py | 23879 / 4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4 |
 | 原压缩 | notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py | 20434 / b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9 |
 | 独立 session | notes/2026-11-16-r150-original-parameter-module-session-789f.py；blob bbaa0dd4adfc4ee1899c82290417c97f24288d3e | 19630 / fe16ae37f209982ec4cfcf38b60763081cf159408d441bff3440bdf7002424c7 |
-| workflow | .github/workflows/invariant-subspace-r150-original-parameter-module-session.yml；blob c1fd8390adb20047e4f30590d2316af9cf2f3573 | 1972 / e6b04c679159bafc1476111cc95cbcaef503eadb915c1e85756c9f1713aec9dd |
+| workflow | .github/workflows/invariant-subspace-r150-original-parameter-module-session.yml；blob dd446d336480992e72175b3b9c98aa1b7b32ab7d | 2121 / a3687ae72beacad25fb40588d4b7b9608775607deebbc3d0c0d138c643d39aee |
 | request | notes/2026-11-16-r150-original-parameter-module-session-789f-request.json；blob 6d3936606fb84477b487a3dcb23d54b97f81b748 | 8159 / d1e45f2c73314b5b3d6ce2475a772caccb9028dcfb28950dc1be893db1c0f1bf |
 
 原模型 binding 为 7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4；其 30466-byte 数学 manifest SHA 为 9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2。原压缩 binding 为 baaa8ec3f9459c0d2f88ebb452c941ce241f2727d5becab1ca78511a55a589ca。
@@ -151,3 +151,7 @@ python 2026-11-16-r150-original-compressed-parameter-module-positive127-789f.py
 ## 9. 根审计与实际派发门
 
 /root 已全文读冻结31539-byte主源、19630-byte session、workflow/request及本接口；另以标准库核本地源码AST、prepare原回执31018 bytes、manifest15772 bytes及5080340-byte全原ASCII模块的完整SHA和实际binding。全部50原18乘回、17梯度运输与参数/源单项式数均与原回执相符。三步job只在本发布实际pull、规则核验和push成功后派发；运行号和结果以后续实际身份记录为准。此审计未提前运行或声称Singular自测/候选/来源正证。
+
+## 10. 首次真实作业与固定运行时重建
+
+实际 run43876083196 的完整模型成功，但压缩入口在父manifest物理SHA门停止；尚未执行Singular自测或候选。[完整失败记录与118文件核验](2026-11-16-r150-original-parameter-module-python-runtime-failure-789f.md)精确定位Python3.14的gzip OS头差。当前workflow仅增加setup-python@v5并固定Python3.12.14；原所有数学源码、request、输入字节pin和binding均保留。新版仍从完整父模型重新运行全部三步，只有实际命中旧manifest物理SHA并完成原门才推进。/root另直接对完成日志的全部118实际描述符逐一核对，只改内存OS头后所有stored/logical SHA均相同，实际0.65624055秒/exit0，原文件未改。
