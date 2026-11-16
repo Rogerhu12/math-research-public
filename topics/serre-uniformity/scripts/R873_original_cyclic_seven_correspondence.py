@@ -353,7 +353,9 @@ class Job:
         assert self.frontier["ordinary_power"] == 8 and self.frontier["new_first_exponent"] == 109
         assert len(self.frontier["basis_rows"]) == OLD_DIM
         assert self.basis1["rank"] == 146 and len(self.basis1["basis"]) == 146
-        assert self.basis1["coefficient_bound"] >= STOP-1
+        # R775's selection q-bound is 273; its saved polynomials still extend through q1640.
+        assert self.basis1["coefficient_bound"] == 273
+        assert self.sources["R775"].tag["max_exponent_qY"] >= STOP-1
         assert self.basis1["characteristic_zero_independence_certified_by_unit_reduction"] is True
         assert len(self.cosets) == 40 and len(self.group["H82_mod_center"]) == 126
         assert sorted({self.basis1["basis"][i]["recipe"]["R771_seed_index"] for i in M2_INDICES}) == [0, 3]
