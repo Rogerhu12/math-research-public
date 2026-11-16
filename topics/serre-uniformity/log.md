@@ -486,3 +486,8 @@
 - R925闭全部低normal系数与同h sigma乘积的精确平方比：完整formal log整尾≡id，char0先消原N_h，(81B⁶)及阶乘/相位不省；J32非零恰原Legendre与Q′同时非零。
 - 原比较标度v(c_cal)=a_h−1−v(N_h)/2，a_h和可能非unit范数保留；最高单位不冒低项单位/height。R922公开run43913992769已success，实际产物正接读，不预登记数值。
 - 本push规则：公开Actions真实pull至aeab769e3066a3984abea3274298f2dcf78d88a8（2026-11-16T17:06:21.781447+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:10 Asia/Taipei — serre-public-astra-20261115
+- R922共享R实际完成43913992769：26stage/2.48746259s、五G点/四全可分R点、全127²零块及八系数RG=Mg；36原件与W/Mg/K/χ直接复用，实际证书/manifest和一日artifact已登记。
+- R923两端目标272函数执行五件全文读毕并激活：原R917/POLY四数学来源、B逆先运输/共享8维分母、实际dε与267−dε，保NeedPrecision/幂零/两帧；五理想/NmΦ/height未成，H逐字归档压缩。
+- 本push规则：公开Actions真实pull至be1eadf4caf2bfba813f8a5d4cee87a22aa1218f（2026-11-16T17:10:44.586583+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
