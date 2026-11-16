@@ -139,7 +139,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **放大方差下的同actual来源。** [完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许任意s_m≥S_m→0、任意强前缀R_m及任意1≤J_m<h_m，完整强头H_(C,J)(s_m)^−1强趋原P_M。阻尼物理列在Q≥R+J保持同一V_Q/K_Q/u，远孔指数矩≤q、正能量ε=q−||a||²→0且||f−a||²≤(S_x/s)ε，故f→P_Mg。完整塔残量保正占据因子[1−r+W/s]Cf；截断top未丢。强头a仍含全部R_m孔，未付真实K_Q或全局N的逼近，不能由小Cf免费乘D†。可优先在旧合法carry窗检验小J的正则化方程与同一中间Schur。
 
-- **[原127第一系数正证/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 全1834 global Z中925读数非零，首node26969742反传原6188并新核4367 p²产品，读40。原simple s+64全由系数tors占据，barΔ|χ299/(s+64)、284≤degΔ≤298/齐次≤364、barμ|F+F−E8且μ≤14、μh*≤37；原三源费8406/8411/191。925不是独立方向数；其余primary、critical额外20、未乘μ的Q来源仍开。
+- **[原127第一系数正证/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：** 原globalZ与完整p²反传证明simple s+64系数扭，给Δ≤298；结合最新三域Q谱现等号。925不是独立方向数。其它系数页和原31分母仍须各自来源，不从这一条推得。
 
 - **[九原目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)，九cyclic均23、h*/h0像全零；Q或p127²来源未付，25图只作原relative T选元参考。
 
@@ -147,8 +147,8 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **第二次完整顺次MP已付，第三次及全返回仍开。** [真实primitive回馈证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²ω_j=(D²)†ω_j−D†ΠkerD D(D²)†ω_j，两项正交，明确原primitive常数512√(j+4)(x+j+4)^(3/2)。τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ使q1=D†(C+D)f、q2=CD†q1同时平方O((1+||C||⁴)τ²)Δ_g²；两最高top全保。z2=f−q1+q2只有准确残量(C+D)z2=Cq2，不是原真核。继续更深完整核旗/中间Schur与同w全部partial，不将第二次primitive分解免费复制到任意高度。
 
-**critical当前完整范围。** 原135/270/300完整切片均high2/gain0，负结论及三个原证明保[完整前态](notes/2026-11-16-open-before-complete-number-field-seven-789f.md)，只限声明支撑。随后[完整真Q高核](results/R150-appendix-complete-critical-high-kernels-seven-in-all-three-number-fields.md)三域153×60实rank53/核7，原43316乘回真；配原H6018×4266残域rank4259夹得完整Q高核恰7。全部高核仅162支撑，normal≥3零，含原切片缺失的d²n/cd²n/d³n。[两cubic完整首连接](results/R150-appendix-complete-critical-first-connection-and-local-lengths.md)实rank1，170×101 rank86、7返回mod低独立、170×9 rank8，14头各346528原乘回真。局部现7…8/7…8/4…5，全局284…298/μ≤14；E8首连接继续。新nonfree头的一阶正延足关cubic上界，但须真实Q1及全来源乘回。
+**critical完整局部长度已封口。** [三域原全高低证明](results/R150-appendix-exact-original-critical-spectra-three-five-and-two-three.md)实得F±各(3,5)、E8(2,3)，K178Ω degree298达已付上界，monΔ=monK178·Ω；严格Σ0外μ=1。F±各30940真Q1正延原乘回，E8另只读重验259896原乘回；旧失败/受限切片保[完整前态](notes/2026-11-16-open-before-exact-critical-spectra-789f.md)。九h*tj原Q来源与归一rank-one Bell的μ可去，但非rank-one/full gradR3/ess(T3)≥4继续。
 
-**原127完整critical循环谱。** [五完整主分量](results/R150-appendix-original127-complete-critical-primary-exponents-three-five-and-two-three.md)实际F±各(3,5)、E8三因子各(2,3)，维24/24/10/10/20总88，52624原kernel/action乘回。[五完整广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)已实得每factor两泛函、联合覆盖全部88维；完整790 jet核含702 free jets，110268原GB jet/2160参数作用全真。4367运输和1834全参数Z仍待付；全零至多否第一系数像，不排更高系数指数。无新Q界。全部前态保[此次完整快照](notes/2026-11-16-open-before-complete-first-critical-exit-789f.md)。
+**原127完整critical循环谱。** [五完整主分量](results/R150-appendix-original127-complete-critical-primary-exponents-three-five-and-two-three.md)实际F±各(3,5)、E8三因子各(2,3)，维24/24/10/10/20总88，52624原kernel/action乘回。[五完整广义检测族](results/R150-appendix-original127-complete-generalized-detectors-for-all-critical-factors.md)已实得每factor两泛函、联合覆盖全部88维；完整790 jet核含702 free jets，110268原GB jet/2160参数作用全真。E8-1全4367运输/1834原Z第一系数像实际0，其余四正在消费；仅此零像不排高层。新的Q次数等号由独立三域证明取得。全部前态保[此次完整快照](notes/2026-11-16-open-before-complete-first-critical-exit-789f.md)。
 
 **直接原V/K差的完整Gram窗口。** [actual-u定理](results/R271-appendix-direct-actual-low-hole-chebyshev-kernel-approximation.md)在完整G_E上以grade传播构造真k_pol∈K_Q，低尾孔s的同f满足||u||≤2ρ^ν/(1+ρ^(2ν))||PVf||、ν=floor((Q−s)/(d−1))；无κ²前因子/无需远池，所有原头forcing与无限尾位置统一。真实头给logQ=35d⁴/6+O(d³)与u≤2e^−2m，但母carry全R0^(j+ℓ+1)仍O(d⁵)，原T/同w运输未闭；继续此候选的实际carry和完整forcing谱。
