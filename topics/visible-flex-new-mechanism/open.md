@@ -198,3 +198,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R423：负四kk缺失势输入已闭
 
 [R423](results/R423-complete-static-potential-inputs-for-the-all-curvature-kk-minus4-coefficient.md)从原六Volterra maps逐项取h⁻²并真实h积分，得[N0]h⁻¹=k(τ2+k²τ2b)完整独立outer式。故−[h⁻⁴]Bm2,kkN0=S·BS(τ0+k²τ1)/16−k²·BP(τ2+k²τ2b)/16；Γ仅h⁻³/h⁻²，目标幂无项。全右锚/左尾和参考常数边界保留，不假τ2属于响应空间；完整v2−Yacc、N2及自然尾仍须合成，尚未读全kk或排正字符。
+
+### R426：负四kk的k0完整锚已付
+
+[R426](results/R426-complete-zero-curvature-kk-minus4-natural-anchor-and-common-query-reduction.md)从原水平Y、YC/ZZ全scalar、两个真实ordered尾及N0三槽给ΛV0=−∫upr³/32+3∫xp²r³/64−3∫x²pr⁴/128+3∫x³r⁵/640=3F_Q4/128+∫(3p³r²−2upr³)/64。所有primitive及第一矩余项在最后合成才消。后项对偶母所有真幅宽中心0、任意不交ordered3+2也0，原共同D/E和同权响应补wholeE后给λkk(0)=0；不追加M25、不外推全k，仍须两新曲率系数和完整period。
