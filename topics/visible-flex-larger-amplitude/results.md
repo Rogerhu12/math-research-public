@@ -123,3 +123,5 @@
 - **R568（已证明的实际238返回范围）**：[全采样、gzip完整读取及有理词/closed recipe真实入口错误](results/R568-actual238-complete-sampling-rational-word-and-closed-recipe-failures.md)。全112far/联合行、13850点完整；真正BVP已启动但两phase未起，后继未付；91528 generation正文未返、原70、quiet与未清理分别保，不能据工程错误推断数学拒。
 
 - **R574（已证明的实际240返回范围）**：[447源准备完成、两完整必要正文超限与未知科学终因](results/R574-actual240-source-and-science-readback-overflow.md)。source350903/science221520未返，1846/1163描述符同字，外1/1/1/quiettrue与rawfalse保；源准备true不被transport.false覆盖，同job祖先不与237混同，无新父。
+
+- **R599（已证明的准确输入与来源边界组件）**：[完整有理数RN-even十词及实际coast recipe](results/R599-accurate-ten-word-and-actual-coast-recipe-boundaries.md)。小源8620B与接口/证明合30966B；全80B原相等判断保留、原H和数值算法不动，真正receipt继续原全bytes/SHA核。R597后继实际接线尚未冒执行。

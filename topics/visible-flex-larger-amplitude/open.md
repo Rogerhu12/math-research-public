@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R599准确来源边界完整组件已刊**：[整数RN-even十词与真实coast配方证明](results/R599-accurate-ten-word-and-actual-coast-recipe-boundaries.md)、[完整接口](notes/2026-11-16-accurate-ten-word-and-actual-coast-recipe-interface.md)。只将已绑定准确工厂十参数串按准确有理语义形成原80B比较右侧，原H/state/RHS/J不改；正负零/非法/非有限/溢出明确。closed从实际launcher.recipe.file严格同namespace原coast路径读，再原全bytes/SHA/schema/clock/accepted/quiet条件；不建假旧文件。R597249负责完整实际caller及来源级联，本库未执行不冒已经修好运行，不改238/241/247。R596+599均不添加原科学接受门。
+
 **R574实际240已完整刊**：[原准备完成、双必要超限及未返内部科学](results/R574-actual240-source-and-science-readback-overflow.md)。447绑定和原准备true，外science/rules/exit各1、stop/signal null、quiettrue；source350903/4478a5eb与science221520/64da8ede均未返，原1846/eeff2a1d与1163/9c3983b8 honest70并两job同字，raw未删。transport.source_preparation_complete=false不覆盖实际preparetrue；祖先同目录286365/372dfd68是同240job而非实际237。内部数值/门/具体终因未知。R600继续原完整必要对象的具名来源表示，90K/70/全部unknown/error/stats不减；正在运行246/248只按自己的真实结果归责。
 
 **R568实际238已完整刊**：[全 far/采样、准确有理串与真实 recipe 路径两入口错误](results/R568-actual238-complete-sampling-rational-word-and-closed-recipe-failures.md)。本次C/准确域/all112far/112联合行/13850物理点完整，gzip stored20359322057/decoded95028212980全核，startupfree86797705216；真实BVP因bare-float不能解析准确有理串在453/450两phase前失败，closed独立找旧recipe basename失败。全部后继几何/精化未起；generation91528/4d9dc1bc超90K70缺marker且cleanup未调用/rawfalse。R599按准确生产者语义和actual launcher receipt修两处，再R597249；不重写238/241/247、不取消逐词/源身份核、不当数学拒。
