@@ -245,3 +245,6 @@
 
 
 - [R884附录H](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原σ6/σ12的准确2、δ拉回把其B化严格低配对；同Q48=σ6A42、W48−u16/(78624b)=σ6A420保真实全来源与质量。原Ĉp不变的逐次Leibniz保DR3，最终BQ48及补偿W高读者均化同源低配对，q_p(2)与全部new/cross仍保，未新增中央零。
+
+
+- [R872同一修正的有限类与完整normal返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：完整p³且τ1时，若指定R的全局有限类（含H¹）为零，真实同预算R=FH+J保整个ER/E²R/E³R及ξ短段、原t1列和两近支；故dD≥κ+s+1。小于此门的每个实际R都有非零类，且0不在o(R)+o(kerβ1)中，不能只用K1自由改有限像；未排全部p³或算满像。
