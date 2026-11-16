@@ -95,7 +95,7 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 **R878原有限theta作用已证**：[完整证明](results/R878-original-finite-theta-action-and-section-projections.md)。原E:y²=x³−1、ω、六级标记上，fppf τ与真实E[p]的norm1作用给规范真群律，kerD上固定1；H0(6pO)六条长度p的D链只含χ^0,χ^2,…,χ^p。原x/−xy的χ²/χ⁵投影经D^(p−1)/D^(p−4)分别为−B/B24，故真非零；扩大空间的原sigma低jet积分性、原标签与q-normal比较仍缺。
 
 
-**R879原参考单极函数消费者激活**：[完整证明](results/R879-original-reference-pole254-pencil-from-completed-syzygies.md)/[方法](notes/R879-original-reference-pole254-function-method.md)。直接读R872的418对S/T与原jets，两个272最高项截断及19局部条件组成563×418；准确rank291，实际单位子式和全563回代后才认证(v0)∞=254P0及M0铅笔(1,v0)。corea8573c2a/wrapper2703bec3，30min；不重原核/乘法/逆，不搬122MB源包，不先求参考128。真实run待回填；t帧保c^254/U272不设1，五Lj/九Norm/支持/height仍缺。
+**R879原参考单极/铅笔实际已成**：[正式结果](results/R879-certified-original-reference-pole254-pencil.md)，run43835253379/job133190260738/source0f74fb43；4stage/1.298767032s，563×418真rank291及全563乘回，(v0)∞恰254P0，(1,v0)全局生成M0。finalbf7172a2/函数bfc553e5/artifact14210388032/4b1d3a03（Nov17 08:56），18原R872件直接复用；t帧c^254/U272未展开，不做参考128/672核。五Lj/九Norm/η支持/height仍缺。
 
 
 **R880原D/cusp有界输入已证明**：[完整方法](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)。旧R845十乘积与1111选择只新269 RHS；123原jets给146，同五纤维新962秩给D*完整418；20cusp+252旧jets另给DC完整418。Ef−1206P0=(DC−H)+3(D*−H)+4(Dχ−H)+divQf，Qf=(a*/v)^3/(uχ/τ²)^4及原ρ首项保全。新核未算，原t帧/五Lj128/144/height不预填；旧χ418与R877 A/B直接用。
