@@ -1,10 +1,10 @@
 {
   "schema": "source-bound-public-original-K-defined-degree272-RR-consumer-v1",
   "session": "serre-public-astra-20261115",
-  "request_id": "R900-original-K-defined-degree272-first-scope-pending",
+  "request_id": "R900-original-K-defined-degree272-from-completed-R899",
   "result": "R900-original-K-defined-degree272-representative",
   "p": 41,
-  "producer_inputs_pending": true,
+  "producer_inputs_pending": false,
   "all_new_mathematics_only_in_public_Actions": true,
   "core": "R900_original_K_defined_degree272_representative.py",
   "core_sha256": "31d0911137f7521c994abb02c5c06684afe5ad025a126be195a99b0eb687e1af",
@@ -33,14 +33,55 @@
   "maximum_first_pencil_trials": 4,
   "maximum_second_pencil_trials": 4,
   "resume": null,
-  "rules_last_read_commit": "cc9cb4da3a9578684b40ec888ea9d3b5b8055cb0",
+  "rules_last_read_commit": "25aff780e965fc4d9d06b7fe145ad4f18ac8cf3c",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
   "source_artifacts": {
-    "R899": null,
-    "R894": null,
+    "R899": {
+      "result": "R899-original-K-fixed-seven-trace-RR-basis",
+      "run_id": "43879192431",
+      "source_commit": "34001929c3c44484a7beefe396352c22ed68c1b7",
+      "core_sha256": "9901767869180e7ff6c20ab56a693024adeef7d77aeb5b1105af0476a36e0248",
+      "wrapper_sha256": "2a887562b40272bdb6ba477342f9bbe2190cbd9364b6ff1ce7e3f676ceaeb794",
+      "configuration_sha256": "cd913c163caeec5655ef3a7f4ed6415dcad8034611d46105d89e2155a31efa71",
+      "manifest_sha256": "cb951c29e170592dc9f2ca3659290fa2f082a36185ac5377219de26a2e288eaf",
+      "manifest_bytes": 38889,
+      "manifest_file_count": 291,
+      "certificate": {
+        "file": "p41-original-K-fixed-seven-trace-RR-basis-certificate.json",
+        "bytes": 72971,
+        "sha256": "ff97cb88486f52fc3f5a621cb59d121fdb38c8f9fe0f2dc2faa2a3ddf298b43d"
+      },
+      "artifact_id": 14234003349,
+      "artifact_name": "serre-R899-K-fixed-seven-trace-RR-43879192431-1",
+      "archive_bytes": 45236413,
+      "archive_sha256": "907c1ef83ae70b5ccff655efb1690d9675b359df9ff757089bd50db5dcdfd1a6",
+      "artifact_expires_at": "2026-11-17T14:33:02Z",
+      "expected_conclusion": "success"
+    },
+    "R894": {
+      "result": "R894-original-seven-conjugate-pole-trace-bounded-descent",
+      "run_id": "43864869152",
+      "source_commit": "bf74b397404a0b3b99a035004cfaddcc40359046",
+      "core_sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
+      "wrapper_sha256": "bcf319795c1f9e08211fd471d6b367375ed6d660d96755d26207490090b11836",
+      "configuration_sha256": "3f67098622cf6ed53f6a1afb45e004958a1e929b09ba2c5b75742964d89ca9e5",
+      "manifest_sha256": "6494c3b1fb4d33013265d5bab4acf6534407239dbc911d11283036c21b5cb59c",
+      "manifest_bytes": 74660,
+      "certificate": {
+        "bytes": 26940,
+        "file": "p41-original-seven-conjugate-pole-trace-certificate.json",
+        "sha256": "66684f71abc832615e80a798fe875c8eb3d318fe13984e1d046cb68a23a33f87"
+      },
+      "artifact_id": 14230291708,
+      "artifact_name": "serre-R894-seven-conjugate-pole-trace-43864869152-1",
+      "archive_bytes": 789991719,
+      "archive_sha256": "638b7c6e5acc2ce7d46e8c935571a46513bd9053f81bba6028e7005de487965b",
+      "artifact_expires_at": "2026-11-17T13:25:15Z",
+      "expected_conclusion": "success"
+    },
     "R883": {
       "result": "R883-original-t-first-order-frame",
       "run_id": "43843430426",
@@ -145,7 +186,7 @@
       "sha256": "95e2c88502c73b285a37f26df0765abd8bb4830742c231ced6f64a066fafa26b"
     }
   },
-  "R894_from_R899_carrier": false,
+  "R894_from_R899_carrier": true,
   "prepared_transports": {
     "R890": [
       {
@@ -227,7 +268,7 @@
     "unfinished_source_pins_not_invented": true
   },
   "mathematical_scope": {
-    "input_R899_not_yet_claimed_complete": true,
+    "input_R899_not_yet_claimed_complete": false,
     "original_prime": 1000000753,
     "original_branch": 0,
     "first_required_rank": 1234,
