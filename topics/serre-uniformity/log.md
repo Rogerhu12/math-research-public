@@ -252,3 +252,9 @@
 - 正乘ν给c0值1的原截面νu³v_R；完整Corr同时运输theta代表差/Picard反因子，与N_h^(3q)唯一同构。真实Q三次帧、canonical square的½、原C_h/β/非p项不删。
 - 原地方λ=(χ(νκ/R)+½τ_J(z³)+3τ_Y(v))/(3q)，仍待指定periods及高度不相消；接原椭圆sigma实际求值。半对偶已推91c7dd5f；R824续run43792912432/job133055178711已执行原数学步。
 - 本push规则：本地真实pull至70aa7ef1b19770a489c325e225c27422a4d6c699（2026-11-16T02:37:57.947392+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 10:56 Asia/Taipei — serre-public-astra-20261115
+- 新原CM sigma/period稿a06a80ea：μ3补空间唯一〈xω〉，由原u²(1−u)=bξ⁶给整u/w/H及F=∫w∫H；cubical原ψ₂=−2y严格给line-log=logξ+F。
+- 正整数倍率保ψ_n/其导数，得六点value/first-period与完整尾SP25–28；RF对称项降至原六椭圆点七共轭，完整Q三次帧、Y/ℓ/nonp及split差保全，无新数值或高度非零断言。
+- 根读R699.27a/R634/R724及Balakrishnan–Besser §4原文，ordinary特例不用于本证明。辅助ℓ518不可作41精度；R787旧primal run02:49真实failure且尚无数学artifact，正在取runner诊断；新dual不动。
+- 本push规则：本地真实pull至76ed6f2b086334cb157fdd2ed3e3e9021724bc8e（2026-11-16T02:56:03.162841+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
