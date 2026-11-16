@@ -180,3 +180,10 @@
 
 每hit仍原attempt/range_count；每miss原complete_box一次，未返/异常不cache。原1M逻辑上限未解除，管理成本/内部检查不同不冒相同时间停止或速度。LRU0..65536/default4096只限条目；原计算返回与新调用返回分列，后续分配失败仍完整记录未返回。完整32b0经五唯一文字编辑生成70299/ae9dde独立main，只在Actions物化；真实helper/class owner/F/B全SHA同目录，旧全局/数学/预算不改。新main/必要统计尚未在request/driver/reader登记，不改冻结212/214/216，不把科学接受或性能当附加前门。原全部native/fullDN/453→450/metric/geometry继续。
 
+
+## R495 — 同准确C新叶进入完整度量消费者
+
+**已证明（原完整加载、同根族包围与原条件下）；新源未执行。** [R495](results/R495-same-C-refined-leaf-complete-metric-consumers.md)/[接口](notes/2026-11-16-same-C-refined-leaf-complete-metric-consumers-interface.md)五件bridge12303B/06656a5e、generator9410/39b2b455、plan55758/1875db99、proof15191/f4a06c61、接口21890/9f675efd，环境失联后全部原字节与SHA精确恢复。四家族original112/resolution112/completeM/incrementalM均先真实原loader完整通过，再核实际模块/同class、R489原件/完整输入与R492准确交叶；同一C根族不选中心，旧definition/CP/全节点/B/材料/十词不改，新身份独立。
+
+新叶真进入准确target/L和七个cut系数，原完整场六jet、五个Loewner/全闭DFS视图和第六R459 opnorm/evidence视图消费；R483独立局部coast包含所有piece/支撑/共享闭端点，旧全局不改。原全部root计划/两反射片/两帽/严格四Loewner/祖先覆盖/实际t/比较保持，不能用同η多次pass替代实际误差下降。原尾E(r)闭query/R426及材料t点field仍用原有效包围，同准确函数所以合法，但不称该两处已收紧。保actual202205原clock/launcher与全未访/资源状态，协作检查不冒异步硬杀；单90KB超70/原raw与quiet责任不减。六完整输出只Actions按源计划生成，R464临时baseline须先真实生成；没有新接受父/R489 run/全域误差或几何比例，不作新BVP前门。
+
