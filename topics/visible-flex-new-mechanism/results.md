@@ -441,3 +441,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **末槽首实际在输入类型处停止，未消耗LP64。** [完整原记录](notes/terminal-paid-slot-first-input-type-stop-20261116.md)：run43786841449/job133036290253/source60ff5c1171c3c94ac84f7fcb88427c530daf69e8，11新分支全过；原单LP10.0被新int断言误拒。恢复/value/J/model/LP全0，原63LP/58values不变；本次science2.884255101、累计260.479586314、process4.20902359/RSS153336KiB。仅修未完成入口，已付11/9不重，非数值候选失败。
 
 - **R424：完整局部C²负四自然函数的共同母归约。** [证明](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)给六显示密度、q1/D/E5/M25真实矩阵det−1/16及ρ⁵(Hw)⁻⁷(Hξ+c)准确transport；从起点共同M25后同Q4 NH比例，ordered3+2全0，补wholeE响应后负四平移头杀之。原q四约束/19真根同点保留；不以principal消项或C²连续冒完整locality，未付kk/period仍欠。
+
+- **末槽第二实际停在请求schema，LP64仍未启动。** [原记录](notes/terminal-paid-slot-second-request-schema-stop-20261116.md)：run43787979008/job133039809172，旧11/9只复用、10.0原值已通过；旧field helper缺source.coordinate_definition_sha256。value/J/model/LP新0，仍63/58；本次science10.578692648、累计271.058278962，process11.951187913/RSS295396。完整适配字段后继续，不跳身份或重付旧检查。

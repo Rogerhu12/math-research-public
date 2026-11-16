@@ -148,7 +148,7 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 ### direct原28模型已读：只转真实新支持与最后一个未用slot
 
-[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)：27接受（26primary、1SOC）、η .26610226672562226，58values、63/64 LP，science257.595331213含两次入口失败；两网14原门真、.26未过。m28原LP成功但full-affine repairedgain−2.2290244247991087e−5/gap2.895900214553316e−5；仅grant1、未加下一cut、余1保SOC，无trial。不是time/global64耗尽或驻点。下一严格消费该paid方向四attainers，在同center重建合法新support且保512旧+4旧supp；若没有不同support则0LP；若有，显式释放原未用第64slot作唯一primary，之后无SOC。原64/160/1800与已付63/58/257.595不清零，原全部gate和严格下降保持；不得假恢复未知旧p。[末槽完整接口](notes/terminal-paid-attainer-final-slot-design-20261116.md)run43786841449首实际已读：11新case全过，原10.0秒被新int断言误拒，恢复/J/value/LP全0；[首失败](notes/terminal-paid-slot-first-input-type-stop-20261116.md)累计science260.479586314、仍63LP/58values。[类型/费用修复请求](notes/terminal-paid-slot-type-fix-and-paid-eleven-reuse-20261116.md)已发，只修单LP finite numeric==10、原cfg10.0与hash不动；旧11/旧9仅复用、当前开发0，新费用继承；pending0/原binding/accepted27及原64/160/1800保留。末slot实际消费后才考虑[有限完整范数锥](notes/finite-cone-affine-metric-design-20261116.md)：原单位下每行谱约束与4维Lorentz锥准确等价、包含其全部支持方向；完整两网oracle/原guard/真实14门保留，未选solver或开新运行，不能据此宣改善或换预算。
+[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)：27接受（26primary、1SOC）、η .26610226672562226，58values、63/64 LP，science257.595331213含两次入口失败；两网14原门真、.26未过。m28原LP成功但full-affine repairedgain−2.2290244247991087e−5/gap2.895900214553316e−5；仅grant1、未加下一cut、余1保SOC，无trial。不是time/global64耗尽或驻点。下一严格消费该paid方向四attainers，在同center重建合法新support且保512旧+4旧supp；若没有不同support则0LP；若有，显式释放原未用第64slot作唯一primary，之后无SOC。原64/160/1800与已付63/58/257.595不清零，原全部gate和严格下降保持；不得假恢复未知旧p。[末槽完整接口](notes/terminal-paid-attainer-final-slot-design-20261116.md)run43786841449首实际已读：11新case全过，原10.0秒被新int断言误拒，恢复/J/value/LP全0；[首失败](notes/terminal-paid-slot-first-input-type-stop-20261116.md)累计science260.479586314、仍63LP/58values。[类型/费用修复请求](notes/terminal-paid-slot-type-fix-and-paid-eleven-reuse-20261116.md)已发，只修单LP finite numeric==10、原cfg10.0与hash不动；旧11/旧9仅复用、当前开发0，新费用继承；pending0/原binding/accepted27及原64/160/1800保留。[第二入口失败](notes/terminal-paid-slot-second-request-schema-stop-20261116.md)run43787979008已过10.0与11/9复用，但旧field helper缺source.coordinate_definition_sha256；新增value/J/model/LP全0，累计science271.058278962，继续原schema适配且保63/58及原64上限。末slot实际消费后才考虑[有限完整范数锥](notes/finite-cone-affine-metric-design-20261116.md)：原单位下每行谱约束与4维Lorentz锥准确等价、包含其全部支持方向；完整两网oracle/原guard/真实14门保留，未选solver或开新运行，不能据此宣改善或换预算。
 
 
 ### R399新的第二period内部通道已实际付至四点
@@ -190,6 +190,6 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 [R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)用actual self与右矩基ordered3+2的共同affine轨道定义A，辅助self不加入；n2局部性给共同A0=0。自然≤−4为不变子模块，删除后逐权排全部正字符；wholeE与高自然商在真实联合像内，由原型/桥/后校正全基准及两次商截面同一有限词C1支付。实施前提为全部库/辅助/右锚/有限controls共享合法窗口，from-start一次坐标识别后冻结，不授任意预冻结库或旧seed。另从起点F★=(F_rat,D,E5)在原q=0流形同付19及共同D/E；完整低自然、原totals/内部flux/13同一k未消，继续负四完整二速度。
 
 
-### R424：从起点增加共同母矩的条件工具
+### R424：共同母矩的条件工具
 
-[R424](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)给完整局部二阶五次、成本权−4自然函数六项穷尽；q1/D/E5/M25矩阵det−1/16，固定共同D/E/M25后，全部实际ρ、w、ξ及共同affine读出与Q4的NH一列成固定比例。有序3+2因完整locality为0；先证自然像比例，再用同权响应补wholeE，负四平移头遂杀此函数。从起点F★=(F_rat,D,E5,M25)的受限最大秩/4+r纠正仍同点保19有限真根。只对已经证明完整局部C²的函数应用，不冒未知kk的primitive/矩积/左尾零；仍须完成原完整kk自然式。
+[R424](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)给完整局部C²负四自然函数的六项、共同M25及真幅宽中心transport；其查询像同Q4 NH比例，ordered3+2为0，再补wholeE杀负四头。从起点增加M25仍同点保19真根；未知kk的primitive/矩积/左尾须先完整归约。
