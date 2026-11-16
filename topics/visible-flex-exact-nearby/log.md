@@ -207,3 +207,9 @@ run `43896937318/1`、workflow `5a391cf1c8fca666df9484266a4a12af84c03473`、actu
 ### 2026-11-16 15:34:38 UTC — WEX执行字段计数口径纠正
 
 直接数完整 `306b5e426e49a2b058856907d84cdc9a50ce4dab` 为43顶层字段，静态execution模型44含超过四次pull时才写入的 `readme_retention`。本轮恰四完整pull，实际合法43字段；先前root核对实际字段集合与模型去该可选项完全相等且为真，仅日志标签误写44，现准确更正。32 SCI、31新/62原/18scope、全部原球/状态/全chain与其他结论不变，无新科学执行。
+
+### 2026-11-16 15:36:45 UTC — W2H完整双侧反馈纯证明
+
+完整proof `7e1c46ddc9c1a771a06c6bb4bf87c8676fd8c898` /24119B/SHA `72bef388c4bf801bfe746f0b645d1439d1a066ae3d6b7d68ab75b374b2908d6b`。根全文读10节/28式，亲核WPT真实dual窗/两完整source columns、已读WVC kernel/assembly与6条实际原球逐字；最终只补当前完整低reference记号D_f（WVC D_a；WCTR rId+D_a），逆两处替换逐字恢复397c原proof。K=C Vhat−What* r+d*GHr及centre ΔA/ΔB/ΔC正负号已核；独立collar正预算>128/25与旧KH>171仅否定固定正预算可闭，不是实际norm下界。新dual必须保端点/跳跃/atoms/真实H1窗和所有独立口；完整signed候选不能减两个旧upper。可选center corrector内部角224，中心残差288、full family416，与径refinement160区分。没有新数或自动重试，全finite/head/ν/Θ/非线性仍待。
+
+为保H≤10000B，将 `a4cadcb2c66b112a3fd98ecf2c2adc34d598cf4b` 的完整H原字映射为 notes/2026-11-16-WEX31-complete-and-WVCA-false-handoff.md：Git `87a318283c97a387f3e5c5f6bf2307a56401eb77` /9749B/SHA `cf3b4d1e836ad9b5d5f0351352015ed2da5a19f2700019dfdad749afde8c1d40`，不改变其中任何原字。当前H仅把旧归档索引、三批cleanup说明及未执行WML/WMC计划改为该完整页的索引；全部原对象/球/域/失败lost/清理恢复/义务仍保，不删任何待办。1b397d402ac0d6ff5872f77c1409fba356ff77c6两README仍同已读。

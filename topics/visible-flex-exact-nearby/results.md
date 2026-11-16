@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [W2H：完整双侧高反馈与中心修正](results/R133-supplement-two-sided-high-feedback-and-complete-centre-correctors.md)：精确 primal/dual residual 恒等式保全同算子、两 RHS、两均值、所有原子与 ports；证明旧固定 collar 的正预算障碍，未推出真实误差下界。新整 signed-centre、family 与角224/416边界已列清，0新科学数。
+
 - [WEX31 完整实际结论](notes/exact_waist_flux_endpoints_ci/run-43896937318-1/actual-scientific-conclusion.json)：首轮31新全成、15结构门全真、0旧重算/0 lost；whole与reduced各选新完整候选约3.790258283e255，原62球/18范围/两均值及所有独立义务保留。该界仍非小，未推出有限逆或闭合曲面族。
 
 - [WEX31 首轮完整消费合同](notes/2026-11-16-R133-exact-waist-flux-endpoints-current-inputs.json)：8 原小件、62 原记录及 18 整体范围引用全保；12 current / 2 AST / 0 history，31 新目标尚未执行。根独立重建成功、完整失败、preflight、execution 成败及 marker 六模型，全部 bytes/Git/SHA 原字相同；已完成目标 0 重算。

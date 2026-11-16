@@ -201,3 +201,5 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 [WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯定理：trace clip±c/64、两向rate/τ、完整matrixρ2^-1及S/action/transpose、lift5/4；实际四块与κ3不改。完整WVC56已成，后继拟20copy+36新/真gate另2，alltrace0完整copy保原6/5。无新actual，e+3dt<1/全两rhs/7ports/physicalmean及其他匹配仍待。
 
 [WEX](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)6ffd46a4首31已在43896937318/1完整实现：4图12+6+6+7/15gates/12current/2AST/0history，62旧record/18整体context全部保；同P/B0B1/C1C2/profile、Cs/WT/physicalmean/四端/RF与whole/reduced完整对象不改。各整候选选新约3.790258283e255，仍非小；旧0/lost0，此31冻结。完整actual见 notes/exact_waist_flux_endpoints_ci/run-43896937318-1/，proof进行；finite/负head/ν/Θ/全matching独立未闭。
+
+[W2H](results/R133-supplement-two-sided-high-feedback-and-complete-centre-correctors.md)72bef388已证完整双侧反馈恒等式与centre Δ分解；旧collar/旧receiver固定正预算>128/25且旧KH>171，单降body不闭。下一完整新候选须保true dual H1、同G_f全部atoms/mean/ports、两rhs及signed-centre map，再付全部family/trace/tail与e+3dt门；角224正确器残差416不混径160。纯证明，无新target已算，WVC56/WEX31全部冻结。
