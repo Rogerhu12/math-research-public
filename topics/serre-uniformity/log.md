@@ -505,4 +505,9 @@
 ### 2026-11-17 01:26 Asia/Taipei — serre-public-astra-20261115
 - R927完整证明：八次范数本原部分给整个端点理想/全16列双向证书，两矩阵只损μ；NmΦ沿真实叶范数首项累积，保原正乘与参考det帧。
 - 原参考完整target-P0块的Nm(qρ0)阶≤8，九项足够，补块按原配对只除单位；旧254极阶/U272/t首项均保，五目标仍null。根全文核读并核原R879共同零与配对来源；新端点数值未算。
-- 本push规则：待本仓库恢复Actions真实pull并核两README；最新已读82f469f04fe4696d38a17940e63b1daf2d311472（2026-11-16T17:25:18.639879+00:00），两README SHA6979d793/35f82f3d无diff，主目标OPEN。
+- 本push规则：公开Actions真实pull至2ee498676684fa3eac29b4cdbf8c68c8f39bcfd2（2026-11-16T17:26:44.017250+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:29 Asia/Taipei — serre-public-astra-20261115
+- R928实际完成43918212179：57stage/1.514405223s，新8δK、真V=K/P_U完整商法则、全目标g/h和两2176坐标J运输式全部通过；全E单位框架保幂零，J未求逆，93原件不重。
+- R923实际两端目标655stage已success、d0/267项；仅激活v25必要源metadata读取供R927，未在外部执行新数学。七连接目标单位/σ/cY/height仍待，R930源码继续。
+- 本push规则：待本仓库恢复Actions真实pull并核两README；最新已读2ee498676684fa3eac29b4cdbf8c68c8f39bcfd2（2026-11-16T17:26:44.017250+00:00），两README SHA6979d793/35f82f3d无diff，主目标OPEN。
