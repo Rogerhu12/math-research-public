@@ -67,3 +67,9 @@ WPS/WRP完整current manifests、WSMF proof/math/owner、W4M proof/science及WVC
 根完整读845行源和全部数学，23项纯JSON/identity核全通过：47原record5581B/4457507a、11完整scope55085B/d5220ec8、accepted12664B/ddb5935e与两完整原actual路径逐对象一致。完整五图9/6/8/2/6=31槽，30新+T0 exact原copy1；全部formula、两patch、HS=Bessel/768、四端、3070及同operator各选全保。每new scalar先完整原字持久保存/readback供下游；失败保全已算前缀并禁止自动重算。
 
 六静态模型各完整取回核SHA：success95135、latefull97989、preflight13968、execsuccess22229、execfailure45741、marker657B。新球均256B占位，无科学求值；SCI99K/exec59K/report2K=160K完整publication，另120K。fresh容量199087824B@08bd7d1a64dc73fdaf0870559738eb4b902aac6a，加两套源码/manifest/workflow/Hlog、160K与WSMF152K全输出及双120K预留，保守投影199910835B。两首次run按序launch/publish，立即prechild时无另一live待发child。此提交只冻结source/manifest，workflow另独推；数学未执行。
+
+## 2026-11-16：W4M 首次单次 Actions 触发
+
+2026-11-16 14:28:49 UTC；README核6ae5f5d544f6f51a6d76dbc34b0d0c7f52edf3f8未变。源/manifest已先独推97738202e8e8858c3698a312a3768d1deca811f3，本次仅新workflow13bc92d910285223d3653c9e17b1d0e9857383b4/2933/SHA13c64034f597bfbdea7eb0e53ea89d61fedc38263b05920dadf8b29508de12e5单次push触发。脚本固定manifest63e4a030和既有worker3770e29d，public main partial clone/blob:none；worker每真pull比较两README完整diff并记receipt，先全只读6输入/2AST及无Flint预核，再写consumed marker、fresh pull/容量核后唯一child。
+
+本次仅授权此前未执行的30new+1exactcopy，旧WMTA/WRPA/WSMF目标不算；完整160000B publication+120000B两次prechild容量门与实际成功/失败≤200MB保存均有源代码约束。运行未完成前不宣称数值结果；任何失败先记全部已成prefix/lost或未算边界，禁止无条件重跑。WSMF首次child在本次完整输出发布后才launch。
