@@ -3,25 +3,27 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 96ca8a02f5349d3135be1fe7181050acb58edffb（2026-11-16 09:48:54 UTC，Actions run43843126130实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43843126130-1.json。
+- **最近成功实际 pull 与已读规则提交：** 85049ecab0b62dd5e7a3983841844ddee52b3da4（2026-11-16 09:59:37 UTC，Actions run43844738994实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43844738994-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor约07:20失效、09:00复探仍不可用；旧tmp未冒存活。现有Actions执行真实pull/rebase/push，API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-exact-bell-natural-power-source-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-joint-b-length24-result-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
 - 已全成：四参数run43830684123/job133175032397、原pencil run43836278134/job133193599424；正式结论/身份见下及归档。根全日志/原raw/binding独核；数学数据只tmp/日志，不冒旧tmp存活。
-- **原Bell1 run43832009393/job133179333013运行中：** [接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)。600/1200/1800均实际exit75（wall598.467/1198.568/1798.545），末raw9011/SHA433aa576；阶段待完整日志。保全17变量/18原源及双degree自测，权5至9后E600秒/4GiB；仅原E三个完整分量=1可闭合。截面失败不否定其它来源，5分钟同job续接窗、80/90分钟范围、每28分钟实际pull，执行身份notes/r150-original-full-bell-source-execution-789f/。
+- **原Bell1 run43832009393/job133179333013已结束：** 600/1200/1800均75；双degree自测及完整权5/6/7实过，G列38/109/318，来源项2870/38881/447756。权8末真log只到原source已核、pair未完；conditional900真命中，但在57.8MB候选dump终标前75，未成候选/未进新验证。E未跑，job因未完报failure，非负数学结论。根四raw完整SHA已独重；不能假tmp还在。
 
-- **条件pair续接已实际推送076cad7、run43840731963：** 仅父真log确认source已完/pair未完才一次重构、先存全候选；全source/reverse/256对事务仍逐门核。父out不改，field1仍须E适配，接口notes/2026-11-16-r150-original-bell-conditional-pair-recovery-interface-789f.md；数学运行待实日志。
+- **Bell实际下一步：** 依下列精确自然幂定理跳至可能的权9，std只发现纯tt后才求18×1原source，先SSI保存，逐原乘回/独立FLINT再严格E提升。normal正在准备独立新源码/队列；不重权8大来源dump。旧wrapper轮末close=true不再读追加request，当前job不能热加步骤；未来须明确轮末重读或留窗。
 
 ## R150原rank-one精确系数接续
 
 - 原17梯度/6188来源/4367输出与degree23的h*保持；全Q相对T维25/ann h*、h*W⊂L、全W源费8391。Bell8/𝔫⁸仅原归一rank-one构造。唯一127扭子/九目标整源不外推全W，完整公式见归档。
 - [原Q完整模块](results/R150-appendix-zero-relative-target-partition-three-one-one-and-global-invariant-factors.md)已闭：T0=(3,1,1)、全不变因子(s,s,h*)，原t2,t3,t4最少三生成。
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
-- **共同B完整结构run43841516263/job133211082521已实际运行：** [五步及严格证明接口](notes/2026-11-16-r150-original-joint-b-complete-structure-interface-789f.md)，只三原恢复＋真p9/35项的8→7→3→1重建＋同父消费者，不重210/currentK4/H25。全4433原整数系数，14个真实root2基；高三数字及低六数字，15低目标含独立ph3，18×22真关系的D提升/等长门与18×18参数作用完整核。原104/315/505门全保，两个数学段1800秒/4GiB、75才同job续。源码/证明全审且已推f9de37e7；三恢复exit0，真选源178.678秒/exit0/raw27357·ca169571，消费者正在跑。未预填低重数/最少生成元；后续共同M及其它open。
+- **[共同B完整D型及八参数生成元已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35项同父run43841516263/job133211082521全成，选源178.678秒＋消费268.741秒；B=(D/p)^6⊕D/p²⊕D/p³⊕(D/p4)^2⊕D/p5，长24，dD11/dR8，xB=(1,1,1,2)、pxB=(1)。真原18×22呈示经D提升/独立等长，完整x²0及原九单循环(5,2)全核。根两raw27357/54717、双binding、96原阶段/17类/9坐标/6payload独审，未重矩阵，审计源码随稿。
+
+- **下一共同M：** 乘h*给M→B满射，故dR(M)仅8或9。lit先完整225原Krylov及根1/2自由影像资格，再各根真free列＋tors carry；h*在两根都非D单位，不能由B猜M全部tors。root1须自身local G/V。其它127/全W及归档open继续。
 
 ## R150完整非rank-one及Bell1
 

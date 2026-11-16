@@ -2,96 +2,40 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1004-R888-original-cyclic-quotient-transport-and-R887-activation",
-  "commit_message": "serre: prove original cyclic quotient sigma transport and activate common cusp flip",
-  "rules_last_read_commit": "f5321aabd77f7d0b02796627722e0e5e09026411",
+  "request_id": "20261116-1002-R883-actual-original-t-first-order-frame",
+  "commit_message": "serre: certify actual original t first order unit and marked frame direction",
+  "rules_last_read_commit": "18760e9472f0f1ff2d4dd21d5fd3dc33b5bc91df",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "9ca70bf4fc1ebff161caf5cb42d9db66bdc1e75a38ef5be70dbe89fef7d9f153",
+  "expected_previous_request_sha256": "9cb67d0a54ffd69e533f80d9cb13e0e981ae580cbc42ebf37ce919cb237a0060",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R888-original-two-cyclic-quotients-and-sigma-source-transport.md",
-      "sha256": "50b12755920b34072073e497bc3112b79a818458287cbe0e1794dfac05881cd0",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-mixed-sigma-transport.md",
-      "sha256": "8ed9a7e3b0cebadb0aa7fdac28d94941316fcbe0878310ba0a551b70ad480621",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R887_original_common_cusp_flip.py",
-      "sha256": "d469ef046e8575eaed34e5670275f80554edf8cdae723ef3fb029b979e07508c",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R887_public_original_common_cusp_flip.py",
-      "sha256": "78a00876c4ecc7309df237de6457068745c65e5b6e65e226db0ce1d362f0cf7e",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R887-original-common-cusp-flip-execution-method.md",
-      "sha256": "ae992344dc1305012fe69229d201fa807b84ad96456f97d6cd826accaafb128a",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R887-common-cusp-flip-public-request.json",
-      "sha256": "622d6b07a892339d5139981ab0f21abe0100204cc02d05e79265c93a6ff9da1b",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R887-common-cusp-flip.yml",
-      "sha256": "94970a27d02b5c8dbb8d738c2e50fe0cc4bad9de7c4bf50ac59ac324ad671ecd",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/scripts/R885_success_small_IO.py",
-      "sha256": "93fc413d00bc50908606cd64b3b44217d32a22736ca621d80cf2410d0af0ad4f",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R885-success-small-IO-request.json",
-      "sha256": "be7055a9f48a084d6ee75cc4ff1e76890fd199b7d90c3d625d91170926e7e9ee",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R885-success-small-IO.yml",
-      "sha256": "f6cbc684bbedd4ab49b5f0c7ebdb5452b0613b953fdec057eafeed1fcba13776",
+      "path": "topics/serre-uniformity/results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "189069e34210a13f25036aad2d0b6b2226d22b8f0c6adef5af8775ceb158844e",
-      "expected_previous_sha256": "8ed9a7e3b0cebadb0aa7fdac28d94941316fcbe0878310ba0a551b70ad480621"
+      "sha256": "99394ae74ea3e262c128a22cd58e19bb434dc7206a41ba1f5b7d224ac6d72b36",
+      "expected_previous_sha256": "d31ad5e6b4994b664d372ab1915991ba0d0e45cdde41d544684459944235154d"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "d8e8786ebcdf474d2519bbffef628f71dc5d509967611083e8d7981617292b14",
-      "expected_previous_sha256": "eb88d66cca3a4160e0e3c7e56aad07e82d922c647e9c6d2727d2cc0f562da695"
+      "sha256": "8d0ffd32a4b6efd2fa90e1528c024219b220225103292bcd8453cd74b7ecab84",
+      "expected_previous_sha256": "d8e8786ebcdf474d2519bbffef628f71dc5d509967611083e8d7981617292b14"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "7461057432a8c232109e789be119c3c4ef6cc6dd271136219e3d36c1f22ce159",
-      "expected_previous_sha256": "8801f7211f0d45a4da94178654ef856c3bd3b071d6594929ede31adf02011585"
+      "sha256": "78806751fc346c06c2e7e3666c106d5276d71aed035141f2b83d30e1d69b48b0",
+      "expected_previous_sha256": "7461057432a8c232109e789be119c3c4ef6cc6dd271136219e3d36c1f22ce159"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "0cdbcac5879a9320dd4b561562729ce2a3710555c5ee54ab2e623dcc510a7ee8",
-      "expected_previous_sha256": "3f9aadfce7ef21ddbef07f14b32b3d4002201c6d1000a916cf3187ef86ba017a"
+      "sha256": "545c993d3413009e3b73d92a04b2a554f5a21d87aa89a876609c3355bf79af37",
+      "expected_previous_sha256": "f3bc3df69619feecedf73b46b128a982b5ea93d33e4e2573d830119366ef6af1"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R887-common-cusp-flip.yml",
-      "request_path": "topics/serre-uniformity/notes/R887-common-cusp-flip-public-request.json",
-      "request_sha256": "622d6b07a892339d5139981ab0f21abe0100204cc02d05e79265c93a6ff9da1b"
-    },
-    {
-      "workflow": "serre-R885-success-small-IO.yml",
-      "request_path": "topics/serre-uniformity/notes/R885-success-small-IO-request.json",
-      "request_sha256": "be7055a9f48a084d6ee75cc4ff1e76890fd199b7d90c3d625d91170926e7e9ee"
-    }
-  ]
+  "dispatch_workflows": []
 }

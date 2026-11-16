@@ -188,3 +188,7 @@
 
 - **R150原Bell自然幂与齐次参数幂的精确来源定理（2026-11-16，已证明）：** [自由三分量及全部原来源提取](results/R150-appendix-original-bell-natural-power-homogenization-and-positive-source-gate.md)给$A[t]/(\mathcal J,b-t^3)=C\oplus Ct\oplus Ct^2$，所以$t^K\in\mathcal I$当且仅当$b^{\lfloor K/3\rfloor}\in\mathcal J$。对原十八来源取$t^3-b$余数的第$r$分量，得到无参数除法的十七梯度自然幂恒等；其权恰$3\lfloor K/3\rfloor$。最小自然幂$q_0$若存在，完整Bell一单位来源的最小加权层恰$3q_0$。复用原完整3520×388源/三目标的模127秩388/391，在实际$d=100$下$(1,100,94)$平方仍非零，故该处及$E$/三个复嵌入均排全部$K\le8$纯参数源。候选中一列完整十八原乘回已足正证；其它配对只用于另行证明标准基完备，负结论仍须完整门。纯代数证明、normal全文独审，无新数学运行或自然幂正证。
 
+
+
+- **R150共同原九目标系数模的完整D型、长度24及最少八参数生成元（2026-11-16，已证明）：** [完整真实来源及模呈示](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)由真$31^9$/35项的$8\to7\to3\to1$重建、高三位和十五低目标六位原carry，取得$B\cong_D(D/p)^6\oplus D/p^2\oplus D/p^3\oplus(D/p^4)^2\oplus D/p^5$，长度24、$d_D=11,d_{D[s]}=8$。原$xB$类型$(1,1,1,2)$、$pxB$类型$(1)$；完整十八生成/二十二真关系经模$p^6$变换的D提升及独立等长证明为真实呈示，原$x$动作保关系且$x^2=0$，九个单循环全为$(5,2)$。$B/pB$上$x$型$(2^3,1^5)$，$\ell(pB\cap xB)=2$、$\ell\ker x=19$；原$M\to B$满射给$d_R(M)\in\{8,9\}$，仍须算共同M。实run43841516263选源178.678秒/消费者268.741秒，根与lit各自重构完整raw54717及binding；根另核父raw27357、96阶段/25整数乘回/12 unit求解/17类/9坐标/6payload，附可复现只读审计源码，不重矩阵或保存数学数组。
+
