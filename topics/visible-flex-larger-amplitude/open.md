@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R597 已证明（完整来源与条件调用；request249实际R598待返）：** [完整证明](results/R597-current-saved-RHS-and-accurate-input-complete-caller.md)和[完整CLI/来源/必要接口](notes/2026-11-16-request249-actual-saved-RHS-and-accurate-input-complete-chain-interface.md)保原241全部642来源，真实704=324公开+380生成/15层；R599只修准确factory十词与launcher实际coast recipe两输入边界，R596同实际R575/同次R553记录及原退休接全normal/compare/recovery。finish在原Budget/interval内、资源停后仅未完整metadata；全原BVP/mesh/M/闭面/held/reach/relative metric/全t查询/必要/quiet保持，18900+2700和90000/70不改。R580/R601不在249，完整非零450/误差下降/条件常数都待实际作业；geometry后续R606251付真实R580/R601同对象一次finish，R598/R608分别唯一读者。
+
 **R602当前DN原schedule的实际支撑乘积组件已刊**：[完整来源及条件证明](results/R602-current-DN-existing-sharing-and-actual-input-support-products.md)、[全部API/统计接口](notes/2026-11-16-current-DN-input-support-fourier-product-interface.md)。先确认当前224列已经共享root/primal/六矩/Cholesky；唯一新变化是原717ac全A*T薄接R523同输入支撑，完整226×224/双mean/每槽j序、原integrationGrid/RK保，非有限原fallback。14计数/last/reasons/源身份保，不冒性能/资源前沿或全run同词。R603250真正接R594248的owner12000来源，R607 amplitude唯一；原63/78/91及19200和原门不减、不混已失败244来源。
 
 **R539实际227完整终态已刊**：[零高返回、正高在途和原总钟停止](results/R539-actual227-zero-height-response-positive-inflight-and-necessary-overflow.md)。真实193源/两worker/6输入；零H原182.227128751s/converged/norm0及predictor ready，不冒外返J/audit/fullDN。正高1/64只有started没有returned，原18000.49249517s停124/child−15，两quiet范围分别真返；完整必要211682/d7dc未返→1494/825c原70同字，缺marker所以raw未删。正高残差/J/每worker进度未知，不借零高耗时证明收益。R602只薄接当前717ac完整A*T，并不迁入R531的不同轨迹/schedule；两线原合同保持。

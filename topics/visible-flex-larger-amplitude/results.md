@@ -135,3 +135,5 @@
 - **R539（已证明的实际227完整已返范围）**：[原零高response、正高在途、18000总钟与211682必要超限](results/R539-actual227-zero-height-response-positive-inflight-and-necessary-overflow.md)。193源/6输入完整，零高norm0和predictor实际返；正高只有started、124/−15/quiet真返，原70及未清理保。无正高J/FD/fullDN接受或性能外推。
 
 - **R602（已证明的当前DN来源与局部乘积条件）**：[既有全列共享和原717ac中完整A*T实际支撑](results/R602-current-DN-existing-sharing-and-actual-input-support-products.md)。只新工厂5625B直接复用R523，原root/J/grid/RK/全部行列与mean保；有限条件同词/非有限原fallback、14统计/full last完整，尚无运行或速度结论。三件39197B。
+
+- [R597：实际 saved-RHS 缺陷与准确输入边界的完整当前调用链](results/R597-current-saved-RHS-and-accurate-input-complete-caller.md)（已证明：原642→真实704来源/15层，R599两输入边界与R596同次R553/R575/原退休、normal/compare/recovery全接；原门/钟/90000/70保持，actual249/R598数值待返）。
