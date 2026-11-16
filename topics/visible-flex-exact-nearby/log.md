@@ -516,3 +516,7 @@ proof02f93880/32929；root全文逐符号读T/可选M/径向有限矩阵及完�
 ## 2026-11-16 09:08:39 UTC — 触发唯一新的WHV公开Actions
 
 新增共享workflow .github/workflows/visible-exact-zero-volterra-positive-head.yml（c50fee93/2914），仅本题冻结ffcf1b75源包；partial checkout、Python3.12.14/flint0.9.0、worker/manifest完整hash和AST先过，然后15 current/13history原字恢复与纯JSON admission，再公共marker与唯一新科学child。cancel-in-progress false，已消费marker阻止任何重启旧成功/部分目标；不发布新数组/artifact/Release。只新3max及预声明网格目标，实际success/falsegate/失败均以完整新receipt为准，尚不授数值结论。102aa8933dcbf7198f2429d84694cbe1adb25490两README版本同已读；最新truepull仍08:49:28，期限09:49:28。
+
+### 2026-11-16 09:15:11 UTC｜WHV 首次运行停在运维提交，完整旧输入只读核验已成
+
+公开run43837109596/1（event e060e8095fe1dddca7909ef951b485b943c7cd08、job133196378841）仍记failure。完整小job log全读并锁hash；两次成功真pull的全部README diff均空，最后09:09:20.048130。readonly 7门全部真，15current/13history/6AST、原4650+4650rows/3594interfaces/原进度4608及9旧literal全保。marker621B仅打印；push被拒后立即真pull --rebase，但缺committer identity，随后未完成rebase使最终pull也失败。唯一科学Popen在marker推送成功之后，因此本次science0/new0/old重算0/lost0，无新科学前缀可恢复。完整证据 notes/2026-11-16-R133-WHV-pre-science-failed-attempt-evidence.json（e6b6f079…/6946B）先推；仅允许修Git identity与对应运维pins，再执行全部尚未计算的原WHV目标，不重旧数学。只读README核ce020bd644650e3bbf4255904529585c5b6553f9；未达总验收，继续。
