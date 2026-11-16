@@ -177,3 +177,5 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 **[R899完整K固定418实际认证](results/R899-certified-original-K-fixed-seven-trace-RR-basis.md)**：280stage，finalff97cb88/manifestcb951c29；全部列通过同418逆归一、七重cocycle和原未缩放P0行保留。三个正规空间纤维与164件原输入carrier可直接复用，不重16flip/旧W/K/正常/jets。R900激活实际请求而非重复R899；五Lj/连接/period/height仍未成。
 
 **[R911精确CM粘合二分](results/R911-original-Picard-descent-and-exact-CM-gluing-dichotomy.md)** 已证：保持原半线性环约定，Picard余切与曲线H0Ω同字符，dual Lie反字符；原Drinfeld余切仅低半奇权，Igusa无primitive t_h，故R910上半r0被排。严格r_h=0（h<n/2）或2h−n（h>n/2）；上半实际αp两线分别嵌入BD∨/BI∨且给后者a-number下界。原微分content分别ea_h与≥ea_h+p(2h−n)，原Tate指数、指定盘normal及R897/898同h关键jet桥仍缺。
+
+**[R912原八维端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)** 已证：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0，不能用R853三列替代；原2+3+3秩8正规order的discrim阶4，trace-radical/idealizer有限核不拆因子。两截面8×16格给九纤维坐标，完整帧仍为Nm(q*Φ)detUj/detU0并保原t首项/dual7。两端共同λ在0..16，旧z0不代端点；实际新146矩阵/端点值仍false，exact_height正写必要小叶。
