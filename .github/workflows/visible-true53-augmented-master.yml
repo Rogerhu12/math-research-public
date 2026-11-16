@@ -1,0 +1,188 @@
+name: visible-flex true53 four-cut exchange master
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/visible-flex-new-mechanism/computations/request-true53-augmented-master.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: visible-flex-true53-augmented-master
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      NUMEXPR_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/
+            /topics/visible-flex-new-mechanism/
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Install the unchanged pinned numerical runtime
+        run: python -m pip install --disable-pip-version-check numpy==2.3.5 scipy==1.17.0 clarabel==0.11.1
+      - name: Pull rules and solve the new four-cut exchange problem
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          root=Path.cwd();topic='topics/visible-flex-new-mechanism'
+          request_path=topic+'/computations/request-true53-augmented-master.json'
+          reader_path=topic+'/scripts/read_original_actions_log.py'
+          raw_request=Path(request_path).read_bytes()
+          request=json.loads(raw_request)
+          source=os.environ['GITHUB_SHA']
+          sys.path.insert(0,str((root/topic/'scripts').resolve()))
+          import read_original_actions_log as reader
+          reader.require(
+              hashlib.sha256(Path(reader.__file__).read_bytes()).hexdigest()
+              ==request['source_sha256'][reader_path],
+              'rule reader source changed')
+          def emit(tag,value):
+              print(tag+' '+reader.encoded(value).decode('utf-8'),flush=True)
+          public=reader.actual_pull(root,request,source)
+          emit('TRUE53_AUGMENTED_PUBLIC_PULL',public)
+          reader.require(public['passed'],
+              'public README changed or actual pull failed; apply only its diff before science')
+          private={}
+          try:
+              reader.private_rule_pull(request,private)
+          finally:
+              os.environ.pop('MR_TOKEN',None)
+              emit('TRUE53_AUGMENTED_PRIVATE_PULL',private)
+          reader.git_ok(root,['checkout','--detach',source])
+          reader.require(Path(request_path).read_bytes()==raw_request,
+              'detached source request differs from the pinned initial request')
+          for path,expected in request['source_sha256'].items():
+              reader.require(
+                  hashlib.sha256(Path(path).read_bytes()).hexdigest()==expected,
+                  'requested source changed: '+path)
+          reader.require('MR_TOKEN' not in os.environ,
+              'private-rule credential must not enter scientific execution')
+          out=Path(os.environ['RUNNER_TEMP'])/'visible-true53-augmented-master'/'true53-augmented-master-audit.json'
+          # No developer gate, source Jacobian rebuild or closed-task replay.
+          # The new audit starts its own 600-second ledger before source input,
+          # paid cache/context restoration, all new augmented problems, line and trials.
+          result=subprocess.run([
+              sys.executable,
+              topic+'/scripts/frame_metric_true53_augmented_audit.py',
+              '--request',request_path,'--out',str(out)])
+          raise SystemExit(result.returncode)
+          PY
+      # Complete checkpoint, U/T and first-jet/line caches remain only in original
+      # stdout and ephemeral runner memory. No artifact/release/Git/cache upload.
+
+  report:
+    needs: research
+    if: always()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /.github/workflows/
+            /topics/visible-flex-new-mechanism/README.md
+            /topics/visible-flex-new-mechanism/computations/request-true53-augmented-master.json
+            /topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py
+            /topics/visible-flex-new-mechanism/scripts/frame_metric_true53_augmented_report.py
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12.14'
+      - name: Pull rules and read the completed research stdout without recomputation
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          MR_TOKEN: ${{ secrets.MR_TOKEN }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,subprocess,sys
+          from pathlib import Path
+          root=Path.cwd();topic='topics/visible-flex-new-mechanism'
+          request_path=topic+'/computations/request-true53-augmented-master.json'
+          reader_path=topic+'/scripts/read_original_actions_log.py'
+          report_path=topic+'/scripts/frame_metric_true53_augmented_report.py'
+          workflow_path='.github/workflows/visible-true53-augmented-master.yml'
+          raw_request=Path(request_path).read_bytes()
+          request=json.loads(raw_request)
+          source=os.environ['GITHUB_SHA'];run_id=os.environ['GITHUB_RUN_ID']
+          sys.path.insert(0,str((root/topic/'scripts').resolve()))
+          import read_original_actions_log as reader
+          reader.require(
+              hashlib.sha256(Path(reader.__file__).read_bytes()).hexdigest()
+              ==request['source_sha256'][reader_path],
+              'read-only rule reader source changed')
+          def emit(tag,value):
+              print(tag+' '+reader.encoded(value).decode('utf-8'),flush=True)
+          public=reader.actual_pull(root,request,source)
+          emit('TRUE53_AUGMENTED_REPORT_PUBLIC_PULL',public)
+          reader.require(public['passed'],
+              'public README changed or actual pull failed before read-only report')
+          private={}
+          try:
+              reader.private_rule_pull(request,private)
+          finally:
+              os.environ.pop('MR_TOKEN',None)
+              emit('TRUE53_AUGMENTED_REPORT_PRIVATE_PULL',private)
+          reader.git_ok(root,['checkout','--detach',source])
+          reader.require(Path(request_path).read_bytes()==raw_request,
+              'read-only detached source request differs')
+          for path in (reader_path,report_path,workflow_path):
+              reader.require(
+                  hashlib.sha256(Path(path).read_bytes()).hexdigest()
+                  ==request['source_sha256'][path],
+                  'read-only source binding differs: '+path)
+          reader.require('MR_TOKEN' not in os.environ,
+              'private-rule credential must not enter the log observer')
+          api=reader.GitHubReader('Rogerhu12/math-research-public')
+          run=api.api_json('/actions/runs/'+run_id)
+          jobs=api.api_json('/actions/runs/'+run_id+'/jobs?filter=latest&per_page=100')
+          selected=[job for job in jobs['jobs'] if job['name']=='research']
+          reader.require(str(run['id'])==run_id and run['head_sha']==source
+              and str(run.get('path','')).split('@',1)[0]==workflow_path
+              and len(selected)==1,
+              'unique same-source research job required')
+          job=selected[0]
+          reader.require(str(job['run_id'])==run_id and job['head_sha']==source
+              and job['status']=='completed',
+              'research job must be complete; its success is not assumed')
+          # This report job itself keeps the workflow in progress. The completed
+          # research job is the only completion precondition; no polling occurs.
+          out=Path(os.environ['RUNNER_TEMP'])/'visible-true53-augmented-master'/'true53-augmented-master-semantic-report.json'
+          result=subprocess.run([
+              sys.executable,report_path,
+              '--run-id',run_id,'--job-id',str(job['id']),
+              '--source-commit',source,'--workflow',workflow_path,
+              '--output',str(out)])
+          raise SystemExit(result.returncode)
+          PY
+      # Stdlib-only observer: no numerical install/import or scientific check.
+      # One research log read; only compact checkpoint/cache hashes reach stdout.
+      # No artifact/release/Git or cross-run cache upload.
