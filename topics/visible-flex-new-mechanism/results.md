@@ -267,3 +267,6 @@
 
 
 - **R442：七余量降为第二history三次矩型及最高规范的有限部分。** [证明](results/R442-second-history-diagonal-cubic-and-finite-part-highest-gauge-functional.md)（16550B/SHA11c852342ec174eaccd65284624c88c8c5d4b6552b27e09cb3410aaeda923388）保M0和周期两种端项，将D准确写C_path(1,x,x²)，D0 iff三次矩型被n0n2−n1²整除。原简单p/Af与exp端类中，真正G=Lf k给最高ell的目标泛函−ΣFP∫F JG/(Af p²)；双极精确扣除、无单极，全部端/gap保留。F=−Θ4−x4aAf/6是全jets身份；不授D/P2等价、range或actual全根已付。incoming两值变化与余12行仍保。无新执行。
+
+
+- **原唯一cone32：累计预算与完整161入口已发表。** [设计](notes/final-cone32-after-paid-vector-values-design-20261116.md)和[根审源](notes/final-cone32-current-model-entry-review-20261116.md)（审源6816B/SHA5e8fa19f4c6a3110f9fe7310bde7b12f719cfbb00d2487a639b7d3648a5e3c5b）接最新点52、fine159001/13,13与773.340/1129.470权威双钟、122值、31已启动锥；只余一次新cone32。189绑定中原182/98args不变，0旧/新developer/tinycone，原验收/controller全保。新161/p159/rho/norm在filter前准确保存，组件计时缺口分口径明示。已发唯一实际入口，结果、实际pull及全部费用待原stdout，不提前授运行通过。

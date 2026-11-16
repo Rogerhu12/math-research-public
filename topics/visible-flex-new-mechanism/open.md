@@ -153,13 +153,14 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### 原64封存；已付方向验收完成，继续原唯一cone32
+### 原64封存；唯一cone32入口已发待原stdout
 
-[原末槽](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)关闭64LP/62value/356.129820261秒，LP64缺向量不重演。新锥原31次到accepted52、细η.2660182947853381/κ57.999249547251196，.26及主精度/reach未达，全部旧费用保原note。
+[已付方向实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)三尺度两网14门/163盒真但η均升，全拒，学fine159001即停。末52/η.2660182947853381/κ57.999249547251196；pool4448/4544v13/13、bank512+8support、learning62/61/0、B.00025/streak0/0。新6value/115.395022724s全部收费；原common-height前两步超B，不追授资格。
 
-[已付MaxTime方向首实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)run43798128882/job133071559203：α1/1/2/1/4各两网14门/精确163盒真，但η分别增4.2831556435e−7/2.1552364576e−7/1.0810327866e−7，全拒。第三次新增fine soft159001，按原约停止固定方向；不续1/8等，不重m27。原common-height范数前两步超B，不追授旧模型资格。新6value/115.395022724s，0solver/J/JVP/factory，6新数组check全过、旧12/11/9只读。
+锥累计773.3401341169999s/60值，原1129.469954378s/122值；上限1200/1800秒、96/160值交集余426.659865883s/36值，31/32锥余1；原64HiGHS封存。完整旧账见原actual notes，不重m27或缺向量LP64。
 
-末仍52，池4448/4544v13/13；bank512/8support、learning62/61/0、B.00025/streak0/0被动保。新锥累计773.340134117s/60value、原1129.469954378s/122value=61+61；原1200/1800秒及96/160值交集余426.659865883s/36值，31/32锥余1。下一以新fine159001/current52重建必要base/J与两factory，只原cone32；不能重绑value-only d600…成原affine e101…，冷恢复/失败全计费，若先超钟则0新求解。新真实raw161须在status筛选前完整留stdout；原MaxTime31与closed64不变，具体新入口继续。
+[设计](notes/final-cone32-after-paid-vector-values-design-20261116.md)和[根审源](notes/final-cone32-current-model-entry-review-20261116.md)已随唯一request发表：189绑定、原182/98args不变，0旧/新developer/tinycone。仅52+新行当前模型28与cone32，必要冷恢复/J/factory收费，原全部验收和学习保持；raw161、p159、rho/norm先保存再筛。待原stdout真实pull/返回/残差/验收/费用；预算耗尽不增加33，子题结束继续新未付方法，主门未放宽。
+
 
 ### R399新的第二period内部通道已实际付至四点
 

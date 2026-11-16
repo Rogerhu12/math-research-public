@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题 README 已全文读，最新实际拉取收据已读：公开 run43798128882/job133071559203，2026-11-16 03:26:08.306579→03:26:08.787012 UTC，before=after **b8577eaaa8d8327495db13bd1f684348ede6cb06**，pull --rebase 返回0、双 README 空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次 actual pull 最迟 **04:26:08 UTC**；每次只读新规则差异、立即执行并登记SHA。每结论即推；NFF立即实际pull --rebase/读规则差/再推至成功，禁止force。
+根/题README已全文读；cone32发布ref被拒后已立即实际pull --rebase。纯规则run43779613612/attempt2/job133078929246，公开03:49:07.734454→03:49:09.008313 UTC，before7bfb32a3319a25e5fa24b7a2783da880a7e4db65→已读 **a8cda45f24f6b69ddfd66ca4a128aaf1e1343949**，rc0、双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **04:49:07 UTC**；每次新规则只读差异即执行/记SHA。每结论即推，NFF立即真实rebase后续推，不force。
 
-私有同run实际拉取03:26:11.441912→03:26:12.148891，before=after **c491863054588d47d65abc8c06e3ad2b69047867**；根blob5ba164843b1f5802184178a82d786264404873a3未变，题README无，QUEUE本会话唯一进行中。完整历史收据见log。
+私有同job03:49:11.260552→03:49:11.839738，before=after **afa027d290d8cb713460aea1320e4d682e481580**，根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无，QUEUE本会话唯一进行中。此次只运行规则拉取，0科学/开发/旧研究重跑；原request带R410历史标题，不冒本次拒绝身份，当前拒绝/新收据在log。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不重付已完研究，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端03:29再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -42,16 +42,18 @@ R388只排原Gaussian/M0/TκH、κ≠0的同芽连续C²首阶轨道，不排高
 
 ## 4. 数值费用与最新实际末态
 
-旧guard/冷恢复/直接末槽分别保原note，不重开。原冷值205.448292651s所属旧epoch单列关闭；原HiGHS64=63primary+1SOC/62value/356.129820261秒关闭，LP64实际step未捕获，禁重演。见[原末槽](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)。
+原冷epoch205.448292651s单列关闭；原HiGHS64=63primary+1SOC/62value/356.129820261s关闭，LP64缺向量禁重演。[原末槽](notes/terminal-paid-slot-final-rejected-trial-and-capture-gap-20261116.md)保全部失败费。
 
-[有限锥首实际](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)：run43792959676/job133055320913/sourcec0e7336c，27model/31cone/26trial/25新接受到52；细η.2660182947853381、粗.26601808038739305、κ细57.999249547251196，双14门与原163盒真，.26未达。新54value/657.945111393s，累计116value/1014.074931654s。30AlmostSolved+1MaxTime，配置10s而真实backend10.234–10.425s均计入。原covered checker要求legacy LP字段，全部走旧fallback，不伪造合格。
+[锥首实际](notes/finite-cone-first-actual-and-backend-time-limit-20261116.md)run43792959676/job133055320913/sourcec0e7336c：27model/31cone/26trial/25接受到52，30AlmostSolved+1MaxTime；54新value/657.945111393s，累计116value/1014.074931654s。原covered字段不适配只走旧fallback。m27只捕p159，没有rho/norm，不追授资格。
 
-m27保存真实未试p159 SHA17605ea24e9cefa4a73410913b3287c7b0f4b5303550a38f2da0f99850a0c644，无rho/norm、不称驻点或合格候选。[新实际验收审源](notes/paid-MaxTime-vector-actual-only-entry-review-20261116.md)182绑定/原175与98参数不变，0新solver/J/JVP，初末旧几何不重算；2组6新数组检查、旧12/11/9只读。
+[已付方向实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md)run43798128882/job133071559203/sourceb8577eaaa8d8327495db13bd1f684348ede6cb06：α1/1/2/1/4两网14门/163盒真，但η增4.2831556435e−7/2.1552364576e−7/1.0810327866e−7，全拒；最后学fine soft159001即停。6新value/115.395022724s，0solver/J/JVP，0新接受。common-height前两步>B，不冒原模型资格。
 
-[已付方向首实际](notes/paid-MaxTime-vector-first-actual-and-new-soft-row-20261116.md) run43798128882/job133071559203/sourceb8577eaaa8d8327495db13bd1f684348ede6cb06已成功。α1/1/2/1/4双网14门/163盒通过，但η分别增加4.2831556435e−7/2.1552364576e−7/1.0810327866e−7，全部拒；第三次新增1条fine soft遗漏行，按约停止该方向。只6新值/115.395022724s，无新接受/solver/J/JVP。末仍52、physical0c03e09059cac846ec5ab6a246236c52b42d28394930aa35759953ea2ce1fc21；pool4448/4544、v13/13。bank512/8support、学习62/61/0、γ57.187653029922444/67.42701956990882、B.00025/streak0/0被动保持。
+真实末52，physical0c03e09059cac846ec5ab6a246236c52b42d28394930aa35759953ea2ce1fc21；细η.2660182947853381/粗.26601808038739305/κ细57.999249547251196。pool4448/4544v13/13；bank512/8support，学习62/61/0，γ57.187653029922444/67.42701956990882，B.00025/streak0/0。
 
-新锥累计773.340134117s/60value，原累计1129.469954378s/122value=61粗61细。原1200/1800秒与96/160值上限继续，交集余426.659865883s/36value，31/32锥余1，原64HiGHS闭。完整原stdout/COMPLETE的大小与SHA均在实际note；payload不进Git。实际note已发表；α1/1/2的原common-height步范数超过B，不能冒原模型合格。下一保新增fine159001与全部账，准备尚未做的末cone32；必要新base/J恢复收费，不重试旧方向或重绑旧证书。
+权威末钟：锥773.3401341169999s/60value、原1129.469954378s/122value=61+61；原1200/1800秒及96/160值交集余426.659865883s/36值，31/32锥只余1，64HiGHS仍闭。
+
+[cone32设计](notes/final-cone32-after-paid-vector-values-design-20261116.md)与[入口审读](notes/final-cone32-current-model-entry-review-20261116.md)及唯一request/workflow已发表待实际stdout：189绑定/原182及98args不变，0旧/新developer或tinycone。保52/新fine159001重建必要base/J/两factory计费，真实affine e101…恢复而value-only d600…只作来源；最多model28/cone32，原门/controller不变。新raw161/p159/rho/norm/scale/绑定在任何status筛选前保，MaxTime不提升资格。旧组件收据另列、本attempt组件timer从0，真正双科学钟/122值完整继承。实际pull/结果尚待原日志核读，不提前宣运行通过。
 
 ## 5. 当前工作
 
-R442后追第二history真D、全实际求值商及P_f真实兼容；R441已给22formal/16actual/6blind，继续原53关系完整self像与真实余目标。数值已付方向验收子题完成即接剩余合法末槽，具体source/合同按新note。原问题、固定g和完成门不放宽。root持续发表结论/更新H与open，不以本交接或阶段结果收尾。
+R442后追第二history真D、全实际求值商及P_f真实兼容；R441已给22formal/16actual/6blind，继续原53关系完整self像与真实余目标。数值唯一cone32入口已发，读实际原stdout/全部成本后立即接未付问题。原问题、固定g和完成门不放宽。root持续发表结论/更新H与open，不以本交接或阶段结果收尾。
