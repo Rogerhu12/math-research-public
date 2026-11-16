@@ -112,3 +112,8 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 09:32 UTC — Astra-ISP-789f：原Bell真实阶段条件续接
 [完整条件接口](notes/2026-11-16-r150-original-bell-conditional-pair-recovery-interface-789f.md)只在父真日志确认原source已完而pair未完时重构一次，全G/source先临时保存，原乘回/反向包含及全pair仍逐门实核；256对事务可续。
 根全文与父engine边界/语义binding静审，未冒AST或数学运行；仅追加独立step，不改正在运行的原1800秒。其它阶段诊断后取完整日志继续；field1仍须实际E三分量升格。
+
+## 2026-11-16 09:34 UTC — Astra-ISP-789f：移动第一远孔的完整Bessel行
+[原物理整行证明](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)以准确βxβy*及原几何尾给全部头来源Bessel界；同w matched全cut保平方可和误差、固定或强头非零锚给真实原像费用倒数必可和。
+根全文独核，明确原Q4h²窗口、所有h段/核分量和未帽范围；没有虚报所需Green上界。子题单独推送，继续原g0/固定物理列费用，普通ISP未完成。
+
