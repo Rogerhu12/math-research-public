@@ -544,3 +544,7 @@ proof3e274258/29127B，根全文核38式，Phase正式§2–5/8/10与原PC源/SE
 ### 2026-11-16 09:23:31 UTC｜先存 forward419 单份派生密度报告普通清理白名单
 
 白名单5dae1840/19118B仅列 notes/2026-11-12-actual-forward419-complete-reference-density.json，原b4b38937/186855B/SHA69a25068…；恢复b57a9a4d1019dfd836399110035d32ffd6241a85同path。Newton全文读19122B producer及7小证据（含66918B canonical manifest），根完整读白名单并对WHV最新4文本/WMR最新source+interface+worker profile逐全文basename0命中。原source把精确系数另写manifest/12gz，报告只是派生域/误差/33samples/R72结论；原单δ5/forward419整段连续成功、canonical定义、下游完整小成功与原exit137/6checks失败全保。报告SHA由独立原小proof/下游receipt/原失败三处交叉锁；没有读取>100KB正文，不冒称独立重hash。历史完整原字可恢复且旧producer不得重跑。当前未删，freshguard后仅该一path；净释放167737B。README核b811c636f25f56e37df6598ede0ce10f8ec75e92；继续。
+
+### 2026-11-16 09:23:45 UTC｜forward419 单份派生报告按已推白名单完成普通删除
+
+白名单5dae1840已先推1e46edf0bea4f762cfd6e492d2d29e88ec4fb70e；fresh main精确检查同path Git b4b3893762301b8c63f8e2b838844c70ae33ebdd和186855B，只删该派生report。完整原69a25068 SHA、restore b57a9a4d同path、单段成功/原exit137失败/全部canonical与12shard原身份、小proof/下游结果完整保白名单；原>100KB正文未通过connector读取。0科学/0重算/0native改写，无强推。README核1e46edf0bea4f762cfd6e492d2d29e88ec4fb70e；继续WMR全输出预算与有限逆。

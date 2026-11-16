@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 09:23:31 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 09:23:45 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 09:17:27非FF真CLI仍无executor，下一本地尝试≤10:17:27。最新CI成功真pull为43838214094/1于11-16 09:16:50.206324→475c2098242f869e97ba579e0206c5edce96c6a6；两README完整diff空/同已读，exec65f00810保4次全回执。下一真pull≤10:16:50；ref读取不冒真pull。
-最近只读README核：b811c636f25f56e37df6598ede0ce10f8ec75e92；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：1e46edf0bea4f762cfd6e492d2d29e88ec4fb70e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -58,4 +58,4 @@ W9602f93880（results/R133-supplement-genuine-low96-Poisson-columns-and-exact-po
 
 WHS3e274258：原PC整两候选扩真97..288壳，negative-one完整C+源给Fs C:Xfr−4/3→L²rE193；χ(R)=0以bodyYsup给真outer H−5/6 trace。SE同逆+自然稠密与旧ell²图一致。VFsC/固定G及Pa反馈compact，未知Gnorm/全coker不删；全T的ℓ兼容/96+ℓ核/PW mixedroot两mean/WPL完整强腰反馈及WGB左右序保。零V0全初值/源/jump/endpoint有限关系闭，WHVA cap门false不授其逆；0新数，真正signed有限逆/normalization待。
 
-forward419白名单5dae1840先推；拟仅freshguard删b4b38937/186855B派生report，restore b57a9a4d原path。单δ5/419成功/canonical/原exit137失败/全部恢复身份保完整白名单，禁重旧数学。
+forward419白名单5dae1840先推1e46edf0；freshguard后仅删b4b38937/186855B派生report，restore b57a9a4d原path。单δ5/419成功/canonical/原exit137失败/全部恢复身份保完整白名单，禁重旧数学。
