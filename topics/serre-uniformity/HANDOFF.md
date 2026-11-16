@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main接续；旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：7c231a4c7182405c95bbb6349b8eca6e93d04298**（2026-11-16T11:54:41.465786+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[七极trace前H](handoff-archive-2026-11-16-before-seven-pole-trace.md)（9775B/0379e8dbb0dd912274ec02b9d427705300fe8d12015562746373437e00ca0de2）；全部早先源、已证结论、关闭边界仍有效。
+**已读规则提交：50b36a2f06559b67c08f925d0983f35bf0366809**（2026-11-16T11:57:33.214208+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字在[原quotient-Gauss前H](handoff-archive-2026-11-16-before-quotient-Gauss-source.md)（9738B/45f5ca1f4c4b338f8f9dce1ab981658c879326cd12de8985622d38e21ed68701），内接全部早先归档；原来源、已证结论与关闭边界继续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推直到成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw仅当前必要一日artifact，外部只纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。07:19终端失联后使用本公开恢复workflow真实partial/sparse git发布；10:54终端恢复，已备发布继续同流程。
 
@@ -17,11 +17,10 @@
 |R854原41响应N112|43832705685 / 133181715849|2ee14751；08:37入算300min，目标7仍须真逆界/四球|
 |R787半坐标dual|43823979328 / 133153392094|6110d6a1；07:27入算300min，370/371后七支|
 
-R787 [594断点](notes/R787-594-digit-checkpoint-and-same-core-continuation.md)真BudgetStop/exit1，liftbb437fd0/manifest247c23d8/carrier2f4371c9；R824 [596断点](notes/R824-596-digit-checkpoint-and-same-core-continuation.md)lift071c3390/carrier71b16a02，27+244/free1187不混1186。518/56格/129/142/280Q/r28已成不重。
-[A.1](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)：原target000a9bbc/Jb384a331/1481源，七支17920RR后仍须全35840Theta/Delta；RR失败不拒q，七小L不代A0−qB0。
-[R854](notes/R854-actual-N56-precision-stop-and-N112-continuation.md)：旧N56真NeedPrecision125/532stage/depth55两端rank0；N112仅添高精度，保旧profiles/低位，不预断足够。R858 pending5288ae54两input仍null；S_m/两分母/full2560、ZP正号、t/u双条件、全H_n/tail与Trace14/2/cχ不变。
+R787 primal594、R824596、R787半坐标370/371及R854 N56→N112的真实断点、全部pins和约束完整在上链归档；都沿同core继续，不重已成位/行。A.1仍须原35840 Theta/Delta，失败RR不拒q；R854 N112不预断足够，原S_m/full2560、ZP正号、t/u双条件、全H_n/tail及Trace14/2/cχ保全。R858 pending源仍null。
 
-**[R815原准确M_g已成](results/R815-certified-original-exact-Wronskian-multiplier.md)**：43809724947/source8adc90df真BudgetStop/exit1，但g已在696prime/20809bit后通过首列/七准确点全272交换子及两图17块，index f27130f0；Γ未成。原artifact14216992068/4686023089B/190f59de与6718项manifest18b1f497，至Nov17 10:27:27；小IO不冒整ZIP重哈希。新同core80516ff9/wrapperab725da0/300min run43853995004/job133253466821/sourcec1b3bfb1继续Γ，已成g直接复用；不独立重构Mh。
+**[R815准确M_g已成](results/R815-certified-original-exact-Wronskian-multiplier.md)**：696prime/20809bit、原七点全272交换子及两图17块完成，indexf27130f0；整体旧run43809724947是真BudgetStop而Γ未成。原artifact14216992068/190f59de至Nov17 10:27；同core80516ff9/wrapperab725da0的新run43853995004/job133253466821/sourcec1b3bfb1继续Γ、复用g，不独立重构Mh。全部载体/来源pins在正式结果与归档。
+
 
 ## 原Y：已成与新消费者
 
@@ -60,5 +59,7 @@ R859–R875原BT/非p/全G/Drinfeld/cusp格/CM单位/ab=p/t′/KS已成，q拉�
 
 
 **[R895全band已证](results/R895-original-all-band-theta-contraction-and-unramified-content.md)**：原未分歧源的完整TLGh闭式，只有r=p+1−h+a/s=h+a的奇a分量可入，系数Ca全单位；C_h(S)/p整 iff这些36维分量全零，整则残值必零。关闭这条unit-content桥，不推原R770同h标量为零；实际source/ramified quotient及Γ首层由sigma_uniform接R897，原Legendre项不删。
+
+**[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。
 
 RF e2b87b99/SPa06a80ea/ZA268fa3fb/41S133d64af/41C569aa684，b/s/λζ²一次、CRT6逆、246/82^10、P0P1/ν/theta二挠/fullCorr/nonp/splitting全部沿归档。ordinary43/776bit Gaussian5排除、Shapiroθ同Σ/C4杯积R779已闭不重。

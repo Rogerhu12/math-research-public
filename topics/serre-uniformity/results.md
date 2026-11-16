@@ -305,3 +305,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R880六共轭实算已成**：[实际认证](results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md)，run43857317518成功，六新418、原固定单位图/295/269/146/962链及七主函数原ρ首项全部完成。σ幂1..6对应branch6/1/2/4/3/5，原局部单位不缩放；本producer没有t首项或特征零展开。R893直接接已成五δB，R894直接接七418与Qtilde，不重算旧共轭空间。 SHA256 6801acfffb47a3ec68a5c87370465b697e1cc4cf6cf27f03cdbecf7e77025439。
 
 - **R893实际执行入口（非结果）**：**R893初始RR执行已激活**：[最小方法](notes/R893-original-five-sum-Hom-initial-RR-consumer-method.md)与冻结corec199ccbf/wrapper247980f1，五方向、300min/128节点；真七A/B、六C全部14坐标、旧8K/chi与已成五δB直接复用，只新六A导数与缺失节点/完整Schur。所有新数学仅公开Actions，真实run/阶段据回执登记；未预判任何核成功。
+
+- **[R897实际商整基与原同h Gauss源已证](results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md)**：原trace除−varpi^(2(p−1))，饱和π*给36整基u_m，pullback=V(λ)m控至varpi^((p−1)²+1)。原Γ逆角色首层H_h(p−1)，H_h=max(h,p+1−h)，系数偶j零/奇j单位；缩放像饱和。顶j=p系数恰P_(h−1)(0)，固定u_(G,F)的J32系数=该单位·(6B)^5(fi gj)^p/12；指定jet非零与原P_(h−1)(1/√−3)仍未证。仅原未分歧lift定义，不冒任意ramified lift或原CM平均保过滤。sigma_uniform继续真实full Cartan/原Tζ源比较。 SHA256 9155d9043a3dc015ff6807d143d22f03a4d6e9d97b19da771686cd3e877660bf。

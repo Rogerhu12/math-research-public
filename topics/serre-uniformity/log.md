@@ -193,3 +193,9 @@
 - 激活R893五原sum-Hom初始RR：corec199ccbf/wrapper247980f1，300min/128节点；完整Q单位、三scalar消元、Schur单位图及全部原纤维关系，保存完整B评价供R896。
 - 旧七A/B、六C/全14坐标、8K、chi、五δB直接用，只新六A导数；修正六D*说明的数组形状为δB 8×272、δ²B 10×272，原源码和实际原件不变。
 - 本push规则：公开Actions真实pull至7c231a4c7182405c95bbb6349b8eca6e93d04298（2026-11-16T11:54:41.465786+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+
+### 2026-11-16 19:57 Asia/Taipei — serre-public-astra-20261115
+- R897完整证明单独登记：原trace构造实际商36整基，饱和拉回与原Γ精度闭合；首content为max(h,p+1−h)(p−1)，奇层系数单位、偶层零。
+- 顶层P_(h−1)(0)准确运输原同h Frobenius/sigma源及J32；不把向量非零当指定jet非零，不替原Legendre可见性。完整前H归档，继续真实full Cartan相位/原CM平均。
+- 本push规则：公开Actions真实pull至50b36a2f06559b67c08f925d0983f35bf0366809（2026-11-16T11:57:33.214208+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。

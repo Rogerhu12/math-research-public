@@ -2,71 +2,45 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1154-original-five-sum-Hom-initial-RR-activation",
-  "commit_message": "serre: activate five original sum-Hom initial RR kernels",
-  "rules_last_read_commit": "3e6d904d330516a8ef81ba6378340debbaaf102d",
+  "request_id": "20261116-1156-original-quotient-basis-and-same-label-Gauss-source",
+  "commit_message": "serre: prove original quotient theta basis and same-label Gauss source",
+  "rules_last_read_commit": "7c231a4c7182405c95bbb6349b8eca6e93d04298",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "c03f397572358dbf722c74bd250e8ea9ba874b8d48e39f3fb0a78d91edbff0af",
+  "expected_previous_request_sha256": "754fd4bba4dad91d501a111c6092c60848295c4976dbf784282bfe12d7a4177f",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R893_original_five_sum_Hom_initial_RR.py",
-      "sha256": "c199ccbf95de73fb8e1f156a4adaea9ce517cb1c42c427b55c2dcc4901065daa",
+      "path": "topics/serre-uniformity/results/R897-original-quotient-theta-basis-and-same-label-Gauss-source.md",
+      "sha256": "9155d9043a3dc015ff6807d143d22f03a4d6e9d97b19da771686cd3e877660bf",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R893_public_original_five_sum_Hom_initial_RR.py",
-      "sha256": "247980f1ecec1616004dd4569724b8742ce356df8b45a28231b6725c004beaac",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-quotient-Gauss-source.md",
+      "sha256": "45f5ca1f4c4b338f8f9dce1ab981658c879326cd12de8985622d38e21ed68701",
       "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R893-original-five-sum-Hom-initial-RR-consumer-method.md",
-      "sha256": "83867053c51ddfed388ff6b07982ffafe0e2993bb91a550ae8fcc1768da7ca6e",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R893-five-sum-Hom-initial-RR-public-request.json",
-      "sha256": "f64b3922abe18d512ff243204c24c5e4931c8d503d454a034d47033636590019",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R893-five-sum-Hom-initial-RR.yml",
-      "sha256": "2b01feaed7931d911530abe0e10a401ea6279fda679d3f67e85327449fbcd426",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/results/R880-certified-original-six-conjugate-Dstar-RR-inputs.md",
-      "sha256": "6801acfffb47a3ec68a5c87370465b697e1cc4cf6cf27f03cdbecf7e77025439",
-      "expected_previous_sha256": "715339267183a1e0553354da8d73dcf5cad5e780083af57c2fd64d35ed768e73"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "5b57493dad1b74724acf0d6c4126399c04a4260e45f2c8a243b0cdf898806753",
-      "expected_previous_sha256": "141e30f4de6ad122cbe945798dfa03f72dd9f67c969767f5291220c32fafafbf"
+      "sha256": "d2c3dd85f850a8290bb4a4994d18b82810aaef757a1ab63715d97bf2b6835a5c",
+      "expected_previous_sha256": "45f5ca1f4c4b338f8f9dce1ab981658c879326cd12de8985622d38e21ed68701"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "a1d3fbc721d89efcad6967b3b644f0ba241eb737731765c835412d96372be203",
-      "expected_previous_sha256": "ea9bc2816169c1d44264ec114723fbe0eb2b2a6241194cb25bf4cbe62a6bfcab"
+      "sha256": "281337cb413f6cecd325a592d1d2bd2de3a3b4fdd564a0fbbd4256c362a454fa",
+      "expected_previous_sha256": "a1d3fbc721d89efcad6967b3b644f0ba241eb737731765c835412d96372be203"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "0c87f119fa7eea079374fccf566b7591065345ab03276a0ba1a000f54707c0b4",
-      "expected_previous_sha256": "6e4e3f573d4ca6e1a33b533dd29ec7c6a27ee1e92a0a38426b29c488783b79a7"
+      "sha256": "b90a8378f6e7c56cf8d52a64810c991ec603d520887a9f952d2dee3787c28ec4",
+      "expected_previous_sha256": "0c87f119fa7eea079374fccf566b7591065345ab03276a0ba1a000f54707c0b4"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "cbe9b4fed8ef9eaecf596da266cb2e67367882bce16e007f23b7d58df46341b9",
-      "expected_previous_sha256": "e01e9f1691ceafa5f7726ea47ab9127e6dcca7f4c6a19e69fc72023e0497440b"
+      "sha256": "6622c4137a870994380f8eeb72ed333a50c383f964cb9737bb5c6b65c78a71c0",
+      "expected_previous_sha256": "27a46b933d23c778d8d90a36dbb01ac7b77ecb8202c9a4a711172853a1a78c4c"
     }
   ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R893-five-sum-Hom-initial-RR.yml",
-      "request_path": "topics/serre-uniformity/notes/R893-five-sum-Hom-initial-RR-public-request.json",
-      "request_sha256": "f64b3922abe18d512ff243204c24c5e4931c8d503d454a034d47033636590019"
-    }
-  ]
+  "dispatch_workflows": []
 }
