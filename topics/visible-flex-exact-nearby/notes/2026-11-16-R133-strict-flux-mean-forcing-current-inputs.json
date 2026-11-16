@@ -1,0 +1,516 @@
+{
+  "kind": "complete_strict_flux_mean_forcing_current_inputs_v1",
+  "expected_current_input_count": 9,
+  "historical_inputs": [],
+  "parameters": {
+    "L1_primitive_qualification": "pi/8 < 11/28; 22/7-pi is the positive integral of x^4(1-x)^4/(1+x^2) on [0,1]",
+    "L1_primitive_upper": "11/28",
+    "angular_normalization": "ordinary pure angular derivative divided by j!",
+    "arithmetic_bits": 320,
+    "copied_original_qualification_objects": 33,
+    "copied_original_records": 131,
+    "decimal_record_digits": 75,
+    "first_absolute_mode": 97,
+    "fixed_intrinsic_eta0": "-7789843107295549/4611686018427387904",
+    "graph_original_copies": 2,
+    "history_inputs": 0,
+    "mean_source_decay": "n^(-23/6)",
+    "mean_steps": 5,
+    "minimum_physical_frequency": 388,
+    "new_exponentials": 0,
+    "new_fractional_powers": 0,
+    "new_graphs": 7,
+    "new_logarithms": 0,
+    "new_record_count": 195,
+    "new_square_roots": 0,
+    "old_complete_files": 5,
+    "old_scientific_calls": 0,
+    "old_target_recomputations": 0,
+    "original_PW_cut": "2333968743003/10000000000000",
+    "original_derivative_groups": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        13,
+        15
+      ]
+    ],
+    "original_true_interfaces": 3070,
+    "physical_frequency": "n=4|j|",
+    "physical_mean_coordinates": 2,
+    "physical_mean_initial_condition": "z_ph(r_star)=0",
+    "root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "same_operator_domain": "Xfr -> P Fix(R_a), input H^(-4/3), output normalized physical L2 waist row",
+    "selected_original_real_member_only": true,
+    "strict_alpha_upper": "1/2",
+    "strict_cut": "76285779072683/320000000000000",
+    "strict_interval": [
+      "0",
+      "76285779072683/320000000000000"
+    ],
+    "strict_weight_gap": "79/128",
+    "terminal_polynomial_degrees": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "total_graph_scalar_slots": 197
+  },
+  "problem_id": "same_selected_complete_physical_mean_strict_flux_97_v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scientific_modules": [
+    {
+      "bytes": 93439,
+      "git_blob_sha": "d9e5e8f6a80623b326fa8daf127ff9bf26356dac",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_flux_mean_forcing.py",
+      "role": "science",
+      "sha256": "1962475219dd355520560ca9c01ca133423c03a15acdb1700b1e156e9055edb6"
+    }
+  ],
+  "worker": {
+    "bytes": 25584,
+    "git_blob_sha": "f966a6a05b18794927c3674956fb617e7dbaa244",
+    "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_small_frozen_public_worker.py",
+    "role": "worker",
+    "sha256": "7abb8783fc3ffc9f3194bb9cab8e1d8c12d28395b9e4b0981c682c879aa39d18"
+  },
+  "files": [
+    {
+      "bytes": 72251,
+      "git_blob_sha": "32ff92c516fcc5c43f3619930d4845d294289270",
+      "path": "topics/visible-flex-exact-nearby/notes/global_fold_free_transport_finite_jets_ci/run-43820816332-1/actual-scientific-conclusion.json",
+      "role": "wgs_main",
+      "sha256": "8af3af0a2dc08a6611189178099c63b0e2ac5ae8e9d767c0e211861c6d63de1e"
+    },
+    {
+      "bytes": 31632,
+      "git_blob_sha": "d6d13860e322d82ce354c8c0d0eb0f279ca63b3c",
+      "path": "topics/visible-flex-exact-nearby/notes/global_fold_free_transport_finite_jets_ci/run-43820816332-1/complete-original-inputs.json",
+      "role": "wgs_copies",
+      "sha256": "3c5588f13de4dc544f519b2fb99f372bba3200ccee79def665ce5bd1d3c3dd66"
+    },
+    {
+      "bytes": 9627,
+      "git_blob_sha": "81bd01b84d8ebf5613ec0821e7c4ae770c39dfc9",
+      "path": "topics/visible-flex-exact-nearby/notes/global_genuine_waist_error_posterior_ci/run-43827705714-1/graphs/extended_amplitude_strict.json",
+      "role": "extended_strict",
+      "sha256": "fc2077f4fc24d6105e9e483c1b584e53bfd60987ad1a1a9718e9459c6830a0c2"
+    },
+    {
+      "bytes": 9131,
+      "git_blob_sha": "f2a2687ae736d291c5d5b85e0309e625d729e5d8",
+      "path": "topics/visible-flex-exact-nearby/notes/global_genuine_waist_error_posterior_ci/run-43827705714-1/graphs/profile_block_strict.json",
+      "role": "profile_strict",
+      "sha256": "6e781157c43f7ba7f7e4ac454308545444164138920cbab027a7af56dd1d89a6"
+    },
+    {
+      "bytes": 51030,
+      "git_blob_sha": "5fdb01ed62008489bca34a4b6231519af4f60793",
+      "path": "topics/visible-flex-exact-nearby/notes/positive_weight_physical_mean_refinement_ci/run-43840219992-1/actual-scientific-conclusion.json",
+      "role": "prior_mean",
+      "sha256": "39a2d96accdbe1b4a8073674cabeda97878876f11fc24a055b910ed61567b432"
+    },
+    {
+      "bytes": 31256,
+      "git_blob_sha": "c8049ef93eca8f84f135ab4338d6485081fb8424",
+      "path": "topics/visible-flex-exact-nearby/results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md",
+      "role": "proof_WMT",
+      "sha256": "51eb08d0b110b8a5b171538c3be023efb94df587fdab880ebddac518665f73ce"
+    },
+    {
+      "bytes": 93439,
+      "git_blob_sha": "d9e5e8f6a80623b326fa8daf127ff9bf26356dac",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_strict_flux_mean_forcing.py",
+      "role": "science",
+      "sha256": "1962475219dd355520560ca9c01ca133423c03a15acdb1700b1e156e9055edb6"
+    },
+    {
+      "bytes": 25584,
+      "git_blob_sha": "f966a6a05b18794927c3674956fb617e7dbaa244",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_small_frozen_public_worker.py",
+      "role": "worker",
+      "sha256": "7abb8783fc3ffc9f3194bb9cab8e1d8c12d28395b9e4b0981c682c879aa39d18"
+    },
+    {
+      "bytes": 2461,
+      "git_blob_sha": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+      "role": "rules",
+      "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+    }
+  ],
+  "reviewed_rules": {
+    "bytes": 2461,
+    "git_blob_sha": "5c5d020913d717bb5bc8ce891297e00eaa8944f7",
+    "path": "topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json",
+    "role": "rules",
+    "sha256": "65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1"
+  },
+  "mathematical_input_roles": [
+    "wgs_main",
+    "wgs_copies",
+    "extended_strict",
+    "profile_strict",
+    "prior_mean",
+    "proof_WMT"
+  ],
+  "mathematical_contract": {
+    "bytes": 31256,
+    "git_blob_sha": "c8049ef93eca8f84f135ab4338d6485081fb8424",
+    "path": "topics/visible-flex-exact-nearby/results/R133-supplement-strict-transport-flux-and-complete-mean-forcing-bound.md",
+    "role": "proof_WMT",
+    "sha256": "51eb08d0b110b8a5b171538c3be023efb94df587fdab880ebddac518665f73ce"
+  },
+  "operation": {
+    "bits_parameter": "arithmetic_bits",
+    "capacity_lifecycle": "120000-byte reserve plus the full publication budget before science and immediately before the new child; completed or failed actual outputs only require projected topic <=200000000 and retain complete bytes.",
+    "child_timeout_seconds": 1800,
+    "complete_gate_names": [
+      "directed_public_runtime",
+      "current_input_and_AST_identity",
+      "all_five_complete_original_files_byte_identical",
+      "complete_WGS_pair_reference_and_binding",
+      "complete_prior_positive_weight_science",
+      "completed_posterior_nodes_and_parent_failure_retained",
+      "complete_scalar_and_qualification_copies_retained",
+      "true_lower_endpoints_and_normalized_jet_positions",
+      "complete_normalized_weight_L1_kernels",
+      "complete_strict_flux_amplitudes",
+      "complete_five_mean_recursions",
+      "complete_strict_mean_and_affine_sources",
+      "complete_negative_receiver",
+      "complete_waist_endpoint",
+      "complete_whole_and_reduced",
+      "only_identical_whole_operator_candidates_compared",
+      "all_current_inputs_still_identical",
+      "complete_scientific_graph_and_prefix"
+    ],
+    "complete_target_counts": [
+      7
+    ],
+    "consumed_marker": "topics/visible-flex-exact-nearby/notes/strict_flux_mean_forcing_ci/same_selected_complete_physical_mean_strict_flux_97_v1-consumed.json",
+    "current_new_source_AST_count": 1,
+    "kind": "complete_strict_flux_L1_mean_forcing_refinement",
+    "maximum_execution_bytes": 59000,
+    "maximum_report_bytes": 8000,
+    "maximum_scientific_bytes": 99000,
+    "maximum_total_publication_bytes": 166000,
+    "no_binary_or_array_publication": true,
+    "old_completed_mathematics_must_not_repeat": true,
+    "ordered_targets": [
+      "complete_normalized_weight_L1_kernels",
+      "complete_strict_flux_amplitudes",
+      "complete_five_mean_recursions",
+      "complete_strict_mean_and_affine_sources",
+      "complete_negative_receiver",
+      "complete_waist_endpoint",
+      "complete_whole_and_reduced"
+    ],
+    "original_readonly_source_AST_count": 0,
+    "output_base": "topics/visible-flex-exact-nearby/notes/strict_flux_mean_forcing_ci",
+    "parameters": {
+      "L1_primitive_qualification": "pi/8 < 11/28; 22/7-pi is the positive integral of x^4(1-x)^4/(1+x^2) on [0,1]",
+      "L1_primitive_upper": "11/28",
+      "angular_normalization": "ordinary pure angular derivative divided by j!",
+      "arithmetic_bits": 320,
+      "copied_original_qualification_objects": 33,
+      "copied_original_records": 131,
+      "decimal_record_digits": 75,
+      "first_absolute_mode": 97,
+      "fixed_intrinsic_eta0": "-7789843107295549/4611686018427387904",
+      "graph_original_copies": 2,
+      "history_inputs": 0,
+      "mean_source_decay": "n^(-23/6)",
+      "mean_steps": 5,
+      "minimum_physical_frequency": 388,
+      "new_exponentials": 0,
+      "new_fractional_powers": 0,
+      "new_graphs": 7,
+      "new_logarithms": 0,
+      "new_record_count": 195,
+      "new_square_roots": 0,
+      "old_complete_files": 5,
+      "old_scientific_calls": 0,
+      "old_target_recomputations": 0,
+      "original_PW_cut": "2333968743003/10000000000000",
+      "original_derivative_groups": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          13,
+          15
+        ]
+      ],
+      "original_true_interfaces": 3070,
+      "physical_frequency": "n=4|j|",
+      "physical_mean_coordinates": 2,
+      "physical_mean_initial_condition": "z_ph(r_star)=0",
+      "root_interval": [
+        "1191984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "same_operator_domain": "Xfr -> P Fix(R_a), input H^(-4/3), output normalized physical L2 waist row",
+      "selected_original_real_member_only": true,
+      "strict_alpha_upper": "1/2",
+      "strict_cut": "76285779072683/320000000000000",
+      "strict_interval": [
+        "0",
+        "76285779072683/320000000000000"
+      ],
+      "strict_weight_gap": "79/128",
+      "terminal_polynomial_degrees": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "total_graph_scalar_slots": 197
+    },
+    "problem_id": "same_selected_complete_physical_mean_strict_flux_97_v1",
+    "publication_readme_retention": "Every full actual pull receipt is printed. Execution retains first and last three, total count and complete chain hash if more than four; no claim that omitted old receipts are embedded.",
+    "readonly_preflight_performs_new_science": false,
+    "reserve_bytes": 120000,
+    "retained_scope": {
+      "WGS_geometry_amplitude_sup_not_A0": true,
+      "actual_96_columns_exist_but_signed_normalization_uncomputed": true,
+      "all_original_one_sided_intervals_and_3070_interfaces_retained": true,
+      "both_characteristic_branches_and_reflection_retained": true,
+      "complete_genuine_Vext_and_extended_forcing_retained": true,
+      "complete_genuine_root_matrix_and_beta_n_retained": true,
+      "exact_root_finite_factor_and_full_WCF_FJ_two_ranks_rho_i_ell2_retained": true,
+      "final_surface_proved": false,
+      "finite_Schur_inverse_proved": false,
+      "five_complete_mean_steps_and_all_eight_terminal_degrees_retained": true,
+      "fixed_new_flux_branch_only": true,
+      "full_Jr_beta_r_e_kappa_and_R0_retained": true,
+      "full_incoming_inverse_proved": false,
+      "full_nonlinear_background_proved": false,
+      "local_root_forcing_and_mean_unchanged": true,
+      "no_phase_lift_value_filled": true,
+      "no_radial_integration_by_parts": true,
+      "normalized_L1_not_Wiener_or_L2_primitive": true,
+      "nu_Schur_and_infinite_radial_head_retained": true,
+      "old_whole_mathematics_success_and_formatter_failure_retained": true,
+      "original_physical_mean_root_initial_value_retained": true,
+      "original_producers_not_imported": true,
+      "original_weighted_and_unweighted_averages_distinct": true,
+      "p_weight_is_not_relabelled_mass_one": true,
+      "passing_high_cutoff_proved": false,
+      "physical_two_means_and_mean_feedback_retained": true,
+      "positive_weight_gap_is_pointwise": true,
+      "same_fixed_intrinsic_eta0": true,
+      "same_selected_real_member_only": true,
+      "strict_d_A0_has_independent_original_product_primitive_proof": true,
+      "true_physical_96_columns_and_all_Theta_cross_blocks_retained": true,
+      "whole_Calg_not_replaced_by_D_infinity": true,
+      "whole_and_reduced_compared_only_with_same_original_operator": true,
+      "whole_bounds_not_subtracted": true
+    },
+    "scientific_field_names": [
+      "kind",
+      "problem_id",
+      "complete",
+      "proved",
+      "stage",
+      "failure",
+      "actual_returncode",
+      "runtime",
+      "arithmetic_bits",
+      "run_id",
+      "run_attempt",
+      "workflow_event_commit",
+      "actual_checkout_commit",
+      "scientific_modules",
+      "manifest_sha256",
+      "input_sha256",
+      "verified_original_inputs",
+      "original_source_AST_evidence",
+      "parameters",
+      "retained_scope",
+      "accepted_old_inputs",
+      "copied_original_scalar_records",
+      "copied_original_scopes",
+      "complete_new_graphs",
+      "whole_candidate_choices",
+      "current_target",
+      "completed_targets",
+      "saved_record_counts",
+      "gates",
+      "actual_progress",
+      "actual_mathematical_wall_seconds",
+      "automatic_retry_authorized"
+    ],
+    "scientific_filename": "actual-scientific-conclusion.json",
+    "scientific_kind": "complete_strict_flux_L1_mean_forcing_refinement",
+    "scientific_module_binding": {
+      "science": "1962475219dd355520560ca9c01ca133423c03a15acdb1700b1e156e9055edb6"
+    },
+    "topic_maximum_bytes": 200000000,
+    "worker_AST_is_additional": true
+  },
+  "complete_scientific_input_guards": {
+    "five_complete_original_actual_files_and_all_gate_lists": true,
+    "old_completed_targets_recomputed": 0,
+    "no_old_scientific_imports_or_evaluations": true,
+    "complete_original_record_count": 131,
+    "complete_original_qualification_objects": 33,
+    "complete_original_copy_identities": {
+      "copied_original_scalar_records": {
+        "bytes": 15148,
+        "sha256": "a0fcd7b24cba3955336cf8b5b37de8ba83ecaadf0b7cc945bf78ef4699e3219d"
+      },
+      "copied_original_scopes": {
+        "bytes": 36676,
+        "sha256": "8a6d0d5c0230cb4f13c10f61403012f60feb542c6fe5be8c8a2ebd67c1355ad8"
+      },
+      "accepted_old_inputs": {
+        "bytes": 4900,
+        "sha256": "1f5e3a84340dd79f8c52ef8fc5dcadfd040dbab86137c03c85595bd3bec6f821"
+      }
+    },
+    "current_roles": [
+      "wgs_main",
+      "wgs_copies",
+      "extended_strict",
+      "profile_strict",
+      "prior_mean",
+      "proof_WMT",
+      "science",
+      "worker",
+      "rules"
+    ],
+    "frozen_source_is_complete_input_and_module": true,
+    "shared_worker_is_unchanged_successful_WMR_and_WOB_worker": true,
+    "source_all_33_JSON_literals_equal_final_peer_interface": true,
+    "all_original_inputs_complete_and_original_field_sets_verified": true,
+    "old_failed_posterior_prefix_and_completed_nodes_distinct": true,
+    "original_WGS_pair_full_binding_and_degree_group_5_through_6_retained": true,
+    "physical_root_initial_condition_z_ph_at_rstar": true,
+    "all_3070_interfaces_four_endpoints_and_two_physical_means_retained": true,
+    "strict_only_new_flux_branch_and_old_local_branch_retained": true,
+    "seven_complete_graphs_195_new_plus_two_old_copies": true,
+    "whole_and_reduced_only_same_operator_whole_comparison": true,
+    "all_source_functions_and_formulas_reviewed_without_scientific_execution": true,
+    "final_interface": {
+      "git_blob_sha": "58177d404f4ff5702def19348c0d50934daf0f6f",
+      "bytes": 83265,
+      "sha256": "cbe2c832caa6ef7e9835d6300f82edc1d68215ae7b2e97ba00e4ac2698f4dbb8",
+      "not_an_additional_runtime_input": true
+    },
+    "peer_audits": {
+      "main_controller_formal_peer": true,
+      "mathematical_fragment_formal_peer": true,
+      "no_local_scientific_execution": true,
+      "original_input_formal_peer": true
+    }
+  },
+  "publication_budget_model": {
+    "all_current_file_bytes": 326411,
+    "complete_original_files_bytes": 173671,
+    "complete_readonly_preflight_bytes": 6551,
+    "execution_full_model_to_be_frozen_by_root_with_manifest": false,
+    "full_failure_model_sha256": "1441ecf8141664c968d09045ace10084068d0497981ad745b3fe56049525d1af",
+    "full_success_model_sha256": "c798e688b44e998250b768144e4e90585138e92ff47a95a8550b533208548488",
+    "kind": "WMT_complete_full_shape_byte_model_without_scientific_execution_v1",
+    "late_failure_science_bytes": 98487,
+    "late_failure_trace_newline_count": 32,
+    "late_failure_type_model_bytes": 128,
+    "maximum_execution_bytes": 59000,
+    "maximum_report_bytes": 8000,
+    "maximum_scientific_bytes": 99000,
+    "maximum_total_publication_bytes": 166000,
+    "new_ball_string_bytes": 128,
+    "old_records_are_exact_original_strings": true,
+    "only_text_JSON_shape_copy_and_byte_checks_performed": true,
+    "published_WMT_proof_already_on_main_bytes": 31256,
+    "reserve_before_new_child_bytes": 120000,
+    "scientific_math_fragment_bytes": 13703,
+    "scientific_source_bytes": 93439,
+    "shared_worker_already_published_bytes": 25584,
+    "success_science_bytes": 96949,
+    "working_interface_need_not_be_published": true,
+    "root_full_input_records_and_scopes_verified": true,
+    "root_full_accepted_projection_verified": true,
+    "root_complete_science_model_bytes": 96900,
+    "root_late_failure_science_model_bytes": 98438,
+    "root_complete_readonly_preflight_bytes": 6551,
+    "root_full_execution_failure_model_bytes": 37870,
+    "execution_model_retains_all9_current_two_AST_full_preflight_four_full_pull_receipts": true,
+    "execution_failure_message_model_bytes": 4096,
+    "execution_failure_traceback_model_bytes": 16384,
+    "models_are_only_text_shapes_and_byte_counts": true,
+    "root_full_execution_model_frozen": true
+  }
+}
