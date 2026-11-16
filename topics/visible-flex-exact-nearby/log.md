@@ -269,3 +269,9 @@ root仅schema/hash核全33fields/18gates、27current/10AST/19history、原全部
 
 仅删δ3原shared516 forward977dc3a0/50356B/4f0a0cfa…与backwardb6500295/50324B/1a807c09…，合100680B；完整恢复path/Git/SHA/bytes、命令来源/原非零defects/历史archive依赖保notes/2026-11-16-R133-completed-fixed-tau-probe-history-recovery.md（99b34b57fcd5291c6e0ca7a08b6ca7d8b8155841/2581B/c3a4db2cc2f4e0e07bd5465f15260e046d1c319f0e7cd2df03fe7288d8dcdc0a），restore49fefaeb同path。原F1133B/N7500B/source及全部定义/native/失败保，未来仅原字恢复禁重算。
 root完整读N/F并核fresh tree与WPTVS/WMT/WRT声明闭包，Tail此前已读producer；2目标body0，新科学0，不升为连续证书。按根12/15不额外部署独立白名单审批，普通删除不改历史。R129三旧report在当前tree均已缺席，未再次删除或替代。dbf00d16753f752c3e92565c0831c190dc5dd3d8两README同已读。
+
+## 2026-11-16 12:01:18 UTC — WRT42完整新consumer准备
+
+source983a1eeca9b4e1a5233a7501eaaf2ad3f5204ff9/73411B/SHAbc16863412e739a9a468f06c715282665e533f145ef025033addd7b15bd60724；manifest a56e211314d2c5ddbb67f7073ddc5bef4b537fe9/18333B/SHA38e8211d25ac3799ae61f33b5dec704ee382cf6a1a5fcdeca7f2e8ed6510b418。11current（7old+proof+science+原f966worker+rules）/2AST/0history；source固定7图42新、18门、32fields、3power/1sqrt，无旧exp/log/N6/mean/receiver重算。
+root完整核所有admission/helper/controller，重建75完整原record9302B/4e7b739f、10完整数学scope57334B/d0e94c5e及全部7 admission投影；57KB数学scope完整保，只把重复运维身份绑定为全file/path/bytes/SHA。静态whole success97063B、latefailure含96B current_target98595B<99k；execution39185<59k、preflight7510B；166000publication+120000reserve按worker两次前置容量门。diagnostic按JSON UTF8限256/1024并显式flag，完整数学prefix不裁。新数学0，workflow另推后才运行。
+本机11:58:46真CLI git pull --rebase仍无executor，已记H并继续根规8小文本；实际最新CI pull11:42:53两README无变，24d862dd85684fedd472414f6e9a77d896062a89只读核同已读。课题当前清理后199367007B，包加91444B与小journals有足够启动余量。
