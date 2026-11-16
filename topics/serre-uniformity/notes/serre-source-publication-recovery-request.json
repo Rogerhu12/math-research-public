@@ -2,39 +2,59 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-seven-bounded-divisor-trace-dual-connections",
-  "commit_message": "serre: construct original seven-source trace-dual connections with full principal parts",
-  "rules_last_read_commit": "98b615b66cc5363977939df0439b8532f471b0db",
+  "request_id": "20261116-freeze-original-five-Z-shared-flip-execution-source",
+  "commit_message": "serre: freeze the original five-Z shared-flip consumer pending actual producer sources",
+  "rules_last_read_commit": "fbfccc056bf0680827b008fe6a83705fdc96b528",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "082fcb54d87e240ad52d3b71349291a1d67735d4a6de3a0e0521a5acc96600a2",
+  "expected_previous_request_sha256": "3967382b801e8f5d7a11b290188181b865e7e14f922ca3736f549eb3242c6cd2",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R905-original-bounded-divisor-trace-dual-connections.md",
-      "sha256": "137f5558857f0c67846fe0e7f32740e569f44c7f2dcb99b9c07b313d18229d7e",
+      "path": "topics/serre-uniformity/scripts/R901_original_five_Z_shared_bounded_flips.py",
+      "sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-trace-dual-connections.md",
-      "sha256": "45e33a5fb41c407fa9dde20c6d7f940c60d3d5e71b242fa227ef553203035c1b",
+      "path": "topics/serre-uniformity/scripts/R901_public_original_five_Z_shared_bounded_flips.py",
+      "sha256": "c2aad47b0af2a85e87f8fc8f955c879043d0c0de2c4046b530f5ee56444356d2",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R901-original-five-Z-shared-flip-execution-method.md",
+      "sha256": "d5a5c611fef2a5c9dc465fd5b9baac85505828d9bd7f3fbd62ad0f52f0620124",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R901-original-five-Z-shared-flip-source-plan.pending.json",
+      "sha256": "7d5300ec14bf83119768d6f41d44e940e5e073348d765538f154f51ddf69431a",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R901-five-Z-shared-flips.yml",
+      "sha256": "5bc1b375dd8e0a48605acc7798136bf9b0cca9df3832ababe05cbfa766030168",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.pending.json",
+      "sha256": "8b5731a514a6b3f5648f03111e10f54cb1497bd04658b653ccc00bd95cebb845",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "777dcd65e62ff3f780ddab220b860403147da45ae4ddbd1e841faec2faf8826a",
-      "expected_previous_sha256": "45e33a5fb41c407fa9dde20c6d7f940c60d3d5e71b242fa227ef553203035c1b"
+      "sha256": "17fc95f23718e6b72af7a6abbf7d6b4ac8c0330d7280e006a233c3b8870351fc",
+      "expected_previous_sha256": "923d4d321ce8ef8bff90fd47f40a3a274236ea3575b557354692954d4bd7126b"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "0ae0c259dffa16983af1408acfbe6c4c7106c04a191e83e53db1ffb0561fc861",
-      "expected_previous_sha256": "348a8b9fc2a1f9781f0dff0ebd7fbd1d9d1b9fc5044930e1772e7fa6c50a3437"
+      "sha256": "f6cc0846ce3bb9e56b6e6088513aabd1315b88ace848d190f247a2a59571bd3c",
+      "expected_previous_sha256": "0ae0c259dffa16983af1408acfbe6c4c7106c04a191e83e53db1ffb0561fc861"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "241ef8da23d2bbf7c59e2a01fa3c07791a4f40f0c925ee7e10b660e47b86f48b",
-      "expected_previous_sha256": "62c057b1cd9ce170a23bc2073723bca8bcc5b079184a7e76acacb57a6cf2c45b"
+      "sha256": "c17573a5d973b504293801cfc724ec2a7da5fcd5535fa31f4560c19723fc8e9c",
+      "expected_previous_sha256": "63ae38a222290931da216a9d764437141f2464f5e9497c76c61441b5eb297d96"
     }
   ],
   "dispatch_workflows": []

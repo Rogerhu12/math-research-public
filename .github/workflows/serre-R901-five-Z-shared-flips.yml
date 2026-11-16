@@ -1,0 +1,143 @@
+name: R901 five original Z shared bounded flips
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.json
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: serre-R901-five-Z-shared-flips-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    outputs:
+      active: ${{ steps.rules.outputs.active }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.json
+      - name: Read actual main rules and perform git pull
+        id: rules
+        shell: bash
+        run: |
+          python - <<'PY'
+          import datetime, hashlib, json, os, pathlib, subprocess
+          request=pathlib.Path("topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.json")
+          if not request.exists():
+              with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+                  f.write("active=false\n")
+              raise SystemExit(0)
+          data=json.loads(request.read_text());job=data.get("job",data)
+          active=job["producer_inputs_pending"] is False
+          with open(os.environ["GITHUB_OUTPUT"],"a") as f:
+              f.write("active="+str(active).lower()+"\n")
+          if not active:
+              raise SystemExit(0)
+          root=pathlib.Path.cwd()
+          paths={"root":"README.md","topic":"topics/serre-uniformity/README.md"}
+          subprocess.run(["git","config","user.name","github-actions[bot]"],check=True)
+          subprocess.run(["git","config","user.email","41898282+github-actions[bot]@users.noreply.github.com"],check=True)
+          subprocess.run(["git","fetch","--filter=blob:none","origin","main"],check=True)
+          head0=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()
+          subprocess.run(["git","checkout","-B","R901-rules-current"],check=True)
+          subprocess.run(["git","pull","--rebase","origin","main"],check=True)
+          head=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()
+          hashes={k:hashlib.sha256((root/p).read_bytes()).hexdigest() for k,p in paths.items()}
+          changed=[k for k in paths if hashes[k]!=job["readme_sha256"][k]]
+          if changed:
+              old=job["rules_last_read_commit"]
+              subprocess.run(["git","fetch","--filter=blob:none","--depth=1","origin",old],check=True)
+              subprocess.run(["git","diff",old,head,"--",*paths.values()],check=True)
+          receipt={"result":"R901-rules-pull","actual_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                   "checkout_head":head0,"actual_main_head":head,"last_previously_read_commit":job["rules_last_read_commit"],
+                   "actual_readme_sha256":hashes,"changed_readmes":changed,"actual_git_pull_rebase_performed":True}
+          pathlib.Path("/tmp/R901-rules-pull-receipt.json").write_text(json.dumps(receipt,sort_keys=True)+"\n")
+          print("R901_RULES_PULL="+json.dumps(receipt,sort_keys=True))
+          assert not changed,"README changed; consume new actual rules before mathematical execution."
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-R901-rules-pull-${{ github.run_id }}-${{ github.run_attempt }}
+          path: /tmp/R901-rules-pull-receipt.json
+          retention-days: 1
+          if-no-files-found: ignore
+  compute:
+    needs: rules
+    if: needs.rules.outputs.active == 'true'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+      PYTHONINTMAXSTRDIGITS: "0"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/
+            /.github/workflows/serre-R901-five-Z-shared-flips.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: AST and frozen text hashes
+        shell: bash
+        run: |
+          python - <<'PY'
+          import ast, hashlib, json, pathlib
+          base=pathlib.Path("topics/serre-uniformity")
+          request=json.loads((base/"notes/R901-five-Z-shared-flips-public-request.json").read_text())
+          job=request.get("job",request)
+          for key in ("core","wrapper","io_helper","legacy_core","compact_core","legacy_io"):
+              path=base/"scripts"/job[key];raw=path.read_bytes()
+              ast.parse(raw,filename=str(path))
+              assert hashlib.sha256(raw).hexdigest()==job[key+"_sha256"]
+          for row in job["proofs"].values():
+              assert hashlib.sha256((base/row["path"]).read_bytes()).hexdigest()==row["sha256"]
+          assert hashlib.sha256((base/job["method"]).read_bytes()).hexdigest()==job["method_sha256"]
+          plan=(base/job["fixed_plan"]).read_bytes()
+          json.loads(plan)
+          assert hashlib.sha256(plan).hexdigest()==job["fixed_plan_sha256"]
+          print("R901 source AST and all bound text hashes verified; no mathematical core imported.")
+          PY
+      - name: Install frozen arithmetic dependency
+        run: |
+          python -m pip install --only-binary=:all: python-flint==0.9.0
+      - name: Reuse original D2 E and construct the fixed five-divisor tree
+        id: compute
+        continue-on-error: true
+        run: |
+          python topics/serre-uniformity/scripts/R901_public_original_five_Z_shared_bounded_flips.py compute --output /tmp/R901-output
+      - name: Standard-library source and complete-output verification
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R901_public_original_five_Z_shared_bounded_flips.py verify --output /tmp/R901-output
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: serre-R901-five-Z-shared-flips-${{ github.run_id }}-${{ github.run_attempt }}
+          path: /tmp/R901-output/
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: error
+      - name: Preserve actual compute outcome
+        if: always() && steps.compute.outcome != 'success'
+        run: |
+          exit 1
