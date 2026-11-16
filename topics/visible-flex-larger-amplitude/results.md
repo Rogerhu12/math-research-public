@@ -154,3 +154,9 @@
 
 **request216实际公开运行。** 入口`634c4c85dbdb402965d5dc0bbc1ab756878ce87d`已触发[run43819978588](https://github.com/Rogerhu12/math-research-public/actions/runs/43819978588)，2026-11-16T06:54:14Z/attempt1，compute133140597135；首次官方metadata前1–6成功、第7容量记录运行，源生成和科学尚待。R488由exact唯一终态读取，未取running日志；实际状态不补任何新场、全域误差或接受。入口官方topic tree`af260cad5417a640d9e8dfd8b2c5c2fb589f6f13`为197715378B/9300blobs、9672entries，truncated=false。
 
+
+
+## R494 — 当前C原product变分的有限零系数省略调用
+
+**R494：当前C原product变分的真实省零调用；无新科学执行。** [证明](results/R494-current-C-captured-product-zero-eliding-linear-source.md)18109B/62c241e2、[接口](notes/2026-11-16-current-C-captured-product-zero-eliding-linear-interface.md)20961B/60848e64与caller12857B/eafb4117本次刊。205/214/216三层实际fae2/fb951→f9b→205b captured-product，原已批量Fourier矩/一次分解全列回代；R466/R471不同trace对象不直接迁入。新caller仅真实linear调用原eb487 helper：有限输入省零、否则原全loop，原root/RHS/product/RK/cusp/双mean/全部维数与门保。新runtime receipt分别记新工厂与原已加载f9b，跨两槽cache所有engine累计九计数和当前未返范围，不冒全J、整run同词或速度。三层worker/client/config/driver及union CP硬pin尚未接，R496/request218继续真实来源组合；当前源码不修复205此前inverse工作停止、不添资格/全解析门。
+

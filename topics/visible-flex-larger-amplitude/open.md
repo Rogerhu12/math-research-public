@@ -26,6 +26,8 @@ R485/215三段完整结论/入口/初始官方绑定逐字保在[固定C说明�
 
 **R491：原native/fullDN主门与128末态的正向消费合同；无新执行。** [完整逐源结论](results/R491-original-native-fullDN-gates-and-complete128-response-consumption.md)32598B/890ecf40本次刊。原338×112本就混合解析first-slope/meanSlope与原对称差分，内层AffineTail只用前112行；其余完整行/两mean/末态仍须保，全338解析不是原接受门。204/215原bridge受控停止64、未返回新128正常响应，也未调用完整前缀fullDN，固定false不表示数值拒绝。真正后继须同job逐当前H消费全128state/jets/J/audit、明确128→原数值接口的投影/来源，再实际执行原FD、完整内层RMS≤1e-6/BC≤1e-11、新H非线性回算、冻结参数physical RMS、fresh同H J/audit、audited BC及原cut/H/材料合法性合同；不凭四complete改flag或从SHA造payload。215必要字段可判组件范围/原极值/实际错误但不传全数组，溢出仍未读。准确全解析、有限trace径向导数、C=Fe和连续几何属于更强另付声明，不增原门；未接live client、accepted前缀/闭面均未预付。
 
+**R494：当前C原product变分的真实省零调用；无新科学执行。** [证明](results/R494-current-C-captured-product-zero-eliding-linear-source.md)18109B/62c241e2、[接口](notes/2026-11-16-current-C-captured-product-zero-eliding-linear-interface.md)20961B/60848e64与caller12857B/eafb4117本次刊。205/214/216三层实际fae2/fb951→f9b→205b captured-product，原已批量Fourier矩/一次分解全列回代；R466/R471不同trace对象不直接迁入。新caller仅真实linear调用原eb487 helper：有限输入省零、否则原全loop，原root/RHS/product/RK/cusp/双mean/全部维数与门保。新runtime receipt分别记新工厂与原已加载f9b，跨两槽cache所有engine累计九计数和当前未返范围，不冒全J、整run同词或速度。三层worker/client/config/driver及union CP硬pin尚未接，R496/request218继续真实来源组合；当前源码不修复205此前inverse工作停止、不添资格/全解析门。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。
@@ -68,11 +70,7 @@ R437/433/434/438/452的首闭场须真实同C全field/cut/两帽/atlas/shared、
 
 容量整理已按根15普通删除[actual63两生成清单](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15的1441937B与[actual62两生成清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)/77fae38c的1352194B；仅指定生成文件，原输入/91、98等真父/参数/源码/历史保，不作科学进展。
 
-**R487：完整coast范围实际组合进三级增量精化；无新科学结果。** [证明](results/R487-complete-coast-three-level-incremental-refinement-composition.md)17544B/ed9bedf0、[216总接口](notes/2026-11-16-request216-complete-coast-incremental-refinement-interface.md)27739B/b741632d与六执行/源计划本次刊。以真实214为祖先保251公开+15原R464 view，增9公开、R483五view与13新view得260+33；派生205的195项为真实角色表，不冒完整动态闭包。新coast源真接首场、R456和R464 union的metric/post/reader/held及统一evidence；同72c定义/C族/十词/compiler/全部原求解与门、三层depth2、五factor2后M128/四factor1、全部t与display/预算保。只改准确目标包围，不改factory初点域、不保证盒收紧或误差下降；缺B不加精化门。实际checkout按15→5→13生成，准备读写同source-preparation216；唯一18900+2700钟、全部scope与quiet才清。chain超90K仍70，composition超限沿原ValueError/1分列。R487八件已29971f03，request994c/wf bcb8本次发布，R488由exact唯一读终态。
-
-**request216独立入口。** [总接口](notes/2026-11-16-request216-complete-coast-incremental-refinement-interface.md)及R487八件已29971f033bd105d19703c262bbff6df41414188f；request57819B/994c1f2e与workflow97966B/bcb85d73本次刊。基于原214，实际260公开+33生成、三层depth2/同C/原全部门和唯一钟保持，仅后置coast范围及真实来源组合改变；R488由exact唯一终态读取。实际入口634c4c85/run43819978588已绑定；不预填科学、读回、清理或README成功。
-
-**request216实际公开运行。** 入口`634c4c85dbdb402965d5dc0bbc1ab756878ce87d`已触发[run43819978588](https://github.com/Rogerhu12/math-research-public/actions/runs/43819978588)，2026-11-16T06:54:14Z/attempt1，compute133140597135；首次官方metadata前1–6成功、第7容量记录运行，源生成和科学尚待。R488由exact唯一终态读取，未取running日志；实际状态不补任何新场、全域误差或接受。入口官方topic tree`af260cad5417a640d9e8dfd8b2c5c2fb589f6f13`为197715378B/9300blobs、9672entries，truncated=false。
+R487/216三次来源、入口及官方绑定完整原文保在[289f89c3时open](https://github.com/Rogerhu12/math-research-public/blob/289f89c3b2ae82fe7f754f62b55972c9d362b305/topics/visible-flex-larger-amplitude/open.md)。[R487](results/R487-complete-coast-three-level-incremental-refinement-composition.md)/[总接口](notes/2026-11-16-request216-complete-coast-incremental-refinement-interface.md)八件已29971f03；入口634c4c85的request994c1f2e/wf bcb85d73实际run43819978588/compute133140597135（06:54:14Z），exact唯一R488。260公开+33生成真15→5→13，准备读写同source-preparation216；三层original112/resolution112/incrementalM的metric/post/reader/held与统一evidence真接coast，原72c/C族/十词/compiler/原全部科学与门、depth2、五factor2后M128/四factor1和全部t/display/18900+2700保持。factory初点域不变，不保证收紧/下降；缺B不添门，chain超90K70与composition超限ValueError/1分列。原全部scope/quiet才清。首次官方只前1–6成功/7容量，未取running日志、不预填接受。入口topic容量197715378B/9300blobs/9672entries/truncated=false，treeaf260cad5417a640d9e8dfd8b2c5c2fb589f6f13。
 
 ## 4. 同一g闭合与真正九冻结450
 
