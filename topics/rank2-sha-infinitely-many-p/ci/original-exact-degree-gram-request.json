@@ -1,0 +1,20 @@
+{
+  "request_id": "rank2-20261116T0855-original-exact-degree-gram",
+  "utc": "2026-11-16 08:55:35 UTC",
+  "parameters": {
+    "curve": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "torsion_prime": 17,
+    "orbit_length": 16,
+    "alpha": "-1+2*omega",
+    "arguments": []
+  },
+  "image": "sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb",
+  "scope": "Exact original 17-torsion weight-two Eisenstein sum and rational polarized degree Gram, without rounding numerical degrees or asserting Hom integrality.",
+  "output_policy": "Public Actions console only. Persist source, parameters, run and hashes; no recomputable output files or artifacts."
+}

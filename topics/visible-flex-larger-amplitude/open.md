@@ -77,6 +77,9 @@ R489以原完整f12f1440/six及同五输入/完整数学字段重算同根族，
 
 [R502实际219](results/R502-actual219-input-pin-failure-and-unstarted-live128-scope.md)13503/4391677e完整：run43832887523/sourcef0c78734，compute133182240807 failure/report133182459836 success，两原终志各唯一；334源syntax与容量成功不补恢复。ledger-ready SHA手录63字符漏e，原204/208同blob正确64字为563a99973230a7f15d1c1ba8537edae34bc02158a0cfff90160d37f57e3ab2f6；实际bytes/SHA联合guard报错，日志未打印所取raw SHA，不能说正确值是本次测得。前四输入返回只是控制流推论，preparation55039仅身份与原错误事件，后stored-ready/78/91/所有H和19200科学钟未起。quiet对两个无归属证据的sameuid不可读environ保unknown，完整必要2101/074caaa8只是未证静止；cleanup heredoc未解析，未有应用层删除/保留事件。R501接口已明示更正并保原f0历史，原219执行件冻结。221/R508/R509仅更正pin、以真实own证据限定quiet及修heredoc；真实/可疑own不可读仍阻读删，14科学/协议源/单19200钟/全原门保，无新fixture或接受。
 
+
+[R508](results/R508-live128-scoped-ownership-and-original-input-repair.md)/[221接口](notes/2026-11-16-request221-live128-scoped-original-full112-interface.md)六件已完成：proof12168/a28c1cec、接口14354/5c0f369b，outer38924/6f211144、reader35283/687168ef、request54884/0fa9fe29、workflow13301/83849e83。保旧334pin＋新2=336和原14科学/协议源全字节；同原输入只补ledger-ready缺e，scoped quiet按实际登记/startticks/组/session/后代/可读namespace，先stat图再筛，所属uid变化/不可读/身份变化仍unknown禁读删，不因外部sameuid权限错冒本请求所有。仅准确信号权限/真实再次静止后清理，单90K原必要选择器不改，保留说明改为单行Python。原63前缀/96/port、91仅尾初猜、350/320min/19200同钟、全部128/fullFD/fullDN/原末门保；无准备或科学通过预填，实际R509/exact唯一。原219执行件不追改，新workflow正式dispatch。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

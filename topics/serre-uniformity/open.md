@@ -96,3 +96,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R879原参考单极函数消费者激活**：[完整证明](results/R879-original-reference-pole254-pencil-from-completed-syzygies.md)/[方法](notes/R879-original-reference-pole254-function-method.md)。直接读R872的418对S/T与原jets，两个272最高项截断及19局部条件组成563×418；准确rank291，实际单位子式和全563回代后才认证(v0)∞=254P0及M0铅笔(1,v0)。corea8573c2a/wrapper2703bec3，30min；不重原核/乘法/逆，不搬122MB源包，不先求参考128。真实run待回填；t帧保c^254/U272不设1，五Lj/九Norm/支持/height仍缺。
+
+
+**R880原D/cusp有界输入已证明**：[完整方法](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)。旧R845十乘积与1111选择只新269 RHS；123原jets给146，同五纤维新962秩给D*完整418；20cusp+252旧jets另给DC完整418。Ef−1206P0=(DC−H)+3(D*−H)+4(Dχ−H)+divQf，Qf=(a*/v)^3/(uχ/τ²)^4及原ρ首项保全。新核未算，原t帧/五Lj128/144/height不预填；旧χ418与R877 A/B直接用。

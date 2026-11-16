@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-0848-R873-and-R877-completed-original-certificates",
+  "request_id": "20261116-0859-R879-completed-reference-pencil-certificate",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "fc6d692d2429e1e058c4c371e59b0f49ce201baf",
+  "rules_last_read_commit": "07bcd8608a6fd2e178593ce8f830375689ed7461",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,50 +12,17 @@
   "reader_sha256": "d9960e9e9539740b9a4597bb5454b111782c5920f75a7d75b83ee786054dfa9b",
   "sources": [
     {
-      "label": "R873-certified",
-      "mode": "named_original_members",
-      "source": {
-        "run_id": "43832703159",
-        "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
-        "artifact_id": 14209317175,
-        "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43832703159-1",
-        "archive_bytes": 382153683,
-        "archive_sha256": "f9e415113d32822fd563529188c6100d3cd64ab2eb046faca09939eb45e4e3e4",
-        "expected_conclusion": "success",
-        "manifest_sha256": "a5f118c42909070868edea70c6cd0ee5c91bc8446d6cf540915a76eab71e6aac",
-        "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c"
-      },
-      "names": [
-        "R873-original-cyclic-seven-source-target-function-DAG.json.gz"
-      ],
-      "known_file_pins": [
-        {
-          "bytes": 11215,
-          "file": "p41-original-cyclic-seven-correspondence-certificate.json",
-          "sha256": "b3b89a5627cf977c27c5e5402a655e9c7baf86e9389fb1c58d38fc2e5577783d"
-        },
-        {
-          "bytes": 32165,
-          "file": "R873-original-cyclic-seven-source-target-function-DAG.json.gz",
-          "sha256": "7f25006cd4d2a500af621360f01baad85a2836b40b4d595ff5f91025f3671b66"
-        }
-      ],
-      "print_json_summary_files": [
-        "R873-original-cyclic-seven-source-target-function-DAG.json.gz"
-      ]
-    },
-    {
-      "label": "R877-certified",
+      "label": "R879-certified",
       "mode": "ended",
       "source": {
-        "run_id": "43833857220",
-        "source_commit": "87f3bfe4c7873258c45a55ccf9ee6c41ff7cf6a4",
-        "artifact_id": 14209578116,
-        "artifact_name": "serre-R877-canonical-A-normal-input-43833857220-1",
-        "archive_bytes": 79882282,
-        "archive_sha256": "6f0e627c7d5c330c8a85647c1e333ecd036ce4531f1b8de0983b98c7fdbd7322",
+        "run_id": "43835253379",
+        "source_commit": "0f74fb43a6eba2646e34b2950f5de1131470fe29",
+        "artifact_id": 14210388032,
+        "artifact_name": "serre-global-R879-reference-pole254-43835253379-1",
+        "archive_bytes": 6787421,
+        "archive_sha256": "4b1d3a03d861049f614aaad98d9065b64e82050a11cecf1bc891ab5bbbe10100",
         "expected_conclusion": "success",
-        "core_sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a"
+        "core_sha256": "a8573c2a0dfd830cd3cd41dda0858fa108dbcfe0e0fc1ad1d4f78a1b95a2bf33"
       }
     }
   ]
