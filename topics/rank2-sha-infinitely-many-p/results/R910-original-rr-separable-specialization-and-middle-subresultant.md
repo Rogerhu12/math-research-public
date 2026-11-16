@@ -144,3 +144,12 @@ $$
 Sage Development Team，SageMath 10.6，src/sage/rings/polynomial/multi_polynomial.pyx，blob 792161352b0c2c40323cddde1b186bda431122fc，subresultants 方法；已按有限行读取源代码。它将指定变量转成一元多项式并返回同环的非零子结式，不依赖默认变量。参见 [固定版本源代码](https://github.com/sagemath/sage/blob/10.6/src/sage/rings/polynomial/multi_polynomial.pyx)及[官方一元子结式接口](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_element.html#sage.rings.polynomial.polynomial_element.Polynomial.subresultants)。本篇所用正确性已由上面恒等式和完整原残差给出，接口说明不代替实际通过记录。
 
 所有数学执行仅在本公开仓库 Actions；具名容器退出时强制清理，最长 21000 秒后终止容器，不保存可重算输出、系数或 Release。最终仅登记实际 run/job/source、脚本依赖和结果 SHA-256。本文发布时尚无新执行结果；完成算法证明后立即请求执行，继续其它原未闭门。
+
+
+## 7. 首次实际执行与确定的接口修复
+
+首 run43912835484/job133459031944/source d622da0c720cef993a131ad47fc3214e08f771bc 于 16:57:02 UTC 失败。原整数 Phi17 已完整生成，hash 与旧两任务一致。实际异常为 RecursionError: maximum recursion depth exceeded during compilation，35.526014552 秒，最后记录 max_rss_kib=1055724。
+
+完整调用栈落在 Sage 10.6 multi_polynomial.pyx 的子结式返回转换：它对一元子结式列表逐项调用原多元环构造器，后者经通用转换进入大表达式编译。没有线性子结式结果哈希，也没有 RR PASS。此失败与代数条件不成立不同。
+
+修复直接建立 $k[x,v][Z]$ 的 19 个系数向量，对一元多项式调用同一 subresultants 算法；仅取线性项的两个 $k[x,v]$ 系数，按各自系数字典求值和记录哈希。对角幂的两个精确商余数与重乘身份均保留。这样避开整条大列表回转多元环的表达式编译；数学输入、子结式、(5)–(10) 及所有后续门不变。修复推送后重新请求原完整执行，不将首 run 记为算法或 RR 证书完成。

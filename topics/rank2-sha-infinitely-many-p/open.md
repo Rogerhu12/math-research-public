@@ -161,3 +161,5 @@ R840须用同Kcorr/Hcorr支付两个高前缀，再用同F²L1付第三3η/第�
 R907§6.1：若第四短窗L>h，实际相邻后继先迫a(G)=0；原全charge单位投影给K∞=0及∩_{j=0}^{3b}T^{-j}K=0。只排完整共同测试，不排单个非稳定K元素，仍需原forcing提供真实后继。
 
 [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
+
+R910首run43912835484/job133459031944/source d622da0c在子结式多元回转中触发RecursionError；已改直接k[x,v][Z]系数向量读取原线性项，完整数学门不变并重请求；无RR PASS。

@@ -88,44 +88,50 @@ def universal_linear_subresultant(prime, terms, progress):
     if key in _UNIVERSAL:
         return _UNIVERSAL[key]
     k = GF(prime)
-    ring = PolynomialRing(k, names=("r910_left", "r910_middle", "r910_right"),
-                          order="degrevlex")
-    left, middle, right = ring.gens()
-    first = sum((k(c)*left**i*middle**j for (i, j), c in terms.items()), ring.zero())
-    second = sum((k(c)*middle**i*right**j for (i, j), c in terms.items()), ring.zero())
-    assert first.degree(middle) == second.degree(middle) == 18
-    assert first.coefficient({middle:18}) == second.coefficient({middle:18}) == 1
+    coefficient_ring = PolynomialRing(
+        k, names=("r910_left", "r910_right"), order="degrevlex")
+    left, right = coefficient_ring.gens()
+    polynomial_ring = PolynomialRing(coefficient_ring, "r910_middle")
+    first_coefficients = [coefficient_ring.zero() for _ in range(19)]
+    second_coefficients = [coefficient_ring.zero() for _ in range(19)]
+    for (i, j), coefficient in terms.items():
+        first_coefficients[j] += k(coefficient)*left**i
+        second_coefficients[i] += k(coefficient)*right**j
+    first = polynomial_ring(first_coefficients)
+    second = polynomial_ring(second_coefficients)
+    assert first.degree() == second.degree() == 18
+    assert first.leading_coefficient() == second.leading_coefficient() == 1
     progress("r910: universal polynomial subresultants start", prime=int(prime),
-             middle_degree=18, coefficient_ring=str(k)+"[left,right]")
-    chain = first.subresultants(second, middle)
-    degree_list = [int(f.degree(middle)) for f in chain]
-    linear = [f for f in chain if f.degree(middle) == 1]
+             middle_degree=18, coefficient_ring=str(coefficient_ring),
+             conversion="direct univariate coefficient vectors")
+    chain = first.subresultants(second)
+    degree_list = [int(f.degree()) for f in chain]
+    linear = [f for f in chain if f.degree() == 1]
     if not linear:
         raise ArithmeticError("No linear universal subresultant; no original U certificate.")
     original = linear[0]
-    polynomial = original
+    leading, constant = original[1], original[0]
     diagonal_power = 0
     diagonal = left-right
     while True:
-        quotient, remainder = polynomial.quo_rem(diagonal)
-        if remainder:
+        qa, ra = leading.quo_rem(diagonal)
+        qb, rb = constant.quo_rem(diagonal)
+        if ra or rb:
             break
-        polynomial = quotient
+        leading, constant = qa, qb
         diagonal_power += 1
-    assert polynomial and polynomial.degree(middle) == 1
-    assert original == diagonal**diagonal_power*polynomial
-    leading = polynomial.coefficient({middle:1})
-    constant = polynomial.coefficient({middle:0})
-    assert polynomial == leading*middle+constant
     assert leading and constant
-    assert leading.degree(middle) == constant.degree(middle) == 0
+    assert original[1] == diagonal**diagonal_power*leading
+    assert original[0] == diagonal**diagonal_power*constant
     record = {
         "method":"universal original Phi17 linear subresultant",
         "subresultant_middle_degrees":degree_list,
         "linear_subresultants":len(linear),
         "cancelled_diagonal_power":diagonal_power,
-        "uncancelled_subresultant_sha256":digest(poly_terms(original)),
-        "linear_relation_sha256":digest(poly_terms(polynomial)),
+        "uncancelled_subresultant_sha256":digest({
+            "leading":poly_terms(original[1]), "constant":poly_terms(original[0])}),
+        "linear_relation_sha256":digest({
+            "leading":poly_terms(leading), "constant":poly_terms(constant)}),
         "leading_terms":len(leading.dict()), "constant_terms":len(constant.dict())}
     progress("r910: universal original linear relation complete", **record)
     answer = (leading, constant, record)
@@ -145,13 +151,13 @@ def eta_scaled_evaluation(poly, B, T, progress, label):
     kt = PolynomialRing(k, "r910_eta")
     tpoly = kt.gen()
     items = list(poly.dict().items())
-    assert items and all(int(exponent[1]) == 0 for exponent, coefficient in items)
-    right_degree = max(int(exponent[2]) for exponent, coefficient in items)
-    total_degree = max(int(exponent[0]+exponent[2])
+    assert items and poly.parent().ngens() == 2
+    right_degree = max(int(exponent[1]) for exponent, coefficient in items)
+    total_degree = max(int(exponent[0]+exponent[1])
                        for exponent, coefficient in items)
     coefficients = [kt.zero() for _ in range(total_degree+1)]
     for exponent, coefficient in items:
-        i, j = int(exponent[0]), int(exponent[2])
+        i, j = int(exponent[0]), int(exponent[1])
         coefficients[i+j] += k(coefficient)*tpoly**(12*(right_degree-j))
     modulus = B.polynomial()
     polynomial_ring = modulus.parent()

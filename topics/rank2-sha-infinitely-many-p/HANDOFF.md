@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：60a8e49fae1fe91c186f8614806a637447cf8ef3；2026-11-16 16:55:23 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 16:36:18 UTC/3086204af188e0a552af80e01b3e2cbeb277f8e5（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:20 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：75be08676e3ffa785e354c7e5279648f010a74a6；2026-11-16 16:59:12 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 16:36:18 UTC/3086204af188e0a552af80e01b3e2cbeb277f8e5（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:20 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -36,7 +36,7 @@ R881 r29局部19/12位及τ仅formal；R882原18源/36cusps/绝对端点/D204保
 - tate24 run43865460680/job133292732291。
 - tate19 run43866568746/job133296518979。
 degree24属37/全Atkin属19的完整RR和at^m回DS、原U/两Atkin/所有边界不变。直接Newton/Padé参数q8000/t330、q4500/ξ170见R882D/E，无RR PASS。
-R910已证完整可分特化/线性子结式唯一U恢复；新同tate19 request保全部四RR块与205行，实际run待取，无PASS。源码/参数见R910；不预报加速。
+R910已证完整可分特化/线性子结式唯一U恢复；新同tate19 request保全部四RR块与205行，首run43912835484/job133459031944在35.5秒子结式多元回转编译失败；已改直接系数向量重请求，无RR PASS。源码/参数/R910§7保。
 
 R880/883全18×9、双轴、四除子/真A,C/dF成本均保完整H；Norm含ell²点run43870209568已通过。consumer的F已付，仍需原P与RR PASS及全部依赖/source/hash；无请求/输出，PARI不可跨基消费。
 
