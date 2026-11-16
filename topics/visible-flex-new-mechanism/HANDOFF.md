@@ -30,7 +30,7 @@ R470已证两新响应完整self仍三维，XY余x5<0故y≠0；XH十二词保�
 
 [R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)：四高系数minor D=4s(19s⁴−34hs²−h²)<0；E两根0后余a×实二次。完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0。允许cap中Δ6真可两号；用v=p^(2/3)正曲率密度、共同真平端与简单解析根连续选有限cap使Δ6=0，再从头接R410/R455/R464同q4/F★/20/M3新库。只付一门，不搬给旧冻结母；剩E两实门及Δ3/4。
 
-R473固定末三矩/端germ的真实cap扰动给E非零开稠密；R474以同有限N四内部normal真实IFT补q4，再冻结新cap、重新选restricted-max F★与20根，得到允许新库仍E≠0。未判旧ψ3/所有cap，也不保旧F★/DE/μ数值。文学线正解原ψ3的具体积分；机制线解真实例外cap及剩余四门。
+R473固定末三矩/端germ的真实cap扰动给E非零开稠密；R474以同有限N四内部normal真实IFT补q4，再冻结新cap、重新选restricted-max F★与20根，得到允许新库仍E≠0。未判旧ψ3/所有cap，也不保旧F★/DE/μ数值。[R478](results/R478-critical-power-complex-cap-obstruction-and-smooth-positive-approximants.md)以完整八次primitive/三重因子反证付临界power复余量非零；C²分部连续性及实际正曲率密度近似给真光滑非零cap，不判冻结ψ3。文学线继续其具体积分；机制线解真实例外cap及剩余四门。
 
 [R469](results/R469-global-gauge-locking-and-real-prefix-obstructions-between-rational-germs.md)：一个已付端芽锁第三三矩，全段变化=𝒫*Bθη；gap全s盲，母/平台列须同13核解全函数式。两真端芽最高差=sin²θ d_f(Xb−Xa)，X是真Mraw相对prefix，全周期M0不付相对门。
 

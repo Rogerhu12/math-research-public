@@ -154,3 +154,8 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### 新增广输入首失败：继续原600秒剩余任务
 
 [原观察](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)：run43825241350/research133157415075在已装配9662行、完成两网context后，pool metric IDs被要求全在已付梯度表内的断言失败。0finite/JVP/新行/scalar/actual；新36.79963991600005秒、累计1695.779430607/128值全部保留。修复真实pool/active语义并继续同600秒，不重新分配求解/网格/actual配额；无可读取context数组，必须明列有账修复恢复，不能假称缓存命中。主几何与理论继续。
+
+
+### R478：临界power及真实正近似的完整非零已付
+
+[证明](results/R478-critical-power-complex-cap-obstruction-and-smooth-positive-approximants.md)给u=4y^(5/2)/15的唯一原八次primitive，真左端常数0；若任一二矩复根余量零则A³|R，准确系数迫非零C=0，矛盾。原L−P_end形式给C²连续，不假设第三导一致收敛；明确v''=c0ρδ+εb>0、平左端、末Af简单根的实际光滑cap在有限小δ/ε上非零。临界模型Af≡0本身不允许，近似会改变末三矩，均如实区分。继续冻结ψ3的具体积分与真正例外cap；不由非零例子排所有cap或替代主几何门。
