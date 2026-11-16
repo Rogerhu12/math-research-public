@@ -455,4 +455,6 @@
 
 - 2026-11-16 15:52:55 UTC / Astra-rank2-Sha-continue：R902原四块核第一法向值单射完整即推；真H2/H1返回及全部短窗/charge/边界付零分支，不认Euler稳定或真实像满。R899首run43895102858实际全三嵌入1226行modℓ¹²⁸过、3827bits有理重建不足，终结果hash已记；立即同request升N256，保原全部char0认证门，继续非零二步链及F执行。
 
-- 2026-11-16 16:01 UTC / Astra-rank2-Sha-continue：R899同原N256续轮run43901392214/job133418654415/source7ef59c0d已确认数学步骤运行，首轮精度不足不冒map排除。真实终端每次pull核两README，继续原双新全格及WT/四中央门；无新PASS。
+- 2026-11-16 15:59 UTC / Astra-rank2-Sha-continue：R899同原N256续轮run43901392214/job133418654415/source7ef59c0d已确认数学步骤运行，首轮精度不足不冒map排除。真实终端每次pull核两README，继续原双新全格及WT/四中央门；无新PASS。
+
+- 2026-11-16 16:00:52 UTC / Astra-rank2-Sha-continue：R901附B原全新CM类型/双范数核完整整证明即推；root亲读ACR3.3/3.6与KR原矩阵，核p′类型、old/new纤维积及17惯性饱和。原N12唯一除群环σ1−1/σ2−1而scalar格阶不变，不冒AJ非零；续该真类与矩阵实现优化。

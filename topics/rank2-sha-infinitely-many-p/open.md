@@ -97,6 +97,9 @@ R897附B进一步付清一条实际限制：原Δ来源pull到full ray再trace�
 
 **下一实质门：** 原c1非零、Dfun阶s=0及同目标p的无穷性。继续实际同源关系或新的合法几何输入，不能把条件rank1或一个辅助层非零当成ordinary loc注入。
 
+
+R901附B原全新CM商整比较：ACR完整ν_n、p′ Borel矩阵单位及真full-q/T运输给V_A=L_A⊗S_A；原两范数核整饱和等于H¹(I1I2⊗T)，唯一返回A_i=O[Gi]/N_i，N12=(σ1−1)(σ2−1)Naug且scalar p格阶不变。old/new余核O/(h)、邻点dual余核(O/(q+1))^(q−1)及原共同目标次数保，不冒原AJ非零或标量乘积整除。
+
 ## 第三实际门：同P/R/S与实际有限类
 
 原P134/十九角/charge40/conductor10980/39carry/全WD及M=c*U0w13J不变；TM=s−r−13、TJ=s−r不混。四中央零才给H−Hc∈p³，全Λ0三carry及真实原R/S必须联立。

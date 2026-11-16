@@ -441,6 +441,273 @@ $$
 
 对两个新增惰性素数，取两个(A7)的张量积，同样在相应两个有限群的 coinvariant去torsion后把真实双端点读为1。因此这些自然局部整格本身不强迫一因子 p，更不强迫 (ℓ₁+1)(ℓ₂+1) 的整除。
 
-(A9)不把原 CM/Shapiro 全局 cohomology格与这个自然 Kirillov/邻点格无证相认：该实际全局比较、有限角色提取及其可能的指标仍须单独核定。它给出的严格信息是，(25)中平均得到的 q+1不能被解释成原端点张量在上述完整局部格中的可除性。原全局类可能因全局关系而可除或为零；本附录没有断言相反结论。
+(A9)不把原 CM/Shapiro 全局 cohomology格与这个自然 Kirillov/邻点格无证相认：该实际比较须单独核定；下文附录B对原系数和测试类型支付整比较，同时显式保留old/new拼接、dual pairing和共同目标inverse degree。它给出的严格信息是，(25)中平均得到的 q+1不能被解释成原端点张量在上述完整局部格中的可除性。原全局类可能因全局关系而可除或为零；本附录没有断言相反结论。
 
 这里全部结论由明确矩阵、两个 permutation格和行列和推得，没有运行有限群数值计算。
+
+
+## 附录 B：原 CM 全新商的整类型、增广理想与双新类的准确除法
+
+本附录把附录 A 的局部模型接回 ACR 的原 CM 提取。所接的是**原 cohomology 系数格和原两个端点的测试格**；不假设对角循环在该格中的像本原，也不把一个满射的系数泛函误作全局 AJ 的满射。
+
+### B.1 原 cyclic p 群的两种新格不能混用
+
+固定一个新增惰性 q，令
+$$
+h=p^{v_p(q+1)},\qquad G_q=\langle\sigma\rangle\simeq C_h,\qquad
+R=\mathcal O[G_q],\qquad
+N=\sum_{i=0}^{h-1}\sigma^i.
+\tag{B1}
+$$
+原 reciprocity 决定 $\sigma$ 及有限字符方向；换生成元只改变下述增广理想的生成元，并不改其嵌入。置
+$$
+A=R/(N),\qquad I=\ker(\epsilon:R\to\mathcal O).
+\tag{B2}
+$$
+它们都是 O-free；准确的 R-linear 整同构是
+$$
+\boxed{A\xrightarrow{\ \sim\ } I,\qquad
+\bar a\longmapsto(\sigma-1)a.}
+\tag{B3}
+$$
+因为 $I=(\sigma-1)R$，而
+$\operatorname{ann}_R(\sigma-1)=\mathcal O N$。特别(B3)没有除 h。
+
+这不等于把 R 整地拆成 old 与 new。实际有短正合列
+$$
+0\longrightarrow R
+\xrightarrow{(\epsilon,\mathrm{quot})}\mathcal O\oplus A
+\xrightarrow{(a,b)\mapsto a-b\bmod(\sigma-1)}
+\mathcal O/(h)\longrightarrow0.
+\tag{B4}
+$$
+证明可直接在 $\mathcal O[X]/(X^h-1)$ 中作除法；又
+$A/(\sigma-1)A=\mathcal O/(h)$。交集
+$\mathcal O N\cap I=0$，所以左箭头单射；若两个分量模 h 相合，选 R 中 b 的提升后用 N 调整其 augmentation，即得满的纤维积描述。
+
+因此 $N/h$ 与 $1-N/h$ 只是在特征零中定义的分解幂等元；(B4)精确记录了其 p-primary 拼接。经一个非平凡有限字符 $\chi$ 读取(B3)时，嵌入 I→R 的值是
+$$
+(\chi(\sigma)-1)a(\chi),
+\tag{B5}
+$$
+不是 $ha(\chi)$。若用反 reciprocity，$\sigma^{-1}-1=-\sigma^{-1}(\sigma-1)$；这个明确的群环单位必须随约定一同运输。
+
+有其它原辅助层时，把 O 换成其完整群环；(B1)–(B5)由 O-flat base change 保持。以下先在每个有限 wild 层证明，再按真实 corestriction 取逆极限。
+
+### B.2 不经单个角色幂等元的 universal Kirillov 模型
+
+将原局部 reciprocity 商
+$\mathbf F_{q^2}^{\times}\to G_q$
+复合到 $A^\times$，记为 $\vartheta_A$。它在 $\mathbf F_q^\times$ 上为1。取含非平凡 F_q 加性角色值的有限 O 扩张；这是忠实平坦的整扩张，以下所有结论按该实际模型下降。
+
+定义
+$$
+L_A=A[\mathbf F_q^\times],
+\tag{B6}
+$$
+并在 Knightly–Ragsdale(2-11)–(2-13)中把有限角色值换成 $\vartheta_A$。所有矩阵 entry 在 A 中，因为唯一显示分母 q 是 O 单位。它们确实构成完整 PGL₂(F_q) 表示：$A\otimes E$ 分解为所有非平凡 $G_q$ 角色；每个角色都是奇数阶、在 F_q×上平凡而非 Frobenius-fixed，故原定理逐角色适用。矩阵关系在 $A\otimes E$ 中成立，而 A 是 O-torsion-free，因此在 A 中成立。这个论证不使用含 $1/h$ 的角色投影作为整算子。
+
+令 t 为常数函数1。对有限 split Borel
+$$
+B=U\rtimes T,\qquad |U|=q,\quad |T|=q-1,
+$$
+(B6)的限制与 $\vartheta_A$ 无关：U给全部非平凡加性角色各一次，T传递地置换它们。特别
+$$
+L_A^U=0,\qquad L_A^T=At.
+\tag{B7}
+$$
+在本题 $q\equiv-1\bmod p$，所以 $|B|=q(q-1)$ 是 O 单位。这里没有对完整有限群取平均。
+
+### B.3 Split Borel 的明确整矩阵单位
+
+令 $\mathcal V$ 是一个 O-torsion-free 的 A[PGL₂(F_q)] 模；假设在特征零的每个 A-character 上，它是相应 $\rho_\vartheta$ 的若干份，并置 $\mathcal S=\mathcal V^T$。对 $a\in\mathbf F_q$，定义
+$$
+e_a=\frac1q\sum_{b\in\mathbf F_q}
+       \psi(-ab)\,u_b.
+\tag{B8}
+$$
+这是 O 上的真正幂等元。特征零的 cuspidal 条件给 $e_0\mathcal V=0$；O-torsion-freeness把该等式提升为整等式。故
+$\mathcal V=\bigoplus_{a\ne0}e_a\mathcal V$，各项由 T 整地互相搬运。
+
+映射
+$$
+\boxed{
+L_A\otimes_A\mathcal S\longrightarrow\mathcal V,\qquad
+\mathbf e_a\otimes s\longmapsto e_a s
+}
+\tag{B9}
+$$
+是整同构。确切逆可以从任一 $e_a\mathcal V$ 取 T 的全部平移之和恢复 T-fixed 元；不同加性特征的直和使这一步不出现除 $q-1$，且 $t\otimes s\mapsto s$。先由此得到 B-equivariance。再到每个特征零 A-character：有限 cuspidal 的 B 限制是不可约的，B-intertwiner在 multiplicity 空间外只能为标量；因此该已定的 B 同构与完整有限群作用相容。O-torsion-freeness遂将完整 equivariance降回(B9)。
+
+这也证明了一种具体饱和性：若 $\mathcal S$ 是已指定的整 T-fixed 格，那么完整 cuspidal 格由它唯一决定，不再有一个隐藏的 q+1 指标可在 B 方向插入。
+
+### B.4 将(B9)用于 ACR 原 CM 商
+
+这里使用 ACR Theorem3.3、Corollary3.6 的原整同构，而不改选 first CM 形式。记原 CM 提取系数格为
+$$
+\mathcal Q_n=
+\mathcal O[R_n]\otimes_{\varphi_n,\mathbb T'}
+ H^1_{\mathrm{et}}(Y(1,N_\psi(n^2))_{\overline{\mathbf Q}},
+                   \mathbf Z_p(1)).
+\tag{B10}
+$$
+已有同构 $\widetilde\nu_n$ 把它准确送到原 induced CM 格；它是 $\mathcal O[R_n]$-linear 同构并与原 norm map交换。因而在固定其它层之后，(B10)作为 R-module free of rank2；没有 q+1 分母。其 quotient
+$$
+\mathcal S_A=A\otimes_R\mathcal Q_n
+\tag{B11}
+$$
+是 A-free of rank2。
+
+为核完整局部类型而非只 T-fixed 线，用 ACR §2.1 的实际 isomorphism
+$$
+Y(1,N_\psi(n_0^2q^2))
+ \xrightarrow{\ \varphi_q,\ z\mapsto qz\ }
+Y(1(q),N_\psi(n_0^2q)).
+\tag{B12}
+$$
+右端在 q 处是 ordered pair of distinct cyclic q-subgroups，即 split-torus level。取该实际源的 projective full-q-level cover。其 quotient by T 正是(B12)的源；在包含所有 determinant components 的 adelic 呈示中，T的阶是 q−1。若采用固定 determinant connected component，另有中心与 determinant 的 p′ 因子；它们都整地可逆。原旧 tame level 与 CM/diamond 条件全部保留。
+
+所以 full-level 到原 split-torus level 的 pullback/trace，只需除 q−1；这与主文共同目标 $q_a$ 的次数 $q(q+1)$ 是两种不同映射。紧化 cusps 的 ramification 不破坏这个 p′ group invariants 描述；原 non-Eisenstein completion 同时移除 boundary cohomology。
+
+在 full-q-level cohomology 上，先只施原 $\varphi_n$ 的所有 **q 以外** Hecke条件，再换系数到 A，最后除 O-torsion，所得记为 $\mathcal V_A$。完整有限群仍作用。由于 $|T|$ 为单位，T-invariants 与这些 quotient 操作交换。自然再施 $U_q=0$ 得到(B11)。
+
+这一步没有留下一个未知有限指标。理由如下：在 A 的每个特征零角色上，原 CM 形式在 q 处都是 conductor2的 depth-zero supercuspidal；其 split-torus new line只有一维，且 $U_q=0$。故上段自然满射的 kernel在特征零为0，准确等于 O-torsion；目标(B11)本身 O-torsion-free。因此
+$$
+\mathcal V_A^T=\mathcal S_A.
+\tag{B13}
+$$
+使用 q 以外的完整 Hecke eigensystem不会另加一个特征零表示：原 newform eigensystem确定同一个 automorphic representation；原其它 bad-prime operators也在所施条件中。局部 principal-congruence invariants恰为 finite cuspidal type；这亦由 KR 的 compact-induction 模型直接核得：非中心 Cartan coset若有 principal-congruence fixed 向量，会给 finite cuspidal 的 U-fixed 向量，因(B7)为0。
+
+于是(B9)在原全新 CM 商上给出
+$$
+\boxed{\mathcal V_A\simeq L_A\otimes_A\mathcal S_A,\qquad
+       t\otimes s\longmapsto s.}
+\tag{B14}
+$$
+这个同构以原(B10)/(B11)的 T-fixed 格定标；不改其 CM period、Shapiro 规范或 first test vector。对 contragredient 约定，取相应 dual 同构及原 reciprocity，不用 Hermitian 共轭替代 O-linear dual。
+
+### B.5 原邻点测试格及可下降的本原泛函
+
+原 g,h 的球向量经实际 geometric degeneracy 平移所生成的格仍为(A4)的商格 M；这只是其全部真实测试向量的 span，不宣称它在 full modular cohomology 中是一个自对偶直和因子。
+
+附录 A 的行列和证明在 A 上逐字成立，给
+$$
+\mathscr L_A:L_A\otimes_{\mathcal O}M\otimes_{\mathcal O}M
+ \longrightarrow A,\qquad
+\mathscr L_A(t,\bar e_\infty,\bar e_0)=1.
+\tag{B15}
+$$
+除数仍只有 q−1。把(B14)的 multiplicity module保留，得到原全新 CM 类型与两份实际测试格上的整满射
+$$
+\bigl(\mathcal V_A\otimes M\otimes M\bigr)_{PGL_2(\mathbf F_q)}
+ \longrightarrow\mathcal S_A.
+\tag{B16}
+$$
+其 kernel恰为 O-torsion：每个特征零角色上 invariant multiplicity是1，而(B15)给实际截面 $s\mapsto[t\otimes s\otimes\bar e_\infty\otimes\bar e_0]$。因此 coinvariant的 O-torsion-free quotient准确是 $\mathcal S_A$。两个新增惰性素数同时作此操作，结论在 $A_1\otimes A_2$ 上同样成立。
+
+这里已支付的是原**系数与测试类型**的完整整返回。全局 diagonal/AJ 是进入这个系数 quotient的一枚指定类；(B16)的满射不表示该指定类的像是单位，亦不把循环同调的 primitive generators当作 Chow 或 Galois H¹ 的 generators。
+
+### B.6 原双新类唯一落在乘积增广理想
+
+回到 R900附录 A 的实际双新类 $\mathcal N_{12}$，保任意原旧辅助模数和所有 wild 层。用(B10)及 Shapiro 将原 ring-class extension 的系数写成
+$$
+\mathcal R_{12}\otimes_{\mathcal O}T,\qquad
+\mathcal R_{12}=\mathcal O[G_1\times G_2],
+\tag{B17}
+$$
+其中 $T$ 是本题指定最高 CM 字符的原整格，群环带真实 induced/permutation Galois作用。两个 corestriction分别是系数上的 $\epsilon_1,\epsilon_2$，不是 $N_i/h_i$ 投影。
+
+原17惯性有一个元素在 T 上为−1，在这些新增 ring-class 群上为1。因此对(B17)以及每个增广理想、quotient和任意模 $p^r$，均有 $H^0=0$。短正合列的 cohomology遂给
+$$
+H^1(I_1\otimes R_2\otimes T)
+ \ \lhook\joinrel\longrightarrow\
+H^1(R_1\otimes R_2\otimes T),
+$$
+像恰为第一 corestriction的核；它在 O 上饱和，因为右侧的 quotient嵌入一个 O-torsion-free 的 H¹。
+
+再应用
+$$
+0\to I_1\otimes I_2\otimes T
+ \to I_1\otimes R_2\otimes T
+ \to I_1\otimes T\to0
+$$
+及同一 $H^0=0$，并利用
+$H^1(I_1\otimes T)\hookrightarrow H^1(R_1\otimes T)$，得到
+$$
+\boxed{
+\ker(\operatorname{cor}_1)\cap\ker(\operatorname{cor}_2)
+=H^1(I_1\otimes I_2\otimes T)
+}
+\tag{B18}
+$$
+作为原 H¹ 中的**整、饱和、唯一嵌入**。此式同样用于 compact/ordinary Selmer，只需取原 local conditions的逆像；不凭本式产生新的局部条件。
+
+R900已付原 $\mathcal N_{12}$ 的两个 partial corestriction为0，所以(B18)应用于这枚原类，而非任意形式模型。用(B3)两次，存在唯一
+$$
+\mathcal N_{12}^{\mathrm{aug}}
+ \in H^1(A_1\otimes A_2\otimes T)
+$$
+使
+$$
+\boxed{
+\mathcal N_{12}
+=(\sigma_1-1)(\sigma_2-1)\,
+ \mathcal N_{12}^{\mathrm{aug}}.
+}
+\tag{B19}
+$$
+(B19)表示由(B3)及原嵌入诱导的同构，不能把右端视为在原 R-module中任取一个可除解。每一有限 wild 层的提升唯一，因此它们与 wild corestriction兼容，给同一有界 Iwasawa来源上的(B19)。
+
+对两个非平凡有限角色，其准确值为
+$$
+\mathcal N_{12}(\chi_1,\chi_2)=
+(\chi_1(\sigma_1)-1)(\chi_2(\sigma_2)-1)\,
+\mathcal N_{12}^{\mathrm{aug}}(\chi_1,\chi_2).
+\tag{B20}
+$$
+若 $\chi_i$ 有 exact order $p^{a_i}$，第一因子的 p-adic valuation是
+$1/(p^{a_i-1}(p-1))$；这与 $v_p(q_i+1)$ 完全不同。
+
+(B18)的饱和性还给原问题所需的精确等价：任意整数 r≥0，
+$$
+\mathcal N_{12}\in p^r
+ H^1(\mathcal R_{12}\otimes T)
+\quad\Longleftrightarrow\quad
+\mathcal N_{12}^{\mathrm{aug}}\in p^r
+ H^1(A_1\otimes A_2\otimes T).
+\tag{B21}
+$$
+所以原偶数块的 scalar p 整除并未由群环 new 支持自动增加；其真实余量就是(B19)中这枚原全新类的 scalar 格阶。
+
+### B.7 三种 p 成本的明确分界
+
+上述结论将原来源中的三处成本区分如下。
+
+1. **CM/Shapiro 与全新 finite type：**(B10)–(B16)已经整地支付；其中没有 q+1 或 h 的隐藏规范因子。
+2. **Old/new 同时分解：**(B4)的余核恰为 O/(h)，不能用单个角色的幂等元将它删除。真实范数核可用(B3)；这给(B19)，不给除以 q+1。
+3. **共同目标与 old copy 的 inverse correspondence：**原 $q_a$ 的次数仍是 q(q+1)。若将主文(9)的共同目标 pushforward再认作高层某个归一 old projector，就必须保其 inverse degree；它不等于(B12)的 p′ full-level/T 运输。
+
+此外，M的 invariant pairing本身不是一个整自对偶认同。由(20)给出的 canonical map
+$$
+M\longrightarrow M^\vee=\mathcal O[\mathbf P^1]_0,\qquad
+\bar e_x\longmapsto
+\frac{(q+1)e_x-\sum_y e_y}{q}
+\tag{B22}
+$$
+有 cokernel
+$$
+\boxed{\operatorname{coker}(B22)
+ \simeq\bigl(\mathcal O/(q+1)\bigr)^{q-1}.}
+\tag{B23}
+$$
+确证：取 M 的 q个坐标基和 augmentation-kernel的差向量基，除去单位 q后，矩阵为 $(q+1)I_q-J_q$。因为 q为单位，常数线与坐标和为0的 q−1维补空间整直和；矩阵在两者分别为1、q+1。这付清(B23)，不需要整数 Smith计算。
+
+因此将 pullback测试、dual push-extraction、Hermitian平均及共同目标归一互换时，必须明确使用哪个映射；(B15)的本原性不会自动消去(B22)或共同目标的 p 因子。
+
+本附录没有证明(B19)的原类非零、没有证明其 scalar $p^{v_p(q_1+1)+v_p(q_2+1)}$ 整除，也没有由此决定 R893 的增广阶 s。它完成的是原全新系数格、局部类型与双新支持的准确整比较，使这些未付门不再被混作局部 formal-degree 或 CM 提取分母。
+
+### 本附录所用的原文范围
+
+- ACR，前引发表稿，§2.1的 $\varphi_q$；Theorem3.3与Corollary3.6的整 CM 同构及 norm兼容；§4真实非对称退化和固定 test-vector extraction。这里只使用其已显示的整同构，不援引新的 nonvanishing结论。
+- Knightly–Ragsdale，前引刊本，(2-11)–(2-13)、Theorem2.5、§3 compact induction与Proposition3.1。B.2–B.5 的 universal A 与整 Borel 矩阵单位由这些明确矩阵及特征零类型自含推出。
+- R900附录 A 的原双新类和两个 partial norm；R897 的同一 finite/wild 来源及原系数格；原17惯性−1与 $H^0(T/p^r)=0$ 沿用 R886/R891 的指定角色。
