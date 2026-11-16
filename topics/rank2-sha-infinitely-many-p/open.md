@@ -107,3 +107,7 @@ R842完整负边界、moving转置/全mask、十九角及同P补偿仍在；WT�
 ## 持续执行标准
 
 O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问题完成就转下一项。有限p、复秩1、局部unit、条件height或另一个cycle不完成主目标；AST/strict/fine不能替通常全Selmer。每条完整结论立即推送，HANDOFF更新真实已读规则提交、实际pull时间和当前检查点。
+
+- [R867附录B](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：同原Hom格两整unit r、r²−2及整逆有完整3×3乘法表和原K[b]系数读取；全部H_ab真下降F，首系数c_ab非零且不能从实际微分删除。R870严格证书保(n c_ab)germ、n³H_ab³，成功用整逆返回nΞ0，未知n的可积集合不变；两unit实对数独立及固定范数平衡界已证，不预报低权成功。
+
+继续同原unit格实际选取与低权证书；先验范数界不代当前映射坐标，有限unit窗失败不排其它窗口或更高权。

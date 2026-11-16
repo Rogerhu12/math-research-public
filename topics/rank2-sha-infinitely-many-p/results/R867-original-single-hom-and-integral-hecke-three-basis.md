@@ -500,3 +500,312 @@ $q_0,q_2$ 两端相认。(A8)若直接用于点值，其两次7步、一次7步�
 本附录没有执行新的有限域扫描或计算。所用有限域等式(A4)是显示的
 固定原角色的逐次代数运算；全部结论由它、原13主理想公式和整 Hecke
 correspondence 自含推出。
+
+
+## 附录 B：两条整单位、三维乘法表与原低权重建的真实运输
+
+本附录给可直接复用的同格坐标。它不改变未知整数 $n$：单位操作只改变
+同一原 Hom 的表达与次数，不能把一个本来非整的 $n\Xi_0$ 变成整映射。
+
+### B.1 两个单位及全部逆
+
+沿附录 A，置
+$$
+\varepsilon_1=\vartheta,\qquad
+\varepsilon_2=\vartheta^2-2.
+\tag{B1}
+$$
+
+其三个实共轭分别为
+$\vartheta,\vartheta^2-2,2-\vartheta-\vartheta^2$，均满足(A2)，
+且
+$$
+\boxed{
+\varepsilon_1^{-1}=1-\varepsilon_2,\qquad
+\varepsilon_2^{-1}=1+\varepsilon_1+\varepsilon_2.
+}
+\tag{B2}
+$$
+
+定义原整数算子
+$$
+U_1=\mathscr R,\qquad U_2=\mathscr R^2-[2].
+\tag{B3}
+$$
+
+在原 packet 的 Hom 格上，其逆由原整数算子
+$1-U_2$、$1+U_1+U_2$ 实现。下面的任意负幂都指这些明确的整数多项式，
+不指在整个 $J$ 上反演一个未证可逆的 endomorphism。
+
+基 $(1,\varepsilon_1,\varepsilon_2)$ 中完整乘法为
+$$
+\varepsilon_1^2=2+\varepsilon_2,\quad
+\varepsilon_1\varepsilon_2=-1+\varepsilon_1,\quad
+\varepsilon_2^2=2-\varepsilon_1-\varepsilon_2.
+\tag{B4}
+$$
+
+采用“输入坐标列向量”的约定，乘法矩阵准确为
+$$
+\boxed{
+M_1=
+\begin{pmatrix}
+0&2&-1\\
+1&0&1\\
+0&1&0
+\end{pmatrix},\qquad
+M_2=
+\begin{pmatrix}
+0&-1&2\\
+0&1&-1\\
+1&0&-1
+\end{pmatrix}.
+}
+\tag{B5}
+$$
+
+它们交换，行列式均为 $-1$，并有
+$$
+M_1^{-1}=I-M_2,\qquad M_2^{-1}=I+M_1+M_2.
+\tag{B6}
+$$
+
+所以对所有 $a,b\in\mathbf Z$，
+$$
+\begin{pmatrix}e_0\\e_1\\e_2\end{pmatrix}
+=M_1^aM_2^b\begin{pmatrix}1\\0\\0\end{pmatrix}
+\in\mathbf Z^3
+\tag{B7}
+$$
+精确表示 $\varepsilon_1^a\varepsilon_2^b$。
+
+### B.2 同一个 $K[b]/(b^3-c)$ 中的明确小式
+
+为和原理想 producer 直接对接，另写
+$$
+\boxed{
+\varepsilon_1=\frac b\alpha+\frac{\alpha}{c}b^2,\qquad
+\varepsilon_2=\frac{\alpha^2}{c}b+\frac1{\alpha^2}b^2.
+}
+\tag{B8}
+$$
+
+这分别是 $\zeta+\zeta^{-1}$ 和 $\zeta^2+\zeta^{-2}$。
+原 $b$ 基中，乘以 $u=A+Bb+Cb^2$ 的矩阵为
+$$
+\boxed{
+M_b(u)=
+\begin{pmatrix}
+A&cC&cB\\
+B&A&cC\\
+C&B&A
+\end{pmatrix}.
+}
+\tag{B9}
+$$
+
+尤其
+$$
+M_b(\varepsilon_1)=
+\begin{pmatrix}
+0&\alpha&c/\alpha\\
+1/\alpha&0&\alpha\\
+\alpha/c&1/\alpha&0
+\end{pmatrix},
+\quad
+M_b(\varepsilon_2)=
+\begin{pmatrix}
+0&c/\alpha^2&\alpha^2\\
+\alpha^2/c&0&c/\alpha^2\\
+1/\alpha^2&\alpha^2/c&0
+\end{pmatrix}.
+\tag{B10}
+$$
+
+令 $\lambda_1=\tau^2\ell$、$\lambda_2=c/\ell$；
+这两个记号只是本附录对 R862 原 $u_1,u_2$ 的改名，避免和单位混淆。
+若原新形式某个系数为 $f_0+f_1b+f_2b^2$，
+相应单位来源的系数准确为
+$$
+\boxed{
+(1,\lambda_1,\lambda_2)\,
+M_b(\varepsilon_1)^a M_b(\varepsilon_2)^b
+\begin{pmatrix}f_0\\f_1\\f_2\end{pmatrix}.
+}
+\tag{B11}
+$$
+
+此处指数 $b$ 与基元 $b$ 只在(B11)共用字母；实施时可将整数指数另命名。
+负幂用(B2)求值。无需为 $T_{13}$ 再生成13倍长度的 Fourier 前缀。
+
+等价地，先固定三条全来源
+$$
+\boxed{
+\mathcal H_0=H_0,\qquad
+\mathcal H_1=\alpha^{-1}H_1+(\alpha/c)H_2,\qquad
+\mathcal H_2=(\alpha^2/c)H_1+\alpha^{-2}H_2.
+}
+\tag{B12}
+$$
+
+则原单位来源仅为
+$$
+H_{a,b}=e_0\mathcal H_0+e_1\mathcal H_1+e_2\mathcal H_2.
+\tag{B13}
+$$
+
+虽然(B8)–(B12)在 $K$ 基中显示分母，其实际整性来自(A8)、(B3)；
+不从这些换基矩阵单独宣称局部整格性质。
+
+### B.3 真实下降和首系数
+
+原 R869 使 $\Xi_0$ 与 $H_0$ 下降到 $F=\mathbf Q(v)$。
+$T_7,T_{13}$ 以及(B3)的整数多项式均在 $\mathbf Q$ 上，
+因此 $\Xi_0U_1^aU_2^b$ 和 $H_{a,b}$ 也全部下降到同一个 $F$。
+
+这是所有系数的全局下降，不是只核有限前缀为实。
+实施时可用(B11)在 $K(v)$ 中计算，再准确核其 $\omega$ 坐标消失，
+以此确认使用了原同一嵌入。
+
+三条(B12)的首系数为
+$$
+c_0=1,\qquad
+c_1=\lambda_1/\alpha+\alpha\lambda_2/c,\qquad
+c_2=\alpha^2\lambda_1/c+\lambda_2/\alpha^2.
+\tag{B14}
+$$
+
+故
+$$
+c_{a,b}=e_0+e_1c_1+e_2c_2\in F^\times.
+\tag{B15}
+$$
+
+非零由 R862 的实际首系数注入得到：
+$\varepsilon_1^a\varepsilon_2^b$ 为单位，所以这个 Hom 非零；
+其首系数不可能为零。
+
+原每条 CM 新形式的 $q^4$ 系数均为 $-2$ 倍首系数，
+因此
+$$
+H_{a,b}(q)=c_{a,b}q\,f_{a,b}(Q),\qquad
+f_{a,b}(0)=1,\quad[Q]f_{a,b}=-2.
+\tag{B16}
+$$
+
+这里除以 $c_{a,b}$ 只用于把形式递推的 $f_{a,b}$ 写成常数项1。
+**实际微分仍为 $nH_{a,b}\,dq/q$，不能把它改成 $nH_{a,b}/c_{a,b}$。**
+
+### B.4 原低权证书的完整运输与倒回
+
+对一个待测正整数 $n$，在 R870 的递推中令
+$$
+d_{a,b}=n c_{a,b},\qquad t_{a,b}=d_{a,b}^3v.
+$$
+
+准确 germ 为
+$$
+E+3QE'=f_{a,b}(Q)\sqrt{1-4t_{a,b}QE^3},
+$$
+$$
+Y_{\rm form}
+=-\frac{1+\sqrt{1-4t_{a,b}QE^3}}{2d_{a,b}^3QE^3}
+=-d_{a,b}^{-3}Q^{-1}
+-\frac{v+3d_{a,b}^{-3}}2+O(Q).
+\tag{B17}
+$$
+
+同一个 $M_k(867)$ 基完全可以复用。令候选 $Y=A/B$，
+$C_{A,B}=(D_QA)B-A(D_QB)$。必须核的完整式是
+$$
+\boxed{
+C_{A,B}^3
+=n^3 H_{a,b}(q)^3 A^2(A+vB)^2B^2.
+}
+\tag{B18}
+$$
+
+右边没有把 $H_{a,b}$ 归一为首系数1。
+严格权和末端仍为 $6k+6$、$612(k+1)$，恢复式仍准确是
+$$
+X=nH_{a,b}(q)\frac{Y(Y+v)}{D_QY}.
+\tag{B19}
+$$
+
+若该证书成功，它认证的实际映射是
+$$
+P_{a,b}=n\Xi_0U_1^aU_2^b.
+$$
+
+用(B2)指定的整数算子 $U_1^{-a}U_2^{-b}$ 复合，得到
+$$
+\boxed{
+P_{a,b}U_1^{-a}U_2^{-b}=n\Xi_0.
+}
+\tag{B20}
+$$
+
+因此
+$$
+n\Xi_0U_1^aU_2^b\text{ 整}
+\quad\Longleftrightarrow\quad
+n\Xi_0\text{ 整}.
+\tag{B21}
+$$
+
+整数 $n$ 的可积性集合完全不变；单位搜索可以降低函数表示或映射次数，
+但不能挽救一个错误的整数倍。成功后仍用附录 A 的共同 $3n$、
+原 $\kappa$、$2^{11}$ 和完整 Artin 组合返回原三基。
+
+### B.5 为什么两单位确能平衡三个原分量
+
+这一段只说明实际选择空间，不预报当前一个低权候选成功。
+在固定复嵌入下，原三个 Hecke 特征分量的正范数权记为 $a_j>0$，
+包括 $H_0$ 的完整 $G_j/3$ 系数及同一个目标 $\omega_v$ 面积。
+则对于已整的 $n\Xi_0U_1^aU_2^b$，
+$$
+\deg(n\Xi_0U_1^aU_2^b)
+=n^2\sum_{j=0}^2 a_j
+|\varepsilon_{1,j}|^{2a}|\varepsilon_{2,j}|^{2b}.
+\tag{B22}
+$$
+
+$G_j\ne0$ 由 R862 已付，因此三个权都严格正。
+这只是正文(18)与不同 Hecke 线正交的完整应用。
+
+两个向量
+$$
+v_j=\log|\varepsilon_{1,j}|,\qquad
+w_j=\log|\varepsilon_{2,j}|
+$$
+均在实平面 $\sum x_j=0$，且 $w$ 是 $v$ 的一个三循环。
+$v\ne0$；三循环在这个实二维平面没有实特征直线，故 $v,w$ 独立。
+这也证明两单位乘法独立。
+
+令 $g=(a_0a_1a_2)^{1/3}$。
+先在实数中解
+$2a_*v+2b_*w=-(\log(a_j/g))_j$，再分别取最近整数 $a,b$。
+得到
+$$
+g/M_j\le
+a_j|\varepsilon_{1,j}|^{2a}|\varepsilon_{2,j}|^{2b}
+\le gM_j,
+$$
+$$
+M_j=
+\max(|\varepsilon_{1,j}|,|\varepsilon_{1,j}|^{-1})
+\max(|\varepsilon_{2,j}|,|\varepsilon_{2,j}|^{-1}).
+\tag{B23}
+$$
+
+所以某个真整单位平移满足
+$$
+3n^2g\le\deg(n\Xi_0U_1^aU_2^b)
+\le n^2g\sum_j M_j.
+\tag{B24}
+$$
+
+所有 $M_j$ 只依固定多项式(A2)。本式没有把数值选出的单位当作新的
+数学证书；实际坐标仍必须通过(B18)。若不计算范数权，也可按有限窗口
+枚举整数 $(a,b)$，每次复用相同的全局模形式基与原三条输入。
+任何有限窗口失败都不排除窗口外或更高权的原映射。
