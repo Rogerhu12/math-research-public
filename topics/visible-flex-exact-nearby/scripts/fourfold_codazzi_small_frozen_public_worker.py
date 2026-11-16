@@ -329,7 +329,7 @@ def main():
         native_args=restore()
         command=[sys.executable,str(root/manifest["scientific_modules"][0]["path"]),
                  "--repo",str(root),"--manifest",str(mpath),"--manifest-sha",args.manifest_sha,
-                 "--bits",str(manifest["parameters"]["bits"]),"--out",str(output),*native_args]
+                 "--bits",str(manifest["parameters"][op.get("bits_parameter","bits")]),"--out",str(output),*native_args]
         state["actual_scientific_checkout"]=git("rev-parse","HEAD").stdout.strip()
         preflight=subprocess.run([*command,"--preflight-only"],cwd=root,env=child_environment(),capture_output=True)
         state["readonly_preflight"]={"returncode":preflight.returncode,
