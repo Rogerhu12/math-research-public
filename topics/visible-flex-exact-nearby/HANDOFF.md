@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 01:40:52 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 01:44:22 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 01:40:11定时CLI仍无executor，下一≤02:40:11。最新CI真pull为R97 11-16 01:30:19.239612→a24908ab1483ce63d2c82f09c3d15dd089396a3c，两次两README空diff；ref读取不冒真pull。
-最近只读README核：1abe47786bd30a2c5f58363ce283e783d797d2c0；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：52815b1409d1bbae424e7d7948bc27029ce4086a；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -24,7 +24,7 @@ CEBA26dcc2f8原43780532148/1/22成功锁；12rows/24Jp两域选1/16，full≈1.3
 
 ## 当前已付链与下一实际计算
 
-全部压缩前原式/球/SCI/preGit/失败与恢复身份逐字保e0d74db25a5db1a7e3df06ea8f0905d568aff366同H/open及各actual proof；仅压已成索引，不减未付义务，成功禁重。
+原式/球/SCI/preGit/失败恢复完整保e0d74db25a5db1a7e3df06ea8f0905d568aff366及5d70e503同H/open和actual proof；仅缩已成索引，义务不减，成功禁重。
 SJA/KLA/TFA/CGA/WEA/PGA/PIBA原成功锁，全部pins/原球/SCI见open2–3及各proof。旧WE1.91881943e118保，UT新paid见下；SJcut不二加，右Λ^-1TF^-1S^-1及CG一次、六retained/独立ports全保。
 SEIA87055721原43773319871/1 child0/20、12steps/2signed锁：ci>0/co<0，同一fullmean逆K0<1.034/K−<7.823；全部pins/原球/SCI/preGit见SEIA与c9f72b1a同H。真H D/√j/独立μ只一次，旧log fallback/0exp保；仅selected主因子，physicalincoming/finite/return/背景未授。
 MS44038eae真正return=UR B− Z^S B+逆仅有条件，sign无限；仅TF与原sign可交换，S/branch不授。搬左保整comm/两density ranks；IC/WY/CY/CYA窄纠正、旧成功球不动。

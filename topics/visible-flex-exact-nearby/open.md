@@ -64,9 +64,9 @@ BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠p
 $C_*=C_{PC}+C_{ST,4}+C_{SF}$，SJ已含cut不能再加。左序同Js逆→Jσ→真U_X−σ逆，右$\Lambda_\sigma^{-1}T_F^{-1}\mathcal S^{-1}$。state左角恰约消到H逆，费用$A_{\rm state}=B_{H,0}K_{W,0}K_\Lambda K_{F,-}K_{\mathcal S^{-1},-}$；CG完整coeff费用原字加一次。两ε同一完整bound不用√2，若合两σ须实际pair规则。
 $C_{\rm paid}=A_{\rm state}C_*+C_{\rm coeff}$只覆盖已付部分。root/head/oppositesign/独立两mean、低input $(1-P_{97})T_F^{-1}\mathcal S^{-1}$、realization $(\psi'-1)\Pi$及全部high-finite交叉须真实norm收费或保持实际border；unpaid不默认为0。PW独立ports只左$B_{H,0}K_{W,0}|\ell|^{-1}$，无实际从a映射不得右乘TF/S；stable trace不重复列新独立port。
 
-UTA d23b71f8原43776528869/1/22锁：fullT源与3070jump、两mean/反向jump/FT两窗/Λ1/3保，不作total−upper。cut ngcBc=Bfree、腰ng0/WT TJ逆和两端完整后新SF≈2.772751688e92、paid≈1.63981109e99，state/CG一次。六retained/独立mean/head/ports/无限sign及全Ei/Eo/incoming/finite/return未付，大upper非lower。
+UTA d23b71f8原43776528869/1/22锁，fullT/3070jump/双mean/两端新SF≈2.772751688e92、paid≈1.63981109e99、CG一次；完整原式与scope保[四段原索引](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)。六retained/独立mean/head/ports/无限sign、全Ei/Eo/incoming/finite/return未付，upper非lower。
 
-[SW单首系数合同](results/R133-supplement-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)72bb6b3c/[SWA实际](results/R133-supplement-actual-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)803afd6a原43781399696/1 child0/24、12steps锁；11pins/4AST/30球6对象全核。W=A(1+M_C I)Lc同cut，完整DW/Q含T1F2/两mean、3070jump及cut/新waist全付，CG只正支配复用一次。wholepaid≈4.17526394e90低于UTA≈1.63981109e99；仅最终同actual整paid比较，不互换不同trial SF。SCI27687/f16a1dc6/preGit37109/95680a63见proof。完整Q仍主导已付upper而非算子lower；原right sign/两window/独立ports/六retained/fullEi/incoming/finite/return未付，成功禁重。
+SWA803afd6a原43781399696/1/24锁；W/DW/Q含T1F2/两mean/3070jump/cut+新waist全付，wholepaid≈4.17526394e90、CG一次。完整pins/球/SCI/preGit/同trial规则保四段原索引；Q upper非lower，原rightsign/两窗/独立ports/六retained/fullEi/incoming/finite/return未付，成功禁重。
 
 [DX4四阶角导数](results/R133-supplement-complete-fourth-angle-derivatives-from-saved-cut-and-flow-bounds.md)6b493e37以FA fullstrip3/128、旧TC/WX完整lower jets及AC真H逆证明完整cut/flow/waist/ψ三四导；不从remainder求导，旧ray/KAM不重。全部新scalar已由DZA成功支付。
 
@@ -74,9 +74,9 @@ UTA d23b71f8原43776528869/1/22锁：fullT源与3070jump、两mean/反向jump/FT
 
 DZA50d9712b原43773671216/1/24锁：全ToD/[To,Z]/EoZ^S、two-sign/独立meanrank与小正项保，第二[N,Z]见NW。六欠费/全Ei/Eo/incoming/finite/all-s/return/背景未付，大upper非奇异；DZF43773126387/1第11 LF门失败new/old/lost0原记录保。
 
-NWA b7fc4876原43775614821/1/20锁：CN双mean同逆、第二[N,Z]左右双窗/F−顺序保；四affine含未知CE，linear μ²与Cayley cubic独立。旧norm/log/optional false全部保，false非逆失败，两physicalmeans/source/row及全incoming/finite/return未付。
+NWA b7fc4876原43775614821/1/20锁，完整CN双mean/两窗/[N,Z]/F−、四affine依CE及旧norm/log/optionalfalse保四段原索引；false非逆失败，linear μ²/Cayley cubic独立、两physicalmeans/source/row/fullincoming/finite/return未付。
 
-NPKAee814e0c原43778474673/1/18锁；CN双weightedmean核+PIB同序负窗whole新K0≈3.19764e38/K−≈2.43651e44，四完整affine仍依CE。旧NW所有候选/log/optional false保，0新exp/log/旧重算；两physicalmeans/sign/F−/linear μ²及incoming/finite/return义务保。
+NPKAee814e0c原43778474673/1/18锁；同序双weightedmean新K0≈3.19764e38/K−≈2.43651e44、四affine依CE，全旧候选/log/optionalfalse保四段原索引。0新exp/log/旧重算，双means/sign/F−/linear μ²及incoming/finite/return待。
 
 [CYA](results/R133-supplement-actual-finite-Cayley-scalar-gap-and-selected-inverse.md)2a5e9fb7/43757868884/18只native Jβ、actualselected |j|≥97、γ1/1024、一导loss逆256；7416signed/root全覆盖成功锁。全ES、旧R0、Ei/Eo/Bi−1、真背景与Schur仍待。
 [GH](results/R133-supplement-quantitative-strong-return-inverse-and-core-high-block-gates.md)需完整$R:H^{s-4/3}\to H^s$及$\chi_J=128C_s\Lambda_J^{-1/3}<1$；J97/C0≤1/32仅目标，phase不与physical P96对易，incoming/positive/root/normalizer/finite/mean/all-s都付。

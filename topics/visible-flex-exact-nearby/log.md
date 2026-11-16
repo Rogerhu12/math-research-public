@@ -388,3 +388,7 @@ HANDOFF已精确限定接续：先定位修复，再从上述原SCI/hash只读�
 fresh main 1abe47786bd30a2c5f58363ce283e783d797d2c0，两README blob不变。独读16f78df32cd66f6f0dde1f187a9eef18e1984e72 /21042B /6ab486cf993451e3d2de854cfda8f28be447ce43e8cce7b73faeff58e9607dc2全部原证，逐字比对全部64个mixed/domain球无遗漏，SCI canonical+LF30812/95aa4c8d和copied13521/e3a718d3精确复原；另读原job steps前8成功、第9失败、cleanup成功。原33922/b67a26ef及13009/d465565c preGit、三小件各hash、两native资格/aux整体失败等全保。COUNTS是计划schema，实际e/g=0，不能冒充分门false。
 
 已成mixed40与domain禁止再调用原选择函数；接续只读95aa4c8d和a8075eac原执行链，向外解码保存球，限未存radial和从未执行后段，仍不授任何实际stable逆。root独读python-flint0.9.0 arb.pyx、build_variables及FLINT v3.6.0 pow.c/arf.h，确认零中点有半径区间可走通用pow/log路径的代码机制；原失败日志未记录具体key，故不把源码定位冒作运行中间值观察。窄修复/恢复新包另审。01:40:11真实CLI git pull --rebase origin main再次因无executor失败，下一≤02:40:11，API核不冒真pull。
+
+### 2026-11-16 01:44:22 UTC — 保留完整已付腰部与交换子索引后压缩活动页
+
+fresh main 52815b1409d1bbae424e7d7948bc27029ce4086a两README不变。将5d70e503同open中的UTA/SWA/NWA/NPKA四段完整已成索引保存到 notes/2026-11-16-completed-waist-and-commutator-norm-index.md，Git c74410a8d40a03cb4e89b48d72decc7fb38588c5，SHA256 21c01539cf41706b731838021d8f931dd42622eb8ca14983772be43e05ba6724，2083B；仅调整该页relative links。活动页压缩重复已成pins/数字，六retained、两physicalmeans、head/独立ports/无限sign、全Ei/Eo/incoming/finite/return、linear μ²和CE依赖全部继续显列。原scope/失败/原球/SCI/preGit/同trial限制保原文，不授权旧成功重算；R97首失败与精确接续边界不动。
