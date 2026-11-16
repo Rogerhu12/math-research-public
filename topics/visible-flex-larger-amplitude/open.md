@@ -48,6 +48,8 @@ R485/215三段完整结论/入口/初始官方绑定逐字保在[固定C说明�
 
 [R495](results/R495-same-C-refined-leaf-complete-metric-consumers.md)/[接口](notes/2026-11-16-same-C-refined-leaf-complete-metric-consumers-interface.md)五件完整source/条件证明已刊：真实原loader先通过，再重读R489全部原件/R492准确交叶；四场族original112/resolution112/completeM/incrementalM明确实际模块与同class，保全CP/definition/节点/B/材料/十词。新叶真进入target/L与七cut系数、原完整六jet、五Loewner view和R459/evidence的实际opnorm；六展开源只Actions按55758/1875计划生成，原R464视图须先真实存在。R483局部coast含全部piece/端点，旧全局不猴补。原尾E(r)/R426和材料t点field仍原有效包围，不能冒已收紧；原实际同g/t共轭与比较逻辑、actual202205钟/partial/完整frontier/90K保。没有新request/接受场/R489 run/误差下降，不能把后置consumer变BVP门。
 
+**R478实际212：浅逆采样完整，BVP尚未启动，资源/必要运输各有缺口。** [全文](results/R478-request212-complete-shallow-physical-sampling-and-BVP-startup-storage-stop.md)32019B/8aee6da0，run43810550597/source9a9dbfa8、compute133111042532/report133152030600，两日志各唯一。仅depth24→2/原32bits与1M不变：C1440/six、112far/joint代表齐，13850unique point/16128field occurrences/65102attempt、15123coarse、两unpaid实为空，四原数组及candidate/config/recipe/deadline完整；work_resolution与共同准确C实现仍false。BVP原launcher free11761553408<34359738368返回124、scientific_process_not_started=true，两phase与native目录均不存在；非timeout/数学拒。far-accepted-panels95028212980B/1604049行，全20文件95962633407B仅各原读取范围，不冒逐值审计。当前十点域12937terminal/15stack，原coast中心refuted诊断独立保、不加前门。rules94138B/1731dc1b超90K→70正文未返，后同shell composition读取未执行；最后cleanup真skip非删除。R498须沿真实consumer/完整临时表示解原磁盘门，R499修必要metadata及独立读回；不改冻结214/216或预填其结果。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 本节压缩前全文逐字保在[已刊R483时open](https://github.com/Rogerhu12/math-research-public/blob/3559e04efd5587989da5074b04cd825fe9694a89/topics/visible-flex-larger-amplitude/open.md)，继续保9a9dbfa8及更早检查点。所有原参数、原词、资源/失败/未返/未访和来源仍有效；只去重复，§4–6逐字不变。同η重复pass或来源接通不补真实接受父、固定g下降、README完成。

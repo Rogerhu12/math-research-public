@@ -187,3 +187,12 @@
 
 新叶真进入准确target/L和七个cut系数，原完整场六jet、五个Loewner/全闭DFS视图和第六R459 opnorm/evidence视图消费；R483独立局部coast包含所有piece/支撑/共享闭端点，旧全局不改。原全部root计划/两反射片/两帽/严格四Loewner/祖先覆盖/实际t/比较保持，不能用同η多次pass替代实际误差下降。原尾E(r)闭query/R426及材料t点field仍用原有效包围，同准确函数所以合法，但不称该两处已收紧。保actual202205原clock/launcher与全未访/资源状态，协作检查不冒异步硬杀；单90KB超70/原raw与quiet责任不减。六完整输出只Actions按源计划生成，R464临时baseline须先真实生成；没有新接受父/R489 run/全域误差或几何比例，不作新BVP前门。
 
+
+## R478 — 实际212完整浅逆输入与BVP启动存储停止
+
+**实际：完整有限native几何输入生成；BVP未起，规则读回超限。** [R478](results/R478-request212-complete-shallow-physical-sampling-and-BVP-startup-storage-stop.md)32019B/8aee6da0，run43810550597/source9a9dbfa80，compute133111042532/report133152030600均failure，两原日志各唯一取全。depth24→2保全部候选/原32bit/1M/全112；C1440/six/闭query、112 far/候选/unit/joint nominal齐，点123.74473656800001s完成13850unique、16128occurrences、65102work、15123coarse，unpaid两表实空。四完整原数组[112,224]、[576,28,5]、两[577]和candidate/config/原453→450配方/同deadline均生成；工作分辨率与共同准确C实现仍false，不冒接受场。
+
+实际launcher仅0.0004956870006935787s，在任何科学子进程前记录free11761553408 < 原34359738368，exit124是insufficient-startup-free-storage，非timeout/数学拒；两BVP及shared-native不存在，H/J/FD/fullDN/450/闭面全未起。far-accepted-panels95028212980B/1604049行，原reader全20文件95962633407B按各自范围hash/读取，非全逐值审计；R498查真实consumer/完整临时表示，原存储门不降。当前十点域1810pass/12937terminal/15stack与原coast中心refuted诊断独立保留，不追加BVP门。
+
+compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/sampler-BVP/closed metadata均完整返回；原规则必要94138B/1731dc1b超90000→70且正文未返，同shell后续212 composition必要调用没执行。原owner八role/16receipt实际quiet不补缺失读回；cleanup程序真打印skipped，raw仅留runner销毁，无上传，不冒主动删或八scope齐。R499继续原必要元数据与独立读回，冻结214/216各自真实结果另付。
+

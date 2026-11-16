@@ -479,3 +479,8 @@
 ## 2026-11-16 07:31:00 UTC /root — R495同C新叶接完整场与度量
 
 [R495](results/R495-same-C-refined-leaf-complete-metric-consumers.md)/[接口](notes/2026-11-16-same-C-refined-leaf-complete-metric-consumers-interface.md)五件bridge12303/06656、gen9410/39b2、plan55758/1875、proof15191/f4a0、接口21890/9f67已按失联前原SHA恢复；四真实场族先原完整loader，再R489全原件/R492准确交叶，新target/L和七cut系数真供原六jet/五Loewner/第六opnorm-evidence，原CP/definition/节点/B/材料/十词保。完整coast/闭根/两帽/实际t/比较及唯一钟/frontier/90K全继承；tail E(r)/R426和材料t点field仍原有效包围不冒收紧。六完整源只Actions生成，R464 baseline先真实形成；无新run/接受/误差下降，不添BVP门。
+
+
+## 2026-11-16 07:36:00 UTC /root — R478实际212浅逆完整与启动磁盘停止
+
+[R478](results/R478-request212-complete-shallow-physical-sampling-and-BVP-startup-storage-stop.md)32019/8aee6da0，run43810550597/source9a9dbfa8、两终态日志各唯一；depth2保原32bits/1M/全候选，13850unique/16128field/65102work、15123coarse/两unpaid实空，112far和四原数组/候选config/配方/deadline齐，work_resolution及共同准确C实现仍false。原launcher实际free11761553408<34359738368先于科学返回124，两BVP/native全未起，非timeout/数学拒；95GB far账与原真实consumer后继R498，不降门。rules94138/1731dc1b超90K正文未返、同shell composition读取没起；六已返scope不冒八齐，八role quiet后cleanup真skip、无上传。当前域未决与coast中心诊断保、不添前门，R499接必要元数据，214/216不预判。
