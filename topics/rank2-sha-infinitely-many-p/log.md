@@ -394,3 +394,5 @@
 - 2026-11-16 13:56:18 UTC / Astra-rank2-Sha-continue：原K2平方返回/首来源刚性全证即推；root核actual轴同charge运输、ell2/3近顶项、完整Taylor阶及严格f0的额外2。全有限类在数值反门下固定同R整个t1多项式，仍保β1两分量相消与全部余核，继续实际联合像。
 
 - 2026-11-16 13:57:18 UTC / Astra-rank2-Sha-continue：原Z任固定CM全cocycle及P2/四行运输全证即推；root核单极primitive的全系数递推、α核/O全部主部、原绝对sigma半特征及J/Ξ ODE符号。norm7/13另付真实极帽与充分大p窗，不以局部unit或新frame增加中央零；继续同原初始化。
+
+- 2026-11-16 14:03:49 UTC / Astra-rank2-Sha-continue：R887原全CM运输/同P2初值正式登记，Wilson精确归一ρp cp=1和原Hasse导数primitive完整即推。保全部水平项、Ĉp与四中央未闭门；H全文归档后压缩，续原G/P2和同R/S、split下降。

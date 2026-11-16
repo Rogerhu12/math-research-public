@@ -1,0 +1,63 @@
+# 交接
+
+## 主目标与执行规则
+
+固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
+- 最近已读规则提交：8aa0be5eea4c181ce7d67a061dd92b755338a8eb；2026-11-16 13:57:30 UTC核两README无变。实际CI pull 2026-11-16 13:46:04 UTC/2c8c3cb8fc89ed32e3dc8e66e8a4cf55818b758e（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:45:50 UTC仍无环境。最迟2026-11-16 14:35 UTC再实际pull。
+- 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
+- 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
+- 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
+- 库存33,504,202B/2479文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。环境不可用；API不冒实际pull。
+
+## 完整检查点与分工
+
+[本次压缩前完整H](notes/2026-11-16-frontier-after-original-finite-tests.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–886已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者；deep续同R/S后两页，theta续四原B，literature续原辅助集。子题完即续open。
+
+## 当前第一实际门：原映射、真RR与完整shadow
+
+原Z全部R804/806/811/814角色/Euler/period/端点/R831定向保；7993仅检测canonical。R858三垂直χ零/generic单射与R859整shadow/5、11无挠H1已付；固定ell原AJ非零等价某惯性shadow非零/阶无界，不直接给无穷系数p或普通loc。
+
+两char0 producer仍未认证，R874最小原方向u及λ/vnew、R875准度376和整Hecke返回17全保，不能认整Hom：
+- P：run43835679463/job133191600105/source969b3f439e706e539595424e18ddb573197475fa，k4/6。
+- F：run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa，k2/4；完整8ΔC³=HB²(A²−17ΔB²)²/末端612(k+6)，不假Manin1。
+
+R881 r29 run43850679589的P/F局部19/12位及τ仅formal，不能替双PASS/真RR。
+R882全18源/绝对端点/原36cusps/D204保；五RR仍在运行：
+- 306：43850251992/job133240631228；eta48：43850252040/job133240628667，共sourceacf294c6e07c20618f2acc9dfab863c34e8c8cb9。
+- fricke24：43860032290/job133274126644/sourcebe4e0074e90508b3f7bd6e2ce3ee083165049288。
+- tate24：43865460680/job133292732291/sourcea82ba1e06935fbb0f199d4dc846bae876a13afc0。
+- tate19：43866568746/job133296518979/source59c56c693debc1d98b2a99495211ddb5277a40d8。
+原degree24属37与全Atkin属19的54+66、27+27+33+33完整RR及at^m回DS见R882B/C；附D/E直接全迹Newtown/Padé由q8000/t330、q4500/ξ170严格唯一，原U-GCD/两Atkin/全部边界不变。无任何RR PASS。
+
+R880/R883原18×9/独立双轴/全部Artin、四完整除子、闭点迹/W-Frob与九pair按上方完整H保；同两真点A/C判据和真实dF选2256+r*dF或2256(r+1)不变。
+
+R883H全部Kummer层/非split闭点/负floor/δ嵌入与完整local后端已接四RR未执行。相对F_(r²) Norm终幂全scalar回归run43870209568/job133309066101成功含dell真ell²点，hash见原执行注，不扩可选测试。
+
+consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只接两真实char0 PASS，核job/run/head/source/hash/whole末端，stdin只读无网及完整依赖齐。无consumer请求、无原shadow输出，禁止假PASS。root跟进两map/五RR。R885已付原端点真实有界反循环D，sp0D=Ep AJ(Z02)，原q/q⁴和4/Artin/旧副本全保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³真unit，C5=−216全分支unit。原+++=λ/N；同Coleman有限余核使Dfun(0)=Ep原ordinary loc坐标，无额外T因子。只得Ccan·D=Dfun·ccan，不约增广零。literature核允许辅助集，R886已付原共用τ=(η,ψ,barψ)=(-1,-ω,-ω²)，三extraEuler在O[G]/Λ[G]真unit及保n1归一；原秩一HS/HO与8.4元齐，[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)已付原全split四因子、显式divisor-sum保原n1/统一分母/真balanced，并接R886受限最高系统；新[全部有限检测](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)以p/p′线性不交逐值保任意有限cohom批、共轭/对偶及既用p环类层，并以17惯性/Sah证inflation核0；真unit子集不满足默认dot⊃，附A以17惯性μ3双投影/全η系数/Sah+Nakayama付任意独立类的两点全p^n矩阵；扩系数只认真实非零det。通常core0，不套MR core1；续真正split有限—奇异关系。底非零/ordinary loc仍开，尚不应用Selmer结论。
+
+## 当前第二门：四原B与同一低配对
+
+原S34/T72/U136/V66、charge17/36/68/33及全部CM13/Euler/Schwartz/p²p³/通常全Selmer保。R816/820付E−11 rank≥2；仍须同一无穷p原J′非零。共同C24指定c*=(1,−4/7,16/7)的实际三行保，不能将伙伴分别赋中央零。
+
+R863同H22两低配对、R876谱、R879全部热/trace/高端/q3/CM词保原证明及归档。R884正文原T热D5仍含BS/BDref/Lp(C0)/全余项；BT0不赋热零、参考rank0不赋BDref零。附A/B的同V/T差准确回Q1=Q(N,J)、Q2=Q(N,A)，非恒定H22权和三个cross全保。
+
+R884附C–I的原U全部2/δ迹、C9/D9/N/P72°/R24/H18/P16及原四中央三联式详见正文与上方完整H；两固定Fraction运行均成功，未给任何trace赋中央零。H已把BQ48/BW0全化严格低配对，I第二δ返回−P16/(26208b)，质量1且2-new；D16=−16DR3/3+全低L16。原chat=(p+1)cint、Γ16/Fermat项、全部new/cross/原Unew144保。
+新[原CM cocycle](notes/2026-11-16-original-z-cm-cocycle-and-p2-four-source-transport.md)全证Fp=Z+ρp r^p=xyP_(s−1)(X)，原ρp unit/全部有限多项式保。任固定CM α的hα=−ρp(α⁻¹Dlogqα+r∘α−barα r)，绝对qα/半特征/所有极与复合齐。原P2的Ξα与实际kα,p、完整ODE仍保；δ核首−3x²/4不可删。全四加权差C4=(Nα/3)αν^(p^-4)dlog(yα/y)，一般CM按§10独立充分大p门。四B=X(σ6,Kν)−9X(σ6,Θ6)/10仍须联合非零，theta续同原初值。
+
+## 当前第三门：原低松弛同P/R/S后两页
+
+完整P134/十九角/charge40/conductor10980/39carry/WD和M=c*U0w13J保前检；TM=s−r−13、TJ=s−r不混。同R/S的H高尾/四位/三残差及原三中央商不删，精确式与R868/871/872三折回见上方完整H归档。
+R872实际调整口仍是全K1的W2末三尾联合像；同预算Pfact和完整p³才付J/p²。τ1同R的ER首s−1单位、E²整h+ell段和E³的ξ短段、两近支(7±√−17)/6及严格f0交数3全保。
+
+全商W/(V1+J3)保真实全部有限层及H¹连接核，精确矩阵/来源见上方完整H与R872系列注。J3=(E+40)⁻¹V3的Π全0不删全β1；J3∩V1=V4，carry使W0≥s，原negative/primitive条件下完整β1还必要W0≥s+1。native λ=a⁻¹[w^s](5042W0−246W1+3W2)，τ1保同γ给的9U0u0²e0αA；τ2/3仅值项。5042原p单位。
+quartic余乘子j≤2；j0全H¹连接核0，j1/2维≤3/14，真核仅[f0a0]3,0与[41f0a1+44f1a0]3,1，f0非unit可能保。零纤维Q0=(A/t³)/(t²V)保G1修正及物理以外全部块；除F0=Y²(Y−1)外两列秩2；唯一退化四行与ρ−重合一行，联合仍添三行。全WD满像不冒K1满像。
+原负水平z−≥1迫整[Y0]A/J零；v1≠0时J3∩K1含t³，退化F0自动。4z−≤1+6j给z≤3；z3整个J3含Y²/t³，无v1门。
+[同修正返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：τ1的完整o(R)0才有同预算R=FH+J，全部normal/ξ段与两近支保，必dD≥κ+s+1。strict反门使0∉o(R)+o(kerβ1)，但不排p³。新§5/6付4d+6+4j≤BD²与h≤3κ+8b，零类必要14s≤3BD²+8D−26−12j；故p/D²>141/28的原渐近窗（含47/8）确迫oR非零，仍不排p³。新[第二核刚性](notes/2026-11-16-r872-second-kernel-finite-class-and-first-source-rigidity.md)付actual三长s；d<κ+s+2时K2零类真返V2+J3且保联合β1，遂含t²。同P修正的完整o类固定整个[t]R六次多项式，非仅三导数。当前下一步：算全高前缀下实际o(kerβ1)与同R/S的指定仿射类，不能从局部可赋值或ΠJ0跳过它。
+
+## 其它原门与同步
+
+R834/836单位块、R837三长/两长和自然47/12的q1/2缺口保；旧47/8须真第三长，HN为9κ−3χ−12b。R840同Kcorr/Hcorr两高前缀、第三3η/第四短行、末同cF³仍未全付；disc²读所有分支。R842 WT上[b0]=−BD−Pr未知，全部negative/moving/十九角/同P保。
+[原全CM文献门](notes/2026-11-16-original-cm-diagonal-euler-system-big-image-scope.md)已核：ACR四维big image和Castella–Do非CM秩一应用均不适用原输入；类构造不否定，原AJ仍须实付。
+O4/O6/O7、R364/R561/R654/R712及全部旧open未闭；有限p、复秩1、局部unit、条件height或别cycle不完成；AST/strict/fine不替通常全Selmer。
+新[双二次预稿核对](notes/2026-11-16-selfdual-hecke-preprint-rank-two-hypothesis-check.md)保正文6.8.5的指定底类非挠前提；导言未写该前提，不能据此闭主目标。实际pull与运行状态以页首/第一门为准。

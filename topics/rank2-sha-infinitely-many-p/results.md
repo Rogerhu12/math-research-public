@@ -263,3 +263,6 @@
 
 
 - [原端点全split有限范数系统](notes/2026-11-16-original-endpoint-tame-norm-system.md)：直接从ACR r=(0,0,0)/Det1与原q/q⁴端点构造全部split有限四因子系统；原八单步/三双步给不对称Q，准确P−x²Q/q=(q−1)[(q+1)−ABx+(A²−q−1)x²]/q²。环类p直积/Mackey的显式divisor-sum整修正保n1=原AJ、全层统一分母；全部非p H¹0与p几何finite给真balanced。投最高后已接R886辅助集unit归一，不先认DR全wild同源。
+
+
+- [R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原Z的δ/2及任固定CM α完整cocycle、绝对sigma frame和同P2初始化缺陷全证；四完整加权差的C4准确回(Nα/3)αν^(p^-4)dlog(yα/y)，保原全部kα,p/Ξα及真实大p窗。新Wilson归一ρp cp=1给Fp=−cp⁻¹D^(p−2)x、Z=−cp⁻¹(D^(p−2)x+r^p)，没有特征零Ĉp减项或水平项替换。四原B联合非零仍开。
