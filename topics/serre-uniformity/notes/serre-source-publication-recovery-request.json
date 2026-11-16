@@ -2,39 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R918-original-weight4-Igusa-vector",
-  "commit_message": "serre: identify original central Igusa layer with marked weight four CM vector",
-  "rules_last_read_commit": "701ae6f96a69869ac17f42ba6223ece787d9afb3",
+  "request_id": "20261116-R914-certified-full-original-involution-and-P1",
+  "commit_message": "serre: certify full original V1 involution and marked P1 jets",
+  "rules_last_read_commit": "c2c61d1a20caa5ef28a1c45d83fe058f999d8aef",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "46a383bb9c2dd9cbcc091b619281a29d7208023c56557d3cd134ab4c8d75c008",
+  "expected_previous_request_sha256": "0f48a315abc3bd744ed138ba8ca85e196e3206debf393332e3b2c6cd3cccef9d",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R918-original-central-primitive-Igusa-layer-and-marked-weight-four-vector.md",
-      "sha256": "dbf46e9ff70d3a70cf73abd454a9236a5736fb4e66a41cdaad84fff2c65c8c53",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-original-weight4-vector.md",
-      "sha256": "6a761d0f38e8ef26fe4b1af0384947ab12b11251f9975ce41d0e996bc144496d",
+      "path": "topics/serre-uniformity/results/R914-certified-original-full-V1-involution-and-P1-jets.md",
+      "sha256": "d8f7bbf8e6dd5aefcb31f3f01c46a69b4aa4085276990f6fa8e037d040e8c6b9",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "dc0b4aa9166cdbdb9bf5a3ad8df2d55f39cbed6e5799226bfd76af1fd74532be",
-      "expected_previous_sha256": "6a761d0f38e8ef26fe4b1af0384947ab12b11251f9975ce41d0e996bc144496d"
+      "sha256": "f770c64bb2a6974e5889dd962bee5b5f786749684f42df17a6a6458f92d3db16",
+      "expected_previous_sha256": "c630936cb219df7542236ca7a4912b8c930de66c9c41f94993388145741a41ab"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "458ebef775ea1bbbebe0521e5b6ee747a9b5c4054312853d6920606bb44e1f2e",
-      "expected_previous_sha256": "a311b90999a60d9ef1133f9096a33a2042560afa083739dadd5e658f422f4b43"
+      "sha256": "b4509a63a776996e0820bcfcdc864459b65d0410bca0542500ecc57750a9c0de",
+      "expected_previous_sha256": "458ebef775ea1bbbebe0521e5b6ee747a9b5c4054312853d6920606bb44e1f2e"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "afabc906f2cf0bc989da0ddf9f3fbf8bb03bc1a265194a149d35fc292d246bb2",
-      "expected_previous_sha256": "e3027ed02867dd1fdb3744fa58007068152f486d34188400fc61bd2d0a730479"
+      "sha256": "ce5151c7b5d275090af71a7e040c3419f51664f05384c38a8d16486b8d1ee843",
+      "expected_previous_sha256": "d870112b000b6cdd2cc2c2b24d937d27bcba64b6b160fdee113c6b89654b31ee"
     }
   ]
 }
