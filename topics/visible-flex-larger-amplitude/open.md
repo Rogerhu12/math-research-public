@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R583（已证明、完整源码及CLI已刊）**：[完整循环模式观察](results/R583-complete-inner-loop-rounding-observation-and-original-product-words.md)。原R564核完整两变换，四完整inner loops各读实际线程mode一次；在各loop内mode/观察值恒定条件下八类RN128产品、17计数/full last和原累加顺序同。无外部异步mode保证、浮点flags/时间/资源frontier保证；非nearest/未知仍原fallback。六plan完整source-only链、直接一次R583安装、24额外依赖、原全门/资源保。R584244接真实R59412000caller，不提前填run/数值。R596完整后立即刊；retention5原body已恢复，最新delta守卫未付前不删。
+
 **[R594/request248完整真实资源入口](notes/2026-11-16-request248-native-owner12000-original-full112-interface.md)本次独立刊**：[R593](results/R593-one-clock-native-owner-resource-window-and-existing-continuation.md)已ca3ad325，原R589451全保→454/363public91generated、沿原63/78/91输入，唯一owner6000→12000；同19200/replay1200和后继所有cap/数学/初猜门保。真实current request全SHA贯穿所有CLI，reader保真实actual_resource_allocation，不填actual12000；单派248、R595 exact唯一。R581/243已[正式beb6/run43903254017](notes/2026-11-16-request243-official-run-binding.md)，16:04排队/jobs空、R582 amplitude唯一。
 
 更新前全部原词、参数、失败/未返/未访、source/run/资源/清理及完整责任保[ca3ad325固定open](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/open.md)和[同头HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/ca3ad325de68edd3b5733f434145bd7496ed6b41/topics/visible-flex-larger-amplitude/HANDOFF.md)及完整旧链。仅折叠本节已有历史，原results/接口不删；§4–6逐字不动，已删raw不由SHA造父。

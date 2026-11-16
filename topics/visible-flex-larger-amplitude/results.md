@@ -109,3 +109,5 @@
 - [R581：同次解析角带、完整指数尾与真实request243](results/R581-same-return-analytic-angle-projection-executable-composition.md)：六件379862B/topic287039B，原642保→653/14层；同一R553/R575返回及原退休、原Budget内全局summary、完整必要具名单关系；原门/90K70保持，实际R582另付。
 
 - [R594：request248原完整full112与明确owner12000资源入口](notes/2026-11-16-request248-native-owner12000-original-full112-interface.md)：新增题29401B及workflow25123B，R593实际454来源和完整全CLI、全局钟/全部原门/真实分配必要；未来R595另付。
+
+- **R583（已证明的有条件源码等价及完整安装接口）**：[完整内循环模式观察与原乘积字](results/R583-complete-inner-loop-rounding-observation-and-original-product-words.md)。四loop实际mode稳定时保八路径RN128/完整统计/原求和；六plan/24依赖/一次真owner安装完整，未声明科学接受或速度。

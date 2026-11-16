@@ -1,0 +1,270 @@
+{
+  "schema": "R583-loop-rounding-observation-complete-source-plan-v1",
+  "scientific_execution_performed": false,
+  "source_root_policy": "Only the actual public repository Actions; source-only complete R572/R564/R561/R550/R535 ancestry; one direct original owner installation; original main performs compilation.",
+  "header": {
+    "file": "root_20261116_loop_rounding_observation.hpp",
+    "bytes": 4657,
+    "sha256": "0bc58ed32c05efc5bd2833ef0f0faf61b1093db2676f7bc993198318b4acef9c"
+  },
+  "ancestor_R572": {
+    "adapter": {
+      "file": "root_20261116_exact_root_synthesis_products.py",
+      "bytes": 20999,
+      "sha256": "cdc734c9b704ffa77f46b32054cff1dbae4df10e91f6be66f4ddeb53a4237fcf"
+    },
+    "source_plan": {
+      "file": "notes/R572-exact-root-synthesis-products-complete-source-plan.json",
+      "bytes": 14796,
+      "sha256": "25e8a39b5c8beaaa0b8b049d79f0e5d278622aa4f62e156fcd50cfceb50f1a64"
+    },
+    "header": {
+      "file": "root_20261116_exact_root_synthesis_products.hpp",
+      "bytes": 2380,
+      "sha256": "a715367b67448c85c6ff180ad24f915334f188751df5d3a2adca5ed3535e5f9a"
+    },
+    "product_source_plan": {
+      "file": "notes/R564-exact-lifted-factor-product-complete-source-plan.json",
+      "bytes": 13514,
+      "sha256": "cd4c90cbfc9e48acdd06a692885121627355df477955104981713d248cafca4a"
+    },
+    "product_header": {
+      "file": "root_20261116_exact_lifted_factor_product.hpp",
+      "bytes": 10146,
+      "sha256": "bb4dfb08db7c4593afd93addb804a20876e0bb1facb1bc7e8a7e3f9aaeb40cc1"
+    },
+    "average_source_plan": {
+      "file": "notes/R561-normal-dyadic-average-complete-source-plan.json",
+      "bytes": 13708,
+      "sha256": "5667d987ea5b7387bb0c4f6c61d86cd9ea94035299da91d3c7889fb1cde5f5a7"
+    },
+    "root_reuse_source_plan": {
+      "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+      "bytes": 12303,
+      "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+    },
+    "root_word_source_plan": {
+      "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+      "bytes": 10232,
+      "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+    },
+    "views": [
+      {
+        "role": "primal",
+        "generated": {
+          "file": "root_20261116_exact_root_synthesis_products_primal128.cpp",
+          "bytes": 27592,
+          "sha256": "8952e5a65a04e918d00ef990a1355ba3c1912284dfc2c482d8f861aa896b660a"
+        }
+      },
+      {
+        "role": "trace",
+        "generated": {
+          "file": "root_20261116_exact_root_synthesis_products_trace128.cpp",
+          "bytes": 36252,
+          "sha256": "138c6aaaba86628befd71b398bd2d393e661cb4abdab7781d6ef1ba0bebe05bb"
+        }
+      }
+    ]
+  },
+  "kernel": {
+    "actual_ancestor_header": {
+      "file": "root_20261116_exact_lifted_factor_product.hpp",
+      "bytes": 10146,
+      "sha256": "bb4dfb08db7c4593afd93addb804a20876e0bb1facb1bc7e8a7e3f9aaeb40cc1"
+    },
+    "original": {
+      "bytes": 3959,
+      "sha256": "7a090c6d559aaceffaf61d5bbb52f5b95489a79a6a34cbff50e645406b47f51d"
+    },
+    "original_complete_text": "static inline Q r564_exact_lifted_factor_product(Q left,Q factor,\n    R564ProductPathStats &s,int angle,int index){\n  ++s.terms;s.begin(angle,index);\n  auto original=[&](const char *phase)->Q{\n    ++s.original_multiply;s.last_phase=phase;return left*factor;\n  };\n#if defined(__SIZEOF_INT128__) && __SIZEOF_INT128__ == 16 && defined(__BYTE_ORDER__) && defined(__ORDER_LITTLE_ENDIAN__) && __BYTE_ORDER__ == __ORDER_LITTLE_ENDIAN__\n  if(!(sizeof(Q)==16 && FLT128_MANT_DIG==113 && FLT128_MAX_EXP==16384 &&\n       FLT128_MIN_EXP==-16381 && std::numeric_limits<unsigned char>::digits==8)){\n    ++s.fallback_layout;return original(\"original-layout-fallback\");\n  }\n  // This observes the current mode for this multiplication; it never changes it.\n  if(std::fegetround()!=FE_TONEAREST){\n    ++s.fallback_rounding;return original(\"original-rounding-mode-fallback\");\n  }\n  using U=unsigned __int128;\n  U lw=0,fw=0;std::memcpy(&lw,&left,sizeof(Q));std::memcpy(&fw,&factor,sizeof(Q));\n  const unsigned le=static_cast<unsigned>((lw>>112)&static_cast<U>(0x7fff));\n  const unsigned fe=static_cast<unsigned>((fw>>112)&static_cast<U>(0x7fff));\n  s.last_left_exponent=static_cast<int>(le);\n  s.last_factor_exponent=static_cast<int>(fe);\n  if(le==0x7fff){\n    ++s.fallback_left_nonfinite;return original(\"original-left-nonfinite\");\n  }\n  if(fe==0x7fff){\n    ++s.fallback_factor_nonfinite;return original(\"original-factor-nonfinite\");\n  }\n  const U sign=(lw^fw)&(static_cast<U>(1)<<127);\n  if((lw<<1)==0 || (fw<<1)==0){\n    Q result;std::memcpy(&result,&sign,sizeof(Q));\n    ++s.exact_signed_zero;s.last_phase=\"exact-finite-signed-zero\";\n    s.last_result_exponent=0;return result;\n  }\n  if(le==0){\n    ++s.fallback_left_subnormal;return original(\"original-left-subnormal\");\n  }\n  if(fe==0){\n    ++s.fallback_factor_subnormal;return original(\"original-factor-subnormal\");\n  }\n  const U low60=(static_cast<U>(1)<<60)-1;\n  if((fw&low60)!=0){\n    ++s.fallback_factor_precision;return original(\"original-factor-more-than-53-bits\");\n  }\n  const U unit112=static_cast<U>(1)<<112;\n  const U fraction112=unit112-1;\n  const U a=unit112|(lw&fraction112);\n  const uint64_t b=static_cast<uint64_t>((unit112|(fw&fraction112))>>60);\n  // a = a0 + 2^64*a1, with a1 < 2^49 and 2^52 <= b < 2^53.\n  // The exact 166-bit product is high*2^64 + low.\n  const U p0=static_cast<U>(static_cast<uint64_t>(a))*static_cast<U>(b);\n  const U high=(a>>64)*static_cast<U>(b)+(p0>>64);\n  const uint64_t low=static_cast<uint64_t>(p0);\n  const int lead=(high>>101)!=0?1:0;\n  const int discard=52+lead;\n  int result_exponent=static_cast<int>(le)+static_cast<int>(fe)-16383+lead;\n  s.last_discard=discard;\n  if(result_exponent<1 || result_exponent>32766){\n    ++s.fallback_result_range;return original(\"original-result-range\");\n  }\n  U rounded=(high<<(64-discard))|static_cast<U>(low>>discard);\n  const uint64_t remainder=low&((uint64_t(1)<<discard)-1);\n  const uint64_t half=uint64_t(1)<<(discard-1);\n  const bool up=remainder>half || (remainder==half && (rounded&1)!=0);\n  s.last_integer_rounding_formed=true;\n  s.last_relation=remainder<half?\"below-half\":remainder==half?\"exact-half\":\"above-half\";\n  s.last_rounded_up=up;\n  if(up)++rounded;\n  const bool carry=rounded==(static_cast<U>(1)<<113);\n  s.last_carry=carry;\n  if(carry){rounded>>=1;++result_exponent;}\n  if(result_exponent>32766){\n    ++s.fallback_result_range;return original(\"original-rounded-overflow-range\");\n  }\n  const U output=sign|(static_cast<U>(result_exponent)<<112)|(rounded-unit112);\n  Q result;std::memcpy(&result,&output,sizeof(Q));\n  ++s.exact_normal;\n  if(remainder<half)++s.rounding_below_half;\n  else if(remainder==half)++s.rounding_exact_half;\n  else ++s.rounding_above_half;\n  if(up)++s.rounded_up;\n  if(carry)++s.carry_to_next_exponent;\n  s.last_phase=\"exact-normal-113-by53-nearest-even\";\n  s.last_result_exponent=result_exponent;\n  return result;\n#else\n  ++s.fallback_layout;return original(\"original-layout-fallback\");\n#endif\n}\n\n",
+    "derived": {
+      "bytes": 4069,
+      "sha256": "395abbd9ddf2eeba47d1bd0912dbc7e89d8c597e648cb00342c72f76a66413d0"
+    },
+    "patches": [
+      {
+        "old": "static inline Q r564_exact_lifted_factor_product(Q left,Q factor,\n    R564ProductPathStats &s,int angle,int index){",
+        "new": "static inline Q r583_exact_lifted_factor_product_at_loop_mode(Q left,Q factor,\n    R564ProductPathStats &s,int angle,int index,int observed_rounding){",
+        "count": 1
+      },
+      {
+        "old": "  // This observes the current mode for this multiplication; it never changes it.\n  if(std::fegetround()!=FE_TONEAREST){",
+        "new": "  // The containing complete inner loop observes its actual thread mode once.\n  // Its source body does not change that mode; no mode is set by this helper.\n  if(observed_rounding!=FE_TONEAREST){",
+        "count": 1
+      }
+    ],
+    "new_header_prefix": "// R583: one current rounding-mode observation per complete original inner loop.\n// The whole R564 113-by53 product kernel is retained except its name, one\n// explicit mode argument and the source of that same qualification predicate.\n// All original path counters, last fields, Q fallbacks and result words remain.\n// Equivalence requires the actual thread mode to stay constant within the loop.\n// No floating exception-flag, running-time or resource-frontier claim is made.\n#ifndef VISIBLE_R583_LOOP_ROUNDING_OBSERVATION_HPP\n#define VISIBLE_R583_LOOP_ROUNDING_OBSERVATION_HPP\n\n",
+    "new_header_suffix": "\n#endif\n",
+    "only_signature_and_qualification_source_changed": true,
+    "all_other_original_kernel_statements_preserved": true
+  },
+  "views": [
+    {
+      "role": "primal",
+      "base": {
+        "file": "root_20261116_exact_root_synthesis_products_primal128.cpp",
+        "bytes": 27592,
+        "sha256": "8952e5a65a04e918d00ef990a1355ba3c1912284dfc2c482d8f861aa896b660a"
+      },
+      "output": {
+        "file": "root_20261116_loop_rounding_observation_primal128.cpp",
+        "bytes": 28149,
+        "sha256": "dc8a2394379d6d8ca4187aff2979b5a31b17d07af39e5b566224bab26eeebe76"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_exact_root_synthesis_products.hpp\"\n",
+          "new": "#include \"root_20261116_exact_root_synthesis_products.hpp\"\n#include \"root_20261116_loop_rounding_observation.hpp\"\n",
+          "count": 1
+        },
+        {
+          "old": "    const Q *sn=p.sine.data()+size_t(n)*p.M;\n    for (int j=0;j<p.M;++j) {\n      const Q m=p.frequency[j];\n      if(!fixed_used){\n        P+=r564_exact_lifted_factor_product(momentum[j],sn[j],\n          stats.r572_synthesis.fixed_fallback_P,n,j);\n        Pt+=r564_exact_lifted_factor_product(pt[j+1],cs[j+1],\n          stats.r572_synthesis.fixed_fallback_Pt,n,j);\n      }\n      Lv+=r564_exact_lifted_factor_product(L[j+1],cs[j+1],\n        stats.r572_synthesis.L,n,j);\n      if(u_used)U+=r564_exact_lifted_factor_product(u_words[j],sn[j],\n        stats.r572_synthesis.evaluation_u_words,n,j);\n      else U+=r564_exact_lifted_factor_product(\n        (-m*L[j+1]+(m*m-1)*momentum[j]),sn[j],\n        stats.r572_synthesis.evaluation_u_fallback,n,j);\n    }",
+          "new": "    const Q *sn=p.sine.data()+size_t(n)*p.M;\n    const int r583_synthesis_rounding=std::fegetround();\n    for (int j=0;j<p.M;++j) {\n      const Q m=p.frequency[j];\n      if(!fixed_used){\n        P+=r583_exact_lifted_factor_product_at_loop_mode(momentum[j],sn[j],\n          stats.r572_synthesis.fixed_fallback_P,n,j,r583_synthesis_rounding);\n        Pt+=r583_exact_lifted_factor_product_at_loop_mode(pt[j+1],cs[j+1],\n          stats.r572_synthesis.fixed_fallback_Pt,n,j,r583_synthesis_rounding);\n      }\n      Lv+=r583_exact_lifted_factor_product_at_loop_mode(L[j+1],cs[j+1],\n        stats.r572_synthesis.L,n,j,r583_synthesis_rounding);\n      if(u_used)U+=r583_exact_lifted_factor_product_at_loop_mode(u_words[j],sn[j],\n        stats.r572_synthesis.evaluation_u_words,n,j,r583_synthesis_rounding);\n      else U+=r583_exact_lifted_factor_product_at_loop_mode(\n        (-m*L[j+1]+(m*m-1)*momentum[j]),sn[j],\n        stats.r572_synthesis.evaluation_u_fallback,n,j,r583_synthesis_rounding);\n    }",
+          "count": 1
+        },
+        {
+          "old": "    for (int i=0;i<p.J;++i)\n      result.residual[i]+=r561_average_actual_product(\n        r564_exact_lifted_factor_product(quad,cs[i],stats.r564_product.root_residual,n,i),\n        average,stats.r561_average.root_residual,n,i);",
+          "new": "    const int r583_residual_rounding=std::fegetround();\n    for (int i=0;i<p.J;++i)\n      result.residual[i]+=r561_average_actual_product(\n        r583_exact_lifted_factor_product_at_loop_mode(quad,cs[i],stats.r564_product.root_residual,n,i,r583_residual_rounding),\n        average,stats.r561_average.root_residual,n,i);",
+          "count": 1
+        },
+        {
+          "old": "    for(int k=0;k<=2*p.M;++k)\n      bm[k]+=r561_average_actual_product(\n        r564_exact_lifted_factor_product(value,gc[k],stats.r564_product.root_gram,n,k),\n        average,stats.r561_average.root_gram,n,k);",
+          "new": "    const int r583_gram_rounding=std::fegetround();\n    for(int k=0;k<=2*p.M;++k)\n      bm[k]+=r561_average_actual_product(\n        r583_exact_lifted_factor_product_at_loop_mode(value,gc[k],stats.r564_product.root_gram,n,k,r583_gram_rounding),\n        average,stats.r561_average.root_gram,n,k);",
+          "count": 1
+        },
+        {
+          "old": "    for (int j=0;j<p.M;++j)\n      flux[j]+=r561_average_actual_product(\n        r564_exact_lifted_factor_product(f,sn[j],stats.r564_product.primal_flux,n,j),\n        average,stats.r561_average.primal_flux,n,j);",
+          "new": "    const int r583_flux_rounding=std::fegetround();\n    for (int j=0;j<p.M;++j)\n      flux[j]+=r561_average_actual_product(\n        r583_exact_lifted_factor_product_at_loop_mode(f,sn[j],stats.r564_product.primal_flux,n,j,r583_flux_rounding),\n        average,stats.r561_average.primal_flux,n,j);",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "trace",
+      "base": {
+        "file": "root_20261116_exact_root_synthesis_products_trace128.cpp",
+        "bytes": 36252,
+        "sha256": "138c6aaaba86628befd71b398bd2d393e661cb4abdab7781d6ef1ba0bebe05bb"
+      },
+      "output": {
+        "file": "root_20261116_loop_rounding_observation_trace128.cpp",
+        "bytes": 36388,
+        "sha256": "37e54b0483727dc1c579474239764b1c2beca0af7f0dd64a04911ef5cdd0e4c0"
+      },
+      "patches": [
+        {
+          "old": "#include \"root_20261116_exact_root_synthesis_products_primal128.cpp\"",
+          "new": "#include \"root_20261116_loop_rounding_observation_primal128.cpp\"",
+          "count": 1
+        },
+        {
+          "old": "static constexpr const char *included_R572_primal_cpp_sha256 =\n    \"8952e5a65a04e918d00ef990a1355ba3c1912284dfc2c482d8f861aa896b660a\";",
+          "new": "static constexpr const char *included_R572_primal_ancestor_sha256 =\n    \"8952e5a65a04e918d00ef990a1355ba3c1912284dfc2c482d8f861aa896b660a\";\nstatic constexpr const char *included_R583_primal_cpp_sha256 =\n    \"dc8a2394379d6d8ca4187aff2979b5a31b17d07af39e5b566224bab26eeebe76\";",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "compiler_function": {
+    "base": {
+      "file": "geometry_20261115_native_persistent128.py",
+      "bytes": 43371,
+      "sha256": "767a4c4b329779fd200e6ec6f674ab62db9f6a65984628299d1f2241f83dd322"
+    },
+    "start": "def compile_owner(work, expected_cpp):\n",
+    "next_definition": "\ndef ",
+    "original": {
+      "bytes": 3860,
+      "sha256": "be019045058f4616f98b07e19c0d8d3901e979ce2b1ba7d4259c65fcae4ae46d"
+    },
+    "derived": {
+      "bytes": 8626,
+      "sha256": "5783fbb213a5a7faf7bf33d606979b16ac9755aef19005aa3b36f79de52585ef"
+    },
+    "patches": [
+      {
+        "old": "def compile_owner(work, expected_cpp):\n",
+        "new": "def compile_owner(work, expected_cpp):\n    rounding_binding = _R583_SOURCE_BINDING\n    require(rounding_binding[\"schema\"] == \"R583-loop-rounding-observation-source-binding-v1\", \"Actual R583 source binding\")\n    require(Path(rounding_binding[\"actual_source_root\"]).resolve() == HERE.resolve(), \"Actual R583 compiler source directory\")\n    synthesis_binding = rounding_binding[\"actual_R572_source_binding\"]\n    require(synthesis_binding[\"schema\"] == \"R572-exact-root-synthesis-products-source-binding-v1\", \"Actual R572 source binding\")\n    require(Path(synthesis_binding[\"actual_source_root\"]).resolve() == HERE.resolve(), \"Actual R572 compiler source directory\")\n    product_ancestry = synthesis_binding[\"actual_R564_source_binding\"]\n    average_ancestry = product_ancestry[\"actual_R561_source_binding\"]\n    reuse_ancestry = average_ancestry[\"actual_R550_source_binding\"]\n    word_ancestry = reuse_ancestry[\"actual_R535_source_binding\"]\n    dependencies = rounding_binding[\"actual_generated_sources\"] + rounding_binding[\"actual_headers\"]\n    dependencies += synthesis_binding[\"actual_generated_sources\"]\n    dependencies += product_ancestry[\"actual_generated_sources\"] + average_ancestry[\"actual_generated_sources\"]\n    dependencies += reuse_ancestry[\"actual_generated_sources\"] + word_ancestry[\"actual_generated_sources\"]\n    dependencies += [rounding_binding[\"actual_adapter\"], synthesis_binding[\"actual_adapter\"], product_ancestry[\"actual_adapter\"], average_ancestry[\"actual_adapter\"], reuse_ancestry[\"actual_adapter\"], word_ancestry[\"actual_adapter\"]]\n    for desc in dependencies:\n        actual = HERE / desc[\"file\"]\n        require(actual.stat().st_size == desc[\"bytes\"] and file_sha(actual) == desc[\"sha256\"], \"Complete R583 compile dependency\")\n",
+        "count": 1
+      },
+      {
+        "old": "\"Complete frozen trace source\"",
+        "new": "\"Complete declared R583 trace view\"",
+        "count": 1
+      },
+      {
+        "old": "\"Unique frozen standalone trace main\"",
+        "new": "\"Unique declared R583 trace standalone main\"",
+        "count": 1
+      },
+      {
+        "old": "    record = dict(command=command, source=receipt(HERE/CPP), included_original_source=receipt(HERE/ORIGINAL_CPP),\n        frozen_R283_source=receipt(HERE/TRACE_CPP), generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=True, only_frozen_trace_standalone_main_excluded=True,\n",
+        "new": "    record = dict(command=command, source=receipt(HERE/CPP),\n        included_primal_source=receipt(HERE/ORIGINAL_CPP), included_trace_source_view=receipt(HERE/TRACE_CPP),\n        original_primal_ancestor=receipt(HERE/\"geometry_20261115_native_primal128.cpp\"),\n        original_R283_ancestor=receipt(HERE/\"geometry_20261115_native_trace_variation128.cpp\"),\n        R535_primal_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_primal128.cpp\"),\n        R535_trace_ancestor=receipt(HERE/\"root_20261116_native_root_finite_words_trace128.cpp\"),\n        R550_primal_ancestor=receipt(HERE/\"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\"),\n        R550_trace_ancestor=receipt(HERE/\"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\"),\n        R561_primal_ancestor=receipt(HERE/\"root_20261116_exact_dyadic_average_primal128.cpp\"),\n        R561_trace_ancestor=receipt(HERE/\"root_20261116_exact_dyadic_average_trace128.cpp\"),\n        R564_primal_ancestor=receipt(HERE/\"root_20261116_exact_lifted_factor_product_primal128.cpp\"),\n        R564_trace_ancestor=receipt(HERE/\"root_20261116_exact_lifted_factor_product_trace128.cpp\"),\n        R572_primal_ancestor=receipt(HERE/\"root_20261116_exact_root_synthesis_products_primal128.cpp\"),\n        R572_trace_ancestor=receipt(HERE/\"root_20261116_exact_root_synthesis_products_trace128.cpp\"),\n        generated_numerical_prefix=receipt(include),\n        frozen_R283_numerical_prefix_is_byte_identical=False, only_frozen_trace_standalone_main_excluded=False,\n        root_finite_word_cache_compilation_source_binding=dict(rounding_binding,\n            actual_compiler_command=command, actual_generated_include=receipt(include),\n            actual_compile_returncode=code, actual_executable=receipt(executable),\n            actual_compile_stdout=receipt(work/\"compile.stdout.log\"), actual_compile_stderr=receipt(work/\"compile.stderr.log\"),\n            compiler_completed=True, source_preparation_alone_is_not_compilation=True,\n            original_persistent_CPP_source_unchanged=True, original_evaluate_observer_and_all_stage_rows_unchanged=True,\n            actual_R535_R550_R561_R564_R572_R583_primal_and_trace_sources=True,\n            actual_loop_entry_rounding_mode_observation=True,\n            rounding_observation_loops=[\"root_synthesis\", \"root_residual\", \"root_gram\", \"primal_flux\"],\n            per_product_fegetround_call_retained=False,\n            numerical_equivalence_requires_constant_actual_thread_mode_within_each_loop=True,\n            no_rounding_mode_set_or_cross_loop_cache_introduced=True,\n            original_complete_eight_product_path_statistics_and_last_retained=True,\n            literal_first_Q_multiply_preserved_at_all_changed_sites=False,\n            original_first_product_RN128_values_reduction_order_and_root_choices_retained=True,\n            actual_first_product_uses_full_113_by53_integer_RN128_or_original_fallback=True,\n            original_directional_arithmetic_body_unchanged=True,\n            original_R561_second_product_selection_unchanged=True,\n            exact_root_synthesis_products_preserve_original_RN128_words_and_sum_order=True,\n            original_R535_fixed_and_U_word_constructions_unchanged=True,\n            original_R564_three_angular_average_products_unchanged=True,\n            floating_exception_flag_equivalence_not_claimed=True),\n",
+        "count": 1
+      }
+    ]
+  },
+  "original_persistent_cpp": {
+    "file": "geometry_20261115_native_persistent128.cpp",
+    "bytes": 22364,
+    "sha256": "7789007e4213af539146353ac48bbedc2d8e611e3fb76538d2a96b616643f7fd"
+  },
+  "numeric_contract": {
+    "complete_inner_loops": [
+      {
+        "function": "root_evaluate",
+        "loop": "j=0..M-1",
+        "mode_variable": "r583_synthesis_rounding",
+        "product_paths": [
+          "fixed_fallback_P",
+          "fixed_fallback_Pt",
+          "L",
+          "evaluation_u_words",
+          "evaluation_u_fallback"
+        ]
+      },
+      {
+        "function": "root_evaluate",
+        "loop": "i=0..J-1",
+        "mode_variable": "r583_residual_rounding",
+        "product_paths": [
+          "root_residual"
+        ]
+      },
+      {
+        "function": "root_matrix",
+        "loop": "k=0..2M",
+        "mode_variable": "r583_gram_rounding",
+        "product_paths": [
+          "root_gram"
+        ]
+      },
+      {
+        "function": "rhs",
+        "loop": "j=0..M-1",
+        "mode_variable": "r583_flux_rounding",
+        "product_paths": [
+          "primal_flux"
+        ]
+      }
+    ],
+    "qualification": "Every original actual left/factor word, layout/finite/normal/53-bit factor/result-range/signed-zero qualification remains per product. Only the FE_TONEAREST comparison consumes one actual loop-entry thread-mode observation.",
+    "caller_condition": "The actual thread rounding mode and the result of its mode observation stay constant from the loop-entry observation through the complete inner loop. The complete frozen loop bodies and their called arithmetic helpers contain no mode setter or callback; unsupported external/asynchronous mode mutations are outside this equivalence statement.",
+    "mode_nearest_required_as_new_acceptance_gate": false,
+    "non_nearest_or_unknown_observation": "Original rounding-fallback Q product at every actual product site; all original layout and later product qualifications remain in original order.",
+    "original_five_R572_and_three_R564_product_values_preserved_under_caller_condition": true,
+    "original_seventeen_counters_and_full_last_per_eight_paths_retained": true,
+    "original_headers_and_statistics_printers_retained": true,
+    "original_left_expressions_factor_words_all_sum_orders_and_time_check_sites_unchanged": true,
+    "original_R535_fixed_U_words_and_R550_accepted_evaluation_reuse_unchanged": true,
+    "original_R561_second_product_selection_unchanged": true,
+    "original_trace_directional_arithmetic_body_unchanged": true,
+    "original_root_stops_trials_domain_guards_native_replay_FD_fullDN_and_final_audit_unchanged": true,
+    "original_compiler_flags_resource_caps_and_mathematical_thresholds_unchanged": true,
+    "no_rounding_mode_set_no_cross_loop_cache_no_new_table_or_H_cache": true,
+    "no_scientific_success_or_performance_or_resource_frontier_claim": true,
+    "floating_exception_flag_equivalence_not_claimed": true
+  },
+  "actual_scientific_run_registered": false
+}
