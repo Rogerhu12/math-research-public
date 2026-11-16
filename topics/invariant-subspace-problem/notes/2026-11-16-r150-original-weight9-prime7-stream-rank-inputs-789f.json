@@ -1,0 +1,87 @@
+{
+  "format": "r150-original-weight9-prime7-stream-rank-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-weight9-prime7-stream-rank-789f.py",
+      "blob": "af9c7e4444dd101390417f917c2a5df9a0385279",
+      "bytes": 22588,
+      "sha256": "088c82c0d7198fcde9f4c9370aed8003957b3514bab51e4f5daa91875583c86f"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-weight9-prime7-stream-rank-native-789f.cpp",
+      "blob": "28539890e07fc69cb4a033bbd013d81a2f113f66",
+      "bytes": 19143,
+      "sha256": "11b82abe88ca35e698d6860aef94de49809d8b836a34668869e263db30f67e4b"
+    }
+  ],
+  "upstream": {
+    "auditSource": {
+      "path": "notes/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+      "blob": "859a1b723e3c4566d7c271d999832441e947bb8b",
+      "bytes": 8329,
+      "sha256": "33560119cb8f19902f323b5a1f5fb5a3bb59d38aad6d55108950107bd545579e"
+    },
+    "auditBinding": "4baed1013b72717e2773607c308a3f534b029c92f35592dcb6c5ff1025587339",
+    "paidReceipt": {
+      "bytes": 4312,
+      "sha256": "1cee8383ede9f0a458cb37ce5a384e461fdc51f20c81747411ae650df8cf4cda"
+    },
+    "completeTemporaryModel": {
+      "basename": "complete-original-weight9-prime7-model.json.gz",
+      "bytes": 16999356,
+      "sha256": "fe91efd8d4739de90b831449c40020a98e3b9775ee28a7e678a7b29ff2b683bd",
+      "logicalBytes": 58953007,
+      "logicalSha256": "df9fb9657926a52a4c3c1a895a0ba5aa34f2d5f537d747d7f07e00d42f81bdfa"
+    },
+    "completeDictionarySha256": {
+      "output": "905e9ae68f85198299646a2c798084218e0040b012f9d62f898db9ce1bcfcda7",
+      "quarticMultipliers": "2d91e8bf2e8a3e4561014d7fe51f6415898f3cb2a9252e151fd5d548fc6219e4",
+      "quinticMultipliers": "0416d1b3f4b3ec4f52aa75ecab710d7e56bbc04f8c067cbba728fb76f27f28b1"
+    }
+  },
+  "parameters": {
+    "prime": 7,
+    "weight": 9,
+    "originalVariableCount": 17,
+    "originalGradientCount": 17,
+    "completeOutputRows": 49368,
+    "completeSourceColumns": 16442,
+    "completeTargetColumns": 3,
+    "paidRationalSourceRankCeiling": 16046,
+    "strictAugmentedRankThreshold": 16047,
+    "seconds": 600,
+    "memoryMiB": 2048,
+    "through": "final",
+    "inputProtocol": "R15M9071",
+    "stateProtocol": "R15M9S71"
+  },
+  "execution": {
+    "command": [
+      "{python}",
+      "{scripts}/2026-11-16-r150-original-weight9-prime7-stream-rank-789f.py",
+      "--audit-receipt",
+      "{audit_out}/original-bell-cube-complete-prime7-coefficient-audit.json",
+      "--audit-out",
+      "{audit_out}",
+      "--native",
+      "{scripts}/2026-11-16-r150-original-weight9-prime7-stream-rank-native-789f.cpp",
+      "--out",
+      "{work}/original-weight9-prime7-stream-rank",
+      "--seconds",
+      "600",
+      "--memory-mib",
+      "2048",
+      "--through",
+      "final"
+    ],
+    "resume": "same frozen sources, same semantic binding and out; only a complete whole-row state is reusable",
+    "artifactsPolicy": "all mathematical model, matrix, pivot and checkpoint arrays stay temporary; repository retains only source, parameters, execution identity and output hashes"
+  },
+  "scope": {
+    "smallerRankDoesNotProveRationalMembershipOrNonmembership": true,
+    "noCurrentRankResultPrefilled": true,
+    "currentDirect9JobUnchanged": true
+  }
+}

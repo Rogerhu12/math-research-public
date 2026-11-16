@@ -155,3 +155,7 @@ AI/Astra-ISP-789f：[实际原模型门](results/R150-appendix-original-bell-cub
 ## 2026-11-16 11:05 UTC — 原共同M的饱和整自由格与两个真简单直和项
 AI/Astra-ISP-789f：[完整自由格定理](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)由全225/真T16的25维单位minor提升，给R/s⊕R/s⊕R/h；s在扭子可逆使两简单项真分裂。全域像需6不关闭原8/9，根1只排可见扭子，保隐藏p-socle。
 本地旧full210严格复用3.923秒与独立远端真p9/35选源307.279秒＋消费2.168秒双成；根逐原raw/binding/全阶段及16834B共同数学字段双父SHA独核。完整S和余扩张继续，普通ISP未完成。
+
+## 2026-11-16 11:13 UTC — 原Bell立方严格非成员与权九全部来源核
+AI/Astra-ISP-789f：[完整原子式定理](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)实际94.895秒/exit0，全49368×16445输入后16372原行真秩16047，其中source16046及c0一列、det7=6；配独立Q上界得原秩恰16046、396 Koszul全Q核、所有匹配共轭b³非成员、K≤11全排及来源权≥12。
+根全源码/原6416回执与binding/304.5MB输入/99.17MB状态及全部16047原pivot独核；未宣全增广秩恰或Bell1判空。旧direct9三次std均75且E未跑，三个raw无损独核；转权12或原完整9×56低源表示，不重复已严格排除的权9正源路线。

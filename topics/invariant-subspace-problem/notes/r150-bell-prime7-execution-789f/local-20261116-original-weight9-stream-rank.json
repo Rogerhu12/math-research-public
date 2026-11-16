@@ -1,0 +1,116 @@
+{
+  "actualBuild": {
+    "binary": {
+      "bytes": 92584,
+      "path": "original-m9-prime7-native",
+      "sha256": "4161bd8ebf1861ffccb4d54dbe3f078aed3bf952807b32449b7f0432f5d2dc46"
+    },
+    "spec": {
+      "compiler": "g++",
+      "flags": [
+        "-std=c++17",
+        "-O3",
+        "-march=native"
+      ],
+      "source": {
+        "bytes": 19143,
+        "path": "2026-11-16-r150-original-weight9-prime7-stream-rank-native-789f.cpp",
+        "sha256": "11b82abe88ca35e698d6860aef94de49809d8b836a34668869e263db30f67e4b"
+      },
+      "version": "g++ (Debian 14.2.0-19) 14.2.0"
+    }
+  },
+  "aiAssisted": "GPT-6 Astra Pro",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "binding": "408ae85f9bb8f01a40d3eb52e0b2425966639dc3e92c92b81ff321483fdb87d4",
+  "execution": {
+    "elapsedSeconds": 94.89522280699748,
+    "environment": "local isolated executor",
+    "exitCode": 0,
+    "nativeElapsedSeconds": 72.34284573799232,
+    "nativeInternalElapsedSeconds": 72.31550364699797,
+    "peakWrapperRssKiB": 398492,
+    "pythonFlintVersion": "0.9.0",
+    "pythonVersion": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "receiptWrittenAtUTC": "2026-11-16T11:04:30.289514+00:00",
+    "sessionId": 78867,
+    "startedObservedUTC": "2026-11-16 11:02:56 UTC"
+  },
+  "format": "r150-original-weight9-prime7-execution-identity-v1",
+  "outputIdentities": [
+    {
+      "bytes": 6416,
+      "sha256": "3bb3cee65f3b95da4e9849ec039f0cc2eb5ba36f025deca37575ebb1380808da",
+      "temporaryRelativePath": "original-weight9-prime7-stream-rank-receipt.json"
+    },
+    {
+      "bytes": 2720,
+      "sha256": "2265f34a0ccd0d08dc96608727f0a9995e1967b6b467847c5f716cd8e58a800c",
+      "temporaryRelativePath": "complete-original-input-manifest.json"
+    },
+    {
+      "bytes": 983,
+      "sha256": "7b170042c72534036429c5f90a64f0838205b4a53014a2657ad72bc1fff8b611",
+      "temporaryRelativePath": "native/original-m9-prime7-native-receipt.json"
+    },
+    {
+      "bytes": 490,
+      "sha256": "4fd609687f4f6d53819cc57635642222eef4840d80ac8c4359b33e9d3594ad23",
+      "temporaryRelativePath": "native/native-state-manifest.json"
+    },
+    {
+      "bytes": 1173,
+      "sha256": "5b6b3fb847ee395b13bcce493825d911bdc456d2fb54f7b44f8c782992fd523d",
+      "temporaryRelativePath": "native/invocation-after-generation-0.log"
+    },
+    {
+      "bytes": 304501928,
+      "sha256": "a687e06da033c68708ee53a5658d95d6259c35a113d36584de78a8868b55b02d",
+      "temporaryRelativePath": "complete-original-m9-plus-three-targets-prime7.bin"
+    },
+    {
+      "bytes": 99170664,
+      "sha256": "b2ddc46652c741c4dca3b97ad012024c65de4917404eddb0f6f57c4a85df9f9b",
+      "temporaryRelativePath": "native/complete-row-state-slot-0.bin"
+    }
+  ],
+  "parameters": {
+    "actualAuditReceipt": {
+      "bytes": 4312,
+      "exactPaidReceiptBytesReused": true,
+      "path": "original-bell-cube-complete-prime7-coefficient-audit.json",
+      "sha256": "1cee8383ede9f0a458cb37ce5a384e461fdc51f20c81747411ae650df8cf4cda"
+    },
+    "memoryMiB": 2048,
+    "nativeArguments": [
+      "/tmp/r150-normal-789f-20261116-1040/prime7-stream-rank/original-m9-prime7-native",
+      "--input",
+      "/tmp/r150-normal-789f-20261116-1040/prime7-stream-rank/complete-original-m9-plus-three-targets-prime7.bin",
+      "--binding",
+      "408ae85f9bb8f01a40d3eb52e0b2425966639dc3e92c92b81ff321483fdb87d4",
+      "--input-sha",
+      "a687e06da033c68708ee53a5658d95d6259c35a113d36584de78a8868b55b02d",
+      "--out",
+      "/tmp/r150-normal-789f-20261116-1040/prime7-stream-rank/native",
+      "--seconds",
+      "562.6871242850029"
+    ],
+    "seconds": 600,
+    "through": "final"
+  },
+  "sources": {
+    "native": {
+      "blob": "28539890e07fc69cb4a033bbd013d81a2f113f66",
+      "bytes": 19143,
+      "path": "notes/2026-11-16-r150-original-weight9-prime7-stream-rank-native-789f.cpp",
+      "sha256": "11b82abe88ca35e698d6860aef94de49809d8b836a34668869e263db30f67e4b"
+    },
+    "producer": {
+      "blob": "af9c7e4444dd101390417f917c2a5df9a0385279",
+      "bytes": 22588,
+      "path": "notes/2026-11-16-r150-original-weight9-prime7-stream-rank-789f.py",
+      "sha256": "088c82c0d7198fcde9f4c9370aed8003957b3514bab51e4f5daa91875583c86f"
+    }
+  },
+  "storage": "All mathematical arrays and raw receipts remain temporary. This file retains only sources, parameters, execution identity and output hashes."
+}
