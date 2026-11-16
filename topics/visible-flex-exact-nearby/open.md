@@ -60,6 +60,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WEJ完整后继运行合同](notes/2026-11-16-R133-WEJ-posterior-current-inputs.json)1f226965已冻结39current/9AST/12old、26图/32门并提交一次公开Actions触发。全部输出/失败前缀自然完整保存，旧成功禁重；当前仍须读取实际新结论，尚不声称whole数值/高门/finite/背景已闭。
 
+[WHR正侧完整径向head](results/R133-supplement-exact-positive-radial-head-Fredholm-reduction-and-trace-safe-finite-factors.md)289935c3：真实193维angular fiber的L²径向自块F=Id−VB_LHP_a为Fredholm index0；未知mH核/cokernel、H¹补列、真实端点Volterra行与全cross均保。径向输出网格给hmax·||∂V||·||K||/π<1的新严格尾门，完整dual不截输入；门、signed有限entries与全逆待，负侧head/rough WGB资格/true96/Θ/ν/两mean仍未闭。0新数学计算。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。
