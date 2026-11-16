@@ -28,6 +28,8 @@ R485/215三段完整结论/入口/初始官方绑定逐字保在[固定C说明�
 
 **R494：当前C原product变分的真实省零调用；无新科学执行。** [证明](results/R494-current-C-captured-product-zero-eliding-linear-source.md)18109B/62c241e2、[接口](notes/2026-11-16-current-C-captured-product-zero-eliding-linear-interface.md)20961B/60848e64与caller12857B/eafb4117本次刊。205/214/216三层实际fae2/fb951→f9b→205b captured-product，原已批量Fourier矩/一次分解全列回代；R466/R471不同trace对象不直接迁入。新caller仅真实linear调用原eb487 helper：有限输入省零、否则原全loop，原root/RHS/product/RK/cusp/双mean/全部维数与门保。新runtime receipt分别记新工厂与原已加载f9b，跨两槽cache所有engine累计九计数和当前未返范围，不冒全J、整run同词或速度。三层worker/client/config/driver及union CP硬pin尚未接，R496/request218继续真实来源组合；当前源码不修复205此前inverse工作停止、不添资格/全解析门。
 
+[R493当前H合同](results/R493-current-H-live128-response-projection-and-original-fullDN-interface.md)27709/115e78be已付纸证：每个真实H独立完整初猜/evaluate/R273→128 owner/replay/四组件，原338×112混合J与双mean保；显式调用覆盖旧correction hook漏掉的零步/已收敛，不能沿旧378覆盖J。13scalar须取真正128表达式raw/hex，再按准确整数一次ties-to-even投影64、保负零与原严格容差；qstr和64均值重组不冒该投影。原FD/fullDN/RMS/BC/final fresh J+audit/全cut门继续。正常live response、scalar source与worker尚未真实接完；新入口须原完整prefix父/原钟，91仅尾初猜，不能冒父或套216。R491原混合J合法，不添加全解析新门。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[已刊R494时open](https://github.com/Rogerhu12/math-research-public/blob/f863b71c0fd82b4b6b5a131ce2d99b14dea7bc95/topics/visible-flex-larger-amplitude/open.md)，包括其全部更早链接、词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全部G/H/span、全QR/clip/Cauchy及每alpha冻结原Armijo/S球保，有限拒绝不证无解/秩亏。旧201末响应缺失不能由202补。
