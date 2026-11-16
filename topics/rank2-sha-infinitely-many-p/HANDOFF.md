@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：0bddd18b72e56337ee4ed6c55e19a6bedc5c06e2；2026-11-16 09:57:03 UTC核两README无变。实际CI pull 2026-11-16 09:55:11 UTC/15c425847cdb0bc6fd89ea81be7d4e10d3564ac0（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:55:47 UTC仍无环境。最迟2026-11-16 10:40 UTC再实际pull。
+- 最近已读规则提交：e8c1b91c834b89f9209709814f815e5105c12a99；2026-11-16 09:57:29 UTC核两README无变。实际CI pull 2026-11-16 09:55:11 UTC/15c425847cdb0bc6fd89ea81be7d4e10d3564ac0（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 09:55:47 UTC仍无环境。最迟2026-11-16 10:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -29,9 +29,9 @@ R882付原X10404=Norm(B867×_{T3}E_src)的18覆盖：E_src:y²=x³+1，A=(x³+4)
 ## 当前第二门：四原B的实际同源关系
 
 原S34/T72/U136/V66、charge17/36/68/33、CM13、全Euler/p²p³保。R816/820付E−11 rank≥2，通常全Selmer桥仍缺同一无穷p完整J′非零。
-R855/R856 whole整除p与全参数Frobenius、[半Bol](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)的两ε/V_N/留数p相消、共同A24的固定相对theta核全部保。
+R855/R856 whole除p、全参数Frobenius及[半Bol](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)的两ε/V_N/留数p、A24全theta核保前检。
 [共同C24](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7、Ej=−b^jσ24x^(8−3j)y、c*=(1,−4/7,16/7)。四B零 iff BS0且M_pc*0；三相邻系数来自四不同真实伙伴，U二挠仍同全tensor/lift。S/V的X0/729X0真实低卷积、[3]完整W3及S/U六零不省略。
-R860/R863全Witt D·N²、奇N与r2/3连接伙伴详前检。附A全证Z2−455S/2664=∇Θ17 C0，C0=−σ2³H22/21312从z7起，余两个完整低配对。R876 run43836767572付H22四维全CM：N7循环/Φ12，N13=−N7³、N7⁶=−I；四谱全非零。R877付C30/V真δ-new、C24两个真行唯一选c*，K30=σ2²H22的old=33σ30X²(X+4b)²及全new均保。R879真热伴随Tδ(V[1])在同22基为(−32,−56,119,−19)/21；trace与热不交换，不赋B(V[1])零。附A付H22的10362整CM词返回及同热源D5=new+9D22,5(G22)−75240c_p q_p(3)/7，接全L2D5(V)−D7(V)/132。原new余项与两完整配对均保，theta续实际相容性。
+R860/R863全Witt D·N²、奇N与r2/3连接伙伴详前检。附A全证Z2−455S/2664=∇Θ17 C0，C0=−σ2³H22/21312从z7起，余两个完整低配对。R876 run43836767572付H22四维全CM：N7循环/Φ12，N13=−N7³、N7⁶=−I；四谱全非零。R877付C30/V真δ-new、C24两个真行唯一选c*，K30=σ2²H22的old=33σ30X²(X+4b)²及全new均保。R879真热伴随Tδ(V[1])在同22基为(−32,−56,119,−19)/21；trace与热不交换，不赋B(V[1])零。附A付H22的10362整CM词返回及同热源D5=new+9D22,5(G22)−75240c_p q_p(3)/7，接全L2D5(V)−D7(V)/132。附B以209(D7V−9D7S)+3528T消原degree4高行及显式q3；只按BS0换O_C为真低卷积，D6C30/热new/全cross仍保，theta续相容性。
 
 
 ## 当前第三门：低松弛同P/R/S的真正后两页
