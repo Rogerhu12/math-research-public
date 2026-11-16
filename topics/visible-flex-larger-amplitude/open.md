@@ -80,6 +80,9 @@ R489以原完整f12f1440/six及同五输入/完整数学字段重算同根族，
 
 [R508](results/R508-live128-scoped-ownership-and-original-input-repair.md)/[221接口](notes/2026-11-16-request221-live128-scoped-original-full112-interface.md)六件已完成：proof12168/a28c1cec、接口14354/5c0f369b，outer38924/6f211144、reader35283/687168ef、request54884/0fa9fe29、workflow13301/83849e83。保旧334pin＋新2=336和原14科学/协议源全字节；同原输入只补ledger-ready缺e，scoped quiet按实际登记/startticks/组/session/后代/可读namespace，先stat图再筛，所属uid变化/不可读/身份变化仍unknown禁读删，不因外部sameuid权限错冒本请求所有。仅准确信号权限/真实再次静止后清理，单90K原必要选择器不改，保留说明改为单行Python。原63前缀/96/port、91仅尾初猜、350/320min/19200同钟、全部128/fullFD/fullDN/原末门保；无准备或科学通过预填，实际R509/exact唯一。原219执行件不追改，新workflow正式dispatch。
 
+
+[R506实际220](results/R506-actual220-policy-JSON-source-classification-stop.md)14881/0fde227a已完整：run43833995131/source3ea0620a，compute133185959623/report133187249530均failure且各终志唯一。第6层plan把R503政策JSON列入只收.py/.mjs的required_public_sources，原basename谓词抛ValueError；前5层返回0是固定控制流支持的前缀，4165B事务只有身份，46新view循环未起（bootstrap owner先前单独生成/AST），不称457整体已绑定。C485B只未起null帧双job同字，rules/closed/refinement/composition正文均未返，cleanup真实skip；硬编码report概括句不补body。R503点/C/far/native/453/450/M/几何全未求值，无数学反证。222/R510/R511薄修只移JSON出源码专用子列表，仍保外层全文pin/政策字节、四outer与46输出/全部原门/32GiB/18900+2700；真实derived请求另绑，不重标旧失败run。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。

@@ -228,3 +228,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R879 从已成配对核构造参考单极函数已证明并激活**：[完整证明](results/R879-original-reference-pole254-pencil-from-completed-syzygies.md)，SHA256 5f0988a85734f2c1e311dd6f55d0caa111011a8dc2ee119a20114effe7226055。两个原最高项截断及19个已成jet给563×418/rank291；成功后原v0恰254P0单极，(1,v0)为参考M0铅笔，无须参考128核或672minor。准确原t/x单位保留未展开；消费者待实际运行，不预填模子式或真实height。
 
 - **R880 复用原D铅笔与共同cusp构造有界输入已证明**：[完整证明/契约](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)，SHA256 5a833046b269b1682f4e6c33c6cc54b6f9d09354f0d40ccf2c47e1455747101e。旧1111子式给269完整残余核，123jets给146，新962秩给D*418，20+252条件给共同DC418；Ef的准确除子等式、Qf及ρ^-1457首项均保留。真实新核/五Lj128或144/t帧/height尚未计算，不混参考v0。
+
+- **R879 原参考254阶单极函数和铅笔实际完成**：[正式结果](results/R879-certified-original-reference-pole254-pencil.md)。run43835253379/job133190260738/source0f74fb43，4stage/1.298767032s，563×418/rank291与全563回代；原极除子恰254P0，参考(1,v0)无基点。finalbf7172a2/函数bfc553e5/artifact14210388032/4b1d3a03；t帧准确式保留，五Lj/九Norm/height仍待做。

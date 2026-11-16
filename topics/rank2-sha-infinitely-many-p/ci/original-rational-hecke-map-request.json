@@ -1,0 +1,25 @@
+{
+  "request_id": "rank2-20261116T0858-original-rational-hecke-map",
+  "utc": "2026-11-16 08:58:39 UTC",
+  "weights": [
+    4,
+    6
+  ],
+  "max_split_primes": 96,
+  "split_prime_start": 1000000000,
+  "product_basis_prime": 1000037,
+  "original_u": [
+    "915/55569",
+    "1097/55569",
+    "2962/55569"
+  ],
+  "original_basis": [
+    "1",
+    "theta",
+    "theta^2-2"
+  ],
+  "return_integer": 17,
+  "target_rescaling": "lambda(u)=(68+7*a-13*a^2)/3; Xnew=lambda^2 X, Ynew=lambda^3 Y, vnew=lambda^3 v",
+  "scope": "Full original R874 rational Hecke direction and R870 strict global elliptic coordinate identity. CRT only proposes exact rational coefficients; no finite-field or q-integrality result certifies the map.",
+  "output_policy": "Public Actions console only. Persist producer, exact parameters, run and hashes; no coefficient/certificate files, artifacts or releases."
+}
