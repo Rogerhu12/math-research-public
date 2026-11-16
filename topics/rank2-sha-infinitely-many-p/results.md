@@ -336,3 +336,5 @@
 - [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：同原F的完整PARI基/权10与4/1429行保持，小辅助素数显式精确LinBox；已验全窗的512位向量按真整除从旧精度续到1024，底域chart只算一次。原QQ短支/0..6120完整恒等式函数保持，无高度界或map PASS。
 
 - [R904 附A](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)：同一旧真实run的权四完整1429×1260矩阵在1000000007秩1116，给char0核维≤144；原极除子乘法单射加完整限制序列遂将权六极次数下界加强到180，原18次覆盖给条件映射次数dF≥1080。未认模核维数提升、映射存在或PASS。
+
+- [R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：原全四块核内V0(H)=V1(G)唯一迫H=TG=EG−a(G)F³，a由原第四短行固定；两条完整native尾仍须共同通过。r2/m3所有纯charge真帽给稳定部分零纤维单射，明确六维Tf/Qf并以3b+7步原四块测试精确读K∞；未认全K稳定或指定forcing已解。

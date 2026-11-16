@@ -148,6 +148,8 @@ R840须用同Kcorr/Hcorr支付两个高前缀，再用同F²L1付第三3η/第�
 
 [R903](results/R903-original-positive-horizontal-endpoint-and-joint-normal-values.md)：原全四块核的正水平值V1−3bV0单射已证：最高charge真帽ord0 a≤3(e_++μ01)、全局L=E−3b除F及最高系数逼c0。原r2/m0=3/b≥5时κ≥(b−3)e_++3b自动付帽门，非零核必要T+e_+≤3κ；同U±保共同V2与D3(U−−U+)=3b res U−，不相加独立秩或认实际像满。
 
+[R907](results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：原全四块核内V0(H)=V1(G)唯一迫H=TG=EG−a(G)F³，a由原第四短行固定；两条完整native尾仍须共同通过。r2/m3所有纯charge真帽给稳定部分零纤维单射，明确六维Tf/Qf并以3b+7步原四块测试精确读K∞；未认全K稳定或指定forcing已解。 原L≤h时等价V3高T及V4−6ae³的同L尾；L>h真迫a0。下一步仍是实际非稳定部分与同指定目标。
+
 ## 持续执行
 
 完整目标尚未达到。每条完整证明立即推；每次实际pull核两README差异、只读变更并记已读提交，至少每小时。只在公开Actions作数学执行；脚本/参数/run/hash入库，重算输出不存。主目标完成前持续接续。
