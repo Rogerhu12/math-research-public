@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：a9da16278c336ec5d6ce3be88502263d04429324；2026-11-16 10:18:10 UTC核两README无变。实际CI pull 2026-11-16 09:55:11 UTC/15c425847cdb0bc6fd89ea81be7d4e10d3564ac0（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:18:09 UTC仍无环境。最迟2026-11-16 10:40 UTC再实际pull。
+- 最近已读规则提交：390b999ac14be796192984316f3da83a2ba0ad46；2026-11-16 10:18:38 UTC核两README无变。实际CI pull 2026-11-16 09:55:11 UTC/15c425847cdb0bc6fd89ea81be7d4e10d3564ac0（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:18:09 UTC仍无环境。最迟2026-11-16 10:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -31,7 +31,7 @@ R882付原X10404=Norm(B867×_{T3}E_src)的18覆盖：E_src:y²=x³+1，A=(x³+4)
 
 原S34/T72/U136/V66及charge17/36/68/33、全Schwartz/CM13/Euler/p²p³详完整前检。R816/820付E−11 rank≥2，通常全Selmer仍缺无穷p完整J′非零；不能添新来源中央。
 共同C24三列/原c*=(1,−4/7,16/7)给四B零 iff BS0且M_pc*0，三行保各自真实伙伴及全部低cross。R855/856 whole除p、原全参数/半Bol、S/V的X0/729X0及二挠运输不省。R863原Z2−455S/2664=∇Θ17C0、C0=−σ2³H22/21312给两个完整低配对；R876 H22真四维CM循环Φ12、N13=−N7³、各谱均在原读者内。R877同δ投影保C30/V为new及K30全部old/new，不能据trace0删读者。
-当前[R879与附A–D](results/R879-original-v66-heat-and-degree22-trace-defect.md)是实际合流：Tδ(V热)=G22，10362H22的整CM词返回已付。原D5热缺陷带−75240cp q3/7；209(D7V−9D7S)+3528T消同B4高行/显式q3，只按BS0换O_C为真低卷积。C30热trace=(2δ/7)σ10x²y，其D4旧行回同D2B4/D1Theta及全部Y,Z；实际new首11z3/21仍未知。原m2由固定光滑uv(u4−v4)=f及degree24参数覆盖全水平化，det=f/2；D1F2/D1Theta/参数导数准确回Ku/Kv，仍保4^N T_N/H/Cp除p高算子及模p²。theta续真实new与原两H22读者接合，不把固定框当固定Hasse行或增加中央零。
+当前[R879与附A–D](results/R879-original-v66-heat-and-degree22-trace-defect.md)是实际合流：Tδ(V热)=G22，10362H22的整CM词返回已付。原D5热缺陷带−75240cp q3/7；209(D7V−9D7S)+3528T消同B4高行/显式q3，只按BS0换O_C为真低卷积。C30热trace=(2δ/7)σ10x²y，其D4旧行回同D2B4/D1Theta及全部Y,Z；实际new首11z3/21仍未知。原m2由固定光滑uv(u4−v4)=f及degree24参数覆盖全水平化，det=f/2；D1F2/D1Theta/参数导数准确回Ku/Kv，仍保4^N T_N/H/Cp除p高算子及模p²。附E在共同b1上付D1Theta=U theta_flat_s−2Cp(U+1)/p、(U+1)/p=(p+1)Wp−1，准确接完整g_flat的s行，非Hp/h1或K1末三尾。theta续真实new与原两H22读者接合，不把固定框当固定Hasse行或增加中央零。
 
 ## 当前第三门：低松弛同P/R/S的真正后两页
 

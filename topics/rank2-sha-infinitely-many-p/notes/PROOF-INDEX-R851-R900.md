@@ -219,3 +219,6 @@
 
 
 - [R882附录A](../results/R882-original-degree18-source-model-and-two-endpoint-coordinates.md)：原trivial字符eta商t=η1η867/(η3η289)的完整六类cusp表给divt=24(c1+∞−c3−c289)、degree48，t12=T/V且k(B)=k(t,T)。原P(X,X/t12)去content/pure X后，以最低权(24,−1)在(1,1)零唯一选原48因子；十二geometric拷贝及T/U/V全返回严格付清。D204/all36 cusps/原端点不变，实际RR小模型可执行，未报告尚未运行的因子化成功。
+
+
+- [R879附录E](../results/R879-original-v66-heat-and-degree22-trace-defect.md)：共同b1原Hasse frame精确给Theta_flat=Theta exp(2Cp w^s/p)，D1Theta=U theta_flat_s−2Cp(U+1)/p；完整Wilson商与一般Gaussian重标的两项相消全部保。原水平Ku/Kv组合准确回同g_flat的s行，并代回degree10旧行；不把该系数认成Hp/h1/L1或K1末三尾，不假Wilson/Fermat无穷非零。
