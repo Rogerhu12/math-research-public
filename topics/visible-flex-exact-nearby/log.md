@@ -360,3 +360,9 @@ potential最小case root λ=κ*与V可复用，整pieceflagfalse保；β仍原�
 fresh main 0204b4f3ef56164524eb02c24be9a4479e50e122 的根/本题README同原blob；只读核不冒真pull。独立发布R97 `cc0d98891f52a8c6ec1c718c57d7be143db0134c` /20143B /SHA256 `543ebc3899931db63bda92c31ce20d8f21013daac906e00eaf761a28ff582f74`。root全文首稿+全部修订差异，phase核原RBG分组/newton独核、root手核ΔRD九组系数；tail核输入域/旧θ同h/λ与terminalβ/均值/J导数侧。δ3五组和ΔRD九组为精确代数合式，先收径向scalar再区间/范数，完整k1v²/mean/D²p/ZD/ZDD/WAC、三阶h与无z曲率保。
 
 同real |δ|≤1e−8/fixedη0真根；旧disk和square各保自身域，只取共同real子族。新SCI设计只读两历史原gzip和旧小回执，不执行旧producer/根/mean/airy/potential。原97、N*=388、完整正meanrank、全J和IR0原1/4不改。whole严格门尚未数值；完整上界失败不证kernel，也不以此授权重算。source/manifest/worker仍静态复核，未启动新Actions。SWA/CEBA H与RBO/RI open仅索引压缩，原逐字段保9baeef17e8cba347889646959eaf272287eee549同H/open及原proof；所有未付义务不减。
+
+### 2026-11-16 01:26:26 UTC — RNI条件完整原97坐标与自然负窗接口
+
+fresh main 6b5176cf8a10c0fb570417dff459cd12556ef4b8 根/本题README同原blob，只读核不冒pull。发布 `ce0a46c75360850479333534cf096fd61f412168` /19405B /SHA256 `d771cf43faa0d5351851168f9f1567e21f8b7e0be27480b6bd67880a4eb69a81`。root全文亲读并亲回B1–3/原RD、SE；phase独核RNI3–4/7，newton独核5–7。仅以未来同realδ/fixedη0的R97完整实际μ=g−−e>0为前提，才原97 kernel/coker=0、FC空补列m/W/F_C=0；当前严格门尚未运行，本文不是actualpass。
+
+精确有限Bt=Σ(-A)^k+(-1)^m B0 A^m保持B0在A^m后，gain2/3自然−7/6,m2及−5/2,m4均入H1/6；完整J先由原左∂J与gain1同公式统一。各负窗常数需全部gain序列，不复制L2数字。原Dg^-1/M^-1与Cs右序保，独立两mean、低/径向head、其他finitecross/ports与真正incoming/Schur仍待。normalized族op-norm连续与真Riccati因子仅逐频连续前提下strong分开，selected坐标全δ资格不冒授。旧NWA/NPK H及五root-jet open段仅压索引，原逐字段保aac7107299507d3dc6de93a1f88cf53c6ae6594c同H/open及各原proof，不减任何未付义务；无新数值、无旧计算重做。

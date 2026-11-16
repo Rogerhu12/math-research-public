@@ -44,7 +44,9 @@ BF e8e29c49保实际square B=T+E+LV、两mean/primitive/density及PUVP；仅完�
 SE22201747自然S_nat=Dc+K增2/3、−7/6/−5/2窗index0；cutoff97可逆未授。仅完整actualAi incoming injective后C onto并同侧准确消，独立第二输入/正侧rest/两mean/roughbulk费保。
 FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Poisson补列覆盖同given-head整图，rest/affine保。common Csharp只实际incoming逆确成后消；m/basis/F列/H4/3 dual/norm/finiteSchur/fullincoming/参数uniform未付，原C核0未授、第二输入保。
 
-[已成根jet与算子完整索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD34eec24f/RBJa19878f7/RDA8d2570c7/RBD5d7c045f/RBG157795fd五原段。真实邻域递推给Da0/Da1/b1/Db1；genuine BV/H整件替，不二加CalB，公共K4/η3/Mrr先消，有限频率hrrr和无z曲率仍保。正meanrank用未投影e_amp、非零βn两profile、输入右序、全J/低中间频1/4及全δ/全角域不变。必须付完整输入/乘子/潜势数值并验证whole e<g−才可原kernel0与SE自然负窗onto；尚无stablepass/腰incoming/finite/非线性。
+[根jet已成索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD/RBJ/RDA/RBD/RBG五原段：genuine BV/H整替，公共K4/η3/Mrr先消；hrrr/无z曲率/正meanrank/真βn/输入右序/全J与低1/4保。全δ/角域及whole e严格门仍需实际证；未授kernel0/incoming/finite/非线性。
+
+[RNI条件自然窗逆](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md)d771cf43：仅实际R97同域μ>0后，原kernel/coker=0与FC m/W/F_C=0；负自然两窗以gain2/3的m2/m4有限代数同逆，另需各完整gain常数，不照搬L2值。normalized族可范数连续，真Riccati因子仅保逐频连续前提下strong；selected坐标全δ资格未授。两physicalmeans/低head/径向head/其他finitecross/全incoming仍待，当前无新pass。
 
 [RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264的完整八行/有限pairing保原proof：z=j^-2=16N^-2，hrrr只N^-10/3，无z曲率留h0；正ΠM_E0秩/全J/IR0原1/4/真βn和物理4ℓ保，1+zh另gap。Ai有理下界只real；whole e严格门、同自然负窗及incoming/finite仍待。
 

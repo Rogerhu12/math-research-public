@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133 supplement: conditional original97 faithfulness and uniform natural-window inverses](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md) — RNI `d771cf43`: conditional on an actual uniform R97 strict gap, the original stable kernel/cokernel and FC completion vanish; exact finite smoothing formulas give separate natural-window bounds, with physical means/head/rest ports and continuity qualifications retained.
+
 - [R133 supplement: complete original-cutoff97 scalar recipe](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md) — R97 `543ebc38`: exact collected third logarithmic and derivative-potential differences, complete same-root scalar budget with all means/J/quotient terms retained; one new public scalar consumer remains to be evaluated.
 
 - [R133/RBT：原根完整带宽与有限 Schur 接口](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)：精确E2/R0带宽384/576，Jt>576的IR0仅在J/L之前得4(Jt−576)间隙；全97..Jt−1双sign真Schur及cross/J/meanrank保。原97门不改、J不作有限带宽；无新数值tailpass/finite/incoming，负窗不冒L2常数。
