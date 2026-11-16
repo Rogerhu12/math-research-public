@@ -2,65 +2,51 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-freeze-original-Iz-pencil-and-nine-Hecke-norm-consumer",
-  "commit_message": "serre: freeze original Iz pencil and nine whole-Artin norm execution sources",
-  "rules_last_read_commit": "e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c",
+  "request_id": "20261116-certified-K-fixed-418-and-activate-original-K-representative",
+  "commit_message": "serre: certify original K-fixed trace basis and activate bounded K representative",
+  "rules_last_read_commit": "25aff780e965fc4d9d06b7fe145ad4f18ac8cf3c",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "788a51556097aec56cf4ca417a51e3cafe699643c4325cdaf8a5aa6d4604daad",
+  "expected_previous_request_sha256": "af243bacba40369cb1bfb252c19ebbe61116e26b693571a6926c501b83fa3417",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R907_original_Iz_pencils_and_nine_Hecke_norms.py",
-      "sha256": "cf905290bf90c1af7247dcd8b6f96f403e8f965cdee628ee01178c036c139d45",
+      "path": "topics/serre-uniformity/results/R899-certified-original-K-fixed-seven-trace-RR-basis.md",
+      "sha256": "c233acd4007ac396ecef7aed6d91e797d7b2a2f4aaa815c7805f9d91567f9ac7",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/scripts/R907_complete_pencil_norm_algebra.py",
-      "sha256": "7e4a8d882b15b202fed6e440e09b00db03ec7d605103245dfbf912ecfdbd8d57",
-      "expected_previous_sha256": null
+      "path": "topics/serre-uniformity/notes/R900-K-defined-degree272-public-request.json",
+      "sha256": "a5cc380c3dac4065cb729906a850cc3f4364afc812f9e382301d9390a3386e27",
+      "expected_previous_sha256": "c2ad9b9d27bf731aedaa6938188c1c5b2d35f2299cdc304bcc5fcd1fae441079"
     },
     {
-      "path": "topics/serre-uniformity/scripts/R907_public_original_nine_Hecke_norms.py",
-      "sha256": "b8a5f94b5f4454d173eb4177f8c61917ba696eeffef1cb828b78b54f028f7e80",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md",
-      "sha256": "44e3ef90145ad6cde13cefa9fa811100da0f6004efec2ef5edfc24393e4a8057",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": ".github/workflows/serre-R907-nine-Hecke-norms.yml",
-      "sha256": "c198a5f9633c9969be2e20b1aeea6ef6c942cb4efd1c7331cdcbc38c81808a34",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R907-nine-Hecke-norms-public-request.pending.json",
-      "sha256": "7332a7fb2384c08fceac1cf7812078f18bf76848141b197f0334676b588c9c99",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-nine-Hecke-norm-consumer.md",
-      "sha256": "8a6bddb1616f1e55495b83112e7e0725ce450317380f94090ef9d0cc093cfa30",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-K-fixed-basis.md",
+      "sha256": "2c387ec60912efa24364a069108b3eaeb2ddb5dc76b58544d926e5e722c73212",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "88a2feaf3a9924124ed42bb5f4ffc4837a949734317bfd960c27330bc5a49099",
-      "expected_previous_sha256": "8a6bddb1616f1e55495b83112e7e0725ce450317380f94090ef9d0cc093cfa30"
+      "sha256": "8f201d503e8087dcd81de9318fcc72f60668bca127540fe1f7da8dc702488c55",
+      "expected_previous_sha256": "2c387ec60912efa24364a069108b3eaeb2ddb5dc76b58544d926e5e722c73212"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "993b3e18eeb0880b9d060290110b3ef5206c7c62296fa6460c7fc98e72e31dbc",
-      "expected_previous_sha256": "ff55d6cb31ab412ac10aeb46f2ca7232a3e6a9984e4f4355db3d7f76af303e2a"
+      "sha256": "a52a4e9e856fcc6998d9b92a07e892562cb58a6bb5918ab7d8435e3e30b26990",
+      "expected_previous_sha256": "993b3e18eeb0880b9d060290110b3ef5206c7c62296fa6460c7fc98e72e31dbc"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "061589d97ee3ef48b3580a36a2f27cfc946669c8c43aa62612a905ae15a66ec5",
-      "expected_previous_sha256": "781bf0bfd7d5ff061836e3b5c62bd2bdeed08e81992d31c0ea414dd958dc5eb5"
+      "sha256": "9bd958b00c598d559eb96edc7763edd4a0457d346b39e40a9bd673e446940144",
+      "expected_previous_sha256": "e68e9141a4332ee1dad613c808c3731387056e680bb7c76d2519ae99d0ed80ac"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R900-K-defined-degree272.yml",
+      "request_path": "topics/serre-uniformity/notes/R900-K-defined-degree272-public-request.json",
+      "request_sha256": "a5cc380c3dac4065cb729906a850cc3f4364afc812f9e382301d9390a3386e27"
+    }
+  ]
 }
