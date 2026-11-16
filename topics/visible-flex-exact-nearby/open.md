@@ -183,10 +183,12 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 [GMR局部mean/γ](results/R133-supplement-completed-local-mean-gamma-bridge-and-exact-reuse.md)f03b79bc：原438277首node3497B/00e1566b已成4copy+8新，禁重算；只原实[rc,r+]、|m|下界，row790/对称盘不扩。完整旧open段保WMTA7。
 
-完整WHS/WOB/WPT scope保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md。[WDS双侧真Schur证书](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)4c7c9d6e：I−QfM=E+D*R^-1T，须e+κdt<1；全四块/两rhs/193mean/97root+96outer/7port弱Green/δ和coker不减。当前tail门及signed有限逆仍待。
+完整WHS/WOB/WPT scope保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md。[WDS双侧真Schur证书](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)4c7c9d6e：I−QfM=E+D*R^-1T，须e+κdt<1；全四块/两rhs/193mean/97root+96outer/7port弱Green/δ和coker不减。真tail已由WIC闭合；signed有限逆仍待。
 
 WOBSA37/WMF原全scope与未付门保[完整outer与归一mean](notes/2026-11-16-complete-outer-and-normalized-mean-open-scope.md)622d8420。[WML局部六步mean](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5：原实local/真r*、4完整初amplitudes/6步/10terminal与原Jr/g1/两mean/四端/jump保，无1/T根除。247新量未算，因WMTA非mean主导暂缓数值部署；旧mean冻结，signed逆/高门仍待。
 
-[WPTSA实际五max与两尾门](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)4f880dce：43859287399/1全18门/4目标/11新、153parents/4801交集成功；原collar不重算。SCI bdd8857c全5max冻结；δ1≈8453.72、δ2≈2121.93均false，未授tail逆。WPT/V/VR/VS的真T*、全96/65repair/4650行/3594接口、外Q_iV0/ramp/193mean/全四Schur块及原失败prefix均保proof/manifest296d3f66。旧m1,2和5max禁重算；另需新解析和资源合同，不能把false当自动扩网或奇异结论。
+[WPTSA原实际结果](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)4f880dce：153parents/4801交集与5max全成，m1/2两false冻结；原完整scope/193mean/四块/失败prefix保proof/manifest296d3f66，禁重算。
+
+[WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole证明m160真tail κ=3、δ<80553/128000<2/3，24480cell/4724833维。reference正pivot/transpose/whole norm、mean及rho2−rho*全闭；actual有限仍须7port/两rhs的signed e+3dt<1，真96/coker未闭。
 
 [WMTA严格flux实算](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7：43856579962全195+2冻结，CFs约1.167e289、whole仍2.1163e465；全mean/jump/端点/8terminal保。[WRT完整重分解](results/R133-supplement-exact-retained-profile-regrouping-and-complete-terminal-bound.md)7730307f整移k3..5到E3，旧C6全保；新terminal p=3/2接独立S1/6，真even0/J/两mean/四端/原receiver及whole/reduced两整选不变。sourcebc168634/manifest38e8211d已排CI，75copy/42新，不预断改善或逆。

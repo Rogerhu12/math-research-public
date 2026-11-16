@@ -280,3 +280,5 @@ root完整核所有admission/helper/controller，重建75完整原record9302B/4e
 
 包已先推ec7d61e1b11f45751d54494997658845b5b5dc7c；新增专用workflow visible-exact-retained-profile-terminal-refinement.yml（89eeb5286e8bd75a08a5ba4f7ecf5cbc15448322/2941B/e29bac8c6d04abe2eaab4a6e523bdd5338c19816bfeabfd84c56b18c029e2aaa），固定原f966/7abb worker及manifest38e8211d、Python3.12.14/flint0.9.0。本次只7图42新量，原75record/全部57KBscope只读；不可重跑旧N6/WMT或把旧C6删去。
 fresh ec7d61e1b11f45751d54494997658845b5b5dc7c topic=199460089B，完整publication166000+reserve120000及本journal≤200MB；worker预执行/立即science前再次真实pull核README/容量。旧whole/reduced与新完整候选分别比较，结果尚未产生。ec7d61e1b11f45751d54494997658845b5b5dc7c两README同已读；非FF已立即真CLI rebase尝试并保远端循环，前包第4次成功，无force。
+
+2026-11-16 12:06:52 UTC WIC独立推：全文核019b1136/29026/527fc35e与无入口b181bb80/11013/c5de896f；8原whole→m160真tail κ3，旧5max/两false不改。reference正pivot/真实权/transpose/ρ2误差和WDS全残差义务明确；0数学执行/0新矩阵。CI43862924830已成功，四真pull/README完整diff空，最新12:02:27.498937→55858bef，H已更新；实际WRT42完整核读中。只读核README parent e8867d1951d6faa31a2cd9e69e6b9df2fb1c0c68不变。

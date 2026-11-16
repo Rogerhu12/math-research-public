@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WIC：继承细分的真实尾逆与带权阻抗 circuit**。由完成WPTVS的8个原whole粗有理界，严格证明m160时δ<80553/128000<2/3，真实R160双侧逆可取κ=3；原m1/m2两false和五max冻结。24480个cell的4724833维参考有限方阵分解为96个正pivot阻抗块与一个physical mean块，完整Riesz/transpose/whole norm与principal rho2−rho*均保；actual有限仍须signed e+3dt<1和完整7port/两rhs。见[完整证明](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e及无入口module c5de896f。0新科学执行，无dense数组。
+
 - **WRT：完整retained-profile重分解及新可和终端** — [证明与42量合同](results/R133-supplement-exact-retained-profile-regrouping-and-complete-terminal-bound.md)，SHA7730307f9c42bb87adc41baca7d0a79262946e5c19cd517449325523380bd38d。保留k1/2、整移k3..5到E3，不减旧C6；经完整same-J、符号槽计数和ordinary dr给新terminal band衰减 $N^{-3/2}$，以独立 $\mathcal S_{1/6}$ 保原 $H^{-4/3}$ 输入。全mean/jump/四端/receivers及whole/reduced整选保；75原copy、7图42新scalar尚未算，0逆结论。
 
 - **WPTSA：完整五maxima与两次否定充分尾门** — [实际证明与全部原ball](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)，SHA4f880dcef63c33c0233c01ee9fc86e5f4e070a7aa72746debb829547411daf04。43859287399/1全18门/4whole/11新成功，原collar未重算，body152全成；完整δ1≈8453.72、δ2≈2121.93均false，selection/inverse均null。原5max及两候选冻结；无finite矩阵/旧目标重算，不证真实奇异，后续新解析须完整保持原域/mean/四块/两rhs。
