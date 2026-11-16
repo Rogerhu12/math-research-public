@@ -436,3 +436,7 @@ fresh main 453e27fd7eee0e418f81c521f9c4674bcb446222双README不变。原R97R SCI
 ## 2026-11-16 02:11:37 UTC — R97A 完整实际结论独推
 
 从不可变blob dee5dc9a0092d8c90ade09b0a6f0994adc6a2163完整读67984B，SHA b2d4bb5605021b9b20589a8d16350a7e7747d7e51de5f774c85900f70b3844ca。根全文审正文，附录5新图和progress/rootdomain/retained_scope共8 JSON对象逐字canonical对比actual SCI全同；219 scalar含217 bracket与2 exact，9新/14继承/12progress不混。实际运行43789221154/1与三原小件、source/worker/manifest、9current/3AST、两truepull和两preGit原byte复原已独核，无新数学重算。仅同real/root97严格e<g−激活RNI kernel/coker0及FC空补列；所有负窗显式费/selected全δ/physicalmeans/head/rest/incoming/finite/非线性仍保。HANDOFF仅缩已成SCA/CEBA索引，完整此前保9471d916同H/proofs，未付不减。只读README核ab2d1dc319e59d72c1c562e3d4e2b8e56f02c310两blob未变；API不冒真pull。下一继续RNE显式负窗新量及完整参数Schur。
+
+## 2026-11-16 02:12:17 UTC — RNE 两自然负窗显式逆公式独推
+
+完整正文d6cb8f723584a5f893a01324033d059995d1ee79 /17890B /030e434ed31632c0c5330318251486d37424deba78f3fe35bf8b738960425120已根全文读，tail核§2–5、newton核§6原序通过。四e_q由保存的八R0正kernel带宽192/384/576/192/384/384/0/576及两amplitude项构造；Jo1/97分开，完整meanrank与IR0原1/4保。L commutator derivative-vector矩阵精确对应非齐次Sobolev范数；J同向有限式用CI=sqrt17/4，两个完整BJ候选只whole min。已存μ直接作lower，Broot=1+e/μ与m2/m4给两自然窗完整逆；selected C_s权序及uniform chart条件保。全部为解析新证明，本机/code-mode未做任何新数值或旧目标。下一由独立publicActions算新的有限正标量，旧R97 e/g/图不重算。H/open仅压已成记录，完整前页a5c7bc40及各proof/已存waist索引保，所有未付门不减。a5c7bc40d5b60a82e3876bd34b85a45df7e15e0c两README blob未变；API不冒pull。
