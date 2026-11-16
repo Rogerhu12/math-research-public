@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 05:35:06 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 05:35:38 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 05:17:05定时/05:28非FF本地CLI仍无executor，下一本地尝试≤06:17:05。最新CI真pull为rules43810459653/1于11-16 05:28:49.862787→a543f65c6a8a0f6c3758c8da1fc8cf014afb9e45，两README空diff；receipt61500fd2/936B，科学0。下一真pull≤06:28:49；ref读取不冒真pull。
-最近只读README核：a9ff7bec201ff5653758b4bfd6da4456291e939f；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：94fe0093eb52b319742923bb159d460323a4fb7b；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -25,13 +25,14 @@ SNA43751213826/1/21、SCA43754452928/1/20、CEBA43780532148/1/22全部成功锁�
 完整原段/球/域/费用/失败/恢复逐字保[全实试探/源/腰端检查点](notes/2026-11-16-completed-global-genuine-source-and-waist-checkpoint.md)，递归保物理行/graph/插值、实际第一行、反射scope、03:31、inverse至WPL及waist-coordinate各档；open2–7所有未付门不减，旧成功禁重。
 R97A/RNEA/NIFA唯一43789221154/43792291190/43795909913各/1锁，原root97核0、两natural负窗逆、Ni±/Cs闭；NIFC仅逐频strong/joint，不授M/C opnorm/C1/KAMfamily或fullincoming。BF/FC/SE/RNS全部finite/两mean/无限head/rest/trueν/pairings保，FC补列虽空其余不减。
 WPR/RRF/WPM只odd均值冗余，evenmean ODE/source/ν/cap/amp全留。WRA仅δ*/p0/fullU/Xfr同完整Ei；WPL co=−Rbci、S0=0仍保Z0/(h−1)ρi/twoI/全state，完整三项error不重复state。WIT/WIR同W两窗逆/插值保fullmeanrank；WBN/WBP左右不同，whole同operator/window才可min。
-WCS/WFI/WGB实际graph loss1、index−96、Id+K/96式VQGbar u=0俱闭；真96列只以Hphys−MbarCQ差列进入UV，reference非physical。WGT任1<σ≤4/3高门2KCY CEσ KPσ ΛJ^−(σ−1)，P_J(Mν−Mbar)=0只撤high费，low/Theta全留。whole列p>σ+1/2或真blockp>σ；finite逆未付。
+WCS/WFI/WGB/WGT同graph loss1/index−96已闭；真96列须差列(Hphys−MbarCQ)，Θ/low/reference全留，任1<σ≤4/3完整高门和列/block门见WGT。真实finite矩阵/ν/pairings未付。
 WTS保完整trial replacement/root/cut/ordinary源/全部truejumps/waist；samepositive stable/head/rest须一致，criticalχ′无免费gain。JI原全[0,rc]角逆D_J≥(79/128)e^(-7/4)>0、固定Hs一导增益闭，只真交域同local angularJ，不搬旧strip/负窗数字。
 WUA9cd778ec/WUR948ad192：全real同root genuine/C64cut/N6/全部primitive终端与physicalmean；3块adjoint/strict相关O0m11接收，ordinary源和3070jump列p2。WUC6ced5a93：原PW真cut/SP20门完整collar/jump列p5/3、strict p2，仅1<σ<7/6；WES8aa7eb5d：selected全腰、S(Droot+J∞)原序/整B尾/一阶消及fullFA/twoI/ng/mean端rank，完整oldY_WJ端差strong4/3。全部细节逐字在前述全实检查点及各proof，未改旧数字/条件。
 WFRcb72cb37将同RF=−Rrt PFhG(root)精确因子化并接WBP/WGB辅助border；安全386实维，原两mean0及parity可降384/192，不是96physical列。高门用其余完整E°，全部root列/高低cross/Θ96/ν/mean/infinitehead保；无新数字或passingcut。
-WUBef141ab0闭真实dyadic负源block：exact Jost有限五导+全输出weightedSchur、同angularJ两负窗给collar/jump p5/3、strict p2；N6终端/mean单独HS更快。只正交inputbands求和得完整Tneg:H−4/3→density+两mean，原PW cut/CR/CO/C1/全部truejumps保。0数，PC/root/waist/whole坐标仍全接。
-WUEe191f96a以原signedtuple闭同oldleading完整物理行：Dalg+L∂(R++RF+Tneg+Eend)Ni，1<σ≤4/3。旧ST4通过精确trial替换望远镜消，不减upper；PC两received原球、CG一次、五oldballs、Ni同ambient插值/端点A−、twoI/fullmean全保。whole可用新数字/高门与真正finite未闭；继续正侧χ/ζ及同ci纯系数新预算。
+WUBef141ab0完整dyadic/Jost五导/weightedSchur+同angularJ两窗，collar/jump p5/3、strict p2，N6/mean全留，Tneg强4/3闭；仅inputband正交，原PW全receivers保，新数未算。
+WUEe191f96a完整同oldleading E∂=Dalg+L∂(R++RF+Tneg+Eend)Ni，1<σ≤4/3；trial望远镜/PC两received/CG一次/五oldballs/Ni同ambient+端点/twoI/fullmean全保。全新数/高门/finite待。
 WPC2bc45c4c保原PC trial/χ/全两row，用实际H−2/3输出C²全Schur与profile moment+5/2闭新cut完整recipe；旧PC一小receipt付所有输入，wholepositive gain一次。新数未算，fullmean/negative/endpoint/finite不减。
+WCE3d77e17b从真ci/TF after-right/WX/WT整RN给同Dalg两完整候选；full-density保Π，原两rank先全写再真域P_h，physicalmean/twoI/FJ/同Js全保，CG不重复。四旧小receipt只读，新标量待Actions。
 WAD43803459418/1唯一成功/16门/9球/old0锁；SCI77d17dad、exec588b9c73、report0a2eb042及WADA2737f96d全原件保。raw整界4.7487985998848693668…e83，非WPL不同归一化新数或passinggate。
 BT/RBT/jet/RI全原域/8terms/K4η3保；root核0仅撤FC补列，νchart保dν。UT/SWA/NWA/NPKA各原窗/四affine、PSB/PTB fixedscalar all-s/tame不授true背景/完整square。继续新whole同row、可用预算、实际physicalfinite及全部core/matching。
 

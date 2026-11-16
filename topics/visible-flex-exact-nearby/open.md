@@ -68,6 +68,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WPC原positive cutoff完整新界](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)2bc45c4c：保持原χ/trial/两row/mean/outer，用真实H−2/3输出的C²全Schur，profile矩权+5/2及fullstrip Cauchy，JL/JB原序给同cut/source和完整positive received。一个原PC execution提供全输入；新正组合待唯一Actions，原volume/FH/root及全部negative/腰端不改。
 
+[WCE同完整Dalg新界](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)3d77e17b：full-density S保真Xfr的Π0；TF后两I/FJ、完整R_S两rank、P_h实际投影和physicalmean全保。SEI真ci/BesselH2/已付CI_B，WX两窗/真ψlower与WT sameJs整RN给两完整新正组合；17原bound/3资格来自四完整旧小receipt，CG不再重复，科学执行待。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。

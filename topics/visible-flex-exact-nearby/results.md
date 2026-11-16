@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WCE / 2026-11-16** — [由真实terminal及normalizer给同物理系数误差](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)，7519a36a72fe5775de8dcacb7812f48a42e73d3b /22798B /SHA256 3d77e17b15a2dd37c7c66d969d28c50edc5dcbaa7608d6686477ac322ebc0bcf。完整同Dalg、同leading；TF after-right两I/FJ、R_S两rank/P_h、physicalmean与WT完整A2俱留。全density保Π给真实源域投影后rank候选，另保全两rank候选；四已成小receipt的17bound/3资格足付新正图，0数学重算/新数待，不授incoming/finite/背景。
+
 - **WPC / 2026-11-16** — [原正侧截断在真实输出窗的完整界](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)，92f5e51af2af959794b527c89d03f103d9e69422 /16086B /SHA256 2bc45c4c67261986bf2e94bb889d20757be8c713c31542c6a08e1da4353f8468。原两row χ′hG:H−4/3→L²dr(H−2/3 pair)，全输出C² weightedSchur+profile moment+5/2、fullstrip Cauchy和完整lag JL/JB给新cut。原positivevolume/FH/七port received一次组合；一旧PC小receipt提供全部输入，旧数学0/新数未算，未授finite/core。
 
 - **WFR / 2026-11-16** — [精确根有限因子与缩减高块门](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)，66557b3eb76c002dedbb7189a197a5a066ec0201 /16083B /SHA256 cb72cb37e284e8e4b4c834896b1437ee6400d78a9f8fe5321e75e4b4dac0fcde。同WUE RF=−Rrt PFhG真实有限trace分解，原WBP左右顺序/完整均值保；安全386实维，exact mean0/parity可用384/192。整root因子以辅助z=Vu留WGB边界，高门仅用其余完整E°；高输出/全部cross/Θ96/真实physical列与ν/mean/infinitehead不删。0新数值，无passingcut或finite逆。
