@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- WCTR 首次实际运行43901776543/1完整完成：36新＋20原字复制、96模态、24结构门、六图五前缀；充分界11976.30849仍false，有限逆未据此成立，不推出奇异。原WPS60/WVC56和完整物理范围保留，旧0/lost0；完整小结果见 notes/clipped_scalar_trace_residual_ci/run-43901776543-1/，已冻结。
+
 - [完整 collar Volterra 双侧反馈候选](results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md)：给出固定 WVC 参考上的两步 primal／dual collar 修正、完整过渡项和 family 差；由 compact-core 逼近保留真实 homogeneous graph。五图 50 个无条件新目标、严格门通过另 2；尚未运行，所需 signed collar 输入明确列为 Actions admission。
 
 - [WCTR 完整首次消费合同](notes/2026-11-16-R133-clipped-scalar-trace-current-inputs.json)：五份已审源码，45 current / 19 history / 16 AST；36 新＋20 原球复制，严格门成功另 2，全零时原六图和五条前缀全部复制。11 个完整静态输出模型独立重建同 SHA256，旧 WVC 43 科学／44 执行字段、WPS 全资格及 20 原记录保持；尚未执行科学目标。

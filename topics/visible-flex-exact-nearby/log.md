@@ -261,3 +261,36 @@ selected环境新挂载后原会话目录不存在；显式/bin/bash、login=fal
 2026-11-16 16:05:57 UTC：CLI认证push非FF后立即真pull --rebase成功；新origin/main 92c23e425e8c3b1e58a0594616a7d2ac1aae2ea9，两README blob与已读21bd547f/7e2b93d6相同，仅记录无差异，不重复读旧文。保远端main并继续推送本结论，令牌仅该CLI进程临时环境，不写文件。
 
 2026-11-16 16:06:15 UTC：CLI认证push非FF后立即真pull --rebase成功；新origin/main b38a46a6d0f34f250cff6d13c64ffafa65931ef8，两README blob与已读21bd547f/7e2b93d6相同，仅记录无差异，不重复读旧文。保远端main并继续推送本结论，令牌仅该CLI进程临时环境，不写文件。
+
+### 2026-11-16 16:15:58 UTC — WCTR首次36新+20copy全成，充分门仍false并冻结
+
+公开run43901776543/1、event ef5a809c4bf3020b9e6473b98d1864eb71fe0ba8，actual checkout40a91573aa3169334c9dcbf6e0479e082f85cca9；Actions complete success，更新时间16:04:25Z。SCI `b123f0ec9a01bd02290777ef0f86622a3db0fd5e` /86577B/SHA `2524a11005aa6ed1f20c2a91dc61a366a8f5c355d4e39d103249cd9fa4e0a5e0`；execution `51c9089f70cdab615d3505133544fae95f04ad16` /39658B/SHA `d5b4b8574344656af8344e5487aa59e5fa72e34311139dd086d1fdd847ff0f5c`；report `eb83a623361b89fb0003a2d1487b104c71803c42` /436B/SHA `356309d6da3c83a5a5a8db8f3bd274ca87ce9ca13976e7877ca5c39d56751bd6`。三件126671B实际全存，原192000B pending解除。
+
+根39项纯JSON/hash/source绑定核全真：45科学字段/44执行字段/24门/26progress，六图新7/0/15/7/3/4、copy0/12/7/1/0/0，36新20copy和96 changed完整，五modeprefix的witness/scope完整，old116记录与11旧prefix及所有false资格保。prefix与末graph使用两次directional save/readback/emit，五球radius末位不同且各自完整保留，不宣称原字相同；20旧copy才是逐字完全相等。完整history wrapper11键，其中19 historical_inputs，不混为11原输入。152 body/153 parent/155 comparison/4650双order全rows/3594 seams/4801 intersections/24480 cells原域不变，物理列0、old targets0、lost0、array/artifact/Release0。
+
+完整四球如下，未作任何本机重算：
+
+```json
+{
+  "complete_actual_D_upper": {
+    "ball": "[892.640781887886161009562724215532270751116788155931016499052359716794865560 +/- 1.97e-73]"
+  },
+  "complete_actual_E0_upper": {
+    "ball": "[1116.04013049930202499328385700767925382517418213356285462841890530482287939 +/- 2.75e-72]"
+  },
+  "complete_actual_T_upper": {
+    "ball": "[4.05548293117160566544731829486680362573969556407563708627708386733334580582 +/- 3.73e-75]"
+  },
+  "complete_actual_finite_defect_upper": {
+    "ball": "[11976.3084943412975160733375622585417781999325190728969012943513815153166543 +/- 4.93e-71]"
+  }
+}
+```
+
+条件逆null、finite充分门false，不推奇异；与原WVC11066.29746及WPS635240.55各自原完整false并存，不相减上界。本次完整matrix normalizer/two rates/τ/S/全signed action、root97/outer96/193mean/七ports/两rhs/actual tailκ3原范围保。下一W2C依原已封合同固定WVC参考。数学452.10128620600005s、child458.82150712000004s、单child成功，无自动再入。preflight3286B/SHA927b4d445b96347ad3928b049b351389b05256a4cbfceabb51236593972872c6完整且flint=false。四次真pull全部README完整diff空，末16:04:18.012540→beb6e2e462ca66ec0c600b2331352f5e06a72903；根独立完整chain `4bd61d085837c0b2098a1151a8336a68c12596e1d29ec99b0c4f40f720920014`。stdout仅收49242838B/SHA3d60ddf2586026490573a360802b467b4f9ccfb72c0518118b1a81f14205a495的完整receipt，无大log正文读取。预容量199622775，child前199623406，两处均计192000全输出+120000reserve≤200MB；最后actual基树199381122，全126671实际发布≤200MB，无事后虚构reserve门。
+
+为保持H≤10KB，先把源8a5973574577ea3d162585dfa36ceef9f71a217f的原H全文逐字9755B/Git3fc15336644b82cde21f4d71523e2ef18355feac/SHA85605e43f28cb079b77fd91957a610f5a36c1fc9f42f41b9352ada05a64b1c52保存到notes/2026-11-16-WCTR-first-run-before-actual-audit-handoff.md，所有旧cleanup/域/资格/未付门递归保。当前H只压缩已成的WVC/WEX和cleanup索引；目标/未付核心/当前W2C工作不删。完整WCTR actual proof继续写，已完成本36不得重算。
+
+2026-11-16 16:16:24 UTC：本结论push非FF后立即真pull --rebase成功→b0f904f0d637eb324d66bf69772197a0ec867e39；根/题README同已读21bd547f/7e2b93d6，无新差异；保远端并继续推送，未force。
+
+2026-11-16 16:16:38 UTC：本结论push非FF后立即真pull --rebase成功→aae4e29f4540b151ba14c5f80f7457f3220074ea；根/题README同已读21bd547f/7e2b93d6，无新差异；保远端并继续推送，未force。
