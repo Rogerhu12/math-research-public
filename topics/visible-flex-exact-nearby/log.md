@@ -308,3 +308,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 05:48:21 UTC — phase24单报告依窄白名单普通清理
 
 已先推f2c25c88白名单，再fresh tree guard核b952bbad/458499B后只删该派生JSON；失败note/原source/manifest/独立root report与不可变恢复a9ff7bec全保，NPZ未再动。科学0/旧成功0重跑；两README在f2c25c885a0dc0aabb2f91e9ee0da67486f00730同原blob。
+
+## 2026-11-16 05:49:08 UTC — WUI完整全局输入与导数图静态闭合
+
+已全读31558B proof及peer分区核：严格真flow/root商、全transport/潜在尾/N6+4/mean/J负窗/全jump/四端无省，11旧小收据逐域复用，缺全fold仅4501B原history临时恢复。新算术0；全局budget与高/finite/core门仍待，两README在d2ead352f4b9797b43692f40ccbdc82b01f0daf2不变。

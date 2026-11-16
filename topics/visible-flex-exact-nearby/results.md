@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WUI：全局真试探完整输入闭包与有限导数图](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)：区分全部原小界和新全局jet/forcing/Jost/N6+4/负窗/J/mean/jump/四端；root4501B可核原恢复，旧数学不重算。2a77f1cd，尚无新whole数值或高逆门。
+
 - **WCE / 2026-11-16** — [由真实terminal及normalizer给同物理系数误差](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)，7519a36a72fe5775de8dcacb7812f48a42e73d3b /22798B /SHA256 3d77e17b15a2dd37c7c66d969d28c50edc5dcbaa7608d6686477ac322ebc0bcf。完整同Dalg、同leading；TF after-right两I/FJ、R_S两rank/P_h、physicalmean与WT完整A2俱留。全density保Π给真实源域投影后rank候选，另保全两rank候选；四已成小receipt的17bound/3资格足付新正图，0数学重算/新数待，不授incoming/finite/背景。
 
 - **WPC / 2026-11-16** — [原正侧截断在真实输出窗的完整界](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)，92f5e51af2af959794b527c89d03f103d9e69422 /16086B /SHA256 2bc45c4c67261986bf2e94bb889d20757be8c713c31542c6a08e1da4353f8468。原两row χ′hG:H−4/3→L²dr(H−2/3 pair)，全输出C² weightedSchur+profile moment+5/2、fullstrip Cauchy和完整lag JL/JB给新cut。原positivevolume/FH/七port received一次组合；一旧PC小receipt提供全部输入，旧数学0/新数未算，未授finite/core。

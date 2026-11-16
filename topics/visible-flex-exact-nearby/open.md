@@ -70,6 +70,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WCE同完整Dalg新界](results/R133-supplement-complete-physical-coefficient-error-from-terminal-bounds.md)3d77e17b：full-density S保真Xfr的Π0；TF后两I/FJ、完整R_S两rank、P_h实际投影和physicalmean全保。SEI真ci/BesselH2/已付CI_B，WX两窗/真ψlower与WT sameJs整RN给两完整新正组合；17原bound/3资格来自四完整旧小receipt，CG不再重复，科学执行待。
 
+[WUI全局输入与有限DAG](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)2a77f1cd：旧小receipt只读，strict真flow/原root商接全w1 forcing、C64 potential与非零Bext尾、N6后全C4/physicalmean/J负窗、3070接口和四endpoint。旧FA局部jet/SJ积分不冒全局；global新jet/whole预算尚未算，缺全fold仅按4501B原stage临时恢复。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。
