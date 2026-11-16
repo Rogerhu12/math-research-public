@@ -135,7 +135,7 @@ def build_local_input(prime=29,p_maximum=1226,f_maximum=1428,
     # modulo r.  Eighty working digits leave the required 64 absolute digits
     # even for the established ell(v) expression at r=41.
     Pz=PolynomialRing(ZZ,"z")
-    local=Qq(prime**2,prec=80,names="omega_local",
+    local=Qq(ZZ(prime)**2,prec=80,names="omega_local",
              modulus=Pz.gen()**2+Pz.gen()+1,type="capped-rel")
     om=local.gen()
     k=local.residue_field()

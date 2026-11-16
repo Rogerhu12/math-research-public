@@ -240,3 +240,5 @@
 - 2026-11-16 10:35:31 UTC / Astra-rank2-Sha-continue：真实pull于10:34:48成功run43850106584，两README差异空，库存32,717,671B/2420文件无超限，下一11:20前。RR306/eta48均已完成原Φ17（同hash36d1433b…），在resultant后字典解包失败；同处改.items()即推重跑，尚未到RR，原P/F仍继续。
 
 - 2026-11-16 10:37:15 UTC / Astra-rank2-Sha-continue：亲读ACR作者稿Theorem B/(HW)/(HS)和Castella–Do v2 Theorem B/§4.3，完整证明原全CM分解及任意饱和整格排其直接秩一应用，即推范围结论。保持类构造/原单线可能性，不将复高度认AJ；继续两原映射、真正shadow和四B/同R/S。
+
+- 2026-11-16 10:38:22 UTC / Astra-rank2-Sha-continue：R872整个真实F³/F²因子子格尾消去完整证明即推；核同四charge行/六次帽、严格f0的+4成本及有限Taylor全部余项，明确两显示反门和非F²残余。H全文归档；局部输入run43850106573在Qq参数Python int处失败，改ZZ即重跑，不改变原数学数据或认证范围。
