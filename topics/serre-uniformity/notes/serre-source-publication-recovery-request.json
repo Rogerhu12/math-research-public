@@ -2,41 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-global-polar693-same-core-continuation",
-  "commit_message": "serre: continue original polar generators from actual 693-digit checkpoint",
-  "rules_last_read_commit": "dd653369a92a2d199af548f798dc80d442a5e183",
+  "request_id": "20261116-original-five-complete-low-weight-RR-certified",
+  "commit_message": "serre: certify five complete low-weight RR spaces and original marked principals",
+  "rules_last_read_commit": "4e7249810f4b71922daf3cc88557cb30c21cd5e1",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "6c67e8614302b40359cd8135ccef0e07572f852601e71c28e7e8aa2ce99562eb",
+  "expected_previous_request_sha256": "429f76db0b70d77dcc2228157096cd903bf1d731608cd2475592826b5cac12c5",
   "files": [
     {
-      "path": "topics/serre-uniformity/notes/R824-original-global-polar-693-checkpoint-and-same-core-continuation.md",
-      "sha256": "748574311b69255ffdcb99673c7ba8eb25dc249d93af124634326813dd257aba",
+      "path": "topics/serre-uniformity/results/R896-certified-original-five-low-weight-RR-and-marked-principals.md",
+      "sha256": "d306483cfd943ec02428f580c267260df5f3e7b612a2c5a2d5903327045ef277",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json",
-      "sha256": "073d09631297bb05ef1d4f4593a4fca2ee10f75b8786ce3cc72e07ff7e59d566",
-      "expected_previous_sha256": "ba760988505debb9d508afb7def48e3de220cc6585724c0aa5e694a4abcf40b1"
+      "path": "topics/serre-uniformity/HANDOFF.md",
+      "sha256": "fd5aa0da06d1c8f5d700f039475eba0ae603a2b03a7be82f013045c74f076bc2",
+      "expected_previous_sha256": "1a5888506feaf46c4a61d9866506ad39602548c392d4256a4927db1ad21a20ee"
     },
     {
-      "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "0bda5ffaf758f84ffde3b266195214213f1c223caec9290aebdb95f5a7acf593",
-      "expected_previous_sha256": "7372a90c1e6dd370947d18ab4191c8d8b8bc9434a6e207965ed3856c5ea5cd4a"
+      "path": "topics/serre-uniformity/open.md",
+      "sha256": "5decbd8d7debdc6d5589ae761f1f5c962f6557b43fbea12a50cc9549cb1ed7e8",
+      "expected_previous_sha256": "f56303877752b0ca98ac57f3bb1e0c71aabf8430b1cd11ddbe6c95c7b3c88903"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "69c0944fc531a231c4c3f9ea4fcfb736e6bfe2a53526aa3ca25e1f383310b456",
-      "expected_previous_sha256": "ccc03193d6534688ae088e30bb530185e09882375bcf3efbca032c5a9ef96c5d"
-    }
-  ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-p41-original-global-polar-generators.yml",
-      "request_path": "topics/serre-uniformity/notes/R824-public-original-global-polar-generators-request.json",
-      "request_sha256": "073d09631297bb05ef1d4f4593a4fca2ee10f75b8786ce3cc72e07ff7e59d566"
+      "sha256": "c152543fda6c00b6febbf3e21d91b9e772f3dfa65816342d9bad83e1919abd9b",
+      "expected_previous_sha256": "e6406e785488019135e041d9da4416f4d543a318a31a26abaa539ced74fea395"
     }
   ]
 }

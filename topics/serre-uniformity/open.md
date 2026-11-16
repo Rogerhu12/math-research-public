@@ -139,3 +139,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **R904六通道Wronskian已证**：[完整证明](results/R904-original-six-channel-Wronskians-and-torsion-vanishing-sequences.md)。原Q^r六列(r≥5)在K^p独立，真实ordinary Wr非零；36六挠点共同权w_r≤p，r5整除子=pE[6]。r≥6原最高独立六系数行给准确消失序列及w_r≡5 mod6，原两维weight0不丢。尚无跨互补r的足够约束，原same-h primitive/Legendre可见第五jet和统一高度仍OPEN；不得以Wr非零替指定系数非零。
+
+
+**R896五低权完整空间实际已成**：[认证](results/R896-certified-original-five-low-weight-RR-and-marked-principals.md)，run43872960726/566stage/324.523172599s，五残余/146/418与原Q的ρ/t首项全完成。必要271原件闭包已供R902/R901；原选图、整数锚与尺度逐项固定。只消费此先成来源，旧排队请求迟后重复运行已如实记，不二次计结论。六σ、126聚合、128/144、连接/period/height仍待真实后继。
