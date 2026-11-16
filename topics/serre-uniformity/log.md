@@ -325,3 +325,8 @@
 - R908原有限平坦比较独立登记：保a_h的原q经完整BT归一化，实际kernel闭包商带原δ的Fp²作用；Raynaud两尺度及σ点态平凡给r偶。
 - 真Cartier对偶Lie单射与两种原惯性核给r∈{0,p−1,ρ_h}；good-model原微分content在r0恰ea_h，其他≥ea_h+pr。未换optimal/未去原指数，不冒指定盘normal或height；原文全文核读，H前态归档。
 - 本push规则：公开Actions真实pull至dafd0969d1b07a3750ebcf87fd16f55b2ab3323b（2026-11-16T14:29:41.762723+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:32 Asia/Taipei — serre-public-astra-20261115
+- R910真实normalizer惯性独立登记：完整u作用导出q=−1的hyperelliptic dual-Lie负号，排原r=p−1；Igusa原普通datum经w1/−I给更强μ_(2(p+1))点态核。
+- 因而原primitive标签下半部r=0，上半部仅0或2h−p−1；非零支两Lie线分别落Drinfeld/Igusa。保原Tate指数，不将good-model primitive变成指定盘首项或height；EP原式已核，H前态归档。
+- 本push规则：公开Actions真实pull至e4d2a0e1fcfc1abd422cfb1051baaa2d45b4877c（2026-11-16T14:32:57.649794+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

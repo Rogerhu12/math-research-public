@@ -2,39 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-finite-flat-CM-quotient-and-two-gluing-scales",
-  "commit_message": "serre: classify the original finite-flat CM quotient gluing scales",
-  "rules_last_read_commit": "2a43e90a791bb87e2ecea83efe7cc7c1b0786b76",
+  "request_id": "20261116-original-normalizer-inertia-and-one-sided-CM-gluing",
+  "commit_message": "serre: restrict original CM gluing by the complete normalizer inertia action",
+  "rules_last_read_commit": "dafd0969d1b07a3750ebcf87fd16f55b2ab3323b",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "fd882e48c2ef59237cfad0d434ad685912abb2cae05d265ccc9efe1e87eaa2e5",
+  "expected_previous_request_sha256": "78f390842a855a479fa167d889a5bfb55477bf22b58898816e0d6ad6b507129e",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R908-original-finite-flat-CM-quotient-and-two-gluing-scales.md",
-      "sha256": "e1ae329aa9d718a5e352472da8cc779bbb403023bc940303f212ee465d879889",
+      "path": "topics/serre-uniformity/results/R910-original-normalizer-inertia-and-one-sided-CM-gluing.md",
+      "sha256": "d5f43a20d30cf2efa4e926117000bffbebc7394bf7f5aa423c4f84aba879f4d1",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-finite-flat-CM-gluing.md",
-      "sha256": "0e87b8518b5ad7f866940c2feb7a4f94c817fd79161656399fa41aad75f4819b",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-normalizer-CM-gluing.md",
+      "sha256": "40cf604b409dd2b5e296a62decc46a6b4db77d3dd225ed85b37320468e10ffeb",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "72322ea4a6188ed560d86c595d850b97140cd32e16f156f752353d733f0ca329",
-      "expected_previous_sha256": "0e87b8518b5ad7f866940c2feb7a4f94c817fd79161656399fa41aad75f4819b"
+      "sha256": "16477ec503d5c1cc82316287da58a70666c3870916b4b5e46997cc5a99afe9aa",
+      "expected_previous_sha256": "40cf604b409dd2b5e296a62decc46a6b4db77d3dd225ed85b37320468e10ffeb"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "2491619cf5dcbf400031805e996dd930934fbc2edef4534693d5c884b7867494",
-      "expected_previous_sha256": "561082c451f3443dcb33bff9ddadc752db0cc38aa7c2afec3a171e5399f20e6b"
+      "sha256": "ff55d6cb31ab412ac10aeb46f2ca7232a3e6a9984e4f4355db3d7f76af303e2a",
+      "expected_previous_sha256": "2491619cf5dcbf400031805e996dd930934fbc2edef4534693d5c884b7867494"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "34415cf8b7df10430f80f6f67432eecde06f8a4a6aeff9dd4aabbdc77e61289a",
-      "expected_previous_sha256": "e202d6b02afba392452bfed92a11052d33cee014a0955dfd9d15587266facf19"
+      "sha256": "4b0bdf611de5499a9cc6f74bbe672b3480c4fcd21c9ebb205d745c20eb812ada",
+      "expected_previous_sha256": "a43f7e98a5da2ee618682eeecc2490c57620eabcf714a41e627d7f05a310ae7a"
     }
   ],
   "dispatch_workflows": []
