@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 07:45:00 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 07:45:52 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 07:16定时及06:35/06:50非FF真CLI尝试均无executor（未执行Git），下一本地尝试≤08:16。最新CI真pull为43820816332/1于11-16 07:01:48.999504→9cac01b9975554e98ccea36240d10e5ee41c537f，两次pull均两README空diff；execf8ffc01b全件已核。下一真pull≤08:01:48；ref读取不冒真pull。
-最近只读README核：83bac7b877a226deeddff8dd56ab262328152267；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：6c3c3eadc4dd46dcfa183c73847f25a55035213f；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -49,3 +49,5 @@ s10派生633521B报告：白名单6c4ecc4a先推6d782189，freshguard仅删8d066
 继续open余项→完整物理square/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。
 
 linear-s3派生505865B报告：白名单a191e135先推83bac7b8，freshguard后仅删e81bf7dd原path；restore a8be95d8afbc9dad24e5ea509335dc03b85918db同path。五浮点tube全fail原结论/行历史、canonical/native/source全保，dense成功不挪用。
+
+07:45已仅改本课题rules-only workflow注释触发真pull，沿用已审ab5bc2dd运维；0科学。待回执才更新CI真pull时间，ref核不作pull。07:20非FF真CLI也因无executor未执行Git。
