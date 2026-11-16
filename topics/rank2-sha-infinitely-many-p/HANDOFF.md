@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：fbe97a2b06786d3efbd508ea8c7c69f122269436；2026-11-16 06:49:55 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 06:48:45 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
+- 最近已读规则提交：29971f033bd105d19703c262bbff6df41414188f；2026-11-16 06:52:28 UTC核两README无变。实际CI pull 2026-11-16 06:49:15 UTC/3566b9e7e2bfdf3e0bcb92d3bc57cd1bf716c42d（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 06:52:26 UTC仍无环境。最迟2026-11-16 07:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -14,7 +14,7 @@
 ## 完整检查点与分工
 
 [本次压缩前完整H](notes/2026-11-16-frontier-before-original-quotient-shadow.md)和[完整open](notes/2026-11-16-open-before-common-odd-source.md)沿链逐字保旧公式、来源、条件及未闭门；仅重整活动入口，不撤销旧问题。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。
-R1–363、365–560、562–653、655–711、713–859已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+R1–363、365–560、562–653、655–711、713–860已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算实际R828指定页/原零角左行；theta算共同C24实际M_pc*及原cross/Cartier可能；literature算Zorig商模型上的实际Hom/交点。子问题完即续open，不等回复。
 
 ## 四原B与共同C24实际核
@@ -24,6 +24,8 @@ root唯一metadata/ref写者；deep算实际R828指定页/原零角左行；thet
 [固定水平格](notes/2026-11-16-algebraic-horizontal-theta-frame-and-original-divided-rows.md)保odd、同CM冻结四f和全部jet，P恰三零/D³90/m³。
 [半Bol/留数](notes/2026-11-16-original-half-bol-and-cm-divided-residue.md)保原GM常数1、δp=H2pδ、两ε、a_H=a−pR/H及整V_N；Bν=2mεν[N!C^(N+1)Res(fνω/H^(N+1))/p−V_Nfν(P)]，整性用R856。真Hurwitz另保−∂v^p，相消未排。
 [共同C24矩阵](notes/2026-11-16-original-common-odd-degree24-and-three-row-pairing.md)：C24=−σ24x²yQ2/7，Aν=C24Jν保四whole伙伴。Ej=−b^jσ24x^(8−3j)y，c*=(1,−4/7,16/7)；四B0 iff BS0且M_pc*0。M行−(−1)^sb^(s−1)(d_s,−d_(s−1),d_(s−2))来自R=(1−t)^−1/2/Hcal²核，c*准确作用h7/7。U二挠按同tensor/C^-1ΠC全极运输；不冒M满秩、三条分别0或同函数三点评价。
+[R860](results/R860-original-common-odd-cross-and-balanced-partners.md)：原Witt交叉项完整热相容的R_p项相消；Dscr整性只限whole。第一次balanced伙伴在二挠的行(1,−1,1)读c*=27/7，并有完整Ξν及σ(2z)²Lνj/4分解；Lν*首5(n−12)/(12M)z²。全部真实伙伴须保，非零边界不添新中央零。
+
 [同奇源/倍点](notes/2026-11-16-original-sv-common-odd-source-and-su-horizontal-cancellation.md)保S/V同O30−χ60P(X0或729X0)、X0=(2/15)³；U−S2/64六零/1890bz12及B差BU−BS/16。整体[3]保W3=1+7072bz6+…、degree−240，B(S3/729)=BS/81不冒V。共同A24乘法四标签/相对K/两混合除p端点及同角色germ全成本沿前检。
 
 ## 原Z、泛纤维与实际有限域点

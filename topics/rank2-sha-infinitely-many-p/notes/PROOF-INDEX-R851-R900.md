@@ -96,3 +96,6 @@
 
 
 - [R859附B：原九阶商的完整Frobenius交积](../results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：图面稳定子恰阶3，其商完整正规化P¹×E；原a_i=(Y_i+1)/2、T=X1X2X3/4给a2=a1^r及Xsh=4T/[4a1(a1−1)]^((r+1)/3)。有限商q#保generic inertia，K=(1/3)Alb pr3*(Γφ·q#Y)只倒置3，保全部torsion/边界/交重。K(q_*ΠZ)=3S；原R-equivariant source下降X0(10404)→X0(3468)的3恰相消，S(ΠΦX)=K(barΦ barX)=Alb H_*(G−φF)^*O。Schoen逆与实际Hom Laurent germ/第三q4倍率全保；实际Hom坐标及非零点仍缺。
+
+
+- [R860](../results/R860-original-common-odd-cross-and-balanced-partners.md)：原Dscr_m=(D_z^p−HD_z−mCz)/p仅在whole格整；完整热commutator与Witt交叉乘法给三差M的真实横向项，R_p项严格相消。原K(Ej,Jν)全多项式在二挠读kν(−1)^jΞν，边界行(1,−1,1)c*=27/7非零；余项准确σ(2z)²Lνj/4，L为固定whole degreeM−8/type2，原组合首5(n−12)/(12M)z²。保全部Ξ/L及其高jet，不把边界或R_p单位当原四B forcing。
