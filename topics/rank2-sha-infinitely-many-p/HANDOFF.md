@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：057e827bc784a54640eb3b6a1c0c0e2a499af844；2026-11-16 02:08:17 UTC核两README无变。实际CI pull 2026-11-16 01:44:26 UTC/52815b1409d1bbae424e7d7948bc27029ce4086a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:16 UTC仍无环境。最迟2026-11-16 02:25 UTC再实际pull。
+- 最近已读规则提交：5e5e83f9dbc0aa8891792444ba7ea36f7b87413b；2026-11-16 02:08:56 UTC核两README无变。实际CI pull 2026-11-16 01:44:26 UTC/52815b1409d1bbae424e7d7948bc27029ce4086a（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:08:54 UTC仍无环境。最迟2026-11-16 02:25 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -41,6 +41,8 @@ R813/822原ResP=γ/6单位及完整γ/6+G_F+B_F=0，GRes读W_sFt²E²R/Y²。R83
 [完整边界](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)保b0=−BF+同G的P补偿及D_R/Ξ代表差；十九角真Ft/Ftt、无穷权、所有ramification/conductor不省。t=1整纤维仅在3s>(3b+degYq+1)ord_1F_b，原充分门9s>(D+1)(M_D−r−deg_tQ)未免费满足；h7仅有限Y消去，保Y∞四步链。§11移动Y∞真trace/Newton保2Uτ/U与原J modP²；精度modx^J、J=N*+3+2ordRes(P,Px)，跨p全部W Frobenius项保。
 [负水平全trace](notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)：原D_Q=(t−tQ)⊂Z、长ℓ≤b，D3=Dx；残数由原D_Q值和S=Tr(1/T_i′)读，二次闭式/所有奇点全付。总D_-≤2b及H3满射已付；V_T需额外T+degD_-<2κ+χ，W_T像未知。[光滑行](notes/2026-11-16-r842-negative-horizontal-finite-euler-rows.md)保完整jet、双切点消去与节点区别，不能用局部非零替总[b0]。
 [移动水平全分歧转置](notes/2026-11-16-r842-moving-horizontal-full-ramification-adjoint.md)：仅未吹起moving点且ftunit，e_U=εx^m v、g=ftv。d∨ν=e_U g[w+ε(m−1)−εDx](ν/g)，负侧rank m−1/核读约化值，正侧2b+1..3b全unit。补零仍同ω0/ω1；不覆盖固定角/奇点，也不付全Q'_T或W_T限制像。当前优先同ν全局左关系/真正兼容核，不再以新增局部行充当forcing。
+
+[负水平Jacobian商](notes/2026-11-16-r842-negative-fiber-jacobian-quotient.md)已付：原u=min(ℓ,ordFt)、v=min(ℓ,ordqtilde)，真实A_Q/ann(Ft qtilde)长max(0,ℓ−u−v)，最高行系数−c_s tQ^rWQ s0(ℓ−u)²q_v单位。故完整纤维行零iff Ft qtilde|D_Q=0；degH2的double-root长≤b−1。H3全源满射不外推W_T；续同一个全局类。
 
 ## 其余未闭门
 

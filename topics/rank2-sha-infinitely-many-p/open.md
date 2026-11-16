@@ -157,3 +157,7 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 
 [R849](results/R849-original-complete-cm-pool-and-genus-seven-kernels.md)：完整几何E0池恰为θ(η^kψ0)、k=0..17，全部primitive levels/old copies保留；原R=ω²块准确ε⊕1^6，sign仅level36的17-old、六trivial为level2601的2-old，无standard。以真实核的单一CM type强制这一限制，属七六候选四种排除，仅余(0,5,2;9,0)的JD∼E0³×T²、T signature(1,1)且非E0²，以及(2,3,2;3,0)的JD∼E0⁵×E²、E非E0。后者D/c为属三étale商、D/S3为j0椭圆，严格区分D/R/S3；两种只为必要结构，不声称存在、canonical或原AJ非零。
 **继续：** 从同一个原模曲线和有限Hom组合追踪实际最高cycle；非E0幂核及两个不同的商不得删去。优先把R848目标的中央三阶商光滑化，并支付到模椭圆曲面纤维积的真实对应，保原17角色和R814指定类。
+
+
+[R842 负水平的准确Jacobian纤维商](notes/2026-11-16-r842-negative-fiber-jacobian-quotient.md)：原A_Q=k_Q[x]/x^ℓ中，u=min(ℓ,ord F_t)、v=min(ℓ,ord qtilde)给实际商A_Q/ann(F_t qtilde)长d_Q=max(0,ℓ−u−v)。全部分支trace准确ord S=u+1−ℓ（u<ℓ），否则S∈x；真行最高系数−c_s tQ^rWQ s0(ℓ−u)²q_v为单位，行恒零当且仅当原乘积F_t qtilde在A_Q为零。degH2时qtilde单位，二重根长度≤b−1；未加前缀H3到全商满射保全部剩余域迹，但W_T实际像和总[b0]仍开。
+下一步仍在同G/同高前缀上支付这些商的实际像及全部其它边界，局部非零不代指定总类。
