@@ -377,3 +377,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R842 同一兼容对的准确原点尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)：全部W′/Ftt项在真函数域相消，D_R=c_s t^(2r+1−s)(1−t)^3s K_F(qV1+Eq V0)dt，K_F=2Ft EFt/e²−Ft²f2/e³。原T_M=s−r−13下Vi=t^T vi，P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eq v0)，1≤r≤11；r≥12零。仅原短系数j≤10<p使用3s≡1/2，未替全局W；r2准确读每vi十个真实余尾，未新增物理消失条件。W_T上[b0]=−B_D−P_r且原ω1项零，mask保P行；相对长J窗口才有P零，不移给原M或更小三长核。
+
+
+[R842 Euler原函数的原提升缺陷](notes/2026-11-16-r842-euler-primitive-lift-defect-and-zero-charge-repair.md)：对原L∈H1^{>0}，I_L=E_+^-1(F²L)能以真实H3^0修成零曲线值，当且仅当L=ce；唯一修正cF0³/3、来源cF³/3。完整原限制序列逐付K=FM及M=cF，缺陷商H1^{>0}/ke真注入、秩(κ+χ)/2−z_−−1。I_e|C=−F0³/3在P的阶3ord0F0≤6，准确排大前缀保持；未将全格秩外推W_T，也未判断原[b0]。

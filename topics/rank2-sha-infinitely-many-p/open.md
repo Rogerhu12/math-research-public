@@ -181,3 +181,6 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 
 [R842 同一兼容对的准确原点尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)：全部W′/Ftt项在真函数域相消，D_R=c_s t^(2r+1−s)(1−t)^3s K_F(qV1+Eq V0)dt，K_F=2Ft EFt/e²−Ft²f2/e³。原T_M=s−r−13下Vi=t^T vi，P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eq v0)，1≤r≤11；r≥12零。仅原短系数j≤10<p使用3s≡1/2，未替全局W；r2准确读每vi十个真实余尾，未新增物理消失条件。W_T上[b0]=−B_D−P_r且原ω1项零，mask保P行；相对长J窗口才有P零，不移给原M或更小三长核。
 **继续：** 同一vi的P短行须与全正/负/固定/∞边界及实际高前缀兼容核联合；不把这些截止之后的尾赋零。
+
+
+[R842 Euler原函数提升缺陷](notes/2026-11-16-r842-euler-primitive-lift-defect-and-zero-charge-repair.md)已完整分类：E_+^-1(F²L)只有L∈ke可由真实H3^0修回零曲线值；其余缺陷商确有秩(κ+χ)/2−z_−−1。原F0给I_e的P阶≤6，逐charge积分不保高前缀或下降原两值商。接着在同一个G、同一零charge修正下支付第三长行/真实V2及W_T全边界，不能用此全格结论替代原受限像。
