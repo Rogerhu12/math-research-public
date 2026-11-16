@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WVC新完整有限候选已证**：[连续修复中心试探与有符号tracefree参考](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6。完整variable source残差无需径向导数；p≥1/16、两向衰减与正Padé枢轴、全action/transpose/两moment及lift6/5齐。actual A/B/C/R与tailκ3不变；拟56新+2条件槽未算，旧false仍独立。
+
 - **W4M完整四步均值接收**：[证明](results/R133-supplement-complete-four-step-mean-source-and-physical-Hilbert-Schmidt-reception.md)73497dba。读取已存第三逆层给全N4末项；n^-17/6对所有高输入列的HS求和可控，明确两patch/两mean/3070/四端/两完整operator，31槽=30新+1原copy，尚未计算。
 
 - **WRPA40完整实际相对pullback**：[证明及全部40新/44原记录](results/R133-supplement-actual-relative-phase-pullbacks-and-complete-receiver.md)b6c22c38，43881690924/1全3图/14门。严格Bc约8.421e235、Bt约9.109e225；whole/reduced各选new，均值仍主导，无smallness或finite逆，old0/lost0。

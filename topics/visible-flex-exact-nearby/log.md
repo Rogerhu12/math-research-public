@@ -45,3 +45,11 @@ WPS36、WRP9完整冻结manifest与WSMF完整proof当前输入说明，均无26�
 ## 2026-11-16：W4M 零度末项严格复用原记录
 
 2026-11-16 14:20:03 UTC；README核7ac3c637ec9fb7d151e7b0f7f2ee314dd137533c未变。完整proof更新为8114ed738385635e004c93d64e2f3160378a04ee/24710B/SHA73497dbad99b42fa2edc47d7284746d48b5a65546b3264bf08be8e0dca1b1b71。相对已成1fd6aacd只修改防重计数与说明；全部display公式原字保留。degree-zero terminal T0精确等于WMTA已存v3[1][0]，potential项为零且1!因子为一，必须原record直接复制，连upper+0也不执行。完整首图9槽为8新+1copy，总31槽为30新+1copy。全部HS、物理mean、域/单位、两patch、四端/3070和当前WMTA+WRPA完整provider不变。尚未执行新科学；controller/models同步这一精确边界。
+
+## 2026-11-16：WVC 连续修复中心试探与正参考枢轴已证
+
+2026-11-16 14:23:14 UTC；README核71bdd520ca5427e2b619020d94560f6534f5fcfc未变。完整proof e377cb2e0578fc66ba8a7bc32e339fadcb0a242c/29128B/SHAfade78e696506af0ef2c1e304e824ff7415c63df53b31f0ed299d8ff548845a8，14节44式。根整读：variable B_HLc放入G0源，L0G0=I给完整四项残差，χ²−1 exact signed合并，不微分B、不减upper。旧原Z²producer确为max min(x²/12,x/2)，原球<1/3故xold<2；新增有理a clip∈[−c/32,c/16]在同q≥1/8给p≥1/16、两方向rate≥c/32。scalar rho2和det1传递使两离散pivot正、τ≤1，完整H/K invariant及signed局部块先合并再绝对值。两orthogonal source moments、实际S/√h/outer/root/独立mean全保。
+
+新x²<5给完整lift<6/5；新reference inverse/ρ-defect/odd-endpoint/outercorrection必须分别完整新算。只复用同ΔBHL S^-1、原collarAc、同physicalmeanreceiver及全部原15对象；旧familykernel依赖旧source不能转名。actual A/B/C/R、projections、高空间及已成tailκ3不变，故新e+3dt<1仍是同一完整finite门。56新和条件gap/inverse2为待机械封源码的合同，未执行新科学，也未由旧false推出奇异。WPS60原完整false保持冻结。
+
+open的WQS/WPSA及WDGA/WBFA/WJRA长段以完整proof及immutable4ef462296a239c5abf90ea3239f210cfc23be002同open索引保原全部scope，不减mean/端/费用/失败记录。

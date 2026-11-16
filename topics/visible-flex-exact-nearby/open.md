@@ -180,17 +180,15 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WSMF严格mean](results/R133-supplement-per-index-strict-flux-and-complete-physical-mean-bound.md)5845b880已证完整52正递推：total7/r2、κ0copy、18全flux/8terminal、两mean/四端/3070jump、whole/reduced各选全保。52尚未算；WML局部247仍独立待算。
 
-[WDGA](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de/43865837250全80冻结；ordinaryω1..14接WSJ只除一次阶乘，old0/lost0。全cut/dr/资格、源与原限制保proof及12345cce183d8b1a3bcf066ffe16c6399f1ea2f2同open，未授relative15/root盘/finite逆。
+[WDGA80](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de/43865837250、[WBFA83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355与[JRA56](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f/43873739440全冻结。所有原球/对象/单位/域/cut/dr/一次阶乘/mean/祖先scope/失败和未付门保各proof及4ef462296a239c5abf90ea3239f210cfc23be002同open；old0/lost0，非relative15/root盘/finite/matching。
 
-[WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。WPS首次完整比较false，真实finite逆仍待。
-
-[WBFA实际sharp流83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355全成，SCI df5ea6ff/87621ade。Rω14约1.496e94仍非smallness；WSM接同域新包，F1/P1/K1及WDG80只读，全独立义务保。
+[WQS完整双向试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372的全部域/mean/两state/7port/ε和WPS false保原proof及4ef462296a239c5abf90ea3239f210cfc23be002同open，旧目标冻结。
 
 [WSMA实际完整混合界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)：43877268949/1全22门/152新39copy冻结，index7caabc2c/3cb8fa2a。whole/reduced约1.90736e323独选new，mean e319主导；WCPR完整cut/profile及mean/四端/3070jump全保。继续新mean与WRP40，finite/matching仍待。
 
-[WPSA完整实际](results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md)470d2547/43878765372全6图60新/22门；e+3dt约635240.55，充分门false/finite0，不推出奇异。全mean/7port/两rhs/96mode/full96误差/旧对象保proof及SCI17a70a8a。old0/lost0，禁重算。
+[WPSA实际](results/R133-supplement-actual-complete-paired-finite-residual-and-false-gate.md)470d2547/43878765372：6图60新/22门成，e+3dt约635240.55充分门false/finite0，不推出奇异；全mean/7port/两rhs/full96/原对象保proof与SCI17a70a8a。old0/lost0，禁重算。
 
-[WJRA实际相对界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f：43873739440/1全15门56新成，SCI80499e42/69002/806fbeaa；43原/7scope，old0/lost0。真实正J先除与cut真lower，relativeω14约2.078e91；只读接WSM，仍无finite/matching/非线性完成。
+[WVC新同算子候选](results/R133-supplement-continuous-repaired-centre-trials-and-clipped-tracefree-reference.md)fade78e6：连续repaired-centre trial完整残差无需源径向导；tracefree clip给两向非扩张、正Padé枢轴与6/5 lift。actual A/B/C/R及κ3不变，变更reference各norm/defect全新算；拟56新+2条件槽未执行，有限门仍待。
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
 
