@@ -1,0 +1,460 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "original127-root63-global-source-bockstein180",
+  "executionSourceCommit": "3684937abcbceaebeb10afd8e156c707b337d30a",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original127-root63-source-bockstein-789f.py",
+  "scriptSHA256": "3ee3b83dbac5fa3f96aea04cfc01a7c86cf2423fd027f050bc46f3a97406253f",
+  "argvTemplate": [
+    "--model-out",
+    "{work}/original127-model-all6188",
+    "--normal-forms-out",
+    "{work}/original127-normal-forms-all6188",
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--primitive",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-root63-source-bockstein",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "1024",
+    "--compile-seconds",
+    "30"
+  ],
+  "timeoutSeconds": 240,
+  "exitCode": 0,
+  "wallSeconds": 7.278374221000377,
+  "fullTemporaryReceiptBytes": 12445,
+  "fullTemporaryReceiptSHA256": "2a7dd4da8014b5f0e5d29e5566b90ebe667c82243f435755ef65cdf317eed4a8",
+  "result": {
+    "binding": "c62fcba93dcc4b9c8f05913026cc39fbf280837827d0b8d75716fc45a3bc12ae",
+    "elapsedSeconds": 7.212422284999775,
+    "format": "r150-original127-root63-global-source-bockstein-v1",
+    "outcome": "positive-first-coefficient127-torsion-with-complete-original-source-product",
+    "status": "completed",
+    "parameters": {
+      "affineDegreeUpper298FollowsWithSeparatelyPaidWhole299AndJ127Zero": true,
+      "aiAssisted": "GPT-6 Astra Pro",
+      "allLargeArraysTemporaryOnly": true,
+      "allOriginalPolynomialSourceCoordinatesExpanded": false,
+      "author": "Astra-ISP-789f / normal_annihilator",
+      "binary": {
+        "bytes": 171976,
+        "file": "original127-root63-source-bockstein-native",
+        "sha256": "c7117c1d684d9af8395fafa9c3d4a41ea0513cf32e99684082eb0372fb716839",
+        "temporaryOnly": true
+      },
+      "characteristicZeroTargetMembershipInferred": false,
+      "coefficient127TorsionLowerBound": 1,
+      "coefficientModulus": 16129,
+      "compileReused": false,
+      "compileSeconds": 2.828848310000467,
+      "compiler": "g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "completedTemporaryPhases": {
+        "complete-global-source-scalar-scan": {
+          "bytes": 676,
+          "file": "complete-global-source-scalar-scan.json.gz",
+          "payloadSHA256": "44afc59c56b22e234e3a8f145ded7dbe3ce6c6edb4ce3af8faa4264a1033f7a2",
+          "sha256": "6a0c7569b4db45ce709804fbe3232eb0060f6e73902862f91c0a57a702ef6b70",
+          "temporaryOnly": true
+        },
+        "complete-point-functional": {
+          "bytes": 6710,
+          "file": "complete-point-functional.json.gz",
+          "payloadSHA256": "67355dfae2a7a5eeb9ffdb0d57ea31d46767469f5fa61905f3bc637623bff482",
+          "sha256": "60f9890d23009dedff9e834ee1e012ebc80bcc899e131f1ae19aa66945bb6e48",
+          "temporaryOnly": true
+        },
+        "evaluated-original-basis": {
+          "bytes": 458,
+          "file": "evaluated-original-basis.json.gz",
+          "payloadSHA256": "abbeed6fde046aaf8ea5ecafb83f51e789ac9bf1ab22bc264a9146ab3affe0fc",
+          "sha256": "aed64c878ecb3f5230c590a7b8b11640789927e670ca8722bdd368854ee68ed9",
+          "temporaryOnly": true
+        },
+        "full-original-positive-certificate": {
+          "bytes": 701,
+          "file": "full-original-positive-certificate.json.gz",
+          "payloadSHA256": "71167570e7b434d44a6af0c710a11889c856a94b608b5fe55b3213fe62599531",
+          "sha256": "ddcba1959c9b47abd4553126d9e49d5f494a4a73e41ace11eaef1d5e29924493",
+          "temporaryOnly": true
+        },
+        "original-functional-transport": {
+          "bytes": 482,
+          "file": "original-functional-transport.json.gz",
+          "payloadSHA256": "c5b43ac759218af9b26158ce2184a7bca96cfa0e3990e8b863dcb22eb13935b0",
+          "sha256": "f3317e62c131b5c161d4b2e7a3d46edb5974ec22386681fb2a01fc1bbacbdee6",
+          "temporaryOnly": true
+        },
+        "original-integer-scalar-leaves": {
+          "bytes": 493,
+          "file": "original-integer-scalar-leaves.json.gz",
+          "payloadSHA256": "894d7d396c96522ea1b32651c3af003d6865af221bf7bb8f37e0dc2bef450cb8",
+          "sha256": "36c8e59949edda8441bd50cd398f12234401f0f31ac9a3a2048ab60a1d1ee11d",
+          "temporaryOnly": true
+        },
+        "positive-source-reverse": {
+          "bytes": 591,
+          "file": "positive-source-reverse.json.gz",
+          "payloadSHA256": "7a9a171e06996cb7dfcafcdc031cd19f371cdd4cffddd02443447fab793756eb",
+          "sha256": "71f6dae87b91287dbd3a40978c9f3b1b243bc50d4070f2dc1a6114b323f6f693",
+          "temporaryOnly": true
+        }
+      },
+      "globalSourceReproducibleFromPaidDAGAndZeroNode": true,
+      "gradedBasisRecomputed": false,
+      "identity": {
+        "algorithm": "complete-global-zero-source-scalar-carry-with-positive-original-reverse-product",
+        "coefficientModulus": 16129,
+        "gbBinding": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+        "nativeSHA256": "6a932e17fbeb7c81f335281c88bd1dfe0003a09371d454ea23f1861c86823bfc",
+        "nfBinding": "36cdc5a084df381a91838d58a8a9f8adbc255bae39e267f2956fb1170ec0a994",
+        "originalInputs": {
+          "gb": {
+            "gb-basis.bin": [
+              43787388,
+              "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d"
+            ],
+            "gb-operations.bin": [
+              763659470,
+              "7c60b9c0466e8cf13bd1b95018beb9b5357cd7d3e2e41e8e6d3655bb05051ba8"
+            ],
+            "original127-graded-module-pipeline-receipt.json": [
+              5289,
+              "3442ad58f08ff1b7b7b4865bfc7715f43e747f40b65e702e1d4b191142ad17f2"
+            ]
+          },
+          "model": {
+            "original127-normal-form-input.txt": [
+              140346,
+              "f29e09f075efc20cf9dbc0b78ddffc58c35d46fe26212515397938ba78e853a3"
+            ]
+          },
+          "nf": {
+            "nf-backward.bin": [
+              3145942,
+              "6186dab0ec8618ee8eee9d10d92a1c72fe6fb313d49fe64405ed35ab4fbf40cc"
+            ],
+            "nf-component-dictionary.bin": [
+              8348,
+              "bfafcf821687bf6b3a0c2517606314ec5e4c30a4dfec1140e7f041c5ba01f312"
+            ],
+            "nf-forward.bin": [
+              2434477,
+              "0fe0d5dfde6606ca61907ed043426cd748f6fc11d84df8b3409280d69566f0e0"
+            ],
+            "nf-prebasis.bin": [
+              34229300,
+              "c08fb8308bd96fb926e7ae3176e627766b7c6930a2af92afafff318be812f926"
+            ],
+            "nf-reduction.bin": [
+              118454308,
+              "5ac3317c3c5af868dff913448fa4d41dca04756fdf942f67908c4d873505d6f1"
+            ],
+            "original127-normal-form-pipeline-receipt.json": [
+              4468,
+              "e77db837596bfbd988a4dc58dbb631b7ea46cdbeca331be241b82b3ba9b48cfe"
+            ]
+          },
+          "whole": {
+            "original127-whole-torsion-pipeline-receipt.json": [
+              9819,
+              "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+            ],
+            "torsion-whole-state.bin": [
+              1414575,
+              "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+            ],
+            "whole-torsion-characteristic.json": [
+              2560,
+              "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+            ]
+          }
+        },
+        "point": 63,
+        "prime": 127,
+        "primitiveDecoded": [
+          158741,
+          "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+        ],
+        "wholeBinding": "05c13d9a57fee12f0751d40feccbfb601686b3d02f497d0e8a99092c44db4211",
+        "wrapperSHA256": "3ee3b83dbac5fa3f96aea04cfc01a7c86cf2423fd027f050bc46f3a97406253f"
+      },
+      "manifest": {
+        "bytes": 4149,
+        "file": "bockstein-manifest.json",
+        "sha256": "6cfdd426b66993e43365b56d655e22414a0b48a66dc764621b68a30490225c7a",
+        "temporaryOnly": true
+      },
+      "memoryMiB": 1024,
+      "nativeStatistics": {
+        "evaluate": {
+          "allFinalSourceNodesRetained": true,
+          "binding": "c62fcba93dcc4b9c8f05913026cc39fbf280837827d0b8d75716fc45a3bc12ae",
+          "columns": 1034,
+          "elapsedSeconds": 0.25576,
+          "evaluatedAllOriginalPolynomialEntries": 48562844,
+          "format": "r150-original127-global-source-bockstein-native-v1",
+          "phase": "evaluate-original-polynomial-basis",
+          "rows": 1021,
+          "status": "completed"
+        },
+        "replay": {
+          "GBReductions": 69407428,
+          "GBSwaps": 11591,
+          "all1834GlobalZeroEndpointsCovered": true,
+          "allGlobalPolynomialRelationsInheritedFromCompletePaidDAG": true,
+          "allGlobalSourceRoutesVerified": true,
+          "allOriginal6188ScalarLeavesDivisible": true,
+          "backwardOperations": 1041956,
+          "binding": "c62fcba93dcc4b9c8f05913026cc39fbf280837827d0b8d75716fc45a3bc12ae",
+          "elapsedSeconds": 1.59204,
+          "format": "r150-original127-global-source-bockstein-native-v1",
+          "forwardOperations": 801468,
+          "globalZeroEndpoints": 1834,
+          "integerScalarRecurrenceChecks": 100857205,
+          "nonzeroBocksteinEndpoints": 925,
+          "normalOperations": 29606398,
+          "phase": "global-source-divided-scalar-replay",
+          "pointOnlyKernelUsedAsSource": false,
+          "processedOriginalSources": 2855,
+          "resumedCommittedPrefix": false,
+          "status": "completed"
+        },
+        "transport": {
+          "all3333OriginalPrebasisProducts": true,
+          "all4367OriginalCoordinatesRetained": true,
+          "binding": "c62fcba93dcc4b9c8f05913026cc39fbf280837827d0b8d75716fc45a3bc12ae",
+          "elapsedSeconds": 0.338832,
+          "format": "r150-original127-global-source-bockstein-native-v1",
+          "phase": "original-output-transpose-transport",
+          "sameDegreeUnitProducts": 6865903,
+          "status": "completed",
+          "transportOrder": "increasing-moment-degree"
+        },
+        "witness": {
+          "all6188EvaluatedSourceScalarProductsVerified": true,
+          "binding": "c62fcba93dcc4b9c8f05913026cc39fbf280837827d0b8d75716fc45a3bc12ae",
+          "bocksteinResidue": 40,
+          "elapsedSeconds": 0.997806,
+          "format": "r150-original127-global-source-bockstein-native-v1",
+          "full4367OriginalProductsLeftToWrapper": true,
+          "inputOrdinal": 1384,
+          "inputOriginalRawSource": 3463,
+          "nonzeroOriginalSourceCoordinates": 4324,
+          "nonzeroReverseEdgeUpdates": 22683233,
+          "originalGlobalZeroNode": 26969742,
+          "parsedGBReverseEdges": 27000832,
+          "phase": "positive-global-source-reverse-certificate",
+          "sourceEvaluationModulus": 16129,
+          "status": "completed"
+        }
+      },
+      "newCoefficient127TorsionDirectionProved": true,
+      "noClaimAboutAdditionalCoefficient127PrimaryDirections": true,
+      "nonzeroGlobalSourceCarryFound": true,
+      "normalFormsRecomputed": false,
+      "originalCoefficientAudit": {
+        "all4433PrimitiveToPaidModelCoefficientChecks": true,
+        "all6188OriginalSourceIdentitiesVerified": true,
+        "modulus": 16129,
+        "point": 63,
+        "primitiveDecodedBytes": 158741,
+        "primitiveDecodedSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+      },
+      "originalScalarAudit": {
+        "all6188OriginalPointProductsZeroMod127": true,
+        "all6188OriginalScalarsComputedMod16129": true,
+        "all6188OriginalScalarsExactlyDividedBy127": true,
+        "leafPayloadSHA256": "7032834f358e1c3785a83ab933170ef6c37da05ce1105e9ad314e3782462b538",
+        "nonzeroDividedLeafCount": 4819,
+        "originalOutputFunctionalSHA256": "23f4fadce4967eb267a9ebe6b07c4c94ff4b5ee296aeb11e86bd9c368880ba9b",
+        "sourceCoefficientProducts": 293020
+      },
+      "point": 63,
+      "pointFunctionalAudit": {
+        "allPointBasisProductsVerified": true,
+        "allTorsionEigenfunctionalProductsVerified": true,
+        "completeTorsionRestrictionRank": 1,
+        "componentFunctionalSHA256": "2d77ea9dfe6965fc262b26810d4c483a113a2cd187975c7b15256a4fb5920097",
+        "normalizingFieldScale": 13,
+        "normalizingTorsionCoordinate": 0,
+        "pointBasisProductCount": 14294,
+        "pointBasisRank": 1020,
+        "pointCokernelDimension": 14,
+        "pointOriginalRank": 4353,
+        "selectedNullspaceColumn": 0,
+        "torsionEigenProductCount": 4186,
+        "torsionFunctionalSHA256": "db066b9b424109b05f1f7517a55e5bc0b36d8deeefb400ad7fbfb05ff193cf0d"
+      },
+      "pointKernelUsedAsGlobalSource": false,
+      "positiveCertificate": {
+        "all4367OriginalProductCoordinatesDivisibleBy127": true,
+        "all4367OriginalProductCoordinatesVerified": true,
+        "all6188OriginalSourceCoordinatesRetained": true,
+        "atLeastOneCoefficient127ExponentOneDirection": true,
+        "bocksteinResidue": 40,
+        "dividedProductSHA256": "08653c66eaa32f40cfbf9875d2fd82b36b61d8d113b658d8d9ab2f9ae8832270",
+        "fullOriginalFunctionalProductVerified": true,
+        "globalPolynomialRelationScope": "A(s)y(s) is coefficientwise zero modulo127 by the paid complete F/B, NF and GB Z-source recipe",
+        "globalZeroNode": 26969742,
+        "nonzeroClassInCoefficient127CokerMod127": true,
+        "originalInputOrdinal": 1384,
+        "originalInputRawSource": 3463,
+        "originalSourceCoefficientProducts": 189716,
+        "originalSourceSupport": 4324,
+        "pointOnlySourceKernelSubstitution": false,
+        "sourceEvaluationIsTheIntegerLiftDAGEvaluatedModulo16129": true
+      },
+      "prime": 127,
+      "reverseWitnessAudit": {
+        "all6188EvaluatedSourceScalarProductsVerified": true,
+        "binding": "c62fcba93dcc4b9c8f05913026cc39fbf280837827d0b8d75716fc45a3bc12ae",
+        "bocksteinResidue": 40,
+        "elapsedSeconds": 0.997806,
+        "format": "r150-original127-global-source-bockstein-native-v1",
+        "full4367OriginalProductsLeftToWrapper": true,
+        "inputOrdinal": 1384,
+        "inputOriginalRawSource": 3463,
+        "nonzeroOriginalSourceCoordinates": 4324,
+        "nonzeroReverseEdgeUpdates": 22683233,
+        "originalGlobalZeroNode": 26969742,
+        "parsedGBReverseEdges": 27000832,
+        "phase": "positive-global-source-reverse-certificate",
+        "sourceEvaluationModulus": 16129,
+        "status": "completed"
+      },
+      "scalarCheckpoint": {
+        "bytes": 69455483,
+        "file": "scalar-checkpoint.bin",
+        "sha256": "6258bcdddc4aa092d36c6fff44a92d2b21f0cc57cd258572cd9b7bc1c59bed57",
+        "temporaryOnly": true
+      },
+      "seconds": 180.0,
+      "simplePointPrimaryVerified": true,
+      "sourceDAGAudit": {
+        "GBReductions": 69407428,
+        "GBSwaps": 11591,
+        "all1834GlobalZeroEndpointsCovered": true,
+        "allGlobalPolynomialRelationsInheritedFromCompletePaidDAG": true,
+        "allGlobalSourceRoutesVerified": true,
+        "allOriginal6188ScalarLeavesDivisible": true,
+        "backwardOperations": 1041956,
+        "binding": "c62fcba93dcc4b9c8f05913026cc39fbf280837827d0b8d75716fc45a3bc12ae",
+        "elapsedSeconds": 1.59204,
+        "format": "r150-original127-global-source-bockstein-native-v1",
+        "forwardOperations": 801468,
+        "globalZeroEndpoints": 1834,
+        "integerScalarRecurrenceChecks": 100857205,
+        "nonzeroBocksteinEndpoints": 925,
+        "normalOperations": 29606398,
+        "phase": "global-source-divided-scalar-replay",
+        "pointOnlyKernelUsedAsSource": false,
+        "processedOriginalSources": 2855,
+        "resumedCommittedPrefix": false,
+        "status": "completed"
+      },
+      "wholeTorsionRecomputed": false
+    },
+    "events": [
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 0.26649741500023083,
+        "phase": "evaluate"
+      },
+      {
+        "elapsedSeconds": 3.7247490119998474,
+        "phase": "evaluated-original-basis",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 4.058003409999401,
+        "phase": "complete-point-functional",
+        "reusedCompletedPhase": false
+      },
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 0.3679824479995659,
+        "phase": "transport"
+      },
+      {
+        "elapsedSeconds": 4.427987240999755,
+        "phase": "original-functional-transport",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 4.45548069599954,
+        "phase": "original-integer-scalar-leaves",
+        "reusedCompletedPhase": false
+      },
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 1.6202141219991972,
+        "phase": "replay"
+      },
+      {
+        "elapsedSeconds": 6.1200385829997686,
+        "phase": "complete-global-source-scalar-scan",
+        "reusedCompletedPhase": false
+      },
+      {
+        "nativeExitCode": 0,
+        "nativeHardBudgetStop": false,
+        "nativeWallSeconds": 1.0186343419991317,
+        "phase": "witness"
+      },
+      {
+        "elapsedSeconds": 7.140797772999576,
+        "phase": "positive-source-reverse",
+        "reusedCompletedPhase": false
+      },
+      {
+        "elapsedSeconds": 7.165369255999394,
+        "phase": "full-original-positive-certificate",
+        "reusedCompletedPhase": false
+      }
+    ]
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 01:12:14 UTC",
+      "beforeReadCommit": "e869f1d34afcf809c55c29a826885c1a12505c65",
+      "originMainAfterPull": "3684937abcbceaebeb10afd8e156c707b337d30a",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 01:12:21 UTC",
+      "beforeReadCommit": "3684937abcbceaebeb10afd8e156c707b337d30a",
+      "originMainAfterPull": "3684937abcbceaebeb10afd8e156c707b337d30a",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 33,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 11320,
+    "logicalJsonSHA256": "1ee2aaeac8a73ec207da392000469e4d3e3593451a4baacacc7d457137235b29",
+    "itemCount": 33
+  },
+  "lastRulesReadCommit": "3684937abcbceaebeb10afd8e156c707b337d30a",
+  "summaryExcludesRecomputableArraysOnly": false
+}
