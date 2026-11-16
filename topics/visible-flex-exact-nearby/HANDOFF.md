@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 13:50:31 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 13:51:42 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
-checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 13:44:51非FF真CLI仍无executor，下一本地尝试≤14:44:51。最新CI真pull为43877268949/1于11-16 13:36:16.081258→61a4fcd6fe3a7ac91657eda464567a1193e9a2f4；两README完整diff空/同已读，exec保4次全回执。下一真pull≤14:36:16；ref读取不冒真pull。
-最近只读README核：0879afa3e3cf0ca4da77104e41ff3d57765e8293；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 13:51:40非FF真CLI仍无executor，下一本地尝试≤14:51:40。最新CI真pull为43877268949/1于11-16 13:36:16.081258→61a4fcd6fe3a7ac91657eda464567a1193e9a2f4；两README完整diff空/同已读，exec保4次全回执。下一真pull≤14:36:16；ref读取不冒真pull。
+最近只读README核：e7156baa787b071ee0e663ec1a038761376a3e7a；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 旧全文/恢复/原球/域/单位/mean/失败lost及全部未付门见[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)1fe66a45与递归原页；aux不当physical96、旧false不改、已成禁重算。
 
 ## 同一对象和真正完成标准
@@ -40,7 +40,7 @@ WHS/WOB/WDS完整原scope保当前检查点及proof f13024a7/4c7c9d6e：真97..2
 
 WPTSA4f880dce/43859287399全153parents/4801交集5max、m1/2false冻结，SCIc79f9de9/24767/bdd8857c；完整193mean/4块/2rhs/失败prefix及原badtoken未知保proof/manifest296d3f66，old0/lost0/finite0。
 
-WIC527fc35e由8原whole粗有理界证明m160的真tail δ<80553/128000<2/3、κ=3；新24480cell/4724833维，原m1/2false不变。完整weighted impedance reference正pivot/mean/outer H−5/6/transpose/whole norm及rho2−rho*已证，module c5de896f仅定义无入口。actual有限须全signed e+3dt<1、7port/两rhs/真实96，尚未授逆；不分配dense矩阵。
+WIC527fc35e解析m160真tailκ3已成，δ<80553/128000<2/3，N24480/4724833维；完整reference/193mean/7port/两rhs/rho2修正保原proof。WPNdc553f11已证同WPS门e+3dt<1⇒全系统双边Neumann逆/两残差界/指定root-even I96。实际门待，其他readout/负head/ν/Θ/matching不消。
 
 WOBSA37/WMF全部实际/mean/primitive/两端/失败与未付scope保当前完整检查点及原proof，0finite不变。
 

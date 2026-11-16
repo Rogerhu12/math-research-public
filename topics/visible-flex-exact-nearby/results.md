@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **已证明 WPN（条件算子定理）**：[完整paired Neumann重建与真实root96归一](results/R133-supplement-complete-paired-Neumann-reconstruction-and-root96-normalization.md)。同一完整WPS门e+3dt<1给全系统双边逆、两rhs与两残差误差界；指定root-even trace为I96。实际门尚待，独立读出/ν/Θ/mean/负侧/匹配仍保。
+
 - **已证明 WSMA**：[实际完整混合profile、N6与同一waist上界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)。43877268949/1全152新39copy/22门；whole/reduced各选新约1.90736e323，原mean/四端/3070jump/finite完整保留。未授smallness/finite逆/最终族。
 
 - **WRP（已证明）**：[相对相位拉回与完整receiver细化](results/R133-supplement-relative-phase-pullbacks-and-complete-receiver-refinement.md)：在同一归一化角测度上先微分真实密度伴随，以旧完整K0及3×3全矩阵给负二/负5/3预算，保全部15profile权、mean及所有低输出。后继只读成功WSM profile/N6做40新，不重算152；不预断新数值或finite门。

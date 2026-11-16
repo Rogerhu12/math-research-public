@@ -172,9 +172,9 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WPTSA原实际结果](results/R133-supplement-actual-frozen-maxima-and-two-complete-tail-tests.md)4f880dce：153parents/4801交集与5max全成，m1/2两false冻结；原完整scope/193mean/四块/失败prefix保proof/manifest296d3f66，禁重算。
 
-[WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole证明m160真tail κ=3、δ<80553/128000<2/3，24480cell/4724833维。reference正pivot/transpose/whole norm、mean及rho2−rho*全闭；actual有限仍须7port/两rhs的signed e+3dt<1，真96/coker未闭。
+[WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole粗界已证m160真tailκ3/24480cell；所有原reference/mean/rho2−rho*资格保proof。[WPN全系统重建](results/R133-supplement-complete-paired-Neumann-reconstruction-and-root96-normalization.md)dc553f11证明同完整e+3dt<1⇒两rhs双边Neumann逆与两残差误差界、指定root-even I96；实际门仍待，其他readout/7port/ν/Θ/负head/匹配独立。
 
-[WMTA原严格flux](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7的195+2与全mean/jump/端点冻结。[WRTA完整实际终端重分解](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2：43862924830全18门/7图42新，75copy/10scope，SCI2ab3e929/90315/fa85503b。strict C3约1.13089e321、negative1.78069e333，whole/reduced7.44656e339各选同算子新候选，旧2.116e465原字保。全10word/C4、同J/P_even0、两mean/四端/3070jump/真实root/receiver顺序及p3/2→独立S1/6保WRT/WRTA。全42冻结；true finite、高门和matching未闭。
+[WMTA](results/R133-supplement-actual-complete-strict-flux-physical-mean-refinement.md)b4b5f5f7的195+2全mean/jump/端点冻结。[WRTA](results/R133-supplement-actual-retained-profile-terminal-refinement.md)48d1bea2/43862924830全42新75copy/10scope冻结；SCI2ab3e929/fa85503b，oldwhole/reduced7.44656e339。全部原10word/C4/同J/mean/3070jump/四端/root/1/6gap与失败状态保proof及715a877c999d0fce2ecd66539ee2a2b3780da26f同open。WSMA已消费，不重旧目标；finite/高门/matching未闭。
 
 [WSJ严格区混合jet](results/R133-supplement-scaled-strict-mixed-jets-and-exact-fold-inverses.md)217cdff8：同strict frozen t0双索引/r≤3/total≤14与absolute edge15、同函数fallback及H^-1/μ/G/w0第三径向、forcing/free/genuine/非零cut全保原proof；root local不改。原完整域/shape/mean/端/jump资格并保b53a9a327209dcadd464d3d5c3cbd241b6bb2e2d同open。WSMA首次152已成，不授finite/matching。
 

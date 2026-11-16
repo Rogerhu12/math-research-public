@@ -372,3 +372,7 @@ fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pu
 ## 2026-11-16 13:50:31 UTC — 九块既成输入清单普通清理
 
 两README于0879afa3e3cf0ca4da77104e41ff3d57765e8293同已读。仅删notes/2026-11-12-missing-complete-input-archive-files.json.gz的当前327445B副本，Gitfe069a3e、原SHA9f7bb67ed6177bb4c6f57356ccb26e30a75fdaccbee9e85f01c761a531c61914、restoredae38ffc。完整415B原摘要与4203B原source全文核，原九块6794对象/241928707B是历史收集范围，并非当前容量；原摘要没有run号，不猜。完整恢复说明 4c2976e1a581fcdabaa64821f76e5c9f25ae9128/3537/2d9d68148f37788e8a17edc427a6e82bb0769daaaaff0bb6f89bdf319d04b475 保清单全intakes/原byte恢复/无科学重算与全部限制。未取gzip正文，不删除其引用的6794对象；WPS/WSM当前科学输入不变。释放预算继续WRP40、mean新界及WPS结果承接。
+
+## 2026-11-16 13:51:42 UTC — WPN完整条件重建定理
+
+两README于e7156baa787b071ee0e663ec1a038761376a3e7a同已读。proof3c4b712c05b5c9fd392be2d9b65bbd8e727bd2ac/17666/dc553f11d578e00b2c2dd0abc7e4f3c78c852a519e1f06073962706e4d8c749d：对原四块/两rhs，L A W=Id−N精确成立，正2×2误差矩阵M=[[e,d],[t,2/3]]与显式ω、Δ给同e+3dt<1的operator-norm Neumann逆；主tail R_D^-1≤1已付，同一y/z试探与7port不换。两完整残差给显式误差，指定rootc的原常值嵌入才有g_t=0，真正root-even trace恒等I96，无需该同一恒等的额外det门；别的readout、原mean/ν/Θ/negative/matching不消。root全文块乘/权/两rhs/trace纯证明核，无新科学；29display式与初稿原字同。WPS43878765372实际门仍待，当前定理不宣称计算成功或最终曲面族。
