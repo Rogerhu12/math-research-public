@@ -61,7 +61,7 @@ R881 r29原局部输入成功：run43850679589/job133242082519/source de42a2c8�
 R882原18源/全17方块/绝对B0B2端点和目标尺度已付；eta商t12=T/V给原degree48底，最低权绝对选支、T/U/V/all36cusps/D204不变。RR两初run的resultant字典解包已修：
 - 306重跑43850251992/job133240631228；
 - eta48重跑43850252040/job133240628667；
-共同source acf294c6，尚未报RR成功。R882附B原w867商degree24/属37已手证，St不变分母的54+66完整RR及St/S回旧DS保；576 reciprocal先降288再选24，fricke24 run43860032290/job133274126644/source be4e0074e90508b3f7bd6e2ce3ee083165049288已实际运行；两map及三RR均无PASS。附C属19/9cusps的27+27+33+33完整RR已手证。附D由18 cusp的J极阶1/289/16×1付各系数num≤306/den≤16；原Q精度8000、t精度330的全24迹/Newton+Padé唯一重建24模型，无需大resultant/factor。tate24 run43865460680/job133292732291/sourcea82ba1e06935fbb0f199d4dc846bae876a13afc0已实际运行。附E同属19商pole(L)=145P∞+8cusps，num153/den8；4500原Q→170项scaled Newton唯一重建，完整四RR保，独立实现中；尚无RR成功。
+共同source acf294c6，尚未报RR成功。R882附B原w867商degree24/属37已手证，St不变分母的54+66完整RR及St/S回旧DS保；576 reciprocal先降288再选24，fricke24 run43860032290/job133274126644/source be4e0074e90508b3f7bd6e2ce3ee083165049288已实际运行；两map及三RR均无PASS。附C属19/9cusps的27+27+33+33完整RR已手证。附D由18 cusp的J极阶1/289/16×1付各系数num≤306/den≤16；原Q精度8000、t精度330的全24迹/Newton+Padé唯一重建24模型，无需大resultant/factor。tate24 run43865460680/job133292732291/sourcea82ba1e06935fbb0f199d4dc846bae876a13afc0已实际运行。附E同属19商pole(L)=145P∞+8cusps，num153/den8；4500原Q→170项scaled Newton唯一重建，完整四RR保，独立tate19已交公开CI；尚无RR成功。
 
 R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整新shadow经无挠H1返回同原有理类，无需预乘人为D的5。r29几何F841、角色F5^6；实际[6]迹为E[5]点。真σθ=ωθ、R*D_j=D_j+1使原18×9和在eω后为(1/9)Σζj^aζk^b p_ab，χσ=ζ7/ζ4/ζ；不可在未拆二维点上先把几何ω当系数。
 
