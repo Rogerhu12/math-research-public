@@ -516,3 +516,19 @@ proof02f93880/32929；root全文逐符号读T/可选M/径向有限矩阵及完�
 ## 2026-11-16 09:08:39 UTC — 触发唯一新的WHV公开Actions
 
 新增共享workflow .github/workflows/visible-exact-zero-volterra-positive-head.yml（c50fee93/2914），仅本题冻结ffcf1b75源包；partial checkout、Python3.12.14/flint0.9.0、worker/manifest完整hash和AST先过，然后15 current/13history原字恢复与纯JSON admission，再公共marker与唯一新科学child。cancel-in-progress false，已消费marker阻止任何重启旧成功/部分目标；不发布新数组/artifact/Release。只新3max及预声明网格目标，实际success/falsegate/失败均以完整新receipt为准，尚不授数值结论。102aa8933dcbf7198f2429d84694cbe1adb25490两README版本同已读；最新truepull仍08:49:28，期限09:49:28。
+
+### 2026-11-16 09:15:11 UTC｜WHV 首次运行停在运维提交，完整旧输入只读核验已成
+
+公开run43837109596/1（event e060e8095fe1dddca7909ef951b485b943c7cd08、job133196378841）仍记failure。完整小job log全读并锁hash；两次成功真pull的全部README diff均空，最后09:09:20.048130。readonly 7门全部真，15current/13history/6AST、原4650+4650rows/3594interfaces/原进度4608及9旧literal全保。marker621B仅打印；push被拒后立即真pull --rebase，但缺committer identity，随后未完成rebase使最终pull也失败。唯一科学Popen在marker推送成功之后，因此本次science0/new0/old重算0/lost0，无新科学前缀可恢复。完整证据 notes/2026-11-16-R133-WHV-pre-science-failed-attempt-evidence.json（e6b6f079…/6946B）先推；仅允许修Git identity与对应运维pins，再执行全部尚未计算的原WHV目标，不重旧数学。只读README核ce020bd644650e3bbf4255904529585c5b6553f9；未达总验收，继续。
+
+### 2026-11-16 09:16:05 UTC｜WHV 仅修复所有 Git 调用的 bot identity，执行原未计算目标
+
+失败完整证据e6b6f079已于8dfc6d8c先推。共享worker只在git包装argv增加同一bot name/email两个-c：9d196773/25559B/SHA a51725c25881464971d5598ba3f639e9dad049068cd8516d6b7954ccccb00cda；逆替换全文等原worker，根及Newton/Phase窄核通过。两科学源e82c5180/7cb5c84b不变，15current/13history/6AST/14门与24/25目标仍原完整合同。manifest791e8f2e仅更新worker身份并链接science0故障证据，workflow f4ef2a3347007a543ca75e7d47042577ff36bed832349128174934155cedce18 随本提交自然触发。新子进程仍须先持久marker、fresh容量全预算+120KB并读两README；原成功禁止重算，无有限逆宣称。当前容量199752748B，仅运维文件替换减容；后续实际结果另核另推。README只读核3e8801fb9ad174ce12c208f7fbfabbbc1b5fb7c5；继续。
+
+### 2026-11-16 09:17:07 UTC｜先保存 R106 两份浮点派生报告的完整清理白名单
+
+白名单182605cd6e2290f98f9394dd08d9e209b5d341c259fe3517be0f296f98dc0022/32367B只列两精确path：1024-q10=9cac6d8a/54734B/SHA79178a72，512-q6=c239f741/42640B/SHA2dfc12ab；restore afbf59efb25396efb1286ab193857e3652643add同path原字。Newton完整读两report、producer23310B、原note8346B与独立严谨proof/actual，根全读白名单并fresh核WHV修订manifest/两源/inventory及WMR最终源/interface，两个basename均0命中。原complete_diagnostic=true、rigorous_phase_certificate=false，所有标量结论、35参考分件、完整原数组及进度恢复身份、遗漏误差/最终J∘Phi限制保；不制造严谨通过、不重旧science。gross97374B，计白名单净65007B，尚未删除；后续仅freshguard两blob/size成功后普通删。原producer/定义/native/候选/严格证书与失败均不在表。H压缩旧清理索引，原详细记录完整保3e947078同H及各原白名单。README核79455f05c842563d9f253459d5cfca790c899dfc；继续。
+
+### 2026-11-16 09:17:30 UTC｜R106 两份旧浮点派生报告完成限定普通删除
+
+白名单182605cd已先推eb6e53fb8f7d25c6772a8c71b67422c23a4b9b54；本提交fresh读取main树，精确核原9cac6d8a/54734B与c239f741/42640B后仅删除白名单两path，gross97374B。全部原标量/失败限定与完整原数组历史恢复身份按白名单，恢复只取afbf59ef原字，不重算。producer/原note/独立严谨proof和actual、canonical/native/定义/候选不变，WHV/WMR active输入无命中；0数学调用。两README核2583501bcbbbb9ddee55649036e1084dc4cde43e；继续未达验收任务。

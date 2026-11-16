@@ -2,40 +2,66 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0916-R882-original-common-place-and-whole-fibre",
-  "commit_message": "serre: prove common-place transport for the original cyclic-seven coefficients and whole-fibre interface",
-  "rules_last_read_commit": "6643ea831419fb5adf1fd5d21fdbc918fe86c4cd",
+  "request_id": "20261116-0921-R882-common-place-seventeen-coefficients-active",
+  "commit_message": "serre: activate the original cyclic-seven common-place coefficient computation",
+  "rules_last_read_commit": "8dfc6d8c0fe4bcc414c842e473a11286487bc2ff",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "eeb6198c65f36aa0dd4284964c2f1f5d4a873fca70dcbbd427dfbe6c0ad63999",
+  "expected_previous_request_sha256": "ae7fc34092b7d997b367b09f299dda7efeaa8492f29bebb5eebbf31985425bff",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R882-original-cyclic-seven-common-place-and-target-normal-interface.md",
-      "sha256": "a92524ab9d33124809fd2a46286e3c8ba49459331ebb46d013a9f41d457c655f",
+      "path": "topics/serre-uniformity/scripts/R882_original_common_place_coefficients.py",
+      "sha256": "901466ae4d34bf1b558132a3b7c57c1c0bf6f2a8f097bc2283cd562607ba2e0f",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/R882_public_original_common_place_coefficients.py",
+      "sha256": "ceeee385c64d3c0620d1cf772fe77229949d641d5490656fd766761f21854038",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R882-original-common-place-seventeen-coefficients-method.md",
+      "sha256": "a1dde9ad9a618d3aebde774a96a33fe19d891d5dbed24c5014a9a2277a055be1",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R882-common-place-coefficients-public-request.json",
+      "sha256": "0185b6940e30d6c99e32709bfd9c30a85aeb2f79f72b1624df55294fbac6bf1b",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R882-common-place-coefficients.yml",
+      "sha256": "0fdebb7f8b00fbbe19735179c93727a1d8456e03daa645bd82cae029380dc3be",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-bounded-consumers.md",
+      "sha256": "b37fb87d0db205df1fdf9f0959e25aa3224420eef3e98d83cf39651793478eb2",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "27f100e9e6a8aaea3217304e4c1ff2c0b6ce33fa74b3a045c835c0c450a6f468",
-      "expected_previous_sha256": "0f0e4bf13a9112f4b20458c4d64ddb9ec25e95cd01c44c4dfb4f38ac8912b517"
+      "sha256": "dfe6ab519053ab3bc5a6ace27b07d05a4f1fc6b95b0d023287effacb1e799fc8",
+      "expected_previous_sha256": "b37fb87d0db205df1fdf9f0959e25aa3224420eef3e98d83cf39651793478eb2"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "12edf2cd89e625dbf78587768e8bf95b5e091f46e8284c1e8f0f2853258ad678",
-      "expected_previous_sha256": "61a194d343dc2a61e5f6cdcabf25f8fb114980fd4511390124c59134e2cf3a5c"
-    },
-    {
-      "path": "topics/serre-uniformity/results.md",
-      "sha256": "cf29363ad9d8c67147b38b04101b77085f767aedb036ca9b5c985ae25ea6cc09",
-      "expected_previous_sha256": "a94ecb31f0c0aec6f420d0bde88f5daac74535692ec5f174c89b291852e348f1"
+      "sha256": "9fdd3d75bf9d32a6139c159efe0de057956750da1f9f2ba9b045d3d94df1d8aa",
+      "expected_previous_sha256": "12edf2cd89e625dbf78587768e8bf95b5e091f46e8284c1e8f0f2853258ad678"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "d0115924246c2a344d1716616a75add4b0e6aea04e68c9e11cb5b12204897e8f",
-      "expected_previous_sha256": "2f741cb77709fde4f31f394342efe4ea289f9fe4239cb5168565dfb41b1a8546"
+      "sha256": "8291427c031bcdbab03ec40e538eae3ccb8c7b2cff9e668e394533b73b0f2b1c",
+      "expected_previous_sha256": "f636643c631d7d3568fc0df62dae407d0d6faff13a9cfbbe9c7dd0bc20bcd3b8"
     }
   ],
-  "dispatch_workflows": []
+  "dispatch_workflows": [
+    {
+      "workflow": "serre-R882-common-place-coefficients.yml",
+      "request_path": "topics/serre-uniformity/notes/R882-common-place-coefficients-public-request.json",
+      "request_sha256": "0185b6940e30d6c99e32709bfd9c30a85aeb2f79f72b1624df55294fbac6bf1b"
+    }
+  ]
 }

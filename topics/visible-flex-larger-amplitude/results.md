@@ -287,3 +287,11 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R510 / Request222 — 冻结220来源分类薄修与唯一原时钟
 
 **已证明（来源与控制流条件）；当前数学结果未填。** [R510](results/R510-frozen220-source-list-repair-and-single-clock-composition.md)14224/98ab0a65、[222完整接口](notes/2026-11-16-request222-frozen220-source-classification-repair-interface.md)18145/a0568407与entry/plan/request/workflow六件到齐即刊并正式dispatch。仅移R503政策JSON出.py/.mjs专用名单，仍原全文外层pin；新plan66182/7a74a8e6，原124literal/364应用/46输出、四outer及全部179生成源不改。真实derived22099330/2d1c3a7d，在临时metadata工作视图固定路径/真实HERE消费，原checkout f6ca原件保；279public＋179gen=458，不混旧run。最初原namespace起点覆盖copy/形成/owner bootstrap，deadline绑定真derived205、原18900+2700/32GiB与全部科学门不变。新增immutable source单90K/70及marker后exec原cleanup，原九范围/真实quiet不减。R511/amplitude唯一终态，不预填生成/科学或接受；topic新增136217B，workflow另99393B，无raw/展开源/派生全文归档。
+
+## Request222 — 官方启动与祖先workflow语法范围
+
+[正式绑定](notes/2026-11-16-request222-official-run-binding.md)：R510六件已6643ea83，行政43837951744真实pull核双README后普通push，唯一官方POST200启动run43837980277/source6643ea831419fb5adf1fd5d21fdbc918fe86c4cd、compute133199299786，09:14:40Z/workflow_dispatch/main/attempt1。09:14:51前1–2success、3metadata视图运行，科学未预填；R511/amplitude唯一。冻结wf99393/31200586内PYPINS的workflow语法段仅指祖先220.yml，不称覆盖222新增shell；原四outer/179源检查各有独立范围，不回改或重启该run。217独立换其真实workflow路径。H及open§3压缩前全文保6643，§4–6逐字不动。
+
+## Request217 — 同现场C重算与三个真实场的完整误差入口
+
+**条件来源已完整；尚无实际217数值结果。** [完整接口](notes/2026-11-16-request217-same-C-refinement-complete-chain-interface.md)34979/5c25b9ca及六运行件完整刊并正式dispatch，真实222已刊3120/20360/37f0与工作视图derived22099330/2d1c绑定；458＋7public＋8gen=473无名字碰撞，222独立entry另绑。首shared后同原钟一次完整1440/six/cut重算、原真实level0全域metric/measure；原220真实后继后同一新C对level1/2完整测量/比较。八新view保R489/R492/R495/R500/R504数学、全场CP/definition/B/材料/六jet/四Loewner/全t；只是包围改善不冒真实场误差下降。新1800/240/300/120及终测900全裁原18900+2700，不重开钟或添原BVP门。原PYPINS块从真222取并明确检查217自身workflow，原222祖先检查范围不倒写。八独立必要body与主单90K/70/真实unknown保，217marker/quiet→222repair→220九scope/quiet才清；report仅新身份，不冒正文。topic新增253367B，workflow另86586B，无展开/diff/raw归档；R490由geometry唯一终态。
