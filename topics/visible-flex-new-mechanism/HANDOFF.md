@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。最后已读公开actual pull：3953c750413682d7b494c96f22e3546da741738d，2026-11-15 23:39:54.663555 UTC，run43775998866/job133002325378；23:41:13核双README空diff。下次最迟2026-11-16 00:39:53。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
+根/题README已全文读。最后已读公开actual pull：ad3b104606347c345020d229b6fbc1c648dabacc，2026-11-16 00:01:00.977543 UTC，run43777844163/job133008102089；00:05:03核双README空diff。下次最迟2026-11-16 01:01:00。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有actual pull：ca2c85b5b4fce2e7a8a1968d10eda275ccd8e345，23:39:56.907262 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README不存在、QUEUE本会话唯一进行中。此前所有ref冲突/真实rebase保log与notes。
+私有actual pull：44a25d2c60fdc81e98da4ea88eec84a19ec5362d，00:01:03.614773 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README不存在、QUEUE本会话唯一进行中。此前ref冲突/真实rebase保log与notes。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（22:13复核exec-server缺失），依根8小UTF8发布；API非pull。
 
@@ -52,4 +52,4 @@ Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″�
 
 ## 5. 继续
 
-[新direct设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)首run43777844163/job133008102089进行中，source ad3b104606347c345020d229b6fbc1c648dabacc。161绑定，9新人工后新科学1800s/64LP/160值含输入/prepare/两网冷值；同cache续J/实步，438+4分离/freshcontext/祖先γ。初始两网各14门与timing取本次收据，结果待原log，不预称加速。理论改付M5=0精确母形及其低次finite自然像，继续原13同规范。主课题全第四、高阶、固定g有限族、全时嵌入/reach/幅度均欠，继续open、每小时actual pull。
+[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)：run43777844163/job133008102089/source ad3b104606347c345020d229b6fbc1c648dabacc，9新人工全过；入口source_cfg缺primitive_order于objective实参求值停，新研究value/J/model/LP/接受全未入。science13.756976061s/process17.244257308s/RSS299708KiB保留，下一只修原字段来源，复用9收据且同1800科学钟累计；64LP/160值及原14门/438+4/祖先γ不变。源码[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)仍原范围，未得真实加速。理论推进精确M5=0/低次finite自然像及13同规范。全第四、高阶、固定g有限族、全时嵌入/reach/幅度欠，继续open、每小时actual pull。

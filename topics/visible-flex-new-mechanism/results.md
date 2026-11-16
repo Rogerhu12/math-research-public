@@ -364,3 +364,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R409｜八个实际末包的十六总通量承载严格正字符
 
 [R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)（15907B；SHA256 bc8decef8816aad6b9be821ef84b600ae2c7ea09f4327021f55ba486e8cd4d84）。全U自然平移degree≤7、七次系数−3λ+M5/80；权−9/−8完整消去、+2响应及λ+杀平移支付其它权。原八/十二/五复制保基本块三矩闭合，选同一基本末包八副本有真实suffix0/同形同宽异中心；两总量极化准确恢复Λ，Lagrange给λ+的16原实际读出。M0/同端口闭frame/wholeπ0正时长成本λ+>0，M5≠0时有限目标原点不可达，任意允许w不能改变。非零M5可加入新母非零minor乘积并在有限N保原19根；旧冻结圆只得M5=0必要，不冒该矩已非零。只纸证无执行；下一精确零例外/其它机制。
+
+
+## direct-reference首次接口与科学入口错误
+
+[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)（6174B；SHA256 91b107ac73ca4e22a4cbcc91c203565bc02d6289922fbb2908d657012b4925e8）。run43777844163/job133008102089，9新人工全过、3个新小原比较逐位同；required输入已付，source_cfg无primitive_order在objective调用前KeyError，新真实value/J/model/LP/trial/接受未进入。科学13.756976061000046s/进程17.244257307999987s/RSS299708KiB完整保留，不宣真实速度或14门。下一修原字段来源、只读复用9收据、同1800预算累计，主题继续。日志/输出/规则actual pull完整hash保note。

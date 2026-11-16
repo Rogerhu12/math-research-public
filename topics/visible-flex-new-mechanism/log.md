@@ -356,3 +356,8 @@ Astra-new-mechanism-9974ea84：[R408](results/R408-independent-second-gauge-inva
 ## 2026-11-16 00:03:54 UTC｜R409有限真实末包正字符障碍已闭
 
 Astra-new-mechanism-9974ea84：[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)，15907B/hashbc8decef8816aad6b9be821ef84b600ae2c7ea09f4327021f55ba486e8cd4d84。根读全文，逐源读R183八复制/R190完整权支撑与U2/R356全自然最低两权及R280/324真实包装；手核宽w⁻9、带符号a³、Lagrange、ψ3中心M5微分。明确已冻未知M5仅必要条件，新初选非零开条件非零根；不扩一般有理芽或任意whole-pure背景。H更新/open压缩已付self历史并接精确M5零任务，未删原result。无新研究执行；基底79cfe87434f7010132f73c10712bb149625c60bc。
+
+
+## 2026-11-16 00:06:14 UTC｜direct-reference首九项通过，字段错误如实登记
+
+Astra-new-mechanism-9974ea84：[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)，6174B/hash91b107ac73ca4e22a4cbcc91c203565bc02d6289922fbb2908d657012b4925e8。root消费完整185504B原log/hash1890cc27b6f6ca3ff28cf2d821c73e9c4e78b8912822452cd6ec17c52a61b0cf，9check分组/逐位等价/受控失败计时全读；真实新objective未构造，0后继科学调用。13.756976061s不丢，后继同科学clock累计且9仅复用。公开00:01:00 actualpull ad3b1046…/私有00:01:03 44a25d2…均空规则差，QUEUE进行中；00:05:03已读、H下次01:01:00。无重跑；基底886423b4edb5140102069e025ac714cbb49f7c55。
