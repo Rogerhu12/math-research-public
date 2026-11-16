@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；按远端main接续，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：42280199bbb252264c883f57bb81958994f258d6**（2026-11-16T09:38:35.144319+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-common-place-success.md)（9957B/412d7077），内接全部旧归档；原完整O1–O6及关闭边界在[旧open](notes/2026-11-16-open-before-bounded-RR-and-original-source-intake.md)。
+**已读规则提交：c7abca85794b8778bc23368186a809162347094c**（2026-11-16T09:40:10.393483+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-cusp-flip.md)（9772B/f214dd1b），内接全部旧归档；全部边界继续生效。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -44,11 +44,13 @@
 
 上述char0对象为准确unit-solve定义，模数组不冒完整有理重构。原true dual7交换两投影并运送分子/分母/P0帧；c0c1/−3不改。R877余六同ζ b分支各A/B共12新rhs未成，旧S5/逆/B/F69直接用。R879原t帧c^254/U272仍待数值源校准，不能置1。
 
-原R864/866/865的127全纯核、Q-fixed54/73、真T7全560×127与16无重谱已闭；[R870](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)N0=χ7(8)、16ni/1959位d*/80输入已成。ξj有理及含7-primary挠单射保真；合法好约化niPiξj非零只给正向支持，模零未决。实际η支持/eη/主函数/nonp仍缺。
+R864/866/865全纯核/真T7及R870 N0/16ni/d*已完成，完整pins见归档与正式结果。η支持/eη/主函数/nonp仍缺，模零未决。
 
 ## 有界截面、原参数及范数
 
 **R880**：[证明](notes/R880-original-D-pencil-reuse-and-common-cusp-RR-inputs.md)5a833046及[执行方法](notes/R880-original-D-and-cusp-bounded-RR-input-execution-method.md)529443f8。coreca46e8f9/wrapper3a888af1；真实43840391925/job133207448529/source3c1ddaf3，15.559026589s/28stage/新rank962，两418及Qf全成，正式细项待IO读回。复用六组944原件：intake43836403210/job133194063733/source9070cb76，artifact14210454548/18f08494（Nov17 09:04），index6a0e7d68；不重旧HNF/乘法/逆。首scope共同cusp418优先，旧1111→269→123条件146，新962→D*418；Qf=(a*/v)^3/(uχ/τ²)^4正乘、原ρ^-1457首项保留。已修点linearization实际字段chosen_local_parameter；未执行部分不称成功。
+
+**R887纸证**：[共同cusp翻转与P0单位代表](notes/R887-original-common-cusp-flip-and-P0-unit-bounded-representatives.md)1ebbc0bf。R880共同矩阵取V2的418列→完整146核，旧第252行选未缩放uC；再真实两锚rank962/完整关系恢复C*418，不偷换146。主因子正乘uC/τ²，原ρ阶−1457→−1205，t首项再乘c^1205。exact_height继续真实消费者，保其余12A/B右端。
 
 **R883**：根接原R872§9的t=a³=1/2+E6/(48sη12)，只新两原V4截面比值/首项，不重273jets。最小IO43838586512/job133201396638/sourcebef0523f，artifact14211447977/8e563fbf（Nov17 09:19），index1ca0af99；R807小tar1796873/9651935f、R8014184592/829a0c84、R8721755209/cd49a107。先消真共同θ/局部因子，82与有理尺度一次，t/rho不设1。
 
@@ -60,11 +62,11 @@
 
 R317余p2/5mod9完整非分裂正规化子，a³+db³=1且p|b，D/bc无界。R707固定41全部129盘/8CM已闭，不外推。R575正CM根号负/逆twist秩零撤回；非挠/log/rank/接触界、充分大p Abel单位、深盘根数界均不代原height。R706 h1实际反例及R750/R742/R744异标签边界保全。
 
-R859/R861原BT格、prime-to-p目标、v/u/逆different与Néron(p−1)h已成；原q拉回Manin/KS/height仍缺。R863/R867/R869全G非split格、真实Drinfeld deRham/Cartier、全部cusp最大raw格/首Θ层已成，raw split不等于q-normal。
+R859–R869原BT格/prime-to-p/全G非split/Drinfeld deRham/Cartier/全部cusp格已成，原q拉回Manin/KS/height仍缺，raw split不等于q-normal；准确边界见归档。
 
 [R871](results/R871-original-tame-Abel-companion-and-marked-cubic-unit.md)指定CM原三次单位保T=−48t/E6=−864及R(0)；[R874](results/R874-original-cyclic-p-quotient-scales-and-Kodaira-Spencer-leading-term.md)真ab=p、t′首−6ℓ^(p−1)/B及a²/p KS只用于原未分歧lift减自身常数。全p+1无权首层相消，一旗1⊕St不含原p−1型，不能代两旗。
 
-[R875](results/R875-original-tame-CM-constant-and-first-Cartier-factor.md)原六级/ω/周期/半投影给B²R(P†)²=ζ²α²C_p；不假R(0)非零、不等同三次单位。h1仍需C_p C_(p−3)≠0，R706不撤销。
+R875原CM常数/六级与h1条件、R706实际反例全部保留，见归档。
 
 [R878](results/R878-original-finite-theta-action-and-section-projections.md)原E[p] norm1/六级theta作用、六条D链及x/−xy投影−B/B24已证。[R881](results/R881-original-integral-theta-lift-and-cuspidal-test-vector.md)唯一整torus lift、opposite tensor、原Φr/e0/Weyl−1/p/det扭曲已证。[R884](results/R884-original-enlarged-theta-lattice-coefficient-pole.md)aee35fc2给每个critical泛函在真扩大格原μ6型上的pole赋值−1、p-residue−6B；不外推原H0(6O)或指定torus投影。sigma_uniform继续实际两旗和原source抵消；cuspidal整格/原q-normal/同h三单位/height尚缺。
 
