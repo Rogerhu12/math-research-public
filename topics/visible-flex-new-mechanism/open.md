@@ -14,7 +14,9 @@
 
 ### O2 最新实际
 
-[cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)唯一model28/cone32 AlmostSolved、原有限门全过；full-grid fine87417抬rho使gain−.000011406471767227977，0物理trial。原accepted52/η.2660182947853381/κ57.999249547251196与实际池4448/4544v13/13不变。32cone与64HiGHS均封存；新195.335570869秒/2恢复值，锥累计968.675704986/原1324.805525247秒、62/124值。完整161及当前bank保在原stdout。[新纸证](notes/paid-p32-complete-grid-line-envelope-convexity-20261116.md)已给完整Φ凸与全部精确active最大右导<0 iff正向有严格模型下降。新first-jet方法仍须完整系数/独立标量及oracle账；不把四attainer或浮点active当严格整线判定，所有真实门另付。
+[p32完整线首实际](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)run43804573954/sourceab1ba331a1d376d61e6e9f9b7f29f2bb9221a1e2：从52同p32的一次完整first-jet cache/1scalar/62query得到alpha≈.5421904710711004；唯一实际pair原28门/163盒真，接受53，η.2660182947853381→.26601514422985384，降3.1505554842770067e−6。κ细57.9992694544513、target13/50仍false；5新fine soft行使池4448/4549 v13/14。其完整53向量与门都在原stdout，来源/指纹/有限容差边界保note。
+
+新科学81.445727845秒（含3case dev），祖先总1406.2512530919998秒/126值；UTC job约530秒另列。旧32cone/64HiGHS仍封存；本次生产0solver/J/factory，完整线已完。52 cache不能当53模型；下一基于真实53及新峰构造完整多峰方向、保全网gap/原物理提案/真正验收的不同子问题，未执行。不能从这次有限改进外推精确最优或主门收敛。
 
 ### 仍须支付
 
@@ -134,11 +136,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)原n2完整非零/n6=n4零，自然权零增强商恰1且λ+经全N下降；canonical正时长M0闭frame有λ+=L+∫(h′/h)²>0，不能建actual全Λall0背景。当前R411–429母消有限真实读出，H*作signed核见证；不能把universal障碍转成该固定圆因子化。全部原计算/开发/费用保原稿，不重。
 
-### 原64/32封存；新完整线包络问题
+### 原64/32与首标量线封存；新53完整方向问题
 
-[末cone32实际](notes/final-cone32-first-actual-and-complete-grid-separation-20261116.md)完整保161与模型绑定，原linear/box/included cone全过，但fine87417首次完整分离使rho=.0060297012571054465、gain负。5761→5762只是有限锥tags，未第二次求解、未实际池学习；0trial、0接受，不能归实际曲率门失败。bank512四分支观察更新、8supp/62学习events/61commits/pending0与原52全向量不变。两末钟以COMPLETE为准，不用较早ledger/CP少计报告费；新2恢复值、无独立末audit、原6/12/11/9检查不重。
+原cone32全步gain负，但本次已付同方向内部尺度真实接受53，证明“全步失败”不能排整线。新cache完整15.234MB仅原stdout，先发再62完整query，未再做geometry/J旧检查；实际才付冷前缀。全部scope及祖先账见[p32实际](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)，remaining64/3trial/600额度不授重做已完单线。
 
-两个solver额度均永久用尽；不借旧余额续cone33。[新first-jet设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)只直接组装原T/U和一个p32方向的δT/δU，保参考/null两次加法和完整Πθ；不计算无关X/center/fixed primitive，不伪造旧ordinary绑定。一次完整cache先发原stdout，1scalar/≤64全网query；如有模型下降，≤3未试点由原geometry/14门/163盒验收，必要冷前缀全收费。独立600秒总science从输入前起且含≤30秒新dev；祖先1324.805525247/旧32与64及96/160全部保。原四attainer/端点只做唯一新adapter核对（端点计query），不重旧开发。约20MB纯文本cache用同workflow后置只读report job抽小摘要，原payload不编码分块、不入Git/artifact。[六源审读及唯一入口](notes/paid-p32-first-jet-line-entry-review-20261116.md)已随request发表，200闭包/原189与98args相同；完整CACHE或partial单发，FINAL_CLOCK在所有大输出后收费。只读report在同workflow读research原log，0数组重算。等待唯一原实际，不预报开发/模型/实际门通过。
+继续新53多峰一阶方向合同：保全部完整两网当前值/gap，不能只取87417；原精确163盒、原curvature/物理提案边界及14门继续。新模型/导数若必要必须独立源绑定53与池13/14，旧52 cache、旧primary/银行上下文不改名重用；先给不同数学子问题和有限新执行范围。根15所有原payload仍只stdout，0artifact/cache/Git。
 
 ### R399–R405已付有限对应点，不外推全根
 

@@ -312,3 +312,6 @@
 
 
 - **R450：真逆十七次界、当前七余及新八宏复制准确清最高e。** [完整真逆、七余与共同二十门证明](results/R450-seventeen-degree-true-inverse-and-exact-second-period-macro-cancellation.md)（25960B/SHA764d9539304aba4e201e09cf3eddfbf1e704168fc384b4e61a5d7eecb9517a9b）。Σ(U−9)=0给全self/2+2≤11；总range逐完整base等价、12真中心紧逆多项式≤11，ell的6次位置权给e≤17。当前12仅余≤6/七明确系数；从起点外加8四次幅g翻号以18阶差分准确消全e，覆盖最终actual基准但不付range。新宏copy同纳q4/F★/共同外根/20目标：全角平移观察闭包与新C²基准分层证明，b_new由有限N完整方程支付。旧母/成本的range收据不移植；d/余9/其它s段actual joint仍欠，0新执行。
+
+
+- **p32完整线首次实际：接受53，真实η下降3.1505554842770067e−6。** [完整实际结论及全部来源指纹](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)（28403B/SHAe9e02036b5ad77f9b755a8184a9301358259fe8e0fc0c09b0f1780ef80ad6b8a）。run43804573954/sourceab1ba331…：一次完整15.234MB系数cache、生产62queries，alpha≈.5421904710711004的唯一实际两网原28门/163盒真，η至.26601514422985384/κ57.9992694544513，target.26未达。5新fine soft行、池13/14，bank/γ/controller被动保留。FINAL_CLOCK新81.445727845s/总1406.2512530919998s及126值，UTC530s另列；3新开发case/186人工query单列，24adapter误差0，0旧检查/新LP/cone/J/factory。缓存仍属52，首线已完，继续53新完整方向。
