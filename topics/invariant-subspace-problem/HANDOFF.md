@@ -3,17 +3,17 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 476f0881e3a5b4462d7486c58b76d05f6345e422（2026-11-16 09:09:25 UTC，Actions run43837194015实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43837194015-1.json。
+- **最近成功实际 pull 与已读规则提交：** 45c5df467d193aebd8ad3c8b48ddcd54086fdb35（2026-11-16 09:12:02 UTC，Actions run43837565070实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43837565070-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor约07:20失效、09:00复探仍不可用；旧tmp未冒存活。现有Actions执行真实pull/rebase/push，API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-matched-first-hole-feedback-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-original-thirty-five-nodes-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
 - **四参数run43830684123/job133175032397全十步success：** [同基接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)。根全日志及6raw/binding、14小SHA、252组装/核乘回、86阶段独核；完整ann已证，见下。全数据只tmp/日志，不重210。
 - **原Bell1 run43832009393/job133179333013运行中：** [接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)。600/1200均实际exit75（wall598.467/1198.568），rawSHA213ba7ff/f82ccc9f；同out升1800，阶段待完整日志。保全17变量/18原源及双degree自测，权5至9后E600秒/4GiB；仅原E三个完整分量=1可闭合。截面失败不否定其它来源，5分钟同job续接窗、80/90分钟范围、每28分钟实际pull，执行身份notes/r150-original-full-bell-source-execution-789f/。
-- **原pencil run43836278134/job133193599424全成：** [精确接口](notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-interface-789f.md)。实2.981秒/wall3.072，原D自由35基的trace rank35/det95；全19源Macaulay degree5/6秩234/458，degree7满792×1848，原双逆1254528坐标真。根独核raw3926/SHA8e8ed8c4与bindingb2760f96，正式35节点/平滑解消证明正冻结；不据此关Bell1。源已实推dacd4291/run43836253293，实际dispatch204；执行身份notes/r150-original-pencil-trace-execution-789f/。
+- **原pencil run43836278134/job133193599424全成：** 实2.981秒/wall3.072，trace35/det95及原degree7全792×1848通过；[35节点完整证明](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)已闭，见下。根重构raw3926/SHA8e8ed8c4和bindingb2760f96均真；源实推dacd4291，执行身份notes/r150-original-pencil-trace-execution-789f/，数学数据仍只tmp/日志。
 
 ## R150原rank-one精确系数接续
 
@@ -28,10 +28,10 @@
 
 - 两原子ab(1−st)D开集I=(M,Z)、Cat3一点满秩给degree2643 D(y)∈J，均不覆盖例外。全essT3≤3已证matched Bell零；[真W±Cat3点](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)33梯度全真，不能追整个Cat3空。Bell非零仍ess4/5/6。
 - [全局9×57/Bell基9×56完整原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)：真固定E逆T1⁻¹和literal边界给r_h=e_v1+c，kerP=S r_h已在57关系模；无参数逆/GL6补全/free9。513原矩阵坐标u≤1、1026 source实际u≤3；实12.363秒/binding3299f05e，根全source组装已核。此前free32、全部低正规形、十六三次源、57列及完整56原7×54图册均已付，详归档。
-- [完整rank3关联与六次pencil](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)：原双逆给概形T′(μ)y=0恰原rank3退化，保非零y尺度；全84真E系数/127线Rabin给E不可约，I4(T′)=(μ)^4使非零参数rank≥4。rank5保核点，rank4保整P1；三阶段实127.391/10.488/0.00855秒，不宣绝对不可约。
-- [原rank4完整自由35基](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)：S=E[μ4],I=I5(T′)；原21unit及显式对称15→35→21→1复形以深度/无挠证明全分辨率，HS=(1+3t+6t²+10t³+15t4)/(1−t)。μ1..3次数≤4真E[μ0]自由35基，μ0=1完整代数长度恰35且非空；不称约化/35互异点。纯证明无新运行，pushdd5e6574/run43827051331。全部w/u和9×56余关系及Bell1仍需判空。
+- [完整rank3关联与六次pencil](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)：原双逆给概形T′(μ)y=0恰原rank3退化，保非零y尺度；全84真E系数/127线Rabin给E不可约，I4(T′)=(μ)^4使非零参数rank≥4。rank5保核点，rank4保整P1；三阶段实127.391/10.488/0.00855秒；绝对不可约现由下条节点证明补全。
+- [原rank4完整自由35基](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)：显式对称15→35→21→1分辨率给HS=(1+3t+6t²+10t³+15t4)/(1−t)，原次数≤4自由35基及例外恰长35。[原mean完整交](results/R150-appendix-original-mean-rank-three-integral-surface-and-complete-intersection-geometry.md)给X≅V(I4M)在P5 degree20、截面算术亏格26、h(O)=(1,0,10)、ω=O(2,0)，交数u²6/uv15/v²20、K²24；原全部moment/Bell余关系仍保留。
+- **[同原六次曲面恰35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)：** 精确E唯一余项识别及D_(127,d=100)自由35，trace det95使Z有限étale；全19原(q,I4M)七次unit双逆1254528坐标给(y)^7包含，排所有rank5奇点。rank4处原2×2 Schur三条目是真局部参数，det=unit(ac−b²)；故六次面几何整/正规，原X平滑几何整且为极小解消，恰35条两两不交(−2)核线，不称E有理点。实2.981秒，根全source/回执/binding及局部几何独核。下一保全rank3与rank4均值支路，处理Bell1原9×56所有余关系；节点几何不等于临界理想空。
 
-- **[原mean秩三整曲面及完整交几何](results/R150-appendix-original-mean-rank-three-integral-surface-and-complete-intersection-geometry.md)：** X={A(μ)y=0}≅Y=V(I4(M))，保全概形；rank≥4及长35例外使每个分支支配原不可约六次面，六式height6→CI/CM、通有约化→E上整。Rp Koszul保d4给P5上10O(−6)→24O(−5)→15O(−4)→O分辨；P(n)=10n²−15n+11、degree20、截面算术亏格26、h(O)=(1,0,10)、ω=O(2,0)，(u²,uv,v²)=(6,15,20)、K²24。整个长35原Z上为rank2核丛P1化，保非约化；不宣smooth/normal/几何整，全部Bell余关系仍开。
 
 ## R271真实投影返回与剩余交叉
 
