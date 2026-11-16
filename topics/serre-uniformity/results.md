@@ -202,3 +202,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R870原有理Picard挠判与Hecke支持证书已证**：[完整证明](results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md)，SHA256 5b44808d9dc6a09b2a520f5e542e33f2d0b5e2e92217183a017c92b8984bd1f0。原ξ_j的真Q Cartier下降、原7处ES及含7-primary的挠约化单射，给R挠⇔(T7−8)R=0。N=m7(8)>0、#JY(F7)=χ7(8)、逐块fi(8)/整对应分母和80项Picard零判方法明确；真实m_i=1足以分离完整等型块。实际N数值与检验输入消费R865，η支持/主函数/nonp未求；YP帧方向c0/h、纤维c0/c1保真。
 
 - **R871原tame Abel伴随与指定三次单位已证**：[完整证明](results/R871-original-tame-Abel-companion-and-marked-cubic-unit.md)，SHA256 977d8f925796a3fbc702a390a3d30a5fdc0e59825ad592779ca347cb77745d4f。原C_(p−1)、精确oldform系数和两个6，全部12尖点Θ²注入使真H6†不变，W/A在指定共轭CM正则；准确首项U/(48E6²)T³且系数单位，T=−48t/E6=−864，R(0)及高阶齐次项保留。原κ4下降另保，cyclic-p/全π层/KS/q-normal仍未比较；不与R706原h1反例边界冲突，不冒原高度非零。
+
+- **R868 原P0准确核与两图RR模块源**：[完整结果](results/R868-certified-original-P0-socle-and-two-chart-RR-module-sources.md)。run43819875762/source9586473c，120.828237493秒/699stage；271合法子式、584位h/full272K、两图I_P0^-254/十模块已成，128/144 RR基与height仍未算。

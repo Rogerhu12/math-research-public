@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：62fb22a5faa1b97382b2859c6dc6e886ced847e8**（2026-11-16T07:11:05.973086+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[P0已成与挠整数激活前H](handoff-archive-2026-11-16-before-certified-P0-and-active-torsion.md)（9855B/a0371428），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
+**已读规则提交：62fb22a5faa1b97382b2859c6dc6e886ced847e8**（2026-11-16T07:11:05.973086+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。原工作区/workspace/scratch/09e43497d694/math-research-public于07:19失联；当前由公开Actions实际pull/rebase恢复发布，仍partial/sparse main。完整前态及全部来源/已闭边界逐字保于[P0已成与挠整数激活前H](handoff-archive-2026-11-16-before-certified-P0-and-active-torsion.md)（9855B/a0371428），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -16,11 +16,11 @@
 |R815从696素数|43809724947 / 133108436809|8adc90dfe2c6943ab3ba3eaf67a52682302026a3|原数学步，300min/core80516ff9/wrapperab725da0|
 |R824从501位|43792912432 / 133055178711|33f5c3288305cdfc8ed1adb5e1e4fee3ed940870|27权5+244权6，300min/core1ece3cf4/wrapperc5907739|
 |R854原41四响应|43805506433 / 133095311242|dc6ffb07b398e5262d6b1e62dbc72378a163b5f3|原数学步，N_B56/目标7/300min仅控制|
-|R787 full dual|43790194976 / 133046704617|ad0278b29f83c035d83f44a262a1e375137c3450|清转置接受，300min/corebad97414/wrapper5388274|
+|R787半坐标dual|本push激活，原full已结束370位|原ad0278b29f83c035d83f44a262a1e375137c3450|继承370与371正残差，300min/coreffe5dcff/wrapper1552e403|
 
 R787545/原696/501的完整字节、SHA、真实续接与限制见本H归档和checkpoint notes；分别从546、697及旧501续，不重旧518全56格/prime1..696。R815旧exit124无core receipt，不造BudgetStop；R8241186归R787、129/142/280Q/r28不延143–155。Mg/Γ仍缺。
 
-**A.1**：七小L条件不代A0−qB0=0。full dual保J4629B/b384a331、1481原源，全35840准确乘回才判。半坐标方法1f1ea6b2/coreffe5dcff/wrapper1552e403仍source=null，等full自然结束继承同target/J/current/下一residual-correction-witness；n+1七支/17920RR补±s后全核。禁取消full、混primal545、重J或旧位。RR失败不拒q；真禁用半块非零或fullΘ才转Δ/A.1。
+**A.1**：七小L条件不代A0−qB0=0。原full run43790194976真实core BudgetStop/124，370位current28025485B/11a4f187、371正残差f26fe3db、history3d4624c8，配置97a0427e；artifact14204367741/1a9283c0，63项manifest9835/ba4aad73。原目标000a9bbc/Jb384a331/1481源保全，未成A.1。半坐标[真实续接](notes/R787-full-dual-370-ended-and-half-coordinate-activation.md)本push激活，request9492c873/method1f1ea6b2/coreffe5dcff/wrapper1552e403；从371消费已成残差，不重370/原目标/J/368失败RR。7支求解17920RR仍全35840核；RR失败不拒q，唯HP.2完整合法current反例或全Θ/Δ给答案。不混primal545。
 
 ## 原41响应与原Y实际出口
 
@@ -35,9 +35,9 @@ R787545/原696/501的完整字节、SHA、真实续接与限制见本H归档和c
 
 **R865真实T7与谱已闭**：[正式结果](results/R865-certified-original-Y-Hecke-T7-and-squarefree-spectrum.md)，run43817070047/job133131532466/sourcea907063a；1.9339709759999835s/82stage，全部560×127、K/Q矩阵/54-73块、16不可约因子且重数全1。finala48e185d/谱0b8dbbb6/投影0643d7d2/config838aa726；artifact14203241087/b03edc4c、175源carrier2878150e，整ZIP/92件已核。原双陪集/σ6σ7/−3 twist/Rosati保50bfc4bd，旧H/J/逆不重。R870[纸证](results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md)5b44808d给原ξ_j∈JY(Q)、7好约化/diamond1/−3 twist平凡、含7-primary的有理挠单射及R挠⇔(T7−8)R=0。16块重数1满足完整等型分离，η支持/YP eη/主函数/nonp未成。
 
-**R870小消费者本push激活**：[执行记录](notes/R870-original-Y-torsion-Hecke-inputs-activation.md)，core0e32a7f0/wrapperfc0fb7a7/method42799fe5；R86526+GLOBAL8+FIBRES8共42原件。只新N0=m7(8)/χ7(8)、16个fi(8)/未约化Ai=(X−8)Pi、共同LCM d*及80原Picard输入，30min控制；不重谱/CRT/H/J/逆，不消费395MB旧载体。实际支持/主函数仍null；R873继续真实循环7 norm入口，原Y−3twist全L1=0（R330/R596）已闭，不重开秩零路线。
+**R870小消费者已成功**：[执行记录](notes/R870-original-Y-torsion-Hecke-inputs-activation.md)，run43822039811/job133147178823/sourceeb46ca01，0.5794888300000025s；finalbe29c872/configf4d082f1，42件最小源。core0e32a7f0/wrapperfc0fb7a7/method42799fe5。只新N0=m7(8)/χ7(8)、16个fi(8)/未约化Ai=(X−8)Pi、共同LCM d*及80原Picard输入，30min控制；不重谱/CRT/H/J/逆，不消费395MB旧载体。实际支持/主函数仍null；R873继续真实循环7 norm入口，原Y−3twist全L1=0（R330/R596）已闭，不重开秩零路线。
 
-**原Y RR**：FM a5d65aa4与YP bdbb6cc5需实际128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。R868[真实P0单极元与254度RR方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)98e15284已证：W(z0)−w0I的一个271合法mod素minor加全272K核给原h；容许分歧fiber，fτ=rτ/(z−z0)、σ准确运输/overlap、I_P0^-m=(1,f^m)，147th截面。原五Lj(254P0)推下固定O^128⊕O(−1)^144；实际128/144节仍缺。[R868实际成功](notes/R868-original-P0-socle-and-RR-modules-activation.md)：run43819875762/job133140317613/source9586473c，120.82823749299996s，final8069/ef1dc965；rank271/完整h5de7d08d/两图逆点13de406d/十模块0e73e6cc全部true。artifact14203769509/d57536f9，原full manifest117917/8251e046；root718小件纯Range核，未重算整ZIP。128/144/connection/height仍false，R872消费实际h续两权截面及点jet。corecdac462c/wrapper9115331e/methodaa91885f/request5020a1d7，旧W/点/DAG不重。未消去Y/period。
+**原Y RR**：FM a5d65aa4与YP bdbb6cc5需实际128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。R868[真实P0单极元与254度RR方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)98e15284已证：W(z0)−w0I的一个271合法mod素minor加全272K核给原h；容许分歧fiber，fτ=rτ/(z−z0)、σ准确运输/overlap、I_P0^-m=(1,f^m)，147th截面。原五Lj(254P0)推下固定O^128⊕O(−1)^144；实际128/144节仍缺。[R868正式成功](results/R868-certified-original-P0-socle-and-two-chart-RR-module-sources.md)：run43819875762/job133140317613/source9586473c，120.82823749299996s，final8069/ef1dc965；rank271/584位h5de7d08d、实际自由坐标271=1；两图逆点13de406d/十模块0e73e6cc全部true，共699stage。artifact14203769509/d57536f9，原full manifest117917/8251e046；root718小件纯Range核，未重算整ZIP。128/144/connection/height仍false，R872消费实际h续两权截面及点jet。corecdac462c/wrapper9115331e/methodaa91885f/request5020a1d7，旧W/点/DAG不重。未消去Y/period。
 
 **R862整投影已闭**：[正式结果](results/R862-certified-original-Rosati-projector-polynomial-and-integer-correspondence.md)5eca1ff8，d_A=1596092727686814808731、6次Norm/12全核/23node，completion-only43813805093；E_Aφ*=0不代YP eη/d/N/nonp。完整pins与17原源见归档，不重四已成stage。
 

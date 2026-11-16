@@ -1,0 +1,197 @@
+{
+  "job": {
+    "budget_minutes": 300,
+    "completed_dual_source": {
+      "accepted_checkpoint_exit_codes": [
+        124
+      ],
+      "archive_bytes": 364188201,
+      "archive_sha256": "1a9283c0faf7b9eb798bf447e252d6c56432e8142d01e43346257498ac1fd534",
+      "artifact_id": 14204367741,
+      "artifact_name": "serre-global-R787-cleared-dual-CM-value-43790194976-1",
+      "configuration_sha256": "97a0427eedd33428063f6e44420944e818912ab0335371d8f6774e10987b8153",
+      "core_sha256": "bad9741493b550b0d3543ec953642c2b2f11f30da4433c9346f0c3215d415323",
+      "current": {
+        "bytes": 28025485,
+        "file": "R787-cleared-dual-current-00000370.json.gz",
+        "sha256": "11a4f187442ccd6f06569176ab605d34efa1d744ff792ec63332b049613cb0cf"
+      },
+      "exact_target": {
+        "bytes": 2742706,
+        "file": "R787-cleared-dual-exact-target.json.gz",
+        "sha256": "000a9bbc1e3cfd1b27ca3b6b9dfbdd3cc24468d8e0f4f27561d324f941c9b52b"
+      },
+      "expected_conclusion": "failure",
+      "input_bundle": {
+        "bytes": 331720235,
+        "file": "R787-cleared-dual-retained-inputs.tar.gz",
+        "sha256": "fe7c4126e9f3e335f5e70020c05a07c045e149aedf5e0f8ea4af821bcc56b2db"
+      },
+      "manifest_bytes": 9835,
+      "manifest_file_count": 63,
+      "manifest_sha256": "ba4aad7360670f8bf52ddafe6840316bbde04482ba8f1521ace4efa2f96e68a2",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "pairing_input_bundle": {
+        "bytes": 247572,
+        "file": "R787-cleared-dual-completed-pairing-inputs.tar.gz",
+        "sha256": "08ea733dc1ee49a08364eb018ffaee66284331fd77fd9cf0d7b8ddd2e0c29e78"
+      },
+      "result": "R787-original-cleared-dual-CM-value-acceptance",
+      "run_id": "43790194976",
+      "source_audit": {
+        "bytes": 12309,
+        "file": "R787-cleared-dual-source-audit.json.gz",
+        "sha256": "a64c1a1ea6aa2b2ae36aeeb65ad1fa4b680c718fc96902efcebc380346798269"
+      },
+      "source_commit": "ad0278b29f83c035d83f44a262a1e375137c3450",
+      "source_dual_digits": 370,
+      "wrapper_sha256": "5388274c6425e66e6c3d2d8d1d41b5a4a59f7787479695970ede670e0091b32f"
+    },
+    "completed_pairing_source": {
+      "archive_bytes": 332476787,
+      "archive_sha256": "674026f6d746e6324a2ad43b90ed32d6fee7e8efbbf6d3a63c95e638d2132487",
+      "artifact_id": 14190707821,
+      "artifact_name": "serre-global-R787-cleared-dual-CM-value-43787626643-1",
+      "configuration_sha256": "a05c236e2fee6861d9361d4dda5ea78ed2bd41c6ec3499cfab3db8c85fc9e79c",
+      "core_sha256": "969201b943bf7591baee92c168546b9992e59b94e1b5b1b2304732b85c052407",
+      "expected_conclusion": "failure",
+      "files": {
+        "R787-cleared-dual-coefficient-pairing.json.gz": {
+          "bytes": 4629,
+          "file": "R787-cleared-dual-coefficient-pairing.json.gz",
+          "sha256": "b384a33166820240d22205dd307b4d93b243b02b6dec8a7426967cc4e2072c26"
+        },
+        "core-receipt.json": {
+          "bytes": 477,
+          "file": "core-receipt.json",
+          "sha256": "34a53f739a3fcd69b0debd066dd64a2b9ba3b0d4951be42eb646d7049e572745"
+        },
+        "full-outputs-manifest.json": {
+          "bytes": 1056,
+          "file": "full-outputs-manifest.json",
+          "sha256": "f9c75b8338aa38a82e3665f9f8bc4529cdcf240ff670401e9fe5f3ab3685384e"
+        },
+        "public-actions-input.json": {
+          "bytes": 263644,
+          "file": "public-actions-input.json",
+          "sha256": "dc40937805a5d17a0e4d5cb4a3ae7a3e8dc9f5c62ba6e17f3412fa0f52fb2d2c"
+        },
+        "retained-inputs-receipt.json": {
+          "bytes": 483233,
+          "file": "retained-inputs-receipt.json",
+          "sha256": "6c987b863483c09146e5c7a674580bb8d91b8f1d9eb74b1adfe8b8c493f74865"
+        },
+        "run-receipt.json": {
+          "bytes": 521,
+          "file": "run-receipt.json",
+          "sha256": "e3183b0faa7f88abdd6c61eaf3776a6ec232d6460b1e12d05982e97208af1344"
+        }
+      },
+      "manifest_bytes": 1056,
+      "manifest_file_count": 7,
+      "manifest_sha256": "f9c75b8338aa38a82e3665f9f8bc4529cdcf240ff670401e9fe5f3ab3685384e",
+      "original_readme_sha256": {
+        "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+        "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+      },
+      "pairing": {
+        "bytes": 4629,
+        "file": "R787-cleared-dual-coefficient-pairing.json.gz",
+        "sha256": "b384a33166820240d22205dd307b4d93b243b02b6dec8a7426967cc4e2072c26"
+      },
+      "result": "R787-original-cleared-dual-CM-value-acceptance",
+      "run_id": "43787626643",
+      "selected_files_sha256": "4c48efc28ef586aec57fc7dbf9047586c1ca3c69f8bd3db0575b42123387ec73",
+      "source_commit": "1abe47786bd30a2c5f58363ce283e783d797d2c0",
+      "wrapper_sha256": "611e8ad8670f7c2622130638d398e366d5855fe00875ed09c57d2247fa397d23"
+    },
+    "core": "R787_half_coordinate_dual_CM_value_acceptance.py",
+    "core_sha256": "ffe5dcff0c17b81923741c2b56806cc4907cb812cfdee4499ed2650ea92abe54",
+    "field_core": "R781_original_Laurent_prefix.py",
+    "field_core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+    "full_dual_core": "R787_cleared_dual_CM_value_acceptance.py",
+    "full_dual_core_sha256": "bad9741493b550b0d3543ec953642c2b2f11f30da4433c9346f0c3215d415323",
+    "full_dual_method_sha256": "c6ca7d3a8036c2c0b5cfca69fd66ca7108555fae9f90614d7e3618c3044288bd",
+    "full_dual_wrapper": "R787_cleared_dual_CM_value_public.py",
+    "full_dual_wrapper_sha256": "5388274c6425e66e6c3d2d8d1d41b5a4a59f7787479695970ede670e0091b32f",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "legacy_core": "R787_original_power5_relation_solver.py",
+    "legacy_core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+    "maximum_new_digits": null,
+    "method": "notes/R787-half-coordinate-dual-continuation-source-contract.md",
+    "method_sha256": "1f1ea6b2e69487e552f82fb6b01c826a9fa80b1673cff4f46342cd3fc4fff57b",
+    "nested_proof": "notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md",
+    "nested_proof_sha256": "eb5893ec0b8dcc4dd256648a96daa7a605d4cb96efc94a5c42544c0c6dea572b",
+    "p": 41,
+    "producer_inputs_pending": false,
+    "proof": "notes/R787-original-antilinear-dual-half-coordinate-reconstruction.md",
+    "proof_sha256": "281de249137d88da3c67a25261ca744bd513ecb15b49ffb0125d82f7fb6b7c6f",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "reconstruct_every_digits": 8,
+    "result": "R787-original-cleared-dual-CM-value-acceptance",
+    "resume": null,
+    "sources": {
+      "CM": {
+        "archive_bytes": 96435463,
+        "archive_sha256": "0ae63e2c65f2f45ac759bc948ea57203b36e1645899ebe409c38f0d879c39d94",
+        "artifact_id": 14185198226,
+        "artifact_name": "serre-global-R787-implicit-CM-value-43773420733-1",
+        "certificate": {
+          "bytes": 5768,
+          "file": "p41-original-implicit-CM-value-certificate.json",
+          "sha256": "5de210b5ebb2a8a7fefcc8799888a68353c9c2ac10725fafa239d2bd1082d20c"
+        },
+        "configuration_sha256": "2a3bd8cee0b9db0e645ecd94b2db8651d046ac67ea5134e31ead7e77f9ff7829",
+        "core_sha256": "d0e94bee98802169b9e1dfec186143deda7745bf2cdad420e683a75eb1969ddc",
+        "expected_conclusion": "success",
+        "manifest_bytes": 37636,
+        "manifest_file_count": 254,
+        "manifest_sha256": "be2a58b2c87b6a79cb406d4cd1ecb04347f56f301373953e809d3bff68612642",
+        "original_readme_sha256": {
+          "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R787-original-implicit-CM-value",
+        "run_id": "43773420733",
+        "source_commit": "c3bcfc0dbbcd3a045349ec4500886100851a0d84",
+        "wrapper_sha256": "12727d7c002872c293f3eff2f161016eadb248e9de4429a7c68987ad98bc1bc4"
+      },
+      "R787": {
+        "accepted_checkpoint_exit_codes": [
+          1
+        ],
+        "archive_bytes": 451202899,
+        "archive_sha256": "343bee0a0fb5bf8d9143d2dbc8b8d8fc0f0da3649bbb1d94748ef34f19d87249",
+        "artifact_id": 14181899102,
+        "artifact_name": "serre-global-R787-original-power5-function-relation-43737413555-1",
+        "configuration_sha256": "71ea66416a42e024de61cf5927bc493fbc8422dc1b5970d75c51bd788d88529d",
+        "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+        "expected_conclusion": "failure",
+        "manifest_bytes": 430709,
+        "manifest_file_count": 1262,
+        "manifest_sha256": "7a22beb22912c1d5c4c56a5faa577a529f6c5dab5bb4ea5251e9cd5c4264ba3f",
+        "original_readme_sha256": {
+          "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R787-original-power5-function-relation",
+        "run_id": "43737413555",
+        "source_commit": "4092d1cc4d1156bc24a10ff820fd39c5713e8ad7",
+        "wrapper_sha256": "42157e0d95eb5d9aed28ef828a86dc5e7bec89e806e3e0a92aa0bcb1a36988b6"
+      }
+    },
+    "workflow": ".github/workflows/serre-R787-half-coordinate-dual-CM-value.yml",
+    "wrapper": "R787_half_coordinate_dual_CM_value_public.py",
+    "wrapper_sha256": "1552e403d9206d21a7cd7de43c1e7f4975957513e332a316c448fccbb84c46f4"
+  },
+  "rules_last_read_commit": "eb46ca019bfe2098799cd97a5b31dab27ad3c9a1",
+  "schema": 1,
+  "session": "serre-public-astra-20261115"
+}
