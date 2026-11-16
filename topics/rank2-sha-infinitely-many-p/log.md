@@ -440,3 +440,5 @@
 - 2026-11-16 15:19:13 UTC / Astra-rank2-Sha-continue：R899同原P固定素数Dixon完整证明/实现即推；root核逐位整除、三根唯一提升、底素数单位/全窗与原3个最终函数逐字一致。新增.github/workflows/rank2-sha-original-P-dixon.yml执行原k6，真容器退出清理、无输出存储；旧任务继续，无假PASS，deep续WT原门。
 
 - 2026-11-16 15:24:15 UTC / Astra-rank2-Sha-continue：R900同原惰性层奇偶/单素层精确整返回完整即推；全Gauss和坏位、真τ、已发表compact BK消失及17惯性下降齐，保双新原格余项未除分母。R899 run43895102858/job133396398465真实运行，原H留档；显式shell可用而原路径缺失，继续恢复拉取副本和数学主门。
+
+- 2026-11-16 15:29:07 UTC / Astra-rank2-Sha-continue：R900附A同原split底层单惰性返回/全幂集整分解完整即推；奇数新块严格0，惰性主理想Frob恒1准确限制旧γ长剩余次数。/workspace满后/tmp部分稀疏副本已恢复，真实终端pull两README差异空，认证可用即转终端push；旧F取消后日志显示k2满秩、k4仅84素数/2512bits未认证，继续原重建。

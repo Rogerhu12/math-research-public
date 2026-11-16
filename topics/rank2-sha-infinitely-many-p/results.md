@@ -310,3 +310,5 @@
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)：同原P的单split素数Dixon严格算法及实现齐；固定三嵌入pivot/free、Hensel根、底素数全部单位门和同Newton，高精度仅一方阵、一次Fp逆逐位整除。全QA−yB复乘覆盖未选行，再经三根Vandermonde/有理恢复/原完整char0证书；固定chart或精度不足不排map。新参数p1000000033/N128/k6已请求公开执行，无新PASS或实测速度结论。
 
 - [R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：原惰性raw全Λ范数−(ℓ+1)²/ℓ；全部有限角色Gauss/旧坏位准确给根数奇偶，真τ后已发表compact BK零杀奇数新支撑。原单ℓ类准确−(ℓ+1)²/(ℓhℓ)resD1，17惯性支付同格下降和除ℓ+1，有限原AJ及Ep,ℓ全保；双新整余项两迹零、root−，尚无双因子整除或s0。
+
+- [R900 附A](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)：同原split修正/三单位保留后，单惰性返回对任旧split层成立；全惰性幂集的显式整Möbius新块各部分迹零，奇数全新块由真实根数/compact BK严格0，奇数总层得min v_p(ℓ+1)整除。惰性主理想在全部原环类塔Frob恒1，准确排R891长剩余次数的这次移用；偶数新块的乘积整除仍开。

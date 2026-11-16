@@ -328,3 +328,118 @@ $$
 - Castella, *Tamagawa number conjecture for CM modular forms and Rankin–Selberg convolutions*, Proc. Lond. Math. Soc. 131 (2025), no.4, e70089，DOI [10.1112/plms.70089](https://doi.org/10.1112/plms.70089)；[可检索作者全文](https://arxiv.org/html/2407.11891v3)：Definition 3.4.1、Lemma 3.4.2、Proposition 3.5.1、Remark 4.5.2，及 §5.1 cyclic-pair 假设核对。
 - Agboola–Howard, *Anticyclotomic Iwasawa theory of CM elliptic curves*, Ann. Inst. Fourier 56 (2006), 1001–1048，[正式作者 PDF](https://web.math.ucsb.edu/~agboola/papers/bisi_aif_2006.pdf)：Theorem 2.4.17，printed p1034。其原椭圆范围和本篇直接使用的高权 [Ca] 表述已在§6区别。
 - Arnold, *Anticyclotomic main conjectures for CM modular forms*, J. Reine Angew. Math. 606 (2007), 41–78，DOI [10.1515/CRELLE.2007.034](https://doi.org/10.1515/CRELLE.2007.034)，是 [Ca, Remark 4.5.2] 明指的高权来源；本文不另据未核的全文范围扩大定理。
+
+
+## 附录 A：旧分裂层、全惰性层的整分解及辅助 Frobenius 的实际限制
+
+本附录保留原 R897/R886 的整 split 修正和最高分量，不只讨论 tame 层 n=1。
+
+### A.1 同原 split 底层上的单惰性返回
+
+固定一个 R897 允许的平方自由 split 模数 m，以及与它互素的有限惰性素数集 I。先从同一个 ACR 原始来源 \(\widetilde{\mathbf D}_{i,m\prod I}\) 出发，再只在 m 的素因子上施 R897(A7) 的 split 修正；若 m 属于 R886 的允许集合，再施原另外三个 Euler 单位的逆。记所得类为
+$$
+\mathbf F_{m,I}.
+$$
+这是原共同格中的明确类。空集给
+$$
+\mathbf F_{m,\varnothing}=\mathbf D_{i,m},
+\tag{A1}
+$$
+即原已经归一的 split 系统；若不施最后的三单位归一，则以下各式同样对相应四维修正后的最高分量成立。
+
+新增 split 修正的群环系数随导子投影相容。Corestriction 对群环系数作真实投影，而 restriction 的像上，新群因子按增广作用。故(7)仍精确给
+$$
+\operatorname{cor}_{I/I-\{\ell\}}\mathbf F_{m,I}
+=A_\ell\,\mathbf F_{m,I-\{\ell\}}.
+\tag{A2}
+$$
+这里没有把 split Frobenius 在全部类上当成常数；只用上述投影相容性。
+
+对 \(G_m\times\prod_{\ell\in I}G_\ell\) 的角色 χ，split 部分不改变(13)的根数。具体说，在新 split \(q=\mathfrak q\bar{\mathfrak q}\) 处，两边的有限字符互为逆，normalized Gauss 因子乘积为 χ_𝔮(-1)=1；原未分歧 CM 因子的两个 uniformizer 值相乘为1。旧坏位仍由 χ 对有理 idèle 平凡及 χ((δ))=1 消去。因此
+$$
+w(\phi_i\chi)=(-1)^{1+\#\{\ell\in I:\chi|_{G_\ell}\ne1\}}.
+\tag{A3}
+$$
+[Ca] 的 compact BK 输入仍可适用。若 m 遇到 R814 那一辅助 cyclic ψ 的素因子，只为核(14)可另选与当前有限模数互素的 cyclic ψ，并按 [Ca, Lemma 5.1.2 证明首段] 核 S1–S3；不需要 S4。这是同一 \(\phi_i\chi\) 的定理呈示，不更换原 \(\mathbf F_{m,I}\) 或其最低层。
+
+当 I={ℓ} 时，(A3)杀掉一切新 ℓ 非平凡分量，包括带任意旧 \(G_m\) 角色的分量。十七惯性的(16)在 \(K[m]\) 上仍成立。因此在同一原格中
+$$
+\boxed{
+\mathbf F_{m,\{\ell\}}
+=c_\ell\,\operatorname{res}\mathbf D_{i,m},
+\qquad
+c_\ell=\frac{A_\ell}{h_\ell}
+=-\frac{(\ell+1)^2}{\ell h_\ell}\in p^{v_p(\ell+1)}\mathbf Z_p^\times.
+}
+\tag{A4}
+$$
+所以正文(18)的真实单素层整除可以与原全部 split 四角同时保留。其有限特殊化也保持 R897(A11) 的完整群环 Euler；该 Euler 在新 ℓ 固定线上按投影作用，故不额外改变 \(c_\ell\)。
+
+### A.2 完整惰性幂集上的整 Möbius 分解
+
+以下所有 restriction 都从 \(K[m\prod J]_\infty\) 到 \(K[m\prod I]_\infty\)，J⊂I。定义原全新项
+$$
+\mathbf N_{m,I}
+=\sum_{J\subseteq I}(-1)^{|I-J|}
+ \left(\prod_{\ell\in I-J}c_\ell\right)
+ \operatorname{res}_{I/J}\mathbf F_{m,J}.
+\tag{A5}
+$$
+特别 \(\mathbf N_{m,\varnothing}=\mathbf D_{i,m}\)。
+
+因为每个 \(c_\ell\) 真是 p 整数，(A5)没有角色平均的 \(1/h_\ell\) 分母，也没有改变原共同格。有限 Boolean Möbius 反演给原类的完整式
+$$
+\boxed{
+\mathbf F_{m,I}
+=\sum_{J\subseteq I}
+ \left(\prod_{\ell\in I-J}c_\ell\right)
+ \operatorname{res}_{I/J}\mathbf N_{m,J}.
+}
+\tag{A6}
+$$
+
+对任意 ℓ∈I，将(A5)按 J 是否含 ℓ 配对。含 ℓ 的项由(A2)产生 \(A_\ell\)；不含 ℓ 的项由 cor∘res=h_ℓ 产生 \(h_\ell c_\ell=A_\ell\)，符号相反。因此
+$$
+\operatorname{cor}_{I/I-\{\ell\}}\mathbf N_{m,I}=0
+\qquad(\ell\in I).
+\tag{A7}
+$$
+在有理角色分解中，(A7)意味着 \(\mathbf N_{m,I}\) 只可能支撑于每个 ℓ∈I 都非平凡的角色。由(A3)、compact BK 零及原 O-torsion-free，
+$$
+\boxed{\quad |I|\text{ 为奇数 }\Longrightarrow
+\mathbf N_{m,I}=0\text{，在原共同格中准确成立。}\quad}
+\tag{A8}
+$$
+故(A6)的求和可准确缩到偶数基数 J。正文(22)是 m=1、|I|=2 的特例；它的双新项就是(A5)实际定义的 \(\mathbf N_{1,I}\)。
+
+这里还有一个真实的整性推论。当 |I| 为奇数、I非空时，每个留下的偶数 J 都是 I 的真子集，所以(A6)每项至少有一个 \(c_\ell\) 因子。于是
+$$
+\mathbf F_{m,I}\in
+p^{\,\min_{\ell\in I}v_p(\ell+1)}
+ H^1_{\rm Iw}(K[m\prod I]_\infty,\mathcal T_i).
+\tag{A9}
+$$
+这只支付显示的最小阶；没有支付所有 \(\ell+1\) 的乘积，也没有对偶数 I 的全新项增加一个未证的 p 因子。
+
+### A.3 为何没有得到原 R891 所需的辅助剩余次数
+
+(A4)及其整除看起来给一个 one-place norm，但不能据此套用 R891 的 γ-rigidity。
+
+若 ℓ 在 K 惰性，则 K 的唯一 ℓ 素理想就是主理想 (ℓ)，它具有有理生成元。对任意与 ℓ 互素的 ring-class 导子 n，类域定义中有理局部单位被除掉，故
+$$
+\operatorname{Fr}_{(\ell)}|_{K[n]}=1.
+\tag{A10}
+$$
+同一理由适用于每个原 wild 层；因此
+$$
+\operatorname{Fr}_{(\ell)}|_{K[n]_\infty}=1.
+\tag{A11}
+$$
+这正是惰性有理素数在 prime-to-ℓ 反循环塔中完全分裂的实际类域陈述，不是只模 p 为一。
+
+R891 §3–5 对检测 split 素点 \(\mathfrak q=(\pi_q)\) 使用
+\(\pi_q/\bar\pi_q\)，并要求 \(\operatorname{Fr}_{\mathfrak q}\) 在新增 γ 辅助层有完整 \(h_l\) 阶，才能在一个局部分解群中把 \(N_l\) 写成 Frobenius 的长和。换成这里的 (ℓ) 后，该比为 ℓ/barℓ=1，且(A10)直接排除任何 \(h_l>1\) 的这种剩余次数。
+
+因而在该局部，γ 辅助层的全局范数是跨不同素点的和，不能认作同一个局部 Frobenius 的长和。R891(A18) 中以 \(N_lB=h_lB=0\) 杀掉 lift 误差的那一步并未得到。不能仅凭(A4)的原 norm 及单素层整除，推出原有限—奇异关系或首层 ordinary 局部化的额外零/非零。
+
+这项限制只涉及当前原 ring-class 辅助来源；没有排除另行构造具有真实非平凡单侧 ray 分量的新几何系统。当前可继续使用的是(A5)–(A8)的实际偶数新支撑，而非一个未支付的 one-place rigidity 扩展。

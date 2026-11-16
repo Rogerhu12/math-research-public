@@ -3,11 +3,11 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：d03d85bd78e00c2a43db5fa0c8225a037c7964b0；2026-11-16 15:24:16 UTC核两README无变。实际CI pull 2026-11-16 14:51:23 UTC/716ea758ac096a7e03ac5d3c75a6e3caa4ea04e5（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 15:06:42 UTC仍无环境。最迟2026-11-16 15:35 UTC再实际pull。
+- 最近已读规则提交：af8f729adba066e60ab28793296a7feb2aace951；2026-11-16 15:30:54 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 库存33,806,663B/2504文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。shell已可执行、原目录缺失，重建拉取副本中；API不冒pull。
+- 库存33,806,663B/2504文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。/workspace满；/tmp部分稀疏副本及终端认证已恢复，数学仍仅CI。
 
 ## 完整检查点与分工
 
@@ -20,7 +20,7 @@ root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀
 
 原P/F char0无PASS，原u/λ/vnew/整数返回17、完整方程/末端不变；全部源码提交沿上方完整H（各run也保source）：
 - P run43835679463/job133191600105已于14:59取消；[R898](results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)付k4满列秩排除/条件函数次数≥324。k6只53素数/1585位/rank904，无PASS；基298秒已成。
-- F run43839815472/job133205402538，k2/4；完整8ΔC³=HB²(A²−17ΔB²)²/末端612(k+6)，不假Manin1。
+- F run43839815472/job133205402538于15:27取消；k2矩阵1021×852满列秩，k4仅84素数/2512bits/rank1116，无PASS。完整原证书与不假Manin1保。
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同P/F germ精度倍增已证；run43883945027，P job133356889710、F job133356889202运行。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)原完整M2改固定PARI有理基已证基不变性；同mfinit整矩阵/QQ/全前缀/seed与版本齐，旧全部rank/CRT/最终认证保。run43888054599已运行；P job133371441947、F job133371442286，无PASS。
 
@@ -43,7 +43,7 @@ R886及[R897](results/R897-original-endpoint-complete-wild-tame-system-and-speci
 [R891](results/R891-original-ring-class-anti-kummer-and-one-prime-descent.md)完整anti-Kummer/γ交域/两点全h_l阶及原四角norm，连续coinduced与全误差给κq(σ)=−c1(Frq)。坏位统一指数、共轭两点selector/global cup已全证c1≠0⇒Selbal=E c1；受限JNS接口由直接证明替代。原c1非零、ordinary loc和无穷目标p仍开。
 [R893](results/R893-original-endpoint-augmentation-square-and-primitive-heegner-comparison.md)已付c1非零⇒R814固定Heegner增广本原（实际Cor4.6.1/全控制），故D=U Z°为单位比例。全iota/period/平滑/Euler给同H unit的ccan=H Dfun·D、Ccan=H Dfun²；ord Ccan=2s、ord_M ccan=s。ordinary loc/原canonical非零恰等价s0，s>0未排；derived canonical不复用未除T的严格核结论。续同原wild/tame是否约束s，不跨p。
 
-[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。双新N12整、双迹零、root−，尚未付两因子除法；不推出s0。
+[R900](results/R900-original-inert-layer-parity-and-exact-one-prime-return.md)同原惰性raw norm Aℓ=−(ℓ+1)²/ℓ，真实Gauss/全部坏位给wχ=(−1)^(1+#新惰性)。实际τ后已发表compact BK零杀奇数支撑；单ℓ全Dℓ=Aℓ/hℓ resD1，真可除−(ℓ+1)，有限原类同式且Ep,ℓ全保。附A付所有旧split层单惰性返回/全整Möbius分解，奇数全新块0、奇数层仅min v整除；偶数新块未付乘积整除。惰性主理想在原环类塔Frob恒1，R891长剩余次数不可套，不推s0。
 
 ## 第二门：四原中央与同一低配对
 
