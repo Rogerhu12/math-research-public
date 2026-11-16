@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：74c8a7cb989792d79330f1ed6363af19f512f5d3；2026-11-16 10:47:55 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:47:54 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
+- 最近已读规则提交：685b8a0865235b70edf630122a8c28bb2c9ea799；2026-11-16 10:50:01 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:47:54 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -26,7 +26,7 @@ R862–R875全部原h/τ/ell、2048κ尺度、17整返回、完整Φ17/三H、�
 
 R881实际r29形式输入run43850679589/job133242082519成功：三P到1226/保19位、F到1428/保12位，原τ标号(2,0,1)；只是formal精度。original_shadow_coordinate_tools.py只接两char0真PASS、原RR基、完整低核和∞首1三次根，尚未重建真地图。
 
-R880用三原Artin共轭及两轴9项/全18χ求交，两P认证后degree376；原17/51有理Hecke返回及2048/u_j全部保。附A显式同CM符号eω的整shadow经R859无挠H1返回原有理类，无需预乘人为旧D的5。r29几何F841、角色F5^6；6倍完整闭点迹给真E[5]坐标，再交original_shadow_coefficient_tools.py的18×9×2读者。附B消原ω/ω²次数交叉项，D总degree67680/x极135360；全σ/a/b相同。
+R880用三原Artin共轭及两轴9项/全18χ求交，两P认证后degree376；原17/51有理Hecke返回及2048/u_j全部保。附A显式同CM符号eω的整shadow经R859无挠H1返回原有理类，无需预乘人为旧D的5。r29几何F841、角色F5^6；6倍完整闭点迹给真E[5]坐标，再交original_shadow_coefficient_tools.py的18×9×2读者。附B消原ω/ω²次数交叉项，D总degree67680/x极135360；全σ/a/b相同。附C由原σθ=ωθ与R*D_j=D_j+1付18×9→九真除子，先eω后[6]S=(1/9)eωΣζj^aζk^b p_ab；χσ=ζ7/ζ4/ζ，保实际CM矩阵。
 
 R882原18源E_src与T=((X+1)(X−8)²)/X²、固定B0/B2端点、全17方块和ε/两完美三次根保正文。附A原eta商t=η1η867/(η3η289)、t12=T/V给degree48底，最低权(24,−1)原绝对支，T/U/V/all36 cusps/D204不变。两真实RR初run在resultant字典解包失败，改.items()后重跑：306 run43850251992/job133240631228、eta48 run43850252040/job133240628667；未报RR成功。
 

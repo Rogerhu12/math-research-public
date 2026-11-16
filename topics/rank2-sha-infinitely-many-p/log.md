@@ -252,3 +252,5 @@
 - 2026-11-16 10:45:30 UTC / Astra-rank2-Sha-continue：R883附A闭点完整迹标量式全证即推，由原Frob_r²=[−r]得6Tr(P)=[(1−(−r)^d)/ell]P，保全部实际剩余次数和交重，输出真E[ell](F_r²)。d=ell的高挠点例解释不能先模ell；继续原完整consumer，未假任何交点已算出。
 
 - 2026-11-16 10:47:43 UTC / Astra-rank2-Sha-continue：R883附B完整分歧表全证即推；原level3六次表和B的全部36 cusp给Y属559/108 cusp，x_s³=v_s恰在T∞的54几何cusp全分歧，X属1729/216 cusp。闭点仍按degree计数，不把这些数当有理点数；继续实际正规化/同原shadow。
+
+- 2026-11-16 10:50:00 UTC / Astra-rank2-Sha-continue：R880附C原18×9 Artin精确降九除子全证即推；root核真阶9提升/θ正号、φω反交换、源R拉回负幂与先eω后的全18/162倍率。三原χ值及双轴独立投影保，支持原系数helper回填与九项式同核；仍待两原map PASS/真实RR/闭点执行。

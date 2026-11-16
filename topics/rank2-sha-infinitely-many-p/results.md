@@ -146,3 +146,6 @@
 
 
 - [R883](results/R883-original-relative-six-shadow-and-complete-boundary.md)：原X/R=X3468的相对6域上完整q_*D=div(yA−yB)+pole(yA)+pole(yB)，有效且degree2256(r+1)。全部分歧像为δ三挠，6倍严格0；非分歧共同O/三挠交重m的三点和全消，唯一额外lift重数k=e−3m，输出F点准确由(a0 f0/c0,yF)读且保任意高相消/闭点迹。原端点两Hecke gcd、t绝对支及F尺度(v_s+4)/v_s全保；两char0 PASS仍前提，未算非零。
+
+
+- [R880附录C](results/R880-original-three-artin-conjugates-and-integral-double-axis-shadow.md)：原H34的阶9提升由实跑方向定σ(a)=ω²a、σθ17=ωθ17；Fσ=ωF、Fε=−F，三A按原循环。完整源R拉回给P_(σ^l ε^e,a,b)=(-1)^e[ω]^(l−2u+v)P_a′b′。三真χ为ζ^7/ζ^4/ζ；先eω后整18×9和准确回(1/9)eωΣζj^aζk^b[6]P_ab，九个真实完整除子足够。未先把几何ω当系数ω，原两认证/所有边界仍保。
