@@ -14,11 +14,9 @@
 
 ### O2 最新实际
 
-[p32首线](notes/paid-p32-line-envelope-first-actual-and-accepted53-20261116.md)唯一实际pair曾接受53，η细.26601514422985384、κ57.9992694544513，target13/50未达；池4448/4549 v13/14。旧52cache不能作53模型。
+[四cut交换的唯一首实际](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)接受54，physical c0214406cebe6f39eda0b11fa2db5fecb883d9323c696005447427b39410f253。η粗.2660119435311364/细.26601238103375724，严格降2.76319609660014e−6；κ细57.99930616102216，原两网14门全真，但.26目标与主reach/连续门仍未过。池4453/4549、v14/14，五新coarse行及全部controller状态保原checkpoint。
 
-[true53首次实际](notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md)run43811870681/source42f95905deec3024dfee7a687bdc806d38c79baf：新3case通过，完整当前模型建成；1prox/184sweep/724792坐标、23全网分离、5新gradient，全部候选修复gain负，末−5.887796501991287e−7。原master末metric残差1.588778857197029e−6、norm残差5.118940978312495e−7；有限投影尚未原始可行，不能凭dual stationarity小或负gap宣收敛/不可行。搜索23配额结束、1最终复核槽未用，不是600秒或1M用尽。0生产scalar/query/actual trial，接受点仍53，η未变。
-
-新科学188.188974004秒（含新开发），祖先 **1594.440227096秒/128值**，只新增2必要当前模型value。完整原模型/J/梯度/最终dual与161迭代只在原stdout；所有来源、门和费用保note，旧32cone/64LP仍封存。下一研究原有限master可行性/坐标度量与完整gain，必须用已付输出及明确不同方法问题，不余额重试或重建旧模型作检查。所有主几何门继续。
+第5个真正新行集9672行给完整gain5.432252160344885e−6，5LP/164迭代/328系统/5双网/10新梯度，62scalar后1actualpair接受；同task含两次输入失败218.31438091800004秒，祖先1877.294171609秒/130值。点54真实U/T/e/f缓存已输出；未导出二jet/curvature/Jac需必要新构建，不把原53模型冒54。下一原约束模型及方向必须在新点构建，全部旧solver/方向已闭；完整来源见note。η是metric辅助量，不是δhold。
 
 ### 仍须支付
 
@@ -123,7 +121,7 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 
 ### 近期条件与实际费用的原文来源
 
-R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历史完整保于[原文摘录](open-archive-before-R481-20261116.md)。R475实际Δ6零帽已付；R479仍要求多帽各过五门且共用c、A7/s、A0/(h³s²)。R480从起点全W外三矩使任意真A0块重复K无漂移，但单份内部K、A≠0桥、全部第四V与同一13核规范继续。原true53四cut增广任务run43827509699/research133164733399/source513aa99d7c361bb67dbc1d04e32f3d563fe6b1b9正在执行，2次输入失败累计91.37788493000002秒计入同600秒，全部来源见[接线与共享账户](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)；点53及主门不变。
+R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历史完整保于[原文摘录](open-archive-before-R481-20261116.md)。R475实际Δ6零帽已付；R479仍要求多帽各过五门且共用c、A7/s、A0/(h³s²)。R480从起点全W外三矩使任意真A0块重复K无漂移，但单份内部K、A≠0桥、全部第四V与同一13核规范继续。原53四cut增广任务已按[完整实际](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)接受54，同task含两次输入失败218.31438091800004秒/祖先1877.294171609秒130值；旧模型不重用为54，当前状态见O2。
 
 ### R481：每个允许cap的五门处处正则，接真正全局零目标
 
@@ -138,3 +136,8 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### R482：单份全段ruling已降到真实13状态2输入系统
 
 [完整公式](results/R482-pointwise-third-memory-elimination-and-constrained-prototype-ruling-system.md)把第三history换成原当前一阶jet端点势与−A²/2+W，保内部Pacc和初端势；R480只清该outer W配对，不清一般w和全部V。K=F(X;θ)+Chh″+Ckk″，两个原加速度系数准确−(4h⁴)⁻¹∫FφQφ'''a_h/k，13状态真实服从原水平及八矩Mraw ODE，同一两输入须全相位共同满足。下一构造相容状态域内的返回路径或明确排原现成prototype：正长度常scalar段平方门(39)与规范/入值无关，须先支付；局部反馈不能替代闭返回/全V/13核。新增加速度self跨包尾准确零、quartic C²/平移≤7，但尚未加入既存初选F。所有actual条件须同新库，主任务继续。
+
+
+### 已接受54：从真新点构建原约束模型继续
+
+[完整原观察](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)保全部五轮/新行/首actual14门/点54缓存及失败账户。接54自己的原选行Jac与硬域，真实U/T/e/f已付可消费；curvature/位置/二jet未导出，不假0成本缓存。固定g/b0/reference/原159→163与guard不变，下一任务是新点问题，53旧有限/方向闭合不复跑。点54仍η.266012381>target.26、κ57.999306>主reach必要上界，继续原非线性和全连续几何义务。

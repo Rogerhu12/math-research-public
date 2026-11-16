@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读。最新actual双pull在run43827984553/research133166230952：公开08:01:54.946053→08:01:55.380782 UTC，before=after已读 **5104179cb2ce1131f849ce0b2a224a021691d91c**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **09:01:54 UTC**；变化只读diff即执行/记SHA；NFF立即真实rebase续推，不force。
+根/题README已全文读。最新actual双pull在run43827509699/report133170452996：公开08:12:06.012009→08:12:07.047398 UTC，源513aa99d…到已读 **114e432d64c370608f4a849743425b91088c964d**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下一actual pull最迟 **09:12:06 UTC**；变化只读diff即执行/记SHA；NFF立即真实rebase续推，不force。
 
-私有同run08:01:57.690578→08:01:58.282958，before=after **d1f36084ccf101b5221045bf61ec36eaca405d39**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。原pull记录在该run stdout；私有正文不发表。
+私有同report08:12:09.851301→08:12:10.459656，before=after **94d71c2d27d9072ded2df601ceaa1e42d5aeeddf**；根blob5ba164843b1f5802184178a82d786264404873a3不变、题README无、QUEUE本会话唯一进行中。研究前双pull也空diff，完整出处见[接受54](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)；私有正文不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:56再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -14,7 +14,7 @@
 
 闭连通材料面；每个Ft为C²嵌入，t∈[0,1]在C²拓扑连续，**同一固定g**；固定材料H有内点且diamF0(H)≥.2D；无刚体对齐整像δhold≥.3D；全时全域reach≥.03D；最大相对metric≤1e−6且同g/参数/时间精化下降。完整网格每件<5MB，严格存在差距如实报。基本门后继续.5D或严格存在。当前全部门未付。
 
-core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266015144是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
+core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266012381是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
 
 ## 3. 理论接口与剩余义务
 
@@ -34,16 +34,18 @@ R480从起点加入28交换子×3外矩×≤10平移系数（≤924生成，不�
 
 同cap完整比例、实际全成本/全s同规范、高阶收敛与主几何完成门仍未付。
 
-## 4. 数值当前点与已付模型
+## 4. 当前真正接受点54与闭合任务
 
-旧HiGHS64/cone32、p32首线及true53 Hildreth观察均封存。p32唯一实际pair接受53，η细.26601514422985384、κ57.9992694544513，target.26未达；physical9ffba0f1400c504343f9b0b8847be7f14745144f66b3cd89dfe698f45d81548e。池4448/4549 v13/14、bank512、learning62/61/0、B.00025/streak0/0保持；旧52cache不冒53模型。
+[唯一新增广实际](notes/true53-four-cut-exchange-first-actual-accepted54-20261116.md)：run43827509699/research133164733399/report133170452996/source513aa99d7c361bb67dbc1d04e32f3d563fe6b1b9。5个严格新行集9662/9665/9667/9670/9672，164迭代/328系统，5双网JVP/10新梯度，第5方向完整修复gain5.432252160344885e−6合格。62scalar查询选α.9466534867716204，仅1实际pair/2值接受54。η粗 **.2660119435311364**、细 **.26601238103375724**，实际降 **2.76319609660014e−6**；κ细 **57.99930616102216**，两网原14门全真，但target.26未达/主reach未付。
 
-[true53已付完整模型](notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md)：run43811870681/research133115100791/report133116787814/source42f95905deec3024dfee7a687bdc806d38c79baf；旧Hildreth1prox/184sweep/724792坐标/23分离/5新gradient全部修复gain负，0scalar/actual。该观察闭合而非不可行证明。MODEL27365833B/92668168…，binding e095e93d1455302af6904e703e762adad05d9cdef7220761c468e3ea0efca9a1；5743soft/2937hard/5补gradient/原163盒/完整e/f只原stdout。祖先1594.440227096秒/128值已含全部旧失败与必要value，后继finite又整体累计至1608.573003992；不得重算J/finite或旧数据验收。
+点54 physical **c0214406cebe6f39eda0b11fa2db5fecb883d9323c696005447427b39410f253**。粗新行36903/37017/37095/37209/98535，池 **4453/4549、v14/14**；原bank/controller/passive状态以完整checkpoint为准，B.00025/streak0/0。准确163盒过，帽高浮点差在原容差内，不冒连续证书。
 
-## 5. 当前工作
+原研究raw **58360528B/5e7c358eb5b11db5ebb6eaf4551bec80079e3b443615daf001d846597d985701**；COMPLETE6184218B/225ed772…，FINAL76839B/626d01d7…。原前两输入失败91.37788493000002秒保留，同task **218.31438091800004秒**；祖先总 **1877.294171609秒/130值**，旧solver/旧J/源普通值/新开发均0。该53任务已闭，未用余额不回开。
 
-原9658行[finite正候选](notes/true53-all-paid-finite-master-positive-primal-20261116.md)被[run43821568604完整网格](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)排除，修复gain−.00031326043820264013、0actual。四新梯度coarse43322/91304、fine86645/182607及U/T缓存30232607B/0c1826ad…已付；后继任务前祖先1658.9797906909998秒/128值。
+点54 CACHE2 **29875030B/741c29df804180e633195077c2e43002f8797223a52fc2980492feb5997012f9**，binding **0beeb7463fdf2cef41449f653a84153688491b1b9da201b8f777b1181471ec73**。真实U/T/e/f/radial/theta和159坐标由已付普通值内存抽出，0值/JVP重算；未导出positions/curvature/二jet/Jac，不假已缓存。全部payload原stdout，不进Git/artifact/Release/cache。原53MODEL与所有旧方向/梯度只能作闭历史，不能冒54模型。
 
-[准确支撑metadata续入口](notes/true53-four-cut-exact-support-metadata-continuation-20261116.md)唯一继续run43827509699/research133164733399/source513aa99d7c361bb67dbc1d04e32f3d563fe6b1b9正在执行。原classify仅读left/right，直接取已绑定basis的准确9/250、423/500，不重造子空间或猜layout；5743逐序/installed/5+4仍全部保。前两次失败[首记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)/[布局记录](notes/true53-four-cut-layout-descriptor-failure-20261116.md)均0finite/JVP/新行/actual；同task **91.37788493000002秒**已付，累计 **1750.3576756209998秒/128值**。延续同600秒，保restore1/repair1再明确加1repair，其余全部配额不重置。2源码/242绑定，request54948B/5c881dfd…；首次9662行尚未求解，完整合格后才原guard/14门，旧科学不重跑，payload仅原stdout。
+## 5. 正在接续
 
-R481五门处处正规与有限径向下降已付，继续全局0；[冻结ψ3完整E](notes/frozen-psi3-complete-cap-certified-nonzero-20261116.md)一次严格非零，run43827984553/research133166230952/source5104179cb2ce1131f849ce0b2a224a021691d91c。25叶/84jets/0fail/0old，新0.3593075210000052秒、连旧四self16.0500706319999152；该目标闭合不重跑。R480从头付全W外矩/任意A0重复无漂移，R482继续单份K0/A≠0桥与同13规范。主门未付，继续open。
+root以原接受54的完整checkpoint和实际缓存建立**该点自己的**原约束模型/新方向；保同g/b0/159→163/reference/guard/14门，必要新构建明确记账。原有限、Hildreth、HiGHS64/cone32及该53五轮不重复，完整旧来源见[索引](results.md)。继续同g非线性误差下降、曲率/非局部reach及连续支持，不以小降幅结束。
+
+R481五门处处正规与有限径向下降已付，机制/文学继续真正全局0及边界；冻结ψ3原E一次严格非零任务已闭（run43827984553，0旧重算，新.3593075210000052秒、连旧self16.0500706319999152）。R482已给真实13状态2输入全s系统，tail继续受约束返回路径/常段平方门和唯一13规范，全部第四V保留。主完成门未付，继续open。
