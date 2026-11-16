@@ -256,3 +256,8 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 12:08:12 UTC /root — R536完整六件入口及229官方同头绑定
 
 **完整真实原128入口及条件保持已付，实际结果留R537。** [R536](results/R536-original128-root-finite-words-complete-full112-entry.md)/[接口](notes/2026-11-16-request226-root-finite-words-full112-interface.md)六件225426B/topic206671B：gen30464/14a8、plan62193/772e、request71828/6685、workflow18755/0d23、proof18510/6d6f、接口23676/28f2。原342public＋R535两public＋新gen=345，三R522＋两R535＋十一caller=16，实际361源；R518/R527中间仅完整文本。真owner_scope先安装R535编译函数再原main，原persistent CPP/main/solve/replay及19200/6000/1200/8000/600/600/1800全门不改；旧frozen旗false、准备/安装/真正g++回执分列。完整RootStats/18cache计数/full last/实际compiler/三安装来源/五物理source manifest真回读，八具名关系完整逆含全部header计原90K70、不保证fit。五原源真目录修复不改数值packet；原R522/R515后置保字，R534模型不混。新workflow只dispatch，必要缺失/运输错误清complete、原quiet/清理保。只纠正338行序说明，全scientific对象其余逐值核；完整源码即发布后单次官方派发，不添测试/科学门或恢复已删父。同笔[229官方绑定](notes/2026-11-16-request229-official-run-binding.md)确认run43863347779、actual与发布同4a0f、compute133285545704前1–10success/11科学，geometry唯一R543。
+
+
+## 2026-11-16 12:16:00 UTC /root — R511实际222新点域完成与源guard
+
+[R511](results/R511-actual222-coast-base-domain-complete-and-native-source-binding-stop.md)32170/5d95完整；两终日志amplitude各唯一。新coast十点1028/1637闭域全付、112far/joint/13850点/gzip双身份齐，BVPchild1.379754821s实起却旧argv来源guard，closed另ENTRY错，composition超90K无body；15后继未起、quiet而cleanup skip，无accepted父。226官方43863878883/同f93b已step11，root唯一R537；H更新真实run与容量，所有原门/不可补边界保。
