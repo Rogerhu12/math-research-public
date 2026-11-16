@@ -173,3 +173,8 @@
 ## 2026-11-16 — Request200：原完整39八对与必要读回
 
 [200完整入口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)最终七件/原完整差异及必要失败补丁已核：R428原104pins逐值保→105+独立worker=106，真98 warm/status从原artifact重取，另起同39八对。原38+RIGHT459/fraction .8273268353539885、459/460/462..491及free461完整仿射/699×453/236036/H/109core保；原17α/1200/600/90/30/4096角及10500/175step/195job/10min读回/2700规则镜像不变。abf42d92必要读者、68d53286 worker、2b9c71c0 recipe、30508867 request/0de9e717 workflow绑定；全部trial/失败/observer错误/FD收缩失败/真实末pair与三参数保，单90KB超限70、quiet/条件清理不变。actual191末raw不用，不预报8对或尺寸；run43780457519/sourcecb597d3c3d66f9787a712ffa7ca9dc3d52bd57de，compute133016222219已入step7原完整八对链；exact唯一R432，尚无新科学接受。
+
+
+## R426 — 同一C现场闭查询与完整metric精化
+
+[R426完整接口](results/R426-same-job-continuous-C-live-query-refinement-and-complete-metric-interface.md)/07fc4e41+77be1d98保同job真C四件及原source-index/完整panels，调用原f12f六primitive/QueryCover；1440片/全深根族/完整闭逆像不删，实际新界与原粗界相交后仍原四Loewner。新两payload缺/精化partial保旧界，原场/四件绑定错误不绕过；原query root分割冻结、准确径向键共用、全总钟/活动子钟与finally精度恢复。事务异常撤销未提交new complete，正常完整粗界的resolution=false仍可用。单90KB/全部当前地址/后缀/原身份，raw不删；累计半径/深族/前缀盒宽仍在，无新450或metric结果，R434接编排。
