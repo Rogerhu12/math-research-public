@@ -6,7 +6,7 @@
 
 根/题README已全文读。两仓已blob:none sparse部分克隆；本地public于10:57:56→10:58:07 UTC真实pull --rebase，已读上游 **aa00d76e4a0292f780406c5f75090668a9b66523**，rc0双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一≤**11:58:07 UTC**；变更只读diff执行/记SHA，NFF立即实际rebase续推。
 
-首次NFF于10:54:36→10:54:42另实际读99a83bde6ec9654dfee36057afaf2dcdcc8a5c15，双README空diff；后次已记上，后续逐pull保H提交历史。
+首次NFF于10:54:36→10:54:42另实际读99a83bde6ec9654dfee36057afaf2dcdcc8a5c15，双README空diff；同批后次2ed5c7bb1af5283fac6a6131fb4605d8234ea8ad亦已读，后续逐pull保H提交历史。
 
 private于10:52:23.800032→10:52:32.780639实际pull读 **507d08ba813bad8699caaf3b6443a7ac0fa44714**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前小域run43851980835两job也均真实拉两仓/README空diff；私有正文不发表。
 
@@ -52,12 +52,12 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 56 CACHE2为29867329B/c8ad34a26c6f5ade483d07189bc718bd13c3bec1c24caa0b9ff3aaa949337a4e，binding a6465ff91278055caf0c64e374751901f06e23361b760d3414c89c4e87020b60，含同点U/T/e/f/grid/168，无positions/曲率二jets/J。原55 MODEL、55方向CACHE和54旧159J均不能冒56输入；全部payload仅stdout。
 
-## 5. 正在接续（2026-11-16 10:52 UTC）
+## 5. 正在接续（2026-11-16 10:59 UTC）
 
-[大域实际失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)run43847611444：一阶合格但κ58.007888653387816>58，仍56；188.38691980800002秒/3值任务闭，累计祖账2421.953314364秒/141值。
+[大域失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)run43847611444：κ58.007888653387816>58，仍56；188.38691980800002秒/3值闭账，祖账2421.953314364秒/141值。
 
-**[小域168输入顺序退出](notes/true56-small168-pool-order-input-failure-and-same-scope-continuation-20261116.md)** run43851980835/research133246562883/report133247025583/source8f68ac1675d3f896d1e53c187be59549466a2529。旧prepare强制sorted，而真实学习池追加104448；容量12000/6684未超。全部新科学started为0，最后**23.005758439000005秒**留同300秒账户，剩276.99424156099997秒，不清零、不重开旧大域。
+**[小域168同账户续接](notes/true56-small168-literal-pool-order-same-account-continuation-20261116.md)已提交待Actions。** 首run43851980835在old sorted池接口退出，0新科学started，23.005758439000005秒保同300秒。新audit先读该原FINAL_CLOCK再装prior ledger；新transfer先原56池构造field/grid，后按当前4454/4549、v15/14字面次序安装，保原唯一性/范围/capacity，不删104448。
 
-root正修：先原56池构造固定field/grid，再按字面当前池4454/4549、v15/14安装并保原唯一性/范围/容量/顺序；新geometry仍复用9002行完整J/g＋8付费梯度＋56 U/T，仅补104448。h≤1/128（物理1/512）、全部168/172盒/原14门和8scan/32新行/8master/64scalar/3pair6值均保。续接先读本失败原FINAL_CLOCK，跨进程累计时钟与started，尚无finite/actual结果。
+仍h≤1/128、全部168/原172盒/14门，复用9002行J/g＋8梯度＋56 U/T，仅补新原metric行；原8scan/32行/8master/64scalar/3pair6值不变。request-true56-small168-continue.json 66092B/b916203748980f07a60c2d911cbb1117ed5ce7f11d76f0ddffb7c7cb16e4d2cf；workflow visible-true56-small168-continue.yml。当前finite/actual尚0，R504新predictor未插入本任务。
 
-理论接.6<H<H*完整同图Re/Im、R503反射片段之间的真实桥内部K/全period/13；R504在推完整真实168参数线的非线性metric而非旧affine预测。三/四原子闭账不重复。主完成未付，继续open。
+理论接同图.6<H<H*的Re/Im联合零、R503之间真实桥内部K/全period/13；R505正推新同形库的非secant局部路径，未付前不计结果。三/四原子闭账不重跑。主完成未付，继续open。

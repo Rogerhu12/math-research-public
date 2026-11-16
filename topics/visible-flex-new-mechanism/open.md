@@ -201,3 +201,7 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 ## 2026-11-16 10:56 UTC：R504真实168参数线与原PSD余项
 
 [R504](results/R504-complete-168-parameter-line-second-metric-jets-and-curvature-PSD-remainders.md)给完整非线性T/U差式、方向e″/f″、显式三阶metric余项和原qI±τK四行余项。旧affine-observable即使凸也遗漏几何二阶，不能作实际metric上界；height-only已有明确α²bδ²项。下一新predictor可只用paid U/T与完整scalar/Π，须独立预算/浮点身份/实际舍入坐标，不挪入本small168原scalar会话。曲率需额外B0或b_s，原14门/精确172盒/全period仍保，未证56下降。
+
+## 2026-11-16 10:59 UTC：小域168同300秒续接已提交
+
+[续接设计](notes/true56-small168-literal-pool-order-same-account-continuation-20261116.md)修复原constructor的sorted前提与actual追加顺序，保当前池字面顺序/原容量和全部tag。启动先认证首失败FINAL_CLOCK，23.005758439000005秒与0started原样装同300账；所有参数相等，不改变h、原14门、旧输入或次数限额。本任务尚未尝试finite，继续首次真正模型；R504新非线性predictor另留后继，不混本scope。

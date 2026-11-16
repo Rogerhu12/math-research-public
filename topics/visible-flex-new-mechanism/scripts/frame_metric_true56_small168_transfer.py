@@ -162,7 +162,33 @@ def read_source(request,ledger,*,capture=None):
         progress["elapsed_source_input_seconds"]=time.monotonic()-started
 
 def prepare(request,output,completed,ledger,*,process_started):
-    prepared=prepare_actual56(request,output,completed,ledger,process_started=process_started)
+    # The closed actual evaluator appends new IDs; its literal pool order is
+    # authoritative.  The older constructor accepts only sorted source pools.
+    # Give that constructor its original56 pool, then install the current
+    # authenticated pool without changing an ID, order, capacity or gate.
+    constructor=dict(completed)
+    constructor["source_stage"]=completed["report"]["actual_stage"]
+    prepared=prepare_actual56(request,output,constructor,ledger,process_started=process_started)
+    stage=completed["source_stage"]
+    for label in ("coarse","fine"):
+        values=stage[label+"_pool"]
+        grid=prepared["row_grids"][label]
+        capacity=int(prepared["cfg"]["max_pool_rows" if label=="coarse"
+                                     else "max_fine_physical_pool_rows"])
+        require(isinstance(values,list) and all(type(v) is int for v in values)
+            and len(values)==len(set(values)) and len(values)<=capacity
+            and all(0<=v<11*grid.point_count for v in values),
+            "the literal actual pool must retain unique legal IDs within its original capacity")
+        prepared[label+"_pool"]=list(values)
+        prepared["replay"]["source_checkpoint"][label+"_pool"]=list(values)
+        prepared["replay"]["source_checkpoint"][label+"_pool_version"]=stage[label+"_pool_version"]
+    restoration=prepared["replay"]["source_input_restoration"]
+    restoration.pop("all24_original_inputs_loaded_once",None)
+    restoration.update(original24_inputs_restored_once_in_this_process=True,
+        input_restore_attempts_in_this_same_task=2,
+        closed_actual_pool_literal_order_preserved=True,
+        old_constructor_only_used_original56_pool=True,
+        current_model_uses_complete_latest_pool=True)
     prepared.update(paid_joint_input=completed["paid_joint_input"],
         paid_joint_model=completed["paid_joint_model"],
         paid_joint_receipt=completed["paid_joint_receipt"])

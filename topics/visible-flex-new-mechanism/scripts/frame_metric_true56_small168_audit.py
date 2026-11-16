@@ -139,7 +139,8 @@ def partial_input_payload(capture,jets,prepared):
 
 def cost_snapshot(ledger):
     if ledger is None:
-        elapsed=time.monotonic()-PROCESS_STARTED
+        current_process=time.monotonic()-PROCESS_STARTED
+        elapsed=PRIOR_SECONDS+current_process
         counts={}
         result={"scientific_seconds":elapsed,"started_counts":counts,
                 "limits":{"science_seconds":300},
@@ -147,7 +148,10 @@ def cost_snapshot(ledger):
                 "deadline_observed_exceeded":elapsed>=300,
                 "observed_overrun_seconds":max(0.,elapsed-300),
                 "all_inputs_imports_failures_serialization_share_this_clock":True,
-                "bootstrap_error_before_ledger_construction":True}
+                "bootstrap_error_before_ledger_construction":True,
+                "prior_same_task_scientific_seconds":PRIOR_SECONDS,
+                "current_process_scientific_seconds":current_process,
+                "prior_time_preserved_even_if_source_authentication_raises":True}
     else:
         result=ledger.report()
         elapsed=result["scientific_seconds"]
@@ -175,6 +179,108 @@ def source_closed_receipt():
             "closed_scope_not_reopened":True,
             "full_source_receipt_is_authenticated_before_new_geometry":True}
 
+
+PRIOR_SECONDS=23.005758439000005
+PRIOR_SOURCE={
+    "run_id":"43851980835","job_id":"133246562883",
+    "source_commit":"8f68ac1675d3f896d1e53c187be59549466a2529",
+    "workflow":".github/workflows/visible-true56-small168.yml",
+    "log_bytes":406203,
+    "log_sha256":"d92f4b5dd5077376c76ce49992c9c734f361c61c34bd469ab9cacb9ea0b41fd2"}
+PRIOR_RECORDS={
+    "COMPLETE":{"JSON_plus_LF_bytes":243483,
+        "JSON_plus_LF_sha256":"358c4b593bafd11e4237e682076800c9b230b7fe151926162ab466a13443f318"},
+    "FINAL_CLOCK":{"JSON_plus_LF_bytes":3969,
+        "JSON_plus_LF_sha256":"bd27823a8c3f9d607a77a3b8e56677374cffe2b2036f0ae9bdbce95be3e1bf3d"}}
+PRIOR_REQUEST={"path":"topics/visible-flex-new-mechanism/computations/request-true56-small168.json",
+    "bytes":64925,"sha256":"41bbad4ca582631f8725ffeb03982bf46dba5ad159a384b27e8d7a4ea537344f"}
+
+def read_prior_task_receipt(request,progress):
+    """Read the genuine failed process; this is the same300-second account."""
+    import io
+    import read_original_actions_log as reader
+    require(request["same_task_prior_failure"]=={
+        "source":PRIOR_SOURCE,"records":PRIOR_RECORDS,"request":PRIOR_REQUEST,
+        "scientific_seconds":PRIOR_SECONDS,"same_scope_seconds":300},
+        "the exact failed small-domain process and original budget are required")
+    progress.update(status="started",source=copy.deepcopy(PRIOR_SOURCE),
+        ordinary_J_master_reexecution=0)
+    raw_request=Path(PRIOR_REQUEST["path"]).read_bytes()
+    require(len(raw_request)==PRIOR_REQUEST["bytes"]
+        and reader.digest(raw_request)==PRIOR_REQUEST["sha256"],
+        "the original same-task request changed")
+    previous_request=reader.decode_json(raw_request)
+    require(request["parameters"]==previous_request["parameters"]
+        and request["original_input_arguments"]==previous_request["original_input_arguments"]
+        and request["paid_joint_source"]==previous_request["paid_joint_source"]
+        and request["paid_joint_records"]==previous_request["paid_joint_records"],
+        "this continuation may not change the mathematical task or limits")
+    api=reader.GitHubReader(REPO)
+    run=api.api_json("/actions/runs/"+PRIOR_SOURCE["run_id"])
+    job=api.api_json("/actions/jobs/"+PRIOR_SOURCE["job_id"])
+    require(str(run["id"])==str(job["run_id"])==PRIOR_SOURCE["run_id"]
+        and str(job["id"])==PRIOR_SOURCE["job_id"]
+        and run["head_sha"]==job["head_sha"]==PRIOR_SOURCE["source_commit"]
+        and run["path"]==PRIOR_SOURCE["workflow"]
+        and job["status"]=="completed" and job["conclusion"]=="failure",
+        "the actual failed research job is required, not a successful replacement")
+    raw,redirects=api.job_log(PRIOR_SOURCE["job_id"])
+    require(len(raw)==PRIOR_SOURCE["log_bytes"]
+        and reader.digest(raw)==PRIOR_SOURCE["log_sha256"],
+        "the original failed stdout identity changed")
+    found={}
+    counts={}
+    for line in io.StringIO(raw.decode("utf-8-sig")):
+        clean=reader.ANSI.sub("",line.rstrip("\r\n")).lstrip("\ufeff")
+        match=reader.TIME_PREFIX.match(clean)
+        if match is None:
+            continue
+        body=match.group(2).lstrip("\ufeff")
+        if not body.startswith("TRUE56_SMALL168_"):
+            continue
+        tag,sep,payload=body[len("TRUE56_SMALL168_"):].partition(" ")
+        if not sep:
+            continue
+        counts[tag]=counts.get(tag,0)+1
+        if tag not in PRIOR_RECORDS:
+            continue
+        literal=payload.encode("utf-8")+b"\n"
+        pin=PRIOR_RECORDS[tag]
+        require(counts[tag]==1 and len(literal)==pin["JSON_plus_LF_bytes"]
+            and reader.digest(literal)==pin["JSON_plus_LF_sha256"],
+            "the failed process original record identity changed")
+        found[tag]=reader.decode_json(literal)
+    require(set(found)==set(PRIOR_RECORDS),
+        "both original same-task COMPLETE and FINAL_CLOCK are required")
+    real,clock=found["COMPLETE"],found["FINAL_CLOCK"]
+    require(real["status"]==clock["status_at_final_emit"]=="joint168-input-or-scientific-error"
+        and real["github_sha"]==PRIOR_SOURCE["source_commit"]
+        and str(real["github_run_id"])==PRIOR_SOURCE["run_id"]
+        and real["source_files_sha256"]==previous_request["source_sha256"]
+        and real["error"]["message"]==
+            "coarse complete source pool is malformed or exceeds the original capacity"
+        and clock["sampled_after_all_large_cache_and_complete_write_and_flush"] is True
+        and not clock["scope_exhausted"],
+        "the exact original pre-model pool-order failure must be continued")
+    prior=copy.deepcopy(clock["ledger"])
+    require(prior["scientific_seconds"]==PRIOR_SECONDS
+        and prior["limits"]==request["parameters"]["limits"]
+        and all(type(v) is int and v==0 for v in prior["started_counts"].values())
+        and prior["attempted_problem_bindings"]==[]
+        and prior["ancestor_scientific_seconds"]==SOURCE_SECONDS
+        and prior["total_source_plus_new_started_values"]==SOURCE_VALUES,
+        "all original failed time/counts and closed ancestor must remain")
+    prior["source"]={"source":copy.deepcopy(PRIOR_SOURCE),
+        "records":copy.deepcopy(PRIOR_RECORDS),"request":copy.deepcopy(PRIOR_REQUEST),
+        "same_task_not_a_budget_reset":True}
+    progress.update(status="complete",source=copy.deepcopy(PRIOR_SOURCE),
+        original_records=copy.deepcopy(PRIOR_RECORDS),
+        prior_same_task_scientific_seconds=PRIOR_SECONDS,
+        prior_started_counts=copy.deepcopy(prior["started_counts"]),
+        log_redirects_without_forwarding_authorization=redirects)
+    return prior
+
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--request",required=True)
@@ -183,6 +289,7 @@ def main():
     ledger=prepared=completed=jets=model=handle=scan=cache=line=actual=None
     scope_error_type=()
     source_capture={}
+    prior_capture={}
     build_capture={}
     exchange_progress={}
     report={
@@ -216,7 +323,10 @@ def main():
         report["source_files_sha256"]=implementation_hashes(request)
         from frame_metric_true56_small168_scope import Joint168Ledger,Joint168Limit,LIMITS,POLICY
         scope_error_type=(Joint168Limit,)
-        ledger=Joint168Ledger(PROCESS_STARTED,ancestor_receipt=source_closed_receipt())
+        prior=read_prior_task_receipt(request,prior_capture)
+        ledger=Joint168Ledger(PROCESS_STARTED,ancestor_receipt=source_closed_receipt(),
+                             prior_scope_receipt=prior)
+        report["same_task_prior_receipt"]=copy.deepcopy(prior_capture)
         params=request["parameters"]
         require(POLICY==POLICY_NAME and params["policy"]==POLICY
             and params["limits"]==LIMITS
@@ -307,6 +417,7 @@ def main():
                          "traceback":traceback.format_exc(),
                          "budget_kind":getattr(error,"kind",None)}
     finally:
+        report["same_task_prior_input_progress"]=copy.deepcopy(prior_capture)
         report["source_input_progress"]=compact_capture(source_capture)
         report["new_input_progress"]=compact_capture(build_capture)
         report["exchange_progress"]=exchange_progress
@@ -362,6 +473,7 @@ def main():
                 "fixed_reference_record":copy.deepcopy(request.get("fixed_reference_record")),
                 "permanent_constructor_source_is_not_a_current_point_or_derivative":True,
                 "all168_coordinates_were_free_at_actual56":True,
+                "same_task_prior_failure":copy.deepcopy(request.get("same_task_prior_failure")),
                 "complete_field_definition":prepared["field168"].evaluation_definition(),
                 "physical_map_binding":copy.deepcopy(prepared["physical_map_binding"]),
                 "new_input_model_and_actual_arrays_live_only_in_original_stdout":True,
@@ -396,7 +508,7 @@ def main():
             exhausted=True
             report["status"]="joint168-scope-exhausted-after-output"
             report["final_budget_message"]=str(error)
-    elif time.monotonic()-PROCESS_STARTED>=300:
+    elif PRIOR_SECONDS+time.monotonic()-PROCESS_STARTED>=300:
         exhausted=True
         report["status"]="joint168-scope-exhausted-after-output"
         report["final_budget_message"]="same 300-second scope exceeded before ledger construction"
