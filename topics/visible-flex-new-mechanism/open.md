@@ -32,7 +32,7 @@
 
 [R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)保同一实际58、原xstar射线和原172盒，准确写U=U0+αV、Xss=B0+αL+α²H+V17y；不要求未存的任意R1二次张量。完整曲率谱可清分母为6/4/8次三门，必须同时保R≥0和Qcross>0，实际G不置1；原未平方PSD仍作真实候选判定。自由A的最优值−C给trace零几何目标，原盒有准确逐角可达区间；同一17y的纤维余量连续并有完整minimax判据，离散失败不能排连续α域。
 
-[完整设计](notes/true58-joint-alpha-R2-original-box-design-20261116.md)、唯一request与新源现提交公开Actions：19变量(α,y17,h)，α[1/64,1/2]，min完整合成物理norm上界h；唯一α1/4初点，原剩余精确盒中点及实际binary64解码盒状态分别记录。一次SLSQP/解析Jac，maxiter160、400完整新评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。原58 CACHE2 selected metric读固定a；新MODEL后固定行尺度、初残差/Jac与真实返回由SOLVE_TRACE/NONLINEAR_RESULT保留。一次准确共同合成/舍入的合格候选才付固定metric/2首jets绑定、至多1全body预测与1原actualpair。request71258B/383d0d45ecd6c617385eae3a4979856db997beb2b1c76029b7e98b7702c037d3、326源hash已绑定；独立源码纸审完成并按实际输出布尔值记录。尚无新科学终账或59，全部费用待真实FINAL。
+[完整设计](notes/true58-joint-alpha-R2-original-box-design-20261116.md)、唯一request与新源现提交公开Actions：19变量(α,y17,h)，α[1/64,1/2]，min完整合成物理norm上界h；唯一α1/4初点，原剩余精确盒中点及实际binary64解码盒状态分别记录。一次SLSQP/解析Jac，maxiter160、400完整新评价、solver120秒/总600秒；不重BVLS、旧LP、frame/Π/J/输入ordinary。原58 CACHE2 selected metric读固定a；新MODEL后固定行尺度、初残差/Jac与真实返回由SOLVE_TRACE/NONLINEAR_RESULT保留。一次准确共同合成/舍入的合格候选才付固定metric/2首jets绑定、至多1全body预测与1原actualpair。request71258B/383d0d45ecd6c617385eae3a4979856db997beb2b1c76029b7e98b7702c037d3、326源hash已绑定；独立源码纸审完成并按实际输出布尔值记录。实际run43880150928/research133343574077、source25c98ff4198cfc10552ddcd0dc9307110a6be8de已进入研究；尚无新科学终账或59，全部费用待真实FINAL。
 
 ### 仍须支付
 
@@ -77,6 +77,12 @@ $
 [R527](results/R527-finite-amplitude-same-gauge-ruling-paths-with-complete-matrix-memory.md)保原20全部指定数值，从起点同母30目标取得完整q三矩与紧弧ℓk>0、ℓtan<0（不用缩放强设Gc1）。明确cosh水平弧跨|k|1及较弱2/hmax门；真实长前缀m=T0Mc/T=−T0²Ac²/2，保B′=Mraw，以q=z0/T0和统一速度Jac给有限T0实际全相位K0/C1跟踪。末m=T0Mc+B不零，常态germ/13/pose/period仍欠；完整较强能量界未授。
 
 新30行的主像、真实正核与C²余项共同支付；先固定有限高阶目标、母库和χ，再固定时钟/B0/z0，最后选有限T0。原20的非零目标不受归一改变。完整εF含z0+ℓ+2b(Ac,B)+εH，真实B并未冻结为参考；原水平关系和同一速度Jac在整紧弧非零，故前缀全germ准确接合。实际曲率换号且两边越1、ω越2/hmax；这只付真实非局部延拓，不授M0或常态返回。后继必须从实际末历史继续。
+
+### R529固定非零平方零叶不能配平完整矩阵
+
+[R529](results/R529-fixed-nonzero-quadratic-leaves-and-the-real-positive-matrix-increment.md)对穿k0常态的任意固定非零三q零面，原水平叶p1^{ωc}非恒处严格正；退化线叶k0/t1严格负。故正时往返/重复不能M0。R527有限ε实际总p1=δ+O(1/T0)>0，真实长前缀该坐标0；该族不闭。下一三q全0或横穿曲面仍保真实B′，尚未构造。
+
+完整入口常数f(t_c)、真实换坐标p1与t1、非单调时钟/停顿及原端势已逐项保留；对R527用实际C1估计过积分，不把小法向q重新设零。原大幅K0仍成立，但同一参考弧附近每个充分大有限T0都不是M0返回。继续同母三q全零的完整历史控制，或真正跨曲面/其它历史方向；不把此具体分支阻断外推为主问题无解。
 
 ### R521新的有限正复制与完整history反馈
 

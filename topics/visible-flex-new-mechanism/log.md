@@ -809,3 +809,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 
 ## 2026-11-16 13:52 UTC：真正58共同幅度与R2新任务提交
 [完整设计](notes/true58-joint-alpha-R2-original-box-design-20261116.md)及request71258B/383d0d45ecd6c617385eae3a4979856db997beb2b1c76029b7e98b7702c037d3绑定326源，独立纸审完整模型/Jac/原盒/输入schema/actual/report，限额时原后端输出回执按实际保存状态填写。唯一19变量SLSQP总600秒/solver120秒/160iter/400完整评价，至多1预测/1actualpair；已付数组按原身份读，不重原LS/LP/frame/Π/J。尚无运行终账，58和2882.412483226秒/147值暂不变。
+
+
+## 2026-11-16 13:54 UTC：R529非零平方零叶的真实矩阵严格分离
+[R529](results/R529-fixed-nonzero-quadratic-leaves-and-the-real-positive-matrix-increment.md)由原水平第一积分得一般非零q双曲叶p1^{ωc}严格正，退化叶t1严格负；非单调往返仍不抵消。R527实际C1误差给总p1=δ+O(1/T0)>0，长真实前缀该项字面0，故该有限族自身非M0。root与独立审读逐式通过，0新科学；联合19 run43880150928/research133343574077已研究中，尚未读终账。

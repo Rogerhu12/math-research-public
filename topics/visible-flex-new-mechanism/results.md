@@ -479,3 +479,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [真正58共同反射幅度与R2新联合任务](notes/true58-joint-alpha-R2-original-box-design-20261116.md)：**已提交，待实际观察**，α+y17+h原172盒、完整合成norm及实际G谱门，一次SLSQP/解析Jac，600秒总账/120秒solver/400完整评价。合格舍入候选才1全body预测及原actualpair；326源绑定，当前不授59或主完成。
+
+
+- [R529 固定非零平方零叶的原矩阵严格分离](results/R529-fixed-nonzero-quadratic-leaves-and-the-real-positive-matrix-increment.md)：**已证明**穿k0常态的完整水平叶，非退化时原p1严格正、退化时t1严格负，正时往返/重复不能M0。R527实际有限家族由C1误差继承严格正总p1；不排三q全0、横穿曲面或其它真实history控制。

@@ -28,15 +28,17 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 ## 4. 已闭cap路线与原库真实路径
 
-[R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)保R471/R491的C≥0、正Af密度、全部尾/跳图与双端，严格分离H∈[3/5,2]的Δ4−βΔ6；接R496覆盖H≥2，排当前允许cap五门共同零。旧cap15/三原子/四原子/唯一LP已闭不重跑；原LP183.90384485000004秒、nit270738、x/dual None的no-decision仍按[原观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)保留，不追写当时已有证书。
+[R513](results/R513-complete-two-row-cap-separation-and-global-five-condition-obstruction.md)严格排R471/R491正Af、C≥0、全尾/跳图及双端的cap五门；接R496覆盖H≥2。原cap15/三四原子/LP全闭不重跑；原LP183.90384485000004秒、nit270738、x/dual None按[原观察](notes/complete-cap5-integral-certificate-LP-time-limit-no-candidate-20261116.md)保留，当时无证书。
 
-[R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)付同R459可变母类Jtr实际C1成本截面，保非零基准/原宽窗口、有限正配平/整数复制和真桥；按同库R467/464接period/13。未付同一实际字逐点K，不拼R512字面同形库。
+[R518](results/R518-fixed-width-complete-period-cost-cone-and-actual-finite-C1-sections.md)付同R459可变母Jtr实际C1成本截面，保非零基准/原宽、正配平/整数复制与真桥，按R467/464接period/13。未付同一实际字逐点K，不能借另一母。
 
-[R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)从起点加强R459有限C²纤维，保四自然/共同cap/原20值，以真实22行正根付完整Qc0/Gc1。纯self三导三项相消后才降C²，YC/左尾保；一次χ使真A=tAc、T=−t²Ac²/2常段K0，内部真实t0以∂ksF=t0给非恒出口。未付返回、原13规范、M/T/V/frame/位置；不借R518末成本代全路径。
+[R520](results/R520-variable-mother-constant-ruling-and-same-gauge-nonconstant-local-departure.md)同R459初选纤维/原20，以22真实正根付Qc0/Gc1；完整YC/真尾保，一次χ给真实常态A=tAc、T=−t²Ac²/2的K0及非恒局部出口。返回/13/M/T/V/pose未付。
 
-[R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)核原raw八矩：同R520的末常态germ还须完整bc(δA,Ac)=qc(δA)=0，真实第三W保。若εh=hmax√L‖hs‖₂/hmin²<1，同长度八矩等于LMc强迫全程常态；完整M0必须k换号、max|k|>1、εh≥1及oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。仅scalar返回未排，不借局部IFT充有限幅桥。
+[R524](results/R524-same-gauge-constant-return-gates-and-real-matrix-excursion-obstructions.md)末常态germ须bc(δA,Ac)=qc(δA)=0。εh=hmax√L‖hs‖₂/hmin²<1时，同长度八矩=LMc迫常态；M0须k换号、max|k|>1、εh≥1及oscω>2√((L+∫(hs/h)²)/∫h²)≥2/hmax。不排仅scalar返回。
 
-[R527](results/R527-finite-amplitude-same-gauge-ruling-paths-with-complete-matrix-memory.md)保原20全部指定数值，从起点同母30目标取得完整q三矩与紧弧ℓk>0、ℓtan<0（不用缩放强设Gc1）。明确cosh水平弧跨|k|1及较弱2/hmax门；真实长前缀m=T0Mc/T=−T0²Ac²/2，保B′=Mraw，以q=z0/T0和统一速度Jac给有限T0实际全相位K0/C1跟踪。末m=T0Mc+B不零，常态germ/13/pose/period仍欠；完整较强能量界未授。
+[R527](results/R527-finite-amplitude-same-gauge-ruling-paths-with-complete-matrix-memory.md)保原20值，30同母目标付非零q零面与ℓk>0/ℓtan<0（不缩放Gc1）。长真实常前缀+保B′=Mraw的IFT/ODE给有限T0大幅全K0；只越|k|1及较弱2/hmax。末m=T0Mc+B、germ/13/pose/period未闭。
+
+[R529](results/R529-fixed-nonzero-quadratic-leaves-and-the-real-positive-matrix-increment.md)对穿k0常态的任意固定非零三q零面，原水平叶p1^{ωc}非恒处严格正；退化线叶k0/t1严格负。故正时往返/重复不能M0。R527有限ε实际总p1=δ+O(1/T0)>0，真实长前缀该坐标0；该族不闭。下一三q全0或横穿曲面仍保真实B′，尚未构造。
 
 ## 5. 不同母库的范围与新的完整history反馈
 
@@ -52,7 +54,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 ## 6. O2后继及当前工作顺序
 
-[R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)由已付射线给共同α+y17完整有限式，实际G/Qcross的6/4/8次谱三门须保R≥0；自由A最优−C，原盒trace区间和共同纤维minimax/连续性已证。只存Hx*x*，不称全R1张量。[新联合19任务](notes/true58-joint-alpha-R2-original-box-design-20261116.md)现提交：α[1/64,1/2]，600总秒/120solver秒/160iter/400新解析评价，至多1预测/actualpair；request71258B/383d0d45ecd6c617、326源绑定，独立纸审通过。等待真实run/终账，仍58；原LS/3/8 LP不重跑。
+[R525](results/R525-one-parameter-common-R1-R2-curvature-fibers-and-polynomial-original-box-domain.md)由已付射线给共同α+y17完整有限式，实际G/Qcross的6/4/8次谱三门须保R≥0；自由A最优−C，原盒trace区间和共同纤维minimax/连续性已证。只存Hx*x*，不称全R1张量。[新联合19任务](notes/true58-joint-alpha-R2-original-box-design-20261116.md)现提交：α[1/64,1/2]，600总秒/120solver秒/160iter/400新解析评价，至多1预测/actualpair；request71258B/383d0d45ecd6c617、326源绑定，独立纸审通过。run43880150928/research133343574077/source25c98ff4198cfc10552ddcd0dc9307110a6be8de已入研究，终账未读、仍58；原LS/3/8 LP不重跑。
 
 R519原9/8及mean门保；实际反射mean≈.11228未消，近似射线非等距支。已付V17/Lx/Hxx按身份读、不重Π。
 
