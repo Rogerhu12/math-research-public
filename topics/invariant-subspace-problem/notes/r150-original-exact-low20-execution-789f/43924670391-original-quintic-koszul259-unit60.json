@@ -1,0 +1,153 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43924670391",
+  "stepId": "original-quintic-koszul259-unit60",
+  "executionSourceCommit": "3870ce0fc8856b0f8a61abd1d9e4009491a6715e",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+  "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+  "argvTemplate": [
+    "--outer-seconds",
+    "120",
+    "--heartbeat-seconds",
+    "10",
+    "--stdout",
+    "{work}/original-quintic-koszul259-unit60.math.log",
+    "--heartbeats",
+    "{work}/original-quintic-koszul259-unit60.heartbeats.jsonl",
+    "--identity",
+    "{work}/original-quintic-koszul259-unit60.observed.json",
+    "--",
+    "python",
+    "{scripts}/2026-11-16-r150-original-quintic-koszul-span259-unit127-789f.py",
+    "--high95-source",
+    "{scripts}/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+    "--high95-out",
+    "{work}/original-quartic-syzygy95-small-gate127",
+    "--mixed95-source",
+    "{scripts}/2026-11-16-r150-original-koszul55-mixed95-source-unit127-789f.py",
+    "--mixed95-out",
+    "{work}/original-koszul55-mixed95-unit127",
+    "--out",
+    "{work}/original-quintic-koszul259-unit127",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "pinnedSupportSources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-koszul55-mixed95-source-unit127-789f.py",
+      "sha256": "fc1dfea5219a773af1140c3c9e8ba52bcb6acfd36ae67bd325c9317e416d0ab5"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quintic-koszul-span259-unit127-789f.py",
+      "sha256": "5242360ddf86729c271ea55559c5a84870b7fb92ef73cc653f0cf6f64165d48c"
+    }
+  ],
+  "preexistingReceipt": null,
+  "receiptUnchangedFromBeforeStep": false,
+  "observerIdentity": {
+    "path": "original-quintic-koszul259-unit60.observed.json",
+    "bytes": 2101,
+    "sha256": "376afcf442000ae057ac931a7749c7b785987a9215923bc60580d7d99ccbaf42"
+  },
+  "observerExecution": {
+    "childPid": 3255,
+    "childReturnCode": 0,
+    "command": [
+      "python",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/scripts/2026-11-16-r150-original-quintic-koszul-span259-unit127-789f.py",
+      "--high95-source",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/scripts/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "--high95-out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/original-quartic-syzygy95-small-gate127",
+      "--mixed95-source",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/scripts/2026-11-16-r150-original-koszul55-mixed95-source-unit127-789f.py",
+      "--mixed95-out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/original-koszul55-mixed95-unit127",
+      "--out",
+      "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391/original-quintic-koszul259-unit127",
+      "--seconds",
+      "60",
+      "--memory-mib",
+      "512"
+    ],
+    "cwd": "/home/runner/work/_temp/isp-original-exact-low20-session-43924670391",
+    "elapsedSeconds": 1.0182344799999896,
+    "finishedAtUTC": "2026-11-16T18:03:34.151075+00:00",
+    "format": "r150-exact-low20-observed-execution-v1",
+    "heartbeatCount": 2,
+    "heartbeatSeconds": 10.0,
+    "heartbeats": {
+      "bytes": 590,
+      "path": "original-quintic-koszul259-unit60.heartbeats.jsonl",
+      "sha256": "8837fd0f9ee23f774db21b9829b9e9ba1fb474130890d42a4916ec7140851282"
+    },
+    "observer": {
+      "bytes": 5855,
+      "path": "2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "sha256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618"
+    },
+    "outerSeconds": 120.0,
+    "sampledPeakVmRSSKiB": 540,
+    "shellEquivalentExitCode": 0,
+    "source": {
+      "bytes": 17017,
+      "path": "2026-11-16-r150-original-quintic-koszul-span259-unit127-789f.py",
+      "sha256": "5242360ddf86729c271ea55559c5a84870b7fb92ef73cc653f0cf6f64165d48c"
+    },
+    "startedAtUTC": "2026-11-16T18:03:33.132610+00:00",
+    "status": "completed",
+    "stdout": {
+      "bytes": 9146,
+      "path": "original-quintic-koszul259-unit60.math.log",
+      "sha256": "ece6d60a950172b32531ac1706e0aa863ddef1aa7290e40ad22accc82248f32e"
+    },
+    "terminationRequestedByObserver": false,
+    "unobservedTerminationCauseInferred": false,
+    "waitedChildRuMaxrssKiB": 47440
+  },
+  "timeoutSeconds": 180,
+  "exitCode": 0,
+  "wallSeconds": 1.2168194089999957,
+  "fullTemporaryReceiptBytes": 8827,
+  "fullTemporaryReceiptSHA256": "c5298003adaa92487b53a2dac9b4f5d430f18ea035674b7c459daaaba8e88eba",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.12.14 (main, Aug 13 2026, 02:45:55) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 18:03:32 UTC",
+      "beforeReadCommit": "3f7cc86cd1c343e4e59a5624cfa0e6510d3515dc",
+      "originMainAfterPull": "3870ce0fc8856b0f8a61abd1d9e4009491a6715e",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 18:03:34 UTC",
+      "beforeReadCommit": "3870ce0fc8856b0f8a61abd1d9e4009491a6715e",
+      "originMainAfterPull": "3870ce0fc8856b0f8a61abd1d9e4009491a6715e",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 11,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 3774,
+    "logicalJsonSHA256": "004de6570929aaf79f49fc87aeac680e3ab7ec4eb56e7db58598639aaf6e1f10",
+    "itemCount": 11
+  },
+  "lastRulesReadCommit": "3870ce0fc8856b0f8a61abd1d9e4009491a6715e",
+  "summaryExcludesRecomputableArraysOnly": false
+}
