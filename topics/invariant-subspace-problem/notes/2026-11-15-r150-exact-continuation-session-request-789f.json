@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "df1503a1f12b6c0919c6113cb14aaf3d174e93a5",
+  "rulesReadAtCommit": "1d54ce8a4c75d352440c0235781704b40451e262",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1619,6 +1619,64 @@
       "requires": [
         "infinity-complete-tenth-after-high-probe"
       ]
+    },
+    {
+      "id": "paid-outside-divisor-reduction127-audit-60",
+      "requires": [
+        "original56-single-kernel-bockstein-300"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-paid-outside-divisor-reduction127-audit-789f.py",
+      "scriptSHA256": "e4ca530ceeb301f31c0744907809a1ede0c1cf7f1ced134475ab41e40348767d",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43772109844-original127-complete-whole-torsion60.json",
+          "sha256": "5b9e34b3d091194a4dd2072ab9c9f2320e6c804879a4716ae9c2ebfbb1932a7e"
+        }
+      ],
+      "argv": [
+        "--upper",
+        "{work}/original-three-minor-determinant-upper/current-outside-gcd-upper.json.gz",
+        "--omega-receipt",
+        "{work}/original56-single-kernel-bockstein/original56-single-kernel-bockstein-receipt.json",
+        "--whole-receipt",
+        "{scripts}/43772109844-original127-complete-whole-torsion60.json",
+        "--out",
+        "{work}/paid-outside-divisor-reduction127-audit",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 90,
+      "receiptPath": "{work}/paid-outside-divisor-reduction127-audit/outside-divisor-reduction127-audit-receipt.json"
+    },
+    {
+      "id": "original-free-thirteen-quotient-defect127-120",
+      "requires": [
+        "original-global-projection-polynomial-core"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-free-thirteen-quotient-defect127-789f.py",
+      "scriptSHA256": "eba857040649223034e043008d50e2d7f2f48169a8b2c392c8f58c7ee9b74dd3",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-original-global-projection-polynomial-core.json",
+          "sha256": "7db7d2437583105a9bb2474612cb5b4001989f7911ca79bd22992d025a056aa2"
+        }
+      ],
+      "argv": [
+        "--core-receipt",
+        "{scripts}/43756208221-original-global-projection-polynomial-core.json",
+        "--checkpoint-dir",
+        "{work}/original-global-projection-polynomial/checkpoints",
+        "--out",
+        "{work}/original-free-thirteen-quotient-defect127",
+        "--remaining-seconds",
+        "120",
+        "--memory-mib",
+        "1024"
+      ],
+      "timeoutSeconds": 150,
+      "receiptPath": "{work}/original-free-thirteen-quotient-defect127/j-quotient-defect-receipt.json"
     }
   ],
   "previousSession": {
@@ -1627,5 +1685,5 @@
     "knownOriginalStepsCompleted": 18,
     "restoreMethod": "Recompute only required original stages, retain new actual timing, restore only gzip timestamps and paid RREF duration metadata, require every full historical temporary-file and manifest SHA; no large input transfer."
   },
-  "mathematicalProgramStatus": "Ordinary ISP remains open. Completed coefficient31 analysis proves affine degree300 and residual envelope142. Three exact original-row determinants completed in113.562241801 seconds and give Omega dividing degree120 upper U. Queue complete all56-row local certification: squarefree support, unit Schur, exact factor splits, and only necessary higher precision; no original core or determinant recomputation."
+  "mathematicalProgramStatus": "Ordinary complex Hilbert ISP remains open. Complete original infinity at127 is66; independent affine torsion299 is fully verified. Publish exact Gauss127 proof, then audit all121 rational Omega coefficients against the complete299 characteristic exterior, and independently compute full original free13 quotient defect J127. No nine-target characteristic-zero membership or mu=1 is assumed. Retain all paid temporary caches and do not recompute determinants/core."
 }

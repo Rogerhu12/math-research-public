@@ -114,7 +114,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **已有来源全精度8535。** Ω首一D31整且原D* leading单位给q8491，任意已有同余保原e/n降费 $\max(8535,\tau+1)$；固定e任意高n才exact，单p6不够。e0任意次数mod961负证保持。
 - **完整I2与后继。** [全197原除源](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)实得 $I_2=U_7$、$\chi=(s-1)^2(s-2)^5$、exact指数2五个。完整I3须197纠偏源、七个参数图关系及b8/pb9，保原p4算术。root2全210 recipe已付但p7/六整数零carry/第四像未付，仍 $u+v=2$。
 - **独立F127完整模块。** [全6188正常形/基](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)实际补齐660来源，其中658零、6046/6063非零；全2855补集得到rank1021/free13/B8/Σd701。[全torsion](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)在完整805状态中去506观测，实际长度299、全参数作用/9目标/源DAG真。$\chi_{127}=s^{66}(s-2)^{12}(s+6)^{12}\widehat F_+^8\widehat F_-^8\widehat E_8^5(s+64)\Psi_{60}^2$ 全300系数根乘回；Ψ与Ω的127约化尚待独立实核。
-- **F127自然∞已实成。** 修复原7/8历史字段后35.292959568秒，3959098系数分母全127单位；完整H3760/C580、前十和真实第11全6188产品给∞66/sub55/max11/free13。两域原∞一致可用于Gauss；299未迫278，不预填μ1。继续原九目标共同子模/精确最小式、Ω127比较及可能的J127缺陷。
+- **[F127自然∞与Gauss已成](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)。** 实际3959098系数分母单位、完整H3760/C580/全部incoming/第11原forcing给∞66/sub55/max11/free13。Q与127在同自然chart均66，原同次齐次minor中有u66单位，故Δ首一D127整、约化保次数且barΔ|χ299，独立给278≤degΔ≤299。Ω127全部121系数比较及完整Q13的J127小审计已排，均保实际输出，不预设Ψ=barf或s+64=J。九目标共同子模/精确最小式、未乘μ的Q来源继续。
 
 旧live43756208221保Q/∞/Ω所有付费缓存，新live43772109844保127原basis/state及global197/root2 recipe；只小源码、参数、run/SHA、回执永久。精确步号/失败和恢复以HANDOFF及原小回执为准。
 

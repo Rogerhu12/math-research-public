@@ -28,14 +28,14 @@
 
 ## 活跃执行与恢复
 
-- run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。必要第五/P/高/第六/第七已重算，全部父bytes/SHA匹配；所有回执在notes/r150-source-kernel-session-789f/。
+- run43756208221始20:06:58、350分钟loop/360分钟job，30分钟/每步/push前实际pull核两README；request为notes/2026-11-15-r150-exact-continuation-session-request-789f.json，tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。已付父缓存SHA全核；所有回执在notes/r150-source-kernel-session-789f/。
 
 - **Ω约化实核：** step33/0.002218695秒及两独立全121/316乘回给barΩ=Q60²、barμ|B21；outereca924ad/raw3463·b536af2e，μ1未证。
 
 - **[全局I2=U7](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)：** run43772109844/math293.56143218秒，全197原4367/505/315/J/DAG真；χ=(s−1)²(s−2)^5、t2=5，Δ≤299/μ≤21。outerf6b83a6e/raw46870·5d9fc76f；I3须197纠偏源、7参数关系+b8/pb9。step5全210 recipe已0.510477秒核真，33227·aa7e3bfc/payload d4d486d0；p7/第四像未付。
-- **[F127完整torsion299](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：** 全6188原正常形/2855模基已核，rank4354/free13/B8/Σd701；state805，观测rank506于57稳定，CK/AK=KJ全真。native3.497066秒，raw9819·2c1054b2，state1414575·948d6e78，binding05c13d9a；χ=s66(s−2)12(s+6)12F+8F−8E8⁵(s+64)Ψ60²全300系数根乘回。9目标全torsion，但h*作用/Ω127比较/J127未付；复用out original127-whole-torsion，不重NF/GB。新live request见原global197 session。
+- **[F127完整torsion299](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：** 全6188原正常形/2855模基已核，rank4354/free13/B8/Σd701；state805，观测rank506于57稳定，CK/AK=KJ全真。native3.497066秒，raw9819·2c1054b2，state1414575·948d6e78，binding05c13d9a；χ=s66(s−2)12(s+6)12F+8F−8E8⁵(s+64)Ψ60²全300系数根乘回。9目标全torsion，h*作用/Ω127比较/J127待实核；复用out original127-whole-torsion，不重NF/GB。新live request见原global197 session。
 
-- **∞127已实成：** 原live step35/sourcea7fdfb04/35.292959568秒，全部3959098系数单位、H3760/C580、完整β=(4,0,1,3,1,1,1,1,0,1,1)。实际第11高0/低13增1，full66/sub55/max11/free13；raw11805·115e3149/binding3ffa6e91。旧7页schema失败保留，新out infinity-complete-prime127-qualification-v2。Gauss正式稿续，未由299断μ1。
+- **[∞127/Gauss299](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)：** step35/35.292959568秒、3959098系数单位、H3760/C580/实际第11给∞66/sub55/max11；raw11805·115e3149/binding3ffa6e91。与Q同66严给Δ首一D127整/保次数/barΔ|χ299；仍278≤degΔ≤299。step36 Ω全121系数比较、step37全Q13/J127独立小审计已排，未预填；不重core/det。
 
 ## 同一个w的边界：二阶测试已付，顺次返回仍开
 
