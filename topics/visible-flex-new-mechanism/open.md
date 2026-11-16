@@ -56,7 +56,7 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 ### joint168：完整168控制的共同body/suffix正式新问题
 
-[设计](notes/true58-joint168-body-suffix-design-20261116.md)与[模型合同](notes/true58-joint168-body-suffix-model-contract-20261116.md)已写成并随request正式发布，尚无科学观察。唯一true58初点z168=0/K58/h0；独立RN后原exact-null physical172，全部172真实norm行/692线性行保。原4454/4549池v15/14的9003行含全部11组，加全部21后缀两角网145152行，共154847×170。主体hard58、后缀共享K；内部metric额外准确1e−8只供求解，返回全域unsmoothedη严格比较原budget，不更改原14门。
+[设计](notes/true58-joint168-body-suffix-design-20261116.md)与[模型合同](notes/true58-joint168-body-suffix-model-contract-20261116.md)已写成并随request正式发布；唯一[run43923038659](notes/true58-joint168-body-suffix-launch-20261116.md)/source47942fb212bcc2f424fdf546437cd38b08c2d7e1、research133495072427在跑，尚无科学观察。唯一true58初点z168=0/K58/h0；独立RN后原exact-null physical172，全部172真实norm行/692线性行保。原4454/4549池v15/14的9003行含全部11组，加全部21后缀两角网145152行，共154847×170。主体hard58、后缀共享K；内部metric额外准确1e−8只供求解，返回全域unsmoothedη严格比较原budget，不更改原14门。
 
 一次1800科学秒/1200solver秒/240iter/480不同q/960不同backend170；新基准frame/Π、完整height/body准备、共享全域几何与当前解析J全付。只有literal已付firstjets/selected二jets/metric与q_R scalar绑定，未存旧大数组不造；当前RAM、淘汰真重算计费。所有组件计数/秒数和逐value/J身份/成本差分保，组件细事件只末32明确标范围，失败与全部原OptimizeResult/raw170不删。
 

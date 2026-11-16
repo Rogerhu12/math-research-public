@@ -345,3 +345,7 @@ full62源码868f2f6b5ba55affa26cc5f9d42186a565ea0a43已触发run43916013327/rese
 [设计](notes/true58-joint168-body-suffix-design-20261116.md)/[合同](notes/true58-joint168-body-suffix-model-contract-20261116.md)：170后端、168原控制、完整172/692线性、9003原selected11+145152suffix，共154847行；内部准确1e−8严格余量不改原终门。唯一true58，1800/1200秒、240iter、480q/960backend，一次solver，祖3757.97482037/147。8py与原接口仅源码文字接线，0执行/编译/测试；来源91699B/0611ff5c76d3bf25be879d7d2de01ab214f9253a8be742b5fc7764d2e6f98b96共395hash。
 
 workflow .github/workflows/visible-true58-joint168-body-suffix.yml 位于题外仅因本题获授权的公开Actions研究与其完成后stdlb只读报告所需；push本request唯一触发。两job均先真pull双仓核差异，私有凭据进入科学前清除。所有新几何/J/输入/失败/输出计费，大数组只RAM/实际bindings不作未来免费输入；全原raw170与真实失败保。旧full62失败不改判，待原run定位/终态，不宣59或主门。
+
+## 2026-11-16 17:54 UTC：joint168唯一正式运行已定位
+
+[启动元数据](notes/true58-joint168-body-suffix-launch-20261116.md)：run43923038659/attempt1/source47942fb212bcc2f424fdf546437cd38b08c2d7e1，research133495072427；原创建17:53:13Z，checkout/固定runtime成功，正式step在跑。只读metadata、0在途科学stdout；双仓实际pull以终态原回执核，不预造成功。无额外dispatch/重启，新接受仍无。

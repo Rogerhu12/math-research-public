@@ -162,3 +162,5 @@
 - [R560 同规范的真实短快高度反馈与有号面积成本](results/R560-same-gauge-short-fast-height-feedback-and-complete-signed-area-cost.md)：**已证明**同支完整F反馈h_s=κBk、真实左右γ0 germ及完整累计Φ恒等，正面积Θτ⁻³仍输于原时间Θτ⁻¹。实际两hold端IFT可末p2零/Π负但总t1仍负；零入版本后任一实际恒高归零也不修复。未排一般变高度/长时，不授全M0。
 
 - [真正58完整168共同body/suffix新问题](notes/true58-joint168-body-suffix-design-20261116.md)：**正式新scope已发布，尚无观察**。全部168控制、原9003 selected11与145152后缀约束，170变量/692线性；内部metric余量保原严格终门。唯一true58、1次1800/1200秒求解及≤1原actualpair，全部新共享几何/J计费，395源完整绑定，原full62已闭不续跑。
+
+- [joint168唯一正式run定位](notes/true58-joint168-body-suffix-launch-20261116.md)：43923038659/attempt1、source47942fb212bcc2f424fdf546437cd38b08c2d7e1、research133495072427正在执行；只见运行元数据，尚无科学结果，不宣接受59。
