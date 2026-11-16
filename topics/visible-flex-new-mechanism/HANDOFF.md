@@ -54,7 +54,7 @@ R495凹图R=p−(t+1)r完整保C/U/H、Af/simple根、8Aj/E与跳变；7A5A7−3
 
 [全168大域失败](notes/true56-full168-first-order-qualified-actual-curvature-failure-20261116.md)run43847611444：3finite收敛/3scan/8新梯度/62scalar后实际粗κ58.007888653387816>58且metric变差；18违例均已选，新soft104448停止方向，fine未求、仍56。188.38691980800002秒/3新值任务闭；累计祖账**2421.953314364秒/141值**。
 
-**[新小物理域168任务](notes/true56-small168-paid-input-new-physical-domain-design-20261116.md)代码与request已提交，等待唯一public Actions运行。** h=4||Mδ||∞≤1/128，全部168可动、172盒/原14门保；复用完整9002行J/g与8付费梯度、56同点U/T，仅补新104448与后继新tag的metric-only168导数。0ordinary输入/0旧J重建；新300秒含全部输入/失败/输出，8scan/32新metric行/8严格增行master/64scalar/3actualpair6值。旧余额不重开，主完成未付。
+**[新小物理域168任务](notes/true56-small168-paid-input-new-physical-domain-design-20261116.md)run43851980835已排队，source8f68ac1675d3f896d1e53c187be59549466a2529。** h=4||Mδ||∞≤1/128，全部168可动、172盒/原14门保；复用完整9002行J/g与8付费梯度、56同点U/T，仅补新104448与后继新tag的metric-only168导数。0ordinary输入/0旧J重建；新300秒含全部输入/失败/输出，8scan/32新metric行/8严格增行master/64scalar/3actualpair6值。旧余额不重开，主完成未付。
 
 request-true56-small168.json 64925B/41bbad4ca582631f8725ffeb03982bf46dba5ad159a384b27e8d7a4ea537344f；workflow visible-true56-small168.yml。唯一新INPUT只引用旧21MB导数并保存新梯度/绑定；原56缓存、旧INPUT3/MODEL身份详见设计和大域结论，payload仅stdout。科学返回前不声称下降或接受。
 
