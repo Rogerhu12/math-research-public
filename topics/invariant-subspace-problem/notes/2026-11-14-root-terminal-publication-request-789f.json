@@ -1,21 +1,22 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "ad3b104606347c345020d229b6fbc1c648dabacc",
-  "createdUtc": "2026-11-16 00:01:49 UTC",
-  "message": "Astra ISP: qualify F127 at original infinity with actual eleventh obstruction",
+  "parentCommit": "453b506a385617b5d21feedd61e1c7c172ba2d65",
+  "createdUtc": "2026-11-16 00:06:48 UTC",
+  "message": "Astra ISP: certify complete F127 graded basis and compute whole torsion",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-prime127-qualification-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-complete-prime127-high-native-789f.cpp",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-prime127-qualification-inputs-789f.json",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-infinity-prime127-qualification-interface-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-15-r150-exact-continuation-session-request-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-state-789f.cpp",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-runner-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-interface-789f.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-independent127-complete-original-normal-form-presentation.md",
+    "topics/invariant-subspace-problem/notes/2026-11-15-r150-global197-original-i2-session-request-789f.json",
     "topics/invariant-subspace-problem/HANDOFF.md",
+    "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-f127-infinity-qualification-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []

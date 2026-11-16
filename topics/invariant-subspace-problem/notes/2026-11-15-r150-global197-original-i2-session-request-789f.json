@@ -360,6 +360,42 @@
       ],
       "timeoutSeconds": 960,
       "receiptPath": "{work}/original127-complete-graded-module/original127-graded-module-pipeline-receipt.json"
+    },
+    {
+      "id": "original127-complete-whole-torsion60",
+      "requires": [
+        "original127-complete-graded-module-gb900"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-runner-789f.py",
+      "scriptSHA256": "3bf32f1f48ebb8b1944562ee7186ff17748725d9023dd68c37d4dd3207234fe1",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp",
+          "sha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original127-whole-torsion-state-789f.cpp",
+          "sha256": "d92bcb7395f4d81c89b6a5d291951a6d7bf920862ea68c6bb6b3fe454e485528"
+        }
+      ],
+      "argv": [
+        "--gb-out",
+        "{work}/original127-complete-graded-module",
+        "--sources-root",
+        "{scripts}",
+        "--out",
+        "{work}/original127-whole-torsion",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "2048",
+        "--compile-seconds",
+        "30",
+        "--characteristic-seconds",
+        "30"
+      ],
+      "timeoutSeconds": 150,
+      "receiptPath": "{work}/original127-whole-torsion/original127-whole-torsion-pipeline-receipt.json"
     }
   ]
 }
