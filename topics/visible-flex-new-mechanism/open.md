@@ -10,7 +10,7 @@
 `fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6`。
 同一个 $b_0$ 和 163 维参数表示；永久 enriched $c_0$ 不可换成 selected/accepted。完整连接成功后才研究利用角相位给连续族。
 
-[103首轮](notes/entry-body103-first-actual-result-20261115.md)、[154首轮](notes/entry-tail154-first-actual-result-20261115.md)、[159首轮](notes/entry-tail-height159-first-actual-result-20261115.md)及[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)保原163族内159坐标、H/盒/步长和各原失败/费用，不重跑。[旧选行仿射](notes/affine-spectral-metric-model-first-actual-20261115.md)、[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)、[六模型解释](notes/complete-affine-six-model-interpretation-20261115.md)、[九恢复/SOC补读](notes/complete-affine-restoration-and-resume-inputs-20261115.md)保两网14门与完整reference/池/cut来源。新direct末态见下；任何旧η均是metric辅助量，不是δhold。旧12LP用尽、恢复漂移和所有失败保持，不据此宣驻点。
+原103/154/159与[五高度设计](notes/same-g-entry-tail-five-height-null-design-20261115.md)保同163族/159坐标、H/盒/步长及失败费用；[完整两网首实际](notes/complete-affine-first-actual-result-20261115.md)保14门/reference/池/cut来源。全部旧η是metric辅助量，不是δhold；旧LP用尽和恢复漂移不据此宣驻点。当前最新direct与末槽入口见本文件后段，旧实例不重跑。
 
 ### O2 当前实际末态与唯一新接口
 
@@ -193,3 +193,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 ### R424：共同母矩的条件工具
 
 [R424](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)给完整局部C²负四自然函数的六项、共同M25及真幅宽中心transport；其查询像同Q4 NH比例，ordered3+2为0，再补wholeE杀负四头。从起点增加M25仍同点保19真根；未知kk的primitive/矩积/左尾须先完整归约。
+
+### R423：负四kk缺失势输入已闭
+
+[R423](results/R423-complete-static-potential-inputs-for-the-all-curvature-kk-minus4-coefficient.md)从原六Volterra maps逐项取h⁻²并真实h积分，得[N0]h⁻¹=k(τ2+k²τ2b)完整独立outer式。故−[h⁻⁴]Bm2,kkN0=S·BS(τ0+k²τ1)/16−k²·BP(τ2+k²τ2b)/16；Γ仅h⁻³/h⁻²，目标幂无项。全右锚/左尾和参考常数边界保留，不假τ2属于响应空间；完整v2−Yacc、N2及自然尾仍须合成，尚未读全kk或排正字符。

@@ -443,3 +443,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **R424：完整局部C²负四自然函数的共同母归约。** [证明](results/R424-conditional-local-C2-minus4-functions-and-common-moment-fibers.md)给六显示密度、q1/D/E5/M25真实矩阵det−1/16及ρ⁵(Hw)⁻⁷(Hξ+c)准确transport；从起点共同M25后同Q4 NH比例，ordered3+2全0，补wholeE响应后负四平移头杀之。原q四约束/19真根同点保留；不以principal消项或C²连续冒完整locality，未付kk/period仍欠。
 
 - **末槽第二实际停在请求schema，LP64仍未启动。** [原记录](notes/terminal-paid-slot-second-request-schema-stop-20261116.md)：run43787979008/job133039809172，旧11/9只复用、10.0原值已通过；旧field helper缺source.coordinate_definition_sha256。value/J/model/LP新0，仍63/58；本次science10.578692648、累计271.058278962，process11.951187913/RSS295396。完整适配字段后继续，不跳身份或重付旧检查。
+
+- **R423：全k负四kk的原静态势输入完整固定。** [证明](results/R423-complete-static-potential-inputs-for-the-all-curvature-kk-minus4-coefficient.md)给[N0]h⁻¹=k(τ2+k²τ2b)的独立outer六maps及九来源表，进而准确保留S·BS(τ0+k²τ1)/16−k²·BP(τ2+k²τ2b)/16。没有把k0单锚乘S充作全k，也不假新τ属于W；完整kk自然值、正字符与actual joint仍欠。
