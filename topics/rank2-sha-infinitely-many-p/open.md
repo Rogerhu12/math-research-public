@@ -116,3 +116,6 @@ R833全D_E像=ker res_Z_-，余核H2^0/F0H1^0，Z_-=C∩H_-长z_-=u−μd1−μ�
 
 
 - [R840](results/R840-original-double-ramification-euler-image-and-unique-normal-tail.md)：原E²H3在2Z的全像仍ker res Z_-、余核z_-≤2，来源核FH2+e²H1。兼容(V0,V1)定唯一2Z值；H*=min(T,h+ell_eff)>κ，V2同此值及前缀f2−ηf3若存在则唯一。三曲线值全提升G2+cF³，同c由第三尾6e³η定；第四前min(ell_eff,T−h)已并入V2，余尾仍同G*。全联合Serre左行Q=H0(ωN⁻¹(H*P))、dim H*−(κ+χ)/2保2Z/P所有分支/导子；原trace保qsrc两Euler导数。仅同H3子格，实际forcing/全WD/高位仍开。
+
+
+[原四Cartier输出的精确极阶与固定覆盖边界](notes/2026-11-15-fixed-torsion-connection-and-original-frobenius-initial-data.md)：§13–16付指定Z_M、G_M、P2,M在D_M的真极阶p、p²−p−1、p³−p²+p+1；原Cν的最高系数准确由D^(nν−1)Rν/(nν−1)!给，至少3M²−3nν+7个点有极阶nν(p²−p+1)−1。四个n互异，非零常数组合保真极；保同物理微分的固定tame覆盖、固定输出frame及exact消元不能实现固定全纯Hasse–Witt块。明确不包含任意输入gauge，不从全球非零推出O处原四α不能同零；原CM13全frame与第五伙伴继续。
