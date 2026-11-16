@@ -125,3 +125,5 @@
 - **R574（已证明的实际240返回范围）**：[447源准备完成、两完整必要正文超限与未知科学终因](results/R574-actual240-source-and-science-readback-overflow.md)。source350903/science221520未返，1846/1163描述符同字，外1/1/1/quiettrue与rawfalse保；源准备true不被transport.false覆盖，同job祖先不与237混同，无新父。
 
 - **R599（已证明的准确输入与来源边界组件）**：[完整有理数RN-even十词及实际coast recipe](results/R599-accurate-ten-word-and-actual-coast-recipe-boundaries.md)。小源8620B与接口/证明合30966B；全80B原相等判断保留、原H和数值算法不动，真正receipt继续原全bytes/SHA核。R597后继实际接线尚未冒执行。
+
+- **R585（实际244来源停止与固定控制流范围）**：[完整联合guard失败、必要超限与未启动科学后缀](results/R585-actual244-source-binding-stop-and-complete-necessary-overflow.md)。原454来源前缀过、十当前views未起、子R583原因未返；487638全source超90K70只返1663同字，science reader缺文件，无新科学父、不推quiet。
