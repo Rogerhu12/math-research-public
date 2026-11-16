@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：ad0a07d44c8fc264cb6ed97201fb4468f2bbb33a；2026-11-16 10:41:15 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:41:15 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
+- 最近已读规则提交：23873c4978fdba1d7f097685ff0de513fa59b4f4；2026-11-16 10:43:22 UTC核两README无变。实际CI pull 2026-11-16 10:34:48 UTC/dc63f11031d61f9ef846efc6f4e90fac814d141c（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 10:41:15 UTC仍无环境。最迟2026-11-16 11:20 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-tail-factor-layers.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–882已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-relative-six-shadow.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–883已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 当前第一实际门：原Hom与原shadow
@@ -22,10 +22,15 @@ root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C2
 
 R862–R875全部原h/τ/ell、2048κ尺度、17整返回、完整Φ17/三H、全Hecke整格与旧degree排除保完整前检；不由q整或整数准度数认Hom。
 
-**原实际候选P**：R874全q理想I∞=uOE，u=(915+1097θ+2962eps2)/55569、λu=(68+7a−13a²)/3。目标vnew=(−34−17a+11a²)/3，小最小模型119−18a²，OF=Zβ、归一系数模β⁻¹OF仅二处负值。R875精确Gram给全格最小376、q<664仅±u；这些仍非Hom。原k4/6坐标run43835679463/job133191600105与原F run43839815472/job133205402538继续，尚未认证。R867返回保17/51全尺度，求交采用R880三真Artin共轭、双轴九项与原pair；两认证后每g映射degree376，三循环让F仅进最后闭点trace。R881原好素数RR/64位及实际低核消费helper均已写；低核只接两真PASS和原RR基，全部germ界保；原r29局部输入producer已交（P到1226/F到1428、3真嵌入/τ标号、64位），修Qq参数后run43850679589/job133242082519成功：P实际loss44/保证19位，F实际51/保证12位，原τ标号(2,0,1)；仅formal精度，仍须两char0 PASS。原shadow未执行。R880附A付同CM符号的整九项检测：先eω/全χ，r29几何F841而角色F5^6；无挠H1返回同原有理类，勿预乘人为旧D的5抹掉信号。original_shadow_coefficient_tools.py已写完整18×9×2向量/CM投影消费，只接真闭点迹及两成功证书，尚未执行。附B以原R的ω/ω²等变消整个次数交叉项，差图degree2256(r+1)：r29除子67680、x极135360，逐σ/a/b保全部重数。
+**原实际候选P**：R874全q理想I∞=uOE，u=(915+1097θ+2962eps2)/55569、λu=(68+7a−13a²)/3，vnew=(−34−17a+11a²)/3；R875精确Gram给最小376，但尚非Hom。原P k4/6 run43835679463/job133191600105与原F k2/4 run43839815472/job133205402538继续，尚未认证。原F完整恒等式8ΔC³=H B²(A²−17ΔB²)²与612(k+6)末端保R878，不假Manin1。
 
+R881实际r29形式输入run43850679589/job133242082519成功：三P到1226/保19位、F到1428/保12位，原τ标号(2,0,1)；只是formal精度。original_shadow_coordinate_tools.py只接两char0真PASS、原RR基、完整低核和∞首1三次根，尚未重建真地图。
 
-R882付原X10404=Norm(B867×_{T3}E_src)的18覆盖：E_src:y²=x³+1，A=(x³+4)/x²，T=A³−27；B0=(5x³+8−y(x³−8))/x⁴、B2=(x³−2)/x固定q0/q2。全17方块一次gcd保三坐标、全部0/−27/∞分支及正规化。认证后F用ε=−Ty′/A⁶、RF³=(vF²−17D)/(D(T+27))；P用RP³=Y(Y+vnew)/(T+27)²，根∞1且完整dnew/Artin尺度保。r29真实RR前端已交公开producer（原Φ17→degree306→正规化/全部36 cusp→D204→真120维RR/205项），旧run43845849732/job133225696920在resultant系数字典解包失败；已改.items()重跑。附A原eta商t=η1η867/(η3η289)、t12=T/V给degree48底；全cusp表及最低权(24,−1)在(1,1)为零唯一选原48因子，T/U/V与D204全保。独立eta48旧run43847625807同处失败并一同修复重跑；不假坐标或shadow非零。
+R880用三原Artin共轭及两轴9项/全18χ求交，两P认证后degree376；原17/51有理Hecke返回及2048/u_j全部保。附A显式同CM符号eω的整shadow经R859无挠H1返回原有理类，无需预乘人为旧D的5。r29几何F841、角色F5^6；6倍完整闭点迹给真E[5]坐标，再交original_shadow_coefficient_tools.py的18×9×2读者。附B消原ω/ω²次数交叉项，D总degree67680/x极135360；全σ/a/b相同。
+
+R882原18源E_src与T=((X+1)(X−8)²)/X²、固定B0/B2端点、全17方块和ε/两完美三次根保正文。附A原eta商t=η1η867/(η3η289)、t12=T/V给degree48底，最低权(24,−1)原绝对支，T/U/V/all36 cusps/D204不变。两真实RR初run在resultant字典解包失败，改.items()后重跑：306 run43850251992/job133240631228、eta48 run43850252040/job133240628667；未报RR成功。
+
+[R883](results/R883-original-relative-six-shadow-and-complete-boundary.md)付完整原X/R相对6闭点算法：q_*D=div(yA−yB)+两pole，有效且deg2256(r+1)。分歧点F像δ三挠，6倍消；非分歧共同O/三挠交重m的三点和0，余k=e−3m在唯一剩余度1 lift，输出为red(a0 f0/c0,yF)，全高重/∞/闭点迹保。原两Hecke gcd恢复端点和t绝对支；f0=((v_s+4)/v_s)RF/θ17²。consumer正在实现，仍须两char0 PASS和真RR，不认已有shadow。
 
 ## 当前第二门：四原B的实际同源关系
 

@@ -212,3 +212,6 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 
 
 - [R881执行附录](results/R881-original-good-prime-direct-coordinate-reconstruction.md)：原r29形式输入run43850679589已成功，三个P到1226实loss44/保证19位、F到1428实loss51/保证12位；原τ标号(2,0,1)、实支/F_r和另外两支常数Frob全核。仅存源码/参数/run/hash，尚非两char0地图证书或shadow非零。
+
+
+- [R883](results/R883-original-relative-six-shadow-and-complete-boundary.md)：原X/R=X3468的相对6域上完整q_*D=div(yA−yB)+pole(yA)+pole(yB)，有效且degree2256(r+1)。全部分歧像为δ三挠，6倍严格0；非分歧共同O/三挠交重m的三点和全消，唯一额外lift重数k=e−3m，输出F点准确由(a0 f0/c0,yF)读且保任意高相消/闭点迹。原端点两Hecke gcd、t绝对支及F尺度(v_s+4)/v_s全保；两char0 PASS仍前提，未算非零。

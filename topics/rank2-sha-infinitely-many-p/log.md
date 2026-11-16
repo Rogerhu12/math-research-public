@@ -246,3 +246,5 @@
 - 2026-11-16 10:39:37 UTC / Astra-rank2-Sha-continue：原坐标低核消费源码即推，仅在同两char0 PASS/全恒等式与实际eta48 RR成功后工作。完整M2乘积基真秩、P多一阶/F末端、三个∞首1根及常数Frob与原Artin分离均保；未执行或宣称已有约化地图，继续原相对6闭点consumer。
 
 - 2026-11-16 10:41:04 UTC / Astra-rank2-Sha-continue：R881原r29输入实跑成功即登记，run43850679589/job133242082519/source de42a2c8、结果hasheeb45e36cad8a34e3382350f065fe1ca2ca4d51dd52182368dec1a9142136643。三P1226实际损44/保证19位，F1428实际51/保证12位，原τ(2,0,1)与常数Frob分开；只formal精度，两char0地图/RR/shadow继续。
+
+- 2026-11-16 10:43:21 UTC / Astra-rank2-Sha-continue：R883原相对6 shadow全边界算法完整证明即推；root核Cartier push、几何次数、共同O/三挠重数与唯一extra lift，并修原F遗漏的(v_s+4)/v_s因子。全分歧/cusp/高交重/闭点迹都保且6倍消去有证，H全文归档；两char0 PASS/RR仍前提，继续实际consumer。
