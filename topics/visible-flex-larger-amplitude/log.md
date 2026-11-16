@@ -234,3 +234,8 @@
 ## 2026-11-16 04:12 UTC /root — R465全列因子切向预收缩
 
 **已证明（明确的准确实名义系数线性系统）；无新数值执行。** [R465](results/R465-recorded-factor-backsolve-defect-and-complete-column-contraction.md)全文核对原195的742ab15a因子/两回代递推，并给出完整225 Gram结构和全部224方向的预收缩。对实际因子/forward/solution所代表实数，保$H=RR^T$及准确$b=R^Ts-z$，通过$Q_{ik}=a_i^TT_kv_i$预装配得到$\Gamma=S_s-RQ$和$ds=R^{-T}R^{-1}(dF-\Gamma\,d\beta)$；该名义系统不要求已存$RR^T=C$，不以$C^{-1}$替代真实因子。显式局部常缺陷模型解释其准确意义，一般光滑族的$dE,da,db$与原实际方向循环的三个残差仍完整列出；新预装配全部舍入归入形成残差，未冒逐字等价或误差界。仅factor/solve操作结构由$O(J^3K)$降为$O(J^3+J^2K)$，不减Gram矩/列/226态/双mean/root轨迹/原末门；准确dyadic backsolve差和数值投影必须分开，普通浮点零不冒准确零。195零H的5063.5455秒没有非零更新factor方向，本节不能声称消除该成本或保证6h完成。后继独立R466与request208/R467准备，不改冻结195/207、无fixture或新科学门。
+
+
+## 2026-11-16 04:27 UTC /root — R470零现场局部变分条件
+
+**已证明（限实际零现场的条件命题）；无新运行。** [R470](results/R470-zero-shape-finite-root-trace-full-local-block-variation.md)19507B/6f0eae3d据原742ab kernel、a7a9 flow、55b2 observer及原split/core逐式核：无外猜/零接受更新且实际Q/Π/L及各角P/Pt/K/U全零时，原根方向仍为实际target_factor的Dt，非线性split通量逐角一阶为零；不借cs/sn/gramCos的准确正交。完整226×224只在准确实结构上按模态分块，两mean行与原primal均保；块RK归纳另须实际入射tangent已分块且两mean tangent为零，不能清除早先混模。实际pref、target_factor、括号、端口及最终装配不约简；输入有限不排除0×Infinity，负零也阻止直接用默认零矩阵冒逐词等价。仅给最窄角方向切点，完整root/noJ/RK/QR/FD/fullDN/final/audit不改，195计数不证明已删现场合格；捷径、安全条件实现与实际速度/接受仍未付，不阻208/209。

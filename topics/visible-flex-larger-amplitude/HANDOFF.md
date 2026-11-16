@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 04:14:07 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 f454d36788c6efbdb375b4239b54c03c56e1fc7a。
+规则同步记录：2026-11-16 04:27:37 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 d540a5f17cc6c17d955009ce4055c9706a1303d6。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -50,12 +50,14 @@ R458/61744a58：owner304eaa41/runner76881ec3/reader7902848f。新job真205→R45
 
 [R465](results/R465-recorded-factor-backsolve-defect-and-complete-column-contraction.md)本次刊19378/6f9200ea：保实际$RR^T$、backsolve准确缺陷及225矩的全224方向预收缩；准确名义系统等价、一般缺陷导数和浮点方向残差分列。只减factor/solve操作结构，零更新原成本仍在，无实测加速/误差界。R466独立源/208实际后继另付。
 
+[R470](results/R470-zero-shape-finite-root-trace-full-local-block-variation.md)本次刊19507/6f0eae3d：实际零shape/root/角行且零更新时，原split通量一阶消去，完整226×224/双mean不减；RK另需入射块结构。字面表不假正交，pref/target_factor不约；有限中间算术与负零词一致仍待最窄实现，不由195计数补条件、不阻208/209。
+
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊完整接口/父源重做，不靠已删raw/SHA造证。
 - exact：唯一206/207终态；R465完整因子收缩证明本次全读刊出，保实际形成/两回代缺陷、224/226/双mean/noJ primal与root轨迹；R466独立实现和request208/实际R467准备中。旧195/207不改，源文本/纸证之外科学仅Actions。
 - geometry：R463两源码/证明/接口本次全读刊出。续R468/request209/实际R469同job链：真205→R456112→R464/R463/R462 M128 union、各场五几何/held/R459及R461临时显示；同原钟/门/90K/quiet。唯一203终态。
 - amplitude：R464 owned/必要/几何/材料及R459/R461 current族，实际loader新来源完整映射/diff；运行只在真computations/HERE生成新basename，旧源只读、全SHA闭包。原112 config不冒parent，全部newM责任保；与geometry对齐生成前/后两层绑定。唯一204/205终态。
-- root：R463已刊fe22861d，R465本次刊；读R464/466/468并启动真实208/209，每pull核双README，源码完成不冒科学完成。
+- root：R463/465已刊；R470本次全文/原源核后刊，R464/466运行源完整delta已读，待完整接口后逐条推并启208/209；R468三draft delta已读。每pull核双README，不冒科学完成。
 
-最近官方topic tree83f52aa49505137e1a2eaa2754b1c780ac462be4（b3316062/R412）9192blobs/197364720B、9566entries未截断；新增按字节守200MB，不把投影叫现值，不存raw。
+最近官方topic treeb3315ebdb647dc534a0eb1246f3ae68d377a9151（f454d367/R465）9197blobs/197535205B、9571entries未截断；新增按字节守200MB，不把投影叫现值，不存raw。
