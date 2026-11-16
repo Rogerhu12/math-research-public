@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- 2026-11-16 — [WADA：实际完整物理腰部第一行界](results/R133-supplement-actual-complete-physical-waist-first-row-bound.md)（30cab13becdb586afbfb9ce40ac7e1f04fd71c27，54113B，SHA256 2737f96d34450992a78e0244b7932ee3e0e91e8371d8f99b866327ce9dd70ba5）。唯一公开Actions43803459418/1、16门/9新球，完整同natural-root H−4/3到raw primitive L2第一行界选整记录4.7487985998848693668…e83；旧14球/9完整scope、全部mean/cut/PC/ST4/3070jumps/waistFT不减。SCI/exec/report与两个preGit完整恢复身份独核，old/lost0，成功冻结；尚非小扰动/有限逆或WPL不同归一化新数字。
+
 - 2026-11-16 — [JI：全实严格区间上的真实角向逆](results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md)（839fa641fe9ce3758ee69cfe3cb4299f59a3a239，11769B，SHA256 01e4a33be5d895ccbfc949310a86bf561c8dccdfe1c1eff973fa1298fcc91cf1）。完整P/primitive角算子在odd→even mean0上以精确scalar denominator充要化；原SJ全Wiener/β/η界直接给D_J≥(79/128)e^-7/4>0。显式各固定Hs同一一导逆、全真meanrank及原N7/firstrow保；仅真交域粘合localrootJ，不外推旧常数/complexstrip。0数值，新J0/J1为符号费，未授whole residual或PDE逆。
 
 - 2026-11-16 — [WFI：实际腰部行的graph域与有限指数账](results/R133-supplement-graph-domains-and-finite-index-ledger-for-the-reflected-waist-row.md)（aec7503e379c3abcbb66b33ed0a7e68be39703fa，23476B，SHA256 7abf7f41df8fc48872c82b420836947a0728698d5142ac939c4d2d5ff99c4309）。先证Mbar L2有界及96真有限列/dual的graph作用，Dtrue余维96；完整strong误差经真实子域的紧嵌给实际高齐次primitive row对whole target Fredholm index−96。ordinary高target与新增96真列的index0账分开，96输出/physicalpairing/mean/ν/head保，非fullPDE inverse或kernel0。0数值。

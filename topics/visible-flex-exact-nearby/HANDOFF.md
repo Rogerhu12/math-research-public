@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 04:31:24 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 04:32:03 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 04:27:29定时CLI仍无executor，下一≤05:27:29。最新CI真pull为WAD 11-16 04:20:32.298647→7d7ce88415ed4a23e73ee49abaa1d3c059379a37，两次两README空diff；ref读取不冒真pull。
-最近只读README核：ab1ba331a1d376d61e6e9f9b7f29f2bb9221a1e2；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：4d647c2463809a6d4ce18e588bb40ec9148d98f9；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -29,7 +29,7 @@ WIT真W intertwiner/两窗同逆；WCS同νi正确两反射model loss1 graph逆�
 WFI7abf7f41：真96列/dual使Dtrue闭余维96，whole E经H−1↪H−4/3紧，实际高齐次row→whole target index−96；ordinaryhigh target要保96低输出式，补真96physical列仅调index0，未授inverse或wholePDE资格。
 WTSbb7dff28：trial替换保完整cut/volume/jump/waist，same-positive-graph须同stable/head/rest；PC旧正预算非operator下界。criticalcut/χ′宽度无免费gain，whole列p>11/6或trueblock p>4/3才付负窗。活动研究为真实全段uniformU、完整signed tuple和正确graph/physicalfiniteborder；不重旧source。
 JI01e4a33b：原SJ全段Wiener pair A0/角A0及β<1/4、η>1给真实odd→even0角算子A的精确分母D_J≥(79/128)e^(-7/4)>0；显式J为各固定Hs同一一导逆，无新球。只在真共同域与旧rootJ唯一性粘合；独立physicalmean N7、first row、source/jump全部保。
-WAD唯一43803459418/1成功锁：16门/9新球/1child/old0，SCI77d17dad/29708、exec588b9c73/11226、report0a2eb042/4018。新整raw primitive row界4.7487985998848693668…e83（完整球在SCI）整选index1，原14球/9scope逐字；两preGit已独复，lost0。非小扰动/finite/ν或WPL另一归一化数字，完整实际proof整理中。
+WAD唯一43803459418/1成功锁：16门/9新球/1child/old0，SCI77d17dad/29708、exec588b9c73/11226、report0a2eb042/4018。新整raw primitive row界4.7487985998848693668…e83（完整球在SCI）整选index1，原14球/9scope逐字；两preGit已独复，lost0。非小扰动/finite/ν或WPL另一归一化数字；WADA2737f96d全实际proof已闭。
 BF/FC/SE/RNS完整(q,z,κ)Schur/PUVP/两mean/无限head/rest/真ν与双pairing门全保；root核0仅撤FC补列，ν-chart保dν。BT/RBT完整head域及jet/RI mean/8terms/K4η3原成功保各索引。UT/SWA/NWA/NPKA唯一成功及两窗/四affine/3070jump保；PSB/PTB仅fixedscalar all-s/tame，不授true背景或完整square。
 
 ## 已成功源链索引

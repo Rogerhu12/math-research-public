@@ -216,3 +216,9 @@ J解决的仅nonmean第二行；z physicalmean不是内部c=Π(uh1)，原N7和�
 ## 2026-11-16 04:31:24 UTC — 定时真实 pull 尝试与 README 核对
 
 2026-11-16 04:27:29 UTC 在原 checkout 发出实际 git pull --rebase origin main，执行器仍返回“No usable execution environment is available”。随后只读 main d540a5f17cc6c17d955009ce4055c9706a1303d6，两README仍为根21bd547f56590b7f2dd279d0297efb289a9b2783及题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12，无差异可读；此API读取不冒称pull。最新成功真实pull仍为本库WAD运行04:20:32.298647到7d7ce88415ed4a23e73ee49abaa1d3c059379a37，两次实际README diff都空。下次本机真实尝试≤05:27:29 UTC，若恢复执行环境即继续原partial checkout。此次独推前再核 ab1ba331a1d376d61e6e9f9b7f29f2bb9221a1e2 两README不变。
+
+## 2026-11-16 04:32:03 UTC — WADA 完整实际证明独立提交
+
+root阅读全文54113B/2737f96d，核WAD.26–36的同一输入/输出/端点/source单位，完整JSON附录逐对象同实际SCI相等；旧14记录原文全在。实际SCI/exec/report此前已完整核身份，两个preGit分别34123B/e83934d0及8646B/2eb34878已由最终小文件独立重建完全相同；未取大joblog，未重任何数学。Tail独核旧ST25门与SW24门、7input/3AST及9新球whole选择，不把new16门混入旧schema。
+
+该同row大上界仍不授小扰动；physical Ih1要保ng0/√q0，WPL坐标另保U_Hinverse与Ni，leading也同变。signed cancellation、真实finite/mean/ν/head和全非线性仍未付。本条无新科学执行，run43803459418/1锁。fresh read 4d647c2463809a6d4ce18e588bb40ec9148d98f9 两README未变；继续global U和完整源。
