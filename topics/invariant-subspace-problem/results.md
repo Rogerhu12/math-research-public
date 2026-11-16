@@ -153,3 +153,6 @@
 
 
 - **R271原方差完整一位返回及辅助mode准确清零（2026-11-16）：** [原源/共同Fock完整证明](results/R271-appendix-native-variance-one-bit-restoration-and-auxiliary-clearing-pairing.md)直接取t=0，保H≤Hi≤e8H与真实GE≤e8Hi⁻¹，F1=ΣjEj≤2xΔ²；全部loss+gain≤e8F1、两种完整恢复反馈各≤8e16F1，指定creation返回有原权界。共同Fock与aux真空交给真实重新最小化、投影损失≤Δ²，整个一位交换包的aux→0原权差≤Δ/x。直接原占据行及固定forcing删除弱行进一步给全Σbi ci[P_U,Ei]Fi≤(e4+2)Δ/x；相邻Q−1同界，保Q≥R+h+2及全部K反馈、无限自然合成域。没有把弱行升级成未付范数行；余位仍bosonic后同物理压缩，完整硬核/原MP帽度量运输继续。
+
+
+- **R150全参数9×57及Bell基9×56完整原临界表示（2026-11-16）：** [原单位关系与全部来源运输证明](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)真解并双向核固定E的T1⁻¹，η=wᵀT1⁻¹；原两个零source literal边界及Bell列使r_h=r−(b−1)e_v1的指定系数严格为1。kerP=S r_h已在原57关系模中，故全部57列投影给coker严格S/I；在Bell基去掉确切零末列为9×56，无参数倒置或GL6行补全。513矩阵坐标u≤1，1026原source保−u1u4 Bell来源后实际u≤3。实12.363秒/112848KiB，共享母图只增2889节点；根独核四输出双SHA、72精确E常逆乘回及3134组装坐标、来源/矩阵次数。全Bell1是否空仍待证，不称自由九基。

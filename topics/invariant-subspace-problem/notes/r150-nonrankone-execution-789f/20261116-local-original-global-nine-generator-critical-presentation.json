@@ -1,0 +1,97 @@
+{
+  "format": "r150-local-original-global-nine-generator-critical-presentation-execution-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-global-nine-generator-critical-presentation-789f.py",
+    "blob": "aa1a791227f69b05029a94b084b52201d5a673ed",
+    "sha256": "097bb681554f431f5e26e07fc68679bfb643ad447d7a4dc87c37f39906dec647",
+    "bytes": 14242
+  },
+  "helper": {
+    "path": "notes/2026-11-16-r150-original-complete-fifty-six-seven-generator-charts-v2-789f.py",
+    "blob": "45d506b45f7d8f2a0b6e59509de8b3baa18b6f25",
+    "bytes": 17966,
+    "sha256": "c1fb5a29177fda97390f62eec8abcb3e4ea4a7cb72034bd606202cd945c7c27b"
+  },
+  "inputManifest": "notes/2026-11-16-r150-original-global-nine-generator-critical-presentation-inputs-789f.json",
+  "actual": {
+    "startChunk": "0140d7",
+    "sessionId": 13512,
+    "completionChunk": "ec719f",
+    "completedUtc": "2026-11-16T06:47:37.251061+00:00",
+    "exitCode": 0,
+    "elapsedSeconds": 12.36292547499761,
+    "fixedDixonSeconds": 7.0993933040008415,
+    "maxResidentKiB": 112848,
+    "binding": "3299f05e3d9c2ea5f95b89c4fb8350b486b7b07d0a9ee01119c9ee235d14a0e5",
+    "receipt": {
+      "bytes": 2669,
+      "sha256": "0a571570a0d472849407512fa61e60858f97eb62827c1769fe938da9fe6ae4e2"
+    },
+    "outputs": [
+      {
+        "role": "inverseCandidate",
+        "bytes": 3891116,
+        "logicalBytes": 7836828,
+        "logicalSha256": "c54993985d813a4662097946da435eb994e4852ab44412842f7d74fedcc63917",
+        "path": "complete-original-first-mean-matrix-inverse-candidate.json.gz",
+        "sha256": "4966973be9a2763252a9286617fba6e204415d55fe00b3aaa946a59714e6b218"
+      },
+      {
+        "role": "verifiedInverse",
+        "bytes": 3891224,
+        "logicalBytes": 7836928,
+        "logicalSha256": "8d45309cf6b1d8aa8786427207ec5dbc90cd376c59917340b4c396475023cd7a",
+        "path": "complete-verified-original-first-mean-matrix-inverse.json.gz",
+        "sha256": "f2171b477163f0cbd3187496f12a1492d8f8c2112eb6752a3d21be181e59083a"
+      },
+      {
+        "role": "arithmeticExtension",
+        "bytes": 16680,
+        "logicalBytes": 124152,
+        "logicalSha256": "4b7ea9e8b11cb641f59771c68471fd6b3570edddfbe2740e2deff3daf630ef81",
+        "path": "complete-original-global-nine-arithmetic-extension.json.gz",
+        "sha256": "b5c45de7ee41247719de8585ddaf9734c5e8f0e7a89d9888addcfff95e7b8512"
+      },
+      {
+        "role": "model",
+        "bytes": 5029,
+        "logicalBytes": 14862,
+        "logicalSha256": "7997d0ee10f5ec49fae9e9da998381550e787353238ac6357090dae85e747a74",
+        "path": "complete-original-global-nine-critical-presentation.json.gz",
+        "sha256": "200197e6c848590f5d7e7b61334cd2ccf4c07acdab60be6c1dac678767357270"
+      }
+    ]
+  },
+  "scope": {
+    "globalMatrix": [
+      9,
+      57
+    ],
+    "bellBaseMatrix": [
+      9,
+      56
+    ],
+    "retainedOriginalBasisRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9
+    ],
+    "all57OriginalColumnsRetained": true,
+    "matrixUDegreeAtMost": 1,
+    "sourceUDegreeAtMost": 3,
+    "noParameterInverse": true,
+    "noUnimodularCompletion": true,
+    "sourceProof": "exact fixed-unit inverse, literal source-zero borders, and complete original relation transport",
+    "freeNineOrEmptinessClaimed": false
+  },
+  "arraysCommitted": false
+}

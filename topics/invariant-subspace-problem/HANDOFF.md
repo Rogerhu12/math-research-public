@@ -3,12 +3,12 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** f863b71c0fd82b4b6b5a131ce2d99b14dea7bc95（2026-11-16 06:58:28 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0659-native-full-return.json。
+- **最近成功实际 pull 与已读规则提交：** d80c91ec8b7ec651abaf2aba7fa1a8a6165c47c1（2026-11-16 07:04:42 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0704-global-nine-presentation.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地仓库/workspace/scratch/789f3e887d7c/math-research-public；exec必须显式workdir/login:false。Actions bot push403，现授权CLI真pull/push，API source不算push。根无凭证脚本/tmp/isp-stage-conclusion-789f.py及/tmp/isp-local-publish-789f.py；PAT只在调用环境。稀疏缺文件先git show，git add --sparse。
-- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-native-full-return-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
+- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-global-nine-presentation-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
 
 ## R150原rank-one：精确系数结果与接续
 
@@ -27,11 +27,12 @@
 
 
 
-- [六y完整6×10及全Bell九生成](results/R150-appendix-complete-six-mean-relations-and-nine-bell-normalized-generators.md)：全96/30/72原门真，Gy−Ghat=(λy−μλw)F+μGw；四Ti对称/E可逆，wᵀT1⁻¹给全局九生成，无参数逆。six-mean-ten-actual，150.141秒/binding2c120983；细目保最新H归档。
-- [原I3(M)=(y)³](results/R150-appendix-original-mean-three-minor-ideal-is-the-cube-of-the-mean-ideal.md)：全80原3minor→56三次满行，unit det127=56，根独重系数；固定E源给理想等式，非零y rank≥3，Bell基局部≤7生成/rank4≤6，不称free。
+
+
 - [十六完整原三次来源](results/R150-appendix-complete-original-sixteen-cubic-border-source-certificates.md)：全1680有理乘回、根全16 SHA/560field原系数真；固定E常分母最大72436bits，source u≤1。首次75保留，细目保归档。
 - [完整10×57原临界表示](results/R150-appendix-complete-original-ten-generator-finite-critical-presentation.md)：50border、100commutator原source及六mean/Bell全真；十一G冗余、九literal路径给coker恰S/I，57列u≤1。v3实34.887秒/105774节点，根34双SHA/978引用及两组336source评值真；前两137保留。border-slp-actual-v3。
-- **[全56个原7×54临界图册](results/R150-appendix-complete-original-fifty-six-seven-generator-critical-charts.md)：** 原unit-basis 56 minors自身生成(y)³，覆盖全Bell1并保rank3。真Schur δD−C adj(A)B及18×54原source、三消元图源全存；仅各原δ局部化，矩阵u≤1。v2实7.133秒/bindingad9efd97，根核56双SHA/296156新节点/21168次数及两组159600组装坐标；通用精确身份为正式证明。首版schema断言失败保留。normal已冻全局9×57/9×56（529faf2，待审推），继续实质Bell1判空/例外。seven-charts-actual-v2。
+- **[全局9×57及Bell基9×56完整表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)：** 真固定E逆T1⁻¹与两个零source literal边界给r_h=e_v1+Σc_a e_a∈原57关系模；kerP=S r_h，完整57列运输给coker=S/I，无参数逆/GL6补全/自由9。513矩阵坐标u≤1、1026原source实际u≤3，Bell原源−u1u4保留。实12.363秒/binding3299f05e，根全四双SHA/72精确E逆乘回/2889节点/3134组装门真。global-nine-actual；normal续原对称pencil的rank3核例外及真正Bell1判空。
+- [全56个原7×54临界图册](results/R150-appendix-complete-original-fifty-six-seven-generator-critical-charts.md)：原unit-basis 56 minors生成(y)³，覆盖全部Bell1并保rank3。真Schur δD−C adj(A)B及18×54原source、三消元图源全存，只倒各原δ，矩阵u≤1。v2实7.133秒/bindingad9efd97；根56双SHA/296156节点/21168次数及159600组装核真。首版失败保留，seven-charts-actual-v2。
 
 ## R271完整原源与真实投影返回
 

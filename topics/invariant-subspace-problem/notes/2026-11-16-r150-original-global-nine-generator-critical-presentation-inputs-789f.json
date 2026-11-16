@@ -1,0 +1,67 @@
+{
+  "format": "r150-original-global-nine-generator-critical-presentation-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "date": "2026-11-16",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-global-nine-generator-critical-presentation-789f.py",
+    "blob": "aa1a791227f69b05029a94b084b52201d5a673ed",
+    "sha256": "097bb681554f431f5e26e07fc68679bfb643ad447d7a4dc87c37f39906dec647",
+    "bytes": 14242
+  },
+  "helper": {
+    "path": "notes/2026-11-16-r150-original-complete-fifty-six-seven-generator-charts-v2-789f.py",
+    "blob": "45d506b45f7d8f2a0b6e59509de8b3baa18b6f25",
+    "bytes": 17966,
+    "sha256": "c1fb5a29177fda97390f62eec8abcb3e4ea4a7cb72034bd606202cd945c7c27b"
+  },
+  "temporaryInputs": [
+    {
+      "argument": "presentation-out",
+      "path": "complete-original-ten-generator-critical-presentation.json.gz",
+      "bytes": 12551,
+      "sha256": "f008cb6bfbb51d0efbe929399b18ef2d7384cb7739b24dc942b25b016211259c",
+      "logicalBytes": 32532,
+      "logicalSha256": "e96e100317ead08232c6e4d6ef2a4dc1a33339a3909cb5e761d02983b709957a",
+      "binding": "11473d55e9cf229685bcbebf59fe30fea9c2b00e8fa225bac6d3d0ca71b7ef76"
+    },
+    {
+      "argument": "presentation-out",
+      "path": "complete-original-ten-generator-border-arithmetic-dag.json.gz",
+      "bytes": 634785,
+      "sha256": "9d3f03d2746cfb9a1bb3f872f56822ca8136e982cfdcf0cddd666c58aa573a8a",
+      "logicalBytes": 4405032,
+      "logicalSha256": "9a49a0740c23bfd2dd6e3d9deec51eec7290a5b40793075c706976d4a2dc81ce",
+      "binding": "11473d55e9cf229685bcbebf59fe30fea9c2b00e8fa225bac6d3d0ca71b7ef76"
+    },
+    {
+      "argument": "six-out",
+      "path": "complete-original-six-mean-ten-generator-model.json.gz",
+      "bytes": 1395,
+      "sha256": "bd300391aff8f1f95860cbf614feb6a53f8a16c2d855b5fdf1df178d7337f061",
+      "logicalBytes": 2812,
+      "logicalSha256": "9961cbd32e7dc693bdfb1ab5819ca419372d6e297ca5af23149ae480d6dac4a1",
+      "binding": "2c120983a234d63f52e19d0f81a8f486b3d5dad5ca010f1ad74ebe9c7045e7f0"
+    },
+    {
+      "argument": "six-out",
+      "path": "complete-original-four-mean-quadratic-matrices.json.gz",
+      "bytes": 2208219,
+      "sha256": "1928d85c9cb6a40cbbf038e39d65bd0b72dffe900d0da6c600070966444acc12",
+      "logicalBytes": 4478284,
+      "logicalSha256": "7c37ad0846331a5ad9bf96d7c0086e2c65d65fe8831081dc34c778365592197d",
+      "binding": "2c120983a234d63f52e19d0f81a8f486b3d5dad5ca010f1ad74ebe9c7045e7f0"
+    }
+  ],
+  "dependencies": {
+    "python": "3.12",
+    "pythonFlint": "0.9.0",
+    "arithmetic": "exact rational and exact E=Q[d]/matched irreducible cubic"
+  },
+  "arguments": {
+    "seconds": 180,
+    "memory-mib": 768
+  },
+  "outerWallSeconds": 240,
+  "arraysCommitted": false
+}
