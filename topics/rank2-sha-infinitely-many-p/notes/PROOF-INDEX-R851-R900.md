@@ -78,3 +78,6 @@
 
 
 - [原Frobenius shadow的整Chow逆](../results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：R859附A以Sym²E→E的P¹丛和原Poincaré双线性付几何Sym²h1=L（仅倒置2），CM后C+⊗C−=L（另倒置3）。实际φ²−r给Chow收缩同构；I_r(P)=Π(D_r×(P−O))、三交数(−2r,r,r)付SI=−r、IS=−rΠ。因此整个ΠCH²(E³/F_(r²))[1/6r,ω]真同构E(F_(r²))[1/6r,ω]，r+1杀最高群。非整Kimura/实现忠实推断，未构造原非零点。
+
+
+- [原CM惯性shadow检测完备性](2026-11-16-original-cm-inert-shadow-chebotarev-completeness.md)：固定ℓ>3并保原Q下降两共轭CM线，CM主单位给中心非平凡scalar，直接Sah计算及不可约性迫非零AJ在N=kerρ∩G_H上张成V。取复共轭ι和同核h，g=ιh满足ρg²1、实际c(g²)=(1+ρi)c(h)非零；对(ρ,c)模ℓ^n的真实联合扩张用Chebotarev，得惯性r的原shadow ℓ阶无界，且每个固定阶门有正密度r。与R859合得AJℓ非零 iff某惯性shadow非零 iff影子ℓ阶无界；换格/清分母成本固定。ℓ始终固定，不给原AJ非零或无穷系数素数。

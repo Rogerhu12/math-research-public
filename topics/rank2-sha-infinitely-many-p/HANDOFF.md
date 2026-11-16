@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：5010e1c9bcfe5437bb061d74984dabda63f3748a；2026-11-16 06:12:42 UTC核两README无变。实际CI pull 2026-11-16 06:06:50 UTC/d08cf773521372be2497976dfe20767507fedcda（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 06:06:39 UTC仍无环境。最迟2026-11-16 06:55 UTC再实际pull。
+- 最近已读规则提交：0e78e97fa380327094b85bd3413b1653ad60ef4c；2026-11-16 06:13:11 UTC核两README无变。实际CI pull 2026-11-16 06:06:50 UTC/d08cf773521372be2497976dfe20767507fedcda（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 06:06:39 UTC仍无环境。最迟2026-11-16 06:55 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记已读提交，至少每小时。
 - 数学执行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -26,6 +26,8 @@ R852原degree9真Chow逆、R857 full3/648项ε3与ΘᵗΘ=81Π/ΘΘᵗ=81ε3全�
 [R859](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)：r惯性在H34剩余域F_(r²)，φ²=−r、反交换CM；D_r=Γφ−E×O−r O×E在Π最高块收缩整diag(a,−b)、det r。5/11 Frobenius−1/5、−1/11排所有ℓ>3全局H1 torsion。真实原shadow某ℓ部分非零即可证Zorig及其generic迹非零。
 原点公式3S=ΣcρΣ_k[ω^k]Σ_{G=[ω^k]φF}mult·Tr H，χ全部conjugate在同一所选素理想逐项约化，不冒剩余域群。**尚缺原Jacobian Hom函数域坐标和一次非零点。**
 R859附A给实际整Chow逆：Sym²E的P¹丛及Poincaré双线性只倒置2付几何Sym²h1=L；再CM拆分及φ²−r给真实同构。I_r(P)=Π(D_r×(P−O))，交数(−2r,r,r)，SI=IS=−r（后者在Π上）。故ΠCH²(E³/F_(r²))[1/6r,ω]≅E(F_(r²))[1/6r,ω]，r+1杀整个最高群。反向用有限特征φ，不制造char0原来源。
+
+[原CM惯性shadow检测完备性](notes/2026-11-16-original-cm-inert-shadow-chebotarev-completeness.md)：固定ℓ>3并保原Q下降两共轭CM线，CM主单位给中心非平凡scalar，直接Sah计算及不可约性迫非零AJ在N=kerρ∩G_H上张成V。取复共轭ι和同核h，g=ιh满足ρg²1、实际c(g²)=(1+ρi)c(h)非零；对(ρ,c)模ℓ^n的真实联合扩张用Chebotarev，得惯性r的原shadow ℓ阶无界，且每个固定阶门有正密度r。与R859合得AJℓ非零 iff某惯性shadow非零 iff影子ℓ阶无界；换格/清分母成本固定。ℓ始终固定，不给原AJ非零或无穷系数素数。
 
 ## 四原来源、水平格与真正除p
 
