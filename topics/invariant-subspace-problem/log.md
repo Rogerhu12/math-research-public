@@ -772,3 +772,7 @@ native3.497066044秒/whole7.098588608秒，805全状态/观测506稳定57、299�
 ## 2026-11-16 00:42:46 UTC — 同阻尼来源的完整一次MP与移动小截断预算
 根全文核原Bernoulli完整层MP、精确平方相消、κ/ν系数、全部top和ε≤Δ_g²；τ=(log(x+1)/x)^(1/3)、J=ceil8log(x+1)/τ给O(τ²)同源平方费，无χ或未知速率倍增。
 明确R=0逐列身份不取消其它R=d扩块门；修复后真实残量−C D†(C+D)f及第二次非coherent源保留，继续完整Schur/原same-w返回。实际pull核两README后push。
+
+## 2026-11-16 00:50:28 UTC — 真实二次顺次MP的primitive反馈与同源两步修复
+根核(D†)²与(D²)†的准确正交差、原R239输入p=j+2的primitive常数及全层两步Bernoulli；相对误差²O(J³/x+J⁴/x²)，未交换两逆。
+τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ给q1/q2同Δ平方预算、两个top全保；z2残量Cq2和第三次/完整Schur仍开。实际pull核两README后push。
