@@ -28,7 +28,7 @@ R457定义整个U自然d=draw−TrFhat/8，杀全R、真H^-5协变、像Pol≤6�
 
 R443已付53完整self五次local/无分母高jet，像38/核15、K11合49；旧11仅MEMBER。R446联合核全Q的2+2和四次homotopy给局部≤3阶，R443无p分母额外保留。R448同宽r*≠0镜对self像Pol10图+Pol7恰19/核30，有一个真实线性右逆Π0；R452 r*=0像9/核40。均非全R分类，也不把Af盲称完整成本0。
 
-R456同宽全部角色DkerEval=Pol≤4、商恰D5/D6；R458两实际宽各三末low/≥8copy才另检D4。[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)从起点共同w0、R455唯一镜对：全current真协变H^-1且全R/kerE稳定，13个近1正H的有号Π0把R457的D0 lift成权0全C0的V0。任意V0 self≤8且两镜最高项共同，R407真实μ路径转全部最终母cap，R448同一个W匹配完整双多项式，得到V#=H*+J4−R_C−W：J⁺/formalC/所有微包两Af×d,e门全0、λ1、Λ=n2。最终可混权；仅同宽signed核，不授全H查询闭包/actual正锥/range/13规范，续这些门。
+R456同宽全部角色DkerEval=Pol≤4、商恰D5/D6；R458两实际宽各三末low/≥8copy才另检D4。[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)从起点共同w0、R455唯一镜对：全current真协变H^-1且全R/kerE稳定，13个近1正H的有号Π0把R457的D0 lift成权0全C0的V0。任意V0 self≤8且两镜最高项共同，R407真实μ路径转全部最终母cap，R448同一个W匹配完整双多项式，得到V#=H*+J4−R_C−W：J⁺/formalC/所有微包两Af×d,e门全0、λ1、Λ=n2。最终可混权；仅同宽signed核。[R462](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)消费R201/R316完整13pure核/Qrank7得R_E,0维6；39current权0仅A1²/A2¹一关系，真Π0满像给rank1/核K0恰5。旧49权0仅K8/V51/V52且同镜像rank3，全H匹配iff目标在权0像；尚余两完整cost，self像/目标成员未知，不重旧消元或授actual。
 
 R437原P2θ=κell_f/24杀全kerLf，13rank≤12/余底≤9仅上界。R442全部同锚/有限部分/exp端保留；[R460](results/R460-automatic-simple-critical-point-residues-and-complete-smooth-period-gluing.md)由H′=pG″给简单p0处H/(Ap²)=β0/z²+光滑项、无simplepole，k′=H/(2r³)，跨点k″匹配同一C，不新增核参数。一般光滑range iff全部Af partial/平台/总通量/两平端germ，再gap修正∫k′并用右锚灭affine差；R455 canonical E/totals0下只余每包两Af×d,e四门。原incoming XD对p点逆值/13行rhs保留，gap修正非盲。R459 signed因此可接真range但actual实现/同规范仍欠。R444八hook为2Lf(XD)，R445 d(Bε)=d(Y)=0；R447 η≠0给signed最高d轴。
 

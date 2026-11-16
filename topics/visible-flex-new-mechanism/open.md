@@ -188,8 +188,13 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 
 共同物理宽度从R280/324/447/450/455起点选定，不修改旧冻结多宽库。最终W可混权，不能再套权0次数界；同宽全门零不自动在所有正H查询闭包零。接完整R0剩余self/全H，或不依赖新affine闭包的实际正锥证明；原型/两次商/桥/Klein完整基准仍付。signed核不授两period真range/平台germ/同13规范，更不授主C²有限族。0新执行。
 
-### R458：两宽第三余量的真实判别；原单宽不改
+### R458：实际两宽条件与同宽范围
 
-[R458](results/R458-three-real-suffix-roles-and-two-widths-detect-the-third-ordered-invariant.md)先用末high前3个真实low：suffix同λμhigh，改变量后对3个不同δ的二次多项式恒零，严格恢复各n分量镜盲。保全部13列，两宽差再给14A0+(5+3κ)B1=0、A0+B1/2=0、−10A0/9−(κ+1/9)B1=0；若B1≠0同时迫κ=2/3及4/9，矛盾。因此两宽条件下DkerEval=Pol≤3，formal实际商恰D4/D5/D6，同一signed响应清全部C iff三项0。
+[R458](results/R458-three-real-suffix-roles-and-two-widths-detect-the-third-ordered-invariant.md)在每宽有三末low/同high和≥8真中心时，完整十三列给DkerEval=Pol≤3，恰余D4/5/6；κ两必要值矛盾排所有例外，并给有限D4读出。当前库可从起点全同宽，不擅增物理宽；仿射查询两H与实际两宽布局分开。R457 D0已可formal全C补偿，R459仅同宽self，下一按R462处理全H。
 
-原7个p-only系数全保；三真实role×八已有中心×两宽给显式有限D4读出，不把n自由化。R280/324五块只平移/正幅，R455允许从起点全同宽，故不声称当前已冻结物理库满足两宽；若新partial查询从起点取共同正仿射开窗口，其两伸缩查询像才可应用，actual联合锥/窗口仍须另付。R457 Hhat整个D0可直接取formal全C补偿，不需先加两宽物理库。继续R459同权全C/self及p简单零真range。
+
+### R462：完整权零self/current核只剩两成本余部
+
+[R462](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)从R201全R0维16/pure3和R316原13列wholeQrank7得全R_E,0维6；R459真实H^-1current律使39空间权0仅A1²/A2¹，七关系剩一条，完整全R lift经Π0给currentrank1，故K0恰5。R443原齐次source表给旧49的权0恰K8/V51/V52；全原self常项/x7小det−13h³s³/3312及K8非零x8证其同镜像rank3。
+
+全正H匹配准确iff同宽目标落完整权0像，旧49的19维混权右逆不能移植。仍余恰两完整cost，self可能增0/1/2维，当前V0成员未付。R316原日志保存13pure列/全T,Euler但未印六核代表；下一只取真正新需的current/self contraction及原差重构，不重旧pure/wholeQ秩/检查。actual锥/固定词基准与九行仍另付。

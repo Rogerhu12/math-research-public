@@ -349,3 +349,6 @@
 
 
 - **R460：多简单p点自动无留数，完整光滑period只余原Af与端部门。** [精确Hadamard式与全包同锚拼接](results/R460-automatic-simple-critical-point-residues-and-complete-smooth-period-gluing.md)（16177B/SHAd0450963447a3621bdc5a297481addd271a71f18ee01c66035294503d1740045）。H′=pG″使simple-p双极无simplepole，真实k′=H/(2r³)可非零；跨点同一C/不增核，低C²目标在A≠0有C³逆。一般smooth range保Af/平台/totals/两germ，gap调∫k′与原右锚分别付；R455 canonical E/totals0下恰原每包四Af门。原incoming XD和平台调整保同13行rhs；signed range不授actual成本或规范，0新执行。
+
+
+- **R462：完整权零响应6→1→5，旧49仅三维，全宽匹配余两成本。** [完整维数来源、真权表及全宽必要充分界](results/R462-five-dimensional-complete-weight-zero-current-kernel-and-all-width-self-interface.md)（14307B/SHAd354b2e9dfd023ee79a07919ea754fca145af790583d7040dcf603222f738b47）。R201/R316全13pure核/Qrank7给R_E,0维6；全current权0两坐标一关系经Π0实取，故K0维5。R443真齐次原组证明旧49权0仅K8/V51/V52，其镜对像恰3；全H匹配⇔权0像成员。余两完整cost的self及目标成员未知，旧六核组合未刊不称已消费，0新执行/旧秩。
