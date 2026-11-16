@@ -511,3 +511,7 @@
 ## R150：原无穷远127完整谱66与独立Gauss有限端上界299（2026-11-16）
 
 [完整证明](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)核全3959098分母/原H3760+C580、6…10完整incoming及第11实际高forcing和低增秩，给完整谱1⁴,3,4³,5,6,7,8,10,11、总66/次最大55/max11/free13。与同原有理谱相等使某齐次原minor的u66系数为127单位；Gauss遂给首一Δ∈Z_(127)[s]、约化保次数并除全χ299。独立得到278≤degΔ≤299和Rout的127包络；Ω127与Ψ²、J127尚由另两小审计实核，不能由299断μ1。
+
+## R271：任意放大方差的完整逆Gram极限与同原测试的阻尼相干代表（2026-11-16）
+
+[完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许s_m/S_m无界但s_m≥S_m→0，在共同Fock闭域以固定物理测试伴随收敛和原逆Gram下界证明强极限P_M；任意新增强前缀R_m及完整强头截断1≤J_m<h_m也成立。Q≥R+J时物理f_(s,J)保全部原V/K/u，精确层范数κ_jr^jE_j给指数矩≤q、||f−a||²≤rε且ε→0，故f→P_Mg。全塔残量恰[1−r+W/s]Cf、截断top单列保留，头幂预算使用同ε。未删强头孔尾、未以小残量推真核距离，原D†/source-return/carry仍开。
