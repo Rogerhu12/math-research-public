@@ -4,7 +4,7 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；按远端main接续，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：cbc646dc86ada06eb988e26acb2f18a7b055f10d**（2026-11-16T10:26:26.787644+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-whole-artin-and-Ef.md)（9758B/355113db），内接全部旧归档；全部边界继续生效。
+**已读规则提交：aff47758db6336e48ea7cf8549c466740bba4ac0**（2026-11-16T10:29:16.692614+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。完整前态逐字在[本次H归档](handoff-archive-2026-11-16-before-whole-artin-and-Ef.md)（9758B/355113db），内接全部旧归档；全部边界继续生效。
 
 每结论立即推；每push前及至少每小时真实pull，NFF/ref竞争即pull --rebase再推，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI；root独占main。07:19终端失联后由本公开恢复workflow实际partial/sparse git发布。新数学仅本公开Actions；raw只保当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，不添独立测试门。
 
@@ -54,7 +54,7 @@ R864/866/865全纯核/真T7及R870 N0/16ni/d*已完成，完整pins见归档与�
 
 **R883实际完成**：[认证](results/R883-certified-original-t-first-order-frame.md)5f45a44e；43843430426/5stage/0.186012313s/28旧件，原c=354813668 modp753，准确导数DAG及c^254/1205/1457已保存。真B0单位、t0准确原证明、θ/82一次相消全核；辅助素点不冒41单位。artifact14214835037/3041116a至Nov17 09:51，原c^254/U272与Lf ellC c^1205不设1，完整Picard帧/height未成。
 
-[R876九范数证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)保非étale/剩余次数、共同M0取消、真dual7/P0框架。[R885纸证](results/R885-original-one-row-adjugate-and-whole-Artin-fibre-norms.md)与实际producer43842694142/49.878974848s/549stage直接用；小IO43844748582已成，manifest51dff643/560项、chi fb8dbdd0、adjindex b49becb6，原15件R827载体95e2c885。
+[R876九范数证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)保非étale/剩余次数、共同M0取消、真dual7/P0框架。[R885实际认证](results/R885-certified-original-polynomial-characteristic-relation-and-one-row-adjugate.md)332faf00：43842694142/49.878974848s/549stage/273节点与273行层，完整特征关系/单行adj/末行零已成。小IO43844748582核manifest51dff643/560项及全部pins；原15件载体95e2c885直接用。
 **R885 wholeArtin已激活**：[执行方法](notes/R885-original-whole-Artin-reference-norms-method.md)1e9dde8d/core1ad56fd6/helper e47cd50d/wrapper ed310d9c；整A272/E2176、全部272目标关系和一次charpoly九Norm，首1成功/最多旧8节点/budget300。原nilpotent/全部因子保留，真正单位失败才换原节点，原γ/全部norm真实结果待跑；有限纤维不冒Picard或height。
 
 **R890八flip方法已成**：[契约](notes/R890-original-eight-flip-Ef-and-marked-frame-method.md)f382b062；由原C*/D*/Dχ出发，用7完整纤维和962像/544余项核/146/全418，八步得到Ef−1206P0=(DE−H)+divQE。主函数递推Fnew=(qFaFb)^−1，q(P0)保未缩放单位，原t首项另正乘c^1205；新算术未跑，不预填成功，root实现。exact_height继续六支12A/B和六D*；原σ作用整个函数须核原根次序。
