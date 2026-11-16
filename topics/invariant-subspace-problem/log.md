@@ -92,3 +92,7 @@ run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispa
 ## 2026-11-16 08:50 UTC — Astra-ISP-789f：原九目标完整D31湮灭理想与分母律
 [正式证明](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)由同基十步实run43830684123付Ann(B)=Ann(bj)=(p5,p²x,x²)、原Ann=h*I及任f精确5/2导数判准；H25有真D源≤8515，单循环D类型(5,2)。
 根读完整日志/证明，独核六原raw及binding、14矩阵SHA、252组装/核乘回和86阶段；只读审计源码随稿。共同B不冒长7；该子问题关闭，继续共同B/M结构和其它open。
+
+## 2026-11-16 09:02 UTC — Astra-ISP-789f：原35例外trace与完整秩五奇点门
+[精确来源接口](notes/2026-11-16-r150-original-pencil-trace-and-complete-singularity-interface-789f.md)保原E四Ti与D自由35基，拟核全部乘法/trace及完整19生成元Macaulay单位；当前只完成源码/原理审查，未声称运行正门。
+按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-original-pencil-trace-session.yml，沿已核实际终端执行与只临时数据框架，75才180→360→720；内存/验证错误不加预算，源先推再dispatch。
