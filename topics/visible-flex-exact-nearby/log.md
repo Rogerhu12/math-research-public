@@ -508,3 +508,7 @@ proof550866c0/31643，root全文及全部38式读核，Tail§2–5与Newton§6�
 ## 2026-11-16 08:55:15 UTC — W96实际96维解空间、全inhom和精确物理waist列
 
 proof02f93880/32929；root全文逐符号读T/可选M/径向有限矩阵及完整rhs、重构注入/96+ℓ维度；Phase正式fresh outer/PW/WPL指定域核通过。actual193端点行保96低odd+96实际chart+1evenmean，mH和ℓ与原root97 FC核不混。真96positive解存在为新解析结论，数值basis/配对/全finite inverse仍未授。PW真混合root→完整density/两mean→WPL半行→B^-1无wrong highrightfactor，head反馈整列/rough域不能借旧E。Tail继续PC真实97..288壳/C+延拓路线，Newton独写只读4650行的3新max gate。旧链完整状态在1162cb41后压缩H；08:54:12真本机pull仍无executor，下一本地≤09:54:12；CI最近08:49:28期限09:49:28。8b352f90b97f7c340a2fbebbb11c19080d9a5e08两README版本同已读。
+
+## 2026-11-16 09:08:33 UTC — WHV唯一新3wholemax与径向网格源包
+
+两个新源e82c5180/9632、7cb5c84b/15718及共用worker161c5bc9/25424、manifestffcf1b75/24988已封；root全文+finaldiff，Newton worker全文/15输入264187B/13history/14门/27字段/24或25targets静核，Phase数学与Tail纯admission最终diff均通过。完整历史原gzip只在own Actions临时恢复，原11/18/19门和两4650cover/3594interfaces/原progress4608与manifest0/null各保。N=cap4096，无finite矩阵分配。开算两次fresh cap保完整70KB输出+120KB预留；已成/失败完整输出只要求实际≤200MB，不以额外预留阻保存。worker全truepull核README，非FF立即rebase；每条fullpull先stdout，exec保首/末三+count/hashchain，口径不冒全嵌。消费marker在纯JSON预检后、唯一科学child前，完整partial先保存；旧目标0重复。workflow另一次自然push即接执行；afbf59efb25396efb1286ab193857e3652643add两README同已读。
