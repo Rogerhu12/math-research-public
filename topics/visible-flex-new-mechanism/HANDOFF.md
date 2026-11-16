@@ -22,7 +22,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R497](results/R497-complete-angular-primitive-and-axis-metric-curvature-response.md)保全Π/位置jets；R501的±I168与有限det±1只付精确满秩/SPD，未授浮点条件数或可行下降；body曲率门不删。
 
-[R504](results/R504-complete-168-parameter-line-second-metric-jets-and-curvature-PSD-remainders.md)付真实168线Tα/Uα全角差式、完整e″/f″与无1/ε放大的三阶余项；原qI±τK四PSD行二阶余项保面积/scale/直接门。U/T不足B0或b_s；非线性predictor另有浮点身份/舍入点，不承继旧affine凸性。0执行，未证56下降。
+[R504](results/R504-complete-168-parameter-line-second-metric-jets-and-curvature-PSD-remainders.md)付真实168线全Π差式/e″f″与原PSD余项；curvature仍须b_s/a_ss，predictor有独立浮点身份，旧affine凸性不转移，原14门保。
+
+[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)原末三自由样条作完整延拓Rσ，末片Rσ=(s−σ)²(b−s)³/[2(b−σ)³]；原切向方向整圈X/一jets/I有限参数精确不变，仅Xss变。反射轴径支κs准确仿射、角支不变；前六样条在.78邻域全部二jets零。当前57实际耦合/支辨认/盒幅度/全body未付，禁止截断延拓或凭点位推reach。
 
 ## 3. 当前理论接口与未付全词
 
@@ -57,7 +59,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 CACHE2 29866451B/d92a1112ee337ef84fef673cc46c326404a67ca3ed7e40e68efff9d0c3316b0e，binding9053e45420d192c3965a82cff58f3db7946584dcb9c1771101399e394e0245f6，含57 U/T/e/f/grid/168，无X二jets/J。56所有J/模型不可跨点。原raw66570126B/d73905a51631f39a233b3dcfbb3b1a3101b196eb9e766574fcaf5d4cb8f9ea71，完整记录身份见57结论。
 
-## 5. 正在接续（2026-11-16 11:45 UTC）
+## 5. 正在接续（2026-11-16 11:47 UTC）
 
 57新模型需当前真实导数，必要二jets尚未保存，重建如实计费。[后继源码](notes/complete168-nonlinear-metric-and-selected-paid-jet-interfaces-20261116.md)有直接actual168非线性metric、paid selected二jets出口/全168 J适配，0执行。未来接受先学习pool再趁ordinary内存导出，不能倒填57或伪造未存hard点。非线性metric/曲率另立身份/预算，原14门保。
 

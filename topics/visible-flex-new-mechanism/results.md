@@ -423,3 +423,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R509 五端实际半像与短桥矩阵复位的准确边界](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)：**已证明**同母/w/χ下终k/ω/p0^y/p2复位且p1^y任意小正值，非零点五端submersion；完整Volterra式给短盒单侧成本及M0必要C≥1，其余五矩/几何/全period未付。
+
+
+- [R510 原三样条同圈精确度量中性与轴主曲率仿射控制](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)：**已证明**原完整样条延拓在指定整圈保持X/一jets/I并准确线性改变Xss，轴径支仿射/角支不变，前六样条对末片峰邻域全二jets为零；当前57耦合、盒幅度及全body下降未付。
