@@ -332,3 +332,9 @@
 - C_j的ρσ两项准确等于(T^j+T^-j)a，原12Hom矩阵/十二切向即可展开五组十四准确有理坐标，负方向用21−j保T^7=ζ²；有理rank/非零minor由实际Actions给，不预填5。
 - core2fc8df00/wrapper873097d8，stdlib，无原GLOBAL395MB或旧Dixon/Hensel；三数学stage与一日最小载体、真实退出码/manifest齐全。本地只AST和source/schema读取，实际41 Z/四响应/Y/height仍未成。
 - 本push规则：本地真实pull至482dce395cd037559aa4c43cb6133e1bec1d8fd7（2026-11-16T04:02:10.291497+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 12:05 Asia/Taipei — serre-public-astra-20261115
+- R853实际最小消费者提交：原169件、560×146真矩阵及146旧选行，仅cτ/cσ/cw0三准确右端和完整1680坐标乘回；τ0/σn1/w0e2/6724保持，完整下降不只共轭系数。
+- 原normal线性转换逐项还原；16节点函数域DAG保原W34全部spec和cyclic witness，三K(z)solve明确deferred，不称完整272作用或RR/period已算。core5b65e7cc/wrapper5bb1bf50/methodbd82f308；本地AST/169逐SHA IO，无新数学。
+- R852公开run43801628875已success，正在取实际certificate与全部小输出，尚未用日志替代正式结果。R786原artifact经API仍有效至05:41:45Z，R853立即取必要原叶；H逐字归档保全部旧状态。
+- 本push规则：本地真实pull至b33160624049313b2bda9d66d3da25dab03410cb（2026-11-16T04:05:03.127627+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
