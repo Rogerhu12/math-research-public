@@ -511,7 +511,7 @@
 - R866正式结果ef5fdaa6：3.399841967s/52stage，真实H/准确127逆/cY/全部127 Q-fixed基；even54/odd73、全560×127及C²实际验证。整ZIP/65件纯IO核，178原件carrierb865217a。
 - R865首120min消费者激活：core3d074559/wrapper9b05e7ff/method88a3c9dd/request28aa9adc/workflow61b43759，真175原件闭包。仅12新A_nB、原T7双矩阵/全行/两块charpoly/CRT谱，不重旧H/J/逆。
 - root已读全部六件及原文规范；本地无数学。R865纸证已推908abce3，一次非快进立即实际pull/rebase再推成功。R868真实P0核及R869原cusp格/companion、R870η域/挠界继续，不冒完整高度。
-- 本push规则：本地真实pull至fe9569f7295af9c0550b6ea4da88afe947804388（2026-11-16T06:52:59.147909+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至263d715e92b09fce5b0b808e7e25202bf6446b89（2026-11-16T06:58:51.663628+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ### 2026-11-16 14:40 Asia/Taipei — serre-public-astra-20261115
 - R869完整纸证4fb8d4bb：全部cusp最大raw Hodge整格ℒ、split modπ与原T固定线；真CRT首层μ1/6 Θ、untwisted level9 companion及指定CM的V4†/E4单位，未冒q-normal/height。
@@ -541,4 +541,10 @@
 - R868首300min公开消费者激活：corecdac462c/wrapper9115331e/methodaa91885f/request5020a1d7，80原件真闭包113762955B，活跃R860/R856/R850运输，未续无当前消费的395MB旧opaque成员。
 - 只新原rank271子式/两271逆/542坐标Dixon/full272K核及两图点逆254模块；不重W/点/旧DAG，128/144与高度未算。root已读全部源码及规范，下一R872继续实际RR截面。
 - 证明仅两YP/FM链接改到../notes，当前98e15284；method首链接改到results，数学未改。原R870纸证已推1e82334d，R871完整tame cubic及原q-normal比较继续。
+- 本push实际pull及两README差异检查由发布记录更新；主目标OPEN。
+
+### 2026-11-16 14:58 Asia/Taipei — serre-public-astra-20261115
+- R871完整纸证977d8f92：原tame once-primitive、全部12cusps Θ²注入、真H6†不变与W/A指定CM正则；准确U/(48E6²)T³单位，6/36/48及T=−48t/E6=−864规范全保。
+- 原R(0)、p特征齐次项和κ4真实下降保留；原cyclic-p/π层/KS/q-normal未成，R706 p137147的h1限制继续生效，不把tame单位当原height。
+- R868真实run43819875762/job133140317613/source9586473c在构造步；R870小整数消费者已冻结待读完激活，R872两权RR与R873实际η支持继续。H前态逐字归档34de94d3，旧pins无丢失。
 - 本push实际pull及两README差异检查由发布记录更新；主目标OPEN。

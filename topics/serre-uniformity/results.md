@@ -200,3 +200,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R865真实原Y T7与无重谱已成**：[正式结果](results/R865-certified-original-Y-Hecke-T7-and-squarefree-spectrum.md)。run43817070047/job133131532466/sourcea907063a，1.9339709759999835s/82stage；全560×127原Hecke等式、127真K/Q矩阵、实际54/73两块和16不可约因子全部完成，重数全1，16 CRT投影/整对应分母准确。finala48e185d/谱0b8dbbb6/投影0643d7d2；artifact14203241087/b03edc4c整ZIP/92件已核，175原件carrier2878150e。原Hecke类型支持、eη/主函数/nonp/height仍开，R870只消费已成谱求真实N等新小算术。
 
 - **R870原有理Picard挠判与Hecke支持证书已证**：[完整证明](results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md)，SHA256 5b44808d9dc6a09b2a520f5e542e33f2d0b5e2e92217183a017c92b8984bd1f0。原ξ_j的真Q Cartier下降、原7处ES及含7-primary的挠约化单射，给R挠⇔(T7−8)R=0。N=m7(8)>0、#JY(F7)=χ7(8)、逐块fi(8)/整对应分母和80项Picard零判方法明确；真实m_i=1足以分离完整等型块。实际N数值与检验输入消费R865，η支持/主函数/nonp未求；YP帧方向c0/h、纤维c0/c1保真。
+
+- **R871原tame Abel伴随与指定三次单位已证**：[完整证明](results/R871-original-tame-Abel-companion-and-marked-cubic-unit.md)，SHA256 977d8f925796a3fbc702a390a3d30a5fdc0e59825ad592779ca347cb77745d4f。原C_(p−1)、精确oldform系数和两个6，全部12尖点Θ²注入使真H6†不变，W/A在指定共轭CM正则；准确首项U/(48E6²)T³且系数单位，T=−48t/E6=−864，R(0)及高阶齐次项保留。原κ4下降另保，cyclic-p/全π层/KS/q-normal仍未比较；不与R706原h1反例边界冲突，不冒原高度非零。

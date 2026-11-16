@@ -140,3 +140,5 @@ R832接触界R−1+binom(R,2)(6G−4)可接原提取器，不假T_p非零或代�
 **R870原有理Picard挠判及校准整数来源已证**：[完整证明](results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md)5b44808d。RF原完整七项极除子在Q下降，ξ_j∈JY(Q)；真T7在7的ES关系与全部有理挠单射给R torsion⇔(T7−8)R=0。真实N=m7(8)，逐块fi(8)/统一LCM对应分母和80个整Picard条件待最小新Actions求值；R865真实重数全1满足16块分离。实际Hecke norm模、RR零判和η活跃支持尚未计算，c0/h及c0/c1刚性化方向保原帧/nonp，不把存在性或零局部log当主函数证书。
 
 **R868实际核消费者已激活**：[执行契约](notes/R868-original-P0-socle-and-RR-modules-activation.md)，corecdac462c/wrapper9115331e/methodaa91885f/request5020a1d7。真实80原件来自活跃R860/R856/R850，首300min只求原rank271/h、两图f与五模块；已有34组W及点/理想不重。128/144两权截面由R872继续，R868成功不改其未算字段。证明98e15284只更正原两条相对链接。
+
+**R871原tame Abel伴随及指定CM三次首项已证**：[完整证明](results/R871-original-tame-Abel-companion-and-marked-cubic-unit.md)977d8f92。原a^(p−2)ε3给C_(p−1)，W=C(Q)−ζ²C(Q4)；X(6)全部12cusps与degω=6使Θ²在S_(p−1)单射，真H6†固定及Hasse简单零给R=W/A于指定CM正则。准确R−R(0)=U/(48E6²)T³+O(T4)，U=V/E4单位，保两个6和原T=−48t/E6=−864。仍需原cyclic-p/ramified格/KS/原q-normal比较；R706已登记p137147否定原h1全p M2最小值，不能把本tame单位跨过去。R868真run43819875762/job133140317613/source9586473c在构造步，R872续实际两权RR；R873接原η支持。
