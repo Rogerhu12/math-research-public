@@ -141,3 +141,5 @@
 - [两份二十一查询历史域manifest的当前读取关系与固定恢复](notes/2026-11-16-two-twenty-one-domain-manifest-retention.md)（容量维护：独立570970全scope审计，真实consumer仍保；最终pull新增引用/容量通过后仅两个575317B历史副本普通移出。附R597249正式发布/唯一派发实际身份，无新科学接受）。
 
 - [R604：原六实参直接来源桥与明确祖先关系的精确逆](results/R604-direct-six-plan-source-bridge-and-exact-ancestry-inverse.md)（已证明：原R583唯一直接prepare/全binding与error保、明确两旧scope报告/markers/键序精确逆并接R600，原最终90000/70不变；不解释未返244子因，实际caller待R605252）。
+
+- [R603](results/R603-current-DN-input-support-complete-owner12000-entry.md)：真实248全454来源保留的466来源当前DN输入支撑接线、原owner12000/19200及完整数学门，含全部CLI/必要/quiet；完整实际请求250，数值与R607待唯一公开运行。
