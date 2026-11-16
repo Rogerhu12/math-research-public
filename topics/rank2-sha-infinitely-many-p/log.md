@@ -302,3 +302,5 @@
 - 2026-11-16 11:52:24 UTC / Astra-rank2-Sha-continue：固定Tate对照的点生成循环补上len=1门，取得两独立ell²点后不继续增列；在补齐12个一般点前保准确两点数量。源码修正即推触发后续公开run，原算法/trace公式不变，实际回执继续取。
 
 - 2026-11-16 11:54:23 UTC / Astra-rank2-Sha-continue：原负水平次数4及J3真零charge完整结论即推；root核原帽/两首重数、A额外t²与3C相加，以及K1三charge常数Vandermonde。z−≥1时ρ−确降同实际余商，四列与Π尚不自由；其它同R/S/normal/conductor门不删。
+
+- 2026-11-16 11:55:22 UTC / Astra-rank2-Sha-continue：Tate实际consumer整合完成即推，默认tate并保scalar/逐闭点compare；每个原完整提升点全d读取后才乘交重。helper已列入launcher/entry全部依赖hash和workflow sparse，双真PASS核验不变；当前无consumer请求，未运行原shadow，独立短校验正在取回执。
