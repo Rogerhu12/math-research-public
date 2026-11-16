@@ -1,0 +1,428 @@
+{
+  "schema": 1,
+  "session": "serre-public-astra-20261115",
+  "request_id": "R902-strict-original-six-Galois-five-sum-Hom-two-RHS-low-weight-RR",
+  "result": "R902-original-six-Galois-five-sum-Hom-low-weight-RR",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "all_new_mathematics_only_in_public_Actions": true,
+  "core": "R902_original_six_Galois_low_weight_RR.py",
+  "core_sha256": "cfe2dd5bf3c9d3637cecda855522935492fbb168da5617c47bb7e560e98bf47a",
+  "fixed_chart_helper": "scripts/R902_fixed_Galois_unit_charts.py",
+  "fixed_chart_helper_sha256": "47806ab8052e43d29aecb47d8b1135e4126c0829faf0f776cd57ee302b64ab69",
+  "wrapper": "R902_public_original_six_Galois_low_weight_RR.py",
+  "wrapper_sha256": "5e3f48e5d2267c5286cefeaf7c150b19d49ec7202a7270b51aee28e14f637096",
+  "workflow": ".github/workflows/serre-R902-six-Galois-low-weight-RR.yml",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md",
+  "method_sha256": "3e9d20238d1ce58771c0c5b8f0a07326f767b58162d01784e4d5398f305757de",
+  "proofs": {
+    "R896": {
+      "path": "results/R896-original-two-denominator-low-weight-residual-RR-kernels.md",
+      "sha256": "ca0d8891a04683f712c1fe347f1da3e707854aa889163c7c3207ec8656b70341"
+    },
+    "R893": {
+      "path": "results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md",
+      "sha256": "91ce6834bda528976265a331fe0c987f4350049e7b228f1cc6c77e0a69142416"
+    },
+    "R872": {
+      "path": "notes/R872-original-point-jets-and-bounded-two-weight-RR-kernels.md",
+      "sha256": "bd6ee11af3fbbce8db2767bc327265176992bb3be15395018df6612ab4e2dae2"
+    },
+    "R883": {
+      "path": "results/R883-certified-original-t-first-order-frame.md",
+      "sha256": "5f45a44e4d3a71ef9e5b398d65c87dec3434d217c52bd6b08d60a8aae0f976ce"
+    },
+    "R848": {
+      "path": "results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md",
+      "sha256": "d7ab0082aff2add9af3e356a3124fed7650ff964fdd49790b4218497e767c9ad"
+    },
+    "c0": {
+      "path": "notes/2026-11-16-original-c0-Hom-nonramification-and-comparison-leading-terms.md",
+      "sha256": "d29ef204c77e7abe1b61ed50628574f58fc46f684ad4d00f8495ecd15c6a9073"
+    }
+  },
+  "budget_minutes": 300,
+  "maximum_pairs": 30,
+  "resume": null,
+  "rules_last_read_commit": "e6e7f122dd51cf7984532ebc9d4e2e3089b1826f",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "source_artifacts": {
+    "R893": {
+      "result": "R893-original-five-sum-Hom-complete-initial-RR",
+      "run_id": "43861874528",
+      "source_commit": "fe27ac55e0c5d538ac60473df9f1c33f1f90f3b3",
+      "core_sha256": "c199ccbf95de73fb8e1f156a4adaea9ce517cb1c42c427b55c2dcc4901065daa",
+      "wrapper_sha256": "247980f1ecec1616004dd4569724b8742ce356df8b45a28231b6725c004beaac",
+      "configuration_sha256": "cd3f53628b4d16176691923ad029eae443075ccc7804927c9377a6d67dc94c9d",
+      "manifest_sha256": "58a66985fc3bcb663ab5e7c4238546d8d33a876a3fd69663e9f4f817fb8eb8b4",
+      "manifest_bytes": 98261,
+      "manifest_file_count": 643,
+      "certificate": {
+        "file": "p41-original-five-sum-Hom-complete-initial-RR-certificate.json",
+        "bytes": 18395,
+        "sha256": "ad135ab7a624beaad0e1fba76230a63cfe478b3aa667b6b33624f763269cf728"
+      },
+      "artifact_id": 14224626902,
+      "artifact_name": "serre-global-R893-five-sum-Hom-initial-RR-43861874528-1",
+      "archive_bytes": 576747513,
+      "archive_sha256": "cc7cc8e58754205f1472929b4a733e20bf594732aae869a19004d9c32fb01893",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T12:03:18Z"
+    },
+    "R896": {
+      "result": "R896-original-five-sum-Hom-low-weight-residual-RR",
+      "run_id": "43872960726",
+      "source_commit": "259e2448c7c51131fecc231ee55f7d457397dde8",
+      "core_sha256": "2328123121cb76e50d265222b19510e03ce22588b6bca367c1bd811dd623c1c2",
+      "wrapper_sha256": "558ad67f7b05662d7692060dcd7ea0742329c3fc85271a4be1e2b4155b2e9129",
+      "configuration_sha256": "0f52c636cacceaef9db290f15a492b05db188228680ae84997bb89d2d06d8782",
+      "artifact_id": 14228364447,
+      "artifact_name": "serre-global-R896-five-sum-Hom-low-weight-RR-43872960726-1",
+      "archive_bytes": 525499323,
+      "archive_sha256": "09709b33882b32bab65b1ff855e7cd246561cac8ba344251bcab26e3067634bd",
+      "manifest_sha256": "2875d857feb3ae5c786b35946782b6a4cf74d429679c5d54d3dc1c3215755a93",
+      "manifest_bytes": 91794,
+      "manifest_file_count": 577,
+      "expected_conclusion": "success",
+      "certificate": {
+        "file": "p41-original-five-sum-Hom-low-weight-residual-RR-certificate.json",
+        "bytes": 15429,
+        "sha256": "66218771f4b0f8d7822282839ca94bcb34049fc3d867248ae4eddf6348fdb24c"
+      }
+    },
+    "R849": {
+      "result": "R839-original-global-addition-polar-ideal-DAGs",
+      "run_id": "43790410670",
+      "source_commit": "391191590dcb8bcc6f8f2d777610726fa79dc2a3",
+      "artifact_id": 14192171293,
+      "artifact_name": "serre-global-R839-original-global-addition-polar-ideal-DAGs-43790410670-1",
+      "archive_bytes": 396226833,
+      "archive_sha256": "6a52068e04e91bc7b45b13de08a143ca2baef4a3bdfd1f8fac9bab1946d94083",
+      "expected_conclusion": "success",
+      "core_sha256": "544241acf5f3451df34c779d513ea6494616d4d4caa26cd2531749edc895aea7",
+      "wrapper_sha256": "39bef61981f6c2193e64cd1797331a0ce9340ed468fc93dc785d8994c8d2a541",
+      "manifest_sha256": "cdc06c91e9a981bf025402df732686de7415637d5e13f28552f773bb08e05cdd",
+      "manifest_bytes": 2144,
+      "manifest_file_count": 12,
+      "configuration_sha256": "87a0e26e7b0c6677905313753e4e2a36ea82e9e6a33d6f32d6d6cf7616e13183",
+      "certificate": {
+        "bytes": 7447,
+        "file": "p41-original-global-addition-polar-ideal-DAG-certificate.json",
+        "sha256": "b50df2dfd37a7610659fa5f9bc37b81078ba6e95508c9196f1056bef1c9c60b7"
+      }
+    },
+    "R877": {
+      "result": "R877-original-canonical-A-normal-input",
+      "run_id": "43833857220",
+      "source_commit": "87f3bfe4c7873258c45a55ccf9ee6c41ff7cf6a4",
+      "artifact_id": 14209578116,
+      "artifact_name": "serre-R877-canonical-A-normal-input-43833857220-1",
+      "archive_bytes": 79882282,
+      "archive_sha256": "6f0e627c7d5c330c8a85647c1e333ecd036ce4531f1b8de0983b98c7fdbd7322",
+      "expected_conclusion": "success",
+      "core_sha256": "a40ed5b1bbb27b29cb54c94dca36322276c17c4534f43134e422acbb6f33983a",
+      "wrapper_sha256": "a574bd4fa95c2d80b1b6b6037f7e944a0c9f79660b7c4667ac99e97be3507221",
+      "manifest_sha256": "b0558cdb41d161647162b67164ab187e20b48f54b06e56627ef373657bf28215",
+      "manifest_bytes": 7254,
+      "manifest_file_count": 42,
+      "configuration_sha256": "8cfd8587d963b36000c2491dcae30cd577d980478bbed7e6c4d54b5ef3313731",
+      "certificate": {
+        "file": "p41-original-canonical-A-normal-input-certificate.json",
+        "bytes": 8158,
+        "sha256": "6305b52f59be5cf0a5f6181e02cdcee4d81b37a67c2ab1e189d9483ad3c554e1"
+      }
+    },
+    "R809": {
+      "result": "R809-original-S5-normal-coordinates",
+      "run_id": "43712427063",
+      "source_commit": "91fbd81eb539c07f11e21116e71def91fdab5254",
+      "core_sha256": "dedb5d6149a3c3ae86ad09e51f30c1424951a09010bf48afd948d2628e1ec21d",
+      "wrapper_sha256": "3616aac1b7d5dc373f0599c7ca023ef300f647fa204cd874a9655ca55b9607ea",
+      "artifact_id": 14168728276,
+      "artifact_name": "serre-global-R809-original-S5-normal-coordinates-43712427063-1",
+      "archive_bytes": 545778174,
+      "archive_sha256": "1ec83d6c910e119bfc9f82b35520b493a235b8dea1ddba247b60e46f00c8a550",
+      "expected_conclusion": "success",
+      "manifest_sha256": "84908131c5a232d7accf5919a999c0bfbae4b2b632dcfc03c1e634494ef27b4e",
+      "manifest_bytes": 4044440,
+      "manifest_file_count": 11305,
+      "configuration_sha256": "c5b3f5f1a527be473b5869e16315e258322d2a4d401905364f05b62ffacd52a4",
+      "certificate_name": "p41-original-S5-normal-coordinate-certificate.json"
+    },
+    "R827": {
+      "result": "R827-original-global-modular-derivative-termination",
+      "run_id": "43734420663",
+      "source_commit": "400edecfeab313d1858cdb72bf18f8452ab9566a",
+      "artifact_id": 14180474398,
+      "artifact_name": "serre-global-R827-original-global-modular-derivative-termination-43734420663-1",
+      "archive_bytes": 3646481834,
+      "archive_sha256": "ce9a6a970c3791304448e9f98ea40fa1ebe4af9eea1285b28a9d55ff2c1e6f72",
+      "expected_conclusion": "failure",
+      "core_sha256": "d9cf773976f3beff7f44ff30f8b593665f481470cb52297239710e0ce6e062d2",
+      "wrapper_sha256": "dbd8356e46ace9fcde94800a1e36f2f2f94c3f1d4a72afafea6fc21e20ae8b1d",
+      "manifest_sha256": "2609de217bf1da048f7987ae7de09df38ac24fb63e82d45add1e7c6b9cdbea7e",
+      "manifest_bytes": 19902271,
+      "manifest_file_count": 72997,
+      "configuration_sha256": "7f86690b743e182580ce7ca25745afa3dd326364e76b4a1c65122f948b45bab0",
+      "configuration_stage": {
+        "bytes": 763994,
+        "file": "R827-original-W-g-h-reductions.json.gz",
+        "sha256": "5bcbadf437c2ac91431771b6d9818b99436008e9a5db4caa185dfac8aca5f841"
+      },
+      "accepted_process_exit_codes": [
+        124
+      ]
+    },
+    "AB": {
+      "result": "R880-original-six-branch-A-B-normal-inputs",
+      "run_id": "43849775574",
+      "source_commit": "4a459acc8e430dbfe0ff232493c5ce1a9f493ced",
+      "artifact_id": 14219900447,
+      "artifact_name": "serre-R880-six-branch-A-B-normal-inputs-43849775574-1",
+      "archive_bytes": 128117604,
+      "archive_sha256": "8e05d15a2a4008ac7091785653f94c062490205a53f444095bbfa5b35a7f91a4",
+      "expected_conclusion": "success",
+      "core_sha256": "3094615c9d73d77119065bfa74321a5ab42ba8714fe6b09624725919e8b46d23",
+      "wrapper_sha256": "ec7d719b49c3b1e9bccbbf803516bf4008c2dbf4cb2ebecaa659b1d3050c0e45",
+      "manifest_sha256": "c7deae057a4c142265e237fb671404ccaa71443d67d23bfbe623a939856f1d1d",
+      "manifest_bytes": 10527,
+      "manifest_file_count": 60,
+      "configuration_sha256": "839ee1e1709b319a4c980cf8dba2c32e34f6bf149ca4b15b0c0920d16e71bee9",
+      "certificate": {
+        "file": "p41-original-six-branch-A-B-normal-inputs-certificate.json",
+        "bytes": 17836,
+        "sha256": "1392b1d2cf74725e439ca1034e3c230a624c713c22e64a344fecc65b42e01e55"
+      }
+    },
+    "SIXD": {
+      "result": "R880-original-six-conjugate-Dstar-RR-inputs",
+      "run_id": "43857317518",
+      "source_commit": "4478c31d1d601784fb636224adcf90e3fc0978ad",
+      "artifact_id": 14222091280,
+      "artifact_name": "serre-R880-six-conjugate-Dstar-RR-inputs-43857317518-1",
+      "archive_bytes": 889731055,
+      "archive_sha256": "0763bf87fda063082d2027199eb7b2d08a56e647d764444017e161735645e923",
+      "expected_conclusion": "success",
+      "core_sha256": "5421c814130021587ac0a97b8fa336b04c5d0d4f784a96cbac4088591b86fb17",
+      "wrapper_sha256": "9c2fac9d342b274bf3570af34237c5138738869165a46c66a7627db910208cab",
+      "manifest_sha256": "462bd2c6851e7f49e67327c1ab7cf7eae08ca37dcfa65151dafded2ec65f9d2d",
+      "manifest_bytes": 205572,
+      "manifest_file_count": 1118,
+      "configuration_sha256": "28724072022fdabfe5ad1178e93893ad3b97e5eeed29ee1abb6b5a5433acaa78",
+      "certificate": {
+        "file": "p41-original-six-conjugate-Dstar-RR-inputs-certificate.json",
+        "bytes": 17314,
+        "sha256": "3e48e09c24aee9d9912eb1ad79f17421fb797440942c44376dda55574409d1cb"
+      }
+    },
+    "R872": {
+      "result": "R872-original-P0-jets-and-fixed-Picard-RR-spaces",
+      "run_id": "43830071469",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "core_sha256": "0e5897512a2f45baaed9cd1b6b2badcb6bf6ee2b100fcd45db871ad9f6db1874",
+      "manifest_sha256": "5001e5be47484c649a28afb82c89cf95995f0a3a0d05498173bbb680451cbb80",
+      "manifest_bytes": 48387,
+      "manifest_file_count": 314,
+      "certificate": {
+        "file": "p41-original-P0-jets-and-fixed-Picard-RR-spaces-certificate.json",
+        "bytes": 17961,
+        "sha256": "b2837667ae100ef8c7f27494eb447201e3b6204da553d337d78e9a163d90c0e5"
+      },
+      "artifact_id": 14207558653,
+      "artifact_name": "serre-R872-original-point-jets-fixed-Picard-43830071469-1",
+      "archive_bytes": 146222980,
+      "archive_sha256": "b91d6fcccedf977bcef1a3aa61a3f95588958a340270e4c0441dd1eb32ba996d",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T08:19:10Z",
+      "configuration_sha256": null,
+      "derive_configuration_from_pinned_original_stage": true
+    },
+    "R883": {
+      "result": "R883-original-t-first-order-frame",
+      "run_id": "43843430426",
+      "source_commit": "a41eaf283496222761525ba06efd1e3d61ab4f47",
+      "core_sha256": "2778a81b5639a1eb6285718574af0ce4b48b00e92b648c6ac29ffe70c1da66f7",
+      "wrapper_sha256": "91799e07dbf3a5875734df8fb4fdb3e4e15e7427195647973e76ac3ce82da76b",
+      "configuration_sha256": "ea27184f1beb64978adfa1940cf0b01343461e978319b4531b283d5b80b62a99",
+      "manifest_sha256": "d2e9de1f1d969695f1d7b8b3ebbd933264d292e377113f622ed623a68076390f",
+      "manifest_bytes": 2783,
+      "certificate": {
+        "file": "p41-original-t-first-order-frame-certificate.json",
+        "bytes": 9033,
+        "sha256": "3ae22a7651cecd492c170c44a034bea71356e01bd4fdc880851b86742298daeb"
+      },
+      "artifact_id": 14214835037,
+      "artifact_name": "serre-global-R883-original-t-first-order-frame-43843430426-1",
+      "archive_bytes": 8018550,
+      "archive_sha256": "3041116aa53b458e37635b8b5fccab6a2b988f4a57a05d6e5ba086229f0392bc",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:51:15Z"
+    },
+    "JETS": {
+      "result": "R880-original-D-and-cusp-bounded-RR-inputs",
+      "run_id": "43840391925",
+      "source_commit": "3c1ddaf3c94d63aee2f9dd0bee32b6dbdeff35b9",
+      "core_sha256": "ca46e8f9a9410be240ad77c0863b193e77ef701b06186a31b3edb20eb3e997a4",
+      "wrapper_sha256": "3a888af1b0ff3339743a1369c416be0d85111562c167260637b4b0da1b52b630",
+      "configuration_sha256": "a45fbf96ab0c58b64609bbf147b2ced7c8edd16f6ac59829d3e870641380b873",
+      "manifest_sha256": "ce5240b0e1385253ea5cce459842888f0f4e374a255f496a6d93bb54869983db",
+      "manifest_bytes": 8526,
+      "manifest_file_count": 50,
+      "certificate": {
+        "file": "p41-original-D-and-cusp-bounded-RR-inputs-certificate.json",
+        "bytes": 18296,
+        "sha256": "a9b24bacd5965ab387d719d70238e83c5a12dfd9b101970649b6a3f889a3c3f8"
+      },
+      "artifact_id": 14212028755,
+      "artifact_name": "serre-R880-D-cusp-bounded-RR-inputs-43840391925-1",
+      "archive_bytes": 105609871,
+      "archive_sha256": "5af19f69961afba3a1d7fba8cd71e7bb9ef5d5b0b5d99b390e5aafecc2028bb3",
+      "expected_conclusion": "success",
+      "artifact_expires_at": "2026-11-17T09:31:44Z"
+    },
+    "R890": {
+      "result": "R890-original-Ef-eight-flip-and-marked-frame",
+      "run_id": "43853462674",
+      "source_commit": "aa00d76e4a0292f780406c5f75090668a9b66523",
+      "core_sha256": "da8498fc6ab0f143ba347f4a7dec91c7474bbe2520c349bf33a84bba8e65420f",
+      "artifact_id": 14222786594,
+      "artifact_name": "serre-global-R890-eight-flip-Ef-43853462674-1",
+      "archive_bytes": 3818946840,
+      "archive_sha256": "c5e609ffdbcdaf1247dc33da59a4e74bc4bfabe63e8abfae8002569e0fb6ca41",
+      "expected_conclusion": "success",
+      "configuration_sha256": "75267c1ba5c7b60c69d22b6a4359a564c7636706b99be9dff781959523155f8e",
+      "manifest_sha256": "d51ef99be161206ab53cb00fd1807e200915305f5e06602ab93dd06af8f09a00",
+      "manifest_bytes": 1451468,
+      "manifest_file_count": 9239,
+      "certificate": {
+        "file": "p41-original-Ef-eight-flip-and-marked-frame-certificate.json",
+        "bytes": 12331,
+        "sha256": "986e2ea9a0015eec7842c8b678610fc143986472a7eb8f77d6708eef52080793"
+      }
+    }
+  },
+  "R893_original_input_transport": {
+    "source_inventory": {
+      "file": "R893-original-source-inventory.json",
+      "bytes": 75893,
+      "sha256": "0988844a0b285f2ad5ecf0a4f8f652c8afe0de76a97d3893c51b9b7d381438d2"
+    },
+    "retained_inputs_receipt": {
+      "file": "R893-retained-inputs-receipt.json"
+    },
+    "package": {
+      "file": "R893-retained-original-inputs.tar.gz",
+      "bytes": 146082255,
+      "sha256": "49ef05b979288838096e7426a5ec37938daaae108b4169682ed45cbee7de1dba"
+    },
+    "original_member_count": 131,
+    "original_to_local_source_labels": {
+      "R880": "AB",
+      "R877": "R877",
+      "R809": "R809",
+      "R849": "R849",
+      "R827": "R827",
+      "DSTAR": "SIXD"
+    }
+  },
+  "prepared_transports": {
+    "R896": [
+      {
+        "archive": {
+          "run_id": "43875866536",
+          "source_commit": "b0ed2ae7c9a681d7197fe6e0f47a9a06a0921efd",
+          "artifact_id": 14230107731,
+          "artifact_name": "serre-required-original-source-intake-43875866536-1",
+          "archive_bytes": 46773192,
+          "archive_sha256": "765ad23b67ca58198c87f38a9487132e74938510884c13b9217315eaecaf47b7",
+          "expected_conclusion": "success"
+        },
+        "package": {
+          "file": "R896-complete-required-intake-selected-original-sources.tar.gz",
+          "bytes": 45605987,
+          "sha256": "7429a99c1997a29a00b3c63909e2bedb8dcf30ff3b3e22419bf1bde2cd3e81c9"
+        }
+      }
+    ],
+    "R890": [
+      {
+        "archive": {
+          "run_id": "43860838780",
+          "source_commit": "fc4fa39cb817c093ef870cb168222670612163fc",
+          "artifact_id": 14222928598,
+          "artifact_name": "serre-required-original-source-intake-43860838780-1",
+          "archive_bytes": 31320925,
+          "archive_sha256": "721e2601fdbcbe3d035a18b69c9c1905731496201cd88cc3352a97a8bf0e2fba",
+          "expected_conclusion": "success"
+        },
+        "package": {
+          "file": "R890-eightflip-complete-intake-selected-original-sources.tar.gz",
+          "bytes": 30951546,
+          "sha256": "4a307ff22a105f057dfecdfa4cdae82197100b217e877a74beb498b4e2c205ef"
+        }
+      }
+    ]
+  },
+  "source_file_pins": {
+    "SIXD": {
+      "R880-six-Dstar-branch-05-original-B-derivative-vectors.json.gz": {
+        "file": "R880-six-Dstar-branch-05-original-B-derivative-vectors.json.gz",
+        "bytes": 28070,
+        "sha256": "0f82127f14dcd4c4d4c9cdecb196b7d5d4e2c140d78322f61cc415867fa92144"
+      }
+    }
+  },
+  "input_pins": {
+    "normal_V3_point_jets": {
+      "source_group": "R880",
+      "file": "R880-original-V3-252-point-jet-matrix.json.gz",
+      "bytes": 901788,
+      "sha256": "5f40695a800339604c7fba0fcf19e73c677dd54579170f50c46b054b9b903120"
+    },
+    "point_linear_functional": {
+      "source_group": "R872",
+      "file": "R872-point-linearization.json.gz",
+      "bytes": 1133054,
+      "sha256": "93ca998817049b278b1b0d3a7fd791f749acceefb05a9a33ed563cbcf51034fe"
+    },
+    "t_frame": {
+      "source_group": "R883",
+      "file": "R883-original-t-first-order-unit-and-frame-DAG.json.gz",
+      "bytes": 3850,
+      "sha256": "136dd22c3aaddb0b650a5513eefd6db70bfee8a088f0f0cd437a5b6927f6094a"
+    }
+  },
+  "mathematical_scope": {
+    "same_original_auxiliary_prime": 1000000753,
+    "original_sigma_branch_order": [
+      0,
+      6,
+      1,
+      2,
+      4,
+      3,
+      5
+    ],
+    "original_sigma0_five_spaces_recomputed": false,
+    "number_of_new_strict_original_conjugates": 30,
+    "complete_initial_space_exactly_defined_by_inherited_unit_chart": true,
+    "materialized_initial_B_columns_per_pair": 2,
+    "full_conjugate_initial_B_basis_materialized": false,
+    "initial_selected_rows_columns_free_order_and_integer_anchors_unchanged": true,
+    "full_original_N_times_272_two_column_relations_required": true,
+    "later_residual146and418_spaces_complete": true,
+    "old_Krylov_normal_fibre_derivative_jets_or_selected_inverse_arithmetic_recomputed": false,
+    "only_new_missing_derivative": "sigma6_A",
+    "old_source_group_aliases_do_not_change_original_tag": true,
+    "whole_fibres_no_factor_or_multiplicity_removed": true,
+    "new_nonunit_is_honest_inconclusive_without_reselection": true,
+    "principal": "Q=(sigma(B0/tau^n)/(sigma(v)/tau^3))*(u_chi/tau^2)^(-(n-2))",
+    "old_unscaled_rho_and_original_t_frame_preserved": true,
+    "Hecke_Picard_support_connection_period_or_height_computed": false
+  }
+}
