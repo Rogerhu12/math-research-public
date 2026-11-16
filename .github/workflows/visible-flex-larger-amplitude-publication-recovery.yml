@@ -1,0 +1,261 @@
+name: visible-flex publication recovery RETENTION3
+on:
+  push:
+    branches:
+      - visible-flex-larger-amplitude-publish-retention3-20261116
+permissions:
+  contents: write
+concurrency:
+  group: visible-flex-larger-amplitude-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GIT_TERMINAL_PROMPT: '0'
+      VISIBLE_REPO_TOKEN: ${{ github.token }}
+      VISIBLE_PUBLICATION_COMMIT: '41b9d60d255639d987232f0e7c27ee9fd7f86f23'
+      VISIBLE_PUBLICATION_FILES: '["topics/visible-flex-larger-amplitude/HANDOFF.md","topics/visible-flex-larger-amplitude/open.md","topics/visible-flex-larger-amplitude/results.md","topics/visible-flex-larger-amplitude/log.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-two-twenty-five-domain-manifest-retention.md","topics/visible-flex-larger-amplitude/notes/2026-11-16-request240-official-run-binding.md","topics/visible-flex-larger-amplitude/notes/public-actions-43668743515-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json","topics/visible-flex-larger-amplitude/notes/public-actions-43666177645-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json"]'
+    steps:
+      - name: Restore one conclusion with actual pull and README checks
+        shell: bash
+        run: |
+          python3 -u - <<'VISIBLE_PUBLICATION_PY'
+          import subprocess,pathlib,re,json,datetime,sys,os
+          repo="Rogerhu12/math-research-public"
+          hp="topics/visible-flex-larger-amplitude/HANDOFF.md"
+          r=pathlib.Path(os.environ["RUNNER_TEMP"])/("visible-publish-"+os.environ["GITHUB_RUN_ID"]+"-"+os.environ["GITHUB_RUN_ATTEMPT"])
+          if r.exists():raise SystemExit("Refuse to reuse a previous clone")
+          pins={"README.md":"21bd547f56590b7f2dd279d0297efb289a9b2783","topics/visible-flex-larger-amplitude/README.md":"bff8aea253a9e6a7a4fac28d810ac454c5499fec"}
+          def g(*a,check=True,editor=False):
+           env={**os.environ,"GIT_EDITOR":"true"} if editor else None
+           print("GIT_OPERATION "+a[0],flush=True)
+           p=subprocess.run(["git","-c","http.lowSpeedLimit=1","-c","http.lowSpeedTime=60","-C",str(r),*a],text=True,capture_output=True,env=env)
+           if p.stdout:print(p.stdout,end="",flush=True)
+           if p.stderr:print(p.stderr,end="",file=sys.stderr,flush=True)
+           if check and p.returncode:raise SystemExit(p.returncode)
+           return p
+          def quiet(*a):return subprocess.check_output(["git","-C",str(r),*a],text=True).strip()
+          def check_rules():
+           global last_read_head
+           head=quiet("rev-parse","origin/main")
+           for path,pin in pins.items():
+            actual=quiet("rev-parse","origin/main:"+path)
+            if actual!=pin:
+             print("README_CHANGED "+json.dumps({"path":path,"old_blob":pin,"new_blob":actual,"pulled_head":head}),flush=True)
+             g("diff",pin,"origin/main:"+path,check=False)
+             raise SystemExit("New README differences require model reading before publication")
+           last_read_head=head
+           print("TRUE_PULL_RULES_UNCHANGED "+json.dumps({"read_head":head,"README_blobs":pins}),flush=True)
+           return head
+          def rule_line(head):
+           return "规则同步记录："+datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")+" root委托本公开仓库Actions run"+os.environ["GITHUB_RUN_ID"]+"真实 git pull --rebase origin main 后核双README；根"+pins["README.md"]+"、题"+pins["topics/visible-flex-larger-amplitude/README.md"]+"未变，已读提交 "+head+"。"
+          def resolve_rule_only_conflict(operation):
+           head=check_rules()
+           conflicts=quiet("diff","--name-only","--diff-filter=U").splitlines()
+           if conflicts!=[hp]:raise SystemExit("Substantive conflict requires explicit merge of source text")
+           path=r/hp;s=path.read_text()
+           blocks=re.findall(r"^<<<<<<< HEAD\n(.*?)^=======\n(.*?)^>>>>>>>[^\n]*\n",s,re.M|re.S)
+           if len(blocks)!=1 or not all(x.strip().startswith("规则同步记录：") and "\n" not in x.strip() for x in blocks[0]):
+            raise SystemExit("Substantive HANDOFF conflict requires explicit resolution")
+           s=re.sub(r"^<<<<<<< HEAD\n.*?^>>>>>>>[^\n]*\n",lambda m:rule_line(head)+"\n",s,flags=re.M|re.S)
+           if len(s.encode())>=10000:raise SystemExit("HANDOFF size cap")
+           path.write_text(s);g("add","--sparse","--",hp)
+           g(operation,"--continue",editor=True)
+          def stamp():
+           head=check_rules();path=r/hp;s=path.read_text()
+           if not re.search(r"^规则同步记录：.*$",s,re.M):raise SystemExit("Missing original HANDOFF rules line")
+           s=re.sub(r"^规则同步记录：.*$",lambda m:rule_line(head),s,flags=re.M)
+           if len(s.encode())>=10000:raise SystemExit("HANDOFF size cap")
+           path.write_text(s);g("add","--sparse","--",hp)
+           g("commit","--amend","--no-edit","--reset-author")
+          def real_pull():
+           p=g("pull","--rebase","origin","main",check=False)
+           if p.returncode:resolve_rule_only_conflict("rebase")
+           else:check_rules()
+          
+          # Administrative repository byte accounting; no scientific acceptance predicate.
+          CAPACITY_BASE = "f7d56b2da6e2c85f059f37277ad3026c31bb6667"
+          CAPACITY_BASE_TOPIC_BYTES = 198569112
+          def topic_capacity_guard():
+           global last_topic_bytes
+           probe=subprocess.run(["git","-C",str(r),"cat-file","-e",CAPACITY_BASE+"^{commit}"],capture_output=True)
+           if probe.returncode:g("fetch","--filter=blob:none","--depth=1","--no-tags","origin",CAPACITY_BASE)
+           raw=subprocess.check_output(["git","-C",str(r),"diff","--raw","--no-abbrev","--no-renames","-z",CAPACITY_BASE,"HEAD","--","topics/visible-flex-larger-amplitude"])
+           tokens=raw.split(b"\0");total=CAPACITY_BASE_TOPIC_BYTES;i=0;count=0
+           while i<len(tokens) and tokens[i]:
+            parts=tokens[i].decode("ascii").split();path=tokens[i+1].decode("utf-8")
+            if len(parts)!=5 or not parts[0].startswith(":"):raise SystemExit("Exact capacity raw diff record")
+            old_sha,new_sha=parts[2],parts[3]
+            before=0 if set(old_sha)=={"0"} else int(subprocess.check_output(["git","-C",str(r),"cat-file","-s",old_sha]))
+            after=0 if set(new_sha)=={"0"} else int(subprocess.check_output(["git","-C",str(r),"cat-file","-s",new_sha]))
+            total+=after-before;count+=1;i+=2
+            if after and path.endswith(".md") and after>=100000:raise SystemExit("Actual Markdown size cap: "+path)
+            if path.endswith("/HANDOFF.md") and after>=10000:raise SystemExit("Actual HANDOFF size cap")
+            if path.endswith("/open.md") and after>=30000:raise SystemExit("Actual open size cap")
+           last_topic_bytes=total
+           print("TOPIC_CAPACITY "+json.dumps({"base":CAPACITY_BASE,"base_topic_bytes":CAPACITY_BASE_TOPIC_BYTES,"head":quiet("rev-parse","HEAD"),"changed_topic_files":count,"actual_topic_bytes":total,"limit":200000000,"all_changed_blob_sizes_measured":True,"whole_tree_blob_sizes_not_fetched":True}),flush=True)
+           if total>200000000:raise SystemExit("Actual topic capacity exceeds 200000000")
+          
+          
+          # Administrative deletion tail guard, not a scientific acceptance predicate.
+          import hashlib,shutil,gzip,io
+          RT_BASE = "71bdd520ca5427e2b619020d94560f6534f5fcfc"
+          RT_CAPACITY_BASE = "f7d56b2da6e2c85f059f37277ad3026c31bb6667"
+          RT_BASE_TOPIC_BYTES = 198569112
+          RT_TOPIC = "topics/visible-flex-larger-amplitude"
+          RT_PATTERNS = ["topics/visible-flex-larger-amplitude/notes/public-actions-43668743515-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json","notes/public-actions-43668743515-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json","public-actions-43668743515-1-condensedqp","twenty-five-condensed-warm","43668743515","5e54f7f937457cd9af5c2688f0d52fa2a09b8083","1dd5816e8a5cbfc7246f74762a55ba66f3d9272fd3827e7f25b8ddc2b4ec7325","a8b4a03cfae38ea285fa93108f70982258c13f59074e592539905aa67ac52052","topics/visible-flex-larger-amplitude/notes/public-actions-43666177645-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json","notes/public-actions-43666177645-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json","public-actions-43666177645-1-condensedqp","43666177645","cd24190405993fe0e56d8ad646a3fb950a2a9146","8aad16ba1743195c8b299f9dba8891e3c5af370a8d38022aea2d9792d4786f74","6ac00e85c7b163823d38186d0fbb4bc4e6cb28c4e757c97de294de78b4c8a77c","domain-operator","domain_operator","condensed-array-manifest","optimization-intent","captured-twenty-five-query-original-RMS-and-collocation-midpoint-domain-v1","geometry_20261114_full_angle_domain_operator","geometry_20261114_twenty_four_query_domain_operator","geometry_20261114_twenty_five_query_domain_operator"]
+          RT_CANDIDATES = [{"path":"topics/visible-flex-larger-amplitude/notes/public-actions-43668743515-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json","blob":"5e54f7f937457cd9af5c2688f0d52fa2a09b8083","bytes":677716},{"path":"topics/visible-flex-larger-amplitude/notes/public-actions-43666177645-1-condensedqp/twenty-five-condensed-warm/domain-operator/manifest.json","blob":"cd24190405993fe0e56d8ad646a3fb950a2a9146","bytes":677709}]
+          RT_REVIEWED_SOURCE_FILES = {"topics/visible-flex-larger-amplitude/computations/public-live128-root-synthesis-product-projected-model-original-full112-FD-fullDN-request.json":{"blob":"1e88bf7900e29e5a368ab7080e2855a001b8a189","bytes":97177,"sha256":"e4ad6178a06d2cf270f3469c4cbcce4747c8876e7c95c50f829be58c9f6c437a","allowed_pattern_indices":[16,20,21,22],"reason":"All 21 matches are source_sha256 keys with exactly unchanged values at the same JSON pointers in frozen request237. These are existing source pins, not either candidate manifest path. Complete request240 file identity is fixed; no other file is covered."}}
+          RT_SUFFIXES = (".py",".mjs",".js",".json",".yml",".yaml",".hpp",".h",".cpp",".cc",".c",".sh",".toml",".ts",".tsx",".md",".markdown",".rst",".txt",".ini",".cfg",".xml",".html",".css")
+          RT_BASENAMES = ("README","LICENSE","COPYING","Makefile","Dockerfile",".gitignore",".gitattributes",".gitmodules")
+          RT_HISTORY_SUFFIXES = (".md",".markdown",".rst",".txt")
+          RT_HISTORY_BASENAMES = ("README","LICENSE","COPYING")
+          def rt_git(*args):
+           return subprocess.check_output(["git","-C",str(r),*args])
+          def rt_sha(raw):
+           return hashlib.sha256(raw).hexdigest()
+          def rt_canonical(value):
+           return json.dumps(value,ensure_ascii=True,separators=(",",":"),allow_nan=False).encode()
+          def rt_changes(left,right,topic_only=False):
+           args=["diff","--raw","--no-abbrev","--no-renames","-z",left,right]
+           if topic_only:args+=["--",RT_TOPIC]
+           tokens=rt_git(*args).split(b"\0")
+           out=[];i=0
+           while i<len(tokens) and tokens[i]:
+            parts=tokens[i].decode("ascii").split();path=tokens[i+1].decode("utf-8")
+            if len(parts)!=5 or not parts[0].startswith(":"):raise ValueError("Exact raw diff record")
+            out.append(dict(path=path,old_mode=parts[0][1:],mode=parts[1],
+                old_blob=parts[2],blob=parts[3],status=parts[4]))
+            i+=2
+           return out
+          def retention_tail_guard():
+           for base in (RT_BASE,RT_CAPACITY_BASE):
+            probe=subprocess.run(["git","-C",str(r),"cat-file","-e",base+"^{commit}"],capture_output=True)
+            if probe.returncode:g("fetch","--filter=blob:none","--depth=1","--no-tags","origin",base)
+           current=quiet("rev-parse","origin/main")
+           before=quiet("rev-parse","HEAD")
+           rg=shutil.which("rg")
+           report=dict(schema="two-twenty-five-domain-retention-final-pull-delta-v1",reviewed_base=RT_BASE,
+             actual_pulled_head=current,actual_proposed_head=before,
+             scope="Complete bytes of every newly changed selected source/config/input since reviewed_base; historical text match counts only; exact unselected changes listed. No arbitrary dynamic-reference absence claim.",
+             all_changed_paths=[],source_scans=[],historical_scans=[],removed_paths=[],
+             unscanned_changes=[],current_source_matches=[],errors=[],
+             candidate_original_main_identities=[],actual_search_backend="rg-presence-then-complete-byte-lines" if rg else "python-complete-byte-lines-rg-unavailable")
+           for item in RT_CANDIDATES:
+            actual=quiet("rev-parse","origin/main:"+item["path"])
+            size=int(rt_git("cat-file","-s",actual).decode())
+            report["candidate_original_main_identities"].append(dict(item,actual_blob=actual,actual_bytes=size))
+            if actual!=item["blob"] or size!=item["bytes"]:
+             report["errors"].append(dict(phase="candidate-identity",path=item["path"],actual_blob=actual,actual_bytes=size))
+           def scan_raw(item,raw,representation,history):
+            info=dict(path=item["path"],blob=item["blob"],bytes=len(raw),sha256=rt_sha(raw),
+              representation=representation,matching_lines=0,pattern_occurrences=[0]*len(RT_PATTERNS))
+            nonlocal_rg=[]
+            if rg:
+             cmd=[rg,"--text","--quiet","--fixed-strings"]
+             for token in RT_PATTERNS:cmd+=["-e",token]
+             proc=subprocess.run(cmd+["-"],input=raw,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+             info["rg_exit"]=proc.returncode
+             info["rg_stderr"]=dict(bytes=len(proc.stderr),sha256=rt_sha(proc.stderr))
+             if proc.returncode not in (0,1):
+              report["errors"].append(dict(phase="rg",path=item["path"],exit=proc.returncode,
+                 stderr=proc.stderr.decode("utf-8",errors="replace")))
+             if proc.returncode==1:
+              (report["historical_scans"] if history else report["source_scans"]).append(info)
+              return
+            start=0
+            for number,line in enumerate(raw.splitlines(keepends=True),1):
+             found=[]
+             for index,token in enumerate(RT_PATTERNS):
+              word=token.encode("utf-8");positions=[];where=line.find(word)
+              while where>=0:
+               positions.append(where);where=line.find(word,where+1)
+              if positions:
+               found.append([index,positions]);info["pattern_occurrences"][index]+=len(positions)
+             if found:
+              info["matching_lines"]+=1
+              if not history:
+               report["current_source_matches"].append(dict(path=item["path"],blob=item["blob"],
+                 representation=representation,line_1_based=number,line_start_byte=start,
+                 line_bytes=len(line),line_sha256=rt_sha(line),all_pattern_occurrences=found))
+             start+=len(line)
+            (report["historical_scans"] if history else report["source_scans"]).append(info)
+           for item in rt_changes(RT_BASE,current):
+            report["all_changed_paths"].append(item)
+            if item["mode"]=="000000":
+             report["removed_paths"].append(item["path"]);continue
+            path=item["path"];base=pathlib.PurePosixPath(path).name
+            is_gzip=path.startswith(RT_TOPIC+"/") and path.endswith(".gz")
+            selected=path.endswith(RT_SUFFIXES) or base in RT_BASENAMES or is_gzip
+            if item["mode"] not in ("100644","100755") or not selected:
+             report["unscanned_changes"].append(item);continue
+            raw=rt_git("cat-file","blob",item["blob"])
+            if is_gzip:
+             try:
+              decoded=gzip.decompress(raw)
+              scan_raw(item,decoded,"complete-topic-gzip-decoded",False)
+              report["source_scans"][-1]["stored_bytes"]=len(raw)
+              report["source_scans"][-1]["stored_sha256"]=rt_sha(raw)
+             except Exception as error:
+              report["errors"].append(dict(phase="gzip",path=path,type=type(error).__name__,error=str(error)))
+            else:
+             history=path.endswith(RT_HISTORY_SUFFIXES) or base in RT_HISTORY_BASENAMES
+             scan_raw(item,raw,"complete-tracked-bytes",history)
+           topic_bytes=RT_BASE_TOPIC_BYTES;byte_delta=[]
+           for item in rt_changes(RT_CAPACITY_BASE,before,True):
+            old_size=0 if item["old_mode"]=="000000" else int(rt_git("cat-file","-s",item["old_blob"]).decode())
+            new_size=0 if item["mode"]=="000000" else int(rt_git("cat-file","-s",item["blob"]).decode())
+            topic_bytes+=new_size-old_size
+            byte_delta.append(dict(path=item["path"],old_blob=item["old_blob"],new_blob=item["blob"],
+                old_bytes=old_size,new_bytes=new_size,delta=new_size-old_size))
+           report["topic_capacity"]=dict(capacity_base=RT_CAPACITY_BASE,reviewed_base_bytes=RT_BASE_TOPIC_BYTES,
+                complete_changed_file_deltas=byte_delta,actual_proposed_bytes=topic_bytes,limit_bytes=200000000)
+           report["patterns"]=RT_PATTERNS
+           report["reviewed_generic_source_matches"]=[]
+           report["unresolved_current_source_matches"]=[]
+           actual_scans={x["path"]:x for x in report["source_scans"]}
+           for match in report["current_source_matches"]:
+            reviewed=RT_REVIEWED_SOURCE_FILES.get(match["path"])
+            scanned=actual_scans.get(match["path"],{})
+            okay=bool(reviewed and match["blob"]==reviewed["blob"] and
+              scanned.get("bytes")==reviewed["bytes"] and scanned.get("sha256")==reviewed["sha256"] and
+              all(x[0] in reviewed["allowed_pattern_indices"] for x in match["all_pattern_occurrences"]))
+            if okay:report["reviewed_generic_source_matches"].append(dict(match,reason=reviewed["reason"]))
+            else:report["unresolved_current_source_matches"].append(match)
+           report["complete_returned_scope"]=True
+           report["allowed"]=not report["unresolved_current_source_matches"] and not report["errors"] and topic_bytes<=200000000
+           body=rt_canonical(report)
+           print("RETENTION_TAIL_AUDIT_IDENTITY "+rt_canonical(dict(bytes=len(body),sha256=rt_sha(body),limit_bytes=90000)).decode(),flush=True)
+           if len(body)>90000:
+            print("RETENTION_TAIL_AUDIT_OVERFLOW "+rt_canonical(dict(complete_body_returned=False,bytes=len(body),sha256=rt_sha(body),allowed=False)).decode(),flush=True)
+            raise SystemExit(70)
+           print("RETENTION_TAIL_AUDIT "+body.decode(),flush=True)
+           if not report["allowed"]:raise SystemExit("New concrete references, source errors or topic capacity need explicit resolution before this ordinary deletion")
+           if quiet("rev-parse","HEAD")!=before:raise SystemExit("Read-only tail audit changed HEAD")
+          
+          print("RECOVERY_SOURCE_ONLY "+json.dumps({"source_commit":os.environ["VISIBLE_PUBLICATION_COMMIT"],"run":os.environ["GITHUB_RUN_ID"],"branch":os.environ["GITHUB_REF_NAME"],"scientific_program_executed":False}),flush=True)
+          subprocess.run(["git","-c","http.lowSpeedLimit=1","-c","http.lowSpeedTime=60","clone","--filter=blob:none","--no-checkout","--depth=8","--single-branch","--branch",os.environ["GITHUB_REF_NAME"],"https://github.com/"+repo+".git",str(r)],check=True)
+          g("config","user.name","ChatGPT");g("config","user.email","chatgpt@openai.com")
+          g("config","--add","remote.origin.fetch","+refs/heads/main:refs/remotes/origin/main")
+          g("fetch","--filter=blob:none","--depth=128","origin","refs/heads/main:refs/remotes/origin/main")
+          paths=json.loads(os.environ["VISIBLE_PUBLICATION_FILES"])
+          g("sparse-checkout","init","--no-cone")
+          g("sparse-checkout","set","--no-cone",*["/"+p for p in sorted(set(paths)|set(pins))])
+          g("checkout","-b","visible-publication-work","origin/main")
+          real_pull()
+          p=g("cherry-pick",os.environ["VISIBLE_PUBLICATION_COMMIT"],check=False)
+          if p.returncode:resolve_rule_only_conflict("cherry-pick")
+          stamp()
+          while True:
+           retention_tail_guard()
+           topic_capacity_guard()
+           p=g("-c","credential.helper=","-c",'credential.helper=!f() { if [ "$1" = get ]; then printf "%s\\n" "username=x-access-token" "password=$VISIBLE_REPO_TOKEN"; fi; }; f',"push","origin","HEAD:main",check=False)
+           if p.returncode==0:
+            print("PUBLISHED_JSON "+json.dumps({"head":quiet("rev-parse","HEAD"),"status":quiet("status","--short"),"source_commit":os.environ["VISIBLE_PUBLICATION_COMMIT"],"run":os.environ["GITHUB_RUN_ID"],"true_pull_read_head":last_read_head,"README_blobs":pins,"actual_topic_bytes":last_topic_bytes,"capacity_base":CAPACITY_BASE}),flush=True)
+            break
+           if not any(x in p.stderr for x in ["[rejected]","fetch first","non-fast-forward","cannot lock ref 'refs/heads/main': is at"]):
+            raise SystemExit(p.returncode)
+           real_pull();stamp()
+          VISIBLE_PUBLICATION_PY
