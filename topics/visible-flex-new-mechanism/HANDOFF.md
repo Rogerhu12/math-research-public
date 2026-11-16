@@ -4,9 +4,9 @@
 
 ## 1. 规则与最近实际 pull
 
-根/题README已全文读；结论ref拒绝后实际双pull为run43779613612/job133141496466。公开06:56:47.030866→06:56:48.691704 UTC，before7bfb32a3…→after已读 **289f89c3b2ae82fe7f754f62b55972c9d362b305**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **07:56:47 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
+根/题README已全文读。最新实际双pull在正方向run43821568604/report133148800350；公开07:16:10.728410→07:16:11.300266 UTC，从源323f36fe…到已读 **d5cf6ec08d71b6b7a7240f051198c9800f5d8c06**，rc0、双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题blobd0432faff569c8e9af7ed4809847e12880976c11。下次actual pull最迟 **08:16:10 UTC**；有变只读差异即执行/记SHA；NFF立即真实rebase后续推，不force。
 
-私有同job06:56:51.199499→06:56:51.781245，before=after **f9b96048e0d069d76010d7be702c55805ae8ed72**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。完整科学前pull及拒推后rebase元数据保四self首次观察note，私有内容不发表。
+私有同report07:16:13.147748→07:16:13.478714，before=after **d3d1ace30e939c512b59486f2b69d34eb02f8e8a**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。此前07:07研究前实际pull同样空diff，完整元数据保[本次观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)，私有正文不发表。
 
 新研究/数值/符号/人工/API研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。终端06:56再试仍exec-server不存在、进程未启动，依根8小UTF8原生Git fallback；API读取不是pull。
 
@@ -20,23 +20,15 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 完整原式/文献/原run索引保results；以下只留接手关键，所有signed结论均不免费授actual逆元。
 
-R333只付相容pure/self10维actual C1；R388仅排原Gaussian同芽C²首阶。R406正字符λ+=L+∫(h′/h)²>0排actual全Λ0，故采用有限实际母查询J0=(E,A,Oall)，不能冒universal自然零。R429/433保wholeE、两次商、桥2VA及全部prototype×n/Klein基准。
-
-R455/R407/R459同一次初选q/F★/D−E5>0、M3≠0，原20目标(V19,dP)=(0,η≠0)、同宽唯一Af镜对r*>0与真cap/全三矩输运保留；后加母/宽/历史不得冒旧冻结库。
-
-R434原Q59/current32已付，R454全R∩kerE current像kerDcur；R457自然d杀R、H*给−3x5/128。R443/448旧49 Af像及同宽19镜像保原完整记录，不能冒全R权0；新完整权0见R470。
-
-R456真suffix高两行读d5/d6，全R盲/H*非盲；完整F vertical曾失败。R463有限仿射闭包保wholeE/两次商/桥/全部prototype与Klein基准，实际接口现由R468补足。
+早期原式/文献/完整历史见[results](results.md)。R406正字符λ+=L+∫(h′/h)²>0，actual全Λ0不成立，故保有限真母查询Jaff。R455/R407/R459从同一次初选固定最终母、实际宽度/外cap/M3≠0、原20目标与全三矩输运；后添母/历史不冒旧库。R434 Q59/current32、R454/457全current及−3x5/128、R456 suffix高两行均已付，不能冒actual逆元。R429/433/463始终保wholeE、两次商校正、桥2VA及全部prototype×n/Klein基准。
 
 [R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)：Qaff,0/NQaff,1≅S(W0)/S(K0)，原成本维7/5。same seq707清current的XH=H*+J4、XY=J4−J6为两完整self目标，五响应核含三已付列和两补响应。增强−8已付。
 
 [R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)：原R56换锚保真实仿射尾/Γ；wholeQ只清P2″，再由total/三尾current得同权mirror graph。−6三真列覆盖Pol2；−4七已付列+K4覆盖Pol4、−16cN³H*/45先清d=cx，故两增强负权字符排除。**同Jaff满闭锥iff h∈span(y)**；原双参数actual还需**h=y=0**。四self必须保联合关系，不是两个MEMBER布尔。
 
-R460以H′=pG″支付simple-p无留数；真实Lf range仍保Af/platform/totals/两germ/gap与右锚。R437最高P2=κell_f/24杀kerLf。R461原BD全13盲、三合法矩右逆保全部port。R450同最终成本先入真range才可选≤11紧逆，原11+7包装清最高e，原端项/Γ和20目标不删。
+R460给simple-p无留数；真实Lf range须保Af/platform/totals/两germ/gap/右锚。R464在同完整成本已有两period/最高P2零时，以原20目标/M3≠0/相位seed/平台因子/末三port盲矩给同一个13规范。
 
-[R464](results/R464-nonzero-cubic-mothers-and-complete-nine-row-same-period-gauge-control.md)：从起点双矩rank2选M3≠0、保M5=0和最终各母非零；对同完整成本已有两period/最高P2零，前三行三平移×两gflip、后六平台真表因子H(1−κ⁴−4ε)/(16K)给相位光滑右逆，保seed；最后合法3矩保持十port。完整13规范条件已付。
-
-[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)：KP=B_PH∈R−8、NKP=0，杀整个Jaff。真range上的dτ以有限U截面合法延拓，KP值−η/τ≠0；R463vertical给同一actual(Jaff,d~)截面，完整保n·prototype及两次校正。固定τ/保护芽incoming X*和Klein4倍后目标为−(J(Vbase),d~Vbase+d_fX*)/4；最高e由原包装零，再接R464同一个13规范。前提仍同库两成员/满锥；只付所选端芽，其他s段须用同一wθ。R468已补真实非仿射参数，见下；仍未宣主完成。
+[R467](results/R467-conditional-actual-highest-gauge-control-and-one-complete-thirteen-row-normalization.md)：KP=B_PH杀wholeJaff，真range延拓dτ(KP)=−η/τ≠0；给条件actual(Jaff,d~)截面。固定τ、保护芽incoming X*、全部基准后Klein目标−(Jbase,d~base+d_fX*)/4，再原11+7清最高e及接R464。J截面条件现由R468替换；只付所选端芽，其余s段须同一wθ。
 
 [R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)：同共同窗口，h∈span(y) iff完整Jaff actual有限C1。余头y≠0时，真collar高度脉冲/独立R70前缀/整WW^R给非零导数，ε固定有限；全基准正整数配平、两次商校正及响应根保留。它只替R467的J截面接口，其余前提不变。
 
@@ -60,6 +52,6 @@ actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [finite正方向](notes/true53-all-paid-finite-master-positive-primal-20261116.md)：run43817336585/job133132261671/source de1c7d5a…，1LP/34迭代/68系统，9658原行通过，gain7.0414711481267545e−6；p SHA3fade7f704238c45a9eca095af36035ab10c4741e059d000359cc9d0600f5e09。含失败finite14.132776896秒，祖先累计1608.573003992秒/128值，原点53不变。
 
-[新完整方向任务](notes/true53-positive-direction-full-grid-and-actual-design-20261116.md)已发布9新模块/225来源，request49657B/0608c101…。唯一run43821568604/research133145590135/source323f36fefc0380898aa1e3c0f195e08a32f1fbc1正在运行，结束消费其read-only report。一新600秒含全部input/import/失败/output：必要U/T恢复1、不同双网JVP≤2（先实际舍入p一次）、新argmax≤4、scalar64、实际3pair/6值；0源geometry/旧hardJ/finite/开发。全网合格才原scalar/14门；新U/T和必要方向只原CACHE，如接受54直接保其已付ordinary U/T/e/f，0复算。源点/原g/b0/163盒/guard及pool银行原账户保留；立即消费本唯一Actions实际结果，继续open。
+[完整正方向观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)：run43821568604/research133145590135/report133148800350/source323f36fe…成功。唯一实际舍入p SHA62b27d05…的完整最大.2663281546680455、含μ修复gain−.00031326043820264013，未合格；0scalar/actual，仍点53。新增原行coarse43322/91304、fine86645/182607完整gradient已付。1input/1pair JVP/4gradient，50.40678669899998秒；祖先累计 **1658.9797906909998秒/128普通值**。原CACHE30232607B/0c1826ad…保必要U/T/de/df，binding75e07691…，完整clock和记录SHA见note。立即接增加这四行的真正新finite/fullgrid问题，复用输入，旧任务/方向不重跑；合格才原guard/scalar/14门。大数组只原stdout。
 
 理论R471已付五真实cap门；R473解复根积分，R471后续解其余实门；R472接真实M/第三prefix及同一w全段。主完成门未付，不以任一任务预算/阶段停下。

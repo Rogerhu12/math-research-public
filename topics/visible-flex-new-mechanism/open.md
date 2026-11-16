@@ -195,3 +195,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 ### R471：同一真实 cap 的五条等价门，继续解复积分与其余实门
 
 [R471](results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md)（13544B；SHA256 `40eb73087bc79afaad9fe7a8bbc55695833ed5f0551b761713917a1f4ed552b0`）给Δν=R5βν−Rνβ5=0（ν=1,2,3,4,6）iff共同h∈span(y)，八A_j均由同一cap积分，不能独立选；唯一比例1152β5/R5。任一非零minor给实际λ+分离行，但尚未证明当前cap有非零minor。真实5h>3s²、交替积分号、−9s/560<A7<0、0<A0<3h³s²/5须保。四局部列同a因子，复根处第一头=3/8∫B²C²dC=−1/4∫BC³dB，q>0不足以直接判复积分号。R473继续必要二实门；机制线继续另三实门/真实cap可能构造，均0执行。若成才接R468/R467，其它s段及主门仍在open。
+
+### 正方向完整观察已闭：带四个新cuts继续真正增广主问题
+
+[本次完整观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)（9171B；SHA256 `4754c7c3e37a70f7704bc289b4d36eefedb24be2a810124db29855fad133e165`）给唯一实际舍入方向全网修复gain−.00031326043820264013，0scalar/actual，点53仍在。新cuts coarse43322/91304、fine86645/182607和完整U/T输入已付；先将这四行加入原finite约束，再做必要新方向分离，不能把旧有限正gain当全网合格。原CACHE 30232607B/0c1826ad…，原MODEL/J不重建，累计1658.9797906909998秒/128值。合格才用原guard scalar与14门，原g/b0/159→163/guard/pool账保持；完成此任务继续下一open。

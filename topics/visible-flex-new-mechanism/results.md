@@ -416,3 +416,7 @@
 ## R471｜共同关系的五个真实 cap 条件与复二矩接口
 
 [R471](results/R471-five-real-cap-conditions-and-the-complete-complex-second-moment-interface.md)（13544B；SHA256 `40eb73087bc79afaad9fe7a8bbc55695833ed5f0551b761713917a1f4ed552b0`）。固定同一真实cap，八实际积分A_j经原三角pivot得到六个完整β；联合h∈span(y) iff五个Δν=0，比例唯一，失败minor给λ+的显式下降行。原平端/Af正给5h>3s²、交替A_j号、A0/A7严格界。完整三响应/XY共二次因子；原Ln2=DP+3X²w²a²u‴/2及PH+P端项相消，把第一头复根值准确化为正测度的有序复积分。0新执行；未判其非零/可消，未授其余三实门或主完成。
+
+## true53 finite正方向：完整双网不合格，新增四条原行
+
+[本次完整观察](notes/true53-positive-direction-complete-grid-unqualified-and-four-new-cuts-20261116.md)（9171B；SHA256 `4754c7c3e37a70f7704bc289b4d36eefedb24be2a810124db29855fad133e165`）。run43821568604/research133145590135/report133148800350成功；原finite正gain不覆盖新完整attainer，实际舍入p的完整最大.2663281546680455、修复gain−.00031326043820264013，0scalar/actual，仍53。四新原行完整gradient及必要U/T/cache只原stdout，0旧J/finite/base geometry重算。1input/1pair/4gradient耗50.40678669899998秒，祖先累计1658.9797906909998秒/128普通值。两次实际双pull均空diff，最新已读d5cf6ec0…；继续新增四行的有限问题，不推不可行或主完成。
