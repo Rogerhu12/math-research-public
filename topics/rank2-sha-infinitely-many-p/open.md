@@ -141,7 +141,7 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 - 原同R/S下一门：τ1且dD<κ+s+1时，完整p³迫指定oD(R)非零，且任何将其归零的K1改变都有非零全β1。须继续实际有限像/连接类及全高前缀联合；不能以ΠJ0或局部低商替全球零类。
 
 
-- R885已付原端点有界D及unit特殊化，最高λ的ordinary loc=0准确等价同Dfun增广零。下一步为同原底类的完整tame norm和wild比较、原Dfun阶及同canonical真实关系；CcanD=Dfunccan不能约T零，7993仍只检测canonical。
+- R885已付原端点有界D及unit特殊化，最高λ的ordinary loc=0准确等价同Dfun增广零。完整finite tame已付；下一步为允许辅助集、原Dfun阶及同canonical真实关系，DR tame/wild比较独立保留；CcanD=Dfunccan不能约T零，7993仍只检测canonical。
 
 
 - 原零纤维已去非物理平方自由门：除Y²(Y−1)外全实际秩2；唯一四行例外与ρ−准确重合一行，仍保三条真低行/G1。下一步只继续它们与全K1高前缀、其它finite、完整β1/同R/S的联合像，不扩局部退化分类。
@@ -150,7 +150,7 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 - R884I同U第二δ返回缩至真实质量1/2-new P16，其D1仍为同DR3加完整低配对；未消G18的Unew144。继续四原首行的同源联合关系，不能拿该trace的非零未补偿jet冒原BU非零。
 
 
-- R886原三extraEuler的实际辅助群环unit及保底归一已付，原rank1 HS/HO/8.4表示门齐。须连接同C02的完整有限层norm，并核允许的split-σ辅助集合；目前不因正密度或表示门已付而套Selmer结论，更不把balanced秩1替ordinary loc注入。
+- R886原三extraEuler的实际辅助群环unit及保底归一已付，原rank1 HS/HO/8.4表示门齐。同C02的完整有限层norm已连接，继续核允许的split-σ辅助集合；目前不因正密度或表示门已付而套Selmer结论，更不把balanced秩1替ordinary loc注入。
 
 
 - 原finite tame系统已完整付：同C02 n1=原AJ，全split四因子/显式二次误差修正/统一分母/全balanced齐；R886受限最高线性norm现在真实存在。继续允许split-σ集合的定理门、原底类非零及ordinary loc，DR tame/wild相容仍独立继续。
@@ -160,3 +160,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - 原Z的δ/2完整CM cocycle与同P2的真实初值缺陷已全证，见[运输注](notes/2026-11-16-original-z-cm-cocycle-and-p2-four-source-transport.md)；完整差的第四Cartier准确回αν^(p^-4)dlog(1+8t)，四B全降同σ6严格低配对。ρp和Ξδ的单位首项不等于原αν非零；继续同四个完整指定配对/原初值相容性。
+
+
+- [原全部有限cohom检测](notes/2026-11-16-original-endpoint-finite-test-chebotarev-refinement.md)已全证：素于p的F条件可逐值保持任意有限测试及已用p环类层；17惯性/Sah付restriction单射。unit子集确不dot包含默认允许集，不能直接套JNS；继续核split/core-vertex证明的全部素数选择接口，原n1/三η/ordinary loc均保。

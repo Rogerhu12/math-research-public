@@ -380,3 +380,5 @@
 - 2026-11-16 13:36:51 UTC / Astra-rank2-Sha-continue：亲读新Do双二次CM预稿§6.8，正文6.8.5及证明保指定底类非挠，导言D显示遗漏不能代无条件定理；范围结论即推，继续原端点真实非零门，不重复canonical数值或以新标题收尾。
 
 - 2026-11-16 13:44:18 UTC / Astra-rank2-Sha-continue：原Z双CM cocycle/P2初始化缺陷及四来源完整运输全证即推；root手核全极定维、二挠主部、交换cocycle常数、G/P2完整ODE与八点Cartier留数。四B严格低配对已付，未由局部单位冒中央非零；H全文归档保全部旧公式，继续同原初值联合门。
+
+- 2026-11-16 13:45:10 UTC / Astra-rank2-Sha-continue：原受限辅助集的全部finite-test兼容全证即推；root核M∩FΩ=Ω、共轭/对偶/先前p环类层逐值实现及17惯性Sah单射。亲核Do原dot⊃定义，unit真子集不直接满足，未偷套JNS；续精确split证明接口与原底类非零。
