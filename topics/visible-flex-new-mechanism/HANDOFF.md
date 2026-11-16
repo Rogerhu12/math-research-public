@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。最后已读公开actual pull：1a757004b7ebff1f43563bd57b5d13961648d681，2026-11-16 01:09:18.972099 UTC，run43784526298/job133029071528；01:13 root读双README空diff。下次最迟2026-11-16 02:09:16。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
+根/题README已全文读。最后已读公开actual pull：60ff5c1171c3c94ac84f7fcb88427c530daf69e8，2026-11-16 01:32:46.895014 UTC，run43786841449/job133036290253；01:36:30 root读双README空diff。下次最迟2026-11-16 02:32:46。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有actual pull：210d6ba3f178eefff06b6716a4e8bf55d081221c，01:09:21.549406 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。此前原科学及observer各次pull已读，完整记录保log。
+私有actual pull：a53fa5f4ce67d539be10e5eea3985f1fce6e697f，01:32:50.697657 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。此前原科学及observer各次pull已读，完整记录保log。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（00:38复核exec-server仍缺失），依根8小UTF8发布；API非pull。
 
@@ -48,4 +48,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 ## 5. 继续
 
-第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba完成，原161/152源及9复用已核。27接受/28model，63LP=62primary+1SOC，58values，η .26610226672562226、κ57.99972678574561；两网14原门true、.26未达，无额外末geometry。m28只获1inner，原LP成功但gap2.895900214553316e−5>1e−9、full-affine gain−2.2290244247991087e−5，余1SOC保留，无trial；allocation截断非驻点/时限/64耗尽。完整science257.595331213含两失败28.690336299，当前process230.059030169/RSS7259612KiB；旧241s祖先独立。当前physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c，池4438/4533v7/6，bank512，B.00025双streak0；学习新27events/27commits/pending0。[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)保全部28模型、m21唯一SOC、m28完整gap/配额、58call冷/命中与末checkpoint；回读次级细节明示partial。[末slot合同](notes/terminal-paid-attainer-final-slot-design-20261116.md)六新源/168绑定首次请求已发，11新分支待actual，原64不重置；后续[完整norm锥](notes/finite-cone-affine-metric-design-20261116.md)仅纸证；W4已完整消费/R420已闭静态余量；R421已排−6字符，续−4完整速度/全period。全部主门仍欠，持续open/actualpull。
+第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba完成，原161/152源及9复用已核。27接受/28model，63LP=62primary+1SOC，58values，η .26610226672562226、κ57.99972678574561；两网14原门true、.26未达，无额外末geometry。m28只获1inner，原LP成功但gap2.895900214553316e−5>1e−9、full-affine gain−2.2290244247991087e−5，余1SOC保留，无trial；allocation截断非驻点/时限/64耗尽。完整science257.595331213含两失败28.690336299，当前process230.059030169/RSS7259612KiB；旧241s祖先独立。当前physical bff1348df63200e43bb720e98fa359b057e7370dfbc2090095ba2800803f173c，池4438/4533v7/6，bank512，B.00025双streak0；学习新27events/27commits/pending0。[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)保全部28模型、m21唯一SOC、m28完整gap/配额、58call冷/命中与末checkpoint；回读次级细节明示partial。[末slot合同](notes/terminal-paid-attainer-final-slot-design-20261116.md)run43786841449的11新分支全过，但原10.0秒被int类型误拒，恢复/value/LP新增0；[首失败](notes/terminal-paid-slot-first-input-type-stop-20261116.md)累计science260.479586314，修入口/复用11，原64不重置；后续[完整norm锥](notes/finite-cone-affine-metric-design-20261116.md)仅纸证；W4已完整消费/R420已闭静态余量；R421已排−6字符，续−4完整速度/全period。全部主门仍欠，持续open/actualpull。

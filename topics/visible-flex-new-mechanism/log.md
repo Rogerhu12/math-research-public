@@ -525,3 +525,9 @@ root全文读results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natu
 root全文读六新源/合同/公开流程、请求各非manifest字段及7新source绑定。静态修正继承virtual monotonic起点可负（finite且不晚于now，仍计原257.595累计/1800），去不必要显式py_compile；另保final wrapper对象先安装再register/bind，原accepted_point同dict确保27→28索引真实。pending0不再commit，原512+4与池7/6、原8矩guard/identity全恢复。新四normal小provenance进唯一COMPLETE/futurecheckpoint，拒绝的新exact159亦保一次原stdout，不恢复未知旧p。没有本地研究、人工或Python执行。
 
 本次只首次执行3组4/3/4共11新分支；原9用同一原science log指纹复用。原所有63LP/58value/257.595331213秒继承；不同支持才授一次第64primary、之后无SOC；原ordinary回溯/14门/strict metric下降照旧。当前还没有actual，不能宣通过或改善。workflow先公开/私有actualpull核仅新diff，再回钉住源码；payload不入Git/artifact/cache。首结果后立即消费，不循环重启同接口。
+
+## 2026-11-16 01:38:08 UTC：末槽首实际输入类型失败与规则已完整消费
+
+原stdout136943B/SHA0216ddbbdd392d1e23240378b8aa6d61c4e154076db42895e2806004fab416eb完整读；REQUEST168/COMPLETE158当前源逐项相同，DEV11全过但fixture整数10未覆盖原float10.0。_ledger_guard在source资格输入误拒，24input/constructor/value/J/model/LP全0。首失败人类note4971B/SHA6f0a2c7e06bd7dcd7ee366f3bae17e2ee322c0ad861ef06fe6bd31f5c8032904即推；后续只修单LP finite numeric==10，原cfg/hash保持，旧11/9只读复用。新增science2.884255101全部继承，下一从260.479586314总钟继续，原63/58及64/160/1800不清零。
+
+公开actualpull01:32:46.498215→46.895014，before=after60ff5c1171c3c94ac84f7fcb88427c530daf69e8，双README根21bd547f/题d0432faf原blob/hash/diff均同。私有01:32:49.393916→50.697657，c3994ae5…→a53fa5f4ce67d539be10e5eea3985f1fce6e697f，根5ba16484同/题无/QUEUE唯一进行中。root01:36:30读完，下次最迟02:32:46，H已更新。原输出不挂Git树，继续原未付入口及负四两新Ω/kk，不收尾。

@@ -437,3 +437,5 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 - **R421：负六完整kk全曲率自然身份及该共同正字符全消。** [证明](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)给ΛVkk,−6(k)=S²(5∫p r⁴−3∫x r⁵)/640；先付原τ3全outer自然0，真正Y使D2=−P/32h²，30720四行/19T self及两真实尾准确消。共同M5零偶母及有序查询全0，结合R416/R419排同一增强商的非零−6字符。非原Q2算子全零；−4速度和actual joint仍欠，无新执行。
 
 - **R422：负四hh的完整两项曲率结构。** [证明](results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md)给Λ[h^-6]Qhh=S²(ΛV0+k²ΛW)，V0原k0、W原k6；完整c/normal、两次IBP、−Ψ、b链、N0势及ZZ两history均保，原CA/N2只在natural层含尾相消。两个新函数尚未知，未执行观察；静态W4零不能代替。下一只付两新完整Ω及−4kk，不重旧pure/rank。
+
+- **末槽首实际在输入类型处停止，未消耗LP64。** [完整原记录](notes/terminal-paid-slot-first-input-type-stop-20261116.md)：run43786841449/job133036290253/source60ff5c1171c3c94ac84f7fcb88427c530daf69e8，11新分支全过；原单LP10.0被新int断言误拒。恢复/value/J/model/LP全0，原63LP/58values不变；本次science2.884255101、累计260.479586314、process4.20902359/RSS153336KiB。仅修未完成入口，已付11/9不重，非数值候选失败。

@@ -133,9 +133,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 
 
 
-R391原解析有限简单germ已付；R403/405新初选进一步降至共同母坐标镜点一对，仍保p中心单零和原同锚累计条件，不把指定点支付当全period。
-
-
 ### R394完整条件性period/同规范接口，继续实际像
 
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。前提未实际联调，不删内部flux/Ve/13门。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
@@ -153,7 +150,7 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 
 ### direct原28模型已读：只转真实新支持与最后一个未用slot
 
-[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)：27接受（26primary、1SOC）、η .26610226672562226，58values、63/64 LP，science257.595331213含两次入口失败；两网14原门真、.26未过。m28原LP成功但full-affine repairedgain−2.2290244247991087e−5/gap2.895900214553316e−5；仅grant1、未加下一cut、余1保SOC，无trial。不是time/global64耗尽或驻点。下一严格消费该paid方向四attainers，在同center重建合法新support且保512旧+4旧supp；若没有不同support则0LP；若有，显式释放原未用第64slot作唯一primary，之后无SOC。原64/160/1800与已付63/58/257.595不清零，原全部gate和严格下降保持；不得假恢复未知旧p。[末槽完整接口](notes/terminal-paid-attainer-final-slot-design-20261116.md)六新源/168绑定的首次公开请求已发；先消费11新case和actual，旧九check不重。恢复pending0/原binding/accepted27，新增四方向和新step存原stdout；原64/160/1800不变。末slot实际消费后才考虑[有限完整范数锥](notes/finite-cone-affine-metric-design-20261116.md)：原单位下每行谱约束与4维Lorentz锥准确等价、包含其全部支持方向；完整两网oracle/原guard/真实14门保留，未选solver或开新运行，不能据此宣改善或换预算。
+[direct首完整实际](notes/direct-reference-first-completed-actual-20261116.md)：27接受（26primary、1SOC）、η .26610226672562226，58values、63/64 LP，science257.595331213含两次入口失败；两网14原门真、.26未过。m28原LP成功但full-affine repairedgain−2.2290244247991087e−5/gap2.895900214553316e−5；仅grant1、未加下一cut、余1保SOC，无trial。不是time/global64耗尽或驻点。下一严格消费该paid方向四attainers，在同center重建合法新support且保512旧+4旧supp；若没有不同support则0LP；若有，显式释放原未用第64slot作唯一primary，之后无SOC。原64/160/1800与已付63/58/257.595不清零，原全部gate和严格下降保持；不得假恢复未知旧p。[末槽完整接口](notes/terminal-paid-attainer-final-slot-design-20261116.md)run43786841449首实际已读：11新case全过，原10.0秒被新int断言误拒，恢复/J/value/LP全0；[首失败](notes/terminal-paid-slot-first-input-type-stop-20261116.md)累计science260.479586314、仍63LP/58values。只修类型兼容并原cfg不动，旧11/旧9复用，新费用继承；pending0/原binding/accepted27及原64/160/1800保留。末slot实际消费后才考虑[有限完整范数锥](notes/finite-cone-affine-metric-design-20261116.md)：原单位下每行谱约束与4维Lorentz锥准确等价、包含其全部支持方向；完整两网oracle/原guard/真实14门保留，未选solver或开新运行，不能据此宣改善或换预算。
 
 
 ### R399新的第二period内部通道已实际付至四点
