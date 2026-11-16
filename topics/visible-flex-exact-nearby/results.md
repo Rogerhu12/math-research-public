@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WSPA：实际 Schur/Parseval 正侧界与精确系数余项](results/R133-supplement-actual-Schur-Parseval-positive-and-exact-coefficient-split-bounds.md)：唯一43816689251/1的16门/4完整图给 same Rplus整选3.0660269163…e28、独立D∞新界2.3328477893…e9及完整ell2/组合dual；全部finite/mean另保，不替whole Calg。31字段、49位置及完整旧55533B逐字保，三发布前/日志哈希独复原；无高门或全逆。
+
 - [WEJ：完整均值、真实跳跃和四个腰端项的正预算](results/R133-supplement-complete-waist-endpoint-and-true-jump-constant-recipes.md)：同一角逆的两负窗、旧 fullfold 全域 J0、特殊 DJ 恒等及正下界、完整均值反馈/N6、3070 真 jump、原 PW 接收和 FA 六 mean/两 terminal 重建接完整四端；SW 腰因子恰一次。新数值仍待完整后继 Actions，未授高门或全逆。
 
 - [WGS：全局 fold 与自由首阶输运的完整有限导数合同](results/R133-supplement-complete-global-fold-and-free-first-transport-finite-jets.md)：严格负区真 flow 与 root 正则商接完整 forcing；冻结 I(15,3)/I(14,3)/I(12,1)/I(12,2)、所有有限阶索引、旧 stage 的准确资格和新八阶段图。只给完整新计算目标；未产生新数值或全逆。

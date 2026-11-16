@@ -66,7 +66,7 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [PCRA实际两完整界](results/R133-supplement-actual-positive-cutoff-and-reflected-coefficient-bounds.md)f2b1e603：唯一43812987299/1/22门/7graph成功锁，SCI e2cb2aac/55533B。same Rplus选1.0395639775…e30，same Dalg选projected 2.1334995458…e10；42+3原record/5完整scope全留，旧math0。只替WUE对应两项，root/负侧/四端/Ni/全部physicalmean独立待，不授whole高门/finite/背景。
 
-[WSP非对称Schur/Parseval](results/R133-supplement-asymmetric-Schur-Parseval-bound-for-the-positive-cutoff.md)80d28207：ROW用完整pointwise界，固定j COLUMN用Parseval；L128只分和，全output/mean/两row与原receiver保。43816689251/1/16门新whole Rplus选3.0660269163…e28，SCI5b099f08；完整旧PCRA/49slots保，旧math0。
+[WSPA实际新界](results/R133-supplement-actual-Schur-Parseval-positive-and-exact-coefficient-split-bounds.md)4b5104c2：43816689251/1已16门/4图成功；same Rplus整选3.0660269163…e28，D∞新2.3328477893…e9与ell2非whole Calg。完整PCRA55533B/49slots及全mean/finite保，old0，禁重；全局门仍待。
 
 [WUI](results/R133-supplement-readonly-input-closure-for-the-global-genuine-waist-error.md)2a77f1cd完整typed DAG保。
 [WEJ完整mean/jump/四端](results/R133-supplement-complete-waist-endpoint-and-true-jump-constant-recipes.md)6b7644a9：C64 cutoff/Bext尾、同J两负窗/fullfold旧J0/DJ结构lower、完整反馈/R0/N6、3070jump/原PW、FA六mean两terminal与四waist端/ng0一次全保。全部新量待Actions；whole式56可读WSP新wholepositive，Calg/RF仍原全算子，不授高门/finite/core。
