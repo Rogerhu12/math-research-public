@@ -358,3 +358,5 @@
 - [R912](results/R912-original-p-division-and-complete-two-digit-boundary-input.md)：原[p]除点函数/首一Φp给完整𝒯^p²=𝒯(pv−v^p²)S/Sc；全2p²−p−9窗代入误差p⁵，规范根除p²后保p³。原多项式modp⁵严格恢复LT坐标modp⁴和原根modp²，完整V⁶Vc^(−m)R^(−m)P(bv⁶V⁶)支付全部两位输入/首层因子；中央零⇒全部边界零仍开。
 
 - [R914](results/R914-original-nonstable-kernel-eight-nine-step-cutoff-and-joint-rank.md)：在原T−h≤L<T（含L≤h）的真实窗口，Qf(T)先把同源合成送入全零纤维，再准确使T=E；R911五/六长反门给K∞=∩₀⁸T^(−j)K或∩₀⁹，故9dimK≤8dimVT+d∞或10dimK≤9dimVT+d∞，d∞≤6。全部反馈a_i/实际GRes左边保，不判指定forcing。
+
+- [R917](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)：原X0(867)全尖点线束deg204的204m+1个jet给整饱和像；任一已认证QQ模形式基经严格终止的逐ℓ饱和，准确恢复全部M2m/ℓ及原L(mDS)。固定子式赋值逐步下降，无高度猜测；完整全局q格不冒现有degree48坐标/闭点/全部RR前端PASS。
