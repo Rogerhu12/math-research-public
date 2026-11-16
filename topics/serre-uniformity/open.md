@@ -1,12 +1,9 @@
-**原D铅笔与八生成元方法已证**：[完整方法](notes/R839-original-D-pencil-and-eight-generator-pole-ideal.md)ccf70498：原Ey=ℬ+3D，W_D完整且deg(3H−D)=421全局生成；两截面a,b共同零D+Z时原V3²→V6秩1111−degZ。因此五旧纤维1360×1380的真1111minor足证I_D=(a,b)，无需评价注入。原u/v给八个V11乘法DAG，I_Ey=I_ℬ I_D³；实下降I_EyR=(y²−b)I_Ey³保原主函数。仅新690个旧τ²V3=V5 RHS/full1380与五纤维乘法；旧Krylov/S5逆/前缀复用，[五纤维执行契约](notes/R839-original-five-fiber-pole-pencil-method.md)f8bc9d63固定七源1979件、690新RHS/23组和原五节点；1111已由R845真实完成。
-
-**R845原D两生成元与Ey八生成元已成**：[结果](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)run43780953543/job133017821468/sourcea43b6afa，14.88603302秒/43stage；原a=w0、b_D=Σ295基，首n1实际1360×1380秩1111/minor633901576。原秩1111−degZ迫共同零恰D；原u/v给八V11乘法DAG与两图t³/t¹¹运输，I_Ey=I_ℬ I_D³。final1e71a62c/DAG9cf17e78/rankd2732252/manifest8bef49bf/configd6d7e284；artifact14188093176/34f85e3c至Nov17 00:33:43，1979源carrier86.85MB/c32273b6。12Range5.59MB读38件，23组690新RHS全1380回验已成；旧逆/前缀不重。原全局y的U.1已证，接原三minor五极理想；I_EyR正乘(y²−b)I_Ey³，eta-height未成。
-
-**R843原p41点非挠已证**：[正式结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/job133009730596/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518真实响应给m999960637，实际[m]P的t赋值1/绝对精度518（x−2/515,y−3/514），Qell好约化形式群无挠证原P非挠。原β∈A(Q)及R728 EndQ为域再给所有非零L-Hom值非挠，原同靶加法正负分支由Hom字可判。finale4f926d3/manifest2ed1269a/config1baa36eb，artifact14187431986/9adbba8f至Nov17 00:06:16，185源carrier1.256MB/dd6bb50b。全1.90MB/69件纯IO；不重518/44步/BSGS。A.1/展开/eta-height仍false。 [Hom字后继接口](notes/R792-original-Hom-word-point-DAG-after-nontorsion.md)39880a1f只取R791五个g_j=(1+T^j)f，五次真点加法/七共轭/原实下降/比较函数值；非零分母凭同点非挠和原字，完整σ作用所有叶，Norm不删Nb/b7，实际DAG已由R844完成。
-
-**R844原五Hom点与比较函数值已成**：[结果](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)run43780702248/job133017074300/source5ebcfafb，0.022079987秒/3stage/529nodes含原50逐字节点；原五g_j=(1+T^j)f及指定下降/七σ分量/原R_j(c1)准确DAG全部完成。五次真secant分母凭R843同点非挠与原Hom字，完整σ作用/常数保留。final57a2e3ec/program97a8fb3f/manifestb21b40d4/configfbbcb472；artifact14188376841/dd4c04a1至Nov17 00:30:22，251源carrier1.816MB/479f587a。完整13成员已纯IO；旧CM/非挠/Hom不重，A.1/展开/全局五极除子/刚性化/eta-height仍false。
-
 # 未解决的问题
+
+最新完整前态逐字保于[dual启动前open](notes/2026-11-16-open-before-dual-launch.md)，全部已成结论、原来源/完整pins和关闭边界继续生效；实际运行以HANDOFF为准。
+
+**直接复用已成输入**：[R843](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)原同点非挠；[R844](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)原五Hom点/比较值；[R845](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)D两生成元与Ey八生成元/真实1111minor、两图及完整690 RHS。旧算术不重，实下降I_EyR=(y²−b)I_Ey³正乘。全局五极理想、c0刚性化与高度继续；原global y U.1已定义，CM点不能代全局函数。
+
 
 **R575现行更正。** 实际六层的正CM角色为Ψθκ4，根号−1、中心值零；R348把相反扭向Ψθκ4^-1识别为实际商的论断撤回。后文及历史归档中的该出现性、实际秩零与有理点零像应用均以[R575](results/R575-correct-actual-sixfold-CM-deck-and-cubic-twist.md)为准。固定家族的L值与局部代数计算仅按各自假设保留。
 
@@ -134,3 +131,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **全p中央二标签窗口已证**：[原二标签](notes/2026-11-16-sigma-two-central-primitive-Legendre-labels.md)9560403b：p=12k+5≥41，h−=(p−3)/2、h+=(p+9)/2均自动primitive；原R734六步递推在d=(p−5)/2给U5=27x/8，若P_d(x)=0则P_(d+6)(x)=(12x/7)P_(d−1)(x)≠0。故两个原Legendre范数不全零，未证明同h的f_(k−1)g_k或f_k g_(k−1)与之同时单位；仅充分窗口，未替代全部标签或p11mod12。
 
 [全局表达式执行契约](notes/R839-original-global-polar-expression-consumer-method.md)aeea87f4冻结八组真源；原κ000、完整F1234/W34/C12与S51234、按需2420/S5/Krylov单位解、一次全局导数和五组三minor/真Norm。R845八生成元是原完整单位解数学叶，保全部refs，不拿模kernel当Q系数；只产准确组合DAG，未物化理想格/标准Jacobian代表/刚性化/高度。
+
+**新dual已激活参数**：coref5fff443/wrapper611e8ad8/request2a96f567，公开workflow serre-R787-cleared-dual-CM-value，300min、reconstruct每8位、首位尝试、无新增位数上限。真实1256 R787+134 R781+4 R786+87 CM共1481源及旧carrier1372成员已按最终wrapper纯IO核定；新RHS从1位，仅严格RR/full35840准确乘回后Δ接受或拒绝q，尚无实际新dual结果。

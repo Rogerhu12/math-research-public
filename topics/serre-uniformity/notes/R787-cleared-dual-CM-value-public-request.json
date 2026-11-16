@@ -1,0 +1,83 @@
+{
+  "job": {
+    "budget_minutes": 300,
+    "core": "R787_cleared_dual_CM_value_acceptance.py",
+    "core_sha256": "f5fff4439fb9f5eff522218f6ef8876ae4fd33d1c344982551081aeef257ebc3",
+    "field_core": "R781_original_Laurent_prefix.py",
+    "field_core_sha256": "d024a7a6f5febd4658e8b5b5e5e3659f3c5fcc0daa39d70569ac408ef83a8751",
+    "io_helper": "R824_public_original_global_polar_generators.py",
+    "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+    "legacy_core": "R787_original_power5_relation_solver.py",
+    "legacy_core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+    "maximum_new_digits": null,
+    "method": "notes/R787-cleared-dual-operator-source-contract.md",
+    "method_sha256": "c6ca7d3a8036c2c0b5cfca69fd66ca7108555fae9f90614d7e3618c3044288bd",
+    "p": 41,
+    "producer_inputs_pending": false,
+    "proof": "notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md",
+    "proof_sha256": "eb5893ec0b8dcc4dd256648a96daa7a605d4cb96efc94a5c42544c0c6dea572b",
+    "readme_sha256": {
+      "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+      "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+    },
+    "reconstruct_every_digits": 8,
+    "result": "R787-original-cleared-dual-CM-value-acceptance",
+    "resume": null,
+    "sources": {
+      "CM": {
+        "archive_bytes": 96435463,
+        "archive_sha256": "0ae63e2c65f2f45ac759bc948ea57203b36e1645899ebe409c38f0d879c39d94",
+        "artifact_id": 14185198226,
+        "artifact_name": "serre-global-R787-implicit-CM-value-43773420733-1",
+        "certificate": {
+          "bytes": 5768,
+          "file": "p41-original-implicit-CM-value-certificate.json",
+          "sha256": "5de210b5ebb2a8a7fefcc8799888a68353c9c2ac10725fafa239d2bd1082d20c"
+        },
+        "configuration_sha256": "2a3bd8cee0b9db0e645ecd94b2db8651d046ac67ea5134e31ead7e77f9ff7829",
+        "core_sha256": "d0e94bee98802169b9e1dfec186143deda7745bf2cdad420e683a75eb1969ddc",
+        "expected_conclusion": "success",
+        "manifest_bytes": 37636,
+        "manifest_file_count": 254,
+        "manifest_sha256": "be2a58b2c87b6a79cb406d4cd1ecb04347f56f301373953e809d3bff68612642",
+        "original_readme_sha256": {
+          "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R787-original-implicit-CM-value",
+        "run_id": "43773420733",
+        "source_commit": "c3bcfc0dbbcd3a045349ec4500886100851a0d84",
+        "wrapper_sha256": "12727d7c002872c293f3eff2f161016eadb248e9de4429a7c68987ad98bc1bc4"
+      },
+      "R787": {
+        "accepted_checkpoint_exit_codes": [
+          1
+        ],
+        "archive_bytes": 451202899,
+        "archive_sha256": "343bee0a0fb5bf8d9143d2dbc8b8d8fc0f0da3649bbb1d94748ef34f19d87249",
+        "artifact_id": 14181899102,
+        "artifact_name": "serre-global-R787-original-power5-function-relation-43737413555-1",
+        "configuration_sha256": "71ea66416a42e024de61cf5927bc493fbc8422dc1b5970d75c51bd788d88529d",
+        "core_sha256": "93d3d72b01b0ed5d48486a632b74c3470b15affdcb1bd03e21f1b5283fc82d04",
+        "expected_conclusion": "failure",
+        "manifest_bytes": 430709,
+        "manifest_file_count": 1262,
+        "manifest_sha256": "7a22beb22912c1d5c4c56a5faa577a529f6c5dab5bb4ea5251e9cd5c4264ba3f",
+        "original_readme_sha256": {
+          "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+          "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+        },
+        "result": "R787-original-power5-function-relation",
+        "run_id": "43737413555",
+        "source_commit": "4092d1cc4d1156bc24a10ff820fd39c5713e8ad7",
+        "wrapper_sha256": "42157e0d95eb5d9aed28ef828a86dc5e7bec89e806e3e0a92aa0bcb1a36988b6"
+      }
+    },
+    "try_reconstruction_at_start": true,
+    "workflow": ".github/workflows/serre-R787-cleared-dual-CM-value.yml",
+    "wrapper": "R787_cleared_dual_CM_value_public.py",
+    "wrapper_sha256": "611e8ad8670f7c2622130638d398e366d5855fe00875ed09c57d2247fa397d23"
+  },
+  "rules_last_read_commit": "c027fe382df6c12592152dc0ce8917fbde15c49e",
+  "session": "serre-public-astra-20261115"
+}

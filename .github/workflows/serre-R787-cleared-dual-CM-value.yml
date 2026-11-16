@@ -1,0 +1,136 @@
+name: Serre original cleared dual CM value acceptance
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/R787-cleared-dual-CM-value-public-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: serre-R787-cleared-dual-CM-value
+  cancel-in-progress: false
+
+jobs:
+  rules:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/notes/R787-cleared-dual-CM-value-public-request.json
+      - name: Pull main and compare the two previously read rule files
+        env:
+          REQUEST_SOURCE: ${{ github.sha }}
+          RECEIPT_PATH: ${{ runner.temp }}/R787-cleared-dual-rules-pull.json
+        run: |
+          python - <<'PY'
+          import datetime as dt, hashlib, json, os, subprocess
+          from pathlib import Path
+          path='topics/serre-uniformity/notes/R787-cleared-dual-CM-value-public-request.json'
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
+          request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+path]))
+          subprocess.run(['git','checkout','-B','r787-cleared-dual-rules-main'],check=True)
+          subprocess.run(['git','pull','--rebase','origin','main'],check=True)
+          head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
+          old=request['rules_last_read_commit']
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',old],check=True)
+          expected=request['job']['readme_sha256']
+          actual={key:hashlib.sha256(Path(name).read_bytes()).hexdigest() for key,name in
+                  [('root','README.md'),('topic','topics/serre-uniformity/README.md')]}
+          receipt={'actual_git_pull_rebase_completed':True,'actual_head':head,'previous_read_commit':old,
+                   'actual_UTC':dt.datetime.now(dt.timezone.utc).isoformat(),'readme_sha256':actual,
+                   'expected_readme_sha256':expected,'rules_changed':actual!=expected}
+          Path(os.environ['RECEIPT_PATH']).write_text(json.dumps(receipt,sort_keys=True,indent=2)+'\n')
+          print('CLEARED_DUAL_RULES_PULL='+json.dumps(receipt,sort_keys=True))
+          if actual!=expected:
+              subprocess.run(['git','diff',old,head,'--','README.md','topics/serre-uniformity/README.md'],check=True)
+              raise SystemExit('The changed README rules must be read before new mathematics.')
+          PY
+      - name: Preserve the one-day actual pull receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-R787-cleared-dual-rules-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R787-cleared-dual-rules-pull.json
+          retention-days: 1
+          if-no-files-found: warn
+
+  compute:
+    needs: rules
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/R787_cleared_dual_CM_value_acceptance.py
+            /topics/serre-uniformity/scripts/R787_cleared_dual_CM_value_public.py
+            /topics/serre-uniformity/scripts/R787_original_power5_relation_solver.py
+            /topics/serre-uniformity/scripts/R781_original_Laurent_prefix.py
+            /topics/serre-uniformity/scripts/R824_public_original_global_polar_generators.py
+            /topics/serre-uniformity/notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md
+            /topics/serre-uniformity/notes/R787-cleared-dual-operator-source-contract.md
+            /topics/serre-uniformity/notes/R787-cleared-dual-CM-value-public-request.json
+            /.github/workflows/serre-R787-cleared-dual-CM-value.yml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install the frozen exact arithmetic dependency
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Parse source files without executing mathematics
+        run: |
+          python - <<'PY'
+          import ast
+          from pathlib import Path
+          root=Path('topics/serre-uniformity/scripts')
+          for name in ('R787_cleared_dual_CM_value_acceptance.py','R787_cleared_dual_CM_value_public.py',
+                       'R787_original_power5_relation_solver.py','R781_original_Laurent_prefix.py',
+                       'R824_public_original_global_polar_generators.py'):
+              path=root/name
+              ast.parse(path.read_text(),filename=str(path))
+              print('AST_OK',name)
+          PY
+      - name: Retain original inverses and CM leaves with their actual source identities
+        run: |
+          python topics/serre-uniformity/scripts/R787_cleared_dual_CM_value_public.py prepare \
+            --work "$RUNNER_TEMP/R787-cleared-dual/work" \
+            --output "$RUNNER_TEMP/R787-cleared-dual/output"
+      - name: Advance only the new cleared dual right hand side
+        run: |
+          python topics/serre-uniformity/scripts/R787_cleared_dual_CM_value_public.py compute \
+            --work "$RUNNER_TEMP/R787-cleared-dual/work" \
+            --output "$RUNNER_TEMP/R787-cleared-dual/output"
+      - name: Verify the actual source bytes and exact acceptance boundary
+        if: always()
+        run: |
+          python topics/serre-uniformity/scripts/R787_cleared_dual_CM_value_public.py verify \
+            --work "$RUNNER_TEMP/R787-cleared-dual/work" \
+            --output "$RUNNER_TEMP/R787-cleared-dual/output"
+      - name: Preserve one-day input carrier and all committed continuation stages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: serre-global-R787-cleared-dual-CM-value-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/R787-cleared-dual/output
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: warn

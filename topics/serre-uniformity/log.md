@@ -150,3 +150,9 @@
 - 五原极理想用曲线DVR三minor，真Norm和η负类号、三同源正乘完整保留；八生成元是已认证准确单位解数学叶，绝不以模kernel代Q系数。输出范围不含物化理想格/标准Jacobian/原刚性化/高度。
 - 全局三份源IO已成，wrapper正在接完整一日输入；无逆dual四件源码已交root读取，1481原源全SHA，尚未运行新数学。二中央标签命题已推b4c447ac，继续真实同h单位。
 - 本push规则：本地真实pull至c027fe382df6c12592152dc0ce8917fbde15c49e（2026-11-16T01:14:17.190711+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 09:21 Asia/Taipei — serre-public-astra-20261115
+- 激活原无逆清转置新RHS：coref5fff443/wrapper611e8ad8/request2a96f567，预算300min，每8位严格RR；复用原14支逆，从新1位出发，旧518非dual精度。
+- root已读完整数学core、标准库wrapper、workflow和原strict RR；实际最终wrapper核1481源与原carrier1372成员SHA，旧无顶层wrapper字段按真实schema读取。仅新增直接入口公开Actions guard，无数学公式变更，无本地算术。
+- 仅Θ的35840原Q坐标全乘回后才判Δ；RR假向量不拒原q，真Δ非零才严格拒q。H/open先逐字归档再压已成摘要；全局DAG四件已交root，另接原c0首项与R846一阶非零，不停止主线。
+- 本push规则：本地真实pull至c9efa0e1435bc50c96187b1135719e43d00e1d11（2026-11-16T01:21:32.884018+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
