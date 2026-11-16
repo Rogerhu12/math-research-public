@@ -229,3 +229,8 @@
 ## 2026-11-16 04:11 UTC /root — R463真实联合M求解来源
 
 **已证明（限真实来源与原接受后的条件组合）**：[R463](results/R463-incremental-M-union-native-and-accepted-checkpoint-composition.md)/[完整接口](notes/2026-11-16-incremental-M-original-full-DN-and-checkpoint-interface.md)及独立driver51265B/cf866391、CP55236B/75459620已全文与完整相对395da/18399差异读后刊出。真实接受父只供原十词/同C/初猜/分辨率；原完整112 far/config及新M deep/union分别保原对象，真μ和两系数字词移至新M列而不重选。新tuple5da13c5f/d9db5098/b536850a实际接全新grid、完整4M+2、全(3M+2)×M J、双mean、原FD/fullDN/final/audit；原7b70/e197/cc70与数学核不改，原兼容配置后明确选实际client。CP显式读R400/R441/旧R442/自己四真实父，不换旧reader标签；源闭包/union全文成员与原数值策略完整核，modes/spacing缺失或显式M/2的兼容语义分清。仅原实际末门接受后捕获新CP，不转移旧响应/几何/误差结果。尚无实际M、父、recipe、run或接受；owned/deadline/90KB/quiet/新几何来源由R464接，本文无清理或新科学门。
+
+
+## 2026-11-16 04:12 UTC /root — R465全列因子切向预收缩
+
+**已证明（明确的准确实名义系数线性系统）；无新数值执行。** [R465](results/R465-recorded-factor-backsolve-defect-and-complete-column-contraction.md)全文核对原195的742ab15a因子/两回代递推，并给出完整225 Gram结构和全部224方向的预收缩。对实际因子/forward/solution所代表实数，保$H=RR^T$及准确$b=R^Ts-z$，通过$Q_{ik}=a_i^TT_kv_i$预装配得到$\Gamma=S_s-RQ$和$ds=R^{-T}R^{-1}(dF-\Gamma\,d\beta)$；该名义系统不要求已存$RR^T=C$，不以$C^{-1}$替代真实因子。显式局部常缺陷模型解释其准确意义，一般光滑族的$dE,da,db$与原实际方向循环的三个残差仍完整列出；新预装配全部舍入归入形成残差，未冒逐字等价或误差界。仅factor/solve操作结构由$O(J^3K)$降为$O(J^3+J^2K)$，不减Gram矩/列/226态/双mean/root轨迹/原末门；准确dyadic backsolve差和数值投影必须分开，普通浮点零不冒准确零。195零H的5063.5455秒没有非零更新factor方向，本节不能声称消除该成本或保证6h完成。后继独立R466与request208/R467准备，不改冻结195/207、无fixture或新科学门。
