@@ -194,4 +194,4 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
 
-[WRP相对pullback](results/R133-supplement-relative-phase-pullbacks-and-complete-receiver-refinement.md)95be269f：同密度伴随给全负二/负5/3及15权，已证。后继只读成功WSM全N6/profile算40新；旧152不重，mean/端/whole-reduced保。
+[WRP相对pullback](results/R133-supplement-relative-phase-pullbacks-and-complete-receiver-refinement.md)95be269f/43881690924：3图40新/14门全成冻结；SCI146904d0/4b66bd0b。Bc约8.421e235/Bt9.109e225，whole/reduced各选new；44copy/9scope/mean/端全保，old0/lost0，无smallness。

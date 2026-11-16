@@ -9,3 +9,13 @@
 同n^-23/6单位，N5所有z多项式degree0..7齐。local原mean/Gs/As/完整Tk与Jr/R0、两densitymean均读；whole/reduced只各自比较完整同算子候选，原nonmean scattering/second-order/WT、3070 jumps、positive/root/Theta/ν/head独立费全保。WRP若成功则只读其完整nonmean/terminal，否则既有WSM；此是封manifest时固定provider，不是等待审批门。未执行任何新科学、旧算例或数值小量比较。
 
 证明已成即独推，数值source/interface继续。H/log旧全文原字归档后更新工作摘要；当前WRP首次run43881690924/1正在执行，WPS60全部6图/60新/6prefix已成且有限充分门false，旧目标禁止重跑。总完成条件仍未达。
+
+## 2026-11-16：WRP40 首次三图完整成功冻结
+
+2026-11-16 14:06:41 UTC；README只读核079f9a9b426545050e4e249a972475d00810aba5未变。公开43881690924/1成功，workflow12345cce183d8b1a3bcf066ffe16c6399f1ea2f2，scientific checkout 6ea61c9cb552537314d535fc98ae1fb88a9537aa。完整SCI `notes/relative_phase_pullback_receiver_ci/run-43881690924-1/actual-scientific-conclusion.json` Git146904d030cca0887fae921084396bf4008d0281/82508B/SHA4b66bd0ba1425c7a5a705cba3b32b07ea893643a7aa8cde1a720dcf450e852ee；execf6a3a109b851b22dea30138539f056d6db2e8c49/21783B/SHA3a5ec986c684067683192850f1e7e667d56c463982ff80219b552ec3e7043e2c；report61dd1c43419b05cb9bdb6e3cf0096ccbe42ab92f/449B/SHA c4885200c44d623457331575ade12d6cabbb4607d0951f4a39e8d76714c46142。
+
+21项完整只读核通过：32字段、14有序门、7+15+18共40新、16progress、9current/2AST/0history；44原记录、9完整scope和完整accepted原对象精确原字；three graphs全部shape/qualification、全whole/reduced的原候选与selected记录路径同。未重新算球或范数。新sqrt1/positive powers2，exp/log/quadrature0；旧科学/旧target/旧指数重算全0。
+
+Bc原球 `[8.42103831668428386668619632568159540924835998188047041329819847298842972045e+235 +/- 1.62e+160]`；Bt `[9.10863193887094504525828961928644347593236785796418851203521546448110911151e+225 +/- 1.28e+150]`。完整whole `[1.90736423682251400641766771203225487061996663267347748430927102916501134114e+323 +/- 1.25e+248]`；reduced `[1.90736423682251400641766771203225487061996663267347748430927102916501134114e+323 +/- 1.26e+248]`；两完整候选均实际选择new，原WSM各自候选保44copy。原严格mean/跳/四端/positive/root及Theta/ν/head/finite等义务全保，mean仍主导，不授smallness或总验收。
+
+单child 2026-11-16T14:03:11.149498+00:00→2026-11-16T14:03:11.903653+00:00，wall 0.7541033299999995s；全40已保存，current_target/failure均null、child0，lost0，所有目标禁重算。原fullpreflight12874B/SHAbd51993a441daf09823b44c5b05760bea38def71dfcba8797d7ce92e472fd79c；stdout3882834B/SHA94a194de48845010069d105328100f76125b3f980943a1a858fcb095cf2b3535仅身份不取正文。四次真pull完整回执均入exec且两README diff空，末次2026-11-16T14:03:12.218489+00:00→6ea61c9cb552537314d535fc98ae1fb88a9537aa。pre/immediate topic 199601232/199601879B满足156000+120000；实际三输出104740B全部已推。WSMF可只读该完整成功provider继续。
