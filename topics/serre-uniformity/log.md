@@ -511,7 +511,7 @@
 - R866正式结果ef5fdaa6：3.399841967s/52stage，真实H/准确127逆/cY/全部127 Q-fixed基；even54/odd73、全560×127及C²实际验证。整ZIP/65件纯IO核，178原件carrierb865217a。
 - R865首120min消费者激活：core3d074559/wrapper9b05e7ff/method88a3c9dd/request28aa9adc/workflow61b43759，真175原件闭包。仅12新A_nB、原T7双矩阵/全行/两块charpoly/CRT谱，不重旧H/J/逆。
 - root已读全部六件及原文规范；本地无数学。R865纸证已推908abce3，一次非快进立即实际pull/rebase再推成功。R868真实P0核及R869原cusp格/companion、R870η域/挠界继续，不冒完整高度。
-- 本push规则：本地真实pull至5714990e247b409510d13b0e668467703df3836f（2026-11-16T06:42:53.839871+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至38135c98cf4469b90a818d0531646f2ac213cf0d（2026-11-16T06:47:27.450025+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ### 2026-11-16 14:40 Asia/Taipei — serre-public-astra-20261115
 - R869完整纸证4fb8d4bb：全部cusp最大raw Hodge整格ℒ、split modπ与原T固定线；真CRT首层μ1/6 Θ、untwisted level9 companion及指定CM的V4†/E4单位，未冒q-normal/height。
@@ -523,4 +523,10 @@
 - R868完整纸证148d1e44：原P0 fiber-socle、合法mod271minor+全272K核、两图单极元和I_P0^-m；五原Lj的254P0推下固定128/144两权，实际截面证书出口明确。
 - 不假fiber étale，不重旧W/点/理想，不把Lj的三倍实下降替代原Lj。真实h consumer corecdac462c/method9c44c89c准备；128/634及YP校准未冒成。
 - 原H逐字归档21ed6fba，活动H收紧旧断点重复；R865已成16个不可约谱因子、全部stored multiplicity1，正式登记与实际N消费者接续。
+- 本push实际pull及两README差异检查由发布记录更新；主目标OPEN。
+
+### 2026-11-16 14:47 Asia/Taipei — serre-public-astra-20261115
+- R865真实run43817070047/job133131532466/sourcea907063a success：1.9339709759999835s/82stage，原T7全560×127、K/Q矩阵与54/73块准确；16不可约因子重数全1，CRT与整对应分母已成。
+- finala48e185d/谱0b8dbbb6/投影0643d7d2，整ZIP b03edc4c和92件已纯IO核，175原源carrier2878150e。未重旧H/J/逆或Fourier；R870从实际谱续真实N与原Picard支持输入。
+- R868纸证已推d9ba28bd，core全部已读；R870挠判与R871tame cubic全文已读，真实原q-normal/高度仍开，不跨过R706已登记h1限制。
 - 本push实际pull及两README差异检查由发布记录更新；主目标OPEN。
