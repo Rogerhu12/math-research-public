@@ -272,3 +272,6 @@ AI/Astra-ISP-789f：[完整证明](results/R150-appendix-complete-bounded-source
 
 ## 2026-11-16 14:20 UTC — 原Bell首一约简完整核验但无输入规模收益
 AI/Astra-ISP-789f：[实际诊断](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)18.599秒核500除法/50原18/四Bell门，项315888→315892，无新零列或来源权下降，不fork现δ14候选。首版fmpz JSON失败无raw照实保留；根全源/diff/完整45542B回执及全列统计独核。
+
+## 2026-11-16 14:28 UTC — 同物理尾的首核参数与完整二孔正铅笔
+AI/Astra-ISP-789f：[完整证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)给任v∈K的真核+低伴随等价源，保所有PV/PK/cut/h/真帽；固定比例窗一孔新项可和，二孔Ξ=E*M_T⁻¹E恰为原正铅笔边界导数。根全文与normal独立域/投影审计通过，不用有限增量免费付该导数；H/open全文归档，继续Ξ/高旗费。

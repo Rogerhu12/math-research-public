@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-bell-monic-diagnostic-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-physical-kernel-parameter-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -15,13 +15,9 @@
 
 - **[原Bell四次内存边界](notes/2026-11-16-r150-original-bell-fourth-even-first-memory-boundary-789f.md)：** run43862258541/job133281798325，17变量slimgb实460.261秒/exit14/OOM；三Q输入及小例门真，无source/GB，Q未跑，不是75，不判成员。接原参数小模，完整来源保正文。
 
-## R150原rank-one精确系数接续
+## R150已闭的rank-one系数模块
 
-- 沿原17梯度/6188来源/4367输出与degree23的h*；全Q相对25/来源费8391及rank-one Bell8只按原范围用，完整原来源和范围见归档。
-
-- **[全W127整结构](results/R150-appendix-whole-normal-square-module-at127-has-one-extra-coefficient-torsion-direction.md)/[全基来源费](results/R150-appendix-whole-normal-square-integral-source-cost26410-at127.md)已闭：** U=M⊕R/(127,s+64)，D型D^25⊕D/127、dD26/dR3；AnnU=h*(127,s+64)，共同指数1。原6188/142子式与完整∞谱66/55已付，Δ298/完整权界给全4212基cost≤max(26410,124+degq)；两ann家族均26410。仅存在原minor，未枚举或展开源/给高度。
-
-- **[全W31=原九平方M已完全闭合](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)：** 原155×224四轮饱和长度22,22,19,18,17保baseline17/J1，Tp长13=H2故K=0。AnnU=h*(31⁵,31²(s−2),(s−2)²)，h*/h0全W共同指数5/2，完整型/八生成/非裂扩张继承M。[全4212基整来源费](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)≤max(8515,124+degq)，三ann家族均8515；原leading-unit minor/Δ298三支证明及全raw/十payload/独立重放已核。此有限模块闭合，原全部身份见正文和归档。
+- [全W31/W127结构与全部整来源费已闭](results.md)：原17/6188/4367模型不变；U31=M31，Ann=h*(31⁵,31²(s−2),(s−2)²)，共同指数5/2，原八生成及恰31阶非裂扩张已付。U127=M⊕R/(127,s+64)，Ann=h*(127,s+64)，共同指数1。全4212基的h*q源费用分别≤max(8515,124+degq)、max(26410,124+degq)；原leading-unit minor/Δ298及完整权计数已证，不声称展开全部源或高度。原full raw/重放/独立HNF-SNF/全payload身份与完整父证见索引和H归档；不重算已闭有限模。
 
 ## R150完整非rank-one及Bell1
 
@@ -47,5 +43,6 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersec
 
 - **[全高度一次真MP](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)：** 保真全层512^j，c*=2·512²及s∈[c*S,2c*S]给 ||D†(C+D)f_s||²≤(1+47616c*)ε_s。同W使修正q1、z1−P_xw及残余−Cq1平方可和；仅f_s保原PV/PK。后续CD†循环、最终真空约束和完整修复仍开，详正文/归档。
 
-- **[整个低旗标返回源与完整Schur总能已闭](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)：** 原首头返回源 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，以完整canonical Fock保全部birth/零源及同F，F2最小lift和混合块精确；$\ell=2d-2$ 的真Schur满足 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。有限池 $y=(m+1)^4dx$ 的误差²≤ε_f+ℓt，原carry/fresh6d正交修复给 $q_{0,m+1}\ge q_{\ell,m}-E_m$、$E_m\le3/d^2$，故整个返回源Schur总能<2。boson版<4且 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；不能删正则项或跳过外部高旗Schur。原same-w/全部h段/真Q母窗保留；$q_\flat=(C^{*2})^\dagger\mathfrak h$ 未随源低旗而自动低旗，完整γflat与N=M仍开。根全文/全Fock父证/所有cut及新d因子独审，无新数值。
+- **[整个低旗标Schur总能已闭](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)：** hfrak=C*r∈F(2d−1)⊖F2，ℓ=2d−2的全Fock/全零源给qℓ−q1=〈hfrak,𝒮⁻¹hfrak〉。真有限池/carry/fresh6d使跨头总能<2、boson<4；𝒮_b=M2+I+T*(SI+JJ*)⁻¹T，不能删正则或高旗Schur。源低旗不保证qflat低旗，完整二孔费/N=M仍开；原τ14/全h/真Q门保正文。
+- **[同物理尾首核参数及完整二孔正铅笔](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)：** 任v∈K的f1−F(v)=真K1列+低L*列，F(v)=t_vω1+Jvω2保原PV−PK、所有h/cut及真帽。v_s=(I+sΓ)⁻¹e0在固定[S,λS]给新增一孔费总和<2(λ−1)²，同w配对绝对可和。完整Ξ=E*M_T⁻¹E，二孔费是原RanC正铅笔的−σ2²∂tQ(s,0)；未把有限增量当导数上界。根全文及normal交叉域/投影审计通过，继续Ξ与高旗实际费。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。
