@@ -2,39 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1117-five-original-sum-Hom-initial-RR-proof",
-  "commit_message": "serre: prove five original sum-Hom fiber and initial RR certificates",
-  "rules_last_read_commit": "241f5299751dd5582457758e64652dd73d04f4c9",
+  "request_id": "20261116-1122-certified-whole-Artin-target-and-nine-reference-norms",
+  "commit_message": "serre: certify original whole-Artin target coordinates and nine reference norms",
+  "rules_last_read_commit": "49fefaeb875a3a790c9d175212d409a2fe21e7e1",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "783362a0191c22bdf6a9927f0f4f5f9d8eef0682e1281978261f5ebbc4a779c5",
+  "expected_previous_request_sha256": "97e4924cc58336dd4c1ab63ab07b31abab289c75151abae97ff7c816681a124b",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md",
-      "sha256": "91ce6834bda528976265a331fe0c987f4350049e7b228f1cc6c77e0a69142416",
+      "path": "topics/serre-uniformity/results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md",
+      "sha256": "a833607b331951175e657fd7b9ae4a836b6c864bad5d4145e96111d165cded60",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "66dd0893eb8bd583a54e87952d3c6dd057819ef55db865ab1adc2cfc7e207bb8",
-      "expected_previous_sha256": "fb18644142f8b838cdca12df4de5a6505001f353eb8a8a76d792443bc0e39831"
+      "sha256": "f033777e8ee006405864ca67177a35cc0c01b4b897453f94acab9e66afc31c4b",
+      "expected_previous_sha256": "41b439c13724a7ec7ee5f0171f285e0184f6653f69d1d96562a56e7fc6719da9"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "9c16b16195c2e73002df269ea0d2f19e0ec3802ad8683153088db7d901f3afb0",
-      "expected_previous_sha256": "33adce5088abd0a852b4a12c192ed5c7dfa203a5c3c0730fbc125448a4d46abf"
+      "sha256": "3f9bdb6c5e77bcd5860d34716cef83134e3390e16ff68c068d065f339c137932",
+      "expected_previous_sha256": "9c16b16195c2e73002df269ea0d2f19e0ec3802ad8683153088db7d901f3afb0"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "59256f2250b0b50261866f19bab37fab69a54cc88a64a81eab1c77154a5c7c38",
-      "expected_previous_sha256": "7e9f21711156f9649724f2cd2ab7b767cd5422b141082bf0f4b418b3e9e3bf1d"
+      "sha256": "533a32fbe5ff2768843e45199d453ea1a059ee65577e6dad03a376869bcf37f3",
+      "expected_previous_sha256": "59256f2250b0b50261866f19bab37fab69a54cc88a64a81eab1c77154a5c7c38"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "8c0d69cfa629e31976f1d3aca73fcdf2f2bf505ffbfdb6e06989da6089c447ce",
-      "expected_previous_sha256": "f9ec3aded2d5afa645e913babcb2bd780eb0cb1736d3a3d420d453d0336f761d"
+      "sha256": "1a66e45d11fbbe2672569aa85c6f63e2b7e37160cb94eea44bb464d8de45e74d",
+      "expected_previous_sha256": "84dff06f20135ccfa0672e2b56b1bb8625e5ae66dacf7b1a6bfebdb444690bd8"
     }
   ],
   "dispatch_workflows": []

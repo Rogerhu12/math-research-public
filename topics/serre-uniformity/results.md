@@ -284,3 +284,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 **R893原五真实和同态初始RR完整证明**：[原证明](results/R893-original-five-sum-Hom-full-fiber-and-initial-RR-Schur-certificates.md)。原g_j=(1+T^j)f同权98分子分母、OO/二挠全DVR与真极除子保全；完整272维纤维、Q全Artin单位、块Vandermonde及全行Schur给n=(12,8,8,13,14)/N=(23,15,15,25,27)初始空间和原未缩放P0框架。主函数保τ^(3−n)，初始节点数不冒更高乘积注入；实际新核/五Lj128/144与height仍未算。
+
+
+**R885原完整Artin目标正常坐标与九Norm实际完成**：[认证](results/R885-certified-original-whole-Artin-target-coordinates-and-nine-reference-norms.md)。run43848870181/519.34968726s/323stage，首z=0整A272与E2176、所有272目标方程及原v0九Norm全部通过；无因子/幂零丢弃，单rank8 charpoly给九值，原dual7/两帧保全。真正全局Norm系数/Picard支持/五Lj/height仍缺；完成纤维直接供下游，旧273节点/17列不重。
