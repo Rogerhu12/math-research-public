@@ -518,7 +518,7 @@ def prepare_sources(item,out,io):
 def restore(item,out,io):
     source=item.get("resume")
     if source is None:
-        return
+        return None
     assert source["result"]==RESULT and source["core_sha256"]==item["core_sha256"]
     folder=out.parent/"R927-resume-source"
     archive,entries=open_archive(io,source,folder,out.parent/"R927-resume-range")
@@ -560,6 +560,7 @@ def restore(item,out,io):
             assert value["result"]==RESULT and value["configuration"]==tag
             assert value["complete"] is (name!=CURRENT)
         restored_success=False
+        reused_parent=None
         if FINAL in entries:
             extract(archive,entries,folder,[FINAL])
             final=read(folder/FINAL)
@@ -579,14 +580,38 @@ def restore(item,out,io):
                 else:
                     shutil.copyfile(folder/FINAL,out/FINAL)
                 restored_success=True
+                retained_metadata={}
+                for name in (MANIFEST,*META):
+                    original=entries[name]
+                    alias="R927-reused-parent-"+name
+                    path=out/alias
+                    if path.exists():
+                        assert spec(path)==dict(original,file=alias)
+                    else:
+                        shutil.copyfile(folder/name,path)
+                    retained_metadata[name]={"original":original,"retained":spec(path)}
+                if (out/META[2]).exists():
+                    assert spec(out/META[2])==entries[META[2]]
+                else:
+                    shutil.copyfile(folder/META[2],out/META[2])
+                reused_parent={
+                    "source":source,"original_complete_certificate":entries[FINAL],
+                    "original_complete_core_receipt":entries[META[2]],
+                    "retained_original_metadata":retained_metadata,
+                    "actual_parent_process_exit_code":run["process_exit_code"],
+                    "actual_parent_run_complete":run["complete"],
+                    "actual_parent_core_complete":core["complete"],
+                    "all_original_complete_math_stages_and_FINAL_reused_byte_for_byte":True,
+                    "core_reexecuted":False}
         save(out/"resume-inheritance-receipt.json",{
             "result":RESULT,"complete":True,"source_resume":source,
             "source_manifest":spec(folder/MANIFEST),
             "restored_complete_and_current_files":[entries[n] for n in completed],
-            "restored_true_final":restored_success,
+            "restored_true_final":restored_success,"reused_actual_parent":reused_parent,
             "false_final_is_historical_not_completion_or_current_SHA_constraint":True,
             "range_transport":archive.receipt(),
             "new_or_old_mathematics_executed_by_transport":False})
+        return {"expanded":expanded,"reused_actual_parent":reused_parent}
     finally:
         archive.close()
 
@@ -606,9 +631,12 @@ def write_manifest(out):
 def compute(item,out,io):
     out.mkdir(parents=True,exist_ok=True)
     code,error,outer_timeout,proc=1,None,False,None
+    core_reexecuted=False
+    reused_parent=None
     try:
-        restore(item,out,io)
-        expanded=prepare_sources(item,out,io)
+        inherited=restore(item,out,io)
+        expanded=inherited["expanded"] if inherited is not None else prepare_sources(item,out,io)
+        reused_parent=None if inherited is None else inherited["reused_actual_parent"]
         receipt=read(out/INPUT_RECEIPT)
         save(out/META[0],{
             "result":RESULT,"p":41,"source_repository":"Rogerhu12/math-research-public",
@@ -619,25 +647,42 @@ def compute(item,out,io):
             "source_inventory":receipt["source_inventory"],"input_bundle":receipt["input_bundle"],
             "workflow_sha256":sha(REPO/item["workflow"]),
             "prepared_at_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
-            "all_new_mathematics_only_in_separate_public_Actions_core":True})
-        command=[sys.executable,str(HERE/item["core"]),"--config",str(out/EXPANDED),
-                 "--out",str(out),"--budget-minutes",str(item["budget_minutes"])]
-        with (out/"public-actions-run.log").open("w",encoding="utf-8") as log:
-            proc=subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
-            try:
-                code=proc.wait(timeout=60*item["budget_minutes"]+600)
-            except subprocess.TimeoutExpired:
-                outer_timeout,code=True,124
-                os.killpg(proc.pid,signal.SIGTERM)
+            "all_new_mathematics_only_in_separate_public_Actions_core":True,
+            "reused_actual_parent":reused_parent,
+            "complete_parent_reuse_requires_no_core_invocation":reused_parent is not None})
+        if reused_parent is not None:
+            # restore already checked the original complete FINAL, core receipt,
+            # original run/source identity and every original complete stage.
+            # Keep the original core receipt bytes; this is an IO-only new run.
+            assert reused_parent["core_reexecuted"] is False
+            assert read(out/FINAL)["complete"] is True and read(out/META[2])["complete"] is True
+            code=0
+            record={"result":RESULT,"core_reexecuted":False,
+                "reused_actual_parent":reused_parent,
+                "new_mathematical_stage_count":0}
+            line="R927_REFERENCE_COMPLETED_SOURCE_REUSED="+json.dumps(record,sort_keys=True)
+            (out/"public-actions-run.log").write_text(line+"\n",encoding="utf-8")
+            print(line,flush=True)
+        else:
+            command=[sys.executable,str(HERE/item["core"]),"--config",str(out/EXPANDED),
+                     "--out",str(out),"--budget-minutes",str(item["budget_minutes"])]
+            with (out/"public-actions-run.log").open("w",encoding="utf-8") as log:
+                proc=subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT,start_new_session=True)
+                core_reexecuted=True
                 try:
-                    proc.wait(timeout=30)
+                    code=proc.wait(timeout=60*item["budget_minutes"]+600)
                 except subprocess.TimeoutExpired:
-                    os.killpg(proc.pid,signal.SIGKILL)
-                    proc.wait()
-                error="Actual outer timeout; completed atomic stages and current checkpoint retained."
-        with (out/"public-actions-run.log").open("r",encoding="utf-8",errors="replace") as log:
-            for line in log:
-                print(line,end="",flush=True)
+                    outer_timeout,code=True,124
+                    os.killpg(proc.pid,signal.SIGTERM)
+                    try:
+                        proc.wait(timeout=30)
+                    except subprocess.TimeoutExpired:
+                        os.killpg(proc.pid,signal.SIGKILL)
+                        proc.wait()
+                    error="Actual outer timeout; completed atomic stages and current checkpoint retained."
+            with (out/"public-actions-run.log").open("r",encoding="utf-8",errors="replace") as log:
+                for line in log:
+                    print(line,end="",flush=True)
     except BaseException as exc:
         traceback.print_exc()
         code=1
@@ -651,6 +696,7 @@ def compute(item,out,io):
             "workflow_attempt":os.environ.get("GITHUB_RUN_ATTEMPT"),
             "complete":complete,"process_exit_code":code,"outer_timeout":outer_timeout,
             "error":error,"core_receipt_sha256":sha(out/META[2]) if core else None,
+            "core_reexecuted":core_reexecuted,"reused_actual_parent":reused_parent,
             "finished_at_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
             "execution_environment":"public_GitHub_Actions"})
         write_manifest(out)
@@ -803,6 +849,60 @@ def endpoint_review(out,row,epsilon,tag,inputs,common):
         "characteristic_zero_content_orders_claimed":False}
 
 
+def review_reused_complete_parent(item,out,initial,run,entries,tag):
+    parent=run.get("reused_actual_parent")
+    assert initial.get("reused_actual_parent")==parent
+    if parent is None:
+        assert run.get("core_reexecuted") is True
+        return None
+    assert run["core_reexecuted"] is False and parent["core_reexecuted"] is False
+    assert initial["complete_parent_reuse_requires_no_core_invocation"] is True
+    assert item.get("resume") is not None and parent["source"]==item["resume"]
+    source=parent["source"]
+    assert source["result"]==RESULT and source["core_sha256"]==item["core_sha256"]
+    originals={}
+    raw=parent["retained_original_metadata"]
+    assert set(raw)=={MANIFEST,*META}
+    for name,record in raw.items():
+        original,retained=plain(record["original"]),plain(record["retained"])
+        assert original["file"]==name and retained["file"]=="R927-reused-parent-"+name
+        assert retained["bytes"]==original["bytes"] and retained["sha256"]==original["sha256"]
+        assert entries[retained["file"]]==retained
+        originals[name]=read(bound(out,retained))
+    original_manifest=originals[MANIFEST]
+    assert raw[MANIFEST]["original"]["sha256"]==source["manifest_sha256"]
+    assert raw[MANIFEST]["original"]["bytes"]==source["manifest_bytes"]
+    fs={row["file"]:plain(row) for row in original_manifest["files"]}
+    assert original_manifest["result"]==RESULT and len(fs)==len(original_manifest["files"])==source["manifest_file_count"]
+    for name in META:
+        assert fs[name]==plain(raw[name]["original"])
+    old_initial,old_run,old_core=(originals[name] for name in META)
+    assert old_initial["source_commit"]==old_run["source_commit"]==source["source_commit"]
+    assert str(old_run["workflow_run_id"])==str(source["run_id"])
+    assert old_initial["core_sha256"]==old_core["source_sha256"]==item["core_sha256"]
+    if source.get("wrapper_sha256") is not None:
+        assert old_initial["wrapper_sha256"]==source["wrapper_sha256"]
+    assert stable_request(old_initial["job"])==stable_request(item)
+    assert old_initial["actual_configuration"]==tag
+    assert old_run["complete"] is True and old_run["process_exit_code"]==0
+    assert old_core["complete"] is True and old_core["process_exit_code"]==0
+    assert old_run["core_receipt_sha256"]==fs[META[2]]["sha256"]
+    assert old_core["configuration_sha256"]==fingerprint(tag)
+    assert parent["original_complete_core_receipt"]==fs[META[2]]==entries[META[2]]
+    assert parent["original_complete_certificate"]==fs[FINAL]==entries[FINAL]
+    assert old_core["certificate_sha256"]==fs[FINAL]["sha256"]
+    assert parent["actual_parent_process_exit_code"]==0
+    assert parent["actual_parent_run_complete"] is True and parent["actual_parent_core_complete"] is True
+    assert parent["all_original_complete_math_stages_and_FINAL_reused_byte_for_byte"] is True
+    actual_stages={name:row for name,row in fs.items() if name.startswith(PREFIX) and name.endswith(".json.gz")}
+    assert actual_stages
+    for name,row in actual_stages.items():
+        assert entries[name]==row
+    return {"source":identity(source),"original_core_receipt":fs[META[2]],
+        "original_complete_certificate":fs[FINAL],"core_reexecuted":False,
+        "all_original_complete_stage_bytes_preserved":True,"new_mathematical_stage_count":0}
+
+
 def verify(item,out,io):
     manifest=read(out/MANIFEST)
     assert manifest["result"]==RESULT
@@ -874,7 +974,7 @@ def verify(item,out,io):
             common=own(out,final["same_global_reference_integer_frame"],tag)
             assert common["same_global_reference_generator_at_both_endpoints"] is True
             assert common["original_nine_global_parameters_unchanged"]==list(range(9))
-            assert common["future_target_sources"]=={"R903":None,"R907":None}
+            assert common["five_target_sources"]=={"R903":None,"R907":None}
             for epsilon,row in final["completed_endpoint_certificates"].items():
                 endpoints[epsilon]=endpoint_review(out,row,int(epsilon),tag,inputs,
                     (final["same_global_reference_integer_frame"],common))
@@ -898,6 +998,7 @@ def verify(item,out,io):
             "mathematics_reexecuted_by_wrapper":False},sort_keys=True),flush=True)
         return 0
     assert run["process_exit_code"]==0 and core is not None and core["complete"] is True
+    reused=review_reused_complete_parent(item,out,initial,run,entries,tag)
     assert core["configuration_sha256"]==fingerprint(tag)
     assert final is not None and final["complete"] is True and final["stop_reason"] is None
     assert final["prime"]==PRIME and final["original_zeta_root"]==ZETA and final["original_s_root"]==SROOT
@@ -936,6 +1037,7 @@ def verify(item,out,io):
         "actual_original_source_files":receipt["selected_original_file_count"],
         "endpoints":endpoints,"actual_original_t_frame_leading_ratio_P1_over_P0_mod_prime":ratio,
         "actual_five_target_NormPhi_detU_or_height_computed":False,
+        "core_reexecuted":run["core_reexecuted"],"reused_actual_parent":reused,
         "mathematics_reexecuted_by_wrapper":False,"seconds":final["seconds"]},sort_keys=True),flush=True)
     return 0
 
