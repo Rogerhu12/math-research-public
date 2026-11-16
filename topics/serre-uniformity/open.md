@@ -145,3 +145,6 @@ R871原tame R=W/A在指定CM三次首U/(48E6²)T³单位，保T=−48t/E6=−864
 
 
 **R891 sigma零的原基除子解释已证**：[结果](results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md)。fi/gj的零等价对应原六维theta权空间在O的共同基点；真正六primary theta把同重数传到36个六挠点，完整基除子度是36倍数，ν_r的完整首p系数公式给ν_r≤(p−5)/6。仍不能排除互补两个权空间同时有这些基点，未证明原primitive/Legendre同h非零。
+
+
+**R892原完整高分布与除p收缩判据已证**：[结果](results/R892-original-theta-recursion-and-divided-split-contraction.md)。真实CM群律及Weil标量log给全部Θ_n(n<p²)的可除单位递推，跨p非交换修正保留。原γ两旗、正θ_h及未分歧原S_FG下，完整K_h,n(n≤p²−1)与饱和下降准确判定C_h(S)/p整性和单位向量；仍须证明所有低带消失及末带/指定标量jet非零。不得用已撤回简单算子指数代替递推。

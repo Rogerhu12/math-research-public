@@ -275,3 +275,6 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 
 
 - **R891原sigma零与完整六挠基除子已证**：[完整证明](results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md)。fi=0/gj=0分别等价原六维V_(6i+4)/V_(6j+1)在O有共同基点；真实六primary theta传播全部36六挠点，degD_r∈36Z、D_r≥ν_rΣE[6]，ν_r=r−max{n≤r:c_n≠0}且仅ν_r≤(p−5)/6。保原两个序列与同h，不冒互补非零、Legendre可见或q-normal/height。SHA256 7ed8ff000434db230023f8023daf1d3257f2bd52a5e7eab9a54609a1c7a49901。
+
+
+- **R892原first-p² theta递推与真正除p判据已证**：[完整证明](results/R892-original-theta-recursion-and-divided-split-contraction.md)。total degree<p²下真实群律、κ(SY^p−S^pY)标量Weil log给所有Θ_n的非交换两指标递推，Θ2p/Θ3p跨p修正明确。原γ两旗/θ_h/未分歧S_FG的K_h,n保全，真实π*饱和及原varpi^e/p≡+1给C_h/p整 iff低带全零，单位向量再须末带非零；未证明所需消失或原scalar非零/height。SHA256 5c46551eb6de7350b651c14a2c8d6ee36098a41adb2d5b8de405b894d65250ed。
