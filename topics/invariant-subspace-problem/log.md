@@ -927,6 +927,10 @@ h*W封口使所有4212共动基原degree3来源共同费8391；一般已证membe
 四fiber全W来源逐范围接回，45个quadratic CRT与h*𝔫²闭合𝔫⁸⊂I，全部混合八次生成元有显式source moment≤18。
 不假CRT余项在W，不删rank-one均值条件；全J非rank-one及31 E继续。
 
-## 2026-11-16 03:30 UTC — 实际强前缀全高度比较与真正远方差
+## 2026-11-16 03:28 UTC — 实际强前缀全高度比较与真正远方差
 原carry压缩给全J Gram/inverse差≤14ηs⁻¹e^(49/s)，R=d/x=m+d在s≥S_x上≤e^−d⁴/2；完整a/F强趋P_M。
 同PV/PK/u及Q≥R+J不变，一次/二次MP接回原4d…e26d³母窗；全深返回/Schur/N=M仍开。完整前态归档保留，实际pull核规后push。
+
+## 2026-11-16 03:31 UTC — 原31两探针p7独立计算入队
+冻结完整原恢复/新25阶helpers及全部整数carry源码，两个真p6来源在完整incoming15商判别；任一正才E6，零只限两列。
+原14、六small、额外7输入逐全SHA恢复；1800秒/4GiB、75同绑定续至三次。仅脚本/参数/run/输出SHA入库，计算输出仅临时/完成日志；实际pull核规后push并dispatch。
