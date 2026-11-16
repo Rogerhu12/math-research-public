@@ -42,6 +42,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)同母/w/χ完整速度Gram SPD椭圆，光滑零area8字+三角normal的有限ε IFT给h/k/ω真实正时返回、k非恒、K全s全θ零。两端只k_s=ω_s0而germs不同；原t1有严格负O(ε)成本，frame/位置及全3/4传递未回，不能冒M0/全period或参考桥。接真实端点像与抵消。
 
+
+[R508](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)另从起点选同形母与原B=P−cR_y规范，完整β=0保整secant；高三阶/低二阶有限母使实际∂γE≠0，原germ可平滑离开。实际三权Wronskian=(1−v²)/4给终k/ω复位而原m_p2可取小双号。其余七矩、高度/frame/位置/全3/4传递皆保真实成本，未付纯p2/全period/M0，不能移旧13收据。
+
 ## 4. 当前真正接受点57与已闭任务
 
 [原57结论](notes/true56-small168-seven-exchanges-original-two-grid-accepted57-20261116.md)：run43853917860/research133253195868/report133259469147/sourceae7e1f6246a48476713081e7b2affc7aa2c1c980。h≤1/128/all168模型复用56输入，7finite/293iter586系统、7全网、13新metric梯度、62scalar，α=.7596062421780062的一actualpair接受57；无新学习行。
@@ -54,8 +57,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 CACHE2 29866451B/d92a1112ee337ef84fef673cc46c326404a67ca3ed7e40e68efff9d0c3316b0e，binding9053e45420d192c3965a82cff58f3db7946584dcb9c1771101399e394e0245f6，含57 U/T/e/f/grid/168，无X二jets/J。56所有J/模型不可跨点。原raw66570126B/d73905a51631f39a233b3dcfbb3b1a3101b196eb9e766574fcaf5d4cb8f9ea71，完整记录身份见57结论。
 
-## 5. 正在接续（2026-11-16 11:18 UTC）
+## 5. 正在接续（2026-11-16 11:34 UTC）
 
 57新模型需当前真实导数，必要二jets尚未保存，重建如实计费。[后继源码](notes/complete168-nonlinear-metric-and-selected-paid-jet-interfaces-20261116.md)有直接actual168非线性metric、paid selected二jets出口/全168 J适配，0执行。未来接受先学习pool再趁ordinary内存导出，不能倒填57或伪造未存hard点。非线性metric/曲率另立身份/预算，原14门保。
 
-O4接.6<H<H*同图五门联合零/新finite exact证书及R505同母库实际桥/全period/13。R507已付真实scalar返回，接其非零矩阵/frame/位置成本和参考入口桥。三/四原子闭账不重跑；主完成未付，不停止。
+O4接.6<H<H*全五门证书；R508已付新同母规范下的参考出口和双号m_p2，继续其余矩阵/高度/frame/位置/全period/13联调。R507 scalar返回的负t1仍保。三/四原子闭账不重跑；主完成未付，不停止。

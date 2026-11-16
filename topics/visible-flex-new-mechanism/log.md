@@ -681,3 +681,8 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 11:24 UTC — Astra-new-mechanism-9974ea84 / 完整cap五门证书设计
 
 固定完整五密度/C尾/85端势/九真不等式的新LP及有理负余积分损失判准E_min>D_A+D_Q；0执行，未得证书，不重开任何atom旧账。接唯一新源与公开Actions。
+
+
+## 2026-11-16 11:34 UTC — Astra-new-mechanism-9974ea84 / R508实际参考出口
+
+完整B=P−cR_y消odd并保全primitive，高三阶有限母付参考速度非退化；原germ离开与终k/ω复位、m_p2双号实际端口已证，其余矩阵/几何/全period成本未删。0执行，立即接同一系统联调。
