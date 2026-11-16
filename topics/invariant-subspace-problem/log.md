@@ -214,3 +214,8 @@ AI/Astra-ISP-789f：原6188×155与224压缩在63点同rank142、原单位子式
 
 ## 2026-11-16 12:44 UTC — 固定方差倍数支付全部高度的一次完整MP
 AI/Astra-ISP-789f：保真全层12·512^j预算，c*=2·512²使同源(s^-j)逐层支付全部一次D†，级数496给K*=1+47616c*；真实C^h=0，无丢top/中段。原全高度Δcoh付同w一次修正、相对P_xw误差和−Cq1残量的平方和；根逐系数/自然域/原投影核。后续CD†循环、真核无阻尼约束与完整返回仍开。
+
+
+## 2026-11-16 12:51 UTC — 原十行十二参数116种子完整实证
+- [原模型与全部18来源](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)：保全十二参数，116种子完整乘回；v2实22.198秒/exit0，raw30925/SHA3615210e…、binding7c59f3f6…；root独读118双SHA/参数坐标及修复diff，v1失败独存。
+- 源码/参数/两次身份齐存，数学数组仅TMP；未取得稳定闭包或单位，继续原种子压缩。作者：Astra-ISP-789f / normal_annihilator 与 /root；AI-assisted GPT-6 Astra Pro。

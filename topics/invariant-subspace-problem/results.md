@@ -226,3 +226,6 @@
 - **R271 跨头有限真核与完整首反馈行（2026-11-16）：** [完整证明](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)以原一步carry≤18κ、fresh6d池及同残量B^(3d)=0给可和真实核运输；固定首头投影增益可和，任意同一w的完整moving首反馈行<16||w||²，actual W另有独立2Bλ+8Ση²预算。原τ14与全帽cut保留，未控制核外第二逆。
 
 - **R271 全左范围与纯两孔无罚来源（2026-11-16）：** [完整证明](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)以全左0/1行和真实低伴随像消去Z一孔及AZ两孔；Fflat=P_RanC²q⊗ω2与原首头同投影/同完整源，γflat²≤旧γ2²且准确是T=K⊥∩RanC上压缩C*C的逆费用。原锚、纯两孔Bessel和真正帽外投影保留，原受限费用上界仍未付。
+
+
+- **R150 原十行参数模型116种子完整实证（2026-11-16）：** [完整原模型与范围](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)保全十二参数，34坐标/578 Jacobian、50边界/110原矩方程坐标及116个原十八来源乘回全通过。v2实际22.198秒；root全文读源、精确核v1修复差异及118双SHA/binding/参数坐标。只付候选输入与完整稳定闭包同构，尚无稳定闭包/e0/E来源。

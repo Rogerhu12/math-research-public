@@ -1,0 +1,88 @@
+{
+  "format": "r150-original-ten-generator-parameter-module-field127-inputs-v2",
+  "author": "Astra-ISP-789f / normal_annihilator, with /root",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "blob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+    "bytes": 23879,
+    "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+  },
+  "dependencies": [
+    {
+      "argument": "--model-driver",
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "argument": "--helper",
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "exactCoefficientPlace": {
+    "prime": 127,
+    "root": 100,
+    "matchedCubicAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "noMeanOrMomentParameterSpecialization": true
+  },
+  "parameters": {
+    "seconds": 180,
+    "memoryMiB": 2048,
+    "through": "seeds"
+  },
+  "localInterpreter": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "argumentVector": [
+    "--model-driver",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "2048",
+    "--through",
+    "seeds"
+  ],
+  "recovery": {
+    "sameSourceSameBindingSameOutRequired": true,
+    "completedChartAndBaseReused": true,
+    "allWholeSeedDescriptorsRevalidated": true,
+    "maximumSecondsPerInvocation": 900,
+    "exit75IsBudgetOnly": true,
+    "otherErrorsNotAutomaticallyResumed": true
+  },
+  "scope": {
+    "tenMomentModuleGenerators": true,
+    "completeOriginalSeedCount": 116,
+    "commutatorColumns": 100,
+    "meanColumns": 6,
+    "bellColumns": 10,
+    "originalGradientCount": 17,
+    "originalSourceRowsIncludingBell": 18,
+    "fullParameterCount": 12,
+    "allFiveMultiplicationMatricesRetained": true,
+    "nineGeneratorSourceRecipeRetained": true,
+    "stableClosureComputed": false,
+    "characteristicZeroMembershipClaimed": false
+  },
+  "runtimeArtifacts": "All polynomial matrices, source arrays, compressed phases and raw mathematical receipts remain temporary. Only this input, source, interface, execution identity and hashes may be committed.",
+  "supersedesFailedExecution": {
+    "sourceBlob": "03c8bbcbf621d4d5d0ebada739632d6e1c96978c",
+    "sourceSha256": "d75787efa812c55bfc12af509a4463064ec13f832742b4683b7ccd539cca9fa3",
+    "rawBytes": 1260,
+    "rawSha256": "5e4cee016b5e6e0561c4bdc5543a6f1aaa31fd5f927353f0ee45363ce2c68500",
+    "status": "failed",
+    "exitCode": 1,
+    "error": "Local W gradient list shadowed global w coordinates in eta. v2 renames only the local gradient list; the full original identity gate is preserved."
+  }
+}
