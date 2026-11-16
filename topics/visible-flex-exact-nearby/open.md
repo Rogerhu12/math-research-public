@@ -43,16 +43,7 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 [WTS过渡替换](results/R133-supplement-complete-source-audit-and-exact-frequency-transition-replacement.md)bb7dff28：原qstar不含Js；旧PC upper非lower。新trial须保root/cut/ordinary源/全jump/waist且same stable/head/rest/outer；critical ρ~n^-2/3、χ′无免费gain。
 [WGT真高块](results/R133-supplement-sharp-graph-high-block-tests-and-complete-source-thresholds.md)231ff8b1：同wholeE在任$1<\sigma\le4/3$够graph紧性；$P_J(M_\nu-\bar M)=0$只去high费，原low/Theta保。真门$2K_{CYA}C_{E,\sigma}K_{P,\sigma}\Lambda_J^{-(\sigma-1)}<1$。完整received列须p>σ+1/2，真block须p>σ；所有n7/6/twoI/ordinarydr/PC/root/waist/mean/坐标先付。
 
-| 新全实试探链 | 已闭内容与范围 |
-|---|---|
-| [JI真实角逆](results/R133-supplement-complete-real-interval-angular-inverse-and-physical-mean.md)01e4a33b | 原real [0,rc]、完整P/I/parity，由SJ Wiener/β/η证$D_J\ge(79/128)e^{-7/4}>0$。每固定s同Hs_even0→Hs+1_odd；只真交域同local angularJ，不搬旧strip/数费。 |
-| [WUA genuine试探](results/R133-supplement-global-real-genuine-Airy-trial-and-complete-two-row-source.md)9cd778ec | 原trueflow全real fold、固定C64潜势cutoff、原Cn/β；完整ordered Q/N6 finiteI/J/mean/终端逐项消。原n7/6已计，ordinary Ig1积分及truejump列p2。physicalmean ODE使g2=0而z保；leading C1/first C0给真jump，不授all-s/全complex。 |
-| [WUR伴随及接收](results/R133-supplement-mean-completed-scalar-flux-adjoint-and-first-row-reception.md)948ad192 | 全3块adjoint/weakflux、z+ell_f f真root项、原parity有限IJ两gain。strict相关raw(g1,0)原SP同q权消，整接收O0m11(ordinary∫||Ig1||+Σ||Ij1||)，无额外Jstar，内mean反馈保。 |
-| [WUC原root窗口](results/R133-supplement-root-window-interpolation-and-complete-negative-source-reception.md)6ced5a93 | 原PW c=r+−1/200，实际J的L2/I两界→全频H−2/3插值→trueL²dr，完整collar源/全部truejump列p5/3，strict p2。原SP20门CO/CR/C1单位/两mean保；只准1<σ<7/6逐列窗，不授4/3或端点。 |
-| [WES同旧腰端](results/R133-supplement-selected-free-waist-exact-scattering-and-complete-endpoint-comparison.md)8aa7eb5d | 原lift/WX ψ′证selected全腰T<−L。S−N∞=S(Droot+J∞)保β/整B尾且potential一阶消；fullFA两row/两phaseSchur付baseL2和p2差，ng一次/Js two-I/N4 physicalmean端rank全保。四项同oldY_WJ端差strong4/3闭。 |
-| [WUB完整频带负源](results/R133-supplement-complete-dyadic-Airy-source-blocks-and-original-strong-window.md)ef141ab0 | exact Jost有限五导和全输出weightedSchur（含low/mean），真实angular J:H−5/3→H−2/3与IJ:H−2→L2给collar/truejump block p5/3、strict p2。原N6终端/mean全留且更快；只正交inputbands求和恢复同完整Tneg:H−4/3→Y0。原PW cut/全receivers/两mean/ordinarydr保，无输出正交或新数值假定。 |
-
-新链均为同selected实际对象的完整解析recipe，0新球/旧math0；原PC/root有限差、cut、oldtarget/leading/Ni与独立physicalmean/amp均保。完整whole新预算须组同一signedtuple，不能把单源阶当wholeE。
+JI/WUA/WUR/WUC/WES/WUB完整六项说明、全部原球/域/mean/失败/lost及恢复逐字保[Schur与端点完整检查点](notes/2026-11-16-completed-Schur-Parseval-and-endpoint-checkpoint.md)（38135c98同open），各原proof继续约束。JI只原real[0,rc]与同parity角逆，$D_J\ge(79/128)e^{-7/4}>0$，不转域或搬旧费用；WUA/WUR保全N6、ordinary两row、3070真jump/内mean反馈与root项；WUC列法只$1<\sigma<7/6$，WUB完整inputbands才恢复$4/3$，保全PW/receiver/mean与ordinarydr；WES保全原FA两row/两phaseSchur、两mean/端rank及四腰端，$n_g$一次。各链为0新球的完整解析recipe；whole新预算须同signedtuple，原PC/root/cut/oldtarget/leading/Ni及独立physicalmean/amp均保。
 
 [WUE完整同物理行](results/R133-supplement-complete-global-genuine-trial-physical-waist-error.md)e191f96a：$E_\partial^{fr}=D_{alg}+L_\partial(R_++R_F+T_{neg}+E_{end})N_i$，同旧WPL leading、$1<\sigma\le4/3$。全trial替换精确望远镜接WES端差，旧ST4不另重复；原PC两received及CG一次仍全额，完整mean/two-I/原Js保。Ni用同ambient有界延拓插值，4/3直接原A−；WUC列法仍仅1<σ<7/6独立替代。所有旧五球逐字锁，未算whole新数/高门，未授finite/ν/背景/总验收。
 

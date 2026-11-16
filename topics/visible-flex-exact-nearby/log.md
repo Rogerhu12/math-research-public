@@ -372,3 +372,7 @@ WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21�
 ### 2026-11-16 06:45:20 UTC — ordinary one-report removal
 
 白名单d6c5a678已先推；fresh current metadata精确核b08d0784/716317B后，普通删除唯一dense-s3派生诊断JSON，restore becfaf同path与原SHA全保。未读大body、未动canonical权/原native/失败/成功/证据，旧数学0。README于d6c5a678ba58db383e9301d80a2b6d6b73403c9a两blob无变；容量供WGS双完整科学文件及后继新图。
+
+### 2026-11-16 06:50:58 UTC — Schur/端点与cleanup的完整恢复检查点
+
+公开2b03224d6e885c863ce9efeb655993d446a9bdaa的H/open全文逐字存notes/2026-11-16-completed-Schur-Parseval-and-endpoint-checkpoint.md（40971B，SHA8920c3fe4a34ceb9abb79d459dd461edfd75a64b740bdae118a958ca83fb8d08）；原38135c98的H9800B/open29954B及全部球/域/mean/failed/lost/restore保全，只压闭合链索引和已完成cleanup说明。WSP43816689251成功禁重，WGS尚未运行；双SCI/437槽完整静态契约继续核。仅文字与hash，0新数学。两README未变，当前读取提交记H。
