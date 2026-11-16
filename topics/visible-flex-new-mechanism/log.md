@@ -229,3 +229,7 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 ## 2026-11-16 15:51 UTC：R542完整快族的第二总矩严格障碍
 
 [R542](results/R542-complete-second-matrix-sign-and-duration-gates-for-the-fast-ruling-family.md)保R536/R540从原起点的全部负t1前缀与高度平方成本，严格证明整个O(L⁷)短快族在任意有限脉冲幅度/步数下仍非M0；恢复必须付真实时长与端高度能量下界。root全文纸核，无科学执行；同χγ0判别式/长慢轨道未预支，后继直接研究。whole-suffix run43900273845已在公开研究，未读未完成日志，58及祖账不变；最新15:49:33实际pull双README空diff已记H。
+
+## 2026-11-16 15:57 UTC：R541稳定非零支的真实大k与净正总矩
+
+[R541](results/R541-finite-curvature-and-positive-total-matrix-entry-on-one-stable-gram-branch.md)从真零history一次选大Gram，完整q(h)稳定支、无快加速度第三重写及真f/f′零准备给e/e′=Oδ²；先有限高h1/尾长后δ，原K0全段到k>2并净总中心t1^c>0。root全文纸核并明示固定y坐标读出以免混raw t1；全A/T保，p1正/p2负，未同规范配平，无科学执行。whole-suffix研究/报告已结束，原后端9/false/120iter无合格向量，0预测/actual；新184.71003744799998秒，祖3231.8129525510003秒147值，完整原输出正整理，仍58。
