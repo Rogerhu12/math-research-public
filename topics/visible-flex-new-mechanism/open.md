@@ -176,3 +176,7 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### 2026-11-16 08:38:20 UTC — 接受54的新原约束模型与新行交换首入口
 
 [设计](notes/true54-fresh-original-model-exchange-design-20261116.md)保同g/b0/159→163/reference/guard/14门。在真正54只付必要hard-model两普通值、两selected-J和两firstjet上下文；原CACHE2缺positions/curvature/二jet，仅读为来源、不混基线。19旧标签在54刷新/与新池J去重；全部原硬/软行动态完整装入，最多32严格新矩阵/32双网分离/147新行、3072iter/6144系统。末方向原legal-line1/64，再最多3actualpair/6值；任何新接受才是55。新600秒从imports前含输入/失败/输出；祖先1877.294171609秒/130值原样带入，53全部task已闭不回开。源码文本未本地执行/编译/测试；public Actions唯一首跑，0旧checks/开发。原stdout112MiB/只读report128MiB读取上界，payload不进Git。仍欠主完成门，继续open。
+
+### 2026-11-16 08:42:28 UTC — R489 排真实单曲率集中及两个分离质量窗
+
+[R489](results/R489-no-single-curvature-concentration-for-the-five-cap-conditions.md)在p*=r*=1归一保ν=v″dt质量2/3与一次矩1，有界H尾一次矩一致可积；单原子只能(2/3)δ−3/2。η=v(−3/2)=||v−vcrit||∞=W1/3，并得r差L1≤6η；完整十二L/八Aj含真实远左C偏置给|Aj−Ajcritical-offset(H)|≤Kj(M)η^((j+2)/9)。原E的端势同端相消，R485全部C≥0非零和R483大H界遂付统一η*>0：任何真五门零必须η>η*，而且两个固定分离区间各有正曲率质量。此结论不把质量当点态正窗或五控制统一逆，也未排两簇/线性v/其它边界；0新执行，继续真实全零或新边界，主完成未付。
