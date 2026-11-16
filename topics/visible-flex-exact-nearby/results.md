@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WPC / 2026-11-16** — [原正侧截断在真实输出窗的完整界](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)，92f5e51af2af959794b527c89d03f103d9e69422 /16086B /SHA256 2bc45c4c67261986bf2e94bb889d20757be8c713c31542c6a08e1da4353f8468。原两row χ′hG:H−4/3→L²dr(H−2/3 pair)，全输出C² weightedSchur+profile moment+5/2、fullstrip Cauchy和完整lag JL/JB给新cut。原positivevolume/FH/七port received一次组合；一旧PC小receipt提供全部输入，旧数学0/新数未算，未授finite/core。
+
 - **WFR / 2026-11-16** — [精确根有限因子与缩减高块门](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)，66557b3eb76c002dedbb7189a197a5a066ec0201 /16083B /SHA256 cb72cb37e284e8e4b4c834896b1437ee6400d78a9f8fe5321e75e4b4dac0fcde。同WUE RF=−Rrt PFhG真实有限trace分解，原WBP左右顺序/完整均值保；安全386实维，exact mean0/parity可用384/192。整root因子以辅助z=Vu留WGB边界，高门仅用其余完整E°；高输出/全部cross/Θ96/真实physical列与ν/mean/infinitehead不删。0新数值，无passingcut或finite逆。
 
 - **WUE / 2026-11-16** — [全genuine试探的完整物理腰行](results/R133-supplement-complete-global-genuine-trial-physical-waist-error.md)，SHA256 e191f96acc39ab802adb93ace2d1e57691b017629ed762ddd39624d3bcb61ce1。主范围1<σ≤4/3，同old WPL leading/真实Xfr，完整误差=Dalg+L∂(R++RF+Tneg+Eend)Ni；精确trial替换把旧ST4望远镜入WES，不减upper。原PC两received、CG一次、fullmean/twoI、Ni同ambient插值和4/3原A−全保；WUB全负源强窗已付，WUC列法仍只弱窗独立替代。原五完整球逐字锁，新数学运行0；whole新数/可用高门/finite/ν/背景与总验收未授。

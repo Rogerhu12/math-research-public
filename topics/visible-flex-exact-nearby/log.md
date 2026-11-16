@@ -292,3 +292,7 @@ flow 348e0a2ca536da5238dd28f832e4442421450298 /6139B /ef057896ee240d434240a50762
 WFR 66557b3eb76c002dedbb7189a197a5a066ec0201 /16083B /cb72cb37e284e8e4b4c834896b1437ee6400d78a9f8fe5321e75e4b4dac0fcde 完整解析证明独推。Root读WGT全文、WBP全文、WGB exact finite/metric §§5–7、PC原§1–3/6–9与WUE完整式；同RF真实root有限trace安全386、exact可降384/192；完整左右坐标后z=Vu留真实border，高门用E°且不减upper。96physical缺列/Θ约束、root高输出、全cross/mean/ν/infinitehead全保。
 
 非数学rules v2 run43810459653/1五steps全success，实际pull05:28:49.221106–.862787从79f360886466ae24e8d39c014fa6f4ab048e870e到a543f65c6a8a0f6c3758c8da1fc8cf014afb9e45；对8adc90df两README空diff，SHA e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855。完整936B receipt7b11320e/61500fd2已读，科学0；旧rules43809999338被新同组job替换，无lost数学。05:28发布非FF后本地真CLI尝试仍无executor，API新head重建第二次推成；本次c872a2fdf0a735bbcdfa7fe5a63b1f352883c825两README仍原blob。下一真实pull≤06:28:49，H已写实际读点；仅压缩已成且在全实前档逐字保存的U链，不减未付义务。
+
+## 2026-11-16 05:35:06 UTC — WPC同原cut完整实际输出窗独推
+
+WPC92f5e51a /16086B /2bc45c4c全文root读并核输入4/3输出−2/3留下n5/3、矩权+5/2和Tmin−11/4，C²只用于该输出负窗，全sign/low/mean Schur与same-shift JL/JB各一次。原PC complete domain/cuthead/volume/strong receipt原字读；Newton/Phase/Tail回原source及M.1指数lag完整资格已核。原trial/χ/fullmean/ordinarydr不改，完整received gain只一次；新scalar尚无运行，README核a9ff7bec201ff5653758b4bfd6da4456291e939f两blob不变。

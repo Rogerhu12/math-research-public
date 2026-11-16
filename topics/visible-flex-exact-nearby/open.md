@@ -66,6 +66,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WFR精确根有限因子](results/R133-supplement-exact-finite-root-factor-and-reduced-graph-high-test.md)cb72cb37：同RF经真实root有限trace因子化，安全386实维、原mean0/parity可用384/192；完整接左右WBP与graph，仅E°进入高Neumann门，root因子以z=Vu全额留border，不要求其high/high小。全部U/V实际entries、真实96列/Θ约束、physicalmean/ν及无限radialhead仍待；不减任何旧upper，不把高输出丢掉。
 
+[WPC原positive cutoff完整新界](results/R133-supplement-complete-positive-cutoff-in-its-actual-output-window.md)2bc45c4c：保持原χ/trial/两row/mean/outer，用真实H−2/3输出的C²全Schur，profile矩权+5/2及fullstrip Cauchy，JL/JB原序给同cut/source和完整positive received。一个原PC execution提供全输入；新正组合待唯一Actions，原volume/FH/root及全部negative/腰端不改。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。
