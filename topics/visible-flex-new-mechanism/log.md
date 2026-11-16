@@ -311,3 +311,8 @@ run43792959676/job133055320913，source c0e7336c28b8d1b1f83306e3a0781069f57c0f48
 ## 2026-11-16 02:59:00 UTC：两项真正新入口的完整执行前合同
 
 root全文读零solver实际验收设计16888B/7ad3bef3d9f297696d22fb7121951108ec9514980cb394c1304c66417bc4a2b8和144原响应联合设计14475B/72cb57415968b61d94b836f2b2aaec543bf5d2fdd13cac3c5b9d789c5821e623。前者保持原subspace.apply舍入、14门/box及严格下降1e−7（原目标例外同）、最多6未试fraction；初始已付m26数据复用，不花2value重x，source fetch前启动双clock，缺affine/J不造学习。后者root手推完整Green current导数与同锚左值，核2及/4尺度；回读R432(33)–(35)核21确为共同formal像而非actual点rank。一次144列complete-Q核与39坐标同系数，新18targets带全p-only残差和原列源重构；不跑旧forcing/root/profile/rank或旧检查。各完整源码/唯一request仍在审阅，不宣科学执行。
+
+
+## 2026-11-16 03:06:27 UTC：R435完整self current与有限实际追加写毕即推
+
+root全文读原14673B，手推D_x A_z=(1−zx)²u‴、pU′−rU−A_z⁵/15及Af代入，核K1=−10xK0、r0首z5系数乘5!=1024p⁵、真N链最高系数非零。全K为局部且wholeE/全自然核，故整个圆C0；actual追加不拼路径，保两次商/原型和后置基准。root直接读R397§5–6，窄补完整八副本cell含已三矩闭circle全部最细编码，α³差分本身不付二次闭合。最终14994B/SHAa996216c14cae72a88172ad613ae23774f811635e35c4e423e81e4c9bd274412。H*有限联合核与≤11/≤6范围准确，未授全点或13门。H/open压缩已闭低权/静态重复，完整历史与旧稿不删。

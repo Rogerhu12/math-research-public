@@ -477,3 +477,6 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 
 - **两项新入口的范围冻结，尚未执行。** [末MaxTime向量的零求解器实际验收](notes/paid-MaxTime-vector-actual-only-validation-design-20261116.md)（16888B/SHA7ad3bef3d9f297696d22fb7121951108ec9514980cb394c1304c66417bc4a2b8）只试源52的未试分数，继承双钟/31cone/116值，不恢复缺aux/J或重accepted52两值。[原144响应wholeQ/current联合观察](notes/complete-response-self-current-design-20261116.md)（14475B/SHA72cb57415968b61d94b836f2b2aaec543bf5d2fdd13cac3c5b9d789c5821e623）一次求完整self核与39current系数像，检18含u目标、保21共同p-only；原锚/三suffix/原列证书不拆。均未宣结果；源码全审后各唯一Actions，旧研究不重。
+
+
+- **R435：完整self current与同一J⁺的有限内部追加。** [证明](results/R435-complete-local-self-currents-and-joint-actual-internal-flux-control.md)（14994B/SHAa996216c14cae72a88172ad613ae23774f811635e35c4e423e81e4c9bd274412）从原U_z和真左常数给全Af点完整F_z，K0=−8r⁵/45、r0时K5=1024p⁵。每单点非盲，同形/宽/基点已有副本≤11或≤6；原全K杀J⁺与整个C，实际追加保两次商/全部基准，保C仍需其joint前提。H*经原矩阵逆修正仍λ1，有限组门不读该正障碍。完整cell含原三矩闭circle全部编码，非八孤立同轴包；全根/13规范仍欠，无新执行。

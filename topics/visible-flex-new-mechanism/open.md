@@ -92,9 +92,13 @@ R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joi
 
 在R345实际wholeQ0背景，平台G″0，加R276/288当前正解析最细包的原指数层身份，全部零端的逆germ光滑 iff上述两组整包通量0。平台保持直接用原Lf″=(Afk″)′−Vfk′，不在p0处除p。R429已在其同一共同库/合法窗口内付这组有限totals与端germ；内部Af partial、平台仿射连接、真特解和R327十三行同一k仍未付。不将此扩成Λ全U局部或旧冻结几何的实际数值。
 
-### R345：局部wholeE核完整十一链与11个对应Af通量已付，续全period
+### R345/R435：完整局部self current与同一实际有限追加
 
-[R345](results/R345-local-whole-E-kernel-orbit-and-eleven-corresponding-degenerate-fluxes.md)从R340 K0=BP[P,S]/3完整局部式，手解jet流给全生成式(1−zx)²[(1−zx)²u″+2z(1−zx)u′+2z²u]^4。Kn=δnK0、n0..10全部rank-one完整输出局部、pure/全self/Ω0；真实R71的最高H5及NK_n=n(n−11)K_(n−1)给δ11=0且11独立，不假额外W或全R δ闭合。当前R324/R340有理端口实际圆的8×12副本可选11个同基本Af点，g翻号对本局部列无影响；flux=ρj⁵pn(tj)，pn首项C*(−1)^n10!/(10−n)!≠0，准确Vandermonde付m≤11全R^m。更多对应点此模块恰Pol≤10及十一阶差商0，非全部响应的障碍，非同包任意不同点满射。沿R333原E商和全部原型/桥/基准作同一有限截面，(E,F1..Fm)(S)=E(U)×R^m；新全局几何保持实际profiles/芽，再用真正m*的同wc，wholeE/全部二次平台/11点flux联合。它与R343弱Gaussian圆不能未经证明合并。下一其它Af/形状/Ve/整包Ω/仿射尾、两个完整period成员与13同规范，不继续凭对应点数宣全period。
+[R435](results/R435-complete-local-self-currents-and-joint-actual-internal-flux-control.md)从原U_z=−(1−zx)²A_z⁴/3保真左常数推得全Af点F_z=A_z³(4A_z²−10z²uA_z−20(1−zx)⁴r²/3)/15。K0=−8r⁵/45；r0时K0…4盲而K5=1024p⁵非零，故每个真实单点可见，不授任意多点联合。
+
+同母/同宽/同基点的已有对应副本，r≠0≤11、r0≤6准确共同控制；全部K同时在kerJ⁺且全圆C=0。同一actual J⁺可追加这些H，保两次商/prototype/桥/Klein基准；要保另行C须先有完整(J⁺,C)实际截面或C(R∩kerJ⁺)=C(kerJ⁺)，不能拼两条路径。原完整三矩闭circle的首/末包cell使C经E因子化；八孤立α³差分包不自行付二次闭合。
+
+H*减原矩阵逆的K组合仍λ1且该有限组联合为0，故这组门不产生λ正障碍。所有其它根继续准确self像外商；更多对应点仅此K模块像为ρ⁵Pol≤10（r0≤5），不能扩大成全部R0限制。
 
 ### 完整period与同一w joint仍须真正求解
 
@@ -136,9 +140,6 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R394](results/R394-conditional-complete-period-and-finite-same-gauge-interface.md)在同一实际wholeE0与Λall0前提下：每个简单Af点保两组原有序partial flux和三矩suffix；全period iff这些真实点门0，含k′端germ、gap总积分归零、k值双collar及输出真仿射尾。gap修正的平台代价和m*的XΔ/Xfg进入原13rhs。sinθ准确付两seed，deg4实际矩阵/deg6rhs的Smith零行恒等与单位圆整除jets给全圆光滑iff；总局部整除重数≤52不含零行条件，非rank。R429已在共同合法窗口内实际支付所需有限total前提，内部flux/Ve/13门仍未联调。R395已核十一列本身属R71并全Λ0，R396/397已付准确actual增强；继续全joint和其它原period门，不重旧Vandermonde。
 
 
-### R402完整静态低层首条非零通量已付
-
-[R402](results/R402-complete-static-low-layer-natural-flux-with-original-potential-and-tails.md)：V*=[h⁻⁴]F0(h,0,0)∈原U，完整Λ=3∫(u′−xu″)⁴u‴/32≠0。原N0外槽/Γ、−b、formal pure、有序2+2与真左尾全保，primitive/μ0H最终消。它在Q4九维像的F方向，但不授全头延拓或M=T0负路径；C2/C4/C6零权已由R406结清；三Q2等其余完整函数仍可继续原收缩，不重闭Q4或旧E。
 
 
 ### R406完整自然正字符障碍已付：只转有限实际条件
