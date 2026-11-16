@@ -1,6 +1,6 @@
 {
   "format": "isp-exact-minimal-reconstruction-and-polynomial-projection-session-v1",
-  "rulesReadAtCommit": "bf89891c487f143317ade7f6b99f665b7b997957",
+  "rulesReadAtCommit": "affb502cd243104ea5eb3fb5e80520125a094069",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
@@ -1841,6 +1841,186 @@
       "paidLocalLowExitOrder": 2,
       "paidFullLengthUpper": 5,
       "noNewGainPrefilled": true
+    },
+    {
+      "id": "critical-plus-quadratic-tangent-two-positive-jets",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-quadratic-tangent-two-positive-jets-789f.py",
+      "scriptSHA256": "ae0b291dbcd88509044c2d4933782aa73d9717de73e476f9bb62b864f4aceaac",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+          "sha256": "30043fb3e263f861166f439c198af93bc10a69a8c5940acad42fe0429c3d86e6"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--low-generator",
+        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+        "--field-helper",
+        "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+        "--weak-driver",
+        "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+        "--field",
+        "plus",
+        "--parent-out",
+        "{work}/critical-plus-weak-quadratic-positive-jets",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-plus-weak-quadratic-positive-jets.json",
+        "--out",
+        "{work}/critical-plus-quadratic-tangent-two-positive-jets",
+        "--remaining-seconds",
+        "300",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 330,
+      "receiptPath": "{work}/critical-plus-quadratic-tangent-two-positive-jets/critical-quadratic-tangent-two-positive-jets-receipt.json",
+      "requires": [
+        "critical-plus-weak-quadratic-positive-jets"
+      ]
+    },
+    {
+      "id": "critical-minus-quadratic-tangent-two-positive-jets",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-quadratic-tangent-two-positive-jets-789f.py",
+      "scriptSHA256": "ae0b291dbcd88509044c2d4933782aa73d9717de73e476f9bb62b864f4aceaac",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-minus-weak-quadratic-positive-jets.json",
+          "sha256": "708cc521471fd10e493be27c206420ca34ef89db71a52791e3e0b5e21eb1954f"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--low-generator",
+        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+        "--field-helper",
+        "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+        "--weak-driver",
+        "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+        "--field",
+        "minus",
+        "--parent-out",
+        "{work}/critical-minus-weak-quadratic-positive-jets",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-minus-weak-quadratic-positive-jets.json",
+        "--out",
+        "{work}/critical-minus-quadratic-tangent-two-positive-jets",
+        "--remaining-seconds",
+        "300",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 330,
+      "receiptPath": "{work}/critical-minus-quadratic-tangent-two-positive-jets/critical-quadratic-tangent-two-positive-jets-receipt.json",
+      "requires": [
+        "critical-minus-weak-quadratic-positive-jets"
+      ]
+    },
+    {
+      "id": "critical-e8-quadratic-tangent-two-positive-jets",
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-quadratic-tangent-two-positive-jets-789f.py",
+      "scriptSHA256": "ae0b291dbcd88509044c2d4933782aa73d9717de73e476f9bb62b864f4aceaac",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "sha256": "2757b900480fe3bf1450100188df1679801351f0330d609e1a39b9c7ca146186"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "sha256": "2ebf418575df39ca2ed0a2165a37e92071c415b4734969c5bedc64e0b9ef4332"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "sha256": "4d215c80fa40d5f3548fd604e4ed77c6317db44b5b80518a03cf15e2ceeffa2f"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "sha256": "54f88bdbd926d38fb7a78fdaa1128f6bae96617461e4d2d4e4064736f6cf842c"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+          "sha256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/r150-source-kernel-session-789f/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+          "sha256": "8b17d7ffc4bc63f6a8d8d7be42df1767c8fe1088958e4a8745e394ef4898d211"
+        }
+      ],
+      "argv": [
+        "--generator",
+        "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+        "--jet-actions",
+        "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+        "--low-generator",
+        "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+        "--field-helper",
+        "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+        "--weak-driver",
+        "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+        "--field",
+        "e8",
+        "--parent-out",
+        "{work}/critical-e8-weak-quadratic-positive-jets",
+        "--parent-receipt",
+        "{scripts}/43756208221-critical-e8-weak-quadratic-positive-jets.json",
+        "--out",
+        "{work}/critical-e8-quadratic-tangent-two-positive-jets",
+        "--remaining-seconds",
+        "300",
+        "--memory-mib",
+        "2048"
+      ],
+      "timeoutSeconds": 330,
+      "receiptPath": "{work}/critical-e8-quadratic-tangent-two-positive-jets/critical-quadratic-tangent-two-positive-jets-receipt.json",
+      "requires": [
+        "critical-e8-weak-quadratic-positive-jets"
+      ]
     }
   ],
   "previousSession": {
@@ -1849,5 +2029,5 @@
     "knownOriginalStepsCompleted": 18,
     "restoreMethod": "Recompute only required original stages, retain new actual timing, restore only gzip timestamps and paid RREF duration metadata, require every full historical temporary-file and manifest SHA; no large input transfer."
   },
-  "mathematicalProgramStatus": "Ordinary complex Hilbert ISP remains open. Original affine torsion degree is bounded 278..299. Exact Omega127 matches Psi60 squared; complete J127=0. Complete original F127 nine-target module has dimension25 and minimal common annihilator mon(hstar), with actual nine hstar images zero. Queue exact critical weak-quadratic positive jets over Q(alpha) for plus, minus, e8; no gains or characteristic-zero membership prefilled. Independently prepare true coefficient127 Bockstein from original NF/GB source DAG. Large data stays temporary."
+  "mathematicalProgramStatus": "Ordinary complex Hilbert ISP remains open. All three complete weak-quadratic tangent<=1 slices completed with zero gain (original full lengths still bounded6..8,6..8,4..5; affine278..299). Continue exact complete quadratic tangent<=2 slices through the original full6188 equations, reusing each immutable actual25 unit and eleven low chains. No positive gain, mu=1 or characteristic-zero membership is prespecified. Independent coefficient127 global-source Bockstein is being prepared."
 }
