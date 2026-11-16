@@ -168,3 +168,5 @@
 - **R150原未乘31目标的四次参数来源与完整四参数检验（2026-11-16，已证明）：** [原全局H0和真实系数层证明](results/R150-appendix-original-hstar-fourth-parameter-annihilator-and-complete-four-scalar-test.md)以x²h*全17模p³证书给B_root1=0、x²B⊂p³T∩T[p]真七维，再以已付p³B=p⁴T和同指数块得x⁴B=0，九原目标均有无31分母来源费≤8515。I/K恰为四轴(p⁴,px,x²,x³)到S⁹的63×4共同核，K=(p⁵,p²x,px²,x⁴)；前两轴独立，后两读数未执行。小审0.331693秒/exit0，保26原H25系数及5040参数乘回，不重210，不声称四次最小。
 
 - **R271相邻创建来源的完整右配对及真正帽运输（2026-11-16，已证明）：** [完整h段与原全核证明](results/R271-appendix-adjacent-creation-actual-return-pair-and-true-hat-transport.md)对η⊥K_Q、支撑≤Q保<Rr,P_EYη>=<Ur,η_left>−<Jb r,Yη>，全配对≤||w||||η||。原相邻σ/α创建族满足此门，付3e8||w||Δ/x，外投影交换差付4e8||w||Δ/x；真E/逆伴随/帽E按原次序运输，裸端误差保留，帽费乘1+C0²。原主V⊥缺陷也被完整支付，剩同一PK_Qf的实际返回测试；不以小核投影或Bessel冒普通右费，N=M仍开。
+
+- **R150原高亏秩例外的完整自由35基及精确长度（2026-11-16，已证明）：** [同原对称矩阵的完整分辨率](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)给15→35→21→1，原余维≥3通过两次深度/无挠消去所有中间同调。完整HS=(1+3t+6t²+10t³+15t⁴)/(1−t)，将已付35原单项式生成严格升级为E[μ0]自由基；μ0=1的全部rank4例外代数恰35维且非空。纯代数证明复用原21系数unit，不称约化/35互异点，不关Bell1余关系或普通ISP。

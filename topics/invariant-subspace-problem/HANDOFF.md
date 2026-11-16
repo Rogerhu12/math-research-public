@@ -3,12 +3,12 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 10d77b6a3a68921151bac2a08a1d7a09e4993d74（2026-11-16 07:50:32 UTC，Actions run43826619337实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43826619337-1.json。
+- **最近成功实际 pull 与已读规则提交：** 9938b699f177ce18986f8425a7594d94604697bb（2026-11-16 07:54:06 UTC，Actions run43827051331实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43827051331-1.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。token仅CLI环境或已有Actions secret，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 2026-11-16约07:20共享executor失效（transport disconnected/environment_offline）；旧tmp目前不可读，未伪称新执行。最后本地实际push=42478da8ffbe5865cf63c24938e8eb0395c0c3c8。按根规则8/13，小文本经GitHub准备，实际pull/rebase/push转已有workflow；bot先前403，现用已有secrets.MR_TOKEN（无明文）。恢复run43824697306已实际pull/rebase并push007f073e成功；后续逐条仍按真实run和pull回执，API准备不算pull/push。
-- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-creation-return-pair-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
+- 完整前态、未列问题及来源保[最新H全文](notes/2026-11-16-handoff-before-exact-rank-four-length35-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及归档链；旧results/log完整归档。未列不算关闭。
 
 ## R150原rank-one：精确系数结果与接续
 
@@ -28,7 +28,9 @@
 - **[全局9×57及Bell基9×56完整表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)：** 真固定E逆T1⁻¹与两个零source literal边界给r_h=e_v1+Σc_a e_a∈原57关系模；kerP=S r_h，完整57列运输给coker=S/I，无参数逆/GL6补全/自由9。513矩阵坐标u≤1、1026原source实际u≤3，Bell原源−u1u4保留。实12.363秒/binding3299f05e，根全四双SHA/72精确E逆乘回/2889节点/3134组装门真。global-nine-actual；normal续原对称pencil的rank3核例外及真正Bell1判空。
 - [全56个原7×54临界图册](results/R150-appendix-complete-original-fifty-six-seven-generator-critical-charts.md)：原unit-basis 56 minors生成(y)³，覆盖全部Bell1并保rank3。真Schur δD−C adj(A)B及18×54原source、三消元图源全存，只倒各原δ，矩阵u≤1。v2实7.133秒/bindingad9efd97；根56双SHA/296156节点/21168次数及159600组装核真。首版失败保留，seven-charts-actual-v2。
 
-- **[原rank3完整关联与六次pencil](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)：** 完整六行T′(μ)y=0在概形层面等于原rank3退化，保原参数双逆与非零y尺度。全84真E六次系数/127线Rabin给E不可约；全225四minor给I4(T′)=(μ)^4，21五cofactor给rank4参数只在μ0≠0、完整长度≤35，各携整P1核。三阶段实127.391/10.488/0.00855秒，根全证明/三源码已读，未冒新执行。全部w/u及9×56余关系仍需判空，非绝对不可约/自由35。
+- **[原rank3完整关联与六次pencil](results/R150-appendix-original-rank-three-mean-incidence-and-complete-sextic-pencil.md)：** 完整六行T′(μ)y=0在概形层面等于原rank3退化，保原参数双逆与非零y尺度。全84真E六次系数/127线Rabin给E不可约；全225四minor给I4(T′)=(μ)^4，21五cofactor给rank4参数只在μ0≠0、完整长度≤35，各携整P1核。三阶段实127.391/10.488/0.00855秒，根全证明/三源码已读，未冒新执行。全部w/u及9×56余关系仍需判空，非绝对不可约；长度与自由基后继见下条。
+
+- **[原rank4例外恰长度35与完整自由基](results/R150-appendix-original-corank-two-pencil-exception-algebra-has-free-rank-thirty-five.md)：** S=E[μ4],I=I5(T′)，原21unit使S/I由μ1..3次数≤4的35项在E[μ0]上生成、htI≥3。真对称复形Y↦YA、X↦AX+XᵀA、B↦tr(adj(A)B)在I外秩15/20/1；两次深度/无挠论证给完整15→35→21→1分辨率。HS=(1+3t+6t²+10t³+15t4)/(1−t)，故35原项真自由基，μ0=1完整代数恰35维且非空。纯证明复用已付系数门，无新计算；仍不称约化/35互异点，保完整Bell余关系。
 
 ## R271完整原源与真实投影返回
 
