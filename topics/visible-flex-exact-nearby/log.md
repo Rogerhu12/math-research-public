@@ -368,3 +368,7 @@ WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21�
 ### 2026-11-16 06:44:36 UTC — one dense-s3 report cleanup whitelist
 
 先独推74153f2f白名单，仅列716317B s3派生浮点诊断JSON；完整9小证据/当前typed清单核了正确budget producer、canonical weights与native链，SHA诚实来自原20554B inventory，未读大body。restore becfaf同path已server metadata核b08d0784/716317，原全部sampled/native通过与失败、exit137及canonical数据保；待freshguard普通删。README于ae2e0a767532aa6137cfdf984b9bb51da98a0bc8两blob无变。
+
+### 2026-11-16 06:45:20 UTC — ordinary one-report removal
+
+白名单d6c5a678已先推；fresh current metadata精确核b08d0784/716317B后，普通删除唯一dense-s3派生诊断JSON，restore becfaf同path与原SHA全保。未读大body、未动canonical权/原native/失败/成功/证据，旧数学0。README于d6c5a678ba58db383e9301d80a2b6d6b73403c9a两blob无变；容量供WGS双完整科学文件及后继新图。
