@@ -40,7 +40,9 @@ R460以H′=pG″支付simple-p无留数；真实Lf range仍保Af/platform/total
 
 [R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)：同共同合法窗口，**h∈span(y)已iff完整Jaff实际有限C1截面**。余商非零时y系数≠0，真collar logh=logh0+εaχ，ΔM=O_C1(ε)，独立R70前缀先精确补整M0，再WW^R使T0。原完整action导数4ya∫χ″²/ε+O(ε)≠0；ε固定有限，全部新块基准入严格正整数配平，真实仿射桥/两次商校正/最后响应收缩不删。可把R467取得J截面的条件降为共同关系；其余vertical/保护芽/同13门前提仍保，所有其它s段与主几何门未付。
 
-[四self首次完整观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)：run43819806568/job133140037524/source fe9569f7…成功，85原记录。两补响应/XY各17局部项，XH29项含12真实积分字、0高jet/0p分母；四全current0，标量45/2288、7/143、0、0。XH左n2与同四约束母范围保留，不能判NONMEMBER。新10.657551444+原失败5.033211667=同180秒累计15.690763111；0旧Q/member/rank/dev重跑。立即消费三旧self/四新self的共同母与h∈span(y)关系，不重恢复/收缩。
+[四self首次完整观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)：run43819806568/job133140037524/source fe9569f7…成功，85原记录。两补响应/XY各17局部项，XH29项含12真实积分字、0高jet/0p分母；四全current0，标量45/2288、7/143、0、0。XH左n2与同四约束母范围保留，不能判NONMEMBER。新10.657551444+原失败5.033211667=同180秒累计15.690763111；0旧Q/member/rank/dev重跑；R470已消费局部三维像，继续真实cap联合关系。
+
+[R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)：两新响应self分别136V51/39−17V52/39−K8/3870720、2056V51/351−140V52/351−11K8/17418240，故五维K0完整Af像仍恰三维。XY三pivot后余R/1152，真h,s>0使x5系数−2s(2s²+17h)<0，**y≠0**。XH十二词精确为原Ln2截断积分；真cap给degree≤7的A(x)，继续判P_H+A∈span{三响应,XY}，全n2=0不能删partial。
 
 actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 

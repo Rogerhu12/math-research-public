@@ -404,3 +404,7 @@
 ## 四个完整权零 self 首次观察
 
 [原始观察与全部来源](notes/weight-zero-four-complete-self-first-observation-20261116.md)（8278B；SHA256 `0d6737daf342ff77215d096e942485d77bb83757245e1d4dcbd66869c892516f`）。run43819806568/job133140037524/source fe9569f7…成功，85原记录；两补响应和XY各17局部项，XH29项含12真实积分字，四全current0、无高外jet/p分母。保原n2左常数及同四约束母范围，不宣固定母非成员。新10.657551444+原5.033211667=同180累计15.690763111秒，0旧Q/member/rank/dev复跑；继续同一商h∈span(y)。
+
+## R470｜完整权零响应 self 三维像与第二头严格非零
+
+[R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)（12565B；SHA256 `bc51ed386a75d8eb6f1933a7b0db39c18d3afb48f86931820ef0f291473c12f8`）。消费85原记录，两个补响应的完整Af self均在旧K8/V51/V52像，五维成本核的self像恰三维；完整17单项表及两组精确有理关系保原稿。XY由x8/x7/x0唯一投影后六项余式的x5严格负，故真cap h,s>0上y≠0。XH十二非局部词恰原Ln2的真实左截断积分，化为同cap degree≤7多项式但不置零，准确剩下联合h∈span(y)。0新执行，根全文消费纸证；未宣满锥失败或主完成。

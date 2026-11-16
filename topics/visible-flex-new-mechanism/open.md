@@ -179,3 +179,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 ### R468：满锥条件已给实际完整截面，继续共同关系与全段
 
 [R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)（29166B；SHA256 176eb93b7cce398fee3a2109f7ce8edf6315f90feea56244a3b455f7cc3aca9e）用真实高度脉冲、独立八矩前缀及整块真倒行，给余商唯一非零头的非零参数导数；固定有限ε后将全基准加入正整数配平，保两次商校正/桥/原型，得到同Jaff actual C1 iff h∈span(y)。这只替换R467的取得J截面接口，不提前宣四self共同关系或其它s段ruling、结构、高阶与主几何门。
+
+### R470：完整响应self仍三维，y严格非零；继续真实cap第一头
+
+[R470](results/R470-complete-weight-zero-response-self-image-and-nonzero-second-affine-head.md)（12565B；SHA256 bc51ed386a75d8eb6f1933a7b0db39c18d3afb48f86931820ef0f291473c12f8）给两新响应完整17项恒等，S(K0)=span{K8,V51,V52}恰三维。XY经x8/x7/x0三角投影的六项余式，其x5=−2s(2s²+17h)<0，故当前共同cap上y≠0。XH十二词恰真Ln2截断积分A(x)，degree≤7但由同固定cap积分决定，不可自由选系数或因全n2零删去。下一判同一P_H+A∈span{三响应,XY}；若成比例R468仍给actual，不以单独非成员停止。其它s段同规范/主几何门继续。
