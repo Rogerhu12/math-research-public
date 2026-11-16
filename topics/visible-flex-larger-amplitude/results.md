@@ -157,3 +157,5 @@
 - **R590**：[actual246 来源完成、原科学exit1与双必要超限](results/R590-actual246-source-complete-scientific-exit-and-necessary-overflows.md)：451源/恢复true、外层quiet事件true；454913及150098完整正文未返、双70、removed=false；两原log各一次，内层原因未知。
 
 - **R560**：[actual235 完整采样及准确参数/闭面配方绑定停止](results/R560-actual235-complete-sampling-and-accurate-parameter-binding-stops.md)：545源、全112传播/13850点完成，C2609工作分辨率责任保；BVP与closed工程边界停、全部必要≤90K完整、真实quiet后清raw。
+
+- **R615 / request253**：[同engine归一化六moment的完整owner12000入口与接口](results/R615-same-engine-normalized-moment-complete-owner12000-entry.md)：原466全保、480当前来源、真实单套R611表与原完整AT，原全数学/clock/必要门保持；实际终态预留R614。

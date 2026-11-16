@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**R615/request253（独立完整入口，本次刊后唯一派发）**：[完整证明和CLI](results/R615-same-engine-normalized-moment-complete-owner12000-entry.md)，七件topic135879B，全部480=370public+110generated，原250全部466对保。真实新flow/factory仅一套R611表，原root-momentum路径仍受原capacity loader；当前完整J、原R602/R523 AT、226×224/两mean/RK顺序和原当前H/R532/四components/FD/fullDN/freshaudit不变。完整8+14统计、safe-integer范围、已保存/未保存位置、双必要whole90000/70及原cleanup保；parent250 actual未消费为数值父，12000/19200原合同保。R614只在未来实际终态给run/head/job/值；本条无提速、fit或接受预填。
+
 **R560（实际235，本次独立刊）**：[完整结论](results/R560-actual235-complete-sampling-and-accurate-parameter-binding-stops.md)。545全源/九层248生成完成，C全自然粗界有效但2609数值工作分辨率片段未付；完整十参数域、112深尾/有限far联合代表、13850点和16128出现均完。BVP1.799s在准确有理串float转词报错，453/450未起；closed旧recipe名缺失，而真实coast配方存在；原15refinement/8sameC角色完整未起责任保。generation86540/composition86886/rules87369/BVP82642/refinement66187/sameC50648等原独立必要全部完整，原quiescence重核后17:27:40.076Z实清raw。R599已修两源码边界，此次不重派旧235；大logconnector整读偏差如实入文/H，后续只Actions一次+完整scope小回读，原科学事实不变。
 
 **R590（实际246，本次独立刊）**：[完整结论](results/R590-actual246-source-complete-scientific-exit-and-necessary-overflows.md)。451源与原63/78/91恢复实际完成，原科学外层/rules/science均1，signal/stopnull，ownedquiet事件true；两终态log各由公开Actions一次读取，全10event及双描述返。完整source454913/be88aa4e及science150098/2d0cbfb4未返，分别1802/61b6f07b和1094/bf7997c5/70，cleanup removed=false。R589overflow分支固定source_preparation_complete=false不覆盖原prepare true，report success不覆盖双70。内层RootStats/H/J/FD/fullDN/error仍未知，不能推owner6000耗尽或数学失败；原246不重派，后继保具名完整同体关系与原90K。

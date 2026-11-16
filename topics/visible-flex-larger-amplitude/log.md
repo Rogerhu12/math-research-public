@@ -257,3 +257,7 @@ open§1.3旧全文固定4cc33b31，§1.1/1.2及§2–6原字保；R598已刊、R
 ## 2026-11-16 17:46 UTC /root — R560 actual235 全采样与必要完成、准确参数及配方绑定停止
 
 结论：R560实际235完整31805/4993361f；全545源/112deep+far/13850点完成，C2609工作分辨率未付；BVP float(n/d)与closed旧recipe名停止，453/450及后继未起。全部独立必要≤90000完整，17:27:40.076Z真quiet后清raw；R599既有修复不重复。作者两大logconnector整读偏差如实补文/H，后续Actions一次+独立完整scope小report；完成即独立普通推。
+
+## 2026-11-16 17:50 UTC /root — R615 request253 同engine归一化moment完整owner12000入口
+
+结论：R615/request253七件已完整，topic135879/根workflow26196；实际单套R611表接原250全调用链，480=370+110/原466全保，原AT/两mean/H/J/FD/fullDN/全部末门与12000/19200不改。原8+14累计统计及safe整数/未保存范围、双90K/70和quiet保，未执行数值或提速预填。本次改根workflow用于公开本仓库正式计算，普通推成功后唯一dispatch，R614由amplitude唯一终态。
