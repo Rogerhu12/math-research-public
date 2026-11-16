@@ -346,3 +346,6 @@
 
 
 - **R459：一个共同signed成本清同宽库全角色内部通量，仍保λ1。** [完整真协变、权零lift及共同self右逆](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)（20003B/SHAdd1e3b8649815c18694d9c1738409a532bc0a791306cbfc6b44cbaa9f2e8c480）。全currentH^-1输运、全R/kerE稳定使R457自然D0可取同权0全C补偿；self≤8与共同最高项经真实同μcap路径、R448一个W支付全部最终微包/角色/复制的两Af×d,e门。V#保J⁺0/λ1/Λ=n2，最终可混权；从起点同宽，不授全H闭包或positive实际/真range/13规范，0新执行。
+
+
+- **R460：多简单p点自动无留数，完整光滑period只余原Af与端部门。** [精确Hadamard式与全包同锚拼接](results/R460-automatic-simple-critical-point-residues-and-complete-smooth-period-gluing.md)（16177B/SHAd0450963447a3621bdc5a297481addd271a71f18ee01c66035294503d1740045）。H′=pG″使simple-p双极无simplepole，真实k′=H/(2r³)可非零；跨点同一C/不增核，低C²目标在A≠0有C³逆。一般smooth range保Af/平台/totals/两germ，gap调∫k′与原右锚分别付；R455 canonical E/totals0下恰原每包四Af门。原incoming XD和平台调整保同13行rhs；signed range不授actual成本或规范，0新执行。

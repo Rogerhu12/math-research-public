@@ -52,17 +52,17 @@ R259–324原面积/有序history/完整self、R208–227实际pure与有限观�
 
 R383原有限表保留，但R387/388完整正余量已阻断原Gaussian同芽连续C²首阶轨道；不排高阶才动/其它芽/一般C²面。R378/381/382撤回旧H非零和7–13秩。R390两Λ、R392响应P_LE⊕R²实际控制保完整基准，未授wholeE/同g或全部规范。原证明/费用及详细边界见[已付背景](notes/open-paid-background-through-R443-20261116.md)和各结果，不重跑；当前继续J⁺/全部内部门。
 
-### R437–R450：最高规范、真period逆与新宏库
+### R437–R450/R460：真period范围与同一规范
 
-R437给P2θ=κell_f/24，ell杀全kerLf；原13rank≤12/余底≤9仅上界，齐次规范不能改真特解类。R442保同锚/简单p根双极有限部分、全部Af除法和原exp端条件；有限部分存在不替range，D_path与P2也未证等价。完整来源见各结果。
+R437最高P2θ=κell_f/24杀全kerLf，13rank≤12/余底≤9只是上界。R442完整有限部分与原简单p根/exp端、所有边项均保；D_path与P2未证等价。R444八hook=2Lf(XD)保J⁺/partial/C/三合法矩，原12差分e=0；R445 d(Bε)=d(Y)=0。R447同初选q4/F★/外cap以20真目标给(V19,dP)=(0,η)，η可非零，旧冻结母不移植。
 
-R444原8hook为2Lf(XD)，whole三矩给XD紧，保J⁺/全部partial/C及3合法矩；变最高值(−d/τ,e/τ)。原12四次g翻号对这些列及incoming给e=0；R445已付d(Bε)=d(Y)=0。R447从起点在同q4/F★/外Af根库解(V19,dP)=(0,η)，η任意有限且可非零；不称旧冻结母已有此值。其原20正核、restricted max-F、有限N全部是真完整方程，非只principal。
+[R450](results/R450-seventeen-degree-true-inverse-and-exact-second-period-macro-cancellation.md)全Σ(U−9)=0、权[-9,3]使self/2+2位置≤11。必须同最终V/F/G的12真中心已在range，才由Vandermonde选紧逆≤11；ell六次权使e≤17。旧11差分余≤6，新初选外8宏四次幅/g翻号作18差分清完整e；保F_rat所有0…10系数、每宏R/T三矩，全新基准入b_new。它以同最终成本真range为前提，不重用其它母/成本收据。
 
-[R450](results/R450-seventeen-degree-true-inverse-and-exact-second-period-macro-cancellation.md)以完整Σ(U−9)=0和U权[-9,3]给整个self/2+2平移≤11，未把Σ(U−8)设零。原T三矩闭合准确消跨完整base第二源，Lf二导局部性+预留gap延拓给总range iff逐base真range。对同最终V/F/G的12真实不同中心入像，用一次有限Vandermonde选紧逆多项式≤11；ell的7完整权W0…W6再给e≤17。当前11差分仅留下≤6宏多项式，七余式完整且不判独立/零。
+[R460](results/R460-automatic-simple-critical-point-residues-and-complete-smooth-period-gluing.md)支付R455多峰光滑母的全部simple-p接口：p=za、w=H/A、H′=pG″迫(w/a²)′(0)=0，故H/(Ap²)=β0/z²+b∞，完整逆k′=−aβ0+za(C+∫b)光滑，k′(p0)=H/(2r³)，无需H(p0)=0。跨点k″匹配唯一C；多个简单p点不增加kerLf。C² forcing在A非零处同样有C³逆，但不把低正则擅穿simple-A除法。
 
-新分支从起点纳原12外的8宏g翻号、幅Γ_k=binom(7,k)^(1/4)和全部合法间隙，11+7=18差分准确清完整最终V的最高e（仍以其真range为前提）。同一新20目标由正平移算子保持主行/正核；F_rat的完整0…10系数和逐宏R/T三矩保全角，所有新增低阶真基准只须为连续C²余式并进入b_new，有限N全方程付。不假全宏同B0，也不冻结每个新基准。
+一般光滑全range保全部Af partial、平台G″0、包总通量、两真平端germ；再用gap调∫k′实现k两collar0，原右锚消全局affine差。gap调节会改变活动包平台值，必须进同13行rhs。当前canonical wholeE/有限actual totals0且原解析cap不变时，端germ已付，故range恰每包两Af×d,e四partial0；原incoming XD在Af门为0，在p点逆值及规范配对仍真实存在。
 
-下一必须对新最终母与actual成本付全部range/内部Af/禁止极点/平台端germ；改母或成本后旧12收据不能移植。真range之后e自动0，signed B_PH可调d而保原range/partial/C；把d和全部余9端口行、其它s段升为同一个actual增强仍须全原型×n/桥/Klein基准。继续完整joint，不把新复制当period存在证明。
+R459的同宽signedV#满足这四门，可在固定τ/history下接两period真光滑特解；仍未成为actual成本。继续实际正锥/全H查询以及同一最高d/e与余9端口系统、秩降整除/全相位seed/其它s段；不能把各门独立截面相加。
 
 ### R389：有理端口两period的真实整包通量与全部零端germ
 

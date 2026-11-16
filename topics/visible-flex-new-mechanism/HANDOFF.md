@@ -30,7 +30,7 @@ R443已付53完整self五次local/无分母高jet，像38/核15、K11合49；旧
 
 R456同宽全部角色DkerEval=Pol≤4、商恰D5/D6；R458两实际宽各三末low/≥8copy才另检D4。[R459](results/R459-one-common-signed-witness-for-all-internal-fluxes-of-the-equal-width-library.md)从起点共同w0、R455唯一镜对：全current真协变H^-1且全R/kerE稳定，13个近1正H的有号Π0把R457的D0 lift成权0全C0的V0。任意V0 self≤8且两镜最高项共同，R407真实μ路径转全部最终母cap，R448同一个W匹配完整双多项式，得到V#=H*+J4−R_C−W：J⁺/formalC/所有微包两Af×d,e门全0、λ1、Λ=n2。最终可混权；仅同宽signed核，不授全H查询闭包/actual正锥/range/13规范，续这些门。
 
-R437原P2θ=κell_f/24杀全kerLf，13rank≤12/余底≤9仅上界。R442真Lf像的有限部分/原简单p根/exp端保全部边项，不以有限部分替range；D_path与P2未证等价。R444八hook=2Lf(XD)保J⁺/partial/C/三合法矩；原12差分e=0，R445 d(Bε)=d(Y)=0。R447 η≠0给signed最高d轴，actual增强仍欠。
+R437原P2θ=κell_f/24杀全kerLf，13rank≤12/余底≤9仅上界。R442全部同锚/有限部分/exp端保留；[R460](results/R460-automatic-simple-critical-point-residues-and-complete-smooth-period-gluing.md)由H′=pG″给简单p0处H/(Ap²)=β0/z²+光滑项、无simplepole，k′=H/(2r³)，跨点k″匹配同一C，不新增核参数。一般光滑range iff全部Af partial/平台/总通量/两平端germ，再gap修正∫k′并用右锚灭affine差；R455 canonical E/totals0下只余每包两Af×d,e四门。原incoming XD对p点逆值/13行rhs保留，gap修正非盲。R459 signed因此可接真range但actual实现/同规范仍欠。R444八hook为2Lf(XD)，R445 d(Bε)=d(Y)=0；R447 η≠0给signed最高d轴。
 
 R450整个U的self/2+2位置≤11；同最终V/F/G的12真中心已入range时选紧逆≤11，ell六权使最高e≤17。旧11差分余≤6，新初选外8宏四次幅/g翻号以18差分清e，保完整F_rat/每宏三矩；新全部基准入b_new由同20目标付。必须先付同最终母/actual成本的全range、内部Af/禁止极点/平台germ，不能移植旧range。R449只付8hook独立及144真像≥137/核≤7、K11增广≥148，不作全R分类。
 
@@ -48,4 +48,4 @@ R450整个U的self/2+2位置≤11；同最终V/F/G的12真中心已入range时�
 
 ## 5. 当前工作
 
-本提交启动true53唯一公共Actions，先消费其原开发/完整模型/分离/实际门/FINAL_CLOCK，再按真实结果继续下一不同子问题；不重复该有界任务。R459已付同一个全角色C/self signed核；理论继续全H查询闭包或实际正锥、两period/余9接口，同宽不冒全缩放。R455唯一根母与R450真range后清e继续保留，所有主完成门仍欠。继续open，不以阶段/预算/时长结束。
+本提交启动true53唯一公共Actions，先消费其原开发/完整模型/分离/实际门/FINAL_CLOCK，再按真实结果继续下一不同子问题；不重复该有界任务。R459已付同一个全角色C/self signed核；理论继续全H查询闭包或实际正锥、已明确真range后的余9接口，同宽不冒全缩放。R455唯一根母与R450真range后清e继续保留，所有主完成门仍欠。继续open，不以阶段/预算/时长结束。
