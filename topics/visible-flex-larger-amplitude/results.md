@@ -486,6 +486,8 @@
 
 ## 2026-11-16 — Request210真实源码视图与零通量接线
 
+**后续R472补正：154项是已声明绑定集合；真实递归导入缺件，不能视为全链闭合。**
+
 **源码组成与条件接口已完成；尚无210数值运行。** [210完整接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)的生成器15871B/d07ec010、字面计划35215B/bc167385、配方13544B/67d7db28和接口25628B/577f8fec经全部源码、11视图完整delta、原208入口差异全文核后刊。保原140pins，加R471两源及生成器为143，实际11视图共154；旧源逐字复制，只由完整baseline/有序literal计数/新全文SHA生成真实private HERE，显式保真实GITHUB_WORKSPACE及原sourceRoot，PYTHONPATH/全部导入/receipt同场。302827B生成视图只在临时目录，不重复入Git。原actual119六词/λ=.001/699节点、18000秒/330step/350job、224方向/226双mean/338×112及所有原门不变；原finiteRootDirection先完整执行，R471仅在真实资格成立后省零flux角循环，false原路径、throw不捕获。必要真实计数/未完成地址、单90KB/超70与owner/rules-parent quiet后清理保持；源生成未完成不造receipt/科学摘要、不提前删临时现场。最终report两边界与compute同名，request/workflow另次推；R472由exact唯一终态，不预付接受、速度或README完成。
 
 
@@ -507,3 +509,8 @@
 ## R440 — 实际203全far完成与物理采样资源停止
 
 **实际203：全112 far/nominal行完成；物理采样资源partial，无BVP。** [R440](results/R440-actual203-complete112-far-and-physical-point-sampling-work-stop.md)31298B/aabe16f3全文核后刊，run43790929300/source557b1d47、compute133048929054/report133098221382；两原日志各唯一读取。C1440/六primitive与whole闭域完整，2609合法coarse工作未决非漏域；初始十词准确域1846passed/3273processed，无pending。全部112真实far及112 joint nominal行形成（不冒共同准确C实现），linear2044754/25000000 work、5611.207128034999秒。采样1000000/1000000 work、322.25932238300084秒停，3完整unique point、499931叶（499929coarse），0stage field occurrence；非域/试步拒。必要selector漏首point半径/role/全pending闭片段/已留leaf范围，虽原2740B两行曾写并parse，正文未回传且raw已清，不能凭SHA或循环次序补值。两个BVP/338×112/FD/fullDN/450/闭面均未起。七类必要摘要及owner/rules真实quiet后确清，约96.8GB仅归属hash非独立逐值审计；原先前阶段仅startup clipping不冒覆盖setup的硬总钟。新实验须fresh完整采样/全far及补必要字段，不能从partial造接受父，其他run不据此预填失败。
+
+
+## R472 — 实际210在native前的递归导入缺口
+
+**实际210：已声明154项生成/绑定完成，真实递归导入缺件，科学未起。** [R472](results/R472-actual210-private-import-closure-failure-before-native.md)11929B/3558c333及完整原错误1148B/21833cf5已读；run43807229341/sourceb418c6e6，compute133100660526 failure、report133100882919 success。私有full112 runtime导入physical_test_response，第29行需缺失的lifted_modes_response，1.0332460349999906秒返回1，预算未耗。native/H/初猜/currentJ/224方向/R273/FD/fullDN/最终结果未起或null，trial0，不是数学拒绝、R471资格false或性能测量。必要16973B/e299e3cb两job逐字同；真实自有组与rules-parent quiet后removed=true。同步补正[210接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)：143公开+11view仅是声明身份集合，并非完整递归导入证明。原科学文件冻结不改；211须补原依赖全字节/真实HERE，不靠未绑定目录旁路，不增fixture或门。

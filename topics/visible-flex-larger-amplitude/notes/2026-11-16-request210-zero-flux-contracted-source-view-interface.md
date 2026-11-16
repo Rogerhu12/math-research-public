@@ -2,7 +2,7 @@
 
 作者：ChatGPT（AI 助手，源码与数学范围说明）。  
 日期：2026-11-16。  
-状态：本文件描述已写成的独立公开 Actions 入口；本地只做源码文本构造、逐文件字节身份和原调用接口阅读，没有导入、执行、AST、编译、测试或科学求值。Request210 的科学结果尚未产生。主控唯一发布 Git/ref 并触发新请求，实际结论预留 R472。
+状态补正：[R472实际终态](../results/R472-actual210-private-import-closure-failure-before-native.md)已确认 source b418c6e6e5428be5774917210878c41b4245fdf0 / run43807229341 的143公开文件复制、11视图生成及154项声明身份绑定完成，但原physical_test_response递归导入的geometry_20261114_lifted_modes_response未列入私有集合，科学进程在runtime导入期以ModuleNotFoundError返回1，elapsed1.0332460349999906秒；native/H/J/R273/FD/fullDN未起。本文原“完整源码闭包”措辞仅能指已声明身份集合，不能再解释为实际完整递归导入已付。原科学五件与生成视图保持冻结字节；本次只补正说明。16,973B/e299e3cb必要正文两job同字，quiet后removed=true。补齐真实递归来源在独立211完成，不回填210。
 
 ## 1. 本次完成的实际接线
 
@@ -102,7 +102,7 @@ root_20261116_zero_flux_contracted_source_views.py
 
 新 protocol base 有一个真实必要修正：原 `REPO = HERE.parents[2]` 在私有目录会指错，因此新视图显式使用 `Path(os.environ['GITHUB_WORKSPACE']).resolve()`。其 `public_asset` 的安全相对路径、原 Git 读取和完整身份规则不放宽。当前四输入、base config 和两 ready 仍按原合同显式给入。
 
-原 family/prepare/fullDN 的相邻源检查实际走它们自己的 `HERE`；完整公开 source 闭包已经复制到同一私有目录。新 full112、client、hook、system、QR、height、loader 和 flow 都以新独立 basename 真正加载，不存在只在 receipt 上改来源名的转发。
+原 family/prepare/fullDN 的相邻源检查实际走它们自己的 `HERE`；声明的143份公开source已复制到同一私有目录；R472确认其中仍漏原physical response递归依赖，不能称完整可执行闭包。新 full112、client、hook、system、QR、height、loader 和 flow 都以新独立 basename 真正加载，不存在只在 receipt 上改来源名的转发。
 
 原 loader 的 sourceRoot/topic 仍是被恢复的原求根/分裂源码。它保留原 exact capacity/observer splice 和逆向恢复检查，随后明确导入新的私有 flow。新 hook 逐个核 loader/flow/variation/R466 helper/**R471 helper** 的实际 SHA。新 full/client 的真实 PINS 同样包含 R471 helper。
 
@@ -247,7 +247,7 @@ lambda 0.001
 - 对11个view，原完整base + 有序literal替换及计数 + 完整新输出SHA决定唯一源文本。
 - 生成器、sourceplan、recipe/request/workflow分别有独立完整身份，真实运行不借未知中间稿。
 - 新科学正文来自已发表R471两源；R466原helper仍固定 SHA256 2592a0a56433ca0bdd0d2f28b5a8de2c580b00e4a4a60d2ccecdd7849104fe59 的原字节。
-- 当前 full112→protocol→Node capacity→finite-trace loader→flow→R471variation→原helper/source 的实际导入路径闭合；原源码恢复仍是真实repo/source-root，不伪搬其仓库身份。
+- 已列 full112→protocol→Node capacity→finite-trace loader→flow→R471variation→原helper/source 的名称/身份组成仍保；R472实际在更早的原physical response递归导入失败，故全链实际导入闭合未付。原源码恢复仍是真实repo/source-root，不伪搬其仓库身份。
 - R471提供局部资格分支条件证明；R465/R466继续限定名义切向/因子缺陷范围。它们不提供新 native结果、连续闭面、全误差界或性能结果。
 
 源码、所有baseline完整差异和参数文本已完成；本地没有执行生成器，也没有运行其生成模块。主控对源码的必要阅读不构成另一次科学 gate。未来 Actions原正常语法通过后直接进入原完整计算，不另建fixture、对拍或审核步骤。
