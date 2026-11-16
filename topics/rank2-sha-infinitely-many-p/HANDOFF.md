@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：df1e7c4e80f802a638de20ea8b75f4464597835a；2026-11-16 16:46:04 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 16:36:18 UTC/3086204af188e0a552af80e01b3e2cbeb277f8e5（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:20 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：60a8e49fae1fe91c186f8614806a637447cf8ef3；2026-11-16 16:55:23 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 16:36:18 UTC/3086204af188e0a552af80e01b3e2cbeb277f8e5（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 17:20 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-first-F-map-PASS.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–909已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-rr-subresultant.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–910已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低配对及原p²边界，literature续双新增广specialization/原s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -22,9 +22,9 @@ root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低�
 - 旧P/F取消日志保完整H及R898/R904：P排权4比值/条件函数次数≥324；F排权8/2比值，附A付权6极除子≥180/dF≥1080。旧多素数均无PASS。
 - R889同原Newton已证，run43883945027的P/F仍运行；R892同完整PARI基已证，run43888054599的P/F仍运行。各job/source见最新完整H，无PASS。
 
-- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常结束：三嵌入rank904/free863及全部1226行modℓ¹²⁸均过，3827bits不足有理恢复，无map PASS；同ℓ1000000033/N256/k6续轮run43901392214/job133418654415运行，source7ef59c0d。
+- R899首N128三嵌入全行过但3827bits恢复不足；P256续轮run43901392214/job133418654415/source7ef59c0d运行，原全证书保，无PASS。
 
-- [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)同原P另请求小素数精确矩阵与512→1024续接；CI选合格素数，原全行/char0证书保持，run43903661921/job133426625444运行，source92c23e42；无PASS。旧P256继续。
+- R906同原P小素数512→1024续接run43903661921/job133426625444/source92c23e42运行，原全行/char0门保持，无PASS。
 
 - R905原Sage基N256已恢复QQ/过短支，6123项扩展后exit137，身份/hash见R905§7；被R909完整F证书接续。
 
@@ -35,7 +35,8 @@ R881 r29局部19/12位及τ仅formal；R882原18源/36cusps/绝对端点/D204保
 - fricke24 run43860032290/job133274126644。
 - tate24 run43865460680/job133292732291。
 - tate19 run43866568746/job133296518979。
-degree24属37/全Atkin属19的完整RR和at^m回DS、原U-GCD/两Atkin/所有边界不变。直接Newton/Padé参数q8000/t330、q4500/ξ170见R882D/E，无RR PASS。
+degree24属37/全Atkin属19的完整RR和at^m回DS、原U/两Atkin/所有边界不变。直接Newton/Padé参数q8000/t330、q4500/ξ170见R882D/E，无RR PASS。
+R910已证完整可分特化/线性子结式唯一U恢复；新同tate19 request保全部四RR块与205行，实际run待取，无PASS。源码/参数见R910；不预报加速。
 
 R880/883全18×9、双轴、四除子/真A,C/dF成本均保完整H；Norm含ell²点run43870209568已通过。consumer的F已付，仍需原P与RR PASS及全部依赖/source/hash；无请求/输出，PARI不可跨基消费。
 

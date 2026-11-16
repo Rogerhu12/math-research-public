@@ -159,3 +159,5 @@ R840须用同Kcorr/Hcorr支付两个高前缀，再用同F²L1付第三3η/第�
 完整目标尚未达到。每条完整证明立即推；每次实际pull核两README差异、只读变更并记已读提交，至少每小时。只在公开Actions作数学执行；脚本/参数/run/hash入库，重算输出不存。主目标完成前持续接续。
 
 R907§6.1：若第四短窗L>h，实际相邻后继先迫a(G)=0；原全charge单位投影给K∞=0及∩_{j=0}^{3b}T^{-j}K=0。只排完整共同测试，不排单个非稳定K元素，仍需原forcing提供真实后继。
+
+[R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。

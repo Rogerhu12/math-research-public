@@ -27,3 +27,7 @@
 - [R908](../results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。
 
 - [R909 §7](../results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：原F17实际映射已认证：公开run43906594646在ℓ1000003/N512完成完整1429行、QQ、同PARI高基及原权60全部0..6120恒等式；原微分/∞点与全部角色保持，dF≥1080。完整result hash5193c929…4831f；未认P/RR或原shadow已付。
+
+- [R907 §6.1](../results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：L>h时实际相邻后继迫修正a=0，全charge单位投影给K∞=0及0..3b共同测试核零；不排单个非稳定K。
+
+- [R910](../results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。

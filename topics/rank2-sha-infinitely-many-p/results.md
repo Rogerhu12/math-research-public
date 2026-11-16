@@ -344,3 +344,5 @@
 - [R887 §19](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原二因子减P2幂的第六Gaussian块已准确支付：e_a,p=c_a(p)+(1−a)κ5 c_a(s)，原连接误差完整求和为零；四实际差由同f_<p低卷积L3/L(n−3)和s行M给出，共同c2(p)严格消去。仍仅modp首缺陷，不替R699两位边界或四中央非零。
 
 - [R909 §7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：原F17实际映射已认证：公开run43906594646在ℓ1000003/N512完成完整1429行、QQ、同PARI高基及原权60全部0..6120恒等式；原微分/∞点与全部角色保持，dF≥1080。完整result hash5193c929…4831f；未认P/RR或原shadow已付。
+
+- [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)：保持全次数的一个无重根特化严格认证泛型可分；原两Phi17的线性子结式经非零首项唯一恢复同U，整eta分母求值后复核两完整关系。新同tate19 producer保全四RR块/两Atkin/205行及DS返回，仅替换已定位gcd卡点；实际新run尚未取得PASS。
