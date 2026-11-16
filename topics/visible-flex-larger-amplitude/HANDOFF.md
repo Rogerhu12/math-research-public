@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 16:48:04 UTC root委托本公开仓库Actions run43911450450真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c0c5787ecea759384d3e42b50a25acd820aa2452。
+规则同步记录：2026-11-16 16:51:55 UTC root委托本公开仓库Actions run43912012282真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9dfc7348e31a4467d392000fa83ba69f19e514be。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -43,9 +43,9 @@
 
 ## 当前固定历史与已发表结论
 
-本次改写前全部原词逐字保[570970ec固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/570970ec37b734179216dbc688018bbe2252bb49/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/570970ec37b734179216dbc688018bbe2252bb49/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
+本次改写前全部原词逐字保[c12ef290固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/c12ef2907fc74fb9dab7f98545117df3ebfc4dd5/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/c12ef2907fc74fb9dab7f98545117df3ebfc4dd5/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
 
-R601完整source23113/12450be1、证明17018/8f2cb880、接口9716/d6ad990c合49847B本次独立刊。新增完整无限导数尾4C*r^(M+1)*[(M+1)/(1-r)+r/(1-r)^2]、所有alias导数≤2M*原alias，并补world旋转框架连接项原D0；完整3M+2系数角权M(M+2),(M+1)^2,M(M+1)，保径向mean。真实同R575的R580/R596对象finish一次，原完整coverage/计数/ledger全匹配才有r与r_phi全prefix界；复用原r/gap/powers，不重算DFT/field，r_hi=1仍用独立正gap。原budget/ResourceStop传播，恢复只元数据；不接外填h/C/eta/Aρ/锚。直连R514既有τ公式，R519六jet不重证、不增门；未执行、实际Aρ/锚/径向积分和闭面metric仍未付。
+R600完整三件48995B本次独立刊：新helper17338/2a7c4444固定加载未改R58819120/6f7c；只增加六明确R583源角色及实际owner actual_binding包装，完整loop合同/kernel与compiler/plan身份、actual_R572边、原24编译依赖原序和未知/error全保。全部原21统计/来源族继续原方法，17×8产品/full last不改，27明确族严格逆，已有marker父scope原样不误解。只有同完整正文含全部关系/逆后严格更小才选，90000/70不变、不保证487638 fit。R601已c12ef290独立刊，本笔仅按根4将其展示公式分隔改为美元号、数学和源码全不变（proof16964/ad17d2fa）；open§1.3旧全文固定c12完整可读，原其他节逐字保。
 
 ## 完整待发表来源
 
@@ -55,7 +55,7 @@ R601完整source23113/12450be1、证明17018/8f2cb880、接口9716/d6ad990c合49
 
 ## 当前执行与紧接责任
 
-root立即给geometry R601真实组件接口，在实际后继按同对象原finish位置接线，未接不称运行；接着按完整来源审核两21旧manifest容量，原246继续。geometry R597249全source级联约43–49万bytes，R596/R599真实绑定和原453→450/native/FD/fullDN/审计不减。exact R600三件48995B已齐，根下笔独立刊；R604只按可证实际来源契约修244，原235/245/242/248继续。amplitude R539已取227两终态完整成文，原18000停与未返必要分开；R602/R603原当前schedule的完整A*T薄接继续，243官方jobs空不造run进展。
+exact R604继续原R583.prepare_sources直接同六参数/同HERE来源桥和明确旧逆/当前R600合并完整必要语义，避免内部stdout cap阻断但最终wholebody90000/70不变；不认定244未知子首错已修。amplitude完整R539实际227结论即交根刊，R602/R603当前717ac原schedule完整A*T接线继续。geometry249保R596/R599全部真实生成来源，R601后继按真实同对象结束位置接。root只读两21独立审计已admin4b5e6235启动、固定570970，不删除不借旧审计；原246仍step11/其他科学run继续。
 
 容量逐笔按f7真实基数加全部变化Git blob size≤200MB；两26/28、两25、两24及两22/23旧manifest已分别f7d56b2/80840b54/8d1cfb2/f370f6f0普通移出，固定完整恢复/全部来源及实际guard见四retention notes。两24最终88874必要可精确逆141568，138完整变化/未知未扫错误0；全部现用warm/status/数组保。根8旧大manifest误读、根15的6fa/72ed原necessary误存detached Git对象继续如实保且停止raw复制，非交付/科学父；只作者源/证明可小文本交接。每次真pull核双README/读commit入H，NFF立即真实pull--rebase再普通push循环，不用force。
 

@@ -129,3 +129,5 @@
 - **R585（实际244来源停止与固定控制流范围）**：[完整联合guard失败、必要超限与未启动科学后缀](results/R585-actual244-source-binding-stop-and-complete-necessary-overflow.md)。原454来源前缀过、十当前views未起、子R583原因未返；487638全source超90K70只返1663同字，science reader缺文件，无新科学父、不推quiet。
 
 - **R601（已证明的完整world角导数缺陷与实际对象组件）**：[解析无限导数尾、全部alias、旋转连接及实际全系数残差组合](results/R601-actual-analytic-projection-and-saved-RHS-world-C1-defect.md)。同R580/R596真实对象形成r/r_phi条件界；保全部mean、正gap/向外舍入、原coverage/budget/stop。三件49847B，未执行；真实Aρ/锚/路径/全闭metric及caller不冒完成。
+
+- **R600（已证明的六层具名元数据关系）**：[R583完整source/owner包装及原对象严格逆](results/R600-complete-six-layer-R583-source-relations-and-exact-inverse.md)。六新明确族、原五代及全部统计原方法、完整24依赖/未知/errors保；四实际API/27族/7元数据计数，严格整body更小与原90K70。三件48995B，实际caller未冒执行。
