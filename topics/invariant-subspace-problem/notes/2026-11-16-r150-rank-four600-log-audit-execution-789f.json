@@ -1,0 +1,43 @@
+{
+  "format": "r150-original-rank-four600-log-audit-execution-identity-v1",
+  "inputs": {
+    "completedJobLog": {
+      "bytes": 106139,
+      "sha256": "9ec0c6c34dffcb56576e85e2478be593a7d85fdeccb12bfe3acca777ec98bc26"
+    },
+    "producerBinding": "8e701750318d6bed82bd5e202266e025a60da1d23397f2c740badae301ad0bff",
+    "producerRawReceipt": {
+      "bytes": 19983,
+      "sha256": "b77565d9425d3e4a74b8567ec29873a24724802f0d3d779c39cb02c3bb5a390f"
+    },
+    "producerSourceSHA256": "ee9bdabfdd325150b622e77a91d20eb814c642c8cb66bbf4734106466af630e3"
+  },
+  "jobId": 133354233895,
+  "largeMathematicalDataUploadedOrCommitted": false,
+  "localExecution": {
+    "argv": [
+      "--job-log",
+      "{tmp}/rank4-43883188532-complete-job.log",
+      "--source",
+      "{tmp}/2026-11-16-r150-original-rank-four-unexpanded-local-source127-v2-789f.py",
+      "--local-prepare-manifest",
+      "{tmp}/unexpanded-original-chart-v2/rank-four-local-source-manifest.json",
+      "--out",
+      "{tmp}/rank4-43883188532-log-audit"
+    ],
+    "exitCode": 0,
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "rawOutput": {
+      "bytes": 1175,
+      "sha256": "52cb561530da1aad630b771de42f326caf66b8aac565b1d68ff212754e7557fb"
+    }
+  },
+  "runId": 43883188532,
+  "scope": "Source, parameters, run and output hashes only; mathematical data remain temporary.",
+  "source": {
+    "blob": "73131a5feefe7cc19a6eef7b2f8c3c1d1307946d",
+    "bytes": 5619,
+    "path": "notes/2026-11-16-r150-rank-four600-log-audit-789f.py",
+    "sha256": "04c122fbda0b63e0124b53df25d37cad7b6007b5dca17522bfbdeeed932f0609"
+  }
+}
