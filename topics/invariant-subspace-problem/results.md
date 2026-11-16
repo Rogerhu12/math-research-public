@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **原共同模完整参数呈示与非裂扩张。** [27×53原呈示及31阶扩张类](results/R150-appendix-original-joint-target-complete-extension-presentation-and-order31-class.md)给 $M\simeq_R(R/(s))^2\oplus R/(31,s-1)\oplus E_2$，$E_2=(Rf\oplus S_2)/R(hf-b_2/3125)$，保真K/X/c；末扩张不分裂、类恰31阶。$S_2/hS_2=(1^5,2^3)$、$S/B=(1^5,2^3)$、$S_2/Rb_2=(2^7,4,4,5)$，全部有限坐标HNF与根独立相对格SNF吻合。完整M的R结构已闭，未外推九目标至全W或普通ISP。
+
 - **原共同模完整系数扭子长35。** [全部系数扭子与整模结构](results/R150-appendix-original-joint-target-complete-coefficient-torsion-length35.md)以独立中心一G/V及两位原进位补出 $S_1=R/(31,s-1)$，合根二得 $S\simeq_D D/p\oplus(D/p^2)^7\oplus D/p^4\oplus(D/p^5)^2\oplus D/p^6$，长35/dD12/dR8；$M\simeq_D D^{25}\oplus S$，dD37/dR8。11实际阶段及全部37输出、315坐标、自由条件与原整数乘回均核，另以整数gcd独审；原参数扩张仍保留。
 
 - **完整九目标field25。** [25维及最小h*](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)付全7245/7475/2691原乘回和双包含；九cyclic各23、joint25/χ=s²mon(h*)、h*/h0像均零。仅F127成员，未升Q或p²；25图不能当有理图。
