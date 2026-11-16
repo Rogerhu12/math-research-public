@@ -188,3 +188,11 @@ R433已把O_all=[s³t²]Λ_(su+tv)加入同一J⁺，保两次商/原型/桥与K
 最高b_d=b_e0以后，原九行Dθη=bθ+Σz_X HθX是完整准确接口。原dP≠0先调b_d、十二包装e(X)=0保b_e；余ker d由B及六Z_X生成，B全盲。六z_X必须是同一固定实向量，ηθ才可变；没有宣六维像或九行满秩。Dθ二次、rhs三次，原Smith零行多项式及单位圆根全部重数都须通过，非零行总局部重数≤36仅上界。
 
 R459 signed经R460真range的特解仍带gap平台/原incoming/所有边项；实际词产生的新基准与δX*必须同时进入全部门。下一支付固定z的原九行兼容或其明确障碍，并做实际增强/其它s段，不能把两个截面相加。
+
+### R463：增强全partial的实际商与双参数控制
+
+[R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)从原最后low/high真实n0及8/12中心、完整γ7归一得χ5/χ6=d5/d6；杀全响应，而H*∈kerJ0有d5−3/128，故当前F(kerJ0)不等F(R∩kerJ0)，不能再用vertical cover宣actual增强。只保平移时N幂零，放大主导只能到NQ；未触商Q/NQ有非零d6，真桥2VA是O(1)且导数未授满射，不能删或当放大minor。
+
+最小仿射行闭包span{FN^jΠσ}可用13近1H配13小c，有限同窗口查询，非无限物理宽度。Q0确有d5非零，所以补闭包后旧D单独可逆仍失败。新actual引理仅需同一增强满闭锥及DQ+NQ=Q⇔Q0⊂NQ1，真实(H,c)导数αDq/αNq给满minor；原两次完整商校正/prototype×n/Klein基准/C1收缩原样保留。
+
+下一准确线性门U0⊂R0+(kerJaff∩U0)+NU1；自然多项式x6→x5只是投影，须同一完整成本付新增F。R465续原一维N像及两头缩减，R462五维K0两成本self是具体入口。另须同一增强锥的所有正字符排除，旧负权核结论不自动保新增行。没有宣actual不可能/已完成。

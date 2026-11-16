@@ -358,3 +358,6 @@
 
 
 - **true53首次实际：23次完整分离无合格方向，接受53保留。** [首次原输出、全部门和费用](notes/true53-projected-direction-first-actual-no-qualified-direction-20261116.md)（15430B/SHA5af6b33ca483ff045a50557428978c4fd10bc417ee583c0f8b37467a00602ed4）。run43811870681/source42f95905…；三新case通过，1prox/184sweep/724792坐标/23完整分离/5新gradient，最后完整gain−5.887796501991287e−7，原mastermetric残差1.588778857197029e−6。搜索配额结束预留1槽，不是600秒/1M用尽；0scalar/actual，仍53。新188.188974004s、祖先1594.440227096s/128值，完整MODEL/dual仅原stdout；四pull空README差异及全部SHA保note，不宣不可行/驻点。
+
+
+- **R463：全partial确有额外商，双参数放大门为DQ+NQ。** [原真实读出、平移缺口、有限闭包与actual引理](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)（23902B/SHAae377a6b34d57cff790e9f4556a0aee46d9e390ae19232e6d0efd9a82032c180）。χ5/χ6否定当前全F vertical cover；N放大只及NQ且桥O(1)保留，新增H闭包后d5证明Q0非零。完整满锥+DQ+NQ=Q足付真两参数、两次商及原型基准；自然x6 lift不替完整成员，正字符仍另付。0新执行/旧秩。

@@ -32,9 +32,12 @@ R456同宽全部角色DkerEval=Pol≤4、商恰D5/D6；R458两实际宽各三末
 
 R437最高P2θ=κell_f/24杀kerLf；R460由H′=pG″付所有simple-p无留数/同C光滑匹配，不增核。一般range仍保Af/平台/totals/两germ，再gap调∫k′与原右锚灭affine差；R455 canonical E/totals0下恰每包两Af×d,e四门，R459 signed已可接真特解，actual实现未付。incoming XD/p点真逆值与gap平台变化都进规范rhs。
 
-[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)完整Bhat(BD)=R_E+2ER2，原全门及cubic使BD在全部13行核。三个真实平移的完整circle base有µFF=µGG/µFG0（R280逐布局二次矩），原八副本cubic与localT度≤5使F/G杀全十port；三中心Vandermonde给同相位三合法矩右逆，且在kerLf/全port核。故最高d/e通过后只剩原九行Dθη=bθ+Σ固定z_X HθX；dP≠0后六hook候选、B全盲，不宣rank6/9，z不能逐θ换。相位矩阵度≤2、rhs≤3，Smith非零行总局部重数≤36，零行条件另保；actual全基准/其它s段仍欠。
+[R461](results/R461-complete-hook-blindness-and-the-nine-row-same-gauge-interface.md)全Bhat(BD)=RE+2ER2、原cubic使BD全13盲；R280逐布局二次矩/三真实circle base的Vandermonde给kerLf且全port盲的三合法矩右逆。最高d/e通过后余原九行，dP≠0后六固定hook，不授rank6/9或逐θ换z。相位矩阵度≤2/rhs≤3，Smith非零局部重数≤36且零行另保。R464续原九行包装/seed与M3非零同起点构造。
 
-R450整个U的self/2+2位置≤11；同最终V/F/G的12真中心已入range时选紧逆≤11，ell六权使最高e≤17。旧11差分余≤6，新初选外8宏四次幅/g翻号以18差分清e，保完整F_rat/每宏三矩；新全部基准入b_new由同20目标付。必须先付同最终母/actual成本的全range、内部Af/禁止极点/平台germ，不能移植旧range。R449只付8hook独立及144真像≥137/核≤7、K11增广≥148，不作全R分类。
+R450 wholeU self/cross位置≤11；同最终成本/母已入真range才有紧逆≤11、最高e≤17。新初选11+7差分清e，完整F_rat/每宏三矩与全部新基准入20目标；不移植旧range。R449八hook独立、144像≥137及K11增广≥148非全R分类。
+
+[R463](results/R463-real-partial-quotients-translation-defect-and-finite-affine-control-interface.md)原末low/high及8/12真中心读χ5/χ6，杀全R而H*的d5≠0，故当前全partial的vertical响应覆盖确失败。仅平移主微分到NQ，真桥2VA仍O(1)，不能冒缺minor；补13近1H有限闭包后Q0仍非零，旧D可逆失效。新完整actual引理：同一增强满锥+DQ+NQ=Q（iff Q0⊂NQ1）可经真(H,c)放大、两次商/全部prototype/Klein基准给有限C1截面。自然x6 lift不足；完整lift及新增正字符仍欠，R465正缩至两个权零镜对成员。
+
 
 所有完整证明、原来源和失败边界见results各原稿与open；继续两period、13端口/其它s段同规范及实际正锥，最终高阶收敛、同g有限族、嵌入/reach均未付。
 
@@ -48,4 +51,4 @@ R450整个U的self/2+2位置≤11；同最终V/F/G的12真中心已入range时�
 
 ## 5. 当前工作
 
-true53有界观察已完，接已付模型的原始可行性/坐标度量与完整下降新问题，不能余额重跑旧session。R459同宽signed核经R460真range可取特解；R461三合法矩可最后付，继续固定六hook+原九行/seed。R462完整权零五核尚欠两cost self及成员；R463正核/真实放大接口在做。同宽不冒全H，signed不冒actual，全主完成门仍欠。继续open，不以阶段/预算/时长结束。
+true53观察已完，续已付完整模型的可行性/度量与下降新问题，不余额重跑。R459同宽signed+R460真range、R461合法矩已付；R464续九行/seed/M3同起点，R462/R465续五维K0中的两个完整目标self成员与增强满锥/双参数actual。全主门仍欠，继续open，不以阶段/预算/时长结束。
