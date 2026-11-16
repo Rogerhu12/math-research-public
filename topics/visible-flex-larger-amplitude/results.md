@@ -208,3 +208,8 @@
 ## R430 — 实际201完整十维49原接受及资源部分终态
 
 [R430实际201](results/R430-actual201-complete-ten-49-accepted-and-resource-partial.md)run43779219117/sourceaa2f1d05，compute133012382468失败/report133025041213成功同72021B/05677609必要全文已读；49原接受/148α，W.0516490181483→.0000846975608526。方向0..48均α.25/update2/trial0/beta1，六完整块+block6一接受；dir49/α1/update1响应未返，余α1..19/方向50..127/blocks7..15未访。590 nested primal全返、443 normalJ尝试442返；全模型651 primal全返/493 forward尝试492返。初60FD齐，末60/Arb453/native未起；原2400 SIGTERM/child75，必要/错误/quiet后00:55:46真清raw。末十词双路径同553B/6997f1f3仅供202新初猜，不借未返J/已毁raw，原方法/全部门继续。
+
+
+## R397 — 实际186完整审计与24段变分资源边界
+
+[R397实际186](results/R397-actual186-one128-acceptance-complete-audit-and-24-stage-budget-stop.md)run43760800088/source3fe28c27，compute132954941845/report133023305181均success；同78878B/6f736764必要由amplitude全文读回。128首α1把原norm .0001220960545974降至9.68582474751023176032080482454992093e−11，fresh replay全残差/226输出词同。hoist真实编译0，原8000秒仅stage0..23完整；24..26各5/12、27为4/12、28..575未起，内部预算return2而非协议70。独立audit576/576、7488/7488查询及6943推进完整，仅原C-based有限程序；其fullD不是闭面D。112/338未起、native/fullDN=false；原必要/错误/quiet后真清三树，已删raw不可SHA恢复，199继续同全链。
