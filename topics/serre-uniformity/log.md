@@ -257,9 +257,14 @@
 - 新原CM sigma/period稿a06a80ea：μ3补空间唯一〈xω〉，由原u²(1−u)=bξ⁶给整u/w/H及F=∫w∫H；cubical原ψ₂=−2y严格给line-log=logξ+F。
 - 正整数倍率保ψ_n/其导数，得六点value/first-period与完整尾SP25–28；RF对称项降至原六椭圆点七共轭，完整Q三次帧、Y/ℓ/nonp及split差保全，无新数值或高度非零断言。
 - 根读R699.27a/R634/R724及Balakrishnan–Besser §4原文，ordinary特例不用于本证明。辅助ℓ518不可作41精度；R787旧primal run02:49真实failure且尚无数学artifact，正在取runner诊断；新dual不动。
-- 本push规则：本地真实pull至4de05e30dd85c74cb2d1a968937a184d7c5babbe（2026-11-16T03:03:38.607863+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至7c610c5fb8483e28409543eb3782e5bb66977e71（2026-11-16T03:07:29.963937+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
 ### 2026-11-16 11:03 Asia/Taipei — serre-public-astra-20261115
 - R787 run43766834509在02:49:29UTC实际failure；check注记runner失联，数学步in_progress/上传pending，logs404且仅rules artifact，不能当BudgetStop或虚构新位。真实原因未细分。
 - 原518 artifact14181899102/343bee0a仍有效；仅预算300→120min，93d3核心/42157包装器、resume及全部数学参数冻结。恢复从下个未完成位，不重1–518或56全格，新dual不动。
 - H/open同步真实状态及来源，准确关系/A.1/高度和主目标仍OPEN，继续原纤维封装与缺失period构造。
+
+### 2026-11-16 11:07 Asia/Taipei — serre-public-astra-20261115
+- 保存半坐标后继coreffe5dcff/wrapper1552e403/method1f1ea6b2，pending保completed_dual_source=null；当前full dual43790194976不动，绝不以primal518冒充新对偶位。
+- 真实旧target/J/current/next residual-correction/exact witness原字节和tag在FULL_DUAL载体继承；n+1仅七支求解，原35840全核、三种准确终点分开，RR失败不拒q。根通读五件及冻结依赖，未运行数学。
+- R787恢复已实际run43795851660/job133064488949/source9eeabe9c，原数学步在运行；H先逐字归档再压已成摘要，RF/SP完整原文及全部历史边界保留，继续原纤维和Y连接。

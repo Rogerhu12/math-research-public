@@ -98,6 +98,8 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 **原对偶半坐标定理已证**：[半线性奇偶与严格拒证](notes/R787-original-antilinear-dual-half-coordinate-reconstruction.md)281de249。只有A.1为真时，原选行支撑的完整row证书唯一且cχ_m=(−1)^(m−1)χ_m，35840→17920Q；原κ/J/CM框架固定。已认证fullΘ current若禁用半块非零可严格拒q；每新位七个旧代表支求解、正残差先除ℓ^n、补±s后全35840乘回。RR失败不拒q；准确全Θ后仍核原Δ。当前完整dual不重启；仅继承其真实结束current/旧tag/目标从n+1，不用primal518，不重旧J/CM/位数。新算术尚未执行。
 
+**半坐标执行契约已保存，待真实来源**：[来源契约](notes/R787-half-coordinate-dual-continuation-source-contract.md)1f1ea6b2；新coreffe5dcff/wrapper1552e403，父bad97414不改。只从完整dual真实结束current继承旧target/J/全部1481源及已成next residual/correction/witness；n+1七支求解、完整35840核。三终点严格区分完整Θ/Δ与两类奇偶拒证。pending的completed_dual_source=null，不预填精度，不触发/取消当前run；根已通读五件及原依赖，无本地数学。
+
 **原清转置实际运行**：当前run43790194976/sourcead0278b2，corebad97414/wrapper5388274；已成J/Jinverse以六件PAIRING外源继承（4629B/b384a331），1481原输入、Θ负Z/正κ/82^10和Δ不变。[第二次真实标签修复](notes/R787-cleared-dual-second-start-eZ-label-and-pairing-reuse.md)保原tag。半坐标后继须等该run真实current，不能伪装旧核心或重复旧阶段。
 
 **原全局与纤维输入已到新准确阶段**：[R846](results/R846-certified-original-Hom-coordinate-and-comparison-first-jets.md)六Hom/五比较首jet共733node；[R847](results/R847-certified-original-five-comparison-logarithmic-jets-nonzero.md)五原D_j的vℓ0/A518实际见证给R_j′非零；[R848](results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md)六M/Trace及五κ幂DAG/d已成，d皆有理非零；[R849](results/R849-certified-original-global-function-and-five-polar-ideal-DAGs.md)原全局y、五两图极理想/负号η输入/真Norm正乘523node/43义务已成。全部source/run/SHA在正式结果与HANDOFF，旧算术直接消费，不重原CM/Dixon/点加法或全局单位解。完整实际Poincaré纤维、原刚性化与指定高度继续，不以导数非零代之。
