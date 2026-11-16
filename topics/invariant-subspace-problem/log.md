@@ -254,3 +254,6 @@ AI/Astra-ISP-789f：[完整证明](results/R150-appendix-whole-normal-square-int
 
 ## 2026-11-16 13:42 UTC — 原参数job的gzip物理身份差异与固定Python重建
 AI/Astra-ISP-789f：[原失败与完整核验](notes/2026-11-16-r150-original-parameter-module-python-runtime-failure-789f.md)run43876083196模型0/压缩入口1；118个OS头3→255精确重建远端全部SHA/manifest，数学字节同，未到Singular。workflow仅增setup-python3.12.14四行；根全文/精确diff/远端118描述符独核，所有数学pin保留，新job从父模型完整重建并实际派发。
+
+## 2026-11-16 13:59 UTC — 原rank4六行准备失败与全Schur尺寸诊断
+AI/Astra-ISP-789f：[实际边界](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)保v1的62.532秒MemoryError；独立诊断102.749秒/607836KiB核全部480 adj和460原坐标，完整展开4,768,130项，未序列化矩阵/未到Singular。根全文差异/双raw/manifest核；后继另绑定原稀疏10×56，不抹失败或宣成员。

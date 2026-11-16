@@ -1,0 +1,62 @@
+{
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "continuation": "Use the same selected literal delta in a separately bound unexpanded original-column local module; preserve the v1 MemoryError as a failed execution.",
+  "dataPolicy": {
+    "mathematicalArraysInRepository": false,
+    "rawMathematicalReceiptInRepository": false,
+    "uploadedArtifact": false
+  },
+  "executionKind": "actual-local-executor",
+  "format": "r150-original-rank-four-Schur-size-diagnostic-execution-identity-v1",
+  "originalSource": {
+    "bytes": 33705,
+    "gitBlob": "c56cc3ea13be44ef68f1032731a8188de57e9b00",
+    "sha256": "2e52674af37101cd9c6f12afbb9870fffe723f9ac01d7cb66d3663b9e1af851b"
+  },
+  "outcome": {
+    "binding": "4c5e5dd6ff8bc0e1f999ff37a99263ca2ab8eb683d90bd3bee827d8052bfe8e5",
+    "completeSchurCheckpointProduced": false,
+    "diagnosticScope": "Full original fifteen adjugate pairs and all original ten-coordinate Schur products, followed by term counts. No complete matrix serialization and no local unit search.",
+    "elapsedSeconds": 102.74850011699891,
+    "exitCode": 0,
+    "mathematicalNonmembershipClaimed": false,
+    "peakRssKiB": 607836,
+    "singularInvoked": false,
+    "status": "completed-diagnostic"
+  },
+  "parameters": {
+    "chart": "sparsest",
+    "memoryMiB": 2048,
+    "modelAndCompressionInputs": "notes/2026-11-16-r150-original-rank-four-six-row-local-source-inputs-789f.json",
+    "out": "/tmp/literature_bell_rank4_789f/sparsest-schur-size-diagnostic",
+    "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+    "pythonFlintVersion": "0.9.0",
+    "pythonVersion": "3.12.14",
+    "seconds": 180,
+    "through": "prepare"
+  },
+  "sessionId": 48018,
+  "source": {
+    "bytes": 34913,
+    "gitBlob": "3c0b0fc6ad4d34016fd3c45386244ef5429b15c8",
+    "path": "/tmp/literature_bell_rank4_789f/2026-11-16-r150-original-rank-four-schur-size-diagnostic127-789f.py",
+    "sha256": "6f850a4a97d431bfa591705072c6d5a717378080f7c1b8c78ac10f887d50071f"
+  },
+  "temporaryOutputIdentities": {
+    "log": {
+      "bytes": 6928,
+      "path": "/tmp/literature_bell_rank4_789f/prepare-size-diagnostic.log",
+      "sha256": "5983b5fd886a1f4cf4b8bea1a9f78437ee39c9d2df1aa48c90c921099ca027d1"
+    },
+    "manifest": {
+      "bytes": 15962,
+      "path": "/tmp/literature_bell_rank4_789f/sparsest-schur-size-diagnostic/rank-four-local-source-manifest.json",
+      "sha256": "a76cba414efcd5647ae73af55427efbc24bad52e6f8023bce3bfcd97989dbdc6"
+    },
+    "rawReceipt": {
+      "bytes": 4339,
+      "path": "/tmp/literature_bell_rank4_789f/sparsest-schur-size-diagnostic/rank-four-local-source-receipt.json",
+      "sha256": "7d0bd9084e2672ac04a289a3922a26a7cadd3a2274ea775b073de700fedcd395"
+    }
+  }
+}
