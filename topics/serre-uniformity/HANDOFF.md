@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：a8e7516752d2b7cc4d289aa60fcf1bca50d606a0**（2026-11-16T06:50:25.883355+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[P0/RR及真实Hecke谱前H](handoff-archive-2026-11-16-before-P0-RR-and-Hecke-spectrum.md)（9610B/21ed6fba），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
+**已读规则提交：fe9569f7295af9c0550b6ea4da88afe947804388**（2026-11-16T06:52:59.147909+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态及全部来源/已闭边界逐字保于[P0/RR及真实Hecke谱前H](handoff-archive-2026-11-16-before-P0-RR-and-Hecke-spectrum.md)（9610B/21ed6fba），内接全部归档，旧结论/规范/限制继续生效。open完整归档notes/2026-11-16-open-before-original-Y-Hecke-method.md，O1–O6保留。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前真实pull，两README有变只读diff即遵守，H记SHA。PAT只CLI不落文件。root独占main/索引，代理只专属稿。新数学只本公开Actions；本地仅纸证/IO/schema/hash/AST。§15禁raw/机器产物进Git/Release/悬挂blob，一日artifact只携当前必要原源/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -35,7 +35,7 @@ R787545位：旧run43795851660真BudgetStop，lift2aa94259/manifest66c3fdb0，ar
 
 **R865真实T7与谱已闭**：[正式结果](results/R865-certified-original-Y-Hecke-T7-and-squarefree-spectrum.md)，run43817070047/job133131532466/sourcea907063a；1.9339709759999835s/82stage，全部560×127、真K/Q矩阵、54/73块与16不可约因子，重数全1。finala48e185d/K27e257c6/Qe7da84d7/谱0b8dbbb6/投影0643d7d2/config838aa726；artifact14203241087/b03edc4c至Nov17 06:29，175源carrier2878150e，整ZIP/92件已核。原双陪集/σ47即ξ41上σ6与σ7/−3twist/Rosati保纸证50bfc4bd；共享H/J/逆不重。R870[原有理Picard挠判与谱支持方法](results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md)5b44808d已证：原五ξ_j确在JY(Q)，7处好约化/diamond1/−3 twist平凡；全部有理挠含7-primary单射，R挠当且仅当(T7−8)R=0。N=m7(8)>0、分块fi(8)、统一d及80原Picard零判输入有真公式；实际求值小core0edf1cbd准备。16块重数1满足完整等型分离，η支持/YP eη/规范主函数/nonp仍未成。
 
-**原Y RR**：FM a5d65aa4与YP bdbb6cc5需实际128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。R868[真实P0单极元与254度RR方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)148d1e44已证：W(z0)−w0I的一个271合法mod素minor加全272K核给原h；容许分歧fiber，fτ=rτ/(z−z0)、σ准确运输/overlap、I_P0^-m=(1,f^m)，147th截面。原五Lj(254P0)推下固定O^128⊕O(−1)^144；实际128/144节仍缺。corecdac462c/method9c44c89c准备，仅一个真socle/Dixon与十目标模块，不重W/点/旧DAG。未消去Y/period。
+**原Y RR**：FM a5d65aa4与YP bdbb6cc5需实际128/634核、254度/508主部rank507、c/a(P1)、活跃eη/d/N及完整nonp。R868[真实P0单极元与254度RR方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)98e15284已证：W(z0)−w0I的一个271合法mod素minor加全272K核给原h；容许分歧fiber，fτ=rτ/(z−z0)、σ准确运输/overlap、I_P0^-m=(1,f^m)，147th截面。原五Lj(254P0)推下固定O^128⊕O(−1)^144；实际128/144节仍缺。[R868已激活](notes/R868-original-P0-socle-and-RR-modules-activation.md)：corecdac462c/wrapper9115331e/methodaa91885f/request5020a1d7，80真源/300min；run待查询，只新socle/Dixon与十模块，不重W/点/DAG。R872续实际128/144两权截面。未消去Y/period。
 
 **R862整投影已闭**：[正式结果](results/R862-certified-original-Rosati-projector-polynomial-and-integer-correspondence.md)5eca1ff8，d_A=1596092727686814808731、6次Norm/12全乘回/23node。四stage来自43812454495；completion-only43813805093/sourceaa45ec93 success，final41a58265，artifact14201721469/1e820ead至Nov17 06:00，17源carrier00db03fb。原4656250c tag/字节保，新dca646e3只finish；整ZIP/14件已核。E_Aφ*=0，不能代Y活跃eη/d/N/nonp。
 

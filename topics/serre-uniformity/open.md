@@ -133,8 +133,10 @@ R832接触界R−1+binom(R,2)(6G−4)可接原提取器，不假T_p非零或代�
 
 **R866正式闭合、R865真实激活**：[原Q基结果](results/R866-certified-original-Q-holomorphic-basis-and-semilinear-action.md)ef5fdaa6，run43815338283/52stage，完整127基/cY、even54/odd73、全560行及C²已成；不重H/逆。R865[执行记录](notes/R865-original-Y-Hecke-T7-activation.md)固定core3d074559/wrapper9b05e7ff/method88a3c9dd/request28aa9adc，120min只新T7/谱，真实175源闭合。R870随后核原ξ_j定义域与7处Frobenius挠界/实际Picard谱支持，未预填N或eη。
 
-**R868原P0的有限RR入口已证**：[完整方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)148d1e44。真实W(z0)−w0I用271合法mod素minor及全272K准确核取得socle，不假fiber étale；两图f=r/(base−base0)与I_P0^-m=(1,f^m)保完整DVR订单，overlap单位−zz0。原146截面加f得147；五个真正eta_degree_zero_fractional_ideal的254P0推下固定O^128⊕O(−1)^144，128/144两权截面全图membership及单非零fiberminor才闭RR。实际h、128/634、connection/YP校准仍待Actions；不把real_descent_Lj^3替代原Lj。
+**R868原P0的有限RR入口已证**：[完整方法](results/R868-original-P0-pole-generators-and-degree254-RR-certificate.md)98e15284。真实W(z0)−w0I用271合法mod素minor及全272K准确核取得socle，不假fiber étale；两图f=r/(base−base0)与I_P0^-m=(1,f^m)保完整DVR订单，overlap单位−zz0。原146截面加f得147；五个真正eta_degree_zero_fractional_ideal的254P0推下固定O^128⊕O(−1)^144，128/144两权截面全图membership及单非零fiberminor才闭RR。实际h、128/634、connection/YP校准仍待Actions；不把real_descent_Lj^3替代原Lj。
 
 **R865真实T7及无重谱已闭**：[正式结果](results/R865-certified-original-Y-Hecke-T7-and-squarefree-spectrum.md)。run43817070047/sourcea907063a，82stage/全部560×127，原K/Q矩阵及16不可约因子均已成，因子次数2,3,3,3,4,4,4,4,8,8,8,12,12,16,18,18，重数全1；直接消费谱0b8dbbb6和投影0643d7d2。原−3twist/σ47、σ7与82规范保留。下一实际N和80个Picard零判输入沿R870；不重H/J/逆、特征多项式或CRT，未把无重性当作原η活跃支持已判。
 
 **R870原有理Picard挠判及校准整数来源已证**：[完整证明](results/R870-original-rational-Picard-torsion-and-T7-support-certificates.md)5b44808d。RF原完整七项极除子在Q下降，ξ_j∈JY(Q)；真T7在7的ES关系与全部有理挠单射给R torsion⇔(T7−8)R=0。真实N=m7(8)，逐块fi(8)/统一LCM对应分母和80个整Picard条件待最小新Actions求值；R865真实重数全1满足16块分离。实际Hecke norm模、RR零判和η活跃支持尚未计算，c0/h及c0/c1刚性化方向保原帧/nonp，不把存在性或零局部log当主函数证书。
+
+**R868实际核消费者已激活**：[执行契约](notes/R868-original-P0-socle-and-RR-modules-activation.md)，corecdac462c/wrapper9115331e/methodaa91885f/request5020a1d7。真实80原件来自活跃R860/R856/R850，首300min只求原rank271/h、两图f与五模块；已有34组W及点/理想不重。128/144两权截面由R872继续，R868成功不改其未算字段。证明98e15284只更正原两条相对链接。
