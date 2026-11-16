@@ -134,3 +134,5 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 **R847原五比较一阶非零已实际证明**：[结果](results/R847-certified-original-five-comparison-logarithmic-jets-nonzero.md)run43789012126/job133043052846/sourcef699023d；3.166150124秒/1413数学stage，五D_j均vℓ0/A518（ℓ1000000753），结合R844原值非零证五R_j′≠0。final39f3d05f/manifest9bd31692/config7b2a243e/artifact14191283725/1737c833；1421成员/整ZIP纯IO，270源carrier2.08MB/a7ccfe9b。无新Hensel/Dixon/点加法，不代原41单位/线性独立/height/A.1/all-p。
 
 **全允许p的两个交换本原标签窗口已证明**：[三分位置的原标签](notes/2026-11-16-sigma-two-swapped-primitive-labels-at-thirds.md)543d03f8。p18k+5取(i,j)=(k−1,2k)，p18k+11取(k,2k)及交换；两h=6i+7皆与完整p+1互素。h_i+h_j=p+3，原Legendre反射将第二值准确变P_(d_i−2)；不同i/j下三项递推迫两范数不全零，涵盖p11mod12。只反射Legendre，不反射f/g；仍缺同一可见h上的原f_i g_j单位。旧中央9560403b与R739边界全保，非全p高度结论。
+
+**R848原c0准确首项已成**：[结果](results/R848-certified-original-c0-Hodge-jets-and-comparison-leading-coefficients.md)run43790534424/job133047756159/sourcea576ab9d，2.684693114秒/24stage。六V/W/λ³、真七次Norm/Trace及五κ幂DAG/d已成；原t阶1372/364/462/1414/3318，五d实际有理且非零，六M=s·Q×给κ符号++---。final775a07af/manifestb90422a5/config06d8d96e/artifact14191923906/1aa8c65d；35源carrier159.21MB/0eb19163，33小件593816B/11Range。未重旧数学、未展开κ，原Picard/刚性化/height仍续。
