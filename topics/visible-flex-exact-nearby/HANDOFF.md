@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 08:47:18 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 08:49:10 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 08:43:38非FF真CLI仍无executor，下一本地尝试≤09:00。最新CI真pull为43831678361/1于11-16 08:30:30.782150→3a2a1fa1002bbf8b97ea0559e031a03efdf55dec（另08:30:25一次）；两README完整diff均空、版本同已读；exec94f7ecab存两全回执。下一真pull≤09:30:30；ref读取不冒真pull。
-最近只读README核：16d843db59fac18cecbbc4c47b32692bf87e0f67；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：5f9b164da4f13230dec6fc9e9465c0c22fe682ad；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -50,3 +50,5 @@ WECAc06787e9（results/R133-supplement-actual-complete-global-genuine-waist-erro
 integrated-source209005B派生账：白名单ea97f78d先推bed3fdd6，freshguard后仅删868cb8ab；restore6a53642d050b9290c8434db1c249c011707d3306同path。原169叶+collar正模数成功/signed twist未付、58当前无依赖与原完整恢复证据保白名单，禁重算。
 
 旧repack检查明细154047B：白名单33846e38先推9d0caee7（notes/2026-11-16-R133-obsolete-repack-inspection-cleanup-whitelist.json），原f8724691/SHA d676f7ae，恢复d5f61af9a000131263eb396b64e64796138c633a同path；小verified操作结论/全H/数学文件全保，freshguard已核后仅该文件普通删除，0数学。
+
+单r010旧浮点报告156450B的只读metadata workflow 82f84ff6已提交一次自然push；恢复7504ff96原c216e006，仅取原status/全hash/原元数据，0科学/0producer/0旧重算/不删endpoint，实际结果待取。
