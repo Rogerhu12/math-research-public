@@ -296,7 +296,12 @@
 - EP/Emerton/Mazur原文已核；不冒Hodge饱和或原CM normal项。R902首run来源schema即退、核未执行，正修；R854同核N112续已受理，H前态逐字归档。
 - 本push规则：公开Actions真实pull至d5e0bb575688ee63b9656e18ea3256c12d9b8c39（2026-11-16T14:01:59.774416+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-16 22:05 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 22:03 Asia/Taipei — serre-public-astra-20261115
 - R902首run43879863247未入数学核，原R809阶段仅configuration含result；两处严格历史schema修复，coreb0f5510e/wrapperdb561206，数学与全部源SHA/单位图不变。
 - 原30对/271件已成闭包继续，resume仍null；R854同N112新run43880489423/job133344905148已入compute，不重旧1041stage。
-- 本push规则：公开Actions真实pull至d5e0bb575688ee63b9656e18ea3256c12d9b8c39（2026-11-16T14:01:59.774416+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+- 本push规则：公开Actions真实pull至98b615b66cc5363977939df0439b8532f471b0db（2026-11-16T14:03:59.759747+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:07 Asia/Taipei — serre-public-astra-20261115
+- R905完整纸证独立登记：同D418→146、真272单位/同度给完整丛格，迹对偶670与全544主部秩543；交点、分歧及特殊支/fallback保全。
+- 七原源连接经QN校正及Gal7/真cY平均直接给原I_Z，无需先126聚合；Hecke/两端标定/非p/period/height仍缺。R902仅schema修复已实际发布受理。
+- 本push规则：公开Actions真实pull至98b615b66cc5363977939df0439b8532f471b0db（2026-11-16T14:03:59.759747+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
