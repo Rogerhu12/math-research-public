@@ -250,3 +250,8 @@
 - R901完整纸证单独登记：五原Z共用12χ/24T与五(6+11+1)，明确126新flip及两旧节点；全principal、正乘I_Z、原ρ/t首项和七重下降逐式保留。
 - 新节点尚未运行，五128/144与height未成；原Z负支撑不限P0。R896仅0job排队异常，标准与force取消均409，未重复dispatch；半dual真实541后继续。
 - 本push规则：公开Actions真实pull至cec9d8c877fa92bd5edf70f950ff7e0dcd77e2c3（2026-11-16T13:03:27.839388+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 21:08 Asia/Taipei — serre-public-astra-20261115
+- R896修复请求持续零job排队，标准与force取消均409；恢复器核同原请求/0jobs/冻结workflow与单运行并发组后重排同一计算，保留旧记录并观察实际启动。
+- 数学core23281231/wrapper558ad67f、原输入40af1453均不变，无已成R896数学阶段；R894/R824及其余长算继续，未按排队或预算判数学否定。
+- 本push规则：公开Actions真实pull至b4ff63479aea312f4a8e3fc45e139781327002c9（2026-11-16T13:08:34.084355+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。

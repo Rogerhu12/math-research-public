@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接，旧未推本地分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：cec9d8c877fa92bd5edf70f950ff7e0dcd77e2c3**（2026-11-16T13:03:27.839388+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[K-trace消费者前H](handoff-archive-2026-11-16-before-K-trace-consumer-sources.md)，内接K有效代表前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
+**已读规则提交：b4ff63479aea312f4a8e3fc45e139781327002c9**（2026-11-16T13:08:34.084355+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。最新前态逐字归档在[K-trace消费者前H](handoff-archive-2026-11-16-before-K-trace-consumer-sources.md)，内接K有效代表前H及完整旧归档；全部已成结论、原source pins与关闭边界持续有效。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -34,7 +34,7 @@
 
 **[R893五初始RR实际已成](results/R893-certified-original-five-sum-Hom-complete-initial-RR.md)**：43861874528/job133280560534/sourcefe27ac55，412.672739265s/632stage/131源；五完整dim168/376/250/386/343，真实五minor/所有Schur与整纤维关系通过。cfgcd3f5362/finalad135ab7/manifest58a66985(643项)，artifact14224626902/cc7cc8e5至Nov17 12:03:18。IO v17 43864802081/art14224774305/tarc599a933真392件，五A/B及全纤维值、0..7旧K/8..26新K已可直接消费。
 
-**[R896低权残余核](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：原五B空间两截面真rank690+δ/全部N纤维→残余690−δ，经旧k=544−δ jets→146，再962/418；τ权/负χ幂/m0=1原标量保全。首run43867022534仅R827源schema KeyError/core未执行；原W/K只configuration.result，修两处严格schema后core23281231/wrapper558ad67f数学不变。修复run43868495711/source1a6e70da仍queued/0jobs；两次实际标准cancel与force-cancel均409，未重发，待恢复队列。R893/R890旧核/正常/jets全复用。
+**[R896低权残余核](results/R896-original-two-denominator-low-weight-residual-RR-kernels.md)**：原五B空间两截面真rank690+δ/全部N纤维→残余690−δ，经旧k=544−δ jets→146，再962/418；τ权/负χ幂/m0=1原标量保全。首run43867022534仅R827源schema KeyError/core未执行；原W/K只configuration.result，修两处严格schema后core23281231/wrapper558ad67f数学不变。修复run43868495711/source1a6e70da仍queued/0jobs；标准/force取消均409。仅再核同head与0jobs后，按冻结原workflow单运行并发组重排同请求；保留空run记录并追踪两状态，实际数学尚未启动。R893/R890旧核/正常/jets全复用。
 
 **[R894七极trace](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)**：3Σ(Dj−H)+7(−C*+H+4χ)用18flip，R890两节点直接复用只新16。QN=Qorb FN正乘，ρ阶−8435，t正乘(c^1205)^7；末D_N只L定义，旧K下降(γQN/QN)γs。实际run43864869152/job133290893516/sourcebf74b397正在新16flip，core9a2793c7/wrapperbcf31979，保原56源/旧H与E14评价，闭合后才清非live扫描并留hash史。
 
