@@ -55,3 +55,36 @@ b8c0a892e436474cce5e8bee48fd8ee735b4b3765d027f6013cbe56430e54532
 ## 后续规则同步（17:06:56 UTC）
 
 实际终端pull在17:06:25仍报无可用环境；公开只读run43914883095/job133466239198成功执行git pull --rebase，head e3036ead5cb7310d0df3cd6d86f68496e2fa817d，对比53a72e4c8d98aeb1e289ba8dab2598c65ab6c88e，两README差异为空，原两blob不变。该head完整题树bd208553c16df55639f2a98877d5e10c1a639e9a有2546个blob、34353361字节，无超过5MB文件，仍只有3个既有真实输入块。下次实际pull最迟17:50 UTC；本地副本未恢复。
+
+## 补记：原 fricke24 也停在 U 恢复，未到正规化
+
+原 source be4e0074e90508b3f7bd6e2ce3ee083165049288，
+[run43860032290](https://github.com/Rogerhu12/math-research-public/actions/runs/43860032290)、
+job133274126644，于2026-11-16 17:33:26 UTC 以 exit137 结束。
+其 workflow 明示 timeout --kill-after=45s 21000；只按实际日志报告终止，
+不将137单独解释为数学错误或确定的内存耗尽。
+
+准确已完成的阶段：
+- 原 Phi17 291项在0.404656秒完成，整数terms hash
+  36d1433b249f994bf055b5317eb28ffd9153be2461643227509414b1bfcc1d27。
+- 原306循环关系/精确回退除法在1064.318449秒完成，hash
+  0939fd2612f1c44a9d3b87cc3e46f3114d3038c54bc9e8d379323fc647b9b5eb。
+- 完整eta次数576关系去掉原X^18在1155.763597秒完成，hash
+  791862404a8224186f7e996dc77983548868c388cf95382b5aff75b58a838e13。
+- 全部倒数对称系数检查后，degree288关系在1167.891730秒完成，hash
+  e73ed52e1567e171487a8746d7b70b957d97e91bbc5f972d635544929383a520。
+- 实际因子分解及绝对原支选择在1573.482015秒完成。
+  因子次数为四个24、四个48，重数均1；原支是四个24次支中
+  既定原Tate初值为零的唯一支，所选factor hash
+  e8b3440a593a36fe119189e58476a031514ec024b27c264e73c2adbbb7ddd33d。
+
+最后一条数学阶段日志在12:32:31 UTC、2982.226363秒：
+“exact original U recovery in simple eta48 field”。
+之后没有 U 完成、正规化、genus、RR 基或完整205行的回执。
+最后报告的 RSS 为770868KiB，只是这个已打印阶段的最大值，
+不是终止前全运行的最终内存峰值。
+
+所以该 run 不提供 RR PASS，也不能说它耗时在正规化。
+它进一步确认 R910 改写原 U function-field gcd 的目标；
+正在运行的 R910 保原关系与所有末端门。
+R917 已独立付原全局 q 格，仍未补此 degree48 坐标接口。

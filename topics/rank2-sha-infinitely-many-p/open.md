@@ -181,3 +181,5 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 - [R916](results/R916-original-special-fiber-stable-kernel-and-unique-prefix-test.md)：实际f=λY²(Y−1)、1≤ord_tF(t,0)≤2时，原F³的0..5六系数至多一个恒零；故真实K∞≤1，全非零则0。唯一可能方向Bn+c(t)Yn由完整十九角纯charge格Pn·k[t]≤Mn及同T前缀准确判定，εF0/1给R914联合秩加强；原Λ只缩到一条实际GRes，未判其非零或forcing。
 
 - [R917 §8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)：公开run43919854829/job133483895189/source4519983a已完整认证原ℓ29的120×205全局RR格；固定子式为单位、原QQ变换/全约化秩/同S全部通过，2.549秒，结果hash5a1d6494…eb663b。只付全局L(DS)及忠实jets，未提供degree48坐标/闭点或现有四块接口。
+
+原fricke24 run43860032290/job133274126644/sourcebe4e0074已于17:33 exit137；完整24次原支已选，最后阶段是原U恢复，未到正规化/RR。全部阶段/hash见[实际卡点](notes/2026-11-16-original-rr-stopped-before-normalization.md)；不能将此终止当数学反证或确定OOM。

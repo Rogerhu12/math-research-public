@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261116T1706-rule-pull",
-  "utc": "2026-11-16 17:06:42 UTC",
-  "last_rules_read": "53a72e4c8d98aeb1e289ba8dab2598c65ab6c88e",
-  "reason": "Local actual pull retried at 17:06 UTC and still reported no usable execution environment. Continue the authorized read-only sparse actual git pull --rebase and check only both README differences; keep the hourly deadline and exact rule-15 inventory."
+  "request_id": "rank2-20261116T1742-rule-pull",
+  "utc": "2026-11-16 17:42:27 UTC",
+  "last_rules_read": "43b102da74a33efef5b4eba57e78defd307dcc23",
+  "reason": "Actual terminal git pull --rebase was retried at 17:41 UTC and the execution environment is still unavailable. Continue the authorized read-only sparse CI actual pull, compare only the root and topic README differences, and record the complete rule-15 inventory before the hourly deadline."
 }
