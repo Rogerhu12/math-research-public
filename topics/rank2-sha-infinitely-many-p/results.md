@@ -257,3 +257,6 @@
 
 
 - [R884附录I](results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：同原Q48/W48再施完整δ迹准确为−P16/(26208b)，P16=σ16x²(X²−28bX−56b²)质量1且真2-new；全八系数/三根Newton与奇R3的Σx/F′=0逐项支付。原D16(P16)=−16DR3/3+完整严格低L16，不引入新高参考；未补偿jet单位来自质量而非原U中央矛盾。
+
+
+- [R886](results/R886-original-highest-cm-auxiliary-units-and-base-preserving-normalization.md)：原全四字符在同真实τ上统一为(1,ω²,ω,ω)，τ由17与两p惯性构成，保持μp∞；每深度Chebotarev付真实辅助q。hK1/μ6 p′给环类p群直积，兼容Frob lifts使三个额外Euler因子在完整O[G]/Λ[G]为unit；对已付同源全norm的系统，乘单位逆精确保原n1并降成最高秩一因子。原秩一HS/HO及8.4替代元已付，尚不冒辅助集允许性/原系统/底非零/ordinary loc。

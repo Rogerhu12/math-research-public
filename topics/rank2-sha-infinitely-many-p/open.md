@@ -148,3 +148,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - R884I同U第二δ返回缩至真实质量1/2-new P16，其D1仍为同DR3加完整低配对；未消G18的Unew144。继续四原首行的同源联合关系，不能拿该trace的非零未补偿jet冒原BU非零。
+
+
+- R886原三extraEuler的实际辅助群环unit及保底归一已付，原rank1 HS/HO/8.4表示门齐。须连接同C02的完整有限层norm，并核允许的split-σ辅助集合；目前不因正密度或表示门已付而套Selmer结论，更不把balanced秩1替ordinary loc注入。
