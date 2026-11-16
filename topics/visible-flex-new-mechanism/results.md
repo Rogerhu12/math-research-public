@@ -116,3 +116,5 @@
 - [R543 稳定叶的严格正总矩与准确离叶记忆](results/R543-stable-large-gram-leaf-positive-matrix-density-and-exact-transverse-memory.md)：**已证明**任意非恒稳定叶高度往返仍总p1>0，固定有限TV路径的真实Oδ²跟踪保号；准确ρ′给重新落叶的负号门。合法有限几何目标兼容p1<0/t1^c>0，但真实进入与驻留尚未支付，不授同χ桥或M0。
 
 - [真正58全后缀34控制的实际迭代上限和准确盒失败](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：**已闭账**。SLSQP9/false/120iter，盒58/61及准确norm失败，0预测/actual，仍58。184.71003744799998秒闭至3231.8129525510003秒/147原full值，另142新两网物理点/120J。现有日志只3条尾记录，旧大MODEL/J/trace正文不可复用；下一释放原完整51系数，不重启旧scope。
+
+- [R545 完整快系统的振子能量转移与实际端点IFT](results/R545-complete-fast-height-loops-and-the-signed-oscillator-energy-transfer.md)：**已证明**保δA/δ²T的一阶振子和两真bump末端右逆；零入能闭高度回路的二阶ρ非负，振子返回只清该阶。原p1进入正、t1进入负，第三面积同步保；非零初能量的负j接口另列明确起点条件，不授跨χ拼接或M0。
