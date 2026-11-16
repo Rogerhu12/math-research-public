@@ -36,6 +36,8 @@ R397/186的128接受与完整576 audit不能补112/338；[R424/199](results/R424
 
 [210完整接口](notes/2026-11-16-request210-zero-flux-contracted-source-view-interface.md)实际source `b418c6e6e5428be5774917210878c41b4245fdf0`，公开Actions [run43807229341](https://github.com/Rogerhu12/math-research-public/actions/runs/43807229341)于2026-11-16T04:58:06Z/attempt1启动；compute133100660526在04:58官方metadata为前1–5成功、6安装runtime，实际源生成/绑定/科学及必要读回待起。exact唯一R472终态；执行状态不补数学通过。官方topic tree0a1b950e968fb58cace9745254ab775dc7f3a2b8为9239blobs/197348719B、9612entries且未截断。
 
+**已证明（限R473实际输入与局部语义）；新源未执行。** [R474](results/R474-finite-input-zero-coefficient-linear-implementation.md)/[接口](notes/2026-11-16-finite-trace-zero-coefficient-linear-interface.md)四件全文及完整flow差异已核：helper4832B/eb487b2d、flow9510B/1a5ce3f7、proof10209B/c7ab29f0、interface10604B/09bf81b6。每次实际A全部与被用T前K²词有限才跳`z===0`，否则原完整i/j/k；保+0分配、非零j顺序/原乘加、完整226×224及两mean，不要求T分块。有限输出词同，Inf符号/NaN分类同，不冒NaN payload；没有finite-output新门，正常return不等于科学通过。新flow明确导入已刊R471，原root/noJ/复制/fromCaptured/四场RK/cusp/observer正文不变。九计数、两真实fallback原因及最后i/j/未逐k范围保；不捕获重试、不重开钟，资格扫描的成本不冒同资源停止或速度。211/R475真实调用、来源闭包、必要读回及运行另付，不改冻结210。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。

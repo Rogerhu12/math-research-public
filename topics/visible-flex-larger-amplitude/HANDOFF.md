@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 04:59:14 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 1ba934ced85aa2f7780c8c3c24d2e1133e2bfd7e。
+规则同步记录：2026-11-16 04:59:53 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 cf017282f36d912aa383c26b18bd6efcc6fa4745。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -51,14 +51,16 @@ R465/f454d367付记录因子完整225×224名义收缩，实际缺陷/一般导�
 R466/4d647c24共13源/recipe；准确b→RN→全225×224/原fallback，原root/noJ/双mean/末门。208/9b05bfc5 request435e90b6/workflow101a84f5，140pins/18000秒，实际run见表。
 R471已刊d004a4e4，helper7111/e6ce9308、variation12597/d4f2f32b、proof15466/3d1a57be、interface11811/bf631c43；真实零tape/稀疏dL/原AD与每角全部方向有限才保原+0dFlux。false原loop，throw不捕获；原末矩阵/226双mean/dense linear/RK/全部门保持，局部词条件证明不冒全链速度或接受。
 
-[R473](results/R473-zero-coefficient-elision-in-complete-finite-trace-linear-products.md)已刊f7b46ef6，14166/93d57da3：原A与实际被用T前K²全有限时，原+0累加/非零j序下可跳z===0，有限输出词保持、Inf符号与NaN分类保持，NaN payload不付。原linear无非有限throw；未知/非有限输入须原fallback，不要求T分块，无实现/运行/速度。
+[R473](results/R473-zero-coefficient-elision-in-complete-finite-trace-linear-products.md)已刊f7b46ef6，14166/93d57da3：原A与实际被用T前K²全有限时，原+0累加/非零j序下可跳z===0，有限输出词保持、Inf符号与NaN分类保持，NaN payload不付。原linear无非有限throw；未知/非有限输入须原fallback，不要求T分块；当时无实现/运行，后续R474见下。
+
+R474本次刊helper4832/eb487b2d、flow9510/1a5ce3f7、proof10209/c7ab29f0、interface10604/09bf81b6；真实A/被用T有限才省零j，false完整原loop。原226双mean/root/noJ/四场RK/cusp/observer保持，九计数/末未逐k范围不冒有限输出或速度；211真实接线另付。
 
 ## 当前接续与未推重做
 
 临时源在/workspace/visible-larger-working；丢失依已刊接口/父源重做，不靠已删raw或SHA造证。
 - exact：唯一206/207/208/210终态；210六件及全部完整diff已读，前四件已刊a95eefc0（d07ec010/bc167385/67d7db28/577f8fec），request5b6e8787/workflow818a97f7已刊b418c6e6，run43807229341已绑。143已刊+11实际view=154，原参数/18000/全门保持。
 - geometry：唯一203/209终态；203七份必要JSON已取一次并核身份，R440全文未归纳前不填数学结论；209原C。并行只源/纸证定位当前C准确C²闭合最小未付点（R476预留），不添科学门。
-- amplitude：唯一204/205终态；R474四件完整候选在zero-linear-R474待root全文读，helper4832/eb487b2d、flow9510/1a5ce3f7、proofc7ab29f0/interface09bf81b6。独立211/R475接线草案进行，不改冻结210。
-- root：210实际run本次绑定；R474四件全文已读，下一立即刊出及处理R440实际终态。actual63已普通清理b696cc15；每pull核双README。
+- amplitude：唯一204/205终态；R474四件root全文读后本次刊；独立211/R475接线草案保原210143真实public和11由208重生旧view身份，新R474flow/helper及新factory/九计数实际接入，不改冻结210。
+- root：210运行绑定1ba934ce；本次刊R474，随后处理R440完整实际终态及205/207/209采样容量是否同阻塞。actual63已普通清理b696cc15；每pull核双README。
 
 210入口b418c6e6官方topic tree0a1b950e968fb58cace9745254ab775dc7f3a2b8：9239blobs/197348719B、9612entries，truncated=false。actual63两生成清单1441937B已普通删除，重做/全SHA见清理记录；不存新raw。
