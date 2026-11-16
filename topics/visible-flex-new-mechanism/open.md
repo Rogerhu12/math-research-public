@@ -154,9 +154,9 @@ R391原解析有限简单germ已付；R403/405新初选进一步降至共同母�
 [R406](results/R406-complete-weight-zero-natural-fluxes-and-canonical-joint-obstruction.md)，run43775998866两新Ω全local：n6=n4=0、n2非零（12密度/24Euler，Lrr=3x²(p−xr)(u−xp+x²r/2)²）。自然权零/增强商恰1，且Nall核本身缩放稳定，使λ+经完整N单独下降。原正时长同端口/闭frame/M0 canonical成本λ+=L+∫(h′/h)²>0，T=τH/常h都不例外，所以不能实际建全Λall0背景。有限固定profiles/有限读出或新增独立gauge不被自动排除。下一只处理当前有限包的ω_i/真实ordered总量、全部内部像与13同规范；若要排实际固定圆，须给其真实评价核到λ+的因子化，不能借universal障碍。8新人工/全部费用见[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/秩0重跑。
 
 
-### direct gate原构造修复已安装，待同预算首次真实求值
+### direct已获真实下降，读取28模型的停止原因后继续
 
-[第二次身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：43778983026几何/value/J/model/LP/接受全0，science累计28.690336299000023s。现用原FiveNullHeightGate.from_original重绑adapter并照常assert_context，物理门/163box/159bounds/14门逐项保持；仅audit及workflow文本变，其余151py不动。9项通过沿第二失败认证收据复用，新开发0；两必要log与prepare继续计同1800s/64LP/160值，不重加已含的首13.756976061s。第三run43780594182/job133016656592已success，但原日志下载两次Transport closed；只读observer唯一请求已发，待原始门/成本明细，不重科学。
+run43780594182/job133016656592第三尝试完成；只读observer核原raw8352495B/hash ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9、161/152源与9复用，28MODEL。η .26623355613853394→.26610226672562226、κ57.99972678574561，两网原硬门/exactbox真，.26仍假。stage affine-spectral-finite-model-stalled并非已证驻点。首selector超660KB只出LIMIT，下一窄读所有模型/14门/LP/末迁移/完整钟，保首两失败28.690336299累计及旧241s祖先；不重科学、不只加预算原样重跑。
 
 
 ### R399新的第二period内部通道已实际付至四点

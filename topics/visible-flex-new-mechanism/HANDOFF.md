@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。最后已读公开actual pull：7bfb32a3319a25e5fa24b7a2783da880a7e4db65，2026-11-16 00:18:56.472180 UTC，run43779613612/job133013590365；00:19:18核双README空diff。下次最迟2026-11-16 01:18:56。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
+根/题README已全文读。最后已读公开actual pull：8c4b12d019559d37fe38e5b355d9767b64b8b7bf，2026-11-16 00:40:25.061258 UTC，observer43781737655/job133020248595；00:42:51读双README空diff。下次最迟2026-11-16 01:40:24。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有actual pull：ec0cccb24aca86f39faa93eab4b215ec42a1f98e，00:18:59.420045 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README不存在、QUEUE本会话唯一进行中。ref冲突均已真实rebase/核差，保log。
+私有actual pull：34c1c3af450911ffcbd883958b29a150a71d00c6，00:40:28.264908 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。原科学run00:29两pull详细记录待窄selector读出，现规则未变。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（00:38复核exec-server仍缺失），依根8小UTF8发布；API非pull。
 
@@ -50,4 +50,4 @@ R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不�
 
 ## 5. 继续
 
-[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：run43778983026/job133011642024/source439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c，9已付仅复用/order8修复/438与祖先γ迁移构造通过；新adapter仍接旧gate，原assert_context在首次ordinary前挡住，geometry started0/J/model/LP/接受0。累计science28.690336299s/本次14.933360238s，process16.883830579s/RSS296988KiB。原构造新gate及原assert_context源码已装，唯一同预算修复run43780594182/job133016656592已success，但原日志接口Transport closed，只读observer源码/唯一请求已发，科学明细待读；同1800s/64LP/160值累计、9不重跑。工厂实际绑定仍pending，速度/下降未知，旧241s另列祖先。[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保原范围。理论R412同母四约束/19根已付；R414高商仅共同合法窗口下已付，续R415余下四低函数/PSD，主完成门欠，持续open/actualpull。
+第三direct run43780594182/job133016656592/sourcea0d71ea94446f0fcf64d1f69e4dbadd5910204ba已完成。observer首读原raw8352495B/hash ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9，161/152源闭包同、9仅复用、28MODEL。已读最终η .26610226672562226（降低.00013128941291168372）、κ57.99972678574561、两网原硬门/exactbox true、.26目标false；stage affine-spectral-finite-model-stalled，非驻点声明。selector拟2439337B超660KB只输出LIMIT；正收窄读全部原模型/14门/LP/迁移/费用，未重科学。两失败science28.690336299已含在同1800s任务，最终累计钟待读；旧241s祖先单列。[两失败note](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保范围。理论R414共同合法窗口下高商已付，续R415四低函数/PSD及全period。主完成门欠，持续open/actualpull。

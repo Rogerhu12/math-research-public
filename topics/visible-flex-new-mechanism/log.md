@@ -441,3 +441,8 @@ Astra-new-mechanism-9974ea84：第三科学run43780594182/job133016656592/source
 ## 2026-11-16 00:41:06 UTC｜R414共同高自然商与真实有限控制完成其明确实施范围
 
 Astra-new-mechanism-9974ea84：[R414](results/R414-common-high-natural-quotient-and-actual-finite-C1-sections.md)，20561B/hashf469691f2cd37f6815a947fe11f40778697ceaa20eea26c698da7b2269675b72。根核全部共同A定义、辅助3+2系数延拓、zero权、R323四个具体等像、R188/190/parity与两次商校正/全部真实桥基准；指出先冻库坐标与后选合法I的次序问题后，定稿将共同窗口列明确实施前提，整体一次识别仅可逆输运商/目标，不改旧seed。F★与19根沿同四约束流形，未拼各母路径。无科学/开发执行。H压缩已付历史；open保R383各已付门及R387/388范围并删重复展开。基底8c4b12d019559d37fe38e5b355d9767b64b8b7bf。
+
+
+## 2026-11-16 00:43:29 UTC｜只读LIMIT保留原实测下降与新actual pull
+
+Astra-new-mechanism-9974ea84：observer43781737655/job133020248595/source613ad21d12fb4bcdda3bb0f61d0f8588503158be仅只读8.030806682s；原raw8352495B/hash ee418c296ab6af5cac1066a19811cc0393c53f7b576244b151183e09f1fe62c9首次已读，COMPLETE+LF3981391B/hash c9731defe5d0bc80b6f8aaad43e9a834a45e2a53618668c05ec8e06f93ce8c90。28 MODEL/161源152py全核，9仅复用。实际最终η .26610226672562226（改善.00013128941291168372），κ57.99972678574561，原双网硬门/exactbox真、13/50未达；stage finite-model-stalled，未称驻点。selector拟2439337B超660000，只输出24616B LIMIT/hash1dede22c3d1ddcf4bc6063716431ca3e56799d5b11c9ea2fd330af20d70c5da7；全部模型/门/LP/末态/终钟尚待窄读，不能从success补造。公开actual rebase00:40:24.419620→00:40:25.061258，613ad21d…→8c4b12d019559d37fe38e5b355d9767b64b8b7bf；双README空diff。私有00:40:27.672217→00:40:28.264908，前后34c1c3af450911ffcbd883958b29a150a71d00c6，根同/题无/QUEUE唯一进行中。根00:42:51读，次限01:40:24；observerlog92970B/hash63c606e63b300ac3e4898798f7605c3127a69622438e3dbf701682285e063c3a。无研究/开发重放，继续窄观察。基底058ab69c35a372f1f77e47d4f2389c41099ff128。
