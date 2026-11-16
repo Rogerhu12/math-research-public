@@ -432,3 +432,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [真正57全168非线性任务：原两网接受58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：**实际通过**原14门/准确172盒，ηmax.26600541463999305，κfine57.9997782607127，下降.0000016540087044436547；接受后完整保存paid selected二jets。新185.978494641秒/4值闭，累计2830.778901609秒/147值；.26/连续主门未付。
+
+- [R512 固定紧母与完整线性路径规范、常态全词障碍](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)：**已证明**一次固定二/三规范的完整K0线性函数方程，保全部canonical/history及严格正速度二次Gram；真实右末gap给含正长度常scalar bulk全词严格排除。尚无非恒全M0/period词，不授函数像满秩或主完成门。

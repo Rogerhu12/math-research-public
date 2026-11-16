@@ -109,7 +109,7 @@ T-surface、可弯管或变换共轭网须同时付端口位置、切平面、�
 
 HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几何、ODE/积分、优化及完整符号工作只在公开GitHub Actions；本地只纸证、源码文本/语法与已发输出解析；当前新增人工/API检查亦先公开Actions。按根规则12，不添加冻结、复核、重复运行的机械门。
 
-根15只留源码/参数/run/SHA/结论；当前终端再次unavailable，按根8小UTF8集成发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
+根15只留源码/参数/run/SHA/结论；终端现可用，两仓已部分克隆并用真实Git接续发布，API不冒actualpull。每实际pull核双README，有变只读差异，NFF立即rebase循环再推。规则SHA与私有QUEUE同步见HANDOFF；新科学/人工仅本公开Actions。
 
 
 
@@ -206,3 +206,10 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [完整原观察](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)run43859882465新支付2ordinary/2selected J、2finite/82iter164系统、2全网、23新metric梯度；固定7真实坐标非线性metric/curvature候选中α1/4第一actualpair原14门/准确172盒接受58。最大η.26600541463999305、真实下降.0000016540087044436547；κ细57.9997782607127峰移非轴，.26仍未过。学习无新行，4454/4549池v15/14保原顺序；接受后paid selected二jets完整导出，0几何/J重放，但不等于全圈二jets或58 J。
 
 本185.978494641秒/4full值与全部旧账合2830.778901609秒/147值，0overrun，接受即闭余额。report8MiB投影exit1/46记录0parseerror，原actual/FINAL完整，不声称所有大数组无损。下一新scope使用真实58全圈R511系数及完整原172盒，不重开57新任务；原固定g全时族、连续metric与reach/宏观门继续未付。
+
+
+## 2026-11-16 12:13 UTC：R512固定紧母的完整全路径方程与常态全词排除
+
+[R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)新增一次固定的紧母v和有限秩二阶规范，原三合法矩/完整Y–third由同形复制消去；同一第三Gram保整个平方后，完整K0等价于关于(v,ν*)的一个线性全路径函数方程。原canonical/history与真实传入矩阵保，严格正定速度二次Gram不变，有限真实泛函像不授满秩。
+
+最右非零微包前的真gap使常scalar开区段上E(qc,qc)>0，canonical能量有严格正t²项，而固定二/三规范只能给至多一次项。因此本同形第一圆任何含正长度常态bulk的真实词严格失败；原R70词不能靠这类规范修复。这不排其它圆或非恒长程词，也不授全M0/period；下一项用同一函数方程和原矩阵ODE构造真正非恒的完整连接，全部端germ/height/frame/位置/3/4/13成本原样支付。

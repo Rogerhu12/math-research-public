@@ -721,3 +721,7 @@ Astra-new-mechanism-9974ea84：R498新任务已见run43845218578/research1332235
 ## 2026-11-16 11:58 UTC — Astra-new-mechanism-9974ea84 / 真正58原14门接受
 
 公开run43859882465以2finite/7非线性尺度后α1/4原两网接受58，ηmax.26600541463999305/κfine57.9997782607127；原14门/172盒真，selected二jets完整保存。185.978494641秒/4新值闭，祖账2830.778901609秒/147值；report仅语义投影不完整，actual/FINAL完整，主门未付接ring17。
+
+## 2026-11-16 12:13 UTC — Astra-new-mechanism-9974ea84 / R512完整规范方程
+
+R512证明固定紧母二阶规则与同一第三Gram把完整K0化为线性全路径方程，原history及速度正定Gram保；最右真gap给常scalar区段严格正t²障碍，排当前同形圆所有含常态bulk全词。未授非恒全M0/period，继续真实长程连接与58整圈任务。

@@ -32,11 +32,11 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 **真实路径。** R469/472保A/T/全部W/V；R482原13状态/2输入、完整K与Mraw、R484保护芽rank边界、R486仅开域障碍、R488 secant t1′<0、R492 period/13锁、R494真实桥odd残值均继续。R500异ω前缀差商只消相对门，不能删共同门/桥K；详原索引。
 
-R503–507同一母/w/χ的所有history/尾/端germ义务保原证；R507仅h/k/ω返回、完整K0，t1负Oε、全frame/位置/3/4未回，不冒M0/period，旧母/19/20门及13收据不移植。
+R503–507保同母/w/χ、全部history/尾/端germ与原费用。[R507](results/R507-real-nonsecant-scalar-return-loops-under-one-complete-ruling.md)只付h/k/ω返回和完整K0，t1负Oε；frame/位置/3/4未回，不授M0/period。旧母/19/20门及13收据不移植。
 
-[R508](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)另从起点选同形母与原B=P−cR_y规范，完整β=0保整secant；高三阶/低二阶有限母使实际∂γE≠0，原germ可平滑离开。实际三权Wronskian=(1−v²)/4给终k/ω复位而原m_p2可取小双号。其余七矩、高度/frame/位置/全3/4传递皆保真实成本，未付纯p2/全period/M0，不能移旧13收据。
+[R508](results/R508-nonzero-second-gauge-opens-secant-exit-and-two-sided-matrix-port.md)从起点选同形母与原B=P−cR_y，完整β0付整secant；高三阶/低二阶有限母使∂γE非零，原germ可离开。三权Wronskian给终k/ω复位与m_p2小双号，其余七矩及全部几何/3/4仍付真实成本。[R509](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)四normal复位k/ω/p0^y/p2并给p1^y=η>0、五端submersion；完整Volterra界C≤1/2时p1≥¼∫k²，全M0迫C≥1。不能叠短片冒全矩/period返回。
 
-[R509](results/R509-five-endpoint-real-half-image-and-exact-short-bridge-boundary.md)在R508同一实际族以四normal IFT复位k/ω/p0^y/p2，并准确给p1^y=η>0；非零点五端submersion。完整Volterra式使C=L hmax||h′/h²||∞≤1/2时p1≥¼∫k²；全M0迫C≥1，不能叠同类短片冒复位。其余五矩/height/frame/位置/全3/4均保真实成本，继续离开短盒的同规范连接。
+[R512](results/R512-fixed-compact-second-mother-and-complete-linear-path-gauge-obstruction.md)固定紧母v给有限秩二阶规则，同一个第三Gram承担完整平方后，全路径K0恰一个关于(v,ν*)的线性函数方程；所有canonical/history保，速度正定二次Gram不变。最右微包前真gap证明常scalar区段的canonical能量严格正t²系数，故任何固定二/三规范都不能修复含正长度常态bulk的本同形圆全词；不排其它圆。继续真正非恒长程词并联立原M/period/13门，未授函数像满秩或全词存在。
 
 ## 4. 当前真正接受点58与闭合科学账
 
@@ -52,7 +52,7 @@ R503–507同一母/w/χ的所有history/尾/端germ义务保原证；R507仅h/k
 
 原COMPLETE5606777B/e20a2149a50ea86becc177724235b6991d597d541c583fad85df3d1d3a739604，FINAL199299B/6a8e4724000f16429ed6c72607a92611647159207a18ce8e6a218b97269113de。report因8MiB投影incomplete/exit1，46记录0parseerrors，实际/FINAL完整、大数组只留身份；不称全日志无损。永久constructor仍原55COMPLETE，仅构造来源，不当58点。
 
-## 5. 正在接续（2026-11-16 11:58 UTC）
+## 5. 正在接续（2026-11-16 12:13 UTC）
 
 R510/R511后继纯ring17源稿按真实58绑定，目标1000/61，先恢复完整两网峰圈S，再付共同17的fullΠ系数。原172盒内min h不强加旧1/128为门，只对照所需幅度；最多一次新18变量LP、全部新frame/Π/curvature/solver另账。准确嵌入与最终binary64舍入分开，后者必须完整非线性predictor和原14门；该任务尚未执行。若固定列排目标就转R0/R1改变真实值/一阶jet，不能重解R2或动已闭57预算。
 
