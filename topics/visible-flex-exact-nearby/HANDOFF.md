@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 09:42:56 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 09:43:51 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，最新11-16 09:42:55非FF真CLI仍无executor，下一本地尝试≤10:42:55。最新CI成功真pull为43840219992/1于11-16 09:30:07.754563→dfd6759e8b8b6e1d4b596391a0b56b908d7e3eb6；两README完整diff空/同已读，exec0c181a20保4次全回执。下一真pull≤10:30:07；ref读取不冒真pull。
-最近只读README核：5868c1aa02b87660dc1b24be5f1646938fe39f47；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：28f05aae0e0220c4a97c923af2ba90d2a0cd3d97；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -47,7 +47,7 @@ WOB f13024a7（results/R133-supplement-complete-outer-rows-and-signed-root96-inv
 
 ## 恢复、容量和执行
 
-所有普通派生清理的精确path/blob/SHA/bytes/restore/原成功失败/排除项，完整保05f9f3b3前档及各已先推白名单；包括dense-s3/phase24/nonlinear等递归原项、s10/linear-s3/integrated/repack/r010、R106两float与forward419单派生。全部已freshguard普通删，禁止再次删除或重旧数学；canonical/native/source/定义/候选/原失败和恢复身份不变。最新R106白名单182605cd先eb6e53fb后282ec084删两原report；forward419白名单5dae1840先1e46edf0后b379ea09仅删b4b38937/186855B，restore b57a9a4d原path，完整原scope在白名单。
+全部已成派生清理的精确path/blob/SHA/bytes/restore/原成功失败/排除项保上述完整H递归档及各先推白名单：含2Newton/早期多report、s10/linear-s3/integrated/repack/r010、R106两float、forward419单派生。均已普通删，禁止重复或重旧数学；canonical/native/source/定义/候选/失败不变。最新central reflected-source白名单9c1d1cc7已先推待freshguard：仅ba9fe605/173761B，restore79da26b47506828352640cfd247b6783eac57a4d同path；原全部215cell/source/双mean/双flux及旧scope保该白名单/小proof，0新数学。
 
 b379ea09下topic199600939B；新包及全部已成输出须继续以fresh Git-tree metadata核容量。只读旧原件临时恢复核完整身份，禁重跑已成source。每次新consumer启动前/立即启动前保完整输出预算+120KB；已成/失败原字保存只需实际≤200MB。源/manifest原字冻结后单独workflow触发，存在consumed marker即阻止新科学。任何失败先核完整prefix与实际边界并记H，才可另定义未保存/未计算续量。
 
