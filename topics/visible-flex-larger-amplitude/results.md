@@ -113,3 +113,5 @@
 - **R583（已证明的有条件源码等价及完整安装接口）**：[完整内循环模式观察与原乘积字](results/R583-complete-inner-loop-rounding-observation-and-original-product-words.md)。四loop实际mode稳定时保八路径RN128/完整统计/原求和；六plan/24依赖/一次真owner安装完整，未声明科学接受或速度。
 
 - **R596（已证明的同场条件缺陷与完整实现）**：[实际保存RHS、全有限DFT和原cubic/quintic单元连接](results/R596-actual-saved-RHS-and-complete-finite-DFT-defect.md)，[完整接口](notes/2026-11-16-actual-saved-RHS-and-complete-finite-DFT-defect-interface.md)。全DY/DU来源/全N双mean/实际Q-C_lit/R521连接已成；真实场数值、caller/原reader接线由R597继续，无新增接受门。
+
+- **两22/23历史manifest（行政来源与固定恢复条件结论）**：[独立完整审计、真实生产/读取链及狭窄整理](notes/2026-11-16-two-twenty-two-three-domain-manifest-retention.md)。仅两份完整静态副本，共1228897B，所有其他现存输入与真实artifact读取合同保；最新delta/实际发布由正文回执绑定。

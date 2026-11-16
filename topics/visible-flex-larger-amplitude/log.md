@@ -165,3 +165,7 @@ R583 header/adapter/plan及完整证明写完即普通发布；原全核两替�
 ## 2026-11-16 16:19 UTC /root — R596 同场保存RHS、完整有限DFT与原cubic单元缺陷
 
 R596三件104903B完成即独立刊：真实CP/capture/all RHS字、四原物理源、准确有限DFT全N全行、Q/C_lit整cell残差及R521真实sample-fill/transfer，cp.directory新来源修复与全正域范围明确。未注册新run/owned/cleanup，不伪报数值或接受；R597249继续接线。R583已7c16a9e8真pull/普通push，双README未变记H；retention5后续只做已明确两件清理。
+
+## 2026-11-16 16:23 UTC /root — 两22/23完整引用说明与狭窄历史整理
+
+固定7af9的新审计77014B原必要已完整恢复；18组93行、真实engine导出/artifact读取根/parent与B model用途全明。普通移除仅两manifest602356+626541B，全部其他输入/arrays/warm/status/source保；每真pull对全26patterns最新delta/候选全字/仅两删除/容量实际守卫，未知或超限不推。行政workflow仅专用分支，未改main共享workflow；原NFF立即pull再普通push，真实回执随后补。
