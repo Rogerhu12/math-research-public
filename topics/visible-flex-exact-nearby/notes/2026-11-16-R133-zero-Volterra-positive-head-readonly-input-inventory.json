@@ -1,0 +1,533 @@
+{
+  "kind": "complete_readonly_positive_radial_head_zero_Volterra_input_inventory_v1",
+  "status": "text_and_metadata_only_no_scientific_evaluation",
+  "scope": {
+    "member": "same admitted selected delta_star; old complete numerical bounds cover real |delta|<=1e-8",
+    "intrinsic_parameter": "same fixed eta_0",
+    "positive_interval": [
+      "the same genuine intrinsic root",
+      "25/8"
+    ],
+    "body_cut": "1192029371497/5000000000000",
+    "head_dimension": 193,
+    "first_high_index": 97,
+    "physical_high_minimum": 388,
+    "highest_coupling_index": 288,
+    "ordinary_radial_measure": "dr",
+    "head_norm": "fixed normalized reflected raw angular Euclidean L2",
+    "body_high_input": "ordinary L2_r H_phi^(-2/3)",
+    "high_state_output": "L2_r H_phi^(-1), independent mean is separate",
+    "negative_head_not_covered": true
+  },
+  "complete_existing_text_inputs": [
+    {
+      "role": "negative_one_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/evidence/full-real-delta-negative-one-positive-graph-summary.json",
+      "git_blob_sha": "3abd0f6b7291e0f9318dc035a58a4b6e8dfb851c",
+      "bytes": 41797,
+      "sha256": "0a3fb8e1be19b9ad82655099da8d5446ac49d92f073e7f6626d08a0626ec4fef"
+    },
+    {
+      "role": "negative_one_process",
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_negative_one_positive_ci/run-43627228225-1-full-real-delta-negative-one-positive-graph/process.json",
+      "git_blob_sha": "4dc9280cb3761b36af71f795fbafcb8749af4663",
+      "bytes": 16380,
+      "sha256": "f4ac37531a76893b62050d3291f5227f343ad9f48e3365783bff1a52c451a3f1"
+    },
+    {
+      "role": "negative_one_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_negative_one_positive.py",
+      "git_blob_sha": "327f24e3c4a2864d8ba401f0d574f112a4a90d26",
+      "bytes": 22029,
+      "sha256": "16ffa1a5b3753bc2a70fcf979814b18161df90ae8997510acc8feafac2a88509"
+    },
+    {
+      "role": "collar_process",
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta96_root_collar_ci/run-43606747196-1/consumers/process.json",
+      "git_blob_sha": "d10f4681c84ab579b8121b16e6246604a608a715",
+      "bytes": 11340,
+      "sha256": "f919ecd9da5d447cf8950d1b267c28c7c33c2c396b21318b64a45317646745ae"
+    },
+    {
+      "role": "collar_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta96_root_collar_budget.py",
+      "git_blob_sha": "602a8a3df10c4319446909a56d532ba88b0a6367",
+      "bytes": 15041,
+      "sha256": "8d3ab188d47a1aa81cbc304350655f2172333b435fdf0e09482b245f957917bf"
+    },
+    {
+      "role": "body_process",
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/process.json",
+      "git_blob_sha": "eb294ed3b3a1cef61a3a6a1ecf7e469a7842167c",
+      "bytes": 11040,
+      "sha256": "1a0be497981ed6e5f47546892c390fec5820b02671ff9eb83a37af47b26ca395"
+    },
+    {
+      "role": "body_summary",
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/evidence/full-delta-complete-positive-N97-high-inverse-summary.json",
+      "git_blob_sha": "ffea3e8fa1690c3c9492857728057d9d6e17bf64",
+      "bytes": 21555,
+      "sha256": "2da26c59fcbf212fc669cd29efdc9eb27489ae5a11f8dc51bea801b733ba9ef9"
+    },
+    {
+      "role": "body_source",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_full_delta_positive_high_Volterra.py",
+      "git_blob_sha": "f4dd9ad8b324e39fed478183b88095c949d5c09a",
+      "bytes": 19660,
+      "sha256": "0df3ae7181d5ac8808928e9b0ed4bcf225fa3f80ae5df944b2a96a5e4d3ae117"
+    },
+    {
+      "role": "body_parts_manifest",
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts.json",
+      "git_blob_sha": "aabe1eb46cb52e41c8191960a2a998b437ca47e7",
+      "bytes": 6002,
+      "sha256": "7b1967565a0ff0a4d9855734a3f0a0621c8049160099e066d8f34ecb35cdd3a3"
+    }
+  ],
+  "historical_parts": [
+    {
+      "index": 0,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part000.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "29713df4531c214b0beb8a5dd2c0d4d979fe0cf5",
+      "bytes": 1950382,
+      "sha256": "29ffdceeff0c76ab958e84fd74506bafb07a60e2f178ddb880f50dbe25189b1c",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "7fed6abf740c51d6cad803d734a12dfa1ffad16e8e1b8d0ee1ec7c644f21644e",
+      "offset": 0
+    },
+    {
+      "index": 1,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part001.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "4101dbabd5e12148f0ace33a94ab196cc0f54a84",
+      "bytes": 1942995,
+      "sha256": "04a4b04ccbe536783dddd37dd833fdf5623dab720b64a15432f3761d5b4b92dc",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "a7c6f631ffe919646be272ae4b47368f0ad03a2690ecf1887b5969f452dd820a",
+      "offset": 2000000
+    },
+    {
+      "index": 2,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part002.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "f36fd4d2e7f726f1ec85de274d42eba951bb80f5",
+      "bytes": 1957508,
+      "sha256": "45a7970b370f0db0c3f1e6bd398a3dda61e5b31a594843b30550ac1e7e4be41d",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "8682a419fcc1ce8e60a80b5ef4e1459d6703f14d4126f9f326522f11d021588e",
+      "offset": 4000000
+    },
+    {
+      "index": 3,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part003.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "af0c21edcb2c1b8afd12d8912776761af98d6c97",
+      "bytes": 1947192,
+      "sha256": "65f2753cd0a59d903f29520c3cad919d0b07658e90efab1bb27a1fbdb6fdc258",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "30125ee16d054b94801f16390b146c55ab11bff5c1d0399411775d346da3807f",
+      "offset": 6000000
+    },
+    {
+      "index": 4,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part004.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "7ff35ffda99968c18a88ece1ac508c02d1bde8f7",
+      "bytes": 1958541,
+      "sha256": "289daa745077005479ee1d5e2a025de70f7f9f6603ea55da085b5a03991d770e",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "ad6a1f7ee7246a05ebf12e6f0f4a9de32718596384d4de3e2d59257ce0d8e8c9",
+      "offset": 8000000
+    },
+    {
+      "index": 5,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part005.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "9438fbad8a7341b04ba83a2fce83af92ebab2811",
+      "bytes": 1965294,
+      "sha256": "737f041a4d3e85506ba180d188ec940958b6f0397694f4265b373c69f8e6b9bc",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "3f8557a19e436d568f8a865d6e50c81e8a503da6b506c5ef224d8495dd1b595e",
+      "offset": 10000000
+    },
+    {
+      "index": 6,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part006.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "d1849d9d7036f4c7eb8208b74d0c11d263f6f4f4",
+      "bytes": 1973101,
+      "sha256": "dc746368d68fa83b0a73d2a201f1657951eea22badda2ed834629df09c6cf3e6",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "08369d01142932fa08d03481d615b7fae3a0afc5747da94d73d6b1b9e2e66d3f",
+      "offset": 12000000
+    },
+    {
+      "index": 7,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part007.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "2b2d0bd7348056ad39ba38f38461bcefba9b4f67",
+      "bytes": 1966242,
+      "sha256": "68d3d37ed07b5da7c2152a1ba1276cc8b478e2f63186985229e02145b077ca66",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "902852b0176e85cead1ba5cbd25b9545b175cd0ca6f4e32292d8c2c997a9f7c1",
+      "offset": 14000000
+    },
+    {
+      "index": 8,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part008.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "581826fdfd500573948c5a880e4862f7824d3059",
+      "bytes": 1904549,
+      "sha256": "49e156dac95cb7d83c9b550e127fe6c9f5908132fae6cc366144ab6c08898006",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "e6a4a6fee10f6151711deccc7b5f2c8b50459aefc64572f5f143ee1f9520db3e",
+      "offset": 16000000
+    },
+    {
+      "index": 9,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part009.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "ff6671fd2058a5dd986999f3371e3ab9be775246",
+      "bytes": 1916409,
+      "sha256": "167ef3b72d2ffde736aa8f80d7291595a85e55195cac71cad3369b89d32762ea",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "0305608356742ef6e0719d35c57f4090d3e9f919dfc9aac6093f7d412719af7f",
+      "offset": 18000000
+    },
+    {
+      "index": 10,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part010.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "54384fa7d28f5cabfbfcb6713f68be6c8bbf0f37",
+      "bytes": 1905000,
+      "sha256": "3f01244217179906a6d72ad79b5bfb47a2590fd08089d44c05cbd920307a67f7",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "03a6099aa1c94ef48c5afe3fa9bf5f2a31a391c20b9a536700c5255e4e66e552",
+      "offset": 20000000
+    },
+    {
+      "index": 11,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part011.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "b6b9beb2d1dc04414d876d3d8f54fe4c0d2b5dd4",
+      "bytes": 1917716,
+      "sha256": "6ab32449559227533336ac0bbeb542db81ff77e2825b484d5f71da2d06094f2a",
+      "uncompressed_chunk_bytes": 2000000,
+      "uncompressed_chunk_sha256": "0d173d9c85d91c8fe9f17e47d156eb2586b9df04d3ff2461e0c051da7c861829",
+      "offset": 22000000
+    },
+    {
+      "index": 12,
+      "path": "topics/visible-flex-exact-nearby/notes/full_delta_positive_ci/run-43615531666-1-full-real-delta-positive/native-full-delta-complete-positive-N97-high-inverse.json.gz-1f3e5fa630f39a66-parts-part012.bin.gz",
+      "commit": "12b06502f2e4d522ca5dc16d6064267859b3a0a1",
+      "git_blob_sha": "f729e93ca369c775c3b558672361e9e04c1f7807",
+      "bytes": 1447672,
+      "sha256": "4a8f09d4ea4ff3c62352a059f69f37017089b00da8cc853dd8b13c227a679819",
+      "uncompressed_chunk_bytes": 1507783,
+      "uncompressed_chunk_sha256": "0a12b0cccc436d3a6bd8fbbc48c13037788fb9a4bda359e417a1ae73e688faed",
+      "offset": 24000000
+    }
+  ],
+  "native_restoration": {
+    "source": "same successful full_delta_positive run 43615531666/1",
+    "complete_container_bytes": 25507783,
+    "complete_container_sha256": "1f3e5fa630f39a667a96102f103ac8977d00e580f698a83904f361c5a05c6f3c",
+    "two_stage_decoding": "gzip-decompress each original part to its byte chunk; concatenate in exact offset order to the original gzip; check complete container bytes/SHA before one final gzip decode",
+    "native_kind": "actual_full_real_delta_complete_positive_N97_high_inverse_v1",
+    "metadata_only_directory_and_history_read": true,
+    "binary_content_fetched_by_author": false,
+    "run_only_in_authorized_public_Actions_temporary_directory": true,
+    "old_producer_imported_or_called": false,
+    "parts_manifest_complete_native_rows_original_value": 0,
+    "parts_manifest_zero_is_not_the_per_order_complete_rows_count": true,
+    "expected_per_order_closed_rows": 4650,
+    "expected_right_interfaces": 3594,
+    "body_global_maxima_were_previously_saved": false,
+    "parts_manifest_candidate_sha256_original_value": null,
+    "complete_original_gates": [
+      {
+        "name": "all_original_completed_body_source_and_continuous_direction_bytes_unchanged",
+        "passed": true
+      },
+      {
+        "name": "actual_complete_same_repaired4650_body_and_both_original_orders_retained",
+        "passed": true
+      },
+      {
+        "name": "complete_original7721_raw_response_envelopes_and_true_mean_source_retained",
+        "passed": true
+      },
+      {
+        "name": "same_complete_continuous_Z_and_all193_states_and_independent_mean",
+        "passed": true
+      },
+      {
+        "name": "actual_new_complete_full_delta_outer_graph_in_the_same_true_global_reference",
+        "passed": true
+      },
+      {
+        "name": "complete_raw_response_envelope_cover_is_exactly_zero_through25over8",
+        "passed": true
+      },
+      {
+        "name": "all4650_original_positive_cells_and3594_interfaces_preserved_with_complete_Z_cover",
+        "passed": true
+      },
+      {
+        "name": "whole_real_family_keeps_full_mean_speed_and_physical_inverse_gap",
+        "passed": true
+      },
+      {
+        "name": "new_true_delta_reference_all_frequency_Riccati_lower_flows",
+        "passed": true
+      },
+      {
+        "name": "complete_full_delta_unbounded_high_inverse_order_0",
+        "passed": true
+      },
+      {
+        "name": "complete_full_delta_unbounded_high_inverse_order_1",
+        "passed": true
+      }
+    ],
+    "expected_homogeneous_orders": [
+      0,
+      1
+    ],
+    "native_row_schema_from_original_source": {
+      "inflated_rows": {
+        "length": 4650,
+        "index_field": "index",
+        "interval_field": "interval",
+        "original_interface_field": "original_right_interface",
+        "non_null_original_interface_count": 3594,
+        "full_records_retained": true
+      },
+      "orders_complete_rows": {
+        "length_each": 4650,
+        "index_field": "original_row",
+        "interval_field": "interval",
+        "bound_record_fields": [
+          "ball",
+          "lower",
+          "upper"
+        ],
+        "required_saved_bound_names": [
+          "low_to_high_source",
+          "high_to_low_raw",
+          "head_generator"
+        ],
+        "full_records_retained": true
+      },
+      "exact_radial_interval": [
+        "1192029371497/5000000000000",
+        "25/8"
+      ],
+      "original_progress_counter_not_reinterpreted": {
+        "field": "actual_new_scalar_rows",
+        "preserved_published_value": 4608,
+        "actual_complete_rows_field": "complete_original_rows"
+      }
+    }
+  },
+  "readonly_literal_inputs": [
+    {
+      "role": "negative_one_summary",
+      "path": [
+        "response_rows",
+        "entire_positive_raw_L2r_Hminus1",
+        1
+      ],
+      "name": "C_c",
+      "type": "complete saved record; parse saved upper as interval then upper endpoint",
+      "original_record": {
+        "ball": "[0.109319620282863738374956159433910930938529803492544432340397 +/- 5.55e-62]",
+        "lower": "[0.109319620282863738374956159433910930938529803492544432340397 +/- 5.55e-62]",
+        "upper": "[0.109319620282863738374956159433910930938529803492544432340397 +/- 5.55e-62]"
+      },
+      "meaning": "whole positive rawstate from collar ordinary source"
+    },
+    {
+      "role": "negative_one_summary",
+      "path": [
+        "response_rows",
+        "entire_positive_raw_L2r_Hminus1",
+        2
+      ],
+      "name": "C_b",
+      "type": "complete saved record; upper endpoint",
+      "original_record": {
+        "ball": "[1.53217269674100423344574677508789880873905993470477766300072 +/- 9.68e-61]",
+        "lower": "[1.53217269674100423344574677508789880873905993470477766300072 +/- 9.68e-61]",
+        "upper": "[1.53217269674100423344574677508789880873905993470477766300072 +/- 9.68e-61]"
+      },
+      "meaning": "whole positive rawstate from body ordinary source"
+    },
+    {
+      "role": "negative_one_summary",
+      "path": [
+        "constants",
+        "high_to_head_over_original_ALH"
+      ],
+      "name": "shell_1153",
+      "type": "exact original record",
+      "original_record": {
+        "ball": "1153.00000000000000000000000000000000000000000000000000000000",
+        "lower": "1153.00000000000000000000000000000000000000000000000000000000",
+        "upper": "1153.00000000000000000000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "role": "collar_process",
+      "path": [
+        "exact_rational_contract",
+        "low_to_high_L2"
+      ],
+      "name": "A_c_raw",
+      "type": "exact rational string",
+      "original_value": "23/2"
+    },
+    {
+      "role": "collar_process",
+      "path": [
+        "exact_rational_contract",
+        "high_to_low_L2"
+      ],
+      "name": "L_c_raw",
+      "type": "exact rational string",
+      "original_value": "58/5"
+    },
+    {
+      "role": "collar_process",
+      "path": [
+        "exact_rational_contract",
+        "low_generator_upper"
+      ],
+      "name": "G_c",
+      "type": "exact rational string",
+      "original_value": "62286/125"
+    },
+    {
+      "role": "collar_source",
+      "path": [
+        "main",
+        "expected"
+      ],
+      "name": "rstar_interval",
+      "type": "AST integer arguments of the two q(numerator,denominator) calls assigned to main.expected; exact Fraction interpretation only, no old source import",
+      "original_value": [
+        "1191984371497/5000000000000",
+        "2383968743003/10000000000000"
+      ],
+      "meaning": "same true root enclosure guarded in original successful collar source"
+    },
+    {
+      "role": "negative_one_summary",
+      "path": [
+        "fixed_body_cut"
+      ],
+      "name": "c_body",
+      "type": "exact rational string",
+      "original_value": "1192029371497/5000000000000"
+    },
+    {
+      "role": "negative_one_summary",
+      "path": [
+        "entire_positive_interval",
+        1
+      ],
+      "name": "R",
+      "type": "exact rational string",
+      "original_value": "25/8"
+    }
+  ],
+  "new_named_maximum_targets": [
+    {
+      "name": "H_b",
+      "path": [
+        "orders",
+        0,
+        "complete_rows",
+        "*",
+        "bounds",
+        "low_to_high_source"
+      ],
+      "source_norm": "complete B_HL: raw head L2 -> high H^(1/3)",
+      "count": 4650,
+      "original_row_field_is_complete": true,
+      "maximum_was_not_evaluated_or_saved_previously": true
+    },
+    {
+      "name": "L_b",
+      "path": [
+        "orders",
+        0,
+        "complete_rows",
+        "*",
+        "bounds",
+        "high_to_low_raw"
+      ],
+      "source_norm": "complete B_LH: shell raw L2 -> head L2; original formula also majorizes raw B_HL",
+      "count": 4650,
+      "original_row_field_is_complete": true,
+      "maximum_was_not_evaluated_or_saved_previously": true
+    },
+    {
+      "name": "G_b",
+      "path": [
+        "orders",
+        0,
+        "complete_rows",
+        "*",
+        "bounds",
+        "head_generator"
+      ],
+      "source_norm": "complete A_L: full193 raw head L2 -> same, including physical mean",
+      "count": 4650,
+      "original_row_field_is_complete": true,
+      "maximum_was_not_evaluated_or_saved_previously": true
+    }
+  ],
+  "new_scalar_contract": {
+    "Lambda0": "sqrt(1+388^2)",
+    "Ac": "Lambda0^(-2/3) * A_c_raw",
+    "Ab_candidate_1": "Lambda0^(-1) * H_b",
+    "Ab_candidate_2": "Lambda0^(-2/3) * L_b",
+    "Ab": "minimum of the complete saved outward candidate uppers",
+    "L_star": "max(L_c_raw,L_b)",
+    "A_infty": "max(G_c,G_b)",
+    "P_a": "sqrt((C_c*Ac)^2+(C_b*Ab)^2)",
+    "C_K": "shell_1153 * L_star * P_a",
+    "ell_upper": "R-rstar_interval.lower",
+    "C_V0": "2*ell_upper/pi",
+    "C_D0": "1",
+    "C_R0": "sqrt(ell_upper)",
+    "C_T0": "C_V0*(A_infty+C_K)",
+    "epsilon": "(ell_upper/N)/pi*(A_infty+C_K)",
+    "new_mesh_parameters": "positive integer N and a separate finite resource cap, both declared before execution; no signed finite matrix allocated by this scalar consumer",
+    "strict_comparison": "parse finally saved epsilon; compare its outward upper against 1, and optionally a declared target <1; failure is a valid complete scientific outcome",
+    "no_numerical_mesh_or_finite_inverse_claimed": true
+  },
+  "complete_reuse_guards": [
+    "negative-one summary/process source/run/native/18 gates/full 7x8 response schema and true real-family scope",
+    "collar process/source same candidate/repair/direction/fixed eta_0 and19 gates; literal low bounds preserved",
+    "body process/summary/native/source same candidate/repair/direction,11 gates,two complete orders,4650 rows and3594 interfaces",
+    "For every complete published body-summary key other than publication-only native_sha256, require exact agreement with the corresponding original native value; within orders remove only complete_rows from the native comparison. Retain all native extras, the full inflated_rows cover, and both complete per-order row arrays.",
+    "each original order0 complete row has its exact index and contiguous rational interval; both original orders and the full inflated input cover remain present",
+    "no lower_flow, Riccati solve, source sweep, row inflation, coefficient reconstruction, target solve, high inverse or original producer import/call",
+    "every candidate original record remains literal; selected maxima save exact original row/index/interval and all three original ball/lower/upper fields",
+    "all independently stored exterior, head, mean, jump and failure-history conclusions remain unchanged"
+  ],
+  "new_conclusions_not_granted": {
+    "head_kernel_zero": false,
+    "complete_finite_matrix_assembled": false,
+    "complete_signed_finite_inverse": false,
+    "physical96_columns_constructed": false,
+    "Theta_constraints_removed": false,
+    "independent_mean_rows_removed": false,
+    "true_parameter_Schur": false,
+    "negative_head_eliminated": false,
+    "complete_physical_BVP_inverse": false
+  }
+}

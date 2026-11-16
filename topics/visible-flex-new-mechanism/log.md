@@ -502,3 +502,7 @@ H已保最新实拉b8577eaa/privatec4918630及04:26:08前期限，open压缩已�
 ### 2026-11-16 08:44:11 UTC — cap五门首步修复，消费同一剩余账户
 
 [唯一修复补记](notes/cap-five-startup-repair-paid-prefix-continuation-20261116.md)：DOP853显式first_step=1e−6，其余数学族/六起点/容差/maxstep/解析敏感度不变。原run43831664308/job133178210211已付prefix从原stdout一次恢复，删除前缀求积函数与导入；carry .5630522320000182秒、2/1/1积分、14RHS、63prefix回调、8431输出字节，下一积分id3/记录id7。仍原120秒/400started，科学imports/input/失败/输出扣同一余额；FINAL总时钟读total_same_scope_seconds_including_carried，不能只读新进程时长。原文件/hash见request；0本地执行/编译/测试/旧checks。Public同workflow只触发本次实际错误续算，尚无完整新结果，主门继续。
+
+### 2026-11-16 08:46:16 UTC — 活动原执行身份
+
+接受54的新模型run43832870561/research133182173190（source23b37e90cbc1ac33ca6ff8ac1f91fa7a95c903db）及cap5唯一修复run43833666242/research133184846641（source39fc3f0e3ebdb88b0c69405df3d6319afa5bff09）均在公开Actions进行，未推测结果。08:45:21本机pwd仍无可用执行环境、进程未启动/无审批拒绝，继续根8小UTF8原生Git与公开actualpull。只读相邻visible-flex-exact-nearby的H亦明确未完成、门为.05D，不能拿它充本题.3D收据；未修改相邻课题、未借其成功数据改本题对象。

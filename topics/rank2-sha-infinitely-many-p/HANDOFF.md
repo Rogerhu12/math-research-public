@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：39fc3f0e3ebdb88b0c69405df3d6319afa5bff09；2026-11-16 08:44:45 UTC核两README无变。实际CI pull 2026-11-16 08:43:16 UTC/8c72a832e334d34e16c0a2ce41a9dfef578587b7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:43:01 UTC仍无环境。最迟2026-11-16 09:30 UTC再实际pull。
+- 最近已读规则提交：3ea0620a199e08deb542eaca10b4cee2db5dd45b；2026-11-16 08:47:03 UTC核两README无变。实际CI pull 2026-11-16 08:43:16 UTC/8c72a832e334d34e16c0a2ce41a9dfef578587b7（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:43:01 UTC仍无环境。最迟2026-11-16 09:30 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -53,4 +53,4 @@ R868原σ_t=min(ord P_n−A_n)控制t^-τ返回；τ=k−13≤σ_t且ell≤s−h
 
 R834/836单位块、R837三长/两长和自然47/12的q1/2缺口保；旧47/8须真第三长，HN为9κ−3χ−12b。R840同Kcorr/Hcorr两高前缀、第三3η/第四短行、末同cF³仍未全付；disc²读所有分支。R842 WT上[b0]=−BD−Pr未知，全部negative/moving/十九角/同P保。
 O4/O6/O7、R364/R561/R654/R712及全部旧open未闭；有限p、复秩1、局部unit、条件height或别cycle不完成；AST/strict/fine不替通常全Selmer。
-08:43:16实际CI pull成功，run43833512920/job133184339456/head8c72a832，两README差异空且blob一致；下一09:30前。R874整q格producer已发布，等待真实格/候选度数，未启动大矩阵。
+08:43:16实际CI pull成功，run43833512920/job133184339456/head8c72a832，两README差异空且blob一致；下一09:30前。R874首次run43833749948止于Sage相对域polynomial接口；已改list重启，等待真实格/候选度数，未启动大矩阵。

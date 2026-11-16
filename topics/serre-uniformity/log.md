@@ -645,4 +645,9 @@
 ### 2026-11-16 16:48 Asia/Taipei — serre-public-astra-20261115
 - R878完成实际有限theta群与规范真T作用：原六级标记/ω与Frobenius固定六维源全保，完整D权过滤给原x、−xy两投影−B/B24；原低jet/标签/q-normal桥仍待做。
 - R873已actual success，17系数与2058阶单位子式；R877已actual success，24stage/单A及全1380行。只读实际小证书并保持原大输出为单日必要源，不重数学。
-- 本push规则：待公开Actions真实pull回填，两README预期6979d793/35f82f3d；主目标OPEN。
+- 本push规则：公开Actions真实pull至f820cf9c38867648b60ca85f16270a4c006f28c3（2026-11-16T08:48:17.438693+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:51 Asia/Taipei — serre-public-astra-20261115
+- R873实际证书已读：17原范数系数，739处2058minor det510，完整2200×17关系；原两端DAG、dual7/−3/帧方向均保，准确unit-solve不冒系数展开或Picard支持。
+- run43832703159/source2ee14751，finalb3b89a56/380件manifest a5f118c4/artifact14209317175；纯IO43834190958已读实际小证书，旧4960件和已成算术不重。
+- 本push规则：待公开Actions实际pull回填，两README预期6979d793/35f82f3d；主目标OPEN。

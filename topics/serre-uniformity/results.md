@@ -220,3 +220,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R876 九个原域范数生成完整刚性化Hecke理想已证明**：[完整证明](results/R876-original-nine-norm-generators-and-rigidified-Hecke-ideals.md)，SHA256 2dfd9e338ac9c756bd0431672c90eece8708cff2409cff0230af2fc2f8bd5c47。真无基点二截面给九个8次域范数的全曲线格，非étale/剩余次数保全；三完整纤维816×836/672minor、共同M0取消254P0、一次目标271右端及真dual7/原P0帧同构均明确。尚未算128截面/九理想/支持，模零保持未决。
 
 - **R878 原有限theta作用与两条原截面投影已证明**：[完整证明](results/R878-original-finite-theta-action-and-section-projections.md)，SHA256 264b0daa84b18736e305596c9e1d1a588f87782d6cc2d163df4237a5ce60bb5f。fppf τ保原六级标记，相对非退化theta表示及kerD标定给真群律；6p维完整权过滤与原x/−xy两投影−B/B24非零。高sigma分母的原低jet积分性、实际cuspidal标签/原q-normal比较均未冒认。
+
+- **R873 原循环7对应的17系数与两端函数域实际完成**：[正式结果](results/R873-certified-original-cyclic-seven-correspondence.md)。run43832703159/source2ee14751，184.720277599s；739处2058子式det510，全部2200行/17rhs回代，准确char0 unit-solve与DAG完成。finalb3b89a56/artifact14209317175/f9e41511；旧4960原源复用，实际Picard范数/η支持/height未算。

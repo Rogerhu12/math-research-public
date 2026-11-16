@@ -64,6 +64,8 @@ $Q_aT_i+\mathcal E_\partial:X^{fr}\to P\operatorname{Fix}R_a$，
 
 [WHR正侧完整径向head](results/R133-supplement-exact-positive-radial-head-Fredholm-reduction-and-trace-safe-finite-factors.md)289935c3：真实193维angular fiber的L²径向自块F=Id−VB_LHP_a为Fredholm index0；未知mH核/cokernel、H¹补列、真实端点Volterra行与全cross均保。径向输出网格给hmax·||∂V||·||K||/π<1的新严格尾门，完整dual不截输入；门、signed有限entries与全逆待，负侧head/rough WGB资格/true96/Θ/ν/两mean仍未闭。0新数学计算。
 
+[WHV零Volterra完整预处理](results/R133-supplement-zero-Volterra-preconditioning-and-readonly-positive-head-mesh-contract.md)e993f068：F0=(Id−V0A)F精确，源/初值/真jump全左乘，cokernel逆伴随与全endpoint直接项保；普通V0给2ℓ/π、1、√ℓ，完整尾ε=hmax(A∞+CK)/π及193N输出有限因子。旧同域C_c/C_b全正侧L²rH−1列只读，body三wholemax尚新目标，typed B_HL→H−2/3/真正97..288 shell1153全保。库存80f9f606/9text/13immutable parts，4650完整rows+3594interfaces不重算，原progress4608不改写。N=cap4096科学新包正写；无新数/实际finite矩阵/逆/roughbulk/负head。
+
 ### 2b. 已付系数、坐标与原强界
 
 [已成主逆/强误差范围](notes/2026-11-16-completed-principal-and-strong-error-scope-index.md)、[已成waist/commutator范围](notes/2026-11-16-completed-waist-and-commutator-norm-index.md)及本节完整检查点保存全部原式/球/SCI/preGit。

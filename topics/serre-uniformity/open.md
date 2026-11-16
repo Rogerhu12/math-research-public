@@ -69,7 +69,7 @@ R161/163严格Selmer为零与Robert对偶线仍容许局部S_q零或多支撑相
 
 **R864/866/865/R870**：原127核、真H/J/逆、cY/Q-fixed基even54odd73、真T7全部560×127及16无重谱均闭，旧算术不重。R870[正式c2436b74](results/R870-certified-original-Y-torsion-integers-and-Picard-support-inputs.md)，run43822039811/sourceeb46ca01，20stage/0.579488830s；N0=χ7(8)、16ni、1959位共同d*/80输入已成，finalbe29c872/artifact14205027300/723ec402、42源carrier6a9d22de。原ξj∈JY(Q)，含7-primary的挠判保留；合法好约化处niPiξj真非零⇒Eiηj活跃，模零未定。实际η支持/eη/主函数/nonp未算。
 
-**R873原循环7正在实际续算**：[纸证](results/R873-original-cyclic-seven-correspondence-from-short-section-norms.md)保原8H+4E/2058、110阶、真P及K/P′、dual/c0c1/−3。修复后run43832703159/job133181675900/source2ee14751已进原数学；core3c4922ee/wrapper033a8cac，仅改R775窗口273与原max_exponent≥763核对，196..763全比较保留。首跑4960原件carrier73069a32/artifact14207709262直接续用；完整失败及修复见[修复记录](notes/R873-original-selection-window-repair-and-source-carrier-reuse.md)。17系数/实际η支持未成。
+**R873原循环7实际已成**：[正式结果](results/R873-certified-original-cyclic-seven-correspondence.md)，run43832703159/job133181675900/source2ee14751；17原范数系数、739处2058minor det510、全部2200行乘回及真两端函数域DAG已成，184.720277599s。finalb3b89a56/manifest380件a5f118c4/artifact14209317175/f9e41511（Nov17 08:42）；4960原件carrier73069a32不重。准确char0 unit-solve不等于展开系数；Picard理想/η支持/height仍未算。
 
 **必要原源续载已成**：[完整运输记录](notes/2026-11-16-required-original-source-intake.md)记两次纯IO。首43826442405/source5a21f9d9/artifact14206388855/42a3155f保R7992050原V8 tar175356258/df08e833和R801同2050 q109 tar152592418/e9595cc2；补43827207676/sourceee98d42e/artifact14207385683/67ea4155成功保R80082E1+四M2/旧carrier tar7217285/113be338与R827七原件tar10114176/d5a5641a。包内original/，原身份/meta/manifest逐字保；R827原exit124/no-final不造成功，真实ζ根549966761匹配R868旧逆。小metadata run43827843962已真读current与596历史，complete/target/full lift spec完全相同；同核requestba760988只改resume。不重606历史或数学。
 

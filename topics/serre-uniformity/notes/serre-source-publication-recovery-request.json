@@ -2,44 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-0848-R878-original-finite-theta-action",
-  "commit_message": "serre: prove the actual finite theta action and original section projections",
-  "rules_last_read_commit": "fc6d692d2429e1e058c4c371e59b0f49ce201baf",
+  "request_id": "20261116-0851-R873-certified-original-correspondence",
+  "commit_message": "serre: certify all original cyclic-seven norm coefficients and both function-field maps",
+  "rules_last_read_commit": "f820cf9c38867648b60ca85f16270a4c006f28c3",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "84a0bfc28b136aacaa3080cf0bc0dbfe03b493289e86ab5f5b84277efaba22fa",
+  "expected_previous_request_sha256": "db869a6fb7fc03a913ab2eb506b180209cf052e00698572c443898ccbc7e5b2b",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R878-original-finite-theta-action-and-section-projections.md",
-      "sha256": "264b0daa84b18736e305596c9e1d1a588f87782d6cc2d163df4237a5ce60bb5f",
+      "path": "topics/serre-uniformity/results/R873-certified-original-cyclic-seven-correspondence.md",
+      "sha256": "de366c9a53899996a5534818bca71e10021ae1feb21ea7bd73bad333a2eb5964",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "534972fc71b46dfd0788f0353a9006858f776a70cc02f3e0e500bbe73a5bb975",
-      "expected_previous_sha256": "171dcfb87effa4bb81852190552669ca3eb6faa3c1a0d4ee0fd023fc1c7afea6"
+      "sha256": "e0fe612c8a0803d36b3ebf01155ee262f7d176ce7353b26ed8f075d24047778b",
+      "expected_previous_sha256": "5ad2ada6d445ac3da76951108f04c89845fa8fbc3fe8237bd0857b1ffc1c37c4"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "6036553d81b0cd55ad963027545c00960c089300fdbdffc5df6da1a9f93618d4",
-      "expected_previous_sha256": "0b3cbf518077ed361fccf9b36b34ea6ff5f70d7a2df3bdcb072cb3b1c3b22bee"
+      "sha256": "a4a3e6437ec9b2c87150a91c7efe7e130e937c3799d7cd816462942c664d1f77",
+      "expected_previous_sha256": "6036553d81b0cd55ad963027545c00960c089300fdbdffc5df6da1a9f93618d4"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "517334c95dbf0600e05e3a62ecdeaff15a7e6d428304b9369873c6775d80bcf1",
-      "expected_previous_sha256": "443b088a792229242b654aac4c3135d8de8576d9022685ffdeab15513c5b5c7c"
+      "sha256": "b8b2834642a800e2640edc7a240a293b9eb70ad1dd624fe3470b53a5a7060789",
+      "expected_previous_sha256": "517334c95dbf0600e05e3a62ecdeaff15a7e6d428304b9369873c6775d80bcf1"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "a633ce08bff6a011aacfb36d075bd2d77d0f618d50f8e17d50875e4deedf1fd2",
-      "expected_previous_sha256": "ea8c4b921a07bdefc57f3e80fa0b6cda7c89da16705456021251741ec7f6c1fc"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/serre-source-artifact-intake-request.json",
-      "sha256": "34f7506328c112db3f6e9f32be8a65e66748211bfcc35ac81b1bbcee24c3328e",
-      "expected_previous_sha256": "0091c311f545052d152ca93acdc97d699feda30097ddc2f5bd3e9d2c5472a116"
+      "sha256": "c7f4de5796d6f0182d60c23fb8e9d9ac0c49e84c5338a277251f71620ab1031c",
+      "expected_previous_sha256": "90f27ed3d946ed3dfb7840960834fd92cfef5d91cbf3b4c2ae690d27b71ab61c"
     }
   ],
   "dispatch_workflows": []

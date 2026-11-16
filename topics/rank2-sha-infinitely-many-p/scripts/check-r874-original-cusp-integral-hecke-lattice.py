@@ -66,9 +66,11 @@ def main():
     u1, u2 = ell2, cc/ell0
 
     def descend(z):
-        p = z.polynomial()
-        assert p[1] == 0
-        return F(p[0])
+        # In a relative number field polynomial() is an internal absolute
+        # representation.  list() gives coefficients over the declared base F.
+        p = L(z).list()
+        assert all(t == 0 for t in p[1:])
+        return F(p[0]) if p else F.zero()
 
     c1 = descend(u1/alpha+(alpha/cc)*u2)
     c2 = descend((alpha*alpha/cc)*u1+u2/(alpha*alpha))
@@ -161,8 +163,9 @@ def main():
         return R(p[0])+R(p[1])*aa+R(p[2])*aa*aa
 
     def eval_L(t):
-        p = L(t).polynomial()
-        return C(eval_F(p[0]))+C(eval_F(p[1]))*omc
+        p = L(t).list()
+        assert len(p) <= 2
+        return sum((C(eval_F(co))*omc**i for i,co in enumerate(p)), C.zero())
 
     def real(zv):
         zv = C(zv)
