@@ -532,3 +532,7 @@ open的R481—R491逐条原文移至[open-archive-R481-through-R491-20261116.md]
 [R493](results/R493-three-curvature-atom-five-parameter-formulas-and-regular-zero-lift.md)固定a1<a2<1、b1<b2<1、C>0；以ξ=√v写三段p=ξ³/r=aξ/U=C_i+3ξ⁵/(5a)，全部12L/8Aj由≤21次有限幂差直接给，原五G含完整端势，5×5解析J保移动端点/实际H敏感度。严格内正则真零若存在，则三峰正ρ/远尾C/两矩纠正参数C¹趋近，一次有限IFT给有限尺度的真C∞、平左端/末simple-A、全五门零cap。未找到零、未调用科学。新预定36起点/5logistic-exp坐标、120秒含全部工作/5000值J、105秒搜索保首候选有向验证；不读回/重开旧15ρ族账户。任何浮点候选只在同原G的有理盒收缩(19)支付后称真零，随后还欠同母库安装/共同成本/完整路径及主几何。新源码正在写，公开首执行由root统一触发。
 
 R493第一次非force更新收到GitHub UNKNOWN且main确已并发推进，立即触发原rules-only实际pull/rebase，run43779613612/job133191649865，公开08:59:04.474386→08:59:06.366345已读2d0af06a7b6f7c0871076f0389ad7ff8890a5bf8，双README空diff；私有08:59:10.088082→08:59:10.556228已读73387e21925c17732705091c85d4f07644161775，规则无变/QUEUE唯一进行中。0科学重跑，实际rebase后按最新main重建本结论继续推；不是force或审批拒绝。终端同期重试仍无可用执行环境，进程未启动。
+
+### 2026-11-16 09:00:23 UTC — R490 固定g内在曲率界与真正九新body列
+
+[R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)用原五准确metric系数及样条凸包纸付全固定g |Kg|<2381/11<217<(1000/61)²，两反射连接同界、椭圆柱/原六弓平帽K0（R=.274为材料盘半径，不是球半径）。仅说明Gaussian乘积必要条件未阻reach，未构造低外曲率或等距实现。新增完整P_m(ξ)=ξ^m exp(−ξ/(1−ξ))：4个P5 sin2jθ u列、4个P8 v列、1个Δz=ell γP8/Δb=γP8′零总高度列，旧159零嵌168；末五次片与右平坦性严格证九物理函数商独立。全body/完整T三导、六个位置jet及curvature法向参数导齐备，左P5仅C4但二jet连续，核心/帽接口不改。新族必须新identity，不冒原163/159同任务或55J；拟消费54paid MODEL旧159列，必要二jet输入恢复及9新导数另明账，55保实际best。0科学执行，继续原metric/reach/全时间主门。

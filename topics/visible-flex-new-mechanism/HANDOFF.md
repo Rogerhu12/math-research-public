@@ -16,6 +16,8 @@
 
 core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐标、永久enriched reference c0不换selected。g fd5bc5fe2c114bdbe82c266a5e816ba22ed58f1f486f5bc3241ddaac95de88b6；b0 d61fb298989834c9eb2b4fe3bbff1fb5983d1bb3b3980cb6441f14e6c0299bb5。η≈.266011746是metric epigraph，**不是δhold**。若连续球R1.01/条带.38999付，R33/R40给δhold/D≥61001/202000>.3与H径≥22/101；连续支持仍欠。τreach.061要求κ≤1000/61≈16.39344及非局部reach，当前κ≈58。
 
+[R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付全抽象闭面固定g的|Kg|<2381/11<217<(1000/61)²；原六弓帽/椭圆柱K0，R=.274是材料盘半径。Gaussian必要乘积界未排reach，不授外曲率/存在。完整新增P5四u/P8四v及零总高度P8′一列，旧159嵌入168，新9物理函数商独立；全T三导/位置二jet/J公式与左C4/右平坦保原接口，尚待新模型。
+
 ## 3. 当前理论接口与剩余义务
 
 原式/严格范围/历史费用见[results](results.md)，活动任务见[open](open.md)。R406排actual全Λ0，只用完整有限Jaff。R455/464同真宽/母/右锚付q4/F★/共同20根/非零最高响应；R460 simple-p自动留数及不变解析端芽已付，真range仍保Af partial/平台/整包量/双germ/gap/右锚。原13规范/最高period尚未付。
