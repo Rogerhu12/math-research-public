@@ -438,3 +438,5 @@
 [R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)（18186B；SHA256 `55c1ae6b4910dfdb87e45729ba0512169eed10abbcfb98bc91e944d1db166617`）。四最高系数minor D=4s(19s⁴−34hs²−h²)<0；E两根零后余a×实二次，常项=−2h²s²Δ6/D，完整比例等价E(z±)=0及Δ6/Δ3/Δ4同零。原密度在临界幂与指数极限的有理积分给Δ6两严格号；v=p^(2/3)正曲率密度将它们实现为真平端/末简单解析Af根的有限光滑cap，再同芽密度凸组合精确清Δ6。接原凹glue/M5真根后，从该新cap重选q4/F★/20/M3完整库，外cap正幅宽协变保零。只支付一门，另外四实门与冻结旧库仍欠；0新执行，根全文读有限构造/边界。
 
 - [R478：临界幂完整复余量非零与真实光滑正近似](results/R478-critical-power-complex-cap-obstruction-and-smooth-positive-approximants.md)（已证明）：唯一八次原primitive保真左常数；若复根零则A³整除，四系数严格矛盾。完整L−P端项给C²连续，再由v''正密度/简单Af根得到有限光滑允许cap非零；未判冻结ψ3及五门可消。
+
+- [R477：真实cap单门正常方向与剩余四门的局部开放像](results/R477-regular-cap-normal-and-four-condition-local-open-image.md)（已证明）：长微小正尾加三累计准确匹配保原根整germ，得Δ6正则根；任意内部开窗/任意小jet邻域的多项式论证、五个分离高阶脉冲和真normal纠正给同Δ6=0纤维内四门submersion。只有实际中心附近开放，未证明0可达或完整共同关系。

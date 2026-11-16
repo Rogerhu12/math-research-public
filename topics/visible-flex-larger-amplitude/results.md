@@ -203,3 +203,12 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 
 原1987/80c2 selector漏第一点半径/role/完整pending与已留范围，null/current_state及SHA不能恢复。两个BVP、first closed/held与新增12mesh/M128/t/compare角色全未起，没有accepted450或可续末场。五primary与新增必要帧两job逐字同，全部八必要范围成功、单90KB内且无运输错误；07:28:46.8446582Z原事件明确quiet再核后真正删除namespace，未上传raw。R478的独立depth2采样完成不倒填本次。原全部闭面、固定g误差精化及机器/solver转移仍未付。
 
+
+## R496 — 三层当前C native 的真实优化来源注册
+
+**已证明（原来源与局部浮点/控制流条件）；新科学未执行。** [R496](results/R496-current-C-three-level-native-zero-elision-source-registration.md)/[接口](notes/2026-11-16-current-C-three-level-zero-eliding-native-interface.md)五件gen11895B/4d4c507e、stats5941/0b875858、plan77274/e1bef5ad、proof19163/45d51980、接口29531/1937c39b。以实际216/634c4c85为基线，49完整新视图、166普通before/after对/445次精确应用，替代失联后较早fe75恢复稿，不冒丢失e05f旧字节。旧33生成源须先真实存在；新49仅Actions同HERE物化，不复制大数学核入Git。
+
+真实三worker将R494新captured-product runtime交原owner，顶层receipt记新调用者、原f9b/product205b及R474祖先分列；只省真实有限A/T的零j项，false原完整loop，两mean/完整列/原乘后加顺序保，不冒NaN载荷、IEEE准确导数、whole-run或速度。首453→fresh450、同far112、全增量M及真实CP/全部field-geometry-material-display来源闭包明确；samefar按实际legacy SHA选对应新/原joint/原positive hook，原FD顺序不动，不将源码断口归因为未到该处的旧run。
+
+必要新统计只在原quiet后完整读流核每次实际来源、保九计数/fallback/最后未完地址，缺文件不补零；正常call/统计不冒J或接受。原全部H/J/FD/fullDN/RMS/BC/final fresh audit、18900+2700唯一钟、32GiB free门与原112 far账后继消费保持。R498完整临时表示/R499必要读回属于218待接的真实资源后继；本件不预填run/性能/闭面接受，也不另加科学前门。
+

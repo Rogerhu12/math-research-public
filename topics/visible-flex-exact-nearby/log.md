@@ -408,3 +408,15 @@ main 6d782189915abf54e60a9fb4afcf7ef95bfa7d48 两README未变；6d782189915abf54
 ## 2026-11-16 07:20:06 UTC — WGS/WZR 完整原页逐字保存并缩短活动索引
 
 main 8617e13f488c64795b96b0b569a7b8f03733f0bb 两README未变。045ac035同H9883B/open29530B逐字保存为新检查点40014B /SHA2d0f2f0dc90117647f01d06c72978f6b25cf6e980510937d0106fee53e29c9ed；原results97384B /blob e9981a6fde074673cd89be669b7c425fb4f6be2b /SHA df19487183e8ea13906782f8baba3f2babbf70caf93cbe7c0c3582157372e8ac直接同blob另存。仅压缩已闭说明及活动索引，未付physical96/Θ/ν/均值/无限radialhead/highgate/finite/全背景/core与原失败/lost和成功禁重义务完整保留。0数学执行。
+
+## 2026-11-16 07:44:39 UTC — 单项linear512/s3派生报告白名单
+
+完整白名单 a191e135234309a211d96325ba638fc70caba136296ba8815be3e069e0caae51 /37742B 已先推。唯一目标 notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json，e81bf7dd6e131dcb08d1c03c81c1fd963fdcf287 /505865B /689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290；精确restore a8be95d8afbc9dad24e5ea509335dc03b85918db原path。正确linear诊断producer e618151a/2064c82c 与完整inventory/proof逐项匹配；linear512五浮点管均失败、不冒native或PDE不存在，dense成功不得挪用。root当前9份完整新source/model字面依赖为0；白名单的各peer检查只声称其列明版本，未见最终manifest不作断言。此commit未删、未取大正文、未新算。下次仅fresh metadata blob/size相同才普通删；全部canonical/native/历史失败和源保持。README在a4b59923dfe40a110aeddedd0445aaabb8ce4d11两blob不变。
+
+## 2026-11-16 07:45:00 UTC — linear512/s3单项白名单执行
+
+83bac7b8先推完整白名单后，fresh main逐层Git tree核准唯一 e81bf7dd6e131dcb08d1c03c81c1fd963fdcf287 /505865B；仅普通删 notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json。restore a8be95d8afbc9dad24e5ea509335dc03b85918db原path，原SHA689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290。线性512五管浮点失败原结论和所有完整行的Git历史保存；全部真实native/failed tube/exit137/权重/source不变。0大正文读取、0数学计算。README在83bac7b877a226deeddff8dd56ab262328152267均不变。
+
+## 2026-11-16 07:45:52 UTC — 定时真实pull请求
+
+仅在已审rules-only workflow加请求注释，触发公开仓库自身Actions的真git pull --rebase和两README差异核。无科学child/旧成功重跑；尚未取得回执，不把APIref充作pull。6c3c3eadc4dd46dcfa183c73847f25a55035213f两README blob与已读版本相同。

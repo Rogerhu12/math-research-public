@@ -37,7 +37,7 @@ jobs:
           import datetime as dt, hashlib, json, os, subprocess
           from pathlib import Path
           path='topics/serre-uniformity/notes/serre-source-artifact-intake-request.json'
-          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE'}},check=True)
+          subprocess.run(['git','fetch','--filter=blob:none','--depth=1','origin',os.environ['REQUEST_SOURCE']],check=True)
           request=json.loads(subprocess.check_output(['git','show',os.environ['REQUEST_SOURCE']+':'+path]))
           subprocess.run(['git','checkout','-B','serre-intake-rules-main'],check=True)
           subprocess.run(['git','pull','--rebase','origin','main'],check=True)

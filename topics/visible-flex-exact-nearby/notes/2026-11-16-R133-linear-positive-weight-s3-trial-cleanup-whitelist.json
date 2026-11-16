@@ -1,0 +1,619 @@
+{
+  "kind": "single_derived_linear_positive_weight_diagnostic_cleanup_whitelist_v1",
+  "date_utc": "2026-11-16",
+  "repository": "Rogerhu12/math-research-public",
+  "status": "reviewable_unattached_whitelist_only_no_deletion_performed",
+  "authorization_scope": "The parent explicitly requested a whitelist for this one reproducible derived report under the existing repository capacity rules. Root alone reviews, publishes this whitelist, freshly guards the exact path, and may perform one ordinary deletion. No other file is authorized by this document.",
+  "targets": [
+    {
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json",
+      "git_blob": "e81bf7dd6e131dcb08d1c03c81c1fd963fdcf287",
+      "bytes": 505865,
+      "sha256": "689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290",
+      "object_class": "Derived floating feasibility diagnostic for a piecewise-linear auxiliary weight choice; not a defining weight coefficient object, native certificate, canonical initial condition, source, or proof.",
+      "server_identity_basis": {
+        "commit": "a8be95d8afbc9dad24e5ea509335dc03b85918db",
+        "commit_tree": "36199490dded4e80ccb9a1dc5471a09d856ab1dd",
+        "notes_tree": "5a0cb375d56f8d46eda6ae1b664f827a28f192f0",
+        "regular_blob_mode": "100644",
+        "metadata_only": true,
+        "tree_trail": [
+          {
+            "parent_tree": "36199490dded4e80ccb9a1dc5471a09d856ab1dd",
+            "path": "topics",
+            "mode": "040000",
+            "type": "tree",
+            "sha": "5c5fc2f6abafe7e1ebe0ee214c2869c80ea82ca9",
+            "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/5c5fc2f6abafe7e1ebe0ee214c2869c80ea82ca9"
+          },
+          {
+            "parent_tree": "5c5fc2f6abafe7e1ebe0ee214c2869c80ea82ca9",
+            "path": "visible-flex-exact-nearby",
+            "mode": "040000",
+            "type": "tree",
+            "sha": "512941de93d51bb2d85ef2ac430171f375e7a2e5",
+            "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/512941de93d51bb2d85ef2ac430171f375e7a2e5"
+          },
+          {
+            "parent_tree": "512941de93d51bb2d85ef2ac430171f375e7a2e5",
+            "path": "notes",
+            "mode": "040000",
+            "type": "tree",
+            "sha": "5a0cb375d56f8d46eda6ae1b664f827a28f192f0",
+            "url": "https://api.github.com/repos/Rogerhu12/math-research-public/git/trees/5a0cb375d56f8d46eda6ae1b664f827a28f192f0"
+          }
+        ]
+      },
+      "sha256_basis": {
+        "kind": "exact_original_complete_inventory_and_alias_not_a_new_large_body_hash",
+        "inventory": {
+          "role": "comparison_inventory",
+          "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R131-positive-weight-comparison-manifest.json",
+          "git_blob": "222a2764bfbc2ac25481132cb917e2d97b525d1e",
+          "bytes": 20554,
+          "sha256": "68efe2a4f317d1ba799f371d7f2f3b48dffa7ccfe5fa2a664a138e9d17b4a8d9"
+        },
+        "file_record": {
+          "path": "notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json",
+          "sha256": "689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290",
+          "bytes": 505865
+        },
+        "historical_alias": {
+          "original_path": "/workspace/scratch/ac0d699811ad/Codazzi-positive-weights-r02-n512-s3-trial.json",
+          "saved_path": "notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json",
+          "sha256": "689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290",
+          "byte_identical": true
+        }
+      },
+      "restore": {
+        "commit": "a8be95d8afbc9dad24e5ea509335dc03b85918db",
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3-trial.json",
+        "git_blob": "e81bf7dd6e131dcb08d1c03c81c1fd963fdcf287",
+        "bytes": 505865,
+        "sha256": "689070b62cfc08aad5496f4c109ab805c5a2cc8490c907b31af26fc75bf0b290",
+        "method": "Recover this exact immutable file at the same repository path by an ordinary future Git commit before any future consumer needs its body. Preserve all history; do not rerun the diagnostic to recreate these historical bytes."
+      },
+      "target_body_fetched_or_hashed_in_this_audit": false,
+      "target_runtime_status_reread_from_body": false
+    }
+  ],
+  "total_target_count": 1,
+  "gross_current_tree_bytes_to_release": 505865,
+  "classification_evidence": {
+    "exact_linear_role": "The small complete inventory names this exact linear n512 smoothing-3 trial, byte count and SHA256 and maps its historical scratch output to the saved byte-identical report. Comparison proof section 7 distinguishes the linear n512 failure from the linear n256 negative-weight case and from the separate degree-seven dense choices.",
+    "producer": {
+      "role": "linear_diagnostic_budget_producer",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_probe_budget.py",
+      "git_blob": "e618151aa2c17bd24660d13b8a569b329c646b28",
+      "bytes": 6405,
+      "sha256": "2064c82c3a97c13315902aa9441b42a473335558800436a20d47c2434ebdfe08"
+    },
+    "source_contract": {
+      "accepted_weight_kind": "exact_finite_piecewise_linear_Fourier_positive_weight_candidate",
+      "output_kind": "floating_full_finite_positive_weight_comparison_diagnostic",
+      "output_option": "--out",
+      "complete": true,
+      "certified": false,
+      "continuation_certified": false,
+      "default_sampled_tubes": [
+        "0.002",
+        "0.005",
+        "0.01",
+        "0.02",
+        "0.0625"
+      ],
+      "read_inputs": [
+        "--weights complete saved linear endpoint coefficients",
+        "--native complete true residual input",
+        "--candidate complete BC candidate shards",
+        "--object exact-affine target"
+      ],
+      "diagnostic_fields": [
+        "first_sampled_failure",
+        "maximum_sampled_error",
+        "rows",
+        "wall_seconds"
+      ],
+      "sample_scope": "Five radial samples per merged interval and the requested finite angular grid; native residual midpoint values and floating trial barriers are used.",
+      "output_role": "The source computes and writes a separate JSON report after its complete diagnostic loop. It never writes weight coefficients, BC candidate arrays, the target object, or native enclosures.",
+      "completion_limit": "These literal values describe the reviewed source's finished-output schema. The large target's runtime/source fields were not freshly read."
+    },
+    "actual_historical_failures_from_original_small_proof": {
+      "proof": {
+        "role": "comparison_proof",
+        "path": "topics/visible-flex-exact-nearby/results/R131-supplement-positive-comparison-weights-and-cleared-tube-rows.md",
+        "git_blob": "d82f379ac6e64c99c5ae0abb6f8859a1b00643b4",
+        "bytes": 14676,
+        "sha256": "b6ac3f22432a92a6708c9fb4e2e7ecfcfac46c9fbe944fd46ade6da57f41c531"
+      },
+      "section": "7",
+      "linear_512_sampled_weights": "Positive samples are recorded, but the piecewise-linear radial derivative makes all five floating tube trials fail.",
+      "all_five_floating_tubes_failed": true,
+      "maximum_trial_error_range_as_published": [
+        "5.846e12",
+        "1.655e13"
+      ],
+      "scientific_scope": "These are unsuccessful floating comparison diagnostics. They are neither native inequalities nor a nonexistence result for the actual PDE.",
+      "distinct_linear_256_result": "The separate initial 256-angle linear choice has a sampled weight about -1.019486. That statement is not attributed to this n512 report.",
+      "distinct_dense_results": "The same proof's degree-seven smoothing-3/smoothing-10 sampled passes and directed native pilots concern different weight objects and different reports. Their success is not transferred to this linear trial.",
+      "failure_rows_preservation": "Every original failure row remains recoverable from the exact immutable target blob. The complete small comparison proof and inventory retain the five-failure conclusion and original byte identity unchanged."
+    },
+    "coefficient_independence": {
+      "linear_weight_array_producer": {
+        "role": "linear_weight_array_producer",
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weights_probe.py",
+        "git_blob": "522d5b98616f369d519119d11390d58f690b196a",
+        "bytes": 7771,
+        "sha256": "d8f140be6bf07e221f0e83d789ffc42e0db495d3c71a2127e4786e89fa038383"
+      },
+      "exact_object": "All original binary64 endpoints and real means define exact dyadic continuous piecewise-linear Fourier functions in a separate npz.gz object. The small generation report is separate from this trial report.",
+      "native_reader": "The reviewed 7003-byte DenseWeightCandidate/ExactWeightCandidate reader verifies a different degree-seven weight kind, exact shared endpoints, corrections, means, time fractions and all ordered shard bytes. It does not consume this linear trial JSON.",
+      "no_report_to_coefficient_reconstruction": true
+    }
+  },
+  "dependency_evidence": {
+    "original_complete_inventory": {
+      "complete_inventory": true,
+      "file_records": 43,
+      "verified_native_inputs": 0,
+      "verified_native_dependencies": 0,
+      "meaning": "The two counts are exact-basename occurrences in the complete saved verified_native_inputs and verified_native_dependencies maps. The historical files list and alias intentionally do reference this report."
+    },
+    "own_held_complete_text_checks": [
+      {
+        "store_key": "WEJ_posterior_math_final_text",
+        "bytes": 73459,
+        "sha256": "c42b14e13c7357bb3aa60447ee8679592e0948fffe11f7ecdd846fc554bafdf4",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_support_static_contract_text",
+        "bytes": 89708,
+        "sha256": "af84b9378081332fb24d6663b128e370dc22628eaa94cbed428c6e02dec9a84f",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_root_shape_provider_text",
+        "bytes": 64573,
+        "sha256": "7cbf39c75a6a8934db5da6af6226c6683496ad0c2edf24f68f6aa6b4250cb289",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_root_pipeline_text",
+        "bytes": 23728,
+        "sha256": "fdd994521a64abea209d6375426ebc3c1497d76c547ca845094947aaca1ba97b",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_root_admission_text",
+        "bytes": 14004,
+        "sha256": "878fa3aab3712b4ea8339c58d03f970252d5336faf334a050760779fe0faa081",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_peer_WNR_final_text",
+        "bytes": 53183,
+        "sha256": "b8332d68174c8ae524874cc293cc8e65793f570bf733726d80d2f4d60f9bcdb4",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_peer_WZE_final_text",
+        "bytes": 35021,
+        "sha256": "2d5241132018df2a5621265c47b41a3ed77413a847befb1a5215ea414117cd4d",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_final_text",
+        "bytes": 59644,
+        "sha256": "6b7644a978915550b5835b3492eda3bffde872b8e92f16c2db6c4538e405be8f",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_WGS_actual_main_text",
+        "bytes": 72251,
+        "sha256": "8af3af0a2dc08a6611189178099c63b0e2ac5ae8e9d767c0e211861c6d63de1e",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_WGS_actual_copies_text",
+        "bytes": 31632,
+        "sha256": "3c5588f13de4dc544f519b2fb99f372bba3200ccee79def665ce5bd1d3c3dd66",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_WSP_actual_text",
+        "bytes": 70207,
+        "sha256": "5b099f08c18a2b437cb4b78e4a629fae5dc2411a720fd12ad39cf401401d72f2",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WGS_math_text",
+        "bytes": 31846,
+        "sha256": "cb9c9aa0f7e5749967ece4e51210f359b4c58eecc7f83a05040607543ac47621",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WGS_main_candidate_text",
+        "bytes": 94460,
+        "sha256": "502856b86abe7ff280da101d259d184a49b15baa0ffbf256b49f339c77f2ac9d",
+        "exact_basename_occurrences": 0
+      },
+      {
+        "store_key": "WEJ_static_full_constructor_text",
+        "bytes": 23305,
+        "sha256": "a9914c2cdd9231f1d8afe34fb45945caee60cc4f2a57ef3ecbbfb158a5140333",
+        "exact_basename_occurrences": 0
+      }
+    ],
+    "own_check_version_limit": "Each text's exact byte count/SHA256 is recorded. WGS_main_candidate_text is the held 94460-byte source version, not asserted to be the later 94516-byte final source. The root posterior manifest has not been supplied to this audit; no absence claim is made for an unseen version.",
+    "independent_peer_attestations": [
+      {
+        "peer": "newton_source",
+        "method": "Exact-basename static search of nine held complete texts; no target body or new broad scan.",
+        "texts": [
+          "WNR final source 53183 B",
+          "WNR final interface 50205 B",
+          "WGS final interface 67298 B",
+          "WGS final source 94516 B",
+          "support final source 73459 B",
+          "posterior admission initial source 14002 B",
+          "posterior pipeline initial source 23728 B",
+          "WZE initial source 29785 B",
+          "WEJ final proof 59644 B"
+        ],
+        "all_occurrences_zero": true,
+        "scope_limit": "Only the named held versions; no unseen final manifest or repository-wide indirect dependency claim."
+      },
+      {
+        "peer": "phase_inverse",
+        "method": "Exact-basename static search of five held complete texts; no large target body read.",
+        "texts": [
+          "WZE final source 35021 B",
+          "WZE final interface 46731 B",
+          "posterior pipeline source 23728 B",
+          "posterior admission source 14004 B",
+          "successful WGS worker source 99748 B"
+        ],
+        "all_occurrences_zero": true,
+        "scope_limit": "Only these held texts; no assertion about unheld WSP/WCE or other manifests."
+      }
+    ],
+    "prior_complete_reader_audit_reused": {
+      "whitelist_path": "topics/visible-flex-exact-nearby/notes/2026-11-16-R133-dense-positive-weight-s10-trial-cleanup-whitelist.json",
+      "git_blob": "dfe541c4ce4eacf6a44daf8744c2bacd79de5ae5",
+      "bytes": 23227,
+      "sha256": "6c4ecc4ac66bee948f2c009f21c4f52760a6438c642dc291484d61863036025c",
+      "reused_scope": "The immutable earlier audit records the complete directed-native, C0 and saved-row reader chain below. Those findings are reused as historical source evidence, while this audit freshly read the comparison inventory/proof and the correct linear diagnostic and linear array producers. The old dense target and old dense diagnostic producer are not substitutes for the present linear target/producer.",
+      "reviewed_source_identities": [
+        {
+          "role": "directed_native_producer",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_cubic_native.py",
+          "git_blob": "69527ae74a666e948bde4ae420d3717872cd00e2",
+          "bytes": 17866,
+          "sha256": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c",
+          "review_status": "Complete prior review reused; no fresh source execution."
+        },
+        {
+          "role": "original_native_C0_consumer",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_cubic_C0.py",
+          "git_blob": "79f884177f33130938346b0f6f143d0dff771e25",
+          "bytes": 9216,
+          "sha256": "80c2853e0fffcb2e252da522b8da1316fa3f7ff18847363851443f36111bf54c",
+          "review_status": "Complete prior review reused; no fresh source execution."
+        },
+        {
+          "role": "complete_saved_row_reader",
+          "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_saved_row_C0_v4.py",
+          "git_blob": "abf26aa0016f143cbc779f7483889de454557426",
+          "bytes": 18076,
+          "sha256": "62d52f2b84feed035c81d91bf71a7fc69918c823ab1c361d215e494390acbbe1",
+          "review_status": "Complete prior review reused; no fresh source execution."
+        }
+      ],
+      "reader_chain": [
+        "The directed native producer reads native residuals, BC candidates, complete canonical weight coefficients/shards and the actual target, then writes its separate directed report.",
+        "The original C0 consumer reads the directed native report and independent waist data; all true attempted tubes remain recorded.",
+        "The saved-row reader retains complete native rows and explicit interrupted-process evidence. It has no trial-diagnostic input."
+      ]
+    },
+    "search_scope_limit": "The reviewed current/proposed input closures and historical native reader chain do not consume this derived report. Historical proof/inventory links remain intentionally. This is not a repository-wide proof that every possible future or indirect reference is absent. Any future consumer requiring the original body must restore it first."
+  },
+  "preserved_scientific_history": {
+    "only_listed_report_may_be_deleted": true,
+    "all_other_paths_excluded_from_whitelist": true,
+    "exact_affine_target": {
+      "path": "topics/visible-flex-exact-nearby/data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json",
+      "sha256": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848"
+    },
+    "preserved_linear_weight_objects_and_native_pilots": [
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weights-r02-n256-s3.json",
+        "sha256": "c47afa524b8d0c317edf963465821f9788971bb6a54e37ad2336476306977335",
+        "bytes": 59584
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weights-r02-n256-s3.npz.gz",
+        "sha256": "93d0a4f808b05a1faca82b47839cb3e3bea86918d6577325d3ef1c8fc52c07c4",
+        "bytes": 1375869
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3.json",
+        "sha256": "76bcdf11efee2d3a09d8025a0dae595b115d177886678784c664e3b91c8c4302",
+        "bytes": 59482
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weights-r02-n512-s3.npz.gz",
+        "sha256": "b18e9c67bd4f4b18fe21c047bca89a24be4e3418b6229bc7355b3b48b37781db",
+        "bytes": 2830191
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-s3-first-two-native.json.gz",
+        "sha256": "ac833d4827136eb9c3e11114b70a4c07d87df9a564df21ae9d932da6ef0f397e",
+        "bytes": 3904
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-s3-row600-native.json.gz",
+        "sha256": "524c1f264d84e68eeb35236330350684990569b15cfab746316fddd7b245d649",
+        "bytes": 3438
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-s10-row500-native.json.gz",
+        "sha256": "d84a55b3c7aa49b06cd63fdd00fcae52d786760c8188ca1235148961a8ad0f3c",
+        "bytes": 3431
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-cubic-s10-first-native.json.gz",
+        "sha256": "bd4edbbd2b2e52e8476f2a17348c60879e89175852d1bfa0b72d2a1c36db78bd",
+        "bytes": 3575
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-cubic-s10-row500-native.json.gz",
+        "sha256": "84fddc1c0a85afc0a92b43ad88c10d83dd05b3baa508fd8da8821c46e3b1ccfb",
+        "bytes": 3823
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-s3-first-two-C0.json.gz",
+        "sha256": "12b56addb8748cbf42fec5971b1aa0e80180f288848f263539ddda1193e26c0a",
+        "bytes": 6585
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-cubic-s10-first-C0.json.gz",
+        "sha256": "37c4506bc4940b2bc45454dde33f4ac65a9c3742968903d9ca0dc12e77ae3930",
+        "bytes": 3287
+      }
+    ],
+    "preserved_dense_canonical_weights": [
+      {
+        "manifest": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.json",
+        "manifest_bytes": 33521,
+        "manifest_sha256": "77778b62aae92b24d2a807b6cedffe194a8f4be0d76ed40219d5d313c725538c",
+        "original_bytes": 30390682,
+        "original_sha256": "815869c25462e10b3f0b16a8c23fab7959a9ae238af117ac4e515f1bd6f9814a",
+        "pieces": 655,
+        "endpoint_shape": [
+          656,
+          256,
+          2
+        ],
+        "correction_shape": [
+          655,
+          6,
+          256,
+          2
+        ],
+        "initial_weights_exactly_one": true,
+        "mean_and_all_specified_finite_coefficients_retained": true,
+        "original_reconstruction_audit": true,
+        "shard_count": 8,
+        "shard_paths": [
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-000.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-001.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-002.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-003.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-004.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-005.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-006.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-007.gz"
+        ],
+        "audit_source": "Original complete comparison inventory; no shard was fetched, decompressed, or reconstructed for this cleanup."
+      },
+      {
+        "manifest": "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.json",
+        "manifest_bytes": 29826,
+        "manifest_sha256": "e396319d2dc8e32e7f762b1be320cbf4a8834ffaad86052752b4c5cc1d5f8c6a",
+        "original_bytes": 27177816,
+        "original_sha256": "5f07d115179af334425e2585e60bbbd4c5acec7c5228c1c495cb21b71ea36ffe",
+        "pieces": 579,
+        "endpoint_shape": [
+          580,
+          256,
+          2
+        ],
+        "correction_shape": [
+          579,
+          6,
+          256,
+          2
+        ],
+        "initial_weights_exactly_one": true,
+        "mean_and_all_specified_finite_coefficients_retained": true,
+        "original_reconstruction_audit": true,
+        "shard_count": 7,
+        "shard_paths": [
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-000.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-001.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-002.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-003.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-004.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-005.gz",
+          "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-006.gz"
+        ],
+        "audit_source": "Original complete comparison inventory; no shard was fetched, decompressed, or reconstructed for this cleanup."
+      }
+    ],
+    "preserved_original_verified_native_inputs": {
+      "notes/2026-11-13-Codazzi-cubic-cleared-r02-n1024-v1-native.json.gz": "92db89ea9640edbeebcbbe871d8383d13c0e3b107478a1fd8641c7aab07555e5",
+      "notes/2026-11-13-codazzi-dense-r02-n1024-candidate-shards.json": "715b139505c8b7a34ca06e0cbadbd109e777205ede11f6cf7a2f753861fa1316",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.json": "77778b62aae92b24d2a807b6cedffe194a8f4be0d76ed40219d5d313c725538c",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-000.gz": "fcf68060b9d497cc80213357e8c7448b2048ad1e64aea908b0fdf052caea892f",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-001.gz": "0cbd7cac48b7a165fa9f30ef12fd55c6b09924b4dbfdeae2a0c65151283f739e",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-002.gz": "c0379edd477e6135ddf182824f8d8ea103703dd2c91798ef94adfa7525c65834",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-003.gz": "ce92152a224da26b5d2371c2e9ab9d2d0730c2e583d695c9059ededaf0c4a464",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-004.gz": "ac9ae82e77546b5e960fdf8537f7c56ab7b079eca1e2ae9c09b16e4dcfab014e",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-005.gz": "c993856f7856bc3072999d7e06f2eea354d2519033a3fcaced8c6634f85567e9",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-006.gz": "9a6f543b8f4a14a52f31c2c75f941f7a5a91a83c5573b66b9e07fd67a0d37706",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s3-shards.part-007.gz": "80788d168b542c1f8d6fbe5b89b84ea2bb083d140629b8c36b050e971f75d144",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.json": "e396319d2dc8e32e7f762b1be320cbf4a8834ffaad86052752b4c5cc1d5f8c6a",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-000.gz": "7bc0b0064096edabc409381de2dae4002542617287628f33390549e5287e8f2f",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-001.gz": "c08f584a5d437604021f82cf382a82edb5ee728c7836e2b36cae4f265cb34f5b",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-002.gz": "04c6782749b5704901c52aa01ff46a95a1fa99c243466300b126f6945c08e810",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-003.gz": "bb6249e20a75089d340b2ce50d34c9b8bda3fea5bd7c97b9d65b6c0447028360",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-004.gz": "6d1d465c4cb22264827108782c3cc59f0f46cafbafd5b90f355ef05f3e4063ae",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-005.gz": "6094841836a1250371e0a98b91bbcf6ab6fb47134d873263215b07bd260a6726",
+      "notes/2026-11-13-Codazzi-positive-dense-weights-r02-n512-s10-shards.part-006.gz": "ae1458f1653c25838cefd272c519a9aaa1824bc12e0f544dd9b4d9a9fcca084a",
+      "data/phase_ring_continuation/type_fixed_step02_d5_exact_affine_step5_object.json": "91040c2271fa32c42e79d2af1ee706d4362683ecbc18f1000de2521b8c136848",
+      "notes/2026-11-13-Codazzi-positive-weight-s3-first-two-native.json.gz": "ac833d4827136eb9c3e11114b70a4c07d87df9a564df21ae9d932da6ef0f397e",
+      "notes/2026-11-13-R131-C0-only-r005-native.json.gz": "be7f67eec3fd07a4057b7db351484d2c8360c93b3461f5b39fcebb6fff790f2e",
+      "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_native.py": "7b9caace1c416215a0069799323148425496f71891f79bb6240c82b94ac0ba3e",
+      "notes/2026-11-13-Codazzi-positive-weight-cubic-s10-first-native.json.gz": "bd4edbbd2b2e52e8476f2a17348c60879e89175852d1bfa0b72d2a1c36db78bd",
+      "/workspace/scratch/ac0d699811ad/math-research/topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_cubic_native.py": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c"
+    },
+    "preserved_original_verified_native_dependencies": {
+      "scripts/fourfold_codazzi_cubic_cleared_residual.py": "02c9106751992cd466ac82fea138e4ec5cb0da34eea838b515b1bea4f44e1b5b",
+      "scripts/fourfold_codazzi_positive_weight_candidate.py": "91fe7cf001f432ab02e5b8fcee91149d202df270920a343eb500093411fb5254",
+      "scripts/fourfold_codazzi_sharded_candidate.py": "ecefafa9a47495b050332893a0acd9fb3f3143c0c1b59d2e99c01813bdc25b92",
+      "scripts/fourfold_phase_codazzi_continuation_validate.py": "1c97e0bd58d49514501ede6d98b909567fb59d933813d2cc74d9e2813fc60258",
+      "scripts/fourfold_phase_newton_source_centered.py": "1bb36ce8ef6e8043f76c648b005cc3f56609e97ec49852f36bdbda80a5e4749d",
+      "scripts/fourfold_phase_beta_bulk_box.py": "b880a940d30860ed0998509b1a29f7b1f13ac5ac646f4628d91ea87ea3ccba4a",
+      "scripts/fourfold_phase_two_jet_newton_source.py": "cd7c36692b48844d268dc87e20556e39a869da154ce5e3826a6bdc0b50162f2a",
+      "scripts/fourfold_phase_beta_bulk_interval.py": "4b9d6bf8d4b0d0c962eb32df9051b3b58fa1e25d7612e2bcef259572a9b15a76",
+      "scripts/fourfold_codazzi_piecewise_barrier.py": "7fcbb78ee47354cd1081b5482c2ca6c6c7d04b4d766282aa362218f9c2e67927",
+      "scripts/fourfold_codazzi_cubic_target_jets.py": "eb3fe6833fcba0162724031905964563e3f96f77aaa56b7996aadf3856ca8412",
+      "scripts/fourfold_codazzi_high_target_jets.py": "ea71aefd62bf0c16c9e9c9fe4a5da5ce95a973cf913825bd875a4ba59fc14168",
+      "scripts/fourfold_phase_codazzi_coefficients.py": "6bc8f108e89bef96134c580be6ae18b382dae5b5ab6139e5863acdfa526f73bb",
+      "scripts/fourfold_codazzi_linear_degeneracy_v2.py": "3a179c671c4b2ab7f237875d8da64e8f7c7fa7599c0038ba326c3cecd8c630fa",
+      "scripts/fourfold_codazzi_linear_degeneracy.py": "8b4e003df87bbfd685254dda1113d22b746b9be619d38628bd6d909195921933"
+    },
+    "preserved_complete_sources": [
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weights_probe.py",
+        "sha256": "d8f140be6bf07e221f0e83d789ffc42e0db495d3c71a2127e4786e89fa038383",
+        "bytes": 7771
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_probe_budget.py",
+        "sha256": "2064c82c3a97c13315902aa9441b42a473335558800436a20d47c2434ebdfe08",
+        "bytes": 6405
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_candidate.py",
+        "sha256": "91fe7cf001f432ab02e5b8fcee91149d202df270920a343eb500093411fb5254",
+        "bytes": 7003
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weights_dense_probe.py",
+        "sha256": "42a46b084494e4bb19a5b16b86dabd8d3ca6e6a05317022bccb431d6f79fe594",
+        "bytes": 6324
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_dense_weight_probe_budget.py",
+        "sha256": "f0b062d331f2f17e9568a53e2ab86d9b17510c645cbed4a0407fdb74cde67683",
+        "bytes": 6106
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_native.py",
+        "sha256": "7b9caace1c416215a0069799323148425496f71891f79bb6240c82b94ac0ba3e",
+        "bytes": 16180
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_C0.py",
+        "sha256": "f4a8b74005b1b3d1a658c79ed46623df139f64f0b28f1a4a5e4dd9cfebe9fb65",
+        "bytes": 9195
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_cubic_native.py",
+        "sha256": "d467ee2b62c32365c98526fd06a1c0752f4538483a630a62124ace472c75da5c",
+        "bytes": 17866
+      },
+      {
+        "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_cubic_C0.py",
+        "sha256": "80c2853e0fffcb2e252da522b8da1316fa3f7ff18847363851443f36111bf54c",
+        "bytes": 9216
+      }
+    ],
+    "preserved_full_r02_native_and_process_paths": [
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-batched-s10-r02-part-000a-native.json.gz",
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-batched-s10-r02-part-000b-native.json.gz",
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-part-001-native.json.gz",
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-cubic-s10-r02-part-002-native.json.gz",
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-batched-s10-r02-part-002-tail-native.json.gz",
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-Codazzi-positive-weight-cubic-part002-exit137.json",
+      "topics/visible-flex-exact-nearby/notes/2026-11-13-R131-positive-weight-complete-r02-C0-native.json.gz"
+    ],
+    "original_small_failure_and_success_records": "The comparison inventory/proof, linear generation reports, native pilot records, failed tube records, independent full-r02 saved rows and process records, all sources and all proofs stay outside this whitelist.",
+    "history_status_limit": "The original comparison proof's in-progress full-r02 status is preserved as a historical statement. Later full-r02 native results, including failed tube attempts and interruption evidence, are neither modified nor recertified by this cleanup.",
+    "current_storage_limit": "Preservation here means this whitelist authorizes no change to these independent current or historical objects. Their original inventory identities are retained; this audit did not fetch binaries or assert that every historical binary currently appears as an ordinary blob at main.",
+    "no_successful_or_failed_scientific_target_reexecuted": true
+  },
+  "reviewed_small_evidence": [
+    {
+      "role": "comparison_inventory",
+      "path": "topics/visible-flex-exact-nearby/notes/2026-11-13-R131-positive-weight-comparison-manifest.json",
+      "git_blob": "222a2764bfbc2ac25481132cb917e2d97b525d1e",
+      "bytes": 20554,
+      "sha256": "68efe2a4f317d1ba799f371d7f2f3b48dffa7ccfe5fa2a664a138e9d17b4a8d9",
+      "review": "Complete small UTF-8 text read and independently hashed during this audit; no producer executed."
+    },
+    {
+      "role": "comparison_proof",
+      "path": "topics/visible-flex-exact-nearby/results/R131-supplement-positive-comparison-weights-and-cleared-tube-rows.md",
+      "git_blob": "d82f379ac6e64c99c5ae0abb6f8859a1b00643b4",
+      "bytes": 14676,
+      "sha256": "b6ac3f22432a92a6708c9fb4e2e7ecfcfac46c9fbe944fd46ade6da57f41c531",
+      "review": "Complete small UTF-8 text read and independently hashed during this audit; no producer executed."
+    },
+    {
+      "role": "linear_diagnostic_budget_producer",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_probe_budget.py",
+      "git_blob": "e618151aa2c17bd24660d13b8a569b329c646b28",
+      "bytes": 6405,
+      "sha256": "2064c82c3a97c13315902aa9441b42a473335558800436a20d47c2434ebdfe08",
+      "review": "Complete small UTF-8 text read and independently hashed during this audit; no producer executed."
+    },
+    {
+      "role": "linear_weight_array_producer",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weights_probe.py",
+      "git_blob": "522d5b98616f369d519119d11390d58f690b196a",
+      "bytes": 7771,
+      "sha256": "d8f140be6bf07e221f0e83d789ffc42e0db495d3c71a2127e4786e89fa038383",
+      "review": "Complete small UTF-8 text read and independently hashed during this audit; no producer executed."
+    },
+    {
+      "role": "independent_complete_dense_weight_reader",
+      "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_positive_weight_candidate.py",
+      "git_blob": "84e576f848fee1b9d9da14b25bff89cdb2459fe0",
+      "bytes": 7003,
+      "sha256": "91fe7cf001f432ab02e5b8fcee91149d202df270920a343eb500093411fb5254",
+      "review": "Complete small UTF-8 text read and independently hashed during this audit; no producer executed."
+    }
+  ],
+  "publication_and_deletion_order": [
+    "Root reviews and publishes this exact single-path whitelist in an ordinary commit before deletion.",
+    "Immediately before deletion, root checks fresh current metadata: exact path, regular Git blob e81bf7dd6e131dcb08d1c03c81c1fd963fdcf287 and 505865-byte size.",
+    "If the path is missing, renamed, or its blob/size differs, stop this deletion; do not select or broaden to another path automatically.",
+    "Delete only the listed derived report in an ordinary commit. Preserve both README files, all other files and all history.",
+    "Any future use of the original large report restores exact a8be95d8afbc9dad24e5ea509335dc03b85918db:path bytes and verifies the original blob/size/SHA256; do not regenerate historical diagnostic bytes."
+  ],
+  "audit_operations": {
+    "small_text_and_nonrecursive_tree_metadata_only": true,
+    "large_target_body_fetches": 0,
+    "binary_fetches": 0,
+    "scientific_evaluations": 0,
+    "producer_runs": 0,
+    "workflow_dispatches": 0,
+    "files_deleted": 0,
+    "main_branch_writes": 0,
+    "unattached_whitelist_blob_only": true
+  },
+  "capacity_purpose": "Reserve space for the complete new posterior package and all complete atomic scientific graphs and failure prefixes. No mathematical object or failure conclusion is removed from the preserved history."
+}

@@ -6,6 +6,10 @@
 
 ## 新增结论
 
+- 容量：在83bac7b8已发布白名单后，fresh current tree 核准e81bf7dd/505865B，仅普通删除该linear512/s3派生诊断；原大正文未获取，历史可精确恢复。无数学重算，全部旧失败及独立canonical/native/source保留。
+
+- 容量：linear512/s3 派生诊断的单路径[完整可恢复白名单](notes/2026-11-16-R133-linear-positive-weight-s3-trial-cleanup-whitelist.json)已立；505865B 原blob/SHA与a8be95d8同path恢复点均固定。五个浮点tube失败结论、全部原失败行的Git历史、canonical权重/native和源全部保留；此提交未删除或重算。
+
 - **s10 白名单执行。** 先提交6d782189，再freshguard普通删除唯一8d066c24/633521B派生报告；[完整原样恢复及失败保留](notes/2026-11-16-R133-dense-positive-weight-s10-trial-cleanup-whitelist.json)。0数学执行。
 
 - **s10 派生诊断容量白名单。** [精确恢复记录](notes/2026-11-16-R133-dense-positive-weight-s10-trial-cleanup-whitelist.json)只含633521B浮点报告；原inventory/SHA与固定提交已核，先推白名单，尚未删除。全部canonical、native、原失败与成功不变。

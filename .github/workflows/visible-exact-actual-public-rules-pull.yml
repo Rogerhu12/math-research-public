@@ -125,3 +125,4 @@ jobs:
               print("Push rejected; immediately pulling with rebase and rechecking both READMEs.", flush=True)
               row, unchanged = pull_and_check()
           PY_RULE_PULL
+# Reviewed periodic actual main pull requested at 2026-11-16T07:45:37Z; no scientific target.

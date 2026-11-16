@@ -22,13 +22,13 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 共同库从起点固定真宽度/外cap/母/右锚。R455/R464保q4=0、共同F★/DE、M3≠0和(V19,dP)=(0,η≠0)。R460付simple-p无留数与固定解析cap的germ；真range仍保Af partial、平台/总量/两germ/gap/右锚。原13规范由R464在同完整成本的两period/最高P2已付时成立，不可独立拼接。
 
-R465/R466：完整Qaff,0/NQaff,1≅S(W0)/S(K0)，成本维7/5；XH=H*+J4、XY=J4−J6。真换锚保尾/Γ，增强−6/−4字符已排；**同Jaff满闭锥iff h∈span(y)**。四self run43819806568/job133140037524/sourcefe9569f7…的85原记录已付，累计15.690763111秒含失败，0旧rank/自检；[原观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)。
+R465/R466：完整Qaff,0/NQaff,1≅S(W0)/S(K0)，成本维7/5；XH=H*+J4、XY=J4−J6。真换锚保尾/Γ，增强−6/−4字符已排；**同Jaff满闭锥iff h∈span(y)**。四self原85记录及含失败15.690763111秒保[观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)。
 
 [R468](results/R468-real-height-pulse-fills-affine-residual-and-completes-actual-enhanced-cost-control.md)：h∈span(y)也iff同完整Jaff有限actual C1截面；真高度脉冲+独立R70前缀+整WW^R付余头，固定有限ε，全基准正整数配平/两次商校正/最终根保。R467另有KP杀Jaff、dτKP=−η/τ≠0；固定τ/保护芽incoming X*时Klein目标−(Jbase,d~base+d_fX*)/4，再原包装/13规范。只付指定芽，不授其它s段。
 
 R470已证两新响应完整self仍三维，XY余x5<0故y≠0；XH十二词保原Ln2真左截断积分。R471给同一真实cap八A_j/六β的五门Δν=R5βν−Rνβ5=0（ν1,2,3,4,6）iff联合比例，唯一c=1152β5/R5；任一非零minor给λ+下降。真cap 5h>3s²、A_j交替号及A0/A7界都保。四局部列共二次因子a；H在复根的真实E=3/8∫B²C²dC不可由q>0直接判正。
 
-[R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)：四高系数minor D=4s(19s⁴−34hs²−h²)<0；E两根0后余a×实二次。完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0。允许cap中Δ6真可两号；用v=p^(2/3)正曲率密度、共同真平端与简单解析根连续选有限cap使Δ6=0，再从头接R410/R455/R464同q4/F★/20/M3新库。只付一门，不搬给旧冻结母；剩E两实门及Δ3/4。
+[R475](results/R475-exact-four-column-cap-projection-and-one-real-mirror-condition.md)：四高系数minor D=4s(19s⁴−34hs²−h²)<0；E两根0后余a×实二次。完整比例iff E(z±)=0及Δ6=Δ3=Δ4=0。允许cap中Δ6真可两号；用v=p^(2/3)正曲率密度、共同真平端与简单解析根连续选有限cap使Δ6=0，再从头接R410/R455/R464同q4/F★/20/M3新库。只付一门，不搬给旧冻结母；剩E两实门及Δ3/4。[R477](results/R477-regular-cap-normal-and-four-condition-local-open-image.md)以长微小正尾/三累计准确匹配保根整germ，付真DΔ6≠0 normal；分离五点高阶jets与该normal纠正给同Δ6=0纤维内剩四门局部满射。全部有限/C³小/原Af号保；不由开放像宣0可达，R479继续全局目标。
 
 R473固定末三矩/端germ的真实cap扰动给E非零开稠密；R474以同有限N四内部normal真实IFT补q4，再冻结新cap、重新选restricted-max F★与20根，得到允许新库仍E≠0。未判旧ψ3/所有cap，也不保旧F★/DE/μ数值。[R478](results/R478-critical-power-complex-cap-obstruction-and-smooth-positive-approximants.md)以完整八次primitive/三重因子反证付临界power复余量非零；C²分部连续性及实际正曲率密度近似给真光滑非零cap，不判冻结ψ3。文学线继续其具体积分；机制线解真实例外cap及剩余四门。
 
@@ -52,4 +52,4 @@ actual比例/其余s段同规范、高阶收敛及全部主几何门未付。
 
 [新四cut交换任务](notes/true53-four-cut-exchange-master-design-20261116.md)run43825241350/research133157415075/source5189a1a7…首输入失败，[原记录](notes/true53-four-cut-first-input-failure-and-carried-account-20261116.md)。9662行已装配、两网缺失context已恢复，但pool IDs⊆已付gradient断言失败；0finite/JVP/新gradient/scalar/actual，仍点53。36.79963991600005秒含全部输入/失败/输出，祖先累计 **1695.779430607秒/128值**。context只保hash未交付数组，明确允许一次有账修复恢复；同600秒需携带旧36.7996秒，全部其余配额不重置。正修pool/实际选行语义，0旧finite/J/源ordinary重算，修后继续；大数组只原stdout。
 
-理论R475已付新cap单门；R477继续其余四门与正规化，文学线解冻结ψ3，R476解同一w全段。主完成门未付，不以任一任务预算/阶段停下。
+理论R477已付正则单门与四门局部开放；R479继续同cap全零目标，文学线解冻结ψ3，R476解同一w全段。主完成门未付，不以任一任务预算/阶段停下。
