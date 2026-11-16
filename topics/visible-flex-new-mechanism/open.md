@@ -166,14 +166,11 @@ HANDOFF随实际状态更新；每个结论立即推送。所有真正研究几�
 [R408](results/R408-independent-second-gauge-invariant-fluxes-and-natural-character-extension.md)已证任意原允许wθ不能改变实际packet totals、Af累计flux或平台二次；左affine两常数仍可变，固定圆因子化不能借universal代替。继续R411–R419同一有限查询的actual像，保incoming、第三合法性和13同一个k。
 
 
-### R409–R412：末包正字符例外与十九根已在同母族实现，继续共同actual
+### R409–R431：正字符例外与同母共同根已付
 
-[R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)给全自然translation degree≤7，最高−3λ+M5/80；八同形同宽实际末包suffix全0，16个d/e总量读λ+>0且任意允许w不改。M5≠0范围的全period不可达，旧未知母仅得M5=0必要。[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)在新初选同点保M5=0/19真根/一对Af；这一对结论不转给新四约束母。
+R409末八同形包在M5≠0时16d/e读λ+>0，故需M5零；R410仅新初选M5/19门/一对Af，不转另一母。R411/412进一步给正解析母n2四平移系数0、真实4minor与restricted F★/19jet，共同D/E/F/外区，全部p/Af内部零有限简单但不限定一对。R431从起点同选四约束/19门并把全部Af根放共同外区，已见上节；不重这些旧根/秩。
 
-[R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)先付正解析母全部n2四平移系数0；[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)现在加强16个可避局部点的4minor，在同一四约束流形取真restricted max-F及19jet minors，以r+4校正及原有限N根同付19、共同F/外区。p和Af的所有内部零均有限简单，数量不限定一对。所有最终不同母的ordered3+2对完整n2因local五次恰0；H*在同一个实际圆的wholeE及所有packet totals核中而λ1。故原正字符不能通过此有限真实评价因子化；这只给signed核见证，不授实际负路径、全period或同g有限族。
-
-原共同D/E已经由R429支付完整finite affine查询与全部低权字符，当前不再增加该自然目录。全部内部Af通量、真affine尾、13同一个k仍欠。
-
+最终共同母的ordered3+2对完整n2零，H*在同实际wholeE/全部packet totals核但λ1，排正字符经此有限评价因子化；这是signed见证，不授负实际路径。R429已付有限自然目录，后续只推进共同内部flux、真affine尾及同一规范。
 
 ### R413–R429：完整共同J已付，转所有内部period门
 
@@ -192,6 +189,12 @@ R432原18维Z的cτ0恰5维，a=p²/Af/xAf+2pr/x²Af+4xpr−4p²/x³Af+6x²pr−
 [R434](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)唯一actual已完成：Q144秩59/系数核85，完整39 current像32，p-only21外准确11维；七条全u-only annihilator给本模块充要条件，3孤立A0 unit member而其它15孤立unit nonmember，不是u商仅3。35fresh原Q+三current全过，1020原记录完整；science2.136164829s/RSS34076KiB，旧研究0，不重跑。
 
 现在对同一真实cap目标使用七关系与所有实际suffix，再与R435/R436 self列同控。原条件−P(V)∈P(R0)及全kerJ像包含仍用于同一实际有限词的全部prototype/J基准；本144模块结论不扩全R0。全部内点付后真period/gap平台值/同13规范仍继续。
+
+### R449：完整响应核与Af诊断核分清
+
+[R449](results/R449-eight-complete-hook-responses-and-a-137-dimensional-response-image.md)以原单峰bump平移族和完整左尾证明B(E8,H)真独立8，尽管R443其Af self全0；Q/current/self旗标59/32/38后尚有这8真方向，故144完整像≥137、完整系数核≤7。K11与整个144像交零，增广完整像≥148；不替49 Af像/actual秩。
+
+R443十五条输入核中另七条只知Af self为0，未判完整响应是否为0或落八hook像。这个新下界是纸面旗标加真实八尾论证，不重数学秩；若需完整核，必须另消费原完整成本。R247的全pure核仍可能有144+K之外，当前优先49真实镜/全根与period。
 
 ### R433/R439：actual全ordered零值与真实全点对角商
 

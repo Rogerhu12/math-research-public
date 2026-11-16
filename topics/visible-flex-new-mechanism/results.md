@@ -291,3 +291,6 @@
 
 
 - **p32新first-jet标量方法设计完成，尚未执行。** [设计](notes/paid-p32-first-jet-line-envelope-method-design-20261116.md)（16178B/SHAa4e8af9bd9140470f43bb4fc026799339449789dd4a3c83c21b6682622f93b88）沿原first-jet与单方向公式，保原metric/reference/null/两次加法，避免无关position冷前缀；实际trial仍原完整门。1cache/2grid/1scalar/≤64queries/≤3trialpairs，独立600秒总science包含≤30秒dev，祖先及旧32/64/96/160封存保全。完整plainJSON cache在原stdout，后置只读report抽小结果不做数学；无payload提交。新源在做，未预报下降/通过。
+
+
+- **R449：八个完整hook真独立及144响应像至少137维。** [完整纸证](results/R449-eight-complete-hook-responses-and-a-137-dimensional-response-image.md)（10015B/SHAfd1beb92545d45510a9460a0fce7b9590a85490ab5b49d839775d2b189699ee8）：完整零B_EH迫2Af(pqE″−rqE′)=0；单峰解析bump跨唯一简单p零给qE=c(u)u，真实八左尾及三矩平移span3迫E0。R434/R443旗标59/32/38、末15核含8真完整方向，故144完整像≥137/系数核≤7。K11 self独立再给它与整个144像交零，完整增广≥148。不是49 Af像、固定圆或actual rank，不称剩七关系完整零；0新执行。
