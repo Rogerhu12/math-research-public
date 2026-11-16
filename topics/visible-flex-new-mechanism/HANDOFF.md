@@ -4,9 +4,9 @@
 
 ## 1. 已读规则与实际pull
 
-根/题README已全文读。两仓已blob:none sparse部分克隆。最后**已确认本地public真pull**为16:19:30.281585→16:19:40.478206 UTC，读 **7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352**；双README空diff。根blob21bd547f56590b7f2dd279d0297efb289a9b2783、题blobd0432faff569c8e9af7ed4809847e12880976c11未变。下一真实public pull须≤**17:19:40 UTC**。
+根/题README已全文读，两仓已blob:none sparse部分克隆。本地最后已确认public16:19:30→16:19:40读7c16a9e89d8ec9d2630825f2bedbfd4f44fbd352；private16:24:57→16:25:17读9c5ec050ed672180245cf65312af93bef2ab937f。后续本地故障不冒成功。
 
-private于16:24:57.132524→16:25:17.334486真实pull读 **9c5ec050ed672180245cf65312af93bef2ab937f**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE会话唯一进行中；下一≤17:25:17。私有正文不发表。
+最新**公开Actions实际Git pull**：report public16:49:48.273342→16:49:49.083526读 **c12ef2907fc74fb9dab7f98545117df3ebfc4dd5**；private16:49:51.692753→16:49:52.324681读 **6d351da624ebbf3205221dcbf3787c3bf17d299a**。双README空diff；根blob21bd547f56590b7f2dd279d0297efb289a9b2783/题d0432faff569c8e9af7ed4809847e12880976c11/private根5ba164843b1f5802184178a82d786264404873a3；private题无/QUEUE唯一进行中。下一真pull≤**17:49:49/17:49:52 UTC**；四次CI回执见[full51闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)。私有正文不发表。
 
 16:26–27public pull rc0但磁盘满/upstream未整合，**不算成功pull**。仅清本仓126个孤立GC临时副本2016603782B，保正式对象/研究文件。16:31起执行环境不可用；按根8以小UTF8源码/MD接口expected-head非force发布，**API不冒原生pull/rebase**。新Actions科学前真pull双仓核规则、回执补H；本地恢复立即pull。有变只读diff即执行；故障全账见log。
 
@@ -56,7 +56,7 @@ R512/515/517的YC字面同形库和所有R469–509旧尾/period/13条件各保�
 
 ## 5. 已在继续的真实下一问题
 
-**O2**[whole34完整闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)：run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774fb，9/false/120iter，盒58/61与准确norm失败，0预测/actual，仍58。新184.71003744799998秒，总3231.8129525510003/147原full值；另142新两网q/120J/1920导数block，余额闭。joblog及runZIP只取3条尾记录367277B，MODEL/J/大trace正文缺失不能复用；raw36/q168/172与最终账确存。下一全原后缀51系数+K/h，释放旧R0方向，900总秒/360solver秒/240iter/480物理点/960backend；唯一true58，[新源/设计](notes/true58-full51-whole-suffix-design-20261116.md)与370源请求已接线，已由source077d1dbb9c184cf4c6edf3e4c20014880d810283启动run43910342020；尚无新科学观察，旧范围不重启。53原变量/返回全保，大数组只binding/成本；RAM仅当前q及所需J，0临时磁盘数组。原完整14/连续主门保。
+**O2**[whole34闭账](notes/true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)保9/false/盒58/61与norm失败、缺失MODEL/J大trace边界。最新[full51闭账](notes/true58-full51-whole-suffix-clock-stop-no-return-20261116.md)：run43910342020/research133450221925/source077d1dbb9c184cf4c6edf3e4c20014880d810283；solver360钟停实际362.24296968，无OptimizeResult/returned vector，0预测/actual，仍58。末完成K17.03922875676163/细κ17.039315013999914、η.2660088845229819仍违约；另last backend不同不移配。新410.626657796秒/180q/179J/2864blocks，总**3642.4396103470003/147**；余额闭，九原记录完整，大数组只有bindings，0磁盘写/1315268KiB峰RSS。下一研究原51外真实高度/全body控制和完整172 affine图，唯一true58，不重开旧范围。
 
 **O4**同R533母R536、同R521母R539各已付一次χ的净负总p1及单矩准确零，R540另已付33母同支k>2，R542已付快族t1总负/真实驻留时长门，继续各自同χ慢轨道、其余七矩和全部返回门。R537/538只授先固定有限高度/时长后δ，近k0的t1仍负；R530/532四偶局部开像尚无真零。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付，不能混母或逐段换χ。
 
