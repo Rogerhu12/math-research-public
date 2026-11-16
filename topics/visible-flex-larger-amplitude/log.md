@@ -169,3 +169,7 @@ R596三件104903B完成即独立刊：真实CP/capture/all RHS字、四原物理
 ## 2026-11-16 16:23 UTC /root — 两22/23完整引用说明与狭窄历史整理
 
 固定7af9的新审计77014B原必要已完整恢复；18组93行、真实engine导出/artifact读取根/parent与B model用途全明。普通移除仅两manifest602356+626541B，全部其他输入/arrays/warm/status/source保；每真pull对全26patterns最新delta/候选全字/仅两删除/容量实际守卫，未知或超限不推。行政workflow仅专用分支，未改main共享workflow；原NFF立即pull再普通push，真实回执随后补。
+
+## 2026-11-16 16:28 UTC /root — R584/request244完整实际循环观察入口
+
+六件完成即独立普通刊后单POST：原454全保→469/十caller/R583六plan与一次安装，原输入/12000-19200/全部FD-fullDN门和90000/70保。题外新增visible-larger-live128-loop-rounding-observation-full112.yml仅承接真实完整入口；R585 exact唯一。并补两22/23实际f370/138完整delta/仅两删回执，R583明确R561无mode读取、R584限定layout先fallback（源码不变）；open1.3全旧词固定f370链，§4–6原字保。

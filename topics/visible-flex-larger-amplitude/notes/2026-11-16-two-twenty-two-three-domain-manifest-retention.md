@@ -626,3 +626,41 @@ sha256sum "$restore_root/twenty-two-manifest.json" "$restore_root/twenty-three-m
 普通push遇non-fast-forward/cannot-lock立即真实pull --rebase，再核双README、记读取commit到HANDOFF、重做上述完整最新delta和容量守卫后普通重推；不force、不覆盖别人提交。若README有变，原流程打印差异并停止该publisher，root只读差异后立即按新规矩继续已授权工作。行政workflow只在专用分支，不进main。
 
 本次行政Python仅标准库/Git读写与上述明确元数据核对，不导入/运行数学源码，不读科学运行日志，不重跑原审计，不上传artifact、不再存原77014B必要body或原HTTP日志。最后的实际run/job/head、每次真pull/README、完整guard身份/展开身份/范围与容量，以及普通删除是否成功，必须由实际回执补记。
+
+## 11. 最终真实删除、完整必要回传与普通推送
+
+本节按唯一终态读取的行政publisher [43907010619](https://github.com/Rogerhu12/math-research-public/actions/runs/43907010619)、job133438441644的实际回执补记。source commit为279a722b69e3d1ab257b70a55bc75a88e3d9ecf8，专用行政分支head为4adebe950036153ebd0300c573f50290aed01ac5。真实普通main结果为 **f370f6f013f2d80fd87466bab2638230a9d25d2d**。本次没有NFF；16:24:33.0043245Z普通push成功，status为空，无force。
+
+16:23:53.169/53.607Z真实pull后的origin/main为e6025a7ed5d7a00489777157aa19bb540ae11247。根README 21bd547f56590b7f2dd279d0297efb289a9b2783、课题README bff8aea253a9e6a7a4fac28d810ac454c5499fec均未变，HANDOFF已记该已读提交。行政workflow没有进入main。
+
+实际最终守卫源码14920B/SHA129b17e0465a8ef23ea73654a1827f86b0b260ed9095046839af7b099d6b19c7；包含原真实partial clone/pull/README/普通push的行政程序22073B/SHA0aef6852eea8ad7188d91fa117ebc5e0a4a7865705622d52eee4854ad1b1588d。第10节声明的固定头、26项模式、空豁免、两个候选、近端容量与仅两删除检查均是实际执行的这份源。
+
+### 11.1 完整返回而非只读identity
+
+16:24:10.132/10.159Z实际返回的整个RETENTION_TAIL_AUDIT必要体为 **64670B / 79ee414645b107e813c222c3b78191822f5d0150a75ee27741364e6293305666**，低于90000。全体已唯一读取；root从缓存正文解出RT5九个明确行政行族，逐项按完整索引/字段次序/常量或原值列/全path表复原，恢复原整个canonical对象为 **93733B / 5a4d31d30d848b754bf7fbc995ea94fe6013619aac5fe6a70eb5c904f2f47c77**，与实际关系记录完全一致。原对象没有另作Git、artifact或detached raw保存。
+
+恢复仅是行政元数据关系，不是项目科学算术；没有科学数组或候选全文编码。打印的shell源码echo里同名print字符串不算运行frame，解析只取真正时间戳后的严格frame起点。此处没有第二次下载日志或重跑审计。
+
+固定7af9到实际pulled e6025的完整delta共 **138项：62个current source/config/input完整扫描，67个历史文稿完整扫描，9个既有删除路径**。141个完整path在该命名关系中均有原字符串，没有把路径摘要当原地址。current_source_matches、reviewed_generic_source_matches、unresolved_current_source_matches、unscanned_changes、errors五项均实际为空，allowed实际为true。这里的零只针对这一次固定literal和明确新变化范围；第3节全仓库原未扫补集及动态/外部引用边界照旧。
+
+那9项既有删除是另一课题visible-flex-exact-nearby的旧R133 compact floating报告，已经存在于pulled main；它们列在完整delta供审核，**不是本次root新增的删除**。本次没有改该课题文件。没有把GitHub比较元数据中后段缺失的patch或0 line-count当成没有变化；138项来自真实完整raw diff。
+
+两候选在实际origin/main的actual_blob、actual_bytes、actual_sha256分别逐项等于第1节的7ee414b4/602356/a55ba6fc与e66c6d34/626541/4d682aae。对应完整字节仅Actions读取，未走大正文连接器。
+
+### 11.2 实际发布范围和容量逐项变化
+
+实际origin/main到proposed/final f370f6f0只有下列7个发布路径；declared_paths与actual_paths逐字同。实际deleted_paths与两个expected_deleted_paths逐字同，故所有其他input/source/warm/status/array/gzip/sibling不在本次删除中。
+
+| 本题内路径 | 原字节 | 新字节 | 差额 |
+|---|---:|---:|---:|
+| HANDOFF.md | 8266 | 8025 | −241 |
+| log.md | 22598 | 23136 | +538 |
+| notes/2026-11-16-two-twenty-two-three-domain-manifest-retention.md | 0 | 65948 | +65948 |
+| notes/public-actions-43656584956-1-condensedqp/twenty-two-condensed-warm/domain-operator/manifest.json | 602356 | 0 | −602356 |
+| notes/public-actions-43659610548-1-condensedqp/twenty-three-condensed-warm/domain-operator/manifest.json | 626541 | 0 | −626541 |
+| open.md | 26783 | 27440 | +657 |
+| results.md | 19085 | 19445 | +360 |
+
+实际近端b68容量199961745B，经全部上述变化后为 **198800110B**。普通publisher独立从原f7/198569112基点加全部topic变化也返回同一198800110B。两manifest毛释放1228897B；扣除实际完整说明和登记变化后的净减少为1161635B。本节后续追加文字会按下一次真实publication另行计量，不把初次65948B冒成本节补记后全文大小。
+
+原引用链、两真实artifact reader和它们要求的原完整ZIP/NPZ均没有改；两个sibling condensed-array-manifest的B model关联照旧保。恢复路径固定7af9、所有未付科学职责、外部artifact可用性边界和历史原参数保持。至此本次只有两份main静态副本被普通移出，准确历史原文仍可按第9节恢复；这不是对其他旧raw的批量删除授权，也不是任何新的数学成功。

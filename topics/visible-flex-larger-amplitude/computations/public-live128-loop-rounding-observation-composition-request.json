@@ -1,0 +1,457 @@
+{
+  "schema": "public-live128-loop-rounding-observation-composition-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 244,
+  "operation": "one-actual-R583-loop-rounding-installer-on-original248-owner12000-full112-chain",
+  "namespace": "visible-live128-loop-rounding-observation244",
+  "parent": {
+    "request": {
+      "file": "computations/public-live128-extended-owner-budget-composition-request.json",
+      "bytes": 8964,
+      "sha256": "002265d96fc7dedaa4500708b8a028f3ccb660eef55c21528325555e3b9e2cc8"
+    },
+    "request_number": 248,
+    "outer_schema": "public-live128-extended-owner-budget-composition-request-v1",
+    "current_schema": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+    "namespace": "visible-live128-extended-owner-budget248",
+    "source_generator": {
+      "file": "root_20261116_live128_extended_owner_budget_source_views.py",
+      "bytes": 26239,
+      "sha256": "9f852d3576372d25712f5276771dc9ac51fe1a97c4b8fdc700fd470d5a2ee5ee"
+    },
+    "source_plan": {
+      "file": "notes/r593-live128-extended-owner-budget-complete-source-plan.json",
+      "bytes": 10168,
+      "sha256": "4d7cee7c4d51c5415a5e22a10f3e21b6f00ab045a84260a484299b7426417229"
+    },
+    "preparation_schema": "R593-live128-extended-owner-budget-complete-source-preparation-v1",
+    "necessary_schema": "R593-live128-extended-owner-budget-complete-source-preparation-v1-necessary-v1",
+    "source_preparation_directory": "request248-source-preparation",
+    "current_request_basename": "current-request248.json",
+    "record_basename": "source-views.json",
+    "overflow_basename": "necessary-source-overflow.json",
+    "source_contract_is_ancestry_only": true,
+    "published_parent_commit": "b38a46a6d0f34f250cff6d13c64ffafa65931ef8"
+  },
+  "source_generator": {
+    "file": "root_20261116_live128_loop_rounding_observation_source_views.py",
+    "bytes": 37130,
+    "sha256": "5057de1e663103be71df6ab6e611079aae3cd33ed1820fd5ea1e41d2280b4e91"
+  },
+  "source_plan": {
+    "file": "notes/r584-live128-loop-rounding-observation-complete-source-plan.json",
+    "bytes": 52014,
+    "sha256": "07440c18dc532b8f49029f1615b60394e331845d5e1e469c07d87559da8ec5cd"
+  },
+  "resource_strategy": {
+    "schema": "R593-one-owner-cap-with-original-total-clock-v1",
+    "JSON_pointer": "/live_call_resources/owner/owner_seconds_cap",
+    "original_value_seconds": 6000,
+    "current_value_seconds": 12000,
+    "source_reason": "The current owner subtracts the original1200-second replay reserve from its local owner allowance after the common deadline clip; the old6000 cap limits nonlinear solve plus compilation to at most4800 seconds even when the original job still has time.",
+    "original_total_science_seconds": 19200,
+    "original_readback_cleanup_reserve_seconds": 120,
+    "original_workflow_job_minutes": 350,
+    "original_science_step_minutes": 320,
+    "unchanged_caps": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "original_one_absolute_clock_is_not_restarted": true,
+    "replay1200_is_inside_owner_allowance": true,
+    "stage8000_is_a_later_phase_not_an_earlier_owner_minimum": true,
+    "all_roles_clip_same_remaining_clock": true,
+    "requested_audit_has_original_independent_allowance_priority": true,
+    "no_guaranteed_completion_or_faster_execution_claim": true,
+    "no_change_to_prior_state_selection_or_numerical_gate": true
+  },
+  "counts": {
+    "parent_complete_sources": 454,
+    "parent_public_sources": 363,
+    "parent_generated_sources": 91,
+    "new_public_sources": 3,
+    "new_generated_root_includes": 2,
+    "new_generated_caller_views": 10,
+    "new_generated_sources": 12,
+    "complete_sources": 469,
+    "public_sources": 366,
+    "generated_sources": 103
+  },
+  "roles": {
+    "owner": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_same_call_owner.py",
+      "bytes": 27053,
+      "sha256": "502f3115a9dcf04edf61f1673ef6712fb451367d64a76ddba4352b853d3c2988"
+    },
+    "system": {
+      "file": "exact_20261116_live128_loop_rounding_observed_current576_system.py",
+      "bytes": 29067,
+      "sha256": "bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120"
+    },
+    "qr": {
+      "file": "exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py",
+      "bytes": 21853,
+      "sha256": "d0b969e736f2d5a72509cc009cd31b2e36e34db5b0504a6f9aa198459556528c"
+    },
+    "pipeline": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_call_pipeline.py",
+      "bytes": 43271,
+      "sha256": "b63fd14f991dca9e90c1af62deda228f7288e687c8f7bc1ebc3c24235e096533"
+    },
+    "call": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_current_call.mjs",
+      "bytes": 45451,
+      "sha256": "2aef695f6e7a5fbae43873a20d384c2ccddb42cefde4b748e029dc210d0cd3f5"
+    },
+    "worker": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_worker.mjs",
+      "bytes": 8322,
+      "sha256": "19d11706b57e6db3371893a840c25aac7f4bb22074554e553de8084015f59e51"
+    },
+    "client": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_tail_client.py",
+      "bytes": 41888,
+      "sha256": "1147c22f5c860c62a41d5782d54b0f739d54adf32236f10d7f5d55013a3a32f6"
+    },
+    "fulldn": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_original_full_dn.py",
+      "bytes": 48155,
+      "sha256": "2dfe9885b91c0db9a41099065a6c336eb589c310fc2e0d25d28e6ca11d3e43e5"
+    },
+    "runner": {
+      "file": "geometry_20261116_live128_loop_rounding_observed_owned_run.py",
+      "bytes": 39343,
+      "sha256": "35072e528edb63d1d7c2b28f1e87e11539680cb07734dfae58196bc4a605f1e1"
+    },
+    "reader": {
+      "file": "root_20261116_live128_loop_rounding_observed_necessary.py",
+      "bytes": 66607,
+      "sha256": "e3d2869e86374d5ee3b01272f757bf8e5a74c7e71f90ed88cbabc369d556323a"
+    }
+  },
+  "original_runtime_contract": {
+    "actual_parent_public_outer": {
+      "file": "computations/public-live128-extended-owner-budget-composition-request.json",
+      "bytes": 8964,
+      "sha256": "002265d96fc7dedaa4500708b8a028f3ccb660eef55c21528325555e3b9e2cc8"
+    },
+    "actual_parent_full_request": "Read only request248-source-preparation/current-request248.json named and hashed by its same-job complete source-views.json record",
+    "actual_parent_full_request_schema": "public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1",
+    "fields_inherited_with_identical_JSON_types_and_values": [
+      "lanes",
+      "reviewed_README_blobs",
+      "original_inputs",
+      "actual63",
+      "actual91_artifact",
+      "runtime",
+      "resources",
+      "live_call_resources",
+      "original_scientific_contract",
+      "retention",
+      "R593_resource_strategy"
+    ],
+    "complete_live_call_resources": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "owner_seconds_cap": 12000,
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "current_owner12000_was_already_explicit_in_original248": true,
+    "no_further_resource_cap_or_clock_change": true,
+    "actual63_and_original78_sources_retained": true,
+    "actual91_remains_only_first_tail_guess": true,
+    "already_existing_last_and_tangent_amplitude_boundary_choices_retained": true,
+    "no_request242_three_scalar_or_actual98_initial_guess_substitution": true,
+    "one_original19200_second_science_clock": true,
+    "original320_minute_science_and350_minute_job": true,
+    "all_original_native_current_H_J_R273_model_FD_fullDN_and_final_audit_gates_unchanged": true,
+    "no_scientific_state_or_J_inherited_from_previous_runs": true
+  },
+  "current_root_source_contract": {
+    "actual_adapter": {
+      "file": "root_20261116_loop_rounding_observation.py",
+      "bytes": 22648,
+      "sha256": "0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e"
+    },
+    "actual_header": {
+      "file": "root_20261116_loop_rounding_observation.hpp",
+      "bytes": 4657,
+      "sha256": "0bc58ed32c05efc5bd2833ef0f0faf61b1093db2676f7bc993198318b4acef9c"
+    },
+    "actual_component_plan": {
+      "file": "notes/R583-loop-rounding-observation-complete-source-plan.json",
+      "bytes": 24218,
+      "sha256": "9e1ac431926c76e0e77858695e2d1772e07eb58dcaba1211f2c9eca7328af0f1"
+    },
+    "actual_generated_includes": [
+      {
+        "role": "primal",
+        "output": {
+          "file": "root_20261116_loop_rounding_observation_primal128.cpp",
+          "bytes": 28149,
+          "sha256": "dc8a2394379d6d8ca4187aff2979b5a31b17d07af39e5b566224bab26eeebe76"
+        }
+      },
+      {
+        "role": "trace",
+        "output": {
+          "file": "root_20261116_loop_rounding_observation_trace128.cpp",
+          "bytes": 36388,
+          "sha256": "37e54b0483727dc1c579474239764b1c2beca0af7f0dd64a04911ef5cdd0e4c0"
+        }
+      }
+    ],
+    "ancestor_plans": {
+      "synthesis": {
+        "file": "notes/R572-exact-root-synthesis-products-complete-source-plan.json",
+        "bytes": 14796,
+        "sha256": "25e8a39b5c8beaaa0b8b049d79f0e5d278622aa4f62e156fcd50cfceb50f1a64"
+      },
+      "product": {
+        "file": "notes/R564-exact-lifted-factor-product-complete-source-plan.json",
+        "bytes": 13514,
+        "sha256": "cd4c90cbfc9e48acdd06a692885121627355df477955104981713d248cafca4a"
+      },
+      "average": {
+        "file": "notes/R561-normal-dyadic-average-complete-source-plan.json",
+        "bytes": 13708,
+        "sha256": "5667d987ea5b7387bb0c4f6c61d86cd9ea94035299da91d3c7889fb1cde5f5a7"
+      },
+      "reuse": {
+        "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+        "bytes": 12303,
+        "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+      },
+      "word": {
+        "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+        "bytes": 10232,
+        "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+      }
+    },
+    "complete_numeric_contract": {
+      "complete_inner_loops": [
+        {
+          "function": "root_evaluate",
+          "loop": "j=0..M-1",
+          "mode_variable": "r583_synthesis_rounding",
+          "product_paths": [
+            "fixed_fallback_P",
+            "fixed_fallback_Pt",
+            "L",
+            "evaluation_u_words",
+            "evaluation_u_fallback"
+          ]
+        },
+        {
+          "function": "root_evaluate",
+          "loop": "i=0..J-1",
+          "mode_variable": "r583_residual_rounding",
+          "product_paths": [
+            "root_residual"
+          ]
+        },
+        {
+          "function": "root_matrix",
+          "loop": "k=0..2M",
+          "mode_variable": "r583_gram_rounding",
+          "product_paths": [
+            "root_gram"
+          ]
+        },
+        {
+          "function": "rhs",
+          "loop": "j=0..M-1",
+          "mode_variable": "r583_flux_rounding",
+          "product_paths": [
+            "primal_flux"
+          ]
+        }
+      ],
+      "qualification": "Every original actual left/factor word, layout/finite/normal/53-bit factor/result-range/signed-zero qualification remains per product. Only the FE_TONEAREST comparison consumes one actual loop-entry thread-mode observation.",
+      "caller_condition": "The actual thread rounding mode and the result of its mode observation stay constant from the loop-entry observation through the complete inner loop. The complete frozen loop bodies and their called arithmetic helpers contain no mode setter or callback; unsupported external/asynchronous mode mutations are outside this equivalence statement.",
+      "mode_nearest_required_as_new_acceptance_gate": false,
+      "non_nearest_or_unknown_observation": "Original rounding-fallback Q product at every actual product site; all original layout and later product qualifications remain in original order.",
+      "original_five_R572_and_three_R564_product_values_preserved_under_caller_condition": true,
+      "original_seventeen_counters_and_full_last_per_eight_paths_retained": true,
+      "original_headers_and_statistics_printers_retained": true,
+      "original_left_expressions_factor_words_all_sum_orders_and_time_check_sites_unchanged": true,
+      "original_R535_fixed_U_words_and_R550_accepted_evaluation_reuse_unchanged": true,
+      "original_R561_second_product_selection_unchanged": true,
+      "original_trace_directional_arithmetic_body_unchanged": true,
+      "original_root_stops_trials_domain_guards_native_replay_FD_fullDN_and_final_audit_unchanged": true,
+      "original_compiler_flags_resource_caps_and_mathematical_thresholds_unchanged": true,
+      "no_rounding_mode_set_no_cross_loop_cache_no_new_table_or_H_cache": true,
+      "no_scientific_success_or_performance_or_resource_frontier_claim": true,
+      "floating_exception_flag_equivalence_not_claimed": true
+    },
+    "one_actual_R583_installation": true,
+    "all_five_ancestor_compiler_adapters_source_only": true,
+    "complete_original_kernel_and_all_eight_paths_seventeen_counters_full_last_retained": true,
+    "exact_word_equivalence_has_the_declared_actual_thread_mode_condition": true,
+    "floating_exception_flags_performance_and_resource_frontiers_not_claimed_equal": true
+  },
+  "source_scope": {
+    "original454_retained": true,
+    "additional_public": [
+      {
+        "file": "root_20261116_loop_rounding_observation.hpp",
+        "bytes": 4657,
+        "sha256": "0bc58ed32c05efc5bd2833ef0f0faf61b1093db2676f7bc993198318b4acef9c"
+      },
+      {
+        "file": "root_20261116_loop_rounding_observation.py",
+        "bytes": 22648,
+        "sha256": "0b769cc0558758ce2415c0374c3286bb8433d377286259821e9e588e5550635e"
+      },
+      {
+        "file": "root_20261116_live128_loop_rounding_observation_source_views.py",
+        "bytes": 37130,
+        "sha256": "5057de1e663103be71df6ab6e611079aae3cd33ed1820fd5ea1e41d2280b4e91"
+      }
+    ],
+    "actual_two_root_includes": [
+      {
+        "role": "primal",
+        "output": {
+          "file": "root_20261116_loop_rounding_observation_primal128.cpp",
+          "bytes": 28149,
+          "sha256": "dc8a2394379d6d8ca4187aff2979b5a31b17d07af39e5b566224bab26eeebe76"
+        }
+      },
+      {
+        "role": "trace",
+        "output": {
+          "file": "root_20261116_loop_rounding_observation_trace128.cpp",
+          "bytes": 36388,
+          "sha256": "37e54b0483727dc1c579474239764b1c2beca0af7f0dd64a04911ef5cdd0e4c0"
+        }
+      }
+    ],
+    "generated_caller_views": [
+      {
+        "file": "geometry_20261116_live128_loop_rounding_observed_same_call_owner.py",
+        "bytes": 27053,
+        "sha256": "502f3115a9dcf04edf61f1673ef6712fb451367d64a76ddba4352b853d3c2988"
+      },
+      {
+        "file": "exact_20261116_live128_loop_rounding_observed_current576_system.py",
+        "bytes": 29067,
+        "sha256": "bb84f3cc892f8e62978c560c939605643b0b4f7f72293f6184e5c86a6dd88120"
+      },
+      {
+        "file": "exact_20261116_live128_loop_rounding_observed_current576_chain_qr.py",
+        "bytes": 21853,
+        "sha256": "d0b969e736f2d5a72509cc009cd31b2e36e34db5b0504a6f9aa198459556528c"
+      },
+      {
+        "file": "geometry_20261116_live128_loop_rounding_observed_call_pipeline.py",
+        "bytes": 43271,
+        "sha256": "b63fd14f991dca9e90c1af62deda228f7288e687c8f7bc1ebc3c24235e096533"
+      },
+      {
+        "file": "geometry_20261116_live128_loop_rounding_observed_current_call.mjs",
+        "bytes": 45451,
+        "sha256": "2aef695f6e7a5fbae43873a20d384c2ccddb42cefde4b748e029dc210d0cd3f5"
+      },
+      {
+        "file": "geometry_20261116_live128_loop_rounding_observed_worker.mjs",
+        "bytes": 8322,
+        "sha256": "19d11706b57e6db3371893a840c25aac7f4bb22074554e553de8084015f59e51"
+      },
+      {
+        "file": "geometry_20261116_live128_loop_rounding_observed_tail_client.py",
+        "bytes": 41888,
+        "sha256": "1147c22f5c860c62a41d5782d54b0f739d54adf32236f10d7f5d55013a3a32f6"
+      },
+      {
+        "file": "geometry_20261116_live128_loop_rounding_observed_original_full_dn.py",
+        "bytes": 48155,
+        "sha256": "2dfe9885b91c0db9a41099065a6c336eb589c310fc2e0d25d28e6ca11d3e43e5"
+      },
+      {
+        "file": "geometry_20261116_live128_loop_rounding_observed_owned_run.py",
+        "bytes": 39343,
+        "sha256": "35072e528edb63d1d7c2b28f1e87e11539680cb07734dfae58196bc4a605f1e1"
+      },
+      {
+        "file": "root_20261116_live128_loop_rounding_observed_necessary.py",
+        "bytes": 66607,
+        "sha256": "e3d2869e86374d5ee3b01272f757bf8e5a74c7e71f90ed88cbabc369d556323a"
+      }
+    ],
+    "actual_current_request_generated_in_temporary_source_metadata": true,
+    "source_only_preparation_creates_no_scientific_clock": true,
+    "private_scientific_source_directory_not_created": true,
+    "actual_same_computations_and_GITHUB_WORKSPACE_used": true,
+    "all_original_mathematical_callers_retained_as_explicit_ancestry": true,
+    "actual_new_source_tuple_not_an_ancestor_label": true,
+    "original_checkout_requests_and_sources_unchanged": true
+  },
+  "necessary_scope": {
+    "original_R593_and_R589_complete_source_scopes_consumed": true,
+    "original_R588_RootStats_relation_and_inverse_retained": true,
+    "entire_original_parent_necessary_body_and_its_inverse_preserved": true,
+    "current_source_metadata_relation_only_if_same_whole_body_strictly_smaller": true,
+    "unknown_R583_source_binding_numeric_contract_and_compiler_fields_retained_complete": true,
+    "source_and_science_each_one_original90000_byte_body": true,
+    "actual_partial_source_addresses_original_errors_and_full_current_stderr_preserved": true,
+    "original_owner_allocation_post_component_allocations_warm_stops_and_unreturned_scopes_retained": true,
+    "whole_body_overflow_returns70_without_truncation_or_split": true,
+    "no_preclaimed_transport_size_or_scientific_success": true
+  },
+  "publication": {
+    "workflow_dispatch_enabled": true,
+    "root_sole_ref_and_dispatch_owner": true,
+    "only_one_authorized_dispatch_after_actual_publication": true,
+    "source_or_parent_run_label_never_substituted_for_actual_run": true,
+    "generated_views_not_committed_to_main_or_uploaded_as_scientific_artifacts": true
+  },
+  "results": {
+    "conditional_mechanism": "R493",
+    "original_implementation": "R501",
+    "scoped_lifecycle": "R508",
+    "physical_cache": "R515",
+    "source_ancestor": "R518",
+    "paired_dot": "R522",
+    "implementation_interface": "R584",
+    "actual_reserved": "R585",
+    "actual_run_not_started_at_source_preparation": true,
+    "frozen225_implementation": "R527",
+    "conditional_current_model_theory": "R529",
+    "original_current_projection_and_stage_libraries": "R532",
+    "complete_implementation": "R584",
+    "original_same_DN_model_implementation": "R534",
+    "root_local_finite_word_cache": "R535",
+    "root_statistics_source_donor": "R536",
+    "original229_entry": "R542",
+    "original229_actual_result": "R543",
+    "original231_entry": "R548",
+    "original231_source": "R547",
+    "accepted_complete_root_evaluation_reuse": "R550",
+    "original232_entry": "R551",
+    "exact_normal_dyadic_angular_average": "R561",
+    "original236_entry": "R562",
+    "exact_lifted_factor_product": "R564",
+    "original237_entry": "R565",
+    "exact_root_synthesis_products": "R572",
+    "resource_strategy": "R593",
+    "complete_current_entry": "R584",
+    "original_R573_complete_implementation": "R573",
+    "loop_rounding_observation_component": "R583",
+    "original248_source_and_entry": "R594",
+    "current244_run_not_started_at_source_preparation": true
+  }
+}
