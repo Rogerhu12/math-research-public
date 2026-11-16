@@ -492,7 +492,12 @@
 - R923两端目标272函数执行五件全文读毕并激活：原R917/POLY四数学来源、B逆先运输/共享8维分母、实际dε与267−dε，保NeedPrecision/幂零/两帧；五理想/NmΦ/height未成，H逐字归档压缩。
 - 本push规则：公开Actions真实pull至be1eadf4caf2bfba813f8a5d4cee87a22aa1218f（2026-11-16T17:10:44.586583+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-17 01:12 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-17 01:13 Asia/Taipei — serre-public-astra-20261115
 - R926七原连接多项式分子执行五件已全文读并激活：每D四旧源/总33件，保543 gauge与670系数，新增全272的τ/h范数及274向量；全部277×272多项式系数乘回才完成。
 - 不重旧F逆/主部矩阵/primitive特征式，不等R922；目标d_D(U)单位、Gal7/cY及height仍未成。R923实际43915625047/133469002048已启动；R928独立δK/微分运输core全文已读，未增加J单位门。
-- 本push规则：已核真实pullbe1eadf4caf2bfba813f8a5d4cee87a22aa1218f（2026-11-16T17:10:44.586583+00:00），两README SHA6979d793/35f82f3d无diff；本次发布再真实pull记录，主目标OPEN。
+- 本push规则：公开Actions真实pull至868f2f6b5ba55affa26cc5f9d42186a565ea0a43（2026-11-16T17:13:18.884727+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:27 Asia/Taipei — serre-public-astra-20261115
+- R926七原连接分子实际完成43916091665：288stage/5.079957719s，原七543 gauge/670系数与33原件保持；新全272范数、274向量及277×272完整系数恒等式全部通过，真实证书/manifest/artifact登记。
+- R928五执行件全文读并激活：只新8δK与真目标g,h/J，复用九δP/旧逆及93来源；V=K/P_U完整商法则，ℓ_t全E单位而不强加J单位。七目标值/σ/cY/height仍未成。
+- 本push规则：待本仓库恢复Actions真实pull并核两README；最新已读665dd92b8703fa7118d90fbee0eba7f07e2d60ee（2026-11-16T17:13:36.593344+00:00），两README SHA6979d793/35f82f3d无diff，主目标OPEN。
