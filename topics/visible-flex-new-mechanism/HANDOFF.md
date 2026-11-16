@@ -22,9 +22,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 早期原式/文献/完整历史见[results](results.md)。R406正字符λ+=L+∫(h′/h)²>0，actual全Λ0不成立，故保有限真母查询Jaff。R455/R407/R459从同一次初选固定最终母、实际宽度/外cap/M3≠0、原20目标与全三矩输运；后添母/历史不冒旧库。R434 Q59/current32、R454/457全current及−3x5/128、R456 suffix高两行均已付，不能冒actual逆元。R429/433/463始终保wholeE、两次商校正、桥2VA及全部prototype×n/Klein基准。
 
-[R465](results/R465-complete-zero-weight-affine-head-and-two-mirror-self-membership-gates.md)：Qaff,0/NQaff,1≅S(W0)/S(K0)，原成本维7/5。same seq707清current的XH=H*+J4、XY=J4−J6为两完整self目标，五响应核含三已付列和两补响应。增强−8已付。
-
-[R466](results/R466-complete-mirror-anchor-identity-and-enhanced-minus6-minus4-cone-reduction.md)：原R56换锚保真实仿射尾/Γ；wholeQ只清P2″，再由total/三尾current得同权mirror graph。−6三真列覆盖Pol2；−4七已付列+K4覆盖Pol4、−16cN³H*/45先清d=cx，故两增强负权字符排除。**同Jaff满闭锥iff h∈span(y)**；原双参数actual还需**h=y=0**。四self必须保联合关系，不是两个MEMBER布尔。
+R465/R466：完整Qaff,0/NQaff,1≅S(W0)/S(K0)，成本维7/5；XH=H*+J4、XY=J4−J6。原换锚保真实尾/Γ，增强−6/−4字符已排；同Jaff满闭锥iff h∈span(y)，实际截面现用R468。原式与全85记录见R465–R470及[四self首次观察](notes/weight-zero-four-complete-self-first-observation-20261116.md)，不重旧rank/自检。
 
 R460给simple-p无留数；真实Lf range须保Af/platform/totals/两germ/gap/右锚。R464在同完整成本已有两period/最高P2零时，以原20目标/M3≠0/相位seed/平台因子/末三port盲矩给同一个13规范。
 
@@ -43,6 +41,8 @@ R460给simple-p无留数；真实Lf range须保Af/platform/totals/两germ/gap/�
 [R472](results/R472-two-level-prefix-reset-and-unavoidable-ruling-in-actual-return-bridges.md)：完整Reach3(A)=Tend−A²/2+W，真实R70/W桥可同时付相容A/T前缀。任意同常端G有B使A_B=−A_G、T_B=−T_G−A_G²，P=GB整A=T0；P^qG同向保护芽共真incoming，条件接R468/R467并保全部新增V。内部ruling=K0+B(a)−E(a,a)+2E(φ,b)，重复号保完整二次系数；整复位只使副本相同不使其零。λ+(VP)=∫k²>0，∫kh(ω−ωc)=∫k²迫新ω段；全s同一13核问题仍欠。
 
 [R473](results/R473-generic-nonvanishing-of-the-complex-cap-obstruction-with-fixed-end-moments.md)：固定端三矩/两端germ的正cap类，内部真扰动fε使复余量为非零五次λ多项式，最高项−3(c+z)^7 ε^−9∫(φ″)^5/80；先定有限ε再缩λ保q/Af正，非零开稠密。未判冻结cap或例外集空，未免费保q4/共同DE/F★/20根。继续绝对非零/可消与五门。
+
+[R474](results/R474-from-start-common-libraries-with-a-nonzero-complex-cap-obstruction.md)：同一个已固定有限N/四内部normal，以外cap偶小扰动+真实IFT回补q4，复余量不被内部回补改动；选非例外λ后冻结新cap、重新选restricted-max F★和完整20根，得到允许新库仍E≠0。只是新库成员障碍，不判旧ψ3/所有cap，亦不保旧F★/DE/μ数值；显示其它库门不自动付联合比例。
 
 actual存在/其余s段同规范、高阶收敛及全部主几何门未付。
 

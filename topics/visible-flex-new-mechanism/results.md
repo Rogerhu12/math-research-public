@@ -428,3 +428,7 @@
 ## R473｜固定端三矩的真实 cap 复余量开稠密非零
 
 [R473](results/R473-generic-nonvanishing-of-the-complex-cap-obstruction-with-fixed-end-moments.md)（11826B；SHA256 `4984485875c67deeecce4eeee7db1f82d9bb563da443108e6880ed7733bce038`）。真实紧支f保持末端三矩和两端germ；用偶阶梯mollify后二次积分造∫(φ″)^5>0。完整原式给E_z(fε‴)=−3(c+z)^7 ε^−9 M5/80+O(ε^−8)，固定有限ε后小λ保持q/Af正。余量沿λ是真非零五次多项式，非零相对开稠密、沿线至多5例外；没有把复被积函数判正。未断言冻结cap非零或例外集空，未授原q4/共同DE/F★/20目标兼容。全文纸证0执行；根读构造/选参次序，继续真实例外集及完整五门。
+
+## R474｜完整从起点母库也可保留非零复 cap 障碍
+
+[R474](results/R474-from-start-common-libraries-with-a-nonzero-complex-cap-obstruction.md)（12285B；SHA256 `9c7dce9391fd36fcd3242b6f37f4bb80b888a27520b12bc6a3646362e3a5b976`）。固定R455同一有限N及四内部normal，R473外cap偶紧扰动与正常支持不交；真实有限IFT精确回补q4而不改cap复积分。缩参数保正性/根germ/唯一镜对/simple-p/DE和已付M3，选非例外后冻结新cap，再在其内部受限类重新选最大F★与完整20根，所有最终母共该非零cap。正仿射幅宽输运E乘a⁵H⁻²，非零保留。它是完整允许新库中的成员障碍，非冻结ψ3评价，也不保旧F★/DE/μ数值；证明其它自然/20目标不能自动授R468比例。0新执行，根全文读IFT同点与范围；继续具体cap及例外。

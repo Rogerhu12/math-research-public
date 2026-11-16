@@ -136,3 +136,7 @@ R394至R470的原式、各实际条件和所有旧数值费用完整保于[原�
 ### R473：固定端三矩类generic非零已付，真实例外集仍需解
 
 [R473](results/R473-generic-nonvanishing-of-the-complex-cap-obstruction-with-fixed-end-moments.md)（11826B；SHA256 `4984485875c67deeecce4eeee7db1f82d9bb563da443108e6880ed7733bce038`）构造真compact φ且∫(φ″)^5>0；保持q三矩/全部端germ的fε‴方向给复余量最高系数−3(c+z)^7 ε^−9 M5/80+O(ε^−8)非零。固定有限ε后再取小λ保q/Af正，沿此线至多5个例外，故非零开稠密。它不是所有cap非零，也未评价冻结母；q4/共同DE/F★/20目标不自动保。下一仍判例外集是否真可达/普遍非零，并须与R471剩三实门同一真实cap联立。0新执行，不以generic障碍结束主任务。
+
+### R474：完整新库存在非零cap障碍，仍须判当前ψ3与例外cap
+
+[R474](results/R474-from-start-common-libraries-with-a-nonzero-complex-cap-obstruction.md)（12285B；SHA256 `9c7dce9391fd36fcd3242b6f37f4bb80b888a27520b12bc6a3646362e3a5b976`）把R473用真实四normal IFT装入同一固定有限N的q4=0母，回补支持严格在内部、不碰E；选λ后再冻结新cap并重选restricted-max F★、完整20根，得到全库条件仍可E≠0。末cap三矩、自然q4、全母μ三种数据分清；不保旧冻结F★/DE/μ，不判当前ψ3或普遍非零。接着判具体ψ3，另由R475方向研究完整五cap门的实际可消；不能由原20门推比例，也不以坏新库结束主问题。
