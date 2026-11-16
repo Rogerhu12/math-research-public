@@ -126,3 +126,5 @@
 - [R871](../results/R871-original-sigma-thirteen-unit-and-low-hurwitz-readers.md)：真实目标单位V_S^-13保原w13/39carry，Φ/S13全whole且保P134/十九角。指定整行ΛS的全部p高尾给同P/R/S三位，实际Hurwitz指标降为1,p+2,2p+3；完整J0与绝对γ常数保留。模p行差仅原39低带，整高尾不能删；k>13 quartic首行仍零，未判实际后两页。
 
 - [R867附录B](../results/R867-original-single-hom-and-integral-hecke-three-basis.md)：同原Hom格两整unit r、r²−2及整逆有完整3×3乘法表和原K[b]系数读取；全部H_ab真下降F，首系数c_ab非零且不能从实际微分删除。R870严格证书保(n c_ab)germ、n³H_ab³，成功用整逆返回nΞ0，未知n的可积集合不变；两unit实对数独立及固定范数平衡界已证，不预报低权成功。
+
+- [R867附录C](../results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原Cv到Y′²+vY′=X′³−7v²的两条显式对偶3同源、微分1/3及全部9/27常数已付。Ψ=φΞ0/3有度数degΞ0/3，但最小分母仅n0|nΨ|3n0，整性未定；同M_k完整新证书成功后以dual直接返回nΞ0。Petersson规范为原指数3672与目标实际面积，选unit可仅用|Gj|²Nj比。

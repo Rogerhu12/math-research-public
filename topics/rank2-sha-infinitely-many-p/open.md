@@ -111,3 +111,7 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 - [R867附录B](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：同原Hom格两整unit r、r²−2及整逆有完整3×3乘法表和原K[b]系数读取；全部H_ab真下降F，首系数c_ab非零且不能从实际微分删除。R870严格证书保(n c_ab)germ、n³H_ab³，成功用整逆返回nΞ0，未知n的可积集合不变；两unit实对数独立及固定范数平衡界已证，不预报低权成功。
 
 继续同原unit格实际选取与低权证书；先验范数界不代当前映射坐标，有限unit窗失败不排其它窗口或更高权。
+
+- [R867附录C](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原Cv到Y′²+vY′=X′³−7v²的两条显式对偶3同源、微分1/3及全部9/27常数已付。Ψ=φΞ0/3有度数degΞ0/3，但最小分母仅n0|nΨ|3n0，整性未定；同M_k完整新证书成功后以dual直接返回nΞ0。Petersson规范为原指数3672与目标实际面积，选unit可仅用|Gj|²Nj比。
+
+备用3同源需实际证书，不能将其清分母条件与unit等价混同；正做原Petersson/CM范数以选择实际权与同格向量。

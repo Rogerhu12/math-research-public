@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：b4cf68922e35c2aec885003a1e64b4b2642e504d；2026-11-16 08:08:59 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:01:13 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
+- 最近已读规则提交：3cc80375db12306d3f37a12cd6fe413775442c57；2026-11-16 08:20:41 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:20:40 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -24,7 +24,7 @@ root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C2
 
 - [R869](results/R869-original-modular-input-and-cubic-field-descent.md)：原H0全部在F=Q(v)≃Q(∛17)，Ξ0真下降F。run43825112263精确生成Φ17（18×18/总34/291项）及三H541项（各98非零/含2）；producer/hash齐，未认n1、未付坐标或shadow。
 
-- [R867附录A/B](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原整R=2T7²+7T7−8T13−28值r³−3r+1=0，R和R²−2有整packet逆及完整3×3乘法表。两unit运输保F下降/原首系数/n，成功由整逆返回nΞ0；再δζ两式给3n三基整（旧57改进），全8/64/14邻点及Artin保。两unit范数平衡界不预报低权成功；不认整个J可逆。
+- [R867附录A/B](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：原整R=2T7²+7T7−8T13−28值r³−3r+1=0，R和R²−2有整packet逆及完整3×3乘法表。两unit运输保F下降/原首系数/n，成功由整逆返回nΞ0；再δζ两式给3n三基整（旧57改进），全8/64/14邻点及Artin保。附C的实际3同源候选Ψ=φΞ0/3可接同低权基，成功dual返回；分母仅n0|nΨ|3n0，未付整性/度数改善。Petersson原指数3672。
 
 - [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：原R商D=X0(867)、h(Q)=H0(q)³∈S6。A,B∈M_k、C=(DQ A)B−A DQ B，完整C³=n³hA²(A+vB)²B²与原germ严格认nΞ0；k2用120维空间/低前缀409/最终0..1836项。任意非零低核同一比值，允许共同cusp零；成功degree≤204、真degree≤119保证k2有解。原Cv三角germ递推保全部n/3尺度；n1尚未运行成功。
 
