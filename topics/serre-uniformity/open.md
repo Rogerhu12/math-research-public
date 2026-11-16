@@ -99,11 +99,14 @@ R859–R875原BT/全G/Drinfeld/Cartier/cusp整格、prime-to-p目标、CM常数/
 |---|---|---|
 |[R889](results/R889-original-theta-distribution-and-same-label-sigma-jet.md)|真实Θp=d_p−6Bq、非交换Bell/Frob、首p jet与显式flip J32=(6B)^5/12(fi gj)^p|指定原Γ/C/split源比较和同h非零|
 |[R891](results/R891-original-sigma-zeros-and-six-torsion-base-divisor.md)|fi/gj零等价整个权空间O基点，36六挠点同重数与准确ν_r≤(p−5)/6|不能排除互补primitive/Legendre同h共同零|
-|[R892](results/R892-original-theta-recursion-and-divided-split-contraction.md)|真实first-p²群律给完整Θ递推；原未分歧源下低带全零iff C_h/p整，末带判单位向量|全部低带与指定标量jet；错误简单指数候选已撤回|
+|[R892](results/R892-original-theta-recursion-and-divided-split-contraction.md)|真实first-p²群律给完整Θ递推；原未分歧源下低带全零iff C_h/p整，末带判单位向量|全带已由R895完成；原标量jet/实际源比较继续，错误简单指数候选已撤回|
 
-sigma_uniform继续完整band结构；未证的低带相消、末带非零和原critical Taylor第五lift不预填。
+sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未分歧源的除p单位桥，不等于原critical Taylor第五lift或同h标量为零。
 
 原RF e2b87b99/SP a06a80ea/ZA 268fa3fb/41S 133d64af/41C 569aa684及原b/s/λζ²一次、CRT6逆、246/82^10、c0c1/完整Corr/nonp/splitting全部继承。ordinary43/776bitGaussian5排除与Shapiroθ同Σ/C4杯积R779均关闭。
 
 
 **R894原七常数域极除子trace有界聚合已证**：[完整证明](results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md)。原3Σ(Dj−H)+7T有明确18flip树，R890两固定节点真实完成可读时新16；Q_N=Q_orb F_N、ρ阶−8435与t正乘c^8435保原帧。末代表可只L定义，准确半线性下降(γQ_N/Q_N)γs及七重cocycle保原K线丛。不是曲线Hecke范数，不预填新418/五Lj/支持/height；原G/Γ各17×16来源计数勘误同时登记。
+
+
+**R895原全带收缩与未分歧源content已完整证明**：[结果](results/R895-original-all-band-theta-contraction-and-unramified-content.md)。真实非交换Θ递推给所有band，trace有限和化(1−xy)^L；Gauss只有最大整数次数差可入，保跨p修正的真实边界。C_h(S)/p整等价全部指定奇a的36维源系数为零，此时末带也零，故该未分歧源类上除p向量不能为整单位。原x⊗−xy系数明确，未判原R770标量为零；实际分歧quotient/Γ来源比较继续，不加有限素数窗口。

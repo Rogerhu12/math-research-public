@@ -2,49 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-1131-seven-original-pole-trace-and-descent",
-  "commit_message": "serre: prove bounded original seven-pole trace and exact descent data",
-  "rules_last_read_commit": "8b3212965df1914e1a4bb350a3323dabe2053861",
+  "request_id": "20261116-1138-original-all-theta-bands-and-unramified-content",
+  "commit_message": "serre: prove all original contraction bands and unramified content criterion",
+  "rules_last_read_commit": "0d975953cb57104a4f3cedd0c594f11ee689ada4",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "04f6fe26fee2909d0eec2e8016503dc7b980a03b3b75a460dbeef8efca52ec65",
+  "expected_previous_request_sha256": "cdcda448fe6434dda8f7a21ea02ed2d6582e33b4e44bc150c06e5704342a0226",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R894-original-seven-conjugate-pole-trace-and-bounded-descent.md",
-      "sha256": "b24b6d96707774d180f20a994ac08595606935bb6bb14156640b0a8c5ab4dd6b",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-seven-pole-trace.md",
-      "sha256": "0379e8dbb0dd912274ec02b9d427705300fe8d12015562746373437e00ca0de2",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/2026-11-16-open-before-seven-pole-trace.md",
-      "sha256": "ebef5905dab7d1fec152f1857b341020c9f9d8298c5de32073b5bc5c8f200e68",
+      "path": "topics/serre-uniformity/results/R895-original-all-band-theta-contraction-and-unramified-content.md",
+      "sha256": "ae2d7dd76ee4cf765fadd101acb81cba11335360f2ada70c7d4e78544c2dc4a9",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "1a6de99a1c1990bd8624f950b107df0806820249e29365a9965f17d0181f2847",
-      "expected_previous_sha256": "0379e8dbb0dd912274ec02b9d427705300fe8d12015562746373437e00ca0de2"
+      "sha256": "f3eae136ba1173c1ba5c4ecba84dbaaf7a53e041698f321dedaa5999f8ed2c79",
+      "expected_previous_sha256": "b7ae36611a850ace92355e9d93b1853e76e5dcb230c7385717402380a4c55c12"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "c0de0146ada61d5dc246ce5489f9914629415c787ce61cbee3345039bea6d80d",
-      "expected_previous_sha256": "ebef5905dab7d1fec152f1857b341020c9f9d8298c5de32073b5bc5c8f200e68"
+      "sha256": "bff6ebbb732c992e2a9f961a8e5c6e795d79d255298631f66973617423b05d7f",
+      "expected_previous_sha256": "c0de0146ada61d5dc246ce5489f9914629415c787ce61cbee3345039bea6d80d"
     },
     {
       "path": "topics/serre-uniformity/results.md",
-      "sha256": "b904e966db32154b4c2e5746730d028b524fc7dd06e48ddd156ca63a92f1231d",
-      "expected_previous_sha256": "e0adcd26434e804474f83a1695d002ff37f16bb5a45eb8b57fc0d22e3a41f0d4"
+      "sha256": "d2ab24f67ec558c6dac3bba231dc89504aee19c1225c013cfd824bef3bd31af8",
+      "expected_previous_sha256": "b904e966db32154b4c2e5746730d028b524fc7dd06e48ddd156ca63a92f1231d"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "5cf69ff8d65d5e9cbcda474c9f70fce67e853394297564f35bcc7194386de812",
-      "expected_previous_sha256": "2dfbaa106e303471b1dc6792f2fd395a167a3fbba63584c2b1e3039d9476236d"
+      "sha256": "93c4f8b81036c67f5f0891e7d7744e12de9e208e057203f31d2a4b73d4f8fae2",
+      "expected_previous_sha256": "def6347efc4e0c5068fe7fe0995f801b6ea6cc76cf796330770c4c37cdc77389"
     }
   ],
   "dispatch_workflows": []
