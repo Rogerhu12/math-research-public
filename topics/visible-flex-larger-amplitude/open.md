@@ -60,6 +60,8 @@ R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前
 
 **已证明（限真实来源与原接受后的条件组合）**：[R463](results/R463-incremental-M-union-native-and-accepted-checkpoint-composition.md)/[完整接口](notes/2026-11-16-incremental-M-original-full-DN-and-checkpoint-interface.md)及独立driver51265B/cf866391、CP55236B/75459620已全文与完整相对395da/18399差异读后刊出。真实接受父只供原十词/同C/初猜/分辨率；原完整112 far/config及新M deep/union分别保原对象，真μ和两系数字词移至新M列而不重选。新tuple5da13c5f/d9db5098/b536850a实际接全新grid、完整4M+2、全(3M+2)×M J、双mean、原FD/fullDN/final/audit；原7b70/e197/cc70与数学核不改，原兼容配置后明确选实际client。CP显式读R400/R441/旧R442/自己四真实父，不换旧reader标签；源闭包/union全文成员与原数值策略完整核，modes/spacing缺失或显式M/2的兼容语义分清。仅原实际末门接受后捕获新CP，不转移旧响应/几何/误差结果。尚无实际M、父、recipe、run或接受；owned/deadline/90KB/quiet/新几何来源由R464接，本文无清理或新科学门。
 
+[R464](results/R464-incremental-M-owned-chain-and-explicit-source-view-composition.md)/[接口](notes/2026-11-16-incremental-M-owned-source-views-and-geometry-interface.md)七源与15视图完整差异已读刊：原112 far/config与接受父分列，R462 sample/configure共原帽，真R463全M和原末门；15视图在真computations/HERE由原全文+明确替换生成新名，旧源不改。几何/held/material/evidence/display绑定新来源，held仅匹配R464 post，缺B不添门。原钟/90KB/quiet及全部未访保持；来源组合条件结论不冒实际新M/误差/显示，下一R468/request209真执行。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
