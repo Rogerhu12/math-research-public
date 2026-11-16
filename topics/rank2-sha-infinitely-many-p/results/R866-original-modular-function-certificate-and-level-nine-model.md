@@ -522,3 +522,144 @@ $$
 
 全文新数学为符号推导；新的整数 producer 仅提交公开 Actions，
 未在本地或 V8 执行数学计算。
+
+## 附录 A. 坏位17的真实整 Hom 必须含因子17
+
+本附录补付第1节未判定的一个必要整性条件。保持原
+$C=X_0(2601)$、$\infty$、$C_v$ 和 $\Xi_0$，不更换归一微分。
+令 $F=\mathbf Q(a)$，$a^3=17$，取原实根所给的常数域嵌入；
+R869 的下降给 $\Xi_0$ 和 $H_0$ 定义于 $F$。下面的局部证明也可先在
+$L=K(a)$ 作，再下降，结论相同。
+
+**命题 A.1.** 若 $n\in\mathbf Z_{>0}$，且 $n\Xi_0$ 是从原
+$J_0(2601)$ 到 $C_v$ 的真实同态，或等价地其与原
+$\infty$-Abel 映射的复合是所指定的真实曲线态射，则
+$$
+\boxed{17\mid n.}
+\tag{A1}
+$$
+更一般，若 $r\in\mathbf Q^\times$ 且 $r\Xi_0$ 是真实同态，则
+$v_{17}(r)\ge1$。这里只断言必要条件，不断言 $17\Xi_0$ 已整。
+
+### A.1 最小目标微分的准确尺度
+
+在17处令 $O$ 是 $F$ 的局部整数环，使用
+$\operatorname{ord}_a(a)=1$、$\operatorname{ord}_a(17)=3$。
+$a^3-17$ 在17处 Eisenstein，故 $a$ 是均匀化元。
+由原(2)，唯一最低项是 $-(314892/17)a^2$，因为
+$314892\equiv1\bmod17$。所以
+$$
+\operatorname{ord}_a(v)=-1.
+\tag{A2}
+$$
+
+令 $X'=a^2X$、$Y'=a^3Y$。原方程及微分变为
+$$
+E':\quad Y'^2+17vY'=X'^3,\qquad
+\omega_v=a\,\omega',\qquad
+\omega'=\frac{dX'}{2Y'+17v}.
+\tag{A3}
+$$
+有 $\operatorname{ord}_a(17v)=2$，且
+$$
+\operatorname{ord}_a\Delta(E')
+=\operatorname{ord}_a\bigl(-27(17v)^4\bigr)=8.
+\tag{A4}
+$$
+这是整 Weierstrass 模型。任何更小的整 Weierstrass 模型都会使
+判别式赋值减少一个正的12倍，而整模型的判别式赋值非负，
+故(A4)证明其最小性。在剩余特征17处，
+$\omega'$ 因而是 Néron 不变微分的一个 $O$-基。
+
+这里 $2^{-11}$ 是17处的单位；它已在原(6)的
+$\Xi_0^*\omega_v=H_0\,dq/q$ 中处理。不能把(A3)的额外 $a$ 吸收到
+首项归一里，也不能把 $\omega_v$ 当作17处的 Néron 基。
+
+### A.2 原坏层 cusp 的光滑整盘
+
+使用 $X_0(2601)$ 的通常整模型。Česnavičius–Neururer–Saha，
+*The Manin constant and the modular degree*，arXiv:1911.09446v3，
+导言印刷第4页，明确给出：
+
+- 沿 $\infty$ 的完成为 $\operatorname{Spf}(\mathbf Z[[q]])$；
+- 包含该 cusp 的 $X_0(N)^\infty$ 是一个 $\mathbf Z$-光滑开子概形。
+
+该断言对非平方自由 $N$ 也成立，所以可以直接用于
+$N=2601=9\cdot17^2$。基变到 $O$ 后得到光滑源
+$X_0(2601)^\infty_O$，沿原 cusp 的完成为
+$$
+\operatorname{Spf}(O[[q]]).
+\tag{A5}
+$$
+这里是原 width-one 的 $q=e^{2\pi iz}$；没有 $q^{1/17}$，
+没有17倍参数替换，也不要求整条模曲线在17处光滑。
+
+若 $f:C_F\to C_v$ 是命题中的真实态射，则在该光滑开子概形的
+泛纤维上限制 $f$。由目标 Néron 模型的映射性质，它唯一延拓到
+$X_0(2601)^\infty_O$。因 $\omega'$ 是 Néron 模型上的正则微分，
+在(A5)上必有
+$$
+f^*\omega'\in O[[q]]\,dq.
+\tag{A6}
+$$
+这里先在实际有限型光滑开子概形上用 Néron 映射性质，再取完成；
+没有直接对一个非有限型形式盘擅用该性质。
+
+### A.3 首系数给出必要因子
+
+原 $H_0$ 的首项严格是 $q$，因此对 $f=r\Xi_0$，由(A3)及原(6)，
+$$
+f^*\omega'
+=\frac r a H_0(q)\frac{dq}{q}
+=\left(\frac r a+O(q)\right)dq.
+\tag{A7}
+$$
+(A6)迫使 $r/a\in O$。因 $r\in\mathbf Q^\times$，
+$$
+3v_{17}(r)-1=\operatorname{ord}_a(r/a)\ge0.
+\tag{A8}
+$$
+$v_{17}(r)$ 为整数，故 $v_{17}(r)\ge1$，证明命题。
+特别地，真实整 Hom 的正整数清分母不能是1或2，乃至不能是任何
+素于17的整数；这与重建所用权、函数基和 Fourier 截断长度无关。
+
+证明只用了指定首系数、原目标最小微分和原 cusp 的整光滑盘。
+它不是 Manin 常数等于1的猜测，也没有假设原三维新因子在17处好约化。
+
+### A.4 对已付整 Hecke 单位及三同源备选的影响
+
+R867 附录 A、B 的 $U_1=\mathscr R$、
+$U_2=\mathscr R^2-2$ 是原 Jacobian 的整 Hecke 对应；
+它们的已显示整多项式逆在整个指定 packet 上成立。
+因此，对任意整数 $u,w$，
+$$
+n\Xi_0U_1^uU_2^w\ \text{整}
+\quad\Longleftrightarrow\quad
+n\Xi_0\ \text{整}.
+\tag{A9}
+$$
+正向用整逆复合，反向用整单位复合。若只从曲线态射给出左侧，
+先以 $\infty\mapsto O$ 和 Jacobian 的泛性质得到相应整同态；
+由指定全微分的特征零单射识别同一准同态，再作上述复合。
+所以(A1)对这些全部单位方向同时成立，不需逐个检查它们不同的首项。
+
+R867 附录 C 的实际三同源备选
+$\Psi=\varphi\Xi_0/3$ 满足
+$\widehat\varphi\Psi=\Xi_0$，且 $\widehat\varphi$ 是真实整同源。
+故
+$$
+n\Psi\ \text{整}\quad\Longrightarrow\quad17\mid n,
+\tag{A10}
+$$
+同样适用于其整单位方向。这里仍不把 $\Psi$ 的整性与
+$\Xi_0$ 的整性说成等价；3处的区别完整保留。
+
+R870 的低权恒等式一旦成功，构造的就是真实原曲线态射。
+因此在 $17\nmid n$ 时，它对任何权都不可能全部通过。
+原 $n=1,2$ 的公开低权尝试只能验证算法的排除行为，
+已经不能产生所求坐标。后续实际搜索可仅保留 $17\mid n$；
+$17$ 本身是否足够、最小清分母和实际坐标仍未确定。
+
+本附录没有执行新的数值运算。原始来源为
+<https://arxiv.org/pdf/1911.09446v3>，印刷第4页的完整整 cusp 陈述；
+本题在 $F$ 上的(A2)–(A10)由上面的最小模型与 Néron 延拓直接证明。

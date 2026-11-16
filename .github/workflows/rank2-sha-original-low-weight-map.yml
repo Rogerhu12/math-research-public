@@ -12,7 +12,7 @@ permissions:
   contents: read
 concurrency:
   group: rank2-original-low-weight-map
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   exact-original-map:
     runs-on: ubuntu-latest

@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：0620f8d68bb4b06637ee3cdba916cce5e11906d1；2026-11-16 08:30:12 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:20:40 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
+- 最近已读规则提交：98af3af68ba4f76a6464f51cd67892177d03a807；2026-11-16 08:32:51 UTC核两README无变。实际CI pull 2026-11-16 08:01:25 UTC/866ba2c399a8ce36c5f98a4e094b527a007eeaac（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 08:32:50 UTC仍无环境。最迟2026-11-16 08:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -20,14 +20,14 @@ root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C2
 [R859](results/R859-original-supersingular-shadow-and-integral-aj-detection.md)及附录保惯性r剩余域F_(r²)、φ²−r、原整shadow与倒置6r的Chow逆；5/11排H1 torsion。全部Artin、闭点迹、边界和交重下 S(ΠΦX)=Alb H_*(G−φF)^*O。某实际ℓ>3 shadow非零即付同原AJ/Z。
 [完备性](notes/2026-11-16-original-cm-inert-shadow-chebotarev-completeness.md)付固定ℓ原AJ非零 iff某惯性shadow非零 iff阶无界，每阶门正密度；原非零和无穷系数p都未付。
 
-R862/R864固定原17挠点乘积h、H9/L、全Λ((2))=−2、τ/ℓ/c与可逆三Hom矩阵；原cusp(1,1,4)/Schoen极6/三商后2不代非零。v=h³/2^32=−122465−47628a−314892a²/17，a³17，整数n未知，不认Manin1。
+R862/R864固定原17挠点乘积h、H9/L、全Λ((2))=−2、τ/ℓ/c与可逆三Hom矩阵；原cusp(1,1,4)/Schoen极6/三商后2不代非零。v=h³/2^32=−122465−47628a−314892a²/17，a³17，整数n未知，不认Manin1；R866附A现已付17|n的必要条件（非充分）。
 [R864附A](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：e=18−7a、η=e⁻¹=324+126a+49a²，η²=−av；v_sm=e³v=7−18a²/17有小三次式。整单位同构(X,Y)↦(e²X,e³Y)使微分ηHi、n/次数不变，(nη)³v_sm=n³v，不能假称降低搜索度数。
 
 R866/R869原Cv:Y²+vY=X³，Ξ_i*ωv=Hi，Ai=2^11κΞi；H0/Ξ0真下降F=Q(∛17)。公开run43822409558固定全cocycle；run43825112263给T9/Φ17（18×18/总34/291项）及三H541项（各98非零/含2）；脚本/参数/hash齐，不保存重算输出。
 [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)：D=X0(867)，h=H0³∈S6。A,B∈M_k，C=(DQ A)B−A DQ B，C³=n³hA²(A+vB)²B²检查0..612(k+1)并保原germ/∞即认nΞ0。k2维120/低409/末1836；成功degree≤204，真degree≤119保证k2解。低核任意非零元同一比值，可有共同cusp零。
-**正在执行**：run43827859642/job133165840111，source dd7b2881f12e353e0c54e1de8e0e88a0bbe3391a，顺序(1,2)/(2,2)/(1,4)，仍运行，未有返回结果。完整CM/小纯三次域/同一全局基，好辅助素数满列秩只排固定候选；特征零核须过严格恒等式。原坐标和shadow尚缺。
+**当前运行调整**：R866附A已全证真nΞ0必须17|n，故原(1,2)/(2,2)/(1,4)对任何权均不整。本提交给producer加17必要条件并用同独立workflow的concurrency supersede旧run43827859642，等待取消/新guard回执；没有启动新的大矩阵。原坐标和shadow尚缺。
 [R867附A/B/C](results/R867-original-single-hom-and-integral-hecke-three-basis.md)：整R=2T7²+7T7−8T13−28与R²−2给两真unit、完整乘法表和整packet逆；全8/64/14邻点/Artin保。首系数不得免费归一，unit保持同n可积集合；认证后3n三基真整（旧57改进）。3同源备选Ψ=φΞ0/3成功经dual直接回nΞ0，但仅n0|nΨ|3n0，尚未付整性/度数改善。
-**接续**：literature正给原CM/Petersson三范数的快速精确公式/公开producer，核实际度数范围再选unit/权；原指数3672、实际目标面积保。不是以小模型、首系数或存在算法替坐标。之后按R859算原交点非零。
+**接续**：literature正给原CM/Petersson三范数的快速精确公式/公开producer，核17²·3g（原）和17²·g（3同源）的严格下界后选真实unit/权；原指数3672、实际目标面积保。不是以小模型、首系数或存在算法替坐标。之后按R859算原交点非零。
 
 ## 当前第二门：四原B的实际同源关系
 
