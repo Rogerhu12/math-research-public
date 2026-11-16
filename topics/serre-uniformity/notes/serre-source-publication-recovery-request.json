@@ -2,34 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R917-actual-two-original-normal-orders",
-  "commit_message": "serre: certify both original endpoint normal orders and frames",
-  "rules_last_read_commit": "b0f904f0d637eb324d66bf69772197a0ec867e39",
+  "request_id": "20261116-R921-original-first-Drinfeld-normal",
+  "commit_message": "serre: prove original first Drinfeld normal differential and deep-disc bound",
+  "rules_last_read_commit": "8dbd975a2040a9426e6858745c99c86c484d3221",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "afd6a13e53d64ca7e3c37553b022ccda7c9366a57cc646a1055dceca0e405386",
+  "expected_previous_request_sha256": "803693d2719704f0b098ef904edc38a41a090ce644b90c923701c7098fbc61b6",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R917-certified-original-two-endpoint-normal-orders-and-frames.md",
-      "sha256": "cf5b4714405bd534b8bb7fe732dc36722eb04b2f372debca93d9b2523e57d937",
+      "path": "topics/serre-uniformity/results/R921-original-Igusa-node-and-first-Drinfeld-normal-differential.md",
+      "sha256": "63d62b3d5e3c55f8f09b778a7b57b0ce45a10a05600e1345e5fa5e63fcaaadfd",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-first-Drinfeld-normal.md",
+      "sha256": "e30421f66cfa07d1fb2b1eeca4d59bee9efce7a4cff4f730bdcf796debcc817d",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "c013728804c3da2a11b0fe645e1fc817491f56c979d96d6e8609254131de04c1",
-      "expected_previous_sha256": "3c53ef01ebc5c67e9d5fc3b0aa23478a5be21e217bf3527f7c359861e7a3bc3d"
+      "sha256": "cd191ffc409507ae3d9d1055421f961485484f82baff0708d0c54a0bf578f073",
+      "expected_previous_sha256": "e30421f66cfa07d1fb2b1eeca4d59bee9efce7a4cff4f730bdcf796debcc817d"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "fc455b60a3325c45830e993728907aac90e0e4281bcdd2642676555de8fea3d6",
-      "expected_previous_sha256": "f014b562d037058a3312c71fc04b726a5d642b110f17519d58fc171cf9088f52"
+      "sha256": "adc007d30fce0b6a7ab622154599aef43ecb1ba32868527ed106f51b3d3c5efc",
+      "expected_previous_sha256": "fc455b60a3325c45830e993728907aac90e0e4281bcdd2642676555de8fea3d6"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "c46913378fcfb4f16dacffc97110b3bcd04fbbfaaf75aba7a2152996627b4694",
-      "expected_previous_sha256": "25fc2bfdbc8046f334b0a3e1d6d2d02f01e63979e711ed0e5d7c941443cc8577"
+      "sha256": "4767b06229e769f1fed9a0f89b6daee7b544db609c482763066c49df40e46b36",
+      "expected_previous_sha256": "45dd6c4dece63e9241ce50773b20721555e179b94cf2ae8139ecd8766e57d47a"
     }
   ]
 }
