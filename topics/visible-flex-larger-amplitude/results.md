@@ -402,3 +402,8 @@
 ## R458 — 同作业真实联合精化与固定目标证据链
 
 **已证明（限完整来源组合、控制流与所列条件命题）**：[R458](results/R458-same-job-joint-refinement-and-fixed-target-evidence.md)及三独立源owner17026B/304eaa41、runner44927B/76881ec3、reader33942B/7902848f已全文/完整delta读后发布。新job真执行冻结205子合同，再以真accepted450→R456五factor各2→R457完整M128四factor1组成直接父链；M的steps来自真R456父，精确14个sampling工作键不重传旧steps。所有M deep/far/native/两mean/4M+2及原末门仍fresh。每场自己的五几何/独立held和R459全域relative误差/真实t=4、8、16查询各自记录；缺B只测量未付，几何/误差失败不另作下一求解门。单18900+2700原钟、末900测量余量、全部cap/2400节点只是资源；真实PID/startticks及nested sessions/未知scope保留，原七必要加新单90KB/70与实际quiet后才清。R459完整series同目标/同clock/各level保原字段，不以同eta pass代下降。当前只有有限调用合同，无实际父/求解/误差或README完成；207完整入口另次发布启动，不接R461/R462。
+
+
+## 2026-11-16 — Request207同作业联合精化完整入口
+
+[207完整入口](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)已全文/完整原205差异读后发布：request21956B/c798f376、workflow98422B/37f426a2、接口21153B/cf233c72，三源与条件证明R458已刊61744a58。原20597406B/06ae子合同和95760B/726d工作流明确保留，新job执行其全部原科学块，154pins不替换、新增75共229；原六小时/18900+2700钟不改。原全部必要读回后、清理前接真正R456五factor2→M128四factor1、各场五几何/独立held/R459测量t4、8、16及单份比较；原七必要再加新单90KB/70及所有真实owner静止，才清同一临时现场。无fixture或新增接受门，R461显示/R462联合far不接首版。新请求路径push触发公开仓库自己的Actions；实际R460/source/run待官方绑定、exact唯一终态。目前没有新accepted450/M或误差数值，不以入口完成冒README完成。

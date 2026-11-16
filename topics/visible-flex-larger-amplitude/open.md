@@ -34,7 +34,7 @@ R409–438完整radial/B/两mean/帽/cuff、同C live-query/四Loewner、全部A
 
 R441/R448提供N/steps/两角及真实radial_mesh五因子，父全词/knots与准确有理插点一次RN64只作新初猜；新450全RHS/H/J/FD/fullDN/final/audit及同钟保持，容量/无机器新点只partial。R442全有限M须重付显式$v_*\le1/2,\varepsilon_M\le1/64$、新deep/全Mfar/全部$4M+2$与$(3M+2)\times M$响应，零高模仅初猜。[R451](results/R451-complete-M-closed-geometry-and-common-material-registration.md)已接动态M全部五几何/独立held，但原R451分支尚不认205/R456父，R457独立来源见下；所有实际精化仍欠。
 
-R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前helper默认未执行，跨$j$ $C^2$一致收敛是更强未付责任，不另加为README完成门。R459将读固定同$g$的真实全域相对metric误差及实际nested $t$查询；同一固定$\eta$反复pass不能证明误差下降，上界变小与实际sup严格下降必须区分，重叠只记未分辨，不加拒收门。R457独立205/M来源已刊；R458/request207同job执行链尚在源码准备；只有真实新场/实际调用才计支付。
+R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前helper默认未执行，跨$j$ $C^2$一致收敛是更强未付责任，不另加为README完成门。R459将读固定同$g$的真实全域相对metric误差及实际nested $t$查询；同一固定$\eta$反复pass不能证明误差下降，上界变小与实际sup严格下降必须区分，重叠只记未分辨，不加拒收门。R457独立205/M来源已刊；R458同job执行链已刊，207本次发布入口触发、官方run/source待绑定；只有真实新场/实际调用才计支付。
 
 [R456](results/R456-same-far-complete450-refinement-and-explicit-origin-composition.md)/[完整接口](notes/2026-11-16-current-C-same-far-complete450-refinement-interface.md)九独立源已全差异及正文核后发布：同job原complete112 far的完整C/root/候选误差/行矩阵及实际$\mu$词保持，除原far点外新grid全fresh，sampler5f14be90/driver9d76552d/owner1a1df513真接R448五因子与新450全H/J/FD/fullDN/final/audit。sample→owned configure共一个采样allowance，所有child裁同18900+2700原钟；后继沿真实original_config/result追到原far，不拿新采样冒原生产者。明确注册193/203/最终205三来源；post4770c16a/held4f1e8a9d绑定R452实际first procedure/A及存在时的完整B，缺B只记公共材料未付，不加几何门。单90KB/quiet/全部未付保持；无实际父/因子/run/精化接受，M来源和公共材料/误差实际执行仍待后继。
 
@@ -47,6 +47,8 @@ R443/R447的准确共同材料拉回和全$t$强$C^2$条件证明保持；当前
 **已证明（限所列完整来源与包含条件）**：[R462](results/R462-same-C-old-mode-far-families-and-new-mode-propagation.md)/[接口](notes/2026-11-16-incremental-M-complete-far-union-interface.md)给出独立union52848B/5da13c5f、worker18663B/b536850a、client23746B/d9db5098。固定同准确C/全根族、同物理far和真实正μ词时，单模态物理方程与取向行不依赖所保留其它模式数；故旧完整112族、全部候选误差和两系数字可保留，新模式仍真调用原point_column/N.form。旧Π系数移至新M偏移列，全M外包包含每个共同C真实向量，却不证明任意数值代表共同实现。旧112 data先按原binding完整读取，新M deep另完整付；新增模式保真实全局索引与旧far/μ，全部其它grid/native/J/全4M+2仍fresh。三源及两完整差异已读，原M数学核不改；单90KB/原绝对钟/未访与原账/无cleanup保持。当前没有实际新M行或时间收益，driver/checkpoint/owned caller注册仍待R463及后继；207首版继续全M重算，不受本刊影响。
 
 **已证明（限完整来源组合、控制流与所列条件命题）**：[R458](results/R458-same-job-joint-refinement-and-fixed-target-evidence.md)及三独立源owner17026B/304eaa41、runner44927B/76881ec3、reader33942B/7902848f已全文/完整delta读后发布。新job真执行冻结205子合同，再以真accepted450→R456五factor各2→R457完整M128四factor1组成直接父链；M的steps来自真R456父，精确14个sampling工作键不重传旧steps。所有M deep/far/native/两mean/4M+2及原末门仍fresh。每场自己的五几何/独立held和R459全域relative误差/真实t=4、8、16查询各自记录；缺B只测量未付，几何/误差失败不另作下一求解门。单18900+2700原钟、末900测量余量、全部cap/2400节点只是资源；真实PID/startticks及nested sessions/未知scope保留，原七必要加新单90KB/70与实际quiet后才清。R459完整series同目标/同clock/各level保原字段，不以同eta pass代下降。当前只有有限调用合同，无实际父/求解/误差或README完成；207完整入口另次发布启动，不接R461/R462。
+
+[207完整入口](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)已全文/完整原205差异读后发布：request21956B/c798f376、workflow98422B/37f426a2、接口21153B/cf233c72，三源与条件证明R458已刊61744a58。原20597406B/06ae子合同和95760B/726d工作流明确保留，新job执行其全部原科学块，154pins不替换、新增75共229；原六小时/18900+2700钟不改。原全部必要读回后、清理前接真正R456五factor2→M128四factor1、各场五几何/独立held/R459测量t4、8、16及单份比较；原七必要再加新单90KB/70及所有真实owner静止，才清同一临时现场。无fixture或新增接受门，R461显示/R462联合far不接首版。新请求路径push触发公开仓库自己的Actions；实际R460/source/run待官方绑定、exact唯一终态。目前没有新accepted450/M或误差数值，不以入口完成冒README完成。
 
 ## 4. 同一g闭合与真正九冻结450
 

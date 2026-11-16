@@ -1,0 +1,363 @@
+{
+  "schema": "public-actual202-joint-refinement-and-fixed-target-evidence-request-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "request_number": 207,
+  "lanes": [
+    "actual205-contract-then-genuine-R456-parent-then-complete-M128"
+  ],
+  "original205_subcontract": {
+    "file": "topics/visible-flex-larger-amplitude/notes/current-C-actual202-accurate-ten-closed-geometry205-request.json",
+    "bytes": 97406,
+    "sha256": "06ae0670329d38b77448ef43f54021da3c5eb2575e9e7a290cec6b2968c1f6c4"
+  },
+  "original205_workflow": {
+    "file": ".github/workflows/visible-current-C-actual202-accurate-ten-closed-geometry205.yml",
+    "bytes": 95760,
+    "sha256": "726d97e1aada5d34ddfa949753ce59c6909122d3de8c39bd5a2160fdb8712c36"
+  },
+  "original205_subcontract_executes_in_this_new_actual_run": true,
+  "old205_run_not_reused": true,
+  "original_source_count": 154,
+  "additional_source_count": 75,
+  "complete_source_count": 229,
+  "additional_source_sha256": {
+    "exact_20261116_current_C_M_general_robin_chain.py": "d4f6d4ffa7f54c38fb251ed72ef7d5bcdd8c5371c99506b0b8d98095506c3737",
+    "geometry_20261116_continuous_ten_frozen_M_checkpoint.py": "18399ec7d7ad44f03d491fdf60a54794decfe8854c8115d7ebd55ed014ed5e93",
+    "geometry_20261116_continuous_ten_frozen_M_refinement.py": "395da6c8d43c0d31e59c58a2089fb4b116900a9b3192fa8d76456fc680adde12",
+    "geometry_20261116_continuous_ten_frozen_M_saved_prefix.py": "86a88a66a57c05b64c21efa650374746ad42be272f0d741188ff81bdf4fed2f6",
+    "geometry_20261116_continuous_ten_frozen450_angular_step_refinement.py": "bf1f8d2dda15584791147f97dc6f313435c16d080acaa49ef418c2df06d503b3",
+    "geometry_20261116_continuous_ten_frozen450_radial_resolution_refinement.py": "137d42cb27bb1aef227d42445adf07a6d11f7bba57315abdf151cc3b0086c7e8",
+    "geometry_20261116_continuous_ten_frozen450_same_far_refinement.py": "9d76552d2a7b1dfc9e80ae9a3236fbb0d961007ca5052f702ffa6e18c3ac4a35",
+    "geometry_20261116_continuous_ten_M_live_full_DN_hooks.py": "e197e156e108ef63960d3551f2fd55efdc19f4bdf93a21c0ab4d1ba3b2b87848",
+    "geometry_20261116_continuous_ten_M_prefix_metric.py": "56a3a9fed5b52130199e0fd6d6d6d72d6d12a82fbbf9c248e77608e8bfd056be",
+    "geometry_20261116_continuous_ten_M_same_metric_profile.py": "cc70e7699a817c5715e12de2b131d1a381082f630f0fdadf3648d9a8bec0151a",
+    "geometry_20261116_continuous_ten_resolution_checkpoint.py": "bf7dedd2135e3f6b54bc806a17064428111b502b6ddb8572ec66a883b1ce34ad",
+    "geometry_20261116_continuous_ten_resolution_saved_prefix.py": "fb6e181cd0ddfb34cc70c874c119ceb149850ce8756d1f2f0dd775175e99cffb",
+    "geometry_20261116_current_C_actual202_frozen_M_owned_launch.py": "23a3b218662003d74824ad19b48bda9b641346a3d15cbf108885ed995e2aee40",
+    "geometry_20261116_current_C_actual202_M_common_material_phase.py": "059d0df3ab5957b8ba5adf69e305ee4663ba06378242fe4c5f2116bab437af41",
+    "geometry_20261116_current_C_actual202_M_postsolve_geometry.py": "a177cd7a80ede901843763f90d52d3a0c723d76b0c2be381122d91e6a68394bb",
+    "geometry_20261116_current_C_actual202_M_postsolve_held.py": "99634dccd54de2f33e27c63039aa9747b08ce026f3232c576596fbdbd2a10936",
+    "geometry_20261116_current_C_frozen_M_owned_launch.py": "47fc1aba734742c67d772eac7479a4f56165f711c5f646f4ff6e47c17c53829b",
+    "geometry_20261116_current_C_frozen450_radial_resolution_owned_launch.py": "f3a2abf626fbb7f636315e40608b55170748a779e7bdf1287ebc362e04b73cf2",
+    "geometry_20261116_current_C_frozen450_resolution_owned_launch.py": "2247aa97c4ed63c9065d1e326fb78b84500ee7b834f0970905e977773bcea8df",
+    "geometry_20261116_current_C_frozen450_same_far_owned_launch.py": "1a1df5136492abe5066a91139bd22554f8e83db21d13c981439532911f4b3c8d",
+    "geometry_20261116_current_C_M_accurate_cut_patch.py": "747b9d1f77b307529aeb65e3ad31e831b9f54238916bcae23fa578efd6a76492",
+    "geometry_20261116_current_C_M_common_material_phase.py": "db7df14743f1f91dc507918e1676ee8198227a8f28c60d25fc55c83993af7fb7",
+    "geometry_20261116_current_C_M_complete_block_reach_cover.py": "1915bc51508f2a2f8028594a8808fdeb902ea88782a161d94dae14da6b41340e",
+    "geometry_20261116_current_C_M_complete_reach_cover.py": "e69cf21c3800c8ca8b145ac0ea89233ed59571a6c51ca02a7078211b2d254210",
+    "geometry_20261116_current_C_M_fixed_cap_balls.py": "21f755aad5bb5616356005f575db76c1a6826b3a33197a14e1d6910aa069984a",
+    "geometry_20261116_current_C_M_full_DN_utilities.py": "7b7046c3c576a27bdd8e4dc798d5f7bdd84124c0b48b13cf2c087839af4f4a49",
+    "geometry_20261116_current_C_M_general_robin_native.mjs": "fb951f3688673a01b698bb7c606d6a854c061816e139bae55e51a176b4439f8c",
+    "geometry_20261116_current_C_M_held_and_rigidity_inputs.py": "9c5615bbf8f0c895d75b84d7aed0f4297a10c3b0b624336d93bb37b150715c51",
+    "geometry_20261116_current_C_M_live_query_complete_metric.py": "fc35c6408aacbf2131a89fbac37ca4ae98c1665d9fbdc4ba78a50a43ca7f3a47",
+    "geometry_20261116_current_C_M_original_cuff_atlas.py": "97e4a49f0a9913094dec5f78b173437028f553a5bf0aa36f0b0b9d53929a9621",
+    "geometry_20261116_current_C_M_postsolve_geometry.py": "c5aeb8ba8cfd1aebeeaf4f0305006398fedbc3de868f9e74a78135129d548642",
+    "geometry_20261116_current_C_M_postsolve_held.py": "0020018c238f18f5afc9b9ac343d50b053a052bcc752d362e7f1bc1cd8b70647",
+    "geometry_20261116_current_C_M_pruefer_joint_native_worker.mjs": "17a58fde59a4dbc126bce6c7f4584edf74a94690ec0aace831a31f10783c8509",
+    "geometry_20261116_current_C_M_pruefer_joint_radial_sampling.py": "9a85d7d17796ea567cdcfdac567ee531fcf5c225bfe9f57699bbb403aead41c1",
+    "geometry_20261116_current_C_M_pruefer_joint_tail_client.py": "ab326e5b4814341b9cf6fbb054d56e8183e4560922c16878a4c57ca6620b135d",
+    "geometry_20261116_current_C_M_synchronous_linear_bridge.mjs": "8f189c095ec5bfbc3c323e2421cd98f931931334603ec902a94a75a60a3854de",
+    "geometry_20261116_current_C_radial_resolution450_postsolve_geometry.py": "64086e8dc283507442ab519f7fa139b748259948d2e9c5a419227363b33c67b8",
+    "geometry_20261116_current_C_radial_resolution450_postsolve_held.py": "8ffa2e6fe2f9e30f5c4aada0f9adcbb9af2e28152e0ce019291bda5bffffbbcb",
+    "geometry_20261116_current_C_resolution_accurate_cut_patch.py": "8811f89c7395bb4aed1adabe6c6825c801e1e41a9d80d416b0a4746596ae9a52",
+    "geometry_20261116_current_C_resolution_complete_block_reach_cover.py": "f27556bcfbeb72ac3ad7142bbc5089e1168fdc7966fe91757e1a201b7dbfe957",
+    "geometry_20261116_current_C_resolution_complete_reach_cover.py": "745b245eddd27c10522012756a33bd842b3883d918845de49cc2cdacbeed1a05",
+    "geometry_20261116_current_C_resolution_fixed_cap_balls.py": "ca53bdc5c0cdd5764065301f0edb1259d083fdffa9f3d767a5a38b4a7cafe364",
+    "geometry_20261116_current_C_resolution_held_and_rigidity_inputs.py": "144da57a9d55547fa3b85ccb43c0f4261db2e2dcb41e91094c8d3a16c9b7d7b1",
+    "geometry_20261116_current_C_resolution_live_query_complete_metric.py": "fd263af28a7d55a7246a49283d367e420786f48f16556dd5a7d61406b1c8459b",
+    "geometry_20261116_current_C_resolution_original_cuff_atlas.py": "d0b03a367f3ece13b06949d5218a992e6ee3e9a41364499070d3f5f475a150a0",
+    "geometry_20261116_current_C_resolution450_postsolve_geometry.py": "ae9970eafa70f7138f9fcc31677f0910f092b4076fb1719c8097e3b9d76c0120",
+    "geometry_20261116_current_C_resolution450_postsolve_held.py": "207bf087b1c4dbc852a79ce7b005df805c9b0051af342cd26c47cdf72f4b61fe",
+    "geometry_20261116_current_C_same_far_registered_native_worker.mjs": "43ab8159593c240a68e399ab739c56c6681ac1cbf6b3cc0fae0f5309ef8a7e8c",
+    "geometry_20261116_current_C_same_far_registered_resampling.py": "5f14be90b0e5ae36ee624ece930d46fa1205eee0efcc6e2a97decca15e7011d5",
+    "geometry_20261116_current_C_same_far_registered_tail_client.py": "b778a3e15ec16a1f9f6cfcda2f75dc520a94a26d12fb50046e2dd5b22684fbd7",
+    "geometry_20261116_current_C_same_far450_postsolve_geometry.py": "4770c16a51da7c384354c2999a8c97c76b7a8c315dbfedd304f7c9ff622614f2",
+    "geometry_20261116_current_C_same_far450_postsolve_held.py": "4f1e8a9d396a741934c50ebdf413f2d825ad99a53848e633881174899cf172e1",
+    "geometry_20261116_current_C_ten_M_radial_readout.mjs": "109507cd981bbff9f0d5e18e2c498ec512876e017fe6f72096876e1b7e9e2853",
+    "geometry_20261116_current_C_ten_M_shared_field.py": "db1f6fd39bef3d9ce2543276771cbcea1c2432a7221b8f295ed5b553b2171f87",
+    "geometry_20261116_current_C_ten450_resolution_radial_readout.mjs": "3d711d395693cdf8ad222e0838bb29b99ffb5043defb8a66c992dc854df018f4",
+    "geometry_20261116_current_C_ten450_resolution_shared_field.py": "1ceda9d32cfcf50e28e737cd0aee981cb8dc2329027aa2967d08532a1ea6e935",
+    "geometry_20261116_fixed_target_complete_metric_evidence.py": "494fea70b97404af2be8ef0f3d685fadc2f59c6a30ea3af771de98a56b868b05",
+    "geometry_20261116_request207_joint_refinement.py": "76881ec3ad75c7d33ef2ea70cafbf12cf73dcb9273f137187f73a975368f4ea8",
+    "geometry_20261116_request207_owned_roles.py": "304eaa41b3b9c0e1eab4e71678720f336cbd1a5e7f47ceb9ef1b6e8d2b0ddc5f",
+    "geometry_20261116_stored_C_finite_M_head_pruefer_positive.py": "82a3f3e28e506320f474c64fd50d9ceadf3b39e9de9dc07f70c3df3c5c66bde6",
+    "geometry_20261116_stored_continuous_C_M_far_graph.py": "5f16872e6e2e71914a73345b2f9b9142dbb0a7438e68805033a3277d3eb3d528",
+    "root_20261116_continuous_ten_M_phase_readout.py": "31891fe66be3e707173631dd000f625715f34f57110f865797c0a4ecaf22ed56",
+    "root_20261116_continuous_ten_resolution_phase_readout.py": "448c35c390abd78d169db8bad0c292d89b18cb0109fe5216420b5133479132bf",
+    "root_20261116_current_C_actual202_frozen_M_necessary_readout.py": "fff29708f5c2ea24415392444af8860b06cf9a62db5fa24b57a1d1637dc6a753",
+    "root_20261116_current_C_actual202_M_postsolve_necessary.py": "9e4a00dc5ce3c3299d7d0cf43387139bd20dc6713d092b9d79ce99dca9305605",
+    "root_20261116_current_C_frozen_M_necessary_readout.py": "845f4d8414905ee308bb2deb6db3628f1b63eb25ffb69875b78f818e9b2658d0",
+    "root_20261116_current_C_frozen450_radial_resolution_necessary_readout.py": "965b07a1a996e9812cd91abf90254e3236323e9a2343e288ad699e675a2d75bb",
+    "root_20261116_current_C_frozen450_resolution_necessary_readout.py": "dcc2900b203a33dcfd2e87e9a99ee74782edbec2bef9eb02fe28f9d1da08322f",
+    "root_20261116_current_C_frozen450_same_far_necessary_readout.py": "59ed4273ca45c93931c6e6786adc87b4bd4fabf94f036e97e230a73687f7b596",
+    "root_20261116_current_C_M_native_necessary_api.py": "22923f449d363543169446eb970c78f0aaa7410648df4ebc02cd7fd6fafc96c1",
+    "root_20261116_current_C_M_postsolve_necessary.py": "e48b7b2626d478efb1e591db462a49bbc5b50573547ced0ce6bd122b8d4445da",
+    "root_20261116_current_C_radial_resolution450_postsolve_necessary.py": "a087f6b4fe1ace727c2867eab5d34a8915fec1a007996bb96ced8392d289c71f",
+    "root_20261116_current_C_resolution450_postsolve_necessary.py": "cfb46af0e0c489b604f2956f484cfe789fb2dfe432ac18a9dfaf6d19fae4e63a",
+    "root_20261116_current_C_same_far450_postsolve_necessary.py": "21e61e28c867cad82bff012f453f41a2c08d069669f470c6dc5d088b3ff14fd8",
+    "root_20261116_request207_refinement_necessary.py": "7902848f2aac3abb880ae604aa81f7f87bdd68b7b25f6a39dd0ffa92152dde24"
+  },
+  "roles": {
+    "owner": {
+      "file": "geometry_20261116_request207_owned_roles.py",
+      "bytes": 17026,
+      "sha256": "304eaa41b3b9c0e1eab4e71678720f336cbd1a5e7f47ceb9ef1b6e8d2b0ddc5f",
+      "schema": "R458-request207-owned-nested-role-v1"
+    },
+    "runner": {
+      "file": "geometry_20261116_request207_joint_refinement.py",
+      "bytes": 44927,
+      "sha256": "76881ec3ad75c7d33ef2ea70cafbf12cf73dcb9273f137187f73a975368f4ea8",
+      "schema": "R458-actual205-contract-joint-refinement-and-fixed-target-evidence-v1"
+    },
+    "reader": {
+      "file": "root_20261116_request207_refinement_necessary.py",
+      "bytes": 33942,
+      "sha256": "7902848f2aac3abb880ae604aa81f7f87bdd68b7b25f6a39dd0ffa92152dde24",
+      "schema": "R458-joint-refinement-one-necessary-readback-v1"
+    },
+    "same_far_owner": {
+      "file": "geometry_20261116_current_C_frozen450_same_far_owned_launch.py",
+      "bytes": 58629,
+      "sha256": "1a1df5136492abe5066a91139bd22554f8e83db21d13c981439532911f4b3c8d",
+      "schema": "R456-current-C-frozen450-same-far-resolution-owned-launch-v1"
+    },
+    "same_far_reader": {
+      "file": "root_20261116_current_C_frozen450_same_far_necessary_readout.py",
+      "bytes": 36696,
+      "sha256": "59ed4273ca45c93931c6e6786adc87b4bd4fabf94f036e97e230a73687f7b596"
+    },
+    "same_far_post": {
+      "file": "geometry_20261116_current_C_same_far450_postsolve_geometry.py",
+      "bytes": 65588,
+      "sha256": "4770c16a51da7c384354c2999a8c97c76b7a8c315dbfedd304f7c9ff622614f2",
+      "schema": "R456-current-C-same-far-resolution450-same-job-live-query-block-geometry-v1"
+    },
+    "same_far_post_reader": {
+      "file": "root_20261116_current_C_same_far450_postsolve_necessary.py",
+      "bytes": 27343,
+      "sha256": "21e61e28c867cad82bff012f453f41a2c08d069669f470c6dc5d088b3ff14fd8"
+    },
+    "same_far_held": {
+      "file": "geometry_20261116_current_C_same_far450_postsolve_held.py",
+      "bytes": 43986,
+      "sha256": "4f1e8a9d396a741934c50ebdf413f2d825ad99a53848e633881174899cf172e1",
+      "schema": "R456-current-C-same-far-resolution450-same-job-held-after-shared-v1"
+    },
+    "modes_owner": {
+      "file": "geometry_20261116_current_C_actual202_frozen_M_owned_launch.py",
+      "bytes": 72739,
+      "sha256": "23a3b218662003d74824ad19b48bda9b641346a3d15cbf108885ed995e2aee40",
+      "schema": "R457-current-C-actual202-capable-frozen-M-owned-launch-v1"
+    },
+    "modes_reader": {
+      "file": "root_20261116_current_C_actual202_frozen_M_necessary_readout.py",
+      "bytes": 29934,
+      "sha256": "fff29708f5c2ea24415392444af8860b06cf9a62db5fa24b57a1d1637dc6a753"
+    },
+    "modes_post": {
+      "file": "geometry_20261116_current_C_actual202_M_postsolve_geometry.py",
+      "bytes": 71452,
+      "sha256": "a177cd7a80ede901843763f90d52d3a0c723d76b0c2be381122d91e6a68394bb",
+      "schema": "R457-current-C-actual202-capable-complete-M-live-query-block-geometry-v1"
+    },
+    "modes_post_reader": {
+      "file": "root_20261116_current_C_actual202_M_postsolve_necessary.py",
+      "bytes": 27343,
+      "sha256": "9e4a00dc5ce3c3299d7d0cf43387139bd20dc6713d092b9d79ce99dca9305605"
+    },
+    "modes_held": {
+      "file": "geometry_20261116_current_C_actual202_M_postsolve_held.py",
+      "bytes": 44390,
+      "sha256": "99634dccd54de2f33e27c63039aa9747b08ce026f3232c576596fbdbd2a10936",
+      "schema": "R457-current-C-actual202-capable-complete-M-held-after-shared-v1"
+    },
+    "evidence": {
+      "file": "geometry_20261116_fixed_target_complete_metric_evidence.py",
+      "bytes": 62091,
+      "sha256": "494fea70b97404af2be8ef0f3d685fadc2f59c6a30ea3af771de98a56b868b05",
+      "schema": "R459-same-accurate-closed-target-complete-relative-metric-evidence-v1"
+    },
+    "common_material": {
+      "file": "geometry_20261116_current_C_actual202_M_common_material_phase.py",
+      "bytes": 38151,
+      "sha256": "059d0df3ab5957b8ba5adf69e305ee4663ba06378242fe4c5f2116bab437af41"
+    }
+  },
+  "witness_families": {
+    "resolution112": {
+      "cut": {
+        "file": "geometry_20261116_current_C_resolution_accurate_cut_patch.py",
+        "bytes": 26070,
+        "sha256": "8811f89c7395bb4aed1adabe6c6825c801e1e41a9d80d416b0a4746596ae9a52"
+      },
+      "atlas": {
+        "file": "geometry_20261116_current_C_resolution_original_cuff_atlas.py",
+        "bytes": 29116,
+        "sha256": "d0b03a367f3ece13b06949d5218a992e6ee3e9a41364499070d3f5f475a150a0"
+      }
+    },
+    "completeM": {
+      "cut": {
+        "file": "geometry_20261116_current_C_M_accurate_cut_patch.py",
+        "bytes": 26078,
+        "sha256": "747b9d1f77b307529aeb65e3ad31e831b9f54238916bcae23fa578efd6a76492"
+      },
+      "atlas": {
+        "file": "geometry_20261116_current_C_M_original_cuff_atlas.py",
+        "bytes": 29387,
+        "sha256": "97e4a49f0a9913094dec5f78b173437028f553a5bf0aa36f0b0b9d53929a9621"
+      }
+    }
+  },
+  "mode_extension_proof": {
+    "file": "topics/visible-flex-larger-amplitude/results/R442-fixed-accurate-C-finite-M-modes-and-deep-tail-range.md",
+    "bytes": 12736,
+    "sha256": "535118e0403bdf10af73f7b47d35e607121c298c12a077b76e20337a3a6c2013"
+  },
+  "published_components": {
+    "R441": "f2c5653000abedf08622e5e703dffd314aac662a",
+    "R442": "22a454e3a4705fef552a1938beef655a8bd1ac53",
+    "R448": "4af72dc1cc28c5eb6485ac8f829b544630db3b31",
+    "R451": "7a1a30ef879197237e063dae5380b047ba4de957",
+    "R456": "49feeaf392e6c992ae91879c36423e24c652369e",
+    "R457": "5064208b7a5c46d7b18c55f86c097a81192ba931",
+    "R459": "1f8213c7bd64ed064f959eca10c0ab5d4c973a0c"
+  },
+  "reviewed_README_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-larger-amplitude/README.md": "bff8aea253a9e6a7a4fac28d810ac454c5499fec"
+  },
+  "execution": {
+    "job_timeout_minutes": 360,
+    "science_seconds_from_original_namespace": 18900,
+    "original_readback_reserve_seconds": 2700,
+    "original_namespace": "visible-current-C-actual202-ten450-closed-geometry205",
+    "original_deadline_schema": "request205-owned-job-science-deadline-v1",
+    "one_actual_original_namespace_start": true,
+    "deadline_restarted": false,
+    "all_new_caps_clipped_to_actual_original_remaining_seconds": true,
+    "normal_source_syntax_only_in_Actions": true,
+    "live_rules_original_runner": {
+      "file": "root_20261114_current576_rules_runner.py",
+      "sha256": "3b8b6dd5eb5df373ffa14525f02e1a0376bafc2da91ce564631f771752e2afde"
+    },
+    "actual_new_owned_processes_record_PID_starttime_groups_and_descendant_sessions": true
+  },
+  "refinement_work": {
+    "max_nodes": 2400,
+    "max_nodes_is_resource_capacity_no_seed_or_knots_dropped": true,
+    "child_shutdown_reserve_seconds": 30,
+    "minimum_free_bytes_at_start": 8589934592,
+    "free_bytes_resource_stop": 2147483648,
+    "terminal_measurement_and_close_reserve_seconds": 900,
+    "same_far": {
+      "refinement_factors": {
+        "radial_mesh": 2,
+        "field_and_native_angles": 2,
+        "native_steps": 2,
+        "material_angles": 2,
+        "physical_angles": 2
+      },
+      "sampling_process_budget_seconds": 900,
+      "refinement_process_budget_seconds": 7200
+    },
+    "modes": {
+      "field_modes": 128,
+      "refinement_factors": {
+        "field_and_native_angles": 1,
+        "native_steps": 1,
+        "material_angles": 1,
+        "physical_angles": 1
+      },
+      "deep_process_budget_seconds": 300,
+      "sampling_process_budget_seconds": 12000,
+      "refinement_process_budget_seconds": 7200
+    },
+    "geometry_stage_budgets_seconds": {
+      "radial_replay": 600,
+      "original_cuff_atlas": 120,
+      "shared_field": 300,
+      "metric": 600,
+      "reach": 600
+    },
+    "witness_budget_seconds": 120,
+    "held_budget_seconds": 300,
+    "comparison_budget_seconds": 120,
+    "measurement": {
+      "budget_seconds": 300,
+      "free_bytes_reserve": 2147483648,
+      "interval_bits": 256,
+      "sqrt_bits": 128,
+      "initial_angular_depth": 2,
+      "max_depth": 20,
+      "max_cells": 100000,
+      "measurement_width_goal": "1/100000000",
+      "metric_reference_eta": "1/1000000",
+      "max_inverse_steps": 80,
+      "max_phase_query_cells": 100000
+    },
+    "time_subdivisions": [
+      4,
+      8,
+      16
+    ],
+    "common_time_witnesses": [
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": false
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "0",
+        "lower": true
+      },
+      {
+        "kind": "prefix",
+        "coordinate": "1/2",
+        "q": "1/4",
+        "lower": true
+      }
+    ],
+    "original_c_queries_and_first_closed_work_choices_unchanged": true,
+    "finite_two_successor_plan_not_a_completed_limit_certificate": true
+  },
+  "scientific_scope": {
+    "original205_complete_C_all_roots_current_H_J_FD_full453_frozen450_and_first_closed_science_unchanged": true,
+    "all_new_solver_parents_require_their_actual_original_complete_acceptance": true,
+    "level1_reuses_same_complete112_far_family_but_recomputes_new_grid_and_full450": true,
+    "level2_recomputes_all128_deep_far_native_boundary_J_FD_and_full_M_field": true,
+    "preserved_R456_parent_mesh_and_actual_counts_not_reset_by_M_factor_one": true,
+    "two_actual_successive_solver_parents_not_independent_branches": true,
+    "first_A_B_complete_W_H_markers_material_definition_not_just_ten_words": true,
+    "absent_B_unpays_only_measurement_not_solver_or_existing_held": true,
+    "each_new_field_gets_own_radial_cuff_shared_live_metric_reach_and_independent_held": true,
+    "all_time_metric_bound_from_closed_base_and_exact_common_material_conjugacy": true,
+    "finite_t_points_are_actual_nested_witness_queries_not_all_time_proof": true,
+    "strict_real_error_decrease_vs_upper_envelope_improvement_vs_unresolved_distinguished": true,
+    "solver_tolerances_not_relabelled_as_relative_metric_floor": true,
+    "no_extra_scientific_gate_or_fixture": true,
+    "R461_display_component_not_called": true,
+    "arbitrary_iterated_M_to_radial_next_branch_not_registered": true
+  },
+  "retention": {
+    "single_new_chain_necessary_limit_bytes": 90000,
+    "no_chunked_or_encoded_scientific_result_transport": true,
+    "original205_primary_necessary_scopes_and_new_chain_scopes_distinct": true,
+    "full_large_arrays_and_ledgers_only_RUNNER_TEMP": true,
+    "complete_error_text_and_actual_unreturned_ranges_retained_or_transport70": true,
+    "science_partial_distinct_from_transport_partial_and_process_quiet": true,
+    "original_all_readback_markers_plus_new_marker_and_actual_quiet_required_before_cleanup": true,
+    "no_raw_archive_upload_or_synthetic_checkpoint_resume": true
+  },
+  "workflow": ".github/workflows/visible-current-C-actual202-joint-refinement207.yml"
+}

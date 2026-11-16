@@ -4,7 +4,7 @@
 
 ## 位置、规则与完成标准
 
-规则同步记录：2026-11-16 03:56:45 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 7dd9a08de054a1791b51f5cb30be97af5d58852c。
+规则同步记录：2026-11-16 03:58:26 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 9e015799832ec6fb4ceca030667168e72ee970ca。
 
 只用公开Rogerhu12/math-research-public及自身Actions；私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref，代理只源码/blob；PAT只瞬时CLI，不入文件/提交/connector/回复。克隆/workspace/visible-larger-working/visible-larger-root-git-180为blob:none/sparse，add --sparse。至少每小时真实pull，每pull核双README，有变仅读差异立刻照做；Actions原2700秒sync。NFF/cannot-lock立即pull --rebase再推至成功，只有规则行冲突可自动解。
 
@@ -24,7 +24,7 @@
 |205/R453|43796116341 /e17aef55b9cc4d3f53054d2b79c853ff395d1227|amplitude；compute133065195355，03:06:19Z起，03:55前15成功（含factory/deep），16全far/sampling运行|
 |206/R455|43797755759 /e8e4be9f5cd3885399453b8945ea750b1a365ce4|exact；compute133070353121，03:22:01Z/attempt1，03:45前6成功，7原八组科学运行|
 
-运行中不取大日志。唯一owner取终态必要日志，root不重复。197/200已发表、不重取。207/R460尚未派发；新job内部205子合同不能冒原205 run。
+运行中不取大日志。唯一owner取终态必要日志，root不重复。197/200已发表、不重取。207/R460本次新入口push触发，官方run/source待绑定，exact唯一终态；新job内部205子合同不冒原205 run。
 
 ## 恢复检查点与重要终态
 
@@ -46,14 +46,16 @@ R452在真实radial/shared后冻首次A/B（W=.01/H/全marker/首112材料/regis
 [R461](results/R461-current-accurate-closed-multitime-display-and-projection-scope.md)5fde8188：sourcef3211ba9当前准确三族/全帽/逆材料点显示，默认同图像、first-q需B。逐点半径不冒面内/BVP/全t；3t默认、原钟/90K/每件压缩前后<5MB，只Actions临时，无实际生成。
 [R462](results/R462-same-C-old-mode-far-families-and-new-mode-propagation.md)b885a23c已刊：union52848/5da13c5f、worker18663/b536850a、client23746/d9db5098、proof19065/6d6e0875、interface23330/958b72ac。已证明同C/全根族/真实far和μ下旧完整112单模态族可复用；新m真传播、旧Pi按新M偏移。全真实共同C向量被包含，不冒数值代表共同实现。原新M deep及新grid/native/J/BVP全付；尚无driver/owned注册或实际运行，不改207。
 
-[R458](results/R458-same-job-joint-refinement-and-fixed-target-evidence.md)本次刊owner304eaa41/runner76881ec3/reader7902848f、proof19303/54507ec7。新job真205→R456五factor2→M128四factor1直接父链；M采样14键保真父steps，所有原门/同钟/全部必要quiet。R459各level真实误差/t-grid，缺B不加solver门；无实际精化。
+[R458](results/R458-same-job-joint-refinement-and-fixed-target-evidence.md)61744a58已刊owner304eaa41/runner76881ec3/reader7902848f、proof19303/54507ec7。新job真205→R456五factor2→M128四factor1直接父链；M采样14键保真父steps，所有原门/同钟/全部必要quiet。R459各level真实误差/t-grid，缺B不加solver门；无实际精化。
+
+[207完整入口](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)本次刊request21956/c798f376、workflow98422/37f426a2、interface21153/cf233c72。原205全部154pins/科学块逐字保，新75至229；新job原7必要后/cleanup前实际R458双级和R459。原6h/18900+2700、单90K/quiet不变，R461/R462未接。实际R460待官方run/source绑定。
 
 ## 当前接续与未推重做
 
 临时源均在/workspace/visible-larger-working；丢失按已刊父源/完整接口和以下合同重做，不靠已删raw或manifest作证。
-- exact：R458/request207同job显式冻结205子合同。首450/closed→R456五factor各2→M128四factor1，保前级真mesh/angles/steps。max_nodes2400仅容量。同18900+2700原钟；R456 sample900/BVP7200，M deep300/sample12000/BVP7200，全部clip真实剩余且末900科学秒留measurement/关闭。每级五几何/独立held/R459300秒；缺B只measurement unpaid。实际owned child、全部必要/quiet后原cleanup；不等R461/R462。R460实际预留。
+- exact：195已终态，唯一两必要日志已读：零H返回norm0，正s=1/64在stage368/rawCell5/rawSegment7到原18000秒资源限，没有完整当前J/iteration/trial，R273 correction0、FD/fullDN/final未起，已真清；R412完整结论待刊。继续唯一206/R455与新207/R460终态，不重复原197/200日志。
 - geometry：R462五件已刊，继续R463完整M driver及CP writer的真实union来源注册。原112 binding/新M deep分列、原old config不得冒parent，保新全4M+2/native/J/FD末门；只派生确有修改源，旧R442不改。后续owned launcher/几何注册由amplitude接力。仍唯一203终态。
 - amplitude：R458证明已刊后承接R464，配geometry的R463新M driver/CP接真正R462 union owned launcher/必要读回和几何材料来源。旧112原far config与真accepted parent分开；原新M deep/新增频率有限传播及全native/J/4M+2末门、真实A/B/全构造/各场几何仍付。先最薄来源层，不改207。独占204/205终态。
-- root：R458三源及207完整request21956/c798f376、workflow98422/37f426a2与所有diff已读；接口仅修R462误标签后21153/cf233c72。本次组件已刊，接着刊207完整入口触发，R460/exact唯一终态。逐结论推/每pull双README，不以源码完成代科学完成。
+- root：207入口本次触发后立刻以官方metadata绑定真实run/source；读刊R412/R463/R464并推进下一入口，原所有未付继续。逐结论推/每pull双README，不以源码完成代科学完成。
 
 最近官方topic tree 81ad15acbd2e9fbf412e2c737af90d6caccc3faa（b885a23c/R462）9185blobs/197173539B、9559entries未截断。后继按实际tree及新增字节控制200MB，不把投影叫官方现值，不存科学raw。
