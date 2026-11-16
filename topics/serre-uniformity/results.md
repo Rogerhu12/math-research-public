@@ -119,3 +119,6 @@
 
 
 - **R844（实际准确点表达式完成）**：[结果](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)run43780702248/job133017074300/source5ebcfafb，0.022079987秒/3stage/529nodes含原50逐字节点；原五g_j=(1+T^j)f及指定下降/七σ分量/原R_j(c1)准确DAG全部完成。五次真secant分母凭R843同点非挠与原Hom字，完整σ作用/常数保留。final57a2e3ec/program97a8fb3f/manifestb21b40d4/configfbbcb472；artifact14188376841/dd4c04a1至Nov17 00:30:22，251源carrier1.816MB/479f587a。完整13成员已纯IO；旧CM/非挠/Hom不重，A.1/展开/全局五极除子/刚性化/eta-height仍false。
+
+
+- **R845（原完整极理想实际完成）**：[结果](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)run43780953543/job133017821468/sourcea43b6afa，14.88603302秒/43stage；原a=w0、b_D=Σ295基，首n1实际1360×1380秩1111/minor633901576。原秩1111−degZ迫共同零恰D；原u/v给八V11乘法DAG与两图t³/t¹¹运输，I_Ey=I_ℬ I_D³。final1e71a62c/DAG9cf17e78/rankd2732252/manifest8bef49bf/configd6d7e284；artifact14188093176/34f85e3c至Nov17 00:33:43，1979源carrier86.85MB/c32273b6。12Range5.59MB读38件，23组690新RHS全1380回验已成；旧逆/前缀不重。原全局y的U.1已证，接原三minor五极理想；I_EyR正乘(y²−b)I_Ey³，eta-height未成。

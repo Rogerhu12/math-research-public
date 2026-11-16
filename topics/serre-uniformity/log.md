@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:40 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:44 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -108,3 +108,9 @@
 - 精确目标d(e,−qE_P,0)，准确Θ乘回后单标量Δ满足d(A0−qB0)=−Δ；严格有理重构在无限续算意义下终止，不声称dual高度小或快速。root已对读原branch_laurent/residual/correction的246³、κ²..κ¹²⁹和负号端点。
 - 来源契约c6ca7d3a保129全阶、原CM/eZ的1,s与已含82^10；新dual从1位开始，旧518 current不冒充，尚无active request或新算术。R844已推63cd41c7，非快进立即实际pull/rebase后成功。
 - 本push规则：本地真实pull至24d1f61d74536fdc438cf4dc82c4d820ffabafee（2026-11-16T00:40:00.741528+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:44（Asia/Taipei）— R845原D两生成元及Ey八生成元完成
+- run43780953543/sourcea43b6afa实14.88603302秒/43stage；首n1取a=w0、b_D=Σ295基，真1360×1380评价秩1111/minor633901576。原rank=1111−degZ迫Z0，原u/v给完整I_Ey=I_ℬ I_D³八V11 DAG，保两图和原尺度。
+- final1e71a62c/DAG9cf17e78/rankd2732252/manifest8bef49bf/configd6d7e284；artifact14188093176/34f85e3c，1979源carrier86.85MB/c32273b6。12Range5.59MB取38件纯IO，23组690 RHS全1380代回已成；旧逆/Fourier不重，无本地数学。
+- 原全局y的准确U.1已登记，接五加法极理想；实下降正乘(y²−b)I_Ey³，不把CM点值当函数。H先逐字归档再缩已成摘要；无逆dual方法已推ca46558d，A.1/eta-height仍未成。
+- 本push规则：本地真实pull至16594bea46d8fe1e72c8c7b8cbdb899f0774161b（2026-11-16T00:44:06.781111+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
