@@ -246,6 +246,10 @@ run43900273845/research133414653234/sourceffae5cb5f64004a4239f224e070aed320f7774
 
 [R545](results/R545-complete-fast-height-loops-and-the-signed-oscillator-energy-transfer.md)保原A/T、R77速度势/面积/三次项后作δ=ζε的正规快系统，完整一阶保λ，真紧bump端点IFT不重设history。零能量入口的二阶记忆非负、全振子返后二阶零；原p1正/中心t1负与非零第三均计入。非零真实初能量接口供新一次固定Gram的完整后继，未授M0或长时控制。全文纸面读取，无科学执行。whole34闭账已推dc66f663eaff7bffdb7213801832ffe3f4f99594，最新16:13:36实际pull双README空diff；当前仍58/3231.8129525510003秒147值。
 
-## 2026-11-16 16:17 UTC：R546两真实正则图的单矩准确目标
+## 2026-11-16 16:16 UTC：R546两真实正则图的单矩准确目标
 
 [R546](results/R546-real-quadratic-matrix-pulses-and-an-exact-same-gauge-zero-coordinate.md)从完整八坐标M2推出固定读出双号，先在R540原实际输入中支付Δ≠0，再以有限B²快钟和完整m管付真实脉冲极限/端时间IFT。单坐标可准确归零或达任意有限目标，同时保原k>2/净负p1；原T与ramp成本全保，t1仍不能由这两快方向补回。无新科学执行，继续同χ慢轨道。R545已推a02be00274c3a6ece70b247729379b878fc16ec3，16:14:56实际pull读ee167dd15da660a4d59d0e65e5caf687ea3e9ad8，双README空diff；全51新源接线中，接受仍58。
+
+## 2026-11-16 16:19 UTC：R544同一χ真实全词兼容两净矩号
+
+[R544](results/R544-one-fixed-gram-and-a-real-path-with-negative-p1-and-positive-t1.md)完整纸证非平衡真零history四端IFT/同反馈germ，以及原h″反馈的非奇异质量因子和法向正刚度/正阻尼。完整Abar/Tbar的长尾联合bootstrap、真实j分部及全γ²成本使同一次Gram下总p1<0、中心总t1>0；root读入全文并明确k/h的全强合法余量，无科学执行。其余矩/返回门继续；不拼33母。R546已推8dbd975a2040a9426e6858745c99c86c484d3221，三次实际pull均README空diff，最新16:16:57读990ae3dd4a6277dbeef3dd4852215740057a1c1c。新全51模型/包装接线中，仍58。

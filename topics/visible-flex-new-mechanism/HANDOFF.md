@@ -20,13 +20,9 @@ private于15:38:18.302128→15:38:36.939187实际pull读 **5a8a5834cadfca176866c
 
 ## 3. 实际点58与全部最近数值账
 
-[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。η粗.26600541430262403/细.26600541463999305，降.0000016540087044436547；κ细57.9997782607127@s.78/θ4.818744981678094。两网原14/准确172盒真；4454/4549池v15/14，无新行；帽高微负只原容差内。metric峰.4725/θ0；.26和主门未付。
+[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)：run43859882465/research133273598120/source0e6fafbf7bce37cd851dfc972b2de1ff3d0d5881。原14/准确172盒真；η粗.26600541430262403/细.26600541463999305，κ细57.9997782607127@s.78/θ4.818744981678094。4454/4549池v15/14，峰η在.4725/θ0；.26与连续主门未付。physical94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54；ind168e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf。55仅永久constructor，58 CACHE2只确存U/T/e/f及selected二jets；不冒全grid二jets/J。
 
-58 physical **94950b2bd5d7b5241e14333a4315b073f64840f74849a7909d6de8cb3cc29f54**；ind168 **e2d52f849596a5e7bbf596b66d7805587acc944c1549c5648ee4e115548ed2bf**。55只永久constructor。58本任务185.978494641秒/4值已闭；CACHE2只按原身份复用U/T/e/f及selected二jets/metric，不冒全grid二jets或58 J。
-
-旧ring17/反射R1/联合19/free36全部闭账，均0actual；原值/返回/成本保各notes。最新[free36](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)虽原SLSQP0/true环合格，全bodyη6.9794/κ69803.9失败；72.22285305100002秒闭至2974.589423877/147。只复用确存字段，不重旧frame/Π/optimizer。
-
-[prefix102闭账](notes/true58-prefix102-fixed-suffix-metric-failure-zero-solver-20261116.md)：run43891282963/research133382836465，固定s≥.765 η约.54517>预算.26600531463999305，原102二jets零，0solver/J/candidate/actual，非连续不可行。新72.51349122599999秒/1两网准备point/0原full值，闭至3047.102915103秒/147。原MODEL保完整scalar及后缀T/metric/二jets/曲率/PSD，未保全域派生数组/J；run/source/全部bytes/hash见原note。下一必须改变后缀真实自由量，不重该纤维。
+旧ring17/反射R1/联合19/[free36](notes/true58-free-R1-R2-ring-success-wholebody-failure-20261116.md)/[prefix102](notes/true58-prefix102-fixed-suffix-metric-failure-zero-solver-20261116.md)/whole34均闭账，0actual，完整原值/失败/费用在各notes。free36环成功但全bodyη6.9794/κ69803.9失败；prefix102的固定后缀η约.54517超预算.26600531463999305且102二jets零，0solver/J，不授连续不可行。prefixMODEL只保全scalar及后缀T/metric/二jets/曲率/PSD，不保全域派生/J。最新whole34原返回及总费用见§5，缺失输出不作免费输入。
 
 ## 4. 当前理论支线与不可混用的前提
 
@@ -47,6 +43,8 @@ private于15:38:18.302128→15:38:36.939187实际pull读 **5a8a5834cadfca176866c
 **R543**稳定叶W′>0，任意非恒高度往返仍总p1正；先固定有限T/TV的实际Oδ²跟踪保号。真离叶ρ′=−2(d−q)h′/h³，重新落叶负号门已付；同窗口负p1/正t1^c有限几何目标尚欠真实入口/驻留，不能作已成桥。
 
 **R545**完整δA/δ²T快系统在δ=ζε给真端点IFT；零入能二阶ρ非负，振子返仅清该阶，原p1正/t1负及第三面积成本全保。非零真实初能量负j接口只供从起点一次新Gram，实际慢段/长时统一history待付，不拼旧χ。
+
+**R544**同R521母从真零history一次选H0>√3H的新Gram；完整快四端IFT接同反馈germ，原h″吸引反馈准确付质量因子/阻尼/刚度。先高h1=Lh/√λ及尾常数、再λ、最后δ=λ²ζ；完整Abar/Tbar联合bootstrap和j分部付Cλ²/δ长尾，保强合法/全γ²成本，真实净p1<0与中心t1>0同时成立。高尾p2正，其余矩/末germ/pose/第三第四period/13未闭，继续同χ返回，不拼33母。
 
 R512/515/517的YC字面同形库和所有R469–509旧尾/period/13条件各保原范围，不跨母拼用。后继继续同χ剩余总矩/驻留返回。
 
