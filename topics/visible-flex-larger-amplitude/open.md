@@ -32,6 +32,8 @@
 
 **R485：固定必要语义的无损共享；无新科学结果。** [证明](results/R485-fixed-semantic-sharing-of-native128-necessary-metadata.md)11765B/936a5403、[接口](notes/2026-11-16-request215-shared-necessary-metadata-interface.md)17803B/05f4f38b及reader46653B/d2f2b000本次刊。保原204全部selected科学字段、统计、trial/地址/顺序、缺键/null、数字原词与负零；只共享实际canonical全字相同的固定header、明确同值且更短的描述符及实际完整读取的空工程文件，每个原地址和完整身份保留。原科学选择、16KB工程文字范围、90KB硬上限/超70、原quiet/清理逻辑不改；111829B旧正文未返未作fixture，容量与运行结果不保证。独立215保原94pins加此reader成95，原四科学/生命周期源全字复用，19200钟/32×10/2e-9/全部末门不变；仅来源、命名空间与真实reader/schema接线不同。原native204事件/close文件标为保留producer协议，不冒新215来源；请求/workflow下次独立推，R486/amplitude唯一终态。
 
+[R485/215完整接口](notes/2026-11-16-request215-shared-necessary-metadata-interface.md)及reader/证明已刊 `915f148bb4e5f50d2d1226bd50661c1d617bd4d5`。本次独立刊request84775B/2bceb3ea与workflow31916B/7bf02c8b，新路径触发本公开仓库Actions。原204的94pins、四科学/生命周期源、原91父输入、19200钟、32×10与全部原最终程序保；新增必要reader得95，只实际同值固定语义共享，完整selected字段/原地址/数字词、90KB/超70及quiet清理保持。实际run/source待官方绑定，R486由amplitude唯一终态；未预填摘要装下、数值逐词同、native/fullDN或README完成。
+
 ## 2. 准确十族候选与完整453→450
 
 原九p50/84trial/18FD、七态112三列/两mean、全G/H/span、R378全QR/clip/Cauchy及R392每α冻结p/F/W/Jd/slope/bound和原Armijo/S球均保；有限拒绝不证无解或秩亏。R390/395/401/410/421全部原次数/原词只属各自finite来源。R430/201的49接受/148α最后响应未返及末消费者未起，原553B/6997f1f3只初猜。
