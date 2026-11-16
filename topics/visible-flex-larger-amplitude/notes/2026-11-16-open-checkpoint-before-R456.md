@@ -2,7 +2,7 @@
 
 **未完成。** 持续至[课题README](README.md)全部标准，随后加强比例；时长、批次、阶段报告及子题完成均非终点。固定同一g、连通闭C²嵌入、全t强C²；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0、全t reach≥.03D、全域相对metric算子≤1e−6；D取完整闭F0。
 
-本次压缩前全文逐字存[203前检查点](notes/2026-11-16-open-checkpoint-before-request203.md)，内链R437/R443/R404/197/R418及全部原历史。各旧参数、source/run、失败/未返/未访/预算/清理保原结果与接口，不被下列索引撤销；§4–6逐字不动。真实run、唯一终态负责人及规则见[HANDOFF](HANDOFF.md)。
+本次压缩前全文逐字存[203前检查点](https://github.com/Rogerhu12/math-research-public/blob/2e85e46cf5771a4764d1ac15a25da806e3e1f36d/topics/visible-flex-larger-amplitude/notes/2026-11-16-open-checkpoint-before-request203.md)，内链R437/R443/R404/197/R418及全部原历史。各旧参数、source/run、失败/未返/未访/预算/清理保原结果与接口，不被下列索引撤销；§4–6逐字不动。真实run、唯一终态负责人及规则见[HANDOFF](HANDOFF.md)。
 
 只在公开Rogerhu12/math-research-public的Actions科学计算；本地限源码/纸证/原字面/JSON/字节元数据。每结论同时写results/HANDOFF/open/log并立即推；每真实pull核双README，有变仅读差异遵守，至少每小时。只保源码/参数/run/SHA/紧凑结论；不重存raw、不拆编码、不凭已删SHA造父、不增fixture/独审/科学前门。
 

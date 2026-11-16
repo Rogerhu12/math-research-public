@@ -2,7 +2,7 @@
 
 **未完成。** 持续至[课题README](README.md)全部标准，随后加强比例；时长、批次、阶段报告及子题完成均非终点。固定同一$g$、连通闭$C^2$嵌入、全$t$强$C^2$连续；固定有内点$H$且$\operatorname{diam}H\ge .2D$、整像$\delta_{\rm hold}\ge .2D$、含反射$\delta_E>0$、全$t$ reach$\ge .03D$、全域相对metric算子$\le10^{-6}$，$D$取完整闭$F_0$。固定目标/参数/时间区间后，实际mesh/频率/$t$加密的等距误差继续下降至机器或原solver容差，多个网格及严格存在缺口均须交付。
 
-压缩前全文逐字存[R456前检查点](notes/2026-11-16-open-checkpoint-before-R456.md)，包括全部203/197/R437/R443及更早检查点内链；所有原参数、失败/未返/未访、run/source、资源和清理记录继续有效。§4–6逐字不动；现状、唯一终态读者及规则同步见[HANDOFF](HANDOFF.md)。只在公开仓库自身Actions科学计算；本地限文本/纸证/原字面/JSON/字节元数据。每结论立即推，每真实pull核双README；不重存raw、不拆编码、不凭已删SHA造父、不增fixture/独审/科学前门。
+压缩前全文逐字存[R456前检查点](notes/2026-11-16-open-checkpoint-before-R456.md)，95份更早重复副本见[固定Git历史索引](notes/2026-11-16-historical-checkpoints-index.md)，包括全部203/197/R437/R443及更早检查点内链；所有原参数、失败/未返/未访、run/source、资源和清理记录继续有效。§4–6逐字不动；现状、唯一终态读者及规则同步见[HANDOFF](HANDOFF.md)。只在公开仓库自身Actions科学计算；本地限文本/纸证/原字面/JSON/字节元数据。每结论立即推，每真实pull核双README；不重存raw、不拆编码、不凭已删SHA造父、不增fixture/独审/科学前门。
 
 ## 1. 完整非零112场与原末门
 
