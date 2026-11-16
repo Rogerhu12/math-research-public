@@ -464,3 +464,7 @@ Phase亲核23项最终manifest/flow闭合：39唯一current、9AST、1378390原�
 ## 2026-11-16 08:26:38 UTC — 单路径derived integrated-source账普通清理
 
 先bed3fdd6发布ea97f78d完整恢复白名单，再以当前tree精确path/blob/size guard普通删除notes/2026-11-12-step5-integrated-parameter-source-budget.json（868cb8ab/209005）。仅此科学派生文件删除，其他源/原小结/真实参考定义/native不动。需要时从6a53642d050b9290c8434db1c249c011707d3306同path恢复原字核SHA1157bc1b，禁止重算成功producer。README对照7789431ad560ae4ca102976fd75f1362940904d3同已读；继续余30记录新consumer。
+
+## 2026-11-16 08:27:55 UTC — remaining-only完整30记录新consumer冻结
+
+driverb08ebd9c/44026/a6d581ba、mathc8707ebf/24015/00aaf402、worker901dc9f9/99150/fb7f09c2、outputcontractaeb0cc9c/40457/e58c4900及manifest2207c6c1/29784/4093b44c分别固定。root完整读58当前文本1480349B并逐hash；Phase完整driver+schema/validator，Tail无alpha-renaming运维主干机械核，Newton接口核。新的3图52/8/15槽=39prefix+6old+30new，events严格13/8/9；旧23binding不改，Phi0不造。原failedrun43827705714/1与lost0保，明确合同先于续算；无本地数学/新run。成功193256B/最大失败208616B、120KB pre/live保留，全部raw先stdout再formats。README核d72f6a165043ddc00e78b1062b79ab86c7b4ef4b同已读，实际CI pull仍08:00:07；接下来只触发新workflow一次。
