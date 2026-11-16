@@ -440,3 +440,5 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 - [R515 任意合法secant区间的真实p1二次强制正性](results/R515-uniform-positive-second-variation-of-the-real-p1-port-on-secant-intervals.md)：**已证明**原ω/p0首阶端点给完整Green双端条件及Q≥15∫b²/32，保所有IBP端项和实际二阶归一；单纯延长区间仍不能用小扰动获负p1。有限幅值非secant全词与其余门继续未付。
 
 - [真正58原盒ring17：数值不可行返回、无候选](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)：**实际观察完成**，不变列5.5026未排K，唯一5056行18变量LP报告Infeasible/nit0/raw18与dual无值；0预测/actual。32.28273412599998秒/0值闭、累计2863.061635735秒/147值；当前仍58，不授准确不可行，转低阶真实环态。
+
+- [R514 完整51环控制与条件17维曲率问题](results/R514-complete-fifty-one-ring-controls-and-conditional-seventeen-variable-curvature-fibers.md)：**已证明**原三jet层、实际G形算子及34低阶+17条件线性缩减；三层同原172盒，完整R1二次/normal、R0相位/Π和前102中段混合保。真实metric二次条件及幅界法向障碍已付；未授全body/连续reach或实际可行候选。

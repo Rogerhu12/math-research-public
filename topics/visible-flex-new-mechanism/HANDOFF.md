@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付固定g的|Kg|<2381/11<217<(1000/61)²，必要乘积界未排reach；新增P5四u/P8四v/零高度γ成完整168/172族，旧159真嵌入、接口保。
 
-[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)/[R511](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)付原末三样条全延拓的整圈有限中性族，S仅A→A+ℓξ；不变列下界√(B²+C²)、共同17区间/全部退化与原盒保。前102不改末环，原物理norm两组max，中段完整非线性交互不删；当前实际非轴峰不凭principal排序猜分支。ring17无候选闭账，见下。
+[R514](results/R514-complete-fifty-one-ring-controls-and-conditional-seventeen-variable-curvature-fibers.md)在R510/R511上给原51=34低阶非线性状态+17条件线性曲率纤维。保实际G后x2仅改S11，原172盒由同W同时约束三层；R1平方/交叉与normal变化、R0完整phase/c(v)/Π都保。metric两真实二次门和有实际幅界时的normal旋转障碍已付；前102不动末环、物理norm两组max，但中部全非线性交互保。ring17无候选不排全51/168，后继用同盒低阶态。
 
 ## 3. 当前理论接口与未付全词
 
