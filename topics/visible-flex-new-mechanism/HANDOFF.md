@@ -10,7 +10,7 @@ private于13:20:33.071808→13:20:49.550954实际pull读 **f30bd4b570719904bebe9
 
 联合19两个job的实际pull已读：public25c98ff4198cfc10552ddcd0dc9307110a6be8de（13:53:50）/2d24741f9fdd36088ff28184eab749159044f25e（13:54:32）；privated0f167e40e085e3d4508d658c8bf14b9241ebf11/0e2bfe83d4592292f66350dcf4a102f06ffe235f（13:54:37）。README空diff、QUEUE唯一进行中，私有正文不发表；完整时间及源身份见[新闭账](notes/true58-joint-alpha-R2-status8-no-candidate-20261116.md)。
 
-三公开来源13:01复核7e61b12677e830e9997f3fcb3c7270b74ede060c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本、元数据与已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。API读取不冒actual pull。
+三公开来源14:01–14:03复核ec067fabbc723f7c1a45c05212d4a0353381f55c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。科学/符号/ODE/优化只在本公开Actions；本地只纸证、源码文本、元数据与已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，原data54107494B保。API读取不冒actual pull。
 
 ## 2. 主门与当前固定几何
 
