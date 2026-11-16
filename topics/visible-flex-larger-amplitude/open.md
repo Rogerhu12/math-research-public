@@ -74,6 +74,8 @@ R427/R431只对真193或同源已接受mesh，以父全词/knots/准确midpoint�
 
 [R454](results/R454-complete39-necessary-scalar-tables-and-single-readback.md)与独立helper9840e9ae/worker59276c9e/recipe23535486已完整源码差异及原producer类型文本核后发布：原必要20条trial范围/全部失败地址/FD失败收缩/观察器错误/真实末参数均保，明确标量表只去重复字段名；四种共用须选定对象canonical字节完全相等，保整数/浮点及正负零，缺项null不代表零或通过。原105 pins逐项保、加旧worker与新helper为107，独立worker总108；真98原父/39数学/八组全部预算/所有门/单份90KB与超限70不变。原200正文已消失且未据SHA恢复；未假定新摘要必装得下，无本地科学/fixture，独立206实际R455尚未启动。
 
+[206完整入口](notes/2026-11-16-request206-original39-eight-pairs-and-single-table-summary-interface.md)已核实际200完整entry差异28571B/54ebd2c0及全文接口：request17310/056fc24b、workflow14363/9a3b52bc，新helper/worker/recipe为R454真实身份，原105 pins逐项保且总108源。只从真实98原809042943B artifact和两warm/status恢复，八组完整39模型+每组fresh FD/原预算门与175/195分钟/同3b8规则runner不变；单份必要表、90KB/70、原自有session静止和条件cleanup。新request路径push触发自己的公开Actions，实际R455/source/run待官方绑定、exact唯一终态；没有实际新batch/参数/接受结论，不补actual200失去的正文。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
