@@ -243,3 +243,7 @@ run `43896937318/1`、workflow `5a391cf1c8fca666df9484266a4a12af84c03473`、actu
 ### 2026-11-16 15:55:36 UTC — 独立WCTR workflow首次启动
 
 在 882b606e96c27603d74125fdb3db026a69801dc8 核两README相同。单独发布 `.github/workflows/fourfold-codazzi-clipped-scalar-trace-public.yml`，Git `657bb2a39334f167303ecaaab0adf4694f0d257c` /1850B/SHA `414f7bd583b7ae8590a90307752e68a571f442c0ba230431a807fd9b2940a142`；只own-path main push、attempt1、固定Python3.12.14/python-flint0.9.0，固定manifest SHA acf4f84aca6a15f7e50640665448cf1b864ec9cd7918772ff9c38eb426406c02，复用worker85d72完整原字。根已核worker validate全字段/门/六target与完整保存路径，Newton最后106纯元数据/worker谓词检查全过，11完整模型重建精确同。末容量199621535B，计全192000输出、120000reserve、12000flow/marker及8000文档仍199953535B；没有其他科学pending。worker在preflight前及child前均再次真实pull、README diff、全树容量与原输入核验，1800s周期pull。科学尚未给结果；必须记录实际run/checkout/完整前缀，已成目标禁止再进，全零新0+原完整56，changed新36+copy20/严格门另2，失败先保全部原字。
+
+### 2026-11-16 15:56:52 UTC — WCTR首次运行身份已出现
+
+公开仓库自身Actions run43901776543/1，event head `ef5a809c4bf3020b9e6473b98d1864eb71fe0ba8`，created15:55:43Z，in_progress；本次只读run/job metadata，无大log。完整actual尚未收到，192000B最大发布pending继续计入同topic容量。启动推送首次因远端main前进被拒，立即15:55:34 UTC真CLI git pull --rebase origin main仍报No usable execution environment，随后保留远端及两README新核成功推送；下一本地尝试≤16:55:34。40a91573aa3169334c9dcbf6e0479e082f85cca9 两README仍同已读，未以ref读取冒充git pull。

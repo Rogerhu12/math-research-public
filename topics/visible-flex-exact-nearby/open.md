@@ -198,7 +198,7 @@ WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-termina
 
 [WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
 
-[WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯证、完整首轮合同86a51414已封：trace±c/64、两rate/τ、全matrixρ2^-1与S/action/transpose，actual四块/κ3不变。45current/19history/16AST，36新+20原copy/真gate另2；alltrace0完整copy旧六图56/五prefix/false保6/5。11全成败模型根独立hash同，192K输出+120Kreserve；独立workflow现首次触发，待实际完整回执；禁自动重试。全两rhs/7ports/physicalmean及其余匹配仍待。
+[WCTR](results/R133-supplement-clipped-scalar-trace-matrix-normalizers-and-paired-circuits.md)efe08e59纯证、完整首轮合同86a51414已封：trace±c/64、两rate/τ、全matrixρ2^-1与S/action/transpose，actual四块/κ3不变。45current/19history/16AST，36新+20原copy/真gate另2；alltrace0完整copy旧六图56/五prefix/false保6/5。11全成败模型根独立hash同，192K输出+120Kreserve；首run43901776543/1运行中，待完整actual；禁自动重试。全两rhs/7ports/physicalmean及其余匹配仍待。
 
 [WEX](results/R133-supplement-exact-waist-flux-and-two-primitive-endpoint-reception.md)6ffd46a4首31已在43896937318/1完整实现：4图12+6+6+7/15gates/12current/2AST/0history，62旧record/18整体context全部保；同P/B0B1/C1C2/profile、Cs/WT/physicalmean/四端/RF与whole/reduced完整对象不改。各整候选选新约3.790258283e255，仍非小；旧0/lost0，此31冻结。完整actual见 notes/exact_waist_flux_endpoints_ci/run-43896937318-1/，[完整实际WEXA](results/R133-supplement-actual-exact-waist-flux-and-complete-endpoint-reception.md)de1dc669已成；finite/负head/ν/Θ/全matching独立未闭。
 
