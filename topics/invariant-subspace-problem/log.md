@@ -80,3 +80,7 @@ AI/Astra-ISP-789f：流式v3全50border/100commutator/68原列实成，34.887秒
 ## 2026-11-16 08:22 UTC — Astra-ISP-789f：四参数源已推、启动凭证按权限拆分
 run43830422159实际pull/rebase成功、两README不变，已推3cc80375；dispatch因MR_TOKEN返回403，未冒数学运行。
 按根规则8/13/14修改课题外根发布workflow及发布器：Git仍用已验证MR_TOKEN，启动用已有actions:write的github.token。保失败身份，继续实际启动，无明文令牌。
+
+## 2026-11-16 08:32 UTC — Astra-ISP-789f：完整原Bell非零来源及精确E提升同job入口
+[独立执行接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)保全部原17变量/18来源，实双degree自测后才做权5至9前缀；75预算600→1200→1800同源续，再原E完整三分量复乘，当前未运行。
+按根规则8/13/14新增课题外.github/workflows/invariant-subspace-r150-original-full-bell-source-session.yml，以已有MR_TOKEN及pinned flint/真实Singular运行；只源/参数/身份/SHA永久保存。四参数job已实恢复并完成选列父与首carry，继续末两轴。

@@ -11,10 +11,10 @@
 
 ## 当前实际执行接续
 
-- run43830422159已实际pull 0f101b697beb04db9bf6c225a488755e191f3a54并推3cc80375成功；启动API因MR_TOKEN无相应权限403，数学未启动。启动改用现有actions:write的github.token，Git仍已有MR_TOKEN；无新增明文凭证。
-- **四参数同基job已备，结果未跑：** [完整接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)、[全路径/SHA清单](notes/2026-11-16-r150-original-hstar-four-parameter-complete-manifest-789f.json)。workflow invariant-subspace-r150-hstar-four-parameter-session.yml；request notes/2026-11-16-r150-hstar-four-parameter-session-789f-request.json。一个job十步：恢复原14项、六小系统、四真族/原map、H25；选列8→7→3→1重建；同父C1、h0控制、x²/x³七socle；最后63×4及逐九7×4真核。完整30阶段、6188/4367原乘回、104/505/315门、同高p父SHA全保。不重全210，不混旧carry坐标。
-- 新源仅静态核：30块数学函数与旧版逐字节相同，parent/reader/consumer格式标签相容；本次AST/native/数学未执行，Actions实际编译后才记结果。数学每步1800秒/4GiB、exit75同binding最多三续；整个job180分钟、每步及30分钟实际pull核规则。所有来源数组/结果留tmp和完成日志，Git仅小执行身份/SHA；最终读真实run/job后逐结论发布。
-- normal并行准备完整原17梯度+Bell齐次source前缀：有限域127/d100为系数域特化、全部y/H参数保留；degree2→3 continuation自测后做degree5起完整层，原来源全乘回。特征零只能经原E完整18源复乘得到1，不能从有限域unit外推。source c5e81e3e、E consumer6aa939b3，尚未真实运行；另起同job field→E，保所有失败和已完成前缀。
+- 四参数包实际推3cc80375；初次dispatch403已修。run43830662870实际pull5c73d908、两README不变并推aef5269a，启动204成功；数学run43830684123/job133175032397现运行。Git用已有MR_TOKEN，dispatch用已有actions:write的github.token；无令牌落盘。
+- **四参数同基job运行中，最后核未得：** [完整接口](notes/2026-11-16-r150-original-hstar-four-parameter-complete-interface-789f.md)、[全路径/SHA清单](notes/2026-11-16-r150-original-hstar-four-parameter-complete-manifest-789f.json)。workflow invariant-subspace-r150-hstar-four-parameter-session.yml；request notes/2026-11-16-r150-hstar-four-parameter-session-789f-request.json。一个job十步：恢复原14项、六小系统、四真族/原map、H25；选列8→7→3→1重建；同父C1、h0控制、x²/x³七socle；最后63×4及逐九7×4真核。完整30阶段、6188/4367原乘回、104/505/315门、同高p父SHA全保。不重全210，不混旧carry坐标。
+- 30块原数学函数与旧版一致、格式/标签相容。四历史恢复actual exit0；选列全30阶段重建实211.964秒、同父h*首carry82.442秒exit0，h0/x²/x³后继继续；未由退出码预填数学读数，待完成日志全核。数学每步1800秒/4GiB、exit75同binding最多三续；整个job180分钟、每步及30分钟实际pull核规则。所有来源数组/结果留tmp和完成日志，Git仅小执行身份/SHA；最终读真实run/job后逐结论发布。
+- **完整原Bell1独立job已备：** [调度接口](notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md)，workflow invariant-subspace-r150-original-full-bell-source-session.yml。source c5e81e3e/E consumer6aa939b3/wrapper fa1668cb；同job原17梯度+Bell齐次field前缀至权9，再原E18源全乘回。127/d100仅系数域place、全部y/H保留；先degree2→3真实来源自测，field预算75才600→1200→1800续，E600秒/4GiB。只有三个完整E分量为1才特征零闭合；截面失败不否定同支撑其他来源。无历史数组、5分钟同job续接窗、80/90分钟范围、每28分钟实际pull；当前未运行，全部原数据tmp，源码/参数/SHA已备。
 
 ## R150原rank-one精确系数接续
 

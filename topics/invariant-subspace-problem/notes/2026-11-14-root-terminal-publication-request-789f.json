@@ -1,20 +1,29 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "3cc80375db12306d3f37a12cd6fe413775442c57",
-  "createdUtc": "2026-11-16T08:22:00Z",
-  "message": "ISP: dispatch exact four-parameter session with existing Actions permission",
+  "parentCommit": "e75d249c0731b896f80a3979cf1318a77334429c",
+  "createdUtc": "2026-11-16T08:32:00Z",
+  "message": "ISP: execute full original Bell source prefixes and exact E lift",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    ".github/workflows/invariant-subspace-789f-root-terminal-publication.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-exact-support-lift-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-exact-support-lift-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-exact-support-lift-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-source-session-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-source-session-789f-request.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-source-session-interface-789f.md",
+    ".github/workflows/invariant-subspace-r150-original-full-bell-source-session.yml",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/log.md",
+    "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-interface-789f.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": [
-    "invariant-subspace-r150-hstar-four-parameter-session.yml"
+    "invariant-subspace-r150-original-full-bell-source-session.yml"
   ]
 }
