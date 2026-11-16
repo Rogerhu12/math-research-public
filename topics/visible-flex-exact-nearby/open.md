@@ -179,3 +179,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 每结论独推；非FF立即真CLI pull --rebase，保远端循环成功，禁force。每小时实际pull尝试后核两README，只读diff即照新规记H；最新真实pull/失败尝试及下一时限以HANDOFF执行段为准，ref核不冒真pull。根规8仅UTF8<100KB connector，runner真pull/README diff/容量/唯一child以各完整receipt为准。
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
+
+[WEJ局部mean/γ桥](notes/2026-11-16-R133-WEJ-local-mean-gamma-bridge-inputs.json)14158b39：只[rc,r+]∩同germ，FA2切点mean下界+原whole c普通V_r给新Lipschitz正门，η=−γm给完整γ/γ_r；ep≥|η|、eta_log_r是原norm upper。12槽含4原copy/8新数均待，未向对称盘或原row790外推。

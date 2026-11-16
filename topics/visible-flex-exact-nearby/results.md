@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WEJ局部mean/γ输入桥已闭解析资格（数值门待）**：[完整合同](notes/2026-11-16-R133-WEJ-local-mean-gamma-bridge-inputs.json)，SHA14158b39。只在[rc,r+]同原germ，以FA2原切点|m|下界减长度×完整普通V_r，正门后由η=−γm给γ/γ_r；完整FA2参数/24门/RR scope及whole c资格保。4原记录+8新槽未求值，不把row790移根，不授对称盘或省mean。
+
 - [WSPA：实际 Schur/Parseval 正侧界与精确系数余项](results/R133-supplement-actual-Schur-Parseval-positive-and-exact-coefficient-split-bounds.md)：唯一43816689251/1的16门/4完整图给 same Rplus整选3.0660269163…e28、独立D∞新界2.3328477893…e9及完整ell2/组合dual；全部finite/mean另保，不替whole Calg。31字段、49位置及完整旧55533B逐字保，三发布前/日志哈希独复原；无高门或全逆。
 
 - [WEJ：完整均值、真实跳跃和四个腰端项的正预算](results/R133-supplement-complete-waist-endpoint-and-true-jump-constant-recipes.md)：同一角逆的两负窗、旧 fullfold 全域 J0、特殊 DJ 恒等及正下界、完整均值反馈/N6、3070 真 jump、原 PW 接收和 FA 六 mean/两 terminal 重建接完整四端；SW 腰因子恰一次。新数值仍待完整后继 Actions，未授高门或全逆。

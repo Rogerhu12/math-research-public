@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 07:05:20 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 07:09:31 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 06:15:48定时及06:35/06:50非FF真CLI尝试均无executor（未执行Git），下一本地尝试≤07:15:48。最新CI真pull为43820816332/1于11-16 07:01:48.999504→9cac01b9975554e98ccea36240d10e5ee41c537f，两次pull均两README空diff；execf8ffc01b全件已核。下一真pull≤08:01:48；ref读取不冒真pull。
-最近只读README核：48b1be25b8deaae932b1f92b570eaba3ecb66b7e；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：7e75c17db5721ddb1b8a70e2983d4f14d9d2bec3；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -48,5 +48,5 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 ## 恢复与执行顺序
 
 全部已执行cleanup逐项path/blob/SHA/size/restore/source/scope/失败完整保[本次逐字检查点](notes/2026-11-16-completed-Schur-Parseval-and-endpoint-checkpoint.md)（38135c98同H/open）及递归原白名单；包括leaf0060/R43scale/phase24 failed458499B/非线性414823B/dense-s3 716317B，均已先推白名单并freshguard普通删，禁止再删或重算。最新dense白名单74153f2f先推d6c5a678后38135c98仅删b08d0784；restore becfaf83400b2f62e25f74b3b2d3365ea6015898原path，sampled通过/未过、原exit137/原成功失败均保。所有canonical/native/源与active pins未变；完整恢复身份以各原白名单为准。
-WGS唯一43820816332/1已24门/8完整图/437新槽成功锁；SCI8af3af0a/72251、完整原copy3c5588f1/31632、execf8ffc01b/18234、report3874edec/5778，source d32fe912/math cb9c9aa0/worker5c477f3f/manifest240b445e。20current+2history/19math/7AST；66+40旧球、9scope、whole c实际72全保，旧math0、一child0.775850532s，math0.397394081s。root40项完整格式/身份/原hash核全过，四独立preGit及104163B child stdout原字hash均独复原；原whole formatter失败资格保。75位/320bit；潜势/Bext、N6/mean/J负窗/jump/四端及高门均仍待，不授PDE/finite逆。所有旧/新已成量只读禁重；继续后半代码与真预算。
+WGS唯一43820816332/1已24门/8完整图/437新槽成功锁；SCI8af3af0a/72251、完整原copy3c5588f1/31632、execf8ffc01b/18234、report3874edec/5778，source d32fe912/math cb9c9aa0/worker5c477f3f/manifest240b445e。20current+2history/19math/7AST；66+40旧球、9scope、whole c实际72全保，旧math0、一child0.775850532s，math0.397394081s。root40项完整格式/身份/原hash核全过，四独立preGit及104163B child stdout原字hash均独复原；原whole formatter失败资格保。75位/320bit；潜势/Bext、N6/mean/J负窗/jump/四端及高门均仍待，不授PDE/finite逆。所有旧/新已成量只读禁重；继续后半代码与真预算。 新mean/γ桥14158b39只[rc,r+]同germ，FA2切点m下界与旧V_r/ep/eta_log_r；4原copy+8新槽待唯一实际正门，不授对称盘。
 继续open余项→完整物理square/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。

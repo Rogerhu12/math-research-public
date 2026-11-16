@@ -384,3 +384,7 @@ WSPA4b5104c2全42209B正文与六JSON附录已核独推：4新图49位置、21�
 ### 2026-11-16 07:05:20 UTC — WGS43820816332/1实际完整成功与不重复锁
 
 公开Actions唯一43820816332/1、job133143214212全部12steps成功；event d048427a，actual checkout9cac01b9，24/24门、36主/22copy字段、25progress、8完整图437新槽。SCI32ff92c5/72251B/SHA8af3af0a2dc08a6611189178099c63b0e2ac5ae8e9d767c0e211861c6d63de1e；copies d6d13860/31632B/3c5588f1；exec0ece9d7c/18234B/f8ffc01b；report d905ba3a/5778B/3874edec。数学0.3973940809999945s，一child0.7758505319999998s。20current+2原history/19mathroles/7AST，66当前/40stage/9scope/whole局部c实际72原球，0旧调用/0旧exp与flow/0artifact/Release，原whole wrapper/formatter失败原样保留。根40项实际格式/全形状/原记录hash/双件同run+source+manifest绑定核全过；四preGit原字hash各独复原：主SCI8af3af0a、copy3c5588f1、report5699B/c0608bda、exec15046B/d1f64d3b；child全stdout104163B/dd1d9a30亦精确复原，无大log下载。两次真pull07:01:42.246706及07:01:48.999504同9cac01b9，两README空diff；下一真pull≤08:01:48。四件实际增加127895B，容量199317559→199445454。所有已成科学量锁为只读；当前继续同genuine潜势/mean、完整N6/truejump/PW与四端，不宣称高门或physical/finite/background/总验收。
+
+### 2026-11-16 07:09:31 UTC — 同真实局部区间的mean/γ完整输入桥
+
+已推notes/2026-11-16-R133-WEJ-local-mean-gamma-bridge-inputs.json，blob40d7a4f7/14247B/SHA14158b39b976fecbc25006db56e38eeda031c86660f17732f245d1a1d325560b。原FA2 2001f4e2/35718完整成功52字段/24门、参数/RR q/ng/mean所有资格逐字保；原normrow790仅rc本点。根亲核原anchored_coefficients：ep为|eta|上界、eratio为eta1/em上界，ordinary V[1][0]覆盖同germ，故新m下界=mc−(r+−rc)V_r仅[rc,r+]；若严格正，再合法给γ及γ_r两项。4原copy+8新槽计划完整，无球求值/无旧调用/无history恢复，不改WGS已成功包。全局physical mean与对称盘等义务不减。7e75c17db5721ddb1b8a70e2983d4f14d9d2bec3两README未变。
