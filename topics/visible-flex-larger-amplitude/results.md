@@ -83,3 +83,5 @@
 - [R588：完整来源与RootStats具名可逆关系](results/R588-complete-named-source-and-root-statistics-relations.md)：薄源19120B，固定source/八catalogue/四统计族完整行列及逆映射；所有unknown/full last/类型/原70保，实际入口R589/246另付。
 
 - [R563：actual236真实dyadic来源与双完整必要未返](results/R563-actual236-dyadic-owner-and-two-incomplete-necessary-readbacks.md)：417来源/prepare实际完成；225803与177614原正文超90K，全部内层科学未知，quiet true/removed false，无父。
+
+- [R571：actual239真实reader来源集合差与完整初始化读回](results/R571-actual239-source-reader-binding-stop-and-complete-metadata-boundary.md)：8894B immutable scope完整；十一层/科学未起、deadline null，所有级联缺失与cleanup未调用，无父。
