@@ -28,6 +28,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[接口](notes/2026-11-16-physical128-local-radial-mode-cache-interface.md)五件58602B完整刊：原4b0569 physical_jets同次调用的dp与角n无关，只复用原式已形成finite Q词，非有限仍原式；全部角/累加/Csolve/338×112/576audit/负零与四scalar导出保。新adapter先真形成R493源再include1/cut3/audit1接新callee，两个展开view只Actions生成；原R501 owner/pipeline仍旧固定tuple，未来真实整链须登记新组件/收据，不能冒当前run已用。未测速度、不改原门/预算，也不把C-based诊断当准确隐式导数。
 
+[R467实际208](results/R467-actual208-contracted-trace-resource-partial-and-complete-readback.md)25544/c870已返：run43804793905/source9b05、compute133092971995 failure/report133209057444 success，两终志各唯一，53307/d5b5单必要完整且同字。零H5774.44365s收敛/residual0、无J/audit；首1/64H12195.31508s在finite-trace-direction-resource-budget停于stage366/cell5/segment8，0当前R273系统/方向、0trial、完整FD/fullDN/末audit未入。45434 root/45433 localJ/28278收缩/6334272方向仅原累计局部范围，非全576当前J或端到端速度。内层resource=true与原18000钟/外层budget_exhausted=false/无external_signal分列；实际单90K已完整、marker/owner与父静止后removed=true，原raw已删，无可续非零父。不追加同源重跑/缩门，211原新源单独等实际结果。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[368e6a6f时open](https://github.com/Rogerhu12/math-research-public/blob/368e6a6fb1ecde31525d0f4042a77e490b665236/topics/visible-flex-larger-amplitude/open.md)，其f863b71c及全部更早链接继续保原词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全G/H/span、QR/clip/Cauchy及每alpha冻结原Armijo/S球保；有限拒绝不证无解/秩亏，旧201末响应缺失不能由202补。
