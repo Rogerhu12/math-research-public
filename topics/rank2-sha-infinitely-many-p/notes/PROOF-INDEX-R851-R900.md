@@ -397,3 +397,5 @@
 - [R887 §16](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：固定m四输入的sigma/Bloch精确分解和递推齐；原平移连接的p曲率准确为−m cp Z(B)，原每根局部Smith一项一次。真实hB除子[−B]+(p−1)O−p[−C]、首项及对数常数全定，T_m,p以原sigma低卷积/截断指数精确读取；仍保p级极帽和D_B法向缺陷，不冒固定RR或α非零。
 
 - [R897 附B](../results/R897-original-endpoint-complete-wild-tame-system-and-specialization.md)：原Δ来源的full-ray pull/单侧trace准确落在Pq res c1旧线上，corestriction多出h；γ集Pq单位且17惯性保restriction整阶，若原c1≠0，除h所需p分母随辅助层无界。只排该原操作路径，未排新单侧类或推出s0。
+
+- [R899](../results/R899-original-P-single-prime-dixon-and-complete-certification.md)：同原P的单split素数Dixon严格算法及实现齐；固定三嵌入pivot/free、Hensel根、底素数全部单位门和同Newton，高精度仅一方阵、一次Fp逆逐位整除。全QA−yB复乘覆盖未选行，再经三根Vandermonde/有理恢复/原完整char0证书；固定chart或精度不足不排map。新参数p1000000033/N128/k6已请求公开执行，无新PASS或实测速度结论。

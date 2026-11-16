@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：2adbc478efd27d750a234dc00792fe652ab2f834；2026-11-16 15:13:07 UTC核两README无变。实际CI pull 2026-11-16 14:51:23 UTC/716ea758ac096a7e03ac5d3c75a6e3caa4ea04e5（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 15:06:42 UTC仍无环境。最迟2026-11-16 15:35 UTC再实际pull。
+- 最近已读规则提交：c41606c8a8661494fab2b7e33a7b3495621cdefe；2026-11-16 15:19:15 UTC核两README无变。实际CI pull 2026-11-16 14:51:23 UTC/716ea758ac096a7e03ac5d3c75a6e3caa4ea04e5（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 15:06:42 UTC仍无环境。最迟2026-11-16 15:35 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,8 +11,8 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-before-padic-reconstruction.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–898已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
-root唯一metadata/ref写者；deep先付R899同P固定素数Dixon重建（WT原缺口保档），theta续四原低多项式，literature续原端点s门。完整结论即推，子题完接open。
+[本次压缩前完整H](notes/2026-11-16-frontier-before-padic-reconstruction.md)保前面全部精确公式、条件、来源与未闭门；沿其旧档继续。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–893及R895–899已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀（缺口保档），theta续四原低多项式，literature续原端点s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
 
@@ -23,6 +23,8 @@ root唯一metadata/ref写者；deep先付R899同P固定素数Dixon重建（WT原
 - F run43839815472/job133205402538，k2/4；完整8ΔC³=HB²(A²−17ΔB²)²/末端612(k+6)，不假Manin1。
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同P/F germ精度倍增已证；run43883945027，P job133356889710、F job133356889202运行。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)原完整M2改固定PARI有理基已证基不变性；同mfinit整矩阵/QQ/全前缀/seed与版本齐，旧全部rank/CRT/最终认证保。run43888054599已运行；P job133371441947、F job133371442286，无PASS。
+
+- [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)同P固定split素数Dixon已证并请求：p1000000033/N128/k6、三根同chart、每支一次逆/全窗及原char0证书齐；run待取，无PASS。
 
 R881 r29局部19/12位及τ仅formal；R882原18源/36cusps/绝对端点/D204保，下列五RR未获PASS：
 - 306 run43850251992/job133240631228；eta48 run43850252040/job133240628667；共同来源见完整H。

@@ -1,0 +1,14 @@
+{
+  "request_id": "rank2-20261116-r899-original-P-single-prime-dixon",
+  "weights": [
+    6
+  ],
+  "split_prime": 1000000033,
+  "digits": 128,
+  "progress_every_digits": 16,
+  "original_request": "ci/original-rational-hecke-map-request.json",
+  "source_provider": "same fixed PARI full rational M2(867) basis and exact selected product recipes as R892",
+  "normalization": "all three roots of a^3=17, sorted modulo p once and uniquely Hensel lifted without relabeling; common pivot columns and first free, all other free coordinates zero",
+  "scope": "One optional reconstruction route for the unchanged original P map. Digits are a finite budget, not a coefficient-height bound. Only unchanged full char-zero certification accepts; failed chart or insufficient precision never excludes the map.",
+  "output_policy": "Public Actions console only. Persist source, exact parameters, run and hashes; no coefficient/matrix/certificate files, artifacts or releases."
+}

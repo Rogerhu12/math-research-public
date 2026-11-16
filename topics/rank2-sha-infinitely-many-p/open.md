@@ -55,7 +55,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 - 旧 F run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa 继续，k2/4。原8ΔC³=HB²(A²−17ΔB²)²和末端612(k+6)不变，不假 Manin1。
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同原 Newton germ 全残差/唯一性已证。run43883945027，P job133356889710、F job133356889202，尚无PASS。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)同一 PARI 完整有理 M2 基/QQ/全前缀/seed及全认证已付。run43888054599，P job133371441947、F job133371442286，尚无PASS。
-- 继续针对同矩阵重建的实际成本；固定 split prime 的 Dixon 候选算法正在准备。只有原首项/三嵌入/完整特征零椭圆恒等式通过才认原 map；预算或 chart 未成功不能排映射。
+- 继续针对同矩阵重建的实际成本；R899的固定split素数Dixon算法/实现已完整证明并请求公开执行（p1000000033、N128、k6）；run待取。只有原首项/三嵌入/完整特征零椭圆恒等式通过才认原 map；预算或 chart 未成功不能排映射。
 
 R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。
 
@@ -123,7 +123,7 @@ R840须用同Kcorr/Hcorr支付两个高前缀，再用同F²L1付第三3η/第�
 当前未闭范围是原R836的2κ<T≤3κ，不能拿quartic的另一范围冒已付。
 即使第四短段延到T−h，也不能从V0,V1,V2∈V_T推V_T对E稳定；
 第三长行仍缺同E³G的ell_eff..T尾。V1=0分支中EG=FA、A∈H2，只有A|C=0才回已排块。
-deep暂先完成同P的固定素数重建实现，随后继续这个实际镜核。
+R899固定素数重建实现已付，deep继续这个实际镜核。
 
 ## 持续执行
 

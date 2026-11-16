@@ -1,0 +1,67 @@
+name: Rank2 original P single-prime Dixon reconstruction
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-P-dixon.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_padic_dixon_map.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-r899-original-rational-hecke-map-dixon.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-P-dixon-request.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-P-single-prime-dixon
+  cancel-in-progress: false
+jobs:
+  original-P-dixon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    name: Original P exact fixed-prime Dixon reconstruction
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/rank2-sha-infinitely-many-p/README.md
+            /topics/rank2-sha-infinitely-many-p/scripts/check-r873-original-cm-petersson-degree.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_low_weight_cm_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_newton_cm_germs.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_pari_m2_basis.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_padic_dixon_map.py
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-r899-original-rational-hecke-map-dixon.py
+            /topics/rank2-sha-infinitely-many-p/ci/original-rational-hecke-map-request.json
+            /topics/rank2-sha-infinitely-many-p/ci/original-P-dixon-request.json
+          persist-credentials: false
+      - name: Lift the same original matrix and retain the full exact certificate
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_IMAGE='sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb'
+          RANK2_CONTAINER="rank2-P-dixon-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          cleanup_rank2_dixon() {
+            docker rm -f "$RANK2_CONTAINER" >/dev/null 2>&1 || true
+          }
+          trap cleanup_rank2_dixon EXIT
+          trap 'exit 130' INT
+          trap 'exit 143' TERM
+          docker pull "$RANK2_IMAGE"
+          RANK2_ROOT_README_SHA="$(git rev-parse HEAD:README.md)"
+          RANK2_TOPIC_README_SHA="$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)"
+          timeout --kill-after=30s 21000 docker run --rm --name "$RANK2_CONTAINER" --network none \
+            -e GITHUB_ACTIONS=true \
+            -e GITHUB_REPOSITORY="$GITHUB_REPOSITORY" \
+            -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
+            -e RANK2_RUN_ID="$GITHUB_RUN_ID" \
+            -e RANK2_RUN_ATTEMPT="$GITHUB_RUN_ATTEMPT" \
+            -e RANK2_ROOT_README_SHA="$RANK2_ROOT_README_SHA" \
+            -e RANK2_TOPIC_README_SHA="$RANK2_TOPIC_README_SHA" \
+            -e RANK2_IMAGE="$RANK2_IMAGE" \
+            -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=4 \
+            -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
+            --entrypoint /usr/bin/sage "$RANK2_IMAGE" -python \
+            topics/rank2-sha-infinitely-many-p/scripts/produce-r899-original-rational-hecke-map-dixon.py

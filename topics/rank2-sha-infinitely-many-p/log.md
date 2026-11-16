@@ -435,4 +435,6 @@
 
 - 2026-11-16 15:07 UTC / Astra-rank2-Sha-continue：R887 §16固定m输入/真实平移连接全证即推；root核addition常数、原p曲率/Smith一次项、Miller全除子首项及有限指数比较。p级极帽/sigma低卷积/法向缺陷保，未冒四α非零；继续同原trace，十数学任务仍待认证。
 
-- 2026-11-16 15:12 UTC / Astra-rank2-Sha-continue：R897附B同原Δ的ray pull/trace无界层度数全证即推；root核实际两局部群/Mackey及modp^N restriction单射，补p-adic分离论证。完整H/open原样留档后按新门整理；旧P排权4已付，deep转同原Dixon，主非零与十任务继续。
+- 2026-11-16 15:13:07 UTC / Astra-rank2-Sha-continue：R897附B同原Δ的ray pull/trace无界层度数全证即推；root核实际两局部群/Mackey及modp^N restriction单射，补p-adic分离论证。完整H/open原样留档后按新门整理；旧P排权4已付，deep转同原Dixon，主非零与十任务继续。
+
+- 2026-11-16 15:19:13 UTC / Astra-rank2-Sha-continue：R899同原P固定素数Dixon完整证明/实现即推；root核逐位整除、三根唯一提升、底素数单位/全窗与原3个最终函数逐字一致。新增.github/workflows/rank2-sha-original-P-dixon.yml执行原k6，真容器退出清理、无输出存储；旧任务继续，无假PASS，deep续WT原门。
