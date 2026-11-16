@@ -14,9 +14,7 @@
 
 ### O2 当前实际末态与唯一新接口
 
-[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)：run43767357527/source6f886c385bdc12c8963d451369c9250fa19a45a0，旧140Python/146总绑定、新4通过/旧14复用全部已核。前6普通α1接受两网14门；η.26623355613853394，κC/F57.99651016191997/57.99982504159888，.26/主1e−6/reach欠。当前physical e0ab278d…/bank438 hash1a1d5585…、池4432/4525版本1/2、B.00025双0；γ17.022353404161095/18.064283125328743，8events全commit。
-
-原m7只授一次primary，LP10/12后gap2.4768679406952238e−5未合、无返回/无trial，非驻点。后续四见证单次接口的真实结局见[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：两个评估身份恢复同原，但冷粗值205.448292651秒耗尽原时间，模型/J/LP11/新接受全0；原LP仍10而累计active241.314203844/values15。16人工只复用，原438/学习8/两池/原门不变。该epoch已关闭。[新直接reference设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)已接全部入口：438+4/freshcontext/祖先γ，独立1800科学秒/64LP/160值含输入与冷费；[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)已核9仅复用/order修复/迁移通过，旧gate身份在首次ordinary前拒绝；累计science28.690336299，按原构造新gate后继续。全部14门与metric/reach要求不变。
+[guard首完整实际](notes/curvature-defect-guard-first-completed-actual-20261115.md)保run43767357527的6普通α1接受、两网14门及m7未合gap；[冷恢复结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)保run43773136836唯一粗value205.448292651s耗尽旧120门、LP10/value15/active241.314203844。该epoch关闭，不能重开旧LP11或加时重付冷恢复。[新direct设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[迁移合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)继承438+4/祖先学习，独立1800科学秒/64LP/160值含全部输入冷费；[第二次gate入口失败](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)及下方首完整实际记录全部累计费用。原14门、固定g与metric/reach要求不变；最新63LP/58value末态及末槽恢复见本文件末段。
 
 ### 仍须支付
 
@@ -184,7 +182,7 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 
 共同D/E且D−E>0使Q4仅−2头，ordered3+2局部0，两个负权字符杀完整A/H/Q4。R415双锚与R416完整原尾给−6静态a=μ=0。R417给−4自然S³(A+k²B)、a(k)=a1 k²S³/8；[R420](results/R420-complete-zero-natural-flux-of-W4-and-static-minus4-character-elimination.md)消费唯一run43784526298/job133029071528，完整W4左word表为空，ΛW4普遍0。因此共同−4正字符a1=a(k)=μ=0；一般静态自然仍为3S³F_Q4/32，不是整个F0为零。只新增一Ω、旧研究0重跑，36源/全部原N0/真锚保留，科学1.370958935s、RSS94920KiB。
 
-[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)现付全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640，原τ3完整outer/新势、水平导数及有序两tail均保；一般profile可非0，但共同偶M5零母的全affine self和任意不交辅助3+2全0。结合R419 hh全k0→PSD cross0及R416静态0，**此共同增强商的非零−6正字符已排**。R418原单锚只作为完整全k证明的锚值复用。现在只剩−4完整2×2速度PSD。[R422](results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md)已将完整hh自然压为S²(ΛV0+k²ΛW)，V0=[h^-6k0]Qhh、W=[h^-6k6]Qhh。两个未知natural须独立支付，不能拿静态W4零替代；准备直接读原v2/N0/N2槽与paidpure坐标，只新增必要的两完整Ω，原CA/N2在natural层消掉不授权在raw层删后沿旧pure。kk仍继续完整原式；完整actual joint、内部flux/全period及13同一k仍欠，不把signed零式当无基准真实路径。
+[R421](results/R421-all-curvature-kk-minus6-natural-identity-and-common-character-cancellation.md)现付全k的kk负六：Λ=(1+k²)²(5∫p r⁴−3∫x r⁵)/640，原τ3完整outer/新势、水平导数及有序两tail均保；一般profile可非0，但共同偶M5零母的全affine self和任意不交辅助3+2全0。结合R419 hh全k0→PSD cross0及R416静态0，**此共同增强商的非零−6正字符已排**。R418原单锚只作为完整全k证明的锚值复用。现在只剩−4完整2×2速度PSD。[R422](results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md)已将完整hh自然压为S²(ΛV0+k²ΛW)，V0=[h^-6k0]Qhh、W=[h^-6k6]Qhh。两个未知natural须独立支付，不能拿静态W4零替代；[两Ω请求](notes/hh-minus4-natural-flux-design-20261116.md)已发：38源，直接读原v2/N0/N2槽与paidpure坐标，只新增必要的完整self装配和两Ω，原CA/N2在natural层消掉不授权在raw层删后沿旧pure。kk仍继续完整原式；完整actual joint、内部flux/全period及13同一k仍欠，不把signed零式当无基准真实路径。
 
 
 ### R414共同高自然商实际已付；低自然与合法窗口仍须同点落实

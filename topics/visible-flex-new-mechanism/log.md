@@ -531,3 +531,9 @@ root全文读六新源/合同/公开流程、请求各非manifest字段及7新so
 原stdout136943B/SHA0216ddbbdd392d1e23240378b8aa6d61c4e154076db42895e2806004fab416eb完整读；REQUEST168/COMPLETE158当前源逐项相同，DEV11全过但fixture整数10未覆盖原float10.0。_ledger_guard在source资格输入误拒，24input/constructor/value/J/model/LP全0。首失败人类note4971B/SHA6f0a2c7e06bd7dcd7ee366f3bae17e2ee322c0ad861ef06fe6bd31f5c8032904即推；后续只修单LP finite numeric==10，原cfg/hash保持，旧11/9只读复用。新增science2.884255101全部继承，下一从260.479586314总钟继续，原63/58及64/160/1800不清零。
 
 公开actualpull01:32:46.498215→46.895014，before=after60ff5c1171c3c94ac84f7fcb88427c530daf69e8，双README根21bd547f/题d0432faf原blob/hash/diff均同。私有01:32:49.393916→50.697657，c3994ae5…→a53fa5f4ce67d539be10e5eea3985f1fce6e697f，根5ba16484同/题无/QUEUE唯一进行中。root01:36:30读完，下次最迟02:32:46，H已更新。原输出不挂Git树，继续原未付入口及负四两新Ω/kk，不收尾。
+
+## 2026-11-16 01:43:32 UTC：两个hh负四完整自然泛函首次请求
+
+root已全文静态核29380B新源码、10075B设计、9954B请求与3887B薄workflow。只新增[h^-6k0]和[h^-6k6]两目标的完整self装配及Ω：原v2的γ²/−∂hα（含log导数）、−Bm0N2/−Bm2N0全保，outer非紧二次左尾不删；Γ/reference缺席仅由原m2标量h支撑证明。R210两个原pure行及R139九响应只读，38源绑定；旧forcing/pure/rank/profiles/developer执行0。新势self收缩明确计费，不冒完整mixed已付。
+
+source SHA774250847785de793468d67de2ee7e8ae08a1b93fd51a981cef3674f73da5112，design SHA59623d43fb0c1a21c0aa6437beadc67a577f1880566ad7059a2fbd205cf3fc55，request SHA13b5e3ea43bbedc78f9611cbbd521e6124e0311e9f0e8d60e9ea17b9b32f53b1，workflow SHA3c590a1594aed130fe4feeddfd2104bd7c654b9c0eac8e569bee1badb8d154b8。120s/512MiB等原资源门；原stdout完整公式只留公开Actions。未预定两函数零或负四字符已排；等待唯一actual，继续kk及数值末槽。不以本次请求或中间结果收尾。
