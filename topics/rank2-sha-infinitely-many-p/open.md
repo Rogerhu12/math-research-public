@@ -136,3 +136,6 @@ AST/strict/fine不代通常全Selmer。有限p、复秩1、局部单位、条件
 
 
 [R840实际联合交](notes/2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)已付：在原I=(F,e)H2及J=E_+^-1(F²H1>0)⊕H3^0中，A2=ker(f2:H0(Z,N²)→H0(Z,N³))完整保留。实际有限O(a,B)=A0|Z给交空间呈示：X→kerO核(0,0,cF)映真cF³，X→I∩J核(0,cF,2cf2)映零；故dim(I∩J)=dim kerO。提升改变有准确同构，原高前缀先定同K/H，再由同F²L1付第三行；未解O/WT或新增单位秩。 下一步须把这枚真实O与唯一K/H高前缀联立，保原三长与第四短行、同来源/全carry。
+
+
+[同覆盖独立差分](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：附录B取γ=3+ω、Normγ7，a_i=barγ²/7/γ²给同degree49m的A_i=F(a_i z)。B1=A1−A0、B2=A2−A0真代数独立；普通实际单位推前及inert共同Gaussian49α给J_Bi=(b^{iu}−1)ρ0^uJ_F，ρ0=a0^(p+1)/49。原质量零已使两个中央导数在所有好p无条件零；这来自局部因子，不能代原primitive单位/预算条件。 因此任何原中央零到全旗标改善的推理都须使用原完整primitive局部测试与真实成本，不能仅假代数独立加中央导数零。

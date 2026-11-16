@@ -639,3 +639,5 @@
 - 2026-11-16 03:50:37 UTC / Astra-rank2-Sha-continue：同角色附录A全证即推；原非多项式付真独立、两CM赋值付最小cover，保全部裸高系数分母并显式给实际R_h整行。差分中央导数零是新增局部因子，非原primitive新条件；续原四B/联合交和KS真cycle比较。
 
 - 2026-11-16 03:53:19 UTC / Astra-rank2-Sha-continue：R840完整I∩J成稿即推；全ann(f2)、O与lift变换逐项核定，两个一维核分清。明付三真长经η²=0转为C上前两值和第三尾，不从交维数冒单位秩。H归档，续同K/H高前缀和指定forcing，主目标未完成。
+
+- 2026-11-16 03:54:10 UTC / Astra-rank2-Sha-continue：同角色附录B成稿即推，真实Norm49三拉回的两个差分代数独立而中央导数自动零；root核共同Gaussian/有限Newton二项展开、ordinary单位推前及可选[2]同步。此为局部因子范围检验，继续原primitive四B及canonical比较，不冒主目标。

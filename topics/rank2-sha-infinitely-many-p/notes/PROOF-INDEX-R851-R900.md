@@ -24,3 +24,5 @@
 - [同角色附录A](2026-11-16-original-same-character-schwartz-and-central-germ.md)：同note附录A：r+1个F(κ^kz)真线性独立，单整CM共同cover最小Normβ=ℓ^r、degree=mℓ^r；中央差分乘数含p^r，但全非中央jet无此增益。原整行R_h=p^(h−1)(hs−1)![z^{h(p+1)}]F逐式付清，除p^r后只读(hqκ)^rR_h，qκ未预赋单位。零质量已使r≥1差分的中央导数无条件零，是局部因子零，不增原primitive中央。
 
 - [R840联合交](2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)：在原I=(F,e)H2及J=E_+^-1(F²H1>0)⊕H3^0中，A2=ker(f2:H0(Z,N²)→H0(Z,N³))完整保留。实际有限O(a,B)=A0|Z给交空间呈示：X→kerO核(0,0,cF)映真cF³，X→I∩J核(0,cF,2cf2)映零；故dim(I∩J)=dim kerO。提升改变有准确同构，原高前缀先定同K/H，再由同F²L1付第三行；未解O/WT或新增单位秩。
+
+- [同角色附录B](2026-11-16-original-same-character-schwartz-and-central-germ.md)：附录B取γ=3+ω、Normγ7，a_i=barγ²/7/γ²给同degree49m的A_i=F(a_i z)。B1=A1−A0、B2=A2−A0真代数独立；普通实际单位推前及inert共同Gaussian49α给J_Bi=(b^{iu}−1)ρ0^uJ_F，ρ0=a0^(p+1)/49。原质量零已使两个中央导数在所有好p无条件零；这来自局部因子，不能代原primitive单位/预算条件。

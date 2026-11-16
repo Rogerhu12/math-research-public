@@ -439,3 +439,107 @@ $J'_{(\tau_\kappa-1)^rF,p}(0)=0$，并不需要先假设 $J'_{F,p}(0)=0$。
 这是实际新增局部因子的零；其乘数在中央为零，不能反向套用原 primitive 局部单位条件。
 若研究其全旗标，必须同时保留 (A1) 的 $r+1$ 真列、(A2)–(A3) 的覆盖、
 (A6) 的原分母以及全部非中央行，不能只计 (A5)。
+
+
+## 附录 B. 同一固定覆盖上的两个代数独立差分来源
+
+本节给出两个实际来源，说明附录 A 的新增局部零不能反向当作原 primitive 中央条件。固定
+$$
+\gamma=3+\omega,\qquad \operatorname N\gamma=7,\qquad
+\kappa=\gamma/\bar\gamma,\qquad a_0=\bar\gamma^2,
+$$
+并取正文的原 $F=S_{34}$（以下同样适用于所用非零正 degree、零单位质量来源）。定义
+$$
+A_i(z)=F(a_0\kappa^i z)\quad(0\le i\le2),\qquad
+B_1=A_1-A_0,\quad B_2=A_2-A_0 .
+\tag{B1}
+$$
+这里三个**整** CM 观察分别为
+$$
+a_0=\bar\gamma^2,\quad a_1=7,\quad a_2=\gamma^2,
+\qquad \operatorname Na_i=49.
+\tag{B2}
+$$
+它们不是三个不同 Gaussian charge，也没有把 $a_i^{p+1}$ 误写成 $1+pq_i$。
+
+### B.1 共同来源及代数独立性
+
+三个 $A_i$ 是 degree $49m$ 的实际 isogeny 拉回，$m=34$。与正文 §7 相同，若所选 theta 平凡化仍带不同二挠 flat 因子，先施一个共同 $[2]$ 覆盖；该步骤只把共同 degree 乘 $4$，不改变以下函数身份或独立性。此后三个来源具有同一个正 degree theta automorphy，$A_i/A_0$ 是同一覆盖椭圆曲线上的代数有理函数。
+
+由 (A1) 应用于 $A_0$ 与同一个 $\kappa$，$A_0,A_1,A_2$ 线性独立。因此 $B_1,B_2$ 非零且不成比例，故
+$$
+t=B_2/B_1
+$$
+是一个非恒定的代数椭圆函数。
+
+任意非零的正 degree theta 截面 $B$ 都超越于该椭圆函数域：否则选指数斜率非零的一个周期，其平移在有限多个代数共轭间置换，某个正整数倍的该平移将固定 $B$；但实际正 degree 准周期给非恒定指数乘子，矛盾。因椭圆函数域对 $\overline{\mathbf Q}(t)$ 是有限扩张，若 $B_1,B_2$ 有非零多项式关系，把 $B_2=tB_1$ 代入便使 $B_1$ 对这个椭圆函数域代数，仍然矛盾。因此
+$$
+\boxed{\ B_1,\ B_2\text{ 在 }\overline{\mathbf Q}\text{ 上代数独立。}\ }
+\tag{B3}
+$$
+这是同一个 sigma–椭圆函数域的两个独立坐标；没有增加该域的超越次数。它也没有把这两个 degree $49m$ 来源认作旧原 degree $34/72$ 格。
+若在独立性证明中使用共同 $[2]$ 覆盖，所有函数身份同步拉回；
+拉回后没有多项式关系便保证原 $B_i$ 也没有。下两节仍使用(B1)的原坐标与原 $a_i$；
+若实际改用二倍覆盖的来源，其参数须同时改为 $2a_i$ 与 $196\alpha$。
+
+### B.2 普通处：实际质量和缩放
+
+取好普通 $p\ne7$，避开固定系数分母，并使用原共同周期。全部 $a_i,\kappa$ 都是所选 $\mathbf Z_p$ 中的单位，故完整单位域保持，而且
+$$
+\nu_{A_i}=[a_i]_*\nu_F,\qquad
+J_{A_i,p}(u)=\langle a_0\rangle^{d_pu}
+             \langle\kappa\rangle^{i d_pu}J_{F,p}(u).
+\tag{B4}
+$$
+这里没有额外的质量倍数；$J_{A_i,p}(0)=J_{F,p}(0)=0$ 是同一个实际单位测度推前的结论。于是
+$$
+J_{B_i,p}(u)=
+\langle a_0\rangle^{d_pu}
+\bigl(\langle\kappa\rangle^{i d_pu}-1\bigr)J_{F,p}(u),
+\qquad i=1,2.
+\tag{B5}
+$$
+完整 scale-log 在求导时均在式内；它们因为原单位质量为零而给
+$J'_{B_i,p}(0)=0$，无需先有 $J'_{F,p}(0)=0$。
+
+### B.3 惰性处：先固定 degree $49m$ 的共同 Gaussian
+
+取好惰性 $p\ne7$，置 $d=p+1$、$\alpha=mc$。由 (B2)，
+$$
+a_i^d\equiv49\pmod p,\qquad
+\rho_0=a_0^d/49\in1+p\mathcal O,\qquad
+b=\kappa^d\in1+p\mathcal O.
+\tag{B6}
+$$
+$A_0$ 的正确共同 Gaussian 参数为
+$$
+\alpha_0=49\alpha,
+$$
+而不是 $\alpha$。若原中央余项为 $G_0(X)=\Pi_0(F e^{-\alpha X})$，则
+$$
+\Pi_0(A_0e^{-\alpha_0X})
+=e^{\alpha(a_0^d-49)X}G_0(a_0^dX).
+\tag{B7}
+$$
+新增指数系数整。按正文 §5 的有限下降阶乘计算，以 $\alpha_0$ 定义左侧 Newton germ，在每个非负整数权准确得到 $\rho_0^N J_{F,p}(N)$；原解析收敛与稠密性随后给
+$$
+J_{A_0,p}(u)=\rho_0^uJ_{F,p}(u).
+\tag{B8}
+$$
+再以 $A_0$ 为基础、对 $\kappa^i$ 使用正文的**范数一**运输，全部来源都保留 $\alpha_0$，得到
+$$
+\boxed{
+J_{A_i,p}(u)=b^{iu}\rho_0^uJ_{F,p}(u),\qquad
+J_{B_i,p}(u)=(b^{iu}-1)\rho_0^uJ_{F,p}(u).
+}
+\tag{B9}
+$$
+$F(0)=0$ 给 $J_{F,p}(0)=0$。故
+$$
+\boxed{\ J'_{B_1,p}(0)=J'_{B_2,p}(0)=0\ }
+\tag{B10}
+$$
+在这两类所有上述好素数上都成立，完全不使用原中央失败假设。
+
+(B3) 与 (B10) 同时是实际结论。这里的零来自显式局部因子
+$b^{iu}-1$（普通处为 (B5) 的对应因子），其中央值为零；不能把它当作原 primitive 局部单位。尤其不能从两个来源的代数独立和这些零，删去共同 degree、Gaussian、完整非中央前缀或原有序饱和格成本。高裸系数的分母仍按附录 A 保留，未引入任何固定的 $p^{-r}$ 全球整列。

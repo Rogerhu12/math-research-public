@@ -407,3 +407,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R840 完整联合交](notes/2026-11-16-r840-full-primitive-and-ramification-ideal-intersection.md)：在原I=(F,e)H2及J=E_+^-1(F²H1>0)⊕H3^0中，A2=ker(f2:H0(Z,N²)→H0(Z,N³))完整保留。实际有限O(a,B)=A0|Z给交空间呈示：X→kerO核(0,0,cF)映真cF³，X→I∩J核(0,cF,2cf2)映零；故dim(I∩J)=dim kerO。提升改变有准确同构，原高前缀先定同K/H，再由同F²L1付第三行；未解O/WT或新增单位秩。
+
+
+[同覆盖两个独立差分](notes/2026-11-16-original-same-character-schwartz-and-central-germ.md)：附录B取γ=3+ω、Normγ7，a_i=barγ²/7/γ²给同degree49m的A_i=F(a_i z)。B1=A1−A0、B2=A2−A0真代数独立；普通实际单位推前及inert共同Gaussian49α给J_Bi=(b^{iu}−1)ρ0^uJ_F，ρ0=a0^(p+1)/49。原质量零已使两个中央导数在所有好p无条件零；这来自局部因子，不能代原primitive单位/预算条件。
