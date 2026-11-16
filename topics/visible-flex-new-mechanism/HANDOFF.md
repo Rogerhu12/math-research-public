@@ -26,7 +26,9 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 **完整真实路径。** R469/472保A/T、双芽、全部第四V及一般w；R476的18维Z只在所述真接口盲。R480扩F≤924生成付全W外三矩，重复A0原型K无漂移，但单份内部K、A≠0桥/全V仍欠。R482原13状态/2共用输入给完整K=F+Chh″+Ckk″，真实Mraw/水平ODE及第三初端常数全保；常scalar另有完整平方门。R484两相位minor非零则保护芽锁定有理延拓，离开须全相位rank降（候选h判别≤12次），实际minor/退化支未判。R486全principal平方及完整两H差=−10∫g″⁴排13状态开域F恒0，不排真实低维路径；54/108生成不是秩，M_c²0不删算子复合。R488真L≡0强分支为k0/ω常/h=Hsec；所有真实入值的二三阶场对v仿射，完整K=(a+bv+cv²)/h。中心全profile清理付b0；单patchGram两even可付，但旧芽锁χ后须同period/13核三条兼容行。t1′=−(1+v²)/8<0排该分支自身M0返回/常collar接合；[R492](results/R492-the-original-thirteen-row-gauge-locks-secant-odd-ruling-and-real-prefix-compatibility.md)对当前even母完整period核（母/平台/gap）证sec奇行β=原P−4/P−3/P−2/HB0四行组合，因此同13核β0，odd残值已锁；实际含中心段须真source商+两中心真实前缀条件0（≤4相位系数），未证残值非零。两个even与真实桥共同像继续。
 
-[R494](results/R494-complete-secant-pairing-and-real-two-center-source-incompatibility.md)付任意紧外槽完整sec pairing=−v∫c(u′−yu″)u‴/(4h)；β对所有紧输入不依H、对ω仿射。同ω两真实中心odd差准确只读β((A2−A1)D)，共同w/完整source/third incoming全消。P前缀保有序尾，∂ωβ(PD)=Σd²∫r⁴/4，π/2严格为∫g″⁴>0；R70真桥给A2−A1=tP，避最多一个ω盲值时t≠0阻该双中心共同零ruling，不排同中心前缀/单段。五门真零、同一全成本/全s规范、高阶收敛及主几何仍欠。
+[R494](results/R494-complete-secant-pairing-and-real-two-center-source-incompatibility.md)完整sec pairing=−v∫c(u′−yu″)u‴/(4h)，所有原尾保。任意紧输入β不依H、对ω仿射；同ω双真中心odd差=β((A2−A1)D)，同w/source/第三incoming消。P真前缀保有序尾后，∂ωβ(PD)=Σd²∫r⁴/4，π/2严格正。R70原桥A2−A1=tP给除至多一ω外的双中心不相容，非全路径障碍。
+
+[R495](results/R495-complete-concave-cap-graph-and-one-sided-first-atom-collapse.md)以R=p−(t+1)r给固定r∈[0,1]凹图，准确保C≥0、U/H、Af/simple根、全部8Aj/E及原子跳变。严格7A5A7−3A6²=a7²[3VarX+19E(s²)/3+28E(W/r)/3]>0。首段消失先并Ceff，再全C²/C/1三行有限差输运全部五门；新高项受Ceff单侧约束，不当任意控制。尚未由该正余量分离五门零，继续全局问题。
 
 ## 4. 当前真正接受点55与闭合任务
 

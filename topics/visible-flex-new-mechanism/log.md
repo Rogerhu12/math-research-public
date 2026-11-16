@@ -567,3 +567,8 @@ R493第一次非force更新收到GitHub UNKNOWN且main确已并发推进，立�
 ### 2026-11-16 09:36:43 UTC — 新9首输入径向广播失败，已付粗网保留并同600账续
 
 [原失败及续接](notes/true55-new-nine-first-input-broadcast-failure-and-paid-coarse-continuation-20261116.md)：run43840452377/research133207481935/source09f498…，coarse ordinary已付后a shape(160,)→(160,384)包装失败；0导数/0有限求解/0实际，新接受0。原partialMODEL26079459B/9eb1bb5a…保全部付过coarse，final75.06856296999999秒/1necessary，祖先总2148.63097409秒/135值。最小[:,None]修复并只读原input继续同600账、原2necessary总上限；不重算粗网。report133208451697只读原日志成功，非科学成功。双job真实pull核README空diff，最新公开076cad7a…/私有a38683a5…、QUEUE唯一进行中，下一pull≤10:33:21；主门未付继续。
+
+
+### 2026-11-16 09:38:22 UTC — R495 正cap凹图完整表示与首段消失的单侧有限差
+
+[R495](results/R495-complete-concave-cap-graph-and-one-sided-first-atom-collapse.md)已证明R=p−(t+1)r将真cap写成固定[0,1]凹图，原U、C≥0、H、Af正性/simple根、全部8Aj和E/原子跳变均准确保。原最高三累计量严格满足7A5A7−3A6²=a7²[3VarX+19E(s²)/3+28E(W/r)/3]>0，完整正Af/C余项保留。三原子首段消失与两原子先用同Ceff/同H比较，再得C²/C/1三行准确有限差，最高系数全正且新高项受Ceff单侧界；只在C=o(b1)可取单b1⁷首项。全部5门同步，不只E；没有宣无零/存在或重跑旧36。继续原正性与五门消元、真实路径和主几何；0科学执行。
