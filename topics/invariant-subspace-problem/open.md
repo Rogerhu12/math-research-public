@@ -1,5 +1,9 @@
 # 未解决的问题
 
+**[原E权七/八维数夹逼与完整梯度商非零类已闭](results/R150-appendix-original-characteristic-zero-low-weight-rank-sandwich-and-source-bounds.md)。** 完整E200权上界与同原模127非零子式夹得$\dim_E\Gamma_7=312,\dim_E\Gamma_8=1312$，商维7442/16362。原四规范$q_jb^2$在完整$S/J_{17}$中线性独立，$b\delta_{14}$及六个$y_i b\delta_{14}$分别非成员；不宣六类联合独立。原十八源过滤在E及任意扩域保持，排非零规范q组合来源权≤10和δ≤9；保中间G5。不是有限域系数提升，不限J17候选来源次数，但仍不排加Bell后的更高权来源或更高b幂。
+
+新问题仍为δb²权10、qb³权11；已完成的权七/八无需再消元。
+
 **[单远孔代表、只乘核列的双塔误差及整高度倒数门已闭](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。** 每个$r$先在整个强头真Galerkin核投影，完整$((C^*)^r)^\dagger$给纯$r$远孔代表；canonical $W/V$运输后核项是真物理最小投影，误差只乘范数≤1核列。所有$r\le1+\lfloor\sqrt{x+1}/(8(m+1))\rfloor$同原$Q/w$，全高度Bessel与统一吸收给非零锚必要$\sum_{m,r}\kappa_{m,r}^{-2}<\infty$。只累计高度数乘$\eta_m^2$，不累计双塔误差；完整强头费用上界及帽逆后的误差仍开，未证$N=M$。
 
 **[原E二十低源实际坐标与完整乘回已闭](results/R150-appendix-actual-exact-low20-coordinates-from-two-four-dimensional-units.md)。** 两原4×4单位在20.893秒求出完整$\Lambda\in E^{20\times50}$，64个双向逆产品、1000E/3000Q/1000place及400选列恒等全真；原20/M/B子式64/96/69。原核单射及canonical低次校正把该精确坐标运输到全部参数/原11和17来源，普通76列/至多670完整呈示保40高列。根独立重生字典、重建binding及4064raw/2484最后phase全SHA同；不冒新55维或参数展开，Bell判空仍开。
