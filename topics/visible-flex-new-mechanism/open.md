@@ -52,6 +52,12 @@ R74近等距必要式只有其小误差前提满足时才可用。所有随u/v�
 
 新19.9540876秒/0值闭，相关累计2902.366570826秒/147值，0overrun；完整新系数、初Jac/残差、固定尺度、末评价及后端原字段保stdout。两job实际pull及README空diff已记H/note。余额580.0459124关闭，不延长原会话。下一在同一原172盒/固定R0态释放R1完整17方向，结合R2的17列；已付完整new_grids字段按原身份读，尚缺L17/全二次交互另付新科学，不把Hxstar,xstar冒全张量。确需R0则完整新值/frame/Π/实际G另建模。全body/原14/准确盒及连续主门仍须真实支付。
 
+### 自由R1/R2与曲率minimax的新公开范围
+
+[完整设计](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)及[生成列合同](notes/true58-free-R1-R2-125-generator-model-contract-20261116.md)现提交：原固定R0平面34个物理尺度控制，另加K/h，min K+1e−6h，准确K∈[1000/61,58]。从原58零增量/K58/h0开始，已付frame/Z17/PiZ17/V17/a/a_s按身份读；每网新142列Pi支付L17/H125，uu45/uv44/vv36不是rank声明。原盒/实际G/完整谱三门/准确共同合成一次舍入均保，K下端只向区间内包binary64。
+
+一次新SLSQP180秒/200iter/600完整解析评价，总600秒含5源输入/新系数/失败/大输出，至多1全body预测及1原actualpair；原cfg曲率/η下降1e−7/原14门和准确盒不换。raw36/decoded36/全部后端字段及真实partial保存；线性norm按原容差，准确epigraph真假另报，不伪修h。request75313B/SHA498633426b4bc0928e9397379235ad390dade8b54be2febe87457a74e6cecc6f、337源绑定，root和独立纸审通过；未做本地编译/测试/科学，尚无实际run返回。当前58及2902.366570826秒/147值暂不变；本范围结束后继续主open。
+
 ## O4：完整真实第四成本与新首阶机制
 
 ### R513已封闭当前允许正cap的五门共同零

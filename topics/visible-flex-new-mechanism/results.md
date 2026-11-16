@@ -74,3 +74,6 @@
 
 
 - [R530 双边完整反馈与四个真实偶端矩](results/R530-two-sided-complete-ruling-feedback-and-four-real-even-endpoint-moments.md)：**已证明**同R521两半完整K方程共同解加速度，真历史正反时和交换ODE付中心全jets；四奇中心参数小L准确清奇端入值，原八矩缩为同轨道四偶根。左端一次合法w/χ准确恢复；四偶根、端germs、pose及完整第四尚未付，小L严格非M0。
+
+
+- [真正58自由R1/R2与曲率minimax新任务](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)：**已提交，待实际观察**。34物理R0零面控制与K/h共同优化，原盒/实际G谱三门；每网新142列Pi付完整L17/H125，已付字段不重算。337源，一次600总秒/180solver秒/600完整评价，合格候选才完整预测和原actualpair；未授59或主门。

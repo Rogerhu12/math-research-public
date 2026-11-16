@@ -53,7 +53,7 @@ R512/515/517的YC消去字面同形库另有常态排除、secant p1正性及周
 
 ## 5. 已在继续的真实下一问题
 
-**O2**回到R514原51控制：先在固定R0态中释放17个R1自由方向，与17个R2同172盒；不重启已闭α/xstar的19变量实例或只换初点/solver。完整已付MODEL字段先按原source文本核；尚缺的L17、完整R1二次交互及其新系数必须新scope收费，不能用单Hxstar,xstar补造。需要R0则连同实际值/Π/G的新模型支付。所有真正候选仍须全body预测、原14门/准确盒；有限环不授连续reach/主门。R525的完整实际G谱三门、原盒trace/minimax继续可用，R519 mean≈.11228并未消失。
+**O2**[自由R1/R2新范围](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)提交待原观察：337源，34物理R0零面坐标+K/h，min K+1e−6h，原58零增量/K58/h0起；原172盒/完整G谱三门保。读5个已闭stdout，a/a_s及frame/Z17/PiZ17/V17按原字段；新L17/H125由每网142列Pi另付。一次SLSQP180秒/200iter/600完整评价，总600秒；至多1全body预测/原actualpair。准确K下界内包binary64，raw36/decoded36/partial原样存；norm容差不冒准确epigraph。未授59/主门，不重旧19、LS、LP/frame/旧Π/J。需要R0则另付完整新几何。
 
 **O4**在同一个可变母/固定规范中继续三q全零的真实历史反馈，或真实有限幅M0配平；另一R521库继续非恒偶germs/全m,T控制。R530双边全K已付，继续同一实际反馈的有限L四偶根；不得借任意几何配平。全部端germ、M/T/V、pose、period与同一13规范须同一实际路径支付。
 

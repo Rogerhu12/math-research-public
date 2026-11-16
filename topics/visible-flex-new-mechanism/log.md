@@ -155,3 +155,8 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 ## 2026-11-16 14:12 UTC：R530双边全ruling与四个真实偶端矩
 
 [R530](results/R530-two-sided-complete-ruling-feedback-and-four-real-even-endpoint-moments.md)付同母两半完整加速度反馈、真A/T反时号、中心全jets和四奇端IFT；真实左重锚一次规范保紧性。四偶根、小L负t1、端germs/pose/第四仍明列未付。root及独立纸审通过，并区分ambient位移和左frame相对pose；0新科学执行。private14:08:50→14:09:12实际pull读e7f3575ad7152555fab208113400647bd0aad04f，根README未变、QUEUE唯一进行中；当前58与2902.366570826秒147值不变。
+
+
+## 2026-11-16 14:17 UTC：真正58自由R1/R2新范围提交
+
+[新设计](notes/true58-free-R1-R2-original-box-curvature-minimax-design-20261116.md)request75313B/498633426b4bc0928e9397379235ad390dade8b54be2febe87457a74e6cecc6f绑定337源：自由34物理控制+K/h，原58零起；两网各新142列Pi、一次SLSQP180秒/200iter/600完整评价，总600秒。准确K下界内包、原盒/完整G谱/一次舍入、原wholebody/actual14及所有raw/partial保存经root与独立纸审；原326源hash未变。尚未读取运行结果，58/2902.366570826秒147值不变，无本地科学或开发检查。
