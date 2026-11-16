@@ -1,0 +1,56 @@
+{
+  "format": "r150-weight8-original-high-source-exchange127-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-weight8-old-high-source-exchange127-789f.py",
+    "gitBlob": "b274ce3eeb5698ae3abb84322c72a1941fea48b1",
+    "bytes": 13777,
+    "sha256": "b3e358f5da42777eedbaaea0a7715c754e22f7cc705d3c9f3e5714570355a803"
+  },
+  "parameters": {
+    "inputManifest": "notes/2026-11-16-r150-weight8-old-high-source-exchange127-inputs-789f.json",
+    "through": "inspect",
+    "seconds": 30,
+    "memoryMiB": 768,
+    "outerTimeoutSeconds": 60,
+    "sameOutputDirectory": "original-weight8-high-exchange127",
+    "sameBinding": "6d4cae67816b6de0e3fd41bc1033cf15b5b70d000d8aef5cee122df473bf7da8"
+  },
+  "execution": {
+    "dateUTC": "2026-11-16",
+    "shell": "bash",
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "exitCode": 0,
+    "status": "completed-prefix",
+    "elapsedSeconds": 0.30454507999820635,
+    "peakRssKiB": 20564,
+    "newLargeEliminationPerformed": false
+  },
+  "rawOutput": {
+    "bytes": 1643,
+    "sha256": "89ffea5cf5d6801eb0f8a88178475f7857e0ed4acc4d3ae0ec00d04a2975f020"
+  },
+  "manifest": {
+    "bytes": 1582,
+    "path": "original-high-exchange-manifest.json",
+    "sha256": "870cda8c6677e7e9634bca472d5d5f90607d5955ff981d05045bc67c2f612fe5"
+  },
+  "completePhaseCount": 1,
+  "fullLog": {
+    "path": "original-weight8-high-exchange127-inspect30.log",
+    "bytes": 1779,
+    "sha256": "1df310280e50b1c052725b503738347c5eeef8fd547d8df230baf8302e62502d"
+  },
+  "completePhaseIdentities": {
+    "complete-small-projection": {
+      "bytes": 13517,
+      "logicalBytes": 52423,
+      "logicalSha256": "fc8a81a4f5e26e5ba130d7d23abac60b7fe37940618eb70fce01142bad27d540",
+      "path": "complete-small-projection.json.gz",
+      "sha256": "697c95fd72c30b351d35c9fd1acbc1572a591d5259e0ca14ad2d280aed6bbc67"
+    }
+  },
+  "dataPolicy": "Only source, parameters and actual execution identities/SHA; no mathematical coefficient arrays stored."
+}

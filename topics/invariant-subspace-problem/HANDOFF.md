@@ -7,17 +7,15 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-physical-kernel-parameter-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-thirtysix-stable-seeds-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
-- **[原Bell立方严格负已闭](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)：** 完整M9的Q/E秩16046，396 Koszul全核；模7原source16046＋c0子式det6排b³及K≤11。仅称增广≥16047，不判Bell1空；完整原来源/独核及自然幂提取门保正文和归档。
-
-- **[原Bell四次内存边界](notes/2026-11-16-r150-original-bell-fourth-even-first-memory-boundary-789f.md)：** run43862258541/job133281798325，17变量slimgb实460.261秒/exit14/OOM；三Q输入及小例门真，无source/GB，Q未跑，不是75，不判成员。接原参数小模，完整来源保正文。
+- [原b³严格负及396全核](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)已闭：Q/E完整权9秩16046、模7真子式det6排b³/K≤11，增广仅≥16047。[b4首轮内存边界](notes/2026-11-16-r150-original-bell-fourth-even-first-memory-boundary-789f.md)为run43862258541/exit14，无GB/source，不判成员；三Q/原乘回门保正文与归档，继续小参数模。
 
 ## R150已闭的rank-one系数模块
 
-- [全W31/W127结构与全部整来源费已闭](results.md)：原17/6188/4367模型不变；U31=M31，Ann=h*(31⁵,31²(s−2),(s−2)²)，共同指数5/2，原八生成及恰31阶非裂扩张已付。U127=M⊕R/(127,s+64)，Ann=h*(127,s+64)，共同指数1。全4212基的h*q源费用分别≤max(8515,124+degq)、max(26410,124+degq)；原leading-unit minor/Δ298及完整权计数已证，不声称展开全部源或高度。原full raw/重放/独立HNF-SNF/全payload身份与完整父证见索引和H归档；不重算已闭有限模。
+- [全W31/W127结构及整来源费已闭](results.md)：U31=M31、Ann=h*(31⁵,31²(s−2),(s−2)²)，共同指数5/2；U127=M⊕R/(127,s+64)，Ann=h*(127,s+64)，指数1。全4212基h*q源费分别≤max(8515,124+degq)、max(26410,124+degq)。八生成/非裂扩张、完整raw/独核及原minor来源保索引/归档，不重算有限模。
 
 ## R150完整非rank-one及Bell1
 
@@ -25,9 +23,11 @@
 - [全局9×57/Bell基9×56原表示](results/R150-appendix-complete-original-global-nine-generator-critical-presentation.md)保全部原57关系及18来源，固定E逆/literal单位消元；u≤1、source u≤3，实12.363秒。原free32/十低基/完整56图册全付，详归档。
 - **[原十行116种子](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)/[50原列同模](results/R150-appendix-original-parameter-seeds-fifty-and-complete-field-module-equivalence.md)已闭。** [固定运行时后三步实际边界](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)：run43878449638/job133337613806模型0/压缩0；真实module正负/SSI/U=I自测与全部500原坐标真。候选实584.999秒仅START，整体592.055秒/exit75，无candidate/source、null→null不空续。根独读全日志并核三raw/全manifest SHA。改用新来源或受控局部入口；全10/18/17和另E门仍欠，未判稳定闭包或成员正负。
 
-- **[完整来源权≤7的917→947及Bell饱和边界](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)：** 已付30个NiYj及7754×312满列秩保原18源，root全2,419,248产品/312主元核。完整G≤7维344与Bell系数573由最低权交零，旧有界像917、加30为947，完整输出12713；纯代数推出，未跑新矩阵。来源权界不等于L0∩F≤7。权7齐次V入L0恰存在q使b^qV∈G；≤10恰bV∈G10，原10122＋30目标/77276接口未跑，不能由q=0独立排全部饱和。
+- **[完整权≤7/Bell饱和](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)：** 7754×312原秩及根2,419,248产品已付；来源≤7像917→947、输出12713。权7齐次V入L0恰∃q使b^qV∈G；≤10恰bV∈G10。来源界非未截断像；10122＋30目标/77276未跑，完整原源与界见正文。
 
-- **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386全部原输入；G8秩1106、加180个yNiY后1286独立，100个NiC贡献26；全10/18乘回与201阶段已闭。根独立原1312子式det4、全部1,307,876核坐标零且核秩74。完整来源≤8维3425→3451为分级推论，未另跑30387行；不称未截断L1独立或稳定/单位。复用完成状态审14旧D换源及δ的具体RHS，不重消元。
+- **[完整原权8秩1312/74全核](results/R150-appendix-original-complete-weight-eight-frontier-rank1312-and-twentysix-new-sources.md)：** 17674×1386全部原输入；G8秩1106、加180个yNiY后1286独立，100个NiC贡献26；全10/18乘回与201阶段已闭。根独立原1312子式det4、全部1,307,876核坐标零且核秩74。完整来源≤8维3425→3451为分级推论，未另跑30387行；不称未截断L1独立或稳定/单位。14旧D换源已闭见下；δ具体RHS继续只读完整状态，不重消元。
+
+- **[36原种子的同一稳定闭包及完整首轮](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)：** 原74×14核投影满14，19404组合坐标及14个完整10/18换源全真。普通P=P′仍106换106，向量只少72项；Cl_N(L36)=Cl_N(L50)=原116闭包，L36全部第一轮恰P，保完整原临界商。根全16阶段双SHA/语义绑定及两个包含核；未付P稳定/E/单位。继续90个指定二次均值像的原交换子降重及完整第二轮界，不启动大矩阵。
 
 - **[δ14稀疏原10×56的600秒实际边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)：** run43883188532/job133354233895，模型/压缩exit0，原50/17运输、15双adj、四Bell40/4、真实自测和560 SSI全过；候选583.183秒仅START，整体592.146秒/exit75，null→null不空续，无candidate/remainder/source。完整raw19983/b77565d9…与binding经根独立全log重构核。原[稀疏接口](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)、list/tuple修复与[Schur尺寸/MemoryError](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)均保。转已付权7/8的bδ及六yi bδ具体RHS，须全10/18/17乘回；有限负不判全理想，E/19图仍开。
 

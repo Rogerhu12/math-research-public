@@ -1,0 +1,161 @@
+{
+  "format": "r150-weight8-original-high-source-exchange127-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-subprocess",
+  "source": {
+    "path": "notes/2026-11-16-r150-weight8-old-high-source-exchange127-789f.py",
+    "gitBlob": "b274ce3eeb5698ae3abb84322c72a1941fea48b1",
+    "bytes": 13777,
+    "sha256": "b3e358f5da42777eedbaaea0a7715c754e22f7cc705d3c9f3e5714570355a803"
+  },
+  "parameters": {
+    "inputManifest": "notes/2026-11-16-r150-weight8-old-high-source-exchange127-inputs-789f.json",
+    "through": "final",
+    "seconds": 120,
+    "memoryMiB": 768,
+    "outerTimeoutSeconds": 180,
+    "sameOutputDirectory": "original-weight8-high-exchange127",
+    "sameBinding": "6d4cae67816b6de0e3fd41bc1033cf15b5b70d000d8aef5cee122df473bf7da8"
+  },
+  "execution": {
+    "dateUTC": "2026-11-16",
+    "shell": "bash",
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "exitCode": 0,
+    "status": "completed",
+    "elapsedSeconds": 20.885148269997444,
+    "peakRssKiB": 138168,
+    "newLargeEliminationPerformed": false
+  },
+  "rawOutput": {
+    "bytes": 5966,
+    "sha256": "db5da541150a13906ad9ee639ae205121ffd29708e9d954ee1bf9095a9116a4d"
+  },
+  "manifest": {
+    "bytes": 5484,
+    "path": "original-high-exchange-manifest.json",
+    "sha256": "618bbbc841ead87162e068543a325e437b38e22020855e8b475207bb7ab57988"
+  },
+  "completePhaseCount": 16,
+  "fullLog": {
+    "path": "original-weight8-high-exchange127-final120.log",
+    "bytes": 7762,
+    "sha256": "817270452f6589052293ff97b42f3b491808e3b952198edc57b3a2b22c579dad"
+  },
+  "completePhaseIdentities": {
+    "complete-exchange-00": {
+      "bytes": 36953,
+      "logicalBytes": 212240,
+      "logicalSha256": "7649e49af60b2745b227cfa594d9d1e89e5501a60ece8cc1dafc4e0d1079eaf5",
+      "path": "complete-exchange-00.json.gz",
+      "sha256": "c94ca5a89d05253026c17440606d8be9afbc64777c72d030a1ee41bffdfbfb9d"
+    },
+    "complete-exchange-01": {
+      "bytes": 36894,
+      "logicalBytes": 212236,
+      "logicalSha256": "5eed0250f04f1ef5f7a22bbd8a6e6a0fdbfa991044db991dd6532f9d860191e0",
+      "path": "complete-exchange-01.json.gz",
+      "sha256": "7e833ba584fd6dbb550b5c7649fdf2c22da4715f02882ec99a001d5aba22bdee"
+    },
+    "complete-exchange-02": {
+      "bytes": 36876,
+      "logicalBytes": 212454,
+      "logicalSha256": "04781ea7697ac2e31b5ae4cdd22b3228cf937b947285ff75ecf6c78a8b840b68",
+      "path": "complete-exchange-02.json.gz",
+      "sha256": "def020913c407ba15b69e20a78794c1ace7ecdc06c037fdbf37b9e6b2e91896a"
+    },
+    "complete-exchange-03": {
+      "bytes": 36886,
+      "logicalBytes": 211669,
+      "logicalSha256": "df1b6a673f8ddb0d5b9f6678e5e996640c4b67dd6dff0d6e2febf86e7dc12982",
+      "path": "complete-exchange-03.json.gz",
+      "sha256": "b95a547c682c6439427483f75766692c35b6105b0c40c5bff61647eab934df23"
+    },
+    "complete-exchange-04": {
+      "bytes": 37032,
+      "logicalBytes": 212954,
+      "logicalSha256": "6b482fc7b879077b2e093ba49d413d8f70c56687caf11f0b95ecca46158c9a47",
+      "path": "complete-exchange-04.json.gz",
+      "sha256": "b180666ae5f40b5248c329a7708459cda34144689b8382ae28685bb12f3fdcdc"
+    },
+    "complete-exchange-05": {
+      "bytes": 36961,
+      "logicalBytes": 212692,
+      "logicalSha256": "625e98d75f5f0131f4b291fc89a1dd6d75cfbee333846afb78ef84081a709fdb",
+      "path": "complete-exchange-05.json.gz",
+      "sha256": "70e490786a52932ba510360dc1611aefc3fe614e6af4a9f3f9825596c1a0d606"
+    },
+    "complete-exchange-06": {
+      "bytes": 37032,
+      "logicalBytes": 213428,
+      "logicalSha256": "fa09bedf7a16d5044c0a8413d038ea7cc864482147a0982e49cdfb0c0bc9f806",
+      "path": "complete-exchange-06.json.gz",
+      "sha256": "5a5883ee81b0b70679cd22411be7af69b8ad19bf41a651c6cb6234664d3c514f"
+    },
+    "complete-exchange-07": {
+      "bytes": 37041,
+      "logicalBytes": 212924,
+      "logicalSha256": "8be4e8e32a62bb8185526a2960f8789785adb3e63e1419648e81d6c5732fd64b",
+      "path": "complete-exchange-07.json.gz",
+      "sha256": "e1e158c28132530a2e548378527449dbaada8b90af5791d58568b5fa7424268f"
+    },
+    "complete-exchange-08": {
+      "bytes": 37248,
+      "logicalBytes": 214191,
+      "logicalSha256": "31397c44fcdc7110d51a6944b9ea7f50670592c8fe59f010a4e4df7425a3cbca",
+      "path": "complete-exchange-08.json.gz",
+      "sha256": "6329ab37cf2003ccde90b3c8eaa4744ebd12e7ea012fdc9e58a9df5f50dd74b9"
+    },
+    "complete-exchange-09": {
+      "bytes": 37139,
+      "logicalBytes": 213522,
+      "logicalSha256": "b873af75461c392a797ce141cfbee9ce4d74b89a3b69c4f94e81a3d9c213e2fd",
+      "path": "complete-exchange-09.json.gz",
+      "sha256": "8c21d25ad1e2e08c2e7b10d2c8a375a849f5a10e3b1027fb9e0c3854a78cca9d"
+    },
+    "complete-exchange-10": {
+      "bytes": 37258,
+      "logicalBytes": 213918,
+      "logicalSha256": "4adb6b2b3c46d6d32b23bc34fd7ec5d698136c7d9e7b905e48b79ff023e0dfc8",
+      "path": "complete-exchange-10.json.gz",
+      "sha256": "d0121a17084e4b4f9de0e3e5c93a64125df7e152a367f83bfa806e68235abe90"
+    },
+    "complete-exchange-11": {
+      "bytes": 37254,
+      "logicalBytes": 213468,
+      "logicalSha256": "1e337a6bf5f87f22b7a2b10dfd95174261a2a2228b1ad35c25481b770bd0a5f0",
+      "path": "complete-exchange-11.json.gz",
+      "sha256": "4118040775eb32137bfbd67b7828b9fcf438d4b718c257ef15293d61c21d44b2"
+    },
+    "complete-exchange-12": {
+      "bytes": 37314,
+      "logicalBytes": 213692,
+      "logicalSha256": "8e8aa2c4e2004f9ab01c8945b0c5693823eafdf4f5e863761f99010cf9e47eaa",
+      "path": "complete-exchange-12.json.gz",
+      "sha256": "cdb1734baa56d5b32b08a0b31ecafddc402f75232e7fadc43fc1f713b50e5f40"
+    },
+    "complete-exchange-13": {
+      "bytes": 37235,
+      "logicalBytes": 213689,
+      "logicalSha256": "1c18a1601d77183ad00a1da03666e8cf4d60e8ed3b3c430a4a56e0b38d346b1c",
+      "path": "complete-exchange-13.json.gz",
+      "sha256": "21ef4d038a9e733f618ff27c19bdb857acdb93d60059f6ff91b8e9c7e3d8165f"
+    },
+    "complete-original-high-source-exchange": {
+      "bytes": 500,
+      "logicalBytes": 1289,
+      "logicalSha256": "094cff596268e6eeb2b9d894b52ff1bfb59bc44160e5c0744778c41dac95bb6c",
+      "path": "complete-original-high-source-exchange.json.gz",
+      "sha256": "ce99c911c8896c70ef78889e68ffe4b305982c73d0e1d106b34c56d42cdee76d"
+    },
+    "complete-small-projection": {
+      "bytes": 13517,
+      "logicalBytes": 52423,
+      "logicalSha256": "fc8a81a4f5e26e5ba130d7d23abac60b7fe37940618eb70fce01142bad27d540",
+      "path": "complete-small-projection.json.gz",
+      "sha256": "697c95fd72c30b351d35c9fd1acbc1572a591d5259e0ca14ad2d280aed6bbc67"
+    }
+  },
+  "dataPolicy": "Only source, parameters and actual execution identities/SHA; no mathematical coefficient arrays stored."
+}

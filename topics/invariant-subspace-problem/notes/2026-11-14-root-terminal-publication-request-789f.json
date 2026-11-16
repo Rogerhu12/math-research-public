@@ -1,19 +1,24 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "6c44689014354579dcdc10129a624b75bef11b62",
-  "createdUtc": "2026-11-16 14:37:58 UTC",
-  "message": "ISP R150: record actual sparse delta14 preflight and guarded 600-second boundary",
+  "parentCommit": "cc26411371171d0bc2d06ea37c340999e140a94c",
+  "createdUtc": "2026-11-16 14:45:02 UTC",
+  "message": "ISP R150: exchange all 14 high sources and prove 36-seed closure with complete first round",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md",
+    "topics/invariant-subspace-problem/results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-thirtysix-stable-seeds-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
+    "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-rank-four600-log-audit-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-rank-four600-log-audit-execution-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-weight8-old-high-source-exchange127-789f.py",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-weight8-old-high-source-exchange127-inputs-789f.json",
+    "topics/invariant-subspace-problem/notes/2026-11-16-r150-weight8-old-high-source-exchange127-interface-789f.md",
+    "topics/invariant-subspace-problem/notes/r150-original-parameter-module-execution-789f/local-20261116-weight8-old-high-source-exchange127-inspect30.json",
+    "topics/invariant-subspace-problem/notes/r150-original-parameter-module-execution-789f/local-20261116-weight8-old-high-source-exchange127-final120.json",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []

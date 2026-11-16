@@ -1,0 +1,92 @@
+{
+  "format": "r150-paid-weight8-original-high-source-exchange127-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-weight8-old-high-source-exchange127-789f.py",
+    "gitBlob": "b274ce3eeb5698ae3abb84322c72a1941fea48b1",
+    "bytes": 13777,
+    "sha256": "b3e358f5da42777eedbaaea0a7715c754e22f7cc705d3c9f3e5714570355a803"
+  },
+  "helpers": [
+    {
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "gitBlob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+      "bytes": 23879,
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+      "gitBlob": "025821b76d7b9a982a52d0ecc205065097ecd66b",
+      "bytes": 20434,
+      "sha256": "b1d3dbedd597a8019bab2dca6ff59bfa915aaa457a8ac0c14833266f449a1ee9"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+      "gitBlob": "4e8f554b0979ec9c05d0c8c2dfdb024151de3b6b",
+      "bytes": 22828,
+      "sha256": "bf5fa8e6ea1a70ed9441cf28918c9bd46946661afd932c7888f713dc2eadc936"
+    }
+  ],
+  "parentBinding": "1fdb39f00f53e51f33cbecef6c25c503c43e85575ad79abbd189ade9fdc7d069",
+  "exactTemporaryNativeInputs": {
+    "all-original-row-input.bin": {
+      "bytes": 24496256,
+      "sha256": "b9c8085459685cdf728e9ba8cbc005daccfc80a0d8047ddccddb008e4002249a"
+    },
+    "complete-original-dictionaries.json": {
+      "bytes": 586948,
+      "sha256": "4164b25bfaa7504c12cb40d20fa3f9d22887d71b75bae943121808a4fc686ab0"
+    },
+    "complete-row-result.bin": {
+      "bytes": 113472,
+      "sha256": "c866eab92a0aa9a5c451b96135647a6391b9f6dc242b5ae9fa03aa9da54eb36d"
+    }
+  },
+  "scope": {
+    "completeOriginalKernelRows": 74,
+    "oldHighSourceColumns": 14,
+    "originalInputColumns": 1386,
+    "newLargeElimination": false,
+    "originalSourceCoordinates": 18,
+    "originalModuleCoordinates": 10,
+    "sameNamedGeneratorCountAfterExchange": 106,
+    "characteristicZeroOrStableClosureClaim": false
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "nativeOrSingularRequired": false
+  },
+  "arguments": [
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--compression-source",
+    "{scripts}/2026-11-16-r150-original-parameter-seed-compression127-789f.py",
+    "--weight8-source",
+    "{scripts}/2026-11-16-r150-original-complete-weight8-frontier127-789f.py",
+    "--weight8-out",
+    "{work}/original-complete-weight8-frontier127",
+    "--mean-frontier-out",
+    "{work}/original-mean-first-frontier127",
+    "--out",
+    "{work}/original-weight8-high-exchange127",
+    "--through",
+    "final",
+    "--seconds",
+    "120",
+    "--memory-mib",
+    "768"
+  ],
+  "inspectOverride": {
+    "through": "inspect",
+    "seconds": 30
+  },
+  "budget": {
+    "seconds": 120,
+    "memoryMiB": 768,
+    "outerSeconds": 180
+  },
+  "dataPolicy": "Store only source, parameters, proof and actual execution identity/SHA. All relation coefficients and original polynomial arrays remain temporary."
+}

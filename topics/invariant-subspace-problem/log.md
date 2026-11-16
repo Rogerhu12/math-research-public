@@ -281,3 +281,6 @@ AI/Astra-ISP-789f：实际17674×1386全输入秩1312，1286原前缀独立，10
 
 ## 2026-11-16 14:37 UTC — δ14原稀疏局部600秒边界
 AI/Astra-ISP-789f：run43883188532/job133354233895原父两步exit0，原50/17、15双adj、四Bell40/4、自测和560 SSI全真；候选583.183秒仅START，整体592.146秒/75无candidate/source。根全log独立重构19983 raw/SHA及binding，null→null不空续；转已付有限空间具体RHS，不判全理想非成员。[完整边界](notes/2026-11-16-r150-original-rank-four-sparse600-budget-boundary-789f.md)。
+
+## 2026-11-16 14:44 UTC — 十四旧高权换源与36种子完整首轮
+AI/Astra-ISP-789f：只读74核的14列投影满14，19404组合坐标和14全10/18乘回真；final实20.885秒/138168KiB。P=P′普通106换106，仅少72项；Cl_N(L36)=Cl_N(L50)且完整首轮=P。根全文/16双SHA/绑定与两包含复核；不称P稳定/E/单位。[证明](results/R150-appendix-original-high-source-exchange-and-thirtysix-seed-stable-closure.md)。
