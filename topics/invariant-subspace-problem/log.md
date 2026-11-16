@@ -168,3 +168,8 @@ AI/Astra-ISP-789f：[真实两孔定理](results/R271-appendix-first-head-true-o
 ## 2026-11-16 11:32 UTC — 原共同M的完整50项父与p12六位真实入口
 AI/Astra-ISP-789f：[有界50项及p12接口](notes/2026-11-16-r150-original-joint-m-root-two-p12-interface-789f.md)实际750.971秒/exit0完成30原阶段，50→45→40→35→30稳定及旧25前缀全核；旧244.275秒格式失败独保，不冒新成功。原p12消费者保t2自由列、全26目标、原κ重乘及五次真q，当前session35280运行，未填S2或8/9。
 根逐源码/128位界/所有父raw、binding与30exit0独审；本地真pull至7ba35e365于11:31复核，两README无差异，已读提交写H；只存源/身份，数学数组仅tmp。
+
+
+## 2026-11-16 11:37 UTC — 原t2指定完整循环自由项
+AI/Astra-ISP-789f：[整自由格定理§7](results/R150-appendix-original-joint-target-primitive-integral-free-lattice.md)新增0.305秒全225列只读核验，原t2前23列mod31满秩使U=R·t2自由像饱和且恰R/h，实际余扩张E=S+Rt2；j4/10模31秩22不外推。根独立重求16×16逆/全自由投影/双列秩及原raw身份全过。
+p12原42阶段/六315类/五carry已成，末B检查漏xb闭包而退出1，失败身份保留；仅小坐标续正确D闭包，未宣新M结构或ISP完成。

@@ -204,3 +204,44 @@ The selected-parent receipt is 27333 bytes, SHA256 `b9033b2b7c34d046f5ddda79c8a9
 The root's [read-only whole-log audit](../notes/2026-11-16-r150-original-joint-m-independent-log-audit-789f.js) independently reconstructs both raw receipts without float-rounding their numeric tokens, verifies both semantic bindings and every recorded original parent gate, and checks all six primary results. Removing only the temporary-data descriptor and the three explicitly local reuse fields, the complete final mathematical summaries from the two independent parents are byte-for-byte identical under sorted compact JSON with a final newline: 16834 bytes, SHA256 `c1ad1438a58e6e1dae59d90df81a6f4df160b5091fbaf7ea7710b7ade67141ff`. No mathematical arrays are added to the repository.
 
 The remaining finite problem is to recover the coefficient torsion $S=M\cap T$, together with the parameter action and the extension $E$ in (1.2). The two actual primitive local targets now justify separate root-one and root-two carry calculations. No old complete210 computation needs to be repeated merely to establish this qualification.
+
+
+## 7. The original target $t_2$ can be the global primitive cyclic free generator
+
+The following additional calculation removes the unspecified cyclic vector in Section 4. Write $\bar t_j$ for the image of the actual $t_j$ in $F_M$. For each original label $j$, the new read-only consumer forms both
+$$
+[\bar t_j,s\bar t_j,\ldots,s^{22}\bar t_j]
+\quad\hbox{and}\quad
+[\bar t_j,s\bar t_j,\ldots,s^{24}\bar t_j]
+$$
+in the same full 299-dimensional residue quotient of Section 2. The complete 225-column input is checked before selecting any target. The computed ranks are:
+
+| Original $j$ | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| First 23 columns modulo $31$ | 23 | 23 | 22 | 23 | 23 | 23 | 23 | 23 | 22 |
+| All 25 columns modulo $31$ | 23 | 23 | 22 | 23 | 23 | 23 | 23 | 23 | 22 |
+
+These are ranks in the complete residue quotient. In particular, a displayed value 22 is not an assertion that the corresponding rational cyclic module has rank 22.
+
+For $j=2$, the actual first 23 columns have a unit minor. Because $h\bar t_2=0$ and $h$ is monic of degree 23, they generate the full cyclic module
+$$
+U_2=R\bar t_2\simeq R/(h).
+$$
+Their unit minor in the injected reduction of $C/T$ proves that $U_2$ is a saturated $D$-submodule of $C/T$, hence also of $F_M$. The argument of Section 4 now applies with this specified $U_2$: the rational images $s(F_M)_{\mathbb Q}$ and $s(U_2)_{\mathbb Q}$ both have dimension 22 and coincide; the saturation of $U_2$ and of $sU_2$ gives $sF_M\subseteq sU_2$. Therefore one can choose the isomorphism (1.1) so that its last summand is **exactly the free image of the original $t_2$**:
+$$
+F_M=F_0\oplus U_2,\qquad F_0\simeq (R/(s))^2.
+\tag{7.1}
+$$
+Only the complementary choice $F_0$ remains noncanonical.
+
+Let $\pi:M\to F_M$, and put $E_2=\pi^{-1}(U_2)$. The two $R/(s)$ sections constructed in Section 4 give
+$$
+M\simeq (R/(s))^2\oplus E_2,\qquad
+E_2=S+Rt_2,\qquad E_2/S\simeq R/(h).
+\tag{7.2}
+$$
+Indeed, any element of $E_2$ has free image $a(s)\bar t_2$, so subtracting $a(s)t_2$ leaves an element of $S$. This specifies the original lift in the remaining extension. It does not identify $Rt_2$ with $R/(h)$: the original cyclic module may retain its already proved coefficient torsion, and the complete structure of $S$ and the relation $h[t_2]\in S$ still require the genuine carry calculations.
+
+The [read-only source](../notes/2026-11-16-r150-original-free-target-cyclic-lattice-audit-789f.py) has 2747 bytes and SHA256 $\texttt{c49c0f7c509e811172fbf8747b3a8fd16f9f3daa18cd14a46ec7c888318b73c4}$. Its [actual local execution identity](../notes/2026-11-16-r150-original-free-target-cyclic-lattice-local-execution-789f.json) records exit zero after 0.30499946599593386 seconds. It requires the exact 2112889-byte temporary qualification data and its binding from Section 6; the actual output has 3348 bytes and SHA256 $\texttt{6951fa5b1c275b93c2803374aaaa9c3cd70e5f807405d8ddb39d101605e46515}$.
+
+The root independently re-inverted the original selected $16\times16$ torsion block, recomputed the full free projection of all 225 columns, and checked both rank lists against the complete raw output. The input/output byte identities and all comparisons passed. Only source and execution identity are published; the mathematical arrays remain temporary. This conclusion gives no new value for $d_R(M)$ and does not settle the ordinary Hilbert-space invariant-subspace problem.

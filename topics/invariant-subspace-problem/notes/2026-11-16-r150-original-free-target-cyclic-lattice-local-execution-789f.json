@@ -1,0 +1,32 @@
+{
+  "argv": [
+    "--data",
+    "/tmp/literature_joint_m_789f/qualification-paid-full210/complete-original-joint-m-qualification-data.json",
+    "--out",
+    "/tmp/literature_joint_m_789f/original-free-target-cyclic-lattice-audit.json"
+  ],
+  "author": "ChatGPT (AI), literature_audit",
+  "completedOutputModificationTimeUTC": "2026-11-16T11:26:13.366177+00:00",
+  "date": "2026-11-16",
+  "elapsedSeconds": 0.30499946599593386,
+  "executionKind": "actual-local-read-only-audit",
+  "exitCode": 0,
+  "format": "r150-source-and-local-execution-identity-v1",
+  "inputIdentity": {
+    "bytes": 2112889,
+    "parentBinding": "f03f4892d70cdf39aceaebf8d8e9dc979196904e8ca75afbfc3d080230cb365f",
+    "sha256": "a7a21b4c00e306ee0278451217491aedf88c6bcb59c3ca23668198516a74a29d"
+  },
+  "mathematicalOutputRetainedOnlyInTemporaryDirectory": true,
+  "noMathematicalArraysPublished": true,
+  "pythonExecutable": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "sourceBytes": 2747,
+  "sourcePath": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-free-target-cyclic-lattice-audit-789f.py",
+  "sourceSHA256": "c49c0f7c509e811172fbf8747b3a8fd16f9f3daa18cd14a46ec7c888318b73c4",
+  "status": "completed",
+  "temporaryOutputIdentity": {
+    "bytes": 3348,
+    "path": "/tmp/literature_joint_m_789f/original-free-target-cyclic-lattice-audit.json",
+    "sha256": "6951fa5b1c275b93c2803374aaaa9c3cd70e5f807405d8ddb39d101605e46515"
+  }
+}
