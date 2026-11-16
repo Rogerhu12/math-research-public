@@ -422,3 +422,7 @@
 ## 2026-11-16 06:25 UTC /root — R483完整coast目标范围与真实消费者
 
 **R483：同一准确目标的完整coast范围实现与条件包含证明；尚无新数值。** [证明](results/R483-complete-coast-Bernstein-ranges-in-current-metric-consumers.md)15453B/d16119fd、[接口](notes/2026-11-16-complete-coast-metric-range-adapter-interface.md)21663B/71e68882及helper18291/3730c62b、generator8742/d149d851、plan31012/7e71fe0c本次刊。保原72c定义/全部十词/同C语义叶/field/compiler，独立range对象真传原Prefix.inspect和R459目标调用；全片/闭端点/公共坐标与原径向metric保。coast准确三jet用半径27、速度16、二阶7个完整Bernstein系数；前两支撑端点在原72c为准确常数，结构不合仍原完整求值，未删除xi或别的项。五生成源有新名/schema/SHA，只覆盖原fixed-query及original112/resolution112/completeM/evidence；R464 union未注册，由216另接。原阈值、四Loewner/全域/时间/预算/必要范围保，不替代factory初点域，不保证盒更窄或预算/误差通过，不把新范围补成native/reach/held。五展开源仅未来Actions生成，原递归依赖仍必保；无新fixture、科学门或本地执行。 H旧主线与open两实际历史段仅去重复并链af74cbfd全文，open§4–6逐字保。
+
+## 2026-11-16 06:27 UTC /root — 固定C查询精化与原误差单位接点
+
+**固定C的实际精化接点；无新数值或接受门。** [说明](notes/2026-11-16-fixed-C-query-work-resolution-and-metric-error-scope.md)14065B/e1fb934b区分同场测量收紧与真实新场精化。R426会重算新逆像子积分，原1440累计径向端点/全头总和及R400固定cut三叶不自动更新；R459现有空间/查询工作可收紧，但214三级保原参数，不能把增mesh/M自动当增区间精度。R352/R481/R483可消重复表达依赖，宽盒不证明真实误差floor。原native/RMS/BC容差没有现成全域relative metric单位换算；缺转移界不阻止既有直接opnorm测量或原精化。若实际记录指向上游宽度，须用原f12f完整1440/six同源重算并以新真实同语义叶接口消费，不覆旧CP/definition。R489继续其实际来源实现；现无误差平台或下降新结论。 open§3仅去重复并链3559e04e完整前文，§4–6逐字不变。

@@ -62,27 +62,21 @@
 
 ## 3. 完整C/far、闭场与固定目标精化
 
-本节全部原文逐字保在[212入口时open](https://github.com/Rogerhu12/math-research-public/blob/9a9dbfa80ddf2c68d2dfda8e2b8c8a93d7e82060/topics/visible-flex-larger-amplitude/open.md)，含原资源/参数/失败/未返/未访和所有更早检查点；当前只去重复，§4–6逐字不变。所有真实接受父及精化证据仍未付，不能从来源接线或同η重复pass补齐。
+本节压缩前全文逐字保在[已刊R483时open](https://github.com/Rogerhu12/math-research-public/blob/3559e04efd5587989da5074b04cd825fe9694a89/topics/visible-flex-larger-amplitude/open.md)，继续保9a9dbfa8及更早检查点。所有原参数、原词、资源/失败/未返/未访和来源仍有效；只去重复，§4–6逐字不变。同η重复pass或来源接通不补真实接受父、固定g下降、README完成。
 
-R437/433/434/438与R452保首次同C闭构造的真实全场、原cut/两帽/atlas/shared、全域metric/reach和独立held；R449真202投影定义新准确十族，旧finite域/接受不迁移。原fixed同一g和首A/B登记仍必须真实消费；保存A/B不冒材料共轭执行。
+R437/433/434/438/452的首闭场须真实同C全field/cut/两帽/atlas/shared、全域metric/reach及独立held，原首A/B/材料共轭真消费；R449真202投影是新准确十族，旧finite域/接受不迁移。[R456](results/R456-same-far-complete450-refinement-and-explicit-origin-composition.md)保同C/root/全112 far候选误差/正μ原词，其余new grid全fresh；五个分辨率因子真实生效，旧knots/有理插点一次RN只初猜，完整450与原H/J/FD/fullDN/final/audit重付。
 
-[R456](results/R456-same-far-complete450-refinement-and-explicit-origin-composition.md)保同job完整112 far的同C/root/候选误差/μ字；其余新grid全fresh。R441/R448真实N/steps/两角/radial_mesh五因子，原父全词/knots和准确有理插点一次RN只作初猜，完整450 RHS/H/J/FD/fullDN/final/audit重付；sample/configure共cap、原18900+2700同钟，资源不足只partial。
+[R457](results/R457-actual202-complete-M-source-and-first-material-registration.md)真205/R456父；[R462](results/R462-same-C-old-mode-far-families-and-new-mode-propagation.md)仅同C/root/far/μ时复用旧112完整族，新增模式真传播，Π在M+i，所有共同C真向量包含不等于任意nominal代表有共同实现。新M重付深尾/newdeep/全部4M+2，零高模只初猜。[R463](results/R463-incremental-M-union-native-and-accepted-checkpoint-composition.md)/[R464](results/R464-incremental-M-owned-chain-and-explicit-source-view-composition.md)保四真父/新全M/15现场view/同HERE/全部(3M+2)×M J与双mean，真实原接受才捕获CP；新几何/held不贴旧证，缺B不添门。
 
-[R457](results/R457-actual202-complete-M-source-and-first-material-registration.md)认真205与R456父，原配置未声明词/mesh/真实steps保；[R462](results/R462-same-C-old-mode-far-families-and-new-mode-propagation.md)只在同准确C/全根族/物理far/正μ词时保旧112完整候选及误差，新模式真传播，Π移至M+i。包含所有共同C真向量不证明任意数值代表有共同准确实现。R442要求每个新M重付显式深尾条件、新deep及全部4M+2；零高模只初猜。
+[R459](results/R459-fixed-closed-target-relative-error-and-refinement-evidence.md)按准确广义谱/向外sqrt给完整闭目标全域relative误差；共同材料与全角双射付全t，不假定帽旋转对称。严格sup下降、仅upper改善、重叠未分辨分列；缺域不给完整upper，原容差不能无传递冒metric floor。R443/R447全t强C²条件保；跨级全C²收敛是更强未付，不增README门。[R461](results/R461-current-accurate-closed-multitime-display-and-projection-scope.md)保完整675 cut/两帽/marker、实际多t各<5MB显示及误差地址；不外推face内部/全t/嵌入，根15只保配方/run/身份。
 
-[R463](results/R463-incremental-M-union-native-and-accepted-checkpoint-composition.md)/[R464](results/R464-incremental-M-owned-chain-and-explicit-source-view-composition.md)接真union/四父与完整新M、15现场源码视图/新几何/held。旧112配置与新接受父分列；全(3M+2)×M J/双mean/全部末门均fresh，只有原门真接受才捕获CP，不转贴旧响应/几何。新来源先完整生成/真实HERE再用，held仅匹配真实post，缺B不添门；未付范围和必要读回保全。
+[207](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)为229pins与旧M128路径；[209](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)为245public+15views真union链，三级新几何/held/evidence和3/5/9显示。两者原18900+2700钟/末900测量保留/全部门/90KB超70/必要及quiet后清理不变。
 
-[R459](results/R459-fixed-closed-target-relative-error-and-refinement-evidence.md)用准确2×2广义谱及向外sqrt给固定闭目标全域relative误差上下界，同材料相位共轭/整角双射付全t；不假设帽/目标旋转对称。严格sup下降、上界改善、重叠未分辨分列，未覆盖域不给全upper，RMS/BC/native/FD容差不能无转移证明冒metricfloor。R443/R447准确共同材料与全t强C²条件保持；跨级全C²收敛更强未付，非新增README门。
+[R482/214](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)六件已0e78e97f、入口29df28d35ef85a7c4a6474c28451c58d9f25c802、实际run43815427382/compute133126277648（06:14:42Z），geometry唯一R484。原245+15保，加四caller与两R477 reader为251+15=266；depth24→2真实传首32b0/新grid/增模三层，全部候选/四quantity/误差/32bits work-only/1M保。首453→真实冻结450父→五factor2→M128继承新分辨率，所有原末门/同g/t/几何/display角色和唯一时钟不变；九必要scope与真quiet才清。R483新coast已3559e04e，216将接真实union，当前214未冒已接。
 
-[R461](results/R461-current-accurate-closed-multitime-display-and-projection-scope.md)当前675准确cut/两帽/全marker、多t每点xyz与外向半径/最大误差地址保，不外推面内/BVP误差/全t/嵌入。默认0/半/1及8/8/4/32只work；各mesh与gzip<5MB，原钟/单90KB/超70/根15无raw发表。
+**固定C的实际精化接点；无新数值或接受门。** [说明](notes/2026-11-16-fixed-C-query-work-resolution-and-metric-error-scope.md)14065B/e1fb934b区分同场测量收紧与真实新场精化。R426会重算新逆像子积分，原1440累计径向端点/全头总和及R400固定cut三叶不自动更新；R459现有空间/查询工作可收紧，但214三级保原参数，不能把增mesh/M自动当增区间精度。R352/R481/R483可消重复表达依赖，宽盒不证明真实误差floor。原native/RMS/BC容差没有现成全域relative metric单位换算；缺转移界不阻止既有直接opnorm测量或原精化。若实际记录指向上游宽度，须用原f12f完整1440/six同源重算并以新真实同语义叶接口消费，不覆旧CP/definition。R489继续其实际来源实现；现无误差平台或下降新结论。
 
-[207/R458](notes/2026-11-16-request207-same-job-joint-refinement-and-evidence-interface.md)真205→R456五factor2→旧R457 M128四factor1，154+75=229pins；[209/R468](notes/2026-11-16-request209-incremental-M-joint-refinement-and-displays-interface.md)改R464增M128，245public+15view。三级新几何/held/evidence，209另3/5/9帧display；首目标固定，末900测量保留，原18900+2700/全部门/单90KB超70/必要读取quiet后清理。实际run/source及唯一owner见HANDOFF，不冒细化接受或误差下降。
-
-按根15，[actual63两清单清理](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15只普通删除可再生的manifest/intent共1441937B，原来源/参数/真实父输入/紧凑结论和Git历史保持；现用源及91/98等父不动。[actual62两清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)本次按原来源/现用依赖核后普通删1352194B，仅两明确生成清单，原父/输入/参数/其余四件/历史保持；不将容量整理当科学进展。
-
-**R482：浅逆像与同job真实精化的来源/条件组合；尚无本次实际结果。** [证明](results/R482-shallow-inverse-and-same-job-incremental-refinement-composition.md)16368B/6ad857f4、[完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)21164B/396a2ca0和四调用源7ca36597/5b9e9039/39f1d36c/b4106f39本次刊。原205/209/212六合同逐字绑定；保原245公开与15生成源，新增四调用及两R477 reader，真实251+15=266。24→2工作深度实际传给首32b0、R456新grid与R462增模三层；全候选/field计划/32bits work-only/1M/原误差保，不保证预算或精度。唯一原18900+2700时钟，首full453→真冻结450父→五factor2→M128/继承新分辨率，全部原H/J/FD/fullDN/final/audit及新场闭面/held/固定g误差/t/display角色保持；任一必要父未返不以SHA补。新metadata派生字节不冒06ae，9必要scope加真quiet才清；源生成/读回失败保原范围，无新fixture或科学门。独立请求/workflow另次推，R484/geometry唯一未来终态。
-
-[R482/214完整接口](notes/2026-11-16-request214-shallow-inverse-joint-refinement-interface.md)四源、证明与接口已刊 `0e78e97fa380327094b85bd3413b1653ad60ef4c`。本次独立刊request42062B/c81530fe与workflow97252B/9ce85151，新路径触发公开仓库自身Actions。原245公开/15生成源保，实际251+15=266；同job三级深度2、全候选/原误差/真实accepted父/原完整方程与各闭面角色/唯一18900+2700钟/九scope与quiet保持。实际run/source待官方绑定，R484由geometry唯一终态读取；不预填采样齐、有限接受、固定g下降或README完成。
+容量整理已按根15普通删除[actual63两生成清单](notes/2026-11-16-actual63-two-generated-manifests-retirement.md)/b696cc15的1441937B与[actual62两生成清单](notes/2026-11-16-actual62-two-generated-manifests-retirement.md)/77fae38c的1352194B；仅指定生成文件，原输入/91、98等真父/参数/源码/历史保，不作科学进展。
 
 ## 4. 同一g闭合与真正九冻结450
 
