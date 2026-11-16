@@ -1,0 +1,599 @@
+{
+  "schema": "R496-current-C-zero-linear-three-level-source-view-plan-v1",
+  "logical_schema": "R567-current-source-prefix-tube-and-metadata-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "scope": "Preserve all545 complete original235 sources. Add one actual-current same-C prefix tube observer and six independent metadata callers; original head/leaf/bridge/tail/three Loewner, native/BVP/FD/fullDN, normal refinement evidence, work and clocks remain unchanged.",
+  "generator": {
+    "file": "root_20261116_current_C_zero_linear_source_views.py",
+    "bytes": 11895,
+    "sha256": "4d4c507edd571b67655fd2e66fb4bcfa173b1239928443831a81a925c4869ec4"
+  },
+  "required_public_sources": [
+    {
+      "file": "root_20261116_request238_sampling_refinement_composition.py",
+      "bytes": 75663,
+      "sha256": "1a2d8b259853756abbbf574841b2fcf9eaa17b81d43903be8d53ef3c33f31190"
+    },
+    {
+      "file": "root_20261116_request238_actual_source_entry.py",
+      "bytes": 38211,
+      "sha256": "6f482798f41fb7616c1ad1a0c7ff1069dbe35e5df0606003ad357238acb9a073"
+    },
+    {
+      "file": "geometry_20261116_actual_prefix_coefficient_tube_majorants.py",
+      "bytes": 24412,
+      "sha256": "81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b"
+    },
+    {
+      "file": "geometry_20261116_finite_frenet_tube_residual_majorants.py",
+      "bytes": 18782,
+      "sha256": "4217bf9a30ade1934c473146131067de2ff778ea62bc0b7811b55356a7cd71ad"
+    }
+  ],
+  "semantic_schema_rebindings": {
+    "request235-zero-linear-gzip-owned-nested-role-v1": "request238-zero-linear-gzip-owned-nested-role-v1",
+    "public-current-C-bound235-coast-base-source-closure-request-v1": "public-current-C-bound238-coast-base-source-closure-request-v1",
+    "request235-zero-linear-gzip-complete-refinement-evidence-displays-v1": "request238-zero-linear-gzip-complete-refinement-evidence-displays-v1",
+    "request235-zero-linear-gzip-refinement-one-necessary-readback-v1": "request238-zero-linear-gzip-refinement-one-necessary-readback-v1",
+    "request235-refinement-necessary-readback-complete-v1": "request238-refinement-necessary-readback-complete-v1",
+    "request235-actual-source-and-same-C-registration-composition-v1": "request238-actual-source-and-same-C-registration-composition-v1",
+    "public-current-C-same-semantic-head-bound235-request-v1": "public-current-C-same-semantic-head-bound238-request-v1",
+    "request235-actual-same-C-source-registration-v1": "request238-actual-same-C-source-registration-v1",
+    "request235-same-C-head-refinement-and-complete-field-consumers-v1": "request238-same-C-head-refinement-and-complete-field-consumers-v1",
+    "request235-complete-same-C-consumer-necessary-readback-v1": "request238-complete-same-C-consumer-necessary-readback-v1",
+    "request235-complete-same-C-consumer-readback-marker-v1": "request238-complete-same-C-consumer-readback-marker-v1",
+    "request230-fixed-target-recomputed-C-metric-evidence-v1": "request238-same-target-prefix-tube-and-complete-metric-evidence-v1",
+    "REQUEST230_RECOMPUTED_C_FIXED_TARGET_EVIDENCE": "REQUEST238_PREFIX_TUBE_COMPLETE_METRIC_EVIDENCE"
+  },
+  "view_count": 7,
+  "literal_patches": {
+    "p0000": {
+      "before": "\"\"\"R504 actual same-target metric evidence with recomputed-C tail queries.\n\nKeep the full R495/R459 operator-norm, complete-domain coverage, common-material\nphase transfer, real nested t witnesses and interval comparison. The actual\nR489 query members and retained recomputed source panels now enter the ONE\noriginal live query path through R500. Original factory C identities remain\nseparate, all fields and target parameters stay fixed, and no extra clock,\nacceptance gate, evidence threshold or source-global mutation is introduced.\nOnly public Actions executes arithmetic; no actual bound or success is preset.\n\"\"\"",
+      "after": "\"\"\"R553 actual complete prefix tubes beside full same-target metric evidence.\n\nThe complete R504/R459 metric, same-C head/live queries, common-material phase\ntransfer, exact operator norm and original DFS predicates remain unchanged.\nOne optional observer now consumes the SAME actual prefix target return and\nthe bound field's entire rational Hermite coefficient set. It certifies a\njoint coefficient/scalar/angle box before calling the original R521 majorants.\nEvery failed or unfinished tube remains unpaid; it never changes a metric,\nBVP, native, FD, fullDN or refinement acceptance condition.\n\nAll field modes, both means, closed endpoints, reflections and original\nfrontier responsibilities survive. These are bounds for the actual accurate\nquintic reference, not a substituted original solver cubic or FFT error proof.\nOnly the named public Actions executes arithmetic under the original clock.\nAuthor: geometry agent (AI), 2026-11-16.\n\"\"\""
+    },
+    "p0001": {
+      "before": "SCHEMA = \"request230-fixed-target-recomputed-C-metric-evidence-v1\"",
+      "after": "SCHEMA = \"request238-same-target-prefix-tube-and-complete-metric-evidence-v1\""
+    },
+    "p0002": {
+      "before": "SUMMARY_LIMIT = 90000",
+      "after": "SUMMARY_LIMIT = 90000\nPREFIX_TUBE_NAME = \"geometry_20261116_actual_prefix_coefficient_tube_majorants.py\"\nPREFIX_TUBE_SHA = \"81d33e7135eeba50b7d0b372d82cbcd656f0da34cf3f2691792f865e2dada96b\"\nPREFIX_TUBE_SCHEMA = \"R553-actual-complete-prefix-coefficient-tube-majorants-v1\""
+    },
+    "p0003": {
+      "before": "        self.refined = self.prefix_range = self.Bridge = None",
+      "after": "        self.refined = self.prefix_range = self.Bridge = None\n        self.prefix_tubes = None"
+    },
+    "p0004": {
+      "before": "        TailQuery, self.sources[TAIL_QUERY_NAME] = load_source(data[\"computations\"], TAIL_QUERY_NAME, TAIL_QUERY_SHA)",
+      "after": "        Tube, self.sources[PREFIX_TUBE_NAME] = load_source(data[\"computations\"], PREFIX_TUBE_NAME, PREFIX_TUBE_SHA)\n        require(Tube.SCHEMA == PREFIX_TUBE_SCHEMA, \"The actual complete-prefix tube observer differs\")\n        TailQuery, self.sources[TAIL_QUERY_NAME] = load_source(data[\"computations\"], TAIL_QUERY_NAME, TAIL_QUERY_SHA)"
+    },
+    "p0005": {
+      "before": "        cfg = cp.native_configuration\n        self.tolerances",
+      "after": "        self.prefix_tubes = Tube.BoundPrefixTubes(self.current,\n            angular_count=self.resolution[\"field_angular_quadrature\"],\n            sqrt_bits=work[\"sqrt_bits\"], budget_check=self.budget.check,\n            actual_checkpoint=cp.receipt, actual_expression=self.members[\"accurate_field\"])\n        self.sources[Tube.MAJORANT_NAME] = self.prefix_tubes.majorant_source\n        cfg = cp.native_configuration\n        self.tolerances"
+    },
+    "p0006": {
+      "before": "            jets, radial_metric, target_record = self.prefix_range.closed_range(*radial)\n            if jets[0].lo <= 0:\n                return None, dict(reason=\"accurate_prefix_radius_positive_lower_unresolved\", target=target_record)",
+      "after": "            jets, radial_metric, target_record = self.prefix_range.closed_range(*radial)\n            prefix_context = dict(schema=PREFIX_TUBE_SCHEMA+\"-same-target-return\",\n                original_numeric_s_interval=encode(radial),\n                radius=encode((jets[0].lo, jets[0].hi)),\n                accurate_arc_derivative=encode((jets[1].lo, jets[1].hi)),\n                accurate_arc_second_derivative=encode((jets[2].lo, jets[2].hi)),\n                numeric_s_radial_metric=encode((radial_metric.lo, radial_metric.hi)),\n                actual_target_return_identity=value_identity(target_record),\n                target_requeried_for_this_observer=False)\n            if jets[0].lo <= 0:\n                return None, dict(reason=\"accurate_prefix_radius_positive_lower_unresolved\", target=target_record,\n                    actual_prefix_tube_context=prefix_context)"
+    },
+    "p0007": {
+      "before": "            return (g11, g22), dict(kind=\"complete_accurate_ten_public_u\", target=target_record)",
+      "after": "            return (g11, g22), dict(kind=\"complete_accurate_ten_public_u\", target=target_record,\n                actual_prefix_tube_context=prefix_context)"
+    },
+    "p0008": {
+      "before": "    def base_once(self, cell):\n        self.budget.check()\n        piece = self.current.field.pieces[cell[\"piece_index\"]]\n        radial, angular = pair(cell[\"radial\"]), pair(cell[\"angular\"])\n        target, target_record = self.target(piece, radial, angular)\n        if target is None:\n            return dict(available=False, target=target_record)\n        values = self.current.evaluate(piece, radial, angular, cell[\"lower\"])\n        X, Y = tuple(value.d[1] for value in values), tuple(value.d[2] for value in values)\n        E, B, C = (self.M.bounds(self.M.dot(a, b)) for a, b in ((X, X), (X, Y), (Y, Y)))\n        result = relative_norm(E, B, C, *target, self.data[\"work\"][\"sqrt_bits\"])\n        result[\"target\"] = target_record\n        result[\"all_current_modes_both_means_and_mixed_jets_used\"] = True\n        return result\n\n",
+      "after": "    def base_once(self, cell):\n        self.budget.check()\n        piece = self.current.field.pieces[cell[\"piece_index\"]]\n        radial, angular = pair(cell[\"radial\"]), pair(cell[\"angular\"])\n        target, target_record = self.target(piece, radial, angular)\n        if target is None:\n            result = dict(available=False, target=target_record)\n        else:\n            values = self.current.evaluate(piece, radial, angular, cell[\"lower\"])\n            X, Y = tuple(value.d[1] for value in values), tuple(value.d[2] for value in values)\n            E, B, C = (self.M.bounds(self.M.dot(a, b)) for a, b in ((X, X), (X, Y), (Y, Y)))\n            result = relative_norm(E, B, C, *target, self.data[\"work\"][\"sqrt_bits\"])\n            result[\"target\"] = target_record\n            result[\"all_current_modes_both_means_and_mixed_jets_used\"] = True\n        if piece[\"kind\"] == \"prefix\":\n            result[\"actual_prefix_joint_tube\"] = self.prefix_tubes.inspect(\n                cell, target_record.get(\"actual_prefix_tube_context\"))\n        return result\n\n"
+    },
+    "p0009": {
+      "before": "                self.cells.append(record)\n                if refine:",
+      "after": "                if self.prefix_tubes is not None:\n                    record[\"actual_prefix_tube_retirement\"] = self.prefix_tubes.commit_original_retirement(\n                        cell, report.get(\"actual_prefix_joint_tube\"), split=refine)\n                self.cells.append(record)\n                if refine:"
+    },
+    "p0010": {
+      "before": "            coverage=coverage,\n            original_tolerance_evidence=",
+      "after": "            coverage=coverage,\n            actual_prefix_joint_tube_constants=(None if self.prefix_tubes is None else\n                self.prefix_tubes.summary(original_coverage=coverage,\n                    complete_cell_ledger=self.members.get(\"complete_cell_ledger\"),\n                    original_error=self.error, original_stop=self.stop, close_errors=close_errors)),\n            original_tolerance_evidence="
+    },
+    "p0011": {
+      "before": "\"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\",",
+      "after": "\"actual_field_family\", \"actual_resolution\", \"actual_final_mesh\", \"parameters\",\n        \"actual_prefix_joint_tube_constants\","
+    },
+    "p0012": {
+      "before": "            global_relative_operator_error=row[\"global_relative_operator_error\"],",
+      "after": "            global_relative_operator_error=row[\"global_relative_operator_error\"],\n            actual_prefix_joint_tube_constants=row[\"actual_prefix_joint_tube_constants\"],"
+    },
+    "p0013": {
+      "before": "BEGIN_REQUEST230_RECOMPUTED_C_FIXED_TARGET_EVIDENCE",
+      "after": "BEGIN_REQUEST238_PREFIX_TUBE_COMPLETE_METRIC_EVIDENCE"
+    },
+    "p0014": {
+      "before": "END_REQUEST230_RECOMPUTED_C_FIXED_TARGET_EVIDENCE",
+      "after": "END_REQUEST238_PREFIX_TUBE_COMPLETE_METRIC_EVIDENCE"
+    },
+    "p0015": {
+      "before": "request235",
+      "after": "request238"
+    },
+    "p0016": {
+      "before": "Request235",
+      "after": "Request238"
+    },
+    "p0017": {
+      "before": "bound235",
+      "after": "bound238"
+    },
+    "p0018": {
+      "before": "actual235",
+      "after": "actual238"
+    },
+    "p0019": {
+      "before": "explicit235",
+      "after": "explicit238"
+    },
+    "p0020": {
+      "before": "=235",
+      "after": "=238"
+    },
+    "p0021": {
+      "before": "090f33c586fd3667c2cb630ad364d83c8b1a52cb2298a43813db3fbfc209b5c7",
+      "after": "1a2d8b259853756abbbf574841b2fcf9eaa17b81d43903be8d53ef3c33f31190"
+    },
+    "p0022": {
+      "before": "require(len(specs)==9,\"Keep original six, repaired57, original230 six and actual238 six layers\")",
+      "after": "require(len(specs)==10,\"Keep all original nine source layers and seven actual238 outputs\")"
+    },
+    "p0023": {
+      "before": "require(len(expected)==248,\"Keep original242 source identities and all actual238 six metadata sources\")",
+      "after": "require(len(expected)==255,\"Keep all original248 source identities and all seven actual238 outputs\")"
+    },
+    "p0024": {
+      "before": "zip(specs,(15,5,13,49,51,46,57,6,6))",
+      "after": "zip(specs,(15,5,13,49,51,46,57,6,6,7))"
+    },
+    "p0025": {
+      "before": "20f0d82f0fa576292a1ae9d3ddbae889f806d210aa7b42d7c541514996f609c0",
+      "after": "e5f0dc1c77d857033834444ae1d5420952eb3cdd8dcc2dcc3718a799aed557ed"
+    },
+    "p0026": {
+      "before": "REQUEST235",
+      "after": "REQUEST238"
+    },
+    "p0027": {
+      "before": "same-C235",
+      "after": "same-C238"
+    },
+    "p0028": {
+      "before": "independent235",
+      "after": "independent238"
+    },
+    "p0029": {
+      "before": "generated235",
+      "after": "generated238"
+    },
+    "p0030": {
+      "before": "refinement235",
+      "after": "refinement238"
+    },
+    "p0031": {
+      "before": "== 235",
+      "after": "== 238"
+    },
+    "p0032": {
+      "before": "    outputs = {}\n    for role in ROLES:",
+      "after": "    tube_spec = request[\"prefix_tube\"][\"plan\"]\n    tube_plan,tube_id = read(relative_file(workspace,tube_spec),tube_spec)\n    require(tube_plan.get(\"schema\") == PLAN_SCHEMA\n        and tube_plan.get(\"logical_schema\") == \"R567-current-source-prefix-tube-and-metadata-plan-v1\"\n        and tube_plan.get(\"view_count\") == len(tube_plan[\"views\"]) == 7,\n        \"Bind the actual independent current-source tube plan\")\n    tube_rows = [row for row in tube_plan[\"views\"] if row[\"role\"] == \"evidence\"]\n    require(len(tube_rows) == 1, \"The complete same-C evidence has one explicit tube successor\")\n    tube_row = tube_rows[0]\n    outputs = {}\n    for role in ROLES:"
+    },
+    "p0033": {
+      "before": "        expected = matches[0][\"output\"]\n        actual_role = request[\"roles\"][role]",
+      "after": "        expected = matches[0][\"output\"]\n        if role == \"evidence\":\n            require(tube_row[\"baseline\"] == expected,\n                \"The new observer must start from the actual current R544 evidence\")\n            expected = tube_row[\"output\"]\n        actual_role = request[\"roles\"][role]"
+    },
+    "p0034": {
+      "before": "                require(actual_role.get(key) ==\n                    plan[\"semantic_schema_rebindings\"].get(old_role[key],old_role[key]),\n                    \"Every independent same-C schema/frame is explicitly rebound\")",
+      "after": "                inherited = plan[\"semantic_schema_rebindings\"].get(old_role[key],old_role[key])\n                expected_value = tube_plan[\"semantic_schema_rebindings\"].get(inherited,inherited)\n                require(actual_role.get(key) == expected_value,\n                    \"Every independent same-C schema/frame is explicitly rebound\")"
+    },
+    "p0035": {
+      "before": "require(len(extras) == 7 and set(extras).isdisjoint(outputs)",
+      "after": "require(len(extras) == 9 and set(extras).isdisjoint(outputs)"
+    },
+    "p0036": {
+      "before": "\"Keep the original four public helpers and three current metadata callers\"",
+      "after": "\"Keep four original public helpers, R553/R521 and three current metadata callers\""
+    },
+    "p0037": {
+      "before": "len(expected) == 15",
+      "after": "len(expected) == 17"
+    },
+    "p0038": {
+      "before": "complete_upstream_workflow=receipt(workflow),source_plan=plan_id,",
+      "after": "complete_upstream_workflow=receipt(workflow),source_plan=plan_id,\n        actual_prefix_tube_plan=tube_id,actual_prefix_tube_source_generation=request[\"prefix_tube\"][\"materialization\"],"
+    },
+    "p0039": {
+      "before": "current_same_C_sources_were_formed_by_R544_not_this_registration=True,",
+      "after": "current_same_C_sources_were_formed_by_R544_and_R567_not_this_registration=True,"
+    },
+    "p0040": {
+      "before": "source_creation_was_actual_prior_R544_generation=True,",
+      "after": "source_creation_was_actual_prior_R544_or_R567_generation=True,"
+    },
+    "p0041": {
+      "before": "        available = {Path(row[\"actual_source\"][\"file\"]).name:row[\"actual_source\"]\n            for row in prior[\"outputs\"]}",
+      "after": "        available = {Path(row[\"actual_source\"][\"file\"]).name:row[\"actual_source\"]\n            for row in prior[\"outputs\"]}\n        creators = {name:prior_id for name in available}\n        tube_spec = request[\"prefix_tube\"][\"materialization\"]\n        tube_prior,tube_prior_id = read(base/tube_spec[\"receipt\"]);current(tube_prior)\n        require(tube_prior.get(\"schema\") == tube_spec[\"schema\"]\n            and tube_prior.get(\"completed\") is True\n            and same(tube_prior.get(\"source\"),tube_spec[\"generator\"]),\n            \"The actual R567 evidence and caller sources did not complete\")\n        for row in tube_prior[\"outputs\"]:\n            actual_source = row[\"actual_source\"]\n            name = Path(actual_source[\"file\"]).name\n            require(name not in available, \"Keep independent source basenames and creators\")\n            available[name] = actual_source\n            creators[name] = tube_prior_id\n        state[\"actual_prefix_tube_generation\"] = tube_prior_id"
+    },
+    "p0042": {
+      "before": "actual_creation_receipt=prior_id,created_by_this_registration=False)",
+      "after": "actual_creation_receipt=creators[name],created_by_this_registration=False)"
+    },
+    "p0043": {
+      "before": "\"All fifteen independent runtime sources must be truly present\"",
+      "after": "\"All seventeen independent runtime sources must be truly present\""
+    },
+    "p0044": {
+      "before": "R544 creates the eight current source files as part of the full source graph.\nThis component registers those actual receipts, binds the current derived",
+      "after": "R544 creates all original source files; R567 creates the independent complete\nsame-C evidence observer and six metadata callers. This component registers\nthe actual two producer receipts and binds the current derived"
+    }
+  },
+  "views": [
+    {
+      "role": "evidence",
+      "baseline": {
+        "file": "geometry_20261116_request230_same_C_metric_evidence.py",
+        "bytes": 65329,
+        "sha256": "a95af2e6c240ef920a6fb8cd730f82812acb2d6e4a28d76a4cfe9a5e0c3039d6"
+      },
+      "output": {
+        "file": "geometry_20261116_request238_same_C_tube_metric_evidence.py",
+        "bytes": 68192,
+        "sha256": "f0f045a83f162177490b22bd335268ad10987976129efeff9cc77da765c928c2"
+      },
+      "applications": [
+        {
+          "patch": "p0000",
+          "count": 1
+        },
+        {
+          "patch": "p0001",
+          "count": 1
+        },
+        {
+          "patch": "p0002",
+          "count": 1
+        },
+        {
+          "patch": "p0003",
+          "count": 1
+        },
+        {
+          "patch": "p0004",
+          "count": 1
+        },
+        {
+          "patch": "p0005",
+          "count": 1
+        },
+        {
+          "patch": "p0006",
+          "count": 1
+        },
+        {
+          "patch": "p0007",
+          "count": 1
+        },
+        {
+          "patch": "p0008",
+          "count": 1
+        },
+        {
+          "patch": "p0009",
+          "count": 1
+        },
+        {
+          "patch": "p0010",
+          "count": 1
+        },
+        {
+          "patch": "p0011",
+          "count": 1
+        },
+        {
+          "patch": "p0012",
+          "count": 1
+        },
+        {
+          "patch": "p0013",
+          "count": 1
+        },
+        {
+          "patch": "p0014",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_request235_owned_roles.py",
+        "bytes": 25728,
+        "sha256": "20f0d82f0fa576292a1ae9d3ddbae889f806d210aa7b42d7c541514996f609c0"
+      },
+      "output": {
+        "file": "geometry_20261116_request238_owned_roles.py",
+        "bytes": 25721,
+        "sha256": "e5f0dc1c77d857033834444ae1d5420952eb3cdd8dcc2dcc3718a799aed557ed"
+      },
+      "applications": [
+        {
+          "patch": "p0015",
+          "count": 7
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0018",
+          "count": 2
+        },
+        {
+          "patch": "p0019",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 2
+        },
+        {
+          "patch": "p0021",
+          "count": 1
+        },
+        {
+          "patch": "p0022",
+          "count": 1
+        },
+        {
+          "patch": "p0023",
+          "count": 1
+        },
+        {
+          "patch": "p0024",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_request235_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "4f467b928ae8ef11c50f56884a858c8769409a2805ca52cdbdea7b5d6c73b75a"
+      },
+      "output": {
+        "file": "geometry_20261116_request238_joint_refinement.py",
+        "bytes": 48824,
+        "sha256": "83e77f6cb42123678ec8ac805c25c4d48bb55875cbb57db1876b78634d817775"
+      },
+      "applications": [
+        {
+          "patch": "p0015",
+          "count": 9
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0020",
+          "count": 1
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_request235_refinement_necessary.py",
+        "bytes": 44534,
+        "sha256": "53254693871d728d04efd7d20500e3d633f77e230281d76c3c8631021cec5afb"
+      },
+      "output": {
+        "file": "root_20261116_request238_refinement_necessary.py",
+        "bytes": 44534,
+        "sha256": "034213c933ed6a3c93c62bc276553d8ee26281a2589679fe807d652fc54a7974"
+      },
+      "applications": [
+        {
+          "patch": "p0015",
+          "count": 18
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 2
+        },
+        {
+          "patch": "p0025",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_composer",
+      "baseline": {
+        "file": "root_20261116_request235_same_C_composition.py",
+        "bytes": 29444,
+        "sha256": "6ff55739b0c0855dea5af1f3f5deed4983c050ab06242cf666a1b107a749fb29"
+      },
+      "output": {
+        "file": "root_20261116_request238_same_C_composition.py",
+        "bytes": 31467,
+        "sha256": "282ce7d053897de2df385ee84b0948cc70ec3dae775cccea4690292a3e41593c"
+      },
+      "applications": [
+        {
+          "patch": "p0015",
+          "count": 11
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0026",
+          "count": 3
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 10
+        },
+        {
+          "patch": "p0028",
+          "count": 1
+        },
+        {
+          "patch": "p0029",
+          "count": 1
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 2
+        },
+        {
+          "patch": "p0032",
+          "count": 1
+        },
+        {
+          "patch": "p0033",
+          "count": 1
+        },
+        {
+          "patch": "p0034",
+          "count": 1
+        },
+        {
+          "patch": "p0035",
+          "count": 1
+        },
+        {
+          "patch": "p0036",
+          "count": 1
+        },
+        {
+          "patch": "p0037",
+          "count": 1
+        },
+        {
+          "patch": "p0038",
+          "count": 1
+        },
+        {
+          "patch": "p0039",
+          "count": 1
+        },
+        {
+          "patch": "p0040",
+          "count": 1
+        },
+        {
+          "patch": "p0041",
+          "count": 1
+        },
+        {
+          "patch": "p0042",
+          "count": 1
+        },
+        {
+          "patch": "p0043",
+          "count": 1
+        },
+        {
+          "patch": "p0044",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_runner",
+      "baseline": {
+        "file": "geometry_20261116_request235_same_C_refinement.py",
+        "bytes": 45658,
+        "sha256": "694826d1927ad70d1f6c908f1c7640cd8f4dafe7321e4fe28c7e2470ffadd07d"
+      },
+      "output": {
+        "file": "geometry_20261116_request238_same_C_refinement.py",
+        "bytes": 45658,
+        "sha256": "76adae1dbc76dc086662df135313483c3df23fba637804121164aab852afe15b"
+      },
+      "applications": [
+        {
+          "patch": "p0015",
+          "count": 8
+        },
+        {
+          "patch": "p0016",
+          "count": 1
+        },
+        {
+          "patch": "p0017",
+          "count": 1
+        },
+        {
+          "patch": "p0027",
+          "count": 4
+        },
+        {
+          "patch": "p0030",
+          "count": 1
+        },
+        {
+          "patch": "p0031",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "same_reader",
+      "baseline": {
+        "file": "root_20261116_request235_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "8608d163d22a28ee5381f68b837fc41dcae4deeb3cced7bc43b44160ca830f51"
+      },
+      "output": {
+        "file": "root_20261116_request238_same_C_necessary.py",
+        "bytes": 35746,
+        "sha256": "82ad8b004b92ba44c9771cdfdcbfc529f5d553f348566896a7415488674e8e49"
+      },
+      "applications": [
+        {
+          "patch": "p0015",
+          "count": 6
+        },
+        {
+          "patch": "p0026",
+          "count": 2
+        },
+        {
+          "patch": "p0027",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "original235_metadata_plan": {
+    "file": "request235-complete-generation-metadata-source-plan.json",
+    "bytes": 90706,
+    "sha256": "a13eca1ca47d21ba5f5afc42fecd4a6e9d0d9794f21bf961cd570edc7db93913"
+  }
+}

@@ -53,3 +53,5 @@
 - [两旧domain manifest的当前依赖判读和固定历史恢复](notes/2026-11-16-domain-manifest-retention-audit-and-fixed-history.md)：只普通移出两旧元数据清单1456843B，r6固定d195实际完整必要和全部具体用途/未扫范围、root主线差异与最后真pull守护齐；不改科学结论，不删现用warm/status/gzip/源/输入。
 
 - [R565 — request237准确首乘积与完整原模型入口](results/R565-request237-exact-lifted-factor-products-and-complete-projected-model-entry.md)：五件266169B；432完整源、原417/八对象+lanes及原三数学consumer保，十caller直接已刊R564，完整normal/recovery统计/70边界与原末门/钟不改；正式刊后仅一次237派发，实际R566另付。
+
+- [R567 — request238实际当前prefix管与完整场链](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)：七件314058B；原235全部545保→557、实际sameC evidence真675/R553管、原normal evidence/metric/DFS/闭场/资源门全保；两必要reader完整诊断不代接受，实际R568另付。

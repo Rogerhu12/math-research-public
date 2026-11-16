@@ -45,3 +45,7 @@ H登记R559/235、R553、R564、R565/237、R567/238全部完整源manifest及唯
 ## 2026-11-16 14:20 UTC /root — R565完整237真实首乘积入口
 
 [R565](results/R565-request237-exact-lifted-factor-products-and-complete-projected-model-entry.md)五件266169B/topic242214B独立完整刊；原417/八对象+lanes保→432，十caller直接R564、旧祖先source-only及三R534消费者不变，3×17/full last和旧统计/原overflow70两reader全保。实际所有门/19200及分cap/90K不改，不声称速度/已接受；正式刊后唯一POST237、R566 amplitude唯一。H/open/索引同步，open§4–6原字，容量逐笔。
+
+## 2026-11-16 14:22 UTC /root — R567当前prefix管完整238入口
+
+[R567](results/R567-current-source-prefix-tubes-and-original-complete-field-chain.md)/[接口](notes/2026-11-16-request238-current-prefix-tube-complete-chain-interface.md)七件314058B/topic222553B独立刊；原235的545源全保→557/十层，真sameC evidence接R553实际675管，原normal evidence/metric/DFS/全部场链与18900+2700/90K不变。正域不足只记诊断未付、两reader完整保，正式刊后唯一POST238，R568 geometry唯一；237已99347c61/run43884807627单POST200且官方绑定本次记，H/open/索引同步§4–6原字。
