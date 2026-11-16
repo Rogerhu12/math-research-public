@@ -523,3 +523,7 @@
 ## R150：原F127九目标完整25维子模与共同最小湮灭子h*（2026-11-16）
 
 [完整证明](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)由1.783252747秒实际运行、全7245原target坐标/7475不变作用/2691种子乘回和双包含，得九目标joint25，χ=s²mon(h*)。九个单目标均前23幂独立、23阶首关系恰mon(h*)；原24整数系数重乘后h*与h0实际九列全零，完整h*像模块0。s+64、s−2、s+6和Ω均不入该target模块，整体299分量仍保。仅付F127原6188来源成员存在，未展开九来源，不升Q或127幂；完整25原基/作用仍临时。
+
+## R271：小阻尼截断的完整一次MP残量与同actual缺陷预算（2026-11-16）
+
+[完整证明](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)用真D†ω_j的精确平方相消、真实ν_j及Bernoulli全层修复，在整个完整H_(C,J)(s)^−1来源上付低段与最高top。τ=(log(x+1)/x)^(1/3)、c=1+τ、J=ceil8log(x+1)/τ给||D†(C+D)f||²≤O((1+||C||²)τ²)ε，而同源ε≤Δ_g²。R=0/x=m的实际A_m满足||A_m||≤||T||，故moving m时仍小且保原V/K/u，无χ。只在原合法cut使用，不取消R=d扩块门；一次后准确剩项−C D†(C+D)f、下一非coherent列/完整返回未付。
