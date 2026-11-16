@@ -1,19 +1,10 @@
 # 未解决的问题
 
-**单一Bell首一约简诊断已闭，未减少当前输入。** [完整原来源及规模边界](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)实际核500坐标除法、50原18及约简后的四Bell40/4来源门；50列项315888→315892，同删四Bell后315860→315864，来源权均不降、无新零non-Bell列。因此继续已冻δ14入口，不因这个诊断另跑标准基；其他原来源约简仍可研究。
+**同一物理尾的可选首核参数已完整付清来源。** [完整PV/PK、全部cut和正铅笔证明](results/R271-appendix-physical-tail-kernel-parameter-freedom-and-complete-two-hole-positive-pencil.md)允许v_s=(I+sΓ)⁻¹e0而不改尾权；固定比例窗新增一孔费用平方和<2(λ−1)²，原同w配对绝对可和。二孔仍保Ξ=E*M_T⁻¹E，并恰等于原正铅笔t=0边界导数；有限增量不能代其上界。继续真实Ξ/高旗费用，N=M未闭。
 
-**三十条新来源对完整来源权七旧像的独立性已闭。** [完整有界来源与Bell饱和证明](results/R150-appendix-complete-bounded-source-weight-seven-and-bell-saturation-boundary.md)用已付312秩及最低权交零，将范围扩至全部五十原列的合法来源乘子：G维344、Bell维573，旧像917、加入30为947，完整输出12713；没有新大矩阵计算。此像不等于L0∩F≤7。对权7的V，完整成员恰存在q使b^qV∈G；来源权≤10恰bV∈G10，10122旧源＋30目标/77276行尚未运行。继续完整权8来源前沿，不能从有限q独立宣全L0扩大。
+**原来源计算继续完整有限前沿与受控局部图。** 全116→50、三十NiYj及来源权≤7的917→947和Bell全部幂饱和边界已付；全局50候选600秒未返完整candidate，不空续。δ14稀疏10×56已实际派发run43883188532，单图e0/δ幂仍须全原来源回填；单Bell首一约简不省项，已记录不重复。全W31/W127及各8515/26410整来源费已闭，其余原范围见[结果索引](results.md)。
 
-**原rank4δ14稀疏局部入口已完成实际准备，进入独立候选job。** [原10×56来源接口](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)保46裸原列与10个ρδ−1局部器，四Bell冗余的40坐标/4原18乘回及全480 adj真；v2实9.871秒/140588KiB、315860项。根整读源及原raw/manifest/完整输入SHA，新增专用Python3.12.14 job重建180/180后实算600。无完整candidate不空续；单图正证仍须清ρ后全10/18/17及另E门，十九图不免费关闭。此前六行MemoryError、完整尺寸诊断和list/tuple首失败均保。
-
-**全W31生成、ann及统一整来源费均已闭。** [完整四轮饱和](results/R150-appendix-whole-normal-square-module-over-D31-is-generated-by-nine-squares.md)给field长度22,22,19,18,17、Tp长13=H2，故全U31=M31；原AnnU=h*(31⁵,31²(s−2),(s−2)²)，共同最小31指数5/2及全部M型继承。[整来源度数证明](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)对每个4212基目标给费用≤max(8515,124+degq)，三个ann生成元均8515。来自真D31 leading-unit原minor/单首一Δ298和完整三支除法；不借九平方小目标权、不声称任意高参数组合固定费，不扩D127。原计算/独立重放/根双SHA均见正文；未展开4212源数组或给系数高度，其余普通ISP/Bell理想继续。
-
-**完整低旗标上的整个返回源 Schur 能量已付。** [同一原首头、全零源及跨头完整证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)给 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，取ℓ=2d−2后，准确增益为 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。完整canonical Fock保全部birth/物理最小源，F2及混合块仍精确；有限池 $y=(m+1)^4dx$ 支付ε_f+ℓt，fresh6d正交修复使Σ(qℓ−q0)<2，从而支付整个返回源而非仅第三旗分量。bosonic Schur总能<4，但 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；去正则项、外部高旗Schur及原 $\sigma_2^2\|(C^{*2})^\dagger\mathfrak h\|^2$ 完整费仍须另证。源在低旗不保证MP逆像在低旗；不据此宣N=M。原τ14、全h/matched/cut不变。
-
-**原50列真实600秒候选边界已核；后继须有新来源入口。** [固定Python后的完整实际回执](notes/2026-11-16-r150-original-parameter-module-selftest-and600-budget-boundary-789f.md)run43878449638模型/压缩均成功，真实module正负/SSI/U=I/FLINT自测与500原坐标全真；slimgb实际584.999秒仅START，未返回完整candidate。第三步exit75但前后signature均null，实际未空续1200/1800；并非OOM或数学负结论。根独读完成日志、三raw与全manifest SHA。保全12参数/原50来源，转有原来源的局部图或更强闭包层；e0和E来源仍待真全10/18/17乘回。
-
-
-**原首低通道及全部未闭旧接口保[完整最新open快照](notes/2026-11-16-open-before-whole-W127-source-cost-789f.md)；归档不等于关闭。**
+完整此前open、所有未闭接口和实际边界保[本次完整快照](notes/2026-11-16-open-before-physical-kernel-parameter-789f.md)及其归档链；删除重复状态段不等于关闭任何问题。
 
 ## 主目标与完成标准
 
