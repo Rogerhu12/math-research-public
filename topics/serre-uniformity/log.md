@@ -500,3 +500,9 @@
 - root读完整证明、原R376坐标/作用/CM段与EP primary式4/5/10/13；仅把§5 kernel范围澄清为scalar eigenspace H。未将局部代表/Cartier单位冒充原q-normal或global multiplicity，R869继续所有cusp原格接缝。
 - R862正式结果5eca1ff8已推6373b025。R866修YAML后的真run43815338283/job133126104764成功，实际5722522B artifact14202411654/007b72c8正在纯IO取回交R865。H完整归档后缩并旧已成来源，所有边界继承。
 - 本push规则：本地真实pull至a655016374483e0f82612ab761513697ba09a732（2026-11-16T06:18:09.110561+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 14:22 Asia/Taipei — serre-public-astra-20261115
+- R865纸证50bfc4bd：原g7=T(1,2)与八真陪集、σ47/σ7准确方向、原twist交换与Rosati对称已证；13阶40坐标的20尖点注入使原127矩阵可严格恢复。
+- root读完整纸证/执行方法、R775原半线性迹及Zywina primary Lemma4.3/4.5与slash规范。只读旧q≤91及R866共享H/J/逆；新的12块/算子/谱仍待公开执行，不冒eη/d/N。
+- R867已推7771c233。R866真实3.399841967s/52stage、cY/全部127 Q基/全560行已成，整ZIP/65件纯IO核，175原件消费者正在接源。H与open完整逐字归档后合并重复已成记录，O1–O6/全部原尺度边界继续保留。
+- 本push规则：本地真实pull至08040ecf71c1df27468ff39ed697b7730f7597e3（2026-11-16T06:22:45.387159+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
