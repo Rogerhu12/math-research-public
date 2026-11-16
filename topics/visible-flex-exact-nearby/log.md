@@ -191,3 +191,7 @@ root规15普通清理仅3exact报告，gross200661B；note440923e14f0541f75ddcf6
 ### 2026-11-16 15:29:33 UTC — WEX31独立首轮workflow触发
 
 包已在 `e44fbd47df917146e34067eb23a1c3554222e27b`。本次只加独立 ownpath main-push workflow `b372bee0b1a9e812b3a51961267bde47a4e06794` /2902B/SHA `3a9f99f411d83cad91a87820908bf60ada30ea140eded90d8257d3c0221314cb`，固定 manifest8d58db48/worker3770e29d；Python3.12.14/flint0.9.0，public自身Actions、one child1800s、完整prefix、持久consumed marker，既有target0重算。父级完整容量当前199221023B，加147000B pending全发布、4000B marker、120000B reserve和10000B文档量低于200000000B；无其他正在运行的本课题科学输出。run身份待取得；不以trigger当数学完成。两README在91ee821ba34a537876a8dc2c1cb14f0774619b3e同已读，CI每真pull逐完整diff后科学前双容量门。
+
+### 2026-11-16 15:30:37 UTC — WEX31首run身份
+
+公开自身 Actions `43896937318/1`，workflow head `5a391cf1c8fca666df9484266a4a12af84c03473`，job `133402935682`；15:29:40触发，partial checkout已成功，尚待完整科学结果。此run只许首算既定31新targets，8旧actual/62完整旧record皆只读；成功或失败都须取完整小JSON再写结论，失败不得重启已成prefix。两README在f70acbf1886f0f363c3c1d6b60760438f59e545c仍同已读。
