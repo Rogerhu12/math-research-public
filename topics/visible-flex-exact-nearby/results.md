@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WHS：真正粗 stable 输入的完整正侧 forcing/外端与 head 腰反馈已定域。** [证明](results/R133-supplement-rough-stable-inputs-and-complete-positive-head-feedback.md)3e274258；原PC整两候选扩真实壳、完整negative-one source与bodyYsup、SE自然稠密识别旧图，得到Xfr−4/3强型。全G/finite T/余核/两mean/physical96及zeroV0端点同保；未知逆范数和signed finite逆未付，WHVA失败门不移授，0新数。
+
 - **WHVA：原行全覆盖3最大值与完整零Volterra网格诊断已成，充分门失败如实保留。** [实际结论](results/R133-supplement-actual-zero-Volterra-positive-head-mesh.md)9274e696；43838214094/1完整14门/24目标/18新球，旧数学0。N=4096的epsilon35.51628…、requiredN145475>cap；0矩阵/0resolvent，不证奇异、不授finite逆。完整原域/mean/affine/cokernel/endpoint和所有旧身份冻结。
 
 - WHV 的唯一新网格 consumer 已封包：15 current、13 immutable history、6 AST（2新科学+3旧仅解析+worker）、固定 N=cap4096。只恢复完整旧native并新取三个 whole maxima，之后完整typed组合及一次strict比较，false也是完整结果；唯一科学child前公开消费标记，每新目标完整原子保存。尚无新数值结论，所有4650旧行、3594接口及旧成功禁止重算。
