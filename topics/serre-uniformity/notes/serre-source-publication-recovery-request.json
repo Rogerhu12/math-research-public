@@ -2,34 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R919-actual-complete-original-differential-trace",
-  "commit_message": "serre: certify complete original Hecke differential trace",
-  "rules_last_read_commit": "64228da6693769dcf70fb8bcaec4a72ad0faa445",
+  "request_id": "20261116-R917-actual-two-original-normal-orders",
+  "commit_message": "serre: certify both original endpoint normal orders and frames",
+  "rules_last_read_commit": "b0f904f0d637eb324d66bf69772197a0ec867e39",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "ee690ca7cac6220db7ee785d59f48d3e959adc7e2db86c9bd9aa4afbbea769e3",
+  "expected_previous_request_sha256": "afd6a13e53d64ca7e3c37553b022ccda7c9366a57cc646a1055dceca0e405386",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R919-certified-original-whole-Artin-Hecke-differential-trace.md",
-      "sha256": "3bb910312354a7b833afe9900f0818d27827560f66d046c1789efeae9c60943a",
+      "path": "topics/serre-uniformity/results/R917-certified-original-two-endpoint-normal-orders-and-frames.md",
+      "sha256": "cf5b4714405bd534b8bb7fe732dc36722eb04b2f372debca93d9b2523e57d937",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "5b9f90f0f7b14abc9e17f3d0528ce05cbc27902d35480b683943a8ca09fa503a",
-      "expected_previous_sha256": "169e0070d954b1fad60b40e9a594e70eb33219242b9a26286d81d71c66bdc03e"
+      "sha256": "c013728804c3da2a11b0fe645e1fc817491f56c979d96d6e8609254131de04c1",
+      "expected_previous_sha256": "3c53ef01ebc5c67e9d5fc3b0aa23478a5be21e217bf3527f7c359861e7a3bc3d"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "f014b562d037058a3312c71fc04b726a5d642b110f17519d58fc171cf9088f52",
-      "expected_previous_sha256": "a6b8a7d10a093781e582c5536a2a4b4ecca27a6eec0991e9e496c16e7f3e18a2"
+      "sha256": "fc455b60a3325c45830e993728907aac90e0e4281bcdd2642676555de8fea3d6",
+      "expected_previous_sha256": "f014b562d037058a3312c71fc04b726a5d642b110f17519d58fc171cf9088f52"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "97417a55370d4dbfca8e485f88c0cbc3d67f8ab3c866cca4ca1778a1e5b0e771",
-      "expected_previous_sha256": "2558f5d342c35fcc30bece2731913c2edf429950a82908b67431c65ddb693084"
+      "sha256": "c46913378fcfb4f16dacffc97110b3bcd04fbbfaaf75aba7a2152996627b4694",
+      "expected_previous_sha256": "25fc2bfdbc8046f334b0a3e1d6d2d02f01e63979e711ed0e5d7c941443cc8577"
     }
   ]
 }

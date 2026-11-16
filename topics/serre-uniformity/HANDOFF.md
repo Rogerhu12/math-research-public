@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：b0f904f0d637eb324d66bf69772197a0ec867e39**（2026-11-16T16:16:21.403514+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[端点执行前H](handoff-archive-2026-11-16-before-endpoint-execution.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：8dbd975a2040a9426e6858745c99c86c484d3221**（2026-11-16T16:17:38.850749+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[端点执行前H](handoff-archive-2026-11-16-before-endpoint-execution.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -35,7 +35,7 @@ R805–R883原W/两图/146/418/273jets、参考254P0铅笔、未缩放t首项；
 
 **[R914反射/P1认证](results/R914-certified-original-full-V1-involution-and-P1-jets.md)**：43898224893/1b397d40，143新准确RHS/81760原方程/C²已成；全146有理C及272×273 P1 jets。ρ1=ι*ρ0，c1=−c0=645187085，t1只三项，CM公共τ一次。FINAL8c2ce53f/manifestfbc71afa/art14241065505，469原件及完整pins见结果；rank8/九Norm/刚性帧未成。真pullbf30a01f/15:36:57UTC两README无diff已读。
 
-**[R917原两端八阶正规order契约](results/R917-original-two-endpoint-normal-orders-and-source-contract.md)**：真实R914全146叶/273项已接；17列共同θ0²清分母为V10，保原P/a8与K/PU；Θ=ρ^hU首一仅损a阶。trace-radical及idealizer两个≤8未知核，四块0/1项、最低−2项整性/每步精度均明确；准确discrim4方可停，保全2+3+3幂零与det uρ^(28h−I)、原cε^(−m)。[六件执行](notes/R917-original-two-endpoint-normal-orders-method.md)全文读完已激活，coref0e321a1/helperc728c8e0/wrapperf4a5e2a1；40原件最小闭包，独立两端order与原t帧，实际run43904492746/job133429673237已success，正读证书登记；靶272/五理想/九NmΦ仍false，未来R903/R907为null。
+**[R917两端正规阶实际认证](results/R917-certified-original-two-endpoint-normal-orders-and-frames.md)**：43904492746/133429673237/64228da6，173stage/3.290035528s；两端Ptilde8阶0/h0、273项原表discrim6→一次index1→discrim4/271项。保完整8³、两向Laurent逆及原2+3+3幂零；det=−ρ^−1，t首项P0 645187085/P1 354813668。FINALcf539a58/manifestd8bac1cf/art14244312360与40原件全pins见结果。只原rank8/primitive-t帧完成，靶272/五理想/九NmΦ/height仍false；R923接真order，R903/R907仍null。
 
 [R912端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)保九纤维Nm(q*Φ)detUj/detU0、原t/dual7、两端共用λ∈0..16。[R915](results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md)完整Euler表达式及所有分母继续。
 
