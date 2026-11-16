@@ -72,3 +72,8 @@
 ## R534 — 同次owner128与原DN完整projected64模型的真实全链
 
 **已证明完整来源/全返回及有限算术条件组成；没有新科学运行。** [R534](results/R534-current-owner128-same-DN-complete64-model-and-original-gates.md)/[完整接口](notes/2026-11-16-current-owner128-same-DN-projected-model-complete-interface.md)五件225478B：gen18862/990c、core-plan72022/826a、complete-plan83541/def1、proof21178/0385、接口29875/5b76。372=原342public+14gen+两R532库+新gen+13独立view；原225全部356身份保。实际owner先完成原tol/replay，旧post明确deferred；同次全577×224一次RN64→原同一个DN全部576×226×224/port/双mean→有限64字整数准确lift128→原全boundary/338endpoint/独立audit/assembly及原FD/fullDN末门。原128值权威，模型不冒准确DD/收敛；原19200/6000/1200/8000/600/600/1800保，投影/flow/lift共stage窗口，同步cell有真owned guard ready/TERM→KILL/wait/reap/quiet。五原物理来源真目录及完整manifest修路径，packet数值体不改；新所有partial/未访/来源/必要scope保，单90K超70，科学失败必要全返且原quiet真时仍可清理。R535不混，R509先行owner成本未由此解决；R542/229入口继续、R543 geometry唯一，尚未创建或dispatch，无速度/模型质量或接受预填。
+
+
+## R542 — Request229当前owner与完整projected模型正式入口
+
+**完整入口来源与控制流条件已付，实际结果留R543。** [R542](results/R542-request229-current-owner-projected-model-complete-entry.md)三件121837B/topic99203B：request79743/934d、最终workflow22634/cc34、证明接口19460/08e3。原225全部356源保，新345public+27gen=372；R534真13view先生成后全map绑定，原输入/runtime/livecaps/resources/双README对象逐值不改，338只纠正说明。实际owner-first/同DN全576模型/准确lift/全boundary/endpoint/audit/FD/fullDN末门和19200/allcaps保，R535未接。source必要真读文件核schema/plan/run/SHA送report，science独立90K70；缺正文或运输校验失败明确清complete，原quiet/清理保。新增.github/workflows/visible-larger-public-live128-projected-model-original-fullDN.yml仅workflow_dispatch；首稿7f11已废，只派最终cc34。正式发布后单POST另记真实run/head，geometry唯一R543，无性能/模型质量或接受预填。
