@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：07768776c81cbe2965bce299d0a756e6d798870a；2026-11-16 13:20:59 UTC核两README无变。实际CI pull 2026-11-16 13:09:18 UTC/34e4ee45e5b621e97c24209805db714c518410f3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:09:05 UTC仍无环境。最迟2026-11-16 14:00 UTC再实际pull。
+- 最近已读规则提交：8bc6ba8ecdbb7f74a3783cec167746a36d962ded；2026-11-16 13:22:43 UTC核两README无变。实际CI pull 2026-11-16 13:09:18 UTC/34e4ee45e5b621e97c24209805db714c518410f3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:09:05 UTC仍无环境。最迟2026-11-16 14:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[本次压缩前完整H](notes/2026-11-16-frontier-after-relative-norm-and-local-kummer.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–884已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[本次压缩前完整H](notes/2026-11-16-frontier-after-same-corrector-normal-return.md)、[完整旧结论索引](notes/2026-11-16-results-index-before-original-hom.md)和[完整open](notes/2026-11-16-open-before-low-hurwitz-and-map-execution.md)沿链保全部旧公式、来源、条件及未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、open.md。R1–363、365–560、562–653、655–711、713–885已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C24交叉链与四B；literature算原实际Hom函数和交点。子问题完成即续open。
 
 ## 当前第一实际门：原映射、真RR与完整shadow
@@ -34,7 +34,7 @@ R880全三角色/独立双轴/χσ=ζ7、ζ4、ζ及同eω保，原18×9返回(1
 
 R883H原Y为z²=T、c³=(z−3δ)/(z+3δ)，y=δ(1+c)/(1−c)，三层étale但非全split。完整local Kummer后端已接四RR，原δ常数嵌入/完整norm+系数极支持/Σef/全负floor/原d_abs÷2齐，尚未执行。G/H.8的Tate全迹含ell|d，默认终幂用原F_(r²)相对Norm，保power/scalar/compare；新run43870209568/job133309066101全独立scalar回归成功，含全底挠点/辅助例外/dell真ell²点，hash见执行注。不再扩同类可选测试。
 
-consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只接两真实char0 PASS，核job/run/head/source/hash/whole末端，stdin只读无网及完整依赖齐。无consumer请求、无原shadow输出，禁止假PASS。root跟进两map/五RR；literature续原Z的真实反循环lift/ordinary loc桥，不能以augmentation前注入付特殊化满射。
+consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只接两真实char0 PASS，核job/run/head/source/hash/whole末端，stdin只读无网及完整依赖齐。无consumer请求、无原shadow输出，禁止假PASS。root跟进两map/五RR。R885已付原端点真实有界反循环D，sp0D=Ep AJ(Z02)，原q/q⁴和4/Artin/旧副本全保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³真unit，C5=−216全分支unit。原+++=λ/N；同Coleman有限余核使Dfun(0)=Ep原ordinary loc坐标，无额外T因子。只得Ccan·D=Dfun·ccan，不约增广零。literature续同原底类的tame norm/wild比较，root付辅助三Euler单位，尚不应用Selmer消失。
 
 ## 当前第二门：四原B与同一低配对
 
@@ -46,11 +46,14 @@ R863同H22两低配对、R876谱、R879全部热/trace/高端/q3/CM词保原证�
 
 ## 当前第三门：原低松弛同P/R/S后两页
 
-原P134/十九角/charge40/conductor10980/39carry/全WD和M=c*U0w13J保完整前检。TM=s−r−13、TJ=s−r不混；H高尾/四位/三残差和同R/S不能删。四中央0给H−Hc∈p³，Λ0M/p=Σ_(d1..3)p^(d−1)a^-d[w^ds]Wtilde_(r^(d))，无1/d!。
+完整P134/十九角/charge40/conductor10980/39carry/WD和M=c*U0w13J保前检；TM=s−r−13、TJ=s−r不混。同R/S的H高尾/四位/三残差及原三中央商不删，精确式与R868/871/872三折回见上方完整H归档。
+R872实际调整口仍是全K1的W2末三尾联合像；同预算Pfact和完整p³才付J/p²。τ1同R的ER首s−1单位、E²整h+ell段和E³的ξ短段、两近支(7±√−17)/6及严格f0交数3全保。
 
-R868 t^-τ只在τ≤σt成立；最小r=b0=3,c0≤2的σt0仍开。R871原S^-13三读者D1/Dp+2/D2p+3保整高尾。R872 τ1/2/3实际第三carry−6ab0γF含第二折回+12a，同X须Bτ+6aγFQc0；第二页baseline₂+a²b0γF/3=0。调整口为原K1的W2末三尾联合像，非三个自由轴。
+J3=(E+40)⁻¹V3的Π全0不删除完整β1；首核只需W0≥T，完整carry加深到s，且J3∩V1=V4。原全有限商W/(V1+J3)含全部真实底纤维与H¹连接核，不只物理零纤维；[全商证明](notes/2026-11-16-r872-native-finite-fiber-quotient-and-cubic-ramification.md)保全部Gauss/非固定3length(F,EF)。[零纤维证明](notes/2026-11-16-r872-native-zero-fiber-three-layer-quotient.md)给Q0=(A/t³)/(t²V)、两实际列、G1移动修正与物理去除后≤3行；全WD满像不冒K1满像，退化/其它finite及真F线性Π仍保。
 
-同预算Pfact与完整p³才得J/p²；原R两近支、E³ξ、V2/V3严格门和全部因子帽见完整H。原charge40单位门下J3=(E+40)⁻¹V3的Π全0，首核只需同W0前缀T，三完整carry加深到s；J3∩V1=V4，其值有两strict水平三倍Cartier消失。负水平BD·H−=4且A另含t²，z−≥1迫整个J3零charge0；同商仍有ρ−∈t k[t]≤4，非自由边界。新finite纤维注付W/(V1+J3)真实有限层/H¹核、全Gauss总长及非固定纤维3length(F,EF)；D=4b原F4来源使H¹0，真分解与K1前缀相容。[零纤维注](notes/2026-11-16-r872-native-zero-fiber-three-layer-quotient.md)再给Q0=(A/t³)/(t²V)，V真两列；非退化Smith(2,2,3)，全K1只读其它两支的≤3行，β2含真实G1。全WD到Q0满射不冒K1满射，未将这组行认Π；其它finite/真F线性Π和全R/S仍保。同一原F⁴余乘子最低charge j≤2；全A1/A3/A4的H¹只在n<j。新[两charge连接核](notes/2026-11-16-r872-quartic-two-charge-global-connecting-kernel.md)付j0时全D连接核0，j1/2维≤3/14；准确仅[f0a0]3,0与[41f0a1+44f1a0]3,1两Laurent行，A1行由真F²冗余，f0不冒unit。新native首Bockstein：J3上λ=a⁻¹(5042W0,s+9U0u0²e0αA)当τ1，τ2/3只首项；W0≥s不杀该行，αA与其余两支同γ来自同A。完整β1仍约束同R/S，不因ΠJ=0删J。若z−≥1且v1=(L⁻¹(YF0³))(1)≠0，全J3∩K1的A/J真含t³，τ1 normal项消；退化F0=Y²(Y−1)自动满足。quartic真t³还迫4z−≤1+6j，故z−≤3；z3时全J3的A/J含Y²且t³，无v1门。5042在p6s−1>211真unit，完整β1通过还必须W0≥s+1；未付其它行。同修正[有限类返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)付τ1的o(R)0⇒dD≥κ+s+1，完整normal/ξ段及两近支不丢；小于门时0∉o(R)+o(kerβ1)，不据此排全部p³。
+[two-charge连接核](notes/2026-11-16-r872-quartic-two-charge-global-connecting-kernel.md)：同原t³F⁴q使j≤2，j0时所有D的H¹连接核0；j1/2维≤3/14，核只有[f0a0]3,0、[41f0a1+44f1a0]3,1两Laurent行，f0不冒unit。native首Bockstein准确λ=a⁻¹[w^s](5042W0−246W1+3W2)；τ1另读9U0u0²e0αA，τ2/3仅W0,s，αA与其它支同γ而非自由。
+负水平z−≥1迫整[Y0]A/J零；v1=(L⁻¹(YF0³))(1)≠0时全J3∩K1含t³，退化F0=Y²(Y−1)自动满足。quartic t³迫4z−≤1+6j、z−≤3，z3时整个J3含Y²/t³无需v1门。5042在原p6s−1>211单位，完整β1通过还须W0≥s+1，非充分。
+[同修正有限类返回](notes/2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：τ1的全球o(R)0才有同预算R=FH+J，完整normal/ξ段与两近支照搬；必dD≥κ+s+1。小于门时0∉o(R)+o(kerβ1)，不能借仅K1改变保同第二页，未排全部p³。
 
 ## 其它原门与同步
 

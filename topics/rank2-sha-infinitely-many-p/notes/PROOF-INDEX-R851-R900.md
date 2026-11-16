@@ -339,3 +339,6 @@
 
 
 - [R872同一修正的有限类与完整normal返回](2026-11-16-r872-same-corrector-finite-class-and-normal-return.md)：完整p³且τ1时，若指定R的全局有限类（含H¹）为零，真实同预算R=FH+J保整个ER/E²R/E³R及ξ短段、原t1列和两近支；故dD≥κ+s+1。小于此门的每个实际R都有非零类，且0不在o(R)+o(kerβ1)中，不能只用K1自由改有限像；未排全部p³或算满像。
+
+
+- [R885](../results/R885-original-endpoint-bounded-anticyclotomic-lift-and-unit-specialization.md)：原q/q⁴端点及4倍率、全η/Artin/旧副本由DR全对角类和ACR(6.4)的真实Λ同构给有界反循环D；sp0D=Ep AJ(Z02)，原根逐项给Ep且用E0六挠证明unit，C5=−216整CM分支unit。原最高+++=λ/N进入同Coleman，同一有限余核消额外T因子；Dfun(0)准确检测原ordinary loc，仅保CcanD=Dfunccan，不约增广零或搬7993。

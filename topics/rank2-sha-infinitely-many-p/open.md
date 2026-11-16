@@ -139,3 +139,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - 原同R/S下一门：τ1且dD<κ+s+1时，完整p³迫指定oD(R)非零，且任何将其归零的K1改变都有非零全β1。须继续实际有限像/连接类及全高前缀联合；不能以ΠJ0或局部低商替全球零类。
+
+
+- R885已付原端点有界D及unit特殊化，最高λ的ordinary loc=0准确等价同Dfun增广零。下一步为同原底类的完整tame norm和wild比较、原Dfun阶及同canonical真实关系；CcanD=Dfunccan不能约T零，7993仍只检测canonical。
