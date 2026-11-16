@@ -213,3 +213,9 @@ run `43896937318/1`、workflow `5a391cf1c8fca666df9484266a4a12af84c03473`、actu
 完整proof `7e1c46ddc9c1a771a06c6bb4bf87c8676fd8c898` /24119B/SHA `72bef388c4bf801bfe746f0b645d1439d1a066ae3d6b7d68ab75b374b2908d6b`。根全文读10节/28式，亲核WPT真实dual窗/两完整source columns、已读WVC kernel/assembly与6条实际原球逐字；最终只补当前完整低reference记号D_f（WVC D_a；WCTR rId+D_a），逆两处替换逐字恢复397c原proof。K=C Vhat−What* r+d*GHr及centre ΔA/ΔB/ΔC正负号已核；独立collar正预算>128/25与旧KH>171仅否定固定正预算可闭，不是实际norm下界。新dual必须保端点/跳跃/atoms/真实H1窗和所有独立口；完整signed候选不能减两个旧upper。可选center corrector内部角224，中心残差288、full family416，与径refinement160区分。没有新数或自动重试，全finite/head/ν/Θ/非线性仍待。
 
 为保H≤10000B，将 `a4cadcb2c66b112a3fd98ecf2c2adc34d598cf4b` 的完整H原字映射为 notes/2026-11-16-WEX31-complete-and-WVCA-false-handoff.md：Git `87a318283c97a387f3e5c5f6bf2307a56401eb77` /9749B/SHA `cf3b4d1e836ad9b5d5f0351352015ed2da5a19f2700019dfdad749afde8c1d40`，不改变其中任何原字。当前H仅把旧归档索引、三批cleanup说明及未执行WML/WMC计划改为该完整页的索引；全部原对象/球/域/失败lost/清理恢复/义务仍保，不删任何待办。1b397d402ac0d6ff5872f77c1409fba356ff77c6两README仍同已读。
+
+### 2026-11-16 15:39:35 UTC — 四份已完成density/return/prefix派生报告普通清理
+
+依据根规15，仅删除四个exact current路径，总204505B；restore commit `8d1cfb2062e40c08ffd1334ea28fc0aab07f4f46`。完整恢复索引 `52268464f2e8f59411245e9f62e90177184520a4` /31430B/SHA `c4fd99934dafead95274567e97b718aac042ac96f141bf3377614ac3a88a9705`，逐件全path/Git/bytes/SHA齐；四原全文均先完整读取核hash。选取完整资格字段27/6/42/40，原词法JSON token不重排数值；其余完整字段token给bytes/hash并保整原文恢复。density Q报告仅原实H_N^s −2..2及fullmean，不扩旧complex contour；prefix仅113项/center0004/uniform-hybrid0003、failedprobes和later exclusions保；两个return报告完整whole-parameter/两强窗/两mean/普通与齐次source/regular ports、nonzero-head equation、全部七个false完工标志不改，high particular不冒finite解。
+
+当前WVC/WEX/WPS完整manifest无四路径current依赖；未来consumer需要时必须从该immutable commit按原path整件暂恢复，验证全bytes/Git/SHA，禁止重跑原producer。仅删四报告，不删清单内113对象/任何source/native parts/原scientific成果，history不改。清理前树199355899B；只读恢复说明和当前H/log新增计实际下一fresh容量，不把gross节省当净节省。2e639c714186336b2af120f5107586146ffa5d6f两README同已读。
