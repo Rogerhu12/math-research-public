@@ -3,11 +3,11 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 08684dc750ee0a17c50fa3494279a38cf30a3bc9（2026-11-16 11:57:58 UTC，临时研究session run43862258541实际pull --rebase，两README无差异；详见notes/r150-original-bell-fourth-even-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 84fd72748e36a2cbfd42201c623d0b86eb780303（2026-11-16 12:01:08 UTC，Actions run43862763997实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43862763997-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor10:38:47真恢复，本地pull及固定flint0.9已可用；旧目录仅逐SHA核后复用。终端发布/非快进循环继续，完整恢复与Actions身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-bell-fourth-original-source-session-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-unpenalized-two-hole-source-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -15,7 +15,7 @@
 
 - **[原Bell立方严格负已闭](results/R150-appendix-original-bell-cube-nonmembership-and-complete-weight-nine-source-kernel.md)：** 完整M9的Q/E来源秩16046，396 Koszul恰全Q核；实际模7原16047子式det6（source16046＋c0）排b³及全部K≤11。全部原输入/状态/来源根已独核，完整身份见正文；只称增广≥16047，不判Bell1空。
 
-- **[原Bell四次全偶入口已备](notes/2026-11-16-r150-original-bell-fourth-even-extension-interface-789f.md)：** H=z²自由2048扩张/全偶A线性投影保17原源；本地99.279秒全三个Q四次分量各364877项、1094631新系数7整及独立F7三乘回全过。root审完整field/Q3RHS/整行分批unit及wrapper，raw5458/binding99564113和7输出全部压缩/逻辑SHA独核；尚无来源。新实际session依次audit90、slimgb/SSI小例→三个原目标17×3 lift的600/1200/1800仅75续、Q600；完整51源/三Q原乘回才可判b4，不造49.7GB密集M12。发布后实际dispatch，run身份由下一检查补，不预填执行结果。
+- **[原Bell四次全偶入口已备](notes/2026-11-16-r150-original-bell-fourth-even-extension-interface-789f.md)：** H=z²自由2048扩张/全偶A线性投影保17原源；本地99.279秒全三个Q四次分量各364877项、1094631新系数7整及独立F7三乘回全过。root审完整field/Q3RHS/整行分批unit及wrapper，raw5458/binding99564113和7输出全部压缩/逻辑SHA独核；尚无来源。新实际session依次audit90、slimgb/SSI小例→三个原目标17×3 lift的600/1200/1800仅75续、Q600；完整51源/三Q原乘回才可判b4，不造49.7GB密集M12。已实际push50b36a2f、dispatch204，数学run43862258541自11:57:29在算；只报prep已成，不填来源。
 
 ## R150原rank-one精确系数接续
 
@@ -44,7 +44,7 @@ M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersec
 - **[原matched首反馈](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)** 同源r−Pr与压后creation/邻旗返回已付，保全部h段/same-u/真帽外投影；完整费用和实际g0主交叉见正文及刚归档H。g0主项仍开，不把两端Gram比较相减成返回预算。
 - **[移动一孔Bessel](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)** 保同物理H/完整同cut源，βxβy*=√(Sy/Sx)J*；几何x给完整行预算。此前锚/全部h段/同u费用见正文及归档；任意来源费不可用首逆标量冒充。
 - **[偶段可达核与第二Green](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)** 已付真整数头级/孔数半支撑，偶R时kerC⊂RanC；所有kerC*自由均保。第二逆仍需核外(C*)†(I−PK)Gv，不能由首逆≤1代替。
-- **[首头真一孔核消去/两孔正Schur已闭](results/R271-appendix-first-head-true-one-hole-kernel-elimination-and-two-hole-positive-schur.md)：** 完整dark/coherent核给F1=(I−PK≤1)f1；真实低伴随像给F2=q♯ω2−λz♯ω1，λ=σ2²/S，准确平方费γ2²=σ2²<q,(I+λAA*)⁻¹q>。F1⊥F2，同PV−PK/同完整matched源/真帽外投影严格相同，得调和费用及移动两孔Bessel；全部h段和same-u误差保留。γ2移动上界仍未付，首头非零锚未改。
+- **[首头纯两孔无罚源已闭](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)：** 真L*低源准确消去Zω1及AZω2，kerC*²=Z⊕AZ、RanC=AZ⊕RanC²。qflat=P_RanC²q，Fflat=qflatω2与F1同PV−PK/同完整U源，正交且费γflat²=σ2²||qflat||²≤旧γ2²。全左0/1行直接给β1U∈RanC、β2U∈RanC²；准确费为σ2²<P_T r,(P_T C*C|T)^−1P_T r>、T=K⊥∩RanC。纯两孔Bessel/原单位锚/同w/全部h段及真帽外投影均保，根全文独审。下一估该原受限二次型，未由primitive可和代核外费，N=M仍开。
 
 - **[跨头有限真核及完整moving行已闭](results/R271-appendix-cross-head-finite-prefix-kernel-comparison-and-summable-first-row-gain.md)：** 原Ni交叉Zi=αm/αi部分等距，N/Y carry≤18κm−1，负指数87.5d4−78.75d3+150d。真一孔核收缩截断＋fresh6d物理池使同r的B^(3d)=0、修复≤e^(−9d4)，误差可和；原τ14偶R/两头/全帽cut均合法。固定f1增益两项可和；任意same-w完整(Pi1−Pi0)Px行平方和<16||w||²。实际W另由真KQ正交＋β行直接付2Bλ+8Ση²，不需跨头。根逐原块/有限池/指数/移动交叉/父τ14全审；仍只付primitive首反馈，核外r/q与N=M未付。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。

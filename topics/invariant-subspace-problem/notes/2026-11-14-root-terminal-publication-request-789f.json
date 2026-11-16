@@ -1,28 +1,20 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "fe27ac55e0c5d538ac60473df9f1c33f1f90f3b3",
-  "createdUtc": "2026-11-16T11:58:00Z",
-  "message": "ISP R150: start original Bell fourth even-extension source and three-Q verification job",
+  "parentCommit": "2774f7322145fa028c1fdbead75656e308a462f5",
+  "createdUtc": "2026-11-16T12:00:50Z",
+  "message": "ISP R271: exact low-chain range and unpenalized two-hole return source",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-extension-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-three-q-exact-source-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-extension-interface-789f.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-extension-inputs-789f.json",
-    "topics/invariant-subspace-problem/notes/r150-bell-fourth-even-execution-789f/local-20261116-prepare.json",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-session-789f.py",
-    "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-bell-fourth-even-session-789f-request.json",
-    ".github/workflows/invariant-subspace-r150-original-bell-fourth-even-session.yml",
-    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-bell-fourth-original-source-session-789f.md",
+    "topics/invariant-subspace-problem/results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-unpenalized-two-hole-source-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
     "topics/invariant-subspace-problem/open.md",
     "topics/invariant-subspace-problem/log.md",
+    "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
-  "dispatchWorkflows": [
-    "invariant-subspace-r150-original-bell-fourth-even-session.yml"
-  ]
+  "dispatchWorkflows": []
 }
