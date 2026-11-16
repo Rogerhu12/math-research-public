@@ -4,9 +4,9 @@
 
 ## 1. 规则与实际拉取
 
-根/题README已全文读。最后已读公开actual pull：ec32746479497d3659cd6f1873bd90e3aba541ad，2026-11-16 00:11:09.068770 UTC，run43778846845/job133011215561；00:11:57核双README空diff。下次最迟2026-11-16 01:11:08。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
+根/题README已全文读。最后已读公开actual pull：7bfb32a3319a25e5fa24b7a2783da880a7e4db65，2026-11-16 00:18:56.472180 UTC，run43779613612/job133013590365；00:19:18核双README空diff。下次最迟2026-11-16 01:18:56。根blob21bd547f56590b7f2dd279d0297efb289a9b2783，题d0432faff569c8e9af7ed4809847e12880976c11。每次pull只读新差即执行并记SHA，每小时actual pull；每结论即推，NFF立即actual rebase/核规则/再推至成功，不force。
 
-私有actual pull：33d0613d783c753ff2d4de1d4cc00a893ca29713，00:11:13.171546 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README不存在、QUEUE本会话唯一进行中。ref冲突已真实rebase/核规则，记录保log。
+私有actual pull：ec0cccb24aca86f39faa93eab4b215ec42a1f98e，00:18:59.420045 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README不存在、QUEUE本会话唯一进行中。ref冲突均已真实rebase/核差，保log。
 
 新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（22:13复核exec-server缺失），依根8小UTF8发布；API非pull。
 
@@ -46,10 +46,12 @@ R391原同锚逆germ：p中心单零不容residue抵消，每Af点准确累计fl
 
 [R409](results/R409-eight-terminal-packet-fluxes-read-the-positive-canonical-character.md)：原完整自然平移degree≤7，七次=−3λ+∫u″⁵/80。原八复制同形同宽末包的R/T suffix全0，16真实d/e totals经Lagrange准确读λ+>0，任意同圆w不变；M5≠0时这些门不能全零。可在新母minor初选同时保M5≠0/原19根；旧冻结圆未测M5，只获M5=0必要条件。下一真正构造M5=0共点或改机制，不能再沿该非零第五矩路线付全period。
 
-R394同13规范接口保Af/germ/gap k值/incoming与平台成本；deg4矩阵/deg6rhs Smith零行与圆上整除jets给全相位smooth iff，≤52重数非rank。其全Λall0条件不能实际构成，须改付R407有限totals；同一k完整解仍欠。
+[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)从v=−u′两坡+固定凹接ψ3尾，准确五次标量给有限正η的M5=0简单根；在该正则C²流形取真限制max-F/19minor，以r+1列保M5/F并付原19根。所有包仍正单峰/一对Af/共同外区，只新母数据；低次自然与period欠。
+
+R394同13规范保Af/germ/gap k值/incoming/平台；原Smith零行及整除jets给smooth iff，≤52重数非rank。须真实有限totals和同一k，未完成。
 
 Gaussian R388在同Gaussian/M0/TκH、κ≠0条件下，用正系数D4=∫(f″²−u″²)²迫连通C²首阶轨道恒f；不排高阶才动、别机制或一般C²面。下一新有理母形/全部内部门、完整自然joint及真正同g有限族，不能回已阻断芽。
 
 ## 5. 继续
 
-[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)：run43777844163/job133008102089/source ad3b104606347c345020d229b6fbc1c648dabacc，9新人工全过；入口source_cfg缺primitive_order于objective实参求值停，新研究value/J/model/LP/接受全未入。science13.756976061s/process17.244257308s/RSS299708KiB保留，修复request曾遇ref并发，00:11真实rebase/规则核差已付，本次重推同一请求、结果待读；64LP/160值及原14门/438+4/祖先γ不变。源码[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)仍原范围，未得真实加速。理论推进精确M5=0/低次finite自然像及13同规范。全第四、高阶、固定g有限族、全时嵌入/reach/幅度欠，继续open、每小时actual pull。
+[direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)：run43777844163/job133008102089/source ad3b104606347c345020d229b6fbc1c648dabacc，9新人工全过；入口source_cfg缺primitive_order于objective实参求值停，新研究value/J/model/LP/接受全未入。science13.756976061s/process17.244257308s/RSS299708KiB保留，修复request曾遇ref并发，00:11真实rebase/规则核差已付，本次重推同一请求、结果待读；64LP/160值及原14门/438+4/祖先γ不变。源码[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)仍原范围，未得真实加速。理论M5=0同19根已付，继续其低次finite自然像及13同规范。全第四、高阶、固定g有限族、全时嵌入/reach/幅度欠，继续open、每小时actual pull。

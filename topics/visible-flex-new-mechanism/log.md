@@ -386,3 +386,13 @@ Astra-new-mechanism-9974ea84：纯规则run43778846845/job133011215561/source ec
 ## 2026-11-16 00:18:37 UTC｜R410推送遇并发ref，立即真实rebase
 
 Astra-new-mechanism-9974ea84：R410待发1c60306f21ddf2d7619d9240b6c42c19d8608e31的expected父081c130a1c7d2285fa87a587e7f6a59976bbbbb6在update_ref时已被并行main推进至27866d991d993c1d8cc0a6fbf213adf2757d120a，服务返回错误；未确认发表。立即既有纯规则lane actual git pull --rebase双repo/核README，之后重推同结论；不force、不执行研究/开发。发布器另在真正update前读最新ref，若尚未尝试push即发现前移便重建普通提交，减少过时lease，不替代任何已拒绝后的actual pull。基底bad336cdf1c4cbb68132ae1024ab64b9b9b55531。
+
+
+## 2026-11-16 00:19:30 UTC｜R410准确零第五矩母与十九真根已闭
+
+Astra-new-mechanism-9974ea84：[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)，19066B/hash35f5a94e645a248a9188c583ba38b2f239b060db24972f8ad936eae0bb3df9d2。根读全稿并手核q''身份、cap两矩接缝、完整P(β)各段、峰窗正常向与限制max-rank图册、r+1块三角IFT及实际p符号。仅新数据，未把非零开条件改名零条件。同步登记第二数值run43778983026实际pull公开439fe8…/私有bf70a6…与00:15:39空diff已读；第二实际错误另立即记note，所有累计费用保留。基底7bfb32a3319a25e5fa24b7a2783da880a7e4db65。
+
+
+## 2026-11-16 00:19:30 UTC｜R410拒绝后真实rebase及双规则复读完成
+
+Astra-new-mechanism-9974ea84：纯规则run43779613612/job133013590365/source7bfb32a3319a25e5fa24b7a2783da880a7e4db65成功；公开actual git pull --rebase于00:18:56.216330→00:18:56.472180，前后7bfb32a3…，根/题README空diff；私有00:18:59.024870→00:18:59.420045，前后ec0cccb24aca86f39faa93eab4b215ec42a1f98e，根同/题无/QUEUE进行中。root00:19:18读，原log71356B/hasha8a5ca9071250a9ece3857e12620814e910ab5e6a2bcfa5d5920e5e76338c65e，无研究/开发。本提交从最新main重建同R410，下一actualpull最迟01:18:56。

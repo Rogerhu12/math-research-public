@@ -369,3 +369,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## direct-reference首次接口与科学入口错误
 
 [direct首次九项与入口停止](notes/direct-reference-first-nine-checks-and-entry-field-stop-20261116.md)（6174B；SHA256 91b107ac73ca4e22a4cbcc91c203565bc02d6289922fbb2908d657012b4925e8）。run43777844163/job133008102089，9新人工全过、3个新小原比较逐位同；required输入已付，source_cfg无primitive_order在objective调用前KeyError，新真实value/J/model/LP/trial/接受未进入。科学13.756976061000046s/进程17.244257307999987s/RSS299708KiB完整保留，不宣真实速度或14门。下一修原字段来源、只读复用9收据、同1800预算累计，主题继续。日志/输出/规则actual pull完整hash保note。
+
+
+## R410｜零第五矩与一对退化点、原十九个完整目标同点成立
+
+[R410](results/R410-zero-fifth-moment-mothers-with-one-degenerate-pair-and-nineteen-exact-targets.md)（19066B；SHA256 35f5a94e645a248a9188c583ba38b2f239b060db24972f8ad936eae0bb3df9d2）。固定cap用q=v^(2/3)的严格凹密度及0/1矩修补接原ψ3尾；两长坡+短cap的准确M5标量−2(1−β⁴+ηP(β))给小正η唯一简单零。保共同外区，在M5正则C²流形选真限制max-F与19jet minor，r切向+1正常向纠正同时保持M5/F；原正核/完整C1集中给有限N的全部19真根，实际p号保护不添Af根。每个实际副本同付，仍正单峰/一对Af。只新初选母与数据，未付自然低次/period/13同规范，无执行。
