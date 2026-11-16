@@ -333,3 +333,6 @@
 
 
 - [R872原quartic负水平全范围与双层消失](2026-11-16-r872-quartic-negative-horizontal-range-and-double-vanishing.md)：原余乘子精确jH−与R0的t³给4z−≤1+6j，j0/1/2分别迫z−≤0/1/3。端点z3的两次真实限制次数2−3z−、8−3z−均负，故整个J3的A/J含Y²，再由t²帽≤1迫含t³，无需K1或v1非零。原零/一charge帽4/8准确下降商但不冒满射。5042在原p6s−1>211始终unit，若完整首Bockstein通过则W0须从≥s再加深到≥s+1；其余β1/Π与全同R/S仍未消。
+
+
+- [R884附录H](../results/R884-original-t72-norm-three-heat-and-c24-h22-pairing.md)：原σ6/σ12的准确2、δ拉回把其B化严格低配对；同Q48=σ6A42、W48−u16/(78624b)=σ6A420保真实全来源与质量。原Ĉp不变的逐次Leibniz保DR3，最终BQ48及补偿W高读者均化同源低配对，q_p(2)与全部new/cross仍保，未新增中央零。

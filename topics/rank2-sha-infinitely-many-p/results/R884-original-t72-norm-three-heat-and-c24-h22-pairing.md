@@ -2429,3 +2429,233 @@ $$
 (G3)、(G6)、(G8)–(G18)的来源、质量、整性及全部减项由上面的
 全纤维和 whole Hurwitz 证明独立支付；
 (G4a)进一步固定了同一实际来源的全部系数。
+
+
+## 附录 H. 原纯 sigma 参考的低配对与同 U 余项的完整质量补偿
+
+本附录只继续读取(G7)的原 $W_{48}$。
+下列中心补偿始终显写为同一来源的差；
+它不为补偿后的截面添加中央零，也不把(G11)的原质量减项删除。
+
+### H.1. 已付全来源中的准确因子
+
+用(G4a)、(G7a)完整多项式相加并除以 $X+4b$，准确得到
+$$
+\boxed{
+W_{48}=[\delta]^*\Theta\,W_{42},\qquad
+W_{42}=\frac{\sigma^{42}}{78624b}\,L_7(X),
+}
+\tag{H1}
+$$
+其中
+$$
+\begin{aligned}
+L_7={}&X^7-1712bX^6+81048b^2X^5-32608b^3X^4\\
+&-220672b^4X^3-397824b^5X^2-266240b^6X-32768b^7.
+\end{aligned}
+\tag{H2}
+$$
+因为 $[\delta]^*\Theta=\sigma^6(X+4b)$，直接乘回(H2)
+恢复公开完整八次多项式，故(H1)没有遗漏低端。
+$W_{42}$ 的质量仍为 $1/(78624b)$；
+不能将(H1)的质量一因子视作 $p$ 次幂而穿过 Cartier。
+
+置以下原固定 sigma 来源：
+$$
+v=\sigma^6,\qquad u=-R_3=-\sigma^3y,\qquad u(0)=1.
+\tag{H3}
+$$
+它们满足完整身份
+$$
+u^2=\Theta^3+bv,\qquad
+[\delta]^*v=-27v\Theta^6,\qquad
+[2]^*v=64vu^6.
+\tag{H4}
+$$
+这些式子均由原 $\sigma(\delta z)=\delta x\sigma^3$、
+$\sigma(2z)=-2y\sigma^4$ 和 $y^2=X+b$ 直接得到。
+$u$ 的奇 degree 标准半特征保留；
+(H4)中的 $u^6,u^{12},u^{16}$ 都是实际偶 degree whole 来源。
+
+### H.2. 原 sigma 六次、十二次参考的真正严格低窗口
+
+以下仍取 $p=6s-1>211$，
+$\mathscr X_p$ 为(A7)的全部严格低于 $p$ 的实际配对。
+$ v,\sigma^{12}$ 的质量严格为零，而
+$\Theta^6,u^6,\Theta^{12},u^{12}$ 的质量均为一；
+所有一阶 jet 为零。
+因此(H4)用完整 Leibniz 给
+$$
+\begin{aligned}
+3\mathfrak B(v)&=-27\bigl(\mathfrak B(v)+
+              \mathscr X_p(v,\Theta^6)\bigr),\\
+4\mathfrak B(v)&=64\bigl(\mathfrak B(v)+
+              \mathscr X_p(v,u^6)\bigr).
+\end{aligned}
+$$
+得到
+$$
+\boxed{
+\mathfrak B(\sigma^6)
+=-\frac9{10}\mathscr X_p(\sigma^6,\Theta^6)
+=-\frac{16}{15}\mathscr X_p(\sigma^6,u^6)
+\pmod p.
+}
+\tag{H5}
+$$
+这里原 norm-three 和倍点首位倍率分别为三、四；
+右端的 $-27,64$ 是来源身份中的固定绝对常数，
+不能将这两类倍率混同。
+
+平方(H4)，同理有
+$$
+\boxed{
+\begin{aligned}
+\mathfrak B(\sigma^{12})
+&=\mathcal Q_p(\sigma^6,\sigma^6)\\
+&=-\frac{243}{242}\mathscr X_p(\sigma^{12},\Theta^{12})
+=-\frac{1024}{1023}\mathscr X_p(\sigma^{12},u^{12})
+\pmod p.
+\end{aligned}}
+\tag{H6}
+$$
+这使用准确 $[\delta]^*\sigma^{12}=729\sigma^{12}\Theta^{12}$、
+$[2]^*\sigma^{12}=4096\sigma^{12}u^{12}$。
+显示分母的素因子至多三十一，均在原范围内为单位。
+
+(H5)、(H6)给原参考的完整低配对表达，
+没有证明其中任一配对非零。
+在模 $p$ 以前，左端的 multiplier 仍是
+$\delta^{p+1}$、$2^{p+1}$；
+由于此处被搬运的输入严格中心零，
+没有遗漏一个质量 Hasse 项或先将其除 $p$。
+
+### H.3. 同一个 Q48 与 U 返回的准确中心补偿
+
+(G3)、(G4a)给实际整除
+$$
+Q_{48}=v\,A_{42},\qquad
+A_{42}:=\sigma^{42}q_b(X),\qquad
+A_{42}(0)=-\frac{35}{936}.
+\tag{H7}
+$$
+$A_{42}$ 是 whole degree42 的确定截面，
+不是只保同质量的替代函数。
+将(H5)代入完整乘积律，得到
+$$
+\boxed{
+\mathfrak B(Q_{48})
+=\mathscr X_p(v,A_{42})
++\frac7{208}\mathscr X_p(v,\Theta^6)
+\pmod p.
+}
+\tag{H8}
+$$
+两个右端都只读原低于 $p$ 的 jets，
+所以(G14)的同一 $Q_{48}$ 高标量在此已经被准确消去。
+
+对(G8)的质量，使用(H3)中同一个真实 $u$，
+定义完整差
+$$
+W_{48}^{0}:=W_{48}-\frac{u^{16}}{78624b}.
+\tag{H9}
+$$
+因为 $u^{16}=\sigma^{48}(X+b)^8$，其八次最高项恰与
+$W_{48}$ 的最高项相消。因此存在实际 whole degree42 来源
+$$
+\boxed{
+W_{48}^{0}=v\,A_{42}^{0},\qquad
+A_{42}^{0}
+=\frac{\sigma^{42}}{78624b}
+ \bigl((X+4b)L_7(X)-(X+b)^8\bigr).
+}
+\tag{H10}
+$$
+括号的 degree 至多七。其七次系数为 $-1716b$，
+所以准确质量为
+$$
+A_{42}^{0}(0)=-\frac{11}{504}.
+$$
+没有从八次式中丢掉有限点的极；
+(H10)在全部原椭圆曲线上都是 whole 截面。
+
+再次使用同一(H5)，得到
+$$
+\boxed{
+\mathfrak B(W_{48}^{0})
+=\mathscr X_p(v,A_{42}^{0})
++\frac{11}{560}\mathscr X_p(v,\Theta^6)
+\pmod p.
+}
+\tag{H11}
+$$
+(H8)、(H11)给的是(G2)、(H9)两个指定来源的读数；
+不能以它们具有相同的 $\sigma^6$ 因子就将两个配对相认。
+
+### H.4. 原未补偿 D1 中必须保留的同一参考行
+
+(G12)已经通过实际 $[4]$ 拉回支付
+$D_{R_3,p}=(j_{p+1}(R_3)+3\widehat c_p)/p$ 的整性，
+其中仍为原
+$\widehat c_p=(p+1)c_p^{\mathrm{int}}$。
+对 $u=-R_3$，相应整行是 $-D_{R_3,p}$。
+明确对每个实际整数 $a\ge1$ 置
+$d_a=(j_{p+1}(u^a)-3a\widehat c_p)/p$。
+$u^a(0)=1$、$j_1(u^a)=0$；完整 Leibniz 的零阶与
+$p+1$ 阶两端给 $d_a+d_1$，一阶与 $p$ 阶两端准确为零。
+质量减项逐字满足
+$3(a+1)\widehat c_p=3a\widehat c_p+3\widehat c_p$，
+故其余严格低项给
+$d_{a+1}=d_a+d_1+\mathscr X_p(u^a,u)\bmod p$。
+从 $d_1=-D_{R_3,p}$ 归纳支付全部中间整性，得到
+$$
+\mathcal D_{48,p,1}(u^{16})
+=-16D_{R_3,p}+\Gamma_{16,p}\pmod p,\qquad
+\Gamma_{16,p}:=\sum_{a=1}^{15}\mathscr X_p(u^a,u).
+\tag{H12}
+$$
+即使中间 degree 为奇数，其整性也由这个实际乘法归纳支付；
+没有调用一个未证明的奇 degree 普遍定理。
+每个 $\mathscr X_p$ 仍为全部 $6\le r\le p-5$、
+$r\equiv0\pmod6$ 的严格低窗口。
+
+因此(H9)在原完整整读者上准确是
+$$
+\boxed{
+\mathcal D_{48,p,1}(W_{48})
+=\mathfrak B(W_{48}^{0})
+-\frac{D_{R_3,p}}{4914b}
++\frac{\Gamma_{16,p}}{78624b}
+\pmod p.
+}
+\tag{H13}
+$$
+这条式子保留了原未补偿来源的质量一参考行。
+联立(G14)，同一个参考行被合法消掉，得到
+$$
+\boxed{
+\mathfrak B(W_{48}^{0})
+=\mathfrak B(Q_{48})
++\frac{c_p}{819b}q_p(2)
+-\frac{\Gamma_{16,p}}{78624b}
+\pmod p.
+}
+\tag{H14}
+$$
+将(H8)、(H11)代入后，(H14)是同一个原 U 返回的
+全低配对相容式；没有高 $\Theta$ 商、未说明的
+$\sigma^{12}$ 高标量或被丢弃的质量减项。
+它也没有将 $q_p(2)$ 预设为非零。
+
+(H9)是完整来源补偿，不能用
+$\mathfrak B(U)=0$ 推出 $\mathfrak B(W_{48}^{0})=0$。
+原 $S/T/V$ 与 $U$ 的必要条件仍为(G18)，
+并继续保留其实际同时 new 余项和全 cross。
+本附录净消掉的是(G14)中
+$\mathfrak B(Q_{48})$ 及补偿后的高读者，
+把它们都写成(H8)、(H11)的同来源严格低配对；
+它未证明这些低配对不可能满足原四中央条件。
+
+全部(H1)–(H14)为已公开(G4a)全系数、
+固定 sigma 倍点身份及原整首行的手推；
+没有新数值运行或目标素数扫描。
