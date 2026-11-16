@@ -1,0 +1,70 @@
+{
+  "format": "r150-original-ten-parameter-module-local-execution-identity-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "actual-local-isolated-execution",
+  "commandSource": {
+    "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "blob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+    "bytes": 23879,
+    "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+  },
+  "inputs": {
+    "blob": "260d438f12b3838969b0875952ad483a739ae031",
+    "bytes": 3197,
+    "sha256": "fc92e91af8bb48a2abaa3a6df3f3e8c141bb18eae269bf0b7ba97628ef154116"
+  },
+  "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "pythonVersion": "3.12.14",
+  "pythonFlintVersion": "0.9.0",
+  "parameters": {
+    "seconds": 180,
+    "memoryMiB": 2048,
+    "through": "seeds"
+  },
+  "out": "/tmp/r150-normal-789f-20261116-1040/original-ten-parameter-module127-v2",
+  "status": "completed",
+  "exitCode": 0,
+  "elapsedSeconds": 22.197580788997584,
+  "peakRssKiB": 112204,
+  "binding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+  "finalLogFilesystemMtimeUtc": "2026-11-16T12:32:26.915319+00:00",
+  "rawReceipt": {
+    "bytes": 30925,
+    "sha256": "3615210e27511904dbadc086d8e00438442f33d2538b7f33fa57fa5de9fb18a3"
+  },
+  "log": {
+    "bytes": 40587,
+    "sha256": "8dd8c115a46464a641f79bd97fce6563e8a3a8ac437bdd082fc9a725cb20a88b"
+  },
+  "manifest": {
+    "bytes": 30466,
+    "path": "original-parameter-module-manifest.json",
+    "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+  },
+  "outputPhases": {
+    "complete-original-global-chart127": {
+      "bytes": 200438,
+      "logicalBytes": 1161358,
+      "logicalSha256": "c2db20e70a63c9a96f183c84cd354e7543ed2015154cf5c81ab755afbbff2b11",
+      "path": "complete-original-global-chart127.json.gz",
+      "sha256": "4781ab81e263aa9ee30a043c272dfd9908a5b5b90f0524df5ce967f86c9baedd"
+    },
+    "complete-original-ten-parameter-action127": {
+      "bytes": 776254,
+      "logicalBytes": 4442756,
+      "logicalSha256": "f07c273c934e671f5e1069954771286c14e5d10ab7c4652d998a02f71beb7d05",
+      "path": "complete-original-ten-parameter-action127.json.gz",
+      "sha256": "5cbba4f798ab95fe24538f35d23d4b3a2f0d6197ee3ed33f3149b7371b0d222c"
+    }
+  },
+  "wholeSeedOutputDescriptorsAreBoundByManifest": true,
+  "temporaryMathematicalArtifactsCommitted": false,
+  "predecessorFailedRaw": {
+    "bytes": 1260,
+    "sha256": "5e4cee016b5e6e0561c4bdc5543a6f1aaa31fd5f927353f0ee45363ce2c68500",
+    "sourceBlob": "03c8bbcbf621d4d5d0ebada739632d6e1c96978c",
+    "exitCode": 1,
+    "status": "failed"
+  },
+  "sourceComment": "v2 preserves every original gate and renames the local W gradient list to Wg; v1 failure is not rewritten."
+}

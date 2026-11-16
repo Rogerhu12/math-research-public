@@ -1,5 +1,7 @@
 # 未解决的问题
 
+**原十行参数种子现已实付。** [完整有限域原来源](results/R150-appendix-actual-original-ten-generator-parameter-module-and-116-certified-seeds127.md)在(127,100)保全部十二y/w参数，实际重建5个10×10乘法/18×10来源、6mean、100comm和10Bell，116条逐原18乘回；全部118阶段双SHA/binding/root独读通过。v1实现错误和原失败身份保留，v2仅局部变量改名、新binding/新目录完整22.198秒。已有完整种子不等于Ni稳定闭包；下一做精确加权列压缩且每删列保原来源，再在十二参数上寻e0，阳性须回E全原18乘回；无候选不作负证。
+
 
 **原首低通道。** 原尾birth2全height及高方差V≥2²⁰s²（原k≥2²³s²）已付，短旗s≈k≈q仍开；全部常数/原来源链接保[本轮完整快照](notes/2026-11-14-open-before-full-kernel-reconstruction-789f.md)。
 
