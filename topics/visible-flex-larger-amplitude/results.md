@@ -91,3 +91,5 @@
 - [R580：同次完整复角解析带、无限Fourier尾与全部DFT alias](results/R580-complete-complex-angle-strip-and-exponential-tail-alias.md)：完整cylindrical消元/WP正带/向量sup与全部signed bins、两mean、正有理幂和；条件全覆盖、实际FFT/metric未付，薄库无新科学门。
 
 - [R589：原完整科学调用的来源与RootStats必要入口](results/R589-complete-current-source-and-root-statistics-necessary-entry.md)：451完整源/原447全保、两metadata caller，R588同scope严格较小可逆关系与旧70/false/full last原样；真实246单派，R590另付。
+
+- [两旧24-domain manifest完整引用、实际读者与固定恢复](notes/2026-11-16-two-twenty-four-domain-manifest-retention.md)：本次76213必要/31352当前与77gzip/17组94行全返，真实临时artifact I/O；仅两清单1301002B，最后全delta及容量守护，全部现用输入与兄弟保。
