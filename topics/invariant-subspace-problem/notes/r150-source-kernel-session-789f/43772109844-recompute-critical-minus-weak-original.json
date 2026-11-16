@@ -1,0 +1,368 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43772109844",
+  "stepId": "recompute-critical-minus-weak-original",
+  "executionSourceCommit": "80af56559489527c9a148da83824941ca9c6fc99",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-critical-recompute-and-audit-789f.py",
+  "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+  "argvTemplate": [
+    "--stage",
+    "weak",
+    "--field",
+    "minus",
+    "--generator-source",
+    "{scripts}/2026-11-16-r150-critical-weak-quadratic-positive-jets-789f.py",
+    "--generated-out",
+    "{work}/critical-minus-weak-quadratic-positive-jets",
+    "--runtime-receipt",
+    "{work}/critical-minus-weak-quadratic-positive-jets/critical-weak-quadratic-positive-jets-receipt.json",
+    "--paid-outer",
+    "{scripts}/43756208221-critical-minus-weak-quadratic-positive-jets.json",
+    "--out",
+    "{work}/critical-minus-weak-recomputed-identity",
+    "--generator-timeout",
+    "330",
+    "--memory-mib",
+    "2048",
+    "--generator-arguments",
+    "--generator",
+    "{scripts}/2026-11-15-r150-original-transverse-first-connection-789f.py",
+    "--jet-actions",
+    "{scripts}/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+    "--low-generator",
+    "{scripts}/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+    "--field-helper",
+    "{scripts}/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+    "--field",
+    "minus",
+    "--out",
+    "{work}/critical-minus-weak-quadratic-positive-jets",
+    "--remaining-seconds",
+    "300",
+    "--memory-mib",
+    "2048"
+  ],
+  "timeoutSeconds": 360,
+  "exitCode": 0,
+  "wallSeconds": 10.935945423001613,
+  "fullTemporaryReceiptBytes": 9545,
+  "fullTemporaryReceiptSHA256": "f3b8a69c93f3ebdf8494a1bcce016872f340b1a4e8ddb1e9d5eb4dd187dacc21",
+  "result": {
+    "binding": "a0c9362392e9f3144bed0cf9d52560ed4caff8f9602f94a07e8084d818296c49",
+    "elapsedSeconds": 10.845594730000812,
+    "format": "r150-critical-frozen-generator-recompute-and-audit-v1",
+    "scriptSHA256": "bc177531ad78bdb4ab674cb85a855134b7fa7dab3c4b57d9266d6aec96948381",
+    "status": "completed",
+    "parameters": {
+      "actualGeneratorExitCode": 0,
+      "actualGeneratorInvoked": true,
+      "allFullPhaseFilesAndPayloadsVerified": true,
+      "allOriginalRuntimeMathematicalGatesPassed": true,
+      "canonicalCacheExistedBeforeInvocation": false,
+      "currentRunId": "43772109844",
+      "exactOriginalManifestMatched": true,
+      "field": "minus",
+      "generatorLog": {
+        "bytes": 346,
+        "file": "frozen-generator.log",
+        "sha256": "8a5704ca8871239858a246880631ca89c96e5222447f6e3f91864db31c400166"
+      },
+      "identity": {
+        "currentRunId": "43772109844",
+        "generatorArguments": [
+          "--generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-transverse-first-connection-789f.py",
+          "--jet-actions",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-original-comoving-jet-actions-through-seventeen-789f.py",
+          "--low-generator",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-original-low-projection-local-smith-789f.py",
+          "--field-helper",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/scripts/2026-11-15-r150-e8-true-number-field-schur-continuation-789f.py",
+          "--field",
+          "minus",
+          "--out",
+          "/home/runner/work/_temp/isp-global197-original-i2-session-43772109844/critical-minus-weak-quadratic-positive-jets",
+          "--remaining-seconds",
+          "300",
+          "--memory-mib",
+          "2048"
+        ],
+        "generatorSourceSHA256": "f211696b5cb789f054e259648a54be7a60f2d8c7c7772d410143bc0025025b1b",
+        "manifest": {
+          "bytes": 10740,
+          "file": "checkpoints/manifest.json",
+          "sha256": "529a47b394c74f08558ef775f9a477c88d8a966ad536e06f85a10268dd6e8098"
+        },
+        "newRuntimeReceipt": {
+          "bytes": 14430,
+          "file": "critical-weak-quadratic-positive-jets-receipt.json",
+          "sha256": "e25bfb101cfede9f623211c99ab6935720cf8cb74055f446aa12f503a8a220dd"
+        },
+        "oldOuter": {
+          "binding": "108c040d0df21708a57e1bdc8ba64d796ad894d066476efa56871abd2ffa976d",
+          "bytes": 29275,
+          "manifest": {
+            "bytes": 10740,
+            "file": "checkpoints/manifest.json",
+            "sha256": "529a47b394c74f08558ef775f9a477c88d8a966ad536e06f85a10268dd6e8098"
+          },
+          "sha256": "708cc521471fd10e493be27c206420ca34ef89db71a52791e3e0b5e21eb1954f"
+        }
+      },
+      "largeArraysUploadedOrCommitted": false,
+      "mathematicsExecutedOnlyByTheFrozenGenerator": true,
+      "newMathematicalAlgorithm": false,
+      "newRuntimeIsNotAnAssertionThatOldTemporaryFilesSurvived": true,
+      "paidAncestryReadOnly": true,
+      "phaseCount": 30,
+      "phases": [
+        {
+          "bytes": 1370238,
+          "payloadSHA256": "5b770f8818b53b5ef1d8fd2d5faee9f880f237e1f4fb2ee62f8c83c8edc48743",
+          "sha256": "38f17bfdc3a66c92f9bb1397195843281b7e77966e338f17efd21434f880875d",
+          "stage": "candidate-jet-equation-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 40601,
+          "payloadSHA256": "a2e1bb3f07475cafc758680c524d548adb58da1afb8b7cfe08b8ba1ae4e95ae0",
+          "sha256": "8acf26baeb2348d0bd45b0cd982f4d4c86355c6e6e81e44240b599142580fb9e",
+          "stage": "candidate-jet-equation-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 310234,
+          "payloadSHA256": "4b46af040ad6bafc9738959c5fd5964e5afb0b94a530245254afdfc67102fa7f",
+          "sha256": "5c424db25db1395eb2175162102a4540ec83865ff2dbbc86aa1502e60b71209d",
+          "stage": "candidate-jet-equation-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 412,
+          "payloadSHA256": "99a93449376fe2db53c825ddb12077d90d654e2dc84499dacb91cfc5d820bf1d",
+          "sha256": "8f5c016d835c2e832106b9c40da583a2995885c8d4a88c37888bcae85899600a",
+          "stage": "candidate-leading-projection-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 661,
+          "payloadSHA256": "700a9a23f43f7d7082e5a4f726b8e2e3989cddece4cdd126a40c2d3f2afaba6a",
+          "sha256": "c65b7dd03631080055f592b4186210c52f81cdd9e2f9d1bf508a55641990a453",
+          "stage": "candidate-leading-projection-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 358,
+          "payloadSHA256": "c994c71480e2cb76857fea809e0d9c9ffbe52e7676bbbb9595afe6ab547527bb",
+          "sha256": "699377b0414f8f6aac5b8f33c53956abc7bdfc26bf320493666e8311a32ef6cd",
+          "stage": "candidate-leading-projection-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 456582,
+          "payloadSHA256": "dedb945b8f57b77be61a8baf7e4e6bca856870a4682d9c15dbf1318863d3b16a",
+          "sha256": "842a3b134e44f177e3fbf39ff461edc0f93087d9df9d665f58e4ca6faffcbd93",
+          "stage": "canonical-low-jets",
+          "verified": true
+        },
+        {
+          "bytes": 78152,
+          "payloadSHA256": "3b65421c8e54e2ca1e6c89d3e53a8da0434902f20eead9a14a9f99a294ca165f",
+          "sha256": "cfff5d723c067afcada705ce4d5d5b2c47d425005152ba07943a49297f7d51f0",
+          "stage": "canonical-low-order-1",
+          "verified": true
+        },
+        {
+          "bytes": 124978,
+          "payloadSHA256": "45c71df58e7ed17b002d88afd7bc8b6a633d5815bc3c5ec93560ccbb2df859ab",
+          "sha256": "9153d2bdded8c100d9c05cdb5ffee39b34d421af345c8bfc211aa4273ac0e652",
+          "stage": "canonical-low-order-2",
+          "verified": true
+        },
+        {
+          "bytes": 217578,
+          "payloadSHA256": "fe43c547bca6b7ad58fbde76dc3a5b58837b29fa5b39a839be54e8e6198fbe2e",
+          "sha256": "038234f08a9440810fa176de10a7d38b09cd32ea2f82067d99daf654b8df7a78",
+          "stage": "canonical-low-order-3",
+          "verified": true
+        },
+        {
+          "bytes": 231009,
+          "payloadSHA256": "3648a50dae8f87da8ae70bd6b929268078d4c6c820ec9ce7636fe17099403856",
+          "sha256": "a1da4bcd3d2bae8ba673d6daaa6ca83d891371f711cc8f17877354faaf574ad2",
+          "stage": "canonical-low-original-unit-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 183475,
+          "payloadSHA256": "838cd8b285fa7d53a025ba70f8c52c18e0208656a16f16dc1400dbf828dfa0e3",
+          "sha256": "b392dcf660315a55f795daaecbd044f2ce4650eadec44a705ff0d72e086c6c99",
+          "stage": "complete-positive-jets-verified",
+          "verified": true
+        },
+        {
+          "bytes": 211174,
+          "payloadSHA256": "05917d5dec3d9db46b3b0c7a4c86c1042503a277fecba2dfcdab54dbe5589a8e",
+          "sha256": "ab930bc37767fd2e35fffabca1b046da1078ef0cffe6d9921718d3e0e4ccf49f",
+          "stage": "constant-low-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 36776,
+          "payloadSHA256": "00459ba77688917508287a02b7e140092068b4a53dc96c274eee8d4e6b3076c1",
+          "sha256": "09985924212f9af83a3a7a8d81d500a5b22a8687a1d1b77206e89133e7c5e9f9",
+          "stage": "constant-low-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 275065,
+          "payloadSHA256": "ddf9a779956d6bc6c2e73f12b7aca402814469070ba152345ca80e753b72f0a0",
+          "sha256": "7efbef0ea8f153becd0c10822285cf2e273288f393dcb4959426536b9bd5e991",
+          "stage": "constant-low-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 1852,
+          "payloadSHA256": "5afe3bb408471c7b6da963852bcd433901568460aa270487c3872ee5078bec15",
+          "sha256": "5c66d28c44b01a2c962d46b3b141b1115717c42a25e109f0b704bda20206136f",
+          "stage": "full-original-leading-heads-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 2036,
+          "payloadSHA256": "933b183fc86fa6b65b80ee64bec14ff8a52d538923c3c7987f838d25a3be5610",
+          "sha256": "591cd1a689ca11fe247289c7353e3471abb84196993dbc0da6d2ee381e51e668",
+          "stage": "full-original-leading-heads-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 10766,
+          "payloadSHA256": "03fb20a2193bfa09921a413d9909e14c29c8478ec5773ca1ef0e78ec89358660",
+          "sha256": "0854ce0595a2be51568240b4b68b92a2da27ace94314893d196afe532080df8f",
+          "stage": "normal-linear-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 1975,
+          "payloadSHA256": "f12154b880c699dd5ce5bdb6b3b898f4bc1339bafe763228f296522e86904757",
+          "sha256": "f3e9a3a01729fe54e6b2636872c191133951001d6d8703844d0db9fcb0435cb7",
+          "stage": "normal-linear-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 17652,
+          "payloadSHA256": "587a4f74f86d61ac7b3d8a469bcfd9db81235caaf8b5e0eeefb15bd16d7626d9",
+          "sha256": "e36e9d710d92990da45382e13dedd4624d24eb40d04bed0f5ecef59c48668372",
+          "stage": "normal-linear-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 170391,
+          "payloadSHA256": "139ae2fa37b9495d208243c2c4712d9e429e3c9f53206200ca8dd11df59c4be1",
+          "sha256": "18b4516f3d74dea71c4b21ba8ba000cf3d74c71c05ed910aca7c17502f7f9e5e",
+          "stage": "original-polynomial-model",
+          "verified": true
+        },
+        {
+          "bytes": 2256,
+          "payloadSHA256": "edd334ffb7ef6c87a406e928679b9fd140be77c6cae4d034fba039b2316ab704",
+          "sha256": "b511d7a38601e8e438738fe488c0262eff6b0d474b276d31da202cc6301f2ef0",
+          "stage": "paid-low-exit-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 2307,
+          "payloadSHA256": "95d7ce3804a537c4b785fc723ad678cc289b3944ce01869eb5cee0f220b8165d",
+          "sha256": "112c5cca7a8b64ef6c2e88262bfbe68800e06acb47d7c875e9f055473ee6f399",
+          "stage": "paid-low-exit-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 1657,
+          "payloadSHA256": "0851b55d075f1f70ac5be77f21be1ac2169b20c967f64245de43888b12674880",
+          "sha256": "274fe184b72e14e112b31f9a3a9c448d37abe81992d57ebc1013e7b7e5af6426",
+          "stage": "paid-low-exit-unit-lu",
+          "verified": true
+        },
+        {
+          "bytes": 1227,
+          "payloadSHA256": "8bd998b837dbd281ad16befc8707624f191339ebcc975deda89ec324b812ab6c",
+          "sha256": "7e0507fbf24cc12fbd506ff32f44b27448c04e158561e1579a81f22c9eecb749",
+          "stage": "weak-quadratic-independent-columns-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 7151,
+          "payloadSHA256": "b919f4e9dfe4772064b977ca3cce004a645eac59f0fbf6cd01865542b71c9f33",
+          "sha256": "dff19015430afa73ce11cec2513940f480042fc30515aa511da22da3d78d3f5e",
+          "stage": "weak-quadratic-independent-columns-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 188998,
+          "payloadSHA256": "34f9f8974acb4f70ec3935a90b46a6aed24c2e3c18a9acb45d282f60c9a37bc8",
+          "sha256": "abd857b5e45b622acc9d3e16653edb2ccd379bf3ec64e05f02250e319fef8e49",
+          "stage": "weak-quadratic-original-columns",
+          "verified": true
+        },
+        {
+          "bytes": 44531,
+          "payloadSHA256": "509dba32461180c12c49e659ccd931263747f4f971c56af3ae17f3b7e2ab3da8",
+          "sha256": "ebae6a79808ac27920236767f2bdd45d7b0366264665e6aba312cc5dad360a4b",
+          "stage": "weak-quadratic-pencil-bareiss",
+          "verified": false
+        },
+        {
+          "bytes": 9527,
+          "payloadSHA256": "a2dbd798055647e587a5187f7b82cb25da844b057cadd2ab35d45f769976c476",
+          "sha256": "3003ae42f803030ffb7f42a74fd52cbbda68d8ab1be7033dd0e03e4ef1752486",
+          "stage": "weak-quadratic-pencil-kernel",
+          "verified": true
+        },
+        {
+          "bytes": 35381,
+          "payloadSHA256": "7625f38f4a9a1f898d6f542e72247c27d1df195306204b42fad4c17fab015840",
+          "sha256": "4c7e595eab625295737c4d935d318032dd7b2aba7817e9fe850f875b01ed1496",
+          "stage": "weak-quadratic-pencil-unit-lu",
+          "verified": true
+        }
+      ],
+      "stage": "weak",
+      "theOriginalMathematicalBindingDoesNotDependOnJobOrOutputDirectory": true
+    },
+    "events": []
+  },
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "pulls": [
+    {
+      "utc": "2026-11-16 02:17:03 UTC",
+      "beforeReadCommit": "30524f0273e7b938ecfebaf28dac18e5940622a8",
+      "originMainAfterPull": "80af56559489527c9a148da83824941ca9c6fc99",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 02:17:15 UTC",
+      "beforeReadCommit": "80af56559489527c9a148da83824941ca9c6fc99",
+      "originMainAfterPull": "a6e988b829d4b8cf603f38de7cf710fda52d471a",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 57,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 19552,
+    "logicalJsonSHA256": "b4b4974ce9b04a7034c1444b2d5aaf8ccb19047dc4846e4a992b855e7dac1ab1",
+    "itemCount": 57
+  },
+  "lastRulesReadCommit": "a6e988b829d4b8cf603f38de7cf710fda52d471a",
+  "summaryExcludesRecomputableArraysOnly": false
+}
