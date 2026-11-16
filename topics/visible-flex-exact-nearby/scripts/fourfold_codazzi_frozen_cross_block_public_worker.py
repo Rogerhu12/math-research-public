@@ -94,6 +94,8 @@ def main():
            "new_artifacts":0,"new_Releases":0,"new_arrays_published":0,
            "readme_check_count":0,"readme_receipt_chain_sha256":None,"all_pulls_match_review":True,
            "failure":None,"actual_child_returncode":None,"publication_attempts":0}
+    check(type(op.get("readonly_diagnostic_only",False)) is bool,"typed diagnostic flag")
+    state["readonly_diagnostic_only"]=op.get("readonly_diagnostic_only",False)
     temporary=Path(tempfile.mkdtemp(prefix="visible-exact-frozen-",dir=os.environ.get("RUNNER_TEMP")))
     output=temporary/result_name
     staged_files={}
@@ -384,8 +386,13 @@ def main():
              "stderr_bytes":len(preflight.stderr),"stderr_sha256":sha(preflight.stderr)}
         print(preflight.stdout.decode("utf-8"),end="",flush=True)
         print(preflight.stderr.decode("utf-8"),end="",flush=True)
+        if preflight.returncode:
+            state["readonly_preflight"]["complete_stdout_utf8"]=preflight.stdout.decode("utf-8")
+            state["readonly_preflight"]["complete_stderr_utf8"]=preflight.stderr.decode("utf-8")
         check(preflight.returncode==0,"complete readonly preflight failed before science")
         state["readonly_preflight"]["complete_output"]=parse(preflight.stdout)
+        check(not op.get("readonly_diagnostic_only",False),
+              "readonly diagnostic mode forbids a scientific child")
         marker={"kind":"consumed_new_scientific_target_v1","problem_id":manifest["problem_id"],
                 "manifest_sha256":args.manifest_sha,"run_id":run,"run_attempt":attempt,
                 "event_commit":os.environ["GITHUB_SHA"],"prepared_utc":utc(),

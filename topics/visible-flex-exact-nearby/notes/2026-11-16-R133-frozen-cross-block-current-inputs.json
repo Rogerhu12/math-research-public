@@ -417,9 +417,9 @@
   "worker": {
     "role": "worker",
     "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_public_worker.py",
-    "git_blob_sha": "06a23e3d65cd32cc85506af8d780b790034421e6",
-    "bytes": 29035,
-    "sha256": "0699ff330b6a1abd0fe369a81679dd816bcd4a922e2c2a959c631ace53a78c36"
+    "git_blob_sha": "4342e8a163b022407089c87d487eb4804221e4b2",
+    "bytes": 29560,
+    "sha256": "a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c"
   },
   "reviewed_rules": {
     "role": "rules",
@@ -586,9 +586,9 @@
     {
       "role": "worker",
       "path": "topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_frozen_cross_block_public_worker.py",
-      "git_blob_sha": "06a23e3d65cd32cc85506af8d780b790034421e6",
-      "bytes": 29035,
-      "sha256": "0699ff330b6a1abd0fe369a81679dd816bcd4a922e2c2a959c631ace53a78c36"
+      "git_blob_sha": "4342e8a163b022407089c87d487eb4804221e4b2",
+      "bytes": 29560,
+      "sha256": "a3c1c6ea3637408c647877af2683614a462169e6dfb5c868e3cfc8afd4b82b8c"
     },
     {
       "role": "rules",
@@ -720,7 +720,8 @@
     "old_completed_mathematics_must_not_repeat": true,
     "capacity_lifecycle": "120000-byte reserve plus the full publication budget before science and immediately before the new child; completed or failed actual outputs only require projected topic <=200000000 and retain complete bytes.",
     "publication_readme_retention": "Every full actual pull receipt is printed. Execution retains first and last three, total count and complete chain hash if more than four; no claim that omitted old receipts are embedded.",
-    "bits_parameter": "bits"
+    "bits_parameter": "bits",
+    "readonly_diagnostic_only": true
   },
   "complete_scientific_input_guards": {
     "original_current_complete_text_inputs": 17,
@@ -790,6 +791,35 @@
     "reserve_before_science_bytes": 120000,
     "shape_interface_git_blob_sha": "cecb015b2fe62ca693f6022c5946436f9903d504",
     "shape_interface_sha256": "6c0023458007c7bd13c8b4204c18a3694636691e3957ada73191a11c81847606",
-    "shape_interface_not_republished_as_an_extra_input": true
+    "shape_interface_not_republished_as_an_extra_input": true,
+    "diagnostic_additional_complete_original_stderr_bytes": 1395,
+    "failure_execution_model_with_original_stderr_upper_bytes": 55000,
+    "readonly_only_new_flag_bytes_and_full_diagnostic_fit_execution_cap": true
+  },
+  "operational_recovery": {
+    "kind": "complete_readonly_diagnostic_retry_after_zero_science_v1",
+    "failure_run_id": "43851901811",
+    "failure_run_attempt": "1",
+    "failure_execution": {
+      "path": "topics/visible-flex-exact-nearby/notes/frozen_cross_block_value_tail_ci/run-43851901811-1/execution.json",
+      "git_blob_sha": "68d313d9e3c406ea18deef910205e2f528dad52c",
+      "bytes": 26981,
+      "sha256": "eddbf6d3a8c9173c73a973ec75fbb84822ba24c2e90ff8b441a19f00e433105f"
+    },
+    "failure_record_commit": "685b8a0865235b70edf630122a8c28bb2c9ea799",
+    "scientific_children_started": 0,
+    "scientific_targets_completed": [],
+    "new_mathematics_saved": 0,
+    "new_mathematics_lost": 0,
+    "all_original_five_targets_unstarted": [
+      "complete_frozen_cell_coefficient_maxima",
+      "complete_uniform_refinement_one",
+      "complete_uniform_refinement_two",
+      "complete_predeclared_mesh_selection",
+      "conditional_same_tail_resolvent"
+    ],
+    "expected_preflight_stderr_bytes": 1395,
+    "expected_preflight_stderr_sha256": "113c6f934591bd43dd5a12edfe6913faf0a349b981fd95f28965d03e3cf9ea74",
+    "scope": "Repeat only readonly restoration and preflight to preserve the complete UTF8 diagnostic; operational guard before marker forbids any scientific child even if preflight unexpectedly succeeds."
   }
 }
