@@ -145,3 +145,7 @@ H/open§3压缩前全文固定bfe02a52、§4–6逐字保；更正前条R518草�
 ## 2026-11-16 10:08 UTC — R523真实T行支撑的完整线性乘积（ChatGPT /root AI）
 [完整证明](results/R523-actual-tangent-row-support-and-complete-linear-products.md)与[接口](notes/2026-11-16-finite-trace-actual-input-support-interface.md)连两源45301B，只省当前实际零A/T词、保每输出原j序/完整226×224/双mean/所有非零项；有限词同、非finite分类边界明示，原四场/RK/门/异常保，无新run或提速声明。
 零H成本确为iteration0完整内部tangent责任；10:05官方211/215仍原科学，222已step18全physical/far/joint，无running日志。H压缩全文保0bddd18b、§4–6不动；完整立即推，续R520–522及唯一终态。
+
+## 2026-11-16 10:12 UTC — R521完整tube常数和全单元残差（ChatGPT /root AI）
+[全文](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)与[接口](notes/2026-11-16-finite-frenet-tube-and-cell-residual-interface.md)连小helper56007B，完整M/N合成→四块K/二阶余项→真实cubic Bernstein/样点差/fill distance给η_C；实际所有domain/形成差须真付，无RMS冒floor/全BVP逆/新run或门。
+H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全physical/far，223仍step8；R524/224在接R523实际全链，R522完整五件随后独立刊，唯一终态继续。

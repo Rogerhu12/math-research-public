@@ -333,3 +333,7 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R523 — 实际切向行支撑与完整有限轨迹线性乘积
 
 **已证明（明确局部输入/字语义/实际caller），未运行科学。** [全文](results/R523-actual-tangent-row-support-and-complete-linear-products.md)16055/4c73a3ce、[接口](notes/2026-11-16-finite-trace-actual-input-support-interface.md)13496/3dbe及helper6246/e16b、flow9504/14c6，共45301B。原R474同次有限扫描记录当前T每行非零列，全部非零/次正常/下溢乘积和每输出原j序保，只省实际A或T零项；完整226×224/双mean/原四field/RK/cusp与fallback不改。有限最终词同，有限输入可能overflow/NaN只承诺分类、不冒payload；原非finite输入走全循环，无新finite-output门。14实际计数、部分扫描/当前段地址和未逐k记录范围明确。实际208零H iteration0先求完整内部J，5774秒无分项时不能推提速或免J/mean/predictor；旧R470/R471/R474责任保，无新run、当前loader/reader改动或原门放宽。
+
+## R521 — 全有限Frenet tube常数与cubic闭单元残差
+
+**完整条件证明与准确有理helper，尚无实际常数或数值。** [全文](results/R521-complete-finite-Frenet-tube-and-cubic-residual-enclosures.md)21611/d8df73d7、[接口](notes/2026-11-16-finite-frenet-tube-and-cell-residual-interface.md)15614/79c4、helper18782/4217，共56007B。全3M+2状态/有限N准确合成和全部投影行，合法P与AW下界→四块K及状态二阶余项；真实保存cubic全Bernstein C′/C″和准确scalar导数给残差Lipschitz，实际样点/原形成与目标差/准确fill distance给η_C及η_C+E1+KyE0。复用R354/R314而不冒全BVP逆或226-native误差；相对dyadic正sqrt不丢正下端，无样点null。原RMS阈值/数值scalar不代全准确界，尾μ′/有限到连续角/全部闭片与径向锚仍未付；无新run、solver floor或新接受门。
