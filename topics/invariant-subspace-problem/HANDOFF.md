@@ -22,14 +22,14 @@
 - **[∞127/Gauss](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)：** 全3959098系数单位、H3760/C580、真第11给full66/sub55/max11/free13；raw11805·115e3149/binding3ffa6e91。同Q自然∞66给Δ首一D127整、约化保次数/barΔ|χ299。原schema失败不改，新out为infinity-complete-prime127-qualification-v2。
 - **[Ω127/J0](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)：** 全121实核barΩ=Ψ60²；原Q13全2015式/6069系数/双211 minors给同230，J127=0。C127/127全299，degΔ+Σt127=299；barμ|F+²F−²E8(s+64)仍≤21。s+64不是J，不搬31的15方向；root全300/231系数交叉真。
 - **[九目标完整field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** 新live step12/1.783252747秒、raw20892·60229e78/bindingb7f66706。原joint25/χ=s²mon(h*)，每目标cyclic23/最小式均mon(h*)，h*和h0实际9列全零/像子模0。全部7245目标坐标、7475不变作用、2691种子真；s+64与Ω不入原target子模。仅F127原来源存在，不升Q或p127²；不重NF/GB/state。
-- **rank-one及下一原计算：** μb_r^16有原17来源/degree_m≤26；μ1才关此rank-one路线，非rank-one/ess(T3)≥4仍开。正准备F±/E8完整critical额外20次的原小二normal jet正证书；未执行，不预填长度。normal代理继续原relative T的小Q关系，不认field图为Q图。
+- **rank-one及下一原计算：** μb_r^16有原17来源/degree_m≤26；μ1才关此rank-one路线，非rank-one/ess(T3)≥4仍开。原critical小二normal jet正证书已入队3×300秒，至多51×50且全6188乘回；未执行不预填额外20次。normal优先原全参数NF/GB的127系数Bockstein，不用点核冒充syzygy。
 
 ## 活跃执行、临时缓存与立即恢复
 
-- **旧live run43756208221** 始20:06:58 UTC，350分钟loop；tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。request=notes/2026-11-15-r150-exact-continuation-session-request-789f.json；已37步，35∞127/36Ω127/37J127均成功。原Q/6…10高低/原core1394807/Ω完整cert39MB仍临时；新critical入口复用，不重core/det。
+- **旧live run43756208221** 始20:06:58 UTC，350分钟loop；tmp=/home/runner/work/_temp/isp-source-kernel-session-43756208221。request=notes/2026-11-15-r150-exact-continuation-session-request-789f.json；已40步，35∞127/36Ω127/37J127成功，38…40为critical plus/minus/e8待执行。原Q/6…10高低/原core1394807/Ω完整cert39MB仍临时；新critical入口复用，不重core/det。
 - **新live run43772109844** 始22:57:13 UTC，350分钟loop；tmp=/home/runner/work/_temp/isp-global197-original-i2-session-43772109844。request=notes/2026-11-15-r150-global197-original-i2-session-request-789f.json；12步已成，保global197、root2全210 recipe、original127-normal-forms-all6188、original127-complete-graded-module、original127-whole-torsion及original127-nine-target-cyclic-module。25作用小phase2608·fa79c616，h*动作914·e3e6da27，零像867·aba84cc2；只临时。
 - 两runner每30分钟/每步/每push前真实pull核两README；结果均在notes/r150-source-kernel-session-789f/。失败/budget不删；同源续接用新step ID，requires只指exit0祖先，预算75不当成功依赖。所有原源SHA、恢复清单、老失败、旧未列分支保本页归档链与open。
-- root独占索引；normal负责field及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
+- root独占索引；normal负责原127系数Bockstein及相对Q模块，literature负责原critical小证书，boundary负责原同w真实返回。每一完成结论由root全审后实际push，非快进立即rebase再推。
 
 ## 原边界：同一个w与完整返回继续
 

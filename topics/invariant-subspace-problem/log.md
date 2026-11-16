@@ -776,3 +776,7 @@ native3.497066044秒/whole7.098588608秒，805全状态/观测506稳定57、299�
 ## 2026-11-16 00:50:28 UTC — 真实二次顺次MP的primitive反馈与同源两步修复
 根核(D†)²与(D²)†的准确正交差、原R239输入p=j+2的primitive常数及全层两步Bernoulli；相对误差²O(J³/x+J⁴/x²)，未交换两逆。
 τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ给q1/q2同Δ平方预算、两个top全保；z2残量Cq2和第三次/完整Schur仍开。实际pull核两README后push。
+
+## 2026-11-16 00:54:48 UTC — 原critical弱二次正jet构造与三个数域入口
+完整原核/普通单项式对角系数/全6188乘回及leading独立运输均已根审，lemma d2ee736d、源码f211696b和四helper全绑定。
+旧live追加plus/minus/e8独立300秒/2GiB，最多51×50；未执行前不报局部增量。normal转原全参数系数127 Bockstein；实际pull核两README后push。
