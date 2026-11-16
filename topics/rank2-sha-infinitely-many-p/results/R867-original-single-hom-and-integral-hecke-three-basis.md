@@ -1092,3 +1092,213 @@ $1/\mu_C$ 归一，并在系数域次数大于1时返回全部复嵌入的矩阵
 
 本附录没有执行新的数学数值检查。当前公开低权重建可继续原计划；
 备用同源与单位选择不要求取消或改动正在运行的原候选。
+
+## 附录 D：原有理方向的短 Hecke 返回与全部三基
+
+本附录直接消费 R874 的原分数理想生成元，而不预设当前坐标
+重建已经成功。设
+$$
+u=\frac{915+1097\vartheta+2962(\vartheta^2-2)}{55569},
+\qquad
+P=\Xi_0\circ\iota(u).
+\tag{D1}
+$$
+只有当 R870 的完整椭圆恒等式已经认证 $P$ 时，下文称它为实际
+整数同态。全文各准同态恒等式不需要这个附加前提。
+
+### D.1 不展开高次 $\mathscr R$ 的原整数返回
+
+R874 已在原实三次域中准确支付
+$$
+\frac{17}{u}=106+59\vartheta+185(\vartheta^2-2)
+=-264+59\vartheta+185\vartheta^2=:V(\vartheta).
+\tag{D2}
+$$
+令 $t=a_7$、$s=a_{13}$。附录 A 的完整相位给
+$$
+t=2\vartheta^2-\vartheta-4,\quad
+s=\vartheta^2-3\vartheta-2,\quad
+\vartheta=2t^2+7t-8s-28.
+$$
+先以 $\vartheta^2=s+3\vartheta+2$ 化简 (D2)，再代入最后一式：
+$$
+\begin{aligned}
+V(\vartheta)
+&=106+614\vartheta+185s\\
+&=1228t^2+4298t-4727s-17086.
+\end{aligned}
+\tag{D3}
+$$
+因此在原整个 $J=J_0(2601)$ 上定义真实整数 correspondence
+$$
+\boxed{
+\mathscr V=1228T_7^2+4298T_7-4727T_{13}-[17086].
+}
+\tag{D4}
+$$
+它在原三维 Hecke packet 上的作用恰为 $17/u$。
+因为 $P$ 杀掉其它 Hecke 因子，得到完整同态等式
+$$
+\boxed{P\circ\mathscr V=17\Xi_0.}
+\tag{D5}
+$$
+这里没有声称 (D4) 与 $106+59\mathscr R+185(\mathscr R^2-2)$
+在整个 Jacobian 上相同；所用且所需的等式是右复合原 $P$ 后相同。
+
+若 $P$ 已认证为整数同态，(D5)立即是原 $17\Xi_0$ 的实际坐标
+或实际点值读取式。无需作除以17的椭圆点选择，也不用以
+$\mathscr R^2$ 的展开生成四次7邻点路径。
+
+对 $x\in C$，其值准确为
+$$
+\begin{aligned}
+(17\Xi_0)(x)
+={}&[1228]\sum_{y\in\mathcal N_7(x)}
+                    \sum_{z\in\mathcal N_7(y)}P(z)
++[4298]\sum_{y\in\mathcal N_7(x)}P(y)\\
+&-[4727]\sum_{y\in\mathcal N_{13}(x)}P(y)
+-[17086]P(x).
+\end{aligned}
+\tag{D6}
+$$
+这里仍是正文 §4 的完整正规化 correspondence、闭点迹与局部
+重数。两次7步含8条回溯和56条非回溯路径，13步含14条路径；
+所有 cusp 也用同一对应定义，不能任意删掉回溯。
+因 $P(\infty)=O$，原 Jacobian 的基点校正准确为零。
+
+### D.2 全部 $b$-基也只需相同四个 Hecke 观察
+
+令 $w=\omega^2$，仍用附录 A 的 $\alpha=-1+2\omega$。
+在 $\mathbf Z[w,\vartheta]/(\vartheta^3-3\vartheta+1)$ 中定义
+$$
+\begin{aligned}
+A(\vartheta)
+&=(469+185w)+(-126-291w)\vartheta
+                    +(-79-59w)\vartheta^2,\\
+B(\vartheta)
+&=(-185-469w)+(291+126w)\vartheta
+                    +(59+79w)\vartheta^2.
+\end{aligned}
+\tag{D7}
+$$
+直接乘开 (D2)，用 $\vartheta^3=3\vartheta-1$、
+$\vartheta^4=3\vartheta^2-\vartheta$，恰得
+$$
+A=V(\vartheta)(\vartheta^2-w\vartheta-2),\qquad
+B=V(\vartheta)(-w\vartheta^2+\vartheta+2w).
+\tag{D8}
+$$
+因附录 A 已给
+$\delta b=\alpha(\vartheta^2-w\vartheta-2)$、
+$\delta b^2=\alpha^2(-w\vartheta^2+\vartheta+2w)$，
+(D8)同时核定两个号和全部常数。
+
+任意 $a_0+a_1\vartheta+a_2\vartheta^2$ 都有以下短替换：
+$$
+a_0+a_1\vartheta+a_2\vartheta^2
+=(a_0-28a_1-82a_2)
++7(a_1+3a_2)t+2(a_1+3a_2)t^2
++(-8a_1-23a_2)s.
+\tag{D9}
+$$
+因此 (D7) 对应的实际算子为
+$$
+\begin{aligned}
+\mathscr A={}&[10475+13171w]
++[-2541-3276w]T_7
++[-726-936w]T_7^2+[2825+3685w]T_{13},\\
+\mathscr B={}&[-13171-10475w]
++[3276+2541w]T_7
++[936+726w]T_7^2+[-3685-2825w]T_{13}.
+\end{aligned}
+\tag{D10}
+$$
+每个 $\mathcal O_K$ 系数都在实际目标 $C_v$ 上由 CM 群运算实现。
+(D10)不要求将任意 CM 元认成原整个 Jacobian 的整数 endomorphism。
+
+结合 (D1)、(D2)、(D8)，准确有
+$$
+[\delta](17\Xi_1)=[\alpha]P\mathscr A,\qquad
+[\delta](17\Xi_2)=[\alpha^2]P\mathscr B.
+$$
+再后复合 $[-\delta]$，得到三个共同实际整返回
+$$
+\boxed{
+51\Xi_0=[3]P\mathscr V,\quad
+51\Xi_1=[-\delta\alpha]P\mathscr A,\quad
+51\Xi_2=[-\delta\alpha^2]P\mathscr B .
+}
+\tag{D11}
+$$
+因而只需缓存
+$$
+P(x),\quad (PT_7)(x),\quad(PT_7^2)(x),\quad(PT_{13})(x)
+\tag{D12}
+$$
+四个完整点值，就可读取全部三条原基。
+(D11)没有以三次重复积分代替它们，也没有改变任何原 Artin 标号。
+
+### D.3 少一个两步迹的可选读法及其代价
+
+从 $5\vartheta=t-2s$ 也得到
+$$
+\boxed{5V(\vartheta)=530+614t-303s.}
+\tag{D13}
+$$
+所以
+$$
+85\Xi_0=[530]P+[614]PT_7-[303]PT_{13}.
+\tag{D14}
+$$
+这条可选式仅用8、14邻点迹，但多付一个真实因子5。
+在 $\ell=5$ 的整 shadow 检测中不能免费使用它替代 (D5)。
+
+进一步，$1,t,s$ 相对于 $1,\vartheta,\vartheta^2$ 的换基行列式为5：
+$$
+\det
+\begin{pmatrix}
+1&-4&-2\\0&-1&-3\\0&2&1
+\end{pmatrix}=5.
+$$
+因此一旦 $P$ 整，$P,PT_7,PT_{13}$ 是同一原 $K$-Hom 空间的实际
+三基。若直接用这三基展开原 $\Gamma_g,\Gamma_h$，须保这份
+换基分母5和 R862 的原矩阵，不能将新三基当作新的无尺度来源。
+在需要避免5分母时，保留 (D12) 的完整四个观察即可。
+
+### D.4 回到原循环、坐标程序与倍率
+
+当前坐标 producer 若成功，先给的是
+$$
+P^{\mathrm{new}}:C\to C_{\lambda^3v},\qquad
+X^{\mathrm{new}}=\lambda^2X_P,\quad
+Y^{\mathrm{new}}=\lambda^3Y_P,\quad
+\lambda=\lambda(u)=\frac{68+7\sqrt[3]{17}
+                         -13(\sqrt[3]{17})^2}{3}.
+$$
+必须先以这个实际目标同构返回 $P$，再使用 (D5)–(D12)。
+微分的首项归一不能被当作任意标量相乘的群同态。
+
+R866 固定
+$$
+\kappa(X,Y)=\bigl(X/d^2,\,2Y/v+1\bigr),\qquad
+d=h/2^{11},\quad d^3=v/2,
+$$
+以及原 $\mathcal A_i=[2^{11}]\kappa\Xi_i$。
+因此 (D11) 给的是 $51\mathcal A_i$ 的实际同态。
+若为了点计算改用 $\kappa(51\Xi_i)$，原系数中必须相应保留
+$2^{11}$；在原两个 $g$ 因子上同时换基时两个倍率都保留。
+原第一 $F$、$q_0/q_2$、R831 的 $6^{-2}/12^{-2}$、原 Artin
+幂等元及 R859 的共同整数 $D$ 均不因本附录而消失。
+
+原有限域 shadow 仍为
+$$
+S_r(\Pi(F,a q_0,b q_2)_*[X])
+=\operatorname{Alb}(b q_2)_*
+                 (a q_0-\phi_rF)^*[O].
+$$
+本附录只把其中的 $a,b$ 的实际 Hecke 实施缩成 (D12)，
+没有计算出该交点迹，亦没有提供尚未重建的第一因子 $F$ 的坐标。
+它不把原循环换成 R814 的 canonical cycle。
+
+上述全部短式由原已付整数 Hecke 关系逐项推出；
+本附录没有执行新的数值运行或目标素数扫描。
