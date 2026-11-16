@@ -342,3 +342,5 @@
 - [R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。
 
 - [R887 §19](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原二因子减P2幂的第六Gaussian块已准确支付：e_a,p=c_a(p)+(1−a)κ5 c_a(s)，原连接误差完整求和为零；四实际差由同f_<p低卷积L3/L(n−3)和s行M给出，共同c2(p)严格消去。仍仅modp首缺陷，不替R699两位边界或四中央非零。
+
+- [R909 §7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：原F17实际映射已认证：公开run43906594646在ℓ1000003/N512完成完整1429行、QQ、同PARI高基及原权60全部0..6120恒等式；原微分/∞点与全部角色保持，dF≥1080。完整result hash5193c929…4831f；未认P/RR或原shadow已付。

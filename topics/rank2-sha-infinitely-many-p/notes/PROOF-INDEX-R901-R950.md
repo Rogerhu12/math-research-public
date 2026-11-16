@@ -25,3 +25,5 @@
 - [R907](../results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：原全四块核内V0(H)=V1(G)唯一迫H=TG=EG−a(G)F³，a由原第四短行固定；两条完整native尾仍须共同通过。r2/m3所有纯charge真帽给稳定部分零纤维单射，明确六维Tf/Qf并以3b+7步原四块测试精确读K∞；未认全K稳定或指定forcing已解。
 
 - [R908](../results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。
+
+- [R909 §7](../results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：原F17实际映射已认证：公开run43906594646在ℓ1000003/N512完成完整1429行、QQ、同PARI高基及原权60全部0..6120恒等式；原微分/∞点与全部角色保持，dF≥1080。完整result hash5193c929…4831f；未认P/RR或原shadow已付。

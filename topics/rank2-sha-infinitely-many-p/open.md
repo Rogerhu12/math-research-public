@@ -72,7 +72,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 R881 r29 的P19位/F12位与τ=(2,0,1)仍只是formal数据。所有精确 source/hash 由完整H和各执行注保持，不搬到新基。
 
-- [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：同原F的完整PARI基/权10与4/1429行保持，小辅助素数显式精确LinBox；已验全窗的512位向量按真整除从旧精度续到1024，底域chart只算一次。原QQ短支/0..6120完整恒等式函数保持，无高度界或map PASS。新run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed已进入数学步骤；旧R905继续。
+- [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)已完成原F实际映射：run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed，ℓ1000003/N512、全部1429行/QQ重建/原短支及0..6120完整特征零恒等式通过；保原dx/(2y)=f dq/q及∞→O，dF≥1080。最终hash5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f。自身PARI基确定性重算，不跨旧Sage坐标；原P/RR仍缺。
 
 ### 真 RR 与完整消费者
 
@@ -87,7 +87,7 @@ R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。五个�
 
 R880/R883 的原18×9、双轴、三χ、CM投影、四完整除子00/01/11/12及真A,C判据保；闭点d不可先模ell。完整Frob/Atkin/所有边界、按真实dF选成本2256+r dF或2256(r+1)、全地方Kummer负floor与Σef全部已付。相对Tate/Norm含ell²点回归run43870209568已通过；不重复无变化测试。
 
-consumer仅接同两真map PASS和真RR，核run/job/head/依赖hash/全末端；PARI结果必须消费其自身forms2/recipes/坐标。**目前没有consumer请求，没有原shadow输出。**
+consumer的原F已由R909付清，仍须同原P PASS和真RR，核run/job/head/依赖hash/全末端；PARI结果必须消费其自身forms2/recipes/坐标。**目前没有consumer请求，没有原shadow输出。**
 
 ## 原端点：真实范数与剩余增广阶
 
