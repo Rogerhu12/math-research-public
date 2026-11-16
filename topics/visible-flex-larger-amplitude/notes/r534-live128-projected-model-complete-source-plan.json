@@ -1,0 +1,570 @@
+{
+  "schema": "R534-current-owner-projected-model-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_live128_projected_model_source_views.py",
+    "bytes": 18862,
+    "sha256": "990c14b8a11ee2443d880fdbf9aa819640ebe9dd2bd2a64217fb92bd1eed5eee"
+  },
+  "core_plan": {
+    "file": "notes/r534-live128-projected-model-core-source-plan.json",
+    "bytes": 72022,
+    "sha256": "826aabbd34c2282bdaa4b8298a79bb92b90dc8758134b309f665d863301a4648"
+  },
+  "ancestor": {
+    "request": {
+      "file": "public-live128-paired-cache-original-full112-FD-fullDN-request.json",
+      "bytes": 64734,
+      "sha256": "42fe3eff48338d540707c690d6aadd0cfdfeaa278a1145b1db885bea9df37285"
+    },
+    "generator": {
+      "file": "root_20261116_live128_paired_cache225_source_views.py",
+      "bytes": 22915,
+      "sha256": "b30d418965454b63d5a0e8f6bc50277e38849e959e24ec92552bc722ec83a3ce"
+    },
+    "plan": {
+      "file": "notes/r527-live128-paired-cache225-complete-source-plan.json",
+      "bytes": 55391,
+      "sha256": "6e8109e64bafb6e78428298ccc25a5b4d71df29c0b224b0ea20076da006dd1c6"
+    },
+    "source_preparation_directory": "request225-source-preparation",
+    "science_called": false,
+    "old_internal_request_number_is_ancestry_only": true
+  },
+  "additional_public_sources": [
+    {
+      "file": "geometry_20261116_live128_projected_stage_binding.py",
+      "bytes": 25000,
+      "sha256": "fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf"
+    },
+    {
+      "file": "geometry_20261116_live128_same_dn_projected_stages.mjs",
+      "bytes": 32316,
+      "sha256": "2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a"
+    }
+  ],
+  "counts": {
+    "original225_public": 342,
+    "original225_generated": 14,
+    "additional_public_libraries": 2,
+    "new_generator": 1,
+    "new_views": 13,
+    "complete": 372
+  },
+  "roles": {
+    "owner": "geometry_20261116_live128_projected_model_same_call_owner.py",
+    "components": "geometry_20261116_live128_projected_model_final_components.py",
+    "boundary": "geometry_20261116_live128_projected_model_boundary128.cpp",
+    "assembly": "geometry_20261116_live128_projected_model_response_assembly.py",
+    "system": "exact_20261116_live128_projected_model_current576_system.py",
+    "qr": "exact_20261116_live128_projected_model_current576_chain_qr.py",
+    "pipeline": "geometry_20261116_live128_projected_model_call_pipeline.py",
+    "call": "geometry_20261116_live128_projected_model_current_call.mjs",
+    "worker": "geometry_20261116_live128_projected_model_worker.mjs",
+    "client": "geometry_20261116_live128_projected_model_tail_client.py",
+    "fulldn": "geometry_20261116_live128_projected_model_original_full_dn.py",
+    "runner": "geometry_20261116_live128_projected_model_owned_run.py",
+    "reader": "root_20261116_live128_projected_model_necessary.py"
+  },
+  "schemas": {
+    "owner": "R534-current-H-owner128-before-projected-model-v1",
+    "components": "R534-current-H-owner-projected64-model-components-v1",
+    "stage": "R534-current-owner-projected64-exact-lifted-stage-model-v1",
+    "boundary": "R534-current-owner-projected64-model-boundary128-v1",
+    "assembly": "R534-current-H-live128-projected-model-response-assembly-v1",
+    "pipeline": "R534-current-H-live128-projected-model-call-pipeline-v1",
+    "pipeline_input": "R534-current-H-live128-projected-model-call-pipeline-input-v1",
+    "policy": "R534-current-H-live128-projected-model-client-policy-v1",
+    "runner": "R534-live128-projected-model-original-full112-owned-procedure-v1",
+    "reader": "R534-live128-projected-model-original-full112-necessary-v1",
+    "request": "public-live128-projected-model-original-full112-FD-fullDN-request-v1",
+    "fulldn": "R534-live128-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+    "namespace": "visible-live128-projected-model229",
+    "window": "R534-current-owner-projected-model-stage-clock-v1"
+  },
+  "views": [
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_paired_cache225_current576_system.py",
+        "bytes": 29007,
+        "sha256": "6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6"
+      },
+      "output": {
+        "file": "exact_20261116_live128_projected_model_current576_system.py",
+        "bytes": 29007,
+        "sha256": "9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355"
+      },
+      "patches": [
+        {
+          "id": "system-change-1",
+          "before": "aired_cache225_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_paired_cache225",
+          "after": "rojected_model_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_projected_model",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_paired_cache225_current576_chain_qr.py",
+        "bytes": 21846,
+        "sha256": "9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c"
+      },
+      "output": {
+        "file": "exact_20261116_live128_projected_model_current576_chain_qr.py",
+        "bytes": 21846,
+        "sha256": "2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405"
+      },
+      "patches": [
+        {
+          "id": "qr-change-1",
+          "before": "aired_cache225_current576_system.py'\nSYSTEM_SHA='6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6",
+          "after": "rojected_model_current576_system.py'\nSYSTEM_SHA='9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_paired_cache225_call_pipeline.py",
+        "bytes": 19356,
+        "sha256": "c01aae5614d00c746c671eb98abcdc6ab90aa39366e8c0a7d3b5da3ed83fd515"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_projected_model_call_pipeline.py",
+        "bytes": 43162,
+        "sha256": "2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962"
+      },
+      "patches": [
+        {
+          "id": "pipeline-change-1",
+          "before": "493 actual per-H metadata/child orchestration",
+          "after": "534 current-owner projected64 model",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-2",
+          "before": " hashlib\nimport json\nimport math",
+          "after": " hashlib\nimport importlib.util\nimport json\nimport math",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-3",
+          "before": "\nHERE = Path(__file__).resolve().parent\nSCHEMA = \"R527-current-H-live128-paired-cache-call-pipeline-v1\"\nINPUT_SCHEMA = \"R527-current-H-live128-paired-cache-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_paired_cache225_same_call_owner.py\"\nOWNER_SHA = \"a587dd6833532c60296ed40ce105d9c190717071e8d6fb3e137f79a27d9209be\"\nASSEMBLER = \"geometry_20261116_live128_paired_cache225_response_assembly.py\"\nASSEMBLER_SHA = \"5fa469847019a8fdaf040245a93ff6a447da13ecda468fc6285f90e2c096504c\"\nQR = \"exact_20261116_live128_paired_cache225_current576_chain_qr.py\"\nQR_SHA = \"9e393cd970554e48203f80f86d6734a74ba67ff7bfa51964cbd5ff9d4450b48c\"\nSYSTEM = \"exact_20261116_live128_paired_cache225_current576_system.py\"\nSYSTEM_SHA = \"6158c460dc9abd7ea153a0b2708decdf1378f8b0a79e46bbe947d4d8b59074f6\"",
+          "after": "from types import SimpleNamespace\n\nHERE = Path(__file__).resolve().parent\nSCHEMA = \"R534-current-H-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R534-current-H-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_projected_model_same_call_owner.py\"\nOWNER_SHA = \"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_projected_model_current576_chain_qr.py\"\nQR_SHA = \"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\"\nSYSTEM = \"exact_20261116_live128_projected_model_current576_system.py\"\nSYSTEM_SHA = \"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\"\nCOMPONENTS = \"geometry_20261116_live128_projected_model_final_components.py\"\nCOMPONENTS_SHA = \"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\"\nCOMPONENT_SCHEMA = \"R534-current-H-owner-projected64-model-components-v1\"\nASSEMBLY_SCHEMA = \"R534-current-H-live128-projected-model-response-assembly-v1\"\nMODEL_WINDOW_SCHEMA = \"R534-current-owner-projected-model-stage-clock-v1\"\nMODEL_BINDING = \"geometry_20261116_live128_projected_stage_binding.py\"\nMODEL_BINDING_SHA = \"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\"\nPROCESS = \"geometry_20261116_live128_owned_process.py\"\nPROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nOVERHEAD = dict(stages=345,boundary=720,endpoint=345,audit=345)",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-4",
+          "before": " \"factor\", \"solve",
+          "after": "\"factor\",\"owner\",\"project-state\",\"model-clock\",\"guard\",\"lift-model\",\"post",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-5",
+          "before": "())/1e9)\n    if remaining() <= 0",
+          "after": "())/1e9)\n    if spec[\"mode\"] != \"guard\" and remaining() <= 0",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-6",
+          "before": "def run_response",
+          "after": "\ndef load_module(name, digest, label):\n    path = source(name,digest)\n    spec = importlib.util.spec_from_file_location(label,path)\n    module = importlib.util.module_from_spec(spec)\n    sys.modules[spec.name] = module\n    spec.loader.exec_module(module)\n    return module\n\n\ndef window_record(spec, root, *, check_science=True):\n    path = checked(spec[\"model_window\"],root)\n    window = read(path)\n    require(window[\"schema\"] == MODEL_WINDOW_SCHEMA\n            and window[\"source\"][\"sha256\"] == file_sha(__file__)\n            and window[\"call_number\"] == spec[\"call_number\"],\n            \"Actual current-call model clock source and address\")\n    for key in RUN_KEYS:\n        require(window[\"run\"][key] == os.environ.get(key),\"Actual stage-clock run \"+key)\n    for left,right in ((window[\"actual_job_deadline\"],spec[\"job_deadline\"]),):\n        require(left[\"bytes\"] == right[\"bytes\"] and left[\"sha256\"] == right[\"sha256\"],\n                \"No new job clock or altered source clock\")\n    clock=read(checked(spec[\"job_deadline\"],Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)))\n    until=clock[\"absolute_monotonic_deadline_ns\"]-clock[\"readback_cleanup_reserve_seconds\"]*10**9\n    require(type(window[\"phase_deadline_monotonic_ns\"]) is int\n            and type(window[\"science_deadline_monotonic_ns\"]) is int\n            and window[\"science_deadline_monotonic_ns\"] <= window[\"phase_deadline_monotonic_ns\"]\n            <= until-window[\"independent_audit_allowance_reserved_seconds\"]*10**9,\n            \"Fixed stage window remains inside the actual original job deadline\")\n    if check_science and time.monotonic_ns() >= window[\"science_deadline_monotonic_ns\"]:\n        raise ResourceStop(\"The original projected-model scientific stage cap ended\")\n    return path,window\n\n\ndef component_arguments(spec, root, owner, handoff, state):\n    physical_source_root=Path(spec[\"physical_source_root\"]).resolve(strict=True)\n    require(physical_source_root.is_dir() and physical_source_root.is_relative_to(root),\n            \"The actual per-call original physical source view is retained\")\n    physical_sources=read(checked(spec[\"physical_source_binding\"],root))\n    require(physical_sources[\"schema\"]==\"R534-actual-current-physical-source-input-view-v1\"\n            and physical_sources[\"complete\"] is True\n            and physical_sources[\"call_number\"]==spec[\"call_number\"]\n            and Path(physical_sources[\"actual_directory\"]).resolve(strict=True)==physical_source_root,\n            \"This actual call copied the exact original physical source inputs\")\n    base=[sys.executable,\"-u\",str(source(COMPONENTS,COMPONENTS_SHA)),\"--operator-components\",\n        \"--packet\",str(checked(spec[\"packet\"],root)),\"--expected-packet-sha256\",spec[\"packet\"][\"sha256\"],\n        \"--packet-binding\",str(checked(spec[\"packet_binding\"],root)),\n        \"--expected-packet-binding-sha256\",spec[\"packet_binding\"][\"sha256\"],\n        \"--owner-summary\",str(handoff),\"--expected-owner-summary-sha256\",file_sha(handoff),\n        \"--owner-source\",str(source(OWNER,OWNER_SHA)),\"--expected-owner-source-sha256\",OWNER_SHA,\n        \"--state\",str(state),\"--expected-state-sha256\",file_sha(state),\n        \"--threads\",str(spec[\"resources\"][\"owner\"][\"threads\"]),\"--retain-temporary-for-same-job\"]\n    physical=[\"--physical-packet\",str(checked(spec[\"physical_packet\"],root)),\n        \"--expected-physical-packet-sha256\",spec[\"physical_packet\"][\"sha256\"],\n        \"--physical-binding\",str(checked(spec[\"physical_binding\"],root)),\n        \"--expected-physical-binding-sha256\",spec[\"physical_binding\"][\"sha256\"],\n        \"--original-source-root\",str(physical_source_root)]\n    return base,physical\n\n\ndef current_owner(spec, root):\n    owner_file=root/\"owner\"/\"summary.json\"\n    owner=read(owner_file)\n    require(owner[\"source_sha256\"] == OWNER_SHA\n            and owner[\"actual_call_identity\"][\"native_call\"] == spec[\"call_number\"],\n            \"Actual independent current owner source and call\")\n    final=owner.get(\"owner_final\") or {}\n    require(final.get(\"final\",{}).get(\"complete\") is True\n            and final[\"final\"].get(\"below_original_tolerance\") is True\n            and owner.get(\"independent_fresh_replay_complete\") is True,\n            \"The original current128 primal/tolerance/replay must really have returned\")\n    post=owner.get(\"post_owner_components\") or {}\n    require(post[\"schema\"] == \"R534-truthful-post-owner-components-deferred-v1\"\n            and post[\"old_synchronous_post_components_executed\"] is False,\n            \"The actual owner deferred, rather than fabricated, its old post components\")\n    handoff=member(owner_file.parent,post[\"actual_owner_handoff\"])\n    state=owner_file.parent/\"solve\"/\"final-state.f128\"\n    require(receipt(state)[\"bytes\"] == owner[\"final_state128\"][\"bytes\"]\n            and file_sha(state) == owner[\"final_state128\"][\"sha256\"],\n            \"Actual unmodified complete final128 state\")\n    return owner_file,owner,handoff,state\n\n\ndef run_project(spec,root,remaining,record):\n    _,window=window_record(spec,root)\n    module=load_module(MODEL_BINDING,MODEL_BINDING_SHA,\"_R534_current_projection_binding\")\n    input_spec=dict(schema=module.INPUT_SCHEMA,current_source_tuple=window[\"current_source_tuple\"],\n        owner_input=window[\"owner_input\"],owner_summary=window[\"owner_summary\"],\n        session_spec=window[\"session_spec\"],out=str(root/\"projection\"))\n    input_file=root/\"projection-input.json\"\n    write(input_file,input_spec)\n    result,desc=module.bind_and_project(input_spec,input_receipt=receipt(input_file))\n    record[\"actual_projection_binding\"]=desc\n    record[\"projection_complete\"]=result.get(\"complete\") is True\n    record[\"projection_error\"]=result.get(\"error\")\n    window_record(spec,root)\n    if result.get(\"complete\") is not True:\n        raise RuntimeError(\"The actual once-RN64 current owner projection did not complete\")\n    return dict(projection_binding=desc,actual_projected_state64=result[\"actual_projected_state64\"])\n\n\ndef run_lift(spec,root,remaining,record):\n    _,window=window_record(spec,root)\n    owner_file,owner,handoff,state=current_owner(spec,root)\n    base,_=component_arguments(spec,root,owner,handoff,state)\n    model=checked(spec[\"model_result\"],root)\n    tree=root/\"owner\"/\"final-components\"\n    tree.mkdir(exist_ok=True)\n    until=window[\"phase_deadline_monotonic_ns\"]\n    total=int(max(0,(until-time.monotonic_ns())/1e9))\n    if total < 1:\n        raise ResourceStop(\"No original phase allowance remains for exact stage-model lifting\")\n    deadline_text=str(until//10**9)+\".\"+str(until%10**9).zfill(9)\n    command=base+[\"--component\",\"stages\",\"--seconds\",str(total),\n        \"--scientific-seconds-cap\",str(window[\"actual_science_seconds_cap\"]),\n        \"--absolute-deadline-monotonic\",deadline_text,\n        \"--model-science-deadline-monotonic-ns\",str(window[\"science_deadline_monotonic_ns\"]),\n        \"--model-result\",str(model),\"--expected-model-result-sha256\",file_sha(model),\n        \"--first-stage\",\"0\",\"--stages\",\"576\",\"--first-column\",\"0\",\"--columns\",\"224\",\n        \"--reference-columns\",\"none\",\"--out\",str(tree/\"stages\")]\n    child=run_child(command,root,\"actual-projected-model-exact-lift\",\n                    min(remaining(),max(0,(until-time.monotonic_ns())/1e9)),record)\n    file=tree/\"stages\"/\"summary.json\"\n    if file.is_file():\n        result=read(file)\n        record[\"actual_stage_component\"]=receipt(file)\n        record[\"stage_scientific_complete\"]=result.get(\"scientific_complete\") is True\n        record[\"stage_actual_error\"]=result.get(\"actual_error\")\n        require(result[\"schema\"] == COMPONENT_SCHEMA and result[\"source_sha256\"] == COMPONENTS_SHA,\n                \"The actual new stage component returned under its real scope\")\n        # A full successful mathematical result can survive a local index70.\n        require(result.get(\"scientific_complete\") is True,\n                \"The complete current model columns were not returned\")\n    else:\n        raise RuntimeError(\"The actual full stage component summary is absent\")\n    return dict(stage_component=receipt(file),component_transport_returncode=child[\"actual_returncode\"])\n\n\ndef run_guard(spec,root,remaining,record):\n    \"\"\"Independent original-owned process, only lifecycle metadata and signals.\"\"\"\n    path,window=window_record(spec,root,check_science=False)\n    P=load_module(PROCESS,PROCESS_SHA,\"_R534_original_owned_process\")\n    session=Path(read(checked(window[\"session_spec\"],root.parent))[\"output\"]).resolve(strict=True)\n    require(root.parent == session and os.environ.get(P.ENV_NAMESPACE) == str(session),\n            \"The actual guard inherits the same registered worker namespace\")\n    worker_path=checked(window[\"worker_registry\"],session)\n    worker=read(worker_path)\n    require(worker[\"schema\"] == P.SCHEMA and worker[\"source\"][\"sha256\"] == PROCESS_SHA\n            and worker[\"run\"] == record[\"run\"] and Path(worker[\"namespace\"]).resolve(strict=True) == session,\n            \"The actual original worker registry is source/run/namespace-bound\")\n    require(worker[\"deadline\"][\"bytes\"] == spec[\"job_deadline\"][\"bytes\"]\n            and worker[\"deadline\"][\"sha256\"] == spec[\"job_deadline\"][\"sha256\"],\n            \"The registered worker uses this exact original deadline\")\n    me=P.proc_info(os.getpid(),session)\n    require(me is not None and me[\"pid\"] == me[\"pgid\"] == me[\"sid\"]\n            and me[\"pid\"] != worker[\"worker\"][\"pid\"],\n            \"The guard is a distinct owned session, not the scientific worker group\")\n    registry=root/\"model-phase\"/\"guard-process.json\"\n    P.register(SimpleNamespace(pid=os.getpid()),session,registry,sys.argv,spec[\"job_deadline\"])\n    record[\"actual_guard_registry\"]=receipt(registry)\n    record[\"actual_worker_registry\"]=receipt(worker_path)\n    signals=[]\n    def stopped(signum,frame):\n        signals.append(signum)\n    for sig in (signal.SIGTERM,signal.SIGINT):\n        signal.signal(sig,stopped)\n    write(root/\"model-phase\"/\"guard-ready.json\",dict(schema=MODEL_WINDOW_SCHEMA+\"-guard-ready-v1\",\n        source=receipt(__file__),model_window=receipt(path),guard_registry=receipt(registry),\n        actual_worker_registry=receipt(worker_path),run=record[\"run\"]))\n    stop_path=root/\"model-phase\"/\"stop.json\"\n    while True:\n        if stop_path.is_file():\n            stop=read(stop_path)\n            require(stop[\"schema\"] == MODEL_WINDOW_SCHEMA+\"-stop-v1\"\n                    and stop[\"model_window\"][\"sha256\"] == file_sha(path)\n                    and stop[\"run\"] == record[\"run\"]\n                    and type(stop[\"model_completed\"]) is bool,\n                    \"The same current Node explicitly closed this model scope\")\n            record[\"actual_stop\"]=receipt(stop_path)\n            record[\"model_completed_before_guard_close\"]=stop[\"model_completed\"]\n            record[\"stop_reason\"]=\"actual-current-Node-closed-model-scope\"\n            return dict(guard_completed=True,worker_group_termination_requested=False)\n        current=P.proc_info(worker[\"worker\"][\"pid\"],session)\n        same=(current is not None and all(current[k] == worker[\"worker\"][k]\n               for k in (\"pid\",\"pgid\",\"sid\",\"start_ticks\",\"uid\")))\n        if signals or not same or time.monotonic_ns() >= window[\"phase_deadline_monotonic_ns\"]:\n            record[\"stop_reason\"]=(\"external-signal\" if signals else\n                \"original-worker-no-longer-present\" if not same else \"original-stage-hard-wall-cap\")\n            record[\"actual_external_signals\"]=signals\n            record[\"resource_partial\"]=True\n            record[\"worker_group_quiet\"]=P.quiet(worker_path,terminate=True)\n            if not record[\"worker_group_quiet\"][\"quiescent\"]:\n                raise RuntimeError(\"Original owned worker group is not proved quiescent\")\n            return dict(guard_completed=True,worker_group_termination_requested=True,\n                        model_completed_before_guard_close=False)\n        time.sleep(0.05)\n\n\ndef run_owner",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-7",
+          "before": "27-current-H-live128-paired-cache-owner-cal",
+          "after": "34-current-H-owner128-before-projected-mode",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-8",
+          "before": "ctual-owner-and-components\", remaining(), ",
+          "after": "ctual-owner-and-replay\", remaining(), ",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-9",
+          "before": "components = {}\n    for name in (\"stages\", \"boundary\", \"endpoint\", \"audit\"):\n        if name == \"audit\" and not spec[\"request\"][\"audit\"]:\n            continue\n        directory = owner_file.parent/\"final-components\"/name\n        file = directory/\"summary.json\"\n        if file.is_file():\n            components[name] = dict(directory=str(directory), summary=receipt(file))\n    height_rows = [row for row in manifest[\"arrays\"] if row[\"name\"] == \"physical-height\"]\n    require(len(height_rows) == 1 and len(height_rows[0][\"chunks\"]) == 1,\n            \"Complete current physical H uses one original raw chunk\")\n    height_path = member(snapshot_file.parent, height_rows[0][\"chunks\"][0])\n    assembly_input = dict(schema=\"R527-current-H-live128-paired-cache-response-assembly-v1-input-v1\",\n        call_directory=str(root), out=str(root/\"response\"), call_number=spec[\"call_number\"],\n        job_deadline=spec[\"job_deadline\"], request=spec[\"request\"],\n        owner_summary=receipt(owner_file), owner_source=receipt(HERE/OWNER),\n        owner_handoff=receipt(handoff), packet_binding=spec[\"packet_binding\"],\n        snapshot_result=spec[\"snapshot_result\"], physical_height=receipt(height_path),\n        state=receipt(state_file), parameters=context[\"parameters\"], raw_node=context[\"rawNode\"],\n        components=components, retain_optional_tangent_predictor=spec[\"retain_optional_tangent_predictor\"])\n    assembly_file = root/\"assembly-input.json\"\n    write(assembly_file, assembly_input)\n    assembly_child = run_child([sys.executable, \"-u\", str(source(ASSEMBLER, ASSEMBLER_SHA)),\n        \"--input\", str(assembly_file), \"--input-sha256\", file_sha(assembly_file)],\n        root, \"actual-protocol-projection\", remaining(), record)\n    result_file = root/\"response\"/\"summary.json\"\n    if not result_file.is_file():\n        raise RuntimeError(\"Actual complete response projection summary missing\")\n    result = read(result_file)\n    record[\"actual_response_assembly_summary\"] = receipt(result_file)\n    record[\"actual_response_assembly_error\"] = result.get(\"error\")\n    if assembly_child[\"actual_returncode\"] != 0 or result.get(\"complete\") is not True:\n        raise RuntimeError(\"Actual same-H response projection remains incomplete\")\n    response_file = checked(result[\"response_file\"], root)\n    return dict(response=receipt(response_file),\n        optional_predictor_manifest=result.get(\"optional_predictor_manifest_for_worker\"),\n        actual_response_assembly_summary=receipt(result_file),\n        original_TailClient_acceptance_still_required=True,\n        same_current_H_owner_state_and_all_actual_components=True)",
+          "after": "require(post.get(\"schema\") == \"R534-truthful-post-owner-components-deferred-v1\"\n            and post.get(\"old_synchronous_post_components_executed\") is False,\n            \"The current owner really deferred the old synchronous post stage\")\n    session_file=checked(spec[\"session_spec\"],root.parent)\n    session=read(session_file)\n    require(Path(session[\"output\"]).resolve(strict=True) == root.parent,\n            \"Projection and stage work stay in this actual Node session\")\n    worker_registry=checked(spec[\"worker_registry\"],root.parent)\n    phase=root/\"model-phase\"\n    phase.mkdir()\n    available=max(0,int(remaining()))\n    audit_reserve=owner_resources[\"audit_seconds_cap\"]+345 if owner_resources[\"audit_seconds_cap\"] else 0\n    cap=owner_resources[\"stage_seconds_cap\"]\n    actual=min(cap,max(0,available-audit_reserve-OVERHEAD[\"stages\"]))\n    if actual < 1:\n        raise ResourceStop(\"No original remaining stage-model allowance after owner and replay\")\n    now=time.monotonic_ns()\n    clock=read(checked(spec[\"job_deadline\"],Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)))\n    hard=min(clock[\"absolute_monotonic_deadline_ns\"]-\n        (clock[\"readback_cleanup_reserve_seconds\"]+audit_reserve)*10**9,\n        now+(actual+OVERHEAD[\"stages\"])*10**9)\n    window=dict(schema=MODEL_WINDOW_SCHEMA,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},call_number=spec[\"call_number\"],\n        actual_job_deadline=spec[\"job_deadline\"],owner_input=receipt(input_file),\n        owner_summary=receipt(owner_file),owner_handoff=receipt(handoff),actual_state128=receipt(state_file),\n        session_spec=receipt(session_file),worker_registry=receipt(worker_registry),\n        current_source_tuple=spec[\"current_source_tuple\"],\n        started_monotonic_ns=now,science_deadline_monotonic_ns=min(now+actual*10**9,hard-30*10**9),\n        phase_deadline_monotonic_ns=hard,\n        requested_stage_science_seconds_cap=cap,actual_science_seconds_cap=actual,\n        binding_cleanup_overhead_seconds=OVERHEAD[\"stages\"],\n        independent_audit_allowance_reserved_seconds=audit_reserve,\n        projection_flow_and_exact_lift_share_one_stage_cap=True,\n        no_new_total_clock_started=True)\n    window_file=phase/\"window.json\"\n    write(window_file,window)\n    record[\"actual_stage_model_window\"]=receipt(window_file)\n    return dict(owner_input=receipt(input_file),owner_summary=receipt(owner_file),\n        owner_handoff=receipt(handoff),state=receipt(state_file),model_window=receipt(window_file))\n\n\ndef run_post_response(spec,root,remaining,record):\n    owner_file,owner,handoff,state_file=current_owner(spec,root)\n    base,physical=component_arguments(spec,root,owner,handoff,state_file)\n    tree=root/\"owner\"/\"final-components\"\n    tree.mkdir(exist_ok=True)\n    caps={name:spec[\"resources\"][\"owner\"][name+\"_seconds_cap\"]\n          for name in (\"stage\",\"boundary\",\"endpoint\",\"audit\")}\n    caps[\"stages\"]=caps.pop(\"stage\")\n    if not spec[\"request\"][\"audit\"]:\n        caps[\"audit\"]=0\n    post=dict(schema=\"R534-current-owner-projected-model-actual-post-components-v1\",\n        source=receipt(__file__),owner_summary=receipt(owner_file),owner_handoff=receipt(handoff),\n        actual_state128=receipt(state_file),actual_job_deadline=spec[\"job_deadline\"],\n        requested_science_caps=caps,per_component_overhead_seconds=OVERHEAD,\n        components={},all_requested_components_completed=False,\n        actual_model_error=spec.get(\"model_error\"),\n        model_lifecycle_complete=spec.get(\"model_lifecycle_complete\") is True,\n        old_owner_deferred_record_not_rewritten=True,native_accepted=False,fullDN_accepted=False)\n    post_path=root/\"post-components.json\"\n    components={}\n    def consume(name):\n        file=tree/name/\"summary.json\"\n        if not file.is_file():\n            return None\n        data=read(file)\n        require(data[\"schema\"] == COMPONENT_SCHEMA and data[\"source_sha256\"] == COMPONENTS_SHA\n                and data[\"component\"] == name,\"Actual projected-model component source/role\")\n        require(data[\"inputs\"][\"state\"][\"sha256\"] == file_sha(state_file)\n                and data[\"inputs\"][\"owner_summary\"][\"sha256\"] == file_sha(handoff),\n                \"Every post component consumes the same unmodified owner/handoff\")\n        components[name]=dict(directory=str(file.parent),summary=receipt(file))\n        return data\n    try:\n        stage=consume(\"stages\")\n        post[\"components\"][\"stages\"]=dict(requested=True,attempted=(tree/\"stages\").is_dir(),\n            scientific_complete=stage is not None and stage.get(\"scientific_complete\") is True,\n            actual_summary=components.get(\"stages\"),actual_model_error=spec.get(\"model_error\"),\n            model_result=spec.get(\"model_result\"),\n            not_started_reason=None if stage is not None else \"complete-current-model-lift-not-returned\")\n        for name in (\"boundary\",\"endpoint\",\"audit\"):\n            item=dict(requested=bool(caps[name]),attempted=False,scientific_complete=False)\n            post[\"components\"][name]=item\n            if not caps[name]:\n                item[\"reason\"]=\"explicitly-not-requested\"\n                continue\n            if name!=\"audit\" and (post[\"actual_model_error\"] is not None\n                    or not post[\"model_lifecycle_complete\"]):\n                item.update(reason=\"actual-model-or-owned-guard-did-not-complete\",\n                            actual_model_error=post[\"actual_model_error\"],\n                            model_lifecycle_complete=post[\"model_lifecycle_complete\"])\n                continue\n            dependency=dict(boundary=\"stages\",endpoint=\"boundary\").get(name)\n            if dependency and not post[\"components\"][dependency].get(\"scientific_complete\"):\n                item.update(reason=\"complete-current-mathematical-input-not-produced\",\n                            missing_component=dependency)\n                continue\n            audit_reserve=caps[\"audit\"]+OVERHEAD[\"audit\"] if name!=\"audit\" and caps[\"audit\"] else 0\n            available=max(0,int(remaining()))\n            actual=min(caps[name],max(0,available-audit_reserve-OVERHEAD[name]))\n            total=actual+OVERHEAD[name]\n            clock=read(checked(spec[\"job_deadline\"],Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)))\n            until=min(clock[\"absolute_monotonic_deadline_ns\"]-\n                (clock[\"readback_cleanup_reserve_seconds\"]+audit_reserve)*10**9,\n                time.monotonic_ns()+total*10**9)\n            item.update(requested_science_seconds=caps[name],\n                remaining_scientific_seconds_before=available,\n                independent_audit_allowance_reserved_seconds=audit_reserve,\n                actual_science_seconds_cap=actual,actual_component_total_seconds=total,\n                component_absolute_monotonic_deadline_ns=str(until))\n            if actual<1:\n                item.update(reason=\"global-wall-allowance-not-enough-to-start\",resource_partial=True)\n                continue\n            deadline_text=str(until//10**9)+\".\"+str(until%10**9).zfill(9)\n            command=base+[\"--component\",name,\"--seconds\",str(total),\n                \"--scientific-seconds-cap\",str(actual),\n                \"--absolute-deadline-monotonic\",deadline_text,\"--out\",str(tree/name)]+physical\n            if name==\"boundary\":\n                command+=[\"--stage-output\",str(tree/\"stages\"),\n                    \"--expected-stage-summary-sha256\",file_sha(tree/\"stages\"/\"summary.json\")]\n            if name==\"endpoint\":\n                command+=[\"--boundary-output\",str(tree/\"boundary\"),\n                    \"--expected-boundary-summary-sha256\",file_sha(tree/\"boundary\"/\"summary.json\")]\n            item[\"attempted\"]=True\n            try:\n                child=run_child(command,root,\"actual-model-\"+name,\n                    max(0,min(remaining(),(until-time.monotonic_ns())/1e9)),record)\n                item[\"actual_process\"]=child\n            except Exception as error:\n                item.update(actual_error=dict(type=type(error).__name__,message=str(error)),\n                            traceback=traceback.format_exc(),resource_partial=isinstance(error,ResourceStop))\n            data=consume(name)\n            if data is None:\n                item[\"reason\"]=\"component-summary-not-produced\"\n            else:\n                item.update(scientific_complete=data.get(\"scientific_complete\") is True,\n                    actual_summary=components[name],\n                    complete_return_independent_of_local_transport70=True,\n                    actual_error=data.get(\"actual_error\",item.get(\"actual_error\")),\n                    component_resource_partial=data.get(\"resource_partial\") is True,\n                    actual_scientific_report=data.get(\"scientific_report_receipt\"))\n        requested=[row for row in post[\"components\"].values() if row[\"requested\"]]\n        post[\"all_requested_components_completed\"]=bool(requested) and all(row[\"scientific_complete\"] for row in requested)\n        for key,name in ((\"complete_stage_maps\",\"stages\"),(\"complete_boundary112_response\",\"boundary\"),\n                         (\"complete_mixed_endpoint338x112_readout\",\"endpoint\"),\n                         (\"complete_original_C_based_physical_program_audit\",\"audit\")):\n            post[key]=post[\"components\"][name].get(\"scientific_complete\") is True\n    finally:\n        for name in (\"stages\",\"boundary\",\"endpoint\",\"audit\"):\n            if name not in post[\"components\"]:\n                post[\"components\"][name]=dict(requested=bool(caps[name]),attempted=False,\n                    scientific_complete=False,reason=\"not-visited-after-actual-earlier-error\")\n        post[\"remaining_scientific_seconds_after\"]=remaining()\n        write(post_path,post)\n        record[\"actual_post_components\"]=receipt(post_path)\n        record[\"actual_component_flags\"]={k:post[k] for k in (\n            \"all_requested_components_completed\",\"complete_stage_maps\",\"complete_boundary112_response\",\n            \"complete_mixed_endpoint338x112_readout\",\"complete_original_C_based_physical_program_audit\") if k in post}\n    snapshot_file=checked(spec[\"snapshot_result\"],root)\n    snapshot=read(snapshot_file)\n    context=read(member(snapshot_file.parent,snapshot[\"context\"]))\n    manifest=read(member(snapshot_file.parent,snapshot[\"manifest\"]))\n    height_rows=[row for row in manifest[\"arrays\"] if row[\"name\"]==\"physical-height\"]\n    require(len(height_rows)==1 and len(height_rows[0][\"chunks\"])==1,\"Complete actual physical H chunk\")\n    height_path=member(snapshot_file.parent,height_rows[0][\"chunks\"][0])\n    assembly_input=dict(schema=ASSEMBLY_SCHEMA+\"-input-v1\",call_directory=str(root),\n        out=str(root/\"response\"),call_number=spec[\"call_number\"],job_deadline=spec[\"job_deadline\"],\n        request=spec[\"request\"],owner_summary=receipt(owner_file),owner_source=receipt(HERE/OWNER),\n        owner_handoff=receipt(handoff),packet_binding=spec[\"packet_binding\"],\n        snapshot_result=spec[\"snapshot_result\"],physical_height=receipt(height_path),\n        state=receipt(state_file),parameters=context[\"parameters\"],raw_node=context[\"rawNode\"],\n        components=components,actual_post_components=receipt(post_path),\n        projection_binding=spec.get(\"projection_binding\"),model_result=spec.get(\"model_result\"),\n        retain_optional_tangent_predictor=spec[\"retain_optional_tangent_predictor\"])\n    assembly_file=root/\"assembly-input.json\"\n    write(assembly_file,assembly_input)\n    child=run_child([sys.executable,\"-u\",str(source(ASSEMBLER,ASSEMBLER_SHA)),\n        \"--input\",str(assembly_file),\"--input-sha256\",file_sha(assembly_file)],\n        root,\"actual-protocol-projection\",remaining(),record)\n    result_file=root/\"response\"/\"summary.json\"\n    require(result_file.is_file(),\"Actual response assembly summary must exist\")\n    result=read(result_file)\n    record[\"actual_response_assembly_summary\"]=receipt(result_file)\n    record[\"actual_response_assembly_error\"]=result.get(\"error\")\n    if child[\"actual_returncode\"]!=0 or result.get(\"complete\") is not True:\n        raise RuntimeError(\"Actual complete current model/128 response remains unavailable\")\n    response=checked(result[\"response_file\"],root)\n    return dict(response=receipt(response),\n        optional_predictor_manifest=result.get(\"optional_predictor_manifest_for_worker\"),\n        actual_response_assembly_summary=receipt(result_file),\n        original_TailClient_acceptance_still_required=True,\n        same_current_H_owner_state_and_all_actual_components=True,\n        current_projected_model_is_not_claimed_an_exact128_derivative=True)\n",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-10",
+          "before": "record = dict(schema=SCHEMA, source=receipt(__file__), input=receipt(args.input),\n        mode=spec[\"mode\"]",
+          "after": "invocation=spec.get(\"invocation\",spec[\"mode\"])\n    require(isinstance(invocation,str) and len(invocation)<=80\n            and all(c in \"abcdefghijklmnopqrstuvwxyz0123456789-\" for c in invocation),\n            \"Explicit unique actual pipeline invocation name\")\n    record = dict(schema=SCHEMA, source=receipt(__file__), input=receipt(args.input),\n        mode=spec[\"mode\"], invocation=invocation",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-11",
+          "before": " root, remaining, record)\n        else:\n            value = run_response(spec, root, remaining, ",
+          "after": "root,remaining,record)\n        elif spec[\"mode\"] == \"owner\":\n            value = run_owner(spec,root,remaining,record)\n        elif spec[\"mode\"] == \"project-state\":\n            value = run_project(spec,root,remaining,record)\n        elif spec[\"mode\"] == \"model-clock\":\n            _,window = window_record(spec,root)\n            value = dict(original_clock_remaining_seconds=remaining(),\n                stage_science_remaining_seconds=max(0,(window[\"science_deadline_monotonic_ns\"]-time.monotonic_ns())/1e9),\n                actual_stage_model_window=spec[\"model_window\"])\n        elif spec[\"mode\"] == \"guard\":\n            value = run_guard(spec,root,remaining,record)\n        elif spec[\"mode\"] == \"lift-model\":\n            value = run_lift(spec,root,remaining,record)\n        else:\n            value = run_post_response(spec,root,remaining,",
+          "count": 1
+        },
+        {
+          "id": "pipeline-change-12",
+          "before": "spec[\"mode\"]+\"-result.json\"), record)\n    print(json.dumps(dict(event=\"R493_actua",
+          "after": "invocation+\"-result.json\"), record)\n    print(json.dumps(dict(event=\"R534_actual_projected_mode",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_paired_cache225_worker.mjs",
+        "bytes": 8183,
+        "sha256": "0be16b9bbfd1635c5bc0155f45b222534486c5491e1e6c14b32ad8e605ffb2bf"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_projected_model_worker.mjs",
+        "bytes": 8306,
+        "sha256": "47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58"
+      },
+      "patches": [
+        {
+          "id": "worker-change-1",
+          "before": "493 live128 protocol for the unchanged stored finite original",
+          "after": "534 owner128 values and current-projected64 model on the original finite",
+          "count": 1
+        },
+        {
+          "id": "worker-change-2",
+          "before": "aired_cache225",
+          "after": "rojected_model",
+          "count": 1
+        },
+        {
+          "id": "worker-change-3",
+          "before": "binary128-live-recorded-factor-simd-mixed338-v1',\"+\n \"tailPredictor:'full-shooting-projected128-tangent-v1',\"+\n \"freshOriginal64CaptureBackend:backendLabel,amplitudeWarm:'physical-Q-L-amplitude-v1',\"+\n \"storedMetricAdapter:storedGeometry.manifest,stableGraphAdapter:storedEngineManifest,\"+\n \"liveResponseArithmetic:'R493-current-H-live128-with-explicit-binary64-protocol-projection",
+          "after": "R534-owner128-current-projected64-model-mixed338-v1',\"+\n \"tailPredictor:'full-shooting-projected128-tangent-v1',\"+\n \"freshOriginal64CaptureBackend:backendLabel,amplitudeWarm:'physical-Q-L-amplitude-v1',\"+\n \"storedMetricAdapter:storedGeometry.manifest,stableGraphAdapter:storedEngineManifest,\"+\n \"liveResponseArithmetic:'R534-current-H-owner128-with-projected64-linear-model-and-original128-values",
+          "count": 1
+        },
+        {
+          "id": "worker-change-4",
+          "before": "explicit:true,\n arbitrary_curren",
+          "after": "explicit:true,\n current_owner_projected64_stage_model_declared:true,original128_owner_and_replay_retained:true,\n arbitrary_curren",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_paired_cache225_tail_client.py",
+        "bytes": 32147,
+        "sha256": "cfcc205cf0c291dc6a4dfd280a4c60f67f1d84062761e68c62117714867cb328"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_projected_model_tail_client.py",
+        "bytes": 33640,
+        "sha256": "5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af"
+      },
+      "patches": [
+        {
+          "id": "client-change-1",
+          "before": "complete same-call components through explicit",
+          "after": "same-call128 values and explicit current-projected64 linear model through",
+          "count": 1
+        },
+        {
+          "id": "client-change-2",
+          "before": "}\")\nIO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R527-current-H-live128-paired-cache",
+          "after": ",\\\"geometry_20261116_live128_projected_model_boundary128.cpp\\\":\\\"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\\\",\\\"geometry_20261116_live128_projected_model_same_call_owner.py\\\":\\\"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\\\",\\\"geometry_20261116_live128_projected_model_final_components.py\\\":\\\"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\\\",\\\"geometry_20261116_live128_projected_model_response_assembly.py\\\":\\\"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\\\",\\\"exact_20261116_live128_projected_model_current576_system.py\\\":\\\"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\\\",\\\"exact_20261116_live128_projected_model_current576_chain_qr.py\\\":\\\"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\\\",\\\"geometry_20261116_live128_projected_model_call_pipeline.py\\\":\\\"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\\\",\\\"geometry_20261116_live128_projected_model_current_call.mjs\\\":\\\"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\\\",\\\"geometry_20261116_live128_projected_model_worker.mjs\\\":\\\"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\\\",\\\"geometry_20261116_live128_projected_stage_binding.py\\\":\\\"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\\\",\\\"geometry_20261116_live128_same_dn_projected_stages.mjs\\\":\\\"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\\\"}\")\nIO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R534-current-H-live128-projected-model",
+          "count": 1
+        },
+        {
+          "id": "client-change-3",
+          "before": "aired_cache225_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_paired_cache225_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_paired_cache225",
+          "after": "rojected_model_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_projected_model_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_projected_model",
+          "count": 1
+        },
+        {
+          "id": "client-change-4",
+          "before": "aired_cache225_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n        original_source_root=str(source_root), original_source_topic=str(source_topic),\n        original_source_sha256=client.sources, numerical_configuration=numbers,\n        session_origin=session_origin, initial_guess=live_receipt(seed),\n        job_deadline=live_receipt(clock), resources=policy[\"resources\"], bridge=bridge,\n        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_paired_cache225_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_paired_cache225",
+          "after": "rojected_model_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n        original_source_root=str(source_root), original_source_topic=str(source_topic),\n        original_source_sha256=client.sources, numerical_configuration=numbers,\n        session_origin=session_origin, initial_guess=live_receipt(seed),\n        job_deadline=live_receipt(clock), resources=policy[\"resources\"], bridge=bridge,\n        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_projected_model_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_projected_model",
+          "count": 1
+        },
+        {
+          "id": "client-change-5",
+          "before": "261116_live128_paired_cache225_worker.mjs\"), s",
+          "after": "261116_live128_projected_model_worker.mjs\"), s",
+          "count": 1
+        },
+        {
+          "id": "client-change-6",
+          "before": "binary128-live-recorded-factor-simd-mixed338-v1\"\n                    or self.ready.get(\"tailPredictor\") != \"full-shooting-projected128-tangent-v1\"\n                    or self.ready.get(\"freshOriginal64CaptureBackend\") != \"fourier-root-and-product-moments-v1\"\n                    or self.ready.get(\"liveResponseArithmetic\") != \"R493-current-H-live128-with-explicit-binary64-protocol-projection",
+          "after": "R534-owner128-current-projected64-model-mixed338-v1\"\n                    or self.ready.get(\"tailPredictor\") != \"full-shooting-projected128-tangent-v1\"\n                    or self.ready.get(\"freshOriginal64CaptureBackend\") != \"fourier-root-and-product-moments-v1\"\n                    or self.ready.get(\"liveResponseArithmetic\") != \"R534-current-H-owner128-with-projected64-linear-model-and-original128-values",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_paired_cache225_original_full_dn.py",
+        "bytes": 37222,
+        "sha256": "4c5c0c0dab7fe1b96dc4065acc4c027ea872fedbf6b4f750f462cb0af6ee3aca"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_projected_model_original_full_dn.py",
+        "bytes": 38909,
+        "sha256": "46329929f49011ba1aec4af7a4c03e67ce6a11faa46d9c040df4f5f12d76db92"
+      },
+      "patches": [
+        {
+          "id": "fulldn-change-1",
+          "before": "01 actual63 prefix to live128 current-H/J, original affine FD and ",
+          "after": "34 actual63 prefix to owner128 values/current64 model, original FD/",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-2",
+          "before": "27-live128-paired-cache-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_paired_cache225_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\nCONFIG_SHA = \"01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5\"\nHISTORICAL_ZERO_SHA = \"e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51\"\nFIXED_BINARY_BYTES_PER_NATIVE_CORRECTION = 704385296\nSOURCE_PINS = {",
+          "after": "34-live128-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_projected_model_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\nCONFIG_SHA = \"01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5\"\nHISTORICAL_ZERO_SHA = \"e788a28deca2720f1b530c0f60a9301578cc83398b8fbf8aa451df25f320ba51\"\nFIXED_BINARY_BYTES_PER_NATIVE_CORRECTION = 704385296\nSOURCE_PINS = {\n    \"geometry_20261116_live128_projected_model_boundary128.cpp\": \"0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9\",\n    \"geometry_20261116_live128_projected_model_same_call_owner.py\": \"9b4f8281eb1e713ffea90a7f858dbb1c445b648b1cba1e13f9e8b876f23138d0\",\n    \"geometry_20261116_live128_projected_model_final_components.py\": \"c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e\",\n    \"geometry_20261116_live128_projected_model_response_assembly.py\": \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\",\n    \"exact_20261116_live128_projected_model_current576_system.py\": \"9e3d86e0d37a6097c8d8fb37c6242a2c02be088562c8d0aa62acb40bdcb61355\",\n    \"exact_20261116_live128_projected_model_current576_chain_qr.py\": \"2f11cfe808ac30228328680ef830d000c6f0d2e0ecc2c4f19415e94bdc69c405\",\n    \"geometry_20261116_live128_projected_model_call_pipeline.py\": \"2a62b302cdcab4d68b27a4fbdc430269e00cc6735c22e562d74177aaee5e0962\",\n    \"geometry_20261116_live128_projected_model_current_call.mjs\": \"9c177171efb859cfc6fe617370ac838fa387bcfc9b042bd66fcc4db071159689\",\n    \"geometry_20261116_live128_projected_model_worker.mjs\": \"47da77fb4639b4c97bbe96f85500eff36f94270acc90b51aca195d33ab7dbe58\",\n    \"geometry_20261116_live128_projected_stage_binding.py\": \"fab3790936e6516bd39f445a2fc8384196cb1479405a10588f9007d821751cbf\",\n    \"geometry_20261116_live128_same_dn_projected_stages.mjs\": \"2279a605df5ee41c5400c658018722fd52e6add40ee35ff38dbca1a31b2bb76a\",",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-3",
+          "before": "CLIENT_NAME: \"cfcc205cf0c291dc6a4dfd280a4c60f67f1d84062761e68c62117714867cb328",
+          "after": "\"geometry_20261116_live128_paired_cache225_tail_client.py\": \"cfcc205cf0c291dc6a4dfd280a4c60f67f1d84062761e68c62117714867cb328\",\n    CLIENT_NAME: \"5c17157a392d7e713e2817697b73aa15b803182efe8df10936e910711f68d5af",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-4",
+          "before": "27-current-H-live128-paired-cache",
+          "after": "34-current-H-live128-projected-model",
+          "count": 1
+        },
+        {
+          "id": "fulldn-change-5",
+          "before": "all_original_full112_affine_FD_fullDN_gates_retained=True,\n            actual128_raw_is_not_recovered_from_historical_receipts=True)\n        write(output / \"same-live-client-handoff.json\", clean(handoff))\n        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R527_live128_cached_radia",
+          "after": "current_H128_values_with_explicit_projected64_stage_model=True,\n            all_original_full112_affine_FD_fullDN_gates_retained=True,\n            actual128_raw_is_not_recovered_from_historical_receipts=True)\n        write(output / \"same-live-client-handoff.json\", clean(handoff))\n        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R534_live128_projected_mode",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_paired_cache225_owned_run.py",
+        "bytes": 38997,
+        "sha256": "9e3d7508cfd771e34003e6056020b316cd227f92154280a449226d415f86f400"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_projected_model_owned_run.py",
+        "bytes": 39295,
+        "sha256": "10880b3313c289484d4d96413af8a5b5dd561170752e87caba7081094b6b3c6c"
+      },
+      "patches": [
+        {
+          "id": "runner-change-1",
+          "before": "5: paired-dot and radial-cache live128 on the original full-DN chain",
+          "after": "9: current-owner projected64 linear model with original128 values and full-DN gates",
+          "count": 1
+        },
+        {
+          "id": "runner-change-2",
+          "before": "27-live128-paired-cache-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-paired-cache-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-paired-cache225\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\nRUN_KEYS = (\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\nPROCESS = \"geometry_20261116_live128_owned_process.py\"\nPROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_paired_cache225_original_full_dn.py\"\nENTRY_SHA = \"4c5c0c0dab7fe1b96dc4065acc4c027ea872fedbf6b4f750f462cb0af6ee3aca",
+          "after": "34-live128-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-projected-model229\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\nRUN_KEYS = (\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\nPROCESS = \"geometry_20261116_live128_owned_process.py\"\nPROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_projected_model_original_full_dn.py\"\nENTRY_SHA = \"46329929f49011ba1aec4af7a4c03e67ce6a11faa46d9c040df4f5f12d76db92",
+          "count": 1
+        },
+        {
+          "id": "runner-change-3",
+          "before": "le_location(\"_R527_\"+role,path)\n  ",
+          "after": "le_location(\"_R534_\"+role,path)\n  ",
+          "count": 1
+        },
+        {
+          "id": "runner-change-4",
+          "before": " exact request225 namespace is ow",
+          "after": " exact request229 namespace is ow",
+          "count": 1
+        },
+        {
+          "id": "runner-change-5",
+          "before": "5 and request[\"repository\"]==REPO,\n            \"The actual complete request225",
+          "after": "9 and request[\"repository\"]==REPO,\n            \"The actual complete request229",
+          "count": 1
+        },
+        {
+          "id": "runner-change-6",
+          "before": "5 namespace\")\n    base.mkdir(mode=0o700)\n    request_path=Path(request_path).resolve(strict=True)\n    request=read(request_path)\n    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==225 and request[\"repository\"]==REPO,\n            \"The actual independent request225",
+          "after": "9 namespace\")\n    base.mkdir(mode=0o700)\n    request_path=Path(request_path).resolve(strict=True)\n    request=read(request_path)\n    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==229 and request[\"repository\"]==REPO,\n            \"The actual independent request229",
+          "count": 1
+        },
+        {
+          "id": "runner-change-7",
+          "before": "event=\"request225_preparation_ret",
+          "after": "event=\"request229_preparation_ret",
+          "count": 1
+        },
+        {
+          "id": "runner-change-8",
+          "before": "ess.json\"))\n    return [p for p ",
+          "after": "ess.json\"))\n    # Every new guard is a real distinct session registered by the unchanged\n    # original process owner, never an unregistered timeout subprocess.\n    values.extend((base/\"science\"/\"full-dn\").glob(\n        \"true-tail_live128/call-*/model-phase/guard-process.json\"))\n    return [p for p ",
+          "count": 1
+        },
+        {
+          "id": "runner-change-9",
+          "before": "27-current-H-live128-paired-cache",
+          "after": "34-current-H-live128-projected-model",
+          "count": 1
+        },
+        {
+          "id": "runner-change-10",
+          "before": "event=\"request225_actual_science_",
+          "after": "event=\"request229_actual_science_",
+          "count": 1
+        },
+        {
+          "id": "runner-change-11",
+          "before": "27-live128-paired-cache-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n            and summary.get(\"request\",{}).get(\"sha256\")==request_sha\n            and summary.get(\"run\")==run_identity(),\"Actual single complete necessary readback\")\n    observation=quiet(base)\n    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request225",
+          "after": "34-live128-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n            and summary.get(\"request\",{}).get(\"sha256\")==request_sha\n            and summary.get(\"run\")==run_identity(),\"Actual single complete necessary readback\")\n    observation=quiet(base)\n    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request229",
+          "count": 1
+        },
+        {
+          "id": "runner-change-12",
+          "before": "event=\"request225_cleanup\",remove",
+          "after": "event=\"request229_cleanup\",remove",
+          "count": 1
+        },
+        {
+          "id": "runner-change-13",
+          "before": "event=\"request225_quiet\",quiescen",
+          "after": "event=\"request229_quiet\",quiescen",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_paired_cache225_necessary.py",
+        "bytes": 41304,
+        "sha256": "85631e35dc9f8f3e2ce5b19a05e8b540ee802b2e8c9e6b3cb01cb3c730cbe8e3"
+      },
+      "output": {
+        "file": "root_20261116_live128_projected_model_necessary.py",
+        "bytes": 49013,
+        "sha256": "57f88e68f607f2f22f746840b4b53d42c87ef46cd219efa42ab5a050f0f0d8ab"
+      },
+      "patches": [
+        {
+          "id": "reader-change-1",
+          "before": "on3\n\"\"\"Request225 readback after ",
+          "after": "on3\n\"\"\"Request229 readback after ",
+          "count": 1
+        },
+        {
+          "id": "reader-change-2",
+          "before": "27-live128-paired-cache-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-paired-cache-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-paired-cache225\"\nRUNTIME=\"geometry_20261116_live128_paired_cache225_owned_run.py\"\nRUNTIME_SHA=\"9e3d7508cfd771e34003e6056020b316cd227f92154280a449226d415f86f400\"\nMAX_BYTES=90000\nFRAME=\"REQUEST225_PAIRED_CACHE",
+          "after": "34-live128-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-projected-model229\"\nRUNTIME=\"geometry_20261116_live128_projected_model_owned_run.py\"\nRUNTIME_SHA=\"10880b3313c289484d4d96413af8a5b5dd561170752e87caba7081094b6b3c6c\"\nMAX_BYTES=90000\nFRAME=\"REQUEST229_PROJECTED_MODEL",
+          "count": 1
+        },
+        {
+          "id": "reader-change-3",
+          "before": "               \"remaining_scient",
+          "after": "               \"schema\",\"hook_name\",\"old_synchronous_post_components_executed\",\n                \"owner_ready_for_current_projected_model\",\"components\",\n                \"remaining_scient",
+          "count": 1
+        },
+        {
+          "id": "reader-change-4",
+          "before": "aired_source_binding(self,call,name,obj):\n        \"\"\"The actual R522 stage receipt is source metadata, never a compile result.\"\"\"\n        if name!=\"stages\":return None\n        path=call/\"owner\"/\"final-components\"/name/\"compile\"/\"paired-digit-source-binding.json\"\n        label=call.name+\"/\"+name+\"/main/R522-source-binding\"\n        value=self.get(path,label)\n        result=dict(compiler_site=\"main\",actual_binding_file=self.files[label],\n            source_preparation_binding_returned=value is not None,\n            compiler_execution_or_success_not_inferred_from_preparation=True,\n            returned_process_records=[])\n        if not isinstance(value,dict):return result\n        # This object consists of explicit sources/argv/flags and their original\n        # receipts, not state, Jacobian, ledger or numerical witness arrays.\n        # Retain the whole source binding once; actual process rows only refer\n        # to it. A missing returned row is not an invented successful compile.\n        result[\"paired_digit_compile_source_binding\"]=value\n        for index,row in enumerate((obj or {}).get(\"lifecycle\",[])):\n            observed=row.get(\"paired_digit_compile_source_binding\")\n            if not isinstance(observed,dict):continue\n            result[\"returned_process_records\"].append(dict(lifecycle_index=index,\n                complete_binding_equals_file=canonical(observed)==canonical(value),\n                process=keep(row,(\"started\",\"reason\",\"returncode\",\"actual_process_returncode\",\n                    \"wall_timeout\",\"elapsed_seconds\",\"actual_wall_allowance_seconds\",\n                    \"requested_cap_seconds\",\"pid\",\"pid_start_time\",\"stdout\",\"stderr\"))))\n        return result\n\n    def component(self,call,name):\n        directory=call/\"owner\"/\"final-components\"/name\n        obj=self.get(directory/\"summary.json\",call.name+\"/\"+name)\n        physical_sources=self.physical_source_bindings(call,name,obj)\n        paired_source=self.paired_source_binding(call,name,obj)\n        if obj is None:return dict(started=directory.is_dir(),summary_returned=False,\n                                   physical_compiler_sources=physical_sources,\n                                   paired_digit_compiler_source=paired_source)\n        out=dict(summary_returned=True,physical_compiler_sources=physical_sources,\n            paired_digit_compiler_source=paired_source,**keep(obj,(\"schema\",\"component\",\"source_sha256\",\"scientific_started\",\n            \"derivative_numerical_implementation",
+          "after": "rojected_model_source_binding(self,call,name,obj):\n        if name!=\"stages\":return None\n        report=(obj or {}).get(\"scientific_report\") or {}\n        return dict(actual_stage_launcher_source=(obj or {}).get(\"source_sha256\"),\n            stage_compile_not_used=True,\n            actual_model_result=report.get(\"actual_model_result\"),\n            actual_projection_binding=report.get(\"actual_projection_binding\"),\n            current_model_kind=report.get(\"model\"),\n            all_finite64_words_exactly_lifted_to128=report.get(\"exact_finite64_to128_representation_inclusion\"),\n            absent_values_not_inferred_complete=True)\n\n    def component(self,call,name):\n        directory=call/\"owner\"/\"final-components\"/name\n        obj=self.get(directory/\"summary.json\",call.name+\"/\"+name)\n        physical_sources=self.physical_source_bindings(call,name,obj)\n        projected_source=self.projected_model_source_binding(call,name,obj)\n        if obj is None:return dict(started=directory.is_dir(),summary_returned=False,\n                                   physical_compiler_sources=physical_sources,\n                                   projected64_model_source=projected_source)\n        out=dict(summary_returned=True,physical_compiler_sources=physical_sources,\n            projected64_model_source=projected_source,**keep(obj,(\"schema\",\"component\",\"source_sha256\",\"scientific_started\",\n            \"derivative_numerical_implementation\",\"old_paired_stage_mathematical_program_executed\",\n            \"new_model_not_claimed_equal_to128_derivative\",\n            \"once_projected64_point_not_accepted_as_native_state\",\n            \"all226_by224_local_columns_and_both_mean_rows_retained\",\n            \"complete_576_by224_model_scope_required\",\"current_model_source_and_state_binding_explicit",
+          "count": 1
+        },
+        {
+          "id": "reader-change-5",
+          "before": "resource_partial\",\"budget_exhausted\",\"primal_norm_decimal",
+          "after": "traceback\",\"resource_partial\",\"budget_exhausted\",\"primal_norm_decimal\",\n            \"model\",\"actual_model_result\",\"actual_projection_binding\",\"actual_projected_state64\",\n            \"actual_current_H_arrays\",\"projected_point_primal_diagnostics\",\n            \"actual_complete_model_arrays\",\"actual_complete_model_ledger\",\n            \"current_partial_stage\",\"unvisited_stage_addresses\",\n            \"exact_finite64_to128_representation_inclusion\",\"model_word_nonfinite_rejected\",\n            \"complete_576_stage_primal_arithmetic\",\"original_authoritative_primal_arithmetic\",\n            \"actual_128_owner_state_modified\",\"owner128_value_and_replay_remain_authoritative\",\n            \"binary64_projected_state_accepted\",\"binary64_model_claimed_equal_to128_derivative\",\n            \"current_owner_once_projected64_model_used\",\"R273_matrix_used\",\n            \"all_finite64_words_exactly_lifted_to128\",\"exact128_root_derivative_claimed",
+          "count": 1
+        },
+        {
+          "id": "reader-change-6",
+          "before": "    return out\n\n    def call(sel",
+          "after": "    return out\n\n\n    def current_model(self,call):\n        out=dict(original128_value_and_replay_remain_authoritative=True,\n                 complete_projected64_linear_model_not_native_acceptance=True)\n        projection=self.get(call/\"projection\"/\"result.json\",call.name+\"/current-state-projection\")\n        if projection is None:\n            out[\"projection\"]=dict(started=(call/\"projection\").is_dir(),complete_summary_returned=False)\n        else:\n            out[\"projection\"]=keep(projection,(\"schema\",\"complete\",\"projection_completed\",\n                \"actual_current_H_binding_complete\",\"actual_call_identity\",\"source\",\n                \"actual_owner_summary\",\"actual_owner_source\",\"actual_final_state128\",\n                \"actual_projected_state64\",\"projection\",\"original_owner_error_if_present\",\n                \"original_request_flags\",\"actual_job_deadline\",\"scientific_deadline_monotonic_ns_text\",\n                \"error\",\"traceback\",\"resource_partial\",\"elapsed_seconds\"))\n        model=self.get(call/\"stage-model64\"/\"result.json\",call.name+\"/current-DN-full64-model\")\n        delivery=self.get(call/\"stage-model64\"/\"delivery.json\",call.name+\"/current-model-delivery\")\n        if model is None:\n            out[\"model\"]=dict(started=(call/\"stage-model64\").is_dir(),complete_summary_returned=False,\n                completed_stage_count_not_inferred_from_file_lengths=True,\n                required_complete_stage_universe=[0,576],required_shape_columns=[0,224],\n                required_local_state_dimension=226)\n            out[\"unreturned_model_raw_files\"]=[]\n            for path in sorted((call/\"stage-model64\").glob(\"*\")):\n                if path.is_file():\n                    out[\"unreturned_model_raw_files\"].append(receipt(path,self.base))\n        else:\n            out[\"model\"]=keep(model,(\"schema\",\"source\",\"actual_call_identity\",\n                \"projection_binding\",\"actual_owner_summary\",\"actual_final_state128\",\n                \"actual_projected_state64\",\"actual_job_deadline\",\"model\",\n                \"original_flowStateWithJacobian_invocations\",\"requested_stages\",\"completed_stages\",\n                \"before_port_shape\",\"after_port_shape\",\"mean_shape\",\n                \"projection_performed_again_here\",\"finite_difference_columns_used\",\n                \"original_two_mean_inputs_are_zero\",\"actual_128_owner_state_modified\",\n                \"owner128_value_and_replay_remain_authoritative\",\"binary64_projected_state_accepted\",\n                \"binary64_model_claimed_equal_to128_derivative\",\"original_clock_callback_threw\",\n                \"original_clock_callback_source_sha256\",\"original_128_boundary_endpoint_fresh_audit_still_required\",\n                \"complete\",\"full_stage_shapes_complete\",\"resource_partial\",\"resource_partial_scope\",\n                \"error\",\"current_stage\",\"last_completed_stage\",\"unvisited_stage_addresses\",\n                \"current_partial_stage_remains_in_unvisited_suffix\",\"actual_output_arrays\",\n                \"complete_stage_ledger\",\"projected_point_primal_diagnostics\",\n                \"output_finalization_errors\",\"elapsed_seconds\"))\n            out[\"model\"][\"original_library_owned_caller_registration_is_external\"]=True\n            out[\"model\"][\"successful_stage_ledger_body_retained_only_in_actual_raw\"]=True\n        out[\"actual_library_delivery\"]=delivery\n        phase=self.get(call/\"model-phase\"/\"window.json\",call.name+\"/current-model-stage-window\")\n        guard=self.get(call/\"pipeline-guard-result.json\",call.name+\"/current-model-guard\")\n        ready=self.get(call/\"model-phase\"/\"guard-ready.json\",call.name+\"/current-model-guard-ready\")\n        stop=self.get(call/\"model-phase\"/\"stop.json\",call.name+\"/current-model-guard-stop\")\n        out[\"actual_physical_source_inputs\"]=self.get(call/\"physical-source-input-binding.json\",\n            call.name+\"/actual-physical-source-inputs\")\n        out[\"actual_stage_window\"]=phase\n        out[\"actual_owned_guard_return\"]=guard\n        out[\"actual_owned_guard_ready\"]=ready\n        out[\"actual_owned_guard_stop\"]=stop\n        # All successfully returned clock checks are resource metadata. Their\n        # exact files remain temporary. No scientific row or failure is hidden\n        # in this fixed selector; every failed check is returned in full below.\n        clocks=sorted(call.glob(\"pipeline-model-clock-*-result.json\"))\n        digest=hashlib.sha256();addresses=[];failed=[];remaining=[]\n        for path in clocks:\n            item=receipt(path,self.base)\n            digest.update(canonical(item))\n            try:\n                row=read(path)\n                address=int(path.name[len(\"pipeline-model-clock-\"):-len(\"-result.json\")])\n                addresses.append(address)\n                if row.get(\"complete\") is not True or row.get(\"actual_returncode\") != 0:\n                    failed.append(dict(actual=item,original=row))\n                if \"stage_science_remaining_seconds\" in row:\n                    remaining.append(row[\"stage_science_remaining_seconds\"])\n            except Exception as error:\n                failed.append(dict(actual=item,read_error=dict(type=type(error).__name__,message=str(error))))\n                self.errors.append(dict(file=item[\"file\"],error=str(error)))\n        out[\"all_actual_model_clock_checks\"]=dict(actual_count=len(clocks),\n            actual_invocation_ranges=ranges(addresses),\n            whole_ordered_file_identity_table_bytes_not_returned=True,\n            ordered_file_identity_table_sha256=digest.hexdigest(),\n            successful_complete_remaining_values_only_aggregated=True,\n            minimum_returned_stage_remaining_seconds=min(remaining) if remaining else None,\n            maximum_returned_stage_remaining_seconds=max(remaining) if remaining else None,\n            all_failed_or_unread_checks=failed,\n            original_job_clock_and_stage_window_not_restarted=True)\n        post=self.get(call/\"post-components.json\",call.name+\"/actual-post-model-components\")\n        out[\"actual_post_components\"]=post\n        return out\n\n\n    def call(sel",
+          "count": 1
+        },
+        {
+          "id": "reader-change-7",
+          "before": ")))\n        protocol=self.get(path/\"protocol-written.json\",path.name+\"/protocol-written\")\n        out[\"actual_protocol_write_completed\"]=protocol is not None\n        if protocol:out[\"actual_protocol_write\"]=protocol\n        for mode in (\"clock\",\"factor\",\"solve-response\"):\n            record=self.get(path/(\"pipeline-\"+mode+\"-result.json\"),path.name+\"/pipeline-\"+mode)\n            if record is not None:\n                out[mode]=keep(record,(\"schema\",\"complete\",\"error\",\"traceback\",\"resource_partial\",\n                    \"actual_returncode\",\"elapsed_seconds\",\"original_clock_remaining_before_seconds\",\n                    \"actual_QR_flags\",\"actual_owner_final_flags\",\"actual_owner_original_stop_reason\",\n                    \"actual_owner_error\",\"actual_component_flags\",\"actual_response_assembly_error\"))\n                out[mode][\"children\"]=[keep(row,(\"label\",\"started\",\"actual_returncode\",\"wall_timeout\",\n                    \"elapsed_seconds\",\"allowance_seconds\",\"pid\",\"process_start_ticks\",\"stdout\",\"stderr\",\n                    \"actual_error\")) for row in record.get(\"children\",[])]\n        out[\"owner\"]=self.owner",
+          "after": ",\n                \"actual_owner_before_model\",\"actual_stage_model_window\",\n                \"actual_projection_binding\",\"actual_projected_model_result\",\"actual_projected_model_delivery\",\n                \"actual_exact_model_lift\",\"actual_model_error\",\"actual_stage_guard_close_error\",\n                \"actual_stage_guard_ready\",\"actual_stage_guard_registry\",\n                \"actual_stage_guard_return\",\"actual_stage_guard_result\",\"actual_physical_source_input_binding\")))\n        protocol=self.get(path/\"protocol-written.json\",path.name+\"/protocol-written\")\n        out[\"actual_protocol_write_completed\"]=protocol is not None\n        if protocol:out[\"actual_protocol_write\"]=protocol\n        for mode in (\"clock\",\"factor\",\"owner\",\"project-state\",\"lift-model\",\"post-response\"):\n            record=self.get(path/(\"pipeline-\"+mode+\"-result.json\"),path.name+\"/pipeline-\"+mode)\n            if record is not None:\n                out[mode]=keep(record,(\"schema\",\"complete\",\"error\",\"traceback\",\"resource_partial\",\n                    \"actual_returncode\",\"elapsed_seconds\",\"original_clock_remaining_before_seconds\",\n                    \"actual_QR_flags\",\"actual_owner_final_flags\",\"actual_owner_original_stop_reason\",\n                    \"actual_owner_error\",\"actual_component_flags\",\"actual_response_assembly_error\",\n                    \"actual_projection_binding\",\"projection_complete\",\"projection_error\",\n                    \"actual_stage_component\",\"stage_scientific_complete\",\"stage_actual_error\",\n                    \"actual_post_components\",\"actual_stage_model_window\"))\n                out[mode][\"children\"]=[keep(row,(\"label\",\"started\",\"actual_returncode\",\"wall_timeout\",\n                    \"elapsed_seconds\",\"allowance_seconds\",\"pid\",\"process_start_ticks\",\"stdout\",\"stderr\",\n                    \"actual_error\",\"actual_allowance_seconds\",\"process\",\"reaped\",\n                    \"resource_timeout\")) for row in record.get(\"children\",[])]\n        out[\"owner\"]=self.owner(path)\n        out[\"current_owner_projected_model\"]=self.current_model",
+          "count": 1
+        },
+        {
+          "id": "reader-change-8",
+          "before": "_warm_predictor\"))\n            o",
+          "after": "_warm_predictor\",\n                \"current_owner_projected64_linear_model_used\",\n                \"projected64_state_is_authoritative_owner\",\n                \"old_synchronous_paired_stage_used\",\"model_equals_exact128_root_derivative_claimed\",\n                \"actual_post_components\",\"actual_projection_binding\",\n                \"actual_complete_current_model\",\"projected_point_primal_diagnostics\"))\n            o",
+          "count": 1
+        },
+        {
+          "id": "reader-change-9",
+          "before": "5 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==225,\"Actual independent request225\")\n    base=args.namespace.resolve(strict=True)\n    runner=Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)\n    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request225 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R527_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n    runtime.bind(request_path,args.request_sha256,base)\n    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=225,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R527_source_composition=request.get(\"R527",
+          "after": "9 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==229,\"Actual independent request229\")\n    base=args.namespace.resolve(strict=True)\n    runner=Path(os.environ[\"RUNNER_TEMP\"]).resolve(strict=True)\n    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request229 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R534_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n    runtime.bind(request_path,args.request_sha256,base)\n    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=229,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R534_source_composition=request.get(\"R534",
+          "count": 1
+        },
+        {
+          "id": "reader-change-10",
+          "before": "\",\n            \"all_original_ful",
+          "after": "\",\n            \"current_H128_values_with_explicit_projected64_stage_model\",\n            \"all_original_ful",
+          "count": 1
+        },
+        {
+          "id": "reader-change-11",
+          "before": "on as error:\n        answer=dict(schema=SCHEMA,request_number=225,\n            run={key:os.environ.get(key) for key in RUN_KEYS},",
+          "after": "on as error:\n        answer=dict(schema=SCHEMA,request_number=229,\n            run={key:os.environ.get(key) for key in RUN_KEYS},",
+          "count": 1
+        },
+        {
+          "id": "reader-change-12",
+          "before": "equest_number=225,\n            ru",
+          "after": "equest_number=229,\n            ru",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "runtime_contract": {
+    "future_request_number": 229,
+    "source_preparation_only_at_this_publication": true,
+    "formal_request_workflow_and_dispatch_not_created": true,
+    "source_metadata_out": "$RUNNER_TEMP/request229-source-preparation",
+    "native_namespace": "visible-live128-projected-model229",
+    "science_clock_schema": "R493-original-full112-live128-job-deadline-v1",
+    "science_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "owner_seconds_cap": 6000,
+    "replay_reserve_seconds": 1200,
+    "stage_seconds_cap": 8000,
+    "boundary_seconds_cap": 600,
+    "endpoint_seconds_cap": 600,
+    "audit_seconds_cap": 1800,
+    "threads": 4,
+    "first_state_is_actual91_failed_state_guess_only": true,
+    "first_prefix_is_actual63_unaccepted_warm_only": true,
+    "all_other_original225_runtime_numerics_preserved": true
+  },
+  "scope": {
+    "all_original225_356_sources_retained": true,
+    "temporary_source_views_have_new_basenames": true,
+    "source_preparation_is_not_AST_compile_solver_or_verification_success": true,
+    "R535_primal_cache_not_automatically_registered": true,
+    "owner128_final_and_fresh_replay_precede_R532": true,
+    "library64_model_not_owner_derivative_or_accepted_state": true,
+    "complete576_by226_by224_before_port_and_all2_mean_rows": true,
+    "exact_finite64_to128_inclusion": true,
+    "source_bound_new_boundary_scope_original_c218_numeric_body": true,
+    "original_R515_endpoint_and_audit_cache_retained": true,
+    "full338_by112_mixed_endpoint_original_FD_and_fullDN_gates_preserved": true,
+    "original19200_clock_per_role_caps_and_independent_audit_retained": true,
+    "independent_guard_real_PID_session_registry_and_full_quiet": true,
+    "original_physical_five_sources_have_byte_identical_per_call_input_view": true,
+    "single_90000_necessary_overflow70_and_no_raw_upload": true,
+    "no_performance_or_completion_promised": true,
+    "no_actual_parent_run_or_result_fabricated": true
+  }
+}

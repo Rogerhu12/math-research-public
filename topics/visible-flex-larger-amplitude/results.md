@@ -67,3 +67,8 @@
 
 
 227已正式单POST200：run43860144962/attempt1、compute133274517805、实际head与发布完全同5b5dd03b0d69c8a059282b963b7192679fd43f67，11:43:09前1–3success/4 setup；详[官方绑定](notes/2026-11-16-request227-official-run-binding.md)。R539由amplitude唯一终态读取，root科学日志0；193准备/双worker/完整原门/必要/quiet/清理均无预填。R538日志时刻据实际发布回执改为11:42；不改变来源或科学合同。
+
+
+## R534 — 同次owner128与原DN完整projected64模型的真实全链
+
+**已证明完整来源/全返回及有限算术条件组成；没有新科学运行。** [R534](results/R534-current-owner128-same-DN-complete64-model-and-original-gates.md)/[完整接口](notes/2026-11-16-current-owner128-same-DN-projected-model-complete-interface.md)五件225478B：gen18862/990c、core-plan72022/826a、complete-plan83541/def1、proof21178/0385、接口29875/5b76。372=原342public+14gen+两R532库+新gen+13独立view；原225全部356身份保。实际owner先完成原tol/replay，旧post明确deferred；同次全577×224一次RN64→原同一个DN全部576×226×224/port/双mean→有限64字整数准确lift128→原全boundary/338endpoint/独立audit/assembly及原FD/fullDN末门。原128值权威，模型不冒准确DD/收敛；原19200/6000/1200/8000/600/600/1800保，投影/flow/lift共stage窗口，同步cell有真owned guard ready/TERM→KILL/wait/reap/quiet。五原物理来源真目录及完整manifest修路径，packet数值体不改；新所有partial/未访/来源/必要scope保，单90K超70，科学失败必要全返且原quiet真时仍可清理。R535不混，R509先行owner成本未由此解决；R542/229入口继续、R543 geometry唯一，尚未创建或dispatch，无速度/模型质量或接受预填。
