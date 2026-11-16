@@ -394,3 +394,8 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 ## R413｜共同Q4差矩阵与完整低层正性等价
 
 [R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)（16396B；SHA256 4100de75561eb81340c56abecd3092d142d4d17dd80f53b5acfd527d9e570a5f）。从同一R411正母起点可保D−E>0；多母Q4头维rank(d,e)−1，不拼逐母结论。同D/E加任意不交ordered3+2仍为唯一−2头的四链；两负权E响应等像遂清完整A/H/Q4最高几何导数层。原R140开平端路径时间缩放与小速度论证给全正性iff同μ下静态≥0/速度2×2矩阵PSD；原R164令此μ唯一、给−6/−4八分母及完整h缩放形式。F0/Q2实际非负空间未求出，无科学执行或actual全截面声明。
+
+
+## R415｜两负权双锚乘子与最低静态完整尾消
+
+[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)（13277B；SHA256 2c83583bd1d2c3f75af02412f0060280d2b2e3961b0073b0d87811563c125948）。原R164八参考状态消元对−6/−4同样给μ=(0,2a0,2a1,0,0,0,0,8a0)。新V6=[h^-6]F0(h,0,0)原N0/Γ在此幂无项；self/pure差的真实左端−μ0M3/1536由两有序Green尾准确相消，ΛV6全profile零。联合−4原V*=3F/32与共同Q4头消，两权a0=0，μ仅2a1p2*、μm2=0。剩余四个完整最低h函数须同一λ逐k静态非负/速度PSD；原R73幂表证明Γ在这些系数无项，不删除N0/N2/水平正规化。a1及整个实际joint仍未完成，无科学执行。

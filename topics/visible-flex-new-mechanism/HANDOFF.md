@@ -22,7 +22,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 当前physical e0ab278d1525c90a2be30db12c78e6faac369a8b8d01f0236f4fe6fd02e79f83；bank438/hash1a1d55857ed7ae7734054126cec38c9d99e72ce144ab321152c3f5fab8fd10fd；池4432/4525版本1/2，B.00025双0；γ17.022353404161095/18.064283125328743，8events/7commits/pending0。γ只下个primary group8 target=max(old,1e−7+γB²)，原SOC/门不改。
 
-[同m7冷恢复实际结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：43773136836/source403a2fcf…完整审计，objective55d6c627…/field047cef…各同原，16人工仅复用。唯一新粗value205.448292651s耗尽120门，累计active241.314203844/values15/LP10，新J/model/LP/SOC/接受0，current-model绑定pending。累进init293.542781793，进程224.820478542/RSS548340KiB；最佳/门仅原收据。**此epoch关闭，不重启LP11或只加时重付冷恢复**；全部失败/费用保留，新任务另计。
+[同m7冷恢复结局](notes/paid-attainer-restoration-budget-first-completed-actual-20261115.md)：43773136836/source403a2fcf…；16人工仅复用，唯一粗value205.448292651s耗尽旧120门，active累计241.314203844/values15/LP10，init293.542781793，process224.820478542/RSS548340KiB；新J/model/LP/SOC/接受0，旧最佳仅祖先收据。此epoch关闭，不能重开LP11或加时重付冷恢复，全部失败费保原note。
 
 ## 4. 纸证与准确剩余门
 
@@ -38,6 +38,8 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 [R411](results/R411-positive-analytic-mothers-blind-to-the-weight-zero-natural-affine-orbit.md)/[R412](results/R412-complete-weight-zero-natural-null-mothers-and-nineteen-common-targets.md)：4半径16包/8正第五权及16个4minor、正解析逼近/IFT先造全部n2四平移系数0。四个支持远离局部jet的normal给同流形真restricted max-F及19minor，r+4有限纠正和原19 C1集中根，同一最终有限母族保n2全affine0、共同F/外区，全部p/Af仅有限简单零（不称一对）。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；还欠F0/Q2低层是否只有零解。
 
+[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)：原八参考状态把两权μ限两静态锚；k=ω=0的V6完整self/pure与两Green尾相消，ΛV6全u0，−4的V*原3F/32由共同Q4头消。故两权a(0)=0、μ=2a(1)p2*、μm2=0；仅余同字符的a(k)≥0与三速度系数PSD，a(1)未排。最小原根为ω0的4个h最低系数，Γ在所取幂无项，N0/N2/水平先微分后置ω0仍须完整保。
+
 R403/405原19正核/真实F_rat/有号三导集中与p号保护可复用；R391逆germ在p中心不容residue抵消，每Af点须原同锚累计flux0。[R405](results/R405-common-exterior-packets-and-local-ordered-currents-at-all-internal-degeneracies.md)/[R407](results/R407-connected-moment-fibers-fix-self-caps-and-retain-the-actual-total-fluxes.md)：同μ内区真实连通路径固定self两cap S″，原M0/同端口闭frame/Q0，affine尾可动。跨包wholeE0只消primitive二导；actual右镜保ω_i/ordered A_i，7n固定自然查询可读总量；保真wi/suffix，68|W|生成非rank。全Λ核的Euler current不能免费用于actual。
 
 R390/392/396的actual(P_LE,双固定Λ,≤11Hd)与R399/401的actual wholeE0+指定包4镜点为不同截面，不拼全joint。τ*在Af点partial=2p²(pw″−rw′)，负倒二包suffix非零、12copy C像ερ⁷Pol≤3；仅指定门已付。R394保全部germ/gap k值/incoming/平台代价的同13规范：deg4矩阵/deg6rhs Smith零行与圆上整除jets给smooth iff，≤52重数非rank；真正全period与同一k解仍欠。
@@ -46,4 +48,4 @@ R388的正D4身份只在同Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨�
 
 ## 5. 继续
 
-[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：run43778983026/job133011642024/source439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c，9已付仅复用/order8修复/438与祖先γ迁移构造通过；新adapter仍接旧gate，原assert_context在首次ordinary前挡住，geometry started0/J/model/LP/接受0。累计science28.690336299s/本次14.933360238s，process16.883830579s/RSS296988KiB。原构造新gate及原assert_context源码已装，唯一同预算修复请求已发，待读实际；同1800s/64LP/160值累计、9不重跑。工厂实际绑定仍pending，速度/下降未知，旧241s另列祖先。[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保原范围。理论R412同母四约束/19根已付；续R414共同高自然商、R415完整低层F0/Q2，主完成门欠，持续open/actualpull。
+[direct第二次gate身份停止](notes/direct-reference-second-receipt-reuse-and-gate-identity-stop-20261116.md)：run43778983026/job133011642024/source439fe8b9b8fc9cffdfdb9d8cf01acc6687e0a48c，9已付仅复用/order8修复/438与祖先γ迁移构造通过；新adapter仍接旧gate，原assert_context在首次ordinary前挡住，geometry started0/J/model/LP/接受0。累计science28.690336299s/本次14.933360238s，process16.883830579s/RSS296988KiB。原构造新gate及原assert_context源码已装，唯一同预算修复run43780594182/job133016656592已success，但原日志接口Transport closed，正接只读observer，科学明细未读；同1800s/64LP/160值累计、9不重跑。工厂实际绑定仍pending，速度/下降未知，旧241s另列祖先。[设计](notes/direct-reference-cold-path-elimination-design-20261115.md)/[合同](notes/direct-reference-live-cache-and-information-migration-contract-20261115.md)保原范围。理论R412同母四约束/19根已付；续R414共同高自然商及R415余下四低函数/PSD，主完成门欠，持续open/actualpull。

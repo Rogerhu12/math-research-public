@@ -185,6 +185,6 @@ R401的同一负penultimate包4×4镜点控制已付，完整公式见原稿；R
 下一从起点可增加有限C²观察，严格核共同母与辅助模板的完整finite affine查询像，继续−6/−4增强正字符及原F0/Q2完整自然读出；R413/R414分工仅为同一个actual joint服务，不能拼逐母截面。全部内部Af通量、真affine尾、13同一个k仍欠。
 
 
-### R413共同Q4已付，唯一剩余为完整低层的同乘子正性
+### R413/R415：共同Q4与双静态锚已消，继续四个完整低函数
 
-[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)从R411起点保D−E>0；共同Q4的−4头准确为rank(d,e)−1，逐母正差不够。从起点同D/E才得仅−2的四链；所有不交ordered3+2对Q4局部五次为零。结合负两权E=R，−6/−4字符杀完整A/H/Q4；原R140全路径正性遂iff同一唯一μ下静态标量≥0且速度二次矩阵逐态PSD，μ由原cocycle/8非零分母固定。继续F0/三个Q2含N0/N2/Γ/真尾，不把旧pure列当已存mixed根或宣布实际全joint。R414另付真正共同高商，R415接低层。
+[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)从R411起点保D−E>0；共同Q4的−4头维rank(d,e)−1，故从起点同D/E才得仅−2四链。所有不交ordered3+2对Q4局部五次为0；两负权同权E=R使完整A/H/Q4 action0。[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)再由八参考态得两锚μ，原kω0的V6保左R′J及两有序尾得Λ全u0；−4 V*原3F/32已在消掉的共同Q4像。于是两权a(0)=0，μ=2a(1)p2*、μm2=0。剩余准确为同字符a(k)≥0及三个速度函数的2×2 PSD，a(1)未排；四最低h系数的Γ幂已核空，原N0/N2、水平微分和真尾不能删。不把pure列当完整mixed根。R414另付共同高商，继续实际低层。

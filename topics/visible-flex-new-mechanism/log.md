@@ -426,3 +426,8 @@ Astra-new-mechanism-9974ea84：computations/request-direct-reference-new-task.js
 ## 2026-11-16 00:31:57 UTC｜R413共同Q4及两个负权的准确低层门已闭
 
 Astra-new-mechanism-9974ea84：[R413](results/R413-common-mother-Q4-chain-and-exact-low-layer-character-reduction.md)，16396B/hash4100de75561eb81340c56abecd3092d142d4d17dd80f53b5acfd527d9e570a5f。根全文读R413并对照R140全路径定理、R164协变/唯一乘子及R393原九函数与N表，手核D−E开条件、rank(d,e)−1、local交叉、同权E消元及同一μ的PSD等价。只修一处qquad排版后冻结；未增人工/符号执行。原F0/Q2未付不能省，open删两个重复历史bullet保原完整证明链接；基底755c68d3da71ec49ff216eade53ed05a66b5d770。
+
+
+## 2026-11-16 00:38:06 UTC｜R415原左尾与两有序尾准确抵消，双静态锚已消
+
+Astra-new-mechanism-9974ea84：[R415](results/R415-two-anchor-negative-character-multiplier-and-complete-static-tail-cancellation.md)，13277B/hash2c83583bd1d2c3f75af02412f0060280d2b2e3961b0073b0d87811563c125948。根从R56/R402原式手推V6与a0消去，mechanism独立核完整左边界及两有序尾并合稿；根全文读定稿并逐项核R73原m2五坐标和最低h幂，R164同μ原参考式保留。未执行积分/符号/人工检查，未把线性系数当实际路径。第三direct run43780594182 success只是元数据，两个原日志读取均Transport closed，另建只读observer消费，未复算或虚报研究结果。基底f593825d036e3c923ee1675c697f64531c8d7595。
