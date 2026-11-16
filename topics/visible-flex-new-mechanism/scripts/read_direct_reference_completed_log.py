@@ -129,306 +129,308 @@ def one(records, tag):
     return records[tag][0]
 
 
-def event_view(event):
-    if not isinstance(event, dict):
-        return compact(event)
-    out = selected(event, (
-        "coefficients_observed", "actual_physical_norm_record",
-        "original_signed_group_summaries"), 3)
-    source = event.get("source")
-    if isinstance(source, dict):
-        out["source"] = selected(source, (
-            "source", "final_model_binding", "old_final_model_binding",
-            "original_selected_IDs_sha256"), 2)
-    return out
-
-
-def learning_view(value):
+def short_scalars(value):
+    """Original scalar values only; long narrative strings are not repeated."""
     if not isinstance(value, dict):
-        return compact(value)
-    out = selected(value, ("coefficients", "coefficient_binary64_exact",
-                          "maximizing_event_indices", "pending_event_indices", "context"), 2)
-    if isinstance(value.get("events"), list):
-        out["events"] = [event_view(e) for e in value["events"]]
-    if isinstance(value.get("commits"), list):
-        out["commits"] = compact(value["commits"], 4)
-    return out
+        return value if scalar(value) else omitted(value, "non-scalar original")
+    return {k: v for k, v in value.items()
+            if scalar(v) and (not isinstance(v, str) or len(v) <= 200)}
 
 
-def guard_view(value):
-    return selected(value, (
-        "frozen_coefficients", "per_grid", "pending_commit_before_model",
-        "final_model_binding", "unchanged_array_sha256"), 4)
+def fields(value, names):
+    if not isinstance(value, dict):
+        return {}
+    return {name: value[name] for name in names if name in value and scalar(value[name])}
+
+
+def source_note(original, output, reason):
+    if isinstance(original, dict):
+        output["unselected_original_field_names"] = [k for k in original if k not in output]
+    output["selection_scope"] = reason
+    return output
+
+
+def decision_view(value):
+    if not isinstance(value, dict):
+        return value if scalar(value) else omitted(value, "original decision not an object")
+    out = short_scalars(value)
+    if "actual_gate_booleans" in value:
+        out["actual_gate_booleans"] = value["actual_gate_booleans"]
+    # Original scalar decision names are retained, including every eta/kappa,
+    # gate flag, tolerance and margin. Dense coordinate diagnostics are omitted.
+    return source_note(value, out, "original scalar decision and all actual gate booleans")
+
+
+LP_KEYS = (
+    "status", "success", "message", "nit", "elapsed_seconds", "seconds",
+    "time_limit_seconds", "inner_call_count", "best_candidate_inner_index",
+    "returned_candidate", "returned_inner_index", "returned_epigraph_gap_met",
+    "returned_inexact_cut_model", "predicted_metric_slack",
+    "predicted_slack_from_rows_and_outside", "predicted_slack_improvement",
+    "normalized_step_norm", "returned_repaired_objective", "repaired_rho_auxiliary",
+    "returned_LP_status", "returned_LP_success",
+    "maximum_linear_row_violation", "maximum_linear_bound_violation",
+    "initial_rebuilt_memory_rows", "total_new_cut_rows",
+    "inherited_primary_solver_stop_status", "new_task_shared_LP_limit_exhausted",
+    "proposal_rejected_before_geometry", "exact_convex_optimality_claim",
+    "all_started_inner_LPs_charged_to_original_ledger",
+    "physical_values_or_Jacobians_inside_inner_solver",
+    "LP_rows", "LP_variables", "LP_matrix_bytes", "shared_LP_ordinal",
+    "corrected_actual_trial_linear_metric_slack", "corrected_trial_linear_eta_bound")
 
 
 def lp_view(lp):
     if not isinstance(lp, dict):
-        return compact(lp)
-    out = scalars(lp)
+        return {}
+    out = fields(lp, LP_KEYS)
     for key in ("primary_SOC_pair_allocation", "same_step_scalar_and_affine_budget_comparison",
-                "original_and_scaled_residuals", "SOC_original_and_scaled_residuals",
                 "final_repaired_original_residuals", "original_residuals"):
-        if key in lp:
-            out[key] = compact(lp[key], 1, key)
-    for key in ("inner_LPs", "cut_rounds"):
-        if isinstance(lp.get(key), list):
-            out[key] = []
-            for original in lp[key]:
-                row = scalars(original)
-                for name in ("source_primary_allocation", "limits", "residuals", "final_residual"):
-                    if name in original:
-                        row[name] = compact(original[name], 1, name)
-                inherited = original.get("inherited_scalar_LP_report")
-                if isinstance(inherited, dict):
-                    row["inherited_scalar_LP_report"] = scalars(inherited)
-                    for name in ("original_residuals", "scaled_residuals",
-                                 "original_and_scaled_residuals"):
-                        if name in inherited:
-                            row["inherited_scalar_LP_report"][name] = compact(
-                                inherited[name], 1, name)
-                if "repaired_residual" in original:
-                    row["repaired_residual"] = compact(original["repaired_residual"], 1)
-                row["original_item_fingerprint"] = reader.fingerprint(original)
-                out[key].append(row)
-    return out
+        if isinstance(lp.get(key), dict):
+            out[key] = short_scalars(lp[key])
+    out["inner_LPs"] = []
+    for item in lp.get("inner_LPs", []):
+        record = short_scalars(item)
+        for key in ("inherited_scalar_LP_report", "repaired_residual"):
+            if isinstance(item.get(key), dict):
+                record[key] = short_scalars(item[key])
+        out["inner_LPs"].append(record)
+    out["cut_rounds"] = [short_scalars(x) for x in lp.get("cut_rounds", [])]
+    return source_note(lp, out, "fixed LP fields; original inner status/gap/gain/residual/cost scalars")
+
 
 def trial_view(trial):
-    if not isinstance(trial, dict):
-        return compact(trial)
-    out = scalars(trial)
+    out = fields(trial, (
+        "kind", "alpha_exact", "accepted_as_next_iterate", "accepted_index",
+        "attempt_status", "physical_state_sha256",
+        "coarse_physical_evaluation", "fine_value_evaluation",
+        "actual_fine_evaluated_even_if_coarse_ineligible",
+        "coarse_omitted_rows", "coarse_omitted_hard_rows", "new_coarse_rows",
+        "fine_omitted_rows", "fine_omitted_hard_rows", "new_fine_rows",
+        "expanded_pool_rebound_revision"))
     for key in ("coarse_decision", "fine_decision"):
-        value = trial.get(key)
-        if isinstance(value, dict):
-            out[key] = scalars(value)
-            for name in ("actual_gate_booleans", "physical_parameter_box_and_height_gate"):
-                if name in value:
-                    out[key][name] = compact(value[name], 1, name)
-        elif key in trial:
-            out[key] = value
-    for key in ("scale_feedback", "SOC_LP_opportunity_allocation"):
         if key in trial:
-            out[key] = compact(trial[key], 1, key)
-    for key in ("restricted_support_invariants", "fine_violation_groups",
-                "curvature_nonlinear_defect_diagnostic"):
-        if key in trial:
-            value = trial[key]
-            out[key] = {"original_scalar_fields": scalars(value),
-                        "original_detail_fingerprint": reader.fingerprint(value),
-                        "detail_not_copied_to_avoid_repeated_per_row_tables": True}
+            out[key] = decision_view(trial[key])
+    if "scale_feedback" in trial:
+        out["scale_feedback"] = short_scalars(trial["scale_feedback"])
     sample = trial.get("curvature_defect_guard_sample")
     if isinstance(sample, dict):
-        out["curvature_defect_guard_sample"] = scalars(sample)
-        for key in ("coefficients_observed", "actual_physical_norm_record",
-                    "original_signed_group_summaries"):
-            if key in sample:
-                out["curvature_defect_guard_sample"][key] = compact(sample[key], 2, key)
-    error = trial.get("affine_metric_error_decomposition")
-    if isinstance(error, dict):
-        out["affine_metric_error_decomposition"] = scalars(error)
-        for key in ("difference_terms", "complete_model_difference_terms",
-                    "maximum_slack_difference_terms", "complete_affine_four_maxima"):
-            if key in error:
-                out["affine_metric_error_decomposition"][key] = compact(error[key], 2, key)
-    return out
+        out["curvature_defect_guard_sample"] = short_scalars(sample)
+        for key in ("coefficients_observed", "actual_physical_norm_record"):
+            if isinstance(sample.get(key), dict):
+                out["curvature_defect_guard_sample"][key] = short_scalars(sample[key])
+    return source_note(trial, out, "actual trial identity, eta/kappa, all original gates and learning counts")
 
 
 def controller_view(value):
-    """Keep each real controller proof once, rather than its nested frozen copies."""
+    """Only the actual policy proof nodes; no recursive legacy copies."""
     if not isinstance(value, dict):
-        return compact(value)
-    out, proofs, seen = scalars(value), [], set()
+        return {}
+    out = fields(value, ("next_trust", "next_tail_radius", "next_height_radius", "schema"))
+    proofs, seen = [], set()
     def walk(node, path):
         if not isinstance(node, dict):
             return
-        checks = node.get("checks")
-        if isinstance(checks, dict):
-            identity = reader.fingerprint(node)
-            token = identity["canonical_json_sha256"]
-            if token not in seen:
-                seen.add(token)
-                record = scalars(node)
-                record["checks"] = compact(checks, 1, "checks")
-                for key in ("failed_conditions", "trigger_trial_indices"):
-                    if key in node:
-                        record[key] = compact(node[key], 1, key)
-                coverage = node.get("coverage")
-                if isinstance(coverage, dict):
-                    record["coverage_scalar_fields"] = scalars(coverage)
-                    if "checks" in coverage:
-                        record["coverage_checks"] = compact(coverage["checks"], 1)
-                proofs.append({"original_path": path, "original_node_fingerprint": identity,
-                               "record": record})
+        if isinstance(node.get("checks"), dict):
+            signature = reader.fingerprint(node)["canonical_json_sha256"]
+            if signature not in seen:
+                seen.add(signature)
+                record = fields(node, (
+                    "schema", "model_number", "decision", "qualified",
+                    "qualified_covered_ordinary_model", "qualified_new_pair_at_cap",
+                    "legacy_streak_before", "frozen_controller_returned_streak",
+                    "legacy_streak_after", "covered_streak_before", "covered_streak_after",
+                    "old_pair_consumed", "new_pair_consumed", "any_pair_consumed",
+                    "grew_for_next_model_by_new_rule", "any_actual_radius_growth",
+                    "grew_for_next_model", "qualified_pair_at_cap",
+                    "old_controller_next_radius", "model_radius", "new_next_radius",
+                    "next_radius_used_by_model_number", "next_model_factory_used_radius",
+                    "next_model_started_primary_LPs", "held_radius", "old_next_radius",
+                    "bookkeeping_elapsed_seconds"))
+                record["checks"] = {k: v for k, v in node["checks"].items() if scalar(v)}
+                if "failed_conditions" in node:
+                    record["failed_conditions"] = node["failed_conditions"]
+                proofs.append({"original_path": path, "original_node_sha256": signature,
+                               "original_values": record})
         for key, item in node.items():
             if isinstance(item, dict):
                 walk(item, path+"."+key)
     walk(value, "$")
-    out["unique_original_controller_proofs"] = proofs
-    if "trigger_trial_indices" in value:
-        out["trigger_trial_indices"] = compact(value["trigger_trial_indices"], 1)
-    out["nested_frozen_duplicate_records_not_copied_again"] = True
+    out["unique_original_proofs"] = proofs
     return out
+
+
+def guard_view(value):
+    out = fields(value, (
+        "status", "B", "B_binary64_exact", "original_floor_exact",
+        "modified_row_count", "frozen_learning_state_sha256",
+        "complete_model_binding_sha256", "original_SOC_RHS_unchanged",
+        "before_targets_sha256", "guarded_targets_sha256",
+        "before_rhs_sha256", "guarded_rhs_sha256"))
+    if isinstance(value.get("frozen_coefficients"), dict):
+        out["frozen_coefficients"] = value["frozen_coefficients"]
+    if isinstance(value.get("per_grid"), dict):
+        out["per_grid"] = {label: short_scalars(record)
+                           for label, record in value["per_grid"].items()}
+    return out
+
+
+def oracle_cost_view(value):
+    if not isinstance(value, dict):
+        return {}
+    out = fields(value, ("schema", "binding_sha256"))
+    out["statistics"] = short_scalars(value.get("statistics", {}))
+    out["direction_events"] = [
+        fields(x, ("status", "phase", "ordinal", "elapsed_seconds",
+                   "direction_sha256", "cache_hit", "original_grid_evaluations"))
+        for x in value.get("direction_events", [])]
+    out["new_original_row_J_events"] = [
+        short_scalars(x) for x in value.get("new_original_row_J_events", [])]
+    return out
+
 
 def model_view(model):
-    out = scalars(model)
-    for key in ("SOC_hold_model_binding", "primary_allocation_before_factory",
-                "original_model_fingerprint", "expanded_pool_rebound_eligibility",
-                "expanded_pool_rebound_budget", "failed_y_post_learning_cache_restore", "error"):
-        if key in model:
-            out[key] = compact(model[key], 2, key)
-    for key in ("primary_step_cost_diagnostic", "accepted_SOC_base_total_step_diagnostic",
-                "accepted_rebound_SOC_base_total_step_diagnostic"):
-        value = model.get(key)
-        if isinstance(value, dict):
-            out[key] = scalars(value)
-            for name in ("binding_checks", "actual_correction_physical_norms",
-                         "actual_total_physical_norms", "model_binding"):
-                if name in value:
-                    out[key][name] = compact(value[name], 1, name)
-    if "scale_feedback_update" in model:
-        out["scale_feedback_update"] = controller_view(model["scale_feedback_update"])
-    if "curvature_defect_guard" in model:
-        value = model["curvature_defect_guard"]
-        out["curvature_defect_guard"] = scalars(value)
-        for key in ("frozen_coefficients", "per_grid", "pending_commit_before_model"):
-            if key in value:
-                out["curvature_defect_guard"][key] = compact(value[key], 2, key)
-    if "curvature_defect_sample_final_record" in model:
-        value = model["curvature_defect_sample_final_record"]
-        out["curvature_defect_sample_final_record"] = scalars(value)
-        if "coefficients_observed" in value:
-            out["curvature_defect_sample_final_record"]["coefficients_observed"] = compact(
-                value["coefficients_observed"], 1)
-    if "ordinary_covered_context" in model:
-        value = model["ordinary_covered_context"]
-        out["ordinary_covered_context"] = scalars(value)
-        for key in ("old_pool_versions", "old_ID_counts", "old_ID_sha256"):
-            if key in value:
-                out["ordinary_covered_context"][key] = compact(value[key], 1, key)
+    out = fields(model, (
+        "number", "linearized_at_accepted_index", "linearized_at_physical_sha256",
+        "linearized_at_true_two_grid_max_eta", "coarse_pool_rows", "fine_pool_rows",
+        "coarse_pool_version", "fine_pool_version", "trust_before_model", "result",
+        "accepted_expanded_pool_same_trial_SOC", "curvature_defect_sample_event_index"))
     out["linear_program"] = lp_view(model.get("linear_program", {}))
-    if "complete_model" in model:
-        out["complete_model"] = complete_model_view(model["complete_model"])
+    out["primary_allocation_before_factory"] = short_scalars(
+        model.get("primary_allocation_before_factory", {}))
+    out["curvature_defect_guard"] = guard_view(model.get("curvature_defect_guard", {}))
+    out["scale_feedback_update"] = controller_view(model.get("scale_feedback_update", {}))
     out["trials"] = [trial_view(v) for v in model.get("trials", [])]
-    out["corrections"] = []
-    for correction in model.get("corrections", []):
-        part = scalars(correction)
-        for key in ("rebound_model_binding", "original_primary_model_binding",
-                    "corrected_trial_added_rows"):
-            if key in correction:
-                part[key] = compact(correction[key], 1, key)
-        part["linear_program"] = lp_view(correction.get("linear_program", {}))
-        out["corrections"].append(part)
+    out["corrections"] = [
+        {"original_scalar_fields": fields(x, (
+            "primary_trial_index", "primary_trial_physical_sha256",
+            "coarse_pool_version", "fine_pool_version",
+            "same_layout_original_SOC_charged_before_call", "expanded_pool_rebound_revision")),
+         "linear_program": lp_view(x.get("linear_program", {}))}
+        for x in model.get("corrections", [])]
+    cm = model.get("complete_model", {})
+    out["complete_model"] = {
+        "summary": short_scalars(cm.get("summary", {})),
+        "oracle": oracle_cost_view(cm.get("oracle", {})),
+        "norm_direction_memory": short_scalars(cm.get("norm_direction_memory", {}))}
+    sample = model.get("curvature_defect_sample_final_record", {})
+    out["curvature_defect_sample_final_record"] = {
+        **fields(sample, ("event_index", "committed", "status", "first_consuming_model_number")),
+        "coefficients_observed": sample.get("coefficients_observed")}
+    return source_note(model, out, "fixed per-model audit columns; complete model28 is emitted separately")
+
+
+def bounded_metadata(value, depth=2):
+    """Scalar administrative metadata only, with bounded nesting and no long lists."""
+    if scalar(value):
+        return value if not isinstance(value, str) or len(value) <= 200 else omitted(value, "long text")
+    if isinstance(value, list):
+        if len(value) <= 6 and all(scalar(x) for x in value):
+            return value
+        return omitted(value, "original list retained only by fingerprint")
+    if not isinstance(value, dict):
+        return omitted(value, "non-JSON metadata")
+    out = short_scalars(value)
+    if depth:
+        for key, item in value.items():
+            if isinstance(item, dict) and key not in STATE_KEYS:
+                out[key] = bounded_metadata(item, depth-1)
     return out
 
-def complete_model_view(value):
-    out = scalars(value)
-    for key in ("summary", "new_task_resource_limits"):
-        if key in value:
-            out[key] = compact(value[key], 1, key)
-    supplemental = value.get("supplemental_paid_normals")
-    if isinstance(supplemental, dict):
-        out["supplemental_paid_normals"] = scalars(supplemental)
-        out["supplemental_paid_normals"]["rebuild_records"] = [
-            scalars(x) for x in supplemental.get("rebuild_records", [])]
-    oracle = value.get("oracle", {})
-    out["oracle"] = scalars(oracle)
-    out["oracle"]["statistics"] = compact(oracle.get("statistics", {}), 1)
-    out["oracle"]["direction_events"] = []
-    for event in oracle.get("direction_events", []):
-        record = scalars(event)
-        for key in ("four_maxima", "maxima"):
-            if key in event:
-                record[key] = compact(event[key], 1, key)
-        if "attainers" in event:
-            record["attainers_fingerprint"] = reader.fingerprint(event["attainers"])
-        if "grids" in event:
-            record["grids"] = compact(event["grids"], 1)
-        out["oracle"]["direction_events"].append(record)
-    out["oracle"]["new_original_row_J_events"] = [
-        selected(x, ("original_row",), 0) for x in oracle.get("new_original_row_J_events", [])]
-    out["norm_direction_memory"] = scalars(value.get("norm_direction_memory", {}))
-    return out
 
 def geometry_timing_view(value):
     if not isinstance(value, dict):
-        return compact(value)
-    out = selected(value, ("components",), 4)
-    out["last_call"] = selected(value.get("last_call"), ("components",), 4)
-    out["implementation"] = selected(value.get("implementation"), (), 0)
+        return value if scalar(value) else omitted(value, "timing value")
+    out = short_scalars(value)
+    for key in ("components", "last_call"):
+        if key in value:
+            out[key] = bounded_metadata(value[key], 3)
     return out
 
 
 def complete_view(report):
-    out = selected(report, (
-        "configuration", "new_scientific_resource_limits", "timing_segments",
-        "new_evaluation_identities", "fresh_adapter_cap_gate_binding",
-        "original_query_quadrature_order", "development_receipt",
-        "final_actual_gate_booleans", "selected_gate_receipt_source",
-        "final_full_grid_constraints", "final_doubled_constraints",
-        "final_exact_box", "final_selection_validation", "value_evaluation_counts",
-        "bank_migration_and_new_activity", "final_bank_scalar_report",
-        "factorized_selected_J_execution",
-        "source_final_selection_validation", "source_paid_point_remains_available_as_ancestral_input",
-        "actual_counters_at_error", "limitations", "ancestor_costs", "error"), 3)
-    out["complete_original_grid_oracle_progress"] = [
-        selected(x, ("statistics",), 1)
-        for x in report.get("complete_original_grid_oracle_progress", [])]
-    if "new_adapter_timing_at_error" in report:
-        out["new_adapter_timing_at_error"] = geometry_timing_view(report["new_adapter_timing_at_error"])
+    out = short_scalars(report)
+    for key in ("new_scientific_resource_limits", "timing_segments",
+                "new_evaluation_identities", "original_query_quadrature_order",
+                "final_selection_validation", "value_evaluation_counts",
+                "final_bank_scalar_report", "limitations"):
+        if key in report:
+            out[key] = short_scalars(report[key])
+    for key in ("final_actual_gate_booleans",):
+        if key in report:
+            out[key] = report[key]
+    for key in ("fresh_adapter_cap_gate_binding", "selected_gate_receipt_source",
+                "final_exact_box", "bank_migration_and_new_activity",
+                "factorized_selected_J_execution", "ancestor_costs"):
+        if key in report:
+            out[key] = bounded_metadata(report[key], 2)
+    for key in ("final_full_grid_constraints", "final_doubled_constraints"):
+        if key in report:
+            out[key] = decision_view(report[key])
     stage = report.get(STAGE, {})
-    sv = selected(stage, (
-        "snapshot_scalar_counters", "original_bank_replay",
-        "initial_complete_checkpoint_bank_input", "initial_fixed_domain_and_height_diagnostic",
-        "last_pre_LP_decision", "new_task_resource_limits", "new_task_total_limits",
-        "direct_reference_initial_scalar_comparison", "direct_reference_bank_migration",
-        "curvature_learning_context_migration", "direct_reference_task_metadata",
-        "covered_soft_ordinary_growth_observation", "error"), 3)
-    solver = stage.get("solver", {})
-    sv["solver"] = selected(solver, (
-        "final_shared_LP_allocation", "unpaired_primary_stop", "initial_pre_LP_decision",
-        "last_pre_LP_decision", "initial_paid_scalar_comparison", "initial_pool_handling",
-        "error"), 3)
-    sv["solver"]["initial_ordinary_timing"] = {
-        k: geometry_timing_view(v) for k, v in solver.get("initial_ordinary_timing", {}).items()}
-    sv["initial_actual_two_grid_decisions"] = compact(
-        stage.get("initial_actual_two_grid_decisions"), 4)
-    sv["selected_two_grid_physical_point"] = selected(
-        stage.get("selected_two_grid_physical_point"), ("coarse", "fine", "reason"), 3)
+    sv = short_scalars(stage)
+    for key in ("snapshot_scalar_counters", "initial_complete_checkpoint_bank_input",
+                "last_pre_LP_decision", "new_task_resource_limits", "new_task_total_limits",
+                "direct_reference_initial_scalar_comparison"):
+        if key in stage:
+            sv[key] = short_scalars(stage[key])
+    for key in ("direct_reference_bank_migration", "curvature_learning_context_migration"):
+        if key in stage:
+            sv[key] = bounded_metadata(stage[key], 1)
     sv["direct_reference_geometry_timing"] = geometry_timing_view(
         stage.get("direct_reference_geometry_timing"))
-    sv["expanded_pool_rebound_records"] = [
-        selected(x, ("rebound_model_binding", "frozen_current_budget", "error"), 2)
-        for x in stage.get("expanded_pool_rebound_records", [])]
+    solver = stage.get("solver", {})
+    sv["solver"] = short_scalars(solver)
+    for key in ("final_shared_LP_allocation", "unpaired_primary_stop",
+                "initial_pre_LP_decision", "last_pre_LP_decision",
+                "initial_paid_scalar_comparison", "initial_pool_handling"):
+        if key in solver:
+            sv["solver"][key] = bounded_metadata(solver[key], 1)
+    sv["solver"]["initial_ordinary_timing"] = {
+        k: geometry_timing_view(v) for k, v in solver.get("initial_ordinary_timing", {}).items()}
+    sv["initial_actual_two_grid_decisions"] = {
+        k: decision_view(v) for k, v in (stage.get("initial_actual_two_grid_decisions") or {}).items()}
+    point = stage.get("selected_two_grid_physical_point", {})
+    sv["selected_two_grid_physical_point"] = short_scalars(point)
+    for key in ("coarse", "fine", "reason"):
+        if isinstance(point.get(key), dict):
+            sv["selected_two_grid_physical_point"][key] = decision_view(point[key])
     out[STAGE] = sv
-    obs = report.get("curvature_defect_guard_observation",
-                     stage.get("curvature_defect_guard_observation", {}))
-    out["curvature_defect_guard_observation"] = selected(
-        obs, ("initial_learning_state", "final_learning_state", "bookkeeping"), 3)
-    out["paid_previous_attempt_receipt"] = selected(
-        report.get("paid_previous_attempt_receipt"),
-        ("original_nine_check_evidence", "paid_cost"), 4)
+    obs = report.get("curvature_defect_guard_observation", {})
+    out["curvature_defect_guard_observation"] = short_scalars(obs)
+    for key in ("initial_learning_state", "final_learning_state", "bookkeeping"):
+        if isinstance(obs.get(key), dict):
+            out["curvature_defect_guard_observation"][key] = bounded_metadata(obs[key], 1)
     cp = report.get("future_direct_checkpoint")
     if isinstance(cp, dict):
-        out["future_direct_checkpoint"] = selected(
-            cp, ("norm_direction_bank_counters", "information_migration_receipts",
-                 "ancestor_costs"), 3)
-        for k in ("coarse_pool", "fine_pool", "norm_direction_bank_entries",
-                  "selected_final159_binary64_exact", "selected_final163_physical_exact",
-                  "reference_complete163_binary64_exact", "coordinate_definition",
-                  "norm_direction_bank_context", "configuration",
-                  "objective_evaluation_definition", "ordinary_field_evaluation_definition",
-                  "factorization_definition", "supplemental_paid_normals"):
-            if k in cp:
-                out["future_direct_checkpoint"][k] = omitted(
-                    cp[k], "exact reusable input remains solely in the original log")
+        out["future_direct_checkpoint"] = short_scalars(cp)
+        for key in ("norm_direction_bank_counters", "information_migration_receipts",
+                    "ancestor_costs"):
+            if key in cp:
+                out["future_direct_checkpoint"][key] = bounded_metadata(cp[key], 1)
+        for key in ("coarse_pool", "fine_pool", "norm_direction_bank_entries",
+                    "selected_final159_binary64_exact", "selected_final163_physical_exact",
+                    "reference_complete163_binary64_exact", "norm_direction_bank_context",
+                    "configuration", "coordinate_definition"):
+            if key in cp:
+                out["future_direct_checkpoint"][key] = omitted(
+                    cp[key], "exact checkpoint stays only in original runner log")
         learning = cp.get("curvature_defect_guard_learning_checkpoint", {})
-        out["future_direct_checkpoint"]["curvature_defect_guard_learning_checkpoint"] = selected(
-            learning, ("coefficients", "coefficient_binary64_exact",
-                       "maximizing_event_indices", "pending_event_indices"), 1)
-        for key in ("events", "commits", "context"):
+        lv = short_scalars(learning)
+        for key in ("coefficients", "coefficient_binary64_exact",
+                    "maximizing_event_indices", "pending_event_indices"):
             if key in learning:
-                out["future_direct_checkpoint"]["curvature_defect_guard_learning_checkpoint"][key] = omitted(
-                    learning[key], "original history fingerprint; live per-model observations are emitted once")
-    return out
+                lv[key] = learning[key]
+        lv["events"] = []
+        for event in learning.get("events", []):
+            v = fields(event, ("event_index", "committed", "status", "first_consuming_model_number"))
+            if "coefficients_observed" in event:
+                v["coefficients_observed"] = event["coefficients_observed"]
+            lv["events"].append(v)
+        for key in ("commits", "context"):
+            if key in learning:
+                lv[key+"_fingerprint"] = reader.fingerprint(learning[key])
+        out["future_direct_checkpoint"]["curvature_defect_guard_learning_checkpoint"] = lv
+    return source_note(report, out, "fixed final gates, costs, migration and terminal checkpoint metadata")
 
 
 def run(args, context):
@@ -576,6 +578,11 @@ def run(args, context):
         "development_reuse": compact(reused, 5),
         "original_prior_record": record_identity(prior_row),
         "prior_work_reused": compact(prior_row["value"], 2)}))
+    if models:
+        outputs.append(("DIRECT_REFERENCE_READBACK_TERMINAL_MODEL", {
+            "original_record": record_identity(models[-1]),
+            "selection_scope": "complete original terminal MODEL; no fields omitted",
+            "model": models[-1]["value"]}))
     for row in models:
         outputs.append(("DIRECT_REFERENCE_READBACK_MODEL", {
             "original_record": record_identity(row), "model": model_view(row["value"])}))
@@ -605,39 +612,126 @@ def main():
                             for label, value in rows)
         output = encode(records)
         if len(output) > STDOUT_CAP:
-            # Only duplicate ancestral receipts and long old histories are
-            # suppressed. Every MODEL/trial/gate/current cost remains present.
+            # Keep the complete original terminal model and all mandatory
+            # per-model LP/trial gates. Only secondary repeated metadata shrinks.
             for tag, value in records:
                 if tag == "DIRECT_REFERENCE_READBACK_REUSE":
-                    value["development_reuse"] = selected(value["development_reuse"], (), 0)
-                    value["prior_work_reused"] = selected(value["prior_work_reused"], (), 0)
+                    value["development_reuse"] = short_scalars(value["development_reuse"])
+                    value["prior_work_reused"] = short_scalars(value["prior_work_reused"])
+                if tag == "DIRECT_REFERENCE_READBACK_MODEL":
+                    model = value["model"]
+                    model.pop("unselected_original_field_names", None)
+                    for trial in model.get("trials", []):
+                        trial.pop("unselected_original_field_names", None)
+                        for grid in ("coarse_decision", "fine_decision"):
+                            if isinstance(trial.get(grid), dict):
+                                trial[grid].pop("unselected_original_field_names", None)
+                    lp = model.get("linear_program", {})
+                    lp.pop("unselected_original_field_names", None)
+                    cm = model.get("complete_model", {})
+                    oracle = cm.get("oracle", {})
+                    for key in ("direction_events", "new_original_row_J_events"):
+                        if key in oracle:
+                            oracle[key] = omitted(oracle[key], "original per-model aggregate costs retained")
+                    model["secondary_metadata_shortened"] = True
                 if tag == "DIRECT_REFERENCE_READBACK_COMPLETE":
                     report = value["report"]
-                    report["paid_previous_attempt_receipt"] = selected(
-                        report.get("paid_previous_attempt_receipt"), (), 0)
-                    cp = report.get("future_direct_checkpoint", {})
-                    learning = cp.get("curvature_defect_guard_learning_checkpoint", {})
-                    for key in ("events", "commits"):
-                        if key in learning:
-                            learning[key] = omitted(learning[key], "per-model live observations already retained")
-            context["only_repeated_ancestral_history_details_shortened"] = True
+                    report.pop("unselected_original_field_names", None)
+                    for key in ("ancestor_costs", "bank_migration_and_new_activity"):
+                        if key in report:
+                            report[key] = omitted(report[key], "source fingerprint; migration state and costs retained elsewhere")
+            context["secondary_metadata_only_shortened_for_bound"] = True
             output = encode(records)
         if len(output) > STDOUT_CAP:
-            complete = next(value for tag, value in records
-                            if tag == "DIRECT_REFERENCE_READBACK_COMPLETE")
-            minimal = {"context": context, "status": "semantic-output-bound-requires-narrower-selection",
-                       "proposed_stdout_bytes": len(output),
-                       "original_complete_record": complete["original_record"],
-                       "original_status": complete["report"].get("status"),
-                       "original_final_selection_validation": complete["report"].get("final_selection_validation"),
-                       "original_stage_status": complete["report"].get(STAGE, {}).get("status"),
-                       "original_timing_segments": complete["report"].get("timing_segments"),
-                       "no_science_or_developer_execution": True,
-                       "no_original_payload_written_split_uploaded_or_committed": True}
-            output = b"DIRECT_REFERENCE_READBACK_LIMIT "+reader.encoded(minimal)+b"\n"
-            require(len(output) <= STDOUT_CAP, "minimal provenance exceeds stdout bound")
-            sys.stdout.buffer.write(output)
-            return 2
+            # A successful read must not conceal the terminal stopping evidence
+            # behind a LIMIT-only record. Emit the complete terminal MODEL,
+            # costs/final gates, then the full minimum 28-model table.
+            essential = []
+            for tag, value in records:
+                if tag in ("DIRECT_REFERENCE_READBACK_IDENTITY",
+                           "DIRECT_REFERENCE_READBACK_TERMINAL_MODEL",
+                           "DIRECT_REFERENCE_READBACK_ORIGINAL_PULLS"):
+                    essential.append((tag, value))
+                elif tag == "DIRECT_REFERENCE_READBACK_COMPLETE":
+                    report = value["report"]
+                    stage = report.get(STAGE, {})
+                    final = {k: report[k] for k in (
+                        "schema", "status", "timing_segments", "value_evaluation_counts",
+                        "final_actual_gate_booleans", "final_selection_validation",
+                        "final_full_grid_constraints", "final_doubled_constraints",
+                        "final_exact_box", "factorized_selected_J_execution",
+                        "final_bank_scalar_report", "future_direct_checkpoint")
+                        if k in report}
+                    final.update(short_scalars(report))
+                    final[STAGE] = short_scalars(stage)
+                    for key in ("snapshot_scalar_counters", "solver",
+                                "direct_reference_geometry_timing", "selected_two_grid_physical_point"):
+                        if key in stage:
+                            final[STAGE][key] = stage[key]
+                    essential.append((tag, {"original_record": value["original_record"],
+                        "selection_scope": "priority costs/final gates/checkpoint; secondary metadata omitted",
+                        "report": final}))
+                elif tag == "DIRECT_REFERENCE_READBACK_MODEL":
+                    model = value["model"]
+                    mini = {k: model[k] for k in (
+                        "number", "result", "linearized_at_accepted_index",
+                        "linearized_at_true_two_grid_max_eta", "trust_before_model",
+                        "coarse_pool_rows", "fine_pool_rows", "coarse_pool_version", "fine_pool_version",
+                        "linear_program", "primary_allocation_before_factory",
+                        "curvature_defect_guard", "trials", "corrections")
+                        if k in model}
+                    mini["controller_next"] = fields(model.get("scale_feedback_update", {}),
+                        ("next_trust", "next_tail_radius", "next_height_radius"))
+                    mini["selection_scope"] = "minimum all-model table; full original record fingerprint retained"
+                    essential.append((tag, {"original_record": value["original_record"], "model": mini}))
+            context["priority_output_is_partial"] = True
+            context["complete_terminal_MODEL_and_all_minimum_model_gates_preserved"] = True
+            output = encode(essential)
+        if len(output) > STDOUT_CAP:
+            terminal = [(tag, value) for tag, value in records
+                        if tag in ("DIRECT_REFERENCE_READBACK_IDENTITY",
+                                   "DIRECT_REFERENCE_READBACK_TERMINAL_MODEL",
+                                   "DIRECT_REFERENCE_READBACK_ORIGINAL_PULLS")]
+            complete = next(value for tag, value in records if tag == "DIRECT_REFERENCE_READBACK_COMPLETE")
+            report = complete["report"]
+            minimum_models = []
+            for tag, value in records:
+                if tag != "DIRECT_REFERENCE_READBACK_MODEL":
+                    continue
+                model = value["model"]
+                row = fields(model, ("number", "result", "trust_before_model",
+                    "linearized_at_accepted_index", "linearized_at_true_two_grid_max_eta",
+                    "coarse_pool_rows", "fine_pool_rows", "coarse_pool_version", "fine_pool_version"))
+                row["original_record"] = value["original_record"]
+                row["linear_program"] = fields(model.get("linear_program", {}), LP_KEYS)
+                row["inner_LPs"] = model.get("linear_program", {}).get("inner_LPs", [])
+                row["guard"] = model.get("curvature_defect_guard", {})
+                row["trials"] = []
+                for trial in model.get("trials", []):
+                    tv = fields(trial, ("kind", "alpha_exact", "accepted_as_next_iterate",
+                        "accepted_index", "new_coarse_rows", "new_fine_rows",
+                        "coarse_omitted_hard_rows", "fine_omitted_hard_rows"))
+                    for grid in ("coarse_decision", "fine_decision"):
+                        if isinstance(trial.get(grid), dict):
+                            tv[grid] = short_scalars(trial[grid])
+                            if "actual_gate_booleans" in trial[grid]:
+                                tv[grid]["actual_gate_booleans"] = trial[grid]["actual_gate_booleans"]
+                    row["trials"].append(tv)
+                minimum_models.append(row)
+            terminal.append(("DIRECT_REFERENCE_READBACK_PRIORITY_FINAL", {
+                "original_record": complete["original_record"],
+                "minimum_all_models": minimum_models,
+                "timing_segments": report.get("timing_segments"),
+                "final_actual_gate_booleans": report.get("final_actual_gate_booleans"),
+                "final_selection_validation": report.get("final_selection_validation"),
+                "value_evaluation_counts": report.get("value_evaluation_counts"),
+                "stage_scalar_counters": report.get(STAGE, {}).get("snapshot_scalar_counters"),
+                "stage_solver_scalars": short_scalars(report.get(STAGE, {}).get("solver", {})),
+                "all_other_models_original_record_directory_is_in_IDENTITY": True,
+                "scope": "complete terminal model plus mandatory all-model scalar/trial-gate table and final costs; secondary controller/oracle details omitted"}))
+            context["priority_secondary_details_not_emitted_due_to_bound"] = True
+            output = encode(terminal)
+            require(len(output) <= STDOUT_CAP, "complete terminal and provenance exceed hard stdout bound")
         sys.stdout.buffer.write(output)
         return 0
     except Exception as error:
