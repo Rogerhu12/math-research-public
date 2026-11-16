@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地executor已恢复，固定flint0.9与终端Actions可用；旧临时输出仅按完整SHA复用，恢复/运行身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-rank-four-sparse-source-job-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-bell-monic-diagnostic-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -33,6 +33,8 @@
 
 - **[原rank4δ14的稀疏10×56正门](notes/2026-11-16-r150-original-rank-four-unexpanded-local-source-interface-789f.md)：** v2 prepare实9.871秒/140588KiB，原50/17运输、全部480 adj、四Bell40坐标/4原18乘回真，保原46列315860项及10局部器；仅初始模局部同模。原list/tuple失败另保，仅规范四indices；[六行MemoryError/完整尺寸诊断](notes/2026-11-16-r150-original-rank-four-schur-prepare-boundary-789f.md)仍保。根全源/wrapper差异/request/原raw与5MB ASCII SHA核；独立run43883188532以Python3.12.14按180/180/600秒实重建中，不预填候选。仅75加新完整candidate/验证前缀续；正证须清ρ后原10/18/17全乘回，再另付E/19图。
 
+- **[单Bell首一约简无规模收益](notes/2026-11-16-r150-original-bell-monic-remainder-diagnostic-boundary-789f.md)：** 实18.599秒核500除法/50原18和完整四Bell门；原50项315888→315892，同删四Bell后315860→315864，无新零列/来源权下降。仅fmpz统计转int修复且保首失败log，无raw照实记；不据此fork正在运行的δ14候选。
+
 - [原六次面35几何A1节点](results/R150-appendix-original-sextic-pencil-has-exactly-thirty-five-geometric-nodes.md)与[degree80对偶正规化/全Bell19图](results/R150-appendix-original-mean-quadrics-dual-normalization-and-complete-bell-cover.md)已付；全部原35/792×1848门、source与例外范围见刚归档H/正式稿。19图各g_i^Ni真实原来源仍未取得。
 
 ## R271真实投影返回与剩余交叉
@@ -40,10 +42,10 @@
 M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersection旗和MP自然域。此前native/adjoint-D/相邻整行/真帽及creation完整返回均保上列H全文归档与open原索引，未删其费用或开放边界。
 
 - **[原matched首反馈](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)** 指定creation/相邻旗返回已付；同u/全部h段/真帽外投影仍保。原真空g0交叉与完整返回逆尚开，费见正文/归档。
-- **[全高度coherent行/同w完整能量](results/R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md)已闭：** 原τ14使所有1≤j<h的整block跨头Bessel≤2；同actual W/g=P_xw及原PV−PK/全Q给ΣΔ≤(4+8Ση²)||w||²。任s≥S的完整H_C(s)均受控，共同log选择付Σlogx F1。源仍非真核；同源、全层、carry及母窗门均保正文。
+- **[全高度coherent与同w能量](results/R271-appendix-cross-head-all-height-coherent-bessel-and-same-w-full-energy-summability.md)：** 原τ14使整block跨头Bessel≤2，同actual W及原PV−PK/全Q给ΣΔ≤(4+8Ση²)||w||²；所有H_C(s),s≥S受控，共同log选择付Σlogx F1。原源非真核，仍保全层/carry/母窗。
 - **[原两孔无罚源](results/R271-appendix-true-low-chain-two-hole-range-and-unpenalized-return-source.md)与[完整K2 Schur](results/R271-appendix-complete-two-far-hole-kernel-stieltjes-schur-and-flag-source.md)已闭：** 偶R的kerC⊂RanC、全部Z/AZ伴随消去及β2U∈RanC²真，$F_\flat=P_{\operatorname{Ran}C^2}q\,\omega_2$ 保同PV−PK/完整U源，费为原受限C*C逆。全K2保primitive/零源，Stieltjes r(T)使整Gram与截二boson仅损 $(1-\epsilon)^{-1}$，无头条件数；增益只读qflat的K∩RanC²分量。原完整费/跨旗余源和帽外投影仍保，全文根独审。
 
-- **[全部高度一次真MP已闭](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)：** 保完整层 $12\,512^j(x+j+1)^{3/2}$ 右逆，取 $c_*=2\cdot512^2,s\in[c_*S,2c_*S]$；同源阻尼逐层付 $\|D^\dagger(C+D)f_s\|^2\le(1+47616c_*)\epsilon_s$，无中段截断/top。全高度同W预算使该一次修正及 $z_1-P_xw$、残余 $-Cq_1$ 平方可和。仅f_s保原同PV/PK，z1保准确收缩误差；后续CD†循环、最终真空约束/完整修复仍开。根全文及旧全层常数已核。
+- **[全高度一次真MP](results/R271-appendix-fixed-variance-full-height-once-mp-and-same-w-summable-correction.md)：** 保真全层512^j，c*=2·512²及s∈[c*S,2c*S]给 ||D†(C+D)f_s||²≤(1+47616c*)ε_s。同W使修正q1、z1−P_xw及残余−Cq1平方可和；仅f_s保原PV/PK。后续CD†循环、最终真空约束和完整修复仍开，详正文/归档。
 
 - **[整个低旗标返回源与完整Schur总能已闭](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)：** 原首头返回源 $\mathfrak h=C^*r\in F_{2d-1}\ominus F_2$，以完整canonical Fock保全部birth/零源及同F，F2最小lift和混合块精确；$\ell=2d-2$ 的真Schur满足 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。有限池 $y=(m+1)^4dx$ 的误差²≤ε_f+ℓt，原carry/fresh6d正交修复给 $q_{0,m+1}\ge q_{\ell,m}-E_m$、$E_m\le3/d^2$，故整个返回源Schur总能<2。boson版<4且 $\mathscr S_b=M_2+I+T^*(SI+JJ^*)^{-1}T$；不能删正则项或跳过外部高旗Schur。原same-w/全部h段/真Q母窗保留；$q_\flat=(C^{*2})^\dagger\mathfrak h$ 未随源低旗而自动低旗，完整γflat与N=M仍开。根全文/全Fock父证/所有cut及新d因子独审，无新数值。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。
