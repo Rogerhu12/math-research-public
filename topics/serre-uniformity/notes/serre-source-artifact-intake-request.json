@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-original-sixteen-flips-complete-marked-trace",
+  "request_id": "20261116-original-thirty-strict-Galois-complete-and-marked-principals",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "dd653369a92a2d199af548f798dc80d442a5e183",
+  "rules_last_read_commit": "dad996456f6638d1851c560869481944ab64a14e",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,153 +12,305 @@
   "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R894-sixteen-complete",
+      "label": "R902-thirty-strict-complete",
       "source": {
-        "result": "R894-original-seven-conjugate-pole-trace-bounded-descent",
-        "run_id": "43864869152",
-        "source_commit": "bf74b397404a0b3b99a035004cfaddcc40359046",
-        "core_sha256": "9a2793c79e552c04ea384f5c6bfb673e6e7d506ff91cf9e246fbc00a76f2da56",
-        "wrapper_sha256": "bcf319795c1f9e08211fd471d6b367375ed6d660d96755d26207490090b11836",
-        "configuration_sha256": "3f67098622cf6ed53f6a1afb45e004958a1e929b09ba2c5b75742964d89ca9e5",
-        "manifest_sha256": "6494c3b1fb4d33013265d5bab4acf6534407239dbc911d11283036c21b5cb59c",
-        "manifest_bytes": 74660,
+        "result": "R902-original-six-Galois-five-sum-Hom-low-weight-RR",
+        "run_id": "43881907151",
+        "source_commit": "ec6b6cf11c8109b3e63d065dd0bb0d5403a986ba",
+        "core_sha256": "b0f5510e3279d77462f6e15634d754f3e99f21db3510b2ce7afabd74aa564ee1",
+        "wrapper_sha256": "db561206e2a964db520de684975545f03b87017406aad1bcd9c02f7d204d3726",
+        "manifest_sha256": "e25509003ab832bea450184f28fd48f8902928e97eb42124313d9a13f0491b47",
+        "manifest_bytes": 1126798,
         "certificate": {
-          "bytes": 26940,
-          "file": "p41-original-seven-conjugate-pole-trace-certificate.json",
-          "sha256": "66684f71abc832615e80a798fe875c8eb3d318fe13984e1d046cb68a23a33f87"
+          "bytes": 38775,
+          "file": "p41-original-six-Galois-five-sum-Hom-low-weight-RR-certificate.json",
+          "sha256": "d21d3401424011421bf261bf4d7136a8c9ee1e62b701398b405eaa075aa4087b"
         },
-        "artifact_id": 14230291708,
-        "artifact_name": "serre-R894-seven-conjugate-pole-trace-43864869152-1",
-        "archive_bytes": 789991719,
-        "archive_sha256": "638b7c6e5acc2ce7d46e8c935571a46513bd9053f81bba6028e7005de487965b",
-        "artifact_expires_at": "2026-11-17T13:25:15Z",
+        "artifact_id": 14236746289,
+        "artifact_name": "serre-global-R902-six-Galois-low-weight-RR-43881907151-1",
+        "archive_bytes": 3319293375,
+        "archive_sha256": "9912331b24d557cb70a0ffac6ff74d33f9a06b07e8ea1dcccb26d434080abec7",
+        "artifact_expires_at": "2026-11-17T14:53:13Z",
         "expected_conclusion": "success"
       },
       "mode": "named_original_members",
       "names": [
-        "R894-original-seven-pole-trace-marked-principal-and-descent.json.gz",
-        "R894-flip-01-A1-complete-flip-certificate.json.gz",
-        "R894-flip-02-A2-complete-flip-certificate.json.gz",
-        "R894-flip-03-A3-complete-flip-certificate.json.gz",
-        "R894-flip-04-A4-complete-flip-certificate.json.gz",
-        "R894-flip-05-A5-complete-flip-certificate.json.gz",
-        "R894-flip-06-A6-complete-flip-certificate.json.gz",
-        "R894-flip-07-A7-complete-flip-certificate.json.gz",
-        "R894-flip-08-A8-complete-flip-certificate.json.gz",
-        "R894-flip-09-A9-complete-flip-certificate.json.gz",
-        "R894-flip-10-B3-complete-flip-certificate.json.gz",
-        "R894-flip-11-B4-complete-flip-certificate.json.gz",
-        "R894-flip-12-B5-complete-flip-certificate.json.gz",
-        "R894-flip-13-B6-complete-flip-certificate.json.gz",
-        "R894-flip-14-B7-complete-flip-certificate.json.gz",
-        "R894-flip-15-B8-complete-flip-certificate.json.gz",
-        "R894-flip-16-DN-complete-flip-certificate.json.gz"
+        "R902-j1-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-original-source-audit.json.gz"
       ],
       "known_file_pins": [
         {
-          "bytes": 10935,
-          "file": "R894-original-seven-pole-trace-marked-principal-and-descent.json.gz",
-          "sha256": "d6d9a5ab99301c104fb811dce1f59e261a8d7494f8baaa4bed66214b12575d8b"
+          "bytes": 13659,
+          "file": "R902-j1-sigma-01-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "2a03d4de2b7954d615353a8aa69d8db8983581953f8ce9676d4c9fe490a0e808"
         },
         {
-          "bytes": 8692,
-          "file": "R894-flip-01-A1-complete-flip-certificate.json.gz",
-          "sha256": "247f59f5c1432ea26963c80b07b074d55461c975a61a7123a869749e52dfc55a"
+          "bytes": 13663,
+          "file": "R902-j1-sigma-02-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "aa1894dd846fd1083741bcdc7ec4135a144b56c6373c86e7a6d15bdf4ad4f154"
         },
         {
-          "bytes": 8686,
-          "file": "R894-flip-02-A2-complete-flip-certificate.json.gz",
-          "sha256": "948bbce5ca252be00e10101d8e8f1561eabda3d54dd9761647a227e2652039b2"
+          "bytes": 13643,
+          "file": "R902-j1-sigma-03-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "efb42b26d1bb3b7e0d7483672dee9923ea08755361d9c77ae8ab832e48fa1772"
         },
         {
-          "bytes": 8827,
-          "file": "R894-flip-03-A3-complete-flip-certificate.json.gz",
-          "sha256": "00f16bfc50ee59d6b8934ecb590ba781574239cf13ca0eed03f90d6176c1f503"
+          "bytes": 13644,
+          "file": "R902-j1-sigma-04-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "8b0cd7d80860cfe89dc84a0a08a332a3494d00759da4315607cf9f3e35b3a40f"
         },
         {
-          "bytes": 8756,
-          "file": "R894-flip-04-A4-complete-flip-certificate.json.gz",
-          "sha256": "c734a8f9d69104f81e49a0b9c010d70a09399e8b8b3fd8e92452730521888390"
+          "bytes": 13654,
+          "file": "R902-j1-sigma-05-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "e66a0a1c107d0dbdd0aab8d39b8bfb1456d6d4b99c0bc4aaf8000e38dfefd6b5"
         },
         {
-          "bytes": 8692,
-          "file": "R894-flip-05-A5-complete-flip-certificate.json.gz",
-          "sha256": "cc3e4ba74a026b5dd26b87a914e6bc7e14c1ccf30622619d38debc1de0ab39d1"
+          "bytes": 13643,
+          "file": "R902-j1-sigma-06-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "3280d1e49254318d9a27b26b8c2bfb28d536bdb1dbfbc90bff5f8260e10dc1c4"
         },
         {
-          "bytes": 8802,
-          "file": "R894-flip-06-A6-complete-flip-certificate.json.gz",
-          "sha256": "ecaeaa96f7f18765833b57ff99d9ad011cdce88cd1cc5d8c70d7fc56f73af0d2"
+          "bytes": 13658,
+          "file": "R902-j2-sigma-01-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "16212c1cbea1de32088fd1d85fd8e64241df1226ea12d32b0a441f681f43d0c8"
         },
         {
-          "bytes": 8756,
-          "file": "R894-flip-07-A7-complete-flip-certificate.json.gz",
-          "sha256": "b53c8d3faa25dc7d6544f6d198ecfefce2564db591d7405a2303b3c3048c2e82"
+          "bytes": 13652,
+          "file": "R902-j2-sigma-02-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "ddd3e5069339b5d806b047e5e6877873ed0c77e319ff1c60f3030c33cd822ee4"
         },
         {
-          "bytes": 8814,
-          "file": "R894-flip-08-A8-complete-flip-certificate.json.gz",
-          "sha256": "08cce6bb7cdde2cd65d7bec2a6a222578ceb3adcfd88128b5e23b431bb1e68a8"
+          "bytes": 13658,
+          "file": "R902-j2-sigma-03-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "81b29c9128e20ebb7c0775a2f3fa80a05212976452a37f307cafdcab7248e244"
         },
         {
-          "bytes": 8810,
-          "file": "R894-flip-09-A9-complete-flip-certificate.json.gz",
-          "sha256": "7f2ec36801419b5b6e11175644558ff8e1a6575e607a6a052fd2265a41bcff50"
+          "bytes": 13661,
+          "file": "R902-j2-sigma-04-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "69af81a58afd86c045ae7da5cab11ba54f2690bfc51035ff269176124f3cb63d"
         },
         {
-          "bytes": 8737,
-          "file": "R894-flip-10-B3-complete-flip-certificate.json.gz",
-          "sha256": "5f04e7ef69f236ede0919b3ee967c7afd859a494cf48dfd4feab36ef58456340"
+          "bytes": 13655,
+          "file": "R902-j2-sigma-05-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "be2c19db4ab225650620a7d0910223e23183cfe932bac174a57fcbe61705c6ef"
         },
         {
-          "bytes": 8812,
-          "file": "R894-flip-11-B4-complete-flip-certificate.json.gz",
-          "sha256": "f7f28b1554e46a7fddfd7d6c5f85fcae036a6f79c2f4022dcead3383f5e64862"
+          "bytes": 13663,
+          "file": "R902-j2-sigma-06-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "b610c6dded9e0e6a21cf503b3183fc6bbe5c4614178124f902dfbfc7487659c6"
         },
         {
-          "bytes": 8750,
-          "file": "R894-flip-12-B5-complete-flip-certificate.json.gz",
-          "sha256": "d6b9ca944f8043152ce9c429044c95b90aa9529624d1e2e7dc1e2f230152cb78"
+          "bytes": 13652,
+          "file": "R902-j3-sigma-01-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "94cb67d49461f6243845c9a505b5a521972662d5b0c2c117df5bde2d3eb14166"
         },
         {
-          "bytes": 8743,
-          "file": "R894-flip-13-B6-complete-flip-certificate.json.gz",
-          "sha256": "37cedab08107854eaa062f445348fad0868d9a52f0b55f09af6ea2977c4471cc"
+          "bytes": 13650,
+          "file": "R902-j3-sigma-02-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "32dfd44c0d8c90ddf1ab6d0c6c3de9cd8d156ef6b02d57857fd02b459858eb4d"
         },
         {
-          "bytes": 8822,
-          "file": "R894-flip-14-B7-complete-flip-certificate.json.gz",
-          "sha256": "e65c4147da30cd818169e7a1880361e0063d8e3800aa9b792719aaf1e74c34c5"
+          "bytes": 13657,
+          "file": "R902-j3-sigma-03-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "70a895aa5ad06dcdd693145500ab124bcff0697589f53c3b214d0747a54af822"
         },
         {
-          "bytes": 8818,
-          "file": "R894-flip-15-B8-complete-flip-certificate.json.gz",
-          "sha256": "3c0bcbb075cfc0a46e0a281ebd4bff047c151fee7dd82f8116e6944977ee1d03"
+          "bytes": 13650,
+          "file": "R902-j3-sigma-04-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "9d926ce8677dde9e1d7448afb86ce2e5983db2711a5dc1ead9059aac6bc1c1f0"
         },
         {
-          "bytes": 8808,
-          "file": "R894-flip-16-DN-complete-flip-certificate.json.gz",
-          "sha256": "ab0ef1222927a132663e76949ba3c43ad2fcb2ca76951ac3a35fd063113ad6e9"
+          "bytes": 13645,
+          "file": "R902-j3-sigma-05-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "a18b061003445e4af9b81e1095286cbbdaa793ee0a314a5367469e92bd864615"
+        },
+        {
+          "bytes": 13645,
+          "file": "R902-j3-sigma-06-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "845c90775ebc36f808eaeb4e48ecd8447c50d6529c9820d2ecf99f8d1fc5b688"
+        },
+        {
+          "bytes": 13646,
+          "file": "R902-j4-sigma-01-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "aea9b1530b4617981ca663508b10c5f1374f858de21df4131d252d499f28b455"
+        },
+        {
+          "bytes": 13637,
+          "file": "R902-j4-sigma-02-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "8263fc1c5df56133222bed1dfc57f99b97263ab4d51bd9ac80ee1927c4f5c10f"
+        },
+        {
+          "bytes": 13642,
+          "file": "R902-j4-sigma-03-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "e5f6687cd2d13a08d99fcd2bf99bb9b76e907020a2831ff3692607f7e7dedfa7"
+        },
+        {
+          "bytes": 13640,
+          "file": "R902-j4-sigma-04-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "6ca86bd82051948ff136da5e0f7468a1f0578e5f67e498e478220cae3c55ccbd"
+        },
+        {
+          "bytes": 13651,
+          "file": "R902-j4-sigma-05-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "7cf6ec45b022fcf3afc62192069e6ff3f11deb9614af5a7934d6abe283331093"
+        },
+        {
+          "bytes": 13642,
+          "file": "R902-j4-sigma-06-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "dd61666cff602adcf4c9cdd1afb8f24f1d59f18e7950136acc346c59906f9cfd"
+        },
+        {
+          "bytes": 13660,
+          "file": "R902-j5-sigma-01-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "88350e0af30e5ea3fcd34f91ddf5e8c60ef9ef3bddf138e7e247a6f9832f6fda"
+        },
+        {
+          "bytes": 13649,
+          "file": "R902-j5-sigma-02-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "f17fa1ec8febfb08c774b8e6e8042ee7754738348a9307e8dad4ce118f8695e2"
+        },
+        {
+          "bytes": 13641,
+          "file": "R902-j5-sigma-03-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "a84a88836da46d72e3d4e34b91dca614483eda7a1c78d01743f3859888b493c1"
+        },
+        {
+          "bytes": 13652,
+          "file": "R902-j5-sigma-04-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "02423b52d9920f7c4d19b400e236f2477c1de159d5a908135cca75219d45ef2c"
+        },
+        {
+          "bytes": 13648,
+          "file": "R902-j5-sigma-05-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "1c19dd409af132590beb7b87b46923d2d7340cf24ec5753a6c2618d9412266a0"
+        },
+        {
+          "bytes": 13654,
+          "file": "R902-j5-sigma-06-complete-low-weight-RR-certificate.json.gz",
+          "sha256": "06c53e5132887964ecd2b1746b660b2ce7e6f54c750e9024b18026d5753f061b"
         }
       ],
       "print_json_files": [
-        "R894-original-seven-pole-trace-marked-principal-and-descent.json.gz",
-        "R894-flip-01-A1-complete-flip-certificate.json.gz",
-        "R894-flip-02-A2-complete-flip-certificate.json.gz",
-        "R894-flip-03-A3-complete-flip-certificate.json.gz",
-        "R894-flip-04-A4-complete-flip-certificate.json.gz",
-        "R894-flip-05-A5-complete-flip-certificate.json.gz",
-        "R894-flip-06-A6-complete-flip-certificate.json.gz",
-        "R894-flip-07-A7-complete-flip-certificate.json.gz",
-        "R894-flip-08-A8-complete-flip-certificate.json.gz",
-        "R894-flip-09-A9-complete-flip-certificate.json.gz",
-        "R894-flip-10-B3-complete-flip-certificate.json.gz",
-        "R894-flip-11-B4-complete-flip-certificate.json.gz",
-        "R894-flip-12-B5-complete-flip-certificate.json.gz",
-        "R894-flip-13-B6-complete-flip-certificate.json.gz",
-        "R894-flip-14-B7-complete-flip-certificate.json.gz",
-        "R894-flip-15-B8-complete-flip-certificate.json.gz",
-        "R894-flip-16-DN-complete-flip-certificate.json.gz"
+        "R902-j1-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j2-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j3-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j4-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-01-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-02-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-03-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-04-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-05-complete-low-weight-RR-certificate.json.gz",
+        "R902-j5-sigma-06-complete-low-weight-RR-certificate.json.gz",
+        "R902-j1-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j1-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j2-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j3-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j4-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-01-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-02-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-03-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-04-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-05-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-j5-sigma-06-original-bounded-divisor-and-marked-principal-Q.json.gz",
+        "R902-original-source-audit.json.gz"
       ]
     }
   ]
