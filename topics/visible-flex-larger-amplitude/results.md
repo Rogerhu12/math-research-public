@@ -97,3 +97,5 @@
 - [R591：actual captured reader四项绑定修复与完整request247](results/R591-actual-captured-reader-and-complete-source-chain-repair.md)：原618及56科学view不改→627/12层，只修真实名称/新metadata；原资源/门/90K70保，R592另付。
 
 - [R578：actual98全453三控制新初猜与当前H完整fullDN入口](results/R578-original98-three-scalar-initial-guess-and-fresh-current-H-fullDN.md)：七件147266B/topic122097B，原451全保→457；只三guess值/全部fresh RHS和H，FD/fullDN同新file与原全门/clock保持；实际242/R579另付。
+
+- [R525：actual224零高原收敛、正高一次内部试步与原资源停止](results/R525-actual224-input-support-zero-height-and-positive-resource-partial.md)：完整28608B；正高未接受/18000耗尽，107463正文未返、1505诚实70，quiet却未清理，无父；全部原scope与异常分责保。
