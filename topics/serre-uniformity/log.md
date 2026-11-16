@@ -511,4 +511,10 @@
 - R866正式结果ef5fdaa6：3.399841967s/52stage，真实H/准确127逆/cY/全部127 Q-fixed基；even54/odd73、全560×127及C²实际验证。整ZIP/65件纯IO核，178原件carrierb865217a。
 - R865首120min消费者激活：core3d074559/wrapper9b05e7ff/method88a3c9dd/request28aa9adc/workflow61b43759，真175原件闭包。仅12新A_nB、原T7双矩阵/全行/两块charpoly/CRT谱，不重旧H/J/逆。
 - root已读全部六件及原文规范；本地无数学。R865纸证已推908abce3，一次非快进立即实际pull/rebase再推成功。R868真实P0核及R869原cusp格/companion、R870η域/挠界继续，不冒完整高度。
-- 本push规则：本地真实pull至e99341ea80eb7ba5a634ee6c21bc9ac73252562d（2026-11-16T06:29:07.596018+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+- 本push规则：本地真实pull至821f98de378edfbbf7f6c2b7eb71b0e0782f3e01（2026-11-16T06:40:27.624975+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 14:40 Asia/Taipei — serre-public-astra-20261115
+- R869完整纸证4fb8d4bb：全部cusp最大raw Hodge整格ℒ、split modπ与原T固定线；真CRT首层μ1/6 Θ、untwisted level9 companion及指定CM的V4†/E4单位，未冒q-normal/height。
+- 已读Kling原Lemma2.1/PropA.17及base-change条件。R865真实run43817070047/job133131532466/sourcea907063a已success，整ZIP/92件已纯IO核；final a48e185d，正式谱登记接续。
+- 五条长任务仍原数学步，不取消或重启。R868实际单极点core、R870原有理挠判/真实谱消费者及R871原tame三次首项继续；本地无新数学。
+- 本push实际pull及两README差异检查由发布记录更新；主目标OPEN。

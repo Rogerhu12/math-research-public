@@ -125,7 +125,7 @@ R855efde3e02在p>104190883给同primitive/Legendre可见h、增长m=eM−3a−3�
 
 R859b8218a4b/R8613461121b用原R390完整BT/稳定格给prime-to-p目标同源和同h content/首余项运输；原r0/α、r6=b/16、v真实投影、u单位、f_h=u v^(1−h)逆different基、β_h=v^-hΩ_h、Néron指数(p−1)h和整参数均已证。原深盘G_h是真q拉回，但M_h/首余项/Manin/KS/height仍未得。目标格饱和不自动使q拉回饱和。
 
-R863[原格与完整首π相位](results/R863-original-cuspidal-extension-and-full-first-ramified-phase.md)fbac90d2由原−1/p Weyl角色和唯一非split扩张/End_B标量给全G识别，所有μ_k与模π^(p−1)的C(−log(1−π)Θ)保tame帧/原平均。R867[原Drinfeld de Rham与Cartier](results/R867-original-Drinfeld-de-Rham-extension-and-Cartan-Cartier-image.md)8610e41d保实际c/左右作用和惯性补偿，e_r↦[(v−r)^(p−2)w dw]给完整非split H，原Cartan的Cartier像c^(-2/p)dv/w²在两CM点单位。仍只是local有限型；global multiplicity、原cusp整格/nearby-fiber/q-normal比较未成，R869继续此源格接缝。局部二类代表的值不等于原Néron微分拉回。
+R863[原格与完整首π相位](results/R863-original-cuspidal-extension-and-full-first-ramified-phase.md)fbac90d2由原−1/p Weyl角色和唯一非split扩张/End_B标量给全G识别，所有μ_k与模π^(p−1)的C(−log(1−π)Θ)保tame帧/原平均。R867[原Drinfeld de Rham与Cartier](results/R867-original-Drinfeld-de-Rham-extension-and-Cartan-Cartier-image.md)8610e41d保实际c/左右作用和惯性补偿，e_r↦[(v−r)^(p−2)w dw]给完整非split H，原Cartan的Cartier像c^(-2/p)dv/w²在两CM点单位。仍只是local有限型；R869已给[全部cusp最大raw Hodge格与首Θ层](results/R869-original-maximal-cusp-lattice-and-first-theta-layer.md)4fb8d4bb：ℒ=Λ+π^-1S̃，模π split S⊕1，原T固定线不变；真CRT首层μ1/6 Θ_Q，untwisted level9 companion及指定共轭CM的V4†/E4单位已证。global multiplicity、原nearby-fiber/q-normal比较仍未成；R871继续真实tame Abel primitive及循环p映射尺度。局部二类代表的值不等于原Néron微分拉回。
 
 R832接触界R−1+binom(R,2)(6G−4)可接原提取器，不假T_p非零或代全p单位。End⁰G=F、非零torus商维≥g+1、μ3 qφ*=0、非挠/log/rank都不消去Y/height。
 
