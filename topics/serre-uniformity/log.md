@@ -265,3 +265,8 @@
 - R904完整纸证：原Q最高六系数三角化给r≥5真Wr非零，36六挠点同权≤p；r5整div=pE[6]与原常数保全，r≥6真实六行消失序列给w≡5 mod6。
 - 未冒认互补primitive/Legendre指定jet非零；v20只读取R896后继所需固定图/全核/20旧E3及R824第693位current，原大逆与旧产品不重。H完整前态归档。
 - 本push规则：公开Actions真实pull至dd653369a92a2d199af548f798dc80d442a5e183（2026-11-16T13:27:35.458143+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 21:37 Asia/Taipei — serre-public-astra-20261115
+- R824实际BudgetStop/exit1，原free1187已保存693位：current761b228c/lift f8972f29/manifest9960bfff；十四分支与N129原图不变，同core直接续而不重旧位。
+- 最小IO已读真current/history；R894也实际SUCCESS，启动只读其16新flip/终点主函数小源，以接冻结R899。R896五完整418与原首项正在独立正式登记。
+- 本push规则：公开Actions真实pull至4e7249810f4b71922daf3cc88557cb30c21cd5e1（2026-11-16T13:37:33.251141+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
