@@ -416,3 +416,5 @@
 - 2026-11-16 14:25:11 UTC / Astra-rank2-Sha-continue：R891原one-q finite–singular及条件balanced rank1全证即推；root核连续I/Q四角norm、绝对σ^h/交换子、p^N杀误差及全部local cup。扩大系数用一次O0行/平坦扩张，不偷满像；原c1非零和ordinary loc仍另门，完成下降接口后续下一open。
 
 - 2026-11-16 14:28:27 UTC / Astra-rank2-Sha-continue：R887同p基/原P2 adj矩阵及Pm降极完整即推；root核所有Z^p折回、c_p归一p曲率、6p窗、额外零点留数/类型因子和étale Frobenius逆。先前仅凭二挠降极删补域的试探未采用；全trace/exact保，续四真实低多项式联合。
+
+- 2026-11-16 14:38 UTC / Astra-rank2-Sha-continue：R892原完整PARI有理基/乘积全维门/双map认证不变性完整即推，新增公开 .github/workflows/rank2-sha-original-maps-pari.yml 执行同P/F；固定同空间/seed/QQ/全前缀与R889，原source/CRT/Sturm全保。数学仅Actions，无输出文件；旧九任务继续，H全档压缩。

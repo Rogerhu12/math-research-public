@@ -1,0 +1,22 @@
+{
+  "request_id": "rank2-20261116T1438-original-maps-pari",
+  "purpose": "Reconstruct the same original P/F maps with a pinned exact full PARI M2 basis and R889 Newton germs, preserving every original certificate gate.",
+  "P": {
+    "weights": [
+      4,
+      6
+    ],
+    "request": "ci/original-rational-hecke-map-request.json"
+  },
+  "F": {
+    "weights": [
+      2,
+      4
+    ],
+    "max_primes": 96,
+    "prime_start": 1000000000,
+    "product_prime": 1000037
+  },
+  "preserve_prior_runs": true,
+  "save_recomputable_outputs": false
+}

@@ -381,3 +381,5 @@
 
 
 - [R887 §§14–15](../results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：同Z有限p基完整给G坐标、∇a^p=−aH^p、det/adj与原P2=−Z^p adj(A2)e1，Z^p折回不删。Pm线性模型保原四α及五块modp窗并降二挠极帽；其余Z零点的新增留数完整为Fν,p=T_m,p DRν∈X(X+1)k[X]≤s−1。三次Cartier用同原A_(3s−1)的étale Frobenius逆/trace精确恢复全部补项，未免费删exact或添中央零。
+
+- [R892](../results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)：完整M2(867)改用同一PARI全有理基，QQ/同对象/全前缀/固定seed齐；所取乘积实际rank到全维才认完整基，基变换不改原P/F候选或最终Sturm/首项/微分认证。两新producer公开执行，保R889同Newton及旧全部source/CRT，未取得新PASS。
