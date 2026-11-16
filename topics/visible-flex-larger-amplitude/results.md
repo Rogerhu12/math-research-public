@@ -71,3 +71,5 @@
 - [两旧25-domain manifest完整当前引用及固定恢复](notes/2026-11-16-two-twenty-five-domain-manifest-retention.md)：新独立实际76570完整必要/18组101行/真实artifact读取路径，只有两manifest1355425B普通移出，所有现用输入/兄弟保，最后实际delta/候选字节及topic容量守护。
 
 - [R557 — request234两worker完整源链与必要域](results/R557-two-worker-complete-source-chain-and-necessary-scope.md)：九件413261B/topic321559B，616完整源/原545全保、57真实far消费者+必要/quiet/六metadata，原25M/绝对钟/全账/全部门与90K70保持；实际R558另付。
+
+- [R558：actual234旧sampler schema预检停止与完整source必要超限](results/R558-actual234-source-schema-preflight-stop-and-complete-readback-overflow.md)：12层实际source生成0，科学前止；原107643/90K未返，cleanup真实skip，全部未起责任与正式run绑定完整。
