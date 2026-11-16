@@ -1,0 +1,172 @@
+{
+  "P0_proof": "results/R837-certified-original-P0-evaluation-and-fixed-branch-pencil.md",
+  "P0_proof_sha256": "2d86c5ec140bd8545ecbecbb7a6d3f2dcabba61ede11f0268e984c8c2ec4cff1",
+  "budget_minutes": 300,
+  "core": "R856_original_fixed_branch_ideal_bases.py",
+  "core_sha256": "80c4e508cd0ddc15bcc3f8a5b3a4053ce141233fd3d259c1bcf0935db6a6311b",
+  "cusp_proof": "results/R820-original-cusp-finite-algebra-and-two-chart-Hermite-ideals.md",
+  "cusp_proof_sha256": "5be4f04927348b1e73812d33893ce828085dc6121aaf65d4d0696378b52decda",
+  "finite_RR_proof": "notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md",
+  "finite_RR_proof_sha256": "a5d65aa4a841c77eb7d29ccf98e96b01e60691ffdf1d763115487889a1695fbe",
+  "io_helper": "R824_public_original_global_polar_generators.py",
+  "io_helper_sha256": "c590773947ac8e74110bf902e1f46f80859912393163b8ea55ce699717889a3c",
+  "method": "notes/R856-original-fixed-branch-ideal-bases-method.md",
+  "method_sha256": "9a89c865989cdeeb6a18e2b180f76cfd6be425c7be615838c55c4106fffeea0d",
+  "p": 41,
+  "producer_inputs_pending": false,
+  "proof": "notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md",
+  "proof_sha256": "e2f61908c8e17d8c16113c5c85eccabe71b4c0b7fd057b01daee9081d391b4e2",
+  "purpose": "Produce complete original two-chart P0 and Cusp+P0 polynomial ideal bases; preserve original K coordinates and all section scales.",
+  "readme_sha256": {
+    "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
+  },
+  "requested_stage": "complete_two_chart_point_and_fixed_branch_ideal_bases",
+  "result": "R856-original-fixed-branch-ideal-bases",
+  "resume": null,
+  "rules_last_read_commit": "8e897f9932b0266605ac1b21a62ab53ee0d67489",
+  "sources": {
+    "R805": {
+      "archive_sha256": "cea9ac5d490722e86a93bbfa41d2061e5153f225359c167263b6d4fdd65d4d30",
+      "artifact_id": 14158193403,
+      "artifact_name": "serre-global-R805-original-affine-pencil-free-basis-43705580592-1",
+      "certificate": {
+        "bytes": 5108,
+        "file": "p41-original-affine-pencil-free-basis-certificate.json",
+        "sha256": "d65c799fcc1a23dfdf5fee9799b416ae202735a1da45b91e4792abd0236b76d0"
+      },
+      "configuration_sha256": "176dcb479f730ff647490a0aaa587195d615a4ded4edac7a64f8331fd46300d4",
+      "core_sha256": "730a7d8f51d76d1153386c63f2e082285ada4573a2baf8d87d1825d3ce75b420",
+      "expected_conclusion": "success",
+      "free_basis": {
+        "bytes": 11649,
+        "file": "R805-graded-free-basis.json.gz",
+        "sha256": "74311a7a143fafc43a36d1a43f6146e6aa3cb28809a020e3fa1337fdc4e475c9"
+      },
+      "manifest_bytes": 451608,
+      "manifest_file_count": 1322,
+      "manifest_sha256": "dfb7a4e58227b8ec4dfd86cc37bd672aeedf0f124776a427a0323220901130d7",
+      "pencil": {
+        "bytes": 4053,
+        "file": "R805-accepted-pencil.json.gz",
+        "sha256": "83f333404cb147eebe4b4c0d0f3dd383c20b532c7aab69c27269c111eaf6eb8c"
+      },
+      "result": "R805-original-affine-pencil-free-basis",
+      "run_id": "43705580592",
+      "selected_file_count": 7,
+      "selected_files_sha256": "c69ebc7bc2d56342415c37c43fe074c02d4a879104010bc37a0e6e60767c375e",
+      "source_commit": "9f960b8e0b2fa825ab1391e86db4e1383ffdd700",
+      "source_selection": "original free basis and pencil with five original metadata files, through the verified R820 carrier",
+      "stage_manifest": {
+        "bytes": 67098,
+        "file": "R805-stage-manifest.json.gz",
+        "sha256": "37d151c36d0c8d01e7ec5af4a1228e1aaa19054889436c4debd17e7b27cc6547"
+      },
+      "transport_input_bundle": {
+        "bytes": 5531995,
+        "file": "R820-retained-producer-inputs.tar.gz",
+        "sha256": "0fb4ae9b40aabf67ae1c6c116e8ecb525ec0efd7975ff29010e09ce674ada2f4"
+      },
+      "transport_retained_receipt": {
+        "bytes": 77494,
+        "file": "retained-inputs-receipt.json",
+        "sha256": "ecb00bac7814950642a68be432e8ebc01b09710dc53fbcab5dc787f5d159df18"
+      },
+      "transport_source": {
+        "core_sha256": "25f5582ed0c6dae2cf29d5eb288469067c09d917bfe1f565fb042978ea9b173c",
+        "manifest_sha256": "2877dd3dbe604f07a58c8774897085d1de90a6faa38a6d2ed78a5bb9d7f79a8f",
+        "result": "R820-original-cusp-finite-algebra-and-ideals",
+        "run_id": "43721747750",
+        "source_commit": "7890fde180ffabee056de2ce8dd241b189a893a2"
+      }
+    },
+    "R820": {
+      "archive_bytes": 19737373,
+      "archive_sha256": "d09c6d70facec7870121cba30b13371bb672fbfd83cd9914e29ee1cfb1e9d11c",
+      "artifact_id": 14164872449,
+      "artifact_name": "serre-global-R820-original-cusp-finite-algebra-and-ideals-43721747750-1",
+      "certificate": {
+        "bytes": 6047,
+        "file": "p41-original-cusp-finite-algebra-ideals-certificate.json",
+        "sha256": "a2e629d05d561e1144e6989612213b33990075400a21f7c1c2f0c2eb825152b4"
+      },
+      "configuration_sha256": "882b413cb404ee39142757680b5598831fa8a6ae63fb75223fd4d7128ae6736f",
+      "core_sha256": "25f5582ed0c6dae2cf29d5eb288469067c09d917bfe1f565fb042978ea9b173c",
+      "cusp_indexes": {
+        "sigma": {
+          "bytes": 17119,
+          "file": "R820-chart-sigma-cusp-Hermite-index.json.gz",
+          "sha256": "48e434d4387b8a4065827191fa97f53eda5cf51295f5fac6d4336d0f40528ebd"
+        },
+        "tau": {
+          "bytes": 17060,
+          "file": "R820-chart-tau-cusp-Hermite-index.json.gz",
+          "sha256": "df8c00e8fb5962a3481d1b07cbefd54e7a5ea51fc54e03e12d39a25354af8365"
+        }
+      },
+      "expected_conclusion": "success",
+      "finite_algebra_interface": {
+        "bytes": 328768,
+        "file": "R820-original-cusp-finite-field-interface.json.gz",
+        "sha256": "b58ec39994113b232ae6e1b4549d598352298a8071159eebef62d3901e0169cc"
+      },
+      "manifest_bytes": 154422,
+      "manifest_file_count": 598,
+      "manifest_sha256": "2877dd3dbe604f07a58c8774897085d1de90a6faa38a6d2ed78a5bb9d7f79a8f",
+      "result": "R820-original-cusp-finite-algebra-and-ideals",
+      "run_id": "43721747750",
+      "selected_file_count": 554,
+      "selected_files_sha256": "975116692df8fce636292102893a466cce6f9f950b6f2f8fdd165f2fbaaf7e05",
+      "source_commit": "7890fde180ffabee056de2ce8dd241b189a893a2",
+      "source_selection": "two complete original C indexes and their 544 first-dependence columns, finite algebra, metadata, and old carrier receipt",
+      "stage_manifest": {
+        "bytes": 31391,
+        "file": "R820-stage-manifest-14d0564a3c407f21095b987a.json.gz",
+        "sha256": "93064680035284daf511842401420f27e9b6da85cb6726a93c650a1b42b42900"
+      }
+    },
+    "R837": {
+      "P0_values": {
+        "bytes": 21063,
+        "file": "R837-original-P0-evaluation.json.gz",
+        "sha256": "2e41a7ec7a73401fd2f5d770c5ef6c4d8d722c38312026a5c6a0f906aedf58c7"
+      },
+      "V2_values": {
+        "bytes": 28665,
+        "file": "R837-original-V2-P0-evaluation.json.gz",
+        "sha256": "0671c2bc0dfd8942dfdf90c21039e658df29f3c3e8b91292d833e7659a302421"
+      },
+      "archive_bytes": 48599362,
+      "archive_sha256": "ea610ed2142ca7ad563d49803002aaccd6b81b0888173265e826caabc68d0864",
+      "artifact_id": 14184475817,
+      "artifact_name": "serre-global-R837-original-fixed-branch-pencil-43770995901-1",
+      "certificate": {
+        "bytes": 5040,
+        "file": "p41-original-fixed-branch-pencil-certificate.json",
+        "sha256": "83234905bd30dd774ec4fd4ed6bfaef46f7bcacc1ff8fe0f5b00e4119ca31eb1"
+      },
+      "configuration_sha256": "1fbdd4c7173879f69cac92f39b2c485a583deb1cada140b4ac9afadc7d2622f9",
+      "core_sha256": "5702b42ee014ab7552e61383e24b738fe5ed48955dfc207ad3d85cae08e8b924",
+      "expected_conclusion": "success",
+      "manifest_bytes": 26808,
+      "manifest_file_count": 151,
+      "manifest_sha256": "fe2aee5e584b5e6e8800d2ef30ff17ed76fdfb349d5f783880c1e08cf7a64e43",
+      "result": "R837-original-fixed-branch-pencil",
+      "run_id": "43770995901",
+      "selected_file_count": 8,
+      "selected_files_sha256": "9c039501ef8f55435fbcc5692ddde7c1578555bf1aae70a3a7da559a22265b67",
+      "source_commit": "fa17c77fe36fddd9df06677569984d1ea71a6b41",
+      "source_selection": "original P0 V1/V2 values and six original metadata/stage files",
+      "stage_manifest": {
+        "bytes": 9664,
+        "file": "R837-stage-manifest.json.gz",
+        "sha256": "4cae97c2b31a9a1fd024849d84580c289c6b1ee26649766e51c7938345236a71"
+      }
+    }
+  },
+  "transport_helper": "R837_original_branch_pencil_public.py",
+  "transport_helper_sha256": "eec99c9e849c051a8314f00ff594037e962d9bc23e2d2bfaa6334307a3bb5eae",
+  "workflow": ".github/workflows/serre-R856-fixed-branch-ideal-bases.yml",
+  "wrapper": "R856_original_fixed_branch_ideal_bases_public.py",
+  "wrapper_sha256": "3b722b5bd794913d78c06351a66b795b293634f0043ef7d9e4bee5c44e6c58aa"
+}

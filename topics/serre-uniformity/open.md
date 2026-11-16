@@ -134,9 +134,9 @@ R851首次给全部充分大允许p的一个指定Cartier-g单位；R855进一�
 **R857原Abel共同相位/深盘根数已证**：[结果](results/R857-original-higher-unit-Abel-phase-and-deep-disc-root-count.md)34d9f444以R855同h的高jet为参考，M_(3j−1,h)/M_mh∈Qp，全部jet整数赋值。原727.28全阶乘/全尾给A_j=p^(3j)M/(3j)!的v≥1且趋∞，第J=(m+1)/3项v=1。I/(p b_h)∈V Zp〈V〉、V=z_f³/p³；最小unit阶r≤J，经形式Weierstrass和原coarse变换，在v(a−1)>3内恰r个零含center/重数，非center≤J−1。保c_h真实赋值；正秩候选不必使Abel增量零，未得r=1或height排除。
 
 
-**R856固定支撑完整基与三标量入口已证**：[方法](notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md)e2f61908：原R837值给P0两图272基值；原cusp基C的实际非零评价r_k给H_k=(x−x0)C_k、H_j=C_j−r_j/r_k C_k，完整Cusp+P0基/det(x−x0)P20/余长21，不另求秩。原R838 J2用Leibniz及两图三角运输恰(f,δf,δ²f)，在原L=Q(b,ζ)上I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)。首core只算固定支撑，不预称原B/三导数坐标或RR完成。纯IO已得R820544列/554件、R8057、R8378；core继续写。
+**R856固定支撑完整基与三标量入口已证**：[方法](notes/R856-original-fixed-branch-ideal-and-three-scalar-pole-source.md)e2f61908：原R837值给P0两图272基值；原cusp基C的实际非零评价r_k给H_k=(x−x0)C_k、H_j=C_j−r_j/r_k C_k，完整Cusp+P0基/det(x−x0)P20/余长21，不另求秩。原R838 J2用Leibniz及两图三角运输恰(f,δf,δ²f)，在原L=Q(b,ζ)上I_E=mP0 C^−2(f³,(δf)³,(δ²f)³)。首core只算固定支撑，不预称原B/三导数坐标或RR完成。[执行契约](notes/R856-original-fixed-branch-ideal-bases-method.md)9a89c865及core80c4e508/wrapper3b722b5b/真request已提交首次公开运行：42原子stage、两图完整点理想及Cusp+P0各272列；真实569源逐SHA，旧C/Fourier/秩不重算，B/D/RR/η/height未成。
 
 
-**R854原41首次实际请求已提交**：[执行记录](notes/R854-original-p41-response-solver-activation.md)，core1feb579a/helperfa545b18/wrapperf6b97a7d，原2420/free1186/全部2560原行，56位算子/目标7位/300min只为控制。首跑核真实GLOBAL载体后保1645原叶+20父元数据；成功须实际单位子式/左逆界＋全残差，不再乘CM原scale。四响应球/A.1/Z尚未成，R858待真输出；本次push触发run。
+**R854原41首次实际请求已提交**：[执行记录](notes/R854-original-p41-response-solver-activation.md)，core1feb579a/helperfa545b18/wrapperf6b97a7d，原2420/free1186/全部2560原行，56位算子/目标7位/300min只为控制。首跑核真实GLOBAL载体后保1645原叶+20父元数据；成功须实际单位子式/左逆界＋全残差，不再乘CM原scale。四响应球/A.1/Z尚未成，R858待真输出；已实际触发run43805506433/source dc6ffb07b398e5262d6b1e62dbc72378a163b5f3，最近queued。
 
 **避免重登旧实下降/盘界**：R750 已给全部h/全部jet的共同实相位与signed conjugates；R742 已给unramified firstjet/depth7，R744 已给某低firstjet分量在闭depth4的非center根数≤3。R857新内容仅R855具体同h高unit对开盘v(a−1)>3的最小unit与根数；不称首次根数或改进旧界，后继直接引用三旧记录。
