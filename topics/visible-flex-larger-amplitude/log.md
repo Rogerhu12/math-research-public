@@ -145,3 +145,7 @@ R576六件357108B/topic264682B独立刊：同R553对象/同cell返回与原退�
 ## 2026-11-16 15:58 UTC /root — request241正式来源和唯一派发回执
 
 request241正式7af9e725/run43901322004/133418415682单POST200绑定刊；publisher NFF后立刻真实pull--rebase读04a84378双README未变再普通push，原642/全部门和quiet责任保。独立22/23引用audit43901415619固定7af9、只读不删，由amplitude唯一终态；H登记真实tuple与R583/R593/R596下一责任，open§4–6原字。
+
+## 2026-11-16 16:00 UTC /root — R593同一总钟内owner窗口与既有初猜复用
+
+R593三件54101B独立刊：查清原每H成功last/predictor已复用，唯一owner6000→12000，同19200/replay1200及stage8000/边界端点600/audit1800/readback120保，原数学/初猜不改；全余量足时4800→10800局部solve上界，不预言残差或整链完成。原451→454只两metadata view/真实allocation全选，R594248完整入口接续；R581六件完整下一刊，H/open/index同步§4–6原字。

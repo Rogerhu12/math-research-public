@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R593同一原总钟下owner资源窗口](results/R593-one-clock-native-owner-resource-window-and-existing-continuation.md)三件独立刊**：当前源已经成功后复用last/predictor，原6000 owner内含1200 replay、不是每H重启91。新明确策略只owner cap6000→12000；同19200与replay1200/后继stage8000/边界端点600/audit1800/readback120和全部科学源码/门/初猜不变。全余量足时solve局部上界4800→10800，不能推出全链时间足或未返225残差；新reader保真实裁剪分配。原R589451全保→454，沿原63输入，不叠242新初猜；完整248/R594下一入口，R595 exact唯一。
+
 **[request241官方绑定](notes/2026-11-16-request241-official-run-binding.md)**：R576普通7af9e725、唯一POST200/run43901322004/compute133418415682，R577 geometry唯一；NFF立刻真pull --rebase核双README未变再成功push。实际已起不预填投影/metric/full453→450接受。独立22/23清单引用审计43901415619只读进行中，固定7af9，全部现用输入/数组不动；未获完整实际audit前不删。
 
 **[R576/request241同次全角投影与完整真实caller](results/R576-same-return-full-angle-projection-and-complete-current-caller.md)六件本次独立刊**：同一真实R553模块对象/同cell已返完整tube，原DFS决定后同退休顺序，三个same-C测量和compare真接R575；完整全域条件未齐只报observed extrema及原frontier。原627全保→642=318+324/13层/25runtime，原56科学输出逐字保；R586完整generation state严格逆/90000/70、三身份键与schema/frame各自严格核。原normal链/全部BVP与metric门/单worker/18900+2700/32GiB不变，无FFT形成或全几何已付宣称。正式刊后单派，R577 geometry唯一；R580实际解析带另由R581/243接。

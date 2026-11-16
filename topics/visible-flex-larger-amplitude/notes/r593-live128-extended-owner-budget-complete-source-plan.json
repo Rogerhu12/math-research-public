@@ -1,0 +1,248 @@
+{
+  "schema": "R593-live128-extended-owner-budget-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "generator": {
+    "file": "root_20261116_live128_extended_owner_budget_source_views.py",
+    "bytes": 26239,
+    "sha256": "9f852d3576372d25712f5276771dc9ac51fe1a97c4b8fdc700fd470d5a2ee5ee"
+  },
+  "parent": {
+    "request": {
+      "file": "computations/public-live128-named-necessary-original-full112-FD-fullDN-request.json",
+      "bytes": 98952,
+      "sha256": "5c48bf2add2def97a6f1d86dc85d6159822e035ce50d61ca42e2179dc3a924b0"
+    },
+    "request_number": 246,
+    "request_schema": "public-live128-named-necessary-original-full112-FD-fullDN-request-v1",
+    "source_generator": {
+      "file": "root_20261116_live128_named_necessary_source_views.py",
+      "bytes": 26794,
+      "sha256": "80e74595d24b0aa8d1de2a95ec77cfe0d37e25288d36f277718c66149edbed0a"
+    },
+    "source_plan": {
+      "file": "notes/r589-live128-named-necessary-complete-source-plan.json",
+      "bytes": 20112,
+      "sha256": "e615b290d30f00867cb106906548491b84b7a02e7ba3f260a96cc261b9e352a9"
+    },
+    "preparation_schema": "R589-complete-current-owner-named-necessary-source-preparation-v1",
+    "necessary_schema": "R589-complete-current-owner-named-necessary-source-preparation-v1-necessary-v1",
+    "record_basename": "source-views.json",
+    "overflow_basename": "necessary-source-overflow.json",
+    "source_contract_is_ancestry_only": true
+  },
+  "resource_strategy": {
+    "schema": "R593-one-owner-cap-with-original-total-clock-v1",
+    "JSON_pointer": "/live_call_resources/owner/owner_seconds_cap",
+    "original_value_seconds": 6000,
+    "current_value_seconds": 12000,
+    "source_reason": "The current owner subtracts the original1200-second replay reserve from its local owner allowance after the common deadline clip; the old6000 cap limits nonlinear solve plus compilation to at most4800 seconds even when the original job still has time.",
+    "original_total_science_seconds": 19200,
+    "original_readback_cleanup_reserve_seconds": 120,
+    "original_workflow_job_minutes": 350,
+    "original_science_step_minutes": 320,
+    "unchanged_caps": {
+      "factor_seconds_cap": 19200,
+      "owner": {
+        "replay_reserve_seconds": 1200,
+        "threads": 4,
+        "stage_seconds_cap": 8000,
+        "boundary_seconds_cap": 600,
+        "endpoint_seconds_cap": 600,
+        "audit_seconds_cap": 1800
+      }
+    },
+    "original_one_absolute_clock_is_not_restarted": true,
+    "replay1200_is_inside_owner_allowance": true,
+    "stage8000_is_a_later_phase_not_an_earlier_owner_minimum": true,
+    "all_roles_clip_same_remaining_clock": true,
+    "requested_audit_has_original_independent_allowance_priority": true,
+    "no_guaranteed_completion_or_faster_execution_claim": true,
+    "no_change_to_prior_state_selection_or_numerical_gate": true
+  },
+  "additional_public_sources": [],
+  "counts": {
+    "parent_complete_sources": 451,
+    "parent_public_sources": 362,
+    "parent_generated_sources": 89,
+    "new_public_sources": 1,
+    "new_generated_views": 2,
+    "complete_sources": 454,
+    "public_sources": 363,
+    "generated_sources": 91
+  },
+  "roles": {
+    "runner": {
+      "file": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+      "bytes": 39341,
+      "sha256": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c"
+    },
+    "reader": {
+      "file": "root_20261116_live128_extended_owner_budget_necessary.py",
+      "bytes": 65727,
+      "sha256": "13ae34ff4201026d1655c94db1d6ae4ad6e9cc3819ab04577e0ae78f301de3b4"
+    }
+  },
+  "views": [
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_named_necessary_owned_run.py",
+        "bytes": 39330,
+        "sha256": "457a1ca8f575f2192664b0e5583b0bb3672d3b4dce4c6d56ec0e17844dc6b3a6"
+      },
+      "patches": [
+        {
+          "id": "owned-procedure-schema",
+          "before": "SCHEMA = \"R589-live128-named-necessary-original-full112-owned-procedure-v1\"",
+          "after": "SCHEMA = \"R593-live128-extended-owner-budget-original-full112-owned-procedure-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-request-schema",
+          "before": "REQUEST_SCHEMA = \"public-live128-named-necessary-original-full112-FD-fullDN-request-v1\"",
+          "after": "REQUEST_SCHEMA = \"public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1\"",
+          "count": 1
+        },
+        {
+          "id": "one-new-namespace",
+          "before": "NAMESPACE = \"visible-live128-named-necessary246\"",
+          "after": "NAMESPACE = \"visible-live128-extended-owner-budget248\"",
+          "count": 1
+        },
+        {
+          "id": "actual-event-scope",
+          "before": "request246",
+          "after": "request248",
+          "count": 9
+        },
+        {
+          "id": "actual-request-number",
+          "before": "request[\"request_number\"]==246",
+          "after": "request[\"request_number\"]==248",
+          "count": 2
+        },
+        {
+          "id": "actual-necessary-schema",
+          "before": "summary.get(\"schema\")==\"R589-live128-named-necessary-original-full112-necessary-v1\"",
+          "after": "summary.get(\"schema\")==\"R593-live128-extended-owner-budget-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "runtime-module-label",
+          "before": "\"_R589_\"+role",
+          "after": "\"_R593_\"+role",
+          "count": 1
+        },
+        {
+          "id": "declared-resource-doc",
+          "before": "Request246: current-owner projected64 linear model with original128 values and full-DN gates.",
+          "after": "Request248: explicit12000-second owner cap under the original19200-second clock.",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "geometry_20261116_live128_extended_owner_budget_owned_run.py",
+        "bytes": 39341,
+        "sha256": "17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c"
+      }
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_named_necessary.py",
+        "bytes": 65528,
+        "sha256": "e210adeaa8925ffa3daa5e2287808098f6be3ad553c398914341fc96714357eb"
+      },
+      "patches": [
+        {
+          "id": "actual-reader-schema",
+          "before": "SCHEMA=\"R589-live128-named-necessary-original-full112-necessary-v1\"",
+          "after": "SCHEMA=\"R593-live128-extended-owner-budget-original-full112-necessary-v1\"",
+          "count": 1
+        },
+        {
+          "id": "actual-request-schema",
+          "before": "REQUEST_SCHEMA=\"public-live128-named-necessary-original-full112-FD-fullDN-request-v1\"",
+          "after": "REQUEST_SCHEMA=\"public-live128-extended-owner-budget-original-full112-FD-fullDN-request-v1\"",
+          "count": 1
+        },
+        {
+          "id": "one-new-namespace",
+          "before": "NAMESPACE=\"visible-live128-named-necessary246\"",
+          "after": "NAMESPACE=\"visible-live128-extended-owner-budget248\"",
+          "count": 1
+        },
+        {
+          "id": "actual-runtime",
+          "before": "RUNTIME=\"geometry_20261116_live128_named_necessary_owned_run.py\"\nRUNTIME_SHA=\"457a1ca8f575f2192664b0e5583b0bb3672d3b4dce4c6d56ec0e17844dc6b3a6\"",
+          "after": "RUNTIME=\"geometry_20261116_live128_extended_owner_budget_owned_run.py\"\nRUNTIME_SHA=\"17dd19a19f762efff98f9f096aedac9d278190e007272ea885834bd33382b67c\"",
+          "count": 1
+        },
+        {
+          "id": "actual-number-guard",
+          "before": "request[\"request_number\"]==246",
+          "after": "request[\"request_number\"]==248",
+          "count": 1
+        },
+        {
+          "id": "actual-number-fields",
+          "before": "request_number=246",
+          "after": "request_number=248",
+          "count": 3
+        },
+        {
+          "id": "actual-event-scope",
+          "before": "request246",
+          "after": "request248",
+          "count": 3
+        },
+        {
+          "id": "actual-doc",
+          "before": "Request246 readback",
+          "after": "Request248 readback",
+          "count": 1
+        },
+        {
+          "id": "actual-frame",
+          "before": "REQUEST246_NAMED_NECESSARY_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "after": "REQUEST248_EXTENDED_OWNER_BUDGET_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY",
+          "count": 1
+        },
+        {
+          "id": "runtime-module-label",
+          "before": "spec_from_file_location(\"_R589_necessary_runtime\",HERE/RUNTIME)",
+          "after": "spec_from_file_location(\"_R593_necessary_runtime\",HERE/RUNTIME)",
+          "count": 1
+        },
+        {
+          "id": "original-allocation-return",
+          "before": "\"actual_owner_argv\"))",
+          "after": "\"actual_owner_argv\",\"actual_resource_allocation\"))",
+          "count": 1
+        },
+        {
+          "id": "explicit-resource-policy-return",
+          "before": "        R589_source_composition=request.get(\"R589_source_composition\"),",
+          "after": "        R589_source_composition=request.get(\"R589_source_composition\"),\n        R593_resource_strategy=request.get(\"R593_resource_strategy\"),\n        requested_live_call_resources=request[\"live_call_resources\"],",
+          "count": 1
+        }
+      ],
+      "output": {
+        "file": "root_20261116_live128_extended_owner_budget_necessary.py",
+        "bytes": 65727,
+        "sha256": "13ae34ff4201026d1655c94db1d6ae4ad6e9cc3819ab04577e0ae78f301de3b4"
+      }
+    }
+  ],
+  "source_scope": {
+    "all_original451_pins_retained": true,
+    "only_owner_cap6000_to12000": true,
+    "all_scientific_sources_and_fullDN_entry_unchanged": true,
+    "all_original_input_words_and_warm_choices_unchanged": true,
+    "original_R588_relations_and_R589_full_source_necessary_retained": true,
+    "original_one19200_science_clock_unchanged": true,
+    "new_runtime_and_reader_own_actual248_namespace": true,
+    "generated_views_are_source_text_not_scientific_output": true,
+    "local_scientific_import_AST_compile_or_test_performed": false
+  }
+}
