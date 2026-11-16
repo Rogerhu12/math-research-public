@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-R901-complete-and-R854-ended-required-original-metadata",
+  "request_id": "20261116-R930-complete-required-connection-and-trace-source-interfaces",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "24d17b9332e535e9be33684b9dbe84bac1542b5e",
+  "rules_last_read_commit": "a3892a0c2ee543d8fd2b660168e839ec2a7e9057",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,37 +12,75 @@
   "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R901-five-directions-complete",
+      "label": "R930-complete-original-seven-connections",
       "source": {
-        "run_id": "43893483097",
-        "source_commit": "dbfb172d6cce083541a34ff507627dc42ddf9859",
-        "artifact_id": 14251161202,
-        "artifact_name": "serre-R901-five-Z-shared-flips-43893483097-1",
-        "archive_bytes": 5906554358,
-        "archive_sha256": "64304b92b1c478767627acea94e3e332e9414c19b5bc812416ef8289bccce5b4",
-        "artifact_expires_at": "2026-11-17T17:20:01Z",
+        "run_id": "43921420577",
+        "source_commit": "280f1840a717c80665133b0ddab8a55a02af7d4e",
+        "artifact_id": 14254752421,
+        "artifact_name": "serre-global-R930-seven-whole-Artin-connection-traces-43921420577-1",
+        "archive_bytes": 42518654,
+        "archive_sha256": "70740e910313d6be510a8d1bab302388f67057d7a56f4ad613f6af1001179f2d",
+        "artifact_expires_at": "2026-11-17T17:44:51Z",
         "expected_conclusion": "success",
-        "core_sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
-        "wrapper_sha256": "c2aad47b0af2a85e87f8fc8f955c879043d0c0de2c4046b530f5ee56444356d2",
-        "manifest_sha256": "e3e4eefd4a9b234bad8e8f837f115743c3bdbed5aa1cbafe9579f6f84da50538"
+        "core_sha256": "c35f63bec49f3b795c040c64d4900d955af1eed5cf326e3640226880401a0f4e",
+        "wrapper_sha256": "2fad50f49c2e5670d54980da5db75b137eef53d5a265e7bc3895050edd007ec0",
+        "manifest_sha256": "1261b9cf43e691a00e05ac04f7cf48e83e393a58027fa8983dcaa70bc363ef92"
       },
-      "mode": "ended"
-    },
-    {
-      "label": "R854-original-N112-actual-ended",
-      "source": {
-        "run_id": "43880489423",
-        "source_commit": "20984736d0376b262b83e9173bcfc4c3205f6056",
-        "artifact_id": 14248459820,
-        "artifact_name": "serre-global-R854-original-p41-four-responses-43880489423-1",
-        "archive_bytes": 266362302,
-        "archive_sha256": "3780001833a13e866fcdd4802234b892c4d49ac73ead623809956d0e10cdfd66",
-        "artifact_expires_at": "2026-11-17T17:10:18Z",
-        "expected_conclusion": "failure",
-        "core_sha256": "1feb579a88879739a250f889ab1818019acb8f1156a0e3f34d57b8524024125f",
-        "wrapper_sha256": "f6b97a7d0640a03fa099d3b0b04541318e53ddbcf611a876f877b3dc42c7f0ae"
-      },
-      "mode": "ended"
+      "mode": "named_original_members",
+      "names": [
+        "R930-source-audit.json.gz",
+        "R930-complete-ordinary-trace-row.json.gz",
+        "R930-completed-trace-transport-factors.json.gz",
+        "R930-seven-original-exact-target-connection-trace-DAG.json.gz",
+        "R930-D1-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D1-whole-target-denominator-unit.json.gz",
+        "R930-D1-target-numerator-contraction-index.json.gz",
+        "R930-D2-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D2-whole-target-denominator-unit.json.gz",
+        "R930-D2-target-numerator-contraction-index.json.gz",
+        "R930-D3-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D3-whole-target-denominator-unit.json.gz",
+        "R930-D3-target-numerator-contraction-index.json.gz",
+        "R930-D4-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D4-whole-target-denominator-unit.json.gz",
+        "R930-D4-target-numerator-contraction-index.json.gz",
+        "R930-D5-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D5-whole-target-denominator-unit.json.gz",
+        "R930-D5-target-numerator-contraction-index.json.gz",
+        "R930-X-complete-whole-target-connection-and-trace.json.gz",
+        "R930-X-whole-target-denominator-unit.json.gz",
+        "R930-X-target-numerator-contraction-index.json.gz",
+        "R930-DN-complete-whole-target-connection-and-trace.json.gz",
+        "R930-DN-whole-target-denominator-unit.json.gz",
+        "R930-DN-target-numerator-contraction-index.json.gz"
+      ],
+      "print_json_summary_files": [
+        "R930-source-audit.json.gz",
+        "R930-complete-ordinary-trace-row.json.gz",
+        "R930-completed-trace-transport-factors.json.gz",
+        "R930-seven-original-exact-target-connection-trace-DAG.json.gz",
+        "R930-D1-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D1-whole-target-denominator-unit.json.gz",
+        "R930-D1-target-numerator-contraction-index.json.gz",
+        "R930-D2-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D2-whole-target-denominator-unit.json.gz",
+        "R930-D2-target-numerator-contraction-index.json.gz",
+        "R930-D3-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D3-whole-target-denominator-unit.json.gz",
+        "R930-D3-target-numerator-contraction-index.json.gz",
+        "R930-D4-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D4-whole-target-denominator-unit.json.gz",
+        "R930-D4-target-numerator-contraction-index.json.gz",
+        "R930-D5-complete-whole-target-connection-and-trace.json.gz",
+        "R930-D5-whole-target-denominator-unit.json.gz",
+        "R930-D5-target-numerator-contraction-index.json.gz",
+        "R930-X-complete-whole-target-connection-and-trace.json.gz",
+        "R930-X-whole-target-denominator-unit.json.gz",
+        "R930-X-target-numerator-contraction-index.json.gz",
+        "R930-DN-complete-whole-target-connection-and-trace.json.gz",
+        "R930-DN-whole-target-denominator-unit.json.gz",
+        "R930-DN-target-numerator-contraction-index.json.gz"
+      ]
     }
   ]
 }
