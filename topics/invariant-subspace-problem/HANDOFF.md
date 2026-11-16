@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** a9498872085c98f821277f307015b23112dffc9d（2026-11-16 16:21:10 UTC，临时研究session run43906283833实际pull --rebase，两README无差异；详见notes/r150-original-delta-weight10-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 135b50ff04a12c51dd1b9de583a20b2bed19cbed（2026-11-16 16:22:05 UTC，临时研究session run43906283833实际pull --rebase，两README无差异；详见notes/r150-original-delta-weight10-execution-789f/）。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 固定Python3.12.14/flint0.9；可用实际终端Actions。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
