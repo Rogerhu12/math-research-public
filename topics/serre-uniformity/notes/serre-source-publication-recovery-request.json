@@ -2,39 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R917-original-endpoint-orders-contract",
-  "commit_message": "serre: prove original endpoint order construction with actual P1 sources",
-  "rules_last_read_commit": "834b106ae49d19d52d2bf8e51313039e2162f974",
+  "request_id": "20261116-R920-original-weight10-inert-Hecke-row",
+  "commit_message": "serre: identify original weight ten Igusa layer by one inert Hecke row",
+  "rules_last_read_commit": "4169d6a2aaa03b467feb9924050fdca3a566f0ff",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "4db3d86bc72cc3d9b8f199f5de8679cfe6be70dff779dc48ffaae7802cc098f4",
+  "expected_previous_request_sha256": "bc0315bb7294f58ff0ca4a67ef638d4f3786eab4feedcc56d7ff4f0488628df6",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R917-original-two-endpoint-normal-orders-and-source-contract.md",
-      "sha256": "c3466fae4079d55d992a5470be4b90de127ee5aa64bf05948e8cf00bb709bf55",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-endpoint-order-contract.md",
-      "sha256": "cd54bf4285eaffabdae14255e084a71f37ad70609b1fd761187fa80b03a52b48",
+      "path": "topics/serre-uniformity/results/R920-original-upper-primitive-Igusa-layer-and-inert-Hecke-row.md",
+      "sha256": "55edcd0b205a4c6bd985cfc6cef647e9cc564abe49850e3cc4371e7dce86afe4",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "6e6ed3be379d6617b47d27c3371c2bac184d9c35b83bff8098fd08eeab8d315e",
-      "expected_previous_sha256": "cd54bf4285eaffabdae14255e084a71f37ad70609b1fd761187fa80b03a52b48"
+      "sha256": "9c97e786d78db38ff6057c196d2d0f08bffd2522a09762a0f6aa7a509b170a50",
+      "expected_previous_sha256": "90486ffb6bca9fa7c18b317020109d0d5cfe4cabf7a77d27ec745d55634e3712"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "c30654dacd09a02fd461769574fb23c265cfb58f70b7b4c08fa73d19cc40fe1c",
-      "expected_previous_sha256": "b4509a63a776996e0820bcfcdc864459b65d0410bca0542500ecc57750a9c0de"
+      "sha256": "e672a8ea0e5f5f5ad1bae4f4e93091619b6d4bfab562c86f32e48e63a5c9023e",
+      "expected_previous_sha256": "c30654dacd09a02fd461769574fb23c265cfb58f70b7b4c08fa73d19cc40fe1c"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "7a01a86952993e4048463476a459c4587382dae0dd0e6222a15109e1237ead70",
-      "expected_previous_sha256": "528cca730bb9f090fbc083b80aa0f0dabea7ad3b2685e115766a557cf6a2c832"
+      "sha256": "806bbed9581009fba893a799210b4bc2149c5375b3cdeb903622e5cec12026e4",
+      "expected_previous_sha256": "b56fb2a321d19cd2983e71097d3c61ad538b2ff564d9049c7f75b6da1df86246"
     }
   ]
 }

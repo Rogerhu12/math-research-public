@@ -184,3 +184,6 @@ R913 §2已更正几何δ^D的证明约定：Cartier配对 e(y,δ^Dz)=e(δy,z)�
 
 
 **[R917原两端八阶正规order契约](results/R917-original-two-endpoint-normal-orders-and-source-contract.md)**：真实R914全146叶/273项已接；17列共同θ0²清分母为V10，保原P/a8与K/PU；Θ=ρ^hU首一仅损a阶。trace-radical及idealizer两个≤8未知核，四块0/1项、最低−2项整性/每步精度均明确；准确discrim4方可停，保全2+3+3幂零与det uρ^(28h−I)、原cε^(−m)。纸证/来源合同已成，consumer在写，新order/靶272/九NmΦ帧均未执行。
+
+
+**[R920原权十实际向量](results/R920-original-upper-primitive-Igusa-layer-and-inert-Hecke-row.md)**：全部允许p≡5mod12，h=(p+9)/2 primitive/r8，实际L̄_h=c_hΦ10(V10†)，c_h≠0。原全δ支路整基B1=V4†E6、B2=V4†η12，T5的q²行(−4032s,8)强制原CM线B1+504sB2；保τ′=6τ、跨δ与真Hecke零运输、两Igusa/C4及完整非平方Norm。原标记V10†/E4=−20E6·V4†/E4单位，fine SS准确阶2p−11。a_h/c_h与另一λ_h、原同h Legendre/J32/normal/height桥仍保；R921继续。
