@@ -53,3 +53,7 @@
 ## 2026-11-16 08:32:00 UTC /root — R507实际218启动前语法停止
 
 [R507](results/R507-actual218-source-binding-stop-before-science.md)18208/5f33d330，run43830433500/source0f101b69、compute133174205129/report133174986936各终志唯一：133生成/405身份组合成，current union owner77279/57be第119行裸字典推导式SyntaxError使正式dispatch未交，科学全未起。C485B只null，R4994468B仅两资源记录，79007composition只身份；后继缺文件非数学拒，quiet真而cleanup明确skip。220独立修当前unpack/全部来源，旧错误owner只历史字节不冒语法过，原门/钟/32GiB保。
+
+## 2026-11-16 08:34:00 UTC /root — 两份重复下载清单按根15清理
+
+[保留说明](notes/2026-11-16-two-old54-download-receipts-retention.md)：仅删两旧actual54下载目录清单各702911B，完整2293-file清单相同，仅环境三字段不同；生成源/固定输入/run/SHA及494cc311历史保。公开Actions43832094284在精确494cc311全文范围用git grep完成引用核，五命中均旧生成动作或保留结果链接，无两精确路径/SHA消费者；不动actual55/57科学result/summary/trial或任何现行参数/父/门，无新科学计算。
