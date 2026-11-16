@@ -1,0 +1,165 @@
+{
+  "schema": "R515-physical128-local-mode-cache-complete-source-composition-plan-v1",
+  "public_inputs": {
+    "cache_header": {
+      "file": "geometry_20261116_native_physical_radial_mode_cache128.hpp",
+      "bytes": 5253,
+      "sha256": "959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51"
+    },
+    "compiler_adapter": {
+      "file": "geometry_20261116_native128_physical_radial_cache_source.py",
+      "bytes": 13235,
+      "sha256": "22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6"
+    },
+    "unchanged_component_launcher": {
+      "file": "geometry_20261116_live128_final_components.py",
+      "bytes": 32027,
+      "sha256": "2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866"
+    }
+  },
+  "compiler_layer": {
+    "schema": "R515-original-physical128-finite-radial-mode-cache-source-plan-v1",
+    "upstream": {
+      "published_source_ref": "f0c787340f29734e17c9428ba7588e2a58ae665e",
+      "factory": {
+        "file": "geometry_20261116_native128_live_scalar_source.py",
+        "bytes": 15897,
+        "sha256": "06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b"
+      },
+      "public_cpp": {
+        "file": "geometry_20261115_native_physical_final128.cpp",
+        "bytes": 18055,
+        "sha256": "a0904ea0ea632da9e9c58f7b75b5ce2440a89e7b54916f44bfc84a27905b8415"
+      },
+      "qualified_cpp_sha256": "ecf14bf4d5cfd7a9f7796d0fa513822a05ca6cdc5a3ecc291859cff58a91b265",
+      "unchanged_physical_header": {
+        "file": "geometry_20261115_native_physical128.hpp",
+        "bytes": 12683,
+        "sha256": "4b0569a245147e346149d462d974a80cac853bcf9d5abf13700b743acd33af35"
+      },
+      "unchanged_shared_header": {
+        "file": "geometry_20261115_native_shared_trace128.hpp",
+        "bytes": 13605,
+        "sha256": "bcca73719ffb98d5d0aed5bc4c88c789343be048475aae22a3b495097f345c6b"
+      }
+    },
+    "baseline": {
+      "file": "geometry_20261116_native_physical_live_scalar128.cpp",
+      "bytes": 19958,
+      "sha256": "5f6b2d3c641befb6816c3e411ba00b7faf6eb3407b210f8b4c68b1c655746502",
+      "storage_kind": "actual_R493_factory_generated_source_not_a_public_Git_file"
+    },
+    "additional_source": {
+      "file": "geometry_20261116_native_physical_radial_mode_cache128.hpp",
+      "bytes": 5253,
+      "sha256": "959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51"
+    },
+    "patches": [
+      {
+        "id": "actual-include",
+        "before": "#include \"geometry_20261115_native_physical128.hpp\"",
+        "after": "#include \"geometry_20261116_native_physical_radial_mode_cache128.hpp\"",
+        "count": 1
+      },
+      {
+        "id": "all-three-actual-cut-queries",
+        "before": "cut_readout(p,physical,",
+        "after": "cut_readout_radial_mode_cache(p,physical,",
+        "count": 3
+      },
+      {
+        "id": "complete-audit-query",
+        "before": "physical_jets(p,physical,",
+        "after": "physical_jets_radial_mode_cache(p,physical,",
+        "count": 1
+      }
+    ],
+    "output": {
+      "file": "geometry_20261116_native_physical_live_scalar_mode_cache128.cpp",
+      "bytes": 20048,
+      "sha256": "c0364bcdb302c0909d31ae4737257891640eeb25c91b56c9f646006bc9f47ea8"
+    },
+    "scope": {
+      "current_owner_and_fresh_replay_cpp_unchanged": true,
+      "all_576_by_224_stage_math_unchanged": true,
+      "complete_226_rows_and_two_means_preserved": true,
+      "complete_338_by_112_original_mixed_endpoint_preserved": true,
+      "all_actual_independent_audit_queries_preserved": true,
+      "only_finite_per_call_radial_mode_words_shared": true,
+      "all_original_angular_additions_and_C_solve_unchanged": true,
+      "zero_j_elision_or_trigonometric_identity_used": false,
+      "cross_call_cache": false,
+      "new_scientific_acceptance_gate": false,
+      "no_performance_measurement_claimed": true,
+      "current_published_launchers_are_not_registered_for_this_new_source": true
+    },
+    "construction": {
+      "method": "Invoke the pinned R493 factory.prepare_compile on the existing original physical compiler command in the owned compiler directory. Its complete generated source is an unexecuted ancestor at this point. Bind all generated baseline words, apply every exact literal count in order, and bind the actual new output. Copy the new cache header and the two pinned original physical/shared headers into the same directory. Use only the explicit new translation-unit path in the existing compiler command; keep the original factory receipt as prepared ancestry, not the compiler's executed input.",
+      "output_is_temporary_expanded_source": true,
+      "original_compiler_policy": [
+        "-std=gnu++17",
+        "-O3",
+        "-fopenmp",
+        "-frounding-math",
+        "-ffp-contract=off",
+        "-fno-fast-math"
+      ],
+      "not_an_additional_scientific_test": true
+    }
+  },
+  "component_layer": {
+    "baseline": {
+      "file": "geometry_20261116_live128_final_components.py",
+      "bytes": 32027,
+      "sha256": "2369787d7454c4f3d0e9f91cbf4f82327f73046bc637c6180361bff877d0b866"
+    },
+    "patches": [
+      {
+        "id": "current-source-description",
+        "before": "\"\"\"Request204: complete original SIMD chain with the R445 stage type qualification.\n\nEvery passed finite-word matrix dot retains the complete binary128 words,\nuses exact integer accumulation and one RN113, including wide-exponent\nfallback. Small recorded H/point coefficients are still formed in binary128.\nAll224 state columns are batched; original nominal-factor solves, all C\nresiduals, primal/root trace and complete final components remain. There is\nno complete derivative error enclosure, old-word identity or speed promise.\n\"\"\"",
+        "after": "\"\"\"R515 complete original live128 components with a local physical mode cache.\n\nThe complete SIMD stage map and boundary mathematics are unchanged. The\nphysical endpoint and audit compiler use the explicit R515 source adapter.\nOnly finite radial-mode words are shared inside one physical_jets query;\nall original angular sums, C solves, rows, independent audit and gates remain.\nNo local science, complete derivative enclosure or speed promise is made.\n\"\"\"",
+        "count": 1
+      },
+      {
+        "id": "new-component-source-schema",
+        "before": "SCHEMA = \"R493-live128-same-call-final-components-launch-v1\"",
+        "after": "SCHEMA = \"R515-live128-cached-radial-final-components-launch-v1\"",
+        "count": 1
+      },
+      {
+        "id": "actual-source-adapter",
+        "before": "QUALIFIER = \"geometry_20261116_native128_live_scalar_source.py\"",
+        "after": "QUALIFIER = \"geometry_20261116_native128_physical_radial_cache_source.py\"",
+        "count": 1
+      },
+      {
+        "id": "old-and-new-source-closure",
+        "before": "    QUALIFIER: \"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\",",
+        "after": "    QUALIFIER: \"22e64c73005918527815269930f94ad4413bbc129120cb9dd5686a78a58873c6\",\n    \"geometry_20261116_native128_live_scalar_source.py\": \"06a257765276863a487c1b2db6a13990c0dd6ec7dca4bc5422eda4af63d3bb2b\",\n    \"geometry_20261116_native_physical_radial_mode_cache128.hpp\": \"959d43bffc27665f30dffe4e98bb00fc007ee10fc3f3e519589c0c3d854fcd51\",",
+        "count": 1
+      },
+      {
+        "id": "explicit-physical-source-scope",
+        "before": "        original_R302_boundary_and_physical_math_sources_unchanged=True,",
+        "after": "        original_R302_boundary_math_source_unchanged=True,\n        original_physical_header_retained_as_pinned_dependency=True,\n        physical_compiler_uses_explicit_finite_radial_mode_cache=True,\n        complete_original_physical_formulas_and_angular_sum_order_retained=True,",
+        "count": 1
+      }
+    ],
+    "output": {
+      "file": "geometry_20261116_live128_cached_radial_final_components.py",
+      "bytes": 32429,
+      "sha256": "0a7f47213789bc4779a6241b121f636d2356302b9f258fdf7a94b3dec4b02f8b"
+    },
+    "generate_in_same_real_computations_as_bound_full_original_source_closure": true,
+    "do_not_copy_expanded_output_into_public_Git": true
+  },
+  "scope": {
+    "new_component_CLI_and_source_adapter_implemented": true,
+    "compiled_or_scientifically_executed_here": false,
+    "new_request_workflow_or_run_created": false,
+    "old_owner_pipeline_source_pins_not_silently_replaced": true,
+    "future_full_live_entry_must_register_actual_new_component_tuple_and_necessary_source_receipt": true,
+    "complete_all_four_component_science_and_original_gates_retained": true,
+    "semantic_result_schema_labels_are_not_source_identity": true
+  }
+}

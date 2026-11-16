@@ -26,6 +26,8 @@ R465/466/471/474仅各明确有限输入/原fallback局部语义，不冒IEEE导
 
 [223完整入口](notes/2026-11-16-request223-actual39-producer-role-context-interface.md)11937/9d45与generator/plan/recipe/request/workflow完整刊并正式dispatch。真实R512五表/索引接线、原213全部112身份保持，112public＋4gen=116、recipe115；旧213两view只保祖先身份，新helper75639/eabd与worker29678/f847实际调用。原98 fresh、8pair/39query/17档/全部FD及10500/175/195min/90K70/owner保；不扩大/分包必要body，不推速度/摘要必fit或native/fullDN接受。R513唯一终态交geometry，root原日志读取0；[正式绑定](notes/2026-11-16-request223-official-run-binding.md)：run43839064900/source035d2866/compute133202897349，发布a8b至实际035d整topic与workflow同字。09:26前1–7success、8原八批39/FD运行，不预填结果。
 
+[R515](results/R515-physical128-local-radial-mode-word-sharing.md)/[接口](notes/2026-11-16-physical128-local-radial-mode-cache-interface.md)五件58602B完整刊：原4b0569 physical_jets同次调用的dp与角n无关，只复用原式已形成finite Q词，非有限仍原式；全部角/累加/Csolve/338×112/576audit/负零与四scalar导出保。新adapter先真形成R493源再include1/cut3/audit1接新callee，两个展开view只Actions生成；原R501 owner/pipeline仍旧固定tuple，未来真实整链须登记新组件/收据，不能冒当前run已用。未测速度、不改原门/预算，也不把C-based诊断当准确隐式导数。
+
 ## 2. 准确十族候选与完整453→450
 
 本节压缩前全部原文逐字保在[368e6a6f时open](https://github.com/Rogerhu12/math-research-public/blob/368e6a6fb1ecde31525d0f4042a77e490b665236/topics/visible-flex-larger-amplitude/open.md)，其f863b71c及全部更早链接继续保原词/参数/来源、失败/未返/未访、资源和清理，责任不撤。原九p/84trial/18FD、七态112三列/两mean、全G/H/span、QR/clip/Cauchy及每alpha冻结原Armijo/S球保；有限拒绝不证无解/秩亏，旧201末响应缺失不能由202补。
