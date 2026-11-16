@@ -60,7 +60,7 @@
 
 [R421实际198](results/R421-actual198-complete-ten-71-accepted-and-resource-partial.md)run43773780174/source4b6eea36，两job同77081B/eff30360必要全文已读：71原接受/181α，W.607252712409→.0516490181483；8完整块+block8七接受。0..50偶数.25/1..51奇数.5，52..59均.5，60..70均.25；法向53/57/58 update0、54/59 update1，其余update2，全部trial0/beta1。716primal全返、534normalJ尝试533返、535trial/462临时更新/150投影提案；全模型777primal/606forward尝试605返，原6060列计数不冒末响应已付。dir71的α1完整拒、.5 update1十列响应被原SIGTERM打断；2..19α/72..127方向/blocks9..15未访，109alpha三次normal后未过、1partial，不混拒绝。初60FD齐且无失败，末两description/60FD/Arb453/native未起。producer2400.01838/child75，原Jet.add栈非分项计时；单90KB必要/错误/quiet后23:55:57真清raw。真实末十词双路径同554B/1732ad59，root准备201只作新初猜，保原全部责任，无本地科学重算或已毁末父恢复。
 
-[201完整入口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)七件及六完整diff已核：真198末十词双路径554B/1732ad59，只作新初猜；旧121+17 pins逐值保→122+19，实际51→52。2911f896/原normal与continue正文同；全3×10、固定actual157 S/半径1、16×8/20/3×20、初末120FD/原160bit/depth14/453终门及2400钟保持。cb724a6e单90KB全部原试步地址/错误/未访，809cf513原quiet/条件清理保；不继承未返J或末FD。request9c30ac0d/workflow5b836f55，root唯一实际R430，尚无新run/接受。
+[201完整入口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)七件及六完整diff已核：真198末十词双路径554B/1732ad59，只作新初猜；旧121+17 pins逐值保→122+19，实际51→52。2911f896/原normal与continue正文同；全3×10、固定actual157 S/半径1、16×8/20/3×20、初末120FD/原160bit/depth14/453终门及2400钟保持。cb724a6e单90KB全部原试步地址/错误/未访，809cf513原quiet/条件清理保；不继承未返J或末FD。request9c30ac0d/workflow5b836f55，实际run43779219117/sourceaa2f1d05470df29f8e4546ccc990b99432a56a44，compute133012382468已入runtime安装；root唯一R430终态，无新科学接受。
 
 ## 3. 原连续C、准确公共坐标与新C完整BVP
 

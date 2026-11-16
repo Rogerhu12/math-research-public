@@ -157,4 +157,4 @@
 
 ## 2026-11-16 — Request201：实际198返回十词的原完整三残差续算
 
-[201完整入口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)七件及六完整diff已核：真198末十词双路径554B/1732ad59，只作新初猜；旧121+17 pins逐值保→122+19，实际51→52。2911f896/原normal与continue正文同；全3×10、固定actual157 S/半径1、16×8/20/3×20、初末120FD/原160bit/depth14/453终门及2400钟保持。cb724a6e单90KB全部原试步地址/错误/未访，809cf513原quiet/条件清理保；不继承未返J或末FD。request9c30ac0d/workflow5b836f55，root唯一实际R430，尚无新run/接受。
+[201完整入口](notes/2026-11-16-request201-actual198-returned-owner-full3-continuation-interface.md)七件及六完整diff已核：真198末十词双路径554B/1732ad59，只作新初猜；旧121+17 pins逐值保→122+19，实际51→52。2911f896/原normal与continue正文同；全3×10、固定actual157 S/半径1、16×8/20/3×20、初末120FD/原160bit/depth14/453终门及2400钟保持。cb724a6e单90KB全部原试步地址/错误/未访，809cf513原quiet/条件清理保；不继承未返J或末FD。request9c30ac0d/workflow5b836f55，实际run43779219117/sourceaa2f1d05470df29f8e4546ccc990b99432a56a44，compute133012382468已入runtime安装；root唯一R430终态，无新科学接受。
