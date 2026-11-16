@@ -2,51 +2,71 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-original-seven-trace-certified-and-K-basis-active",
-  "commit_message": "serre: certify original seven-pole trace and activate K-fixed basis",
-  "rules_last_read_commit": "2c161359510c6fb0716f25e151bcfe9343955a79",
+  "request_id": "20261116-strict-six-Galois-low-weight-RR-active",
+  "commit_message": "serre: activate strict original Galois two-RHS and complete low-weight kernels",
+  "rules_last_read_commit": "e6e7f122dd51cf7984532ebc9d4e2e3089b1826f",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "29f716fdf2ee3a85a47a2cbf2f3b33f3a0c968f66fc433c3ac243c4db1d68315",
+  "expected_previous_request_sha256": "4c05cdc7f09c410434493a2dfc5741cdc1820409996d71736af3373361d0e3af",
   "files": [
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-seven-trace.md",
-      "sha256": "d2462a4b67a3d60fb5e1ebb7797de3b6ac11d766a4dcb7bb5c8e788d6105d2e0",
+      "path": "topics/serre-uniformity/scripts/R902_original_six_Galois_low_weight_RR.py",
+      "sha256": "cfe2dd5bf3c9d3637cecda855522935492fbb168da5617c47bb7e560e98bf47a",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/results/R894-certified-original-seven-pole-trace-and-marked-descent.md",
-      "sha256": "f0dae573be8e0a15b1f3fe2eb5505c59996920de36bf994805e6451f2aee0fd2",
+      "path": "topics/serre-uniformity/scripts/R902_fixed_Galois_unit_charts.py",
+      "sha256": "47806ab8052e43d29aecb47d8b1135e4126c0829faf0f776cd57ee302b64ab69",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R899-K-fixed-seven-trace-public-request.json",
-      "sha256": "8e250d7a68e74b36dcd81dc365f70ef47b5219215e163fd578db30b8d36fe433",
+      "path": "topics/serre-uniformity/scripts/R902_public_original_six_Galois_low_weight_RR.py",
+      "sha256": "5e3f48e5d2267c5286cefeaf7c150b19d49ec7202a7270b51aee28e14f637096",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R902-original-fixed-Galois-two-RHS-low-weight-RR-method.md",
+      "sha256": "3e9d20238d1ce58771c0c5b8f0a07326f767b58162d01784e4d5398f305757de",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": ".github/workflows/serre-R902-six-Galois-low-weight-RR.yml",
+      "sha256": "5f93dcaaba9e2066bed5a9cbef8cafe593ccd4eae36b65ea946f384bfaa96803",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-six-Galois-kernels.md",
+      "sha256": "02d77f2366e288dd3698551895a3001fc0c450e54caf0f5f72b53a0fa97c75e1",
+      "expected_previous_sha256": null
+    },
+    {
+      "path": "topics/serre-uniformity/notes/R902-six-Galois-low-weight-RR-public-request.json",
+      "sha256": "2f2d91f2e271123b88bfd0908f5a2f11ea9dc68af534178acc27dfa5adf20340",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "9256276b57eb2d4c47bb8208871abef4b44770e240f270a2fb26e66a990564d6",
-      "expected_previous_sha256": "d2462a4b67a3d60fb5e1ebb7797de3b6ac11d766a4dcb7bb5c8e788d6105d2e0"
+      "sha256": "dba4b961127413c1fea18ed4ddba128f7d4d3382446e821466393771d8bbe389",
+      "expected_previous_sha256": "02d77f2366e288dd3698551895a3001fc0c450e54caf0f5f72b53a0fa97c75e1"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "cf6d0e58e52d7a1461a116d3e2154b79bfb4748324a5e96618c8ba963f8059e6",
-      "expected_previous_sha256": "5decbd8d7debdc6d5589ae761f1f5c962f6557b43fbea12a50cc9549cb1ed7e8"
+      "sha256": "8e0bed0f4df276037101ef4a755c41840c6869032feb41951dcb37bed6b2aec3",
+      "expected_previous_sha256": "cf6d0e58e52d7a1461a116d3e2154b79bfb4748324a5e96618c8ba963f8059e6"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "2613870126ff3059eeaed43120f65168f32a6c38425ac69422146046c73fcf4f",
-      "expected_previous_sha256": "209b308fb777c4324e43870383b53628d63d6fde633f73df617dccc4134c4bd5"
+      "sha256": "61bf81a9f0cfefeda3329621e973b06dd43f259242ac6b9513eb83abaec0dbb1",
+      "expected_previous_sha256": "e6a86fc92a9e88e0bbfb66a8d9c06dfc00f002a979d907bdfd5fcedd90c0be8f"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R899-K-fixed-seven-trace-RR.yml",
-      "request_path": "topics/serre-uniformity/notes/R899-K-fixed-seven-trace-public-request.json",
-      "request_sha256": "8e250d7a68e74b36dcd81dc365f70ef47b5219215e163fd578db30b8d36fe433"
+      "workflow": "serre-R902-six-Galois-low-weight-RR.yml",
+      "request_path": "topics/serre-uniformity/notes/R902-six-Galois-low-weight-RR-public-request.json",
+      "request_sha256": "2f2d91f2e271123b88bfd0908f5a2f11ea9dc68af534178acc27dfa5adf20340"
     }
   ]
 }
