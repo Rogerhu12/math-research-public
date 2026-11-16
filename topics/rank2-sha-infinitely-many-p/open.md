@@ -58,7 +58,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 原 P 固定 R874 的全 q 必要理想生成元 u=(915+1097θ+2962eps2)/55569、λ=(68+7a−13a²)/3、vnew=(−34−17a+11a²)/3、a³17。R875 的准次数376和整逆返回17不替 Hom 证书。
 
 - 旧 P run43835679463/job133191600105/source969b3f439e706e539595424e18ddb573197475fa 已在14:59 UTC取消。[R898](results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)由真实完整基与818×648满列秩严格排权4/权2比值；条件函数次数≥324。权6只53素数/1585bits/rank904，未认证也未排除；基298秒已成。
-- 旧 F run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa 于15:27取消；[R904](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)付k2矩阵1021×852在1000000007满列秩的完整权8/2比值排除、条件权6截面极除子≥120；k4仅84素数/2512bits/rank1116，无PASS。原8ΔC³=HB²(A²−17ΔB²)²和末端612(k+6)不变，不假 Manin1。
+- 旧 F run43839815472/job133205402538/source7920cb48d5b63b01a0d200c4a5ba584b128657aa 于15:27取消；[R904](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)付k2矩阵1021×852在1000000007满列秩的完整权8/2比值排除、条件权6截面极除子≥180/dF≥1080（附A由原k4全秩上界已证）；k4仅84素数/2512bits/rank1116，无PASS。原8ΔC³=HB²(A²−17ΔB²)²和末端612(k+6)不变，不假 Manin1。
 - [R889](results/R889-original-two-map-newton-germs-and-exact-normalization.md)同原 Newton germ 全残差/唯一性已证。run43883945027，P job133356889710、F job133356889202，尚无PASS。
 - [R892](results/R892-original-two-map-pari-rational-basis-and-unchanged-certification.md)同一 PARI 完整有理 M2 基/QQ/全前缀/seed及全认证已付。run43888054599，P job133371441947、F job133371442286，尚无PASS。
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常完成：三嵌入秩904/free863，全部1226行modℓ¹²⁸为零，三根恢复过，但3827bits仍不足有理重建，未到char0证书。同ℓ1000000033/N256/k6续轮run43901392214/job133418654415/source7ef59c0deec0b81f6776a17c48a075d1ec679452已运行，原全部条件保持；只有最终原证书通过才认map。

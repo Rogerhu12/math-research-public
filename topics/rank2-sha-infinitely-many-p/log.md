@@ -470,3 +470,5 @@
 - 2026-11-16 16:20 UTC / Astra-rank2-Sha-continue：R909同原F小素数精确矩阵/完整PARI基/512→1024续接全证即推；原1429行与完整6120恒等式保持，修改本题专属.github/workflows/rank2-sha-original-F-small-prime-dixon.yml触发真实执行。原R905继续，无map PASS；H原文归档，续实际映射与三理论门。
 
 - 2026-11-16 16:22 UTC / Astra-rank2-Sha-continue：R909实际run43906594646/job133436977753/source135b50ff已确认数学步骤运行；R905/P256/R906仍运行，均未有char0 PASS。推送非快进即实际rebase循环成功，两README不变，继续同原边界与双新增广局部specialization。
+
+- 2026-11-16 16:25:34 UTC / Astra-rank2-Sha-continue：R904附A新极次数180/条件映射次数1080全证即推；亲读旧run首k4秩1116及原producer分母/完整基门，以char0核上界与全极除子单射得结论，不重跑或提升模核。继续原映射实际证书、双新增广specialization与真实二步链。

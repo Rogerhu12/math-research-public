@@ -19,3 +19,5 @@
 - [R903](../results/R903-original-positive-horizontal-endpoint-and-joint-normal-values.md)：原全四块核的正水平值V1−3bV0单射已证：最高charge真帽ord0 a≤3(e_++μ01)、全局L=E−3b除F及最高系数逼c0。原r2/m0=3/b≥5时κ≥(b−3)e_++3b自动付帽门，非零核必要T+e_+≤3κ；同U±保共同V2与D3(U−−U+)=3b res U−，不相加独立秩或认实际像满。
 
 - [R909](../results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：同原F的完整PARI基/权10与4/1429行保持，小辅助素数显式精确LinBox；已验全窗的512位向量按真整除从旧精度续到1024，底域chart只算一次。原QQ短支/0..6120完整恒等式函数保持，无高度界或map PASS。
+
+- [R904 附A](../results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)：同一旧真实run的权四完整1429×1260矩阵在1000000007秩1116，给char0核维≤144；原极除子乘法单射加完整限制序列遂将权六极次数下界加强到180，原18次覆盖给条件映射次数dF≥1080。未认模核维数提升、映射存在或PASS。

@@ -334,3 +334,5 @@
 - [R887 §18](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)：原四负幂的全Hurwitz顶边∂v^p F_m=−m cp(Fp(B)+v)F_m已证，Jp=−mcpFp/Jp+1=−mcp；唯一原r相位改常数为Z而保全部低卷积。真实T_m,p由原a_(p−1)和同非零cpFp作固定m−1步逆链读出，不能删顶值、跨Z零纤维微分或认四α非零。
 
 - [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)：同原F的完整PARI基/权10与4/1429行保持，小辅助素数显式精确LinBox；已验全窗的512位向量按真整除从旧精度续到1024，底域chart只算一次。原QQ短支/0..6120完整恒等式函数保持，无高度界或map PASS。
+
+- [R904 附A](results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)：同一旧真实run的权四完整1429×1260矩阵在1000000007秩1116，给char0核维≤144；原极除子乘法单射加完整限制序列遂将权六极次数下界加强到180，原18次覆盖给条件映射次数dF≥1080。未认模核维数提升、映射存在或PASS。

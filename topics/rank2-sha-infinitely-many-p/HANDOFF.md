@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：f5a49b989835d5d1b95c05678761ae8a966504b8；2026-11-16 16:22:57 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
+- 最近已读规则提交：4d1d8b3faa8daf1f3095c8e8aee2a33f75788a21；2026-11-16 16:25:52 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -20,7 +20,7 @@ root唯一metadata/ref写者；deep已付R899实现，续原WT同修正高前缀
 
 原P/F char0无PASS，原u/λ/vnew/整数返回17、完整方程/末端不变；全部源码提交沿上方完整H（各run也保source）：
 - P run43835679463/job133191600105已于14:59取消；[R898](results/R898-original-hecke-map-weight-four-exclusion-and-degree-lower-bound.md)付k4满列秩排除/条件函数次数≥324。k6只53素数/1585位/rank904，无PASS；基298秒已成。
-- F run43839815472/job133205402538于15:27取消；R904付k2矩阵1021×852满列秩/权8/2比值排除，条件权6极除子≥120。k4仅84素数/2512bits/rank1116，无PASS；原全证书保。
+- F run43839815472/job133205402538于15:27取消；R904付k2矩阵1021×852满列秩/权8/2比值排除，条件权6极除子≥180/dF≥1080（附A用k4原秩）。k4仅84素数/2512bits/rank1116，无PASS；原全证书保。
 - R889同原Newton已证，run43883945027的P/F仍运行；R892同完整PARI基已证，run43888054599的P/F仍运行。各job/source见最新完整H，无PASS。
 
 - [R899](results/R899-original-P-single-prime-dixon-and-complete-certification.md)首run43895102858/job133396398465正常结束：三嵌入rank904/free863及全部1226行modℓ¹²⁸均过，3827bits不足有理恢复，无map PASS；同ℓ1000000033/N256/k6续轮run43901392214/job133418654415运行，source7ef59c0d。
