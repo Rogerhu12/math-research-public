@@ -470,3 +470,9 @@
 - 原tame帧/CM torus/平均尺度与pi完整低层保留；未将cusp的单位当Drinfeld normal或q拉回单位。root已全读纸证及R434/R592原Weyl/λ和primary作者PDF，sigma继续R867真实de Rham专化。
 - R860正式结果及R864激活已推3e31c973；一次非快进后立即pull/rebase再推成功。R866纸证root发现旧e_i已含82²的重复尺度，已要求改正后发表；R862四旧stage全成，仅修final命名并保字节续源。
 - 本push规则：本地真实pull至04bc6f9df5decea57f39c3afdbd89b6ae3513b97（2026-11-16T05:53:42.844796+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:57 Asia/Taipei — serre-public-astra-20261115
+- R864首run43813041008真正完成，1.090806223s/40stage，rank19/kernel127；原0..18非零minor、自由行19..145 identity、两图全20×127及V1/normal回代均成，正式结果28f73540。
+- artifact14201401009/d83abe95整ZIP2332941B和57产物已纯IO核，final54583705/basis7f2ee6a0/kernelb36915cb，必要16源carrier80122621；原569成员由runner完整核后选取，不重旧cusp/W/Fourier。
+- R863已推f3ab66c2。R866已修原e_i含82²重复尺度，正确H=F展开、微分82H，c0仍固定ξ并共轭s；真R864来源已交exact接活跃消费者。H逐字归档后压缩重复旧接口，保全部原规范与R862四阶段completion-only续源。
+- 本push规则：本地真实pull至742fbf0e9a9a5e0a1b9b9cee861ee8f564e8af34（2026-11-16T05:57:20.931101+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
