@@ -21,7 +21,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 已证闭域/共同正则器只按原范围使用：全H稠密不传未知限制/有限旗，G不扩一般慢Acal，UHF不运输未知Haar格。正常态/边界奇异态、固定次数/全部向量不同；C未必保M，全等向不代局部等向，不能删域或压缩中央耦合。所有结果仍为中间结论。
 
-本轮完整前态另保[target25前全文](notes/2026-11-16-open-before-complete-target25-789f.md)。所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
+本轮完整前态另保[root63前全文](notes/2026-11-16-open-before-root63-bockstein-789f.md)。所有旧缺口与完整链接保[本次压缩前全文](notes/2026-11-14-open-before-interior-full-phase-789f.md)及其中各轮归档；未列条目不算关闭。
 
 **原式来源与31饱和。** 已付原h0模31²分母指数恰1、完整原17模31³费用87及e0任意次数mod961负证；详细来源/旧计数保[完整前态](notes/2026-11-15-open-before-external120-and-relative-normal-789f.md)。最新同原全局因子、系数tors与p6范围见末节；有限模身份不代char0。
 
@@ -139,9 +139,9 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 - **放大方差下的同actual来源。** [完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许任意s_m≥S_m→0、任意强前缀R_m及任意1≤J_m<h_m，完整强头H_(C,J)(s_m)^−1强趋原P_M。阻尼物理列在Q≥R+J保持同一V_Q/K_Q/u，远孔指数矩≤q、正能量ε=q−||a||²→0且||f−a||²≤(S_x/s)ε，故f→P_Mg。完整塔残量保正占据因子[1−r+W/s]Cf；截断top未丢。强头a仍含全部R_m孔，未付真实K_Q或全局N的逼近，不能由小Cf免费乘D†。可优先在旧合法carry窗检验小J的正则化方程与同一中间Schur。
 
-- **F127精确系数载体仍待饱和。** [Ω127/J0证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)给C127/127恰为全部299维torsion，degΔ+Σt127=299。完整barΩ=Ψ60²，余包络barμ|F+²F−²E8(s+64)度21；s+64不是自由商缺陷，只可能来自127系数tors或有理因子约化，尚未判定。九目标field25已完整计算并由h*杀死；normal正计算全参数syzygy的第一系数127 Bockstein，不能用点核代替。critical更大原jet仍待付，mod127零不直接升Q成员。
+- **原127系数载体。** [Ω127/J0](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)给C127/127全299和degΔ+Σt127=299；s+64不是J。[2026-11-16-r150-original127-root63-source-bockstein-interface-789f.md](notes/2026-11-16-r150-original127-root63-source-bockstein-interface-789f.md)已排180秒/1GiB，仅用全参数1834个Z来源，正值须反传6188并新核4367原p²产品。正才付至少1个指数1方向/上界298；零只限第一系数页。
 
-- **九原目标在F127中的完整25维模块已成。** [原全部乘回证明](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)给joint维25/χ=s²mon(h*)，每个目标cyclic23且最小式同mon(h*)，h*和h0九列实际全零/完整像0；s+64和Ω不在target模块内。原6188来源的field成员存在已付，但九来源尚未新展开，Q或p127²成员未付。25个原target/power标签可指导原relative T的Q选元，不能把有限域图当成有理图。
+- **[九原目标field25](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)：** joint25/χ=s²mon(h*)，九cyclic均23、h*/h0像全零；Q或p127²来源未付，25图只作原relative T选元参考。
 
 - **同源完整一次MP现在已有移动头预算。** [完整平方相消/含top证明](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)取τ=(log(x+1)/x)^(1/3)、s=(1+τ)S_x、J=ceil8log(x+1)/τ，严格||D†(C+D)f||²≤O((1+||C||²)τ²)ε≤同常数Δ_g²，无头χ/无未知速率放大。R=0/x=m时J≪d_m、同原合法Q≥J且f→P_Mg；任何其它扩块/内cut仍保原R=d等门。z=f−D†(C+D)f仅给(C+D)z=−C D†(C+D)f，第二次源含D†ω_j、非旧coherent列。须继续支付它的完整MP/中间Schur及真实同w返回，不把一次小修复当真核距离。
 

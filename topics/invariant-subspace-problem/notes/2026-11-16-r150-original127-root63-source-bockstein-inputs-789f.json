@@ -1,0 +1,139 @@
+{
+  "format": "r150-original127-root63-global-source-bockstein-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator",
+  "aiAssisted": "GPT-6 Astra Pro",
+  "prime": 127,
+  "point": 63,
+  "coefficientModulus": 16129,
+  "parentRun": "43772109844",
+  "originalSources": 6188,
+  "originalOutputRows": 4367,
+  "originalPolynomialZeroSources": 1834,
+  "sourceFiles": [
+    {
+      "path": "notes/2026-11-16-r150-original127-root63-source-bockstein-native-789f.cpp",
+      "gitBlob": "2220492326f5bea20bc03706b9f22c4d6784b6bd",
+      "sha256": "6a932e17fbeb7c81f335281c88bd1dfe0003a09371d454ea23f1861c86823bfc",
+      "bytes": 24871
+    },
+    {
+      "path": "notes/2026-11-16-r150-original127-root63-source-bockstein-789f.py",
+      "gitBlob": "935d6458b34bfc948821fb195ca94e7e13e0cf7c",
+      "sha256": "3ee3b83dbac5fa3f96aea04cfc01a7c86cf2423fd027f050bc46f3a97406253f",
+      "bytes": 27228
+    }
+  ],
+  "actualInputs": [
+    {
+      "path": "{work}/original127-model-all6188/original127-normal-form-input.txt",
+      "bytes": 140346,
+      "sha256": "f29e09f075efc20cf9dbc0b78ddffc58c35d46fe26212515397938ba78e853a3"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/original127-normal-form-pipeline-receipt.json",
+      "bytes": 4468,
+      "sha256": "e77db837596bfbd988a4dc58dbb631b7ea46cdbeca331be241b82b3ba9b48cfe"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-prebasis.bin",
+      "bytes": 34229300,
+      "sha256": "c08fb8308bd96fb926e7ae3176e627766b7c6930a2af92afafff318be812f926"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-forward.bin",
+      "bytes": 2434477,
+      "sha256": "0fe0d5dfde6606ca61907ed043426cd748f6fc11d84df8b3409280d69566f0e0"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-backward.bin",
+      "bytes": 3145942,
+      "sha256": "6186dab0ec8618ee8eee9d10d92a1c72fe6fb313d49fe64405ed35ab4fbf40cc"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-component-dictionary.bin",
+      "bytes": 8348,
+      "sha256": "bfafcf821687bf6b3a0c2517606314ec5e4c30a4dfec1140e7f041c5ba01f312"
+    },
+    {
+      "path": "{work}/original127-normal-forms-all6188/nf-reduction.bin",
+      "bytes": 118454308,
+      "sha256": "5ac3317c3c5af868dff913448fa4d41dca04756fdf942f67908c4d873505d6f1"
+    },
+    {
+      "path": "{work}/original127-complete-graded-module/original127-graded-module-pipeline-receipt.json",
+      "bytes": 5289,
+      "sha256": "3442ad58f08ff1b7b7b4865bfc7715f43e747f40b65e702e1d4b191142ad17f2"
+    },
+    {
+      "path": "{work}/original127-complete-graded-module/gb-basis.bin",
+      "bytes": 43787388,
+      "sha256": "144871db774835d8b5c369f243cebb441258bc4419d577ed0a0ba3062e21129d"
+    },
+    {
+      "path": "{work}/original127-complete-graded-module/gb-operations.bin",
+      "bytes": 763659470,
+      "sha256": "7c60b9c0466e8cf13bd1b95018beb9b5357cd7d3e2e41e8e6d3655bb05051ba8"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/original127-whole-torsion-pipeline-receipt.json",
+      "bytes": 9819,
+      "sha256": "2c1054b2c3224c7c27c4ff09e1852bbab3a219429f8d08528832d81041de8c07"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/torsion-whole-state.bin",
+      "bytes": 1414575,
+      "sha256": "948d6e78dc96e8d9e367797d33919ce4c1e1deb406dee346505200da00ea4d60"
+    },
+    {
+      "path": "{work}/original127-whole-torsion/whole-torsion-characteristic.json",
+      "bytes": 2560,
+      "sha256": "ee048002bcda7090ed599709d88ad2d74ecd46448e647bfb3513fa3ad9b64bd6"
+    }
+  ],
+  "originalPrimitive": {
+    "path": "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "decodedBytes": 158741,
+    "decodedSHA256": "fa2e5d80e9fbd47e1e237ae60c548900a15922a0543e02be77fc972dc52944b3"
+  },
+  "bindings": {
+    "normalForms": "36cdc5a084df381a91838d58a8a9f8adbc255bae39e267f2956fb1170ec0a994",
+    "gradedBasis": "9e8510d9519e43fe4f8765a6672194c9dba6d1776a9adf652ac343c5261ebc3e",
+    "wholeTorsion": "05c13d9a57fee12f0751d40feccbfb601686b3d02f497d0e8a99092c44db4211"
+  },
+  "argv": [
+    "--model-out",
+    "{work}/original127-model-all6188",
+    "--normal-forms-out",
+    "{work}/original127-normal-forms-all6188",
+    "--gb-out",
+    "{work}/original127-complete-graded-module",
+    "--whole-out",
+    "{work}/original127-whole-torsion",
+    "--primitive",
+    "{work}/original127-inputs/original-primitive-integer-equations.json.gz",
+    "--sources-root",
+    "{scripts}",
+    "--out",
+    "{work}/original127-root63-source-bockstein",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "1024",
+    "--compile-seconds",
+    "30"
+  ],
+  "completedDependencies": [
+    "original127-complete-normal-forms-all6188-180",
+    "original127-complete-graded-module-gb900",
+    "original127-complete-whole-torsion60"
+  ],
+  "outerSeconds": 240,
+  "newNFComputed": false,
+  "newGBComputed": false,
+  "newWholeTorsionComputed": false,
+  "newParameterGaussianOriginal4354": false,
+  "positiveGate": "global polynomial Z-source plus new original4367 integer products modulo16129 and nonzero divided functional",
+  "zeroScope": "first coefficient127 Bockstein at the simple s+64 primary only",
+  "allLargeDataTemporaryOnly": true,
+  "localCompilationOrMathematicsRun": false
+}
