@@ -176,3 +176,6 @@
 
 
 - [R872原函数的真实值像与三倍水平消失](notes/2026-11-16-r872-primitive-value-image-and-cubic-horizontal-vanishing.md)：J3∩V1=V4给原值像单射；LW=F³A的全局商整性与实际40+xDx/D+40−xDx框，使完整I³=(x,f0)³由同有限逐列单位逆保持。限制到C得到两strict水平三倍Cartier消失，保固定角/奇点/闭点；(J3∩K1)/V4仅嵌入BD−TP−3D−−3D+截面空间，非零须T+3z−+3e+≤BD·C。没有环境满像或整个non-F²消失声称，同R/S其余行仍开。
+
+
+- [R883附录G](results/R883-original-relative-six-shadow-and-complete-boundary.md)：E(F_r²)=E[6ell]使底域约化Tate限制完美；以实际gT平移比定义方向并证t_d(T,P)=t_1(T,Tr_dP)，所有d含ell倍数均保。每条原完整除子的[6]迹可由同基两配对的完整(r^(2d)−1)/ell指数与固定2×2矩阵恢复；另一基U/2U覆盖全部Miller支持和P=−R边界，使用原常数嵌入。不以扩域限制非退化或d模ell替代全迹，尚未切换实际consumer。

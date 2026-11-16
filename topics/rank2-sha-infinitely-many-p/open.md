@@ -67,6 +67,8 @@ R880附A–C：原三Artin共轭/独立双轴/三χ与同CM符号eω全保。整
 
 R883原相对6闭点算法全证：q_*D=div(yA−yB)+两pole、degree2256(r+1)；r29为67680。分歧像δ三挠被6杀；非分歧共同O/三挠m的三像和消，余k=e−3m在唯一剩余度1 lift，完整高重/∞/闭点迹保。输出red(a0 f0/c0,yF)，f0=((v_s+4)/v_s)RF/θ17²。全迹6TrP=[(1−(−r)^d)/ell]P，d不可先模ell。Y属559/108cusps，X/Y仅54几何cusps全分歧，X属1729/216cusps。原W交换端点/F变负、φ†=−φ及轴δ挠给p_ab=p_ba，六完整除子覆盖九pair。附D所选常数反射c∞ε使F负、A1↔ω²A2；完成全闭点迹后p02=−ωφp01、p22=−ω²φp11，故只算00/01/11/12四除子，角色不变。附E三原pair同时零或同时非零，准确由两真点A=p00−ω²p12、C=p11+ωφp01是否全0判定；ζ的degree3及两CM线均付。附F由同一整循环shadow改用Abq2输出(Aaq0−φF)；从真实pole(yF)读dF，dF<2256时完整次数为2256+r*dF，否则沿旧2256(r+1)。不假1296/Manin1，全边界/闭点/四除子和两点判据保。
 
+附G以同底域两Tate读数准确恢复完整[6]迹，含ell|d；固定底配对完美、原常数嵌入/两辅助点和全指数已付，尚未切换实现。
+
 original_shadow_relative_six_tools.py现按附D/E/F仅算四完整除子并按真dF选循环表示；原288次正规化/真端点/全迹、实际CM和Frob矩阵、两真点判据及18×9/九项完整读数同核，未执行。host只读双PASS核验、共享schema及stdin无网入口已提交；核实际job/run/head、同原source、whole末端和完整hash。数学容器不接token且network none；原请求触发workflow/host launcher已就绪，完整依赖及双进程状态保。尚无consumer请求、未执行；严禁假PASS启动重建。root跟进两map/RR任务，literature继续原shadow/AJ桥。
 
 ## 第二实际门：四原B与同一低配对
