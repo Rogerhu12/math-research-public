@@ -4,7 +4,7 @@
 
 ## 规则与位置
 
-规则同步记录：2026-11-16 00:48:37 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 ece1fcde76a7813769d23495f0b7a63ff5a78285。
+规则同步记录：2026-11-16 00:55:26 UTC root真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 414c3a34587250a26ccc482cb86769b0ce0cf970。
 
 只在公开Rogerhu12/math-research-public及其Actions；私库不再用。全部科学算术/导入/编译/测试仅Actions；本地限源码、纸证、原字面/字节/元数据。root唯一Git/ref发布；代理交文本/blob，PAT只瞬时CLI，不入文件/提交/connector/回复。
 
@@ -50,7 +50,7 @@ R409/R413保全径向/两mean/FFT/Hermite/B/R249/原cuff/marker/同准确target�
 
 ## 未推文本与下一项
 
-R435（geometry）从原R422完整pair宇宙增加精确三角/矩形块，仅实际原距离≥2τ可整块退役，未决分裂至原四门/两RP1/R282叶；须完整root阅读后逐结论推。R436（exact）明确真实R431新checkpoint→新R409/atlas/shared/live metric/reach/held分支；不重标父场、不改动态已支持的数学消费者。R437（amplitude）追实际W/cap_height/marker/witness来源，准备203完整闭面配方，尚未派发。临时文本分别在current-C-postsolve等工作目录；丢失则从已刊原源与完整接口重做，未推文本不是实际计算结果。
+[R435](results/R435-complete-root-pair-blocks-and-closed-separation-cover.md)/[完整接口](notes/2026-11-16-current-C-complete-block-reach-interface.md)/e3fcd9eb保冻结R422完整AA/CC/AC/self/反射/两帽；三角三分/矩形二分是准确不交索引划分，rank极值不冒连续段。真实完整根包围联合球仅以原distance≥2τ退整块，AA共同转/CC固定/AC全圆；未决直到单rank真继承原run/evaluate/phase_test/四门/两RP1/R282。原曲率/全D/Kτ及三个显式工作资源保持，全部block/当前原叶栈/union frames保；历史未付叶仅原ledger地址/身份，不冒逐行回传。单90KB超限70/raw不删，无actual450/常数/run/reach或速度承诺，R438接实际编排。R436（exact）三源43565f7c/a565bc88/ad492e57及4a16a93d完整接口已读，待逐条推；新mesh重新构造五阶段/held，不改原动态数学读者，全闭同g还须冻结W/H/全marker等。R437（amplitude）追实际W/cap_height/marker/witness来源，准备203完整闭面配方；R438（geometry）将R435明确接原/新mesh编排与必要读回，均未派发。临时文本分别在current-C-postsolve等工作目录；丢失则从已刊原源与完整接口重做，未推文本不是实际计算结果。
 
 继续读取各唯一负责人真正终态并逐条推；201终态root读后立即处理202原方法后继。完整接受父未出现前不捏造450；出现后真实运行闭面全链及冻结g/p/尾帽/t的网格/M/tailsteps/角精化，直到README全部标准，不停在接口发布。
 

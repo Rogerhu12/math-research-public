@@ -101,13 +101,14 @@ R418/28b7245a同R416/R400/R417及C原四件的全112/mean/反射/材料/原四Lo
 [R429](results/R429-same-job-ten450-postsolve-geometric-responsibility-composition.md)原193两阶段accepted450/十词/43f217/同C及原钟、五原阶段与独立reach保；[R426](results/R426-same-job-continuous-C-live-query-refinement-and-complete-metric-interface.md)07fc4e41/77be1d98保原f12f六primitive/1440片/深根族/闭逆像，现场新界∩原粗界、原四Loewner、准确径向缓存/总钟/事务异常撤销与精度恢复。完整参数、原当前/未访、90KB/quiet及清理条件逐字保R434前检查点与各结果；累计半径/深族/前缀宽仍在，无实际450或metric。
 
 
-[R434](results/R434-same-job-live-C-query-postsolve-complete-geometry-interface.md)/88996287+ebed189d把R426接原五阶段的metric角色，原11pins逐值保→13；同193原两阶段/十词/43f217/C四件及两payload/原deadline先核原件，原owner/静止/各阶段剩余钟不改。11项c-query参数须显式给定，现场provider真实状态/查询次数/事务/当前格与未访按原返回，未启动不冒零查询通过；metric未过仍独立尝试reach。单90KB超限70、raw不删，未来清理须原与新必要读回及全quiet。尚无实际request/配方/450/查询或全几何接受；R433接held，R431新mesh另需明确来源分支。
+[R434](results/R434-same-job-live-C-query-postsolve-complete-geometry-interface.md)/88996287+ebed189d将R426现场原f12f完整查询接原五阶段，13pins/11显式查询资源/同C/原钟/事务与独立reach保；[R433](results/R433-same-job-whole-image-held-and-rigidity-composition.md)/dfd9eedd只接明确R429/R434来源，三前件真实完成后用原R425，metric/reach不当held前门。全部原输入/失败/当前/未访/90KB/quiet/清理边界逐字保R431前检查点与各结果；无实际新450/配方/查询/比例/δE。
 
 
-[R433](results/R433-same-job-whole-image-held-and-rigidity-composition.md)/dfd9eedd仅接受R429/84d0450f或R434/88996287的明确source/schema/input三元分支；重读同193真450/全十词/C/原钟及径向、atlas、shared实际输出。三前件真实完成才调用原R425/c87b3a9b，metric/reach状态保留但不当held前门；全部W/H/marker/witness及八资源参数仍须显式给定，原剩余钟/OwnedChild/quiet不变。原R425全部必要结论、失败/当前/未访及绑定原件保单90KB，超限70/raw不删；不伪加原R425 run/source字段，wrapper用实际子程与文件receipt绑定。无实际参数/450/request/比例或δE接受，新mesh来源仍待R436。
+
+[R431](results/R431-same-clock-frozen450-mesh-owned-execution-and-necessary-readback.md)/[完整接口](notes/2026-11-16-current-C-frozen450-mesh-owned-launch-and-necessary-readback-interface.md)/4375375b+3949b61a保真193或同源已接受mesh/43f217/全十词/原输入receipt；R427完整新RHS/H/J/FD/fullDN/final/audit、原18900+2700钟与quiet/90KB保。父mesh仅初猜，容量/无新点仍资源75；必要正文与原长文本缩写范围逐字保结果，raw不删，无actualparent/配置/run或收敛。
 
 
-[R431](results/R431-same-clock-frozen450-mesh-owned-execution-and-necessary-readback.md)/[完整接口](notes/2026-11-16-current-C-frozen450-mesh-owned-launch-and-necessary-readback-interface.md)/4375375b+3949b61a接原R427/70a5709d：仅消费真193两阶段或同一冻结R431已接受mesh，原43f217完整450/十词/准确target、accepted96/native config实际receipt和原source-root保持；父mesh/精确中点/knots只作初猜，RHS/H/338×112J/FD/8×17/fullDN/final/audit全新。原18900+2700总钟不重置，容量/无新点仍原75资源partial；原owner身份/同关闭窗口/静止后读，保全部FD选中层、原native调用及失败/当前/未访。通用长文本/日志/大列表仅原选段及身份，单90KB超限70/raw不删；无实际parent/maxnodes/资源/recipe/run，不称网格收敛。新mesh几何须R436真实分支后重做全部场消费者。
+[R435](results/R435-complete-root-pair-blocks-and-closed-separation-cover.md)/[完整接口](notes/2026-11-16-current-C-complete-block-reach-interface.md)/e3fcd9eb保冻结R422完整AA/CC/AC/self/反射/两帽；三角三分/矩形二分是准确不交索引划分，rank极值不冒连续段。真实完整根包围联合球仅以原distance≥2τ退整块，AA共同转/CC固定/AC全圆；未决直到单rank真继承原run/evaluate/phase_test/四门/两RP1/R282。原曲率/全D/Kτ及三个显式工作资源保持，全部block/当前原叶栈/union frames保；历史未付叶仅原ledger地址/身份，不冒逐行回传。单90KB超限70/raw不删，无actual450/常数/run/reach或速度承诺，R438接实际编排。
 
 ## 4. 同一g闭合与真正九冻结450
 
