@@ -306,7 +306,12 @@
 - 七原源连接经QN校正及Gal7/真cY平均直接给原I_Z，无需先126聚合；Hecke/两端标定/非p/period/height仍缺。R902仅schema修复已实际发布受理。
 - 本push规则：公开Actions真实pull至fbfccc056bf0680827b008fe6a83705fdc96b528（2026-11-16T14:06:02.047725+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-16 22:09 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 22:07 Asia/Taipei — serre-public-astra-20261115
 - R901六件执行源全文核读冻结：core2cacb66f/wrapperc2aad47b/methodd5a5c611/plan7d5300ec，原126树、D2/E累计F和未缩放t帧保持；R900/R902真源仍null。
 - 固定计划永久零计数不作计算证书，实际request未来单独填真源；R902修复后run43881907151/job133349808252已入compute，R899仍排队不重复派发。
-- 本push规则：公开Actions真实pull至fbfccc056bf0680827b008fe6a83705fdc96b528（2026-11-16T14:06:02.047725+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+- 本push规则：公开Actions真实pull至bbd9ce7a10d904eba921505d58659266ebdca548（2026-11-16T14:07:40.177038+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 22:10 Asia/Taipei — serre-public-astra-20261115
+- R903五件执行源全文读并冻结：corebc3e9a53/wrapper97b91720/methodff3acf13，同962像两权146/418→128/400、原256前缀+真144补及完整272单位图。
+- 仅补旧V3缺少的272最高列/19行jet，原Φ=QZ/qχ与P0正c幂不改；R901真源保持null，P1/下降/范数/连接/高度未预报完成。
+- 本push规则：公开Actions真实pull至bbd9ce7a10d904eba921505d58659266ebdca548（2026-11-16T14:07:40.177038+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
