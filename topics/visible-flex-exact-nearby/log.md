@@ -86,3 +86,11 @@ T Jh T^-1=−E、RI=−IR给Ry=Ey/z=−Ez。完整S/Z parity使原有序TJ及同
 对完整strong A=Id+Mc I+E1，IC16两rank与density共轭保，双signed n测试差满足4nΔn→−2i〈c〉。因此非零mean下A不保SD+Hnat，Ti/To原selected signs直接适用、isolated realCayley亦可；不否原fullcircle逆、不推广到任意旋转/sign的fullreturn。对实际completeA必须先有完整E1，未付项不能放入假设。AX仅抽象像不证明其等于实际physicaltarget；opposite parity/sign仍无限。
 
 此note闭合真实pair与waist row定义；下一步按同given-head共同Cs因子和完整row组装误差，保SW真state/source费用与独立radialhead/两mean/第二input/全部finitecross。不得靠扩大天文cutoff冒充完整边界逆。每结论独推，继续WE精分与唯一新paired-row target。
+
+## 2026-11-16 03:19:54 UTC — R46 complete-strict 单项白名单先发布
+
+两README在6822756b87d3073dcea06b2481734b7def3cb266核仍原blob。白名单d06fd6877f25fad555bf74ca17b1f75ded545ff8 /15335B /3b1a0c23641ad5ae32402faf271a8de474c6e2a509f8ab80b119a2cdee5025ea。唯一候选notes/2026-11-13-R46-complete-actual-strict-operator.json，blob0aea0f3c9cc1e220d4abeab4185cc46f0af3f71a /371382B /原SHA770fbb61134db79eb3ecb48710b5d65f72e1ff79b2eb3fc1015609a5da040b42；restore57b2899f61cb23b73bc7b8532f3ee2ae78d28206同path。
+
+Root全读白名单，独立取九小primary全文核bytes/SHA；原strict/scaled两proof均明列大report原SHA，原strict producer确仅derived预算，checker核complete/proved/source/dependency/inputs四层；原windowed proof/source链接surviving two-base c939a3d3的2行true。Root再独立walk immutable restore四级Git tree核同blob/size，notes metadata585540B/d1ee0949ba62e89ff5a8e82c87b61bf2179b80918f636728d143333a8e38183b，无候选大正文。精确actual model/source身份及固定R37旧域不外推；全native/canonical/d5jet/direction/source/proof/失败与新NIF等当前pin均排除。九active manifest exact0仅有限范围，不冒repo-wide无依赖。
+
+先推此完整白名单，再fresh当前path/blob/size guard，仅该单path普通删除；此提交未删除/未调workflow，0数学、0大body、0旧target重算。另记录WPR发布1f1a4665遇一次非FF：立即按要求调用真CLI git pull --rebase origin main，工具仍报无可用executor；随后fresh读新main/两README，保远端重建，第二次非force推成功。连接器重建不冒充实际CLI pull；原03:37:33定时重试不变。
