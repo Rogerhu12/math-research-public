@@ -23,3 +23,5 @@
 - [R904 附A](../results/R904-original-first-factor-weight-two-exclusion-and-polar-bound.md)：同一旧真实run的权四完整1429×1260矩阵在1000000007秩1116，给char0核维≤144；原极除子乘法单射加完整限制序列遂将权六极次数下界加强到180，原18次覆盖给条件映射次数dF≥1080。未认模核维数提升、映射存在或PASS。
 
 - [R907](../results/R907-original-two-step-successor-and-six-dimensional-fiber-feedback.md)：原全四块核内V0(H)=V1(G)唯一迫H=TG=EG−a(G)F³，a由原第四短行固定；两条完整native尾仍须共同通过。r2/m3所有纯charge真帽给稳定部分零纤维单射，明确六维Tf/Qf并以3b+7步原四块测试精确读K∞；未认全K稳定或指定forcing已解。
+
+- [R908](../results/R908-original-inert-augmentation-specialization-and-point-shadow.md)：同原双新增广类在新惰性q₁的整cochain计算给loc_all N12=u₁(σ₂−1)a12，u₁=(q₁+1)/h₁为单位；全部素点/CM frame/finite-wild Euler与原D点尺度保持。a12非零及精确p阶等价完整局部向量，给原全局标量整除反门；尚无实际非零、首层或ordinary loc结论。

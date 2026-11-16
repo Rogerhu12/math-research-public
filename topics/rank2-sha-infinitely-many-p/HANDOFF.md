@@ -3,15 +3,15 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：54bd2a004df70d5bceec4eca85ada4d448ebc9f1；2026-11-16 16:27:34 UTC实际终端git pull --rebase成功，两README差异空/blob不变。部分稀疏副本及终端认证已恢复；最迟2026-11-16 16:50 UTC再实际pull。
+- 最近已读规则提交：7abfe64d6adbe136ae3bc8582f88469e2122a6e2；2026-11-16 16:32:27 UTC通过API核两README blob无变。末次实际终端pull 2026-11-16 16:30:01 UTC/84a31a9bdcaa14f6fca2007966d0d7a9aa0486fb；环境于16:31断开，最近实际pull重试2026-11-16 16:31:58 UTC无可用环境。最迟2026-11-16 16:50 UTC再实际pull；当前只用小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 库存33,806,663B/2504文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。/workspace满；/tmp部分稀疏副本及终端认证已恢复，数学仍仅CI。
+- 库存33,806,663B/2504文件，无超限，3旧真实输入块；[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块。/workspace满；16:31执行环境断开，actual pull重试无环境；依根8只以小文本API非强推。数学仍仅公开CI。
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-two-step-feedback.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893、895–907及909已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-two-step-feedback.md)及其中旧档保全部精确条件、来源与未闭门。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–909已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低配对及原p²边界，literature续双新增广specialization/原s门。完整结论即推，子题完接open。
 
 ## 当前第一门：原映射、真RR与完整shadow
@@ -27,7 +27,7 @@ root唯一metadata/ref写者；deep续原WT真实联合像，theta续四原低�
 
 - [R906](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)同原P另请求小素数精确矩阵与512→1024续接；CI选合格素数，原全行/char0证书保持，run43903661921/job133426625444运行，source92c23e42；无PASS。旧P256继续。
 
-- [R905](results/R905-original-F-single-prime-dixon-and-complete-certification.md)同F原Sage基/权4固定素数Dixon已证并请求：ℓ1000000007/N256，原1429行/QQ短支/6120证书保；首run43898903977启动路径失误已修；新run43899744213/job133412821010数学步骤运行，无PASS。
+- R905 run43899744213/job133412821010已结束exit137：N256/7654bits全部1429行过，QQ恢复1260坐标/短支过；高Sage基扩到6123时终止，无最终证书。R909同原PARI任务继续。
 
 - [R909](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)同原F另请求PARI/小素数精确LinBox与512→1024真续接；1429行及完整6120证书保持，run43906594646/job133436977753运行，source135b50ff；无PASS。
 
@@ -49,11 +49,13 @@ R893在c1非零前提给同Heegner本原D=UZ°，U unit；同H unit有ccan=H Dfu
 
 [R901](results/R901-original-inert-endpoint-test-matrix-and-local-period.md)：真ℓ²端点只02/20反号；Iℓ=(ℓ+1)/ℓ³、volK1归一(ℓ+1)⁻²、YZZ Haar=(ℓ−1)/(ℓ²(ℓ+1))。附A/B付原Kirillov/邻点全格与CM类型、ℒ(endpoint)=1、双norm核饱和；N12唯一除(σ1−1)(σ2−1)，scalar p格阶不增。old/new余核O/(h)、邻点dual余核及共同目标inverse degree保。原AJ非零/s0/双新scalar整除仍开。
 
+[R908](results/R908-original-inert-augmentation-specialization-and-point-shadow.md)同原Naug给loc_all N12=u1(σ2−1)a12，u1单位；全部素点/CM frame/Ep,n/D保，精确p阶给原标量整除反门。新层真点代表/实际非零、首层/ordinary及s0仍开，最高奇数消失不杀mixed。
+
 ## 第二门：四原中央与同一低配对
 
 四原S34/T72/U136/V66及全部CM13/Euler/Schwartz/p²p³/通常全Selmer不变。E−11 rank≥2已付，仍须同一无穷p原J′非零。共同C24真三行/原c*不删。
 R863/H22、R876/879及R884A–I全部trace/new/cross/质量与高位缺陷保完整H。Ĉp=(p+1)cint、DR3/Γ16/Fermat项不删；U三纤维run43870426107成功不赋中央零。
-[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)保全部CM/torsion cocycle、绝对sigma/初值、有限p基/adj及单因子完整A-root trace/exact。§16固定m/Miller读数与法向p曲率保；§17同P6·P_(m−6)真保原α/五块窗，双因子消全Z额外极，二挠极<2p³加偶性得完整C³η[2]=−α^(1/p³)rω。首次C准确读同Q6 Qb Rν的γ1^(1/p)，两个旧补偿各成模型差。§18全Hurwitz顶边∂^pF_m=−mcp(Fp+v)F_m，真实T由原a_(p−1)/非齐次cpFp作固定m−1逆链读取，r相位/卷积保。四指定双线性方向仍须联合非零，不更改p²/p³预算。
+[R887](results/R887-original-z-all-cm-transport-and-exact-hasse-normalization.md)全Z/CM/cocycle/原sigma初值保。§16固定m/Miller/p曲率；§17 P6P_(m−6)保四α/前五modp窗，消全Z补极，二挠<2p³加偶性给C³η[2]=−α^(1/p³)rω，首次C真读同Q6QbR的γ1。旧trace/exact准确作模型差，不授权p²/p³替换。§18全Hurwitz顶边∂pFm=−mcp(Fp+v)Fm，真实T由原a_(p−1)/非齐次cpFp固定逆链读；r卷积/法向保，四方向联合非零仍开。
 
 ## 第三门：同P/R/S与全实际有限类
 
