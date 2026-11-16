@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- **WPS60实际完整候选**：公开43878765372/1全6图/22门，60新记录与完整原对象已保存；[原始结论](notes/complete_paired_finite_residual_ci/run-43878765372-1/actual-scientific-conclusion.json)17a70a8a/0c246786。完整E0+3DT上界约635240.55，充分门false，未证明有限逆或奇异；old0/lost0，完成目标禁止重算。
+
 - **已证明 WPN（条件算子定理）**：[完整paired Neumann重建与真实root96归一](results/R133-supplement-complete-paired-Neumann-reconstruction-and-root96-normalization.md)。同一完整WPS门e+3dt<1给全系统双边逆、两rhs与两残差误差界；指定root-even trace为I96。实际门尚待，独立读出/ν/Θ/mean/负侧/匹配仍保。
 
 - **已证明 WSMA**：[实际完整混合profile、N6与同一waist上界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)。43877268949/1全152新39copy/22门；whole/reduced各选新约1.90736e323，原mean/四端/3070jump/finite完整保留。未授smallness/finite逆/最终族。

@@ -180,13 +180,13 @@ WOBSA37/WMF原完整scope与未付门保[完整当前档](notes/2026-11-16-actua
 
 [WDG实际全相对角界WDGA](results/R133-supplement-actual-positive-drift-relative-angular-bounds.md)8f2134de：43865837250/1全16门、五图80新/35copy/7scope冻结；SCI67c7070e/47714/04b75743、exec4f1297ae/20145/d3ddf999，old0/lost0。完整正cut+普通dr及同d变分资格见WDG212385b5；source282efceb/manifest a88caba5。ordinary Rω1..14接WSJ只除一次b!，高阶仍大，未授whole小界/relative15/root盘/mean/finite逆；原local及所有receiver义务不减。
 
-[WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。actual e+3dt<1未算，真实finite逆待。
+[WQS双向阻抗全输入试探](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372：同WIC reference逆无除τ双state/rank1，whole weighted Schur保真实Riesz和mean；64模χG0χB0对全L2head含mean定义，完整χ′/actual−reference/7port残差及ε全四块→E,D,T已证。WPS首次完整比较false，真实finite逆仍待。
 
 [WBFA实际sharp流83](results/R133-supplement-actual-sharp-Bernstein-finite-flow-bounds.md)b2a2b05a/43870348355全成，SCI df5ea6ff/87621ade。Rω14约1.496e94仍非smallness；WSM接同域新包，F1/P1/K1及WDG80只读，全独立义务保。
 
 [WSMA实际完整混合界](results/R133-supplement-actual-strict-scaled-mixed-profile-and-complete-waist-bound.md)：43877268949/1全22门/152新39copy冻结，index7caabc2c/3cb8fa2a。whole/reduced约1.90736e323独选new，mean e319主导；WCPR完整cut/profile及mean/四端/3070jump全保。继续新mean与WRP40，finite/matching仍待。
 
-[WPS全残差](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff全mean/7port/两rhs保。首次包ed9aede8/aabc28e1，36current/19history，24480cell×96、完整60/62新记录；GD保全L2源及full96误差。e+3dt<1待公开CI，未授finite逆。
+[WPS完整候选](results/R133-supplement-paired-source-circuits-and-complete-finite-residual-candidate.md)ffd000ff/43878765372：6图60新/22门全成，SCI17a70a8a/0c246786。e+3dt约635240.55，充分门false、finite0，非奇异结论。36/19/16、96mode全保；原mean/7port/两rhs/full96误差及全部旧对象保proof和SCI。old0/lost0，禁重算。
 
 [WJRA实际相对界](results/R133-supplement-actual-relative-Jacobian-and-positive-phase-ratios.md)51fa2f5f：43873739440/1全15门56新成，SCI80499e42/69002/806fbeaa；43原/7scope，old0/lost0。真实正J先除与cut真lower，relativeω14约2.078e91；只读接WSM，仍无finite/matching/非线性完成。
 
