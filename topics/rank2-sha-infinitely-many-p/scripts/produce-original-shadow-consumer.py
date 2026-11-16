@@ -75,10 +75,13 @@ def main():
     from original_shadow_relative_six_tools import consume_original_relative_six
     result=consume_original_relative_six(rr,maps)
     dependencies=[
+        "launch-original-shadow-consumer.py",
         "read-original-shadow-pass-receipts.py",
         "original_shadow_receipt_tools.py",
         "produce-original-shadow-local-input.py",
         "original_good_prime_germ_tools.py",
+        "check-r873-original-cm-petersson-degree.py",
+        "original_low_weight_cm_tools.py",
         "produce-original-shadow-rr-eta48.py",
         "original_shadow_coordinate_tools.py",
         "original_shadow_relative_six_tools.py",
@@ -89,6 +92,10 @@ def main():
         "prime":args.prime,"parameters":request,
         "source":os.environ.get("RANK2_SOURCE_SHA"),
         "run_id":os.environ.get("RANK2_RUN_ID",os.environ.get("GITHUB_RUN_ID")),
+        "run_attempt":os.environ.get("RANK2_RUN_ATTEMPT"),
+        "image":os.environ.get("RANK2_IMAGE"),
+        "readme_blobs":{"root":os.environ.get("RANK2_ROOT_README_SHA"),
+                        "topic":os.environ.get("RANK2_TOPIC_README_SHA")},
         "script_sha256":hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         "dependency_sha256":{
             filename:hashlib.sha256((DIRECTORY/filename).read_bytes()).hexdigest()
