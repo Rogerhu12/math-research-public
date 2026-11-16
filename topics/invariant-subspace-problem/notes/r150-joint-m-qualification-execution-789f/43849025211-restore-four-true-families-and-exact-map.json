@@ -1,0 +1,57 @@
+{
+  "format": "isp-temporary-research-step-source-parameters-run-sha256-v1",
+  "runId": "43849025211",
+  "stepId": "restore-four-true-families-and-exact-map",
+  "executionSourceCommit": "b5a88cab0ac07c3a2afcc05e7ab7274d54d76d0b",
+  "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-root2-fourth-p7-extra-input-recovery-789f.py",
+  "scriptSHA256": "ffbc4a5c706c6983f820e75f94a98fce789d373f4297dbb7ab8134988fc4a47d",
+  "argvTemplate": [
+    "--repo",
+    "{repo}",
+    "--manifest",
+    "{scripts}/2026-11-16-r150-root2-fourth-positive-two-p7-manifest-789f.json",
+    "--work",
+    "{work}",
+    "--seconds",
+    "600"
+  ],
+  "timeoutSeconds": 660,
+  "exitCode": 0,
+  "wallSeconds": 7.879936809,
+  "fullTemporaryReceiptBytes": 4682,
+  "fullTemporaryReceiptSHA256": "b3f61ace88a5b33f0c916c8af6dd00088d291a8f5348e750491c5e611b85a237",
+  "largeDataUploadedOrCommitted": false,
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "pythonFlint": "0.9.0",
+  "computationalOutputPersisted": false,
+  "pulls": [
+    {
+      "utc": "2026-11-16 10:48:11 UTC",
+      "beforeReadCommit": "ea830b592add06e41b65c4980b5b363fb3a801a0",
+      "originMainAfterPull": "b5a88cab0ac07c3a2afcc05e7ab7274d54d76d0b",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    },
+    {
+      "utc": "2026-11-16 10:48:20 UTC",
+      "beforeReadCommit": "b5a88cab0ac07c3a2afcc05e7ab7274d54d76d0b",
+      "originMainAfterPull": "b5a88cab0ac07c3a2afcc05e7ab7274d54d76d0b",
+      "rulesGitBlobs": {
+        "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+        "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+      },
+      "rulesDiffer": false
+    }
+  ],
+  "actualPullCount": 9,
+  "allActualPullLogRecords": {
+    "logicalJsonBytes": 3088,
+    "logicalJsonSHA256": "eb19d0d01c50bae03c252033fa41854364d156293b6ef204a678be5aed1108d8",
+    "itemCount": 9
+  },
+  "lastRulesReadCommit": "b5a88cab0ac07c3a2afcc05e7ab7274d54d76d0b",
+  "summaryExcludesRecomputableArraysOnly": false
+}
