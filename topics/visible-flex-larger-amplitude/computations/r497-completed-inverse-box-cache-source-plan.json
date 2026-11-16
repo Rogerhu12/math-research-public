@@ -1,0 +1,58 @@
+{
+  "schema": "R497-completed-inverse-box-cache-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_only_no_scientific_payload": true,
+  "original_class_body_unchanged": true,
+  "helper": {
+    "file": "geometry_20261116_completed_inverse_box_cache.py",
+    "bytes": 10239,
+    "sha256": "cf517af64d024de25f3f4083d77847dddc792ce569a369d323dc31b347a96edd"
+  },
+  "baseline": {
+    "file": "geometry_20261115_current_C_pruefer_joint_radial_sampling.py",
+    "bytes": 69702,
+    "sha256": "32b0b7e2b02f54f5086b6c9485c1f63bce4702c3a690fed49bbc78d9d690d5f4",
+    "blob": "decad25aac951886e0544e35de66f42f0e49ffa9"
+  },
+  "output": {
+    "file": "geometry_20261116_current_C_cached_inverse_joint_radial_sampling.py",
+    "bytes": 70299,
+    "sha256": "ae9dde7a93cd0477d7d8669593459bedf75fdc58083625beee40dd047eab5594"
+  },
+  "changes": [
+    {
+      "before": "import time\n\nSCHEMA=",
+      "after": "import time\nfrom geometry_20261116_completed_inverse_box_cache import bind_completed_inverse_box_sampler\n\nSCHEMA=",
+      "occurrences": 1
+    },
+    {
+      "before": "SCHEMA=\"current-C-pruefer-joint-nominal-row-physical-radial-samples-and-general-far-v1\"",
+      "after": "SCHEMA=\"R497-current-C-completed-inverse-box-cache-pruefer-joint-radial-samples-v1\"",
+      "occurrences": 1
+    },
+    {
+      "before": "    p.add_argument(\"--steps\",type=int,required=True)\n",
+      "after": "    p.add_argument(\"--steps\",type=int,required=True)\n    p.add_argument(\"--inverse-box-cache-helper-sha256\",required=True)\n    p.add_argument(\"--sample-complete-box-cache-records\",type=int,default=4096)\n",
+      "occurrences": 1
+    },
+    {
+      "before": "            sampler=InverseSampler(head,data,args,geom,journals[\"sample-inverse-leaves\"],unpaid,sampling)",
+      "after": "            cached_type=bind_completed_inverse_box_sampler(InverseSampler,\n                computations=args.code_directory,helper_sha256=args.inverse_box_cache_helper_sha256,\n                max_records=args.sample_complete_box_cache_records)\n            sampler=cached_type(head,data,args,geom,journals[\"sample-inverse-leaves\"],unpaid,sampling)",
+      "occurrences": 1
+    },
+    {
+      "before": "            actual_inverse_range_count=None if sampler is None else sampler.range_count,\n",
+      "after": "            actual_inverse_range_count=None if sampler is None else sampler.range_count,\n            completed_inverse_box_cache=None if sampler is None else sampler.completed_inverse_box_cache_readback(),\n",
+      "occurrences": 1
+    }
+  ],
+  "scope": {
+    "original_complete_box_called_once_on_every_miss": true,
+    "every_hit_preserves_original_logical_work_charge": true,
+    "original_sampling_parameters_and_all_math_predicates_unchanged": true,
+    "new_cache_capacity_is_explicit_resource_choice": true,
+    "full_main_view_not_yet_registered_in_request_or_native_consumer": true,
+    "no_runtime_or_geometry_success_claimed": true,
+    "original_result_schema_not_reused_as_actual_sampler_source": true
+  }
+}
