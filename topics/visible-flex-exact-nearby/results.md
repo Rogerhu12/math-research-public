@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WCTR 完整首次消费合同](notes/2026-11-16-R133-clipped-scalar-trace-current-inputs.json)：五份已审源码，45 current / 19 history / 16 AST；36 新＋20 原球复制，严格门成功另 2，全零时原六图和五条前缀全部复制。11 个完整静态输出模型独立重建同 SHA256，旧 WVC 43 科学／44 执行字段、WPS 全资格及 20 原记录保持；尚未执行科学目标。
+
 - [WEXA：31 项腰部端点界的完整实际证明](results/R133-supplement-actual-exact-waist-flux-and-complete-endpoint-reception.md)：全31新对象、62原记录和精确typed paths、18整体scope、15gates/16progress、两完整选择与32 SCI/43实际exec资格全保；同完整whole/reduced界约3.790258283e255，未宣告小门或总验收。
 
 - [W2H：完整双侧高反馈与中心修正](results/R133-supplement-two-sided-high-feedback-and-complete-centre-correctors.md)：精确 primal/dual residual 恒等式保全同算子、两 RHS、两均值、所有原子与 ports；证明旧固定 collar 的正预算障碍，未推出真实误差下界。新整 signed-centre、family 与角224/416边界已列清，0新科学数。
