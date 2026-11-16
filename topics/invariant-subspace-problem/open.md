@@ -142,3 +142,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 - **F127精确系数载体仍待饱和。** [Ω127/J0证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)给C127/127恰为全部299维torsion，degΔ+Σt127=299。完整barΩ=Ψ60²，余包络barμ|F+²F−²E8(s+64)度21；s+64不是自由商缺陷，只可能来自127系数tors或有理因子约化，尚未判定。下一实际九目标循环模块/h*像将区分哪些field方向由原目标命中；有理critical两F±/E8的额外20次完整原jet仍待付，任何一次mod127零都不直接升Q成员。
 
 - **九原目标在F127中的完整25维模块已成。** [原全部乘回证明](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)给joint维25/χ=s²mon(h*)，每个目标cyclic23且最小式同mon(h*)，h*和h0九列实际全零/完整像0；s+64和Ω不在target模块内。原6188来源的field成员存在已付，但九来源尚未新展开，Q或p127²成员未付。25个原target/power标签可指导原relative T的Q选元，不能把有限域图当成有理图。
+
+- **同源完整一次MP现在已有移动头预算。** [完整平方相消/含top证明](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)取τ=(log(x+1)/x)^(1/3)、s=(1+τ)S_x、J=ceil8log(x+1)/τ，严格||D†(C+D)f||²≤O((1+||C||²)τ²)ε≤同常数Δ_g²，无头χ/无未知速率放大。R=0/x=m时J≪d_m、同原合法Q≥J且f→P_Mg；任何其它扩块/内cut仍保原R=d等门。z=f−D†(C+D)f仅给(C+D)z=−C D†(C+D)f，第二次源含D†ω_j、非旧coherent列。须继续支付它的完整MP/中间Schur及真实同w返回，不把一次小修复当真核距离。

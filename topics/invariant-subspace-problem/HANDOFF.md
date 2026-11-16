@@ -39,5 +39,5 @@
 - 原低forcing完整creation行≤4I/3、双缺陷≤8I/3保GΔ和交叉；Z*D*DZ=Z*𝒱Z，受限完整源逆≤3(L+r+1)³/p。同u须联合(De,Dk)加2，帽返回不免费认作ZR。
 - **[兼容Bernoulli塔/真核比较](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)：** 同事件给Dv_r=v_(r−1)，在真W_L完整压缩Gram。moving模型logχ≤47d⁴/4、Chebyshev误差≤4ϑ^(2floor(L/(d−1)))；x=e^(12d4)、L=e^(71d4/12)时u统一小，但母carry仍含R0^(j+ℓ+1)和跨块2z−1，旧logQ≤26d³窗未扩大。
 - **[放大方差/同源阻尼](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)：** s_m≥S_m→0，任意R_m和1≤J_m<h_m，完整H_(C,J)(s)^−1强趋P_M；ε=q−||a||²→0。Q≥R+J时f=Σ(-C)^jaω_j/(s^j j!)保原V/K/u，远孔指数矩≤q、||f−a||²≤(S_x/s)ε。全塔残量=[1−r+W/s]Cf，截断top保留；强头a的孔尾不删。
-- **下一完整一次MP稿已根审：** boundary冻结d6487cbb，原τ=(log(x+1)/x)^(1/3)、J=ceil8log(x+1)/τ、s=(1+τ)S_x给||D†(C+D)f||²≤O((1+||C||²)τ²)ε≤同常数Δ²，含最高top；root随即逐结论发布。一次后残量仍−C D†(C+D)f，第二次非coherent列/真实中间Schur未付。
+- **[完整一次MP/移动小截断](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)：** τ=(log(x+1)/x)^(1/3)、J=ceil8log(x+1)/τ、s=(1+τ)S_x给||D†(C+D)f||²≤O((1+||C||²)τ²)ε≤同常数Δ²，完整MP/全部top已付、无χ。R=0/x=m保原合法Q≥J及f→P_Mg，但不取消其它扩块R=d门。一次后残量仍−C D†(C+D)f；第二次非coherent列/真实中间Schur未付。
 - 剩余ordinary预算仍是同源合并负部≤c_m Q||F_mu||²且Σ1/c_m发散；无此界。原G_reg同forcing/carry、Haar普通循环性、正常有限秩链、非rank-one及open全部旧接口继续，不列不算关闭。
