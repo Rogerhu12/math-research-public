@@ -1,0 +1,44 @@
+{
+  "format": "r150-source-parameters-local-execution-identity-v1",
+  "author": "Astra-ISP-789f; AI-assisted GPT-6 Astra Pro",
+  "status": "running-at-publication",
+  "execution": {
+    "kind": "local-executor",
+    "startUTC": "2026-11-16T04:04:42Z",
+    "initialSessionId": 43474,
+    "githubRun": null,
+    "temporaryScripts": "/tmp/literature_root2_789f/scripts",
+    "temporaryLog": "/tmp/literature_root2_789f/logs/full210-attempt-1.log",
+    "temporaryOut": "/tmp/literature_root2_789f/work/root2-fourth-complete210-p7",
+    "workRealPath": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work"
+  },
+  "source": {
+    "path": "notes/2026-11-16-r150-root2-fourth-complete210-p7-runner-789f.py",
+    "bytes": 36750,
+    "sha256": "ad18b9749976bbc2c011575c29960709e0b954d54f3ef0cda75c8f4d126fc60d"
+  },
+  "inputManifest": {
+    "path": "notes/2026-11-16-r150-root2-fourth-complete210-p7-manifest-789f.json",
+    "bytes": 24693,
+    "sha256": "ffbdfa3067f2536155c9f847a5bf372aefef9c2df2790089472aa6d3c6f1b39e"
+  },
+  "mathematicalBinding": "712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093",
+  "parameters": {
+    "seconds": 1800,
+    "memoryMiB": 6144,
+    "outerSeconds": 1860,
+    "through": "final",
+    "nativeExit75Continuation": "same source, input, out and binding"
+  },
+  "recoveryRuntime": {
+    "extraRestoreSourceUnchanged": true,
+    "firstExtraRestoreOutcome": "Go runtime helper exit2 under inherited 1024MiB address limit; no mathematical claim",
+    "successfulExtraRestoreEnvironment": {
+      "GOMAXPROCS": "2",
+      "GOMEMLIMIT": "256MiB"
+    },
+    "credentialsWrittenToFile": false
+  },
+  "outputs": null,
+  "recomputableOutputDataIncluded": false
+}
