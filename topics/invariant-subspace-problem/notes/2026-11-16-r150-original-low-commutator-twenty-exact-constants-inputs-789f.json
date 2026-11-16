@@ -1,0 +1,185 @@
+{
+  "format": "r150-original-low-commutator-twenty-exact-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator with /root; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-789f.py",
+    "bytes": 30312,
+    "sha256": "5d312e6b5255cb74e0f5a05753fd1f951b6a24f753d119ace2f52627696ae8cb",
+    "gitBlob": "58d3fec8f3a1e709d84bcbebb01b68dda60f1609"
+  },
+  "helpers": [
+    {
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "bytes": 23879,
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    }
+  ],
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "requiresSingular": false
+  },
+  "parameters": {
+    "matchedCubicAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "prime": 127,
+    "coefficientRoot": 100,
+    "fullLowCommutatorColumns": 50,
+    "selectedOriginalSeedIndices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12,
+      13,
+      14,
+      15,
+      21,
+      22,
+      23,
+      24,
+      25,
+      31,
+      32,
+      33,
+      34,
+      35
+    ],
+    "cubicUnitOriginalColumns": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "kernelProjectionOriginalColumns": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "exactSystemRows": 20,
+    "exactRightHandSides": 50,
+    "faithfulRationalSystemRows": 60
+  },
+  "paidParent": {
+    "path": "original-ten-parameter-module127-v2",
+    "binding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+    "manifest": {
+      "bytes": 30466,
+      "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+    },
+    "basePhase": {
+      "phase": "complete-original-ten-parameter-action127",
+      "bytes": 776254,
+      "sha256": "5cbba4f798ab95fe24538f35d23d4b3a2f0d6197ee3ed33f3149b7371b0d222c",
+      "logicalBytes": 4442756,
+      "logicalSha256": "f07c273c934e671f5e1069954771286c14e5d10ab7c4652d998a02f71beb7d05"
+    }
+  },
+  "arguments": [
+    "--model-source",
+    "{scripts}/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "{scripts}/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--paid-model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--paid-model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--out",
+    "{work}/original-low-commutator-twenty-exact-constants"
+  ],
+  "stages": [
+    {
+      "through": "constants",
+      "seconds": 180,
+      "memoryMiB": 1024,
+      "outerTimeoutSeconds": 240
+    },
+    {
+      "through": "final",
+      "seconds": 300,
+      "memoryMiB": 2048,
+      "outerTimeoutSeconds": 360
+    }
+  ],
+  "completeProductScope": {
+    "originalHankelCoordinateInverseProducts": 242,
+    "quadraticNormalSourceCoefficients": 225,
+    "originalQuadraticTopSpecializationCoefficients": 165,
+    "originalCubicCoefficientsRetained": 1925,
+    "bothCubicResidueInverseCoordinates": 2450,
+    "symbolicCubicKernelCoordinatesUsingPaidCX": 1750,
+    "exactProjectedEProducts": 1000,
+    "faithfulRationalProductCoordinates": 3000,
+    "selectedTwentyIdentityCoordinates": 400,
+    "newFull55CoordinateProducts": 0,
+    "newExpandedTwelveParameterProducts": 0
+  },
+  "sourceCompleteness": "RX=0 for paid border support; CZ=0; R restricted to ker(C) injective; exact projected system and canonical-source uniqueness imply whole E parameter/source identities",
+  "continuation": "Same exact source and binding; registered whole SHA phases only. Full unverified solve candidate may be resumed for verification but is not a successful certificate. No empty budget retry.",
+  "dataPolicy": "Only source, parameters, proofs and real execution identity/SHA in Git. All exact matrices, candidates, raw and phase payloads remain temporary.",
+  "arithmeticStatus": "AST parsed only; no new mathematical execution"
+}

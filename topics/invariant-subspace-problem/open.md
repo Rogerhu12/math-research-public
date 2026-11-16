@@ -1,10 +1,12 @@
 # 未解决的问题
 
+**[原E三个完整逆及真实终止范围已封存](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)。** 6、5、11维原E逆全部两向乘回真，共364个E产品/1092有理坐标，六个候选与验证phase双SHA重读全同。随后child−9/shell137、25.514秒，observer未发终止信号，原因未证；完整constants与20×50求解未完成。独立仅投影源已全审，保verified UI及原字典、全1000E/400选列门；本地环境失效使其启动请求未创建进程，当前转同源码远端恢复，不算数学失败或已运行。
+
 **[真实核旗适配正远孔来源与无包络倒数门已闭](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。** 对同一$v\in\ker C$，$\mathfrak h_v=C^\dagger v-C^*\Gamma v$的第$r+1$正交真旗用完整$((C^*)^r)^\dagger$搬到第$r$远孔；全部层保精确$f_1-F_{\rm fl}=k+L^*\Psi$，同原$Q/U_n$、全部$h$段和真帽来源不变。物理费为$S^{-1}\|e_0-(I+S\Gamma)v\|^2+\sum\sigma_r^2\|q_r\|^2$，不压低旗逆。同一$w$锚误差除$\kappa$后直接吸收，非零锚必要$\sum\kappa_m^{-2}<\infty$，无需先付$\eta_m\kappa_m$包络；实际费用上界仍开。
 
 **[完整权十原输入与独立验证准则已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)。** 本地 v2 prepare exit0，200列共8037189项；根独立解析原 phase/binary/全部151071880字节ASCII，2000坐标与独立$\delta b^2$目标全相同，156.362秒/RSS88624。原v1物理权守卫失败和根v1 exit137均保真实身份，不当预算或数学负。候选/完整相关对尚未执行，权十成员性仍开；冻结九阶段工作流在同job重建全父，空候选不续。
 
-原E五十低交换子的同二十来源及670列完整上界已证，精确E常数修订版已验证三个小逆，随后137且constants未成；保完整逆，改审更小投影消费者；不把field系数当E来源。完整200/210及原十八过滤等价已闭，继续权十$\delta b^2$、权十一$qb^3$和原E高交换子来源。
+原E五十低交换子的同二十来源及670列完整上界已证，精确E常数修订版已验证三个小逆，随后137且constants未成；原逆身份已封存，小投影消费者全审通过；环境失效后须在远端重建原SHA前缀；不把field系数当E来源。完整200/210及原十八过滤等价已闭，继续权十$\delta b^2$、权十一$qb^3$和原E高交换子来源。
 
 R271最优两孔同Q锚与倒数必要门已闭，实际费用上界仍未得；新旗适配代表及无包络吸收已闭，完整逐旗逆的实际费用继续。所有此前状态、完整未闭接口保[本次open快照](notes/2026-11-16-open-before-weight10-input-audit-789f.md)及归档链，未列不算关闭。
 

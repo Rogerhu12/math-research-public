@@ -1,5 +1,8 @@
 # 已得结果
 
+**[原E三个完整逆及真实终止范围已封存](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)。** 6、5、11维原E逆全部两向乘回真，共364个E产品/1092有理坐标，六个候选与验证phase双SHA重读全同。随后child−9/shell137、25.514秒，observer未发终止信号，原因未证；完整constants与20×50求解未完成。独立仅投影源已全审，保verified UI及原字典、全1000E/400选列门；本地环境失效使其启动请求未创建进程，当前转同源码远端恢复，不算数学失败或已运行。
+
+
 **[真实核旗适配正远孔来源与无包络倒数门已闭](results/R271-appendix-true-kernel-flag-adapted-positive-far-representatives-and-envelope-free-reciprocal-budget.md)。** 对同一$v\in\ker C$，$\mathfrak h_v=C^\dagger v-C^*\Gamma v$的第$r+1$正交真旗用完整$((C^*)^r)^\dagger$搬到第$r$远孔；全部层保精确$f_1-F_{\rm fl}=k+L^*\Psi$，同原$Q/U_n$、全部$h$段和真帽来源不变。物理费为$S^{-1}\|e_0-(I+S\Gamma)v\|^2+\sum\sigma_r^2\|q_r\|^2$，不压低旗逆。同一$w$锚误差除$\kappa$后直接吸收，非零锚必要$\sum\kappa_m^{-2}<\infty$，无需先付$\eta_m\kappa_m$包络；实际费用上界仍开。
 
 
