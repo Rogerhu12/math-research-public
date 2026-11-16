@@ -188,3 +188,11 @@ R416/419/421已排−6；R420/425的−4static/hh/cross加新kk，先同权响�
 实际零目标只付原有限Λui/Λui+uj、全部真实suffix的两整包totals、平台G″与原解析端germ。仍须同一最终成本逐个支付每个Af简单根的两条partial：Ri si(x)+Σj>i Rj sij(x)=0，Ti si(x)+Σj>i Tj sij(x)=0。原gauge的Lf像不能改变这些点；右端total0不能代内部值。R412仅有限简单根，不保证R410一对或R405共同cap，旧≤4/≤11对应点结果不外推全点。
 
 内部门全付后，仍须两真正period特解、保端jets的gap连接、∫k′=0所改平台值、右collar仿射输出，以及同一个incoming m*、核列和13行相位系统；Smith零行/单位圆可去极点均未付。完整第四以后仍有高阶收敛、同g有限族、全域reach/嵌入/幅度。下一工作为响应核完整内部像及同q四约束母库能否保所需局部cap/jet，均不重旧秩/19根/forcing。
+
+### R430：同包旧两列限制与新的完整保J核
+
+[R430](results/R430-complete-packet-partial-fluxes-a-new-joint-kernel-and-the-remaining-internal-quotient.md)在同一实际profiles/根/宽/中心/右锚/suffix下，全部Af点的C=RiHe+TiHd。旧τ*八响应在同包只有p²r和p²(xr−p)两列，旧K0..10的C恒0；任三点有明确det湮没它们，跨副本插值不支付同包不同根。这个det不是整个R0障碍。
+
+原Z中新τ†=−(δH+1024χ30)/8完整c0、a=xAf+2pr、b=−6x(rt)′−10rt；(ar)′+bp=0给原同锚partial=a(pw″−rw′)，wholeE/Λall保持0。Af根新增pr²列；三点实际jet det非零才付三C，手工自由jet例det2只排universal零身份，不宣冻结根已满秩。n_i=0包全部C自动0，生成数可至m+m*，不是rank。
+
+下一继续完整P(R0)及P(kerJ)的像外商；若后者包含于前者，才能连同所有原型/wholeJ校正的F基准在同一有限实际词里付全点。有限A0不使universal Euler0；R412当前未保共同cap，不能直接借R405全自然核的current。即使内部两flux全付，仍须真period/gap平台值/同13规范，不拼逐点截面。

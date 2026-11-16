@@ -8,7 +8,7 @@
 
 私有actual pull：1ec6b57a875aca377038cd055a4ec0028b75473c，02:10:03.031482 UTC；根blob5ba164843b1f5802184178a82d786264404873a3同、题README无、QUEUE唯一进行中。此前原科学及observer各次pull已读，完整记录保log。
 
-新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（01:53前复核exec-server仍缺失），依根8小UTF8发布；API非pull。
+新研究/数值/符号/人工/API研究执行仅本公开Actions；本地仅纸证、源码文本、元数据、既有输出解析。PAT仅瞬时CLI/env，不文件/提交/API。根12禁重付已完成研究；根15仅源码/参数/run/SHA/人类结论入Git，重算payload不入Git/Release/artifact。H<10KB、MD<100KB、open尽量<30KB；题≤200MB/单件<5MB/禁分块。旧data54107494B。终端unavailable（02:21:51复核exec-server缺失，命令未启动），依根8小UTF8发布；API非pull。
 
 ## 2. 完成门及冻结几何
 
@@ -28,7 +28,7 @@ R406：run43775998866唯一新两Ω给n4=n6=0、n2=∫12项L≠0，Lrr=3x²(p−
 
 R408/409：原允许wθ不改totals、Af累计flux及平台二次；完整affine两常数仍保。八末复制的16真实d/e可在M5≠0时读λ+，故M5零是当前母的必要条件；不扩一般芽，有限圆须实际因子化。
 
-R411/R412：原16个4minor/正解析IFT付n2四平移系数0，再于同流形以远离局部jets的normal、restricted max-F和r+4校正同付19真根/共同F外区。所有p/Af仅有限简单零；R410的一对不转给该四约束母。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。R413：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；还欠F0/Q2低层是否只有零解。
+R411/R412：原16个4minor/正解析IFT付n2四平移系数0，再于同流形以远离局部jets的normal、restricted max-F和r+4校正同付19真根/共同F外区。所有p/Af仅有限简单零；R410的一对不转给该四约束母。H*在同实际圆的ker(E,全部packet totals)且λ1；不同母3+2因local五次确0。这是signed非因子化见证，不是实际负路径。R413：起始可保D−E>0，真正共同Q4的−4头维rank(d,e)−1；从起点同D/E方得仅−2头，ordered3+2局部全0。故−6/−4字符杀完整A/H/Q4最高层，全实际正性iff同一个唯一八矩乘子下静态≥0与速度2×2矩阵逐态PSD；此低层问题已由R429在共同A内闭合，内部period另欠。
 
 R415–R427完整低层链：原N0/N2、Gamma/水平Y及真尾全保。R416/419/421给负六static/hh自然0、kk=−3(1+k²)²B_Q4/64；共同偶M5零母/ordered3+2全0，PSD消cross，非零−6正字符已排。R420全负四static=3S³F_Q4/32、R425全hh=−3S²F_Q4/16；原共同D/E的Q4平移像与同权wholeE响应补偿后使static/hh/cross字符0，非原算子0。R423保四原势，R426完整k0 kk=A=3F_Q4/128+∫(3p³r²−2upr³)/64，后项偶母全affine0，故λA0。R427全原式两级支撑给Λkk=A+k²B+k⁴C；S整除iffΛ(B−A−C)=0，不能猜。[两新实际](notes/kk-minus4-natural-flux-first-completed-actual-20261116.md)run43790439330：B完整五项C²密度/Euler14非零，C整个left/local/Euler空，双nonlocal空；38源/12新self/9旧响应、science2.833311144/RSS234388，旧研究0。[R429](results/R429-complete-kk-minus4-values-and-actual-common-joint-sections.md)手核B偶母平移=−(D+3E)c/16，M25准确消；真幅宽中心/成本H²同NH，故原共同D/E库已付B/C∈N A(U−3)，不用新增观察。普遍S整除false，Euler差最高项−9upr/16；与共同商N像不混。
 
@@ -38,7 +38,7 @@ R415–R427完整低层链：原N0/N2、Gamma/水平Y及真尾全保。R416/419/
 
 R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚累计flux0。R405/407证明同μ内支撑连通路径固定self二次cap；actual wholeE0仅消跨包primitive二导，仍有各ω_i/ordered A_i及真实wi/suffix。7n读真实totals，68|W|仅生成界；全Λ核Euler current不能免费用于actual。
 
-R390/392/396的actual响应E+双Λ+≤11Hd，与R399/401的wholeE0+指定四镜点是不同截面，不拼全joint。τ*在Af点partial=2p²(pw″−rw′)，负倒二包真suffix/12copy C像ερ⁷Pol≤3；仅指定门已付。R394保全部germ/gap/incoming/平台代价的同13规范，Smith零行及圆上整除jet给条件性smooth iff，≤52重数非rank；全period/同一k仍欠。
+[R430](results/R430-complete-packet-partial-fluxes-a-new-joint-kernel-and-the-remaining-internal-quotient.md)：同包全部Af点旧τ*的C像仅p²r、p²(xr−p)两列，旧K0..10的C0；三点det只限此模块。新τ†=−(δH+1024χ30)/8有c0、a=xAf+2pr、b=−6x(rt)′−10rt，保wholeE/Λall0；同锚partial=a(pw″−rw′)，新增pr²列可破旧det。n_i=0包的C对全部wholeE成本自动0，≤m+m*仅生成界。全部内部像仍须P(kerJ)⊂P(R0)，保实际原型/后置J校正的全部基准；R394同13规范/Smith零行/平台值未付，≤52非rank。
 
 R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不排高阶才动/别芽/一般C²面。不回同类增频；完整第四、高阶收敛和同g有限族仍欠。
 
