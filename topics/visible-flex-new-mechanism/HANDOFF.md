@@ -24,7 +24,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274。g fd5bc5fe2c114bdbe
 
 原U保N0/N2/N3、全部history/Γ/同锚端势（R105/109/130）；倒行第四同号，span非实际逆元，仅R156的α∈πZ合法。R333已付whole E=(pure,self左二次)实际满射/紧集C1截面，E(U0)=E(R0)维10，非全权等像或完整mixed消失。R402/R393完整静态/Q4自然读出保原稿，旧H非零/7–13秩已撤回。
 
-R406：run43775998866唯一新两Ω给n4=n6=0、n2=∫12项L≠0，Lrr=3x²(p−xr)(u−xp+x²r/2)²。完整N权零像恰1、kerNall⊂kerλ+；canonical正时长同端口闭frame/M0成本λ+=L+∫(h′/h)²>0，T=τH亦同。故actual全Λall0背景不可建；有限固定圆另须实际读出。8新check/全部成本保[实际note](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/rank不重。
+R406原run43775998866已付n4=n6=0、n2=∫12项L≠0；完整N权零像恰1，kerNall⊂kerλ+。canonical正时长同端口闭frame/M0成本λ+=L+∫(h′/h)²>0，T=τH同，故actual全Λall0背景不可建；有限固定圆另求实际读出。8新check/费用保[原实际](notes/weight-zero-natural-flux-first-completed-actual-20261115.md)，旧π/self/rank不重。
 
 R408/409：原允许wθ不改totals、Af累计flux及平台二次；完整affine两常数仍保。八末复制的16真实d/e可在M5≠0时读λ+，故M5零是当前母的必要条件；不扩一般芽，有限圆须实际因子化。
 
@@ -41,6 +41,8 @@ R403/405的19正核与有号三导集中仍保p号；R391每个Af点须原同锚
 R430/R432原Z18的c0恰5维；21 p-only三矩共同提升非具体根rank，每根真宽/中心/u,p,r/J0,J1,J2及真实suffix保。[R434](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)实际run43796872698/job133067569306/source563defb4，144原成本Q秩59/系数核85，完整39 current像32=21+11。七条全u-only约束原稿列全，35fresh原Q/三current证书、1020record链全过；单独A0三member不等于商维3。新science2.136164829s/RSS34076KiB、旧执行0；全R像/真实全点rank/actual基准及13门不冒付。
 
 R435完整F_z=A_z³(4A_z²−10z²uA_z−20w⁴r²/3)/15保真左常数；K0=−8r⁵/45，r0首K5=1024p⁵。对应已有同形/同宽/同基点≤11或≤6实际控制。[R436](results/R436-fifteen-self-directions-and-fourteen-joint-actual-degenerate-fluxes.md)加入原P的σ/τ1–3，合15形式方向；完整K2保u项。同一镜对11左+3右用原L0/L1/L2得14实际独立行，全部列杀J⁺及全圆C；全镜族本模块像(P,TP+Q2)恰14。第15另根需r≠0且|p/r|≠s*，不假定。可接同一J⁺实际截面，保C另需joint前提；H*有限核修正仍λ1。完整cell含原三矩闭circle，非孤立α³差分包。全根self余商/同13仍欠。
+
+[R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)最高有理P2θ(k)=κI2(Yff,k)/24，与θ无关；原FY2≡0、真二次尾/平台/gap给它杀整个kerLf。13行rank≤12/底≤9，仅上界；两个period特解的I2(Yff,kd/ke)必须各0，不能由核补偿改变。incoming X准确加I2(Yff,XΔ)、减I2(Yff,Xfg)，非免费参数；余12行/actual兼容仍欠。
 
 R388仅在原Gaussian/M0/TκH、κ≠0范围迫连通C²首阶轨道恒f；不排高阶才动/别芽/一般C²面。不回同类增频；完整第四、高阶收敛和同g有限族仍欠。
 

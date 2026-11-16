@@ -489,3 +489,6 @@ Af0朝右幂段上a二次，V0=0；主g″²系数为严格负四次平方和再
 
 
 - **R434：完整144原响应共同Q/current像已实际完成。** [原结果](results/R434-complete-self-kernel-and-three-tail-current-image-on-144-original-responses.md)（10331B/SHAbfeb72799f26a3682c2b6f50832674170915f6aa49aed4f9de818f12e0191ea6）；run43796872698/job133067569306/source563defb46bc785295265c3f48fcad3fc8897c617。Q秩59/系数核85，三尾矩39像32=21p-only+11含u，七条all-u annihilator充要，三个孤立A0 member不误作商维3。35fresh原Q/三current全过、1020顺序记录/链完整；新science2.136164829s/RSS34076KiB，2新接口/旧研究0。仅本模块代数像，非全R/真实根rank/actualjoint；payload只原stdout。
+
+
+- **R437：最高有理规范行是完整period核零行。** [证明](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)（11564B/SHA92556a770172b8c9bc24406bbc45dfe71f561f10a037f4feb12c7a5b8d000dd9）完整FY2总导数与原尾给P2θ=κI2(Yff,k)/24、相位无关，杀整个kerLf；13行rank≤12、底≤9，不授余行独立。两真实period特解的该配对各0是核不可调条件；incoming X两贡献准确保留。已明确R326 V=p2与R259 Y别名；无新执行，未付真实兼容数值/全period/余12行。

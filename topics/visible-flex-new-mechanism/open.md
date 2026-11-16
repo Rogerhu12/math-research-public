@@ -80,9 +80,11 @@ R378/381/382保全部self/原Ps与Bs链项/两真尾，给任意实际状态及�
 
 R384函数像二维及R385一个实际标量已由[R390](results/R390-actual-joint-control-of-two-fixed-natural-total-fluxes.md)推进到两个固定真实Λ的实际联合满射：四原Q4列的严格正核，固定profile宽/三状态/共同端口，四真实水平脉冲先M0桥、真reverse/T0、固定运输，所有非零基准保在O_C1(1)；同一有限ε下两正幅四次变量做二维收缩，Klein最终用(y−bK)/4闭空间位移。每紧目标有单一有限型C1截面及ω下界，原M/T/scalar/frame/位移均付。仍不保wholeE/其它Λ/13同规范或冻结g，不把函数像≥3当actual3。新[R392](results/R392-real-joint-control-of-response-E-components-and-two-natural-fluxes.md)已实际支付响应F=P_LE与两Λ的joint：原型清零完整成本×n、先盒/固定q后末n、后置校正完整F成本均付；非wholeE0。KX/KM给线性J(U)=E(U)⊕R²并排固定J上的λ+下降。下一准确门是实际C⊕R²联合商截面；fixed两Λ核尚未仿射稳定，不套旧字符排除。
 
-### R327/R330的同规范门仍保完整接口
+### R327/R330/R437：同一个规范的真实零行与剩余接口
 
-[R327](results/R327-analytic-packet-period-kernels-and-a-finite-same-gauge-joint-system.md)原13行/降秩整除/全圆光滑相位仍须同一个k；原平台列及gap不可见性保留。R394下方已给当前完整条件性接口，不能按包数宣满射或重做旧有限秩。
+[R437](results/R437-highest-rational-gauge-row-vanishes-on-the-complete-period-kernel.md)从完整FY2(u)=I2(u,Yuu)≡0（保原J/真二次左尾）得最高有理P2θ(k)=κI2(Yff,k)/24，θ独立。母列、平台纯x²尾及gap全部杀此行，故完整kerLf上P2恒0，13×2n实际矩阵rank≤12、底十行≤9，仅上界而非余行满射。
+
+先真正付两个紧period特解kd/ke，再必须付I2(Yff,kd)=I2(Yff,ke)=0；这些值不依赖特解选择，任何齐次核规范不能调。incoming X=Φm*使canonical到清理目标的两值准确加I2(Yff,XΔ)、减I2(Yff,Xfg)，四次项不被旧cubic差分删掉，也不是两自由参数。之后余12行还须同一k、全圆光滑相位/seed和降秩整除，原平台/gap代价保留。
 
 ### R389：有理端口两period的真实整包通量与全部零端germ
 
