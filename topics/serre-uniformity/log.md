@@ -630,4 +630,9 @@
 ### 2026-11-16 16:32 Asia/Taipei — serre-public-astra-20261115
 - R876纸证完成九域范数的全曲线理想与原刚性化：非étale/剩余次数、M0参考、dual7方向、三全纤维672minor、目标271单rhs；实际九理想/支持仍未算。
 - R877纯IO全成功，1234原行逐spec绑定旧Bnormal；R873的4960carrier已到，真实line356选基窗口误判须修；R854读回N_B56/depth55 rank0及NeedPrecision，原响应仍缺。H完整归档。
-- 本push规则：公开worker实际pull并更新两README读SHA，root6979d793/topic35f82f3d；纸证与必要原源IO，无本地数学/无raw入Git；主目标OPEN。
+- 本push规则：公开Actions真实pull至8564014195a7cbdc6c0d4460513c7f179dff435c（2026-11-16T08:32:55.369353+00:00），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。
+
+### 2026-11-16 16:36 Asia/Taipei — serre-public-astra-20261115
+- R873真实trace line356误把R775选基窗口273当保存长度；改核273与原tag1640，196..763旧finite全比较不动。新core3c4922ee/wrapper033a8cac只显式复用首跑4960原件，0旧数学stage，立即续接。
+- R854真实NeedPrecision/N56/depth55 rank0，532stage已保；同core/helper/wrapper只升N112并继承完整原断点，目标仍7，响应未成/R858不启动。
+- 本push规则：公开worker真实pull并填已读SHA，两README6979d793/35f82f3d；新数学仅本公开Actions，§15必要原件单日续传，无raw入Git；主目标OPEN。

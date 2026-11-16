@@ -27,6 +27,23 @@ def coords(z):
 request = json.loads(Path("topics/rank2-sha-infinitely-many-p/ci/original-low-weight-map-request.json").read_text())
 pairs = [(int(n),int(k)) for n,k in request["pairs"]]
 assert pairs and all(n>=1 and k>=2 and k%2==0 for n,k in pairs)
+invalid = [(n,k) for n,k in pairs if n%17 != 0]
+if invalid:
+    gate_result = {
+        "kind":"rank2_original_low_weight_request_local_integrality_gate",
+        "status":"request_blocked_by_proved_17_integrality",
+        "source":os.environ.get("RANK2_SOURCE_SHA"),
+        "run_id":os.environ.get("RANK2_RUN_ID"),
+        "run_attempt":os.environ.get("RANK2_RUN_ATTEMPT"),
+        "pairs":pairs,"excluded_pairs":invalid,
+        "theorem":"R866 Appendix A: n Xi0 integral implies 17 divides n, including the integral-unit and three-isogeny transports.",
+        "scope":"No modular-form matrix or original-shadow calculation was executed for this request.",
+        "script_sha256":hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    }
+    gate_payload = canonical(gate_result)
+    print("RANK2_LOW_WEIGHT_RESULT "+gate_payload,flush=True)
+    print("RANK2_LOW_WEIGHT_SHA256 "+hashlib.sha256(gate_payload.encode()).hexdigest(),flush=True)
+    raise SystemExit(0)
 max_sturm = max(612*(k+1) for n,k in pairs)
 cm_precision = 3*(max_sturm+2)+1
 progress("complete original CM coefficients",precision=cm_precision)

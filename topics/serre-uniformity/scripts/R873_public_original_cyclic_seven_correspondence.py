@@ -413,6 +413,77 @@ def same_original_source(pin,actual):
         assert pin["certificate_sha256"]==digest
 
 
+
+def import_completed_source_carrier(item,out):
+    """Reuse the actual source-only failed R873 run, without importing its math tag."""
+    previous=item["completed_source_carrier"]
+    assert previous["result"]==RESULT
+    assert previous["no_completed_mathematical_stages_expected"] is True
+    assert previous["expected_conclusion"]=="failure"
+    folder=out.parent/"completed-R873-source-carrier"
+    folder.mkdir(parents=True,exist_ok=True)
+    archive=IO.Archive(previous,out.parent/"completed-R873-source-archive",whole=False)
+    try:
+        archive.extract_bound(MANIFEST,previous["manifest_sha256"],folder/MANIFEST,
+                              previous["manifest_bytes"])
+        original_manifest=read(folder/MANIFEST)
+        assert original_manifest["result"]==RESULT
+        entries={row["file"]:plain(row) for row in original_manifest["files"]}
+        assert len(entries)==len(original_manifest["files"])
+        assert not any(n.startswith("R873-") and n.endswith(".json.gz") for n in entries)
+        names=list(META)+[BUNDLE,INVENTORY,INPUT_RECEIPT,EXPANDED]
+        archive.extract_many([(n,entries[n]["sha256"],folder/n,entries[n]["bytes"]) for n in names])
+        initial=read(folder/"public-actions-input.json")
+        run=read(folder/"run-receipt.json")
+        core=read(folder/"core-receipt.json")
+        assert initial["result"]==run["result"]==core["result"]==RESULT
+        assert initial["source_commit"]==run["source_commit"]==previous["source_commit"]
+        assert str(run["workflow_run_id"])==str(previous["run_id"])
+        assert initial["core_sha256"]==run["core_sha256"]==core["source_sha256"]==previous["core_sha256"]
+        assert initial["wrapper_sha256"]==run["wrapper_sha256"]==previous["wrapper_sha256"]
+        assert run["complete"] is False and core["complete"] is False
+        assert run["process_exit_code"]==core["process_exit_code"]==1
+        assert run["core_receipt_sha256"]==entries["core-receipt.json"]["sha256"]==previous["core_receipt_sha256"]
+        assert core["configuration"] is None and core["certificate_sha256"] is None
+        assert FINAL not in entries
+        old_item=initial["job"]
+        keys=("result","p","producer_inputs_pending","original_helper","original_helper_sha256",
+              "proofs","original_source_pins","selection_pins")
+        assert all(old_item[k]==item[k] for k in keys)
+        old_expanded=read(folder/EXPANDED)
+        assert initial["expanded_job"]==entries[EXPANDED]
+        assert old_expanded["core_sha256"]==previous["core_sha256"]
+        assert initial["mathematical_configuration_sha256"]==fingerprint(expected_tag(old_expanded))
+        inventory=read(folder/INVENTORY);receipt=read(folder/INPUT_RECEIPT)
+        assert inventory["result"]==receipt["result"]==RESULT
+        assert inventory["complete"] is True and receipt["complete"] is True
+        assert plain(receipt["source_bundle"])==entries[BUNDLE]==plain(previous["input_bundle"])
+        assert plain(receipt["source_inventory"])==entries[INVENTORY]==plain(previous["source_inventory"])
+        assert receipt["selected_file_count"]==previous["selected_file_count"]==4960
+        assert old_expanded["retained_sources"]==inventory["sources"]
+        assert old_expanded["inputs"]==inventory["inputs"]
+        for group in GROUPS:
+            same_original_source(item["original_source_pins"][group],inventory["sources"][group])
+        for name in (BUNDLE,INVENTORY,INPUT_RECEIPT):
+            copy_bound(folder/name,out/name,entries[name])
+        # Only the transport config changes. Every original producer file/tag remains verbatim.
+        expanded=dict(item,retained_sources=inventory["sources"],inputs=inventory["inputs"])
+        save(out/EXPANDED,expanded)
+        save(out/"source-carrier-import-receipt.json",{
+            "result":RESULT,"complete":True,"source":previous,
+            "original_manifest":spec(folder/MANIFEST),
+            "original_expanded_job":entries[EXPANDED],
+            "source_bundle":entries[BUNDLE],"source_inventory":entries[INVENTORY],
+            "original_input_receipt":entries[INPUT_RECEIPT],
+            "original_selected_file_count":4960,"mathematical_stages_imported":0,
+            "original_seven_producer_identities_preserved":True,
+            "old_core_or_configuration_impersonated":False,
+            "original_source_byte_revalidation_required_before_new_math":True,
+            "range_transport":archive.receipt()})
+    finally:
+        archive.close()
+
+
 def prepare(item,out,allow_download=True):
     out=Path(out);retained=out.parent/"retained-R873";retained.mkdir(parents=True,exist_ok=True)
     if all((out/n).exists() for n in (BUNDLE,INVENTORY,INPUT_RECEIPT,EXPANDED)):
@@ -430,6 +501,9 @@ def prepare(item,out,allow_download=True):
         save(out/EXPANDED,expanded)
         return retained,expanded,receipt
     assert allow_download,"A completed R873 carrier is required for verify-only."
+    if item.get("completed_source_carrier") is not None:
+        import_completed_source_carrier(item,out)
+        return prepare(item,out,allow_download=False)
     handles={};transport={}
     try:
         # These are the earliest-expiring sources; all their mathematical bytes are reused.

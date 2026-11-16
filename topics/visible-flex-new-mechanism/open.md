@@ -156,3 +156,19 @@ R471—R480的全部原式接口、三次输入接线任务与冻结ψ3入口历
 ### R484：有理芽正则延拓锁定，退化与真平方门继续
 
 [完整证明](results/R484-rational-germ-continuation-locking-and-finite-acceleration-discriminant.md)保同一最终w/χ、真实前缀八矩及端点势；若两相位C加速度minor非零，真实13状态ODE唯一性锁定原抛物线解析延拓。固定κ/ω时h⁶C次数≤6，离开须全相位rank降，候选h在≤12次非零多项式有限根中；单个pair根不等于真降秩。未判本实际库minor，恒rank≤1/新F_acc退化库/奇点平坦光滑分支仍可研究；即使进常scalar段还需原平方、一次与常数三门。下一完整F主三导平方与C²余表/真约束路径，不把加速度行清零当任意路径可走。
+
+### 2026-11-16 08:29:38 UTC — 真正新的正曲率 cap 五门搜索入口
+
+[设计](notes/cap-five-positive-curvature-search-design-20261116.md)冻结15个实际ρ=v″>0参数，固定6起点/盒[-6,6]；完整左平端/右simple-A、八原Aj和五Δ同次积分，15解析敏感度；候选至多两次同参数精化。唯一120秒/400started预算从imports前到最终输出，旧ψ3E/self/rank和独立开发均0。仅准备源码未有执行结果；public workflow自动首运行后原样记录结果与费用。并行继续接受54的新模型与原门下降、R486完整principal平方门。主课题未完成。
+
+### 2026-11-16 08:32:08 UTC — cap五门真实首步失败，原预算内继续
+
+[原结果](notes/cap-five-positive-curvature-first-start-failure-20261116.md)：run43831664308/job133178210211/source03bfffd1…，prefix63回调完成；首零参数cap第14RHS溢出，尚无完整五门/J。FINAL0.5630522320000182秒，started2/complete1/fail1；原日志106370B/0e78611c…保全。不称有限或全局失败；只修首步并读回已付prefix，原同120秒/400started中carry失败。双actualpull空diff，公开已读0620f8d6…、私有ef9137d6…，QUEUE唯一进行中。新54模型与R486/487同步继续，主门未付。
+
+### 2026-11-16 08:32:45 UTC — R486 完整三导平方与状态开域障碍
+
+[R486](results/R486-full-ruling-principal-square-and-obstruction-to-an-open-state-family.md)把原R296点态三项相消推广到任意真实水平路径，保真正初端A/T/速度常数；完整principal为−Σa_i²d_i∫(Q/h)L_i²(u_i‴)²，余表有限quartic C²但不可冒全可控。原全W与完整两表给H_PP,2−H_SP,1=−(5/2)Σd_i²∫(u_i″)⁴，在π/2等于−10∫g″⁴<0。因此固定同规范的完整无加速度F不能在13状态开域全零；不排实际ODE的低维允许路径。常scalar真M_c=bvᵀ、rank1/M_c²0且physical权b/(4h)，须在该关联族判完整平方及入口两系数；算子复合不由矩阵平方0删除。54高阶/108完整生成上界非实际秩。0新执行/旧重算，主完成未付。
+
+### 2026-11-16 08:33:00 UTC — R487 真log曲率提升与固定全端germ的五门下降
+
+[R487](results/R487-true-log-curvature-lift-and-fixed-end-five-gate-descent.md)把R481任一紧δU=φ准确提升为gφ=((2/3)p^(−1/3)φ′)″/ρ，原同锚恢复给δU=φ、端数据一阶0。三真normal核1/−t/K且K″=3√v/2>0，五+三可逆block通过有限IFT保整个右germ/左germ和正ρ，准确实现F→(1−ε)F；一般normal的端势与全部归一敏感度保留。当前15预选正bump并未获这个满秩收据；盒内精确非零驻点必有模型外允许下降，边界或浮点optimality不作该断言。无统一步长/有限全局零结论。0执行/旧重算，下一可消费首次真实cap的新适配方向，主几何未完成。

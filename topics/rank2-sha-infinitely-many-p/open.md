@@ -62,7 +62,7 @@ R866/R869公开producer已给原T9的Φ17（18×18，总degree34，291项）与�
 
 [R870](results/R870-original-low-weight-quotient-and-exact-elliptic-coordinate-certificate.md)给真正小入口D=X0(867)：h(Q)=H0(q)³∈S6，A,B∈M_k、C=(DQ A)B−A DQ B。完整C³=n³h A²(A+vB)²B²检验0..612(k+1)项，连同原germ和∞基点即严格认原nΞ0。k2的M维120、低截止409、最后截止1836，成功degree≤204；degree≤119保证有k2表示。任意非零低核给同一比值，允许共同cusp零。
 
-**正在执行：** 独立公开run43827859642，顺序(n,k)=(1,2),(2,2),(1,4)，原完整CM系数/小纯三次域/同一实际全局基。好辅助素数满列秩仅排固定低权候选；非零核必须在特征零复原并通过严格恒等式。n1未获认证，不把候选germ或有限前缀当坐标。
+**原候选已理论排除：** R866附A证实17|n是必要条件，所以原run43827859642的n1/2在所有权都不能产生真实映射。本提交以17整性guard替代这组不可能请求；先算R873实际范数下界，再选择真实n/权，不认n17充分。
 
 [R867附录A](results/R867-original-single-hom-and-integral-hecke-three-basis.md)给真实整R=2T7²+7T7−8T13−28，其packet值r³−3r+1=0、逆3−R²；仅在原Hom格互逆，不认整个J可逆。原完整8/64/14邻点迹与闭点重数保留。原同nΞ0一旦认证，δζ两式给3nΞ_i全部真整，改进旧57；可用整unit换同格映射并以整逆返回，首微分系数不得免费归一。
 
@@ -117,3 +117,11 @@ O4/O6/O7、R364/R561/R654/R712和完整归档中未闭门全部继续；子问�
 备用3同源需实际证书，不能将其清分母条件与unit等价混同；正做原Petersson/CM范数以选择实际权与同格向量。
 
 - [R864附录A](results/R864-original-seventeen-torsion-exact-field-and-cocycle.md)：原e=18−7a与η=324+126a+49a²整互逆，η²=−av，故同一目标小参数v_sm=e³v=7−18a²/17满足x³−21x²+147x+1/17。显式整单位同构保原n/次数/全部Artin，微分变ηHi；形式参数(nη)³v_sm=n³v不变，不假称度数或germ改善。
+
+- [R865附录A](results/R865-actual-high-axis-product-and-first-divided-row.md)：同一原有限L1准确为q_p(2)/3−3q_p(3)/4+1/3 modp，完整Rflat/a=1−q2/3+3q3/4。两binomial/cubic-unit谐和式及六分之一截断自含证明付全常数；h1和四中央下同Qc规范同步。未证该Fermat商组合无穷非零，更高谐和位/原三残差/同P/R/S全部保。
+
+- [R872](results/R872-actual-quartic-third-carry-and-central-first-digit.md)：原quartic τ=k−13∈{1,2,3}、τ<ell≤r+h−4，固定同X=P+pR+p²S已过全p³，第三13带行ε³w^(τ+9)对实际首高位的单位响应准确−6ab0C0u²e²；第二块折回+12a不能漏。真实联合式Bτ+6aC0u²e²·η0F(h0)/p=0保全高尾。S的可调性正是K1上[w^(s+τ−4)]W2的最后三尾泛函，尚未判全同源页不可解。
+
+继续判同原K1三个最后尾的真实受限像与同R补偿；单行单位响应、L1闭式或纯quartic子格零均不代完整第三类非零。
+
+- [R866附录A](results/R866-original-modular-function-certificate-and-level-nine-model.md)：原17处最小模型a3′=17v、ordΔ8给ωv=aω′；原X0(2601)的∞整光滑q盘上Néron延拓迫首系数n/a整，故实际nΞ0必有17|n（理性r亦v17(r)≥1）。原整unit与3同源备选经已付整逆/dual返回，同样排除17∤n；与权和截断无关，不认17已足够。

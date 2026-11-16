@@ -1,6 +1,6 @@
 {
-  "request_id": "rank2-20261116T0800-original-low-weight-map",
-  "utc": "2026-11-16 08:00:24 UTC",
+  "request_id": "rank2-20261116T0832-original-local17-gate",
+  "utc": "2026-11-16 08:32:36 UTC",
   "pairs": [
     [
       1,
@@ -17,5 +17,8 @@
   ],
   "scope": "R870 original n Xi0 only, with complete original CM character and exact global modular-form certificate; no assertion of a nonzero original shadow.",
   "image": "sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb",
-  "output_policy": "Public Actions console only; store source, parameters, run metadata and hashes. No artifacts, releases, or recomputable coefficient files."
+  "output_policy": "Public Actions console only; store source, parameters, run metadata and hashes. No artifacts, releases, or recomputable coefficient files.",
+  "request_action": "validate_only_superseding_impossible_n",
+  "reason": "R866 Appendix A proves that every original integral n Xi0, its integral-unit transports, and the three-isogeny candidates require 17|n. The previous n=1,2 candidates are impossible at every weight and are superseded without another modular-form matrix.",
+  "proof": "topics/rank2-sha-infinitely-many-p/results/R866-original-modular-function-certificate-and-level-nine-model.md"
 }

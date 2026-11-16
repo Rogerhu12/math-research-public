@@ -460,3 +460,15 @@ Phase亲核23项最终manifest/flow闭合：39唯一current、9AST、1378390原�
 ## 2026-11-16 08:26:20 UTC — integrated-source派生报告单路径恢复白名单
 
 完整核原2349B小note、7381B producer、2084B qsummary、3129B descriptor；原报告209005B正文未取，其SHA1157bc1b由原小note继承，current与restore两tree同868cb8ab/209005已独核。root逐58当前全文1480349B核bytes/SHA/UTF8及basename/reportSHA零命中，最终manifest4093b44c固定，不能声称未来consumer无依赖。先推白名单ea97f78df086bb29a644620c9e746182741539fadf8013a9e19715f8f98a8818，再freshguard仅删该派生账；全部原成功/signed未付/源/native/参考定义/恢复史均保。H旧WGSA摘要仅缩已保全文索引，前H在754eeff9，任何旧数值/域/失败义务不减。README核7f7ca378ecf169507b6c21d66728dd5b1af90931同已读。
+
+## 2026-11-16 08:26:38 UTC — 单路径derived integrated-source账普通清理
+
+先bed3fdd6发布ea97f78d完整恢复白名单，再以当前tree精确path/blob/size guard普通删除notes/2026-11-12-step5-integrated-parameter-source-budget.json（868cb8ab/209005）。仅此科学派生文件删除，其他源/原小结/真实参考定义/native不动。需要时从6a53642d050b9290c8434db1c249c011707d3306同path恢复原字核SHA1157bc1b，禁止重算成功producer。README对照7789431ad560ae4ca102976fd75f1362940904d3同已读；继续余30记录新consumer。
+
+## 2026-11-16 08:27:55 UTC — remaining-only完整30记录新consumer冻结
+
+driverb08ebd9c/44026/a6d581ba、mathc8707ebf/24015/00aaf402、worker901dc9f9/99150/fb7f09c2、outputcontractaeb0cc9c/40457/e58c4900及manifest2207c6c1/29784/4093b44c分别固定。root完整读58当前文本1480349B并逐hash；Phase完整driver+schema/validator，Tail无alpha-renaming运维主干机械核，Newton接口核。新的3图52/8/15槽=39prefix+6old+30new，events严格13/8/9；旧23binding不改，Phi0不造。原failedrun43827705714/1与lost0保，明确合同先于续算；无本地数学/新run。成功193256B/最大失败208616B、120KB pre/live保留，全部raw先stdout再formats。README核d72f6a165043ddc00e78b1062b79ab86c7b4ef4b同已读，实际CI pull仍08:00:07；接下来只触发新workflow一次。
+
+## 2026-11-16 08:29:44 UTC — 只触发一次剩余30记录的公开Actions
+
+新flow284a6b7f/7011/8983ce23固定manifest4093b44c、drivera6d581ba、workerfb7f09c2；仅push该新flow path触发，旧posterior不改/不重跑。先安装Git、filter blob:none部分checkout、验证worker、hydrate58完整小文本、AST3，再用stdlib worker独立重建23+39完整admission（未import数学），最后安装pinnedflint并唯一new child。sourcepackage已先f06a3a74，H先有4ca7c1d4精确剩余范围。当前topic199669566，完整分支上界199878182<200M，pre reserve亦合。此时仅已提交运行，未声称新数学成功；README核03bfffd120026aa5f25187dc0c0ec5c01705e709同已读，实际pull由新worker完整记录后更新。

@@ -1,0 +1,242 @@
+{
+  "schema": "cap5-positive-curvature-search-v1",
+  "entry_point": "scripts/literature_cap5_positive_curvature_search.py",
+  "scope": "First bounded search on one actual 15-parameter positive-curvature cap family for all five complete R471 conditions.",
+  "scientific_inputs": "new_family_only_no_paid_logs",
+  "limits": {
+    "seconds": 120,
+    "started_integrals": 400,
+    "search_seconds": 112,
+    "search_integrals": 397,
+    "per_start_nfev": 64,
+    "parameter_bound": 6,
+    "stdout_soft_bytes": 3000000
+  },
+  "dependencies": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "family": {
+    "coordinate": "y in [0,1], t=y-1",
+    "germ": "U_g(y)=exp(-3/(2*y-y*y)); exact flat extension at 0",
+    "rho_base": "v_g'' for y<=1/8; positive smooth blend on [1/8,3/16]; 1-y for y>=3/16",
+    "curvature": "rho_base*exp(sum(c_i*B_i)), c in [-6,6]^15",
+    "fine_centres": [
+      "3/64",
+      "4/64",
+      "5/64",
+      "6/64",
+      "7/64"
+    ],
+    "fine_radius": "1/128",
+    "wide_centres": [
+      "1/5",
+      "11/40",
+      "7/20",
+      "17/40",
+      "1/2",
+      "23/40",
+      "13/20",
+      "29/40",
+      "4/5",
+      "7/8"
+    ],
+    "wide_radius": "1/10",
+    "wide_basis": "raw bumps divided by 1+sum(all ten raw bumps)",
+    "initial_exact_germ_interval": [
+      "0",
+      "1/32"
+    ],
+    "normalized_endpoint": "p(0)=r(0)=1 by actual positive amplitude and width; H=u*r/p^2",
+    "positivity": "A_f=9*v^2*rho>0 inside; A_f(1)=0 and A_f'(1)=-9*v(1)^2<0",
+    "finite_scope_only": true
+  },
+  "starts": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      -3,
+      -2.3333333333333335,
+      -1.6666666666666667,
+      -1,
+      -0.3333333333333333,
+      0.3333333333333333,
+      1,
+      1.6666666666666667,
+      2.3333333333333335,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      2.3333333333333335,
+      1.6666666666666667,
+      1,
+      0.3333333333333333,
+      -0.3333333333333333,
+      -1,
+      -1.6666666666666667,
+      -2.3333333333333335,
+      -3
+    ],
+    [
+      1,
+      -1,
+      1,
+      -1,
+      1,
+      2,
+      -2,
+      2,
+      -2,
+      2,
+      -2,
+      2,
+      -2,
+      2,
+      -2
+    ],
+    [
+      3,
+      3,
+      3,
+      3,
+      3,
+      -2,
+      -2,
+      -2,
+      -2,
+      -2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    [
+      -3,
+      -3,
+      -3,
+      -3,
+      -3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      -2,
+      -2,
+      -2,
+      -2,
+      -2
+    ]
+  ],
+  "source_manifest": [
+    {
+      "path": "scripts/literature_cap5_positive_curvature_search.py",
+      "bytes": 31582,
+      "sha256": "ab19482e582c93a552b915d8d813cc6f4d36c94f88f2b2ed4eb266179b892c38"
+    },
+    {
+      "path": "notes/cap-five-positive-curvature-search-design-20261116.md",
+      "bytes": 11527,
+      "sha256": "917789e58b5cddf3ebe0131f6e0d9aa58236e68f880be072041fb6ace39fa8ea"
+    }
+  ],
+  "mathematical_sources": [
+    {
+      "name": "R471",
+      "blob": "3632fcd81244cbc2efa03fd984770e63cd726b8e",
+      "use": "all twelve density terms, six beta and five complete Delta"
+    },
+    {
+      "name": "R475",
+      "blob": "16bb87a5e6faf5a3b2c0e9a96ae6af81de667f97",
+      "use": "actual positive curvature cap parameterization and normalization"
+    },
+    {
+      "name": "R481",
+      "blob": "b102969f5ddaab8b6f6ec96b43e886df91f7ee0e",
+      "use": "scope only: local regularity does not assert family zero"
+    },
+    {
+      "name": "R483",
+      "blob": "a611365ae7610b93c9c6888d4efa944c4f4ae00a",
+      "use": "scope only: original tails and true compactification, not an input re-evaluation"
+    }
+  ],
+  "outputs": {
+    "records": "CAP5_RECORD, every started/completed/failed integral and exact parameters",
+    "final_clock": "CAP5_FINAL_CLOCK; includes imports, input, failures and complete output",
+    "complete_fields": [
+      "raw endpoint",
+      "raw I[0..7]",
+      "normalized A[0..7]",
+      "beta[1..6]",
+      "R[1..6]",
+      "five Delta",
+      "two full 5x15 Jacobians",
+      "unique proportion",
+      "complete E diagnostic"
+    ],
+    "science_data_only_in_stdout_and_runner_temp": true,
+    "no_raw_output_git_blob": true,
+    "no_artifact": true
+  },
+  "classification": {
+    "floating_small_candidate_is_not_exact_zero": true,
+    "bounded_failure_is_not_global_nonexistence": true,
+    "old_psi3_E_repetition": 0,
+    "old_self_rank_forcing_repetition": 0,
+    "independent_development": 0,
+    "full_mother_library_installation": false,
+    "actual_full_joint_or_period_completion": false
+  },
+  "repository": "Rogerhu12/math-research-public",
+  "expected_readme_blobs": {
+    "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
+    "topics/visible-flex-new-mechanism/README.md": "d0432faff569c8e9af7ed4809847e12880976c11"
+  },
+  "sync_private_rules": true,
+  "expected_private_readme_blobs": {
+    "README.md": "5ba164843b1f5802184178a82d786264404873a3",
+    "topics/visible-flex-new-mechanism/README.md": null
+  },
+  "queue_session": "Astra-new-mechanism-9974ea84",
+  "source_sha256": {
+    "topics/visible-flex-new-mechanism/scripts/literature_cap5_positive_curvature_search.py": "ab19482e582c93a552b915d8d813cc6f4d36c94f88f2b2ed4eb266179b892c38",
+    "topics/visible-flex-new-mechanism/notes/cap-five-positive-curvature-search-design-20261116.md": "917789e58b5cddf3ebe0131f6e0d9aa58236e68f880be072041fb6ace39fa8ea",
+    "topics/visible-flex-new-mechanism/scripts/read_original_actions_log.py": "b7b16d0917bf99e4183421ab6d5c1dd33b9c0fe8009ad59a5141a17d798e5c4a",
+    ".github/workflows/visible-cap-five-positive-curvature-search.yml": "b9e7cb3806ca4df8f8aca526ff03319889857c4756d89ab665350edda82b84a4"
+  },
+  "publication_policy": "Only sources, parameters, identities and human conclusions in Git; raw results only original public Actions stdout and runner temp."
+}

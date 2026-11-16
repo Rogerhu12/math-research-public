@@ -5,9 +5,9 @@
     "p": 41,
     "producer_inputs_pending": false,
     "core": "R873_original_cyclic_seven_correspondence.py",
-    "core_sha256": "efe62506123f586dc441758e691df6468d1d4af151ea62e6e8087e1a13c721cd",
+    "core_sha256": "3c4922ee5b83d82123d234df47e67f82d7c8032f1152c6cf14df34622101918c",
     "wrapper": "R873_public_original_cyclic_seven_correspondence.py",
-    "wrapper_sha256": "03c2d2275704e773117cc3e075c0b0868c43d763f0d50426f5637b722241820b",
+    "wrapper_sha256": "033a8cacb5d9699f3426e0a66cb11d2659a724e1300a5f4d4488f27483d2560a",
     "workflow": ".github/workflows/serre-R873-original-cyclic-seven-correspondence.yml",
     "original_helper": "R786_exact_power5_short_basis.py",
     "original_helper_sha256": "4508095a95a2bcaec8c8db8fcd550fbc618b017d2bc0007945783bc109dbf851",
@@ -27,7 +27,7 @@
         "sha256": "803b93515ccc61388e1564c5161a27f58f13a818bc7fe5544b3aef88ca2384e5"
       }
     },
-    "rules_last_read_commit": "87130840762325c819f717a2f77d17ca5e72bc80",
+    "rules_last_read_commit": "8564014195a7cbdc6c0d4460513c7f179dff435c",
     "readme_sha256": {
       "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
       "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -284,6 +284,33 @@
         "sha256": "7ec0fd41e08dbaf7e1f4b1931c101b6f1ad8d03f38e55fb79969e339877e381d"
       }
     },
-    "resume": null
+    "resume": null,
+    "completed_source_carrier": {
+      "result": "R873-original-cyclic-seven-correspondence",
+      "run_id": "43830067416",
+      "source_commit": "a07453ec81e832b0aeef99bded2efaa763adaf13",
+      "core_sha256": "efe62506123f586dc441758e691df6468d1d4af151ea62e6e8087e1a13c721cd",
+      "wrapper_sha256": "03c2d2275704e773117cc3e075c0b0868c43d763f0d50426f5637b722241820b",
+      "artifact_id": 14207709262,
+      "artifact_name": "serre-global-R873-original-cyclic-seven-correspondence-43830067416-1",
+      "archive_bytes": 346405554,
+      "archive_sha256": "6ed2434eb79dfcafa157fda081490d6f3fb21a866513aab802ce52c6e3bb9f0f",
+      "expected_conclusion": "failure",
+      "manifest_sha256": "7c2f41d86e8d524fb99c400f5b3be35b2c829cf1a1a843fc671e07c7c55a9f8c",
+      "manifest_bytes": 1179,
+      "core_receipt_sha256": "e65ac66e54548005edd6bb819a10a608832fb5b93dbaf56b0d9f5a6f1bb4a625",
+      "input_bundle": {
+        "file": "R873-retained-original-inputs.tar.gz",
+        "bytes": 344533352,
+        "sha256": "73069a32febc888d5b3f777593279e002e0a9dbf3b45be360e600121b2f5ea2a"
+      },
+      "source_inventory": {
+        "file": "R873-original-source-inventory.json",
+        "bytes": 918766,
+        "sha256": "5daa5696f21d76817b071ab7a0a6d814c24fea8d3b5bbbc66951759191cc094f"
+      },
+      "selected_file_count": 4960,
+      "no_completed_mathematical_stages_expected": true
+    }
   }
 }

@@ -6,6 +6,12 @@
 
 ## 新增结论
 
+- 仅余30记录的公开新 workflow 已提交一次触发；先执行独立 AST 与全部旧记录纯 JSON 验收，再允许唯一科学 child。原43827705714失败记录保持原样；本次实际运行状态及完整输出尚待读取。
+
+- [仅余30记录的完整输入合同](notes/2026-11-16-R133-WEJ-remaining-current-inputs.json)已冻结：58份完整当前文本1480349B、3 AST、53原输入绑定/2新模块、0history。新 driver/worker 在原23图和39前缀全部原字验收后，只调用13/8/9新记录；原12receipt、212门/280字段、两原copy、旧绑定与失败状态完整保留。完整成功/每种失败前缀独立预算193256/最多208616B；所有值先保存及完整打印再做格式门。尚未触发新科学。
+
+- 容量：在 bed3fdd6 先推恢复白名单后，以 fresh current tree 核对唯一868cb8ab/209005B，再普通删除该派生积分账。全部原小结、169叶+collar正模数成功、signed/twist 未付范围、q/native/descriptor/源及6a53642d恢复点保留；没有大正文读取或旧数学重算。
+
 - 容量：单路径[完整恢复白名单](notes/2026-11-16-R133-integrated-parameter-source-report-cleanup-whitelist.json)固定 209005B 派生积分账的原 blob/SHA 与 6a53642d 同路径恢复点。原169叶及真 collar 正模数积分成功与 signed/twist 未付范围均保；root已完整核当前58输入无该报告依赖。此提交只立白名单，未删除、未获取大正文或重算。
 
 - [WEJA：23 个完整实际图及完整失败前缀](results/R133-supplement-actual-complete-waist-error-prefix-and-preserved-first-attempt.md)：43827705714/1 的全部 30 件科学文件、23 份完整 shape/binding、原始 212 门/280 字段、19 原对象/15 完整子结论、两份 preGit 原字重建及 39 条事件与语义记录均已独核。已保存 1639 条新记录与9原复制，零已算记录丢失；原运行保持 failure，剩余仅 30 新记录。完整物理 mean、两窗 N6、3070 真跳点、负侧接收及133槽腰重建的范围已分别记录；极大有限界不授高门、finite 逆或背景。

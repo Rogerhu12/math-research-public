@@ -1,0 +1,104 @@
+{
+  "format": "r150-original-full-bell-homogeneous-source-prefix-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "historicalInputs": [],
+  "sources": [
+    {
+      "role": "driver",
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "blob": "c5e81e3e97d0123df214a994667c5b046171ec82",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "role": "unchanged-original-model-helper",
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "blob": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "coefficientField": {
+    "definingPolynomialAscending": [
+      52565262336,
+      6080833024,
+      -43931504,
+      3725
+    ],
+    "prime": 127,
+    "place": 100,
+    "placeMustBeSimple": true
+  },
+  "originalScope": {
+    "meanVariables": 6,
+    "hankelVariables": 11,
+    "originalGradients": 17,
+    "extraGenerator": "Bell-minus-one",
+    "homogeneousVariable": "tt",
+    "homogeneousExtraGenerator": "Bell-minus-tt^3",
+    "originalVariableWeights": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "meanNotSpecialized": true,
+    "hankelNotSpecialized": true
+  },
+  "runtime": {
+    "python": "Python3 with python-flint0.9.0",
+    "computerAlgebra": "Singular executable; actual binary SHA and --version recorded; degree2 absence followed by degree3 resumed t^3 original-source selftest is mandatory",
+    "installPerformedByThisSource": false
+  },
+  "firstRun": {
+    "seconds": 300,
+    "memoryMiB": 4096,
+    "outerSeconds": 360,
+    "through": "field",
+    "throughDegree": 9
+  },
+  "checkpoint": {
+    "boundary": "whole verified weighted degree",
+    "outputDirectory": "original-full-bell-homogeneous-source-prefix",
+    "budgetExcludedFromBinding": true,
+    "sourceChangesRequireNewOut": true,
+    "pendingPairQueueSerialized": false,
+    "previousCompleteBasisAndOriginalSourcesRetained": true
+  },
+  "expectedOutputs": [
+    "original-full-bell-homogeneous-source-prefix-receipt.json",
+    "manifest.json",
+    "complete-original-full-bell-saturation-model.json.gz",
+    "complete-independent-original-source-selftest.json.gz",
+    "complete-original-source-weight-NN.json.gz",
+    "complete-original-affine-field-source-for-one.json.gz (only if actual positive)"
+  ],
+  "claims": {
+    "finiteFieldSourceAloneDoesNotProveCharacteristicZero": true,
+    "absenceThroughDegreeIsNotIdealNonmembership": true,
+    "noParameterPointTests": true,
+    "allOriginalSourceLabelsRetained": true
+  },
+  "validationAtFreeze": {
+    "pythonAST": false,
+    "compiledOrRun": false,
+    "reason": "shared execution environment is offline; initial Actions execution must perform parsing and the mandatory independent two-degree Singular source and continuation selftest"
+  },
+  "storage": {
+    "permanent": "source, parameters, proof, execution metadata and complete output SHAs only",
+    "mathematicalArrays": "temporary job workspace; no new repository result JSON arrays"
+  }
+}
