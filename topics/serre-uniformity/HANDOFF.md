@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：5319b1cd38dc60817ebff9cd4965378ccb7244b1**（2026-11-16T00:36:53.537971+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R844前完整H](handoff-archive-2026-11-16-before-R844-certified.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：24d1f61d74536fdc438cf4dc82c4d820ffabafee**（2026-11-16T00:40:00.741528+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R844前完整H](handoff-archive-2026-11-16-before-R844-certified.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -31,7 +31,7 @@
 
 
 
-**短CM候选的准确接受仍缺A.1**：[单值零证与转置](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；原F_Aᵗλ/Cᵗλ全乘回与129×20转置卷积接口保留，无现成Q逆/dual高度界。[小L七条件已全部准确通过](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)：run43777163403/sourceea5996fe，0.048331866秒/2stage，原q/d共轭、非零、x̂³和微分均true；final4d9a6ec5/manifestce1d0e39，artifact14186558953/4683b467到Nov16 23:53:10。原A.1、原点坐标接受、旧R792 success、eta/height仍false，不重本七条件。
+**短CM候选准确接受仍缺A.1**：[原单值接受](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；[小L七必要条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)run43777163403已全过，final4d9a6ec5，不能代A.1。[无逆清残差转置](notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md)eb5893ec已证：Frobenius整数J将原正κ幂转置，128×20的Θ加140补集成为可逆2560方阵，旧14支A/Schur/inverse_clear全复用；新RHS从1位起，严格RR＋准确全乘回后Δ给d(A0−qB0)=−Δ，未有dual current/接受结论。[来源契约](notes/R787-cleared-dual-operator-source-contract.md)c6ca7d3a保原129阶/1,s/82^10与旧14支202.5MB，旧518非新dual精度，无速度或高度保证。
 
 **R843原p41点非挠已证**：[结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518给m999960637，44步后真实t赋值1/A518，Qell形式群无挠证原P非挠。原β∈A(Q)/Q-simple给全部非零L-Hom值非挠及原字正负分支；finale4f926d3/artifact14187431986至Nov17 00:06:16，185源carrierdd6bb50b。原算术不重，A.1/展开/eta-height false。
 

@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:36 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:40 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -102,3 +102,9 @@
 - final57a2e3ec/program97a8fb3f/manifestb21b40d4/configfbbcb472；artifact14188376841/dd4c04a1，251源carrier1.816MB/479f587a，完整2.02MBZIP/13件纯IO核。旧CM/Dixon/非挠/Hom不重；常数Nb/b7与原κ/v规范保留。
 - 全局五极除子/c0刚性化/eta-height、展开坐标和A.1仍false。H触10KB前逐字归档再缩已成摘要；原D铅笔已推a43b6afa，继续读实际结果与原全局函数接口。
 - 本push规则：本地真实pull至5319b1cd38dc60817ebff9cd4965378ccb7244b1（2026-11-16T00:36:53.537971+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:39（Asia/Taipei）— 原单值零证的无逆清残差转置
+- 证明eb5893ec：原正残差H=L(F_A,−C)，整数Frobenius配对J使μ(a)^tJ=Jμ(a)；加140补集条件后Θ为2560维单位方阵，原14支A/Schur/CJP/inverse_clear直接给任意新RHS模解，无高精度κ逆或新大逆。
+- 精确目标d(e,−qE_P,0)，准确Θ乘回后单标量Δ满足d(A0−qB0)=−Δ；严格有理重构在无限续算意义下终止，不声称dual高度小或快速。root已对读原branch_laurent/residual/correction的246³、κ²..κ¹²⁹和负号端点。
+- 来源契约c6ca7d3a保129全阶、原CM/eZ的1,s与已含82^10；新dual从1位开始，旧518 current不冒充，尚无active request或新算术。R844已推63cd41c7，非快进立即实际pull/rebase后成功。
+- 本push规则：本地真实pull至24d1f61d74536fdc438cf4dc82c4d820ffabafee（2026-11-16T00:40:00.741528+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
