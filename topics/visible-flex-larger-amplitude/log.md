@@ -99,3 +99,8 @@
 ## 2026-11-16 /root — R441完整分辨率源码与原全部终门
 
 [R441](results/R441-fixed-target-angular-and-tail-step-refinement.md)/[完整接口](notes/2026-11-16-current-C-ten450-angular-step-and-angle-refinement-interface.md)发布18独立源：bf7d writer、bf1f driver、2247 owner按真193/joint203/原R431或自身实际接受450，真实整数四因子改N/原steps/材料与物理角；同原18900+2700钟先重生完整112 sampler再解新全450，保父全节点/词/knots仅初猜、全新RHS/H/J/FD/fullDN/final/audit，原门不变。全新Saved/radial/shared/准确cut/帽/四Loewner/块reach/独立held与实际N全FFT/DC/Nyquist/两mean绑定；第一真实W/H/全marker/cuff逐词冻、材料Phi差异仅R443条件运输。18全diff/证明/接口已读，无本地科学/AST/import/compile；无实际因子/父/run/收敛预填，非径向网格或M精化。
+
+
+## 2026-11-16 /root — R447准确公共材料定义与可选六jet
+
+[R447](results/R447-accurate-common-material-phase-and-strong-C2-continuity.md)/[接口](notes/2026-11-16-accurate-common-material-phase-consumer-interface.md)证明准确公共相位为 $R_\alpha K_j(x,\Theta_j^{-1}(\Theta_0(q)-\alpha))$；平cuff整环抵消、两非对称帽固定，准确T拉回同g并保持原相对Loewner的eta。已有全圆材料正性及完整空间C²/接缝下，紧图册联合连续给README所需全t强C²连续；不增加时间二次可微或四阶数值门，12混合高jet仅可选更强责任。独立305eaf50 helper绑定首R437原材料/plan/assembly与当前R416/R441完整112；准确定义不调用数值逆，可选闭cell六jet用完整实提升包含、全部模式和原预算回调，无宽度门/新钟。三件全文已读，未科学执行；不冒实际全域cover、嵌入或跨j统一C²精化。
