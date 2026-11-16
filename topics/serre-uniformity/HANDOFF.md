@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：a8cda45f24f6b69ddfd66ca4a128aaf1e1343949**（2026-11-16T03:49:12.282533+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[有限RR前完整H](handoff-archive-2026-11-16-before-finite-RR-source.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：063c8643c68fe6a8b2fe0b7ef3f65cba666dd047**（2026-11-16T03:50:54.538205+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[有限RR前完整H](handoff-archive-2026-11-16-before-finite-RR-source.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -52,3 +52,5 @@ ordinary原43/776bitq已Gaussian5排非反例；Shapiro337a/θ7388同Σ、唯一
 **R851全充分大允许p的原Cartier-g单位已证**：[结果](results/R851-original-cubic-central-value-and-third-position-Cartier-unit.md)afe25117：p≥257，e=1/2对应p2/5mod9，D=4p^e的真S_D=L(C_D,1)/Ω_D∈Z非零。Rubin坏惰性p适用的BSD/Cassels给偶v_p，精确AFE纸界0<|S_D|<p²迫单位。原χ6/CRT/36p/Ω相位完整给S0/C0=p S_D/(3D^(1/3))；整μ_(p²−1)全尾及R683/R770准确推出C_k、g_((k−2)/6)单位，k=(3−e)(p+1)/3。同原h=e(p+1)/3−3本原；p18r5为g_r，p18r11为g_(2r+1)。同h的f_i及Legendre仍缺，未称三个单位或主目标完成；无新算术。
 
 **原Y有限RR矩阵与最小来源已证**：[FM](notes/2026-11-16-original-Y-finite-RR-matrices-and-source-leaves.md)a5d65aa4：完整生成矩阵清分母后取deg p_i≤deg dτ+ord₀dσ−ε_i，以实际minor Δ在k[z]/Δ及k[v]/(qΔ)中给完整membership核；不先HNF、不拆闭点。三原V1共轭复用560×146原矩阵/选行并全乘回；δE=g∂zE+h∂wE直接用R813准确g/h(6724一次)及R820两图272列，不等Γ/Mg。原模kernel不能代char0理想，128/634 RR与三共轭尚待真正执行。
+
+**原41四响应/单Z真实消费契约已定**：[41C](notes/2026-11-16-original-41-single-Z-consumer-source-contract.md)569aa684绑定同一2420 solve、原四响应/17域常量/529→733不变。直接L41十四坐标球，须实际41逆范数界＋完整残差后才认精度；[42]/ψ₂=−2y/6n−1分母全尾给一个Z，其七共轭等距运输。ZA268fa3f的五C/D及7tr已正式pin，非41/Y/ℓ不删；R854实际求解核心在写，无新41数值。
