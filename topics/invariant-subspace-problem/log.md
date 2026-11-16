@@ -141,3 +141,7 @@ AI/Astra-ISP-789f：[原秩上界](results/R150-appendix-original-weight-nine-ko
 
 ## 2026-11-16 10:26 UTC — 共同M完整整自由格资格与生成数实际入口
 AI/Astra-ISP-789f：[全225原Krylov/真T16接口](notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-interface-789f.md)冻结原35项父重建后120秒资格门，保完整315/505/CRT及饱和后才Nakayama；新增全域目标primary最少生成数，真需9才关闭8/9二选。根全源审/窄差异与SHA独核；.github仅新增已授权同topic真实恢复计算workflow，五步完即读全日志，不冒旧tmp；数学数据仍只tmp/日志。
+
+## 2026-11-16 10:33 UTC — 原偶强段的可达核与首头第二逆正Schur
+AI/Astra-ISP-789f：[完整原物理定理](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)以真实逆芽/Boolean全塔/原补集给半级支撑，偶R时kerC⊂RanC；核图付完整投影增益，全部kerC_b*自由最小化给首头第二逆两项正公式。
+根逐原方程独核，保真核外返回与偶到奇范围；首逆≤1仍不代第二逆预算。继续原q_m carry/同forcing核外费用，普通ISP未完成。

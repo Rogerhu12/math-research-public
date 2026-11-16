@@ -194,3 +194,5 @@
 
 
 - **原权九严格秩上界。** [完整396条Koszul关系与立方负门](results/R150-appendix-original-weight-nine-koszul-rank-ceiling-and-rigorous-cube-obstruction.md)由已付原权6的388列独立推出权5的72列及396真关系全部独立，完整M9形状49368×16442且Q/E秩≤16046。仅未来完整mod127增广秩严格超界才付原b³负证；三个Q分量/同d100单目标均可，本文没有新的权9数值秩或负结论。
+
+- **原偶强段可达核及完整第二逆。** [原半级支撑与首头第二逆正Schur](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)证明偶R的完整kerC⊂RanC，真新增核图付同forcing投影增益；完整min z∈kerC*保全部第二逆自由，得到||Gv||²及核外q的正Schur两项。真实N/Y/全强位/原补集均保；第二逆统一费用与N=M仍开。

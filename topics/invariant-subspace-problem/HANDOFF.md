@@ -7,7 +7,7 @@
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书输出不进Git、Release或新工件；仅源码/参数/运行身份/输出SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 共享executor约07:20失效、10:00:23复探仍不可用；旧tmp未冒存活。现有Actions执行真实pull/rebase/push，API仅准备。发布器只窄合并并发H末次规则marker，保研究文本；其余冲突报实错。Git用已有MR_TOKEN、dispatch用已有actions:write的github.token，身份见归档。
-- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-bell-koszul-ceiling-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
+- 完整此前状态与未列接口保[刚归档H全文](notes/2026-11-16-handoff-before-even-prefix-second-green-789f.md)、[完整open快照](notes/2026-11-16-open-before-global-finite32-789f.md)及其归档链；未列不算关闭。
 
 ## 当前实际执行接续
 
@@ -23,7 +23,7 @@
 - [D31共同及逐九ann](results/R150-appendix-original-nine-targets-complete-integral-annihilator-and-parameter-denominator-law.md)已闭：p=31,x=s−2,B=<h*tj>,M=<tj>，Ann(B)=Ann(bj)=(p5,p²x,x²)，Ann(M)=Ann(tj)=h*I。任f精确31分母=max(0,5−vp f(2),2−vp f′(2))；H25=x²h*真D源≤8515，额外monic参数次数最小2。单Rb D型(5,2)，单Rt D23⊕(5,2)，共同B不称长7。完整T长50/root2长47，四参数同父86门及全部raw已独核，详ann/归档。
 - **[共同B完整D型及八参数生成元已闭](results/R150-appendix-original-joint-nine-target-coefficient-module-length24-and-eight-generators.md)：** 真p9/35项同父run43841516263/job133211082521全成，选源178.678秒＋消费268.741秒；B=(D/p)^6⊕D/p²⊕D/p³⊕(D/p4)^2⊕D/p5，长24，dD11/dR8，xB=(1,1,1,2)、pxB=(1)。真原18×22呈示经D提升/独立等长，完整x²0及原九单循环(5,2)全核。根两raw27357/54717、双binding、96原阶段/17类/9坐标/6payload独审，未重矩阵。正式稿真实push59d9cd0e（run43844738994），非仅API准备。
 
-- **共同M实际下一步：** [全225列资格队列](notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-interface-789f.md)已全审：真T16商后的自由25饱和/两根primitive与交像Nakayama，另逐primary最少生成数；真域像需9才夹dR(M)=9，否则仍8或9。新job重建已付35项父、不重210，五步后取全日志；高p carry未算。
+- **共同M实际下一步：** [全225列资格队列](notes/2026-11-16-r150-original-joint-m-primitive-lattice-qualification-interface-789f.md)已全审：真T16商后的自由25饱和/两根primitive与交像Nakayama，另逐primary最少生成数；真域像需9才夹dR(M)=9，否则仍8或9。实run43849025211已dispatch，重建已付35项父、不重210，五步后取全日志；高p carry未算。
 
 ## R150完整非rank-one及Bell1
 
@@ -39,11 +39,9 @@
 
 ## R271真实投影返回与剩余交叉
 
-M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersection旗和MP自然域。
+M=kerT，N=closure BM；N=M仍开。保same-w/u、全部partial、真实intersection旗和MP自然域。此前native/adjoint-D/相邻整行/真帽及creation完整返回均保上列H全文归档与open原索引，未删其费用或开放边界。
 
-- [native完整返回](results/R271-appendix-native-variance-one-bit-restoration-and-auxiliary-clearing-pairing.md)及[原adjoint-D首反馈](results/R271-appendix-adjacent-flag-adjoint-deletion-range-and-complete-feedback-lift.md)已付原权/aux/自然域，保完整Vprev及真实次序；详归档。
-- [准确同w相邻整行](results/R271-appendix-canonical-strong-head-forcing-and-same-w-adjacent-return-row.md)：真Q孔κ≤1+log(1+Q/x)，行≤Wτ_x/√x+√κ(τ_x²+4e−6d⁴W²)；可选Q/h→∞、Q≤8d²+1使行趋零，但没有一阶非零锚。
-- [实际创建来源的完整右配对/真帽运输](results/R271-appendix-adjacent-creation-actual-return-pair-and-true-hat-transport.md)：η支撑总孔≤Q且η⊥K_Q时，完整h段核给<Rr,P_EYη>=<Ur,η_left>−<Jb r,Yη>，≤W||η||。原σ/α创建家族付3e8WΔ/x，外交换差4e8WΔ/x；帽版保KJb误差，乘1+C0²并需n+2h+R<Q。u_f=f−eV−PKf的eV整配对已付；剩同一P_EY(PKf)。
 - **[原matched全返回的平均首反馈已付](results/R271-appendix-matched-full-resolvent-first-far-hole-and-native-mean-feedback.md)：** P=(L+H)⁻¹(H−B)，实际修正r−Pr的Sf费≤||Y||²−α²；n≥h时真coherent低读数给完整H_C(S) Gram。原p_i=bi²/S共同ᾱ=C*t̄取得全(H−B)(r_w,s_f[ᾱ])≤12e8Δ(A_w+||Y||)，同cut平均及真帽运输均趋零；帽裸端另保C0²hβ/Ncut及n+2h+R<Q。不改实际w/源/全h段。剩g0̄=Σp_iHi a0_i，原g=g0̄+ᾱ；其主交叉与N=M仍开，boundary续真空分支。
 - **[移动第一远孔整行Bessel已闭](results/R271-appendix-moving-first-far-coherent-row-bessel-and-matched-source-cost.md)：** 同一原物理H上βxβy*=√(Sy/Sx)J*；x_m=m+2^m几何尾给Σ||β_m w||²≤Bλ||w||²。实际matched源g=C*t+kerC的同cut平均Φ满足Σ|Φ/γ|²有限，γ²=S||t||²；原R=d,Q=4h²,n0=2h²使完整误差平方可和，无w尾率。固定非零测试或同w强头锚迫Σγ^-2<∞；若实际平方费≤Cm log(m+1)才可反证，尚未取得。完整g0/固定物理列Green继续，未混同任意帽源。
+- **[原偶段可达核/首头第二逆完整正Schur](results/R271-appendix-even-strong-prefix-reachable-kernel-and-first-head-second-green-schur.md)已闭：** 真整数头级＋孔数使kerC支撑≤floor((R+d−1)/2)，原补集给kerC*反半；偶R遂kerC⊂RanC。Γ=PkerC(CC*)†|kerC，v=(I+b²Γ)⁻¹e0；新第二逆平方费=||Gv||²+b²<q,(I+b²AA*)⁻¹q>，A=(C*)†|kerC*、q=(C*)†(I−PkerC)Gv。全部z/z1自由保留；未付核外q，不能由首逆≤1称Green有界。boundary续原carry。
 - 普通封口仍需same-w负部≤c_m Q||F_mu||²且Σ1/c_m发散。Chebyshev logQ35d⁴/6超26d³母窗；公共塔中段有指数障碍，真C高j尾已付、中段继续。原G_reg/carry、Haar循环、正常有限秩链及归档其余open仍开放。
