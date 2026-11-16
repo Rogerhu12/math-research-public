@@ -6,7 +6,7 @@
 
 ## 新增结论
 
-- [RNS：实际根部faithfulness后的完整incoming参数Schur约化](results/R133-supplement-actual-root-faithfulness-and-complete-incoming-parameter-Schur-reduction.md)（`ef2cdf03d943e7bad2fc95ddebd72d065f3340cc054467fd7933bdab922c138d`）：本real/root仅撤FC空补列，真实given-head图和common右因子保持所有独立rest。完整BF高块消元给(q,z,κ)矩阵与全部rhs，无需先假regular Schur可逆；单scalarborder只能修corank≤1且须两真实pairing。actual ν-dependent chart含dν后metric Schur不变；physical Robinν与PD raw phase分别保，冻结ν/几何τ不支付任一非零门。无新数值，fullincoming/finite/真背景仍待。
+- [RNS：实际根部faithfulness后的完整incoming参数Schur约化](results/R133-supplement-actual-root-faithfulness-and-complete-incoming-parameter-Schur-reduction.md)（`74c6df5d816d9b80bfdb4c2e646237ad65f18e047788e5bec10739d1d3f64d9b`）：本real/root仅撤FC空补列，真实given-head图和common右因子保持所有独立rest。完整BF高块消元给(q,z,κ)矩阵与全部rhs，无需先假regular Schur可逆；单scalarborder只能修corank≤1且须两真实pairing。actual ν-dependent chart含dν后metric Schur不变；physical Robinν与PD raw phase分别保，冻结ν/几何τ不支付任一非零门。无新数值，fullincoming/finite/真背景仍待。
 
 - [RNE：两自然负阶窗口的显式一致逆常数](results/R133-supplement-explicit-uniform-natural-negative-window-inverse-constants.md)（`030e434ed31632c0c5330318251486d37424deba78f3fe35bf8b738960425120`）：原R97A严格余量和完整八正kernel给四e_q；L commutator矩阵/同向J有限bootstrap、Broot=1+e/μ及m2/m4有限多项式，保原IR0=1/4、正meanrank、非零βn和两physicalmeans。只形成新有限公式，未算新常数；新consumer可只读已存SCI，0旧成功重算/0native。两自然逆/selected原权序不授全δ chart/fullincoming/finite/真背景。
 

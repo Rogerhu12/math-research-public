@@ -291,7 +291,7 @@ $$
 $$
 Indeed $w^*$ applied to its first row forces $\kappa=0$, then the second row kills the remaining multiple of $v$; conversely failure of either condition gives a kernel or a left annihilator. This is a conditional algebraic alternative to (RNS.22), not a claim that the actual finite matrix has corank one or that either pairing has been paid.
 
-The matrix, its complete right side and its weighted norm realization are identical across the two qualified windows. Numerical inverse norms must use each inherited head weight separately. No unweighted finite-matrix norm is transferred to the negative window.
+The matrix and its complete right side are the same across the two qualified windows; each window carries its own inherited weighted norm. Numerical inverse norms must use each inherited head weight separately. No unweighted finite-matrix norm is transferred to the negative window.
 
 ## RNS6. The metric Schur is invariant under the true coordinate change
 

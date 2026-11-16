@@ -444,3 +444,7 @@ fresh main 453e27fd7eee0e418f81c521f9c4674bcb446222双README不变。原R97R SCI
 ## 2026-11-16 02:15:31 UTC — RNS 完整incoming与真实ν参数Schur独推
 
 全文读cc08f8a70fd2fadf4e43b60b866dca95b646eb26 /24595B /ef2cdf03d943e7bad2fc95ddebd72d065f3340cc054467fd7933bdab922c138d。根逐项核完整(q,z,κ)矩阵三行/正负号/完整rhs、Γ/Δ、corank1双pairing及actual chart三角变换，均为解析代数；另原字读A82511358/C366914bf/PD58bdf173/P9a5bcb14，核全第二mean/−Nν符号/physical第四Robin与raw phase分离/冻结设计ν后才用外在τ。R97A仅使FC m/W/F_C空，独立第二input、两physicalmeans、径向head、无限费与其余finite全保；完整square/strong门/实际columns与Schur非零仍待。不宣称谱单调或未证C1 chart；0新科学计算/0旧重算。README只读核5c4c8c2cbce93cc7d2eb79cb619a719f9df94410两blob未变，原真实pull周期不变。 newton已对§2–3/6–7及四primary正式独核通过；phase此前三块纯式核通过，完整窄核续收。
+
+## 2026-11-16 02:19:14 UTC — RNS 两窗加权范数措辞纠正
+
+tail复核指出RNS§5末“weighted norm realization are identical”口径过宽。根将唯一一句改为同一矩阵和同一完整rhs在两窗使用各自继承的weighted norm；紧随的各自headweight句与全部矩阵/逆公式原字不动。新正文db0cce2048897eaecd8bf6e734f40e3b6e78c080 /24616B /74c6df5d816d9b80bfdb4c2e646237ad65f18e047788e5bec10739d1d3f64d9b，原cc08f8a7/ef2cdf03保72d34d76历史。H/open/results更新新身份，无新数学计算，原实际receipt不变。a4901c30dbc2ec4fc33bf7a4841dce8c983a7905两README blob不变。
