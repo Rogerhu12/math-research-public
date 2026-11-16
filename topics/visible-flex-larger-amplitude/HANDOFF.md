@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-规则同步记录：2026-11-16 11:41:47 UTC root委托本公开仓库Actions run43859990792真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 625cf6caa2a5d38a010fcd38407a0129bcef21e1。
+规则同步记录：2026-11-16 11:42:36 UTC root委托本公开仓库Actions run43860102434真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 be4e0074e90508b3f7bd6e2ce3ee083165049288。
 
 只用公开Rogerhu12/math-research-public及其Actions，私库不用。科学算术/import/AST/compile/tests仅Actions；本地限文本/纸证/字面/JSON/字节元数据。root唯一Git/ref；PAT只瞬时CLI，不入文件/提交/connector/回复。至少每小时真pull；每pull核双README，变则仅读差异照新规并记读commit。原Actions2700秒sync保。NFF/cannot-lock立即pull --rebase再推至成功，禁止force。部分克隆blob:none/sparse；07:19终端失联后委托本公开Actions真clone/pull/rebase/普通push，main不带行政workflow。
 
@@ -25,7 +25,7 @@
 
 217/R490完整刊于3b98677，两终志各唯一已读；221/R509、223/R513及旧207–220均保。root不取科学日志。实际source/run优先于内部祖先号。
 
-root R535完整已7ba35，继续R536/request226实际128缓存全链/R537；amplitude R531本次七件完整刊→R538/227/R539三件已交待发布/单次dispatch；geometry R532已5c851→R534真实同DN完整模型→R542/229/R543；exact R533已90624、R540/228已e5af实际99f4→R541唯一读，另R544连续C两真实guard及composition表示→R545/230/R546。**226/227/229/230尚未dispatch。** 保原全部门与各实验时钟，未返/未访不补数学拒绝。
+root R535完整已7ba35，继续R536/request226实际128缓存全链/R537；amplitude R531已fc3dd→R538/227三件本次完整发布并一次dispatch，R539待真实run绑定；geometry R532已5c851→R534真实同DN完整模型→R542/229/R543；exact R533已90624、R540/228已e5af实际99f4→R541唯一读，另R544连续C两真实guard及composition表示→R545/230/R546。**226/229/230尚未dispatch；227本次发布后单POST，回执前不写实际run。** 保原全部门与各实验时钟，未返/未访不补数学拒绝。
 
 ## 完整历史、恢复与最近实证
 
@@ -43,7 +43,7 @@ root R535完整已7ba35，继续R536/request226实际128缓存全链/R537；ampl
 
 222/217已接R498首行gzip及stored/decoded消费者、R499全规则reader；原18900+2700/32GiB及全部same-C/refinement/quiet scope保。完整来源与失败见接口及固定历史。
 
-224/R524已498c，实际23176为整topic/.github同字直接子头。150public+31gen=181；R523实际T支撑、全14计数/last/presence、226×224/双mean、全门/18000/quiet/90K70保。**R531本次七件189535B**完整实际withJ并行：原181＋四public＋八gen=193，真实profile顺序/每engine n序/完整J、主线程原port/mean/momentum序保。只有有限完整原路径的条件字词保持；资源/未知error不冒数学拒。全stage状态/每worker stats/主engine stats分列，原单18000钟；worker预算合计≤6144MiB另保main6144，不冒RSS。原noJ/endpoint/audit/十trial/R273门保。新runner/readerview真接新client并保两来源receipt；R538实际227选2×3072，未运行不预判收益。
+224/R524已498c，实际23176为整topic/.github同字直接子头。150public+31gen=181；R523实际T支撑、全14计数/last/presence、226×224/双mean、全门/18000/quiet/90K70保。**R531本次七件189535B**完整实际withJ并行：原181＋四public＋八gen=193，真实profile顺序/每engine n序/完整J、主线程原port/mean/momentum序保。只有有限完整原路径的条件字词保持；资源/未知error不冒数学拒。全stage状态/每worker stats/主engine stats分列，原单18000钟；worker预算合计≤6144MiB另保main6144，不冒RSS。原noJ/endpoint/audit/十trial/R273门保。新runner/readerview真接新client并保两来源receipt；R538/227三件request19994/56c9、workflow53746/3305、完整证明接口20363/46ae本次刊，实际选2×3072；真新runner/reader/report/cleanup和来源scope齐，amplitude唯一R539，实际run待官方回执，不预判收益。
 
 225/R527已5af、单POST200同head。原336＋六public＋三R522/十一caller=356，R518中间只在内存；paired完整compiler及R515三物理site receipt分责。原19200/owner6000-replay1200/stage8000/boundary600/endpoint600/audit1800、全门/90K70/quiet保。338真实slope/second/双mean/height，旧request历史说明不作索引。R535五件56753B同root有限momentum/pt/P/Pt及一次evaluation U系数复用，18计数/完整last真打印；新primal25230/3e1c、trace34950/2e12，原persistent CPP7789/main/replay/caps保，旧frozen旗false。R536仍须实际caller安装、完整compiler/必要统计回读，不从prepared冒编译或接受。
 
