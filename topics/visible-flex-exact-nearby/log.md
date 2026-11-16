@@ -359,4 +359,8 @@ WSM43877268949/1实际已全152新39copy/22门成，root完整3图/index/exec资
 
 153原parents/4650rows/3594interfaces/4801intersections→24480细cell×96的完整新reference receiver，paired E0/D/T保193mean、97root+96outer、7port/2rhs/full96真实家族误差与Λ388高费，完整60或62记录/40fields/22gates/20progress。true77829、late83173、exec late61853、preflight2064的完整静态模型已核；SCI90000/exec85000/report8000总183000，120000余量与4000marker，child18000秒，runner每1800秒真pull并读两README差异。全成功/失败原字保，false只说明本候选未给充分逆，禁止重跑。
 
-fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pub183000+reserve120000+marker4000+文档8000+WSMA证明20000保守计199962177 B<200MB；下个consumer须计并行未发布预算并再fresh核。package先main，随后独立workflow自然触发。本次仅源码/静态合同，未做新数学。13:41:51工具环境重置后真CLI pull仍无executor，结果/源码全在公开Git原字恢复；无已成科学丢失或重算。
+fresh treea89838eb实199406165 B，5源151016+worker31551+manifest48445+完整pub183000+reserve120000+marker4000+文档8000+WSMA证明20000保守计199972177 B<200MB；下个consumer须计并行未发布预算并再fresh核。package先main，随后独立workflow自然触发。本次仅源码/静态合同，未做新数学。13:41:51工具环境重置后真CLI pull仍无executor，结果/源码全在公开Git原字恢复；无已成科学丢失或重算。
+
+## 2026-11-16 13:44:53 UTC — 启动WPS完整有限候选
+
+两README于9374e61150db974448d99dcfdfad96949769cd7b同已读。package a5318f0424eaa0a39a5de2c224b55830352c0b0a已先main；独立 .github/workflows/visible-exact-complete-paired-finite-residual.yml a4c99137c6e6d0fcd942837dc76e2300d9d8479b/2949/20610c4393f72fb6ea339947b321f34387e0ccdc7390f4f4aa4b0e97d6e8361a 自然push触发。固定manifest ed9aede8/aabc28e1、worker85d72/afbbae87，Python3.12.14与python-flint0.9.0。worker每1800秒实际pull/两README全diff；13native+5原cubic+1repair只immutable历史原字临时恢复，禁止旧计算；preflight及完整容量后锁consumed marker只启动一新child，18000秒。上一容量保守总数更正为199972177 B（仍<200MB），非科学计算变更。实际run结果待后续，false充分门也保存完整60record候选，成功逆才62；不得把数据或阶段结果算作最终题解。
