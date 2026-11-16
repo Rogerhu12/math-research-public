@@ -455,3 +455,8 @@
 - R815真实BudgetStop/current586/17520bit已读；原4.85GB artifact14246345143/7076manifest直接同核续，已成g696/272/17块不重，原53输入全保。
 - 仅更新job.resume，core80516ff9/wrapperab725da0/framework849bca27冻结；v24的1297小原成员与manifest/reference纯IO核SHA，metadata不冒580MB current。H逐字归档并压缩，Γ/height仍OPEN。
 - 本push规则：公开Actions真实pull至46dff6066560f2153b998085403aa2b24b7bab3c（2026-11-16T16:29:41.745395+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 00:34 Asia/Taipei — serre-public-astra-20261115
+- R923完整证明/源合同：真h0与原正常环给目标β整；旧273 primitive与已成disc6/B逆先运输后整除，V=K/P_U可靠267项。原R885全局伴随行直接八维求值，272商共一个真分母。
+- 实测分母阶d0只损一次，267−d0及NeedPrecision边界明确，原272×8 W方程/两端帧/dual7不省；新坐标未算。R815已真实续run43908105148/job133442347214，原g696不重，主目标OPEN。
+- 本push规则：公开Actions真实pull至ae8e9944c7ddf0ce238b0fd3eb2dbf33170c1309（2026-11-16T16:34:35.003363+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
