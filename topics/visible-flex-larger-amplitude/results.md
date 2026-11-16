@@ -168,3 +168,8 @@
 ## R428 — 原完整39八对链的必要读回修订
 
 [R428](results/R428-complete39-necessary-chain-readout-and-original-science-contract.md)abf42d92/68d53286/2b9c71c0修复实际191整链必要读回：共享原source/query与逐批必要字段去重复，保八批全部trial/选择门/域失败/RMS原返回/原observer异常、FD原contracts=False完整记录及方向/层数、真末pair/三参数/错误/未访。原五数学源、17项参数及四worker函数逐字保，104pins→106；全39/free461仿射/完整H与fresh FD不变。单90KB超限仍70，不删失败/不拆包，quiet后读取、必要持久后才退大raw。200须从真98另起，不继承191已毁末场；尚无新科学接受。
+
+
+## 2026-11-16 — Request200：原完整39八对与必要读回
+
+[200完整入口](notes/2026-11-16-request200-original39-eight-pairs-and-necessary-chain-interface.md)最终七件/原完整差异及必要失败补丁已核：R428原104pins逐值保→105+独立worker=106，真98 warm/status从原artifact重取，另起同39八对。原38+RIGHT459/fraction .8273268353539885、459/460/462..491及free461完整仿射/699×453/236036/H/109core保；原17α/1200/600/90/30/4096角及10500/175step/195job/10min读回/2700规则镜像不变。abf42d92必要读者、68d53286 worker、2b9c71c0 recipe、30508867 request/0de9e717 workflow绑定；全部trial/失败/observer错误/FD收缩失败/真实末pair与三参数保，单90KB超限70、quiet/条件清理不变。actual191末raw不用，不预报8对或尺寸；尚无官方新run/科学接受，exact唯一终态R432。
