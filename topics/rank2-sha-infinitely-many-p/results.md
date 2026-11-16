@@ -230,3 +230,6 @@
 
 
 - [原UΘ4的完整三纤维迹](notes/2026-11-16-original-u-theta4-complete-three-fiber-trace.md)：公开Fraction全系数run43870426107成功；Q48质量0，W48=TδUnew质量1/(78624b)，独立全四纤维核T2Q48=[2]*R3/(19656b)、T2W48=0。R856原whole首行因而给j_(p+1)W48=c_p/(1638b) modp单位，合法读者须用完整D1减48C_p质量，CM处C_p=(p+1)c_p^int。原四中央未新增，继续同new/cross及高精度约束。
+
+
+- [R872原primitive的native Bockstein联合读取](notes/2026-11-16-r872-native-primitive-bockstein-value-and-normal-pair.md)：同四原行及全部首折回给λ(J)=a⁻¹[w^s](5042W0−246W1+3W2)，真实pH A1项由W3>4准确消失。τ1保9U0u0²e0αA，τ2/3不含它；加深值到w^s仍不杀第s行。αA=t1²(a0+a1)且a0v0+a1v1=0，非退化时是其余二支同γ的准确读取，不能自由拼接物理值/normal值。有限层分解后虽ΠJ=0，完整β1仍改变同R/S后页，保全部高前缀/其它纤维/H¹。
