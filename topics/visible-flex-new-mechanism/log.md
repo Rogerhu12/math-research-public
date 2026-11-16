@@ -797,3 +797,7 @@ R520(13)后的T_y″解释补全4ypr−2y²r²−2p²；它们一直属于原βc
 
 ## 2026-11-16 13:39 UTC：R526同规范真实入历史倒行
 [R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)从完整有序复合证明M0/K0真实段接倒行时incoming抵消第三常数差，PP^R末M/T零而第四2V；另付pose准确条件及第三逐函数盲时四段闭词/第四4V。仍欠实际M0块、germs和第四period，未套现有非零w短段；原源纸面逐式核对，无新执行。
+
+
+## 2026-11-16 13:48 UTC：R528正交库无极点常态严格障碍
+[R528](results/R528-positive-orthogonal-library-and-strict-pole-free-constant-state-obstruction.md)由原完整常段历史、R54迁移及R521有限正交/共同矩恒等得到Qc=−Λc sin²θ且Λc>0。任意真实入A/T和固定w/χ不改时间二次系数，排该无极点域的正长度K0常态；非恒偶germs、极点穿越和R520另一母均未排。原source逐式纸核，0新科学；58与2882.412483226秒/147值不变。旧open逐字归档保当前门。

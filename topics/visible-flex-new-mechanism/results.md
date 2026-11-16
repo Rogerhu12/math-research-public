@@ -470,3 +470,6 @@ R389–R419及同期数值的完整条目现见[历史索引](results-index-R389
 
 
 - [R526 真实入历史倒行与一次规范下的端口完成](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)：**已证明**真实M0/K0块继承第三入值后倒行自动闭M/T，无需预清T_P；完整第四加倍，pose闭合条件准确给出。另同germs、G=D及第三逐函数盲时四段同χ闭pose/M/T，第四4V；当前尚未构造所需M0块。
+
+
+- [R528 正交正副本库的无极点常态严格障碍](results/R528-positive-orthogonal-library-and-strict-pole-free-constant-state-obstruction.md)：**已证明**同一R521库在完整窗口的Möbius分母无零时，原常态时间二次系数严格负sin²θ；真实入历史及固定规范不能修复。覆盖合法k≤0常态，不排非恒偶germs、跨极点或R520不同母；实际M0返回仍欠。

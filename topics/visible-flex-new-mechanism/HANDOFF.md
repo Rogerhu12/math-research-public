@@ -8,9 +8,7 @@
 
 private于13:20:33.071808→13:20:49.550954实际pull读 **f30bd4b570719904bebe98f2bc5e5e605f67da7b**；根blob5ba164843b1f5802184178a82d786264404873a3未变、题README无、QUEUE本会话唯一进行中。私有正文不发表。
 
-最新反射R1两job真实pull已读：public0b8bb24ce9d4a9acb3219c6fe01f35328aba4139（13:10:48）/34e3d11a3415c6eafa1197683e5c6782aa1c0362（13:11:38）；privateab08c9a38724710d5ffdc0dba75f089a45c5b8f9/7ffc92ce60712412d67d0d962b97c981fe5df18e（13:11:42）。README空diff/QUEUE进行中；全部原收据见新note，更早SHA保H历史和各run notes。
-
-三公开来源13:01复核7e61b12677e830e9997f3fcb3c7270b74ede060c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只用本公开Actions；本地只纸证、源码文本、元数据和已有输出读取。PAT仅瞬时CLI/env，不入文件/提交。根12不加开发检查/冻结复跑；根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB，旧data54107494B保留。API读取不是pull。
+三公开来源13:01复核7e61b12677e830e9997f3fcb3c7270b74ede060c，无可移植全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新科学执行只在本公开Actions；本地只纸证/源码文本/元数据/已有输出。PAT仅CLI/env。根12不加开发/冻结复跑；根15 payload不入Git/artifact/Release/cache。H<10000B、MD<100000B、open尽量<30000B、topic≤200MB；旧data54107494B保。API不是pull。
 
 ## 2. 主完成门与冻结几何
 
@@ -40,13 +38,15 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274；完整168/172含旧
 
 ## 5. 不同母库的范围与新的完整history反馈
 
-原R469–509、R512/515/517和全部成本保[索引](results.md)。R507只有scalar端值；R508/509只给secant局部端口。R512字面同形母一次固定规范的完整方程在常态bulk有正t²障碍；R515任何合法secant上p1二次系数Q≥15∫b²/32；R517在同一特殊库中证明光滑周期模板第二次K0 iff M0，合法实解析整圆一周期K0可延拓迫M0。这些不排一般有限幅值/可变母，也未构造周期轨道；不能移植其YC全消前提给R520/521。
+旧R469–509及成本保[索引](results.md)。R507仅scalar端值，R508/509为局部端口。R512字面同形、YC消去的另一库含常态bulk必失败；R515任意合法secant首阶非零k给p1严格正；R517同库两次周期K0 iff M0，合法实解析整圆可延拓迫M0。均不排一般有限幅/可变母；不能移植其YC全消前提给R520/521。
 
 [R521](results/R521-finite-positive-orthogonal-copies-and-nondegenerate-full-history-acceleration-control.md)另一个from-start库：4包三矩/8副本全cubic，16元O(2)正复制共同0…10矩，完整含第三history的ruling准确为sin²θ一式。在预定h,z,e=hz−k均正紧域，原kss积分系数严格正；固定w=χ=0可解kss，hss为自由控制，真实m/T有限ODE全保。该库不继承R518/520的共同cap/20目标/13规范；尚无完整周期、M/T/frame/位置/period。
 
 [R523](results/R523-real-reflection-segments-one-fixed-gauge-and-exact-third-endpoint-transfer.md)付同R521非恒反射段及一次w=−ALD、χ=2TL(φ;D)的真实非交换重锚；Atot=2AL、Ttot=−Atot²/2，短段AL非零。frame/位置/奇germ/第四仍欠，第四加倍；不同L不能各换规范再拼。
 
 [R526](results/R526-real-incoming-history-reversal-and-one-gauge-endpoint-completion.md)对真实M0/K0段P，w=0/固定χ且反射germs匹配时，继承T_P后PP^R全字段真反射，末M=T=0而第四2V_P；pose闭合须GD=DG、v∥N。另同germs/T_P(φ;D)=0/G=D时P²(P^R)²闭pose/M/T，第四4V_P。原hook在R521导数分包库逐函数盲；实际M0块仍未构造，不套R523非零w或旧无K桥。
+
+[R528](results/R528-positive-orthogonal-library-and-strict-pole-free-constant-state-obstruction.md)在同一R521正副本库且整个共同窗口1−k(h(x+ω)−k)无零时，原常态完整二次系数严格为−Λc sin²θ、Λc>0，独立真实入A/T及固定w/χ；因此无正长度K0常态段。覆盖k≤0合法域，不排非恒偶germs或跨极点状态，更不排R520另一母。返回工作须付实际非恒端芽。
 
 ## 6. O2后继及当前工作顺序
 
