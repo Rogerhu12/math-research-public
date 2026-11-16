@@ -1,13 +1,13 @@
 # 交接：同一个可见振幅的精确闭等距族
 
-会话 visible-exact-astra-0df9，更新 2026-11-16 00:47:00 UTC。**未达完成标准，持续研究，不等用户。**
+会话 visible-exact-astra-0df9，更新 2026-11-16 00:48:24 UTC。**未达完成标准，持续研究，不等用户。**
 
 ## 授权、规则、读取点与前页
 
 只在公开Rogerhu12/math-research-public及自身Actions做新数学；本机/代码模式仅解析证明、文字、静态核、hash/元数据。root管main/H/open/results/log，代理交blob。每结论独推；非FF立即真CLI git pull --rebase origin main后保远端循环至成功，禁force。PAT只临时CLI/env，不入文件、输出或connector；根规12不另请审批。
 根规15：只scripts/args/run/SHA/真小结论；新数组、data/证书禁Git/Release/新artifact。topic≤200MB，各consumer预留120KB。旧成功禁重；旧输入immutable公开history/path/原artifact临时核SHA恢复，仅H精确记录的未保存新量可重做。无executor依根规8仅UTF8<100KB connector，禁binary/gzip/大log。H≤10KB，open≤30KB。
 checkout /workspace/scratch/0df957a82d09/math-research-public，无AGENTS。本机末真pull11-14 21:26:11 d882f7658383b555ff744e63192154921eb31ba9；此后无executor，11-16 00:46:05定时CLI仍无executor，下一≤01:46:05。最新CI真pull为SW11-16 00:37:23.853674→5423c8a7fd3869430df0d188ffe406f1d567d7f8，两次两README空diff；ref读取不冒真pull。
-最近只读README核：a4f1a21b4131dea37b48f933ee30494c7378024d；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
+最近只读README核：025ce4277a182d33f20c33eeb2b45090b09e0033；根21bd547f56590b7f2dd279d0297efb289a9b2783、题7e2b93d66ee7dc61b0962cd6f2545dceb01daf12。已读diff 2f72b274f8647dbf6ce236ff2185cbe22153f8e1；rules 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1、driver7f8521cbdb35a0038843ae32e243a6ec847339d503c8462ab4431bda06070bb5。
 完整前页保ab95e8019daf1e70de9de0c50a4f0b88ff51c3ef同H/open/results/log，open逐字另存notes/2026-11-15-open-before-actual-coefficient-and-principal-inverse.md；递归原档/恢复/原球/域/单位/mean/失败lost与全部未付义务不变。
 
 ## 同一对象和真正完成标准
@@ -57,7 +57,7 @@ S/T只原γ A0/H8193、94seed后Γ2、loss1734/bg1796/E1856/seed余量和原Nash
 
 ## 恢复与执行顺序
 
-已成cleanup完整白名单/恢复身份保7a037e78同H与open8：smoothing/uniformtail721358B及OMA两报告720495B均已普通删。OMA43777745624/1/9steps原12428/c1123617成功且科学0；两报告先推886423b4/955eb058，恢复b9c7cde9c28a38d9d7db2ad03fcfd3835578ac6b同path。原未认证限制/source/endpoint/失败/activepins保，禁重算与重复删。
+旧cleanup完整证据/恢复保7a037e78同H与open8；smoothing/uniformtail721358B、OMA两报告720495B均已删；OMA原43777745624/1/9steps科学0，先推886423b4/955eb058；全原限制/endpoint/失败/activepins保，禁重算与重复删。R46单report551730B白名单064056ab先推，恢复5423c8a7同path；freshSHA/size核后才删，其余保。
 
 既往cleanup均已按先推白名单→fresh SHA/size guard→普通删除完成，全部精确path/恢复commit/hash/source与失败保open第8节及e0d74db25a5db1a7e3df06ea8f0905d568aff366同H。旧2Newton/jet/七报告1589068B、九报告504341B、两interval NPZ773501B，禁重复删/成功重算；当前source/native/候选/proof/activepins保。
 继续open余项→全strong/incoming/γ/ν/finite/非线性matching→同对象几何；每结论独推、H最新，未达总标准不停不等用户。

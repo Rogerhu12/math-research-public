@@ -175,3 +175,5 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 每结论独推；非FF立即真CLI pull --rebase保远端循环成功，禁force。每小时真pull后查两README，只读diff即照新规记H。本机11-15 23:50:00定时CLI仍无executor，下一定时真CLI≤11-16 00:50；根规8仅UTF8<100KB connector，ref读不冒真pull。runner实际pull、双README diff、容量和唯一child以各完整receipt为准。
 
 子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
+
+R46容量单文件白名单见[完整证据](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)064056ab：仅notes/2026-11-13-R46-complete-density-transport-bootstrap.json，551730B/blob968ee851/SHAf86e1cd3，恢复5423c8a7fd3869430df0d188ffe406f1d567d7f8同path。先推，待fresh guard普通删；原proof/source/成功小结/全部未付scope保，未来原consumer须先restore而非重算。

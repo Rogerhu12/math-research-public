@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R133/R46容量白名单](notes/2026-11-16-R133-R46-density-bootstrap-report-cleanup-whitelist.md)：唯一551730B已成派生报告968ee851/f86e1cd3的原producer、完整成功下游及严格checker证据齐，恢复5423c8a7同path。仅先登记白名单，fresh SHA/size守门后另普通删除；不删canonical/失败/native，不重成功。
+
 - [R133/RBG：真正根b系数及其导数的共同径向抵消](results/R133-supplement-exact-genuine-root-b-jets-with-common-radial-cancellation.md)：以真实四阶fold差及完整邻域forcing消公共K4/η3/Mrr，精确得b1V=E0+Δ0、Db1V=E1+A0Δ0+Δ1/3。有限频率hrrr和无z曲率项完整保留；BV/H按原右序整件替RD，不重复CalB，正meanrank保未投影界。无新数值或stable/incoming/finite逆声明。
 
 - [R133/SWA：单首系数试探的首次完整实际整误差](results/R133-supplement-actual-single-complete-root-first-symbol-trial-and-ordered-waist-error.md)：唯一43781399696/1 child0/24及12steps成功；同cut单一W的DW、全Q/两mean/3070jump/新waist及CG一次全计后wholepaid≈4.17526394e90，低于原UTA≈1.63981109e99。比较的是同actual最终整paid；六retained、fullEi/incoming/finite/return仍未付，大上界不作不可能性证据。全部原球/输入/执行回执冻结。

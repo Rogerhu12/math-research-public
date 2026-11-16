@@ -306,3 +306,9 @@ a4f1a21b4131dea37b48f933ee30494c7378024d两README同原blob；root定时真CLI�
 RBG7/11由共同fold差递推先消e3/c4，RBG14消Mrr；delta2与F18完整619/140项一致。G26先求D再取根给完整Z_D/Z_DD、−k1W_AC，D与P不交换。normalized forcing derivative保−A0b1，37p/10来源4δt+δA，得E1。G32先微分给Δ1之无z曲率−16k1(2ηα+zα²)和hrrr/全quotient；仅Δ0有整体z。z=j^-2=16n^-2，另n^-1/3根权不是同参数。
 
 BV=M_E0+DΔ0，HV=M_(E1−bopE0)+M_aDΔ0+DΔ1/3在RD中整件替b+CalB及原DB bracket，禁止再加同potential。全mean/未投影e_amp/正Πrank、非零βn两profile、原输入对角右序/J/低中间频均保持。现成高root/aux成功记录的新库存待根逐原件核，尚不以找到记录当数值门已付。whole e、incoming/finite/nonlinear/总完成仍未达，继续。
+
+## 2026-11-16 00:48:24 UTC：先推R46唯一派生报告完整清理白名单
+
+025ce4277a182d33f20c33eeb2b45090b09e0033两README同原blob。白名单dee19f220cfe18bfc6a466d1e74f99036585753e/9005/064056ab233b55559422522e517bf8e6707302651d9c22fa8ea5fbfce84e58ce根全文读；五个小primary亲取全部bytes/SHA逐字匹配。原producer13748B全读、原proof§7完整成功与限制、下游complete/proved/four gates及checked对producer/deps/inputs的强核全确认。未据文件名推成功，不虚构旧Actions run。原downstream全部未付returned/finite/feedback/ν域false保。
+
+根亲取immutable notes tree f9cbedc60f2d21dcbd0849b8d953e0a03db9c31e，非truncated，唯一路径2026-11-13-R46-complete-density-transport-bootstrap.json确blob968ee8513b504e4a9c72182bf825c68001dffa94/551730B；恢复commit5423c8a7fd3869430df0d188ffe406f1d567d7f8，原SHA f86e1cd3e2be7542b4f0e3e5c52b297a77b016b3744df64cbfa04446a559ade7在两个小原件独立逐字同一。根现持SW/CEB/NPK manifest exactbasename零次，另held清单peer核范围在白名单，不宣称全repo无旧依赖。大正文未取、无数学调用、未删除；下一提交fresh SHA/size守门仅此普通删。
