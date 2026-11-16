@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Four new complete weight-zero self/current contractions.
+"""Resume four complete weight-zero self/current contractions.
 
-Read all old ranks, pure/Q members, Q pivots and the one current pivot.
-Restore exactly three static and eight response mixed inputs. No old science,
-development suite, Q map, Omega map, rank or profile evaluation is called.
-A nonlocal/higher-jet remainder stays exact and unresolved. Original n2 is a
-known left constant for X_H, zero only on the already proved mother class.
-Only the reviewed public Actions entry may execute this module.
+Read the ten pinned records of the interrupted public run. Its two Q-RHS
+applications, current inverse and three self references are reused verbatim;
+no Q inverse or member check is repeated. Restore only the still-unrestored
+three static and eight response mixed roots. The prior 5.033211666999932
+science seconds remain charged inside the same 180-second total ceiling.
+Nonlocal/high-jet remainders stay exact; n2 is zero only on the proved mother
+class. Only the reviewed public Actions entry may execute this module.
 """
 from __future__ import annotations
 
@@ -47,7 +48,11 @@ DOMAIN = {
     "targets": list(TARGET_ORDER), "new_complete_self_currents": 4,
     "new_current_scalar_RHS": 4, "necessary_static_mixed_inputs": 3,
     "necessary_response_mixed_inputs": 8,
-    "paid_Q_pivots_replayed": 7, "paid_current_pivot_sequence": 707,
+    "paid_Q_pivots_replayed": 0, "paid_current_pivot_sequence": 707,
+    "prior_completed_Q_RHS_applications_reused": 2,
+    "resume_only_after_exact_source_hashes_entry_failure": True,
+    "old_member_checks_repeated": 0,
+    "old_R316_R329_R443_logs_reread": 0,
     "old_pure_Q_Omega_current_rank_or_development_executions": 0,
     "new_profile_or_root_evaluations": 0, "new_development_suites": 0,
     "all_input_reads_and_restoration_in_one_science_clock": True,
@@ -152,14 +157,152 @@ R443 = {
     "request_bytes":11809, "request_sha256":"f3523f5ee89d820150e52e22c54afd25d5d7deb79fa8adc0d5cbefc7496f4532",
 }
 PAID = {"R316":R316, "R329":R329, "R434":R434, "R443":R443}
-Q_SEQUENCES = (61,67,68,73,74,101,141,157,163,164)
-PIVOT_SEQUENCES = (206,212,213,218,219,246,286)
 CURRENT_SHA = "729055c2e1075378e3ac5e771e24a6dd4ca824c8c4aa9fab800dd25eb7614e6b"
 SELF_REFERENCE_SHA = {
     108:"2555840e1e7d5dab56751e026984ec5d5ae54dc33db4f6ac542e356f6286bbcd",
     109:"f1421e2361d2c9258b3a873385d5662d5e358f4646f99bb342158de59d5c3475",
     119:"8c5baa6b1a6ab8b6c0c691b8ce1a319d82796d1510a0e69f039a12614f681a0c",
 }
+
+RESUME = json.loads(r'''{
+  "run_id": 43818340099,
+  "job_id": 133135408458,
+  "source_commit": "821f98de378edfbbf7f6c2b7eb71b0e0782f3e01",
+  "log_bytes": 132117,
+  "log_sha256": "122f5e0ec8fbb51b3fefce65f6d357fada8bf34ed96d109497f8025e5cdda0b5",
+  "report_tag": "COMPLETE_WEIGHT_ZERO_SELF_REPORT",
+  "report_bytes": 13440,
+  "report_sha256": "a89823532d7aae5d27cfc017c507ca07eca50e6d0caa76a6ad125539c41c38e8",
+  "clock_tag": "FINAL_CLOCK",
+  "clock_bytes": 692,
+  "clock_sha256": "c49200bfe5414ab0ded0bb13adfa2782d15913296833e96928928446af6d6e0f",
+  "record_tag": "WEIGHT_ZERO_SELF_RECORD",
+  "records": 10,
+  "record_file_bytes": 34703,
+  "record_file_sha256": "9b89af9b2667919157db4f194cd7a8203fea667568f0f2fe799353758f6644aa",
+  "record_chain_sha256": "26638547061388c9c73e05fb030b926f791a272af38a43305f1a2aae848888db",
+  "request_bytes": 20871,
+  "request_sha256": "5d4ee23e1e1aea80d2cf8cd6b1061ef0ed55f6023d6e3b3b2491d0dbc0b30fb4",
+  "prior_science_seconds": 5.033211666999932,
+  "prior_pre_science_entry_seconds": 0.005253693000000226,
+  "prior_monitored_rational_operations": 2910,
+  "prior_maximum_monitored_rational_bits": 30,
+  "prior_limit_check_calls": 4579,
+  "prior_peak_RSS_KiB": 52868,
+  "prior_network": {
+    "bytes": 2149732,
+    "redirects": 4,
+    "requests": 18
+  },
+  "prior_mathematical_stdout_bytes": 49120,
+  "source_entry_sha256": "7f992c389661d731cbb873e42c7ddab84f37ad3a521b8128cfcfb338a9bdb412",
+  "record_identities": [
+    {
+      "sequence": 1,
+      "kind": "science.paid_input_identity",
+      "payload_bytes": 8217,
+      "payload_sha256": "3729cea09f7b0cfd4c6fe77d0906b6c1ea465adf34cdcfde7571bff8a8eee495"
+    },
+    {
+      "sequence": 2,
+      "kind": "science.paid_input_identity",
+      "payload_bytes": 8394,
+      "payload_sha256": "3e024e19a3da85a73dd5a1a0562485da27cb486e95967945df632dfb7128316c"
+    },
+    {
+      "sequence": 3,
+      "kind": "science.paid_input_identity",
+      "payload_bytes": 2897,
+      "payload_sha256": "828311602a7e73481aa0e2ff4b83537dff9f33036ba78a370772c7aed42585d8"
+    },
+    {
+      "sequence": 4,
+      "kind": "science.paid_input_identity",
+      "payload_bytes": 3071,
+      "payload_sha256": "dabc343078da669eff413fc0c0b788d8ead92c5a95812e69a80586b7fad4067d"
+    },
+    {
+      "sequence": 5,
+      "kind": "science.new_RHS_paid_Q_right_inverse",
+      "payload_bytes": 1345,
+      "payload_sha256": "0e9c85564edf024a0b60832f1f3f02760c497b9f771a76d7e59a22cc3a6c62cc"
+    },
+    {
+      "sequence": 6,
+      "kind": "science.new_RHS_paid_Q_right_inverse",
+      "payload_bytes": 1426,
+      "payload_sha256": "44868dd3f03a87dbf1ade0f95c7760876c9e0cdfbded00f79361fd66d6dc0d41"
+    },
+    {
+      "sequence": 7,
+      "kind": "science.paid_unique_current_right_inverse",
+      "payload_bytes": 476,
+      "payload_sha256": "d77e739f7ee6be31408074eab6dcb1c16334838f5b746e4c0ee6a5879cc73a57"
+    },
+    {
+      "sequence": 8,
+      "kind": "science.paid_reference_complete_self",
+      "payload_bytes": 3188,
+      "payload_sha256": "8d170ce8678d03f8359d7d6e95c2374a832bfe2acde80652ed1cbc6ced3e3ce0"
+    },
+    {
+      "sequence": 9,
+      "kind": "science.paid_reference_complete_self",
+      "payload_bytes": 3170,
+      "payload_sha256": "2c06b36c75b304a7c581845c804e2b2de9b9e9fed0063093656114c728f1be65"
+    },
+    {
+      "sequence": 10,
+      "kind": "science.paid_reference_complete_self",
+      "payload_bytes": 781,
+      "payload_sha256": "e3d29cd3499860ad7d9f88a3d41ffc1f6a24e47defc8f3d70619eaf817d14c43"
+    }
+  ],
+  "R434_operator_records": [
+    {
+      "sequence": 7,
+      "kind": "science.original_operator",
+      "payload_bytes": 517,
+      "payload_sha256": "9aa5cef71c5ebcb81edc3abe57e44007c9e0f176e311ffbb4338e267d403de3b",
+      "label": "H4"
+    },
+    {
+      "sequence": 8,
+      "kind": "science.original_operator",
+      "payload_bytes": 564,
+      "payload_sha256": "62524bd40f2c4089af142e7049a68305bd081365a5e77beb01e4876f3669cba3",
+      "label": "H5"
+    },
+    {
+      "sequence": 9,
+      "kind": "science.original_operator",
+      "payload_bytes": 589,
+      "payload_sha256": "12e5be5f26a14e0ea188edd9e2582d89ad3874d80762d8a5650aad74f73113ad",
+      "label": "H6"
+    },
+    {
+      "sequence": 12,
+      "kind": "science.original_operator",
+      "payload_bytes": 323,
+      "payload_sha256": "bf37a664a79ece085f3bcef78b4b67800f270ab5c39b079a350d6d0c9866b891",
+      "label": "J2"
+    },
+    {
+      "sequence": 17,
+      "kind": "science.original_operator",
+      "payload_bytes": 440,
+      "payload_sha256": "369162dd19f79b72fad5dc02c07f177179170e9e0cfeb4066b05a94df10a9ead",
+      "label": "chi40"
+    },
+    {
+      "sequence": 19,
+      "kind": "science.original_operator",
+      "payload_bytes": 438,
+      "payload_sha256": "ed03b0d14f07c58c88757364b04e0c25bc7c22f172750d0cf46986fed7141125",
+      "label": "chi104"
+    }
+  ]
+}''')
 
 canonical, sha = base.canonical, base.sha
 
@@ -176,7 +319,8 @@ def freeze(value):
 def validate(request, repo):
     require(request.get("schema")==SCHEMA and request.get("repository")==REPOSITORY
             and request.get("entry_point")==ENTRY and request.get("domain")==DOMAIN
-            and request.get("limits")==LIMITS and request.get("paid_inputs")==PAID,
+            and request.get("limits")==LIMITS and request.get("paid_inputs")==PAID
+            and request.get("resume")==RESUME,
             "reviewed four-target request, limits or original identities changed")
     required=set(FROZEN)|{ENTRY,DESIGN,WORKFLOW}
     manifest=request.get("source_manifest",[])
@@ -202,6 +346,7 @@ class Journal:
         self.file=path.open("wb")
         self.file_digest,self.chain=hashlib.sha256(),hashlib.sha256()
         self.sequence=self.file_bytes=self.stdout_bytes=0
+        self.inherited_stdout_bytes=RESUME["prior_mathematical_stdout_bytes"]
         self.by_kind={}
         self.last_record=None
         self.unemitted=[]
@@ -217,7 +362,7 @@ class Journal:
         self.by_kind[kind]=self.by_kind.get(kind,0)+1
         self.last_record=identity
         line=b"WEIGHT_ZERO_SELF_RECORD "+encoded
-        if self.stdout_bytes+len(line)>LIMITS["mathematical_stdout_bytes"]-LIMITS["stdout_final_reserve_bytes"]:
+        if self.inherited_stdout_bytes+self.stdout_bytes+len(line)>LIMITS["mathematical_stdout_bytes"]-LIMITS["stdout_final_reserve_bytes"]:
             self.unemitted.append(identity)
             raise base.OutputBudgetExceeded("completed exact record exceeds remaining stdout allowance")
         self.stdout_bytes+=len(line)
@@ -230,6 +375,8 @@ class Journal:
             "temporary_record_file_bytes":self.file_bytes,
             "temporary_record_file_sha256":self.file_digest.hexdigest(),
             "mathematical_record_stdout_bytes":self.stdout_bytes,
+            "prior_mathematical_stdout_bytes":self.inherited_stdout_bytes,
+            "cumulative_prior_and_current_record_stdout_bytes":self.inherited_stdout_bytes+self.stdout_bytes,
             "reserved_final_stdout_bytes":LIMITS["stdout_final_reserve_bytes"],
             "last_completed_record":self.last_record,
             "completed_but_not_emitted_records":list(self.unemitted),
@@ -293,97 +440,6 @@ class Reader:
     def json(self,path):
         return normal.paid.decode_json(self.get(path))
 
-def read_paid(name,reader,progress):
-    spec=PAID[name]
-    start=time.perf_counter()
-    prefix="/repos/"+REPOSITORY
-    run=reader.json(prefix+"/actions/runs/"+str(spec["run_id"]))
-    job=reader.json(prefix+"/actions/jobs/"+str(spec["job_id"]))
-    require(run.get("id")==spec["run_id"] and job.get("id")==spec["job_id"]
-            and job.get("run_id")==spec["run_id"] and run.get("head_sha")==spec["source_commit"]
-            and (not job.get("head_sha") or job["head_sha"]==spec["source_commit"])
-            and run.get("status")==job.get("status")=="completed"
-            and run.get("conclusion")==job.get("conclusion")=="success",
-            name+" original run/job/source/completion binding failed")
-    raw=reader.get(prefix+"/actions/jobs/"+str(spec["job_id"])+"/logs",LIMITS["original_log_read_bytes"])
-    require((len(raw),sha(raw))==(spec["log_bytes"],spec["log_sha256"]),
-            name+" original full log bytes/hash changed")
-    records={}; record_hash=hashlib.sha256(); chain=hashlib.sha256(); record_bytes=0
-    selected=[]
-    for raw_line in raw.decode("utf-8-sig").splitlines():
-        # A BOM may start an INTERNAL Actions line, not only the whole log.
-        line=normal.paid.ANSI.sub("",raw_line).lstrip("\ufeff")
-        if "record_tag" in spec and spec["record_tag"]+" " in line:
-            value=normal.paid.decode_json(line.split(spec["record_tag"]+" ",1)[1])
-            require(set(value)=={"sequence","kind","payload_bytes","payload_sha256","payload"},
-                    name+" record envelope changed")
-            require(value["sequence"]==len(records)+1,name+" original record order changed")
-            payload=canonical(value["payload"])
-            require((len(payload),sha(payload))==(value["payload_bytes"],value["payload_sha256"]),
-                    name+" original payload fingerprint changed")
-            encoded=canonical(value)+b"\n"
-            record_hash.update(encoded); record_bytes+=len(encoded)
-            chain.update(canonical({key:value[key] for key in
-                ("sequence","kind","payload_bytes","payload_sha256")})+b"\n")
-            records[value["sequence"]]=value
-        marker=spec["report_tag"]+" "
-        if marker in line:
-            payload=line.split(marker,1)[1].encode("utf-8")+b"\n"
-            if (len(payload),sha(payload))==(spec["report_bytes"],spec["report_sha256"]):
-                selected.append(normal.paid.decode_json(payload))
-        reader.budget.check()
-    require(len(selected)==1,name+" one exact MAIN bytes/hash required; tag need not be unique")
-    final=selected[0]
-    if records:
-        require(len(records)==spec["records"] and record_bytes==spec["record_file_bytes"]
-                and record_hash.hexdigest()==spec["record_file_sha256"]
-                and chain.hexdigest()==spec["record_chain_sha256"],
-                name+" complete paid record file/chain changed")
-        require(final.get("entry_outcome")=="complete_new_observation"
-                and final.get("workflow_source")==spec["source_commit"]
-                and str(final.get("run_id"))==str(spec["run_id"]),name+" paid final report identity changed")
-        request_raw=reader.get(prefix+"/contents/"+spec["request_path"]+"?ref="+spec["source_commit"],
-                               accept="application/vnd.github.raw+json")
-        require((len(request_raw),sha(request_raw))==(spec["request_bytes"],spec["request_sha256"]),
-                name+" original source-commit request changed")
-        original_request=normal.paid.decode_json(request_raw)
-        require(original_request["source_manifest"]==final["source_manifest"],
-                name+" original request/source manifest mismatch")
-    else:
-        require(final.get("completion")=="complete"
-                and final.get("github_repository")==REPOSITORY
-                and str(final.get("github_run_id"))==str(spec["run_id"])
-                and final.get("github_sha")==spec["source_commit"],name+" paid MAIN completion changed")
-    progress.unit("paid_original_log_reads",name)
-    progress.record("paid_input_identity",{
-        "name":name,"original":spec,"original_source_manifest":final.get("source_manifest",final.get("source_hashes")),
-        "original_job_started_at":job.get("started_at"),"original_job_completed_at":job.get("completed_at"),
-        "selected_MAIN_by_bytes_and_hash":True,"old_science_or_development_executed":0,
-        "read_and_identity_seconds":time.perf_counter()-start,
-    })
-    return final,records
-
-def verify_paid_members(reports):
-    h=reports["R316"][0]["decision"]
-    require(h["outcome"]=="MEMBER" and h["new_representative"]["universal_pure_zero"]
-            and h["new_representative"]["whole_universal_self_zero"]
-            and h["fresh_original_verification"]["fresh_T_and_complete_Euler_exact_zero"],
-            "R316 same whole-E representative receipt incomplete")
-    hco={int(i):F(v) for i,v in h["new_representative"]["original_response_coefficients"]}
-    require(hco==normal.TARGETS["Hstar"]["response"],"published Hstar response source changed")
-    decisions={r["normal_index"]:r for r in reports["R329"][0]["decisions"]}
-    wanted={
-        4:{2:F(95,768),3:F(1,3072),4:F(95,1536),5:F(-115,768),7:F(-1,64),9:F(29,1024)},
-        6:{2:F(-5,384),3:F(5,1536),4:F(-5,768),5:F(1,384),9:F(1,512)},
-    }
-    for index in (4,6):
-        d=decisions[index]; r=d["joint_zero_representative"]
-        require(d["outcome"]=="MEMBER" and r["universal_pure_zero"] and r["whole_universal_self_zero"]
-                and d["fresh_original_verification"]["fresh_T_and_complete_Euler_zero"],
-                "R329 whole-E member receipt incomplete")
-        require({int(i):F(v) for i,v in r["original_R126_coefficients"]}==wanted[index],
-                "published J4/J6 response source changed")
-
 def coefficient_rows(values):
     return [[list(key) if isinstance(key,tuple) else key,str(value)]
             for key,value in sorted(values.items()) if value]
@@ -395,106 +451,193 @@ def add_vector(out, other, coefficient, budget):
     for key,value in other.items():
         base.add(out,key,coefficient*value,budget)
 
-def paid_interfaces(reports,progress):
-    """Read recorded identities and apply seven OLD pivots to two NEW RHS."""
-    records=reports["R434"][1]
-    require(records[166]["kind"]=="science.complete_Q_coordinate_labels",
-            "paid Q coordinate label record changed")
-    keys=[freeze(k) for k in records[166]["payload"]]
-    require(len(keys)==len(set(keys)),"paid Q labels are not unique")
-    key_index={key:i for i,key in enumerate(keys)}
-    qcolumns={}
-    for sequence in Q_SEQUENCES:
-        row=records[sequence]["payload"]
-        require(records[sequence]["kind"]=="science.complete_Q_column"
-                and row["true_cost_weight"]==0 and row["complete_reconstruction_zero"],
-                "paid full-Q column identity or reconstruction flag changed")
-        label=tuple(row["label"])
-        require(label not in qcolumns,"duplicate paid zero-weight Q label")
-        qcolumns[label]={key_index[freeze(key)]:F(value) for key,value in row["coordinates"]}
-    pivots=[]
-    for sequence in PIVOT_SEQUENCES:
-        row=records[sequence]["payload"]
-        require(records[sequence]["kind"]=="science.Q_elimination_step" and row["kind"]=="pivot",
-                "paid Q pivot identity changed")
-        coefficients=combination(row["original_combination"])
-        value={}
-        for label,amount in coefficients.items():
-            require(label in qcolumns,"paid pivot refers outside ten paid zero-weight Q columns")
-            add_vector(value,qcolumns[label],amount,progress.budget)
-        require(sha(canonical(base.vector_rows(value)))==row["normalized_coordinate_fingerprint"],
-                "paid pivot vector failed its ORIGINAL normalized fingerprint")
-        pivot=row["pivot_coordinate"]
-        require(value.get(pivot)==1 and min(value)==pivot,"paid Q pivot is not normalized")
-        pivots.append((sequence,pivot,value,coefficients))
-    require([p[1] for p in pivots]==[8,9,50,88,91,99,138],"paid pivot sequence changed")
-    corrections={}
-    for index,old,name in ((4,8,"response_old8"),(5,9,"response_old9")):
-        row=reports["R316"][0]["columns"][index]
-        require(row["index"]==index and row["label"]["nonpivot_R126_old_column"]==old
-                and row["true_cost_weight"]==0
-                and row["original_mixed_sha256"]==TARGETS[name]["mixed_sha256"]
-                and row["whole_word_reconstruction_from_T_and_L_exact_zero"],
-                "paid R316 whole-Q target source changed")
-        rhs={}
-        matrix=row["ordered_matrix_T"]
-        require(len(matrix)==3 and all(len(r)==3 for r in matrix),"paid T9 shape changed")
-        for i in range(3):
-            for j in range(3):
-                base.add(rhs,key_index[("T",i,j)],F(matrix[i][j]),progress.budget)
-        for power,jets,amount in row["complete_Euler_coefficients"]:
-            base.add(rhs,key_index[("Euler",power,tuple(jets))],F(amount),progress.budget)
-        residual=dict(rhs); correction={}; applications=[]
-        for sequence,pivot,value,coefficients in pivots:
-            amount=residual.get(pivot,F(0))
-            applications.append({"old_sequence":sequence,"old_pivot_coordinate":pivot,
-                                 "new_RHS_coefficient":str(amount)})
-            add_vector(residual,value,-amount,progress.budget)
-            add_vector(correction,coefficients,amount,progress.budget)
-        proof={
-            "target":name,"paid_R316_column_index":index,
-            "paid_complete_Q_RHS":base.vector_rows(rhs),"paid_pivot_applications":applications,
-            "subtract_original_Z_cost_combination":coefficient_rows(correction),
-            "complete_Q_residual":base.vector_rows(residual),
-            "old_Q_mapping_rank_kernel_or_pivot_search_executed":0,
-        }
-        progress.record("new_RHS_paid_Q_right_inverse",proof)
-        if residual:
-            raise base.InterfaceFailure("new Q RHS failed the recorded seven-pivot right inverse",proof)
-        corrections[name]=correction
-        progress.unit("new_Q_RHS_paid_inverse_applications",name)
-    corrections.update(normal_XH={},normal_XY={})
-    cur=records[707]
-    require(cur["kind"]=="science.complete_kernel_current_column"
-            and cur["payload_sha256"]==CURRENT_SHA
-            and cur["payload"]["complete_Q_coordinates_zero"]
-            and cur["payload"]["all_three_moments_emitted"]
-            and cur["payload"]["complete_current_coordinates"]==[[15,"69/4576"],[27,"-69/9152"]],
-            "paid unique current column changed")
-    zc={key:F(-9152,69)*value for key,value in combination(cur["payload"]["original_combination"]).items()}
-    progress.record("paid_unique_current_right_inverse",{
-        "original_sequence":707,"original_payload_sha256":CURRENT_SHA,
-        "normalization":"Zc=-9152/69 V707","original_Z_cost_combination":coefficient_rows(zc),
-        "original_complete_current_coordinates":[[15,"-2"],[27,"1"]],
+def bound_log(spec, reader, conclusion):
+    prefix="/repos/"+REPOSITORY
+    run=reader.json(prefix+"/actions/runs/"+str(spec["run_id"]))
+    job=reader.json(prefix+"/actions/jobs/"+str(spec["job_id"]))
+    require(run.get("id")==spec["run_id"] and job.get("id")==spec["job_id"]
+            and job.get("run_id")==spec["run_id"] and run.get("head_sha")==spec["source_commit"]
+            and (not job.get("head_sha") or job["head_sha"]==spec["source_commit"])
+            and run.get("status")==job.get("status")=="completed"
+            and run.get("conclusion")==job.get("conclusion")==conclusion,
+            "the bound prior run/job/source/conclusion changed")
+    raw=reader.get(prefix+"/actions/jobs/"+str(spec["job_id"])+"/logs",
+                   LIMITS["original_log_read_bytes"])
+    require((len(raw),sha(raw))==(spec["log_bytes"],spec["log_sha256"]),
+            "the bound complete prior log bytes/hash changed")
+    return raw,run,job
+
+def resume_paid_interfaces(reader, progress):
+    """Decode the ten paid records; do not replay Q or old member checks."""
+    spec=RESUME
+    raw,run,job=bound_log(spec,reader,"failure")
+    records={}; record_hash=hashlib.sha256(); chain=hashlib.sha256(); record_bytes=0
+    selected=[]; clocks=[]
+    wanted={r["sequence"]:r for r in spec["record_identities"]}
+    for raw_line in raw.decode("utf-8-sig").splitlines():
+        line=normal.paid.ANSI.sub("",raw_line).lstrip("\ufeff")
+        marker=spec["record_tag"]+" "
+        if marker in line:
+            rec=normal.paid.decode_json(line.split(marker,1)[1])
+            require(set(rec)=={"sequence","kind","payload_bytes","payload_sha256","payload"},
+                    "paid resume record envelope changed")
+            sequence=rec["sequence"]
+            require(sequence==len(records)+1 and sequence in wanted,
+                    "paid resume record sequence changed")
+            identity={k:rec[k] for k in ("sequence","kind","payload_bytes","payload_sha256")}
+            require(identity==wanted[sequence],"paid resume record identity changed")
+            payload=canonical(rec["payload"])
+            require((len(payload),sha(payload))==(rec["payload_bytes"],rec["payload_sha256"]),
+                    "paid resume payload bytes/hash changed")
+            encoded=canonical(rec)+b"\n"
+            record_hash.update(encoded); record_bytes+=len(encoded)
+            chain.update(canonical(identity)+b"\n")
+            records[sequence]=rec
+        for tag,dest,bytekey,hashkey in (
+                (spec["report_tag"],selected,"report_bytes","report_sha256"),
+                (spec["clock_tag"],clocks,"clock_bytes","clock_sha256")):
+            marker=tag+" "
+            if marker in line:
+                payload=line.split(marker,1)[1].encode("utf-8")+b"\n"
+                if (len(payload),sha(payload))==(spec[bytekey],spec[hashkey]):
+                    dest.append(normal.paid.decode_json(payload))
+        reader.budget.check()
+    require(len(records)==spec["records"] and record_bytes==spec["record_file_bytes"]
+            and record_hash.hexdigest()==spec["record_file_sha256"]
+            and chain.hexdigest()==spec["record_chain_sha256"],
+            "paid resume complete record file/chain changed")
+    require(len(selected)==len(clocks)==1,"one exact prior main report and final clock required")
+    old,clock=selected[0],clocks[0]
+    require(old.get("schema")==SCHEMA and old.get("repository")==REPOSITORY
+            and str(old.get("run_id"))==str(spec["run_id"])
+            and old.get("workflow_source")==spec["source_commit"]
+            and old.get("source_binding_complete") is True
+            and old.get("entry_outcome")=="entry_error"
+            and old.get("entry_error")=={"type":"KeyError","message":"'source_hashes'"}
+            and old.get("request")=={"bytes":spec["request_bytes"],"sha256":spec["request_sha256"]},
+            "the exact failed entry identity/stopping point changed")
+    oldscience=old["science"]
+    require(oldscience.get("active_stage")=="restore_only_three_static_and_eight_response_mixed_inputs"
+            and oldscience.get("completed_units")==
+                {"paid_original_log_reads":4,"new_Q_RHS_paid_inverse_applications":2}
+            and oldscience.get("profile_atoms")==0
+            and oldscience.get("shared_mapper_usage",{}).get("primitive_calls")==0
+            and oldscience.get("shared_mapper_usage",{}).get("cache_entries")==0,
+            "resume would skip science not completed at the pinned stopping point")
+    require(clock.get("unified_science_started") is True
+            and clock.get("workflow_source")==spec["source_commit"]
+            and str(clock.get("run_id"))==str(spec["run_id"])
+            and clock.get("all_science_and_main_output_elapsed_seconds")==spec["prior_science_seconds"]
+            and clock.get("no_further_science") is True,
+            "the authoritative prior clock changed")
+    for field in ("monitored_rational_operations","maximum_monitored_rational_bits","limit_check_calls"):
+        require(oldscience.get(field)==spec["prior_"+field],"prior charged count changed")
+    require(oldscience.get("network")==spec["prior_network"]
+            and old.get("peak_RSS_KiB")==spec["prior_peak_RSS_KiB"],
+            "prior charged network or memory receipt changed")
+    manifests={r["path"]:r for r in old["source_manifest"]}
+    require(manifests.get(ENTRY,{}).get("sha256")==spec["source_entry_sha256"]
+            and all(manifests.get(path,{}).get("sha256")==digest for path,digest in FROZEN.items()),
+            "the paid resume ran a different source closure")
+    for index,name in enumerate(("R316","R329","R434","R443"),1):
+        identity=records[index]["payload"]
+        require(identity["name"]==name and identity["original"]==PAID[name]
+                and identity["old_science_or_development_executed"]==0,
+                "paid ancestral input binding changed")
+    progress.data["prior_completed_units"]=oldscience["completed_units"]
+    progress.data["prior_science_receipt"]=oldscience
+    progress.data["prior_final_clock"]=clock
+    progress.data["prior_pre_science_entry_seconds"]=spec["prior_pre_science_entry_seconds"]
+    progress.data["resume_entry_failure_repaired_only"]={
+        "original_missing_container":"source_hashes.frozen_inputs_and_helpers",
+        "replacement":"normal.head.source_identity()",
+        "old_bound_source_validation_removed":False,
+    }
+    progress.record("paid_resume_identity",{
+        "run_id":spec["run_id"],"job_id":spec["job_id"],"source_commit":spec["source_commit"],
+        "log_bytes":spec["log_bytes"],"log_sha256":spec["log_sha256"],
+        "record_identity_chain_sha256":spec["record_chain_sha256"],
+        "complete_record_identities":spec["record_identities"],
+        "prior_final_clock":clock,"prior_entry_error":old["entry_error"],
+        "prior_complete_science_receipt":oldscience,
+        "prior_pre_science_entry_seconds":spec["prior_pre_science_entry_seconds"],
+        "old_R316_R329_R443_logs_reopened":0,"old_member_receipts_rechecked":0,
+        "paid_Q_inverse_reapplied":0,"new_science_skipped":0,
+    })
+    corrections={"normal_XH":{},"normal_XY":{}}
+    for sequence,name in ((5,"response_old8"),(6,"response_old9")):
+        payload=records[sequence]["payload"]
+        require(payload["target"]==name and payload["complete_Q_residual"]==[],
+                "paid Q correction is not complete")
+        corrections[name]=combination(payload["subtract_original_Z_cost_combination"])
+        progress.record("resumed_paid_Q_correction",{
+            "target":name,"original_run_id":spec["run_id"],"original_sequence":sequence,
+            "original_payload_sha256":records[sequence]["payload_sha256"],
+            "subtract_original_Z_cost_combination":payload["subtract_original_Z_cost_combination"],
+            "complete_Q_residual":payload["complete_Q_residual"],
+            "paid_Q_inverse_reapplied":0,
+        })
+    pivot=records[7]["payload"]
+    require(pivot["original_sequence"]==707 and pivot["original_payload_sha256"]==CURRENT_SHA
+            and pivot["original_complete_current_coordinates"]==[[15,"-2"],[27,"1"]],
+            "paid current correction binding changed")
+    zc=combination(pivot["original_Z_cost_combination"])
+    progress.record("resumed_paid_unique_current_right_inverse",{
+        "original_run_id":spec["run_id"],"original_sequence":7,
+        "original_payload_sha256":records[7]["payload_sha256"],"original_payload":pivot,
         "old_current_or_Q_executions":0,
     })
-    needed_z={key[1] for corr in corrections.values() for key in corr}|{key[1] for key in zc}
-    operator_rows={r["payload"]["label"]:r["payload"] for r in records.values()
-                   if r["kind"]=="science.original_operator"}
-    require(needed_z<=set(operator_rows),"paid a/b/c source absent")
-    for sequence,digest in sorted(SELF_REFERENCE_SHA.items()):
-        rec=reports["R443"][1][sequence]
-        require(rec["payload_sha256"]==digest,"paid reference self changed")
-        progress.record("paid_reference_complete_self",{
-            "original_sequence":sequence,"original_payload_sha256":digest,
-            "original_record_kind":rec["kind"],"original_payload":rec["payload"],
-            "old_self_mapping_or_rank_executed":0,
-        })
-    return corrections,zc,{key:operator_rows[key] for key in sorted(needed_z)}
+    for sequence,reference in ((8,108),(9,109),(10,119)):
+        payload=records[sequence]["payload"]
+        require(payload["original_sequence"]==reference
+                and payload["original_payload_sha256"]==SELF_REFERENCE_SHA[reference],
+                "paid self-reference recovery changed")
+        progress.record("paid_reference_complete_self",payload)
+    needed={label[1] for corr in corrections.values() for label in corr}|{label[1] for label in zc}
+    require(needed=={r["label"] for r in spec["R434_operator_records"]},
+            "resume has changed its six original operator needs")
+    progress.unit("paid_resume_log_reads",spec["job_id"])
+    return corrections,zc,needed
+
+def read_paid_operator_rows(reader,progress,needed):
+    """Only six original a/b/c records; no old Q/current/membership readback."""
+    raw,run,job=bound_log(R434,reader,"success")
+    wanted={r["sequence"]:r for r in RESUME["R434_operator_records"]}
+    result={}
+    marker=R434["record_tag"]+" "
+    for raw_line in raw.decode("utf-8-sig").splitlines():
+        line=normal.paid.ANSI.sub("",raw_line).lstrip("\ufeff")
+        if marker not in line:
+            reader.budget.check()
+            continue
+        rec=normal.paid.decode_json(line.split(marker,1)[1])
+        sequence=rec.get("sequence")
+        if sequence in wanted:
+            pin=wanted[sequence]
+            require(rec.get("kind")==pin["kind"] and rec.get("payload_bytes")==pin["payload_bytes"]
+                    and rec.get("payload_sha256")==pin["payload_sha256"],
+                    "paid operator record identity changed")
+            encoded=canonical(rec["payload"])
+            require((len(encoded),sha(encoded))==(pin["payload_bytes"],pin["payload_sha256"])
+                    and rec["payload"]["label"]==pin["label"]
+                    and pin["label"] not in result,
+                    "paid operator payload bytes/hash/label changed")
+            result[pin["label"]]=rec["payload"]
+            progress.record("resumed_original_operator_input",{
+                "original_run_id":R434["run_id"],"original_job_id":R434["job_id"],
+                "original_record_identity":pin,"original_payload":rec["payload"],
+                "original_operator_regenerated":False,
+            })
+        reader.budget.check()
+    require(set(result)==needed,"not all six required paid operator inputs were recovered")
+    progress.unit("paid_operator_only_log_reads",R434["job_id"])
+    return result
 
 def restore_original_inputs(ring,repository,progress):
     """Restore only the three new-target static inputs and eight old responses."""
-    receipt={"inputs":{}}
+    # The original binder compares the producer against this FULL frozen tree.
+    # An empty source_hashes mapping would fail at frozen_inputs_and_helpers.
+    receipt={"inputs":{},"source_hashes":normal.head.source_identity()}
     labels=normal.zero.read_R0_definition(
         normal.safe_path(repository,TOPIC+"/notes/actions-43649525432-1-g_first_translation"),receipt)
     all_labels=dict(zip(normal.zero.R0_KEEP,labels))
@@ -931,36 +1074,42 @@ def new_target(name,statics,responses,correction,zc,green,owner,fresh,progress):
 def total_clock_budget(started):
     budget=base.make_budget(LIMITS["seconds"])
     inherited=budget.check
-    deadline=started+LIMITS["seconds"]
+    budget.rational_operations+=RESUME["prior_monitored_rational_operations"]
+    budget.maximum_monitored_rational_bits=max(budget.maximum_monitored_rational_bits,
+        RESUME["prior_maximum_monitored_rational_bits"])
+    budget.calls+=RESUME["prior_limit_check_calls"]
+    deadline=started+LIMITS["seconds"]-RESUME["prior_science_seconds"]
     def check():
         inherited()
         if time.perf_counter()>deadline:
-            raise base.exact.formal.CompilationBudgetExceeded("one scientific clock including all paid reads expired")
+            raise base.exact.formal.CompilationBudgetExceeded("cumulative scientific clock including the paid failed run expired")
     budget.check=check
     return budget,deadline
 
 def science(repository,progress):
     progress.start()
-    progress.stage("initialize_one_clock_before_paid_input_reads")
+    progress.stage("initialize_shared_clock_before_resume_reads")
     budget,deadline=total_clock_budget(progress.started_at)
     progress.bind(budget=budget)
     reader=Reader(budget,deadline)
     progress.data["network"]={"requests":0,"bytes":0,"redirects":0}
     progress.data["one_scientific_clock_includes"]=[
-        "all four original log reads and identity parsing",
+        "the prior failed segment and its four paid log reads and two completed Q-RHS applications",
+        "this exact ten-record resume read and six original operator records only",
         "necessary three-static/eight-response input restoration",
-        "new same-cost Q RHS replay, full self/current symbols and fresh source differences",
-        "all failed work and partial observations",
+        "new full self/current symbols and fresh source differences",
+        "all failed work, partial observations and main-report output across segments",
     ]
+    progress.data["charged_prior_science_seconds"]=RESUME["prior_science_seconds"]
+    progress.data["available_resume_seconds_at_start"]=LIMITS["seconds"]-RESUME["prior_science_seconds"]
+    progress.data["prior_rational_operation_count"]=RESUME["prior_monitored_rational_operations"]
+    progress.data["prior_peak_RSS_KiB"]=RESUME["prior_peak_RSS_KiB"]
     progress.data["scope"]=DOMAIN
-    reports={}
     try:
-        for name in ("R316","R329","R434","R443"):
-            progress.stage("read_paid_original_"+name)
-            reports[name]=read_paid(name,reader,progress)
-        progress.stage("reuse_paid_members_and_pivots")
-        verify_paid_members(reports)
-        corrections,zc,operator_rows=paid_interfaces(reports,progress)
+        progress.stage("read_exact_paid_failure_checkpoint")
+        corrections,zc,needed=resume_paid_interfaces(reader,progress)
+        progress.stage("read_six_paid_R434_operator_records_only")
+        operator_rows=read_paid_operator_rows(reader,progress,needed)
         progress.stage("restore_only_three_static_and_eight_response_mixed_inputs")
         ring=normal.colored.ColoredRing(budget)
         progress.bind(ring=ring)
@@ -996,6 +1145,8 @@ def science(repository,progress):
             "old_pure_mapping":0,"old_Q_mapping":0,"old_Omega_mapping":0,"old_current_rank":0,
             "old_self_rank":0,"old_development_suites":0,"old_forcing_compilation":0,
             "new_profile_or_root_evaluation":0,"new_development":0,"new_mirror_rank_or_membership":0,
+            "already_paid_Q_RHS_reapplications":0,"old_member_checks_repeated":0,
+            "old_R316_R329_R443_logs_reread":0,
         }
         progress.data["joint_h_y_quotient_relation_not_replaced_by_two_MEMBER_booleans"]=True
         progress.data["next_mathematical_step"]=(
@@ -1005,6 +1156,11 @@ def science(repository,progress):
                         else "four_new_targets_attempted_with_exact_unresolved_interfaces")
     finally:
         progress.data["network"]={"requests":reader.requests,"bytes":reader.bytes,"redirects":reader.redirects}
+        progress.data["cumulative_network"]={
+            key:RESUME["prior_network"][key]+progress.data["network"][key]
+            for key in ("requests","bytes","redirects")}
+        progress.data["cumulative_science_elapsed_at_stage_exit_seconds"]=(
+            RESUME["prior_science_seconds"]+time.perf_counter()-progress.started_at)
         progress.snapshot()
 
 def main():
@@ -1030,6 +1186,10 @@ def main():
         "old_science_executions":0,"actual_joint_period_resolved":False,
         "unabridged_math_emitted_once_as_sequential_records":True,
         "source_binding_complete":False,
+        "resume_from":{"run_id":RESUME["run_id"],"job_id":RESUME["job_id"],
+            "source_commit":RESUME["source_commit"],
+            "charged_prior_science_seconds":RESUME["prior_science_seconds"],
+            "prior_pre_science_entry_seconds":RESUME["prior_pre_science_entry_seconds"]},
     }
     exit_code=0;identities=[]
     try:
@@ -1075,11 +1235,12 @@ def main():
         progress.snapshot()
         journal.file.close()
         report["total_elapsed_seconds"]=time.perf_counter()-started
-        report["peak_RSS_KiB"]=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        report["segment_peak_RSS_KiB"]=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        report["peak_RSS_KiB"]=max(RESUME["prior_peak_RSS_KiB"],report["segment_peak_RSS_KiB"])
         report["record_journal"]=journal.receipt()
     encoded=canonical(report)+b"\n"
     line=b"COMPLETE_WEIGHT_ZERO_SELF_REPORT "+encoded
-    if journal.stdout_bytes+len(line)+1024>LIMITS["mathematical_stdout_bytes"]:
+    if journal.inherited_stdout_bytes+journal.stdout_bytes+len(line)+2048>LIMITS["mathematical_stdout_bytes"]:
         unabridged=output.with_suffix(".unemitted-summary.json")
         unabridged.write_bytes(encoded)
         report["unabridged_summary_identity"]={"bytes":len(encoded),"sha256":sha(encoded),
@@ -1102,14 +1263,20 @@ def main():
     # PhaseProgress receipt is deliberately frozen earlier and is not total cost.
     clock_start=progress.started_at
     sampled=time.perf_counter()
-    elapsed=None if clock_start is None else sampled-clock_start
-    overrun=None if elapsed is None else max(0.0,elapsed-LIMITS["seconds"])
-    exceeded=elapsed is not None and elapsed>LIMITS["seconds"]
+    segment_elapsed=None if clock_start is None else sampled-clock_start
+    elapsed=RESUME["prior_science_seconds"]+(segment_elapsed or 0.0)
+    overrun=max(0.0,elapsed-LIMITS["seconds"])
+    exceeded=elapsed>LIMITS["seconds"]
     terminal={
         "schema":SCHEMA+"-final-clock","run_id":os.environ.get("GITHUB_RUN_ID"),
         "workflow_source":os.environ.get("GITHUB_SHA"),
-        "unified_science_started":clock_start is not None,
+        "unified_science_started":True,
+        "resume_segment_science_started":clock_start is not None,
+        "prior_charged_science_seconds":RESUME["prior_science_seconds"],
+        "resume_segment_science_and_main_output_elapsed_seconds":segment_elapsed,
         "all_science_and_main_output_elapsed_seconds":elapsed,
+        "prior_pre_science_entry_seconds":RESUME["prior_pre_science_entry_seconds"],
+        "prior_pre_science_entry_seconds_counted_as_science":False,
         "entry_elapsed_seconds":sampled-started,
         "limit_seconds":LIMITS["seconds"],"overrun_seconds":overrun,
         "limit_exceeded":exceeded,"no_further_science":True,
@@ -1118,7 +1285,9 @@ def main():
         "nonpreemptible_output_overrun_not_clipped":True,
         "main_report_entry_outcome":report.get("entry_outcome"),
         "terminal_exit_code":3 if exceeded else exit_code,
-        "peak_RSS_KiB":resource.getrusage(resource.RUSAGE_SELF).ru_maxrss,
+        "peak_RSS_KiB":max(RESUME["prior_peak_RSS_KiB"],resource.getrusage(resource.RUSAGE_SELF).ru_maxrss),
+        "total_rational_operations_include_prior_segment":True,
+        "mathematical_stdout_cap_includes_prior_segment":True,
     }
     sys.stdout.buffer.write(b"FINAL_CLOCK "+canonical(terminal)+b"\n")
     sys.stdout.buffer.flush()

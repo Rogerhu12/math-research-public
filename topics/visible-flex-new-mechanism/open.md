@@ -210,3 +210,7 @@ R464从起点M3≠0给原9行相位光滑同规范右逆，R461合法3矩保十p
 ### 权零四列：已付Q-RHS，修恢复容器续未付self
 
 [本次失败](notes/weight-zero-four-self-paid-Q-RHS-and-restore-container-failure-20261116.md)：run43818340099/job133135408458，4旧log/2新Q-RHS/seq707/3旧self已输出10记录；restore receipt缺source_hashes，static/response恢复与新self0。科学5.033211667秒扣同180秒，前次UTF8入口.005253693另保。下一直接读这10记录复用已付系数，只读必要原operator，修容器后续3静态/8响应和4新self。保XH原左n2、所有非local/高jet/p分母残词；共同母上h∈S0+span(y)判满锥，h,y∈S0才直接付旧双参数。
+
+### 四self已付结果续接（2026-11-16 06:52:36 UTC）
+
+原run43818340099两Q-RHS不再应用；同180秒扣已付5.033211667秒。续接只读该10记录与R434六abc，填原完整source_identity后继续未付3静态/8响应混合根与四self，仍保真实左尾及h∈span(y)联合关系。源码240a82b6…/requesteda47811…，原失败和费用不删除。
