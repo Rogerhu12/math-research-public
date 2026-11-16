@@ -133,3 +133,6 @@ sigma_uniform继续实际分歧quotient与Γ来源比较；R895已关闭原未�
 
 
 **R901五原Z的共享有界树已证**：[完整证明](results/R901-original-five-Z-shared-bounded-flip-DAG-and-marked-principals.md)固定12χ/24原f-trace/五(6+11+1)=126新flip，R890 D2/E两节点及其累计F直接复用；准确Z_j=(DZj−H)+div(Fj·(Norm Qj)^qj·QK^(−pj))与I_Z正乘、原五阶和t正c幂保全。原六σ必须保持R896每j所有旧图/整数锚，末D一般仅L定义且负支撑不限P0；保完整γQ/Q与七重cocycle，不把I_Z当real Lj³。原R896、R900与六σ来源未成，126尚未执行，五128/144和统一height仍OPEN。
+
+
+**R903原正Z两权直接接口已证**：[完整证明](results/R903-original-five-Iz-shared-product-two-weight-RR-and-marked-frame.md)直接由R901正Z代表和原qχ给Φ=QZ/qχ，正乘O(3H−D−X−18P0)到I_Z(254P0)。同一962乘积像、两个544核得146/418，原18行给128/400，144是(τ,σ)两组128后的真补列；原P0帧c正幂、两图272整纤维和同七重datum保留。实际矩阵、R901终点、Q下降/P1值及高度仍待真实来源，不把纸证当运行。
