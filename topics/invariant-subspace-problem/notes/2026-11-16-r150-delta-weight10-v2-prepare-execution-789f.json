@@ -1,0 +1,80 @@
+{
+  "actual": {
+    "SingularCalled": false,
+    "candidateComputed": false,
+    "completeOriginalColumns": 200,
+    "elapsedSeconds": 275.63286762399366,
+    "exitCode": 0,
+    "peakRssKiB": 154004,
+    "targetMembershipConclusion": false
+  },
+  "author": "Astra-ISP-789f / literature_audit; AI-assisted GPT-6 Astra Pro",
+  "binding": "dfb2420829d6b6243142e1232e4c2bdba4fa45fb1823fe81d119c4101493e488",
+  "completeMathRawAndArraysRemainTemporary": true,
+  "computationalOutputPersisted": false,
+  "format": "r150-original-delta-weight10-v2-local-prepare-execution-identity-v1",
+  "outputs": {
+    "log": {
+      "bytes": 3618,
+      "path": "delta-weight10-v2-prepare600.log",
+      "sha256": "3e605076d8a3a747ff74558f90a19b823c9df0cc84e88c29177420b7691fc189"
+    },
+    "manifest": {
+      "bytes": 410173,
+      "path": "delta-weight10-manifest.json",
+      "sha256": "d6d4a4921c8b874def17e3de84db64c6fa9716cf9ea173a7207e8538f54b41c5"
+    },
+    "rawReceipt": {
+      "bytes": 1667,
+      "path": "delta-weight10-receipt.json",
+      "sha256": "4484dbf8234ace6406936d46520925093782aeabeb6426f5114f4fe17c089ed8"
+    }
+  },
+  "parameters": {
+    "memoryMiB": 2048,
+    "out": "/tmp/literature_bell_rank4_789f/original-delta-weight10-homogeneous127-v2",
+    "outerSeconds": 660,
+    "seconds": 600,
+    "through": "prepare"
+  },
+  "parent": {
+    "binding": "41638323f597133aadeb65b2a1639899a162e2afbe6e7f7c477e93fae912cd80",
+    "finalPhase": {
+      "bytes": 35044,
+      "logicalBytes": 148424,
+      "logicalSha256": "f8b17d755d1515726632280fe110788dcf03128705172944a67d44f12de14bee",
+      "path": "complete-original210-source-model.json.gz",
+      "sha256": "ed0b6811561a0799dff2cab99b2c7685a2ed820978be00c397a69f110972fed5"
+    },
+    "format": "r150-original-two-round-complete210-sources127-v2",
+    "localHistoricalReceipt": {
+      "bytes": 32576,
+      "path": "complete210-sources-receipt.json",
+      "sha256": "77724520a9b2aa89086d7bb39e7dcef48bbc1cef2faaef00e9d98fcc588b24ea"
+    },
+    "mathematicalManifest": {
+      "bytes": 144113,
+      "path": "complete210-sources-manifest.json",
+      "sha256": "74eb5557203192b2b3e37b43189ceaa7ec34afeb698884f336331210d1bcf2ff"
+    }
+  },
+  "python": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "source": {
+    "bytes": 40014,
+    "gitBlobSHA": "61af7aee865dbe7d2b99aece5fe518c2d69cbe4f",
+    "path": "notes/2026-11-16-r150-original-delta-weight10-homogeneous127-v2-789f.py",
+    "sha256": "dc7e36fa9bc98ab11eb1784e8f88e133f99e689b308fabbef00dbf4dde844309"
+  },
+  "sourceWeightOrderRepair": {
+    "failedSource": "d7ce3e045d058d5447659d1e356ff2897f0137d8",
+    "failureIdentity": "190a89caaed5f17f62bc84b4a37009bfd170bba1",
+    "scope": "Only two physical weight guards corrected to eleven4 then six5; independent FORMAT and output, no failed checkpoint reused."
+  },
+  "status": "completed-prefix",
+  "verifier": {
+    "bytes": 13935,
+    "gitBlobSHA": "917418d74e660827f85dedbae1d5acfc54a01f96",
+    "path": "notes/2026-11-16-r150-shifted-module-weight10-verifier127-789f.py",
+    "sha256": "54b082184273e254495be8e1eb788e6569e8ca9cc4b83a1a5d4330304e9d4246"
+  }
+}
