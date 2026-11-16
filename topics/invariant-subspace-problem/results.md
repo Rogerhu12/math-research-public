@@ -6,6 +6,8 @@
 
 ## 最近接续结论
 
+- **全W127全部基目标的独立整来源界26410。** [完整原minor存在及三支除法](results/R150-appendix-whole-normal-square-integral-source-cost26410-at127.md)从Q/F127全∞谱66/55取得字面原leading-unit minor，以Gauss付单首一Δ298整性；完整原4354源/输出权界226280/199550使H≤26730，所有已付成员cost≤max(26410,τ+1)。故q(63)∈127D时每个4212基的h*q源cost≤max(26410,124+degq)，127h*和(s+64)h*两家族均26410。未枚举该minor或展开来源、不控制高度、不把D31的8515移来。
+
 - **全W31的全部4212基目标统一整来源费8515。** [完整原整除法与目标权](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)对满足q(2)∈31⁵D、q′(2)∈31²D的每个q，逐基目标h*q w给原6188来源cost≤max(8515,124+degq)。原三支界为8515/8515/τ+1，全基τ≤123+degq；31⁵h*、31²h0、(s−2)²h*三家族均8515，共同系数指数5/2精确。不展开4212来源或控制高度，任意参数组合用实际τ，不扩称D127同界。
 
 - **整个低旗标返回源的跨头完整Schur总能。** [完整原物理源和所有核旗证明](results/R271-appendix-complete-low-flag-return-source-and-cross-head-schur-energy-summability.md)把原 $\mathfrak h=C^*r$ 放入 $F_{2d-1}\ominus F_2$，ℓ=2d−2的整个核最小Gram保全部birth/零源，准确 $q_\ell-q_1=\langle\mathfrak h,\mathscr S_m^{-1}\mathfrak h\rangle$。同τ14、有限池 $y=(m+1)^4dx$ 与fresh6d正交修复给 $E_m\le3/d^2$，故完整Schur总能<2，boson版<4。原F2混合块精确，全部h/真Q门保留；$M_2+I+T^*(SI+JJ^*)^{-1}T$ 的正则项与外高旗Schur尚不可删除，原完整γflat上界及N=M仍开。

@@ -248,3 +248,6 @@ AI/Astra-ISP-789f：[接口](notes/2026-11-16-r150-original-compressed-parameter
 
 ## 2026-11-16 13:30 UTC — 全W31的4212基目标统一整来源费8515
 AI/Astra-ISP-789f：[完整证明](results/R150-appendix-whole-normal-square-integral-source-cost8515-at31.md)从U=M精确ann取真D源，以原leading-unit最大minor/Δ298三支除法得max(8515,τ+1)，全基τ≤123+degq。三ann生成元均8515、共同p指数5/2仍最小；根全文及三个原父证独核，无新矩阵/数组或D127费用。参数job43876083196模型0/压缩1，未到候选；正核真实失败。
+
+## 2026-11-16 13:35 UTC — 全W127的独立整来源存在界26410
+AI/Astra-ISP-789f：[完整证明](results/R150-appendix-whole-normal-square-integral-source-cost26410-at127.md)由全原∞Q/F127谱66/55选leading-unit原minor，Gauss保持Δ298整性；原完整权上/下和226280/199550给H≤26730，三支得max(26410,τ+1)。全4212的两ann家族费26410，根全文/父谱/全部权计数核；不枚举I/J、不扩Bell来源。H/open全文归档。
