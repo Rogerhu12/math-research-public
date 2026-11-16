@@ -286,3 +286,7 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 12:30:17 UTC /root — R545实际230完整来源和同C链
 
 [R545](results/R545-request230-complete-current-source-and-same-C-chain.md)/[接口](notes/2026-11-16-request230-current-source-complete-chain-interface.md)七件341400B/topic254482完整，原473→535=293public+242gen；真8层源、修正argv/ENTRY、三场全部consumer/8sameC/9原scope/quiet清理接齐。current-inner实receipt/env取SHA而祖先分列，original216漏键真补、generated身份三列表完整逆/严格小才用，原18900+2700/32GiB/全部门/90K保持、不保证fit。发布后官方单POST/R546 exact；H压缩固定3b607全文并更新229真实source停点及各后继。
+
+## 2026-11-16 12:39:17 UTC /root — R543实际229完整字段断口与230绑定
+
+[R543](results/R543-actual229-current-request-field-mismatch-before-owner.md)28715/ba9a完整刊；372source76567/206d与science40325/7125完整双体，fresh原withJ后system读旧缺键，owner/replay/model/FD/fullDN未起，非6000/tol或数学拒。两终日志唯一，原错误/partial/未访全保，真quiet且removed，无父；后继只修诚实新契约。230单POST200/run43867442383/head同9f2b、compute133299541234，R546 exact唯一；其余计算继续，H/open/索引同步且§4–6原字。
