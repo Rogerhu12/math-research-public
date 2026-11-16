@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "session": "serre-public-astra-20261115",
-  "request_id": "20261116-R923-actual-target-coordinates-source-metadata",
+  "request_id": "20261116-R901-complete-and-R854-ended-required-original-metadata",
   "new_mathematics_executed": false,
-  "rules_last_read_commit": "2ee498676684fa3eac29b4cdbf8c68c8f39bcfd2",
+  "rules_last_read_commit": "24d17b9332e535e9be33684b9dbe84bac1542b5e",
   "readme_sha256": {
     "root": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
@@ -12,18 +12,35 @@
   "reader_sha256": "808d3859e7f98a019aa0246635e63a479580da8ff61238f9c5e2ac3a6a8b09f2",
   "sources": [
     {
-      "label": "R923-complete-two-endpoint-target-coordinates",
+      "label": "R901-five-directions-complete",
       "source": {
-        "run_id": "43915625047",
-        "source_commit": "8f02956cf5e1bea1716ff96add3267f4f36aafda",
-        "artifact_id": 14250662137,
-        "artifact_name": "serre-R923-two-endpoint-target-normal-coordinates-43915625047-1",
-        "archive_bytes": 197804394,
-        "archive_sha256": "d4b23f024a63114cddea7f71cd986db04a3916b858c3af34a89194e05ee23f55",
-        "artifact_expires_at": "2026-11-17T17:24:18Z",
+        "run_id": "43893483097",
+        "source_commit": "dbfb172d6cce083541a34ff507627dc42ddf9859",
+        "artifact_id": 14251161202,
+        "artifact_name": "serre-R901-five-Z-shared-flips-43893483097-1",
+        "archive_bytes": 5906554358,
+        "archive_sha256": "64304b92b1c478767627acea94e3e332e9414c19b5bc812416ef8289bccce5b4",
+        "artifact_expires_at": "2026-11-17T17:20:01Z",
         "expected_conclusion": "success",
-        "core_sha256": "4aef4b448338f62216d3ce44135ace89f83c5be966acb6f90dc47adaed4d334c",
-        "wrapper_sha256": "d6bda530f750d8c7bdf8d4f302ea83ad2bcf23e116d4dcf364d98983bffeeddf"
+        "core_sha256": "2cacb66f8b111746cdb8e51879f1c861e0aa59f0fb15d891c18c3c7c749fc920",
+        "wrapper_sha256": "c2aad47b0af2a85e87f8fc8f955c879043d0c0de2c4046b530f5ee56444356d2",
+        "manifest_sha256": "e3e4eefd4a9b234bad8e8f837f115743c3bdbed5aa1cbafe9579f6f84da50538"
+      },
+      "mode": "ended"
+    },
+    {
+      "label": "R854-original-N112-actual-ended",
+      "source": {
+        "run_id": "43880489423",
+        "source_commit": "20984736d0376b262b83e9173bcfc4c3205f6056",
+        "artifact_id": 14248459820,
+        "artifact_name": "serre-global-R854-original-p41-four-responses-43880489423-1",
+        "archive_bytes": 266362302,
+        "archive_sha256": "3780001833a13e866fcdd4802234b892c4d49ac73ead623809956d0e10cdfd66",
+        "artifact_expires_at": "2026-11-17T17:10:18Z",
+        "expected_conclusion": "failure",
+        "core_sha256": "1feb579a88879739a250f889ab1818019acb8f1156a0e3f34d57b8524024125f",
+        "wrapper_sha256": "f6b97a7d0640a03fa099d3b0b04541318e53ddbcf611a876f877b3dc42c7f0ae"
       },
       "mode": "ended"
     }

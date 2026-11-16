@@ -507,7 +507,12 @@
 - 原参考完整target-P0块的Nm(qρ0)阶≤8，九项足够，补块按原配对只除单位；旧254极阶/U272/t首项均保，五目标仍null。根全文核读并核原R879共同零与配对来源；新端点数值未算。
 - 本push规则：公开Actions真实pull至2ee498676684fa3eac29b4cdbf8c68c8f39bcfd2（2026-11-16T17:26:44.017250+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-17 01:29 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-17 01:31 Asia/Taipei — serre-public-astra-20261115
 - R928实际完成43918212179：57stage/1.514405223s，新8δK、真V=K/P_U完整商法则、全目标g/h和两2176坐标J运输式全部通过；全E单位框架保幂零，J未求逆，93原件不重。
 - R923实际两端目标655stage已success、d0/267项；v25已完成必要源metadata读取供R927，未在外部执行新数学。七连接目标单位/σ/cY/height仍待，R930源码继续。
-- 本push规则：待本仓库恢复Actions真实pull并核两README；最新已读cc190facb9cc01480faf26598cc654e3e730cc8c（2026-11-16T17:29:34.196176+00:00），两README SHA6979d793/35f82f3d无diff，主目标OPEN。
+- 本push规则：公开Actions真实pull至24d17b9332e535e9be33684b9dbe84bac1542b5e（2026-11-16T17:31:15.825065+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 01:34 Asia/Taipei — serre-public-astra-20261115
+- R923两端目标实际认证：655stage/317原件，两端真共享分母d0、V及全部272正常坐标均267项，全272×8原方程通过；原discrim/B逆顺序和幂零/两帧保真，不冒五理想或NormΦ。
+- v25必要纯IO给真manifest1d619081/666件，只8metadata不代全部坐标。R901实际126新翻转/3976stage/五方向已成，R854原N112停125/1174stage；v26仅读后继所需元数据及真实停止原因。
+- 本push规则：待本仓库恢复Actions真实pull并核两README；最新已读24d17b9332e535e9be33684b9dbe84bac1542b5e（2026-11-16T17:31:15.825065+00:00），两README SHA6979d793/35f82f3d无diff，主目标OPEN。
