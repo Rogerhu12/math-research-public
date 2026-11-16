@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：b83dcf307af2d2e79318afcba78bd78c12781810；2026-11-16 17:45:44 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
+- 最近已读规则提交：adc7e36204ecb8e180afa97fe3cbb0ce57d22af3；2026-11-16 17:50:25 UTC API核两README无变。最近实际pull：公开CI 2026-11-16 17:42:45 UTC/b837bebddded526dd7dbafec916799ff7531de6e（两README差异空）。本地16:31失联，重试无环境；最迟2026-11-16 18:25 UTC再实际pull。依根8小文本API非强推。
 - 仅写Rogerhu12/math-research-public/main；旧授权789d22af已读。结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环。不改他人历史，不存/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；根15@708f058a差异已读。每次实际pull核两README、仅读变更并记提交，至少每小时。下次最迟18:25 UTC。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；log每轮≤5行，不写根LOG。
@@ -11,7 +11,7 @@
 
 ## 完整检查点与分工
 
-[最新完整H](notes/2026-11-16-frontier-before-global-rr-success.md)逐字保存本次压缩前全部精确条件、来源/run/hash与更早归档链。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–912、914、916–917已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
+[最新完整H](notes/2026-11-16-frontier-before-global-rr-success.md)逐字保存本次压缩前全部精确条件、来源/run/hash与更早归档链。入口results.md、notes/PROOF-INDEX-R851-R900.md、notes/PROOF-INDEX-R901-R950.md、open.md。R1–363、365–560、562–653、655–711、713–893及895–912、914、916–917、919已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。
 root唯一metadata/ref写者；deep续原WT真实联合像/唯一稳定方向，theta续四原低配对及完整p²边界，literature续原全局/ordinary和实际wild几何。当前R913属literature、R915属theta待成稿；完整结论即推，子题完接open。
 
 ## 第一门：原映射、完整RR与原shadow
@@ -26,6 +26,8 @@ R882原18源/36cusps/两端点/DS204不变。当前函数域RR未PASS：
 - 306 run43850251992及eta48 run43850252040于16:35取消；分别停可分gcd/U恢复、未到正规化。完整实测/hash见notes/2026-11-16-original-rr-stopped-before-normalization.md。
 - fricke24 run43860032290/job133274126644于17:33 exit137；原24次支已选，最后仍U恢复，未到正规化/RR，详见上述实际卡点。tate24 run43865460680/job133292732291、tate19 run43866568746/job133296518979仍运行。
 - [R910](results/R910-original-rr-separable-specialization-and-middle-subresultant.md)保原模型，仅改已定位gcd：完整可分特化、线性子结式唯一U与两Phi复核；首run43912835484大表达式回转编译失败。修复run43913500850/job133461459569/source9cba81c50855cbcbeaf0997c537f81d385cad3cc运行；仍保q4500/ξ170、两Atkin/全部四27+27+33+33/205行/at^m返回，无PASS。
+
+[R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
 
 [R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)独立全局RR格已PASS：run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce，ℓ29、120×205原完整QQ基，固定子式赋值0、整变换/全约化秩/同S除法全部过，用时2.549s。结果hash5a1d6494…eb663b、RRjets765f854d…2b0fb。原L(DS)完整全局基已付；**尚无degree48基坐标/闭点求值，不能冒R910四块接口PASS**。新整饱和算法严格终止，不是任意formal串。
 

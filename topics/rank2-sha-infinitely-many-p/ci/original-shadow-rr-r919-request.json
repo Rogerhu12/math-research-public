@@ -1,0 +1,19 @@
+{
+  "prime": 29,
+  "model": "tate19",
+  "rr_powers": [
+    1
+  ],
+  "q_precision": 205,
+  "arguments": [
+    "--prime",
+    "29",
+    "--model",
+    "tate19",
+    "--rr-powers",
+    "1",
+    "--q-precision",
+    "205"
+  ],
+  "scope": "R919 uses coefficient-by-coefficient exact polynomial-ring division and stops the original remainder chain at degree one, before the unused degree-zero resultant. A candidate is accepted only after both full original Phi17 identities, the same absolute eta branch and Atkin tests, all original cusp divisors, all four 27+27+33+33 RR blocks, a_t^m and the complete 205-jet rank. No RR or shadow PASS is presumed."
+}

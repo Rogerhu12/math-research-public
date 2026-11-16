@@ -364,3 +364,5 @@
 - [R916](results/R916-original-special-fiber-stable-kernel-and-unique-prefix-test.md)：实际f=λY²(Y−1)、1≤ord_tF(t,0)≤2时，原F³的0..5六系数至多一个恒零；故真实K∞≤1，全非零则0。唯一可能方向Bn+c(t)Yn由完整十九角纯charge格Pn·k[t]≤Mn及同T前缀准确判定，εF0/1给R914联合秩加强；原Λ只缩到一条实际GRes，未判其非零或forcing。
 
 - [R917 §8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)：公开run43919854829/job133483895189/source4519983a已完整认证原ℓ29的120×205全局RR格；固定子式为单位、原QQ变换/全约化秩/同S全部通过，2.549秒，结果hash5a1d6494…eb663b。只付全局L(DS)及忠实jets，未提供degree48坐标/闭点或现有四块接口。
+
+- [R919](results/R919-original-polynomial-ring-middle-recovery-and-unchanged-rr-certificate.md)：原多项式环内逐系数真除法/复乘与次数严格下降，余式在一次处停止而不造无用S0；所得仅作候选，仍由原eta域的两完整Phi/绝对支/两Atkin及全四RR末端认证。新独立公开路径已请求，尚无PASS，不猜当前R910实际卡点。
