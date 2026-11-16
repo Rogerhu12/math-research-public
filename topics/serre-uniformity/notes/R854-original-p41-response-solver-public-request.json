@@ -27,36 +27,36 @@
   "result": "R854-original-p41-four-response-balls",
   "resume": {
     "result": "R854-original-p41-four-response-balls",
-    "run_id": "43805506433",
-    "source_commit": "dc6ffb07b398e5262d6b1e62dbc72378a163b5f3",
+    "run_id": "43832705685",
+    "source_commit": "2ee14751d7b2cb4403931886b587ca6f64138c73",
     "core_sha256": "1feb579a88879739a250f889ab1818019acb8f1156a0e3f34d57b8524024125f",
     "wrapper_sha256": "f6b97a7d0640a03fa099d3b0b04541318e53ddbcf611a876f877b3dc42c7f0ae",
     "configuration_sha256": "227767127d21d420d5ffdcef87c8f18627cdc92fd22b4d7cf9b5d036c997f10f",
-    "artifact_id": 14207739171,
-    "artifact_name": "serre-global-R854-original-p41-four-responses-43805506433-1",
-    "archive_bytes": 151091181,
-    "archive_sha256": "b0a8babc0eb1e2951e461cde1f47ddf37c1a07a87988ad8a453abf964ff3cf05",
+    "artifact_id": 14229723159,
+    "artifact_name": "serre-global-R854-original-p41-four-responses-43832705685-1",
+    "archive_bytes": 295748092,
+    "archive_sha256": "9e1f26d259668b1448e760eadd5a1fa4cebedf8f6ac2a30b353f388444672bea",
     "expected_conclusion": "failure",
     "accepted_process_exit_codes": [
-      125
+      124
     ],
-    "manifest_bytes": 91134,
-    "manifest_file_count": 541,
-    "manifest_sha256": "bff9efc3458b15d280c83b472fd7d73959accbb03c1190dc48d5b27a05cb9b45",
+    "manifest_bytes": 177483,
+    "manifest_file_count": 1051,
+    "manifest_sha256": "3ea125ba8307e5eef774a3236c1ffd5ab32d92ff3a1f6e84b9d16dd1da829077",
     "reference": {
       "file": "full-outputs-manifest-reference.json",
-      "bytes": 221,
-      "sha256": "5858cdc1ce80c389d33a9f4998fb465b1045a83fe46c0b9ed9c0184531e73c8b"
+      "bytes": 223,
+      "sha256": "abcba7e76f6be432609f17e20246eb373dfe7684e4f341d39980014f1cdb6364"
     },
     "core_receipt": {
       "file": "core-receipt.json",
-      "bytes": 12847,
-      "sha256": "8c4ab0287e9b0e9b999a9a2cea7cce4bf611f58c48060f619fb10d88efa9b04b"
+      "bytes": 12850,
+      "sha256": "f98499fa39f045b4808088ee2b3cd19469c322bf463d6de570225b5c3b1f2c84"
     },
     "stage_manifest": {
       "file": "R854-p41-stage-manifest.json.gz",
-      "bytes": 32843,
-      "sha256": "867a2c71c835d098bf765120aad1878d29a1610d1b283f579063de08825286f9"
+      "bytes": 58114,
+      "sha256": "326d7035c5934a591945bfa9e1a041622e3b6669cde1340c2d6311a2e5d45ac8"
     },
     "input_bundle": {
       "file": "R854-p41-retained-original-inputs.tar.gz",
@@ -66,7 +66,7 @@
   },
   "retained_source_file_count": 1645,
   "retained_sources_sha256": "0f106a01cf7a6fc15878954eb6151ebdb17d9c10dde4eb1fba99971c333277a7",
-  "rules_last_read_commit": "8564014195a7cbdc6c0d4460513c7f179dff435c",
+  "rules_last_read_commit": "b865820101704e51b448acd7b604ee05ca3dc7ee",
   "scaling_method": "notes/R854-original-41-geometric-row-scaling.md",
   "scaling_method_sha256": "92cb6ec5250ea4f8bb4dcc81746001770f9209edef4cb974d703db75ed7fb71f",
   "single_Z_contract": "notes/2026-11-16-original-41-single-Z-consumer-source-contract.md",
