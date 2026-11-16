@@ -304,3 +304,7 @@ WCE7519a36a /22798B /3d77e17b root全文读，核完整density积分守恒、真
 ## 2026-11-16 05:48:08 UTC — 单一phase24派生失败报告窄白名单
 
 已审并先推9647B白名单：仅458499B浮点report，完整54 mixed rows/N正/非特征跨零失败与原note/producer/manifest及历史NPZ恢复链不改；无大body读取/无科学执行。fresh两README核c882eff07f406325f5e433eb187c5fef788c6e88不变，随后仅fresh metadata guard普通删除。
+
+## 2026-11-16 05:48:21 UTC — phase24单报告依窄白名单普通清理
+
+已先推f2c25c88白名单，再fresh tree guard核b952bbad/458499B后只删该派生JSON；失败note/原source/manifest/独立root report与不可变恢复a9ff7bec全保，NPZ未再动。科学0/旧成功0重跑；两README在f2c25c885a0dc0aabb2f91e9ee0da67486f00730同原blob。
