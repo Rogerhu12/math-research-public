@@ -138,3 +138,7 @@
 ## R561 — 保原首乘积与原累加的准确normal二次平均
 
 **已证明完整有限字条件与真实来源接口。** [R561](results/R561-exact-normal-dyadic-average-and-original-first-products.md)29409/98e6连三源共68403B；实际首乘积原字保，原N/invN真核、只在normal准确指数移动或带符号零时替原第二乘法，其余一律原fallback，全部项/加法/次序保。三个primal点、trace方向正文保持，完整三路径十实际计数/full last、旧统计与R550/R535祖先保。实际source-only→两新视图26420/0e01、35787/07b8→原scope一次直接装6256/97e5→原main真正原g++，原CPP/main/replay/全末门/caps保，准备/安装/编译/数值各分责。无科学run或速度/fit/前沿承诺；R562/236/R563另实际入口，不改已有运行。
+
+## R562 — request236准确二次平均与全部原末门完整入口
+
+**已证明完整来源组合和条件接口，实际R563另付。** [R562](results/R562-request236-exact-dyadic-average-and-complete-projected-model-entry.md)34312/9ef6，五件258310B/topic234851B；原402/51/九原对象逐值保→417=354public+63gen。真实R561 source-only祖先R550/R535、原scope一次直接R561＋原defer/原main，十caller/三数学consumer、原128/replay/同DN全模型/FD/fullDN/末audit和19200/allcaps保。原首乘积/全累加次序、三个primal准确normal/零shortcut与全部fallback、方向原字和所有实际计数/full last保。完整R551来源body或同次overflow实读核identity，内层旧70/false及两层catalogue完整分责，whole90K70不抬、不预称fit。原source/science/quiet/cleanup真分责；唯一dispatch另登记，R563 amplitude唯一，不从源码补数值成功。

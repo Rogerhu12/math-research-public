@@ -1,0 +1,781 @@
+{
+  "schema": "R562-root-dyadic-current-owner-projected-model-complete-source-plan-v1",
+  "repository": "Rogerhu12/math-research-public",
+  "source_baseline": {
+    "R551_published_commit": "42492b0c728e260b3b1de8be79b4ab962259ad3e",
+    "R550_published_commit": "bb4a03981babcf956e408930538941d54b2c547a",
+    "original402_source_and_input_ancestry_only": true,
+    "parent232_scientific_result_reused": false
+  },
+  "generator": {
+    "file": "root_20261116_live128_dyadic_projected_source_views.py",
+    "bytes": 37603,
+    "sha256": "0f984347d801b3b8132b7814494b3f883f72ef1bd73d00aa15d01b767c2de85c"
+  },
+  "ancestor": {
+    "request": {
+      "file": "public-live128-root-reused-projected-model-original-full112-FD-fullDN-request.json",
+      "bytes": 91119,
+      "sha256": "1e1b37ac0184eea4111989cb080214fa734cabd7f8f16b1cf859bd9cec494fd5"
+    },
+    "generator": {
+      "file": "root_20261116_live128_reused_projected_source_views.py",
+      "bytes": 37196,
+      "sha256": "c501c85b7ec9fe44b7d5642c49025dea57862b9bb482e656425a282c8eb86f10"
+    },
+    "plan": {
+      "file": "notes/r551-live128-root-reused-projected-model-complete-source-plan.json",
+      "bytes": 77676,
+      "sha256": "06acd58ff29dd4dee359341711174ae10897843984347833511be8faac82d124"
+    },
+    "core_plan": {
+      "file": "notes/r534-live128-projected-model-core-source-plan.json",
+      "bytes": 72022,
+      "sha256": "826aabbd34c2282bdaa4b8298a79bb92b90dc8758134b309f665d863301a4648"
+    },
+    "source_metadata_directory": "request232-source-preparation",
+    "source_only_child": true
+  },
+  "additional_public_sources": [
+    {
+      "file": "root_20261116_exact_dyadic_average.hpp",
+      "bytes": 6760,
+      "sha256": "e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac"
+    },
+    {
+      "file": "root_20261116_exact_dyadic_average.py",
+      "bytes": 18526,
+      "sha256": "9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082"
+    }
+  ],
+  "root_average_plan": {
+    "file": "notes/R561-normal-dyadic-average-complete-source-plan.json",
+    "bytes": 13708,
+    "sha256": "5667d987ea5b7387bb0c4f6c61d86cd9ea94035299da91d3c7889fb1cde5f5a7"
+  },
+  "root_average_header": {
+    "file": "root_20261116_exact_dyadic_average.hpp",
+    "bytes": 6760,
+    "sha256": "e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac"
+  },
+  "root_average_adapter": {
+    "file": "root_20261116_exact_dyadic_average.py",
+    "bytes": 18526,
+    "sha256": "9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082"
+  },
+  "root_average_outputs": [
+    {
+      "role": "primal",
+      "output": {
+        "file": "root_20261116_exact_dyadic_average_primal128.cpp",
+        "bytes": 26420,
+        "sha256": "0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f"
+      }
+    },
+    {
+      "role": "trace",
+      "output": {
+        "file": "root_20261116_exact_dyadic_average_trace128.cpp",
+        "bytes": 35787,
+        "sha256": "07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5"
+      }
+    }
+  ],
+  "ancestor_root_reuse_plan": {
+    "file": "notes/R550-accepted-root-evaluation-complete-source-plan.json",
+    "bytes": 12303,
+    "sha256": "14b5c02071359276be2988dc273d6864df3d61e728df10df5b1bddc498134457"
+  },
+  "ancestor_root_word_plan": {
+    "file": "notes/R535-native-root-finite-words-complete-source-plan.json",
+    "bytes": 10232,
+    "sha256": "f3b7900f0e670441404c707dce2144241ee9b72581c5999dd8ce95b91764607b"
+  },
+  "counts": {
+    "original232_public": 351,
+    "original232_generated": 51,
+    "additional_R561_public": 2,
+    "additional_R561_generated": 2,
+    "new_generator": 1,
+    "new_caller_views": 10,
+    "public": 354,
+    "generated": 63,
+    "complete": 417
+  },
+  "roles": {
+    "owner": "geometry_20261116_live128_dyadic_projected_same_call_owner.py",
+    "components": "geometry_20261116_live128_projected_model_final_components.py",
+    "boundary": "geometry_20261116_live128_projected_model_boundary128.cpp",
+    "assembly": "geometry_20261116_live128_projected_model_response_assembly.py",
+    "system": "exact_20261116_live128_dyadic_projected_current576_system.py",
+    "qr": "exact_20261116_live128_dyadic_projected_current576_chain_qr.py",
+    "pipeline": "geometry_20261116_live128_dyadic_projected_call_pipeline.py",
+    "call": "geometry_20261116_live128_dyadic_projected_current_call.mjs",
+    "worker": "geometry_20261116_live128_dyadic_projected_worker.mjs",
+    "client": "geometry_20261116_live128_dyadic_projected_tail_client.py",
+    "fulldn": "geometry_20261116_live128_dyadic_projected_original_full_dn.py",
+    "runner": "geometry_20261116_live128_dyadic_projected_owned_run.py",
+    "reader": "root_20261116_live128_dyadic_projected_necessary.py"
+  },
+  "unchanged_model_consumers": [
+    {
+      "role": "boundary",
+      "file": "geometry_20261116_live128_projected_model_boundary128.cpp",
+      "bytes": 12844,
+      "sha256": "0364ea5cc8173f40dbe7a375fbca798987dcd75b4f67b90470c638352ae8ecb9"
+    },
+    {
+      "role": "components",
+      "file": "geometry_20261116_live128_projected_model_final_components.py",
+      "bytes": 38561,
+      "sha256": "c4b3a5eb05fc4d4ae6767c2c08f75ea38a5a5538366fcd3264ff59cec17bb04e"
+    },
+    {
+      "role": "assembly",
+      "file": "geometry_20261116_live128_projected_model_response_assembly.py",
+      "bytes": 33269,
+      "sha256": "863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a"
+    }
+  ],
+  "schemas": {
+    "owner": "R562-current-H-root-dyadic-owner128-before-projected-model-v1",
+    "components": "R534-current-H-owner-projected64-model-components-v1",
+    "stage": "R534-current-owner-projected64-exact-lifted-stage-model-v1",
+    "boundary": "R534-current-owner-projected64-model-boundary128-v1",
+    "assembly": "R534-current-H-live128-projected-model-response-assembly-v1",
+    "pipeline": "R562-current-H-root-dyadic-live128-projected-model-call-pipeline-v1",
+    "pipeline_input": "R562-current-H-root-dyadic-live128-projected-model-call-pipeline-input-v1",
+    "policy": "R562-current-H-root-dyadic-live128-projected-model-client-policy-v1",
+    "runner": "R562-live128-root-dyadic-projected-model-original-full112-owned-procedure-v1",
+    "reader": "R562-live128-root-dyadic-projected-model-original-full112-necessary-v1",
+    "request": "public-live128-root-dyadic-projected-model-original-full112-FD-fullDN-request-v1",
+    "fulldn": "R562-live128-root-dyadic-projected-model-actual63-H-original-FD-and-complete-fullDN-v1",
+    "namespace": "visible-live128-root-dyadic-projected-model236",
+    "window": "R534-current-owner-projected-model-stage-clock-v1",
+    "source": "R562-root-dyadic-current-owner-projected-model-source-preparation-v1",
+    "plan": "R562-root-dyadic-current-owner-projected-model-complete-source-plan-v1"
+  },
+  "original_runtime_contract": {
+    "science_clock_schema": "R493-original-full112-live128-job-deadline-v1",
+    "science_seconds": 19200,
+    "readback_cleanup_reserve_seconds": 120,
+    "owner_seconds_cap": 6000,
+    "replay_reserve_seconds": 1200,
+    "stage_seconds_cap": 8000,
+    "boundary_seconds_cap": 600,
+    "endpoint_seconds_cap": 600,
+    "audit_seconds_cap": 1800,
+    "threads": 4,
+    "original_state_shape": [
+      577,
+      224
+    ],
+    "local_state_dimension": 226,
+    "mean_rows": 2,
+    "complete_stages": 576,
+    "complete_endpoint_shape": [
+      338,
+      112
+    ],
+    "future_request_number": 236,
+    "science_namespace": "visible-live128-root-dyadic-projected-model236",
+    "source_metadata_directory": "request236-source-preparation"
+  },
+  "actual_compiler_contract": {
+    "prepare": "Actual unchanged R551 source-only preparation of every original402 source, then R561 source-only with complete R550 and R535 plans in the same real computations directory",
+    "installation": "One direct R561 install_owner_compiler in untouched original owner_scope, without prior R550 or R535 compiler installation, followed by original main and the unchanged R534 deferred post hook",
+    "original_R534_deferred_components_and_projected64_model_unchanged": true,
+    "original_R550_accepted_complete_root_evaluation_reuse_retained": true,
+    "compilation_actual_receipt_key": "root_finite_word_cache_compilation_source_binding",
+    "preparation_does_not_pay_compilation_or_solver_acceptance": true,
+    "original_owner_CPP_main_replay_and_budgets_unchanged": true
+  },
+  "honest_model_guard": {
+    "original_system": {
+      "file": "exact_20261116_live128_cached_projected_current576_system.py",
+      "bytes": 29009,
+      "sha256": "9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db"
+    },
+    "actual_system": {
+      "file": "exact_20261116_live128_reused_projected_current576_system.py",
+      "bytes": 29055,
+      "sha256": "8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d"
+    },
+    "change": {
+      "before": "B.same(current['same_call_complete128_final_components_required'],True,\n           'All224/226 and mixed338-by112 are supplied by the same actual128 state')",
+      "after": "B.same(current['same_call_complete128_value_components_and_explicit64_linear_model_required'],True,\n           'Current128 values/replay and the explicit complete projected64 linear model are required')",
+      "count": 1
+    },
+    "new_key_written_by_actual_current_call": true,
+    "old_all128_derivative_flag_not_fabricated": true,
+    "original_current128_value_and_explicit_complete_projected64_model_contract_retained": true,
+    "observed229_KeyError_is_not_a_231_numeric_result": true
+  },
+  "necessary_scope": {
+    "original_RootStats_complete_dict_retained": true,
+    "root_accepted_evaluation_reuse": "Complete original member, both primal and trace_variation with all13 counters each and full last/presence",
+    "eight_existing_named_tables_and_exact_inverse_contexts_retained": true,
+    "missing_is_not_null": true,
+    "original_root_counters_count_actual_work": true,
+    "compilation_source_binding_selected_only_from_actual_compilation": true,
+    "limit_bytes": 90000,
+    "overflow_exit": 70,
+    "no_capacity_or_speed_promise": true,
+    "exact_dyadic_angular_average": "Complete actual RootStats member with root_residual, root_gram and primal_flux; every returned key, all ten counters per path, last_present and full last retained. Unknown new source binding members remain complete.",
+    "compiler_source_binding_contains_actual_R561_R550_R535_ancestry": true,
+    "no_source_compilation_or_scientific_acceptance_inferred_from_counters": true
+  },
+  "views": [
+    {
+      "role": "owner",
+      "baseline": {
+        "file": "geometry_20261116_live128_reused_projected_same_call_owner.py",
+        "bytes": 25821,
+        "sha256": "ea354ba982e6904fc43e552f1d75e2171130e0d4c04e4a1a2c2aaf67d392923c"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_dyadic_projected_same_call_owner.py",
+        "bytes": 25904,
+        "sha256": "2b2070afb87813910f6422600a63c80d16c0f551897b2e23ab4b2b3497a80dbd"
+      },
+      "patches": [
+        {
+          "id": "owner-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"R551 accepted RootEval reuse and finite-word cache before the same-DN model.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R562 exact dyadic averages with accepted RootEval reuse before the same-DN model.\n\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-2",
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R551-current-H-root-reused-owner128-before-projected-model-v1\"\nINPUT_SCHEMA = SCHEMA + \"-input-v1\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R562-current-H-root-dyadic-owner128-before-projected-model-v1\"\nINPUT_SCHEMA = SCHEMA + \"-input-v1\"\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-3",
+          "before": "\ndef install_root_evaluation_reuse(owner_scope, record, runner):\n    preparation_directory = runner/\"request232-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n",
+          "after": "\ndef install_exact_dyadic_average(owner_scope, record, runner):\n    preparation_directory = runner/\"request236-source-preparation\"\n    require(not preparation_directory.is_symlink(),\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-4",
+          "before": "    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R551-root-reused-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 232\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R550/R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n",
+          "after": "    preparation = json.loads(preparation_file.read_bytes())\n    require(preparation.get(\"schema\") == \"R562-root-dyadic-current-owner-projected-model-source-preparation-v1\"\n            and preparation.get(\"request_number\") == 236\n            and preparation.get(\"run\") == {key:os.environ.get(key) for key in RUN_KEYS}\n            and preparation.get(\"complete\") is True,\n            \"Complete same-job original-chain and R561/R550/R535 source preparation\")\n    require(preparation.get(\"actual_computations\") == str(HERE)\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-5",
+          "before": "            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R550_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R550 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R550\"/\"source-binding.json\",\n            \"The independent actual R550 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n",
+          "after": "            \"The actual installed current owner belongs to the complete source receipt\")\n    child = preparation.get(\"R561_child\")\n    require(isinstance(child, dict) and child.get(\"returned\") is True\n            and child.get(\"actual_exit\") == 0,\n            \"Actual R561 source-only child returned successfully\")\n    binding_file = checked(child[\"actual_source_receipt\"], runner)\n    require(binding_file == preparation_directory/\"R561\"/\"source-binding.json\",\n            \"The independent actual R561 source-binding path\")\n    binding = json.loads(binding_file.read_bytes())\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-6",
+          "before": "        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_accepted_root_evaluation_reuse.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 16634\n            and file_sha(adapter_file) == \"66c2ff0d0b29c41cef00cc6a77764e4e168d2885c52b3f56c2abd961fad8f97c\",\n            \"The exact published R550 compiler adapter; R535 is source ancestry only\")\n    module_spec = importlib.util.spec_from_file_location(\"_R551_actual_accepted_root_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n",
+          "after": "        actual_file=identity(binding_file), actual_binding=binding)\n    adapter_file = HERE/\"root_20261116_exact_dyadic_average.py\"\n    require(not adapter_file.is_symlink() and adapter_file.stat().st_size == 18526\n            and file_sha(adapter_file) == \"9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082\",\n            \"The exact published R561 compiler adapter; R550/R535 are source-only ancestry\")\n    module_spec = importlib.util.spec_from_file_location(\"_R562_actual_dyadic_root_compiler\", adapter_file)\n    adapter = importlib.util.module_from_spec(module_spec)\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-7",
+          "before": "        root_primal_uses_declared_R550_accepted_evaluation_reuse_source=True,\n        one_direct_R550_installation_without_prior_R535_hook=True,\n        root_finite_word_cache_source_preparation=None,\n",
+          "after": "        root_primal_uses_declared_R550_accepted_evaluation_reuse_source=True,\n        root_primal_uses_declared_R561_exact_dyadic_average_source=True,\n        one_direct_R561_installation_without_prior_R550_or_R535_hook=True,\n        root_finite_word_cache_source_preparation=None,\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-8",
+          "before": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        install_root_evaluation_reuse(owner_scope, record, runner)\n        # This is a new declared executing scope with its own source identity.\n",
+          "after": "        owner_scope = scope[\"source_scope\"](\"owner\")\n        install_exact_dyadic_average(owner_scope, record, runner)\n        # This is a new declared executing scope with its own source identity.\n",
+          "count": 1
+        },
+        {
+          "id": "owner-literal-9",
+          "before": "    record, code = execute(spec, identity(args.input))\n    print(json.dumps(dict(event=\"R551_reused_current_owner_before_projected_model_return\",\n        call_number=record[\"call_number\"], actual_wrapper_returncode=code,\n",
+          "after": "    record, code = execute(spec, identity(args.input))\n    print(json.dumps(dict(event=\"R562_dyadic_current_owner_before_projected_model_return\",\n        call_number=record[\"call_number\"], actual_wrapper_returncode=code,\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "system",
+      "baseline": {
+        "file": "exact_20261116_live128_reused_projected_current576_system.py",
+        "bytes": 29055,
+        "sha256": "8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d"
+      },
+      "output": {
+        "file": "exact_20261116_live128_dyadic_projected_current576_system.py",
+        "bytes": 29055,
+        "sha256": "fc56dd3988c4ea7f95a080383f5e110ce7d64e6610ad8872975f1cdc068e3c36"
+      },
+      "patches": [
+        {
+          "id": "system-literal-1",
+          "before": "BYTE_IO_SHA='b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390'\nSNAPSHOT_LAUNCHER='geometry_20261116_live128_reused_projected_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_reused_projected_current_call.mjs'\nCORE_SHA='ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3'\n",
+          "after": "BYTE_IO_SHA='b39e9dd9068970436467ce026d38b8e12e65722376a75a49cad4bb1ab1ec8390'\nSNAPSHOT_LAUNCHER='geometry_20261116_live128_dyadic_projected_tail_client.py'\nSNAPSHOT_HOOK='geometry_20261116_live128_dyadic_projected_current_call.mjs'\nCORE_SHA='ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3'\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "qr",
+      "baseline": {
+        "file": "exact_20261116_live128_reused_projected_current576_chain_qr.py",
+        "bytes": 21847,
+        "sha256": "ca4673949b9e30ff44761271f67dc927c2b8e916b8e73f6f2ff556aa780832f3"
+      },
+      "output": {
+        "file": "exact_20261116_live128_dyadic_projected_current576_chain_qr.py",
+        "bytes": 21847,
+        "sha256": "1137208df50318002518d569ce5de8f9477af44edd3013db496a4167f2edc674"
+      },
+      "patches": [
+        {
+          "id": "qr-literal-1",
+          "before": "HERE=Path(__file__).resolve().parent\nSYSTEM_NAME='exact_20261116_live128_reused_projected_current576_system.py'\nSYSTEM_SHA='8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d'\nQR_NAME='exact_20261114_native_damped_chain_qr.py'\n",
+          "after": "HERE=Path(__file__).resolve().parent\nSYSTEM_NAME='exact_20261116_live128_dyadic_projected_current576_system.py'\nSYSTEM_SHA='fc56dd3988c4ea7f95a080383f5e110ce7d64e6610ad8872975f1cdc068e3c36'\nQR_NAME='exact_20261114_native_damped_chain_qr.py'\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "pipeline",
+      "baseline": {
+        "file": "geometry_20261116_live128_reused_projected_call_pipeline.py",
+        "bytes": 43209,
+        "sha256": "9bcfa99f38399a2fe7c21f5d15bfe728a6ebbf6c03c51c70d8d25f4415928313"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_dyadic_projected_call_pipeline.py",
+        "bytes": 43209,
+        "sha256": "8b4b4e93aa37f3e60844f1a8b74950c86c96818438d7f66b37c7c9910187548e"
+      },
+      "patches": [
+        {
+          "id": "pipeline-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"R551 root-reused owner and projected64 model under one original19200s clock.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R562 root-dyadic owner and projected64 model under one original19200s clock.\n\n",
+          "count": 1
+        },
+        {
+          "id": "pipeline-literal-2",
+          "before": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R551-current-H-root-reused-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R551-current-H-root-reused-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_reused_projected_same_call_owner.py\"\nOWNER_SHA = \"ea354ba982e6904fc43e552f1d75e2171130e0d4c04e4a1a2c2aaf67d392923c\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_reused_projected_current576_chain_qr.py\"\nQR_SHA = \"ca4673949b9e30ff44761271f67dc927c2b8e916b8e73f6f2ff556aa780832f3\"\nSYSTEM = \"exact_20261116_live128_reused_projected_current576_system.py\"\nSYSTEM_SHA = \"8cc721f1f8b555176c9b815c266e695c8d59de8b36e136e094ae0b29d223262d\"\nCOMPONENTS = \"geometry_20261116_live128_projected_model_final_components.py\"\n",
+          "after": "HERE = Path(__file__).resolve().parent\nSCHEMA = \"R562-current-H-root-dyadic-live128-projected-model-call-pipeline-v1\"\nINPUT_SCHEMA = \"R562-current-H-root-dyadic-live128-projected-model-call-pipeline-input-v1\"\nOWNER = \"geometry_20261116_live128_dyadic_projected_same_call_owner.py\"\nOWNER_SHA = \"2b2070afb87813910f6422600a63c80d16c0f551897b2e23ab4b2b3497a80dbd\"\nASSEMBLER = \"geometry_20261116_live128_projected_model_response_assembly.py\"\nASSEMBLER_SHA = \"863790de6c0c2020d79150ac99134b2a8ee74592cc42669127ca7df296a0f21a\"\nQR = \"exact_20261116_live128_dyadic_projected_current576_chain_qr.py\"\nQR_SHA = \"1137208df50318002518d569ce5de8f9477af44edd3013db496a4167f2edc674\"\nSYSTEM = \"exact_20261116_live128_dyadic_projected_current576_system.py\"\nSYSTEM_SHA = \"fc56dd3988c4ea7f95a080383f5e110ce7d64e6610ad8872975f1cdc068e3c36\"\nCOMPONENTS = \"geometry_20261116_live128_projected_model_final_components.py\"\n",
+          "count": 1
+        },
+        {
+          "id": "pipeline-literal-3",
+          "before": "        owner_resources[\"audit_seconds_cap\"] if spec[\"request\"][\"audit\"] else 0)\n    owner_input = dict(schema=\"R551-current-H-root-reused-owner128-before-projected-model-v1-input-v1\",\n        call_directory=str(root), out=str(root/\"owner\"), call_number=spec[\"call_number\"],\n",
+          "after": "        owner_resources[\"audit_seconds_cap\"] if spec[\"request\"][\"audit\"] else 0)\n    owner_input = dict(schema=\"R562-current-H-root-dyadic-owner128-before-projected-model-v1-input-v1\",\n        call_directory=str(root), out=str(root/\"owner\"), call_number=spec[\"call_number\"],\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "call",
+      "baseline": {
+        "file": "geometry_20261116_live128_reused_projected_current_call.mjs",
+        "bytes": 45399,
+        "sha256": "995334613f7916d5988984fb691275c067280d1b98be1e7ac8f106b34a7d35a8"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_dyadic_projected_current_call.mjs",
+        "bytes": 45399,
+        "sha256": "ce6b5c88bdc1af47da048c03fcf70457aeb05ec832094bc956f3ff633a088f89"
+      },
+      "patches": [
+        {
+          "id": "call-literal-1",
+          "before": " spec.hook_sha256!==fileSHA(selfPath)||\n spec.source_sha256!==fileSHA(path.join(here,'geometry_20261116_live128_reused_projected_tail_client.py'))||\n spec.session_origin?.schema!=='R493-current-H-live128-worker-session-v1')\n",
+          "after": " spec.hook_sha256!==fileSHA(selfPath)||\n spec.source_sha256!==fileSHA(path.join(here,'geometry_20261116_live128_dyadic_projected_tail_client.py'))||\n spec.session_origin?.schema!=='R493-current-H-live128-worker-session-v1')\n",
+          "count": 1
+        },
+        {
+          "id": "call-literal-2",
+          "before": " const names={\n  owner:'geometry_20261116_live128_reused_projected_same_call_owner.py',\n  client:'geometry_20261116_live128_reused_projected_tail_client.py',\n  current_call:'geometry_20261116_live128_reused_projected_current_call.mjs',\n  worker:'geometry_20261116_live128_reused_projected_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n",
+          "after": " const names={\n  owner:'geometry_20261116_live128_dyadic_projected_same_call_owner.py',\n  client:'geometry_20261116_live128_dyadic_projected_tail_client.py',\n  current_call:'geometry_20261116_live128_dyadic_projected_current_call.mjs',\n  worker:'geometry_20261116_live128_dyadic_projected_worker.mjs'};\n const sources=Object.fromEntries(Object.entries(names).map(([role,name])=>{\n",
+          "count": 1
+        },
+        {
+          "id": "call-literal-3",
+          "before": " return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R551-current-H-root-reused-owner128-before-projected-model-v1-input-v1',\n  owner_summary:'native-persistent128-chord-launch-summary-v1',\n",
+          "after": " return {schema:'R532-declared-current128-source-tuple-v1',sources,schemas:{\n  owner_input:'R562-current-H-root-dyadic-owner128-before-projected-model-v1-input-v1',\n  owner_summary:'native-persistent128-chord-launch-summary-v1',\n",
+          "count": 1
+        },
+        {
+          "id": "call-literal-4",
+          "before": "function pipelineInput(mode,ctx,fields,invocation=mode){\n return {schema:'R551-current-H-root-reused-live128-projected-model-call-pipeline-input-v1',\n  mode,invocation,call_directory:ctx.directory,call_number:ctx.call,job_deadline:spec.job_deadline,\n",
+          "after": "function pipelineInput(mode,ctx,fields,invocation=mode){\n return {schema:'R562-current-H-root-dyadic-live128-projected-model-call-pipeline-input-v1',\n  mode,invocation,call_directory:ctx.directory,call_number:ctx.call,job_deadline:spec.job_deadline,\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "worker",
+      "baseline": {
+        "file": "geometry_20261116_live128_reused_projected_worker.mjs",
+        "bytes": 8305,
+        "sha256": "57079b19350f4e17e1f694242f6b37cb0a60362699f6616788af99a733ef1f1c"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_dyadic_projected_worker.mjs",
+        "bytes": 8305,
+        "sha256": "362ca026dcd26f491f4c584456f2aae58ed484c43b55b7ebec73d00c3d9b31c1"
+      },
+      "patches": [
+        {
+          "id": "worker-literal-1",
+          "before": "// R551 declared root-reused owner128 values with the unchanged complete R534 model.\n// Original warm choices remain. Every requested H uses its actual same-call128\n",
+          "after": "// R562 declared root-dyadic owner128 values with the unchanged complete R534 model.\n// Original warm choices remain. Every requested H uses its actual same-call128\n",
+          "count": 1
+        },
+        {
+          "id": "worker-literal-2",
+          "before": "const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;\nconst liveURL=new URL('./geometry_20261116_live128_reused_projected_current_call.mjs',import.meta.url).href;\nconst sha256=x=>crypto.createHash('sha256').update(x).digest('hex');\n",
+          "after": "const engineURL=new URL('./tail_resumable_engine.mjs',import.meta.url).href;\nconst liveURL=new URL('./geometry_20261116_live128_dyadic_projected_current_call.mjs',import.meta.url).href;\nconst sha256=x=>crypto.createHash('sha256').update(x).digest('hex');\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "client",
+      "baseline": {
+        "file": "geometry_20261116_live128_reused_projected_tail_client.py",
+        "bytes": 36243,
+        "sha256": "4f4865a5f99a7342965b669e8aea82de252caa05bf47d75c8722ad8f1628fc8c"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_dyadic_projected_tail_client.py",
+        "bytes": 37549,
+        "sha256": "725d73de59d916f1131f31f6ce547145e93b5418e280824d767598bbe41195e9"
+      },
+      "patches": [
+        {
+          "id": "client-literal-1",
+          "before": "IO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R551-current-H-root-reused-live128-projected-model-client-policy-v1\"\n\n\n\ndef sha(path):\n",
+          "after": "IO_KEYS = (\"traceFile\", \"iterationCheckpointFile\", \"trialDiagnosticFile\", \"trialStatePrefix\", \"initialCheckpoint\")\nLIVE_POLICY_SCHEMA = \"R562-current-H-root-dyadic-live128-projected-model-client-policy-v1\"\n\nLIVE_SOURCE_PINS.update(json.loads(\"{\\\"geometry_20261116_live128_dyadic_projected_same_call_owner.py\\\":\\\"2b2070afb87813910f6422600a63c80d16c0f551897b2e23ab4b2b3497a80dbd\\\",\\\"exact_20261116_live128_dyadic_projected_current576_system.py\\\":\\\"fc56dd3988c4ea7f95a080383f5e110ce7d64e6610ad8872975f1cdc068e3c36\\\",\\\"exact_20261116_live128_dyadic_projected_current576_chain_qr.py\\\":\\\"1137208df50318002518d569ce5de8f9477af44edd3013db496a4167f2edc674\\\",\\\"geometry_20261116_live128_dyadic_projected_call_pipeline.py\\\":\\\"8b4b4e93aa37f3e60844f1a8b74950c86c96818438d7f66b37c7c9910187548e\\\",\\\"geometry_20261116_live128_dyadic_projected_current_call.mjs\\\":\\\"ce6b5c88bdc1af47da048c03fcf70457aeb05ec832094bc956f3ff633a088f89\\\",\\\"geometry_20261116_live128_dyadic_projected_worker.mjs\\\":\\\"362ca026dcd26f491f4c584456f2aae58ed484c43b55b7ebec73d00c3d9b31c1\\\",\\\"root_20261116_exact_dyadic_average.hpp\\\":\\\"e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac\\\",\\\"root_20261116_exact_dyadic_average.py\\\":\\\"9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082\\\",\\\"root_20261116_exact_dyadic_average_primal128.cpp\\\":\\\"0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f\\\",\\\"root_20261116_exact_dyadic_average_trace128.cpp\\\":\\\"07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5\\\"}\"))\n\n\n\ndef sha(path):\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-2",
+          "before": "    bridge = dict(policy[\"factor_parameters\"],\n        source_file=\"exact_20261116_live128_reused_projected_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_reused_projected_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_reused_projected_current576_system.py\"],\n        factor_engine_source_sha256=LIVE_SOURCE_PINS[\"exact_20261114_native_damped_chain_qr.py\"],\n",
+          "after": "    bridge = dict(policy[\"factor_parameters\"],\n        source_file=\"exact_20261116_live128_dyadic_projected_current576_chain_qr.py\",\n        source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_dyadic_projected_current576_chain_qr.py\"],\n        system_source_sha256=LIVE_SOURCE_PINS[\"exact_20261116_live128_dyadic_projected_current576_system.py\"],\n        factor_engine_source_sha256=LIVE_SOURCE_PINS[\"exact_20261114_native_damped_chain_qr.py\"],\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-3",
+          "before": "        source_sha256=sha(__file__),\n        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_reused_projected_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n",
+          "after": "        source_sha256=sha(__file__),\n        hook_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_dyadic_projected_current_call.mjs\"],\n        frozen_sources=frozen, output=str(session), io_keys=list(IO_KEYS),\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-4",
+          "before": "        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_reused_projected_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_reused_projected_call_pipeline.py\"]),\n        retain_optional_tangent_predictor=policy[\"retain_optional_tangent_predictor\"])\n",
+          "after": "        python_executable=sys.executable,\n        pipeline=dict(source_file=\"geometry_20261116_live128_dyadic_projected_call_pipeline.py\",\n            source_sha256=LIVE_SOURCE_PINS[\"geometry_20261116_live128_dyadic_projected_call_pipeline.py\"]),\n        retain_optional_tangent_predictor=policy[\"retain_optional_tangent_predictor\"])\n",
+          "count": 1
+        },
+        {
+          "id": "client-literal-5",
+          "before": "                   \"--import\", str(HERE/\"exact_20261114_tail_capacity_loader.mjs\"),\n                   str(HERE/\"geometry_20261116_live128_reused_projected_worker.mjs\"), str(self.config)]\n        write(suffix(\"_intent.json\"), dict(\n",
+          "after": "                   \"--import\", str(HERE/\"exact_20261114_tail_capacity_loader.mjs\"),\n                   str(HERE/\"geometry_20261116_live128_dyadic_projected_worker.mjs\"), str(self.config)]\n        write(suffix(\"_intent.json\"), dict(\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "fulldn",
+      "baseline": {
+        "file": "geometry_20261116_live128_reused_projected_original_full_dn.py",
+        "bytes": 41830,
+        "sha256": "b95937dded2084453509c4b5ecaaca36767ae8314076b42cf49f77ea6d92db2a"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_dyadic_projected_original_full_dn.py",
+        "bytes": 43270,
+        "sha256": "5bc2524395aac3fdc49113313b30453cc93f90cf4d6493d342792668fba84a6c"
+      },
+      "patches": [
+        {
+          "id": "fulldn-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"R551 actual63 prefix to cached-owner128/current64 model, original FD/fullDN.\n\nThe original actual63 complete prefix warm remains unaccepted. Actual91's\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"R562 actual63 prefix to dyadic-owner128/current64 model, original FD/fullDN.\n\nThe original actual63 complete prefix warm remains unaccepted. Actual91's\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-2",
+          "before": "\nHERE = Path(__file__).resolve().parent\nSCHEMA = \"R551-live128-root-reused-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_reused_projected_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\nCONFIG_SHA = \"01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5\"\n",
+          "after": "\nHERE = Path(__file__).resolve().parent\nSCHEMA = \"R562-live128-root-dyadic-projected-model-actual63-H-original-FD-and-complete-fullDN-v1\"\nFINITE_SCHEME = \"physical-phi-complete-DN-v1\"\nCLIENT_NAME = \"geometry_20261116_live128_dyadic_projected_tail_client.py\"\nACCEPTED_SHA = \"b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff\"\nCONFIG_SHA = \"01930f3bcb365d77f7e7959b021b95e7c38a3f5c8d05671747ec6359349454c5\"\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-3",
+          "before": "    \"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\": \"40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1\",\n    \"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\": \"822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71\",\n    CLIENT_NAME: \"4f4865a5f99a7342965b669e8aea82de252caa05bf47d75c8722ad8f1628fc8c\",\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n    \"exact_20261116_live128_cached_projected_current576_system.py\": \"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\",\n",
+          "after": "    \"root_20261116_accepted_root_evaluation_reuse_primal128.cpp\": \"40e89e28adc36848cf0d28b466e219065e10bdf8b37145d5e18326a6cd5eb6e1\",\n    \"root_20261116_accepted_root_evaluation_reuse_trace128.cpp\": \"822488bd3ca682478939baa7df047aa614218b6724e448f01705e10c9225eb71\",\n    CLIENT_NAME: \"725d73de59d916f1131f31f6ce547145e93b5418e280824d767598bbe41195e9\",\n    \"geometry_20261116_live128_cached_projected_same_call_owner.py\": \"3917eee80cda28d5f56113a42cef0450324c06394274cf0e0745f666f73cb4ee\",\n    \"exact_20261116_live128_cached_projected_current576_system.py\": \"9ebf910f19856f05eacd48b3278ad2d6b0bbbc2f0055d17a130ff31af7a823db\",\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-4",
+          "before": "}\n\n\ndef sha(path):\n",
+          "after": "}\n\nSOURCE_PINS.update({\n    \"geometry_20261116_live128_dyadic_projected_same_call_owner.py\": \"2b2070afb87813910f6422600a63c80d16c0f551897b2e23ab4b2b3497a80dbd\",\n    \"exact_20261116_live128_dyadic_projected_current576_system.py\": \"fc56dd3988c4ea7f95a080383f5e110ce7d64e6610ad8872975f1cdc068e3c36\",\n    \"exact_20261116_live128_dyadic_projected_current576_chain_qr.py\": \"1137208df50318002518d569ce5de8f9477af44edd3013db496a4167f2edc674\",\n    \"geometry_20261116_live128_dyadic_projected_call_pipeline.py\": \"8b4b4e93aa37f3e60844f1a8b74950c86c96818438d7f66b37c7c9910187548e\",\n    \"geometry_20261116_live128_dyadic_projected_current_call.mjs\": \"ce6b5c88bdc1af47da048c03fcf70457aeb05ec832094bc956f3ff633a088f89\",\n    \"geometry_20261116_live128_dyadic_projected_worker.mjs\": \"362ca026dcd26f491f4c584456f2aae58ed484c43b55b7ebec73d00c3d9b31c1\",\n    \"root_20261116_exact_dyadic_average.hpp\": \"e94b31dc091a8a727ab6f4808fb61e951cb892fc496120fe8312c82b7d71c0ac\",\n    \"root_20261116_exact_dyadic_average.py\": \"9d954a23b1a8991c4aff38c1ffb6879229552cc9894ba70e7c3fb485fa928082\",\n    \"root_20261116_exact_dyadic_average_primal128.cpp\": \"0e01b54b3b456711efd23ba94961eb669aef5394ab848e720fcf4a4ac64c854f\",\n    \"root_20261116_exact_dyadic_average_trace128.cpp\": \"07b8fd4dd7d31b2728e0f74a3ed9c9e6653593376529c12d26cdb57d617b8dc5\",\n    \"geometry_20261116_live128_reused_projected_tail_client.py\": \"4f4865a5f99a7342965b669e8aea82de252caa05bf47d75c8722ad8f1628fc8c\"\n})\n\ndef sha(path):\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-5",
+          "before": "    require_sha(args.live128_policy, args.live128_policy_sha256, \"actual one-job live128 policy\")\n    policy = original.read(args.live128_policy)\n    if policy[\"schema\"] != \"R551-current-H-root-reused-live128-projected-model-client-policy-v1\":\n        raise ValueError(\"Explicit actual live128 policy, not an old completed61 response\")\n    accepted, warm, status, port, config = [original.read(path) for path in\n",
+          "after": "    require_sha(args.live128_policy, args.live128_policy_sha256, \"actual one-job live128 policy\")\n    policy = original.read(args.live128_policy)\n    if policy[\"schema\"] != \"R562-current-H-root-dyadic-live128-projected-model-client-policy-v1\":\n        raise ValueError(\"Explicit actual live128 policy, not an old completed61 response\")\n    accepted, warm, status, port, config = [original.read(path) for path in\n",
+          "count": 1
+        },
+        {
+          "id": "fulldn-literal-6",
+          "before": "        write(output / \"same-live-client-handoff.json\", clean(handoff))\n        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R551_live128_cached_projected_model_original_full_DN_orchestration_return\",\n            phase=state[\"phase\"], full_DN_returncode=state[\"full_DN_returncode\"],\n            full_BVP_accepted=state[\"full_BVP_accepted\"],\n",
+          "after": "        write(output / \"same-live-client-handoff.json\", clean(handoff))\n        write(output / \"orchestration-status.json\", clean(state))\n        print(json.dumps(dict(event=\"R562_live128_dyadic_projected_model_original_full_DN_orchestration_return\",\n            phase=state[\"phase\"], full_DN_returncode=state[\"full_DN_returncode\"],\n            full_BVP_accepted=state[\"full_BVP_accepted\"],\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "runner",
+      "baseline": {
+        "file": "geometry_20261116_live128_reused_projected_owned_run.py",
+        "bytes": 39356,
+        "sha256": "39712ee8fde3f75299dfced1a699e65a8ae790a472f406761fc03fd68e619079"
+      },
+      "output": {
+        "file": "geometry_20261116_live128_dyadic_projected_owned_run.py",
+        "bytes": 39356,
+        "sha256": "97e639c3f98f212fb78e3b8f3420063b17412bc3df39035b6b4e63f161e22764"
+      },
+      "patches": [
+        {
+          "id": "runner-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"Request232: current-owner projected64 linear model with original128 values and full-DN gates.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"Request236: current-owner projected64 linear model with original128 values and full-DN gates.\n\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-2",
+          "before": "REPO = \"Rogerhu12/math-research-public\"\nSCHEMA = \"R551-live128-root-reused-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-root-reused-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-root-reused-projected-model232\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\n",
+          "after": "REPO = \"Rogerhu12/math-research-public\"\nSCHEMA = \"R562-live128-root-dyadic-projected-model-original-full112-owned-procedure-v1\"\nREQUEST_SCHEMA = \"public-live128-root-dyadic-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE = \"visible-live128-root-dyadic-projected-model236\"\nCLOCK_SCHEMA = \"R493-original-full112-live128-job-deadline-v1\"\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-3",
+          "before": "PROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_reused_projected_original_full_dn.py\"\nENTRY_SHA = \"b95937dded2084453509c4b5ecaaca36767ae8314076b42cf49f77ea6d92db2a\"\nRULES = \"root_20261114_current576_rules_runner.py\"\n",
+          "after": "PROCESS_SHA = \"1516306f3ead5a5e8b54f389da172ef9544298b13ccf659c390cb874d26ed6a7\"\nENTRY = \"geometry_20261116_live128_dyadic_projected_original_full_dn.py\"\nENTRY_SHA = \"5bc2524395aac3fdc49113313b30453cc93f90cf4d6493d342792668fba84a6c\"\nRULES = \"root_20261114_current576_rules_runner.py\"\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-4",
+          "before": "    path=checked_source(name,digest)\n    spec=importlib.util.spec_from_file_location(\"_R551_\"+role,path)\n    module=importlib.util.module_from_spec(spec)\n",
+          "after": "    path=checked_source(name,digest)\n    spec=importlib.util.spec_from_file_location(\"_R562_\"+role,path)\n    module=importlib.util.module_from_spec(spec)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-5",
+          "before": "    require(base.parent==runner and base.name==NAMESPACE,\n            \"Only this exact request232 namespace is owned\")\n    return base\n",
+          "after": "    require(base.parent==runner and base.name==NAMESPACE,\n            \"Only this exact request236 namespace is owned\")\n    return base\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-6",
+          "before": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==232 and request[\"repository\"]==REPO,\n            \"The actual complete request232 bytes and schema\")\n    base=base_path(namespace)\n",
+          "after": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==236 and request[\"repository\"]==REPO,\n            \"The actual complete request236 bytes and schema\")\n    base=base_path(namespace)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-7",
+          "before": "    base=base_path(namespace,exists=False)\n    require(not base.exists(),\"Use a fresh actual request232 namespace\")\n    base.mkdir(mode=0o700)\n",
+          "after": "    base=base_path(namespace,exists=False)\n    require(not base.exists(),\"Use a fresh actual request236 namespace\")\n    base.mkdir(mode=0o700)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-8",
+          "before": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==232 and request[\"repository\"]==REPO,\n            \"The actual independent request232 with frozen221 as source ancestry\")\n    write(base/\"ownership.json\",dict(schema=SCHEMA,namespace=str(base),\n",
+          "after": "    require(sha(request_path)==request_sha and request[\"schema\"]==REQUEST_SCHEMA\n            and request[\"request_number\"]==236 and request[\"repository\"]==REPO,\n            \"The actual independent request236 with frozen221 as source ancestry\")\n    write(base/\"ownership.json\",dict(schema=SCHEMA,namespace=str(base),\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-9",
+          "before": "        write(base/\"preparation.json\",report,replace=True)\n        print(json.dumps(dict(event=\"request232_preparation_return\",complete=report[\"complete\"],\n            phase=report[\"phase\"],error=report[\"error\"],actual=receipt(base/\"preparation.json\")),\n",
+          "after": "        write(base/\"preparation.json\",report,replace=True)\n        print(json.dumps(dict(event=\"request236_preparation_return\",complete=report[\"complete\"],\n            phase=report[\"phase\"],error=report[\"error\"],actual=receipt(base/\"preparation.json\")),\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-10",
+          "before": "    os.environ[owner.ENV_NAMESPACE]=str(base)\n    policy=dict(schema=\"R551-current-H-root-reused-live128-projected-model-client-policy-v1\",namespace=str(base),\n        initial_guess=preparation[\"seed\"],job_deadline=receipt(clock),\n",
+          "after": "    os.environ[owner.ENV_NAMESPACE]=str(base)\n    policy=dict(schema=\"R562-current-H-root-dyadic-live128-projected-model-client-policy-v1\",namespace=str(base),\n        initial_guess=preparation[\"seed\"],job_deadline=receipt(clock),\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-11",
+          "before": "        write(base/\"execution.json\",state,replace=True)\n        print(json.dumps(dict(event=\"request232_actual_science_return\",actual_exit_code=code,\n            rules_returncode=state[\"rules_returncode\"],science_returncode=state[\"science_returncode\"],\n",
+          "after": "        write(base/\"execution.json\",state,replace=True)\n        print(json.dumps(dict(event=\"request236_actual_science_return\",actual_exit_code=code,\n            rules_returncode=state[\"rules_returncode\"],science_returncode=state[\"science_returncode\"],\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-12",
+          "before": "    raw=summary_path.read_bytes();summary=json.loads(raw)\n    require(len(raw)<=90000 and summary.get(\"schema\")==\"R551-live128-root-reused-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n",
+          "after": "    raw=summary_path.read_bytes();summary=json.loads(raw)\n    require(len(raw)<=90000 and summary.get(\"schema\")==\"R562-live128-root-dyadic-projected-model-original-full112-necessary-v1\"\n            and summary.get(\"necessary_readback_complete\") is True\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-13",
+          "before": "    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request232_cleanup\",removed=False,\n              reason=\"actual-owned-process-quiescence-not-proved\")),flush=True)\n",
+          "after": "    if observation[\"quiescent\"] is not True:\n        print(json.dumps(dict(event=\"request236_cleanup\",removed=False,\n              reason=\"actual-owned-process-quiescence-not-proved\")),flush=True)\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-14",
+          "before": "    shutil.rmtree(base)\n    record=dict(event=\"request232_cleanup\",removed=True,namespace=str(base),\n        ownership=identity_before,necessary_summary=summary_identity,\n",
+          "after": "    shutil.rmtree(base)\n    record=dict(event=\"request236_cleanup\",removed=True,namespace=str(base),\n        ownership=identity_before,necessary_summary=summary_identity,\n",
+          "count": 1
+        },
+        {
+          "id": "runner-literal-15",
+          "before": "        result=quiet(args.namespace)\n        print(json.dumps(dict(event=\"request232_quiet\",quiescent=result[\"quiescent\"],\n              registry_count=len(result[\"registries\"]),unknown=result[\"unknown\"],\n",
+          "after": "        result=quiet(args.namespace)\n        print(json.dumps(dict(event=\"request236_quiet\",quiescent=result[\"quiescent\"],\n              registry_count=len(result[\"registries\"]),unknown=result[\"unknown\"],\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "role": "reader",
+      "baseline": {
+        "file": "root_20261116_live128_reused_projected_necessary.py",
+        "bytes": 60620,
+        "sha256": "25c2f0937b430ec71c9734296ff79c051e8cc705c1040a31f6211acac16b0318"
+      },
+      "output": {
+        "file": "root_20261116_live128_dyadic_projected_necessary.py",
+        "bytes": 61330,
+        "sha256": "3bda6213246c10163519c9067b85c570fe947f96411b97a459c406fabb95cee1"
+      },
+      "patches": [
+        {
+          "id": "reader-literal-1",
+          "before": "#!/usr/bin/env python3\n\"\"\"Request232 readback after the original scoped owned-process quiescence.\n\n",
+          "after": "#!/usr/bin/env python3\n\"\"\"Request236 readback after the original scoped owned-process quiescence.\n\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-2",
+          "before": "HERE=Path(__file__).resolve().parent\nSCHEMA=\"R551-live128-root-reused-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-root-reused-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-root-reused-projected-model232\"\nRUNTIME=\"geometry_20261116_live128_reused_projected_owned_run.py\"\nRUNTIME_SHA=\"39712ee8fde3f75299dfced1a699e65a8ae790a472f406761fc03fd68e619079\"\nMAX_BYTES=90000\nFRAME=\"REQUEST232_REUSED_PROJECTED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"\nRUN_KEYS=(\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\n",
+          "after": "HERE=Path(__file__).resolve().parent\nSCHEMA=\"R562-live128-root-dyadic-projected-model-original-full112-necessary-v1\"\nREQUEST_SCHEMA=\"public-live128-root-dyadic-projected-model-original-full112-FD-fullDN-request-v1\"\nNAMESPACE=\"visible-live128-root-dyadic-projected-model236\"\nRUNTIME=\"geometry_20261116_live128_dyadic_projected_owned_run.py\"\nRUNTIME_SHA=\"97e639c3f98f212fb78e3b8f3420063b17412bc3df39035b6b4e63f161e22764\"\nMAX_BYTES=90000\nFRAME=\"REQUEST236_DYADIC_PROJECTED_MODEL_LIVE128_ORIGINAL_FULLDN_NECESSARY_SUMMARY\"\nRUN_KEYS=(\"GITHUB_REPOSITORY\",\"GITHUB_RUN_ID\",\"GITHUB_RUN_ATTEMPT\",\"GITHUB_SHA\")\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-3",
+          "before": "\n# R551 adds only these explicitly named necessary metadata records. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n",
+          "after": "\n# R562 adds only these explicitly named necessary metadata records. It never\n# walks an arbitrary scientific object tree, converts numerical arrays, runs a\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-4",
+          "before": "    \"residual_words_visited\",\"angular_rows_visited\",\"angular_words_visited\")\nROOT_WORD_SOURCE_KEYS=(\n",
+          "after": "    \"residual_words_visited\",\"angular_rows_visited\",\"angular_words_visited\")\nROOT_AVERAGE_PATH_COUNTERS=(\n    \"terms\",\"exact_normal\",\"exact_signed_zero\",\"original_multiply\",\n    \"fallback_layout\",\"fallback_count\",\"fallback_inverse\",\"fallback_nonfinite\",\n    \"fallback_subnormal\",\"fallback_normal_to_subnormal\")\nROOT_WORD_SOURCE_KEYS=(\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-5",
+          "before": "class RootWordMetadata:\n    \"\"\"Complete RootStats including R535 and R550, plus named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R551_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R551_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R551_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R551_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R551_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R551_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R551_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R551_physical_source_input_binding_ref\",\n    }\n",
+          "after": "class RootWordMetadata:\n    \"\"\"Complete RootStats including R535/R550/R561, plus named source receipts.\"\"\"\n    REF_KEYS={\n        \"root_statistics\":\"R562_root_statistics_ref\",\n        \"root_finite_word_cache\":\"R562_root_finite_word_cache_ref\",\n        \"owner_compilation\":\"R562_owner_compilation_ref\",\n        \"root_cache_compile_binding\":\"R562_root_cache_compile_binding_ref\",\n        \"root_finite_word_cache_source_preparation\":\"R562_root_cache_preparation_ref\",\n        \"root_finite_word_cache_source_binding\":\"R562_root_cache_source_binding_ref\",\n        \"root_finite_word_cache_compiler_installation\":\"R562_root_cache_installation_ref\",\n        \"physical_source_input_binding\":\"R562_physical_source_input_binding_ref\",\n    }\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-6",
+          "before": "    def describe(self):\n        return dict(schema=\"R551-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n",
+          "after": "    def describe(self):\n        return dict(schema=\"R562-complete-root-word-and-source-records-v1\",\n            declared_R535_counter_names=list(ROOT_WORD_COUNTERS),\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-7",
+          "before": "            absent_or_null_R550_member_not_fabricated=True,\n            original_counters_count_only_actual_executed_work=True,\n",
+          "after": "            absent_or_null_R550_member_not_fabricated=True,\n            declared_R561_each_path_counter_names=list(ROOT_AVERAGE_PATH_COUNTERS),\n            complete_R561_root_residual_root_gram_and_primal_flux_paths_retained=True,\n            R561_exact_dyadic_angular_average_is_an_original_complete_RootStats_member=True,\n            R561_all_three_full_last_and_last_present_retained=True,\n            absent_or_null_R561_member_not_fabricated=True,\n            original_counters_count_only_actual_executed_work=True,\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-8",
+          "before": "                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R551_root_statistics_ref, then only its original root_finite_word_cache member when it carries R551_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R551_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R551_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n",
+          "after": "                table=\"For each group and each original_record_indices entry i, form a dictionary with exactly columns. For column j use its constant or original_values at this group's row position. Put the dictionary at catalogue index i.\",\n                root_statistics=\"Resolve R562_root_statistics_ref, then only its original root_finite_word_cache member when it carries R562_root_finite_word_cache_ref.\",\n                owner_compilation=\"Resolve R562_owner_compilation_ref, then only its original root_finite_word_cache_compilation_source_binding member when it carries R562_root_cache_compile_binding_ref.\",\n                sources=\"Resolve the four source-record reference keys only at their explicitly named source fields.\",\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-9",
+          "before": "            \"root_primal_uses_declared_R550_accepted_evaluation_reuse_source\",\n            \"one_direct_R550_installation_without_prior_R535_hook\",\n            \"actual_owner_scope_override\",\"executed_original_owner_engineering_sha256\",\n",
+          "after": "            \"root_primal_uses_declared_R550_accepted_evaluation_reuse_source\",\n            \"root_primal_uses_declared_R561_exact_dyadic_average_source\",\n            \"one_direct_R561_installation_without_prior_R550_or_R535_hook\",\n            \"actual_owner_scope_override\",\"executed_original_owner_engineering_sha256\",\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-10",
+          "before": "    request_path=args.request.resolve(strict=True)\n    require(sha(request_path)==args.request_sha256,\"Actual request232 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==232,\"Actual independent request232\")\n    base=args.namespace.resolve(strict=True)\n",
+          "after": "    request_path=args.request.resolve(strict=True)\n    require(sha(request_path)==args.request_sha256,\"Actual request236 SHA; frozen221 is source ancestry\")\n    request=read(request_path)\n    require(request[\"schema\"]==REQUEST_SCHEMA and request[\"request_number\"]==236,\"Actual independent request236\")\n    base=args.namespace.resolve(strict=True)\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-11",
+          "before": "    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request232 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R551_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n",
+          "after": "    require(base.parent==runner and base.name==NAMESPACE and not args.namespace.is_symlink(),\n            \"Only the one request236 namespace\")\n    require(sha(HERE/RUNTIME)==RUNTIME_SHA,\"Actual published lifecycle source\")\n    spec=importlib.util.spec_from_file_location(\"_R562_necessary_runtime\",HERE/RUNTIME)\n    runtime=importlib.util.module_from_spec(spec);sys.modules[spec.name]=runtime;spec.loader.exec_module(runtime)\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-12",
+          "before": "    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=232,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R551_source_composition=request.get(\"R551_source_composition\"),\n        request_number_is_current_public_request=True,\n",
+          "after": "    observation=runtime.quiet(base)\n    answer=dict(schema=SCHEMA,request_number=236,source=receipt(__file__),\n        run={key:os.environ.get(key) for key in RUN_KEYS},request=receipt(request_path),\n        namespace=str(base),necessary_readback_complete=False,\n        R562_source_composition=request.get(\"R562_source_composition\"),\n        request_number_is_current_public_request=True,\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-13",
+          "before": "    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"R551_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_receipts\"]=reader.files\n",
+          "after": "    answer[\"complete_original_stderr\"]=reader.original_errors()\n    answer[\"R562_root_finite_word_cache_metadata\"]=reader.root_word_metadata.describe()\n    answer[\"actual_file_receipts\"]=reader.files\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-14",
+          "before": "    except Exception as error:\n        answer=dict(schema=SCHEMA,request_number=232,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "after": "    except Exception as error:\n        answer=dict(schema=SCHEMA,request_number=236,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "count": 1
+        },
+        {
+          "id": "reader-literal-15",
+          "before": "        retained.write_bytes(raw)\n        answer=dict(schema=SCHEMA,request_number=232,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "after": "        retained.write_bytes(raw)\n        answer=dict(schema=SCHEMA,request_number=236,\n            run={key:os.environ.get(key) for key in RUN_KEYS},\n",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "source_readback_representation": {
+    "source_text_baseline": {
+      "file": "root_20261116_live128_reused_projected_source_views.py",
+      "bytes": 37196,
+      "sha256": "c501c85b7ec9fe44b7d5642c49025dea57862b9bb482e656425a282c8eb86f10"
+    },
+    "actual_unchanged_R551_reader_called": true,
+    "full_original_R551_necessary_including_its_R547_transport_and_bound_full_body_retained": true,
+    "original_child70_and_false_fallback_preserved": true,
+    "same_job_original_overflow_path": "RUNNER_TEMP/request232-source-preparation/necessary-source-overflow.json",
+    "full_original_necessary_scope_read_and_bound_not_reconstructed_from_descriptor": true,
+    "actual_R551_source_record_bound_but_not_redundantly_embedded_in_current_prepare": true,
+    "complete_R561_source_binding_including_R550_R535_and_unknown_keys_retained": true,
+    "fixed_tables": [
+      "verified_ancestor_sources/verified_public_sources exact-source inventories",
+      "literal_changes/replacements full identity rows"
+    ],
+    "inventory_catalogue": "The actual frozen232 complete402 map plus these15 exact current additions. Original full paths/SHA must match before indexing; actual bytes, original key order and row order are retained.",
+    "literal_columns": [
+      "id",
+      "count",
+      "before_bytes",
+      "before_sha256",
+      "after_bytes",
+      "after_sha256"
+    ],
+    "literal_SHA_strings_full_named_dictionary": true,
+    "missing_null_key_order_row_order_and_unknown_shapes_retained": true,
+    "inherited_named_table_definitions_and_their_independent_catalogues_retained": true,
+    "ordinary_original_body_or_bound_retained_full_overflow_body_selected_whole": true,
+    "limit_bytes": 90000,
+    "overflow_exit": 70,
+    "no_segments_no_generic_tree_codec_no_future_size_promise": true,
+    "each_actual_stderr_including_empty_has_identity_and_complete_text": true
+  }
+}
