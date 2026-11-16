@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [WMF：精确归一化正权的完整物理均值强迫](results/R133-supplement-exact-normalized-weight-physical-mean-forcing.md)：两个内部mean恒等式完整消去转置中的nonlocal kernel，给同一Fmean的material-direction表示；保独立物理mean、root/端点/jump、g1/Jr，0新数值，不预授更小界。
+
 - [WOBSA：实际完整outer/source/rough/root费用](results/R133-supplement-actual-complete-outer-rows-and-rough-positive-observations.md)：43844596176/1成功18门，6图37新原球齐、42旧/73scope完整，old0/lost0；真实mean与全部affine/七port保，未知G/finite逆不赋值，37目标冻结。
 
 - [WPT：精确cell主部逆和完整高反馈对偶radial tail](results/R133-supplement-cellwise-principal-inverses-and-dual-radial-head-tail.md)：skew primitive×对称D逆范数≤1，完整A−D与全K对偶给新的h²充分门；所有mean/端点/交叉保留，新数值门和signed有限逆未计算。
