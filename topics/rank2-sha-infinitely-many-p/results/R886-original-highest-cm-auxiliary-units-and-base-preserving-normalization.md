@@ -278,3 +278,24 @@ Alonso–Castella–Rivero, *The diagonal cycle Euler system for GL₂×GL₂*�
 上面共同辅助元、全部三个原输入的单位计算、兼容 lift 与同底归一均已在本文直接证明。
 
 没有数学程序执行、目标素数扫描或新的数值证书。
+
+
+## 9. 同原有限 tame 系统已接入
+
+[原端点全 split tame 范数证明](../notes/2026-11-16-original-endpoint-tame-norm-system.md)
+现已直接从原 $C_{02}$、权(2,2,2)小对角及相容 CM 商，
+构造全部良好分裂 n 的完整四因子有限系统；
+显式 divisor-sum 整修正保 $c_1=z_p^{\rm end}$，
+所有层统一分母，并且类位于真实 balanced Selmer 条件。
+
+对它施原固定最高 CM 投影，再限制到上面 $\mathcal L_1$，
+(13)–(15)现得到真实的一维有限系统
+$$
+c^{\rm end}_{n,\ell}\in
+\operatorname{Sel}_{\rm bal}(K[n],T'_\ell),\qquad
+c^{\rm end}_{1,\ell}=z^{\rm end}_{\ell,p},
+$$
+其中 $T'_\ell$ 是一次固定扩大后的原格。
+它满足最高角色自己的线性 Euler 范数关系，最低层和原有限角色都不变。
+本段不需要先证明与 DR wild 提升的兼容。
+允许该辅助集合的 Selmer 定理假设、原底类非零及普通局部读数仍是后续实际门。

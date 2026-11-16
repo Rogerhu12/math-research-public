@@ -3,7 +3,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近已读规则提交：aeddf91ea01c56e159be143a7ed571ea9629b8e0；2026-11-16 13:29:45 UTC核两README无变。实际CI pull 2026-11-16 13:09:18 UTC/34e4ee45e5b621e97c24209805db714c518410f3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:24:51 UTC仍无环境。最迟2026-11-16 14:00 UTC再实际pull。
+- 最近已读规则提交：2a41d034a0260a64c22e556650a4823b22ba4a18；2026-11-16 13:32:32 UTC核两README无变。实际CI pull 2026-11-16 13:09:18 UTC/34e4ee45e5b621e97c24209805db714c518410f3（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 13:24:51 UTC仍无环境。最迟2026-11-16 14:00 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。每条完整结论即时推；拒推立即实际pull --rebase尝试并用新head非强推循环到成功。不改他人历史，不落盘/回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异、仅读变更、记提交，至少每小时。
 - 数学执行仅公开Actions；可重算输出不入库/Release、不分块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -16,7 +16,7 @@ root唯一metadata/ref写者；deep算R828实际第二/第三页；theta算原C2
 
 ## 当前第一实际门：原映射、真RR与完整shadow
 
-原Z的R804/806/811/814角色、全部Euler/period/端点与R831定向保；7993仅检测canonical。R858三垂直χ零/generic单射与R859整shadow/5、11无挠H1已付；固定ell原AJ非零等价某惯性shadow非零/阶无界，不直接给无穷系数p或普通loc。
+原Z全部R804/806/811/814角色/Euler/period/端点/R831定向保；7993仅检测canonical。R858三垂直χ零/generic单射与R859整shadow/5、11无挠H1已付；固定ell原AJ非零等价某惯性shadow非零/阶无界，不直接给无穷系数p或普通loc。
 
 两char0 producer仍未认证，R874最小原方向u及λ/vnew、R875准度376和整Hecke返回17全保，不能认整Hom：
 - P：run43835679463/job133191600105/source969b3f439e706e539595424e18ddb573197475fa，k4/6。
@@ -32,9 +32,9 @@ R882全18源/绝对端点/原36cusps/D204保；五RR仍在运行：
 
 R880全三角色/独立双轴/χσ=ζ7、ζ4、ζ及同eω保，原18×9返回(1/9)Σζj^aζk^bpab。R883全相对6、四完整00/01/11/12除子、所有common-zero校正/全闭点迹/W-Frob回九pair齐；三pair非零等价A=p00−ω²p12或C=p11+ωφp01非零，ell7两CM线保。真实dF=pole(yF)degree<2256才选择2256+r*dF，否则2256(r+1)，无预设1296/Manin1。
 
-R883H原Y为z²=T、c³=(z−3δ)/(z+3δ)，y=δ(1+c)/(1−c)，三层étale但非全split。完整local Kummer后端已接四RR，原δ常数嵌入/完整norm+系数极支持/Σef/全负floor/原d_abs÷2齐，尚未执行。G/H.8的Tate全迹含ell|d，默认终幂用原F_(r²)相对Norm，保power/scalar/compare；新run43870209568/job133309066101全独立scalar回归成功，含全底挠点/辅助例外/dell真ell²点，hash见执行注。不再扩同类可选测试。
+R883H保原Y的二/三次étale Kummer塔、全部非split闭点/负floor/δ嵌入/支持及次数；完整local后端已接四RR仍未执行。默认Tate终幂用原F_(r²)相对Norm，power/scalar/compare保；run43870209568/job133309066101全scalar回归成功含dell真ell²点，hash及源码见原执行注，不再扩可选测试。
 
-consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只接两真实char0 PASS，核job/run/head/source/hash/whole末端，stdin只读无网及完整依赖齐。无consumer请求、无原shadow输出，禁止假PASS。root跟进两map/五RR。R885已付原端点真实有界反循环D，sp0D=Ep AJ(Z02)，原q/q⁴和4/Artin/旧副本全保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³真unit，C5=−216全分支unit。原+++=λ/N；同Coleman有限余核使Dfun(0)=Ep原ordinary loc坐标，无额外T因子。只得Ccan·D=Dfun·ccan，不约增广零。literature续同原底类的tame norm/wild比较，R886已付原共用τ=(η,ψ,barψ)=(-1,-ω,-ω²)，三extraEuler在O[G]/Λ[G]真unit及保n1归一；原秩一HS/HO与8.4元齐，辅助集定理门/同源norm/底非零仍须实付，尚不应用Selmer消失。
+consumer默认eta48/global/tate，可选四RR与local；host/entry/workflow只接两真实char0 PASS，核job/run/head/source/hash/whole末端，stdin只读无网及完整依赖齐。无consumer请求、无原shadow输出，禁止假PASS。root跟进两map/五RR。R885已付原端点真实有界反循环D，sp0D=Ep AJ(Z02)，原q/q⁴和4/Artin/旧副本全保；Ep=(1+barπ⁻¹)³(1+π/barπ²)/(1−π/barπ)³真unit，C5=−216全分支unit。原+++=λ/N；同Coleman有限余核使Dfun(0)=Ep原ordinary loc坐标，无额外T因子。只得Ccan·D=Dfun·ccan，不约增广零。literature续同原底类的tame norm/wild比较，R886已付原共用τ=(η,ψ,barψ)=(-1,-ω,-ω²)，三extraEuler在O[G]/Λ[G]真unit及保n1归一；原秩一HS/HO与8.4元齐，[finite tame](notes/2026-11-16-original-endpoint-tame-norm-system.md)已付原全split四因子、显式divisor-sum保原n1/统一分母/真balanced，并接R886受限最高系统；辅助集定理门/底非零仍须实付，尚不应用Selmer消失。
 
 ## 当前第二门：四原B与同一低配对
 

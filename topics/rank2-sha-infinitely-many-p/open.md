@@ -151,3 +151,6 @@ R883附H.7/H.8已并入同原地方算法与精确终幂：Miller h^(r^(2d)−1)
 
 
 - R886原三extraEuler的实际辅助群环unit及保底归一已付，原rank1 HS/HO/8.4表示门齐。须连接同C02的完整有限层norm，并核允许的split-σ辅助集合；目前不因正密度或表示门已付而套Selmer结论，更不把balanced秩1替ordinary loc注入。
+
+
+- 原finite tame系统已完整付：同C02 n1=原AJ，全split四因子/显式二次误差修正/统一分母/全balanced齐；R886受限最高线性norm现在真实存在。继续允许split-σ集合的定理门、原底类非零及ordinary loc，DR tame/wild相容仍独立继续。

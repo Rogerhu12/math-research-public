@@ -351,3 +351,6 @@
 
 
 - [R886](../results/R886-original-highest-cm-auxiliary-units-and-base-preserving-normalization.md)：原全四字符在同真实τ上统一为(1,ω²,ω,ω)，τ由17与两p惯性构成，保持μp∞；每深度Chebotarev付真实辅助q。hK1/μ6 p′给环类p群直积，兼容Frob lifts使三个额外Euler因子在完整O[G]/Λ[G]为unit；对已付同源全norm的系统，乘单位逆精确保原n1并降成最高秩一因子。原秩一HS/HO及8.4替代元已付，尚不冒辅助集允许性/原系统/底非零/ordinary loc。
+
+
+- [原端点全split有限范数系统](2026-11-16-original-endpoint-tame-norm-system.md)：直接从ACR r=(0,0,0)/Det1与原q/q⁴端点构造全部split有限四因子系统；原八单步/三双步给不对称Q，准确P−x²Q/q=(q−1)[(q+1)−ABx+(A²−q−1)x²]/q²。环类p直积/Mackey的显式divisor-sum整修正保n1=原AJ、全层统一分母；全部非p H¹0与p几何finite给真balanced。投最高后已接R886辅助集unit归一，不先认DR全wild同源。
