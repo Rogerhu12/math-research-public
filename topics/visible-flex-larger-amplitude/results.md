@@ -369,3 +369,8 @@ compute12真JSON帧、report五主正文逐字同，C/cut/deep/construction/samp
 ## R530 — 完整双向对应内核与原OwnedTree真实调用
 
 **已证明程序条件与来源；未选γ或运行。** [R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)三件63226B：kernel29146/d73e、plan10974/bae5、完整证明接口23106/52e3。直接用R520原三族BoundImages/fullposition账/真帽点，所有双向候选允许重复，全部交叉边逐前缀支付；失败边退役完整后缀，当前半边/未分离叶及完整frontier真实保。仅全退役才给γ，首未分离叶返回未证2，不冒全等或全局L*。18literal生成caller46134/3d6f仅Actions，原R520 Binding/OwnedTree/PID/session/deadline/quiet正文保；startup与BVP真实deadline分绑、原32GiB与18900+2700不改。两层90K/70不保证都fit，不删raw/造cleanup；没有新request。同步登记[224官方run绑定](notes/2026-11-16-request224-official-run-binding.md)：498c发布、单POST200，实际23176直接子提交整topic/.github同字，R525/amplitude唯一。
+
+
+## R527 — 当前H配对stage与径向缓存完整live128调用链
+
+**完整源码组合与条件保持；实际225待官方启动与R528。** [R527](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)/[接口](notes/2026-11-16-request225-live128-paired-cache-original-full112-interface.md)六件201991B，topic183473；gen22915/b30d、plan55391/6e81、request64734/42fe、workflow18518/5ed7、正文18592/2b6a、接口21841/8d90全文身份齐。原336＋6public＋3正式R522/11新caller=356，R51812原view仅内存重建全核，不执行/落盘；正式R522 component33416/93ec、operator29617/082d、stage12880/49a7原字不改。新225 policy/ns实际接owner→assembly/pipeline→client→原完整FD/fullDN；配对stage真实compiler完整binding与R515 boundary/endpoint/audit物理编译receipt分责回读，不从prepared推compiler返回。有限配对RN113/调用内有限词缓存适用范围沿原证明，全576/224/226/338×112/双mean及mixed-J原限保。原19200单钟/64GiB启动/2GiB运行/所有component caps/120reserve/FD/RMS/BC/fresh audit/quiet保持，source与science是两个独立必要scope各90K70，超限不拆包、不预保证fit/收益。不改221，不添测试/全解析门；本次公开真实push后官方单POST，run/source和实际结果另记。

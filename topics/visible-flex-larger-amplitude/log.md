@@ -181,3 +181,8 @@ H压缩前534ffc1b全文保，§4–6逐字保；217官方10:08:58已step19全ph
 ## 2026-11-16 10:43:39 UTC /root — R530完整对应核与224正式run绑定
 
 [R530](results/R530-finite-correspondence-kernel-and-original-owned-interface.md)三件63226B完整刊：原BoundImages/fullledger/真帽点、双向全部候选/重复/交叉边/完整frontier保；首未分离叶只未证，18literal沿原R520真实Binding/OwnedTree/clock/quiet，生成46134/3d6f只Actions、两层90K70，无新run/γ。224已498c普通推＋唯一dispatch200，run43851068999/actualsource23176ac6/compute133243448382，官方两头整topic a9b53a80/.github5a1fa9e3同字，amplitude唯一终态；[正式绑定](notes/2026-11-16-request224-official-run-binding.md)保差异来源与未读科学范围。容量官方198090813B，继续原完整求解与R527/529/531/532。
+
+
+## 2026-11-16 10:50:27 UTC /root — R527完整225调用链与实际启动入口
+
+**完整源码组合与条件保持；实际225待官方启动与R528。** [R527](results/R527-live128-paired-stage-and-radial-cache-complete-chain.md)/[接口](notes/2026-11-16-request225-live128-paired-cache-original-full112-interface.md)六件201991B，topic183473；gen22915/b30d、plan55391/6e81、request64734/42fe、workflow18518/5ed7、正文18592/2b6a、接口21841/8d90全文身份齐。原336＋6public＋3正式R522/11新caller=356，R51812原view仅内存重建全核，不执行/落盘；正式R522 component33416/93ec、operator29617/082d、stage12880/49a7原字不改。新225 policy/ns实际接owner→assembly/pipeline→client→原完整FD/fullDN；配对stage真实compiler完整binding与R515 boundary/endpoint/audit物理编译receipt分责回读，不从prepared推compiler返回。有限配对RN113/调用内有限词缓存适用范围沿原证明，全576/224/226/338×112/双mean及mixed-J原限保。原19200单钟/64GiB启动/2GiB运行/所有component caps/120reserve/FD/RMS/BC/fresh audit/quiet保持，source与science是两个独立必要scope各90K70，超限不拆包、不预保证fit/收益。不改221，不添测试/全解析门；本次公开真实push后官方单POST，run/source和实际结果另记。
