@@ -8,7 +8,7 @@
   },
   "sessionScriptSHA256": "f6b1108e2f9505e6d6315d87abf361a2aca2b913487163c960a6a628baeee59a",
   "historicalInputs": [],
-  "maximumIdleSeconds": 600,
+  "maximumIdleSeconds": 1200,
   "closeSessionWhenStepsComplete": false,
   "sessionWorkMinutes": 35,
   "workflowHardMinutes": 40,
@@ -281,6 +281,60 @@
       "mathematicalScriptSHA256": "a77cf71a3e3c4dcbd4b68f3f4d99f98a64bd4f64394f46507c8c42cc5aecf48f",
       "mathematicalScope": "Solve the original rational60 system and verify all3000 rational/all1000 E products and all400 selected identities; original source theorem supplies the full kernel identity.",
       "evidencePhaseKey": "complete-exact-original-low20-products"
+    },
+    {
+      "id": "original-low20-original-quartic-syzygy95-unit60",
+      "requires": [
+        "original-low20-rebuild-original-field-model180"
+      ],
+      "script": "topics/invariant-subspace-problem/notes/2026-11-16-r150-exact-low20-observed-execution-789f.py",
+      "scriptSHA256": "c5d5f777246dbb99d516855eb007845c9b25673cfe736e74cf56f559111a5618",
+      "sources": [
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+          "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+          "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+        },
+        {
+          "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+          "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c"
+        }
+      ],
+      "argv": [
+        "--outer-seconds",
+        "120",
+        "--heartbeat-seconds",
+        "10",
+        "--stdout",
+        "{work}/original-low20-original-quartic-syzygy95-unit60.math.log",
+        "--heartbeats",
+        "{work}/original-low20-original-quartic-syzygy95-unit60.heartbeats.jsonl",
+        "--identity",
+        "{work}/original-low20-original-quartic-syzygy95-unit60.observed.json",
+        "--",
+        "python",
+        "{scripts}/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+        "--exact-helper",
+        "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+        "--field-model-source",
+        "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+        "--field-model-out",
+        "{work}/original-ten-parameter-module127-v2",
+        "--out",
+        "{work}/original-quartic-syzygy95-small-gate127",
+        "--seconds",
+        "60",
+        "--memory-mib",
+        "512"
+      ],
+      "timeoutSeconds": 180,
+      "receiptPath": "{work}/original-quartic-syzygy95-small-gate127/original-quartic95-receipt.json",
+      "mathematicalScript": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+      "mathematicalScriptSHA256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c",
+      "mathematicalScope": "Independent original95 quartic kernel unit gate. All original matrices and complete products retained; rank95 is not prefilled. No dependency on the interrupted rational60 solve and no characteristic-zero coefficients lifted from the field."
     }
   ],
   "sameJobPolicy": {
@@ -294,7 +348,7 @@
     "prefixRebuiltFromSourcesOnly": true,
     "allOldPhysicalAndLogicalSHARequired": true,
     "originalInterruptedConstantsStillIncomplete": true,
-    "retainLiveSameJobForReviewedFollowupSeconds": 600,
+    "retainLiveSameJobForReviewedFollowupSeconds": 1200,
     "originalIdealOrISPConclusion": false,
     "stalePreviousReceiptNeverReportedAsCurrent": true,
     "completeObserverExecutionIdentityIncluded": true,

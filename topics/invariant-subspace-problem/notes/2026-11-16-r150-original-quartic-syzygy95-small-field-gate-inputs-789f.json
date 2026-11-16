@@ -1,0 +1,150 @@
+{
+  "format": "r150-original-quartic-syzygy95-small-field-gate-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator with /root; AI-assisted GPT-6 Astra Pro",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate127-789f.py",
+    "bytes": 15520,
+    "sha256": "b6f72e376aa403ff540a01927ea0dd4ac136099cb7be16fe201f91e95968cc4c",
+    "gitBlob": "a472cf1b3d9fd3e45319e0b4b2a9060f1adce9e8"
+  },
+  "helpers": [
+    {
+      "path": "notes/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+      "gitBlob": "541c14b36925e3cc94018edd8a17a6a765041f5d",
+      "bytes": 33539,
+      "sha256": "d9d98bc379e322e9c212b7ad7721399ec8b1bab9970a2755700338f7053d47da",
+      "scope": "Only read_paid_base and literal dictionaries; no exact constant build or UI solve invoked"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+      "gitBlob": "cbd03a000da605991e6e49f1b545c2388a10db43",
+      "bytes": 23879,
+      "sha256": "4a7c1d93e65079912c66ad3370ba7cf59c3c5ef7d385c7cf69ba3cde76dac8e4"
+    }
+  ],
+  "paidParent": {
+    "binding": "7c59f3f6e05c836aa97eef0ad358eaae8f8174c8225b1842ed5c4f313000f3d4",
+    "manifest": {
+      "bytes": 30466,
+      "sha256": "9120695ac2e42f8300fdea4aa814183bc033d83062810a8854998a25199795e2"
+    },
+    "base": {
+      "bytes": 776254,
+      "sha256": "5cbba4f798ab95fe24538f35d23d4b3a2f0d6197ee3ed33f3149b7371b0d222c",
+      "logicalBytes": 4442756,
+      "logicalSha256": "f07c273c934e671f5e1069954771286c14e5d10ab7c4652d998a02f71beb7d05"
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pythonFlint": "0.9.0",
+    "requiresSingular": false
+  },
+  "stage": {
+    "id": "original-low20-original-quartic-syzygy95-unit60",
+    "requires": [
+      "original-low20-rebuild-original-field-model180"
+    ],
+    "seconds": 60,
+    "memoryMiB": 512,
+    "outerTimeoutSeconds": 120,
+    "observerHeartbeatSeconds": 10
+  },
+  "arguments": [
+    "--exact-helper",
+    "{scripts}/2026-11-16-r150-original-low-commutator-twenty-exact-constants-v2-789f.py",
+    "--field-model-source",
+    "{scripts}/2026-11-16-r150-original-ten-generator-parameter-module-field127-v2-789f.py",
+    "--field-model-out",
+    "{work}/original-ten-parameter-module127-v2",
+    "--out",
+    "{work}/original-quartic-syzygy95-small-gate127",
+    "--seconds",
+    "60",
+    "--memory-mib",
+    "512"
+  ],
+  "parameters": {
+    "prime": 127,
+    "coefficientRoot": 100,
+    "originalQuadraticTops": 11,
+    "ordinaryQuadraticMonomials": 15,
+    "cubicMatrix": [
+      35,
+      55
+    ],
+    "selectedCubicKernelColumns": 20,
+    "quarticMatrix": [
+      70,
+      165
+    ],
+    "multipliedLowSourceMatrix": [
+      165,
+      100
+    ],
+    "fullHighLeadingSourceMatrix": [
+      165,
+      40
+    ],
+    "possibleFullRank": 95,
+    "possibleKernelDimension": 5,
+    "keptQuadraticPaths": [
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "selectedLowSeedIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12,
+      13,
+      14,
+      15,
+      21,
+      22,
+      23,
+      24,
+      25,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "completeProducts": {
+    "quadraticUnitInverses": 242,
+    "quadraticNormalSources": 225,
+    "cubicUnitInverses": 2450,
+    "distinctCubicBorderSources": 560,
+    "selectedCubicKernel": 700,
+    "multipliedLowKernel": 7000,
+    "highLeadingKernel": 2800,
+    "ifRank95BothUnitInverse": 18050,
+    "ifRank95FullHighSourceCoordinates": 6600,
+    "ifRank95AllMultipliedSourceCoordinates": 16500,
+    "ifRank95FullFiveKernelColumns": 825
+  },
+  "mathematicalBoundary": "rank95 is not prefilled. A true original95 minor gives E-surjectivity using the original kernel identities and rank70; exact E coefficients use that original adjugate, never lifted field coordinates. rank below95 is only a residue-field diagnostic.",
+  "continuation": "Fresh independent output only. This bounded small gate has no implemented resume and must not be represented as resuming an old state. Budget/error leaves actual complete phase descriptors for inspection only.",
+  "dataPolicy": "All matrices/profiles/raw only temporary; source/parameters/proof/actual execution identities and SHA only in Git.",
+  "status": "Static frozen; shared executor unavailable; no new local AST or arithmetic",
+  "officialApi": "https://python-flint.readthedocs.io/en/latest/nmod_mat.html"
+}
