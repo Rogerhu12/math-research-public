@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 3870ce0fc8856b0f8a61abd1d9e4009491a6715e（2026-11-16 18:03:34 UTC，临时研究session run43924670391实际pull --rebase，两README无差异；详见notes/r150-original-exact-low20-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 4d8862a5e3910b37fd173784f734a16e81aca6b6（2026-11-16 18:04:43 UTC，Actions run43924997109实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43924997109-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 当前本地executor不可用；实际终端Actions仍可用，算术固定Python3.12.14/flint0.9。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
@@ -14,9 +14,9 @@
 - 原E低20/95核已闭：两4解全1000E/3000Q/400selected、95原unit38及根[独立日志审计](notes/2026-11-16-r150-exact-low20-quartic95-root-log-audit-execution-789f.json)已核。旧Q60真实360秒TERM/143独留，不重复；全部源/pins/失败范围保归档，结束job TMP须重建。
 - **[原Koszul55混合95单位与40原标签已实际完成](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。** 新job43919468897重116→high95→mixed全0；原混合子式det127=69，选$J_{40}=\{0,\ldots,33,40,\ldots,44,60\}$，全25575原坐标、18050逆、9025/3800选列恒等真。原E伴随公式与真实G-Koszul校正落实200/210呈示；不把field坐标提升或重建参数数组。根独立重生标签/binding/raw9335字节SHA并核新high95完整父相位；数学0.127秒。
 - **[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系，权10核至少111维，不宣恰111。未来同原增广秩≥13698可严格升E负；field左证若来源秩更低不能单独提升。尚无新权10实际秩或目标结果。
-- 权十旧std592.369秒75仅START，不空续。新native/checker全文静审，保完整77276×13808、单bitplane/DAG/整列checkpoint。独立controls run43922052588已结束，原回执已核，另条正式记录继续；完整driver含原正源与实际原子式审计，输入/CLI待最终审核。
+- 权十旧std592.369秒75仅START，不空续。**[native/checker实际编译控制已闭](notes/2026-11-16-r150-original-weight10-macaulay-controls127-actual-789f.md)**：run43922052588，8.019秒exit0，全244990/2048256/43/93412与断点往返真；root/literature独立raw/manifest/binding SHA核同。完整77276×13808尚未生成；full driver/原子式审计已全文审，最终输入/CLI审核中。
 
-- **原五次Koszul259小门已冻结并全文审核，发布后dispatch。** [完整接口](notes/2026-11-16-r150-original-quintic-koszul-span259-unit-interface-789f.md)：同新job116→high95→mixed95→quintic，预算180/60/60/60秒，实际读两个完整manifest/三父phase。保原385×275和全部300右端；若259则全115500目标坐标及两侧逆/16关系，才可用原E单位给稳定C60与120/130呈示；低秩仅field诊断。当前无新rank/actual声明，不恢复旧exact/Q60/参数大阵。
+- **原五次Koszul259小门run43924670391正在执行。** [完整接口](notes/2026-11-16-r150-original-quintic-koszul-span259-unit-interface-789f.md)：同新job116→high95→mixed95→quintic，预算180/60/60/60秒，实际读两个完整manifest/三父phase。保原385×275和全部300右端；若259则全115500目标坐标及两侧逆/16关系，才可用原E单位给稳定C60与120/130呈示；低秩仅field诊断。当前无新rank/actual声明，不恢复旧exact/Q60/参数大阵。
 
 ## R150已付结构与仍开范围
 
