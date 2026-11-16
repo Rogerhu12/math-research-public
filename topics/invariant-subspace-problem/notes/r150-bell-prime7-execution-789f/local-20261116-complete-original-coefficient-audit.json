@@ -1,0 +1,69 @@
+{
+  "format": "r150-original-bell-cube-prime7-coefficient-audit-execution-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "executionKind": "local-executor",
+  "executorSessionID": 19554,
+  "exitCode": 0,
+  "completedReceiptLastWriteUTC": "2026-11-16T10:42:26.026900+00:00",
+  "observedUTC": "2026-11-16T10:45:27.464794+00:00",
+  "source": {
+    "path": "notes/2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+    "blob": "859a1b723e3c4566d7c271d999832441e947bb8b",
+    "bytes": 8329,
+    "sha256": "33560119cb8f19902f323b5a1f5fb5a3bb59d38aad6d55108950107bd545579e"
+  },
+  "inputSources": [
+    {
+      "path": "notes/2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+      "blob": "77ab9bae3d7c94d54f9a8cc1d56c99a40623a098",
+      "sha256": "213c10f680c5325e62b5245b0796062b5024c1499e9d1d68346ad65868d120dd",
+      "bytes": 26381
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+      "blob": "c5e81e3e97d0123df214a994667c5b046171ec82",
+      "bytes": 31156,
+      "sha256": "da80b727c47a050f3e268f00d1d6598336866a41b354d6aecb5edbb1ca1e730d"
+    },
+    {
+      "path": "notes/2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+      "blob": "7e5244c7c9177d483bb2dbe2a1dc7a2dc86904a3",
+      "bytes": 16964,
+      "sha256": "31df769fb0fd3a41eb7606f500aae8b46952219c24927bd3265ed3dc34d7fe10"
+    }
+  ],
+  "parameters": [
+    "python",
+    "2026-11-16-r150-original-bell-cube-prime7-coefficient-audit-789f.py",
+    "--producer",
+    "2026-11-16-r150-original-bell-cube-three-q-targets-789f.py",
+    "--model",
+    "2026-11-16-r150-original-full-bell-homogeneous-source-prefix-789f.py",
+    "--helper",
+    "2026-11-16-r150-original-matched-bell-full-parameter-charts-v2-789f.py",
+    "--out",
+    "prime7-audit",
+    "--seconds",
+    "90",
+    "--memory-mib",
+    "768"
+  ],
+  "interpreter": "/tmp/r150-normal-789f-20261116-1040/venv/bin/python",
+  "pythonFlint": "0.9.0",
+  "mathReceipt": {
+    "bytes": 4312,
+    "sha256": "1cee8383ede9f0a458cb37ce5a384e461fdc51f20c81747411ae650df8cf4cda"
+  },
+  "binding": "4baed1013b72717e2773607c308a3f534b029c92f35592dcb6c5ff1025587339",
+  "programElapsedSeconds": 13.410245097009465,
+  "temporaryOutput": {
+    "path": "complete-original-weight9-prime7-model.json.gz",
+    "bytes": 16999356,
+    "sha256": "fe91efd8d4739de90b831449c40020a98e3b9775ee28a7e678a7b29ff2b683bd",
+    "logicalBytes": 58953007,
+    "logicalSha256": "df9fb9657926a52a4c3c1a895a0ba5aa34f2d5f537d747d7f07e00d42f81bdfa"
+  },
+  "computationalResultArraysStoredHere": false,
+  "temporaryOutputNotUploaded": true,
+  "meaning": "Execution identity and output SHA only. Mathematical result is stated and justified in the separate proof."
+}
