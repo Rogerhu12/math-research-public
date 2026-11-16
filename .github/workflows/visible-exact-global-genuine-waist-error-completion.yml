@@ -1,0 +1,118 @@
+name: visible-exact exact preserved-prefix waist error completion
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/visible-exact-global-genuine-waist-error-completion.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: visible-exact-global-genuine-waist-error-completion
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  WEJ_MANIFEST: topics/visible-flex-exact-nearby/notes/2026-11-16-R133-WEJ-remaining-current-inputs.json
+  WEJ_MANIFEST_SHA: 4093b44c00d282b0ea2410efe0dd3ddc2ba3a4dffc21cf29c34d3424c47f90f6
+  WEJ_PIPELINE_SHA: a6d581ba177a6d1cbfbb722a46e987c180ad8b3c3e4447cb501525c2ce1ce79c
+  WEJ_WORKER_SHA: fb7f09c219f18c25bcc6b773652f188191d89257dae15a4c50aef8bfff338ed4
+  REVIEWED_RULES: topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+  REVIEWED_RULES_SHA: 65503a41254348a301fd71657ea61e5c32aa2d0bf7c980967b9ae35022a6b1d1
+
+jobs:
+  global-genuine-waist-error-completion:
+    runs-on: ubuntu-latest
+    container: python:3.12.14-trixie
+    timeout-minutes: 360
+    steps:
+      - name: Install terminal Git
+        run: |
+          apt-get update -qq
+          apt-get install -y --no-install-recommends git ca-certificates
+      - name: Partially check out only scripts parameters and reviewed READMEs
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          filter: blob:none
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/visible-flex-exact-nearby/README.md
+            /topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_completion_public_worker.py
+            /topics/visible-flex-exact-nearby/notes/2026-11-16-R133-WEJ-remaining-current-inputs.json
+            /topics/visible-flex-exact-nearby/notes/2026-11-15-1133-R133-reviewed-public-CI-rules-cleanup-history.json
+      - name: Verify the separately pinned worker
+        run: |
+          python - <<'PY_WORKER'
+          import ast,hashlib,os,pathlib
+          p=pathlib.Path('topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_completion_public_worker.py')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()==os.environ['WEJ_WORKER_SHA']
+          ast.parse(p.read_text(),filename=str(p))
+          PY_WORKER
+      - name: Hydrate only small source proof and provenance texts
+        run: >-
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_completion_public_worker.py --mode hydrate
+          --manifest "$WEJ_MANIFEST" --manifest-sha "$WEJ_MANIFEST_SHA"
+          --pipeline-sha "$WEJ_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+      - name: Parse the entire frozen Python closure before any new arithmetic
+        run: |
+          python - <<'PY_SOURCE'
+          import ast,hashlib,json,os,pathlib
+          manifest=json.loads(pathlib.Path(os.environ['WEJ_MANIFEST']).read_text())
+          sources=[x for x in manifest['files'] if x['path'].endswith('.py')]
+          assert len(sources)==manifest['expected_immutable_AST_files']
+          for item in sources:
+              p=pathlib.Path(item['path'])
+              assert len(p.read_bytes())==item['bytes']
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==item['sha256']
+              ast.parse(p.read_text(),filename=str(p))
+          PY_SOURCE
+      - name: Independently admit every retained input before the only scientific child
+        run: |
+          python - <<'PY_RETAINED'
+          import hashlib,importlib.util,json,os,pathlib
+          root=pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          manifest=json.loads(pathlib.Path(os.environ['WEJ_MANIFEST']).read_text())
+          path=root/'topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_completion_public_worker.py'
+          assert hashlib.sha256(path.read_bytes()).hexdigest()==os.environ['WEJ_WORKER_SHA']
+          spec=importlib.util.spec_from_file_location('remaining_metadata_only_worker',path)
+          worker=importlib.util.module_from_spec(spec);spec.loader.exec_module(worker)
+          worker.validate_contract(root,manifest,os.environ['WEJ_PIPELINE_SHA'],
+              path.relative_to(root),os.environ['WEJ_WORKER_SHA'],
+              pathlib.Path(os.environ['REVIEWED_RULES']),os.environ['REVIEWED_RULES_SHA'])
+          receipts=[]
+          for item in manifest['files']:
+              raw=(root/item['path']).read_bytes();raw.decode('utf-8')
+              assert len(raw)==item['bytes'] and len(raw)<100000
+              assert hashlib.sha256(raw).hexdigest()==item['sha256']
+              assert hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()==item['git_blob_sha']
+              receipts.append({k:item[k] for k in ('role','path','bytes','sha256','git_blob_sha')})
+          admitted,=worker.complete_expected_original_documents(root,manifest,receipts)
+          assert len(worker.compact(admitted))<=manifest['original_input_specs'][0]['publication_max_bytes']
+          print('Complete retained admission passed: 58 current files, 23 complete old graphs, 39 old partial records. No scientific module imported or evaluated.',flush=True)
+          PY_RETAINED
+      - name: Install the pinned directed arithmetic runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0
+      - name: Evaluate only the 30 unpaid records after complete retained-prefix admission
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: >-
+          python -u topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_global_genuine_waist_error_completion_public_worker.py --mode run
+          --manifest "$WEJ_MANIFEST" --manifest-sha "$WEJ_MANIFEST_SHA"
+          --pipeline-sha "$WEJ_PIPELINE_SHA" --rules "$REVIEWED_RULES" --rules-sha "$REVIEWED_RULES_SHA"
+          --work "$RUNNER_TEMP/visible-exact-global-genuine-waist-error-completion-science"
+          --out-dir "$RUNNER_TEMP/visible-exact-global-genuine-waist-error-completion-output"
+      # Root rule15: 58 complete current UTF-8 inputs, 3 pinned Python AST files, no historical restoration.
+      # Only the new remaining driver and remaining mathematics are scientific modules.
+      # All 23 original complete nodes and 39 partial records retain original bytes and original bindings.
+      # The three new nodes emit exactly 13, 8 and 9 new records; all old copied records stay verbatim.
+      # Complete admission and every complete/partial value precede final format and publication gates.
+      # One child only. Every same-target prior attempt blocks automatic repetition.
+      # No upload-artifact, Release upload or native/per-row numerical-data commit.
+      # Actual pulls recheck both READMEs; complete branch capacity and final actual capacity are separate.
