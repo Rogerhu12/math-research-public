@@ -115,4 +115,4 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 
 **31原p7两探针实际只给新增像零。** [完整实际范围](results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md)：run43798780106，219.281秒，全30stage/356730原G坐标；最后两源在完整incoming15商rank0、原合并rank15。有效25→20→15→10→5，八次完整整数乘回/可除性以及104/315/505检查真；不是全210负证，E仍≥6。下一补全210全部原配方含field零式整数carry；新job窄恢复currentK4并重建父，E6七socle接口暂不启用。
 
-**非rank-one原入口实际排算。** 在真两原子均值y=e0+e5、H0=(e0²+e5²)/2处，H0固定而求全部6y/11H梯度；独立原N/Γ全1326系数核、T3完整56×11地图和真17×11线性rank。满rank11才构F_selected=C(M)M及detC局部化来源，未预称rank或全非rank-one闭合。独立180秒/512MiB小任务，源码2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py；无大矩阵或旧rank-one输入。
+**非rank-one真两原子局部来源已付。** [原全部H-minor与局部理想](results/R150-appendix-original-two-atom-nonrankone-linear-minor-and-local-source-certificate.md)：真y=e0+e5，固定H0后全部6y/11H导数，exact17×11与T3图均rank11；原det非零，D(M)M=adjC·F，I_D=(M)，source degree≤10。ab(1−st)D给非空原参数开支；保D，不扩到所有fixedy/Cat3或Bell算子逆。另同一原全Macaulay本地已经满4367，正式去M分母证明随后逐条发表。

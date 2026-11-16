@@ -1,0 +1,77 @@
+{
+  "format": "r150-original-nonrankone-two-atom-gradient-inputs-v1",
+  "author": "Astra-ISP-789f / normal_annihilator; AI-assisted GPT-6 Astra Pro",
+  "purpose": "Exact original seventeen-gradient reconstruction and a gated determinant-localized source certificate at a genuine two-atom mean",
+  "sources": [
+    {
+      "path": "notes/2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py",
+      "blob": "948d3c17f90ee17c9b0b773d981c3189674b47d5",
+      "sha256": "3729a351a361039e286b2435571da8c2c91d09d9822cc79cacb9cecf887928cc",
+      "bytes": 22167
+    }
+  ],
+  "historicalInputs": [],
+  "parameters": {
+    "primeUsed": null,
+    "mean": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "H0": [
+      "1/2",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1/2"
+    ],
+    "originalMeanDerivatives": 6,
+    "originalHankelDerivatives": 11,
+    "derivativesBeforeSpecialization": true,
+    "atomicH0HeldFixed": true,
+    "seconds": 180,
+    "memoryMiB": 512,
+    "outerSeconds": 240,
+    "out": "{work}/original-nonrankone-two-atom-gradient"
+  },
+  "command": [
+    "python3",
+    "{scripts}/2026-11-16-r150-original-nonrankone-two-atom-gradient-789f.py",
+    "--out",
+    "{work}/original-nonrankone-two-atom-gradient",
+    "--seconds",
+    "180",
+    "--memory-mib",
+    "512"
+  ],
+  "originalProofReferences": [
+    {
+      "path": "results/R150-appendix-six-mode-cubic-bell-third-moment-schur-reduction.md",
+      "blob": "b3eb63a9d6498fbe388090f9f6e9f2d46fd11afb",
+      "sha256": "54b2124068a342fc86fb014514826a1d6bff70179156d8ced6cd02c58d9d3e91",
+      "bytes": 8598,
+      "scope": "Literal K; G6, ell and R3; original N/Gamma normalization; exact full-gradient Schur equivalence"
+    },
+    {
+      "path": "results/R150-appendix-nonzero-mean-zero-third-moment-critical-classification.md",
+      "blob": "14473b8a91a86114511d9fa466dac6a27dd8038f",
+      "sha256": "9ded5bcedce7452cba60e9788282974c3d1bb3b3bd582197a3381e831ddfc125",
+      "bytes": 10235,
+      "scope": "Complete two-distinct-atom critical family including infinity, with original physical H0 and V0"
+    }
+  ],
+  "outputPolicy": {
+    "largeModel": "Actions temporary only",
+    "newRepositoryArtifacts": "source, parameters, interface, execution identity and output SHA only",
+    "mathematicalResult": "Read actual completed job log; no prespecified rank"
+  }
+}
