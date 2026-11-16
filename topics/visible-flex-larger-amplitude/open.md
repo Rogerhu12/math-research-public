@@ -55,6 +55,8 @@ R427/R431只对真193或同源已接受mesh，以父全词/knots/准确midpoint�
 
 [203实际运行](https://github.com/Rogerhu12/math-research-public/actions/runs/43790929300)已由公开push启动，source557b1d47cd637d268cf292c86f77218ccc3b5458，compute133048929054；官方in_progress，steps1–5完成、step6安装runtime。request84af713a/workflowc67f3bef未改，R440由geometry唯一终态读回；新postsolve/held/组合必要全文在compute，原五体继续report。当前仅官方元数据，无数学/编译结果预填，不取运行中大日志。
 
+[R448](results/R448-fixed-target-radial-mesh-and-joint-resolution-refinement.md)/[完整接口](notes/2026-11-16-current-C-ten450-radial-and-joint-resolution-interface.md)发布六独立源：137d42cb driver/f3a2abf6 owner在R441四因子之外加入真实radial_mesh；保父全部字词/knots，以准确有理候选一次RN64插点，完整候选账和未访区间后缀保留。max_nodes不足或机器点不增加只报资源partial；真fresh全450 RHS/preflight与原H/J/FD/fullDN/final/audit不变，同18900+2700原绝对钟。复用bf7d writer及全部R441数学源，显式新后闭/held/必要读取来源，首次W/H/marker/cuff继续冻结。六全diff/证明/接口已读，joint第十四资源键明确，无本地科学/AST/compile；没有实际父/因子/run/收敛或M加密，R447准确材料consumer尚未调用。
+
 ## 4. 同一g闭合与真正九冻结450
 
 完整接受父不存在前，不从失败场、旧config/port或自报source制造accepted request。[九冻结450接口](notes/2026-11-15-nine-control-frozen-same-metric450-interface.md)、[v2高度父兼容](notes/2026-11-15-nine-frozen450-height-parent-v2-interface.md)与[完整SavedPrefix/closed](notes/2026-11-15-frozen-nine450-complete-prefix-and-shared-closed-interface.md)保全部九末系数、支撑/width、两有限scalar路径，K=k=0、338+112=450及原完整边界。新网格含父全部节点、中点和literal knots，显式max_nodes覆盖1397及额外knots；保父physical/core词后fresh RHS，不用旧1200上限。自身currentH/J、FD、同worker fullDN/finalJ/fresh audit全付。
