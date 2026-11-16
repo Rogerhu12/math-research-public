@@ -442,116 +442,27 @@
 
 - **root2前五系数31多重度恰(1,4,2,4,2)，仿射界降为300。** [完整模块证明](results/R150-appendix-root2-coefficient31-spectrum-through-five-and-affine-degree300.md)用有限C的monic annihilator与flat局部完成，把已付全局colon L:p²及完整B三页successive2/4/2解释为准确系数p谱；没有把root2页当全部primary。连root1两类，至少15系数tors方向/长度≥44，degΔaff≤300/齐次≤366、R≤142及barR|(s−1)(s−2)^3P+²P−²E6Q60²。九真差源v_j各exact p阶5，明确不是原h0分母结论。M≤142−d/Mh*≤165−d/第三313−d，主费8531−d不变；p指数≥6及h0 char0成员性继续。
 
-## R150：root2剩余三维分解为有理长度、高系数扭性和饱和缺陷（2026-11-15）
+## 2026-11-16：当前完整原来源结论与证明索引
 
-[完整证明§8](results/R150-appendix-root2-coefficient31-spectrum-through-five-and-affine-degree300.md)由饱和商G的D31平坦性及free rank13满射，得到0→C/pC→Qtor315→J→0，J=Tor(G/pG)。root2场长32、已知有理长度至少16、前五系数p方向13，故u=f2−16、v=Σa≥6 m_a(2)、w=dimJ2满足u+v+w=3。完整B第四页若实算为3则迫f2=16、J2=0、m6=3且更高为零；此处没有断言该页值。原九目标及普通ISP未闭。
+本节合并末段重复更新；[合并前全部结果正文](notes/2026-11-16-results-before-original-cubic-critical-789f.md)保每个旧结论、完整链接和原适用范围。未复述的结果没有撤销，未列缺口没有关闭。普通复 Hilbert ISP 仍未完成。
 
-## R271：真实 joined 商的创建来源同余与完整来源 Gram（2026-11-15）
+### R150：原17式、完整参数模与尚待消去的乘子
 
-[完整证明](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)识别闭和Mq=K+Hhi,q=kerQq(C+D)，其残量由同一低forcing杀掉，从而全部j有P_Mq(D*)^ji0=(−1)^jZ_Mq(C*)^j；真K与同一物理gap也成立。平方自由真创建列σj²=(j!)²ej(b²)正交，故G≤[Σ(C*)^jC^j/σj²]^-1，并保joined/K共同2×2残余。deg p≤q时原两端Riesz源同合同，完整投影仍含共同PKqF左零源。保gap核反馈、真实全E帽返回最小化及全部自然域；没有把该上界反作ordinary右费逆界，N=M仍开。
+- **原精确对象与全外除子。** [外除子原证](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)以全部56原行、21单位与两单右端证明Ω=f60²，degree120。原K158Ω共同因子degree278。当前结合下述127真实系数正证，278≤degΔaff≤298、齐次≤364，μ=Rout/Ω≤20；九μh*tj有原degree≤3来源、μh*≤43，三费用8406/8411/191，max8411。旧D31既有全精度解统一费8535，固定e任意高n才升exact。
+- **完整相对正常商。** [6012原来源presentation](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)保5100+864+48原零投影源、56core尾和rank34核。[不倒Ω投影器](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)由z_j=1/Mz=f²q、image基E、Mᵀ=EV与真Bezout给VR=I/P=I−RV，严格T=coker[B6012,H_MP]。原R/P及全部W尾尚未数值构造。
+- **31系数页与root2。** [完整197第二像](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)全原505/315/J/DAG给I2=U7、χ=(s−1)²(s−2)^5、t2=5。[原J31](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)恰s−2，所以C31/31长314；至少15系数方向/长44。root2前五谱(1,4,2,4,2)、u=f2−16与v=Σa≥6m_a(2)满足u+v=2，真p7/第四像仍未付；I3保197纠偏、7图关系、b8/pb9。
+- **全部原F127模型。** [完整NF](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)恢复660来源（658零、6046/6063非零）并入2855补集。[完整torsion299](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)由全6188来源、GB1021/free13/B8、805状态/506观测及全部CK/AK=KJ产生，原field维数299不变。
+- **原∞127、Ω约化与J127。** [完整同谱66/Gauss](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)付3959098单位、H3760/C580和真正第11页，保证原127单位首项minor、C有限D127及Δ首一保次数。[Ω127/J0](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)全121/61系数与原2015式/6069系数/双211 minors给barΩ=Ψ60²、J127=0，所以degΔ+Σt127=299。
+- **完整九目标field25。** [25维及最小h*](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)付全7245/7475/2691原乘回和双包含；九cyclic各23、joint25/χ=s²mon(h*)、h*/h0像均零。仅F127成员，未升Q或p²；25图不能当有理图。
+- **真正的127系数正证。** [原globalZ/完整p²乘回/298](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)核1834 Z，首node26969742/原3463反传6188支持4324，并新核4367原产品读40。I1占满simple s+64，barΔ|χ299/(s+64)、barμ|F+²F−²E8。925非零端点不是925维；raw12445/2a7dd4da、bindingc62fcba9。root全300/22系数独立乘回，χ'(63)=79。
+- **critical完整受限切片。** [135坐标](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)与[270坐标tangent2](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)三域实际高维均2且相等，leading13/gain0；全6188各阶乘回真，原局部仍6…8/6…8/4…5。只这些支撑配指定低jet无增，不排更高normal或完整连接。
+- **新增真normal3入口。** [300坐标完整高切片](results/R150-appendix-complete-pure-cubic-normal-critical-high-slice.md)逐原normal2源迫U=λv³，one-normal源给[L,Cv,Dv,qvv]，只需17×12核。旧25单位/11链复用，末26×≤26、全部6188每阶核；三域各300秒已入队，尚未预填增量。
+- **rank-one Bell边界。** [同原17来源的Bell16](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)已给μb_r^16、degree_m≤26。μ1才闭这条归一rank-one路线；全gradR3、非rank-one和ess(T3)≥4仍开，不把μ/h*当实际算子逆。
 
-## R150：饱和商的31缺陷由原13左核的完整小presentation决定（2026-11-15）
+### R271：同一原测试、完整度量及未付全返回
 
-[独立证明](results/R150-appendix-coefficient-prime-quotient-defect-from-original-thirteen-free-kernels.md)用原π满射与全部fullgeneric13左核给G=V/N≅imQᵀ。输入通过逐系数31单位分母门后，H=cokerQᵀ有限D31且J=Tor(G/pG)≅H[p]，χJ=ΔH,F31/barΔH,Q。十个完整独立Dlin²轴D-free，剩原3×30的maxminor gcd恰等211个显式表达式的gcd；两域独立计算q，完整保E8在s1/s2的约化碰撞。小消费者只读paid157898B相位与父回执，逐2015原坐标核验；本条是有明确整性输入条件的完整理论/执行接口，不预报J维数或目标成员。
-
-## R150：九平方来源合成秩一截面的 Bell 十六次自然幂（2026-11-15）
-
-[原生成元完整公式](results/R150-appendix-rank-one-square-sources-matched-bell-sixteenth-powers-and-global-jacobian-boundary.md)在固定y=v(s)的原17截面写b_r=Σb_jz_j。九个μh*z_j²原来源经十次鸽巢得μh*b_r^10；s/F±/E8四完整纤维的全部W来源经CRT给b_r²=ΣDνFν+qE，q=sF+F−E8且q³/h*多项式。差立方合成μb_r^16=Σ[RqE³Aν+μb_r^10KrDν]Fν，degree_m≤26。当前μ=Rout/Ω已存在；μ1后才闭全部rank-one均值。不能把截面身份直接提升全gradR3或把μ/h*当实际算子逆；非rank-one且ess(T3)≥4仍开。
-
-## R271：保持原实际测试的最小coherent来源与完整残量（2026-11-15）
-
-[完整证明](results/R271-appendix-same-actual-test-minimal-coherent-representative-and-exact-residual.md)构造Rcoh a=Σ(-C)^j a⊗(D*)^jΩ/σj²和Hcoh=Rcoh*Rcoh；fcoh=Rcoh Hcoh^-1g是真空forcing到其像的正交投影。原总孔Q≥R+h−1下，直接用顶部残量及伴随因式分解，证明原VQ/KQ/u投影完全保持，总norm及defect不增。整(C+D)残量平方精确为ΣEj(e_(j−1)/ej)Varμ(W)；连续尾h≤2x时≤54x^-3||g||²。显式Ei fcoh不为零，保全部混合及自然域，不将此小残量变成未经证明的返回逆或核距离。
-
-## R150：原饱和商缺陷恰一维，仿射界299；全56原行付60次因子（2026-11-15）
-
-[J1完整实算](results/R150-appendix-original-quotient-defect-one-and-affine-degree299.md)在0.977497686秒核原2015项/6069系数31整、两域各211式及全部最终整除，H3特征长Q230/F31231，完整χJ=s−2。因此C/pC长314；连已付15个系数p方向得Δaff≤299/齐次≤365，barR|(s−1)(s−2)²P+²P−²E6Q60²/deg141，root2准确预算u+v=2。没有取等于预期更大缺陷。
-
-[全56完整rank21证明](results/R150-appendix-original56-residue-rank21-external-factor60-and-source-cost8471.md)依据全部原行modf的21真单位主元/11165坐标和35×1全零，得f60|Ω|f60²，每个支撑只有一个正Smith因子、指数待1或2。M60=Rout/f≤81，九M60h*tj原Q成员且总乘子≤104，来源费8471。monic f31整后保持原D*不缩放，全部精度已有来源统一降费8595；不新增解或31分母。后续f²大matrix MemoryError只影响未完成精度，转两RHS Bockstein继续。
-
-## R150：剩余正常目标商的完整原来源presentation（2026-11-15）
-
-[完整证明](results/R150-appendix-exact-original-source-presentation-of-relative-normal-target-module.md)逐原来源把54单normal g组、3纯g组和63真H单位剥离，留下6012=5100高normal+864单normal差源+48纯差源、56个原core尾及13真零输出。全部输出变换保持W，清unit尾逐点固定W；因此T≅coker[B,H kerGᵀ]且rank34核不可丢。倒Ω后以实际right inverse给56列H(I−JGᵀ)等价presentation。此为完整来源运输定理，未数值构造W尾、未报高块单位或九目标成员。
-
-## R150：全56原行的外投影除子恰120，余乘子21与来源8411/8535（2026-11-15）
-
-[完整原来源证明](results/R150-appendix-exact-original-external-divisor120-multiplier21-and-source-cost8411.md)在71.12834121秒复用21paid主元、核2870方块坐标/两次42原RHS行，完成全部56个Mx=fE与E−My；全部Bockstein为零，故精确Ω=f60²。各不可约支撑恰一个指数2，原投影coker≅S13⊕S/(f²)。结合实际J1/Δaff≤299，得278≤degΔaff≤299、μ=Rout/Ω≤21、九μh*tj全局Q成员/总乘子≤44，三支费用8406/8411/192。monic Ω31整后保原D*不缩放，全部精度既有解统一费max(8535,τ+1)。μ1、原九h*自身成员及全正常商仍开；完整原6012零投影源和34核方向继续。
-
-## R271：原连续尾相干列的随机池原像及完整MP低高度渐近（2026-11-15）
-
-[完整构造与证明](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)在原无限连续权内给Dq_k=ω_k−r_k，逐坐标残量为全部外位Bernoulli不入池概率；q相对标量必要费≤Sx/Sx+k+1，||r||≤exp(−Sx+k/zx)||ω||。准确保R234全层12·512^k右逆而非primitive逆，得任意k=o(x)完整D†相干列渐近最优。精确相消||D†η_j||²=−σj²+αj²||D†ωj−1||²给同fcoh低j正交残量一次MP小量。任意r真幂的同池候选及少于r位准确残量也已付；全height一致修复、实际C+D返回及普通N=M继续。
-
-## R150：实际外商单泛函与不倒Ω的完整原来源投影器（2026-11-15）
-
-[完整证明](results/R150-appendix-explicit-external-functional-and-original-source-projector.md)用实存z_j=1、全56行Mz=f²q建立ℓ=zᵀ modf²，两个Q维120的S模间满射给imMᵀ=kerℓ。明确多项式image基E=(e_i−z_i e_j,f²e_j)及Mᵀ=EV，V末行即已付qᵀ；三原来源det/f²在S上gcd1，原嵌入/adj/Bezout给VR=I、P=I−RV张完整34维关系。同步M=C G与H_M=H_G Cᵀ，得到T=coker[B6012,H_M P]，全程只倒原Σ0、不倒Ω。新R/P与W尾未数值展开，不据此消μ。
-
-## R271：固定原头的完整物理Gram带宽与同actual测试的全部一次MP小量（2026-11-15）
-
-[完整证明](results/R271-appendix-fixed-head-physical-gram-bandwidth-and-same-test-coherent-top-repair.md)用真实非酉Jordan相似并保G=S*S，H_J^0真grade块对角、K=(H0)^-1/2 H(H0)^-1/2谱[1,χm]且带宽d−1。直接Neumann在完整物理逆上控制低forcing到高grade尾，付实际预测top χm²(x+J+1)³ρm^(2ceil((J−d+2)/(d−1)))/(J+1)。固定m取J=d+ceil(6γm^-1 log(x+1))且Q≥R+J，截断相干代表保持同一个原V/K/u；连完整相干列MP预算，所有一次D†修正趋零。精确新残量仍为−C Q_D(C+D)fJ，未称真核；移动m的condition、carry与全部返回继续。
-
-## R150：完整全局第二系数像的197原来源与可续实算接口（2026-11-15）
-
-[完整原来源证明及执行接口](notes/2026-11-15-r150-global197-i2-complete-original-interface-789f.md)由全局colon L:31²精确识别I2(A)=F31[s]·(U7,R2_2,…,R2_198)，不同global q1只差已付第一像U1。197初始真除源费用177，完整原p³乘回后逐系数除p²，保4367输出/505自由/315tors及原s作用；paid F/B仅重放且全SHA相同。七批完整源DAG及最终204种子/J闭包是成功门，未预设秩。若actual维r，则精确t2=r−2、Δaff≤306−r及Ω120后的μ≤28−r；未执行完成前不代数值。
-
-## R271：精确兼容真空塔与同actual测试的有限孔真核比较（2026-11-15）
-
-[完整证明](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)在同一Bernoulli池事件N≥L上平均逆权列，逐层精确Dv_r=v_(r−1)、v0=Ω，整塔σr||v_r||≤A=P(N≥L)^−1(Sx/Sx+L)^L。T_La=Σ(-C)^ra⊗v_r在W_L=kerC^(L+1)上是真核，完整Gram夹H_L与A²H_L；两种逆都仅在同W_L上压缩后取得。结合固定头物理G的完整Neumann尾，严格得原||u_g||²≤[1−A^-2+A^-2 min(1,χm²ρm^(2ν))]||g||²。固定m取L约logx、Q≥R+L给平方O_m(log²x/x)的精确K_Q比较，已超一次MP残量。移动头条件及运输到原全局T的carry/核lift仍须同源支付。
-
-## R271：原缩放相似、Chebyshev完整源能量与明确moving模型窗口（2026-11-15）
-
-[完整证明](results/R271-appendix-scaled-head-similarity-chebyshev-source-energy-and-moving-model-window.md)保原N/Y物理权，取真实小齐次Jordan权ρ/d0，准确S及逆的Cauchy界给logχ≤(35/3)d⁴+5d³+O(d)≤47d⁴/4。完整能量中的Chebyshev候选grade≤L，严格δ²≤min(1,4ϑ^(2floor(L/(d−1))))||f_L||²，ϑ=(√χ−1)/(√χ+1)，无旧χ²前因子。配兼容塔取x=ceil e^(12d⁴)、L=ceil e^(71d⁴/12)、Q≥x−m+L，原全头实际u平方≤36e^(−d⁴/6)+4e^(−x/12)+4exp[−2e^(d⁴/24)/d]；显式k_pol∈K_(m,L)且与同f_L距离趋零。原carry修复保完整两侧高幂R0^(j+ℓ+1)，旧合法母窗e^(26d³)并未扩大；同T核lift和实际w低输出仍待付。
-
-## R150：全局第二系数像恰U7、指数二重数五与精确余乘子约化包络（2026-11-15）
-
-[完整原来源证明](results/R150-appendix-complete-global-second-coefficient-saturation-seven-and-exact-exponent-two.md)把全部197真R2、7原U7种子、505自由/315坐标/参数闭包及DAG实核为I2=U7，χI2=(s−1)²(s−2)^5。结合完整I1得指数恰二的重数5、χ=(s−1)(s−2)^4；Δaff≤299和μ≤21不变。另实际Ω小审计核全部121有理系数31整及f²，根和独立代理对两实际receipt全121/316系数乘回，确认barΩ=Q60²并得barμ|(s−1)(s−2)²P+²P−²E6。新完整global I3 colon明确保197纠偏除源、7个sI−J7图关系、b8和pb9；下一p4产品未算，不拿当前数组补零。完整root2第四页210条recipe已0.510477秒实核，但p7原产品/第四像仍未付。
-
-- [R150：F127全部6188原来源正常形](results/R150-appendix-independent127-complete-original-normal-form-presentation.md)：实际3333常基、2855补集及9目标全核；660恢复源中658零/2非零，完整模块与∞资格继续。
-
-- [R150：完整原F127 torsion299及全参数作用](results/R150-appendix-complete-original-f127-torsion299-and-full-parameter-action.md)：全6188来源、805状态/506完整观测、全CK/AK=KJ、九目标与χ299全系数已核；原∞资格及特征零比较另述。
-
-## R150：原无穷远127完整谱66与独立Gauss有限端上界299（2026-11-16）
-
-[完整证明](results/R150-appendix-complete-original-infinity-prime127-spectrum66-and-affine-gauss-bound299.md)核全3959098分母/原H3760+C580、6…10完整incoming及第11实际高forcing和低增秩，给完整谱1⁴,3,4³,5,6,7,8,10,11、总66/次最大55/max11/free13。与同原有理谱相等使某齐次原minor的u66系数为127单位；Gauss遂给首一Δ∈Z_(127)[s]、约化保次数并除全χ299。独立得到278≤degΔ≤299和Rout的127包络；Ω127与Ψ²、J127尚由另两小审计实核，不能由299断μ1。
-
-## R271：任意放大方差的完整逆Gram极限与同原测试的阻尼相干代表（2026-11-16）
-
-[完整证明](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)允许s_m/S_m无界但s_m≥S_m→0，在共同Fock闭域以固定物理测试伴随收敛和原逆Gram下界证明强极限P_M；任意新增强前缀R_m及完整强头截断1≤J_m<h_m也成立。Q≥R+J时物理f_(s,J)保全部原V/K/u，精确层范数κ_jr^jE_j给指数矩≤q、||f−a||²≤rε且ε→0，故f→P_Mg。全塔残量恰[1−r+W/s]Cf、截断top单列保留，头幂预算使用同ε。未删强头孔尾、未以小残量推真核距离，原D†/source-return/carry仍开。
-
-## R150：外除子127完整约化、自由商缺陷零与299维系数载体（2026-11-16）
-
-[完整证明](results/R150-appendix-exact-external-reduction127-and-zero-quotient-defect.md)由实际121/61系数核确认barΩ=Ψ60²；原Q13的2015式/6069系数和全部211 minors在Q/127独立给small230/full1150，8primary差全0，故J127=0。完整C127/127即field全torsion299，严格degΔ+Σt127=299；新增s+64不能扣作J。余乘子仍barμ|F+²F−²E8(s+64)、deg≤21。root另核全部300χ系数、121平方和231H3系数，B21完整升幂SHA7fe313c97a1d001e2848d1f3df5d475b3d71b9c10860e93855fc3961014ae400。未搬31的tors下界，未识别Q μ或未乘μ的九目标来源。
-
-## R150：原F127九目标完整25维子模与共同最小湮灭子h*（2026-11-16）
-
-[完整证明](results/R150-appendix-original127-nine-target-module-twentyfive-and-minimal-hstar.md)由1.783252747秒实际运行、全7245原target坐标/7475不变作用/2691种子乘回和双包含，得九目标joint25，χ=s²mon(h*)。九个单目标均前23幂独立、23阶首关系恰mon(h*)；原24整数系数重乘后h*与h0实际九列全零，完整h*像模块0。s+64、s−2、s+6和Ω均不入该target模块，整体299分量仍保。仅付F127原6188来源成员存在，未展开九来源，不升Q或127幂；完整25原基/作用仍临时。
-
-## R271：小阻尼截断的完整一次MP残量与同actual缺陷预算（2026-11-16）
-
-[完整证明](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)用真D†ω_j的精确平方相消、真实ν_j及Bernoulli全层修复，在整个完整H_(C,J)(s)^−1来源上付低段与最高top。τ=(log(x+1)/x)^(1/3)、c=1+τ、J=ceil8log(x+1)/τ给||D†(C+D)f||²≤O((1+||C||²)τ²)ε，而同源ε≤Δ_g²。R=0/x=m的实际A_m满足||A_m||≤||T||，故moving m时仍小且保原V/K/u，无χ。只在原合法cut使用，不取消R=d扩块门；一次后准确剩项−C D†(C+D)f、下一非coherent列/完整返回未付。
-
-## R271：相干列的真实二次顺次MP与同源两步修复（2026-11-16）
-
-[完整证明](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)将(D†)²ω_j与(D²)†ω_j之差精确写为D†ΠkerD D(D²)†ω_j，保真正交回馈；仅对已证primitive的源用R239多项式界。二步Bernoulli真逆及全层修复给相对coherent误差²O(J³/x+J⁴/x²)。新τ=(log³(x+1)/x)^(1/5)、J=ceil16log(x+1)/τ付q1与q2平方O((1+||C||⁴)τ²)ε≤同常数Δ_g²，两个最高top均计入。R=0移动实际头仍保原V/K/u及强极限，不取消扩块门。z2=f−q1+q2的残量恰Cq2，第三次和完整返回未外推。
-
-### 原临界因子的弱二次列与正jet运输（2026-11-16）
-
-[完整构造证明](results/R150-appendix-critical-weak-quadratic-columns-and-positive-jet-transfer.md)：原 $[L,Cv,Dv]$ 的真核给最多3个完整高零列；与低51×36及原低jet残量联立，实际leading rank $13+h$ 给完整局部长至少 $2e+h$。源码f211696b/接口23fd13c2已全根审，plus/minus/e8各排300秒；此处只确立原正证书构造，不预报任何新长度或μ=1。
-
-### 原critical135坐标高切片的穷尽性与三域零增量（2026-11-16）
-
-[完整证明与实际回执](results/R150-appendix-complete-135-coordinate-quadratic-high-slice.md)：所有该支撑高零列与 $\ker[L,Cv,Dv]$ 线性同构，ordinary diagonal2及全6137外行均保。plus/minus/e8实际8.9224/9.7126/31.3035秒，各pencil维2、联合51×49秩29、fullleading13，全部6188 jet乘回真；额外长度均0。只此支撑/固定低jet已穷尽，完整局部仍6…8/6…8/4…5，μ≤21未改。
-
-### 原完整二normal、tangent≤2切片及原低jet复用（2026-11-16）
-
-[证明与原入口](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)：原q迫Tdd=0，34×20顶层核及153×≤49对称兼容系统穷尽该270支撑（45坐标真零）；完整高列至多5。102×59低块保旧36及两exact新头，实际旧25 LU及11链不重解；末102×(72+q)真Schur给leading r时局部长≥2e+r−11。源码ae0b291d/三父完整SHA已根核，各300秒入队，未报新长度。
-
-### 原全参数来源在s=63的第一系数127 Bockstein入口（2026-11-16）
-
-[完整算法及接受门](notes/2026-11-16-r150-original127-root63-source-bockstein-interface-789f.md)固定原whole299的唯一s+64对偶，原4433系数及6188全部来源mod127²，重放1834真global Z/69407428 reductions；任何正值须reverse全6188再核4367原产品。只有完整正证结合∞127/J127=0才得Δaff≤298；零只限第一页。源码6a932e17/3ee3b83d全根审，排180秒/1GiB，未预填结果。
-
-### 原tangent≤2三域实算：两高切片完全相等且无长度增量（2026-11-16）
-
-[完整原回执与证明](results/R150-appendix-complete-quadratic-tangent-two-positive-jet-slice.md)：plus/minus/e8实际19.2569/23.8411/132.4905秒，34×20 rank18、153×47 rank45，完整新high维2且实际含旧2，故两高空间相等。低102×59 rank46、完整102×74 rank50、leading11/full13；所有原6188乘回和父Taylor身份真。仅此扩大空间无增，不排normal≥3/full连接，局部仍6…8/6…8/4…5。
-
-## R150：原globalZ的第一系数127正证、剔除s+64与仿射界298（2026-11-16）
-
-[完整原证明/实际回执](results/R150-appendix-original127-first-coefficient-torsion-at63-and-affine-degree298.md)：全部1834 Z中925标量非零，首node26969742/原3463反传6188（支持4324）后新核4367原mod16129产品，ℓ读40。参数稳定I1占满唯一simple s+64，严格barΔ|χ299/(s+64)及Δaff≤298/齐次≤364。保K158Ω278，μ≤20、μh*≤43、三费8406/8411/191/max8411；D31既有解费8535不改。总elapsed7.2124含compile2.8288；root独立全300/22系数乘回、χ'(63)=79。原field299仍全保，925不作维数，μ1/Q成员未证。
+- **真实joined来源Gram。** [创建来源同余](results/R271-appendix-joined-quotient-coherent-forcing-congruence-and-complete-source-gram.md)的原链接和全部常数保合并前正文；现已付全低forcing creation平方≤4/3、双缺陷≤8/3、Z*D*DZ=Z*𝒱Z、受限源逆≤3(L+r+1)³/p。必须保同u、真正PE/帽PE反馈及全部交旗，不能用压缩逆替Green。
+- **连续尾与兼容真塔。** [完整Bernoulli原像](results/R271-appendix-continuous-tail-coherent-columns-bernoulli-lifts-and-exact-residuals.md)付低高度完整MP渐近及真幂多步事件；[同事件兼容塔](results/R271-appendix-compatible-bernoulli-vacuum-towers-and-same-test-exact-kernel-approximation.md)付Dv_r=v_(r−1)与真W_L压缩Gram。原固定头物理带宽、缩放/Chebyshev与moving模型的完整证据保合并前正文；logχ≤47d⁴/4，原carry含R0^(j+ℓ+1)和跨块2z−1，旧logQ≤26d³窗未扩大。
+- **任意放大方差。** [完整逆Gram与同源阻尼](results/R271-appendix-enlarged-variance-inverse-grams-and-same-source-damped-coherent-moments.md)给s_m≥S_m→0、任意强前缀和1≤J<h下的强极限P_M。原f及V/K/u相同，ε=q−||a||²、远孔指数矩和全部截断top保留；小残量不自动是原真核距离。
+- **一次与二次真MP。** [一次平方相消](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)在τ=(log(x+1)/x)^(1/3)给完整一次平方O((1+||C||²)τ²)Δ²。[二次primitive回馈](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保(D†)²与(D²)†的准确差及两top，在τ=(log³(x+1)/x)^(1/5)付q1/q2平方O((1+||C||⁴)τ²)Δ²。z2仍残Cq2，完整深旗、帽返回、所有partial及母carry未闭。
+- **普通结论仍缺。** M=kerT、N=closureBM的N=M未证；须原same-w合并负部≤c_m Q||F_mu||²并Σ1/c_m发散，当前没有这个完整界。所有其它原open接口继续。
