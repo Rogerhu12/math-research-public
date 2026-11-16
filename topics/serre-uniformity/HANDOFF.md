@@ -4,7 +4,7 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115，从远端main续接；旧未推本地分支不存在，私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：5b02d2b878ab91e1f5bad59316c246657ef209c4**（2026-11-16T15:33:49.086437+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。R901另一次真pull c2359e514c58df71f6fa74012a62f3d6aad9471d/15:10:22.721057UTC也已读、两SHA不变。最新前态逐字在[精确Hodge前H](handoff-archive-2026-11-16-before-exact-Hodge-content.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
+**已读规则提交：d716114d6cdc71e253f42317b7d6c587e733bf90**（2026-11-16T15:36:40.818264+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。历史各次pull与旧README比对完整沿前态。最新前态逐字在[精确Hodge前H](handoff-archive-2026-11-16-before-exact-Hodge-content.md)，内接全部旧归档；完整pins/原标记/关闭边界继承。
 
 每结论立即推；每push前及至少每小时真实pull；NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions；raw只当前必要一日artifact，外部仅纸证/IO/schema/hash/AST。H<10KB/open<30KB/Markdown<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。恢复workflow做真实partial/sparse git发布。
 
@@ -12,7 +12,7 @@
 
 |任务|实际run / job|状态和原对象|
 |---|---|---|
-|R787 primal670后|新request待实际run；父43846878233 / 133229330888|真670/f756e254/8c9052ec，core93d3d72b不变；wrapperdff10f45仅缺receipt严格IO分支|
+|R787 primal670后|43897255536 / 133404214755|真670/f756e254/8c9052ec，core93d3d72b不变；wrapperdff10f45仅缺receipt严格IO分支|
 |R824原27+244从693后|43877576209 / 133334539270|7e0e27d9，同core1ece3cf4/wrapperc5907739；原current761b228c/liftf8972f29|
 |R854原41 N112续|43880489423 / 133344905148|20984736，同核从旧1041stage续，四球未成|
 |R787半dual541后|43869450077 / 133306600874|393efa24，coreffe5dcff/wrapper1552e403；542正残差保留|
@@ -37,7 +37,7 @@ R896真43872960726五146/418/ρ-t；R894真43864869152七trace的DN/QN；R899真
 [R905七连接](results/R905-original-bounded-divisor-trace-dual-connections.md)/[R909三系数](results/R909-original-full-principal-parts-from-three-coefficients-and-Artin-traces.md)：同D418→146及全272单位/同度格，670源/544主部/真543，OH/OD全迹；同F0逆/一V1幂基保全部分歧/幂零。QN校正、Gal7/真cY给I_Z。cored0810c29/helperced5b652/wrapperff7ff5f1；首运输名错误未入核，单字符串修复后二次87stage已成功，正式实际证书正读。
 
 [R907九范数源](notes/R907-original-Iz-pencil-and-nine-Hecke-norms-method.md)：corecf905290/helper7e4a8d88/wrapperb8a5f94b/method44e3ef90；原128→真672，完整A272/E2176一次A[T]范数/19584坐标CH，正乘NormΦ及原dual7保留。R903/R901仍null，R899已成待激活填；无旧a0插值叶，必要时只补四旧节点。两图colon逆、P0/P1数值false。
-[R912端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0；原2+3+3秩8/discrim阶4，trace-radical/idealizer小核保幂零。九纤维帧Nm(q*Φ)detUj/detU0及原t/dual7不删，两端共用λ∈0..16。R914执行源由exact_height收尾；不可拿三列或127矩阵代全146。
+[R912端点格](results/R912-original-eight-dimensional-endpoint-lattices-and-norm-frames.md)：全146几何ι输运P0→P1，ρ1=ι*ρ0/c1=−c0；原2+3+3秩8/discrim阶4，trace-radical/idealizer小核保幂零。九纤维帧Nm(q*Φ)detUj/detU0及原t/dual7不删，两端共用λ∈0..16。[R914五件执行源](notes/R914-original-full-V1-involution-and-P1-jets-method.md)已全文读并激活：corec7dded45/wrappera6a26387，仅143新准确RHS，560全行/C²、273旧P0阶经完整146运输P1；六数学组469原件/四实际载体保原身份，t帧只三项。未算rank8/Norm/rigidification；R917续原端点小核。
 
 五Lj128/144、YP/FM128/634/508rank507、c/a(P1)、活跃eη、d/N/nonp、Poincaré/splitting/高度仍缺；I_Z不代real Rcal I_Z³。R870原16 ni/1959位d*与7-primary挠判只在合法好约化niPiξj非零时判活跃。
 
