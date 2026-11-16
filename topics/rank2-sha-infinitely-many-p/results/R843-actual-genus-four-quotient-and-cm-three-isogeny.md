@@ -321,3 +321,202 @@ R831 的 $6^{-2}$、$X_1$ 遗忘 $1632/816$ 和 $12^{-2}$ 仍原样保持。
   此项仅核对 (23) 的参数规范；(5)–(22) 与实际同源次数均已在本文自含证明。
 
 本篇没有执行数值计算、目标素数扫描或生成可重算数据。
+
+
+## 附录 A. 同一 genus-four 曲线的实际纤维积与全部同源次数
+
+本附录补出 (2) 中一直存在的固定 $j=0$ 部分。
+只要 $b(a^2-4b)\ne0$ 即成立；无需先假定原来源的 (4)。
+
+### A.1. 两个非奇异 $j=0$ 商及真实逆式
+
+在固定有限扩域中取 $\beta^2=b$，$\beta\ne0$，令
+$$
+\delta(x,y)=(\beta/x,\beta y/x^2).
+\tag{A1}
+$$
+将右侧代入 (2)，利用
+$$
+(\beta/x)\big((\beta/x)^4+a(\beta/x)^2+b\big)
+=\frac{\beta^3}{x^6}\,x(x^4+a x^2+b),
+$$
+可见 $\delta$ 是曲线自同构。
+它满足 $\delta^2=1$，并与原 $s,v$ 交换。
+本附录的 $\delta$ **不是**正文 (8) 在 $H_\mu$ 上的 $t$。
+
+令
+$$
+z=y/x,\qquad U_+=x+\beta/x,\qquad U_-=x-\beta/x.
+$$
+同一曲线函数严格满足
+$$
+\boxed{
+\mathcal E_+:\ U_+^2=z^3-a+2\beta,\qquad
+\mathcal E_-:\ U_-^2=z^3-a-2\beta.
+}
+\tag{A2}
+$$
+由 $a^2-4b\ne0$，两条三次方程的常数均非零，
+所以是非奇异的 $j=0$ 椭圆曲线。
+以各自无穷远为原点。这里用 $\mathcal E_\pm$，
+与正文的三同源端点 $E_\pm$ 严格区分。
+
+这些坐标不是只构造了一个映射：
+$$
+\boxed{
+x=(U_++U_-)/2,\qquad y=xz,\qquad
+\beta/x=(U_+-U_-)/2.
+}
+\tag{A3}
+$$
+最后一式由 $U_+^2-U_-^2=4\beta$ 得到。
+因此 $D$ 准确是下面实际纤维积的光滑正规化：
+$$
+\boxed{
+D=\operatorname{Norm}
+\bigl(\mathcal E_+\times_{\mathbf P^1_z}\mathcal E_-\bigr).
+}
+\tag{A4}
+$$
+(A3) 支付了整个函数域，未丢失一个隐藏的有限覆盖次数。
+
+各自的泛型次数恰为2。事实上 $(z,U_+)$ 的非平凡 deck 变换为
+$\delta$，而 $(z,U_-)$ 的非平凡 deck 变换为 $s\delta$；
+$x$ 满足相应二次方程并可恢复 $y$。记这两个真实商为
+$$
+p_+:D\to\mathcal E_+=D/\langle\delta\rangle,\qquad
+p_-:D\to\mathcal E_-=D/\langle s\delta\rangle.
+\tag{A5}
+$$
+$r_D:=v$ 在两条椭圆商上均作用为
+$(z,U_\pm)\mapsto(\omega z,U_\pm)$，在原点保持阶3，
+微分 $dz/(2U_\pm)$ 上的特征均为 $\omega$。
+
+### A.2. 原 genus-two 商与 Klein 四群
+
+$s$、$\delta$ 在这套真实坐标上的作用为
+$$
+s:(z,U_+,U_-)\mapsto(z,-U_+,-U_-),
+$$
+$$
+\delta:(z,U_+,U_-)\mapsto(z,U_+,-U_-).
+\tag{A6}
+$$
+两者生成真正的 Klein 四群 $V_4$。
+全部不变量域为固定的 $k(z)$，故
+$$
+D/V_4=\mathbf P^1_z.
+\tag{A7}
+$$
+乘积
+$$
+w=U_+U_-=x^2-b/x^2
+$$
+恢复正文的同一个 $H=D/\langle s\rangle$，以及
+$$
+w^2=(z^3-a+2\beta)(z^3-a-2\beta)
+=z^6-2az^3+a^2-4b.
+\tag{A8}
+$$
+$\delta$ 下降到 $H$ 正是超椭圆 involution $(z,w)\mapsto(z,-w)$。
+这也逐式说明三个非平凡 $V_4$ 特征的维数分别为 $2,1,1$，
+没有平凡特征：
+$H$ 对应 $s=+1,\delta=-1$，
+$\mathcal E_+$ 对应 $s=-1,\delta=+1$，
+$\mathcal E_-$ 对应 $s=-1,\delta=-1$。
+
+### A.3. 实际次数16同源与极化
+
+写 $p_s:D\to H$ 为原二重商，定义真实 norm 同态
+$$
+\Phi=(p_{s,*},p_{+,*},p_{-,*}):
+J(D)\longrightarrow J(H)\times\mathcal E_+\times\mathcal E_-.
+\tag{A9}
+$$
+以右侧的乘积极化和左侧的 canonical 主极化识别对偶，
+其极化对偶为
+$$
+\Phi^\vee=p_s^*+p_+^*+p_-^*.
+$$
+曲线商恒等式给
+$$
+\Phi^\vee\Phi
+=(1+s)+(1+\delta)+(1+s\delta).
+\tag{A10}
+$$
+另一方面，(A7) 的 norm/pullback 经过 $J(\mathbf P^1)=0$，
+所以在实际 $\operatorname{End}J(D)$ 中
+$$
+1+s+\delta+s\delta=0.
+$$
+将其代入 (A10)，得到
+$$
+\boxed{\Phi^\vee\Phi=[2].}
+\tag{A11}
+$$
+因此 $\Phi$ 是同源。左右维数均为4，极化对偶与原同源次数相等，
+$\deg[2]=2^8$，故
+$$
+\boxed{\deg\Phi=16.}
+\tag{A12}
+$$
+也可直接由不同 $V_4$ 特征使所有交叉 norm/pullback 为零，
+得到 $\Phi\Phi^\vee=[2]$。
+其核包含于 $J(D)[2]$；没有把 (A12) 误写成 degree8 或任意未定幂。
+
+正文两个椭圆商还给真实同态
+$$
+Q=(q_{+,*},q_{-,*}):J(H)\longrightarrow E_+\times E_-.
+$$
+(12) 使 $Q^\vee Q=(1+t)+(1-t)=[2]$，
+所以
+$$
+\boxed{\deg Q=4.}
+\tag{A13}
+$$
+(A9) 后接 $Q\times1\times1$ 的总次数准确为 $64$。
+正文 (15) 另给 $E_+\to E_-$ 的 degree3 同源；
+这三个数是不同实际映射的次数，不能混为同一个系数。
+
+### A.4. 对原最低亏格条件的精确加强
+
+(A2) 的两个固定 $j=0$ 椭圆因子在一个固定有限扩域上
+均与 $E_0$ 同构。由 (A9)、(A13) 和正文的三同源，
+对任意当前参数均有
+$$
+\boxed{J(D)\sim E_0^2\times E_+^2.}
+\tag{A14}
+$$
+故在几何同源意义下，
+$$
+\boxed{
+J(D)\sim E_0^4
+\ \Longleftrightarrow\
+E_+\sim E_0
+\ \Longleftrightarrow\
+\operatorname{End}^0(E_+)=K.
+}
+\tag{A15}
+$$
+最后一条使用特征零 CM 椭圆曲线的格描述：
+同一虚二次域中的秩二格在乘一个非零复常数后彼此可公度，
+所以有相同 CM 域的椭圆曲线几何同源；整数 order 可以不同。
+
+(A15) 将 R841 属四来源的几何同源条件准确集中到
+正文 (22)–(25) 的一个 $X_0(3)$ 模点。
+它仍未计算原 Hom 表达中的实际模点或其整数 order，
+也没有给指定 Artin 角色的 cycle 比较。
+一般参数的两个 $j=0$ 因子本身不能支付这些缺口。
+
+为防止从新对称性得到错误消失结论，可核同一个最高全纯空间：
+$H^0(D,\Omega^1)_\omega$ 的维数为3，
+$s$ 在其上特征为 $(-1,+1,-1)$；
+$\delta$ 的特征为 $(+1,-1,-1)$。
+两者的 determinant 都为 $+1$。
+所以这里的 $V_4$ 不给原最高因子额外的负号，
+没有由此证明原类为零或非零。
+
+本附录只分解同一个实际曲线项的 Jacobian。
+原 (1) 的全部有限系数、$\deg(X\to D)$ 与 $X_0/X_1$ 尺度不变；
+(16)、(A12)、(A13) 没有被无依据地乘入原端点类。
+所有等式均为显示的函数域或 Jacobian 同态推导，无新增数值运行。

@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：6b2131058ac4ab55b9f8cd9a1b3e09280211069c；2026-11-16 00:52:18 UTC核两README无变。实际CI pull 2026-11-16 00:28:24 UTC/c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 00:48:56 UTC仍无环境。最迟2026-11-16 01:10 UTC再实际pull。
+- 最近已读规则提交：f22fc37ac566234d5fd02558dc09a34b0f0d0f1f；2026-11-16 00:56:53 UTC核两README无变。实际CI pull 2026-11-16 00:28:24 UTC/c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 00:56:52 UTC仍无环境。最迟2026-11-16 01:10 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
@@ -11,9 +11,9 @@
 
 ## 全文检查点与当前分工
 
-[本次压缩前全文](notes/2026-11-16-frontier-before-r843.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保全部旧公式、十九角/ray、运行来源与未付门；压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
+[本次压缩前全文](notes/2026-11-16-frontier-before-r843-prym.md)、[完整open](notes/2026-11-16-open-before-r839.md)沿链保全部旧公式、十九角/ray、运行来源与未付门；压缩不撤条件。入口results.md、notes/PROOF-INDEX-R801-R850.md、open.md。
 R1–363、365–560、562–653、655–711、713–843已登记；R364/R561/R654/R712和主目标开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]；theta付同λ0/λ1的13带/十九角/导子；literature付原几何CM order/17角色；root续实际固定E0² Prym/CM三同源与canonical比较；下一独立编号R844由root协调。
-实际CI pull 2026-11-16 00:28:24/run43780555047/job133016530341成功，head c45f6fc8418e7beec9d2e7a3a97e1aecd42279fb；两README差异空、blob不变。回执ci/rule-pull-20261116T002824.json，下一01:10前。R818/820/830成功run/source/args/hash见各证，不复跑；R830初版18/288误用已修。竞争拒推均立即本地pull重试失败，再新head非强推成功。
+实际CI pull 2026-11-16 00:28:24/run43780555047/job133016530341成功，两README差异空；回执ci/rule-pull-20261116T002824.json，下一01:10前。R818/820/830成功来源见各证，不复跑；竞争拒推即本地pull失败后新head非强推重试。
 
 ## 原唯一端点与真实几何
 
@@ -25,7 +25,8 @@ R832付Mλ⊕L(Mγ⊕h1E17³⊕h1E17⁵)真Chow分解与mixed K点rank0。R841�
 R841 A保整个Γ的Hom三项平均，逐项ΦR=[ω]³Φ；生成E0³的像g≥4。若g4，商P1、六branch同型、signature(3,1)、J(D)∼E0⁴；全部推前/展开及X0/X1尺度保。
 R841 B已付真Poincaré双线性、最高swap负号及W4基点平移，原类准确polarize为ΣcΠ(F,a q0,a q2)_*[X]。a经whole rational g-packet；S:z↦z+1/2给L=[[-1,0,0],[0,-1,-1],[0,0,1]]，保微分4倍且det1。g4时S/R共固定cusp迫六branch有两固定点，D:y³=x(x⁴+Ax²+B)，s=(-x,-y)；准确二重商H:w²=z⁶−2Az³+A²−4B，JH∼E0²。尚未算实际A/B、CM order、17角色或原类非零。
 
-[R843](results/R843-actual-genus-four-quotient-and-cm-three-isogeny.md)：同g4的H规范成Y²=X⁶+μX³+1，两个真degree2商E±:v²=(u±2)(u³−3u+μ)。r³=1、trt=r^-1与H/r genus0给1+r+r²=0；α=q−,*r q+*、β=α∨实际满足βα=3，故degree3。T=−27(μ+2)/(μ−2)，j+=(T+27)(T+3)³/T、j−=(T+27)(T+243)³/T³，Fricke729/T。原JH∼E0²迫这是真K-CM点；未付其整数order、17角色/实际参数或canonical cycle对应。原有限组合和推前次数全保。
+[R843](results/R843-actual-genus-four-quotient-and-cm-three-isogeny.md)：同H规范Y²=X⁶+μX³+1，真degree2商E±:v²=(u±2)(u³−3u+μ)。H/r genus0给1+r+r²=0；α=q−,*r q+*与β=α∨满足βα=3，真degree3。T=−27(μ+2)/(μ−2)的完整X0(3)两j/Fricke729/T见原证。JH∼E0²迫真实K-CM点；原参数/order/17角色/canonical未付，全原系数/次数保。
+R843 A再付β²=b、z=y/x、U±=x±β/x，使D准确为j0椭圆𝓔±:U²=z³−a±2β的fiber product。V4总商P1，真norm Φ:JD→JH×𝓔+×𝓔−满足Φ∨Φ=2，degree16；JH→E+×E− degree4，总64。故所有参数JD∼E0²×E+²，原JD∼E0⁴当且仅当E+为K-CM。该V4在三ω空间det皆+，不迫最高类零；实际order/17角色仍开。
 
 ## 原完整 critical Hecke 分支
 
@@ -48,8 +49,8 @@ R838 B–C付真实R=E[[τ]]、x=uτ^e、完整a1双对偶，Cν=bν/w′、lim 
 
 始终原M=c*U0 w13J、P134/charge40、13free/26carry、conductor10980、十九角和全部WD余列。T_M=s−r−13、T_J=s−r；same-R高位/完整normal/两13及d₂不拆。
 R834在h<T≤2h,T>2κ的同WD H3子格上I=FH2+eH2三长单射；全H3有限RR与临界199κ/48（199/216）保原证，不改全Bost预算。R836保受限D3/同H2、qsrc/w^(13+r)低行；旧q t^rFB全族已排。
-[R840](results/R840-original-double-ramification-euler-image-and-unique-normal-tail.md)：E²H3→2Z全像ker res Z_-、余核z_-≤2，来源核FH2+e²H1。兼容(V0,V1)定2Z值；H*=min(T,h+ell_eff)>κ时同此值及前缀f2−ηf3的V2唯一。全提升G2+cF³，同c付第三尾6e³η，第四前min(ell_eff,T−h)已并入V2、余尾同G*。完整Serre左行及qsrc导数保原证；实际forcing/全WD/高位未闭。
-R837实权给全有限参数三长7q(H−r)≤3B_D²+56D、两长4q(H−r)≤3B_D²+32D，无截除/重数门；原十九角/13/39carry和准确48D/q保。自然三长临界47/12余q1/2，旧47/8另有第三长才余q1。
+[R840](results/R840-original-double-ramification-euler-image-and-unique-normal-tail.md)：E²H3→2Z像ker res Z_-、余核z_-≤2、核FH2+e²H1。兼容(V0,V1)定2Z值；H*=min(T,h+ell_eff)>κ使同此值/前缀f2−ηf3的V2唯一。全提升G2+cF³，同c付第三尾6e³η，第四前min(ell_eff,T−h)已入前缀、余尾同G*；全Serre/qsrc导数保。指定forcing/全WD/高位未闭。
+R837全有限三长7q(H−r)≤3B_D²+56D、两长4q(H−r)≤3B_D²+32D，保十九角/13/39carry/准确48D/q。自然47/12余q1/2；旧47/8须另付第三长才余q1。
 R813/822原ResP=γ/6单位、完整γ/6+G_F+B_F=0；GRes读W_sFt²E²R/Y²。十九角/α*两项/同全局ω、x^(3b+c)尾及r≤11十三尾保原证，不删边界。
 R833全D_E像ker res Z_-，z_-≤2，原核的E_+^-1(eL)+V高前缀及真正E_q normal限制保归档；不代受限满射。R842已付下述指定联合判据。
 

@@ -565,3 +565,5 @@
 - 2026-11-16 00:48:48 UTC / Astra-rank2-Sha-continue：固定torsion§19完成即推；三次Cartier固定极帽和显式同迭代输出/改首行测试差均保准确范围，未把差认作四个指定来源。H先全文归档；继续同P2/四Rν/CM13额外关系，theta转原GRes全十九角，root续实际CM3-isogeny。
 
 - 2026-11-16 00:52:07 UTC / Astra-rank2-Sha-continue：R843实际椭圆商/三同源完成即推；norm/pullback及Rosati对偶付degree3，完整常数付X0(3)参数而非只匹配j。原g4情形必给K-CM点，CM order/原17角色和canonical类仍需实际比较；H先全文归档，继续固定Prym与指定GRes/全部边界。
+
+- 2026-11-16 00:56:32 UTC / Astra-rank2-Sha-continue：R843真实fiber product/degree16 Prym分解完成即推；V4 norm给次数、两条j0方程及逆式保持同一D，实际三同源将几何CM条件化成准确等价。H先全文归档；继续原CM整数order/Artin轨道和canonical类，未将几何同源代指定cycle或主目标。

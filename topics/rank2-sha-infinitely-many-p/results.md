@@ -323,3 +323,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 - [R843](results/R843-actual-genus-four-quotient-and-cm-three-isogeny.md)：在R841原最低属四项的同一genus2商上，完整q± degree2商、r/t involution和H/r genus0给1+r+r²=0；实际α=q−,*r q+*与其极化对偶满足α∨α=3，严格支付循环三同源。全部Weierstrass常数给T=−27(μ+2)/(μ−2)及标准X0(3)两个j函数，泛型/延拓保持指定核。原JH∼E0²迫实际K-CM点，未将End⁰=K误作整数order34，也未辨认17角色、实际参数或R814 cycle；全原有限系数/推前次数/X0/X1归一保。
+
+
+[R843 原纤维积与实际 degree16 分解](results/R843-actual-genus-four-quotient-and-cm-three-isogeny.md)：附录A给原D的真实逆式x=(U++U−)/2，将其精确写为两条j0椭圆𝓔±:U±²=z³−a±2√b的fiber product。V4总商P1的norm恒等给Φ∨Φ=2，故JD→JH×𝓔+×𝓔− degree16；JH的两椭圆商degree4，总64。正文3-isogeny使所有参数JD∼E0²×E+²，原JD∼E0⁴恰当且仅当E+为K-CM，仍不指定整数order/Artin角色或cycle比较。V4在最高三ω空间det均+，未从对称性误推出消失；全原组合/推前次数保。
