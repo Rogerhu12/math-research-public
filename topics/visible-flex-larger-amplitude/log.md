@@ -474,3 +474,8 @@
 ## 2026-11-16 07:29:00 UTC /root — R497完整闭片缓存与原工作计数
 
 [R497](results/R497-completed-inverse-box-cache-and-preserved-original-work.md)/[接口](notes/2026-11-16-completed-inverse-box-cache-interface.md)五件helper10239/cf517、gen6299/0d785、plan3050/ddefa、proof12955/f101、接口8801/75ad已成；固定原head/panel/F/B/精确闭片与精度上下文，只复用完整成功五球/全部分支，显式subclass不改旧全局，原sample完整闭覆盖/每点hull/误差/异常pending继承。hit仍原attempt/range，miss原call一次，1M停止未解；LRU默认4096不冒字节或提速保证，原计算返回与新调用完成分列。五唯一literal产生70299/ae9dde main只Actions物化，真实全SHA来源，新request/driver/必要reader未接；原科学门/钟不减，未执行不补成功。
+
+
+## 2026-11-16 07:31:00 UTC /root — R495同C新叶接完整场与度量
+
+[R495](results/R495-same-C-refined-leaf-complete-metric-consumers.md)/[接口](notes/2026-11-16-same-C-refined-leaf-complete-metric-consumers-interface.md)五件bridge12303/06656、gen9410/39b2、plan55758/1875、proof15191/f4a0、接口21890/9f67已按失联前原SHA恢复；四真实场族先原完整loader，再R489全原件/R492准确交叶，新target/L和七cut系数真供原六jet/五Loewner/第六opnorm-evidence，原CP/definition/节点/B/材料/十词保。完整coast/闭根/两帽/实际t/比较及唯一钟/frontier/90K全继承；tail E(r)/R426和材料t点field仍原有效包围不冒收紧。六完整源只Actions生成，R464 baseline先真实形成；无新run/接受/误差下降，不添BVP门。

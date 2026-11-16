@@ -46,6 +46,8 @@ R485/215三段完整结论/入口/初始官方绑定逐字保在[固定C说明�
 
 [R497](results/R497-completed-inverse-box-cache-and-preserved-original-work.md)/[接口](notes/2026-11-16-completed-inverse-box-cache-interface.md)只复用固定同head/panel/F/B/精度上下文、准确闭区间的原完整成功球；原全candidate/闭端点/branches/每点hull/原错误不减。helper显式subclass与五文字编辑new main，旧全局不替换，LRU0..65536/default4096。每hit仍原attempt/range_count，miss完整原call一次；原1M停止未解除，无同wall-clock或提速承诺。source/helper/plan/生成身份及异常已计算/未返回分列；五件已刊、new main70299/ae9dde只Actions生成，尚无request/reader/driver登记，不阻塞R496或旧运行。实际采样/native/FD/fullDN/闭面与metric全部另付。
 
+[R495](results/R495-same-C-refined-leaf-complete-metric-consumers.md)/[接口](notes/2026-11-16-same-C-refined-leaf-complete-metric-consumers-interface.md)五件完整source/条件证明已刊：真实原loader先通过，再重读R489全部原件/R492准确交叶；四场族original112/resolution112/completeM/incrementalM明确实际模块与同class，保全CP/definition/节点/B/材料/十词。新叶真进入target/L与七cut系数、原完整六jet、五Loewner view和R459/evidence的实际opnorm；六展开源只Actions按55758/1875计划生成，原R464视图须先真实存在。R483局部coast含全部piece/端点，旧全局不猴补。原尾E(r)/R426和材料t点field仍原有效包围，不能冒已收紧；原实际同g/t共轭与比较逻辑、actual202205钟/partial/完整frontier/90K保。没有新request/接受场/R489 run/误差下降，不能把后置consumer变BVP门。
+
 ## 3. 完整C/far、闭场与固定目标精化
 
 本节压缩前全文逐字保在[已刊R483时open](https://github.com/Rogerhu12/math-research-public/blob/3559e04efd5587989da5074b04cd825fe9694a89/topics/visible-flex-larger-amplitude/open.md)，继续保9a9dbfa8及更早检查点。所有原参数、原词、资源/失败/未返/未访和来源仍有效；只去重复，§4–6逐字不变。同η重复pass或来源接通不补真实接受父、固定g下降、README完成。
