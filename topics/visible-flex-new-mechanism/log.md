@@ -517,3 +517,11 @@ R421给ΛVkk,−6(k)=S²ΛVkk,−6(0)，新top natural0；同共同母的偶/M5�
 ## 2026-11-16 01:27:52 UTC：R422负四hh两项结构已写即推
 
 root全文读results/R422-two-term-all-curvature-structure-of-the-minus4-hh-natural-function.md（13659B/SHA728d7fec55d7df0eb70b4d2dae27c8f31bd16e22bedf9b481ddca7caffa2b5e3），手核c_q的同锚IBP式、J_s两低幂及N0/−Ψ乘积系数，修正文中三处display delimiter；无数学内容改动、无研究/人工执行。完整原场及真实有序两尾给S²(A+k²B)，未知恰两natural函数。R210只有已付pure坐标，是否有完整正规mixed根先按原schema核，不能假已保存。若新装配原self，CA/N2必须保到正确pure消去；不得删natural零pair的rawself后沿用原pure。已将这具体风险交新最小两目标接口，原forcing/旧pure/rank不得重编。
+
+## 2026-11-16 01:32:12 UTC：末槽唯一首次公开请求已发
+
+新增transfer18824B/SHA735a1df9f26e07d0da434860a023379fa40189e55499e1926bbe73516cdf6867、resume18653B/SHA1d596adf0f41ea54c1d20dfbc2f3e5a2dcfd245d14e0f430e53f912aa1665d37、recovery25341B/SHA1afa238a0eaa8f984a3223adb48aea89a5761f32ab68d44ffe4bda0a7ca5845c、audit24587B/SHAccb8744e4959408e9e9f5243fcc0b67657b208ee9b71b0145a64bf542ea90188。core/dev原已发布版本不变。workflow4239B/SHA0b60e368a1df959eff548598108d8fa921e6062f8bfb3c792fec2ae971ac8df7；请求38549B/SHA0b571b9cdcd1305c56b79130270883d77a6941e0ba1f994b4f6ef8847fa6e4f1，168绑定=旧152py+新6py+9workflow+祖先note，原98输入参数保留。
+
+root全文读六新源/合同/公开流程、请求各非manifest字段及7新source绑定。静态修正继承virtual monotonic起点可负（finite且不晚于now，仍计原257.595累计/1800），去不必要显式py_compile；另保final wrapper对象先安装再register/bind，原accepted_point同dict确保27→28索引真实。pending0不再commit，原512+4与池7/6、原8矩guard/identity全恢复。新四normal小provenance进唯一COMPLETE/futurecheckpoint，拒绝的新exact159亦保一次原stdout，不恢复未知旧p。没有本地研究、人工或Python执行。
+
+本次只首次执行3组4/3/4共11新分支；原9用同一原science log指纹复用。原所有63LP/58value/257.595331213秒继承；不同支持才授一次第64primary、之后无SOC；原ordinary回溯/14门/strict metric下降照旧。当前还没有actual，不能宣通过或改善。workflow先公开/私有actualpull核仅新diff，再回钉住源码；payload不入Git/artifact/cache。首结果后立即消费，不循环重启同接口。
