@@ -2,46 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R903-certified-five-RR-and-R907-original-j1-norms",
-  "commit_message": "serre: certify five original two-weight spaces and activate original nine norms",
-  "rules_last_read_commit": "5c920c39966b5c7ac854564bf1a3841288d0133a",
+  "request_id": "20261116-R932-original-Frobenius-line-and-full-supersingular-residue",
+  "commit_message": "serre: identify original Igusa Frobenius line and complete supersingular residue pairing",
+  "rules_last_read_commit": "78cfe3dd48d694397afe9a0a0bfb22796bd1ae0d",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "1deb1c78b4ce3a0db9a1850b825062a1beb88959373f0a18d54aab5014933e67",
+  "expected_previous_request_sha256": "83adf67af612d6a8c681721b9ff3020662e20bac606f9cf4605ede5dbfe58596",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R903-certified-original-five-Iz-two-weight-RR-and-marked-frames.md",
-      "sha256": "02f17fa0ec1289aa556d07efe43b2f9628305d02db2be74f2e1727306160ae17",
+      "path": "topics/serre-uniformity/results/R932-original-Igusa-Frobenius-line-and-supersingular-residue-pairing.md",
+      "sha256": "0d211ff28c1b50bd777c6ce4e022933043b3e9d119a43e9c7a60e5303f0ef346",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/notes/R907-nine-Hecke-norms-public-request.json",
-      "sha256": "351a805504f31dbcb2726044d8a9edeb26271322be82a6ab6debf564c11167f4",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md",
+      "sha256": "708e63b16a16b66643d98de5e6278f43e14fa2e00c455349d3aa68ac7416066a",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "174215408008ce443bfc6822222aa53af7a30a475d085d1571feaadb2543cae3",
-      "expected_previous_sha256": "54c1c920e6935196550323454b21c9996cc1bd4f467b91b02e97deaa353ac786"
+      "sha256": "7486cedff86cf42dc187a6ab534e4e21424a3c974a75cdbd1b7893fea9453600",
+      "expected_previous_sha256": "708e63b16a16b66643d98de5e6278f43e14fa2e00c455349d3aa68ac7416066a"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "edccf02e6d4ea7fc710a0eca85a86029350ff5f09a86f3f558c72a9a6f776193",
-      "expected_previous_sha256": "35c742a4160b1c36fe1f6829696130d00b650a2851108a3c2f2e880eb6daaab1"
+      "sha256": "946f58f76fcef38bce7138b0a2d717e5e5fc31d4cba920defbdd6931e58db8c0",
+      "expected_previous_sha256": "edccf02e6d4ea7fc710a0eca85a86029350ff5f09a86f3f558c72a9a6f776193"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "feced2c481c7bebe726497746bb44f1f43c356e7b7a59ceca7cac6e8648c977b",
-      "expected_previous_sha256": "8ecaea0efbba336cc9965eab790004f49ac67eb929e4c06be3286cea7bc13a03"
-    }
-  ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R907-nine-Hecke-norms.yml",
-      "request_path": "topics/serre-uniformity/notes/R907-nine-Hecke-norms-public-request.json",
-      "request_sha256": "351a805504f31dbcb2726044d8a9edeb26271322be82a6ab6debf564c11167f4"
+      "sha256": "3a28ce9ed48995e00cd71e59f8c850c8dd4e8ac3374f65c0002a5ac2e4aaa628",
+      "expected_previous_sha256": "f81c6fde15352ccae4ff3ef3767df4dd9a07a31e3e903f0b6b9d34a546fd8221"
     }
   ]
 }

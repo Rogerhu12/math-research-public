@@ -550,4 +550,9 @@
 ### 2026-11-17 02:03 Asia/Taipei — serre-public-astra-20261115
 - R903真实五空间认证：136stage/五128、400、144补、全272两图与P0原帧全成；同962乘积像和18行核/72真源保全，Φ=QZ/qχ正乘与c^(254−m)不改，未冒char0坐标展开/K固定/P1或real立方。
 - R907按真R903/R901/R899/ARTIN激活j1，全部冻结算术不改；完整672/19584坐标CH9、正NormΦ/dual7，R899现成a0插值直接复用。完成首方向即续余四，端点/height仍false。
-- 本push规则：公开Actions真实pull并逐次比较两README，已读5c920c39966b5c7ac854564bf1a3841288d0133a，无已知规则diff；发布worker写实际读过SHA与UTC，主目标OPEN。
+- 本push规则：公开Actions真实pull至86199c7ab026378152e53c1ff41710562b83852c（2026-11-16T18:03:20.044201+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-17 02:07 Asia/Taipei — serre-public-astra-20261115
+- R932原λ的同一Serre类经注入F_dR识别到实际V4/V10线，保χ+/ζ²→ζ/两Igusa/原T5转置零式；不混不同权非零Hecke值。原G/a^(rp)在全SS只有g_P z^−rp极部，完整残数给指定泛函取值。
+- 精确尺度m_I(c_F)^(1/p)/(d1·6^r(r−1)!)保原标记与真cover degree，j0指定项为0；全和非零、Q′比较和同h Legendre仍未闭合。H前态逐字归档；R907 j1实际排队43924786163，R927完整IO复用真success。
+- 本push规则：公开Actions真实pull并逐次比较两README，已读78cfe3dd48d694397afe9a0a0bfb22796bd1ae0d，无已知规则diff；发布worker写实际读过SHA与UTC，主目标OPEN。
