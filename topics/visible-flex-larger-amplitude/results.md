@@ -54,3 +54,8 @@
 ## R490 — 实际217新十点全域、完整浅逆采样与三个工程阻断
 
 **实际217全必要边界已完整成文。** [R490](results/R490-actual217-complete-shallow-sampling-and-source-binding-stops.md)32593/319d，run43838608475/source4a08，compute133207238555/report133265145172两终志各唯一。R503本次新十dyadic域complete、requested1028 leaves/1637nodes/无未访；完整112far/joint、13850点/16128field、4全数组齐。R498 stored20359322057/623e与decoded95028212980/aba4、1604049行真核，末sampling free86813122560；不再旧空间停。BVP真启动1.029s后current-C native source guard，design453/frozen450未起；closed另独立orchestrator guard。旧220 composition原件93236/5c20而必要record超90K未返marker，refinement71079 body返但依赖不全；R499 rules85398完整，217必要55742完整且8roles全未起，原15后继也全未起。所有quiet范围分责；实际request220_cleanup_skipped，绿色step不冒删除，无接受父。R544继续真实argv/pin/完整composition语义修复，原全部门不减。另[228官方绑定](notes/2026-11-16-request228-official-run-binding.md)确认唯一dispatch/run43858623707、实际99f4为e5af直接子头，只HANDOFF规则一行不同，comp/.github/双README全同，R541 exact唯一。
+
+
+## R531 — 原完整576 cellflow并行与条件字词保持
+
+**已证明完整源码组成及有限原路径的条件字词保持；新源未执行。** [R531](results/R531-complete-current576-parallel-cellflow-source-and-conditional-equivalence.md)/[接口](notes/2026-11-16-complete576-parallel-cellflow-source-interface.md)七件189535B：parent21284/9434、pool29074/ab6d、reader20373/da99、generator10495/b628、plan63026/4996、proof17455/b0a7、interface27828/d898。原224全部181来源保，四public＋八gen成193；实际same HERE完整runner/client/reader已接。主线程按原n/profile/k顺序取完整实际profile，worker每engine保持原n序、全226×224/双mean；主线程原port除法/累加/边界次序保。仅withJ并行，原noJ/endpoint/audit/十trial/R273门保；只声明固定实际源有限成功全路径，不冒任意callback/FIFO中断或资源前沿等价。全stage地址先记、完整partial/首原numeric error条件与每worker/主engine统计分责保；unknown/resource不补数学拒。线程old-generation总预算≤6144MiB另保main6144，不冒RSS；原单18000钟/90K70/quiet保持。实际R538/227将选2×3072并接原224准备后新193，尚未dispatch/预填收益，R539预留唯一amplitude。
