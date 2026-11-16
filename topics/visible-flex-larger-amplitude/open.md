@@ -37,6 +37,8 @@ R529/R532/R534保原128值/tol/replay权威；onceRN64同DN576×226×224完整�
 
 ### 1.3 完整后继与紧接责任
 
+**[R571实际239](results/R571-actual239-source-reader-binding-stop-and-complete-metadata-boundary.md)**：新captured239 reader已在inner而composer仍旧bound230，真实四名set检查停止；8894B初始化必要完整，deadline null/科学false/十一层未起。各后scope不可用，cleanup两实现未调用、raw false，无capture或accepted父。R591/request247真修该来源常量与hardpin，原guard/数学/资源全保。
+
 **[R563实际236](results/R563-actual236-dyadic-owner-and-two-incomplete-necessary-readbacks.md)**：417真实source/prepare完成，source225803与science177614全正文未返，仅1813/1130诚实70；outer/rules/science1、quiet true、removed false。R561实际计数/原owner/误差/异常原因全未知，不借232/时长推因，无父；R589真实全必要关系入口正在接。
 
 **[R588具名完整关系](results/R588-complete-named-source-and-root-statistics-relations.md)**：完整source scope及八catalogue里的五代binding/四RootStats的2/3/3/5 paths、全部full last/unknown/error以同一必要body内完整列记录可逆共享；非有限/marker冲突保原值，原数值/门/90K70不变，不承诺下一fit。薄组件39323B独立刊，R589/246真实CLI/选择/正常恢复与正式run另付。

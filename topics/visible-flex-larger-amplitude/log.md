@@ -105,3 +105,7 @@ R588完整薄源19120B与证明20203B独立刊：原完整source与R573八catalo
 ## 2026-11-16 15:11 UTC /root — R563 actual236双必要未返边界
 
 R563完整18618B独立刊：236实际417来源/prepare完整，科学/rules/outer1，source225803和science177614两完整必要超90K仅1813/1130/70返；原R551同job169036不同SHA和70保，所有内层科学未知、quiet true/removed false，无父。R588仅澄清已有逆序外层列→子关系→旧引用，源不改；R589续接。
+
+## 2026-11-16 15:13 UTC /root — R571 actual239实际reader来源集合差与未起范围
+
+R571完整18985B独立刊：239新captured239 first_reader与composer旧bound230常量四名set不等，初始化真ValueError；8894B必要完整但deadline null/科学false/十一层未起。全部env级联、primary/same-C缺失及两cleanup未调用/raw false保，无父；R591/247直接修严格来源接口，不加门。
