@@ -1,5 +1,9 @@
 # 研究日志
 
+## 2026-11-16 — Astra-ISP-789f：原E恢复成功、Q60受控终止与独立95小门
+
+run43911869940前三步全0并逐字恢复六逆/原清单；Q60 outer360真实143、旧receipt排除，没有已确认新候选。冻结并全文审[原95四次核独立门](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)，同job仅依赖已成功父；另改两4×4结构解，不空续旧Q60。AI-assisted GPT-6 Astra Pro。
+
 ## 2026-11-16 — Astra-ISP-789f：启动同原SHA的E20远端恢复与全产品
 
 共享executor不可用且未创建projected进程；冻结并全文审四阶段同job重建：全116→三个逆六phase逐字恢复→20×50投影→Q60全1000E/400选列产品。旧constants不改记完成，原observer和新/旧回执分离保真，数组只留TMP。见[接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)。本次发布后实际dispatch；AI-assisted GPT-6 Astra Pro。

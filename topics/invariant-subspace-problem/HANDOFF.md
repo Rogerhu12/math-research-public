@@ -3,7 +3,7 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 93e41c94d276b57e7f56c140cce2ecc0f5bb50dd（2026-11-16 16:57:04 UTC，临时研究session run43911869940实际pull --rebase，两README无差异；详见notes/r150-original-exact-low20-execution-789f/）。
+- **最近成功实际 pull 与已读规则提交：** 7893c0c1417323c1a5c2eb9ec9f8c2ecb090c55d（2026-11-16 17:06:16 UTC，Actions run43914753730实际pull --rebase成功，两README无差异）。记录：notes/root-terminal-pulls-789f/43914753730-1.json。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
 - 根README blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 当前本地executor不可用；实际终端Actions仍可用，算术固定Python3.12.14/flint0.9。原临时输出须核完整物理/逻辑SHA后复用，不能假定已结束job存活。
@@ -11,9 +11,10 @@
 
 ## 当前实际执行接续
 
-- **本地executor不可用，原E转同job远端恢复。** [已付三个逆/两次终止](notes/2026-11-16-r150-original-exact-low20-second-termination-and-three-inverse-prefix-789f.md)保364个E/1092Q两向产品和六phase完整身份；旧constants仍未完成。projection启动请求被环境拒绝，未创建数学进程，不算失败/75或已跑。
-- **[四阶段恢复接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)已root全审。** 本次提交后dispatch独立exact-low20工作流：model180/2048完整116→recover120/768停在原225门且C前→projected60/512→final300/1024。全部套原10秒observer，外墙时240/180/120/360，wrapper另留60秒收尾；work35分钟/job40，完整阶段后保同job临时输入最多10分钟供已审后继，源/任务变更仍由root逐条发布。实际启动及完成必须看run回执。
-- 恢复源99b82a8…15715/b451d296…，只调用冻结原函数；必须重算并逐字匹配六phase及3418/c7b010a…原manifest，独立新执行binding/raw，不修改旧137记录。仅投影源d20db6c…21178/a77cf71a…原样消费UI1473718/ec9d6e…（逻辑2975996/31bf451e…）；新全1000E/3000Q及400selected门待实际。全部C/CZ/55展开未冒新计数。wrapper区分旧回执与新执行，完整observer身份保SHA；小final proof双SHA核后只输出job日志，不进Git。
+- **原E远端前三阶段实际成功。** run43911869940重建完整116（13.188秒）、逐字恢复六逆/3418原清单（8.630秒）、原20×50投影（1.166秒）全部exit0；raw身份均已提交。旧本地两次137不改写，constants仍未完成。
+- **Q60实际受控终止，改不同算法。** final300外层360秒于16:57:02发出真实143/child−15，observer明确TERM，RSS103000KiB；旧1976B回执未变被排除，新raw为null。目前没有已确认的新候选，不能由raw缺失断言目录无候选。独立两4×4原E结构算法正在冻结，保全部1000E/400selected门，不空续原Q60。
+- **加入原95四次核独立小门。** [接口](notes/2026-11-16-r150-original-quartic-syzygy95-small-field-gate-interface-789f.md)及全部源已root全文审，仅依赖已成功的field父；原C/D/T/H全矩阵、合法原子式与全部乘回，无预填rank95。60/512、原observer120、wrapper180，独立out。若原95单位真才用原E核恒等提升原空间跨度，不抬field坐标；至多270完整E来源仍待此实际门。当前仅发布任务，执行以实际回执为准。
+- 活跃同job保临时父等待已审后继最多1200秒，仍受原35分钟work/40分钟job硬界；六逆恢复和投影[原接口](notes/2026-11-16-r150-original-low20-three-inverse-prefix-recovery-interface-789f.md)不变。每步原observer、全源compile、原数组双SHA，数据只TMP/job日志。前状态保[本次H快照](notes/2026-11-16-handoff-before-high95-gate-789f.md)。
 - **权十空候选预算已真实结束，不空续。** run43906283833/job133435910806前7阶段exit0；完整200输入、真实engine小控制和2000 SSI全真。std本体555.227秒仅START，整体592.369秒/exit75，candidate=null、parsed0、continuationEligible=false，第9独立验证未运行。raw3469/5aa3bc29…，不是数学负/OOM。后继完整77276×13808直接Macaulay/原左见证尚在接口设计，不调用旧9倍cache大内存方案。
 - [200输入根独审](results/R150-appendix-original-delta-weight-ten-homogeneous-verification-criterion.md)已闭：2000坐标、8037189项、151071880 ASCII字节及独立δb²全真，156.362秒/RSS88624。原v1物理权守卫0列失败与根v1 exit137保独立身份，不移成成功。
 - 原b³/QE完整权9秩16046、396全核及模7原unit排b³/K≤11已闭；b4首轮exit14无candidate/source。旧全局/稀疏600秒null候选及单Bell首一无收益不重复。所有完整原门、临时重建法与未列开放项保[本次H快照](notes/2026-11-16-handoff-before-exact-low20-recovery-job-789f.md)及其链。
