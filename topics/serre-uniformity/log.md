@@ -20,7 +20,7 @@
 - 原R815数学步已结束，正上传实际断点，尚未以job步success猜算子完成；小L候选必要检验包已读，随即独立激活。
 - 本push规则：本地真实pull至7e2c8dd022f730aad49bbe283834da515afc3951（2026-11-15T23:49:56.382950+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
 
-### 2026-11-16 08:44 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 08:48 Asia/Taipei — serre-public-astra-20261115
 - 激活短CM候选小L必要检查：core53bfaa73/wrapper2d19d987/request7ccce996/workflowafd86431；原λ/s换基一次，准确d/w非零、曲线/原共轭/微分式，使用R841的185原source闭包，不重原CM/RR/切向。
 - 无论检查是否全过，原A0−qB0准确零证、原坐标接受、旧R792 success、eta/height均false；通过只能提供已证接受判据的条件部分，失败只拒该候选。root已读完整core/wrapper/request/workflow，原输入由实际IO绑定。
 - R839两图已推ccc94341并激活；一次非快进后立即实pull/rebase重推成功。R815深CRT actual artifact14186797329已发布，正在仅读末步/收据后同核续接。
@@ -114,3 +114,9 @@
 - final1e71a62c/DAG9cf17e78/rankd2732252/manifest8bef49bf/configd6d7e284；artifact14188093176/34f85e3c，1979源carrier86.85MB/c32273b6。12Range5.59MB取38件纯IO，23组690 RHS全1380代回已成；旧逆/Fourier不重，无本地数学。
 - 原全局y的准确U.1已登记，接五加法极理想；实下降正乘(y²−b)I_Ey³，不把CM点值当函数。H先逐字归档再缩已成摘要；无逆dual方法已推ca46558d，A.1/eta-height仍未成。
 - 本push规则：本地真实pull至16594bea46d8fe1e72c8c7b8cbdb899f0774161b（2026-11-16T00:44:06.781111+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+## 2026-11-16 08:47（Asia/Taipei）— 原比较函数的一阶对数接口
+- 方法2d613dc1由原dx/(2y)规范给x′=2yh、y′=3x²h，原Hom字h=Σu_i h_i与R843非挠使dlog(y²−b)=6yh/x有准确分母；使用同一Q参数a−1，非新对数分支。
+- 原五R_j的log导为原r_j系数下的七σ trace差，原值仍保Nb/b7及全部常数。只需R844已成529节点和R791十二切向，不重CM/加法/Hodge；未运行新jet，未证明非零、刚性化或高度。
+- R845已实际推036f8a1e；全局三射影minor极理想新证明准备发布，直接消费已成原全局y单位chart与全局W/C来源。
+- 本push规则：本地真实pull至85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621（2026-11-16T00:48:05.659158+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。

@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：16594bea46d8fe1e72c8c7b8cbdb899f0774161b**（2026-11-16T00:44:06.781111+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R845前完整H](handoff-archive-2026-11-16-before-R845-certified.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：85dc3ebfb2e392ecd49f37fbf9cdd3b3e4946621**（2026-11-16T00:48:05.659158+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[R845前完整H](handoff-archive-2026-11-16-before-R845-certified.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -35,7 +35,7 @@
 
 **R843原p41点非挠已证**：[结果](results/R843-certified-original-CM-point-nontorsion-and-Hom-value-separation.md)run43778335282/sourcea7d3c0f6，0.854057531秒/59stage；原branch0/518给m999960637，44步后真实t赋值1/A518，Qell形式群无挠证原P非挠。原β∈A(Q)/Q-simple给全部非零L-Hom值非挠及原字正负分支；finale4f926d3/artifact14187431986至Nov17 00:06:16，185源carrierdd6bb50b。原算术不重，A.1/展开/eta-height false。
 
-**R844五Hom点/比较函数值已成**：[结果](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)run43780702248/source5ebcfafb，0.022079987秒/3stage/529nodes含原50逐字；原五g_j及下降/七σ/原R_j(c1)准确DAG。final57a2e3ec/program97a8fb3f/artifact14188376841至Nov17 00:30:22，251源carrier479f587a。原同点非挠/字/所有常数保留；不重CM/Hom/非挠。全局五极除子/刚性化/eta-height与A.1未成。
+**R844五Hom点/比较函数值已成**：[结果](results/R844-certified-original-five-Hom-word-points-and-comparison-values.md)run43780702248/source5ebcfafb，0.022079987秒/3stage/529nodes含原50逐字；原五g_j及下降/七σ/原R_j(c1)准确DAG。final57a2e3ec/program97a8fb3f/artifact14188376841至Nov17 00:30:22，251源carrier479f587a。原同点非挠/字/所有常数保留；不重CM/Hom/非挠。全局五极除子/刚性化/eta-height与A.1未成。 [原比较函数一阶接口](notes/R792-original-Hom-comparison-log-jets-from-certified-point-DAG.md)2d613dc1：只读R844点与R791十二切向，dlog(y_u²−b)=6y_u h_u/x_u；真七σ trace给五R_j'/R_j，不称其非零/刚性化/高度，尚未运行新jet。
 
 **R845原D两生成元与Ey八生成元已成**：[结果](results/R845-certified-original-D-pencil-and-eight-pole-generators.md)run43780953543/job133017821468/sourcea43b6afa，14.88603302秒/43stage；原a=w0、b_D=Σ295基，首n1实际1360×1380秩1111/minor633901576。原秩1111−degZ迫共同零恰D；原u/v给八V11乘法DAG与两图t³/t¹¹运输，I_Ey=I_ℬ I_D³。final1e71a62c/DAG9cf17e78/rankd2732252/manifest8bef49bf/configd6d7e284；artifact14188093176/34f85e3c至Nov17 00:33:43，1979源carrier86.85MB/c32273b6。12Range5.59MB读38件，23组690新RHS全1380回验已成；旧逆/前缀不重。原全局y的U.1已证，接原三minor五极理想；I_EyR正乘(y²−b)I_Ey³，eta-height未成。
 

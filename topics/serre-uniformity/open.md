@@ -124,3 +124,6 @@ R593/R596保原η_h、χ、μ3 tensor与清分母；R690/694/696实际坏靶Ω={
 
 
 **短CM候选准确接受仍缺A.1**：[原单值接受](notes/R787-original-short-CM-candidate-exact-acceptance.md)只需准确A0−qB0=0；[小L七必要条件](notes/R792-CM-candidate-small-field-ended-and-A1-boundary.md)run43777163403已全过，final4d9a6ec5，不能代A.1。[无逆清残差转置](notes/R787-original-inverse-free-cleared-transpose-value-acceptance.md)eb5893ec已证：Frobenius整数J将原正κ幂转置，128×20的Θ加140补集成为可逆2560方阵，旧14支A/Schur/inverse_clear全复用；新RHS从1位起，严格RR＋准确全乘回后Δ给d(A0−qB0)=−Δ，未有dual current/接受结论。[来源契约](notes/R787-cleared-dual-operator-source-contract.md)c6ca7d3a保原129阶/1,s/82^10与旧14支202.5MB，旧518非新dual精度，无速度或高度保证。
+
+
+[原比较函数一阶接口](notes/R792-original-Hom-comparison-log-jets-from-certified-point-DAG.md)2d613dc1：只读R844点与R791十二切向，dlog(y_u²−b)=6y_u h_u/x_u；真七σ trace给五R_j'/R_j，不称其非零/刚性化/高度，尚未运行新jet。
