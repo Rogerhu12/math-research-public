@@ -1,0 +1,491 @@
+name: Fixed historical domain manifest reference audit r4
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - visible-flex-larger-domain-manifest-audit-r4-20261116
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Fetch only partial tree metadata without blob sizes and sparse selected files
+        shell: bash
+        run: |
+          set -euo pipefail
+          audit_checkout="$(mktemp -d "$RUNNER_TEMP/domain-manifest-audit-checkout.XXXXXX")"
+          git init "$audit_checkout"
+          git -C "$audit_checkout" remote add origin https://github.com/Rogerhu12/math-research-public.git
+          git -C "$audit_checkout" config remote.origin.promisor true
+          git -C "$audit_checkout" config remote.origin.partialclonefilter blob:none
+          git -C "$audit_checkout" -c protocol.version=2 fetch --filter=blob:none --depth=1 --no-tags origin e6d389dfe1f79669f5b616497dc91bf92a70637d
+          git -C "$audit_checkout" sparse-checkout init --no-cone
+          export RETENTION_AUDIT_CHECKOUT="$audit_checkout"
+          export RETENTION_AUDIT_SELECTION="$RUNNER_TEMP/domain-manifest-audit-selection.json"
+          python -u - <<'PY'
+          import collections
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+          import subprocess
+          fixed = "e6d389dfe1f79669f5b616497dc91bf92a70637d"
+          topic = "topics/visible-flex-larger-amplitude"
+          root = Path(os.environ["RETENTION_AUDIT_CHECKOUT"])
+          actual = subprocess.check_output(["git","rev-parse","FETCH_HEAD"],cwd=root).decode().strip()
+          if actual != fixed:
+              raise ValueError("Partial fetch returned another source")
+          raw = subprocess.check_output(["git","ls-tree","-r","-z","--full-tree",fixed],cwd=root)
+          suffixes = (".py",".mjs",".js",".json",".yml",".yaml",".hpp",".h",".cpp",".cc",".c",".sh",".toml",".ts",".tsx",".md",".markdown",".rst",".txt",".ini",".cfg",".xml",".html",".css")
+          named = {"README","LICENSE","COPYING","Makefile","Dockerfile",".gitignore",".gitattributes",".gitmodules"}
+          rows = []
+          for line in raw.split(b"\0"):
+              if not line:
+                  continue
+              head, path = line.split(b"\t",1)
+              mode, kind, blob = head.split()
+              if kind != b"blob":
+                  continue
+              rows.append({"path":path.decode(),"mode":mode.decode(),"blob":blob.decode(),"bytes":None})
+          regular = [r for r in rows if r["mode"] in ("100644","100755")]
+          text_paths = sorted(r["path"] for r in regular if r["path"].endswith(suffixes) or Path(r["path"]).name in named)
+          gzip_paths = sorted(r["path"] for r in regular if r["path"].startswith(topic+"/") and r["path"].endswith(".gz"))
+          selected = sorted(set(text_paths) | set(gzip_paths))
+          selected_set = set(selected)
+          unscanned = [r for r in rows if r["path"] not in selected_set]
+          grouped = {}
+          for row in unscanned:
+              path = row["path"]
+              suffix = Path(path).suffix or "(no suffix)"
+              kind = "nonregular" if row["mode"] not in ("100644","100755") else "gzip_outside_topic" if suffix==".gz" else "other_suffix_or_binary"
+              key = (kind, suffix)
+              old = grouped.setdefault(key, {"class":kind,"suffix":suffix,"files":0,"bytes":None})
+              old["files"] += 1
+          encode = lambda x: json.dumps(x,ensure_ascii=False,separators=(",",":")).encode()
+          unscanned_raw = encode(unscanned)
+          selection = {
+              "schema":"fixed-head-exact-sparse-reference-scope-v1",
+              "fixed_commit":fixed,
+              "selection_predicate":{
+                  "mode":["100644","100755"],
+                  "text_suffixes":list(suffixes),
+                  "exact_base_names":sorted(named),
+                  "gzip_rule":{"path_prefix":topic+"/","path_suffix":".gz"},
+                  "combine":"union of suffix/named text and topic gzip, regular tracked blobs only",
+                  "other_topics_gzip_npz_bin_and_other_suffixes":"not read",
+                  "no_assertion_about_arbitrary_external_or_dynamic_references":True
+              },
+              "text_paths":text_paths,"gzip_paths":gzip_paths,"selected_paths":selected,
+              "unscanned_scope":{
+                  "exact_definition":"At the fixed root tree: every tracked blob not satisfying the complete selection_predicate above",
+                  "files":len(unscanned),"bytes":None,"unselected_blob_sizes_not_requested":True,
+                  "by_class_and_suffix":sorted(grouped.values(),key=lambda x:(x["class"],x["suffix"])),
+                  "complete_path_inventory":{"bytes":len(unscanned_raw),"sha256":hashlib.sha256(unscanned_raw).hexdigest()},
+                  "nonregular_paths":[r for r in unscanned if r["mode"] not in ("100644","100755")],
+                  "not_claimed_unreferenced":True
+              }
+          }
+          Path(os.environ["RETENTION_AUDIT_SELECTION"]).write_bytes(encode(selection))
+          def literal_pattern(path):
+              out = path.replace("\\","\\\\")
+              for ch in "*?[":
+                  out = out.replace(ch,"\\"+ch)
+              return "/"+out
+          patterns = "\n".join(literal_pattern(p) for p in selected)+"\n"
+          subprocess.run(["git","sparse-checkout","set","--no-cone","--stdin"],cwd=root,input=patterns.encode(),check=True)
+          PY
+          git -C "$audit_checkout" checkout --detach FETCH_HEAD
+          printf 'RETENTION_AUDIT_CHECKOUT=%s\n' "$audit_checkout" >> "$GITHUB_ENV"
+          printf 'RETENTION_AUDIT_SELECTION=%s\n' "$RETENTION_AUDIT_SELECTION" >> "$GITHUB_ENV"
+      - name: Scan exact selected metadata and literal references with rg or complete byte fallback
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RETENTION_AUDIT_CHECKOUT"
+          python -u - <<'PY'
+          import base64
+          import gzip
+          import hashlib
+          import json
+          import os
+          import shutil
+          from pathlib import Path
+          import subprocess
+          import sys
+          import tempfile
+          
+          FIXED = "e6d389dfe1f79669f5b616497dc91bf92a70637d"
+          TOPIC = "topics/visible-flex-larger-amplitude"
+          CANDIDATES = [
+            {
+              "key": "c26",
+              "run": 43671882961,
+              "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43671882961-1-condensedqp/twenty-six-condensed-warm/domain-operator/manifest.json",
+              "bytes": 701874,
+              "blob": "51b52c3660ef47b47b12024f2932a3ca41927e47",
+              "sha256": "3d2aa285471b58ccc859729366d26a8ca6332f5ece6eb8d88c423d97b062d0bb"
+            },
+            {
+              "key": "c28",
+              "run": 43674854261,
+              "path": "topics/visible-flex-larger-amplitude/notes/public-actions-43674854261-1-condensedqp/twenty-eight-condensed-warm/domain-operator/manifest.json",
+              "bytes": 754969,
+              "blob": "613e0701158c163053a29253fcde18561c6dac91",
+              "sha256": "6e983683817eaf153f20686f2aa2b12c05bd397e738172b7d5c675527ad68eac"
+            }
+          ]
+          LIMIT = 90000
+          OUT = Path(os.environ["RUNNER_TEMP"]) / "domain-manifest-retention-audit"
+          OUT.mkdir(exist_ok=False)
+          ROOT = Path.cwd().resolve()
+          
+          def sha(data):
+              return hashlib.sha256(data).hexdigest()
+          
+          def canonical(value):
+              return json.dumps(value, ensure_ascii=False, separators=(",", ":"), allow_nan=False).encode("utf-8")
+          
+          def git(*args):
+              return subprocess.check_output(["git", *args], cwd=ROOT)
+          
+          def original_blob(item):
+              data = git("cat-file", "blob", item["blob"])
+              if item["bytes"] is not None and len(data) != item["bytes"]:
+                  raise ValueError("Tracked byte count changed: " + item["path"])
+              return data
+          
+          if git("rev-parse", "HEAD").decode().strip() != FIXED:
+              raise ValueError("Audit checkout is not the one declared fixed commit")
+          tree_raw = git("ls-tree", "-r", "-z", "--full-tree", FIXED)
+          inventory = {}
+          for entry in tree_raw.split(b"\0"):
+              if not entry:
+                  continue
+              head, path_bytes = entry.split(b"\t", 1)
+              mode, kind, blob = head.split()
+              if kind != b"blob":
+                  continue
+              path = path_bytes.decode("utf-8")
+              inventory[path] = {"path": path, "mode": mode.decode(), "blob": blob.decode(), "bytes": None}
+          regular = sorted(p for p, v in inventory.items() if v["mode"] in ("100644", "100755"))
+          selection_path = Path(os.environ["RETENTION_AUDIT_SELECTION"])
+          selection_raw = selection_path.read_bytes()
+          selection = json.loads(selection_raw)
+          if selection["fixed_commit"] != FIXED:
+              raise ValueError("Sparse selection refers to another commit")
+          selected_paths = selection["selected_paths"]
+          if any(p not in regular for p in selected_paths):
+              raise ValueError("Sparse selection contains an unregistered/nonregular file")
+          text_paths = selection["text_paths"]
+          gzip_paths = selection["gzip_paths"]
+          if sorted(set(text_paths) | set(gzip_paths)) != selected_paths:
+              raise ValueError("Sparse selection partition changed")
+          missing_worktree = [p for p in selected_paths if not (ROOT/p).is_file()]
+          if missing_worktree:
+              raise ValueError("Declared sparse files missing: " + repr(missing_worktree))
+          for path in selected_paths:
+              inventory[path]["bytes"] = (ROOT/path).stat().st_size
+          rg_executable = shutil.which("rg")
+          candidate_paths = {c["path"] for c in CANDIDATES}
+          report = {
+              "schema": "fixed-head-two-domain-manifest-retention-audit-v4",
+              "fixed_commit": FIXED,
+              "fixed_root_tree": git("rev-parse", FIXED + "^{tree}").decode().strip(),
+              "fixed_topic_tree": git("rev-parse", FIXED + ":" + TOPIC).decode().strip(),
+              "administrative_run": {
+                  k: os.environ.get(k) for k in ("GITHUB_REPOSITORY", "GITHUB_RUN_ID", "GITHUB_RUN_ATTEMPT", "GITHUB_SHA", "GITHUB_WORKFLOW_REF")
+              },
+              "read_only": True,
+              "scientific_source_imported_or_executed": False,
+              "scientific_logs_requested": False,
+              "deletion_performed_or_authorized": False,
+              "inventory": {
+                  "command": "git ls-tree -r -z --full-tree FIXED (without -l; no unselected blob sizes fetched)",
+                  "bytes": len(tree_raw), "sha256": sha(tree_raw),
+                  "tracked_blobs": len(inventory),
+                  "topic_blobs": sum(p.startswith(TOPIC + "/") for p in inventory),
+                  "topic_selected_bytes_from_actual_sparse_files": sum(x["bytes"] for p, x in inventory.items() if p.startswith(TOPIC + "/") and x["bytes"] is not None),
+                  "topic_unselected_blob_sizes": None,
+                  "topic_unselected_blob_count": sum(p.startswith(TOPIC + "/") and x["bytes"] is None for p,x in inventory.items()),
+                  "non_regular_blobs": [v for v in inventory.values() if v["mode"] not in ("100644", "100755")]
+              },
+              "sparse_checkout_and_scan_selection": {
+                  "actual_selection_file": {"path": str(selection_path), "bytes": len(selection_raw), "sha256": sha(selection_raw)},
+                  "selection_predicate": selection["selection_predicate"],
+                  "all_selected_path_list_identity": {"bytes": len(canonical(selected_paths)), "sha256": sha(canonical(selected_paths))},
+                  "all_unscanned_paths": selection["unscanned_scope"],
+                  "partial_clone": {
+                      "remote_promisor": git("config", "--get", "remote.origin.promisor").decode().strip(),
+                      "remote_filter": git("config", "--get", "remote.origin.partialclonefilter").decode().strip(),
+                      "sparse_checkout": git("config", "--get", "core.sparseCheckout").decode().strip(),
+                      "git_pattern_file": {"bytes": len((ROOT/".git/info/sparse-checkout").read_bytes()), "sha256": sha((ROOT/".git/info/sparse-checkout").read_bytes())}
+                  },
+                  "actual_literal_search_backend": "rg" if rg_executable else "python-standard-library-complete-byte-lines",
+                  "rg_executable": rg_executable,
+                  "fallback_source": "No source is imported: open each selected tracked file as rb and test every fixed ASCII literal on every complete line",
+                  "root8_correction": "The two >100KB candidate bodies were previously fetched once by connector outside Actions. That was an administrative scope deviation, not Actions evidence. This audit obtains its own exact candidate bytes in this real Actions checkout; only this necessary result is returned."
+              },
+              "scope": {
+                  "candidate_selection": "Only the two named domain-operator/manifest.json files",
+                  "direct_search": "Every tracked source/config/text selected by the exact sparse predicate, plus every tracked gzip in this topic decoded to EOF; rg is preferred and a full byte-line fallback is recorded when rg is absent",
+                  "generic_constructor_search": "All tracked source/config/input suffixes listed below; an index of matching lines, not a claim that every dynamic caller has been proved absent",
+                  "gzip_science_values_evaluated": False,
+                  "all_matching_line_and_byte_addresses_retained": True,
+                  "matched_line_scope": "No line body, preview or separate line digest is returned. Every matched line retains its 1-based line number, start byte, complete line byte length, and every literal occurrence offset, against the complete original file identity. Full current text may be read separately from that fixed file and address; no source absence is inferred from an unread line.",
+                  "scientific_numerical_claim": "None; artifact contents are only hashed, parsed as metadata, or searched for literal references",
+                  "absence_limit": "No literal match does not prove absence of arbitrary computed, external, encoded, or future references",
+                  "no_auto_safe_set": True
+              },
+              "candidates": [],
+              "protected_scope": {
+                  "all_gzip_files_and_actual_arrays": "Excluded from deletion",
+                  "all_current_scientific_sources_requests_and_inputs": "Excluded from deletion",
+                  "41_54_array_manifests": "Excluded from deletion",
+                  "four_prior_producers_and_eleven_old_logs": "Excluded from deletion",
+                  "migration_legacy_R456_and_non_MD_referenced_H": "Excluded from deletion",
+                  "previous_95_checkpoint_and_nine_admin_deletions": "Not proposed again"
+              },
+              "errors": []
+          }
+          file_table = []
+          file_ids = {}
+          def fid(path):
+              if path not in file_ids:
+                  item = inventory[path]
+                  raw = original_blob(item) if path in selected_paths else None
+                  file_ids[path] = len(file_table)
+                  file_table.append({**item, "sha256": None if raw is None else sha(raw)})
+              return file_ids[path]
+          
+          for candidate in CANDIDATES:
+              path = candidate["path"]
+              item = inventory.get(path)
+              if item is None or item["blob"] != candidate["blob"] or item["bytes"] != candidate["bytes"]:
+                  raise ValueError("Candidate tree identity mismatch: " + path)
+              raw = original_blob(item)
+              if sha(raw) != candidate["sha256"]:
+                  raise ValueError("Candidate SHA256 mismatch: " + path)
+              body = json.loads(raw)
+              run_directory = path.split("/twenty-", 1)[0]
+              sibling_paths = sorted(p for p in inventory if p.startswith(run_directory + "/") and p != path)
+              followup_path = run_directory + "/followup-request-identity.json"
+              followup = json.loads(original_blob(inventory[followup_path]))
+              request = followup["request"]
+              selected_keys = (
+                  "request", "requested_at", "source_entry", "mathematical_producer", "optimizer_schema",
+                  "actual_parent_run", "actual_parent_source_commit", "actual_parent_public_directory",
+                  "actual_parent_warm_sha256", "actual_parent_status_sha256", "declared_budgets",
+                  "selected_query_count", "selected_angle_row_count", "physical_angles_per_query",
+                  "current_left_RMS_intervals", "current_original_midpoint_intervals", "query_specs",
+                  "complete_B_local_dimension", "expected_complete_B_local_dimension",
+                  "scientific_thresholds_changed", "native_tail_requested", "research_goal_completed"
+              )
+              producers = []
+              for name, expected in body["source_sha256"].items():
+                  source_path = TOPIC + "/computations/" + name
+                  actual = inventory.get(source_path)
+                  producers.append({
+                      "file": source_path, "declared_sha256": expected,
+                      "current": None if actual is None else file_table[fid(source_path)],
+                      "current_bytes_match_declared_source": None if actual is None else file_table[fid(source_path)]["sha256"] == expected
+                  })
+              payload_paths = [str((Path(path).parent / entry["path"]).as_posix()) for entry in body["files"]]
+              present_payloads = [p for p in payload_paths if p in inventory]
+              candidate_record = {
+                  "key": candidate["key"], "run": candidate["run"],
+                  "manifest": file_table[fid(path)],
+                  "schema": body["schema"],
+                  "original_model_sha256": body["model_sha256"],
+                  "original_input_identity": body["input_identity"],
+                  "original_source_map": body["source_sha256"],
+                  "current_producer_source_identities": producers,
+                  "original_followup_file": file_table[fid(followup_path)],
+                  "original_repository": followup["repository"],
+                  "original_run_source_commit": followup["source_commit"],
+                  "original_request_sha256": followup["request_sha256"],
+                  "selected_original_request_parameters": {k: request[k] for k in selected_keys if k in request},
+                  "selected_parameter_keys": list(selected_keys),
+                  "unselected_original_request_fields": "Remain in the preserved complete followup-request-identity.json; no field is removed by this audit",
+                  "original_export_file_count": len(payload_paths),
+                  "complete_export_path_list_identity": {"bytes": len(canonical(payload_paths)), "sha256": sha(canonical(payload_paths))},
+                  "listed_payloads_present_in_current_tree": present_payloads,
+                  "listed_payloads_absent_from_current_tree_count": len(payload_paths) - len(present_payloads),
+                  "preserved_siblings": [file_table[fid(p)] for p in sibling_paths],
+                  "fixed_history_recovery": {
+                      "commit": FIXED, "blob": candidate["blob"], "path": path,
+                      "command": "git show " + FIXED + ":" + path + " > " + path,
+                      "expected_bytes": len(raw), "expected_sha256": sha(raw),
+                      "scope": "Restores this exact historical manifest only; does not fabricate or reconstruct deleted scientific arrays"
+                  }
+              }
+              report["candidates"].append(candidate_record)
+          
+          pattern_records = []
+          pattern_lookup = {}
+          def pattern(value, kind, candidate):
+              if value not in pattern_lookup:
+                  pattern_lookup[value] = len(pattern_records)
+                  pattern_records.append({"literal": value, "roles": []})
+              row = {"kind": kind, "candidate": candidate}
+              if row not in pattern_records[pattern_lookup[value]]["roles"]:
+                  pattern_records[pattern_lookup[value]]["roles"].append(row)
+          for c in report["candidates"]:
+              path = c["manifest"]["path"]
+              run_dir = path.split("/twenty-", 1)[0]
+              stem = path.split("/")[-3]
+              for value, kind in (
+                  (path, "repo_path"), (path[len(TOPIC)+1:], "topic_relative_path"),
+                  (run_dir.split("/")[-1], "run_directory"), (stem, "producer_directory"),
+                  (str(c["run"]), "run_id"), (c["manifest"]["blob"], "git_blob"),
+                  (c["manifest"]["sha256"], "manifest_sha256"),
+                  (c["original_model_sha256"], "model_sha256"), (c["schema"], "manifest_schema")
+              ):
+                  pattern(value, kind, c["key"])
+          direct_literals = [p["literal"].encode("utf-8") for p in pattern_records]
+          report["literal_patterns"] = pattern_records
+          report["direct_reference_group_columns"] = ["file_index", "representation", "matching_lines"]
+          report["direct_reference_line_columns"] = ["line_1_based", "line_start_byte", "line_bytes", "pattern_occurrences"]
+          report["pattern_occurrence_columns"] = ["pattern_index", "start_byte_offsets_within_line"]
+          direct_groups = {}
+          def scan_line(path, representation, number, start, line):
+              occurrences = []
+              first = None
+              for i, word in enumerate(direct_literals):
+                  places = []
+                  at = line.find(word)
+                  while at >= 0:
+                      places.append(at)
+                      first = at if first is None else min(first, at)
+                      at = line.find(word, at + 1)
+                  if places:
+                      occurrences.append([i, places])
+              if occurrences:
+                  key = (fid(path), representation)
+                  direct_groups.setdefault(key, []).append([number, start, len(line), occurrences])
+          
+          rg_commands = []
+          def rg_lines(paths, literals, label, callback):
+              pattern_path = OUT / (label + "-patterns.txt")
+              pattern_path.write_bytes(b"\n".join(literals) + b"\n")
+              for batch_start in range(0, len(paths), 120):
+                  batch = paths[batch_start:batch_start+120]
+                  if not rg_executable:
+                      for path in batch:
+                          offset = 0
+                          with (ROOT/path).open("rb") as stream:
+                              for number, line in enumerate(stream, 1):
+                                  if any(word in line for word in literals):
+                                      callback(path, number, offset, line)
+                                  offset += len(line)
+                      rg_commands.append({"kind": label, "first_path_index": batch_start, "path_count": len(batch), "exit": 0, "stderr_bytes": 0, "stderr_sha256": sha(b"")})
+                      continue
+                  command = [rg_executable, "--no-ignore", "--hidden", "--text", "--json", "--fixed-strings", "--file", str(pattern_path), "--", *batch]
+                  process = subprocess.Popen(command, cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                  for record_bytes in process.stdout:
+                      event = json.loads(record_bytes)
+                      if event.get("type") != "match":
+                          continue
+                      data = event["data"]
+                      path_data = data["path"]
+                      path = path_data.get("text")
+                      if path is None:
+                          path = base64.b64decode(path_data["bytes"]).decode("utf-8")
+                      line_data = data["lines"]
+                      line = line_data["text"].encode("utf-8") if "text" in line_data else base64.b64decode(line_data["bytes"])
+                      callback(path, int(data["line_number"]), int(data["absolute_offset"]), line)
+                  error = process.stderr.read()
+                  code = process.wait()
+                  rg_commands.append({"kind": label, "first_path_index": batch_start, "path_count": len(batch), "exit": code, "stderr_bytes": len(error), "stderr_sha256": sha(error)})
+                  if code not in (0, 1):
+                      report["errors"].append({"phase": label, "first_path_index": batch_start, "exit": code, "stderr": error.decode("utf-8", "replace")})
+                      raise RuntimeError("rg did not complete its declared tracked-file batch")
+          
+          direct_paths = [p for p in text_paths if p not in candidate_paths]
+          rg_lines(direct_paths, direct_literals, "direct", lambda p,n,s,b: scan_line(p, "tracked_file_bytes", n,s,b))
+          gzip_identities = []
+          for path in gzip_paths:
+              identity = {"path": path, "decoded_complete": False}
+              count = 0
+              byte_count = 0
+              digest = hashlib.sha256()
+              try:
+                  with gzip.open(ROOT / path, "rb") as stream:
+                      for line in stream:
+                          count += 1
+                          scan_line(path, "gzip_decoded_bytes", count, byte_count, line)
+                          byte_count += len(line)
+                          digest.update(line)
+                  identity.update({"decoded_complete": True, "decoded_bytes": byte_count, "decoded_sha256": digest.hexdigest(), "decoded_line_records": count})
+              except Exception as error:
+                  identity.update({"decoded_bytes_before_error": byte_count, "decoded_sha256_before_error": digest.hexdigest(), "decoded_line_records_before_error": count, "error_type": type(error).__name__, "error": str(error)})
+                  report["errors"].append({"phase": "gzip_literal_scan", "path": path, "error_type": type(error).__name__, "error": str(error)})
+              gzip_identities.append(identity)
+          
+          generic_literals = [x.encode() for x in (
+              "domain-operator", "domain_operator", "condensed-array-manifest",
+              "optimization-intent", "geometry_20261114_twenty_six_query_domain_operator",
+              "geometry_20261114_twenty_eight_query_domain_operator"
+          )]
+          source_suffixes = (".py", ".mjs", ".js", ".json", ".yml", ".yaml", ".hpp", ".h", ".cpp", ".cc", ".sh", ".toml", ".ts", ".tsx")
+          source_paths = [p for p in text_paths if p not in candidate_paths and p.endswith(source_suffixes)]
+          generic_index = {}
+          def generic_hit(path, number, start, line):
+              for i, word in enumerate(generic_literals):
+                  if word in line:
+                      key = (path, i)
+                      generic_index.setdefault(key, []).append(number)
+          rg_lines(source_paths, generic_literals, "constructors", generic_hit)
+          report["constructor_patterns"] = [x.decode() for x in generic_literals]
+          constructor_paths = sorted({path for path, kind in generic_index})
+          for path in constructor_paths:
+              fid(path)
+          report["constructor_file_identity_scope"] = "The same complete file_identities table used by direct_reference_groups; no duplicate file table"
+          report["constructor_index_columns"] = ["file_index", "pattern_index", "all_matching_line_numbers"]
+          report["constructor_index"] = [[fid(p),k,lines] for (p,k),lines in sorted(generic_index.items())]
+          report["constructor_source_suffixes"] = list(source_suffixes)
+          report["direct_reference_groups"] = [[file_index, representation, lines] for (file_index,representation),lines in direct_groups.items()]
+          report["direct_matched_line_count"] = sum(len(lines) for lines in direct_groups.values())
+          report["gzip_literal_scan"] = {
+              "complete_per_file_metadata_inventory": {"bytes": len(canonical(gzip_identities)), "sha256": sha(canonical(gzip_identities))},
+              "selection": "Every regular tracked .gz under the declared topic was decoded to EOF unless explicitly listed below; other gzip files are explicitly outside the sparse predicate. All literal hits are in direct_reference_groups with full original file identity. Unmatched numerical contents are not returned.",
+              "files": len(gzip_identities),
+              "complete_files": sum(x["decoded_complete"] for x in gzip_identities),
+              "decoded_bytes": sum(x.get("decoded_bytes", x.get("decoded_bytes_before_error", 0)) for x in gzip_identities),
+              "failed_files": [x for x in gzip_identities if not x["decoded_complete"]]
+          }
+          report["file_identity_columns"] = ["path", "mode", "git_blob", "bytes", "sha256"]
+          report["file_identities"] = [[x["path"],x["mode"],x["blob"],x["bytes"],x["sha256"]] for x in file_table]
+          report["rg_command_columns"] = ["kind","first_path_index","path_count","exit","stderr_bytes","stderr_sha256"]
+          report["rg_commands"] = [[x[k] for k in report["rg_command_columns"]] for x in rg_commands]
+          report["search_completion"] = {
+              "tracked_regular_files": len(regular),
+              "direct_files": len(direct_paths),
+              "candidate_self_references_not_scanned": sorted(candidate_paths),
+              "unscanned_scope": selection["unscanned_scope"],
+              "constructor_files": len(source_paths),
+              "gzip_files": len(gzip_identities),
+              "gzip_complete": all(x["decoded_complete"] for x in gzip_identities),
+              "rg_all_declared_batches_completed": all(x["exit"] in (0, 1) for x in rg_commands),
+              "non_regular_files_not_searched": report["inventory"]["non_regular_blobs"],
+              "all_declared_literal_scans_complete": not report["errors"]
+          }
+          status = git("status", "--porcelain=v1", "--untracked-files=all")
+          report["final_git_status"] = {"bytes": len(status), "sha256": sha(status), "text": status.decode("utf-8")}
+          report["repository_worktree_unchanged"] = not status
+          report["only_possible_deletion_paths"] = sorted(candidate_paths)
+          report["candidate_gross_bytes"] = sum(c["bytes"] for c in CANDIDATES)
+          body = canonical(report)
+          path = OUT / "necessary.json"
+          path.write_bytes(body)
+          identity = {"path": str(path), "bytes": len(body), "sha256": sha(body), "limit_bytes": LIMIT}
+          print("RETENTION_AUDIT_IDENTITY " + canonical(identity).decode(), flush=True)
+          if len(body) > LIMIT:
+              print("RETENTION_AUDIT_OVERFLOW " + canonical({"complete_body_returned": False, "original_body": identity, "deletion_authorized": False}).decode(), flush=True)
+              sys.exit(70)
+          print("BEGIN_FIXED_DOMAIN_MANIFEST_RETENTION_AUDIT", flush=True)
+          print(body.decode("utf-8"), flush=True)
+          print("END_FIXED_DOMAIN_MANIFEST_RETENTION_AUDIT", flush=True)
+          sys.exit(0 if report["search_completion"]["all_declared_literal_scans_complete"] and not status else 1)
+          PY
