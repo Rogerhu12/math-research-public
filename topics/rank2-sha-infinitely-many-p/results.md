@@ -380,3 +380,6 @@ R550/R822 [十九角Euler与完整α配对](notes/2026-11-15-original-global-eul
 
 
 [R842 Euler原函数的原提升缺陷](notes/2026-11-16-r842-euler-primitive-lift-defect-and-zero-charge-repair.md)：对原L∈H1^{>0}，I_L=E_+^-1(F²L)能以真实H3^0修成零曲线值，当且仅当L=ce；唯一修正cF0³/3、来源cF³/3。完整原限制序列逐付K=FM及M=cF，缺陷商H1^{>0}/ke真注入、秩(κ+χ)/2−z_−−1。I_e|C=−F0³/3在P的阶3ord0F0≤6，准确排大前缀保持；未将全格秩外推W_T，也未判断原[b0]。
+
+
+[R840实际Euler原函数整块及全零第一值分支](notes/2026-11-16-r840-actual-euler-primitive-block-and-zero-first-value-kernel.md)：在原T−h>κ、T≤2h、T>3z_-下，实际J=E_+^-1(F²H1^{>0})⊕H3^0与三长核交零，维(κ+χ)/2+2z_-+1。全V1=0分支准确由同A∈H2^{>0}的2η镜轴和原函数3z_-+1..T−1系数行呈示，唯一G0修正；真实V2=eA_C单射。全部负D_Q上I(A)=0，负行仅读同G0(tQ)，固定d因子及全部剩余域迹保。未与R834单位秩相加，实际联合像/forcing仍开。

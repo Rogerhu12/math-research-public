@@ -184,3 +184,6 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 
 
 [R842 Euler原函数提升缺陷](notes/2026-11-16-r842-euler-primitive-lift-defect-and-zero-charge-repair.md)已完整分类：E_+^-1(F²L)只有L∈ke可由真实H3^0修回零曲线值；其余缺陷商确有秩(κ+χ)/2−z_−−1。原F0给I_e的P阶≤6，逐charge积分不保高前缀或下降原两值商。接着在同一个G、同一零charge修正下支付第三长行/真实V2及W_T全边界，不能用此全格结论替代原受限像。
+
+
+[R840实际primitive块与全V1=0分支](notes/2026-11-16-r840-actual-euler-primitive-block-and-zero-first-value-kernel.md)已给严格三长交零及唯一同G0前缀修正；负纤维全部只读该G0的值。接着判同A的实际双行核、与R834完整分歧理想联合像及其它非零V1分支，不能加两个分别单射的秩；同G的正/固定/∞/P与第四短行全保。

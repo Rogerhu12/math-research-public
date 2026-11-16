@@ -3,17 +3,17 @@
 ## 主目标、授权与规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的全Sha[p∞]有限。**未完成，继续研究；不以中间结果、时长或等待回复收尾。**
-- 最近已读规则提交：c0e4d7f8468a18f00933ac965a40f3a4dc60fc55；2026-11-16 02:56:57 UTC核两README无变。实际CI pull 2026-11-16 02:16:33 UTC/0e06d735aa9b083b88db09fad54fa437fe3d0286（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:56:56 UTC仍无环境。最迟2026-11-16 03:00 UTC再实际pull。
+- 最近已读规则提交：58ab3c05d918866e2d0b01640272a7cf8c6bae76；2026-11-16 02:58:26 UTC核两README无变。实际CI pull 2026-11-16 02:57:07 UTC/3a32e48955de6f7609ea25c46a1a23cac1b7afdd（两README差异空）。本地末次成功2026-11-14 21:35:50/7aa38f25e；最近本地重试2026-11-16 02:56:56 UTC仍无环境。最迟2026-11-16 03:40 UTC再实际pull。
 - 仅写Rogerhu12/math-research-public/main；旧库授权789d22af全文已读。完整结论立即推；拒推即pull --rebase/新head非强推重试至成功；不改他人历史，不保存或回显令牌。
 - 根/题README blob为21bd547f56590b7f2dd279d0297efb289a9b2783、965ab236bbd6753acb812b45fcc36ae9b6f83b3c；root15@708f058a差异已读。每次实际pull核两README差异并记提交，至少每小时。
 - 数学运行全公开Actions；可重算输出不入库/Release、不分新块，仅producer/args/run/hash。H<10KB，MD/API<100KB，open尽量<30KB，单文件<5MB，题≤200MB；题log每轮≤5行，不写根LOG。
-- 最近盘点31,063,037B/2272文件，无超限，3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。
+- 最近盘点31130692B/2280文件，无超限，3旧真实输入块。[规则15来源](notes/2026-11-15-recomputable-output-provenance.md)保已删206输出、79未匹配/2自读/3旧块待核。
 
 ## 完整检查点与当前分工
 
-[压缩前完整H](notes/2026-11-16-frontier-before-r842-euler-lift.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R851-R900.md（前卷沿链）、open.md。
+[压缩前完整H](notes/2026-11-16-frontier-before-r840-primitive-block.md)、[完整open](notes/2026-11-16-open-before-r848.md)沿链保所有旧公式/条件/来源，不撤任何未付门。入口results.md、notes/PROOF-INDEX-R851-R900.md（前卷沿链）、open.md。
 R1–363、365–560、562–653、655–711、713–851已登记；R364/R561/R654/R712和主目标仍开。旧未推R235/R237已重做。root唯一metadata/ref写者；deep算R842指定[b0]/真三长限制，theta算全边界左核，literature算原CY与模纤维积/canonical对应，root核证明/实际曲线canonical比较。R851原Schoen映射/全部尺度已付；literature写R852真图形Chow逆并续非Dirichlet canonical；deep续原primitive块/同V2，theta续K_F实际ODE与同G边界。root唯一分配独立编号。
-实际CI pull 02:16:33/run43791155440/job133049634328成功，head 0e06d735，两README差异空。回执ci/rule-pull-20261116T021633.json，下一03:00前。
+实际CI pull 2026-11-16 02:57:07 UTC/run43795194800/job133062312766成功，head 3a32e48955de6f7609ea25c46a1a23cac1b7afdd，两README差异空。回执ci/rule-pull-20261116T025708.json，下一03:40前。
 
 ## 原端点、CM来源与实际曲线
 
@@ -34,19 +34,17 @@ S34/T72/U136/V66、charge17/36/68/33、全部低卷积/39carry/十二尾/末quar
 
 ## 同R、原三真长窗与指定边界
 
-始终M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、十九角和全WD余列；T_M=s−r−13、T_J=s−r。同R高位/全部normal/两13/d₂不拆。
-R834/836原H3三长核、D3/同H2及低行完整保；FH2+eH2单射和临界199κ/48不改全WD/Bost预算。R840 E²H3→2Z的像ker resZ_-、余核z_-≤2，兼容两值定2Z，H*>κ给V2唯一；全提升G2+cF³同c支付第三尾，第四已付前缀和余尾仍用同G*，forcing未付。R837全有限三长/两长预算分别7q(H−r)≤3B_D²+56D、4q(H−r)≤3B_D²+32D；自然47/12余q1/2，旧47/8另付第三长才余q1。各门、所有误差及原十九角/13/39carry见完整归档，不能省。
-R813/822原ResP=γ/6单位及完整γ/6+G_F+B_F=0，GRes读W_sFt²E²R/Y²。R833全D_E像/余核不代高前缀受限像。α*两项、同全局ω、x^(3b+c)尾及r≤11十三尾全保原证与归档。
-[R842](results/R842-original-gres-double-ramification-transpose-and-joint-prefix-extension.md)的真框d∨H=Hf2−e(DH+(c−a)H)、原λ0/λ1、固定2Z补零、全Serre左端及仿射P值均保。全GRes消失须同ν/同ω0,ω1，不能独立补边界；对更小三长核仅充分。[第一层](notes/2026-11-16-r842-first-layer-surjectivity-and-actual-restricted-class.md)已满射，剩余指定[b0]∈cokerL_T≅W_T∨仍未知。
-[完整边界](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)保b0=−BF+同G的P补偿及D_R/Ξ代表差；十九角真Ft/Ftt、无穷权、所有ramification/conductor不省。t=1整纤维仅在3s>(3b+degYq+1)ord_1F_b，原充分门9s>(D+1)(M_D−r−deg_tQ)未免费满足；h7仅有限Y消去，保Y∞四步链。§11移动Y∞真trace/Newton保2Uτ/U与原J modP²；精度modx^J、J=N*+3+2ordRes(P,Px)，跨p全部W Frobenius项保。
-[负水平全trace](notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)保原D_Q=(t−tQ)⊂Z、长ℓ≤b和全部奇点S=Tr(1/T_i′)，总D_-≤2b/H3满射；V_T需T+degD_-<2κ+χ，W_T未知。[Jacobian商](notes/2026-11-16-r842-negative-fiber-jacobian-quotient.md)准确为A_Q/ann(Ft qtilde)，长max(0,ℓ−u−v)，最高系数−c_s tQ^rWQ s0(ℓ−u)²q_v单位；行零iff原乘积零，degH2 double-root长≤b−1。[全分歧转置](notes/2026-11-16-r842-moving-horizontal-full-ramification-adjoint.md)仅未吹起moving且ftunit：d∨ν=e_Ug[w+ε(m−1)−εDx](ν/g)，负rankm−1/核读约化值，正系数2b+1..3b单位。光滑/node区别、同ω补零及全部单位见原证/归档；固定十九角/奇点与实际Q'_T/W_T全局像未付，优先真正同ν左关系。
-
-[全局同源mask](notes/2026-11-16-r842-negative-fiber-global-mask-and-same-source-boundary.md)用degY N_Q≤b−1的真Θ_-支付整负移动行；底分母≤2，原正水平帽3b+1/底∞T^(3−2u_F)/十九角全保。W_T上[b0]=G_F，ω1的P项准确零；D_R−Θ_-仍保r≤11真尾（r2十项）。未称mask为Q_T截面，续同G全部边界联合。
-
-[准确P尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)付全函数域K_F=2Ft EFt/e²−Ft²f2/e³；原T_M下P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eq v0)，r2读每vi十个实际尾，r≥12零。W_T上[b0]=−B_D−P_r；J长窗才P零，不移给M，全部q Euler及同G保持。
-
-
-[原Euler提升缺陷](notes/2026-11-16-r842-euler-primitive-lift-defect-and-zero-charge-repair.md)：对L∈H1^{>0}，I_L=E_+^-1(F²L)可由真实H3^0修成曲线值零 iff L=ce；唯一I_L=c(F³−F0³)/3、V=cF0³/3。原限制序列/整性全付，缺陷商H1^{>0}/ke真注入、秩(κ+χ)/2−z_−−1。I_e|C=−F0³/3的P阶3ord0F0≤6，故不保大前缀；不能把E逆下降到H3/F²H1或给W_T同秩。继续同一个G的第三长行/全部边界。
+始终M=c*U0w13J、P134/charge40、13free/26carry、conductor10980、十九角、全部WD余列；T_M=s−r−13、T_J=s−r。同R高位/全normal/两13/d₂不拆。R837全有限三长7q(H−r)≤3B_D²+56D、两长4q(H−r)≤3B_D²+32D；自然47/12余q1/2，旧47/8另付第三长才余q1。
+R834/836全H3三长核、D3/同H2、FH2+eH2单射和临界199κ/48仍不改全WD/Bost预算。R840 E²H3→2Z像ker resZ_-、余核z_-≤2；兼容两值定2Z，H*>κ给V2唯一；提升G2+cF³须同c付第三尾6e³η，第四仍同G*，forcing未付。
+[R840原primitive整块](notes/2026-11-16-r840-actual-euler-primitive-block-and-zero-first-value-kernel.md)：J=E_+^-1(F²H1^{>0})⊕H3^0在T−h>κ、T≤2h、T>3z_-下与真三长核交0，维(κ+χ)/2+2z_-+1；不与R834秩相加。全V1=0分支唯一由A∈H2^{>0}、EG=FA呈示：同A满足A(ψe^{2η})=0 modt^T及J_A=d^{-3μ}I(A)|C的3z_-+1..T−1行零，唯一G0=−d^{3μ}[J_A]≤3z_-。V2=eA_C在该分支单射；每个负D_Q上I(A)=0，负行仅同G0(tQ)，固定d因子保。联合交/实际像未知。
+R813/822同R原ResP=γ/6单位及γ/6+G_F+B_F=0保持，GRes读W_sFt²E²R/Y²。R833全Euler像不代高前缀受限像；α*两项、同全局ω与全P尾保持。
+[R842](results/R842-original-gres-double-ramification-transpose-and-joint-prefix-extension.md)真框d∨H=Hf2−e(DH+(c−a)H)、原λ0/λ1、固定2Z补零、全Serre左端及P仿射值均保。消失须同ν/ω0/ω1全局兼容；对更小三长核仅充分。[第一层](notes/2026-11-16-r842-first-layer-surjectivity-and-actual-restricted-class.md)满射后，指定[b0]∈cokerL_T≅W_T∨未知。
+[完整边界](notes/2026-11-16-r842-actual-boundary-rows-and-horizontal-thickenings.md)保b0=−BF+同G的P补偿及D_R/Ξ差、十九角真Ft/Ftt、无穷权与conductor。t1整纤维仅在3s>(3b+degYq+1)ord1Fb，充分门9s>(D+1)(MD−r−deg_tQ)未免费满足；h7仅有限Y消，Y∞四链保。§11正水平完整trace/Newton保2Uτ/U和J modP²，精度N*+3+2ordRes(P,Px)及跨p全部W项。
+[全负trace](notes/2026-11-16-r842-complete-negative-fiber-trace-and-original-source.md)保实际D_Q⊂Z长ℓ≤b、S=Tr1/T_i′、总D_-≤2b与H3满射；V_T还需T+degD_-<2κ+χ，W_T未知。[Jacobian商](notes/2026-11-16-r842-negative-fiber-jacobian-quotient.md)A_Q/ann(Ft qtilde)长max(0,ℓ−u−v)、最高系数单位；行零iff原乘积零，degH2 double-root长≤b−1。
+[移动转置](notes/2026-11-16-r842-moving-horizontal-full-ramification-adjoint.md)仅未吹起moving且ftunit：d∨ν=e_Ug[w+ε(m−1)−εDx](ν/g)，负rankm−1/核读约化值，正2b+1..3b单位。固定十九角/奇点及Q'_T/W_T实际像仍开；完整单位/补零见原证。
+[全局mask](notes/2026-11-16-r842-negative-fiber-global-mask-and-same-source-boundary.md)degY N_Q≤b−1的真Θ_-支付整负移动行；底分母≤2，正帽3b+1/底∞T^(3−2u_F)/十九角全保。W_T上[b0]=G_F且ω1的P项零；D_R−Θ_-保r2十项。mask非已付Q_T截面。
+[准确P尾](notes/2026-11-16-r842-exact-origin-tail-on-compatible-prefix.md)全函数域K_F=2Ft EFt/e²−Ft²f2/e³，原T_M给P_r=c_s[t^(11−r)]sqrt(1−t)K_F(qv1+Eq v0)，r2每vi十项，r≥12零。W_T上[b0]=−B_D−P_r；J长窗才P零，不移给M。只短系数j≤10替sqrt，不替全局W。
+[Euler提升缺陷](notes/2026-11-16-r842-euler-primitive-lift-defect-and-zero-charge-repair.md)：I_L=E_+^-1(F²L)可由H3^0修成零曲线值iff L=ce；唯一I_L=c(F³−F0³)/3、V=cF0³/3。缺陷商H1^{>0}/ke真注入，秩(κ+χ)/2−z_−−1；I_e的P阶≤6，不保大前缀，不给W_T同秩。继续同G全局联合。
 
 ## 其余未闭门
 
