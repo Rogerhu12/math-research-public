@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：6433bd5fe4cf2b56925ace506699621f9453b93f**（2026-11-16T04:20:04.495713+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[高阶Abel单位前完整H](handoff-archive-2026-11-16-before-higher-Abel-unit.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：5428e476f1c03d962c9abb19851254c15a0ad177**（2026-11-16T04:20:51.455238+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[高阶Abel单位前完整H](handoff-archive-2026-11-16-before-higher-Abel-unit.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -50,3 +50,6 @@ UE9a54e844二类项全函数相消但原degree dY+2 period未知；End⁰G=F与�
 
 
 **R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c尚未算，旧方法/2420/全2560行/四泛函不变，核心未激活。
+
+
+**R857原Abel共同相位/深盘根数已证**：[结果](results/R857-original-higher-unit-Abel-phase-and-deep-disc-root-count.md)34d9f444以R855同h的高jet为参考，M_(3j−1,h)/M_mh∈Qp，全部jet整数赋值。原727.28全阶乘/全尾给A_j=p^(3j)M/(3j)!的v≥1且趋∞，第J=(m+1)/3项v=1。I/(p b_h)∈V Zp〈V〉、V=z_f³/p³；最小unit阶r≤J，经形式Weierstrass和原coarse变换，在v(a−1)>3内恰r个零含center/重数，非center≤J−1。保c_h真实赋值；正秩候选不必使Abel增量零，未得r=1或height排除。

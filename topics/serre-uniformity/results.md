@@ -151,3 +151,6 @@
 
 
 - **R854实施几何整化已证**：[补节](notes/R854-original-41-geometric-row-scaling.md)92cb6ec5：由原R_n/K_n一次有理尺度取得实际安全a，c=max(0,a−3)，Rtilde_n=41^(an+c)R_n、Ktilde_n=41^(an)K_n及mu=246³41^(c−a)均整。真实每m块恰乘S_m=41^(am+c)，同rhs/free项；DVR饱和与左逆界针对M0=S M，完整残差逐行扣回/准确加回S_m，保weighted界，不冒称原精度。a/c尚未算，旧方法/2420/全2560行/四泛函不变，核心未激活。
+
+
+- **R857原Abel共同相位/深盘根数已证**：[结果](results/R857-original-higher-unit-Abel-phase-and-deep-disc-root-count.md)34d9f444以R855同h的高jet为参考，M_(3j−1,h)/M_mh∈Qp，全部jet整数赋值。原727.28全阶乘/全尾给A_j=p^(3j)M/(3j)!的v≥1且趋∞，第J=(m+1)/3项v=1。I/(p b_h)∈V Zp〈V〉、V=z_f³/p³；最小unit阶r≤J，经形式Weierstrass和原coarse变换，在v(a−1)>3内恰r个零含center/重数，非center≤J−1。保c_h真实赋值；正秩候选不必使Abel增量零，未得r=1或height排除。
