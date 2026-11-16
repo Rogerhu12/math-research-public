@@ -2,39 +2,39 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R913-original-Igusa-functional-and-two-companions",
-  "commit_message": "serre: prove original Igusa Cartier functional and two CM companions",
-  "rules_last_read_commit": "88eddc3c2044013b993ce4e8a43b2546094d53fe",
+  "request_id": "20261116-R915-original-Hecke-differential-trace",
+  "commit_message": "serre: prove original Hecke differential trace and Euler functional",
+  "rules_last_read_commit": "a80dd072b1da7659cdfe2d1c686cab7f7928caeb",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "a21263ff1a362ab0db6980ef4962833ed58318b56b34a4bb7528adc0c21bb79d",
+  "expected_previous_request_sha256": "88f6c0ccb52d4ec079edb6392c89ba2fd29289910d1101762d7c62faad4c1c0c",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R913-original-Igusa-Cartier-functional-and-two-CM-companions.md",
-      "sha256": "744265662e5cb39a4c0ae85d0874fa2a1ec464a986c218f8a968d8a1c187db19",
+      "path": "topics/serre-uniformity/results/R915-original-Hecke-differential-trace-and-Euler-coefficient-functional.md",
+      "sha256": "b8ea2f3b8b11b0923e9192122d40dbd46224a5e54e4047c534748e9fabf1dc92",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-Igusa-companions.md",
-      "sha256": "f18206008dbcf23eb9d0cba7e3177afc26a0fd154c7bbbbdc9cca1149e1bc28b",
+      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-differential-trace.md",
+      "sha256": "2343df25f99ca1aeb14425cc4f5281e5be05239924411ef8be835ea7871955b1",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "42fd0ee62c13196bea07a7703b55b1f89753384915c7c96b2aabc1e9cdf4dba7",
-      "expected_previous_sha256": "f18206008dbcf23eb9d0cba7e3177afc26a0fd154c7bbbbdc9cca1149e1bc28b"
+      "sha256": "b75c9a9727c56d79182ac7e89f2e41f9dfaaea90d1aed0cffb740b8c9e58a9f0",
+      "expected_previous_sha256": "2343df25f99ca1aeb14425cc4f5281e5be05239924411ef8be835ea7871955b1"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "6f2fc5202ca975f620bc286d971dc4aafe3a0f69355837f545f8f90083ca0639",
-      "expected_previous_sha256": "d0f8ed1749ef45748f6351c4577a42e88a4e712745a21631dbc209ea6bff1d9c"
+      "sha256": "47a4aee07f30fba587c9bde4fcadc8d35434ed19f56dbbd9c83ad2067578063d",
+      "expected_previous_sha256": "6f2fc5202ca975f620bc286d971dc4aafe3a0f69355837f545f8f90083ca0639"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "82966c0bfae2f6c8141718bae4e2e4ab3af223f659fed7645b7d13ababd8900a",
-      "expected_previous_sha256": "6eba138ce89e322e784fb8a0cfe77a47c1cb7fbed2b4afb68ee40d5a4b2eafa1"
+      "sha256": "7d045b94b7ce1efda4a2245786b8c3b808f424726bc7ddc1d22f9472199b4ead",
+      "expected_previous_sha256": "771a8d071d5a41eff25c852bd9e2c3864e86684b3107f61e781ef9df0f082098"
     }
   ]
 }
