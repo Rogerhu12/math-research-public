@@ -177,3 +177,11 @@ workflow afe9ba684f932a5e39cffc4d6ecd0e5e70a77ef2；实际科学 checkout 1e9d01
 完整first target仍current，completed_targets=[]、new_whole_maxima=0/new_scalar_records_completed=0（这两计数定义为整目标，不抹除已保存的collar内部prefix）。原problem consumed marker90ceb485fa6d22db66a6ee6f1cb0b1615c025886/621B保持。已完成collar不得重复；续跑须静态验证原失败全SCI、复制完整原球/witness/chain/counters，从body parent1继续到152，且只接未始m=1/2、mesh selection与有条件resolvent。parent1参考构造里未保存的内部步骤仅限该未完成单元重做；不能声称整body已算，也不授权其它已成数学。任何已完成prefix/target未丢失，全部未付193mean/完整Schur/true96/first-r/非线性scope仍在。
 
 4次真实pull结束11:05:20.193542→ed3ed6bf、11:05:42.072960→0f031889、11:05:45.261115及11:05:54.432963→1e9d0191b5167facc9fda1e3c94e2662f6da2b54；两README实际diff及显式review差异全空，完整回执在exec。H更新下一真pull≤12:05:54；本次只读README核 9abcc371fa7c838b959e0672d8a4498847436168。先推此精确失败/续算边界，才允许新suffix package。
+
+### 2026-11-16 11:16:06 UTC — 先推唯一 Hnodes258 旧浮点派生诊断清理白名单
+
+已review白名单 233c8f5ecb910223db0be4e8b9f5ef3a922e697e /26298B /SHA256 a2e03bcb660438d01042e9e2f7accc82486e624c1b91d98f9b9a354ab5f384eb，路径 topics/visible-flex-exact-nearby/notes/2026-11-16-R133-completed-exact-affine-258-ray-diagnostic-cleanup-whitelist.json。唯一target topics/visible-flex-exact-nearby/notes/2026-11-12-D5-exact-affine-step2-Hnodes258.json /Git2f8bb2302a44a27ed228c6ebd29ea271f4e4bb9a /72503B /SHA256 7850b8382f131b630d0fa0f334243a470318b8526201c5e421b156853ba53c6f；仅δ2同对象已成258-ray完整浮点diagnostic，不是dyadic H/精确object/root/native dense定义、任何旧失败或原证明。原SHA由N、F0、F1及实际下游DR同字锁，root与Tail均未读取target正文，不伪称新hash。元数据确认current 572535065716880da2d43ac8fd120585dc880c2a 和restore9abcc371fa7c838b959e0672d8a4498847436168同path/Git/size/mode。
+
+root全读九个原小primary（N/F0/S0/P/D/DR/J及已读同字F1/N3），完整producer18177B把native traces另存、只full-loop后写complete；下游D/DR确实使用该258-grid，保真实历史依赖，F0/F1不改。后续如需须从9abcc371同path临时恢复核Git/bytes/完整SHA，禁止重跑ray/Newton或旧producer。所有独立definitions/native/小失败报告不动。
+
+Tail完整24current/19history边界及Phase/Newton各已持文本scope保白；root补核最终WMT manifest8870b8be/9输入、原WPTV manifest9b52fa3c、已失败SCI/exec完整小文本、GMR及H/open/WDS已持文本，exact basename均0。尚未冻结的WPTV suffix不冒已审；其新consumer仍须完整入口核验。只此一path，先本白再fresh guard普通删除，0数学/0旧重算。毛释放72503B，扣本白净46205B，journal另计。两README核 572535065716880da2d43ac8fd120585dc880c2a。
