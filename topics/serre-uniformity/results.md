@@ -170,3 +170,5 @@ R857的共同实相位直接复用R750；R742已有unramified firstjet/depth7，
 - **R859原目标到显式CM模型的p-unit比较已证**：[结果](results/R859-original-prime-to-p-CM-model-and-normal-content-transport.md) b8218a4b；直接用R390整谱/稳定格唯一性与完整BT，原End_K(A)在p为O_E，F弱逼近校准Q同源并除p分母得degree prime-to-p到R728模型。原逆different Néron格真运输；同h归一盘坐标Htilde_h=u_hX+pX²V_h保每个content理想及首余项/同c_h赋值。原c0/c1/权/粗参数保留，Hecke型与rec单位的反号明确；不求content数值、首项单位、q的Manin或height。
 
 - **R860（已证明，未展开新算术）**：[原有界余子式半线性下降与同一微分](notes/R860-original-adjugate-semilinear-descent-and-rational-differential.md)。β72=adj(TI−W)0,72/adj(TI−W)00，分母首一T271与原次数272给非零，总次数界272/271；任意真实normal向量用同一分母/有边框行列式。原D0与cY交换、cτ=τ，故δ及ν=82τdq/q固定，FM23比较因子准确1。保原两图正规环/全部尺度，实际RR/period/height未成。SHA256 8c9ea5ae2a0f0eff0c84f8b98f12699613aa6d173492e727e5b9f380503fb706。
+
+- **R861（已证明）**：[原CM Néron Fourier基与实际normal形式参数](results/R861-original-CM-Neron-Fourier-basis-and-normal-parameters.md)。原r0/α的有限惯性投影v和u=r/v给逆different完整逐标签基f_h=u v^(1−h)，β_h=v^-hΩ_h准确联系原good Fourier格；primitive筛后basechange指数恰(p−1)h。规范X_h^can=v^-h c*Y_h整且线性项1，原G_h在深盘是同一原q的Néron参数拉回。保原twist/基点/相位/尺度，content数值、首项单位与height未得。SHA256 3461121b59cfe745a7fdfdbbf09c402745c1a90b75a08d1c447bdb5a5574a153。

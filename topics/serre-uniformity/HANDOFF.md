@@ -4,7 +4,7 @@
 
 证明绝对常数C使全部无CM E/Q在p>C时模p满射，或完整给p→∞反例族。**主目标OPEN，未达README完成标准；持续研究，不在阶段报告收尾。** 会话serre-public-astra-20261115；沿远端main，旧未推分支不存在。私有QUEUE已推55eeff4d64c2f54f6b30d8ea5b6dd669f86a4b09。
 
-**已读规则提交：b222cd25ef15e7c48fcdbef5817402868c43005c**（2026-11-16T05:13:07.807229+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[原余子式下降前完整H](handoff-archive-2026-11-16-before-adjugate-descent.md)，内接此前全部归档；旧结论/限制继续生效。
+**已读规则提交：fc4df48c64246225d1b6dc5d8ed2a79e73c76aee**（2026-11-16T05:14:39.850361+00:00；本地真实git pull --rebase origin main，两README SHA无变化）。root6979d793/topic35f82f3d。工作区/workspace/scratch/09e43497d694/math-research-public，partial/sparse main。完整前态、来源和全部已闭边界逐字保于[原余子式下降前完整H](handoff-archive-2026-11-16-before-adjugate-descent.md)，内接此前全部归档；旧结论/限制继续生效。
 
 每结论立即推；非快进/引用竞争立即实际pull --rebase再推循环，禁force。每小时及每push前实际pull，两README变化只读diff即遵守并记SHA。PAT只CLI不落文件。root独占main/共享索引，代理只专属稿。新数学只本公开Actions，本地仅纸证/IO/schema/hash/AST。根§15禁raw/机器证书进Git/Release或悬挂blob，一日artifact只保当前必要输入/断点。H<10KB/open<30KB/Markdown<100KB/课题<200MB；日志Asia/Taipei每条≤5行；不添独立测试gate。
 
@@ -46,4 +46,6 @@ R317余p2/5mod9完整非分裂正规化子，a³+db³1/p|b而D/bc无界；R707�
 
 **R859原CM模型p-unit比较已证**：[结果](results/R859-original-prime-to-p-CM-model-and-normal-content-transport.md)b8218a4b，R390完整BT/稳定格唯一性给原End_K(A)在p为O_E；F弱逼近校准Q同源/除p分母得degree prime-to-p到R728模型。逆different Néron格真运输；同h归一坐标u_hX+pX²V_h保每个content/首余项/同c_h赋值。原Hecke型与rec单位反号明确；content值、q的Manin/首项单位/height仍缺。sigma正在接实际逆different Fourier格与原q。
 
-**后继规范**：RF e2b87b99、SPa06a80ea、ZA268fa3fb、41S133d64af、41C569aa684、YPbdbb6cc5、FMa5d65aa4完整公式/原来源直复用；保b/s/λ/ζ²一次、CRT6逆、246/82^10/c0c1、I_Z、P0/P1、v_R=κv³/R、ν、theta二挠、全Corr、nonp/splitting。YP真实128/634 RR/254度/508主部rank507只是需求接口，原c/a(P1)/e/N/HeckeL/nonp尚未得。新纸面R861与后继源继续推进，不将表达式/局部球冒称完整原height。
+**后继规范**：RF e2b87b99、SPa06a80ea、ZA268fa3fb、41S133d64af、41C569aa684、YPbdbb6cc5、FMa5d65aa4完整公式/原来源直复用；保b/s/λ/ζ²一次、CRT6逆、246/82^10/c0c1、I_Z、P0/P1、v_R=κv³/R、ν、theta二挠、全Corr、nonp/splitting。YP真实128/634 RR/254度/508主部rank507只是需求接口，原c/a(P1)/e/N/HeckeL/nonp尚未得。R861及后继继续向真实q首余项推进，不将表达式/局部球冒称完整原height。
+
+**R861原Néron Fourier格及形式参数已证**：[结果](results/R861-original-CM-Neron-Fourier-basis-and-normal-parameters.md)3461121b。原r=r0/α、r^6=b/16不改；v=Σξ^-j g^j(r)/n首项不消，u=r/v∈O_L×。h=6a+1的逆different完整基f_h=u v^(1−h)，真good模型β_h=v^-hΩ_h；Fourier行列式p-unit，primitive筛后仍完整格。v/varpi^(p−1)为unram单位，canonical Néron basechange指数恰(p−1)h。等变性给X_h^can=v^-h c*Y_h∈R0[[X_h]]且线性项1；在w∈pR0它就是同一原q的归一G_h拉回（保已列单位）。不预填content M_h、首余项、Manin或height；继续实际q。

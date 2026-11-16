@@ -410,3 +410,9 @@
 - 原D0与算术cY在准确q→−q展开交换、cτ=τ，故δ/ν固定，FM23比较因子严格1；余子式未展开、RR/period/height仍缺。真W34缓存已找到，原三右端/W不重算。
 - R787自然结束且保新artifact14198754717/a188db0f，未得完整证书，正读实际位数；R815正上传，后继以真断点续接。H完整逐字归档后压缩，全部旧边界继续生效。
 - 本push规则：本地真实pull至b222cd25ef15e7c48fcdbef5817402868c43005c（2026-11-16T05:13:07.807229+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
+
+### 2026-11-16 13:14 Asia/Taipei — serre-public-astra-20261115
+- R861纸证3461121b完成原逆different逐标签基：v是真r0/α惯性投影，u=r/v原L单位；f_h=u v^(1−h)全基和good Fourier矩阵p-unit，primitive投影保全格。
+- canonical Néron basechange指数恰(p−1)h，等变性证明v^-h c*Y_h为真实整参数且线性项1；原G_h在深盘就是同一q拉回。没有求M_h/首项单位或把目标格饱和代q拉回；继续此真实源缺口。
+- R860已推b8a354fd；三次非快进/引用竞争均立即真实pull/rebase后重推，第四次成功，每次两README未变。两个长任务结束源正纯IO读取，按新断点续接。
+- 本push规则：本地真实pull至fc4df48c64246225d1b6dc5d8ed2a79e73c76aee（2026-11-16T05:14:39.850361+00:00），两README SHA6979d793/35f82f3d无diff；H/open保原稿及归档入口，主目标OPEN。
