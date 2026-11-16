@@ -156,3 +156,5 @@
 - [R558 真实零高度速度正t1弧及恒高累计成本](results/R558-real-zero-height-velocity-positive-t1-arcs-and-complete-constant-height-cost.md)：**已证明**同33母/同χ/同正则支的真实开放γ=0接入与严格正t1增量，制备负费和完整历史不删；准确恒等8Δt1+(2Zraw/H)Δp2=−T排单高度保p2的净t1修复。R554实际端IFT可保p2零/Π负于指定端，未授任意长流、变高度净修复或全M0。
 
 - [R557 同一规范的真实快高度回路与五个中心矩准确零](results/R557-five-centered-matrix-moments-with-a-real-fast-height-loop-and-one-gauge.md)：**已证明**同R521母/同χ的完整incoming加速度回路、真正末germ与五维实际端IFT；准确P0=P1=P2=T1=R1^y=0，原R1^x仍需S1。正R1速度项同步负T1/S0，全第三交叉/端势保；同词S0^y严格负，余三个独立槽及全period/13未闭。
+
+- [17:43指定来源状态核对](notes/public-source-topics-current-state-20261116.md)：固定b837bebddded526dd7dbafec916799ff7531de6e读取三个完整H，双README文本不变；R114基础、幅度开放前缀及精确附近条件组件均未支付本题.3D全门。无新计算、无重算或在途stdout读取，继续本题实际构造。

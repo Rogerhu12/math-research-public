@@ -51,3 +51,17 @@
 上述新组件均没有产生可以直接移植到本题、同时支付整像 δhold≥.3D 和全时全域 metric/reach/嵌入的完整族。未从来源“job成功”“完整恒等式”“整候选上界改善”推出本题主门；来源自己的成本与未返回边界保原页。
 
 本题现时仍是真实点58；whole34已经按[完整闭账](true58-whole-suffix34-iteration-limit-exact-box-failure-20261116.md)记录失败和缺失输出边界，总3231.8129525510003秒/147原值。新全51研究run43910342020/source077d1dbb9c184cf4c6edf3e4c20014880d810283运行中，尚无新科学观察。R547/R548分别完成同规范长时成本门及真实负p2入口，仍未全M0或主完成。
+
+## 2026-11-16 17:43 UTC：再次固定读取来源与本题规则
+
+固定提交 **b837bebddded526dd7dbafec916799ff7531de6e**；读取三个来源的完整HANDOFF。根README SHA256仍6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9，本题README仍e685cff0e67e6851a7911d4e9efbae0e7d326e093927af177f716f059b8c566b；无新差异，未重复读原全文。此处是源文字GET，不冒真正git pull；本题最近真pull及下个期限另记HANDOFF。
+
+| 固定来源 | 实际所读字节 / SHA256 | 本次可用范围 |
+|---|---|---|
+| [基础来源](https://github.com/Rogerhu12/math-research-public/blob/b837bebddded526dd7dbafec916799ff7531de6e/topics/visible-flexible-closed-surface/HANDOFF.md) | 9028 / 64c1846bd3d11c138f5773471d8a4a55fb88a5752b1a6ea9a72ebc885cee56e8 | R114基础held/D>.0527832、reach/D>.0312033未变，强目标仍未完成；旧失联检查点不是新接受或本题.3D证书。 |
+| [幅度来源](https://github.com/Rogerhu12/math-research-public/blob/b837bebddded526dd7dbafec916799ff7531de6e/topics/visible-flex-larger-amplitude/HANDOFF.md) | 9018 / 59d54ebc0aeb5ca998481b3bcb16caebc13db1868f9ff50ad374342c9913975c | 仍只有M96/N1024/scalar=.99开放前缀接受，完整非零112/338/450无。R610为具名源对象的完整同次连续残差/Gram接线，未执行新组件或得到闭面；common-material/full-phase、尾帽、全时reach及held仍未付。R609联合桥fail与完整记录未返不改写成科学结论。 |
+| [精确附近来源](https://github.com/Rogerhu12/math-research-public/blob/b837bebddded526dd7dbafec916799ff7531de6e/topics/visible-flex-exact-nearby/HANDOFF.md) | 9965 / b5e1cacdc9fd18531cc355db600c7ec84965f23f5c6a196476eb5e6d17164339 | WCTR充分门11976.30849仍false/finite0，不推奇异。W2C目前仅只读入口因AST失败、0新科学，最终joint kernel尚未可launch；WJK共同Green核抵消仍须完整collar项，finite/head/mean/ν/Θ/高门及同对象matching未付。 |
+
+没有读取来源运行中的科学stdout，也没有执行或重算来源证书。上述组件仍未提供本题所需整像δhold≥.3D、同固定g全时metric/reach/嵌入共同达标的完整族；条件改进、元数据成功和只读源检查都不当作主门。来源各自的原计算账、失败和未返边界保留。
+
+本题full62已按[原严格metric失败](true58-full62-whole-suffix-successful-backend-strict-metric-failure-20261116.md)闭账，总3757.97482037秒/147原值，仍接受58。下一完整168联合body/suffix模型尚在写源，未有新科学结果。理论R557已在同一R521母/χ给五个中心矩零但S0^y严格负；R558在另一33母给实际正t1开放段及恒高累计障碍，均未全M0或主完成，不跨母拼接。
