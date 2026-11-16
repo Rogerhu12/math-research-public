@@ -1,0 +1,55 @@
+name: Rank2 original local input
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-shadow-local-input.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-shadow-local-input.py'
+      - 'topics/rank2-sha-infinitely-many-p/ci/original-shadow-local-input-request.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-shadow-local-input
+  cancel-in-progress: false
+jobs:
+  original-shadow-local-input:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/rank2-sha-infinitely-many-p/README.md
+            /topics/rank2-sha-infinitely-many-p/scripts/produce-original-shadow-local-input.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_good_prime_germ_tools.py
+            /topics/rank2-sha-infinitely-many-p/scripts/check-r873-original-cm-petersson-degree.py
+            /topics/rank2-sha-infinitely-many-p/scripts/original_low_weight_cm_tools.py
+            /topics/rank2-sha-infinitely-many-p/ci/original-shadow-local-input-request.json
+          persist-credentials: false
+      - name: Construct the original formal input with certified r-adic precision
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_IMAGE='sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb'
+          docker pull "$RANK2_IMAGE"
+          RANK2_ROOT_README_SHA="$(git rev-parse HEAD:README.md)"
+          RANK2_TOPIC_README_SHA="$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)"
+          timeout 21000 docker run --rm --network none \
+            -e GITHUB_ACTIONS=true \
+            -e GITHUB_REPOSITORY="$GITHUB_REPOSITORY" \
+            -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
+            -e RANK2_RUN_ID="$GITHUB_RUN_ID" \
+            -e RANK2_RUN_ATTEMPT="$GITHUB_RUN_ATTEMPT" \
+            -e RANK2_ROOT_README_SHA="$RANK2_ROOT_README_SHA" \
+            -e RANK2_TOPIC_README_SHA="$RANK2_TOPIC_README_SHA" \
+            -e RANK2_IMAGE="$RANK2_IMAGE" \
+            -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=4 \
+            -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
+            --entrypoint /usr/bin/sage "$RANK2_IMAGE" -python -c \
+            'import json,runpy,sys; p="topics/rank2-sha-infinitely-many-p/"; sys.path.insert(0,p+"scripts"); sys.argv=[p+"scripts/produce-original-shadow-local-input.py"]+json.load(open(p+"ci/original-shadow-local-input-request.json"))["arguments"]; runpy.run_path(sys.argv[0],run_name="__main__")'
