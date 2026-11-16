@@ -2,51 +2,46 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-certified-original-thirty-strict-conjugates-and-five-Z-activation",
-  "commit_message": "serre: certify thirty strict original Galois RR spaces and activate five-Z tree",
-  "rules_last_read_commit": "61edabed6817cc9444726ebd15e1e52ae3505d78",
+  "request_id": "20261116-R905-original-intake-artifact-name-correction",
+  "commit_message": "serre: correct original R827 intake artifact name for R905",
+  "rules_last_read_commit": "439d4f63a4e60e831f4655c27704fca081db2e09",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "3449b70dba619bd856a16e9e1c96d927d8051e4e3c62c14153f78bd4a3fb5b8c",
+  "expected_previous_request_sha256": "6dfbee4ec1b1eb406bd1f0d9241119f60f6eda7b510422399d8b19f6d223d3ab",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R902-certified-original-thirty-strict-conjugate-RR-and-marked-principals.md",
-      "sha256": "a5c2d3bc906adbfbaf2e0de4185fae1748579b91ebabe7a8a2441ea7d84f714d",
+      "path": "topics/serre-uniformity/notes/R905-first-run-source-transport-correction.md",
+      "sha256": "ee1b82136c5e326f6f752d3decc65d97ec7cd7f61fb6c6d67765d3a9f48d5220",
       "expected_previous_sha256": null
     },
     {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-certified-thirty-conjugates.md",
-      "sha256": "bf97c127e09f0ab7598d71693634c238b7a37278ddf8f0af4b395a41e483e6cd",
-      "expected_previous_sha256": null
+      "path": "topics/serre-uniformity/notes/R905-trace-dual-connections-public-request.json",
+      "sha256": "3e863d8d0845f2a86e3ca1876947953de5f40c7137d2f8e291bdd9dd189a8bdb",
+      "expected_previous_sha256": "0dd579bca823dcbaa05f810e43b9e981c245b048a596514efd62f3964ba6516e"
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "b75af7b1d676df80df74e41609aad8561ad77af79dc68e05e665377f791b972d",
-      "expected_previous_sha256": "bf97c127e09f0ab7598d71693634c238b7a37278ddf8f0af4b395a41e483e6cd"
+      "sha256": "1d13b31ca95c614fb31b1d46d60444c1e006abb602f591c235a688c2f8626a13",
+      "expected_previous_sha256": "53538b6f4c5f29105190eccd976ad3cb2340c395728602a4acb02548eac461ba"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "9d20290c336633633948304b91ab755a0db426ccb94066aa0b018ef7d730b41a",
-      "expected_previous_sha256": "a751646047fc4ab5ae32145a378eca73e2ccb25faf509718ab253cf4c867b24d"
+      "sha256": "d0f8ed1749ef45748f6351c4577a42e88a4e712745a21631dbc209ea6bff1d9c",
+      "expected_previous_sha256": "9d20290c336633633948304b91ab755a0db426ccb94066aa0b018ef7d730b41a"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "35905cb20e6f61a81ae85536b83c91ec54d71cbd5eedec42fcd3d817aa814301",
-      "expected_previous_sha256": "7ccd636358f97b0e7bf13cca271e0750979aca136238ad46059d77e1ffe2795a"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.json",
-      "sha256": "0e0917c60397d87f647047dc9ebbb19677bad3ec6752dc03750e6eaa48f4c700",
-      "expected_previous_sha256": null
+      "sha256": "c88eab716f7cebbab9e54c6694217785ceb92ec0685a07c16c5a796423f10fd2",
+      "expected_previous_sha256": "a5de11816083fa8c22fe1c82fba107579c4c3804de75e0b594de6957444a721c"
     }
   ],
   "dispatch_workflows": [
     {
-      "workflow": "serre-R901-five-Z-shared-flips.yml",
-      "request_path": "topics/serre-uniformity/notes/R901-five-Z-shared-flips-public-request.json",
-      "request_sha256": "0e0917c60397d87f647047dc9ebbb19677bad3ec6752dc03750e6eaa48f4c700"
+      "workflow": "serre-R905-trace-dual-connections.yml",
+      "request_path": "topics/serre-uniformity/notes/R905-trace-dual-connections-public-request.json",
+      "request_sha256": "3e863d8d0845f2a86e3ca1876947953de5f40c7137d2f8e291bdd9dd189a8bdb"
     }
   ]
 }

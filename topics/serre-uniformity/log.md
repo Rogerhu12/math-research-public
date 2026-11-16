@@ -361,7 +361,12 @@
 - 同D418→146、完整272迹/三系数及QN先校正/真cY运输保持；R902实际30对7015stage已结束，必要小件IO43892014668正在读，尚未把它冒作126聚合。
 - 本push规则：公开Actions真实pull至61edabed6817cc9444726ebd15e1e52ae3505d78（2026-11-16T15:04:03.153726+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
 
-### 2026-11-16 23:08 Asia/Taipei — serre-public-astra-20261115
+### 2026-11-16 23:10 Asia/Taipei — serre-public-astra-20261115
 - R902真实30严格共轭全成：7015stage/2709.890s，原同选图/整数锚、完整残余146/418及ρ-t原首项保全；只有δA6新，旧27纤维/导数/jets不重。
 - 66原件必要IO已读，完整来源及30首项单独认证；R901实际request一次填R900/R902/35原空间与主函数，固定126计划不变。R905首run在运输artifact名校验退出、未入数学核，正作单字符串修复。
-- 本push规则：恢复worker真实pull并比两README后写入准确commit/UTC；已核61edabed两SHA无diff，主目标OPEN。
+- 本push规则：公开Actions真实pull至439d4f63a4e60e831f4655c27704fca081db2e09（2026-11-16T15:10:10.277486+00:00），两README SHA6979d793/35f82f3d无diff；本仓库Actions执行恢复发布，主目标OPEN。
+
+### 2026-11-16 23:11 Asia/Taipei — serre-public-astra-20261115
+- R905首run43892405424/job133387056768未入数学核，真实失败是R827必要包artifact_name误写；API核实ID14221081225/ZIP a333e11c和tar f89b9401均原样有效。
+- 只把请求名改为serre-R880-six-Dstar-source-intake-43854607823-1；core/helper/wrapper/method/workflow无diff，resume仍null后重派。R902已推dbfb172d并受理R901固定126树。
+- 本push规则：恢复worker真实pull并比两README后记准确commit/UTC；已核439d4f63两SHA无diff，主目标OPEN。
