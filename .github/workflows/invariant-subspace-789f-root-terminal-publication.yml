@@ -32,7 +32,7 @@ jobs:
             /.github/workflows/invariant-subspace-789f-root-terminal-publication.yml
       - name: Publish prepared conclusion with actual pull and immediate non-fast-forward retries
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.MR_TOKEN || github.token }}
         run: |
           python3 topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py
       - uses: actions/upload-artifact@v4

@@ -1,20 +1,17 @@
 {
   "format": "isp-root-terminal-publication-request-v1",
-  "parentCommit": "780b8262af7adba45dc9104a33d02f9a573a594e",
-  "createdUtc": "2026-11-16 03:43:43 UTC",
-  "message": "ISP: publish the two-probe result and expose sanitized terminal push failure diagnostics",
+  "parentCommit": "744efc0042987b6559cc09fec26e37a6d16074b0",
+  "createdUtc": "2026-11-16 07:34:00 UTC",
+  "message": "ISP: restore actual terminal publication through the authorized Actions secret after executor outage",
   "rulesGitBlobs": {
     "README.md": "21bd547f56590b7f2dd279d0297efb289a9b2783",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "allowedPaths": [
-    "topics/invariant-subspace-problem/results/R150-appendix-original31-two-fourth-probes-have-zero-new-image.md",
-    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-original31-two-zero-probes-789f.md",
+    "topics/invariant-subspace-problem/notes/2026-11-16-handoff-before-actions-executor-recovery-789f.md",
     "topics/invariant-subspace-problem/HANDOFF.md",
-    "topics/invariant-subspace-problem/open.md",
-    "topics/invariant-subspace-problem/results.md",
     "topics/invariant-subspace-problem/log.md",
-    "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-789f.py",
+    ".github/workflows/invariant-subspace-789f-root-terminal-publication.yml",
     "topics/invariant-subspace-problem/notes/2026-11-14-root-terminal-publication-request-789f.json"
   ],
   "dispatchWorkflows": []
