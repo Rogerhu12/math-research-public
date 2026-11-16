@@ -120,7 +120,7 @@ R839 的最高平移不变、超椭圆/真阿贝尔平移像消失及属三 dete
 R843–845 条件 g4 的 CM order/域、Prym、三/二/四同源结论保持有效，但已不能作为原来源继续识别。不要将一般满足这些 CM 性质的曲线替回原有限表达。
 
 [R848](results/R848-original-degree-eighteen-hecke-quotient-and-top-form.md)给原 degree18 源商 X0(867)、三个真正 T2 邻点、显式目标三维商及 Ω=dv∧du∧dn/(6w)，并保原像次数和 proper push 的18。原最高 Π 仍在 E0³ 上；奇异商上的投影运输、边界以及 R814 canonical cycle 的指定非零比较尚未证明。
-R849 正核完整几何 E0-isotypic source 的二处表示和真实 g7 限制；未证明前不采用其候选排除。更高亏格曲线及原有限总和非零仍开。
+R849已付完整几何E0池与属七必要核，准确余两种结构见下节；它们是否在原来源实现、更高亏格曲线及原有限总和非零仍开。
 
 ### 完整 critical Hecke 与原四首
 
@@ -187,3 +187,9 @@ AST/strict/fine不代通常全Selmer；有限p、复秩一、局部单位、条�
 
 
 [R840实际primitive块与全V1=0分支](notes/2026-11-16-r840-actual-euler-primitive-block-and-zero-first-value-kernel.md)已给严格三长交零及唯一同G0前缀修正；负纤维全部只读该G0的值。接着判同A的实际双行核、与R834完整分歧理想联合像及其它非零V1分支，不能加两个分别单射的秩；同G的正/固定/∞/P与第四短行全保。
+
+
+### R852：原Schoen像的精确Chow逆已付
+
+[R852](results/R852-original-schoen-correspondence-and-exact-chow-inverse.md)：由实际Sym²h1(E0)=L的CM特征分解付C+⊗C−=L，最高M±真可逆且End=系数域；原u=([ω],1,1)与目标σ=(ωx,ω²y,ωr,ω²s)的完整等变图形严格消交叉块。原−18及degree3读出ΓᵗΓ=9Π，故P9=ΓΓᵗ/9、Λ=Γᵗ/9给精确Chow互逆，原Z=ΛZ9及全部Artin/source3/6/12/1632/816保留。AJ正逆−18/−1/18，未把同动机当作R814指定canonical相等或跨p非零。
+**继续：** 将这个固定P9与原R814非Dirichlet good-pair的实际CM/Kuga–Sato类比较；既有Γ/Λ只运输原Z及其像，不能补另一个KS来源的Tate对应、CH rank1或p-adic AJ注入。
