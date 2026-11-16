@@ -2,66 +2,34 @@
   "schema": 1,
   "session": "serre-public-astra-20261115",
   "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R927-complete-parent-IO-repair-and-halfdual638-continuation",
-  "commit_message": "serre: reuse complete reference frames after IO repair and continue half dual at 638",
-  "rules_last_read_commit": "91a1d130cfda35eb001eb0a237c0a2ead37db809",
+  "request_id": "20261116-R930-certified-seven-whole-Artin-connections-and-traces",
+  "commit_message": "serre: certify all seven original whole-Artin connections and differential traces",
+  "rules_last_read_commit": "699106189c165644414cca1cb2d318b9d296a1a0",
   "readme_sha256": {
     "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "f623050eb6bbd2f4d1c8e1e89b80293e163449a4cd941fc933a35acb084bb5cf",
+  "expected_previous_request_sha256": "c0cca2f7ca1a5f40317967a4a6a32f75840078507ef98c39d1855f4d62e046bf",
   "files": [
     {
-      "path": "topics/serre-uniformity/scripts/R927_public_original_reference_norm_frames.py",
-      "sha256": "3fa04f1d3ed8b72ec5d763110834ad20bab6c14323f3eed3807d692a6770168d",
-      "expected_previous_sha256": "302c960c30f69bd77122008db476bb749aa833c078d58fa0b7b0bf6a53f1a829"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json",
-      "sha256": "9406c21c46e6869dde780aaec2f9718052828d9719740ddb4007a146eb76ff4c",
-      "expected_previous_sha256": "7d169e76e346b0e9f6b41814b5102d7bda7ec545078c819a3c774adca81bfda8"
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R927-complete-parent-IO-reuse-and-field-name-repair.md",
-      "sha256": "098eb20f1455ec94deaf261ab3b8797a61bbc3479ffbfa39fcb0ec3a99366c35",
-      "expected_previous_sha256": null
-    },
-    {
-      "path": "topics/serre-uniformity/notes/R787-half-coordinate-dual-CM-value-public-request.json",
-      "sha256": "f7b348bac31c39e0358c5552e765ff0109983a173460f07e49a0dfa384331f70",
-      "expected_previous_sha256": "2800836c786c308dd51fa96a0a7a248eecf6f28f9d7e72d47017cc3039a1ed28"
-    },
-    {
-      "path": "topics/serre-uniformity/handoff-archive-2026-11-16-before-complete-reference-reuse-and-half638.md",
-      "sha256": "e719a90e5ed5dd51ef28f16de3e5f22c252c84caa34c373cc1b3871b906f8377",
+      "path": "topics/serre-uniformity/results/R930-certified-original-seven-whole-Artin-target-connections-and-differential-traces.md",
+      "sha256": "1b85f8a6feffceff47cd6350aa2b1457a961df7402fb63ad9ec4b739cdac35c5",
       "expected_previous_sha256": null
     },
     {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "fadc81826e62f73b8d96b062f78c934f95bcc57ec94b455028f61c11e09a3e1d",
-      "expected_previous_sha256": "e719a90e5ed5dd51ef28f16de3e5f22c252c84caa34c373cc1b3871b906f8377"
+      "sha256": "b91e8194a8c94378e373376422488d7fb1e198e4ea249778c5279a8e2ec1121e",
+      "expected_previous_sha256": "6f5c6e550a557b26f838dee2bb37035a78ad216800e598a940a6be38c5e6d382"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "91649e34eb668037e4dfaeda909f5fa70f0985d4baaea01bd393d74c339bff3a",
-      "expected_previous_sha256": "b1962b8c0c6d303e5806b789ed00ce0c692d6fb7105e6bb880e1d170993d61d7"
+      "sha256": "35c742a4160b1c36fe1f6829696130d00b650a2851108a3c2f2e880eb6daaab1",
+      "expected_previous_sha256": "91649e34eb668037e4dfaeda909f5fa70f0985d4baaea01bd393d74c339bff3a"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "f6150f4790c745ee15173f89c2228a7c048cff877b75ff53a6579de0dc0cf4c5",
-      "expected_previous_sha256": "da9c956dd1313f825ac5323dfd1af2fa1c67933b5534f645f60ade654e469700"
-    }
-  ],
-  "dispatch_workflows": [
-    {
-      "workflow": "serre-R927-reference-endpoint-norm-frames.yml",
-      "request_path": "topics/serre-uniformity/notes/R927-reference-endpoint-norm-frames-public-request.json",
-      "request_sha256": "9406c21c46e6869dde780aaec2f9718052828d9719740ddb4007a146eb76ff4c"
-    },
-    {
-      "workflow": "serre-R787-half-coordinate-dual-CM-value.yml",
-      "request_path": "topics/serre-uniformity/notes/R787-half-coordinate-dual-CM-value-public-request.json",
-      "request_sha256": "f7b348bac31c39e0358c5552e765ff0109983a173460f07e49a0dfa384331f70"
+      "sha256": "e2a7f257176d73b6c4118a6075be7abc59b4e6644bdcacbb9f0b235896c82234",
+      "expected_previous_sha256": "969f5be8e173ead7a82ae0d008d2e97b6e13bd17398fa61f1a43854c022eddf7"
     }
   ]
 }
