@@ -41,20 +41,20 @@ SNA4214de05原43751213826/1/21锁；双支四导/真H D/ε/√j/signed μ全保�
 
 SEIA87055721原43773319871/1/20及2signed锁；八真H导与独立μ一次，ci>0/co<0、同逆K0<1.034/K−<7.823只selected主因子。fullscalarmean/两physicalmeans/旧log保，fullincoming/finite/return/背景仍待。
 BF e8e29c49保实际square B=T+E+LV、两mean/primitive/density及PUVP；仅完整strong χ=K0 CE ΛJ^-4/3<1后两窗高逆。运输head有真实dual而非新角有限支撑；完整sign/second-reference/PW仍无限，actualcolumns/matrix/inverse未付。
-SE22201747自然S_nat=Dc+K增2/3、−7/6/−5/2窗index0；cutoff97可逆未授。仅完整actualAi incoming injective后C onto并同侧准确消，独立第二输入/正侧rest/两mean/roughbulk费保。
-FC46ccc206固定smooth kernel/coker有限W使S_nat+W各固定窗逆，真实Poisson补列覆盖同given-head整图，rest/affine保。common Csharp只实际incoming逆确成后消；m/basis/F列/H4/3 dual/norm/finiteSchur/fullincoming/参数uniform未付，原C核0未授、第二输入保。
+SE22201747自然S_nat=Dc+K增2/3、−7/6/−5/2窗index0保；R97R/RNI已付本real/root97域同逆定性。共同因子只在全incoming逆确成后同侧消，独立第二输入/正侧rest/两mean/roughbulk费仍保。
+FC46ccc206通用有限W补全与同given-head整图结论保；本real/root域由R97R/RNI得m/W/F_C=0，无需额外补列。common C只在实际incoming逆确成后消；physicalmeans/其他ports、完整columns/finiteSchur/fullincoming与真背景uniform待，第二输入保。
 
-[根jet已成索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD/RBJ/RDA/RBD/RBG五原段：genuine BV/H整替，公共K4/η3/Mrr先消；hrrr/无z曲率/正meanrank/真βn/输入右序/全J与低1/4保。全δ/角域及whole e严格门仍需实际证；未授kernel0/incoming/finite/非线性。
+[根jet已成索引](notes/2026-11-16-completed-root-jet-and-operator-interface-index.md)保RD/RBJ/RDA/RBD/RBG五原段：genuine BV/H整替，公共K4/η3/Mrr先消；hrrr/无z曲率/正meanrank/真βn/输入右序/全J与低1/4保。原real/root whole e由R97R严格通过；其他参数/角域不外推，fullincoming/finite/非线性待。
 
-[RNI条件自然窗逆](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md)d771cf43：仅实际R97同域μ>0后，原kernel/coker=0与FC m/W/F_C=0；负自然两窗以gain2/3的m2/m4有限代数同逆，另需各完整gain常数，不照搬L2值。normalized族可范数连续，真Riccati因子仅保逐频连续前提下strong；selected坐标全δ资格未授。两physicalmeans/低head/径向head/其他finitecross/全incoming仍待，当前无新pass。
+[RNI自然窗逆](results/R133-supplement-conditional-cutoff97-faithfulness-and-uniform-natural-window-inverses.md)d771cf43的前提已由R97R实际正μ支付：本real/root97族kernel/coker=0、FC m/W/F_C=0。−7/6、−5/2两窗同逆定性由gain2/3的m2/m4有限代数保，显式gain常数仍待，不照搬L2值。normalized族范数连续，真Riccati因子仅逐频连续前提下strong；selected全δ资格、两physicalmeans/低head/径向head/其他finitecross/全incoming仍待。
 
-[RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264的完整八行/有限pairing保原proof：z=j^-2=16N^-2，hrrr只N^-10/3，无z曲率留h0；正ΠM_E0秩/全J/IR0原1/4/真βn和物理4ℓ保，1+zh另gap。Ai有理下界只real；whole e严格门、同自然负窗及incoming/finite仍待。
+[RBO精确输入阶与完整mean行](results/R133-supplement-ordered-genuine-root-input-powers-and-complete-mean-row.md)a45e0264的完整八行/有限pairing保原proof：z=j^-2=16N^-2，hrrr只N^-10/3，无z曲率留h0；正ΠM_E0秩/全J/IR0原1/4/真βn和物理4ℓ保，1+zh另gap。Ai有理下界只real；原real/root whole e已R97R付；负窗数值及incoming/finite待。
 
 [RI原已成根数据库存](results/R133-supplement-root-stable-trace-saved-input-inventory.md)01afb86c核10inputs/7sources：普通高jet/全mean与η3/完整mixed4×5/左∂J普通L2。aux整体fail保，仅1/10000、1/2000成功；4501B与30595B只精确history临时恢复。物理λ/rootV取smallcase，β取large terminal，9/2非λ。完整原球/域/所有恢复身份保proof；无旧重算/fullincoming/finite授予。
 
-[R97配方](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md)543ebc38保δ3五组/ΔRD九组先收、h0/a*关联，全Srr/k1v²/mean/h三导/两ref/1/4/正均值秩；仅real |δ|≤1e−8/fixedη0/root。[R97F](results/R133-supplement-actual-root97-interruption-and-preserved-domain-prefix.md)6ab486cf锁首43786583355/1 child1/14门及40mixed/domain，radial未存、后段未执行、e/g=0。[R97R接续](results/R133-supplement-exact-root97-saved-prefix-recovery.md)fc8bef9c：9current/3AST/0history，仅原prefix只读续未存后段；9处signed平方x*x/9新门/实际计数，已部署799b7faa/add2b325/5d993fef，actual待。禁扩域/重成功；incoming/finite/负窗数值逆/真背景待。
+[R97配方](results/R133-supplement-complete-root-cutoff97-scalar-recipe.md)543ebc38保δ3五组/ΔRD九组先收、h0/a*关联，全Srr/k1v²/mean/h三导/两ref/1/4/正均值秩；仅real |δ|≤1e−8/fixedη0/root。[R97F](results/R133-supplement-actual-root97-interruption-and-preserved-domain-prefix.md)6ab486cf锁首43786583355/1 child1/14门及40mixed/domain，radial未存、后段未执行、e/g=0。[R97R接续](results/R133-supplement-exact-root97-saved-prefix-recovery.md)fc8bef9c：9current/3AST/0history，仅原prefix只读续未存后段；原43789221154/1 child0/9门严格通过，SCI56630/0c27195f，e≈.3028969463<g−≈.9523027953、μ≈.6494058490；五旧对象原字、比较1/旧重算0。禁扩域/重成功；incoming/finite/负窗数值逆/真背景待。
 
-[RBT原根带宽与真实tail Schur](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)8a20d39c只对同explicit有限族原root：E2带宽384、R0带宽576，完整正meanrank输入≤384/输出≤192；J/L不假band。Jt>576时只在J/L之前以4(Jt−576)付IR0、ΠBV P_t精确0，得独立conditional L2 tail门。真正97..Jt−1双sign有限Schur含完整cross/J/meanrank必须另证；原97费用/新consumer不改。负自然窗仅全kernel0后SE定性转授，不复制L2常数；两physicalmeans/原head/独立ports/fullincoming/finite仍保，无新pass。
+[RBT原根带宽与tail Schur](results/R133-supplement-exact-root-bands-and-complete-stable-tail-Schur-interface.md)8a20d39c保E2/R0带宽384/576、正meanrank、J/L非band及Jt>576完整双sign/mean/cross Schur。R97R已直接通过原97，故此fallback不再是该root门的必需计算；它不支付global finite。负窗数值、两physicalmeans/原head/独立ports/fullincoming/finite仍保。
 
 BTb5c2f844的Q97/TF^-1双消与真实joint dual=E97*S^-1无√193，scalarΠ≠physicalmeans。SQ97S^-1/右Z97、rootFF≤1215/固定FT/density/mean/cross finite；radialhead及传播积分仍可无限。actualcolumns/dual/square/独立ports/无限费/finiteinverse未付，六register与旧SJ/CG/WE保。
 
