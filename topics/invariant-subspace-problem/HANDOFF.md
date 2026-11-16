@@ -3,43 +3,37 @@
 ## 主目标、授权与规则
 
 - **未完成：** 普通复可分无限维 Hilbert ISP。只有全体有界算子的存在定理或完整反例才收尾；子问题结束继续open，不在阶段报告或时限停止。
-- **最近成功实际 pull 与已读规则提交：** 49f8269de87f70e989133adde8d0fa85659517cf（2026-11-16 04:52:38 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0454-global-bell-coordinates.json。
+- **最近成功实际 pull 与已读规则提交：** 943a3405b885627d12d394739bcfe8b9725dd270（2026-11-16 04:56:42 UTC，本地真实git pull --rebase origin main成功，两README无差异）。记录：notes/local-terminal-pulls-789f/2026-11-16-0457-exact-nine31-denominators.json。
 - 仅授权 Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿；每条结论真实终端push，非快进立刻pull --rebase再推至成功，不force。至少每小时及每推前实际pull，逐两README比blob、仅新diff重读并即时遵守。
 - 已读根blob21bd547f56590b7f2dd279d0297efb289a9b2783、课题4d6570e9cf346431ab781a1290076a6321aaaa00。token仅CLI环境，不写文件/日志/config。无新增审批门槛，数学预算自主。
 - 规则15：可重算矩阵/计算输出/证书数组不进Git、Release或新大工件，不分块绕过；只源/参数/执行身份/输出SHA及正式证明。topic≤200MB、API仅UTF8<100KB、MD<100KB、H≤10000B、open尽量≤30KB、log每条≤5行、数学美元符、AI署名，不写根LOG。
 - 本地CLI已恢复，仓库/workspace/scratch/789f3e887d7c/math-research-public，exec必须显式workdir；旧cwd消失曾造成工具失败。Actions bot push403，现授权CLI真pull/push；API source不算push。Actions原预算约4核16GB/job≤6h/账号≤20。
-- 完整前态/所有未列问题与来源保[本次H全文](notes/2026-11-16-handoff-before-global-bell-coordinates-789f.md)及归档链；完整结果索引保[本轮results归档](notes/2026-11-16-results-before-continuous-tower-barrier-789f.md)。未列条目不算关闭。
+- 完整前态/所有未列问题与来源保[本次H全文](notes/2026-11-16-handoff-before-exact-nine31-denominators-789f.md)及归档链；完整结果索引保[本轮results归档](notes/2026-11-16-results-before-continuous-tower-barrier-789f.md)。未列条目不算关闭。
 
-## R150：已付范围、完整31谱与原最少分母接续
 
-原归一rank-one图：17梯度、原A6188→4367、Q泛秩4354，完整高normal W4212。以下只按各原范围使用。
+## R150：原rank-one已付与完整31接续
 
-- [完整相对商25](results/R150-appendix-zero-projection61-and-complete-relative-nine-target-module25.md)：zero P长61/free13，T0长5，完整T为Q维25；χ=s²mon(h*)、ann=mon(h*)，九目标生成全部T，h*W⊂原L。h*=s³F+²F−²E8，deg23；zero分拆(3,2)/(3,1,1)未定。
-- [原Δ与完整来源费](results/R150-appendix-exact-affine-divisor298-unmultiplied-nine-sources-and-rank-one-bell16.md)：aff Δ298/齐次364，strictΣ0外μ1；全部4212已证member共同源费8391，原moment三以下有限来源，不移给其他图。fullcritical F±谱(3,5)、E8(2,3)，目标各指数2/2/1。
-- [唯一127与整源](results/R150-appendix-unique-coefficient127-torsion-and-integral-nine-square-sources.md)：D127唯一tors D/127在s63，原p²读40，九h*t有D127[s]源。五广义完整I1均0本身不排高层，完整唯一系数定理另付；不扩整个W的整费用。
-- [rank-one Bell8](results/R150-appendix-all-high-normal-source-cost8391-and-rank-one-bell-eighth-powers.md)/[整个𝔫⁸](results/R150-appendix-entire-transverse-ideal-eighth-power-original-rank-one-sources.md)：45真quadratic CRT保所有混合八次，原source moment≤18；rank≤1均值matched remainder零。振幅清分母、全J/essT3≥4及实际Bell算子桥仍开。
-- **[完整31指数谱](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)：** 原C=D^298⊕tors，完整tors指数1²/2⁵/3²/4⁴/5²/6、D长50、最高恰6；χ(T/pT)=(s−1)²(s−2)^14，root1为1/2、root2为(1,4,2,4,2,1)。原九h0目标现exact 31²h0*t∈L，source cost≤8515；保s−2，不取消它。旧e0已排，每目标最少e为1或2，七socle开始实际判别。
-- **全210实际：** 1104.606秒/30stage exit0，完整315合并rank16/incoming15，新商rank1、I4(B)累计9；187非零列/首index12(label30013)，旧208/209仍零。123717110整数坐标及全部G/free/参数作用真，独立复核15/16/15；raw42372·dd867cfb、binding712f9b42。完整源/原六field零carry及精度25→20→15→10→5保前H与上述31正式稿。
-- 31 scripts/logs=/tmp/literature_root2_789f；work指向/workspace/scratch/789f3e887d7c/literature_root2_789f_work，完整原source cochains暂留。完成identity见notes/2026-11-16-r150-root2-fourth-complete210-local-execution-789f.json；源ad18b974/全部恢复pins不动。后继[完整七socle](notes/2026-11-16-r150-original-h0-complete-seven-socle-interface-789f.md)保真实U13而非canonical前13，接L5两列与新L6 index12，15→10→5及全315/104/505，消费原九pb不只固定来源。
+- 原A为17梯度/6188→4367、Q泛秩4354/W4212。完整相对T维25，χ=s²mon(h*)、ann=h*、九目标生成；h*=s³F+²F−²E8/deg23，h*W⊂L。原aff Δ298/hom364、strictΣ0外μ1，已证member全W来源费8391；critical F±(3,5)、E8(2,3)。rank-one Bell8与整个𝔫⁸仅原图/source moment≤18；唯一127系数tors D/127/root63，九h*t有D127整源。全部原链接与限制保前H归档。
+- **[完整31谱](results/R150-appendix-complete-coefficient31-exponent-six-and-exact-original-p2h0-sources.md)：** C=D^298⊕tors，指数1²/2⁵/3²/4⁴/5²/6，总长50/最高6；root1为1/2，root2重数(1,4,2,4,2,1)。全210真跑1104.606秒/30stage，完整315秩16/新增1，I4累计9、首L6 index12/30013，123717110整除坐标全真。binding712f9b42，raw42372·dd867cfb；旧208/209零不再决定全页。
+- **[九原h0目标最少分母全部恰31²](results/R150-appendix-original-nine-h0-targets-exact-two31-denominator-and-complete-socle.md)：** 保h0=(s−2)h*，九31²h0t∈L且31h0t∉L，任意参数次数也不能降一阶；精确来源费≤8515。完整七socle矩阵rank1/九列全非零，五整数stage2554695坐标、两G139590/93060及104/315/505全真。实际171.103秒/16stage，bindingdce92fb5，raw23423·6533b887；52输出SHA/三个span独立复核。未把h0换h*。
+- 31源码/log在/tmp/literature_root2_789f；work为/workspace/scratch/789f3e887d7c/literature_root2_789f_work，父root2-fourth-complete210-p7与子original-h0-seven-socle完整cochains暂留。运行/续接见notes/2026-11-16-r150-original-h0-seven-socle-runtime-interface-789f.md及同stem-local-execution-789f.json。全部数组只临时，源和身份已推。
+- **下一原zero T0：** 完整zero P长61/free13、相对T0长5/s³杀，分拆(3,2)或(3,1,1)未决。literature_audit正查既有K0…K10完整left-jet平方读数，用sT的18原列{s t_j,s²t_j}共同秩3/2判别；不能只九列、不伪造只存hash的旧数组。原h*的31分母也未由h0结论自动关闭。
 
-## R150：真实非rank-one完整纤维与参数异常集
+## R150：完整非rank-one与Bell非零
 
-- **[两原子完整纤维](results/R150-appendix-original-two-atom-full-macaulay-rank4367-and-parameter-open-critical-ideal.md)：** 原y=e0+e5完整6188→4367满秩，Q I=(M)，乘子degree≤3；参数ab(1−st)D非零上完整I=(M,Z)。D=0/合流仍开，原1309/244990全核，raw7454·190d134f。
-- **[Cat3消去](results/R150-appendix-original-cat-rank-three-full-macaulay-rank4368-and-mean-elimination.md)：** 原y†=(2,1,1,1,1,2)完整6188×4368含constant满秩，I_y†=(1)；同原选行给0≠D(y)∈J∩Q[y]，degree2643/H源degree≤3。只D≠0为空，不是全部Cat3无点；raw9208·a1aff8a4。
-- **[原W±兼容与Cat3正支](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)：** 全H/V交空间均维3，完整10系数消成4×3，增广det=κ·CatCubic·R±；rankA3且Cat3开集相容iff R±=0。两真Q三次数域点均原33梯度/36H/216V全真、Cat3/essT3=3，raw2925·e2597960；故Cat三阶minor不全在√J，不能追全Cat3为空。三个匹配Bell仍全零。
-- **[完整Bell系数图与平方非成员](results/R150-appendix-complete-matched-bell-coefficient-charts-and-natural-square-nonmembership.md)：** 六mean/十一H全自由；原R3的17梯度、512 J3逆坐标/加权Euler全核，Bell的11×6 H系数rank6，六开图覆盖每个B_r≠0。完整wt6为3520×388，模127满列rank388，加入B_r²三个有理分量rank391，故每匹配嵌入B_r²不在原完整J（任意高来源亦不能避）；不排更高幂/√J。实际4.414秒、raw2789·c37ab216、bindingba1bdf0c；源/身份已入notes。后继全局B=y·w坐标与essT3≥4的完整Bell非零饱和，数组只在/tmp/normal_nonrankone_789f。
+- 两原子原纤维完整rank4367给I=(M)，参数ab(1−st)D开集给I=(M,Z)；Cat3一点含常数rank4368给齐次D(y)∈J/deg2643。D=0/合流不受前者覆盖，不能追全部Cat3无点。
+- [原W± Cat3正支](results/R150-appendix-original-isotropic-plane-mean-cubics-and-cat-rank-three-critical-points.md)：完整4×3增广det=κ CatCubic R±；rankA3/Cat3下相容iff R±=0。两真三次数域点33梯度/36H/216V全真，故Cat三阶minor非全在√J；matched Bell仍全零。已有全essT3≤3分类给三个Bell全零，真正剩ess4/5/6。
+- [完整平方非成员](results/R150-appendix-complete-matched-bell-coefficient-charts-and-natural-square-nonmembership.md)：六mean/十一H全自由，wt6全3520×388，模127满列388/加三个平方分量391，严格升Q得每匹配B_r²∉J；任意高来源不绕过，未排√J/更高幂。实际4.414秒/raw2789·c37ab216。
+- [全局双线性坐标](results/R150-appendix-global-matched-bell-hyperbolic-coordinates-and-normalized-critical-ideal.md)：w=MH+∇β/3、u=余五H，B=y·w；完整36双逆/578 Jacobian/34 Euler实真，只除固定数域常数，原R′保完整直线组合。B=1理想=(R′,B∂R′−2R′∂B,B−1)，六yi图保16切向导数+R′，不能二次缩放。实际1.979秒/raw1846·89a175fe。
+- normal_annihilator已实际完成纯五u三次Jacobian的degree6全210×350门：Q表示630×1050模127秩630，47250清分母乘回真，14.830秒/raw1747·1af39e72。正式稿正核：若用Koszul过滤，五u方程商在E[y,w]上应全局free32；剩12梯度尚未求，不预称全critical商32。临时/tmp/normal_nonrankone_789f，完整Bell非零饱和继续，每匹配方向分别处理。
 
-- **[全局Bell双线性坐标](results/R150-appendix-global-matched-bell-hyperbolic-coordinates-and-normalized-critical-ideal.md)：** w=MH+∇β/3、u=余五H给B=y·w，完整17变量多项式双逆，只除固定数域常数。实际36坐标/578 Jacobian双逆/34 Euler全真（1.979秒，raw1846·89a175fe）；R′保原完整直线组合。全J运输与B=1理想=(R′,B∂R′−2R′∂B,B−1)精确；六yi图需16切向导数+R′，不能二次缩放。余五u纯三次essential5；其projective Jacobian是否零维正实算，未预报有限32代数。
+## R271：原完整源、边界与当前工作
 
-## 边界：原同源接口、完整头与下一实际费用
+M=kerT，N=closure BM，N=M仍开。保同w/u、负前缀/未来、全部partial、真intersection旗及MP自然域，不用环境压缩逆替真实返回。
 
-始终保同w/u、未来/负前缀、全部partial、真intersection旗及MP自然域。M=kerT，N=closure BM；N=M仍未付。完整原G_reg同forcing/carry、Haar普通循环性及所有旧open仍保归档。
-
-- [真强前缀远方差](results/R271-appendix-actual-strong-head-gram-comparison-and-true-far-variance-source-limit.md)：C−A_x为原carry压缩，η≤e^−d⁴，完整Gram/inverse差≤14ηs⁻¹e^(49/s)。x+1≤d^(4/3)/8、s≥Sx给≤e^−d⁴/2；R=d/x=m+d/h=2d可用，任意J<h的实际a/F强趋PM。Q≥R+J保同PV/PK/u；此前只有ε→0、无速率。
-- [一次MP](results/R271-appendix-damped-small-height-complete-once-mp-residual-and-moving-head-budget.md)/[二次primitive回馈](results/R271-appendix-coherent-second-sequential-mp-primitive-feedback-and-same-source-repair.md)保原top/自然域与母窗，z2仍留Cq2；完整τ/J费用保前H，未代全核修复。
-- [完整物理终端](results/R271-appendix-complete-physical-terminal-kernel-gate-and-head-determinant-bound.md)的µ_K^-1≤e100K⁴，仅K⁴=o(logm)可用，不倒用R>0；Chebyshev真核logQ=35d⁴/6+O(d³)仍超原26d³母窗。
-- **[原连续全塔](results/R271-appendix-continuous-compatible-vacuum-tower-marginals-and-linear-deep-return-barrier.md)：** 真推bd82cb9f，复/有符号完整边际给高至7x/4必有σ_j²||v_j||²≥1+x/32768；首列真MP时全j≥3x/2有线性下界。完整同a的F−z正交平方≥c*xΣ高E，保Q≥R+h−1；不反实际a。
-- **[完整log方差选择](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)：** q̇(logs)=ΣjE_j，完整inverse无交换假设。一次选s适用所有Q≥R+J；固定倍数窗给ΣjE→0，窗[Sx,xSx]给≤Δ_Q²/logx，仍s→0；另有s/Sx→1的真实端点选择。不得删canonical系数M_j/y_j−2+y_j中的1/y_j，未据此付全修复。
-- **[真C幂与完整高段](results/R271-appendix-true-strong-head-powers-and-complete-deep-return-high-tail.md)：** ||C^j||≤7^j e^(−(770/256)(j−x)_+⁴)，保全强位/真实借位。x≥1024、J*=ceil(x+2√x(logx)^(1/4))，任意a/J<h/s≥Sx的整个canonical修复高段≤e^(−x²logx)||a||²，不依h≤2x；R=d原Q窗合法。先前线性高层必要门已付，剩1≤j<J*中段/完整源Schur。
-- **[中段指数障碍](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)：** 任意复公共相容真空塔至x（x≥64），max{M_floor(x/48),M_x}≥¼e^(x/12800)；全部primitive/自由首列仍成立，均在未付中段。已排任何固定多项式公共塔系数预算，不给actual a坏能量；续真实源依赖完整Schur/逐位硬核损失。
-- 母ordinary预算仍需同源合并负部≤c_m Q||F_mu||²且Σ1/c_m发散，尚无此界。
+- [真强头远方差](results/R271-appendix-actual-strong-head-gram-comparison-and-true-far-variance-source-limit.md)：C−A_x原carry压缩η≤e−d⁴；完整Gram/inverse差≤14ηs⁻¹e^(49/s)。x+1≤d^(4/3)/8、s≥Sx时≤e−d⁴/2，任何J<h实际a/F强趋PM；原Q≥R+J保PV/PK/u。一次/二次MP和Chebyshev原窗口限制保前H；z2仍留Cq2。
+- [真实C高段](results/R271-appendix-true-strong-head-powers-and-complete-deep-return-high-tail.md)：||C^j||≤7^j e^(−(770/256)(j−x)_+⁴)；x≥1024、J*=ceil(x+2√x(logx)^(1/4))以上整个canonical高段≤e^(−x²logx)||a||²，不依h≤2x。未付中段j<J*。
+- [公共塔指数障碍](results/R271-appendix-continuous-compatible-towers-exponential-middle-height-barrier.md)：任意复公共相容塔至x，max{M_floor(x/48),M_x}≥¼e^(x/12800)，x≥64；保全部primitive/自由首列。排固定多项式公共塔预算，不给actual源坏能量或W反例。
+- [同源log方差](results/R271-appendix-log-variance-selection-and-complete-source-first-height-moment.md)：q̇=ΣjE_j；固定倍数窗给一阶矩→0，[Sx,xSx]给≤Δ_Q²/logx，同一次选参适用全部合法Q。不可删canonical M_j/y_j中的1/y_j。
+- boundary_core新一位完整Schur及联合矩稿已冻90a7e995，根已全核，待下一条真推：真实投影损失被碰撞二阶能量夹住，逐位准确累计；另在y∈[x,2x)、辅助t∈[Sx,2Sx]同一次选择使Σ[j+j(j−1)/x]E_j≤30000 Vx≤30000Δ_Q²，Vx→0；Q≥6d保原母窗。额外t非物理尾，后续源重新最小化，未付全核修复。
+- 普通封口仍需原same-w合并负部≤c_m Q||F_mu||²且Σ1/c_m发散；当前无此完整界。原G_reg同forcing/carry、Haar普通循环性、正常有限秩链及其它全部open继续。

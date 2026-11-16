@@ -1,0 +1,71 @@
+{
+  "format": "r150-original-h0-seven-socle-local-execution-manifest-v1",
+  "author": "ChatGPT (AI), literature_audit",
+  "date": "2026-11-16",
+  "executionId": "local-original-h0-seven-socle-20261116T044424Z",
+  "status": "completed",
+  "observedRunningUTC": "2026-11-16 04:44:25 UTC",
+  "budget": {
+    "secondsPerAttempt": 1800,
+    "memoryMiB": 4096,
+    "continuationExitCode": 75
+  },
+  "binding": "dce92fb5bbd50efc3cf5bd39a5b7fbf27dec7f88e4c3e0b9308cfff47b042b98",
+  "parentBinding": "712f9b426017d3f63c05e755a314e14d79ac03d22bce6a4b3f943efcd80d7093",
+  "sources": [
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h0-seven-socle-runner-789f.py",
+      "bytes": 28094,
+      "sha256": "93f141b462521d09c35b70790ae862daad3e0ebdac1ee8642fec163a4e558bea",
+      "blob": "1809d2215b314bf3db7842aa24184a2b32c851ce"
+    },
+    {
+      "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h0-seven-socle-integer-p7-789f.cpp",
+      "blob": "dcef4573f3ecf4778e76b3d072fbee16a69f2cb4",
+      "bytes": 21708,
+      "sha256": "f9c6c9f7576cfaa9d3c6bd46a0fdcee4dc414f2248ee4334700a1963a50dfd99"
+    }
+  ],
+  "interface": {
+    "path": "topics/invariant-subspace-problem/notes/2026-11-16-r150-original-h0-seven-socle-runtime-interface-789f.md",
+    "blob": "8340f71d0552e16cbbbb62d05aeab3d0e8360b01",
+    "bytes": 7603,
+    "sha256": "4ac08bc3af0da49fffa75605dbd63b1b36aa8649441f642cd70798e234acfbb3"
+  },
+  "localSourceDirectory": "/tmp/literature_root2_789f/scripts",
+  "localOutputDirectory": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original-h0-seven-socle",
+  "localLog": "/tmp/literature_root2_789f/logs/original-h0-seven-socle-local-20261116T044424Z.log",
+  "parameters": {
+    "notesRoot": "/tmp/literature_root2_789f/scripts",
+    "parentOut": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/root2-fourth-complete210-p7",
+    "originalInputDirectory": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/global197-original-inputs",
+    "smallInputDirectory": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/root2-fourth-small-inputs",
+    "trueSourceDirectory": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/root2-fourth-true-source-inputs",
+    "primitiveGzip": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/original127-inputs/original-primitive-integer-equations.json.gz",
+    "jetMapDirectory": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/root2-fourth-jet-map",
+    "recipe": "/workspace/scratch/789f3e887d7c/literature_root2_789f_work/root2-fourth-complete210-preparation/complete210-fourth-source-recipes.json.gz",
+    "through": "final"
+  },
+  "mathematicalOutputInRepository": false,
+  "outputIdentity": {
+    "receipt": {
+      "file": "original-h0-seven-socle-receipt.json",
+      "bytes": 23423,
+      "sha256": "6533b887811d674adfcfbb0fd09b440710db40df7eb341326af75739b0564e5f"
+    },
+    "result": {
+      "file": "complete-seven-socle-result.json",
+      "bytes": 1028,
+      "sha256": "ebd9b1bb82ca732e2a0acb6ebf5aed8046eeed9d0cbeab82eac803ee63967f82"
+    },
+    "log": {
+      "file": "original-h0-seven-socle-local-20261116T044424Z.log",
+      "bytes": 49438,
+      "sha256": "f6ffa0aacde8bdc10744fa82e3a8ec2c09cbfd4a24fc3298b57049fc6c5452af"
+    }
+  },
+  "completedUTC": "2026-11-16 04:47:15 UTC",
+  "exitCode": 0,
+  "elapsedSeconds": 171.10297749500023,
+  "completedStages": 16
+}
