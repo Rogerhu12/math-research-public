@@ -10,7 +10,7 @@ private于11:43:33.839986→11:44:00.887215实际pull读 **191d228fcf6c487a515ad
 
 三公开来源复核f92e13fa1b7957d0a697a6983c69fcc4058d4c4c，仍无可移植.3D全门解，见[来源状态](notes/public-source-topics-current-state-20261116.md)。新研究执行只在本公开Actions。本地仅纸证、源码文本、元数据、已有输出读取。PAT只瞬时CLI/env，不入文件/提交/API。根12不设防错流程，根15只存源码/参数/run/SHA/人读结论，payload不进Git/artifact/Release/cache；题≤200MB、单件<5MB，旧data54107494B。H<10KB、MD<100KB、open尽量<30KB。已部分克隆，现用本地Git；API读取不是pull。
 
-58两job真实pull：public **625cf6caa2a5d38a010fcd38407a0129bcef21e1**（11:41:21）、**3d2751614c906e87418fdc8ba66f3b42eb9cf606**（11:54:18）；private **a8ec0e31b9ee75e7ad5cd179c2e9e4eb8cde0885**、**9474f11d4e9debb4130a8d49d2d010d1fe0f70e1**（11:54:23）。双README空diff/QUEUE唯一进行中，原收据见58笔记。
+最新ring两job真实pull：public **35438c143eda961a0fa8836d387d0e537fba43b2**（12:18:24）、**a82ba1e06935fbb0f199d4dc846bae876a13afc0**（12:19:25）；private **2b0ee51feb39f78c8a8320e876aa56747abe784e**、**dbfd5b3dc491f5bffb3f0e9971374b71f3ef8d75**（12:19:29）。双README空diff/QUEUE唯一进行中，全部原收据见ring/58笔记。
 
 ## 2. 主完成门与冻结几何
 
@@ -20,7 +20,7 @@ core A1/B7/25/wc1/50，L.9/rc.22/tc.036/tf.846/六帽R.274，159→163精确坐�
 
 [R490](results/R490-fixed-metric-intrinsic-curvature-bound-and-a-nested-complete-body-extension.md)纸付固定g的|Kg|<2381/11<217<(1000/61)²，必要乘积界未排reach；新增P5四u/P8四v/零高度γ成完整168/172族，旧159真嵌入、接口保。
 
-[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)/[R511](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)付原末三样条全延拓的整圈有限中性族，S仅A→A+ℓξ；不变列下界√(B²+C²)、共同17区间/全部退化与原盒保。前102不改末环，原物理norm两组max，中段完整非线性交互不删；当前实际非轴峰不凭principal排序猜分支。新ring17已启动，见下。
+[R510](results/R510-original-three-spline-ring-metric-neutrality-and-affine-axis-curvature-control.md)/[R511](results/R511-complete-ring-curvature-intervals-and-shared-seventeen-coefficient-control.md)付原末三样条全延拓的整圈有限中性族，S仅A→A+ℓξ；不变列下界√(B²+C²)、共同17区间/全部退化与原盒保。前102不改末环，原物理norm两组max，中段完整非线性交互不删；当前实际非轴峰不凭principal排序猜分支。ring17无候选闭账，见下。
 
 ## 3. 当前理论接口与未付全词
 
@@ -48,8 +48,10 @@ R503–507保同母/w/χ、全部history/尾/端germ与原费用。[R507](result
 
 接受后先学习再导出paid selected二jets，两网complete/errors空，0再ordinary/J。CACHE2 33375405B/9bfdb6d35b131d5b4b1514f0e0902c7f38aa735cabc3288502356b1ba03ffbdf：完整U/T/e/f/grid/168及pool selected X六二jets/T/metric，不是全grid二jets或58 J。原raw86358161B/346de3d6027e21e3b3d9dc020b0890c14d65e6dc588c2178ee63eff9f12fca3e；所有record/SHA在note与新request。report8MiB投影exit1但46条0parseerrors、actual/FINAL完整，不称大数组无损。永久constructor仅原55COMPLETE，不当58状态。
 
-## 5. 正在接续（2026-11-16 12:19 UTC）
+## 5. 最新整圈观察与接续（2026-11-16 12:23 UTC）
 
-[真正58整圈新任务](notes/true58-complete-ring17-original-box-design-20261116.md)run43865295208/research133292183126，source35438c143eda961a0fa8836d387d0e537fba43b2已执行中、尚无结果。全部两网原环A/B/C/ℓ与实际G、完整R2延拓保；K1000/61，若浮点不变列超界则0solver，否则原172盒min h（不加旧1/128门）最多1个18变量LP≤60秒。统一新600秒含输入/新frame/Π/height/曲率/solver/输出，至多1完整非线性候选、1原actualpair2值；不重放58 ordinary/J。理想精确嵌入不冒最终binary64中性。失败只闭本有限问题，接R0/R1真实值/一阶jet与全body，不重解R2或续旧账。
+[完整ring观察](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)：run43865295208/research133292183126/report133292744189/source35438c143eda961a0fa8836d387d0e537fba43b2。两网不变列最大5.502593686251275/5.502593694661017未排K1000/61；原172盒5056行18变量唯一LP返回status2/Infeasible/nit0/raw18与dual全None，backend.014887438000016573秒。无候选/预测/actual，仍58；不是准确不可行或全51排除。
 
-O4接.6<H<H*真实同图五门耦合；R508/509付参考出口和五端正基准开像，按R512/R515离常态bulk与secant小邻域，接有限幅值全八矩/几何/period/13联调。R507负t1与R509单侧成本不删。三/四原子和唯一LP不重跑；主完成未付，不停止。
+新32.28273412599998秒/0值闭、0overrun；累计 **2863.061635735秒/147值**。MODEL1 1449765B/b56010f023cae1ba6ce63ce33d6fe3728ce72ec096600f466dd377c216aa9fcc保已付全环A/B/C/ℓ、I/II/二jets，不含X或全grid二jets/J。原raw1949314B/6b893404c4515ae7bc86252efd79c3f920294242e6f51620b49c5d9c55fbda9a，report9记录0parseerror/语义选读成功。全部新frame/Π/height费用含总钟，余额关闭不重解R2。
+
+接原R0/R1改变真实环值/一阶jet、同原盒与中部全body，不能把数值失败归因不变列。O4接真实同图五门解析分离与有限幅值非恒词；R512/R515阻断常态bulk/secant小邻域，完整八矩/height/frame/位置/3/4/period/13仍联立。主完成门未付，继续open。

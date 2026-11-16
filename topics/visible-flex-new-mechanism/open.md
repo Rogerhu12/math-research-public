@@ -14,7 +14,7 @@
 
 ### O2 最新实际
 
-[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)在完整168/172族两网过原14门/准确盒；η粗.26600541430262403、细.26600541463999305，κ细57.9997782607127。实际下降.0000016540087044436547，fixed g/b0/永久reference保；新185.978494641秒/4full值（2necessary+2actual）已闭，累计2830.778901609秒/147值。已保存58完整U/T/e/f及原pool selected二jets，58 J/全grid二jets未存；57导数不可跨点。细κ峰.78/θ4.818744981678094非轴，ring17必须完整S；主reach/连续门与.26未过。
+[真正58](notes/true57-nonlinear168-original-two-grid-accepted58-20261116.md)在完整168/172族两网过原14门/准确盒；η粗.26600541430262403、细.26600541463999305，κ细57.9997782607127。实际下降.0000016540087044436547，fixed g/b0/永久reference保；新185.978494641秒/4full值（2necessary+2actual）已闭，累计2830.778901609秒/147值。已保存58完整U/T/e/f及原pool selected二jets，58 J/全grid二jets未存；57导数不可跨点。细κ峰.78/θ4.818744981678094非轴，ring17必须完整S；主reach/连续门与.26未过。后继[ring17原观察](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)支付32.28273412599998秒/0值、LP未返候选，累计2863.061635735秒/147值，当前仍58。
 
 ### 仍须支付
 
@@ -174,3 +174,10 @@ R481—R491的逐条原文、所有假设、启动失败、原数值费用及pul
 [R515](results/R515-uniform-positive-second-variation-of-the-real-p1-port-on-secant-intervals.md)从原ω返回与p0首阶零取得∫b sin=∫b cos=0；Green变量J″+J=b有双端J=J′=0，所有IBP边项逐个支付。准确二次系数Q=15∫b²/32+∫(J″+5J)²/32+∫tan²σ(J′²+J²)/4，故非零首阶k扰动Q>0，实际Δmp1=ε²Q+Oε³，二导为2Q。无需短盒、单调高度或固定高度首变分，也不多消费p2返回条件。
 
 这排除了单纯延长参考secant再作足够小扰动来获得负p1的路线；不判一般有限幅值h的Volterra号，不排首阶k零的更高阶路径或全M0。接同一R512规范方程下真正离开secant邻域的有限幅值非恒词，全部剩余矩阵/frame/位置/3/4/period与主门继续。整圈run43865295208/research133292183126正在执行，未读出结果。
+
+
+## 2026-11-16 12:23 UTC：原盒ring17返回数值不可行、无候选闭账
+
+[完整观察](notes/true58-ring17-original-box-LP-infeasible-return-no-candidate-20261116.md)run43865295208两网完整不变列最大5.502593686251275/5.502593694661017未排目标1000/61；随后共同17系数+原172盒5056行18变量LP返回status2/Infeasible/nit0，raw18、dual/slack/con全部None。没有候选、预测或actual，当前仍58；没有准确Farkas/区间证书，不把浮点状态授为数学全类不可行，更不能归因不变列超界。
+
+新32.28273412599998秒/0值闭，累计2863.061635735秒/147值，0overrun；完整ring MODEL已存原stdout，report9记录0parseerrors/语义选读成功。余额不续、同R2实例不重解。下一项是原R0/R1低阶环态及三组51系数同盒、所有中段真实交互和全body门；主完成仍未付。原已付A/B/C/ell/二jets可按原身份读，不把未保存X/fullgrid jets/J补零。
