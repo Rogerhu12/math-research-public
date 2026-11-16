@@ -16,7 +16,7 @@ concurrency:
 env:
   PYTHONDONTWRITEBYTECODE: '1'
   EXPECTED_WORKER_SHA: '3770e29dbb2becd615227c1ceceaf7c9a34cf585a705deeed75465dc02594d8e'
-  EXPECTED_MANIFEST_SHA: '63e4a030e9ca5b4c4d7a313adc28b9b8326dbac72cad75bbb6f1d0134aeae10c'
+  EXPECTED_MANIFEST_SHA: 'b2f0fa9c4f92e5d4b5b2f8a81af7e389840ab1dd71151b1ced5c3fe70f19fd8a'
 
 jobs:
   one-new-target:
