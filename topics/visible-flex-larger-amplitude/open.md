@@ -115,6 +115,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [645/317 normal-only混合边界](notes/2026-11-17-parallel-geometry-mixed-boundary-linear.md)在真.995→.997场传播全部317列，cond1.59e6；目标仅9.26e−12仍需起点δF8.83e−6/δFφφ3.46，实际Hmin−.020566。独立两档JVP核对已付；该步不作父，不开BVP。
 
+[初端fast317局部模型](notes/2026-11-17-parallel-geometry-fast-boundary-local.md)与[真实变系数响应](notes/2026-11-17-parallel-geometry-fast-boundary-response.md)分别保留：新Ufast/左645补空间/右317冻结，实际K条件173.56、起点δF1.44e−8、Hmin.00041953/Gram4.32e−7；独立JVP核对已付，预测末点不是非线性解。有限射击原预算正在实际验证。
+
 **高M和新scalar。** 全部M160/224/320短IVP、实际N2048→4096重积分和末微胞坏峰/明确64ulp新节点政策见上链全文。[R637真C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)从旧.995共享六jet至.997，高M全段Gram5.092e−7/κ5.79934；旧prefix沿用旧读数，非统一精化。[同g域停](notes/2026-11-17-parallel-geometry-m320-domain-stop.md)至1.0只到.997619218，高m位移小而角二阶大；不删模造父或无限缩步。
 
 [六个pulse设计](notes/2026-11-17-parallel-inward-curvature-pulse.md)保cut scalar两jet但改变后续g：w.005/A−3、−5真到1.0，其他四例失败。[−5实际C²桥全段](notes/2026-11-17-parallel-pulse-full-C2-field.md)320胞1310万点Gram1.312425e−6超门/κ6.98222，端点8.173e−7不代表全段；同标量延至1.01在1.0039896域失败。
@@ -125,4 +127,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 R632回头盖仅凸平行体组件；R625/627/629的标记与含反射E3须实际闭源；旧82432点/Qmin.16150716仅点云。全部README完成条件仍未达到：全幅尾/Cartesian接缝/连通闭面、固定有内点H、完整D、整像held、含反射商距离、连续reach与全t强C²连续，随后同g/参数/t真正精化至机器或原solver容差。子题/批次/时长/报告均非停点。[旧重复212索引退役](notes/2026-11-17-parallel-historical-index-retention.md)保准确恢复与来源。
 
-[重复历史plan保留](notes/2026-11-17-parallel-duplicate-plan-retention.md)仅退役57924B逐字重复本；原manifest改指仍在的相同字节，完整历史恢复固定37ddb。
+[重复历史plan保留](notes/2026-11-17-parallel-duplicate-plan-retention.md)分别退役57924B plan与67739B bridge的逐字重复本；两原manifest均改指仍在的相同字节，完整恢复固定37ddb/ee604。
