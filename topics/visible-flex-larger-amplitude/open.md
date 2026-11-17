@@ -115,4 +115,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [完整ρ物理M32真几何](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)同场N1024/G8→N2048/G12 Gram2.04539654e−6→2.04539712e−6，仍超目标；κ5.997643、真实φ高度1.13913067，见证/范数与投影四项正余量均实际读出。仅采样不代连续嵌入；沿用R9/R27而不重做理论。
 
+[best4参考κ5重新求解](notes/2026-11-17-parallel-numerical-best4-curvature5.md)同其他参数、重新far列与BVP，有两个新g接受场；[实际几何负结果](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)同λ.001真κ8.18640反高于κ6场7.51359，均高增加.02344；冻结Hermite内部另有κref5.27991峰。单降参数不支付实际曲率界，继续优化L和真实hrr。
+
 继续真实weighted幅度/角阶延拓、C²高度与g共同设计，以及核心响应改善。冻结候选后再精化同g/参数/t；实际全场Gram、完整D、整像held、含反射E(3)、全部活动点对/reach和全t责任一项不减。现未达到课题README完成标准，不以本节或任一子题结果停止。
