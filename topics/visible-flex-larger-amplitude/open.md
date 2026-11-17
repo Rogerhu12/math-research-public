@@ -111,4 +111,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **真实C²几何与固定盖。** [同小尾四列角Gram](notes/2026-11-17-parallel-geometry-actual-tail-gram.md)区分保P微分失败与积分K成功；[径向C²读出](notes/2026-11-17-parallel-geometry-radial-c2-tail.md)三求积/角网Gram≈1.3e−10但背景本身κ≈11.018，不适合作大D reach父。[旧完整rho弱尾](notes/2026-11-17-parallel-geometry-weighted-actual-tail.md)λ1e−7真Gram9.407e−8、κ≈5.998、φ高度1.26270075347，暂代旧盖也仅G/D≈.199466；材料参考高度1.212不能混用。[R632回头盖](results/R632-c2-return-cap-parallel-body-and-diameter.md)已实造两个有边组件，补底后凸平行体reach准确rho，全部同盖/跨盖法向弦及有理diam已付；不是已拼闭面。R625/627/629的固定标记矩与reach/held结论均需真正源和隔离，未替代活动体责任。
 
+[best4材料真几何](notes/2026-11-17-parallel-geometry-best4-material-tail.md)两接受场在同场N512/G8→N1024/G12读出Gram2.358e−7/1.420e−7、κ7.51359/8.47262；深端wK_r增强是实际场曲率，背景6不能替代。材料高度1.08841/1.08839、见证/范数均真读但弱场不接λ1前缀；mean浮点停滞已独立定位并以同方程残差终止修正。
+
 继续真实weighted幅度/角阶延拓、C²高度与g共同设计，以及核心响应改善。冻结候选后再精化同g/参数/t；实际全场Gram、完整D、整像held、含反射E(3)、全部活动点对/reach和全t责任一项不减。现未达到课题README完成标准，不以本节或任一子题结果停止。
