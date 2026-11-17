@@ -7,7 +7,7 @@
 构造连通闭曲面的连续 $C^2$ 等距嵌入族，固定有内点握持区 $H$，$\operatorname{diam}F_0(H)\ge0.2D$，整像 Hausdorff 变化 $\delta_{\rm hold}\ge0.1D$，含反射取商的 $\delta_{\rm E}>0$，全时 reach $\ge0.03D$。同一固定度量、物理参数和时间范围下，最大相对度量误差不超过 $10^{-6}$ 并随空间、频率、时间加密下降。材料点位移不是 $\delta_{\rm hold}$。
 
 - 已部分克隆、仅稀疏检出本题，执行真实 `git pull --rebase origin main`；根 README（含授权）和本题 README 全文已读。
-- 已读规则提交：`5c9fbb2ef6a70787e17944c2b6568939adbd7070`。2026-11-17 20:05（UTC+8），非快进拒推后真实 rebase，双 README 差异为空。下次真实 pull 最迟 21:05；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`790477075070807b1fda90958492c973ceb6d12e`。2026-11-17 20:08（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 21:08；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每个有意义的新结论与本文件同时更新，提交前 pull、核规则后普通 push；非快进立即 pull --rebase 再推。禁止 force push。令牌只在命令行临时使用。
 - 只有完整证明进 `results/`；数值证据和缺口分别标明。可重算数据、网格和渲染不提交，只保存生成脚本、参数、运行标识和 SHA-256；单 Markdown <100KB，本文件 <10KB。不写根 LOG。
 
@@ -29,4 +29,4 @@
 
 新实验：新建短椭圆核心至圆领的 Cartesian Fourier/B样条直接度量设计；另用既有 Frenet BVP 做低模复用。两者均未获全部条件。
 
-已证新结论：暂无。下一项见 [open.md](open.md)。本题未达标准，继续推进；达到后继续提高比例。
+已证新结论：[R1](results/R1-mild-ellipse-ten-percent-geometry-window.md) 给 $A=1,B=.7$、$r_{cap}=.25$ 的具体条件窗口：完整包络 $r\le1.05,|y|\le.75,|z|\le.6$ 与支撑≥.08、曲率≤12时，held/D≥.10336、Hdiam/D≥.20672、reach/D≥.03307。连接器、连续包围、固定g精化及δE>0仍未付，**不构成完成**。下一项见 [open.md](open.md)。本题未达标准，继续推进；达到后继续提高比例。
