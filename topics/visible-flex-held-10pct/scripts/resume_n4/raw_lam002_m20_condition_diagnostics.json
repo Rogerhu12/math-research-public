@@ -1,0 +1,253 @@
+{
+  "scope": "Read-only original raw M20 parameter and full finite collocation Jacobian diagnostics at one reconstructed complete-map seed. No preconditioned BVP solve was performed.",
+  "collector_sha256": "9a06834cd0615d27b66497fd30b260b40663177ec87fbef534426fb79ed86129",
+  "parameters": {
+    "scope": "Read one actual raw fixed-g state and measure its local parameter directions.\n\nNo Newton step, modified core, or acceptance test is performed. The optional\nmatrix output is a scratch-only reversible local coordinate transformation.\nIts reported effect on sampled blocks is not a condition estimate for the\ncomplete collocation Jacobian.\n",
+    "source_sha256": "88d251bf1b983385c3933b2f3d1d56a878d2b3efbd7ef47b75ac2153100b2cbd",
+    "input_checkpoint_sha256": "37a7a0b90398e34ece155a00c14414b4197b24debf013ab3c8e8deabd0aee04a",
+    "driver_sha256": "a753bcd1487bc9e4d3ba8281af116daacb4de460566c3f6cc43533219f068556",
+    "core_driver_sha256": "8d7880398f95a3e5cc52030e2b08682d46571a761060562eaff79a56e4d7c182",
+    "free_basis_sha256": "5fbd11f9fa534af6a6871eaca3787627b15d7fea38059481afc6af64ea21efd9",
+    "exact_parameter_jet_sha256": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "modes": 20,
+    "input_modes": 20,
+    "angular": 1280,
+    "core_samples": 4096,
+    "sampled_flow_sites": 19,
+    "physical_profile": {
+      "direction": "outward",
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.35,
+      "ramp": 0.45,
+      "vd": 0.25018727173023186,
+      "delta": 0.030158202455449618
+    },
+    "raw_anchor_modes": 16,
+    "homotopy": 0.02,
+    "eta": 0.1,
+    "q_gauge": 0.0125,
+    "actual_q": 0.012500427271483356,
+    "original_correction_scale_min": 0.0125,
+    "original_correction_scale_max": 0.0125,
+    "physical_parameter_scale_min": 0.0125,
+    "physical_parameter_scale_max": 0.012500427271483356,
+    "boundary_residual_max": 2.4807815623658537e-11,
+    "complete_boundary_matrix": {
+      "rows": 81,
+      "columns": 142,
+      "singular_max": 165552.97281834442,
+      "singular_min": 0.9999999999999997,
+      "condition_2": 165552.97281834448,
+      "column_norm_min": 0.007472260115067033,
+      "column_norm_max": 164547.553708303,
+      "min_column": 82,
+      "max_column": 81
+    },
+    "blocks": {
+      "inlet_parameter": {
+        "original": {
+          "rows": 61,
+          "columns": 20,
+          "singular_max": 2.267301686686821,
+          "singular_min": 0.5042374465743636,
+          "condition_2": 4.496496049807846,
+          "column_norm_min": 0.9942912321497549,
+          "column_norm_max": 1.3873979423188652,
+          "min_column": 19,
+          "max_column": 1
+        },
+        "transformed": {
+          "rows": 61,
+          "columns": 20,
+          "singular_max": 0.09099931428159365,
+          "singular_min": 0.00018690193831966934,
+          "condition_2": 486.88266745501693,
+          "column_norm_min": 0.00018690600488999076,
+          "column_norm_max": 0.08784753486070686,
+          "min_column": 0,
+          "max_column": 19
+        }
+      },
+      "boundary_parameter": {
+        "original": {
+          "rows": 81,
+          "columns": 20,
+          "singular_max": 2.267301686686821,
+          "singular_min": 0.5042374465743636,
+          "condition_2": 4.496496049807846,
+          "column_norm_min": 0.9942912321497549,
+          "column_norm_max": 1.3873979423188652,
+          "min_column": 19,
+          "max_column": 1
+        },
+        "transformed": {
+          "rows": 81,
+          "columns": 20,
+          "singular_max": 0.09099931428159365,
+          "singular_min": 0.00018690193831966934,
+          "condition_2": 486.88266745501693,
+          "column_norm_min": 0.00018690600488999076,
+          "column_norm_max": 0.08784753486070686,
+          "min_column": 0,
+          "max_column": 19
+        }
+      },
+      "sampled_complete_core_H2": {
+        "original": {
+          "rows": 36864,
+          "columns": 20,
+          "singular_max": 5346.371665652424,
+          "singular_min": 11.242918140665283,
+          "condition_2": 475.5323839203956,
+          "column_norm_min": 12.952436634149434,
+          "column_norm_max": 4803.402875123444,
+          "min_column": 0,
+          "max_column": 19
+        },
+        "transformed": {
+          "rows": 36864,
+          "columns": 20,
+          "singular_max": 1.000000000000001,
+          "singular_min": 0.999999999999996,
+          "condition_2": 1.000000000000005,
+          "column_norm_min": 0.9999999999999929,
+          "column_norm_max": 1.0000000000000049,
+          "min_column": 18,
+          "max_column": 17
+        }
+      },
+      "sampled_parameter_flow": {
+        "original": {
+          "rows": 1159,
+          "columns": 20,
+          "singular_max": 0.8140918456250035,
+          "singular_min": 1.6822793717917308e-06,
+          "condition_2": 483921.9093306397,
+          "column_norm_min": 0.001061963028288965,
+          "column_norm_max": 0.7445351267734502,
+          "min_column": 3,
+          "max_column": 19
+        },
+        "transformed": {
+          "rows": 1159,
+          "columns": 20,
+          "singular_max": 0.0002710366583053506,
+          "singular_min": 2.30580841936013e-08,
+          "condition_2": 11754.517679338001,
+          "column_norm_min": 1.1788025350689314e-05,
+          "column_norm_max": 0.00011432572742529596,
+          "min_column": 14,
+          "max_column": 18
+        }
+      }
+    },
+    "transformation": {
+      "rows": 20,
+      "columns": 20,
+      "singular_max": 0.08894487956672308,
+      "singular_min": 0.00018704273898959635,
+      "condition_2": 475.5323839203956,
+      "column_norm_min": 0.00018704273898959638,
+      "column_norm_max": 0.08894487956672312,
+      "min_column": 0,
+      "max_column": 19
+    },
+    "transformation_inverse_error": 1.9174067804190074e-14,
+    "core_sampled_rho_min": 0.8130084782132291,
+    "seed_identity": {
+      "complete_core_identity_error": {
+        "F": 0.0,
+        "Ft": 0.0,
+        "Ftt": 0.0
+      },
+      "complete_map_projection_error": 2.220446049250313e-16
+    },
+    "seconds": 7.028297267002927,
+    "interpretation": "The complete core H2 here is the sampled quadratic norm of the full fixed-material F,F_u,F_uu parameter directions, divided by the gauge q. Boundary/flow blocks are partial Jacobian diagnostics only. The transformation has not been used in a solve.",
+    "scratch_transform_sha256": "122f29f26f477d9f8437ca43a25e3be00bb0725be6ab21175124ed8b405ef003",
+    "actual_command": "topics/visible-flex-held-10pct/scripts/resume_n4/diagnose_raw_parameter_scaling.py --loader /workspace/scratch/7322d0dee069/n4_work --source-topic /workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface --checkpoint /workspace/scratch/7322d0dee069/n4_work/w016-raw-lam002-fixed-m20.json.gz --modes 20 --angular 1280 --core-samples 4096 --transform-out /workspace/scratch/7322d0dee069/n4_work/raw-lam002-m20-h2-transform.npz --out /workspace/scratch/7322d0dee069/n4_work/raw-lam002-m20-parameter-scaling.json"
+  },
+  "collocation": {
+    "scope": "Read-only estimate of the original complete finite collocation Jacobian.\n\nOne Jacobian and its original sparse LU are assembled at the saved complete\nstate. A proposed parameter-only coordinate change is compared using the\nsame LU and exact chain rule. This does not solve or change the BVP.\n",
+    "source_sha256": "0ca8acdfbb77e472a4a6ae5a74cc7778a3bead2a6b65d1db30305a1527cd197f",
+    "input_checkpoint_sha256": "37a7a0b90398e34ece155a00c14414b4197b24debf013ab3c8e8deabd0aee04a",
+    "transform_sha256": "122f29f26f477d9f8437ca43a25e3be00bb0725be6ab21175124ed8b405ef003",
+    "driver_sha256": "a753bcd1487bc9e4d3ba8281af116daacb4de460566c3f6cc43533219f068556",
+    "scipy_prepare_sys_sha256": "2e2a6f40f709556a98065b41491e1d90980fa68d8f0c9e59e15928732f144e54",
+    "scipy_construct_global_jac_sha256": "f209e18f334535a5b5fbe571ac4a875dccef89ab5b77b94977023f4b0919b916",
+    "physical_profile": {
+      "direction": "outward",
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.35,
+      "ramp": 0.45,
+      "vd": 0.25018727173023186,
+      "delta": 0.030158202455449618
+    },
+    "homotopy": 0.02,
+    "raw_anchor_modes": 16,
+    "modes": 20,
+    "nodes": 2282,
+    "state_dimension": 61,
+    "matrix_dimension": 139222,
+    "matrix_nnz": 19769524,
+    "matrix_one_norm": 164693.34775880238,
+    "inverse_one_norm_estimate": 25977060.086369254,
+    "condition_one_estimate": 4278248990555.7163,
+    "transformed_matrix_one_norm": 164693.34775880238,
+    "transformed_inverse_one_norm_estimate": 26612043.245428,
+    "transformed_condition_one_estimate": 4382826492791.5615,
+    "full_residual_max": 2.4807815623658537e-11,
+    "original_boundary_residual_max": 2.4807815623658537e-11,
+    "full_newton_step_norm": 7.027149949182103e-11,
+    "state_step_max": 3.924017945159552e-12,
+    "original_parameter_step_max": 2.0445702419342444e-12,
+    "physical_logq_step": 2.0445702419342444e-12,
+    "physical_correction_step_max": 3.7610439524037044e-16,
+    "transformed_step_norm": 7.793030667986416e-11,
+    "direct_lu_residual_max": 1.0339757656912846e-25,
+    "direct_lu_relative_residual": 4.16794360848607e-15,
+    "parameter_only_change_in_physical_step": 4.0389678347315804e-28,
+    "seconds": 63.39425684000162,
+    "interpretation": "The inverse one-norm is an estimator/lower estimate, not a rigorous upper condition bound. Only the actual saved finite Jacobian is measured. A parameter coordinate change preserves the exact Newton direction, while changing its norm and floating factorization. No BVP trial has been accepted here.",
+    "actual_command": "topics/visible-flex-held-10pct/scripts/resume_n4/diagnose_raw_collocation_condition.py --loader /workspace/scratch/7322d0dee069/n4_work --source-topic /workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface --checkpoint /workspace/scratch/7322d0dee069/n4_work/w016-raw-lam002-fixed-m20.json.gz --modes 20 --angular 1280 --transform /workspace/scratch/7322d0dee069/n4_work/raw-lam002-m20-h2-transform.npz --out /workspace/scratch/7322d0dee069/n4_work/raw-lam002-m20-collocation-condition.json"
+  },
+  "resource": {
+    "scope": "Resource observation only; child source, equations and acceptance gates are not changed.",
+    "script_sha256": "6fef8581d485c3786eedd69489e907a1b16098ed0c7899a4d8e1f958246c601d",
+    "child_returncode": 0,
+    "seconds": 66.04214674000104,
+    "samples": 33,
+    "maximum_sampled_tree_rss_kib": 920808,
+    "tree_at_sampled_peak": {
+      "5": {
+        "name": "python",
+        "rss_kib": 920808,
+        "hwm_kib": 1392428
+      }
+    },
+    "child_rusage_maxrss_kib": 1392428,
+    "child_user_seconds": 61.440867,
+    "child_system_seconds": 2.064202,
+    "actual_command": "python -u topics/visible-flex-held-10pct/scripts/resume_n4/diagnose_raw_collocation_condition.py --loader /workspace/scratch/7322d0dee069/n4_work --source-topic /workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface --checkpoint /workspace/scratch/7322d0dee069/n4_work/w016-raw-lam002-fixed-m20.json.gz --modes 20 --angular 1280 --transform /workspace/scratch/7322d0dee069/n4_work/raw-lam002-m20-h2-transform.npz --out /workspace/scratch/7322d0dee069/n4_work/raw-lam002-m20-collocation-condition.json"
+  },
+  "input_output_hashes": {
+    "parameters": "c5b1501038173949105e85c5f61abc9ef19e7af9bc1fcba804fba8531e9cf011",
+    "collocation": "c5ed58aab9a350280e6ef2031c0456b66b21ffa745fc3a9870bb7eeefd5b7f2e",
+    "resource": "79d61619c82be448b3d93c449991bc0af28ae5b4a8650bdbe73ee74a0c18e9ff"
+  },
+  "data_policy": "Source, physical parameters, named scalar matrix diagnostics and hashes only. Complete matrices, SVD vectors and transform arrays remain scratch-only."
+}

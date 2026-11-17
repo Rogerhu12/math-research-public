@@ -347,3 +347,5 @@
 - 2026-11-18 06:01:59（UTC+8）｜Astra-held10-7322d0de-20261118：原失败尾只改state[86][16]的一个邻数初值，实际原DN solve+800项Jac+全audit返回converged，res1.37846577e−9/metric6.64514e−11/fullD9.60107e−7；完整H/config和其余1153节点分量逐值不变。保留先前缺helper的工程失败。核两安装器去新增块后逐字回原源：可选oneUlpInitialRetry仅原十步线搜索失败后、原full-Jac norm严格过原门才继续；debug p/sol明确未accepted。新M16从accepted M8再联立，warm已验同H，不称完整prefix成功。
 
 - 2026-11-18 06:04:38（UTC+8）｜Astra-held10-7322d0de-20261118：审证明及两源后发布R37：同raw M8实际核的全角G/G′/T/T′余项<5.820e−12/2.330e−9/1.823e−9/4.184e−6。6144点FFT仅提出342个字面binary64系数；真积分jets、分片AC五阶界、1024闭区间Taylor覆盖与精确D3推延作证明。IEEE复幂/加权和包括高阶与下溢，4096次舍入模式门；核6直接+32运行源、全部系数精确对称/有理范数及输入输出hash。未改物理图，未支付全prefix metric。
+
+- 2026-11-18 06:09:41（UTC+8）｜Astra-held10-7322d0de-20261118：发布raw M20实际全参数/完整配点Jac只读诊断：入口参数cond2=4.4965，sampledH²白化虽使该局部核范数≈1，却使入口486.88。139222维/19769524非零原SciPy矩阵的cond1数值估计4.278e12→4.383e12无改善；完整有限残差2.48e−11/LU回代相对4.17e−15/Newton修正7.03e−11。已核输入、变换、源及实际SciPy组装hash；onenormest不是严格上界，未新解BVP，故不复跑仅该参数预处理。同步actual parts16首warm原门已过、后续外层待终态。
