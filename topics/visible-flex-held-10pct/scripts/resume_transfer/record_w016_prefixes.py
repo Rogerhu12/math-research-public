@@ -5,8 +5,8 @@ from pathlib import Path
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def scalar(v):return {k:x for k,x in v.items()if not isinstance(x,(dict,list))}
 def main():
- p=argparse.ArgumentParser(description=__doc__);p.add_argument('--work',type=Path,required=True);p.add_argument('--out',type=Path,required=True);a=p.parse_args()
- names=['q010-m16','q0125-m16'];runs=[]
+ p=argparse.ArgumentParser(description=__doc__);p.add_argument('--work',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--names',nargs='+',default=['q010-m16','q0125-m16']);a=p.parse_args()
+ names=a.names;runs=[]
  dependencies=['run_large_radius_circle.py','large_radius_local_core.py','local_flatten_core.py','bimodal_chart_loader.py','even_mode_loader.py','plateau_core.py','complementary_moment_basis.py','moment_interval_bounds.py','dual_design_bvp.py','exact_core_lift.py','analytic_adaptive_core_jac.py','bimodal_material_restart.py','material_warm_restart.py']
  for name in names:
   path=a.work/(name+'.json');raw=json.loads(path.read_text());row=raw['rows'][-1]
