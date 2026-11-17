@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`51e2e51c4e3d7231be0e96ed9847fa16fcbb760e`。2026-11-18 06:13:51（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`08bda98b2ecac4a318753d76d2662d3321213dfe`。2026-11-18 06:17:09（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -18,9 +18,9 @@
 
 R30周期复用/同μ缓存不改方程与2e−9原门。n4 actualM20/576stage/990760标量全残差/flow/Jac/graphs逐位同值，engine576→8、返回数组变异/重入差0；见n4-shared-periodic-engines，不作普遍提速声明。整核/旧网格身份见n4-fixed-seed-identity；线性g和actual链分开。
 
-旧w.08：q.015/M20有限接受，q.0175/M24原Frenet域失败，见n4-q0175-tight-terminal；M20取消无数学结论，不重跑。
+旧w.08/q.0175/M24原Frenet域失败，q.015/M20取消无数学结论，见n4-q0175-tight-terminal；不重跑。
 
-新wCut=.16已重建24模port/双根。q.01/.0125/M16 metric2.48504e−8/5.97569e−7；q.015/M20完整metric1.20586e−5未过，867→2484径向点仍平台，见n4-w016-q015-radial-plateau。同g/M24句柄失效无数学终态，见n4-q015-m24-observation-gap，暂先付raw/actual。
+旧wCut=.16非raw幅值线：q.01/.0125有限metric通过，q.015/M20径向加密仍1.20586e−5平台；同g/M24句柄失效无终态，见n4-w016-q015-radial-plateau、n4-q015-m24-observation-gap，暂先付raw/actual。
 
 新w16/q0125：canonical lambda.001触maxnodes/RMS.037951，无正lambda锚点。raw mean/c8低2×2投影/固定J16路径lambda.02/.05有限接受，metric2.41705e−6/6.95343e−6均未过，.1主动中止无终态。冻结.02整g、eta=.1、释放c8后M20到2282点/tol1e−8，完整metric升3.43423e−6、tensor.0160166，不是收敛；见n4-raw-lambda002-fixed-m20。嵌套/完整核/解析Jac及free控制全lambda独立性见n4-raw-free-c8-fixed-g，不推BVP可逆。M20峰s=.066873/K<0、主频84，54.27%在80外，早于lift衰减；见n4-raw-defect-localization。原M20全配点Jac条件1范数估计4.278e12，单参数H²变元后4.383e12无改善；有限残差2.48e−11/Newton修正7.03e−11，见n4-raw-parameter-and-collocation-scales，不复跑该预处理。现同g/J16 M24已到4460点，仍待终态。
 
@@ -30,9 +30,9 @@ R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几
 
 **R33/R34冻结矩障碍**：a=.21、旧七物理低矩及mean/主频冻结时，任意补弧控制曲率L∞>13.42575；λ1/q∈[.04,.0851]不能rho≥0。仅排冻结旧矩，不排自由actual/raw。R35：无限raw Tλ在λ<1仍为X双射，L²逆范数1/(1−λ)，λ1有无限核；必须验实际弧缺陷和控制范数。旧λ0→raw.02中心缺陷绝对值.008031→.010491、全弧采样.063320→.063787未改善，见m3-raw-actual-arc-defect。
 
-**R32严格条件窗**：n3/eta0、a=.21/b=.08、q∈[.0849,.0851]、相位.7046/H角[.3521,.3525]；控制保护域恒0且||b+b″||∞≤.08时rho>.219613、平面m3>.0200361。柱长.54/.5401须按实际图选出非零活动矩；三重帽排全O(3)。若未标记完整图D≤2.6498/支撑≥.0801/K≤12.5等，则held/D>.1045139、reach/D>.03018。δ∈[.056,.07]初负K窗已付；实际lambda1/完整图/同g精化未付，旧R31不转移。
+**R32/R38严格条件窗**：n3/eta0、a=.21、q∈[.0849,.0851]、相位.7046/H角[.3521,.3525]。R32主b=.08；R38新主b=.32重算β/圆心/真实矩，完整even C4补弧控制在保护弧为0、||b+b″||≤.08时rho>.1642566、平面m3>.0948878、核心柱D<2.3181；若未标记完整图D≤2.6498/支撑≥.0801/|κ|≤12.5等原条件均付，则held/D>.105514、reach/D>.03018。柱长.54/.5401须据实际全图矩选定、三重帽排全O(3)。同q、δ∈[.056,.07]首负K窗不依赖b；实际λ1/全图/同g精化均未付。
 
-**beta4.625/q.040完整真联合**：936点，δ=.061051601505166045；prefix metric6.91e−9/tensor2.34148e−4/K8.71925/物理BC9.05e−10；tail res1.37680e−9/minA.742322/metric5.98745e−10/fullD4.11830e−6，4次tail和audit原门均过。q.060首warmup原线搜索失败res3.67146e−9，无新prefix；见m3-beta4625-*。这两批是新g。
+**beta4.625/q.040完整真联合**：936点/δ=.061051601505166045，prefix metric6.91e−9、tail res1.37680e−9/A.742322，4次尾和audit原门全过；q.060首warmup原线搜索失败3.67146e−9，无新prefix，二者不同g，详见m3-beta4625-*。
 
 **n3实际圆化**：积分core/一次全lift/自由c6/锁主频已接通。canonical各λ结论见m3-exact-round-core-start、m3-round-lambda0002-*；parts16虽尾过，metric3.97036e−4仍失败。raw低2×2投影λ.02四次真尾接受，δ=.06105141410261685/tail1.37544e−9，但metric8.30078e−5/tensor.047932未过，见m3-raw-lambda002-finite-state-and-metric-gap。冻结整g升M8→M16/N256/parts16：桥选择器修复保五cut物理数值；v2无response中断另记。共享引擎在1152stage/350224标量全残差/Jac逐位相同，engine1152→8，见m3-shared-engines-same-state-equality。恢复call1/2 accepted；call3新H原门失败5.51386e−9，正常退出/无M16 CP。完整重放定位stage86/mode3动量恰1ULP、次大6.522e−10，见m3-raw-m16-shared-run-one-ulp-failure；原门不改。单邻数初值已由原DN/Jac/audit接受1.37847e−9（tail metric6.64514e−11），仍无对应完整prefix；见m3-one-ulp-initial-candidate-passes-original-tail。可选失败后邻数重启及未接受p/sol落盘已加，正从accepted M8重跑M16。raw每列独立M/append0保整核与原系数正性门，见m3-raw-compact-path-and-certificate。旧q04 raw宽度扫描见m3-raw-control-width-screen。实际raw M8全控制改λ1初值时，w.16/.4原rho下界.623909/.650161、控制峰.101106/.014720；见m3-actual-raw-controls-at-circle-endpoint。仅新设计初值，q.04非R32窗。另q.085/λ1/zero-c主b.08→.32，在现有ψ chart的M16外二阶扰动尾.06133→.002232，u谱反向；见m3-primary-width-and-chart-spectrum。新b不继承R32。
 

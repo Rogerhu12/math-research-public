@@ -1,0 +1,139 @@
+{
+  "scope": "New exact rational primary b=.32 circle and controlled-moment window.\n\nThis is a new physical core design, with no prefix/tail BVP and no claim\nthat a closed map exists. All geometry bounds below use Fraction interval\narithmetic, true cutoff integrals, and an explicit quadrature remainder.\nThe global closed-surface conclusions remain conditional as in R32.\n",
+  "primary_definition": {
+    "base_mode": 3,
+    "eta": "0",
+    "homotopy": "1",
+    "protected_halfwidth": "21/100",
+    "primary_transition": "8/25",
+    "q_nominal": "17/200",
+    "q_interval": [
+      "849/10000",
+      "851/10000"
+    ],
+    "beta": [
+      "-0.880650029029561723826982490151344383382323985",
+      "-0.880650029029561723826982490151344383382323984"
+    ],
+    "circle_center_per_q": [
+      "9.13852258246020276032261877152434222569647453",
+      "9.13852258246020276032261877152434222569647454"
+    ]
+  },
+  "true_zero_control_core": {
+    "rho_lower": "0.244256682529584297302323790088120592974164228",
+    "rho_upper": "1.6808",
+    "rho_phi_upper": "13.0900353760542223229923829619687991507113835",
+    "support_lower": "0.885267396390065348336646654679098518648812518",
+    "radius_upper": "1.11473260360993465166335334532090148135118749",
+    "unit_position_upper": "4.27042376196830996221277858849808597729761138"
+  },
+  "true_primary_cubic_area_moment": {
+    "convention": "Integral over the planar enclosed domain of (X+iY)^3 dA; standard global axes",
+    "half_sector_panels": 128,
+    "finite_midpoint_sum": [
+      "0.272213827696030067275784011669578811518237294",
+      "0.272213827696030067275784011669578811518237295"
+    ],
+    "integrand_lipschitz_upper": "4.80765909769120994378129069957660364818294687",
+    "midpoint_remainder_upper": "0.0617834549342584119491608737354450291537209101",
+    "nominal_moment": [
+      "0.210430372761771655326623137934133782364516384",
+      "0.333997282630288479224944885405023840671958205"
+    ],
+    "q_derivative_upper": "42.0055817055493513355490734364916102100347935",
+    "amplitude_interval_cost_upper": "0.00420055817055493513355490734364916102100347935",
+    "uniform_primary_moment": [
+      "0.206229814591216720193068230590484621343512904",
+      "0.338197840800843414358499792748673001692961684"
+    ]
+  },
+  "whole_control_conditions": {
+    "regularity": "C4",
+    "period": "2*pi/3",
+    "zero_mean": true,
+    "even_about_phi_zero": true,
+    "support_identically_zero_on_closed_arc_abs_phi_minus_pi_over_3_le_a": true,
+    "material_H_and_phase_sweep_have_protected_open_neighborhood": true,
+    "protected_material_margin_lower": "33/250000",
+    "rho_norm_upper": "2/25",
+    "support_norm_upper": "0.0123760430703401223214638048803131929036162803",
+    "rho_lower": "0.164256682529584297302323790088120592974164228",
+    "support_lower": "0.872891353319725226015182849798785325745196238",
+    "radius_upper": "1.12710864668027477398481715020121467425480377",
+    "shape_derivative_moment_cost_upper": "0.111342001758815397305296410535210524592611696",
+    "absolute_cubic_area_moment_lower": "0.0948878128324013228877718200552740967509012099"
+  },
+  "conditional_closed_window": {
+    "phase": "3523/5000",
+    "fixed_material_H_interval": [
+      "3521/10000",
+      "141/400"
+    ],
+    "cylinder_lengths": [
+      "27/50",
+      "5401/10000"
+    ],
+    "core_cylinder_diameter_upper": [
+      "2.31801717329396891186805362228920086194987562",
+      "2.31801717329396891186805362228920086194987563"
+    ],
+    "uniform_whole_image_Hausdorff_lower": [
+      "0.279612284009834357299371907310857003219550862",
+      "0.279612284009834357299371907310857003219550863"
+    ],
+    "held_ratio_if_D_le_265": [
+      "0.105514069437673342377121474456927171026245608",
+      "0.105514069437673342377121474456927171026245609"
+    ],
+    "H_diameter_ratio_lower": "54/265",
+    "selected_active_moment_abs_lower": "0.00000474439064162006614438859100276370483754506049",
+    "unmarked_D_upper": "2.6498",
+    "unmarked_support_lower": ".0801",
+    "unmarked_curvature_upper": "12.5",
+    "plane_cap_height_lower": "1",
+    "plane_cap_open_radius_greater_than": "1/40",
+    "final_D_upper": [
+      "2.64990178194527527662272996650858179616498656",
+      "2.64990178194527527662272996650858179616498657"
+    ],
+    "reach_lower": ".08",
+    "reach_ratio_lower": "8/265",
+    "exact_marker_cubic_moment": [
+      "3.42406425867330631633501694083023385641606946E-15",
+      "3.42406425867330631633501694083023385641606947E-15"
+    ],
+    "remaining_hypotheses": "Same material-phase/C3/mirror/C2 seam hypotheses and full-surface bounds as R32; actual map, original tail and fixed-g refinement remain unpaid."
+  },
+  "arithmetic": {
+    "exact_rational_inputs": true,
+    "moment_taylor_degree": 80,
+    "local_integral_taylor_degree": 64,
+    "interval_decimal_digits": 80,
+    "no_sampled_extremum_or_unbounded_quadrature_used": true
+  },
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_transfer/certify_wide_m3_circle_window.py",
+    "--out",
+    "/workspace/scratch/7322d0dee069/transfer_work/m3-wide-primary-circle-window-v2.json"
+  ],
+  "sources_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/certify_wide_m3_circle_window.py": "c5be68ccce853602f7777329d478629849b42352aea1774dd4c7401fcb5fac49",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/integral_core_intervals.py": "fcf92ba40110c8a9b917c8881f9fb0c3c0ebcc5a55ac632ae4f2b33317bd1b8f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/fast_integral_core_intervals.py": "1e1fa87ea4dcd25cf4234cff4596f3d95acf5093e2e7f0c4460ada0645db38dd",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_protected_arc_curvature_dual.py": "00132335adb74e1f889d97fc8bb9060d0808ec51746c5603304992f3be8601d1",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_m3_large_circle_window.py": "7d92c9455f82c40c742f6f6867d61533dd0fc91bc3fcfc3dddaa903255b2d54b",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878"
+  },
+  "seconds": 5.157914109004196,
+  "result": "R38",
+  "status": "Strict geometric and moment estimates for a new primary width; closed-family consequences remain conditional",
+  "observed_exit_code": 0,
+  "tool_session": 33661,
+  "terminal_completion_chunk": "e908bf",
+  "output_path": "/workspace/scratch/7322d0dee069/transfer_work/m3-wide-primary-circle-window-v2.json",
+  "output_sha256": "b22673b2b4c393036e6c9473737dea95d2660d4afb7610f12c65a068ee4cf83c",
+  "independent_review": "closed_geometry checked exact moments, Green bounds, complex boundary coefficient, midpoint remainder, q variation and shape derivative; requested explicit even control and protected trajectory neighborhood; both conditions are now explicit and the complete exact computation reran.",
+  "development_note": "First scalar run used the same constants and arithmetic; final source adds an explicit Green ratio assertion, control reflection condition and protected material margin. The final executed source hash is binding."
+}
