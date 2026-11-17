@@ -337,3 +337,5 @@
 - 2026-11-18 05:46:41（UTC+8）｜Astra-held10-7322d0de-20261118：独立审读并发布R36：有理cutoff×指数Taylor积分余项、raw低2×2真矩投影、全角rho>.6611264617及导数界；实际15点真反函数误差<2.404e−14，Γ/Γ′/Γ″/Γ‴源误差<3.192e−14/4.816e−14/2.700e−13/1.021e−11。已核7直接源与32运行源、实际CP/port/全部控制精确分数及完整输出hash。共享Γ先合并为f RG；固定atlas metric扰动引理条件明确，统一角余项/新主部/尾闭合未付，未宣称当前metric达标。
 
 - 2026-11-18 05:48:29（UTC+8）｜Astra-held10-7322d0de-20261118：核对raw M16共享引擎运行全部输入/输出/source hash和终态：call1/2 accepted，call3原线搜索失败5.513863e−9，worker0/stderr空但没有完整M16 prefix CP。原1152stage full-Jac重放精确复现；stage86/mode3动量差恰1ULP=1.136868e−13，原尺度2.061836e−5；次大stage6.522e−10。仅定位这一失败state，不松2e−9、不作几何结论。排名表去掉留hash，后续邻数候选另记。
+
+- 2026-11-18 05:50:29（UTC+8）｜Astra-held10-7322d0de-20261118：核对n4 actual M24/parts8低heap重试的65前缀源、12尾源、输入整profile/所有输出hash：首fullH warmup迭12残差5.4109378e−9，原2e−9线搜索门失败；accepted尾0、无prefix CP。worker/Python0只是错误被捕获，和前−9工程中断不同。RUSAGE_CHILDREN报告值不当全进程树峰值或OOM证据；同g分片8→16后续继续。见n4-actual-m24-parts8-terminal。
