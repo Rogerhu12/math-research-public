@@ -118,3 +118,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [同14轴点加权支持](notes/2026-11-17-parallel-model-pulse-weighted-axis-support.md)：固定β1/4，用828a有理表与原λ预算，0新场点/0新λ，全部>.3193，最小.319378313654在s=.95/π2。准确归一化展开及真实|Gs|分母已付；仅14点，不冒全域/闭reach。
 
 容量维护：三份R116/R142逐字参考副本41343B移至既存主本，三manifest仅当前path映射加原路径/恢复头；原科学与冻结元数据保持，完整恢复e43772f60f9855a5a24067d072f781b9bf9cd4be，见duplicate-retention。
+
+[五完整代表片](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)：f115原G/Q8192/4sub/β1/4，0/390/498/817前后五片连续支持下界依次.454098965/.319165474/.405424433/.405415525/.405420696，|N|²全>.02755863；无新λ。97a7固定819片计划完整复用五报告，其后环境中断于249，187c恢复仅补570/session18950，未称全域终态。
