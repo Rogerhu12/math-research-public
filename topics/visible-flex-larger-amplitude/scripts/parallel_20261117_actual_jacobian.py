@@ -12,7 +12,7 @@ from pathlib import Path
 import time
 import numpy as np
 from parallel_20261117_frenet_symbol import Frenet
-from parallel_20261117_continue import Profile
+from parallel_20261117_profile import Profile
 
 
 def main(args):
