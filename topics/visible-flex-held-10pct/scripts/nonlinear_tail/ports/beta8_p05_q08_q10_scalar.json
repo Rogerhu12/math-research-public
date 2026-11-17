@@ -1,0 +1,32 @@
+{
+  "scope": "Completed beta8 p05 continuation after the frozen hybrid_widecut addendum. Same physical tail canonical M32 s2048; changing delta is design, not fixed-g refinement.",
+  "rows": [
+    {
+      "case": "q080-m16",
+      "q": 0.08,
+      "delta": 0.1718163760792191,
+      "metric_l1": 3.480630113441193e-08,
+      "root_min": 0.0025864827521271394,
+      "kappa": 4.528429143217648,
+      "height": 1.29639458866864,
+      "H_l1": 0.00027995365848873164,
+      "status": "completed_open_finite_linear_port_prefix",
+      "H_first": -7.10750949041632e-05,
+      "H_second": -0.00020636468235943006
+    },
+    {
+      "case": "q100-m16",
+      "q": 0.1,
+      "delta": 0.1717926025794759,
+      "metric_l1": 4.3675138069015275e-08,
+      "root_min": 0.0015825738203250062,
+      "kappa": 4.643718500078412,
+      "height": 1.2946477444568711,
+      "H_l1": 0.000429511491168849,
+      "status": "completed_open_finite_linear_port_prefix",
+      "H_first": -8.949301002503528e-05,
+      "H_second": -0.000331431404862871
+    }
+  ],
+  "q12": "completed trial failure; see q12-terminal-addendum.json; not an amplitude upper bound"
+}

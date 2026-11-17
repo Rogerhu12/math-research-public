@@ -62,7 +62,7 @@
 
 ## 可复现源与命令
 
-`nonlinear_tail_recovery_manifest.json` 的39个不可变小源文件均已逐字与46fe93d4bb708fdfb7935e91b8141ea77586f0d2核对，共240707字节。用现有 `recover_prefix.py` 恢复到仓库外scratch，再运行本批入口即可。原源码、source-cache blob验证、guards和接受标准没有修改。`continue_tail.py` 仅把client要调用的worker路径显式选择，并令source hash仍从原client目录读取；实际worker SHA另记。
+`nonlinear_tail_recovery_manifest.json` 的39个不可变小源文件均已逐字与46fe93d4bb708fdfb7935e91b8141ea77586f0d2核对，共240707字节；它是早期源子清单，独立启动还缺 `.cjs` 平滑cell工厂。2026-11-17的空目录再生实际发现并修复该依赖缺口：现在用 `recover_tail_sources.py` 默认的完整71源闭包恢复到仓库外scratch，再运行本批入口。旧专用于prefix的恢复器还依赖checkpoint_revision字段，不能把这份旧39源清单直接交给它。原源码、source-cache blob验证、guards和接受标准没有修改。`continue_tail.py` 仅把client要调用的worker路径显式选择，并令source hash仍从原client目录读取；实际worker SHA另记。
 
 先按已发表 `smallcut_delivery_manifest.json` 再生固定q18 M20检查点，并保留其恢复源目录 `PREFIX_SOURCE`。完整高度端口由下列入口生成（`smallcut_endpoint.py`另管Cartesian两jet）：
 
@@ -72,10 +72,10 @@ python scripts/nonlinear_tail/extract_H.py SCRATCH/fixed-r30-p20-q18-m20/fixed.j
   --output SCRATCH/q18-H.json
 ```
 
-下面命令以本目录脚本所在位置为工作目录；`recover_prefix.py` 使用父目录已有入口，`REPO` 为仓库，输出目录均在仓库外。不同恢复清单用不同 scratch 目录，避免把前缀源与尾源的版本默默覆盖。
+下面命令以本目录脚本所在位置为工作目录；`recover_tail_sources.py` 使用本目录新入口，`REPO` 为仓库，输出目录均在仓库外。不同恢复清单用不同 scratch 目录，避免把前缀源与尾源的版本默默覆盖。
 
 ```sh
-python ../recover_prefix.py --repo REPO --dest SCRATCH --manifest nonlinear_tail_recovery_manifest.json
+python recover_tail_sources.py --repo REPO --dest SCRATCH
 OPENBLAS_NUM_THREADS=1 python continue_tail.py \
   --source-topic SCRATCH/bundle/topics/visible-flexible-closed-surface \
   --config smallcut_original_m8_config.json --height-trace SCRATCH/q18-H.json \

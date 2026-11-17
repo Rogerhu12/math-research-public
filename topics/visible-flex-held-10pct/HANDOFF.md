@@ -7,7 +7,7 @@
 连通闭曲面的连续C²等距嵌入族，固定有内点闭H，diam F₀(H)≥.2D；整像δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g/物理参数/时间范围下最大相对度量误差≤1e−6且加密下降。材料位移不是整像变化，solver success不是完成。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；仅本题及自己的workflow稀疏检出。
-- 已读规则提交：`36c306c3a5ced5b86eed41c88532ad522e15ac5c`。2026-11-17 23:18:51（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 00:18:51；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`cd55396dc2ae918add7d3d7564ccc5d00863b146`。2026-11-17 23:23:28（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 00:23:28；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同步本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用。
 - 完整证明进results；数值/条件/缺口分开。可重算数组、网格、CI artifact不入Git/Release，只存源码、参数、hash。本文件<10KB、单Markdown<100KB；不写根LOG。
 
@@ -35,7 +35,7 @@ R12已严格证明：接口水平Gram h=g−dz⊗dz正定时，相同g一jet与z
 
 R14进一步证明：同g接口、同turning number和同一严格Q符号支内，完整z迹与非均值zr已由闭合总转角唯一确定mean zr，再由非特征Darboux确定zrr；给连续误差条件数。仅局部精确定理，接口Q过零时不适用，所有数值均值/holonomy仍须记录。
 
-新DN必须重配完整H向量，不能复用旧线性根；beta8与widecut的线性prefix结果另记，不能替代实际尾。前三cell高谷块（峰.85、谷.04、n≥3不变）背景高.060955、κ采样9.88977，真联立仅q=2e−6通过；旧H forcing到λ1e−5，删除内侧脉冲使minA转移深cell3且容量恶化。冻结源及结果见three-cell-block笔记；现恢复各圈双脉冲，同时控制Q=0与gain。各为不同物理g，严禁混称同g。
+新DN必须重配完整H。beta8 p05线性端口prefix到q=.10，metric4.37e−8；q12一次Frenet拒绝非上界。32列端口已空目录独立再生，与历史全部参数/cut/列逐值相同；已修39源子集漏.cjs和参数PadTo规范，恢复用完整71源。线性prefix不能替代实际尾。前三cell高谷块（峰.85、谷.04、n≥3不变）背景高.060955、κ采样9.88977，真联立仅q=2e−6通过；旧H forcing到λ1e−5，删除内侧脉冲使minA转移深cell3且容量恶化。冻结源及结果见three-cell-block笔记；现恢复各圈双脉冲，同时控制Q=0与gain。各为不同物理g，严禁混称同g。
 
 R10严格构造同g C∞低曲率锥环带：0<w≤.01、a≤.01、r≥.2时κ<.77且D/S>0，指定幅度A变号；所以点wise A>0只是现有图限制。它仍需Hr=H/r、共顶点及全两jet，未连接prefix/深尾。有限Gram扩张也不证明无限谱通过A零点。
 

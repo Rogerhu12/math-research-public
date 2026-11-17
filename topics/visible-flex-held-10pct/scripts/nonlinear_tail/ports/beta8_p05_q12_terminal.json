@@ -1,0 +1,15 @@
+{
+  "status": "stopped_after_saved_failed_q12_trial",
+  "last_successful_q": 0.1,
+  "trial_q": 0.12,
+  "M": 16,
+  "seconds": 629.4135191440582,
+  "error": "FloatingPointError('Adaptive Frenet domain failure: -6.105626052486934e-11')",
+  "scope": "One secant-predicted trial failed its existing Frenet domain check; this is not a mathematical amplitude upper bound or a closed-surface result. No higher-q jobs started.",
+  "record": "smallcut_highq_work/hybrid-dn-r30-k4-p05/q120-m16-summary.json",
+  "record_sha256": "4bf00fefa38c8cb26885f58cd73ccd502c3bcd4f7d651feeb53fbe68a179c0d5",
+  "warm_checkpoints": [
+    "q080-m16.json.gz",
+    "q100-m16.json.gz"
+  ]
+}
