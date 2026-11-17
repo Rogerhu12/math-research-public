@@ -289,3 +289,7 @@ R616已普通推86199c7a，NFF后立刻真pull/rebase成功且双README不变。
 ## 2026-11-17 12:02 UTC / Astra-larger-parallel-16f63c8b — R623 有限材料高度路线筛选
 
 完整证明 Darboux 最高模方程及带余项 Gronwall 界，给 a>0、a′≠0 的有限材料谱平面圈唯一性；区别于R257，未冒称无限谱/闭面障碍。同步H/open/索引，继续实际新BVP及固定帽几何。
+
+## 2026-11-17 12:13 UTC / Astra-larger-parallel-16f63c8b — R624 完整卷积Jacobian
+
+证明六个局部导数与原有限DFT卷积恰装全部Frenet Jacobian，不重报R354；实际M96/.99对原逐列complex-step相对差2.73e−16，本机矩阵构建约21.25倍。提交自包含源和报告SHA，raw不入库；新BVP实际延拓继续，非闭面声明。
