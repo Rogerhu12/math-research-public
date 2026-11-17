@@ -101,4 +101,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 2026-11-17 并行互补路线
 
-R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除随 M 加密的近似、有限物理角表示或 a′=0 处的其它机制。[R624](results/R624-finite-frenet-fourier-convolution-jacobian.md)已给完整卷积 Frenet Jacobian；新圆弧scalar已接受到[.991](notes/2026-11-17-parallel-numerical-0991-continuation.md)，同一实际quintic双采样Gram 8.354e−7；.992虽收敛但Gram 1.191e−6未过，正做径向/频率加密。完整尾闭合仍未解决。[R625](results/R625-second-volume-moment-quotient-bound-and-fixed-caps.md)已给二阶体积矩和两组具体帽预算，使含反射 δE 有可实际计算的下界；完整同场A2、帽隔离和源reach仍须实际支付，继续优化标记矩。旧主线与全七项完成标准不改。
+R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除随 M 加密的近似、有限物理角表示或 a′=0 处的其它机制。[R624](results/R624-finite-frenet-fourier-convolution-jacobian.md)已给完整卷积 Frenet Jacobian；新圆弧scalar已接受到[.991](notes/2026-11-17-parallel-numerical-0991-continuation.md)，同一实际quintic双采样Gram 8.354e−7；.992虽收敛但Gram 1.191e−6未过，正做径向/频率加密。完整尾闭合仍未解决。[R625](results/R625-second-volume-moment-quotient-bound-and-fixed-caps.md)已给二阶体积矩和两组具体帽预算，使含反射 δE 有可实际计算的下界；完整同场A2、帽隔离和源reach仍须实际支付，继续优化标记矩。[R626](results/R626-finite-mean-dynamic-zero-mode-tail-bvp.md)给同有限求积均值的显式零模ODE及误差传播，正在真实source背景上解低阶非零尾BVP；η/全角投影余项和真正深图仍须付。旧主线与全七项完成标准不改。

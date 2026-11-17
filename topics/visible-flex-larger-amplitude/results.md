@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R626（已证明，有限尾求解的等价变量）**：[字面均值的动态零模 BVP](results/R626-finite-mean-dynamic-zero-mode-tail-bvp.md)：有限求积准确链式导数给显式零模ODE，免逐stage求根；χ=0消除均值误差的w²放大，与同一隐式根模型双向等价。2M+1边界计数、真实连续残差及完整角η双高频界均保留，未声称新非零闭面。
+
 - **R625（已证明，条件几何工具与显式帽）**：[二阶中心体积矩到含反射Hausdorff商距离下界](results/R625-second-volume-moment-quotient-bound-and-fixed-caps.md)：等体积/reach/完整D和area给 dE≥min(τ/2,6Δ/(13AD²))；二模旋转+固定帽有显式矩干涉。两组帽准确支付reach及D费用，第二组源.0312可保新reach/D≥301/10006；仍须真实帽隔离和完整场A2。附闭OBJ准确有理矩积分器，不代闭面存在。
 
 - **R624（已证明的导数/装配恒等式；计时为数值证据）**：[完整有限 Frenet Fourier 卷积 Jacobian](results/R624-finite-frenet-fourier-convolution-jacobian.md)：六个局部导数一次DFT装配全部3M+2行列，保原离散混叠/两均值/正根，成本 O(N log N+M²)。实际M96旧.99末态相对Frobenius差2.73e−16，构建约21.25倍；真正新段仍单独支付。
