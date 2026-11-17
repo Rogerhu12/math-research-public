@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`c0f9514b7ea4dd707053b41cf5c3ba383682e890`。2026-11-18 05:31:51（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`4c66f6a92fe33a740e83046164dfd88729d10fc7`。2026-11-18 05:33:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -22,7 +22,7 @@ R30周期复用只减少重复标量求积，N/D/S/A/root/2e−9原门均保留�
 
 **新wCut=.16**：原worker重建24模port/双根，背景rootmin.0160234。q.01/.0125/M16的metric2.48504e−8/5.97569e−7；q.015/M20虽原BVP接受，完整metric1.20586e−5/tensor.0232143未过。冻结该g后867→2484径向点仍1.20598e−5/.0232092平台，见n4-w016-q015-radial-plateau；同g/M24/1536/tol1e−8末观察1130s/collocation54，句柄失效无数学终态，见n4-q015-m24-observation-gap；暂先付raw/actual链。
 
-新w16/q0125：canonical lambda.001触maxnodes/RMS.037951，无正lambda锚点。raw mean/c8低2×2投影/固定J16路径lambda.02/.05有限接受，metric2.41705e−6/6.95343e−6均未过，.1主动中止无终态。冻结.02整g、eta=.1、释放c8后M20到2282点/tol1e−8，完整metric升3.43423e−6、tensor.0160166，不是收敛；见n4-raw-lambda002-fixed-m20。嵌套/完整核/解析Jac及free控制全lambda独立性见n4-raw-free-c8-fixed-g，不推BVP可逆。现定位分量/频带与径向位置，再选下一精化。
+新w16/q0125：canonical lambda.001触maxnodes/RMS.037951，无正lambda锚点。raw mean/c8低2×2投影/固定J16路径lambda.02/.05有限接受，metric2.41705e−6/6.95343e−6均未过，.1主动中止无终态。冻结.02整g、eta=.1、释放c8后M20到2282点/tol1e−8，完整metric升3.43423e−6、tensor.0160166，不是收敛；见n4-raw-lambda002-fixed-m20。嵌套/完整核/解析Jac及free控制全lambda独立性见n4-raw-free-c8-fixed-g，不推BVP可逆。M20峰s=.066873/K<0、主频84，54.27%在80外，早于lift衰减；见n4-raw-defect-localization。现同g/J16 M24，2282旧点全留。
 
 R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几何待付。旧低幅lambda.1/.15虽有限接受但metric失败，.2/.175节点门失败，见n4-low-amplitude-circle-terminal；非丢入口lift或不存在。eta1/q001/M12真正锚点见n4-first-true-coupled-state。
 
