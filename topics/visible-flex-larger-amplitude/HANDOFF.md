@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 12:41:43 UTC 真实 pull 后核双 README，无新差异，已读提交 c008e83dbc797b4d5ac127b24e97aeaa1a9b2ba6。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 12:50:54 UTC 真实 pull 后核双 README，无新差异，已读提交 40f895ca5dbc8b1ea7c5e29c5f58f3f2810052af。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623有限材料高度筛选、R624卷积Jacobian、R625矩/固定帽、R626有限动态均值均已推。本支线本地直接求解，原Actions责任不变。[新圆弧scalar前缀.992](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)已M112/N2048、486节点接受，实际quintic Gram采样2.590e−7；后继M128为6.467e−7，尚非单调谱收敛。真实material cut的r=1.1673/w=2.6426/w_r=48.558已传tail，材料112投影P/K仍有4.7e−5/8.3e−5离散尾，不能当无损。[动态尾M8完整接受](notes/2026-11-17-parallel-numerical-dynamic-tail-first.md)已登记；四分点真实r残差7.89e−3，未过几何门。实际cut新g仅scale1e−6接受，线性放大大，正调valley/bridge并换物理角。R628非轴伴随/Green式已证；R627卷积帽已证；R629支撑平面外推保reach/held不减，有h=.01875/.02固定C²帽，真实源隔离未付。几何支线转实际tail Gram重构。完整闭面/全域/全t/reach仍未付。
+Astra-larger-parallel-16f63c8b：R623–630完整数学结论见results索引，本支线本地计算，原Actions责任不变。[.992前缀](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112/N2048/486点接受，quintic Gram采样2.590e−7；M128回升6.467e−7，未有单调谱收敛。真实r=1.1673/w=2.6426/w_r=48.558端口现用R630物理φ/P̃，无损保物理模，深行已换角。[小尾M8接受](notes/2026-11-17-parallel-numerical-dynamic-tail-first.md)的四分点r残差7.89e−3；几何积分K新读出待刊。大幅cut新g仅scale1e−6接受，正调valley/bridge大放大。低z外柱会遮held见证，改核上下回头固定盖；真实H、全闭面/全t/全域reach仍未付，纯帽结果不代它。
 
 ## 实际活动run与唯一终态读者
 
