@@ -1,0 +1,85 @@
+{
+  "scope": "One diagnosed interior one-ULP initial-value candidate, followed by the unchanged full DN solve and audit. No completed prefix is asserted.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/try_recorded_tail_neighbor.mjs",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-shared/seed_tail_0003.json.gz",
+    "/workspace/scratch/7322d0dee069/m3_work/raw-m16-shared-tail-residual.json",
+    "/workspace/scratch/7322d0dee069/m3_work/raw-m16-neighbor-v2-tail.json.gz",
+    "/workspace/scratch/7322d0dee069/m3_work/raw-m16-neighbor-v2-summary.json",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py"
+  ],
+  "input_sha256": "1e891690f5a801131e3cf029ce5e224174e55e5c6b74054c3b74f3d8c6785710",
+  "diagnostic_sha256": "bc1f8dcfd21fe3800430510f74faae4c41a20e3f559cdfbe042c834908d87a4c",
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-stage-split.mjs": "74ad405a9eefb3c071a2f2164724ceada677b186185f3c0733470ab6e2e270b4",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/try_recorded_tail_neighbor.mjs": "8735d7b874975140bf92a9ec646420067f25f60c3acd0ecd72c2b2efc9336fa9",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "candidate": {
+    "stage": 86,
+    "component": 16,
+    "oldValue": -644.5647395585236,
+    "newValue": -644.5647395585235,
+    "absoluteChange": 1.1368683772161603e-13,
+    "componentUlps": 1
+  },
+  "originalGate": 2e-09,
+  "originalFullReplayResidual": 5.513863082482075e-09,
+  "affectedStagesBefore": [
+    {
+      "stage": 85,
+      "normalizedResidual": 2.871136809416671e-11,
+      "minA": 0.980386597258541,
+      "minD": 0.9999814580941883
+    },
+    {
+      "stage": 86,
+      "normalizedResidual": 5.513863082482075e-09,
+      "minA": 0.9932617693564285,
+      "minD": 0.9999823729168191
+    }
+  ],
+  "affectedStagesAfter": [
+    {
+      "stage": 85,
+      "normalizedResidual": 4.593818895066674e-10,
+      "minA": 0.980386597258541,
+      "minD": 0.9999814580941883
+    },
+    {
+      "stage": 86,
+      "normalizedResidual": 1.3784657706205187e-09,
+      "minA": 0.9932617693564285,
+      "minD": 0.9999823729168191
+    }
+  ],
+  "originalSolverConverged": true,
+  "finalResidual": 1.3784657706205187e-09,
+  "minA": 0.7427151521096772,
+  "minD": 0.9994289564949012,
+  "audit": {
+    "fullD": 9.601072718477133e-07,
+    "normalizedFullDefect": 1.281704170288597e-07,
+    "minLeading": 0.7427151523715153,
+    "minD": 0.9994289682251469,
+    "formalCurvature": 8.238046764359922,
+    "maxPhysicalPV": 0.00022166991276706492,
+    "actualMetric": 6.645140575016306e-11,
+    "holonomy": 2.6321879708172404e-19
+  },
+  "history": [
+    {
+      "iteration": 0,
+      "norm": 1.3784657706205187e-09,
+      "minA": 0.7427151521096772,
+      "minD": 0.9994289564949012
+    }
+  ],
+  "output_record_sha256": "fbfd45ccc44677b47ae465691038706dfeb45b2e7424ee880c546feca44cbcc7"
+}

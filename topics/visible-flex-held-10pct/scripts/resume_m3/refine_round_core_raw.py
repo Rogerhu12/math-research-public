@@ -24,6 +24,7 @@ def main():
     p.add_argument('--angular',type=int)
     p.add_argument('--nodes',type=int)
     p.add_argument('--max-nodes',type=int,default=6000)
+    p.add_argument('--one-ulp-initial-retry',action='store_true')
     a=p.parse_args();rec=json.load(gzip.open(a.prefix_restart,'rt'));accepted_anchor(rec,a.prefix_restart)
     if rec.get('core_control_path')!='raw-mean-primary-compact-v1':
         raise ValueError('Expected an actual raw-core state')
@@ -31,6 +32,7 @@ def main():
     angular=a.angular or max(rec['config']['angular'],32*a.modes)
     if angular<rec['config']['angular']:raise ValueError('Do not reduce angular quadrature')
     cfg=dict(rec['tail_config']);cfg['modes']=a.modes
+    if a.one_ulp_initial_retry:cfg['oneUlpInitialRetry']=True
     need=4*a.modes*cfg['spacing'];N=1
     while N<=need:N*=2
     cfg['quadrature']=max(cfg['quadrature'],N)
@@ -68,6 +70,7 @@ def main():
       old_modes=rec['config']['modes'],new_modes=a.modes,old_angular=rec['config']['angular'],new_angular=angular,
       old_tail_quadrature=rec['tail_config']['quadrature'],new_tail_quadrature=cfg['quadrature'],
       core_round_settings=settings,core_control_path=rec['core_control_path'],
+      one_ulp_initial_retry=cfg.get('oneUlpInitialRetry',False),
       frozen_profile=rec['frozen_profile'],unchanged_tail_gate=cfg['solveTolerance'],
       prefix_port_sha256=hashlib.sha256(prefix_port.read_bytes()).hexdigest(),
       source_sha256={str(f.resolve()):hashlib.sha256(f.read_bytes()).hexdigest() for f in [Path(__file__),wrapper]},

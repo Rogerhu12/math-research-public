@@ -1,0 +1,17 @@
+{
+  "scope": "Optional one-neighbor initial-value retry after the original line search fails.\n\nOnly a largest residual that is the difference of adjacent finite binary64\nvalues at an interior free state is eligible. The candidate sets that one\nstate value to the already computed original flow value. It is accepted only\nwhen a new full original residual/Jacobian evaluation passes the original\ntolerance. All root/RHS/RK/linear solve/residual/physical gates are unchanged.\n",
+  "copy_from": "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source",
+  "source_topic": "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source",
+  "configuration_flag": "oneUlpInitialRetry",
+  "default_enabled": false,
+  "original_sha256": {
+    "950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53"
+  },
+  "derived_sha256": {
+    "950f-tail-stage-core.mjs": "f3b89803ce53f1351df7bfe9800523897d740e558311100eaa33b6efcd0e0db2"
+  },
+  "installer_sha256": "2afb7e02684606e7bda081dfb5831798a84e39ae34cc81ea29d6303b55f2d300",
+  "original_residual_formula_unchanged": true,
+  "original_acceptance_gate_unchanged": true,
+  "maximum_candidates_per_failed_solve": 1
+}

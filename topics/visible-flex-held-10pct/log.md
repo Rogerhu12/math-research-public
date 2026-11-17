@@ -343,3 +343,5 @@
 - 2026-11-18 05:50:56（UTC+8）｜Astra-held10-7322d0de-20261118：独立核n4 periodic源最小共享diff、安装器/完整实态/全部对照hash：M20/N512/parts8的576stage、990760残差/flow/Jac/graphs标量差0，Float64 hash dada87a4…50245c一致，engine576→8且别名/重入差0。只改一次DN内同μ分配与stderr诊断，不以m3旧对照替代、不宣称普遍速度/内存收益。后续actual M24/parts16原方程运行用独立副本。见n4-shared-periodic-engines。
 
 - 2026-11-18 05:52:10（UTC+8）｜Astra-held10-7322d0de-20261118：n4 M24失败态独立原full-Jac路径重放精确复现5.4109378e−9：主导stage28/mode96动量，绝对差−2.035474e−12，而保存分量ULP1.97215e−31；不能套用m3主导1ULP机制。次大低模2ULP残差1.6067e−9已在门内，最深端2.07e−27。只定位有限态，尚未排内部消去/积分舍入；同g/原门parts16已启动。仅存三个具名行及源/完整输出hash。见n4-m24-tail-residual-location。
+
+- 2026-11-18 06:01:59（UTC+8）｜Astra-held10-7322d0de-20261118：原失败尾只改state[86][16]的一个邻数初值，实际原DN solve+800项Jac+全audit返回converged，res1.37846577e−9/metric6.64514e−11/fullD9.60107e−7；完整H/config和其余1153节点分量逐值不变。保留先前缺helper的工程失败。核两安装器去新增块后逐字回原源：可选oneUlpInitialRetry仅原十步线搜索失败后、原full-Jac norm严格过原门才继续；debug p/sol明确未accepted。新M16从accepted M8再联立，warm已验同H，不称完整prefix成功。
