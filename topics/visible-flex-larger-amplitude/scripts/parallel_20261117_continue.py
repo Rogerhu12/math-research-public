@@ -68,6 +68,15 @@ def feasible_newton(n,m,h,col_fun,bc,jac,y,p,B,bvp_tol,bc_tol):
                     accepted=True;break
             alpha*=.5
         if not accepted:
+            if not recompute and njev<8:
+                # A reused factor can cease to give a descent direction after
+                # a full nonlinear step.  Retry the SAME current state with
+                # its actual Jacobian before asking the outer solver to refine.
+                # A fresh-factor failure still retains the old feasible point.
+                print(json.dumps(dict(event='stale_factor_no_descent_refresh',iteration=iteration,
+                                      residual_max=float(np.max(abs(residual))))),flush=True)
+                recompute=True
+                continue
             print(json.dumps(dict(event='no_descending_trial_old_point_retained',iteration=iteration,
                                   residual_max=float(np.max(abs(residual))))),flush=True)
             break
@@ -149,6 +158,9 @@ def main(args):
     y=np.empty((q.n,len(x)));inside=x<=start;y[:,inside]=warm(x[inside])
     t=x[~inside]-start;y[:,~inside]=y0[:,None]+z['yp'][:,None]*t+.5*z['ypp'][:,None]*t*t
     core=np.pad(np.array(data['core']['coefficients']),(0,q.M-data['M']));K=args.fixed_modes
+    if args.core_first is not None:
+        if len(args.core_first)!=K:raise ValueError('Supply exactly fixed_modes core targets')
+        core[:K]=args.core_first
     nc=2*q.M+K+2
     BA=np.zeros((q.n,q.n));BB=np.zeros_like(BA)
     BA[0,0]=1
@@ -214,7 +226,8 @@ def main(args):
                 terminal_boundary=dict(M=q.M,fixed_modes=K,rows=L.tolist(),target=target_right.tolist(),
                                        reference_endpoint=bs,input_sha256=hashlib.sha256(boundary_raw).hexdigest()),
                 extension_scalar=dict(start=origin,a0=profile.a0,v0=profile.v0,u0=profile.u0,angular_curvature=float(profile.K)),
-                fixed_modes=args.fixed_modes,profile_source_sha256=hashlib.sha256(Path(__file__).with_name('parallel_20261117_profile.py').read_bytes()).hexdigest(),
+                fixed_modes=args.fixed_modes,core_fixed_targets=core[:K].tolist(),
+                profile_source_sha256=hashlib.sha256(Path(__file__).with_name('parallel_20261117_profile.py').read_bytes()).hexdigest(),
                 fixed_scalar_profile=inherited,analytic_extension_origin=origin,
                 mesh=sol.x.tolist(),states=sol.y.T.tolist(),rhs=fun(sol.x,sol.y).T.tolist(),
                 core=dict(coefficients=core_new.tolist(),rho_min=float(rho.min()),axis_support_gap=float(2*np.sum(core_new[::2]))),rows=rows)
@@ -232,6 +245,7 @@ if __name__=='__main__':
     p.add_argument('--input',type=Path,required=True);p.add_argument('--duration',type=float,default=.006)
     p.add_argument('--step',type=float,default=.001);p.add_argument('--fixed-modes',type=int,default=3)
     p.add_argument('--modes',type=int);p.add_argument('--angles',type=int)
+    p.add_argument('--core-first',type=float,nargs='+',help='Explicit new fixed core targets; this designs a different geometry, not mere refinement')
     p.add_argument('--boundary-input',type=Path,help='Accepted original reference used to reconstruct the same terminal rows during refinement')
     p.add_argument('--tol',type=float,default=1e-6);p.add_argument('--max-nodes',type=int,default=800)
     p.add_argument('--linear-solver',choices=['separated-qr','direct-csc'],default='separated-qr')
