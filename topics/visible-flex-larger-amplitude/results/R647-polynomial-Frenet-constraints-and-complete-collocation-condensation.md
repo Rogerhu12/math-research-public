@@ -297,3 +297,146 @@ PYTHONDONTWRITEBYTECODE=1 python "$T/scripts/parallel_20261117_implicit_core_rat
 ```
 
 入口和出口均核固定输入 SHA；warm、reference、R638 报告、区间源的完整 SHA 分别为 `1662ee34a820776570c7535ee5735812d7e7a27822901849c211a89992629057`、`aa1cf41faf83a9e2b3e90167d0bc9e00e48c8d84cc2aec707c2da17c45f0ca15`、`d3fe8df338482e0ac01f3d65a2ee91baa5f2996814188a7adb31a4ec01ff9f37`、`f512c96cbc1fb3896fc144c5e9d8d29aaa80e321d08d9cdbf1745beb54a5c57d`。本节不运行新 BVP，也不重新计算 R638。
+
+## 附：完整 Pr 的准确二次方向式与一次真实更新割线诊断
+
+本节消费 R336 §3 的四次残差平方公式，不重报一般全局化定理。R336 处理二次 Taylor 模型，仍须支付模型与真实函数之差；这里的新增对象是 R647 固定网格、固定 `k=a'/a`、固定全部 BC 的独立 `Y/U` Pr 系统，其真实有限残差本身准确二次。未改正在运行的 `5b965` 源，未装配新 Jacobian、重解方向或新增 BVP。
+
+### 1. 全部变量、行及方向公式
+
+取 `M=160,N=2048,m=602,n=482`。未知量为所有节点的 `Y_i,U_i`，共 580328 个标量。残差保留 290164 个节点行、289682 个中点行和 482 个原边界行。原始系数 SSE 不换成角向积分范数，也不重加权。
+
+令一个完整方向为 `(A_i,B_i)`。在节点，或用同一线性 Hermite 算子得到的中点上，记
+
+\[
+ d=D_\phi Y,\quad e=D_\phi^2Y,\quad V=\mathcal E U,
+ \qquad \dot d=D_\phi A,\quad\dot e=D_\phi^2A,\quad\dot V=\mathcal E B.
+\]
+
+这里导数包含旋转坐标架导数，与冻结 `Frenet.jet` 完全相同。用原角投影 `P_r` 定义
+
+\[
+ j=P_r\begin{pmatrix}
+ \dot V\cdot d+V\cdot\dot d\\
+ \dot V\cdot e+V\cdot\dot e+2k\,d\cdot\dot d\\
+ 2V\cdot\dot V
+ \end{pmatrix},\qquad
+ q=P_r\begin{pmatrix}
+ \dot V\cdot\dot d\\
+ \dot V\cdot\dot e+k|\dot d|^2\\
+ |\dot V|^2
+ \end{pmatrix}.
+\]
+
+中点方向必须用完整公共三次式
+
+\[
+ A_m=(A_i+A_{i+1})/2+h(B_i-B_{i+1})/8,\qquad
+ B_m=3(A_{i+1}-A_i)/(2h)-(B_i+B_{i+1})/4.
+\]
+
+边界贡献是 `j_bc=BA A_0+BB A_last`、`q_bc=0`。按原顺序堆叠全部行后，数学有限映射准确满足
+
+\[
+ R(X+\alpha D)=r+\alpha j+\alpha^2q. \tag{1}
+\]
+
+这里 `j=J_current D`，不是旧缓存 Jacobian 的乘积。公式不要求 `C_U` 可逆，不除根式 `H`；它也不替代物理正分支或几何门。若先将 `U` 作为非线性消元函数，仅以 `Y` 为变量，则不能照搬“准确二次”的断言。
+
+### 2. 消费 R336：完整 raw SSE 和原回溯门
+
+将 R336 §3 中的方向二阶项换成 `2q`，并去掉其目标的 `1/2`，得到
+
+\[
+ S(\alpha)=c_0+c_1\alpha+c_2\alpha^2+c_3\alpha^3+c_4\alpha^4,
+\]
+
+\[
+ (c_0,c_1,c_2,c_3,c_4)=
+ (r^Tr,\;2r^Tj,\;j^Tj+2r^Tq,\;2j^Tq,\;q^Tq). \tag{2}
+\]
+
+所有内积覆盖 580328 行。当前 `5b965` 门是 `S(alpha)<(1-.4 alpha)S(0)`。对正 `alpha`，它等价于
+
+\[
+ .4c_0+c_1+\alpha c_2+\alpha^2c_3+\alpha^3c_4<0. \tag{3}
+\]
+
+因此一次方向 pass 足以预测原有的 17 个 dyadic 门，不改变候选步长、顺序、目标或任何行；实际浮点 trial 仍须重新计算。源码另记录直接全残差与 (1) 的差，不能把数学多项式恒等式冒成逐位浮点等式。
+
+保留完整当前线性缺陷 `e=r+j`，则
+
+\[
+ R(\alpha)=(1-\alpha)r+\alpha e+\alpha^2q. \tag{4}
+\]
+
+若 `e=0`，满步的原门恰为 `||q||²<.6||r||²`；半步的原门恰为
+`4<r,q>+||q||²<8.8||r||²`。实际计算必须保留 `e`，不能只凭线性残差最大值把它设零。也不能因旧 factor 解得准就认定当前 `j≈−r`。
+
+### 3. 原 run 日志支持的事实
+
+读取原日志前 208 行，冻结为 scratch `parallel-implicit-quadratic-ray-log-prefix.jsonl`，SHA256 `523eb647fccc7918d78a433e80b065f0b8ff546a0a02e37566e578c789d9f418`。没有从这些 SSE 标量反拟合 `q`。
+
+| fresh J | 完整线性相对残差（原记录） | 满步 SSE | 半步 SSE | 首次接受 alpha |
+|---|---:|---:|---:|---:|
+| 2 | 4.9142812e−6 | 9.855422058e−4 | 7.543179133e−5 | 1/4 |
+| 3 | 1.4510018e−7 | 18.8230757854 | 1.17643951643 | 1/128 |
+| 4 | 2.7879130e−6 | 4.59221363043 | .287035921815 | 1/64 |
+
+J3/J4 的满步、半步 SSE 比约为 16，支持四次项主导的诊断方向；这张表自身不提供 `q` 向量证书。完整线性方程已解得小，而非线性较大步仍失败，两者应明确区分。
+
+### 4. 完整方向实现核对与唯一一次真实割线
+
+可复用 API 为 `local_terms(P,y,u,dy,du,k)`、`terms(P,Y,U,dY,dU)` 和 `analyze(P,Y,U,dY,dU,alphas,original_linear)`。第二个返回 `nodes/middle/boundary` 同形同序的 `j,q`；最后一个包括全向量 complex-step、直接试点残差、各不交方程组的内积贡献、原 17 门预测。没有 Jacobian 装配或线性求解。
+
+首先在原 `1662` warm 上核一个源码明确写出的非 Newton、全槽平滑方向：全部 580328 行的 JVP 与 complex-step 相对 L2 差 `7.84913e−14`，节点/中点/BC 最大差分别 `1.08421e−19/5.81878e−16/3.38814e−21`。在 `alpha=1,.5,.25`，式 (1) 与直接试点的最大差为节点 `5.12e−16`、中点 `1.252e−11`、BC `1.056e−16`；中点差明确保留，不声称数值零。该 fixture 仅验证接口，不是 Newton 或物理解。
+
+原 run 未保存逐位 `dy/du`，故没有重放其原方向。随后只读捕获了 iteration 4 和 5 的两个相邻已接受**代数迭代态**，定义新有限方向
+
+\[
+ D_{\rm eff}=(X_5-X_4)/(1/64).
+\]
+
+它含原更新舍入；重新组合 `X_4+(1/64)D_eff` 与 `X_5` 逐位相同，但不能把它等同原 Newton 方向，亦不能把代数迭代态升级为物理接受父。
+
+本次全向量实读为
+
+| 量 | 数值 |
+|---|---:|
+| `r²` | 2.8481095461615603e−5 |
+| `r·j` | −2.8481095472155596e−5 |
+| `||r+j||₂` | 5.423911371220497e−9 |
+| `r·q` | 9.700253448880678e−6 |
+| `j·q` | −9.700300556925102e−6 |
+| `q²` | 5.228601106447963 |
+
+`q²` 中节点 `r1=V·e+k|d|²` 占 `3.1496365277613076`，中点同组占 `1.7440473624667974`，合计约 93.6%；这里的归因来自所有真实 `q` 分量，不来自 SSE 拟合。
+
+新割线的直接满步/半步 SSE 是 `5.2286011063537465/.32679711447844295`；原 17 步长预测首次通过仍为 `1/64`，此时直接 SSE 为 `2.7914325976643825e−5`。全向量 JVP complex-step 相对差 `3.02613e−12`，式 (1) 直接核对最大差 `3.64e−14`。割线的中点线性缺陷最大 `7.03397e−10`，原方向记录为 `1.40869e−10`，这个差异也说明两种方向不能逐位等同。
+
+当前证据指出较大步失败的具体非线性来源；仅将节点 `C_U` 消元换成 `[C_Y C_U]` 零空间，若全方阵线性化可逆且仍准确解同一 `J D=−r`，精确算术下得到同一个方向，未必减小 `q²`。保全行的阻尼最小二乘会改变方向选择，是不同的后继算法；本节未执行、扫描或宣称它成功。
+
+### 5. 冻结身份、命令与限制
+
+- 新源：[已刊完整方向源码](../scripts/parallel_20261117_implicit_quadratic_ray.py)；当前 scratch `parallel-implicit-quadratic-ray.py`，9624 B，SHA256 `e67f7d1bf021fd88646e1a77057b4557418ff77ebd5032461d8a46dd7f6498fc`。
+- Pr Problem 源 `parallel-model-implicit-frenet-newton.py`：`5b965b9c4f9979a5b8dcc38661de027570d04d55aceb86de0dc7b1217fb03aac`。多项式源 `parallel-root-implicit-frenet-probe.py`：`ba0b17fc85af8510c7c45b22a8facecd59061f53b3f7fd4adb48d3380c74e1a2`。
+- 原 warm `parallel-hold-m160-short-bvp-warm.json.gz`：`1662ee34a820776570c7535ee5735812d7e7a27822901849c211a89992629057`。
+- fixture report `parallel-implicit-quadratic-ray-fixture.json`：`14f244651cd2790034b1dcdfa4761dc24bdd5936a7b07def376218c78b874f1e`。
+- 割线两端 `parallel-implicit-ray-base-capture.json.gz` / `parallel-implicit-ray-next-capture.json.gz`：`19ba03e7bec29587d4587d0b8731a955b58ab598ad56fddb63be39377a8c06f3` / `e3607befda246848f3d99f1de4ec9b9adbdb2056c5196b57fe914ed4c9459ffd`。
+- 割线 report `parallel-implicit-quadratic-ray-secant.json`：`7dd1881e32479b31faa00bdc259343d825f21d3ec03e200a1ce5dbc088b54582`；有效方向 binary SHA `672891c95785a922077d6f079707207fce5a39b438830d50e93acec625bdad7b`。
+
+在 scratch 根目录执行；省略最后两个参数即复现明确非 Newton fixture。
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+python math-research-public/topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_quadratic_ray.py \
+  --topic math-research-public/topics/visible-flex-larger-amplitude \
+  --problem-source math-research-public/topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_newton.py \
+  --warm parallel-hold-m160-short-bvp-warm.json.gz \
+  --polynomial-source math-research-public/topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_probe.py \
+  --out parallel-implicit-quadratic-ray-secant.json \
+  --base parallel-implicit-ray-base-capture.json.gz \
+  --next parallel-implicit-ray-next-capture.json.gz
+```
+
+source guard 检查冻结 Problem/warm/多项式/标量/角基源；report 另记完整 mesh、节点和中点 k、全部 BA/BB/target 的 binary SHA，以及 `r,j,q` 全向量 SHA。普通 binary64 Fourier/jet 运算与 long-double 内积不是区间证书；elapsed 字段和平台差异可改变新 report 的文件 SHA。所有 raw 留 scratch，不入 Git。此节只交可核验的全局化诊断，不改变原 run、物理门、完成状态或同 g 精化责任。
