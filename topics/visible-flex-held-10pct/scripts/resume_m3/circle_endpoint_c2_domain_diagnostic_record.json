@@ -1,0 +1,310 @@
+{
+  "scope": "Reconstruct one saved failed endpoint state and inspect its original trials.\n\nThis evaluates one original Newton direction and the original halving sequence\nwithout updating the saved state or solving a new BVP.  It distinguishes a\ncore-domain failure from a subsequent collocation/Frenet failure.  It does not\nclaim to recover the unsaved historical iteration sequence.  The original\ncore, full Jacobian, affine DN, residual, merit and domain checks are used.\n",
+  "command": [
+    "topics/visible-flex-held-10pct/scripts/resume_m3/diagnose_endpoint_domain_trials.py",
+    "--run",
+    "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot",
+    "--short-bridge",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/c2seed-endpoint-domain-trials.json"
+  ],
+  "run": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot",
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed.json.gz",
+    "sha256": "89019a0d5395d6963ca11fec28a09f6b0bc34f475b6b3299ae9daf60089fa172"
+  },
+  "input_chunks": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_coeff_00.npy.gz",
+      "sha256": "13673177aed61480f3daf3f4594402266634368470aba630ea09f21d89302d8d"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_coeff_01.npy.gz",
+      "sha256": "d46421d2b3888d7c9f4a5d837b41113b87a8bfc54d68bba8e8099c45c140f37e"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_coeff_02.npy.gz",
+      "sha256": "c1e0e2e144a8b8976124b4a1091bba12687428d745df8ea3ebb425de35cdc82b"
+    }
+  ],
+  "affine_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_tail_0002.json.gz",
+    "sha256": "9a9f92bfd55a388c63e58a141086074ac6b4826f1f4e3dd7af7052d951c42d74"
+  },
+  "bridge_storage": {
+    "recorded_path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "verified_path": "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-coupled.py": "711de62631e019a212c405ddedbef06cc552ada50ab248201c4cc6d65878525a",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/diagnose_endpoint_domain_trials.py": "7f303f62ec142bcb4215a744df820e156cf8487159fee3b801083188b1d412de",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+  },
+  "settings": {
+    "halfwidth": 0.21,
+    "transition": 0.32,
+    "control_transition": 0.4,
+    "homotopy": 1.0,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768
+  },
+  "parameters": [
+    7.226497949956599e-06,
+    182.63858533215839,
+    -4074.3640885533473,
+    86784.60860698686,
+    -1762206.9399202496,
+    34056773.10825369,
+    -100823536.28152478,
+    69844802.62453951,
+    -45521559.984872,
+    27693728.132145345,
+    -15547349.757364696,
+    7915068.080997095,
+    -3558730.0657492043,
+    1349551.9092092775,
+    -414172.870605662,
+    76345.65571287663
+  ],
+  "parameter_step": [
+    -0.0006647785688829487,
+    -8281.93690431022,
+    183728.12745913572,
+    -3878913.023051822,
+    77843925.20963067,
+    -1482363369.4793344,
+    4309791184.02108,
+    -2921560480.15365,
+    1856144604.343903,
+    -1096466947.8898962,
+    595134883.8841879,
+    -292553285.1433862,
+    126932954.19866835,
+    -46766303.127613425,
+    13530540.612323536,
+    -2508586.5265583387
+  ],
+  "physical_control_step": [
+    -13.193179278595501,
+    11.681590246204738,
+    -9.84340001909945,
+    7.884398976583271,
+    -5.992489945862356,
+    4.30979118402108,
+    -2.92156048015365,
+    1.8561446043439032,
+    -1.0964669478898963,
+    0.595134883884188,
+    -0.2925532851433862,
+    0.12693295419866835,
+    -0.04676630312761343,
+    0.013530540612323536,
+    -0.0025085865265583387
+  ],
+  "original_control_scales": [
+    0.0015930064948610383,
+    6.35808485491854e-05,
+    2.5376696926694513e-06,
+    1.0128470468762837e-07,
+    4.042524302234451e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "q_gauge": 0.03991248545080898,
+  "replay": {
+    "recorded_rms": 6.330035651953387,
+    "reconstructed_rms": 6.330035651953387,
+    "difference": 0.0,
+    "physical_chart_error": 2.220446049250313e-16,
+    "original_bc_max": 3.344588593190423e-06,
+    "original_residual_max": 0.000554281639828226,
+    "provenance": "The saved physical quintic node values and original inverse chart reconstruct a finite state. The final quintic endpoint need not be bitwise the lost raw solve_bvp cubic. This is a new one-state diagnostic, not a replay of all historical rejected iterations."
+  },
+  "matrix_shape": [
+    205620,
+    205620
+  ],
+  "matrix_nnz": 23440680,
+  "original_linear_residual_max": 1.1753131867536185e-14,
+  "original_field_step_max": 0.08809087176554309,
+  "original_merit_cost": 3.4419065549937922e+19,
+  "rejection_counts": {
+    "original_core_or_profile": 21,
+    "original_collocation_or_boundary": 0,
+    "original_merit": 0
+  },
+  "one_step_candidate_found": false,
+  "seconds": 83.41753341200092,
+  "interpretation": "No state is advanced or accepted. Original core/profile and then full collocation/BC checks are evaluated on the original halving sequence. This isolates a concrete rejection source at one reconstructed state; it does not assign all historical domain rejections to that source or change any physical equation, original positivity floor, grid ceiling or tolerance. Twenty trials were rejected specifically by the original first-derivative grid certificate ceiling; the full step had a genuinely negative sampled rho. No trial reached the Frenet or merit checks. These are not all 156 historical rejections.",
+  "explanatory_trials": [
+    {
+      "backtracking_index": 0,
+      "alpha": 1.0,
+      "trial_delta": 0.061723419169449754,
+      "physical_control_max": 13.484123731241862,
+      "core_domain_passed": false,
+      "rejected_stage": "original_core_or_profile",
+      "error": "Core rho sampled positivity failed: (-0.16369344237553096, -1744.3338434345985, 512)"
+    },
+    {
+      "backtracking_index": 1,
+      "alpha": 0.5,
+      "trial_delta": 0.06139102988500828,
+      "physical_control_max": 6.887534091944111,
+      "core_domain_passed": false,
+      "rejected_stage": "original_core_or_profile",
+      "error": "Core rho guard unable to certify at its grid ceiling: (0.24905578122045413, -13.690573311983476, 32768)"
+    },
+    {
+      "backtracking_index": 19,
+      "alpha": 1.9073486328125e-06,
+      "trial_delta": 0.0610586418685313,
+      "physical_control_max": 0.29096961663881976,
+      "core_domain_passed": false,
+      "rejected_stage": "original_core_or_profile",
+      "error": "Core rho guard unable to certify at its grid ceiling: (0.6266238007097119, -2.654564771065182e-05, 32768)"
+    },
+    {
+      "backtracking_index": 20,
+      "alpha": 9.5367431640625e-07,
+      "trial_delta": 0.06105864123454906,
+      "physical_control_max": 0.29095703464259004,
+      "core_domain_passed": false,
+      "rejected_stage": "original_core_or_profile",
+      "error": "Core rho guard unable to certify at its grid ceiling: (0.6266232776104808, -1.6761582651847462e-06, 32768)"
+    }
+  ],
+  "full_output": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/c2seed-endpoint-domain-trials.json",
+    "sha256": "f27880534794447e0ce90b9e5d1d01a6c6bd9fcb02e4678b78bafa30e9e36920",
+    "bytes": 17152
+  },
+  "observed_execution": {
+    "tool_session": 68434,
+    "complete_output_written": true,
+    "observed_exit_code": null,
+    "tool_followup": "Unknown process id after agent interruption; no returncode inferred. The complete output reached the end of the declared single-state calculation."
+  },
+  "snapshot_provenance": {
+    "scope": "Explicitly failed, complete physical prefix snapshot while the original run continues its post-failure tail diagnostics. No accepted prefix or full coupled terminal is asserted. The snapshot is used for a separate read-only one-state Newton domain diagnostic.",
+    "created_utc": "2026-11-17T23:34:15.429958+00:00",
+    "source_run": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2",
+    "files": [
+      {
+        "original": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2/seed.json.gz",
+        "snapshot": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed.json.gz",
+        "sha256": "89019a0d5395d6963ca11fec28a09f6b0bc34f475b6b3299ae9daf60089fa172"
+      },
+      {
+        "original": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2/continuation-command.json",
+        "snapshot": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/continuation-command.json",
+        "sha256": "10ce77d9dc75d4494e59e0603cc99ca4ae3472f917c9c4d32fe4c49243e61f0a"
+      },
+      {
+        "original": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2/seed_tail_0002.json.gz",
+        "snapshot": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_tail_0002.json.gz",
+        "sha256": "9a9f92bfd55a388c63e58a141086074ac6b4826f1f4e3dd7af7052d951c42d74"
+      },
+      {
+        "original": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2/seed_coeff_00.npy.gz",
+        "snapshot": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_coeff_00.npy.gz",
+        "sha256": "13673177aed61480f3daf3f4594402266634368470aba630ea09f21d89302d8d"
+      },
+      {
+        "original": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2/seed_coeff_01.npy.gz",
+        "snapshot": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_coeff_01.npy.gz",
+        "sha256": "d46421d2b3888d7c9f4a5d837b41113b87a8bfc54d68bba8e8099c45c140f37e"
+      },
+      {
+        "original": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2/seed_coeff_02.npy.gz",
+        "snapshot": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed_coeff_02.npy.gz",
+        "sha256": "c1e0e2e144a8b8976124b4a1091bba12687428d745df8ea3ebb425de35cdc82b"
+      }
+    ],
+    "solver_success": false,
+    "nodes": 4196,
+    "rms": 6.330035651953387,
+    "has_summary_at_snapshot": false
+  },
+  "final_physical_state_identity": {
+    "scope": "The final CP adds completed audits to the previously snapshotted failed physical state; the listed physical metadata/mesh are literal-equal, and all decoded coefficient payload bytes are identical. Different compressed file SHA values are retained separately.",
+    "final_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2seed-v2/seed.json.gz",
+      "sha256": "f2f6e6cfce765fadebc13380f1bc9b7d6c9d98000c497982aad04e3bd57e9a25"
+    },
+    "snapshot_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/c2seed-failed-prefix-domain-snapshot/seed.json.gz",
+      "sha256": "89019a0d5395d6963ca11fec28a09f6b0bc34f475b6b3299ae9daf60089fa172"
+    },
+    "literal_equal_keys": {
+      "config": true,
+      "chart": true,
+      "warp_reference_q": true,
+      "frozen_profile": true,
+      "gauge_amplitude": true,
+      "actual_primary_amplitude": true,
+      "parameters": true,
+      "central_correction_scales": true,
+      "mesh": true,
+      "solver_success": true,
+      "nodes": true,
+      "max_rms_collocation_residual": true,
+      "newton_domain_audit": true,
+      "core_round_settings": true,
+      "core_control_path": true
+    },
+    "coefficient_payload_checks": [
+      {
+        "file": "seed_coeff_00.npy.gz",
+        "identical_uncompressed_payload": true,
+        "uncompressed_sha256": "ff7038ffbffa659b327d0d886cffbe7884f57b9abf152db331bb29976164a3f3",
+        "final_compressed_sha256": "cdc8b68d2273e00a45304010dd80523b1c5c2a1e48786d9011bc6d1543e3f289",
+        "snapshot_compressed_sha256": "13673177aed61480f3daf3f4594402266634368470aba630ea09f21d89302d8d",
+        "only_gzip_timestamp_bytes_differ": true
+      },
+      {
+        "file": "seed_coeff_01.npy.gz",
+        "identical_uncompressed_payload": true,
+        "uncompressed_sha256": "441310903a4415f25e4e00ea3d5e06049dbac83aa1870c482bd6c69fec653ea9",
+        "final_compressed_sha256": "d18da9aba20596038f556275f3e9a33abcc171b9a7de03420076a6cd1445161f",
+        "snapshot_compressed_sha256": "d46421d2b3888d7c9f4a5d837b41113b87a8bfc54d68bba8e8099c45c140f37e",
+        "only_gzip_timestamp_bytes_differ": true
+      },
+      {
+        "file": "seed_coeff_02.npy.gz",
+        "identical_uncompressed_payload": true,
+        "uncompressed_sha256": "e270b0e7da951d10b11d5ac9e4d980193bdb1645578fb97d88b80cd27e15d4d4",
+        "final_compressed_sha256": "60847b466f4ce08c6317cc48cb888d2510cb3188752c28a2943be10994a3a83f",
+        "snapshot_compressed_sha256": "c1e0e2e144a8b8976124b4a1091bba12687428d745df8ea3ebb425de35cdc82b",
+        "only_gzip_timestamp_bytes_differ": true
+      }
+    ]
+  }
+}
