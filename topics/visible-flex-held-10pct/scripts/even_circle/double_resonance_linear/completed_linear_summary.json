@@ -1,0 +1,532 @@
+{
+  "scope": "Compact observations; no DN, checkpoint mesh or state arrays included.",
+  "physical_port_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+  "original_baseline": {
+    "profile": {
+      "direction": "outward",
+      "ramp": 0.45,
+      "ramp_eta": 0.05,
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.4,
+      "vd": 0.4,
+      "delta": 0.030150157904596426
+    },
+    "tau": [
+      -8.415685029703355e-14,
+      0.2236088509047164,
+      -0.7494438272936217,
+      -0.2837674247582142,
+      -0.060636850280166715,
+      0.023356308211064027
+    ],
+    "jacobian_delta_vd": [
+      [
+        -5.111741024070686,
+        0.025109635382314338
+      ],
+      [
+        8.879237105366423,
+        0.00010022972868339863
+      ]
+    ],
+    "linear_Newton_step": [
+      -0.025125601901746532,
+      -5.114991438147448
+    ],
+    "geometry": {
+      "background_height": 0.6455848344565527,
+      "sample_ball_radius_with_cylinder": 1.2118831885147148,
+      "sample_ball_D_with_nominal_tail": 2.4237663770294295,
+      "nominal_tail_rise": 0.02,
+      "background_curvature_sample": 7.412754292652297,
+      "elementary_background_curvature_upper": 7.449331808213583,
+      "minimum_root": 0.004073067033401934,
+      "radius_max": 1.0301501579045964,
+      "length": 1.2047846145208942,
+      "first_positive_K": 0.07537539476149106,
+      "circle_loss_div_R": 0.15506555579141226,
+      "circle_loss_quad_error": 1.7215735036592268e-15,
+      "circle_loss_div_R_elementary_lower": 0.15214916221528754,
+      "required_halfwidth": 0.145,
+      "characteristic_window_consumed_sample": true,
+      "characteristic_window_consumed_elementary": true,
+      "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+    }
+  },
+  "initial_local_trials": [
+    {
+      "profile": {
+        "direction": "outward",
+        "ramp": 0.45,
+        "ramp_eta": 0.05,
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "delta": 0.009650692640008757,
+        "vd": 0.08000000000000002
+      },
+      "accepted_linear_double_root": false,
+      "tau": [
+        0.08786006722203948,
+        -0.09425309784186779,
+        0.20141239045531306,
+        -0.1843896599387357,
+        -0.604075239226784,
+        -0.8750152797524077,
+        0.2975087966974692,
+        0.1264083313375958
+      ],
+      "geometry": {
+        "background_height": 0.6421420109819677,
+        "sample_ball_radius_with_cylinder": 1.2096928255090567,
+        "sample_ball_D_with_nominal_tail": 2.4193856510181133,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 23.158515224585887,
+        "elementary_background_curvature_upper": 23.27278866702862,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0096506926400088,
+        "length": 1.1938929782975292,
+        "first_positive_K": 0.02412673160002189,
+        "circle_loss_div_R": 0.08784721786347176,
+        "circle_loss_quad_error": 9.753000392128869e-16,
+        "circle_loss_div_R_elementary_lower": 0.08643912164931475,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": false,
+        "characteristic_window_consumed_elementary": false,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "profile": {
+        "direction": "outward",
+        "ramp": 0.45,
+        "ramp_eta": 0.05,
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.3,
+        "delta": 0.01211063271905302,
+        "vd": 0.08000000000000002
+      },
+      "accepted_linear_double_root": false,
+      "tau": [
+        0.06909964742526042,
+        -0.08264923599725217,
+        0.17285947126145226,
+        -0.30155155636918873,
+        -0.8441422581140196,
+        -0.34940896582726244,
+        0.12046589636875334,
+        0.04554207953062451
+      ],
+      "geometry": {
+        "background_height": 0.7276133916526484,
+        "sample_ball_radius_with_cylinder": 1.2661269609916317,
+        "sample_ball_D_with_nominal_tail": 2.5322539219832634,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 9.996983078753056,
+        "elementary_background_curvature_upper": 10.022626590286087,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.012110632719053,
+        "length": 1.2793316966942712,
+        "first_positive_K": 0.04036877573017674,
+        "circle_loss_div_R": 0.09838107849872392,
+        "circle_loss_quad_error": 1.0922493853673824e-15,
+        "circle_loss_div_R_elementary_lower": 0.09678252855131786,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": false,
+        "characteristic_window_consumed_elementary": false,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "profile": {
+        "direction": "outward",
+        "ramp": 0.45,
+        "ramp_eta": 0.05,
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.5,
+        "delta": 0.014033508856808641,
+        "vd": 0.8999999999999999
+      },
+      "accepted_linear_double_root": false,
+      "tau": [
+        0.039103423311463735,
+        0.014139614408188322,
+        -0.30780518240361904,
+        -0.6484520454383027,
+        -0.8056172046741013,
+        -0.2588935026070552,
+        -0.09197522655742563,
+        -0.00868913448707905
+      ],
+      "geometry": {
+        "background_height": 0.45151962438320387,
+        "sample_ball_radius_with_cylinder": 1.101499587237952,
+        "sample_ball_D_with_nominal_tail": 2.202999174475904,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 154.14705041255118,
+        "elementary_background_curvature_upper": 170.3603469076452,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0140335088568087,
+        "length": 1.0100737341741877,
+        "first_positive_K": 0.028067017713617283,
+        "circle_loss_div_R": 0.10591894552748277,
+        "circle_loss_quad_error": 1.1759365206862912e-15,
+        "circle_loss_div_R_elementary_lower": 0.10414220721597124,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": false,
+        "characteristic_window_consumed_elementary": false,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "profile": {
+        "direction": "outward",
+        "ramp": 0.35,
+        "ramp_eta": 0.05,
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "delta": 0.014044926874894613,
+        "vd": 0.8999999999999977
+      },
+      "accepted_linear_double_root": false,
+      "tau": [
+        0.007538485560885953,
+        0.003970472430150902,
+        -0.24422676524584955,
+        -0.4441609894614547,
+        -0.9132804658540788,
+        -0.544487001420934,
+        0.21090883566185875,
+        -0.09159058727584166
+      ],
+      "geometry": {
+        "background_height": 0.4494630970504242,
+        "sample_ball_radius_with_cylinder": 1.1004916259359119,
+        "sample_ball_D_with_nominal_tail": 2.2009832518718238,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 234.03302504316522,
+        "elementary_background_curvature_upper": 258.64878521835686,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0140449268748946,
+        "length": 1.0087196414608464,
+        "first_positive_K": 0.03511231718723653,
+        "circle_loss_div_R": 0.08597505656387479,
+        "circle_loss_quad_error": 9.545148734066397e-16,
+        "circle_loss_div_R_elementary_lower": 0.08460174708406099,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": false,
+        "characteristic_window_consumed_elementary": false,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    }
+  ],
+  "double_roots": [
+    {
+      "index": 0,
+      "profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.2,
+        "ramp": 0.4,
+        "vd": 0.1967918870840793,
+        "delta": 0.03613533466439578
+      },
+      "primary_pair_max": 7.894179030002518e-11,
+      "tau_first3": [
+        1.708092827127156e-14,
+        -7.894179030002518e-11,
+        -0.5867503713840497
+      ],
+      "next_modes_min_abs": 0.0013554554819086818,
+      "cut_gain_mode4": 0.00029312100518065465,
+      "cut_gain_mode8": -0.0003885068483044226,
+      "precision_comparison": 2.5072244280721634e-10,
+      "background": {
+        "background_height": 0.9821670904632348,
+        "sample_ball_radius_with_cylinder": 1.4546480690206602,
+        "sample_ball_D_with_nominal_tail": 2.9092961380413205,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 3.9999997934518525,
+        "elementary_background_curvature_upper": 4.0,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0361353346643958,
+        "length": 1.537856850596065,
+        "first_positive_K": 0.1806766733219789,
+        "circle_loss_div_R": 0.15321402302542986,
+        "circle_loss_quad_error": 1.7010173605828113e-15,
+        "circle_loss_div_R_elementary_lower": 0.15037729831781804,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": true,
+        "characteristic_window_consumed_elementary": true,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "index": 1,
+      "profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.2,
+        "ramp": 0.45,
+        "vd": 0.20096218725642384,
+        "delta": 0.03623139804037468
+      },
+      "primary_pair_max": 6.285251957210175e-11,
+      "tau_first3": [
+        1.3431415209697797e-14,
+        -6.285251957210175e-11,
+        -0.8594452612765134
+      ],
+      "next_modes_min_abs": 0.0004899320953144602,
+      "cut_gain_mode4": 0.0002742587635423801,
+      "cut_gain_mode8": -0.0003790941647350336,
+      "precision_comparison": 4.241987316966345e-11,
+      "background": {
+        "background_height": 1.0324572765165212,
+        "sample_ball_radius_with_cylinder": 1.4946827919033099,
+        "sample_ball_D_with_nominal_tail": 2.9893655838066198,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 3.999999961577083,
+        "elementary_background_curvature_upper": 4.0,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0362313980403748,
+        "length": 1.5878679399149758,
+        "first_positive_K": 0.1811569902018734,
+        "circle_loss_div_R": 0.16988492516919595,
+        "circle_loss_quad_error": 1.8861015545956312e-15,
+        "circle_loss_div_R_elementary_lower": 0.1665844034373957,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": true,
+        "characteristic_window_consumed_elementary": true,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "index": 2,
+      "profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.3,
+        "ramp": 0.45,
+        "vd": 0.2325504779875857,
+        "delta": 0.03180947361440455
+      },
+      "primary_pair_max": 6.048845914372298e-11,
+      "tau_first3": [
+        2.0344256123472798e-14,
+        -6.048845914372298e-11,
+        -0.6746634071686808
+      ],
+      "next_modes_min_abs": 0.0005782586967501672,
+      "cut_gain_mode4": 0.0003874654203330889,
+      "cut_gain_mode8": -0.0003581643853391747,
+      "precision_comparison": 1.3031833945298388e-09,
+      "background": {
+        "background_height": 0.8158259857655534,
+        "sample_ball_radius_with_cylinder": 1.3283857936291867,
+        "sample_ball_D_with_nominal_tail": 2.6567715872583735,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 3.999999984950329,
+        "elementary_background_curvature_upper": 4.0,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0318094736144046,
+        "length": 1.3721774001137192,
+        "first_positive_K": 0.10603157871468184,
+        "circle_loss_div_R": 0.1592396242294121,
+        "circle_loss_quad_error": 1.7679149725215127e-15,
+        "circle_loss_div_R_elementary_lower": 0.15622748947002227,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": true,
+        "characteristic_window_consumed_elementary": true,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "index": 3,
+      "profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.2644695137018561,
+        "delta": 0.02840070836443855
+      },
+      "primary_pair_max": 3.568691698097231e-11,
+      "tau_first3": [
+        5.192277168578848e-14,
+        -3.568691698097231e-11,
+        -0.6587173575236178
+      ],
+      "next_modes_min_abs": 0.001572718357331424,
+      "cut_gain_mode4": 0.0004956033694713485,
+      "cut_gain_mode8": -0.00032957334169860333,
+      "precision_comparison": 1.207346500553541e-09,
+      "background": {
+        "background_height": 0.6978903555797699,
+        "sample_ball_radius_with_cylinder": 1.2460325931268386,
+        "sample_ball_D_with_nominal_tail": 2.492065186253677,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 7.8693710580574106,
+        "elementary_background_curvature_upper": 7.908201704665911,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0284007083644386,
+        "length": 1.2550363195396717,
+        "first_positive_K": 0.07100177091109637,
+        "circle_loss_div_R": 0.15051658082408131,
+        "circle_loss_quad_error": 1.671069736187484e-15,
+        "circle_loss_div_R_elementary_lower": 0.14772123354046285,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": true,
+        "characteristic_window_consumed_elementary": true,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "index": 4,
+      "profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.17,
+        "ramp": 0.45,
+        "vd": 0.1909076008305897,
+        "delta": 0.037893873736895414
+      },
+      "primary_pair_max": 6.710796138278789e-11,
+      "tau_first3": [
+        1.0566044892046583e-14,
+        -6.710796138278789e-11,
+        -0.9837136996479741
+      ],
+      "next_modes_min_abs": 0.0006245114176027808,
+      "cut_gain_mode4": 0.0002384249433149825,
+      "cut_gain_mode8": -0.00038285913053356745,
+      "precision_comparison": 6.561362564383444e-11,
+      "background": {
+        "background_height": 1.1417849622729046,
+        "sample_ball_radius_with_cylinder": 1.5841265074246984,
+        "sample_ball_D_with_nominal_tail": 3.168253014849397,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 3.9999998052846553,
+        "elementary_background_curvature_upper": 4.0,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.0378938737368955,
+        "length": 1.6968711944378967,
+        "first_positive_K": 0.22290513962879654,
+        "circle_loss_div_R": 0.17371689851912733,
+        "circle_loss_quad_error": 1.928645005024069e-15,
+        "circle_loss_div_R_elementary_lower": 0.17030634037218076,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": true,
+        "characteristic_window_consumed_elementary": true,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    },
+    {
+      "index": 5,
+      "profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.25,
+        "ramp": 0.45,
+        "vd": 0.21695490253013053,
+        "delta": 0.03384729345429298
+      },
+      "primary_pair_max": 6.01251882061903e-11,
+      "tau_first3": [
+        2.072799711941778e-14,
+        -6.01251882061903e-11,
+        -0.7261194842871427
+      ],
+      "next_modes_min_abs": 0.0026867968426130405,
+      "cut_gain_mode4": 0.0003318399892325132,
+      "cut_gain_mode8": -0.00036989920170125783,
+      "precision_comparison": 2.440609520037995e-11,
+      "background": {
+        "background_height": 0.904606294446824,
+        "sample_ball_radius_with_cylinder": 1.3944980310196058,
+        "sample_ball_D_with_nominal_tail": 2.7889960620392116,
+        "nominal_tail_rise": 0.02,
+        "background_curvature_sample": 3.9999996737747288,
+        "elementary_background_curvature_upper": 4.0,
+        "minimum_root": 0.004073067033401934,
+        "radius_max": 1.033847293454293,
+        "length": 1.460510283020937,
+        "first_positive_K": 0.13538917381717192,
+        "circle_loss_div_R": 0.16423192881101156,
+        "circle_loss_quad_error": 1.8233406874458463e-15,
+        "circle_loss_div_R_elementary_lower": 0.16108776624392826,
+        "required_halfwidth": 0.145,
+        "characteristic_window_consumed_sample": true,
+        "characteristic_window_consumed_elementary": true,
+        "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+      }
+    }
+  ],
+  "full_runtime_summary_sha256": "bae1dc26c5d93225031c21d47db83ef3864199527ba32b7822d66189e234a492"
+}

@@ -1,0 +1,32 @@
+{
+  "source": "even_plateau_work/exact_narrow_circle_window.py",
+  "source_sha256": "dc4df83054117f14c1a4ff597eeb22718644f03daa8aa0d95cbf9706bc9bf8e8",
+  "target_sha256": "56a0126f03a548262d3bf5433e9b66dfb621346f23901782c406b2861c4c33db",
+  "literal_replacements": [
+    [
+      "a=F(29,200);",
+      "a=F(147,1000);"
+    ],
+    [
+      "x=F(57,400)",
+      "x=F(29,200)"
+    ],
+    [
+      "Dmax=F(5,2);ell=F(51,100);alpha=F(57,2000)",
+      "Dmax=F(53,20);ell=F(27,50);alpha=F(29,1000)"
+    ],
+    [
+      "hlo=F(281,20000);hhi=F(289,20000)",
+      "hlo=F(287,20000);hhi=F(293,20000)"
+    ],
+    [
+      "F(5,66)",
+      "F(2,25)"
+    ],
+    [
+      "curvature_max='66/5'",
+      "curvature_max='25/2'"
+    ]
+  ],
+  "scope": "Parameter-only variant of the independent exact circle/cylinder certificate; no actual closed geometry asserted."
+}

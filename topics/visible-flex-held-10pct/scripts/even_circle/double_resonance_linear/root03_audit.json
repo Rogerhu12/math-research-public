@@ -1,0 +1,142 @@
+{
+  "scope": "Recheck one double root with the untouched original single-mode integrator.",
+  "profile": {
+    "direction": "outward",
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    },
+    "vu": 0.4,
+    "ramp": 0.45,
+    "vd": 0.2644695137018561,
+    "delta": 0.02840070836443855
+  },
+  "original_class_extraction": "AST extraction of the unchanged BackwardLine class; only its original numpy/math/solve_ivp globals are supplied.",
+  "original_single_mode": [
+    {
+      "mode": 4,
+      "normalized_core": [
+        1.0,
+        4.940450554007502e-14
+      ],
+      "logscale": 7.609113880496576,
+      "unnormalized_core": [
+        2016.490454280922,
+        9.962371382003021e-11
+      ]
+    },
+    {
+      "mode": 8,
+      "normalized_core": [
+        -1.0,
+        -3.523078717774511e-11
+      ],
+      "logscale": 8.01577683236237,
+      "unnormalized_core": [
+        -3028.3610130327957,
+        -1.0669154234753901e-07
+      ]
+    }
+  ],
+  "jacobians": [
+    {
+      "step_factor": 1.0,
+      "parameter_order": [
+        "delta",
+        "vd"
+      ],
+      "matrix": [
+        [
+          -5.274935511301995,
+          0.11696390452689295
+        ],
+        [
+          405.71445962780933,
+          43.22875854280283
+        ]
+      ],
+      "singular_values": [
+        408.04452102890275,
+        0.6751294201264294
+      ]
+    },
+    {
+      "step_factor": 0.1,
+      "parameter_order": [
+        "delta",
+        "vd"
+      ],
+      "matrix": [
+        [
+          -5.274935506964515,
+          0.11696390341545697
+        ],
+        [
+          405.7144486333412,
+          43.228757036094734
+        ]
+      ],
+      "singular_values": [
+        408.04450993754716,
+        0.6751294142837604
+      ]
+    }
+  ],
+  "background_geometry": {
+    "background_height": 0.6978903555797699,
+    "sample_ball_radius_with_cylinder": 1.2561138001306065,
+    "sample_ball_D_with_nominal_tail": 2.512227600261213,
+    "nominal_tail_rise": 0.028865103743246846,
+    "background_curvature_sample": 7.8693710580574106,
+    "elementary_background_curvature_upper": 7.908201704665911,
+    "minimum_root": 0.004073067033401934,
+    "radius_max": 1.0284007083644386,
+    "length": 1.2550363195396717,
+    "first_positive_K": 0.07100177091109637,
+    "circle_loss_div_R": 0.15051658082408131,
+    "circle_loss_quad_error": 1.671069736187484e-15,
+    "circle_loss_div_R_elementary_lower": 0.14772123354046285,
+    "required_halfwidth": 0.147,
+    "characteristic_window_consumed_sample": true,
+    "characteristic_window_consumed_elementary": true,
+    "scope": "Round-background diagnostics only; positive tests do not certify finite-amplitude diameter, curvature, support or a closed surface."
+  },
+  "rational_head_and_curvature_gates": {
+    "scope": "Exact rational inequalities at the literal profile and cut scalars; not a certificate for the root location or nonlinear surface.",
+    "lower_characteristic_loss_over_R_squared": "97130422606379841/4451121275055989390",
+    "required_halfwidth_squared": "21609/1000000",
+    "characteristic_window_strictly_consumed": true,
+    "up_meridian_curvature_upper_squared": "12390400000000000000000000000000000000/198120698909572825363788626994890901",
+    "down_meridian_curvature_upper_squared": "9471261326111123141010148971618812051077648979665555636967553217600/877444382104428775283827828402951281897437863687184593266384102399",
+    "flat_loop_meridian_curvature_below_8": true,
+    "short_bridge_declared_curvature": 4.0,
+    "short_bridge_cut_curvature_below_4": true,
+    "parallel_curvature_below_4": true
+  },
+  "tail_background": {
+    "physical_parameter_mismatches": {},
+    "spacing_is_not_a_rotational_background_parameter": true,
+    "height_interval": {
+      "lower": 0.017226894332849643,
+      "upper": 0.028865103743246846,
+      "lower_exact": "1241328558370761/72057594037927936",
+      "upper_exact": "8319799709574221/288230376151711744"
+    },
+    "factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+  },
+  "provenance": {
+    "/workspace/scratch/f00f08c94d46/n4_multiresonance_work/physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+    "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+    "m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "even_plateau_work/mode4_port24.json": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+    "/workspace/scratch/f00f08c94d46/n4_multiresonance_work/audit_double_root.py": "86895d9958fe37fe445dcecaf2caae8708d6674f46f41a38af6aaadc3762a6e6",
+    "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc",
+    "n4_multiresonance_work/slow_double/root-03-profile.json": "740cd7398bcf5cef3ca4e7de0b272c2d759dc72257f143046fcea84febbff7d6",
+    "tail_closure_audit/m3_fixed_background_interval64_v2.json": "85f768301d5ac97ae79fc64ef58e72d92d0ecf7b86d54a65b1530778ce7e74a6",
+    "tail_closure_audit/m3_fixed_background_constants.json": "f9efb5c41fc7a4e683222c86bce279d94fc5f328332c6ff21db82901a864fab9"
+  }
+}

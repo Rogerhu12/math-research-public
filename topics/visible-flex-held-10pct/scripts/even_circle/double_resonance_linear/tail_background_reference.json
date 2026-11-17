@@ -1,0 +1,22 @@
+{
+  "scope": "Rotational background only, identical original factory/physical parameters. Spacing changes fields only. Not a nonlinear m4 tail certificate.",
+  "references": [
+    {
+      "path": "tail_closure_audit/deliverable/M3-finite-C2-collar-and-disk.md",
+      "sha256": "92b2ef1be193c05517d5899e388bf08c98551778955df5baa85fbb4963698625"
+    },
+    {
+      "path": "tail_closure_audit/deliverable/background_interval_result.json",
+      "sha256": "85f768301d5ac97ae79fc64ef58e72d92d0ecf7b86d54a65b1530778ce7e74a6"
+    },
+    {
+      "path": "tail_closure_audit/deliverable/background_analytic_gates.json",
+      "sha256": "4b94f59fad734b9edb3facdb98215fd9d69734cb4faedc846361819fe2d6011f"
+    },
+    {
+      "path": "tail_closure_audit/deliverable/physical_background.json",
+      "sha256": "676ed1247742d1a263f2c63e29bae839fd1b11a55fca7f578eb808050be298fa"
+    }
+  ],
+  "qualification": "The background proof explicitly invokes the original-default deep calibration-root bracket [0.5,2] from the cited earlier result."
+}

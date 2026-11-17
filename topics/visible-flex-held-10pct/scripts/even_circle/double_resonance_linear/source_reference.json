@@ -1,0 +1,30 @@
+{
+  "scope": "Original physical law, ShortBridge and untouched BackwardLine source closure.",
+  "files": [
+    {
+      "revision": "46fe93d4bb708fdfb7935e91b8141ea77586f0d2",
+      "path": "topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "target": "bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py",
+      "bytes": 6349,
+      "sha256": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc"
+    },
+    {
+      "revision": "46fe93d4bb708fdfb7935e91b8141ea77586f0d2",
+      "path": "topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "target": "bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py",
+      "bytes": 6004,
+      "sha256": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef"
+    },
+    {
+      "revision": "507d346bf1d13c8baf03ee3a4636ecc2fa6aa1d5",
+      "path": "topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "target": "bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "bytes": 7463,
+      "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+    }
+  ],
+  "complete_worker_recovery": {
+    "commit": "bf5e9f92c3befea1cc5173c33bf9130ccc3b320d",
+    "path": "topics/visible-flex-held-10pct/scripts/even_circle/first_batch/recovery/m3_source_recovery_manifest.json"
+  }
+}
