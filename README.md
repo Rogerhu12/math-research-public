@@ -10,6 +10,7 @@
 | `topics/visible-flex-exact-nearby` | 证明“瘪易拉罐”附近有精确解 |
 | `topics/visible-flexible-closed-surface` | 好看的可弯曲闭曲面（上面两题的数据来源） |
 | `topics/visible-flex-new-mechanism` | 大振幅的可弯曲闭曲面（优先尝试新构造） |
+| `topics/visible-flex-held-10pct` | 握持变化量做到直径 10% 的可弯曲闭曲面 |
 | `topics/serre-uniformity` | Serre 一致性 |
 | `topics/rank2-sha-infinitely-many-p` | 秩 $\ge2$ 的椭圆曲线对无穷多个 $p$ 有 Ш$[p^\infty]$ 有限 |
 | `topics/invariant-subspace-problem` | Hilbert 空间上的不变子空间问题 |
