@@ -325,3 +325,5 @@
 - 2026-11-18 05:30:07（UTC+8）｜Astra-held10-7322d0de-20261118：发布raw积分核生产reader及真实CP接口：kind/path/J/全控制与q精确分派、原source/chunk/profile/port逐项核，canonical/fixed-log幅值约定不混。单次H七jet≤6.30e−15，完整新图metric8.3004e−5复现缺口。仅原packet一个cut的G/a²−1约1.8006e−6、主导±24在带内，不冒充全域最坏或排除截断因果。源/输出/packet/hash已核；按根15删可再生bin排名，只保必要主导标量及全输出hash。双README真实pull无变化。
 
 - 2026-11-18 05:30:56（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 raw lambda.02同一完整g的M20实际终态：原BVP 2282点/RMS9.98667e−9/BC2.66e−15接受，但完整metric2.41705e−6→3.43423e−6、Darboux.007037→.0160166增大；q=.01250042727/c8=−1.61095e−8。整profile/port/eta/J16/lambda逐项相同，初值核/图/旧节点已付；核原结果/CP/chunks/源hash与比例，不把有限BVP或flow下降当完整误差收敛。先定位再决定下一层。双README真实pull无变化。
+
+- 2026-11-18 05:31:51（UTC+8）｜Astra-held10-7322d0de-20261118：发布原raw M8有限图的新分量峰位置/频谱诊断：七组packet数组逐位同一，2070径向点一次pass/N768；E/F/G峰分别s=.096922/.107975/.127529，E带内3.566e−5/带外4.734e−5，F/G主导27模。只新增误差定位、不重解；标量带界不等于图删频，Nyquist仍有>1e−14成分，非连续尾界或截断因果证明。核源/输入/输出/NPZ hash与频带加和，压缩记录不含排名表；提供M16同片比较位置。双README真实pull无变化。

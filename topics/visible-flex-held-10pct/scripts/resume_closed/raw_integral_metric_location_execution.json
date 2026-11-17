@@ -1,0 +1,197 @@
+{
+  "source_sha256": "737a0d36dcddca7c44ac5019a58ea4aaa2a99102789afacda63444577d0c9221",
+  "inputs": {
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz": "12ce9eb20ae36cd4bc3af3d9781c0706b2acc816417b39f5535bec3a69805b9c",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json": "ebb28def346a47120d422e4ae5cbf13f2e297f2d68ee30d366d5d3bed8ad2161",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json": "3e83072f020f3c61ee963afcee5eaf3489b2de557b7598460025099943b0d0d9"
+  },
+  "reader_sha256": "e2cfa779d94abbc1ecb2c33bb8c3ef4f6deff5c6879abfd972ff8412d3d6fdad",
+  "original_map_byte_identity_checks": {
+    "knots": true,
+    "cartesian_jets": true,
+    "reference_radial_jets": true,
+    "reference_projection": true,
+    "phase_jets": true,
+    "mean_knots": true,
+    "mean_jets": true
+  },
+  "state_modes": 8,
+  "core_projection_order_J": 8,
+  "state_scalar_cutoff": 24,
+  "angular_samples": 768,
+  "radial_samples": 2070,
+  "full_radial_passes": 1,
+  "nearby_slice_reevaluations": 9,
+  "radial_selection": "Every shared node and midpoint, 65 uniform domain points and 65 center-strip points",
+  "amplitude_floor": 1e-14,
+  "bvp_solves": 0,
+  "original_map_or_parameters_changed": false,
+  "continuous_or_true_integral_metric_claimed": false,
+  "limitations": "A finite radial/FFT location diagnostic. Band membership alone does not establish truncation causality, and increasing M may alter old in-band coefficients.",
+  "seconds": 11.544187555999088,
+  "status": "finite sampling diagnostic; not a theorem or convergence certificate",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/locate_integral_prefix_metric_spectrum.py",
+    "--data",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz",
+    "--prefix-audit",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_metric_locations.json"
+  ],
+  "observed_exit_code": 0,
+  "tool_session": 54860,
+  "terminal_completion_chunk": "fb9abf",
+  "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_metric_locations.json",
+  "output_sha256": "48d202a9495b3f653df1cd5e1b11d029ee81040de1c2d1b5e2e8a55bcbbef869",
+  "scalar_output": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_metric_locations-radial-scalars.npz",
+    "sha256": "dae4bbc011e3dc00e6a81d839198871c9c7d311a7594bdf8d5c010200896f38f"
+  },
+  "protocol_source_execution": "raw_integral_prefix_interface_execution.json",
+  "protocol_source_execution_sha256": "7402de03f78747d2c9d8aaaa7781e36fc201cd10d6dc50c2b4d0dd8b0a1f4244",
+  "source_protocol": {
+    "core_kind": "exact_m3_raw_local_circle_integral_lift",
+    "core_control_path": "raw-mean-primary-compact-v1",
+    "core_projection_order_J": 8,
+    "core_control_convention": "Raw compact cosines after mean/primary projection; no high-moment inverse",
+    "library_manifest_sha256": "4b9d71971520f2b3fe655d0a39a2715d7d6f551f1913f5480bfc0931d250a4fd",
+    "core_round_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.08,
+      "control_transition": 0.16,
+      "homotopy": 0.02,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "physical_controls": [
+      0.00021219545219261905,
+      -1.261404203834175e-05,
+      -5.526945986750603e-07,
+      1.2604952214177558e-06,
+      -8.158694696605352e-07,
+      7.835964812029833e-07,
+      5.63247508938343e-06
+    ]
+  },
+  "components": [
+    {
+      "component": "E_minus_1",
+      "peak_index": 273,
+      "peak_s": 0.09692212136557513,
+      "total_l1": 8.30039530189748e-05,
+      "in_band_l1_at_peak": 3.566245537716805e-05,
+      "out_band_l1_at_peak": 4.734149763938477e-05,
+      "non_threefold_l1_at_peak": 2.4221474888058056e-15,
+      "in_band_maximum": {
+        "s": 0.1088248380245054,
+        "l1": 4.3941897979868874e-05
+      },
+      "out_band_maximum": {
+        "s": 0.0824688225654455,
+        "l1": 6.138276345629288e-05
+      },
+      "neighbor_indices": [
+        272,
+        273,
+        274
+      ],
+      "spectrum_at_peak": {
+        "dominant_frequency": 24,
+        "dominant_amplitude": 1.7621099145241634e-05,
+        "dominant_omitted_frequency": 27,
+        "dominant_omitted_amplitude": 1.4683783352357561e-05,
+        "maximum_omitted_abs_frequency_above_floor": 384
+      },
+      "peak_neighbor_s": [
+        0.09607192731850868,
+        0.09692212136557513,
+        0.09777231541264156
+      ]
+    },
+    {
+      "component": "F_over_a",
+      "peak_index": 290,
+      "peak_s": 0.10797464397743894,
+      "total_l1": 3.651639199611278e-05,
+      "in_band_l1_at_peak": 6.166495938185806e-07,
+      "out_band_l1_at_peak": 3.589974240007588e-05,
+      "non_threefold_l1_at_peak": 2.2183113772845697e-15,
+      "in_band_maximum": {
+        "s": 0.11647658444810344,
+        "l1": 6.875939789872316e-07
+      },
+      "out_band_maximum": {
+        "s": 0.1071244499303725,
+        "l1": 3.5903951452066505e-05
+      },
+      "neighbor_indices": [
+        289,
+        290,
+        291
+      ],
+      "spectrum_at_peak": {
+        "dominant_frequency": 27,
+        "dominant_amplitude": 5.029994883324167e-06,
+        "dominant_omitted_frequency": 27,
+        "dominant_omitted_amplitude": 5.029994883324167e-06,
+        "maximum_omitted_abs_frequency_above_floor": 381
+      },
+      "peak_neighbor_s": [
+        0.1071244499303725,
+        0.10797464397743894,
+        0.1088248380245054
+      ]
+    },
+    {
+      "component": "G_over_a2_minus_1",
+      "peak_index": 313,
+      "peak_s": 0.12752910705996726,
+      "total_l1": 2.394680903763562e-06,
+      "in_band_l1_at_peak": 1.0961873268748357e-06,
+      "out_band_l1_at_peak": 1.2984935708185685e-06,
+      "non_threefold_l1_at_peak": 6.070153890619849e-15,
+      "in_band_maximum": {
+        "s": 1.2956985759679915,
+        "l1": 1.8021605116065055e-06
+      },
+      "out_band_maximum": {
+        "s": 0.1190271665893028,
+        "l1": 1.3829985573757373e-06
+      },
+      "neighbor_indices": [
+        312,
+        313,
+        314
+      ],
+      "spectrum_at_peak": {
+        "dominant_frequency": 27,
+        "dominant_amplitude": 4.569311764218523e-07,
+        "dominant_omitted_frequency": 27,
+        "dominant_omitted_amplitude": 4.569311764218523e-07,
+        "maximum_omitted_abs_frequency_above_floor": 384
+      },
+      "peak_neighbor_s": [
+        0.1266789130129008,
+        0.12752910705996726,
+        0.12752924097391738
+      ]
+    }
+  ],
+  "protocol_source_execution_unabridged_sha256": "3d1e4fe6f7b344ae708894ddf230585155fe36676d23ab54c02c0cec7acd3979",
+  "publication_record_normalization": "Reference hash points to the published compact interface record; its unabridged execution record hash is retained separately. No map or numerical output was recomputed."
+}

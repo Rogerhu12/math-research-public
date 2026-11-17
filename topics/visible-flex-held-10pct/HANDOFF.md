@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`4e1e242d56a601d6e14e19033159ea3f3c4861c9`。2026-11-18 05:30:56（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`c0f9514b7ea4dd707053b41cf5c3ba383682e890`。2026-11-18 05:31:51（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -48,7 +48,7 @@ R21/R23定义原有限C²闭图和全mean接缝，R24固定帽排全O(3)。R28�
 
 同checkpoint尾32→64步真实R metric1.8282e−9→1.4441e−10，整图采样max1.6485e−9；尾二阶层差.00629485仍未证C²极限。R27区分真背景积分与工厂值；R29尾连续operator≤9.996590773606874e−7、R31前缀<8.253e−7，真桥积分/舍入/唯一共用atlas已付，C3来自精确频率定义。
 
-**同一低幅全闭图全域全时metric<1e−6已证，但held不足.1。** 没有精确无限解证明。高幅积分core导出已保一次完整lift与中心Hermite修补；canonical lambda.0002真实分块CP端到端复现metric3.96924e−4缺口，见m3-integral-core-first-accepted-interface-check。raw真实CP分派已核，metric8.3004e−5；cut的G缺陷1.8006e−6多在带内，非全域归因，见m3-raw-integral-core-reader-and-cut-spectrum。不重铺低幅盒。
+**同一低幅全闭图全域全时metric<1e−6已证，但held不足.1。** 没有精确无限解证明。高幅积分core导出已保一次完整lift与中心Hermite修补；canonical lambda.0002真实分块CP端到端复现metric3.96924e−4缺口，见m3-integral-core-first-accepted-interface-check。raw真实CP分派/一次H已核；全域采样E/F/G峰s=.096922/.107975/.127529，E=8.3004e−5且24/27频均显著，见m3-raw-prefix-component-peak-spectrum；单cut谱不充全域，不重铺低幅盒。
 
 ## 4. 其他登记结论
 
