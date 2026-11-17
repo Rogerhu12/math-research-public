@@ -113,13 +113,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **新的直接Gram算子。** 同R647新增A多项式(p0=v·d/a,p1=Q/a²−rho²,p2=v²−1)与B相对角值两完整导数；唯一rho从核心跨全部节点/中点回传，R240同g但固定phi的离散LS不冒固定材料网。5b5e A实核全部1157768行，complex-step相对5.35e−14/伴随3.72e−14、远端mode7 core项真付；原1662新SSE1.49516e−9与Pr不同目标不能比较为改善。B未实现/无新solve。core反例v=(3/5,0,4/5)说明配点Gram零不强迫镜像竖直速度；未来U0=ez/A0_Z=0须明定新模型，当前未施加。
 
-[Pr602完整失败](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965原1662、8fresh/9方向/75残差，末需第9fresh而停；cubicGram.003089/H与分支负，3a7f非父。[真实共同quintic](notes/2026-11-17-parallel-geometry-implicit-quintic-failure.md)全601胞8192/4sub Gram5.28554/κ104463，去坏两胞仍Gram.09713；core字面镜像无补丁，旧rho界不转新core。失败不扩为所有C²重建；R230仅水平共享二导/Z保存规则保持。
+[旧Pr602失败](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965原额8fresh/9方向/75残差，3a7f分支负非父；[5f真实共同quintic](notes/2026-11-17-parallel-geometry-implicit-quintic-failure.md)全胞Gram5.28554/κ104463，去最坏两胞仍失败。core原镜像字面零；不把这一个A的失败扩为所有C²重建，R230水平/Z规则保持。
 
 **原Pr积分坐标。** R647已付C/U/全部D的可逆T/Tᵀ、整胞同一性、完整cross列范数和BTS投影，不丢R245缺陷。ef81原1662全602+601局部矩与7aff缓存、九列/完整伴随已实核；新coords普通damp改变步度量，保旧惩罚须变换完整下块。
 
 R647另付固定Y/U的最小三阶径向导数共同A：准确能量/SPD三对角/自然端或真实Dirichlet/固定角范数和镜像条件完整，未实施新场。原及同qN规范化节点Gram均不依赖A；节点已超门时任何保Y/U重建都不能修复，不重复旧Pr失败变体。
 
-**原Pr完整LM终态。** [原S-only单步](notes/2026-11-17-parallel-numerical-implicit-lm-direction.md)及分支审计已付；[927f原24方向/20接受/每LSMR128](notes/2026-11-17-parallel-numerical-implicit-lm-budget.md)中断后[6a172恢复](notes/2026-11-17-parallel-numerical-implicit-lm-interruption-resume.md)只改启动，复用两完成方向、未刷新预算。[90b8/bf5a真实终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)20接受20方向、0拒绝；SSE4.83988e−8，node1.738e−5/mid3.406e−5未到门、85.8%剩余来自r0；8192 cubicGram7.13546e−5/分支正。602共同A齐，CU条件估计872.87；2473完整LSMR另计中断partial≥64，18次istop7，末normal相对.93670。非收敛/非父，geometry实际C²读出接刊。
+**原Pr完整LM终态。** [原S-only单步](notes/2026-11-17-parallel-numerical-implicit-lm-direction.md)及分支审计已付；[927f原24方向/20接受/每LSMR128](notes/2026-11-17-parallel-numerical-implicit-lm-budget.md)中断后[6a172恢复](notes/2026-11-17-parallel-numerical-implicit-lm-interruption-resume.md)只改启动，复用两完成方向、未刷新预算。[90b8/bf5a真实终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)20接受20方向、0拒绝；SSE4.83988e−8，node1.738e−5/mid3.406e−5未到门、85.8%剩余来自r0；8192 cubicGram7.13546e−5/分支正。602共同A齐，CU条件估计872.87；2473完整LSMR另计中断partial≥64，18次istop7，末normal相对.93670。非收敛/非父。[823读者实际C²](notes/2026-11-17-parallel-geometry-implicit-lm-quintic-terminal.md)全601胞8192/4sub Gram8.01546e−5、κ10.12569，节点594已有Gram3.62218e−5；原core U_XY/A_Z非字面零。唯一新镜像候选仅清这两组core槽、额外读首胞，共享余段后同一坏节点，任何保Y/U换A均不能修复；rho借准确L1差转R638全角下界>.158999999。e659报告/原raw保持，非连续几何证书。
 
 **T坐标唯一实测。** [2754原1662/µ1/128](notes/2026-11-17-parallel-numerical-integrated-direction-result.md)保580328行、原BC/同g，复用7aff；istop7，normal相对.00103377；真实α1 SSE3.48127368e−6，预测3.48120351e−6/ratio.99999953。比缓存旧S-only线性SSE约低15.67倍，原Jᵀ余项156.634对543.602，但不同阻尼范数/含约束法向，不冒同目标或驻点证书。完整8192节点/实际中点分支正，Gram7.50580e−4仍超门；方向eb3e5/report de935完整留外部，无重算moments/旧方向；numerical准备复用这一方向0的新512完整预算。
 
