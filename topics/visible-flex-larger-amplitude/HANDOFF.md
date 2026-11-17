@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–632完整证明见results，本支线本地计算，原Actions责任不变。[.992前缀](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112真Gram2.590e−7、M128回升6.467e−7，未单调精化。[前缀点对](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)2.11亿近点对Q≥.16150，仅点云。[实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)真2jet补到R1.767/H1.13919，Gram2.057e−6超限；新g未作解精化。[完整ρ物理M32](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)λ1e−4真Gram2.045e−6超限、κ5.998/高度1.139；投影正余量仅采样，λ1未接。[六控制响应](notes/2026-11-17-parallel-numerical-core-six-responses.md)Δ.001拒绝，Δ1e−4接受但真Gram1.881e−5；重新线性化，三控制更优。[双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两新g未接受；深P0到5e−5，暖试1e−4失败。[高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)原弱场约1.4e−7，拟合不得继承。R632仅盖内reach=ρ；λ1接合/闭面/全t未付。
+Astra-larger-parallel-16f63c8b：R623–632完整证明见results，本支线本地计算，原Actions责任不变。[.992前缀](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112真Gram2.590e−7、M128回升6.467e−7，未单调精化。[前缀点对](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)2.11亿近点对Q≥.16150，仅点云。[实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)真2jet补到R1.767/H1.13919，Gram2.057e−6超限；新g未作解精化。[完整ρ物理M32](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)λ1e−4真Gram2.045e−6超限、κ5.998/高度1.139；投影正余量仅采样，λ1未接。[六控制响应](notes/2026-11-17-parallel-numerical-core-six-responses.md)Δ1e−4接受但真Gram1.881e−5，重建响应后纠正仍未接受；三控制更优。[双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两新g未接受；深P0到5e−5，暖试1e−4失败。[高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)原弱场约1.4e−7，拟合不得继承。R632仅盖内reach=ρ；λ1接合/闭面/全t未付。
 
 ## 实际活动run与唯一终态读者
 
