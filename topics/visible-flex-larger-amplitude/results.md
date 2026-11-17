@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R650（正定流支持reach定理已证明）**：[固定SPD矩阵的完整正常管](results/R650-positive-definite-flow-support-reach.md)：实际闭C²球面浸入若(A(F−c))·n≥σ且|κ|≤K，则嵌入及reach≥min(σ/λmax(A),1/K)。全局流横截面/一层覆盖/偏移层顺序已付；保欧氏几何，尚无当前全闭数值输入。
+
 - **R649（实际普通支持障碍已证明）**：[同26e53/共同hold旧段的严格负支持及任意中心障碍](results/R649-ordinary-support-obstruction-for-the-actual-pulse-and-hold.md)：14点准确有理读取复用R648 λ预算，s=.8/π2实际支持负；半转加镜像排任意共同中心及两种法向。只排普通正支持R10工具，不排reach、内向闭合或加权流路线。
 
 - **R648（完整pulse前缀的连续度量已证明）**：[同26e53全818胞/819精确分片](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)：原计划全部实返、0失败，旧710复用+新109；全角/全径向relative Gram<4.94e−7，同材料phase带边族继承。非闭面/reach/held或固定问题求解精化。
