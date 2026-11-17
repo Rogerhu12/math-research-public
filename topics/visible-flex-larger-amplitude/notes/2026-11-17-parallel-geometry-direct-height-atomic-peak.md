@@ -170,3 +170,23 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
 ```
 
 原始输入、输出和系数均留在 scratch，不入库。该接口可用于另一组冻结候选的必要真实核对；它不自动把任何优化状态升级为已接受强场。
+
+## 6. 后续弱场 mean-LP 修正：有限预算仍未接受
+
+**实际数值证据。** 为处理本条发现的窄峰，已执行另一个 `cut_fraction=0` 的弱场试验；没有重新读取原场或声称接上强前缀。[refined-grid 源](2026-11-17-parallel-model-direct-height-refined-grid.py) SHA256 为 `6fb6f84a8d05c8624df831f398f35a4958f29faa478d01375b970e47b90f816c`。它保持原样条空间，增加最坏半径附近的真实背景节点，将50个求积 panels 增为67；参考度量与绝对高度独立变化，末补段 lift 改为 `.25`，曲率目标6.6。LP 只调节支持位于 $r\ge1.60$ 的25个 mean-height 系数，在8308个真实径向节点/GL2点上要求所有角样本 $|h_{rr}|\le6.6$、$|\Delta h_r|\le.005$，以缩放后系数的 $\ell^1$ 范数为目标。
+
+本次第二阶段输入是前一未完成搜索保存的 best checkpoint `parallel-model-direct-cut0-refined.json`，SHA256 `f3102b2856d324063bd252b86766c9b4cd943abfe7c8ba02aed505c94961b23d`，cost `3.6060085164748892e-9`。该 checkpoint 的第一阶段由 §5 原候选出发，运行同源默认 `--iterations 400 --cap-lift .25`，在上述 cost 首次保存后停止；它不是第一阶段400步终态。该阶段生成源 `a45ad7733e9941af6296e23c728a348c055534f4f111f64a14ac02c7bc421738` 与这里冻结源的差别是后来新增默认关闭的 mean-LP 选项和报告字段；未改变 LP 关闭时的高度/求积定义。复算该特定中间输入时应使用相同保存停止条件，不能用任意400步终态冒充其 SHA。此前三份物理输入仍为 §5.1 所列 trace、材料弱场与背景。
+
+[自动停止配方](2026-11-17-parallel-model-refined-checkpoint-recipe.py)（SHA256 `d9633891af2814d0307677a9501c267ca09c63849599989e5b2472e4773622cc`）将这一首次保存条件自动化；它从 §5 原候选出发，关闭 mean-LP，保持第一阶段400步上限。该包装器只做过语法检查，尚未实际运行复现；不得据此声称已重生历史 raw 或逐字相同系数。原 checkpoint 的1557系数 little-endian float64 字节 SHA256 为 `7204d71e5eb47edd20b71bb40da065af6152253fa78d27e907cc3b798503d0de`。用 `--input` 指定 §5 原候选、`--out` 指定 scratch 输出即可调用；可选 `--compare` 仅在生成后比较，绝不提供初始系数。
+
+实际已完整运行的第二阶段命令为：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
+  topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-direct-height-refined-grid.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-model-direct-cut0-refined.json \
+  --out /workspace/scratch/16f63c8bce6b/parallel-model-direct-cut0-meanlp.json \
+  --iterations 400 --mean-curvature-initialization
+```
+
+LP 采样 $h_{rr}$ 最小值从 $-7.50142546$ 改到 $-6.6$，最大值仍6.00427281；这只是采样线性可行性。随后400个 Armijo 迭代、437次目标调用后达到预算，`success=False`：粗实际 Gram 为 $6.09677930612\times10^{-6}$、粗最大主曲率6.59999503162、圆领向量分量误差 $1.38479478884\times10^{-6}$，末高1.1395893070012024。输出 SHA256 为 `e93a85387a9530008270c2727af9a1e4e49d4a8c13ebe7c1a2cb5d4c8cb926e2`。没有对该新候选做全胞元独立曲率认证，且 Gram 与精确圆领尚未过门，因此未接受；本有限试验到此登记，强正投影路线另受 R635 的条件排除。

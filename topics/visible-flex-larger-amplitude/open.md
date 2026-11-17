@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-本节此前逐字保[dd08f3eb固定open](https://github.com/Rogerhu12/math-research-public/blob/dd08f3ebfc3052ca3050f49561c3ebb75836de54/topics/visible-flex-larger-amplitude/open.md)，连同其中b3274c8d、83262fdc完整历史；只更新本并行§7，原§1–6逐字保持。R623–635完整证明见[results](results.md)。所有旧失败/源/参数/SHA持续登记于所链notes；本地计算，原Actions唯一读者/责任不变。
+此前逐字保[dd08f3eb固定open](https://github.com/Rogerhu12/math-research-public/blob/dd08f3ebfc3052ca3050f49561c3ebb75836de54/topics/visible-flex-larger-amplitude/open.md)，含b3274c8d、83262fdc历史；只改§7，§1–6保持。R623–635完整证明见[results](results.md)。旧失败/源/参数/SHA见所链notes；本地计算，原Actions唯一读者/责任不变。
 
 **真实前缀与核心。** [原解析g](notes/2026-11-17-parallel-numerical-0995-continuation.md).992→.993→.995完整M112真接受，实际quintic Gram2.587e−7/4.001e−7；.995→.999大步1113节点/RMS.004301超预算未接受，失败态不作父。有限边界由真父设计，非非线性DN。[.992角阶](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112 Gram2.590e−7而M128回升6.467e−7；[三控制](notes/2026-11-17-parallel-numerical-core-gram-response.md)gap.960101/Gram5.177e−7，[六控制新有限族](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受但Gram1.881e−5、重线性化纠正仍未接受。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995均未接受；不同于区间端点s=.995。 [.8/.9真实节点2jet](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保全部模式，不能用缩放初圈冒强cut。
 
@@ -119,7 +119,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **实际高度、尾与补段。** [材料实际场](notes/2026-11-17-parallel-geometry-best4-material-tail.md)λ.001/.0014 Gram2.358e−7/1.420e−7，但κ7.514/8.473；[真实物理M32](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)Gram2.045397e−6超限、κ5.997643、Hφ1.13913067。φ与材料均值不可混。 [原弱高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)四种积分均约1.4e−7，裁模/强改端点后不得继承。 [实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)真F/Fr/Frr接R1.767318/H1.13918566，固定A=.003016的新g下Gram2.057397e−6；R633弱P0补长A=.15虽长度门过，实际补段仍1.627e−5。
 
-[新高度候选全胞元读出](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)保持1552高度+5metric参数，N512/G8从50到全部5106胞元，κ6.79453→7.62716005，Gram1.329932e−6，外圈仍偏9.643e−7。最小旧算法replay从三已登记输入逐字再生1557个double；新增API与优化默认变化明确，不假称同一生成源。本弱cut候选未过门，不再重复扩跑；新g的实际全域读者保用。
+[新高度候选全胞元读出](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)保持1552高度+5metric参数，N512/G8从50到全部5106胞元，κ6.79453→7.62716005，Gram1.329932e−6，外圈仍偏9.643e−7。最小旧算法replay从三已登记输入逐字再生1557个double；新增API与优化默认变化明确，不假称同一生成源。后续mean-LP调25均值系数、67panels、400步仍Gram6.097e−6未接受，§6保源/历史checkpoint/未执行的自动配方。弱场不重跑，转新g。
 
 **闭盖与reach。** R632回头盖补底后为凸平行体、内部reach=ρ；生成仍为有边组件，未装完整活动面。R625/627/629标记/E3含反射需真实源。 [b677镜像前缀法向弦](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)41216→82432点、近对52697444→210886470，Qmin.16165446→.16150716；仅浮点点云，不替R16连续覆盖，尾、盖和完整D未付。
 
