@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`dc70113eff6ee45aad202dede59ad25ebbf02250`。2026-11-18 03:51:53（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`ababf2529629665d00d13114848a6bcc08ce1458`。2026-11-18 03:52:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -24,9 +24,7 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 eta.1/q.01/M16 λ0前缀已接受724点，metric2.38461e−8/tensor1.62253e−5/K6.51157/rootmargin.00394505；δ=.030027177128287334、vd=.24836306559053845，仅线性port。见n4-eta010-amplitude。主会话正在原N512/parts8/RK16真正联立；n4 agent推进该eta增幅、eta1低幅圆化和固定g入口。保持原2e−9 tail门及D/S/A条件。
 
-历史入口：vu.35双根δ=.03001627156/vd=.24824349139，背景K≈5.605，初保护窗>.1518；eta*的M16/q005 λ0 metric1.548e−6，q006为7.159e−6，λ.02原正根域失败。eta1/q001 M12 λ0已接受，q002虽BVP过但metric1.429e−5；δ/vd重解不是同g精化。eta1/M8圆化λ.1虽接受却metric3.197e−5/tensor.0513，λ.2节点失败；当前用完整材料初值继续。见bimodal-continuation-terminal。
-
-旧q05/q055仅线性DN且未圆化；q06采样K15.954给reach/D必要上限.02949，非区间证书。q05 λ.001 metric7.669e−4；vu.4双根τ12≈−.6587，固定J8 λ.05/M12节点失败。旧n4-q*及double-prefix-*结论不重做。
+旧n4设计与正根域/maxnodes/取消均见bimodal-continuation-terminal、n4-q*、double-prefix-*；delta/vd重解不是同g。q06采样K15.954给reach/D必要上限.02949，尚非区间证书。vu.4双根τ12≈−.6587，旧有限圆化完整metric未过；不重做。
 
 ## 2. m3真正联合与新物理尾
 
@@ -63,6 +61,8 @@ R20/R22单/双谐波到精确圆弧正距离，切空间障碍须完整核+可�
 m2旧补弧高M初值负rho不是无解；新首三谷[4.25,3.9375,5.0625]给mode2线性H阈2.11656e−4约旧3.08倍、DN11.85689844；65次真实重标定screen仅新设计，非非线性容量/同g。见mode2-three-valley-design。R1–R10、旧GC/短领失败与R114仍留历史，不重复。
 
 m2循环方向/次数新线性screen已完成：外向两循环6根、内向单循环5根；保留实际H/q、背景采样K/尺寸与完整复现，尚无这些设计的非线性BVP。KD诊断不是必要障碍。见m2-loop-transfer-designs。
+
+n4第三核两新物理搜索：最大半径插柱4初值、三个C³半径控制3初值均未得τ4/8/12共同根，含边界/次数/xtol终态；优化器成功不等于根，未证不存在。见n4-physical-third-mode-searches。
 
 ## 当前分工
 
