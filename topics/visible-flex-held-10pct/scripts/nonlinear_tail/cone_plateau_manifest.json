@@ -1,0 +1,38 @@
+{
+  "scope": "R10 exact local cone-annulus theorem; no prefix/tail seam or closed family asserted.",
+  "source_files": {
+    "cone_plateau_model.py": {
+      "bytes": 4199,
+      "sha256": "29767cdca1bea572301cd9764a75fbd1bba3066f49c0e6aa76705080e7b958c5"
+    },
+    "cone_plateau_model_summary.json": {
+      "bytes": 1058,
+      "sha256": "b7d7d6a7f536988c216df6b8ce4bfab78e453a657bb88987a9e81860d3cd1ed8"
+    }
+  },
+  "proof": {
+    "path": "results/R10-exact-cone-annulus-through-zero-A.md",
+    "sha256": "d5215bd636bdbd4e76dc4681b684303db7a6c1df8f2014fc768b473b8200806a"
+  },
+  "exact_rational_checks": {
+    "specified_length_squared_upper": "9150078009364325668843/9155273437500000000000",
+    "specified_length_squared_upper_decimal": 0.9994325207028341,
+    "global_curvature_upper": "6003520000000/7855676688439",
+    "global_curvature_upper_decimal": 0.7642269709031213,
+    "b_point_01_speed_squared_upper": "992421102187/1000000000000",
+    "b_equals_a_taylor_coefficient_lower": "6240001/24980004",
+    "all_checks_exact_rational": true
+  },
+  "command": [
+    "python",
+    "scripts/nonlinear_tail/cone_plateau_model.py",
+    "--w",
+    ".00358",
+    "--amplitude",
+    ".0088",
+    "--radius",
+    ".25",
+    "--out",
+    "SCRATCH/cone-plateau.json"
+  ]
+}
