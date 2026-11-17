@@ -7,14 +7,14 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`131a2a33b4e563d84e57487ab3b86ebe65a0cb82`。2026-11-18 06:47:43（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`90b512fbd45e4000208b9ccaaa46cacb9247a788`。2026-11-18 06:48:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
 
 ## 1. n4：actual同g精化与raw圆化
 
-**真正actual g**：eta.1/q*.01，δ=.030027177128250468/vd=.2483630655929876。M20/1913点原完整联立metric1.950429e−9、Darboux3.51076e−6。M24/parts8首worker−9和随后heap1536原门5.41094e−9失败分开记；主峰mode96并非1ULP，见n4-actual-m24-*、n4-m24-tail-residual-location，不猜OOM。新同g/shared/parts16完整通过：1930点/4真尾，最终9.82471e−10/A.942545，完整prefix metric8.15575e−9较M20升4.18倍、flow升5.26倍，Darboux2.46911e−6降29.7%；tail metric4.81792e−12/fullD2.72958e−7。mean二阶缝−3.497e−11/nonmean1.8882e−8，仍为有限审计，非连续闭合/单调收敛；见n4-actual-fixed-m24-parts16。λ仍0，转新raw核真尾接口，不机械M28。
+**真正actual g**：eta.1/q*.01，δ=.030027177128250468/vd=.2483630655929876。M20/1913点完整metric1.950429e−9、Darboux3.51076e−6。M24/parts8 worker−9与随后原门5.41094e−9失败分开记录，mode96非1ULP，不猜OOM。shared/parts16完整通过：1930点/4真尾，最终9.82471e−10/A.942545；prefix metric8.15575e−9较M20升4.18倍、flow升5.26倍，Darboux降29.7%；tail metric4.81792e−12。仍λ0，非连续闭合/单调收敛；见n4-actual-fixed-m24-parts16及n4-actual-m24-*、n4-m24-tail-residual-location。转新raw核真尾，不机械M28。
 
 R30周期复用/同μ缓存不改方程与2e−9原门。n4 actualM20/576stage/990760标量全残差/flow/Jac/graphs逐位同值，engine576→8、返回数组变异/重入差0；见n4-shared-periodic-engines，不作普遍提速声明。整核/旧网格身份见n4-fixed-seed-identity；线性g和actual链分开。
 
@@ -32,9 +32,9 @@ R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几
 
 **R32/R38严格条件窗**：n3/eta0、a=.21、q∈[.0849,.0851]、相位.7046/H角[.3521,.3525]。R32主b=.08；R38新主b=.32重算β/圆心/真实矩，完整even C4补弧控制在保护弧为0、||b+b″||≤.08时rho>.1642566、平面m3>.0948878、核心柱D<2.3181；若未标记完整图D≤2.6498/支撑≥.0801/|κ|≤12.5等原条件均付，则held/D>.105514、reach/D>.03018。柱长.54/.5401须据实际全图矩选定、三重帽排全O(3)。同q、δ∈[.056,.07]首负K窗不依赖b；R40另对q∈[.039,.041]/δ≥.060的原flat ramp逐段有理积分给χ/R>.21088277799>.21，实际binary参数也过，支持下一λ1入口但不证其存在。实际λ1/全图/同g精化仍未付。
 
-**beta4.625/q.040完整真联合**：936点/δ=.061051601505166045，prefix metric6.91e−9、tail res1.37680e−9/A.742322，4次尾和audit原门全过；q.060首warmup原线搜索失败3.67146e−9，无新prefix。新增原576段重放：stage43/mode3主峰恰1ULP，stage45/mode12另有65ULP/3.01269e−9独立超门；最低A段残差已过，见m3-q060-tail-residual-localization。根单邻数初值试验已由原完整DN线搜索失败3.012687e−9，577×16状态仅一分量改变/H与config全同；见m3-q060-neighbor-original-gate-failure，仍无prefix。二者不同g，原记录见m3-beta4625-*。
+**beta4.625/q.040完整真联合**：936点/δ=.061051601505166045，prefix metric6.91e−9、tail1.37680e−9/A.742322，4尾与audit过原门。q.060首warmup线搜索失败3.67146e−9；576段原重放定位stage43/mode3恰1ULP、stage45/mode12另65ULP/3.01269e−9，最低A段已过门。单邻数初值只改577×16状态的一分量，原完整DN仍线搜索失败3.012687e−9，无prefix。见m3-q060-tail-residual-localization、m3-q060-neighbor-original-gate-failure和m3-beta4625-*，不同g不作精化。
 
-**n3实际圆化**：积分core/一次全lift/自由c6/锁主频已接通；canonical各λ及parts16完整metric3.97036e−4失败见m3-exact-round-core-start、m3-round-lambda0002-*。raw低2×2投影λ.02/M8四次真尾接受，δ=.06105141410261685，但metric8.30078e−5/tensor.047932未过。冻结整g M16最初call3原门失败5.51386e−9，重放定位stage86/mode3恰1ULP；共享engine/可选单邻数初猜不改残差门，见m3-shared-engines-same-state-equality、m3-one-ulp-initial-candidate-passes-original-tail。最新重试完整接受：1143点/4tail、800有限Jac，最终尾1.37847e−9；整prefix metric却升9.35726e−5/tensor.209949，cut2.45894e−6。七项固定g身份全同，完整CP含coeff分块；见m3-raw-m16-complete-coupled-metric-failure，非收敛/非闭合。实际q=.03991248545080898/Lbin不变。全部15c及原e=.32的λ1新核谱见m3-actual-m16-endpoint-chart-spectrum：控制w=.4时主b.24在M16外较小(.007316)，b.32在M24/M32外较小(.0005109/.0001834)，与旧q085/zero-c排序有别，非完整metric。实际M16端点预检三行原rho门过；bp.32/bc.4下界.6226167、完整控制采样峰.0198064，数值allowance不作strict证书，见m3-actual-m16-controls-at-circle-endpoint。新λ1/bp.32/bc.4/M16实际入口及完整重启身份见m3-explicit-raw-circle-endpoint-entry；q设为旧实际q，控制初猜倍率1，δ允许联立变化，完整新态未返回。当前M16谱b24较好，b32为R38/后续升模选择；终δ须重验R40，不盲升旧raw M24。原M8及零控制探针见m3-actual-raw-controls-at-circle-endpoint、m3-primary-width-and-chart-spectrum；新b不继承旧R32。
+**n3实际圆化**：一次完整积分lift/自由c6/锁主频接通。canonical各λ及parts16完整metric3.97036e−4失败；raw低2×2投影λ.02/M8四真尾接受、δ=.06105141410261685，但metric8.30078e−5失败。冻整g M16首次call3因stage86/mode3一ULP未过；共享engine与可选单邻数初猜重试完整接受，1143点/4尾/800有限Jac，最终尾1.37847e−9，prefix metric却升9.35726e−5/tensor.209949。七项g身份全同，见m3-raw-m16-complete-coupled-metric-failure及m3-one-ulp-initial-candidate-passes-original-tail，非收敛或闭合。实际q=.03991248545080898/Lbin不变。完整15c/e=.32的λ1谱见m3-actual-m16-endpoint-chart-spectrum：bc.4下bp.24在M16外较小，bp.32在M24/M32外较小；非完整metric。端点三行原rho门过，见m3-actual-m16-controls-at-circle-endpoint；严格界另见R41。新λ1/bp.32/bc.4/M16实际入口及完整重启见m3-explicit-raw-circle-endpoint-entry：q设旧实际q，控制初猜倍率1、δ自由联立，完整新态未回，终δ须重验R40。b32为R38及后续升模选择，承认当前M16谱b24较好；不盲升旧raw M24。旧/零控制谱见m3-primary-width-and-chart-spectrum、m3-actual-raw-controls-at-circle-endpoint。
 
 旧幅值/七次失败及q04后桥root瓶颈见m3-true-radial-refinement、m3-finite-continuation-initializers、m3-prefix-positive-root-bottleneck；不重跑。
 
@@ -45,6 +45,8 @@ R21/R23定义原有限C²闭图和全mean接缝，R24固定帽排全O(3)。R28�
 同checkpoint尾32→64步真实R metric降12.66倍，但二阶层差.00629485未证C²极限。R27区分真背景积分；R29尾operator≤9.996590773606874e−7、R31前缀<8.253e−7，真积分/舍入/唯一共用atlas已付。
 
 **低幅全闭图全时metric<1e−6已证，但held不足.1，无精确无限解证明。** 高幅canonical/raw M8完整metric失败及峰位置/频谱见m3-integral-core-first-accepted-interface-check、m3-raw-prefix-component-peak-spectrum。R36给旧actual raw M8真积分/反函数oracle，R37全角G/G′/T/T′余项<5.820e−12/2.330e−9/1.823e−9/4.184e−6（真积分/Taylor/IEEE均付）；R39以1003段精确Bernstein及固定真实atlas得微分余项ε<5.940838571e−9。仅若同图有限主部metric≤9.88118311e−7才推出真图<1e−6；该门未算、当前M8仍坏、尾闭合未付，数值不搬到新c。
+
+R41重建任意声明主/控制宽度的真积分与raw低2×2矩投影，按最高频率自选Taylor阶数；全15个M16控制改λ1/bp.32/bc.4，256完整角盒给||b+b″||<.024265039000279、rho∈(.6212861459223527,1.337031616589919)。固定atlas与旧M8逐字段同；17点真逆/jet比较仅点态。新核严格凸，但q≈.04不在R38比例窗，联立终态若改c须重算；未得λ1完整metric。见R41-general-width-raw-core-true-integral-oracle。
 
 ## 4. 其他登记结论
 
