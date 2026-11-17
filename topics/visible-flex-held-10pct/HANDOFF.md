@@ -7,15 +7,13 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`f2be884234b18c0d5e8cf4090c70ae43f1e51b8f`。2026-11-18 00:52:30（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 01:52:30；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`8b43cae7b321ad7357967ab1166438cc35e94461`。2026-11-18 00:56:29（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 01:56:29；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
 ## A. 主体几何与高q开放前缀
 
-旧线性DN小cut主参数r=.3,w=.08,w_r=−1.8666666667，vu=.55/vd=.6，ramp .4/eta .05/cycles1，ShortBridge K4/p.2。同g精化q14 M14→16 metric1.16e−7→1.168e−9；q18 M16→20 9.98e−7→2.429e−8；q20 M20→24 9.93e−7→4.172e−9。q22 M28→32 1.133e−6→1.119e−8，actualq=.2200009075、K7.18978；精确有限core ρ>.2449985、Re AC>.5809146。均未闭合。
-
-复现scripts/recover_prefix.py+prefix_recovery_manifest.json，smallcut_prefix_sweep.py建chart，smallcut_secant_launcher.py延拓，fixed_refine_smallcut.py冻结g，smallcut_endpoint.py出完整均值二jet；详见smallcut-high-q-and-fixed-g、q22-fixed-metric-refinement笔记。
+旧线性DN smallcut高q前缀：同g q20 M20→24 metric9.93e−7→4.172e−9；q22 M28→32 1.133e−6→1.119e−8，actualq=.2200009075/K7.18978、精确coreρ>.2449985。均开放。源码恢复及各profile/chart/二jet见smallcut-high-q-and-fixed-g、q22-fixed-metric-refinement笔记和recover_prefix.py。
 
 R11已用全Cartesian Fourier/共享二jet五次Hermite、s≤.04解析lift精确支付中心C²；843264区间盒覆盖全q20有限prefix，σ>.349674、R<1.508969、witness>.3254827、K<8，P/J>0证明完整上下环带嵌入。开放D<3.018、held比例>.1076；不是闭面/精确等距/reach。源码见cartesian-tensor-prefix笔记。
 
@@ -31,7 +29,7 @@ R13条件窗：若同一prefix接实际尾rXY≤.35、顶高≤1.5265414843、K�
 
 **m3真联合固定g**：δ=.06105607686781097，完整g SHA11a9…b125。M8→M16八段均用原2e−9门通过：实际q=.0200012257089，tail res1.161e−9、metric1.587e−11、全D2.735e−7/minA.440917/K8.040692；M8全D2.345e−6。完整512角单刚体Cartesian缝最大Xss差3.315e−9，高度两jet≤6.17e−12。真正同g径向BVP已到2462节点：metric4.971e−9→5.845e−11，完整tensor9.015e−6→1.947e−6；尾同层误差不变。旧节点全部保留、峰的桥段区间宽减半，未替换ODE jets。实际q=.02000154623、tail res1.161e−9/mean缝3.49e−13。见m3-true-radial-refinement及同名包；新q真联合继续。全节点稀疏Newton等价及split原映射一致已核；八段降低stage放大而不改原门。旧M12与两段稀疏M16明确取消exit130（末res2.083e−9/6.970e−7），非数学失败。详见m3-fixed-m16-parts8-and-radial-floor及对应两包；旧入口m3-smallcut-true-coupling-and-secant-prefix。q04/q06只线性DN prefix，非真联合；幅度不足/全闭验收未付。
 
-主会话新n4精确圆弧+中央直柱：R19已证明偶数中心对称整像dH≥中心位移、固定二fold帽简单谱排除全部全等；有理核心R=.325/c>.72061，α=39/250、ℓ=.7给shift>.34258。若完整D≤3.4、σ≥.11、K≤9.5，则held/D>.10075、reach/D≥10/323、Hdiam/D≥7/34，全部闭族前提未付。普通n4宽弧M4 λ1 metric.00407/全D3.801，固定M8触maxnodes；新负K head虽耗窗，但旧compact基高频放大使λ.15 rho失败。R19A已用Fraction给窄窗q=.06/R=.1/a=.145、α=.0285/ℓ=.51：若闭D≤2.5,K≤13.2,σ≥.08，则held>.10676,reach≥1/33,H/D≥.204。第一批55源/参数文件与70原源实际恢复见n4-first-batch-and-consumed-window笔记、scripts/even_circle/first_batch。两个新head有Fraction耗窗下界>.28，仍只有线性根。vu=vd.4/ramp.45窄弧旧M6小步至λ.7虽投影接受，metric.01258/tensor14.874；λ1maxnodes失败。详见narrow-old-basis-terminal-results/对应包。新C4补弧矩基17文件已冻结/实恢复；q.005/M6 λ.3maxnodes且λ.1 metric1.224e−4。λ0设计支到q.04/M16，未圆化且只有线性DN；见complementary-controls-and-first-prefixes及两同名包。λ0续至q.045/M16，1157节点、metric5.499e−8/全tensor.0014915/K13.2628，见n4-q045-prefix；q.05/M16与M20正运行。双模共振BVP另启；全闭前提未付。
+主会话新n4精确圆弧+中央直柱：R19已证明偶数中心对称整像dH≥中心位移、固定二fold帽简单谱排除全部全等；有理核心R=.325/c>.72061，α=39/250、ℓ=.7给shift>.34258。若完整D≤3.4、σ≥.11、K≤9.5，则held/D>.10075、reach/D≥10/323、Hdiam/D≥7/34，全部闭族前提未付。普通n4宽弧M4 λ1 metric.00407/全D3.801，固定M8触maxnodes；新负K head虽耗窗，但旧compact基高频放大使λ.15 rho失败。R19A已用Fraction给窄窗q=.06/R=.1/a=.145、α=.0285/ℓ=.51：若闭D≤2.5,K≤13.2,σ≥.08，则held>.10676,reach≥1/33,H/D≥.204。第一批55源/参数文件与70原源实际恢复见n4-first-batch-and-consumed-window笔记、scripts/even_circle/first_batch。两个新head有Fraction耗窗下界>.28，仍只有线性根。vu=vd.4/ramp.45窄弧旧M6小步至λ.7虽投影接受，metric.01258/tensor14.874；λ1maxnodes失败。详见narrow-old-basis-terminal-results/对应包。新C4补弧矩基17文件已冻结/实恢复；q.005/M6 λ.3maxnodes且λ.1 metric1.224e−4。λ0设计支到q.04/M16，未圆化且只有线性DN；见complementary-controls-and-first-prefixes及两同名包。λ0续至q.045/M16，1157节点、metric5.499e−8/全tensor.0014915/K13.2628，见n4-q045-prefix；q.05旧M16/M20正运行。新material-angle回拉+双接受态secant已启q05/M16；同q045恒等系数差1.67e−12，见n4-material-angle-warm-start。全闭前提未付。
 
 新n4双模线性root03：vu.4/vd.2644695137/δ.02840070836/ramp.45，原port24未改；τ4≈5e−14、τ8≈−3.6e−11，原BackwardLine复核非零向量/正尺度，双参数Jac σ约408/.675。背景K<8、耗窗>.147721；R19新a.147/α.029/ℓ.54在全闭D≤2.65,K≤12.5,σ≥.08前提下held>.10261、reach>.03018、H>.20377，root Fraction逐字复核。见n4-double-linear-resonance及double_resonance_linear；实际双模BVP继续，线性根非完成。
 

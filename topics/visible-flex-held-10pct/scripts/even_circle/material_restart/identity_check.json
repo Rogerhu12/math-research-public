@@ -1,0 +1,75 @@
+{
+  "scope": "Initializer diagnostic only; no BVP executed.",
+  "runtime_argv": [
+    "complement_plateau_prefix_material.py",
+    "--out",
+    "runs/material-q045-identity-check",
+    "--modes",
+    "16",
+    "--q",
+    ".045",
+    "--halfwidth",
+    ".145",
+    "--transition",
+    ".08",
+    "--control-transition",
+    ".08",
+    "--lambdas",
+    "0",
+    "--nodes",
+    "351",
+    "--max-nodes",
+    "4500",
+    "--tol",
+    "1e-6",
+    "--angular",
+    "768",
+    "--exact-lift",
+    "--profile",
+    "compact-v40-40-r45/profile.json",
+    "--chart-file",
+    "compact-v40-40-r45/chart.json",
+    "--port-file",
+    "mode4_port24.json",
+    "--restart",
+    "runs/complement-v40-r45-q045-m16-lam0-lam0.json.gz",
+    "--init-only"
+  ],
+  "runtime_source_sha256": {
+    "complement_plateau_prefix_material.py": "ee624872d68d43e8c6cf34fcc08dc9acc79b916c5760f85160f8f6aa67e557ce",
+    "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+    "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+    "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "plateau_patch_audit.py": "18e2f26a13c8f6b72583b479c4147a9fe6c225bc0a77417ae398251219f48451",
+    "complementary_snapshot/uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+    "complementary_snapshot/complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "complementary_snapshot/moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+  },
+  "restart_diagnostic": {
+    "method": "physical-material-angle-pullback-of-full-reference-plus-field",
+    "scope": "Initial guess only; no equation, root guard or acceptance change.",
+    "q_inputs": [
+      0.045
+    ],
+    "q_target": 0.045,
+    "secant_weights": [
+      1.0
+    ],
+    "radial_nodes": 1220,
+    "angular_projection": 2048,
+    "pullback_residual": 8.881784197001252e-16,
+    "predicted_physical_delta": 0.0301261368647537,
+    "maximum_inlet_coefficient_correction": 1.6735779428955766e-12,
+    "scaled_bc_before_inlet_repair": 1.9151398233871698e-11,
+    "scaled_bc_after_inlet_repair": 1.9151398233871698e-11,
+    "source_sha256": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+    "old_reference_lift_evaluation": "Periodic cubic interpolation of 4096 or more exact reference samples, solely for the warm guess.",
+    "same_chart_identity_max_coefficient_difference": 1.6735779428955766e-12,
+    "input_sha256": {
+      "runs/complement-v40-r45-q045-m16-lam0-lam0.json.gz": "80ef7e334a3facfc008984a4699b3976cd26a553fa32d1c0298e54b5750b4d76"
+    }
+  }
+}
