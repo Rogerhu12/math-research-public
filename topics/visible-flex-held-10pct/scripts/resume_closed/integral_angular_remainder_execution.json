@@ -1,0 +1,144 @@
+{
+  "sources_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_integral_angular_remainders.py": "7d009aeccda182e5dd681ccbb70e067724be6d8d577bf9cbd2a35bc72f9d74a2",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/fast_integral_core_intervals.py": "1e1fa87ea4dcd25cf4234cff4596f3d95acf5093e2e7f0c4460ada0645db38dd",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/integral_core_intervals.py": "fcf92ba40110c8a9b917c8881f9fb0c3c0ebcc5a55ac632ae4f2b33317bd1b8f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_integral_prefix.py": "e2cfa779d94abbc1ecb2c33bb8c3ef4f6deff5c6879abfd972ff8412d3d6fdad",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_protected_arc_curvature_dual.py": "00132335adb74e1f889d97fc8bb9060d0808ec51746c5603304992f3be8601d1",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_m3_large_circle_window.py": "7d92c9455f82c40c742f6f6867d61533dd0fc91bc3fcfc3dddaa903255b2d54b"
+  },
+  "checkpoint_sha256": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+  "packet_input_sha256": "12ce9eb20ae36cd4bc3af3d9781c0706b2acc816417b39f5535bec3a69805b9c",
+  "physical_parameters_or_map_changed": false,
+  "bvp_solves": 0,
+  "reference_phase_exact": "5764607523034235/18014398509481984",
+  "center_phase_exact": "1441151880758559/4503599627370496",
+  "mathematical_angle_coverage": "All real psi by exact D3 covariance from the complete sector [0,pi/3]",
+  "panels": 1024,
+  "cell_radius_upper": "0.000511326929295213743239362529830648255891466374",
+  "proposal_angular_samples": 6144,
+  "principal_frequency_cutoff": 512,
+  "literal_coefficient_count": 342,
+  "proposal_fft_accuracy_assumed": false,
+  "principal_symmetry": {
+    "frequencies_mod_three": 1,
+    "position_coefficients_real": true,
+    "tangent_coefficients_pure_imaginary": true
+  },
+  "uniform_true_remainder_bounds": {
+    "G_value": "5.81929105317947660521442399362930145225689869E-12",
+    "G_first_psi": "2.32946346710583291286037821093047332937191402E-9",
+    "T_value": "1.82254442340361442232058576545975207421684942E-9",
+    "T_first_psi": "0.00000418302793267981016962503175638955640092932263"
+  },
+  "maximum_bound_cells": [
+    819,
+    818,
+    818,
+    819
+  ],
+  "derivative_remainder_bounds": {
+    "G_fifth": "187556.588775310952463049339514999524114014620",
+    "T_fourth": "139612.484322877074005138683670883708205465406"
+  },
+  "global_material_derivative_bounds": {
+    "1": "1",
+    "2": "1.51256992099676066308049187421021112631131989",
+    "3": "8.49114487888263316362659602424592288826530591",
+    "4": "320.997930974599078064307509206485990799877584",
+    "5": "44500.1812073017253315377552505031726796403976"
+  },
+  "principal_norms": {
+    "position": [
+      "1.12023590737109102916387270307326250816539209",
+      "1.32149936754109537826175429372607293409159257",
+      "1.97422287851118011057174302002259986422194583",
+      "4.49020435858515995392242937062906868098952309",
+      "26.4455450833825332339545958925494361526514379",
+      "1401.13689073520276981856218904522285549564421"
+    ],
+    "tangent": [
+      "1.00195347673548773216442479092671174170583880",
+      "1.01691822892650690885933173973931947700538907",
+      "1.30561791862779094543333776073608953079480466",
+      "13.6393190087818956114460138435522949881976071",
+      "1124.54205940080365118502937199519839205544603"
+    ]
+  },
+  "floating_point_proof": {
+    "arithmetic": "IEEE binary64 round-to-nearest with gradual underflow",
+    "unit_roundoff": "1/9007199254740992",
+    "minimum_positive": "1/202402253307310618352495346718917307049556649764142118356901358027430339567995346891960383701437124495187077864316811911389808737385793476867013399940738509921517424276566361364466907742093216341239767678472745068562007483424692698618103355649159556340810056512358769552333414615230502532186327508646006263307707741093494784",
+    "power_error": "|k|*(certified_base_complex_error+32u)",
+    "weighted_sum_error": "32u*(number_of_modes+4)*coefficient_derivative_l1 plus explicit gradual-underflow allowance",
+    "no_libm_in_principal_evaluation": true,
+    "initial_environment": {
+      "platform": "linux",
+      "fegetround": 0,
+      "FE_TONEAREST": 0,
+      "double_format": "IEEE, little-endian",
+      "gradual_underflow_output_probe": true,
+      "gradual_underflow_input_probe": true
+    },
+    "final_environment": {
+      "platform": "linux",
+      "fegetround": 0,
+      "FE_TONEAREST": 0,
+      "double_format": "IEEE, little-endian",
+      "gradual_underflow_output_probe": true,
+      "gradual_underflow_input_probe": true
+    },
+    "per_evaluation_mode_checks": 4096
+  },
+  "principal_output": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_angular_remainders_checked-principal.npz",
+    "sha256": "ffe8ab324ce0ee977ad2d67812ed2bca607352ce6c887ac7147c6dee4f1e8a2d"
+  },
+  "continuous_core_C1_remainder_certified": true,
+  "full_prefix_metric_or_closed_geometry_certified": false,
+  "seconds": 88.42793467100273,
+  "result": "R37",
+  "status": "Proved all-angle core C1 approximation remainders; not a full-prefix metric or closed-surface result",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_integral_angular_remainders.py",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "--port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+    "--data",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz",
+    "--prefix-audit",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_angular_remainders_checked.json"
+  ],
+  "observed_exit_code": 0,
+  "tool_session": 42508,
+  "terminal_completion_chunk": "0b414b",
+  "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_angular_remainders_checked.json",
+  "output_sha256": "3798edefcbcdc719c24f9d7e372493ec8bc89fa51f7ce4b1a4ce976e4dff2d70",
+  "source_protocol": {
+    "core_kind": "exact_m3_raw_local_circle_integral_lift",
+    "core_control_path": "raw-mean-primary-compact-v1",
+    "core_projection_order_J": 8,
+    "core_control_convention": "Raw compact cosines after mean/primary projection; no high-moment inverse",
+    "library_manifest_sha256": "4b9d71971520f2b3fe655d0a39a2715d7d6f551f1913f5480bfc0931d250a4fd",
+    "core_round_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.08,
+      "control_transition": 0.16,
+      "homotopy": 0.02,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    }
+  },
+  "development_note": "The initial complete run lacked explicit FE/underflow runtime gates. Before registration, those gates were added and the final complete run passed all 4096 per-evaluation mode checks; principal coefficients and all four bounds were unchanged."
+}

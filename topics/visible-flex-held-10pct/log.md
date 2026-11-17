@@ -345,3 +345,5 @@
 - 2026-11-18 05:52:10（UTC+8）｜Astra-held10-7322d0de-20261118：n4 M24失败态独立原full-Jac路径重放精确复现5.4109378e−9：主导stage28/mode96动量，绝对差−2.035474e−12，而保存分量ULP1.97215e−31；不能套用m3主导1ULP机制。次大低模2ULP残差1.6067e−9已在门内，最深端2.07e−27。只定位有限态，尚未排内部消去/积分舍入；同g/原门parts16已启动。仅存三个具名行及源/完整输出hash。见n4-m24-tail-residual-location。
 
 - 2026-11-18 06:01:59（UTC+8）｜Astra-held10-7322d0de-20261118：原失败尾只改state[86][16]的一个邻数初值，实际原DN solve+800项Jac+全audit返回converged，res1.37846577e−9/metric6.64514e−11/fullD9.60107e−7；完整H/config和其余1153节点分量逐值不变。保留先前缺helper的工程失败。核两安装器去新增块后逐字回原源：可选oneUlpInitialRetry仅原十步线搜索失败后、原full-Jac norm严格过原门才继续；debug p/sol明确未accepted。新M16从accepted M8再联立，warm已验同H，不称完整prefix成功。
+
+- 2026-11-18 06:04:38（UTC+8）｜Astra-held10-7322d0de-20261118：审证明及两源后发布R37：同raw M8实际核的全角G/G′/T/T′余项<5.820e−12/2.330e−9/1.823e−9/4.184e−6。6144点FFT仅提出342个字面binary64系数；真积分jets、分片AC五阶界、1024闭区间Taylor覆盖与精确D3推延作证明。IEEE复幂/加权和包括高阶与下溢，4096次舍入模式门；核6直接+32运行源、全部系数精确对称/有理范数及输入输出hash。未改物理图，未支付全prefix metric。
