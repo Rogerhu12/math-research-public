@@ -117,6 +117,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [M320后继域失败](notes/2026-11-17-parallel-geometry-m320-domain-stop.md)同M/N从真.997到1.0，50接受节点止于.997619218，随后stage H负；高m>224位移仅3.98e−8而角二阶贡献.01235。只诊断删模、不用删模或失败态作父，不无限缩步。
 
+[紧支撑曲率pulse](notes/2026-11-17-parallel-inward-curvature-pulse.md)保原.995 scalar两jet但改变后续g；两有限批次六个结果全列。w.005/A−3与−5真实M320/N4096积分到1.0，端点Gram2.439e−6/8.173e−7；其余四例域失败。−5尚需全共同quintic与真实C²桥核验，不把端点/新g冒同g精化。
+
 **弱场与尾接口。** [旧M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真运行5813秒，9780节点RMS.01608超14000失败。[直接高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)同1557参数粗κ6.7945→实际7.6272/Gram1.330e−6；原算法replay逐字再生，后续mean-LP400步仍6.097e−6，弱旧场不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)完整PDE/RHS/边界/坐标反号已核，尚无真实内向cut或新尾BVP。
 
 R632回头盖只为凸平行体组件；R625/627/629标记与含反射E3要实际闭源。旧镜像前缀82432点/Qmin.16150716只点云，不替连续reach。当前未达完成标准：实际全幅尾/全部Cartesian接缝/连通闭面、固定有内点H、完整D、整像held、含反射商距离、所有点对reach与全t强C²连续均须真付。候选冻结后同g/参数/t真正精化至机器或原solver容差；子题/批次/时长/报告均非停点。
