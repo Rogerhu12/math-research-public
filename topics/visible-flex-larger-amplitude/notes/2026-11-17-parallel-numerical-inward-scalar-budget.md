@@ -145,3 +145,41 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
 ```
 
 wrapper补入新g身份后最终raw的SHA如上；旧完整solver在补身份前打印的中间gzip SHA不冒最终文件SHA。所有源明确冻结，后续同g使用该参数与来源定义。
+
+## 6. 同 g M128 真解没有降低实际误差
+
+以 M112 的新g `.997` 真接受场为暖父，duration=0、M128/N2048、K3、tol=1e−8、max_nodes=2000；`--boundary-input` 仍指定原`.995`真场，因此在新增角阶下重建同一实际父参照的主部边界，而不是从新暖父换一套参照。其余参数固定。66.548235365秒后510节点真接受，RMS9.32575229561e−9、边界3.46945e−18。
+
+同一quintic读者 N2048/4细分给最大实际Gram **5.87897809846e−6**，最坏在s=.997、φ6.14819499785；κ最大6.30172524765，core gap .960001022623。比M112的2.754e−6更差，没有达到固定精化目标。未将两个字段平均、滤波或选择局部较好角点当作接受。
+
+```text
+parallel-inward0997-m128.json.gz
+ca3871a8777d25df51372d7c0f7eb32945bfaed21ed379787cfe278d6426c8ec
+parallel-inward0997-m128-readout.json
+cb17ad8d11c8540b1e5bce13c658d374621a379f33f251c1b593ca2f1b7efc81
+```
+
+复现使用第5节同一入口，输入改为 M112 `.997`、`--duration 0 --modes 128 --boundary-input /workspace/scratch/16f63c8bce6b/parallel-continue0995-m112.json.gz --max-nodes 2000`，输出为上述M128路径；其余CLI固定。读者只改输入/输出路径。
+
+### 6.1 截断投影与角求积的分离诊断
+
+新增[真实节点投影读者](../scripts/parallel_20261117_prefix_projection_probe.py)保持接受场状态和保存的导数不动，在8192角点评价原Frenet的未投影速度 V，再与保存导数的三角表达 V_M 比较。未投影V的单位速度和对F_phi正交误差均约1e−15；这不修复已经积累的角向度量误差。设delta=V_M−V，则径向Gram误差为2 V·delta+|delta|²，混合误差为F_phi·delta；角向误差的局部增长缺陷为2 F_phi·(delta)_phi，均用真实移动frame连接项。
+
+| 真实端点 | max|delta| | 将求积角数2048→8192后的速度差 | 相对角度量增长缺陷最大采样 |
+|---|---:|---:|---:|
+| 原g .995 M112 | 5.22427134e−5 | 1.59658e−12 | .0003287677 |
+| 新g .997 M112 | .000411346898 | 1.35745e−8 | .0023599793 |
+| 新g .997 M128 | .000414786811 | 1.38530e−8 | .0025767006 |
+
+增求积角数只做同字段的评价/投影比较，不是重新求解高N BVP。两新场的有限角阶截尾在端点没有下降，其量级远大于本次N变化造成的低阶系数差；不能把当前问题仅归于角点求积不足。8192点的端点实际Gram读数分别约4.247e−7、2.859e−6、6.036e−6，略高于2048点采样；仍是样本而非连续上确界。
+
+终端主部条件是否激励了有限谱端，是后续需检验的解释，不由这张局部表直接证明。也不能把delta的大小等同于累积的全部角Gram误差。继续检查实际误差沿径向的分布，并用更长的同g真场区分人工端部效应；不把辅助buffer或任何局部crop冒成闭尾。
+
+```text
+parallel_20261117_prefix_projection_probe.py source SHA
+4d968fa0bbe2ea4975bbf244ae17e30c0c8317c6fb1d629cac33b70ae1f173c7
+parallel-inward0997-projection-probe.json
+e8f5667f5f6adac1b6e69ed21cc8d1ac6330f94e3c2063134a4ad9c1169c6f22
+```
+
+从仓库根目录，调用该源 `--inputs` 后依次给原`.995 M112`、新g`.997 M112`、新g`.997 M128`的完整scratch路径，`--angles 8192 --out /workspace/scratch/16f63c8bce6b/parallel-inward0997-projection-probe.json`。全部输入SHA在本note和输出中；原始字段与报告不入库。

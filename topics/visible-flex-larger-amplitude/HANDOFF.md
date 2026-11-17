@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 14:32:39 UTC 真实 pull 后核双 README，无新差异，已读提交 f03f6d2f059b10eb29f7df79ed50e4b70c877eca。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 14:40:48 UTC 真实 pull 后核双 README，无新差异，已读提交 5553ef9255ac630f628a90f3abe3958bb60b7f57。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–633证明见results；本地计算，原Actions责任不变。全历史结论/失败/源/参数/SHA保[open§7](open.md#7-本并行会话的实际数学与几何路线)。[原g扩域.995](notes/2026-11-17-parallel-numerical-0995-continuation.md)真Gram4.001e−7，a′仍正；.999大步未接受。[R633](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)2368胞元严格排除原强b677接best4指定圆cuff，必要ε>.584839。[新外向参考g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)真.8cut/R1.55，L1.108257对自由圆周对应chord1.104644；H/帽D仅条件参考，未解非线性尾。[内向新g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)从真.995到参考R.531879/H1.8，固定材料chord余.072629；.997真BVP接受但实际Gram2.754e−6，同gM128求解中。[新高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)κ7.627漏峰、Gram1.330e−6；1557参数由最小replay逐字再生。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：R623–633证明见results；本地计算，原Actions责任不变。全历史结论/失败/源/参数/SHA保[open§7](open.md#7-本并行会话的实际数学与几何路线)。[原g扩域.995](notes/2026-11-17-parallel-numerical-0995-continuation.md)真Gram4.001e−7，a′仍正；.999大步未接受。[R633](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)2368胞元严格排除原强b677接best4指定圆cuff，必要ε>.584839。[新外向参考g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)真.8cut/R1.55，L1.108257对自由圆周对应chord1.104644；H/帽D仅条件参考，未解非线性尾。[内向新g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)从真.995到参考R.531879/H1.8，固定材料chord余.072629；.997真BVP接受但实际Gram2.754e−6，同gM128真Gram5.879e−6，截尾未降。[新高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)κ7.627漏峰、Gram1.330e−6；1557参数由最小replay逐字再生。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 
