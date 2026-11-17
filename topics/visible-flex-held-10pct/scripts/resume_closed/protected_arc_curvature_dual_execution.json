@@ -1,0 +1,94 @@
+{
+  "result": "R33",
+  "scope": "Executed rational infinite-dimensional curvature-control dual bound with frozen old low moments; not a positivity nonexistence result.",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_protected_arc_curvature_dual.py",
+    "--control-record",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/round_control_width_record.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3-protected-arc-curvature-dual.json"
+  ],
+  "execution": {
+    "observed_exit_code": 0,
+    "tool_chunk": "99c8b9",
+    "seconds": 0.3039202190011565
+  },
+  "source": {
+    "path": "scripts/resume_closed/certify_protected_arc_curvature_dual.py",
+    "sha256": "00132335adb74e1f889d97fc8bb9060d0808ec51746c5603304992f3be8601d1"
+  },
+  "output": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-protected-arc-curvature-dual.json",
+    "sha256": "ec555a9ce9559d81e350dd3dfc237cb35dfad357d660434092930d84a20a98c8"
+  },
+  "certificate": {
+    "input_record_sha256": "e68ef8cb880f6dfeb2a53ff795c12a5e379708d6e17c9125bdee6c763bf07deb",
+    "checkpoint_sha256": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+    "input_q": 0.04,
+    "n": 3,
+    "maximum_low_mode": 8,
+    "protected_halfwidth": "21/100",
+    "exact_physical_binary64_moments": [
+      "0",
+      "0",
+      "469854833348313/2305843009213693952",
+      "-1623283796114375/147573952589676412928",
+      "8840118707673593/75557863725914323419136",
+      "-3217114615369843/151115727451828646838272",
+      "-1180140504169957/151115727451828646838272",
+      "-3416168898388007/9671406556917033397649408",
+      "5632776495501763/154742504910672534362390528"
+    ],
+    "rational_dual": [
+      "788928262860837/1000000000",
+      "-759591044766777/1000000000",
+      "676940171437999/1000000000",
+      "-555702838249487/1000000000",
+      "416313825141573/1000000000",
+      "-280027372379647/1000000000",
+      "16420549300749/100000000",
+      "-7906062257759/100000000",
+      "5323284882457/200000000"
+    ],
+    "normalization": "B(b,b)=(1/T) integral_0^T (b+b_second)^2, T=2*pi/3",
+    "L": [
+      "1.04719755119659774615421446109316762806572313",
+      "1.04719755119659774615421446109316762806572314"
+    ],
+    "complement_half_length": [
+      "0.837197551196597746154214461093167628065723133",
+      "0.837197551196597746154214461093167628065723134"
+    ],
+    "homogeneous_determinant": [
+      "1.33451677357402627775251459304130866678140986",
+      "1.33451677357402627775251459304130866678140987"
+    ],
+    "exact_dual_linear_functional": "22299035404518486388612761909748172759/154742504910672534362390528000000000",
+    "dual_quadratic": [
+      "144.104138791025337752496998380490718397128022",
+      "144.104138791025337752496998380490718397128023"
+    ],
+    "fixed_dual_value": [
+      "144.104138791025487839416362889614101385994600",
+      "144.104138791025487839416362889614101385994601"
+    ],
+    "rigorous_energy_lower": "144.104138791025487839416362889614101385994600",
+    "rigorous_rms_lower": "12.0043383320791774424727241110808763503782",
+    "rigorous_linf_lower": "13.4257501700183120394596319120526530640802",
+    "certified_strict_thresholds": {
+      "normalized_energy": "14410413879/100000000",
+      "rms": "1200433833/100000000",
+      "linf": "1342575017/100000000"
+    },
+    "proof_arithmetic": {
+      "outward_decimal_digits": 80,
+      "sine_cosine_taylor_degree": 200,
+      "machin_atan_terms": 100,
+      "all_bound_arithmetic": "Fraction and integer floor/ceiling"
+    },
+    "complete_infinite_dimensional_variational_formula": "inf B(b,b) = moments^T G^-1 moments",
+    "fixed_dual_needs_no_numerical_inverse": true,
+    "restrictions": "Frozen old low moments only; no positivity nonexistence claim and no restriction on controls being re-solved in a new actual homotopy."
+  }
+}

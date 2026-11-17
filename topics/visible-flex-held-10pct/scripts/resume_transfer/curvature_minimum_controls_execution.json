@@ -1,0 +1,215 @@
+{
+  "scope": "Executed finite auxiliary-frequency numerical diagnostics, not part of the R33 rational proof. J32 and J48 suffer large numerical conditioning/rank loss; no certified optimizer or continuous extrema.",
+  "runs": [
+    {
+      "output_path": "/workspace/scratch/7322d0dee069/transfer_work/curvature-control-screen.json",
+      "output_sha256": "538ce59239b5eeb1a1c983bfbf833e0bdd31f5ffd5d5583dcbb4d7e68321a87e",
+      "scope": "Numerical screen of supported low-moment controls with minimum curvature energy.\n\nIn the finite space b=W*sum(h_j*cos(n*j*phi)), j=0,...,J, impose mean=0,\nthe primary moment=0, and the prescribed support cosine coefficients at\n2n,...,Mn. Minimize the normalized integral of (b+b'')**2. The mathematical\ndefinition uses exact integrals; this screen uses Gauss quadrature and a\nrank-revealing constrained least-squares solve. It is not a coefficient\ncertificate, positivity proof, accepted BVP, or nonexistence result.\n",
+      "arguments": {
+        "record": "topics/visible-flex-held-10pct/scripts/resume_m3/round_control_width_record.json",
+        "out": "/workspace/scratch/7322d0dee069/transfer_work/curvature-control-screen.json",
+        "orders": [
+          8,
+          12,
+          16,
+          24,
+          32,
+          48
+        ],
+        "width": 0.16,
+        "samples": 32768,
+        "quad_order": 256,
+        "rcond": 1e-13
+      },
+      "source_sha256": "ababdd505ee04c8fed985f5a59bf9b417ca87cb25a6a4799b5e49b0fa6da1da7",
+      "input_record_sha256": "e68ef8cb880f6dfeb2a53ff795c12a5e379708d6e17c9125bdee6c763bf07deb",
+      "physical_input": {
+        "base_mode": 3,
+        "modes": 8,
+        "q": 0.04,
+        "halfwidth": 0.21,
+        "control_transition": 0.16,
+        "flatten_transition": 0.08,
+        "flatten_beta": -0.23016387809080685,
+        "physical_corrections": [
+          0.00020376705242762224,
+          -1.0999798864423263e-05,
+          1.1699799692247875e-07,
+          -2.1289078705559398e-08,
+          -7.809514761103552e-09,
+          -3.5322358524414917e-10,
+          3.640096493690191e-11
+        ]
+      },
+      "rows": [
+        {
+          "moment_residual_linf": 7.43732411000371e-16,
+          "moment_condition": 52986.98212268822,
+          "auxiliary_null_dimension": 0,
+          "effective_energy_rank": 0,
+          "energy_condition": null,
+          "normalized_rho_energy": 476.0534201491984,
+          "largest_trig_coefficient": 2.8179898782728596,
+          "auxiliary_order": 8,
+          "sampled_support_linf": 0.033623419420931486,
+          "sampled_control_rho_min": -87.56348549952641,
+          "sampled_control_rho_max": 88.29499778844664,
+          "sampled_control_rho_linf": 88.29499778844664,
+          "sampled_full_rho_lambda_one_min": -86.34041357367309,
+          "first_sampled_positivity_failure_lambda": 0.013975497249945151
+        },
+        {
+          "moment_residual_linf": 5.614405424944624e-15,
+          "moment_condition": 555.0290230351092,
+          "auxiliary_null_dimension": 4,
+          "effective_energy_rank": 4,
+          "energy_condition": 1527.2832945663565,
+          "normalized_rho_energy": 309.41603409552005,
+          "largest_trig_coefficient": 10.98810804712733,
+          "auxiliary_order": 12,
+          "sampled_support_linf": 0.02865908190753031,
+          "sampled_control_rho_min": -64.92366716251502,
+          "sampled_control_rho_max": 40.640060113409476,
+          "sampled_control_rho_linf": 64.92366716251502,
+          "sampled_full_rho_lambda_one_min": -63.68487908971063,
+          "first_sampled_positivity_failure_lambda": 0.01891257632314617
+        },
+        {
+          "moment_residual_linf": 2.7201557106690538e-14,
+          "moment_condition": 446.60027266003556,
+          "auxiliary_null_dimension": 8,
+          "effective_energy_rank": 8,
+          "energy_condition": 33798.300215639014,
+          "normalized_rho_energy": 250.76647359400786,
+          "largest_trig_coefficient": 71.95029083778381,
+          "auxiliary_order": 16,
+          "sampled_support_linf": 0.022854283569835872,
+          "sampled_control_rho_min": -65.04129958962334,
+          "sampled_control_rho_max": 45.31801092792952,
+          "sampled_control_rho_linf": 65.04129958962334,
+          "sampled_full_rho_lambda_one_min": -63.776311280923686,
+          "first_sampled_positivity_failure_lambda": 0.018963619433159915
+        },
+        {
+          "moment_residual_linf": 2.2887933824806966e-12,
+          "moment_condition": 411.6936944647273,
+          "auxiliary_null_dimension": 16,
+          "effective_energy_rank": 16,
+          "energy_condition": 9234693.863880597,
+          "normalized_rho_energy": 203.2765512555958,
+          "largest_trig_coefficient": 4684.747665300388,
+          "auxiliary_order": 24,
+          "sampled_support_linf": 0.02026272444806974,
+          "sampled_control_rho_min": -51.272397642679294,
+          "sampled_control_rho_max": 58.43434968860175,
+          "sampled_control_rho_linf": 58.43434968860175,
+          "sampled_full_rho_lambda_one_min": -49.97366979214298,
+          "first_sampled_positivity_failure_lambda": 0.024205046324338956
+        },
+        {
+          "moment_residual_linf": 2.0173201822737282e-10,
+          "moment_condition": 407.11398016508525,
+          "auxiliary_null_dimension": 24,
+          "effective_energy_rank": 24,
+          "energy_condition": 2024447973.6626194,
+          "normalized_rho_energy": 182.13778850129643,
+          "largest_trig_coefficient": 363211.31019697257,
+          "auxiliary_order": 32,
+          "sampled_support_linf": 0.019577745365892213,
+          "sampled_control_rho_min": -42.66285067821267,
+          "sampled_control_rho_max": 68.5290886719311,
+          "sampled_control_rho_linf": 68.5290886719311,
+          "sampled_full_rho_lambda_one_min": -41.395539640862445,
+          "first_sampled_positivity_failure_lambda": 0.028929408185521904
+        },
+        {
+          "moment_residual_linf": 9.068207927345136e-09,
+          "moment_condition": 406.7068491775713,
+          "auxiliary_null_dimension": 40,
+          "effective_energy_rank": 39,
+          "energy_condition": 74894394267221.38,
+          "normalized_rho_energy": 166.41252548103353,
+          "largest_trig_coefficient": 17844238.57263712,
+          "auxiliary_order": 48,
+          "sampled_support_linf": 0.018724093601180134,
+          "sampled_control_rho_min": -41.7131629448779,
+          "sampled_control_rho_max": 79.70214585705945,
+          "sampled_control_rho_linf": 79.70214585705945,
+          "sampled_full_rho_lambda_one_min": -40.4102857130435,
+          "first_sampled_positivity_failure_lambda": 0.029788062904287274
+        }
+      ]
+    },
+    {
+      "output_path": "/workspace/scratch/7322d0dee069/transfer_work/curvature-control-check.json",
+      "output_sha256": "929b89debbd54b7aeb414ffab07cd500764b212c01989393b490e1a491272e00",
+      "scope": "Numerical screen of supported low-moment controls with minimum curvature energy.\n\nIn the finite space b=W*sum(h_j*cos(n*j*phi)), j=0,...,J, impose mean=0,\nthe primary moment=0, and the prescribed support cosine coefficients at\n2n,...,Mn. Minimize the normalized integral of (b+b'')**2. The mathematical\ndefinition uses exact integrals; this screen uses Gauss quadrature and a\nrank-revealing constrained least-squares solve. It is not a coefficient\ncertificate, positivity proof, accepted BVP, or nonexistence result.\n",
+      "arguments": {
+        "record": "topics/visible-flex-held-10pct/scripts/resume_m3/round_control_width_record.json",
+        "out": "/workspace/scratch/7322d0dee069/transfer_work/curvature-control-check.json",
+        "orders": [
+          12,
+          24
+        ],
+        "width": 0.16,
+        "samples": 65536,
+        "quad_order": 512,
+        "rcond": 1e-13
+      },
+      "source_sha256": "ababdd505ee04c8fed985f5a59bf9b417ca87cb25a6a4799b5e49b0fa6da1da7",
+      "input_record_sha256": "e68ef8cb880f6dfeb2a53ff795c12a5e379708d6e17c9125bdee6c763bf07deb",
+      "physical_input": {
+        "base_mode": 3,
+        "modes": 8,
+        "q": 0.04,
+        "halfwidth": 0.21,
+        "control_transition": 0.16,
+        "flatten_transition": 0.08,
+        "flatten_beta": -0.23016387809080718,
+        "physical_corrections": [
+          0.00020376705242762224,
+          -1.0999798864423263e-05,
+          1.1699799692247875e-07,
+          -2.1289078705559398e-08,
+          -7.809514761103552e-09,
+          -3.5322358524414917e-10,
+          3.640096493690191e-11
+        ]
+      },
+      "rows": [
+        {
+          "moment_residual_linf": 2.8118165538755654e-15,
+          "moment_condition": 555.0290230351382,
+          "auxiliary_null_dimension": 4,
+          "effective_energy_rank": 4,
+          "energy_condition": 1527.2832944541783,
+          "normalized_rho_energy": 309.41603404861803,
+          "largest_trig_coefficient": 10.988108048547458,
+          "auxiliary_order": 12,
+          "sampled_support_linf": 0.02865908190609972,
+          "sampled_control_rho_min": -64.92379638114897,
+          "sampled_control_rho_max": 40.64006010730865,
+          "sampled_control_rho_linf": 64.92379638114897,
+          "sampled_full_rho_lambda_one_min": -63.6850917967616,
+          "first_sampled_positivity_failure_lambda": 0.018912564852739365
+        },
+        {
+          "moment_residual_linf": 2.0399492099872074e-12,
+          "moment_condition": 411.69369446474013,
+          "auxiliary_null_dimension": 16,
+          "effective_energy_rank": 16,
+          "energy_condition": 9234693.49742268,
+          "normalized_rho_energy": 203.27653460702675,
+          "largest_trig_coefficient": 4684.749924625508,
+          "auxiliary_order": 24,
+          "sampled_support_linf": 0.02026272754747363,
+          "sampled_control_rho_min": -51.27239554949809,
+          "sampled_control_rho_max": 58.43435128109475,
+          "sampled_control_rho_linf": 58.43435128109475,
+          "sampled_full_rho_lambda_one_min": -49.973667698961776,
+          "first_sampled_positivity_failure_lambda": 0.024204874435928326
+        }
+      ]
+    }
+  ]
+}
