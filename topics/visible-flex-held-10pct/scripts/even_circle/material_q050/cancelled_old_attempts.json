@@ -1,0 +1,187 @@
+{
+  "scope": "Cancellation records, not mathematical failures or amplitude bounds.",
+  "runs": [
+    {
+      "name": "complement-v40-r45-q050-m16-lam0",
+      "classification": "cancelled_superseded",
+      "observed_exit_code": 130,
+      "execution_session": 37415,
+      "reason": "New q05 M16 material-pullback/secant run had already accepted. These older direct-coefficient warm attempts were explicitly interrupted before mathematical terminal status.",
+      "last_iteration_lines": [
+        "       1          1.31e-02       2.01e-04         1157           2002      "
+      ],
+      "log_sha256": "70902d91285cc3ba0b1420ad7859578a47938f1d651c56fcd9a3829e9e5e234c",
+      "captured_driver": "complement_plateau_prefix_recorded.py",
+      "captured_driver_sha256": "04c6c5e0a1892518add03509ca91828c26a42d9a37cd50e7c9674aa9a7e268ee",
+      "runtime_top_level_source_hash_saved": true,
+      "startup_records": [
+        {
+          "event": "runtime_source_provenance",
+          "argv": [
+            "complement_plateau_prefix_recorded.py",
+            "--out",
+            "runs/complement-v40-r45-q050-m16-lam0",
+            "--modes",
+            "16",
+            "--q",
+            ".05",
+            "--halfwidth",
+            ".145",
+            "--transition",
+            ".08",
+            "--control-transition",
+            ".08",
+            "--lambdas",
+            "0",
+            "--nodes",
+            "351",
+            "--max-nodes",
+            "5000",
+            "--tol",
+            "1e-6",
+            "--angular",
+            "768",
+            "--exact-lift",
+            "--profile",
+            "compact-v40-40-r45/profile.json",
+            "--chart-file",
+            "compact-v40-40-r45/chart.json",
+            "--port-file",
+            "mode4_port24.json",
+            "--restart",
+            "runs/complement-v40-r45-q045-m16-lam0-lam0.json.gz"
+          ],
+          "source_sha256": {
+            "complement_plateau_prefix_recorded.py": "04c6c5e0a1892518add03509ca91828c26a42d9a37cd50e7c9674aa9a7e268ee",
+            "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+            "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+            "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+            "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+            "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+            "plateau_patch_audit.py": "18e2f26a13c8f6b72583b479c4147a9fe6c225bc0a77417ae398251219f48451",
+            "complementary_snapshot/uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+            "complementary_snapshot/complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+            "complementary_snapshot/moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+          }
+        },
+        {
+          "event": "start",
+          "homotopy": 0.0,
+          "q": 0.05,
+          "M": 16,
+          "linear_delta": 0.03015015790459625,
+          "terminal_linear_transversality": [
+            2.3785550649849637e-16,
+            0.22360885090438784,
+            -0.7494438272849431,
+            -0.28376742479526135,
+            -0.06063685034529284,
+            0.023356307988667124,
+            0.12483382443862233,
+            0.7157996993775764,
+            0.08629551712952899,
+            -0.020349589321417783,
+            -0.021271060223591827,
+            0.10929217951069767,
+            0.1938207162548999,
+            0.04422383500522708,
+            0.010091172578096832,
+            0.018820795024774885
+          ]
+        },
+        {
+          "event": "parameter_jac_check",
+          "checks": [
+            {
+              "direction_normalization": "control-rho-bound",
+              "step": 0.001,
+              "max_error": 1.4944421013185494e-08,
+              "scale": 0.007868266033334265
+            },
+            {
+              "direction_normalization": "control-rho-bound",
+              "step": 0.0003333333333333333,
+              "max_error": 1.5775722924174507e-09,
+              "scale": 0.007868277942147476
+            },
+            {
+              "direction_normalization": "control-rho-bound",
+              "step": 0.0001,
+              "max_error": 1.7086722453596437e-09,
+              "scale": 0.007868277247545805
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "complement-v40-r45-q050-m20-lam0",
+      "classification": "cancelled_superseded",
+      "observed_exit_code": 130,
+      "execution_session": 87027,
+      "reason": "New q05 M16 material-pullback/secant run had already accepted. These older direct-coefficient warm attempts were explicitly interrupted before mathematical terminal status.",
+      "last_iteration_lines": [
+        "       1          2.64e-03       2.38e-04          594            954      ",
+        "       2          2.93e-03       1.84e-04         1548           2600      "
+      ],
+      "log_sha256": "d31803345e87a1dc4723678265dd9db771396516142d59d9baeea4ef331c50c5",
+      "captured_driver": "complement_plateau_prefix_scaled_check.py",
+      "captured_driver_sha256": "188862a3f777253e157ee48492a6317ad31892c2a8da5d7444f517c124a15ca2",
+      "runtime_top_level_source_hash_saved": false,
+      "startup_records": [
+        {
+          "event": "start",
+          "homotopy": 0.0,
+          "q": 0.05,
+          "M": 20,
+          "linear_delta": 0.03015015790459625,
+          "terminal_linear_transversality": [
+            2.3785550649849637e-16,
+            0.22360885090438784,
+            -0.7494438272849431,
+            -0.28376742479526135,
+            -0.06063685034529284,
+            0.023356307988667124,
+            0.12483382443862233,
+            0.7157996993775764,
+            0.08629551712952899,
+            -0.020349589321417783,
+            -0.021271060223591827,
+            0.10929217951069767,
+            0.1938207162548999,
+            0.04422383500522708,
+            0.010091172578096832,
+            0.018820795024774885,
+            -0.11555759036974114,
+            -0.09189272011444341,
+            -0.027841654858173123,
+            -0.005948392864459439
+          ]
+        },
+        {
+          "event": "parameter_jac_check",
+          "checks": [
+            {
+              "direction_normalization": "control-rho-bound",
+              "step": 0.001,
+              "max_error": 2.5855099715713092e-08,
+              "scale": 0.013971166820993117
+            },
+            {
+              "direction_normalization": "control-rho-bound",
+              "step": 0.0003333333333333333,
+              "max_error": 3.1145429603418595e-09,
+              "scale": 0.013971189531419586
+            },
+            {
+              "direction_normalization": "control-rho-bound",
+              "step": 0.0001,
+              "max_error": 5.272623514879227e-09,
+              "scale": 0.013971191497640707
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

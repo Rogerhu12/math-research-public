@@ -1,0 +1,152 @@
+{
+  "scope": "Accepted finite q05 lambda0 n4 design prefix, actual linear port only; no exact circle, nonlinear tail, fixed-g refinement or closed claim.",
+  "runtime_argv": [
+    "complement_plateau_prefix_material.py",
+    "--out",
+    "runs/material-q050-m16-secant",
+    "--modes",
+    "16",
+    "--q",
+    ".05",
+    "--halfwidth",
+    ".145",
+    "--transition",
+    ".08",
+    "--control-transition",
+    ".08",
+    "--lambdas",
+    "0",
+    "--nodes",
+    "351",
+    "--max-nodes",
+    "5000",
+    "--tol",
+    "1e-6",
+    "--angular",
+    "768",
+    "--exact-lift",
+    "--profile",
+    "compact-v40-40-r45/profile.json",
+    "--chart-file",
+    "compact-v40-40-r45/chart.json",
+    "--port-file",
+    "mode4_port24.json",
+    "--restart",
+    "runs/complement-v40-r45-q045-m16-lam0-lam0.json.gz",
+    "--previous",
+    "runs/complement-v40-r45-q040-m16-lam0-lam0.json.gz"
+  ],
+  "runtime_source_sha256": {
+    "complement_plateau_prefix_material.py": "ee624872d68d43e8c6cf34fcc08dc9acc79b916c5760f85160f8f6aa67e557ce",
+    "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+    "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+    "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "plateau_patch_audit.py": "18e2f26a13c8f6b72583b479c4147a9fe6c225bc0a77417ae398251219f48451",
+    "complementary_snapshot/uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+    "complementary_snapshot/complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "complementary_snapshot/moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+  },
+  "raw_result_sha256": "4a8314c0cc67b5e04c356815dffa9fec63e4751e52f247c3e3f9142d1d3240c6",
+  "checkpoint_sha256": "7a4c26bee788eb5210788b71d4d98e1ef270b16ec3f67f15650a341920f3afe0",
+  "row": {
+    "q": 0.05,
+    "modes": 16,
+    "homotopy": 0.0,
+    "success": true,
+    "nodes": 1220,
+    "delta": 0.03011980281795953,
+    "physical_core_corrections": [
+      0.00041582497546728504,
+      -4.993815589748517e-05,
+      1.363517550296416e-06,
+      -4.691274664905617e-07,
+      -3.5035423857473777e-07,
+      -2.7466736176275817e-08,
+      4.017408614285014e-09,
+      3.8850158371801546e-10,
+      3.721704863773192e-11,
+      2.3055289440419596e-11,
+      -1.4363538364175822e-11,
+      -6.360099886718979e-11,
+      2.858827634715637e-12,
+      -3.4349395762591945e-10,
+      -2.2842862025742898e-10
+    ],
+    "max_rms": 8.341413628711931e-07,
+    "max_bc": 1.8120746175861119e-12,
+    "seconds": 135.37583875656128,
+    "restart_diagnostic": {
+      "method": "physical-material-angle-pullback-of-full-reference-plus-field",
+      "scope": "Initial guess only; no equation, root guard or acceptance change.",
+      "q_inputs": [
+        0.04,
+        0.045
+      ],
+      "q_target": 0.05,
+      "secant_weights": [
+        -1.0000000000000013,
+        2.0000000000000013
+      ],
+      "radial_nodes": 1220,
+      "angular_projection": 2048,
+      "pullback_residual": 8.881784197001252e-16,
+      "predicted_physical_delta": 0.03012006799899073,
+      "maximum_inlet_coefficient_correction": 0.0018226981027006373,
+      "scaled_bc_before_inlet_repair": 0.0018226981027006373,
+      "scaled_bc_after_inlet_repair": 1.20903845738062e-05,
+      "source_sha256": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+      "old_reference_lift_evaluation": "Periodic cubic interpolation of 4096 or more exact reference samples, solely for the warm guess.",
+      "input_sha256": {
+        "runs/complement-v40-r45-q040-m16-lam0-lam0.json.gz": "fc71f6ef54e0204cdb382569957f1cb09f27f1d58efb2accd3a84793f45b6d92",
+        "runs/complement-v40-r45-q045-m16-lam0-lam0.json.gz": "80ef7e334a3facfc008984a4699b3976cd26a553fa32d1c0298e54b5750b4d76"
+      }
+    },
+    "parameter_jac_check": [
+      {
+        "direction_normalization": "control-rho-bound",
+        "step": 0.001,
+        "max_error": 1.3220662828383745e-08,
+        "scale": 0.006234395234517733
+      },
+      {
+        "direction_normalization": "control-rho-bound",
+        "step": 0.0003333333333333333,
+        "max_error": 1.624943208634877e-09,
+        "scale": 0.0062344059130206245
+      },
+      {
+        "direction_normalization": "control-rho-bound",
+        "step": 0.0001,
+        "max_error": 1.843619223871305e-09,
+        "scale": 0.006234407004415727
+      }
+    ]
+  },
+  "summary": {
+    "metric_l1": 2.3222705229342145e-08,
+    "flow_defect": 1.2939995249478952e-07,
+    "darboux_l1": 0.00024503424788181407,
+    "kappa_sample": 14.096595178316385,
+    "radius_max": 1.0568542604308324,
+    "height_max": 0.6415473914777523,
+    "root_min": 0.0033107434603277808,
+    "chart_rho_min": 0.24999999999999978,
+    "support_amplitude": 0.05,
+    "terminal_height_coeff_max": 3.0277677368965868e-05,
+    "physical_bc_max": 1.812074617586112e-14,
+    "samples_s": 2588,
+    "samples_psi": 1040,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "core": {
+    "rho_lower_conservative": 0.23114902036174761,
+    "rho_min_sample": 0.23626728168157435,
+    "rho_max_sample": 1.7110398652591194,
+    "radius_max_sample": 1.0500155403293252,
+    "curvature_max_sample": 4.232494625928506,
+    "exact_circle_only_at_homotopy_one": false
+  }
+}
