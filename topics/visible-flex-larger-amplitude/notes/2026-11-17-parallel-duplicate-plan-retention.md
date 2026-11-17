@@ -154,3 +154,36 @@ q106的heartbeat/resource/ownership完整读过，里面command/out-prefix/task-
 | strong_tangent_warm_bvp.py | 13919 | c8351f01eb05265adada6392b1d0a7d63834f3d6388903e6a4bd67923d3f4b86 | d61837d24d64b6b57c2c1293ef6833d66dba2e52 |
 
 只更新proxy-manifest的这11个当前path并增加完整旧路径/恢复头；原sha256/bytes/绝对original_path、六负设计的参数/失败及所有source-freeze内容保持。computations主本未改，原科学输入与warm/status/数组不删。复现时按原归档说明把所列同字节主本复制为原生产目录的原basename，再执行原resource命令；不能因为当前主本位置变化而擅改cwd或解除原source identity门。发布遇rebase后再次核11个主本SHA，防止并行更新误把不同版本当同本。
+
+## 同一历史proxy的其余22份同字节依赖
+
+2026-11-17。此前11份之外，本次22份共116935B，各自逐字等于当前computations主本及固定历史 b6699f144cb86e4abe10f34af8f15c5a8268d60d。以下每行旧路径均为 `notes/2026-11-13-root-fine-core-tail-proxy-dependency-` 加basename；保留路径均为 `computations/` 加basename。两份内容不同的proxy主源14324/11445B继续原位，不在本表。
+
+已完整读原record和25496B manifest。record原已要求按original_path的原basename恢复到 `/workspace/scratch/d1aa462cfc02/geometry-work` 平级目录后执行；本次不把新保存路径冒充原执行路径。输入/传递source-freeze、原absolute路径、bytes/SHA、六个负候选及缺依赖/路径失败原状态完全不变。manifest只改表中当前path并增加历史恢复映射；其他全部条目逐字结构比较相同。当前字面引用仅该manifest与本恢复文，完整原生产恢复语义持续。
+
+| basename | bytes | SHA256 | 固定历史Git blob |
+|---|---:|---|---|
+| root_actual_bounded_neck.py | 6466 | d34bb67dae8e0087607f020102f92ba55b5258e58cab48e226ba7c5b15983734 | e7051faf880f34bfc45deaa7b33c16df21bd7537 |
+| root_actual_geometry_field_initial_laws.py | 6937 | 7efa4f617321c5832b59b8ee4c451fc53838ddee61025581b6e5eeda459b1b09 | 2d731de7f09f4b07999b9affc3f1bf404f8276da |
+| root_block_collocation.py | 7074 | fafcf2f8e333d184fc270d3ed18aceed23ec6363ef8bc4d473b255963d281748 | 7df20ef6af8aa19603085c209f5032362eacc12e |
+| root_geometry_array_io.py | 3726 | 8956bdb69837acdf4cd87c8cac9a4468606db2793d6ab2bd141cec46b9ae2878 | 23c4e69ebb09f8d59b11b9851c446bd547945295 |
+| root_geometry_array_io_resident.py | 2287 | cd9dfff6d08f55ba4256505dbf5bb168980c36369922553d45a7b2470f9e9456 | 18d0bcd8fca40df03f44d0f006524db83213b284 |
+| root_geometry_minimax_combined_plan.py | 5813 | 4e7be58bc2d0f8bf0641309aa5f098b360c2d55e23dade989a10d2f8aea74156 | c20d8359b621be99786adab35cb0ddd5060351af |
+| root_geometry_minimax_control_constraints.py | 6881 | 7d5f91ca193ef9d6c02070b5c062f278ab29a01f070eb12b66c8c9dff701cc63 | fa6a652aa7265f7648a32e825dbaa5047d26277a |
+| root_geometry_minimax_current_combined_plan.py | 6239 | f64e0daad78d1c2b6d44d32d42ba027b1bb3408a5a7b6376b7c2f2a35f57967a | 85ba8b617bf72534ad968c774043ea7af8044e9f |
+| root_geometry_minimax_current_controls.py | 9553 | 5f3b4f335489d297fca3a8c7f3aa64ed65ef35ad717b17f524eef11720afefc1 | 045e8ceda5f0332d2db462dfd55a93c32bc7c799 |
+| root_geometry_minimax_initial_laws_combined_plan.py | 7018 | 4de2252d400731c5920f6d6d4a4e3317b3c6d6f258dd00fa7b4898eb79c35b10 | 840dd397f5c5b9051b28a463c263b194d403c752 |
+| root_geometry_minimax_initial_laws_reader_bridge.py | 8471 | 5c1c963a2e630e1bcb22a193129d9c7e18ffe9c6f4a689385a3537e04f5ba0df | c20eabb629444f0b4d200e7f80c155fdaffe8594 |
+| root_geometry_minimax_variable_controls.py | 6112 | 7b641b9b08ea61d6620541bd8ea977bb769e665a06b831a44818ca27a998cf92 | 02171ed32716c83bb10cc82e849e5116b08a4bc2 |
+| root_radial_batching.py | 1210 | 6a9e26849fae0f2defa335cd00a5805cc2a7f1e1f3f05248e02db8d6ead38c1c | d84c33b5ad1b73ce191198484ebb3577b1b0f131 |
+| root_raw_collocation.py | 6234 | e2378a1c7ee11bd9a4f90b0a46d05d550f9e97a0883dda327a5edc09593eda3f | d06abc8212969780d1d7c230c957bcbabc7b9282 |
+| strong_actual_iterate_restore.py | 4264 | 8277739ed3f3efd0e07e31d580c1e5c351c36ff0aa90b8c73605b1855bde5ee7 | e068ac577f8e102ee17ef8cc22190720d5a15f33 |
+| strong_actual_newton_checkpoints.py | 7886 | 7d8bcc2e3cb5413d43cadaa471ea16dace3787731f2c48b7d794ca8bd96891fb | e98a99673af13172788b3e83cc52a26fcb77b5ca |
+| strong_actual_warm_screen.py | 5623 | 0e5a07052bbbec195d59cf95a312e6375855c86db18b4adc6614a74f45c08618 | e69796660d62da0eab974da6c7394aedd5f52b8f |
+| strong_block_qr.py | 5403 | 74ccc919e7f23754a210bac6cee69a0915e6e99c6c9b9c2616a24f1e59f294eb | dd4199dcf1df2f4843499dd76939f6c6974a866e |
+| strong_flow_lru.py | 3506 | c0e41d575854014fa7109fd98e81fe5aebea07c4f856e1a919bd04cf4c404bb2 | 884ccbc1b843018eddb4058119f590d19f92e6e0 |
+| strong_initial_laws_augmented_core.py | 2389 | 067940d3d2f581beebf1fd64e0649c80d9d5eaa61052fa8c2ab6cd54f5004646 | 1fd18e6ac8e865ec425eed66976b1ff9763d1647 |
+| strong_pulse_augmented_core.py | 2185 | 4fabc9ef77753185ed83e7bd7ff26854522d4a4a363c10a6841332944e8fb1a4 | a461642b50b6064300726e9664ac59155a47ac05 |
+| strong_resource_run.py | 1658 | bbf6c8ac8cb32cbc0f5c1e1c1c1e110ca1744c7839de0f272c172837a4ba3f59 | eaee7a65816b3d6b75946ff18306154d2db8ffc8 |
+
+恢复旧归档可逐项运行 `git show b6699f144cb86e4abe10f34af8f15c5a8268d60d:topics/visible-flex-larger-amplitude/notes/2026-11-13-root-fine-core-tail-proxy-dependency-BASENAME > OLD_ARCHIVE_PATH`；需复现实验时仍照原record恢复准确生产basename和cwd，而不是在notes目录直接运行。每次rebase后推送前重核22个保留主本SHA；没有删除独有科学数据或重新计算几何。

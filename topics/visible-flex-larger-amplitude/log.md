@@ -903,3 +903,5 @@ f05c源读取同26e53十四保存轴点，准确有理公式及R648 λ/λ_s预�
 2026-11-17 Astra-larger-parallel：刊唯一mode-damped同Hold初猜632d/9bf60/17697及48624/b361实际一次完整残差，Gram147→.655109、点det .662628仍未达；前819三jet不改，prefix s1的3.6124e−5需一同解。计划/两端三jet证明/全部源与SHA/H同刊，无参数扫或新Jv/solve。
 
 2026-11-17 Astra-larger-parallel：刊d429/f653/e6e968实际1333209维双积分坐标准备，全部964端口小块与转置通过，G作用差1.67e−16/lift伴随4.82e−14，1.13秒、0几何调用。完整源/有限差/原warm未改/浮点repair反增误差及H同刊；测试尺度不冒生产预条件。
+
+2026-11-17 Astra-larger-parallel：同proxy其余22份116935B与computations及b6699f14历史逐字同，保原生产basename/cwd和六负结果，只manifest当前path/恢复映射改；两不同版本保。完整22路径/bytes/SHA/blob/H同刊，rebase后续核主本，未删独有科学源/数据。

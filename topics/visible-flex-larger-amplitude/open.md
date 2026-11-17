@@ -101,11 +101,11 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-全部原结论/参数/失败/来源/运行账/未付逐字保[fb8c1ced固定open](https://github.com/Rogerhu12/math-research-public/blob/fb8c1ced3f2ee15da64b547de088e2d2cce8a9cd/topics/visible-flex-larger-amplitude/open.md)，内续e228/7245/ecd/ddf/c87所有旧链。仅压§7，§1–6原字保；本地计算，原Actions责任不变。[完整结果索引](results.md)。
+全部原结论/参数/失败/来源/运行账/未付逐字保[b8ce06f1固定open](https://github.com/Rogerhu12/math-research-public/blob/b8ce06f1c230c7a1c6fcf80ff60ad3e798dad9e4/topics/visible-flex-larger-amplitude/open.md)，内续e228/7245/ecd/ddf/c87所有旧链。仅压§7，§1–6原字保；本地计算，原Actions责任不变。[完整结果索引](results.md)。
 
 **已完成开放前缀。** 同26e53/q4096的R638/640/642全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819准确片连续relative Gram<4.94e−7，含1−5/2^60后微片。[R651](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)原818/818自然0，E≥.9943730/det≥.02754673，K≤7.21309；root六胞Q8192/8sub8158复用λ后完整并集K≤7.04608（最坏旧817），仅证书细化。[R652](results/R652-continuous-weighted-support-on-the-complete-pulse-prefix.md)全819/0失败/异常/剩余自然0，β1/4支持>.3174736（最坏410），β2/5>.16747356295；原249+新570、0新λ。[同额恢复](notes/2026-11-17-parallel-model-second-interruption-recovery.md)保全部中断账；这两批已结束，不重开。aa1 hold R644嵌入、R646仅四胞六片Gram、R645同像见证>.9588，均非闭面/完整held。
 
-**旧失败和当前两个短预算。** .997/β/normal-only/fast317/onlyZ109、桥高尾/六pulse设计/meanLP400/M64、1.04Cauchy与1.03显式BVP全部原参数/失败保固定全文。5b965的3a7f分支负、quintic Gram5.28554；927f/8fa6原24/20未收敛，bf5a共同C² Gram8.01546e−5且node594为3.62218e−5，A-only/仅镜像首胞不能救该坏节点。
+**旧失败全部保固定全文。** .997/normal-only/fast317/onlyZ109、各种bridge/pulse/LP/Cauchy/BVP原参数和范围不重做。3a7f分支负、Gram5.28554；原927f/8fa6到预算未收敛，bf5a共同C² Gram8.01546e−5且node594为3.62218e−5，A-only不救坏节点。
 
 [R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)保全Pr谱/输运/准确CU、全Gram core链、可逆T/全部D、矩与964联合边界、最小jerk等证明。[85c准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)1203点矩/70c尺度已付，Y不变、U0仅负零符号变。[513方向](notes/2026-11-17-parallel-root-direct-gram-integrated-direction.md)µ1/256 istop7，SSE6.191e−10但Gram4.98039e−6，非父。
 
@@ -119,7 +119,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **完整未付。** 真正闭合解、同g全连续Gram与求解精化、闭尾/Cartesian帽/准确六jet、固定有内点H/完整D、整像held、含反射E3、全t reach/强C²均未达。R633/635仅排指定设计；R240/632/625/627/629接口不替真实闭源，子题/预算/时长不是停点。精化固定g/参数/t至机器或原容差后继续增比例。
 
-[逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败；11份历史依赖188321B归同字节主本，原生产basename/cwd不变，完整恢复e22877bb。仅当前manifest路径改，不删独有科学输入/源/状态。
+[逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败；原11份188321B之后本次22份116935B再归同字节主本，恢复各e22877bb/b6699f14；原生产basename/cwd、source-freeze及六负结果不改，两不同版本保。仅manifest当前路径/历史映射改，所有SHA逐字核。
 
 [同输入FFT等价](notes/2026-11-17-parallel-geometry-fullclosed-gram-FFT-equivalence.md)7ab/9c0/882e，完整res/Jv/Jᵀ相对6.61e−14/8.38e−14/9.22e−14，缓存同点V/d；原dense全复用。v1漏__neg__在prepare即退出，未有几何比较；完整可逆源码差异与失败scope保。无新场/solver，旧warm147失败不改。
 
