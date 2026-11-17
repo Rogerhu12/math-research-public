@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`9f2f716f0679040db946dca981fa681a379ae46e`。2026-11-18 03:49:11（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`f3e44ced1702444e2141e2451ae2bdfab08f97a1`。2026-11-18 03:49:44（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -37,6 +37,8 @@ eta.1/q.01/M16 λ0前缀已接受724点，metric2.38461e−8/tensor1.62253e−5/
 **新beta3.625**：仅首谷控制改变，其余控制参数不变，但全局重标定改变整个r(x)，故是新g。q.02接受后q.0225已完整联合：δ=.061055703925903294、936点；prefix metric4.53177e−8/tensor7.15029e−5/K8.13283；tail res1.37881e−9/minA.618156/metric2.03136e−9/fullD1.81912e−5，物理BC1.25159e−10。不同q仍重解δ，不称同g；见m3-beta3625-second-coupled-state。
 
 beta3.625由q.02/.0225 secant到q.025：原shoot终态2.35394e−9；收紧局部root10倍后3.36278e−9，L2选步也停于该态，均未过原最终L∞2e−9。收紧后旧态首次重算3.2779e−7，保留局部误差放大，不把一次门通过当严格证书。见m3-beta3625-q025-stalled-continuation；现转beta4.125实际联合。
+
+**新beta4.125/q.02已真联合**：δ=.06105607210171944，prefix metric2.88465e−9/tensor5.64731e−5；tail res6.17866e−10/minA.800809/metric2.52176e−12/fullD1.78152e−8，物理BC1.17789e−10。与beta3.625同q各自重解后的有限fullD改善158倍，非同g精化。见m3-beta4125-first-coupled-state；原数值路径继续q.025。
 
 旧q025 H跨新beta初值：旧状态res175934、新线性态+旧非线性余项1.718e−8/minA.05537，均失败；全谐波线性三角和.72876→.43637不是非线性容量。原sameg守卫保留，先原port重启后显式切新g；cut仅记录64ULP舍入界。该失败态minA在stage40、残差峰stage46；stage44关键分量1ULP/scale=2.7035e−9已过门，不能据此放门或证无解。见new-first-valley-actual-start、tail-residual-and-positivity-locations。
 
