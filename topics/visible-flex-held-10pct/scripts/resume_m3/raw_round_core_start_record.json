@@ -1,0 +1,200 @@
+{
+  "scope": "Screen the raw compact core at a fixed accepted cosine anchor.\n\nThis verifies the lambda-zero interface, original complete core rho guards,\nand the sampled complete controls.  It never claims a solved prefix.\n",
+  "command": [
+    "topics/visible-flex-held-10pct/scripts/resume_m3/screen_raw_round_core.py",
+    "--prefix",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/raw-round-core-replay.json"
+  ],
+  "input": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+  "input_sha256": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+  "settings": {
+    "halfwidth": 0.21,
+    "transition": 0.08,
+    "control_transition": 0.16,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768,
+    "arc_nodes": 1024
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/screen_raw_round_core.py": "9dd72c77598966813de6c131576653864f5b63665ca8163fe9dac6203d89edc0",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f"
+  },
+  "q": 0.04,
+  "physical_controls": [
+    0.00020376705242762224,
+    -1.0999798864423263e-05,
+    1.1699799692247875e-07,
+    -2.1289078705559398e-08,
+    -7.809514761103552e-09,
+    -3.5322358524414917e-10,
+    3.640096493690191e-11
+  ],
+  "samples_per_sector": 32768,
+  "rows": [
+    {
+      "homotopy": 0,
+      "rho_lower": 0.6719639709650606,
+      "rho_min_sample": 0.6737388320753477,
+      "rho_max_sample": 1.311969015913025,
+      "grid_used": 512,
+      "full_control_rho_linf": 0.008030984086975107,
+      "full_control_support_linf": 0.0002148977184774626,
+      "coefficient_projection_residual_upper": 4.780202688725761e-60
+    },
+    {
+      "homotopy": 0.02,
+      "rho_lower": 0.6708405607999602,
+      "rho_min_sample": 0.673589841331599,
+      "rho_max_sample": 1.3121296355947645,
+      "grid_used": 512,
+      "full_control_rho_linf": 0.007870364405235608,
+      "full_control_support_linf": 0.00021059976410791337,
+      "coefficient_projection_residual_upper": 4.780202688725761e-60
+    },
+    {
+      "homotopy": 0.1,
+      "rho_lower": 0.6675189652390767,
+      "rho_min_sample": 0.6729938783566043,
+      "rho_max_sample": 1.3127721143217224,
+      "grid_used": 512,
+      "full_control_rho_linf": 0.007368090409606503,
+      "full_control_support_linf": 0.0001934079466297164,
+      "coefficient_projection_residual_upper": 4.780202688725761e-60
+    },
+    {
+      "homotopy": 0.25,
+      "rho_lower": 0.6612909735624201,
+      "rho_min_sample": 0.6718764477784891,
+      "rho_max_sample": 1.3139767619347686,
+      "grid_used": 512,
+      "full_control_rho_linf": 0.020870399465239105,
+      "full_control_support_linf": 0.00017548041059383855,
+      "coefficient_projection_residual_upper": 4.780202688725761e-60
+    },
+    {
+      "homotopy": 0.5,
+      "rho_lower": 0.650910987434659,
+      "rho_min_sample": 0.6700140634816305,
+      "rho_max_sample": 1.3159845079565125,
+      "grid_used": 512,
+      "full_control_rho_linf": 0.044572788024779986,
+      "full_control_support_linf": 0.0001499251266136522,
+      "coefficient_projection_residual_upper": 4.780202688725761e-60
+    },
+    {
+      "homotopy": 1.0,
+      "rho_lower": 0.630151015179137,
+      "rho_min_sample": 0.6662892948879134,
+      "rho_max_sample": 1.3563472412296453,
+      "grid_used": 512,
+      "full_control_rho_linf": 0.09199123130942158,
+      "full_control_support_linf": 0.00013383657478160393,
+      "coefficient_projection_residual_upper": 4.780202688725761e-60
+    }
+  ],
+  "interface_checks": {
+    "F": 1.478261957288396e-13,
+    "Ft": 2.0061730054976579e-13,
+    "Ftt": 3.439470930288735e-13,
+    "kappa": 2.291500322826323e-13,
+    "parameter_F": 4.677869203106866e-12,
+    "lambda_one_arc_rho_max_abs_difference": 0.0
+  },
+  "core_summary": {
+    "core_kind": "exact_defined_plateau_integral",
+    "base_mode": 3,
+    "q_parameter": 0.04,
+    "corrections": [
+      0.00020376705242762224,
+      -1.0999798864423263e-05,
+      1.1699799692247875e-07,
+      -2.1289078705559398e-08,
+      -7.809514761103552e-09,
+      -3.5322358524414917e-10,
+      3.640096493690191e-11
+    ],
+    "halfwidth": 0.21,
+    "transition": 0.08,
+    "homotopy": 1.0,
+    "center": 1.0471975511965976,
+    "exact_circle_only_at_homotopy_one": true,
+    "plateau_radius_at_one": 1.32,
+    "plateau_normal_width": 0.42,
+    "plateau_material_endpoints": [
+      0.7699975511965977,
+      1.3243975511965975
+    ],
+    "plateau_material_length": 0.5543999999999998,
+    "exact_perimeter": 6.283185307179586,
+    "rho_lower_conservative": 0.630151015179137,
+    "rho_triangle_lower": 0.40500631511251556,
+    "positivity_grid_per_sector": 512,
+    "rho_derivative_bound": 17.668871731878763,
+    "rho_min_sample": 0.6662892948879134,
+    "rho_max_sample": 1.356296834258212,
+    "curvature_max_sample": 1.5008495674063398,
+    "radius_max_sample": 1.0418391790515218,
+    "quadrature_period_roundoff": 1.7763568394002505e-15,
+    "scope": "Exact integral definition and independent evaluation; no Fourier truncation is called an exact circular arc.",
+    "control_family": "C4 complementary controls with free c8 and two-harmonic primary",
+    "bimodal_eta": 0.0,
+    "ignored_correction_index": null,
+    "local_flatten_beta": -0.2301638780908065,
+    "circle_unit_rho": 8.0,
+    "target_family": "C4 local circle flattening of the double harmonic, with complementary mean correction",
+    "control_transition": 0.16,
+    "lock_fundamental": true,
+    "control_homotopy": "lambda raw mean-primary projected compact + (1-lambda) target cosine; higher support moments vary along this physical path",
+    "control_projection_order": 8,
+    "rho_triangle_upper": 1.5857871297638526,
+    "rho_value_roundoff_allowance": 1.6861421582531822e-12,
+    "control_certificate": {
+      "base_mode": 3,
+      "modes": 8,
+      "halfwidth": 0.21,
+      "transition": 0.16,
+      "center": 1.0471975511965976,
+      "precision": 80,
+      "controls": 7,
+      "lock_fundamental": true,
+      "support_condition": 26010.474666498605,
+      "rho_condition": 266917.77828673914,
+      "high_precision_moment_residual": "6.62122288123e-82",
+      "coefficient_neumann_residual_upper": 4.7802026887257615e-60,
+      "coefficient_inverse_error_upper": 3.153134124383012e-59,
+      "canonical_low_moments": "mean=primary=0; higher support moments equal the raw weighted Schur complement, not identity",
+      "control_path": "raw-mean-primary-compact-v1",
+      "scope": "Explicit supported functions and high-precision moment preconditioner; numerical evaluation and all reported sampled suprema are not interval geometry certificates.",
+      "unabridged_certificate_sha256": "e347cfff7aae41a3e60047a046aab6c56ccfaee09c6fe202aed9e6f6a56a0fcc",
+      "regenerable_tables_omitted": [
+        "fundamental_leakage",
+        "rho_derivative_upper_bounds",
+        "support_derivative_upper_bounds"
+      ]
+    }
+  },
+  "source_definition": "Mean/primary projection only; the higher low moments vary with lambda. Lambda-one control span agrees with the canonical compact space.",
+  "started_actual_run": {
+    "directory": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002",
+    "homotopy": 0.02,
+    "actual_complete_accepted": false,
+    "status_when_recorded": "inner_prefix_returned_and_actual_tail_call_3_pending",
+    "anchor": "original beta4.625/q.04 cosine state; not the canonical round state with metric gap"
+  }
+}

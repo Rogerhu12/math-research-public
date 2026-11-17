@@ -291,3 +291,5 @@
 - 2026-11-18 04:53:14（UTC+8）｜Astra-held10-7322d0de-20261118：发布新w16 q0125 canonical圆化lambda.001终态：完整材料restart、tight矩及C²rho证书均保原门；2081点触maxnodes，RMS.0379511，62域拒/15merit拒/3接受步，最小alpha3.8147e−6，无正lambda接受态。不是入口identity缺失、也非不存在；下一raw路径保原lambda0核心和物理c8约束，另记新设计。双README实际pull无变化。
 
 - 2026-11-18 04:56:57（UTC+8）｜Astra-held10-7322d0de-20261118：发布R33严格无限维保护弧/冻结低矩障碍：H² Riesz变分公式、固定9维有理对偶和Fraction外舍入给avg曲率控制能量>144.10413879、L∞>13.42575017；任意辅助频亦不能把这组旧矩降至R32的.08预算。只否定冻结旧矩的小预算，不推rho负/分支不存在。审查闭式积分/边界条件/Taylor余项/向外算术，核源与输出hash及3有理门，没有重跑。附独立有限J数值screen及其条件数/秩损限制；raw终点同span与自然嵌套逐一证明。H精简并保留历史引用，open同步下一子问题；双README真实pull无变化。
+
+- 2026-11-18 04:58:17（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 raw compact精确定义/2×2系数证书/原actual入口：每列只投影掉mean和主频，不逆高矩Schur；lambda0保旧cos，lambda1全free控制空间等价而途中高矩明确可变，append0自然嵌套。独立库/来源/新core_kind防止canonical误读；原rho/Frenet/2e−9尾门保留。原好锚点lambda1初猜合成rho峰.0919912、core守卫下界.630151仅为初值证据。九源码hash/仅三文件差异已核，逐项审公式与Neumann包围。双README实际pull无变化。
