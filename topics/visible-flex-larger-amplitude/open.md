@@ -101,28 +101,16 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-本节压缩前逐字保[83262fdc固定open](https://github.com/Rogerhu12/math-research-public/blob/83262fdcf24a5fe0510be449298dbec2deb4491b/topics/visible-flex-larger-amplitude/open.md)；仅本并行§7更新，原§1–6不变。本支线本地计算，原Actions唯一读者/责任不变；R623–632完整证明均见[results索引](results.md)，不重复已登记定理。
+本节此次压缩前逐字保[b3274c8d固定open](https://github.com/Rogerhu12/math-research-public/blob/b3274c8d044e8cc1c2ca580133bb40155807ed44/topics/visible-flex-larger-amplitude/open.md)，更早逐字保83262fdc；只更新本并行§7，原§1–6不变。本支线本地计算，原Actions唯一读者/责任不变；R623–632完整证明见[results索引](results.md)。所有旧失败/源/参数/SHA均在对应notes及固定历史中，不重做已登记结论。
 
-**真实前缀与核心。** [.992精化和端口](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)中M112/N2048/486节点接受、真quintic Gram2.590e−7；M96只径向加密仍1.191e−6、M128回升6.467e−7，尚无单调固定精化。[R3方向探针](notes/2026-11-17-parallel-numerical-core-target-probes.md).1未接受，.001虽接受但Gram1.609e−5；只固定前三模不继承R3完整rho界。[完整响应的新方向](notes/2026-11-17-parallel-numerical-core-gram-response.md)已真重解，gap.9601012148、Gram5.177e−7、κ6.29966，仍仅开放前缀。[.8/.9节点真二阶接口](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保全部物理模、共同quintic二jet，提供w_r<0的新切口；低z过早圆化会遮整像held见证。
+**真实前缀与核心。** [.992精化](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112真Gram2.590e−7、M128回升6.467e−7，未付单调固定精化。[三控制响应真解](notes/2026-11-17-parallel-numerical-core-gram-response.md)gap.960101/Gram5.177e−7；[六控制新有限族](notes/2026-11-17-parallel-numerical-core-six-responses.md)明确替三terminal行，Δ.001未接受、Δ1e−4虽接受但真Gram1.881e−5，正在新接受状态重建响应。R3直插失败/非线性余项不隐藏；[.8/.9原节点2jet](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保完整模式，提供负wr入口但低z圆化可遮held。
 
-**尾部实际求解。** [首个动态零模小尾](notes/2026-11-17-parallel-numerical-dynamic-tail-first.md)给完整17维接受和物理残差；[原大cut背景](notes/2026-11-17-parallel-numerical-prefix-scale-tail.md)只λ1e−6接受、线性内部增益巨大，局部bridge探针未修复。[固定物理角实现](notes/2026-11-17-parallel-numerical-weighted-phi-tail.md)保全部112项rho与字面weighted mean，物理/材料高度均值不可混用；[完整加权Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行与alias，局部M112比较非接受场。可选y过零只是新chart，仍保S/D/L/N及真实几何责任。
+**有限尾与实际DN。** [best4短bridge](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)完整22键primitive配方、finite-far32深列与源均刊；材料M8到λ.0014、物理M8到1e−5。参考κ5重新求解和[实际曲率反升](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)说明producer参数不替真曲率，冻结Hermite内部也可超界。[完整weighted Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行/alias/112项rho，y过零chart不删S/D/L/N；局部Jac比较不代接受场。[跨角初猜后真物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)λ1e−4完整接受，初猜非接受父。[深P=0新有限族](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)三接受到λ5e−5、直接1e−4失败；只改M深端行，非原far DN，真实hr/hrr退休未付。
 
-[best4短bridge新g](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)已有材料M8 λ.0001→.001→.0014与物理M8 1e−6→1e−5接受；原物理1e−4直接失败不作无解结论。完整22键primitive重建、前4valley参数、finite-far32/512深列均已刊。[材料初猜后的真物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)保full rho/实际物理trace、同g及对应广义深列，65维完整重解在λ1e−4接受；初猜投影不冒接受父，M8→M32改变有限角模型，不能冒无限收敛。所有λ1接口、实际K/二jet、深4以后非线性尾仍未付。
+**实际几何及高度优化。** [材料实际C²径向场](notes/2026-11-17-parallel-geometry-best4-material-tail.md)λ.001/.0014同场加密Gram2.358e−7/1.420e−7，但κ7.514/8.473，真实wKr不能用背景6替代。[完整物理M32](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)N1024/G8→N2048/G12真Gram2.045397e−6超目标、κ5.997643/Hφ1.13913067，投影余量仅采样；φ与材料均高不可混。[原弱高度独立校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)同一实际高度四种积分Gram约1.4e−7，裁模/改cut/强制端点后的样条不能继承。小尾虽Gram≈1.3e−10，背景κ11.018不适合作大D父；旧宽bridge物理高度1.2627对应预算也不足。
 
-**真实C²几何与固定盖。** [同小尾四列角Gram](notes/2026-11-17-parallel-geometry-actual-tail-gram.md)区分保P微分失败与积分K成功；[径向C²读出](notes/2026-11-17-parallel-geometry-radial-c2-tail.md)三求积/角网Gram≈1.3e−10但背景本身κ≈11.018，不适合作大D reach父。[旧完整rho弱尾](notes/2026-11-17-parallel-geometry-weighted-actual-tail.md)λ1e−7真Gram9.407e−8、κ≈5.998、φ高度1.26270075347，暂代旧盖也仅G/D≈.199466；材料参考高度1.212不能混用。[R632回头盖](results/R632-c2-return-cap-parallel-body-and-diameter.md)已实造两个有边组件，补底后凸平行体reach准确rho，全部同盖/跨盖法向弦及有理diam已付；不是已拼闭面。R625/627/629的固定标记矩与reach/held结论均需真正源和隔离，未替代活动体责任。
+[真实Cartesian平cuff补段](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)用实际F/Fr/Frr三jet，经宽.078879到R1.767318/H1.13918566的平2jet；新g只延伸depth4外且固定A=377/125000。两级真Gram2.057397e−6、κpatch.0294701；本体2.045397e−6分列。明确补段可行与成本，不冒λ1接合或同精确解的固定g收敛；材料同公式成本更大。
 
-[best4材料真几何](notes/2026-11-17-parallel-geometry-best4-material-tail.md)两接受场在同场N512/G8→N1024/G12读出Gram2.358e−7/1.420e−7、κ7.51359/8.47262；深端wK_r增强是实际场曲率，背景6不能替代。材料高度1.08841/1.08839、见证/范数均真读但弱场不接λ1前缀；mean浮点停滞已独立定位并以同方程残差终止修正。
+**闭盖与reach接口。** R632回头盖补底后为凸平行体、内部reach=ρ，真实生成仍是两个有边组件，未装全体；R625/627/629固定标记/E3含反射/隔离结论需真实源。[b677镜像前缀法向弦](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)41216→82432点，52697444→210886470近对Qmin.16165446→.16150716，远对Q≥.17；仅浮点点云，不替R16连续局部/非局部覆盖，也不付尾、盖或完整D。
 
-[完整ρ物理M32真几何](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)同场N1024/G8→N2048/G12 Gram2.04539654e−6→2.04539712e−6，仍超目标；κ5.997643、真实φ高度1.13913067，见证/范数与投影四项正余量均实际读出。仅采样不代连续嵌入；沿用R9/R27而不重做理论。
-
-[best4参考κ5重新求解](notes/2026-11-17-parallel-numerical-best4-curvature5.md)同其他参数、重新far列与BVP，有两个新g接受场；[实际几何负结果](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)同λ.001真κ8.18640反高于κ6场7.51359，均高增加.02344；冻结Hermite内部另有κref5.27991峰。单降参数不支付实际曲率界，继续优化L和真实hrr。
-
-[六控制完整响应](notes/2026-11-17-parallel-numerical-core-six-responses.md)明确替换三条原terminal行，全部338维仍保；一次QR给六rhs，线性预测较小但Δgap.001完整重解RMS.001693、1402节点后超1800预算未接受。失败状态gap不计改善；Δ1e−4虽493节点真接受，5038080点实际quintic Gram1.881e−5超限。完整状态非线性余项已核，正从真接受场重建响应，而非复用原预测。
-
-[有限深P=0新族](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)保全2M+1方程、改M条深端行，三个真接受到材料λ5e−5；直接1e−4失败保留。它直接约束状态的非均值高度，但integral-K兼容误差、hr/hrr与强prefix接合均仍需实际支付；不冒原far DN。
-
-[b677镜像前缀实际法向弦](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)真quintic一阶法向、41216→82432点、52697444→210886470近对Qmin.16165446→.16150716，远对距离≥.34给Q≥.17；仅浮点点云，不替R16连续块/对角线、尾/盖或完整D。此处不继续重复云加密，回到同场闭合。
-
-[完整弱高度径向积分校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)绕过样条/强制端点修改，同一λ.0014高度四种求积/面板读出Gram约1.4e−7；原拟合约.29不能归罪径向积分。完整有限高度API与独立校准源同刊，继续逐项支付新边界改变。
-
-继续真实weighted幅度/角阶延拓、C²高度与g共同设计，以及核心响应改善。冻结候选后再精化同g/参数/t；实际全场Gram、完整D、整像held、含反射E(3)、全部活动点对/reach和全t责任一项不减。现未达到课题README完成标准，不以本节或任一子题结果停止。
+继续真实全幅prefix/尾双trace、C²高度与g共同设计、完整weighted角阶/幅度及核心实际修正。候选冻结后按原标准精化同g/参数/t；全场Gram、真实闭面/完整D、整像held、固定有内点H、含反射E(3)、所有点对reach和强C²全t连续一项不减。当前未达README完成标准，子题/时长/报告都不是停点。
