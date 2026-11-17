@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-旧全文逐字保[df896ccb固定open](https://github.com/Rogerhu12/math-research-public/blob/df896ccb1cd78a57e1805654692e64064559b63d/topics/visible-flex-larger-amplitude/open.md)，其所链cd55396d、dc271ec1、dd08f3eb、b3274c8d、83262fdc保完整旧结论/失败/参数/源/SHA。仅更新本§7，原§1–6保持；本地计算，原Actions读者与责任不变。R623–636完整证明见[results](results.md)。
+旧全文逐字保[df896ccb固定open](https://github.com/Rogerhu12/math-research-public/blob/df896ccb1cd78a57e1805654692e64064559b63d/topics/visible-flex-larger-amplitude/open.md)，其所链cd55396d、dc271ec1、dd08f3eb、b3274c8d、83262fdc保完整旧结论/失败/参数/源/SHA。仅更新本§7，原§1–6保持；本地计算，原Actions读者与责任不变。R623–637完整证明见[results](results.md)。
 
 **必须沿用的旧结论。** 原解析g的M112前缀真到.995，实际Gram4.001e−7；原g .999、径向增长两族、六控制纠正失败。.992的M112/M128并未给出角收敛。旧best4外向强λ1由R633严格长度门排除，R635在实际κ≤6.8/反射major正投影下又排除.992/R1.7673/H≤1.22和.8/R1.6/H≤1.45，改变g亦无效；不重跑这些组合。全部细节、旧有限far/Dirichlet/双trace/曲率/材料均值/平cuff/点云失败见上链全文及对应notes。
 
@@ -112,6 +112,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [全段可达109空间](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)在原509胞元/338ODE/229浅行上选27R/46T/36Z，约化cond5.46e11→2.37e8；[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保全部327值的109组合，cond6.85e7，父目标末修正6.807e−4/线性不可达剩余4.47e−8。只按较小cond选行可能需要更大实际修正。[真实值同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)固定原11960350母值/U，β63/64的510节点全BVP真接受：RMS9.369e−9/组合目标残差4.320e−12，但真quinticGram2.708403e−6；全327原谱max1.06234e−4，不能冒零谱。β.9正从此接受态继续，仍固定原母值。全部为明确新有限边界，非原tail DN。
 
 **高M局部场。** [短目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)排清二阶外推与有限截尾的区别；[M160/M224](notes/2026-11-17-parallel-geometry-short-ivp-m160-m224.md)同起点/core/rho/scalar真短IVP .995→.997，末Gram2.132e−6/1.132e−6，显式步长和半步核对。[M320](notes/2026-11-17-parallel-geometry-short-ivp-m320-local-candidate.md)962维末Gram5.096e−7，128/256步确认；起始Fs差5.16e−5/Fss差.02027，不能直接冒C²已接或整段BVP父。[完整短段C²](notes/2026-11-17-parallel-geometry-m320-full-short-quintic.md)N2048→4096真重积分、全128胞/N8192/4sub读Gram5.092e−7、κ5.7993。初版末4.7e−15微胞有坏峰；新定义仅删<64ulp倒数节点、保真末jets，未裁剪读数。
+
+[R637实际C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)在原.995后约.0005宽修正一二阶jets，首端共享旧父、末端保持高M场，所有六jet精确相接。新桥及整个短段524万点Gram5.092e−7/κ5.79934；旧前缀不动，沿用既有读数，未冒统一全网加密、完整BVP或闭尾。
 
 **弱场与尾接口。** [旧M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真运行5813秒，9780节点RMS.01608超14000失败。[直接高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)同1557参数粗κ6.7945→实际7.6272/Gram1.330e−6；原算法replay逐字再生，后续mean-LP400步仍6.097e−6，弱旧场不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)完整PDE/RHS/边界/坐标反号已核，尚无真实内向cut或新尾BVP。
 

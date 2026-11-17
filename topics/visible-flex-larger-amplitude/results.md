@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R637（接缝已证明，几何读出为数值证据）**：[旧前缀到M320短段的真实C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)：固定原core/rho/g，约.0005宽Hermite修正并共享精确节点0/1/2jet，实际接到.997；新桥全短段Gram5.092e−7/κ5.79934，原前缀不动。非完整BVP、连续误差认证或固定参数精化完成。
+
 - **R636（已证明，参考积分条件结清）**：[内向参考端半径与径线长度](results/R636-certified-inward-reference-radius-and-length.md)：整数三角/平方根/arcsin与两ramp的64中点显式余项，严格R∈(.53187889470968,.53187892868261)、L∈(1.28971664673515,1.28971664673518)，从而R634同真cut全角长度余>.06001464673515。绑定精确积分参考，非有限GL导数或实际非轴尾。
 
 - **R635（已证明，实际曲率约束下的g无关排除）**：[正投影反射子午线长度上界](results/R635-positive-projection-meridian-curvature-length-obstruction.md)：实际κ≤6.8、向外正投影及平圆领下，.992/R1.7673/H≤1.22必须ε>.388304，.8/R1.6/H≤1.45必须ε>.092997；允许负坡且计近等距因子。不同g也不能绕过此两组合，投影翻转等未排除；[参考表实际应用](notes/2026-11-17-parallel-numerical-outward-budget-exclusion.md)同步结清。
