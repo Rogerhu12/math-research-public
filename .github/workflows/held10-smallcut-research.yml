@@ -1,0 +1,75 @@
+name: held10 small-cut nonlinear prefixes
+
+on:
+  workflow_dispatch:
+    inputs:
+      stages:
+        description: Amplitude and mode continuation list
+        required: true
+        default: '.02:8,.04:8,.06:10,.08:10,.10:12,.12:12,.14:14,.16:14,.18:16,.20:16'
+        type: string
+      stage_timeout:
+        description: Maximum seconds per actual nonlinear solve
+        required: true
+        default: '900'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        radius: ['.30', '.35']
+        curvature: ['3.5', '5']
+        peak_fraction: ['.1', '.2']
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      RUN_RADIUS: ${{ matrix.radius }}
+      RUN_CURVATURE: ${{ matrix.curvature }}
+      RUN_PEAK_FRACTION: ${{ matrix.peak_fraction }}
+      RUN_STAGES: ${{ inputs.stages }}
+      RUN_STAGE_TIMEOUT: ${{ inputs.stage_timeout }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: topics/visible-flex-held-10pct
+          fetch-depth: 1
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numerical libraries
+        run: python -m pip install numpy==2.3.5 scipy==1.17.0
+      - name: Fetch explicit immutable source commits without data checkout
+        shell: python
+        run: |
+          import json,subprocess
+          from pathlib import Path
+          folder=Path('topics/visible-flex-held-10pct/scripts')
+          revisions=set()
+          for name in ('prefix_recovery_manifest.json','smallcut_manifest_patch.json'):
+              revisions.update(row['revision'] for row in json.loads((folder/name).read_text())['files'])
+          subprocess.run(['git','config','remote.origin.promisor','true'],check=True)
+          subprocess.run(['git','config','remote.origin.partialclonefilter','blob:none'],check=True)
+          for sha in sorted(revisions):
+              subprocess.run(['git','fetch','--depth=1','--filter=blob:none','--no-tags','origin',sha],check=True)
+      - name: Restore only named source blobs into temporary storage
+        run: |
+          python topics/visible-flex-held-10pct/scripts/recover_prefix.py --repo "$GITHUB_WORKSPACE" --dest "$RUNNER_TEMP/held10-source" --endpoints
+      - name: Solve the new bridge branch and increase amplitude
+        run: |
+          python topics/visible-flex-held-10pct/scripts/smallcut_prefix_sweep.py --repo "$GITHUB_WORKSPACE" --recovery "$RUNNER_TEMP/held10-source" --output "$RUNNER_TEMP/held10-output" --radius "$RUN_RADIUS" --curvature "$RUN_CURVATURE" --peak-fraction "$RUN_PEAK_FRACTION" --stages "$RUN_STAGES" --stage-timeout "$RUN_STAGE_TIMEOUT"
+      - name: Record only compact diagnostics and output hashes
+        if: always()
+        run: |
+          python topics/visible-flex-held-10pct/scripts/smallcut_ci_summary.py --directory "$RUNNER_TEMP/held10-output"
