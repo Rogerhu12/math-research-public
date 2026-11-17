@@ -1,0 +1,53 @@
+{
+  "scope": "Supplementary read-only low-angle-frequency filters after the full normal chart worsened the tail. This input provides only small M20 improvements; no changed-chart BVP was started.",
+  "collector_sha256": "605a769ebcf071118fa2fa99df841a1e9c43e05f55294eba7a0d2ac93894c9d3",
+  "parent_record_sha256": "83bb836eb894d6ae694468c47889471e4116c110768b78eafdb3bba5704a46fa",
+  "executed_source": "/workspace/scratch/7322d0dee069/n4_work/probe_low_normal_angle_chart.py",
+  "executed_source_sha256": "bdde9d862213a30b7a198637ec3253f8e9de169a96f1df5f0ffcf73e7961f065",
+  "helper_source_sha256": "d6c0de4b43f0ebe9abf15225abcab2f0ea6e4314f7feba12642e47e222ed023e",
+  "result_sha256": "e30277edd96700cdb269f4c63a94c03a6c5d009467c932457e49592798f22421",
+  "resource_sha256": "ae80b781b0f985f4cb87fbff7c7d76dbd30871ac5ec0f256c3acec4bc06e7878",
+  "input_checkpoint_sha256": "c2a313809017c27872593db0edda0d2c5c230b273f08383dbae097f473f23677",
+  "actual_q": 0.012488347919833637,
+  "gauge_q": 0.0125,
+  "settings": {
+    "halfwidth": 0.147,
+    "transition": 0.16,
+    "control_transition": 0.16,
+    "homotopy": 0.02,
+    "center": 0.7853981633974483,
+    "bimodal_eta": 0.1
+  },
+  "physical_control_sha256": "137180d29e73fd6af36f10b436317cbdf26404b416f630f6e63a9adf70a3c140",
+  "samples": 8192,
+  "compared_filter_orders": "1, 2, 4, 8; raw coefficients and the whole table stay in scratch",
+  "selected_M20_diagnostics": {
+    "0.02": {
+      "original_M20": 1.7378562967312005e-05,
+      "best_M20": 1.6231371758588158e-05,
+      "best_label": "filtered_2",
+      "best_to_original_ratio": 0.9339881432727412,
+      "literal_best_derivative_cosine_coefficients": {
+        "1": -0.20654557094064394,
+        "2": 0.018895366665444356
+      },
+      "literal_chart_derivative_lower": 0.7745590623939116,
+      "literal_lower_checked_with_exact_binary_fractions": true
+    },
+    "1.0": {
+      "original_M20": 0.0009093645041886576,
+      "best_M20": 0.0009023458745333608,
+      "best_label": "filtered_2",
+      "best_to_original_ratio": 0.9922818301979371,
+      "literal_best_derivative_cosine_coefficients": {
+        "1": -0.22961310913955885,
+        "2": 0.026685791074464487
+      },
+      "literal_chart_derivative_lower": 0.7437010997859765,
+      "literal_lower_checked_with_exact_binary_fractions": true
+    }
+  },
+  "child_returncode": 0,
+  "total_seconds": 14.008076760997938,
+  "limitation": "Finite sampled angular diagnostics; literal candidate coefficients define a numerical chart only. The lambda-one core is unsolved."
+}
