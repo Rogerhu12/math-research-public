@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`56ea70a807108a33c041b7734ebe730a892e46e7`。2026-11-18 03:22:02（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`389c8d97dd3afffdfb2d2d2362d58dac9b5fba42`。2026-11-18 03:26:12（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -44,6 +44,8 @@ R17非轴反射二fold须完整cos/sin/mean，不移用象限证书。R20/R22单
 R25：固定真实Q/g、完整mean+非mean有限动量，D>d/S>s/A>a可行域凸；Jac=〈A D^(−3/2)φ_iφ_j〉≥a/E^(3/2)Γ，严格单调给唯一根与显式残差→系数差界。原root的局部同伦初值若过同一门，不会换到另一正A根；不保证存在或shoot/闭合。
 
 R26：保持中心半径的三谐波最优圆弧平坦化已证，交错Lagrange权给唯一minimax；n4/a.147/q.06的系数A≈(1.524236,−.639902,.115666)，弧上误差E<8.432943e−5、全圆ρ>.0999241035。新Fraction预算实算，见R26/triple-circle-budget；第三模尚未共振，非精确圆弧/BVP/闭族。
+
+R27同原g真背景积分精证：A/wA总变差、B/wB四阶区间Simpson和48胞元深余项，432段/10034叶。λ∈[161.87100490348996,161.8710049035018]，工厂λ比真值严格高(2.0236e−11,3.2089e−11)；未改变g。部分积分/反函数/非旋转连续metric仍须支付，见background_sharp_execution。
 
 R21/R23：实际M8共享Cartesian二jet、唯一mean、有限尾/圆领/平盘形成完整C² S²；504320 prefix盒+4637尾段给全相位σ>.7/K≤10/D<2.30242/reach≥.1，相位Jac>.8399。圆领/盘metric<1.36e−29；精确等距未证，零marker的δE=0。源finite_closure/m3_m8_collar_disk、m3_m8_closed_map，R24另付固定帽。
 

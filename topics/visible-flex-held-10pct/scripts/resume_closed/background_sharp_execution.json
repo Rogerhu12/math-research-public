@@ -1,0 +1,93 @@
+{
+  "scope": "R27: outward integration of the already fixed R21 physical background, without a BVP solve or altered physical parameters.",
+  "source_sha256": "39dbbaeafe8f8b23b38e894e8cab4ec0340248545a723e2bec32ea750ca129f0",
+  "input_sha256": "f9efb5c41fc7a4e683222c86bce279d94fc5f328332c6ff21db82901a864fab9",
+  "original_tail_checkpoint_sha256": "12754098ba6cffc0abb5f0c327c7a376cac826ea8ab820b793ec5ad9b958c4f2",
+  "recovery_source": "../finite_closure/m3_m8_collar_disk/dump_background_constants.mjs",
+  "recovery_source_sha256": "4eb4a93f98987bf9371c5078d7d713ec350c8d5c3b1900bd8d2af4dfaae1a774",
+  "runtime": {
+    "python": "3.12.14",
+    "mpmath": "1.3.0",
+    "interval_decimal_digits": 60,
+    "scalar_decimal_digits": 90
+  },
+  "runs": [
+    {
+      "output_name": "m3_background_sharp.json",
+      "output_sha256": "f93e993f4e436899635b52c426df447eb4ce4cc06a9aba4dd1cc05e33805d51a",
+      "executed_source_sha256": "77cea9f7ba7c5f93b5f51ebac4d39111cf3552064ef8a2f58ff215997850bc98",
+      "command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/certify_background_sharp.py",
+        "--input",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_constants.json",
+        "--cells",
+        "48",
+        "--piece-width",
+        "1e-13",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp.json"
+      ],
+      "completed": true,
+      "exact_midpoint_hard_gate": false,
+      "leaf_panels": 2807,
+      "seconds": 20.96855841300203
+    },
+    {
+      "output_name": "m3_background_sharp_17.json",
+      "output_sha256": "ec41b3cf418b2237052c24a57004118fc4d4c9c06bb0e4e577d05732555cef76",
+      "executed_source_sha256": "77cea9f7ba7c5f93b5f51ebac4d39111cf3552064ef8a2f58ff215997850bc98",
+      "command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/certify_background_sharp.py",
+        "--input",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_constants.json",
+        "--cells",
+        "48",
+        "--piece-width",
+        "1e-17",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17.json"
+      ],
+      "completed": true,
+      "exact_midpoint_hard_gate": false,
+      "leaf_panels": 10034,
+      "seconds": 82.55698058599955
+    },
+    {
+      "output_name": "m3_background_sharp_17_guarded.json",
+      "output_sha256": "a0358af3311b198312e32a96305e53e1210cabd2c652621ef233b07dbf111294",
+      "executed_source_sha256": "39dbbaeafe8f8b23b38e894e8cab4ec0340248545a723e2bec32ea750ca129f0",
+      "command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/certify_background_sharp.py",
+        "--input",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_constants.json",
+        "--cells",
+        "48",
+        "--piece-width",
+        "1e-17",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17_guarded.json"
+      ],
+      "completed": true,
+      "exact_midpoint_hard_gate": true,
+      "leaf_panels": 10034,
+      "seconds": 91.21729555600177,
+      "actual_maximum_dyadic_depth": 32
+    }
+  ],
+  "final_certificate_output": "m3_background_sharp_17_guarded.json",
+  "final_actual_maximum_dyadic_depth": 32,
+  "guarded_and_unguarded_17_exact_interval_output_fields_identical": [
+    "complete_integrals",
+    "positive_exact_normalization",
+    "exact_background_height",
+    "cell0_inner_radius",
+    "analytic_deep_remainder",
+    "cell_integrals"
+  ],
+  "source_revision_note": "The final source adds the 128-level dyadic midpoint gate and reports actual depth. All mathematical interval endpoints equal the preceding 1e-17 run. Earlier pilot subdivision strategies were interrupted before a certificate; none is cited as an integral result.",
+  "new_nonlinear_solves": 0,
+  "nonrotational_continuous_metric_certified": false
+}

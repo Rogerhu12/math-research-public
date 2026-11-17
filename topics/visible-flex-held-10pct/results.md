@@ -18,3 +18,7 @@
 - [R25：完整有限动量根在正A图中的唯一性和残差界](results/R25-positive-chart-root-uniqueness.md)。已证明固定Q/g时D/S/A正余量域凸、完整Jac强正定，给同目标唯一根和残差到系数差的显式界；不保证任何边界都有根或完整尾。
 
 - [R26：保持中心半径的三谐波最优圆弧平坦化](results/R26-three-harmonic-centred-circle-minimax.md)。已证明唯一minimax及全圆rho/支持函数预算；给a=.147的实际有理系数界。第三物理模未共振，非精确圆弧或闭族。
+
+## R27. 同一固定背景的真积分精细区间
+
+[完整证明](results/R27-sharp-integrals-of-the-fixed-background.md)。同g的A/wA总变差与B/wB四阶区间Simpson给精细λ、真高度及深处余项，严格分辨数值工厂约2e−11至3.3e−11的归一化偏差。它是背景真积分证书；非旋转连续metric还须部分积分与反函数界。
