@@ -1,0 +1,109 @@
+{
+  "scope": "First actual nonlinear n4 prefix-tail coupled state, q=.001 eta=1 M12, still lambda=0 and not a closed surface.",
+  "command": [
+    "topics/visible-flex-held-10pct/scripts/resume_n4_tail/couple_actual_tail.py",
+    "--prefix-loader-dir",
+    "/workspace/scratch/7322d0dee069/n4_work",
+    "--source-topic",
+    "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface",
+    "--tail-source",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "--sparse-helper",
+    "topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/n4_work/large-radius-vu035-q001-m12-lam0.json.gz",
+    "--config",
+    "/workspace/scratch/7322d0dee069/n4_work/actual-n4-q005-m8-config.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-coupled-eta1-q001-v1/seed",
+    "--quadrature",
+    "256",
+    "--steps",
+    "16",
+    "--scales",
+    ".2",
+    "1",
+    "--tol",
+    "3e-7"
+  ],
+  "input_checkpoint_sha256": "69836330aa118200e54a3e5fb626ba44c032c4ae0fb82fac35edf8fab097d801",
+  "executed_script_sha256": "0b9ff4c0a9d2b8ed959fbdb2db12d1a585f4d4393f911b6ca4ab0b25b5932b53",
+  "published_script_sha256": "18d66ad927ab06f6e182a2eefaf643097f95ffefe9cde56aaa1f014109fe178b",
+  "source_change_note": "After the successful execution, only replay-source hash collection and the inherited audit scope description were added. The old scalar audit text said linear port; config.actual_nonlinear_tail, actual_outer_checks and tail_seam are the actual evidence. No equation, solver tolerance or value changed.",
+  "prefix_loader_sha256": "616f03f02c63484ef517d298a5198b14c24a1f27062e7f17bfc387f1c6ca3d2f",
+  "tail_source_sha256": {
+    "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+    "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "published_dependency_manifest_sha256": "77de15bafc3efae3538899700cfc83168e7544da9889eb13a8298938c57bf95b",
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 3.805771864018616e-12,
+      "actual_tail_residual": 1.1052828641623944e-09,
+      "tail_calls": 4
+    }
+  ],
+  "config": {
+    "modes": 12,
+    "base_mode": 4,
+    "core_kind": "reflection_axis_local_flatten_bimodal_core",
+    "angular": 768,
+    "actual_nonlinear_tail": true,
+    "fixed_metric": false,
+    "tol": 3e-07,
+    "bc_tol": 1e-08,
+    "physical_bc_tol": 1e-10
+  },
+  "physical_profile": {
+    "direction": "outward",
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    },
+    "vu": 0.35,
+    "ramp": 0.45,
+    "vd": 0.2481921107405831,
+    "delta": 0.030023164049137137
+  },
+  "warmup": [
+    {
+      "scale": 0.2,
+      "residual": 6.713171302326897e-10,
+      "converged": true,
+      "tail_calls": 1
+    },
+    {
+      "scale": 1.0,
+      "residual": 5.623277449016413e-10,
+      "converged": true,
+      "tail_calls": 2
+    }
+  ],
+  "output_sha256": {
+    "seed.json.gz": "0ca28d3b6fd1201b570cb0cc85259a15fa9acc5b81e798641e85045998dc653e",
+    "seed-tail_0003.json.gz": "8fc353ccfe1b3daa411c938def6673e368b11cfc699e5db07b33ac9950d38d0b",
+    "seed_coeff_00.npy.gz": "d67f9a5ece7a908d0e96f285162f53c4a3a9a671ab24fa57504950f8337703cb",
+    "seed-worker-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "seed-tail_0002.json.gz": "00bde07fc9b80a2ef0420f0aec365e2c7857a5e2867c54880476935766cdb124",
+    "seed-config.json": "3ea60a8422ad1d7f74d1d1b32e304179d95b5b46753a1cebbd908e513f201145",
+    "seed-worker-trace.jsonl": "39763c4b5af8e7df7b12d975bf64f102bda320a781e052bbdb1500a95b5efdd8",
+    "seed-tail_0005.json.gz": "7ef9b0a78934743a4d4f24a5827bfaa791827f22d197893a52767ea92d52617e",
+    "seed-tail_0001.json.gz": "fa7309fc8323af9dad71b46015365f9f00c6e0702969433f026b378b836a0b28",
+    "seed-tail_0004.json.gz": "c23d3ec2156014ee6e6b1d99b0db02f22e5a2c24166b0f9a4ec038589d09eef1",
+    "seed-linear-trace.jsonl": "2d18d1759cae71a71f905d74c7242b15e6f7136105618542b9b30694c02b5448",
+    "seed-summary.json": "4894344d4663a692c6be7a1bb12be2d405630d749153c31762d7fdf9bde1372a"
+  },
+  "full_field_arrays_saved_in_git": false
+}

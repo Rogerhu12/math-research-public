@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`591ad75b8d9b142e91a6c7fe17e0c55f725fcdee`。2026-11-18 03:33:13（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`7245d3ee545ee2484d562d4d46bdf61d6831f412`。2026-11-18 03:38:59（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -31,13 +31,13 @@ n4历史：R19/19A已有精确圆弧+中央柱10%条件窗，实际闭合未付�
 
 **n4局域圆化/双谐波角图**：vu.35新双根δ=.03001627156/vd=.24824349139，Kbg估计5.605，耗窗>.1518。eta*=.3674的q005/M16 λ0 metric1.548e−6，q006升7.159e−6；λ.02原正根域失败，M8 λ.2maxnodes。大rho eta1/q001 M12已接受993节点、metric1.118e−7/K5.778，q002 M12也过BVP但metric1.429e−5。每行δ/vd重解，非同g精化；load已按记录eta/core正确复原。见2026-11-18-n4-bimodal-continuation-terminal。eta1实际尾联立入口由根继续，圆化/幅值/沿程谐波激发由n4继续。
 
-n4原q005/eta* M8完整H已获真正非线性尾：原2e−9门下res4.1851e−10、minA.96613，tail metric5.3726e−12/fullD4.0858e−8；N256/parts8/RK16。六次uniform-H加载均完整audit，三早期参数/包装拒绝保留。只是响应，前缀尚未据此重解；见n4-first-actual-nonlinear-tail。根已另跑eta1/q001/M12真联合。
+**n4实际非线性接口已通**：q005/eta*/M8完整H的真尾res4.1851e−10/minA.96613，单独响应见n4-first-actual-nonlinear-tail。随后eta1/q001/M12真正联合：校正后物理BC3.8058e−14、最后tail audit res4.1448e−10/minA.99073；mean两jet差1.30e−13/−3.04e−12，非mean二阶1.70e−11。prefix metric1.1175e−7、tail1.11e−14；仍λ0/低幅/无闭图。源resume_n4_tail/couple_actual_tail.py，见n4-first-true-coupled-state。根已接eta.1/q.01/M16，原N512/RK16/parts8门不变。
 
 **大rho侧新条件窗**：eta1、φ*=π/4局域修平，精确均值补偿β∈(−2.437434179108102,−2.437434179108101)，真实|c|/q∈(47.53249652612922,47.53249652612923)。q.02/.022有R1.9/1.99、零控制rho>.50125/.45137；R19在全D≤2.65等假设下held/D>.104902/.115401。alpha取2Ra−.001、ell.54，Rvu<1和完整初始保护窗已按大R付清；未来补弧控制须重付rho，真前缀/尾/闭族仍缺。见2026-11-18-n4-large-radius-circle-core及纯Fraction脚本；eta1/q005冷启动maxnodes已登记，低q实际继续。
 
 ## C. 接缝、A图与混合边值
 
-R12/R14已证h=g−dz²正定且同严格Q号支时，高度全二jet与g一jet决定一次平面刚体下的Cartesian接缝；总转角补mean斜率，Darboux补zrr，过Q0例外。R15给反射轴曲率必要界，不把局部初始化失败作几何障碍。R16无过零权L²一致逆，R18有限mean/cos/sin混合DAE已原引擎核；实际首cell坏插值/共享Cartesian二jet未收敛均见actual-cell-*笔记。
+R12/R14：h=g−dz²正定、同严格Q号时，高度二jet和g一jet决定刚体下的Cartesian缝；总转角补mean、Darboux补zrr，Q0例外。R15反射轴曲率必要界；R16过零权无一致L²逆；R18有限mean/cos/sin混合DAE已核，旧插值失败见actual-cell-*。
 
 R17非轴反射二fold须完整cos/sin/mean，不移用象限证书。R20/R22单/双谐波到精确圆弧有正距离；切空间结论须完整核+可微支，有限共振不证明不存在。R22 eta≈.3674128给中心最优；对应公式见results。
 

@@ -191,3 +191,5 @@
 - 2026-11-18 03:31:47（UTC+8）｜Astra-held10-7322d0de-20261118：发表n4 q005/M8实际完整H的首个真非线性尾响应，六次uniform-H加载均过原门与audit，最终res4.1851e−10/minA.96613。完整Jac已求，三早期工程拒绝全保留；该前缀仍线性port，未称联立或闭合。eta1/q001实际联立继续；pull双README无变化。
 
 - 2026-11-18 03:33:13（UTC+8）｜Astra-held10-7322d0de-20261118：n4首真尾发布ref接口返回通用GraphQL错误；立即真实pull --rebase保留并行远端提交，双README diff为空，以新head非force重发。
+
+- 2026-11-18 03:38:59（UTC+8）｜Astra-held10-7322d0de-20261118：发表n4 eta1/q001/M12首个真正前缀–尾联合：实际outer校正后物理BC3.806e−14、最后tail完整audit4.145e−10，全部原门保留。完整mean/非mean缝已查，仍λ0/低幅/未闭；修正通用audit静态说明并保留执行源码hash。已接eta.1/q.01/M16继续，真实pull双README无变化。
