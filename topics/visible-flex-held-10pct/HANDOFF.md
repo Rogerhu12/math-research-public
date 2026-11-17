@@ -7,7 +7,7 @@
 构造连通闭曲面的连续 $C^2$ 等距嵌入族，固定有内点握持区 $H$，$\operatorname{diam}F_0(H)\ge0.2D$，整像 Hausdorff 变化 $\delta_{\rm hold}\ge0.1D$，含反射取商的 $\delta_{\rm E}>0$，全时 reach $\ge0.03D$。同一固定度量、物理参数和时间范围下，最大相对度量误差不超过 $10^{-6}$ 并随空间、频率、时间加密下降。材料点位移不是 $\delta_{\rm hold}$。
 
 - 已部分克隆、仅稀疏检出本题，执行真实 `git pull --rebase origin main`；根 README（含授权）和本题 README 全文已读。
-- 已读规则提交：`aed3557b9d236c24e5e9789f7354469eb5ca69f8`。2026-11-17 20:36:43（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 21:36:43；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`a29cfb179d4789950d833e253f5464256f81827d`。2026-11-17 20:37:14（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 21:37:14；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每个有意义的新结论与本文件同时更新，提交前 pull、核规则后普通 push；非快进立即 pull --rebase 再推。禁止 force push。令牌只在命令行临时使用。
 - 只有完整证明进 `results/`；数值证据和缺口分别标明。可重算数据、网格和渲染不提交，只保存生成脚本、参数、运行标识和 SHA-256；单 Markdown <100KB，本文件 <10KB。不写根 LOG。
 
@@ -29,7 +29,7 @@
 
 复现与精化：`scripts/recover_prefix.py` + `prefix_recovery_manifest.json` 定点恢复旧q18/q20开放前缀，数据仅落scratch。q18保持物理delta=.17053856686761762与角向chart不变，M10→M16的采样metric L1从1.61704e-6降到2.54853e-7；端口非均值高度仍约.00976。M24仍在计算，不宣称完成；详见 notes/2026-11-17-archived-prefix-recovery-and-fixed-g.md。
 
-小切口计算：新增 `scripts/smallcut_prefix_sweep.py` + SHA清单，把cut降至.30/.35并重算线性chart与真实非线性前缀。r=.30、curvature=4、peak_fraction=.2已在新恢复环境通过q=.02/.04/.06；q=.06 metric≈4.07e-8、κ≈4.416、端口H≈.000727。旧p=.5在更小q出现负根域失败，不是不存在证明。本题独立 `.github/workflows/held10-smallcut-research.yml` 以最多2个并发跑8个不同新桥参数，输出仅日志摘要/hash，尚未调度结果。
+小切口计算：新增 `scripts/smallcut_prefix_sweep.py` + SHA清单，把cut降至.30/.35并重算线性chart与真实非线性前缀。r=.30、curvature=4、peak_fraction=.2已在新恢复环境通过q=.02/.04/.06；q=.06 metric≈4.07e-8、κ≈4.416、端口H≈.000727。旧p=.5在更小q出现负根域失败，不是不存在证明。本题独立 `.github/workflows/held10-smallcut-research.yml` 以最多2个并发跑8个不同新桥参数，输出仅日志摘要/hash，手动dispatch被GitHub以`Resource not accessible by personal access token`拒绝（HTTP403），现改为仓库已授权的普通push/指定请求文件触发；尚无CI数值结果。
 
 三场BVP：已实现完整Gauss–Codazzi并精确约束圆领端两jet；B=.9的24控制/4模重建metric约.0289，B=.7约.444，均淘汰。低频/末端残差不随简单加密消失，详见 notes/2026-11-17-gc-complete-bvp-attempts.md。继续小切口高振幅与振荡端表示，不将有限失败升级为不存在定理。
 

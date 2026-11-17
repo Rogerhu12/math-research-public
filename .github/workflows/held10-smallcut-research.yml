@@ -1,6 +1,9 @@
 name: held10 small-cut nonlinear prefixes
 
 on:
+  push:
+    branches: [main]
+    paths: [topics/visible-flex-held-10pct/ci/smallcut-request.json]
   workflow_dispatch:
     inputs:
       stages:
@@ -36,8 +39,8 @@ jobs:
       RUN_RADIUS: ${{ matrix.radius }}
       RUN_CURVATURE: ${{ matrix.curvature }}
       RUN_PEAK_FRACTION: ${{ matrix.peak_fraction }}
-      RUN_STAGES: ${{ inputs.stages }}
-      RUN_STAGE_TIMEOUT: ${{ inputs.stage_timeout }}
+      RUN_STAGES: ${{ inputs.stages || '.02:8,.04:8,.06:10,.08:10,.10:12,.12:12,.14:14,.16:14,.18:16,.20:16' }}
+      RUN_STAGE_TIMEOUT: ${{ inputs.stage_timeout || '900' }}
     steps:
       - uses: actions/checkout@v4
         with:

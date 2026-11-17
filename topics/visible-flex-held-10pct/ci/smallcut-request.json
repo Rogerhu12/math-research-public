@@ -1,0 +1,21 @@
+{
+  "request": "Astra-held10-smallcut-matrix-v1",
+  "purpose": "Actual nonlinear continuation on eight new small-cut bridge designs; not a closed-surface claim",
+  "source_script_commit": "aed3557b9d236c24e5e9789f7354469eb5ca69f8",
+  "radius": [
+    ".30",
+    ".35"
+  ],
+  "curvature": [
+    "3.5",
+    "5"
+  ],
+  "peak_fraction": [
+    ".1",
+    ".2"
+  ],
+  "stages": ".02:8,.04:8,.06:10,.08:10,.10:12,.12:12,.14:14,.16:14,.18:16,.20:16",
+  "stage_timeout_seconds": 900,
+  "max_parallel": 2,
+  "outputs": "Only scalar diagnostics, run ID and SHA in logs; no artifacts or generated data committed"
+}
