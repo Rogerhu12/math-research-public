@@ -113,6 +113,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R634全角有理覆盖](results/R634-inward-fixed-material-full-angle-chord-budget.md)对真实.995父所有112模及固定材料Θ，以精确系数、Machin π、向外Taylor和Lipschitz支付角间距：条件R∈[.531878,.531880]、L≥1.289716、H1.8下全角chord<1.229702，余>.060014。R/L两个profile积分条件仍未认证，非实际非线性尾。
 
+[完整Jac与移动框架Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)：原坐标A正谱维数278/286，不能当法向增长支；实际有限T条件约1.256，B=(TA+T_s)T⁻¹后fast109有清楚分隔，回原系数行条件约1.001，连接/导数独立核对。只是新有限BC依据，未证明真DN或更优接受场；正在同g/同.995参照真比。
+
 **有限尾。** [best4配方与有限far32边界](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)已刊22键primitive，材料M8到λ.0014、物理M8到1e−5；[κ5重解的实际曲率反升](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)说明背景参数不替真几何。 [完整weighted Jac](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行/112项rho及S/D/L/N，[物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)跨角初猜后λ1e−4真接受；[深P0](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)到λ5e−5，直接及暖试1e−4均失败，非原far DN。[双trace新g](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两零二jet控制家族均未接受；不删浅K/mean或深端行制造成功。
 
 **实际高度、尾与补段。** [材料实际场](notes/2026-11-17-parallel-geometry-best4-material-tail.md)λ.001/.0014 Gram2.358e−7/1.420e−7，但κ7.514/8.473；[真实物理M32](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)Gram2.045397e−6超限、κ5.997643、Hφ1.13913067。φ与材料均值不可混。 [原弱高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)四种积分均约1.4e−7，裁模/强改端点后不得继承。 [实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)真F/Fr/Frr接R1.767318/H1.13918566，固定A=.003016的新g下Gram2.057397e−6；R633弱P0补长A=.15虽长度门过，实际补段仍1.627e−5。
