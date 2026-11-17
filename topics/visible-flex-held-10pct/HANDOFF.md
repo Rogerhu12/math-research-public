@@ -7,7 +7,7 @@
 连通闭曲面的连续C²等距嵌入族，固定有内点闭H，diam F₀(H)≥.2D；整像δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g/物理参数/时间范围下最大相对度量误差≤1e−6且加密下降。材料位移不是整像变化，solver success不是完成。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；仅本题及自己的workflow稀疏检出。
-- 已读规则提交：`2fa97981f7d352a0b38d0669331cd65d093dad88`。2026-11-17 22:23:25（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:23:25；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`334bba91db28debd9812040b39aafb1e30a18deb`。2026-11-17 22:26:06（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:26:06；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同步本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用。
 - 完整证明进results；数值/条件/缺口分开。可重算数组、网格、CI artifact不入Git/Release，只存源码、参数、hash。本文件<10KB、单Markdown<100KB；不写根LOG。
 
@@ -19,9 +19,9 @@
 
 复现：scripts/recover_prefix.py与prefix_recovery_manifest.json恢复源；smallcut_prefix_sweep.py建chart，smallcut_secant_launcher.py延拓，fixed_refine_smallcut.py冻结g加密，smallcut_endpoint.py导出完整均值/非均值两jet。命令/hash在smallcut_delivery_manifest.json；全部数组仅scratch。详见smallcut-high-q-and-fixed-g笔记。
 
-全Cartesian有限Fourier/共享二jet五次Hermite表示和s≤.04的解析core lift，已精确支付中心上下接缝C²。同一物理g M20→M24 metric9.9307654e−7→4.1719950e−9（238倍）。新全域区间检查含中心已覆盖843264盒、无失败：σ>.349674、半径<1.508969、witness>.3254827、8I±II严格正，另有XY径向投影及角Jac正。独立审读正在落盘，准备完整证书；这仍是开放前缀的有限表示，未证明精确等距或闭族。源码/定义及旧四次审计见cartesian-tensor-prefix笔记。
+全Cartesian有限Fourier/共享二jet五次Hermite表示和s≤.04的解析core lift，已精确支付中心上下接缝C²。同一物理g M20→M24 metric9.9307654e−7→4.1719950e−9（238倍）。新全域区间检查含中心已覆盖843264盒、无失败：σ>.349674、半径<1.508969、witness>.3254827、8I±II严格正，另有XY径向投影及角Jac正。R11完整证明及两份独立审读已发表，并由P/J正与支撑正证明上下全prefix为嵌入环带；这仍是开放前缀的有限表示，未证明精确等距或闭族。源码/定义及旧四次审计见cartesian-tensor-prefix笔记。
 
-先前浮点mesh-cover给D≤3.030641、witness≥.318244；新连续证书将替代该几何估计。若实际尾rXY≤.35、顶高≤1.526542，尚容许增高.25。R7已证明二重固定标记帽及短中央柱可使δ_E>0，含反射；当前core Re A_C>.11262048876为严格有理界，仍条件于实际闭族。
+先前浮点mesh-cover给D≤3.030641、witness≥.318244；R11已用连续证书替代该前缀几何估计（D<3.018、witness>.325）。若实际尾rXY≤.35、顶高≤1.526542，尚容许增高.25。R7已证明二重固定标记帽及短中央柱可使δ_E>0，含反射；当前core Re A_C>.11262048876为严格有理界，仍条件于实际闭族。
 
 ## B. 实际非线性DN与闭合缺口
 

@@ -1,0 +1,58 @@
+{
+  "scope": "Outward interval geometry audit of the explicit Cartesian tensor prefix.\n\nThe input binary64 shared knot jets define exact quintic Hermite functions.\nWithout --include-center the analytic center lift is explicitly excluded.\nWith that option its full interval Taylor enclosure is included. Every point\nin every radial/angular box is enclosed. No sampled Frenet root or third\nderivative is used. Even a successful full-prefix check does not certify a\nclosing tail or exact isometry.\n",
+  "success": true,
+  "covered_radial_min": 0.0,
+  "covered_radial_max": 1.9268342533178129,
+  "excluded_center_width": 0.0,
+  "center_diagnostics": {
+    "core_rho_lower": 0.32695941829679775,
+    "validated_inverse_brackets": 1536,
+    "center_delta_abs_bounds": [
+      [
+        9.212971615166665e-11,
+        2.3634885775662564e-15,
+        1.2782762303977599e-08
+      ],
+      [
+        4.804438422629531e-09,
+        1.0113982481214285e-13,
+        6.929549416363318e-07
+      ]
+    ],
+    "whole_box_delta_second_abs_bounds": [
+      0.012900906947866587,
+      4.403985302211643e-12,
+      0.14642562184254998
+    ],
+    "arithmetic": "70-digit interval elementary functions; inverse brackets independently sign-verified; second-order interval Taylor remainders."
+  },
+  "radial_boxes": 1647,
+  "angular_quadrant_boxes": 512,
+  "exact_symmetry": "x even, y odd, z even in psi; half-turn XY plus reflected quadrant images.",
+  "boxes": 843264,
+  "failed_boxes": 0,
+  "first_failures": [],
+  "bounds": {
+    "support_lower": 0.3496741894128246,
+    "radius_upper": 1.5089688121746219,
+    "witness_lower": 0.32548271752566243,
+    "area_lower": 0.2990595891179857,
+    "curvature_psd_diagonal_lower": 0.692026280569934,
+    "curvature_psd_det_lower": 4.422865495853693,
+    "planar_radial_projection_lower": 0.2990704469445402,
+    "azimuth_numerator_lower": 0.08970962836926409
+  },
+  "thresholds": {
+    "curvature": 8,
+    "support": 0.3,
+    "diameter": 3.031,
+    "witness": 0.317
+  },
+  "arithmetic": "Binary64 nextafter outward interval operations; gamma_n-enclosed finite sums; 50-digit mpmath interval trigonometry. Stored binary64 jets are exact defining constants.",
+  "data_sha256": "e8d758d74170402e3a3f9a0031a30fd47cc7bed3fc6e67c0fa848c306bf6f315",
+  "source_sha256": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+  "center_source_sha256": "80c4fdf1d6909b3a027ed81831c6ec6ae72f73ceaf9c066705e5bd087ce4846b",
+  "numpy": "2.3.5",
+  "mpmath": "1.3.0",
+  "seconds": 65.93631164500039
+}
