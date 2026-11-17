@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R633（已证明，明确固定g排除）**：[有限cuff长度门与真实端点障碍](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)：给必要误差、自由高度区间、四次斜率补长及单调高度条件；2368胞元有理包围严格排除原强b677接当前best4圆cuff，必要ε>.584839。弱P0实例虽可付长度，实际补段Gram仍超限；不同g/内向路线未排除。
+
 - **R632（已证明，实际固定组件）**：[C²半圆回头盖、凸平行体与直径](results/R632-c2-return-cap-parallel-body-and-diameter.md)：具体ramp内偏移为凸实体，补底闭面reach准确ρ，全部同盖与H≥ρ时跨盖法向弦均付；完整六jet/轴点图、真实组件OBJ源及有理diam包围。活动体接合、剩余全点对和完整闭族仍未付。
 
 - **R631（已证明，真实几何构造）**：[积分K高度、角读出与C²径向映射](results/R631-compatible-height-actual-geometry-and-C2-radial-map.md)：保存K的C¹插值可积分成C²兼容高度；径向frame/坐标积分给C²映射及真实Gram，无需h第三径向导数。curl经两次积分控制角度量误差，实际Gram正定/嵌入/reach仍须检查。
