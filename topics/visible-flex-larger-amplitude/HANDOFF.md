@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–635见results；本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)保旧结论/失败/源/SHA。[原g前缀](notes/2026-11-17-parallel-numerical-0995-continuation.md).995真Gram4.001e−7，.999未接受。[R635](results/R635-positive-projection-meridian-curvature-length-obstruction.md)实际κ6.8/正投影下排除.992/R1.7673/H≤1.22与.8/R1.6/H≤1.45，改g亦无效；旧best4另受R633。[内向新标量](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)仅真到.997，M112/M128 Gram2.754e−6/5.879e−6；.999初猜域失败、.998未接受。R634仍条件于R/L。[遗漏谱](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)全段109可达方向选27R/46T/36Z行，cond5.46e11→2.37e8；onlyZ真解中，固定a不冒rho固定。[Schur真解](notes/2026-11-17-parallel-geometry-schur-m112-accepted.md)M112 Gram2.421e−6，M128在跑。[弱mean-LP](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md#6-后续弱场-mean-lp-修正有限预算仍未接受)400步Gram6.097e−6未接受。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–635与全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向标量真到.997，M112/M128 Gram2.754e−6/5.879e−6，.998/.999未接受。Schur M112实际2.421e−6仍超门，M128在跑；onlyZ109谱边界真解中，全段可达选行cond5.46e11→2.37e8仅线性。新[短IVP目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)完整.995→.997两容差系数差1.93e−13而Gram2.111e−6，外推误差不能独自解释超门。弱mean-LP400步仍未接受。固定a依R240共用材料规范，不冒rho逐点固定；R633/635排除指定旧外向组合，R634仍条件于R/L。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 
