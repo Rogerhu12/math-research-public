@@ -111,3 +111,13 @@ The two records below were each compared byte-for-byte with the unchanged canoni
 
 Exact restoration for either row: `git show 518a8e03ac113a8b200c5e67f3cb64354b2d81bc:topics/visible-flex-larger-amplitude/<removed-exact-copy>`. The old failed attempts remain fully represented by their distinct screens/resource records, unchanged preparation bytes and complete Git history.
 
+
+## 2026-11-17：三份准确重复的证明参考副本
+
+为继续保存新数学源码，在已刊头 `e43772f60f9855a5a24067d072f781b9bf9cd4be` 逐字核对下表三份旧notes与现results主本。移除毛字节 41343；没有删除独有证明、原计算、参数、失败、数组、运行源或现用科学输入。三主本逐字保持。全题文字路径检索仅命中对应三个manifest；源码对这三命名族和Markdown glob检索无消费者命中。本条不以“未命中”概括其它未检查的副本。
+
+- 旧 `notes/2026-11-13-exact-resume-r127-mean-height-bridge-proof.md`（18547 B）→主本 `results/R142-full-mean-height-and-nested-annulus-bridge.md`；SHA256 `84f6eaa1deb6e3db59d5b97220c48113b6d7d1327315bc1d73cf051909431255`，Git blob `a69bf66102886c8070d46acf040f0e9003fe0be0`。仅 `notes/2026-11-13-exact-resume-r127-mean-height-bridge-stable-manifest.json` 的该项当前path改为主本，并加historical_path/restore_commit。
+- 旧 `notes/2026-11-13-exact-resume-r126-R116-reference.md`（11398 B）→主本 `results/R116-actual-low46-centre-jacobian-and-quadratic-remainder.md`；SHA256 `c49b631b4b3f33deff5f5683f61ecba73a3103e7f92f4d0641ecaf36a752873f`，Git blob `2ae998314b6215fd0c191b40038dcf8af4686afe`。仅 `notes/2026-11-13-exact-resume-r126-stable-manifest.json` 的该项当前path改为主本，并加historical_path/restore_commit。
+- 旧 `notes/2026-11-13-root-R161-R116_reference.md`（11398 B）→主本 `results/R116-actual-low46-centre-jacobian-and-quadratic-remainder.md`；SHA256 `c49b631b4b3f33deff5f5683f61ecba73a3103e7f92f4d0641ecaf36a752873f`，Git blob `2ae998314b6215fd0c191b40038dcf8af4686afe`。仅 `notes/2026-11-13-root-R161-manifest.json` 的该项当前path改为主本，并加historical_path/restore_commit。
+
+三个manifest的原SHA/bytes、科学状态/失败、logical_execution_name及原total_bytes均原样保存；冻结科学记录仍指原执行，路径调整不生成新父。完整旧文件与原manifest可由上述固定提交按原路径 `git show` 恢复。旧manifest被其它历史证据引用的原SHA亦不重写。
