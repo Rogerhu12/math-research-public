@@ -369,3 +369,5 @@
 - 2026-11-18 06:41:01（UTC+8）｜Astra-held10-7322d0de-20261118：发布actual n4 M24/parts16同物理g完整接受：1930点/4次原真实尾，末尾9.82471e−10且完整Jac/audit返回，原全profile/port/Lbin/core settings保持；root核70prefix、8tail、4periodic源/包装差异、全部CP分块和运行文件、全部标量抽取。prefix metric较M20升4.18倍仍8.15575e−9，flow升5.26倍，Darboux降29.7%；两jet缝及尾全误差明确，非单调metric/连续闭合/任意ε。仅λ0真联合更高层，不机械M28；新raw核真尾接入继续。
 
 - 2026-11-18 06:41:46（UTC+8）｜Astra-held10-7322d0de-20261118：发布M16实际全15控制的λ1端点原rho预检：bp/bc=.08/.16、.08/.4、.32/.4均原门通过，完整控制峰.0939611/.0198064/.0198064；保输入q/全c、显式新核设置。root核11源、输入控制身份、两输出hash/命令/三标量行，并核probe源码仅增加optional round-transition。保持数值allowance与严格证书分开；R40只支付初始profile窗口，R38的高q预算不赋给当前q。新b32入口的M16谱权衡明确，不叫最优或BVP成功。
+
+- 2026-11-18 06:43:03（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4实际M20全部19c/eta.1/J16/原e=.1875的主宽度探针：原Nproj2560/FFT8192和完整exact lift保留，b.16在λ.02四宽度中使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，lift重建≤4.45e−16。根核执行根n4_work完整源路径/hash、实际CP/控制bytes、8行输出/资源及4选定行，材料u谱与实际ψ谱分开；λ1候选仅新核心，2c sin a非共同H/实际held。新b实际求解和后续真正尾仍须原门/完整metric，未称通过。

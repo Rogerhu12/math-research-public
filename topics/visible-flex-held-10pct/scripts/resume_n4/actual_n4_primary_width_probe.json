@@ -1,0 +1,185 @@
+{
+  "scope": "Read-only width selection using all nineteen actual n4 controls and the actual frozen bimodal chart. Changed designs are unsolved. Complete exact-lift jets are retained, not discarded at the finite Fourier cutoff.",
+  "collector_sha256": "855f7170872044c157a20d6f35b152f9430c7d3bb5207ca4c1524c814e50e2cf",
+  "provenance": {
+    "scope": "Read-only primary-width probes using all actual n4 controls and its chart.\n\nOnly the baseline width/lambda is the accepted finite checkpoint. Every other\nrow is a new unsolved core design with those same physical coefficients.\nComplete reference-lift reconstruction is checked separately from finite\nFourier tails, which are numerical diagnostics and not uniform error bounds.\n",
+    "input_checkpoint_sha256": "37a7a0b90398e34ece155a00c14414b4197b24debf013ab3c8e8deabd0aee04a",
+    "source_sha256": {
+      "probe_primary_width_actual_n4.py": "37d503dcfe658e868dde85511e5b24ec7297a355c44b6cdaa6479bd435ce94d0",
+      "refine_fixed_raw_n4.py": "a753bcd1487bc9e4d3ba8281af116daacb4de460566c3f6cc43533219f068556",
+      "raw_fixed_core.py": "8d7880398f95a3e5cc52030e2b08682d46571a761060562eaff79a56e4d7c182",
+      "raw_n4_free_complementary.py": "5fbd11f9fa534af6a6871eaca3787627b15d7fea38059481afc6af64ea21efd9",
+      "raw_n4_complementary.py": "4ff42d590fa6ad5a97bf4cf7c1447041260a3aa3a23ff158d90b5f7d2f03c778",
+      "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+      "second_order_large_radius_core.py": "ea0e0e70b704d83b4c5fc3bcc13f1b84f2161fc274c898f65f498e7a9a3f0c94",
+      "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+      "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6"
+    },
+    "source_modes": 20,
+    "all_free_controls": 19,
+    "raw_anchor_modes": 16,
+    "actual_q": 0.012500427271483356,
+    "gauge_q": 0.0125,
+    "eta": 0.1,
+    "physical_profile": {
+      "direction": "outward",
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.35,
+      "ramp": 0.45,
+      "vd": 0.25018727173023186,
+      "delta": 0.030158202455449618
+    },
+    "actual_chart_warp_e": 0.1875,
+    "original_plateau_settings": {
+      "halfwidth": 0.147,
+      "transition": 0.08,
+      "control_transition": 0.16,
+      "homotopy": 0.02,
+      "center": 0.7853981633974483,
+      "bimodal_eta": 0.1
+    },
+    "samples": 8192,
+    "actual_inlet_projection_samples": 2560,
+    "physical_control_sha256": "77943d36113bf039959cf201c4a5253906f2827a6104994216136a9940b5352d",
+    "seconds": 17.85064078099822,
+    "interpretation": "Candidate scalar witnesses need a complete closed family, common H, global diameter/reach and full error control. The whole core remains in the exact reference lift; a Fourier tail measures representability rather than dropped inlet data. No changed width/lambda row is an accepted BVP.",
+    "executed_source_root": "/workspace/scratch/7322d0dee069/n4_work",
+    "executed_source_full_paths": {
+      "/workspace/scratch/7322d0dee069/n4_work/probe_primary_width_actual_n4.py": "37d503dcfe658e868dde85511e5b24ec7297a355c44b6cdaa6479bd435ce94d0",
+      "/workspace/scratch/7322d0dee069/n4_work/refine_fixed_raw_n4.py": "a753bcd1487bc9e4d3ba8281af116daacb4de460566c3f6cc43533219f068556",
+      "/workspace/scratch/7322d0dee069/n4_work/raw_fixed_core.py": "8d7880398f95a3e5cc52030e2b08682d46571a761060562eaff79a56e4d7c182",
+      "/workspace/scratch/7322d0dee069/n4_work/raw_n4_free_complementary.py": "5fbd11f9fa534af6a6871eaca3787627b15d7fea38059481afc6af64ea21efd9",
+      "/workspace/scratch/7322d0dee069/n4_work/raw_n4_complementary.py": "4ff42d590fa6ad5a97bf4cf7c1447041260a3aa3a23ff158d90b5f7d2f03c778",
+      "/workspace/scratch/7322d0dee069/n4_work/large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+      "/workspace/scratch/7322d0dee069/n4_work/second_order_large_radius_core.py": "ea0e0e70b704d83b4c5fc3bcc13f1b84f2161fc274c898f65f498e7a9a3f0c94",
+      "/workspace/scratch/7322d0dee069/n4_work/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+      "/workspace/scratch/7322d0dee069/n4_work/bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6"
+    },
+    "actual_command": "/workspace/scratch/7322d0dee069/n4_work/probe_primary_width_actual_n4.py --source-topic /workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface --checkpoint /workspace/scratch/7322d0dee069/n4_work/w016-raw-lam002-fixed-m20.json.gz --widths .08 .16 .24 .32 --lambdas .02 1 --samples 8192 --out /workspace/scratch/7322d0dee069/n4_work/raw-m20-primary-width-probe.json"
+  },
+  "resource": {
+    "scope": "Resource observation only; child source, equations and acceptance gates are not changed.",
+    "script_sha256": "6fef8581d485c3786eedd69489e907a1b16098ed0c7899a4d8e1f958246c601d",
+    "child_returncode": 0,
+    "seconds": 26.01585450499988,
+    "samples": 13,
+    "maximum_sampled_tree_rss_kib": 243076,
+    "tree_at_sampled_peak": {
+      "5": {
+        "name": "python",
+        "rss_kib": 243076,
+        "hwm_kib": 243076
+      }
+    },
+    "child_rusage_maxrss_kib": 246024,
+    "child_user_seconds": 23.140644,
+    "child_system_seconds": 0.868208,
+    "actual_command": "python -u /workspace/scratch/7322d0dee069/n4_work/probe_primary_width_actual_n4.py --source-topic /workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface --checkpoint /workspace/scratch/7322d0dee069/n4_work/w016-raw-lam002-fixed-m20.json.gz --widths .08 .16 .24 .32 --lambdas .02 1 --samples 8192 --out /workspace/scratch/7322d0dee069/n4_work/raw-m20-primary-width-probe.json"
+  },
+  "selected_diagnostics": {
+    "lambda002_original_width": {
+      "primary_transition": 0.08,
+      "homotopy": 0.02,
+      "is_accepted_checkpoint_core": true,
+      "flatten_beta": -0.6307476082725699,
+      "rho_guard_lower": 0.812927006079909,
+      "rho_sampled_min": 0.8130100095880034,
+      "circle_radius_at_lambda_one": 1.2250076908867005,
+      "arc_rho_defect": 0.04518047589608298,
+      "arc_center_variation": 0.002303776276323131,
+      "center_norm_sample": 0.23907466706198785,
+      "original_core_difference": 0.0,
+      "complete_lift_reconstruction": {
+        "F": 1.1102230246251565e-16,
+        "F_psi": 1.1102230246251565e-16,
+        "F_psipsi": 2.220446049250313e-16
+      },
+      "actual_psi_Fpsipsi_fft_l1_above_81": 0.00025013871567913825,
+      "actual_psi_Fpsipsi_fft_l1_above_97": 0.00013923591108403225,
+      "material_Fuu_fft_l1_above_81": 0.0026905624694003303,
+      "reference_lift_Fpsipsi_max": 0.00013491980374565407
+    },
+    "lambda002_selected_new_width": {
+      "primary_transition": 0.16,
+      "homotopy": 0.02,
+      "is_accepted_checkpoint_core": false,
+      "flatten_beta": -1.2015450382386506,
+      "rho_guard_lower": 0.8128344672330247,
+      "rho_sampled_min": 0.8128673053528026,
+      "circle_radius_at_lambda_one": 1.2250076908867005,
+      "arc_rho_defect": 0.04518047589608298,
+      "arc_center_variation": 0.002303776276323131,
+      "center_norm_sample": 0.23908666861202138,
+      "original_core_difference": 0.0009146545049738553,
+      "complete_lift_reconstruction": {
+        "F": 1.1102230246251565e-16,
+        "F_psi": 1.1102230246251565e-16,
+        "F_psipsi": 2.220446049250313e-16
+      },
+      "actual_psi_Fpsipsi_fft_l1_above_81": 3.1494208878664996e-05,
+      "actual_psi_Fpsipsi_fft_l1_above_97": 1.658532776717107e-05,
+      "material_Fuu_fft_l1_above_81": 0.0026554737577923326,
+      "reference_lift_Fpsipsi_max": 1.5789604840848776e-05
+    },
+    "circle_candidate_original_width": {
+      "primary_transition": 0.08,
+      "homotopy": 1.0,
+      "is_accepted_checkpoint_core": false,
+      "flatten_beta": -0.6307476082725699,
+      "rho_guard_lower": 0.8018216188206307,
+      "rho_sampled_min": 0.8052532817628952,
+      "circle_radius_at_lambda_one": 1.2250076908867005,
+      "arc_rho_defect": 0.0,
+      "arc_center_variation": 1.5700924586837752e-16,
+      "center_norm_sample": 0.24000566526037326,
+      "original_core_difference": 0.03370025528511478,
+      "complete_lift_reconstruction": {
+        "F": 1.1102230246251565e-16,
+        "F_psi": 1.1102230246251565e-16,
+        "F_psipsi": 2.220446049250313e-16
+      },
+      "actual_psi_Fpsipsi_fft_l1_above_81": 0.011955971096869227,
+      "actual_psi_Fpsipsi_fft_l1_above_97": 0.006791365030837123,
+      "material_Fuu_fft_l1_above_81": 0.0066520545594944795,
+      "reference_lift_Fpsipsi_max": 0.006284551505813587
+    },
+    "circle_candidate_wider_primary": {
+      "primary_transition": 0.24,
+      "homotopy": 1.0,
+      "is_accepted_checkpoint_core": false,
+      "flatten_beta": -2.0782849858558703,
+      "rho_guard_lower": 0.7867055247774329,
+      "rho_sampled_min": 0.7871584460516614,
+      "circle_radius_at_lambda_one": 1.2250076908867005,
+      "arc_rho_defect": 0.0,
+      "arc_center_variation": 1.5700924586837752e-16,
+      "center_norm_sample": 0.2413250672048633,
+      "original_core_difference": 0.059693218754720334,
+      "complete_lift_reconstruction": {
+        "F": 1.1102230246251565e-16,
+        "F_psi": 1.1102230246251565e-16,
+        "F_psipsi": 2.220446049250313e-16
+      },
+      "actual_psi_Fpsipsi_fft_l1_above_81": 0.00128824205018449,
+      "actual_psi_Fpsipsi_fft_l1_above_97": 0.0002805693832693227,
+      "material_Fuu_fft_l1_above_81": 0.003241666539625815,
+      "reference_lift_Fpsipsi_max": 0.0008056412057482036
+    }
+  },
+  "selection_rule": "Choose the smallest sampled actual-psi second-jet tail above the M20 vector cutoff at the original lambda=.02, among four tested primary widths.",
+  "selected_width": 0.16,
+  "full_probe_rows": 8,
+  "original_to_selected_tail_ratio": 0.12590697442879545,
+  "original_to_selected_reference_jet_ratio": 0.11702955683670255,
+  "raw_probe_sha256": "bf700d4c8cf97c43d23bf565ff4b41d67a87974e17cf5206c5c71243a877103b",
+  "resource_sha256": "94bcaf945bfc3576dd1bbac37cd96da068e0cbab5f3ad4c99956dc3d55c1ddc6",
+  "data_policy": "Only four selected scalar comparisons and source/input/output hashes. All sampled fields and the full regenerated eight-case table remain scratch-only.",
+  "geometry_limit": "The optional 2*c*sin(a) quantity in the raw scratch probe is a maximal-phase scale only. No common-H budget, actual held displacement, closed diameter, reach or non-Euclidean witness is asserted."
+}

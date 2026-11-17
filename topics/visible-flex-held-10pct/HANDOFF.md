@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`4e637aaa036c6b229d64fbda944ce42008e73651`。2026-11-18 06:41:46（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`5d1e8dc36d920e0fe16f8e42de3ba4fd8971e5a8`。2026-11-18 06:43:03（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -22,7 +22,7 @@ R30周期复用/同μ缓存不改方程与2e−9原门。n4 actualM20/576stage/9
 
 旧wCut=.16非raw幅值线：q.01/.0125有限metric通过，q.015/M20径向加密仍1.20586e−5平台；同g/M24句柄失效无终态，见n4-w016-q015-radial-plateau、n4-q015-m24-observation-gap，暂先付raw/actual。
 
-新w16/q0125 raw：固定J16/mean/free c8路径λ.02/.05有限metric2.41705e−6/6.95343e−6均失败；canonical及旧低幅失败均已登记。冻λ.02整g(δ=.030158202455449618/vd=.25018727173023186/eta.1)释放c8后M20/2282点metric升3.43423e−6、tensor.0160166。峰s=.066873/K<0/频84，54.27%在80外；全配点cond1估计4.278e12，参数H²变元4.383e12无改善。M24真终态：4460点/欲再加4906超6000，RMS.0032079/BC4.334e−6，39域拒绝/26merit/5接受/2no_step；无accepted M24/未算完整metric，失败CP仅初值。见n4-raw-lambda002-fixed-m24-terminal及此前free-c8、localization、parameter-and-collocation-scales；不重复白化或盲升M28。新主b=.16原源重试正在进行。
+新w16/q0125 raw：固定J16/mean/free c8路径λ.02/.05有限metric2.41705e−6/6.95343e−6均失败；canonical及旧低幅失败均已登记。冻λ.02整g(δ=.030158202455449618/vd=.25018727173023186/eta.1)释放c8后M20/2282点metric升3.43423e−6、tensor.0160166。峰s=.066873/K<0/频84，54.27%在80外；全配点cond1估计4.278e12，参数H²变元4.383e12无改善。M24真终态：4460点/欲再加4906超6000，RMS.0032079/BC4.334e−6，39域拒绝/26merit/5接受/2no_step；无accepted M24/未算完整metric，失败CP仅初值。见n4-raw-lambda002-fixed-m24-terminal及此前free-c8、localization、parameter-and-collocation-scales；不重复白化或盲升M28。原全19c/eta.1/J16/e=.1875主b探针中，λ.02的b.16使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，全lift仍保留；见n4-actual-core-primary-width-probe。新b.16同源重启正跑，原会话仅观测丢失。若完整metric过门即接真正非线性尾。
 
 R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几何待付。旧低幅lambda.1/.15虽有限接受但metric失败，.2/.175节点门失败，见n4-low-amplitude-circle-terminal；非丢入口lift或不存在。eta1/q001/M12真正锚点见n4-first-true-coupled-state。
 
@@ -44,7 +44,7 @@ R21/R23定义原有限C²闭图和全mean接缝，R24固定帽排全O(3)。R28�
 
 同checkpoint尾32→64步真实R metric降12.66倍，但二阶层差.00629485未证C²极限。R27区分真背景积分；R29尾operator≤9.996590773606874e−7、R31前缀<8.253e−7，真积分/舍入/唯一共用atlas已付。
 
-**低幅全闭图全域全时metric<1e−6已证，但held不足.1；无精确无限解证明。** 高幅积分core保一次全lift/中心Hermite，canonical端到端metric3.96924e−4失败见m3-integral-core-first-accepted-interface-check。raw E/F/G峰s=.096922/.107975/.127529，E=8.3004e−5且24/27频显著，见m3-raw-prefix-component-peak-spectrum。R36严格给该实际raw核全角rho∈(.6611264617,1.3386894072)、15点真反函数误差<2.404e−14及Γ前三jet源误差界；R37已证全角G/G′/T/T′余项<5.820e−12/2.330e−9/1.823e−9/4.184e−6，真积分/Taylor全覆盖与IEEE误差均付。R39以1003段精确Bernstein付全径向系数/中心角差/真实atlas，归一化微分余项ε<5.940838571e−9；仅若同图有限主部metric≤9.88118311e−7才推出真图<1e−6。主部门未算、当前M8仍不合格；尾闭合未付，不搬到新c。
+**低幅全闭图全时metric<1e−6已证，但held不足.1，无精确无限解证明。** 高幅canonical/raw M8完整metric失败及峰位置/频谱见m3-integral-core-first-accepted-interface-check、m3-raw-prefix-component-peak-spectrum。R36给旧actual raw M8真积分/反函数oracle，R37全角G/G′/T/T′余项<5.820e−12/2.330e−9/1.823e−9/4.184e−6（真积分/Taylor/IEEE均付）；R39以1003段精确Bernstein及固定真实atlas得微分余项ε<5.940838571e−9。仅若同图有限主部metric≤9.88118311e−7才推出真图<1e−6；该门未算、当前M8仍坏、尾闭合未付，数值不搬到新c。
 
 ## 4. 其他登记结论
 
