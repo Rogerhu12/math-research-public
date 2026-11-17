@@ -37,6 +37,9 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     hi = json.load(gzip.open(a.high_prefix, 'rt'))
     cfg = dict(hi['tail_config'])
+    for key in ['initialCheckpoint','secantCheckpoint','designInitialCheckpoint',
+                'traceFile','geometricAmplitudePredictor']:
+        cfg.pop(key,None)
     if a.tail_steps is not None:
         cfg['steps'] = a.tail_steps
         cfg['auditSteps'] = a.tail_steps
