@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 19:34:19 UTC 真实 pull 后核双 README，无新差异，已读提交 a2948681bf2c8892b2243178cc61f859ffcfb810。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 19:55:09 UTC 真实 pull 后核双 README，无新差异，已读提交 2ff1d10f1b45dccc8063bf8659eca943049f982f。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)含全部证明/失败/来源和未付。[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)同26e53全818胞/819片连续Gram<4.94e−7已付，曲率58085保原计划续跑，model唯一读者。927f/8fa6原LM20/20未收敛；bf5a共同C² Gram8.01546e−5、node3.62218e−5，唯一镜像首胞亦同坏节点，非父。[新T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)0f/99082复用2754方向0/7aff，后续512、总24/20，numerical唯一终态。R647新增直接Gram/T的完整rho交叉列矩、U0=ez与964边界rank、mask后482阶投影；root85c完整准备已实返，结果接刊，无Gram solve。R10直接消费/R632共同中心障碍已刊，R649同26e53/hold旧段严格负普通支持，任意中心均不能套R10；R650 SPD流reach≥min(σ/λmax,1/K)已证，实际闭图输入未付。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)保存全历史/失败/未付。[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全818胞/819片连续Gram<4.94e−7；全曲率686/818、加权支持249/819在环境中断后仅补缺，model唯一读者。原927f/8fa6和bf5a C²未达标；T-Pr0f原24/20预算已8接受，432乘积未完成本保，numerical按原--resume。R647新完整Gram-T [85c实际准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)1158250行/964边界、70c尺度及伴随核实；U0只158负零符号变化。513唯一方向已实返待刊；独立Gram预算efe92接续，不改Pr门。R649排同pulse/hold普通支持任意中心；R650 SPD流reach定理已付，实际闭尾/帽尚缺。闭面/D/H/held/反射E3/reach/全t/同g精化均未付。
 
 ## 实际活动run与唯一终态读者
 
