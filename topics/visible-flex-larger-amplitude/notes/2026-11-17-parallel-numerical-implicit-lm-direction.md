@@ -92,3 +92,38 @@ python math-research-public/topics/visible-flex-larger-amplitude/scripts/paralle
 ```
 
 去掉 `--execute-direction` 只作准备。运行前后校验所有冻结源，报告含 SciPy LSMR 文件 SHA；所有 raw/数组留 scratch。普通 FFT、QR、列范数、LSMR 数值不是区间证书；只有明确标出的 BB 整数秩步骤使用准确算术。报告计时/平台字段可能使重跑后的文件 SHA 不同。
+
+## 唯一 LM 满步的原 8192 物理审计
+
+固定读取方向文件 `parallel-implicit-lm-direction-once.direction.npz`（SHA256 `5629db05e0cc7b014c6eb4375badb35ea1d408f40d8cdbccef88122e6150798e`），验证其中 Y/U 与原 `1662` warm 逐位相同，只对 `Y+dY,U+dU` 调用一次未改的 `P.physical_samples`。没有新求解、其他 alpha 扫描或初始 warm 重审。
+
+602 个节点、601 个实际公共三次中点均用 8192 角采样。结果为：
+
+| 指标 | 实际值 | 返回的极值位置 |
+|---|---:|---|
+| rho 最小 | .16601843096428737 | 原接口未返回角 argmin |
+| Q 最小 | .027562119419843777 | node0，s=0，phi=0 |
+| W 最小 | .0002193157012722163 | node569，s=1.0233471879626843，phi=3.124718864923051 |
+| H 最小 | .00021257030236521406 | 同上 |
+| 正分支 normal velocity 最小 | .014579874862806463 | 同上 |
+| 实际公共三次 relative Gram 最大 | .0008046486684836207 | midpoint600，s=1.029958740822432，phi=pi/2 |
+
+三组未保留二次频率 `j=161..320` 的系数最大绝对值分别为 `1.9024043994e−6 / 1.5696292581e−5 / 1.2763603799e−6`，共 480 个未保留标量模式；原审计接口只返回其最大值，没有返回对应节点/模式 argmax，不能把它们归到 Gram 最坏点。
+
+所有已采样 rho/Q/W/H/normal 门通过，原 BC 实际剩余 `9.71445e−17`。但 raw 点约束三组最大值为 `.0013459734/.0056061525/.0008046487`。与原已存 preparation audit 的初始 Gram `7.50500727e−6` 相比，本次 Gram 增大，虽然完整 retained raw SSE 降低约 64.4%。这是降低兼容行与暂时增加单位速度误差的具体权衡；不能由 raw SSE 下降宣布几何改善。没有重运行初始审计；旧数据取自 `parallel-model-implicit-frenet-602-preparation.json`。
+
+本条仍只是唯一代数试点的有限节点/中点读出，不是全角全径向证书或 C2 几何。公共三次的二阶径向导数可能跳；未来真实 C2 必须使用其明确共同二阶 jet 并重新读出。
+
+[已刊读出源](../scripts/parallel_20261117_implicit_lm_physical_audit.py)，2039 B，SHA256 `839cd50d09aa19a1117b4c9846152bedf5959ab759d4cb6b296d7a4530944010`。报告 `parallel-implicit-lm-fullstep-physical.json` SHA256 `ebb364fee7e9a8d5fdfb587a1d89c440f4159862c8453105edf07dcf06c6fd84`；满步 Y/U binary SHA `759471bd87f8d856407750f80b6b794031689a6a1135d41260e5de80874a6f5b`。本次耗时 4.96074 s，raw 留 scratch。
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+python math-research-public/topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_lm_physical_audit.py \
+ --topic math-research-public/topics/visible-flex-larger-amplitude \
+ --problem-source math-research-public/topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_newton.py \
+ --warm parallel-hold-m160-short-bvp-warm.json.gz \
+ --polynomial-source math-research-public/topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_probe.py \
+ --matrix-source math-research-public/topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_matrix_free.py \
+ --direction parallel-implicit-lm-direction-once.direction.npz \
+ --out parallel-implicit-lm-fullstep-physical.json
+```
