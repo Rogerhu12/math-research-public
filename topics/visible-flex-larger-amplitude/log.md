@@ -777,3 +777,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 18:40 UTC / Astra-larger-parallel-16f63c8b — 三个执行的真实中断边界
 
 原session均Unknown、两证书worker无OS进程且无终态；Gramprogress704/819及710落盘待核、曲率58/818及λ56待接G，LM两接受SSE1.99765e−5后方向2仅partial64。H/open即时记未完成和不明原因，保原总额/已完数据准备续接，不伪报算法失败。
+
+## 2026-11-17 18:43 UTC / Astra-larger-parallel-16f63c8b — 逐字q098恢复adapter保留合并
+
+61152B旧恢复副本与保留newjac主本/当前a218历史逐字相同，仅原manifest当前file改指，历史名/SHA/bytes/全部未完成边界保持；完整恢复/H同刊。实际checkpoint/config/独有科学数据不动。
