@@ -7,7 +7,7 @@
 构造连通闭曲面的连续C²等距嵌入族，固定有内点的闭H，diam F₀(H)≥.2D；整像Hausdorff变化δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g、物理参数和时间范围下，最大相对度量误差≤1e−6且加密下降。材料点位移不是δ_hold；优化success不是数学完成。
 
 - 已部分克隆并真实pull main，根README（含授权）和题README全文已读。仅本题及其workflow稀疏检出。
-- 已读规则提交：`b3a6d2f07fb0e046014ce9515e64488b7177cd07`。2026-11-17 21:46:48（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:46:48；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`59692604c03f8497c1cec9e9a6834643755e49d5`。2026-11-17 21:48:58（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:48:58；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同时更新本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用，不存文件。
 - 只有完整证明进results；数值证据、条件假设与缺口分别写明。可重算数组/网格/渲染/CI artifact不提交，只存脚本、参数、运行ID/hash。单Markdown<100KB，本文件<10KB；不写根LOG。
 
@@ -32,6 +32,8 @@
 [R5](results/R5-degenerate-inlet-local-arc-uniqueness.md)用完整加权能量在精确C³前缀假设下支付退化入口圆弧保持和传播角窗，保留−M²Nu/N²项；不适用于任意C²有限插值。R6用三阶矩、三重标记帽和短中央柱证明有严格几何余量的精确族可获δE>0，包括反射；仍须真实前缀/尾。
 
 [R8](results/R8-positive-band-circle-obstruction.md)由Ghomi–Spruck原定理严格推出：若精确圆弧旋转片真的进入完整正K环带，则周期性强制k为整数，嵌入强制k=1。R2核心k=.5和R.25核心k=4都受此条件障碍；但从K=0边界进入正K内部的退化唯一延拓仍未证明，不能据此宣称旧profile或本题不可能。正在保持H后增加负K段，以先耗尽R5已保证的保护窗，再解全BVP。
+
+[R9](results/R9-consumed-circle-window-and-background-curvature.md)给已完全定义的新C³轮廓：保持s≤.42原g，额外加速.17→.38；首个正K带前特征损耗严格>1560443/1692724>.92>.9。末端r=.6/w=.5两jet不变；标准库Fraction/Bernstein证得旋转背景κ≤55/8。仅支付轮廓/背景；非圆全BVP、真实圆弧是否消失仍未证。
 
 true_a_analysis正在做精确core lift、圆弧外支撑基及全Frenet BVP。简单exact-lift λ1/M4有限根metric≈.00805，同gM6未通过；9858阶真实collocation Jacobian的terminal Schur虽数值满秩，归一化条件数约4.27e8。新局部密切圆参考亦未通过同g高模检查；最小源码/恢复闭包与完整有限Schur诊断已保存scripts/plateau及plateau-core-lift-and-schur笔记。无精确全局prefix存在结论。有限投影不等于精确圆弧；最终离散H可用固定cutoff在R5域内修回显式片，但必须先有C²收敛和修正误差界。
 

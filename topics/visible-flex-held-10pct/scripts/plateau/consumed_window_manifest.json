@@ -1,0 +1,47 @@
+{
+  "scope": "Exact profile/background/characteristic theorem R9 only; no noncircular prefix existence claimed.",
+  "source_files": {
+    "consumed_window_profile.py": {
+      "bytes": 7588,
+      "sha256": "80631d91bc07d8b3d778ebbce5d06383a15ce3044c7c12d99d6c79351769bd98"
+    },
+    "consumed_window_curvature_bound.py": {
+      "bytes": 4062,
+      "sha256": "bc8e965145cbf04e17a1e94b79e2df06851d77d62ea730078a940c407ea2fecf"
+    }
+  },
+  "exact_certificate": {
+    "scope": "Exact rational interval/Bernstein check for the final velocity Hermite piece.\nCertifies only a meridian background curvature bound for the stated metric.\n",
+    "characteristic_v38_lower_bound": "1560443/1692724",
+    "characteristic_v38_lower_bound_decimal": 0.9218531786635034,
+    "characteristic_v38_lower_exceeds": "23/25 > 9/10",
+    "cut_velocity_interval": [
+      "-894427190999915879/1000000000000000000",
+      "-447213595499957939/500000000000000000"
+    ],
+    "final_length": "1/5",
+    "final_acceleration": "28/15",
+    "curvature_bound": "55/8",
+    "certified_polynomial": "(55/8)^2 L^2 (1-v(t)^2) - v_t(t)^2 > 0 on [0,1]",
+    "degree": 10,
+    "bernstein_subdivision_max_depth": 1,
+    "bernstein_positive_leaf_count": 2,
+    "global_positive_lower_bound": "18370617919862606268827656970590251348059/265420800000000000000000000000000000000000",
+    "global_positive_lower_bound_decimal": 0.06921318118196693,
+    "velocity_range_enclosure": [
+      "-377985949556161118903551643/402653184000000000000000000",
+      "-3/5"
+    ],
+    "velocity_range_decimal": [
+      -0.9387382605576543,
+      -0.6
+    ],
+    "exact_rational_arithmetic": true
+  },
+  "command": [
+    "python",
+    "scripts/plateau/consumed_window_curvature_bound.py",
+    "--out",
+    "SCRATCH/consumed-window-certificate.json"
+  ]
+}
