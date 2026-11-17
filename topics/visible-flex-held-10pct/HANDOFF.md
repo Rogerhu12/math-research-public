@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`85fa7ee41d3576be0172d632a3012741787e0c58`。2026-11-18 07:34:01（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`81577fc377db84a869ee453f7290e4b3a11032df`。2026-11-18 07:41:26（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20完整有限metric已过门**：2282点、18个α1步/无域或merit拒绝；metric8.91017947e−7、flow8.88822e−6、Darboux.00415666；qactual=.012488347919833637。保全19c/free c8/J16、eta.1、δ=.030158202455449618/vd=.25018727173023186/vu=.35/wCut=.16；改核非精化。仍linear DN且非精确圆弧；见n4-primary-width-b016-m20。旧29520仅观测丢失；v2独立观察器真实exit0。该核首actual尾冷起.2H于iter8原线搜索失败1.1391523e−8，parts16/M20/N512；0接受尾/未入prefix。见n4-raw-b016-actual-parts16-terminal。原1152段重放逐位同：stage18/mode76为23ULP，邻19/20及22多峰超门，minA位置不主导。见n4-raw-b016-tail-residual-location。单峰初值(+3ULP)后原DN至8.02443e−9仍失败，见n4-raw-b016-single-relaxation-terminal。新态原重放主峰19/mode76为8ULP，邻20为7ULP，改node19不影响row20；见relaxed-tail-location。多峰8候选无严格改善、原DN未重调，见multipeak-initializer-terminal。该失败态已转.5H/fullH原请求55129，不把.2H当必需端点。
+**新主b=.16/λ=.02/M20完整有限metric已过门**：2282点、18个α1步/无域或merit拒绝；metric8.91017947e−7、flow8.88822e−6、Darboux.00415666；qactual=.012488347919833637。保全19c/free c8/J16、eta.1、δ=.030158202455449618/vd=.25018727173023186/vu=.35/wCut=.16；改核非精化。仍linear DN且非精确圆弧；见n4-primary-width-b016-m20。该核首actual尾冷起.2H于iter8原线搜索失败1.1391523e−8，parts16/M20/N512；0接受尾/未入prefix。见n4-raw-b016-actual-parts16-terminal。原1152段重放逐位同：stage18/mode76为23ULP，邻19/20及22多峰超门，minA位置不主导。见n4-raw-b016-tail-residual-location。单峰初值(+3ULP)后原DN至8.02443e−9仍失败，见n4-raw-b016-single-relaxation-terminal。新态原重放主峰19/mode76为8ULP，邻20为7ULP，改node19不影响row20；见relaxed-tail-location。多峰8候选无严格改善、原DN未重调，见multipeak-initializer-terminal。该失败态已转.5H/fullH原请求55129，不把.2H当必需端点。
 
 同全19c/e=.1875的主b探针使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。原b.08 raw λ.02/M16完整metric2.41705e−6，固定g/M20升3.43423e−6、tensor.0160166；峰s=.066873/频84。完整配点cond1约4.278e12，参数H²白化无改善。M24原节点门终止：4460点欲加4906超6000、RMS.0032079，无accepted M24或完整metric；失败CP仅初值。见n4-raw-lambda002-fixed-m24-terminal、free-c8、localization、parameter-and-collocation-scales，不重复白化或盲升M28。
 
@@ -38,7 +38,7 @@ R30共享engine原576段/990760标量逐位同值、576→8。旧q.0175/q.015及
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支**：beta4.625/q.040联合metric6.91e−9/tail1.3768e−9。q.060旧首尾/邻数失败已登记；局部flow初值使旧H尾原门1.993008435e−9接受/208Jac。36748续跑call1/2过，新H call3原线搜索3.2413445e−9失败；原576段逐位重放stage45/mode12=70ULP、stage43/mode15=3ULP，最低A非峰。原控制流证明临时内解success，但未存p/sol、无最终prefix/metric；见m3-q060-resumed-prefix-new-height-tail-failure。正在同请求原worker恢复及inner dump新入口，不从H反推失场或改门。
+**q060高幅支**：beta4.625/q.040联合metric6.91e−9；q.060旧H局部初值获原尾1.993008435e−9/208Jac。36748新H call3原门失败3.2413445e−9，stage45/mode12=70ULP、stage43/mode15=3ULP；临时inner success但未存p/sol，无最终prefix。见m3-q060-resumed-prefix-new-height-tail-failure。三版内部候选23/27/72次均0改善、未重调DN；最小1ULP仍推高邻行，二节点最好3.76014e−9。原worker恢复/原cubic及DN锚点保存入口已备，尚无成功恢复E2E，见q060-original-worker-recovery-and-local-candidate-failures。停止该局部变体族；同H原生parts8→16检查另记，不改门、不从H反推失场。
 
 ## 3. 全闭表示与严格连续metric
 

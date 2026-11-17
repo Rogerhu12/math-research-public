@@ -1,0 +1,340 @@
+{
+  "scope": "Finite initial-candidate failures and a prepared original-worker recovery interface; no new DN acceptance or coupled prefix.",
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0003.json.gz",
+    "sha256": "6059334fa00c9fe6ce4bca788dff852f4da0988b920c5ad7e7f22b7fad65e35b"
+  },
+  "locator": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/call3-locate.json",
+    "sha256": "7f64fdb1bf18c455318ce507bb9d131fe62a3c10cab6bb69c98da2dc27b73e63"
+  },
+  "original_source_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc"
+  },
+  "runs": [
+    {
+      "version": "v1",
+      "execution": {
+        "session": 62324,
+        "terminal_chunk": "73e06a",
+        "exit_code": 0,
+        "seconds": 18.352213218999996
+      },
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate.mjs",
+        "sha256": "ee39a1a4d9e7fe5b45379d6398e7ac53b4e2eae40e64b9d393ea9d597e8374be"
+      },
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0003.json.gz",
+        "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate.json.gz",
+        "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-summary.json",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/call3-locate.json"
+      ],
+      "summary": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-summary.json",
+        "sha256": "a0cd44046298eb99d33794c4c61115e87fa6e5b92d7dedf1c0b9c6e5c8bd9b5c"
+      },
+      "candidate": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate.json.gz",
+        "sha256": "23848b4a1c0dd9e3ad566c26108908ad4cbd35a69f83e2c3126f08b605abf0d6"
+      },
+      "alphas": [
+        0.125,
+        0.25,
+        0.3125,
+        0.3333333333333333,
+        0.375,
+        0.5,
+        0.75,
+        1
+      ],
+      "betas": [
+        0.125,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "max_passes": 16,
+      "maximum_trials_per_pass": 48,
+      "actual_passes": 1,
+      "actual_trials": 23,
+      "selected_passes": 0,
+      "before": {
+        "norm": 3.241344522795531e-09,
+        "minA": 0.5220201871565618,
+        "minD": 0.9991195608484377,
+        "boundary_norm": 2.5533258603093732e-14
+      },
+      "final_full_replay": {
+        "norm": 3.241344522795531e-09,
+        "minA": 0.5220201871565618,
+        "minD": 0.9991195608484377,
+        "matches_local_predicted_norm": true,
+        "boundary_norm": 2.5533258603093732e-14
+      },
+      "best_tried_nonaccepted": {
+        "alpha": 0.125,
+        "beta": 0,
+        "norm": 4.1940029467591604e-09
+      },
+      "complete_internal_states_unchanged": true,
+      "strict_full_replay_improvement": false,
+      "original_solver_invoked": false,
+      "solver_success": false,
+      "stopped": "no strict local full-score improvement"
+    },
+    {
+      "version": "v2",
+      "execution": {
+        "session": 80768,
+        "terminal_chunk": "4a6316",
+        "exit_code": 0,
+        "seconds": 21.648429485
+      },
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate_v2.mjs",
+        "sha256": "429792b49753570f77a56ab9fac8b66b96d32278bac2cb7a2d1c328be79da7a1"
+      },
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate_v2.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0003.json.gz",
+        "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v2.json.gz",
+        "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v2-summary.json",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/call3-locate.json"
+      ],
+      "summary": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v2-summary.json",
+        "sha256": "b45fb659534dd0690e55a595264af4fd814bf009240649df54bf925f064d897e"
+      },
+      "candidate": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v2.json.gz",
+        "sha256": "7f2fd1c6504c8b4b75a84ccd748e306bdd937d13ff4d6532dbd723ceacb342cd"
+      },
+      "alphas": [
+        0.0078125,
+        0.015625,
+        0.03125,
+        0.0625,
+        0.125,
+        0.25,
+        0.3125,
+        0.3333333333333333,
+        0.375,
+        0.5,
+        0.75,
+        1
+      ],
+      "betas": [
+        0.125,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "max_passes": 16,
+      "maximum_trials_per_pass": 72,
+      "actual_passes": 1,
+      "actual_trials": 27,
+      "selected_passes": 0,
+      "before": {
+        "norm": 3.241344522795531e-09,
+        "minA": 0.5220201871565618,
+        "minD": 0.9991195608484377,
+        "boundary_norm": 2.5533258603093732e-14
+      },
+      "final_full_replay": {
+        "norm": 3.241344522795531e-09,
+        "minA": 0.5220201871565618,
+        "minD": 0.9991195608484377,
+        "matches_local_predicted_norm": true,
+        "boundary_norm": 2.5533258603093732e-14
+      },
+      "best_tried_nonaccepted": {
+        "alpha": 0.125,
+        "beta": 0,
+        "norm": 4.1940029467591604e-09
+      },
+      "complete_internal_states_unchanged": true,
+      "strict_full_replay_improvement": false,
+      "original_solver_invoked": false,
+      "solver_success": false,
+      "stopped": "no strict local full-score improvement"
+    },
+    {
+      "version": "v3",
+      "execution": {
+        "session": 50321,
+        "terminal_chunk": "411bd3",
+        "exit_code": 0,
+        "seconds": 18.679909427
+      },
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate_v3.mjs",
+        "sha256": "b7a8281b12b17c403edc7ba59adf1a7ee72f84a61e8beed0e2562c354dffdcb7"
+      },
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate_v3.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0003.json.gz",
+        "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v3.json.gz",
+        "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v3-summary.json",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/call3-locate.json"
+      ],
+      "summary": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v3-summary.json",
+        "sha256": "9375a6a83afb60d19451282a12467a298c06e5ffaaaa9698776d8e331fbeb040"
+      },
+      "candidate": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-internal-candidate-v3.json.gz",
+        "sha256": "9e6c8ca669edf0ad67fccee9911e1bad14bc3cad5059bf8a458b944ea33f22d7"
+      },
+      "alphas": [
+        0.0078125,
+        0.015625,
+        0.03125,
+        0.0625,
+        0.125,
+        0.25,
+        0.3125,
+        0.3333333333333333,
+        0.375,
+        0.5,
+        0.75,
+        1
+      ],
+      "betas": [
+        0.125,
+        0.25,
+        0.5,
+        0.75,
+        1
+      ],
+      "max_passes": 16,
+      "maximum_trials_per_pass": 72,
+      "actual_passes": 1,
+      "actual_trials": 72,
+      "selected_passes": 0,
+      "before": {
+        "norm": 3.241344522795531e-09,
+        "minA": 0.5220201871565618,
+        "minD": 0.9991195608484377,
+        "boundary_norm": 2.5533258603093732e-14
+      },
+      "final_full_replay": {
+        "norm": 3.241344522795531e-09,
+        "minA": 0.5220201871565618,
+        "minD": 0.9991195608484377,
+        "matches_local_predicted_norm": true,
+        "boundary_norm": 2.5533258603093732e-14
+      },
+      "best_tried_nonaccepted": {
+        "alpha": 0.0078125,
+        "beta": 0.25,
+        "norm": 3.760140572956488e-09
+      },
+      "complete_internal_states_unchanged": true,
+      "strict_full_replay_improvement": false,
+      "original_solver_invoked": false,
+      "solver_success": false,
+      "stopped": "no strict local full-score improvement"
+    }
+  ],
+  "source_differences": {
+    "v2": "Only the declared four smaller alpha entries.",
+    "v3": "Only beta branch eligibility: downstream.norm >= currentNorm."
+  },
+  "owned_preparation": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-v3-source-manifest.json",
+    "sha256": "bbcc3f3f832a62e73eb85f3c142a720ba76d55d11adb2a7d2b0e4c29a71306ea"
+  },
+  "original_worker_reload_arithmetic": {
+    "record": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-v3-reload-arithmetic-check.json",
+      "sha256": "23df83ddc2c6ffb3c2d42bacb845eac16b0d90fc2bebbf8db795c26cf7620fd2"
+    },
+    "result": {
+      "cut_radius": 0.3,
+      "ratio": 1,
+      "zero_boundary_correction": true,
+      "finite_states_without_negative_zero": true,
+      "original_solver_invoked": false
+    }
+  },
+  "prepared_source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/prepare_recovering_tail_source.py": "defc41bdd80e5f74c8e74cbe4715cac4a2f94c1fcb822b6544072078b72184a2",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_inner_prefix_debug_record.py": "7916b99da87fcd7be9a5a668d24236dcb5f07acc5596e7efd23633d4e6b80891",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/recovering_tail_client.py": "7290eaff008cf99d99d7cccba78006808d31b7dbd0f6128ab3be6e4c7f0217e6",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate_v3.mjs": "b7a8281b12b17c403edc7ba59adf1a7ee72f84a61e8beed0e2562c354dffdcb7"
+  },
+  "prepared_owned_source_sha256": {
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-v3-source/scripts/db6f-prefix-coupled.py": "fcc7733de22b0e3d300e977276694530ef91c89630cfd56bad84c51c043c4d6d",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-v3-source/scripts/950f-tail-client-v3.py": "0b1e58c66795526743d2d908d59e716e860084783d813cadcc00c4ff63638f8e",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-v3-source/scripts/recovering_tail_client.py": "7290eaff008cf99d99d7cccba78006808d31b7dbd0f6128ab3be6e4c7f0217e6",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-v3-source/scripts/propose_tail_internal_candidate_v3.mjs": "b7a8281b12b17c403edc7ba59adf1a7ee72f84a61e8beed0e2562c354dffdcb7"
+  },
+  "runtime_source_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311"
+  },
+  "preparation_verification": {
+    "reverse_coupler_patch_restores_original_bytes": true,
+    "original_sources_unchanged": true,
+    "source_root_identity": true,
+    "actual_solver_invoked": false,
+    "production_wrapper_executed": false
+  },
+  "recorder_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/record_q060_internal_candidates.py",
+    "sha256": "a2e43a47e3dbf03ee4366141adbe792a6e2d1c6f257828af4f1f2c233b11fa68"
+  },
+  "limitations": [
+    "The live recovery branch has no successful native-worker end-to-end execution yet.",
+    "The former call3 run has no raw inner prefix; these files cannot recreate its lost cubic state.",
+    "The next owned run saves a raw inner cubic and its exact accepted actual-DN affine anchor before requesting the new height.",
+    "Unsuccessful local candidates do not prove that the finite DN problem has no solution."
+  ]
+}
