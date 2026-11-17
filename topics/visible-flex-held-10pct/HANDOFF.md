@@ -7,7 +7,7 @@
 构造连通闭曲面的连续 $C^2$ 等距嵌入族，固定有内点握持区 $H$，$\operatorname{diam}F_0(H)\ge0.2D$，整像 Hausdorff 变化 $\delta_{\rm hold}\ge0.1D$，含反射取商的 $\delta_{\rm E}>0$，全时 reach $\ge0.03D$。同一固定度量、物理参数和时间范围下，最大相对度量误差不超过 $10^{-6}$ 并随空间、频率、时间加密下降。材料点位移不是 $\delta_{\rm hold}$。
 
 - 已部分克隆、仅稀疏检出本题，执行真实 `git pull --rebase origin main`；根 README（含授权）和本题 README 全文已读。
-- 已读规则提交：`7d3f197a9667285ce0c11f97af3338d5e1a9b8c8`。2026-11-17 21:03:46（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:03:46；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`1a1bb8614cd4507107839b33d4951e0cb7436505`。2026-11-17 21:06:48（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:06:48；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每个有意义的新结论与本文件同时更新，提交前 pull、核规则后普通 push；非快进立即 pull --rebase 再推。禁止 force push。令牌只在命令行临时使用。
 - 只有完整证明进 `results/`；数值证据和缺口分别标明。可重算数据、网格和渲染不提交，只保存生成脚本、参数、运行标识和 SHA-256；单 Markdown <100KB，本文件 <10KB。不写根 LOG。
 
@@ -22,7 +22,7 @@
 
 ## 当前工作
 
-**新主线R3：换握持放大。** 实际圆弧局部片的phase运动为QαX+bα；对整个族取逆刚体运动固定该片，D/reach/g/δE全保留。三重对称给整像dH≥√3|c|sin(kα/2)。k4、|c|≥.88、A=.14、D≤3.9、reach≥.118、H跨s±.42给held/D>.10800及Hdiam/D>.21519。R4已严证四组核/窗口预算，R=.25、normal宽1.2、phase.14给正材料余宽>.0499、held/D>.10837；脚本 `scripts/plateau_exact_budget.py` 仅有理区间。R5的加权能量已支付精确C3前缀假设下的退化入口圆弧保持与尖锐传播角窗（不是任意C2结论）。全局前缀存在仍未实现；true_a在做圆弧外支撑基及真实prefix，new_construction独立算窗口/传播，主会话保持完整集合证明与marker/闭合预算。
+**新主线R3：换握持放大。** 实际圆弧局部片的phase运动为QαX+bα；对整个族取逆刚体运动固定该片，D/reach/g/δE全保留。三重对称给整像dH≥√3|c|sin(kα/2)。k4、|c|≥.88、A=.14、D≤3.9、reach≥.118、H跨s±.42给held/D>.10800及Hdiam/D>.21519。R4已严证四组核/窗口预算，R=.25、normal宽1.2、phase.14给正材料余宽>.0499、held/D>.10837；脚本 `scripts/plateau_exact_budget.py` 仅有理区间。R5的加权能量已支付精确C3前缀假设下的退化入口圆弧保持与尖锐传播角窗（不是任意C2结论）。全局前缀存在仍未实现；true_a在做圆弧外支撑基及真实prefix，new_construction独立算窗口/传播，主会话保持完整集合证明与闭合预算。R6已用中心三阶体积矩及显式三重C2帽支付有严格余量的精确族的δE机制；实际新prefix/尾仍未获。
 
 - 主会话：核对 R114 的实际构造，研究可见振幅与完整闭合尺寸的关系，建立本题的简洁可复现计算。
 - 并行 `true_a_analysis`：精确圆弧core接口、外支撑基/径向profile控制及实际Frenet BVP；目前高模投影与条件数未过。
