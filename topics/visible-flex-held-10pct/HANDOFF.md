@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`3afc6e21d0da4e5b25c9582e6c3808474696adf3`。2026-11-18 03:15:35（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`ecdacd5fbe6b569a1852c81333756131130891e8`。2026-11-18 03:18:46（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -33,7 +33,9 @@ n4精确圆弧+中央柱：R19/19A给10%条件窗，真实闭合未付。原C4�
 
 n4旧双根root03：vu.4/vd.2644695137/δ.02840070836/ramp.45；τ4/τ8≈0、τ12≈−.6587，Kbg<8、耗窗>.147721，仅线性设计。首q005 M6→M8同g metric4.262e−6→5.733e−7；固定J8/λ.05嵌套M12达原2400节点门，q降.000396。见double-prefix-*、2026-11-18-n4-nested-m12-terminal；不作不存在结论。
 
-**新局域圆化/双谐波角图**：保R22 eta=.36741280489，圆弧外仅小改，不再翻h8号；λ1目标有精确圆弧，数值均值待区间化。完整材料角二jet已实现，仍原物理方程/线性尾端口。vu=.35新双根δ=.03001627156/vd=.24824349139，背景K估计5.605/D采样2.584/耗窗>.1518。已完成旧角图M8 λ0/.05/.1及M12 λ0、新双图M8 λ0/.05；均原BVP接受而全metric3.49e−6至7.54e−5未过。λ.2maxnodes；两旧运行取消非数学失败。完整参数/源/hash见2026-11-18-n4-local-flattening-and-bimodal-chart及resume_n4；新双图M16继续。
+**n4新局域圆化/双谐波角图**：vu.35新双根δ=.03001627156/vd=.24824349139，Kbg估计5.605/D采样2.584/耗窗>.1518。eta*=.3674128局域圆化保h8号；旧角图M8 λ0/.05/.1及M12 λ0、新双图M8 λ0/.05虽过BVP却全metric3.49e−6至7.54e−5失败。源见2026-11-18-n4-local-flattening-and-bimodal-chart/resume_n4。
+
+**大rho侧新条件窗**：eta1、φ*=π/4局域修平，精确均值补偿β∈(−2.437434179108102,−2.437434179108101)，真实|c|/q∈(47.53249652612922,47.53249652612923)。q.02/.022有R1.9/1.99、零控制rho>.50125/.45137；R19在全D≤2.65等假设下held/D>.104902/.115401。alpha取2Ra−.001、ell.54，Rvu<1和完整初始保护窗已按大R付清；未来补弧控制须重付rho，真前缀/尾/闭族仍缺。见2026-11-18-n4-large-radius-circle-core及纯Fraction脚本；eta1/q005冷启动maxnodes已登记，低q实际继续。
 
 ## C. 接缝、A图与混合边值
 
@@ -45,7 +47,7 @@ R25：固定真实Q/g、完整mean+非mean有限动量，D>d/S>s/A>a可行域凸
 
 R26：保持中心半径的三谐波最优圆弧平坦化已证，交错Lagrange权给唯一minimax；n4/a.147/q.06的系数A≈(1.524236,−.639902,.115666)，弧上误差E<8.432943e−5、全圆ρ>.0999241035。新Fraction预算实算，见R26/triple-circle-budget；第三模尚未共振，非精确圆弧/BVP/闭族。
 
-R21/R23：实际M8以共享中心/cut Cartesian二jet、唯一mean、有限尾/圆领/平盘定义完整C²闭S²。504320 prefix盒+4637尾段证明全图σ>.7、K≤10、D<2.30242、reach/D>.0434；相位角Jac>.8399给全相位C²连续。圆领/盘metric<1.36e−29、K<8.002，精确背景增高/尺度已证。源finite_closure/m3_m8_collar_disk、m3_m8_closed_map。零marker时δE=0；R24已给实际非零帽，幅度不足/整域metric连续界仍未付。
+R21/R23：实际M8共享Cartesian二jet、唯一mean、有限尾/圆领/平盘形成完整C² S²；504320 prefix盒+4637尾段给全相位σ>.7/K≤10/D<2.30242/reach≥.1，相位Jac>.8399。圆领/盘metric<1.36e−29；精确等距未证，零marker的δE=0。源finite_closure/m3_m8_collar_disk、m3_m8_closed_map，R24另付固定帽。
 
 **同g全闭M8→M16新定位**：共同材料角prefix metric算子范数1.26083e−8→1.64624e−9；在有限尾实际R反解同一背景，metric样本3.91912e−8→1.82821e−9。FFT/径向采样不是连续metric界。两尾Vrr峰的有限层差.01177/.00814，而源层差仅约2e−7；差分步2e−4→6.25e−6变化<5e−10，主因是有限径向表示。原M16固定checkpoint的steps32→64重建在做，非新BVP。见2026-11-18-m3-closed-metric-and-rr-location及resume_closed/metric_rr_execution。
 
