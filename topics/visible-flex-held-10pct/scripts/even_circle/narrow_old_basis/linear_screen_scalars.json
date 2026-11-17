@@ -1,0 +1,375 @@
+{
+  "scope": "Finite linear and sampled round-background diagnostics for the narrower n4 core; no nonlinear or closed claim.",
+  "rows": [
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.3,
+        "vd": 0.35,
+        "delta": 0.03379168951602646,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.7204915122568177,
+      "sample_ball_radius_with_half_cylinder_025": 1.2578744455885236,
+      "sample_K": 6.088376116673405,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.1481929565681417,
+      "linear_H_per_q": 0.0005071344727912565,
+      "chart_range": [
+        5.9580299910267846e-05,
+        0.9999999999999998
+      ],
+      "next_transversality": 0.1885708813075195,
+      "directory": "compact-v30-35-r40"
+    },
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.4,
+        "delta": 0.03171405698883858,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.6542016805896563,
+      "sample_ball_radius_with_half_cylinder_025": 1.2141921503550517,
+      "sample_K": 8.648852230606451,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.1435885600615297,
+      "linear_H_per_q": 0.0006026988868929364,
+      "chart_range": [
+        7.080761092619783e-05,
+        1.0000000000000004
+      ],
+      "next_transversality": 0.2098204768816675,
+      "directory": "compact-v35-40-r40"
+    },
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.4,
+        "vd": 0.4,
+        "delta": 0.029587920125449557,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.6176165998968224,
+      "sample_ball_radius_with_half_cylinder_025": 1.1912166676041833,
+      "sample_K": 9.270343821618285,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.13871623042583248,
+      "linear_H_per_q": 0.0006512218794035526,
+      "chart_range": [
+        7.650829703892471e-05,
+        0.9999999999999996
+      ],
+      "next_transversality": 0.2278280653068324,
+      "directory": "compact-v40-40-r40"
+    },
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.4,
+        "vd": 0.45,
+        "delta": 0.02957229743154004,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.6031456305703081,
+      "sample_ball_radius_with_half_cylinder_025": 1.1823692212539816,
+      "sample_K": 12.028104415190448,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.138679718385111,
+      "linear_H_per_q": 0.0006986327369633135,
+      "chart_range": [
+        8.207832484016283e-05,
+        0.9999999999999998
+      ],
+      "next_transversality": 0.22728244871588746,
+      "directory": "compact-v40-45-r40"
+    },
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.45,
+        "delta": 0.02763358198502041,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.5751571381362797,
+      "sample_ball_radius_with_half_cylinder_025": 1.1656646955422332,
+      "sample_K": 12.871971556074373,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.13408015669159812,
+      "linear_H_per_q": 0.000743317510103836,
+      "chart_range": [
+        8.732808072932809e-05,
+        1.0000000000000004
+      ],
+      "next_transversality": 0.24347785543729256,
+      "directory": "compact-v45-45-r40"
+    },
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.4,
+        "delta": 0.032220048257132115,
+        "ramp": 0.45,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.6853389342909593,
+      "sample_ball_radius_with_half_cylinder_025": 1.2343957549658882,
+      "sample_K": 6.936541827865497,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.16026848257543355,
+      "linear_H_per_q": 0.0005568502758735622,
+      "chart_range": [
+        6.542112244717872e-05,
+        0.9999999999999999
+      ],
+      "next_transversality": 0.2060544207827435,
+      "directory": "compact-v35-40-r45"
+    },
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.4,
+        "vd": 0.4,
+        "delta": 0.030150157904596426,
+        "ramp": 0.45,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.6455848360235352,
+      "sample_ball_radius_with_half_cylinder_025": 1.2087045588630563,
+      "sample_K": 7.412754292652297,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.15506555579141226,
+      "linear_H_per_q": 0.0006035731189188316,
+      "chart_range": [
+        7.091031939720219e-05,
+        1.0000000000000002
+      ],
+      "next_transversality": 0.22360885090438962,
+      "directory": "compact-v40-40-r45"
+    },
+    {
+      "success": true,
+      "parameters": {
+        "direction": "outward",
+        "vu": 0.4,
+        "vd": 0.45,
+        "delta": 0.03026612168097856,
+        "ramp": 0.45,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "background_height": 0.630694488292501,
+      "sample_ball_radius_with_half_cylinder_025": 1.1993314260699643,
+      "sample_K": 9.576005746333932,
+      "circle_R": 0.1,
+      "characteristic_loss_div_R": 0.1553623101050279,
+      "linear_H_per_q": 0.0006466281613980052,
+      "chart_range": [
+        7.59686076445767e-05,
+        0.9999999999999997
+      ],
+      "next_transversality": 0.22426740354617544,
+      "directory": "compact-v40-45-r45"
+    }
+  ],
+  "source_transforms": {
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "replacements": [
+        [
+          "self.warp_e=8*float(warp_q)",
+          "self.warp_e=15*float(warp_q)",
+          1
+        ],
+        [
+          "3*psi",
+          "4*psi",
+          4
+        ],
+        [
+          "3*theta",
+          "4*theta",
+          4
+        ],
+        [
+          "np.sin(4*psi)/3",
+          "np.sin(4*psi)/4",
+          1
+        ],
+        [
+          "rho1=3*e",
+          "rho1=4*e",
+          1
+        ],
+        [
+          "cfg,port,q,M,angular,3,fixed",
+          "cfg,port,q,M,angular,4,fixed",
+          1
+        ],
+        [
+          "self.pscale,3)",
+          "self.pscale,4)",
+          1
+        ],
+        [
+          "*et/3",
+          "*et/4",
+          1
+        ],
+        [
+          "obj.M*3+1",
+          "obj.M*4+1",
+          1
+        ],
+        [
+          "base_mode=3,core_kind=",
+          "base_mode=4,core_kind=",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "replacements": [
+        [
+          "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+          "old=sys.modules['even_mode_warp']",
+          1
+        ],
+        [
+          "3*psi",
+          "4*psi",
+          5
+        ],
+        [
+          "3*theta",
+          "4*theta",
+          3
+        ],
+        [
+          "3*np.arange",
+          "4*np.arange",
+          1
+        ],
+        [
+          "*sn/3",
+          "*sn/4",
+          3
+        ],
+        [
+          "rho_p=3*e",
+          "rho_p=4*e",
+          1
+        ],
+        [
+          "rho_ps=3*ep",
+          "rho_ps=4*ep",
+          1
+        ],
+        [
+          "*et/3",
+          "*et/4",
+          1
+        ],
+        [
+          "max(64,self.nt),3,",
+          "max(64,self.nt),4,",
+          1
+        ],
+        [
+          "psi)/3-target",
+          "psi)/4-target",
+          2
+        ],
+        [
+          "obj.M*3+1",
+          "obj.M*4+1",
+          1
+        ],
+        [
+          "base_mode=3,core_kind=",
+          "base_mode=4,core_kind=",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "replacements": []
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+      "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "replacements": []
+    }
+  }
+}
