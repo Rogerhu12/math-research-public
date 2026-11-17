@@ -123,4 +123,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [b677镜像前缀实际法向弦](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)真quintic一阶法向、41216点共52697444近点对Qmin.16165446，远对由距离≥.34给Q≥.17；仅浮点点云，不替R16连续块/对角线、尾/盖或完整D。相同场角加密继续。
 
+[完整弱高度径向积分校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)绕过样条/强制端点修改，同一λ.0014高度四种求积/面板读出Gram约1.4e−7；原拟合约.29不能归罪径向积分。完整有限高度API与独立校准源同刊，继续逐项支付新边界改变。
+
 继续真实weighted幅度/角阶延拓、C²高度与g共同设计，以及核心响应改善。冻结候选后再精化同g/参数/t；实际全场Gram、完整D、整像held、含反射E(3)、全部活动点对/reach和全t责任一项不减。现未达到课题README完成标准，不以本节或任一子题结果停止。
