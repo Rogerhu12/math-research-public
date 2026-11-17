@@ -57,3 +57,5 @@ SHA256：
 - 实际report：`9060636046e7487156928bbb4b19cf1ae962d9d1207b2b22258051daa3bfe0ca`。
 
 源强核原Frenet/Profile、标量源和弧长引擎SHA及两端实际jet；report区分原IVP、修正局部和完整基场身份，并明确`bvp_accepted=false`、`ivp_rerun=false`、`new_BVP_solved=false`。
+
+后续[R638§6](../results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)已严格结清本候选全域q_N/rho正性，原采样Gram/曲率/未闭合边界保持。

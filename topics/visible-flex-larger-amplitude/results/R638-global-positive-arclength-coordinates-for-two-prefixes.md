@@ -102,3 +102,11 @@ PYTHONPATH="$S" python "$S/parallel_20261117_arclength_interval_positive.py" --i
 ```
 
 最终报告 SHA256 分别为 `17be30d89d4b53553311ddc7d55d83038a494590b9760cb54f3898b6a7e719dd` 与 `a70aa9a2bb6b38e5bf17fdd9a14aa67309124e3f794972267599082cef4c6337`。原浮点准则/评估保留在[前置记录](../notes/2026-11-17-parallel-numerical-arclength-positive-bound.md)，其未定向舍入的数值不被追溯改标为严格证书。
+
+## 6. 同一证书算法对完整负κ hold 前缀的实际扩展
+
+后续[hold完整共同场](../notes/2026-11-17-parallel-numerical-hold-arclength-prefix.md)的固定原始base为 `aa1cf41faf83a9e2b3e90167d0bc9e00e48c8d84cc2aec707c2da17c45f0ca15`。直接读其保存全部d2，不重算旧M112二jet；x/Y/D/DD同一little-endian绑定为 `d54e0e57b5b43afd476e8330f2d936f21d6801b49f03bad11786515473885256`。M320、完整2098胞、s∈[0,1.02]，构造N4096、区间角网8192、每胞4等分；完全冻结同f512源实际运行398.58秒。
+
+严格结果为q_N≥.09866635452557888、rho≥.15909568175875186；最差仍是共同旧前缀的[.9475,.95]胞。全部新胞亦真实跑完，没有以旧共同段的证书替代新段。max|F_sφ|上界5.63325327371567，最大角网q_N区间宽度<2.191e−9。故以上全域坐标定义与C²结论同样适用于此明确hold候选。它没有把已有1.18066e−7采样Gram升级为全域误差或reach。
+
+复现沿§5同环境，改输入为 `parallel-negative-hold-complete-base.json.gz`，参数 `--construction-angles 4096 --angles 8192 --radial-subdivisions 4 --out parallel-negative-hold-arclength-interval-positive-final.json`。最终报告SHA256 `d3fe8df338482e0ac01f3d65a2ee91baa5f2996814188a7adb31a4ec01ff9f37`，只保仓库外；本次无新求解或候选修改。
