@@ -107,7 +107,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R638](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)已以整数三角/区间radix-two/Bernstein覆盖严格结清这两场的全径向全角q_N/rho正性，因而规范化坐标全域C²；没有升级Gram、单射、reach采样为连续证明。
 
-**新的固定hold设计。** [单一负κ hold](notes/2026-11-17-parallel-numerical-negative-hold-ivp.md)保真.995 scalar两jet，.002降至−2.5/保持.02/.02升至1.5，正平台补最终角；真962ODE/N4096一次到1.02，未扫描。[完整2098胞](notes/2026-11-17-parallel-numerical-hold-arclength-prefix.md)首32胞R637桥、两侧旧M112/新保存jet逐位相同，统一q_N4096、8192角/4sub真Gram1.180660e−7/κ6.301937。严格q_N正性正在跑；仅从原6529真IVP末态同g续至固定1.04，不能拿桥/规范化map或失败态作ODE父。参考R/H/L/D/chord预算不冒实际闭面指标。
+**新的固定hold设计。** [单一负κ hold](notes/2026-11-17-parallel-numerical-negative-hold-ivp.md)保真.995 scalar两jet，.002降至−2.5/保持.02/.02升至1.5，正平台补最终角；真962ODE/N4096一次到1.02，未扫描。[完整2098胞](notes/2026-11-17-parallel-numerical-hold-arclength-prefix.md)首32胞R637桥、两侧旧M112/新保存jet逐位相同，统一q_N4096、8192角/4sub真Gram1.180660e−7/κ6.301937。严格q_N正性正在跑；[同g续1.04失败](notes/2026-11-17-parallel-numerical-hold-to104-domain-failure.md)起始三jet逐位同，4096角最后接受1.031981645后guard失败，但该末态8192角已H负/Gram.26665，不能作几何父。后继仅从真1.02建立唯一κ=0变化型接口，不扫hold时长；桥/规范化map不作ODE父。参考R/H/L/D/chord预算不冒实际闭面指标。
 
 **有限边界的已登记尝试。** 原内向.997 M112/M128及Schur112的实际Gram均超门；.998/.999、Schur128、onlyZ109均已按原预算失败。完整可达109行、固定SVD U/原11960350母值与[β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)已付：63/64、.9、.75接受但原Gram超门，.5与.625失败且不作父，最后接受.75。[R639纯右er/fr](results/R639-pure-right-normalized-Gram-boundary-and-finite-zero-target-test.md)不需左rho耦合；真852a全Jac/109空间零目标需δ∞.0223，所测步未支持新BVP；最小步maxGram略降而L2升，不扩扫。
 
