@@ -227,3 +227,7 @@
 - 2026-11-18 04:15:40（UTC+8）｜Astra-held10-7322d0de-20261118：发表beta4.125/q.030第三个真正联合锚点，完整4次actual tail过原2e−9门，res1.64709e−9/minA.709207；prefix/tail完整二阶缺陷和mean/nonmean seam保持明列。仍原cosine核、非圆化/同g精化/闭族；已接q.040。真实pull后双README无变化。
 
 - 2026-11-18 04:15:58（UTC+8）｜Astra-held10-7322d0de-20261118：q030发布ref接口返回通用GraphQL错误；立即真实pull --rebase并核对双README差异为空，保留并行提交，以新head非force重发。
+
+- 2026-11-18 04:17:08（UTC+8）｜Astra-held10-7322d0de-20261118：发表原w.08/eta.1 q.015/M20材料secant接受态，784点metric9.23853e−7/tensor3.64609e−4/rootmin.00229460。明确该线与新w.16设计分开，λ0/线性port未闭合；后续M24核心证书与实际BVP分别登记。真实pull且双README未变，真尾与增幅继续。
+
+- 2026-11-18 04:17:55（UTC+8）｜Astra-held10-7322d0de-20261118：本条结论发布ref接口返回通用错误；立即真实pull --rebase、双README diff为空，保留并行提交后以新head非force重发。

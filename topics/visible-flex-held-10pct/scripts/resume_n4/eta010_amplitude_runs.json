@@ -388,6 +388,656 @@
         "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
         "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
       }
+    },
+    {
+      "run": "large-radius-eta010-vu035-q015-m20",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "vu035-profile.json",
+        "out": "large-radius-eta010-vu035-q015-m20",
+        "q": 0.015,
+        "modes": 20,
+        "bimodal_eta": 0.1,
+        "center": 0.7853981633974483,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 241,
+        "max_nodes": 3200,
+        "tol": 3e-07,
+        "angular": 1280,
+        "check_only": false,
+        "restart": "large-radius-eta010-vu035-q0125-m16-lam0.json.gz",
+        "previous": "large-radius-eta010-vu035-q010-m16-lam0.json.gz"
+      },
+      "row": {
+        "q": 0.015,
+        "homotopy": 0.0,
+        "modes": 20,
+        "bimodal_eta": 0.1,
+        "material_restart": {
+          "method": "dual-parameter-design-material-angle-predictor",
+          "q_inputs": [
+            0.01,
+            0.0125
+          ],
+          "q_target": 0.015,
+          "secant_weights": [
+            -0.9999999999999993,
+            1.9999999999999993
+          ],
+          "radial_nodes": 764,
+          "angular_projection": 2048,
+          "pullback_residual": 8.881784197001252e-16,
+          "predicted_delta": 0.030034483679008954,
+          "predicted_vd": 0.248450639048527,
+          "inlet_repair_coefficient_max": 0.0004365224328750283,
+          "scaled_bc_before": 0.0004365224328750283,
+          "scaled_bc_after": 0.00021466821965672678,
+          "source_sha256": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+          "scope": "Only an initial guess; unchanged full equations, root guards and solver tolerance"
+        },
+        "parameter_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 8.032340432877759e-09,
+            "scale": 1.4665466882402
+          },
+          {
+            "step": 3e-05,
+            "error": 3.191529670374554e-08,
+            "scale": 1.466546691893574
+          },
+          {
+            "step": 1e-05,
+            "error": 6.68662088784185e-08,
+            "scale": 1.4665466919527856
+          }
+        ],
+        "boundary_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 6.460243526347704e-11,
+            "scale": 0.006335068019999897
+          },
+          {
+            "step": 3e-05,
+            "error": 2.153414508782568e-10,
+            "scale": 0.006335068038441452
+          },
+          {
+            "step": 1e-05,
+            "error": 1.6661185360816874e-10,
+            "scale": 0.006335068013533714
+          }
+        ],
+        "chart_inverse_error": 2.220446049250313e-16,
+        "seed_boundary_max": 0.00021466821965672678,
+        "seed_core": {
+          "core_kind": "exact_defined_plateau_integral",
+          "base_mode": 4,
+          "q_parameter": 0.015,
+          "corrections": [
+            0.0,
+            -5.485687213860998e-06,
+            5.79633742617369e-07,
+            -6.493477674384563e-08,
+            -1.0841010113887768e-08,
+            -1.1192540298787481e-10,
+            1.519504914796104e-11,
+            -1.1748878404782454e-12,
+            1.7881478213183714e-13,
+            4.403915669834361e-14,
+            1.2765276705467771e-15,
+            2.661023059453928e-16,
+            5.938444984902826e-17,
+            9.233365816943042e-16,
+            7.993159592574289e-16,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "halfwidth": 0.147,
+          "transition": 0.08,
+          "homotopy": 0.0,
+          "center": 0.7853981633974483,
+          "exact_circle_only_at_homotopy_one": false,
+          "plateau_radius_at_one": 1.27,
+          "plateau_normal_width": 0.294,
+          "plateau_material_endpoints": [
+            0.6015400464917408,
+            0.9692562803031558
+          ],
+          "plateau_material_length": 0.36771623381141505,
+          "exact_perimeter": 6.283185307179586,
+          "rho_lower_conservative": 0.7739552872817667,
+          "rho_triangle_lower": 0.7739552872817667,
+          "positivity_grid_per_sector": 512,
+          "rho_derivative_bound": 1.1827699730026826,
+          "rho_min_sample": 0.7755888434179656,
+          "rho_max_sample": 1.269127978861212,
+          "curvature_max_sample": 1.2893429405109416,
+          "radius_max_sample": 1.016143209818516,
+          "quadrature_period_roundoff": 2.6645352591003757e-15,
+          "scope": "Exact integral definition and independent evaluation; no Fourier truncation is called an exact circular arc.",
+          "control_family": "C4 complementary controls with fixed c8=0 and two-harmonic primary",
+          "bimodal_eta": 0.1,
+          "ignored_correction_index": 0,
+          "local_flatten_beta": -0.6307476082725699,
+          "circle_unit_rho": 18.000000000000004,
+          "target_family": "C4 local circle flattening of the double harmonic, with complementary mean correction",
+          "control_transition": 0.16,
+          "lock_fundamental": false,
+          "control_homotopy": "lambda compact + (1-lambda) identical represented low support moments",
+          "control_projection_order": 20,
+          "rho_triangle_upper": 1.2710447127182336,
+          "rho_value_roundoff_allowance": 5.2185320514715785e-12,
+          "control_certificate": {
+            "base_mode": 4,
+            "modes": 20,
+            "halfwidth": 0.147,
+            "transition": 0.16,
+            "center": 0.7853981633974483,
+            "precision": 80,
+            "controls": 19,
+            "lock_fundamental": false,
+            "support_condition": 55450099.10034788,
+            "rho_condition": 588266038.0270208,
+            "high_precision_moment_residual": "4.5361812686e-75",
+            "coefficient_neumann_residual_upper": 4.779851842825191e-16,
+            "coefficient_inverse_error_upper": 7.217901145498596e-08,
+            "canonical_low_moments": "mean=0; support cosine coefficients at 2n,...,Mn form identity; the primary is zero only when explicitly locked",
+            "support_derivative_upper_bounds": [
+              [
+                9020764.818157721,
+                448819918.582763,
+                25080613655.320374,
+                1613750288785.7722,
+                117531579384121.47
+              ],
+              [
+                22335665.233489316,
+                1111368865.537683,
+                62108767224.36567,
+                3996446076223.7197,
+                291078861366410.0
+              ],
+              [
+                37721668.03076992,
+                1877125895.7787724,
+                104912824494.47777,
+                6751215742419.55,
+                491750530910872.44
+              ],
+              [
+                52696459.0232909,
+                2622649224.4405847,
+                146598047396.11246,
+                9434606938541.438,
+                687259549330971.8
+              ],
+              [
+                64975896.971362144,
+                3234305359.640082,
+                180815101366.38644,
+                11638121862827.879,
+                847856561202861.6
+              ],
+              [
+                72864699.8083898,
+                3627691752.054125,
+                202844593935.31488,
+                13057956576093.898,
+                951406579073839.8
+              ],
+              [
+                75503398.25211439,
+                3759929312.0041156,
+                210284276453.36462,
+                13539231139939.852,
+                986611112701687.2
+              ],
+              [
+                72931939.34456205,
+                3632852433.2902684,
+                203228630609.4183,
+                13087612098637.172,
+                953858589778314.9
+              ],
+              [
+                65974426.29093227,
+                3287312023.7294183,
+                183952483027.01303,
+                11849056224518.979,
+                863754977273265.1
+              ],
+              [
+                55988877.386166275,
+                2790763360.7606435,
+                156219411675.5379,
+                10065415142885.469,
+                733896497666636.0
+              ],
+              [
+                44551122.50915005,
+                2221566213.150105,
+                124405872838.77544,
+                8018154850589.146,
+                584775106127732.1
+              ],
+              [
+                33148025.768041164,
+                1653730408.8771856,
+                92649253988.39435,
+                5973565407417.006,
+                435789616949242.56
+              ],
+              [
+                22942616.38985185,
+                1145218806.1594317,
+                64193654688.14587,
+                4140638334843.7734,
+                302176227865959.4
+              ],
+              [
+                14647812.06786217,
+                731637299.4009107,
+                41035863651.12233,
+                2648216032896.5703,
+                193340089448020.22
+              ],
+              [
+                8514540.06170623,
+                425609544.89094746,
+                23888625388.275482,
+                1542536321358.479,
+                112671072769264.83
+              ],
+              [
+                4412791.735384588,
+                220778661.64265072,
+                12402621011.47757,
+                801430492383.674,
+                58572828058763.4
+              ],
+              [
+                1966916.8460850741,
+                98519018.19102189,
+                5540482048.381892,
+                358333352980.66785,
+                26208192719266.965
+              ],
+              [
+                702046.3870954696,
+                35217104.402596354,
+                1983409622.899154,
+                128432347450.1581,
+                9402803884971.377
+              ],
+              [
+                165811.52910557,
+                8337469.892965656,
+                470650395.82023114,
+                30535265102.546383,
+                2239178974764.2603
+              ]
+            ],
+            "scope": "Explicit supported functions and high-precision moment preconditioner; numerical evaluation and all reported sampled suprema are not interval geometry certificates.",
+            "unabridged_certificate_sha256": "c4283cc5a170ff1546766a34aff11c83e392fe08066f14ed9b281a660ca1b9c1",
+            "regenerable_tables_omitted": [
+              "fundamental_leakage",
+              "rho_derivative_upper_bounds"
+            ]
+          }
+        },
+        "success": true,
+        "message": "The algorithm converged to the desired accuracy.",
+        "nodes": 784,
+        "parameters": [
+          1.773483253876873e-05,
+          0.0002020211397354941,
+          -0.00037203834322414143,
+          4.042381690610169e-05,
+          -4.699540226036418e-06,
+          -8.480870254526556e-07,
+          -1.0047445426907924e-08,
+          1.410602206199035e-09,
+          -1.1934476157511262e-10,
+          1.8068220481772716e-11,
+          5.200534915528472e-12,
+          1.3253198096977033e-13,
+          -1.5322573527955547e-14,
+          1.8324587173624286e-15,
+          1.8116473282064146e-14,
+          -1.3496918551236642e-14,
+          -1.3526211669945438e-14,
+          -1.1540078406477598e-13,
+          4.1946244287968443e-13,
+          3.1272193492966454e-12
+        ],
+        "physical_profile": {
+          "direction": "outward",
+          "ramp_eta": 0.05,
+          "ramp_law": "flat",
+          "cycles": 1,
+          "prefix_bridge": {
+            "kind": "turn_plateau_v1",
+            "curvature": 4.0,
+            "peak_fraction": 0.2
+          },
+          "vu": 0.35,
+          "ramp": 0.45,
+          "vd": 0.24844551252649882,
+          "delta": 0.030034006394522736
+        },
+        "max_rms": 2.997543431389852e-07,
+        "max_bc": 9.80191235483528e-13,
+        "seconds": 239.6325000800025,
+        "domain_newton": {
+          "calls": 2,
+          "rejected_domain_trials": 0,
+          "rejected_merit_trials": 0,
+          "accepted_steps": 11,
+          "no_step": 0,
+          "minimum_alpha": 1.0
+        },
+        "core": {
+          "core_kind": "exact_defined_plateau_integral",
+          "base_mode": 4,
+          "q_parameter": 0.015,
+          "corrections": [
+            0.0,
+            -5.5805751483621214e-06,
+            6.063572535915253e-07,
+            -7.049310339054627e-08,
+            -1.2721305381789834e-08,
+            -1.5071168140361885e-10,
+            2.1159033092985523e-11,
+            -1.7901714236266894e-12,
+            2.7102330722659075e-13,
+            7.800802373292707e-14,
+            1.987979714546555e-15,
+            -2.298386029193332e-16,
+            2.7486880760436427e-17,
+            2.717470992309622e-16,
+            -2.0245377826854964e-16,
+            -2.0289317504918156e-16,
+            -1.7310117609716398e-15,
+            6.291936643195266e-15,
+            4.6908290239449676e-14
+          ],
+          "halfwidth": 0.147,
+          "transition": 0.08,
+          "homotopy": 0.0,
+          "center": 0.7853981633974483,
+          "exact_circle_only_at_homotopy_one": false,
+          "plateau_radius_at_one": 1.27,
+          "plateau_normal_width": 0.294,
+          "plateau_material_endpoints": [
+            0.6015412729940927,
+            0.9692550538008039
+          ],
+          "plateau_material_length": 0.36771378080671124,
+          "exact_perimeter": 6.283185307179586,
+          "rho_lower_conservative": 0.7739299216385958,
+          "rho_triangle_lower": 0.7739299216385958,
+          "positivity_grid_per_sector": 512,
+          "rho_derivative_bound": 1.183119828090258,
+          "rho_min_sample": 0.7755973082509443,
+          "rho_max_sample": 1.2691080343027392,
+          "curvature_max_sample": 1.2893288686820072,
+          "radius_max_sample": 1.0161432417235587,
+          "quadrature_period_roundoff": 2.6645352591003757e-15,
+          "scope": "Exact integral definition and independent evaluation; no Fourier truncation is called an exact circular arc.",
+          "control_family": "C4 complementary controls with fixed c8=0 and two-harmonic primary",
+          "bimodal_eta": 0.1,
+          "ignored_correction_index": 0,
+          "local_flatten_beta": -0.6307476082725699,
+          "circle_unit_rho": 18.000000000000004,
+          "target_family": "C4 local circle flattening of the double harmonic, with complementary mean correction",
+          "control_transition": 0.16,
+          "lock_fundamental": false,
+          "control_homotopy": "lambda compact + (1-lambda) identical represented low support moments",
+          "control_projection_order": 20,
+          "rho_triangle_upper": 1.2710700783614046,
+          "rho_value_roundoff_allowance": 5.30100603573274e-12,
+          "control_certificate": {
+            "base_mode": 4,
+            "modes": 20,
+            "halfwidth": 0.147,
+            "transition": 0.16,
+            "center": 0.7853981633974483,
+            "precision": 80,
+            "controls": 19,
+            "lock_fundamental": false,
+            "support_condition": 55450099.10034788,
+            "rho_condition": 588266038.0270208,
+            "high_precision_moment_residual": "4.5361812686e-75",
+            "coefficient_neumann_residual_upper": 4.779851842825191e-16,
+            "coefficient_inverse_error_upper": 7.217901145498596e-08,
+            "canonical_low_moments": "mean=0; support cosine coefficients at 2n,...,Mn form identity; the primary is zero only when explicitly locked",
+            "support_derivative_upper_bounds": [
+              [
+                9020764.818157721,
+                448819918.582763,
+                25080613655.320374,
+                1613750288785.7722,
+                117531579384121.47
+              ],
+              [
+                22335665.233489316,
+                1111368865.537683,
+                62108767224.36567,
+                3996446076223.7197,
+                291078861366410.0
+              ],
+              [
+                37721668.03076992,
+                1877125895.7787724,
+                104912824494.47777,
+                6751215742419.55,
+                491750530910872.44
+              ],
+              [
+                52696459.0232909,
+                2622649224.4405847,
+                146598047396.11246,
+                9434606938541.438,
+                687259549330971.8
+              ],
+              [
+                64975896.971362144,
+                3234305359.640082,
+                180815101366.38644,
+                11638121862827.879,
+                847856561202861.6
+              ],
+              [
+                72864699.8083898,
+                3627691752.054125,
+                202844593935.31488,
+                13057956576093.898,
+                951406579073839.8
+              ],
+              [
+                75503398.25211439,
+                3759929312.0041156,
+                210284276453.36462,
+                13539231139939.852,
+                986611112701687.2
+              ],
+              [
+                72931939.34456205,
+                3632852433.2902684,
+                203228630609.4183,
+                13087612098637.172,
+                953858589778314.9
+              ],
+              [
+                65974426.29093227,
+                3287312023.7294183,
+                183952483027.01303,
+                11849056224518.979,
+                863754977273265.1
+              ],
+              [
+                55988877.386166275,
+                2790763360.7606435,
+                156219411675.5379,
+                10065415142885.469,
+                733896497666636.0
+              ],
+              [
+                44551122.50915005,
+                2221566213.150105,
+                124405872838.77544,
+                8018154850589.146,
+                584775106127732.1
+              ],
+              [
+                33148025.768041164,
+                1653730408.8771856,
+                92649253988.39435,
+                5973565407417.006,
+                435789616949242.56
+              ],
+              [
+                22942616.38985185,
+                1145218806.1594317,
+                64193654688.14587,
+                4140638334843.7734,
+                302176227865959.4
+              ],
+              [
+                14647812.06786217,
+                731637299.4009107,
+                41035863651.12233,
+                2648216032896.5703,
+                193340089448020.22
+              ],
+              [
+                8514540.06170623,
+                425609544.89094746,
+                23888625388.275482,
+                1542536321358.479,
+                112671072769264.83
+              ],
+              [
+                4412791.735384588,
+                220778661.64265072,
+                12402621011.47757,
+                801430492383.674,
+                58572828058763.4
+              ],
+              [
+                1966916.8460850741,
+                98519018.19102189,
+                5540482048.381892,
+                358333352980.66785,
+                26208192719266.965
+              ],
+              [
+                702046.3870954696,
+                35217104.402596354,
+                1983409622.899154,
+                128432347450.1581,
+                9402803884971.377
+              ],
+              [
+                165811.52910557,
+                8337469.892965656,
+                470650395.82023114,
+                30535265102.546383,
+                2239178974764.2603
+              ]
+            ],
+            "scope": "Explicit supported functions and high-precision moment preconditioner; numerical evaluation and all reported sampled suprema are not interval geometry certificates.",
+            "unabridged_certificate_sha256": "c4283cc5a170ff1546766a34aff11c83e392fe08066f14ed9b281a660ca1b9c1",
+            "regenerable_tables_omitted": [
+              "fundamental_leakage",
+              "rho_derivative_upper_bounds"
+            ]
+          }
+        },
+        "summary": {
+          "metric_l1": 9.238525144286181e-07,
+          "flow_defect": 2.132571723980783e-05,
+          "darboux_l1": 0.0003646090169418993,
+          "kappa_sample": 6.998160518828923,
+          "radius_max": 1.0391152362759095,
+          "height_max": 0.7493097659099258,
+          "root_min": 0.002294595943676647,
+          "chart_rho_min": 0.775,
+          "support_amplitude": 0.015,
+          "terminal_height_coeff_max": 7.291082252366536e-06,
+          "physical_bc_max": 9.80191235483528e-15,
+          "samples_s": 1716,
+          "samples_psi": 1296,
+          "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+        }
+      },
+      "output_sha256": "0b32f3bcad5bf654f3fd0bac48b9424c5b1259c9d19bbb5ef2265f7359755ea1",
+      "checkpoint_sha256": "9ca7a00500fe9f51d3ed37c803517b31eeb65d238f6d91b8f897a5e15faeea76",
+      "coefficient_chunks": [
+        {
+          "file": "large-radius-eta010-vu035-q015-m20-lam0_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 61,
+          "bytes": 2227558,
+          "sha256": "937cfbd3fd915f6981a4f61dc12efba764bf34efd7153a79e93ccf7a7ad2cdec"
+        }
+      ],
+      "source_sha256": {
+        "combined_control_bounds.py": "d21c47280f5220c427b8cd1fbaab8254947a5a94c6b2ae998dece50fd0b3e20a",
+        "audit_bimodal_chart.py": "0b75b6bd9ec25542e7c70aca36ddbd4d9795e8d4b3b79b70246fbbdc72591aee",
+        "audit_local_target.py": "d89ac9be75921bbe1e9b3c7e5bfbc0abc5a89ebad3f376843f82faba7f5946eb",
+        "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+        "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+        "run_local_flatten.py": "44304d3f0a9e504c55ae2e920f7cf10930d2e1ac961bc10c78a2f0cb281ae6b7",
+        "audit_nested_projection.py": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780",
+        "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+        "publish_local_snapshot.py": "39d3ad1d9b8618c34f28cffb8e18e66eaf0e2effec07b184672c7f1c20854276",
+        "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "refine_fixed_large_radius.py": "8496e0f160eb8a8bbad67f375b20bc33a45ba814223969783958108264c6decf",
+        "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+        "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+        "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+        "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+        "run_bimodal_chart.py": "297e479cd1a9ee759fcb853928c8a98e0d2664269053756e6ce201c45202aa7f",
+        "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+        "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+        "audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878",
+        "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+        "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+        "refine_nested_prefix.py": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+        "dual_material_restart.py": "255a595d1279710cb5dab288c9c335d22eb74b3690bae9b44019405d6a4e4935",
+        "design_vu035.py": "3a9d08663341960cca877aa1e0c64a26b6d5ade71182f9dbd25ddb13fc040ac3",
+        "design_bridge_margin.py": "2d544af85a60ede491dff67d11b52264b49f64d36cea62cfd4497ea8073aac25",
+        "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+        "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+        "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+        "nested_large_radius_core.py": "c6c882d2c95accc3aefdf96d6985f65c343d0c7834072c69fef006fb8fe73b8c",
+        "run_local_material.py": "f8d3063fd14dbf2abaf3d88500fbc23128f4103bec67364efe3af6467f950827",
+        "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+        "linear_profile_amplification.py": "edd760ec34c623ce1030dcb1ad89531b68cde37403c6d8cd227108d39bd7f468",
+        "probe_actual_n4_tail.py": "12b110579ccbfa25f64d2db6c8c3ee8344b1589d43a742fc8548e882ef6386f3",
+        "screen_large_radius_eta.py": "b8f6150b4b59454a1c00718ca4421eed3dfe8f84fc2b725b6d7505a9b807d353",
+        "diagnose_bimodal_chart.py": "616f03f02c63484ef517d298a5198b14c24a1f27062e7f17bfc387f1c6ca3d2f",
+        "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+        "build_local_flatten.py": "0e755a108750bf7f894e52490b5bc4200a470d54465d77d26e37410d8d1f4b5b",
+        "fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+        "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+        "physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+        "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+        "run_large_radius_material_chain.py": "5c41ae54d352ccee3a677979ea92a1978c86a013c894eaa7e125dd70aa5e0d2f",
+        "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+        "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+      }
     }
   ],
   "operational_cancellations": [
