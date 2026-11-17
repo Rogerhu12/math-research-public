@@ -1,0 +1,255 @@
+{
+  "scope": "Sharper sufficient certificates for identical proposed local-circle core values; no circle BVP acceptance is asserted",
+  "outputs": {
+    "w016-q0125-m20-circle-seed-rho.json": {
+      "scope": "Sample the exact normal-angle rho of one material-homotopy initializer.\n\nOnly the proposed initial core is examined. The positive-lambda BVP is not\nsolved, and sampled positivity limits are not continuous geometry certificates.\n",
+      "checkpoint_sha256": "e0934630851e377d9a3ee617d6e397c8386f70c6156f410485e93df806bb7a39",
+      "physical_port_sha256": "b7f572c5dcb04b355c1dec7da5908bb0a30a5ac8e0b89c0919990438c399abb5",
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.35,
+        "ramp": 0.45,
+        "vd": 0.25018861537216824,
+        "delta": 0.03015813595363715
+      },
+      "q": 0.0125,
+      "modes": 20,
+      "eta": 0.1,
+      "rho0_sample_min": 0.8128988774087652,
+      "delta_rho_sample_min": -59.53866184121664,
+      "delta_rho_sample_max": 54.42032758386102,
+      "sampled_upper_lambda_for_this_unchanged_control_vector": 0.01877677571826842,
+      "rows": [
+        {
+          "homotopy": 1e-06,
+          "rho_min_sample": 0.8128846156785563
+        },
+        {
+          "homotopy": 1e-05,
+          "rho_min_sample": 0.8127562601066758
+        },
+        {
+          "homotopy": 0.0001,
+          "rho_min_sample": 0.8114727043878713
+        },
+        {
+          "homotopy": 0.001,
+          "rho_min_sample": 0.7986371471998266
+        },
+        {
+          "homotopy": 0.005,
+          "rho_min_sample": 0.7415902263640722
+        },
+        {
+          "homotopy": 0.01,
+          "rho_min_sample": 0.5225367733279692
+        }
+      ],
+      "source_sha256": "aac747ed893decece04ef0e972ff4772471a942f50828d9eb606495eee88631f"
+    },
+    "w016-q0125-m20-circle-core-guard.json": [
+      {
+        "homotopy": 0.0001,
+        "passed": true,
+        "rho_lower": 0.13185876773193106,
+        "grid": 2048,
+        "derivative_bound": 1772.157622818494,
+        "value_allowance": 2.8775755283592946e-11
+      },
+      {
+        "homotopy": 0.001,
+        "passed": true,
+        "rho_lower": 0.37409058574473464,
+        "grid": 32768,
+        "derivative_bound": 17712.72504193394,
+        "value_allowance": 2.765364464544533e-10
+      },
+      {
+        "homotopy": 0.005,
+        "passed": false,
+        "error": "FloatingPointError('Core rho guard unable to certify at its grid ceiling: (0.7415902263640722, -1.3810482923671015, 32768)')"
+      }
+    ],
+    "w016-q0125-m20-combined-circle-guard.json": {
+      "scope": "Same exact complete proposed input core. Only the sufficient complementary norm bound is combined before taking absolute values; no BVP acceptance asserted",
+      "input_sha256": "e0934630851e377d9a3ee617d6e397c8386f70c6156f410485e93df806bb7a39",
+      "source_sha256": "1746c45d2eeb32c6213527a8f855eda4b18ae649f3385684018047155b064b49",
+      "guard_definition": {
+        "source_sha256": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "replacements": [
+          [
+            "from complementary_moment_basis import ComplementaryMomentBasis",
+            "from complementary_moment_basis import ComplementaryMomentBasis\nfrom combined_control_bounds import bounds as _combined_control_bounds"
+          ],
+          [
+            "triangle=float(np.sum(abs(self.c)*rb))",
+            "combined_bounds=_combined_control_bounds(self.basis,self.c,self.lam) if self.basis is not None else (0.,0.)\n            triangle=combined_bounds[0]"
+          ],
+          [
+            "base_prime+float(np.sum(abs(self.c)*db))",
+            "base_prime+combined_bounds[1]"
+          ]
+        ],
+        "scope": "Sharpen the sufficient rho guard for the same complete local-circle core.\n\nAll core values, derivatives and equations remain identical. The actual\ncomplementary coefficient vector is combined before taking absolute bounds,\nincluding the original exact coefficient intervals and dot-product allowance.\nThe same rho floor, positivity grid ceiling and value allowance remain.\n"
+      },
+      "rows": [
+        {
+          "homotopy": 0.0001,
+          "passed": true,
+          "rho_lower": 0.1371177275197154,
+          "rho_min_sample": 0.8114727043878714,
+          "grid": 2048,
+          "derivative_bound": 1758.4443877399247,
+          "value_allowance": 2.856268284758678e-11
+        },
+        {
+          "homotopy": 0.001,
+          "passed": true,
+          "rho_lower": 0.3773774355268311,
+          "rho_min_sample": 0.7986371471998266,
+          "grid": 32768,
+          "derivative_bound": 17575.592694789128,
+          "value_allowance": 2.744057230046112e-10
+        },
+        {
+          "homotopy": 0.005,
+          "passed": false,
+          "error": "FloatingPointError('Core rho guard unable to certify at its grid ceiling: (0.7415902263640722, -1.3646140434954037, 32768)')"
+        },
+        {
+          "homotopy": 0.01,
+          "passed": false,
+          "error": "FloatingPointError('Core rho guard unable to certify at its grid ceiling: (0.522536773327969, -3.689848194264608, 32768)')"
+        }
+      ]
+    },
+    "w016-q0125-m20-second-order-circle-guard.json": {
+      "scope": "Same exact complete proposed input core. The original two sufficient bounds are retained, and the C2 interpolation bound is added; no BVP acceptance asserted",
+      "input_sha256": "e0934630851e377d9a3ee617d6e397c8386f70c6156f410485e93df806bb7a39",
+      "source_sha256": "fb8eafde33b5cf05148e0db312011995c04ab388419461f82f8b542888d2c20c",
+      "guard_definition": {
+        "source_sha256": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "replacements": [
+          [
+            "rb=db=np.zeros(0);control_error=0.",
+            "rb=db=ddb=np.zeros(0);control_error=0."
+          ],
+          [
+            "rb,db,_=self.basis.homotopy_rho_bounds(self.lam)",
+            "rb,db,ddb=self.basis.homotopy_rho_bounds(self.lam)"
+          ],
+          [
+            "            # Coefficient uncertainty is certified by rational moment intervals.",
+            "            # |chi'| <= (630/256)/eps and |chi''| <= (2520/64)/eps**2.\n            # For delta=s+beta-C, |delta| <= f*(1+2*eta)+|beta|+|C|.\n            # rho''=q*((1-lambda*chi)*s''-2*lambda*chi'*s'-lambda*chi''*delta)\n            #        + the full complementary rho''; 0 <= lambda*chi <= 1.\n            n=self.base_mode;eta=self.bimodal_eta;factor=self.factor\n            smooth_first=factor*n*(1+3*eta)\n            smooth_second=factor*n*n*(1+5*eta)\n            delta_upper=factor*(1+2*eta)+abs(self.local_flatten_beta)+abs(self._circle_constant)\n            base_second=self.q*(smooth_second+self.lam*(2*(630/256)/self.transition*smooth_first+(2520/64)/self.transition**2*delta_upper))\n            self.rho_second_derivative_bound=math.nextafter((base_second+float(np.sum(abs(self.c)*ddb)))*(1+128*np.finfo(float).eps),math.inf)\n            # Coefficient uncertainty is certified by rational moment intervals."
+          ],
+          [
+            "                self.rho_lower=max(self.rho_triangle_lower,float(rr.min()-slack))\n                self.rho_upper=min(self.rho_triangle_upper,float(rr.max()+slack))",
+            "                second_slack=math.nextafter((self.T/count)**2*self.rho_second_derivative_bound/8*(1+128*np.finfo(float).eps)+self.rho_value_roundoff_allowance,math.inf)\n                self.rho_lower=max(self.rho_triangle_lower,float(rr.min()-slack),float(rr.min()-second_slack))\n                self.rho_upper=min(self.rho_triangle_upper,float(rr.max()+slack),float(rr.max()+second_slack))"
+          ],
+          [
+            "                       rho_value_roundoff_allowance=self.rho_value_roundoff_allowance,",
+            "                       rho_value_roundoff_allowance=self.rho_value_roundoff_allowance,\n                       rho_second_derivative_bound=self.rho_second_derivative_bound,\n                       positivity_certificate='Maximum of original triangle, original first-derivative grid, and C2 interpolation bound',"
+          ]
+        ],
+        "scope": "Add a C2 interpolation certificate to the same complete core rho guard.\n\nOn each angular grid interval of length h, a C2 function differs from its\nlinear interpolant by at most h*h*sup(abs(f''))/8. Keep both original lower\nbounds and add this third sufficient bound. All core values, rho floor,\nmaximum grid size, coefficient intervals and point-value allowance remain.\n"
+      },
+      "rows": [
+        {
+          "homotopy": 0.0001,
+          "passed": true,
+          "rho_lower": 0.6596972614218594,
+          "rho_min_sample": 0.8114727043878714,
+          "grid": 512,
+          "derivative_bound": 1772.157622818494,
+          "second_derivative_bound": 129000.58027516078,
+          "value_allowance": 2.8775755283592946e-11
+        },
+        {
+          "homotopy": 0.001,
+          "passed": true,
+          "rho_lower": 0.4192107418825476,
+          "rho_min_sample": 0.7986371471998266,
+          "grid": 1024,
+          "derivative_bound": 17712.72504193394,
+          "second_derivative_bound": 1289964.3176719886,
+          "value_allowance": 2.765364464544533e-10
+        },
+        {
+          "homotopy": 0.005,
+          "passed": true,
+          "rho_lower": 0.26730857449682094,
+          "rho_min_sample": 0.7415902263640722,
+          "grid": 2048,
+          "derivative_bound": 88559.6913491137,
+          "second_derivative_bound": 6449803.15054678,
+          "value_allowance": 1.3776950738804995e-09
+        },
+        {
+          "homotopy": 0.01,
+          "passed": true,
+          "rho_lower": 0.28554438683776934,
+          "rho_min_sample": 0.52268513009848,
+          "grid": 4096,
+          "derivative_bound": 177118.3992330884,
+          "second_derivative_bound": 12899601.691640269,
+          "value_allowance": 2.754143358163058e-09
+        }
+      ]
+    }
+  },
+  "output_sha256": {
+    "w016-q0125-m20-circle-seed-rho.json": "517fd32be509dc1d28e62c764233d6f88d1a6f87233359bdee2dbbcf945127ee",
+    "w016-q0125-m20-circle-core-guard.json": "acef20005194543a6fa22c2884dd13f5736719e551d2671a563058bee7643157",
+    "w016-q0125-m20-combined-circle-guard.json": "6f9f80ddeba606e98db128a6a3f4dc65ecadff4d3a6e8468c0557e0e967438b3",
+    "w016-q0125-m20-second-order-circle-guard.json": "705103797ce407e9dfaaa541df2e587e9495e524d52d54ab05e5dfbe43f04b84"
+  },
+  "source_sha256": {
+    "second_order_large_radius_core.py": "ea0e0e70b704d83b4c5fc3bcc13f1b84f2161fc274c898f65f498e7a9a3f0c94",
+    "run_tight_material_circle.py": "1841269056757652dd5c6582f89d7b9531d843eae19fcad608fc43ad1f0072cf",
+    "trace_domain_newton.py": "75647718cfcb83b70be3446d236693dbf66426ea3861c92d7ffc0a527ac952ee",
+    "scan_circle_seed_rho.py": "aac747ed893decece04ef0e972ff4772471a942f50828d9eb606495eee88631f",
+    "diagnose_original_circle_guard.py": "09bb3335476075b2becccd92b5234543d49874288d4a2b6f475a5437d7020271",
+    "diagnose_second_order_circle_guard.py": "fb8eafde33b5cf05148e0db312011995c04ab388419461f82f8b542888d2c20c",
+    "combined_large_radius_core.py": "97c6d10c2fcd3f84ce0bd9a3dc75c0fe68e663618556844b123d3c5317082216",
+    "diagnose_combined_circle_guard.py": "1746c45d2eeb32c6213527a8f855eda4b18ae649f3385684018047155b064b49"
+  },
+  "commands": [
+    "python -u scan_circle_seed_rho.py --checkpoint /workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q0125-m16-lam0.json.gz --modes 20 --out w016-q0125-m20-circle-seed-rho.json",
+    "python -u - (literal stdin source preserved in diagnose_original_circle_guard.py)",
+    "python -u diagnose_combined_circle_guard.py",
+    "python -u diagnose_second_order_circle_guard.py"
+  ],
+  "subsequent_run": {
+    "name": "w016-eta010-q0125-m20-circle",
+    "state": "Started; BVP outcome not yet recorded",
+    "q": 0.0125,
+    "modes": 20,
+    "angular": 1280,
+    "lambdas": [
+      0.001,
+      0.002,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.7,
+      1.0
+    ],
+    "tol": 3e-07,
+    "max_nodes": 3200,
+    "port": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json",
+    "profile": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/design/peak0.2-profile.json",
+    "restart": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q0125-m16-lam0.json.gz"
+  }
+}
