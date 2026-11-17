@@ -1,0 +1,64 @@
+{
+  "scope": "Sampled finite-flow chart audit; true quadrature/mode/depth convergence remains separate.",
+  "input": "nonlinear_tail_work/original_negative_m8_lowfloor_run/response_0003.json.gz",
+  "M": 8,
+  "N": 128,
+  "steps": 32,
+  "stage": 9,
+  "rawCell": 0,
+  "rawSegment": 4,
+  "x": 0.84375,
+  "r": 0.2526298661353142,
+  "w": 0.0035806129653297588,
+  "wr": -0.001027491992155442,
+  "theta": 0,
+  "minA": 0.0026304099798643735,
+  "D": 1.0000126904407125,
+  "S": 1,
+  "targetGaussCurvature": -1.4562636121769528e-05,
+  "formalSecondForm": {
+    "a": -0.01835589118470677,
+    "b": 0,
+    "c": 3.728126086255193e-05,
+    "det": -6.843307676216705e-07,
+    "gaussDifference": 1.3878305354147858e-05
+  },
+  "actualGeometry": {
+    "metric": 3.889910973565384e-09,
+    "fullTensorFrobeniusBound": 1.3878305405144904e-05,
+    "actualCurvature": 0.01835589112345119,
+    "areaNormalized": 1.0000000019449553,
+    "tangentNorms": [
+      1.0000000019449553,
+      1
+    ],
+    "hessianNorms": [
+      0.018355891194875476,
+      5.1265530076564505e-19,
+      3.7281258877933926e-05
+    ],
+    "targetGaussCurvature": -1.4562636121769528e-05,
+    "metricEntries": [
+      3.889910973565384e-09,
+      5.23733239854733e-22,
+      5.770916368390998e-23
+    ]
+  },
+  "finiteRootGram": {
+    "size": 9,
+    "eigenvalues": [
+      0.06859234157476951,
+      0.40264869775849155,
+      0.6213556208754569,
+      0.8020645211806074,
+      0.9924395287914738,
+      1.1632636362325057,
+      1.3036466059323328,
+      1.38773029184764,
+      1.4207516209961266
+    ],
+    "minimum_eigenvalue": 0.06859234157476951,
+    "maximum_eigenvalue": 1.4207516209961266,
+    "condition": 20.712977402111683
+  }
+}

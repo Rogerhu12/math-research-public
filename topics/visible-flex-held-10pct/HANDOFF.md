@@ -7,7 +7,7 @@
 构造连通闭曲面的连续C²等距嵌入族，固定有内点的闭H，diam F₀(H)≥.2D；整像Hausdorff变化δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g、物理参数和时间范围下，最大相对度量误差≤1e−6且加密下降。材料点位移不是δ_hold；优化success不是数学完成。
 
 - 已部分克隆并真实pull main，根README（含授权）和题README全文已读。仅本题及其workflow稀疏检出。
-- 已读规则提交：`59692604c03f8497c1cec9e9a6834643755e49d5`。2026-11-17 21:48:58（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:48:58；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`1d418af36a9d21315467aaca922534fa4457b1e6`。2026-11-17 21:51:05（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:51:05；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同时更新本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用，不存文件。
 - 只有完整证明进results；数值证据、条件假设与缺口分别写明。可重算数组/网格/渲染/CI artifact不提交，只存脚本、参数、运行ID/hash。单Markdown<100KB，本文件<10KB；不写根LOG。
 
@@ -23,7 +23,7 @@
 
 [R7](results/R7-twofold-markers-core-moment-and-geometry.md)已为二重对称闭族证明固定双帽的δE>0机制，给显式C² bump、曲率/面法线支撑界与当前q20核心矩Re A_C>.11262048876的有理下界；只在真实闭族/接口成立时适用。
 
-关键缺口：有限线性DN并非实际非线性尾，完整Cartesian两jet/均值尚未与尾联立。new_construction正在用原真实momentum/radicand/multiple-shooting worker延拓q18的±λH；已核清upper正确给orientation+1 worker输入−H并整体反射z，旧线性D比值掩盖此符号。先算真实λ支与接头，再必要时重求prefix；不把线性容量当非线性上界。literature继续q21/q22与全prefix外向X·n/尺寸审计。
+真实非线性尾首批已发表scripts/nonlinear_tail与nonlinear-tail-stage1笔记：upper输入必须−λH，再整体反射z/平移。原物理g、深度160，有限非线性深度8的M8支到λ=.0781（minA=.00263）；λ=.07同g M8→M12 metric2.63e−8→4.73e−9。仍远未到λ=1；完整Cartesian两jet接口已能实测但未匹配。A谷上Kg<0而c很小，有限Gauss缺陷约1.39e−5；小metric不能代替C²相容。有限Gram可逆的代数仅限固定M，不给穿零极限。新首cell宽脉冲的原深尾逐对象保留，但DN改变，须重匹配prefix。正在试真正常w平谷、M16同g二jet及新DN回馈；不把线性容量或guard失败当非存在。
 
 ## 主线B：精确圆弧核心与换握持
 

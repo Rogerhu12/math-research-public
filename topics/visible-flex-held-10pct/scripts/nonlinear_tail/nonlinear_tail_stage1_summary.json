@@ -1,0 +1,2102 @@
+{
+  "scope": "Completed finite nonlinear experiments only; no joined closed candidate and no nonexistence claim.",
+  "height_trace_sha256": "73a83713ec4b64df8e26c9fd3889bda4a28513069accb0b7b21b0b0f880c0b55",
+  "experiments": [
+    {
+      "run": "original_m8_run",
+      "source_summary_sha256": "31f1fc6c3c19c2901b53d47f2899564d1871f9a9f4dc3aa859c5b689d2327fe6",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-09,
+        "auditSteps": 32,
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_m8_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_m8_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_m8_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "db6f-prefix-tail-trial-worker.mjs",
+      "worker_sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": 0.0001,
+          "seconds": 29.062659284999427,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "d1c5b85bc29cd3d4d40174f9cb3635b91b100b41a14cf528a9c2f18301deeb43",
+          "residual": 1.6829770506233092e-10,
+          "audit": {
+            "fullD": 1.0322829721951517e-11,
+            "normalizedFullDefect": 8.499987877181452e-11,
+            "minLeading": 0.9989429325422507,
+            "minD": 0.9999995134293879,
+            "formalCurvature": 7.994260716946583,
+            "maxPhysicalPV": 4.4236080733423244e-07,
+            "actualMetric": 5.108048253511361e-15,
+            "holonomy": 6.4987961813111465e-22
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9989427657544928,
+          "final_minD": 0.9999995133080011,
+          "linear_prefix_radial_slope_mismatch_l1": 2.0270637995879055e-11
+        },
+        {
+          "lam": 0.0003,
+          "seconds": 27.88041384400003,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "ff57f3796866668e282193886ce919b49a4f3b231660a84b7aaea2f21c93b9aa",
+          "residual": 1.1219847004155395e-10,
+          "audit": {
+            "fullD": 9.289915298281627e-11,
+            "normalizedFullDefect": 7.645171605161204e-10,
+            "minLeading": 0.9968276788434862,
+            "minD": 0.9999985402495296,
+            "formalCurvature": 7.994260716947024,
+            "maxPhysicalPV": 1.327082422002699e-06,
+            "actualMetric": 4.1744386221191044e-14,
+            "holonomy": 1.778024726682733e-21
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9968271750979265,
+          "final_minD": 0.9999985398853687,
+          "linear_prefix_radial_slope_mismatch_l1": 1.8213151712436003e-10
+        },
+        {
+          "lam": 0.001,
+          "seconds": 48.7502398430006,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "fa655b2689aa1f3c408cf458dd9dd3bfee91e093298dcd2579a30fac65b24033",
+          "residual": 6.731908202493235e-11,
+          "audit": {
+            "fullD": 1.0319614685464722e-09,
+            "normalizedFullDefect": 8.475798417284519e-09,
+            "minLeading": 0.9894125390375502,
+            "minD": 0.9999951337154592,
+            "formalCurvature": 7.994260716948569,
+            "maxPhysicalPV": 4.423608073342331e-06,
+            "actualMetric": 4.587441538552515e-13,
+            "holonomy": 2.715840746164728e-21
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9894108201115277,
+          "final_minD": 0.9999951325015835,
+          "linear_prefix_radial_slope_mismatch_l1": 2.0317622102278686e-09
+        },
+        {
+          "lam": 0.003,
+          "seconds": 30.45111154299957,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0004.json.gz",
+          "response_sha256": "19530eb19e0ec099c81c5d0e58024ea99081098319c43841f2dd380ceb38de94",
+          "residual": 4.368015245030065e-11,
+          "audit": {
+            "fullD": 9.280755022824572e-09,
+            "normalizedFullDefect": 7.578932920138112e-08,
+            "minLeading": 0.9681255798540391,
+            "minD": 0.9999853973202297,
+            "formalCurvature": 7.994260716952972,
+            "maxPhysicalPV": 1.3270824220026997e-05,
+            "actualMetric": 4.124478536662945e-12,
+            "holonomy": 1.98622608686233e-20
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9681200738118069,
+          "final_minD": 0.9999853936785501,
+          "linear_prefix_radial_slope_mismatch_l1": 1.8544090183418562e-08
+        },
+        {
+          "lam": 0.01,
+          "seconds": 31.1385412059999,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0005.json.gz",
+          "response_sha256": "7b6db56f3cf9ab9ce94bd9070c097c50f40feeff2c036edcf6d86aa6cb269d3f",
+          "residual": 1.679009080143838e-10,
+          "audit": {
+            "fullD": 1.0280238954175178e-07,
+            "normalizedFullDefect": 8.219551961841097e-07,
+            "minLeading": 0.8924392369755109,
+            "minD": 0.9999512808398274,
+            "formalCurvature": 7.994260716968224,
+            "maxPhysicalPV": 4.4236080733423325e-05,
+            "actualMetric": 4.573608158874489e-11,
+            "holonomy": 3.9348981739147526e-20
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.8924175444841769,
+          "final_minD": 0.9999512687002904,
+          "linear_prefix_radial_slope_mismatch_l1": 2.1620153811760175e-07
+        },
+        {
+          "lam": 0.02,
+          "seconds": 43.90776136000022,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0006.json.gz",
+          "response_sha256": "96cef41805e81fa217d4c778f2d0de1652d197bbfa8989d4ffe8883bc3dc4988",
+          "residual": 9.922588464817646e-10,
+          "audit": {
+            "fullD": 4.092251450347516e-07,
+            "normalizedFullDefect": 3.1983336320068326e-06,
+            "minLeading": 0.7810908660085618,
+            "minD": 0.9999024429979151,
+            "formalCurvature": 7.994260716989042,
+            "maxPhysicalPV": 8.847216146684664e-05,
+            "actualMetric": 1.8244894484099e-10,
+            "holonomy": 1.5081487800311822e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.7810541952774338,
+          "final_minD": 0.9999024187171315,
+          "linear_prefix_radial_slope_mismatch_l1": 9.222054987360944e-07
+        },
+        {
+          "lam": 0.04,
+          "seconds": 55.55955494400041,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0007.json.gz",
+          "response_sha256": "17f7bf4993ce0f157a13b1567e2a2e1cb8e2ce17a91a53a7f1c150251ead8cc7",
+          "residual": 9.922588464817646e-10,
+          "audit": {
+            "fullD": 1.6547341511353789e-06,
+            "normalizedFullDefect": 0.0001561291444279917,
+            "minLeading": 0.5471295052068352,
+            "minD": 0.999804452866666,
+            "formalCurvature": 7.994260717024311,
+            "maxPhysicalPV": 0.00017694432293369327,
+            "actualMetric": 7.421714354194577e-10,
+            "holonomy": 1.0902736781816437e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.5470920750575025,
+          "final_minD": 0.9998044042982517,
+          "linear_prefix_radial_slope_mismatch_l1": 4.14215753921833e-06
+        },
+        {
+          "lam": 0.06,
+          "seconds": 0.5375616319997789,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0008.json.gz",
+          "response_sha256": "889200ccc171e7e9326407b269aedabe8c0ba093f81fc5db7940f7c093a89285",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 11.856879482012447,
+        "min": -13.004561762822592,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "original_negative_m8_run",
+      "source_summary_sha256": "a964962e8d0d6ac92691eeedb0014fcca1f140c8bb3cb3feb7709aa7ca8271c3",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-09,
+        "auditSteps": 32,
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "db6f-prefix-tail-trial-worker.mjs",
+      "worker_sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.0001,
+          "seconds": 21.644872357000168,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "1ed221fba4b090f0e3cf0ff23f5b5723382f1658ce52898e32141efeafa313fb",
+          "residual": 2.5244655759349634e-10,
+          "audit": {
+            "fullD": 1.0323523980774854e-11,
+            "normalizedFullDefect": 8.505327974035747e-11,
+            "minLeading": 0.9989652581657041,
+            "minD": 0.9999993395528841,
+            "formalCurvature": 7.994260716946583,
+            "maxPhysicalPV": 4.4236080733423244e-07,
+            "actualMetric": 5.32994002812731e-15,
+            "holonomy": 6.536859414185657e-22
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9989652581657041,
+          "final_minD": 0.9999993393675443,
+          "linear_prefix_radial_slope_mismatch_l1": 2.0051483693584877e-11
+        },
+        {
+          "lam": -0.0003,
+          "seconds": 25.921409167000093,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "0450f05523028363ff2d6edbf0dc7c928d248eb885f572c85ee2f039541af060",
+          "residual": 1.1219847004155395e-10,
+          "audit": {
+            "fullD": 9.29178973373237e-11,
+            "normalizedFullDefect": 7.659590008698286e-10,
+            "minLeading": 0.9968944570211187,
+            "minD": 0.9999980185881241,
+            "formalCurvature": 7.994260716947024,
+            "maxPhysicalPV": 1.327082422002699e-06,
+            "actualMetric": 4.196650937468731e-14,
+            "holonomy": 1.7843836776417344e-21
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9968944570211187,
+          "final_minD": 0.9999980180320985,
+          "linear_prefix_radial_slope_mismatch_l1": 1.807673529046072e-10
+        },
+        {
+          "lam": -0.001,
+          "seconds": 28.770834229000684,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "46c19ba785d4323a46623c64f2a8c9512da559103c51064b9d29b38330513480",
+          "residual": 6.731908202493235e-11,
+          "audit": {
+            "fullD": 1.0326556146231399e-09,
+            "normalizedFullDefect": 8.52921041606669e-09,
+            "minLeading": 0.9896329663455914,
+            "minD": 0.9999933944720185,
+            "formalCurvature": 7.994260716948569,
+            "maxPhysicalPV": 4.423608073342331e-06,
+            "actualMetric": 4.591882433902528e-13,
+            "holonomy": 2.7276280698936088e-21
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9896329663455916,
+          "final_minD": 0.9999933926185313,
+          "linear_prefix_radial_slope_mismatch_l1": 2.000418954537365e-09
+        },
+        {
+          "lam": -0.003,
+          "seconds": 40.82685012000002,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0004.json.gz",
+          "response_sha256": "9952bc53fdd80405e443c54044757b92d3b45dea2abe4034d2d45c9ff3c15995",
+          "residual": 1.0336029650851715e-10,
+          "audit": {
+            "fullD": 9.299474273302211e-09,
+            "normalizedFullDefect": 7.723393622913187e-08,
+            "minLeading": 0.968772217081775,
+            "minD": 0.9999801764008936,
+            "formalCurvature": 7.994260716952969,
+            "maxPhysicalPV": 1.3270824220026993e-05,
+            "actualMetric": 4.1289194289866044e-12,
+            "holonomy": 2.0249381395298117e-20
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9687722170817754,
+          "final_minD": 0.9999801708398435,
+          "linear_prefix_radial_slope_mismatch_l1": 1.7743284277793915e-08
+        },
+        {
+          "lam": -0.01,
+          "seconds": 44.26178220800011,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0005.json.gz",
+          "response_sha256": "7f940230acd16bc312dda27507ad138ccfaceddf5261eba0e8e408ed7f2b35bc",
+          "residual": 9.922588464817646e-10,
+          "audit": {
+            "fullD": 1.034850064501546e-07,
+            "normalizedFullDefect": 8.762529363007252e-07,
+            "minLeading": 0.8945816537688843,
+            "minD": 0.9999338405743,
+            "formalCurvature": 7.9942607169682045,
+            "maxPhysicalPV": 4.423608073342332e-05,
+            "actualMetric": 4.590239299774483e-11,
+            "holonomy": 4.689617764808135e-20
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.894581653768886,
+          "final_minD": 0.999933822030607,
+          "linear_prefix_radial_slope_mismatch_l1": 1.8670510781377732e-07
+        },
+        {
+          "lam": -0.02,
+          "seconds": 45.04278470300051,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0006.json.gz",
+          "response_sha256": "19b9a1821c66cf58b6fd253d11475cbdad30559da24e2ef35d7c047eef49199b",
+          "residual": 9.922588464817646e-10,
+          "audit": {
+            "fullD": 4.1425205132589944e-07,
+            "normalizedFullDefect": 3.6065369554277847e-06,
+            "minLeading": 0.7862427567022281,
+            "minD": 0.9998674561150386,
+            "formalCurvature": 7.994260716988963,
+            "maxPhysicalPV": 8.847216146684664e-05,
+            "actualMetric": 1.8356560715923102e-10,
+            "holonomy": 1.3211728743696958e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.7862427567022315,
+          "final_minD": 0.9998674190080891,
+          "linear_prefix_radial_slope_mismatch_l1": 6.85577608768497e-07
+        },
+        {
+          "lam": -0.04,
+          "seconds": 47.93193978199997,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0007.json.gz",
+          "response_sha256": "804b87368f2fc80ee502d2505934b3f553c0a102eb6141dfd32ae026ba9a2655",
+          "residual": 9.64467546855584e-10,
+          "audit": {
+            "fullD": 1.6454601410002781e-06,
+            "normalizedFullDefect": 4.581975441920171e-05,
+            "minLeading": 0.5620498946683308,
+            "minD": 0.9997340520404548,
+            "formalCurvature": 8.001861989016353,
+            "maxPhysicalPV": 0.0001769443229336932,
+            "actualMetric": 7.285043679416999e-10,
+            "holonomy": 1.5975173734114113e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.5620189377224919,
+          "final_minD": 0.9997339777484031,
+          "linear_prefix_radial_slope_mismatch_l1": 2.608854203370244e-06
+        },
+        {
+          "lam": -0.06,
+          "seconds": 0.5856605089993536,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0008.json.gz",
+          "response_sha256": "47f14104cf77dd8e6e5867278680adc573b05f3b20267b5ef50ce51d8ec6988e",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 11.856879482012447,
+        "min": -13.004561762822592,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "original_negative_tangent_resume_run",
+      "source_summary_sha256": "a7f9f6214d75382bc659d0c68588e7f31be0ecd53c4ca34aedbead73322cd1bf",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-09,
+        "auditSteps": 32,
+        "initialCheckpoint": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_run/response_0007.json.gz",
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "78718-prefix-tail-tangent-fourier-worker.mjs",
+      "worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.045,
+          "seconds": 44.929388269999436,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "0175d6dba7640c34d9a17171fe887852ca57cbcccae03b17eaafbb485d09052e",
+          "residual": 8.820078635393462e-10,
+          "audit": {
+            "fullD": 2.0653070549837186e-06,
+            "normalizedFullDefect": 0.00014402321242192346,
+            "minLeading": 0.5031376142409372,
+            "minD": 0.9997005762244019,
+            "formalCurvature": 8.005681371286363,
+            "maxPhysicalPV": 0.0001990623633004049,
+            "actualMetric": 9.14508246907531e-10,
+            "holonomy": 2.4309183841708377e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.5031136622224789,
+          "final_minD": 0.9997004926238422,
+          "linear_prefix_radial_slope_mismatch_l1": 3.408640260330388e-06
+        },
+        {
+          "lam": -0.05,
+          "seconds": 67.3352108400004,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "34339c204b0c9116c6287be8adcdad62f0f5d183659ef39050b99ffcbfa24ff7",
+          "residual": 3.9690353859270583e-10,
+          "audit": {
+            "fullD": 2.5087798681299177e-06,
+            "normalizedFullDefect": 0.00039514442224225234,
+            "minLeading": 0.4433905880921575,
+            "minD": 0.9996670532967074,
+            "formalCurvature": 8.00975327018143,
+            "maxPhysicalPV": 0.0002211804036671166,
+            "actualMetric": 1.1112983866468126e-09,
+            "holonomy": 4.572091943376601e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.44337822253114045,
+          "final_minD": 0.9996669603827119,
+          "linear_prefix_radial_slope_mismatch_l1": 4.3415294977725055e-06
+        },
+        {
+          "lam": -0.055,
+          "seconds": 48.26515746000041,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "0816e8ee786cdce8534bf3f59c3e231765cfceaa465ca71521b806c13741619e",
+          "residual": 3.6082139872064176e-10,
+          "audit": {
+            "fullD": 6.034323272234983e-06,
+            "normalizedFullDefect": 0.0009742580456722295,
+            "minLeading": 0.38292619549253865,
+            "minD": 0.999633484850289,
+            "formalCurvature": 8.014236626109648,
+            "maxPhysicalPV": 0.00024329844403382818,
+            "actualMetric": 2.6529264340879885e-09,
+            "holonomy": 5.428587836838508e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.38292619549253865,
+          "final_minD": 0.9996333826178899,
+          "linear_prefix_radial_slope_mismatch_l1": 5.417281646888237e-06
+        },
+        {
+          "lam": -0.06,
+          "seconds": 46.89887367399933,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0004.json.gz",
+          "response_sha256": "6f409c989de617f2cc6c98d42e5d5e7e9b912ac3c1775c1b27d1c2920df2241c",
+          "residual": 1.43614041653189e-10,
+          "audit": {
+            "fullD": 1.4436243198746168e-05,
+            "normalizedFullDefect": 0.0022009716090568253,
+            "minLeading": 0.32197738965206196,
+            "minD": 0.9995998726619483,
+            "formalCurvature": 8.018901802385832,
+            "maxPhysicalPV": 0.00026541648440053984,
+            "actualMetric": 6.274665675931601e-09,
+            "holonomy": 4.974250613587632e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.32197738965206196,
+          "final_minD": 0.9995997611061153,
+          "linear_prefix_radial_slope_mismatch_l1": 6.646799567047187e-06
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 11.856879482012447,
+        "min": -13.004561762822592,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "original_negative_tangent_resume2_run",
+      "source_summary_sha256": "3798126fd54d17b570d4d3f3340e7aa6951cbd4be0571fb22067c9ec4c9092e6",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-09,
+        "auditSteps": 32,
+        "initialCheckpoint": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume_run/response_0004.json.gz",
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume2_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume2_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume2_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "78718-prefix-tail-tangent-fourier-worker.mjs",
+      "worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.0625,
+          "seconds": 57.82787976700001,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 1.2700913234966587e-9', 'residual': None, 'lastIteration': {'iteration': 3, 'norm': 1.2700913234966587e-09, 'minA': 0.2914570390321498, 'minD': 0.9995829345703657, 'chartCondition': 3773.545789029712}}\")",
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "1d20ce1d903b2c6221b1cc5f760483fe66ec666f7dcc3f15c62e292aafbd33d2",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: multiple-shooting line search failed at 1.2700913234966587e-9",
+          "lastIteration": {
+            "iteration": 3,
+            "norm": 1.2700913234966587e-09,
+            "minA": 0.2914570390321498,
+            "minD": 0.9995829345703657,
+            "chartCondition": 3773.545789029712
+          }
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 11.856879482012447,
+        "min": -13.004561762822592,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "original_negative_m8_tol8_run",
+      "source_summary_sha256": "923eb55ddce714caffa2db902c0259796e55ba360fcd51ed331407fb242103cd",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-08,
+        "auditSteps": 32,
+        "initialCheckpoint": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_tangent_resume2_run/response_0001.json.gz",
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_tol8_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_tol8_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_tol8_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "78718-prefix-tail-tangent-fourier-worker.mjs",
+      "worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.0625,
+          "seconds": 14.943396140000004,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "ab9b487690be141964e94c2972af0c39f70cea1b71915c31297c18c254511275",
+          "residual": 5.3704888708491514e-11,
+          "audit": {
+            "fullD": 2.1426405576108625e-05,
+            "normalizedFullDefect": 0.0032150071759109522,
+            "minLeading": 0.2914570390321508,
+            "minD": 0.9995830507898306,
+            "formalCurvature": 8.021401494018335,
+            "maxPhysicalPV": 0.00027647550458389576,
+            "actualMetric": 9.257533184481304e-09,
+            "holonomy": 5.4782021299794385e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.2914570390321508,
+          "final_minD": 0.9995829345703657,
+          "linear_prefix_radial_slope_mismatch_l1": 7.3230687048890324e-06
+        },
+        {
+          "lam": -0.065,
+          "seconds": 36.09321044100034,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "12a9f662f1634f8a937ae3a4b5ef097b23f5470fcf345486f278fbd097039cf2",
+          "residual": 4.884966628833303e-09,
+          "audit": {
+            "fullD": 3.1120630725392704e-05,
+            "normalizedFullDefect": 0.004615297400679335,
+            "minLeading": 0.2610354323763699,
+            "minD": 0.9995662187766948,
+            "formalCurvature": 8.024049489951407,
+            "maxPhysicalPV": 0.00028753452476725134,
+            "actualMetric": 1.3363137929545134e-08,
+            "holonomy": 1.2241611321294767e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.2610354323763718,
+          "final_minD": 0.9995660978923004,
+          "linear_prefix_radial_slope_mismatch_l1": 8.042677492054279e-06
+        },
+        {
+          "lam": -0.0675,
+          "seconds": 35.98226077799973,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "48858da864fad194baa6d159799e02b596f809bbb307eb0957bbf89fbc53f0d1",
+          "residual": 1.1760104847191285e-09,
+          "audit": {
+            "fullD": 4.4351728760603265e-05,
+            "normalizedFullDefect": 0.006517685488423621,
+            "minLeading": 0.2308803832470035,
+            "minD": 0.9995493769438777,
+            "formalCurvature": 8.026761062153819,
+            "maxPhysicalPV": 0.0002985935449506072,
+            "actualMetric": 1.892258905122901e-08,
+            "holonomy": 1.5684006158495447e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.2308803832470035,
+          "final_minD": 0.9995492513932348,
+          "linear_prefix_radial_slope_mismatch_l1": 8.807620604075765e-06
+        },
+        {
+          "lam": -0.07,
+          "seconds": 35.44414476699967,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0004.json.gz",
+          "response_sha256": "d44a8858b5ae73fe4049cb59c0f0ee011584adbebb6365ccfd0871cc0868f338",
+          "residual": 2.268020220529747e-09,
+          "audit": {
+            "fullD": 6.214548489671734e-05,
+            "normalizedFullDefect": 0.00906265072969977,
+            "minLeading": 0.20127359211761578,
+            "minD": 0.9995325256557669,
+            "formalCurvature": 8.029547004291246,
+            "maxPhysicalPV": 0.0003096525651339632,
+            "actualMetric": 2.633777984595298e-08,
+            "holonomy": 3.193512734495725e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.2012735921176161,
+          "final_minD": 0.9995323954375285,
+          "linear_prefix_radial_slope_mismatch_l1": 9.620174047573767e-06
+        },
+        {
+          "lam": -0.0725,
+          "seconds": 38.77320991000033,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0005.json.gz",
+          "response_sha256": "562ff10180b2e6bbe8bd596cbf9b6555ef6b959ccf8b819f68a29277c722f2f4",
+          "residual": 1.0949063133591887e-09,
+          "audit": {
+            "fullD": 8.577829078709257e-05,
+            "normalizedFullDefect": 0.012421494319057862,
+            "minLeading": 0.1727329814051426,
+            "minD": 0.9995156653409323,
+            "formalCurvature": 8.032422842736112,
+            "maxPhysicalPV": 0.00032071158531731897,
+            "actualMetric": 3.6101703293489606e-08,
+            "holonomy": 3.4908345338717853e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.1727329814051427,
+          "final_minD": 0.99951553045371,
+          "linear_prefix_radial_slope_mismatch_l1": 1.0483045258849165e-05
+        },
+        {
+          "lam": -0.075,
+          "seconds": 42.62071376899985,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0006.json.gz",
+          "response_sha256": "5795b762dca6e40dc23758ab7384b9372735208511a675ff112beccca1d985a1",
+          "residual": 2.6460235906180385e-10,
+          "audit": {
+            "fullD": 0.00011700291622071903,
+            "normalizedFullDefect": 0.016823719363484698,
+            "minLeading": 0.13316143990385165,
+            "minD": 0.9994987965481399,
+            "formalCurvature": 8.035457577267735,
+            "maxPhysicalPV": 0.00033177060550067483,
+            "actualMetric": 4.8885902992346075e-08,
+            "holonomy": 2.5950310177013584e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.13316143990385165,
+          "final_minD": 0.9994986569904688,
+          "linear_prefix_radial_slope_mismatch_l1": 1.139979236072826e-05
+        },
+        {
+          "lam": -0.08,
+          "seconds": 0.471278097999857,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0007.json.gz",
+          "response_sha256": "103f90749bbcc82fe82a755b87be466b0ec4c9fb05c5622de466c0d31dbee695",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 11.856879482012447,
+        "min": -13.004561762822592,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "original_negative_m8_fine_run",
+      "source_summary_sha256": "e887c8e750b47b6bb72484686b4055ffbd37cdcddc724f3d1dfececd2b28f552",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-08,
+        "auditSteps": 32,
+        "initialCheckpoint": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_tol8_run/response_0006.json.gz",
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_fine_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_fine_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_fine_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "/workspace/scratch/f00f08c94d46/true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+      "worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.076,
+          "seconds": 43.652146159999575,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "8674477e9f80885206086b7cf6277f18f269ece76ba7d3cdbce1627a3cfed9a7",
+          "residual": 1.3056037453707431e-09,
+          "audit": {
+            "fullD": 0.00013228241986610058,
+            "normalizedFullDefect": 0.0189621865302303,
+            "minLeading": 0.10689610224303794,
+            "minD": 0.9994920468364126,
+            "formalCurvature": 8.036807164077405,
+            "maxPhysicalPV": 0.00033619421357401725,
+            "actualMetric": 5.5101561424741874e-08,
+            "holonomy": 2.4254259049034856e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.10686239140797128,
+          "final_minD": 0.9994919054101119,
+          "linear_prefix_radial_slope_mismatch_l1": 1.1782795453152232e-05
+        },
+        {
+          "lam": -0.077,
+          "seconds": 34.69617561999985,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "1e03057012eba295197d5564675d5fbae2ef3dcf96b246eff1621a293eb5153d",
+          "residual": 3.092754846176929e-09,
+          "audit": {
+            "fullD": 0.00014986713636839122,
+            "normalizedFullDefect": 0.021407568318461537,
+            "minLeading": 0.07292323544588954,
+            "minD": 0.9994852960207338,
+            "formalCurvature": 8.038208448931323,
+            "maxPhysicalPV": 0.00034061782164735956,
+            "actualMetric": 6.222669712840911e-08,
+            "holonomy": 2.687807595205306e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.0728586816469479,
+          "final_minD": 0.9994851527254935,
+          "linear_prefix_radial_slope_mismatch_l1": 1.2176211767361613e-05
+        },
+        {
+          "lam": -0.078,
+          "seconds": 40.102649754000595,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "3a1d64659460caa2de90d1335ba61a647a18bc92286cde8d46ffe69ac163a384",
+          "residual": 5.08850690503469e-09,
+          "audit": {
+            "fullD": 0.00017242902906916454,
+            "normalizedFullDefect": 0.024503679071970968,
+            "minLeading": 0.015396753355913572,
+            "minD": 0.9994785445474497,
+            "formalCurvature": 8.039748988074557,
+            "maxPhysicalPV": 0.00034504142972070176,
+            "actualMetric": 7.133059276576148e-08,
+            "holonomy": 2.9896292571136547e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.015376187650114446,
+          "final_minD": 0.9994783993827385,
+          "linear_prefix_radial_slope_mismatch_l1": 1.2583547513045489e-05
+        },
+        {
+          "lam": -0.079,
+          "seconds": 0.49671114100056,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0004.json.gz",
+          "response_sha256": "2ef2f87d54569ba91ed98429d748726487c30834eb39a583cc5461860b06c369",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 11.856879482012447,
+        "min": -13.004561762822592,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "original_negative_m8_lowfloor_run",
+      "source_summary_sha256": "5e649b4ab92b6610999cd087141ac8e67e7f46a046baf4e264ab91219aefbe91",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.0001,
+        "maxIterations": 20,
+        "solveTolerance": 1e-08,
+        "auditSteps": 32,
+        "initialCheckpoint": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_fine_run/response_0003.json.gz",
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_lowfloor_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_lowfloor_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_lowfloor_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "/workspace/scratch/f00f08c94d46/true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+      "worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.078,
+          "seconds": 15.862758860999747,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "f070fc98d7c033acae493cde964c8f16e26abba9c4898e3bdaca3ac66bddc072",
+          "residual": 1.1979982428369247e-10,
+          "audit": {
+            "fullD": 0.00017242902906916254,
+            "normalizedFullDefect": 0.024503679071970652,
+            "minLeading": 0.01539675335589381,
+            "minD": 0.9994785445474497,
+            "formalCurvature": 8.039748988074557,
+            "maxPhysicalPV": 0.0003450414297207018,
+            "actualMetric": 7.133059276576148e-08,
+            "holonomy": 3.00094508789338e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.015376187650094129,
+          "final_minD": 0.9994783993827385,
+          "linear_prefix_radial_slope_mismatch_l1": 1.2583547513046219e-05
+        },
+        {
+          "lam": -0.07805,
+          "seconds": 31.654301312000825,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "0efa0df08db85c081cc87a1c3b6ade40e6570ee5c2560300cfe21b2f06be1812",
+          "residual": 1.017049426246524e-09,
+          "audit": {
+            "fullD": 0.0001740303544372908,
+            "normalizedFullDefect": 0.024719716752724448,
+            "minLeading": 0.009735618346662124,
+            "minD": 0.9994782070106704,
+            "formalCurvature": 8.03984119640876,
+            "maxPhysicalPV": 0.00034526261012436893,
+            "actualMetric": 7.197552032156551e-08,
+            "holonomy": 3.0166284323073856e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.009735618346662124,
+          "final_minD": 0.9994780617524425,
+          "linear_prefix_radial_slope_mismatch_l1": 1.2604714010174471e-05
+        },
+        {
+          "lam": -0.0781,
+          "seconds": 33.048133309999685,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "ff112d52696344bae08051b9276432dedebda368f653bacbce70f7b4fba5b9e1",
+          "residual": 3.0491949187659858e-09,
+          "audit": {
+            "fullD": 0.0001758594302230093,
+            "normalizedFullDefect": 0.024965138303446766,
+            "minLeading": 0.0026304099798643735,
+            "minD": 0.9994778695061404,
+            "formalCurvature": 8.039941055879419,
+            "maxPhysicalPV": 0.00034548379052803615,
+            "actualMetric": 7.271210600290345e-08,
+            "holonomy": 3.0294662754142086e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.0026304099798643735,
+          "final_minD": 0.9994777241543759,
+          "linear_prefix_radial_slope_mismatch_l1": 1.262618804960921e-05
+        },
+        {
+          "lam": -0.0782,
+          "seconds": 0.4982341590002761,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0004.json.gz",
+          "response_sha256": "56a5b371780a4fe900e1b5dd7738ad5e43b1559028141752446028dbc8451e70",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 11.856879482012447,
+        "min": -13.004561762822592,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "original_negative_m12_lam07_run",
+      "source_summary_sha256": "5c2c9f1a5e6e5b40fbc0ee30d98ce9f2ce0e9ebc5c2849ca227fc8a470991495",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 12,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 256,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-08,
+        "auditSteps": 32,
+        "initialCheckpoint": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m8_tol8_run/response_0004.json.gz",
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m12_lam07_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m12_lam07_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/original_negative_m12_lam07_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "/workspace/scratch/f00f08c94d46/true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+      "worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "omitted_height_l1": 3.3190964201101275e-10,
+      "runs": [
+        {
+          "lam": -0.07,
+          "seconds": 74.40732600299998,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "cd002edffa62acd734bb8512770edacd48602df505f800de7fca7a4f522cdc3f",
+          "residual": 1.1340101102648735e-09,
+          "audit": {
+            "fullD": 2.32635212133022e-05,
+            "normalizedFullDefect": 0.005347235638422538,
+            "minLeading": 0.2022039927804432,
+            "minD": 0.9995324551561042,
+            "formalCurvature": 8.029487957581896,
+            "maxPhysicalPV": 0.00030965351565349973,
+            "actualMetric": 4.734104441794786e-09,
+            "holonomy": 2.917896154393056e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.2022039927804432,
+          "final_minD": 0.9995323248694501,
+          "linear_prefix_radial_slope_mismatch_l1": 9.669937832357305e-06
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 12,
+        "first": 11.856879482012447,
+        "min": -231.6715900595075,
+        "max": 49.41059186986673
+      }
+    },
+    {
+      "run": "broad_peak12_negative_m8_run",
+      "source_summary_sha256": "cca235aed9851e666a6e8d753b51f0c15b03079b17066f8608a4165753bfee07",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 10,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            1.2,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.6
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            20,
+            0.2,
+            0.1,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-09,
+        "auditSteps": 32,
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/broad_peak12_negative_m8_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/broad_peak12_negative_m8_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/broad_peak12_negative_m8_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "db6f-prefix-tail-trial-worker.mjs",
+      "worker_sha256": "6d53b430a956ba688122cafd11f6e4033f9716ea4d9f4989871f324ac900d837",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.001,
+          "seconds": 1.6758681250003065,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum branch D/S/A rejected', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "2e20b3e15dd88e5aaf45c82bc0bb40d91423d34ba59316d8c9b7d3b8d9bed609",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum branch D/S/A rejected",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 18.054236871026376,
+        "min": 18.054236871026376,
+        "max": 81.98630412672664
+      }
+    },
+    {
+      "run": "broad_peak12_tiny_tangent_m8_run",
+      "source_summary_sha256": "10f3b1300314ffbaa26f063e791ca44872950f37e14f828ee9862feb53a3474b",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 10,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            1.2,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.6
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            20,
+            0.2,
+            0.1,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-09,
+        "auditSteps": 32,
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/broad_peak12_tiny_tangent_m8_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/broad_peak12_tiny_tangent_m8_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/broad_peak12_tiny_tangent_m8_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "78718-prefix-tail-tangent-fourier-worker.mjs",
+      "worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -1e-07,
+          "seconds": 3.650372005999998,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum branch D/S/A rejected', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "c00d20db1b013bbef4aef0a3fe68a38c883a6f4990a4a81e5879a938c872d247",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum branch D/S/A rejected",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 18.054236871026376,
+        "min": 18.054236871026376,
+        "max": 81.98630412672664
+      }
+    },
+    {
+      "run": "hybrid_peak08_m8_run2",
+      "source_summary_sha256": "800c5863dbd9712873a761ceb40d8dd408ee9731e1f971ac74b62675f936d59b",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-08,
+        "auditSteps": 32,
+        "outerCellDesign": {
+          "curvatureBound": 10,
+          "pulseCaps": [
+            0.8,
+            0.02
+          ],
+          "valleyCap": 0.1,
+          "warpWeights": [
+            1,
+            20,
+            0.2,
+            0.1,
+            1
+          ],
+          "beta": 4.25
+        },
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_peak08_m8_run2/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_peak08_m8_run2/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_peak08_m8_run2/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_tail_worker.mjs",
+      "worker_sha256": "86329185d1ab9e41f87d3e4601261b41db2bf0ce4b4d3972aa409ba53dbd008d",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.0001,
+          "seconds": 17.88105201899998,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "e64df7df20bcd11e3c26bf61000edc844b324ec6821574653ddfc2c5ebcb5261",
+          "residual": 9.57697184894571e-10,
+          "audit": {
+            "fullD": 9.417645054055422e-11,
+            "normalizedFullDefect": 6.072011123070542e-10,
+            "minLeading": 0.980155308619068,
+            "minD": 0.9999989228596229,
+            "formalCurvature": 10.024711886676537,
+            "maxPhysicalPV": 4.4236080733423244e-07,
+            "actualMetric": 4.552299889337935e-14,
+            "holonomy": 1.0756656685639572e-20
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9801552885444141,
+          "final_minD": 0.9999989226760017,
+          "linear_prefix_radial_slope_mismatch_l1": 2.613936347896264e-06
+        },
+        {
+          "lam": -0.0003,
+          "seconds": 20.21040438199998,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "96001f19befcc7f6552a3c627cb4fbe7f5e803665b01ec833e3d322201ccc725",
+          "residual": 5.274460150574587e-09,
+          "audit": {
+            "fullD": 1.993302294370827e-09,
+            "normalizedFullDefect": 1.1999614650884395e-08,
+            "minLeading": 0.939279086016421,
+            "minD": 0.9999967681422521,
+            "formalCurvature": 10.312052794183328,
+            "maxPhysicalPV": 1.3270824220027007e-06,
+            "actualMetric": 9.732465770112e-13,
+            "holonomy": 3.1491593100506317e-20
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9392790231393237,
+          "final_minD": 0.9999967675914235,
+          "linear_prefix_radial_slope_mismatch_l1": 7.843528194227286e-06
+        },
+        {
+          "lam": -0.001,
+          "seconds": 30.060486510999908,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "a7a414c64e4bbfda51771f0d042bb8a18ad1803c8b8c068c9841e8f59ffa4859",
+          "residual": 1.0548920301149173e-09,
+          "audit": {
+            "fullD": 4.768545480217476e-08,
+            "normalizedFullDefect": 3.4747809674051666e-07,
+            "minLeading": 0.7811640652073781,
+            "minD": 0.9999892307195604,
+            "formalCurvature": 12.032361255585222,
+            "maxPhysicalPV": 4.423608073342331e-06,
+            "actualMetric": 2.310041047337724e-11,
+            "holonomy": 1.3524403015242002e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.7811638125449921,
+          "final_minD": 0.9999892288837451,
+          "linear_prefix_radial_slope_mismatch_l1": 2.611059674580562e-05
+        },
+        {
+          "lam": -0.003,
+          "seconds": 0.22524128100030794,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0004.json.gz",
+          "response_sha256": "e7c4655e8caa37d444ff6e81996a7829429c5c6aaa5570b0cdc01fa8f132211d",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": 23.402913182318407,
+        "min": 19.34871695520568,
+        "max": 63.181847635696364
+      }
+    },
+    {
+      "run": "hybrid_raised_valley_m8_run",
+      "source_summary_sha256": "aba3f8ceafd5c98c52d36e6c2800d9b453844d702e9ad6861d397508a7b2a5a1",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-08,
+        "auditSteps": 32,
+        "outerCellDesign": {
+          "curvatureBound": 10,
+          "pulseCaps": [
+            0.8,
+            0.1
+          ],
+          "valleyCap": 0.4,
+          "warpWeights": [
+            1,
+            10,
+            1,
+            1,
+            1
+          ],
+          "beta": 8
+        },
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_raised_valley_m8_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_raised_valley_m8_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_raised_valley_m8_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_tail_worker.mjs",
+      "worker_sha256": "86329185d1ab9e41f87d3e4601261b41db2bf0ce4b4d3972aa409ba53dbd008d",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.0001,
+          "seconds": 31.77372884900069,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "4fdc16e9b733ddb89936d0bd0f13937086389c1260e71be9675dc14dc58de668",
+          "residual": 6.633329340997376e-09,
+          "audit": {
+            "fullD": 3.7130923199648924e-10,
+            "normalizedFullDefect": 7.108661906731277e-11,
+            "minLeading": 0.8751621003224054,
+            "minD": 0.9999839080426693,
+            "formalCurvature": 9.974801133206801,
+            "maxPhysicalPV": 2.1543657848129005e-06,
+            "actualMetric": 2.0250468774429646e-13,
+            "holonomy": 2.7554378820876415e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.8751621003224073,
+          "final_minD": 0.9999839072864445,
+          "linear_prefix_radial_slope_mismatch_l1": 4.447296196773762e-05
+        },
+        {
+          "lam": -0.001,
+          "seconds": 0.8136023670003851,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "c39312c769126a2f731bf40d282ea43c63fcebe27afc4f3a3b8bf9bfcb0ff974",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": -185.03862501819268,
+        "min": -397.3235975232819,
+        "max": 23.46254750232852
+      }
+    },
+    {
+      "run": "hybrid_no_low_valley_m8_run",
+      "source_summary_sha256": "1b1720d91dccdc6af9ab35f70940061846d9e31fb4aa812c9037f67f4896686b",
+      "config": {
+        "rCut": 0.3,
+        "wCut": 0.08,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "orientation": 1,
+        "prefixR": 2,
+        "prefixEnd": 15,
+        "prefixReturnStart": 8,
+        "protectCell": 160,
+        "slopeCap": 0.02,
+        "capTransition": 2,
+        "calibrationSteps": 512,
+        "warpSteps": 16,
+        "cuspAwareQuadrature": true,
+        "quadratureTolerance": 2e-10,
+        "capMode": "cut-preserving",
+        "valleyControls": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "pulseCaps": [
+          [
+            0.4,
+            0.02
+          ]
+        ],
+        "valleyCaps": [
+          0.1
+        ],
+        "maxCachedBetas": 1,
+        "warpWeightLevels": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ],
+        "spacing": 2,
+        "modes": 8,
+        "depth": 8,
+        "steps": 32,
+        "quadrature": 128,
+        "linearFar": 48,
+        "linearSteps": 512,
+        "shootingParts": 2,
+        "cuspAwareFlow": true,
+        "projectionFloor": 0.01,
+        "maxIterations": 20,
+        "solveTolerance": 1e-08,
+        "auditSteps": 32,
+        "outerCellDesign": {
+          "curvatureBound": 10,
+          "pulseCaps": [
+            0.8,
+            0.1
+          ],
+          "valleyCap": 0.4,
+          "warpWeights": [
+            1,
+            10,
+            1,
+            1,
+            1
+          ],
+          "beta": 12
+        },
+        "traceFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_no_low_valley_m8_run/worker-trace.jsonl",
+        "trialDiagnosticFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_no_low_valley_m8_run/trial-diagnostics.jsonl",
+        "iterationCheckpointFile": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_no_low_valley_m8_run/iteration-recovery.json.gz",
+        "valleyControlsPadTo": 160
+      },
+      "worker": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/hybrid_tail_worker.mjs",
+      "worker_sha256": "86329185d1ab9e41f87d3e4601261b41db2bf0ce4b4d3972aa409ba53dbd008d",
+      "omitted_height_l1": 2.0011196298596636e-08,
+      "runs": [
+        {
+          "lam": -0.0001,
+          "seconds": 27.228069572000095,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0001.json.gz",
+          "response_sha256": "3d64a06597b1fbeaf610aab34c394ee2c1780d59d2392aea805c05721371f67c",
+          "residual": 1.8695135090088906e-09,
+          "audit": {
+            "fullD": 2.4034387520967365e-10,
+            "normalizedFullDefect": 4.8045324554761564e-11,
+            "minLeading": 0.9199526733838806,
+            "minD": 0.9999889915328218,
+            "formalCurvature": 9.959670567566258,
+            "maxPhysicalPV": 1.5126981453873756e-06,
+            "actualMetric": 1.307854906925041e-13,
+            "holonomy": 1.8651268451845668e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.9199526733838819,
+          "final_minD": 0.9999889909409104,
+          "linear_prefix_radial_slope_mismatch_l1": 3.815997624667514e-05
+        },
+        {
+          "lam": -0.0003,
+          "seconds": 28.34048399600033,
+          "converged": true,
+          "error": null,
+          "response_file": "response_0002.json.gz",
+          "response_sha256": "b99985f5d2d1b9f627a1f90f59bbf82b15228d0d731a10af99d8ddd7285841ce",
+          "residual": 2.715857268753859e-09,
+          "audit": {
+            "fullD": 2.1680724989958767e-09,
+            "normalizedFullDefect": 2.207173411747365e-08,
+            "minLeading": 0.7529946675928334,
+            "minD": 0.9999669793969833,
+            "formalCurvature": 9.96067555578107,
+            "maxPhysicalPV": 4.538073885998126e-06,
+            "actualMetric": 1.1717413930687725e-12,
+            "holonomy": 5.551771573659905e-19
+          },
+          "failed": null,
+          "lastIteration": null,
+          "final_minA": 0.7529946675928375,
+          "final_minD": 0.9999669776219333,
+          "linear_prefix_radial_slope_mismatch_l1": 0.00011445273173663897
+        },
+        {
+          "lam": -0.001,
+          "seconds": 0.7258585929994297,
+          "converged": false,
+          "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+          "response_file": "response_0003.json.gz",
+          "response_sha256": "f5b6f37aed2d3efb11f4dffcc35c1a766fa4bf7734cafdfe8c09ed438334834e",
+          "residual": null,
+          "audit": null,
+          "failed": "Error: momentum Newton line search failed",
+          "lastIteration": null
+        }
+      ],
+      "ready_linearSlope_summary": {
+        "count": 8,
+        "first": -150.71851111841585,
+        "min": -390.8571898929469,
+        "max": 1276.664068076856
+      }
+    }
+  ],
+  "original_summary_sha256": "9a626259b73ba7b5c88db9ac12aabda8c56328ed51900ce52f998aae2cdbc0a4",
+  "publication_transform": "Compact physical controls with explicit zero padding; replace recomputable DN coefficient arrays by first/min/max scalars. No solver or source-worker change."
+}

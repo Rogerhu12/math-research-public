@@ -1,0 +1,81 @@
+{
+  "scope": "Published source and compact scalar provenance for actual finite nonlinear stage1. No reconstructed H arrays or trajectories.",
+  "original_bundle_manifest_sha256": "1f626ad2cb2aea900b931195810a851bf4c2994dc8495e71bc556a819357e08b",
+  "input_height_trace_sha256": "73a83713ec4b64df8e26c9fd3889bda4a28513069accb0b7b21b0b0f880c0b55",
+  "input_regeneration": "extract_H.py on the fixed q18 M20 checkpoint from smallcut_delivery_manifest.json",
+  "publication_transforms": [
+    "Runtime expansion of valleyControlsPadTo reproduces the original full physical parameter array exactly.",
+    "Recomputable ready_linearSlope arrays replaced by compact scalar diagnostics.",
+    "Stage1 notes contain a checked finite-dimensional Gram lemma, explicitly not an infinite-dimensional crossing proof."
+  ],
+  "files": {
+    "analyze_root_minimum.mjs": {
+      "bytes": 3251,
+      "sha256": "788eb5e433659c5cec2d0f016c4a5c22550dbc6e4454e361a01385e6154be4a8"
+    },
+    "audit_tail_cut.py": {
+      "bytes": 3031,
+      "sha256": "32b11b89bc98111b4e1d6d53f823003a5cefddb853d7d9cf26d365cb2aafba08"
+    },
+    "broad_peak12_v06_m8_config.json": {
+      "bytes": 963,
+      "sha256": "bdde6d4b1684c4a56b45b0aa0b7219fbdc5979a568936967a1764f5c76018f12"
+    },
+    "chart_minimum_summary.json": {
+      "bytes": 1691,
+      "sha256": "673d1c75cc2c8d0795d49fd6e96b94511e8a8a784aa35aec64c2e5db4c3847f5"
+    },
+    "continue_tail.py": {
+      "bytes": 4974,
+      "sha256": "1cc319d7f6324a29bc7b611de4cfa6714b4f75009ac3f4f7a65cd6fd399634b8"
+    },
+    "diagnose_initial.mjs": {
+      "bytes": 2995,
+      "sha256": "2e61491ddbc546687806672dad3c9b9edf1fbc3c7f1f48ac3666952c61aa4dcd"
+    },
+    "export_tail_cut.mjs": {
+      "bytes": 3019,
+      "sha256": "7e48d7e827fc7e744e493a2225171ce82ea8bc203a938cb1d51beb5986a77739"
+    },
+    "extract_H.py": {
+      "bytes": 1724,
+      "sha256": "01f9ae3d5aa4dd14882120ea364c1a2fe0bb9459eb26d1f9e063c2803c64cadb"
+    },
+    "hybrid_no_low_valley_m8_config.json": {
+      "bytes": 1173,
+      "sha256": "4a43b1d56bfa098c76a40b5ec2401402c0ae2f1d194963c0c48b29fdb5a7644c"
+    },
+    "hybrid_outer_factory.mjs": {
+      "bytes": 2910,
+      "sha256": "a8fa355e984c2eff4de7e2ff7f654b04da1cbfa53f9591e7137f0c79b56b12ab"
+    },
+    "hybrid_peak08_m8_config.json": {
+      "bytes": 1180,
+      "sha256": "d5c061d87eb36c28d5d87079440343af1fcdc247e5b51ec9456dae227b676cf8"
+    },
+    "hybrid_raised_valley_m8_config.json": {
+      "bytes": 1172,
+      "sha256": "47559eb35fa51ab6778a45f242b898c995401212f54f290c06744eadb3a968a5"
+    },
+    "make_hybrid_worker.py": {
+      "bytes": 1139,
+      "sha256": "a6245807489ac0abbac84dc2a63ce8fb930fbe48364e8c7fd857971746d3f46c"
+    },
+    "nonlinear_tail_recovery_manifest.json": {
+      "bytes": 16960,
+      "sha256": "918073c769a55884833794863f13aa09d729416a9624adae21a2c43e27b762d4"
+    },
+    "nonlinear_tail_stage1_summary.json": {
+      "bytes": 75683,
+      "sha256": "84571666b5034394bcd7e96d4e2ca5eeaa0597358169168d92f3aa77b2b7cc3b"
+    },
+    "smallcut_original_m8_config.json": {
+      "bytes": 962,
+      "sha256": "4be754fcf4b24d77026f5df1650c8176b5d6eda1d564efb84b00bec643d9599f"
+    }
+  },
+  "note": {
+    "path": "notes/2026-11-17-nonlinear-tail-stage1.md",
+    "sha256": "074f427648d6202e09108d14f601424651e78933d4f29049a0889902a349203c"
+  }
+}
