@@ -4,39 +4,41 @@
 
 ## 目标、规则与同步
 
-构造连通闭曲面的连续 $C^2$ 等距嵌入族，固定有内点握持区 $H$，$\operatorname{diam}F_0(H)\ge0.2D$，整像 Hausdorff 变化 $\delta_{\rm hold}\ge0.1D$，含反射取商的 $\delta_{\rm E}>0$，全时 reach $\ge0.03D$。同一固定度量、物理参数和时间范围下，最大相对度量误差不超过 $10^{-6}$ 并随空间、频率、时间加密下降。材料点位移不是 $\delta_{\rm hold}$。
+构造连通闭曲面的连续C²等距嵌入族，固定有内点的闭H，diam F₀(H)≥.2D；整像Hausdorff变化δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g、物理参数和时间范围下，最大相对度量误差≤1e−6且加密下降。材料点位移不是δ_hold；优化success不是数学完成。
 
-- 已部分克隆、仅稀疏检出本题，执行真实 `git pull --rebase origin main`；根 README（含授权）和本题 README 全文已读。
-- 已读规则提交：`01a0c72d6510efb493c425e136a167bf8296c6f1`。2026-11-17 21:12:27（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:12:27；每次 pull 后比较这两份 README，只读变化并立即执行。
-- 每个有意义的新结论与本文件同时更新，提交前 pull、核规则后普通 push；非快进立即 pull --rebase 再推。禁止 force push。令牌只在命令行临时使用。
-- 只有完整证明进 `results/`；数值证据和缺口分别标明。可重算数据、网格和渲染不提交，只保存生成脚本、参数、运行标识和 SHA-256；单 Markdown <100KB，本文件 <10KB。不写根 LOG。
+- 已部分克隆并真实pull main，根README（含授权）和题README全文已读。仅本题及其workflow稀疏检出。
+- 已读规则提交：`9b2eff6b3b82d3952a0a5670eb0c1f8bbcf9d3ec`。2026-11-17 21:13:40（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:13:40；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 每条结论同时更新本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用，不存文件。
+- 只有完整证明进results；数值证据、条件假设与缺口分别写明。可重算数组/网格/渲染/CI artifact不提交，只存脚本、参数、运行ID/hash。单Markdown<100KB，本文件<10KB；不写根LOG。
 
-## 开题核对
+## 主线A：小切口高振幅前缀 → 真实非线性尾
 
-1. 本题此前只有 README，无既有结果；已创建本 HANDOFF、open 和 log。
-2. 已读 `visible-flexible-closed-surface/README.md` 的指标定义及其 HANDOFF。其 R114 声称固定几何的数值基础结果：$D\le3.787020263962$、$\delta_{\rm hold}/D>0.0527832$、reach$/D>0.0312033$、metric $\le1.2567\cdot10^{-9}$。这不是本题的 10% 解，当前仅作为待定点核验的来源，未独立重算或升级为严格存在。
-3. 已读 `visible-flex-larger-amplitude`、`visible-flex-new-mechanism`、`visible-flex-exact-nearby` 的 HANDOFF：它们尚无满足各自主目标的完整候选，有限参数优化与条件证明不能直接替代本题验收。避免重复其已登记的推导；优先提取几何公式和简洁生成器。
-4. 文献核查已记入 [开题核查](notes/2026-11-17-literature-and-source-scope.md)：Sabitov 的滑动柱/锥像集合不变，球盖拼接还缺材料兼容；Ghomi–Qiu–Raffaelli–Zhang 2026 §1 明说其非刚性构造尚不知是否连续柔性，不能把 $X±εY$ 当固定度量路径；T-surfaces 的带边显式族仍缺周期闭合。主会话已核前三者原始入口及 Ghomi 全文关键段。未取得全文的条目已逐项标明。
-5. 定点读 R114、R17、R25 及现成刚体片审读：flat17 过渡前缀切口高度约1.7713、尾仅增高约0.052，主要直径成本在前缀。R114 的完整相位周期已全覆盖；现成开放运动刚体片不能直接提供杠杆。以上是沿用原结果，不重复登记新定理。
-6. 旧题约0.063的具体记录是未解暖场的有限点云双向扫描，不能当成已闭合/已收敛实体的连续上界；本题不会据此宣称现有10%解。
+已将cut从旧r=.6移至r=.30，真实背景w=.08、w_r=−1.8666666667；vu=.55、vd=.60、flat ramp=.4、eta=.05、单环，ShortBridge curvature4、peak_fraction=.2。割线只改变初值，原Frenet/端口方程未改。设计延拓已到q=.20。
 
-## 当前工作
+固定同一物理profile/chart/port/warp的实际加密：q14 M14→M16，metric1.16e−7→1.16822e−9；q18 M16→M20，9.98e−7→2.42874e−8；q20 M20→M24，9.92e−7→4.17253e−9，actual q=.20000109659082244、κ采样6.62074、高度1.27654148、最小Frenet根5.64176e−4。以上均是开放前缀，不是闭合解，也无连续reach证书。
 
-**新主线R3：换握持放大。** 实际圆弧局部片的phase运动为QαX+bα；对整个族取逆刚体运动固定该片，D/reach/g/δE全保留。三重对称给整像dH≥√3|c|sin(kα/2)。k4、|c|≥.88、A=.14、D≤3.9、reach≥.118、H跨s±.42给held/D>.10800及Hdiam/D>.21519。R4已严证四组核/窗口预算，R=.25、normal宽1.2、phase.14给正材料余宽>.0499、held/D>.10837；脚本 `scripts/plateau_exact_budget.py` 仅有理区间。R5的加权能量已支付精确C3前缀假设下的退化入口圆弧保持与尖锐传播角窗（不是任意C2结论）。全局前缀存在仍未实现；true_a在做圆弧外支撑基及真实prefix，new_construction独立算窗口/传播，主会话保持完整集合证明与闭合预算。R6已用中心三阶体积矩及显式三重C2帽支付有严格余量的精确族的δE机制；实际新prefix/尾仍未获。
+真实q20端口包含完整非线性均值，512角点2jet，SHA `0d03cd6128d7e498c28b60b2ea82c8ce4cd0af03d0e50bb1fc3cae8b54ee5355`。复现：scripts/recover_prefix.py与prefix_recovery_manifest.json恢复源；smallcut_prefix_sweep.py建立新chart，smallcut_secant_launcher.py延拓，fixed_refine_smallcut.py冻结g加密，smallcut_endpoint.py导出端口。精确命令/参数/hash见smallcut_delivery_manifest.json；完整表及失败路径见notes/2026-11-17-smallcut-high-q-and-fixed-g.md。所有数组仅scratch。
 
-- 主会话：核对 R114 的实际构造，研究可见振幅与完整闭合尺寸的关系，建立本题的简洁可复现计算。
-- 并行 `true_a_analysis`：精确圆弧core接口、外支撑基/径向profile控制及实际Frenet BVP；目前高模投影与条件数未过。
-- 并行 `new_construction`：R4核预算、R5退化入口证明已成；继续三重对称静态帽的非全等性。
-- 并行 `literature_mechanisms`：小切口高q延拓已到.18；q.14固定profile M16的metric采样降至1.17e-9；继续.20和固定精化。
+关键缺口：有限线性DN并非实际非线性尾，完整Cartesian两jet/均值尚未与尾联立。new_construction正在用原真实momentum/radicand/multiple-shooting worker延拓q18的±λH；已核清upper正确给orientation+1 worker输入−H并整体反射z，旧线性D比值掩盖此符号。先算真实λ支与接头，再必要时重求prefix；不把线性容量当非线性上界。literature继续q21/q22与全prefix外向X·n/尺寸审计。
 
-复现与精化：`scripts/recover_prefix.py` + `prefix_recovery_manifest.json` 定点恢复旧q18/q20开放前缀，数据仅落scratch。q18保持物理delta=.17053856686761762与角向chart不变，M10→M16的采样metric L1从1.61704e-6降到2.54853e-7；端口非均值高度仍约.00976。旧M24已主动取消，优先计算新小cut，取消不算数学失败；详见 notes/2026-11-17-archived-prefix-recovery-and-fixed-g.md。
+## 主线B：精确圆弧核心与换握持
 
-小切口计算：新增 `scripts/smallcut_prefix_sweep.py` + SHA清单，把cut降至.30/.35并重算线性chart与真实非线性前缀。r=.30、curvature=4、peak_fraction=.2已在新恢复环境通过q=.02/.04/.06；q=.06 metric≈4.07e-8、κ≈4.416、端口H≈.000727。旧p=.5在更小q出现负根域失败，不是不存在证明。本题独立 `.github/workflows/held10-smallcut-research.yml` 以最多2个并发跑8个不同新桥参数，输出仅日志摘要/hash，手动dispatch被GitHub以`Resource not accessible by personal access token`拒绝（HTTP403），现改为仓库已授权的普通push/指定请求文件触发；实际Actions run [44084871328](https://github.com/Rogerhu12/math-research-public/actions/runs/44084871328) 已运行，部分参数作业结束；正在取标量结果，作业success不等于数学成功。
+[R3](results/R3-rigid-arc-regripping-and-Hausdorff-amplification.md)已证明：实际圆弧局部片的phase是QαX+bα，对整个族取逆刚体运动使片固定，D/reach/g/δE保留；三重对称给整像dH≥√3|c|sin(kα/2)。R4的Fraction脚本严格支付四组核心/角窗/H直径/局部曲率支撑预算，例如R=.25、normal宽1.2、phase.14、D≤3.9给held/D>.10837、Hdiam/D>.21519。它们是条件窗口。
 
-三场BVP：已实现完整Gauss–Codazzi并精确约束圆领端两jet；B=.9的24控制/4模重建metric约.0289，B=.7约.444，均淘汰。低频/末端残差不随简单加密消失，详见 notes/2026-11-17-gc-complete-bvp-attempts.md。继续小切口高振幅与振荡端表示，不将有限失败升级为不存在定理。
+[R5](results/R5-degenerate-inlet-local-arc-uniqueness.md)用完整加权能量在精确C³前缀假设下支付退化入口圆弧保持和传播角窗，保留−M²Nu/N²项；不适用于任意C²有限插值。R6用三阶矩、三重标记帽和短中央柱证明有严格几何余量的精确族可获δE>0，包括反射；仍须真实前缀/尾。
 
-直接半帽：16次已结束试验的源码、参数和hash已存 `scripts/cap_design/`；负K入口最好一轮metric=.01410，密网曲率14.455，见证/支撑采样预算接近达标但等距失败。放宽E的后续曲率18.707，淘汰；见 notes/2026-11-17-direct-cap-design-batches.md。继续真实弧长重参数化及角模扩充。
+true_a_analysis正在做精确core lift、圆弧外支撑基及全Frenet BVP。简单exact-lift λ1/M4有限根metric≈.00805，同gM6未通过；9858阶真实collocation Jacobian的terminal Schur虽数值满秩，归一化条件数约4.27e8。新局部密切圆参考继续计算；无精确全局prefix存在结论。有限投影不等于精确圆弧；最终离散H可用固定cutoff在R5域内修回显式片，但必须先有C²收敛和修正误差界。
 
-新短尾：已恢复旧q20前缀完整端口。新短尾固定E版metric≈.002、κ≈12.12；自由E版独立网格发现退化E与κ≈5.7e6，明确淘汰（notes/2026-11-17-first-short-collar-trials.md）。新增有界自由E版独立采样metric=.00039991、κ9.95565，仍不合格；新q17小cut首试metric=.001297，发现旧G≥.005与cap=.05不相容，现保留默认复现并显式G-floor=.0005重跑。详见 notes/2026-11-17-bounded-and-smallcut-collar-trials.md。两条路线均未获全部条件。
+## 其他已测路径与复现记录
 
-已证新结论：[R1](results/R1-mild-ellipse-ten-percent-geometry-window.md) 给 $A=1,B=.7$、$r_{cap}=.25$ 的具体条件窗口：完整包络 $r\le1.05,|y|\le.75,|z|\le.6$ 与支撑≥.08、曲率≤12时，held/D≥.10336、Hdiam/D≥.20672、reach/D≥.03307。连接器、连续包围、固定g精化及δE>0仍未付，**不构成完成**。R2给三场Gauss–Codazzi方程及平面圆领端点引理；短椭圆圆整试算在0.28弧长内降径向差，但仍未圆领，见 notes/2026-11-17-gc-short-prefix-experiments.md。下一项见 [open.md](open.md)。本题未达标准，继续推进；达到后继续提高比例。
+- 新短尾：旧r=.6 q20固定E metric≈.002；自由E曾退化且κ≈5.7e6，淘汰。有界E改进到metric=.00039991、κ9.95565仍不合格。新q17小cut首试发现G≥.005与cap=.05不相容；保留原默认复现，显式G-floor=.0005重算。见notes/2026-11-17-bounded-and-smallcut-collar-trials.md及short_collar_trials_manifest.json。
+- 完整三场GC BVP已实现；B=.9 metric≈.0289、B=.7≈.444，低频/末端误差未消失，不接受。R2给GC系统与平面圆领两jet引理；见gc-complete-bvp-attempts笔记。
+- 直接半帽16轮已发表源码/失败表，最好metric≈.0141；扩模、重参数及放宽包络的4轮待整理，均未过。R1温和椭圆给10.3%条件几何预算，连接器未实现。
+- 厚尾只做过固定160深度的一阶正根/共振采样优化，待发表选定参数和复现代码；不能当非线性容量界。旧大cut q18 M16已核固定g误差2.55e−7，M24主动取消以优先新小cut；非数学失败。
+- 本题独立workflow `.github/workflows/held10-smallcut-research.yml` 的8参数Actions [44084871328](https://github.com/Rogerhu12/math-research-public/actions/runs/44084871328) 已结束，正在取各实际成功/失败标量。最多2并发，不上传可重算artifact。dispatch曾403，按已授权普通push触发。job success不代表数学成功。
+
+## 来源核对与当前交接
+
+现成R114/flat17约held/D>.0527832、reach/D>.0312033、metric≤1.2567e−9，仅作来源结果；未独立重算升级。其切口高约1.7713，尾仅约.052，主要尺寸成本在前缀；完整phase已覆盖。旧约.063只是未解暖场点云，不能当闭合最优。文献的滑动柱/锥、球盖拼接、非刚性对和带边T-surfaces均未直接给本题解，来源/全文限制见开题核查笔记。
+
+主会话负责规则/证明复核、直接新尾、整理与逐结论push；三个并行任务如上。全部未决验收见open.md。当前没有满足10%的闭合族；继续实际尾/前缀并核全时几何，达到后继续提高比例。

@@ -1,0 +1,495 @@
+{
+  "schema": 1,
+  "scope": "Publish scripts, parameters, conclusions and hashes only. Generated arrays/checkpoints are scratch handoff data; no artifact upload. Metadata hashes depend on absolute source paths; numerical coefficient hashes are separate.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "threads": 1
+  },
+  "shared_recovery": [
+    "recover_prefix.py",
+    "prefix_recovery_manifest.json"
+  ],
+  "new_files": [
+    {
+      "name": "smallcut_prefix_sweep.py",
+      "bytes": 8884,
+      "sha256": "13f03e998fb88b61b359b5c2a437bb9eeb9b3efb1bfe6b28fae170c124b501e5"
+    },
+    {
+      "name": "smallcut_manifest_patch.json",
+      "bytes": 1368,
+      "sha256": "69eee44d8beaa7259461a9d14eb5cdd99e6feea5b862e40a09e7dcf355d237fd"
+    },
+    {
+      "name": "fixed_refine_smallcut.py",
+      "bytes": 2552,
+      "sha256": "da48d70392808fb683bc7a4364c9d3a93ebaac34550724c1a4857579b3025bbc"
+    },
+    {
+      "name": "smallcut_secant_launcher.py",
+      "bytes": 3104,
+      "sha256": "954567fead7836e651754f01cef94f7b1035d8e4474f67160e3618cf50af2fd9"
+    },
+    {
+      "name": "smallcut_endpoint.py",
+      "bytes": 3810,
+      "sha256": "c68342851799ba76850be96cf885fd040a30bc35cf1d5b99d8577d09bcdedb3e"
+    },
+    {
+      "name": "../notes/2026-11-17-smallcut-high-q-and-fixed-g.md",
+      "bytes": 9565,
+      "sha256": "2bd7236b10b5c170345fa423eea74925e3037a741fd8fba46cf703c53075d51d"
+    }
+  ],
+  "restore_command": [
+    "python",
+    "recover_prefix.py",
+    "--repo",
+    "{repo}",
+    "--dest",
+    "{recovery}",
+    "--endpoints"
+  ],
+  "source_extra_patch": "smallcut_manifest_patch.json",
+  "commands": {
+    "design_through_q16": [
+      "python",
+      "smallcut_prefix_sweep.py",
+      "--repo",
+      "{repo}",
+      "--recovery",
+      "{recovery}",
+      "--output",
+      "{work}/design",
+      "--radius",
+      ".30",
+      "--curvature",
+      "4",
+      "--peak-fraction",
+      ".2",
+      "--tol",
+      "1e-6",
+      "--stage-timeout",
+      "900",
+      "--stages",
+      ".02:8,.04:8,.06:10,.08:10,.10:12,.12:12,.12:14,.13:14,.14:14,.15:14,.16:14"
+    ],
+    "q14_fixed": [
+      "python",
+      "fixed_refine_smallcut.py",
+      "--recovery",
+      "{recovery}",
+      "--checkpoint",
+      "{work}/design/q140-m14.json.gz",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--output",
+      "{work}/fixed-q14-m16",
+      "--modes",
+      "16",
+      "--tol",
+      "2e-8"
+    ],
+    "q17_secant": [
+      "python",
+      "smallcut_secant_launcher.py",
+      "--numerical-script",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-prefix.py",
+      "--source-topic",
+      "{recovery}/bundle/topics/visible-flexible-closed-surface",
+      "--profile",
+      "{work}/design/profile.json",
+      "--chart",
+      "{work}/design/chart.json",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--nodes",
+      "401",
+      "--max-nodes",
+      "4000",
+      "--tol",
+      "5e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--out-prefix",
+      "{work}/secant/q170-m16",
+      "--amplitude",
+      ".17",
+      "--warp-reference",
+      ".17",
+      "--modes",
+      "16",
+      "--angular",
+      "512",
+      "--audit-angular",
+      "1024",
+      "--restart",
+      "{work}/design/q160-m14.json.gz",
+      "--restart-second",
+      "{work}/design/q150-m14.json.gz"
+    ],
+    "q18_secant": [
+      "python",
+      "smallcut_secant_launcher.py",
+      "--numerical-script",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-prefix.py",
+      "--source-topic",
+      "{recovery}/bundle/topics/visible-flexible-closed-surface",
+      "--profile",
+      "{work}/design/profile.json",
+      "--chart",
+      "{work}/design/chart.json",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--nodes",
+      "401",
+      "--max-nodes",
+      "4000",
+      "--tol",
+      "5e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--out-prefix",
+      "{work}/secant/q180-m16",
+      "--amplitude",
+      ".18",
+      "--warp-reference",
+      ".18",
+      "--modes",
+      "16",
+      "--angular",
+      "512",
+      "--audit-angular",
+      "1024",
+      "--restart",
+      "{work}/secant/q170-m16.json.gz",
+      "--restart-second",
+      "{work}/design/q160-m14.json.gz"
+    ],
+    "q17_endpoint": [
+      "python",
+      "smallcut_endpoint.py",
+      "--recovery",
+      "{recovery}",
+      "--checkpoint",
+      "{work}/secant/q170-m16.json.gz",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--output",
+      "{work}/secant/q170-endpoint",
+      "--angular",
+      "512"
+    ],
+    "q18_fixed": [
+      "python",
+      "fixed_refine_smallcut.py",
+      "--recovery",
+      "{recovery}",
+      "--checkpoint",
+      "{work}/secant/q180-m16.json.gz",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--output",
+      "{work}/fixed-q18-m20",
+      "--modes",
+      "20",
+      "--tol",
+      "2e-8"
+    ],
+    "q19_secant": [
+      "python",
+      "smallcut_secant_launcher.py",
+      "--numerical-script",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-prefix.py",
+      "--source-topic",
+      "{recovery}/bundle/topics/visible-flexible-closed-surface",
+      "--profile",
+      "{work}/design/profile.json",
+      "--chart",
+      "{work}/design/chart.json",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--nodes",
+      "401",
+      "--max-nodes",
+      "6000",
+      "--tol",
+      "5e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--out-prefix",
+      "{work}/secant/q190-m18",
+      "--amplitude",
+      "0.19",
+      "--warp-reference",
+      "0.19",
+      "--modes",
+      "18",
+      "--angular",
+      "576",
+      "--audit-angular",
+      "1152",
+      "--restart",
+      "{work}/secant/q180-m16.json.gz",
+      "--restart-second",
+      "{work}/secant/q170-m16.json.gz"
+    ],
+    "q20_secant": [
+      "python",
+      "smallcut_secant_launcher.py",
+      "--numerical-script",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-prefix.py",
+      "--source-topic",
+      "{recovery}/bundle/topics/visible-flexible-closed-surface",
+      "--profile",
+      "{work}/design/profile.json",
+      "--chart",
+      "{work}/design/chart.json",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--nodes",
+      "401",
+      "--max-nodes",
+      "6500",
+      "--tol",
+      "5e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--out-prefix",
+      "{work}/secant/q200-m20",
+      "--amplitude",
+      "0.2",
+      "--warp-reference",
+      "0.2",
+      "--modes",
+      "20",
+      "--angular",
+      "640",
+      "--audit-angular",
+      "1280",
+      "--restart",
+      "{work}/secant/q190-m18.json.gz",
+      "--restart-second",
+      "{work}/secant/q180-m16.json.gz"
+    ],
+    "q18_fixed_endpoint": [
+      "python",
+      "smallcut_endpoint.py",
+      "--recovery",
+      "{recovery}",
+      "--checkpoint",
+      "{work}/fixed-q18-m20/fixed.json.gz",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--output",
+      "{work}/fixed-q18-m20/endpoint",
+      "--angular",
+      "512"
+    ],
+    "q20_fixed": [
+      "python",
+      "fixed_refine_smallcut.py",
+      "--recovery",
+      "{recovery}",
+      "--checkpoint",
+      "{work}/secant/q200-m20.json.gz",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--output",
+      "{work}/fixed-q20-m24",
+      "--modes",
+      "24",
+      "--tol",
+      "2e-8"
+    ],
+    "q20_fixed_endpoint": [
+      "python",
+      "smallcut_endpoint.py",
+      "--recovery",
+      "{recovery}",
+      "--checkpoint",
+      "{work}/fixed-q20-m24/fixed.json.gz",
+      "--port",
+      "{recovery}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+      "--output",
+      "{work}/fixed-q20-m24/endpoint",
+      "--angular",
+      "512"
+    ]
+  },
+  "frozen_q14_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.1716909992340721,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "output_hashes": [
+    {
+      "local_relative_path": "variant-r30-p20-k4-fine/q160-m14.json.gz",
+      "bytes": 12159,
+      "sha256": "b772b49ac82bd8e98c483d012a1df9877f084ff7b6be3f05ba56a931f99b2999"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q14-m16/fixed.json.gz",
+      "bytes": 20869,
+      "sha256": "d12f91efd70a4cf308065f0227827f6698932c5769d178adb145b817aee4f997"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q14-m16/fixed_coeff_00.npy.gz",
+      "bytes": 3663016,
+      "sha256": "62b3790fe9c559976c5a4fd6bd696f4f43846728c653e1602b847c13c401a58c"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q170-m16.json.gz",
+      "bytes": 10752,
+      "sha256": "355ab2e7fbe92aefed09d889fffd447b4a5915e558fde881bfb9f1a2f06def8b"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q170-m16_coeff_00.npy.gz",
+      "bytes": 1097141,
+      "sha256": "168d4d7e54c524e1552d3e102c3f0edf040460a08e80e06d5192b6c88a269b31"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q170-endpoint.npz",
+      "bytes": 41072,
+      "sha256": "5c22c8ddd406bd7f129416a32dfb6a805758bdc0d077928463b6279017901433"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q180-m16.json.gz",
+      "bytes": 10780,
+      "sha256": "bca89afeb94b3966bde28816e92c3e23dbb7975423ccf22b3b4757fd250c30aa"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q180-m16_coeff_00.npy.gz",
+      "bytes": 1098226,
+      "sha256": "a8e8d458c5569b0c08044a3856b03d160dc47c69958a8cde89c7342cebb75d70"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q18-m20/fixed.json.gz",
+      "bytes": 21532,
+      "sha256": "dcfd9b878489141d507148b3d0881224aed8bed8f98be91fad30a841157d7ffa"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q18-m20/fixed_coeff_00.npy.gz",
+      "bytes": 4251802,
+      "sha256": "d4da413f5956e84b1fc460bfc7d60681da52e54ad6d020cf6d90385211ce6ce6"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q18-m20/endpoint.npz",
+      "bytes": 41151,
+      "sha256": "856f551bdc231b334d7de317567a1eb1b6e61ea929d17f52fe34371713046701"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q18-m20/endpoint.json",
+      "bytes": 1322,
+      "sha256": "b24dd9d8241c3c95eae0cc89b461d2c7740f58d601cc042edeec6fd22255e571"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q18-m20/H.json",
+      "bytes": 3257,
+      "sha256": "73a83713ec4b64df8e26c9fd3889bda4a28513069accb0b7b21b0b0f880c0b55"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q190-m18.json.gz",
+      "bytes": 10828,
+      "sha256": "9cf72860c1fb9ee58c5c1335c5e37fcea43a43e5f7df7cbb13357654d97ac7a0"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q190-m18_coeff_00.npy.gz",
+      "bytes": 1233288,
+      "sha256": "f663cf9f512a1f45915cb3f6bd51f8c2e3b44a47e0f69a538463901f7de18434"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q200-m20.json.gz",
+      "bytes": 10821,
+      "sha256": "ef4bdbcd0f36b51fc731f864ce00eb150185dcaf313690d4bbb4ef1638d66ffd"
+    },
+    {
+      "local_relative_path": "secant-r30-p20/q200-m20_coeff_00.npy.gz",
+      "bytes": 1365830,
+      "sha256": "c8380e58f6c874dfced21a8d3adba59b6d08ba1df16051c2f6268f1e09cdc1cc"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q20-m24/fixed.json.gz",
+      "bytes": 21555,
+      "sha256": "596312b90989255c9b51ee979cf0d228b6835457ab222adc7f6bc42f0cdc23e6"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q20-m24/fixed_coeff_00.npy.gz",
+      "bytes": 4229584,
+      "sha256": "986029f108e75ad61a98685134990fa266e4eac43e6ddb348503ca56813365ae"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q20-m24/endpoint.npz",
+      "bytes": 41233,
+      "sha256": "0d03cd6128d7e498c28b60b2ea82c8ce4cd0af03d0e50bb1fc3cae8b54ee5355"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q20-m24/endpoint.json",
+      "bytes": 1329,
+      "sha256": "1f417992072e27a1fc7e6decdaa43d7b2ea915ed5cae564a2514fa8c40944862"
+    },
+    {
+      "local_relative_path": "fixed-r30-p20-q20-m24/H.json",
+      "bytes": 3626,
+      "sha256": "74d194229298d309ce2bb92574a398399b9a80851722937ca546047c8385e1bb"
+    }
+  ],
+  "completed_status": {
+    "q14_fixed": "completed; M16, tolerance2e-8, actualq=.14000032841650178",
+    "q18_fixed": "completed; M20, tolerance2e-8, actualq=.180001320757266",
+    "q19_design": "completed; M18, tolerance5e-6",
+    "q20_design": "completed; M20, tolerance5e-6",
+    "q20_fixed": "completed; M24, tolerance2e-8, actualq=.20000109659082244, metric_l1=4.1725339371919e-9"
+  },
+  "frozen_q18_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.17158401457542113,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "frozen_q20_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.17150966322614214,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "editorial_note": "Root replaced the generic one-restart example with the actual successful secant command chain. The scalar results and all five source files are unchanged."
+}
