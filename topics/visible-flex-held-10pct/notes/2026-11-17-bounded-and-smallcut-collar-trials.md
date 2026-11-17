@@ -57,3 +57,18 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python refine_collar_design.py --trace 
 ```
 
 精确保留初始表示不意味着后续固定g：后续优化仍可改变目标E和G，仍属设计。暂存的`.warm.json`仅用于中断后初值接续，明确标为provisional，禁止作为已审计实体或提交数据。
+
+## 修正G下界后的稀疏插结点结果
+
+`refine_collar_design.py` 从已保存q17/r=.30、rise=.10、cap=.05首试出发，将13个径向区间精确二分，nc18→31，M8→12；初始整个有限面与两jet保持误差≤1.34e−15。显式设置G-floor=.0005、7个Gauss点/区间、144角点、每块2个径向点的解析稀疏Jac，trf/LSMR每次至多500迭代，最多100次目标评估。
+
+该次运行正常完成，1384.684秒，100次目标/70次Jac；达到评估上限，未成功。独立601×384网格的最大相对metric=.00043245784671674947，κ=10.0221292491，X·n最小=.9432757066，面积元最小=.01402483014；E范围[.06657846,.09260805]，G范围[.0025,.09000000027]。面积没有退化，但metric仍比1e−6大约432倍。
+
+这说明更正错误下界、精确扩大表示空间后残差有改善，尚不足以给闭合族。它仍在设计新的角向独立度量，不能称为固定g精化；本条也不把有限迭代失败当作短尾不存在。所有原始系数只在scratch，复现参数/输入与输出SHA见short_collar_trials_manifest.json末项。
+
+```sh
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python scripts/refine_collar_design.py \
+  --trace SCRATCH/q170-endpoint.npz --seed SCRATCH/q17_smallcut_analytic_rise010.json \
+  --out SCRATCH/q17_smallcut_refined_nc31_m12.json --subdivide 2 --m 12 \
+  --G-floor .0005 --chunk 2 --nfev 100 --lsmr-maxiter 500
+```

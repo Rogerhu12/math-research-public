@@ -23,6 +23,10 @@
     {
       "path": "general_analytic_collar_design.py",
       "sha256": "5b4555893e3bac18ea802ecd7aaa64a60787d385de839586ac19f0a9f7e2f641"
+    },
+    {
+      "path": "refine_collar_design.py",
+      "sha256": "f04c712900da9492b5965c879ee18a92c3c6ea42e59bb63325479e62494476ed"
     }
   ],
   "trials": [
@@ -223,6 +227,80 @@
         "radius_max": 0.30000709745070303,
         "ball_radius_max": 1.3845715446094469
       }
+    },
+    {
+      "parameters": {
+        "rise": 0.1,
+        "radius": 0.05,
+        "nc": 31,
+        "m": 12,
+        "bend": 0.0,
+        "degree": 5,
+        "r0": 0.3,
+        "slope": 0.08,
+        "slope_r": -1.8666666666666667,
+        "curvature_limit": 10.0,
+        "trace": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/secant-r30-p20/q170-endpoint.npz",
+        "G_floor": 0.0005
+      },
+      "refinement_arguments": {
+        "trace": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/secant-r30-p20/q170-endpoint.npz",
+        "seed": "/workspace/scratch/f00f08c94d46/collar_work/q17_smallcut_analytic_rise010.json",
+        "out": "/workspace/scratch/f00f08c94d46/collar_work/q17_smallcut_refined_nc31_m12.json",
+        "subdivide": 2,
+        "m": 12,
+        "G_floor": 0.0005,
+        "chunk": 2,
+        "nfev": 100,
+        "lsmr_maxiter": 500
+      },
+      "trace_sha256": "5c22c8ddd406bd7f129416a32dfb6a805758bdc0d077928463b6279017901433",
+      "seed_sha256": "5364dd0b5bbd0bc1a050c8958ae4ec2869ed8ba3b7c03b0a0b766de00354e8cc",
+      "embedding_errors": [
+        2.220446049250313e-16,
+        2.7755575615628914e-17,
+        2.7755575615628914e-17,
+        1.3322676295501878e-15,
+        5.551115123125783e-17,
+        6.938893903907228e-18
+      ],
+      "optimization_grid": [
+        182,
+        144
+      ],
+      "success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 100,
+      "njev": 70,
+      "cost": 0.00014604318289618843,
+      "seconds": 1384.6837187809997,
+      "audit": {
+        "scope": "finite samples of a designed new metric, not a proof",
+        "grid": [
+          601,
+          384
+        ],
+        "metric_max": 0.00043245784671674947,
+        "curvature_max": 10.022129249099608,
+        "support_min": 0.9432757065650303,
+        "area_min": 0.01402483014062398,
+        "E_range": [
+          0.0665784648796265,
+          0.09260804581017593
+        ],
+        "G_range": [
+          0.0024999999999999983,
+          0.0900000002612581
+        ],
+        "z_range": [
+          1.2778975646923552,
+          1.3819841448819812
+        ],
+        "radius_max": 0.30000709745070303,
+        "ball_radius_max": 1.3847477096769993
+      },
+      "name": "q17_smallcut_refined_nc31_m12.json",
+      "output_sha256": "9511b7b4af1ce483ee6fb6f78c41dabeac79bdb87c9077da54452c6cd29be660"
     }
   ],
   "jacobian_direction_check": [
