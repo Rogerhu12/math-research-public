@@ -67,3 +67,5 @@ R18在真实非恒定cell的混合根已求出；physical h=rwv,p=w²t显著减�
 R19已严格给中心对称Hausdorff下界、中央柱公共H、四重基准加二重固定帽的全O(3)非全等与有理10.075%条件窗。H已留.001材料角余量。仍须解出精确圆弧核心到真实非线性尾的全前缀、中央C²接口、无限尾、同g加密和全时连续几何；普通n4短循环λ1/M4的metric.00407未通过，低线性端口也不证明圆弧可解。新的负K轮廓须实际通过，而不是仅耗尽特征窗。
 
 O12更新：精确背景+共享Cartesian二jet已严格定义有限C²图；uniform16→32的metric下降但完整tensor增大，critical入网已有解的tensor仍约节点floor15倍。新表示不等于等距极限。后续如升角模，须先声明完整内端动量边界lift，不能凭8列补零当继承真实高模。
+
+O9更新：m3 q02真联合及同g M8径向对照通过，实际Cartesian接缝和完整均值已数值核；prefix内部二阶插值缺陷、M8 tail fullD仍待加密。M16原shoot的Riccati校正病态失败不等于物理Gram/A失败；转M12或完整稀疏shooting Newton校正，门不改。q06 secant成功仍是开放线性DN。
