@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`b67540b57770a4b97cc3bed202f0d81637de9d90`。2026-11-18 01:02:23（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 02:02:23；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`a0f9e3d33a75997c6ded8f647e17d454415ad599`。2026-11-18 01:07:09（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 02:07:09；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -25,7 +25,7 @@ R13条件窗：若同一prefix接实际尾rXY≤.35、顶高≤1.5265414843、K�
 
 自适应q004同g M8→M12的prefix metric2.437e−9→2.615e−10、tail fullD1.94e−8→2.58e−11，K10.359；两层非极限定理。q006原tol失败后显式3e−6通过，q008 fullD4.687e−6/K12.319。入口adaptive-actual-coupling-and-fixed-g及adaptive_coupled_seed_deliverable，65源恢复已验。
 
-历史实际尾：widecut r.35/w.3两次真联合q.001013/.002通过，后者fullD2.214e−6；72源恢复已核。beta8 q.0002/.0004通过，q.0006失败不是容量；旧高谷仅q2e−6，删脉冲恶化。beta8 p05线性q10通过/q12一次失败，32列原端口再生逐值同一；旧39源漏.cjs，需完整71源/PadTo展开160。入口widecut、ports、actual-prefix-tail-coupling各笔记。旧q18 forcingλ.07同g M8/12/16 metric下降但fullD1.96e−5/1.15e−5/8.23e−6、Xrr差.00382/.00130，非无限尾或C²误差收敛。
+历史实际尾/自适应/混合支见widecut、ports、actual-prefix-tail-coupling及nonlinear-tail-stage1笔记；各低q接受、原门失败、旧39源漏.cjs与71源恢复记录保留。小幅数值不补高q接口。
 
 **m3真联合固定g**：δ=.06105607686781097，完整g SHA11a9…b125。M8→M16八段均用原2e−9门通过：实际q=.0200012257089，tail res1.161e−9、metric1.587e−11、全D2.735e−7/minA.440917/K8.040692；M8全D2.345e−6。完整512角单刚体Cartesian缝最大Xss差3.315e−9，高度两jet≤6.17e−12。真正同g径向BVP已到2462节点：metric4.971e−9→5.845e−11，完整tensor9.015e−6→1.947e−6；尾同层误差不变。旧节点全部保留、峰的桥段区间宽减半，未替换ODE jets。实际q=.02000154623、tail res1.161e−9/mean缝3.49e−13。见m3-true-radial-refinement及同名包；新q025初始化在cell0/segment4局部momentum root触原A floor.05，尚无全局res，非容量界；q021与直接旧accepted states原shoot起步对照继续，见m3-q025-initializer-local-root。全节点稀疏Newton等价及split原映射一致已核；八段降低stage放大而不改原门。旧M12与两段稀疏M16明确取消exit130（末res2.083e−9/6.970e−7），非数学失败。详见m3-fixed-m16-parts8-and-radial-floor及对应两包；旧入口m3-smallcut-true-coupling-and-secant-prefix。q04/q06只线性DN prefix，非真联合；幅度不足/全闭验收未付。
 
@@ -44,6 +44,8 @@ R16有限不定Gram图detG≠0可用，但过零权无L²一致逆；15精确锥
 R17给无轴反射二fold核h=1+qcos2φ+εsin4φ；q.2/ε.005时ρ≥.325、Re AC>.5456625，精确卷积已核。但需要全cos/sin+均值BVP，非免费自由度，旧象限证书不移用。
 
 R20：精确圆弧与任意主频的ρ一致距离≥(n²−1)q tan²(na/2)；n4/a.145的系数严格>1.3357528678，Fraction独立同字节核验。仅在完整线性核+可微支假设下排除固定宽圆弧小q支；有限高矩可用补弧Gram任意修正，不得由有限τ推不存在。
+
+R22：双主频到圆弧的精确距离为(n²−1)q(1−c)²/[(1+c)(5+c)]，c=cos(na)；n4/a.147系数>.0395989054489351，Fraction独立逐字同一。中心半径固定的最优eta=1/[3−4(√2−1)(1−c)]≈.367413，须用更新全圆rho界；尚未进入BVP。切空间推论仍要求完整核/可微性，不由有限共振推出。
 
 R21：实际固定M8 finite tail已定义4638节点/73系数C²图，共2jet圆领接半径.05平盘；组件仍有外边界。背景完整区间给λ>101.60、增高[.01722689,.02886511]、K≤8，深根范围仅引用旧背景定理。圆领/盘连续σ>.8、norm<.817、metric<1.36e−29、K<8.002；root独立Fraction结果全同。外尾仍仅采样metric3.597e−8。完整共缝、全闭几何/收敛继续；包finite_closure/m3_m8_collar_disk。
 
