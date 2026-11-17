@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–632证明见results；本地计算，原Actions责任不变。旧结论/源/参数/SHA均见[open§7](open.md#7-本并行会话的实际数学与几何路线)。.992真M112 Gram2.590e−7，M128回升未付单调精化。[六控制](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受但真Gram1.881e−5，重线性化纠正仍未接受；保更优三控制。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995均未接受。[实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)R1.767/H1.13919，Gram2.057e−6超限；新g未付精确解精化。[双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两新g未接受，深P0至5e−5，暖试1e−4失败。[高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)原弱场约1.4e−7，拟合不得继承。[前缀点对](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)2.11亿近对Q≥.16150仅点云；R632仅盖内reach=ρ。λ1真接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：R623–632证明见results；本地计算，原Actions责任不变。旧结论/源/参数/SHA均见[open§7](open.md#7-本并行会话的实际数学与几何路线)。[扩域.995](notes/2026-11-17-parallel-numerical-0995-continuation.md)真Gram4.001e−7，a′仍正。[六控制](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受但真Gram1.881e−5，重线性化纠正仍未接受；保更优三控制。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995均未接受。[实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)R1.767/H1.13919，Gram2.057e−6超限；新g未付精确解精化。[双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两新g未接受，深P0至5e−5，暖试1e−4失败。[高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)原弱场约1.4e−7，拟合不得继承。[前缀点对](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)2.11亿近对Q≥.16150仅点云；R632仅盖内reach=ρ。λ1真接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 

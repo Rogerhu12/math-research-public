@@ -103,7 +103,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 本节此次压缩前逐字保[b3274c8d固定open](https://github.com/Rogerhu12/math-research-public/blob/b3274c8d044e8cc1c2ca580133bb40155807ed44/topics/visible-flex-larger-amplitude/open.md)，更早逐字保83262fdc；只更新本并行§7，原§1–6不变。本支线本地计算，原Actions唯一读者/责任不变；R623–632完整证明见[results索引](results.md)。所有旧失败/源/参数/SHA均在对应notes及固定历史中，不重做已登记结论。
 
-**真实前缀与核心。** [.992精化](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112真Gram2.590e−7、M128回升6.467e−7，未付单调固定精化。[三控制响应真解](notes/2026-11-17-parallel-numerical-core-gram-response.md)gap.960101/Gram5.177e−7；[六控制新有限族](notes/2026-11-17-parallel-numerical-core-six-responses.md)明确替三terminal行，Δ.001未接受、Δ1e−4虽接受但真Gram1.881e−5，重建完整响应后的纠正也未接受（944节点/RMS5.07e−7）；不沿失败态计幅度。R3直插失败/非线性余项不隐藏；[.8/.9原节点2jet](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保完整模式，提供负wr入口但低z圆化可遮held。
+**真实前缀与核心。** [原解析g扩域](notes/2026-11-17-parallel-numerical-0995-continuation.md).992→.993→.995两次M112全BVP真接受，实际quintic Gram2.587e−7/4.001e−7、κ6.302；边界逐次由真父设计，非DN或固定区间精化，a′仍正。 [.992精化](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112真Gram2.590e−7、M128回升6.467e−7，未付单调固定精化。[三控制响应真解](notes/2026-11-17-parallel-numerical-core-gram-response.md)gap.960101/Gram5.177e−7；[六控制新有限族](notes/2026-11-17-parallel-numerical-core-six-responses.md)明确替三terminal行，Δ.001未接受、Δ1e−4虽接受但真Gram1.881e−5，重建完整响应后的纠正也未接受（944节点/RMS5.07e−7）；不沿失败态计幅度。R3直插失败/非线性余项不隐藏；[.8/.9原节点2jet](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保完整模式，提供负wr入口但低z圆化可遮held。
 
 [新径向增长标量](notes/2026-11-17-parallel-numerical-radial-growth-design.md)定义a_c=1+c(a_base−1)及真实导数，338维全部保留；c=.95在原保存深端行下1454节点/RMS.03449未接受。c=.995独立小改动亦RMS.002572未接受；与原g区间s=.995扩域不同。缩半径参数不冒真实D改善，未来读出须用新g。
 
