@@ -1,0 +1,86 @@
+{
+  "scope": "One diagnosed interior one-ULP initial-value candidate, followed by the unchanged full DN solve and audit. No completed prefix is asserted.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/try_recorded_tail_neighbor.mjs",
+    "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+    "m3_work/beta4625-q060/seed_tail_0001.json.gz",
+    "transfer_work/q060-failed-tail-residual-location.json",
+    "transfer_work/q060-neighbor-original-tail.json.gz",
+    "transfer_work/q060-neighbor-original-tail-summary.json",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py"
+  ],
+  "input_sha256": "1951ae69e2b55cb1cd1cd7cec665e1b4bb21fccbca4060ba6a240b3d36c7c277",
+  "diagnostic_sha256": "8652894db89dbb1ae2df6cd2ffd1fce7f9d27195d7f2fcf6da74cf669623b35d",
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/try_recorded_tail_neighbor.mjs": "8735d7b874975140bf92a9ec646420067f25f60c3acd0ecd72c2b2efc9336fa9",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "candidate": {
+    "stage": 43,
+    "component": 8,
+    "oldValue": -956.9076185977295,
+    "newValue": -956.9076185977294,
+    "absoluteChange": 1.1368683772161603e-13,
+    "componentUlps": 1
+  },
+  "originalGate": 2e-09,
+  "originalFullReplayResidual": 3.6714596250806463e-09,
+  "affectedStagesBefore": [
+    {
+      "stage": 42,
+      "normalizedResidual": 2.63935757393425e-10,
+      "minA": 0.9146427496086009,
+      "minD": 0.999965313692722
+    },
+    {
+      "stage": 43,
+      "normalizedResidual": 3.6714596250806463e-09,
+      "minA": 0.9832175826040318,
+      "minD": 0.9999660043648797
+    }
+  ],
+  "affectedStagesAfter": [
+    {
+      "stage": 42,
+      "normalizedResidual": 2.63935757393425e-10,
+      "minA": 0.9146427496086009,
+      "minD": 0.999965313692722
+    },
+    {
+      "stage": 43,
+      "normalizedResidual": 1.8357298125403232e-09,
+      "minA": 0.9832175826040318,
+      "minD": 0.9999660043648797
+    }
+  ],
+  "originalSolverConverged": false,
+  "error": "Error: multiple-shooting line search failed at 3.012687169522575e-9",
+  "output_record_sha256": "bab18aeeffd98a90426518bfb6c166dcea0eb3568da7299dfd9dee59a5144b0f",
+  "observed_exit_code": 0,
+  "tool_session": 51427,
+  "terminal_completion_chunk": "fa3c6f",
+  "summary_sha256": "d4fb57abe6867cfa00b62016b5fa965603e33255ee73ab08605d01669e73a3bf",
+  "output_record_path": "/workspace/scratch/7322d0dee069/transfer_work/q060-neighbor-original-tail.json.gz",
+  "original_tail_equations_and_gate_unchanged": true,
+  "all_configuration_fields_identical": true,
+  "whole_cut_height_identical": true,
+  "only_changed_binary64_state_entry": [
+    43,
+    8
+  ],
+  "last_original_iteration": {
+    "iteration": 0,
+    "norm": 3.012687169522575e-09,
+    "minA": 0.5294279749367045,
+    "minD": 0.9991344478453604,
+    "chartCondition": null
+  },
+  "prefix_solved": false,
+  "interpretation": "The diagnosed neighbor removes the leading one-ULP barrier, but another mode12 residual remains above the original gate. Original Newton line search still fails; no tail acceptance or q060 coupled prefix is asserted."
+}
