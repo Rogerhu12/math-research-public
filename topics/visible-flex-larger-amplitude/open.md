@@ -99,24 +99,16 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 课题上次104清理后168796207B；未知旧JSON未全分类，不声称已完成所有存储责任。HANDOFF<10000B，各Markdown<100KB；此open通过同目录逐字检查点保全旧内容。源码、完整证明和实际结论按授权直接发表，不新增fixture、审批或六/九jet机器门。
 
-## 7. 2026-11-17 并行互补路线
+## 7. 本并行会话的实际数学与几何路线
 
-R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除随 M 加密的近似、有限物理角表示或 a′=0 处的其它机制。[R624](results/R624-finite-frenet-fourier-convolution-jacobian.md)已给完整卷积 Frenet Jacobian；新圆弧scalar已[角精化到.992/M112](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)，实际quintic Gram采样2.590e−7；M96只加径向仍1.191e−6，M128回升6.467e−7，不能宣称单调谱收敛。已读真实材料cut，112材料模有显著尾，正在高模转换/同背景jet尾匹配。完整尾闭合仍未解决。[R625](results/R625-second-volume-moment-quotient-bound-and-fixed-caps.md)已给二阶体积矩和两组具体帽预算，使含反射 δE 有可实际计算的下界；完整同场A2、帽隔离和源reach仍须实际支付，[R627](results/R627-signed-convolution-caps-and-moment-optimization.md)已严格将弱帽标记矩提高>7.7395倍，保体积/重心；[R629](results/R629-outward-supporting-caps-preserve-reach-and-held-distance.md)给支撑平面外推无损reach/held单调性及h=.01875/.02固定帽；真实源支持/隔离仍未付，几何支线已转实际tail Gram。[R626](results/R626-finite-mean-dynamic-zero-mode-tail-bvp.md)给同有限求积均值的显式零模ODE及误差传播，正在真实source背景上解低阶非零尾BVP；η/全角投影余项和真正深图仍须付；[首个小振幅尾](notes/2026-11-17-parallel-numerical-dynamic-tail-first.md)虽solver接受，真实四分点r残差7.89e−3，现[积分K实际角几何](notes/2026-11-17-parallel-geometry-actual-tail-gram.md)Gram采样1.370e−8（物理r）/7.709e−7（索引），保P微分候选反而4.563/12.431；角构造尚不冒C²。[新大幅cut背景](notes/2026-11-17-parallel-numerical-prefix-scale-tail.md)λ=.01未接受、λ1e−6接受，真K余项10.295；m2/m4紧化线性K增益6.32e6/2.63e7，局部bridge±.1探针不能修复，正在重设valley/bridge，后核固定回头盖的完整D/reach（低z外柱会遮held见证，不能直接用core gap）。[R628](results/R628-nonaxis-conormal-adjoint-and-tail-green-response.md)给非轴同场响应/深边界误差的完整配对式。旧主线与全七项完成标准不改。
+本节压缩前逐字保[83262fdc固定open](https://github.com/Rogerhu12/math-research-public/blob/83262fdcf24a5fe0510be449298dbec2deb4491b/topics/visible-flex-larger-amplitude/open.md)；仅本并行§7更新，原§1–6不变。本支线本地计算，原Actions唯一读者/责任不变；R623–632完整证明均见[results索引](results.md)，不重复已登记定理。
 
-固定物理角的新接口见 [R630](results/R630-fixed-physical-angle-dynamic-mean-and-deep-boundary.md)：P̃=ρP保物理谱，真深稳定边界必须换角；[实际M8/N512加权BVP](notes/2026-11-17-parallel-numerical-weighted-phi-tail.md)保完整112项ρ、有限广义角谱深行，λ1e−7接受但真K余项1088，尚非大幅接合。原物理第0高度/K与材料均值不同。候选外cuff采用向上下弯回再封盘的球面型固定盖，仍须实际高度、C²曲率ramp、整像见证球和源—盖全点对，参考轴对称高度不能当实际H。
+**真实前缀与核心。** [.992精化和端口](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)中M112/N2048/486节点接受、真quintic Gram2.590e−7；M96只径向加密仍1.191e−6、M128回升6.467e−7，尚无单调固定精化。[R3方向探针](notes/2026-11-17-parallel-numerical-core-target-probes.md).1未接受，.001虽接受但Gram1.609e−5；只固定前三模不继承R3完整rho界。[完整响应的新方向](notes/2026-11-17-parallel-numerical-core-gram-response.md)已真重解，gap.9601012148、Gram5.177e−7、κ6.29966，仍仅开放前缀。[.8/.9节点真二阶接口](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保全部物理模、共同quintic二jet，提供w_r<0的新切口；低z过早圆化会遮整像held见证。
 
-[R631](results/R631-compatible-height-actual-geometry-and-C2-radial-map.md)已给积分实际K的兼容C²高度和真正C²径向映射；实际有限DFT/径向求积仍须读真实Gram，正分母本身不保证浸入或嵌入。[同一小tail径向C²实际读出](notes/2026-11-17-parallel-geometry-radial-c2-tail.md)在N512/G8→N512/G12→N1024/G12给Gram1.30622e−10/1.30620e−10/1.32304e−10，非单调收敛；背景本身κ≈11.018，不能当大D reach父证书。不能回填成大幅闭源。
+**尾部实际求解。** [首个动态零模小尾](notes/2026-11-17-parallel-numerical-dynamic-tail-first.md)给完整17维接受和物理残差；[原大cut背景](notes/2026-11-17-parallel-numerical-prefix-scale-tail.md)只λ1e−6接受、线性内部增益巨大，局部bridge探针未修复。[固定物理角实现](notes/2026-11-17-parallel-numerical-weighted-phi-tail.md)保全部112项rho与字面weighted mean，物理/材料高度均值不可混用；[完整加权Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行与alias，局部M112比较非接受场。可选y过零只是新chart，仍保S/D/L/N及真实几何责任。
 
-[固定物理φ真实尾几何](notes/2026-11-17-parallel-geometry-weighted-actual-tail.md)在同一λ1e−7接受场保完整112项ρ，N512/G8→N1024/G12给Gram9.40596e−8→9.40745e−8、κmax≈5.998；真φ高度1.26270075347。把深4高度暂代旧回头盖也只有G/D≈.199466，非完整闭面上界；短bridge待接受场、实际λ1接合未付，不能混用材料参考高度1.212。
+[best4短bridge新g](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)已有材料M8 λ.0001→.001→.0014与物理M8 1e−6→1e−5接受；原物理1e−4直接失败不作无解结论。完整22键primitive重建、前4valley参数、finite-far32/512深列均已刊。[材料初猜后的真物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)保full rho/实际物理trace、同g及对应广义深列，65维完整重解在λ1e−4接受；初猜投影不冒接受父，M8→M32改变有限角模型，不能冒无限收敛。所有λ1接口、实际K/二jet、深4以后非线性尾仍未付。
 
-[同父较早.8/.9截面](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)完整真实2jet已读，w_r为负，可作新尾入口；低z过早圆化会遮held，仍须整像检查。直接C²高度样条/真实径向Gram优化与weighted BVP并行；核心R3目标homotopy仍未接受，不把只定前三模当完整R3核心。
+**真实C²几何与固定盖。** [同小尾四列角Gram](notes/2026-11-17-parallel-geometry-actual-tail-gram.md)区分保P微分失败与积分K成功；[径向C²读出](notes/2026-11-17-parallel-geometry-radial-c2-tail.md)三求积/角网Gram≈1.3e−10但背景本身κ≈11.018，不适合作大D reach父。[旧完整rho弱尾](notes/2026-11-17-parallel-geometry-weighted-actual-tail.md)λ1e−7真Gram9.407e−8、κ≈5.998、φ高度1.26270075347，暂代旧盖也仅G/D≈.199466；材料参考高度1.212不能混用。[R632回头盖](results/R632-c2-return-cap-parallel-body-and-diameter.md)已实造两个有边组件，补底后凸平行体reach准确rho，全部同盖/跨盖法向弦及有理diam已付；不是已拼闭面。R625/627/629的固定标记矩与reach/held结论均需真正源和隔离，未替代活动体责任。
 
-[完整加权tail Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)用全DFT卷积与均值梯度运输，真实三态M112零扩展比较相对1.09e−14、该次171.7×；非M112接受或全solver提速承诺。同源有限far列/可选y过零chart均显式记录，仍保S/D/L/N及全几何责任；短bridge真实幅度延拓继续。
-
-[R632实际C²回头盖](results/R632-c2-return-cap-parallel-body-and-diameter.md)已真生成两个有边组件；补底盘后为凸平行体，证明其reach准确ρ及全部同盖/跨盖法向弦，真实参数组件diam有有理包围。活动体—盖与活动体自身、真flat二jet/高度仍未付，组件不是闭面。
-
-[R3前三系数方向实际探针](notes/2026-11-17-parallel-numerical-core-target-probes.md)：.1未接受；.001有限BVP接受但quintic真实Gram1.609e−5超限，原子全读不被RMS替代。未继承完整R3核心rho界；现按三个真实collocation响应改善方向，线性预测仍须非线性解与真几何另付。
-
-[三个完整响应选核心方向](notes/2026-11-17-parallel-numerical-core-gram-response.md)已真正重解338维BVP，gap=.9601012148、4966400点quintic Gram5.177e−7、κmax6.29966；线性预测2.140e−7不代实际结果。此为新开放前缀，固定几何精化、真实tail及闭面仍未付。
-
-[短bridge best4真实延拓](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)材料M8从λ.0001→.001→.0014接受，物理φM8从1e−6→1e−5接受；全部用同g有限far32/512深列，完整参数/primitive配置重建与SHA已刊。物理1e−4直接失败；DN/真Gram/深4以后仍未付，正在真实跨角seed后完整重解更高物理M。
+继续真实weighted幅度/角阶延拓、C²高度与g共同设计，以及核心响应改善。冻结候选后再精化同g/参数/t；实际全场Gram、完整D、整像held、含反射E(3)、全部活动点对/reach和全t责任一项不减。现未达到课题README完成标准，不以本节或任一子题结果停止。
