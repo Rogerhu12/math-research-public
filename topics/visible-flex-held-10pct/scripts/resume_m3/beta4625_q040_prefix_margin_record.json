@@ -1,0 +1,71 @@
+{
+  "scope": "Locate the complete finite prefix's sampled Frenet margin bottleneck.\n\nThis reuses the accepted actual source field and physical profile.  It does\nnot solve a BVP or infer a continuous lower bound from the sampled minimum.\n",
+  "command": [
+    "topics/visible-flex-held-10pct/scripts/resume_m3/locate_prefix_frenet_margin.py",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--prefix",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+    "--port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-prefix-margin-v2.json"
+  ],
+  "input": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+  "input_sha256": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_prefix_frenet_margin.py": "d9962652804a50b2630ad69b170f68f4d9edae37779492c7a2b04a22b03e5c82",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+  },
+  "modes": 8,
+  "angular": 2048,
+  "radial_points": 2270,
+  "actual_primary_amplitude": 0.04,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.061051601505166045,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "flow_scales": {
+    "end": 1.3603146508959334,
+    "prefix_end": 0.42962238096227956,
+    "Tu": 0.22611704261172608,
+    "Td": 0.20350533835055348,
+    "q": 0.04,
+    "warp_e": 0.32
+  },
+  "loader_startup_correction": {
+    "scope": "before evaluation; input never modified",
+    "error": "KeyError: pp_coefficients",
+    "cause": "Raw gzip JSON retains encoded arrays. The canonical load_checkpoint decoder is required.",
+    "failed_log_sha256": "531c5591c5d4e3397931a0501423e1053c89d0f4a2f4e4e2f2ad217051b06efd"
+  },
+  "unabridged_output_sha256": "3de9cd9ecf12dce57a068e70aab0b85499ef4afa64fee97252c81df99c1fb77d",
+  "omitted_regenerable_rank_rows": 15,
+  "minimum_radial_row": {
+    "s": 0.9947300862319883,
+    "normalized_s": 0.7312499983565104,
+    "psi": 3.141592653589793,
+    "material_theta": 3.141592653589793,
+    "margin": 0.0029598984727730038,
+    "a": 0.6648329744052516,
+    "ap": -0.9979613885149055,
+    "curvature": 1.503297288148204,
+    "alpha": 0.9985189540150087,
+    "chart_rho": 1.0006160740684154
+  }
+}

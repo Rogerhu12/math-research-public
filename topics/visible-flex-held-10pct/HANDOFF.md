@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`f4b39b8b44e078af2a23978107af2b4cc21def79`。2026-11-18 04:45:22（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`2432ece26c5093a7a7068159d031b17cf0133c72`。2026-11-18 04:46:29（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -36,7 +36,7 @@
 
 **n3实际圆化**：精确积分核心/完整lift/自由c6/锁主频入口已接通，lambda0三jet≤3.44e−13；lambda.02初值rho负、.002前缀Frenet失败，见m3-exact-round-core-start。全部旧控制15宽度扫描最佳rho峰值79.163（仅降10.34%），lambda1均采样非正；见m3-complete-compact-control-width-screen。lambda.0002越过prefix初域，第3次actual尾res5.50686e−9/minA.742300原门失败，无接受联立；见m3-round-lambda0002-actual-tail-failure。同物理参数parts16及高辅助频曲率最小新基继续。
 
-beta4.125已有 q.02/.025/.03/.04 四个完整态。q04 tail res8.02413e−10/minA.617549/fullD1.00976e−5；prefix metric6.91e−9/tensor2.28e−4。见 m3-beta4125-fourth-coupled-state。q03真实minA在stage40/cell0第一谷，最大残差在stage43且相当于该分量2ULP/原scale；不能据此放门，见 m3-beta4125-leading-valley-location。
+beta4.125的q.02/.025/.03/.04均完整接受，q04 tail res8.02413e−10/minA.617549；见m3-beta4125-*。q03 minA在stage40首谷、最大残差stage43，ULP解释不放门。新beta4.625/q04旧prefix最小root在s=.99473后桥、a′=−.997961，远过lift终点.38666；见m3-prefix-positive-root-bottleneck，不当作失败迭代位置。
 
 beta3.625/q.0225接受，q025三条原门失败；见m3-beta3625-*。旧跨beta/ULP诊断见tail-residual-and-positivity-locations，均非不存在。
 

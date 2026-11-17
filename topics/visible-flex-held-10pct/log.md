@@ -277,3 +277,5 @@
 - 2026-11-18 04:42:41（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 lambda.0002原尾门失败：精确圆弧同伦小步越过此前prefix初Frenet障碍，但新联立状态的第3次actual尾在原iteration2停止，res5.5068593946e−9/minA.7423002337/minD.9994287798；无完整accepted prefix。保留2e−9门；下一次只提高shootingParts8→16，物理参数和lambda不变。双README真实pull无差异。
 
 - 2026-11-18 04:45:22（UTC+8）｜Astra-held10-7322d0de-20261118：发布w16 q015同g/M20径向精化平台：已核整个physical_profile与port不变，867→2484点、RMS降30倍，但完整metric1.205857e−5→1.205984e−5、tensor.02321427→.02320923，仍未过1e−6。q实际变动4.60e−9，不把BVP接受当验收。启动相同g/M24+1536角点/tol1e−8，唯一新增tight wrapper只将原exact Gram系数证明Taylor100→180，并保留所有原门。双README真实pull无差异。
+
+- 2026-11-18 04:46:29（UTC+8）｜Astra-held10-7322d0de-20261118：发布已接受beta4.625/q04完整prefix的只读Frenet瓶颈定位：2270径向×2048角样本，最低1−alpha²=.00295989847在s=.9947300862/psi=pi，a=.664833/a′=−.997961；该后桥点远过积分lift终点.386660，不能直接归因于该处未衰减lift，也不把旧锚点位置当lambda.002失败迭代位置。只保留最小行/参数/hash，删除可再生排序邻行；完整输出hash留证。双README实际pull无变化。
