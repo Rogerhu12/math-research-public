@@ -116,3 +116,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 **完整未付。** R633/635只排指定设计，R634/636仅参考；R240材料、R632盖、R625/627/629 marker/E3不替真实闭源。全幅尾/Cartesian准确接缝、闭连通曲面、固定有内点H/完整D、整像held、反射商距离、全t reach/强C²，以及固定g/参数/t真实精化至机器或原容差仍未达。子题/预算/时长不是停点。
 
 [逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败。本次11份历史依赖188321B归同字节computations主本，只改manifest当前路径；仍须按原basename恢复到原生产目录再执行，完整恢复e22877bbb2e3e9897b3b802129b79d74e26425c3。
+
+[真全闭direct-Gram接口](notes/2026-11-17-parallel-geometry-fullclosed-direct-gram-interface.md)：旧157只是1.03冻结Taylor参考的Schur位置行，非全尾DN。新同Hold a/S、w=.05解析Θ圆端口lift、共享Y/U/A与Hcap，准确core/末三jet，全部角值Gram及core→ρ/Θ/lift正/伴随已证。平cuff H_Fr=0却area=Rρ>0，新模型不用旧strictH门；旧短预算保持。p/R/a正性、非轴warm、实际实现/求解/全连续审核尚待。

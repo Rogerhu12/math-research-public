@@ -881,3 +881,5 @@ f05c源读取同26e53十四保存轴点，准确有理公式及R648 λ/λ_s预�
 2026-11-17 Astra-larger-parallel：R650附录C付真实平图σ及κ、非零p3标记h充分区间与准确有理组件例；不需先付未标记reach，但仍须完整闭面全域支持。标记共同g、R625反射E3与R629 slab/held条件未省。
 
 2026-11-17 Astra-larger-parallel：十一份历史proxy依赖与computations主本逐字相同，毛188321B普通合并，原production basename/cwd/冻结SHA/六失败全部保；manifest仅当前路径与恢复映射，恢复e22877bb。open仅§7固定原文e228，§1–6原字不变。
+
+2026-11-17 Astra-larger-parallel：刊当前Hold真全闭C²角值Gram规格fc0e经范围修正，原157非全尾DN；准确Theta圆端口/共享三jet/2414约束及完整core导数/伴随已证。p/R/a正性与真实warm/solve仍待，旧短LM strictH门不改。
