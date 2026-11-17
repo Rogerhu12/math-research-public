@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [近竖直参考g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)R1.55虽参考长度/chord/帽D过采样门，未付真实major切向；[R1.6后续表](notes/2026-11-17-parallel-numerical-outward-budget-exclusion.md)完整固定Θ chord1.106767、参考L1.108381、条件H1.441113/D4.797887，仍由[R635](results/R635-positive-projection-meridian-curvature-length-obstruction.md)严格排除。实际反射major正投影且κ≤6.8时，允许负坡也有长度上界；.992/R1.7673/H≤1.22需ε>.388304，.8/R1.6/H≤1.45需ε>.092997，近等距因子已付。改变整个g也无法救这两组合；停止强幅沿此chart/参数追解，内向翻转不在排除内。
 
-[新向内g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)真.995cut后κ1.5与两.02 ramps到参考s2.284717/R.531879内向平2jet，H1.8固定材料chord余.072629；κ1.75/2同H未过门。完整338维已到.997/510节点真BVP接受，但quintic Gram2.754e−6超限、κ6.30172，a′仍正；同g/原.995边界参照M128亦真接受但Gram5.879e−6；端点投影截尾约.000415，增求积角数只改速度约1.4e−8，检查实际端部影响；.997→.999初猜非有限/jac0未接受，仍真父缩步.998。参考盘D3.753875仅组件值，不冒完整闭面。
+[新向内g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)真.995cut后κ1.5与两.02 ramps到参考s2.284717/R.531879内向平2jet，H1.8固定材料chord余.072629；κ1.75/2同H未过门。完整338维已到.997/510节点真BVP接受，但quintic Gram2.754e−6超限、κ6.30172，a′仍正；同g/原.995边界参照M128亦真接受但Gram5.879e−6；端点投影截尾约.000415，增求积角数只改速度约1.4e−8，检查实际端部影响；.999初猜域失败，缩步.998亦1202节点未接受，均不作父。参考盘D3.753875仅组件值，不冒完整闭面。
 
 [R634全角有理覆盖](results/R634-inward-fixed-material-full-angle-chord-budget.md)对真实.995父所有112模及固定材料Θ，以精确系数、Machin π、向外Taylor和Lipschitz支付角间距：条件R∈[.531878,.531880]、L≥1.289716、H1.8下全角chord<1.229702，余>.060014。R/L两个profile积分条件仍未认证，非实际非线性尾。
 

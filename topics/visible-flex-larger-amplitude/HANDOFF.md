@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–635见results；本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)保全部旧结论/失败/源/SHA。[原g前缀](notes/2026-11-17-parallel-numerical-0995-continuation.md).995真Gram4.001e−7，.999大步未接受。[R635](results/R635-positive-projection-meridian-curvature-length-obstruction.md)实际κ6.8/正投影下，.992/R1.7673/H≤1.22与.8/R1.6/H≤1.45分别ε>.388304/.092997，改g亦无效；旧best4另由R633排除。[内向新g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)仅真到.997，M112/M128 Gram2.754e−6/5.879e−6；.999初猜域失败，缩步.998及新边界设计继续。R634在未认证R/L条件下付全角chord余>.060014。[高度漏峰](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)κ7.627、Gram1.330e−6，1557参数最小replay逐字再生。[移动Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)含T_s连接后可选fast109，原坐标正谱不代法向支；新有限BC真解中。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：R623–635见results；本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)保全部旧结论/失败/源/SHA。[原g前缀](notes/2026-11-17-parallel-numerical-0995-continuation.md).995真Gram4.001e−7，.999大步未接受。[R635](results/R635-positive-projection-meridian-curvature-length-obstruction.md)实际κ6.8/正投影下，.992/R1.7673/H≤1.22与.8/R1.6/H≤1.45分别ε>.388304/.092997，改g亦无效；旧best4另由R633排除。[内向新g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)仅真到.997，M112/M128 Gram2.754e−6/5.879e−6；.999初猜域失败，.998亦未接受，改新有限边界。R634在未认证R/L条件下付全角chord余>.060014。[高度漏峰](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)κ7.627、Gram1.330e−6，1557参数最小replay逐字再生。[移动Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)含T_s连接后可选fast109，原坐标正谱不代法向支；新有限BC真解中。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 
