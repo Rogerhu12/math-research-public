@@ -12,3 +12,5 @@
 - [R5：退化入口的局部圆弧保持](results/R5-degenerate-inlet-local-arc-uniqueness.md)。已证明：若精确C3旋转度量浸入具有全圆凸Cauchy数据和局部精确圆弧，加权能量在a″(0)=0处仍给唯一性，圆弧片保持到尖锐特征角窗及其后coast。没有证明完整前缀存在或把任意C2解提升为C3。
 
 - [R6：三重对称固定帽的严格非全等性](results/R6-threefold-markers-and-strict-noncongruence.md)。已证明：中心三阶矩范数与显式C2三重帽给δE>0；任意短中央柱段可避免活动矩偶然抵消，全部改造要求原几何有严格余量。兼容R3换握持，不解决完整族存在。
+
+- [R24：实际m3闭图的固定帽、非全等相位和完整几何](results/R24-fixed-markers-on-the-actual-m3-closed-map.md)。已证明实际有限C²闭图加固定双帽后δE>0、reach/D>.0434、H径/D>.6976；同g整域误差与10%幅度仍未付，非完成结果。

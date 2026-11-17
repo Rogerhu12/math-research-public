@@ -1,0 +1,31 @@
+{
+  "scope": "Actual nonzero fixed marker on the finite R23 map; no claim of whole isometry or 10 percent completion.",
+  "legacy_moment_original_source_sha256": "ed1f1ae43289573e47fa3b811239139d47b54862dc6eb387597f6baefaad3aab",
+  "legacy_moment_output_sha256": "4366c750a2d674b89bbb86aa649710632f247c10fd046493d71322d473b3f975",
+  "current_sources": {
+    "certify_moments_and_hold.py": "493f9e3e1812af17fa0e2edd72968294bf7382bcc6159f98893867f2ade0fd6e",
+    "certify_marked_m3.py": "8ce16afe61a15aac667a94e99e11f6cc5f0b133463eed32789eda31c5d115e39"
+  },
+  "executed_command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_marked_m3.py",
+    "--geometry",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/closed-continuous-geometry.json",
+    "--moments",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/moments-and-held-support.json",
+    "--collar",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/deliverable/collar_disk_scalar_result.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/marked_m3_scalar.json"
+  ],
+  "output_sha256": "a7e447f2010c622c637cf7e03f522208060bd2631719abb4bd4042529d2279c6",
+  "input_sha256": {
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/closed-continuous-geometry.json": "178e801d4360b3ea9c331c4260c4bba88d91527642445019e79f5ac2f065100f",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/moments-and-held-support.json": "4366c750a2d674b89bbb86aa649710632f247c10fd046493d71322d473b3f975",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/deliverable/collar_disk_scalar_result.json": "874504e289fa21a545ebc42711db18df6d1c34ed13d9dee57cb5997f82c805bb"
+  },
+  "marker_radius": "exact frozen rCuff / 2, matching existing ClosedM3Map query",
+  "bvp_solves": 0,
+  "repeated_interval_boxes": 0,
+  "exact_fraction_assembly_succeeded": true
+}

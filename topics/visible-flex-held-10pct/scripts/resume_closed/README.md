@@ -46,3 +46,32 @@ python audit_refined_prefix.py \
 ## 已知限制
 
 完整prefix与tail的两层六jet差不为零；两层比较不是C²极限证明。源背景点查询仍是数值求值，精确背景由真积分定义。已有M16连续证书仅覆盖尾和圆领/盘，尚未把M8的全prefix界转成M16整面界。低幅候选不是10%解。
+
+## 实际固定标记：R24
+
+`closed_m3_map.py` 直接使用 `marker_strength=.5`；其 `marker_eta=.5`、`marker_radius=a/2` 已是R24的参数。完整非全等证明在 `../../results/R24-fixed-markers-on-the-actual-m3-closed-map.md`，包括精确重心、互异惯性轴及α=π/6的核心Fourier排除。
+
+原全盒基体矩/整像支持记录可用下面的恢复脚本生成（消费原R23同一M8数据，不改变任何BVP输入）：
+
+```bash
+python certify_moments_and_hold.py \
+  --data M8_CLOSED/prefix-shared-cartesian.npz \
+  --checkpoint M8_PREFIX \
+  --prefix-audit M8_CLOSED/prefix-common-audit.json \
+  --cut-bounds M8_CLOSED/cut-lift-all-angle-bounds.json \
+  --tail-certificate M8_CLOSED/finite-tail-continuous-geometry.json \
+  --background-certificate R21_OUTPUT/background-interval.json \
+  --angular 512 --batch 12 --out SCRATCH/moments.json
+```
+
+本次接手复用了前会话已完成的该输出，没有重复盒计算。该历史脚本另含radius=a的标记试算；R24的新合并器**只读取未标记基体矩与支持界**，按查询器的真正radius=a/2重新支付标记：
+
+```bash
+python certify_marked_m3.py \
+  --geometry M8_CLOSED/closed-continuous-geometry.json \
+  --moments SCRATCH/moments.json \
+  --collar R21_OUTPUT/collar-disk-scalar.json \
+  --out SCRATCH/marked-m3.json
+```
+
+`marked_execution.json` 保存本次真实执行命令与所有输入输出hash。帽的局部metric对相位精确不变；全闭同g误差尚未因此获得连续证书。
