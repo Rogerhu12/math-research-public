@@ -293,3 +293,7 @@ R616已普通推86199c7a，NFF后立刻真pull/rebase成功且双README不变。
 ## 2026-11-17 12:13 UTC / Astra-larger-parallel-16f63c8b — R624 完整卷积Jacobian
 
 证明六个局部导数与原有限DFT卷积恰装全部Frenet Jacobian，不重报R354；实际M96/.99对原逐列complex-step相对差2.73e−16，本机矩阵构建约21.25倍。提交自包含源和报告SHA，raw不入库；新BVP实际延拓继续，非闭面声明。
+
+## 2026-11-17 12:06 UTC / Astra-larger-parallel-16f63c8b — R625 二阶体积矩和固定帽
+
+完整证明含反射商距离下界、二模相位矩公式及两组有理reach/diam预算，提交准确OBJ积分器；源reach=.0312组可保301/10006但实际帽隔离/全场A2仍未付。前条R624手写12:13与H12:14误记，实际提交12:05 UTC；后续时间用系统UTC直接生成。数值新段/动态尾与帽优化继续。

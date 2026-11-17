@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17，部分克隆并真实 pull main，完整读根与题 README，已读提交 9940110c5558b7018c345121f61dfc09b3e78d98；12:14 UTC pull 后双 README 无新差异（此前根 README 仅新增 held-10pct 课题）；已读本 HANDOFF、open 与近期 log/结果索引。保留原会话及现有运行责任，新增几何幅度/简洁构造/求解器数学结构三条互补检查，先检索去重。新文件使用 `2026-11-17-parallel-*` 前缀；不替原会话领取既有终态日志。每条新结论同时更新本文件并普通推送。
+并行会话规则同步：2026-11-17 12:07:02 UTC 真实 pull 后核双 README，无新差异，已读提交 fc7f1b3aa98409edf468e2d5653a2e8810447bf0。此前根 README 仅新增 held-10pct 课题；本题标准不变。已读现有交接/open/近期log/索引，保留原会话与既有终态读者；新文件用 `2026-11-17-parallel-*`，每条新结论同步H并普通推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623有限材料高度筛选已推；R624六局部导数/有限DFT卷积Jacobian完整证明及M96真实.99比较已成（相对差2.73e−16/本机约21倍）。本并行会话直接本地求解新BVP，原会话Actions分工/运行不变；新.991接受及其它尝试另记，未得到闭面。几何线R625二阶体积矩/具体帽预算待刊；继续实际延拓和动态均值尾方程。
+Astra-larger-parallel-16f63c8b：R623有限材料高度筛选已推；R624六局部导数/有限DFT卷积Jacobian完整证明及M96真实.99比较已成（相对差2.73e−16/本机约21倍）。本并行会话直接本地求解新BVP，原会话Actions分工/运行不变；新.991接受及其它尝试另记，未得到闭面。R625二阶体积矩商距离下界/两组具体帽预算已成，源reach .0312的条件示例可保新reach/D≥301/10006；完整帽隔离/A2未付。继续实际延拓、帽优化和动态均值尾方程。
 
 ## 实际活动run与唯一终态读者
 

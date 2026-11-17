@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R625（已证明，条件几何工具与显式帽）**：[二阶中心体积矩到含反射Hausdorff商距离下界](results/R625-second-volume-moment-quotient-bound-and-fixed-caps.md)：等体积/reach/完整D和area给 dE≥min(τ/2,6Δ/(13AD²))；二模旋转+固定帽有显式矩干涉。两组帽准确支付reach及D费用，第二组源.0312可保新reach/D≥301/10006；仍须真实帽隔离和完整场A2。附闭OBJ准确有理矩积分器，不代闭面存在。
+
 - **R624（已证明的导数/装配恒等式；计时为数值证据）**：[完整有限 Frenet Fourier 卷积 Jacobian](results/R624-finite-frenet-fourier-convolution-jacobian.md)：六个局部导数一次DFT装配全部3M+2行列，保原离散混叠/两均值/正根，成本 O(N log N+M²)。实际M96旧.99末态相对Frobenius差2.73e−16，构建约21.25倍；真正新段仍单独支付。
 
 - **R623（已证明，路线筛选）**：[有限材料角高度的平面圈唯一性与最高模缺陷传递](results/R623-finite-material-height-and-highest-mode-defect.md)：在 a>0、a′≠0 的紧环带上，准确 Darboux 高度的有限材料 Fourier 谱若在一圈匹配径向一阶 jet，则整带径向；最高模余项有完整 Gronwall 界。只排除固定有限谱准确 ansatz，不排除 M→∞精化或有限物理角场，不作闭面完成声明。
