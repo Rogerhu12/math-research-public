@@ -1,0 +1,35 @@
+{
+  "scope": "Same finite nonlinear tail equations; alternative all-node sparse Newton/tangent linear solve, with actual original-worker cross-check. No generated state or DN arrays.",
+  "files": [
+    {
+      "file": "actual-comparison-record.json",
+      "bytes": 4556,
+      "sha256": "f709df79efecf98d4764607a9e4404f21d698c5a71752cd6bbbeca1fb06eea61"
+    },
+    {
+      "file": "linear_system_equivalence.md",
+      "bytes": 4461,
+      "sha256": "16a8d84ad31c6dca25d726f37c5decc97e903477a7abc57c0b01ab8d7eab57ef"
+    },
+    {
+      "file": "make_sparse_source.py",
+      "bytes": 4406,
+      "sha256": "b47e44c3f3db325e69da1265fb782db199b34e376679769c157c7cf0ffe013a1"
+    },
+    {
+      "file": "replay_comparison.py",
+      "bytes": 3151,
+      "sha256": "fa728ce79def6ddc49f4deef61e62b25826caeed88e486d5023c0d6baa418f54"
+    },
+    {
+      "file": "sparse_shooting_linear.py",
+      "bytes": 3365,
+      "sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+    },
+    {
+      "file": "sparse_shooting_linear_v1.py",
+      "bytes": 3195,
+      "sha256": "55d18e552d1cae322ec16f3e01eb0041dbfb8172046c627691a2f701a879e3a2"
+    }
+  ]
+}

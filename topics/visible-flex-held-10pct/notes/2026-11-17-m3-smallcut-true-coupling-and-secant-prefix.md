@@ -41,4 +41,4 @@
 
 70份源在空目录恢复后，原worker canonical8逐字同SHA2b036a6f926503f46dddf41c8e141c215dc45340c556641d2fd2b6c192b62365。另实际Cartesian exporter也与原源逐值相同。所有DN/H/chart/mesh/checkpoint数组只再生到scratch。fast55早期初始nodes/restart未存，其已核数值设置保留；重放明确选冷401节点/max4000，不伪称原历史argv。
 
-M16固定g的最新原shoot暖启动已经终态失败，残差6.87e−7未过原2e−9门；这是逐stage Riccati校正图条件数约1.28e11导致的数值分支失败，minA仍.44095，不归因A零或几何不存在。该失败另包登记，现尝试M12及不消去局部Riccati图的全shooting校正；原方程和接受门保持。所有闭合/全时reach/10%完成缺口仍在。
+M16固定g的最新原shoot暖启动已经终态失败，残差6.87e−7未过原2e−9门；这是伴随逐stage Riccati校正图条件数约1.28e11的数值分支失败；仅凭该条件数不证明失败因果，minA仍.44095，不归因A零或几何不存在。该失败另包登记，现尝试M12及不消去局部Riccati图的全shooting校正；原方程和接受门保持。所有闭合/全时reach/10%完成缺口仍在。

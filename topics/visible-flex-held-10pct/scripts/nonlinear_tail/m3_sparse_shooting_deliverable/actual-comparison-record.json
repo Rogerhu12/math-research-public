@@ -1,0 +1,123 @@
+{
+  "scope": "Compare both linear algebra backends on a nearby actual m3 tail input.\nNo constructed surface family is inferred from this standalone numerical test.\n",
+  "original_checkpoint_sha256": "12754098ba6cffc0abb5f0c327c7a376cac826ea8ab820b793ec5ad9b958c4f2",
+  "height_multiplier": 1.000001,
+  "source_change": {
+    "scope": "Copy the 70-source m3 closure and replace only Newton/DN linear algebra.\n\nThe nonlinear equations, guards, residual normalization, integrations,\nacceptance thresholds and line search stay byte-identical in their source.\nThe original recovered source directory is never edited.\n",
+    "original_sha256": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+    "patched_sha256": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "original_bytes": 15596,
+    "patched_bytes": 14745,
+    "patches": [
+      "import child_process and strict sparse-linear helper",
+      "Newton correction: all-node sparse solve of original linear system",
+      "cut tangent graph: all-node sparse solve of original tangent system"
+    ],
+    "helper_sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "sparse": {
+    "converged": true,
+    "residual": 1.7247653323926176e-09,
+    "audit": {
+      "fullD": 2.3453829470723854e-06,
+      "normalizedFullDefect": 0.005025217072588582,
+      "minLeading": 0.441993726539473,
+      "minD": 0.9997260049241196,
+      "formalCurvature": 8.040692134244697,
+      "maxPhysicalPV": 0.00010871927396632169,
+      "actualMetric": 3.1864044736096317e-10,
+      "holonomy": 4.482921873343385e-19
+    },
+    "checkpoint_sha256": "ad159342caa028f7edc65adc8ff2e2b0283568f9ea44aefe9515e705e3d39769",
+    "jacobian_linf": 50194.57751176428,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 0.02774109114437348,
+        "minA": 0.4419428815905686,
+        "minD": 0.9997259238475449,
+        "chartCondition": null,
+        "step": 1
+      },
+      {
+        "iteration": 1,
+        "norm": 7.762322968961492e-08,
+        "minA": 0.44194317678962647,
+        "minD": 0.9997259238491569,
+        "chartCondition": null,
+        "step": 1
+      },
+      {
+        "iteration": 2,
+        "norm": 3.946466207451457e-09,
+        "minA": 0.441943176790059,
+        "minD": 0.9997259238491569,
+        "chartCondition": null,
+        "step": 1
+      },
+      {
+        "iteration": 3,
+        "norm": 3.13395845885851e-09,
+        "minA": 0.441943176790059,
+        "minD": 0.9997259238491569,
+        "chartCondition": null,
+        "step": 1
+      },
+      {
+        "iteration": 4,
+        "norm": 2.5535957812921196e-09,
+        "minA": 0.4419431767900589,
+        "minD": 0.9997259238491569,
+        "chartCondition": null,
+        "step": 1
+      },
+      {
+        "iteration": 5,
+        "norm": 1.7247653323926176e-09,
+        "minA": 0.4419431767900589,
+        "minD": 0.9997259238491569
+      }
+    ]
+  },
+  "original": {
+    "converged": true,
+    "residual": 1.7247653323926176e-09,
+    "audit": {
+      "fullD": 2.3453829470723854e-06,
+      "normalizedFullDefect": 0.005025217072588582,
+      "minLeading": 0.441993726539473,
+      "minD": 0.9997260049241196,
+      "formalCurvature": 8.040692134244697,
+      "maxPhysicalPV": 0.00010871927396632169,
+      "actualMetric": 3.1864044736096317e-10,
+      "holonomy": 4.482921873343385e-19
+    },
+    "checkpoint_sha256": "e0e115efcefc8cdf2c7a20f17310e101db3c05fb93b0c31f8c5b026f4ade718a",
+    "jacobian_linf": 50194.57751176428,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 1.7247653323926176e-09,
+        "minA": 0.4419431767900589,
+        "minD": 0.9997259238491569
+      }
+    ]
+  },
+  "jet_max_difference": 0.0,
+  "jacobian_absolute_max_difference": 6.548361852765083e-11,
+  "jacobian_relative_max_difference": 1.304595471738022e-15,
+  "transformation_anchor_counts": {
+    "import path from 'node:path';": 1,
+    "export function createCompactTailShooting(": 1,
+    " function correction(ev,states,target){": 1,
+    " function solve(target,opts={}){": 1,
+    " function tangentGraphAtCut(sol){": 1,
+    " function heightJetJacobian(sol,": 1
+  },
+  "first_attempt": {
+    "scope": "Extra componentwise linear diagnostic self-rejected on roundoff in a homogeneous BC row; this is an implementation diagnostic, not a nonlinear geometric failure.",
+    "linear_residual_linf": 5.960528498181149e-16,
+    "componentwise_backward_error": 1.0,
+    "helper_v1_sha256": "55d18e552d1cae322ec16f3e01eb0041dbfb8172046c627691a2f701a879e3a2"
+  }
+}
