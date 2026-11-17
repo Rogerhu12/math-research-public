@@ -223,3 +223,7 @@
 - 2026-11-18 04:08:59（UTC+8）｜Astra-held10-7322d0de-20261118：发表R30原N求积的周期恒等式、独立四模块安装器与真实M16/N512八状态root/RHS/Jac对照。canonical源未改、N/完整rows及所有原门保留；无逐位一致或整体提速声明。实际尾正在同H重启，局部对照不代替终态；真实pull双README未变。
 
 - 2026-11-18 04:11:36（UTC+8）｜Astra-held10-7322d0de-20261118：发表beta4.125/q025第二个真正联合态，最终tail1.97687e−9贴近原门、minA.753937，prefix完整tensor4.75849e−4明确保留。原工程中断仅留下tail初值，新轮完整重求，未用旧较小残差冒充；真实pull双README未变，q03接续。
+
+- 2026-11-18 04:15:40（UTC+8）｜Astra-held10-7322d0de-20261118：发表beta4.125/q.030第三个真正联合锚点，完整4次actual tail过原2e−9门，res1.64709e−9/minA.709207；prefix/tail完整二阶缺陷和mean/nonmean seam保持明列。仍原cosine核、非圆化/同g精化/闭族；已接q.040。真实pull后双README无变化。
+
+- 2026-11-18 04:15:58（UTC+8）｜Astra-held10-7322d0de-20261118：q030发布ref接口返回通用GraphQL错误；立即真实pull --rebase并核对双README差异为空，保留并行提交，以新head非force重发。

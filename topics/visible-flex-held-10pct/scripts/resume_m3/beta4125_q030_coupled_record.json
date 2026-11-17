@@ -1,0 +1,299 @@
+{
+  "scope": "Collect terminal scalars and hashes, never regenerable field arrays.",
+  "runs": [
+    {
+      "run": "beta4125-q030",
+      "summary_sha256": "3a71cb7066e99a59155cecfddbe919c62ba5f2f92e83a53793135eecdd4fa18b",
+      "status": "accepted",
+      "solver_success": true,
+      "error": null,
+      "frozen_profile": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "delta": 0.06105428508814396,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "gauge_amplitude": 0.03,
+      "actual_primary_amplitude": 0.03,
+      "nodes": 937,
+      "max_rms_collocation_residual": 9.91359096834441e-07,
+      "seconds": 218.45258617401123,
+      "tail_calls": 4,
+      "actual_outer_checks": [
+        {
+          "outer": 0,
+          "inner_success": true,
+          "actual_boundary_residual": 2.365848132269277e-10,
+          "actual_tail_residual": 1.647094021936774e-09,
+          "tail_calls": 3
+        }
+      ],
+      "prefix_scalars": {
+        "metric_l1": 4.6406782316036645e-09,
+        "flow_defect": 7.793338448054586e-09,
+        "darboux_l1": 0.0001279675115227909,
+        "kappa_sample": 8.382153016476817,
+        "radius_max": 1.075367736442821,
+        "height_max": 0.7854781625620469,
+        "root_min": 0.0032175251985983033,
+        "chart_rho_min": 0.76,
+        "support_amplitude": 0.03,
+        "terminal_height_coeff_max": 8.261086277762384e-05,
+        "physical_bc_max": 4.7316962645385535e-12,
+        "samples_s": 2022,
+        "samples_psi": 512,
+        "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+      },
+      "seam_scalars": {
+        "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+        "tail_record": "seed_tail_0004.json.gz",
+        "tail_converged": true,
+        "tail_shooting_residual": 1.647094021936774e-09,
+        "mean_first_actual": 0.07976075109244549,
+        "mean_first_expected": 0.07976075109291784,
+        "mean_first_mismatch": -4.723582636145807e-13,
+        "mean_second_actual": 1.8422781763132146,
+        "mean_second_expected": 1.842278176301922,
+        "mean_second_mismatch": 1.1292522472672317e-11,
+        "nonmean_first_mismatch": 4.731696264921331e-12,
+        "nonmean_second_mismatch": 1.0992274458576873e-10,
+        "cut_metric_fft_l1": 7.106608537115452e-12,
+        "cut_metric_c1_fft_l1": 1.5206410956107576e-10,
+        "angular_samples": 512
+      },
+      "tail_responses": [
+        {
+          "path": "seed_tail_0001.json.gz",
+          "sha256": "a8fa6d95521effd67a652acd869aaeba553745b81ec27db6ae70d6b36101b481",
+          "converged": true,
+          "residual": 8.23573822146617e-10,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 4,
+            "norm": 8.23573822146617e-10,
+            "minA": 0.7092237515888354,
+            "minD": 0.9995795977009039
+          },
+          "audit": {
+            "fullD": 7.216344620720811e-07,
+            "normalizedFullDefect": 1.6665246439814753e-05,
+            "minLeading": 0.7092273042041536,
+            "minD": 0.9995796267522546,
+            "formalCurvature": 8.124533974624544,
+            "maxPhysicalPV": 0.00016495909441310725,
+            "actualMetric": 9.883271978594828e-11,
+            "holonomy": 2.171633658082416e-18
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0002.json.gz",
+          "sha256": "d295cf711f0108d6d36167db1f73f38b35f62c6dab2ae87e6408c1469239e6c9",
+          "converged": true,
+          "residual": 8.23573822146617e-10,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 0,
+            "norm": 8.23573822146617e-10,
+            "minA": 0.7092237515888354,
+            "minD": 0.9995795977009039
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0003.json.gz",
+          "sha256": "e0b8d7f5ae4f5c7d59d99c869f89a7db9faf74a2a82d1f6a0673bf43b4141543",
+          "converged": true,
+          "residual": 1.647094021936774e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 2,
+            "norm": 1.647094021936774e-09,
+            "minA": 0.7092065323708037,
+            "minD": 0.9995797415921667
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0004.json.gz",
+          "sha256": "9ddbb236732b4754bb95b1bc09e1238ae74ff668888f67239fdf0090b0793c09",
+          "converged": true,
+          "residual": 1.647094021936774e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 0,
+            "norm": 1.647094021936774e-09,
+            "minA": 0.7092065323708037,
+            "minD": 0.9995797415921667
+          },
+          "audit": {
+            "fullD": 7.197641560455487e-07,
+            "normalizedFullDefect": 1.663627756146133e-05,
+            "minLeading": 0.709210078414982,
+            "minD": 0.999579770624823,
+            "formalCurvature": 8.124368325111876,
+            "maxPhysicalPV": 0.0001649493072383386,
+            "actualMetric": 9.858291960542065e-11,
+            "holonomy": 2.1673984933461444e-18
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        }
+      ],
+      "continuation-command.json": {
+        "scope": "Continue two accepted actual m3 coupled states without changing solve gates.\n\nThis is a design-amplitude continuation. The prefix delta is solved again.\nOnly the initial guess changes; no same-metric convergence is claimed.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_smallcut_secant.py",
+          "--source-topic",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--secant-low",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q020-linear-difference/seed.json.gz",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q030/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q030/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q030/seed",
+          "--restart",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/seed.json.gz",
+          "--amplitude",
+          "0.03",
+          "--warp-reference",
+          "0.03",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1",
+          "--lagged-tail"
+        ],
+        "inputs": {
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q020-linear-difference/seed.json.gz": "ff93da79896012b894b1b9226f70677c6737455ddf1a201ee231dc9b7d8c443a",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/seed.json.gz": "6c08d6ec2c37c52d45bdfec83b96886478eed83e2be84eeb08ff1808d328b92a",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/seed_tail_0004.json.gz": "5924267f0d90e0a35bbdbab350da4cf173e73590e378cf39324f9357857e9df8",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/port.json": "69f6073622a0d3f75a5b16b419a3d3ee54a3e8ae7c016e7f42f33efb2c69cadf",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+        },
+        "tail_acceptance": 2e-09,
+        "same_metric_refinement": false,
+        "returncode": 0
+      },
+      "seed-secant-record.json": {
+        "source_hashes": {
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_smallcut_secant.py": "2194e692f9ad08f8b1091e7b52a025713f325bb41a879eb6274b2f446da8d37a",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "secant": {
+          "high": "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/seed.json.gz",
+          "low": "/workspace/scratch/7322d0dee069/m3_work/beta4125-q020-linear-difference/seed.json.gz",
+          "high_sha256": "6c08d6ec2c37c52d45bdfec83b96886478eed83e2be84eeb08ff1808d328b92a",
+          "low_sha256": "ff93da79896012b894b1b9226f70677c6737455ddf1a201ee231dc9b7d8c443a",
+          "high_actual_q": 0.025,
+          "low_actual_q": 0.02,
+          "target_q": 0.03,
+          "normalized_shape_weight": 0.9999999999999993,
+          "even_design_parameter_weight": 1.222222222222221,
+          "inlet_correction_linf": 1.2138366476399653e-06,
+          "target_nodes": 815,
+          "high_modes": 8,
+          "low_modes": 8,
+          "target_modes": 8,
+          "material_pullback": "Each original restart performs its own old-to-new material-angle pullback",
+          "scope": "Initial guess only; accepted anchors do not imply acceptance of this extrapolation"
+        },
+        "wrapper_returned": true,
+        "seconds": 221.11900251399857
+      },
+      "output_hashes": {
+        "config.json": "ef2e74e20cc31151948bff1aa82cf6240e680e2786b7052bbcad3191e62a51fd",
+        "continuation-command.json": "4ff7434756aad452111625bebd49393420c849180bcfb47d70d90e541647549e",
+        "linear-trace.jsonl": "2869634d70c05d0de05561a71a13d2d1fab12c79e35a4d24111451771423e358",
+        "profile.json": "8f9137ae8ccd66d4a4b35a9bcab6a3f513386a5fcc21115a8c23f7932f66d6e5",
+        "seed-secant-record.json": "8eacd572038bde75e3d737ac9f4e1c68a415983c925ebc3f85504148943391cd",
+        "seed-summary.json": "3a71cb7066e99a59155cecfddbe919c62ba5f2f92e83a53793135eecdd4fa18b",
+        "seed.json.gz": "e78b1db8ea9f17f13d9f5dba102919e540e8c87ce2372a8371acf36184363c7e",
+        "seed_coeff_00.npy.gz": "6648d9e71555dbf40d0bb46979ce696f9712e06655937ce0f6588d8544161130",
+        "seed_tail_0001.json.gz": "a8fa6d95521effd67a652acd869aaeba553745b81ec27db6ae70d6b36101b481",
+        "seed_tail_0002.json.gz": "d295cf711f0108d6d36167db1f73f38b35f62c6dab2ae87e6408c1469239e6c9",
+        "seed_tail_0003.json.gz": "e0b8d7f5ae4f5c7d59d99c869f89a7db9faf74a2a82d1f6a0673bf43b4141543",
+        "seed_tail_0004.json.gz": "9ddbb236732b4754bb95b1bc09e1238ae74ff668888f67239fdf0090b0793c09",
+        "worker-trace.jsonl": "9d2f9363afd89a2739e21a289b7b71e5869059327a73aabf59e7485653ef49be"
+      }
+    }
+  ]
+}
