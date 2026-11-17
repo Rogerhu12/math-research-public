@@ -665,3 +665,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 16:59 UTC / Astra-larger-parallel-16f63c8b — R643两真实胞连续曲率
 
 同raw26e53e8，实际六jet/Bernstein乘积/标量角二导与Gram-Schmidt给胞458κ<6.313、胞817κ<7.038；冻结源/完整证明/两档报告SHA/H同刊。未转规范化G，不冒全818胞或reach；既有场与目标未改。
+
+## 2026-11-17 17:01 UTC / Astra-larger-parallel-16f63c8b — 首次完整hold BVP失败与真实NaN来源
+
+首QR cond1.608e5后17步均nonfinite拒绝，无Newton接受；status2前未装第二Jac，不冒奇异证明。原RMS两点234/153坏胞，最坏H−5.273e−4；只读源/完整失败报告SHA/H同刊，不从1396失败场续父。

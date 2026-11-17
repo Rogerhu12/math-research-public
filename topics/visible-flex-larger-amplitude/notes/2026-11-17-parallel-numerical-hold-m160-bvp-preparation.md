@@ -59,3 +59,5 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH="$
 ```
 
 磁盘QR/chunk/source checkpoint都只在scratch；最终状态、原完整数学门与真实全场读出后续分别登记。这里的执行记录不更改上文“准备未求解”的历史结论。
+
+实际终态已见[首次完整BVP失败与RMS域缺口](2026-11-17-parallel-numerical-hold-m160-first-bvp-failure.md)：没有Newton步被接受；17步皆因残差非有限拒绝，第二Jac未装配，失败场不是新父。
