@@ -1,0 +1,3060 @@
+{
+  "schema": "actual-cell-complete-finite-mixed-diagnostics-v1",
+  "session": "true_a_analysis",
+  "scope": "Fixed physical cell and actual endpoint BC; finite residual success does not certify the bad interpolants. All completed and failed branches are retained.",
+  "input_checkpoint": {
+    "path": "nonlinear_tail_work/original_negative_m8_lowfloor_run/response_0003.json.gz",
+    "bytes": 28612,
+    "sha256": "ff112d52696344bae08051b9276432dedebda368f653bacbce70f7b4fba5b9e1"
+  },
+  "runs": [
+    {
+      "scope": "Mixed BVP on one actual finite-tail cell with the recorded physical BC.\n\nScalar height jets below differentiate the nodal L interpolant. They are\nreported as an additional audit, not as an automatic C2 Cartesian certificate.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k8-ref128.json.gz",
+        "sha256": "884aeffec83b89eae06fdc02d0e06cbe697fc16f50c0b13a41ad59802225c7a1"
+      },
+      "source_sha256": {
+        "probe_actual_cell.py": "f333db4adc705d1f41f9c949433e072d53baa1a1eb04cb27fedaca2e0beadf96",
+        "mixed_bvp.py": "d54a426b0868ee76a7869e2fd874425ee433390ed415fc0c7aa8531b8baa62f0",
+        "mu_free_fields.py": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 8,
+        "referenceStepsPerStage": 128,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint"
+      },
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 1.6548088737196791e-15,
+      "ode_residual": 1.4316889687671086e-16,
+      "boundary_residual": 0.0,
+      "minD": 0.999477875899878,
+      "minS": 0.9999987581437582,
+      "minA": 0.15438875935422278,
+      "minimum_abs_gram_eigenvalue": 0.15963251667064468,
+      "minimum_gram_eigenvalue": 0.15963251667064468,
+      "reference_state_error": 0.031142360862474794,
+      "maximum_height_jet_reference_errors": [
+        9.826981368095942e-06,
+        0.00026443080938892585,
+        1.904743157385869e-05,
+        0.9655397827965682,
+        0.0006122731413149441,
+        8.705950342958053e-05
+      ],
+      "maximum_Lr_join_jump": 100.02216136989557,
+      "maximum_formal_gauss_defect": 0.038049663545122625,
+      "maximum_height_darboux_defect": 0.03802502262598117,
+      "maximum_reference_gauss_defect": 0.00017136810084356774,
+      "maximum_formal_curvature": 8.0392059799411,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k8-mixed.npz",
+        "sha256": "c0113762e1e06f83813c2644cdf1cff711caf5df3adf745f9437f49560ddf7b8"
+      },
+      "elapsed_seconds": 1.985788780000803,
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k8-mixed.json",
+        "bytes": 107726,
+        "sha256": "8687ef5803008426beeec58d576d12405d1e73282e59b9055d42aff2f4139db3"
+      },
+      "iteration_count": 13,
+      "stage_worst": {
+        "8": {
+          "formal_gauss_defect": 0.0001279045007289148,
+          "height_darboux_defect": 0.00012704219656361213,
+          "formal_curvature": 1.8642122118162425,
+          "height_jet_reference_errors": [
+            1.2578090132484877e-09,
+            3.429688951020471e-06,
+            5.9331236188170725e-09,
+            0.0004693963015918179,
+            1.631867596228829e-05,
+            3.843317307618667e-08
+          ],
+          "Lr_join_jump": 0.0023785192135991895
+        },
+        "7": {
+          "formal_gauss_defect": 0.01079225338619505,
+          "height_darboux_defect": 0.010671885781502244,
+          "formal_curvature": 8.0392059799411,
+          "height_jet_reference_errors": [
+            1.7975957480958983e-06,
+            2.3793401097441103e-05,
+            3.3929170937710526e-06,
+            0.06593751958688994,
+            6.497577693355319e-05,
+            8.55587234533696e-06
+          ],
+          "Lr_join_jump": 1.319230015959692
+        },
+        "6": {
+          "formal_gauss_defect": 1.4337518479165656e-07,
+          "height_darboux_defect": 1.4332787924025098e-07,
+          "formal_curvature": 0.0721515665346736,
+          "height_jet_reference_errors": [
+            1.429985782481336e-06,
+            1.566803614393847e-05,
+            2.8269110460054443e-06,
+            3.8451117272066625e-05,
+            6.500488227452342e-05,
+            6.128025640071222e-06
+          ],
+          "Lr_join_jump": 1.3211697067492454
+        },
+        "5": {
+          "formal_gauss_defect": 0.010764044109760618,
+          "height_darboux_defect": 0.010760395316749279,
+          "formal_curvature": 7.979295737052741,
+          "height_jet_reference_errors": [
+            9.826981368095942e-06,
+            0.000188042945199946,
+            1.904743157385869e-05,
+            0.2217518661883835,
+            0.0005466787855257951,
+            4.3580982774816916e-05
+          ],
+          "Lr_join_jump": 26.962920685321876
+        },
+        "4": {
+          "formal_gauss_defect": 3.191064365478731e-05,
+          "height_darboux_defect": 3.191063395387519e-05,
+          "formal_curvature": 0.0705208145320993,
+          "height_jet_reference_errors": [
+            7.739465536251274e-06,
+            0.00026443080938892585,
+            1.5086499171258836e-05,
+            0.019444616995925486,
+            0.0006074672443964575,
+            8.705950342958053e-05
+          ],
+          "Lr_join_jump": 13.405444272338451
+        },
+        "3": {
+          "formal_gauss_defect": 0.038049663545122625,
+          "height_darboux_defect": 0.03802502262598117,
+          "formal_curvature": 7.9918673244286484,
+          "height_jet_reference_errors": [
+            9.57279605294403e-07,
+            0.00026443080938892585,
+            2.499597399865894e-06,
+            0.9655397827965682,
+            0.0006122731413149441,
+            7.447059274422459e-06
+          ],
+          "Lr_join_jump": 100.02216136989557
+        },
+        "2": {
+          "formal_gauss_defect": 8.003465121242207e-09,
+          "height_darboux_defect": 6.899917021334771e-09,
+          "formal_curvature": 2.0438592932429547,
+          "height_jet_reference_errors": [
+            3.037540833592893e-07,
+            5.772757451560917e-06,
+            6.248018770036684e-07,
+            1.815039721313342e-08,
+            1.534529462858105e-05,
+            2.069689496779814e-06
+          ],
+          "Lr_join_jump": 0.0007808519723600913
+        },
+        "1": {
+          "formal_gauss_defect": 0.0011249407044105814,
+          "height_darboux_defect": 0.0009698313873240863,
+          "formal_curvature": 7.974104033977525,
+          "height_jet_reference_errors": [
+            2.6877382339838955e-07,
+            5.772757451560917e-06,
+            5.349454899274586e-07,
+            0.0010279433761235524,
+            1.534529462858105e-05,
+            1.7638772357711315e-06
+          ],
+          "Lr_join_jump": 0.03973919153284844
+        },
+        "0": {
+          "formal_gauss_defect": 2.5697855302042605e-12,
+          "height_darboux_defect": 2.5694613099446353e-12,
+          "formal_curvature": 0.08317983535754572,
+          "height_jet_reference_errors": [
+            8.401712421015759e-08,
+            2.686878447521329e-06,
+            1.6333361495693288e-07,
+            1.776927125995975e-07,
+            5.249471001872666e-06,
+            3.7368774690474356e-07
+          ],
+          "Lr_join_jump": 0.019676308503704974
+        }
+      }
+    },
+    {
+      "scope": "Mixed BVP on one actual finite-tail cell with the recorded physical BC.\n\nScalar height jets below differentiate the nodal L interpolant. They are\nreported as an additional audit, not as an automatic C2 Cartesian certificate.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-ref256-cartesian.json.gz",
+        "sha256": "f39272334decdea4d9601f3091560efb2a92bbb7f93180a8e5b07099df138c12"
+      },
+      "source_sha256": {
+        "probe_actual_cell.py": "f333db4adc705d1f41f9c949433e072d53baa1a1eb04cb27fedaca2e0beadf96",
+        "mixed_bvp.py": "d54a426b0868ee76a7869e2fd874425ee433390ed415fc0c7aa8531b8baa62f0",
+        "mu_free_fields.py": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": true,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": 0.0001
+      },
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 2.3743324321584474e-14,
+      "ode_residual": 1.2823943296158546e-15,
+      "boundary_residual": 0.0,
+      "minD": 0.9994778577236623,
+      "minS": 0.9999987581437582,
+      "minA": 0.06536132420370448,
+      "minimum_abs_gram_eigenvalue": 0.1056908608954589,
+      "minimum_gram_eigenvalue": 0.1056908608954589,
+      "reference_state_error": 0.006716521584194557,
+      "maximum_height_jet_reference_errors": [
+        2.1269432392735253e-06,
+        7.811554570652269e-05,
+        4.109177938102591e-06,
+        0.41126253827145587,
+        0.00027321303297290605,
+        4.036568236833869e-05
+      ],
+      "maximum_Lr_join_jump": 46.82965590397782,
+      "maximum_formal_gauss_defect": 0.010520629647933433,
+      "maximum_height_darboux_defect": 0.010403291313939009,
+      "maximum_reference_gauss_defect": 0.00017594498128257335,
+      "maximum_formal_curvature": 8.04016702379333,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-mixed.npz",
+        "sha256": "de16d74d5a4cfc5c9dfed27f8057897ecfda6a41f4ecec16124724f3e3ed3ff6"
+      },
+      "elapsed_seconds": 2.3213058969995473,
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-mixed.json",
+        "bytes": 206239,
+        "sha256": "12ee18279007e060288bc1b797df9bff1ad9cdd4066643a1f1a2c441973f4064"
+      },
+      "iteration_count": 7,
+      "stage_worst": {
+        "8": {
+          "formal_gauss_defect": 3.448588626553395e-05,
+          "height_darboux_defect": 3.4253423732050484e-05,
+          "formal_curvature": 1.8638498886263868,
+          "height_jet_reference_errors": [
+            1.649455927204245e-10,
+            4.5147215248231287e-07,
+            9.019515791793692e-10,
+            0.00013251092574440015,
+            2.4777527227082437e-06,
+            5.77557732086946e-09
+          ],
+          "Lr_join_jump": 0.00038286428975642384
+        },
+        "7": {
+          "formal_gauss_defect": 0.010520629647933433,
+          "height_darboux_defect": 0.010403291313939009,
+          "formal_curvature": 8.04016702379333,
+          "height_jet_reference_errors": [
+            2.9012389450154986e-07,
+            3.8562073038928e-06,
+            5.46802057666679e-07,
+            0.05497768108525495,
+            1.4532112514901736e-05,
+            1.3866941145289054e-06
+          ],
+          "Lr_join_jump": 0.9837097972621431
+        },
+        "6": {
+          "formal_gauss_defect": 2.888454730625323e-07,
+          "height_darboux_defect": 2.88704483467709e-07,
+          "formal_curvature": 0.07212194169466626,
+          "height_jet_reference_errors": [
+            1.937844940514018e-07,
+            2.3640365908531025e-06,
+            3.8745105897122854e-07,
+            7.894280258472072e-06,
+            1.4532112514901736e-05,
+            9.538251250955712e-07
+          ],
+          "Lr_join_jump": 1.046447041583093
+        },
+        "5": {
+          "formal_gauss_defect": 0.0026406156972058614,
+          "height_darboux_defect": 0.0026357675772746892,
+          "formal_curvature": 7.981236549243876,
+          "height_jet_reference_errors": [
+            2.1269432392735253e-06,
+            4.0977030983553326e-05,
+            4.109177938102591e-06,
+            0.059088286452523286,
+            0.00013280018575650109,
+            9.601985925440171e-06
+          ],
+          "Lr_join_jump": 3.8281509442497708
+        },
+        "4": {
+          "formal_gauss_defect": 4.725128559338449e-05,
+          "height_darboux_defect": 4.7251277833522626e-05,
+          "formal_curvature": 0.08320882188863235,
+          "height_jet_reference_errors": [
+            1.5731717172360184e-06,
+            7.811554570652269e-05,
+            3.5367185063761e-06,
+            0.009692268226115231,
+            0.00027321303297290605,
+            4.036568236833869e-05
+          ],
+          "Lr_join_jump": 5.241362862754482
+        },
+        "3": {
+          "formal_gauss_defect": 0.006448420386975351,
+          "height_darboux_defect": 0.006444236852034852,
+          "formal_curvature": 7.968579030125431,
+          "height_jet_reference_errors": [
+            9.576239263658968e-08,
+            6.388519113850082e-05,
+            3.349638556650632e-07,
+            0.41126253827145587,
+            0.00021456302454384994,
+            1.3447091793682988e-06
+          ],
+          "Lr_join_jump": 46.82965590397782
+        },
+        "2": {
+          "formal_gauss_defect": 3.159563898151557e-09,
+          "height_darboux_defect": 2.7239002138329e-09,
+          "formal_curvature": 2.043866880712127,
+          "height_jet_reference_errors": [
+            2.0814103804437242e-08,
+            5.794361112587687e-07,
+            6.833046869860295e-08,
+            7.110149778507082e-09,
+            2.405401506066433e-06,
+            2.881435681073838e-07
+          ],
+          "Lr_join_jump": 0.0005827202324197979
+        },
+        "1": {
+          "formal_gauss_defect": 0.0009955082148361354,
+          "height_darboux_defect": 0.0008582439532971856,
+          "formal_curvature": 7.9741230745325,
+          "height_jet_reference_errors": [
+            1.764308245419246e-08,
+            5.823896865320144e-07,
+            5.5087773319392534e-08,
+            0.0005246067414959685,
+            2.405401506066433e-06,
+            2.2171132482496343e-07
+          ],
+          "Lr_join_jump": 0.038265345094663145
+        },
+        "0": {
+          "formal_gauss_defect": 1.0076020963770138e-12,
+          "height_darboux_defect": 1.0074749237438781e-12,
+          "formal_curvature": 0.08317977955319308,
+          "height_jet_reference_errors": [
+            2.895178490775215e-09,
+            1.4351722096503372e-07,
+            6.3504148020707115e-09,
+            1.3019895084807886e-08,
+            4.1510447265116735e-07,
+            2.0605695160552843e-08
+          ],
+          "Lr_join_jump": 0.01913757971486511
+        }
+      }
+    },
+    {
+      "scope": "Mixed BVP on one actual finite-tail cell with the recorded physical BC.\n\nScalar height jets below differentiate the nodal L interpolant. They are\nreported as an additional audit, not as an automatic C2 Cartesian certificate.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-ref256.json.gz",
+        "sha256": "6c9c1799633aff42abbfe87c35678193617c6a6367faf90924cc53494ff4feed"
+      },
+      "source_sha256": {
+        "probe_actual_cell.py": "f333db4adc705d1f41f9c949433e072d53baa1a1eb04cb27fedaca2e0beadf96",
+        "mixed_bvp.py": "d54a426b0868ee76a7869e2fd874425ee433390ed415fc0c7aa8531b8baa62f0",
+        "mu_free_fields.py": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 32,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": false,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": null
+      },
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 7.952245318635677e-14,
+      "ode_residual": 2.488867402103412e-15,
+      "boundary_residual": 0.0,
+      "minD": 0.9994778391635124,
+      "minS": 0.9999987581437582,
+      "minA": 0.015610636119023325,
+      "minimum_abs_gram_eigenvalue": 0.07268554564254284,
+      "minimum_gram_eigenvalue": 0.07268554564254284,
+      "reference_state_error": 0.0015609489677678792,
+      "maximum_height_jet_reference_errors": [
+        2.7643029304976244e-07,
+        1.3643967595860184e-05,
+        7.651633260127708e-07,
+        0.10757564030078948,
+        5.942993051303249e-05,
+        9.037607871776462e-06
+      ],
+      "maximum_Lr_join_jump": 11.703567563961014,
+      "maximum_formal_gauss_defect": 0.009452825634200135,
+      "maximum_height_darboux_defect": 0.009347396588429813,
+      "maximum_reference_gauss_defect": 0.00017585955577650858,
+      "maximum_formal_curvature": 8.040021762577432,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-mixed.npz",
+        "sha256": "784e357c3889dc3193137a64b7463196f4e7659c3706dd24012d08d7b8ff4e9b"
+      },
+      "elapsed_seconds": 3.101072257000851,
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-mixed.json",
+        "bytes": 406693,
+        "sha256": "78f547ee1106eeec105f967919bf36da2be8a7793a399f6f40f456ce0a2dcf09"
+      },
+      "iteration_count": 4,
+      "stage_worst": {
+        "8": {
+          "formal_gauss_defect": 1.0178529199489361e-05,
+          "height_darboux_defect": 1.0109915804721272e-05,
+          "formal_curvature": 1.8637934257501785,
+          "height_jet_reference_errors": [
+            3.124063727437572e-11,
+            8.575712079350595e-08,
+            8.023092693681955e-11,
+            3.47483445858332e-05,
+            2.2004099399161592e-07,
+            3.9058357027452976e-10
+          ],
+          "Lr_join_jump": 5.157533611033216e-05
+        },
+        "7": {
+          "formal_gauss_defect": 0.009452825634200135,
+          "height_darboux_defect": 0.009347396588429813,
+          "formal_curvature": 8.040021762577432,
+          "height_jet_reference_errors": [
+            3.132154625823413e-08,
+            6.19572231484733e-07,
+            5.881894524993039e-08,
+            0.027422671848206903,
+            2.1706536765414043e-06,
+            1.5105925427498154e-07
+          ],
+          "Lr_join_jump": 0.26499914149613657
+        },
+        "6": {
+          "formal_gauss_defect": 4.7540276257928466e-07,
+          "height_darboux_defect": 4.751706574080056e-07,
+          "formal_curvature": 0.07212035023371219,
+          "height_jet_reference_errors": [
+            2.5673085515126592e-08,
+            6.14983950725928e-07,
+            4.92627762154591e-08,
+            1.2966614133618198e-06,
+            2.1634950996382747e-06,
+            1.4970282367758082e-07
+          ],
+          "Lr_join_jump": 0.42278882646150573
+        },
+        "5": {
+          "formal_gauss_defect": 0.0026008242819627325,
+          "height_darboux_defect": 0.002596049178499681,
+          "formal_curvature": 7.981531848695063,
+          "height_jet_reference_errors": [
+            2.7643029304976244e-07,
+            4.638197557196302e-06,
+            5.329017954231949e-07,
+            0.017436163977552432,
+            1.7167303075557496e-05,
+            1.26432616497584e-06
+          ],
+          "Lr_join_jump": 0.5313304112271169
+        },
+        "4": {
+          "formal_gauss_defect": 5.2858950961683695e-05,
+          "height_darboux_defect": 5.285894376659481e-05,
+          "formal_curvature": 0.0871422979190234,
+          "height_jet_reference_errors": [
+            1.7207867922348018e-07,
+            1.3643967595860184e-05,
+            7.651633260127708e-07,
+            0.002732581879280202,
+            5.942993051303249e-05,
+            9.037607871776462e-06
+          ],
+          "Lr_join_jump": 1.4911275477877686
+        },
+        "3": {
+          "formal_gauss_defect": 0.001371054779643499,
+          "height_darboux_defect": 0.0013705925931473467,
+          "formal_curvature": 7.968740712642466,
+          "height_jet_reference_errors": [
+            8.965608652057407e-09,
+            8.080707467262335e-06,
+            3.5567840051582976e-08,
+            0.10757564030078948,
+            4.558672411166667e-05,
+            1.467039374933501e-07
+          ],
+          "Lr_join_jump": 11.703567563961014
+        },
+        "2": {
+          "formal_gauss_defect": 1.942974169764386e-09,
+          "height_darboux_defect": 1.6750633028476474e-09,
+          "formal_curvature": 2.0438704526870772,
+          "height_jet_reference_errors": [
+            3.1441565082160642e-09,
+            6.994239831747961e-08,
+            1.0262178501188071e-08,
+            1.1373469507143096e-09,
+            3.5014180793402913e-07,
+            3.7941729973082626e-08
+          ],
+          "Lr_join_jump": 9.663548907958616e-05
+        },
+        "1": {
+          "formal_gauss_defect": 0.0004918926556156782,
+          "height_darboux_defect": 0.00042406889613891903,
+          "formal_curvature": 7.974130899657372,
+          "height_jet_reference_errors": [
+            2.7379807591385763e-09,
+            7.012852942800407e-08,
+            8.173020030642419e-09,
+            0.00025921455719715757,
+            3.531568444042465e-07,
+            2.7696760658983867e-08
+          ],
+          "Lr_join_jump": 0.007796091381080585
+        },
+        "0": {
+          "formal_gauss_defect": 6.49803019552031e-13,
+          "height_darboux_defect": 6.497210073865621e-13,
+          "formal_curvature": 0.08317978254588494,
+          "height_jet_reference_errors": [
+            6.363758217343664e-10,
+            2.528681435597091e-08,
+            1.2620679977624931e-09,
+            1.93969645727321e-09,
+            6.161527155638502e-08,
+            3.5884166748935837e-09
+          ],
+          "Lr_join_jump": 0.008630005254474982
+        }
+      }
+    },
+    {
+      "scope": "Mixed BVP on one actual finite-tail cell with the recorded physical BC.\n\nScalar height jets below differentiate the nodal L interpolant. They are\nreported as an additional audit, not as an automatic C2 Cartesian certificate.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-ref256.json.gz",
+        "sha256": "f20441a088fe51775ba031b3e38ea618ee60619e5e5d443c4ef1063b02eb5e6c"
+      },
+      "source_sha256": {
+        "probe_actual_cell.py": "f333db4adc705d1f41f9c949433e072d53baa1a1eb04cb27fedaca2e0beadf96",
+        "mixed_bvp.py": "d54a426b0868ee76a7869e2fd874425ee433390ed415fc0c7aa8531b8baa62f0",
+        "mu_free_fields.py": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "radialMesh": "cusp-cosine",
+        "cartesianReference": false,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": null
+      },
+      "success": false,
+      "stop_reason": "global_line_search_failed",
+      "root_relative": 1.592920303568203e-05,
+      "ode_residual": 7.381179770041615e-07,
+      "boundary_residual": 2.117582368135751e-22,
+      "minD": 0.9994769511040934,
+      "minS": 0.9999987581437582,
+      "minA": -0.018226374473926287,
+      "minimum_abs_gram_eigenvalue": 0.05037367424421205,
+      "minimum_gram_eigenvalue": 0.05037367424421205,
+      "reference_state_error": 0.002632337044818458,
+      "maximum_height_jet_reference_errors": [
+        2.5224388166362674e-07,
+        1.9970998880501764e-05,
+        1.2955114987030879e-06,
+        0.2880507413836222,
+        9.630617568694407e-05,
+        1.5180006810334835e-05
+      ],
+      "maximum_Lr_join_jump": 25.657473463795952,
+      "maximum_formal_gauss_defect": 0.01744457527986709,
+      "maximum_height_darboux_defect": 0.017438463531289285,
+      "maximum_reference_gauss_defect": 0.00017606303467618267,
+      "maximum_formal_curvature": 8.041153643216404,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-mixed.npz",
+        "sha256": "b8780a3b2162097859e91ea2cac372c5208dcd0fc4d47f0a6e5c3bc96ba390aa"
+      },
+      "elapsed_seconds": 4.211351010999351,
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-mixed.json",
+        "bytes": 212928,
+        "sha256": "67943dc0ddf55d7f7f4a9058617d9428c6675d1de8200f87b5e53eaaaf09e3c3"
+      },
+      "iteration_count": 16,
+      "stage_worst": {
+        "8": {
+          "formal_gauss_defect": 7.786011714633334e-05,
+          "height_darboux_defect": 7.733516008351422e-05,
+          "formal_curvature": 1.8637736893875576,
+          "height_jet_reference_errors": [
+            2.33703373764705e-10,
+            6.351731854231657e-07,
+            7.127435992749717e-10,
+            0.0003079303662887334,
+            1.947110710640715e-06,
+            4.094606987888397e-09
+          ],
+          "Lr_join_jump": 0.0008503583687172189
+        },
+        "7": {
+          "formal_gauss_defect": 0.005636219229413317,
+          "height_darboux_defect": 0.005573323277901681,
+          "formal_curvature": 8.041153643216404,
+          "height_jet_reference_errors": [
+            2.5224388166362674e-07,
+            4.239678230540805e-06,
+            4.7386081660920386e-07,
+            0.02544226885095746,
+            1.2529878050265581e-05,
+            1.2191188388710385e-06
+          ],
+          "Lr_join_jump": 0.5650768410791817
+        },
+        "6": {
+          "formal_gauss_defect": 7.523913961302994e-07,
+          "height_darboux_defect": 7.520239815758199e-07,
+          "formal_curvature": 0.07213119928326278,
+          "height_jet_reference_errors": [
+            1.7959282044336896e-07,
+            4.18752622186741e-06,
+            3.3754510998156104e-07,
+            7.897833162592285e-06,
+            1.2472988234403081e-05,
+            1.033424806553434e-06
+          ],
+          "Lr_join_jump": 0.08878202523336023
+        },
+        "5": {
+          "formal_gauss_defect": 0.0053134488103561694,
+          "height_darboux_defect": 0.005312525724936355,
+          "formal_curvature": 7.981691521003085,
+          "height_jet_reference_errors": [
+            1.8036303694568111e-07,
+            4.995134750633925e-06,
+            3.40005294595532e-07,
+            0.12825611603513565,
+            2.2990195892984202e-05,
+            1.0804944308844553e-06
+          ],
+          "Lr_join_jump": 7.558498057905922
+        },
+        "4": {
+          "formal_gauss_defect": 5.5336086764285345e-05,
+          "height_darboux_defect": 5.533607962017487e-05,
+          "formal_curvature": 0.08809750904395625,
+          "height_jet_reference_errors": [
+            2.0481377864950818e-07,
+            1.9970998880501764e-05,
+            1.2955114987030879e-06,
+            0.005112470586243593,
+            9.630617568694407e-05,
+            1.5180006810334835e-05
+          ],
+          "Lr_join_jump": 0.020961904988130442
+        },
+        "3": {
+          "formal_gauss_defect": 0.01744457527986709,
+          "height_darboux_defect": 0.017438463531289285,
+          "formal_curvature": 7.968875717402346,
+          "height_jet_reference_errors": [
+            8.182365121453876e-08,
+            1.0110562941732099e-05,
+            1.4953836126097142e-07,
+            0.2880507413836222,
+            7.504403357016075e-05,
+            6.045248469186551e-07
+          ],
+          "Lr_join_jump": 25.657473463795952
+        },
+        "2": {
+          "formal_gauss_defect": 5.932950046687683e-09,
+          "height_darboux_defect": 5.114877580010814e-09,
+          "formal_curvature": 2.0438728107941833,
+          "height_jet_reference_errors": [
+            5.970712263206259e-08,
+            9.877909653011052e-07,
+            1.203682457862766e-07,
+            6.629805860086183e-09,
+            2.362999850902568e-06,
+            3.031856870134104e-07
+          ],
+          "Lr_join_jump": 4.588290267717966e-05
+        },
+        "1": {
+          "formal_gauss_defect": 0.0004820451637557177,
+          "height_darboux_defect": 0.00041557993752659576,
+          "formal_curvature": 7.974110036143063,
+          "height_jet_reference_errors": [
+            5.372098007563442e-08,
+            9.87790576501002e-07,
+            1.0703539888944375e-07,
+            0.00045348987526061535,
+            2.362999850902568e-06,
+            2.588462771806196e-07
+          ],
+          "Lr_join_jump": 0.014954497796945743
+        },
+        "0": {
+          "formal_gauss_defect": 2.8646817882248266e-11,
+          "height_darboux_defect": 2.864319346905998e-11,
+          "formal_curvature": 0.08317979750747141,
+          "height_jet_reference_errors": [
+            1.8532696317363903e-08,
+            5.634949243049636e-07,
+            3.644409173356922e-08,
+            3.467649775223264e-08,
+            1.0942036958985885e-06,
+            7.852943518106887e-08
+          ],
+          "Lr_join_jump": 0.00012956409681466607
+        }
+      }
+    },
+    {
+      "scope": "Mixed BVP on one actual finite-tail cell with the recorded physical BC.\n\nScalar height jets below differentiate the nodal L interpolant. They are\nreported as an additional audit, not as an automatic C2 Cartesian certificate.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-ref256-cartesian.json.gz",
+        "sha256": "f39272334decdea4d9601f3091560efb2a92bbb7f93180a8e5b07099df138c12"
+      },
+      "source_sha256": {
+        "probe_actual_cell.py": "a43a4e7ba04897a32724aab889f9e6d33d6b2e22b1decfed2c2ca840e7d1e35e",
+        "mixed_bvp.py": "d54a426b0868ee76a7869e2fd874425ee433390ed415fc0c7aa8531b8baa62f0",
+        "mu_free_fields.py": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0",
+        "physical_mixed_fields.py": "5bd1ee45d6ee8c1a407f386434339ebf0f344bfc6ad975068c70ebd42c85a22c"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": true,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": 0.0001
+      },
+      "coordinates": "physical",
+      "constant_coordinate_scales": {
+        "height_scale": 0.024000000000000084,
+        "momentum_scale": 0.006400000000000043
+      },
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 1.5843538945983366e-15,
+      "ode_residual": 1.065762566193525e-18,
+      "boundary_residual": 0.0,
+      "minD": 0.999477869274074,
+      "minS": 0.9999987581437582,
+      "minA": 0.0027366693330579447,
+      "minimum_abs_gram_eigenvalue": 0.06430931746004621,
+      "minimum_gram_eigenvalue": 0.06430931746004621,
+      "reference_state_error": 5.0028981660025216e-05,
+      "maximum_height_jet_reference_errors": [
+        1.2160524974347948e-09,
+        2.3491847909052482e-07,
+        7.487657783637554e-09,
+        0.36805358931894416,
+        3.1495113106827245e-06,
+        8.119310539335791e-08
+      ],
+      "maximum_Lr_join_jump": 42.50406479438425,
+      "maximum_formal_gauss_defect": 0.02584786888959867,
+      "maximum_height_darboux_defect": 0.025559583599958646,
+      "maximum_reference_gauss_defect": 0.00017594498128257335,
+      "maximum_formal_curvature": 8.040424969866814,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-physical-solve.npz",
+        "sha256": "74b0775fda6d7e34682c7ae159346bd565ce17c2cb3ceddfd6a1e50fcffa4968"
+      },
+      "elapsed_seconds": 0.9862110610010859,
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-physical-solve.json",
+        "bytes": 204743,
+        "sha256": "cdf442f98f5b0323d50fbcb243ea2c1a656fa034e1baf289b0212bf392bea739"
+      },
+      "iteration_count": 2,
+      "stage_worst": {
+        "8": {
+          "formal_gauss_defect": 3.623965577642663e-05,
+          "height_darboux_defect": 3.599533349378081e-05,
+          "formal_curvature": 1.8638295346666969,
+          "height_jet_reference_errors": [
+            5.759932190495948e-13,
+            1.5829043492621153e-09,
+            2.0361207294858352e-12,
+            0.000141875757058596,
+            5.5884815256326825e-09,
+            1.278891643735798e-11
+          ],
+          "Lr_join_jump": 0.00028486084287410174
+        },
+        "7": {
+          "formal_gauss_defect": 0.02584786888959867,
+          "height_darboux_defect": 0.025559583599958646,
+          "formal_curvature": 8.040424969866814,
+          "height_jet_reference_errors": [
+            1.58444110425187e-11,
+            6.954306307899172e-09,
+            1.0098872194226616e-10,
+            0.10932235382353728,
+            6.68881694396422e-08,
+            1.4962820457480042e-09
+          ],
+          "Lr_join_jump": 0.2791130145793317
+        },
+        "6": {
+          "formal_gauss_defect": 5.202363676352073e-07,
+          "height_darboux_defect": 5.199823834138825e-07,
+          "formal_curvature": 0.07211908293404556,
+          "height_jet_reference_errors": [
+            2.0737497900521e-11,
+            6.954306307899172e-09,
+            1.4325873560344649e-10,
+            4.006719164307074e-08,
+            6.711960136936059e-08,
+            2.22953475191405e-09
+          ],
+          "Lr_join_jump": 2.0595377791120577
+        },
+        "5": {
+          "formal_gauss_defect": 0.0075838526060775235,
+          "height_darboux_defect": 0.007569928914881445,
+          "formal_curvature": 7.981611174206773,
+          "height_jet_reference_errors": [
+            5.724460760015565e-11,
+            1.6761082780383796e-08,
+            2.2830371851378407e-10,
+            0.05840920930374317,
+            1.5391844668862648e-07,
+            2.779228029247023e-09
+          ],
+          "Lr_join_jump": 2.932195871410201
+        },
+        "4": {
+          "formal_gauss_defect": 5.389397017831207e-05,
+          "height_darboux_defect": 5.3893963024933724e-05,
+          "formal_curvature": 0.08740977621059615,
+          "height_jet_reference_errors": [
+            1.2160524974347948e-09,
+            9.426994244585412e-08,
+            7.487657783637554e-09,
+            0.00033835783397657276,
+            8.601147318358638e-07,
+            8.119310539335791e-08
+          ],
+          "Lr_join_jump": 5.679864726142693
+        },
+        "3": {
+          "formal_gauss_defect": 0.005252163861902526,
+          "height_darboux_defect": 0.005250393108526931,
+          "formal_curvature": 7.968642500668516,
+          "height_jet_reference_errors": [
+            7.988399341544989e-10,
+            2.3491847909052482e-07,
+            6.817671380568435e-09,
+            0.36805358931894416,
+            3.1495113106827245e-06,
+            7.554916238712263e-08
+          ],
+          "Lr_join_jump": 42.50406479438425
+        },
+        "2": {
+          "formal_gauss_defect": 3.3429888592007625e-09,
+          "height_darboux_defect": 2.8820343296941097e-09,
+          "formal_curvature": 2.043870805681994,
+          "height_jet_reference_errors": [
+            1.6519860170105617e-10,
+            9.805878165014548e-09,
+            1.5430327054248538e-09,
+            1.2220771631276102e-09,
+            1.0485216579404983e-07,
+            1.798265140989146e-08
+          ],
+          "Lr_join_jump": 0.0009017221022214099
+        },
+        "1": {
+          "formal_gauss_defect": 0.0021456106537088575,
+          "height_darboux_defect": 0.0018497669865276372,
+          "formal_curvature": 7.9741319230985805,
+          "height_jet_reference_errors": [
+            1.1485475475982279e-10,
+            1.0656501125971829e-08,
+            9.779764077085256e-10,
+            0.0011306777261970728,
+            1.1274030329900938e-07,
+            1.0710858968087465e-08
+          ],
+          "Lr_join_jump": 0.03081262453988401
+        },
+        "0": {
+          "formal_gauss_defect": 9.912677232867817e-13,
+          "height_darboux_defect": 9.911426150847674e-13,
+          "formal_curvature": 0.08317978317131863,
+          "height_jet_reference_errors": [
+            1.2387105448337293e-11,
+            6.242643849768692e-10,
+            2.7893695948382852e-11,
+            6.392140202565733e-11,
+            1.9018651390491663e-09,
+            8.933091645942141e-11
+          ],
+          "Lr_join_jump": 0.028344661104925218
+        }
+      }
+    },
+    {
+      "scope": "Mixed BVP on one actual finite-tail cell with the recorded physical BC.\n\nScalar height jets below differentiate the nodal L interpolant. They are\nreported as an additional audit, not as an automatic C2 Cartesian certificate.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-ref256.json.gz",
+        "sha256": "f20441a088fe51775ba031b3e38ea618ee60619e5e5d443c4ef1063b02eb5e6c"
+      },
+      "source_sha256": {
+        "probe_actual_cell.py": "a43a4e7ba04897a32724aab889f9e6d33d6b2e22b1decfed2c2ca840e7d1e35e",
+        "mixed_bvp.py": "d54a426b0868ee76a7869e2fd874425ee433390ed415fc0c7aa8531b8baa62f0",
+        "mu_free_fields.py": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0",
+        "physical_mixed_fields.py": "5bd1ee45d6ee8c1a407f386434339ebf0f344bfc6ad975068c70ebd42c85a22c"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "radialMesh": "cusp-cosine",
+        "cartesianReference": false,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": null
+      },
+      "coordinates": "physical",
+      "constant_coordinate_scales": {
+        "height_scale": 0.024000000000000084,
+        "momentum_scale": 0.006400000000000043
+      },
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 9.180334862816659e-15,
+      "ode_residual": 1.4802937830961887e-18,
+      "boundary_residual": 0.0,
+      "minD": 0.999477724518556,
+      "minS": 0.9999987581437582,
+      "minA": 0.002906752410559958,
+      "minimum_abs_gram_eigenvalue": 0.06436094682359267,
+      "minimum_gram_eigenvalue": 0.06436094682359267,
+      "reference_state_error": 2.7483890343357764e-05,
+      "maximum_height_jet_reference_errors": [
+        1.8060691064843452e-09,
+        1.4594320074071566e-07,
+        1.0381793190441233e-08,
+        0.23265054364812343,
+        1.5873456796269012e-06,
+        1.1841305081428338e-07
+      ],
+      "maximum_Lr_join_jump": 20.907181316609808,
+      "maximum_formal_gauss_defect": 0.015905991862947427,
+      "maximum_height_darboux_defect": 0.015728505173065784,
+      "maximum_reference_gauss_defect": 0.00017606303467618267,
+      "maximum_formal_curvature": 8.040992106354103,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-physical-solve.npz",
+        "sha256": "bc78d2ccf1cdf7871ef72114251c55e80c52b3305fb5bf87d806665dee34f583"
+      },
+      "elapsed_seconds": 1.138291635999849,
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-physical-solve.json",
+        "bytes": 207584,
+        "sha256": "a1e051614f7c220380988a5f98d7ed299c6eafc7a408c099ddff7207c7b8b24a"
+      },
+      "iteration_count": 2,
+      "stage_worst": {
+        "8": {
+          "formal_gauss_defect": 8.529995869871465e-05,
+          "height_darboux_defect": 8.472488058789486e-05,
+          "formal_curvature": 1.8637886162827604,
+          "height_jet_reference_errors": [
+            1.2551130924506881e-13,
+            3.4500310941432133e-10,
+            7.819596749628066e-13,
+            0.00032849103904730725,
+            2.1467527911572803e-09,
+            7.97712189273131e-12
+          ],
+          "Lr_join_jump": 0.0006951988945601562
+        },
+        "7": {
+          "formal_gauss_defect": 0.015905991862947427,
+          "height_darboux_defect": 0.015728505173065784,
+          "formal_curvature": 8.040992106354103,
+          "height_jet_reference_errors": [
+            1.8115996631420592e-11,
+            5.7053123544981155e-09,
+            1.3533702582007798e-10,
+            0.046093795138793796,
+            6.757986002053906e-08,
+            1.515412425862235e-09
+          ],
+          "Lr_join_jump": 0.7698155609178621
+        },
+        "6": {
+          "formal_gauss_defect": 5.20105864126142e-07,
+          "height_darboux_defect": 5.19851943705524e-07,
+          "formal_curvature": 0.0721190862230574,
+          "height_jet_reference_errors": [
+            1.8398131569662482e-11,
+            5.724998735495701e-09,
+            1.7305322260363805e-10,
+            3.443359840666745e-08,
+            6.783028232680306e-08,
+            2.1491341553603327e-09
+          ],
+          "Lr_join_jump": 0.11640119403980254
+        },
+        "5": {
+          "formal_gauss_defect": 0.003896651431085363,
+          "height_darboux_defect": 0.0038959741778272156,
+          "formal_curvature": 7.981379768349679,
+          "height_jet_reference_errors": [
+            2.5872287398955897e-10,
+            2.7633702435461358e-08,
+            5.026792918819568e-10,
+            0.1078267617325146,
+            1.7600098956797178e-07,
+            4.457157125911486e-09
+          ],
+          "Lr_join_jump": 5.816834381459955
+        },
+        "4": {
+          "formal_gauss_defect": 5.385572121177908e-05,
+          "height_darboux_defect": 5.385571406304187e-05,
+          "formal_curvature": 0.087646437859527,
+          "height_jet_reference_errors": [
+            1.8060691064843452e-09,
+            1.4594320074071566e-07,
+            1.0381793190441233e-08,
+            0.0005422645472076756,
+            8.955151143531879e-07,
+            1.1841305081428338e-07
+          ],
+          "Lr_join_jump": 0.02094889953895951
+        },
+        "3": {
+          "formal_gauss_defect": 0.012485818269931226,
+          "height_darboux_defect": 0.01248144581463443,
+          "formal_curvature": 7.968827133771231,
+          "height_jet_reference_errors": [
+            9.705961505763385e-10,
+            1.2306290849556367e-07,
+            3.773808951266846e-09,
+            0.23265054364812343,
+            1.5873456796269012e-06,
+            3.917548305219299e-08
+          ],
+          "Lr_join_jump": 20.907181316609808
+        },
+        "2": {
+          "formal_gauss_defect": 5.944284308518756e-09,
+          "height_darboux_defect": 5.1246450926548915e-09,
+          "formal_curvature": 2.0438707042063013,
+          "height_jet_reference_errors": [
+            1.1576771941740272e-10,
+            6.4574174341025525e-09,
+            9.884662178292975e-10,
+            2.860574332136364e-09,
+            6.745696433531826e-08,
+            1.1330053296557951e-08
+          ],
+          "Lr_join_jump": 5.285301468181203e-05
+        },
+        "1": {
+          "formal_gauss_defect": 0.0007666344471015663,
+          "height_darboux_defect": 0.0006609290338764469,
+          "formal_curvature": 7.9741041777056,
+          "height_jet_reference_errors": [
+            8.59569142747545e-11,
+            7.325445083861126e-09,
+            6.524897305521248e-10,
+            0.0005072079564327758,
+            7.554358507190673e-08,
+            7.114193356373474e-09
+          ],
+          "Lr_join_jump": 0.01626558743087153
+        },
+        "0": {
+          "formal_gauss_defect": 1.638203244933023e-12,
+          "height_darboux_defect": 1.637996533708025e-12,
+          "formal_curvature": 0.08317978317220046,
+          "height_jet_reference_errors": [
+            1.345192028158682e-11,
+            5.895029343144786e-10,
+            2.797933704114155e-11,
+            5.73555031593842e-11,
+            1.6097659153612625e-09,
+            8.38940015894857e-11
+          ],
+          "Lr_join_jump": 0.00012947867421133838
+        }
+      }
+    }
+  ],
+  "cartesian_audits": [
+    {
+      "scope": "Audit actual Cartesian jets of the radial mixed interpolant, interval by interval.\n\nv and t use the Hermite cubic fixed by nodal values and the complete ODE.\nL uses its quadratic nodal interpolant. Derivatives do not assume Gauss and\nare not replaced by the root-implied second height derivative. Jumps and\nbackground finite-difference sensitivity are retained explicitly.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-ref256-cartesian.json.gz",
+        "sha256": "f39272334decdea4d9601f3091560efb2a92bbb7f93180a8e5b07099df138c12"
+      },
+      "solution": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-mixed.json",
+        "sha256": "12ee18279007e060288bc1b797df9bff1ad9cdd4066643a1f1a2c441973f4064",
+        "finite_residuals_accepted": true
+      },
+      "sources": {
+        "audit_actual_cell_cartesian.py": "33ccda7304dc4991c14dc8e6d488cdca545e1d707e02d9778c7eefaba0d17451",
+        "cartesian_interpolant.py": "c5d3f8575eb345d5badb1e7c4a52c313b9b009a056165cc46fa44d8c66617f8a"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": true,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": 0.0001
+      },
+      "actual_geometry": {
+        "metric_error": 0.0002990459251320753,
+        "full_tensor_defect": 2934.3621863280364,
+        "actual_gauss_difference": 2934.2076134217136,
+        "actual_curvature": 42391.68528783091
+      },
+      "reference_geometry": {
+        "metric_error": 7.275558388627417e-08,
+        "full_tensor_defect": 0.0001759450156182945,
+        "actual_gauss_difference": 0.0001759420976071846,
+        "actual_curvature": 8.039966357674338
+      },
+      "maximum_height_jet_reference_errors": [
+        2.1269432392735253e-06,
+        7.811554570652225e-05,
+        4.109177938102591e-06,
+        42415.13389798399,
+        0.00027321303297290583,
+        4.036568236833869e-05
+      ],
+      "maximum_cartesian_jet_reference_errors": [
+        2.12694893614129e-06,
+        0.00015115373415334834,
+        4.109180245971648e-06,
+        42415.27330183776,
+        0.00027321307116075395,
+        4.036568666171648e-05
+      ],
+      "maximum_cartesian_join_jumps": [
+        0.0,
+        0.00016267107648452228,
+        0.0,
+        42415.27330523267,
+        0.00024063504801102368,
+        0.0
+      ],
+      "maximum_height_rr_ode_interpolation_gap": 42415.10464838404,
+      "maximum_background_rr_step_discrepancy": 0.20126488740788773,
+      "maximum_cartesian_rr_background_step_sensitivity": 0.0006724060370349378,
+      "derivative_order": [
+        "position (section vertical mean removed)",
+        "r",
+        "u",
+        "rr",
+        "ru",
+        "uu"
+      ],
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-cartesian-audit.json",
+        "bytes": 466526,
+        "sha256": "b8cdd069cb886c30290394ae353f6acd8a0f1ff23a10b489ed7e5f08494e6797"
+      },
+      "segment_worst": {
+        "8": {
+          "actual_geometry": {
+            "metric_error": 1.0255599298480805e-06,
+            "full_tensor_defect": 4.795758771439643,
+            "actual_gauss_difference": 4.773362732522876,
+            "actual_curvature": 19.9658090732373
+          },
+          "cartesian_join_jump": [
+            0.0,
+            4.1240908613024126e-07,
+            0.0,
+            16.382377950329097,
+            6.062812987177366e-07,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.649455927204245e-10,
+            4.5147215248231287e-07,
+            9.019515791793692e-10,
+            18.361519835709572,
+            2.47775272270781e-06,
+            5.77557732086946e-09
+          ]
+        },
+        "7": {
+          "actual_geometry": {
+            "metric_error": 0.0002990459251320753,
+            "full_tensor_defect": 2239.093278389998,
+            "actual_gauss_difference": 2238.676736199271,
+            "actual_curvature": 32456.94783484432
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.00016267107648452228,
+            0.0,
+            8969.814453994324,
+            0.00024063504801102368,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.9012389450154986e-07,
+            3.8562073038928e-06,
+            5.46802057666679e-07,
+            32478.37163241427,
+            1.453211251490217e-05,
+            1.3866941145289054e-06
+          ]
+        },
+        "6": {
+          "actual_geometry": {
+            "metric_error": 1.4387084657926458e-10,
+            "full_tensor_defect": 9.548157404091748e-07,
+            "actual_gauss_difference": 9.547912303850996e-07,
+            "actual_curvature": 0.07212194167380717
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.5890629379036e-05,
+            0.0,
+            32478.475610023168,
+            7.532243670876496e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.937844940514018e-07,
+            2.3640365908531025e-06,
+            3.8745105897122854e-07,
+            1.6206453747929584e-05,
+            1.453211251490217e-05,
+            9.538251250955712e-07
+          ]
+        },
+        "5": {
+          "actual_geometry": {
+            "metric_error": 7.930532571048694e-05,
+            "full_tensor_defect": 2934.3621863280364,
+            "actual_gauss_difference": 2934.2076134217136,
+            "actual_curvature": 42391.68528783091
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.0061834715881046e-05,
+            0.0,
+            42415.27330523267,
+            5.327755519563751e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.1269432392735253e-06,
+            4.097703098355311e-05,
+            4.109177938102591e-06,
+            42415.13389798399,
+            0.00013280018575650109,
+            9.601985925440171e-06
+          ]
+        },
+        "4": {
+          "actual_geometry": {
+            "metric_error": 1.9036424832570854e-08,
+            "full_tensor_defect": 4.722055698839697e-05,
+            "actual_gauss_difference": 4.722055587297275e-05,
+            "actual_curvature": 0.08334530276047629
+          },
+          "cartesian_join_jump": [
+            0.0,
+            8.115391798191426e-06,
+            0.0,
+            11.879530461529471,
+            1.1839897546573308e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.5731717172360184e-06,
+            7.811554570652225e-05,
+            3.5367185063761e-06,
+            0.009661611664061714,
+            0.00027321303297290583,
+            4.036568236833869e-05
+          ]
+        },
+        "3": {
+          "actual_geometry": {
+            "metric_error": 0.00019062299873849514,
+            "full_tensor_defect": 13.358236201922361,
+            "actual_gauss_difference": 13.160044433865375,
+            "actual_curvature": 7.96871890565602
+          },
+          "cartesian_join_jump": [
+            0.0,
+            5.4112200984199864e-05,
+            0.0,
+            2.0604451188433788,
+            7.948035510395138e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            9.576239263658968e-08,
+            6.388519113850126e-05,
+            3.349638556650632e-07,
+            7.871811399251898,
+            0.00021456302454385016,
+            1.3447091793682988e-06
+          ]
+        },
+        "2": {
+          "actual_geometry": {
+            "metric_error": 2.2808168827876968e-11,
+            "full_tensor_defect": 5.634494585084658e-07,
+            "actual_gauss_difference": 2.775636851202352e-07,
+            "actual_curvature": 2.0438668807354037
+          },
+          "cartesian_join_jump": [
+            0.0,
+            6.919430842946541e-06,
+            0.0,
+            7.948462677093909,
+            1.1995237106761648e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.0814103804437242e-08,
+            5.794361112587687e-07,
+            6.833046869860295e-08,
+            7.037478054404078e-09,
+            2.405401506066433e-06,
+            2.881435681073838e-07
+          ]
+        },
+        "1": {
+          "actual_geometry": {
+            "metric_error": 1.1826356524048988e-05,
+            "full_tensor_defect": 8.67186201412423,
+            "actual_gauss_difference": 8.5036747765686,
+            "actual_curvature": 8.366393224453107
+          },
+          "cartesian_join_jump": [
+            0.0,
+            6.8591084081920504e-06,
+            0.0,
+            5.0154095705275665,
+            1.1728722742188795e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.764308245419246e-08,
+            5.823896865320144e-07,
+            5.5087773319392534e-08,
+            4.987852238614275,
+            2.405401506066433e-06,
+            2.2171132482496343e-07
+          ]
+        },
+        "0": {
+          "actual_geometry": {
+            "metric_error": 5.4977720603598995e-15,
+            "full_tensor_defect": 4.461994796612111e-11,
+            "actual_gauss_difference": 1.8775297072268216e-12,
+            "actual_curvature": 0.08317977955319332
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.6919870430396165e-07,
+            0.0,
+            3.034523422185068,
+            2.52490851487696e-07,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.895178490775215e-09,
+            1.4351722096676844e-07,
+            6.3504148020707115e-09,
+            1.3019407789707782e-08,
+            4.1510447265117413e-07,
+            2.0605695160552843e-08
+          ]
+        }
+      }
+    },
+    {
+      "scope": "Audit actual Cartesian jets of the radial mixed interpolant, interval by interval.\n\nv and t use the Hermite cubic fixed by nodal values and the complete ODE.\nL uses its quadratic nodal interpolant. Derivatives do not assume Gauss and\nare not replaced by the root-implied second height derivative. Jumps and\nbackground finite-difference sensitivity are retained explicitly.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-ref256.json.gz",
+        "sha256": "6c9c1799633aff42abbfe87c35678193617c6a6367faf90924cc53494ff4feed"
+      },
+      "solution": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-mixed.json",
+        "sha256": "78f547ee1106eeec105f967919bf36da2be8a7793a399f6f40f456ce0a2dcf09",
+        "finite_residuals_accepted": true
+      },
+      "sources": {
+        "audit_actual_cell_cartesian.py": "33ccda7304dc4991c14dc8e6d488cdca545e1d707e02d9778c7eefaba0d17451",
+        "cartesian_interpolant.py": "c5d3f8575eb345d5badb1e7c4a52c313b9b009a056165cc46fa44d8c66617f8a"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 32,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": false,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": null
+      },
+      "actual_geometry": {
+        "metric_error": 0.0002687773322170842,
+        "full_tensor_defect": 5527.209552602313,
+        "actual_gauss_difference": 5526.497540861231,
+        "actual_curvature": 80126.7130515853
+      },
+      "reference_geometry": {
+        "metric_error": 0.0,
+        "full_tensor_defect": 0.0,
+        "actual_gauss_difference": 0.0,
+        "actual_curvature": 0.0
+      },
+      "maximum_height_jet_reference_errors": [
+        2.7643029304976244e-07,
+        1.3643967595859858e-05,
+        7.651633260127708e-07,
+        80175.52712051226,
+        5.942993051303241e-05,
+        9.037607871776462e-06
+      ],
+      "maximum_cartesian_jet_reference_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_cartesian_join_jumps": [
+        0.0,
+        0.00014420067537306542,
+        0.0,
+        80175.87027577689,
+        0.0002131882375766609,
+        0.0
+      ],
+      "maximum_height_rr_ode_interpolation_gap": 80175.54953044112,
+      "maximum_background_rr_step_discrepancy": 0.20126488740788773,
+      "maximum_cartesian_rr_background_step_sensitivity": 0.0006730533138337457,
+      "derivative_order": [
+        "position (section vertical mean removed)",
+        "r",
+        "u",
+        "rr",
+        "ru",
+        "uu"
+      ],
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-cartesian-audit.json",
+        "bytes": 827914,
+        "sha256": "2db76a5bf9acc3c824edaaf3b78833bb73dd5b82c31abe49e91268cabf37cba2"
+      },
+      "segment_worst": {
+        "8": {
+          "actual_geometry": {
+            "metric_error": 2.573127508681037e-07,
+            "full_tensor_defect": 1.2665094454381824,
+            "actual_gauss_difference": 1.2607041236044725,
+            "actual_curvature": 6.644723501800995
+          },
+          "cartesian_join_jump": [
+            0.0,
+            5.5540916244899586e-08,
+            0.0,
+            3.985890919164974,
+            8.161082729395745e-08,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            3.124063727437572e-11,
+            8.575712080738374e-08,
+            8.023092693681955e-11,
+            4.848964262345792,
+            2.20040993994218e-07,
+            3.9058357027452976e-10
+          ]
+        },
+        "7": {
+          "actual_geometry": {
+            "metric_error": 0.0002687773322170842,
+            "full_tensor_defect": 5527.209552602313,
+            "actual_gauss_difference": 5526.497540861231,
+            "actual_curvature": 80126.7130515853
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.00014420067537306542,
+            0.0,
+            3102.3749358268246,
+            0.0002131882375766609,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            3.132154625823413e-08,
+            6.195722314916718e-07,
+            5.881894524993039e-08,
+            80175.52712051226,
+            2.1706536765656904e-06,
+            1.5105925427498154e-07
+          ]
+        },
+        "6": {
+          "actual_geometry": {
+            "metric_error": 2.351176930523392e-10,
+            "full_tensor_defect": 1.1417724047995532e-06,
+            "actual_gauss_difference": 1.1417465844473666e-06,
+            "actual_curvature": 0.07212035020086961
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.4806808696547062e-05,
+            0.0,
+            80175.87027577689,
+            3.070142973740049e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.5673085515126592e-08,
+            6.14983950725928e-07,
+            4.92627762154591e-08,
+            9.626045515027015e-06,
+            2.163495099637841e-06,
+            1.4970282367758082e-07
+          ]
+        },
+        "5": {
+          "actual_geometry": {
+            "metric_error": 5.4821007018739305e-05,
+            "full_tensor_defect": 2451.8610001620614,
+            "actual_gauss_difference": 2451.6525941091927,
+            "actual_curvature": 35422.640346293425
+          },
+          "cartesian_join_jump": [
+            0.0,
+            2.9219511850850474e-05,
+            0.0,
+            35442.78317523741,
+            5.1859639509713115e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.7643029304976244e-07,
+            4.638197557196193e-06,
+            5.329017954231949e-07,
+            35442.52854386159,
+            1.716730307555793e-05,
+            1.26432616497584e-06
+          ]
+        },
+        "4": {
+          "actual_geometry": {
+            "metric_error": 2.1000194295846538e-08,
+            "full_tensor_defect": 5.285244746365831e-05,
+            "actual_gauss_difference": 5.285244641972079e-05,
+            "actual_curvature": 0.08718426761258592
+          },
+          "cartesian_join_jump": [
+            0.0,
+            2.3034773331480485e-06,
+            0.0,
+            2.2684796210557323,
+            3.3584452254959263e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.7207867922348018e-07,
+            1.3643967595859858e-05,
+            7.651633260127708e-07,
+            0.002724149549208202,
+            5.942993051303241e-05,
+            9.037607871776462e-06
+          ]
+        },
+        "3": {
+          "actual_geometry": {
+            "metric_error": 4.013355125089612e-05,
+            "full_tensor_defect": 19.331893044889867,
+            "actual_gauss_difference": 19.249821256283436,
+            "actual_curvature": 9.732005504314147
+          },
+          "cartesian_join_jump": [
+            0.0,
+            6.658827887198767e-06,
+            0.0,
+            3.3666158556823373,
+            9.78388435208285e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            8.965608652057407e-09,
+            8.080707467262986e-06,
+            3.5567840051582976e-08,
+            11.029883657848993,
+            4.5586724111666346e-05,
+            1.467039374933501e-07
+          ]
+        },
+        "2": {
+          "actual_geometry": {
+            "metric_error": 5.698914583041491e-12,
+            "full_tensor_defect": 2.847131692751606e-07,
+            "actual_gauss_difference": 1.411463883048546e-07,
+            "actual_curvature": 2.043870452692706
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.1308011217207848e-06,
+            0.0,
+            11.38516072556436,
+            1.964849689900187e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            3.1441565082160642e-09,
+            6.994239831747961e-08,
+            1.0262178501188071e-08,
+            1.3337258945147677e-09,
+            3.5014180793400203e-07,
+            3.7941729973082626e-08
+          ]
+        },
+        "1": {
+          "actual_geometry": {
+            "metric_error": 5.787614864054718e-06,
+            "full_tensor_defect": 25.48668919950144,
+            "actual_gauss_difference": 25.113109545519496,
+            "actual_curvature": 12.287000314933126
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.3567260350926824e-06,
+            0.0,
+            14.674007334929946,
+            5.754954978077991e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.7379807591385763e-09,
+            7.012852942800407e-08,
+            8.173020030642419e-09,
+            14.52988087822911,
+            3.531568444042465e-07,
+            2.7696760658983867e-08
+          ]
+        },
+        "0": {
+          "actual_geometry": {
+            "metric_error": 1.3907042775919977e-15,
+            "full_tensor_defect": 2.2449031595894228e-11,
+            "actual_gauss_difference": 1.8468872264865155e-12,
+            "actual_curvature": 0.08317978254588501
+          },
+          "cartesian_join_jump": [
+            0.0,
+            7.63222627238051e-08,
+            0.0,
+            0.5578117728977277,
+            1.1390937465883862e-07,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            6.363758217343664e-10,
+            2.528681435597091e-08,
+            1.2620679977624931e-09,
+            1.9428311502991957e-09,
+            6.161527155638502e-08,
+            3.5884166748935837e-09
+          ]
+        }
+      }
+    },
+    {
+      "scope": "Audit actual Cartesian jets of the radial mixed interpolant, interval by interval.\n\nv and t use the Hermite cubic fixed by nodal values and the complete ODE.\nL uses its quadratic nodal interpolant. Derivatives do not assume Gauss and\nare not replaced by the root-implied second height derivative. Jumps and\nbackground finite-difference sensitivity are retained explicitly.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-ref256-cartesian.json.gz",
+        "sha256": "f39272334decdea4d9601f3091560efb2a92bbb7f93180a8e5b07099df138c12"
+      },
+      "solution": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-mixed.json",
+        "sha256": "12ee18279007e060288bc1b797df9bff1ad9cdd4066643a1f1a2c441973f4064",
+        "finite_residuals_accepted": true
+      },
+      "sources": {
+        "audit_actual_cell_cartesian.py": "0d81c799a4f6b4bdbc40fda61fb0152dcfa24c85ebc6d13c19e620e87955f3f6",
+        "cartesian_interpolant.py": "c5d3f8575eb345d5badb1e7c4a52c313b9b009a056165cc46fa44d8c66617f8a"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": true,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": 0.0001
+      },
+      "interpolation_representation": "physical-height",
+      "actual_geometry": {
+        "metric_error": 58.58069477634895,
+        "full_tensor_defect": 71543976.48299158,
+        "actual_gauss_difference": 104371736.59911603,
+        "actual_curvature": 89935508.92004408
+      },
+      "reference_geometry": {
+        "metric_error": 7.275558388627417e-08,
+        "full_tensor_defect": 0.0001759450156182945,
+        "actual_gauss_difference": 0.0001759420976071846,
+        "actual_curvature": 8.039966357674338
+      },
+      "maximum_height_jet_reference_errors": [
+        2.1269432392735253e-06,
+        7.811554570652225e-05,
+        4.109177938102591e-06,
+        3637.385890854785,
+        0.000273213032972906,
+        4.036568236833869e-05
+      ],
+      "maximum_cartesian_jet_reference_errors": [
+        2.12694893614129e-06,
+        6.729380241269195,
+        4.109180245971648e-06,
+        3077465.58486121,
+        10.040690201435984,
+        4.036568666171648e-05
+      ],
+      "maximum_cartesian_join_jumps": [
+        0.0,
+        6.781853955972853,
+        0.0,
+        3073049.118909812,
+        10.118983268720322,
+        0.0
+      ],
+      "maximum_height_rr_ode_interpolation_gap": 7.269740365245525e-12,
+      "maximum_background_rr_step_discrepancy": 0.20126488740788773,
+      "maximum_cartesian_rr_background_step_sensitivity": 0.0006724060370349567,
+      "derivative_order": [
+        "position (section vertical mean removed)",
+        "r",
+        "u",
+        "rr",
+        "ru",
+        "uu"
+      ],
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-physical-height-audit.json",
+        "bytes": 467074,
+        "sha256": "cbbd4d7ededb14b052c0d81a6535282dad44cc58e055eb8b9915bab04bfa307d"
+      },
+      "segment_worst": {
+        "8": {
+          "actual_geometry": {
+            "metric_error": 0.008145509696796725,
+            "full_tensor_defect": 1844.8017995008722,
+            "actual_gauss_difference": 214.52832845013484,
+            "actual_curvature": 808.2631974596134
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.005581155651449618,
+            0.0,
+            9368.353780187816,
+            0.008279062556143291,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.649455927204245e-10,
+            4.5147215248231287e-07,
+            9.019515791793692e-10,
+            0.535806860458389,
+            2.47775272270781e-06,
+            5.77557732086946e-09
+          ]
+        },
+        "7": {
+          "actual_geometry": {
+            "metric_error": 58.58069477634895,
+            "full_tensor_defect": 71543976.48299158,
+            "actual_gauss_difference": 6762850.283102842,
+            "actual_curvature": 2017823.2713686414
+          },
+          "cartesian_join_jump": [
+            0.0,
+            6.781853955972853,
+            0.0,
+            3073049.118909812,
+            10.118983268720322,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.9012389450154986e-07,
+            3.8562073038928e-06,
+            5.46802057666679e-07,
+            3637.385890854785,
+            1.453211251490217e-05,
+            1.3866941145289054e-06
+          ]
+        },
+        "6": {
+          "actual_geometry": {
+            "metric_error": 1.4636265004913196e-10,
+            "full_tensor_defect": 2.891076838412413e-07,
+            "actual_gauss_difference": 2.8904914095702707e-07,
+            "actual_curvature": 0.07212194167193824
+          },
+          "cartesian_join_jump": [
+            0.0,
+            6.720409350837021,
+            0.0,
+            3068686.824115904,
+            10.027327347002203,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.937844940514018e-07,
+            2.3640365908531025e-06,
+            3.8745105897122854e-07,
+            7.894309809541346e-06,
+            1.453211251490217e-05,
+            9.538251250955712e-07
+          ]
+        },
+        "5": {
+          "actual_geometry": {
+            "metric_error": 16.921332688999062,
+            "full_tensor_defect": 31850191.560179103,
+            "actual_gauss_difference": 104371736.59911603,
+            "actual_curvature": 89935508.92004408
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.232677770916215,
+            0.0,
+            2886975.6686877343,
+            4.823097412919975,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.1269432392735253e-06,
+            4.097703098355311e-05,
+            4.109177938102591e-06,
+            1753.3566564775592,
+            0.00013280018575650109,
+            9.601985925440171e-06
+          ]
+        },
+        "4": {
+          "actual_geometry": {
+            "metric_error": 1.937974091760092e-08,
+            "full_tensor_defect": 4.721706989971213e-05,
+            "actual_gauss_difference": 4.721706811418566e-05,
+            "actual_curvature": 0.08335398706270236
+          },
+          "cartesian_join_jump": [
+            0.0,
+            9.323252344257367e-05,
+            0.0,
+            3.0530917776048967,
+            0.00013996338953245312,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.5731717172360184e-06,
+            7.811554570652225e-05,
+            3.5367185063761e-06,
+            0.009662263254304004,
+            0.000273213032972906,
+            4.036568236833869e-05
+          ]
+        },
+        "3": {
+          "actual_geometry": {
+            "metric_error": 0.007091737999413294,
+            "full_tensor_defect": 412.96348070360546,
+            "actual_gauss_difference": 204.4821749477689,
+            "actual_curvature": 101.37421367014136
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.004388084089989204,
+            0.0,
+            314.2218804161081,
+            0.006467374689799997,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            9.576239263658968e-08,
+            6.388519113850126e-05,
+            3.349638556650632e-07,
+            0.37708976796430616,
+            0.0002145630245438506,
+            1.3447091793682988e-06
+          ]
+        },
+        "2": {
+          "actual_geometry": {
+            "metric_error": 2.585030857895148e-13,
+            "full_tensor_defect": 1.3832312155332783e-09,
+            "actual_gauss_difference": 1.381873036419525e-09,
+            "actual_curvature": 2.0438668807118696
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.004104670963586217,
+            0.0,
+            319.5931269070881,
+            0.006049973073489581,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.0814103804437242e-08,
+            5.794361112587687e-07,
+            6.833046869860295e-08,
+            6.690619883475201e-09,
+            2.405401506066433e-06,
+            2.881435681073838e-07
+          ]
+        },
+        "1": {
+          "actual_geometry": {
+            "metric_error": 0.02620074647522764,
+            "full_tensor_defect": 924.0925247639254,
+            "actual_gauss_difference": 468.5377889325435,
+            "actual_curvature": 219.14907117176375
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.015151059230646092,
+            0.0,
+            680.52092641298,
+            0.02232184500596951,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.764308245419246e-08,
+            5.823896865320144e-07,
+            5.5087773319392534e-08,
+            0.698469761629811,
+            2.405401506066433e-06,
+            2.2171132482496343e-07
+          ]
+        },
+        "0": {
+          "actual_geometry": {
+            "metric_error": 4.6542483346030375e-14,
+            "full_tensor_defect": 1.2518190841371357e-10,
+            "actual_gauss_difference": 6.4467712852095405e-12,
+            "actual_curvature": 0.08317977955319283
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.061841669443393e-05,
+            0.0,
+            2.5787648032406083,
+            4.561170755752559e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.895178490775215e-09,
+            1.4351722096676844e-07,
+            6.3504148020707115e-09,
+            1.3013678375368987e-08,
+            4.151044726511606e-07,
+            2.0605695160552843e-08
+          ]
+        }
+      }
+    },
+    {
+      "scope": "Audit actual Cartesian jets of the radial mixed interpolant, interval by interval.\n\nv and t use the Hermite cubic fixed by nodal values and the complete ODE.\nL uses its quadratic nodal interpolant. Derivatives do not assume Gauss and\nare not replaced by the root-implied second height derivative. Jumps and\nbackground finite-difference sensitivity are retained explicitly.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-ref256.json.gz",
+        "sha256": "6c9c1799633aff42abbfe87c35678193617c6a6367faf90924cc53494ff4feed"
+      },
+      "solution": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-mixed.json",
+        "sha256": "78f547ee1106eeec105f967919bf36da2be8a7793a399f6f40f456ce0a2dcf09",
+        "finite_residuals_accepted": true
+      },
+      "sources": {
+        "audit_actual_cell_cartesian.py": "0d81c799a4f6b4bdbc40fda61fb0152dcfa24c85ebc6d13c19e620e87955f3f6",
+        "cartesian_interpolant.py": "c5d3f8575eb345d5badb1e7c4a52c313b9b009a056165cc46fa44d8c66617f8a"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 32,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": false,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": null
+      },
+      "interpolation_representation": "physical-height",
+      "actual_geometry": {
+        "metric_error": 141.2404060710583,
+        "full_tensor_defect": 868078133.3211303,
+        "actual_gauss_difference": 14893774091.104301,
+        "actual_curvature": 4545945295.590926
+      },
+      "reference_geometry": {
+        "metric_error": 0.0,
+        "full_tensor_defect": 0.0,
+        "actual_gauss_difference": 0.0,
+        "actual_curvature": 0.0
+      },
+      "maximum_height_jet_reference_errors": [
+        2.7643029304976244e-07,
+        1.3643967595860292e-05,
+        7.651633260127708e-07,
+        5913.8725331542555,
+        5.942993051303246e-05,
+        9.037607871776462e-06
+      ],
+      "maximum_cartesian_jet_reference_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_cartesian_join_jumps": [
+        0.0,
+        10.926983716315158,
+        0.0,
+        23107168.756851118,
+        16.303964316963413,
+        0.0
+      ],
+      "maximum_height_rr_ode_interpolation_gap": 1.5150547483244736e-11,
+      "maximum_background_rr_step_discrepancy": 0.20126488740788773,
+      "maximum_cartesian_rr_background_step_sensitivity": 0.0006730533139473741,
+      "derivative_order": [
+        "position (section vertical mean removed)",
+        "r",
+        "u",
+        "rr",
+        "ru",
+        "uu"
+      ],
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k32-physical-height-audit.json",
+        "bytes": 829013,
+        "sha256": "629ecff8cd8f5e51574e7cf7975033b4ce3f394d8ae65f5597926b814f76f585"
+      },
+      "segment_worst": {
+        "8": {
+          "actual_geometry": {
+            "metric_error": 0.0010413141645418064,
+            "full_tensor_defect": 462.62691937455594,
+            "actual_gauss_difference": 53.570939675561796,
+            "actual_curvature": 201.22091443531622
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.0009817707848262136,
+            0.0,
+            1571.8766667699902,
+            0.0014563462130174278,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            3.124063727437572e-11,
+            8.575712080738374e-08,
+            8.023092693681955e-11,
+            0.0686285669410307,
+            2.2004099399378432e-07,
+            3.9058357027452976e-10
+          ]
+        },
+        "7": {
+          "actual_geometry": {
+            "metric_error": 141.2404060710583,
+            "full_tensor_defect": 868078133.3211303,
+            "actual_gauss_difference": 7991138491.3880625,
+            "actual_curvature": 2380388672.0902247
+          },
+          "cartesian_join_jump": [
+            0.0,
+            10.288742587107377,
+            0.0,
+            23107168.756851118,
+            15.351635580755643,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            3.132154625823413e-08,
+            6.195722314916718e-07,
+            5.881894524993039e-08,
+            5913.8725331542555,
+            2.1706536765656904e-06,
+            1.5105925427498154e-07
+          ]
+        },
+        "6": {
+          "actual_geometry": {
+            "metric_error": 2.489027496886979e-10,
+            "full_tensor_defect": 4.809760085512173e-07,
+            "actual_gauss_difference": 4.770788701620832e-07,
+            "actual_curvature": 0.07212035026543828
+          },
+          "cartesian_join_jump": [
+            0.0,
+            10.926983716315158,
+            0.0,
+            22729968.5892944,
+            16.303964316963413,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.5673085515126592e-08,
+            6.14983950725928e-07,
+            4.92627762154591e-08,
+            1.2967395319174978e-06,
+            2.1634950996369737e-06,
+            1.4970282367758082e-07
+          ]
+        },
+        "5": {
+          "actual_geometry": {
+            "metric_error": 37.98272188157959,
+            "full_tensor_defect": 273353995.7926856,
+            "actual_gauss_difference": 14893774091.104301,
+            "actual_curvature": 4545945295.590926
+          },
+          "cartesian_join_jump": [
+            0.0,
+            5.244546709580499,
+            0.0,
+            15755682.19888568,
+            7.824835539684529,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.7643029304976244e-07,
+            4.63819755719576e-06,
+            5.329017954231949e-07,
+            2844.419822214549,
+            1.7167303075557062e-05,
+            1.26432616497584e-06
+          ]
+        },
+        "4": {
+          "actual_geometry": {
+            "metric_error": 2.109357707277918e-08,
+            "full_tensor_defect": 5.2851771123767365e-05,
+            "actual_gauss_difference": 5.285176985591121e-05,
+            "actual_curvature": 0.08718684327146838
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.812832614106074e-05,
+            0.0,
+            1.2277611352964042,
+            2.7233490755423548e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.7207867922348018e-07,
+            1.3643967595860292e-05,
+            7.651633260127708e-07,
+            0.0027244020552657927,
+            5.942993051303246e-05,
+            9.037607871776462e-06
+          ]
+        },
+        "3": {
+          "actual_geometry": {
+            "metric_error": 0.0398364605863423,
+            "full_tensor_defect": 8951.68168168587,
+            "actual_gauss_difference": 4605.010742231234,
+            "actual_curvature": 2282.364409546164
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.02092456611559516,
+            0.0,
+            6917.409828860377,
+            0.03083935133093488,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            8.965608652057407e-09,
+            8.080707467262986e-06,
+            3.5567840051582976e-08,
+            1.0391051172030048,
+            4.558672411166656e-05,
+            1.467039374933501e-07
+          ]
+        },
+        "2": {
+          "actual_geometry": {
+            "metric_error": 3.1847768961765744e-13,
+            "full_tensor_defect": 1.7646865211373087e-09,
+            "actual_gauss_difference": 1.7197953296373397e-09,
+            "actual_curvature": 2.043870452686773
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.02284330845031902,
+            0.0,
+            6715.082301573563,
+            0.033667253541699665,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            3.1441565082160642e-09,
+            6.994239831747961e-08,
+            1.0262178501188071e-08,
+            1.0769759075169683e-09,
+            3.5014180793402913e-07,
+            3.7941729973082626e-08
+          ]
+        },
+        "1": {
+          "actual_geometry": {
+            "metric_error": 0.03048146880587948,
+            "full_tensor_defect": 5203.929458769073,
+            "actual_gauss_difference": 2648.123017736556,
+            "actual_curvature": 1276.0911429329806
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.017529936645059054,
+            0.0,
+            3871.0356404412864,
+            0.025826020275533566,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.7379807591385763e-09,
+            7.012852942800407e-08,
+            8.173020030642419e-09,
+            0.8130177541450545,
+            3.531568444042465e-07,
+            2.7696760658983867e-08
+          ]
+        },
+        "0": {
+          "actual_geometry": {
+            "metric_error": 2.193148923204962e-13,
+            "full_tensor_defect": 1.17157335425148e-09,
+            "actual_gauss_difference": 3.7450664314500615e-11,
+            "actual_curvature": 0.08317978254587696
+          },
+          "cartesian_join_jump": [
+            0.0,
+            8.353225334298671e-06,
+            0.0,
+            1.4717998823056644,
+            1.244867447935081e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            6.363758217343664e-10,
+            2.528681435597091e-08,
+            1.2620679977624931e-09,
+            2.020885974188258e-09,
+            6.161527155639179e-08,
+            3.5884166748935837e-09
+          ]
+        }
+      }
+    },
+    {
+      "scope": "Audit actual Cartesian jets of the radial mixed interpolant, interval by interval.\n\nv and t use the Hermite cubic fixed by nodal values and the complete ODE.\nL uses its quadratic nodal interpolant. Derivatives do not assume Gauss and\nare not replaced by the root-implied second height derivative. Jumps and\nbackground finite-difference sensitivity are retained explicitly.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-ref256-cartesian.json.gz",
+        "sha256": "f39272334decdea4d9601f3091560efb2a92bbb7f93180a8e5b07099df138c12"
+      },
+      "solution": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-physical-solve.json",
+        "sha256": "cdf442f98f5b0323d50fbcb243ea2c1a656fa034e1baf289b0212bf392bea739",
+        "finite_residuals_accepted": true
+      },
+      "sources": {
+        "audit_actual_cell_cartesian.py": "0d81c799a4f6b4bdbc40fda61fb0152dcfa24c85ebc6d13c19e620e87955f3f6",
+        "cartesian_interpolant.py": "c5d3f8575eb345d5badb1e7c4a52c313b9b009a056165cc46fa44d8c66617f8a"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "cartesianReference": true,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": 0.0001
+      },
+      "interpolation_representation": "physical-height",
+      "actual_geometry": {
+        "metric_error": 0.0003677445174957609,
+        "full_tensor_defect": 0.9217389619200052,
+        "actual_gauss_difference": 0.2691758759121483,
+        "actual_curvature": 8.04002373949628
+      },
+      "reference_geometry": {
+        "metric_error": 7.275558388627417e-08,
+        "full_tensor_defect": 0.0001759450156182945,
+        "actual_gauss_difference": 0.0001759420976071846,
+        "actual_curvature": 8.039966357674338
+      },
+      "maximum_height_jet_reference_errors": [
+        1.2160524974347948e-09,
+        2.3491847909052482e-07,
+        7.487657783637554e-09,
+        0.33313361764054494,
+        3.149511310682616e-06,
+        8.119310539335791e-08
+      ],
+      "maximum_cartesian_jet_reference_errors": [
+        1.216054598303718e-09,
+        0.00018588129747258367,
+        7.487658526490672e-09,
+        18.836433291720382,
+        0.0002747755931969496,
+        8.119311074098291e-08
+      ],
+      "maximum_cartesian_join_jumps": [
+        0.0,
+        0.00019886889076747074,
+        0.0,
+        18.83643328929789,
+        0.0002939735365003601,
+        0.0
+      ],
+      "maximum_height_rr_ode_interpolation_gap": 6.282085962538986e-12,
+      "maximum_background_rr_step_discrepancy": 0.20126488740788773,
+      "maximum_cartesian_rr_background_step_sensitivity": 0.0006728447300146148,
+      "derivative_order": [
+        "position (section vertical mean removed)",
+        "r",
+        "u",
+        "rr",
+        "ru",
+        "uu"
+      ],
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-k16-physical-solve-audit.json",
+        "bytes": 468044,
+        "sha256": "df74c956a6d522cafe2df9edca3db34bd73e55094c306bc67b832ee739e5fca5"
+      },
+      "segment_worst": {
+        "8": {
+          "actual_geometry": {
+            "metric_error": 5.427126465405995e-07,
+            "full_tensor_defect": 0.32488570264644484,
+            "actual_gauss_difference": 0.037614897696077176,
+            "actual_curvature": 1.9361835718936051
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.5253149459904533e-07,
+            0.0,
+            3.260459216020547,
+            2.2473651359471053e-07,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            5.759932190495948e-13,
+            1.5829043492621153e-09,
+            2.0361207294858352e-12,
+            6.983724029985261e-05,
+            5.588481526066363e-09,
+            1.278891643735798e-11
+          ]
+        },
+        "7": {
+          "actual_geometry": {
+            "metric_error": 0.0003677445174957609,
+            "full_tensor_defect": 0.7674568277776053,
+            "actual_gauss_difference": 0.09397929592912924,
+            "actual_curvature": 8.04002373949628
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.00019886889076747074,
+            0.0,
+            7.685822852974015,
+            0.0002939735365003601,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.58444110425187e-11,
+            6.954306307899172e-09,
+            1.0098872194226616e-10,
+            0.04728887011427438,
+            6.688816943942535e-08,
+            1.4962820457480042e-09
+          ]
+        },
+        "6": {
+          "actual_geometry": {
+            "metric_error": 2.594790252889029e-10,
+            "full_tensor_defect": 5.202988545427499e-07,
+            "actual_gauss_difference": 5.202887120856566e-07,
+            "actual_curvature": 0.07211908289002447
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.6373649769267565e-05,
+            0.0,
+            7.7940012787665545,
+            7.512506885996657e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.0737497900521e-11,
+            6.954306307899172e-09,
+            1.4325873560344649e-10,
+            4.041051378678856e-08,
+            6.711960136936059e-08,
+            2.22953475191405e-09
+          ]
+        },
+        "5": {
+          "actual_geometry": {
+            "metric_error": 8.001504201541952e-05,
+            "full_tensor_defect": 0.9217389619200052,
+            "actual_gauss_difference": 0.029721567735710327,
+            "actual_curvature": 7.981456964437084
+          },
+          "cartesian_join_jump": [
+            0.0,
+            4.271755029373337e-05,
+            0.0,
+            18.83643328929789,
+            7.582253794526203e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            5.724460760015565e-11,
+            1.6761082780383796e-08,
+            2.2830371851378407e-10,
+            0.036407420491912056,
+            1.5391844668906016e-07,
+            2.779228029247023e-09
+          ]
+        },
+        "4": {
+          "actual_geometry": {
+            "metric_error": 2.1834050500251734e-08,
+            "full_tensor_defect": 5.386802410676815e-05,
+            "actual_gauss_difference": 5.386802240601745e-05,
+            "actual_curvature": 0.08757853800378788
+          },
+          "cartesian_join_jump": [
+            0.0,
+            4.7877268564586945e-06,
+            0.0,
+            0.44741860595892985,
+            6.8601397044051644e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.2160524974347948e-09,
+            9.426994244493255e-08,
+            7.487657783637554e-09,
+            0.00015645092511072656,
+            8.60114731835674e-07,
+            8.119310539335791e-08
+          ]
+        },
+        "3": {
+          "actual_geometry": {
+            "metric_error": 3.141386833209589e-05,
+            "full_tensor_defect": 0.547939538147677,
+            "actual_gauss_difference": 0.2691758759121483,
+            "actual_curvature": 7.968729182834417
+          },
+          "cartesian_join_jump": [
+            0.0,
+            9.478315138858509e-06,
+            0.0,
+            0.9070180704687917,
+            1.424241756562478e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            7.988399341544989e-10,
+            2.3491847909052482e-07,
+            6.817671380568435e-09,
+            0.33313361764054494,
+            3.149511310682616e-06,
+            7.554916238712263e-08
+          ]
+        },
+        "2": {
+          "actual_geometry": {
+            "metric_error": 3.0053088458381664e-13,
+            "full_tensor_defect": 1.5963534748331195e-09,
+            "actual_gauss_difference": 1.5894092740652e-09,
+            "actual_curvature": 2.0438708056816925
+          },
+          "cartesian_join_jump": [
+            0.0,
+            5.268404956399344e-06,
+            0.0,
+            0.42614862163094497,
+            9.158511802668167e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.6519860170105617e-10,
+            9.805878109503396e-09,
+            1.5430327054248538e-09,
+            3.381218666242651e-10,
+            1.0485216579405321e-07,
+            1.798265140989146e-08
+          ]
+        },
+        "1": {
+          "actual_geometry": {
+            "metric_error": 1.2616747747458282e-05,
+            "full_tensor_defect": 0.16572261866234075,
+            "actual_gauss_difference": 0.08239658225344912,
+            "actual_curvature": 7.974131934910935
+          },
+          "cartesian_join_jump": [
+            0.0,
+            7.317537632418858e-06,
+            0.0,
+            0.12452257791264246,
+            1.2551643074228422e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.1485475475982279e-10,
+            1.065650118148298e-08,
+            9.779764077085256e-10,
+            0.0005654505190616271,
+            1.1274030329903649e-07,
+            1.0710858968087465e-08
+          ]
+        },
+        "0": {
+          "actual_geometry": {
+            "metric_error": 5.176434467765646e-15,
+            "full_tensor_defect": 1.4675816424768017e-11,
+            "actual_gauss_difference": 1.0881907354376441e-12,
+            "actual_curvature": 0.08317978317131863
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.2550954381671827e-07,
+            0.0,
+            0.037898814527608106,
+            1.873303899039275e-07,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.2387105448337293e-11,
+            6.242643867115927e-10,
+            2.7893695948382852e-11,
+            6.296814285267072e-11,
+            1.90186513904239e-09,
+            8.933091645942141e-11
+          ]
+        }
+      }
+    },
+    {
+      "scope": "Audit actual Cartesian jets of the radial mixed interpolant, interval by interval.\n\nv and t use the Hermite cubic fixed by nodal values and the complete ODE.\nL uses its quadratic nodal interpolant. Derivatives do not assume Gauss and\nare not replaced by the root-implied second height derivative. Jumps and\nbackground finite-difference sensitivity are retained explicitly.\n",
+      "input": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-ref256.json.gz",
+        "sha256": "f20441a088fe51775ba031b3e38ea618ee60619e5e5d443c4ef1063b02eb5e6c"
+      },
+      "solution": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-physical-solve.json",
+        "sha256": "a1e051614f7c220380988a5f98d7ed299c6eafc7a408c099ddff7207c7b8b24a",
+        "finite_residuals_accepted": true
+      },
+      "sources": {
+        "audit_actual_cell_cartesian.py": "0d81c799a4f6b4bdbc40fda61fb0152dcfa24c85ebc6d13c19e620e87955f3f6",
+        "cartesian_interpolant.py": "c5d3f8575eb345d5badb1e7c4a52c313b9b009a056165cc46fa44d8c66617f8a"
+      },
+      "parameters": {
+        "M": 8,
+        "N": 128,
+        "spacing": 2,
+        "rawCell": 0,
+        "firstStage": 0,
+        "lastStageExclusive": 18,
+        "mu": 1.0048110027994864e-11,
+        "intervalsPerStage": 16,
+        "referenceStepsPerStage": 256,
+        "originalProjectionFloor": 0.0001,
+        "mixedProjectionFloor": 0.01,
+        "coordinate": "x = outer radius - r; r_x=-1",
+        "boundary": "outer v and inner t from the accepted complete checkpoint",
+        "radialMesh": "cusp-cosine",
+        "cartesianReference": false,
+        "backgroundSecondDerivative": "fourth-order differences at h=5e-5 in original stage parameter, compared to h=1e-4",
+        "referenceCartesianRadialDifferenceStep": null
+      },
+      "interpolation_representation": "physical-height",
+      "actual_geometry": {
+        "metric_error": 0.00022622136459036552,
+        "full_tensor_defect": 81.66567066554342,
+        "actual_gauss_difference": 12.142729742045741,
+        "actual_curvature": 35.013086664669
+      },
+      "reference_geometry": {
+        "metric_error": 0.0,
+        "full_tensor_defect": 0.0,
+        "actual_gauss_difference": 0.0,
+        "actual_curvature": 0.0
+      },
+      "maximum_height_jet_reference_errors": [
+        1.8060691064843452e-09,
+        1.459432007414204e-07,
+        1.0381793190441233e-08,
+        0.22219108191443482,
+        1.5873456796279854e-06,
+        1.1841305081428338e-07
+      ],
+      "maximum_cartesian_jet_reference_errors": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_cartesian_join_jumps": [
+        0.0,
+        0.00019580000102056147,
+        0.0,
+        77.0396266187035,
+        0.00028942852141494144,
+        0.0
+      ],
+      "maximum_height_rr_ode_interpolation_gap": 7.673854910891786e-11,
+      "maximum_background_rr_step_discrepancy": 1414724.7050707191,
+      "maximum_cartesian_rr_background_step_sensitivity": 4727.55503099782,
+      "derivative_order": [
+        "position (section vertical mean removed)",
+        "r",
+        "u",
+        "rr",
+        "ru",
+        "uu"
+      ],
+      "original_report": {
+        "path": "coupling_work/mixed_dae/actual-cell0-cosine16-physical-solve-audit.json",
+        "bytes": 421794,
+        "sha256": "6988c726dcc589ca4c993bb2841a5b1fdd55c3b9299ddb261018331be0625b96"
+      },
+      "segment_worst": {
+        "8": {
+          "actual_geometry": {
+            "metric_error": 1.256970005810367e-06,
+            "full_tensor_defect": 0.32980997021500585,
+            "actual_gauss_difference": 0.03814793237257935,
+            "actual_curvature": 1.931911222205286
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.752596104022901e-07,
+            0.0,
+            2.8810662912675675,
+            5.512557158397434e-07,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.2551130924506881e-13,
+            3.4500310941432133e-10,
+            7.819596749628066e-13,
+            0.00016164428901865868,
+            2.146752792458323e-09,
+            7.97712189273131e-12
+          ]
+        },
+        "7": {
+          "actual_geometry": {
+            "metric_error": 0.00022622136459036552,
+            "full_tensor_defect": 81.66567066554342,
+            "actual_gauss_difference": 12.142729742045741,
+            "actual_curvature": 35.013086664669
+          },
+          "cartesian_join_jump": [
+            0.0,
+            0.00019580000102056147,
+            0.0,
+            49.41215180688894,
+            0.00028942852141494144,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.8115996631420592e-11,
+            5.7053123544981155e-09,
+            1.3533702582007798e-10,
+            0.02246703304536949,
+            6.757986002043064e-08,
+            1.515412425862235e-09
+          ]
+        },
+        "6": {
+          "actual_geometry": {
+            "metric_error": 3.146094098662971e-10,
+            "full_tensor_defect": 9.801088261559642e-07,
+            "actual_gauss_difference": 5.280193050464692e-07,
+            "actual_curvature": 0.07211908907821715
+          },
+          "cartesian_join_jump": [
+            0.0,
+            2.0566022201786748e-06,
+            0.0,
+            77.0396266187035,
+            4.247499709202033e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.8398131569662482e-11,
+            5.724998735495701e-09,
+            1.7305322260363805e-10,
+            5.026810624545945e-08,
+            6.783028232691148e-08,
+            2.1491341553603327e-09
+          ]
+        },
+        "5": {
+          "actual_geometry": {
+            "metric_error": 3.198583898481276e-05,
+            "full_tensor_defect": 14.71940602393796,
+            "actual_gauss_difference": 0.8387779608811965,
+            "actual_curvature": 7.981231706311881
+          },
+          "cartesian_join_jump": [
+            0.0,
+            2.228540075655253e-05,
+            0.0,
+            33.01222589448392,
+            3.950920048862578e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            2.5872287398955897e-10,
+            2.7633702435840828e-08,
+            5.026792918819568e-10,
+            0.04509562003854528,
+            1.7600098956883914e-07,
+            4.457157125911486e-09
+          ]
+        },
+        "4": {
+          "actual_geometry": {
+            "metric_error": 2.136967453363692e-08,
+            "full_tensor_defect": 5.3855092994831066e-05,
+            "actual_gauss_difference": 5.385509190671353e-05,
+            "actual_curvature": 0.08765090610233918
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.7622036034538134e-08,
+            0.0,
+            0.02796735653985418,
+            2.523164859526562e-08,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.8060691064843452e-09,
+            1.459432007414204e-07,
+            1.0381793190441233e-08,
+            0.000323337899961116,
+            8.955151143529439e-07,
+            1.1841305081428338e-07
+          ]
+        },
+        "3": {
+          "actual_geometry": {
+            "metric_error": 7.045521100076484e-05,
+            "full_tensor_defect": 1.6833969188147617,
+            "actual_gauss_difference": 0.8287547382916798,
+            "actual_curvature": 7.968776845222277
+          },
+          "cartesian_join_jump": [
+            0.0,
+            1.2635606393554114e-05,
+            0.0,
+            1.0304588795650345,
+            1.964734026612968e-05,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            9.705961505763385e-10,
+            1.2306290849556367e-07,
+            3.773808951266846e-09,
+            0.22219108191443482,
+            1.5873456796279854e-06,
+            3.917548305219299e-08
+          ]
+        },
+        "2": {
+          "actual_geometry": {
+            "metric_error": 4.2193673667719506e-13,
+            "full_tensor_defect": 7.807404685181971e-09,
+            "actual_gauss_difference": 4.770717185470377e-09,
+            "actual_curvature": 2.0438707042058843
+          },
+          "cartesian_join_jump": [
+            0.0,
+            3.087788075196795e-07,
+            0.0,
+            1.3088299987468053,
+            5.368148006457323e-07,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.1576771941740272e-10,
+            6.457417489613704e-09,
+            9.884662178292975e-10,
+            1.927998784793557e-10,
+            6.745696433531487e-08,
+            1.1330053296557951e-08
+          ]
+        },
+        "1": {
+          "actual_geometry": {
+            "metric_error": 4.509666340001698e-06,
+            "full_tensor_defect": 2.494549770494942,
+            "actual_gauss_difference": 1.227996278071966,
+            "actual_curvature": 7.9741046042042765
+          },
+          "cartesian_join_jump": [
+            0.0,
+            2.7971681315520196e-06,
+            0.0,
+            1.8770051617131083,
+            4.7981824838186135e-06,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            8.59569142747545e-11,
+            7.325445083861126e-09,
+            6.524897305521248e-10,
+            0.00024616923230746934,
+            7.55435850718864e-08,
+            7.114193356373474e-09
+          ]
+        },
+        "0": {
+          "actual_geometry": {
+            "metric_error": 2.0615200558423838e-13,
+            "full_tensor_defect": 3.580811962028499e-09,
+            "actual_gauss_difference": 7.404526655447469e-11,
+            "actual_curvature": 0.08317978317220702
+          },
+          "cartesian_join_jump": [
+            0.0,
+            5.724096796680924e-10,
+            0.0,
+            0.0028358642084148696,
+            8.544021696076767e-10,
+            0.0
+          ],
+          "height_jet_reference_errors": [
+            1.345192028158682e-11,
+            5.895029343144786e-10,
+            2.797933704114155e-11,
+            2.11387803962515e-10,
+            1.6097659153544862e-09,
+            8.38940015894857e-11
+          ]
+        }
+      }
+    }
+  ],
+  "coordinate_directional_check": {
+    "scope": "Physical h,p transformation of the same complete finite momentum system; continuous equations only.",
+    "flow_transform_error": 1.734723475976807e-18,
+    "directional_derivatives": [
+      {
+        "h": 1e-05,
+        "flow_abs": 6.250485284908791e-08,
+        "alg_abs": 6.477565150930786e-10
+      },
+      {
+        "h": 1e-06,
+        "flow_abs": 6.265850061026867e-10,
+        "alg_abs": 6.505462835093567e-12
+      },
+      {
+        "h": 1e-07,
+        "flow_abs": 6.730260793119669e-11,
+        "alg_abs": 6.141753772226366e-13
+      }
+    ]
+  },
+  "cartesian_directional_check": {
+    "scope": "Independent centered finite differences of actual Cartesian position, including nonzero profile derivatives; vertical position/derivatives are compared after section mean removal.",
+    "derivatives": [
+      {
+        "h": 0.0001,
+        "first_error": 2.1629340115833506e-10,
+        "second_error": 5.461509699350442e-10
+      },
+      {
+        "h": 1e-05,
+        "first_error": 2.1632010419048164e-12,
+        "second_error": 2.1228969463403524e-09
+      },
+      {
+        "h": 1e-06,
+        "first_error": 8.875148879705641e-14,
+        "second_error": 1.9142396981810042e-07
+      }
+    ],
+    "round_geometry": {
+      "metric_error": 0.0,
+      "full_tensor_defect": 0.0,
+      "actual_gauss_difference": 8.326672684688674e-17,
+      "actual_curvature": 0.3961904922639614,
+      "minimum_normalized_area": 0.9999999999999998
+    }
+  }
+}

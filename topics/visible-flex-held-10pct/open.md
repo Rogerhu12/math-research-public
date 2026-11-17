@@ -57,3 +57,7 @@ R15证明保反射、D>0、从背景相连的同g幅度分支在非零K轴上不
 ## O11. 双脉冲联合支与新的偶数对称圆弧核心
 
 自适应尾已实际联立至q008，q004同整g两层的metric/fullD明显下降，q002全Cartesian两jet仅采样差约2e−10；仍需可见幅度和全闭合。q008二阶缺陷与曲率预算恶化，原tol失败/放宽重试分别保留。并行推进m3较小cut的真DN联合，以及n4精确圆弧中央柱的换握持机制；两者都须实际解出完整prefix—tail，条件比例窗不能顶替。详见adaptive-actual-coupling-and-fixed-g笔记。
+
+## O12. 真实混合首cell的几何验收
+
+R18在真实非恒定cell的混合根已求出；physical h=rwv,p=w²t显著减小节点状态误差，但直接插值仍产生严重二阶缺陷。保留全部v/H坏插值和line-search失败，转精确旋转背景+全Cartesian扰动共享二jet五次表示，继而同g径向加密。节点残差、形式rr或有限Jac都不能替代实际图的C²、metric及Gauss检查。

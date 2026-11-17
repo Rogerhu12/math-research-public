@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`d2a378f1b08b6855cd4b0779d689d0f9b307dd14`。2026-11-17 23:33:43（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 00:33:43；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`43268968e021445323abf9e918601f5329691134`。2026-11-17 23:36:52（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 00:36:52；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -41,7 +41,7 @@ R12：h=g−dz²正定时同g一jet和完整z二jet经一次固定平面刚体�
 
 R15：轴向精确界|A|≥|w_r|√D/(E^1.5 Kmax)；反射/D>0且从背景连通的振幅支在非平谷轴上不能A变号，非用户相位族普遍限制。旧λ.0781轴若精确仅需κr≈.3906，尚未超预算，Gauss缺陷1.388e−5才是问题。R10有低K精确锥环带A变号，但匹配需Hr=H/r、Hrr0、均值/共顶点，不可免费贴入。
 
-R16有限detG≠0可用不定Gram图；过零权的精确Galerkin无L²一致逆。15个精确锥LU测试通过，径向四阶，不证明跨奇点/模式收敛。R18完整µ-free混合DAE不逐点求G逆，含cos/sin/均值/原alias；12原engine对照≤3.34e−15，6精确锥通过，但M32全局Jac可1.5e14。真实非恒定cell已转physical h=rwv,p=w²t；节点残差虽极小，直接高度插值的Cartesian C²缺陷仍大，代理正按共享Cartesian二jet重建。记录正整理，不能以节点success称几何成功。
+R16有限detG≠0可用不定Gram图；过零权的精确Galerkin无L²一致逆。15个精确锥LU测试通过，径向四阶，不证明跨奇点/模式收敛。R18完整µ-free混合DAE不逐点求G逆，含cos/sin/均值/原alias；12原engine对照≤3.34e−15，6精确锥通过，但M32全局Jac可1.5e14。真实首cell h=rwv/p=w²t连续变量变换与六行终态已发表：uniform16状态差从v坐标.006717降至5e−5，但物理H插值metric3.68e−4/张量.922/rr跳18.8，未C²。v插值K甚至4.24e4/8.01e4；全部失败保留。40源空目录真实组装18stage已验，入口actual-cell-mixed-coordinates-and-bad-interpolation笔记及mixed_dae/actual_cell；正做精确背景+共享Cartesian二jet五次图。
 
 R17给无轴反射二fold核h=1+qcos2φ+εsin4φ；q.2/ε.005时ρ≥.325、Re AC>.5456625，精确卷积已核。但需要全cos/sin+均值BVP，非免费自由度，旧象限证书不移用。
 

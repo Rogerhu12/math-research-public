@@ -1,0 +1,15 @@
+{
+  "scope": "Actual execution from an empty restored directory, not a static import/hash-only check.",
+  "dependency_count": 40,
+  "dependency_manifest_sha256": "7136d457ab8ebfe297edf8c9b00d7a6caa6ffd68b592271ee9b1ef84f54d6fb9",
+  "commands": [
+    "python actual_cell_frozen_v1/recover_actual_dependencies.py --repo REPO --scratch EMPTY_SCRATCH --manifest actual_cell_dependency_manifest_v2.json",
+    "node actual_cell_frozen_v1/export_actual_cell.mjs EMPTY_SCRATCH/bundle/topics/visible-flexible-closed-surface INPUT_CHECKPOINT OUTPUT.json.gz 1 8 0 0 uniform"
+  ],
+  "completed": true,
+  "stages": 18,
+  "nodes": 37,
+  "output_sha256": "c50d241388c4d8eb3c14f39288709cb9690b50a08b1eaf6bee24316507565a16",
+  "log_sha256": "74ec9e2fa4d0301273b3fc0128427565cbbd93f56eec2d434abc9df016d7041a",
+  "note": "The v2 exporter and recovery script are byte-identical to frozen_v1. v2 makes the tested 40-file dependency closure the default."
+}
