@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`90b512fbd45e4000208b9ccaaa46cacb9247a788`。2026-11-18 06:48:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`dd6090abb387fa86a4ddc5fbfc3d117cd2f65b85`。2026-11-18 06:51:26（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -16,13 +16,13 @@
 
 **真正actual g**：eta.1/q*.01，δ=.030027177128250468/vd=.2483630655929876。M20/1913点完整metric1.950429e−9、Darboux3.51076e−6。M24/parts8 worker−9与随后原门5.41094e−9失败分开记录，mode96非1ULP，不猜OOM。shared/parts16完整通过：1930点/4真尾，最终9.82471e−10/A.942545；prefix metric8.15575e−9较M20升4.18倍、flow升5.26倍，Darboux降29.7%；tail metric4.81792e−12。仍λ0，非连续闭合/单调收敛；见n4-actual-fixed-m24-parts16及n4-actual-m24-*、n4-m24-tail-residual-location。转新raw核真尾，不机械M28。
 
-R30周期复用/同μ缓存不改方程与2e−9原门。n4 actualM20/576stage/990760标量全残差/flow/Jac/graphs逐位同值，engine576→8、返回数组变异/重入差0；见n4-shared-periodic-engines，不作普遍提速声明。整核/旧网格身份见n4-fixed-seed-identity；线性g和actual链分开。
+R30共享periodic/同μ缓存不改方程或2e−9门；n4 actualM20/576stage/990760标量逐位同值，engine576→8、变异/重入差0。见n4-shared-periodic-engines、n4-fixed-seed-identity，不作普遍提速声明；linear g和actual链分开。
 
-旧w.08/q.0175/M24原Frenet域失败，q.015/M20取消无数学结论，见n4-q0175-tight-terminal；不重跑。
+旧w.08/q.0175/M24原域失败、q.015/M20取消，见n4-q0175-tight-terminal，不重跑。
 
-旧wCut=.16非raw幅值线：q.01/.0125有限metric通过，q.015/M20径向加密仍1.20586e−5平台；同g/M24句柄失效无终态，见n4-w016-q015-radial-plateau、n4-q015-m24-observation-gap，暂先付raw/actual。
+旧wCut=.16非raw：q.015/M20径向平台metric1.20586e−5，同g/M24失去观测无终态，见n4-w016-q015-radial-plateau、n4-q015-m24-observation-gap；暂先raw/actual。
 
-新w16/q0125 raw：J16/mean/free c8、λ.02/.05有限metric2.41705e−6/6.95343e−6均失败。冻λ.02整g(δ=.030158202455449618/vd=.25018727173023186/eta.1)，M20/2282点metric3.43423e−6/tensor.0160166，峰s=.066873/K<0/频84。全配点cond1约4.278e12，参数H²变元无改善。M24原节点门终止：4460点欲加4906超6000，RMS.0032079/BC4.334e−6，39域/26merit拒绝，5接受；无accepted M24或完整metric。见n4-raw-lambda002-fixed-m24-terminal及free-c8、localization、parameter-and-collocation-scales；不重做白化或盲升M28。全19c/eta.1/e=.1875主b探针中，b.16使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。新b.16 v2已返回终态待独核，原句柄仅观测丢失；完整metric过门后接原门实际尾。
+新w16/q0125 raw：J16/mean/free c8、λ.02/.05有限metric2.41705e−6/6.95343e−6均失败。冻λ.02整g(δ=.030158202455449618/vd=.25018727173023186/eta.1)，M20/2282点metric3.43423e−6/tensor.0160166，峰s=.066873/K<0/频84。全配点cond1约4.278e12，参数H²变元无改善。M24原节点门终止：4460点欲加4906超6000，RMS.0032079/BC4.334e−6，39域/26merit拒绝，5接受；无accepted M24或完整metric。见n4-raw-lambda002-fixed-m24-terminal及free-c8、localization、parameter-and-collocation-scales；不重做白化或盲升M28。全19c/eta.1/e=.1875主b探针中，b.16使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。新b.16 v2完整M20接受：2282点/18个α1步、无域或merit拒绝，metric8.91017947e−7过门、Darboux.00415666，见n4-primary-width-b016-m20。保留全19c/J16和物理轮廓；改主核不叫旧核精化，仍λ.02/linear DN。旧29520仅观测丢失，新观察器真实exit0。已由该准确新核启动w16原门actual尾，未返回。
 
 R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几何待付。旧低幅lambda.1/.15虽有限接受但metric失败，.2/.175节点门失败，见n4-low-amplitude-circle-terminal；非丢入口lift或不存在。eta1/q001/M12真正锚点见n4-first-true-coupled-state。
 
