@@ -1,0 +1,105 @@
+{
+  "scope": "Continuous geometry of the entire explicit finite m3 tail by Bernstein bounds.\n\nAll four elementary array operations round outward with nextafter. Every\nsum of coefficient bounds is accumulated outward. Stored data are exact\nbinary constants; exact rational radial normalization is enclosed first.\nThe background theorem B<=8 is an explicit separate input. No metric-error\ncertificate or exact nonlinear solution is inferred from this geometry proof.\n",
+  "inputs": {
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_interval64_v2.json": "85f768301d5ac97ae79fc64ef58e72d92d0ecf7b86d54a65b1530778ce7e74a6",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/prefix-common-audit.json": "18232191b1d781f7219d06b6e261307844fdde462495c6aab99ac932970fa09a"
+  },
+  "source_sha256": "b7885834058873a1604f9365226611ad520840a5905484aa2e727828bfdea21d",
+  "represented_spans": 4637,
+  "coefficient_count": 73,
+  "bernstein_degrees": {
+    "value": 5,
+    "first": 4,
+    "second": 3
+  },
+  "complete_coefficient_bounds": {
+    "V": 5.853473482821678e-05,
+    "V_theta": 0.00017141835982605107,
+    "V_theta_theta": 0.0005292024928016652,
+    "Vr": 0.001458221239968222,
+    "Vr_theta": 0.004466966665233752,
+    "Vr_theta_theta": 0.014883463286222306,
+    "Vrr": 1.1618944888901939,
+    "Vrr_theta": 3.728888531921787,
+    "Vrr_theta_theta": 22.617367128180735
+  },
+  "outer_ulp_reparametrization": {
+    "delta": {
+      "numerator": "1",
+      "denominator": "18014398509481984",
+      "display_only": 5.551115123125783e-17
+    },
+    "width": {
+      "numerator": "5764607523034235",
+      "denominator": "288230376151711744",
+      "display_only": 0.02
+    },
+    "first_upper": {
+      "numerator": "1152921504606853",
+      "denominator": "1152921504606847",
+      "display_only": 1.000000000000005
+    },
+    "second_abs_upper": {
+      "numerator": "18446744073709551616",
+      "denominator": "6646139978924579641220196407045",
+      "display_only": 2.7755575615628914e-12
+    }
+  },
+  "first_perturbation_g0_norm_upper": {
+    "numerator": "8590653499017857",
+    "denominator": "2305843009213693952",
+    "display_only": 0.0037256020746821443
+  },
+  "covariant_second_perturbation_g0_norm_upper": {
+    "numerator": "5460163883435009",
+    "denominator": "4503599627370496",
+    "display_only": 1.2123999323232513
+  },
+  "curvature_upper": {
+    "numerator": "48981519593644519661470165338054197248",
+    "denominator": "5277368385836628710112669370764449025",
+    "display_only": 9.281428926792536
+  },
+  "support_lower": {
+    "numerator": "85230156750528242694783392458352125493698379311752370574731587826645675",
+    "denominator": "118719401872198881878488748344914128778184855862861415189752569676169216",
+    "display_only": 0.7179126192219051
+  },
+  "radius_upper": {
+    "numerator": "7821330678252659",
+    "denominator": "9007199254740992",
+    "display_only": 0.8683421402203194
+  },
+  "planar_jacobian_over_r_lower": {
+    "numerator": "813332909037113295072469133818408608621219761964931",
+    "denominator": "817330955128473893321307736026570446072414310760448",
+    "display_only": 0.9951084122456464
+  },
+  "polar_angular_jacobian_over_r_squared_lower": {
+    "numerator": "11760972968986226407014969680861001",
+    "denominator": "11815359962532580289848859569553408",
+    "display_only": 0.9953969245356198
+  },
+  "finite_mean_at_cut_interval": [
+    {
+      "numerator": "4771791859109479",
+      "denominator": "2361183241434822606848",
+      "display_only": 2.0209324610527895e-06
+    },
+    {
+      "numerator": "2385895929555001",
+      "denominator": "1180591620717411303424",
+      "display_only": 2.020932461053011e-06
+    }
+  ],
+  "strict_safe_bounds": {
+    "curvature": 9.5,
+    "support": 0.7,
+    "radius": 0.87
+  },
+  "geometric_statement": "Every finite-tail point is regular, has upward normal, positive polar angular Jacobian, |kappa_i|<9.5, X.n>.7 and |X|<.87. Its union with the already proved collar/disk is an embedded graph over its planar image, since the planar perturbation has global derivative norm <1.",
+  "metric_error_certified": false,
+  "whole_closed_surface_certified": false
+}

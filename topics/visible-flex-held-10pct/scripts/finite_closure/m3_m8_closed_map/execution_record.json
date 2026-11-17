@@ -1,0 +1,236 @@
+{
+  "session": "Astra-visible-held10/literature_mechanisms",
+  "scope": "Actual fixed-M8 finite closed C2 map and continuous geometry. No BVP rerun, no full metric certificate.",
+  "run_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "inputs": {
+    "nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz": "2efcc8e2f3edd765760266e9d1b83f0ee2cba1bc0b2fdb04e8b5427d645525a5",
+    "nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz": "12754098ba6cffc0abb5f0c327c7a376cac826ea8ab820b793ec5ad9b958c4f2",
+    "m3_flat17_work/smallcut30-fast45-k4-p20/port.json": "d680ea031729e5d7fd872e822d0c6d55a5e45924ecee653628f581f6f05bf2d6",
+    "tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+    "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+    "tail_closure_audit/finite_closed_tail.py": "3e44d91a0bfe374656fa08866a80ca689139ecb251eed63c24c5e85c3294a6f5",
+    "tail_closure_audit/m3_fixed_background_interval64_v2.json": "85f768301d5ac97ae79fc64ef58e72d92d0ecf7b86d54a65b1530778ce7e74a6",
+    "tail_closure_audit/deliverable/collar_disk_scalar_result.json": "874504e289fa21a545ebc42711db18df6d1c34ed13d9dee57cb5997f82c805bb"
+  },
+  "source_dependencies": {
+    "R21_package_public_path": "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_collar_disk",
+    "R21_published_commit_prefix": "ef386aeff17",
+    "source_recovery_manifest_sha256": "4b7f10fd3e5aef14285a32ca1edb1791180b2bfeda1edc4c14426da49d336512",
+    "source_files": 74,
+    "coupled_pair_replay_public_path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_coupled_seed_deliverable/replay.py"
+  },
+  "physical_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06105607686781097,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "actual_q": 0.020001225073149356,
+  "commands": [
+    {
+      "argv_provenance": "Exact script argv recorded by the executed script; python launcher prepended",
+      "argv": [
+        "python",
+        "m3_closed_map_work/audit_common_prefix.py",
+        "--source-topic",
+        "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--checkpoint",
+        "nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz",
+        "--port",
+        "m3_flat17_work/smallcut30-fast45-k4-p20/port.json",
+        "--tail-manifest",
+        "tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json",
+        "--tail-reader",
+        "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--cap-source",
+        "tail_closure_audit/finite_closed_tail.py",
+        "--outdir",
+        "m3_closed_map_work/fixed_m8_common_v1",
+        "--angular",
+        "512",
+        "--radial",
+        "1025"
+      ],
+      "completed": true,
+      "output_sha256": {
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-common-audit.json": "18232191b1d781f7219d06b6e261307844fdde462495c6aab99ac932970fa09a",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-shared-cartesian.npz": "76f9507b1f2f0de5fc34b0cc2f039d60ea33ad75065df8596d4dfe3c90945e97"
+      },
+      "local_terminal_session": 30149
+    },
+    {
+      "argv_provenance": "Replay argv reconstructed from the completed result and frozen defaults; not asserted as literal historical shell text",
+      "argv": [
+        "python",
+        "m3_closed_map_work/bound_cut_lift.py",
+        "--prefix-data",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-shared-cartesian.npz",
+        "--tail-manifest",
+        "tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json",
+        "--tail-reader",
+        "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--out",
+        "m3_closed_map_work/fixed_m8_common_v1/cut-lift-all-angle-bounds.json"
+      ],
+      "completed": true,
+      "output_sha256": {
+        "m3_closed_map_work/fixed_m8_common_v1/cut-lift-all-angle-bounds.json": "6db5fd08c755dd67d300a8adb78f529e433d939966b6618f17ee393e4904ddb5"
+      },
+      "local_terminal_session": null
+    },
+    {
+      "argv_provenance": "Replay argv reconstructed from the completed result and frozen defaults; not asserted as literal historical shell text",
+      "argv": [
+        "python",
+        "m3_closed_map_work/certify_finite_tail_geometry.py",
+        "--manifest",
+        "tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json",
+        "--reader",
+        "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--background",
+        "tail_closure_audit/m3_fixed_background_interval64_v2.json",
+        "--prefix-audit",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-common-audit.json",
+        "--out",
+        "m3_closed_map_work/fixed_m8_common_v1/finite-tail-continuous-geometry.json"
+      ],
+      "completed": true,
+      "output_sha256": {
+        "m3_closed_map_work/fixed_m8_common_v1/finite-tail-continuous-geometry.json": "9fca7e7f1bda260162abb40c66105c4c9367477f309f193848293f0ad1a74866"
+      },
+      "local_terminal_session": null
+    },
+    {
+      "argv_provenance": "Replay argv reconstructed from the completed result and frozen defaults; not asserted as literal historical shell text",
+      "argv": [
+        "python",
+        "m3_closed_map_work/certify_prefix_geometry.py",
+        "--data",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-shared-cartesian.npz",
+        "--checkpoint",
+        "nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz",
+        "--prefix-audit",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-common-audit.json",
+        "--cut-bounds",
+        "m3_closed_map_work/fixed_m8_common_v1/cut-lift-all-angle-bounds.json",
+        "--out",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-continuous-geometry.json",
+        "--angular",
+        "512",
+        "--curvature",
+        "10",
+        "--support",
+        ".7",
+        "--radius",
+        "1.17"
+      ],
+      "completed": true,
+      "output_sha256": {
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-continuous-geometry.json": "1a969f31bfe9c3d308057ec5fc46e37a0cfcfc0fc6c45da4feb386146acca4fb"
+      },
+      "local_terminal_session": 87806
+    },
+    {
+      "argv_provenance": "Exact executed argv",
+      "argv": [
+        "python",
+        "m3_closed_map_work/combine_closed_geometry.py",
+        "--prefix-audit",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-common-audit.json",
+        "--prefix-certificate",
+        "m3_closed_map_work/fixed_m8_common_v1/prefix-continuous-geometry.json",
+        "--tail-certificate",
+        "m3_closed_map_work/fixed_m8_common_v1/finite-tail-continuous-geometry.json",
+        "--collar-certificate",
+        "tail_closure_audit/deliverable/collar_disk_scalar_result.json",
+        "--out",
+        "m3_closed_map_work/fixed_m8_common_v1/closed-continuous-geometry.json"
+      ],
+      "completed": true,
+      "output_sha256": {
+        "m3_closed_map_work/fixed_m8_common_v1/closed-continuous-geometry.json": "178e801d4360b3ea9c331c4260c4bba88d91527642445019e79f5ac2f065100f"
+      },
+      "local_terminal_session": null
+    },
+    {
+      "argv_provenance": "Exact executed argv",
+      "argv": [
+        "python",
+        "-u",
+        "m3_closed_map_work/closed_m3_map.py",
+        "--source-topic",
+        "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--prefix-checkpoint",
+        "nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz",
+        "--tail-checkpoint",
+        "nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz",
+        "--port",
+        "m3_flat17_work/smallcut30-fast45-k4-p20/port.json",
+        "--tail-manifest",
+        "tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json",
+        "--tail-reader",
+        "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--cap-source",
+        "tail_closure_audit/finite_closed_tail.py",
+        "--out",
+        "m3_closed_map_work/fixed_m8_common_v1/closed-phase-query.json"
+      ],
+      "completed": true,
+      "output_sha256": {
+        "m3_closed_map_work/fixed_m8_common_v1/closed-phase-query.json": "418a4d764dc17b1565c379f20d75206ce16207cb09c511b844f2372dfaa81694"
+      },
+      "local_terminal_session": 35121
+    }
+  ],
+  "complete_replay_wrapper_executed": false,
+  "source_scripts_sha256": {
+    "shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "audit_common_prefix.py": "9ec6391a6931d08a5dcf7f43179225ec4883f3c6119f49eb0e1b44d8c545c2de",
+    "interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+    "m3_interval_center.py": "a7d5d8d8d80b1ba99d4054dd6cf79a3264421f1c438460dadf10a3a7f77a9f3d",
+    "bound_cut_lift.py": "534eb0947281b5d3d698d08ad28f2fa6fb5bd3aae8ffd95a709efdf930b21fd7",
+    "certify_finite_tail_geometry.py": "b7885834058873a1604f9365226611ad520840a5905484aa2e727828bfdea21d",
+    "certify_prefix_geometry.py": "4c50fc023c7a55c15f07e39cdaf993175b676cbee7ba6b25578045ca525914cd",
+    "combine_closed_geometry.py": "f09c2665f523a54940398f76ba8b92e0bfdd3d09707d18877499a08992d8b3cb",
+    "phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "background_query.mjs": "611561de4206caade2f0ba439cda40e558474267538d7eeb5929a55e3e993825",
+    "closed_m3_map.py": "1444b817abe0d77410f8c9e9b35b0ea14aa5f182767fd2de3d57527a46e51ba1",
+    "reproduce_closed_map.py": "71dd77a1a1968ff4b80bdf2e80e1592f7aea2c5f852dd4023f518904573c5ddf"
+  },
+  "raw_output_sha256": {
+    "prefix-common-audit.json": "18232191b1d781f7219d06b6e261307844fdde462495c6aab99ac932970fa09a",
+    "cut-lift-all-angle-bounds.json": "6db5fd08c755dd67d300a8adb78f529e433d939966b6618f17ee393e4904ddb5",
+    "finite-tail-continuous-geometry.json": "9fca7e7f1bda260162abb40c66105c4c9367477f309f193848293f0ad1a74866",
+    "prefix-continuous-geometry.json": "1a969f31bfe9c3d308057ec5fc46e37a0cfcfc0fc6c45da4feb386146acca4fb",
+    "closed-continuous-geometry.json": "178e801d4360b3ea9c331c4260c4bba88d91527642445019e79f5ac2f065100f",
+    "closed-phase-query.json": "418a4d764dc17b1565c379f20d75206ce16207cb09c511b844f2372dfaa81694"
+  },
+  "public_records_note": "Necessary compact scalar results only. Core coefficient/frequency vectors and the sampled pole coordinate were omitted; raw output hashes above refer to regenerated full scalar diagnostics.",
+  "excluded": [
+    "prefix/tail checkpoints",
+    "Fourier and radial defining arrays",
+    "DN/H vectors",
+    "mesh or sample point arrays",
+    "large solver logs"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "scope": "Combine the literal closed-map geometry certificates using exact Fractions.\n\nR21 used the directly recovered source mean at the cut. The new shared-jet\nprefix has a slightly different finite mean constant. This script pays that\none global vertical translation on both collar/cap copies before combining\nthe three pieces. No isometry or strict noncongruence is asserted.\n",
+  "inputs": {
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/prefix-common-audit.json": "18232191b1d781f7219d06b6e261307844fdde462495c6aab99ac932970fa09a",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/prefix-continuous-geometry.json": "1a969f31bfe9c3d308057ec5fc46e37a0cfcfc0fc6c45da4feb386146acca4fb",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/finite-tail-continuous-geometry.json": "9fca7e7f1bda260162abb40c66105c4c9367477f309f193848293f0ad1a74866",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/deliverable/collar_disk_scalar_result.json": "874504e289fa21a545ebc42711db18df6d1c34ed13d9dee57cb5997f82c805bb"
+  },
+  "source_sha256": "f09c2665f523a54940398f76ba8b92e0bfdd3d09707d18877499a08992d8b3cb",
+  "previous_to_shared_mean_translation": {
+    "numerator": "-703",
+    "denominator": "1125899906842624",
+    "display_only": -6.24389429049188e-13
+  },
+  "corrected_collar_support_lower": {
+    "numerator": "442497919214144906358388055467850525962406418711755904173538384634730555238956352489935148660960774719200544093297979387027827913448589836768575431104213475795233390004555524444843597386169188733910970173873002298528543378640459723590295280876955401897541906323587110634804287591687782999471154387027538531670008283909628555116767429380775714577449538196395470247919859831904057",
+    "denominator": "552218104086517355484497452254487922703719239942761975234172948384808865848541341662862493459984069906920555491797109333776377845285676554858133320814048480441258611266600728658719545641182176253041920126253589388282870186239234300953041602941461151015430530481612408947416085258071716327669461844374663752306806895679846235973316806603269712831759357091153239594732037789974528",
+    "display_only": 0.8013100547402874
+  },
+  "corrected_cap_height_interval": [
+    {
+      "numerator": "499593570072067656416707918576284670772975503563848608555500749044732278071998558430809044710272931618225207231547512644259539870029698777686878064017887178380149",
+      "denominator": "622038995125234630675879531339298942913602482388363166201437646299230311238320439540117849869608449141520272732058763384482540439024796427998217868759030720102400",
+      "display_only": 0.8031547442961914
+    },
+    {
+      "numerator": "20273319606350727830192799597993516735824010839556143965420830007111246510948917801325202997353534027887788088525905478955282072770105975283968951155653716732349",
+      "denominator": "24881559805009385227035181253571957716544099295534526648057505851969212449532817581604713994784337965660810909282350535379301617560991857119928714750361228804096",
+      "display_only": 0.8147929537065886
+    }
+  ],
+  "support_lower": {
+    "numerator": "85230156750528242694783392458352125493698379311752370574731587826645675",
+    "denominator": "118719401872198881878488748344914128778184855862861415189752569676169216",
+    "display_only": 0.7179126192219051
+  },
+  "curvature_upper": {
+    "numerator": "10",
+    "denominator": "1",
+    "display_only": 10.0
+  },
+  "radius_upper": {
+    "numerator": "2592288282086965",
+    "denominator": "2251799813685248",
+    "display_only": 1.1512072548955765
+  },
+  "diameter_upper": {
+    "numerator": "2592288282086965",
+    "denominator": "1125899906842624",
+    "display_only": 2.302414509791153
+  },
+  "reach_lower": {
+    "numerator": "1",
+    "denominator": "10",
+    "display_only": 0.1
+  },
+  "reach_over_diameter_lower": {
+    "numerator": "562949953421312",
+    "denominator": "12961441410434825",
+    "display_only": 0.04343266582743643
+  },
+  "safe_bounds": {
+    "support_strict_lower": 0.7,
+    "curvature_upper": 10,
+    "radius_strict_upper": 1.15121,
+    "diameter_strict_upper": 2.30242,
+    "reach_lower": 0.1,
+    "reach_over_diameter_strict_lower": 0.0434
+  },
+  "all_phase_reason": "At marker strength 0 every phase image is a spatial rotation of the certified closed C2 surface; reflected lower charts and the two cap disks share exact two-jets.",
+  "embedding_and_reach_lemma": "R1 / positive-support normal-offset lemma for a C2 immersion of S2",
+  "marker_strength": 0,
+  "isometry_certified": false,
+  "strict_noncongruence_asserted": false,
+  "ten_percent_completion_asserted": false
+}

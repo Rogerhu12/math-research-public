@@ -1,0 +1,29 @@
+{
+  "scope": "Three corrected query implementation failures; no BVP or mathematical failure",
+  "failures": [
+    {
+      "kind": "implementation_syntax_error_before_initialization",
+      "source_sha256": "54fb0f94826fdf365e16b6425170f7d990ce33d2d3a6bb5223e0bc489565c4a8",
+      "log_sha256": "e086c554fe65a940ddf6cda538e3e8585c850db086e2dcda69ef421e34f9ce8f",
+      "cause": "Missing space in Python conditional expression: else1",
+      "bvp_solves": 0,
+      "mathematical_failure": false
+    },
+    {
+      "kind": "numeric_evaluation_endpoint_span_roundoff",
+      "source_sha256": "fd504af3cc66916503c844c36c4ec1f302b2980d77b39d6f8037145b435f8282",
+      "log_sha256": "2b056eb0cfd636b1fa0f9292a0307faa4377fcc25bf06d5ddbbd883666b049ca",
+      "cause": "Calling generic last-span radius subtraction before the already-defined literal endpoint provider can produce t>1 by roundoff. Query endpoint directly from its one shared function.",
+      "bvp_solves": 0,
+      "mathematical_failure": false
+    },
+    {
+      "kind": "scalar_json_serialization_after_successful_queries",
+      "source_sha256": "d2d8af76cbdef9b01f07752490d3ed710c9a93d2c7113ea497c5720f7066b94f",
+      "log_sha256": "480c07c606e139515f573733442766a2ebb4730ea2405ffff7aee123f788ff07",
+      "cause": "numpy.longdouble seam maxima need explicit float conversion for JSON output",
+      "bvp_solves": 0,
+      "mathematical_failure": false
+    }
+  ]
+}

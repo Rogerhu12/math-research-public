@@ -1,0 +1,176 @@
+{
+  "scope": "Execute the fixed-M8 full Cartesian C2 prefix and common-tail-jet repair.\n\nAudits are finite samples unless an explicit analytic inequality is stated.\nNo BVP is rerun; no old/coarse endpoint packet is substituted.\n",
+  "argv": [
+    "m3_closed_map_work/audit_common_prefix.py",
+    "--source-topic",
+    "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--checkpoint",
+    "nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz",
+    "--port",
+    "m3_flat17_work/smallcut30-fast45-k4-p20/port.json",
+    "--tail-manifest",
+    "tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json",
+    "--tail-reader",
+    "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+    "--cap-source",
+    "tail_closure_audit/finite_closed_tail.py",
+    "--outdir",
+    "m3_closed_map_work/fixed_m8_common_v1",
+    "--angular",
+    "512",
+    "--radial",
+    "1025"
+  ],
+  "checkpoint_sha256": "2efcc8e2f3edd765760266e9d1b83f0ee2cba1bc0b2fdb04e8b5427d645525a5",
+  "tail_manifest_sha256": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+  "source_sha256": {
+    "audit_common_prefix.py": "9ec6391a6931d08a5dcf7f43179225ec4883f3c6119f49eb0e1b44d8c545c2de",
+    "m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+    "shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+    "finite_closed_tail.py": "3e44d91a0bfe374656fa08866a80ca689139ecb251eed63c24c5e85c3294a6f5"
+  },
+  "actual_q": 0.020001225073149356,
+  "fixed_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06105607686781097,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "core": {
+    "base_mode": 3,
+    "support_amplitude": 0.020001225073149356,
+    "exact_perimeter": 6.283185307179586,
+    "constant_width_exact": false,
+    "width_defect_bound": 0.00010112524632532463,
+    "width_min_sample": 1.99989890306373,
+    "width_max_sample": 2.0001011247687264,
+    "curvature_radius_lower": 0.838140537137947,
+    "curvature_radius_upper": 1.1583186616179193,
+    "curvature_lower_bound": 0.8633202875305639,
+    "curvature_upper_bound": 1.1931173301971112,
+    "radius_max_sample": 1.0200504226102038,
+    "radius_min_sample": 0.9800507021585224,
+    "radius_upper_bound": 1.0200504226102038,
+    "radius_lower_bound": 0.9800507021585224,
+    "support_monotone": true,
+    "phase_pi_over_base_mode_support_gap_at_phi0": 0.03999972045168157,
+    "phase_pi_over_base_mode_support_gap_lower": 0.03999972045168156
+  },
+  "angular": 512,
+  "radial_samples": 3268,
+  "cartesian_coefficients": 74,
+  "shared_knots": 986,
+  "inserted_knots": 3,
+  "center_width": 0.04,
+  "cut_width": 0.04,
+  "exact_c2_reason": "Finite shared-2jet Cartesian coefficient quintics; exact analytic core lift; endpoint lift uses the same full angular function as tail cut. C2 is algebraic, not a residual tolerance.",
+  "delta_angular_by_radial_jet_sample_norms": [
+    [
+      1.2773347015608977e-11,
+      2.768202445342041e-13,
+      1.2244813266929572e-09
+    ],
+    [
+      8.188536642828388e-11,
+      1.7810164095799258e-13,
+      1.3358457598748603e-08
+    ],
+    [
+      1.4256252770262715e-09,
+      3.8377319930648345e-12,
+      8.331580169740916e-07
+    ]
+  ],
+  "delta_angular_by_radial_jet_fft_l1": [
+    [
+      1.7735020132754775e-11,
+      3.4087141395410637e-13,
+      2.2546951582917525e-09
+    ],
+    [
+      1.6168372648116408e-10,
+      4.554494110558977e-13,
+      4.1377540237180317e-08
+    ],
+    [
+      2.377120355166848e-09,
+      7.153185917323503e-12,
+      2.4196138770418874e-06
+    ]
+  ],
+  "center_delta_sample_norms": [
+    [
+      7.852032228899707e-15,
+      2.55351295663786e-15,
+      4.425125057795516e-11
+    ],
+    [
+      1.5486215393254844e-13,
+      5.6251445015311057e-14,
+      1.1994612746207e-09
+    ],
+    [
+      4.320099833421409e-12,
+      1.2983014474290312e-12,
+      3.2801169780327655e-08
+    ]
+  ],
+  "sampled_maxima": {
+    "metric_l1": 1.263730138737552e-08,
+    "curvature": 8.050395302796868,
+    "radius": 1.1457295847276794,
+    "height": 0.7859795231433943,
+    "representation_position_change": 1.2773447329118835e-11,
+    "representation_first_change": 5.987804921070185e-10,
+    "representation_second_change": 2.6033403879854866e-07
+  },
+  "sampled_minima": {
+    "support": 0.8031789897350968,
+    "area": 0.2999999999999677,
+    "xy_radius": 0.2999985961198648
+  },
+  "before_cartesian_and_cut_lift_sampled": {
+    "metric_l1": 1.2612235600074426e-08,
+    "curvature": 8.050395302796867
+  },
+  "center_numerical_identity_check": {
+    "position": 0.0,
+    "Fs": 0.0,
+    "Fss": 4.47545209131181e-16
+  },
+  "seam_numerical_identity_check": {
+    "X": 2.3055512673781017e-16,
+    "Xs": 2.498001805406602e-16,
+    "Xss": 4.450098274550997e-16,
+    "Xpsi": 1.14439170765539e-16,
+    "Xpsipsi": 1.144391828027843e-16,
+    "Xspsi": 2.2887875079707365e-16
+  },
+  "zcut_mean": 0.7859258290308807,
+  "tail_mean_at_cut_approx": 2.0209324610528992e-06,
+  "outer_radius_adjustment": -5.551115123125783e-17,
+  "outer_adjustment_width": 0.02,
+  "target_cut_jets": [
+    0.3,
+    -0.996815278536125,
+    0.14744006140246674
+  ],
+  "bvp_solves": 0,
+  "seconds": 24.362761596999917,
+  "whole_closed_embedding_or_reach_certified": false,
+  "public_scalar_record_omissions": [
+    "core.coefficients",
+    "core.frequencies"
+  ]
+}

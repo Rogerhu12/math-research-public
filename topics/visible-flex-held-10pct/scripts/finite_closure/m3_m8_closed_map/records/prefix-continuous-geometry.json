@@ -1,0 +1,64 @@
+{
+  "scope": "Full-circle continuous geometry of the repaired finite m3 prefix.\n\nUses the already reviewed outward Hermite/Bernstein/IEEE-sum kernel. The m3\nanalytic center is enclosed by independently validated arclength inverse\nbrackets and second-order interval Taylor remainders. The complete common-cut\nlift is added using full-angle coefficient bounds. No symmetry reduction,\nsampled endpoint argument or isometry certificate is used.\n",
+  "success": true,
+  "inputs": {
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/prefix-shared-cartesian.npz": "76f9507b1f2f0de5fc34b0cc2f039d60ea33ad75065df8596d4dfe3c90945e97",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz": "2efcc8e2f3edd765760266e9d1b83f0ee2cba1bc0b2fdb04e8b5427d645525a5",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/prefix-common-audit.json": "18232191b1d781f7219d06b6e261307844fdde462495c6aab99ac932970fa09a",
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/cut-lift-all-angle-bounds.json": "6db5fd08c755dd67d300a8adb78f529e433d939966b6618f17ee393e4904ddb5"
+  },
+  "source_sha256": {
+    "certify_prefix_geometry.py": "4c50fc023c7a55c15f07e39cdaf993175b676cbee7ba6b25578045ca525914cd",
+    "interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+    "m3_interval_center.py": "a7d5d8d8d80b1ba99d4054dd6cf79a3264421f1c438460dadf10a3a7f77a9f3d"
+  },
+  "full_angular_range": "[0,2*pi]",
+  "symmetry_reduction_used": false,
+  "angular_boxes": 512,
+  "radial_boxes": 985,
+  "covered_radial": [
+    0.0,
+    1.36034614418862
+  ],
+  "boxes": 504320,
+  "failed_boxes": 0,
+  "first_failures": [],
+  "bounds": {
+    "support_lower": 0.778886283296961,
+    "radius_upper": 1.1512072548955765,
+    "area_lower": 0.29624882773787486,
+    "curvature_psd_diag_lower": 0.8639734262992359,
+    "curvature_psd_det_lower": 7.245153244937084,
+    "planar_radial_projection_lower": 0.29631768120352164,
+    "azimuth_numerator_lower": 0.08889522393058535
+  },
+  "center": {
+    "core_rho_lower": 0.8381104405442125,
+    "validated_inverse_brackets": 1536,
+    "center_delta_abs_bounds": [
+      [
+        5.5242737351018635e-15,
+        2.5306981715450194e-15,
+        4.3635247582605795e-11
+      ],
+      [
+        1.5463822254385155e-13,
+        5.627128526523487e-14,
+        1.1954244882358627e-09
+      ]
+    ],
+    "whole_box_delta_second_abs_bounds": [
+      0.031999985892092506,
+      1.2983261223247834e-12,
+      0.736213484177015
+    ],
+    "arithmetic": "70-digit interval elementary functions; inverse brackets independently sign-verified; second-order interval Taylor remainders."
+  },
+  "thresholds": {
+    "curvature": 10.0,
+    "support": 0.7,
+    "radius": 1.17
+  },
+  "isometry_certified": false,
+  "seconds": 73.28007935099959
+}

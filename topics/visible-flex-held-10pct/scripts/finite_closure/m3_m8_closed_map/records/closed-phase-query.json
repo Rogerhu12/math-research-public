@@ -1,0 +1,63 @@
+{
+  "scope": "Queryable finite C2 closed m3 map in explicit prefix/tail/pole charts.\n\nThe phase acts on physical material angle, not the computational warp angle.\nThe upper and lower pieces share one reflected Cartesian core, two identical\nfull cut functions, exact inner collar jets and ordinary Cartesian pole charts.\nThe reference rotational primitives are evaluated numerically by the original\nfactory. Their mathematical definition and continuous bounds are separate.\n\nWith marker_strength=0 the phase images are rigid rotations, hence delta_E=0.\nA nonzero fixed compact cap marker is available as a separate fixed cap metric;\nthis module does not by itself certify the marker's strict noncongruence gate.\n",
+  "source_sha256": "1444b817abe0d77410f8c9e9b35b0ea14aa5f182767fd2de3d57527a46e51ba1",
+  "inputs": {
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz": "2efcc8e2f3edd765760266e9d1b83f0ee2cba1bc0b2fdb04e8b5427d645525a5",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz": "12754098ba6cffc0abb5f0c327c7a376cac826ea8ab820b793ec5ad9b958c4f2",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/port.json": "d680ea031729e5d7fd872e822d0c6d55a5e45924ecee653628f581f6f05bf2d6",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21"
+  },
+  "phases": [
+    0.0,
+    0.17,
+    1.0471975511965976
+  ],
+  "shared_cut_six_jet_numeric_errors": [
+    2.220446049250313e-16,
+    2.429747369352819e-16,
+    4.633986938148473e-16,
+    1.112389317577517e-16,
+    5.551117770103112e-17,
+    2.9744845809056574e-16
+  ],
+  "numeric_cap_height": 0.8084691362784683,
+  "marker_strength": 0.0,
+  "tail_point_query_count": 42,
+  "prefix_point_query_count": 24,
+  "finite_queries_all_successful": true,
+  "background_evaluation": {
+    "ready": true,
+    "alphaApprox": 161.87100490352205,
+    "heightToCutApprox": 0.02254128631512652,
+    "scope": "Numerical evaluator only; exact background and geometric bounds are separately defined/proved."
+  },
+  "explicit_c2_phase_chart": {
+    "definition": "Shared radial two-jet quintic e(s); theta=psi-e(s)sin(3psi)/3.",
+    "exact_absolute_e_upper": {
+      "numerator": "1441151880758559",
+      "denominator": "9007199254740992",
+      "display_only": 0.16000000000000003
+    },
+    "exact_rho_lower": {
+      "numerator": "7566047373982433",
+      "denominator": "9007199254740992",
+      "display_only": 0.84
+    },
+    "radial_spans": 985,
+    "exact_center_two_jet": true,
+    "exact_zero_cut_two_jet": true,
+    "numerical_source_chart_difference_orders_0_1_2": [
+      1.926007656280641e-16,
+      8.41150066266394e-13,
+      1.2237341206962652e-09
+    ],
+    "geometry_coefficients_changed": false,
+    "metric_reaudited_in_this_query": false
+  },
+  "exact_map_definition": "Frozen finite shared Hermite/Fourier functions; literal core/end Hermite lifts; exact fixed-background real integrals; upper whole-z reflection plus one vertical translation; lower full-z mirror; physical-angle phase; Cartesian disks.",
+  "delta_E_asserted": false,
+  "continuous_geometry_is_separate_certificate": true,
+  "public_scalar_record_omissions": [
+    "pole"
+  ]
+}

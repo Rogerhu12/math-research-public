@@ -1,0 +1,64 @@
+{
+  "scope": "Outward full-angle bounds for the actual shared Cartesian end correction.\n\nOnly finite defining coefficients are consumed. The exact integrated-tail\nposition is enclosed by outward quadrature identities, not by stored samples.\nNo angular sampling or FFT is used in these correction bounds.\n",
+  "inputs": {
+    "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m8_common_v1/prefix-shared-cartesian.npz": "76f9507b1f2f0de5fc34b0cc2f039d60ea33ad75065df8596d4dfe3c90945e97",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+  },
+  "source_sha256": "534eb0947281b5d3d698d08ad28f2fa6fb5bd3aae8ffd95a709efdf930b21fd7",
+  "width": 0.04,
+  "all_angle_delta_bounds_angular_then_radial_jet": [
+    [
+      1.7135338126842087e-11,
+      3.215870584893811e-13,
+      1.597903899418739e-09
+    ],
+    [
+      1.5590702912261848e-10,
+      3.442375369215011e-13,
+      2.9298484835635028e-08
+    ],
+    [
+      2.281771683473096e-09,
+      5.2090372762115205e-12,
+      1.7118696439761171e-06
+    ]
+  ],
+  "hermite_weight_bounds_derivative_then_endpoint_jet": [
+    [
+      1.0000000000000002,
+      0.016000000000000004,
+      8.000000000000002e-05
+    ],
+    [
+      125.00000000000001,
+      2.0000000000000004,
+      0.010000000000000002
+    ],
+    [
+      12500.000000000002,
+      300.00000000000006,
+      2.0000000000000004
+    ]
+  ],
+  "correction_bounds_radial_then_angular_derivative": [
+    [
+      1.7268315831731433e-11,
+      1.5825641571006014e-10,
+      2.4188045995876072e-09
+    ],
+    [
+      2.1585394789664288e-09,
+      1.9782051963757516e-08,
+      3.0235057494845087e-07
+    ],
+    [
+      2.174840105019105e-07,
+      2.0075381049650797e-06,
+      3.194744804254882e-05
+    ]
+  ],
+  "c2_reason": "One right-end complete Cartesian two-jet function, zero two-jet at the fixed strip interior endpoint; exact Hermite identities.",
+  "angular_sampling_used": false,
+  "exact_tail_position_integral_enclosed": true
+}
