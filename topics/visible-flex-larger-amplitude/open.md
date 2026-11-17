@@ -109,11 +109,11 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [近竖直参考g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)R1.55虽参考长度/chord/帽D过采样门，未付真实major切向；[R1.6后续表](notes/2026-11-17-parallel-numerical-outward-budget-exclusion.md)完整固定Θ chord1.106767、参考L1.108381、条件H1.441113/D4.797887，仍由[R635](results/R635-positive-projection-meridian-curvature-length-obstruction.md)严格排除。实际反射major正投影且κ≤6.8时，允许负坡也有长度上界；.992/R1.7673/H≤1.22需ε>.388304，.8/R1.6/H≤1.45需ε>.092997，近等距因子已付。改变整个g也无法救这两组合；停止强幅沿此chart/参数追解，内向翻转不在排除内。
 
-[新向内g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)真.995cut后κ1.5与两.02 ramps到参考s2.284717/R.531879内向平2jet，H1.8固定材料chord余.072629；κ1.75/2同H未过门。完整338维已到.997/510节点真BVP接受，但quintic Gram2.754e−6超限、κ6.30172，a′仍正；同g/原.995边界参照M128亦真接受但Gram5.879e−6；端点投影截尾约.000415，增求积角数只改速度约1.4e−8，检查实际端部影响；.999初猜域失败，缩步.998亦1202节点未接受，均不作父。参考盘D3.753875仅组件值，不冒完整闭面。
+[新向内标量](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)从真.995以κ1.5及两.02 ramp到参考s2.284717/R.531879内向平2jet，H1.8固定材料chord样本余.072629；κ1.75/2同H未过门。实际仅到.997，M112/M128真接受但Gram2.754e−6/5.879e−6，末端投影截尾未降；.998完整求解与.999初猜均失败，不作父。参考盘D3.753875不冒完整闭面。
 
 [R634全角有理覆盖](results/R634-inward-fixed-material-full-angle-chord-budget.md)对真实.995父所有112模及固定材料Θ，以精确系数、Machin π、向外Taylor和Lipschitz支付角间距：条件R∈[.531878,.531880]、L≥1.289716、H1.8下全角chord<1.229702，余>.060014。R/L两个profile积分条件仍未认证，非实际非线性尾。
 
-[完整Jac与移动框架Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)：原坐标A正谱维数278/286，不能当法向增长支；实际有限T条件约1.256，B=(TA+T_s)T⁻¹后fast109有清楚分隔，回原系数行条件约1.001，连接/导数独立核对。只是新有限BC依据，未证明真DN或更优接受场；正在同g/同.995参照真比。
+[移动框架Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)以实际T及T_s构造fast109有限行；[遗漏Vz谱边界](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)以未投影速度的113–221模零约束替109右行，Jac满秩但cond5.54e7。全部338 ODE/229浅行保持，两种新有限BC分别真解中，均非tail DN。固定a与R240共同材料规范不等于φ下rho逐点相同，六jet收敛尚未完成。
 
 **有限尾。** [best4配方与有限far32边界](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)已刊22键primitive，材料M8到λ.0014、物理M8到1e−5；[κ5重解的实际曲率反升](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)说明背景参数不替真几何。 [完整weighted Jac](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行/112项rho及S/D/L/N，[物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)跨角初猜后λ1e−4真接受；[深P0](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)到λ5e−5，直接及暖试1e−4均失败，非原far DN。[双trace新g](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两零二jet控制家族均未接受；不删浅K/mean或深端行制造成功。
 
