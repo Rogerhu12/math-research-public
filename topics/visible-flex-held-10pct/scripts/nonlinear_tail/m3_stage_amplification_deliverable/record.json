@@ -1,0 +1,137 @@
+{
+  "scope": "Finite map diagnosis and unchanged-physical-metric numerical subdivision. Active runs are not terminal results.",
+  "snapshot_utc": "2026-11-17T16:20:54.114676+00:00",
+  "failed_response_sha256": "5a4da425e7b582fa0a2661a4d1045b2758c20fd62e0df4cb77e04e2a5fcfd0ac",
+  "failed_response_config_sha256": "5704436a0168b35b4c37607b2086ef8156535713824788bef93f290b6e1aaeba",
+  "failed_response": {
+    "failed": "Error: multiple-shooting line search failed at 6.872622581583858e-7",
+    "lastIteration": {
+      "iteration": 10,
+      "norm": 6.872622581583858e-07,
+      "minA": 0.44094616029086336,
+      "minD": 0.9997259416486404,
+      "chartCondition": 128258323142.35878
+    }
+  },
+  "source_sha256": {
+    "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+    "950f-tail-stage-core.mjs": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+    "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "original_wrapper": {
+    "scope": "Select the original m=3 nonlinear coupler and install its explicit ShortBridge.\n\nOriginal TailMixin, true nonlinear DN, residuals, boundary Jacobian, means,\nacceptance and seam audit are unchanged. This wrapper only installs the\nalready-used flat law and ShortBridge after the source runtime is loaded.\n",
+    "command": [
+      "nonlinear_tail_work/couple_m3_smallcut.py",
+      "--source-root",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+      "--profile",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16/profile.json",
+      "--chart",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "--linear-port",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16/port16.json",
+      "--tail-config",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16/config.json",
+      "--out-prefix",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16/seed",
+      "--restart",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_coupled/seed.json.gz",
+      "--amplitude",
+      ".02",
+      "--warp-reference",
+      ".02",
+      "--modes",
+      "16",
+      "--angular",
+      "512",
+      "--audit-angular",
+      "1024",
+      "--nodes",
+      "701",
+      "--max-nodes",
+      "4000",
+      "--tol",
+      "3e-7",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--node-heap",
+      "2304",
+      "--warmup-scales",
+      "1",
+      "--lagged-tail",
+      "--fixed"
+    ],
+    "source_hashes": {
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_smallcut.py": "5380e1add88bdc45f38df3c351e70b7141542366a7ba1f89dad875ae46cfcdbc",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "/workspace/scratch/f00f08c94d46/smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+    },
+    "source_topic": "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+    "returned": true,
+    "seconds": 1007.1238147040003
+  },
+  "physical_metric_sha256": "11a9de4da186d04dd1e925678582b0f6861425b4e0e2217937ec53ba052db125",
+  "active_runs": [
+    {
+      "directory": "m3_smallcut_fast45_q02_fixed_m12",
+      "status": "running; no terminal accepted/failure result at snapshot",
+      "last_iteration": {
+        "time": "2026-11-17T16:19:15.507Z",
+        "event": "iteration",
+        "call": 1,
+        "elapsed_ms": 1704830,
+        "iteration": 18,
+        "norm": 2.1301328564877654e-09,
+        "minA": 0.4409811477234003,
+        "minD": 0.9997259243043781
+      },
+      "config_sha256": "64abd30406aea76f5de5bff85185af01715a9a0c45d125afd79c5c88c1375200"
+    },
+    {
+      "directory": "m3_smallcut_fast45_q02_fixed_m16_sparse",
+      "status": "running; no terminal accepted/failure result at snapshot",
+      "last_iteration": {
+        "time": "2026-11-17T16:19:52.548Z",
+        "event": "iteration",
+        "call": 1,
+        "elapsed_ms": 1162848,
+        "iteration": 12,
+        "norm": 1.1969204651948256e-06,
+        "minA": 0.4409085566672892,
+        "minD": 0.999725924304642
+      },
+      "config_sha256": "bbda38f35d78ffef3d88642151bc26e118eda7d1c3b2d293119c624267d4c7ea"
+    },
+    {
+      "directory": "m3_smallcut_fast45_q02_fixed_m16_sparse_parts8",
+      "status": "running; no terminal accepted/failure result at snapshot",
+      "last_iteration": null,
+      "config_sha256": "bf5eb29fe1141958725a70d7c575cb0ddd7e4d60e7a7273762629815ef4f0b9f"
+    }
+  ],
+  "parts8_discretization": {
+    "scope": "Pure numerical subdivision; same whole physical metric and same 128 RK steps per original raw segment.",
+    "old_shootingParts": 2,
+    "old_steps": 64,
+    "new_shootingParts": 8,
+    "new_steps": 16,
+    "old_total": 128,
+    "new_total": 128,
+    "linear_total": 512,
+    "initial_state_scope": "Previously FAILED original M16 state is only a warm initial guess.",
+    "frozen_profile_sha256": "b230ce2fb600e136d9582baa8aaa2ec9d0cdb1294e632df5dc7b031635a217ff",
+    "factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "physical_metric_sha256": "11a9de4da186d04dd1e925678582b0f6861425b4e0e2217937ec53ba052db125",
+    "canonical_port_sha256": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538",
+    "maximum_linear_slope_difference_vs_parts2": 6.315531209111214e-09
+  },
+  "wrapper_returned_is_not_solver_success": "The original coupler catches the trial failure and returns normally; the recorded worker failure and absent accepted prefix are authoritative."
+}

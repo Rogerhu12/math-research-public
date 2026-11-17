@@ -1,0 +1,52 @@
+{
+  "scope": "Finite consistency of the exact split-flux worker maps at the saved failed iterate; no nonlinear acceptance or geometric conclusion.",
+  "rhsEvaluation": "split-linear-flux-v1",
+  "input": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16/seed_tail_0001.json.gz",
+  "input_sha256": "5a4da425e7b582fa0a2661a4d1045b2758c20fd62e0df4cb77e04e2a5fcfd0ac",
+  "modes": 16,
+  "quadrature": 256,
+  "steps": 64,
+  "shootingParts": 2,
+  "normalized_variational_residual": 6.872622581583858e-7,
+  "normalized_state_only_residual": 6.872622581583858e-7,
+  "max_map_difference": {
+    "stage": 0,
+    "cell": 0,
+    "segment": 8,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 4.232203255149605e-12,
+    "normalized_state_only_residual": 4.232203255149605e-12,
+    "jacobian_infinity_norm": 87628022.16982499
+  },
+  "worst_variational_residual": {
+    "stage": 14,
+    "cell": 0,
+    "segment": 1,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 6.872622581583858e-7,
+    "normalized_state_only_residual": 6.872622581583858e-7,
+    "jacobian_infinity_norm": 225576685309997600000
+  },
+  "worst_state_only_residual": {
+    "stage": 14,
+    "cell": 0,
+    "segment": 1,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 6.872622581583858e-7,
+    "normalized_state_only_residual": 6.872622581583858e-7,
+    "jacobian_infinity_norm": 225576685309997600000
+  },
+  "largest_stage_jacobian": {
+    "stage": 14,
+    "cell": 0,
+    "segment": 1,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 6.872622581583858e-7,
+    "normalized_state_only_residual": 6.872622581583858e-7,
+    "jacobian_infinity_norm": 225576685309997600000
+  }
+}

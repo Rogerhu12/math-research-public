@@ -1,0 +1,148 @@
+{
+  "scope": "Background first-variation stage amplification under purely numerical subdivision at fixed physical parameters and fixed total RK step count per raw segment. No nonlinear, metric, convergence or capacity claim.",
+  "config_sha256": "5704436a0168b35b4c37607b2086ef8156535713824788bef93f290b6e1aaeba",
+  "source_sha256": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+  "factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+  "rows": [
+    {
+      "shootingParts": 2,
+      "stepsPerStage": 64,
+      "totalStepsPerRawSegment": 128,
+      "stages": 144,
+      "maxBackgroundJacobianInfinityNorm": {
+        "8": {
+          "norm": 37016690245671.39,
+          "stage": 14,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.5,
+          "rawRight": 1,
+          "mode": 24
+        },
+        "12": {
+          "norm": 111206559351130460,
+          "stage": 14,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.5,
+          "rawRight": 1,
+          "mode": 36
+        },
+        "16": {
+          "norm": 225571476256099100000,
+          "stage": 14,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.5,
+          "rawRight": 1,
+          "mode": 48
+        }
+      }
+    },
+    {
+      "shootingParts": 4,
+      "stepsPerStage": 32,
+      "totalStepsPerRawSegment": 128,
+      "stages": 288,
+      "maxBackgroundJacobianInfinityNorm": {
+        "8": {
+          "norm": 815123226982.3251,
+          "stage": 29,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.5,
+          "rawRight": 0.75,
+          "mode": 24
+        },
+        "12": {
+          "norm": 451822911996731.8,
+          "stage": 29,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.5,
+          "rawRight": 0.75,
+          "mode": 36
+        },
+        "16": {
+          "norm": 169377003154757570,
+          "stage": 29,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.5,
+          "rawRight": 0.75,
+          "mode": 48
+        }
+      }
+    },
+    {
+      "shootingParts": 8,
+      "stepsPerStage": 16,
+      "totalStepsPerRawSegment": 128,
+      "stages": 576,
+      "maxBackgroundJacobianInfinityNorm": {
+        "8": {
+          "norm": 8198163583.356949,
+          "stage": 58,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.625,
+          "rawRight": 0.75,
+          "mode": 24
+        },
+        "12": {
+          "norm": 325951160274.74677,
+          "stage": 58,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.625,
+          "rawRight": 0.75,
+          "mode": 36
+        },
+        "16": {
+          "norm": 8874487560409.941,
+          "stage": 58,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.625,
+          "rawRight": 0.75,
+          "mode": 48
+        }
+      }
+    },
+    {
+      "shootingParts": 16,
+      "stepsPerStage": 8,
+      "totalStepsPerRawSegment": 128,
+      "stages": 1152,
+      "maxBackgroundJacobianInfinityNorm": {
+        "8": {
+          "norm": 1156248897.7318656,
+          "stage": 24,
+          "cell": 0,
+          "segment": 7,
+          "rawLeft": 0.4375,
+          "rawRight": 0.5,
+          "mode": 24
+        },
+        "12": {
+          "norm": 8677300957.581219,
+          "stage": 116,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.6875,
+          "rawRight": 0.75,
+          "mode": 36
+        },
+        "16": {
+          "norm": 65064161085.84773,
+          "stage": 117,
+          "cell": 0,
+          "segment": 1,
+          "rawLeft": 0.625,
+          "rawRight": 0.6875,
+          "mode": 48
+        }
+      }
+    }
+  ]
+}
