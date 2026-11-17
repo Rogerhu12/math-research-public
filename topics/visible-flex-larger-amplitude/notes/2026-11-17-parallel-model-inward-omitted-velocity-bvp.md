@@ -95,3 +95,21 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
 ```
 
 输出定义明确绑定新边界种类、输出频率、raw尺度、输入 SHA 和同一个 inward scalar profile。若出现真接受场，实际 $C^2$ quintic 读出须使用冻结的 `scripts/parallel_20261117_prefix_inward_readout.py`，不能用仅认识旧 Profile 的读取程序。当前没有接受、Gram、全 $t$、闭合或 reach 声称。
+
+## 4. 完整 only-Z 零目标 BVP 的实际有限终态：未接受
+
+上述原始命令已执行至其设定的 `tol=1e-8, bc_tol=1e-11, max_nodes=1800` 有限终态，未修改运行源或扩大预算。输入始终为接受父 `11960350cb15cc43334d039e161184a8f7b7caa0650311c96ae8b33eac69e327`，原338个ODE、229个浅行与新的109个 raw $V_z$ 零目标行全部保留。
+
+网格由510点加至1457点。第二轮要求再加2815点，超过1800点总预算，返回 `success=False, status=1`（maximum number of mesh nodes exceeded）。最终完整 collocation RMS 为 $8.424855169493225\times10^{-5}$，全部边界残差与109个 $V_z$ 系数最大值同为 $1.599867002296410\times10^{-6}$，分别仍远高于本次设置。109个目标系数的最大值虽由初始 $7.94497171537\times10^{-6}$ 降低，但没有得到新接受解。
+
+本次共有16次完整 QR 因子和16个接受的阻尼 Newton 步；约化矩阵条件数介于 $4.02970587331\times10^{10}$ 与 $6.33923324362\times10^{11}$。接受若干 Newton 步不等于整个 BVP 已收敛。运行约1741.58秒；结束原因是已声明的节点预算，不是按时长中断。
+
+未接受终态的辅助读数：保持原前三 core，但其余 core 已变化，采样 $\rho_{\min}=.164006587994$、轴向 core gap $.959319925100$。用同一个冻结 `OmittedRows` 在真实末状态上读取全部327个候选系数，R/T/Z 三组最大绝对值分别为 $2.16171182905\times10^{-5}$、$3.08573543812\times10^{-6}$、$1.59986700230\times10^{-6}$。这里只报告未接受终态的有限谱，不把它当成实际等距误差、reach 或可接帽几何。
+
+完整 raw 输出 `parallel-model-inward-omitted109-bvp.json.gz` 的 SHA256：
+
+```text
+6d339813bb4f12d6839b7f630081560fd885933b4e6db514d6b359f2d34a43d6
+```
+
+源仍为本条已冻结的 `d6b9f58cf75f2e9dc0aa6777263d901edd71f4e5216eff3bbe82c59c8782b4eb`；原命令、原接受输入和内向 scalar 定义均保持不变。没有对该未接受场运行要求接受态的 quintic 读者，也不把它用作后继接受父。下一有限试验将从原11960350父重新出发，使用另行定义的固定 $U^T$ 全327谱组合与固定母向量的 $\beta=63/64$ 目标；这与本次 only-Z 零目标是两个明确区分的边界问题。
