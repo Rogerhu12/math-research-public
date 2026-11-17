@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)存全来源/失败/预算/未付。R648全819片连续Gram<4.94e−7；[几何同预算续接](notes/2026-11-17-parallel-model-second-interruption-recovery.md)80092复用686曲率胞/已有λ685。β1/4 [五代表连续支持](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)全正、最小>.319；[固定全819计划](notes/2026-11-17-parallel-model-weighted-support-fixed-plan.md)恢复18950复用249补570，model唯一终态。R647新85c/70c完整准备与513唯一方向已刊，node Gram4.98039e−6未达，不做A-only；[efe92/1878全Gram预算](notes/2026-11-17-parallel-numerical-direct-gram-lm-budget.md)与0f/97062原Pr各自24/20继续，numerical唯一读者。R649障碍/R650流reach及内向尾实际法向支持接口已刊，实际闭尾/帽、D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)存全来源/失败/预算/未付。R648全819片连续Gram<4.94e−7；[几何同预算续接](notes/2026-11-17-parallel-model-second-interruption-recovery.md)80092复用686曲率胞/已有λ685。β1/4 [五代表连续支持](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)全正、最小>.319；[固定全819计划](notes/2026-11-17-parallel-model-weighted-support-fixed-plan.md)恢复18950复用249补570，model唯一终态。R647新85c/70c完整准备与513唯一方向已刊，node Gram4.98039e−6未达，不做A-only；[efe92/1878全Gram预算](notes/2026-11-17-parallel-numerical-direct-gram-lm-budget.md)与0f/97062原Pr各自24/20继续，numerical唯一读者。R649障碍/R650流reach及内向尾/β转移接口已刊，实际闭尾/帽、D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 
