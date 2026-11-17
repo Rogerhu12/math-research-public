@@ -113,6 +113,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **固定弧长新映射。** [β.75同g规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定构造q_N、N2048，以同rho隐式重参数并按a/mean(q_N)中心缩放；完整保λ′/λ″/ψ_s。509胞在4096/4sub与8192/8sub独立audit均真实Gram6.393033e−7，细层κ6.289016；角余项实际读出未置零。正性下的C²来自有限φ谱及共享quintic；全径向正性连续包围仍待。仅旧角对应像点缩放差约9e−13，不能冒共同材料位移；非原BVP再接受或完整mesh/frequency/t精化。
 
+[645/317 normal-only混合边界](notes/2026-11-17-parallel-geometry-mixed-boundary-linear.md)在真.995→.997场传播全部317列，cond1.59e6；目标仅9.26e−12仍需起点δF8.83e−6/δFφφ3.46，实际Hmin−.020566。独立两档JVP核对已付；该步不作父，不开BVP。
+
 **高M和新scalar。** 全部M160/224/320短IVP、实际N2048→4096重积分和末微胞坏峰/明确64ulp新节点政策见上链全文。[R637真C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)从旧.995共享六jet至.997，高M全段Gram5.092e−7/κ5.79934；旧prefix沿用旧读数，非统一精化。[同g域停](notes/2026-11-17-parallel-geometry-m320-domain-stop.md)至1.0只到.997619218，高m位移小而角二阶大；不删模造父或无限缩步。
 
 [六个pulse设计](notes/2026-11-17-parallel-inward-curvature-pulse.md)保cut scalar两jet但改变后续g：w.005/A−3、−5真到1.0，其他四例失败。[−5实际C²桥全段](notes/2026-11-17-parallel-pulse-full-C2-field.md)320胞1310万点Gram1.312425e−6超门/κ6.98222，端点8.173e−7不代表全段；同标量延至1.01在1.0039896域失败。
@@ -120,3 +122,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 **旧弱场/未来尾口。** [M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真9780节点/RMS.01608超14000失败；[弱高度meanLP](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)400步仍Gram6.097e−6，不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)全方程/坐标反号已付；[未来内向DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)仅a′−.8参考口/2368胞元/材料m2..16，RK8→16差7.59e−10，unitPcut的m2内|h_r|198.79。真实cut、rho加权角谱、无限DN和非线性尾均未付。
 
 R632回头盖仅凸平行体组件；R625/627/629的标记与含反射E3须实际闭源；旧82432点/Qmin.16150716仅点云。全部README完成条件仍未达到：全幅尾/Cartesian接缝/连通闭面、固定有内点H、完整D、整像held、含反射商距离、连续reach与全t强C²连续，随后同g/参数/t真正精化至机器或原solver容差。子题/批次/时长/报告均非停点。[旧重复212索引退役](notes/2026-11-17-parallel-historical-index-retention.md)保准确恢复与来源。
+
+[重复历史plan保留](notes/2026-11-17-parallel-duplicate-plan-retention.md)仅退役57924B逐字重复本；原manifest改指仍在的相同字节，完整历史恢复固定37ddb。
