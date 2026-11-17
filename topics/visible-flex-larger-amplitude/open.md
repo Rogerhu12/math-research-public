@@ -119,4 +119,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [六控制完整响应](notes/2026-11-17-parallel-numerical-core-six-responses.md)明确替换三条原terminal行，全部338维仍保；一次QR给六rhs，线性预测较小但Δgap.001完整重解RMS.001693、1402节点后超1800预算未接受。失败状态gap不计改善；Δ1e−4虽493节点真接受，5038080点实际quintic Gram1.881e−5超限。完整状态非线性余项已核，正从真接受场重建响应，而非复用原预测。
 
+[有限深P=0新族](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)保全2M+1方程、改M条深端行，三个真接受到材料λ5e−5；直接1e−4失败保留。它直接约束状态的非均值高度，但integral-K兼容误差、hr/hrr与强prefix接合均仍需实际支付；不冒原far DN。
+
 继续真实weighted幅度/角阶延拓、C²高度与g共同设计，以及核心响应改善。冻结候选后再精化同g/参数/t；实际全场Gram、完整D、整像held、含反射E(3)、全部活动点对/reach和全t责任一项不减。现未达到课题README完成标准，不以本节或任一子题结果停止。
