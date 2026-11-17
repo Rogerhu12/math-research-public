@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`eb11cac06d387d7539e437b12cadb164717297b2`。2026-11-18 03:48:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`9f2f716f0679040db946dca981fa681a379ae46e`。2026-11-18 03:49:11（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -22,7 +22,7 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **已实际联立**：n4 eta1/q001/M12 λ0，993节点。实际outer校正后物理BC3.8058e−14；最终tail res4.1448e−10/minA.99073/metric1.11e−14；mean两jet差1.30e−13/−3.04e−12，非mean二阶1.70e−11。prefix metric1.1175e−7；仍低幅/未圆化/无闭图。见n4-first-true-coupled-state，源resume_n4_tail/couple_actual_tail.py。此前q005/eta*/M8的首实际尾响应仅单独接口，不冒充联合。
 
-主会话正在eta.1/q.01/M16原N512/parts8/RK16真正联立；n4 agent推进该eta增幅、eta1低幅圆化和固定g入口。保持原2e−9 tail门及D/S/A条件。
+eta.1/q.01/M16 λ0前缀已接受724点，metric2.38461e−8/tensor1.62253e−5/K6.51157/rootmargin.00394505；δ=.030027177128287334、vd=.24836306559053845，仅线性port。见n4-eta010-amplitude。主会话正在原N512/parts8/RK16真正联立；n4 agent推进该eta增幅、eta1低幅圆化和固定g入口。保持原2e−9 tail门及D/S/A条件。
 
 历史入口：vu.35双根δ=.03001627156/vd=.24824349139，背景K≈5.605，初保护窗>.1518；eta*的M16/q005 λ0 metric1.548e−6，q006为7.159e−6，λ.02原正根域失败。eta1/q001 M12 λ0已接受，q002虽BVP过但metric1.429e−5；δ/vd重解不是同g精化。eta1/M8圆化λ.1虽接受却metric3.197e−5/tensor.0513，λ.2节点失败；当前用完整材料初值继续。见bimodal-continuation-terminal。
 

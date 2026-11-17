@@ -1,0 +1,187 @@
+{
+  "scope": "Finite design BVP with the literal actual linear n4 port. Not a closed surface, exact isometric family or same-g convergence certificate.",
+  "runs": [
+    {
+      "run": "large-radius-eta010-vu035-q010-m16",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "vu035-profile.json",
+        "out": "large-radius-eta010-vu035-q010-m16",
+        "q": 0.01,
+        "modes": 16,
+        "bimodal_eta": 0.1,
+        "center": 0.7853981633974483,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 241,
+        "max_nodes": 3200,
+        "tol": 3e-07,
+        "angular": 1024,
+        "check_only": false,
+        "restart": null,
+        "previous": null
+      },
+      "row": {
+        "q": 0.01,
+        "homotopy": 0.0,
+        "modes": 16,
+        "bimodal_eta": 0.1,
+        "success": true,
+        "message": "The algorithm converged to the desired accuracy.",
+        "nodes": 724,
+        "parameters": [
+          1.090556630336784e-05,
+          0.00011957420377512272,
+          -0.00022324183886429725,
+          2.04250713062565e-05,
+          -1.904503155928992e-06,
+          -2.555595971117236e-07,
+          -1.8660346596205976e-09,
+          2.4555466549466723e-10,
+          -1.5246475724691855e-11,
+          2.428815764969003e-12,
+          3.08021404806194e-13,
+          4.795151983688923e-14,
+          3.2967793413248594e-14,
+          2.123570620880475e-14,
+          3.3436165077989368e-15,
+          -8.048813708692209e-14
+        ],
+        "physical_profile": {
+          "direction": "outward",
+          "ramp_eta": 0.05,
+          "ramp_law": "flat",
+          "cycles": 1,
+          "prefix_bridge": {
+            "kind": "turn_plateau_v1",
+            "curvature": 4.0,
+            "peak_fraction": 0.2
+          },
+          "vu": 0.35,
+          "ramp": 0.45,
+          "vd": 0.24836306559053845,
+          "delta": 0.030027177128287334
+        },
+        "max_rms": 2.9929946056275835e-07,
+        "max_bc": 4.3336757382715015e-15,
+        "seconds": 234.05146105499807,
+        "domain_newton": {
+          "calls": 5,
+          "rejected_domain_trials": 0,
+          "rejected_merit_trials": 1,
+          "accepted_steps": 11,
+          "no_step": 0,
+          "minimum_alpha": 0.5
+        },
+        "parameter_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 7.736056981953744e-09,
+            "scale": 1.207284203776915
+          },
+          {
+            "step": 3e-05,
+            "error": 3.4903668075824106e-08,
+            "scale": 1.207284203260291
+          },
+          {
+            "step": 1e-05,
+            "error": 9.862880253590549e-08,
+            "scale": 1.2072842038080012
+          }
+        ],
+        "boundary_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 2.0944591479883716e-11,
+            "scale": 0.006354432986726416
+          },
+          {
+            "step": 3e-05,
+            "error": 2.755807153159605e-10,
+            "scale": 0.006354432997911046
+          },
+          {
+            "step": 1e-05,
+            "error": 8.267421459478814e-10,
+            "scale": 0.006354432993639288
+          }
+        ],
+        "summary": {
+          "metric_l1": 2.3846115277692864e-08,
+          "flow_defect": 1.0629024028829319e-07,
+          "darboux_l1": 1.622526682859703e-05,
+          "kappa_sample": 6.511566226126758,
+          "radius_max": 1.0360625046639649,
+          "height_max": 0.7495428295685901,
+          "root_min": 0.003945052228640611,
+          "chart_rho_min": 0.85,
+          "support_amplitude": 0.01,
+          "terminal_height_coeff_max": 4.8696913990355305e-06,
+          "physical_bc_max": 3.7817044899060546e-19,
+          "samples_s": 1596,
+          "samples_psi": 1040,
+          "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+        }
+      },
+      "output_sha256": "90638f472233f0688a8340933f85b367c1b5331eca9077d3df33b56369e1e164",
+      "checkpoint_sha256": "423dc77180c33ec37152098125f162848a10e16e41c04e17afb7805f9bd95313",
+      "coefficient_chunks": [
+        {
+          "file": "large-radius-eta010-vu035-q010-m16-lam0_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 49,
+          "bytes": 1653522,
+          "sha256": "facbd02a28b3d92e2e2e289395fea84ff94bcc32aadfcd0bc38cec4fe9a4efa0"
+        }
+      ],
+      "source_sha256": {
+        "combined_control_bounds.py": "d21c47280f5220c427b8cd1fbaab8254947a5a94c6b2ae998dece50fd0b3e20a",
+        "audit_bimodal_chart.py": "0b75b6bd9ec25542e7c70aca36ddbd4d9795e8d4b3b79b70246fbbdc72591aee",
+        "audit_local_target.py": "d89ac9be75921bbe1e9b3c7e5bfbc0abc5a89ebad3f376843f82faba7f5946eb",
+        "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+        "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+        "run_local_flatten.py": "44304d3f0a9e504c55ae2e920f7cf10930d2e1ac961bc10c78a2f0cb281ae6b7",
+        "audit_nested_projection.py": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780",
+        "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+        "publish_local_snapshot.py": "39d3ad1d9b8618c34f28cffb8e18e66eaf0e2effec07b184672c7f1c20854276",
+        "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+        "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+        "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+        "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+        "run_bimodal_chart.py": "297e479cd1a9ee759fcb853928c8a98e0d2664269053756e6ce201c45202aa7f",
+        "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+        "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+        "audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878",
+        "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+        "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+        "refine_nested_prefix.py": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+        "dual_material_restart.py": "255a595d1279710cb5dab288c9c335d22eb74b3690bae9b44019405d6a4e4935",
+        "design_vu035.py": "3a9d08663341960cca877aa1e0c64a26b6d5ade71182f9dbd25ddb13fc040ac3",
+        "design_bridge_margin.py": "2d544af85a60ede491dff67d11b52264b49f64d36cea62cfd4497ea8073aac25",
+        "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+        "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+        "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+        "run_local_material.py": "f8d3063fd14dbf2abaf3d88500fbc23128f4103bec67364efe3af6467f950827",
+        "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+        "linear_profile_amplification.py": "edd760ec34c623ce1030dcb1ad89531b68cde37403c6d8cd227108d39bd7f468",
+        "probe_actual_n4_tail.py": "12b110579ccbfa25f64d2db6c8c3ee8344b1589d43a742fc8548e882ef6386f3",
+        "screen_large_radius_eta.py": "b8f6150b4b59454a1c00718ca4421eed3dfe8f84fc2b725b6d7505a9b807d353",
+        "diagnose_bimodal_chart.py": "616f03f02c63484ef517d298a5198b14c24a1f27062e7f17bfc387f1c6ca3d2f",
+        "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+        "build_local_flatten.py": "0e755a108750bf7f894e52490b5bc4200a470d54465d77d26e37410d8d1f4b5b",
+        "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+        "physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+        "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+        "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+        "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+      }
+    }
+  ]
+}
