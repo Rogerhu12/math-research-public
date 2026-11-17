@@ -1,0 +1,2177 @@
+{
+  "scope": "New physical six-valley designs, globally recalibrated. Finite linear A thresholds and sampled background geometry do not establish nonlinear capacity, same-g refinement, or a closed surface.",
+  "source_sha256": "3c52fe51f42c19bd88cf9e3013e2bc4e50cd866472fa8135f45311caab1b6c78",
+  "input_sha256": "c730178ed3830a33ecb85136ac09482cade9f0feb2dcffc5822c23a5a3db663b",
+  "argv": [
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/resume_transfer/mode2_valley_parameters.json",
+    "/workspace/scratch/7322d0dee069/transfer_work/mode2-six-valley"
+  ],
+  "rows": [
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        6.5,
+        5
+      ],
+      "label": "new six-valley physical design",
+      "steps": 64,
+      "threshold": 0.00014556838751284354,
+      "cutSlope": 11.906908024140817,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547092557666703,
+        "w": 8.596323607180988e-06,
+        "f": 1.868427003948295e-06,
+        "fr": -0.058954478092575216,
+        "baseT": 6.487724991425599e-07,
+        "linearT": -0.004456822736222991
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.9993894518628945,
+        "maxAngular": 2.0440478111127915,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816959087,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 3.507
+    },
+    {
+      "controls": [
+        5,
+        5,
+        6,
+        6.5,
+        7,
+        6
+      ],
+      "label": "new six-valley physical design",
+      "steps": 64,
+      "threshold": 5.7407110754223836e-06,
+      "cutSlope": 12.072376669945266,
+      "bottleneck": {
+        "cell": 6,
+        "segment": 3,
+        "x": 1,
+        "r": 0.0521853700261426,
+        "w": 8.707779046289826e-12,
+        "f": 3.5276054479434997e-13,
+        "fr": 1.516873807997975e-06,
+        "baseT": 4.5441867163652564e-13,
+        "linearT": 7.915720991115913e-08
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999388452111196,
+        "maxAngular": 2.0439837024756744,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000220096310344,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 3.001
+    },
+    {
+      "controls": [
+        6,
+        6,
+        7,
+        7.5,
+        8,
+        7
+      ],
+      "label": "new six-valley physical design",
+      "steps": 64,
+      "threshold": 8.83394727733717e-09,
+      "cutSlope": 13.121158551477889,
+      "bottleneck": {
+        "cell": 6,
+        "segment": 3,
+        "x": 1,
+        "r": 0.05220106971345575,
+        "w": 8.707779046289826e-12,
+        "f": -2.3334220142272384e-10,
+        "fr": -0.000985735676951755,
+        "baseT": 4.545553810447444e-13,
+        "linearT": -5.1455523422793363e-05
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999377581359425,
+        "maxAngular": 2.0382646119989762,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000223133827236,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.612
+    },
+    {
+      "controls": [
+        8,
+        8,
+        9,
+        9.5,
+        10,
+        9
+      ],
+      "label": "new six-valley physical design",
+      "steps": 64,
+      "threshold": 4.5151974353246905e-13,
+      "cutSlope": 120.66582666360515,
+      "bottleneck": {
+        "cell": 6,
+        "segment": 3,
+        "x": 1,
+        "r": 0.05230454230229322,
+        "w": 8.707779046289826e-12,
+        "f": 5.094214136219983e-06,
+        "fr": 19.28587857904479,
+        "baseT": 4.554563974856887e-13,
+        "linearT": 1.0087186751179942
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999305935778012,
+        "maxAngular": 2.010559859916035,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000243153317468,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.615
+    },
+    {
+      "controls": [
+        6,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "label": "new six-valley physical design",
+      "steps": 64,
+      "threshold": 8.890246080620099e-06,
+      "cutSlope": 13.142435999585361,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07558756564590181,
+        "w": 3.1624107247386194e-06,
+        "f": 2.448379795280584e-06,
+        "fr": -0.3555873290151732,
+        "baseT": 2.3903892825309374e-07,
+        "linearT": -0.026887774093697605
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999379610001792,
+        "maxAngular": 2.0363567689274316,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000222566981227,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.499
+    },
+    {
+      "controls": [
+        8,
+        7,
+        7,
+        7,
+        7,
+        6
+      ],
+      "label": "new six-valley physical design",
+      "steps": 64,
+      "threshold": 8.249754435875707e-09,
+      "cutSlope": 148.1234895735075,
+      "bottleneck": {
+        "cell": 6,
+        "segment": 4,
+        "x": 0,
+        "r": 0.05228471303456301,
+        "w": 8.707779046289826e-12,
+        "f": -2.7326589028962273e-10,
+        "fr": -0.0010555406931490356,
+        "baseT": 4.552837286036443e-13,
+        "linearT": -5.5187549174039894e-05
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.9993196656860555,
+        "maxAngular": 1.998142213966927,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002393168247714,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.479
+    },
+    {
+      "controls": [
+        3.5,
+        4.5,
+        5.5,
+        6,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00010027687626761103,
+      "cutSlope": 11.774514061097397,
+      "bottleneck": {
+        "cell": 0,
+        "segment": 3,
+        "x": 1,
+        "r": 0.23515886146252246,
+        "w": 0.001700035218586555,
+        "f": 0.007878577063613373,
+        "fr": 17.087425444079276,
+        "baseT": 0.00039977719104505155,
+        "linearT": 3.9867335912833752
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999387778213579,
+        "maxAngular": 2.042645144220366,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002202846112835,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.515
+    },
+    {
+      "controls": [
+        5.5,
+        4.5,
+        5.5,
+        6,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 5.203368976770321e-05,
+      "cutSlope": 12.405737162513335,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07550866195023688,
+        "w": 8.596323607180988e-06,
+        "f": 5.213086171398137e-06,
+        "fr": -0.164930722951189,
+        "baseT": 6.490968932215039e-07,
+        "linearT": -0.012474550548294806
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999386243434328,
+        "maxAngular": 2.041360553312987,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002207134604876,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.689
+    },
+    {
+      "controls": [
+        4.5,
+        3.5,
+        5.5,
+        6,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00011327907200773056,
+      "cutSlope": 11.907357254214196,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11716204472569569,
+        "w": 0.00012757746786889882,
+        "f": 0.0006764433454353552,
+        "fr": -1.1031284658271774,
+        "baseT": 1.4947236753165549e-05,
+        "linearT": -0.13195055792958382
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.99938979507818,
+        "maxAngular": 2.043722816009395,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219721057669,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.473
+    },
+    {
+      "controls": [
+        4.5,
+        5.5,
+        5.5,
+        6,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 1.635036738650063e-05,
+      "cutSlope": 11.905906084420254,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07548189826578672,
+        "w": 8.596323607180988e-06,
+        "f": 1.662177340659546e-05,
+        "fr": -0.5248763791892141,
+        "baseT": 6.488668239290668e-07,
+        "linearT": -0.03968515254677343
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999388518940733,
+        "maxAngular": 2.0449317301697216,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.0500022007763679,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.505
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        4.5,
+        6,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 6.0903059494689736e-05,
+      "cutSlope": 11.907003865473065,
+      "bottleneck": {
+        "cell": 2,
+        "segment": 4,
+        "x": 0,
+        "r": 0.0926695699655875,
+        "w": 2.5827919843757595e-05,
+        "f": -3.9317723986695325e-05,
+        "fr": 0.4223853542875984,
+        "baseT": 2.393462223430046e-06,
+        "linearT": 0.039299540011429754
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389521557982,
+        "maxAngular": 2.0439818075448937,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197974848436,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.576
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        6.5,
+        6,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 4.0687169081030066e-05,
+      "cutSlope": 11.9066480152503,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547315367098271,
+        "w": 8.596323607180988e-06,
+        "f": 6.683701315454723e-06,
+        "fr": -0.21092425971244047,
+        "baseT": 6.487916525623235e-07,
+        "linearT": -0.01594585387030073
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389262425399,
+        "maxAngular": 2.044227236275863,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219869891828,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.567
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        5,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 5.4392946105768914e-05,
+      "cutSlope": 11.906919816785834,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547150445222808,
+        "w": 3.1624107247386194e-06,
+        "f": 4.117926290112564e-07,
+        "fr": -0.05811826388275897,
+        "baseT": 2.386718950894976e-07,
+        "linearT": -0.0043879199818555896
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.9993894604102005,
+        "maxAngular": 2.044039716300391,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219814570794,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.669
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        7,
+        6.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00010289980051850427,
+      "cutSlope": 11.906875974089791,
+      "bottleneck": {
+        "cell": 6,
+        "segment": 3,
+        "x": 1,
+        "r": 0.05218395972379273,
+        "w": 8.707779046289826e-12,
+        "f": 1.964864079918976e-14,
+        "fr": 8.462537323099949e-08,
+        "baseT": 4.5440639103527453e-13,
+        "linearT": 4.416008473734208e-09
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389428631885,
+        "maxAngular": 2.0440698125997465,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219823450309,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.658
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.0001455734800545207,
+      "cutSlope": 11.906909468023942,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547107938174938,
+        "w": 8.596323607180988e-06,
+        "f": 1.8633898522130727e-06,
+        "fr": -0.058952679419290194,
+        "baseT": 6.487738213008201e-07,
+        "linearT": -0.0044566759073001415
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.9993894529094005,
+        "maxAngular": 2.044046820006464,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816666672,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.797
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        7.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00010650751605351326,
+      "cutSlope": 11.906904099865391,
+      "bottleneck": {
+        "cell": 6,
+        "segment": 3,
+        "x": 1,
+        "r": 0.052183930281036676,
+        "w": 8.707779046289826e-12,
+        "f": 1.8982446836735927e-14,
+        "fr": 8.175886868657233e-08,
+        "baseT": 4.544061346542603e-13,
+        "linearT": 4.266423173609176e-09
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389449018624,
+        "maxAngular": 2.0440505048235944,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002198177538364,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.617
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        6.5,
+        4
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.000145568342629051,
+      "cutSlope": 11.906908048065716,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547092812519554,
+        "w": 8.596323607180988e-06,
+        "f": 1.8684277792056148e-06,
+        "fr": -0.05895449626308375,
+        "baseT": 6.487725210505358e-07,
+        "linearT": -0.0044568242609163335
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389451880236,
+        "maxAngular": 2.0440477946902917,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816954242,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.635
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        6.5,
+        6
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00010765271929381553,
+      "cutSlope": 11.906907959132184,
+      "bottleneck": {
+        "cell": 6,
+        "segment": 3,
+        "x": 1,
+        "r": 0.052183926241354484,
+        "w": 8.707779046289826e-12,
+        "f": 1.878042608099538e-14,
+        "fr": 8.088912268609761e-08,
+        "baseT": 4.5440609947760035e-13,
+        "linearT": 4.221036890274868e-09
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.9993894518157775,
+        "maxAngular": 2.044047855735934,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816972252,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.546
+    },
+    {
+      "controls": [
+        3.5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00010027670177170015,
+      "cutSlope": 11.774514680071508,
+      "bottleneck": {
+        "cell": 0,
+        "segment": 3,
+        "x": 1,
+        "r": 0.23515893737636123,
+        "w": 0.001700035218586555,
+        "f": 0.007878566098104197,
+        "fr": 17.087454715676092,
+        "baseT": 0.0003997773201008781,
+        "linearT": 3.9867418157714307
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.99938777926006,
+        "maxAngular": 2.042644154452794,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002202843188744,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.524
+    },
+    {
+      "controls": [
+        5.5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 5.2035477100728654e-05,
+      "cutSlope": 12.40574113877882,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07550881575453061,
+        "w": 8.596323607180988e-06,
+        "f": 5.199093316698144e-06,
+        "fr": -0.1649257901858801,
+        "baseT": 6.490982153729849e-07,
+        "linearT": -0.012474147476662523
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.9993862444809185,
+        "maxAngular": 2.0413595648805636,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000220713168051,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.58
+    },
+    {
+      "controls": [
+        4.5,
+        3.5,
+        5.5,
+        6,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00011327842494933051,
+      "cutSlope": 11.907358699276362,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11716216020963015,
+        "w": 0.00012757746786889882,
+        "f": 0.0006764495334966668,
+        "fr": -1.1031347104298257,
+        "baseT": 1.4947251486313246e-05,
+        "linearT": -0.13195144170656645
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389796124685,
+        "maxAngular": 2.043721825218421,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197207652525,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.477
+    },
+    {
+      "controls": [
+        4.5,
+        5.5,
+        5.5,
+        6,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 1.6350714629781357e-05,
+      "cutSlope": 11.905907531792797,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07548205207092834,
+        "w": 8.596323607180988e-06,
+        "f": 1.6577244108478247e-05,
+        "fr": -0.5248675751057288,
+        "baseT": 6.488681460878365e-07,
+        "linearT": -0.03968439060797878
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999388519987237,
+        "maxAngular": 2.0449307382054966,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002200773443764,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.507
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        4.5,
+        6,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 6.090231718983219e-05,
+      "cutSlope": 11.90700530964575,
+      "bottleneck": {
+        "cell": 2,
+        "segment": 3,
+        "x": 1,
+        "r": 0.09266971117679267,
+        "w": 2.5827919843757595e-05,
+        "f": -3.931838390908732e-05,
+        "fr": 0.4223904972967959,
+        "baseT": 2.3934658706217316e-06,
+        "linearT": 0.03930007889784081
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389522604487,
+        "maxAngular": 2.0439808165026165,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197971924275,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.653
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        6.5,
+        6,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 4.068850003598648e-05,
+      "cutSlope": 11.906649458359851,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 4,
+        "x": 0,
+        "r": 0.0754733074760772,
+        "w": 8.596323607180988e-06,
+        "f": 6.665702072433331e-06,
+        "fr": -0.21091830327730451,
+        "baseT": 6.48792974720688e-07,
+        "linearT": -0.01594536476269389
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389263471903,
+        "maxAngular": 2.0442262449954307,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219869599414,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.556
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        5,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 5.439299716132328e-05,
+      "cutSlope": 11.906921260705433,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547165825730964,
+        "w": 3.1624107247386194e-06,
+        "f": 4.0999132964730293e-07,
+        "fr": -0.058118304823421126,
+        "baseT": 2.3867238148433705e-07,
+        "linearT": -0.004387924805402112
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389461456705,
+        "maxAngular": 2.0440387252019194,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219814278379,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.567
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        7,
+        5.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 6.34339975552685e-05,
+      "cutSlope": 11.906877417873634,
+      "bottleneck": {
+        "cell": 4,
+        "segment": 4,
+        "x": 0,
+        "r": 0.06342215219897962,
+        "w": 3.868901656405022e-07,
+        "f": 7.657113618960601e-10,
+        "fr": 0.006099146261764549,
+        "baseT": 2.4537406969536692e-08,
+        "linearT": 0.0003868179196519633
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.99938942967839,
+        "maxAngular": 2.0440688214720697,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219823157893,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.521
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        4.5,
+        5
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 6.651216817488002e-05,
+      "cutSlope": 11.906909999389988,
+      "bottleneck": {
+        "cell": 4,
+        "segment": 4,
+        "x": 0,
+        "r": 0.06342204503167402,
+        "w": 1.423289379305547e-07,
+        "f": 3.096918330402721e-09,
+        "fr": 0.0021400885443448895,
+        "baseT": 9.026792310741794e-09,
+        "linearT": 0.00013571640435788694
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389453294524,
+        "maxAngular": 2.0440464552686413,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816559061,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.454
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        4
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.0001455734351632988,
+      "cutSlope": 11.906909491948916,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547108193027784,
+        "w": 8.596323607180988e-06,
+        "f": 1.8633906298212863e-06,
+        "fr": -0.05895269759140497,
+        "baseT": 6.487738432087954e-07,
+        "linearT": -0.004456677432122319
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.99938945292674,
+        "maxAngular": 2.04404680358398,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816661827,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.465
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 1",
+      "steps": 64,
+      "threshold": 0.00014557360203277581,
+      "cutSlope": 11.906909403015106,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547107245689942,
+        "w": 8.596323607180988e-06,
+        "f": 1.863387739327031e-06,
+        "fr": -0.05895263004214518,
+        "baseT": 6.48773761772569e-07,
+        "linearT": -0.00445667176406405
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389452862282,
+        "maxAngular": 2.044046864629563,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816679837,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.459
+    },
+    {
+      "controls": [
+        4,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00016528103155433828,
+      "cutSlope": 11.820064836647317,
+      "bottleneck": {
+        "cell": 0,
+        "segment": 3,
+        "x": 0.984375,
+        "r": 0.23489084799545956,
+        "w": 0.002803671190277016,
+        "f": 0.004255012928889854,
+        "fr": 17.035514744704788,
+        "baseT": 0.0006585515267928213,
+        "linearT": 3.984434998981199
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999388898371695,
+        "maxAngular": 2.043581939384762,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002199716159414,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.437
+    },
+    {
+      "controls": [
+        5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 8.749876153109318e-05,
+      "cutSlope": 12.073220812977393,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547773084155607,
+        "w": 8.596323607180988e-06,
+        "f": 3.0986998590886493e-06,
+        "fr": -0.09808087095592756,
+        "baseT": 6.488309994017743e-07,
+        "linearT": -0.007415316377606196
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999388886751752,
+        "maxAngular": 2.0435721986404216,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002199748627935,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.454
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.0001729144120880373,
+      "cutSlope": 11.90718766722678,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11715807737106254,
+        "w": 0.00021033968493751562,
+        "f": 0.0012625876869949402,
+        "fr": -1.1733309835633303,
+        "baseT": 2.4642991991839826e-05,
+        "linearT": -0.14251554682031445
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389666496745,
+        "maxAngular": 2.0438445593642567,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219756985967,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.511
+    },
+    {
+      "controls": [
+        4.5,
+        5,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 6.54480560652445e-05,
+      "cutSlope": 11.906467078381255,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547521510175838,
+        "w": 8.596323607180988e-06,
+        "f": 4.143448192241707e-06,
+        "fr": -0.13112615132508373,
+        "baseT": 6.488093732883635e-07,
+        "linearT": -0.009913348268764041
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389100645481,
+        "maxAngular": 2.044380490589641,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219915096473,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.46
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 9.749313146342478e-05,
+      "cutSlope": 11.906969050392318,
+      "bottleneck": {
+        "cell": 2,
+        "segment": 3,
+        "x": 1,
+        "r": 0.09266823622341004,
+        "w": 4.2583040824341075e-05,
+        "f": -7.332565923184582e-05,
+        "fr": 0.4336148235218781,
+        "baseT": 3.946095279065637e-06,
+        "linearT": 0.04047562346016183
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389496243736,
+        "maxAngular": 2.044005780485947,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219804558165,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.534
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        6,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 8.040593508321953e-05,
+      "cutSlope": 11.906811138062524,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547191366497663,
+        "w": 8.596323607180988e-06,
+        "f": 3.3734317375420016e-06,
+        "fr": -0.10673276432755087,
+        "baseT": 6.487809930694211e-07,
+        "linearT": -0.008068819700908121
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389381340915,
+        "maxAngular": 2.0441146021164207,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219836664382,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.456
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        5.5,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 8.916785047878621e-05,
+      "cutSlope": 11.906916743167432,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547143276862218,
+        "w": 5.21393382856677e-06,
+        "f": 9.46973189848603e-07,
+        "fr": -0.0584230581759987,
+        "baseT": 3.9350305639202436e-07,
+        "linearT": -0.004413059799906717
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389458182434,
+        "maxAngular": 2.0440418261236872,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219815193278,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.418
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6.5,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00010769054723535076,
+      "cutSlope": 11.906897302193762,
+      "bottleneck": {
+        "cell": 4,
+        "segment": 4,
+        "x": 0,
+        "r": 0.06342206064301105,
+        "w": 3.868901656405022e-07,
+        "f": 4.487353168533023e-10,
+        "fr": 0.003592638568379467,
+        "baseT": 2.4537371547432847e-08,
+        "linearT": 0.00022785074621088145
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389444091402,
+        "maxAngular": 2.0440551712398958,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002198191306024,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.457
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00010961007998497267,
+      "cutSlope": 11.906909733733787,
+      "bottleneck": {
+        "cell": 4,
+        "segment": 4,
+        "x": 0,
+        "r": 0.06342202712222372,
+        "w": 2.346607474022638e-07,
+        "f": 2.0541900938598337e-09,
+        "fr": 0.0021409978733264263,
+        "baseT": 1.4882660286266846e-08,
+        "linearT": 0.00013577820843034902
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.9993894531019825,
+        "maxAngular": 2.0440466376190725,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002198166128595,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.509
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        6,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00014557169206672014,
+      "cutSlope": 11.906908857850748,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547101438503852,
+        "w": 8.596323607180988e-06,
+        "f": 1.8652812280431604e-06,
+        "fr": -0.058953304391136406,
+        "baseT": 6.487732625680602e-07,
+        "linearT": -0.004456726808332398
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389452467156,
+        "maxAngular": 2.044047238839394,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002198167902454,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.499
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        5.5
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00014557352610991727,
+      "cutSlope": 11.906909443478515,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547107676712947,
+        "w": 8.596323607180988e-06,
+        "f": 1.8633890544468649e-06,
+        "fr": -0.058952660775924925,
+        "baseT": 6.487737988247013e-07,
+        "linearT": -0.004456674342935376
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.99938945289161,
+        "maxAngular": 2.044046836854835,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816671642,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.668
+    },
+    {
+      "controls": [
+        4.5,
+        4.5,
+        5.5,
+        6,
+        5.5,
+        6.5
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00014557372719821256,
+      "cutSlope": 11.906909336307715,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07547106535111514,
+        "w": 8.596323607180988e-06,
+        "f": 1.863385571249483e-06,
+        "fr": -0.05895257937490535,
+        "baseT": 6.487737006889478e-07,
+        "linearT": -0.0044566675125765
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389452813935,
+        "maxAngular": 2.044046910418588,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219816693347,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.379
+    },
+    {
+      "controls": [
+        4,
+        4,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00016522614084999045,
+      "cutSlope": 11.820248026951244,
+      "bottleneck": {
+        "cell": 0,
+        "segment": 3,
+        "x": 0.984375,
+        "r": 0.2349063567106684,
+        "w": 0.002803671190277016,
+        "f": 0.0042603881759946055,
+        "fr": 17.041236883304368,
+        "baseT": 0.0006585950077890652,
+        "linearT": 3.9860218510278376
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389112003158,
+        "maxAngular": 2.043379723605244,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219911922903,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.755
+    },
+    {
+      "controls": [
+        5,
+        4,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00010366758370059332,
+      "cutSlope": 12.073652083784024,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11718546544653032,
+        "w": 0.00021033968493751562,
+        "f": 0.002105546865773726,
+        "fr": -1.9571116439159733,
+        "baseT": 2.464875279074989e-05,
+        "linearT": -0.23776721623935002
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389100391693,
+        "maxAngular": 2.0433699918951,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002199151673844,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.513
+    },
+    {
+      "controls": [
+        4.5,
+        3.5,
+        5.5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00011327845408346292,
+      "cutSlope": 11.907358634214447,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11716215501013419,
+        "w": 0.00012757746786889882,
+        "f": 0.0006764492548095792,
+        "fr": -1.1031344292641532,
+        "baseT": 1.494725082297473e-05,
+        "linearT": -0.13195140191409815
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389796077566,
+        "maxAngular": 2.043721869827321,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219720778419,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.531
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00017341071912218794,
+      "cutSlope": 11.907247496537682,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11716286460368487,
+        "w": 0.00021033968493751562,
+        "f": 0.0012408924929229672,
+        "fr": -1.170591945021787,
+        "baseT": 2.464399893679678e-05,
+        "linearT": -0.1421134694645504
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389709878197,
+        "maxAngular": 2.043803483355867,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197448642975,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.596
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        6,
+        6,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00015370359601854863,
+      "cutSlope": 11.90708906047213,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07546940097488312,
+        "w": 8.596323607180988e-06,
+        "f": 1.7650343183127767e-06,
+        "fr": -0.05583437804562092,
+        "baseT": 6.487593931722543e-07,
+        "linearT": -0.004220847201870042
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389594975378,
+        "maxAngular": 2.04391228343865,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219776970513,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.557
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5.5,
+        5.5,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00016956306834194307,
+      "cutSlope": 11.907195011168398,
+      "bottleneck": {
+        "cell": 3,
+        "segment": 3,
+        "x": 1,
+        "r": 0.07546892007856153,
+        "w": 5.21393382856677e-06,
+        "f": 4.981159908266341e-07,
+        "fr": -0.030722829120213048,
+        "baseT": 3.9348995539231676e-07,
+        "linearT": -0.0023206111993609355
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389671816896,
+        "maxAngular": 2.0438395218562166,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.0500021975549941,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.665
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5.5,
+        6.5,
+        5.5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00017292224281822776,
+      "cutSlope": 11.907175560149836,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11715710948633985,
+        "w": 0.00021033968493751562,
+        "f": 0.0012625306645770457,
+        "fr": -1.1732774882829275,
+        "baseT": 2.4642788407281208e-05,
+        "linearT": -0.14250791572941365
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389657725866,
+        "maxAngular": 2.0438528643297147,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197594367324,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.444
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5.5,
+        6,
+        5,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00017291417051743896,
+      "cutSlope": 11.907187998108556,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11715810382239042,
+        "w": 0.00021033968493751562,
+        "f": 0.0012625903808716617,
+        "fr": -1.1733326007526852,
+        "baseT": 2.4642997555603553e-05,
+        "linearT": -0.14251577809881247
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389666736445,
+        "maxAngular": 2.0438443323987494,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197569189916,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.506
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5.5,
+        6,
+        6,
+        6
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00017291481029929536,
+      "cutSlope": 11.907187121793532,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11715803376803506,
+        "w": 0.00021033968493751562,
+        "f": 0.0012625832463645096,
+        "fr": -1.1733283177558989,
+        "baseT": 2.464298282039317e-05,
+        "linearT": -0.1425151655762687
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389666101618,
+        "maxAngular": 2.0438449334999604,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197570963754,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.488
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5.5,
+        6,
+        5.5,
+        5.5
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00017291438252960788,
+      "cutSlope": 11.907187707710145,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11715808060738186,
+        "w": 0.00021033968493751562,
+        "f": 0.0012625880166826507,
+        "fr": -1.173331181438999,
+        "baseT": 2.4642992672566182e-05,
+        "linearT": -0.14251557511907142
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389666526072,
+        "maxAngular": 2.04384453159503,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.05000219756977773,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.642
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5.5,
+        6,
+        5.5,
+        6.5
+      ],
+      "label": "coordinate step 0.5",
+      "steps": 64,
+      "threshold": 0.00017291446081758627,
+      "cutSlope": 11.90718760048648,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 1,
+        "r": 0.11715807203571213,
+        "w": 0.00021033968493751562,
+        "f": 0.0012625871434771316,
+        "fr": -1.1733306573488536,
+        "baseT": 2.464299086960395e-05,
+        "linearT": -0.1425155001674541
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389666448397,
+        "maxAngular": 2.0438446051442143,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.0500021975699948,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 2.459
+    },
+    {
+      "controls": [
+        4.5,
+        4,
+        5,
+        6,
+        5.5,
+        6
+      ],
+      "label": "selected finer physical propagation",
+      "steps": 192,
+      "threshold": 0.00017340896776945572,
+      "cutSlope": 11.907420382631997,
+      "bottleneck": {
+        "cell": 1,
+        "segment": 3,
+        "x": 0.9947916666666667,
+        "r": 0.11716157392338536,
+        "w": 0.0002103424802842683,
+        "f": 0.0012423956109592887,
+        "fr": -1.1705685308214846,
+        "baseT": 2.4644054962702975e-05,
+        "linearT": -0.14211522783220085
+      },
+      "background": {
+        "steps": 24,
+        "maxMeridian": 7.999389709878197,
+        "maxAngular": 2.043803483355867,
+        "maxSlope": 0.4,
+        "meridianWhere": {
+          "cell": 15,
+          "segment": 3,
+          "x": 0.125,
+          "r": 0.050002197448642975,
+          "w": 9.76983794178344e-07
+        },
+        "scope": "Samples only; not a continuous curvature certificate."
+      },
+      "seconds": 3.274
+    }
+  ],
+  "best": {
+    "controls": [
+      4.5,
+      4,
+      5,
+      6,
+      5.5,
+      6
+    ],
+    "label": "coordinate step 0.5",
+    "steps": 64,
+    "threshold": 0.00017341071912218794,
+    "cutSlope": 11.907247496537682,
+    "bottleneck": {
+      "cell": 1,
+      "segment": 3,
+      "x": 1,
+      "r": 0.11716286460368487,
+      "w": 0.00021033968493751562,
+      "f": 0.0012408924929229672,
+      "fr": -1.170591945021787,
+      "baseT": 2.464399893679678e-05,
+      "linearT": -0.1421134694645504
+    },
+    "background": {
+      "steps": 24,
+      "maxMeridian": 7.999389709878197,
+      "maxAngular": 2.043803483355867,
+      "maxSlope": 0.4,
+      "meridianWhere": {
+        "cell": 15,
+        "segment": 3,
+        "x": 0.125,
+        "r": 0.050002197448642975,
+        "w": 9.76983794178344e-07
+      },
+      "scope": "Samples only; not a continuous curvature certificate."
+    },
+    "seconds": 2.596
+  },
+  "raw_record_sha256": "899cac3d6f82d858fd0fa7324acc0c66d56c559b4da4e0f375e29368b244181a",
+  "previous_three_valley_comparison": {
+    "value": 0.000211655618846,
+    "scope": "The previously published selected 128-step propagation; not recomputed here."
+  }
+}
