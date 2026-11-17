@@ -52,3 +52,14 @@ Three 18,688-byte copies below are byte-identical to retained `notes/2026-11-13-
 The retained complete report preserves the actual outer/inner identities, every saved preparation binding, six-direction scope, gates and limitations. A literal path-stem search over the checked-out topic and .github finds exactly the two corresponding historical manifests. Their three affected entries now point to the unchanged canonical bytes and add historical_duplicate_path and exact_duplicate_restore_commit; SHA, bytes, original scratch path and historical totals stay unchanged. Current scientific sources, distinct results, live inputs and arrays are not deleted. This search does not claim coverage of undeclared external consumers.
 
 Exact recovery for each path is `git show 8e7f54cf325943880cfbdac9e0959def2452e378:topics/visible-flex-larger-amplitude/<listed-relative-path>`. This is ordinary deletion of duplicate copies, without history rewriting or reconstruction from hashes.
+
+## Two identical historical complete-tangent adapter records
+
+The following two 41,740-byte copies are byte-identical to retained `notes/2026-11-13-strong-q122-m32-sameg-actual-r1-tail-response_full-tangent-adapter.json`, SHA256 `52a7597fa64d30e0e274949630136db26c56098c767e99d140edcfbf13692baf`, Git blob `23ffa3fa71f21faacdfdb59189ac9488587a7605`. Each was also compared with its exact path at commit `f59867f51853eee3c217e143e010011b01a0a902`; gross released size is83,480 bytes.
+
+- `notes/2026-11-13-strong-a32-gap-release-size099-actual-r3-tail-response_full-tangent-adapter.json`
+- `notes/2026-11-13-strong-q098-m28-full-tangent-bootstrap-r1-response_full-tangent-adapter.json`
+
+The literal path-stem search across the checked-out topic and .github finds these copies only in their corresponding two historical manifests, including an unchanged historical scratch original_file field. Only the two current file keys now point to the canonical identical record; historical_duplicate_path and exact_duplicate_restore_commit are added. All original SHA/bytes, original_file/original_sha256 where present, and historical totals remain. The complete retained record preserves source transformations, stage/tangent manifests, checkpoint snapshot identities, original full-solve requirements and every limitation. The separate q122 observed copy and all its existing duplicate/retained_frozen metadata are left intact. No scientific source, distinct response, binary tangent sidecar or live warm is deleted.
+
+For either listed relative path, exact recovery is `git show f59867f51853eee3c217e143e010011b01a0a902:topics/visible-flex-larger-amplitude/<listed-relative-path>`. Ordinary deletion only; this literal search makes no claim about undeclared external consumers.
