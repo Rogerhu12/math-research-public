@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`389c8d97dd3afffdfb2d2d2362d58dac9b5fba42`。2026-11-18 03:26:12（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`f92715c8ddce981d113dbf367c9f43bc027ec14c`。2026-11-18 03:27:37（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -27,11 +27,9 @@ R11全Cartesian共享二jet/中心解析lift、843264盒给开放q20 prefix σ>.
 
 **新beta3.625已获q.02全联合**：δ=.06105607495644815、936节点；校正后H经第3/4次真尾复核res1.4651336e−9/minA.6767415，实际BC6.7901e−10；prefix metric2.8848e−9/tensor5.6026e−5，tail metric3.2508e−10/fullD2.8218e−6。完整mean/非mean两jet已记录；不同g新锚点，未提高旧q025幅值纪录或完成闭族。见2026-11-18-m3-beta3625-first-coupled-state及beta3625_q020_coupled_record；同beta q0225实际继续。
 
-n4精确圆弧+中央柱：R19/19A给10%条件窗，真实闭合未付。原C4补弧基λ0以材料角secant到q05/M16（metric2.322e−8/K14.0966）、q055（1.003e−7/K14.9898），均未圆化且只接线性DN。q06的tensor.04005/K15.9544给数值必要reach/D上限.02948658，非区间界。q05小步圆化至λ.001投影接受却metric7.669e−4/tensor5.72；见n4-material-angle-*、n4-q050/055/060-*笔记。旧宽/窄基与所有取消/失败保持登记，不作容量界。
+n4历史：R19/19A已有精确圆弧+中央柱10%条件窗，实际闭合未付。旧q05/q055有限prefix未圆化且只线性DN；q06采样K15.954给必要reach/D上限.0294866，非区间证书。q05圆化到λ.001虽投影接受却metric7.669e−4/tensor5.72。旧双根vu.4仅τ4/τ8≈0、τ12≈−.6587；固定J8 λ.05/M12 maxnodes/q塌缩已登记。完整成功/失败/取消见n4-q*、double-prefix-*及n4-nested-m12-terminal，不重做。
 
-n4旧双根root03：vu.4/vd.2644695137/δ.02840070836/ramp.45；τ4/τ8≈0、τ12≈−.6587，Kbg<8、耗窗>.147721，仅线性设计。首q005 M6→M8同g metric4.262e−6→5.733e−7；固定J8/λ.05嵌套M12达原2400节点门，q降.000396。见double-prefix-*、2026-11-18-n4-nested-m12-terminal；不作不存在结论。
-
-**n4新局域圆化/双谐波角图**：vu.35新双根δ=.03001627156/vd=.24824349139，Kbg估计5.605/D采样2.584/耗窗>.1518。eta*=.3674128局域圆化保h8号；旧角图M8 λ0/.05/.1及M12 λ0、新双图M8 λ0/.05虽过BVP却全metric3.49e−6至7.54e−5失败。源见2026-11-18-n4-local-flattening-and-bimodal-chart/resume_n4。
+**n4局域圆化/双谐波角图**：vu.35新双根δ=.03001627156/vd=.24824349139，Kbg估计5.605，耗窗>.1518。eta*=.3674的q005/M16 λ0 metric1.548e−6，q006升7.159e−6；λ.02原正根域失败，M8 λ.2maxnodes。大rho eta1/q001 M12已接受993节点、metric1.118e−7/K5.778，q002 M12也过BVP但metric1.429e−5。每行δ/vd重解，非同g精化；load已按记录eta/core正确复原。见2026-11-18-n4-bimodal-continuation-terminal。eta1实际尾联立入口由根继续，圆化/幅值/沿程谐波激发由n4继续。
 
 **大rho侧新条件窗**：eta1、φ*=π/4局域修平，精确均值补偿β∈(−2.437434179108102,−2.437434179108101)，真实|c|/q∈(47.53249652612922,47.53249652612923)。q.02/.022有R1.9/1.99、零控制rho>.50125/.45137；R19在全D≤2.65等假设下held/D>.104902/.115401。alpha取2Ra−.001、ell.54，Rvu<1和完整初始保护窗已按大R付清；未来补弧控制须重付rho，真前缀/尾/闭族仍缺。见2026-11-18-n4-large-radius-circle-core及纯Fraction脚本；eta1/q005冷启动maxnodes已登记，低q实际继续。
 
