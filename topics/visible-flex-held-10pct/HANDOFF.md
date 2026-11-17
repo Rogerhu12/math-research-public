@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`09cbee007f6f3e785974c4b7769253f3f732b415`。2026-11-18 02:54:13（UTC+8）真实pull/rebase/autostash后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`16d7eedabe80f2b9d924470ae1ebe45cb812b809`。2026-11-18 02:59:34（UTC+8）真实pull/rebase/autostash后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -33,15 +33,11 @@ n4精确圆弧+中央柱：R19/19A给10%条件窗，完整闭合未付。旧宽/
 
 ## C. 接缝、A图与混合边值
 
-R12/R14：h=g−dz²正定且同严格Q符号支上，完整z二jet与g一jet经一次平面刚体确定全Cartesian缝；总转角补mean斜率、Darboux补zrr，过Q0不适用。R15轴向|A|≥|wr|√D/(E^1.5K)只限制从背景连通的反射支；旧失败态未被曲率预算排除。锥支另须共顶点/均值/完整二jet，不能免费拼接。证明与所有误差链见对应results。
+R12/R14已证h=g−dz²正定且同严格Q号支时，高度全二jet与g一jet决定一次平面刚体下的Cartesian接缝；总转角补mean斜率，Darboux补zrr，过Q0例外。R15给反射轴曲率必要界，不把局部初始化失败作几何障碍。R16无过零权L²一致逆，R18有限mean/cos/sin混合DAE已原引擎核；实际首cell坏插值/共享Cartesian二jet未收敛均见actual-cell-*笔记。
 
-R16有限不定Gram可用但无过零权L²一致逆；R18完整cos/sin/mean混合DAE原引擎核验已过。实际首cell physical h/p坏插值与K达8e4、共享Cartesian二jet后tensor未下降的失败均保留。见actual-cell-mixed-coordinates-and-bad-interpolation、actual-cell-shared-cartesian-c2及mixed_dae/actual_cell包；有限根与C²表示均不代替误差收敛。
+R17无轴反射二fold核已证，但须全cos/sin/mean BVP，旧象限证书不移用。R20/R22分别给单/双谐波到精确圆弧的正距离；切空间推论严格要求完整核与可微支，有限共振不授不存在。R22固定中心最优eta≈.3674128及全圆rho新界已证；n4正以局域圆化实际消费。全部公式与条件见对应results。
 
-R17给无轴反射二fold核h=1+qcos2φ+εsin4φ；q.2/ε.005时ρ≥.325、Re AC>.5456625，精确卷积已核。但需要全cos/sin+均值BVP，非免费自由度，旧象限证书不移用。
-
-R20：精确圆弧与任意主频的ρ一致距离≥(n²−1)q tan²(na/2)；n4/a.145的系数严格>1.3357528678，Fraction独立同字节核验。仅在完整线性核+可微支假设下排除固定宽圆弧小q支；有限高矩可用补弧Gram任意修正，不得由有限τ推不存在。
-
-R22：双主频到圆弧的精确距离为(n²−1)q(1−c)²/[(1+c)(5+c)]，c=cos(na)；n4/a.147系数>.0395989054489351，Fraction独立逐字同一。中心半径固定的最优eta=1/[3−4(√2−1)(1−c)]≈.367413，须用更新全圆rho界；尚未进入BVP。切空间推论仍要求完整核/可微性，不由有限共振推出。
+R25：固定真实Q/g、完整mean+非mean有限动量，D>d/S>s/A>a可行域凸；Jac=〈A D^(−3/2)φ_iφ_j〉≥a/E^(3/2)Γ，严格单调给唯一根与显式残差→系数差界。原root的局部同伦初值若过同一门，不会换到另一正A根；不保证存在或shoot/闭合。
 
 R21/R23：实际M8以共享中心/cut Cartesian二jet、唯一mean、有限尾/圆领/平盘定义完整C²闭S²。504320 prefix盒+4637尾段证明全图σ>.7、K≤10、D<2.30242、reach/D>.0434；相位角Jac>.8399给全相位C²连续。圆领/盘metric<1.36e−29、K<8.002，精确背景增高/尺度已证。源finite_closure/m3_m8_collar_disk、m3_m8_closed_map。零marker时δE=0；R24已给实际非零帽，幅度不足/整域metric连续界仍未付。
 
