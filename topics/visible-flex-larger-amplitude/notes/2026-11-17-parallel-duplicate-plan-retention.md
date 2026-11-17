@@ -87,3 +87,16 @@ A literal basename/path-stem search over the checked-out topic and .github finds
 
 Exact restoration is `git show ddf18186ba2fefbf928fec6a7b8b256a4457ee72:topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-q126-m32-tail2-actual-r1-launch-observed-tail-response_full-tangent-adapter.json`. One ordinary removal of an exact copy, preserving canonical bytes and full Git history.
 
+## Two exact q126 archive copies with live canonical inputs retained
+
+Two old archive copies were compared byte-for-byte with their retained canonical inputs and with their exact full paths at commit `edd080b2f2b220c6ddab5871abb5c7b1799564ed`. Gross released bytes: 70,990. Both current canonical launch inputs remain in place; no live warm, unique state, sidecar, checkpoint, geometry array or distinct scientific result is removed.
+
+| Removed archive copy | Retained unchanged canonical file | Bytes / SHA256 / Git blob |
+|---|---|---|
+| `notes/2026-11-13-strong-fine-q126-complete-warm-points-r1-screen.json` | `notes/2026-11-13-strong-q126-m32-tail2-warm-screen-input.json` | 40615; `5cc3ce0c5175339e799a011b8504e0496ff2003c86ae14db604d503da5f4dbdf`; `a40b2a50075706568a28c939265d3b80812f3f2f` |
+| `notes/2026-11-13-strong-fine-q126-q130-full-core-inlet-r1-q126-prepared-core.json` | `notes/2026-11-13-strong-q126-m32-tail2-warm-core-input.json` | 30375; `4caafe07078dd2bce737f68ea878ad0c8dce5f23809aba81bb5af7f8dd8f525a`; `820c2c5c3bb951f4c89b0cb0524f8c4b2770c3fd` |
+
+Literal basename/path-stem searches across the checked-out topic and .github find the old screen name only in its complete-warm-points manifest, and the old prepared-core name only in its inlet manifest and the complete-core-gap manifest's identical_archival_files list. These three current references now point to the identical canonical inputs. Historical source_path/original_file, scientific states, SHA, bytes and historical totals are unchanged; each redirected record gains the exact original path and restoration commit. The existing launch-plan and launch-manifest references already point to the canonical input files and are unchanged. This is scoped reference accounting, not a claim about undeclared external consumers.
+
+For either removed relative path, exact restoration is `git show edd080b2f2b220c6ddab5871abb5c7b1799564ed:topics/visible-flex-larger-amplitude/<removed-relative-path>`. The full screen and prepared-core metadata, actual core/parameter arrays, non-solution status and original limits remain byte-identical in the retained files.
+

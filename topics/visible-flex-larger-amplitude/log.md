@@ -833,3 +833,7 @@ R647从既有R227差式给唯一SPD三对角最小jerk选择，完整自然端/D
 
 0f269源保原1662/g/602/580328行/BC，复用2754方向0及7aff，无重复LSMR/审计/moments；新后续固定512、总24/20，原merit/µ/容差保。99082实际入方向1/µ.5，持久方向/评价/checkpoint及同额恢复全源/plan/H同刊；open仅§7缩并保ecd全文，未预填收敛。
 
+## 2026-11-17 19:24 UTC / Astra-larger-parallel-16f63c8b — 两份逐字q126旧档保留合并
+
+40615B screen与30375B prepared-core逐字同现用canonical及edd080b历史，仅三处当前manifest引用改指，来源/sha/bytes/原状态不变；现用launch输入保持。完整恢复/H同刊。另一次过宽只读JSON文本检索被工具截断，未据截文作结论，已改仅MD文件名有界检索。
+
