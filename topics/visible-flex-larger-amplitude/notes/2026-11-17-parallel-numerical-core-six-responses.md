@@ -1,0 +1,100 @@
+# 六个核心控制的完整线性响应与非线性拒绝边界
+
+2026-11-17，Astra-larger-parallel-16f63c8b-20261117。**数值设计探针及明确的有限计算负结果；没有新接受几何。**
+
+## 1. 明确改变有限边界族
+
+原 [三控制真实响应](2026-11-17-parallel-numerical-core-gram-response.md) 固定前三个核心系数，在 .992 端保留109条主部法向行。本条把核心控制数改为6，替换原保存矩阵中最低的三行；它们对应新增核心系数编号4–6。保留的深端矩阵及右端分别是原 `rows[3:]`、`target[3:]`。
+
+M112的全部338个ODE分量保持，浅端行数由229变232，深端由109变106，总边界数仍338。删除的三条原有限边界行**不计作满足**；本条不冒原三控制有限模型的精化，也不声称该主部行等于真正非线性无限尾DN。
+
+父输入仍为实际接受的 .992 M112/N2048/486节点场 `parallel-refine0992-m112-t8.json.gz`，SHA256
+
+```text
+b677632099a08a33f94792a06dcc37d4e0f029131069b6ff94b1cb586ebaff25
+```
+
+## 2. 一次完整QR的六个响应
+
+[响应源](../scripts/parallel_20261117_core_sensitivity_family.py) 在同父场建立全部338维collocation Jacobian与上述新边界矩阵，一次分解求六个独立边界右端；没有删方程或作低维ODE替代。17个真实父网格节点上的相对Gram分量响应包含核心rho变化对分母的贡献，计算规则沿用三控制记录。这里只以原节点的ODE导数作设计目标，并未把它冒称共同quintic实际几何的完整误差。
+
+六个响应连同设计探针共37.5265秒。设计矩阵的奇异值为
+
+```text
+147.96384612668265, 1.3821608848126818, .5614343686451291,
+.41411858302691995, .14994554289476247, .005976449431541719
+```
+
+core轴支撑差的一阶梯度为
+
+```text
+2.0633886634529417, -.36633586606860147, 2.2460929716235856,
+.976918667940984, 1.3971559949561543, .304910460090603
+```
+
+每个给定增量先取沿该梯度的特解，再在其零空间上最小二乘降低实际Gram分量的线性预测。这不是对非线性余项的界。
+
+| 目标gap增量 | 最大预测Gram分量 | 预测rho最小值 |
+|---|---:|---:|
+| 0 | 8.30922e−8 | .16604683 |
+| 1e−4 | 8.71527e−8 | .16595776 |
+| .001 | 1.23697e−7 | .16514662 |
+| .01 | 8.25555e−7 | .14614341 |
+
+这张表不是实际接受场表。尤其大增量下的预测正性和小预测误差不支付非线性重解。
+
+## 3. 增量 .001 的完整重解未接受
+
+[新有限族驱动](../scripts/parallel_20261117_continue_family.py) 明确执行以上三条边界替换。固定前六系数为
+
+```text
+.4625725719825903, -.05964217970642764, .015538562693390262,
+-.005186457004772547, .001985404168876956, -.0008009070681555666
+```
+
+保留原 .992 区间和固定scalar，duration=0，M112/N2048，tol1e−8，bc_tol1e−11，max_nodes1800。全部ODE和新族的338条边界均重解；沿用完整分块QR及同点新Jacobian重试，未以旧因子失败替代重新线性化。
+
+计算1019.4475秒，486→1402节点，最后完整Newton试探未下降而保留旧点；自适应下一轮需要新增2712节点，超本次1800预算，solver返回status=1。实际collocation RMS为 `.0016926849092703327`，边界残差 `1.3877787807814457e−17`。最后状态不符合接受条件，不能作为后续接受父。
+
+其仅供失败诊断的ODE采样Gram分量约4.217e−4、曲率约350.08，亦未通过实际共同quintic的独立审计。最后轴支撑差虽为 .9610038853，但这是失败状态的数字，**不是已实现的幅度改善**。边界小残差不能抵消内部失败。本结果仅拒绝该次参数、初猜、算法和预算，不证明六控制族或该边界问题无解。
+
+## 4. 冻结源码、参数和复现
+
+新源SHA256：
+
+```text
+parallel_20261117_core_sensitivity_family.py
+ab9a301c6ab1e22f39a8d6504c3d162e6c874d413a848e90fe3db8340490f9e3
+parallel_20261117_continue_family.py
+ed4100c6042d9e13578a7e171ce896aa377843c1d4baabd84c0ef7525c65acf1
+```
+
+Frenet全卷积、Profile、完整DiskQR与父文件恢复配方沿用[原真实响应记录](2026-11-17-parallel-numerical-core-gram-response.md)；这里没有修改这些依赖。
+
+```sh
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -u \
+  topics/visible-flex-larger-amplitude/scripts/parallel_20261117_core_sensitivity_family.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-refine0992-m112-t8.json.gz \
+  --controls 6 \
+  --out /workspace/scratch/16f63c8bce6b/parallel-core-m112-six-responses.json.gz
+
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -u \
+  topics/visible-flex-larger-amplitude/scripts/parallel_20261117_continue_family.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-refine0992-m112-t8.json.gz \
+  --duration 0 --fixed-modes 6 --modes 112 --angles 2048 \
+  --tol 1e-8 --max-nodes 1800 \
+  --core-first .4625725719825903 -.05964217970642764 .015538562693390262 \
+    -.005186457004772547 .001985404168876956 -.0008009070681555666 \
+  --out /workspace/scratch/16f63c8bce6b/parallel-core-six-dg001.json.gz
+```
+
+两份历史raw SHA256：
+
+```text
+parallel-core-m112-six-responses.json.gz
+2dad658b8ec1d5d8a9bd34ea5386e84f0e988d7c20fa301888ccb82324f88805
+parallel-core-six-dg001.json.gz
+51a2bb5f5a50ac6424a23831932ea85bab4113e10e1f39484926ed3fe9b2b0e0
+```
+
+raw及QR临时对象只在仓库外。较小增量1e−4的真正重解已启动；未返回前不预填任何接受结论。本课题的强尾接合、闭面、全t、全pair reach及固定精化责任仍未支付。
