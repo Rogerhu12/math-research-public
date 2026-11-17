@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R649（实际普通支持障碍已证明）**：[同26e53/共同hold旧段的严格负支持及任意中心障碍](results/R649-ordinary-support-obstruction-for-the-actual-pulse-and-hold.md)：14点准确有理读取复用R648 λ预算，s=.8/π2实际支持负；半转加镜像排任意共同中心及两种法向。只排普通正支持R10工具，不排reach、内向闭合或加权流路线。
+
 - **R648（完整pulse前缀的连续度量已证明）**：[同26e53全818胞/819精确分片](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)：原计划全部实返、0失败，旧710复用+新109；全角/全径向relative Gram<4.94e−7，同材料phase带边族继承。非闭面/reach/held或固定问题求解精化。
 
 - **R647（隐式多项式表示与完整配点消元已证明）**：[独立Y/V残差、metric输运及全节点/中点线性等价](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)：保全部482槽与325/157边界，原warm三点F_V数值条件约300、单胞消元比较相对1.93e−15。附节准确Fraction付原1662核心有限C_U逆范数<728及正支唯一性。有限Pr与原P RHS不同；新固定602按8fresh原预算失败，终态H/正分支/Gram均未过。

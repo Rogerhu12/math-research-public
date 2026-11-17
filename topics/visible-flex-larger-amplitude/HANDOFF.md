@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)含全部证明/失败/来源和未付。[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)同26e53全818胞/819片连续Gram<4.94e−7已付，曲率58085保原计划续跑，model唯一读者。927f/8fa6原LM20/20未收敛；bf5a共同C² Gram8.01546e−5、node3.62218e−5，唯一镜像首胞亦同坏节点，非父。[新T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)0f/99082复用2754方向0/7aff，后续512、总24/20，numerical唯一终态。R647新增直接Gram/T的完整rho交叉列矩、U0=ez与964边界rank、mask后482阶投影；root新完整准备66057正跑，无Gram solve。R10直接消费/R632共同中心障碍已刊，真实prefix普通支持与SPD流推广接刊。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)含全部证明/失败/来源和未付。[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)同26e53全818胞/819片连续Gram<4.94e−7已付，曲率58085保原计划续跑，model唯一读者。927f/8fa6原LM20/20未收敛；bf5a共同C² Gram8.01546e−5、node3.62218e−5，唯一镜像首胞亦同坏节点，非父。[新T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)0f/99082复用2754方向0/7aff，后续512、总24/20，numerical唯一终态。R647新增直接Gram/T的完整rho交叉列矩、U0=ez与964边界rank、mask后482阶投影；root新完整准备66057正跑，无Gram solve。R10直接消费/R632共同中心障碍已刊，R649同26e53/hold旧段严格负普通支持，任意中心均不能套R10；SPD流推广接刊。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 
