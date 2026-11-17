@@ -709,3 +709,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 17:39 UTC / Astra-larger-parallel-16f63c8b — R647完整隐式Frenet表示与节点消元
 
 新Pr多项式槽/真实metric输运及完整Y/V节点-中点消元已证；仅原warm四点Jac/单胞，正参考F_V条件286–354，H负点代数finite但非物理解。完整证明/9150B源/报告SHA/H同刊，不冒原P RHS同式或新BVP接受。
+
+## 2026-11-17 17:43 UTC / Astra-larger-parallel-16f63c8b — R645完整hold像的连续见证距离
+
+同aa1全2098胞固定4096角/4sub，复用既证λ，真实p=Rotπ/2G(0,0)到整个G及镜像距离>.9588；完整证明/9453B源/报告SHA/H同刊。非闭面held/D或未构造phase；原1.03 BVP新失败已在H即时标明待完整定位。

@@ -8,6 +8,8 @@
 
 - **R646（四个完整hold胞的连续度量已证明）**：[准确hold积分/六片完整Gram与λ三jet](results/R646-continuous-Gram-and-scaling-for-four-hold-cells.md)：同aa1/g/q4096，498/626/1905/2097跨两个准确微分界共六片，12次实际覆盖；Gram最坏≤2.128703e−7。未付其余hold胞、曲率/reach或闭合。
 
+- **R645（完整hold带边像的见证距离已证明）**：[准确旋转核心点与全2098胞连续覆盖](results/R645-continuous-core-witness-distance-to-the-hold-image.md)：p=Rotπ/2G(0,0)含真实λ(0)，到同aa1完整G及镜像距离>.9588；全角二导余项与全部径向支付。非闭面held/D，未冒另一phase成员。
+
 - **R644（完整hold及镜像嵌入已证明）**：[旧498同字节复用、新1600胞实际连续覆盖](results/R644-certified-embedding-of-the-hold-prefix-and-mirror.md)：全2098胞C_G>.1551、λ∈(.998,1.002)/|λ′|<.101，R9/R638给raw/G/F~嵌入；实际核心两jet及正负高度分离给上下镜像C²嵌入。仍两端有边，闭面/reach/全t未付。
 
 - **R643（raw及实际规范化的两胞曲率已证明）**：[六jet、全角/径向覆盖与实际形算子](results/R643-continuous-curvature-of-two-actual-pulse-cells.md)：胞458κ<6.313、胞817κ<7.038；§6另付λ/λ′/λ″与真实G三jet，q4096材料变换不改曲率。仅两胞，其余816胞、闭面及reach未付。
