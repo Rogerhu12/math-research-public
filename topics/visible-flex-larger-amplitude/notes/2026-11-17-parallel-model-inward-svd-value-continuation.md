@@ -140,3 +140,40 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
 ```
 
 源仍为397bbdd，不作修改。最终 BVP 输出 SHA256 为 `bdfa8cfa2a7e854ee69ab214e48bb5d3bb76c918087c49e0f566f44563fe268a`；实际读出 SHA256 为 `01d02dc504c7599fdff9757b6720303391ae8372758bbaa2bb6aeeb86e7750dc`。两者只在仓库外保存；内部 `.solver.gz` 临时文件不替代最终绑定完整边界定义的输出。
+
+## 6. 固定原母值的第三个真接受阶段：β=.75
+
+**实际数值证据。** 以上一 β=.9 真接受场 `bdfa8cfa...` 为 warm，仍固定原 `11960350...` 母父、同一 U 字节、原327母向量、原前三 core 目标及同一 inward scalar。右目标是 `.75 * U.T @ v(original_parent)`，不是 `.75` 乘上阶段值。全部338 ODE、229浅行、109组合右行与 `tol=1e-8, bc_tol=1e-11, max_nodes=1800` 均保留。
+
+本次实际510节点、1外迭代，3次完整 QR、6个接受 Newton 步，149.858624944秒后成功。所见最大约化条件数为 `2.2837359211195996e8`。最终 RMS 为 `9.322336417657395e-9`，109个固定目标残差最大 `1.7439257039080016e-12`。组合函数本身仍取非零目标，最大值 `5.831857207180072e-5`。
+
+327项原始遗漏谱的 R/T/Z 最大值分别为 `8.093922322964869e-5`、`1.1604294747049875e-5`、`5.965696111194289e-6`。端点原谱在固定 range(U) 外的分量 `v-UU.T@v` 最大绝对值 `4.211379542253831e-8`；该有限端点诊断不代替全段曲面误差。
+
+冻结 inward quintic reader 继续使用 `N2048/radial_subdivisions=4`，509胞元、5,212,160点。实际 Gram 最大值进一步降至 **`2.398989093427016e-6`**，最坏点仍为 `s=.997, phi=2.705942109830271`；实际最大主曲率采样 `6.288998723320539`，最小 Gram determinant采样 `.02755372880284176`。core `rho_min=.1659931589037389`、gap `.9599293781942835`。本阶段域与曲率采样正常，但实际 Gram 仍未过 `1e-6`，且仍是开放前缀，未证明闭面、reach或固定公共材料坐标下的收敛族。
+
+实际命令：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
+  topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-inward-svd-boundary-bvp.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b09.json.gz \
+  --target-parent /workspace/scratch/16f63c8bce6b/parallel-inward0997-m112.json.gz \
+  --row-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-reachable-rows.json \
+  --svd-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-svd-boundary.json \
+  --out /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b075.json.gz \
+  --beta .75 --tol 1e-8 --max-nodes 1800
+
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
+  topics/visible-flex-larger-amplitude/scripts/parallel_20261117_prefix_inward_readout.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b075.json.gz \
+  --out /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b075-readout.json \
+  --angles 2048 --radial-subdivisions 4
+```
+
+源仍为冻结397bbdd，未作修改。最终 BVP 输出 SHA256 为 `852a673f4464090f003fd44c3247a819cf9bae0418d07caf97f8edb0e3d39471`；实际读出 SHA256 为 `8cbdecb40de1c363857f6ec556faf305707dcb82580787d31342a5ff84941b7f`。两者仅在仓库外保存；内部 `.solver.gz` 不是最终绑定完整边界定义的输出。
+
+### 6.1 同一真端点的Gram分解
+
+[只读小源](../scripts/parallel_20261117_endpoint_gram_parts.py)，SHA256 `41c029da83f658559fbb58e576b568db79aa80988f8f82231c2d9515b8bccd4e`，以同852a接受态、保存的N2048与实际RHS读取末点。最坏点三项为 er≈1.52298e−7、gr=−2.3886765007e−6、cross≈1.62205e−7。若仅作代数诊断，把末点速度换为未投影V，则er/cross约1e−15，Gram仍2.3886765007e−6，因为位置及其角导数不变。此替换不是另一实际曲面，也未覆盖保存RHS。
+
+因此当前角向G本身已超门，端点遗漏速度目标下降并不直接结清该项。j≥222的剩余遗漏速度范数6.538e−5，R峰j281约1.781e−5；没有把它假定成此次Gram主因。完整报告 `parallel-model-inward-b075-endpoint-gram-parts.json` SHA256 `4345c61cec801983159c255b9bd5712d293282dfbb3dd5a45e7d2cb370b120f1` 保留仓库外。复现调用该脚本，`--input` 指定本节852a文件，`--out` 指定仓库外报告；没有重跑整个读者或BVP。

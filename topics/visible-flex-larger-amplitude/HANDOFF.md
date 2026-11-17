@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–637与全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向标量真到.997，M112/M128 Gram2.754e−6/5.879e−6，.998/.999未接受。Schur M112实际2.421e−6；M1281423节点/RMS3.59e−4超预算失败；onlyZ1457节点/RMS8.42e−5失败；SVDβ63/64、.9真接受，Gram2.708e−6/2.503e−6；固定母值β.75在跑；[固定SVD109组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保原U/母值。R637真实Hermite桥已与旧.995共享六jet，延到.997；新桥全短段Gram5.092e−7/κ5.79934，非BVP/闭场/精化完成；再至1.0只到.997619后试步域失败。旧弱mean-LP/M64均失败。重复旧212索引96775B已普通退役，完整恢复df8deeeb，见本次retention note。固定a依R240共材料，rho可变；R633/635排除指定旧外向组合，[R636](results/R636-certified-inward-reference-radius-and-length.md)严格结清R634的R/L，全角chord余>.06001464。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–637与全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向标量真到.997，M112/M128 Gram2.754e−6/5.879e−6，.998/.999未接受。Schur M112实际2.421e−6；M1281423节点/RMS3.59e−4超预算失败；onlyZ1457节点/RMS8.42e−5失败；SVDβ63/64、.9真接受，Gram2.708e−6/2.503e−6；β.75真Gram2.399e−6且角G主导，固定母值β.5在跑；[固定SVD109组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保原U/母值。R637真实Hermite桥已与旧.995共享六jet，延到.997；新桥全短段Gram5.092e−7/κ5.79934，非BVP/闭场/精化完成；再至1.0只到.997619后试步域失败。旧弱mean-LP/M64均失败。重复旧212索引96775B已普通退役，完整恢复df8deeeb，见本次retention note。固定a依R240共材料，rho可变；R633/635排除指定旧外向组合，[R636](results/R636-certified-inward-reference-radius-and-length.md)严格结清R634的R/L，全角chord余>.06001464。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 
