@@ -657,3 +657,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 16:55 UTC / Astra-larger-parallel-16f63c8b — R642完整规范化pulse嵌入
 
 全部818胞真实b/b′与exact scalar给λ∈(.998,1.002)/|λ′|<.04/C_G>.1645，R9结清G及F~的C²嵌入；438秒/冻结源/helper/报告SHA/H同刊。open仅§7压缩并保02228全文；同hold BVP新失败即时标记待完整回读。
+
+## 2026-11-17 16:56 UTC / Astra-larger-parallel-16f63c8b — R641旧宽/桥/末三胞真实连续适配
+
+同场/q4096/g，胞381/514/817全连续Gram最坏≤4.936515e−7；末准确1−5/2^60两片均真算，旧scalar用exact Hermite，未吞极短片。新冻结源/四报告SHA/H同刊，未冒全部818胞完成。

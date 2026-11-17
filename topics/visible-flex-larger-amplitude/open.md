@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **完整开放前缀与严格几何。** [β.75规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定q_N2048、全509胞两档audit Gram6.393033e−7。[pulse完整0→1](notes/2026-11-17-parallel-numerical-pulse-arclength-prefix.md)由旧498胞与新320胞真实共享两jet拼成，固定q_N4096、两档audit Gram1.974411e−7/κ6.98222。[R638](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)严格付这两场q_N/rho全域正性与C²坐标。
 
-[R640](results/R640-certified-cylindrical-embedding-of-the-pulse-prefix.md)真26e53e8全818胞Q>.1872/A>.1770/C>.0510及degree1，按已有R9证raw环带嵌入。[R642](results/R642-certified-embedding-of-the-normalized-pulse-prefix.md)实际付同场全部818胞λ∈(.998,1.002)、|λ′|<.04、C_G>.1645，因而缩放G及规范化F~也是C²嵌入。它们未冒曲率/reach/闭族。[R641](results/R641-continuous-Gram-certificate-for-one-pulse-cell.md)同g/q4096胞804全域Gram≤4.726341e−7，真实带宽≤2688、径向Bernstein/标量积分/λ′及非线性余项均付；其余胞尚未由此认证。
+[R640](results/R640-certified-cylindrical-embedding-of-the-pulse-prefix.md)真26e53e8全818胞Q>.1872/A>.1770/C>.0510及degree1，按已有R9证raw环带嵌入。[R642](results/R642-certified-embedding-of-the-normalized-pulse-prefix.md)实际付同场全部818胞λ∈(.998,1.002)、|λ′|<.04、C_G>.1645，因而缩放G及规范化F~也是C²嵌入。它们未冒曲率/reach/闭族。[R641](results/R641-continuous-Gram-certificate-for-one-pulse-cell.md)同g/q4096胞804全域Gram≤4.726341e−7，真实带宽≤2688、径向Bernstein/标量积分/λ′及非线性余项均付；[新增旧宽/桥/末三胞](notes/2026-11-17-parallel-model-pulse-representative-gram-addendum.md)最坏≤4.936515e−7，末精确1−5/2^60分界两片实际覆盖；仍仅四指定胞，全部819片固定调用待执行。
 
 **新固定hold设计与当前边界。** [单一负κ hold](notes/2026-11-17-parallel-numerical-negative-hold-ivp.md)保真.995 scalar两jet，.002降至−2.5/保持.02/.02升至1.5，正平台补最终角；真962ODE/N4096一次到1.02。[完整2098胞](notes/2026-11-17-parallel-numerical-hold-arclength-prefix.md)首32胞R637桥，原M112/新保存jet逐位接合，统一q_N4096，8192角/4sub Gram1.180660e−7/κ6.301937；R638§6严格付所有胞q_N>.0986/rho>.1590。
 
