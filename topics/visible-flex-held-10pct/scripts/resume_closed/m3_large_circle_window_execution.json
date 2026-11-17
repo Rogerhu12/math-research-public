@@ -1,0 +1,91 @@
+{
+  "scope": "R32: exact n3 local-circle geometry and full-surface conditional window, including complete control stability and finite activity-moment selection.",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_m3_large_circle_window.py",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_large_circle_geometry_window.json"
+  ],
+  "observed_exit_code": 0,
+  "sources_sha256": {
+    "certify_m3_large_circle_window.py": "7d92c9455f82c40c742f6f6867d61533dd0fc91bc3fcfc3dddaa903255b2d54b",
+    "audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878"
+  },
+  "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_large_circle_geometry_window.json",
+  "output_sha256": "794de30beba46b15d2cd6601c3707861755fedf9ad763e2298830e453e61e924",
+  "fixed_parameters": {
+    "n": 3,
+    "eta": "0",
+    "halfwidth": "21/100",
+    "transition": "2/25",
+    "nominal_q": "17/200",
+    "q_interval": [
+      "849/10000",
+      "851/10000"
+    ],
+    "phase_end": "3523/5000",
+    "H_material_interval": [
+      "3521/10000",
+      "141/400"
+    ],
+    "total_cylinder_lengths": [
+      "27/50",
+      "5401/10000"
+    ],
+    "cap_radius": "1/40",
+    "cap_epsilon": "1",
+    "maximum_full_rho_control_norm": "2/25",
+    "vu": "9/20",
+    "ramp": "2/5",
+    "ramp_eta": "1/20",
+    "delta_interval": [
+      "7/125",
+      "7/100"
+    ]
+  },
+  "certified_summary": {
+    "uniform_held_ratio_lower": "0.1045138997564892",
+    "uniform_Hausdorff_lower": "0.2769618343546964",
+    "controlled_core_rho_lower": "0.2196130539744723",
+    "controlled_core_support_lower": "0.8947792743202628",
+    "core_third_moment_abs_lower": "1/50",
+    "at_least_one_active_moment_abs_lower": "1/1000000",
+    "initial_characteristic_loss_div_R_lower": "0.2115304182808084",
+    "final_diameter_upper": "2.649901781946",
+    "conditional_reach_ratio_lower": "8/265"
+  },
+  "required_full_surface_conditions": {
+    "unmarked_diameter_for_ell0_upper": "13249/5000",
+    "unmarked_support_for_ell0_lower": "801/10000",
+    "full_actual_curvature_upper": "25/2",
+    "plane_cap_height_lower": "1",
+    "plane_cap_radius_strictly_greater_than": "1/40",
+    "final_diameter_upper": {
+      "lower": "26499017819452752766227299665085817961649/10000000000000000000000000000000000000000",
+      "upper": "529980356389055055324545993301716359233/200000000000000000000000000000000000000",
+      "display": [
+        "2.6499017819452752766227299665085817961649",
+        "2.649901781945275276622729966508581796165"
+      ]
+    },
+    "translated_body_support_lower": "1601/20000",
+    "final_support_lower": "2/25",
+    "reach_lower": "2/25",
+    "reach_ratio_lower": "8/265"
+  },
+  "arithmetic": {
+    "trig_taylor_order": 60,
+    "machin_terms": 100,
+    "asin_positive_terms": 40,
+    "sqrt_decimal_digits": 65
+  },
+  "unproved": [
+    "Existence of the corresponding full circular-core prefix and actual nonlinear tail.",
+    "One global C2 closed map, complete same-g metric and refinement, and the stated full-surface bounds.",
+    "Actual complementary control norm and exact support vanishing must be checked on the accepted lambda=1 state.",
+    "Which one of the two cylinder lengths has the certified active moment must be selected from the actual full graph."
+  ],
+  "confidence": "Complete proofs of the explicitly stated planar facts and conditional theorem. No circular-core nonlinear BVP, actual closed family, fixed-g refinement, or task completion is asserted.",
+  "source_context": "m3_true_coupling proposed the n3 eta0 a=.21/b=.08 window; this record uses real Green integrals and rational remainder bounds, not its floating quadrature or accepted cosine-core geometry.",
+  "development_note": "The initial exact-rational calculation passed all mathematical gates but stopped while trying to print oversized intermediate rational denominators. Output endpoints were then rounded outward to exact decimal rationals with 40 places; the final complete run passed stricter |m3|>1/50 and |A|>1e-6 gates."
+}
