@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 15:19:35 UTC 真实 pull 后核双 README，无新差异，已读提交 dba57132f8499488a2637dff4b6905eb46b8fa77。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 15:23:46 UTC 真实 pull 后核双 README，无新差异，已读提交 f01342dde9815b9e9456cb5d6376a919ae501ec2。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–636与全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向标量真到.997，M112/M128 Gram2.754e−6/5.879e−6，.998/.999未接受。Schur M112实际2.421e−6；M1281423节点/RMS3.59e−4超预算失败；onlyZ109谱边界真解中；[固定SVD109组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)cond6.85e7，父目标线性末修正6.807e−4、不可达残差4.47e−8，尚未新BVP。短IVP目标诊断完整.995→.997两容差系数差1.93e−13而Gram2.111e−6，外推误差不能独自解释超门。弱mean-LP400步未接受；旧M64终态9780节点/RMS.01608超14000失败。固定a依R240共用材料规范，不冒rho逐点固定；R633/635排除指定旧外向组合，[R636](results/R636-certified-inward-reference-radius-and-length.md)严格结清R634的R/L，全角chord余>.06001464。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–636与全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向标量真到.997，M112/M128 Gram2.754e−6/5.879e−6，.998/.999未接受。Schur M112实际2.421e−6；M1281423节点/RMS3.59e−4超预算失败；onlyZ109谱边界真解中；[固定SVD109组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)cond6.85e7，父目标线性末修正6.807e−4、不可达残差4.47e−8，尚未新BVP。短IVP .995→.997真实升M160/M224后末Gram2.132e−6/1.132e−6；半步确认，起始导数变化尚未C²接合。弱mean-LP400步未接受；旧M64终态9780节点/RMS.01608超14000失败。固定a依R240共用材料规范，不冒rho逐点固定；R633/635排除指定旧外向组合，[R636](results/R636-certified-inward-reference-radius-and-length.md)严格结清R634的R/L，全角chord余>.06001464。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 

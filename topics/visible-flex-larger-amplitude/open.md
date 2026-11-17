@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-此前全文保[dc271ec1固定open](https://github.com/Rogerhu12/math-research-public/blob/dc271ec1efc2688e74cdf0ab9001c17c503ea74f/topics/visible-flex-larger-amplitude/open.md)，其所链dd08f3eb、b3274c8d、83262fdc含更早全文；旧参数/失败/源/SHA保留，仅改§7。本地计算，原Actions唯一读者/责任不变；R623–636见[results](results.md)。
+此前全文保[cd55396d固定open](https://github.com/Rogerhu12/math-research-public/blob/cd55396dc2ae918add7d3d7564ccc5d00863b146/topics/visible-flex-larger-amplitude/open.md)，其所链dc271ec1、dd08f3eb、b3274c8d、83262fdc含更早全文；旧参数/失败/源/SHA保留，仅改§7。本地计算，原Actions唯一读者/责任不变；R623–636见[results](results.md)。
 
 **真实前缀。** [原g .993/.995](notes/2026-11-17-parallel-numerical-0995-continuation.md)完整M112实际Gram2.587e−7/4.001e−7；.999大步1113节点/RMS.004301超预算失败。[.992角阶](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112/M128实际2.590e−7/6.467e−7，非收敛证据。[三控制](notes/2026-11-17-parallel-numerical-core-gram-response.md)gap.960101/Gram5.177e−7；[六控制](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受却Gram1.881e−5，纠正失败。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995失败；[.8/.9节点2jet](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保全部模式。失败场不作父。
 
@@ -113,9 +113,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [短IVP目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)真.995沿完整M112 RHS到.997，两容差末系数差1.93e−13；相对Taylor2系数差5.779e−8/Schur目标差7.519e−9。固定原core rho、8192角实际末Gram2.111e−6，主项是angular−2.108e−6；更准确目标自身未过门，不排除完整BVP后改善。未改任何已接受边界，也未冒严格积分包围或闭场。
 
-**有限尾与实际弱场。** [best4有限far32](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)保22键配方，材料M8到λ.0014、物理M8到1e−5；[κ5重解](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)实际曲率反升。[完整weighted Jac](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保112项rho与全部方程；[物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)λ1e−4接受；[Dirichlet尾](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)λ5e−5接受而1e−4两试失败；[双trace控制](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两家族失败，浅K/mean和深行不减。[M64完整QR终态](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001跑5813秒，9780节点RMS.01608，再加8755超14000，status1未接受；BC9.26e−17不补ODE，无后继同预算run。
+[真实增模短IVP](notes/2026-11-17-parallel-geometry-short-ivp-m160-m224.md)固定原.995值/core rho/新scalar，M160/M224的.997末Gram2.132e−6/1.132e−6；默认首大步在未接受stage域失败，显式64步及128半步均成功。初始F相同而Fs/Fss真实改变，未与原prefix C²接合，非完整BVP父。
 
-[材料场](notes/2026-11-17-parallel-geometry-best4-material-tail.md)λ.001/.0014实际Gram2.358e−7/1.420e−7却κ7.514/8.473；[物理M32实际](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)Gram2.045397e−6、κ5.997643、Hφ1.13913067。[积分校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)不允许裁模/改端点继承；φ与材料均值分清。[真实平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)接R1.767318/H1.13918566，A=.003016 Gram2.057397e−6；弱P0 A=.15也1.627e−5。
+**旧有限尾与弱场。** 原fixed best4/finite far32的22键配方、材料/物理角、完整weighted Jac、Dirichlet及双trace控制的全部参数/失败/源与SHA保在上链cd553全文及所链notes。最大已解材料λ.0014的实际Gram1.420e−7却κ8.473；物理M32 λ1e−4实际Gram2.045397e−6而κ5.997643，未过metric门。φ与材料均值不可混，裁模/改端点不得继承。[M64完整QR终态](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001跑5813秒，9780节点RMS.01608，再加8755超14000，status1失败；BC9.26e−17不补ODE，无后继同预算run。真实平cuff接R1.767318/H1.13918566在A=.003016时Gram2.057397e−6；弱P0 A=.15仍1.627e−5，旧组合不重算。
 
 [直接高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)同1557参数N512/G8由50panels到5106胞元，κ6.79453→7.62716005/Gram1.329932e−6/圈偏9.643e−7。最小legacy replay已逐字再生1557double。§6后续25mean-LP/67panels/400步仍Gram6.097e−6未接受；历史checkpoint与未执行的自动停止配方明确。弱场不重跑，读者留作新候选所需核对。
 
