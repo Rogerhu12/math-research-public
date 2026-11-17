@@ -1,0 +1,176 @@
+{
+  "sources_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/integral_core_intervals.py": "fcf92ba40110c8a9b917c8881f9fb0c3c0ebcc5a55ac632ae4f2b33317bd1b8f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/audit_true_integral_core_points.py": "f8d62bb2838030a9e203bf4833bbf2573f69a15cb82019dbaec96e8fbe99f420",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_protected_arc_curvature_dual.py": "00132335adb74e1f889d97fc8bb9060d0808ec51746c5603304992f3be8601d1",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_m3_large_circle_window.py": "7d92c9455f82c40c742f6f6867d61533dd0fc91bc3fcfc3dddaa903255b2d54b",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_integral_prefix.py": "e2cfa779d94abbc1ecb2c33bb8c3ef4f6deff5c6879abfd972ff8412d3d6fdad",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/prefix_true_profile.py": "be4fae0a667893275e847fb21536685e78180837f084e46d924999acbcb6e50e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_background_sharp.py": "39dbbaeafe8f8b23b38e894e8cab4ec0340248545a723e2bec32ea750ca129f0"
+  },
+  "checkpoint_sha256": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+  "port_sha256": "3e83072f020f3c61ee963afcee5eaf3489b2de557b7598460025099943b0d0d9",
+  "exact_input_conventions": {
+    "q": "5764607523034235/144115188075855872",
+    "homotopy": "5764607523034235/288230376151711744",
+    "physical_controls": [
+      "1957157600101157/9223372036854775808",
+      "-7446016166921723/590295810358705651712",
+      "-5220052896092389/9444732965739290427392",
+      "2976260192720281/2361183241434822606848",
+      "-7705669275843089/9444732965739290427392",
+      "7400859517855125/9444732965739290427392",
+      "3324826447212815/590295810358705651712"
+    ],
+    "primary_halfwidth": "21/100",
+    "primary_transition": "2/25",
+    "control_transition": "4/25",
+    "center": "pi/3",
+    "moment_projection": "Exact defining two-by-two mean/primary inverse, using its rational source coefficient enclosure",
+    "R32_constants_reused": true,
+    "complex_integral_taylor_degree": 64,
+    "finite_source_values_are_not_assumed_exact_integrals": true
+  },
+  "global_true_core_bounds": {
+    "rho_lower": "0.661126461738056479146375847219909764698604968",
+    "rho_upper": "1.33868940715947087522571806206793254190270053",
+    "rho_phi_upper": "1.79256454852992399178486858866366340451362190",
+    "rho_phiphi_upper": "40.7056137382859804716301595553821213113484427",
+    "rho_phiphiphi_piecewise_upper": "4072.12331101463520826830625350021242005868566",
+    "control_support_derivative_bounds": [
+      "0.000240547199972593518714391003376371698987773425",
+      "0.00176636453697080169799040829317044540634824188",
+      "0.0184488599594982750456655233136169276619227437",
+      "0.431383994805562199335662575237465848684489254",
+      "17.6095767039470162702618119001952827703224511",
+      "1976.30537310059691814138881794023883115982406"
+    ]
+  },
+  "finite_point_count": 15,
+  "maximum_true_arc_residual_upper": "1.58922048043146442856235630205181727445311743E-14",
+  "maximum_true_inverse_normal_error_upper": "2.40380709653265417604937333168392422271740575E-14",
+  "maximum_true_material_jet_source_error_upper": {
+    "position": "3.19116506874353953904014628794981798673474178E-14",
+    "tangent": "4.81538565230418976381261833879138313681666472E-14",
+    "second": "2.69992700546436800984651293358315866345427158E-13",
+    "third": "1.02028246473892445516974247077871272051742228E-11"
+  },
+  "fixed_atlas_anchor_checkpoint_sha256": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+  "bvp_solves": 0,
+  "angular_or_radial_full_domain_boxes": 0,
+  "continuous_metric_certificate": false,
+  "unpaid": [
+    "Uniform angular approximation of the integral core and its first jets.",
+    "Principal finite-map metric and radial error over all shared spans.",
+    "Current tail seam repair and full closed-map metric and geometry.",
+    "Fixed-g convergence of actual accepted refined maps."
+  ],
+  "seconds": 22.609526068998093,
+  "result": "R36",
+  "status": "Proved global analytic core bounds and finite point true-integral error bounds; metric transfer is conditional on uniform remainders",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/audit_true_integral_core_points.py",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "--port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_true_core_points.json"
+  ],
+  "observed_exit_code": 0,
+  "tool_session": 20813,
+  "terminal_completion_chunk": "8a303f",
+  "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_true_core_points.json",
+  "output_sha256": "f1e02ee99223b78b1fbf1daea6253bea5f0b8a37afa90bfe13df276a607ebb93",
+  "target_generation": "Source arc at normal angles 0,T and center+[-.37,-.29,-.21,0,.21,.29,.37], plus inlet reference theta at psi=2*pi*j/12 for j=1,3,5,7,9,11; all target outputs are frozen binary64 material inputs",
+  "scope_of_point_errors": "Only those 15 targets; no uniform source-evaluation error asserted",
+  "source_protocol": {
+    "core_kind": "exact_m3_raw_local_circle_integral_lift",
+    "core_control_path": "raw-mean-primary-compact-v1",
+    "core_projection_order_J": 8,
+    "core_control_convention": "Raw compact cosines after mean/primary projection; no high-moment inverse",
+    "library_manifest_sha256": "4b9d71971520f2b3fe655d0a39a2715d7d6f551f1913f5480bfc0931d250a4fd",
+    "core_round_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.08,
+      "control_transition": 0.16,
+      "homotopy": 0.02,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    }
+  },
+  "fixed_physical_atlas": {
+    "definition": "Exact physical input parameters; real flat-profile algebra and true bridge integrals; sigma=(L_true/L_binary)*s plus the fixed zero-value right cut Hermite first/second jet.",
+    "true_Tu": [
+      0.22611634852821053,
+      0.22611634852821058
+    ],
+    "true_Td": [
+      0.20350471367538947,
+      0.20350471367538953
+    ],
+    "true_L1": [
+      0.565099626834415,
+      0.5650996268344152
+    ],
+    "true_L2": [
+      0.34832173342948536,
+      0.34832173342948547
+    ],
+    "true_L3": [
+      0.017270909669753542,
+      0.01727090966975355
+    ],
+    "true_length": [
+      1.3603133321372538,
+      1.3603133321372542
+    ],
+    "material_length": 1.3603133321372538,
+    "arclength_scale": [
+      1.0,
+      1.0000000000000004
+    ],
+    "scale_minus_one": [
+      1.76881624908793e-16,
+      1.7688162491553687e-16
+    ],
+    "cut_atlas_jets": [
+      -0.996815278536125,
+      0.14744006140246674
+    ],
+    "cut_coordinate_width": 0.04,
+    "cut_coordinate_delta_first": [
+      -2.2690974530189033e-16,
+      -2.269097452951464e-16
+    ],
+    "cut_coordinate_delta_second": [
+      -2.6717620640663277e-17,
+      -2.671762064066327e-17
+    ],
+    "cut_coordinate_value_error": [
+      3.632693334481497e-18,
+      3.6326933344814984e-18
+    ],
+    "cut_coordinate_first_error": [
+      4.540866668101871e-16,
+      4.540866668101873e-16
+    ],
+    "true_coordinate_derivative_range": [
+      0.9999999999999997,
+      1.0000000000000009
+    ],
+    "bridge_integral_error": [
+      7.86011362995544e-27,
+      7.860113629955443e-27
+    ],
+    "series_degree": 96
+  }
+}
