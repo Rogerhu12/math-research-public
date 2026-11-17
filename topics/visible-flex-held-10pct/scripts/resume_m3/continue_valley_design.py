@@ -23,6 +23,7 @@ def main():
     p.add_argument('--nodes', type=int, default=801)
     p.add_argument('--max-nodes', type=int, default=6000)
     p.add_argument('--warmup-scales',type=float,nargs='+',default=[1.])
+    p.add_argument('--cold-tail',action='store_true')
     a=p.parse_args()
     out=a.outdir.resolve();out.mkdir(parents=True,exist_ok=True)
     here=Path(__file__).resolve().parent
@@ -40,7 +41,9 @@ def main():
                     '--source-topic',str(a.source_topic.resolve()),'--config',str(startup),'--out',str(raw)],env=env,check=True)
     port=json.loads(raw.read_text());port['cut']['_prefix_bridge']=old['frozen_profile']['prefix_bridge']
     portfile=out/'port.json';portfile.write_text(json.dumps(port,indent=2)+'\n')
-    cfg['designInitialCheckpoint']=str(a.tail_restart.resolve());cfg['traceFile']=str(out/'worker-trace.jsonl')
+    if not a.cold_tail:
+        cfg['designInitialCheckpoint']=str(a.tail_restart.resolve())
+    cfg['traceFile']=str(out/'worker-trace.jsonl')
     config=out/'config.json';config.write_text(json.dumps(cfg,indent=2)+'\n')
     profile=out/'profile.json';profile.write_text(json.dumps(old['frozen_profile'],indent=2)+'\n')
     numeric=old['config'];angular=numeric['angular']
@@ -55,6 +58,7 @@ def main():
              '--bc-tol',str(numeric['bc_tol']),'--physical-bc-tol',str(numeric['physical_bc_tol']),
              '--node-heap','2304','--warmup-scales',*[str(x) for x in a.warmup_scales],'--lagged-tail']
     record=dict(scope=__doc__,command=command,beta0_change=[previous,a.beta0],
+                 tail_initialization='new_metric_linear_state' if a.cold_tail else 'explicit_old_metric_initial_coordinates',
                  inputs={str(f.resolve()):hashlib.sha256(f.read_bytes()).hexdigest()
                          for f in [a.prefix_restart,a.tail_restart,a.restart_port,a.chart,a.sparse_helper,a.short_bridge]},
                  prefix_delta_solved_again=True,same_metric_refinement=False)

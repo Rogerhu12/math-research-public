@@ -1,0 +1,788 @@
+{
+  "scope": "Collect terminal scalars and hashes, never regenerable field arrays.",
+  "runs": [
+    {
+      "run": "beta3625-q025",
+      "status": "startup_or_initializer_failure_before_summary",
+      "command": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/recovered_q021/couple_m3_smallcut.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025/seed",
+          "--restart",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz",
+          "--amplitude",
+          "0.025",
+          "--warp-reference",
+          "0.025",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          3.125,
+          3.625
+        ],
+        "inputs": {
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz": "2deb3f8b2df880a493cd148423154de990e9b3689b66edb8e27eefe74ad70aab",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed_tail_0004.json.gz": "327354fe4517485ef4bfc6fb8db2e3a60a96320c58cfa22769143268b38a05b4",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 1
+      },
+      "command_sha256": "3574e18878b49abee18b9238d064e5cc7c2645c71bbd307dff27a78208d4bfd1",
+      "log_sha256": "5d7b7932656ccf295f921618adf25b419716993f695cae6c89cbb089acdce956",
+      "last_log_lines": [
+        "  File \"/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py\", line 117, in restart",
+        "    if rec['physical_tail_parameters']!=self.port['parameters']or rec['physical_tail_cut']!=self.port['cut']:raise ValueError('Physical tail metric differs')",
+        "                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+        "ValueError: Physical tail metric differs"
+      ]
+    },
+    {
+      "run": "beta3625-q025-explicit",
+      "status": "startup_or_initializer_failure_before_summary",
+      "command": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--restart-port",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-explicit/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-explicit/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-explicit/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-explicit/seed",
+          "--restart",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz",
+          "--amplitude",
+          "0.025",
+          "--warp-reference",
+          "0.025",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          3.125,
+          3.625
+        ],
+        "inputs": {
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz": "2deb3f8b2df880a493cd148423154de990e9b3689b66edb8e27eefe74ad70aab",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed_tail_0004.json.gz": "327354fe4517485ef4bfc6fb8db2e3a60a96320c58cfa22769143268b38a05b4",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json": "307c266fb2b274c145bb03b55ff22be516e596d65c7038c2b4be9aadea948341",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 1
+      },
+      "command_sha256": "9bcbfaf8f5a84a5bbe71ca91a4568f3b2e80527346d4dcecfb919b28006abe3e",
+      "log_sha256": "826f19590e0810ed6acca0d707b8d38518737d994b00950cab2db1f4aa8795c0",
+      "last_log_lines": [
+        "                 ^^^^^^^^^^^^^^^^^^^^",
+        "  File \"/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py\", line 59, in restart",
+        "    raise ValueError('First-valley design keeps the entire geometric cut')",
+        "ValueError: First-valley design keeps the entire geometric cut"
+      ]
+    },
+    {
+      "run": "beta3625-q025-design-v2",
+      "summary_sha256": "be9c4584364f2038036339d2a98173b559795ec75dd63b1cec51eaad30a60cc6",
+      "status": "failed_original_gate",
+      "solver_success": false,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 175933.90380359834', 'residual': None, 'lastIteration': {'iteration': 5, 'norm': 175933.90380359834, 'minA': 0.05006183189083893, 'minD': 0.99965492676721, 'chartCondition': None}}\")",
+      "seconds": 178.3471450805664,
+      "tail_calls": 1,
+      "prefix_scalars": {},
+      "seam_scalars": {},
+      "tail_responses": [
+        {
+          "path": "seed_tail_0001.json.gz",
+          "sha256": "b6ca4356a7fec2ade4ce8cc7b8220b61c696069b4a10a6bafd9f9c75d78da6c6",
+          "converged": null,
+          "residual": null,
+          "failed": "Error: multiple-shooting line search failed at 175933.90380359834",
+          "last_iteration": {
+            "iteration": 5,
+            "norm": 175933.90380359834,
+            "minA": 0.05006183189083893,
+            "minD": 0.99965492676721,
+            "chartCondition": null
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        }
+      ],
+      "continuation-command.json": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--restart-port",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-design-v2/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-design-v2/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-design-v2/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-design-v2/seed",
+          "--restart",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz",
+          "--amplitude",
+          "0.025",
+          "--warp-reference",
+          "0.025",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          3.125,
+          3.625
+        ],
+        "inputs": {
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz": "2deb3f8b2df880a493cd148423154de990e9b3689b66edb8e27eefe74ad70aab",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed_tail_0004.json.gz": "327354fe4517485ef4bfc6fb8db2e3a60a96320c58cfa22769143268b38a05b4",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json": "307c266fb2b274c145bb03b55ff22be516e596d65c7038c2b4be9aadea948341",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 0
+      },
+      "output_hashes": {
+        "config.json": "c4146e2363b69f0903f79884a5686b3b9f703787be203f9b91b3dd551627cc36",
+        "continuation-command.json": "f53166530105f06a1beee6feaa8c411372b49e697a9335ad827328c7c3197068",
+        "linear-trace.jsonl": "44378452f4aca4da61a416228bb4ce6a0fa2d2c5592ede061b84563a0fbc1e07",
+        "port.json": "7533e730b7bda86db4c33d438cb461b8584ef60dc998bbef0ac71e48d584e377",
+        "profile.json": "20c491c531c3608cbc6473364e72fb74df367ef3a9991cdffadb12afa0cfaa83",
+        "seed-design-initializer.json": "478a3d142a09b8993ba800af35dd459904b31f32ccefc52e0c449406420ace56",
+        "seed-summary.json": "be9c4584364f2038036339d2a98173b559795ec75dd63b1cec51eaad30a60cc6",
+        "seed_tail_0001.json.gz": "b6ca4356a7fec2ade4ce8cc7b8220b61c696069b4a10a6bafd9f9c75d78da6c6",
+        "startup-config.json": "c83e48def3bb7456df73279c5445fb48ea3824e3dec1dd2be062b2afd04184c7",
+        "worker-port.json": "094b07cf90d943387b991a2e792b95ddea4e3c70c706d2b9eddc256042e55643",
+        "worker-trace.jsonl": "22306c2ae7890c25948e8607cbc8bed4c4c7c1402836298e065b1810c4895480"
+      }
+    },
+    {
+      "run": "beta3625-q025-linear-difference",
+      "summary_sha256": "5f6b79df30821761ed20f381f500ca6b48924d379c8b70f7f4ab17c8572c56bb",
+      "status": "failed_original_gate",
+      "solver_success": false,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 1.718001964099018e-8', 'residual': None, 'lastIteration': {'iteration': 9, 'norm': 1.718001964099018e-08, 'minA': 0.055370968986246404, 'minD': 0.9996555234060867, 'chartCondition': None}}\")",
+      "seconds": 268.39827060699463,
+      "tail_calls": 1,
+      "prefix_scalars": {},
+      "seam_scalars": {},
+      "tail_responses": [
+        {
+          "path": "seed_tail_0001.json.gz",
+          "sha256": "6ccbb5ac2f8517fd6d7a15af4900641b5e7f43d3a5c5e84f8142c9530c92e2ec",
+          "converged": null,
+          "residual": null,
+          "failed": "Error: multiple-shooting line search failed at 1.718001964099018e-8",
+          "last_iteration": {
+            "iteration": 9,
+            "norm": 1.718001964099018e-08,
+            "minA": 0.055370968986246404,
+            "minD": 0.9996555234060867,
+            "chartCondition": null
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "e2090b499362b0e76b39bed8a9da7bb16ca1abfd92cf612a70225d1c418eea91",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        }
+      ],
+      "continuation-command.json": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-linear/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--restart-port",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-linear-difference/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-linear-difference/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-linear-difference/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-linear-difference/seed",
+          "--restart",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz",
+          "--amplitude",
+          "0.025",
+          "--warp-reference",
+          "0.025",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          3.125,
+          3.625
+        ],
+        "inputs": {
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz": "2deb3f8b2df880a493cd148423154de990e9b3689b66edb8e27eefe74ad70aab",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed_tail_0004.json.gz": "327354fe4517485ef4bfc6fb8db2e3a60a96320c58cfa22769143268b38a05b4",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json": "307c266fb2b274c145bb03b55ff22be516e596d65c7038c2b4be9aadea948341",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 0
+      },
+      "output_hashes": {
+        "config.json": "96cbecaa648e21e9745dca6d0438428e0621ac9154865f4381dc9bd0f736bac8",
+        "continuation-command.json": "c224aca44e8726a5e878e3de8a52152bcbab75e83c6d993d639c0bf77abbeec0",
+        "linear-trace.jsonl": "9eaa0728153fb5a33e68f33b57cfa66671fef0a8501df7e9cc167b92505085b1",
+        "port.json": "db61f188a6dfab20789f437927f4b5278f4ad051a36ee0be5ed8ec488ae7e7dd",
+        "profile.json": "20c491c531c3608cbc6473364e72fb74df367ef3a9991cdffadb12afa0cfaa83",
+        "seed-design-initializer.json": "9a09a945584fb2bdd7402397c93efbb4761ef63ca930a0889b799536b8949d68",
+        "seed-summary.json": "5f6b79df30821761ed20f381f500ca6b48924d379c8b70f7f4ab17c8572c56bb",
+        "seed_tail_0001.json.gz": "6ccbb5ac2f8517fd6d7a15af4900641b5e7f43d3a5c5e84f8142c9530c92e2ec",
+        "startup-config.json": "c83e48def3bb7456df73279c5445fb48ea3824e3dec1dd2be062b2afd04184c7",
+        "worker-port.json": "b4f100d2eda4f64ef2f6c3920cbff0ff47bec76c16f2fde0131ecc9bff526c3a",
+        "worker-trace.jsonl": "16d56a2828979b7ed8bbad47023a4869a52a4fc56f8986789bd8fefd678da61f"
+      }
+    },
+    {
+      "run": "beta3625-q025-warm",
+      "summary_sha256": "449b29a275aed0df7b7a55a5c33b2a9fb01deeb56eb60645144c62cb94ca5cbc",
+      "status": "worker_stopped_without_response",
+      "solver_success": false,
+      "error": "RuntimeError('Weighted tail worker stopped')",
+      "seconds": 54.65568470954895,
+      "tail_calls": 1,
+      "prefix_scalars": {},
+      "seam_scalars": {},
+      "tail_responses": [],
+      "continuation-command.json": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-linear/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--restart-port",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-warm/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-warm/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-warm/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q025-warm/seed",
+          "--restart",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz",
+          "--amplitude",
+          "0.025",
+          "--warp-reference",
+          "0.025",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "0.2",
+          "0.4",
+          "0.6",
+          "0.8",
+          "1.0",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          3.125,
+          3.625
+        ],
+        "inputs": {
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed.json.gz": "2deb3f8b2df880a493cd148423154de990e9b3689b66edb8e27eefe74ad70aab",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed_tail_0004.json.gz": "327354fe4517485ef4bfc6fb8db2e3a60a96320c58cfa22769143268b38a05b4",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json": "307c266fb2b274c145bb03b55ff22be516e596d65c7038c2b4be9aadea948341",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 0
+      },
+      "output_hashes": {
+        "config.json": "3a57141c497c39530e009bbe9058390c9249b4d426a0a299b5e812248e9cb99d",
+        "continuation-command.json": "19816df48fc7c0295ea66e5b4ed16d0adf6641207328c43244b27be33b7f8600",
+        "port.json": "db61f188a6dfab20789f437927f4b5278f4ad051a36ee0be5ed8ec488ae7e7dd",
+        "profile.json": "20c491c531c3608cbc6473364e72fb74df367ef3a9991cdffadb12afa0cfaa83",
+        "seed-design-initializer.json": "4eab3c8345cef01edcd397ae9cb221028bd8cb15494ff35e840c125e809386d6",
+        "seed-summary.json": "449b29a275aed0df7b7a55a5c33b2a9fb01deeb56eb60645144c62cb94ca5cbc",
+        "startup-config.json": "c83e48def3bb7456df73279c5445fb48ea3824e3dec1dd2be062b2afd04184c7",
+        "worker-port.json": "b4f100d2eda4f64ef2f6c3920cbff0ff47bec76c16f2fde0131ecc9bff526c3a",
+        "worker-trace.jsonl": "53c4ec9bb88e7988dd6bd4a9532b66eb9a6ceeca9d067d6652597e3d0d557c56"
+      }
+    }
+  ],
+  "harmonic_screen": {
+    "scope": "Sampled separate linear harmonic margins; triangleRatio < 1 is only a sufficient sampled condition for the linear height lift. Neither a nonlinear solution nor a nonlinear obstruction follows.",
+    "source_sha256": "c913c56b814c547a90ce10bb7f3ff8f0a8143ebd98fe6d602ee8c073011a7af9",
+    "input_sha256": "327354fe4517485ef4bfc6fb8db2e3a60a96320c58cfa22769143268b38a05b4",
+    "steps": 128,
+    "far": 48,
+    "rows": [
+      {
+        "beta0": 3.125,
+        "harmonics": [
+          {
+            "mode": 3,
+            "cutHeight": -6.80157752016712e-05,
+            "cutSlope": 21.793688693413273,
+            "linearAAmplitudeThreshold": 9.572411874099378e-05,
+            "amplitudeToThreshold": 0.7105395807895121,
+            "location": {
+              "cell": 0,
+              "segment": 3,
+              "x": 0.984375,
+              "r": 0.2353187952085144,
+              "w": 0.001168782137948559,
+              "f": 0.012386922116369856,
+              "fr": 12.683653035220154,
+              "baseT": 0.00027503602884985565,
+              "linearT": 2.8732155747919323
+            }
+          },
+          {
+            "mode": 6,
+            "cutHeight": 1.0379701317602858e-06,
+            "cutSlope": 44.85186668189213,
+            "linearAAmplitudeThreshold": 6.0292229481582335e-05,
+            "amplitudeToThreshold": 0.017215653504360093,
+            "location": {
+              "cell": 0,
+              "segment": 5,
+              "x": 0.0078125,
+              "r": 0.2777776883522064,
+              "w": 0.0011543703492988484,
+              "f": 0.17929097896253254,
+              "fr": 4.089895161561895,
+              "baseT": 0.00032065789983117584,
+              "linearT": -5.318395132976933
+            }
+          },
+          {
+            "mode": 9,
+            "cutHeight": 7.859834505523397e-08,
+            "cutSlope": 49.31195225020255,
+            "linearAAmplitudeThreshold": 7.839775445105027e-05,
+            "amplitudeToThreshold": 0.001002558626909511,
+            "location": {
+              "cell": 0,
+              "segment": 5,
+              "x": 0.0078125,
+              "r": 0.2777776883522064,
+              "w": 0.0011543703492988484,
+              "f": 0.05467663773207622,
+              "fr": 1.2192006002765954,
+              "baseT": 0.00032065789983117584,
+              "linearT": -4.09014138321254
+            }
+          },
+          {
+            "mode": 12,
+            "cutHeight": -1.01835796513756e-10,
+            "cutSlope": 35.95225906104503,
+            "linearAAmplitudeThreshold": 0.00012654692824420254,
+            "amplitudeToThreshold": 8.047275261967599e-07,
+            "location": {
+              "cell": 0,
+              "segment": 5,
+              "x": 0.0078125,
+              "r": 0.2777776883522064,
+              "w": 0.0011543703492988484,
+              "f": 0.01836217938346575,
+              "fr": 0.39689628921766484,
+              "baseT": 0.00032065789983117584,
+              "linearT": -2.5339050443989426
+            }
+          },
+          {
+            "mode": 15,
+            "cutHeight": -6.499567774442165e-11,
+            "cutSlope": 5.175593280710132,
+            "linearAAmplitudeThreshold": 0.00010672011114219948,
+            "amplitudeToThreshold": 6.090293296060945e-07,
+            "location": {
+              "cell": 0,
+              "segment": 8,
+              "x": 1,
+              "r": 0.29999999999999993,
+              "w": 0.08000000000000027,
+              "f": 1.0000000000001537,
+              "fr": 5.175593280711155,
+              "baseT": 0.023847376788553334,
+              "linearT": -223.45719596166683
+            }
+          },
+          {
+            "mode": 18,
+            "cutHeight": -5.967464621150675e-12,
+            "cutSlope": -45.32021641047936,
+            "linearAAmplitudeThreshold": 6.953664611272992e-05,
+            "amplitudeToThreshold": 8.581755023784826e-08,
+            "location": {
+              "cell": 0,
+              "segment": 7,
+              "x": 0.984375,
+              "r": 0.29962244507749397,
+              "w": 0.08005470198558527,
+              "f": 1.016927258303298,
+              "fr": -44.54630487052941,
+              "baseT": 0.0238334428454796,
+              "linearT": -342.74651105320515
+            }
+          },
+          {
+            "mode": 21,
+            "cutHeight": 4.887469474096086e-13,
+            "cutSlope": -120.10780255830923,
+            "linearAAmplitudeThreshold": 4.79777122437157e-05,
+            "amplitudeToThreshold": 1.0186958163550753e-08,
+            "location": {
+              "cell": 0,
+              "segment": 7,
+              "x": 0.9609375,
+              "r": 0.29959634955741543,
+              "w": 0.08013225372557126,
+              "f": 1.0481746749856244,
+              "fr": -117.39754678165195,
+              "baseT": 0.02385415889560217,
+              "linearT": -497.1925041867055
+            }
+          },
+          {
+            "mode": 24,
+            "cutHeight": -7.383884909006426e-12,
+            "cutSlope": -231.78921621430072,
+            "linearAAmplitudeThreshold": 3.4043784417864836e-05,
+            "amplitudeToThreshold": 2.1689377474531457e-07,
+            "location": {
+              "cell": 0,
+              "segment": 7,
+              "x": 0.90625,
+              "r": 0.2994401901229147,
+              "w": 0.08108545626559882,
+              "f": 1.1267110572082841,
+              "fr": -200.2197272507924,
+              "baseT": 0.024121648192381166,
+              "linearT": -708.5477894086027
+            }
+          }
+        ],
+        "triangleRatio": 0.7287595195759206
+      },
+      {
+        "beta0": 3.625,
+        "harmonics": [
+          {
+            "mode": 3,
+            "cutHeight": -6.80157752016712e-05,
+            "cutSlope": 21.70136946206086,
+            "linearAAmplitudeThreshold": 0.00016002602573568503,
+            "amplitudeToThreshold": 0.42502945935814745,
+            "location": {
+              "cell": 0,
+              "segment": 3,
+              "x": 0.984375,
+              "r": 0.23510929467257322,
+              "w": 0.0019269600735035831,
+              "f": 0.015144975791124782,
+              "fr": 12.621294641548385,
+              "baseT": 0.00045304454150991524,
+              "linearT": 2.831067880534688
+            }
+          },
+          {
+            "mode": 6,
+            "cutHeight": 1.0379701317602858e-06,
+            "cutSlope": 44.65168298279232,
+            "linearAAmplitudeThreshold": 9.712299858952171e-05,
+            "amplitudeToThreshold": 0.010687171389210682,
+            "location": {
+              "cell": 0,
+              "segment": 5,
+              "x": 0.0078125,
+              "r": 0.2774774383441705,
+              "w": 0.001903230464503705,
+              "f": 0.18335977373181422,
+              "fr": 4.193149930261921,
+              "baseT": 0.000528101600933932,
+              "linearT": -5.4374515676342305
+            }
+          },
+          {
+            "mode": 9,
+            "cutHeight": 7.859834505523397e-08,
+            "cutSlope": 49.15923393514075,
+            "linearAAmplitudeThreshold": 0.00012092915215279626,
+            "amplitudeToThreshold": 0.0006499536601060717,
+            "location": {
+              "cell": 0,
+              "segment": 5,
+              "x": 0.0078125,
+              "r": 0.2774774383441705,
+              "w": 0.001903230464503705,
+              "f": 0.05841154453926078,
+              "fr": 1.3129118033368137,
+              "baseT": 0.000528101600933932,
+              "linearT": -4.367033023324812
+            }
+          },
+          {
+            "mode": 12,
+            "cutHeight": -1.01835796513756e-10,
+            "cutSlope": 35.835384848661704,
+            "linearAAmplitudeThreshold": 0.0001788762308133732,
+            "amplitudeToThreshold": 5.693087116756404e-07,
+            "location": {
+              "cell": 0,
+              "segment": 8,
+              "x": 1,
+              "r": 0.3,
+              "w": 0.08000000000000027,
+              "f": 0.9999999999999719,
+              "fr": 35.83538484866085,
+              "baseT": 0.02384737678855334,
+              "linearT": -133.3177509393856
+            }
+          },
+          {
+            "mode": 15,
+            "cutHeight": -6.499567774442165e-11,
+            "cutSlope": 5.030472880189336,
+            "linearAAmplitudeThreshold": 0.00010669945510765109,
+            "amplitudeToThreshold": 6.091472320907946e-07,
+            "location": {
+              "cell": 0,
+              "segment": 8,
+              "x": 1,
+              "r": 0.3,
+              "w": 0.08000000000000027,
+              "f": 0.9999999999999408,
+              "fr": 5.030472880189109,
+              "baseT": 0.02384737678855334,
+              "linearT": -223.50045522250582
+            }
+          },
+          {
+            "mode": 18,
+            "cutHeight": -5.967464621150675e-12,
+            "cutSlope": -42.57072101091853,
+            "linearAAmplitudeThreshold": 1.8695411535587292e-05,
+            "amplitudeToThreshold": 3.191940765674734e-07,
+            "location": {
+              "cell": 0,
+              "segment": 5,
+              "x": 0.984375,
+              "r": 0.28533915431597506,
+              "w": 0.020001199340515943,
+              "f": -0.6474302708101614,
+              "fr": 334.4001161833014,
+              "baseT": 0.005704843094200193,
+              "linearT": 305.14669780554703
+            }
+          },
+          {
+            "mode": 21,
+            "cutHeight": 4.887469474096086e-13,
+            "cutSlope": -120.11622252672669,
+            "linearAAmplitudeThreshold": 4.79816141939778e-05,
+            "amplitudeToThreshold": 1.0186129741982532e-08,
+            "location": {
+              "cell": 0,
+              "segment": 7,
+              "x": 0.9609375,
+              "r": 0.2995971705655429,
+              "w": 0.08013225372557126,
+              "f": 1.0480800740696667,
+              "fr": -117.40612308034201,
+              "baseT": 0.023854224265084666,
+              "linearT": -497.1534339934446
+            }
+          },
+          {
+            "mode": 24,
+            "cutHeight": -7.383884909006426e-12,
+            "cutSlope": -231.72422533050576,
+            "linearAAmplitudeThreshold": 3.4051443603617296e-05,
+            "amplitudeToThreshold": 2.168449888633219e-07,
+            "location": {
+              "cell": 0,
+              "segment": 7,
+              "x": 0.90625,
+              "r": 0.29944109366093297,
+              "w": 0.08108545626559882,
+              "f": 1.1264678797470273,
+              "fr": -200.1614200110621,
+              "baseT": 0.024121720977621507,
+              "linearT": -708.3905533760998
+            }
+          }
+        ],
+        "triangleRatio": 0.4363683090886031
+      }
+    ]
+  },
+  "harmonic_screen_output_sha256": "198eddefa63711997b0196b907f0c5aebfc28f103c529473b48df317ba7b822d"
+}

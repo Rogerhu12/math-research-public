@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`ecdacd5fbe6b569a1852c81333756131130891e8`。2026-11-18 03:18:46（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`edd080b2f2b220c6ddab5871abb5c7b1799564ed`。2026-11-18 03:21:14（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -27,7 +27,7 @@ R11全Cartesian共享二jet/中心解析lift、843264盒给开放q20 prefix σ>.
 
 原m3 q026/q0275继续均未过原门：几何Q/L初值和局部同伦把q0275由立即D/S/A拒绝推进到完整shoot残差3.37533e−9/minA.091757；q026 RK32终态2.61297e−9，门仍2e−9。7条终态含一条startup工程失败全部登记；退出码0不能替代solver_success。见2026-11-18-m3-finite-continuation-initializers及resume_m3/initial_continuation_failures。新谷物理设计继续。
 
-**新首谷物理尾screen**：原q025 minA在cell0/seg3–4，beta0从3.125→3.625→4.625，mode3线性A入口H阈9.5724e−5→1.60026e−4→4.48165e−4、背景采样K<8。整个实际剖面重标定，是不同g且不是非线性容量。新g初始化显式读取旧实际port过旧重启守卫，再切新port；仅analytic cut的64ULP舍入界被记录，不宣称字节同一。beta3.625真正联合在做，见2026-11-18-m3-first-valley-design-screen及resume_m3。
+**新首谷物理尾**：beta0增大改善mode3线性A入口，但全局重标定使完整g改变，不是容量界。beta3.625在旧q025的固定H上，旧状态初值残差175934失败；新线性态+旧非线性余项降至1.718e−8/minA.05537仍未过2e−9。全谐波线性三角和.72876→.43637，不能推出真非线性余量。另有worker无响应及两次startup守卫拒绝，只算工程状态。原same-g守卫保留；先旧port重启再切新g，analytic cut仅记录64ULP舍入界。见2026-11-18-m3-first-valley-design-screen、m3-new-first-valley-actual-start；正在从新g较低幅联立锚点增幅。
 
 n4精确圆弧+中央柱：R19/19A给10%条件窗，真实闭合未付。原C4补弧基λ0以材料角secant到q05/M16（metric2.322e−8/K14.0966）、q055（1.003e−7/K14.9898），均未圆化且只接线性DN。q06的tensor.04005/K15.9544给数值必要reach/D上限.02948658，非区间界。q05小步圆化至λ.001投影接受却metric7.669e−4/tensor5.72；见n4-material-angle-*、n4-q050/055/060-*笔记。旧宽/窄基与所有取消/失败保持登记，不作容量界。
 

@@ -15,6 +15,17 @@ def summarize(directory):
     p = Path(directory)
     summary = p / 'seed-summary.json'
     if not summary.exists():
+        command=p/'continuation-command.json'
+        if command.exists():
+            data=json.loads(command.read_text())
+            if data.get('returncode',0)!=0:
+                result=dict(run=p.name,status='startup_or_initializer_failure_before_summary',command=data,
+                            command_sha256=sha(command))
+                log=p.with_name(p.name+'.log')
+                if log.exists():
+                    result['log_sha256']=sha(log)
+                    result['last_log_lines']=log.read_text().splitlines()[-4:]
+                return result
         return dict(run=p.name, status='unfinished_no_terminal_summary')
     s = json.loads(summary.read_text())
     result = dict(run=p.name, summary_sha256=sha(summary),
@@ -22,6 +33,8 @@ def summarize(directory):
                   solver_success=s.get('solver_success'), error=s.get('error'))
     if 'Weighted stage-tail initialization failed' in str(s.get('error')):
         result['status'] = 'startup_dependency_failure'
+    if 'Weighted tail worker stopped' in str(s.get('error')):
+        result['status'] = 'worker_stopped_without_response'
     for k in ['frozen_profile', 'gauge_amplitude', 'actual_primary_amplitude',
               'nodes', 'max_rms_collocation_residual', 'seconds', 'tail_calls', 'actual_outer_checks']:
         if k in s:
