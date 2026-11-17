@@ -1,0 +1,66 @@
+{
+  "scope": "Frozen nested-core provider, complete initialization/Jac/rho diagnostics and completed small-lambda/nonnested finite outcomes only. The subsequent nested full BVP is not asserted complete here.",
+  "base_manifest_sha256": "bee3472b1a9b2d98d6479b64324d8cc50cdbde88e27b703df664bcbe90dc9b6b",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8435,
+      "sha256": "04edb19725b173cd51d1fb3bef8dbe7433215f5f268618e7c58a3bbc08180948"
+    },
+    {
+      "path": "audit_nested_projection.py",
+      "bytes": 3337,
+      "sha256": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780"
+    },
+    {
+      "path": "base_source_reference.json",
+      "bytes": 3166,
+      "sha256": "509749aa42b725073180c137d87fb697bfca6bd5a08bceccdf56db412e37464c"
+    },
+    {
+      "path": "completed_runs.json",
+      "bytes": 9934,
+      "sha256": "3c5faefba569689e05cbecd733c0b28dc5582d3c0e6eeb008a82fef0305fdf2d"
+    },
+    {
+      "path": "nested-lambda005-m12-check.json",
+      "bytes": 4753,
+      "sha256": "ec2ca12b2f24bb89b057a7950e9275be3472fbea249733439e56b928c10f715a"
+    },
+    {
+      "path": "nested-m8-m12-full-core-audit.json",
+      "bytes": 2905,
+      "sha256": "a4c8fc01d9b2a42984cdb80cb6aa7c53989e11bb604eef046cb8faa46ecfc053"
+    },
+    {
+      "path": "nested_projection_core.py",
+      "bytes": 4536,
+      "sha256": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c"
+    },
+    {
+      "path": "q005-m8-lambda005-diagnostic.json",
+      "bytes": 11450,
+      "sha256": "e2805e66a5bbbbdae73169ffe9d8b572acf302e19129d0d5ab048fa905cecd3c"
+    },
+    {
+      "path": "refine_fixed_prefix_general.py",
+      "bytes": 8386,
+      "sha256": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a"
+    },
+    {
+      "path": "refine_fixed_prefix_general.transform.json",
+      "bytes": 2662,
+      "sha256": "23ea04de6e5cf5cdb976074e2769d6e17ea9edb34e8d85f4b2cc5f0d6b587c88"
+    },
+    {
+      "path": "refine_nested_prefix.py",
+      "bytes": 8529,
+      "sha256": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f"
+    },
+    {
+      "path": "refine_nested_prefix.transform.json",
+      "bytes": 4187,
+      "sha256": "adb4854388c29ecad42cd4e6efa904592e75510e684d6b6810e84e3468179b62"
+    }
+  ]
+}

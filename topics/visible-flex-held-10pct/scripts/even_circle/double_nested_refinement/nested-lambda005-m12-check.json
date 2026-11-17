@@ -1,0 +1,104 @@
+{
+  "scope": "Fixed physical metric refinement of a double-mode design checkpoint.\n\ndelta and vd are fixed to the accepted design values. The M core parameters\nare log(q/q_seed), c8/q_seed, c12/q_seed, ... . A fixed positive lambda and the frozen projection P_J define one nested\ncore family. The old compact combination is re-expressed by its exact\ndefining moments, preserving the entire core before solving. The old full\nmap is projected in the same material chart; all actual core and map\nembedding errors are reported. The nonlinear tail is not being solved.\n",
+  "physical_profile": {
+    "direction": "outward",
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    },
+    "vu": 0.4,
+    "ramp": 0.45,
+    "vd": 0.2645235084352783,
+    "delta": 0.02840636891770959
+  },
+  "q_seed": 0.005,
+  "seed_q": 0.005,
+  "modes": 12,
+  "old_core_difference": {
+    "F": 1.1102230246251565e-16,
+    "Ft": 1.1102230246251565e-16,
+    "Ftt": 4.440892098500626e-16
+  },
+  "core_identity_required": true,
+  "core_projection_order": 8,
+  "core_embedding": {
+    "trig_coefficient_error": 2.0464316005663896e-17,
+    "fundamental_error": 9.317362419797304e-21
+  },
+  "initial_projection_sup_error": 4.440892098500626e-16,
+  "inlet_correction_coefficient_sup": 1.0615152420262453e-15,
+  "parameter_jac_checks": [
+    {
+      "step": 1e-05,
+      "error": 4.809930997115922e-07,
+      "scale": 1.3605657218813525
+    },
+    {
+      "step": 3e-06,
+      "error": 2.839387288622319e-07,
+      "scale": 1.360565934074217
+    },
+    {
+      "step": 1e-06,
+      "error": 8.626812108558646e-07,
+      "scale": 1.3605654126170632
+    }
+  ],
+  "seed_boundary_max": 4.300739087863533e-08,
+  "input_checkpoint_sha256": "4db79b323920b7f87e864ac92d662ddca30dbcf3a4e515402e1544fb14ff6758",
+  "physical_port_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+  "core_transform": {
+    "source_sha256": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+    "replacements": [
+      [
+        "if len(actual):actual[0]=0.",
+        "if len(actual):pass  # c8 is free at fixed metric"
+      ],
+      [
+        "for v in value:v[0]=0. # Ignored c8 slot: all parameter jets must vanish.",
+        "# All core controls are free in this fixed-metric coordinate system."
+      ],
+      [
+        "C4 complementary controls with fixed c8=0 and two-harmonic primary",
+        "C4 complementary controls with free c8 and two-harmonic primary"
+      ],
+      [
+        "ignored_correction_index=0",
+        "ignored_correction_index=None"
+      ]
+    ]
+  },
+  "source_sha256": {
+    "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+    "audit_nested_projection.py": "3927584c2d787f98ce8ca5dc8a686195faa78042e9ef3adf57f32cf37b7629c7",
+    "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+    "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+    "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+    "refine_nested_prefix.py": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+    "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+    "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+    "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+    "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+    "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+    "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+    "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+  },
+  "arguments": {
+    "source_topic": "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+    "checkpoint": "n4_double_bvp_work/q005-m8-eta015-small-lambda-lam0.05.json.gz",
+    "out": "n4_double_bvp_work/nested-lambda005-m12-check",
+    "modes": 12,
+    "angular": 768,
+    "max_nodes": 2400,
+    "tol": 1e-06,
+    "check_only": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "source_sha256": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+  "target_sha256": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+  "replacements": [
+    [
+      "At lambda=0 the old core is preserved exactly by low moments. At other\nlambda values the core basis changes with M: its represented low moments\nare matched, but the unrepresented exact core may change. The old full map\nis projected in the same material chart, and a recorded inlet correction\ninitializes the new core; this is an initial guess, not an exact map identity.",
+      "A fixed positive lambda and the frozen projection P_J define one nested\ncore family. The old compact combination is re-expressed by its exact\ndefining moments, preserving the entire core before solving. The old full\nmap is projected in the same material chart; all actual core and map\nembedding errors are reported."
+    ],
+    [
+      "from fixed_bimodal_core import make_core_class,SOURCE_SHA256,TRANSFORMS as CORE_TRANSFORMS",
+      "from fixed_bimodal_core import SOURCE_SHA256,TRANSFORMS as CORE_TRANSFORMS\nfrom nested_projection_core import make_core_class,embed_compact_coefficients"
+    ],
+    [
+      "    q0=rec['gauge_amplitude'];cfg=rec['physical_profile'];port=rec['physical_port']",
+      "    if not 0<lam<=1:raise ValueError('Nested fixed-projection refinement requires positive lambda')\n    J=rec.get('core_projection_order',M0)\n    q0=rec['gauge_amplitude'];cfg=rec['physical_profile'];port=rec['physical_port']"
+    ],
+    [
+      "    Core=make_core_class(ReferenceCore);oldCore=make_design_core(ReferenceCore)",
+      "    Core=make_core_class(ReferenceCore,J);oldCore=make_core_class(ReferenceCore,J)if rec.get('core_projection_order')else make_design_core(ReferenceCore)"
+    ],
+    [
+      "    oldcore=(Core if rec.get('fixed_metric')else oldCore)(oldq,oldc,4,arc_nodes=1024,**settings)",
+      "    if rec.get('fixed_metric') and not rec.get('core_projection_order'):raise ValueError('Declare an explicit core family conversion before using this source')\n    oldcore=oldCore(oldq,oldc,4,arc_nodes=1024,**settings)"
+    ],
+    [
+      "    c=np.zeros(M-1);c[:len(oldc)]=oldc\n    # The low-moment identity is exact. First-harmonic leakage changes with\n    # M and is compensated by q together with c8, not silently discarded.\n    beta=(4**2-1)*eta/(4*4**2-1)\n    oldfund=oldcore.basis.fundamental_leakage\n    newfund=probe.basis.fundamental_leakage\n    qnew=oldq+(np.dot(oldfund,oldc)-np.dot(newfund,c))/((1+eta)+beta*newfund[0])\n    c[0]=beta*(qnew-oldq)",
+      "    c,core_embedding=embed_compact_coefficients(oldcore.basis,oldc,probe.basis)\n    qnew=oldq"
+    ],
+    [
+      "    if lam==0 and max(core_equal.values())>2e-10:raise FloatingPointError('The old core was not preserved by the lambda-zero low-moment conversion')",
+      "    if max(core_equal.values())>2e-10:raise FloatingPointError('The exact nested old core was not preserved')"
+    ],
+    [
+      "        old_core_difference=core_equal,core_identity_required=(lam==0),initial_projection_sup_error=seed_projection_error,",
+      "        old_core_difference=core_equal,core_identity_required=True,core_projection_order=J,core_embedding=core_embedding,\n        initial_projection_sup_error=seed_projection_error,"
+    ],
+    [
+      "core_kind='fixed_bimodal_complementary_core'",
+      "core_kind='nested_fixed_projection_bimodal_core'"
+    ],
+    [
+      "            fixed_metric=True,solver_success=bool(sol.success),profile=cfg,physical_profile=cfg,",
+      "            fixed_metric=True,core_projection_order=J,solver_success=bool(sol.success),profile=cfg,physical_profile=cfg,"
+    ]
+  ],
+  "post_transform_renaming": "The frozen projection index is named projection_order, separate from the state Jacobian J.",
+  "post_replacements": [
+    [
+      "    J=rec.get('core_projection_order',M0)",
+      "    projection_order=rec.get('core_projection_order',M0)"
+    ],
+    [
+      "make_core_class(ReferenceCore,J)",
+      "make_core_class(ReferenceCore,projection_order)"
+    ],
+    [
+      "core_projection_order=J",
+      "core_projection_order=projection_order"
+    ]
+  ]
+}

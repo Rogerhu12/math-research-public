@@ -1,0 +1,263 @@
+{
+  "scope": "Completed finite linear-port experiments only. No exact isometry or closed family. The nonnested M12 success does not retain the original amplitude and does not satisfy metric error <=1e-6.",
+  "small_lambda_runs": [
+    {
+      "kind": "two-physical-parameter design, same q but each accepted lambda has a newly designed physical metric",
+      "q": 0.005,
+      "modes": 8,
+      "homotopy": 0.0,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 509,
+      "max_rms": 9.871789279905567e-07,
+      "max_bc": 5.824496700918003e-15,
+      "seconds": 53.93159425200065,
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.26450491887897204,
+        "delta": 0.028407011357894134
+      },
+      "domain_newton": {
+        "calls": 5,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 9,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "geometry": {
+        "metric_l1": 5.680003221167998e-07,
+        "darboux_l1": 0.0003246098517179852,
+        "flow_defect": 4.097385841084758e-06,
+        "kappa_sample": 8.596953520316594,
+        "root_min": 0.003997804842919783,
+        "height_max": 0.6978708768164736,
+        "radius_max": 1.0317578295773833
+      },
+      "core": {
+        "rho_min_sample": 0.9251123416701644,
+        "rho_max_sample": 1.0973420356193915,
+        "rho_lower_conservative": 0.9248186119028267,
+        "rho_derivative_bound": 0.43721073551504425
+      },
+      "output_sha256": {
+        "q005-m8-eta015-small-lambda-lam0.json.gz": "dd115088fceb3dd65c966b87673e1ad5c7ec75e6a3325e1a4c9d1551b1a4ef75",
+        "q005-m8-eta015-small-lambda-lam0_coeff_00.npy.gz": "768bc0a7ce7aa144cc2c85bb2391b77d04cc02e5de45498784c468040927bd11"
+      }
+    },
+    {
+      "kind": "two-physical-parameter design, same q but each accepted lambda has a newly designed physical metric",
+      "q": 0.005,
+      "modes": 8,
+      "homotopy": 0.05,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 513,
+      "max_rms": 9.680063335040842e-07,
+      "max_bc": 7.24698350374614e-15,
+      "seconds": 36.510184427999775,
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.2645235084352783,
+        "delta": 0.02840636891770959
+      },
+      "domain_newton": {
+        "calls": 7,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 18,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "geometry": {
+        "metric_l1": 2.1183784876780322e-05,
+        "darboux_l1": 0.05164021095652348,
+        "flow_defect": 0.0007564593668863363,
+        "kappa_sample": 8.572305622249186,
+        "root_min": 0.004000342140105917,
+        "height_max": 0.6978585573852882,
+        "radius_max": 1.0316382015396686
+      },
+      "core": {
+        "rho_min_sample": 0.9254937700896122,
+        "rho_max_sample": 1.0945609794927014,
+        "rho_lower_conservative": 0.9193637246491445,
+        "rho_derivative_bound": 3.9961683273415454
+      },
+      "output_sha256": {
+        "q005-m8-eta015-small-lambda-lam0.05.json.gz": "4db79b323920b7f87e864ac92d662ddca30dbcf3a4e515402e1544fb14ff6758",
+        "q005-m8-eta015-small-lambda-lam0.05_coeff_00.npy.gz": "8ceb27cbf5f53c8867f6e4b5d1f6bcea7bee1283ff6cd52f00d34e027c494367"
+      }
+    },
+    {
+      "kind": "two-physical-parameter design, same q but each accepted lambda has a newly designed physical metric",
+      "q": 0.005,
+      "modes": 8,
+      "homotopy": 0.1,
+      "success": false,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "nodes": 1320,
+      "max_rms": 0.006767318740558369,
+      "max_bc": 8.63375425708135e-07,
+      "seconds": 243.33793747199888,
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.2645390541348372,
+        "delta": 0.028407392485534075
+      },
+      "domain_newton": {
+        "calls": 9,
+        "rejected_domain_trials": 16,
+        "rejected_merit_trials": 88,
+        "accepted_steps": 25,
+        "no_step": 2,
+        "minimum_alpha": 1.9073486328125e-06
+      },
+      "geometry": {
+        "metric_l1": null,
+        "darboux_l1": null,
+        "flow_defect": null,
+        "kappa_sample": null,
+        "root_min": null,
+        "height_max": null,
+        "radius_max": null
+      },
+      "core": {
+        "rho_min_sample": 0.9251295589789916,
+        "rho_max_sample": 1.096655166115542,
+        "rho_lower_conservative": 0.9031084699355757,
+        "rho_derivative_bound": 14.355518149868926
+      },
+      "output_sha256": {
+        "q005-m8-eta015-small-lambda-lam0.1.json.gz": "ac310ab9a027987796400a9082c0a45f6ab79563ab9b1298e1dc8ff32ad1ad81",
+        "q005-m8-eta015-small-lambda-lam0.1_coeff_00.npy.gz": "dc85539d4479529385bf89c89baec50049dba2790d8669e2b27cde46021f95c9"
+      }
+    }
+  ],
+  "small_lambda_summary_sha256": "12210c537e8e155205298c3fc7ac7e0078c209d0c30dc87e17a1d62dedba010c",
+  "small_lambda_log_sha256": "a156438bf8434f3331a2b04fced75c3b68e1d9446e9e610b37f8bef2d54640de",
+  "nonnested_fixed_M12": {
+    "success": true,
+    "message": "The algorithm converged to the desired accuracy.",
+    "actual_q": 7.197849748885256e-06,
+    "nodes": 1349,
+    "max_rms": 7.350138675786453e-07,
+    "max_bc": 8.519671784680202e-09,
+    "seconds": 487.2092675339991,
+    "physical_profile": {
+      "direction": "outward",
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.4,
+      "ramp": 0.45,
+      "vd": 0.2645235084352783,
+      "delta": 0.02840636891770959
+    },
+    "domain_newton": {
+      "calls": 3,
+      "rejected_domain_trials": 5,
+      "rejected_merit_trials": 46,
+      "accepted_steps": 31,
+      "no_step": 1,
+      "minimum_alpha": 0.0078125
+    },
+    "old_core_difference": {
+      "F": 4.5412172410275176e-06,
+      "Ft": 0.000344299269564613,
+      "Ftt": 0.027111605397499128
+    },
+    "initial_projection_sup_error": 4.309144595482373e-06,
+    "inlet_correction_coefficient_sup": 6.341857306605898e-05,
+    "parameter_jac_checks": [
+      {
+        "step": 1e-05,
+        "error": 6.658469980512505e-06,
+        "scale": 3.1204690714776127
+      },
+      {
+        "step": 3e-06,
+        "error": 1.2644877118576144e-06,
+        "scale": 3.1204700225726314
+      },
+      {
+        "step": 1e-06,
+        "error": 6.348443773451784e-07,
+        "scale": 3.1204703647624497
+      }
+    ],
+    "kind": "Frozen actual metric, nonnested core parameter-space refinement; amplitude collapse occurred",
+    "geometry": {
+      "metric_l1": 4.232311629492964e-06,
+      "darboux_l1": 0.011472914269623182,
+      "flow_defect": 0.00022502435773566758,
+      "kappa_sample": 7.868725925330898,
+      "root_min": 0.004064874737030322,
+      "height_max": 0.6979131222534241,
+      "radius_max": 1.0284105919481181
+    },
+    "core": {
+      "rho_min_sample": 0.9994066963914925,
+      "rho_max_sample": 1.000364120123384,
+      "rho_lower_conservative": 0.9947129319891999,
+      "rho_derivative_bound": 3.0598586620545434
+    },
+    "output_sha256": {
+      "q005-m12-eta015-lambda005-fixed.json": "2b4041e9f1d50a60045eb4f3b8f5c8aeeb809d81d15574e1fa0e655873b2be5f",
+      "q005-m12-eta015-lambda005-fixed.log": "8b3d02050bb8e5e54ff8169639481895c62e59b016133f0d068a9d08010b39bf",
+      "q005-m12-eta015-lambda005-fixed.json.gz": "6444c7b5386a0d5ef6d7717d611286a044767d164349f89298a3c0fdc55e689d",
+      "q005-m12-eta015-lambda005-fixed_coeff_00.npy.gz": "d7d3f4a1de0e0a1dedf27dc687a0ab4542257bf699e6818c3ffdcdcff38b6b8b"
+    }
+  },
+  "source_hashes_for_nonnested_run": {
+    "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+    "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+    "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+    "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+    "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+    "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+    "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+    "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+    "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+    "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+  }
+}

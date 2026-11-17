@@ -1,0 +1,34 @@
+{
+  "source_sha256": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+  "target_sha256": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+  "replacements": [
+    [
+      "At lambda=0 the old core is\npreserved exactly in its finite support moments before solving. Changes in\nthe reference lift are included in the seed, so the total seed map is the\nsame map up to quadrature/roundoff.",
+      "At lambda=0 the old core is preserved exactly by low moments. At other\nlambda values the core basis changes with M: its represented low moments\nare matched, but the unrepresented exact core may change. The old full map\nis projected in the same material chart, and a recorded inlet correction\ninitializes the new core; this is an initial guess, not an exact map identity."
+    ],
+    [
+      "    if lam!=0:raise ValueError('This exact seed conversion is currently proved only at lambda=0')\n",
+      ""
+    ],
+    [
+      "    oldcore=oldCore(oldq,oldc,4,arc_nodes=1024,**settings)",
+      "    oldcore=(Core if rec.get('fixed_metric')else oldCore)(oldq,oldc,4,arc_nodes=1024,**settings)"
+    ],
+    [
+      "    if max(core_equal.values())>2e-10:raise FloatingPointError('The old core was not preserved by the low-moment conversion')",
+      "    if lam==0 and max(core_equal.values())>2e-10:raise FloatingPointError('The old core was not preserved by the lambda-zero low-moment conversion')"
+    ],
+    [
+      "    y=np.zeros((3*M+1,len(s)));y[0]=oldy[0]\n    y[1:M0+1]=oldy[1:M0+1]\n    y[M+1:M+M0+1]=oldy[M0+1:2*M0+1]\n    y[2*M+1:2*M+M0+1]=oldy[2*M0+1:]",
+      "    oldf=obj.Flow(cfg,port,M0,q0,max(args.angular,512),4,obj.bridge)\n    oldf.exact_lift_core=oldcore;oldf.exact_lift_initial=pp(np.array([0.]))[:,0].copy();oldf.exact_lift_cache={}\n    N=max(2048,64*M);B,_,_=f.basis(N);oldB,_,_=oldf.basis(N);y=np.empty((3*M+1,len(s)))\n    seed_projection_error=0.\n    for first in range(0,len(s),32):\n        sl=slice(first,first+32);oldpos=oldf.geo(s[sl],N)['pos']+q0*oldf.values(oldy[:,sl],oldB)\n        newref=f.geo(s[sl],N)['pos'];y[:,sl]=f.project(oldpos-newref,B)/q0\n        seed_projection_error=max(seed_projection_error,float(abs(newref+q0*f.values(y[:,sl],B)-oldpos).max()))"
+    ],
+    [
+      "    for h in (1e-4,3e-5,1e-5):",
+      "    for h in (1e-5,3e-6,1e-6):"
+    ],
+    [
+      "        old_core_preservation=core_equal,parameter_jac_checks=checks,",
+      "        old_core_difference=core_equal,core_identity_required=(lam==0),initial_projection_sup_error=seed_projection_error,\n        inlet_correction_coefficient_sup=float(abs(difference).max()),parameter_jac_checks=checks,"
+    ]
+  ]
+}

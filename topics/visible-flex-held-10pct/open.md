@@ -93,3 +93,5 @@ O13/R22：双谐波精确极小极大距离及固定中心半径的最优eta已�
 O13实际圆化：q05/M16 λ.005初猜实rho<0未入BVP；λ.0001原BVP接受却完整metric2.60e−4、tensor2.53，不能通过。完整高频与内部角表示仍须处理，低矩或入口lift准确不补这项缺口。
 
 O9/R23：真实fixed-M8已成为完整显式C²闭面，连续全曲面K≤10/support>.7/reach/D>.0434，全部相位同界；公共mean和相位角图的严格C²已支付。零marker时δE=0、q02幅度不足，完整同g metric与M16全闭加密仍须审计。这个结果解决闭合几何，不解决10%。
+
+O13双模更新：λ.05 M8完整metric失败，λ.1maxnodes；旧M12同g对照趋近q=0且metric仍未过门，不能当保幅精化。固定J8的真正嵌套已完整初值/rho/Jac审计，新的同gM12正在实解；具体限制见double-prefix-nested-refinement。

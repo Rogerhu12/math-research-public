@@ -1,0 +1,96 @@
+{
+  "scope": "Audit a nested core embedding only; this does not run a new BVP.",
+  "checkpoint_sha256": "4db79b323920b7f87e864ac92d662ddca30dbcf3a4e515402e1544fb14ff6758",
+  "modes_old": 8,
+  "modes_new": 12,
+  "frozen_projection_order": 8,
+  "homotopy": 0.05,
+  "embedding": {
+    "trig_coefficient_error": 2.0464316005663896e-17,
+    "fundamental_error": 9.317362419797304e-21
+  },
+  "actual_core_errors": {
+    "F": 7.771561172376096e-16,
+    "Ft": 6.661338147750939e-16,
+    "Ftt": 5.551115123125783e-16,
+    "rho": 4.440892098500626e-16,
+    "rho_u": 2.0775048348298242e-14,
+    "rho_uu": 2.0037305148434825e-12
+  },
+  "support_derivative_errors_0_to_4": [
+    1.5077186461126546e-19,
+    5.488773498207866e-18,
+    3.0010716134398763e-16,
+    1.992850329202156e-14,
+    1.801225835151854e-12
+  ],
+  "fixed_material_parameter_jac_checks": [
+    {
+      "step": 1e-05,
+      "errors": {
+        "F": 8.315049690454934e-11,
+        "Ft": 9.518335009062184e-10,
+        "Ftt": 5.368520561432888e-08
+      },
+      "scales": {
+        "F": 0.02006743596028481,
+        "Ft": 0.278326243496221,
+        "Ftt": 8.167839048173796
+      }
+    },
+    {
+      "step": 3e-06,
+      "errors": {
+        "F": 1.5553761273726097e-10,
+        "Ft": 1.483019887449366e-10,
+        "Ftt": 4.872614312034784e-09
+      },
+      "scales": {
+        "F": 0.02006743596028481,
+        "Ft": 0.278326243496221,
+        "Ftt": 8.167839048173796
+      }
+    },
+    {
+      "step": 1e-06,
+      "errors": {
+        "F": 7.569988956426105e-10,
+        "Ft": 8.10447736698805e-10,
+        "Ftt": 9.140581624933475e-10
+      },
+      "scales": {
+        "F": 0.02006743596028481,
+        "Ft": 0.278326243496221,
+        "Ftt": 8.167839048173796
+      }
+    },
+    {
+      "step": 3e-07,
+      "errors": {
+        "F": 1.54188295811708e-09,
+        "Ft": 1.3088897188318072e-09,
+        "Ftt": 1.3612884153246796e-09
+      },
+      "scales": {
+        "F": 0.02006743596028481,
+        "Ft": 0.278326243496221,
+        "Ftt": 8.167839048173796
+      }
+    }
+  ],
+  "positivity": {
+    "old_lower": 0.9193637246491445,
+    "new_lower": 0.42049494998067394,
+    "old_grid": 512,
+    "new_grid": 1024
+  },
+  "source_sha256": {
+    "audit_nested_projection.py": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780",
+    "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+    "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+    "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+    "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+    "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+  }
+}
