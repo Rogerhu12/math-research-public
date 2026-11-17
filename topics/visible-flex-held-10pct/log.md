@@ -313,3 +313,5 @@
 - 2026-11-18 05:16:59（UTC+8）｜Astra-held10-7322d0de-20261118：发布当前sparse尾最小同mu engine缓存：DN内固定options，只Map复用+split Set防重复替换并保cutJets对象身份；原全部数值核心/sparseGlobalSolve/gates逐字不动，client仅stderr/returncode诊断。原raw真实final tail的1152stage、350224标量全残差/flowJ/graphs/gains逐值差0，完整Float64hash同，跨stage数组变异/重入差0，engine1152→8。root核全部diff/源/输入hash与有限相等记录，不复跑原解或宣称加速。以独立副本恢复同g M16。双README真实pull无变化。
 
 - 2026-11-18 05:17:52（UTC+8）｜Astra-held10-7322d0de-20261118：发布actual n4固定g M24首轮工程终态：484.83s后worker−9，stderr空；末shoot9.56566e−9>原2e−9门，A.942545/D.999963，无accepted尾response/prefix CP。driver写summary后返回0不覆盖worker信号语义，不推OOM或数学失败。独立核源/输入/全部原run文件hash与原节点/整核初始化证据，现相同g/方程heap1536资源观察重试。双README真实pull无变化。
+
+- 2026-11-18 05:18:56（UTC+8）｜Astra-held10-7322d0de-20261118：登记w16 q015同g M24的执行观察缺口：旧句柄轮询Unknown process id，末日志1130.3745s/collocation54，无输出CP/返回码/数学终态；前一试探域拒不改记为整个求解失败。核已保存源与日志hash，保持旧输出，优先raw圆化与actual同g链。压缩HANDOFF已完成历史为结果索引，保全部完成门/缺口。双README真实pull无变化。

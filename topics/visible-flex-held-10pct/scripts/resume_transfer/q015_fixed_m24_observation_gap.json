@@ -1,0 +1,65 @@
+{
+  "scope": "Execution handle became unavailable before a mathematical terminal was observed; no failure or nonexistence inference.",
+  "recorded_utc": "2026-11-17T21:18:45.812815+00:00",
+  "command": [
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/run_tight_observed_fixed.py",
+    "--runtime",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/refine-runtime",
+    "--source-topic",
+    "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q015-fixed-m20.json.gz",
+    "--out",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q015-fixed-m24",
+    "--modes",
+    "24",
+    "--angular",
+    "1536",
+    "--tol",
+    "1e-8",
+    "--max-nodes",
+    "6000"
+  ],
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/run_tight_observed_fixed.py": "32fa6ed8d34ca9facd1003585df19424f14d324560f4e87192b5bdd97f25f544",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/run_observed_fixed.py": "d828228375fcf0f0b0955702735eea0f417d969ced5d1c1b9a1c59f35e8623f1",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/refine-runtime/tight_moment_interval_bounds.py": "c6a27a30edf720fff0e76fc5a71dd1ad1ef6e41052a1f74e6afbf7ac8bf881c6"
+  },
+  "log_sha256": "c98c58cd881d284e85b6d1b70806b7a3eef6ec6f9b6420b297f66f82d8f3eda8",
+  "trace_sha256": "24721eccdd67e885919216320c7280540df17e45c60b50c4e7d5b9049e5a0f69",
+  "last_observed_event": {
+    "event": "collocation_start",
+    "elapsed": 1130.3745182079983,
+    "newton_call": 1,
+    "stats": {
+      "calls": 1,
+      "rejected_domain_trials": 45,
+      "rejected_merit_trials": 1,
+      "accepted_steps": 6,
+      "no_step": 0,
+      "minimum_alpha": 0.0009765625
+    },
+    "number": 54
+  },
+  "last_domain_trial_rejection": {
+    "event": "collocation_exception",
+    "elapsed": 1130.3724355659979,
+    "newton_call": 1,
+    "stats": {
+      "calls": 1,
+      "rejected_domain_trials": 44,
+      "rejected_merit_trials": 1,
+      "accepted_steps": 6,
+      "no_step": 0,
+      "minimum_alpha": 0.0009765625
+    },
+    "number": 53,
+    "seconds": 10.888162090996047,
+    "error": "FloatingPointError('Adaptive Frenet domain failure: -9.631364639925389e-05')"
+  },
+  "execution_handle_response": "Unknown process id 27562",
+  "final_returncode": null,
+  "terminal_result_observed": false,
+  "output_checkpoint_exists": false
+}
