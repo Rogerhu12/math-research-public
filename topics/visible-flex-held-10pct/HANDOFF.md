@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`d27cedb6816cc4e517f696d7ff02185127b8e60a`。2026-11-18 04:52:46（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`34a07fc4372da57e061c8415f15c8da18034d8a8`。2026-11-18 04:53:14（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -24,7 +24,7 @@
 
 **线性g固定精化**：原w.08/q.01冻结δ/vd，M16→20/tol1e−8到1920点，metric2.38461e−8→1.95003e−9，tensor1.62253e−5→3.51078e−6；见n4-fixed-metric-refinement。最终API从已求参数/原投影重建核心、归一后合并物理网格。true q001/M12→16身份检查三jet≤9.44e−16、全图≤1.83e−15、993旧点全保留；见n4-fixed-seed-identity。已执行旧源另存。
 
-**新 wCut=.16**：原 worker 重建24模 port 和双根，背景 min(1−a′²)=.01602343；新整g的 eta.1/λ0/q.01、.0125/M16 接受731/748点，metric2.48504e−8/5.97569e−7，tensor1.32802e−5/2.12364e−4，rootmin.01563/.01530。见 n4-thicker-cut-prefix-states。q.015/M20随后原BVP接受867点，但完整metric1.20586e−5/tensor.0232143未过，rootmin.001623；见 n4-thicker-cut-q015-full-metric。冻结该g/M20/tol1e−8后2484点，metric1.20598e−5/tensor.0232092几乎不变，单独径向精化未解；见n4-w016-q015-radial-plateau。现同g/M24/tol1e−8，tight原Gram系数证明及原门，运行q015-fixed-m24。圆化优先q0125接受态，从λ.001完整材料链起。新C²网格插值rho下界保留原两界/阈值/32768上限，λ.005同核心由原拒绝变为2048点下界.26731；只过初猜守卫，见n4-circle-second-order-rho-bound。所有新δ/vd仍新设计。
+**新 wCut=.16**：原 worker 重建24模 port 和双根，背景 min(1−a′²)=.01602343；新整g的 eta.1/λ0/q.01、.0125/M16 接受731/748点，metric2.48504e−8/5.97569e−7，tensor1.32802e−5/2.12364e−4，rootmin.01563/.01530。见 n4-thicker-cut-prefix-states。q.015/M20随后原BVP接受867点，但完整metric1.20586e−5/tensor.0232143未过，rootmin.001623；见 n4-thicker-cut-q015-full-metric。冻结该g/M20/tol1e−8后2484点，metric1.20598e−5/tensor.0232092几乎不变，单独径向精化未解；见n4-w016-q015-radial-plateau。现同g/M24/tol1e−8，tight原Gram系数证明及原门，运行q015-fixed-m24。q0125完整材料canonical圆化lambda.001到2081点触原maxnodes，RMS.0379511/62域拒/15merit拒，无正lambda锚点；见n4-w016-circle-canonical-terminal。改试保物理c8矩的raw路径。新C²网格插值rho下界保留原两界/阈值/32768上限，λ.005同核心由原拒绝变为2048点下界.26731；只过初猜守卫，见n4-circle-second-order-rho-bound。所有新δ/vd仍新设计。
 
 **n4条件窗/旧失败**：R19/19A已证中心对称整像下界、公共H及四重核心+二重帽。eta1/q.02/.022条件held比>.104902/.115401；eta.1/q.049条件>.103812，零控制rho>.234093。实际lambda1/闭合未付；见n4-large-radius-circle-core、n4-large-radius-eta-selection。低幅q001直接lambda.1/材料lambda.15虽BVP接受但metric失败，lambda.2/.175节点门失败；精确lift保留，非入口投影缺失或不存在，见n4-low-amplitude-circle-terminal。
 
