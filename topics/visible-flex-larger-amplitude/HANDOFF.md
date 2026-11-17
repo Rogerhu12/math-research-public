@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 17:01:57 UTC 真实 pull 后核双 README，无新差异，已读提交 f283cfcd6bc9f5da1518180a531ab934c085d1f4。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 17:03:48 UTC 真实 pull 后核双 README，无新差异，已读提交 4f0a23124c4b9a6144cf0f218f696c4c67f8b3d0。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–643/全部源/SHA与失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。β.75整场Gram6.393e−7，pulse0→1整场1.974411e−7；R638严格付q_N/rho全域正性/C²坐标。R640/642分别证成raw/G及规范化pulse全818胞C²嵌入；R641胞804及新旧宽/桥/末三胞连续Gram均≤4.937e−7，尚非全818胞；R643仅raw两胞κ<6.313/7.038，未转G。新hold真到1.02，完整2098胞规范化Gram1.18066e−7/κ6.30194及R638§6正性；续1.04在1.031982域停，末态8192 H负，非父。真1.02另达唯一κ=0接口1.02834963/全962ODE、320模物理trace已刊；同g M160完整482/325/157 BVP初猜准备827节点过有限正域，H余6.55e−9/ODE缺陷.327保持，单次原预算完整BVP失败：首QR后17步全拒、RMS非有限，不作父，RMS两点234/153坏胞已定位；原参考全评价点细分修复在做。SVD .5/.625、R639零目标与fast317实际Gram失败不扩旧场。R633/635排除、R636参考沿用；闭面/D/held/E3含反射/reach/全t/同g精化未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–643/全部源/SHA及失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse完整0→1规范化采样Gram1.974411e−7；R638付C²坐标，R640/642分别付raw/G全域嵌入。R641四胞连续Gram≤4.937e−7，R643仅raw两胞κ<6.313/7.038。model已启动同场固定819片全Gram覆盖，48片时无失败；新源7bcbb9已刊，终态待读。当前更长hold真到1.02：2098胞规范化Gram1.18066e−7/κ6.30194，R638§6全正性；geometry复用同字节旧498胞，只付新1600胞嵌入。真κ=0接口1.02834963/320模trace已刊。首次482/325/157 BVP全17步nonfinite拒绝，RMS域缺口已定位；原额全评价点修补到1529仍坏、下一2465超1800，非父，转同g1.03短边值准备。旧SVD/fast317等失败沿用；实际闭面/D/H/held/E3含反射/reach/全t/同g精化未付。
 
 ## 实际活动run与唯一终态读者
 

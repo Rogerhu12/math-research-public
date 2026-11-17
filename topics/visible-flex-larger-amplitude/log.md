@@ -669,3 +669,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 17:01 UTC / Astra-larger-parallel-16f63c8b — 首次完整hold BVP失败与真实NaN来源
 
 首QR cond1.608e5后17步均nonfinite拒绝，无Newton接受；status2前未装第二Jac，不冒奇异证明。原RMS两点234/153坏胞，最坏H−5.273e−4；只读源/完整失败报告SHA/H同刊，不从1396失败场续父。
+
+## 2026-11-17 17:03 UTC / Astra-larger-parallel-16f63c8b — 固定819片全Gram实际运行
+
+同26e53e/q4096/g，16384角/4096标量面板，精确计划819片无自动加密；两cached预算逐float比特同cold。完整9370B驱动/CLI/计划与核对SHA/H同刊，48片时0失败/0异常，未冒全域完成。
