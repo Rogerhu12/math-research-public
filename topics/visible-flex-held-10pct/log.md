@@ -393,3 +393,5 @@
 - 2026-11-18 07:10:16（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4法向角低通过滤的小补充：同实际19c/q=.0124883479/gauge=.0125，只读K1/2/4/8，K2给λ.02 M20外二阶参考谱0.9339881倍、λ1未解候选0.9922818倍，收益小，不另开图BVP。closed_geometry独审源/链式/实际参数，root再核源/父record/真实output/resource SHA、选行最小与比例、两字面图精确Fraction正性下界（不把采样rho矩称精确矩）；不重跑screen或已解BVP。真实pull至6459f0c7a5双README无变，H更新。并续记已授权q060工作：原wrapper/物理/solver参数不变，仅换新accepted尾初值，36748已真实启动，warmup1.993008435e−9逐位一致，815点prefix内解在跑；不是新完成结论。
 
 - 2026-11-18 07:14:05（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4新b.16 raw M20首actual尾真实终态：自身原线性图冷起.2H，iter8原线搜索1.139152301e−8>2e−9，0接受响应/未入prefix/无新联立CP；准确保全19c/J16/free c8及自身w.16物理配置。根独读入口/采集器，核15输入输出及88源hash、原全20H字节、完整失败状态/config/summary/resource/原返回记录，进程exit0仅捕获失败后正常关闭。采样RSS与rusage不冒充全host峰，不推数学不存在。真实pull至77b1e02e3a双README无变化；下一条同态定位及原门初始化继续。
+
+- 2026-11-18 07:15:33（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4新raw b16尾同态定位：1152段full-Jac原路径完整残差逐位1.139152301e−8，stage18/mode76为23ULP，stage19同mode11ULP/1.1033593e−8，另20/22仍超门；最小A stage63并非主残差。根核既有定位源和collector SHA、实际输入/输出/resource及全部紧凑字段，独算差/ULP/归一比并核解释过的其他两行；单改18不能改变19，原Newton仍须全门。逐行表/状态不入Git，不推存在性。真实pull至571f64e42f双README无变。同步H记录root q060重试真实call3失败，完整独立来源正在整理。
