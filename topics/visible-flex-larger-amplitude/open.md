@@ -122,3 +122,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败；11份历史依赖188321B归同字节主本，原生产basename/cwd不变，完整恢复e22877bb。仅当前manifest路径改，不删独有科学输入/源/状态。
 
 [同输入FFT等价](notes/2026-11-17-parallel-geometry-fullclosed-gram-FFT-equivalence.md)7ab/9c0/882e，完整res/Jv/Jᵀ相对6.61e−14/8.38e−14/9.22e−14，缓存同点V/d；原dense全复用。v1漏__neg__在prepare即退出，未有几何比较；完整可逆源码差异与失败scope保。无新场/solver，旧warm147失败不改。
+
+[唯一模态衰减计划](notes/2026-11-17-parallel-model-fullclosed-mode-damped-plan.md)/[生成结果](notes/2026-11-17-parallel-model-fullclosed-mode-damped-result.md)/[独立读出](notes/2026-11-17-parallel-geometry-fullclosed-mode-damped-readout.md)：632d/9bf60/17697与48624/b361同g/同923 mesh/同R/S/H，前819节点三jet原字；只一次生成与残差，Gram.6551089575、点det .662628，仍失败。prefix s1节点3.6123873e−5，禁止只修尾或A-only；全闭未知量并未冻结prefix。90MB原残差只scratch供后续，不重做基残差。

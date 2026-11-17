@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 20:33:34 UTC 真实 pull 后核双 README，无新差异，已读提交 2b0798bc9702451ede87d7dbe765592fae0050d0。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 20:36:12 UTC 真实 pull 后核双 README，无新差异，已读提交 3a05db3efd380c90288c388e322ae14010bbde88。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](open.md#7-本并行会话的实际数学与几何路线)保完整源/失败/预算。R648全连续Gram<4.94e−7；R651同场全818胞K≤7.04608；R652全819片β1/4支持>.3174736、β2/5>.16747356295，均已自然0，不是闭reach。efe92/1878全Gram与0f/97062原Pr各自原24/20继续，numerical唯一终态。[准确Hold与实际全闭初猜](notes/2026-11-17-parallel-model-fullclosed-hold-warm-and-oracle.md)同26e53显式截M160、923节点/解析圆端口，S/R准确包围及实际401255已生成；只是初猜，未付度量。[全三jet算子实际准备](notes/2026-11-17-parallel-geometry-fullclosed-gram-actual-probe.md)Jv/伴随通过，但旧warm Gram147；[FFT对照](notes/2026-11-17-parallel-geometry-fullclosed-gram-FFT-equivalence.md)全数组差约1e−13，未重算dense；新warm接续刊。完整双积分坐标与964行小块端口投影已证，root实际代数准备。R649障碍/R650流reach及尾/β/标记接口已刊，真正闭解、D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](open.md#7-本并行会话的实际数学与几何路线)保完整源/失败/预算。R648全连续Gram<4.94e−7、R651全K≤7.04608、R652全819 β1/4支持>.3174736/β2/5>.16747356295均已刊，非闭reach。efe92/1878全Gram与0f/97062原Pr各自24/20继续，numerical唯一终态。真正全闭模型M160/923节点/11335680角值行/1332245自由度，准确Hold oracle、三jet圆端口与完整J/FFT对照已刊；原warm401255 Gram147失败保。[唯一mode-damped初猜](notes/2026-11-17-parallel-geometry-fullclosed-mode-damped-readout.md)9bf60/b361实际降至.655109仍不合格，prefix原节点3.6124e−5须一同求解。完整双积分坐标/964小块投影已证，root准备生产尺度与首个全闭方向；尚无闭解。R650流reach/标记接口不替D/H/held/反射E3/reach/全t/同g精化。
 
 ## 实际活动run与唯一终态读者
 
