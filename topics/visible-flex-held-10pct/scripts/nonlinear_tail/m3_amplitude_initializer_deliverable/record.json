@@ -1,0 +1,160 @@
+{
+  "scope": "Specific nonterminal q025 warm-initializer root failure, not a nonlinear amplitude/capacity limit.",
+  "diagnostic": {
+    "scope": "Finite diagnostic of the exact worker initial guess. No accepted nonlinear tail, no capacity bound.",
+    "source_sha256": "68e608d7697da5b601e428a8b3e3766ea36136533afc79de4f625957471ee839",
+    "old_sha256": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+    "new_sha256": "febbe8eb5411b94dd2916f9740da0b9354541eec269c0265ece3a1179348e791",
+    "ratio": 1.2499033683549081,
+    "harmonic": false,
+    "correctInitialBoundary": true,
+    "height_l1": 6.88772099085057e-05,
+    "max_boundary_correction_in_height": 1.4051260155412125e-20,
+    "maximum_relative_linear_boundary_correction": {
+      "relative": 3.139967199137674e-12,
+      "absolute": 2.659474844526653e-08,
+      "node": 10,
+      "base": 8469.753586142626
+    },
+    "M": 16,
+    "quadrature": 256,
+    "shootingParts": 8,
+    "steps": 16,
+    "completed_stages": 38,
+    "first_failure": {
+      "stage": 38,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "rawLeft": 0.125,
+      "rawRight": 0.25,
+      "error": "Error: momentum Newton line search failed"
+    },
+    "local_failure": {
+      "x": 0.78125,
+      "substage": "b",
+      "step": 12,
+      "error": "Error: momentum Newton line search failed",
+      "r": 0.24478825360085882,
+      "w": 0.0011652660197680118,
+      "w_r": -0.00033329797511045205,
+      "E": 1.0000013578448967,
+      "q_linf": 0.0025421220325988836,
+      "p_linf": 59.18059568362576
+    },
+    "local_state_homotopy": {
+      "scope": "Original root with an explicitly supplied previous root as initial guess; unchanged D/S/A guards. This addresses this one local state only.",
+      "reached_lambda": 0.9979912744835021,
+      "passed_full_state": false,
+      "last_minA": 0.05000267138072602,
+      "last_minD": 0.9999970740529609,
+      "trials_count": 40
+    }
+  },
+  "actual_wrapper": {
+    "scope": "Select the original m=3 nonlinear coupler and install its explicit ShortBridge.\n\nOriginal TailMixin, true nonlinear DN, residuals, boundary Jacobian, means,\nacceptance and seam audit are unchanged. This wrapper only installs the\nalready-used flat law and ShortBridge after the source runtime is loaded.\n",
+    "command": [
+      "nonlinear_tail_work/couple_m3_smallcut.py",
+      "--source-root",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+      "--profile",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m16/profile.json",
+      "--chart",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "--linear-port",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m16/port16.json",
+      "--tail-config",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m16/config.json",
+      "--out-prefix",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m16/seed",
+      "--restart",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+      "--amplitude",
+      ".025",
+      "--warp-reference",
+      ".025",
+      "--modes",
+      "16",
+      "--angular",
+      "512",
+      "--audit-angular",
+      "1024",
+      "--nodes",
+      "1201",
+      "--max-nodes",
+      "6000",
+      "--tol",
+      "3e-7",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--node-heap",
+      "2304",
+      "--warmup-scales",
+      "1",
+      "--lagged-tail"
+    ],
+    "source_hashes": {
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_smallcut.py": "5380e1add88bdc45f38df3c351e70b7141542366a7ba1f89dad875ae46cfcdbc",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+    },
+    "source_topic": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "returned": true,
+    "seconds": 26.645579282001563
+  },
+  "trial": {
+    "scope": "New design-amplitude continuation with full actual nonlinear DN, using accepted same-g refined q=.02 pair only as warm data. Prefix delta is solved again; this is not a cross-amplitude fixed-metric refinement.",
+    "target_gauge_amplitude": 0.025,
+    "target_warp_reference": 0.025,
+    "previous_actual_amplitude": 0.020001546225852943,
+    "previous_prefix_sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+    "previous_tail_sha256": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+    "initial_profile_sha256": "b230ce2fb600e136d9582baa8aaa2ec9d0cdb1294e632df5dc7b031635a217ff",
+    "physical_tail_changes": [],
+    "tail_numeric_changes": [],
+    "prefix_numeric": {
+      "modes": 16,
+      "angular": 512,
+      "audit_angular": 1024,
+      "nodes": 1201,
+      "max_nodes": 6000,
+      "tol": 3e-07,
+      "bc_tol": 1e-07,
+      "physical_bc_tol": 2e-09
+    },
+    "root_guards": "Unchanged original m3 worker positive chart/radicand and residual gate."
+  },
+  "failure_summary": {
+    "scope": "Adaptive-chart prefix coupled to the actual weighted finite-tail DN.\n\nDerived db6f continuation runner, using v3 warm remeshing.\nThis changes a finite linear port to a finite nonlinear one. Every physical\nparameter, numerical cutoff, tail response, mean jet and failure is retained.\nFinite-depth convergence and complete closed-surface reach remain separate.\n",
+    "tail_config_sha256": "d6e268015bf97d4bd54a56456270814c53308c0950721fec4217cd153352bde2",
+    "solver_success": false,
+    "linear_dn_ready_max_difference": 0.0,
+    "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+    "tail_calls": 1,
+    "seconds": 24.291630744934082
+  },
+  "output_hashes": {
+    "seed_tail_0001.json.gz": {
+      "sha256": "febbe8eb5411b94dd2916f9740da0b9354541eec269c0265ece3a1179348e791",
+      "bytes": 1339
+    },
+    "worker-trace.jsonl": {
+      "sha256": "1280bf8460cd06f744cfc893a99e2477db682118aeb80655911e8258b6568677",
+      "bytes": 815
+    },
+    "warm-initializer-audit.json": {
+      "sha256": "13bf717cdae23c6a4d29dc1ca08ee658058e96c1d74a0960f9c3232a9fc72239",
+      "bytes": 9410
+    },
+    "config.json": {
+      "sha256": "d6e268015bf97d4bd54a56456270814c53308c0950721fec4217cd153352bde2",
+      "bytes": 2351
+    }
+  },
+  "parent_package_manifests": {
+    "m16_parts8": "f728b3720f681942472645b749b1e21903a0bc816421687c676edff34d829e7b",
+    "radial_refinement": "2e14562265619189d2fb9c2ef83e754b9c5a15ad88ffe0434d6df814c286107b"
+  }
+}

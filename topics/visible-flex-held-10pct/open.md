@@ -85,3 +85,5 @@ O13双模更新：实际原n4端口下root03同时使mode4/8有限线性条件�
 O9径向层已实解：同整g M16从983到2462节点，实际C²图metric降85倍至5.845e−11，tensor降4.63倍至1.947e−6；真正尾仍原门接受。见m3-true-radial-refinement。全闭表示的同g误差仍待合并，增幅另行设计。
 
 O13双模首解：λ0 q005/M6设计已求出，冻结完整δ/vd后M8 metric4.262e−6→5.733e−7，tensor .002042→.0003271；核心幅度和c8为未知，非固定core。角谱诊断定位遗漏28/32模。仍需圆化、真实非线性尾、完整闭合与更多同g层，见double-prefix-first-and-fixed-g。
+
+O9增幅初始化：q025首个momentum坏状态已原式复现，局部同伦触原A floor .05，未到完整shoot/prefix，非真实容量结论。小步q021和直接旧accepted全部states作原shoot初值的对照继续；新cut残差必须由原Newton/线搜索支付。
