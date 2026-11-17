@@ -367,3 +367,5 @@
 - 2026-11-18 06:38:26（UTC+8）｜Astra-held10-7322d0de-20261118：发布raw λ.02/M24固定核心/固定g的完整节点门失败：从实际M20全19控制/旧2282点保留升模，4460点后要求再加4906将超6000；RMS.0032079043/BC4.3340368e−6未过，39domain/26merit/5accepted/2no_step。root已核collector、70运行源、输入/失败CP全分块、profile、完整标量树、原trace/resource/source/output hash；无accepted M24、没有完整metric审计，也不是时限取消/未知worker失败。新主宽度探针/新设计另条，不推数学不存在。
 
 - 2026-11-18 06:41:01（UTC+8）｜Astra-held10-7322d0de-20261118：发布actual n4 M24/parts16同物理g完整接受：1930点/4次原真实尾，末尾9.82471e−10且完整Jac/audit返回，原全profile/port/Lbin/core settings保持；root核70prefix、8tail、4periodic源/包装差异、全部CP分块和运行文件、全部标量抽取。prefix metric较M20升4.18倍仍8.15575e−9，flow升5.26倍，Darboux降29.7%；两jet缝及尾全误差明确，非单调metric/连续闭合/任意ε。仅λ0真联合更高层，不机械M28；新raw核真尾接入继续。
+
+- 2026-11-18 06:41:46（UTC+8）｜Astra-held10-7322d0de-20261118：发布M16实际全15控制的λ1端点原rho预检：bp/bc=.08/.16、.08/.4、.32/.4均原门通过，完整控制峰.0939611/.0198064/.0198064；保输入q/全c、显式新核设置。root核11源、输入控制身份、两输出hash/命令/三标量行，并核probe源码仅增加optional round-transition。保持数值allowance与严格证书分开；R40只支付初始profile窗口，R38的高q预算不赋给当前q。新b32入口的M16谱权衡明确，不叫最优或BVP成功。

@@ -28,6 +28,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--checkpoint', type=Path, required=True)
     p.add_argument('--control-transition', type=float, action='append')
+    p.add_argument('--round-transition', type=float)
     p.add_argument('--homotopy', type=float, default=1.)
     p.add_argument('--samples', type=int, default=32768)
     p.add_argument('--out', type=Path, required=True)
@@ -60,6 +61,8 @@ def main():
     for width in widths:
         settings = dict(initial_settings, homotopy=a.homotopy, control_transition=width,
                         arc_nodes=4096)
+        if a.round_transition is not None:
+            settings['transition'] = a.round_transition
         # The zero-control core is only a background for evaluating the same
         # explicitly defined complete control function if the actual guard fails.
         baseline = Core(q, np.zeros_like(c), 3, **settings)
