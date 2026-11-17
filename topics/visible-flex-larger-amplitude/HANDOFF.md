@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–635与全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向标量真到.997，M112/M128 Gram2.754e−6/5.879e−6，.998/.999未接受。Schur M112实际2.421e−6仍超门，M128在跑；onlyZ109谱边界真解中，全段可达选行cond5.46e11→2.37e8仅线性。新[短IVP目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)完整.995→.997两容差系数差1.93e−13而Gram2.111e−6，外推误差不能独自解释超门。弱mean-LP400步仍未接受。固定a依R240共用材料规范，不冒rho逐点固定；R633/635排除指定旧外向组合，R634仍条件于R/L。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–635与全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向标量真到.997，M112/M128 Gram2.754e−6/5.879e−6，.998/.999未接受。Schur M112实际2.421e−6仍超门，M128在跑；onlyZ109谱边界真解中；[固定SVD109组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)cond6.85e7，父目标线性末修正6.807e−4、不可达残差4.47e−8，尚未新BVP。新[短IVP目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)完整.995→.997两容差系数差1.93e−13而Gram2.111e−6，外推误差不能独自解释超门。弱mean-LP400步仍未接受。固定a依R240共用材料规范，不冒rho逐点固定；R633/635排除指定旧外向组合，R634仍条件于R/L。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 
