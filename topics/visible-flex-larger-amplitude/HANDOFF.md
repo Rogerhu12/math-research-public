@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 19:13:39 UTC 真实 pull 后核双 README，无新差异，已读提交 bdb1b6e442c718c6299af5081fef6671ab4b3650。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 19:16:08 UTC 真实 pull 后核双 README，无新差异，已读提交 0072d0f7b9ffb47157778772d40239396e30940d。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整结果/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse/hold已付坐标/嵌入、指定胞Gram/曲率及同像距离；旧Pr602/quintic失败非父。R647完整Pr/全二次谱/直接Gram全局rho Jacobian与ef81积分T/7aff完整列尺度已付，后者尚无新Gram solve/镜像约束；最小jerk共同A已证且不能改变固定Y/U的节点Gram。[两证书e024续跑](notes/2026-11-17-parallel-model-fixed-certificates-interruption-recovery.md)保原819/818计划，复用旧710份Gram及58整曲率胞/λ56，逐call续算。[原LM真实终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)927f/8fa6原额20接受/20方向结束、未收敛：SSE4.83988e−8、node1.738e−5/mid3.406e−5、cubicGram7.136e−5；90b8报告/bf5a完整Y/U/A已出，非父，geometry独立读C²。2754原1662 T单方向已真实结束，完整结果接刊；numerical准备后继预算。model读两证书，闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整证明/失败/身份见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638–646已付pulse/hold坐标、嵌入、指定胞Gram/曲率及同像距离；R647付完整Pr/全谱/直接Gram全局rho Jacobian、积分T/全列尺度、最小jerk节点不变性。[原LM终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)20/20未收敛，bf5a的cubicGram7.136e−5，非父。[T单方向实际结果](notes/2026-11-17-parallel-numerical-integrated-direction-result.md)原1662/全行/新步范数/µ1/128：SSE3.48127e−6、分支样点正，但Gram7.506e−4、istop7；numerical准备新固定512预算，geometry实际C²结果接刊。两证书e024保原计划/已完片复用：Gram已819/819真实全返、上界4.94e−7，完整证明接刊；曲率818胞继续，model唯一读者。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 

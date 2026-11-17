@@ -817,3 +817,7 @@ R647从既有R227差式给唯一SPD三对角最小jerk选择，完整自然端/D
 
 43171B旧launch记录与保留主本及ddf18186历史逐字相同，仅manifest当前relative file改指；历史absolute映射/original_file/SHA/bytes/状态不动。完整恢复/H同刊；open仅§7压缩并固定ddf全部原文，§1–6逐字保持。
 
+## 2026-11-17 19:17 UTC / Astra-larger-parallel-16f63c8b — 积分坐标唯一方向真实终态
+
+2754原1662全580328行/原BC/同g、复用7aff，µ1/128 istop7；真实满步SSE3.48127e−6/ratio.99999953，原Jᵀ余项156.634对旧缓存543.602。8192分支全正但Gram7.50580e−4，改变步范数及未收敛边界、de935/eb3e5身份/note/H同刊，无额外方向。
+
