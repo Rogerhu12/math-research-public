@@ -596,3 +596,176 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
 ```
 
 原warm、Problem、角基与scalar SHA承接前节；新源入口/出口核全部身份。原数组与含计时的报告在仓库外，重跑文件SHA可因计时/路径改变。
+
+## 附：直接度量残差及含核心回传的完整 Jacobian
+
+2026-11-17，parallel-geometry 与 root，AI 辅助。**本稿是数学备选与一次完整算子诊断，不是新求解结果。** 原 927f retained-Pr LM 及其保总预算恢复不变。下文 A 已完成一次指定方向的前向/伴随核对，B 仅作纸面推导；没有据此运行新 linear/nonlinear solve、修改原验收门或声称新父场。直接 Gram 优化已有独立高度路线；本节新增范围是当前全部独立 Y/U 变量、同一核心密度及其跨全部径向配点的准确回传。
+
+### 1. 对象与两个有限目标
+
+保留原 J=602 个节点、M=160、N=2048、每节点位置/速度各 n=3M+2=482 槽，以及原 482 条边界。每个节点与真实共同三次 Hermite 中点都使用同一个有限角场。记旋转架向量合成为 S_Y，真实角导为
+
+$$D_\phi=\partial_\phi+\Omega,\qquad
+\Omega(v_R,v_T,v_Z)=(-v_T,v_R,0),\qquad
+v=S_YU,\quad d=D_\phi S_YY,\quad Q=d\cdot d.$$
+
+固定既有正标量 a(s)。唯一核心变量取自左端位置
+
+$$c_j=(Y_0)_{R,j},\quad \nu_j=2j,\qquad
+\rho(\phi)=1+\sum_{j=1}^M(1-\nu_j^2)c_j\cos\nu_j\phi.\tag{G1}$$
+
+常数 1 固定；即使一次试探的原边界尚有残差，也不把它改成 Y0 的 R 常数项。所有径向配点使用同一 (G1)，不能改用各点 Y_R 重新定义 rho。设
+
+$$\delta\rho=\sum_{j=1}^M(1-\nu_j^2)\delta c_j\cos\nu_j\phi.\tag{G2}$$
+
+所有 j 都参与 unrestricted Jacobian，包括另有 BC 约束的前三系数。边界行不等于从变量中删除这些槽。
+
+**A：多项式完整谱目标。** 定义
+
+$$p_0={v\cdot d\over a},\qquad p_1={Q\over a^2}-\rho^2,
+\qquad p_2=v\cdot v-1.\tag{G3}$$
+
+p0 为 sine 1..2M，p1、p2 为 cosine 0..2M，最高物理角频均不超过 4M。完整输出共 6M+2=962；p1 的 rho² 常数及 p2 的 −1 都保留。每个配点的这些系数全零，当且仅当三个原多项式逐角为零。节点、中点、BC 行数仍分别为 579124、578162、482，共 1157768 行，对全部 580328 个 Y/U 未知；没有另删状态或边界。
+
+**B：相对 Gram 的角值目标。** 在 rho>0 时定义
+
+$$f={p_0\over\rho}={v\cdot d\over a\rho},\quad
+g={p_1\over\rho^2}={Q\over a^2\rho^2}-1,\quad e=p_2.\tag{G4}$$
+
+实际相对度量误差矩阵是 [[e,f],[f,g]]，其算子范数依既有 R251 计算。这里的目标若取三个分量平方和，并不等于矩阵 Frobenius 平方和；后者须将 f 权乘 sqrt(2)。这只是明确权重，不改变零点。
+
+(G4) 一般是无限角谱的有理函数。固定 N 个角值的目标及其 DFT 是明确的有限离散对象，不能称为截止 2M 的完整连续谱。若 N>8M、所有角节点 rho 非零，(G4) 在全部 N 点准确为零，则 (G3) 在这些点全零；次数不超过 4M 的三角多项式由此恒零。此准确零点结论不把小样本残差升级为连续上确界，也不单凭角网正性证明整个 rho>0。
+
+### 2. A 的完整前向与伴随
+
+a 不作为设计未知。直接微分 (G3) 得
+
+$$\begin{aligned}
+\delta p_0&=(\delta v\cdot d+v\cdot\delta d)/a,\\
+\delta p_1&=2d\cdot\delta d/a^2-2\rho\delta\rho,\\
+\delta p_2&=2v\cdot\delta v,
+\end{aligned}\qquad
+\delta v=S_Y\delta U,\quad\delta d=D_\phi S_Y\delta Y.\tag{G5}$$
+
+用平均角点内积 <u,v>_N=N^−1 sum(u v)。输出投影为 P_C=N^−1 D_C S_C^T，其中 cos 常数的 D_C=1，其余 cos/sin 槽为 2。给完整输出系数权 w，令 eta=S_C D_C w，故 w^T delta(P_C p)=<eta,delta p>_N。输出空间用 2M，输入空间仍用 M。
+
+记
+
+$$A={\eta_0v\over a}+{2\eta_1d\over a^2},\quad
+B={\eta_0d\over a}+2\eta_2v,\quad \beta=-2\rho\eta_1.\tag{G6}$$
+
+周期平均内积下 D_phi 的伴随是 −D_phi；旋转连接 Omega 的反对称性必须保留。令 S_Y^*=N^−1 S_Y^T=D_Y^−1 P_Y，则每个配点的局部梯度为
+
+$$g_Y=S_Y^*(-D_\phi A),\qquad g_U=S_Y^*B.\tag{G7}$$
+
+此外，rho 在全部节点和中点都依赖同一 Y0。将所有配点的 beta 相加后，必须额外累加
+
+$$ (g_{Y_0})_{R,j}\mathrel{+}=
+(1-\nu_j^2)\left\langle\sum_\ell\beta_\ell,
+\cos\nu_j\phi\right\rangle_N,\qquad 1\le j\le M.\tag{G8}$$
+
+式 (G8) 不作用于 U0，也不作用于 Y0 的 T/Z 或 R 常数槽。非零余弦的这个平均是 P_cos(beta) 的一半；沿原 real-FFT 的 S_Y^* 读法恰好自动包含该因子。不可额外乘 2，也不可遗漏全部远处配点对核心的贡献。局部 Y0 作用和 (G8) 是两条不同链，均须保留。
+
+eta 最高物理频率 4M，乘 v、d 或 rho 后不超过 6M。因此复用直接全乘积 FFT 的 N>12M 即可；当前 2048>1920。求欧氏输入梯度前不能把 eta 先截回 M。前向与伴随均只需 d 及一次真实一阶角导：没有原残差中的 e=F_phiphi，也没有原伴随 D_phi²(eta1 v) 项。若展开 D_phi A 会出现 d_phi，但实现可直接对完整 flux 作一次 D_phi，无须显式构造二阶角 jet 或二阶角导矩阵。
+
+上述公式直接来自有限求和及分部转置，包含 rho 的全部一阶影响；并未把残差权或密度冻结在旧核心。高频系数 (1−nu²) 的实际尺度也不能省略。实现上 delta-rho 只合成一次，beta 只需跨配点求和后回传，不必显式存储稠密全局矩阵。
+
+### 3. B 的完整前向与伴随
+
+直接微分 (G4)：
+
+$$\begin{aligned}
+\delta f&={\delta v\cdot d+v\cdot\delta d\over a\rho}
+             -{f\over\rho}\delta\rho,\\
+\delta g&={2d\cdot\delta d\over a^2\rho^2}
+             -{2(g+1)\over\rho}\delta\rho,\\
+\delta e&=2v\cdot\delta v.\tag{G9}
+\end{aligned}$$
+
+对于明确的平均角点配对 <w0,delta f>_N+<w1,delta g>_N+<w2,delta e>_N，改用
+
+$$A={w_0v\over a\rho}+{2w_1d\over a^2\rho^2},\quad
+B={w_0d\over a\rho}+2w_2v,\quad
+\beta=-{w_0f+2w_1(g+1)\over\rho}.\tag{G10}$$
+
+局部梯度和全局 core 回传仍为 (G7)–(G8)。若程序输出未缩放的 N 个角值，欧氏输出权 w_euc 应在 (G10) 中变成 N w_euc；若输出除以 sqrt(N)，则变成 sqrt(N) w_euc。固定径向权同理进入完整链。若另外采用依赖 rho 的权或测度，必须再微分该权，不能仅用 (G10)。
+
+有理乘积一般不带限，所以这里不宣称 N>12M 已对连续有理积分去混叠。但同一固定角网的离散 Fourier 一阶导算子仍是反对称矩阵，故 (G7)、(G8)、(G10) 是该有限角值目标的准确离散伴随。对实际输入有限模的 D_phi 和其转置用同一规范即可；此结论不需要把有理函数冒为低频多项式。
+
+### 4. 全径向链、same-g 范围及有限模型区别
+
+每胞长度 h 的真实 Hermite 中点是
+
+$$Y_m=(Y_i+Y_{i+1})/2+h(U_i-U_{i+1})/8,\quad
+U_m=3(Y_{i+1}-Y_i)/(2h)-(U_i+U_{i+1})/4.$$
+
+给该点局部梯度 (b,c)，其转置贡献为
+
+$$\begin{array}{ll}
+Y_i:\ b/2-3c/(2h),&Y_{i+1}:\ b/2+3c/(2h),\\
+U_i:\ hb/8-c/4,&U_{i+1}:\ -hb/8-c/4.
+\end{array}$$
+
+原 BA/BB 边界转置不变；(G8) 在上述局部回传之外另加至唯一核心。A/B 的局部速度 Jacobian 的角长度组都为零，不能照搬原方形 C_U 的逐节点逆或加速度消元。完整 Hermite 耦合的矩形最小二乘可直接使用全 Jv/J^T；计数和伴随正确均不保证可逆、存在性或迭代收敛。
+
+[R240](R240-canonical-material-metric-and-refinement.md) 已证明：固定 a、区间、周长常数 1，且同一候选的 rho 与 s 无关并处处为正，则各核心对应的 ds²+a²rho² dphi² 都拉回同一 ds²+a²dtheta²。这里直接复用，不重证。固定 phi 网格优化时，无须额外加入逆材料角 psi_c 的导数；但其无权 phi 离散平方和本身不等于固定材料 theta 网格的平方和。若改成固定 theta 采样或 rho dphi 测度，则必须加入相应坐标或权导数。最终连续相对算子上确界的同-g 识别沿 R240 有效，有限角点最大值仍须单独覆盖。
+
+### 5. 连续等价、配点不等价及准确核心反例
+
+若 F 为 C²、F_s=v，rho 与 s 无关，则 R647 的已有恒等式为
+
+$$Q_s=2kQ+2(\partial_\phi r_0-r_1),\qquad
+r_0=v\cdot d,\quad r_1=v\cdot F_{\phi\phi}+kQ,\quad k=a'/a.$$
+
+因而在整个连续区域 p=0 时，Q_s=2kQ 且 r0=0，推出 r1=0；r2=p2=0。反向若连续 r0=r1=r2=0，且在一条初圈准确有 Q=a²rho²，则输运恒等式给整个区域 p=0。连接到严格正支显式 Frenet 公式还需原 Q/W/H 及取向条件；直接度量方程本身没有引入这些分母。
+
+只在有限径向节点/中点令 p=0，不能对其零值作径向微分，因此不等价于旧 Pr 配点方程。r1 可作后验诊断，不能暗中变成这条备选的额外接受门。小残差到真实胞内度量、共同 C² 场及最终闭面的责任也没有消失。
+
+该区别在核心已有精确反例。取准确 support core、a(0)=1、a'(0)=0，rho>0，故 d=(0,rho,0)、e_angle=(−rho,rho_phi,0)。令旋转架速度常数
+
+$$v=(3/5,0,4/5).$$
+
+它在现有有限 cos/sin/cos 空间内，满足 p0=p1=p2=0，且 v·(d×e_angle)=4rho²/5>0，却有 r1=−3rho/5≠0。映射 F(s,phi)=F(0,phi)+s v(phi) 给这些字面初 jet，故并非忽略 F_s=v 造成的例子；只是该映射不在整个 s 区间等距。一般核心直接 Gram 零点只强迫 U_T=0、U_R²+U_Z²=1，不能沿用旧 Pr 核心唯一性断言 U_R=0、U_Z=1。
+
+### 6. 可选镜像模型须明定新增选择
+
+若未来执行直接 Gram 的镜像版本，可显式约束完整 U0=e_z：横向全部模为零、竖向常数为 1、其余竖向模为零，同时保原边界。这是新的有限模型额外线性条件，或一个明确的 affine projector，不能冒与原 Pr 方阵同一离散问题。先形成上述 unrestricted 全 Jacobian，再将允许方向及相应转置投至该 affine 切空间；核心 rho 仍随所有被允许的 Y0_R 方向完整变化。
+
+随后若从 Y/U 构造公共二 jet，可明确选择核心 A0_Z=0，并对其他节点及分量说明唯一规则。准确核心平面 Y0_Z=0、U0_XY=0、A0_Z=0 才给上下镜像所需的字面 C² 接缝。该 A0 选择及任何更改都属于新共同五次候选，必须重新支付实际胞内 Gram/曲率，不能把有限容差下的近零视为准确接缝。
+
+R230 §2 已有共享差分二导只用于水平分量，Z 仍用保存 Zrr；本节不把它冒称全三分量新数据的已付误差结论。这里也没有实际构造或接受这样的镜像新场，更没有修改正在恢复的 927f 模型。
+
+### 7. A 的一次真实完整算子诊断
+
+root 已对原 1662 暖场、同一 N2048/602 节点/原边界执行一次 A 算子诊断。parallel-geometry 只读核了新源、报告及 SHA，没有重复运行。源码 `parallel_20261117_direct_gram_matrix_free.py` 的 SHA256 为 `5b5ebf5276ab73109859fc03cade7716ca3a6941bb5a5f19890673447db735e6`；外部报告 `parallel-root-direct-gram-matrix-free-probe.json` 的 SHA256 为 `c42f36f14c2ea6be15342308b7aaca983c79648f48becaf3b8a58809f940a81b`。
+
+原输入 SHA256 `1662ee34a820776570c7535ee5735812d7e7a27822901849c211a89992629057`。完整 Problem、角基、scalar 与原矩阵源 ff65 的身份在报告中逐一绑定，并在入口/出口复核。源的 `new_mirror_velocity_constraints_enforced=false`：第 6 节的新核心速度约束尚未执行，B 也没有实现。
+
+| 本次完整 A 目标 | 节点最大系数 | 实际中点最大系数 |
+|---|---:|---:|
+| p0 | 2.925973211833833e−6 | 1.4920495346823297e−6 |
+| p1 | 1.9486271963589152e−6 | 1.8112358523576386e−6 |
+| p2 | 2.98523375039692e−6 | 1.3927808621411441e−6 |
+
+完整多项式 raw SSE 为 `1.4951624510753042e−9`，原 BC 最大余项 `4.163336342344337e−17`。这与原 Pr 是不同目标和不同量纲权重，不能通过两个 SSE 的数值大小声称求解改善；这些系数最大值也不是相对算子连续上界。
+
+在预先明定、含真实 core 变分的全部变量方向上，1157768 行 Jv 与独立原角 jet 的 complex-step 比较，相对 L2 差 `5.3454511544584116e−14`，最大差 `3.655929725621121e−16`。完整伴随内积分别是 `−.0017717097040731873`、`−.0017717097040731214`，绝对差 `6.593293873515633e−17`，相对内积差 `3.7214301295283033e−14`。
+
+另将唯一输出权置于最后节点 p1 的余弦 mode 7，得到非局部 core 梯度最大绝对值 `390.1990795425255`。它与直接余弦有限和按 (G8) 计算的最大差为 `1.0175905782521032e−9`，明确没有写成零。该权位于远端，而 core 与远端局部位置是独立变量，故此核对实际消费了目标密度的全域回传，不是只核局部几何链。
+
+新缓存只保 d/V，共 `118259712` 字节；Jv/J^T 实际耗时 `.161884409/.144902926` 秒，整个诊断 `3.421906538` 秒，峰 RSS `329300` KiB。以上是指定方向和一次内积的普通 binary64 证据，不冒全矩阵区间误差证书。没有线性系统求解、非线性迭代、物理接受父或连续 metric 证书。
+
+从仓库根运行，WORK 指向原输入及外部输出目录：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
+ topics/visible-flex-larger-amplitude/scripts/parallel_20261117_direct_gram_matrix_free.py \
+ --topic topics/visible-flex-larger-amplitude \
+ --problem-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_newton.py \
+ --warm "$WORK/parallel-hold-m160-short-bvp-warm.json.gz" \
+ --polynomial-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_probe.py \
+ --matrix-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_matrix_free.py \
+ --out "$WORK/parallel-root-direct-gram-matrix-free-probe.json"
+```
+
+含路径和计时的输出字节可随重跑改变。原暖场、矩阵、scalar 或新源任何身份改变，都不是这份固定诊断的复现。
