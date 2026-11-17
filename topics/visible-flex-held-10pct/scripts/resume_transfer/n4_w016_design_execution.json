@@ -1,0 +1,420 @@
+{
+  "scope": "Actual double-root design for a newly generated, thicker physical tail cut.\n\nThe port must come from the original worker under the new physical metric.\nNo nonlinear embedding or finite-amplitude geometry is established here.\n",
+  "argv": [
+    "topics/visible-flex-held-10pct/scripts/resume_transfer/n4_thicker_cut_design.py",
+    "--source-root",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle",
+    "--port",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json",
+    "--profile",
+    "/workspace/scratch/7322d0dee069/n4_work/vu035-profile.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/design"
+  ],
+  "source_sha256": "d69be50bb1e4c36d04f5df13dd91fe6b9c8fba60830dd990d4774870b718e2d7",
+  "dependencies": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/even_circle/double_resonance_linear/physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json": "b7f572c5dcb04b355c1dec7da5908bb0a30a5ac8e0b89c0919990438c399abb5"
+  },
+  "input_profile_sha256": "c3bc9f79067e443722b7ffd3119a0c6ecec0d4b3e4ece2d2a6145f482eeb9ee1",
+  "amplification_source_sha256": "edd760ec34c623ce1030dcb1ad89531b68cde37403c6d8cd227108d39bd7f468",
+  "rows": [
+    {
+      "peak_fraction": 0.2,
+      "trace": [
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0003695979577317532,
+            -0.3959060982223145
+          ]
+        },
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0003695979577317532,
+            -0.3959060982223145
+          ]
+        },
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0003695979577317532,
+            -0.3959060982223145
+          ]
+        },
+        {
+          "delta": 0.03001627200926127,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0003695959068368247,
+            -0.39590483020485456
+          ]
+        },
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349508587962,
+          "tau": [
+            0.000369598402865955,
+            -0.395904739622261
+          ]
+        },
+        {
+          "delta": 0.03010682297834116,
+          "vd": 0.24862248498672038,
+          "tau": [
+            5.316121871859892e-07,
+            -0.14434272921951474
+          ]
+        },
+        {
+          "delta": 0.03011869561179172,
+          "vd": 0.24906883540935834,
+          "tau": [
+            -3.4837272970974404e-07,
+            -0.08107134763906847
+          ]
+        },
+        {
+          "delta": 0.030133665448444324,
+          "vd": 0.24964378380513222,
+          "tau": [
+            -2.550767154523263e-07,
+            -0.026434276841853614
+          ]
+        },
+        {
+          "delta": 0.030140878088131144,
+          "vd": 0.24992255925090692,
+          "tau": [
+            -1.0232149164572739e-07,
+            -0.006702085272808737
+          ]
+        },
+        {
+          "delta": 0.030143321804137677,
+          "vd": 0.2500174356997134,
+          "tau": [
+            -1.5285289539431606e-08,
+            -0.0007234568716067327
+          ]
+        },
+        {
+          "delta": 0.03014361698974463,
+          "vd": 0.25002893629077855,
+          "tau": [
+            -5.371985753091531e-10,
+            -2.163713665073318e-05
+          ]
+        },
+        {
+          "delta": 0.03014362608152943,
+          "vd": 0.25002929120916406,
+          "tau": [
+            -2.064267217392656e-12,
+            -6.050199347968718e-08
+          ]
+        },
+        {
+          "delta": 0.03014362610696329,
+          "vd": 0.25002929220680237,
+          "tau": [
+            -2.003782171418263e-15,
+            9.148359322324032e-11
+          ]
+        },
+        {
+          "delta": 0.030143626106924344,
+          "vd": 0.25002929220531817,
+          "tau": [
+            1.3556573728450734e-16,
+            8.388606157721292e-13
+          ]
+        }
+      ],
+      "profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.35,
+        "ramp": 0.45,
+        "vd": 0.25002929220531817,
+        "delta": 0.030143626106924344
+      },
+      "optimizer_success": true,
+      "optimizer_message": "The solution converged.",
+      "tau": [
+        9.19062178139379e-14,
+        -2.5283451327785876e-10,
+        -0.6655822389411818,
+        -0.2664051594470058,
+        -0.05732067601463362,
+        0.016841918096691427,
+        -0.10008747516044789,
+        0.8953280496045242,
+        0.0823170701522931,
+        0.02078323290119143,
+        -0.015095407545310633,
+        0.08082535907263785
+      ],
+      "H_per_unit_core_support": [
+        0.0006827234702293825,
+        -0.00028010204002542585,
+        6.342269259244446e-09,
+        -1.2647638180530496e-12,
+        -9.273124153282703e-16,
+        -4.326993892723376e-18,
+        1.7923730522801605e-20,
+        6.120002782049503e-22,
+        9.030720172656756e-27,
+        8.462358318967184e-30,
+        6.289003585408715e-32,
+        -9.72919252567641e-35
+      ],
+      "double_root": true,
+      "background": {
+        "background_height": 0.7749896780296218,
+        "sample_ball_radius_with_cylinder": 1.2896538098913777,
+        "sample_ball_D_with_nominal_tail": 2.5793076197827554,
+        "nominal_tail_rise": 0.05,
+        "background_curvature_sample": 5.561280520620439,
+        "elementary_background_curvature_upper": 5.5814058377149305,
+        "minimum_root": 0.016023432554340133,
+        "radius_max": 1.0301436261069243,
+        "length": 1.30644016484189,
+        "first_positive_K": 0.08612464601978385,
+        "circle_loss_div_R": 0.1693515575347998,
+        "circle_loss_quad_error": 1.8801799843126664e-15,
+        "circle_loss_div_R_elementary_lower": 0.1521328811358344,
+        "required_halfwidth": 0.147,
+        "characteristic_window_consumed_sample": true,
+        "characteristic_window_consumed_elementary": true,
+        "scope": "Actual new round background samples and characteristic-window diagnostics. Tail rise .05 is a nominal budget, not an enclosure. No full candidate diameter/reach claim.",
+        "assumed_circle_radius": 1.882
+      },
+      "along_rows": [
+        {
+          "mode": 4,
+          "max_abs_F": 0.9999999999999997,
+          "s_F": 0.0,
+          "max_abs_G": 0.12256916390412545,
+          "s_G": 0.15659026549051608,
+          "max_abs_F_over_radius": 0.9999999999999997,
+          "s_F_over_radius": 0.0,
+          "core_tau": 6.931150764980073e-17,
+          "relative_terminal_height": 0.0006827234702290696
+        },
+        {
+          "mode": 8,
+          "max_abs_F": 11.015562950949226,
+          "s_F": 0.3292450575559127,
+          "max_abs_G": 1.2922661301258467,
+          "s_G": 0.3292450575559127,
+          "max_abs_F_over_radius": 10.987064760743277,
+          "s_F_over_radius": 0.3292450575559127,
+          "core_tau": 8.550847288428796e-13,
+          "relative_terminal_height": -0.0002801020396859374
+        }
+      ]
+    },
+    {
+      "peak_fraction": 0.01,
+      "trace": [
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0005473740329337335,
+            -0.9992208885163674
+          ]
+        },
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0005473740329337335,
+            -0.9992208885163674
+          ]
+        },
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0005473740329337335,
+            -0.9992208885163674
+          ]
+        },
+        {
+          "delta": 0.03001627200926127,
+          "vd": 0.24824349138676333,
+          "tau": [
+            0.0005473719780735704,
+            -0.9992210416702789
+          ]
+        },
+        {
+          "delta": 0.030016271561983967,
+          "vd": 0.24824349508587962,
+          "tau": [
+            0.0005473744811060787,
+            -0.9992210557521397
+          ]
+        },
+        {
+          "delta": 0.02962975020245279,
+          "vd": 0.2290690331696564,
+          "tau": [
+            -0.00016985090272831656,
+            -0.2368325141327872
+          ]
+        },
+        {
+          "delta": 0.02944279601044746,
+          "vd": 0.22377546749774246,
+          "tau": [
+            -6.029944020778602e-05,
+            -0.22785438864348156
+          ]
+        },
+        {
+          "delta": 0.02805677552912201,
+          "vd": 0.20746556343394754,
+          "tau": [
+            0.003944710956086257,
+            -0.20810591245096446
+          ]
+        },
+        {
+          "delta": 0.028537887113903645,
+          "vd": 0.22651684126352847,
+          "tau": [
+            0.004601136906222279,
+            -0.2207687803392334
+          ]
+        },
+        {
+          "delta": 0.02698945448532613,
+          "vd": 0.2021084296887397,
+          "tau": [
+            0.008268943840374125,
+            -0.19972657202465388
+          ]
+        },
+        {
+          "delta": 0.02698945488750034,
+          "vd": 0.2021084296887397,
+          "tau": [
+            0.008268941825529499,
+            -0.1997265746886178
+          ]
+        },
+        {
+          "delta": 0.02698945448532613,
+          "vd": 0.20210843270039,
+          "tau": [
+            0.008268944374620111,
+            -0.19972657252746973
+          ]
+        },
+        {
+          "delta": 0.02636239910607579,
+          "vd": 0.20113113854092224,
+          "tau": [
+            0.011273637334620862,
+            -0.19545071305092007
+          ]
+        },
+        {
+          "delta": 0.025109834776370518,
+          "vd": 0.19912046795363933,
+          "tau": [
+            0.01749381584411492,
+            -0.18708691706799024
+          ]
+        },
+        {
+          "delta": 0.02261231123359985,
+          "vd": 0.19483630853740053,
+          "tau": [
+            0.03085438613248235,
+            -0.17071475263562383
+          ]
+        },
+        {
+          "delta": 0.017664797948259734,
+          "vd": 0.18480976972585889,
+          "tau": [
+            0.06196642398462774,
+            -0.13728286057467576
+          ]
+        },
+        {
+          "delta": 0.011017445696234064,
+          "vd": 0.1257801030283549,
+          "tau": [
+            0.10337509302069052,
+            -0.0850245430490052
+          ]
+        }
+      ],
+      "double_root": false,
+      "error": "ValueError('Invalid physical profile')"
+    }
+  ],
+  "seconds": 3.2931977289990755,
+  "raw_summary_sha256": "73ebc0ef0f07742a176f56681cfe70a3f10b1c974bc68ae22a8727f21769bc50",
+  "port_generation": {
+    "command": [
+      "python",
+      "topics/visible-flex-held-10pct/scripts/even_circle/double_prefix_first/export_original_worker_port.py",
+      "--source-topic",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+      "--config",
+      "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-config.json",
+      "--out",
+      "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json"
+    ],
+    "source_sha256": "d877903064fdee3760dde0e407c84b2500b21492b7365d4e6cf389d8a87cdddf",
+    "config_sha256": "d17f869cd3738d957021ed2e846a349a1f0edd12c05e39bcf8571fc56ead7020",
+    "output_sha256": "b7f572c5dcb04b355c1dec7da5908bb0a30a5ac8e0b89c0919990438c399abb5",
+    "physical_cut": {
+      "radius": 0.30000000000000004,
+      "backgroundSlope": 0.1599999999999997,
+      "backgroundSecond": -3.7333333333333263,
+      "E": 1.0255999999999998,
+      "Ep": -1.194666666666662
+    },
+    "first_four_slopes": [
+      31.376146246799404,
+      60.48785483556617,
+      74.13386964076072,
+      75.67782559005552
+    ],
+    "original_worker_sources": {
+      "client_sha256": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+      "config_sha256": "d17f869cd3738d957021ed2e846a349a1f0edd12c05e39bcf8571fc56ead7020",
+      "source_sha256": {
+        "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+        "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+        "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+        "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+        "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+        "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+        "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+        "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+      }
+    },
+    "scope_note": "The inherited exporter docstring says m3; its executable uses the supplied spacing=4 and returns modes 4,8,...,96 without editing frequencies."
+  }
+}
