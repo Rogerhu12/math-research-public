@@ -107,6 +107,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **有限尾与实际DN。** [best4短bridge](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)完整22键primitive配方、finite-far32深列与源均刊；材料M8到λ.0014、物理M8到1e−5。参考κ5重新求解和[实际曲率反升](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)说明producer参数不替真曲率，冻结Hermite内部也可超界。[完整weighted Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行/alias/112项rho，y过零chart不删S/D/L/N；局部Jac比较不代接受场。[跨角初猜后真物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)λ1e−4完整接受，初猜非接受父。[深P=0新有限族](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)三接受到λ5e−5、直接1e−4失败；只改M深端行，非原far DN，真实hr/hrr退休未付。
 
+[新g浅端完整双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)M2完整状态+2参数，对P/K/mean及深P0共7行真解；整cell与低w valley两种零二jet控制均到参考κ≤7采样边界而未接受。改变支撑或尺度不冒原g精化；另保深P0暖试λ1e−4的独立失败，继续寻找可用参数初猜。
+
 **实际几何及高度优化。** [材料实际C²径向场](notes/2026-11-17-parallel-geometry-best4-material-tail.md)λ.001/.0014同场加密Gram2.358e−7/1.420e−7，但κ7.514/8.473，真实wKr不能用背景6替代。[完整物理M32](notes/2026-11-17-parallel-geometry-best4-weighted-m32.md)N1024/G8→N2048/G12真Gram2.045397e−6超目标、κ5.997643/Hφ1.13913067，投影余量仅采样；φ与材料均高不可混。[原弱高度独立校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)同一实际高度四种积分Gram约1.4e−7，裁模/改cut/强制端点后的样条不能继承。小尾虽Gram≈1.3e−10，背景κ11.018不适合作大D父；旧宽bridge物理高度1.2627对应预算也不足。
 
 [真实Cartesian平cuff补段](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)用实际F/Fr/Frr三jet，经宽.078879到R1.767318/H1.13918566的平2jet；新g只延伸depth4外且固定A=377/125000。两级真Gram2.057397e−6、κpatch.0294701；本体2.045397e−6分列。明确补段可行与成本，不冒λ1接合或同精确解的固定g收敛；材料同公式成本更大。
