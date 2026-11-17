@@ -7,7 +7,7 @@
 构造连通闭曲面的连续C²等距嵌入族，固定有内点的闭H，diam F₀(H)≥.2D；整像Hausdorff变化δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g、物理参数和时间范围下，最大相对度量误差≤1e−6且加密下降。材料点位移不是δ_hold；优化success不是数学完成。
 
 - 已部分克隆并真实pull main，根README（含授权）和题README全文已读。仅本题及其workflow稀疏检出。
-- 已读规则提交：`1475d2247f20b40d4cab46374c4774c0760698c2`。2026-11-17 21:14:57（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:14:57；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`3fbc76f231f000f62b05bf548101e7a7fa8b220b`。2026-11-17 21:15:58（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:15:58；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同时更新本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用，不存文件。
 - 只有完整证明进results；数值证据、条件假设与缺口分别写明。可重算数组/网格/渲染/CI artifact不提交，只存脚本、参数、运行ID/hash。单Markdown<100KB，本文件<10KB；不写根LOG。
 
@@ -34,7 +34,7 @@ true_a_analysis正在做精确core lift、圆弧外支撑基及全Frenet BVP。�
 - 新短尾：旧r=.6 q20固定E metric≈.002；自由E曾退化且κ≈5.7e6，淘汰。有界E改进到metric=.00039991、κ9.95565仍不合格。新q17小cut首试发现G≥.005与cap=.05不相容；保留原默认复现，显式G-floor=.0005重算。见notes/2026-11-17-bounded-and-smallcut-collar-trials.md及short_collar_trials_manifest.json。
 - 完整三场GC BVP已实现；B=.9 metric≈.0289、B=.7≈.444，低频/末端误差未消失，不接受。R2给GC系统与平面圆领两jet引理；见gc-complete-bvp-attempts笔记。
 - 直接半帽20轮已发表源码/失败表；第三批宽包络最好metric≈.009869，真弧长规范仍.011277，均未过。R1温和椭圆给10.3%条件几何预算，连接器未实现。
-- 厚尾只做过固定160深度的一阶正根/共振采样优化，待发表选定参数和复现代码；不能当非线性容量界。旧大cut q18 M16已核固定g误差2.55e−7，M24主动取消以优先新小cut；非数学失败。
+- 厚尾固定160深度的选定参数/源闭包/复现入口已发表；height .0169206、新DN=11.902268、重新匹配H1/q=.0135088，首模线性诊断换算q=.0271956。它只是采样一阶正根窗口，不能当非线性容量界，见thick-tail-linear-coupled-diagnostic笔记。旧大cut q18 M16已核固定g误差2.55e−7，M24主动取消以优先新小cut；非数学失败。
 - 本题独立workflow `.github/workflows/held10-smallcut-research.yml` 的8参数Actions [44084871328](https://github.com/Rogerhu12/math-research-public/actions/runs/44084871328) 已结束，正在取各实际成功/失败标量。最多2并发，不上传可重算artifact。dispatch曾403，按已授权普通push触发。job success不代表数学成功。
 
 ## 来源核对与当前交接
