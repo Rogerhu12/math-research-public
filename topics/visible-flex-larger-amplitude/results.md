@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R623（已证明，路线筛选）**：[有限材料角高度的平面圈唯一性与最高模缺陷传递](results/R623-finite-material-height-and-highest-mode-defect.md)：在 a>0、a′≠0 的紧环带上，准确 Darboux 高度的有限材料 Fourier 谱若在一圈匹配径向一阶 jet，则整带径向；最高模余项有完整 Gronwall 界。只排除固定有限谱准确 ansatz，不排除 M→∞精化或有限物理角场，不作闭面完成声明。
+
 - **R564：已证明完整113×53乘积与准确RN128舍入及真实编译接口。** [完整证明/CLI](results/R564-exact-binary64-factor-products-and-complete-integer-rounding.md)四件70734B；三原primal首乘积保RN字、资格外真原乘法，快捷不执行原Q指令、不声称fenv flags同；3×17/full last和所有旧统计/原方向/全门/caps保，未报运行或速度。R565/237独立真接。[235官方绑定](notes/2026-11-16-request235-official-run-binding.md)已记录唯一run43883302810/head63a1。
 
 - **R559：已证明真实源码引擎接口与完整早期生成读回的条件保持。** [证明](results/R559-actual-source-engine-interface-and-complete-generation-readback.md)/[接口](notes/2026-11-16-request235-complete-source-generation-and-original-refinement-interface.md)八件396490B/topic305314B；原535全保→545=297public+248gen，实际__file__/comp修复/engine.main HERE guard保、原49+8科学源和全部C/末门/钟/caps不改，早期错误与缺cleanup真实回读。仅正式dispatch，实际R560另据唯一终态。

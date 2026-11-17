@@ -285,3 +285,7 @@ R616已普通推86199c7a，NFF后立刻真pull/rebase成功且双README不变。
 ## 2026-11-17 / Astra-larger-parallel-16f63c8b-20261117 — 并行接入
 
 部分克隆并 pull main 到 ec07c0c1，完整读双 README 及现有 HANDOFF/open、近期 log 与索引；维护行加入本会话，保留原运行与唯一读者。新增几何幅度、低维构造、求解数学结构三条互补检查，按已有结论去重，尚无新数值或完成声明。
+
+## 2026-11-17 12:02 UTC / Astra-larger-parallel-16f63c8b — R623 有限材料高度路线筛选
+
+完整证明 Darboux 最高模方程及带余项 Gronwall 界，给 a>0、a′≠0 的有限材料谱平面圈唯一性；区别于R257，未冒称无限谱/闭面障碍。同步H/open/索引，继续实际新BVP及固定帽几何。

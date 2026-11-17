@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17，部分克隆并真实 pull main，完整读根与题 README，已读提交 612b8982bc986174d27b341beacdaa7a54b7a117；后续 pull 的根 README 差异仅新增 held-10pct 课题，题 README 未变；已读本 HANDOFF、open 与近期 log/结果索引。保留原会话及现有运行责任，新增几何幅度/简洁构造/求解器数学结构三条互补检查，先检索去重。新文件使用 `2026-11-17-parallel-*` 前缀；不替原会话领取既有终态日志。每条新结论同时更新本文件并普通推送。
+并行会话规则同步：2026-11-17，部分克隆并真实 pull main，完整读根与题 README，已读提交 9a76f8d94b4dc015eb8a7569dbf676fc6be45df4；12:02 UTC pull 后双 README 无新差异（此前根 README 仅新增 held-10pct 课题）；已读本 HANDOFF、open 与近期 log/结果索引。保留原会话及现有运行责任，新增几何幅度/简洁构造/求解器数学结构三条互补检查，先检索去重。新文件使用 `2026-11-17-parallel-*` 前缀；不替原会话领取既有终态日志。每条新结论同时更新本文件并普通推送。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -15,6 +15,10 @@
 同一固定g、连通闭C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0、全t reach≥.03D、全域relative metric≤1e−6，D完整闭F0。固定g/参数/t后实际mesh/频率/t加密误差继续降至机器或原solver容差；多网格按根15保源/配方/run/SHA、说明严格存在缺口再加强比例。更强跨级C²不增门。
 
 **只有M96/N1024/scalar=.99开放前缀接受，完整非零112/338/450无。** 原M112/N2048、699×453、3active+109core、338/112、双mean、全H/J/FD/RMS/域/BC/merit/final fresh J+audit不减；每模型fresh W/J，不跨模型相减merit。未返/未访/partial非数学拒。同B/尾帽/材料角/准确cut六jet/全Loewner/全pair/reach/held/D/反射分别真付。
+
+## 并行会话的新进展（2026-11-17）
+
+Astra-larger-parallel-16f63c8b：R623 完整证明已成，排除固定有限材料角高度的准确平面圈 ansatz，未得到闭面。数值线采用新的六局部导数/有限 DFT 卷积 Jacobian，实际从历史 .99 接受场继续新 BVP；结果仍待真实返回。几何线做同场二阶体积矩非全等下界与具体固定帽预算。现有原主线及运行不变，下一步继续正向构造与尾闭合。
 
 ## 实际活动run与唯一终态读者
 
