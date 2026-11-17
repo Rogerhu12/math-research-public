@@ -1,0 +1,122 @@
+{
+  "scope": "Strict fixed-W constant for the continuous R42 orthogonal coordinates.\n\nThe three W moments are reused from the published R41 enclosure.  Only\nthe three chi**2 moments are newly integrated.  Every finite operation is\nrational with outward rounding; no quadrature, FFT, floating eigenvalue\nor BVP is used.  This is an L2 coordinate bound, not a BVP Jacobian bound.\n",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_supported_orthogonal_constant.py",
+    "--r41-execution",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/generic_raw_core_execution.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/supported-orthogonal-constant-r43.json"
+  ],
+  "source_sha256": {
+    "certify_supported_orthogonal_constant.py": "1fc9657ab5291ff832cdcfe0f4022edd3323d053e22f7206b51bb5de66a98948",
+    "generic_raw_core_intervals.py": "97c66e182f02e0fdeac9f9d30bee755d71bb098f1cff74ac71df58a5e14e7840",
+    "fast_integral_core_intervals.py": "1e1fa87ea4dcd25cf4234cff4596f3d95acf5093e2e7f0c4460ada0645db38dd",
+    "integral_core_intervals.py": "fcf92ba40110c8a9b917c8881f9fb0c3c0ebcc5a55ac632ae4f2b33317bd1b8f",
+    "certify_protected_arc_curvature_dual.py": "00132335adb74e1f889d97fc8bb9060d0808ec51746c5603304992f3be8601d1"
+  },
+  "reused_R41_execution_sha256": "fed7050c460076fd29eb5ca60f547bc1318bc8704de4bef241985f422f858316",
+  "exact_cutoff": {
+    "n": 3,
+    "halfwidth": "21/100",
+    "control_transition": "2/5",
+    "center": "pi/3",
+    "chi": "1-126*t^5+420*t^6-540*t^7+315*t^8-70*t^9",
+    "inner_product": "dphi/(2*pi)",
+    "x": "cos(3*phi)"
+  },
+  "integration": {
+    "new_frequencies": [
+      0,
+      3,
+      6
+    ],
+    "exponential_degree": 64,
+    "complex_remainder_upper": "3.80116317339334510939667284628238405821224853E-69",
+    "exact_rational_polynomial": true,
+    "quadrature_used": false,
+    "W_moments_recomputed": false
+  },
+  "symmetric_entry_order": [
+    "00",
+    "01",
+    "11"
+  ],
+  "G1_W_moment_intervals": [
+    [
+      "0.608478839993937474008545942103614669395229271",
+      "0.608478839993937474008545942103614669395229272"
+    ],
+    [
+      "0.295128205861401755121098902100744497227382435",
+      "0.295128205861401755121098902100744497227382436"
+    ],
+    [
+      "0.257295382977966264267993858652425191643721154",
+      "0.257295382977966264267993858652425191643721155"
+    ]
+  ],
+  "G1_determinant": [
+    "0.0694581382752588648066453688475245792071366638",
+    "0.0694581382752588648066453688475245792071366654"
+  ],
+  "G2_squared_W_moment_intervals": [
+    [
+      "0.575656169533088392833372650272632773121323171",
+      "0.575656169533088392833372650272632773121323174"
+    ],
+    [
+      "0.305963703082927121405791049657637658721047759",
+      "0.305963703082927121405791049657637658721047762"
+    ],
+    [
+      "0.253011221263713097665829511565008174419512657",
+      "0.253011221263713097665829511565008174419512662"
+    ]
+  ],
+  "G2_determinant": [
+    "0.0520336828773401785339462161722596830266737473",
+    "0.0520336828773401785339462161722596830266737514"
+  ],
+  "inverse_norm_square_matrix_intervals": [
+    [
+      "2.83548856576020222692086097540663185124038711",
+      "2.83548856576020222692086097540663185124038791"
+    ],
+    [
+      "-3.02567043100412673677557923522372797881790430",
+      "-3.02567043100412673677557923522372797881790310"
+    ],
+    [
+      "7.03234436168754606877505157792718156035251746",
+      "7.03234436168754606877505157792718156035251939"
+    ]
+  ],
+  "inverse_norm_square_upper": "86161/10000",
+  "inverse_gate_first_minor": [
+    "5.78061143423979777307913902459336814875961209",
+    "5.78061143423979777307913902459336814875961289"
+  ],
+  "inverse_gate_determinant": [
+    "0.000394394818022682729245502193055060543677068270",
+    "0.000394394818022682729245502193055060543696646771"
+  ],
+  "uniform_gram_upper": "278483/20000",
+  "uniform_gram_upper_decimal": "13.92415",
+  "strict_gram_less_than_14": true,
+  "independent_of_modes_amplitude_controls_and_primary_width": true,
+  "limitations": [
+    "The stated fixed W only; changing a or the control width requires new moments.",
+    "An L2 coordinate Gram bound, not a derivative, rho, metric or BVP Jacobian bound.",
+    "No continuous high-degree production recurrence coefficients are certified here."
+  ],
+  "elapsed_seconds": 0.02983567299816059,
+  "execution": {
+    "tool": "exec_command",
+    "chunk_id": "b5a4ee",
+    "exit_code": 0,
+    "output_path": "/workspace/scratch/7322d0dee069/closed_work/supported-orthogonal-constant-r43.json",
+    "output_sha256": "33fcfc2d15d0527fd0e14a631d6329ddd08066fbe384770ee5920f0c2cda8a6a",
+    "no_existing_screen_or_G1_integral_rerun": true
+  }
+}

@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`571f64e42f51f39f2272947f2006fd65b4b8e948`。2026-11-18 07:15:33（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`ae72e3354213a4bec852c71e5e2d3b26d107278b`。2026-11-18 07:16:31（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -32,7 +32,7 @@ R30共享engine原576段/990760标量逐位同值、576→8。旧q.0175域失败
 
 **R41新核证书**：旧M16全15c改λ1/bp.32/bc.4，真积分/低2×2投影给||b+b″||<.024265039000279、rho∈(.6212861459223527,1.337031616589919)。17点真逆误差仅点态，q≈.04不在R38窗，失败终态c已变不能继承；见R41-general-width-raw-core-true-integral-oracle。actual-raw-integral-terminal-binding保实际宽度/λ及全c，new-design用自身δ/Lbin，fixed-refinement锁原atlas/family；目前只执行M16→M8元数据，无未来λ1端到端。
 
-**R42坐标定理**：W²正交Uj经固定两列消均值/主频，Gram=I+CᵀC，谱[1,1+(3/2)||K⁻¹||²]独立M；λ1与原raw finite span精确相同、append0嵌套。有限M16新Gram条件2.061/旧5.788e11，不等于严格实例K界或C²/实际Jac界；生产连续系数待付，原运行未改。见R42-supported-orthogonal-control-coordinates。
+**R42/R43坐标定理**：W²正交后固定两列消矩，Gram=I+CᵀC且与原λ1 raw finite span相同。R43复用R41固定a=.21/bc=.4真矩，仅新增χ²三积分，精确2×2 Sylvester给所有M谱[1,13.92415)，不借浮点正交系数。有限M16新Gram条件2.061/旧5.788e11不等于C²/实际Jac界，原生产核未改。见R42、R43-fixed-supported-window-strict-gram-constant。
 
 **严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]、相位.7046/H角[.3521,.3525]。R38重算圆心与真实三阶矩，在even C4保护弧零控制且||b+b″||≤.08时rho>.1642566、平面m3>.0948878、柱D<2.3181；完整未标记图若D≤2.6498/支撑≥.0801/|κ|≤12.5等全部成立，三重帽可得held/D>.105514、reach/D>.03018及全O(3)非全等。柱长.54/.5401须按实际全图矩选。全图假设尚未兑现。R40对原flat ramp、q∈[.039,.041]/δ≥.060严格给χ/R>.21088277799>.21；宽度无关且实际binary参数也过，但不证λ1解存在。
 
