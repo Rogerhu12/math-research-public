@@ -1,0 +1,15 @@
+{
+  "scope": "True BVP radial refinement, same physical g and fixed M16 tail numerics. The saved represented solution supplies only an initial guess.",
+  "physical_metric_sha256": "11a9de4da186d04dd1e925678582b0f6861425b4e0e2217937ec53ba052db125",
+  "old_prefix_sha256": "9d9d8134a3968f79ae0f90b5c3c32f183a12918bc25a86d9e882900b1f983bb3",
+  "old_tail_sha256": "8b428700bafdd14ad36a8535d71b70e31b4c2738c2af89cacaece570440ca7be",
+  "old_nodes": 983,
+  "restart_bisections": 1,
+  "expected_initial_nodes": 1965,
+  "tol": 1e-08,
+  "old_tol": 3e-07,
+  "max_nodes": 6000,
+  "prefix_angular": 512,
+  "audit_angular": 1024,
+  "tail_numeric_changes": []
+}

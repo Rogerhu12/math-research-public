@@ -1,0 +1,237 @@
+{
+  "scope": "True fixed-g radial solve plus actual saved C2-map diagnostics. Finite evidence, no closed-family or 10% completion claim.",
+  "physical_metric_sha256": "11a9de4da186d04dd1e925678582b0f6861425b4e0e2217937ec53ba052db125",
+  "fixed_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06105607686781097,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "gauge_amplitude": 0.02,
+  "actual_primary_amplitude": 0.020001546225852943,
+  "nodes": 2462,
+  "solver_success": true,
+  "max_rms_collocation_residual": 9.968645670680306e-09,
+  "config": {
+    "modes": 16,
+    "base_mode": 3,
+    "core_kind": "adaptive_warped_support",
+    "angular": 512,
+    "tol": 1e-08,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "fixed_metric": true,
+    "actual_nonlinear_tail": true
+  },
+  "restart_mesh_diagnostics": {
+    "method": "original-checked-saved-mesh-plus-all-midpoints-true-BVP",
+    "source": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_sparse_parts8/seed.json.gz",
+    "source_sha256": "9d9d8134a3968f79ae0f90b5c3c32f183a12918bc25a86d9e882900b1f983bb3",
+    "helper_sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882",
+    "fixed_inputs_checked": [
+      "angular_chart",
+      "chart",
+      "frozen_profile",
+      "physical_tail_parameters",
+      "physical_tail_cut",
+      "warp_reference_q"
+    ],
+    "old_modes": 16,
+    "new_modes": 16,
+    "old_nodes": 983,
+    "new_nodes": 1965,
+    "numerical_merge_tolerance": 2e-13,
+    "minimum_numerical_span": 3.873586580216415e-06,
+    "physical_gauge_ratio": 1.0,
+    "inlet_correction_coefficient_l1": 9.011560959667092e-15,
+    "inlet_correction_physical_l1": 1.8023121919334185e-16,
+    "scope": "True fixed-metric BVP refinement on all saved nodes and their midpoints.\n\nThe original saved-mesh initializer checks physical metric, chart, cut and\ngauge before any refinement. This wrapper only enriches its initial mesh\nand evaluates the saved represented nonmean field at the new nodes. The\noriginal nonlinear BVP, actual-DN outer iteration, root guards and all\nacceptance tests subsequently run unchanged. No midpoint postprocessing is\nreported as a new solve.\n",
+    "original_checked_nodes": 983,
+    "restart_bisections": 1,
+    "all_original_anchors_retained": true,
+    "maximum_numerical_span": 0.0007142857142858894,
+    "initializer_wrapper_sha256": "b6405f970c85c54068e93a05d7101f654e87e19d1789a6ca2f9cfce61f60a60d",
+    "original_initializer_sha256": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882"
+  },
+  "prefix_scalars": {
+    "metric_l1": 5.8454764328202e-11,
+    "flow_defect": 2.7700550289283927e-10,
+    "darboux_l1": 1.9470011644553117e-06,
+    "kappa_sample": 8.050635526165825,
+    "radius_max": 1.0705544802017468,
+    "height_max": 0.7859795107206833,
+    "root_min": 0.0034886586909438355,
+    "chart_rho_min": 0.84,
+    "support_amplitude": 0.020001546225852943,
+    "terminal_height_coeff_max": 5.440041946228229e-05,
+    "physical_bc_max": 6.046296142744363e-16,
+    "samples_s": 5045,
+    "samples_psi": 1024,
+    "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 3.0231480713721815e-14,
+      "actual_tail_residual": 1.160708101473369e-09,
+      "tail_calls": 3
+    }
+  ],
+  "tail_seam_scalars": {
+    "tail_record": "seed_tail_0004.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 1.160708101473369e-09,
+    "mean_first_actual": 0.07975197381284194,
+    "mean_first_expected": 0.07975197381282689,
+    "mean_first_mismatch": 1.504352198367087e-14,
+    "mean_second_actual": 1.8426811911932894,
+    "mean_second_expected": 1.8426811911936387,
+    "mean_second_mismatch": -3.4927616354707425e-13,
+    "nonmean_first_mismatch": 6.046392228044317e-16,
+    "nonmean_second_mismatch": 1.505489426531119e-12,
+    "cut_metric_fft_l1": 9.090936521165501e-14,
+    "cut_metric_c1_fft_l1": 1.7415195259313916e-12,
+    "angular_samples": 1024
+  },
+  "tail_response_scalars": {
+    "converged": true,
+    "residual": 1.160708101473369e-09
+  },
+  "tail_audit_scalars": {
+    "fullD": 2.735914822367965e-07,
+    "normalizedFullDefect": 0.00028726414570909477,
+    "minLeading": 0.44090744731919695,
+    "minD": 0.9997259386195121,
+    "formalCurvature": 8.040693295553412,
+    "maxPhysicalPV": 0.00010872088545367538,
+    "actualMetric": 1.587374676148601e-11,
+    "holonomy": 4.4938406574290845e-19
+  },
+  "historical_wrapper": {
+    "scope": "True fixed-metric BVP refinement on all saved nodes and their midpoints.\n\nThe original saved-mesh initializer checks physical metric, chart, cut and\ngauge before any refinement. This wrapper only enriches its initial mesh\nand evaluates the saved represented nonmean field at the new nodes. The\noriginal nonlinear BVP, actual-DN outer iteration, root guards and all\nacceptance tests subsequently run unchanged. No midpoint postprocessing is\nreported as a new solve.\n",
+    "command": [
+      "nonlinear_tail_work/couple_m3_radial_refine.py",
+      "--source-root",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+      "--profile",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/profile.json",
+      "--chart",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "--linear-port",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json",
+      "--tail-config",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/config.json",
+      "--out-prefix",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed",
+      "--restart",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_sparse_parts8/seed.json.gz",
+      "--amplitude",
+      ".02",
+      "--warp-reference",
+      ".02",
+      "--modes",
+      "16",
+      "--angular",
+      "512",
+      "--audit-angular",
+      "1024",
+      "--nodes",
+      "1965",
+      "--max-nodes",
+      "6000",
+      "--tol",
+      "1e-8",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--node-heap",
+      "2304",
+      "--warmup-scales",
+      "1",
+      "--lagged-tail",
+      "--fixed",
+      "--preserve-restart-mesh"
+    ],
+    "restart_bisections": 1,
+    "source_topic": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "source_hashes": {
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_radial_refine.py": "b6405f970c85c54068e93a05d7101f654e87e19d1789a6ca2f9cfce61f60a60d",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-preserve-restart.py": "91406ac52899aa8fd8aa8d1fcde82bf21d7073fdcebba9c94d9b0a0f5d771882",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+    },
+    "returned": true,
+    "seconds": 546.2742699369992
+  },
+  "artifact_hashes": {
+    "seed.json.gz": {
+      "sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+      "bytes": 29165
+    },
+    "seed_coeff_00.npy.gz": {
+      "sha256": "7a27846dbf29da812461ce1ebca9adfd1827893d9d80b57f363e0f5ec55015b2",
+      "bytes": 4253071
+    },
+    "seed_tail_0001.json.gz": {
+      "sha256": "5570edc579cbab47c93ff9ff0625f4967d95d7ab0bdea5fc5f51eb562625de3e",
+      "bytes": 193786
+    },
+    "seed_tail_0002.json.gz": {
+      "sha256": "e506f5ac9a1f665b74624587fb31db4583c80408baab2c60886be32d80abc0df",
+      "bytes": 199220
+    },
+    "seed_tail_0003.json.gz": {
+      "sha256": "0c51d33de25ca3f8c0d295e8992ce0896ddbb6fbbd02a3b1a3b2b3f5921bf20f",
+      "bytes": 199389
+    },
+    "seed_tail_0004.json.gz": {
+      "sha256": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+      "bytes": 199427
+    },
+    "port16.json": {
+      "sha256": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538",
+      "bytes": 4236
+    },
+    "config.json": {
+      "sha256": "a040b3a1941f2ba1ff18bbb43af7239a1c11f88b73df258d55c25871c29951b2",
+      "bytes": 2364
+    },
+    "prefix-endpoint.npz": {
+      "sha256": "f9e2e190536c7d382a9628b4b4f235dfea18c738cf5801d2df3035658a6e6e05",
+      "bytes": 54465
+    },
+    "prefix-endpoint.json": {
+      "sha256": "d05245ce646f2ca9e93ed44066a32596491b49d8e077c9356d09399833e9dacf",
+      "bytes": 1325
+    },
+    "tail-endpoint.json": {
+      "sha256": "7b64f831fd133f9c1b18de0b56598ac6aa9780fe5fb9e87b7a1060f466ad55de",
+      "bytes": 236602
+    },
+    "worker-trace.jsonl": {
+      "sha256": "f5eeae9f6524d91dbed1f96d2e9146e417bfa4a8fdf246ea7a3b69343f78068b",
+      "bytes": 4261
+    },
+    "linear-trace.jsonl": {
+      "sha256": "a1de1579f370848be3124b6cca6ac3f4787dbe5a37700aeb9a5db96c87c39b20",
+      "bytes": 1522
+    }
+  },
+  "source_package_manifests": {
+    "m3_seed": "707fc801979a9629b6612563f9d415b03e4217a794a2975399d0f20fb4c31aea",
+    "sparse_linear": "be4bf585bec54d1f16cfba67b20a9681f6c02850a9fdcbba5bbc2e78182e63fe",
+    "m16_parts8": "f728b3720f681942472645b749b1e21903a0bc816421687c676edff34d829e7b"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "Wrapper argument parse failure before any source install, mathematical solve or tail call.",
+  "wrapper_before_fix_sha256": "950f7ffadb2a745f3e10a84db80a598386a2764a724e3c8be64dd39842de8fc2",
+  "error": "argparse abbreviated original --restart as the new wrapper --restart-bisections, then tried parsing checkpoint path as int",
+  "fix": "allow_abbrev=False on the wrapper-only parser. Original coupler arguments/solver are unchanged."
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "Compare full Cartesian two-jets in the same material angle and s direction.\n\nOnly one global rotation about z and one translation are fitted. No material\nreparametrization or per-point alignment is permitted. Arrays stay in scratch.\n",
+  "prefix_sha256": "f9e2e190536c7d382a9628b4b4f235dfea18c738cf5801d2df3035658a6e6e05",
+  "tail_sha256": "7b64f831fd133f9c1b18de0b56598ac6aa9780fe5fb9e87b7a1060f466ad55de",
+  "angular": 512,
+  "rotation_about_z": 1.8587680823583738e-18,
+  "translation": [
+    7.676151381197371e-17,
+    -8.350897826980147e-18,
+    0.7859258157616739
+  ],
+  "differences": {
+    "X": {
+      "sup_euclidean": 1.5647474998540476e-15,
+      "max_component": 1.2212453270876722e-15
+    },
+    "Xs": {
+      "sup_euclidean": 1.5947178464998867e-14,
+      "max_component": 1.5890067039947553e-14
+    },
+    "Xss": {
+      "sup_euclidean": 1.1046996315200115e-09,
+      "max_component": 1.1042327607846403e-09
+    },
+    "Xtheta": {
+      "sup_euclidean": 6.884393434909422e-15,
+      "max_component": 6.8833827526759706e-15
+    },
+    "Xstheta": {
+      "sup_euclidean": 2.2571116392737715e-14,
+      "max_component": 2.220446049250313e-14
+    },
+    "Xthetatheta": {
+      "sup_euclidean": 1.1383147653844005e-13,
+      "max_component": 1.1262518695431822e-13
+    }
+  },
+  "radial_difference_step": 0.0004,
+  "tail_actual_metric": 9.002274050370584e-18,
+  "tail_root_residual": 1.3905116177759526e-14
+}

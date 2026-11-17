@@ -1,0 +1,54 @@
+{
+  "scope": "Compare actual saved C2 prefix maps at the same physical material points.\n\nThis is a finite sampled refinement diagnostic, not a convergence theorem.\nBoth maps include the nonlinear mean height and its differentiated values.\nNo ODE second jet replaces a saved second derivative, and no fit of rigid\nmotion or reparametrization is performed. Regenerable arrays stay in memory.\n",
+  "source_sha256": "c6231e81d30e12f1af53ac48e06efab7f2e390367771aef1d70b162ab5cf5529",
+  "coarse_sha256": "9d9d8134a3968f79ae0f90b5c3c32f183a12918bc25a86d9e882900b1f983bb3",
+  "fine_sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+  "fixed_inputs_checked": [
+    "frozen_profile",
+    "physical_tail_parameters",
+    "physical_tail_cut",
+    "chart",
+    "warp_reference_q",
+    "angular_chart",
+    "gauge_amplitude"
+  ],
+  "coarse_nodes": 983,
+  "fine_nodes": 2462,
+  "coarse_q": 0.020001225708876868,
+  "fine_q": 0.020001546225852943,
+  "coarse_node_distance_to_fine_max": 2.220446049250313e-16,
+  "angular": 784,
+  "radial_samples": 5479,
+  "differences": {
+    "X": {
+      "sup_euclidean": 3.2207545297424645e-07,
+      "s": 0.0,
+      "numerical_angle": 0.0
+    },
+    "Xs": {
+      "sup_euclidean": 1.235337793348342e-06,
+      "s": 0.10785601571781202,
+      "numerical_angle": 3.141592653589793
+    },
+    "Xu": {
+      "sup_euclidean": 8.682191806548388e-07,
+      "s": 0.0,
+      "numerical_angle": 3.7266341426511573
+    },
+    "Xss": {
+      "sup_euclidean": 4.1782003806003304e-05,
+      "s": 0.08830103989510062,
+      "numerical_angle": 3.141592653589793
+    },
+    "Xsu": {
+      "sup_euclidean": 3.5341948051919115e-06,
+      "s": 0.08974726586354918,
+      "numerical_angle": 3.7907482784387048
+    },
+    "Xuu": {
+      "sup_euclidean": 3.7219533814969452e-06,
+      "s": 0.0,
+      "numerical_angle": 0.0
+    }
+  }
+}
