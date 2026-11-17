@@ -769,3 +769,192 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
 ```
 
 含路径和计时的输出字节可随重跑改变。原暖场、矩阵、scalar 或新源任何身份改变，都不是这份固定诊断的复现。
+
+## 附：保全部 Hermite 缺陷的可逆坐标与完整列尺度
+
+2026-11-17，parallel-geometry，AI 辅助。以下是当前独立位置/速度有限系统的准确线性代数；没有更换原 Pr、边界、scalar、节点或未知模式，没有运行新 LSMR，也不修改 927f 及其恢复预算。一般阻尼/列预条件原则沿用 R256 §6–9，不另发通用定理。
+
+### 1. 完整可逆坐标及整胞恒等式
+
+固定 J 个严格递增节点，h_i=s_{i+1}−s_i>0；每个 Y_i、U_i 属于 R^n。定义新坐标
+
+$$C=Y_0,\qquad U_i\text{ 原样保留},\qquad
+D_i={Y_{i+1}-Y_i\over h_i}-{U_i+U_{i+1}\over2},\quad 0\le i<J-1.$$
+
+反向线性映射 T 为
+
+$$Y_j=C+\sum_{i<j}h_i\left({U_i+U_{i+1}\over2}+D_i\right),\qquad
+T(C,U,D)=(Y,U).\tag{T1}$$
+
+代回即见两式互逆。维数为 n+Jn+(J−1)n=2Jn；当前 J=602、n=482 时仍有 580328 个自由度。D 不设为零，也不当作舍入误差省略。
+
+在第 i 胞令 u=(s−s_i)/h_i。原四 jet 定义的唯一三次 Hermite 场准确写成
+
+$$Y(s)=Y_i+h_i\left[U_i u+{U_{i+1}-U_i\over2}u^2
+                       +D_i(3u^2-2u^3)\right].\tag{T2}$$
+
+验证两端 Y/U 即由三次唯一性证明其与原场相同。其实际导数为
+
+$$Y_s=U_i+(U_{i+1}-U_i)u+6D_i u(1-u),\qquad
+Y_{ss}={U_{i+1}-U_i+6D_i(1-2u)\over h_i}.\tag{T3}$$
+
+故真实中点也准确为
+
+$$Y_m=Y_i+h_i\left({3U_i+U_{i+1}\over8}+{D_i\over2}\right),\qquad
+U_m={U_i+U_{i+1}\over2}+{3D_i\over2}.\tag{T4}$$
+
+这是整个场的可逆表示，不只是中点匹配。R245 的 E 是含端二 jet 的三次速度积分缺陷；本文 D 是梯形平均缺陷，定义不同。二者都不能擅自丢弃。这里没有以积分速度的新场替换原位置场，也没有由 T 产生新的 C² 性：原共同三次场仍只保证 C¹。
+
+### 2. 完整转置与原边界
+
+给旧坐标余向量 (gY_j,gU_j)，令
+
+$$S_i=\sum_{j=i+1}^{J-1}gY_j,\qquad w_i=h_iS_i.$$
+
+从 <gY,Y>+<gU,U> 按 (T1) 交换有限和得
+
+$$\begin{aligned}
+(T^Tg)_C&=\sum_{j=0}^{J-1}gY_j,\\
+(T^Tg)_{D_i}&=w_i,\\
+(T^Tg)_{U_j}&=gU_j+\tfrac12\mathbf1_{j<J-1}w_j
+                       +\tfrac12\mathbf1_{j>0}w_{j-1}.\tag{T5}
+\end{aligned}$$
+
+S_i 不含 gY_i。前向 prefix、转置 suffix 都是 O(Jn)，没有除以 h；逆坐标确含 1/h。若实际浮点 pack/expand 出现差，仍须记录，准确线性恒等式不证明机器逐字还原。
+
+令原边界为 B_A Y0+B_B Ylast−b。定义缺失的前/后宽度为零，并置
+
+$$\omega_j={h_{j-1}+h_j\over2}\quad(h_{-1}=h_{J-1}=0).$$
+
+在新坐标中
+
+$$B(Tz)=(B_A+B_B)C+B_B\sum_{j=0}^{J-1}\omega_j U_j
+                         +B_B\sum_{i=0}^{J-2}h_iD_i-b.\tag{T6}$$
+
+所以 BT 的矩阵是横向拼接
+
+$$[\,B_A+B_B\mid \omega_0B_B,\ldots,\omega_{J-1}B_B
+                    \mid h_0B_B,\ldots,h_{J-2}B_B\,].$$
+
+其形状仍为 n×2Jn，保全部原 n=482 行。边界权 lambda 的回传分别为 (B_A+B_B)^T lambda、omega_j B_B^T lambda、h_i B_B^T lambda。即便原分离边界恰好有不相交行，也应保留 B_A+B_B 的完整合并表达。
+
+### 3. 只存三个局部矩即可给完整列平方范数
+
+本节首先限定 J_old 为原局部 Pr 残差的完整 Jacobian，或相同局部残差的全部二次角谱版本；节点/中点 residual 只显含该点 Y、U 与固定 scalar。边界为 (T6)。不同残差块的行互不相交。
+
+对每个节点 n_i、中点 m_i 的局部 Jacobian (C_Y,C_U)，逐状态列定义长度 n 的向量
+
+$$A=\operatorname{colsum}(C_Y^2),\quad
+B=\operatorname{colsum}(C_U^2),\quad
+E=\operatorname{colsum}(C_Y C_U).\tag{T7}$$
+
+这里 E 仅为本节交叉内积，不是 R245 的兼容缺陷。任意局部扰动权 (y,u) 的列平方范数准确是
+
+$$y^2 A+2yuE+u^2B.\tag{T8}$$
+
+这保留同一行的全部交叉项，不是分别平方近似或随机估计。以下所有向量平方、和及乘法按列理解。记
+
+$$P_B=\operatorname{colsum}(B_B^2),\quad
+P_C=\operatorname{colsum}((B_A+B_B)^2),$$
+$$N_{>k}=\sum_{i=k+1}^{J-1}A^{n_i},\qquad
+M_{>k}=\sum_{i=k+1}^{J-2}A^{m_i}.$$
+
+空和为零。则 diag((J_old T)^T J_old T) 分块为
+
+$$\boxed{\Delta_C=\sum_i A^{n_i}+\sum_i A^{m_i}+P_C.}\tag{T9}$$
+
+对胞元缺陷 D_k，远处位置权均为 h_k，同胞中点的 (y,u)=(h_k/2,3/2)，故
+
+$$\boxed{\Delta_{D_k}=h_k^2(N_{>k}+M_{>k}+P_B)
+ +{h_k^2\over4}A^{m_k}+{3h_k\over2}E^{m_k}
+ +{9\over4}B^{m_k}.}\tag{T10}$$
+
+对 U_k，设 h_-=h_{k-1}（左缺失取 0），h_+=h_k（右缺失取 0），
+
+$$a_k=h_-/2,\quad\omega_k=(h_-+h_+)/2,\quad
+\ell_k=h_-/8,\quad r_k=h_-/2+3h_+/8.$$
+
+本节点的权为 (a_k,1)，左中点为 (ell_k,1/2)，右中点为 (r_k,1/2)；全远节点 i>k 和远中点 i>k 的位置权为 omega_k。因此
+
+$$\begin{aligned}
+\boxed{\Delta_{U_k}}={}&a_k^2A^{n_k}+2a_kE^{n_k}+B^{n_k}
+ +\omega_k^2(N_{>k}+M_{>k}+P_B)\\
+&+\mathbf1_{k>0}\left(\ell_k^2A^{m_{k-1}}+\ell_kE^{m_{k-1}}
+                                            +\tfrac14B^{m_{k-1}}\right)\\
+&+\mathbf1_{k<J-1}\left(r_k^2A^{m_k}+r_kE^{m_k}
+                                            +\tfrac14B^{m_k}\right).\tag{T11}
+\end{aligned}$$
+
+这些式子通过逐列追踪 T 的非零影响并应用 (T8) 得到。远中点的和必须从 i>k 开始；左右邻中点已单独包含。节点 k 的 U 直接贡献 B^{n_k} 也不能漏。端点按指示函数移除不存在的组，不能给虚构胞元填已有矩。
+
+一旦存下各局部 A/B/E，用两个后缀和即可计算全部列范数；不需要存全矩阵。现有只保存旧 J 列范数的产物通常不包含这些局部交叉矩，不能冒充可复用数据。原数学公式中的范数是准确值；实际普通浮点求矩和后缀的误差仍非区间认证。
+
+**直接 Gram 的范围修正。** 若改用前一附节的直接多项式 Gram 算子，rho 由 C 的核心分量决定。每个配点的 C 列除了局部 C_Y 还含全局目标密度导数 G_l，因此 (T9) 必须用 sum_l colsum((C_Y,l+G_l)^2)+P_C，保其中交叉项。不能仅用 sum A。U、D 不改变 Y0=C，故不改变 rho，(T10)–(T11) 的局部公式仍然适用。
+
+### 4. 作为右坐标/预条件子的边界
+
+在精确实数有限系统中，R_new(z)=R_old(Tz)，故全部非线性残差值、原边界及零点由 T 双射保留。链式给 J_new=J_old T、J_new^T=T^T J_old^T。若采用原场为锚的增量图 x=x_ref+Tz，则 z=0 可直接消费原 x_ref，避免初始化时必须通过一次绝对 pack/expand 来重造原场；具体浮点核对仍须报告。
+
+中点速度的显式 1/h 在 (T4) 中消去；若实现仍通过相减两个 prefix 后再除 h 求中点，浮点消差风险并未随数学改写自动消失。(T3) 也显示真实二阶径向导仍有 1/h。该坐标改变不控制曲率，不移除角高模条件，也没有证明能改善 128 步 Krylov 返回。
+
+不带阻尼的准确最小二乘最小值由可逆 T 保留，但非唯一问题的最小欧氏范数选择及有限迭代方向可以变化。若需保持原惩罚 mu²||delta x||²，则新变量必须使用增广算子 [J_old T; mu T]；其转置是 T^T J_old^T 对上块与 mu T^T 对下块之和。对 J_old T 直接使用同名 damp=mu，惩罚的是 ||delta z||²，是另一个 LM 步度量，不能称为原算法的原样恢复。若另有原行/列尺度，应把实际组合矩阵全部搬运，原则已由 R256 §8 给出。
+
+精确列尺度 (T9)–(T11) 也只定义预条件数据，不能替代原 normal residual、实际方向导数或真实 trial。T^T J_old^T r 小不自动给 J_old^T r 同样小。本文未改变当前 927f 的方向预算、接受定义或终态身份；后续只做 T/BC/伴随或列矩准备，也不等于已经执行新 LSMR。
+
+### 5. 同一全部边界的缩放 Gram 与 affine 投影
+
+令正对角列尺度按新坐标分成 `sC,sU_j,sD_i`，记 `A=B_A+B_B`。
+新边界矩阵为 `K=B T S`，不删除任何原边界。由上面各块横向拼接，准确有
+
+$$K K^T=A\,\operatorname{diag}(s_C^2)A^T
++B_B\operatorname{diag}\left(\sum_j\omega_j^2s_{U_j}^2
+                              +\sum_i h_i^2s_{D_i}^2\right)B_B^T.\tag{T12}$$
+
+不同变量块是不同列，所以它们之间没有交叉项；同一 C 块内必须保留 A 的完整平方。原边界满行秩已由原325行左条件及157行右条件的准确整数秩账支付；T 可逆、S 正，因此 K 满行秩，(T12) 在准确实数中正定。普通浮点 Cholesky 的条件和残差另行报告。
+
+定义
+
+$$\Pi=I-K^T(KK^T)^{-1}K,\qquad
+\delta x_0=T S K^T(KK^T)^{-1}(-b_{\rm current}).\tag{T13}$$
+
+实际可行方向为 `delta x=delta x0+T S Pi z`。对应完整原残差的算子与转置为
+`J_old T S Pi` 和 `Pi S T^T J_old^T`。小矩阵采用各行范数归一化再 Cholesky，实际运算仍对应 (T13)，没有拿对角近似代替完整边界 Gram。
+
+这里若再用 `lsmr(...,damp=mu)`，罚的是 z 的欧氏范数，已不是旧927f的步长度量；要保旧惩罚就须按第4节变换其完整下块。下列准备没有执行任何一种新线性求解。
+
+### 6. 原1662的真实完整准备
+
+源 `parallel_20261117_integrated_coordinate_preparation.py` SHA256
+`ef81da0b0de7200501d34d6702f92ae0131a953e9038ad8302d2e1edb61cd3d8`。
+实际报告 `parallel-root-integrated-coordinate-preparation.json` SHA256
+`c69c2325a979af1757904ff37ba7ad7a3e7ef4f1e2f1f003d63cf985e875ec8f`；
+准备数组 `parallel-root-integrated-coordinate-preparation.prepared.npz` SHA256
+`7affbce1eac7e61b94a03ca8b463c35ea1c4e28dfc3f02e74f1847670923965e`。
+原1662暖场、5b完整Problem、ff65矩阵、角基与scalar均在入口/出口核完整SHA。
+
+这一次计算全部602节点及601真实中点的局部列矩 A/B/E，使用普通binary64局部 Jacobian、long-double 列求和，随后按 (T9)–(T11) 形成全部580328列的对角量。旧准备只保旧 J 的列范数，没有保这些局部交叉矩，因而本次没有假称它们已在缓存内。实际局部矩总耗时99.067954445秒；完整对角最小值1.0002791163278804，最大值11867913298694.988。取 `S=diag^{-1/2}`，最小/最大尺度为2.9027712801457314e−7、.999860471043988，全部有限正。
+
+对九个明定的完整列，另直接形成 `J_old T e_j` 并取其所有580328行的平方和；它们覆盖 C、两个端点及内部 U、两个端点及内部 D、三个角分量块。相对差分别为
+`1.36605e−16, 2.04433e−16, 9.76075e−16, 2.32385e−16, 0, 0, 0, 1.46932e−16, 1.64781e−16`。
+这是指定九列的独立浮点核对，完整逐列公式的证明仍为第3节，不把九列当整个矩阵的区间审计。
+
+原绝对场 pack/expand 的实际最大差为8.673617379884035e−17，未写成逐字还原。T/T^T 指定向量内积的差为2.7199022029723635e−19；BTS 的差为5.583469134732937e−23。归一化边界 Gram 的普通条件数估计为4317.229525037591。对指定测试向量，投影后边界最大余项3.3876590465258487e−21，幂等差4.8280877993494505e−20；真实初始边界的 affine 修复余项3.639066798655524e−31。
+
+完整 `J_old T S Pi` 的伴随内积分别为−8.708761083161944e−6、−8.708761083161045e−6，绝对差9.003662444292694e−19、相对差1.0338626078169638e−13。当前实现确实通过 T 后调用原共同中点公式，未假称已使用消差更小的 (T4) 数值实现。整次准备111.238069327秒、峰RSS387076 KiB；没有新LSMR、非线性更新或物理父。
+
+可复用API为 `IntegratedCoordinates(P)` 的 `lift/inverse/pullback/boundary/boundary_transpose`，以及 `IntegratedBoundary(P,T,S)` 的 `apply/transpose/project/lift/pullback/affine`。准备数组保存scale、diagonal和完整局部node/midpoint三矩，后续调用不应重算这次已完成准备。新坐标尚未用来提高当前场的残差、曲率或幅度。
+
+从仓库根运行，WORK为原输入与外部输出目录：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
+ topics/visible-flex-larger-amplitude/scripts/parallel_20261117_integrated_coordinate_preparation.py \
+ --topic topics/visible-flex-larger-amplitude \
+ --problem-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_newton.py \
+ --warm "$WORK/parallel-hold-m160-short-bvp-warm.json.gz" \
+ --polynomial-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_probe.py \
+ --matrix-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_matrix_free.py \
+ --out "$WORK/parallel-root-integrated-coordinate-preparation.json"
+```
+
+原数组、局部矩与含计时报告均在仓库外；保源、准确输入配方及上列SHA。此处准确代数公式不冒全矩阵舍入证书，也不改变运行中的927f/8fa6原有限预算。

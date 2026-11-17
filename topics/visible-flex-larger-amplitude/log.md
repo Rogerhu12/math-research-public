@@ -797,3 +797,7 @@ e024完整源/两冻结清单/中断及真实启动回执/H同刊：Gram复用71
 ## 2026-11-17 18:58 UTC / Astra-larger-parallel-16f63c8b — 逐字startup tangent记录保留合并
 
 43209B旧startup记录与保留q106主本/4ac2历史逐字相同，仅原manifest当前file改指，历史名/SHA/bytes/科学状态不变；完整恢复/H同刊。二进制tangent、实际checkpoint和独有数据保持。
+
+## 2026-11-17 19:00 UTC / Astra-larger-parallel-16f63c8b — 保全部缺陷的积分坐标与全列尺度准备
+
+R647付T/Tᵀ/整胞同一性/完整cross列范数/BTS投影；ef81源原1662真付1203局部矩、7aff缓存、九列与完整伴随核对，source/report/H同刊。未新solve，不丢D或把新coords阻尼冒原927f步度量。

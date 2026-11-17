@@ -115,6 +115,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [Pr602完整失败](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965原1662、8fresh/9方向/75残差，末需第9fresh而停；cubicGram.003089/H与分支负，3a7f非父。[真实共同quintic](notes/2026-11-17-parallel-geometry-implicit-quintic-failure.md)全601胞8192/4sub Gram5.28554/κ104463，去坏两胞仍Gram.09713；core字面镜像无补丁，旧rho界不转新core。失败不扩为所有C²重建；R230仅水平共享二导/Z保存规则保持。
 
+**原Pr可逆积分坐标准备。** 同R647付C/U/全部D的T与转置、整胞同一性及带所有cross的diag((JT)ᵀJT)，不丢R245兼容缺陷。ef81在原1662实算全602+601局部矩，7aff缓存可复用；九真实列差≤9.761e−16，BTS边界Gram条件估计4317、affine余项3.64e−31、完整伴随1.04e−13。没有新LSMR；普通新coords damp改变步度量，保旧惩罚须变换完整下块。
+
 **当前LM仍在原模型。** [一次方向/分支审计](notes/2026-11-17-parallel-numerical-implicit-lm-direction.md)付原同S端点Π/整数BB rank，µ1原满步SSE5.454e−5、Gram升8.05e−4。[原24方向/20接受/每LSMR128](notes/2026-11-17-parallel-numerical-implicit-lm-budget.md)927f在2接受后执行中断、方向2仅partial≥64；[恢复6a172](notes/2026-11-17-parallel-numerical-implicit-lm-interruption-resume.md)核84b/6198/1694，派生8fa6只改启动和身份，原loop/门/总额逐字保。已实际续跑至方向5共6接受，SSE3.9582156531e−7、cubicGram2.35535e−4，Q/W/H/normal样点正；LSMR128/7及normal残差保原，不冒线性/非线性收敛或接受父。新Gram算子未替换此运行；numerical唯一终态、geometry接真实C²。
 
 旧内向.997/β/normal-only/fast317/onlyZ109、桥高尾、pulse六设计、meanLP400/M64及其原额失败不重做，见固定全文/notes。R633/635仅排指定设计；R634/636仅参考R/L/chord；R240共同材料、R632盖、R625/627/629 marker/E3不替实际闭源。实际全幅尾/Cartesian接缝、连通闭面、固定有内点H/完整D、整像held、含反射商距离、全t reach/强C²、固定g/参数/t后真实精化至机器或原容差仍未达；子题/批次/时长/报告均非停点。[逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)/[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保完整主本/准确历史。
