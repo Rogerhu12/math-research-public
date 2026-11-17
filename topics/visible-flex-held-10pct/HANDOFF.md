@@ -7,7 +7,7 @@
 构造连通闭曲面的连续C²等距嵌入族，固定有内点的闭H，diam F₀(H)≥.2D；整像Hausdorff变化δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g、物理参数和时间范围下，最大相对度量误差≤1e−6且加密下降。材料点位移不是δ_hold；优化success不是数学完成。
 
 - 已部分克隆并真实pull main，根README（含授权）和题README全文已读。仅本题及其workflow稀疏检出。
-- 已读规则提交：`92b3bdc7dc5df26c064eddfc10fe9f9e9e748c93`。2026-11-17 22:08:15（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:08:15；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`d4169e2580502d742bbbaee740fab2bdbd593230`。2026-11-17 22:12:22（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:12:22；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同时更新本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用，不存文件。
 - 只有完整证明进results；数值证据、条件假设与缺口分别写明。可重算数组/网格/渲染/CI artifact不提交，只存脚本、参数、运行ID/hash。单Markdown<100KB，本文件<10KB；不写根LOG。
 
@@ -19,11 +19,11 @@
 
 真实q20端口包含完整非线性均值，512角点2jet，SHA `0d03cd6128d7e498c28b60b2ea82c8ce4cd0af03d0e50bb1fc3cae8b54ee5355`。复现：scripts/recover_prefix.py与prefix_recovery_manifest.json恢复源；smallcut_prefix_sweep.py建立新chart，smallcut_secant_launcher.py延拓，fixed_refine_smallcut.py冻结g加密，smallcut_endpoint.py导出端口。精确命令/参数/hash见smallcut_delivery_manifest.json；完整表及失败路径见notes/2026-11-17-smallcut-high-q-and-fixed-g.md。所有数组仅scratch。
 
-明确的共享二jet五次Hermite和s≤.04的解析core中心lift已支付有限表示及上下接缝C²；同g、同lift的M20→M24 metric 9.93076e−7→4.17249e−9（238倍下降）。外端不变。全Cartesian Fourier/Hermite表示已发表，纳入角图分段后同g M20→M24 metric9.93077e−7→4.17200e−9；正在用其显式两jet作连续区间几何核查（cartesian-tensor-prefix笔记）。修复后的全prefix X·n采样最小.352673、κ6.62074；中心对称整像D的mesh-cover估计≤3.030641，实际曲面witness下界估计≥.318244，比例>.105。仍是浮点覆盖预算，未定向舍入；不是连续reach/闭合证书。若尾rXY≤.35、最高z≤1.526542，则尺寸能容纳增高.25。详见smallcut-c2-center-and-geometry笔记与新增两脚本/manifest。
+明确的共享二jet五次Hermite和s≤.04的解析core中心lift已支付有限表示及上下接缝C²；同g、同lift的M20→M24 metric 9.93076e−7→4.17249e−9（238倍下降）。外端不变。全Cartesian Fourier/Hermite表示已发表，纳入角图分段后同g M20→M24 metric9.93077e−7→4.17200e−9；其s≥.04主体已逐区间通过793600盒：σ≥.349674、半径≤1.508969、witness≥.3254827、8I±II严格正；独立审读通过，中心解析lift仍在核查（cartesian-tensor-prefix笔记）。修复后的全prefix X·n采样最小.352673、κ6.62074；中心对称整像D的mesh-cover估计≤3.030641，实际曲面witness下界估计≥.318244，比例>.105。仍是浮点覆盖预算，未定向舍入；不是连续reach/闭合证书。若尾rXY≤.35、最高z≤1.526542，则尺寸能容纳增高.25。详见smallcut-c2-center-and-geometry笔记与新增两脚本/manifest。
 
 [R7](results/R7-twofold-markers-core-moment-and-geometry.md)已为二重对称闭族证明固定双帽的δE>0机制，给显式C² bump、曲率/面法线支撑界与当前q20核心矩Re A_C>.11262048876的有理下界；只在真实闭族/接口成立时适用。
 
-真实非线性尾首批已发表scripts/nonlinear_tail与nonlinear-tail-stage1笔记：upper输入必须−λH，再整体反射z/平移。原物理g、深度160，有限非线性深度8的M8支到λ=.0781（minA=.00263）；λ=.07同g M8→M12 metric2.63e−8→4.73e−9。仍远未到λ=1；完整Cartesian两jet接口已能实测但未匹配。A谷上Kg<0而c很小，有限Gauss缺陷约1.39e−5；小metric不能代替C²相容。有限Gram可逆的代数仅限固定M，不给穿零极限。新首cell宽脉冲的原深尾逐对象保留，但DN改变，须重匹配prefix。正在试真正常w平谷、M16同g二jet及新DN回馈；不把线性容量或guard失败当非存在。
+真实非线性尾及共同二jet复核见scripts/nonlinear_tail、nonlinear-tail-stage1/common-twojets笔记。upper输入必须−H，再整体反射z。原深度160尾的M8支到λ=.0781（完整q18端口的比例）；λ=.07同g M8/12/16共同网格metric8.03e−9/2.24e−9/9.29e−10，但完整Darboux缺陷1.96e−5/1.15e−5/8.23e−6，Xrr层差.00382/.00130且差分步噪声仅4e−12，C²/无限尾仍未付。有限Gram延拓仅限固定M，不给穿零极限。新首cell宽脉冲/平谷的深尾保持，DN改变须重配prefix；两个代理现已接通既有真实DN联立器，从低q联合seed增幅，保留全均值与Cartesian两jet重验。
 
 ## 主线B：精确圆弧核心与换握持
 

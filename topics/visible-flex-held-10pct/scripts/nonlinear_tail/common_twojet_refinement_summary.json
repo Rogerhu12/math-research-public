@@ -1,0 +1,212 @@
+{
+  "scope": "Compare actual finite Cartesian derivative jets on a common physical sample grid.",
+  "limitations": [
+    "Finite sample grid only, not uniform C2 convergence.",
+    "Planar rr uses h=1e-4 profile finite differences.",
+    "Same physical g and same actual H function; spectral truncations differ explicitly.",
+    "No infinite-tail or nonlinear seam certificate."
+  ],
+  "samples": 163,
+  "angles": 128,
+  "records": [
+    {
+      "M": 8,
+      "maxMetric": 8.032813103002687e-09,
+      "maxTensor": 1.9554273125053064e-05,
+      "maxCurvature": 8.023153899822665,
+      "whereTensor": {
+        "stage": 7,
+        "rawCell": 0,
+        "rawSegment": 5,
+        "x": 0,
+        "u": 0,
+        "r": 0.27706848308305876,
+        "w": 0.0035556027969243643
+      },
+      "_file": "nonlinear_tail_work/m8_lam07_common_twojets.json.gz",
+      "_sha": "4113288401610894985a712116e881a61d178c85aba5e7e985e105b89edd0a40"
+    },
+    {
+      "M": 12,
+      "maxMetric": 2.23718674741484e-09,
+      "maxTensor": 1.1537607533284112e-05,
+      "maxCurvature": 8.02313278197398,
+      "whereTensor": {
+        "stage": 7,
+        "rawCell": 0,
+        "rawSegment": 5,
+        "x": 0,
+        "u": 3.141592653589793,
+        "r": 0.27706848308305876,
+        "w": 0.0035556027969243643
+      },
+      "_file": "nonlinear_tail_work/m12_lam07_common_twojets.json.gz",
+      "_sha": "b9a628cf58a800df348ca899bf3834c0bc8d21703f9a363d5665e5bd2dccf8e4"
+    },
+    {
+      "M": 16,
+      "maxMetric": 9.290327023814564e-10,
+      "maxTensor": 8.227795050020085e-06,
+      "maxCurvature": 8.023130907122153,
+      "whereTensor": {
+        "stage": 7,
+        "rawCell": 0,
+        "rawSegment": 5,
+        "x": 0,
+        "u": 0,
+        "r": 0.27706848308305876,
+        "w": 0.0035556027969243643
+      },
+      "_file": "nonlinear_tail_work/m16_lam07_common_twojets.json.gz",
+      "_sha": "1d01a10f13f344ffa0f91057e292e58be72f62bdf074e8e73d8efc306b4b5bed"
+    }
+  ],
+  "comparisons": [
+    {
+      "from_M": 8,
+      "to_M": 12,
+      "maximum_derivative_differences": [
+        {
+          "derivative": "Xr",
+          "max_norm": 1.2911789765363586e-05,
+          "where": {
+            "stage": 7,
+            "rawCell": 0,
+            "rawSegment": 5,
+            "x": 0,
+            "r": 0.27706848308305876,
+            "w": 0.0035556027969243643
+          },
+          "angular_index": 0
+        },
+        {
+          "derivative": "Xu",
+          "max_norm": 1.237654464760052e-06,
+          "where": {
+            "stage": 8,
+            "rawCell": 0,
+            "rawSegment": 4,
+            "x": 0.5,
+            "r": 0.26649743191536257,
+            "w": 0.0035663964952077185
+          },
+          "angular_index": 2
+        },
+        {
+          "derivative": "Xrr",
+          "max_norm": 0.003816325265759979,
+          "where": {
+            "stage": 7,
+            "rawCell": 0,
+            "rawSegment": 5,
+            "x": 0.5,
+            "r": 0.27795459773837033,
+            "w": 0.006850907933174124
+          },
+          "angular_index": 125
+        },
+        {
+          "derivative": "Xru",
+          "max_norm": 0.00022780492700120547,
+          "where": {
+            "stage": 7,
+            "rawCell": 0,
+            "rawSegment": 5,
+            "x": 0,
+            "r": 0.27706848308305876,
+            "w": 0.0035556027969243643
+          },
+          "angular_index": 2
+        },
+        {
+          "derivative": "Xuu",
+          "max_norm": 2.3825071858750924e-05,
+          "where": {
+            "stage": 8,
+            "rawCell": 0,
+            "rawSegment": 4,
+            "x": 0.5,
+            "r": 0.26649743191536257,
+            "w": 0.0035663964952077185
+          },
+          "angular_index": 0
+        }
+      ],
+      "orthonormal_mixed_hessian_difference_max": 0.0008237538194737868,
+      "orthonormal_angular_hessian_difference_max": 0.0003413816942350601
+    },
+    {
+      "from_M": 12,
+      "to_M": 16,
+      "maximum_derivative_differences": [
+        {
+          "derivative": "Xr",
+          "max_norm": 5.2144853603777225e-06,
+          "where": {
+            "stage": 7,
+            "rawCell": 0,
+            "rawSegment": 5,
+            "x": 0,
+            "r": 0.27706848308305876,
+            "w": 0.0035556027969243643
+          },
+          "angular_index": 0
+        },
+        {
+          "derivative": "Xu",
+          "max_norm": 7.698320175479763e-07,
+          "where": {
+            "stage": 8,
+            "rawCell": 0,
+            "rawSegment": 4,
+            "x": 0,
+            "r": 0.2559309532911868,
+            "w": 0.003577222959783934
+          },
+          "angular_index": 127
+        },
+        {
+          "derivative": "Xrr",
+          "max_norm": 0.0012986595316246104,
+          "where": {
+            "stage": 7,
+            "rawCell": 0,
+            "rawSegment": 5,
+            "x": 0.5,
+            "r": 0.27795459773837033,
+            "w": 0.006850907933174124
+          },
+          "angular_index": 66
+        },
+        {
+          "derivative": "Xru",
+          "max_norm": 0.00014318268552186003,
+          "where": {
+            "stage": 7,
+            "rawCell": 0,
+            "rawSegment": 5,
+            "x": 0,
+            "r": 0.27706848308305876,
+            "w": 0.0035556027969243643
+          },
+          "angular_index": 127
+        },
+        {
+          "derivative": "Xuu",
+          "max_norm": 2.042616966928017e-05,
+          "where": {
+            "stage": 8,
+            "rawCell": 0,
+            "rawSegment": 4,
+            "x": 0.5,
+            "r": 0.26649743191536257,
+            "w": 0.0035663964952077185
+          },
+          "angular_index": 0
+        }
+      ],
+      "orthonormal_mixed_hessian_difference_max": 0.0005176426912816644,
+      "orthonormal_angular_hessian_difference_max": 0.0003017242938287213
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "input": "nonlinear_tail_work/original_negative_m16_lam07_run/response_0001.json.gz",
+  "M": 16,
+  "stage": 7,
+  "rawCell": 0,
+  "rawSegment": 5,
+  "x": 0.5,
+  "r": 0.27795459773837033,
+  "drdx": 0.0035534104462939904,
+  "differences": [
+    {
+      "h_from": 0.0002,
+      "h_to": 0.0001,
+      "max_Xrr_difference": 3.204260235422731e-12,
+      "theta": 4.73693267299086
+    },
+    {
+      "h_from": 0.0001,
+      "h_to": 0.00005,
+      "max_Xrr_difference": 3.937467221581687e-12,
+      "theta": 3.141592653589793
+    }
+  ],
+  "scope": "Local difference-step check at the maximum inter-M rr discrepancy point; not full-grid interval verification."
+}

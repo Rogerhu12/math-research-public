@@ -1,0 +1,40 @@
+{
+  "scope": "Frozen scalar/source supplement; no recomputable arrays.",
+  "files": [
+    {
+      "path": "twojet_refinement_inputs.json",
+      "bytes": 4817,
+      "sha256": "dc31a20639cffbebc1e46bb1decd98b191484b1713cddc563e4bd62e8bddf716"
+    },
+    {
+      "path": "export_common_twojets.mjs",
+      "bytes": 3352,
+      "sha256": "7c54f73a15d2f78b231fdd1ba614a3ccc53c2962df2203105554478e37e0b891"
+    },
+    {
+      "path": "compare_common_twojets.py",
+      "bytes": 2524,
+      "sha256": "3ac67ae24e175624fa683583d5194aa84f9d441418bdbc2fb7005663eeaa75af"
+    },
+    {
+      "path": "check_twojet_difference_step.mjs",
+      "bytes": 2130,
+      "sha256": "1ba4d3fb9572fad64fec35b83b4c05c8ab08cb4fbf0848d2a7d6d773f23fb3e7"
+    },
+    {
+      "path": "common_twojet_refinement_summary.json",
+      "bytes": 5859,
+      "sha256": "5827ee3399c2282736414dca07cee2aeceba6f989f48d568dfa39d685da876a6"
+    },
+    {
+      "path": "m16_lam07_rr_step_check.json",
+      "bytes": 657,
+      "sha256": "04fd623c6e7ede8a6c79b7afa08296113bd706045550c91e29189ae501e48e83"
+    }
+  ],
+  "original_manifest_sha256": "5c6e9a612baa4c355a961c96dd1fc8adfe88a030a94a7111a81fd95da9a70dbe",
+  "note": {
+    "path": "notes/2026-11-17-nonlinear-tail-common-twojets.md",
+    "sha256": "ea9fb139c156b7bacb25d9cd02a4adf7d446d1f4c376a37fefa669a20fdb3c98"
+  }
+}
