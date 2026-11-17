@@ -1,0 +1,100 @@
+{
+  "scope": "Original native nested-parts run has no observed terminal result; no mathematical failure or acceptance is inferred.",
+  "observed_utc": "2026-11-17T23:40:51.688031+00:00",
+  "session": 68353,
+  "write_stdin_result": "Unknown process id 68353",
+  "files": {
+    "seed-config.json": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/seed-config.json",
+      "sha256": "83fc55a82f76b2838786e757d366a284387558bf78da84711e492afb49eb14eb",
+      "bytes": 2305
+    },
+    "solver.log": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/solver.log",
+      "sha256": "c9267f1e01657fee05d121d766b721f966f3f91e8bdb26be78712727d95fd878",
+      "bytes": 243
+    },
+    "observation-live.json": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/observation-live.json",
+      "sha256": "3949b05978c3595cdb850a3c7dd6fae925b0cf3ff3327bc55e986f7bb6f263e1",
+      "bytes": 1547
+    },
+    "seed-entry.json": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/seed-entry.json",
+      "sha256": "5373babd9c5b94809bb9ecc541dc77fb1d33ae24871677360f3f00570b88cf17",
+      "bytes": 13076
+    },
+    "seed-worker.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/seed-worker.jsonl",
+      "sha256": "00abdfe87e6377d93a26d81e3a52bef46bdc218234a923920624ce7ef6a79ddb",
+      "bytes": 1286
+    }
+  },
+  "missing_terminal_files": [
+    "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/observation.json",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/seed-summary.json",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-call3-parts16/seed_tail_0001.json.gz"
+  ],
+  "last_live_status": {
+    "status": "observed_running",
+    "observed_utc": "2026-11-17T23:36:04Z",
+    "elapsed_seconds": 74.128453927995,
+    "samples": 38,
+    "child_returncode": null
+  },
+  "last_original_iterations": [
+    {
+      "iteration": 0,
+      "norm": 50.7982911336314,
+      "minA": 0.5220201874037915,
+      "minD": 0.9991195608486535
+    },
+    {
+      "iteration": 1,
+      "norm": 0.11564303278765951,
+      "minA": 0.5219178056676257,
+      "minD": 0.9991195608601366
+    }
+  ],
+  "last_worker_event": {
+    "time": "2026-11-17T23:35:47.082Z",
+    "event": "iteration",
+    "call": 1,
+    "elapsed_ms": 43205,
+    "iteration": 1,
+    "norm": 0.11564303278765951,
+    "minA": 0.5219178056676257,
+    "minD": 0.9991195608601366,
+    "chartCondition": null,
+    "phase": "correction"
+  },
+  "probe_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/probe_original_tail_nested_parts.py",
+    "sha256": "9e1c91f92beb12bd0d85da789ab5d7e10a487a4f599bcc005761de6334f29cfc",
+    "bytes": 8367
+  },
+  "observer_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+    "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "bytes": 3922
+  },
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0003.json.gz",
+    "sha256": "6059334fa00c9fe6ce4bca788dff852f4da0988b920c5ad7e7f22b7fad65e35b"
+  },
+  "configuration_changed_keys": [
+    "initialCheckpoint",
+    "shootingParts",
+    "traceFile"
+  ],
+  "new_shooting_parts": 16,
+  "original_gate": 2e-09,
+  "complete_request_unchanged": true,
+  "namespace_process_inventory_scope": "Only the current tool sandbox namespace was visible; it does not determine the former host process state.",
+  "unavailable_inferences": [
+    "No native DN acceptance",
+    "No recorded native mathematical failure",
+    "No exit code",
+    "No OOM cause"
+  ]
+}
