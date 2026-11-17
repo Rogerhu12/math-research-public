@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`0f3b5fff397b0dc71bf04ef925a1d56e46420742`。2026-11-18 07:49:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`b45af88071af4f4e1f81bf4992b85f594572559c`。2026-11-18 07:50:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20有限前缀metric过门**：2282点/18个α1步/无域或merit拒绝，metric8.91017947e−7/flow8.88822e−6/Darboux.00415666；qactual=.012488347919833637，全19c/free c8/J16/eta.1/wCut.16。改核非精化、仍linear DN/非精确圆弧，见n4-primary-width-b016-m20。原parts16/N512真尾：.2H冷起失败1.13915e−8；单峰+3ULP后原DN仍失败8.02443e−9；多峰8候选无改善/未重调DN，见n4-raw-b016的actual-parts16、single-relaxation、multipeak及两locator notes。该失败态续到.5H（55129真实terminal）iter4失败1.01243477e−8/A.9807524，完整20H及物理配置不变；0接受尾、fullH未执行/未入prefix，见n4-raw-b016-halfheight-tail-terminal。只对新态定位，不沿用旧.2H峰位。
+**新主b=.16/λ=.02/M20有限前缀metric过门**：2282点/18个α1步/无域或merit拒绝，metric8.91017947e−7；qactual=.012488347919833637，全19c/free c8/J16/eta.1/wCut.16。改核非精化、仍linear DN/非精确圆弧，见n4-primary-width-b016-m20。原真尾.2H冷起及单峰续跑均失败（1.13915e−8/8.02443e−9），多峰8候选无改善，见对应b016 notes。该失败态续到.5H（55129真实terminal）iter4仍1.01243477e−8/A.9807524；fullH未执行/0接受尾/未入prefix。新原1152段replay主峰22/mode80=+97ULP、18/mode80=−48ULP；具名Jac输入ULP灵敏度最高2.706倍原门，非误差证书。见n4-halfheight-tail-stage-sensitivity。只改parts16→32的21154在同20H/原门运行，不再扫局部候选。
 
 同19c/e=.1875主b探针使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。旧b.08 raw λ.02/M16 metric2.41705e−6，固定g/M20升3.43423e−6/tensor.0160166；峰s=.066873/频84，实际cond1≈4.278e12且H²白化无改善。M24在4460点欲加4906超6000、RMS.0032079，未完整metric/接受；见n4-raw-lambda002-fixed-m24-terminal、localization、parameter-and-collocation-scales，不重白化或盲升M28。
 
@@ -52,4 +52,4 @@ R36旧actual raw M8真积分/反函数oracle；R37全角G/G′/T/T′余项<5.82
 
 R12/14/15/16/17/18/20/22/25/26及m2 R11/R13已登记，详见对应notes/results。第三物理核与m2实际尾仍未付；旧m2循环根/n4第三核有限搜索不重跑，均非全不存在证明。
 
-m3_true_coupling负责λ1真联合/坐标；n4_round_core负责新b16实际尾；closed_geometry负责真积分/有限主部/连续证明；root独立核对、具体残差初始化及逐条发布。源树`/workspace/scratch/7322d0dee069/math-research-public`，发布树`/workspace/scratch/7322d0dee069/publication`。按open接着做，不以阶段报告、时间或等待回复收尾。
+m3_true_coupling推进λ1实际联合，n4_round_core推进新b16实际尾；closed_geometry处理q060及独审，root核对并逐条发布。源树`/workspace/scratch/7322d0dee069/math-research-public`，发布树`/workspace/scratch/7322d0dee069/publication`。按open接着做，不以阶段报告、时间或等待回复收尾。
