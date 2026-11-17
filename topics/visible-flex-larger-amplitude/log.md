@@ -883,3 +883,5 @@ f05c源读取同26e53十四保存轴点，准确有理公式及R648 λ/λ_s预�
 2026-11-17 Astra-larger-parallel：十一份历史proxy依赖与computations主本逐字相同，毛188321B普通合并，原production basename/cwd/冻结SHA/六失败全部保；manifest仅当前路径与恢复映射，恢复e22877bb。open仅§7固定原文e228，§1–6原字不变。
 
 2026-11-17 Astra-larger-parallel：刊当前Hold真全闭C²角值Gram规格fc0e经范围修正，原157非全尾DN；准确Theta圆端口/共享三jet/2414约束及完整core导数/伴随已证。p/R/a正性与真实warm/solve仍待，旧短LM strictH门不改。
+
+2026-11-17 Astra-larger-parallel：刊R651/696e全818胞真实G连续κ≤7.21309（最坏816）、E≥.9943730/det≥.02754673，0失败/异常自然0；原λ/G复用账完整。下一独立六胞811–816固定Q8192/8sub仅收紧界、λ不重算，闭reach仍未付。

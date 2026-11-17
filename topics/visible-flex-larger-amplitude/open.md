@@ -103,7 +103,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 全部原结论/参数/失败/来源/运行账/未付逐字保[e22877bb固定open](https://github.com/Rogerhu12/math-research-public/blob/e22877bbb2e3e9897b3b802129b79d74e26425c3/topics/visible-flex-larger-amplitude/open.md)，内续7245/ecdacd/ddf/c87及所有旧链。仅压§7，§1–6原字保持；本地计算，原Actions责任不变。[完整结果索引](results.md)。
 
-**固定开放前缀。** 同26e53/q4096的R638/640/642付全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819精确片连续relative Gram<4.94e−7，含1−5/2^60后微片。曲率80092仅补原686后的132G/131λ，λ685复用；支持18950仅补原249后的570片，原5代表不重复，0新λ。两批固定网格/真实G/来源不变，[最小恢复源和CLI](notes/2026-11-17-parallel-model-second-interruption-recovery.md)，model唯一终态；尚未冒全域终态。aa1 hold R644全raw/G/镜像嵌入，R646只四胞六片Gram，R645同像见证dist>.9588。均非闭面/完整held。
+**固定开放前缀。** 同26e53/q4096的R638/640/642付全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819精确片连续relative Gram<4.94e−7，含1−5/2^60后微片。[R651曲率](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)80092真实818/818/0失败自然0，K≤7.21309，最坏816；原686及λ685复用后补132G/131λ。支持18950仅补原249后的570片，原5代表不重复，0新λ。两批原固定网格/真实G/来源不变，[最小恢复源和CLI](notes/2026-11-17-parallel-model-second-interruption-recovery.md)，model唯一终态；支持批尚未冒全域终态。aa1 hold R644全raw/G/镜像嵌入，R646只四胞六片Gram，R645同像见证dist>.9588。均非闭面/完整held。
 
 **已登记失败保留。** .997/β/normal-only/fast317/onlyZ109、桥高尾/pulse六设计/meanLP400/M64、1.04Cauchy及1.03显式BVP等原参数/预算/失败全部保固定全文。5b965的3a7f分支负、C² Gram5.28554；927f/8fa6原24/20终态Pr未收敛，bf5a真quintic Gram8.01546e−5且node594为3.62218e−5。保Y/U换A或仅镜像首胞不改该坏节点，不重试这些版本。
 
@@ -118,3 +118,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败。本次11份历史依赖188321B归同字节computations主本，只改manifest当前路径；仍须按原basename恢复到原生产目录再执行，完整恢复e22877bbb2e3e9897b3b802129b79d74e26425c3。
 
 [真全闭direct-Gram接口](notes/2026-11-17-parallel-geometry-fullclosed-direct-gram-interface.md)：旧157只是1.03冻结Taylor参考的Schur位置行，非全尾DN。新同Hold a/S、w=.05解析Θ圆端口lift、共享Y/U/A与Hcap，准确core/末三jet，全部角值Gram及core→ρ/Θ/lift正/伴随已证。平cuff H_Fr=0却area=Rρ>0，新模型不用旧strictH门；旧短预算保持。p/R/a正性、非轴warm、实际实现/求解/全连续审核尚待。
+
+R651完整曲率真实终态696e/摘要94b68，全部E≥.9943730、det≥.02754673。上界>7.05仅811–816六胞；root另定六胞Q8192/原8sub的新界读取，准确复用各原λ三jet证书，不改变已完成818预算，也不重做λ。新结果另刊，尚非闭reach。

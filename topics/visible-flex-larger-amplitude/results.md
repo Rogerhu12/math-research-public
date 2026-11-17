@@ -227,3 +227,5 @@
 - [两份二十查询历史域清单：真实来源、消费者与固定恢复](notes/2026-11-16-two-twenty-domain-manifest-retention.md) — 固定4d572940完整audit及具体消费者；仅两548177B可再生manifest按最终真pull增量guard普通移出，全部科学源/输入/warm/status/数组保留。
 
 旧request212导航备份已按[准确恢复说明](notes/2026-11-17-parallel-historical-index-retention.md)普通退役，全部原文可从固定历史恢复；证明正文不变。
+
+- [R651：同一规范化pulse全818胞连续主曲率界](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md) — 原固定计划全返/0失败，实际K≤7.21309，最坏816；同像、相位与镜像继承，仍非闭reach。
