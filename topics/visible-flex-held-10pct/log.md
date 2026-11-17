@@ -307,3 +307,5 @@
 - 2026-11-18 05:14:08（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 raw lambda.02独立有限终态：763点、RMS2.96336e−7、原域Newton六接受步无拒绝；完整metric2.417047e−6/tensor.00703696仍未过门。δ=.030158202455449618/vd=.25018727173023186，实际线性port不是非线性真尾。核collector/core/wrapper/输入/CP与全部chunks及独立snapshot hash，未重求解；冻结此全g、保eta并释放c8补同g参数计数。双README真实pull无变化。
 
 - 2026-11-18 05:14:20（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 raw lambda.05独立有限终态：811点、RMS2.98816e−7，但完整metric6.953429e−6/tensor.0220035；δ/vd与.02不同，不算同g层。保存两态后主动停止列表，exit130只对应中止，lambda.1无成功或失败结论。逐一核原snapshot/CP/chunks/source/输入，保留全部原门；转已固定的.02 g作谱精化。双README真实pull无变化。
+
+- 2026-11-18 05:16:00（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 raw同g M16入口及两次工程终态：新port缺prefix桥selector已按accepted原值修复，五个物理cut数值全同；v2进入warmup后worker停止无response/退出码，未产prefix内解，不推OOM或数学失败。fixed wrapper逐项拒绝profile/chart/warp/physical port改变，原2e−9尾门及BVP保留。独立核全部input/可用源/command/output hash和完整port一致性。双README真实pull无变化。

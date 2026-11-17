@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`e612d89c553665e54ac4763d2ea0a717e56946c9`。2026-11-18 05:14:20（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`630a27c0e7862f92a6301948f1133ca3a37b174e`。2026-11-18 05:16:00（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -34,7 +34,7 @@ R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几
 
 **beta4.625/q.040完整真联合**：936点，δ=.061051601505166045；prefix metric6.91e−9/tensor2.34148e−4/K8.71925/物理BC9.05e−10；tail res1.37680e−9/minA.742322/metric5.98745e−10/fullD4.11830e−6，4次tail和audit原门均过。q.060首warmup原线搜索失败res3.67146e−9，无新prefix；见m3-beta4625-*。这两批是新g。
 
-**n3实际圆化**：积分core/单次完整lift/自由c6/锁主频已接通，lambda0三jet≤3.44e−13。canonical旧c的15宽度峰最低79.163；lambda.02/.002原域失败、.0002/parts8尾失败，parts16有限联合接受但metric3.97036e−4/tensor.364761/mean一阶缝−9.83e−6未过完整门；见m3-exact-round-core-start、m3-round-lambda0002-*。现从旧好锚点改raw低2×2投影，lambda0旧cos、lambda1全free空间相同，中间高矩改变。raw lambda.02四次真尾接受，δ=.06105141410261685/tail1.37544e−9，但metric8.30078e−5/tensor.047932仍未过；见m3-raw-lambda002-finite-state-and-metric-gap。冻结全g/lambda/width升M8→M16/N256/parts16，首次worker消失是工程中断；检查同cell引擎复用/退出诊断，不算数学失败。raw每列独立M，append0保整个核；2×2原rational Neumann系数证书保原正性门，见m3-raw-compact-path-and-certificate。不能把设计delta变化当同g。旧q04 raw宽度诊断在.16/.20/.40/.80的采样曲率控制峰为.09199/.06028/.01651/.004209；仅新设计参考，非连续预算或同g精化，见m3-raw-control-width-screen。
+**n3实际圆化**：积分core/单次完整lift/自由c6/锁主频已接通，lambda0三jet≤3.44e−13。canonical旧c的15宽度峰最低79.163；lambda.02/.002原域失败、.0002/parts8尾失败，parts16有限联合接受但metric3.97036e−4/tensor.364761/mean一阶缝−9.83e−6未过完整门；见m3-exact-round-core-start、m3-round-lambda0002-*。现从旧好锚点改raw低2×2投影，lambda0旧cos、lambda1全free空间相同，中间高矩改变。raw lambda.02四次真尾接受，δ=.06105141410261685/tail1.37544e−9，但metric8.30078e−5/tensor.047932仍未过；见m3-raw-lambda002-finite-state-and-metric-gap。冻结全g/lambda/width升M8→M16/N256/parts16：先修复缺失桥选择器（五个物理cut数值全同），v2首warmup后worker消失、无尾response，非数学终态；见m3-raw-m16-fixed-start-engineering。准备等方程缓存和退出诊断。raw每列独立M，append0保整个核；2×2原rational Neumann系数证书保原正性门，见m3-raw-compact-path-and-certificate。不能把设计delta变化当同g。旧q04 raw宽度诊断在.16/.20/.40/.80的采样曲率控制峰为.09199/.06028/.01651/.004209；仅新设计参考，非连续预算或同g精化，见m3-raw-control-width-screen。
 
 旧beta4.125 q.02/.025/.03/.04接受；beta3.625 q025三条原门失败。详m3-beta4125-*、m3-beta3625-*及tail-residual-and-positivity-locations，不重跑。q04旧prefix最小root在后桥，非lambda.002失败位置，见m3-prefix-positive-root-bottleneck。
 
