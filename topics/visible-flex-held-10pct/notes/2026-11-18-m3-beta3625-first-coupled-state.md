@@ -7,8 +7,9 @@ q=.02 已完成前缀校正及校正后实际尾部复核；不是只通过启�
 
 ## 参数与实际接受结果
 
-只有第一项 valley control 从旧设计 3.125 改为 3.625，其余尾部控制参数和双脉冲参数不变；全局重标定仍须重建完整物理g，
-不宣称后部物理函数逐点不变。同源 M8、spacing3、depth8、parts8、RK16、
+只有第一项 valley control 从旧设计 3.125 改为 3.625，其余尾部控制
+参数、双脉冲控制和后续 valley controls 不变。全局重标定系数会随之
+改变，整个 r(x) 的分配也会改变，不能称后部物理函数不变。同源 M8、spacing3、depth8、parts8、RK16、
 quadrature128、linearFar48、linearSteps512，原全局门槛 `2e-9`。
 prefix 的 delta 在新物理 port 下重解，结果
 `delta=.06105607495644815`，q=.02，936 个径向节点。

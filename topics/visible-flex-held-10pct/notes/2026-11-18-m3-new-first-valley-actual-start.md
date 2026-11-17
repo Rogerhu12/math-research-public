@@ -5,6 +5,8 @@
 3.625，后面的 159 个 valley controls、双脉冲、warp weights、cut、
 背景曲率约束、M8/spacing3/depth8/parts8/steps16 均保留。这个变化是
 **新物理 g 的设计**，不是原 g 的 refinement。
+保留的是其余控制参数；全局重标定系数仍会改变整个 r(x) 分配，
+不能据此把后部物理函数视作未变。
 
 ## 实际有限尾的终态
 

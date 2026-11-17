@@ -1,0 +1,277 @@
+{
+  "scope": "Collect terminal scalars and hashes, never regenerable field arrays.",
+  "runs": [
+    {
+      "run": "beta3625-q0225",
+      "summary_sha256": "7482d90412ce5188664739e5af7330d100e7a42313ea75f1550b547f6297de42",
+      "status": "accepted",
+      "solver_success": true,
+      "error": null,
+      "frozen_profile": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "delta": 0.061055703925903294,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "gauge_amplitude": 0.0225,
+      "actual_primary_amplitude": 0.0225,
+      "nodes": 936,
+      "max_rms_collocation_residual": 9.992519732580556e-07,
+      "seconds": 461.9765794277191,
+      "tail_calls": 4,
+      "actual_outer_checks": [
+        {
+          "outer": 0,
+          "inner_success": true,
+          "actual_boundary_residual": 6.2579536279323456e-09,
+          "actual_tail_residual": 1.3788089599084824e-09,
+          "tail_calls": 3
+        }
+      ],
+      "prefix_scalars": {
+        "metric_l1": 4.53176827623042e-08,
+        "flow_defect": 5.125798044460539e-08,
+        "darboux_l1": 7.150288482236905e-05,
+        "kappa_sample": 8.132826053794343,
+        "radius_max": 1.0717523133854128,
+        "height_max": 0.7858742523202935,
+        "root_min": 0.003419590218741164,
+        "chart_rho_min": 0.82,
+        "support_amplitude": 0.0225,
+        "terminal_height_coeff_max": 6.151061023556362e-05,
+        "physical_bc_max": 1.2515907255864691e-10,
+        "samples_s": 2020,
+        "samples_psi": 512,
+        "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+      },
+      "seam_scalars": {
+        "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+        "tail_record": "seed_tail_0004.json.gz",
+        "tail_converged": true,
+        "tail_shooting_residual": 1.3788089599084824e-09,
+        "mean_first_actual": 0.07975384087623699,
+        "mean_first_expected": 0.07975384087621691,
+        "mean_first_mismatch": 2.008115895790752e-14,
+        "mean_second_actual": 1.8425956565813988,
+        "mean_second_expected": 1.8425956566243193,
+        "mean_second_mismatch": -4.2920555998193777e-11,
+        "nonmean_first_mismatch": 1.2515913813296227e-10,
+        "nonmean_second_mismatch": 2.754247318154835e-09,
+        "cut_metric_fft_l1": 3.714937531350926e-13,
+        "cut_metric_c1_fft_l1": 5.5095053317913816e-12,
+        "angular_samples": 512
+      },
+      "tail_responses": [
+        {
+          "path": "seed_tail_0001.json.gz",
+          "sha256": "527732eafe0ddd5d5a343b53b697f6c6d1f0d709b0a4a55108ce626db374188c",
+          "converged": true,
+          "residual": 1.992446935317551e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 5,
+            "norm": 1.992446935317551e-09,
+            "minA": 0.6188669653868514,
+            "minD": 0.9996906337167046
+          },
+          "audit": {
+            "fullD": 1.7366969768884434e-05,
+            "normalizedFullDefect": 0.0003067789417806471,
+            "minLeading": 0.6188669653868514,
+            "minD": 0.9996906549815016,
+            "formalCurvature": 8.061631211548862,
+            "maxPhysicalPV": 0.00012291794244325766,
+            "actualMetric": 1.9393964212355294e-09,
+            "holonomy": 8.037813273851276e-19
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0002.json.gz",
+          "sha256": "a30c3400489dc5f83d648ab5f61087abf090fbfb31348eba6fb3e34fc6673d2e",
+          "converged": true,
+          "residual": 1.992446935317551e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 0,
+            "norm": 1.992446935317551e-09,
+            "minA": 0.6188669653868514,
+            "minD": 0.9996906337167046
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0003.json.gz",
+          "sha256": "3c161001bb338cd4a6db046029362878d164c100a0f0ffc9bfb1b8d5c52d8480",
+          "converged": true,
+          "residual": 1.3788089599084824e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 6,
+            "norm": 1.3788089599084824e-09,
+            "minA": 0.6181559744895361,
+            "minD": 0.9996896587864024
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0004.json.gz",
+          "sha256": "50375c8b0f82868d04b4fc769626b273a59527de88ccfe229065588772214171",
+          "converged": true,
+          "residual": 1.3788089599084824e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 0,
+            "norm": 1.3788089599084824e-09,
+            "minA": 0.6181559744895361,
+            "minD": 0.9996896587864024
+          },
+          "audit": {
+            "fullD": 1.8191177051466616e-05,
+            "normalizedFullDefect": 0.0003213381562736372,
+            "minLeading": 0.6181559744895361,
+            "minD": 0.9996896801353401,
+            "formalCurvature": 8.062341000648114,
+            "maxPhysicalPV": 0.0001229062370823986,
+            "actualMetric": 2.031359969123514e-09,
+            "holonomy": 8.074341569701618e-19
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        }
+      ],
+      "continuation-command.json": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--restart-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q020-linear-difference/port.json",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q0225/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q0225/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q0225/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q0225/seed",
+          "--restart",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q020-linear-difference/seed.json.gz",
+          "--amplitude",
+          "0.0225",
+          "--warp-reference",
+          "0.0225",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1.0",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          3.625,
+          3.625
+        ],
+        "tail_initialization": "explicit_old_metric_initial_coordinates",
+        "inputs": {
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q020-linear-difference/seed.json.gz": "bd905caeeff4d8cae23154df279edcd891aa2709cd04429a82812e03c2723a9c",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q020-linear-difference/seed_tail_0004.json.gz": "192cf7bfae384f9f7417782e28e020eccdba8ee9e6d778cc0422e4bd53ae6dc8",
+          "/workspace/scratch/7322d0dee069/m3_work/beta3625-q020-linear-difference/port.json": "db61f188a6dfab20789f437927f4b5278f4ad051a36ee0be5ed8ec488ae7e7dd",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 0
+      },
+      "output_hashes": {
+        "config.json": "0ff1c87aecb8bd9f4a542c291ac690630c8e958817a9fac6b092c221f9ee5b83",
+        "continuation-command.json": "8a08b03b5ecfe83d741942b3eae5d9e0dde2d993562b2f31cb458697d691388b",
+        "linear-trace.jsonl": "11a4950b28660a5922d1772e798426f479b4d3320e5af244832c6c17e4aaef5d",
+        "port.json": "7533e730b7bda86db4c33d438cb461b8584ef60dc998bbef0ac71e48d584e377",
+        "profile.json": "228f44940ec3a6cb1c22764dc152e726c64144572f99aed98d068c47ed208bed",
+        "seed-design-initializer.json": "16ef02c62efbd70a47db448cb205c44ccee6eb4877bcb5c8baaaf271c392f305",
+        "seed-summary.json": "7482d90412ce5188664739e5af7330d100e7a42313ea75f1550b547f6297de42",
+        "seed.json.gz": "c6c8112c831ac1fc5ed458a15615687bd391ea76d5b0e1f4679386135965de8b",
+        "seed_coeff_00.npy.gz": "36ad65ceae8012649cdb68b9f0af93b25d680c8ebb77e6c15312930aedcb40a1",
+        "seed_tail_0001.json.gz": "527732eafe0ddd5d5a343b53b697f6c6d1f0d709b0a4a55108ce626db374188c",
+        "seed_tail_0002.json.gz": "a30c3400489dc5f83d648ab5f61087abf090fbfb31348eba6fb3e34fc6673d2e",
+        "seed_tail_0003.json.gz": "3c161001bb338cd4a6db046029362878d164c100a0f0ffc9bfb1b8d5c52d8480",
+        "seed_tail_0004.json.gz": "50375c8b0f82868d04b4fc769626b273a59527de88ccfe229065588772214171",
+        "startup-config.json": "c83e48def3bb7456df73279c5445fb48ea3824e3dec1dd2be062b2afd04184c7",
+        "worker-port.json": "094b07cf90d943387b991a2e792b95ddea4e3c70c706d2b9eddc256042e55643",
+        "worker-trace.jsonl": "66f9215075d9f68d5e126f9401d1f09f7b849ca29d2ec04fa88a26d0ce25d823"
+      }
+    }
+  ]
+}
