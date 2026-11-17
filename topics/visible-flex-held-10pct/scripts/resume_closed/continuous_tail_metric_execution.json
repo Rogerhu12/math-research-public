@@ -1,0 +1,172 @@
+{
+  "scope": "R29: actual fixed-g M16/steps64 finite-tail continuous full-angle metric, with true background partial integrals; prefix not included.",
+  "sources_sha256": {
+    "certify_continuous_tail_metric.py": "55c010b568aaac0a41df2214483d8577894aee309a0d3ac52c543c350c08ca65",
+    "interval_tail_metric.py": "9e28560b72e22a7a9b56ec77147df1093055083b290b473dcce8e150a1b38a88",
+    "certify_background_queries.py": "4feb7eb5c05fdf438744e4727bfe694e4d46fb4e6a6f6ccad01502d19ed1ba2c",
+    "certify_background_sharp.py": "39dbbaeafe8f8b23b38e894e8cab4ec0340248545a723e2bec32ea750ca129f0"
+  },
+  "inputs_sha256": {
+    "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_constants.json": "f9efb5c41fc7a4e683222c86bce279d94fc5f328332c6ff21db82901a864fab9",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17_guarded.json": "a0358af3311b198312e32a96305e53e1210cabd2c652621ef233b07dbf111294",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06"
+  },
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_continuous_tail_metric.py",
+    "--manifest",
+    "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+    "--tail-reader",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+    "--constants",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_constants.json",
+    "--background-certificate",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17_guarded.json",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+    "--checkpoint",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+    "--threshold",
+    "1e-6",
+    "--piece-width",
+    "1e-18",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_continuous_metric.json"
+  ],
+  "formal_output": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_continuous_metric.json",
+    "sha256": "09fe17ffb99467ae7688215636d29c2eb8a7db2f151284e1008f718d7f1fc732"
+  },
+  "result": {
+    "threshold": "1e-6",
+    "shallow_original_spans": 4612,
+    "accepted_continuous_intervals": 4823,
+    "maximum_subdivision_depth": 1,
+    "continuous_full_angle_metric_upper": 9.996590773606874e-07,
+    "passes": [
+      {
+        "iteration": 0,
+        "intervals": 4612,
+        "maximum_attempted_bound": 1.9134859916008577e-06,
+        "refined_parent_intervals": 211
+      },
+      {
+        "iteration": 1,
+        "intervals": 422,
+        "maximum_attempted_bound": 9.562201398498211e-07,
+        "refined_parent_intervals": 0
+      }
+    ],
+    "true_background_sample_centers": 5034,
+    "largest_true_radius_proposal_error_upper": 2.8173015945532428e-14,
+    "partial_integration_leaf_panels": 5371,
+    "global_background_wR_abs_bound": 11,
+    "angular_sampling_used": false,
+    "full_phase_reason": "Physical material-angle shifts and ambient rotations preserve the relative metric norm.",
+    "exact_isometry_claimed": false,
+    "entire_closed_prefix_metric_certified": false,
+    "seconds": 93.93155387099978
+  },
+  "deep_cell_bounds": [
+    {
+      "raw_cell": 7,
+      "spans": 4612,
+      "relative_operator_upper": {
+        "numerator": "54122385797201295964845610282079669790448747187929593320773647323366158199595905483375046817078669730567597",
+        "denominator": "7161770685700267796172380528951140414871911273514820091393667085459954561049899021937414395700086688430900516470888935208018929254400",
+        "display_only": 7.55712353444465e-27
+      }
+    },
+    {
+      "raw_cell": 6,
+      "spans": 4612,
+      "relative_operator_upper": {
+        "numerator": "23110537646657966683360604299410800529084714247819985649876341312220229184450283001069807719960329",
+        "denominator": "2148045392791338413133653176979417997726884658739821530421760193223199177135032072781617557949898126167550710723379200",
+        "display_only": 1.0758868375973342e-20
+      }
+    },
+    {
+      "raw_cell": 5,
+      "spans": 4612,
+      "relative_operator_upper": {
+        "numerator": "1145431723157114394138675100280818104468360724364845187615169809131852649741137276831255543785901",
+        "denominator": "3974075984237935332753743608346474291179177979428942423178540349796009061043157325009502965204443686078775296000",
+        "display_only": 2.8822592413938484e-16
+      }
+    },
+    {
+      "raw_cell": 4,
+      "spans": 4612,
+      "relative_operator_upper": {
+        "numerator": "12519499628303833254520193259634630065093805141572354365527939794066311823189079805567888719",
+        "denominator": "21580346186746348014232786045147434131018901515503876945945486542382072988347131333320522172525969408000",
+        "display_only": 5.801343277798171e-13
+      }
+    },
+    {
+      "raw_cell": 3,
+      "spans": 4612,
+      "relative_operator_upper": {
+        "numerator": "10247446687040965310073280784025009919452499867510652722141066513569264066721021999794269",
+        "denominator": "292644760539728546709960621768735728632895319006960689098026863500877105867705700163671237328896000",
+        "display_only": 3.501667574072218e-11
+      }
+    },
+    {
+      "raw_cell": 2,
+      "spans": 4610,
+      "relative_operator_upper": {
+        "numerator": "8216502388732765955747031420267098545471962687508870721492176838132188677045755584423",
+        "denominator": "7283557669685017022211589597265543215908265470115311298501744295748192525408256557179731968000",
+        "display_only": 1.1280891511205807e-09
+      }
+    },
+    {
+      "raw_cell": 1,
+      "spans": 4610,
+      "relative_operator_upper": {
+        "numerator": "13016553312127855271735525535729237542449971031331072497959500819177989037937899669",
+        "denominator": "103978981995882537226390755768284357617015907953973583888689949893720713490727809581056000",
+        "display_only": 1.2518446576677677e-07
+      }
+    }
+  ],
+  "scratch_details_sha256": {
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_continuous_metric-background-grid.json": "3a766f386d28ece4e84c7651be0716531c9939b8d5b7bb2df2cd5f3609f8fcaf",
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_continuous_metric-intervals.json": "016459e7cc7875853da93f5398e7ddf04ad34936d8cb217f78eb5d4bf6eb0171"
+  },
+  "local_inverse_queries": {
+    "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_background_true_queries_tight.json",
+    "output_sha256": "02e756a4512a4f158eb89f8c5dd9fd28f3771f208e4b1ccdd0c96d91f222abec",
+    "command": [
+      "topics/visible-flex-held-10pct/scripts/resume_closed/certify_background_queries.py",
+      "--constants",
+      "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_constants.json",
+      "--certificate",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17_guarded.json",
+      "--source-topic",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+      "--checkpoint",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+      "--radii",
+      "0.2154422816672151,0.28304471508506235,0.29649762863045936",
+      "--piece-width",
+      "1e-18",
+      "--out",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_background_true_queries_tight.json"
+    ],
+    "source_sha256": "4feb7eb5c05fdf438744e4727bfe694e4d46fb4e6a6f6ccad01502d19ed1ba2c",
+    "inputs": {
+      "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_constants.json": "f9efb5c41fc7a4e683222c86bce279d94fc5f328332c6ff21db82901a864fab9",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17_guarded.json": "a0358af3311b198312e32a96305e53e1210cabd2c652621ef233b07dbf111294",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/background_metric_query.mjs": "97f5557b5f6a076f36a421f6554c804dee6cfa208252f926563e5195311f3f95"
+    },
+    "seconds": 58.317557870999735
+  },
+  "completion_evidence": "Both formal outputs are complete; continuous metric output records every coverage assertion passing and the log ends with the successful result. After context interruption their old tool session IDs were no longer available; no unobserved process exit code is asserted.",
+  "interpretation": "9.996590773606874e-7 is an adaptive threshold-driven sufficient upper bound, not an estimate of the actual supremum. This result does not certify prefix or exact isometry. All regenerated arrays and full per-interval output stay in scratch."
+}

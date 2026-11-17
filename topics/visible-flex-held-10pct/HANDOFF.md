@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`f5a112b161fcc18df185a0cb1fbe1fcdb4edc212`。2026-11-18 04:00:50（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`ef1f00a8e660799a8d3782ab2abe4b33099f91da`。2026-11-18 04:04:13（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -32,7 +32,7 @@ eta.1/q.01/M16 λ0前缀已接受724点，metric2.38461e−8/tensor1.62253e−5/
 
 **原固定g**：δ=.06105607686781097，g SHA11a9…b125。q02 M8→M16/parts8过原门，M16 tail res1.161e−9/minA.440917/fullD2.735e−7。固定g径向983→2462点使prefix metric4.971e−9→5.845e−11、tensor9.015e−6→1.947e−6。见m3-fixed-m16-parts8-and-radial-floor、m3-true-radial-refinement。
 
-恢复旧q021/q025而未重算：q025 δ=.06105528571325212、prefix metric3.690e−9、tail res1.857e−9/fullD4.422e−5/minA.26267。q026/RK32终态2.613e−9、q0275几何初值+局部同伦3.375e−9均未过2e−9；含startup失败7条记录见m3-finite-continuation-initializers。
+原g旧q025已恢复而未重算：tail res1.857e−9/fullD4.422e−5/minA.26267。q026/RK32及q0275两种继续未过原门，含startup失败共7条见m3-finite-continuation-initializers，不重做。
 
 **新beta3.625**：仅首谷控制改变，其余控制参数不变，但全局重标定改变整个r(x)，故是新g。q.02接受后q.0225已完整联合：δ=.061055703925903294、936点；prefix metric4.53177e−8/tensor7.15029e−5/K8.13283；tail res1.37881e−9/minA.618156/metric2.03136e−9/fullD1.81912e−5，物理BC1.25159e−10。不同q仍重解δ，不称同g；见m3-beta3625-second-coupled-state。
 
@@ -50,7 +50,9 @@ R24原M8非零固定帽证明全O(3)非全等，held/D>.00543686。R28新M16/64�
 
 **同checkpoint尾32→64步**：真实R处metric1.8282e−9→1.4441e−10；整面最大仅降至1.6485e−9，被未加密prefix主导。内部Vrr误差约降5倍但全尾两层二阶差仍.00629485，未证C²极限；旧差分步不是主因。每层重做cut/mean。见m3-closed-metric-and-rr-location、m16-same-checkpoint-radial64。
 
-**R27原g真背景**：432段/10034叶的总变差、四阶区间Simpson和深尾余项给λ∈[161.87100490348996,161.8710049035018]；工厂λ严格偏高(2.0236e−11,3.2089e−11)，不能代替真g。closed_geometry正补部分积分/严格反函数与全角/全径向metric，不再铺低幅几何盒。源resume_closed/certify_background_sharp.py。
+**R27原g真背景**：432段/10034叶的总变差、四阶区间Simpson和深尾余项给λ∈[161.87100490348996,161.8710049035018]；工厂λ严格偏高(2.0236e−11,3.2089e−11)，不能代替真g。部分积分与严格逆已补；源resume_closed/certify_background_sharp.py。
+
+**R29全有限尾连续metric已过**：同M16/64图、真R27背景，完整Laurent卷积/径向导数积分给全R/角/相位相对operator界9.996590773606874e−7。4612浅段有211段仅二分一次，共4823接受区间；深7cell最高1.25185e−7。阈触发充分界不是实际最大误差；无BVP重解/换g。前缀连续metric仍缺，桥段Gauss半径与解析积分/接缝口径正明确，未宣布全闭metric完成。
 
 ## 4. 已登记证明和另一高幅入口
 
@@ -62,9 +64,9 @@ R20/R22单/双谐波到精确圆弧正距离，切空间障碍须完整核+可�
 
 m2旧补弧高M初值负rho不是无解；新首三谷[4.25,3.9375,5.0625]给mode2线性H阈2.11656e−4约旧3.08倍、DN11.85689844；65次真实重标定screen仅新设计，非非线性容量/同g。见mode2-three-valley-design。R1–R10、旧GC/短领失败与R114仍留历史，不重复。
 
-m2循环方向/次数新线性screen已完成：外向两循环6根、内向单循环5根；保留实际H/q、背景采样K/尺寸与完整复现，尚无这些设计的非线性BVP。KD诊断不是必要障碍。见m2-loop-transfer-designs。
+m2循环线性screen的11根见m2-loop-transfer-designs；尚无非线性BVP，KD采样不构成障碍。
 
-n4第三核两新物理搜索：最大半径插柱4初值、三个C³半径控制3初值均未得τ4/8/12共同根，含边界/次数/xtol终态；优化器成功不等于根，未证不存在。见n4-physical-third-mode-searches。
+n4第三核插柱/形控七终态均未根，不证不存在；见n4-physical-third-mode-searches。
 
 mode2六谷53次真实重标定screen未提高旧三谷：192步阈1.73409e−4，瓶颈cell1，仍只是线性诊断。见mode2-six-valley-balance。
 

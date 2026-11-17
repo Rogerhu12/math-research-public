@@ -26,3 +26,7 @@
 ## R28. M16径向64步完整闭图与固定标记
 
 [完整证明](results/R28-refined-m16-closed-map-with-fixed-markers.md)。新共同cut/mean图用自身连续几何与体积矩证明全相位reach≥.1、D≤2.301491469394及含反射的δE>0；固定H直径比>.69794、整像held比>.00546265。它仍低于10%，未证明精确等距。数值32→64比较另见同日m16-same-checkpoint-radial64笔记。
+
+## R29. 实际M16有限尾的连续全角固定g误差
+
+同R28 M16/steps64图，真实R27背景部分积分与完整Laurent卷积/径向导数界给全尾、全角和全相位相对operator误差≤590094565153063/590295810358705651712<1e−6。目标阈触发的充分界，不是最大误差估计；prefix连续metric仍未付。证明与完整执行来源见[正文](results/R29-continuous-metric-of-the-actual-m16-tail.md)。
