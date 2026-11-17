@@ -1,0 +1,70 @@
+{
+  "result": "R40",
+  "recorded_utc": "2026-11-17T22:11:06.930340+00:00",
+  "command": [
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_m3_smallq_ramp_window.py",
+    "--profile-checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "--reference-source",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-prefix-flat-accel-screen.py",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/r40-smallq-ramp-window.json"
+  ],
+  "exit_code": 0,
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/certify_m3_smallq_ramp_window.py": "c4217f18a250524e42fe4f29ba8d42c1543392793031c345a6a57156880ba21d",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef"
+  },
+  "input_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "sha256": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+    "role": "Parameter identity only; no circular BVP or metric claim."
+  },
+  "output": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/r40-smallq-ramp-window.json",
+    "sha256": "37ae7f1d2279fd13e7b8ee243284d8f3d4ba0911757e3f9b595ede240ff809f6",
+    "repository_status": "scratch scalar output, reproducible from source; not committed"
+  },
+  "certificate_summary": {
+    "exact_rational_design": {
+      "q_lower": "39/1000",
+      "q_upper": "41/1000",
+      "delta_lower": "3/50",
+      "delta_upper": null,
+      "vu": "9/20",
+      "eps": "2/5",
+      "eta": "1/20",
+      "panels": 2000,
+      "sqrt_decimal_places": 60,
+      "lower_decimal_rounded_down": "0.2108827779904414479131001110252227853188",
+      "Rvu_upper": "747/1250",
+      "gates": {
+        "lower_above_published": true,
+        "published_above_arc_halfwidth": true,
+        "Rvu_below_one": true,
+        "Rvu_below_0_597601": true
+      }
+    },
+    "checkpoint_binary_parameters": {
+      "q_lower": "39/1000",
+      "q_upper": "41/1000",
+      "delta_lower": "3/50",
+      "delta_upper": null,
+      "vu": "8106479329266893/18014398509481984",
+      "eps": "3602879701896397/9007199254740992",
+      "eta": "3602879701896397/72057594037927936",
+      "panels": 2000,
+      "sqrt_decimal_places": 60,
+      "lower_decimal_rounded_down": "0.2108827779904414583128544419436494600613",
+      "Rvu_upper": "672837784329152119/1125899906842624000",
+      "gates": {
+        "lower_above_published": true,
+        "published_above_arc_halfwidth": true,
+        "Rvu_below_one": true,
+        "Rvu_below_0_597601": true
+      }
+    }
+  },
+  "scope": "The R5 guaranteed circular-data cone is exhausted by the first negative-K acceleration end for a normal-angle halfwidth 21/100. This neither constructs a circular coupled solution nor proves that a circular patch must disappear afterwards.  It is independent of primary/control transition widths whenever the exact protected arc still has radius R=1+8q."
+}
