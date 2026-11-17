@@ -4,7 +4,7 @@
 
 ## 新增结论
 
-- **R647（隐式多项式表示与完整配点消元已证明）**：[独立Y/V残差、metric输运及全节点/中点线性等价](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)：保全部482槽与325/157边界，原warm三点F_V数值条件约300、单胞消元比较相对1.93e−15。附节准确Fraction付原1662核心有限C_U逆范数<728及正支唯一性。有限Pr与原P RHS不同；新固定602运行已启，尚无物理接受。
+- **R647（隐式多项式表示与完整配点消元已证明）**：[独立Y/V残差、metric输运及全节点/中点线性等价](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)：保全部482槽与325/157边界，原warm三点F_V数值条件约300、单胞消元比较相对1.93e−15。附节准确Fraction付原1662核心有限C_U逆范数<728及正支唯一性。有限Pr与原P RHS不同；新固定602按8fresh原预算失败，终态H/正分支/Gram均未过。
 
 - **R646（四个完整hold胞的连续度量已证明）**：[准确hold积分/六片完整Gram与λ三jet](results/R646-continuous-Gram-and-scaling-for-four-hold-cells.md)：同aa1/g/q4096，498/626/1905/2097跨两个准确微分界共六片，12次实际覆盖；Gram最坏≤2.128703e−7。未付其余hold胞、曲率/reach或闭合。
 

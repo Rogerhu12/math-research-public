@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。完整结论/源/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638/640/642付pulse/hold全C²坐标及pulse嵌入；R641代表胞Gram≤4.937e−7，唯一819片全批552片时无失败。R643实际G两胞κ<6.313/7.038及快核已付。hold真1.02/2098胞采样Gram1.181e−7，R644全嵌入及镜像；R646四胞连续Gram≤2.129e−7；R645准确旋转core点到整同像/镜像距离>.9588，非closed held。真κ0/320模trace已刊；1.04 BVP及RMS修补原额失败。1.03原BVP11QR后max_nodes，rise1642 RMS.04335/8192H<0，e313非父。R647完整消元/原核心逆<728/正支及全FFT伴随已证；[Pr602入口](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965完整8fresh预算失败，SSE2.77e−5/cubicGram.00309/H负，3a7f非父；model完整终态附节待刊，geometry付真实新quintic。完整割线93.6%二次项来自r1，后继从原1662付阻尼方向。闭面/D/H/held/反射E3/reach/全t/同g精化未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。完整结论/源/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638/640/642付pulse/hold全C²坐标及pulse嵌入；R641代表胞Gram≤4.937e−7，唯一819片全批552片时无失败。R643实际G两胞κ<6.313/7.038及快核已付。hold真1.02/2098胞采样Gram1.181e−7，R644全嵌入及镜像；R646四胞连续Gram≤2.129e−7；R645准确旋转core点到整同像/镜像距离>.9588，非closed held。真κ0/320模trace已刊；1.04 BVP及RMS修补原额失败。1.03原BVP11QR后max_nodes，rise1642 RMS.04335/8192H<0，e313非父。R647完整消元/原核心逆<728/正支及全FFT伴随已证；[Pr602入口](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965完整8fresh预算失败，SSE2.77e−5/cubicGram.00309/H负，3a7f非父；完整终态附节已刊，geometry付真实新quintic。完整割线93.6%二次项来自r1，后继从原1662付阻尼方向。闭面/D/H/held/反射E3/reach/全t/同g精化未付。
 
 ## 实际活动run与唯一终态读者
 
