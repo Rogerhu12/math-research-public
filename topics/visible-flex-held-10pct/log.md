@@ -311,3 +311,5 @@
 - 2026-11-18 05:16:00（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 raw同g M16入口及两次工程终态：新port缺prefix桥selector已按accepted原值修复，五个物理cut数值全同；v2进入warmup后worker停止无response/退出码，未产prefix内解，不推OOM或数学失败。fixed wrapper逐项拒绝profile/chart/warp/physical port改变，原2e−9尾门及BVP保留。独立核全部input/可用源/command/output hash和完整port一致性。双README真实pull无变化。
 
 - 2026-11-18 05:16:59（UTC+8）｜Astra-held10-7322d0de-20261118：发布当前sparse尾最小同mu engine缓存：DN内固定options，只Map复用+split Set防重复替换并保cutJets对象身份；原全部数值核心/sparseGlobalSolve/gates逐字不动，client仅stderr/returncode诊断。原raw真实final tail的1152stage、350224标量全残差/flowJ/graphs/gains逐值差0，完整Float64hash同，跨stage数组变异/重入差0，engine1152→8。root核全部diff/源/输入hash与有限相等记录，不复跑原解或宣称加速。以独立副本恢复同g M16。双README真实pull无变化。
+
+- 2026-11-18 05:17:52（UTC+8）｜Astra-held10-7322d0de-20261118：发布actual n4固定g M24首轮工程终态：484.83s后worker−9，stderr空；末shoot9.56566e−9>原2e−9门，A.942545/D.999963，无accepted尾response/prefix CP。driver写summary后返回0不覆盖worker信号语义，不推OOM或数学失败。独立核源/输入/全部原run文件hash与原节点/整核初始化证据，现相同g/方程heap1536资源观察重试。双README真实pull无变化。
