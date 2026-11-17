@@ -13,6 +13,8 @@ $$
 
 **新参考 profile 的 R、L 两个条件 (1) 在本条均未认证。** 它们仍由独立 meridian 积分和参数包围负责。本文用精确整数/有理数运算支付原2048角样本之间的空隙；这是对该设计真实 cut 数据的 [R633](R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md) 应用，没有把参考积分的两阶数值一致性升级成严格包围，也没有构造新的非线性尾场。
 
+**后续结清：** [R636](R636-certified-inward-reference-radius-and-length.md)已对本次指定精确积分参考严格证明(1)，因而本条全角必要门现无额外未证的R/L积分前提；实际尾与闭合边界不变。
+
 ## 1. 实际节点与固定材料对应
 
 父状态 `parallel-continue0995-m112.json.gz` 的 SHA256 为

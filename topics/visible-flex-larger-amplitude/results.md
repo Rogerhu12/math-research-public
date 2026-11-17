@@ -4,9 +4,11 @@
 
 ## 新增结论
 
+- **R636（已证明，参考积分条件结清）**：[内向参考端半径与径线长度](results/R636-certified-inward-reference-radius-and-length.md)：整数三角/平方根/arcsin与两ramp的64中点显式余项，严格R∈(.53187889470968,.53187892868261)、L∈(1.28971664673515,1.28971664673518)，从而R634同真cut全角长度余>.06001464673515。绑定精确积分参考，非有限GL导数或实际非轴尾。
+
 - **R635（已证明，实际曲率约束下的g无关排除）**：[正投影反射子午线长度上界](results/R635-positive-projection-meridian-curvature-length-obstruction.md)：实际κ≤6.8、向外正投影及平圆领下，.992/R1.7673/H≤1.22必须ε>.388304，.8/R1.6/H≤1.45必须ε>.092997；允许负坡且计近等距因子。不同g也不能绕过此两组合，投影翻转等未排除；[参考表实际应用](notes/2026-11-17-parallel-numerical-outward-budget-exclusion.md)同步结清。
 
-- **R634（已证明，条件全角预算）**：[内向设计固定材料全角域chord](results/R634-inward-fixed-material-full-angle-chord-budget.md)：真.995父全部112模/IEEE精确系数，经Machin π、向外Taylor与Lipschitz覆盖，若R∈[.531878,.531880]、L≥1.289716、H=1.8，则所有角chord<1.229702、余>.060014。R/L参考积分两条件未认证，不替实际尾。
+- **R634（已证明，条件全角预算）**：[内向设计固定材料全角域chord](results/R634-inward-fixed-material-full-angle-chord-budget.md)：真.995父全部112模/IEEE精确系数，经Machin π、向外Taylor与Lipschitz覆盖，若R∈[.531878,.531880]、L≥1.289716、H=1.8，则所有角chord<1.229702、余>.060014。该条原留的R/L条件现由R636结清，仍不替实际尾。
 
 - **R633（已证明，明确固定g排除）**：[有限cuff长度门与真实端点障碍](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)：给必要误差、自由高度区间、四次斜率补长及单调高度条件；2368胞元有理包围严格排除原强b677接当前best4圆cuff，必要ε>.584839。弱P0实例虽可付长度，实际补段Gram仍超限；不同g/内向路线未排除。
 
