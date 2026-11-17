@@ -100,3 +100,14 @@ Literal basename/path-stem searches across the checked-out topic and .github fin
 
 For either removed relative path, exact restoration is `git show edd080b2f2b220c6ddab5871abb5c7b1799564ed:topics/visible-flex-larger-amplitude/<removed-relative-path>`. The full screen and prepared-core metadata, actual core/parameter arrays, non-solution status and original limits remain byte-identical in the retained files.
 
+## Two exact q130 preparation archive copies
+
+The two records below were each compared byte-for-byte with the unchanged canonical copy and with the exact removed path at commit `518a8e03ac113a8b200c5e67f3cb64354b2d81bc`. Gross released size is63,628 bytes. Literal basename/path-stem searches over this topic and .github locate each pair only in its corresponding historical manifest. Only each removed copy's current path key is redirected; the separate canonical entry remains. Original_path, SHA, bytes, all other entries, totals, failed-screen evidence and non-solution status are unchanged. Each redirected record preserves its historical path and exact restore commit. No distinct field, warm state, checkpoint, source or resource report is removed, and undeclared external consumers are not claimed audited.
+
+| Removed exact copy | Unchanged canonical record | Bytes / SHA256 / Git blob |
+|---|---|---|
+| `notes/2026-11-13-strong-eight-sync-fine-q130-size1035-warm-r1-original-failed-preparation.json` | `notes/2026-11-13-strong-eight-sync-fine-q130-size1035-warm-r1-geometry-prepared.json` | 31821; `9145089a6da8f314f7a6d4684550ea68f475b4848ebe25591a109ec6ad9df00e`; `8cc99435f7dfac82f24b1ebe85ad1aa83bc4c839` |
+| `notes/2026-11-13-strong-eight-fine-q130-exact-chart-warm-r1-original-warm-preparation.json` | `notes/2026-11-13-strong-eight-fine-q130-exact-chart-warm-r1-complete-warm-preparation.json` | 31807; `5ce4efa549639dc970dfd01ddf9b3936a33586fdbebd76feefc319a3e44fe69e`; `54b4f9a303b3f46575eddaecfb4cfd0aa0aaaa08` |
+
+Exact restoration for either row: `git show 518a8e03ac113a8b200c5e67f3cb64354b2d81bc:topics/visible-flex-larger-amplitude/<removed-exact-copy>`. The old failed attempts remain fully represented by their distinct screens/resource records, unchanged preparation bytes and complete Git history.
+
