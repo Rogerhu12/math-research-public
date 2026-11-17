@@ -1,0 +1,288 @@
+{
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06105528571325212,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "gauge_amplitude": 0.025,
+  "actual_primary_amplitude": 0.025,
+  "nodes": 937,
+  "solver_success": true,
+  "message": "The algorithm converged to the desired accuracy.",
+  "max_rms_collocation_residual": 9.933787131429657e-07,
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 2.96060449918646e-11,
+      "actual_tail_residual": 1.856716545718915e-09,
+      "tail_calls": 3
+    }
+  ],
+  "seconds": 295.18459701538086,
+  "tail_calls": 4,
+  "scope": "Recovered previously uncommitted actual coupled design state; not a new run, not fixed-g refinement.",
+  "prefix_sampled_audit": {
+    "metric_l1": 3.6899941303583334e-09,
+    "flow_defect": 6.248154585429953e-09,
+    "darboux_l1": 8.84007119877367e-05,
+    "kappa_sample": 8.215612107536254,
+    "radius_max": 1.0729541573386967,
+    "height_max": 0.7857550667431211,
+    "root_min": 0.00335163025202434,
+    "chart_rho_min": 0.7999999999999999,
+    "support_amplitude": 0.025,
+    "terminal_height_coeff_max": 6.80157752016712e-05,
+    "physical_bc_max": 5.92120899837292e-13,
+    "samples_s": 2022,
+    "samples_psi": 512,
+    "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+  },
+  "tail_sampled_audit": {
+    "fullD": 4.4218024987279053e-05,
+    "normalizedFullDefect": 0.005827217860412012,
+    "minLeading": 0.2627131509384322,
+    "minD": 0.9996545585980541,
+    "formalCurvature": 8.062626516755762,
+    "maxPhysicalPV": 0.00013587448272709353,
+    "actualMetric": 5.013689352573181e-09,
+    "holonomy": 1.8260442156026613e-18
+  },
+  "tail_residual": 1.856716545718915e-09,
+  "tail_last_history": {
+    "iteration": 0,
+    "norm": 1.856716545718915e-09,
+    "minA": 0.2626742437345959,
+    "minD": 0.9996545349111325
+  },
+  "height_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "seed_tail_0004.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 1.856716545718915e-09,
+    "mean_first_actual": 0.07975578541229919,
+    "mean_first_expected": 0.07975578541257167,
+    "mean_first_mismatch": -2.7247648581862904e-13,
+    "mean_second_actual": 1.84250104073314,
+    "mean_second_expected": 1.842501040726725,
+    "mean_second_mismatch": 6.4148686362841545e-12,
+    "nonmean_first_mismatch": 5.92120899837292e-13,
+    "nonmean_second_mismatch": 2.3973366069869263e-09,
+    "cut_metric_fft_l1": 3.6018325981244395e-12,
+    "cut_metric_c1_fft_l1": 5.953392313368359e-10,
+    "angular_samples": 512
+  },
+  "original_continuation": {
+    "scope": "Actual nonlinear coupled m3 design continuation from two accepted states. Only initial fields use a material-angle secant; every original solve and acceptance gate remains. Different delta means this is not a fixed-metric refinement.",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_smallcut_secant.py",
+      "--source-topic",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+      "--short-bridge",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--secant-low",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+      "--profile",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/profile.json",
+      "--chart",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "--linear-port",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json",
+      "--tail-config",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/config.json",
+      "--out-prefix",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed",
+      "--restart",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q021-m8-design-control/seed.json.gz",
+      "--amplitude",
+      ".025",
+      "--warp-reference",
+      ".025",
+      "--modes",
+      "8",
+      "--angular",
+      "256",
+      "--audit-angular",
+      "512",
+      "--nodes",
+      "801",
+      "--max-nodes",
+      "6000",
+      "--tol",
+      "1e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--node-heap",
+      "2304",
+      "--warmup-scales",
+      "1",
+      "--lagged-tail"
+    ],
+    "source_sha256": "2194e692f9ad08f8b1091e7b52a025713f325bb41a879eb6274b2f446da8d37a",
+    "lower_accepted_prefix_sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+    "higher_accepted_prefix_sha256": "9ea271787be4397600456c4c3f51e380dc9a2d6455d9c408056d6be5fe7566c4",
+    "initial_tail_sha256": "fbf165026859b05243b2a09d505375fd24656a6160f8fd398618c278b6f70dd3"
+  },
+  "original_secant": {
+    "scope": "Two genuinely coupled material-angle states initialize the original m3 solver.\n\nOnly the design-state restart is changed. Each anchor first passes through the\noriginal material-angle pullback. Their normalized fields and even design\nparameters are extrapolated, and the original inlet cutoff is reapplied. The\nactual nonlinear DN, its Jacobian, original residuals, local guards and every\nacceptance gate remain unchanged. This is not a fixed-metric refinement rule.\n",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_smallcut_secant.py",
+      "--source-topic",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+      "--short-bridge",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--secant-low",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+      "--profile",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/profile.json",
+      "--chart",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "--linear-port",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/port8.json",
+      "--tail-config",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/config.json",
+      "--out-prefix",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q025-m8-coupled-secant/seed",
+      "--restart",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q021-m8-design-control/seed.json.gz",
+      "--amplitude",
+      ".025",
+      "--warp-reference",
+      ".025",
+      "--modes",
+      "8",
+      "--angular",
+      "256",
+      "--audit-angular",
+      "512",
+      "--nodes",
+      "801",
+      "--max-nodes",
+      "6000",
+      "--tol",
+      "1e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--node-heap",
+      "2304",
+      "--warmup-scales",
+      "1",
+      "--lagged-tail"
+    ],
+    "source_hashes": {
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_smallcut_secant.py": "2194e692f9ad08f8b1091e7b52a025713f325bb41a879eb6274b2f446da8d37a",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+    },
+    "secant": {
+      "high": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q021-m8-design-control/seed.json.gz",
+      "low": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+      "high_sha256": "9ea271787be4397600456c4c3f51e380dc9a2d6455d9c408056d6be5fe7566c4",
+      "low_sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+      "high_actual_q": 0.021,
+      "low_actual_q": 0.020001546225852943,
+      "target_q": 0.025,
+      "normalized_shape_weight": 4.006194481479174,
+      "even_design_parameter_weight": 4.49458528058739,
+      "inlet_correction_linf": 4.0370918929361066e-07,
+      "target_nodes": 815,
+      "high_modes": 8,
+      "low_modes": 16,
+      "target_modes": 8,
+      "material_pullback": "Each original restart performs its own old-to-new material-angle pullback",
+      "scope": "Initial guess only; accepted anchors do not imply acceptance of this extrapolation"
+    },
+    "wrapper_returned": true,
+    "seconds": 298.58033522500045
+  },
+  "outputs": [
+    {
+      "path": "config.json",
+      "sha256": "1840621382e87c4901fc5a238a64f91d2b8d7447454ef71ee73a4109a1132ce8",
+      "bytes": 2371
+    },
+    {
+      "path": "continuation-record.json",
+      "sha256": "933fcc3e9bcead29e0778fa399f8a709319ac339b584e926ba0889ab581fab61",
+      "bytes": 2480
+    },
+    {
+      "path": "linear-trace.jsonl",
+      "sha256": "423f0aeb2a41056d1d53cdaa3ea147062f0e67ee2a39d094dbbc5f44f1a4e0ef",
+      "bytes": 3965
+    },
+    {
+      "path": "port8.json",
+      "sha256": "307c266fb2b274c145bb03b55ff22be516e596d65c7038c2b4be9aadea948341",
+      "bytes": 3978
+    },
+    {
+      "path": "profile.json",
+      "sha256": "08d3a82c7d1542bd1e705e4b68b9adf5d3ff12ca94ccc8d8bc3502bc916f2838",
+      "bytes": 265
+    },
+    {
+      "path": "seed-secant-record.json",
+      "sha256": "f0c2ecfb24886a769821a90357c1eb983f8ac70f0171bcc0ec51308e40a40319",
+      "bytes": 4521
+    },
+    {
+      "path": "seed-summary.json",
+      "sha256": "041080748aa528a0cecdcfc7f4857f023f53f64c020b0c898fdb21c31ab9c6fa",
+      "bytes": 15710
+    },
+    {
+      "path": "seed.json.gz",
+      "sha256": "2deb3f8b2df880a493cd148423154de990e9b3689b66edb8e27eefe74ad70aab",
+      "bytes": 13968
+    },
+    {
+      "path": "seed_coeff_00.npy.gz",
+      "sha256": "f773b62043c995f49b49c03675b0d95a21bebe9d9854bdee0723f20ad237d3c8",
+      "bytes": 1089910
+    },
+    {
+      "path": "seed_tail_0001.json.gz",
+      "sha256": "f4bf6e281c429ec49624476e70939853ab8c4ee16c9362c1a95885eb9133552e",
+      "bytes": 98658
+    },
+    {
+      "path": "seed_tail_0002.json.gz",
+      "sha256": "1df84f8074920fbf16579d9ef62754ee03f4713faf9ad077a00bef7d215ac176",
+      "bytes": 99778
+    },
+    {
+      "path": "seed_tail_0003.json.gz",
+      "sha256": "82cd4ae2ec45cb5295d07f87df429725353b8fcdbbf30895aa29e9eb1a7bc07d",
+      "bytes": 99980
+    },
+    {
+      "path": "seed_tail_0004.json.gz",
+      "sha256": "327354fe4517485ef4bfc6fb8db2e3a60a96320c58cfa22769143268b38a05b4",
+      "bytes": 100005
+    },
+    {
+      "path": "worker-trace.jsonl",
+      "sha256": "ca2962e60f7b63b2b5b9e8458286a71756ed1a27e924a3f997f4f71bc46df581",
+      "bytes": 6711
+    }
+  ]
+}

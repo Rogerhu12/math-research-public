@@ -1,0 +1,247 @@
+{
+  "scope": "Accepted second genuine m3 coupled design amplitude. The prefix delta is solved again; this is not a fixed-metric refinement. All field/port/checkpoint arrays remain regenerable scratch outputs and are represented only by hashes.",
+  "status": "accepted_original_gates",
+  "gauge_amplitude": 0.021,
+  "actual_primary_amplitude": 0.021,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.061055934246436315,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "new_physical_geometry_descriptor_sha256": "2fa9300611176fa8f9205eab3fe08f97297a18b49b45ca9c6a8f37e39a2a194f",
+  "factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+  "initial_prefix_sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+  "initial_tail_sha256": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+  "nodes": 743,
+  "max_rms_collocation_residual": 9.937745973504893e-07,
+  "seconds": 284.4445776939392,
+  "message": "The algorithm converged to the desired accuracy.",
+  "solver_success": true,
+  "prefix_sampled_audit": {
+    "metric_l1": 2.893656053460158e-08,
+    "flow_defect": 2.679300357343794e-08,
+    "darboux_l1": 0.00033567160251287467,
+    "kappa_sample": 8.083305748996843,
+    "radius_max": 1.0710325349947085,
+    "height_max": 0.7859389236766786,
+    "root_min": 0.003461020238307966,
+    "chart_rho_min": 0.832,
+    "support_amplitude": 0.021,
+    "terminal_height_coeff_max": 5.71192091550705e-05,
+    "physical_bc_max": 1.7080138283837253e-11,
+    "samples_s": 1634,
+    "samples_psi": 512,
+    "inlet": {
+      "position": 9.735839365096478e-15,
+      "first": 2.478791891441813e-13,
+      "second": 6.916134331902413e-12,
+      "metric_l1": 1.4474658283249724e-13
+    },
+    "core_support_gap": 0.04199683960519117
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 8.540069141918627e-10,
+      "actual_tail_residual": 9.949141046367904e-10,
+      "tail_calls": 3
+    }
+  ],
+  "mean_nonmean_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "seed_tail_0004.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 1.8654639461939814e-09,
+    "mean_first_actual": 0.07975266686570831,
+    "mean_first_expected": 0.07975266669074456,
+    "mean_first_mismatch": 1.749637518200231e-10,
+    "mean_second_actual": 1.8426484248684263,
+    "mean_second_expected": 1.8426484289679366,
+    "mean_second_mismatch": -4.0995102867924516e-09,
+    "nonmean_first_mismatch": 1.7080138283129884e-11,
+    "nonmean_second_mismatch": 3.77783907659766e-10,
+    "cut_metric_fft_l1": 5.982519435828542e-11,
+    "cut_metric_c1_fft_l1": 1.9203388388333975e-10,
+    "angular_samples": 512
+  },
+  "tail_final": {
+    "converged": true,
+    "residual": 1.8654639461939814e-09,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 1.8654639461939814e-09,
+        "minA": 0.41029955547542823,
+        "minD": 0.9997117455260914
+      }
+    ],
+    "audit": {
+      "fullD": 4.756889928589278e-06,
+      "normalizedFullDefect": 0.0017642465878810062,
+      "minLeading": 0.41030899233949214,
+      "minD": 0.9997117652902695,
+      "formalCurvature": 8.044950847823886,
+      "maxPhysicalPV": 0.00011414577528221015,
+      "actualMetric": 6.500828764188805e-10,
+      "holonomy": 5.666915114927286e-19
+    }
+  },
+  "config_numerics": {
+    "modes": 8,
+    "spacing": 3,
+    "depth": 8,
+    "steps": 16,
+    "quadrature": 128,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "linearMethod": "projective",
+    "fastJacobian": true,
+    "cuspAwareFlow": true,
+    "actualCuspGrid": true,
+    "solveTolerance": 2e-09,
+    "auditSteps": 16,
+    "maxIterations": 36,
+    "harmonicAmplitudePredictor": true,
+    "shootingParts": 8
+  },
+  "source_hashes": {
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_smallcut.py": "5380e1add88bdc45f38df3c351e70b7141542366a7ba1f89dad875ae46cfcdbc",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+  },
+  "sparse_helper_sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+  "patched_stage_core_sha256": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+  "split_stage_sha256": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+  "original_command_after_source_selection": [
+    "nonlinear_tail_work/couple_m3_smallcut.py",
+    "--source-root",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+    "--profile",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q021-m8-design-control/profile.json",
+    "--chart",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+    "--linear-port",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q021-m8-design-control/port8.json",
+    "--tail-config",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q021-m8-design-control/config.json",
+    "--out-prefix",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_joint/q021-m8-design-control/seed",
+    "--restart",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+    "--amplitude",
+    ".021",
+    "--warp-reference",
+    ".021",
+    "--modes",
+    "8",
+    "--angular",
+    "256",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "601",
+    "--max-nodes",
+    "4000",
+    "--tol",
+    "1e-6",
+    "--bc-tol",
+    "1e-7",
+    "--physical-bc-tol",
+    "2e-9",
+    "--node-heap",
+    "2304",
+    "--warmup-scales",
+    "1",
+    "--lagged-tail"
+  ],
+  "outputs": [
+    {
+      "path": "seed.json.gz",
+      "sha256": "9ea271787be4397600456c4c3f51e380dc9a2d6455d9c408056d6be5fe7566c4",
+      "bytes": 12214
+    },
+    {
+      "path": "seed_coeff_00.npy.gz",
+      "sha256": "7c9aee73f9bcd1499f54f08a39d0b0ab2db44479cbeca6e699d2b32ff6d1f515",
+      "bytes": 867620
+    },
+    {
+      "path": "seed_tail_0001.json.gz",
+      "sha256": "698f6fa82433b702307028c30f6a4e52eccf9a7f7dc4c0570022ac46ded6adf5",
+      "bytes": 98853
+    },
+    {
+      "path": "seed_tail_0002.json.gz",
+      "sha256": "1776fec566bad35e1f6647d325b2317350c0e2b820751180ccb17a9c1a831662",
+      "bytes": 100040
+    },
+    {
+      "path": "seed_tail_0003.json.gz",
+      "sha256": "2ba5a48135369fd80656776ef8d8c1d77298e0c6ba4d4f89cb587ed1d1612ca9",
+      "bytes": 100086
+    },
+    {
+      "path": "seed_tail_0004.json.gz",
+      "sha256": "fbf165026859b05243b2a09d505375fd24656a6160f8fd398618c278b6f70dd3",
+      "bytes": 100058
+    },
+    {
+      "path": "seed-summary.json",
+      "sha256": "fb8aac4523aa8abfde5ebf404c5ee0ff7976f0cadb97c0dbf625e7298038142b",
+      "bytes": 15714
+    },
+    {
+      "path": "worker-trace.jsonl",
+      "sha256": "e8af4264c3600ad88ca6e27038addd35954dcef2699427d14dd9471b6fdf35a0",
+      "bytes": 5893
+    },
+    {
+      "path": "linear-trace.jsonl",
+      "sha256": "1a86201faec36fae3fde7bf68657aa298baa0d05f7621203d3974015bd3c32c2",
+      "bytes": 3358
+    },
+    {
+      "path": "config.json",
+      "sha256": "f453a581f602a3a5dd9c95a1dd3a0e1e7bfa57093d2df5d463cacd5a1d1f9322",
+      "bytes": 2364
+    },
+    {
+      "path": "port8.json",
+      "sha256": "307c266fb2b274c145bb03b55ff22be516e596d65c7038c2b4be9aadea948341",
+      "bytes": 3978
+    },
+    {
+      "path": "worker-port8.json",
+      "sha256": "9933085e214f70ad514531dd4763a8d225e45b09f7b1f666983e3ba6c6604800",
+      "bytes": 3863
+    },
+    {
+      "path": "profile.json",
+      "sha256": "b230ce2fb600e136d9582baa8aaa2ec9d0cdb1294e632df5dc7b031635a217ff",
+      "bytes": 264
+    },
+    {
+      "path": "seed-wrapper-record.json",
+      "sha256": "64fd771643ccccf1601581bcb843d9630bcea876b8efe5b2c82e549eb53ca948",
+      "bytes": 2829
+    }
+  ],
+  "limitations": [
+    "C2 tensor sampled residual is 3.36e-4 at this deliberately coarse design layer. It has not been replaced by ODE jets.",
+    "This particular q=.021 state has no new full Cartesian seam, literal C2 closed-map, continuous reach, marker or 10 percent held-motion certificate.",
+    "A separate M16 q=.021 design attempt remains running without a terminal result at this freeze.",
+    "No failed direction or initial-guess experiment is claimed as an amplitude upper bound."
+  ]
+}

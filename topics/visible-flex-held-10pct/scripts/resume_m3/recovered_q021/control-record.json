@@ -1,0 +1,26 @@
+{
+  "scope": "Independent lower-Fourier-order design-amplitude control with the same physical tail. It seeks a true coupled seed, not a cross-resolution fixed-metric result; delta is solved again.",
+  "gauge_amplitude": 0.021,
+  "warp_reference": 0.021,
+  "initial_prefix_sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+  "initial_tail_sha256": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+  "physical_tail_changes": [],
+  "tail_numeric": {
+    "modes": 8,
+    "quadrature": 128,
+    "shootingParts": 8,
+    "steps": 16,
+    "depth": 8,
+    "solveTolerance": 2e-09
+  },
+  "prefix_numeric": {
+    "modes": 8,
+    "angular": 256,
+    "audit_angular": 512,
+    "nodes": 601,
+    "max_nodes": 4000,
+    "tol": 1e-06,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09
+  }
+}
