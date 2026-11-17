@@ -299,3 +299,5 @@
 - 2026-11-18 05:03:55（UTC+8）｜Astra-held10-7322d0de-20261118：发布R34严格单侧密度对偶障碍：复用R33相同有理z/c与L²界，新24次Chebyshev多项式在32个完整Bernstein区间给全角w<100；R32真mean-one背景在q∈[.04,.0851]有||rho0||2<2。冻结旧七矩时<rho,w>>118，而rho≥0/mean1会强迫<rho,w><100，故lambda1必有rho<0。全弱导数/端点无delta/真实beta粗界与范围完整审查，核源/输出hash及有理矛盾门；不重跑、不外推自由联立或raw路径。双README真实pull无变化。
 
 - 2026-11-18 05:05:30（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 raw mean/c8控制定义：仅逆{1,cos8}的2×2加权Gram，每个active控制精确mean/c8=0、允许c4漏量。lambda0保已接受J16旧漏量、J以上新增漏量零，独立旧核三jet差0、M16→20五个lambda全核差≤5.55e−17。系数Neumann约1.05828e−60、全部原rho/Frenet/BVP门保留；只定义/接口证据不预支解。q/eta/圆弧/高矩路径边界明确，fixed g可按原计数释放c8另建入口。双README实际pull无变化。
+
+- 2026-11-18 05:06:11（UTC+8）｜Astra-held10-7322d0de-20261118：发布真实分块canonical积分core CP的生产读取验证：原accepted_anchor/source/全部物理参数与原chunk decoder完整通过，七jet单次H差≤4.95e−15、中心恒等式≤1.78e−15。完整新有限图采样metric3.96924e−4，诚实复现原失败，不把不同采样口径末位差计为收敛。raw有限表示二阶差2.68e−8、实际中心修补二阶.0010947/其角二阶2.619，指出缺口并非导出误差。仅接口，不接尾/不重铺闭图盒。双README实际pull无变化。

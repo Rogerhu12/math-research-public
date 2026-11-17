@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`f518d7e9d3ce8fa68f90c1e75540348ab626cbe9`。2026-11-18 05:05:30（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`43b402548834d15cea29ea9b646618ae33768245`。2026-11-18 05:06:11（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -36,11 +36,11 @@ R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几
 
 **n3实际圆化**：积分core/单次完整lift/自由c6/锁主频已接通，lambda0三jet≤3.44e−13。canonical旧c的15宽度峰最低79.163；lambda.02/.002原域失败、.0002/parts8尾失败，parts16有限联合接受但metric3.97036e−4/tensor.364761/mean一阶缝−9.83e−6未过完整门；见m3-exact-round-core-start、m3-round-lambda0002-*。现从旧好锚点改raw低2×2投影，lambda0旧cos、lambda1全free空间相同，中间高矩改变。raw lambda.02四次真尾接受，δ=.06105141410261685/tail1.37544e−9，但metric8.30078e−5/tensor.047932仍未过；见m3-raw-lambda002-finite-state-and-metric-gap。冻结全g/lambda/width升M8→M16/N256/parts16，首次worker消失是工程中断；检查同cell引擎复用/退出诊断，不算数学失败。raw每列独立M，append0保整个核；2×2原rational Neumann系数证书保原正性门，见m3-raw-compact-path-and-certificate。不能把设计delta变化当同g。
 
-beta4.125的q.02/.025/.03/.04均完整接受，q04 tail res8.02413e−10/minA.617549；见m3-beta4125-*。q03 minA在stage40首谷、最大残差stage43，ULP解释不放门。新beta4.625/q04旧prefix最小root在s=.99473后桥、a′=−.997961，远过lift终点.38666；见m3-prefix-positive-root-bottleneck，不当作失败迭代位置。
+旧beta4.125 q.02/.025/.03/.04接受；beta3.625 q025三条原门失败。详m3-beta4125-*、m3-beta3625-*及tail-residual-and-positivity-locations，不重跑。q04旧prefix最小root在后桥，非lambda.002失败位置，见m3-prefix-positive-root-bottleneck。
 
-beta3.625/q.0225接受，q025三条原门失败；见m3-beta3625-*。旧跨beta/ULP诊断见tail-residual-and-positivity-locations，均非不存在。
 
-原gδ=.06105607686781097的q02/M16/parts8、prefix983→2462均原门接受，metric5.845e−11/tensor1.947e−6；闭图见§3。旧q025接受、q026/.0275七条失败详m3-true-radial-refinement与m3-finite-continuation-initializers，不重跑。
+
+原gδ=.06105607686781097/q02同g M16与径向精化已接受，metric5.845e−11/tensor1.947e−6；旧q025接受及q026/.0275七失败见m3-true-radial-refinement和m3-finite-continuation-initializers，不重跑。
 
 ## 3. 已完成的低幅全闭图和全域连续 metric
 
@@ -50,7 +50,7 @@ R21/R23已定义原有限C²闭图和全mean接缝，R24固定帽排全部O(3)�
 
 R27已严格区分原背景真积分与工厂偏差；R29尾连续operator界9.996590773606874e−7，R31前缀<8.253e−7。真桥积分/舍入/各层唯一共用atlas全部支付，未改图或逐层换g；C3协变来自精确频率定义，非小DFT残差假设。
 
-**合并圆领/固定帽，同一低幅全闭图全域全时metric<1e−6已经证明。** 上述是充分界，非真实最大误差估计；held仍远小于.1，不能标完成。既有空间/频率/尾径向下降是独立数值证据，没有证明精确无限解。高幅积分core导出接口已保留一次完整reference lift，并用全角Hermite恒等式补中心；非解probe七jet差≤9.41e−15，不认作新解/连续证书。原chunk解码已复核修正，待首个accepted圆化CP端到端检验；见m3-integral-core-export-interface。不重扫低幅盒。
+**合并圆领/固定帽，同一低幅全闭图全域全时metric<1e−6已经证明。** 上述是充分界，非真实最大误差估计；held仍远小于.1，不能标完成。既有空间/频率/尾径向下降是独立数值证据，没有证明精确无限解。高幅积分core导出接口已保留一次完整reference lift，并用全角Hermite恒等式补中心；非解probe七jet差≤9.41e−15，不认作新解/连续证书。原chunk解码后的canonical lambda.0002真实有限accepted CP已端到端验证，metric3.96924e−4复现原缺口；见m3-integral-core-first-accepted-interface-check。不重扫低幅盒。
 
 ## 4. 其他已登记结论与未付入口
 
