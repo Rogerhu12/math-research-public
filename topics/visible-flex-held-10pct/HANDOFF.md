@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`0750175c0773670c8ad58beea53860ced375b2ea`。2026-11-18 03:12:35（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`3afc6e21d0da4e5b25c9582e6c3808474696adf3`。2026-11-18 03:15:35（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -23,7 +23,7 @@ R11全Cartesian共享二jet/中心解析lift、843264盒给开放q20 prefix σ>.
 
 **m3真联合固定g**：δ=.06105607686781097、完整g SHA11a9…b125。M8→M16/parts8过原2e−9尾门；M16 tail res1.161e−9/metric1.587e−11/fullD2.735e−7、minA.440917/K8.04069。全Cartesian缝Xss差3.315e−9。径向983→2462节点使prefix metric4.971e−9→5.845e−11、tensor9.015e−6→1.947e−6，actualq=.0200015462；尾误差不变。源见m3-true-radial-refinement、m3-fixed-m16-parts8-and-radial-floor；原全节点Newton等价已核，旧取消非数学失败。
 
-**接手恢复q021/q025实际真联合终态**（非重跑）：q021 M8 δ=.061055934246436315、tail res1.86546e−9；q025 δ=.06105528571325212、937节点、prefix metric3.68999e−9/tensor8.84007e−5，tail res1.85672e−9/metric5.01369e−9/fullD4.42180e−5/minA.262674。q025由两个真联合态作材料角secant，解新完整H；此前三种固定H初猜失败不构成容量界。见notes/2026-11-18-recovered-m3-q021-q025-coupling.md及scripts/resume_m3。旧q021/M16只两次tail响应、无完整终态。新小步联立继续；各q的δ不同，非同g精化，均未有足够幅度/全闭验收。
+接手恢复q021/q025实际真联合：q021 M8 tail res1.86546e−9；q025 δ=.06105528571325212、937节点、prefix metric3.68999e−9/tensor8.84007e−5，tail res1.85672e−9/metric5.01369e−9/fullD4.42180e−5/minA.262674。原材料角secant解完整新H；各δ不同，非同g加密。旧q021/M16无完整终态。见2026-11-18-recovered-m3-q021-q025-coupling及resume_m3，不重复旧初值失败。
 
 原m3 q026/q0275继续均未过原门：几何Q/L初值和局部同伦把q0275由立即D/S/A拒绝推进到完整shoot残差3.37533e−9/minA.091757；q026 RK32终态2.61297e−9，门仍2e−9。7条终态含一条startup工程失败全部登记；退出码0不能替代solver_success。见2026-11-18-m3-finite-continuation-initializers及resume_m3/initial_continuation_failures。新谷物理设计继续。
 
@@ -39,7 +39,7 @@ n4旧双根root03：vu.4/vd.2644695137/δ.02840070836/ramp.45；τ4/τ8≈0、τ
 
 R12/R14已证h=g−dz²正定且同严格Q号支时，高度全二jet与g一jet决定一次平面刚体下的Cartesian接缝；总转角补mean斜率，Darboux补zrr，过Q0例外。R15给反射轴曲率必要界，不把局部初始化失败作几何障碍。R16无过零权L²一致逆，R18有限mean/cos/sin混合DAE已原引擎核；实际首cell坏插值/共享Cartesian二jet未收敛均见actual-cell-*笔记。
 
-R17无轴反射二fold核已证，但须全cos/sin/mean BVP，旧象限证书不移用。R20/R22分别给单/双谐波到精确圆弧的正距离；切空间推论严格要求完整核与可微支，有限共振不授不存在。R22固定中心最优eta≈.3674128及全圆rho新界已证；n4正以局域圆化实际消费。全部公式与条件见对应results。
+R17非轴反射二fold须完整cos/sin/mean，不移用象限证书。R20/R22单/双谐波到精确圆弧有正距离；切空间结论须完整核+可微支，有限共振不证明不存在。R22 eta≈.3674128给中心最优；对应公式见results。
 
 R25：固定真实Q/g、完整mean+非mean有限动量，D>d/S>s/A>a可行域凸；Jac=〈A D^(−3/2)φ_iφ_j〉≥a/E^(3/2)Γ，严格单调给唯一根与显式残差→系数差界。原root的局部同伦初值若过同一门，不会换到另一正A根；不保证存在或shoot/闭合。
 
@@ -57,7 +57,7 @@ R24：在R23实际M8图的两帽加ε=η=.5、r_c=a/2固定图，零二jet/唯�
 
 R1–R10：椭圆/圆弧条件窗、平领二jet、固定帽排除O(3)等；R8的K0入口唯一延拓仍缺，R9/R10只是设计且须完整mean/共顶点/二jet。旧GC/短领失败均保留。R114/flat17 held>.0527832、reach>.0312033，R115/旧.063未解决本题。
 
-m2补弧core-only对照：旧q20实际低矩经泄漏补偿，M8 λ.05仍正但λ1负rho；M16 λ.01、M20 λ.001已实际负rho。降基本频率未自动消除高矩污染，非BVP/不存在性。见m2-core-complement-control-probe。
+m2旧补弧core-only：q20低矩泄漏补偿仍高M初值负rho，见m2-core-complement-control-probe；不是BVP/不存在性。新物理首三谷[4.25,3.9375,5.0625]的mode2线性H入口阈2.11656e−4、DN11.85689844（128步/far48），约旧3.08倍；单谷增加会移瓶颈到cell1，不能套m3增益。背景采样K<8，仍无新非线性容量。见2026-11-18-mode2-three-valley-design。
 
 ## 当前接手分工
 

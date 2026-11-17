@@ -1,0 +1,40 @@
+{
+  "scope": "Finite linear physical mode-two design. Scalar summary is in the note; no regenerated fields, grid arrays or full trace is saved.",
+  "commands": [
+    [
+      "node",
+      "scripts/resume_m3/screen_first_valley_mode2.mjs",
+      "RECOVERED_TOPIC",
+      "scripts/resume_transfer/mode2_valley_parameters.json",
+      "SCRATCH/mode2-first-valley.json",
+      "3.125",
+      "4.125",
+      "5.125",
+      "5.625",
+      "6.125"
+    ],
+    [
+      "node",
+      "scripts/resume_transfer/mode2_valley_search.mjs",
+      "RECOVERED_TOPIC",
+      "scripts/resume_transfer/mode2_valley_parameters.json",
+      "SCRATCH/mode2-valley-search"
+    ]
+  ],
+  "original_search_argv": [
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "/workspace/scratch/7322d0dee069/m3_work/mode2-first-valley-startup.json",
+    "/workspace/scratch/7322d0dee069/transfer_work/mode2-valley-search"
+  ],
+  "search_evaluations": 65,
+  "error_trials": 0,
+  "input_sha256": "c730178ed3830a33ecb85136ac09482cade9f0feb2dcffc5822c23a5a3db663b",
+  "output_sha256": {
+    "mode2-first-valley.json": "2b0c4f1e2b1baf76b7d0139a3b7d9398b5b4c625c5052663506766fccfa0403c",
+    "mode2-valley-search/record.json": "6bee48e99c376b0e9fa2d3bd8c20f459b5d499027c3aa66829e4f9197247f963"
+  },
+  "source_sha256": {
+    "mode2_valley_search.mjs": "d1cedc33bf026a32328e6388fdf3c69a6b859fc25ea8d43644af31661637ec7e",
+    "screen_first_valley_mode2.mjs": "a74de595c2ed89ce87d5e10f3e94e439c26ae7fcadc2a4ddbac5d1a9816b92f3"
+  }
+}
