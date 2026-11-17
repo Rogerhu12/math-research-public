@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 18:50:19 UTC 真实 pull 后核双 README，无新差异，已读提交 f7b8cfafbfe748cc894e3229fc87d9a4122f864d。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 18:51:58 UTC 真实 pull 后核双 README，无新差异，已读提交 ff5b124d0596efd5bbaf6b69f1662f6561be5fbf。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整源/结论/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse/hold已付坐标/嵌入、指定胞Gram/曲率及同像距离；旧Pr602/quintic失败非父。R647完整Pr/全二次谱及直接Gram全局rho Jacobian已付：后者5b5e实核全1157768行，尚无新solve/镜像约束。原两证书worker中断：710份Gram及58整胞曲率/λ56完整复用，e024同计划续接准备完。LM已用6a172/派生8fa6保原24/20预算实际恢复；至方向5共6接受，SSE3.95822e−7，cubicGram2.356e−4，LSMR128/7不称收敛。model读两证书、numerical读LM、geometry接真实C²终态。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整源/结论/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse/hold已付坐标/嵌入、指定胞Gram/曲率及同像距离；旧Pr602/quintic失败非父。R647完整Pr/全二次谱及直接Gram全局rho Jacobian已付：后者5b5e实核全1157768行，尚无新solve/镜像约束。[两证书e024续跑](notes/2026-11-17-parallel-model-fixed-certificates-interruption-recovery.md)已真实启：复用710份Gram及58整胞/λ56，首补G56已过；原819/818计划不变。LM已用6a172/派生8fa6保原24/20预算实际恢复；至方向5共6接受，SSE3.95822e−7，cubicGram2.356e−4，LSMR128/7不称收敛。model读两证书、numerical读LM、geometry接真实C²终态。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 
