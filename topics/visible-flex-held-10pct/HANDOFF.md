@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`ef1f00a8e660799a8d3782ab2abe4b33099f91da`。2026-11-18 04:04:13（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`82ba591aaf33762ff754678b60e5907baa3c15d2`。2026-11-18 04:07:30（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -22,7 +22,7 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **已实际联立**：n4 eta1/q001/M12 λ0，993节点。实际outer校正后物理BC3.8058e−14；最终tail res4.1448e−10/minA.99073/metric1.11e−14；mean两jet差1.30e−13/−3.04e−12，非mean二阶1.70e−11。prefix metric1.1175e−7；仍低幅/未圆化/无闭图。见n4-first-true-coupled-state，源resume_n4_tail/couple_actual_tail.py。此前q005/eta*/M8的首实际尾响应仅单独接口，不冒充联合。
 
-eta.1/q.01/M16 λ0前缀已接受724点，metric2.38461e−8/tensor1.62253e−5/K6.51157/rootmargin.00394505；δ=.030027177128287334、vd=.24836306559053845，仅线性port。见n4-eta010-amplitude。原N512/parts8/RK16联立仅.2H加载接受1.00419e−9；.5H末日志2.41006e−9后执行句柄消失、无终态/退出码，原因未明，不算数学失败。保留.2H入口，正核周期求积复用后续接；n4 agent推进该eta增幅、eta1低幅圆化和固定g入口。保持原2e−9 tail门及D/S/A条件。
+eta.1/q.01/M16 λ0前缀已接受724点，metric2.38461e−8/tensor1.62253e−5/K6.51157/rootmargin.00394505；δ=.030027177128287334、vd=.24836306559053845，仅线性port。见n4-eta010-amplitude。原N512联立.2H加载接受1.00419e−9；.5H末2.41006e−9后工程中断、原因未明。已从.2H用周期复用重启，N512/独立128，所有原门不变；原w.08/eta.1的q.0125/M16已接受761点，metric4.46895e−7/tensor1.24115e−4/K6.75271/rootmin.00284961；q.02大跳取消非失败。正用两态材料secant继续q.015/M20，并另冻g精化。保持原2e−9 tail门及D/S/A条件。
 
 **新wCut=.16物理设计**：原worker重生24模port，新双根δ=.030143626106924344/vd=.25002929220531817；round最小1−a′²=.01602343约旧3.93倍，背景K≈5.5613，名义球D采样2.5793。R1.882初保护窗保守下界>.15213；mode8增益11.0156未改善。peak.01直接root域失败保留。根正用新g冷解eta.1/q.01/M16；见n4-thicker-cut-double-root。
 
@@ -44,7 +44,7 @@ beta3.625由q.02/.0225 secant到q.025：原shoot终态2.35394e−9；收紧局�
 
 ## 3. 实际闭图、同g精化与连续metric
 
-R21/R23构造有限M8共同Cartesian二jet/mean的完整C² S²，504320前缀盒+4637尾段给全相位σ>.7/K≤10/D<2.30242/reach≥.1。零marker时δE=0，精确等距未证；源finite_closure/m3_m8_*。
+R21/R23已有M8共同Cartesian二jet/mean的完整有限C²闭图与连续reach，零marker时δE=0；精确等距未证。源finite_closure/m3_m8_*，细化/固定帽见下。
 
 R24原M8非零固定帽证明全O(3)非全等，held/D>.00543686。R28新M16/64步图自身1261568前缀盒、新尾界、自身体积矩和固定帽给D≤2.301491469394、reach≥.1、H径比>.6979428、held/D>.00546265624、δE>0。三个惯性根互异及core cos3→sin3排反射；全帽内部查询一致，未移用M8矩/旧cut。见R24/R28。
 
