@@ -1,0 +1,13 @@
+{
+  "scope": "Copy the 70-source m3 closure and replace only Newton/DN linear algebra.\n\nThe nonlinear equations, guards, residual normalization, integrations,\nacceptance thresholds and line search stay byte-identical in their source.\nThe original recovered source directory is never edited.\n",
+  "original_sha256": "53fdd936cf65f0a42929b6ce42c6ea12f183628abc9c9f3a351aac9c31ffbd6d",
+  "patched_sha256": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+  "original_bytes": 15596,
+  "patched_bytes": 14745,
+  "patches": [
+    "import child_process and strict sparse-linear helper",
+    "Newton correction: all-node sparse solve of original linear system",
+    "cut tangent graph: all-node sparse solve of original tangent system"
+  ],
+  "helper_sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+}

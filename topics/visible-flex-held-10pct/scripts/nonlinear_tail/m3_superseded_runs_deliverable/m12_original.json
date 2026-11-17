@@ -1,0 +1,96 @@
+{
+  "status": "cancelled_superseded",
+  "time_utc": "2026-11-17T16:38:30.785131+00:00",
+  "reason": "Superseded by accepted full same-g M16 parts8 coupled solution; parent explicitly authorized cancelling these two still-active nonterminal trials to prioritize true radial refinement. Not a mathematical failure or a claimed solver terminal outcome.",
+  "last_worker_trace": [
+    {
+      "time": "2026-11-17T16:36:19.457Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 2728781,
+      "iteration": 26,
+      "norm": 2.09068235933192e-09,
+      "minA": 0.4409811477234002,
+      "minD": 0.9997259243043781,
+      "chartCondition": 148261820.54786,
+      "phase": "correction"
+    },
+    {
+      "time": "2026-11-17T16:38:17.882Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 2847206,
+      "iteration": 27,
+      "norm": 2.08267586594401e-09,
+      "minA": 0.4409811477234003,
+      "minD": 0.9997259243043781
+    },
+    {
+      "time": "2026-11-17T16:38:17.915Z",
+      "event": "iteration",
+      "call": 1,
+      "elapsed_ms": 2847239,
+      "iteration": 27,
+      "norm": 2.08267586594401e-09,
+      "minA": 0.4409811477234003,
+      "minD": 0.9997259243043781,
+      "chartCondition": 148261820.54786,
+      "phase": "correction"
+    }
+  ],
+  "files_at_request": {
+    "config.json": {
+      "sha256": "64abd30406aea76f5de5bff85185af01715a9a0c45d125afd79c5c88c1375200",
+      "bytes": 2348
+    },
+    "port12.json": {
+      "sha256": "0748dcc9ca5067c3adc13f52035ced08bd83a0fdb67445a2d428466d591da7d6",
+      "bytes": 4110
+    },
+    "profile.json": {
+      "sha256": "b230ce2fb600e136d9582baa8aaa2ec9d0cdb1294e632df5dc7b031635a217ff",
+      "bytes": 264
+    },
+    "seed-wrapper-record.json": {
+      "sha256": "f7b0b227f8b8ea3c036755583eb0342b4e6b4515fe4948d48684214552f8124e",
+      "bytes": 2599
+    },
+    "worker-port12.json": {
+      "sha256": "6370c00e70ce2dfe87f64c31f0222cd41e05bf9aeac03bc2e0b1021705e58c93",
+      "bytes": 3995
+    },
+    "worker-trace.jsonl": {
+      "sha256": "cea0f8efb93aca61c68aabc86f9960a4a2e50409e0cb5e42fc4a4ad30e75f521",
+      "bytes": 12454
+    }
+  },
+  "observed_exit_code": 130,
+  "observed_exit_kind": "Explicit interrupt after parent authorization; no mathematical terminal classification.",
+  "time_recorded_utc": "2026-11-17T16:38:42.011852+00:00",
+  "files_after_cancellation": {
+    "config.json": {
+      "sha256": "64abd30406aea76f5de5bff85185af01715a9a0c45d125afd79c5c88c1375200",
+      "bytes": 2348
+    },
+    "port12.json": {
+      "sha256": "0748dcc9ca5067c3adc13f52035ced08bd83a0fdb67445a2d428466d591da7d6",
+      "bytes": 4110
+    },
+    "profile.json": {
+      "sha256": "b230ce2fb600e136d9582baa8aaa2ec9d0cdb1294e632df5dc7b031635a217ff",
+      "bytes": 264
+    },
+    "seed-wrapper-record.json": {
+      "sha256": "f7b0b227f8b8ea3c036755583eb0342b4e6b4515fe4948d48684214552f8124e",
+      "bytes": 2599
+    },
+    "worker-port12.json": {
+      "sha256": "6370c00e70ce2dfe87f64c31f0222cd41e05bf9aeac03bc2e0b1021705e58c93",
+      "bytes": 3995
+    },
+    "worker-trace.jsonl": {
+      "sha256": "cea0f8efb93aca61c68aabc86f9960a4a2e50409e0cb5e42fc4a4ad30e75f521",
+      "bytes": 12454
+    }
+  }
+}

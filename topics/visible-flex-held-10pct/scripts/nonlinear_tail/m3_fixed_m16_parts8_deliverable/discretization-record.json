@@ -1,0 +1,16 @@
+{
+  "scope": "Pure numerical subdivision; same whole physical metric and same 128 RK steps per original raw segment.",
+  "old_shootingParts": 2,
+  "old_steps": 64,
+  "new_shootingParts": 8,
+  "new_steps": 16,
+  "old_total": 128,
+  "new_total": 128,
+  "linear_total": 512,
+  "initial_state_scope": "Previously FAILED original M16 state is only a warm initial guess.",
+  "frozen_profile_sha256": "b230ce2fb600e136d9582baa8aaa2ec9d0cdb1294e632df5dc7b031635a217ff",
+  "factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+  "physical_metric_sha256": "11a9de4da186d04dd1e925678582b0f6861425b4e0e2217937ec53ba052db125",
+  "canonical_port_sha256": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538",
+  "maximum_linear_slope_difference_vs_parts2": 6.315531209111214e-09
+}

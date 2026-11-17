@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`4531b5a89f215ed976a7da18e135cea2fa69b5ff`。2026-11-18 00:35:04（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 01:35:04；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`be6f2b70da27f78ccf4c65e75c707a59fb500ab5`。2026-11-18 00:42:26（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 01:42:26；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -29,7 +29,7 @@ R13条件窗：若同一prefix接实际尾rXY≤.35、顶高≤1.5265414843、K�
 
 历史实际尾：widecut r.35/w.3两次真联合q.001013/.002通过，后者fullD2.214e−6；72源恢复已核。beta8 q.0002/.0004通过，q.0006失败不是容量；旧高谷仅q2e−6，删脉冲恶化。beta8 p05线性q10通过/q12一次失败，32列原端口再生逐值同一；旧39源漏.cjs，需完整71源/PadTo展开160。入口widecut、ports、actual-prefix-tail-coupling各笔记。旧q18 forcingλ.07同g M8/12/16 metric下降但fullD1.96e−5/1.15e−5/8.23e−6、Xrr差.00382/.00130，非无限尾或C²误差收敛。
 
-**m3真实联合最新**：q02已原950f成功，δ=.06105607686781097。固定同g M8径向/角图分段点入网后prefix metric2.747e−8→4.971e−9、全tensor2.975e−4→9.015e−6，tail仍M8 fullD2.345e−6/minA.442/K8.04；完整高度二jet缝≤6.17e−12，设计态512角Cartesian二jet≤8.61e−9。原prefix最大缺陷跨角样条断点，后仍有bridge插值缺口。采样D约2.291仅数值包围，幅度不足。M16原shoot校正Riccati条件1.28e11，line search失败res6.87e−7未过2e−9门；转M12/独立全shooting校正。全节点稀疏版本在实际M8交回原worker：res1.7248e−9、全部jet/audit差0、DN相对差1.305e−15；仅线性代数等价核验，见m3-all-node-sparse-newton。原M16失败态两条split状态映射逐值相同；同总RK128步，parts2→8的背景stage范数2.26e20→8.87e12，正做未改原门的八段验证，见m3-stage-amplification-and-map-consistency。q04/q06仅线性DN prefix（q06 secant成功metric1.144e−7/K9.411），不可冒称真联合。入口m3-smallcut-true-coupling-and-secant-prefix笔记及m3_coupled_seed_deliverable/m3_secant_deliverable，70源空目录/实际导出链已验。
+**m3真联合固定g**：δ=.06105607686781097，完整g SHA11a9…b125。M8→M16八段均用原2e−9门通过：实际q=.0200012257089，tail res1.161e−9、metric1.587e−11、全D2.735e−7/minA.440917/K8.040692；M8全D2.345e−6。完整512角单刚体Cartesian缝最大Xss差3.315e−9，高度两jet≤6.17e−12。prefix仍983节点，metric4.971e−9/全tensor9.015e−6；峰在near-cut bridge中点，不能用ODE替代jet冒称修复。真正1965初始节点/tol1e−8同g BVP正在跑。M16两段失败态两条split映射逐值同一；固定总RK128，parts2→8 stage范数2.26e20→8.87e12。全节点稀疏Newton等价已证、实际M8交回原引擎全部jet/audit差0。旧M12与两段稀疏M16明确取消exit130（末res2.083e−9/6.970e−7），非数学失败。详见m3-fixed-m16-parts8-and-radial-floor及对应两包；旧入口m3-smallcut-true-coupling-and-secant-prefix。q04/q06只线性DN prefix，非真联合；幅度不足/全闭验收未付。
 
 主会话新n4精确圆弧+中央直柱：R19已证明偶数中心对称整像dH≥中心位移、固定二fold帽简单谱排除全部全等；有理核心R=.325/c>.72061，α=39/250、ℓ=.7给shift>.34258。若完整D≤3.4、σ≥.11、K≤9.5，则held/D>.10075、reach/D≥10/323、Hdiam/D≥7/34，全部闭族前提未付。普通n4宽弧M4 λ1 metric.00407/全D3.801，固定M8触maxnodes；新负K head虽耗窗，但旧compact基高频放大使λ.15 rho失败。R19A已用Fraction给窄窗q=.06/R=.1/a=.145、α=.0285/ℓ=.51：若闭D≤2.5,K≤13.2,σ≥.08，则held>.10676,reach≥1/33,H/D≥.204。第一批55源/参数文件与70原源实际恢复见n4-first-batch-and-consumed-window笔记、scripts/even_circle/first_batch。两个新head有Fraction耗窗下界>.28，仍只有线性根。vu=vd.4/ramp.45窄弧旧M6小步至λ.7虽投影接受，metric.01258/tensor14.874；λ1maxnodes失败。详见narrow-old-basis-terminal-results/对应包。新C4补弧矩基17文件已冻结/实恢复；q.005/M6 λ.3maxnodes且λ.1 metric1.224e−4。λ0设计支到q.04/M16，未圆化且只有线性DN；见complementary-controls-and-first-prefixes及两同名包。q.05/M20正运行；全闭前提未付。
 
@@ -51,4 +51,4 @@ R20：精确圆弧与任意主频的ρ一致距离≥(n²−1)q tan²(na/2)；n4
 
 ## 当前接手分工
 
-literature_mechanisms：真实有限尾圆领/平盘闭合；new_construction：m3真实尾固定g加密/全节点校正；true_a_analysis：精确圆弧的补集控制基。主会话：n4圆弧新构造、证明/连续几何、规则同步与逐结论push。open.md列全部缺口；完成前持续研究，不停在阶段报告。
+literature_mechanisms：真实有限尾圆领/平盘闭合；new_construction：m3固定g径向精化；true_a_analysis：双模共振n4真实非线性BVP。主会话：n4圆弧新构造、证明/连续几何、规则同步与逐结论push。open.md列全部缺口；完成前持续研究，不停在阶段报告。

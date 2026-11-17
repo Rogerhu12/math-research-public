@@ -1,0 +1,207 @@
+{
+  "scope": "Accepted same-g finite M16 prefix/tail, with scalar full-seam and radial-defect diagnostics. No completion claim.",
+  "physical_metric_sha256": "11a9de4da186d04dd1e925678582b0f6861425b4e0e2217937ec53ba052db125",
+  "physical_delta": 0.06105607686781097,
+  "gauge_amplitude": 0.02,
+  "actual_primary_amplitude": 0.020001225708876868,
+  "nodes": 983,
+  "solver_success": true,
+  "max_rms_collocation_residual": 2.913464398885711e-07,
+  "config": {
+    "modes": 16,
+    "base_mode": 3,
+    "core_kind": "adaptive_warped_support",
+    "angular": 512,
+    "tol": 3e-07,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "fixed_metric": true,
+    "actual_nonlinear_tail": true
+  },
+  "prefix_scalars": {
+    "metric_l1": 4.970639448208511e-09,
+    "flow_defect": 6.0692549155324566e-09,
+    "darboux_l1": 9.014981829796678e-06,
+    "kappa_sample": 8.050395323748853,
+    "radius_max": 1.0705540842430188,
+    "height_max": 0.7859795231142921,
+    "root_min": 0.0034886679161126866,
+    "chart_rho_min": 0.84,
+    "support_amplitude": 0.020001225708876868,
+    "terminal_height_coeff_max": 5.439954624241928e-05,
+    "physical_bc_max": 1.111307226797642e-18,
+    "samples_s": 2086,
+    "samples_psi": 1024,
+    "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 1.1102230246251565e-15,
+      "actual_tail_residual": 1.0446540598120844e-09,
+      "tail_calls": 3
+    }
+  ],
+  "tail_seam_scalars": {
+    "tail_record": "seed_tail_0004.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 1.1607267331245384e-09,
+    "mean_first_actual": 0.07975197359601041,
+    "mean_first_expected": 0.07975197359574691,
+    "mean_first_mismatch": 2.634975571069731e-13,
+    "mean_second_actual": 1.8426812014529474,
+    "mean_second_expected": 1.84268120145911,
+    "mean_second_mismatch": -6.162625965089319e-12,
+    "nonmean_first_mismatch": 1.3010426069826053e-18,
+    "nonmean_second_mismatch": 1.5266175817836097e-12,
+    "cut_metric_fft_l1": 2.678230753483951e-13,
+    "cut_metric_c1_fft_l1": 2.5226611001832196e-12,
+    "angular_samples": 1024
+  },
+  "tail_response_scalars": {
+    "converged": true,
+    "residual": 1.1607267331245384e-09
+  },
+  "tail_audit_scalars": {
+    "fullD": 2.735436021928367e-07,
+    "normalizedFullDefect": 0.00028721585205486894,
+    "minLeading": 0.44091727773441397,
+    "minD": 0.9997259431677571,
+    "formalCurvature": 8.040691929208032,
+    "maxPhysicalPV": 0.00010871914274467571,
+    "actualMetric": 1.5872858583373565e-11,
+    "holonomy": 4.506479977188895e-19
+  },
+  "historical_wrapper": {
+    "scope": "Select the original m=3 nonlinear coupler and install its explicit ShortBridge.\n\nOriginal TailMixin, true nonlinear DN, residuals, boundary Jacobian, means,\nacceptance and seam audit are unchanged. This wrapper only installs the\nalready-used flat law and ShortBridge after the source runtime is loaded.\n",
+    "command": [
+      "nonlinear_tail_work/couple_m3_smallcut.py",
+      "--source-root",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+      "--profile",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_sparse_parts8/profile.json",
+      "--chart",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "--linear-port",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_sparse_parts8/port16.json",
+      "--tail-config",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_sparse_parts8/config.json",
+      "--out-prefix",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_sparse_parts8/seed",
+      "--restart",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz",
+      "--amplitude",
+      ".02",
+      "--warp-reference",
+      ".02",
+      "--modes",
+      "16",
+      "--angular",
+      "512",
+      "--audit-angular",
+      "1024",
+      "--nodes",
+      "701",
+      "--max-nodes",
+      "4000",
+      "--tol",
+      "3e-7",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--node-heap",
+      "2304",
+      "--warmup-scales",
+      "1",
+      "--lagged-tail",
+      "--fixed"
+    ],
+    "source_hashes": {
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/couple_m3_smallcut.py": "5380e1add88bdc45f38df3c351e70b7141542366a7ba1f89dad875ae46cfcdbc",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+    },
+    "source_topic": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+    "returned": true,
+    "seconds": 668.4011107490005
+  },
+  "artifact_hashes": {
+    "seed.json.gz": {
+      "sha256": "9d9d8134a3968f79ae0f90b5c3c32f183a12918bc25a86d9e882900b1f983bb3",
+      "bytes": 14547
+    },
+    "seed_coeff_00.npy.gz": {
+      "sha256": "487633918b59f97f1c95a4a4fa2a4671f25e6a04d188e95fd3ed326f574f6c57",
+      "bytes": 2231687
+    },
+    "seed_tail_0001.json.gz": {
+      "sha256": "53175800ccde04171971b7815cd3e1f5eb1745e52f8cbfeba9040506a2637d54",
+      "bytes": 193821
+    },
+    "seed_tail_0002.json.gz": {
+      "sha256": "0df36cfeb640ca10ae4596686f4fe8ef83ba7dd1190580d9cb050a013f12ff24",
+      "bytes": 199161
+    },
+    "seed_tail_0003.json.gz": {
+      "sha256": "ddce022a104b7ec9f63fdc16ccafbdd95c85d0f12f091e467348b1ee8304b056",
+      "bytes": 199356
+    },
+    "seed_tail_0004.json.gz": {
+      "sha256": "8b428700bafdd14ad36a8535d71b70e31b4c2738c2af89cacaece570440ca7be",
+      "bytes": 199337
+    },
+    "port16.json": {
+      "sha256": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538",
+      "bytes": 4236
+    },
+    "worker-port16.json": {
+      "sha256": "44f19de20b27e8f9c02a5784f927cdc78680d6807df8f03971f1190e9a5828fc",
+      "bytes": 4121
+    },
+    "prefix-endpoint.npz": {
+      "sha256": "814a640eb4b08684c3f31e2a1ec6578b454b00d091a939cdffa761bc664793f0",
+      "bytes": 54443
+    },
+    "prefix-endpoint.json": {
+      "sha256": "7fade590622ae0601d58a0764746d04dd64b40834d216cae60c4118b7585b40d",
+      "bytes": 1330
+    },
+    "tail-endpoint.json": {
+      "sha256": "2dfd6c029873fbb112de2875d3041f156a399b6637cff2af0d8d840c26197c05",
+      "bytes": 236601
+    },
+    "worker-trace.jsonl": {
+      "sha256": "0a0f2f2f860dcada8b008b45c63798376d99d8809d121d21538e8c5451a95a52",
+      "bytes": 5444
+    },
+    "linear-trace.jsonl": {
+      "sha256": "221324a4ac3383dc5a16f6b22a46a508265b748d0125a8d571deec0e8935f47b",
+      "bytes": 2442
+    }
+  },
+  "input_hashes": {
+    "fixed_m8_prefix": {
+      "path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed.json.gz",
+      "sha256": "2efcc8e2f3edd765760266e9d1b83f0ee2cba1bc0b2fdb04e8b5427d645525a5",
+      "bytes": 14085
+    },
+    "failed_original_m16_initial_guess": {
+      "path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16/seed_tail_0001.json.gz",
+      "sha256": "5a4da425e7b582fa0a2661a4d1045b2758c20fd62e0df4cb77e04e2a5fcfd0ac",
+      "bytes": 53994
+    },
+    "chart": {
+      "path": "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+      "bytes": 2987
+    }
+  },
+  "source_package_manifests": {
+    "m3_seed": "707fc801979a9629b6612563f9d415b03e4217a794a2975399d0f20fb4c31aea",
+    "sparse_linear": "be4bf585bec54d1f16cfba67b20a9681f6c02850a9fdcbba5bbc2e78182e63fe",
+    "stage_amplification": "2ccb516021a7788c546bf32237487ef6c9bc94604508683d4f5d9d8763df5662"
+  }
+}
