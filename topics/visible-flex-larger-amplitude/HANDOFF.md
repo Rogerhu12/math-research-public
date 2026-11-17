@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](open.md#7-本并行会话的实际数学与几何路线)保完整源/失败/预算。R648全连续Gram<4.94e−7；R651同场全818胞K≤7.04608；R652全819片β1/4支持>.3174736、β2/5>.16747356295，均已自然0，不是闭reach。efe92/1878全Gram与0f/97062原Pr各自原24/20继续，numerical唯一终态。[准确Hold与实际全闭初猜](notes/2026-11-17-parallel-model-fullclosed-hold-warm-and-oracle.md)同26e53显式截M160、923节点/解析圆端口，S/R准确包围及实际401255已生成；只是初猜，未付度量。[全三jet算子实际准备](notes/2026-11-17-parallel-geometry-fullclosed-gram-actual-probe.md)Jv/伴随通过，但旧warm Gram147；FFT/新warm接续刊。完整双积分坐标与964行小块端口投影已证，root实际代数准备。R649障碍/R650流reach及尾/β/标记接口已刊，真正闭解、D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](open.md#7-本并行会话的实际数学与几何路线)保完整源/失败/预算。R648全连续Gram<4.94e−7；R651同场全818胞K≤7.04608；R652全819片β1/4支持>.3174736、β2/5>.16747356295，均已自然0，不是闭reach。efe92/1878全Gram与0f/97062原Pr各自原24/20继续，numerical唯一终态。[准确Hold与实际全闭初猜](notes/2026-11-17-parallel-model-fullclosed-hold-warm-and-oracle.md)同26e53显式截M160、923节点/解析圆端口，S/R准确包围及实际401255已生成；只是初猜，未付度量。[全三jet算子实际准备](notes/2026-11-17-parallel-geometry-fullclosed-gram-actual-probe.md)Jv/伴随通过，但旧warm Gram147；[FFT对照](notes/2026-11-17-parallel-geometry-fullclosed-gram-FFT-equivalence.md)全数组差约1e−13，未重算dense；新warm接续刊。完整双积分坐标与964行小块端口投影已证，root实际代数准备。R649障碍/R650流reach及尾/β/标记接口已刊，真正闭解、D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 

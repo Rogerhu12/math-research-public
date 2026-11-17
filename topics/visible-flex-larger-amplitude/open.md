@@ -120,3 +120,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 **完整未付。** 真正闭合解、同g全连续Gram与求解精化、闭尾/Cartesian帽/准确六jet、固定有内点H/完整D、整像held、含反射E3、全t reach/强C²均未达。R633/635仅排指定设计；R240/632/625/627/629接口不替真实闭源，子题/预算/时长不是停点。精化固定g/参数/t至机器或原容差后继续增比例。
 
 [逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败；11份历史依赖188321B归同字节主本，原生产basename/cwd不变，完整恢复e22877bb。仅当前manifest路径改，不删独有科学输入/源/状态。
+
+[同输入FFT等价](notes/2026-11-17-parallel-geometry-fullclosed-gram-FFT-equivalence.md)7ab/9c0/882e，完整res/Jv/Jᵀ相对6.61e−14/8.38e−14/9.22e−14，缓存同点V/d；原dense全复用。v1漏__neg__在prepare即退出，未有几何比较；完整可逆源码差异与失败scope保。无新场/solver，旧warm147失败不改。
