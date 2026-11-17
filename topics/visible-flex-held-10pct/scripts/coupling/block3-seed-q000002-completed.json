@@ -1,0 +1,235 @@
+{
+  "schema": "compact-finite-coupled-run-v1",
+  "session": "true_a_analysis",
+  "scope": "Export compact coupled-run evidence, never numerical state or DN arrays.",
+  "context": "New finite_block_tail_v1 metric, original cold linear prefix seed, original actual nonlinear tail. No old physical-tail state reused. projectionFloor strengthened from frozen config .0001 to .01; all true-DN and BC gates kept. This is a microscopic q=2e-6 existence computation, not improved amplitude capacity.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "coupling_work/couple_smallcut.py",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "--prefix-driver",
+    "/workspace/scratch/f00f08c94d46/smallcut_highq_work/source/numerical-m2-prefix.py",
+    "--coupler-source",
+    "/workspace/scratch/f00f08c94d46/coupling_work/source/db6f-prefix-coupled.py",
+    "--worker",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/hybrid_tail_worker.mjs",
+    "--profile",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/linear-prefix/port8_s512/profile.json",
+    "--chart",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/linear-prefix/port8_s512/chart.json",
+    "--port",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/worker_port8_block_canonical.json",
+    "--tail-config",
+    "/workspace/scratch/f00f08c94d46/coupling_work/block3-seed-q000002/tail-config-floor001.json",
+    "--restart",
+    "/workspace/scratch/f00f08c94d46/coupling_work/block3-seed-q000002/linear-seed.json.gz",
+    "--out",
+    "/workspace/scratch/f00f08c94d46/coupling_work/block3-seed-q000002/coupled",
+    "--amplitude",
+    "2e-06",
+    "--modes",
+    "8",
+    "--warp-reference",
+    "2e-06",
+    "--angular",
+    "256",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "401",
+    "--max-nodes",
+    "1800",
+    "--tol",
+    "1e-06",
+    "--bc-tol",
+    "1e-07",
+    "--physical-bc-tol",
+    "2e-09",
+    "--node-heap",
+    "2304",
+    "--inner-verbose",
+    "2",
+    "--warmup-scales",
+    "0.1",
+    "1.0",
+    "--warmup-kind",
+    "full-vector"
+  ],
+  "command_scope": "Equivalent command with all recorded default values made explicit.",
+  "adapter": {
+    "path": "coupling_work/couple_smallcut.py",
+    "bytes": 13332,
+    "sha256": "29545185becc88b1bae05d579258ffca04c186e992d9b17fbc21a5049a2f3629"
+  },
+  "exporter": {
+    "path": "/workspace/scratch/f00f08c94d46/coupling_work/record_coupled_run.py",
+    "bytes": 4125,
+    "sha256": "8f421ae6cebf20a2d274171a7b4570241b810aa5c51fccaf9855c60844f288ae"
+  },
+  "solver_success": true,
+  "q": 2e-06,
+  "modes": 8,
+  "tail_depth": 8,
+  "nodes": 534,
+  "seconds": 119.3386336450003,
+  "error": null,
+  "max_rms_collocation_residual": 9.962976638020997e-07,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.17185390118352095,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "prefix_audit": {
+    "metric_l1": 1.2114471425161097e-12,
+    "flow_defect": 1.2365847705191163e-12,
+    "darboux_l1": 6.572593963769761e-10,
+    "kappa_sample": 4.075386116665765,
+    "radius_max": 1.171854762011201,
+    "height_max": 1.2948711379344522,
+    "root_min": 0.004073019424023605,
+    "chart_rho_min": 0.999994,
+    "support_amplitude": 2e-06,
+    "terminal_height_coeff_max": 5.704660667753905e-09,
+    "physical_bc_max": 1.6154926824955326e-16,
+    "samples_s": 1216,
+    "samples_psi": 512,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 5.968010781828784e-12,
+      "actual_tail_residual": 2.8598596320999732e-09,
+      "tail_calls": 4
+    }
+  ],
+  "tail_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "response_0005.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 2.1448947240749803e-09,
+    "mean_first_actual": 0.07974522228253796,
+    "mean_first_expected": 0.07974522228253784,
+    "mean_first_mismatch": 1.1102230246251565e-16,
+    "mean_second_actual": 1.8430007675492264,
+    "mean_second_expected": 1.8430007675492293,
+    "mean_second_mismatch": -2.886579864025407e-15,
+    "nonmean_first_mismatch": 1.6154926824959e-16,
+    "nonmean_second_mismatch": 1.0974863723250539e-13,
+    "cut_metric_fft_l1": 5.026696988392506e-15,
+    "cut_metric_c1_fft_l1": 1.9919346409364773e-14,
+    "angular_samples": 512
+  },
+  "tail_audit": {
+    "fullD": 1.6848892844601577e-17,
+    "normalizedFullDefect": 2.2138471611476973e-12,
+    "minLeading": 0.8967513675305678,
+    "minD": 0.9999998780797071,
+    "formalCurvature": 9.889702155200059,
+    "maxPhysicalPV": 1.5500597812245775e-08,
+    "actualMetric": 2.8878658158167583e-15,
+    "holonomy": 6.255553382432272e-24
+  },
+  "tail_calls": 5,
+  "initial_prefix_status": {
+    "solver_success": true,
+    "gauge_amplitude": 2e-06,
+    "actual_primary_amplitude": 2e-06
+  },
+  "initial_tail": null,
+  "input_hashes": [
+    {
+      "path": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/source/numerical-m2-prefix.py",
+      "bytes": 10215,
+      "sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/coupling_work/source/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/hybrid_tail_worker.mjs",
+      "bytes": 12960,
+      "sha256": "7f2842f852b6530ac2d480236c886005ff26347d9a55dc37143ee8cc139a7478"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/linear-prefix/port8_s512/profile.json",
+      "bytes": 264,
+      "sha256": "da2065e058cbeea4f07f41bad5ebe936bb4733246a4e59afe2b09a4f9cebbf27"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/linear-prefix/port8_s512/chart.json",
+      "bytes": 2977,
+      "sha256": "3f410c180c2647e62c5103e1075490235be49607ac0432130b110f48fca54d10"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/finite_block_design_v3/worker_port8_block_canonical.json",
+      "bytes": 4108,
+      "sha256": "f849e6f40b0826d693087388ac0704bb7a553c6aeb3df1ef589e2365579e452c"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/coupling_work/block3-seed-q000002/tail-config-floor001.json",
+      "bytes": 2376,
+      "sha256": "7a67165bd69cbc0a851eee2fe8358d79433d43be1fa30354f747648f8b3a56e1"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/coupling_work/block3-seed-q000002/linear-seed.json.gz",
+      "bytes": 10852,
+      "sha256": "7e8a19ae774498963fa63d7889aa8ef677130a43a462fbdff0ee215bf51e039d"
+    }
+  ],
+  "output_hashes": [
+    {
+      "path": "coupling_work/block3-seed-q000002/coupled/summary.json",
+      "bytes": 24484,
+      "sha256": "0f68a7dfe7cc1f4c3e813062fafba04e2689631a5ee7ee0e3d1489795df59e7b"
+    },
+    {
+      "path": "coupling_work/block3-seed-q000002/coupled/prefix.json.gz",
+      "bytes": 11203,
+      "sha256": "4e3195d7bfd7d60ab7e929145668f315c3196cf3a55d879e4f631b972ae0361a"
+    },
+    {
+      "path": "coupling_work/block3-seed-q000002/coupled/prefix_coeff_00.npy.gz",
+      "bytes": 613225,
+      "sha256": "005b120f96d8a2cb17f3542f4388ae9a4dca5a269ac8ebcb0fbc397237ad524f"
+    },
+    {
+      "path": "coupling_work/block3-seed-q000002/coupled/response_0005.json.gz",
+      "bytes": 30157,
+      "sha256": "05839745639ddbaa4d863e90ae98f88e631a3e09b246bbee270a951f50b22c2f"
+    }
+  ],
+  "numerical_settings": {
+    "spacing": 2,
+    "modes": 8,
+    "depth": 8,
+    "steps": 32,
+    "quadrature": 128,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "shootingParts": 2,
+    "projectionFloor": 0.01,
+    "solveTolerance": 1e-08,
+    "auditSteps": 32
+  },
+  "limitations": [
+    "Finite Fourier and finite depth only.",
+    "Prefix FFT l1 and curvature are sampled diagnostics.",
+    "Complete Cartesian/global C2 closing, infinite tail, all-time reach and the held 10 percent goal are not certified by this solver success."
+  ]
+}

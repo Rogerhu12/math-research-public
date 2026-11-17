@@ -1,0 +1,132 @@
+{
+  "scope": "Frozen physical geometry and genuine finite nonlinear forcing diagnostics; no matched closed family.",
+  "tag": "finite_block_tail_v1 / block3_peaks085_030",
+  "geometry": {
+    "maxK": 9.889774368114194,
+    "where": {
+      "n": 0,
+      "j": 5,
+      "x": 0.65234375,
+      "r": 0.21207406544299057,
+      "w": 0.41887088111218934,
+      "wr": 12.603587592911254
+    },
+    "maxW": 0.8500000000000002
+  },
+  "stats": {
+    "heightSpan": 0.060955238366039874,
+    "meridianLength": 0.26320432990338266,
+    "blockCount": 3,
+    "blockAlpha": 0.0017276151291215477,
+    "blockHeight": 0.060669106837900444,
+    "blockMinimumWidth": 0.1711325020124078,
+    "blockWidth": 0.21605049536956794,
+    "blockPortDifferences": [
+      {
+        "r": 0,
+        "w": 0,
+        "wr": 0
+      },
+      {
+        "r": 5.551115123125783e-17,
+        "w": 0,
+        "wr": 0
+      }
+    ],
+    "blockInternalJoinDifferences": [
+      {
+        "r": 0,
+        "w": 0,
+        "wr": 0
+      },
+      {
+        "r": 0,
+        "w": 0,
+        "wr": 0
+      }
+    ],
+    "unchangedPhysicalCellsFrom": 3
+  },
+  "runs": [
+    {
+      "lam": 1e-06,
+      "converged": true,
+      "residual": 3.101829755906557e-09,
+      "response_sha256": "0a6027fab955acb6241f6142b87874a58f390e2cb21fcb5b760e65c6437df165",
+      "error": null,
+      "audit": {
+        "fullD": 2.6623025547115105e-14,
+        "normalizedFullDefect": 1.0991207943789048e-14,
+        "minLeading": 0.9608532893188431,
+        "minD": 0.999999952575826,
+        "formalCurvature": 9.889701724502542,
+        "maxPhysicalPV": 5.969709303277337e-09,
+        "actualMetric": 2.890481503618401e-15,
+        "holonomy": 1.761949230803718e-24
+      },
+      "final_minA": 0.9608532893188431,
+      "final_minD": 0.9999999525745521
+    },
+    {
+      "lam": 1e-05,
+      "converged": true,
+      "residual": 3.4250565561347928e-09,
+      "response_sha256": "228307220bf45ad54e9bb08eead7ef8e9fec4ae7e47e6bb3cad6da68825a8784",
+      "error": null,
+      "audit": {
+        "fullD": 4.970124700047683e-12,
+        "normalizedFullDefect": 6.530456665154727e-07,
+        "minLeading": 0.577100643944238,
+        "minD": 0.9999995257590566,
+        "formalCurvature": 9.889704237048502,
+        "maxPhysicalPV": 5.969710686198892e-08,
+        "actualMetric": 2.898540389331468e-15,
+        "holonomy": 3.505177845693455e-23
+      },
+      "final_minA": 0.5771006439442491,
+      "final_minD": 0.9999995257463177
+    },
+    {
+      "lam": 0.0001,
+      "converged": false,
+      "residual": null,
+      "response_sha256": "d97a0f91c6f5c65b52e2276cf0ff0ec1d69eff4a23f5a4a08c8c14e05284b6ff",
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum branch D/S/A rejected', 'residual': None, 'lastIteration': None}\")",
+      "audit": null,
+      "final_minA": null,
+      "final_minD": null
+    }
+  ],
+  "minimum_point": {
+    "M": 8,
+    "N": 128,
+    "stage": 63,
+    "rawCell": 3,
+    "rawSegment": 4,
+    "x": 0,
+    "r": 0.07546835004675057,
+    "w": 2.97080994480089e-06,
+    "wr": -2.576577379709666e-06,
+    "theta": 1.5707963267948966,
+    "minA": 0.9608532893188431,
+    "D": 1.0000000000006772,
+    "S": 1,
+    "targetGaussCurvature": -1.0142691205404145e-10,
+    "formalSecondForm": {
+      "a": -2.6815512922924777e-06,
+      "b": -3.7255428052651385e-22,
+      "c": 3.7823968665290964e-05,
+      "det": -1.0142691205404116e-10,
+      "gaussDifference": 2.8434333556510326e-25
+    }
+  },
+  "input_height_sha256": "73a83713ec4b64df8e26c9fd3889bda4a28513069accb0b7b21b0b0f880c0b55",
+  "source_checkpoint_sha256": "dcfd9b878489141d507148b3d0881224aed8bed8f98be91fad30a841157d7ffa",
+  "worker_sha256": "7f2842f852b6530ac2d480236c886005ff26347d9a55dc37143ee8cc139a7478",
+  "local_outputs": {
+    "geometry.json": "b937625de86db967b77501f49e9dedeb0c984fc77eaf6a591f339ee018cc4356",
+    "lam1e-6_minimum.json": "2982f60fa497504de3da74a57c5e8a0f81f5f62e7b84003ecee26d84ea1def7e",
+    "worker_port8_block_canonical.json": "f849e6f40b0826d693087388ac0704bb7a553c6aeb3df1ef589e2365579e452c",
+    "port32_s1024_block_canonical.json": "b804d2b0e8654604ffd40a078f63b5f49016eaf045e2cf0f6b9e5d99617efc2c"
+  }
+}
