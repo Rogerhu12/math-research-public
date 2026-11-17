@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R638（全域正性已证明，明确IEEE模型）**：[两条前缀的正弧长坐标与C²映射](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)：整数Taylor/Machin及区间radix-two、Bernstein径向覆盖，β.75全509胞q_N>.1152、pulse全818胞>.0986，ρ全角亦正；结清固定规范化的C²坐标条件，不升级采样Gram/嵌入/reach或闭族。
+
 - **R637（接缝已证明，几何读出为数值证据）**：[旧前缀到M320短段的真实C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)：固定原core/rho/g，约.0005宽Hermite修正并共享精确节点0/1/2jet，实际接到.997；新桥全短段Gram5.092e−7/κ5.79934，原前缀不动。非完整BVP、连续误差认证或固定参数精化完成。
 
 - **R636（已证明，参考积分条件结清）**：[内向参考端半径与径线长度](results/R636-certified-inward-reference-radius-and-length.md)：整数三角/平方根/arcsin与两ramp的64中点显式余项，严格R∈(.53187889470968,.53187892868261)、L∈(1.28971664673515,1.28971664673518)，从而R634同真cut全角长度余>.06001464673515。绑定精确积分参考，非有限GL导数或实际非轴尾。

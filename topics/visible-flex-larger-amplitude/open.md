@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-完整旧全文/全部失败/参数/源/SHA固定保于[66419361 open](https://github.com/Rogerhu12/math-research-public/blob/66419361baa8cad4423ace0f1d02894370bc8528/topics/visible-flex-larger-amplitude/open.md)，其继续链接df896、cd553、dc271、dd08、b327、83262；本次仅缩写§7，原§1–6不动。本地计算，原Actions读者责任不变。R623–637正式证明均在[results](results.md)。
+完整旧全文/全部失败/参数/源/SHA固定保于[66419361 open](https://github.com/Rogerhu12/math-research-public/blob/66419361baa8cad4423ace0f1d02894370bc8528/topics/visible-flex-larger-amplitude/open.md)，其继续链接df896、cd553、dc271、dd08、b327、83262；本次仅缩写§7，原§1–6不动。本地计算，原Actions读者责任不变。R623–638正式证明均在[results](results.md)。
 
 **已付与禁止重复。** 原解析g M112真到.995/实际Gram4.001e−7；.992的M112/M128未证明角收敛；原g .999、径向增长两族/六控制纠正失败。R633严格长度门排除旧best4外向强λ1，R635在实际κ≤6.8/反射major正投影下排除.992/R1.7673/H≤1.22和.8/R1.6/H≤1.45（换g也无效）。全部有限far/Dirichlet/双trace/材料均值/平cuff旧失败见固定全文，不重跑。
 
@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [全段可达109行](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)与[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)已实际支付；固定U/原11960350母值的[β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)：63/64、.9、.75真接受，原实际Gram2.708/2.503/2.399e−6；.75角G主导，代数换raw V不能消掉。β.5真1422节点/RMS1.733e−5/BC1.752e−6超原1800失败，从真β.75缩步.625亦954节点/RMS2.213e−7/BC1.689e−9超1800失败；最后真接受仍.75，原母值/U不变。这些新有限边界不冒原tail DN。
 
-**固定弧长新映射。** [β.75同g规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定构造q_N、N2048，以同rho隐式重参数并按a/mean(q_N)中心缩放；完整保λ′/λ″/ψ_s。509胞在4096/4sub与8192/8sub独立audit均真实Gram6.393033e−7，细层κ6.289016；角余项实际读出未置零。正性下的C²来自有限φ谱及共享quintic；全径向正性连续包围仍待。仅旧角对应像点缩放差约9e−13，不能冒共同材料位移；非原BVP再接受或完整mesh/frequency/t精化。
+**固定弧长新映射。** [β.75同g规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定构造q_N、N2048，以同rho隐式重参数并按a/mean(q_N)中心缩放；完整保λ′/λ″/ψ_s。509胞在4096/4sub与8192/8sub独立audit均真实Gram6.393033e−7，细层κ6.289016；角余项实际读出未置零。正性下的C²来自有限φ谱及共享quintic；[R638](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)现以区间FFT/整数三角/Bernstein覆盖严格结清全域q_N>.1152及rho正性。仅旧角对应像点缩放差约9e−13，不能冒共同材料位移；非原BVP再接受或完整mesh/frequency/t精化。
 
 [645/317 normal-only混合边界](notes/2026-11-17-parallel-geometry-mixed-boundary-linear.md)在真.995→.997场传播全部317列，cond1.59e6；目标仅9.26e−12仍需起点δF8.83e−6/δFφφ3.46，实际Hmin−.020566。独立两档JVP核对已付；该步不作父，不开BVP。
 
@@ -121,7 +121,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [六个pulse设计](notes/2026-11-17-parallel-inward-curvature-pulse.md)保cut scalar两jet但改变后续g：w.005/A−3、−5真到1.0，其他四例失败。[−5实际C²桥全段](notes/2026-11-17-parallel-pulse-full-C2-field.md)320胞1310万点Gram1.312425e−6超门/κ6.98222，端点8.173e−7不代表全段；同标量延至1.01在1.0039896域失败。
 
-[正确pulse完整规范化](notes/2026-11-17-parallel-numerical-pulse-arclength-prefix.md)原498胞按原M112保存二jet后zero-lift，加新320胞逐位共享cut jet；整个818胞统一q_N4096，8192角/4→8sub实际Gram1.974408e−7→1.974411e−7，κ6.98222。严格正性正在独立封闭，不冒固定g重求解收敛、闭面或原BVP接受。
+[正确pulse完整规范化](notes/2026-11-17-parallel-numerical-pulse-arclength-prefix.md)原498胞按原M112保存二jet后zero-lift，加新320胞逐位共享cut jet；整个818胞统一q_N4096，8192角/4→8sub实际Gram1.974408e−7→1.974411e−7，κ6.98222。R638已严格结清全域q_N>.0986及rho正性/C²坐标，仍不冒固定g重求解收敛、闭面或原BVP接受。
 
 **旧弱场/未来尾口。** [M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真9780节点/RMS.01608超14000失败；[弱高度meanLP](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)400步仍Gram6.097e−6，不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)全方程/坐标反号已付；[未来内向DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)仅a′−.8参考口/2368胞元/材料m2..16，RK8→16差7.59e−10，unitPcut的m2内|h_r|198.79。真实cut、rho加权角谱、无限DN和非线性尾均未付。
 

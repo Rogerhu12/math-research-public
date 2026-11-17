@@ -33,3 +33,5 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH="$
 固定构造q_N4096与audit8192，只将每胞径向4分点改为8分点，818胞共53,616,640点。最大Gram为 `1.9744113275415063e−7`，较首轮增加 `3.27824e−13`，最坏点s=.999787109375、旧角.476301034638。κmax保持 `6.982223448666474`；角余项max `4.797e−14`。拼接输入仍为同一 `26e53e8c...`，切口六jet仍逐位同一，未新求解或改变候选。
 
 沿原命令设 `--radial-subdivisions 8`；拼接输出临时名 `parallel-pulse-a5-complete-base-refread.json.gz`，其字节身份与首轮相同。readout为 `parallel-pulse-a5-complete-arclength-c4096-a8192-r8.json`，SHA256 `93bf4e39427d470bd3dd2e7400561f42715ef37451b46bacc9b484ee1cc43b0c`。本次仅为已有候选短quintic胞元峰值的读出核对，不计作README第5项固定参数重新求解收敛。
+
+后续[R638](../results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)已严格结清本文留下的全径向/全角正性条件；原Gram/曲率采样证据不因此升级为连续误差或嵌入证明。

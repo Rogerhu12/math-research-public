@@ -47,3 +47,5 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH="$
 固定原父、common-quintic和构造N2048，仅audit从4096角/4分点升到8192角/8分点。509胞共33,366,016点：最大Gram仍为 `6.393033353852322e−7`；κmax变为 `6.289016378306884`（s=.96965625）。全样本rr/角/混合项最大绝对值 `5.88445908e−7/4.685e−14/5.13978062e−7`。同源像点匹配差上界样本 `8.972e−13`，不解释为固定材料点位移。核心二jet差 `2.347e−16`。
 
 命令沿原源，把 `--angles 8192 --radial-subdivisions 8`，输出 `parallel-model-inward-b075-arclength-c2048-a8192.json`；SHA256 `09291b8e5f98d8394a2a9eff814ddd24822f89903e139505ec8b84f554feb306`。这是固定候选的读出加密，不是README第5项重新求解后网格/频率/t精化收敛。
+
+后续[R638](../results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)已严格结清本文留下的全径向/全角正性条件；原Gram/曲率采样证据不因此升级为连续误差或嵌入证明。
