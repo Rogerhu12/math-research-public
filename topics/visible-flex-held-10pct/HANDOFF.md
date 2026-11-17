@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`c2f36894388ab35c719387604aed269c003643ab`。2026-11-18 05:13:09（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`bfcb607aa09b288d96826feb92c05f898af2d59e`。2026-11-18 05:14:08（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -22,13 +22,13 @@ R30周期复用只减少重复标量求积，N/D/S/A/root/2e−9原门均保留�
 
 **新wCut=.16**：原worker重建24模port/双根，背景rootmin.0160234。q.01/.0125/M16的metric2.48504e−8/5.97569e−7；q.015/M20虽原BVP接受，完整metric1.20586e−5/tensor.0232143未过。冻结该g后867→2484径向点仍1.20598e−5/.0232092平台，见n4-w016-q015-radial-plateau；root现同g/M24/1536/tol1e−8，目录transfer_work/n4-thicker-cut/q015-fixed-m24。
 
-新w16/q0125 canonical完整材料圆化lambda.001到2081点触maxnodes，RMS.0379511/62域拒/15merit拒，无正lambda锚点；见n4-w016-circle-canonical-terminal。紧矩/C²rho充分界均未放原门。现raw保mean与物理c8=0、允许c4泄漏；固定旧J=16的lambda0泄漏，M>J新增泄漏零，可自然嵌套。定义/2×2有理逆/独立旧核及跨M身份已付，见n4-raw-mean-c8-controls。lambda.02/.05有限BVP接受但完整metric2.41705e−6/6.95343e−6未过；停止后续列表，冻结lambda.02全g做M20，终态另记。
+新w16/q0125 canonical完整材料圆化lambda.001到2081点触maxnodes，RMS.0379511/62域拒/15merit拒，无正lambda锚点；见n4-w016-circle-canonical-terminal。紧矩/C²rho充分界均未放原门。现raw保mean与物理c8=0、允许c4泄漏；固定旧J=16的lambda0泄漏，M>J新增泄漏零，可自然嵌套。定义/2×2有理逆/独立旧核及跨M身份已付，见n4-raw-mean-c8-controls。lambda.02/.05有限BVP接受但完整metric2.41705e−6/6.95343e−6未过；停止后续列表，冻结lambda.02全g做M20，lambda.02的763点原门终态见n4-raw-lambda002；下一步固定eta=.1、释放c8作同g精化。
 
 R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几何待付。旧低幅lambda.1/.15虽有限接受但metric失败，.2/.175节点门失败，见n4-low-amplitude-circle-terminal；非丢入口lift或不存在。eta1/q001/M12真正锚点见n4-first-true-coupled-state。
 
 ## 2. m3：高幅真正联合与三重圆弧入口
 
-**R33严格低矩障碍**：保护半宽a=.21、mean/主频零、旧七个低矩冻结时，所有even/C3/C4控制均有avg曲率能量>144.10413879、L∞>13.42575017；无限辅助频亦不能进入R32的.08预算。H² Riesz/固定有理对偶严格证书，非数值逆/采样；不推rho负或分支不存在。故后续允许低矩在actual联立中改变。有限J screen仅旁证，J32/48有数值病态/秩损。R34进一步认证全角对偶权sup<100：对R32真mean-one背景、q∈[.04,.0851]，同一组冻结旧矩在lambda1必导致rho<0（非负时积分<100却必>118）。只排冻结旧矩，不排自由联立路径。
+**R33/R34严格冻结矩障碍**：a=.21、mean/主频零、旧七物理低矩冻结时，R33以H² Riesz/固定有理对偶证avg曲率能量>144.10413879、L∞>13.42575017，任何辅助频均不满足R32的.08。R34认证对偶权sup<100；R32真mean-one背景q∈[.04,.0851]若rho≥0则积分<100，旧矩却迫使>118，故lambda1必有rho<0。仅排冻结旧矩，不排自由actual/raw路径；有限J32/48病态另记。
 
 **R32严格条件窗**：n3/eta0、a=.21/b=.08，q∈[.0849,.0851]、固定相位.7046及H角[.3521,.3525]，完整支撑控制在保护域恒0且||b+b″||∞≤.08时，核心rho>.219613、|平面m3|>.0200361。两柱长.54/.5401可选出|活动矩|>1e−6，须用实际图决定；三重帽排全部O(3)。若完整未标记图D≤2.6498/支撑≥.0801/K≤12.5等，则held/D>.1045139、reach/D>.03018。δ∈[.056,.07]初负K窗已付。实际λ1/完整图/全g精化未付，不能用旧R31代替。
 
