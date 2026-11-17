@@ -1,0 +1,38 @@
+{
+  "scope": "Exact rational cosine bounds and cross-multiplied positive rational inequalities. No numerical BVP is used.",
+  "source_sha256": "60061a882e547d495e2bca5efe9dbde8cbbc985b683a42a8b9995d964f5305e5",
+  "halfwidth": "29/200",
+  "cosine_argument": "29/50",
+  "cosine_lower": "20429025557100517729764626632164456923123259839/24423117468750000000000000000000000000000000000",
+  "cosine_upper": "26704608571373225790817103158862260187521/31925643750000000000000000000000000000000",
+  "coefficient_lower": "78315527679401613137743452617066097187185/58630252321373225790817103158862260187521",
+  "coefficient_upper": "59911378674742234053530600517533146153151102415/44852143025850517729764626632164456923123259839",
+  "asserted_decimal_lower": "6678764339/5000000000",
+  "asserted_decimal_upper": "13357528679/10000000000",
+  "coefficient_lower_decimal": "1.335752867821997509859810485964051346213",
+  "coefficient_upper_decimal": "1.335752867821997509936461855434645260038",
+  "q_cases": [
+    {
+      "q": "1/200",
+      "nonprimary_lower_fraction": "6678764339/1000000000000",
+      "nonprimary_lower_decimal": "0.006678764339",
+      "nonprimary_upper_decimal_for_minimax_constant": "0.0066787643395",
+      "necessary_quadratic_coefficient_lower": "267.15057356"
+    },
+    {
+      "q": "1/25",
+      "nonprimary_lower_fraction": "6678764339/125000000000",
+      "nonprimary_lower_decimal": "0.053430114712",
+      "nonprimary_upper_decimal_for_minimax_constant": "0.053430114716",
+      "necessary_quadratic_coefficient_lower": "33.393821695"
+    },
+    {
+      "q": "3/50",
+      "nonprimary_lower_fraction": "20036293017/250000000000",
+      "nonprimary_lower_decimal": "0.080145172068",
+      "nonprimary_upper_decimal_for_minimax_constant": "0.080145172074",
+      "necessary_quadratic_coefficient_lower": "22.26254779666666666666666666666666666667"
+    }
+  ],
+  "all_assertions_passed": true
+}

@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`d3690ee096e370a286d1a32db45f679ba4c22ab4`。2026-11-18 00:19:49（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 01:19:49；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`1a8e92891063755b27bc600a4dd3ee516f9096a5`。2026-11-18 00:20:44（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 01:20:44；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -42,6 +42,8 @@ R15：轴向精确界|A|≥|w_r|√D/(E^1.5 Kmax)；反射/D>0且从背景连通
 R16有限detG≠0可用不定Gram图；过零权的精确Galerkin无L²一致逆。15个精确锥LU测试通过，径向四阶，不证明跨奇点/模式收敛。R18完整µ-free混合DAE不逐点求G逆，含cos/sin/均值/原alias；12原engine对照≤3.34e−15，6精确锥通过，但M32全局Jac可1.5e14。真实首cell h=rwv/p=w²t连续变量变换与六行终态已发表：uniform16状态差从v坐标.006717降至5e−5，但物理H插值metric3.68e−4/张量.922/rr跳18.8，未C²。v插值K甚至4.24e4/8.01e4；全部失败保留。40源空目录真实组装18stage已验，入口actual-cell-mixed-coordinates-and-bad-interpolation笔记及mixed_dae/actual_cell；精确背景+全Cartesian共享二jet五次图已定义C²，uniform16→32 metric3.019e−7→1.078e−7、K≈8.040，但tensor .004547→.008295反增；critical入网的已有cusp16得.002737，仍有径向缺口。完整记录见actual-cell-shared-cartesian-c2笔记及actual_cell/cartesian_c2；不称C²误差收敛。
 
 R17给无轴反射二fold核h=1+qcos2φ+εsin4φ；q.2/ε.005时ρ≥.325、Re AC>.5456625，精确卷积已核。但需要全cos/sin+均值BVP，非免费自由度，旧象限证书不移用。
+
+R20：精确圆弧与任意主频的ρ一致距离≥(n²−1)q tan²(na/2)；n4/a.145的系数严格>1.3357528678，Fraction独立同字节核验。仅在完整线性核+可微支假设下排除固定宽圆弧小q支；有限高矩可用补弧Gram任意修正，不得由有限τ推不存在。
 
 ## D. 其他结果和来源
 
