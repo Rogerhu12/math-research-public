@@ -110,3 +110,5 @@ R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除�
 [固定物理φ真实尾几何](notes/2026-11-17-parallel-geometry-weighted-actual-tail.md)在同一λ1e−7接受场保完整112项ρ，N512/G8→N1024/G12给Gram9.40596e−8→9.40745e−8、κmax≈5.998；真φ高度1.26270075347。把深4高度暂代旧回头盖也只有G/D≈.199466，非完整闭面上界；短bridge待接受场、实际λ1接合未付，不能混用材料参考高度1.212。
 
 [同父较早.8/.9截面](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)完整真实2jet已读，w_r为负，可作新尾入口；低z过早圆化会遮held，仍须整像检查。直接C²高度样条/真实径向Gram优化与weighted BVP并行；核心R3目标homotopy仍未接受，不把只定前三模当完整R3核心。
+
+[完整加权tail Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)用全DFT卷积与均值梯度运输，真实三态M112零扩展比较相对1.09e−14、该次171.7×；非M112接受或全solver提速承诺。同源有限far列/可选y过零chart均显式记录，仍保S/D/L/N及全几何责任；短bridge真实幅度延拓继续。

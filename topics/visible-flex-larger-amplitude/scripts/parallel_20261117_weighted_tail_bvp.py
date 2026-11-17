@@ -19,8 +19,19 @@ def main(a):
     started=time.perf_counter();source_sha=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     trace_raw=a.trace.read_bytes();trace=json.loads(trace_raw);bg=Background(a.background,a.coordinate)
     if bg.data.get('shallow_at')!='left':raise ValueError('This prefix-cuff design expects the shallow cut at the left')
-    q=WeightedMean(a.modes,a.angles,trace['rho_cos_coefficients']);target=a.scale*np.array(trace['Ptilde_sin_coefficients'][:q.M])
-    bp,bk,deep_boundary=weak_deep_boundary(q,bg)
+    if a.fast_jacobian:
+        from parallel_20261117_weighted_tail_fast import FastWeightedMean
+        q=FastWeightedMean(a.modes,a.angles,trace['rho_cos_coefficients'])
+    else:q=WeightedMean(a.modes,a.angles,trace['rho_cos_coefficients'])
+    q.require_positive_height_slope=not a.allow_height_turn
+    target=a.scale*np.array(trace['Ptilde_sin_coefficients'][:q.M])
+    columns=None;deep_sha=None
+    if a.deep_columns:
+        raw=a.deep_columns.read_bytes();columns=json.loads(raw);deep_sha=hashlib.sha256(raw).hexdigest()
+    bp,bk,deep_boundary=weak_deep_boundary(q,bg,columns)
+    source_names=['parallel_20261117_weighted_tail.py','parallel_20261117_dynamic_tail.py','parallel_20261117_continue.py']
+    if a.fast_jacobian:source_names.append('parallel_20261117_weighted_tail_fast.py')
+    dependencies={name:hashlib.sha256(Path(__file__).with_name(name).read_bytes()).hexdigest() for name in source_names}
     if a.input:
         old=json.loads(gzip.decompress(a.input.read_bytes()))
         if not old['success'] or old['background_sha256']!=bg.sha256 or old['coordinate']!=a.coordinate:raise ValueError('Need accepted same-background same-coordinate input')
@@ -76,7 +87,8 @@ def main(a):
     mismatch=cut[q.M:]-reference
     report=dict(scope=__doc__,success=bool(sol.success),status=int(sol.status),message=sol.message,M=q.M,N=q.N,scale=a.scale,
                 background_sha256=bg.sha256,trace_sha256=hashlib.sha256(trace_raw).hexdigest(),source_sha256=source_sha,
-                operator_source_sha256=hashlib.sha256(Path(__file__).with_name('parallel_20261117_weighted_tail.py').read_bytes()).hexdigest(),
+                operator_source_sha256=dependencies['parallel_20261117_weighted_tail.py'],dependency_sha256_at_start=dependencies,
+                deep_columns_sha256=deep_sha,fast_jacobian=a.fast_jacobian,allow_height_turn=a.allow_height_turn,height_mean_anchor=trace['height_mean'],
                 coordinate=a.coordinate,angular_chart='fixed physical phi',deep_boundary=deep_boundary,rho_cos_coefficients=trace['rho_cos_coefficients'],seconds=time.perf_counter()-started,counts=counts,nodes=len(sol.x),
                 collocation_rms_max=float(np.max(sol.rms_residuals)),boundary_residual_max=float(np.max(abs(bc(sol.y[:,0],sol.y[:,-1])))),
                 cut_P_coefficients=cut[:q.M].tolist(),cut_K_coefficients=cut[q.M:2*q.M].tolist(),cut_K_mean=float(cut[-1]),
@@ -92,4 +104,5 @@ if __name__=='__main__':
     p.add_argument('--out',type=Path,required=True);p.add_argument('--input',type=Path);p.add_argument('--modes',type=int,default=8)
     p.add_argument('--angles',type=int,default=512);p.add_argument('--scale',type=float,default=.01);p.add_argument('--tol',type=float,default=1e-6)
     p.add_argument('--max-nodes',type=int,default=12000);p.add_argument('--mesh-stride',type=int,default=1);p.add_argument('--batch',type=int,default=64)
+    p.add_argument('--deep-columns',type=Path);p.add_argument('--allow-height-turn',action='store_true');p.add_argument('--fast-jacobian',action='store_true')
     p.add_argument('--coordinate',choices=['source-index','physical-r'],default='source-index');main(p.parse_args())

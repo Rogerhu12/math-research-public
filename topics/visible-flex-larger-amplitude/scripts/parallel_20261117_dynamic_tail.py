@@ -27,6 +27,7 @@ class DynamicMean:
         self.freq=2*np.arange(1,M+1)
         self.S=np.sin(self.angle[:,None]*self.freq[None,:])
         self.C=np.cos(self.angle[:,None]*self.freq[None,:])
+        self.require_positive_height_slope=True
 
     def fields(self,y):
         p,k,c=y[:self.M],y[self.M:2*self.M],y[-1]
@@ -37,8 +38,8 @@ class DynamicMean:
         P,T,K,V=self.fields(y);E=1+z;A=2*K+K*K+E*P*P
         D=1-z*A;S=1-z*P*P;q=np.sqrt(D);L=1+K+E*T;yy=1+K
         NN=1+z*yy*T/S
-        if np.any(D.real<=0) or np.any(S.real<=0) or np.any(L.real<=0) or np.any(yy.real<=0) or np.any(NN.real<=0):
-            raise FloatingPointError('D, S, L, 1+K and N must remain positive')
+        if np.any(D.real<=0) or np.any(S.real<=0) or np.any(L.real<=0) or np.any(NN.real<=0) or (self.require_positive_height_slope and np.any(yy.real<=0)):
+            raise FloatingPointError('Tail branch exited; positive height slope is required only in the original chart')
         numerator=E*s*(V-P)**2+ell*((K+T)**2+z*(2*K*T+T*T-P*P))
         rawp=s*V-(s+ell)*P
         rawk=-ell*(2*K+T)+numerator/L

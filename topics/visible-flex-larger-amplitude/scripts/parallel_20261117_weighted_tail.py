@@ -29,7 +29,7 @@ class WeightedMean(DynamicMean):
     def evaluate(self,y,s,ell,z,details=False):
         y=np.atleast_2d(y);P,T,K,V=self.fields(y);E=1+z;A=2*K+K*K+E*P*P
         D=1-z*A;S=1-z*P*P;Q=np.sqrt(D);yy=1+K;L=yy+E*T;N=1+z*yy*T/S
-        if any(np.any(v.real<=0) for v in (D,S,yy,L,N)):raise FloatingPointError('Weighted tail branch exited')
+        if any(np.any(v.real<=0) for v in (D,S,L,N)) or (self.require_positive_height_slope and np.any(yy.real<=0)):raise FloatingPointError('Weighted tail branch exited')
         rawpt=self.R*(s*V-(s+ell)*P)
         rawk=-ell*(2*K+T)+(E*s*(V-P)**2+ell*((K+T)**2+z*(2*K*T+T*T-P*P)))/L
         fp=(2/self.N)*(self.S.T@rawpt);fk=(2/self.N)*(self.C.T@rawk)
@@ -59,7 +59,7 @@ def ideal_graph(frequency,R,a):
     return a10/(large-a11)
 
 
-def weak_deep_boundary(q,background):
+def weak_deep_boundary(q,background,columns=None):
     """Use exact weighted cosine Gram and sampled weak angular energy.
 
     Subtracting the weighted mean from every cosine gives a square M-space
@@ -78,11 +78,21 @@ def weak_deep_boundary(q,background):
     eigen,U=eigh(A,G);frequency=np.sqrt(eigen);projection=U.T@G
     data=background.data;deep=data['inner'];r=deep['r'];logw=deep['logw'];mu=data['boundary'][0]['mu']
     parameters=data['parameters'];orientation=parameters['orientation'];R=parameters.get('R',64);a=parameters.get('a',2.75)
-    momentum=orientation*np.array([ideal_graph(m,R,a) for m in frequency])
-    multiplier=eigen+np.sqrt(12)*np.exp(np.log(mu)-7*np.log(r)-logw)*momentum
-    BK=projection.copy();BP=multiplier[:,None]*projection/q.freq[None,:]
+    if columns is None:
+        u=np.ones(M);momentum=orientation*np.array([ideal_graph(m,R,a) for m in frequency]);boundary_kind='ideal finite design graph'
+    else:
+        if columns['input_sha256']!=background.sha256:raise ValueError('Actual deep columns belong to another background input')
+        rows=columns['final']['modes']
+        if len(rows)!=M:raise ValueError('Need one actual homogeneous column for every generalized mode')
+        for j,row in enumerate(rows):
+            if abs(row['mode']-frequency[j])>5e-11*max(1,frequency[j]):raise ValueError('Generalized frequency does not match the propagated column')
+            d=row['deepBoundary']
+            if max(abs(d['r']-r),abs(d['logw']-logw),abs(d['mu']-mu))>1e-11:raise ValueError('Actual column endpoint or mu differs')
+        u=np.array([row['deepColumn'][0] for row in rows]);momentum=np.array([row['deepColumn'][1] for row in rows]);boundary_kind='actual same-source finite far columns'
+    multiplier=eigen*u+np.sqrt(12)*np.exp(np.log(mu)-7*np.log(r)-logw)*momentum
+    BK=u[:,None]*projection;BP=multiplier[:,None]*projection/q.freq[None,:]
     scale=np.sqrt(np.sum(BK*BK+BP*BP,axis=1));BK/=scale[:,None];BP/=scale[:,None]
     return BP,BK,dict(definition='finite G-orthogonal physical-angle generalized angular eigenproblem plus same ideal material-frequency graph function',
                      eigenvalues=eigen.tolist(),frequencies=frequency.tolist(),gram_min_eigenvalue=float(np.linalg.eigvalsh(G)[0]),
-                     constant_weighted_mean=g0.tolist(),angular_samples=q.N,orientation=orientation,
+                     constant_weighted_mean=g0.tolist(),angular_samples=q.N,orientation=orientation,boundary_kind=boundary_kind,
                      scope='Finite linear design boundary. No nonlinear infinite DN, no assertion of equivalence to diagonal physical-frequency rows.')

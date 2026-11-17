@@ -19,7 +19,19 @@ def main(a):
     trace_raw=a.trace.read_bytes();trace=json.loads(trace_raw);bg=Background(a.background,a.coordinate)
     if bg.data.get('shallow_at')!='left':raise ValueError('This prefix-cuff design expects the shallow cut at the left')
     q=DynamicMean(a.modes,a.angles);target=a.scale*np.array(trace['P_sin_coefficients'][:q.M])
+    q.require_positive_height_slope=not a.allow_height_turn
     bp=np.array([d['p'] for d in bg.data['boundary'][:q.M]]);bk=np.array([d['k'] for d in bg.data['boundary'][:q.M]])
+    deep_sha=None
+    if a.deep_columns:
+        raw=a.deep_columns.read_bytes();columns=json.loads(raw);deep_sha=hashlib.sha256(raw).hexdigest()
+        if columns['input_sha256']!=bg.sha256:raise ValueError('Actual deep columns have a different background input')
+        rows=columns['final']['modes']
+        if len(rows)!=q.M:raise ValueError('Need every retained material mode column')
+        for j,row in enumerate(rows):
+            if abs(row['mode']-q.freq[j])>1e-10 or abs(row['deepBoundary']['r']-bg.data['inner']['r'])>1e-11:raise ValueError('Deep frequency or radius differs')
+        bp=np.array([row['deepBoundary']['p'] for row in rows]);bk=np.array([row['deepBoundary']['k'] for row in rows])
+    operator_sha=hashlib.sha256(Path(__file__).with_name('parallel_20261117_dynamic_tail.py').read_bytes()).hexdigest()
+    newton_sha=hashlib.sha256(Path(__file__).with_name('parallel_20261117_continue.py').read_bytes()).hexdigest()
     if a.input:
         old=json.loads(gzip.decompress(a.input.read_bytes()))
         if not old['success'] or old['background_sha256']!=bg.sha256 or old['coordinate']!=a.coordinate:raise ValueError('Need accepted same-background same-coordinate input')
@@ -75,7 +87,7 @@ def main(a):
     mismatch=cut[q.M:]-reference
     report=dict(scope=__doc__,success=bool(sol.success),status=int(sol.status),message=sol.message,M=q.M,N=q.N,scale=a.scale,
                 background_sha256=bg.sha256,trace_sha256=hashlib.sha256(trace_raw).hexdigest(),source_sha256=source_sha,
-                operator_source_sha256=hashlib.sha256(Path(__file__).with_name('parallel_20261117_dynamic_tail.py').read_bytes()).hexdigest(),
+                operator_source_sha256=operator_sha,newton_source_sha256=newton_sha,deep_columns_sha256=deep_sha,allow_height_turn=a.allow_height_turn,height_mean_anchor=trace['height_mean'],
                 coordinate=a.coordinate,seconds=time.perf_counter()-started,counts=counts,nodes=len(sol.x),
                 collocation_rms_max=float(np.max(sol.rms_residuals)),boundary_residual_max=float(np.max(abs(bc(sol.y[:,0],sol.y[:,-1])))),
                 cut_P_coefficients=cut[:q.M].tolist(),cut_K_coefficients=cut[q.M:2*q.M].tolist(),cut_K_mean=float(cut[-1]),
@@ -91,4 +103,5 @@ if __name__=='__main__':
     p.add_argument('--out',type=Path,required=True);p.add_argument('--input',type=Path);p.add_argument('--modes',type=int,default=8)
     p.add_argument('--angles',type=int,default=256);p.add_argument('--scale',type=float,default=.01);p.add_argument('--tol',type=float,default=1e-6)
     p.add_argument('--max-nodes',type=int,default=12000);p.add_argument('--mesh-stride',type=int,default=1);p.add_argument('--batch',type=int,default=64)
+    p.add_argument('--deep-columns',type=Path);p.add_argument('--allow-height-turn',action='store_true')
     p.add_argument('--coordinate',choices=['source-index','physical-r'],default='source-index');main(p.parse_args())
