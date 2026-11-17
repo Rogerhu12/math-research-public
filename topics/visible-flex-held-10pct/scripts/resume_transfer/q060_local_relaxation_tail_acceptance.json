@@ -1,0 +1,168 @@
+{
+  "scope": "An explicitly new local flow-relaxation initializer for the failed q060 tail, followed by the unchanged original complete DN solve and full audit. This is not the one-ULP retry and supplies no prefix or closed-surface acceptance.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/probe_tail_residual_initializers.mjs",
+    "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+    "transfer_work/q060-neighbor-original-tail.json.gz",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/q060_neighbor_original_gate_failure.json",
+    "transfer_work/q060-local-relaxation-tail.json.gz",
+    "transfer_work/q060-local-relaxation-summary.json",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py"
+  ],
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/try_recorded_tail_neighbor.mjs": "8735d7b874975140bf92a9ec646420067f25f60c3acd0ecd72c2b2efc9336fa9",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/probe_tail_residual_initializers.mjs": "db67be28007bec9c5592b8c4ef332b1ade4b96109b29c26cd8066174e041b3b4",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/transfer_work/q060-neighbor-original-tail.json.gz",
+    "sha256": "bab18aeeffd98a90426518bfb6c166dcea0eb3568da7299dfd9dee59a5144b0f"
+  },
+  "prior_conclusion": "scripts/resume_transfer/q060_neighbor_original_gate_failure.json",
+  "prior_record_sha256": "ac0a31d8ae2561b8b20feeffce2c906142401f883b4bdaae0458fc5f58d97cc6",
+  "original_discretization": {
+    "modes": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "depth": 8,
+    "shootingParts": 8,
+    "steps": 16,
+    "auditSteps": 16,
+    "maxIterations": 36,
+    "solveTolerance": 2e-09
+  },
+  "original_configuration_and_whole_cut_height_bitwise_unchanged": true,
+  "baseline": {
+    "norm": 3.012687169522575e-09,
+    "minA": 0.5294279749367045,
+    "minD": 0.9991344478453604,
+    "peak": {
+      "stage": 45,
+      "component": 11,
+      "norm": 3.012687169522575e-09,
+      "signedResidual": 3.694822225952521e-12,
+      "state": 330.08195851786417,
+      "flow": 330.08195851786786,
+      "scale": 0.0012264208057612717
+    }
+  },
+  "selection": {
+    "alpha": 0.3333333333333333,
+    "beta": 0,
+    "local_predicted_norm": 1.9930084352226262e-09,
+    "changes": [
+      {
+        "stage": 45,
+        "component": 11,
+        "before": 330.08195851786417,
+        "after": 330.0819585178654
+      }
+    ]
+  },
+  "selected_affected_stages": [
+    {
+      "stage": 43,
+      "norm": 1.8357298125403232e-09,
+      "component": 9,
+      "minA": 0.9832175826040318,
+      "minD": 0.9999660043648797
+    },
+    {
+      "stage": 44,
+      "norm": 1.5923441807750648e-09,
+      "component": 12,
+      "minA": 0.9977834073976919,
+      "minD": 0.9999716189620913
+    },
+    {
+      "stage": 45,
+      "norm": 1.9930084352226262e-09,
+      "component": 11,
+      "minA": 0.9994068138792055,
+      "minD": 0.9999697276449464
+    }
+  ],
+  "local_candidate_count": 28,
+  "prescribed_alpha_candidates": [
+    0.125,
+    0.25,
+    0.3125,
+    0.3333333333333333,
+    0.375,
+    0.5,
+    0.75,
+    1
+  ],
+  "prescribed_backward_beta_candidates": [
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "complete_candidate_replay": {
+    "norm": 1.9930084352226262e-09,
+    "minA": 0.5294279749367045,
+    "minD": 0.9991344478453604
+  },
+  "original_solver_invoked": true,
+  "original_solver_converged": true,
+  "final_residual": 1.9930084352226262e-09,
+  "original_history": [
+    {
+      "iteration": 0,
+      "norm": 1.9930084352226262e-09,
+      "minA": 0.5294279749367045,
+      "minD": 0.9991344478453604
+    }
+  ],
+  "full_original_audit": {
+    "fullD": 0.000281460784485168,
+    "normalizedFullDefect": 0.0008433606917995218,
+    "minLeading": 0.5294279749367045,
+    "minD": 0.9991345075771151,
+    "formalCurvature": 8.395840687333914,
+    "maxPhysicalPV": 0.00033290606594848035,
+    "actualMetric": 3.984326513162273e-08,
+    "holonomy": 3.4163221042930085e-19
+  },
+  "full_jacobian_finite_numeric_entries": 208,
+  "whole_state_bitwise_comparison": {
+    "states": 577,
+    "components": 16,
+    "changed_entries": 1,
+    "changed_stage": 45,
+    "changed_component": 11,
+    "physical_mode": 12,
+    "positive_ulp_distance": 22,
+    "the_prior_stage43_one_ulp_change_is_retained": true
+  },
+  "outputs": {
+    "record": {
+      "path": "/workspace/scratch/7322d0dee069/transfer_work/q060-local-relaxation-tail.json.gz",
+      "sha256": "07af0841372e0d113f962ce7306c4a7f2ee557a9dcab40486403b5e66e28bb5d"
+    },
+    "unabridged_scratch_summary": {
+      "path": "/workspace/scratch/7322d0dee069/transfer_work/q060-local-relaxation-summary.json",
+      "sha256": "4fbff3d097f706110ec07e90fde4525c045e60e2a85ed3747724bff56cb2e8d6"
+    }
+  },
+  "observed_execution": {
+    "session_id": 64960,
+    "exit_code": 0,
+    "completion_chunk": "07ffdf",
+    "seconds": 30.188226715000006
+  },
+  "coupled_prefix_solved": false,
+  "unpaid": "The actual q060 prefix, complete coupled Cartesian seams, fixed-g refinement, exact circle, closed-map metric and geometry remain unpaid. The original finite tail accepts at its existing 2e-9 gate; no continuous error bound follows from this."
+}
