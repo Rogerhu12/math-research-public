@@ -122,3 +122,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [五完整代表片](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)：f115原G/Q8192/4sub/β1/4，0/390/498/817前后五片连续支持下界依次.454098965/.319165474/.405424433/.405415525/.405420696，|N|²全>.02755863；无新λ。97a7固定819片计划完整复用五报告，其后环境中断于249，187c恢复仅补570/session18950，未称全域终态。
 
 [efe92新全Gram-T LM预算](notes/2026-11-17-parallel-numerical-direct-gram-lm-budget.md)真实1878/d054启动，1158250行/964边界全保、复用513方向0与70c。其余512、总24/20、满步/原merit/分支门；新终门全node/mid系数≤1e−10、BC≤1e−11、字面U0和8192 Gram≤5e−7，独立于旧Pr。终态只真实Y/U及全Gram，无旧Pr-CU伪A。[旧Pr恢复事实](notes/2026-11-17-parallel-numerical-t-pr-budget-recovery1.md)保≥432 partial成本，已成方向不重做。
+
+容量续记：R144/R147/R149三证明及q106八字段metadata与现主本逐字同一，毛44147B移出，四manifest仅当前路径与恢复映射变；真实源/数组/状态/历史command不动，完整恢复0606307726b5e0d8bc65747f9245827c240ebafd，详retention。

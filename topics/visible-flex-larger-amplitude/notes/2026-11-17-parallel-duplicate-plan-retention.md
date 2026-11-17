@@ -121,3 +121,14 @@ Exact restoration for either row: `git show 518a8e03ac113a8b200c5e67f3cb64354b2d
 - 旧 `notes/2026-11-13-root-R161-R116_reference.md`（11398 B）→主本 `results/R116-actual-low46-centre-jacobian-and-quadratic-remainder.md`；SHA256 `c49b631b4b3f33deff5f5683f61ecba73a3103e7f92f4d0641ecaf36a752873f`，Git blob `2ae998314b6215fd0c191b40038dcf8af4686afe`。仅 `notes/2026-11-13-root-R161-manifest.json` 的该项当前path改为主本，并加historical_path/restore_commit。
 
 三个manifest的原SHA/bytes、科学状态/失败、logical_execution_name及原total_bytes均原样保存；冻结科学记录仍指原执行，路径调整不生成新父。完整旧文件与原manifest可由上述固定提交按原路径 `git show` 恢复。旧manifest被其它历史证据引用的原SHA亦不重写。
+
+## 2026-11-17：三份证明及一份同字节元数据参考
+
+在完整已刊头 `0606307726b5e0d8bc65747f9245827c240ebafd` 比较以下四份原文件与现主本，逐字相同；毛移出 44147 B。全题准确文件名检索只命中四对应manifest和q106的历史heartbeat/resource/ownership；三证明命名族及q106元数据族的源码搜索无固定输入消费者。三个完整证明主本不改，第四主本虽文件名为seven，其字节与原eight记录准确相同；不凭文件名更改原八字段任务的含义。
+
+- 旧 `notes/2026-11-13-exact-resume-outer9-first-Cauchy-proof.md`（8258 B）→主本 `results/R144-original-cell9-first-full-Cauchy-segment.md`；SHA256 `73ec019ec0186f48053b9b6d8d864b762f67b6d4cdf9240a3552e13c1b626a33`、Git blob `53afbff78ac5201da57ea365fc53d4a1257e775e`。仅 `notes/2026-11-13-exact-resume-outer9-first-Cauchy-stable-manifest.json` 的当前 `path` 指向主本，并新增历史路径及恢复头。
+- 旧 `notes/2026-11-13-exact-resume-outer9-signed-low46-proof.md`（8258 B）→主本 `results/R149-original-cell9-signed-low46-propagation.md`；SHA256 `137f159c6a40a40ddf5d156c14a7c26f43c04a81b49f1aa790d8ad8f8eb7737c`、Git blob `18104aa4dcfce762560928ee39a74be6d87bcf70`。仅 `notes/2026-11-13-exact-resume-outer9-signed-low46-stable-manifest.json` 的当前 `path` 指向主本，并新增历史路径及恢复头。
+- 旧 `notes/2026-11-13-exact-resume-outer9to0-complete-frame-proof.md`（6915 B）→主本 `results/R147-original-nine-to-zero-complete-frame-budget.md`；SHA256 `ce97942cc1910f89f10a1ba11c01c2c0bb4d70ba7771f558731c1832ded90276`、Git blob `d8b68d0e62b0dfa30a25a174bf63c7b14f078483`。仅 `notes/2026-11-13-exact-resume-outer9to0-complete-frame-stable-manifest.json` 的当前 `path` 指向主本，并新增历史路径及恢复头。
+- 旧 `notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1.json`（20716 B）→主本 `notes/2026-11-13-strong-q106-frontload-seven-metadata-r1.json`；SHA256 `38f780a8041506ee10340a82233e6bcb1083674acf183b0dab740b8ef6c0cec8`、Git blob `c0d984307724f23912f1ea385424ec9dabd95a8d`。仅 `notes/2026-11-13-strong-q122-eight-control-preparation-manifest.json` 的当前 `file` 指向主本，并新增历史路径及恢复头。
+
+q106的heartbeat/resource/ownership完整读过，里面command/out-prefix/task-prefix是原2026-11-13元数据任务的历史执行记录，全部不改；原samechart-adapter/日志/八字段列表/exit0/三秒资源以及未计算数值响应的状态均保留。没有更改或删除当前源、warm或真实数组。四manifest原SHA/bytes/source_path/total_bytes和全部科学状态保持。原路径文件及原manifest可从上述固定头git show逐字恢复；历史SHA不替换为新的元数据身份。
