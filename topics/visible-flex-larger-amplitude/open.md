@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [真实增模短IVP](notes/2026-11-17-parallel-geometry-short-ivp-m160-m224.md)固定原.995值/core rho/新scalar，M160/M224的.997末Gram2.132e−6/1.132e−6；默认首大步在未接受stage域失败，显式64步及128半步均成功。初始F相同而Fs/Fss真实改变，未与原prefix C²接合，非完整BVP父。[M320局部候选](notes/2026-11-17-parallel-geometry-short-ivp-m320-local-candidate.md)962维真到.997、末Gram5.096e−7，128/256步核对；Fs差5.16e−5/Fss差.02027，接合、全短段及N精化未付。
 
-**旧有限尾与弱场。** 原fixed best4/finite far32的22键配方、材料/物理角、完整weighted Jac、Dirichlet及双trace控制的全部参数/失败/源与SHA保在上链cd553全文及所链notes。最大已解材料λ.0014的实际Gram1.420e−7却κ8.473；物理M32 λ1e−4实际Gram2.045397e−6而κ5.997643，未过metric门。φ与材料均值不可混，裁模/改端点不得继承。[M64完整QR终态](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001跑5813秒，9780节点RMS.01608，再加8755超14000，status1失败；BC9.26e−17不补ODE，无后继同预算run。真实平cuff接R1.767318/H1.13918566在A=.003016时Gram2.057397e−6；弱P0 A=.15仍1.627e−5，旧组合不重算。
+**旧有限尾与弱场。** 原fixed best4/finite far32的22键配方、材料/物理角、完整weighted Jac、Dirichlet及双trace控制的全部参数/失败/源与SHA保在上链cd553全文及所链notes。最大已解材料λ.0014的实际Gram1.420e−7却κ8.473；物理M32 λ1e−4实际Gram2.045397e−6而κ5.997643，未过metric门。φ/材料均值及改端点责任见原记录。[M64完整QR终态](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001在9780节点/RMS.01608超14000失败；BC不补ODE，无后继run。真实平cuff接R1.767318/H1.13918566在A=.003016时Gram2.057397e−6；弱P0 A=.15仍1.627e−5，旧组合不重算。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)完整PDE/RHS反号及Hermite坐标一致性已核，尚无真实内向cut或新BVP。
 
 [直接高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)同1557参数N512/G8由50panels到5106胞元，κ6.79453→7.62716005/Gram1.329932e−6/圈偏9.643e−7。最小legacy replay已逐字再生1557double。§6后续25mean-LP/67panels/400步仍Gram6.097e−6未接受；历史checkpoint与未执行的自动停止配方明确。弱场不重跑，读者留作新候选所需核对。
 
