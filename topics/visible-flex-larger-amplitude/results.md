@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R640（实际开放前缀嵌入已证明）**：[全818胞的圆柱图严格证书](results/R640-certified-cylindrical-embedding-of-the-pulse-prefix.md)：同26e53e8有限两jet场，Bernstein闭子胞与区间角余项给Q>.1872、A>.1770、C>.0510；准确core degree1沿全域保持，应用既有R9得未规范化C²嵌入。随s缩放的G、reach和闭族仍单独支付。
+
 - **R639（纯右接口已证明，零目标为有限负诊断）**：[规范化Gram纯右边界与真父可达空间](results/R639-pure-right-normalized-Gram-boundary-and-finite-zero-target-test.md)：源角下er/fr不含左rho，可保338/229分离结构；真β.75的1024×338 Jac与109可达空间实算，零目标需δ∞.0223，四个有限试步不足以支持新BVP。最小步maxGram略降但L2升，不冒不可解证明。
 
 - **R638（全域正性已证明，明确IEEE模型）**：[两条前缀的正弧长坐标与C²映射](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)：整数Taylor/Machin及区间radix-two、Bernstein径向覆盖，β.75全509胞q_N>.1152、pulse全818胞>.0986，ρ全角亦正；结清固定规范化的C²坐标条件；§6另真封闭hold至1.02全部2098胞q_N>.0986。不升级采样Gram/嵌入/reach或闭族。

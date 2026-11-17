@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-完整旧结论/失败/参数/源/SHA逐字保[8c03fc7c固定open](https://github.com/Rogerhu12/math-research-public/blob/8c03fc7c7b401fec3795faa91d5f4e793a582faa/topics/visible-flex-larger-amplitude/open.md)，内链保1a8e、664193、df896及更早全文。仅压本§7，原§1–6保持；本地计算，原Actions责任不变。R623–639正式结论见[results](results.md)。
+完整旧结论/失败/参数/源/SHA逐字保[8c03fc7c固定open](https://github.com/Rogerhu12/math-research-public/blob/8c03fc7c7b401fec3795faa91d5f4e793a582faa/topics/visible-flex-larger-amplitude/open.md)，内链保1a8e、664193、df896及更早全文。仅压本§7，原§1–6保持；本地计算，原Actions责任不变。R623–640正式结论见[results](results.md)。
 
 **当前完整开放前缀。** 原g真到.995。[β.75固定弧长规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)保持构造q_N2048，两档独立audit全509胞Gram6.393033e−7；[pulse完整0→1](notes/2026-11-17-parallel-numerical-pulse-arclength-prefix.md)原498胞M112二jetzero-lift并与新320胞逐位接合，q_N4096，两档audit真Gram1.974411e−7/κ6.98222。实际角余项保留；仅像点缩放差极小，不冒共同材料位移。
 
@@ -117,6 +117,6 @@ normal-only645/317真响应需大变化并使H负，已排该步；新[fast317�
 
 **尾与几何预算。** R633排旧best4强外向λ1，R635两个曲率/正投影排除包括换g，全部限制不放宽。R634/R636严格结清原内向参考R/L及全角chord余>.06001464，非真实尾。右浅口完整适配与[未来a′−.8有限DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)已付，m2单位P内|h_r|198.79；真实cut/rho角谱/无限DN/非线性尾未付。R240共材料换角、R632凸盖组件、R625/627/629标记/E3及旧点云均不替真实闭源。
 
-正在对完整pulse base按已有R9圆柱图判据核实际A/C/r²与degree1，不重发旧定理；raw与规范化缩放G的嵌入责任分开。全部README完成条件仍未达到：实际全幅尾和Cartesian接缝、连通闭面、固定有内点H、完整D、整像held、含反射商距离、连续reach、全t强C²连续以及同g/参数/t真正精化到机器或原solver容差。子题/批次/时长/报告均非停点。
+[R640](results/R640-certified-cylindrical-embedding-of-the-pulse-prefix.md)已严格付完整pulse base全818胞Q>.1872/A>.1770/C>.0510与准确degree1，按既有R9得到未规范化开放前缀C²嵌入；仅规范化缩放G的连续λ/λ′嵌入预算尚在做。全部README完成条件仍未达到：实际全幅尾和Cartesian接缝、连通闭面、固定有内点H、完整D、整像held、含反射商距离、连续reach、全t强C²连续以及同g/参数/t真正精化到机器或原solver容差。子题/批次/时长/报告均非停点。
 
 [重复历史数据保留](notes/2026-11-17-parallel-duplicate-plan-retention.md)只普通退役逐字重复plan/bridge副本，所有相同字节仍有主本且原manifest改指；固定恢复37ddb/ee604/8c03。旧request212索引另有[准确恢复](notes/2026-11-17-parallel-historical-index-retention.md)。
