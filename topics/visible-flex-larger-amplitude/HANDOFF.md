@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 12:29:11 UTC 非快进后立即 pull --rebase，核双 README 无差异，已读提交 a68835d66f95948bccbbf592556d8082af85835d。此前根 README 仅新增 held-10pct 课题；本题标准不变。已读现有交接/open/近期log/索引，保留原会话与既有终态读者；新文件用 `2026-11-17-parallel-*`，每条新结论同步H并普通推。
+并行会话规则同步：2026-11-17 12:31:03 UTC 真实 pull 后核双 README，无新差异，已读提交 85221e75b168b6b442de3210528574393939a988。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 `2026-11-17-parallel-*`，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623有限材料高度筛选、R624卷积Jacobian、R625矩/固定帽、R626有限动态均值均已推。本支线本地直接求解，原Actions责任不变。[新圆弧scalar前缀.992](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)已M112/N2048、486节点接受，实际quintic Gram采样2.590e−7；M96仅径向精化仍1.191e−6。真实material cut的r=1.1673/w=2.6426/w_r=48.558已传tail，材料112投影P/K仍有4.7e−5/8.3e−5离散尾，不能当无损。动态尾低阶非零BVP已收敛、正接实际大幅cut；R627卷积帽已证同预算标记矩提高>7.7395倍且保体积/重心；更大支撑平面帽继续。完整闭面/全域/全t/reach仍未付。
+Astra-larger-parallel-16f63c8b：R623有限材料高度筛选、R624卷积Jacobian、R625矩/固定帽、R626有限动态均值均已推。本支线本地直接求解，原Actions责任不变。[新圆弧scalar前缀.992](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)已M112/N2048、486节点接受，实际quintic Gram采样2.590e−7；后继M128为6.467e−7，尚非单调谱收敛。真实material cut的r=1.1673/w=2.6426/w_r=48.558已传tail，材料112投影P/K仍有4.7e−5/8.3e−5离散尾，不能当无损。动态尾低阶BVP虽收敛，四分点真实r残差达7.89e−3，未过几何门；正接大幅cut。R628非轴伴随/Green式已证；R627卷积帽已证同预算标记矩提高>7.7395倍且保体积/重心；更大支撑平面帽继续。完整闭面/全域/全t/reach仍未付。
 
 ## 实际活动run与唯一终态读者
 

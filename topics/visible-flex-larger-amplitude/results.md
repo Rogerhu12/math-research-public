@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R628（已证明，非轴尾接合误差）**：[完整共法向、真实伴随与Green响应](results/R628-nonaxis-conormal-adjoint-and-tail-green-response.md)：一般Darboux候选的ν⁻³散度式保留真实缺陷，Π=zW(k−αp)及伴随边界修正显式；深Robin/体源经实际边值响应传到浅DN，保非线性二阶余项，未计算新误差常数。
+
 - **R627（已证明，固定帽优化）**：[有符号卷积帽与精确矩](results/R627-signed-convolution-caps-and-moment-optimization.md)：同h=.0003/reach/直径预算下，显式C²帽将R625弱帽B₂提高>7.7395倍，体积与重心准确保持。固定Lipschitz松弛问题有全局最优式；C²族一维搜索只作数值证据，实际闭源/A₂仍未付。
 
 - **R626（已证明，有限尾求解的等价变量）**：[字面均值的动态零模 BVP](results/R626-finite-mean-dynamic-zero-mode-tail-bvp.md)：有限求积准确链式导数给显式零模ODE，免逐stage求根；χ=0消除均值误差的w²放大，与同一隐式根模型双向等价。2M+1边界计数、真实连续残差及完整角η双高频界均保留，未声称新非零闭面。
