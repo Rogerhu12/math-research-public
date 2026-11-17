@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`0524c510bcfc00f26703c0b1ea57ef4d9c6f6249`。2026-11-18 06:37:21（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`64d794ce930e7cf777e9335fe3da20884d4faca8`。2026-11-18 06:38:26（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -22,7 +22,7 @@ R30周期复用/同μ缓存不改方程与2e−9原门。n4 actualM20/576stage/9
 
 旧wCut=.16非raw幅值线：q.01/.0125有限metric通过，q.015/M20径向加密仍1.20586e−5平台；同g/M24句柄失效无终态，见n4-w016-q015-radial-plateau、n4-q015-m24-observation-gap，暂先付raw/actual。
 
-新w16/q0125：canonical lambda.001触maxnodes/RMS.037951，无正lambda锚点。raw mean/c8低2×2投影/固定J16路径lambda.02/.05有限接受，metric2.41705e−6/6.95343e−6均未过，.1主动中止无终态。冻结.02整g、eta=.1、释放c8后M20到2282点/tol1e−8，完整metric升3.43423e−6、tensor.0160166，不是收敛；见n4-raw-lambda002-fixed-m20。嵌套/完整核/解析Jac及free控制全lambda独立性见n4-raw-free-c8-fixed-g，不推BVP可逆。M20峰s=.066873/K<0、主频84，54.27%在80外，早于lift衰减；见n4-raw-defect-localization。原M20全配点Jac条件1范数估计4.278e12，单参数H²变元后4.383e12无改善；有限残差2.48e−11/Newton修正7.03e−11，见n4-raw-parameter-and-collocation-scales，不复跑该预处理。现同g/J16 M24已到4460点，仍待终态。
+新w16/q0125 raw：固定J16/mean/free c8路径λ.02/.05有限metric2.41705e−6/6.95343e−6均失败；canonical及旧低幅失败均已登记。冻λ.02整g(δ=.030158202455449618/vd=.25018727173023186/eta.1)释放c8后M20/2282点metric升3.43423e−6、tensor.0160166。峰s=.066873/K<0/频84，54.27%在80外；全配点cond1估计4.278e12，参数H²变元4.383e12无改善。M24真终态：4460点/欲再加4906超6000，RMS.0032079/BC4.334e−6，39域拒绝/26merit/5接受/2no_step；无accepted M24/未算完整metric，失败CP仅初值。见n4-raw-lambda002-fixed-m24-terminal及此前free-c8、localization、parameter-and-collocation-scales；不重复白化或盲升M28。新主b=.16原源重试正在进行。
 
 R19/19A及eta.1/q.049条件held比>.103812仍未兑现；实际lambda1/全闭几何待付。旧低幅lambda.1/.15虽有限接受但metric失败，.2/.175节点门失败，见n4-low-amplitude-circle-terminal；非丢入口lift或不存在。eta1/q001/M12真正锚点见n4-first-true-coupled-state。
 
