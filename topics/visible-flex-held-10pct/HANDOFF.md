@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`3354a40c6a2473667b8e0754913fff0c93c7fc7b`。2026-11-18 04:21:35（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`ef6d5c3fe4eb3a2712fff34a4b8051262d46ec88`。2026-11-18 04:23:10（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -20,9 +20,9 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **低eta核心**：eta.1/q.049零控制rho>.234093、条件held/D>.103812；mode8激发约eta1/q.02四分之一，既有六根增益10.20–14.17仅线性。见n4-large-radius-eta-selection。新q.0175/M24初始化因旧系数区间过宽被拒；同一精确Gram的Taylor100→180使逆误差10326.78→1.90e−40，原门rho下界.736211（采样值不变）。未换核心/放门，BVP继续；M20重复试跑已取消。见n4-m24-coefficient-certificate。
 
-**已实际联立**：n4 eta1/q001/M12 λ0，993节点。实际outer校正后物理BC3.8058e−14；最终tail res4.1448e−10/minA.99073/metric1.11e−14；mean两jet差1.30e−13/−3.04e−12，非mean二阶1.70e−11。prefix metric1.1175e−7；仍低幅/未圆化/无闭图。见n4-first-true-coupled-state，源resume_n4_tail/couple_actual_tail.py。此前q005/eta*/M8的首实际尾响应仅单独接口，不冒充联合。
+**n4实际联立**：eta1/q001/M12 λ0已有993点首态（见n4-first-true-coupled-state）。新eta.1/q.01/M16已完整724点联合：δ=.030027177128250468、vd=.2483630655929876，物理BC3.48021e−11；5次tail最终res1.60671e−9/minA.942545/metric5.78293e−12/fullD1.49888e−7。prefix metric2.38461e−8/tensor1.62251e−5；mean两jet差−1.17e−12/2.85e−11，非mean二阶4.77e−8。见n4-eta010-true-coupled-state；新实际g已冻结M20精化，非此前线性g。
 
-**原w.08低eta增幅**：eta.1/λ0的q.01/M16（724点）、q.0125/M16（761点）、q.015/M20（784点）均过原BVP门；最后metric9.23853e−7/tensor3.64609e−4/K6.99816/rootmin.00229460，δ=.030034006394522736、vd=.24844551252649882。仍线性port、非同g；q.02大跳取消非失败。见n4-eta010-amplitude。q.01真实尾原轮工程中断原因未明；周期复用N512/独立128重启已过actual outer（tail1.60671e−9），等最终audit。所有D/S/A及2e−9门不变。
+**原w.08低eta增幅**：eta.1/λ0 q.01/M16、q.0125/M16、q.015/M20均接受；最后784点metric9.23853e−7/tensor3.64609e−4/K6.99816/rootmin.00229460，δ=.030034006394522736/vd=.24844551252649882。仍线性port、非同g；q.02大跳取消非失败。q.01实际联立见上；原非周期轮无终态工程中断、周期重启完整求解均保留。所有D/S/A及2e−9门不变。
 
 **新wCut=.16物理设计**：原worker重生24模port，新双根δ=.030143626106924344/vd=.25002929220531817；round最小1−a′²=.01602343约旧3.93倍，背景K≈5.5613，名义球D采样2.5793。R1.882初保护窗保守下界>.15213；mode8增益11.0156未改善。peak.01直接root域失败保留。根正用新g冷解eta.1/q.01/M16；见n4-thicker-cut-double-root。
 

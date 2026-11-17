@@ -138,6 +138,7 @@ def main():
                   'vd': rec['profile']['vd'] + float(sol.p[1])}
         out = {**rec, 'scope': __doc__, 'profile': rec['profile'],
                'physical_profile': frozen, 'frozen_profile': frozen,
+               'core_summary': obj._core.summary(),
                'tail_config': cfg, 'parameters': sol.p.tolist(),
                'solver_success': bool(sol.success), 'message': sol.message,
                'nodes': len(sol.x), 'mesh': physical.x.tolist(),
