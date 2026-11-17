@@ -132,3 +132,25 @@ Exact restoration for either row: `git show 518a8e03ac113a8b200c5e67f3cb64354b2d
 - 旧 `notes/2026-11-13-strong-q106-frontload-eight-control-metadata-r1.json`（20716 B）→主本 `notes/2026-11-13-strong-q106-frontload-seven-metadata-r1.json`；SHA256 `38f780a8041506ee10340a82233e6bcb1083674acf183b0dab740b8ef6c0cec8`、Git blob `c0d984307724f23912f1ea385424ec9dabd95a8d`。仅 `notes/2026-11-13-strong-q122-eight-control-preparation-manifest.json` 的当前 `file` 指向主本，并新增历史路径及恢复头。
 
 q106的heartbeat/resource/ownership完整读过，里面command/out-prefix/task-prefix是原2026-11-13元数据任务的历史执行记录，全部不改；原samechart-adapter/日志/八字段列表/exit0/三秒资源以及未计算数值响应的状态均保留。没有更改或删除当前源、warm或真实数组。四manifest原SHA/bytes/source_path/total_bytes和全部科学状态保持。原路径文件及原manifest可从上述固定头git show逐字恢复；历史SHA不替换为新的元数据身份。
+
+## 2026-11-17：十一份历史依赖源码的同字节主本
+
+完整归档说明、21943B manifest及两份原input/transitive freeze已逐项读取。归档本来要求按original_path的basename恢复到原geometry-work生产目录再运行；本条保持这个语义。全题对完整旧依赖前缀的检索仅命中该manifest，源码对前缀及notes/dependency glob的搜索无直接读取；本条不把其它目录的通用reader视为已审。33份依赖与computations字节相同，本次仅合并其中以下11份，共188321B；两份不同历史版本与其余参考保留。
+
+下表每个basename的旧完整路径为 `notes/2026-11-13-root-fine-core-tail-proxy-dependency-` 加basename，当前主本为 `computations/` 加basename；完整原文件及原manifest恢复头 `e22877bbb2e3e9897b3b802129b79d74e26425c3`。
+
+| basename | bytes | SHA256 | Git blob |
+|---|---:|---|---|
+| root_actual_geometry_field_complete_mean.py | 12555 | 614a671b86dc1bacccf52d62311c51a7473c83072f9ce39e81ae3e421541dd86 | 1d87c27b76577aed98bbab90a46aeae6827141bb |
+| root_geometry_minimax_from_plan.py | 10886 | 4fdd46bf198e573bd83a86195143caa86d7105d3847d4e12431d844c2111e213 | 408b3606e60482e0364de542d7139672310a894d |
+| root_geometry_minimax_initial_laws_controls.py | 12501 | ccdcc95d3e7dd2a1447714578e6976179f1b5c32d3495e13a074399872c31e57 | c5c6e76e17d652b9a4c5bda7780c31118cae4a27 |
+| root_geometry_streaming_lp_resident.py | 11940 | 2a8985171a7a98539e2f5339810999b4747dc4eab9650c2a1d171b8c27c3ce39 | 6a8388618104827f028ccc9d1199b8a8ee3cf1fd |
+| root_saved_geometry_minimax.py | 18619 | 07cee1165b871ddac6252b02b870df259fb34addf65b441fcf05e27d6895741b | 1ac6bb4fc01bf7f96b783b7f141b49384672543f |
+| strong_actual_augmented_core.py | 14980 | 74c64ab558953c6d0378948dd4affb5d354d1faaecab7922b83cfdf76041bad7 | 1369a0b8c26dcf28cecc3bcaa68bf6c20d1f41b9 |
+| strong_actual_fixed_control_response.py | 24387 | a2552b5b67e7555b3d402f10127a89fcf99eea566d7768a4050535c8105c2de1 | a425db196904c05bc9df64ec69c2121c02ab148a |
+| strong_actual_recorded_tail_port.py | 14744 | 7fc687bd4608f5656140dc19abebccfb66074684c46651513efe68818ec311f0 | 75b78c6bac685ea22126d48af20c6aacf813d449 |
+| strong_actual_three_control_bvp.py | 40199 | a84c8587c8ed605fdc0627c1183d79ff0afaa26d21f2b78e00c7091fa5ba6da4 | c43d9df0c918423d481a081de01e20dc7a1e845e |
+| strong_neck_bvp.py | 13591 | 2e04d3afa4fda1bb9f04d730ae3f579bdaad80755824f1aadd96583298de1435 | 6899e5fe640593d8586ef549102de5aaf8ce188f |
+| strong_tangent_warm_bvp.py | 13919 | c8351f01eb05265adada6392b1d0a7d63834f3d6388903e6a4bd67923d3f4b86 | d61837d24d64b6b57c2c1293ef6833d66dba2e52 |
+
+只更新proxy-manifest的这11个当前path并增加完整旧路径/恢复头；原sha256/bytes/绝对original_path、六负设计的参数/失败及所有source-freeze内容保持。computations主本未改，原科学输入与warm/status/数组不删。复现时按原归档说明把所列同字节主本复制为原生产目录的原basename，再执行原resource命令；不能因为当前主本位置变化而擅改cwd或解除原source identity门。发布遇rebase后再次核11个主本SHA，防止并行更新误把不同版本当同本。

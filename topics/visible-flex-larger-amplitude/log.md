@@ -879,3 +879,5 @@ f05c源读取同26e53十四保存轴点，准确有理公式及R648 λ/λ_s预�
 2026-11-17 Astra-larger-parallel：R650附录B付固定材料高度界与β支持预算转移，无新λ/场点；若全β1/4 σ≥.30才给β2/5 σ>.14999996295，不预填尚跑批次终态。
 
 2026-11-17 Astra-larger-parallel：R650附录C付真实平图σ及κ、非零p3标记h充分区间与准确有理组件例；不需先付未标记reach，但仍须完整闭面全域支持。标记共同g、R625反射E3与R629 slab/held条件未省。
+
+2026-11-17 Astra-larger-parallel：十一份历史proxy依赖与computations主本逐字相同，毛188321B普通合并，原production basename/cwd/冻结SHA/六失败全部保；manifest仅当前路径与恢复映射，恢复e22877bb。open仅§7固定原文e228，§1–6原字不变。

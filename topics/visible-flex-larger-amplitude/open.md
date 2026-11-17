@@ -101,34 +101,18 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-全部原结论/失败/源/预算/未付逐字保[7245d3ee固定open](https://github.com/Rogerhu12/math-research-public/blob/7245d3ee545ee2484d562d4d46bdf61d6831f412/topics/visible-flex-larger-amplitude/open.md)，继续ecdacd/ddf/c87及旧链。仅压§7，§1–6逐字保持；本地计算，原Actions责任不变。[完整结果索引](results.md)。
+全部原结论/参数/失败/来源/运行账/未付逐字保[e22877bb固定open](https://github.com/Rogerhu12/math-research-public/blob/e22877bbb2e3e9897b3b802129b79d74e26425c3/topics/visible-flex-larger-amplitude/open.md)，内续7245/ecdacd/ddf/c87及所有旧链。仅压§7，§1–6原字保持；本地计算，原Actions责任不变。[完整结果索引](results.md)。
 
-**已付前缀。** R638/640/642同26e53全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819精确片连续relative Gram<4.94e−7，含最后1−5/2^60后微片，710复用+109新/0失败。全曲率原818预算经e024续接已686胞；固定β1/4支持249/819，均因执行环境中断而仅补未完，未称全域终态。model唯一读者，不重算已付λ/G/代表片。aa1 hold全raw/G及镜像嵌入见R644；R646仅四胞六片Gram≤2.128703e−7；R645实际核心点到全hold镜像同像dist>.9588。均开放带，非闭面/完整held。
+**固定开放前缀。** 同26e53/q4096的R638/640/642付全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819精确片连续relative Gram<4.94e−7，含1−5/2^60后微片。曲率80092仅补原686后的132G/131λ，λ685复用；支持18950仅补原249后的570片，原5代表不重复，0新λ。两批固定网格/真实G/来源不变，[最小恢复源和CLI](notes/2026-11-17-parallel-model-second-interruption-recovery.md)，model唯一终态；尚未冒全域终态。aa1 hold R644全raw/G/镜像嵌入，R646只四胞六片Gram，R645同像见证dist>.9588。均非闭面/完整held。
 
-**明确失败不重做。** 全部.997/β/normal-only/fast317/onlyZ109、桥高尾/pulse六设计/meanLP400/M64、1.04Cauchy及1.03显式BVP原额失败保固定全文。5b965原8fresh的3a7f分支负、quintic Gram5.28554；927f/8fa6 20/20末Pr未收敛、bf5a共同quintic Gram8.01546e−5且node594为3.62218e−5。镜像首胞修改不改善同坏节点，保Y/U换A不再试。
+**已登记失败保留。** .997/β/normal-only/fast317/onlyZ109、桥高尾/pulse六设计/meanLP400/M64、1.04Cauchy及1.03显式BVP等原参数/预算/失败全部保固定全文。5b965的3a7f分支负、C² Gram5.28554；927f/8fa6原24/20终态Pr未收敛，bf5a真quintic Gram8.01546e−5且node594为3.62218e−5。保Y/U换A或仅镜像首胞不改该坏节点，不重试这些版本。
 
-**R647与当前求解。** [R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)包含原Pr完整消元/真实metric输运、全二次谱、全局rho导数、可逆C/U/全部D、准确T列矩/联合边界、最小jerk共同A及核心反例。全直接Gram模型保1158250行/580328未知，原482位置BC加482 U0=ez；核心962行虽在准确affine空间恒零仍全部保留。C列完整rho cross、mask后482阶SPD投影已证。
+**当前完整Gram与Pr。** [R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)含全Pr谱/输运/准确CU、directGram共享rho全导数、可逆T及全部D、准确交叉列矩、964联合边界投影、最小jerk共同A等纸证。[85c准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)完整1203点矩和算子检查/70c尺度已付；原Y不变，U0仅158负零转正零。[513唯一方向](notes/2026-11-17-parallel-root-direct-gram-integrated-direction.md)µ1/256/istop7，SSE6.191013184e−10、8192分支正，但node600 Gram4.9803869e−6/核心Z微非零，非父。
 
-[85c实际准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)完整1203点矩/9列/全Jv/投影伴随已返，70c固定尺度；初始Gram SSE1.495162451e−9。原Y不动，U0仅158负零变正零，无几何改动。[513实际Gram-T满步](notes/2026-11-17-parallel-root-direct-gram-integrated-direction.md)µ1/256/istop7，SSE6.191013184e−10、ratio.999999965；8192全样点分支正但node600 Gram4.9803869e−6，任何保Y/U换A不修，核心Z仍160微非零。新efe92预算session1878独立启动，复用513方向0，不重算70c/physical；原Pr恢复97062继续，门不混。原[0f T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)原24方向/20接受保持，复用2754/7aff后已8接受；未完方向8已有≥432对乘积，环境中断按原--resume记partial续接。numerical唯一完整读者。各初值/缓存/参数/失败/BC/源的完整字节身份见对应note，非达标父。
+[efe92全Gram-T预算](notes/2026-11-17-parallel-numerical-direct-gram-lm-budget.md)真实1878，复用513/70c，1158250行/964BC全保；后续512，总24/20，终门全系数1e−10/BC1e−11/字面U0及8192 Gram5e−7。只保存Y/U+全Gram，不用旧Pr-CU伪A。[0f原T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)同g/原580328行/原BC/原门，99082中断后同--resume为97062，保8完整方向及≥432未完乘积成本，不刷新24/20。两个目标不能混称下降/收敛，numerical唯一终态。
 
-**reach工具。** [R10消费/R632障碍](notes/2026-11-17-parallel-geometry-positive-support-scope.md)及[R649](results/R649-ordinary-support-obstruction-for-the-actual-pulse-and-hold.md)排实际pulse/hold与镜像的任意普通中心支持；没有排reach本身。[R650](results/R650-positive-definite-flow-support-reach.md)固定SPD A支持≥σ、|κ|≤K给闭C²参数球面自动嵌入/reach≥min(σ/λmax,1/K)，流横截面/一层覆盖/偏移严格排序/最近点与端点全部证明。Aβ与相位/镜像相容，当前尚无符合其全部假设的实际闭图。
+**加权支持与reach。** R649实际14点排同pulse/hold镜像任意普通中心支持，不否定reach。[同14点β1/4](notes/2026-11-17-parallel-model-pulse-weighted-axis-support.md)全>.3193，0新点/λ；[五连续代表片](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)同f115/Q8192/4sub，最低>.319，包含817前后；全819支持终态另付。[R650](results/R650-positive-definite-flow-support-reach.md)固定SPD A支持σ/曲率K给完整闭C²参数球面自动嵌入及reach≥min(σ/λmax,1/K)。附录A真实内向尾法向接口；B由R648得|Gz|<1.000000247及β转移；C固定非零p3标记的σ/κ充分区间。均不虚构当前闭尾/帽或含反射E3。
 
-**完整未付。** R633/635只排指定设计，R634/636仅参考；R240材料、R632盖、R625/627/629 marker/E3不替真实闭源。真实全幅尾/Cartesian接缝、闭连通曲面、固定有内点H/完整D、整像held、反射商距离、全t reach/强C²，以及固定g/参数/t真实求解精化至机器或原容差仍未达。子题/预算/时长不是停点。[逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)/[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保主本及完整历史。
+**完整未付。** R633/635只排指定设计，R634/636仅参考；R240材料、R632盖、R625/627/629 marker/E3不替真实闭源。全幅尾/Cartesian准确接缝、闭连通曲面、固定有内点H/完整D、整像held、反射商距离、全t reach/强C²，以及固定g/参数/t真实精化至机器或原容差仍未达。子题/预算/时长不是停点。
 
-[同14轴点加权支持](notes/2026-11-17-parallel-model-pulse-weighted-axis-support.md)：固定β1/4，用828a有理表与原λ预算，0新场点/0新λ，全部>.3193，最小.319378313654在s=.95/π2。准确归一化展开及真实|Gs|分母已付；仅14点，不冒全域/闭reach。
-
-容量维护：三份R116/R142逐字参考副本41343B移至既存主本，三manifest仅当前path映射加原路径/恢复头；原科学与冻结元数据保持，完整恢复e43772f60f9855a5a24067d072f781b9bf9cd4be，见duplicate-retention。
-
-[五完整代表片](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)：f115原G/Q8192/4sub/β1/4，0/390/498/817前后五片连续支持下界依次.454098965/.319165474/.405424433/.405415525/.405420696，|N|²全>.02755863；无新λ。97a7固定819片计划完整复用五报告，其后环境中断于249，187c恢复仅补570/session18950，未称全域终态。
-
-[efe92新全Gram-T LM预算](notes/2026-11-17-parallel-numerical-direct-gram-lm-budget.md)真实1878/d054启动，1158250行/964边界全保、复用513方向0与70c。其余512、总24/20、满步/原merit/分支门；新终门全node/mid系数≤1e−10、BC≤1e−11、字面U0和8192 Gram≤5e−7，独立于旧Pr。终态只真实Y/U及全Gram，无旧Pr-CU伪A。[旧Pr恢复事实](notes/2026-11-17-parallel-numerical-t-pr-budget-recovery1.md)保≥432 partial成本，已成方向不重做。
-
-容量续记：R144/R147/R149三证明及q106八字段metadata与现主本逐字同一，毛44147B移出，四manifest仅当前路径与恢复映射变；真实源/数组/状态/历史command不动，完整恢复0606307726b5e0d8bc65747f9245827c240ebafd，详retention。
-
-[两几何批最小续接](notes/2026-11-17-parallel-model-second-interruption-recovery.md)：20c03只覆盖已成账后用原e024执行，686曲率/λ685复用，仅131λ+132G；187c支持复用249，只570新几何/0λ，原819精确覆盖与Q/径向分片不变。真实80092/18950；环境中断不是科学失败，完整终态另读。
-
-R650附录A：真实尾nz≥0、高度≥Z*、水平支持≥h*|nh|时σβ≥min(h*,βZ*)；内禀a′≤0不足，当前未付闭尾不被此条件定理替代。
-
-R650附录B由R648固定材料径向g_ss=1给|Gz|<1.000000247，从已付σβ0无新扫描转移σβ≥σβ0−|β−β0|B；.30→β2/5的>.14999996295仍是待全域输入的条件预算。
-
-R650附录C消费R629：给固定p3标记正h范围，使实际σβ>τ且曲率≤1/τ；示例h=.001仅条件H≥1，标记度量/E3/held原假设与全闭图责任保留。
+[逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败。本次11份历史依赖188321B归同字节computations主本，只改manifest当前路径；仍须按原basename恢复到原生产目录再执行，完整恢复e22877bbb2e3e9897b3b802129b79d74e26425c3。
