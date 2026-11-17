@@ -101,11 +101,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-完整旧结论/失败/参数/源/SHA逐字保[8c03fc7c固定open](https://github.com/Rogerhu12/math-research-public/blob/8c03fc7c7b401fec3795faa91d5f4e793a582faa/topics/visible-flex-larger-amplitude/open.md)，内链保1a8e、664193、df896及更早全文。仅压本§7，原§1–6保持；本地计算，原Actions责任不变。R623–640正式结论见[results](results.md)。
+完整旧结论/失败/参数/源/SHA逐字保[8c03fc7c固定open](https://github.com/Rogerhu12/math-research-public/blob/8c03fc7c7b401fec3795faa91d5f4e793a582faa/topics/visible-flex-larger-amplitude/open.md)，内链保1a8e、664193、df896及更早全文。仅压本§7，原§1–6保持；本地计算，原Actions责任不变。R623–641正式结论见[results](results.md)。
 
 **当前完整开放前缀。** 原g真到.995。[β.75固定弧长规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)保持构造q_N2048，两档独立audit全509胞Gram6.393033e−7；[pulse完整0→1](notes/2026-11-17-parallel-numerical-pulse-arclength-prefix.md)原498胞M112二jetzero-lift并与新320胞逐位接合，q_N4096，两档audit真Gram1.974411e−7/κ6.98222。实际角余项保留；仅像点缩放差极小，不冒共同材料位移。
 
 [R638](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)已以整数三角/区间radix-two/Bernstein覆盖严格结清这两场的全径向全角q_N/rho正性，因而规范化坐标全域C²；没有升级Gram、单射、reach采样为连续证明。
+
+[R641单胞连续Gram](results/R641-continuous-Gram-certificate-for-one-pulse-cell.md)对同一pulse胞804，保q_N4096/全M320/精确积分g；Bernstein径向与真实带宽≤2688角界、平方根/λ′/ψ_s全部余项给op≤4.726341e−7。仅该胞；其它817胞、旧标量分支与末binary分界尚未认证，构造或求解未精化。
 
 **新的固定hold设计。** [单一负κ hold](notes/2026-11-17-parallel-numerical-negative-hold-ivp.md)保真.995 scalar两jet，.002降至−2.5/保持.02/.02升至1.5，正平台补最终角；真962ODE/N4096一次到1.02，未扫描。[完整2098胞](notes/2026-11-17-parallel-numerical-hold-arclength-prefix.md)首32胞R637桥、两侧旧M112/新保存jet逐位相同，统一q_N4096、8192角/4sub真Gram1.180660e−7/κ6.301937。R638§6已以原f512源真封闭全部2098胞，q_N>.0986/rho>.1590；[同g续1.04失败](notes/2026-11-17-parallel-numerical-hold-to104-domain-failure.md)起始三jet逐位同，4096角最后接受1.031981645后guard失败，但该末态8192角已H负/Gram.26665，不能作几何父。[唯一κ=0接口](notes/2026-11-17-parallel-numerical-hold-type-interface.md)由S(u)=5/8准确有理夹逼指定s*=1.0283496328972757，真1.02三jet重启/全962ODE到达，536新节点/端Gram6.942e−7、H>.0003475；未从失败raw抽父。[该接口完整物理φ trace](notes/2026-11-17-parallel-numerical-hold-interface-physical-trace.md)保a′>0取向及全部320模ρ/P̃/K/h/hr/hrr/R/T，8192角Dmin.03578/Lmin.42068/均值1.408e−9；非DN。下一步整体边值预备，不扫hold时长；桥/规范化map不作ODE父。参考R/H/L/D/chord预算不冒实际闭面指标。
 

@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R641（一个完整胞元的度量界已证明）**：[固定pulse最坏采样胞的连续Gram证书](results/R641-continuous-Gram-certificate-for-one-pulse-cell.md)：同26e53e8/q4096/精确积分g，径向Bernstein与全角三角多项式界，保真实混合抵消及非线性余项；胞804全域op≤4.726341e−7。非全818胞证书、非候选改变或固定g求解精化。
+
 - **R640（实际开放前缀嵌入已证明）**：[全818胞的圆柱图严格证书](results/R640-certified-cylindrical-embedding-of-the-pulse-prefix.md)：同26e53e8有限两jet场，Bernstein闭子胞与区间角余项给Q>.1872、A>.1770、C>.0510；准确core degree1沿全域保持，应用既有R9得未规范化C²嵌入。随s缩放的G、reach和闭族仍单独支付。
 
 - **R639（纯右接口已证明，零目标为有限负诊断）**：[规范化Gram纯右边界与真父可达空间](results/R639-pure-right-normalized-Gram-boundary-and-finite-zero-target-test.md)：源角下er/fr不含左rho，可保338/229分离结构；真β.75的1024×338 Jac与109可达空间实算，零目标需δ∞.0223，四个有限试步不足以支持新BVP。最小步maxGram略降但L2升，不冒不可解证明。
