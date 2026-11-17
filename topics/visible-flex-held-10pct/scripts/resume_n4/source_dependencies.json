@@ -34,5 +34,17 @@
   "material_warm_restart.py": {
     "package": "../even_circle/material_restart",
     "sha256": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6"
+  },
+  "nested_projection_core.py": {
+    "package": "../even_circle/double_nested_refinement",
+    "sha256": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c"
+  },
+  "fixed_bimodal_core.py": {
+    "package": "../even_circle/double_prefix_first",
+    "sha256": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051"
+  },
+  "bimodal_core.py": {
+    "package": "../even_circle/double_prefix_first",
+    "sha256": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55"
   }
 }

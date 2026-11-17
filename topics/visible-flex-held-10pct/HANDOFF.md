@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`632c47f9c2394a13e8109b1b92787620208fb245`。2026-11-18 04:24:43（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`8d531b9d1785c1fab3d57d85a78227336f690f52`。2026-11-18 04:25:35（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -26,13 +26,15 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **新wCut=.16物理设计**：原worker重生24模port，新双根δ=.030143626106924344/vd=.25002929220531817；round最小1−a′²=.01602343约旧3.93倍，背景K≈5.5613，名义球D采样2.5793。R1.882初保护窗保守下界>.15213；mode8增益11.0156未改善。peak.01直接root域失败保留。根正用新g冷解eta.1/q.01/M16；见n4-thicker-cut-double-root。
 
-**低幅圆化终态已登记**：eta1/q.001/M8直接λ0→.1均投影接受但完整metric未过，λ.2触节点上限；完整材料初值至λ.125/.15接受（metric5.27e−5/8.70e−5、tensor.08484/.14076），λ.175触节点上限。精确reference lift与两jet完整保留；非入口丢高频、非不存在。见n4-low-amplitude-circle-terminal。旧n4失败/取消见bimodal-continuation-terminal、double-prefix-*；不重做。
+**线性g固定精化**：原w.08/eta.1/q.01的完整δ/vd冻结，M16→M20/tol1e−8得到1920点，metric2.38461e−8→1.95003e−9、tensor1.62253e−5→3.51078e−6。完整核心同一低矩/固定J嵌入；未知改为q/c8。只是线性port的g，非上列actual g；见n4-fixed-metric-refinement。已执行旧源冻结，新API从解参数/原投影重建核心并保留全部物理网格。
+
+**低幅圆化终态**：eta1/q.001/M8直接至λ.1、材料预测至λ.15均完整metric未过，λ.2/.175原节点门失败；精确reference lift保留，非入口丢高频、非不存在。见n4-low-amplitude-circle-terminal。旧bimodal/double-prefix失败不重做。
 
 ## 2. m3真正联合与新物理尾
 
 **原固定g**：δ=.06105607686781097，g SHA11a9…b125。q02 M8→M16/parts8过原门，M16 tail res1.161e−9/minA.440917/fullD2.735e−7。固定g径向983→2462点使prefix metric4.971e−9→5.845e−11、tensor9.015e−6→1.947e−6。见m3-fixed-m16-parts8-and-radial-floor、m3-true-radial-refinement。
 
-原g旧q025已恢复而未重算：tail res1.857e−9/fullD4.422e−5/minA.26267。q026/RK32及q0275两种继续未过原门，含startup失败共7条见m3-finite-continuation-initializers，不重做。
+原g旧q025已恢复接受：tail res1.857e−9/fullD4.422e−5/minA.26267；q026/q0275含7条有限继续未过门，见m3-finite-continuation-initializers，不重做。
 
 **新beta3.625**：首谷改动经全局重标定改变整个r(x)。q.0225真联合res1.37881e−9/minA.618156/fullD1.81912e−5；q.025从两接受态原shoot、局部root加严、L2选步三条均未过原2e−9。不是无解；见m3-beta3625-second-coupled-state、m3-beta3625-q025-stalled-continuation。
 
@@ -60,7 +62,7 @@ R12/R14：h=g−dz²正定且同严格Q号时，高度二jet和g一jet确定刚�
 
 R20/R22单/双谐波到精确圆弧正距离，切空间障碍须完整核+可微支；有限共振不证不存在。R25固定Q/g的完整动量正A凸域严格单调、唯一根和残差界，不保证shoot存在。R26三谐波圆心半径约束minimax给n4/a.147/q.06弧差<8.433e−5、rho>.0999241，但第三物理核缺。
 
-旧m2 smallcut同g q20 M20→24 metric9.93e−7→4.172e−9，q22 M28→32为1.133e−6→1.119e−8；仍线性DN。R11开放q20的843264盒给σ>.349674/norm<1.508969/witness>.3254827/K<8/held/D>.1076。R13若真尾rXY≤.35、顶高≤1.526541485、K≤10、σ≥.3并C²闭合，则held/D>.10338且reach/D>.03191；真尾尚缺。
+**旧m2高幅入口**：q20/q22线性DN同g精化已有metric约4.17e−9/1.12e−8；R11开放q20连续几何给held/D>.1076。R13条件真尾rXY≤.35、顶高≤1.526541485、K≤10/σ≥.3/C²闭合可给held/D>.10338、reach/D>.03191；实际尾未付。详R11/R13及smallcut笔记，不重算。
 
 m2旧补弧高M初值负rho不是无解；新首三谷[4.25,3.9375,5.0625]给mode2线性H阈2.11656e−4约旧3.08倍、DN11.85689844；65次真实重标定screen仅新设计，非非线性容量/同g。见mode2-three-valley-design。R1–R10、旧GC/短领失败与R114仍留历史，不重复。
 

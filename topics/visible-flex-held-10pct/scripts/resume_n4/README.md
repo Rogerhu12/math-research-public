@@ -82,3 +82,52 @@ nested M12 mesh-limit failure; it does not rerun a registered calculation.
 `local_design_runs.json` gives physical parameters, actual solver results,
 small scalar diagnostics, output hashes and intentional cancellations.
 No coefficient arrays or generated checkpoints belong in Git or Releases.
+
+## Freeze an accepted physical metric and reuse its full map
+
+`refine_fixed_large_radius.py` provides `build_seed(source_topic, checkpoint,
+modes, angular=1280, ...)`. It accepts either a design checkpoint or an actual
+coupled checkpoint. It copies that checkpoint's complete `physical_profile`
+and physical port, with delta and vd fixed. It never substitutes the linear
+root profile when given a coupled state. The solved `parameters` and
+`central_correction_scales` define the old core; `core_summary` is only checked
+for a reported discrepancy. A design state has q equal to the gauge amplitude
+and c8=0, whereas a fixed-metric state has q=gauge*exp(p0) and all its controls.
+
+The returned dictionary contains `obj`, `par`, `x`, `y`, `adaptive`,
+`diagnostics`, both BVP classes, the original record and the full physical
+configuration. At lambda=0 it preserves all old low support moments when
+changing the canonical control basis. At positive lambda it freezes one
+projection order J and embeds the entire old compact core in the nested
+space. The old reference lift is projected from the solved core parameters;
+pp(0) is used only to measure the inlet residual. The physical mesh is
+normalized before the established [0,1] merge helper is called, so all old
+knots are retained. Diagnostics compare F, Ft, Ftt and the complete mapped field. The seed
+is not a solved refinement; the full original equation and metric audit
+remain necessary.
+
+For the genuine nonlinear tail, a caller can install its existing TailMixin
+without querying an uninitialized boundary operator:
+
+```python
+seed = build_seed(
+    source_topic, actual_checkpoint, modes=20, angular=1280,
+    bvp_transform=lambda B: type('Coupled', (TailMixin, B), {}),
+    evaluate_boundary=False,
+)
+obj = seed['obj']
+obj.tail = actual_tail
+# Continue the original actual-tail outer solve with its unchanged gates.
+```
+
+The CLI itself still uses the finite actual linear port. A check-only seed
+comparison, for example, is:
+
+```bash
+python -u refine_fixed_large_radius.py --source-topic source/bundle/topics/visible-flexible-closed-surface --checkpoint large-radius-eta010-vu035-q010-m16-lam0.json.gz --out eta010-q010-fixed-m20-check --modes 20 --angular 1280 --check-only
+```
+
+`refine_fixed_large_radius_pre_parameter_truth.py` is the exact frozen source
+of the first q=.01/M20 run, whose input summary agrees exactly with its solved
+parameters. New runs use the main driver. The archived variant is retained
+only to make that run's source hash reproducible.

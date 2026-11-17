@@ -1,0 +1,344 @@
+{
+  "scope": "One actual fixed-physical-metric refinement with the finite original linear n4 port; no arbitrary-epsilon convergence or closed family asserted",
+  "run": "eta010-q010-fixed-m20",
+  "row": {
+    "scope": "Freeze the entire physical n4 metric and refine the local-circle space.\n\nUnknowns are log(q/q_gauge), c8/q_gauge, c12/q_gauge, ... .  Delta and vd\nare fixed to the accepted checkpoint. At lambda=0 the old low support\nmoments are preserved exactly in definition. At lambda>0 one frozen P_J\nand the nested compact-space embedding preserve the entire old core.\nOnly the finite actual linear tail port is used by this driver.\n",
+    "physical_profile": {
+      "direction": "outward",
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.35,
+      "ramp": 0.45,
+      "vd": 0.24836306559053845,
+      "delta": 0.030027177128287334
+    },
+    "core_projection_order": null,
+    "q_gauge": 0.01,
+    "seed_q": 0.009999932480233472,
+    "modes": 20,
+    "complete_core_identity_error": {
+      "F": 1.609823385706477e-15,
+      "Ft": 1.7763568394002505e-15,
+      "Ftt": 2.067790383364354e-15
+    },
+    "core_embedding": {
+      "method": "Exact low-support-moment identity at lambda=0"
+    },
+    "complete_map_projection_error": 2.275957200481571e-15,
+    "inlet_repair_max": 4.326441006667423e-15,
+    "parameter_jac_checks": [],
+    "boundary_jac_checks": [],
+    "seed_boundary_max": 3.784316671053911e-07,
+    "boundary_evaluated": true,
+    "input_checkpoint_sha256": "423dc77180c33ec37152098125f162848a10e16e41c04e17afb7805f9bd95313",
+    "physical_port_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+    "core_transform": {
+      "source_sha256": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+      "replacements": [
+        [
+          "if len(actual):actual[0]=0.",
+          "if len(actual):pass  # c8 is free at fixed metric"
+        ],
+        [
+          "for v in value:v[0]=0. # Ignored c8 slot: all parameter jets must vanish.",
+          "# All complementary parameter jets are retained."
+        ],
+        [
+          "C4 complementary controls with fixed c8=0 and two-harmonic primary",
+          "C4 complementary controls with free c8 and two-harmonic primary"
+        ],
+        [
+          "ignored_correction_index=0",
+          "ignored_correction_index=None"
+        ]
+      ]
+    },
+    "source_sha256": {
+      "combined_control_bounds.py": "d21c47280f5220c427b8cd1fbaab8254947a5a94c6b2ae998dece50fd0b3e20a",
+      "audit_bimodal_chart.py": "0b75b6bd9ec25542e7c70aca36ddbd4d9795e8d4b3b79b70246fbbdc72591aee",
+      "audit_local_target.py": "d89ac9be75921bbe1e9b3c7e5bfbc0abc5a89ebad3f376843f82faba7f5946eb",
+      "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+      "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+      "run_local_flatten.py": "44304d3f0a9e504c55ae2e920f7cf10930d2e1ac961bc10c78a2f0cb281ae6b7",
+      "audit_nested_projection.py": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780",
+      "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+      "publish_local_snapshot.py": "39d3ad1d9b8618c34f28cffb8e18e66eaf0e2effec07b184672c7f1c20854276",
+      "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+      "refine_fixed_large_radius.py": "8496e0f160eb8a8bbad67f375b20bc33a45ba814223969783958108264c6decf",
+      "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+      "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+      "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+      "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+      "run_bimodal_chart.py": "297e479cd1a9ee759fcb853928c8a98e0d2664269053756e6ce201c45202aa7f",
+      "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+      "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+      "audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878",
+      "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+      "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+      "refine_nested_prefix.py": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+      "dual_material_restart.py": "255a595d1279710cb5dab288c9c335d22eb74b3690bae9b44019405d6a4e4935",
+      "design_vu035.py": "3a9d08663341960cca877aa1e0c64a26b6d5ade71182f9dbd25ddb13fc040ac3",
+      "design_bridge_margin.py": "2d544af85a60ede491dff67d11b52264b49f64d36cea62cfd4497ea8073aac25",
+      "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+      "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+      "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+      "nested_large_radius_core.py": "c6c882d2c95accc3aefdf96d6985f65c343d0c7834072c69fef006fb8fe73b8c",
+      "run_local_material.py": "f8d3063fd14dbf2abaf3d88500fbc23128f4103bec67364efe3af6467f950827",
+      "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+      "linear_profile_amplification.py": "edd760ec34c623ce1030dcb1ad89531b68cde37403c6d8cd227108d39bd7f468",
+      "probe_actual_n4_tail.py": "12b110579ccbfa25f64d2db6c8c3ee8344b1589d43a742fc8548e882ef6386f3",
+      "screen_large_radius_eta.py": "b8f6150b4b59454a1c00718ca4421eed3dfe8f84fc2b725b6d7505a9b807d353",
+      "diagnose_bimodal_chart.py": "616f03f02c63484ef517d298a5198b14c24a1f27062e7f17bfc387f1c6ca3d2f",
+      "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+      "build_local_flatten.py": "0e755a108750bf7f894e52490b5bc4200a470d54465d77d26e37410d8d1f4b5b",
+      "fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+      "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+      "physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+      "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+      "run_large_radius_material_chain.py": "5c41ae54d352ccee3a677979ea92a1978c86a013c894eaa7e125dd70aa5e0d2f",
+      "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+      "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+    },
+    "arguments": {
+      "source_topic": "bundle/topics/visible-flexible-closed-surface",
+      "checkpoint": "large-radius-eta010-vu035-q010-m16-lam0.json.gz",
+      "out": "eta010-q010-fixed-m20",
+      "modes": 20,
+      "angular": 1280,
+      "max_nodes": 3200,
+      "tol": 1e-08,
+      "check_only": false,
+      "check_jacobian": false
+    },
+    "success": true,
+    "message": "The algorithm converged to the desired accuracy.",
+    "nodes": 1920,
+    "actual_q": 0.00999989899089613,
+    "parameters": [
+      -1.0100961401705e-05,
+      -1.2247588027254303e-08,
+      -0.00022323912148535568,
+      2.042471529046356e-05,
+      -1.9044609578599638e-06,
+      -2.5555306024431915e-07,
+      -1.8660418254995195e-09,
+      2.4555774348337744e-10,
+      -1.5246118050107477e-11,
+      2.428482867374172e-12,
+      4.0949698987475925e-13,
+      4.7430203993139445e-15,
+      -3.4371108906447847e-15,
+      5.041216692870535e-15,
+      2.414608228511182e-14,
+      -2.3943091925368447e-14,
+      -3.4284318163524686e-14,
+      3.795841523700869e-14,
+      5.1714840615433004e-14,
+      1.6491135177518715e-14
+    ],
+    "max_rms": 9.996046384856534e-09,
+    "max_bc": 4.530501408056553e-15,
+    "seconds": 720.1650751390007,
+    "domain_newton": {
+      "calls": 6,
+      "rejected_domain_trials": 0,
+      "rejected_merit_trials": 0,
+      "accepted_steps": 14,
+      "no_step": 0,
+      "minimum_alpha": 1.0
+    },
+    "summary": {
+      "metric_l1": 1.950027280871527e-09,
+      "flow_defect": 3.341885535438519e-08,
+      "darboux_l1": 3.510776551134577e-06,
+      "kappa_sample": 6.5115628892963215,
+      "radius_max": 1.0360627135397746,
+      "height_max": 0.749542831401695,
+      "root_min": 0.003944738060929542,
+      "chart_rho_min": 0.85,
+      "support_amplitude": 0.00999989899089613,
+      "terminal_height_coeff_max": 4.8696767921365144e-06,
+      "physical_bc_max": 2.542870224029194e-19,
+      "samples_s": 3988,
+      "samples_psi": 1296,
+      "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+    }
+  },
+  "output_sha256": "8d529efa16f2db9f367b4f3c9216d19c5e6ec0f98b88b9b99aac77fd7cbcb266",
+  "checkpoint_sha256": "fde124daf1c2344d5e1855e89bf120aa985350e05aba8a20a2743e4fa8717069",
+  "coefficient_chunks": [
+    {
+      "file": "eta010-q010-fixed-m20_coeff_00.npy.gz",
+      "state_first": 0,
+      "state_last_exclusive": 47,
+      "bytes": 4207764,
+      "sha256": "3f5c73f14528908d258b7532c50ddfd553fc79c6dcf169cc33db81cb792f6d6c"
+    },
+    {
+      "file": "eta010-q010-fixed-m20_coeff_01.npy.gz",
+      "state_first": 47,
+      "state_last_exclusive": 61,
+      "bytes": 1210324,
+      "sha256": "01b94ace9f67fa9d9184b27652834b4b4f38fafb7289151e535cdb32a894bf90"
+    }
+  ],
+  "historical_source": {
+    "filename": "refine_fixed_large_radius_pre_parameter_truth.py",
+    "sha256": "8496e0f160eb8a8bbad67f375b20bc33a45ba814223969783958108264c6decf",
+    "input_summary_parameter_q_difference": 0.0,
+    "input_summary_parameter_c_difference": 0.0,
+    "mesh_seed_note": "The original helper was passed physical knots although it clips ordinary points to [0,1], reducing the initial mesh to 662. All physical endpoints remained. The reported solve then converged on 1920 nodes and was audited on its full interval. The corrected reusable API normalizes before merging and retains every old knot."
+  },
+  "jacobian_seed_check": {
+    "scope": "Freeze the entire physical n4 metric and refine the local-circle space.\n\nUnknowns are log(q/q_gauge), c8/q_gauge, c12/q_gauge, ... .  Delta and vd\nare fixed to the accepted checkpoint. At lambda=0 the old low support\nmoments are preserved exactly in definition. At lambda>0 one frozen P_J\nand the nested compact-space embedding preserve the entire old core.\nOnly the finite actual linear tail port is used by this driver.\n",
+    "physical_profile": {
+      "direction": "outward",
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.35,
+      "ramp": 0.45,
+      "vd": 0.24836306559053845,
+      "delta": 0.030027177128287334
+    },
+    "core_projection_order": null,
+    "q_gauge": 0.01,
+    "seed_q": 0.009999932480233472,
+    "modes": 20,
+    "complete_core_identity_error": {
+      "F": 1.609823385706477e-15,
+      "Ft": 1.7763568394002505e-15,
+      "Ftt": 2.067790383364354e-15
+    },
+    "core_embedding": {
+      "method": "Exact low-support-moment identity at lambda=0"
+    },
+    "complete_map_projection_error": 2.275957200481571e-15,
+    "inlet_repair_max": 4.326441006667423e-15,
+    "parameter_jac_checks": [
+      {
+        "step": 0.003,
+        "error": 1.483058115243472e-07,
+        "scale": 1.6890976964941122e-05
+      },
+      {
+        "step": 0.001,
+        "error": 1.6608217902296373e-08,
+        "scale": 1.7010351037757884e-05
+      },
+      {
+        "step": 0.0003,
+        "error": 5.082585759050785e-09,
+        "scale": 1.7022568244579545e-05
+      }
+    ],
+    "boundary_jac_checks": [
+      {
+        "step": 0.0001,
+        "error": 2.896682893549496e-10,
+        "scale": 0.592927668460197
+      },
+      {
+        "step": 3e-05,
+        "error": 7.59912264445711e-11,
+        "scale": 0.5929276681933734
+      },
+      {
+        "step": 1e-05,
+        "error": 1.3886988057426088e-10,
+        "scale": 0.5929276681526652
+      }
+    ],
+    "seed_boundary_max": 3.784316671053911e-07,
+    "input_checkpoint_sha256": "423dc77180c33ec37152098125f162848a10e16e41c04e17afb7805f9bd95313",
+    "physical_port_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+    "core_transform": {
+      "source_sha256": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+      "replacements": [
+        [
+          "if len(actual):actual[0]=0.",
+          "if len(actual):pass  # c8 is free at fixed metric"
+        ],
+        [
+          "for v in value:v[0]=0. # Ignored c8 slot: all parameter jets must vanish.",
+          "# All complementary parameter jets are retained."
+        ],
+        [
+          "C4 complementary controls with fixed c8=0 and two-harmonic primary",
+          "C4 complementary controls with free c8 and two-harmonic primary"
+        ],
+        [
+          "ignored_correction_index=0",
+          "ignored_correction_index=None"
+        ]
+      ]
+    },
+    "source_sha256": {
+      "combined_control_bounds.py": "d21c47280f5220c427b8cd1fbaab8254947a5a94c6b2ae998dece50fd0b3e20a",
+      "audit_bimodal_chart.py": "0b75b6bd9ec25542e7c70aca36ddbd4d9795e8d4b3b79b70246fbbdc72591aee",
+      "audit_local_target.py": "d89ac9be75921bbe1e9b3c7e5bfbc0abc5a89ebad3f376843f82faba7f5946eb",
+      "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+      "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+      "run_local_flatten.py": "44304d3f0a9e504c55ae2e920f7cf10930d2e1ac961bc10c78a2f0cb281ae6b7",
+      "audit_nested_projection.py": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780",
+      "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+      "publish_local_snapshot.py": "39d3ad1d9b8618c34f28cffb8e18e66eaf0e2effec07b184672c7f1c20854276",
+      "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+      "refine_fixed_large_radius.py": "81a46399d83575b82b513d6045347817e2cf6ee5c216fbc92b19f00e20cddd21",
+      "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+      "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+      "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+      "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+      "run_bimodal_chart.py": "297e479cd1a9ee759fcb853928c8a98e0d2664269053756e6ce201c45202aa7f",
+      "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+      "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+      "audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878",
+      "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+      "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+      "refine_nested_prefix.py": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+      "dual_material_restart.py": "255a595d1279710cb5dab288c9c335d22eb74b3690bae9b44019405d6a4e4935",
+      "design_vu035.py": "3a9d08663341960cca877aa1e0c64a26b6d5ade71182f9dbd25ddb13fc040ac3",
+      "design_bridge_margin.py": "2d544af85a60ede491dff67d11b52264b49f64d36cea62cfd4497ea8073aac25",
+      "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+      "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+      "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+      "nested_large_radius_core.py": "c6c882d2c95accc3aefdf96d6985f65c343d0c7834072c69fef006fb8fe73b8c",
+      "run_local_material.py": "f8d3063fd14dbf2abaf3d88500fbc23128f4103bec67364efe3af6467f950827",
+      "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+      "linear_profile_amplification.py": "edd760ec34c623ce1030dcb1ad89531b68cde37403c6d8cd227108d39bd7f468",
+      "probe_actual_n4_tail.py": "12b110579ccbfa25f64d2db6c8c3ee8344b1589d43a742fc8548e882ef6386f3",
+      "screen_large_radius_eta.py": "b8f6150b4b59454a1c00718ca4421eed3dfe8f84fc2b725b6d7505a9b807d353",
+      "diagnose_bimodal_chart.py": "616f03f02c63484ef517d298a5198b14c24a1f27062e7f17bfc387f1c6ca3d2f",
+      "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+      "build_local_flatten.py": "0e755a108750bf7f894e52490b5bc4200a470d54465d77d26e37410d8d1f4b5b",
+      "fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+      "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+      "physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+      "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+      "run_large_radius_material_chain.py": "5c41ae54d352ccee3a677979ea92a1978c86a013c894eaa7e125dd70aa5e0d2f",
+      "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+      "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+    },
+    "arguments": {
+      "source_topic": "bundle/topics/visible-flexible-closed-surface",
+      "checkpoint": "large-radius-eta010-vu035-q010-m16-lam0.json.gz",
+      "out": "eta010-q010-fixed-m20-check-scaled",
+      "modes": 20,
+      "angular": 1280,
+      "max_nodes": 3200,
+      "tol": 3e-07,
+      "check_only": true
+    }
+  }
+}
