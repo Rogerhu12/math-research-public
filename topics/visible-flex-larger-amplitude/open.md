@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **全有限BVP。** 原内向.997 M112/M128真接受但Gram2.754e−6/5.879e−6；.998/.999失败。[Schur112/128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)分别实际2.421e−6与1423节点/RMS3.592e−4超2000失败。[onlyZ109](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点/RMS8.425e−5超1800失败。以上均不作未接受父。
 
-[全段可达109行](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)与[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)已实际支付；固定U/原11960350母值的[β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)：63/64、.9、.75真接受，原实际Gram2.708/2.503/2.399e−6；.75角G主导，代数换raw V不能消掉。β.5真1422节点/RMS1.733e−5/BC1.752e−6超原1800失败，从真β.75缩步.625；原母值/U不变。这些新有限边界不冒原tail DN。
+[全段可达109行](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)与[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)已实际支付；固定U/原11960350母值的[β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)：63/64、.9、.75真接受，原实际Gram2.708/2.503/2.399e−6；.75角G主导，代数换raw V不能消掉。β.5真1422节点/RMS1.733e−5/BC1.752e−6超原1800失败，从真β.75缩步.625亦954节点/RMS2.213e−7/BC1.689e−9超1800失败；最后真接受仍.75，原母值/U不变。这些新有限边界不冒原tail DN。
 
 **固定弧长新映射。** [β.75同g规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定构造q_N、N2048，以同rho隐式重参数并按a/mean(q_N)中心缩放；完整保λ′/λ″/ψ_s。509胞在4096/4sub与8192/8sub独立audit均真实Gram6.393033e−7，细层κ6.289016；角余项实际读出未置零。正性下的C²来自有限φ谱及共享quintic；全径向正性连续包围仍待。仅旧角对应像点缩放差约9e−13，不能冒共同材料位移；非原BVP再接受或完整mesh/frequency/t精化。
 

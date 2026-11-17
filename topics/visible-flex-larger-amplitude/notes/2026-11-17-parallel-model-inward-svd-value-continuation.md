@@ -200,3 +200,26 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
 ```
 
 最终绑定完整固定目标定义的输出仅保存在仓库外，SHA256为 `f25eaa0aac643951b2a6a6bd463ad3bd212b35302a2ea62f2a29de260a920e17`。内部 `.solver.gz` 的未修正非零目标标签不代替此最终文件。按已约定缩步，后继改从同一 β=.75 真接受父试 β=.625，原U、原母值和1800节点预算保持。
+
+## 8. 从真β=.75缩到β=.625的原预算终态仍未接受
+
+**实际有限尝试。** β=.5失败后，没有使用其未收敛终态；重新从真 β=.75 场 `852a673f...` 启动 β=.625。冻结397bbdd源、原11960350母父、原U、原327母值、前三 core 目标、338 ODE/229浅行/109组合右行及 `tol=1e-8, bc_tol=1e-11, max_nodes=1800` 全部保持。
+
+本次最终 `success=false, status=1`。510节点上8次完整QR后，原求解器增至954节点；新一轮完整QR的所有17个Armijo试探均不下降，保留旧点。再请求另加888节点而使总数1842超过原1800预算，停止。实际472.919622879秒，9次完整QR、10个内部接受Newton步。最大所见约化条件数 `1.4520963738205474e12`；内部接受步不构成整个BVP接受。
+
+最终 RMS `2.2131375211610844e-7`，109固定目标残差 `1.6888110468341503e-9`，均未达到本次要求。组合函数本身最大 `4.859876487017638e-5`；原327遗漏谱R/T/Z最大分别为 `6.744895815052562e-5`、`9.669365024743876e-6`、`4.974324911296873e-6`。未把此失败场作后继warm，也未为它运行实际quintic曲面读出。当前这条固定原U值同伦中最后一个真接受阶段仍是β=.75；本有限失败没有证明更小β无解。
+
+实际命令：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
+  topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-inward-svd-boundary-bvp.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b075.json.gz \
+  --target-parent /workspace/scratch/16f63c8bce6b/parallel-inward0997-m112.json.gz \
+  --row-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-reachable-rows.json \
+  --svd-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-svd-boundary.json \
+  --out /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b0625.json.gz \
+  --beta .625 --tol 1e-8 --max-nodes 1800
+```
+
+最终绑定完整固定目标定义的仓库外输出 SHA256 为 `ee3ebeb6c17731b0e4cc1cf650e2d751218c21254273bdf7835d8f84153b5893`。不得把内部 `.solver.gz` 的原始非零函数值误读为固定目标残差。
