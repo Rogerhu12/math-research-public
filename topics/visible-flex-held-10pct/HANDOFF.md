@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`c3bed7e2993b5ff2c612a9feb0e05bded3d6f048`。2026-11-18 04:19:00（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`04414cad4a36f1a6ae9bd93b068f3663908a0b06`。2026-11-18 04:20:07（UTC+8）发布接口错误后立即真实pull/rebase，双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -18,7 +18,7 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **大rho精确核心**：eta1、轴π/4、a=.147/b=.08，C4局域修平加全局均值补偿；β∈(−2.437434179108102,−2.437434179108101)，|c|/q∈(47.53249652612922,47.53249652612923)。q.02/.022时R1.9/1.99、零控制rho>.50125/.45137。若完整D≤2.65、σ≥.08、K≤12.5等，则held/D>.104902/.115401且reach/D>.03018。alpha=2Ra−.001、ell=.54；实际大R的Rvu<1及初负K保护窗已付。未来补弧控制须重付rho；前缀/尾/闭族仍未付。见n4-large-radius-circle-core与纯Fraction脚本。
 
-**低eta选择已实算**：真实圆心系数随eta仿射，eta.1/q.049给零控制rho>.234093、条件held/D>.103812，所激发mode8约eta1/q.02的四分之一。六个已知物理根只做新沿程诊断、未重搜：mode8中段放大约10.20–14.17，线性采样不是非线性界。见n4-large-radius-eta-selection。
+**低eta核心**：eta.1/q.049零控制rho>.234093、条件held/D>.103812；mode8激发约eta1/q.02四分之一，既有六根增益10.20–14.17仅线性。见n4-large-radius-eta-selection。新q.0175/M24初始化因旧系数区间过宽被拒；同一精确Gram的Taylor100→180使逆误差10326.78→1.90e−40，原门rho下界.736211（采样值不变）。未换核心/放门，BVP继续；M20重复试跑已取消。见n4-m24-coefficient-certificate。
 
 **已实际联立**：n4 eta1/q001/M12 λ0，993节点。实际outer校正后物理BC3.8058e−14；最终tail res4.1448e−10/minA.99073/metric1.11e−14；mean两jet差1.30e−13/−3.04e−12，非mean二阶1.70e−11。prefix metric1.1175e−7；仍低幅/未圆化/无闭图。见n4-first-true-coupled-state，源resume_n4_tail/couple_actual_tail.py。此前q005/eta*/M8的首实际尾响应仅单独接口，不冒充联合。
 
@@ -34,9 +34,9 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 原g旧q025已恢复而未重算：tail res1.857e−9/fullD4.422e−5/minA.26267。q026/RK32及q0275两种继续未过原门，含startup失败共7条见m3-finite-continuation-initializers，不重做。
 
-**新beta3.625**：首谷变化经全局重标定改变整个r(x)，是新g。q.0225真联合tail res1.37881e−9/minA.618156/fullD1.81912e−5，prefix metric4.53177e−8；不同q仍重解δ。见m3-beta3625-second-coupled-state。
+**新beta3.625**：首谷改动经全局重标定改变整个r(x)。q.0225真联合res1.37881e−9/minA.618156/fullD1.81912e−5；q.025从两接受态原shoot、局部root加严、L2选步三条均未过原2e−9。不是无解；见m3-beta3625-second-coupled-state、m3-beta3625-q025-stalled-continuation。
 
-beta3.625由q.02/.0225 secant到q.025：原shoot终态2.35394e−9；收紧局部root10倍后3.36278e−9，L2选步也停于该态，均未过原最终L∞2e−9。收紧后旧态首次重算3.2779e−7，保留局部误差放大，不把一次门通过当严格证书。见m3-beta3625-q025-stalled-continuation；现转beta4.125实际联合。
+
 
 **新beta4.125已真联合q.030**：q.025后secant重解δ=.06105428508814396/937点；prefix metric4.64068e−9/tensor1.27968e−4/K8.38215，tail res1.6470940e−9/minA.709207/metric9.85829e−11/fullD7.19764e−7，物理BC4.73170e−12。全部原canonical门、4次实际tail及最终audit；不同q重解δ非同g。见m3-beta4125-third-coupled-state；q.025先前中断已重求，继续q.04。
 
