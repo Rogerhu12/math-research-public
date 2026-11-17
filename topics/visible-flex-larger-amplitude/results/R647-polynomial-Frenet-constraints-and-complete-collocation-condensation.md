@@ -192,3 +192,108 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
 ```
 
 报告输入、R624 Frenet源、HoldProfile/原Profile及原SciPy cubic源均在入口和出口核身份。全局非线性残差下降、完整边界接受、正分支、未保留角模、全连续实际metric、共享C²场、闭合/全t/reach/held和固定g精化尚未由本条支付。后续若执行新多项式BVP，必须用独立完整记录，不冒作原显式P RHS的续跑或接受解。
+
+## 附：实际 binary 核心的严格有限 C_U 证书与正支唯一性
+
+本节只处理 R647 所用原短 warm `1662ee34...` 的核心。它不接受该 warm 的完整场，不把失败 BVP 作父，也不覆盖任意尾点、有限容差节点或 NumPy FFT 的矩阵舍入。
+
+### 准确来源与理想三角块
+
+M160/N2048 的实际核心满足 R0=1、全部 Z 系数准确为零，固定标量首 jet 给 a(0)=1、a′(0)=0，故 k(0)=0。其 R1..R160 与 R638 已证 hold 场 `aa1cf41f...` 的 `original_core_coefficients` 逐个作 Fraction 匹配；后者第161..320模全为零。于是准确多项式
+
+\[
+\rho=R_0+\sum_{j=1}^{160}(1-\nu_j^2)R_j\cos(\nu_j\phi),\qquad\nu_j=2j
+\]
+
+就是 R638 同一个固定 ρ。只复用已刊报告 `d3fe8df3...` 的全角下界，取准确 \(\rho_*=159/1000\)；没有重复其区间变换或正性计算。
+
+若先令理想 T_j=−ν_jR_j、U=e_z，则 d=ρe_φ、e=−ρe_R+ρ′e_φ。按未知量顺序 (δU_T,δU_R,δU_Z)，C_U 是
+
+\[
+ C_{U,0}=\begin{pmatrix}
+ P_s\rho&0&0\\
+ P_c\rho'&-P_c\rho&0\\
+ 0&0&2I
+ \end{pmatrix}.
+\]
+
+P_s、P_c 为保留 sine/cosine 空间的正交 L² 投影；这里矩阵项表示相应乘法算子后投影。两个乘 ρ 的方块均至少为 ρ_*I。令
+
+\[
+ L=\sum_j\nu_j|(1-\nu_j^2)R_j|,\qquad
+ B=2/\rho_*+L/\rho_*^2+1/2.
+\]
+
+逐块反解及三角不等式给 \(\|C_{U,0}^{-1}\|\le B\)。范数为平均 2π 积分的 L² 直积范数，等价于**正交归一化** Fourier 坐标的 Euclidean 范数；不能将本数值不加转换地叫作原未归一系数矩阵的逆范数。
+
+### 保留所有 binary 缺口的扰动
+
+逐项准确计算 ε_j=T_j+ν_jR_j。101 个 ε_j 非零，不能把保存的左关系当作实数中完全相等。相对上述理想 d/e，
+
+\[
+ \delta d_R=-\sum\epsilon_j\sin\nu_j\phi,\quad
+ \delta d_T=\sum\nu_j\epsilon_j\cos\nu_j\phi,
+\]
+\[
+ \delta e_R=-2\sum\nu_j\epsilon_j\cos\nu_j\phi,\quad
+ \delta e_T=-\sum(\nu_j^2+1)\epsilon_j\sin\nu_j\phi.
+\]
+
+取 E0=Σ|ε_j|、E1=Σν_j|ε_j|、E2=Σ(ν_j²+1)|ε_j|，并把保存 `full_ode_rhs_at_nodes[0]` 的**全部**系数与 e_z 的差分别求 l1，记 V_R,V_T,V_Z。实际三者准确为零，非浮点“小于容差”。逐点矩阵条目绝对值和给
+
+\[
+ \|\delta C_U(\phi)\|_2\le
+ \delta=E_0+3E_1+E_2+2(V_R+V_T+V_Z).
+\]
+
+投影范数不超过1，故同一 δ 也控制完整有限 Galerkin 算子的扰动。准确有理运算结果为
+
+\[
+\delta=\frac{1115869547203}{1237940039285380274899124224}
+ \approx9.01392241782\times10^{-16}.
+\]
+
+E0≈9.49901274e−18，E1≈7.33330396e−17，E2≈6.71894110e−16；L≈18.0517233597，B≈727.1217064092。**准确分数比较**给 Bδ<1，显示值约6.55421865e−13。Neumann 引理遂给实际数学有限算子
+
+\[
+ \boxed{\|C_U^{-1}\|\le B/(1-B\delta)<728.}
+\]
+
+这证的是精确 binary 系数所定义的准确 Galerkin 算子。N2048 下相关投影积分次数至多6M=960<N，数学上的均匀 DFT 与其一致；实际 np.fft 舍入不在这份证书内。
+
+### 同一实际核心的正支有限速度唯一性
+
+这个补充由 geometry 会话给出，与上面的实际证书合用。设 d0=ρ_*−E1、e0=ρ_*−2E1。源同时以准确分数验证
+
+\[
+ d_0>0,\quad e_0>0,\quad
+ (d\times e)_z\ge d_0e_0-E_0(L+E_2)>0.
+\]
+
+准确平面核心且 k=0 时，前两投影约束只线性依赖水平 U_R,U_T，完全不含 U_Z。在 U=e_z 处，C_U 为该水平方块与竖直2I的块结构；其已证可逆性使水平方块可逆。因此任何**准确有限 Galerkin**根都有 U_R=U_T=0。
+
+选取逐角正支 \(U\cdot(d\times e)>0\)，由上面的正法向得 U_Z>0。U_Z−1 属于保留 cosine 空间，以它测试第三投影式便有
+
+\[
+0=\langle U_Z-1,P_c(U_Z^2-1)\rangle
+ =\langle(U_Z-1)^2(U_Z+1)\rangle,
+\]
+
+故 U_Z=1。这一步没有假定未保留残差先逐角为零。该核心的准确正支速度唯一为 e_z。
+
+若节点隐式加速度 A 定义为对准确 C(Y,U,k)=0 微分、并令 Y_s=U 所得，则在 U=e_z 处第三行正是 2A_Z=0，故全部 A_Z 系数准确为零。它不是对任意 collocation cubic 的二导或有限容差输出作字面零声明，也尚不构成完整 BVP 接受或镜像闭合证书。
+
+### 冻结复现
+
+标准库 Fraction 源 `parallel_20261117_implicit_core_rational.py` SHA256 `cf3d8a6bd30968145b2a3f47e76f481e8c4e6869105a6475a121f128a9c043a7`；完整有理报告 SHA256 `69042311240f2a3d00108ed6d4004b9ab17dbef691a5c316165468821a5ba6b1`，只在仓库外。报告含全部 E、L、B、δ、Bδ、逆界及正法向界的准确分数，不以显示小数作证明。
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python "$T/scripts/parallel_20261117_implicit_core_rational.py" \
+ --warm "$S/parallel-hold-m160-short-bvp-warm.json.gz" \
+ --reference "$S/parallel-negative-hold-complete-base.json.gz" \
+ --rho-report "$S/parallel-negative-hold-arclength-interval-positive-final.json" \
+ --rho-source "$T/scripts/parallel_20261117_arclength_interval_positive.py" \
+ --out "$S/parallel-implicit-core-rational.json"
+```
+
+入口和出口均核固定输入 SHA；warm、reference、R638 报告、区间源的完整 SHA 分别为 `1662ee34a820776570c7535ee5735812d7e7a27822901849c211a89992629057`、`aa1cf41faf83a9e2b3e90167d0bc9e00e48c8d84cc2aec707c2da17c45f0ca15`、`d3fe8df338482e0ac01f3d65a2ee91baa5f2996814188a7adb31a4ec01ff9f37`、`f512c96cbc1fb3896fc144c5e9d8d29aaa80e321d08d9cdbf1745beb54a5c57d`。本节不运行新 BVP，也不重新计算 R638。
