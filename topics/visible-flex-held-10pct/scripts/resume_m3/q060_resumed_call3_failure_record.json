@@ -1,0 +1,714 @@
+{
+  "scope": "Collect the already completed q060 retry and its existing residual locator.\n\nNo solver or locator is executed.  Full failed states, stage rankings and\ncoefficient arrays stay in scratch.  Only parameters, source hashes, actual\nterminal metadata and three explanatory residual locations are collected.\n",
+  "command": [
+    "topics/visible-flex-held-10pct/scripts/resume_m3/collect_q060_resumed_call3.py",
+    "--run",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry",
+    "--original-run",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/q060-resumed-call3-compact.json"
+  ],
+  "run": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry",
+  "original_run": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060",
+  "recorded_design": {
+    "q": 0.06,
+    "base_mode": 3,
+    "modes": 8,
+    "angular": 256,
+    "audit_angular": 512,
+    "fixed_metric": false,
+    "initial_prefix_nodes": 815,
+    "tail_quadrature": 128,
+    "tail_parts": 8,
+    "tail_stages": 576,
+    "tail_gate": 2e-09,
+    "profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.061051601505166045,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "tail_config": {
+      "rCut": 0.3,
+      "wCut": 0.08,
+      "width": 0.25,
+      "curvatureBound": 8,
+      "orientation": 1,
+      "prefixR": 2,
+      "prefixEnd": 15,
+      "prefixReturnStart": 8,
+      "protectCell": 160,
+      "slopeCap": 0.02,
+      "capTransition": 2,
+      "calibrationSteps": 512,
+      "warpSteps": 16,
+      "cuspAwareQuadrature": true,
+      "quadratureTolerance": 2e-10,
+      "capMode": "cut-preserving",
+      "valleyControls": [
+        4.625,
+        2.8125,
+        4.0625,
+        5,
+        5.25,
+        4.0625,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pulseCaps": [
+        [
+          0.4,
+          0.02
+        ]
+      ],
+      "valleyCaps": [
+        0.1
+      ],
+      "maxCachedBetas": 1,
+      "warpWeightLevels": [
+        [
+          1,
+          0.5,
+          3,
+          0.05,
+          1
+        ]
+      ],
+      "modes": 8,
+      "spacing": 3,
+      "depth": 8,
+      "steps": 16,
+      "quadrature": 128,
+      "linearFar": 48,
+      "linearSteps": 512,
+      "linearMethod": "projective",
+      "fastJacobian": true,
+      "cuspAwareFlow": true,
+      "actualCuspGrid": true,
+      "solveTolerance": 2e-09,
+      "auditSteps": 16,
+      "maxIterations": 36,
+      "harmonicAmplitudePredictor": true,
+      "shootingParts": 8,
+      "initialCheckpoint": "/workspace/scratch/7322d0dee069/transfer_work/q060-local-relaxation-tail.json.gz",
+      "traceFile": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/worker-trace.jsonl"
+    }
+  },
+  "execution": {
+    "actual_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+      "--source-topic",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "--short-bridge",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--restart-port",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+      "--profile",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/profile.json",
+      "--chart",
+      "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "--linear-port",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json",
+      "--tail-config",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/config.json",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed",
+      "--restart",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+      "--amplitude",
+      "0.06",
+      "--warp-reference",
+      "0.06",
+      "--modes",
+      "8",
+      "--angular",
+      "256",
+      "--audit-angular",
+      "512",
+      "--nodes",
+      "801",
+      "--max-nodes",
+      "6000",
+      "--tol",
+      "1e-06",
+      "--bc-tol",
+      "1e-07",
+      "--physical-bc-tol",
+      "2e-09",
+      "--node-heap",
+      "2304",
+      "--warmup-scales",
+      "1.0",
+      "--lagged-tail"
+    ],
+    "resumed_utc": "2026-11-17T23:08:51.814686+00:00",
+    "terminal": {
+      "status": "observed_terminal",
+      "child_returncode": 0,
+      "observed_utc": "2026-11-17T23:13:58Z",
+      "seconds": 306.3313768029984
+    },
+    "summary": {
+      "scope": "Adaptive-chart prefix coupled to the actual weighted finite-tail DN.\n\nDerived db6f continuation runner, using v3 warm remeshing.\nThis changes a finite linear port to a finite nonlinear one. Every physical\nparameter, numerical cutoff, tail response, mean jet and failure is retained.\nFinite-depth convergence and complete closed-surface reach remain separate.\n",
+      "tail_config_sha256": "8d57f52a8111d0f390cd8796b338975b0593a8c973d36ad23451bcfac5121d07",
+      "solver_success": false,
+      "linear_dn_ready_max_difference": 0.0,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 3.241344522795531e-9', 'residual': None, 'lastIteration': {'iteration': 6, 'norm': 3.241344522795531e-09, 'minA': 0.5220201871565618, 'minD': 0.9991195608484377, 'chartCondition': None}}\")",
+      "tail_calls": 3,
+      "seconds": 302.7960810661316
+    },
+    "tool_session_reported_by_parent": 36748,
+    "locator_tool_session_reported_by_parent": 91612,
+    "locator_command": [
+      "node",
+      "--max-old-space-size=1536",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0003.json.gz",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/call3-locate.json"
+    ],
+    "locator_terminal": {
+      "status": "observed_terminal",
+      "child_returncode": 0,
+      "observed_utc": "2026-11-17T23:19:37Z",
+      "seconds": 18.011688559003233
+    }
+  },
+  "identity_checks": {
+    "original_command_sha_matches": true,
+    "original_config_sha_matches": true,
+    "profile_bytes_unchanged": true,
+    "port_bytes_unchanged": true,
+    "only_output_argument_paths_changed": true,
+    "only_tail_initializer_and_trace_changed": true,
+    "original_solver_gate": true,
+    "observed_process_terminal": true,
+    "observed_locator_terminal": true,
+    "summary_is_failed": true,
+    "no_final_prefix_file": true,
+    "no_saved_prefix_coefficients": true,
+    "no_saved_inner_debug": true
+  },
+  "option_changes": {
+    "--out-prefix": {
+      "before": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/seed",
+      "after": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed"
+    },
+    "--tail-config": {
+      "before": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/config.json",
+      "after": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/config.json"
+    },
+    "--linear-port": {
+      "before": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/port.json",
+      "after": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json"
+    },
+    "--profile": {
+      "before": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/profile.json",
+      "after": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/profile.json"
+    }
+  },
+  "config_changes": {
+    "traceFile": {
+      "before": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/worker-trace.jsonl",
+      "after": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/worker-trace.jsonl"
+    },
+    "initialCheckpoint": {
+      "before": null,
+      "after": "/workspace/scratch/7322d0dee069/transfer_work/q060-local-relaxation-tail.json.gz"
+    },
+    "designInitialCheckpoint": {
+      "before": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed_tail_0004.json.gz",
+      "after": null
+    }
+  },
+  "recorded_input_verification": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz": {
+      "expected_sha256": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+      "verified_path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed_tail_0004.json.gz": {
+      "expected_sha256": "96c7b441e8a220acea983d2ddf726854e98828726d71279e764acc51bd5d23b5",
+      "verified_path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed_tail_0004.json.gz",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json": {
+      "expected_sha256": "3e83072f020f3c61ee963afcee5eaf3489b2de557b7598460025099943b0d0d9",
+      "verified_path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": {
+      "expected_sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+      "verified_path": "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": {
+      "expected_sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+      "verified_path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+      "expected_sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "verified_path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/7322d0dee069/transfer_work/q060-local-relaxation-tail.json.gz": {
+      "expected_sha256": "07af0841372e0d113f962ce7306c4a7f2ee557a9dcab40486403b5e66e28bb5d",
+      "verified_path": "/workspace/scratch/7322d0dee069/transfer_work/q060-local-relaxation-tail.json.gz",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/profile.json": {
+      "expected_sha256": "133156b37b66cf673fd77451f8f38f8ca51e60c51914ca5b6a629fcfb09beb84",
+      "verified_path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/profile.json",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json": {
+      "expected_sha256": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846",
+      "verified_path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py": {
+      "expected_sha256": "674fc013d2f81b040069daf6d69db58d5a6782464a5dd71f6a6a73b5f76db9a4",
+      "verified_path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+      "storage_path_migrated": false
+    },
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py": {
+      "expected_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+      "verified_path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "storage_path_migrated": false
+    }
+  },
+  "inputs_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed_tail_0004.json.gz": "96c7b441e8a220acea983d2ddf726854e98828726d71279e764acc51bd5d23b5",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json": "3e83072f020f3c61ee963afcee5eaf3489b2de557b7598460025099943b0d0d9",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/transfer_work/q060-local-relaxation-tail.json.gz": "07af0841372e0d113f962ce7306c4a7f2ee557a9dcab40486403b5e66e28bb5d",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/profile.json": "133156b37b66cf673fd77451f8f38f8ca51e60c51914ca5b6a629fcfb09beb84",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed_coeff_00.npy.gz": "f0d40a431abb3c71135016c3c3b524d90c77bf0bacf7926c18b7cc06d6065fdf"
+  },
+  "artifacts_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/resume-command.json": "c5c02fce29050a9845c05c39975ec993ec5b53a584352d8caa1d4acfe544e006",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/resource.json": "83a9f48617f4c34d63c1f7f3f84c9a61da16da2e1f0c7b5d7664d440ba9e7ffc",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed-summary.json": "3ca4885bfcb96f00a5091e8276a6b8dfaccf5cefe9768d06b1b460a2c2e9f81a",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed-design-initializer.json": "b7efdd7698e2cb899a750c1f9b7d05569b34f0fdd693ec93a42d6437c16b421e",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/config.json": "8d57f52a8111d0f390cd8796b338975b0593a8c973d36ad23451bcfac5121d07",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/profile.json": "133156b37b66cf673fd77451f8f38f8ca51e60c51914ca5b6a629fcfb09beb84",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/run.log": "d65265050a80a89062a00fba4305cac6e1b537a0c4e0a4ecf6e97d293d80355a",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/worker-trace.jsonl": "d98315bae21f77555b8d5032cfbf2de1552480a97b87f9527a35bb827838028c",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/call3-locate.json": "7f64fdb1bf18c455318ce507bb9d131fe62a3c10cab6bb69c98da2dc27b73e63",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/call3-locate-resource.json": "68acd755ff574912851da0ac82847acbd1389af99ec667af10d1510df10f753d"
+  },
+  "actual_tail_source_sha256": {
+    "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+    "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "additional_source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py": "674fc013d2f81b040069daf6d69db58d5a6782464a5dd71f6a6a73b5f76db9a4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_q060_resumed_call3.py": "55aab8493c6ae2858f812b09aee8a6546a554351cfff40e316596edb2d830d17"
+  },
+  "tail_calls": [
+    {
+      "call": 1,
+      "file": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0001.json.gz",
+      "sha256": "5d8cef42611747d500a10bed192dad4352148c2cacbbb59b80fa2447a5e9b756",
+      "request": {
+        "height": [
+          -0.00016693361960369238,
+          4.106907281304964e-06,
+          4.816547820011559e-07,
+          -1.1346597603547129e-11,
+          -1.0764718320972387e-09,
+          -1.4868667217615056e-10,
+          8.319283177794921e-12,
+          -2.3897645945865314e-11
+        ],
+        "jacobian": false,
+        "audit": true
+      },
+      "converged": true,
+      "residual": 1.9930084352226262e-09,
+      "failure": null,
+      "last_iteration": null,
+      "history_scalar": [
+        {
+          "iteration": 0,
+          "norm": 1.9930084352226262e-09,
+          "minA": 0.5294279749367045,
+          "minD": 0.9991344478453604
+        }
+      ],
+      "returned_height_jacobian_entries": null,
+      "returned_height_jacobian_finite": null,
+      "audit": {
+        "fullD": 0.000281460784485168,
+        "normalizedFullDefect": 0.0008433606917995218,
+        "minLeading": 0.5294279749367045,
+        "minD": 0.9991345075771151,
+        "formalCurvature": 8.395840687333914,
+        "maxPhysicalPV": 0.00033290606594848035,
+        "actualMetric": 3.984326513162273e-08,
+        "holonomy": 3.4163221042930085e-19
+      }
+    },
+    {
+      "call": 2,
+      "file": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0002.json.gz",
+      "sha256": "8cdbb893911fe5f6dd9ebc594c0d2c2c81170bdddb42b0e6f8561c24404efd57",
+      "request": {
+        "height": [
+          -0.00016693361960369238,
+          4.106907281304964e-06,
+          4.816547820011559e-07,
+          -1.1346597603547129e-11,
+          -1.0764718320972387e-09,
+          -1.4868667217615056e-10,
+          8.319283177794921e-12,
+          -2.3897645945865314e-11
+        ],
+        "jacobian": true,
+        "audit": false
+      },
+      "converged": true,
+      "residual": 1.9930084352226262e-09,
+      "failure": null,
+      "last_iteration": null,
+      "history_scalar": [
+        {
+          "iteration": 0,
+          "norm": 1.9930084352226262e-09,
+          "minA": 0.5294279749367045,
+          "minD": 0.9991344478453604
+        }
+      ],
+      "returned_height_jacobian_entries": 208,
+      "returned_height_jacobian_finite": true,
+      "audit": null
+    },
+    {
+      "call": 3,
+      "file": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/seed_tail_0003.json.gz",
+      "sha256": "6059334fa00c9fe6ce4bca788dff852f4da0988b920c5ad7e7f22b7fad65e35b",
+      "request": {
+        "height": [
+          -0.00016709264617415434,
+          6.128504201549723e-06,
+          1.0870628283937424e-06,
+          1.1055178389341745e-09,
+          -4.999648695081087e-09,
+          -1.1116972250007148e-09,
+          6.468788774198279e-11,
+          2.60104864810171e-11
+        ],
+        "jacobian": true,
+        "audit": false
+      },
+      "converged": false,
+      "residual": null,
+      "failure": "Error: multiple-shooting line search failed at 3.241344522795531e-9",
+      "last_iteration": {
+        "iteration": 6,
+        "norm": 3.241344522795531e-09,
+        "minA": 0.5220201871565618,
+        "minD": 0.9991195608484377,
+        "chartCondition": null
+      },
+      "history_scalar": null,
+      "returned_height_jacobian_entries": null,
+      "returned_height_jacobian_finite": null,
+      "audit": null
+    }
+  ],
+  "candidate_height_change_max": 2.0215969202447587e-06,
+  "inner_prefix_status": {
+    "source_control_flow": "The original failed-inner guard returns before candidate=... and the call3 actual tail query. Reaching this new request therefore implies sol.success for the temporary affine inner problem.",
+    "original_function_source_sha256": "b989448b23c23cf703bbcb5fbb781ef51ed01b96b1bd749167bd28b8f1628dbd",
+    "accepted_actual_prefix": false,
+    "saved_raw_inner_state": false,
+    "final_prefix_checkpoint": false,
+    "final_prefix_metric": null,
+    "limitation": "No raw p/sol checkpoint was written before call3 in this original coupler. The new H alone does not recover the inner field, its parameters, RMS or a final actual boundary/metric audit."
+  },
+  "locator": {
+    "input_accepted": false,
+    "replay_residual": 3.241344522795531e-09,
+    "exact_replay_of_recorded_norm": true,
+    "minA": 0.5220201871565618,
+    "minD": 0.9991195608484377,
+    "end_residual_max": 2.5533258603093732e-14,
+    "dominant_matching_location": {
+      "stage": 45,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "rawLeft": 0.25,
+      "rawRight": 0.375,
+      "component": 11,
+      "physicalMode": 12,
+      "componentKind": "momentum-variable",
+      "normalizedResidual": 3.241344522795531e-09,
+      "signedResidual": 3.979039320256561e-12,
+      "normalizationScale": 0.0012275891353952086,
+      "componentUlp": 5.684341886080802e-14,
+      "residualInComponentUlps": 70,
+      "minA": 0.9993526128712102,
+      "minD": 0.9999693620406851
+    },
+    "second_independent_matching_location": {
+      "stage": 43,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "rawLeft": 0.5,
+      "rawRight": 0.625,
+      "component": 12,
+      "physicalMode": 15,
+      "componentKind": "momentum-variable",
+      "normalizedResidual": 2.7509740485739374e-09,
+      "signedResidual": -8.526512829121202e-14,
+      "normalizationScale": 3.099452295284725e-05,
+      "componentUlp": 2.842170943040401e-14,
+      "residualInComponentUlps": 3,
+      "minA": 0.9825082073339836,
+      "minD": 0.9999652025825887
+    },
+    "minimum_A_location": {
+      "stage": 40,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "rawLeft": 0.875,
+      "rawRight": 1,
+      "component": 9,
+      "physicalMode": 6,
+      "componentKind": "momentum-variable",
+      "normalizedResidual": 2.2702890387457158e-11,
+      "signedResidual": -2.842170943040401e-14,
+      "normalizationScale": 0.0012518982801461426,
+      "componentUlp": 2.842170943040401e-14,
+      "residualInComponentUlps": 1,
+      "minA": 0.5220201871565618,
+      "minD": 0.999971264617857
+    },
+    "source_sha256": {
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    "scope": "Only these three explanatory locations are collected. The complete failed state and stage/ranking tables remain in the hashed scratch artifacts."
+  },
+  "interpretation": "The resumed old-H actual tail passed, but its new prefix-generated H failed the unchanged original tail gate. This is a new q060 physical design relative to the accepted q040 prefix, not fixed-g refinement. Exit0 reflects the wrapper catching the error, not a successful coupled state. No finite threshold, mathematical amplitude barrier, or complete prefix metric is inferred.",
+  "collected_output": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-resumed-call3-compact.json",
+    "sha256": "9bf9a59968c48b5692f2db9e4404e1a0e9b82ef7f8353f6dd6b259ce0addcb87",
+    "collector_exit_code": 0,
+    "solver_rerun": false,
+    "locator_rerun": false
+  },
+  "later_storage_observation": {
+    "scope": "These three previously hashed paths were observed absent while collecting this already finished run, then restored byte-identically by root. This occurred after the q060 solve and locator terminal events; no cause of disappearance or effect on those completed mathematical runs is inferred. New executions should use the available current-session copies.",
+    "record": "/workspace/scratch/7322d0dee069/old_input_path_restoration.json",
+    "sha256": "0765304390cddc2a8a003fd216d4bc68114da36621354228f56c48c4efeebcf1",
+    "details": {
+      "scope": "Engineering restoration of exactly three missing, previously hashed read-only inputs. No existing file is overwritten; original bytes and expected SHA-256 are retained. The old scratch directory was observed absent; no deletion cause is inferred. This prevents a live original tail process from losing its sparse-helper path. New runs should use current-session copies.",
+      "observed_utc": "2026-11-17T23:23:36.573709+00:00",
+      "files": [
+        {
+          "original_path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "available_copy": "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+          "created_missing_only": true,
+          "bytes": 7463
+        },
+        {
+          "original_path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py",
+          "available_copy": "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+          "sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "created_missing_only": true,
+          "bytes": 3365
+        },
+        {
+          "original_path": "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "available_copy": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+          "sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "created_missing_only": true,
+          "bytes": 2987
+        }
+      ]
+    }
+  }
+}

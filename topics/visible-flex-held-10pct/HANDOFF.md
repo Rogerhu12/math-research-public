@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`6b91976ec23b93432b3233305de0a34d3aa93ba8`。2026-11-18 07:28:52（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`241a50f73ee59c32ff02f20e37158cb161be2384`。2026-11-18 07:31:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -38,7 +38,7 @@ R30共享engine原576段/990760标量逐位同值、576→8。旧q.0175/q.015及
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支**：beta4.625/q.040原联合metric6.91e−9/tail1.3768e−9。q.060首尾及单ULP重试失败已登记；新局部flow初值选stage45/component11正22ULP，原DN接受1.993008435e−9/208有限Jac，tail metric3.98433e−8/fullD2.81461e−4。复接原coupler36748后warmup通过，call3新H原线搜索3.2413445e−9失败，无接受联合终态；源/原门同请求恢复继续。见m3-q060-local-relaxation-tail-acceptance及旧定位/邻数失败notes。
+**q060高幅支**：beta4.625/q.040联合metric6.91e−9/tail1.3768e−9。q.060旧首尾/邻数失败已登记；局部flow初值使旧H尾原门1.993008435e−9接受/208Jac。36748续跑call1/2过，新H call3原线搜索3.2413445e−9失败；原576段逐位重放stage45/mode12=70ULP、stage43/mode15=3ULP，最低A非峰。原控制流证明临时内解success，但未存p/sol、无最终prefix/metric；见m3-q060-resumed-prefix-new-height-tail-failure。正在同请求原worker恢复及inner dump新入口，不从H反推失场或改门。
 
 ## 3. 全闭表示与严格连续metric
 
