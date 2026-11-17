@@ -42,3 +42,18 @@ python general_analytic_collar_design.py --trace NEW_Q17_TRACE --out Q17_CORRECT
 ```
 
 Q20_L65 的生成命令见前一条新短尾笔记。继续真正非线性振荡尾与新圆弧核心两条路线，不以这些有限优化停滞替代原题完成条件。
+
+
+## 分块稀疏扩充与执行中断
+
+修正G下界的nc18/M8重算在约81次评估时仍输出残差，随后执行session不可恢复且没有终态文件；三位并行任务也曾被标为interrupted。原因未确定，故此项只记执行中断，不给终态metric、也不作数学失败。其他已经保存的输入和成功输出保持可用。
+
+新入口 `scripts/refine_collar_design.py` 从保存的首试暖场出发，显式G-floor=.0005，将13个径向区间各分成2个、nc18→31，角修正M8→12。先对原五次B-spline精确插结点，再将原Fourier系数嵌入较大空间；端部三个零系数保持C²匹配。7个径向×48角点检查位置、一阶和二阶导数，六个最大差分别为2.22e−16、2.78e−17、2.78e−17、1.33e−15、5.55e−17、6.94e−18。
+
+优化残差和解析Jacobian按每2个径向点分块组装CSR，使用TRF/LSMR；角平均只沿同一径向截面，因此分块仅重排行，不改变原有限目标。每区间7点Gauss、144角点，共182×144个优化点；终态将独立检查601×384点。当前运行尚未结束，不把下降中的优化残差列为通过结论。
+
+```sh
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python refine_collar_design.py --trace NEW_Q17_TRACE --seed Q17_FIRST --out Q17_REFINED --subdivide 2 --m 12 --G-floor .0005 --chunk 2 --nfev 100 --lsmr-maxiter 500
+```
+
+精确保留初始表示不意味着后续固定g：后续优化仍可改变目标E和G，仍属设计。暂存的`.warm.json`仅用于中断后初值接续，明确标为provisional，禁止作为已审计实体或提交数据。
