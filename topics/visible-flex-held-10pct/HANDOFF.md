@@ -7,7 +7,7 @@
 构造连通闭曲面的连续 $C^2$ 等距嵌入族，固定有内点握持区 $H$，$\operatorname{diam}F_0(H)\ge0.2D$，整像 Hausdorff 变化 $\delta_{\rm hold}\ge0.1D$，含反射取商的 $\delta_{\rm E}>0$，全时 reach $\ge0.03D$。同一固定度量、物理参数和时间范围下，最大相对度量误差不超过 $10^{-6}$ 并随空间、频率、时间加密下降。材料点位移不是 $\delta_{\rm hold}$。
 
 - 已部分克隆、仅稀疏检出本题，执行真实 `git pull --rebase origin main`；根 README（含授权）和本题 README 全文已读。
-- 已读规则提交：`81510c5054544f1383de024dea494123d558dcc0`。2026-11-17 20:43:45（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 21:43:45；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`c9ce9cdcb36e432f5f6b7ceeb4d8455ab2b58409`。2026-11-17 20:54:51（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 21:54:51；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每个有意义的新结论与本文件同时更新，提交前 pull、核规则后普通 push；非快进立即 pull --rebase 再推。禁止 force push。令牌只在命令行临时使用。
 - 只有完整证明进 `results/`；数值证据和缺口分别标明。可重算数据、网格和渲染不提交，只保存生成脚本、参数、运行标识和 SHA-256；单 Markdown <100KB，本文件 <10KB。不写根 LOG。
 
@@ -22,7 +22,7 @@
 
 ## 当前工作
 
-**新主线R3：换握持放大。** 实际圆弧局部片的phase运动为QαX+bα；对整个族取逆刚体运动固定该片，D/reach/g/δE全保留。三重对称给整像dH≥√3|c|sin(kα/2)。k4、|c|≥.88、A=.14、D≤3.9、reach≥.118、H跨s±.42给held/D>.10800及Hdiam/D>.21519。前提仍未实现；true_a在做圆弧外支撑基及真实prefix，new_construction独立算窗口/传播，主会话保持完整集合证明与marker/闭合预算。
+**新主线R3：换握持放大。** 实际圆弧局部片的phase运动为QαX+bα；对整个族取逆刚体运动固定该片，D/reach/g/δE全保留。三重对称给整像dH≥√3|c|sin(kα/2)。k4、|c|≥.88、A=.14、D≤3.9、reach≥.118、H跨s±.42给held/D>.10800及Hdiam/D>.21519。R4已严证四组核/窗口预算，R=.25、normal宽1.2、phase.14给正材料余宽>.0499、held/D>.10837；脚本 `scripts/plateau_exact_budget.py` 仅有理区间。全局前提仍未实现；true_a在做圆弧外支撑基及真实prefix，new_construction独立算窗口/传播，主会话保持完整集合证明与marker/闭合预算。
 
 - 主会话：核对 R114 的实际构造，研究可见振幅与完整闭合尺寸的关系，建立本题的简洁可复现计算。
 - 并行 `true_a_analysis`：既有 true A 族的位移、直径和 reach 结构；只读原题，不重复其运行日志。
@@ -31,7 +31,7 @@
 
 复现与精化：`scripts/recover_prefix.py` + `prefix_recovery_manifest.json` 定点恢复旧q18/q20开放前缀，数据仅落scratch。q18保持物理delta=.17053856686761762与角向chart不变，M10→M16的采样metric L1从1.61704e-6降到2.54853e-7；端口非均值高度仍约.00976。M24仍在计算，不宣称完成；详见 notes/2026-11-17-archived-prefix-recovery-and-fixed-g.md。
 
-小切口计算：新增 `scripts/smallcut_prefix_sweep.py` + SHA清单，把cut降至.30/.35并重算线性chart与真实非线性前缀。r=.30、curvature=4、peak_fraction=.2已在新恢复环境通过q=.02/.04/.06；q=.06 metric≈4.07e-8、κ≈4.416、端口H≈.000727。旧p=.5在更小q出现负根域失败，不是不存在证明。本题独立 `.github/workflows/held10-smallcut-research.yml` 以最多2个并发跑8个不同新桥参数，输出仅日志摘要/hash，手动dispatch被GitHub以`Resource not accessible by personal access token`拒绝（HTTP403），现改为仓库已授权的普通push/指定请求文件触发；尚无CI数值结果。
+小切口计算：新增 `scripts/smallcut_prefix_sweep.py` + SHA清单，把cut降至.30/.35并重算线性chart与真实非线性前缀。r=.30、curvature=4、peak_fraction=.2已在新恢复环境通过q=.02/.04/.06；q=.06 metric≈4.07e-8、κ≈4.416、端口H≈.000727。旧p=.5在更小q出现负根域失败，不是不存在证明。本题独立 `.github/workflows/held10-smallcut-research.yml` 以最多2个并发跑8个不同新桥参数，输出仅日志摘要/hash，手动dispatch被GitHub以`Resource not accessible by personal access token`拒绝（HTTP403），现改为仓库已授权的普通push/指定请求文件触发；实际Actions run [44084871328](https://github.com/Rogerhu12/math-research-public/actions/runs/44084871328) 已运行，部分参数作业结束；正在取标量结果，作业success不等于数学成功。
 
 三场BVP：已实现完整Gauss–Codazzi并精确约束圆领端两jet；B=.9的24控制/4模重建metric约.0289，B=.7约.444，均淘汰。低频/末端残差不随简单加密消失，详见 notes/2026-11-17-gc-complete-bvp-attempts.md。继续小切口高振幅与振荡端表示，不将有限失败升级为不存在定理。
 
