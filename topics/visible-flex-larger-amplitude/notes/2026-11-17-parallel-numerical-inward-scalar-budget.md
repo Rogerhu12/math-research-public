@@ -95,3 +95,53 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
 ```
 
 所有 raw 留在 scratch。非线性入口另记实际终态，不能用本条参考预检预填成功。
+
+## 5. 新 g 的第一次完整实际延拓：s=.997
+
+用[新g入口](../scripts/parallel_20261117_continue_inward.py)调用原完整 Frenet BVP，只替换标量评价函数，所有338个方程、解析Jac、229个浅端行和109个深端行均保留。深端行由真实 `.995` 场计算，目标为该场的二阶位置外推。这是显式有限边界设计，不是整个内向尾的非线性 DN。
+
+新 g 从 `.995` 到 `.997`，duration=.002、step=.00025、M112/N2048、K3、tol=1e−8、max_nodes=1800，100.264572240秒后510节点、两轮网格，BVP真接受：RMS9.32556475754e−9、边界8.67362e−19。
+
+随后[新g实际quintic读者](../scripts/parallel_20261117_prefix_inward_readout.py)绑定输出中 mandatory 的 `inward_scalar_profile` 与源SHA。旧原 Profile 只描述其未改前缀，不能直接拿来读整个新场。与原读者相同，从共同节点F/Fs/Fss的唯一五次式计算实际0/1/2jet；N2048、每胞元4细分、509胞元，共5,212,160点。
+
+| 新 g 同一接受场的实际读数 | 值 |
+|---|---:|
+| 最大相对 Gram 算子误差 | **2.753578662839614e−6** |
+| 最坏位置 | s=.997，φ=2.705942109830271 |
+| 最大主曲率采样 | 6.301720635756675 |
+| core gap | .9600010353771838 |
+| 对既有点见证的最小距离 | .960001035377184 |
+| core rho最小采样 | .16601063267919747 |
+| 镜像开前缀D代理 | 3.5090195830980546 |
+
+虽然离散BVP接受，实际Gram已超过1e−6，不能据此宣称几何目标通过。区间末a′=.34384039496，尚未回头，前述终端参考盘还远未到达。D代理和gap仍不代表闭面比例；正在以同一新g、同一原`.995`边界参照提高角阶，处理这个具体误差，不沿失败或未接受状态计闭合。
+
+```text
+parallel_20261117_continue_inward.py
+86fd79df32938a5437bece1b1f7807e53976de4cfd8edf6e99ef1cca9bd88bfb
+parallel_20261117_prefix_inward_readout.py
+75218531458ed3c5a91c215b8d57282fe9f547bb598adaee59da647855a5d76a
+parallel-inward0997-m112.json.gz
+11960350cb15cc43334d039e161184a8f7b7caa0650311c96ae8b33eac69e327
+parallel-inward0997-m112-readout.json
+1dd74000ac836ebcd3302dcbce1a71b00be6611ca55fe35a1c00007d34f6c474
+```
+
+实际调用：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
+ topics/visible-flex-larger-amplitude/scripts/parallel_20261117_continue_inward.py \
+ --input /workspace/scratch/16f63c8bce6b/parallel-continue0995-m112.json.gz \
+ --duration .002 --step .00025 --modes 112 --angles 2048 --fixed-modes 3 \
+ --curvature 1.5 --ramp .02 --tol 1e-8 --max-nodes 1800 \
+ --out /workspace/scratch/16f63c8bce6b/parallel-inward0997-m112.json.gz
+
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
+ topics/visible-flex-larger-amplitude/scripts/parallel_20261117_prefix_inward_readout.py \
+ --input /workspace/scratch/16f63c8bce6b/parallel-inward0997-m112.json.gz \
+ --angles 2048 --radial-subdivisions 4 \
+ --out /workspace/scratch/16f63c8bce6b/parallel-inward0997-m112-readout.json
+```
+
+wrapper补入新g身份后最终raw的SHA如上；旧完整solver在补身份前打印的中间gzip SHA不冒最终文件SHA。所有源明确冻结，后续同g使用该参数与来源定义。
