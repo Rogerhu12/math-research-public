@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)保存全历史/失败/未付。[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全818胞/819片连续Gram<4.94e−7；全曲率686/818、加权支持249/819在环境中断后仅补缺，model唯一读者。原927f/8fa6和bf5a C²未达标；T-Pr0f原24/20预算已8接受，432乘积未完成本保，numerical按原--resume。R647新完整Gram-T [85c实际准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)1158250行/964边界、70c尺度及伴随核实；U0只158负零符号变化。[513唯一方向](notes/2026-11-17-parallel-root-direct-gram-integrated-direction.md)SSE6.19102e−10、node Gram4.98039e−6仍失败，不做A-only；新Gram预算efe92/1878与原Pr恢复97062并行，门不混。R649排同pulse/hold普通支持任意中心；R650 SPD流reach定理已付，实际闭尾/帽尚缺。闭面/D/H/held/反射E3/reach/全t/同g精化均未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)保存全历史/失败/未付。[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全818胞/819片连续Gram<4.94e−7；曲率80092/支持249旧片恢复只补缺，model唯一读者。原927f/8fa6和bf5a C²未达标；T-Pr0f原24/20预算已8接受，432乘积未完成本保，numerical按原--resume。R647新完整Gram-T [85c实际准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)1158250行/964边界、70c尺度及伴随核实；U0只158负零符号变化。[513唯一方向](notes/2026-11-17-parallel-root-direct-gram-integrated-direction.md)SSE6.19102e−10、node Gram4.98039e−6仍失败，不做A-only；新Gram预算efe92/1878与原Pr恢复97062并行，门不混。R649普通支持障碍保持；[14点加权](notes/2026-11-17-parallel-model-pulse-weighted-axis-support.md)复用原表全>.3193，R650闭图假设仍缺。闭面/D/H/held/反射E3/reach/全t/同g精化均未付。
 
 ## 实际活动run与唯一终态读者
 
