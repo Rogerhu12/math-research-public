@@ -1,0 +1,5 @@
+{
+  "old_sha256": "0f78bb4c30c0758acacb5049fcfec0f92b1eb0962b7db216922d3332a82d375b",
+  "new_sha256": "1fcbe65fb254659614809f40de337bcb52b7c921f60bfeaabdb7b3ded7af7204",
+  "reason": "Base BVP initializer constructed an unused legacy DirectionalBridge and raised before any nonlinear iteration. Install the same actual ShortBridge used by the complete custom metric; no equation or guard change."
+}

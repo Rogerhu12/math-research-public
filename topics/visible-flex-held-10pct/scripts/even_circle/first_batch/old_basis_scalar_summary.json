@@ -1,0 +1,83 @@
+{
+  "scope": "Independent old compact-basis low-moment conditioning diagnostic.\n\nNo PDE solve or new basis is performed. Conditioning and sampled rho are\nfloating diagnostics, not a general compatibility obstruction.\n",
+  "matrix_definition": "S[k,j] is the cosine support coefficient of b_j=f_j prime at frequency4(k+1); R[k,j]=(1-(4(k+1))^2)S[k,j]. Square submatrix drops primary k=0, since primary line is at its designed root.",
+  "conditioning": [
+    {
+      "M": 4,
+      "controls": 3,
+      "core_sector_length": 1.5707963267948966,
+      "complement_length": 1.0107963267948965,
+      "rho_moment_cond": 420.5802358308295,
+      "support_moment_cond": 206.9152204225428,
+      "rho_column_normalized_cond": 275.8164699451814,
+      "quadrature128_256_rho_maxdiff": 1.2218004385999848e-13
+    },
+    {
+      "M": 6,
+      "controls": 5,
+      "core_sector_length": 1.5707963267948966,
+      "complement_length": 1.0107963267948965,
+      "rho_moment_cond": 21571.703198490388,
+      "support_moment_cond": 9983.836927045673,
+      "rho_column_normalized_cond": 13518.82794524177,
+      "quadrature128_256_rho_maxdiff": 4.80039619166206e-13
+    },
+    {
+      "M": 8,
+      "controls": 7,
+      "core_sector_length": 1.5707963267948966,
+      "complement_length": 1.0107963267948965,
+      "rho_moment_cond": 576543.6592758273,
+      "support_moment_cond": 291803.20121916465,
+      "rho_column_normalized_cond": 344291.32229568926,
+      "quadrature128_256_rho_maxdiff": 7.391890918806432e-13
+    },
+    {
+      "M": 10,
+      "controls": 9,
+      "core_sector_length": 1.5707963267948966,
+      "complement_length": 1.0107963267948965,
+      "rho_moment_cond": 11543273.11477331,
+      "support_moment_cond": 6467079.161645904,
+      "rho_column_normalized_cond": 6282539.118992426,
+      "quadrature128_256_rho_maxdiff": 7.391890918806432e-13
+    },
+    {
+      "M": 12,
+      "controls": 11,
+      "core_sector_length": 1.5707963267948966,
+      "complement_length": 1.0107963267948965,
+      "rho_moment_cond": 192609675.9747045,
+      "support_moment_cond": 118828942.09837386,
+      "rho_column_normalized_cond": 87915486.50422034,
+      "quadrature128_256_rho_maxdiff": 9.837723084077377e-13
+    }
+  ],
+  "actual_lambda0_controls": {
+    "q": 0.005,
+    "M": 6,
+    "correction_l1": 139.48173686858496,
+    "correction_l2": 74.17068235594576,
+    "correction_linf": 48.90562064037248,
+    "low_support_primary": -2.073570847944608e-05,
+    "low_support_high_l1": 2.8695197098060257e-05,
+    "low_rho_high_l1": 0.0018484605154628466,
+    "full_compact_rho_correction_linf": 12.532058867116383,
+    "truncated_rho_correction_linf": 0.002019312753609892,
+    "compact_high_remainder_linf": 12.530039554362773,
+    "rho0_min_sample": 0.9234646875531889,
+    "rho_lambda015_min_sample": -0.809187424236685,
+    "lambda_first_zero_sample": 0.08551154495978495,
+    "phi_first_zero_sample": 0.7853981633974483,
+    "control_over_low_rho_l2": 41706.050500015954,
+    "inverse_rho_singular_max": 51163.11220059673,
+    "same_low_moments_recovered_control_relative_error": 3.6995590930858587e-13,
+    "scope": "Fixed old lambda0 control vector blended to exact compact support; failure of this predictor is not nonexistence of another nonlinear branch."
+  },
+  "source_sha256": {
+    "/workspace/scratch/f00f08c94d46/n4_meridian_work/audit_old_compact_basis.py": "3b8028d8e02bddd12b5887779cbe4675e07790c57dfcfd943cf5bf02b8bd1743",
+    "even_plateau_work/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "even_plateau_work/homotopy_plateau_core.py": "988bdff06db3adfa364ab16f5e4a9a83697df7eeea7f4603f38dfa36314534f6",
+    "even_plateau_work/runs/window-case1-q005-m6.json": "0788f4c9dca7ce71cf371c1d92bbd0cd143081c134c997a7f3461195e4886e6b"
+  }
+}

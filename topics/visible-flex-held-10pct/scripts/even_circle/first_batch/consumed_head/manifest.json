@@ -1,0 +1,89 @@
+{
+  "scope": "Frozen source/parameter/scalar package; generated arrays stay scratch.",
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "99f0c17d5a470b294724b8003194122a0ae3a85b654caf2c33abe30b989f6bba",
+      "bytes": 3042
+    },
+    {
+      "name": "audit_consumed_roots.py",
+      "sha256": "20f2360a1ad024b9c49893f837ee17069e60d33e3eaace7bac5e907c9067a305",
+      "bytes": 4077
+    },
+    {
+      "name": "case1-profile.json",
+      "sha256": "51a9e72aaed9c6eddab6f971cf45d3ac36d3a1fcdee7cf8ff09c2354e6cbd0b3",
+      "bytes": 288
+    },
+    {
+      "name": "case4-profile.json",
+      "sha256": "8c13e82b820e969562bd27fdba0041d2929ad062d564c78960465b822bd0734f",
+      "bytes": 288
+    },
+    {
+      "name": "consumed_short_profile.py",
+      "sha256": "96dd63525046024c43b0159bc8449af1f6850736811d356a92cf9acc67ffafc9",
+      "bytes": 3318
+    },
+    {
+      "name": "head_certificate.md",
+      "sha256": "ebbb8bbdba299de162f088c69e75e83071153c5d247c0b66b71b05b90e276a6d",
+      "bytes": 1590
+    },
+    {
+      "name": "linear_root_summary.json",
+      "sha256": "f0a17f57412bf2f121fe8b4acfb63f63897507a19333793e344fda1453e6d534",
+      "bytes": 4540
+    },
+    {
+      "name": "screen_consumed_short.py",
+      "sha256": "bfc1fbafe719926c57160f4aa93d901245d809bf5770dd92e4106b01e7cd06a6",
+      "bytes": 6552
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "plateau_core_work/consumed_window_profile.py",
+      "sha256": "80631d91bc07d8b3d778ebbce5d06383a15ce3044c7c12d99d6c79351769bd98"
+    },
+    {
+      "path": "smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+    }
+  ],
+  "physical_port_input": {
+    "path": "even_plateau_work/mode4_port8.json",
+    "sha256": "a8262deb57a935c81f78a7e1c17fca8f887f9d932d6cd101984fb208d18fb9e8",
+    "not_embedded": true
+  },
+  "executed_commands": [
+    [
+      "python",
+      "-u",
+      "n4_meridian_work/screen_consumed_short.py",
+      "--port",
+      "even_plateau_work/mode4_port8.json",
+      "--head-source",
+      "plateau_core_work/consumed_window_profile.py",
+      "--short-source",
+      "smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--out",
+      "n4_meridian_work/initial"
+    ],
+    [
+      "python",
+      "-u",
+      "n4_meridian_work/audit_consumed_roots.py",
+      "--port",
+      "even_plateau_work/mode4_port8.json",
+      "--head-source",
+      "plateau_core_work/consumed_window_profile.py",
+      "--short-source",
+      "smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--root",
+      "n4_meridian_work/initial/case1-root1",
+      "n4_meridian_work/initial/case4-root2"
+    ]
+  ]
+}

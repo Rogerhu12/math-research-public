@@ -1,0 +1,81 @@
+{
+  "scope": "Actual fresh-directory source/port/linear-data recovery only; no nonlinear BVP rerun.",
+  "runtime_directory": "/workspace/scratch/f00f08c94d46/n4_first_batch_recovery_check",
+  "recovered_source_manifest_sha256": "8e177f9cd0ab54d6db1d29baff4faad5ba5fda5f073c4743ab55d35dda73576e",
+  "recovered_source_count": 70,
+  "canonical_port_byte_equal_to_original": true,
+  "canonical_port_sha256": "a8262deb57a935c81f78a7e1c17fca8f887f9d932d6cd101984fb208d18fb9e8",
+  "linear_case_checks": [
+    {
+      "vu": 0.17,
+      "vd": 0.18,
+      "all_scalar_values_exact": true,
+      "profile_bytes_exact": true,
+      "chart_bytes_exact": true,
+      "profile_sha256": "4ce0db0bd3b9446ffbf7444baed8a9da43d77972acfcb41c78198c0909f88bd4",
+      "chart_sha256": "09c821e1feaa5fb065d34d54e0a7559f2c894af48282f237557ce651d3d873b3"
+    },
+    {
+      "vu": 0.25,
+      "vd": 0.3,
+      "all_scalar_values_exact": true,
+      "profile_bytes_exact": true,
+      "chart_bytes_exact": true,
+      "profile_sha256": "53a2602231a31192e34036ccc895c530a94fcc190c77d9fc21845c8c3b6d1646",
+      "chart_sha256": "5ed7aa42a32c71bea799d179273481d7ff7a8371d751a3d12b7fcfe61f5dff5b"
+    },
+    {
+      "vu": 0.25,
+      "vd": 0.5,
+      "all_scalar_values_exact": true,
+      "profile_bytes_exact": true,
+      "chart_bytes_exact": true,
+      "profile_sha256": "5e5a4b801d7a9f91e9f07d09a08f7675dadbe97e6b133db64bad3b63b56e598a",
+      "chart_sha256": "303106f2564b845b6c2d447cd80e9233ea8c836d78ae2e4c2111fef0c92a60ce"
+    },
+    {
+      "vu": 0.3,
+      "vd": 0.5,
+      "all_scalar_values_exact": true,
+      "profile_bytes_exact": true,
+      "chart_bytes_exact": true,
+      "profile_sha256": "d2aba54abd057c942c5c9babc82ea19429783d5ef44da55f31a781a84ef4aef0",
+      "chart_sha256": "43c77731d8b3cf74569519240a56efd18863d6ce493bacdf09a12b7046daab05"
+    },
+    {
+      "vu": 0.35,
+      "vd": 0.5,
+      "all_scalar_values_exact": true,
+      "profile_bytes_exact": true,
+      "chart_bytes_exact": true,
+      "profile_sha256": "58eb27dc0b9e13d85944b95ab10e2c95ac059cab24b8cc5cb4ddadae31ea0294",
+      "chart_sha256": "fb97027be8995c62a3aa3e930fddb6a092ef4686b4d7a5160f28defa16f00b18"
+    },
+    {
+      "vu": 0.35,
+      "vd": 0.6,
+      "all_scalar_values_exact": true,
+      "profile_bytes_exact": true,
+      "chart_bytes_exact": true,
+      "profile_sha256": "4caeb6d1718df921eeba81678b4b8598611ccdabc9ab09d3d5e24b3fd3b659fc",
+      "chart_sha256": "72070bff631ba620af6c9889d1de49710a741c5a4ea340cc6d334186a61bdb58"
+    },
+    {
+      "vu": 0.4,
+      "vd": 0.6,
+      "all_scalar_values_exact": true,
+      "profile_bytes_exact": true,
+      "chart_bytes_exact": true,
+      "profile_sha256": "de3d6a44817798e78eadab90528343db7038bf1062f38cf77c0c076773a0606e",
+      "chart_sha256": "4b8475393cb3e8625edeae64afe40ee807b87f43a3b5c8f136649de9acfe2d75"
+    }
+  ],
+  "reconstructed_bvp_command_count": 3,
+  "bvp_runs_executed": 0,
+  "source_transformation_record": {
+    "original_source_sha256": "86527b39818a6ae45cbc224e4c0c39d2ed89caa75edbd2b30b8e25c68ce3b6fc",
+    "adapter_sha256": "8f23e41d4e35146cb50f2dcdf9375530a7417182216533c47c58d2199a5f3edc",
+    "only_change": "Replace four absolute source/output path bindings; numerical source text otherwise unchanged",
+    "executed_transformed_sha256": "cfbe335c7bc9771612185c9519d6e5d57c046fe6325ec99f050e0d2b0d9dfd07"
+  }
+}

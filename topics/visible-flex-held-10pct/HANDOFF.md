@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`66419361baa8cad4423ace0f1d02894370bc8528`。2026-11-17 23:57:59（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 00:57:59；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`c35ff76bfde470fc95ed73b59cc3d4fe55926cb8`。2026-11-18 00:07:52（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 01:07:52；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -35,7 +35,7 @@ beta8实际联合q=.0002/.0004通过，q=.0006内层maxnodes失败不是容量�
 
 **m3真实联合最新**：q02已原950f成功，δ=.06105607686781097。固定同g M8径向/角图分段点入网后prefix metric2.747e−8→4.971e−9、全tensor2.975e−4→9.015e−6，tail仍M8 fullD2.345e−6/minA.442/K8.04；完整高度二jet缝≤6.17e−12，设计态512角Cartesian二jet≤8.61e−9。原prefix最大缺陷跨角样条断点，后仍有bridge插值缺口。采样D约2.291仅数值包围，幅度不足。M16原shoot校正Riccati条件1.28e11，line search失败res6.87e−7未过2e−9门；转M12/独立全shooting校正。q04/q06仅线性DN prefix（q06 secant成功metric1.144e−7/K9.411），不可冒称真联合。入口m3-smallcut-true-coupling-and-secant-prefix笔记及m3_coupled_seed_deliverable/m3_secant_deliverable，70源空目录/实际导出链已验。
 
-主会话新n4精确圆弧+中央直柱：R19已证明偶数中心对称整像dH≥中心位移、固定二fold帽简单谱排除全部全等；有理核心R=.325/c>.72061，α=39/250、ℓ=.7给shift>.34258。若完整D≤3.4、σ≥.11、K≤9.5，则held/D>.10075、reach/D≥10/323、Hdiam/D≥7/34，全部闭族前提未付。普通n4宽弧M4 λ1 metric.00407/全D3.801，固定M8触maxnodes；新负K head虽耗窗，但旧compact基高频放大使λ.15 rho失败。R19A已用Fraction给窄窗q=.06/R=.1/a=.145、α=.0285/ℓ=.51：若闭D≤2.5,K≤13.2,σ≥.08，则held>.10676,reach≥1/33,H/D≥.204。正解vu=vd.4/ramp.45窄弧；全闭前提未付。
+主会话新n4精确圆弧+中央直柱：R19已证明偶数中心对称整像dH≥中心位移、固定二fold帽简单谱排除全部全等；有理核心R=.325/c>.72061，α=39/250、ℓ=.7给shift>.34258。若完整D≤3.4、σ≥.11、K≤9.5，则held/D>.10075、reach/D≥10/323、Hdiam/D≥7/34，全部闭族前提未付。普通n4宽弧M4 λ1 metric.00407/全D3.801，固定M8触maxnodes；新负K head虽耗窗，但旧compact基高频放大使λ.15 rho失败。R19A已用Fraction给窄窗q=.06/R=.1/a=.145、α=.0285/ℓ=.51：若闭D≤2.5,K≤13.2,σ≥.08，则held>.10676,reach≥1/33,H/D≥.204。第一批55源/参数文件与70原源实际恢复见n4-first-batch-and-consumed-window笔记、scripts/even_circle/first_batch。两个新head有Fraction耗窗下界>.28，仍只有线性根。正解vu=vd.4/ramp.45窄弧；全闭前提未付。
 
 ## C. 接缝、A图与混合边值
 

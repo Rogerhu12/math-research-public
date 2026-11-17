@@ -1,0 +1,1570 @@
+{
+  "scope": "First completed n4 batch only. New narrow-window BVP runs are excluded. No entry supplies the required nonlinear closed family. Finite solver acceptance is separated from physical metric accuracy.",
+  "linear_cases": [
+    {
+      "vu": 0.17,
+      "vd": 0.18,
+      "delta": 0.03755101219603927,
+      "background_height": 1.0913285542582898,
+      "background_curvature": 3.9999989999215764,
+      "background_r_max": 1.0375510121960392,
+      "linear_H_per_q": 0.0002513881313193541,
+      "next_transversality": -0.1419804432522753,
+      "end": 1.6465340056969298,
+      "success": true,
+      "case": "vu17-vd18",
+      "profile": {
+        "direction": "outward",
+        "vu": 0.17,
+        "vd": 0.18,
+        "delta": 0.03755101219603927,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "profile_sha256": "4ce0db0bd3b9446ffbf7444baed8a9da43d77972acfcb41c78198c0909f88bd4",
+      "generated_chart_sha256": "09c821e1feaa5fb065d34d54e0a7559f2c894af48282f237557ce651d3d873b3"
+    },
+    {
+      "vu": 0.25,
+      "vd": 0.3,
+      "delta": 0.03581525000973438,
+      "background_height": 0.8105525656787262,
+      "background_curvature": 4.14866995963048,
+      "background_r_max": 1.0358152500097344,
+      "linear_H_per_q": 0.0004137172087324145,
+      "next_transversality": 0.16398218185054494,
+      "end": 1.368434214497074,
+      "success": true,
+      "case": "vu25-vd30",
+      "profile": {
+        "direction": "outward",
+        "vu": 0.25,
+        "vd": 0.3,
+        "delta": 0.03581525000973438,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "profile_sha256": "53a2602231a31192e34036ccc895c530a94fcc190c77d9fc21845c8c3b6d1646",
+      "generated_chart_sha256": "5ed7aa42a32c71bea799d179273481d7ff7a8371d751a3d12b7fcfe61f5dff5b"
+    },
+    {
+      "vu": 0.25,
+      "vd": 0.5,
+      "delta": 0.036237615570048724,
+      "background_height": 0.7319182325804126,
+      "background_curvature": 12.47067944707886,
+      "background_r_max": 1.0362376155700488,
+      "linear_H_per_q": 0.0005876073620145429,
+      "next_transversality": 0.16405445017971973,
+      "end": 1.2930684256341411,
+      "success": true,
+      "case": "vu25-vd50",
+      "profile": {
+        "direction": "outward",
+        "vu": 0.25,
+        "vd": 0.5,
+        "delta": 0.036237615570048724,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "profile_sha256": "5e5a4b801d7a9f91e9f07d09a08f7675dadbe97e6b133db64bad3b63b56e598a",
+      "generated_chart_sha256": "303106f2564b845b6c2d447cd80e9233ea8c836d78ae2e4c2111fef0c92a60ce"
+    },
+    {
+      "vu": 0.3,
+      "vd": 0.5,
+      "delta": 0.033658325570229713,
+      "background_height": 0.6688263689526762,
+      "background_curvature": 13.426327068992906,
+      "background_r_max": 1.0336583255702296,
+      "linear_H_per_q": 0.0006481702193007609,
+      "next_transversality": 0.18587896224178077,
+      "end": 1.2298773861134737,
+      "success": true,
+      "case": "vu30-vd50",
+      "profile": {
+        "direction": "outward",
+        "vu": 0.3,
+        "vd": 0.5,
+        "delta": 0.033658325570229713,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "profile_sha256": "d2aba54abd057c942c5c9babc82ea19429783d5ef44da55f31a781a84ef4aef0",
+      "generated_chart_sha256": "43c77731d8b3cf74569519240a56efd18863d6ce493bacdf09a12b7046daab05"
+    },
+    {
+      "vu": 0.35,
+      "vd": 0.5,
+      "delta": 0.031361380220384004,
+      "background_height": 0.6236136129387325,
+      "background_curvature": 14.40968747309228,
+      "background_r_max": 1.031361380220384,
+      "linear_H_per_q": 0.0007014802029871133,
+      "next_transversality": 0.20585010086779912,
+      "end": 1.184570109812953,
+      "success": true,
+      "case": "vu35-vd50",
+      "profile": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.5,
+        "delta": 0.031361380220384004,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "profile_sha256": "58eb27dc0b9e13d85944b95ab10e2c95ac059cab24b8cc5cb4ddadae31ea0294",
+      "generated_chart_sha256": "fb97027be8995c62a3aa3e930fddb6a092ef4686b4d7a5160f28defa16f00b18"
+    },
+    {
+      "vu": 0.35,
+      "vd": 0.6,
+      "delta": 0.029793023471475187,
+      "background_height": 0.5934654332871921,
+      "background_curvature": 23.507821441915297,
+      "background_r_max": 1.0297930234714752,
+      "linear_H_per_q": 0.000819664691531937,
+      "next_transversality": 0.19301534509284024,
+      "end": 1.1553222088058874,
+      "success": true,
+      "case": "vu35-vd60",
+      "profile": {
+        "direction": "outward",
+        "vu": 0.35,
+        "vd": 0.6,
+        "delta": 0.029793023471475187,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "profile_sha256": "4caeb6d1718df921eeba81678b4b8598611ccdabc9ab09d3d5e24b3fd3b659fc",
+      "generated_chart_sha256": "72070bff631ba620af6c9889d1de49710a741c5a4ea340cc6d334186a61bdb58"
+    },
+    {
+      "vu": 0.4,
+      "vd": 0.6,
+      "delta": 0.027873908040258178,
+      "background_height": 0.5625680445602189,
+      "background_curvature": 25.127923488048715,
+      "background_r_max": 1.0278739080402581,
+      "linear_H_per_q": 0.0008619826771097089,
+      "next_transversality": 0.21002951062992398,
+      "end": 1.1242610757687803,
+      "success": true,
+      "case": "vu40-vd60",
+      "profile": {
+        "direction": "outward",
+        "vu": 0.4,
+        "vd": 0.6,
+        "delta": 0.027873908040258178,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "profile_sha256": "de3d6a44817798e78eadab90528343db7038bf1062f38cf77c0c076773a0606e",
+      "generated_chart_sha256": "4b8475393cb3e8625edeae64afe40ee807b87f43a3b5c8f136649de9acfe2d75"
+    }
+  ],
+  "linear_screen_source_sha256": "86527b39818a6ae45cbc224e4c0c39d2ed89caa75edbd2b30b8e25c68ce3b6fc",
+  "linear_screen_report_sha256": "8eccb6cb0ee4831c6dad24624ae74a166e2c15ae686ccfbac325c1e32c26997d",
+  "linear_screen_source_transforms": {
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "replacements": [
+        [
+          "self.warp_e=8*float(warp_q)",
+          "self.warp_e=15*float(warp_q)",
+          1
+        ],
+        [
+          "3*psi",
+          "4*psi",
+          4
+        ],
+        [
+          "3*theta",
+          "4*theta",
+          4
+        ],
+        [
+          "np.sin(4*psi)/3",
+          "np.sin(4*psi)/4",
+          1
+        ],
+        [
+          "rho1=3*e",
+          "rho1=4*e",
+          1
+        ],
+        [
+          "cfg,port,q,M,angular,3,fixed",
+          "cfg,port,q,M,angular,4,fixed",
+          1
+        ],
+        [
+          "self.pscale,3)",
+          "self.pscale,4)",
+          1
+        ],
+        [
+          "*et/3",
+          "*et/4",
+          1
+        ],
+        [
+          "obj.M*3+1",
+          "obj.M*4+1",
+          1
+        ],
+        [
+          "base_mode=3,core_kind=",
+          "base_mode=4,core_kind=",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "replacements": [
+        [
+          "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+          "old=sys.modules['even_mode_warp']",
+          1
+        ],
+        [
+          "3*psi",
+          "4*psi",
+          5
+        ],
+        [
+          "3*theta",
+          "4*theta",
+          3
+        ],
+        [
+          "3*np.arange",
+          "4*np.arange",
+          1
+        ],
+        [
+          "*sn/3",
+          "*sn/4",
+          3
+        ],
+        [
+          "rho_p=3*e",
+          "rho_p=4*e",
+          1
+        ],
+        [
+          "rho_ps=3*ep",
+          "rho_ps=4*ep",
+          1
+        ],
+        [
+          "*et/3",
+          "*et/4",
+          1
+        ],
+        [
+          "max(64,self.nt),3,",
+          "max(64,self.nt),4,",
+          1
+        ],
+        [
+          "psi)/3-target",
+          "psi)/4-target",
+          2
+        ],
+        [
+          "obj.M*3+1",
+          "obj.M*4+1",
+          1
+        ],
+        [
+          "base_mode=3,core_kind=",
+          "base_mode=4,core_kind=",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "replacements": []
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+      "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "replacements": []
+    }
+  },
+  "runs": [
+    {
+      "name": "v25-q005-m4",
+      "original_arguments": {
+        "out": "runs/v25-q005-m4",
+        "modes": 4,
+        "q": 0.005,
+        "halfwidth": 0.28,
+        "transition": 0.04,
+        "center": 0.0,
+        "lambdas": [
+          0.0,
+          0.1,
+          0.3,
+          0.6,
+          1.0
+        ],
+        "nodes": 301,
+        "max_nodes": 2500,
+        "tol": 1e-06,
+        "angular": 192,
+        "restart": null,
+        "exact_lift": true,
+        "rank": false,
+        "fixed": false,
+        "profile": null,
+        "osculating": false,
+        "chart_file": "vu25-vd30/chart.json",
+        "source_topic": "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "port_file": null
+      },
+      "replay": {
+        "kind": "reconstructed replay from saved parsed arguments, with equivalent explicit source/port/default-profile paths; not a retained byte-for-byte shell argv",
+        "working_directory": "RUNTIME",
+        "command": [
+          "python",
+          "-u",
+          "even_plateau_prefix.py",
+          "--out",
+          "runs/v25-q005-m4",
+          "--modes",
+          "4",
+          "--q",
+          "0.005",
+          "--halfwidth",
+          "0.28",
+          "--transition",
+          "0.04",
+          "--center",
+          "0.0",
+          "--lambdas",
+          "0.0",
+          "0.1",
+          "0.3",
+          "0.6",
+          "1.0",
+          "--nodes",
+          "301",
+          "--max-nodes",
+          "2500",
+          "--tol",
+          "1e-06",
+          "--angular",
+          "192",
+          "--exact-lift",
+          "--profile",
+          "vu25-vd30/profile.json",
+          "--chart-file",
+          "vu25-vd30/chart.json",
+          "--source-topic",
+          "SOURCE_TOPIC",
+          "--port-file",
+          "mode4_port8.json"
+        ]
+      },
+      "run_summary_sha256": "38a8137520f4d9b0a9a526472dfc03806802fffa9f2feec8a3d633d98880f453",
+      "log_sha256": "3a28e3bb7b4fad95fd725b9ecf3b5aad363d252d37eeae7b0218f7c0aff7a53f",
+      "script": "even_plateau_prefix.py",
+      "source": {
+        "captured_source_sha256": "9614337cc5ed01dbea4cb85f344ceabc0c54824d610be0f6c1ca88cfd174c2b8",
+        "stored_execution_source_sha256": null,
+        "hash_status": "Original run did not record a top-level script hash; current frozen bytes and deterministic transform recipe are retained separately"
+      },
+      "source_transforms": {
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+          "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+          "replacements": [
+            [
+              "self.warp_e=8*float(warp_q)",
+              "self.warp_e=15*float(warp_q)",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              4
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              4
+            ],
+            [
+              "np.sin(4*psi)/3",
+              "np.sin(4*psi)/4",
+              1
+            ],
+            [
+              "rho1=3*e",
+              "rho1=4*e",
+              1
+            ],
+            [
+              "cfg,port,q,M,angular,3,fixed",
+              "cfg,port,q,M,angular,4,fixed",
+              1
+            ],
+            [
+              "self.pscale,3)",
+              "self.pscale,4)",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+          "replacements": [
+            [
+              "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+              "old=sys.modules['even_mode_warp']",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              5
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              3
+            ],
+            [
+              "3*np.arange",
+              "4*np.arange",
+              1
+            ],
+            [
+              "*sn/3",
+              "*sn/4",
+              3
+            ],
+            [
+              "rho_p=3*e",
+              "rho_p=4*e",
+              1
+            ],
+            [
+              "rho_ps=3*ep",
+              "rho_ps=4*ep",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "max(64,self.nt),3,",
+              "max(64,self.nt),4,",
+              1
+            ],
+            [
+              "psi)/3-target",
+              "psi)/4-target",
+              2
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+          "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+          "replacements": []
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+          "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+          "replacements": []
+        }
+      },
+      "rows": [
+        {
+          "homotopy": 0.0,
+          "q": 0.005,
+          "modes": 4,
+          "success": true,
+          "nodes": 461,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.895294271316926e-07,
+          "max_bc": 2.5164421780407872e-14,
+          "delta": 0.03581543528490199,
+          "seconds": 21.86365842819214,
+          "physical_audit": {
+            "metric_l1": 5.267268901621987e-09,
+            "flow_defect": 7.310701087335187e-09,
+            "darboux_l1": 4.741045397465666e-05,
+            "kappa_sample": 4.267043840532269,
+            "radius_max": 1.037925620324988,
+            "height_max": 0.8105301665014066,
+            "root_min": 0.004017717124652487,
+            "chart_rho_min": 0.9249999999999999,
+            "support_amplitude": 0.005,
+            "terminal_height_coeff_max": 2.0682582470874786e-06,
+            "physical_bc_max": 2.5164421780407873e-16,
+            "samples_s": 1070,
+            "samples_psi": 272
+          },
+          "core_audit": {
+            "base_mode": 4,
+            "q_parameter": 0.005,
+            "halfwidth": 0.28,
+            "transition": 0.04,
+            "homotopy": 0.0,
+            "center": 0.0,
+            "exact_circle_only_at_homotopy_one": false,
+            "plateau_radius_at_one": 0.925,
+            "plateau_normal_width": 0.56,
+            "plateau_material_length": 0.5262325297665345,
+            "exact_perimeter": 6.283185307179586,
+            "rho_lower_conservative": 0.9167957113128853,
+            "rho_triangle_lower": 0.7083770142159345,
+            "positivity_grid_per_sector": 512,
+            "rho_derivative_bound": 5.2922232109106355,
+            "rho_min_sample": 0.9249138800436246,
+            "rho_max_sample": 1.0748779618643447,
+            "curvature_max_sample": 1.081181741972381,
+            "radius_max_sample": 1.0050006240288307,
+            "quadrature_period_roundoff": -7.993605777301127e-15,
+            "control_projection_order": 4
+          },
+          "core_control_l1": 0.21662298578406564,
+          "core_control_linf": 0.10871939470555525,
+          "inlet_projection": {
+            "position": 0.0,
+            "first": 0.0,
+            "second": 0.0,
+            "metric_l1": 0.0,
+            "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+            "unlifted_projection": {
+              "position": 1.3764920262647796e-12,
+              "first": 2.42563638437059e-11,
+              "second": 4.865820037020542e-10,
+              "metric_l1": 5.243584670818212e-11
+            }
+          },
+          "local_patch_audit": {
+            "scope": "Sampled full-map two-jet comparison with the exact circular local model.\nThe characteristic window is numerical; no continuous enclosure is claimed.\n",
+            "actual_inlet": {
+              "position": 2.220446049250313e-16,
+              "first": 4.965068306494546e-16,
+              "second": 5.184876920813396e-15,
+              "metric": 9.992007221626409e-16
+            }
+          },
+          "checkpoint_sha256": "6ad28b4fe888ab0350e6d407f34d08d5851706048cc297ea4925a70d696de510",
+          "accepted_metric_requirement": true
+        },
+        {
+          "homotopy": 0.1,
+          "q": 0.005,
+          "modes": 4,
+          "success": true,
+          "nodes": 464,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.989196233743447e-07,
+          "max_bc": 3.532315770177902e-14,
+          "delta": 0.035642467348311786,
+          "seconds": 21.10310387611389,
+          "physical_audit": {
+            "metric_l1": 0.00033565865677983025,
+            "flow_defect": 0.00919305056555278,
+            "darboux_l1": 0.2289648452798677,
+            "kappa_sample": 4.288209191975772,
+            "radius_max": 1.0377610766623715,
+            "height_max": 0.80842302865828,
+            "root_min": 0.004009605650399095,
+            "chart_rho_min": 0.9249999999999999,
+            "support_amplitude": 0.005,
+            "terminal_height_coeff_max": 2.073803786708302e-06,
+            "physical_bc_max": 4.34993637713548e-19,
+            "samples_s": 1076,
+            "samples_psi": 272
+          },
+          "core_audit": {
+            "base_mode": 4,
+            "q_parameter": 0.005,
+            "halfwidth": 0.28,
+            "transition": 0.04,
+            "homotopy": 0.1,
+            "center": 0.0,
+            "exact_circle_only_at_homotopy_one": false,
+            "plateau_radius_at_one": 0.925,
+            "plateau_normal_width": 0.56,
+            "plateau_material_length": 0.5260002395887053,
+            "exact_perimeter": 6.283185307179586,
+            "rho_lower_conservative": 0.8276021560120124,
+            "rho_triangle_lower": -1.7701892505522603,
+            "positivity_grid_per_sector": 512,
+            "rho_derivative_bound": 62.39813431736173,
+            "rho_min_sample": 0.923319695254753,
+            "rho_max_sample": 1.1087964964570094,
+            "curvature_max_sample": 1.0830484881231632,
+            "radius_max_sample": 1.005009196641066,
+            "quadrature_period_roundoff": -7.549516567451064e-15,
+            "control_projection_order": 4
+          },
+          "core_control_l1": 2.6951892505522603,
+          "core_control_linf": 1.2813370795550814,
+          "inlet_projection": {
+            "position": 0.0,
+            "first": 0.0,
+            "second": 0.0,
+            "metric_l1": 0.0,
+            "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+            "unlifted_projection": {
+              "position": 4.4074865625195484e-05,
+              "first": 0.001208992215714046,
+              "second": 0.034102532101577494,
+              "metric_l1": 6.6722683447098e-07
+            }
+          },
+          "local_patch_audit": {
+            "scope": "Sampled full-map two-jet comparison with the exact circular local model.\nThe characteristic window is numerical; no continuous enclosure is claimed.\n",
+            "actual_inlet": {
+              "position": 8.005932084973442e-16,
+              "first": 4.6497009778816265e-15,
+              "second": 6.247162907517535e-14,
+              "metric": 9.325873406851315e-15
+            }
+          },
+          "checkpoint_sha256": "5754102b36f35ae952b3101b993d574ef4e07d983d846f7a39cc0ab05e867e90",
+          "accepted_metric_requirement": false
+        },
+        {
+          "homotopy": 0.3,
+          "q": 0.005,
+          "modes": 4,
+          "success": true,
+          "nodes": 500,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.9850098482687e-07,
+          "max_bc": 2.105253363131332e-13,
+          "delta": 0.033853966812358416,
+          "seconds": 27.85616135597229,
+          "physical_audit": {
+            "metric_l1": 0.0011985334205181842,
+            "flow_defect": 0.030894765996856057,
+            "darboux_l1": 0.9308747340550872,
+            "kappa_sample": 4.533061199316071,
+            "radius_max": 1.036053481322373,
+            "height_max": 0.7865510164732623,
+            "root_min": 0.0039037858441521855,
+            "chart_rho_min": 0.9249999999999999,
+            "support_amplitude": 0.005,
+            "terminal_height_coeff_max": 2.1257341305680162e-06,
+            "physical_bc_max": 5.086704915720361e-19,
+            "samples_s": 1148,
+            "samples_psi": 272
+          },
+          "core_audit": {
+            "base_mode": 4,
+            "q_parameter": 0.005,
+            "halfwidth": 0.28,
+            "transition": 0.04,
+            "homotopy": 0.3,
+            "center": 0.0,
+            "exact_circle_only_at_homotopy_one": false,
+            "plateau_radius_at_one": 0.925,
+            "plateau_normal_width": 0.56,
+            "plateau_material_length": 0.5246847264756038,
+            "exact_perimeter": 6.283185307179586,
+            "rho_lower_conservative": 0.7974067445988359,
+            "rho_triangle_lower": -2.5480473308869627,
+            "positivity_grid_per_sector": 512,
+            "rho_derivative_bound": 80.71449097726723,
+            "rho_min_sample": 0.9212212230619328,
+            "rho_max_sample": 1.1908215186511317,
+            "curvature_max_sample": 1.0855155905725058,
+            "radius_max_sample": 1.0050302739636416,
+            "quadrature_period_roundoff": -5.773159728050814e-15,
+            "control_projection_order": 4
+          },
+          "core_control_l1": 3.4730473308869625,
+          "core_control_linf": 1.5824729392076384,
+          "inlet_projection": {
+            "position": 0.0,
+            "first": 0.0,
+            "second": 0.0,
+            "metric_l1": 0.0,
+            "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+            "unlifted_projection": {
+              "position": 0.00014644017751674567,
+              "first": 0.0041835208743654624,
+              "second": 0.12824189962708374,
+              "metric_l1": 8.558381413430689e-06
+            }
+          },
+          "local_patch_audit": {
+            "scope": "Sampled full-map two-jet comparison with the exact circular local model.\nThe characteristic window is numerical; no continuous enclosure is claimed.\n",
+            "actual_inlet": {
+              "position": 1.0515078113608736e-13,
+              "first": 3.555228138027165e-14,
+              "second": 7.53359896457551e-13,
+              "metric": 5.262457136723242e-14
+            }
+          },
+          "checkpoint_sha256": "8a279d06c0d05ccf1f08c2243f792828b77fd49f9886d1cbd863f396f132d5be",
+          "accepted_metric_requirement": false
+        },
+        {
+          "homotopy": 0.6,
+          "q": 0.005,
+          "modes": 4,
+          "success": true,
+          "nodes": 1027,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 8.652357680228566e-07,
+          "max_bc": 7.275941567336146e-13,
+          "delta": 0.030748034389116486,
+          "seconds": 63.619221925735474,
+          "physical_audit": {
+            "metric_l1": 0.002332474256727271,
+            "flow_defect": 0.05112463152938487,
+            "darboux_l1": 1.998055894093242,
+            "kappa_sample": 5.0231817028105565,
+            "radius_max": 1.0330940708237961,
+            "height_max": 0.7484915892027475,
+            "root_min": 0.003705385305017961,
+            "chart_rho_min": 0.9249999999999999,
+            "support_amplitude": 0.005,
+            "terminal_height_coeff_max": 2.2183172352575323e-06,
+            "physical_bc_max": 7.275941567336146e-15,
+            "samples_s": 2202,
+            "samples_psi": 272
+          },
+          "core_audit": {
+            "base_mode": 4,
+            "q_parameter": 0.005,
+            "halfwidth": 0.28,
+            "transition": 0.04,
+            "homotopy": 0.6,
+            "center": 0.0,
+            "exact_circle_only_at_homotopy_one": false,
+            "plateau_radius_at_one": 0.925,
+            "plateau_normal_width": 0.56,
+            "plateau_material_length": 0.5219646753664012,
+            "exact_perimeter": 6.283185307179586,
+            "rho_lower_conservative": 0.7463248054940651,
+            "rho_triangle_lower": -2.4196246687392495,
+            "positivity_grid_per_sector": 512,
+            "rho_derivative_bound": 78.70823269184088,
+            "rho_min_sample": 0.8670617222917816,
+            "rho_max_sample": 1.2685429837314226,
+            "curvature_max_sample": 1.1533204318567327,
+            "radius_max_sample": 1.0050500547398522,
+            "quadrature_period_roundoff": -2.220446049250313e-15,
+            "control_projection_order": 4
+          },
+          "core_control_l1": 3.3446246687392494,
+          "core_control_linf": 1.4373196436402813,
+          "inlet_projection": {
+            "position": 0.0,
+            "first": 0.0,
+            "second": 0.0,
+            "metric_l1": 0.0,
+            "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+            "unlifted_projection": {
+              "position": 0.00023377881137564256,
+              "first": 0.006854539003153986,
+              "second": 0.2388697203130294,
+              "metric_l1": 2.4691197105346623e-05
+            }
+          },
+          "local_patch_audit": {
+            "scope": "Sampled full-map two-jet comparison with the exact circular local model.\nThe characteristic window is numerical; no continuous enclosure is claimed.\n",
+            "actual_inlet": {
+              "position": 1.2949084712811981e-13,
+              "first": 2.456805404462954e-13,
+              "second": 5.748302900009898e-13,
+              "metric": 4.96269692007445e-14
+            }
+          },
+          "checkpoint_sha256": "1d89920e80262b2f7e123348f04ba79abb8de51d910526d2c3a4122549a5b767",
+          "accepted_metric_requirement": false
+        },
+        {
+          "homotopy": 1.0,
+          "q": 0.005,
+          "modes": 4,
+          "success": true,
+          "nodes": 1202,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 8.549477007161003e-07,
+          "max_bc": 5.575237912761309e-10,
+          "delta": 0.026959525715603845,
+          "seconds": 88.10448670387268,
+          "physical_audit": {
+            "metric_l1": 0.004071609593278621,
+            "flow_defect": 0.07458822836383064,
+            "darboux_l1": 3.8010500761857955,
+            "kappa_sample": 5.795132136273143,
+            "radius_max": 1.0294902438965574,
+            "height_max": 0.7019041937119811,
+            "root_min": 0.0034249362456090227,
+            "chart_rho_min": 0.9249999999999999,
+            "support_amplitude": 0.005,
+            "terminal_height_coeff_max": 2.354006587028941e-06,
+            "physical_bc_max": 5.5752379127613095e-12,
+            "samples_s": 2552,
+            "samples_psi": 272
+          },
+          "core_audit": {
+            "base_mode": 4,
+            "q_parameter": 0.005,
+            "halfwidth": 0.28,
+            "transition": 0.04,
+            "homotopy": 1.0,
+            "center": 0.0,
+            "exact_circle_only_at_homotopy_one": true,
+            "plateau_radius_at_one": 0.925,
+            "plateau_normal_width": 0.56,
+            "plateau_material_length": 0.518,
+            "exact_perimeter": 6.283185307179586,
+            "rho_lower_conservative": 0.6580519933931358,
+            "rho_triangle_lower": -2.527419814513025,
+            "positivity_grid_per_sector": 512,
+            "rho_derivative_bound": 82.12940554512625,
+            "rho_min_sample": 0.7840369236198279,
+            "rho_max_sample": 1.350679782332255,
+            "curvature_max_sample": 1.2754501349032008,
+            "radius_max_sample": 1.0050688583247607,
+            "quadrature_period_roundoff": 1.7763568394002505e-15,
+            "control_projection_order": 4
+          },
+          "core_control_l1": 3.4524198145130254,
+          "core_control_linf": 1.4944697443187758,
+          "inlet_projection": {
+            "position": 0.0,
+            "first": 0.0,
+            "second": 0.0,
+            "metric_l1": 0.0,
+            "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+            "unlifted_projection": {
+              "position": 0.0003170590183143101,
+              "first": 0.009111510038777066,
+              "second": 0.3733515363469084,
+              "metric_l1": 4.7995991662898055e-05
+            }
+          },
+          "local_patch_audit": {
+            "scope": "Sampled full-map two-jet comparison with the exact circular local model.\nThe characteristic window is numerical; no continuous enclosure is claimed.\n",
+            "actual_inlet": {
+              "position": 5.2039979704297865e-14,
+              "first": 4.3896168967917756e-14,
+              "second": 6.201908983687673e-12,
+              "metric": 8.770761894538737e-14
+            },
+            "radius": 0.925,
+            "normal_width": 0.56,
+            "characteristic_loss_at_end": 0.12345571127051529,
+            "sampled_patch_end": 0.10783810286241538,
+            "sampled_points": 2294,
+            "patch_twojet_errors": {
+              "X": 0.00011165728807197,
+              "Xs": 0.002547284388964244,
+              "Xu": 0.0035662060665108374,
+              "Xss": 0.1573299563024634,
+              "Xsu": 0.06529315603101253,
+              "Xuu": 0.044214759716624225
+            },
+            "local_height_quadrature": "trapezoid on recorded s grid; this contributes to X error only"
+          },
+          "checkpoint_sha256": "8e949a8408ae2e94c4cce8085db8f7b0a41d3a99acfad2e6bbd459224bf9b0d3",
+          "accepted_metric_requirement": false
+        }
+      ]
+    },
+    {
+      "name": "v25-q005-frozen-m8",
+      "original_arguments": {
+        "out": "runs/v25-q005-frozen-m8",
+        "modes": 8,
+        "q": 0.005,
+        "halfwidth": 0.28,
+        "transition": 0.04,
+        "center": 0.0,
+        "lambdas": [
+          1.0
+        ],
+        "nodes": 301,
+        "max_nodes": 3000,
+        "tol": 3e-07,
+        "angular": 256,
+        "restart": "runs/v25-q005-m4-lam1.json.gz",
+        "exact_lift": true,
+        "rank": false,
+        "fixed": true,
+        "profile": "v25-q005-lam1-frozen-profile.json",
+        "osculating": false,
+        "chart_file": "vu25-vd30/chart.json",
+        "source_topic": "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "port_file": null
+      },
+      "replay": {
+        "kind": "reconstructed replay from saved parsed arguments, with equivalent explicit source/port/default-profile paths; not a retained byte-for-byte shell argv",
+        "working_directory": "RUNTIME",
+        "command": [
+          "python",
+          "-u",
+          "even_plateau_prefix.py",
+          "--out",
+          "runs/v25-q005-frozen-m8",
+          "--modes",
+          "8",
+          "--q",
+          "0.005",
+          "--halfwidth",
+          "0.28",
+          "--transition",
+          "0.04",
+          "--center",
+          "0.0",
+          "--lambdas",
+          "1.0",
+          "--nodes",
+          "301",
+          "--max-nodes",
+          "3000",
+          "--tol",
+          "3e-07",
+          "--angular",
+          "256",
+          "--restart",
+          "runs/v25-q005-m4-lam1.json.gz",
+          "--exact-lift",
+          "--fixed",
+          "--profile",
+          "v25-q005-lam1-frozen-profile.json",
+          "--chart-file",
+          "vu25-vd30/chart.json",
+          "--source-topic",
+          "SOURCE_TOPIC",
+          "--port-file",
+          "mode4_port8.json"
+        ]
+      },
+      "run_summary_sha256": "20ef3db0ef35d2072d0cd4a58eca8682b2193ca3ed87ba3d31b2ccb044333729",
+      "log_sha256": "8776880b437dfd891c2a3f4ec3ffd3bbec52bff96dea17611506d34e86e9cb36",
+      "script": "even_plateau_prefix.py",
+      "source": {
+        "captured_source_sha256": "9614337cc5ed01dbea4cb85f344ceabc0c54824d610be0f6c1ca88cfd174c2b8",
+        "stored_execution_source_sha256": null,
+        "hash_status": "Original run did not record a top-level script hash; current frozen bytes and deterministic transform recipe are retained separately"
+      },
+      "source_transforms": {
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+          "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+          "replacements": [
+            [
+              "self.warp_e=8*float(warp_q)",
+              "self.warp_e=15*float(warp_q)",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              4
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              4
+            ],
+            [
+              "np.sin(4*psi)/3",
+              "np.sin(4*psi)/4",
+              1
+            ],
+            [
+              "rho1=3*e",
+              "rho1=4*e",
+              1
+            ],
+            [
+              "cfg,port,q,M,angular,3,fixed",
+              "cfg,port,q,M,angular,4,fixed",
+              1
+            ],
+            [
+              "self.pscale,3)",
+              "self.pscale,4)",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+          "replacements": [
+            [
+              "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+              "old=sys.modules['even_mode_warp']",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              5
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              3
+            ],
+            [
+              "3*np.arange",
+              "4*np.arange",
+              1
+            ],
+            [
+              "*sn/3",
+              "*sn/4",
+              3
+            ],
+            [
+              "rho_p=3*e",
+              "rho_p=4*e",
+              1
+            ],
+            [
+              "rho_ps=3*ep",
+              "rho_ps=4*ep",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "max(64,self.nt),3,",
+              "max(64,self.nt),4,",
+              1
+            ],
+            [
+              "psi)/3-target",
+              "psi)/4-target",
+              2
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+          "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+          "replacements": []
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+          "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+          "replacements": []
+        }
+      },
+      "rows": [
+        {
+          "homotopy": 1.0,
+          "q": 0.005,
+          "modes": 8,
+          "success": false,
+          "nodes": 1202,
+          "message": "The maximum number of mesh nodes is exceeded.",
+          "max_rms": 1.858999401324427,
+          "max_bc": 0.12150950550612027,
+          "delta": 0.026959525715603845,
+          "seconds": 454.17635321617126,
+          "physical_audit": {},
+          "core_audit": {
+            "base_mode": 4,
+            "q_parameter": 0.0015427419366535512,
+            "halfwidth": 0.28,
+            "transition": 0.04,
+            "homotopy": 1.0,
+            "center": 0.0,
+            "exact_circle_only_at_homotopy_one": true,
+            "plateau_radius_at_one": 0.9768588709501967,
+            "plateau_normal_width": 0.56,
+            "plateau_material_length": 0.5470409677321102,
+            "exact_perimeter": 6.283185307179586,
+            "rho_lower_conservative": 0.17606607927909979,
+            "rho_triangle_lower": -15.620505927500313,
+            "positivity_grid_per_sector": 1024,
+            "rho_derivative_bound": 638.6462709177407,
+            "rho_min_sample": 0.665901634200411,
+            "rho_max_sample": 1.448893423705683,
+            "curvature_max_sample": 1.5017233006204609,
+            "radius_max_sample": 1.0015639880617129,
+            "quadrature_period_roundoff": 1.7763568394002505e-15,
+            "control_projection_order": 8
+          },
+          "core_control_l1": 16.59736479845051,
+          "core_control_linf": 5.388785637781439,
+          "inlet_projection": {
+            "position": 0.0,
+            "first": 0.0,
+            "second": 0.0,
+            "metric_l1": 0.0,
+            "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+            "unlifted_projection": {
+              "position": 0.00018766479347852958,
+              "first": 0.007709249530562745,
+              "second": 0.5612695002680668,
+              "metric_l1": 0.00015375614499771832
+            }
+          },
+          "checkpoint_sha256": "ee607c454e339a00c1ca8a4077a28ac88dca574796cb507f2dee0ae109581c7e",
+          "accepted_metric_requirement": false
+        }
+      ]
+    },
+    {
+      "name": "window-case1-q005-m6",
+      "original_arguments": {
+        "out": "runs/window-case1-q005-m6",
+        "source_topic": "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "port_file": "mode4_port8.json",
+        "profile": "/workspace/scratch/f00f08c94d46/n4_meridian_work/initial/case1-root1/profile.json",
+        "q": 0.005,
+        "modes": 6,
+        "control": "stop_acceleration",
+        "control_bracket": null,
+        "halfwidth": 0.28,
+        "transition": 0.12,
+        "center": 0.0,
+        "lambdas": [
+          0.0,
+          0.15,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 351,
+        "max_nodes": 3000,
+        "tol": 1e-06,
+        "angular": 256,
+        "fixed": false,
+        "restart": null,
+        "rank": false,
+        "analytic_parameters": true,
+        "core_basis": "moment-homotopy",
+        "check_parameters": false
+      },
+      "replay": {
+        "kind": "reconstructed replay from saved parsed arguments, with equivalent explicit source/port/default-profile paths; not a retained byte-for-byte shell argv",
+        "working_directory": "RUNTIME",
+        "command": [
+          "python",
+          "-u",
+          "even_window_prefix.py",
+          "--out",
+          "runs/window-case1-q005-m6",
+          "--source-topic",
+          "SOURCE_TOPIC",
+          "--port-file",
+          "mode4_port8.json",
+          "--profile",
+          "case1-profile.json",
+          "--q",
+          "0.005",
+          "--modes",
+          "6",
+          "--control",
+          "stop_acceleration",
+          "--halfwidth",
+          "0.28",
+          "--transition",
+          "0.12",
+          "--center",
+          "0.0",
+          "--lambdas",
+          "0.0",
+          "0.15",
+          "0.4",
+          "0.7",
+          "1.0",
+          "--nodes",
+          "351",
+          "--max-nodes",
+          "3000",
+          "--tol",
+          "1e-06",
+          "--angular",
+          "256",
+          "--analytic-parameters",
+          "--core-basis",
+          "moment-homotopy"
+        ]
+      },
+      "run_summary_sha256": "0788f4c9dca7ce71cf371c1d92bbd0cd143081c134c997a7f3461195e4886e6b",
+      "log_sha256": "2025eb68bc38823b2a5e096a168e56f7ef60e55353dc1e6e35caaf6fa2e8627d",
+      "script": "even_window_prefix.py",
+      "source": {
+        "captured_source_sha256": "1fcbe65fb254659614809f40de337bcb52b7c921f60bfeaabdb7b3ded7af7204",
+        "stored_execution_source_sha256": "1fcbe65fb254659614809f40de337bcb52b7c921f60bfeaabdb7b3ded7af7204",
+        "hash_status": "Matches source hash retained in executed run"
+      },
+      "source_transforms": {
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+          "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+          "replacements": [
+            [
+              "self.warp_e=8*float(warp_q)",
+              "self.warp_e=15*float(warp_q)",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              4
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              4
+            ],
+            [
+              "np.sin(4*psi)/3",
+              "np.sin(4*psi)/4",
+              1
+            ],
+            [
+              "rho1=3*e",
+              "rho1=4*e",
+              1
+            ],
+            [
+              "cfg,port,q,M,angular,3,fixed",
+              "cfg,port,q,M,angular,4,fixed",
+              1
+            ],
+            [
+              "self.pscale,3)",
+              "self.pscale,4)",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+          "replacements": [
+            [
+              "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+              "old=sys.modules['even_mode_warp']",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              5
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              3
+            ],
+            [
+              "3*np.arange",
+              "4*np.arange",
+              1
+            ],
+            [
+              "*sn/3",
+              "*sn/4",
+              3
+            ],
+            [
+              "rho_p=3*e",
+              "rho_p=4*e",
+              1
+            ],
+            [
+              "rho_ps=3*ep",
+              "rho_ps=4*ep",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "max(64,self.nt),3,",
+              "max(64,self.nt),4,",
+              1
+            ],
+            [
+              "psi)/3-target",
+              "psi)/4-target",
+              2
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+          "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+          "replacements": []
+        }
+      },
+      "rows": [
+        {
+          "homotopy": 0.0,
+          "q": 0.005,
+          "modes": 6,
+          "success": true,
+          "nodes": 767,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.95920748034739e-07,
+          "max_bc": 5.627020816023674e-15,
+          "seconds": 42.013877630233765,
+          "physical_audit": {
+            "metric_l1": 0.00016787001731725348,
+            "flow_defect": 0.0008087884621320852,
+            "darboux_l1": 0.07502517918510349,
+            "kappa_sample": 8.03155680682087,
+            "radius_max": 1.1169925840692791,
+            "height_max": 1.0443186032189018,
+            "root_min": 0.003544111690264029,
+            "chart_rho_min": 1.0,
+            "support_amplitude": 0.005,
+            "terminal_height_coeff_max": 2.0558540895147406e-05,
+            "physical_bc_max": 4.035914297500341e-19,
+            "samples_s": 1650,
+            "samples_psi": 400
+          },
+          "core_audit": {
+            "base_mode": 4,
+            "q_parameter": 0.005,
+            "halfwidth": 0.28,
+            "transition": 0.12,
+            "homotopy": 0.0,
+            "center": 0.0,
+            "exact_circle_only_at_homotopy_one": false,
+            "plateau_radius_at_one": 0.925,
+            "plateau_normal_width": 0.56,
+            "plateau_material_length": 0.5260404633002781,
+            "exact_perimeter": 6.283185307179586,
+            "rho_lower_conservative": 0.08821233960860064,
+            "rho_triangle_lower": -138.55673686858495,
+            "positivity_grid_per_sector": 4096,
+            "rho_derivative_bound": 4355.999003590424,
+            "rho_min_sample": 0.9234646875531889,
+            "rho_max_sample": 1.07298068724639,
+            "curvature_max_sample": 1.0828784397263733,
+            "radius_max_sample": 1.0050079558148077,
+            "quadrature_period_roundoff": -2.6645352591003757e-15,
+            "control_projection_order": 6
+          },
+          "core_control_l1": 139.48173686858496,
+          "core_control_linf": 48.90562064037248,
+          "frozen_metric_parameters": {
+            "delta": 0.03,
+            "vu": 0.25,
+            "epsilon": 0.4,
+            "eta": 0.05,
+            "extra_speed": 0.55,
+            "extra_acceleration": 2.0,
+            "return_speed": 0.6,
+            "turn_acceleration": 5.5,
+            "stop_acceleration": 3.6002639618837424,
+            "bridge_radius": 1.0,
+            "bridge_curvature": 4.0,
+            "peak_fraction": 0.2
+          },
+          "inlet_projection": {
+            "position": 0.0,
+            "first": 0.0,
+            "second": 0.0,
+            "metric_l1": 0.0,
+            "scope": "The analytical reference lift retains the exact core and its two angular jets; quadrature/inversion roundoff is audited separately.",
+            "unlifted_projection": {
+              "position": 1.7120416195837177e-10,
+              "first": 4.929313564731671e-09,
+              "second": 1.4560907035665593e-07,
+              "metric_l1": 1.6371118058083019e-09
+            }
+          },
+          "local_patch_audit": {
+            "scope": "Sampled full-map two-jet comparison with the exact circular local model.\nThe characteristic window is numerical; no continuous enclosure is claimed.\n",
+            "actual_inlet": {
+              "position": 1.5700924586837752e-16,
+              "first": 1.0235750533041806e-15,
+              "second": 2.025966904339278e-14,
+              "metric": 2.220446049250313e-15
+            }
+          },
+          "checkpoint_sha256": "f12e6817254471b61124151cb997d0ef5ebc48b56d72baf3ff8b5596681611a5",
+          "accepted_metric_requirement": false
+        },
+        {
+          "homotopy": 0.15,
+          "q": 0.005,
+          "modes": 6,
+          "success": false,
+          "error": "FloatingPointError('Core rho positivity failed: (-0.8091874242366837, -7.491612660491018, 512)')",
+          "seconds": 0.002012014389038086,
+          "physical_audit": {},
+          "core_audit": {},
+          "accepted_metric_requirement": false
+        }
+      ]
+    }
+  ],
+  "initialization_failure": {
+    "stage": "Before any BVP iteration",
+    "error": "ValueError: Hermite bridge leaves positive meridian chart",
+    "log_sha256": "8b665d88bb1ed224ceff2bddd3351101b966cd5ce923ec0cb93e6225f10fc75a",
+    "original_source_sha256": "0f78bb4c30c0758acacb5049fcfec0f92b1eb0962b7db216922d3332a82d375b",
+    "repaired_source_sha256": "1fcbe65fb254659614809f40de337bcb52b7c921f60bfeaabdb7b3ded7af7204",
+    "classification": "Obsolete unused legacy bridge in adapter initialization; preserved separately from mathematical/numerical BVP outcomes."
+  },
+  "physical_tail": {
+    "config_sha256": "866dbc48556c73f449a95cbee58ea2bd57d1719aa533fd0ccf36f456db451f43",
+    "startup_port_sha256": "a8262deb57a935c81f78a7e1c17fca8f887f9d932d6cd101984fb208d18fb9e8",
+    "exporter_sha256": "d877903064fdee3760dde0e407c84b2500b21492b7365d4e6cf389d8a87cdddf",
+    "frequencies": "4,8,...,32",
+    "primary_D": 31.30504136633579,
+    "all_D_regenerated_at_runtime": true
+  },
+  "circle_window_diagnostic": [
+    {
+      "profile": "vu17-vd18",
+      "Tu": 0.36814717839254185,
+      "delta": 0.03755101219603927,
+      "sampled_characteristic_loss": 0.0507793937921868,
+      "required_halfwidth": 0.09100000000000001,
+      "scope": "Numerical characteristic diagnostic only, no existence or interval claim"
+    },
+    {
+      "profile": "vu25-vd30",
+      "Tu": 0.2387683333982292,
+      "delta": 0.03581525000973438,
+      "sampled_characteristic_loss": 0.04962604875045547,
+      "required_halfwidth": 0.09100000000000001,
+      "scope": "Numerical characteristic diagnostic only, no existence or interval claim"
+    }
+  ]
+}

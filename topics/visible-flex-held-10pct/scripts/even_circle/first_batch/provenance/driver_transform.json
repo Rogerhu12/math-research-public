@@ -1,0 +1,42 @@
+[
+  [
+    "from plateau_core import PlateauSupportCore",
+    "from homotopy_plateau_core import HomotopyPlateauCore as PlateauSupportCore\nfrom even_mode_loader import load as load_even, module as load_module, TRANSFORMS",
+    1
+  ],
+  [
+    "SOURCE=ROOT.parent/'true_a_work/bundle/topics/visible-flexible-closed-surface'",
+    "SOURCE=ROOT.parent/'m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface'",
+    1
+  ],
+  [
+    "ad=module('plateau_adaptive',SOURCE/'scripts/950f-prefix-adaptive-chart-bvp-v2.py');patch=module('plateau_flat',SOURCE/'scripts/db6f-prefix-flat-profile.py');patch.install(ad);ad.old.install_source(SOURCE/'repro/source-root')",
+    "ad=load_even(SOURCE,4)\n short=load_module('even_plateau_short',SOURCE.parent/'visible-flex-larger-amplitude/computations/root_short_bridge.py');short.install()",
+    1
+  ],
+  [
+    "base_mode=3",
+    "base_mode=4",
+    2
+  ],
+  [
+    "64,3,warp_q=a.q",
+    "64,4,warp_q=a.q",
+    2
+  ],
+  [
+    "cfg=json.loads((a.profile or ROOT/'flat17-profile.json').read_text());port=json.loads((a.port_file or ROOT/'flat17-port96.json').read_text())",
+    "cfg=json.loads((a.profile or ROOT/'vu25-vd30/profile.json').read_text());port=json.loads((a.port_file or ROOT/'mode4_port8.json').read_text());port['cut']['_prefix_bridge']=cfg['prefix_bridge']",
+    1
+  ],
+  [
+    "brentq(target,.04,.11,xtol=2e-12)",
+    "brentq(target,.8*cfg['delta'],1.2*cfg['delta'],xtol=2e-12)",
+    1
+  ],
+  [
+    "source_topic=str(SOURCE),linear_delta=",
+    "source_topic=str(SOURCE),source_transforms=TRANSFORMS,linear_delta=",
+    1
+  ]
+]

@@ -1,0 +1,76 @@
+{
+  "source_sha256": "a7e381bab166c50f78e6a8769eecca073514963cac2e17a3efa79c0417c2b8df",
+  "replacements": [
+    [
+      "Planar threefold core",
+      "Planar even/n-fold core",
+      1
+    ],
+    [
+      "if base_mode != 3: raise ValueError('This prototype uses exactly threefold symmetry')",
+      "if int(base_mode)!=base_mode or base_mode<2: raise ValueError('Integral base mode >=2 required')",
+      1
+    ],
+    [
+      "self.base_mode=3; self.T=2*np.pi/3;",
+      "self.base_mode=int(base_mode); self.T=2*np.pi/self.base_mode; self.factor=self.base_mode**2-1;",
+      1
+    ],
+    [
+      "'Reflection-preserving center must be 0 or pi/3'",
+      "'Reflection-preserving center must be 0 or pi/base_mode'",
+      1
+    ],
+    [
+      "self.sign*8.",
+      "self.sign*self.factor",
+      2
+    ],
+    [
+      "self.sign*8*",
+      "self.sign*self.factor*",
+      6
+    ],
+    [
+      "((1-self.lam)*(-8)+",
+      "((1-self.lam)*(-self.factor)+",
+      1
+    ],
+    [
+      "((1-self.lam)*8+",
+      "((1-self.lam)*self.factor+",
+      1
+    ],
+    [
+      "((1-self.lam)*24+self.lam*15/",
+      "((1-self.lam)*self.factor*self.base_mode+self.lam*(15*self.factor/8)/",
+      1
+    ],
+    [
+      "self.frequencies=3*np.arange",
+      "self.frequencies=self.base_mode*np.arange",
+      1
+    ],
+    [
+      "(-8*np.cos(3*np.asarray(phi)))",
+      "(-self.factor*np.cos(self.base_mode*np.asarray(phi)))",
+      1
+    ],
+    [
+      "(1-self.lam)*24*np.sin(3*phi)",
+      "(1-self.lam)*self.factor*self.base_mode*np.sin(self.base_mode*phi)",
+      1
+    ],
+    [
+      "(1-self.lam)*72*np.cos(3*phi)",
+      "(1-self.lam)*self.factor*self.base_mode**2*np.cos(self.base_mode*phi)",
+      1
+    ],
+    [
+      "base_mode=3,q_parameter",
+      "base_mode=self.base_mode,q_parameter",
+      1
+    ]
+  ],
+  "scope": "Generalized explicitly defined circular-arc core; no solved prefix or closed claim."
+}

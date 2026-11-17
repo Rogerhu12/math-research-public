@@ -1,0 +1,15 @@
+{
+  "direction": "outward",
+  "vu": 0.25,
+  "vd": 0.3,
+  "delta": 0.03581525000973438,
+  "ramp": 0.4,
+  "ramp_eta": 0.05,
+  "ramp_law": "flat",
+  "cycles": 1,
+  "prefix_bridge": {
+    "kind": "turn_plateau_v1",
+    "curvature": 4.0,
+    "peak_fraction": 0.2
+  }
+}
