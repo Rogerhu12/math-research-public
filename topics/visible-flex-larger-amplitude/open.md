@@ -103,11 +103,11 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 完整旧全文/全部失败/参数/源/SHA另固定保[1a8e9289 open](https://github.com/Rogerhu12/math-research-public/blob/1a8e92891063755b27bc600a4dd3ee516f9096a5/topics/visible-flex-larger-amplitude/open.md)，并沿[66419361 open](https://github.com/Rogerhu12/math-research-public/blob/66419361baa8cad4423ace0f1d02894370bc8528/topics/visible-flex-larger-amplitude/open.md)，其继续链接df896、cd553、dc271、dd08、b327、83262；本次仅缩写§7，原§1–6不动。本地计算，原Actions读者责任不变。R623–639正式证明均在[results](results.md)。
 
-**已付与禁止重复。** 原g真到.995/Gram4.001e−7；旧.992角精化、.999与全部增长/纠正/外尾失败均在固定全文，不能重跑当新结果。R633排除旧best4强外向λ1；R635在κ≤6.8/反射major正投影下排除.992/R1.7673/H≤1.22与.8/R1.6/H≤1.45（换g亦无效）。
+**旧结论不重做。** 原g真到.995；旧.992/.999及增长/纠正/外尾失败见固定全文。R633排除旧best4强外向λ1，R635的两项κ/正投影排除及全部限制原样沿用。
 
 [内向参考](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)与[R636](results/R636-certified-inward-reference-radius-and-length.md)已严格支付原参考R/L及全角chord余>.06001464，非真实尾。R240固定a/rho换角不改共材料g；六jet精化尚未付。
 
-**全有限BVP。** 原内向.997 M112/M128真接受但Gram2.754e−6/5.879e−6；.998/.999失败。[Schur112/128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)分别实际2.421e−6与1423节点/RMS3.592e−4超2000失败。[onlyZ109](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点/RMS8.425e−5超1800失败。以上均不作未接受父。
+**旧全有限BVP（数值详固定全文）。** 原内向.997 M112/M128真接受但Gram超门；.998/.999失败。[Schur112/128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)分别实际2.421e−6与1423节点/RMS3.592e−4超2000失败。[onlyZ109](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点/RMS8.425e−5超1800失败。以上均不作未接受父。
 
 [全段可达109行](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)与[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)已实际支付；固定U/原11960350母值的[β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)：63/64、.9、.75真接受，原实际Gram2.708/2.503/2.399e−6；.75角G主导，代数换raw V不能消掉。β.5真1422节点/RMS1.733e−5/BC1.752e−6超原1800失败，从真β.75缩步.625亦954节点/RMS2.213e−7/BC1.689e−9超1800失败；最后真接受仍.75，原母值/U不变。这些新有限边界不冒原tail DN。
 
@@ -117,7 +117,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [645/317 normal-only混合边界](notes/2026-11-17-parallel-geometry-mixed-boundary-linear.md)在真.995→.997场传播全部317列，cond1.59e6；目标仅9.26e−12仍需起点δF8.83e−6/δFφφ3.46，实际Hmin−.020566。独立两档JVP核对已付；该步不作父，不开BVP。
 
-[初端fast317局部模型](notes/2026-11-17-parallel-geometry-fast-boundary-local.md)与[真实变系数响应](notes/2026-11-17-parallel-geometry-fast-boundary-response.md)分别保留：新Ufast/左645补空间/右317冻结，实际K条件173.56、起点δF1.44e−8、Hmin.00041953/Gram4.32e−7；独立JVP核对已付，预测末点不是非线性解。有限射击原预算正在实际验证。
+[初端fast317](notes/2026-11-17-parallel-geometry-fast-boundary-local.md)与[真实响应](notes/2026-11-17-parallel-geometry-fast-boundary-response.md)保新U/左645/右317；实际K cond173.56、δF1.44e−8/初H正，非静态模型替代。[真射击/三jet桥](notes/2026-11-17-parallel-geometry-fast-shooting-and-bridge.md)右BC7.56e−15通过，但实际Gram1.134936e−6超门、物理高尾角二阶反升至.022233，不延该旧场。
 
 **高M和新scalar。** 全部M160/224/320短IVP、实际N2048→4096重积分和末微胞坏峰/明确64ulp新节点政策见上链全文。[R637真C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)从旧.995共享六jet至.997，高M全段Gram5.092e−7/κ5.79934；旧prefix沿用旧读数，非统一精化。[同g域停](notes/2026-11-17-parallel-geometry-m320-domain-stop.md)至1.0只到.997619218，高m位移小而角二阶大；不删模造父或无限缩步。
 
@@ -127,7 +127,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [单一负κ hold](notes/2026-11-17-parallel-numerical-negative-hold-ivp.md)保真.995 scalar两jet，.002降至−2.5/保持.02/.02升至1.5，正平台补最终角；真M320/N4096到1.02、1601节点、末Gram5.551e−7/H正。参考R/H/L与必要长度余另列，不冒实际D/幅度；完整共享jet桥及全场规范化正读，换g不冒精化。
 
-**旧弱场/未来尾口。** [M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真9780节点/RMS.01608超14000失败；[弱高度meanLP](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)400步仍Gram6.097e−6，不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)全方程/坐标反号已付；[未来内向DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)仅a′−.8参考口/2368胞元/材料m2..16，RK8→16差7.59e−10，unitPcut的m2内|h_r|198.79。真实cut、rho加权角谱、无限DN和非线性尾均未付。
+**旧弱场/未来尾口（详细参数见固定全文）。** [M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真9780节点/RMS.01608超14000失败；[弱高度meanLP](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)400步仍Gram6.097e−6，不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)全方程/坐标反号已付；[未来内向DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)仅a′−.8参考口/2368胞元/材料m2..16，RK8→16差7.59e−10，unitPcut的m2内|h_r|198.79。真实cut、rho加权角谱、无限DN和非线性尾均未付。
 
 R632回头盖仅凸平行体组件；R625/627/629的标记与含反射E3须实际闭源；旧82432点/Qmin.16150716仅点云。全部README完成条件仍未达到：全幅尾/Cartesian接缝/连通闭面、固定有内点H、完整D、整像held、含反射商距离、连续reach与全t强C²连续，随后同g/参数/t真正精化至机器或原solver容差。子题/批次/时长/报告均非停点。[旧重复212索引退役](notes/2026-11-17-parallel-historical-index-retention.md)保准确恢复与来源。
 
