@@ -191,3 +191,5 @@ $$a_i=-C_{U,i}^{-1}(C_{Y,i}U_i+C_{k,i}k'_i).$$
 | `parallel-model-implicit-frenet-602-once.log` | `f999d465ff908c377f58ffbb8dd28e496e14c2c35789757f152a3701f2399188` |
 
 field 保存全部 Y/U、节点/中点/边界原残差、实际 core、同一数值标量评价记录、`common_accelerations`、逐节点条件估计及线性解余项。`scalar_nodes` 没有另行定义一个新拟合 g；严格 exact-scalar 误差若在未来使用该候选仍需另付。几何/原方程接受标签与 `finite_algebraic_converged` 均为 false；这与表中已接受的 Newton 迭代步是不同含义。
+
+实际保存二jet的新共同五次场已由[唯一几何读者完整读出](2026-11-17-parallel-geometry-implicit-quintic-failure.md)：601胞/8192角/4sub，Gram峰5.28554、曲率峰104463；core镜像条件准确，但内域明显超门。该结果明确区分原solver cubic与新C²场，不再对失败3a7f尝试另一套平滑。
