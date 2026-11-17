@@ -1,0 +1,766 @@
+{
+  "scope": "Completed finite physical linear designs and terminal scalar summaries; no nonlinear or closed candidate.",
+  "published_source_sha256": "447b3b515078220463ff9ae4ab7bc4537ced09e5937e425354ff81d30dd8110f",
+  "outward_source_replay": "Remove only the --direction parser argument and set cfg direction to literal outward to recover the original executed source hash 972e34231a6a1a0d028e06012678e11dc76f5837df69521f88d4638b65cb71d5. The current default outward computes the same equations; the subsequent inward run used the published source.",
+  "runs": [
+    {
+      "name": "m2-multicycle",
+      "raw_summary_sha256": "f5d3ba8eed5d6df210b5ff4ef61c302f1d197be674b63ecb029ce7463289c423",
+      "scope": "Actual low-mode transfer through multicycle meridians; linear design only.\n\nEach record is a distinct physical metric. No sampled background number or\nlinear transfer is a nonlinear isometric or closed-surface certificate.\n",
+      "argv": [
+        "topics/visible-flex-held-10pct/scripts/resume_transfer/multicycle_transfer.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+        "--port",
+        "/workspace/scratch/f00f08c94d46/smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+        "--short-bridge",
+        "/workspace/scratch/f00f08c94d46/smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--out",
+        "/workspace/scratch/7322d0dee069/transfer_work/m2-multicycle",
+        "--mode",
+        "2",
+        "--cycles",
+        "2"
+      ],
+      "port_sha256": "fd2bdd92b8e76ef9746c60a9d2d66213ae796bb29fc96e1c111bac4ccbbb84c9",
+      "source_sha256": {
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/multicycle_transfer.py": "972e34231a6a1a0d028e06012678e11dc76f5837df69521f88d4638b65cb71d5",
+        "/workspace/scratch/f00f08c94d46/smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+      },
+      "designs": [
+        {
+          "profile": {
+            "direction": "outward",
+            "vu": 0.65,
+            "vd": 0.7,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "delta": 0.1,
+            "cycles": 2,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            }
+          },
+          "scan": [
+            [
+              0.025,
+              0.346324827990738
+            ],
+            [
+              0.04,
+              0.21048273332822248
+            ],
+            [
+              0.06,
+              0.0713318197111669
+            ],
+            [
+              0.09,
+              -0.0940240554744433
+            ],
+            [
+              0.13,
+              -0.34034704757572354
+            ],
+            [
+              0.18,
+              -0.8949916302788449
+            ],
+            [
+              0.24,
+              -0.06269289656949521
+            ],
+            [
+              0.31,
+              0.10870614990377894
+            ],
+            [
+              0.4,
+              0.20743630477818187
+            ],
+            [
+              0.52,
+              0.2895758397872664
+            ],
+            [
+              0.68,
+              0.37388037179664213
+            ]
+          ],
+          "roots": [
+            {
+              "bracket": [
+                0.06,
+                0.09
+              ],
+              "delta": 0.07230559810837879,
+              "core_residual": -6.434342633042816e-13,
+              "linear_H_per_q": 0.021249255957531774,
+              "background": {
+                "height": 1.0099462691525376,
+                "center_radius": 1.2850145267013424,
+                "curvature": 14.625456329223475,
+                "diameter_upper_sample": 2.570029053402685,
+                "KD_product_sample": 37.587847685376516
+              },
+              "meridian_length": 1.645802580895642,
+              "chart_range": [
+                0.000836627887756527,
+                1.0
+              ],
+              "higher_transversality": [
+                0.21994777061922868,
+                -0.5827204468856045,
+                0.9996530126681619
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-multicycle/v0.65-0.7-root0"
+            },
+            {
+              "bracket": [
+                0.24,
+                0.31
+              ],
+              "delta": 0.25770515824869283,
+              "core_residual": 4.568974724822135e-16,
+              "linear_H_per_q": -0.007137493480553159,
+              "background": {
+                "height": 2.6233998573819526,
+                "center_radius": 2.701916037800811,
+                "curvature": 4.10280715913622,
+                "diameter_upper_sample": 5.403832075601622,
+                "KD_product_sample": 43.24146426896419
+              },
+              "meridian_length": 3.4794246042613852,
+              "chart_range": [
+                -0.618247062764806,
+                0.9999999999999997
+              ],
+              "higher_transversality": [
+                -0.8853683902040481,
+                0.25882533191940016,
+                0.015255797256000275
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-multicycle/v0.65-0.7-root1"
+            }
+          ],
+          "failures": []
+        },
+        {
+          "profile": {
+            "direction": "outward",
+            "vu": 0.75,
+            "vd": 0.75,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "delta": 0.1,
+            "cycles": 2,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            }
+          },
+          "scan": [
+            [
+              0.025,
+              0.34632611738279606
+            ],
+            [
+              0.04,
+              0.1982335097481388
+            ],
+            [
+              0.06,
+              0.03925645790036853
+            ],
+            [
+              0.09,
+              -0.15872488219710917
+            ],
+            [
+              0.13,
+              -0.4710277739959472
+            ],
+            [
+              0.18,
+              -0.7770251852779213
+            ],
+            [
+              0.24,
+              -0.029938751454886663
+            ],
+            [
+              0.31,
+              0.16345504997318788
+            ],
+            [
+              0.4,
+              0.2820129047364141
+            ],
+            [
+              0.52,
+              0.38460143854929685
+            ],
+            [
+              0.68,
+              0.4941408620973652
+            ]
+          ],
+          "roots": [
+            {
+              "bracket": [
+                0.06,
+                0.09
+              ],
+              "delta": 0.0656083537089002,
+              "core_residual": -3.18423088919012e-15,
+              "linear_H_per_q": 0.02466275612339819,
+              "background": {
+                "height": 0.8744212986419445,
+                "center_radius": 1.1954249692655823,
+                "curvature": 19.82152080228463,
+                "diameter_upper_sample": 2.3908499385311646,
+                "KD_product_sample": 47.39028179173641
+              },
+              "meridian_length": 1.513877636234989,
+              "chart_range": [
+                0.0009710245668371011,
+                1.0000000000000002
+              ],
+              "higher_transversality": [
+                0.2508714488040226,
+                -0.6748010692356637,
+                0.9975675351540892
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-multicycle/v0.75-0.75-root0"
+            },
+            {
+              "bracket": [
+                0.24,
+                0.31
+              ],
+              "delta": 0.2470133465462792,
+              "core_residual": 2.0811712667550115e-14,
+              "linear_H_per_q": -0.009268018599665204,
+              "background": {
+                "height": 2.2395410233259088,
+                "center_radius": 2.338752871787329,
+                "curvature": 5.264542356100504,
+                "diameter_upper_sample": 4.677505743574658,
+                "KD_product_sample": 37.429400960084415
+              },
+              "meridian_length": 3.126366461456136,
+              "chart_range": [
+                -0.6561409654671049,
+                1.0000000000000002
+              ],
+              "higher_transversality": [
+                -0.9758930649217766,
+                0.24902842449346302,
+                0.04391301912453493
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-multicycle/v0.75-0.75-root1"
+            }
+          ],
+          "failures": []
+        },
+        {
+          "profile": {
+            "direction": "outward",
+            "vu": 0.85,
+            "vd": 0.8,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "delta": 0.1,
+            "cycles": 2,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            }
+          },
+          "scan": [
+            [
+              0.025,
+              0.3330844847074853
+            ],
+            [
+              0.04,
+              0.16467520451050907
+            ],
+            [
+              0.06,
+              -0.024690128483787342
+            ],
+            [
+              0.09,
+              -0.2713605700102096
+            ],
+            [
+              0.13,
+              -0.6738097936589074
+            ],
+            [
+              0.18,
+              -0.6100221510738651
+            ],
+            [
+              0.24,
+              0.045040781689123593
+            ],
+            [
+              0.31,
+              0.26236729269087783
+            ],
+            [
+              0.4,
+              0.40710598856142793
+            ],
+            [
+              0.52,
+              0.5392560545258349
+            ],
+            [
+              0.68,
+              0.6853569581117764
+            ]
+          ],
+          "roots": [
+            {
+              "bracket": [
+                0.04,
+                0.06
+              ],
+              "delta": 0.05719279503344422,
+              "core_residual": 1.4394020128841868e-17,
+              "linear_H_per_q": 0.028698398619528005,
+              "background": {
+                "height": 0.7534972585033884,
+                "center_radius": 1.1255369829175421,
+                "curvature": 35.53783818746085,
+                "diameter_upper_sample": 2.2510739658350842,
+                "KD_product_sample": 79.99830234585299
+              },
+              "meridian_length": 1.3932810532923938,
+              "chart_range": [
+                0.0011299162976358365,
+                1.0
+              ],
+              "higher_transversality": [
+                0.2745939148515193,
+                -0.7796166135578284,
+                0.9808284613549125
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-multicycle/v0.85-0.8-root0"
+            },
+            {
+              "bracket": [
+                0.18,
+                0.24
+              ],
+              "delta": 0.2314279369860983,
+              "core_residual": -1.2959199447107678e-14,
+              "linear_H_per_q": -0.012332152403927502,
+              "background": {
+                "height": 1.8892022186188657,
+                "center_radius": 2.0152172858943267,
+                "curvature": 8.792001463292733,
+                "diameter_upper_sample": 4.030434571788653,
+                "KD_product_sample": 35.43558665287146
+              },
+              "meridian_length": 2.802535877909449,
+              "chart_range": [
+                -0.7019160713601004,
+                1.0000000000000002
+              ],
+              "higher_transversality": [
+                -0.9913453678229737,
+                0.2153261834110841,
+                0.09728327403303644
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-multicycle/v0.85-0.8-root1"
+            }
+          ],
+          "failures": []
+        }
+      ],
+      "seconds": 112.14306524899803
+    },
+    {
+      "name": "m2-inward",
+      "raw_summary_sha256": "c95c374cdab74bb25600f7d1d570d689d7f1a882462c4384318397b50c8efbc0",
+      "scope": "Actual low-mode transfer through multicycle meridians; linear design only.\n\nEach record is a distinct physical metric. No sampled background number or\nlinear transfer is a nonlinear isometric or closed-surface certificate.\n",
+      "argv": [
+        "topics/visible-flex-held-10pct/scripts/resume_transfer/multicycle_transfer.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+        "--port",
+        "/workspace/scratch/f00f08c94d46/smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-tail-smallcut-30-port32-r2048.json",
+        "--short-bridge",
+        "/workspace/scratch/f00f08c94d46/smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--out",
+        "/workspace/scratch/7322d0dee069/transfer_work/m2-inward",
+        "--mode",
+        "2",
+        "--cycles",
+        "1",
+        "--direction",
+        "inward",
+        "--speeds",
+        ".45:.5,.6:.65,.75:.75",
+        "--scan",
+        ".025,.04,.06,.09,.13,.18,.24,.31,.4,.52,.68"
+      ],
+      "port_sha256": "fd2bdd92b8e76ef9746c60a9d2d66213ae796bb29fc96e1c111bac4ccbbb84c9",
+      "source_sha256": {
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/multicycle_transfer.py": "447b3b515078220463ff9ae4ab7bc4537ced09e5937e425354ff81d30dd8110f",
+        "/workspace/scratch/f00f08c94d46/smallcut_highq_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b"
+      },
+      "designs": [
+        {
+          "profile": {
+            "direction": "inward",
+            "vu": 0.45,
+            "vd": 0.5,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "delta": 0.1,
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            }
+          },
+          "scan": [
+            [
+              0.025,
+              0.46448457953248573
+            ],
+            [
+              0.04,
+              0.3769426013042175
+            ],
+            [
+              0.06,
+              0.27858944661690654
+            ],
+            [
+              0.09,
+              0.14032465819005946
+            ],
+            [
+              0.13,
+              -0.10089228264759566
+            ],
+            [
+              0.18,
+              -0.756614350633234
+            ],
+            [
+              0.24,
+              -0.8363935151048852
+            ],
+            [
+              0.31,
+              -0.572925776094417
+            ],
+            [
+              0.4,
+              -0.4418033918299606
+            ],
+            [
+              0.52,
+              -0.3577778869820476
+            ],
+            [
+              0.68,
+              -0.04410376020118479
+            ]
+          ],
+          "roots": [
+            {
+              "bracket": [
+                0.09,
+                0.13
+              ],
+              "delta": 0.11577651278273626,
+              "core_residual": 6.979203659979799e-15,
+              "linear_H_per_q": 0.02593914193527841,
+              "background": {
+                "height": 1.1498842001046923,
+                "center_radius": 1.38710742858759,
+                "curvature": 3.999999999418767,
+                "diameter_upper_sample": 2.77421485717518,
+                "KD_product_sample": 22.19926728711579
+              },
+              "meridian_length": 1.7454158784047609,
+              "chart_range": [
+                0.0010212785601011447,
+                1.4983547168622338
+              ],
+              "higher_transversality": [
+                -0.4309872615837584,
+                -0.26707857875372143,
+                0.21689654392213917
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-inward/v0.45-0.5-root0"
+            }
+          ],
+          "failures": []
+        },
+        {
+          "profile": {
+            "direction": "inward",
+            "vu": 0.6,
+            "vd": 0.65,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "delta": 0.1,
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            }
+          },
+          "scan": [
+            [
+              0.025,
+              0.4885148770400181
+            ],
+            [
+              0.04,
+              0.3977587494980347
+            ],
+            [
+              0.06,
+              0.28218655109615653
+            ],
+            [
+              0.09,
+              0.09305608799366864
+            ],
+            [
+              0.13,
+              -0.2803647762214741
+            ],
+            [
+              0.18,
+              -0.9389969944639901
+            ],
+            [
+              0.24,
+              -0.8758559201596364
+            ],
+            [
+              0.31,
+              -0.6800116883274414
+            ],
+            [
+              0.4,
+              -0.5521536439433208
+            ],
+            [
+              0.52,
+              -0.45465306882373163
+            ],
+            [
+              0.68,
+              0.5308419860037606
+            ]
+          ],
+          "roots": [
+            {
+              "bracket": [
+                0.09,
+                0.13
+              ],
+              "delta": 0.10221483001175347,
+              "core_residual": 6.911480925223721e-16,
+              "linear_H_per_q": 0.03167153791048446,
+              "background": {
+                "height": 0.8715578759729977,
+                "center_radius": 1.1936504120367317,
+                "curvature": 8.429582321187972,
+                "diameter_upper_sample": 2.3873008240734634,
+                "KD_product_sample": 20.123948821967144
+              },
+              "meridian_length": 1.4767116610220805,
+              "chart_range": [
+                0.0012469750431265073,
+                1.4318840924960539
+              ],
+              "higher_transversality": [
+                -0.5817558030136405,
+                -0.3672935520687951,
+                0.3011582630024535
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-inward/v0.6-0.65-root0"
+            },
+            {
+              "bracket": [
+                0.52,
+                0.68
+              ],
+              "delta": 0.6482629329395365,
+              "core_residual": 1.5562549343483326e-14,
+              "linear_H_per_q": -0.019952032101108106,
+              "background": {
+                "height": 3.4937924215199607,
+                "center_radius": 3.543296768860685,
+                "curvature": 3.999996796004774,
+                "diameter_upper_sample": 7.08659353772137,
+                "KD_product_sample": 56.70692148884641
+              },
+              "meridian_length": 4.3936352877730585,
+              "chart_range": [
+                -7.116153280206884,
+                6.273102870779739
+              ],
+              "higher_transversality": [
+                -0.23257747113674035,
+                0.1525256347475695,
+                0.11159886262287018
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-inward/v0.6-0.65-root1"
+            }
+          ],
+          "failures": []
+        },
+        {
+          "profile": {
+            "direction": "inward",
+            "vu": 0.75,
+            "vd": 0.75,
+            "ramp": 0.4,
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "delta": 0.1,
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            }
+          },
+          "scan": [
+            [
+              0.025,
+              0.49555536775913256
+            ],
+            [
+              0.04,
+              0.39722718702131943
+            ],
+            [
+              0.06,
+              0.25903686454422586
+            ],
+            [
+              0.09,
+              0.004665036647383288
+            ],
+            [
+              0.13,
+              -0.5088711753847805
+            ],
+            [
+              0.18,
+              -0.9951508410763712
+            ],
+            [
+              0.24,
+              -0.88092155550712
+            ],
+            [
+              0.31,
+              -0.7286183615937897
+            ],
+            [
+              0.4,
+              -0.6117883759751915
+            ],
+            [
+              0.52,
+              -0.50027449586395
+            ],
+            [
+              0.68,
+              0.5313230294585352
+            ]
+          ],
+          "roots": [
+            {
+              "bracket": [
+                0.09,
+                0.13
+              ],
+              "delta": 0.09046444250347419,
+              "core_residual": 1.3361452709241311e-15,
+              "linear_H_per_q": 0.03659286370934215,
+              "background": {
+                "height": 0.7210856111708642,
+                "center_radius": 1.1087473556800633,
+                "curvature": 14.37424877314565,
+                "diameter_upper_sample": 2.2174947113601267,
+                "KD_product_sample": 31.87482063422527
+              },
+              "meridian_length": 1.3327564588379837,
+              "chart_range": [
+                0.0014407379878756685,
+                1.375693780666021
+              ],
+              "higher_transversality": [
+                -0.6855708488211535,
+                -0.43386833931361396,
+                0.37012591234211717
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-inward/v0.75-0.75-root0"
+            },
+            {
+              "bracket": [
+                0.52,
+                0.68
+              ],
+              "delta": 0.6029678558207602,
+              "core_residual": -1.8285420307746577e-13,
+              "linear_H_per_q": -0.022286710955342924,
+              "background": {
+                "height": 2.6494463101155046,
+                "center_radius": 2.726791230091276,
+                "curvature": 3.99999678424114,
+                "diameter_upper_sample": 5.453582460182552,
+                "KD_product_sample": 43.63956684638079
+              },
+              "meridian_length": 3.6105494069148105,
+              "chart_range": [
+                -5.585961578197081,
+                5.437650946184011
+              ],
+              "higher_transversality": [
+                -0.279221964732385,
+                0.18317951928911014,
+                0.1341022834977203
+              ],
+              "directory": "/workspace/scratch/7322d0dee069/transfer_work/m2-inward/v0.75-0.75-root1"
+            }
+          ],
+          "failures": []
+        }
+      ],
+      "seconds": 84.31511716100067
+    }
+  ]
+}

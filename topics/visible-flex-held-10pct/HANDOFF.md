@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`f3e44ced1702444e2141e2451ae2bdfab08f97a1`。2026-11-18 03:49:44（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`dc70113eff6ee45aad202dede59ad25ebbf02250`。2026-11-18 03:51:53（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -61,6 +61,8 @@ R20/R22单/双谐波到精确圆弧正距离，切空间障碍须完整核+可�
 旧m2 smallcut同g q20 M20→24 metric9.93e−7→4.172e−9，q22 M28→32为1.133e−6→1.119e−8；仍线性DN。R11开放q20的843264盒给σ>.349674/norm<1.508969/witness>.3254827/K<8/held/D>.1076。R13若真尾rXY≤.35、顶高≤1.526541485、K≤10、σ≥.3并C²闭合，则held/D>.10338且reach/D>.03191；真尾尚缺。
 
 m2旧补弧高M初值负rho不是无解；新首三谷[4.25,3.9375,5.0625]给mode2线性H阈2.11656e−4约旧3.08倍、DN11.85689844；65次真实重标定screen仅新设计，非非线性容量/同g。见mode2-three-valley-design。R1–R10、旧GC/短领失败与R114仍留历史，不重复。
+
+m2循环方向/次数新线性screen已完成：外向两循环6根、内向单循环5根；保留实际H/q、背景采样K/尺寸与完整复现，尚无这些设计的非线性BVP。KD诊断不是必要障碍。见m2-loop-transfer-designs。
 
 ## 当前分工
 
