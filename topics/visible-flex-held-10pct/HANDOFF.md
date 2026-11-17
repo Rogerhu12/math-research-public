@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`f668731cde2e446f7d146baa37de7d5caa508474`。2026-11-18 02:50:32（UTC+8）真实pull/rebase/autostash后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`4ac2bc204101bd8970014c914f7dd31e1ff5ae42`。2026-11-18 02:53:01（UTC+8）真实pull/rebase/autostash后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -43,9 +43,9 @@ R20：精确圆弧与任意主频的ρ一致距离≥(n²−1)q tan²(na/2)；n4
 
 R22：双主频到圆弧的精确距离为(n²−1)q(1−c)²/[(1+c)(5+c)]，c=cos(na)；n4/a.147系数>.0395989054489351，Fraction独立逐字同一。中心半径固定的最优eta=1/[3−4(√2−1)(1−c)]≈.367413，须用更新全圆rho界；尚未进入BVP。切空间推论仍要求完整核/可微性，不由有限共振推出。
 
-R21：实际固定M8 finite tail已定义4638节点/73系数C²图，共2jet圆领接半径.05平盘；组件仍有外边界。背景完整区间给λ>101.60、增高[.01722689,.02886511]、K≤8，深根范围仅引用旧背景定理。圆领/盘连续σ>.8、norm<.817、metric<1.36e−29、K<8.002；root独立Fraction结果全同。外尾仍仅采样metric3.597e−8。完整共缝、全闭几何/收敛继续；包finite_closure/m3_m8_collar_disk。
+R21/R23：实际M8以共享中心/cut Cartesian二jet、唯一mean、有限尾/圆领/平盘定义完整C²闭S²。504320 prefix盒+4637尾段证明全图σ>.7、K≤10、D<2.30242、reach/D>.0434；相位角Jac>.8399给全相位C²连续。圆领/盘metric<1.36e−29、K<8.002，精确背景增高/尺度已证。源finite_closure/m3_m8_collar_disk、m3_m8_closed_map。零marker时δE=0，幅度不足，整域metric连续界未证。
 
-R23：实际m3 fixed-M8已完整C²闭合为S²：共享中心/全cut二jet、同一mean、有限尾圆领平盘。504320全prefix盒+4637段全尾连续界给全曲面σ>.7、K≤10、D<2.30242、reach/D>.0434。相位角亦共享二jet，Fraction证明角Jac>.8399，故全相位C²连续；root独立cut/组合输出逐字一致、角界完全一致。零marker时δE=0，幅度不足，整域同g metric未证；不能当10%。见R23及finite_closure/m3_m8_closed_map。M16径向细层全闭审计继续。
+接手恢复同完整g的M8→M16全闭比较（无重跑）：prefix共同材料角采样metric算子范数1.26083e−8→1.64624e−9；六jet中prefix Xss差.00218967、尾Xss差.01373653，不作C²极限证明。M16尾全18460段连续K≤9.261122、σ>.71791244、norm<.86834213；只覆盖尾，不能移用M8主体盒。完整来源、导出/比较命令、同g字段/hash见notes/2026-11-18-m3-recovered-closed-refinement及scripts/resume_closed。全域metric、细主体和固定非零帽继续。
 
 ## D. 其他结果和来源
 

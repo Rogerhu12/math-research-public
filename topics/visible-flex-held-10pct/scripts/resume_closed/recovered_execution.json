@@ -1,0 +1,54 @@
+{
+  "status": "Recovered completed but unpublished previous-session outputs; no BVP or certificate scan rerun.",
+  "source_session": "Astra-held10-f00f08c9-20261117",
+  "recorded_by": "Astra-held10-7322d0de-20261118 / closed_geometry",
+  "original_sources": {
+    "paired_prefix_jets.py": "c4be41dcb4fe05680ace59cb7edf2ddeed85f8fc99707998e6fab30cd385f898",
+    "compare_closed_layers.py": "0b8574bc4d444f168fe39f91a3ecf0fd3f20ee8e6b676d4062358b92c830bc85",
+    "audit_refined_prefix.py": "950ed4fc6c50629be985da8952542a2cdb85473740055b7149ff2ba8ac1c9929",
+    "audit_collar_and_disk_refined.py": "350f296bce1ba5addec88191096f0366056a5259b010a7b861065378a196d075"
+  },
+  "outputs": {
+    "m8_m16_closed_comparison.json": {
+      "sha256": "ba5d116ee5973f432e254cc49634d2d687bf698c9c8806440f173f1690e02b86",
+      "bytes": 3379
+    },
+    "m8_m16_fixed_physical_descriptor.json": {
+      "sha256": "4c22bcbdeef907b19aa72fcba440c380a98d3ba4aa3bc50cea2903545dc64247",
+      "bytes": 897
+    },
+    "paired_evaluator_check.json": {
+      "sha256": "cf71beb2f6ec635581b9cdf7389fc32aa66f02640c974d1558b7ea4f7151797d",
+      "bytes": 1724
+    },
+    "fixed_m16_radial2_common_v1/prefix-common-audit.json": {
+      "sha256": "2961fcaa9f68181821b1ce766194e9b5c1edeb5e7b6bcc443b6f181008940ef0",
+      "bytes": 7282
+    },
+    "fixed_m16_radial2_common_v1/finite-tail-continuous-geometry.json": {
+      "sha256": "a3ef31e8ee643072c9e474d32082a94217cbdbaaec351d708b98ac0f227801f5",
+      "bytes": 4599
+    },
+    "fixed_m16_radial2_common_v1/collar-disk-scalar.json": {
+      "sha256": "24568b1cb184dfc6a34af4844bb4c2d0dd7ed8a98fe42603c259fa4e4fff0e71",
+      "bytes": 9340
+    },
+    "collar_mode_guard_extension.json": {
+      "sha256": "8c03f84d63cbede842e1d0cda63a7a4dc09d6ef54f28bc11b8c6a8a22eabcc26",
+      "bytes": 620
+    }
+  },
+  "dependency_package": "../finite_closure/m3_m8_closed_map",
+  "physical_descriptor_sha256": "fbc16cb28269ec1b28691c3d7747fa8d4acb845963f78be0cf31d0e263dfa038",
+  "known_metadata_defect": "Historical audit_collar_and_disk_refined.py correctly checks matching input mode counts but its output modes field remains literal 8. The actual fine packet and matching prefix are M16. Numerical formulas use matching data; metadata must not be read as M8.",
+  "current_sources": {
+    "paired_prefix_jets.py": "c4be41dcb4fe05680ace59cb7edf2ddeed85f8fc99707998e6fab30cd385f898",
+    "audit_refined_prefix.py": "7600fac536477bad293f14c2da62e8c9980e5bc4ea9bcf823daffc99d059cbd5",
+    "audit_collar_and_disk_refined.py": "45053497c6ec92a0e6e9117955874348aadbdd614e61b7a885c45da08820cfde",
+    "compare_closed_layers.py": "f2770ea999177a583cf19d87c8897c78accc932507b8ee3f1935386dce14ad82"
+  },
+  "replay_adaptations": [
+    "Resolve shared m3 modules from the existing R23 package and hash their actual module paths.",
+    "Correct the generated collar metadata modes label to the actual matched prefix count. No formula or source input changes."
+  ]
+}
