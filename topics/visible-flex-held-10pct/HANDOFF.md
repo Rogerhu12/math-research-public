@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`34ab364a8749d67e7b700fbffe10af153118ca41`。2026-11-18 02:49:36（UTC+8）真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`f668731cde2e446f7d146baa37de7d5caa508474`。2026-11-18 02:50:32（UTC+8）真实pull/rebase/autostash后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -27,9 +27,9 @@ R13条件窗：若同一prefix接实际尾rXY≤.35、顶高≤1.5265414843、K�
 
 **接手恢复q021/q025实际真联合终态**（非重跑）：q021 M8 δ=.061055934246436315、tail res1.86546e−9；q025 δ=.06105528571325212、937节点、prefix metric3.68999e−9/tensor8.84007e−5，tail res1.85672e−9/metric5.01369e−9/fullD4.42180e−5/minA.262674。q025由两个真联合态作材料角secant，解新完整H；此前三种固定H初猜失败不构成容量界。见notes/2026-11-18-recovered-m3-q021-q025-coupling.md及scripts/resume_m3。旧q021/M16只两次tail响应、无完整终态。新小步联立继续；各q的δ不同，非同g精化，均未有足够幅度/全闭验收。
 
-n4精确圆弧+中央柱：R19/19A证明整像中心位移下界、固定两fold帽排除O(3)、公共H及两个有理10%条件窗；全闭前提未付。宽弧旧M4 λ1 metric.00407、窄弧旧M6 λ.7 metric.01258、λ1maxnodes，完整55源/70源恢复见n4-first-batch-and-consumed-window、narrow-old-basis-terminal-results。新C4补弧矩基已冻/实恢复；q005 M6 λ.3maxnodes，λ.1 metric1.224e−4；λ0设计链至q045/M16：metric5.499e−8、tensor.0014915/K13.2628，未圆化且仅线性DN。新material-angle回拉+q04/q045双态secant使q05/M16一次迭代接受：1220节点、metric2.322e−8/tensor.000245/K14.0966；旧q05M16/M20取消exit130非数学失败。q055/M16也一次接受：1283节点、metric1.003e−7/tensor.002246/K14.9898，δ=.03011246227；非同g精化，见n4-q055-material-secant。q06λ0一次接受但metric7.660e−7/tensor.04005/K15.9544；由采样K和两对称点给reach/D必要上限约.02949，尚非区间证书，见n4-q060-and-local-reach-budget。q05圆化λ.005初猜实rho−.271被拒；小步至λ.001均投影接受而metric恶化至7.669e−4/tensor5.72，见n4-q050-small-circularization-terminal。入口complementary-controls-and-first-prefixes、n4-q045-prefix、n4-material-angle-warm-start及对应包。
+n4精确圆弧+中央柱：R19/19A给10%条件窗，完整闭合未付。旧宽/窄基λ1或大λ完整metric失败，见n4-first-batch-and-consumed-window、narrow-old-basis-terminal-results。新C4补弧矩基λ0经材料角secant到q05/M16（metric2.322e−8/tensor.000245/K14.0966）、q055（1.003e−7/.002246/K14.9898），均未圆化、仅线性DN、非同g精化。q06虽投影接受，完整tensor.04005/K15.9544，数值必要reach/D上限.02948658<.03，未区间认证。q05圆化λ.005初猜负rho拒绝，小步至λ.001投影接受却metric7.669e−4/tensor5.72，非构造。源见n4-material-angle-warm-start、n4-q050-material-secant、n4-q055-material-secant、n4-q060-and-local-reach-budget、n4-q050-small-circularization-terminal及对应包；旧失败/取消不作容量界。
 
-新n4双模线性root03：vu.4/vd.2644695137/δ.02840070836/ramp.45，原port24未改；τ4≈5e−14、τ8≈−3.6e−11，原BackwardLine复核非零向量/正尺度，双参数Jac σ约408/.675。背景K<8、耗窗>.147721；R19新a.147/α.029/ℓ.54在全闭D≤2.65,K≤12.5,σ≥.08前提下held>.10261、reach>.03018、H>.20377，root Fraction逐字复核。见n4-double-linear-resonance及double_resonance_linear；实际双模λ0 q005/M6→同g M8，δ=.02840699270/vd=.26450353591冻结，metric4.262e−6→5.733e−7、tensor.002042→.0003271；固定g释放c8、实际q=.004959299，非固定核心。旧core换坐标两jet差<2e−15，首遗漏ψ模28/32定位角截断；见double-prefix-first-and-fixed-g及double_prefix_first。双模λ.05 M8 metric2.118e−5/tensor.05164失败，λ.1maxnodes；旧同g M12虽solver接受却q塌到7.198e−6且metric4.232e−6未过门。现固定投影J8使M8→M12完整core/初值嵌套，原rho门保留、λ0显式拒绝；独立新BVP继续。见double-prefix-nested-refinement。
+新n4双模线性root03：vu.4/vd.2644695137/δ.02840070836/ramp.45，原port24未改；τ4≈5e−14、τ8≈−3.6e−11，原BackwardLine复核非零向量/正尺度，双参数Jac σ约408/.675。背景K<8、耗窗>.147721；R19新a.147/α.029/ℓ.54在全闭D≤2.65,K≤12.5,σ≥.08前提下held>.10261、reach>.03018、H>.20377，root Fraction逐字复核。见n4-double-linear-resonance及double_resonance_linear；实际双模λ0 q005/M6→同g M8，δ=.02840699270/vd=.26450353591冻结，metric4.262e−6→5.733e−7、tensor.002042→.0003271；固定g释放c8、实际q=.004959299，非固定核心。旧core换坐标两jet差<2e−15，首遗漏ψ模28/32定位角截断；见double-prefix-first-and-fixed-g及double_prefix_first。双模λ.05 M8 metric2.118e−5/tensor.05164失败，λ.1maxnodes；旧同g M12虽solver接受却q塌到7.198e−6且metric4.232e−6未过门。固定J8/λ.05的真嵌套M12终态已接读：1334节点、RMS.0023553、BC.0394792、q降至.00039616565，拟增点超原2400上限；非成功/保幅精化/不存在性。见double-prefix-nested-refinement和2026-11-18-n4-nested-m12-terminal；继续R22最优eta及局域修平的新物理设计。
 
 ## C. 接缝、A图与混合边值
 

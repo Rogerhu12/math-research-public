@@ -1,0 +1,21 @@
+{
+  "source_revision": "be0c61bcf48",
+  "run": "q005-m12-eta015-lambda005-nested-fixed",
+  "arguments": {
+    "source_topic": "m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+    "checkpoint": "n4_double_bvp_work/q005-m8-eta015-small-lambda-lam0.05.json.gz",
+    "out": "n4_double_bvp_work/q005-m12-eta015-lambda005-nested-fixed",
+    "modes": 12,
+    "angular": 768,
+    "max_nodes": 2400,
+    "tol": 1e-06,
+    "check_only": false
+  },
+  "sha256": {
+    "q005-m12-eta015-lambda005-nested-fixed.json": "c58d24353d9388d9f8c19b6d5c23d044101e3cc79c558a2a4dbf49af2f2acf6c",
+    "q005-m12-eta015-lambda005-nested-fixed.log": "8099ec305bfb4133c68cef98725f80084dd16cc5065d2d9208fd3ef712661ba5",
+    "q005-m12-eta015-lambda005-nested-fixed.json.gz": "98eec2c6bed7b3ec33467ba940d0a5778e8a38e4b5dab57927ee28273b4bd0cb",
+    "q005-m12-eta015-lambda005-nested-fixed_coeff_00.npy.gz": "b2702ddd3a82b9be3518ffee0fa5d21e39f24ddb2d8d4bc4d816f69b3dd44a3b"
+  },
+  "source_script_sha256": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f"
+}
