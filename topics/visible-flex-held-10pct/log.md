@@ -193,3 +193,5 @@
 - 2026-11-18 03:33:13（UTC+8）｜Astra-held10-7322d0de-20261118：n4首真尾发布ref接口返回通用GraphQL错误；立即真实pull --rebase保留并行远端提交，双README diff为空，以新head非force重发。
 
 - 2026-11-18 03:38:59（UTC+8）｜Astra-held10-7322d0de-20261118：发表n4 eta1/q001/M12首个真正前缀–尾联合：实际outer校正后物理BC3.806e−14、最后tail完整audit4.145e−10，全部原门保留。完整mean/非mean缝已查，仍λ0/低幅/未闭；修正通用audit静态说明并保留执行源码hash。已接eta.1/q.01/M16继续，真实pull双README无变化。
+
+- 2026-11-18 03:45:05（UTC+8）｜Astra-held10-7322d0de-20261118：发表新beta失败态逐stage正性/残差/同分量ULP诊断，最小A与残差峰不同，stage44粒度已超原全局门；未重解、未放门、未推不存在。缩短H旧历史摘要以守10KB上限；真实pull双README无变化，实际分支继续。
