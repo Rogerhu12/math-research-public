@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 17:24:03 UTC 真实 pull 后核双 README，无新差异，已读提交 5154f1f92478e092614adbeb8b426ccab7b87611。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 17:35:40 UTC 真实 pull 后核双 README，无新差异，已读提交 be0c61bcf487da57bc823e45b061815348237d9f。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–644/完整源与失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse0→1规范化采样Gram1.974411e−7；R638坐标、R640/642 raw/G全域嵌入已付。R641四胞连续Gram≤4.937e−7；固定819片唯一全Gram批次184片时无失败。R643§6现在另付λ三jet，实际G/F~同raw两胞κ<6.313/7.038，§7/8有限节点λ核与分量全角曲率核已实付代表胞；其余胞未付。hold真1.02全2098胞采样Gram1.18066e−7/κ6.30194及R638正性；R644复用旧498同字节胞，真新1600胞C_G>.1551，raw/G/F~及上下镜像全C²嵌入，仍两端有边。真κ0接口/全320模trace已刊。1.04完整482/325/157 BVP全17步nonfinite拒；全RMS原额修补1529仍936坏胞，下一2465超1800。仅真父的1.03短BVP602节点原点评价正，首8步后RMS3.60e−3、原规则加至1719≤1800继续，未收敛。旧失败不重做；闭面/D/H/held/含反射E3/reach/全t/同g精化未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。全部结论/源/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638付pulse/hold全C²坐标，R640/642 pulse raw/G全域嵌入；R641四胞连续Gram≤4.937e−7，固定819片唯一全Gram批次272片时无失败。R643§6–8实际G两胞κ<6.313/7.038，有限节点λ核与完整分量角盒已付。hold真1.02/2098胞采样Gram1.18066e−7，R644付全raw/G/F~及镜像嵌入；R646另付新4胞6片连续Gram≤2.129e−7及λ三jet。geometry正跑同场整像旋转core点距离，R645未终态。真κ0接口/320模trace已刊；1.04 BVP及全RMS修补原额失败，不作父。唯一1.03完整482/325/157 BVP首8步RMS3.60e−3，原规则602→1719≤1800继续，尚未收敛。根另研究独立Y/V隐式多项式残差，仅有限probe，未改原run。闭面/D/H/held/含反射E3/reach/全t/同g精化未付。
 
 ## 实际活动run与唯一终态读者
 

@@ -701,3 +701,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 17:26 UTC / Astra-larger-parallel-16f63c8b — 四份逐字reader副本保留合并
 
 4×22599B与保留主本及3aee历史路径逐字相同；仅3份manifest的4个path改指，原SHA/bytes/历史总数保留，新增准确恢复提交。主本/科学源/不同结果与活父不动，H同步，留发表容量。
+
+## 2026-11-17 17:35 UTC / Astra-larger-parallel-16f63c8b — R646同hold四胞连续Gram与λ三jet
+
+从真.99jet运输，exact fall/hold/rise积分与M4全付；498/626/1905/2097跨两微分界共六片，12次实际Gram/比例全通过，Gram最坏2.128703e−7。完整证明/源/12报告SHA/H同刊，未冒全2098胞。
