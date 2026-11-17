@@ -101,13 +101,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-本节此前逐字保[dd08f3eb固定open](https://github.com/Rogerhu12/math-research-public/blob/dd08f3ebfc3052ca3050f49561c3ebb75836de54/topics/visible-flex-larger-amplitude/open.md)，连同其中b3274c8d、83262fdc完整历史；只更新本并行§7，原§1–6逐字保持。R623–634完整证明见[results](results.md)。所有旧失败/源/参数/SHA持续登记于所链notes；本地计算，原Actions唯一读者/责任不变。
+本节此前逐字保[dd08f3eb固定open](https://github.com/Rogerhu12/math-research-public/blob/dd08f3ebfc3052ca3050f49561c3ebb75836de54/topics/visible-flex-larger-amplitude/open.md)，连同其中b3274c8d、83262fdc完整历史；只更新本并行§7，原§1–6逐字保持。R623–635完整证明见[results](results.md)。所有旧失败/源/参数/SHA持续登记于所链notes；本地计算，原Actions唯一读者/责任不变。
 
 **真实前缀与核心。** [原解析g](notes/2026-11-17-parallel-numerical-0995-continuation.md).992→.993→.995完整M112真接受，实际quintic Gram2.587e−7/4.001e−7；.995→.999大步1113节点/RMS.004301超预算未接受，失败态不作父。有限边界由真父设计，非非线性DN。[.992角阶](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112 Gram2.590e−7而M128回升6.467e−7；[三控制](notes/2026-11-17-parallel-numerical-core-gram-response.md)gap.960101/Gram5.177e−7，[六控制新有限族](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受但Gram1.881e−5、重线性化纠正仍未接受。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995均未接受；不同于区间端点s=.995。 [.8/.9真实节点2jet](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保全部模式，不能用缩放初圈冒强cut。
 
 **长度约束与新g。** [R633](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)以真实b677切口与2368物理胞元的有理exp/整数sqrt包围，严格排除旧best4到指定R1.767318：A=.003016完整L≤.671827832、必要ε>.584839；A2/5也不行。已排除的固定组合不再靠加密追λ1；不同g/cut/外圆/内向路线未排除。
 
-[新近竖直外向g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)真.8cut/R1.55，以2037行固定Hermite表及.07参考退平给L1.108257；条件H1.491365下自由圆周对应chord1.104644，余.003613，帽D界4.799855。峰w≈500、表κ采样6.500003；尚无非线性接受态，真实高度/材料对应/平jets/全场几何仍须支付。
+[近竖直参考g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)R1.55虽参考长度/chord/帽D过采样门，未付真实major切向；[R1.6后续表](notes/2026-11-17-parallel-numerical-outward-budget-exclusion.md)完整固定Θ chord1.106767、参考L1.108381、条件H1.441113/D4.797887，仍由[R635](results/R635-positive-projection-meridian-curvature-length-obstruction.md)严格排除。实际反射major正投影且κ≤6.8时，允许负坡也有长度上界；.992/R1.7673/H≤1.22需ε>.388304，.8/R1.6/H≤1.45需ε>.092997，近等距因子已付。改变整个g也无法救这两组合；停止强幅沿此chart/参数追解，内向翻转不在排除内。
 
 [新向内g](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)真.995cut后κ1.5与两.02 ramps到参考s2.284717/R.531879内向平2jet，H1.8固定材料chord余.072629；κ1.75/2同H未过门。完整338维已到.997/510节点真BVP接受，但quintic Gram2.754e−6超限、κ6.30172，a′仍正；同g/原.995边界参照M128亦真接受但Gram5.879e−6；端点投影截尾约.000415，增求积角数只改速度约1.4e−8，检查实际端部影响；.997→.999初猜非有限/jac0未接受，仍真父缩步.998。参考盘D3.753875仅组件值，不冒完整闭面。
 
