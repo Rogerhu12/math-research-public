@@ -1,0 +1,69 @@
+{
+  "scope": "Numerical old-parameter raw control width diagnostic; not a BVP, continuous certificate or nonexistence result.",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_transfer/raw_control_width_screen.py",
+    "--record",
+    "topics/visible-flex-held-10pct/scripts/resume_m3/round_control_width_record.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/transfer_work/raw-control-width-screen.json"
+  ],
+  "source_sha256": {
+    "raw_control_width_screen.py": "d2810b20285028efd1dd37a8745767af34d0d79c1ece7def88dada1dc34987e4",
+    "curvature_minimum_controls.py": "ababdd505ee04c8fed985f5a59bf9b417ca87cb25a6a4799b5e49b0fa6da1da7"
+  },
+  "input_sha256": "e68ef8cb880f6dfeb2a53ff795c12a5e379708d6e17c9125bdee6c763bf07deb",
+  "output_sha256": "0a3fae797f8aa79c3380d7f04bef7037f6bc67365844ed5da97971a62e96f025",
+  "quadrature_order": 256,
+  "angular_samples": 32768,
+  "trial_count": 12,
+  "selected_scalars": [
+    {
+      "control_transition": 0.16,
+      "low_gram_condition": 4.713906214824999,
+      "quadrature_mean_primary_residual_linf": 9.802252035942403e-21,
+      "sampled_complete_support_linf": 0.000133836574781604,
+      "sampled_complete_rho_control_linf": 0.09199123130942159,
+      "sampled_complete_rho_control_min": -0.09199123130942159,
+      "sampled_complete_rho_control_max": 0.07176239286415222,
+      "sampled_full_rho_lambda_one_min": 0.6662892948879134,
+      "sampled_zero_on_open_protected_arc": 0.0
+    },
+    {
+      "control_transition": 0.2,
+      "low_gram_condition": 5.18674867812533,
+      "quadrature_mean_primary_residual_linf": 3.857604245631907e-20,
+      "sampled_complete_support_linf": 0.00011453742297585571,
+      "sampled_complete_rho_control_linf": 0.06027565781037519,
+      "sampled_complete_rho_control_min": -0.06027565781037519,
+      "sampled_complete_rho_control_max": 0.043795580757042145,
+      "sampled_full_rho_lambda_one_min": 0.6664385193365479,
+      "sampled_zero_on_open_protected_arc": 0.0
+    },
+    {
+      "control_transition": 0.4,
+      "low_gram_condition": 8.676352255400323,
+      "quadrature_mean_primary_residual_linf": 6.1194022278045935e-21,
+      "sampled_complete_support_linf": 7.290738435239878e-05,
+      "sampled_complete_rho_control_linf": 0.016506831460038642,
+      "sampled_complete_rho_control_min": -0.016506831460038642,
+      "sampled_complete_rho_control_max": 0.008709821941268271,
+      "sampled_full_rho_lambda_one_min": 0.6671213192354913,
+      "sampled_zero_on_open_protected_arc": 0.0
+    },
+    {
+      "control_transition": 0.8,
+      "low_gram_condition": 23.672663535964077,
+      "quadrature_mean_primary_residual_linf": 6.368420157371319e-21,
+      "sampled_complete_support_linf": 3.7264730519286855e-05,
+      "sampled_complete_rho_control_linf": 0.004209324146436557,
+      "sampled_complete_rho_control_min": -0.003413276043384583,
+      "sampled_complete_rho_control_max": 0.004209324146436557,
+      "sampled_full_rho_lambda_one_min": 0.6680080217668787,
+      "sampled_zero_on_open_protected_arc": 0.0
+    }
+  ],
+  "maximum_mean_primary_quadrature_residual": 3.857604245631907e-20,
+  "narrowest_width_rho_min": -0.10164025921043285,
+  "regenerable_fields_omitted": true
+}
