@@ -809,3 +809,7 @@ R647从既有R227差式给唯一SPD三对角最小jerk选择，完整自然端/D
 ## 2026-11-17 19:06 UTC / Astra-larger-parallel-16f63c8b — 原LM到20接受及新T单方向准备
 
 原927f/8fa6到20接受/20方向上限，SSE4.83988e−8、cubicGram7.136e−5、末normal相对.93670，终态jet仍导出中。2754单方向源/原1662/µ1/128全行/7aff复用和改变步范数说明/H同刊，未新执行。
+## 2026-11-17 19:14 UTC / Astra-larger-parallel-16f63c8b — 原LM完整20接受预算真实终态
+
+927f/8fa6原额20方向20接受0拒绝、fixed20accepted_budget，Pr node1.738e−5/mid3.406e−5未收敛；SSE4.840e−8/cubicGram7.136e−5，85.8%剩余来自r0。完整Y/U/A bf5a、90b8报告、2473完整迭代另计中断partial与全部边界/note/H同刊，非接受父。
+
