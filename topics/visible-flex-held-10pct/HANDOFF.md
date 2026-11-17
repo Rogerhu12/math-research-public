@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`108dce712ec8ea50ba63e3a8bd8078fae93ed669`。2026-11-18 03:04:25（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`d453d0ae75f84296b7f2e2a6e61c3a2f5a04a3bb`。2026-11-18 03:06:10（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -40,6 +40,8 @@ R12/R14已证h=g−dz²正定且同严格Q号支时，高度全二jet与g一jet�
 R17无轴反射二fold核已证，但须全cos/sin/mean BVP，旧象限证书不移用。R20/R22分别给单/双谐波到精确圆弧的正距离；切空间推论严格要求完整核与可微支，有限共振不授不存在。R22固定中心最优eta≈.3674128及全圆rho新界已证；n4正以局域圆化实际消费。全部公式与条件见对应results。
 
 R25：固定真实Q/g、完整mean+非mean有限动量，D>d/S>s/A>a可行域凸；Jac=〈A D^(−3/2)φ_iφ_j〉≥a/E^(3/2)Γ，严格单调给唯一根与显式残差→系数差界。原root的局部同伦初值若过同一门，不会换到另一正A根；不保证存在或shoot/闭合。
+
+R26：保持中心半径的三谐波最优圆弧平坦化已证，交错Lagrange权给唯一minimax；n4/a.147/q.06的系数A≈(1.524236,−.639902,.115666)，弧上误差E<8.432943e−5、全圆ρ>.0999241035。新Fraction预算实算，见R26/triple-circle-budget；第三模尚未共振，非精确圆弧/BVP/闭族。
 
 R21/R23：实际M8以共享中心/cut Cartesian二jet、唯一mean、有限尾/圆领/平盘定义完整C²闭S²。504320 prefix盒+4637尾段证明全图σ>.7、K≤10、D<2.30242、reach/D>.0434；相位角Jac>.8399给全相位C²连续。圆领/盘metric<1.36e−29、K<8.002，精确背景增高/尺度已证。源finite_closure/m3_m8_collar_disk、m3_m8_closed_map。零marker时δE=0；R24已给实际非零帽，幅度不足/整域metric连续界仍未付。
 
