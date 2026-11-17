@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **R647与当前求解。** [R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)包含原Pr完整消元/真实metric输运、全二次谱、全局rho导数、可逆C/U/全部D、准确T列矩/联合边界、最小jerk共同A及核心反例。全直接Gram模型保1158250行/580328未知，原482位置BC加482 U0=ez；核心962行虽在准确affine空间恒零仍全部保留。C列完整rho cross、mask后482阶SPD投影已证。
 
-[85c实际准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)完整1203点矩/9列/全Jv/投影伴随已返，70c固定尺度；初始Gram SSE1.495162451e−9。原Y不动，U0仅158负零变正零，无几何改动。513唯一Gram-T方向已返待刊，efe92独立完整预算准备，不混旧Pr目标。原[0f T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)原24方向/20接受保持，复用2754/7aff后已8接受；未完方向8已有≥432对乘积，环境中断按原--resume记partial续接。numerical唯一完整读者。各初值/缓存/参数/失败/BC/源的完整字节身份见对应note，非达标父。
+[85c实际准备](notes/2026-11-17-parallel-root-direct-gram-integrated-preparation.md)完整1203点矩/9列/全Jv/投影伴随已返，70c固定尺度；初始Gram SSE1.495162451e−9。原Y不动，U0仅158负零变正零，无几何改动。[513实际Gram-T满步](notes/2026-11-17-parallel-root-direct-gram-integrated-direction.md)µ1/256/istop7，SSE6.191013184e−10、ratio.999999965；8192全样点分支正但node600 Gram4.9803869e−6，任何保Y/U换A不修，核心Z仍160微非零。新efe92预算session1878独立启动，复用513方向0，不重算70c/physical；原Pr恢复97062继续，门不混。原[0f T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)原24方向/20接受保持，复用2754/7aff后已8接受；未完方向8已有≥432对乘积，环境中断按原--resume记partial续接。numerical唯一完整读者。各初值/缓存/参数/失败/BC/源的完整字节身份见对应note，非达标父。
 
 **reach工具。** [R10消费/R632障碍](notes/2026-11-17-parallel-geometry-positive-support-scope.md)及[R649](results/R649-ordinary-support-obstruction-for-the-actual-pulse-and-hold.md)排实际pulse/hold与镜像的任意普通中心支持；没有排reach本身。[R650](results/R650-positive-definite-flow-support-reach.md)固定SPD A支持≥σ、|κ|≤K给闭C²参数球面自动嵌入/reach≥min(σ/λmax,1/K)，流横截面/一层覆盖/偏移严格排序/最近点与端点全部证明。Aβ与相位/镜像相容，当前尚无符合其全部假设的实际闭图。
 
