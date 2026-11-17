@@ -7,7 +7,7 @@
 连通闭曲面的连续C²等距嵌入族，固定有内点闭H，diam F₀(H)≥.2D；整像δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g/物理参数/时间范围下最大相对度量误差≤1e−6且加密下降。材料位移不是整像变化，solver success不是完成。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；仅本题及自己的workflow稀疏检出。
-- 已读规则提交：`334bba91db28debd9812040b39aafb1e30a18deb`。2026-11-17 22:26:06（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:26:06；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`59a812314eb9301c7f9a465eeea3144abca659c2`。2026-11-17 22:27:11（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:27:11；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同步本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用。
 - 完整证明进results；数值/条件/缺口分开。可重算数组、网格、CI artifact不入Git/Release，只存源码、参数、hash。本文件<10KB、单Markdown<100KB；不写根LOG。
 
@@ -28,6 +28,8 @@
 原尾真实延拓仅到完整q18端口λ=.0781。相同原g在λ=.07、M8/12/16的metric8.03e−9/2.24e−9/9.29e−10，但Darboux1.96e−5/1.15e−5/8.23e−6，Xrr层差.00382/.00130，差分噪声仅4e−12。不能由小metric宣称C²/无限尾完成。详见nonlinear-tail-stage1及common-twojets笔记和scripts/nonlinear_tail。
 
 **真实前缀—非线性尾联立已接通**：scripts/coupling保留原TailMixin、affine-inner/true-outer和全部原接受门，只适配mode2/ShortBridge/指定worker。upper输入σH（σ=−1），物理尾z=σz_worker+常数；均值也按同一链式变换。beta8新物理g、M8/depth8：q=.0002、607节点，prefix metric2.37146e−11，原BC2.05050e−12，真尾residual2.01942e−9；q=.0004、706节点，metric2.41933e−10，原BC1.80025e−14，真尾residual2.26479e−9，minA=.834329。q=.0004首次内层maxnodes未过，显式tol1e−6的新重试通过；不隐藏失败。这是两次设计联立，不是固定g加密或10%候选。全均值/非均值高度两jet已核；完整Cartesian公共C²表示、无限深度、全时reach及闭合仍欠。精确复现与源hash见actual-prefix-tail-coupling笔记及coupling_completed_seed/q0004.json。
+
+R12已严格证明：接口水平Gram h=g−dz⊗dz正定时，相同g一jet与z二jet经一次固定平面刚体配准决定整圈Cartesian二jet；含反射/同向约定及显式有限误差链。数值应用仍需连续误差界、共同C²表示，不新增独立Cartesian方程。
 
 新DN必须重配完整H向量，不能复用旧线性根：beta8 p=.2线性prefix到q=.08设计态；p=.05减少高模出口，q=.04 M16已过采样metric，继续q=.06。另一任务已实际定义前三cell新块（峰w=.85、谷.04、深n≥3不变），高约.061、背景κ<10、D1≈−46.3346，正在重配实际联立。各为不同物理g，严禁混称同g。
 
