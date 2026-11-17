@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`63f61bd14b821137dce0c43cb892f8194458da78`。2026-11-18 04:51:47（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`d27cedb6816cc4e517f696d7ff02185127b8e60a`。2026-11-18 04:52:46（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -20,7 +20,7 @@
 
 **actual g 的M20已接受**：完整g/port冻结，1913点/RMS9.99605e−9，prefix metric2.38461e−8→1.950429e−9/tensor1.62251e−5→3.51076e−6；4次真尾最终res1.66494e−9/minA.942545/metric2.27685e−12/fullD8.96381e−8，mean两jet5.95e−14/−7.11e−13。见n4-actual-fixed-m20。现同g M24/1536/N512/tol1e−8继续，三jet/全图初值≤2.09e−15，旧1913点全留；不借线性g结果。
 
-**原 w.08 增幅**：eta.1/λ0 的 q.01/M16、q.0125/M16、q.015/M20 原 BVP 接受；最后784点 metric9.23853e−7/tensor3.64609e−4/K6.99816/rootmin.00229460。δ/vd随 q 重解，仍线性 port，非同g。q.02大跳与重复 q.0175/M20 明确取消，不是数学失败。q.0175/M24 的初始 rho 守卫曾因系数区间过宽拒绝；同一 Gram 的 Taylor100→180使逆误差由10326.78降至1.90e−40，原门下界.736211。未改核心或放门，M24 实际 BVP 继续。见 n4-eta010-amplitude、n4-m24-coefficient-certificate。
+**原 w.08 增幅**：eta.1/λ0 的 q.01/M16、q.0125/M16、q.015/M20 原 BVP 接受；最后784点 metric9.23853e−7/tensor3.64609e−4/K6.99816/rootmin.00229460。δ/vd随 q 重解，仍线性 port，非同g。q.02大跳与重复 q.0175/M20 明确取消，不是数学失败。q.0175/M24 的初始 rho 守卫曾因系数区间过宽拒绝；同一 Gram 的 Taylor100→180使逆误差由10326.78降至1.90e−40，原门下界.736211。未改核心/门；M24第一网格运行1743.6s后原Frenet margin−1.33207e−6拒绝，无接受态，见n4-q0175-tight-terminal。见 n4-eta010-amplitude、n4-m24-coefficient-certificate。
 
 **线性g固定精化**：原w.08/q.01冻结δ/vd，M16→20/tol1e−8到1920点，metric2.38461e−8→1.95003e−9，tensor1.62253e−5→3.51078e−6；见n4-fixed-metric-refinement。最终API从已求参数/原投影重建核心、归一后合并物理网格。true q001/M12→16身份检查三jet≤9.44e−16、全图≤1.83e−15、993旧点全保留；见n4-fixed-seed-identity。已执行旧源另存。
 
