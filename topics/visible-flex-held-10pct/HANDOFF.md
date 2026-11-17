@@ -7,7 +7,7 @@
 构造连通闭曲面的连续C²等距嵌入族，固定有内点的闭H，diam F₀(H)≥.2D；整像Hausdorff变化δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g、物理参数和时间范围下，最大相对度量误差≤1e−6且加密下降。材料点位移不是δ_hold；优化success不是数学完成。
 
 - 已部分克隆并真实pull main，根README（含授权）和题README全文已读。仅本题及其workflow稀疏检出。
-- 已读规则提交：`cd3816b0792c494d3e97800b79167f177d98ebbe`。2026-11-17 21:22:40（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:22:40；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`8ccd1988e774a615bf0e4562c83db51b397fdedf`。2026-11-17 21:31:58（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:31:58；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同时更新本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用，不存文件。
 - 只有完整证明进results；数值证据、条件假设与缺口分别写明。可重算数组/网格/渲染/CI artifact不提交，只存脚本、参数、运行ID/hash。单Markdown<100KB，本文件<10KB；不写根LOG。
 
@@ -18,6 +18,8 @@
 固定同一物理profile/chart/port/warp的实际加密：q14 M14→M16，metric1.16e−7→1.16822e−9；q18 M16→M20，9.98e−7→2.42874e−8；q20 M20→M24，9.92e−7→4.17253e−9，actual q=.20000109659082244、κ采样6.62074、高度1.27654148、最小Frenet根5.64176e−4。以上均是开放前缀，不是闭合解，也无连续reach证书。
 
 真实q20端口包含完整非线性均值，512角点2jet，SHA `0d03cd6128d7e498c28b60b2ea82c8ce4cd0af03d0e50bb1fc3cae8b54ee5355`。复现：scripts/recover_prefix.py与prefix_recovery_manifest.json恢复源；smallcut_prefix_sweep.py建立新chart，smallcut_secant_launcher.py延拓，fixed_refine_smallcut.py冻结g加密，smallcut_endpoint.py导出端口。精确命令/参数/hash见smallcut_delivery_manifest.json；完整表及失败路径见notes/2026-11-17-smallcut-high-q-and-fixed-g.md。所有数组仅scratch。
+
+[R7](results/R7-twofold-markers-core-moment-and-geometry.md)已为二重对称闭族证明固定双帽的δE>0机制，给显式C² bump、曲率/面法线支撑界与当前q20核心矩Re A_C>.11262048876的有理下界；只在真实闭族/接口成立时适用。
 
 关键缺口：有限线性DN并非实际非线性尾，完整Cartesian两jet/均值尚未与尾联立。new_construction正在用原真实momentum/radicand/multiple-shooting worker延拓q18的±λH；已核清upper正确给orientation+1 worker输入−H并整体反射z，旧线性D比值掩盖此符号。先算真实λ支与接头，再必要时重求prefix；不把线性容量当非线性上界。literature继续q21/q22与全prefix外向X·n/尺寸审计。
 
