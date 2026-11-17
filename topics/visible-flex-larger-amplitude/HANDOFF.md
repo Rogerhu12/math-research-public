@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 14:14:16 UTC 真实 pull 后核双 README，无新差异，已读提交 df901a6f2be972987cda2bbae48881e44feece8a。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 14:18:07 UTC 真实 pull 后核双 README，无新差异，已读提交 4b86bb5a22357489c7cb0d428c2dfc3043da99f0。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–632证明见results；本地计算，原Actions责任不变。旧结论/源/参数/SHA均见[open§7](open.md#7-本并行会话的实际数学与几何路线)。.992真M112 Gram2.590e−7，M128回升未付单调精化。[六控制](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受但真Gram1.881e−5，重线性化纠正仍未接受；保更优三控制。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95未接受、.995在算。[实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)R1.767/H1.13919，Gram2.057e−6超限；新g未付精确解精化。[双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两新g未接受，深P0至5e−5，暖试1e−4失败。[高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)原弱场约1.4e−7，拟合不得继承。[前缀点对](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)2.11亿近对Q≥.16150仅点云；R632仅盖内reach=ρ。λ1真接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：R623–632证明见results；本地计算，原Actions责任不变。旧结论/源/参数/SHA均见[open§7](open.md#7-本并行会话的实际数学与几何路线)。.992真M112 Gram2.590e−7，M128回升未付单调精化。[六控制](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受但真Gram1.881e−5，重线性化纠正仍未接受；保更优三控制。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995均未接受。[实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)R1.767/H1.13919，Gram2.057e−6超限；新g未付精确解精化。[双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两新g未接受，深P0至5e−5，暖试1e−4失败。[高度校准](notes/2026-11-17-parallel-model-exact-warm-radial-calibration.md)原弱场约1.4e−7，拟合不得继承。[前缀点对](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)2.11亿近对Q≥.16150仅点云；R632仅盖内reach=ρ。λ1真接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 
