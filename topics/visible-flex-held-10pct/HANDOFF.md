@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`b45af88071af4f4e1f81bf4992b85f594572559c`。2026-11-18 07:50:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`6d31a7639360ef8d6e96cfe0328af758a9e93c4e`。2026-11-18 07:52:06（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -38,7 +38,7 @@ R30共享engine原576段/990760标量逐位同值、576→8。旧q.0175/q.015及
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支**：beta4.625/q.040联合metric6.91e−9；q.060旧H局部初值获原尾1.993008435e−9/208Jac。36748新H call3原门失败3.2413445e−9，stage45/mode12=70ULP、stage43/mode15=3ULP；临时inner success但未存p/sol，无最终prefix。见m3-q060-resumed-prefix-new-height-tail-failure。三版内部候选23/27/72次均0改善、未重调DN；最小1ULP仍推高邻行，二节点最好3.76014e−9。原worker恢复/原cubic及DN锚点保存入口已备，尚无成功恢复E2E，见q060-original-worker-recovery-and-local-candidate-failures。停止该局部变体族；同H原生parts8→16的68353仅观察缺口、无原响应/退出码，不判数学失败；19362同源新前缀续跑。见q060-nested-parts-observation-gap，不改门或反推失场。
+**q060高幅支**：beta4.625/q.040联合metric6.91e−9；q.060旧H局部初值获原尾1.993008435e−9/208Jac。36748新H/parts8 call3失败3.2413445e−9，临时inner success但未存p/sol、无最终prefix；见m3-q060-resumed-prefix-new-height-tail-failure。三版候选23/27/72均0改善且未调DN，停止该族；原worker恢复/cubic及DN锚点保存接口已备、无成功E2E，见q060-original-worker-recovery-and-local-candidate-failures。同H原生parts16的68353仅观察缺口；19362新前缀真实exit2，iter3原线搜索3.667965398e−9失败，1153×16完整失败态/A.5219178，无返回Jac/audit/无prefix。见q060-native-parts16-tail-terminal；只按新态具体定位选择初值，不盲升parts32。
 
 ## 3. 全闭表示与严格连续metric
 
