@@ -1,0 +1,24 @@
+--- probe_cone_full_gram.mjs
++++ probe_cone_full_gram.mjs
+@@ -1,10 +1,10 @@
+ // Probe only: same finite momentum equations on an independently known cone.
+ import fs from 'node:fs';import {pathToFileURL} from 'node:url';import {createHash} from 'node:crypto';
+-const [moduleFile,inputFile,outFile,stepsArg="64",modesArg="8,16,32"]=process.argv.slice(2);
++const [moduleFile,inputFile,outFile]=process.argv.slice(2);
+ const {createMomentumTailEngine}=await import(pathToFileURL(moduleFile));
+ const input=JSON.parse(fs.readFileSync(inputFile)),rows=[];
+ const norm=x=>Math.max(...Array.from(x,Math.abs)),hash=f=>createHash('sha256').update(fs.readFileSync(f)).digest('hex');
+-for(const row of input.rows)for(const M of modesArg.split(",").map(Number)){
++for(const row of input.rows)for(const M of [8,16,32]){
+  const {w,radius:r,H,meanSlope}=row,freq=Array.from({length:M},(_,j)=>2*(j+1));
+  const engine=createMomentumTailEngine({modes:M,quadrature:512,spacing:2,projectionFloor:.01,mu:1,orientation:1});
+  const profile=x=>({r:r+x,drdx:1,logw:Math.log(w),dlogwdx:0});
+@@ -27,7 +27,7 @@
+    const error=norm(Float64Array.from(Jv,(v,j)=>v-(fp[j]-fm[j])/(2*step)))/Math.max(1e-20,norm(Jv));fd.push({step,relativeError:error});
+   }
+   // A fixed radial flow on the same exact cone; no amplitude continuation claim.
+-  let flowing=Float64Array.from(state);engine.seedRootGuess(init.L);const steps=Number(stepsArg),span=.02;
++  let flowing=Float64Array.from(state);engine.seedRootGuess(init.L);const steps=64,span=.02;
+   for(let j=0;j<steps;j++)flowing=engine.rk4(flowing,profile,j*span/steps,span/steps);
+   let qerr=0,pierr=0;const r1=r+span;
+   for(let j=0;j<M;j++){qerr=Math.max(qerr,Math.abs(flowing[j]-state[j]*(r/r1)**3));pierr=Math.max(pierr,Math.abs(flowing[M+j]-state[M+j]*(r1/r)**4));}

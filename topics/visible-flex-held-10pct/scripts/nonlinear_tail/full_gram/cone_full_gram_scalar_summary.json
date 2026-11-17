@@ -1,0 +1,623 @@
+{
+  "scope": "Keep scalar results and hashes; never persist generated Gram or state arrays.",
+  "meaning": "Independent seeds on exact cone references in nonsingular finite indefinite charts; no amplitude passage through Gram singularities and no infinite-mode inverse.",
+  "numpy": "2.3.5",
+  "runs": [
+    {
+      "source_report_sha256": "389e9c71e2cda1881209c647d79ebbf16d25b804c1a687f51b6d3871604718be",
+      "module_sha256": "61db2951f36f84dc0217c3c54ee168ffd231015ed283d1242a6080d916dd9aff",
+      "input_sha256": "d3bcd446a7dde732c6a3259efd6c25793aa020623206365bfb7c7a74636d8fd6",
+      "source_sha256": "6c35a94e8420aa7a75a9335e8761b495ee7250fb695791bbe0169fea3fa67c04",
+      "rows": [
+        {
+          "amplitude": 0.0004,
+          "M": 8,
+          "success": true,
+          "minA": 0.6741176437938385,
+          "minD": 0.9999967093069665,
+          "minS": 0.9999993600004096,
+          "rootRelativeResidual": 1.1602141422062079e-16,
+          "meanRootResidual": 6.938893903907228e-18,
+          "LReferenceError": 5.7560761712593944e-12,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 1.855161482324343e-10
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 1.2338244560054354e-11
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 2.2030040602963868e-10
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 4.183250944720581e-14,
+          "flowMomentumError": 9.855939990996403e-20,
+          "flowMeanError": 4.4002345170324197e-16,
+          "solveDiagnostics": {
+            "calls": 475,
+            "minRelativePivot": 0.6744466922155248,
+            "maxRelativeResidual": 2.2425052756694426e-16
+          },
+          "gram_negative_eigenvalues": 0,
+          "gram_eigen_min": 0.6792134778698895,
+          "gram_min_absolute_eigenvalue": 0.6792134778698895,
+          "gram_condition_2": 1.9720206972507213
+        },
+        {
+          "amplitude": 0.0004,
+          "M": 16,
+          "success": true,
+          "minA": 0.6741176437943879,
+          "minD": 0.9999967093069665,
+          "minS": 0.9999993600004096,
+          "rootRelativeResidual": 1.1602141422062079e-16,
+          "meanRootResidual": 5.204170427930421e-18,
+          "LReferenceError": 5.7560640281950626e-12,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 1.8715271274622893e-10
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 5.679707789551758e-12
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 5.86808081256116e-11
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 4.1833227330789664e-14,
+          "flowMomentumError": 9.855977770412901e-20,
+          "flowMeanError": 4.4002345170324197e-16,
+          "solveDiagnostics": {
+            "calls": 491,
+            "minRelativePivot": 0.6744452679747519,
+            "maxRelativeResidual": 2.2362961522799063e-16
+          },
+          "gram_negative_eigenvalues": 0,
+          "gram_eigen_min": 0.6755508949003847,
+          "gram_min_absolute_eigenvalue": 0.6755508949003847,
+          "gram_condition_2": 1.9881336731310988
+        },
+        {
+          "amplitude": 0.0004,
+          "M": 32,
+          "success": true,
+          "minA": 0.6741176437970051,
+          "minD": 0.9999967093069665,
+          "minS": 0.9999993600004096,
+          "rootRelativeResidual": 1.1602141422062079e-16,
+          "meanRootResidual": 0,
+          "LReferenceError": 5.7560761712593944e-12,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 2.5390376649212638e-09
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 2.6602261202541416e-11
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 5.331148719533215e-11
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 4.1833368814243177e-14,
+          "flowMomentumError": 9.856004512679259e-20,
+          "flowMeanError": 4.4002345170324197e-16,
+          "solveDiagnostics": {
+            "calls": 523,
+            "minRelativePivot": 0.6744242835247403,
+            "maxRelativeResidual": 2.8737178127394464e-16
+          },
+          "gram_negative_eigenvalues": 0,
+          "gram_eigen_min": 0.6745006445219862,
+          "gram_min_absolute_eigenvalue": 0.6745006445219862,
+          "gram_condition_2": 1.9927863708349736
+        },
+        {
+          "amplitude": 0.001,
+          "M": 8,
+          "success": true,
+          "minA": 0.21889136349087485,
+          "minD": 0.9999899325905625,
+          "minS": 0.9999960000160002,
+          "rootRelativeResidual": 1.1079805460434661e-17,
+          "meanRootResidual": 6.938893903907228e-18,
+          "LReferenceError": 2.1061076493911202e-11,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 1.8752177608740701e-06
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 1.8752189130885032e-08
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 1.6647528503849723e-10
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 1.8307192639276294e-12,
+          "flowMomentumError": 2.2623434522081063e-17,
+          "flowMeanError": 3.9639109052427846e-15,
+          "solveDiagnostics": {
+            "calls": 475,
+            "minRelativePivot": 0.35013067519976726,
+            "maxRelativeResidual": 1.818095933406577e-16
+          },
+          "gram_negative_eigenvalues": 0,
+          "gram_eigen_min": 0.23162652254673877,
+          "gram_min_absolute_eigenvalue": 0.23162652254673877,
+          "gram_condition_2": 8.125822334148678
+        },
+        {
+          "amplitude": 0.001,
+          "M": 16,
+          "success": true,
+          "minA": 0.2188913634915634,
+          "minD": 0.9999899325905625,
+          "minS": 0.9999960000160002,
+          "rootRelativeResidual": 4.4319221841738644e-17,
+          "meanRootResidual": -2.7755575615628914e-17,
+          "LReferenceError": 2.1061041799441682e-11,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 4.588995090275926e-09
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 5.369792166821155e-11
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 9.83537067488807e-11
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 1.840090403580856e-12,
+          "flowMomentumError": 2.429204896571397e-17,
+          "flowMeanError": 3.9697927020285184e-15,
+          "solveDiagnostics": {
+            "calls": 491,
+            "minRelativePivot": 0.35032548374200706,
+            "maxRelativeResidual": 3.0547566381426325e-16
+          },
+          "gram_negative_eigenvalues": 0,
+          "gram_eigen_min": 0.22246964982646678,
+          "gram_min_absolute_eigenvalue": 0.22246964982646678,
+          "gram_condition_2": 8.501438047421365
+        },
+        {
+          "amplitude": 0.001,
+          "M": 32,
+          "success": true,
+          "minA": 0.21889136349488234,
+          "minD": 0.9999899325905625,
+          "minS": 0.9999960000160002,
+          "rootRelativeResidual": 1.2187786006478127e-16,
+          "meanRootResidual": -7.632783294297951e-17,
+          "LReferenceError": 2.1061027921653874e-11,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 4.5219679800142e-06
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 4.5214896642893605e-08
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 3.7840676386085396e-10
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 1.8400936954867243e-12,
+          "flowMomentumError": 2.4292394211330868e-17,
+          "flowMeanError": 3.9698062545556745e-15,
+          "solveDiagnostics": {
+            "calls": 525,
+            "minRelativePivot": 0.34999940801884916,
+            "maxRelativeResidual": 4.107935007911913e-16
+          },
+          "gram_negative_eigenvalues": 0,
+          "gram_eigen_min": 0.21984389865795417,
+          "gram_min_absolute_eigenvalue": 0.21984389865795417,
+          "gram_condition_2": 8.61491922377018
+        },
+        {
+          "amplitude": 0.002,
+          "M": 8,
+          "success": true,
+          "minA": -0.46436550350712075,
+          "minD": 0.9999717278166433,
+          "minS": 0.9999840002560019,
+          "rootRelativeResidual": 1.5463155829137377e-16,
+          "meanRootResidual": 2.220446049250313e-16,
+          "LReferenceError": 7.490341680238544e-12,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 1.3414649987292038e-05
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 1.341360180364671e-07
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 1.2543210726260256e-09
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 8.060859082454088e-11,
+          "flowMomentumError": 1.6108243834515832e-15,
+          "flowMeanError": 2.345234466696877e-13,
+          "solveDiagnostics": {
+            "calls": 540,
+            "minRelativePivot": 0.21623597710018252,
+            "maxRelativeResidual": 1.732108905444884e-16
+          },
+          "gram_negative_eigenvalues": 2,
+          "gram_eigen_min": -0.4389178110676836,
+          "gram_min_absolute_eigenvalue": 0.13438280566280505,
+          "gram_condition_2": 21.29871247915113
+        },
+        {
+          "amplitude": 0.002,
+          "M": 16,
+          "success": true,
+          "minA": -0.4643655035062239,
+          "minD": 0.9999717278166433,
+          "minS": 0.9999840002560019,
+          "rootRelativeResidual": 2.1261839265063887e-16,
+          "meanRootResidual": 3.0531133177191805e-16,
+          "LReferenceError": 7.490202902360465e-12,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 1.124480554114215e-06
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 1.1247509918143767e-08
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 2.310789239778768e-10
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 4.864941343625925e-10,
+          "flowMomentumError": 3.3083916425205795e-14,
+          "flowMeanError": 1.3160908723507808e-12,
+          "solveDiagnostics": {
+            "calls": 554,
+            "minRelativePivot": 0.2394537299781243,
+            "maxRelativeResidual": 3.012257950584659e-16
+          },
+          "gram_negative_eigenvalues": 4,
+          "gram_eigen_min": -0.4572337025587382,
+          "gram_min_absolute_eigenvalue": 0.08257867702521379,
+          "gram_condition_2": 34.88179539641369
+        },
+        {
+          "amplitude": 0.002,
+          "M": 32,
+          "success": true,
+          "minA": -0.46436550350146233,
+          "minD": 0.9999717278166433,
+          "minS": 0.999984000256002,
+          "rootRelativeResidual": 3.285920613691693e-16,
+          "meanRootResidual": 4.718447854656915e-16,
+          "LReferenceError": 7.490341680238544e-12,
+          "rhsReferenceError": 4.336808689942018e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 0.002778799281514107
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 2.7429515975227616e-05
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 2.7426108132091037e-07
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 3.129976090819261e-09,
+          "flowMomentumError": 7.694451105706867e-13,
+          "flowMeanError": 8.36717176935179e-12,
+          "solveDiagnostics": {
+            "calls": 590,
+            "minRelativePivot": 0.24120499887108676,
+            "maxRelativeResidual": 3.80897659756683e-16
+          },
+          "gram_negative_eigenvalues": 8,
+          "gram_eigen_min": -0.46248585449664636,
+          "gram_min_absolute_eigenvalue": 0.05495749882368589,
+          "gram_condition_2": 52.508638521983414
+        },
+        {
+          "amplitude": 0.0088,
+          "M": 8,
+          "success": true,
+          "minA": -4.204344241896197,
+          "minD": 0.9995311563716618,
+          "minS": 0.9996903359370035,
+          "rootRelativeResidual": 1.1733036018025796e-15,
+          "meanRootResidual": 4.085620730620576e-14,
+          "LReferenceError": 5.498268507153625e-12,
+          "rhsReferenceError": 8.673617379884035e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 2.2571716431165227e-07
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 2.2559150317569417e-09
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 1.6150722627397846e-10
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 2.2263273889770686e-11,
+          "flowMomentumError": 1.3932317951619573e-15,
+          "flowMeanError": 5.927420013152052e-14,
+          "solveDiagnostics": {
+            "calls": 475,
+            "minRelativePivot": 0.23875730204385504,
+            "maxRelativeResidual": 1.989588371294354e-16
+          },
+          "gram_negative_eigenvalues": 3,
+          "gram_eigen_min": -4.094487465522037,
+          "gram_min_absolute_eigenvalue": 0.6524762024454713,
+          "gram_condition_2": 15.992337597415728
+        },
+        {
+          "amplitude": 0.0088,
+          "M": 16,
+          "success": true,
+          "minA": -4.204344241893751,
+          "minD": 0.9995311563716618,
+          "minS": 0.9996903359370035,
+          "rootRelativeResidual": 1.2115635018617552e-15,
+          "meanRootResidual": 4.218847493575595e-14,
+          "LReferenceError": 5.498712596363475e-12,
+          "rhsReferenceError": 8.673617379884035e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 2.9692356035892755e-07
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 2.997004027452984e-09
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 2.993492742869675e-10
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 9.652822337223566e-11,
+          "flowMomentumError": 1.6031866576657982e-14,
+          "flowMeanError": 2.616668275286227e-13,
+          "solveDiagnostics": {
+            "calls": 491,
+            "minRelativePivot": 0.29305138994139274,
+            "maxRelativeResidual": 2.890558316583604e-16
+          },
+          "gram_negative_eigenvalues": 6,
+          "gram_eigen_min": -4.175279004723649,
+          "gram_min_absolute_eigenvalue": 0.5108617237208245,
+          "gram_condition_2": 20.583265407039026
+        },
+        {
+          "amplitude": 0.0088,
+          "M": 32,
+          "success": true,
+          "minA": -4.2043442418780685,
+          "minD": 0.9995311563716618,
+          "minS": 0.9996903359370035,
+          "rootRelativeResidual": 1.1733036018054114e-15,
+          "meanRootResidual": 4.085620730620576e-14,
+          "LReferenceError": 5.497824417943775e-12,
+          "rhsReferenceError": 8.673617379884035e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 1.2496488346038045e-05
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 1.249469651516613e-07
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 1.3852645620142297e-09
+            }
+          ],
+          "flowSteps": 64,
+          "flowSpan": 0.02,
+          "flowQError": 8.85227751868108e-10,
+          "flowMomentumError": 8.906655482877959e-13,
+          "flowMeanError": 2.416090656535974e-12,
+          "solveDiagnostics": {
+            "calls": 588,
+            "minRelativePivot": 0.2584299769732113,
+            "maxRelativeResidual": 3.760678629521376e-16
+          },
+          "gram_negative_eigenvalues": 12,
+          "gram_eigen_min": -4.198449632243293,
+          "gram_min_absolute_eigenvalue": 0.2046527860154377,
+          "gram_condition_2": 51.49361001565268
+        }
+      ]
+    },
+    {
+      "source_report_sha256": "a73496489834df5540c88782a8e00d278431a040a683cc99ea7cd63c67ec2205",
+      "module_sha256": "61db2951f36f84dc0217c3c54ee168ffd231015ed283d1242a6080d916dd9aff",
+      "input_sha256": "a17c3950fad8d4ca255f18688ef100cafa5fadc8ef8f648011e96dca8c9b13dd",
+      "source_sha256": "f280a15d2ad3d97eab9694979c043a211a90934864140044e80804f6e07e9fb0",
+      "rows": [
+        {
+          "amplitude": 0.0088,
+          "M": 8,
+          "success": true,
+          "minA": -4.204344241896197,
+          "minD": 0.9995311563716618,
+          "minS": 0.9996903359370035,
+          "rootRelativeResidual": 1.1733036018025796e-15,
+          "meanRootResidual": 4.085620730620576e-14,
+          "LReferenceError": 5.498268507153625e-12,
+          "rhsReferenceError": 8.673617379884035e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 2.2571716431165227e-07
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 2.2559150317569417e-09
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 1.6150722627397846e-10
+            }
+          ],
+          "flowSteps": 128,
+          "flowSpan": 0.02,
+          "flowQError": 1.3892220859600514e-12,
+          "flowMomentumError": 8.692966291812087e-17,
+          "flowMeanError": 3.331346700233273e-15,
+          "solveDiagnostics": {
+            "calls": 923,
+            "minRelativePivot": 0.23875730204385504,
+            "maxRelativeResidual": 2.4235974656889017e-16
+          },
+          "gram_negative_eigenvalues": 3,
+          "gram_eigen_min": -4.094487465522037,
+          "gram_min_absolute_eigenvalue": 0.6524762024454713,
+          "gram_condition_2": 15.992337597415728
+        },
+        {
+          "amplitude": 0.0088,
+          "M": 16,
+          "success": true,
+          "minA": -4.204344241893751,
+          "minD": 0.9995311563716618,
+          "minS": 0.9996903359370035,
+          "rootRelativeResidual": 1.2115635018617552e-15,
+          "meanRootResidual": 4.218847493575595e-14,
+          "LReferenceError": 5.498712596363475e-12,
+          "rhsReferenceError": 8.673617379884035e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 2.9692356035892755e-07
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 2.997004027452984e-09
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 2.993492742869675e-10
+            }
+          ],
+          "flowSteps": 128,
+          "flowSpan": 0.02,
+          "flowQError": 6.023710649139219e-12,
+          "flowMomentumError": 1.0004425046443047e-15,
+          "flowMeanError": 1.596143464795141e-14,
+          "solveDiagnostics": {
+            "calls": 939,
+            "minRelativePivot": 0.29305138994139274,
+            "maxRelativeResidual": 2.504850615542902e-16
+          },
+          "gram_negative_eigenvalues": 6,
+          "gram_eigen_min": -4.175279004723649,
+          "gram_min_absolute_eigenvalue": 0.5108617237208245,
+          "gram_condition_2": 20.583265407039026
+        },
+        {
+          "amplitude": 0.0088,
+          "M": 32,
+          "success": true,
+          "minA": -4.2043442418780685,
+          "minD": 0.9995311563716618,
+          "minS": 0.9996903359370035,
+          "rootRelativeResidual": 1.1733036018054114e-15,
+          "meanRootResidual": 4.085620730620576e-14,
+          "LReferenceError": 5.497824417943775e-12,
+          "rhsReferenceError": 8.673617379884035e-19,
+          "finiteDifference": [
+            {
+              "step": 0.0001,
+              "relativeError": 1.2496488346038045e-05
+            },
+            {
+              "step": 1e-05,
+              "relativeError": 1.249469651516613e-07
+            },
+            {
+              "step": 1e-06,
+              "relativeError": 1.3852645620142297e-09
+            }
+          ],
+          "flowSteps": 128,
+          "flowSpan": 0.02,
+          "flowQError": 5.526731628194227e-11,
+          "flowMomentumError": 5.5629159187229275e-14,
+          "flowMeanError": 1.5047579610301398e-13,
+          "solveDiagnostics": {
+            "calls": 973,
+            "minRelativePivot": 0.2584299769732113,
+            "maxRelativeResidual": 3.829203314936741e-16
+          },
+          "gram_negative_eigenvalues": 12,
+          "gram_eigen_min": -4.198449632243293,
+          "gram_min_absolute_eigenvalue": 0.2046527860154377,
+          "gram_condition_2": 51.49361001565268
+        }
+      ]
+    }
+  ]
+}

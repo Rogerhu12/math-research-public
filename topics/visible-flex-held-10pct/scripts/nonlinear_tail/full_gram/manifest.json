@@ -1,0 +1,106 @@
+{
+  "scope": "Independent finite nonsingular full-Gram charts tested on R10 exact cones. Not a continuation through singular Gram matrices, closing tail, or infinite spectral result.",
+  "source_revision": "46fe93d4bb708fdfb7935e91b8141ea77586f0d2",
+  "archived_momentum_source": "topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+  "archived_momentum_sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+  "generated_module_sha256": "61db2951f36f84dc0217c3c54ee168ffd231015ed283d1242a6080d916dd9aff",
+  "parameters": {
+    "w": 0.00358,
+    "amplitudes": [
+      0.0004,
+      0.001,
+      0.002,
+      0.0088
+    ],
+    "radius": 0.25,
+    "flow_span": 0.02,
+    "modes": [
+      8,
+      16,
+      32
+    ],
+    "projection_floor_DS": 0.01,
+    "root_quadrature": 512,
+    "input_fourier_angles": 2048,
+    "flow_steps": [
+      64,
+      128
+    ]
+  },
+  "commands": [
+    [
+      "python",
+      "build_indefinite_probe.py",
+      "--source",
+      "CACHE/general_root_tail_momentum.mjs",
+      "--out",
+      "CACHE/held10_indefinite_momentum.mjs"
+    ],
+    [
+      "python",
+      "make_cone_inputs.py",
+      "--cone-source",
+      "../cone_plateau_model.py",
+      "--out",
+      "SCRATCH/cone_inputs.json"
+    ],
+    [
+      "node",
+      "probe_cone_full_gram.mjs",
+      "CACHE/held10_indefinite_momentum.mjs",
+      "SCRATCH/cone_inputs.json",
+      "SCRATCH/probe64.json",
+      "64",
+      "8,16,32"
+    ],
+    [
+      "node",
+      "probe_cone_full_gram.mjs",
+      "CACHE/held10_indefinite_momentum.mjs",
+      "SCRATCH/cone_high_amplitude_input.json",
+      "SCRATCH/probe128.json",
+      "128",
+      "8,16,32"
+    ],
+    [
+      "python",
+      "summarize_cone_probe.py",
+      "SCRATCH/probe64.json",
+      "SCRATCH/probe128.json",
+      "--out",
+      "SCRATCH/scalars.json"
+    ]
+  ],
+  "reproduction_notes": [
+    "CACHE is the restored immutable source-root/topics/large-amplitude-twist-flex/scripts directory. The new module is created alongside original dependencies; no original file is changed.",
+    "The refined input is the original generated input restricted to amplitude .0088; no recomputed coefficients.",
+    "The first 12-case run used the v1 source, exactly recoverable by applying probe_cone_full_gram_v1.patch in scratch. The current source only adds explicit steps/mode CLI arguments; equations are identical.",
+    "All Gram matrices and coefficient/input arrays stay in scratch. Scalar output retains raw input/result hashes."
+  ],
+  "files": {
+    "build_indefinite_probe.py": {
+      "sha256": "79be5635543c3606b2904a8ee412fa49dad785fa4f529de26b2f57681e6968ae",
+      "bytes": 4592
+    },
+    "make_cone_inputs.py": {
+      "sha256": "07dccebe1c01793e01275f4191f5f271eba71fd925e9ba0e7e7f3fad88145a2b",
+      "bytes": 1147
+    },
+    "probe_cone_full_gram.mjs": {
+      "sha256": "f280a15d2ad3d97eab9694979c043a211a90934864140044e80804f6e07e9fb0",
+      "bytes": 3791
+    },
+    "probe_cone_full_gram_v1.patch": {
+      "sha256": "6ef1cf1e0f6830c52c9db3929791b25013f19db4aa25d42e61c15c5fbfd75f0e",
+      "bytes": 1793
+    },
+    "summarize_cone_probe.py": {
+      "sha256": "0991f0e333327d7dfe6244801617efd44d6c39a030c054d2f78fc776297e3aff",
+      "bytes": 1374
+    },
+    "cone_full_gram_scalar_summary.json": {
+      "sha256": "1e5b41c5295f822a92177883a7616ebc8ff8cf63e6f7d1273b1cda502d184b97",
+      "bytes": 22082
+    }
+  }
+}
