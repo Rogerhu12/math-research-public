@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`33a727578a58fd4f4c0939142bb9d323bc61d688`。2026-11-18 07:54:24（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`19f3f4908567ed73471e41d95017b8c9bb8d6878`。2026-11-18 07:58:09（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -20,15 +20,15 @@
 
 全19c整核法向角图使M20外二阶参考尾增46.25倍；低通K2只改善6.6%（λ1约.77%），两字面图正性已Fraction核。见n4-full-normal-angle-chart-probe、n4-low-normal-chart-filter；保持现图，不另开图BVP。核心rho数字仅原guard，有限FFT不作连续metric。
 
-**旧actual固定g** eta.1/q*.01/δ=.030027177128250468/vd=.2483630655929876：M20/1913点metric1.950429e−9；M24/shared/parts16完整1930点/4尾接受、最终9.82471e−10/A.942545，metric8.15575e−9升4.18倍、Darboux2.46911e−6降29.7%。λ0，非单调收敛/闭合，见n4-actual-fixed-m24-parts16。旧parts8的worker−9与原门5.41094e−9失败分开，mode96非1ULP；见n4-m24-tail-residual-location。不猜OOM。
+**旧actual固定g** eta.1/q*.01：M20 metric1.950429e−9；M24/shared/parts16完整1930点/4尾接受、最终9.82471e−10/A.942545，metric8.15575e−9升4.18倍、Darboux2.46911e−6降29.7%。λ0/非单调收敛或闭合，见n4-actual-fixed-m24-parts16。旧parts8的worker−9与原门5.41094e−9失败分开，不猜OOM；mode96非1ULP，见n4-m24-tail-residual-location。
 
 R30共享engine原576段/990760标量逐位同值、576→8。旧q.0175/q.015及低幅λ各失败见n4 notes，不重跑。R19/19A/eta.1-q.049的10%仍条件预算。
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16。首轮3729点/RMS12.9543/metric.421880失败；参考重投影无收益、共用C²窗仅改善初猜。实际Jac右坐标未改善原J线性误差，不装生产。单改窗36328已完整终止：4196点触6000节点门，RMS6.33003565/metric.346343328/Darboux10678.9，156域拒/0merit拒/7步；最终原尾1.375309609e−9/800有限Jac/audit通过不能补前缀。真实launcher/worker退出0；失败快照到最终物理metadata/mesh和解压系数全同。见m3-circle-endpoint-c2-seed-complete-failure，仍无λ1 accepted prefix。该失败physical quintic重建的原J方向21α全core拒：全步负样本/20缩步grid下界不能证，未到Frenet/merit。RMS逐值同但非失存raw cubic重放，见m3-endpoint-domain-rejection-is-grid-bound；新增全域解析ρ″的Bh²/8数值充分界、保原双界/1e−5/32768；原入口及失败态各14组几何/参数jets逐字节同。原20缩步仅guard过、负样本全步仍拒，未验Frenet/merit；见m3-raw-core-second-order-guard，实际新联立另记。初p/H同首轮及gauge−1ULP见entry。
+**λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16。首轮3729点/RMS12.9543/metric.421880失败；参考重投影无收益、共用C²窗仅改善初猜。实际Jac右坐标未改善原J线性误差，不装生产。单改窗36328已完整终止：4196点触6000节点门，RMS6.33003565/metric.346343328/Darboux10678.9，156域拒/0merit拒/7步；最终原尾1.375309609e−9/800有限Jac/audit通过不能补前缀。真实launcher/worker退出0；失败快照到最终物理metadata/mesh和解压系数全同。见m3-circle-endpoint-c2-seed-complete-failure，仍无λ1 accepted prefix。该失败physical quintic重建的原J方向21α全core拒：全步负样本/20缩步grid下界不能证，未到Frenet/merit。RMS逐值同但非失存raw cubic重放，见m3-endpoint-domain-rejection-is-grid-bound；新增全域解析ρ″的Bh²/8数值充分界、保原双界/1e−5/32768；原入口及失败态各14组几何/参数jets逐字节同。原20缩步仅guard过、负样本全步仍拒，未验Frenet/merit；见m3-raw-core-second-order-guard，14903单改guard入口已启动，初p/c/H/profile/repair同旧C²入口，cfg仅trace变；δ仍未知，非固定g精化。见m3-endpoint-second-order-guard-entry。初p/H同首轮及gauge−1ULP见entry。
 
-原raw λ.02/M8四真尾接受但metric8.30078e−5；冻整g M16首次call3因stage86/mode3一ULP失败。共享engine/可选单邻数初猜保留原门，重试完整1143点/4尾/800有限Jac接受，最终尾1.37847e−9，prefix metric却升9.35726e−5/tensor.209949。七项固定g身份全同，非收敛/闭合；见m3-raw-m16-complete-coupled-metric-failure、m3-one-ulp-initial-candidate-passes-original-tail。canonical各λ及parts16完整metric3.97036e−4失败；一次exact lift/自由c6并不能补未表示角谱。旧λ.02中心弧缺陷>.01255549，不等于λ1。
+原raw λ.02/M8四尾接受但metric8.30078e−5；固定g M16原tail一ULP失败后可选邻数初值获4尾/1143点/800Jac接受，metric却升9.35726e−5（tensor.209949）。七项g身份同，非收敛/闭合，见m3-raw-m16-complete-coupled-metric-failure、m3-one-ulp-initial-candidate-passes-original-tail。canonical各λ及parts16 metric3.97036e−4也失败；一次exact lift/free c6未补角谱，旧λ.02弧缺陷>.01255549非λ1。
 
 **R41新核证书**：旧M16全15c改λ1/bp.32/bc.4，真积分/低2×2投影给||b+b″||<.024265039000279、rho∈(.6212861459223527,1.337031616589919)。17点真逆误差仅点态，q≈.04不在R38窗，失败终态c已变不能继承；见R41-general-width-raw-core-true-integral-oracle。actual-raw-integral-terminal-binding保实际宽度/λ及全c，new-design用自身δ/Lbin，fixed-refinement锁原atlas/family；目前只执行M16→M8元数据，无未来λ1端到端。
 
