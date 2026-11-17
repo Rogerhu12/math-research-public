@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`20d96f5ebba6c34351cc7aa95c53e28111ebb5e4`。2026-11-18 07:22:17（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`4ff0bf1d2b20b6701c4d129daf4a27fe6f2a24ab`。2026-11-18 07:26:03（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20完整有限metric已过门**：2282点、18个α1步/无域或merit拒绝；metric8.91017947e−7、flow8.88822e−6、Darboux.00415666；qactual=.012488347919833637。保全19c/free c8/J16、eta.1、δ=.030158202455449618/vd=.25018727173023186/vu=.35/wCut=.16；改核非精化。仍linear DN且非精确圆弧；见n4-primary-width-b016-m20。旧29520仅观测丢失；v2独立观察器真实exit0。该核首actual尾冷起.2H于iter8原线搜索失败1.1391523e−8，parts16/M20/N512；0接受尾/未入prefix。见n4-raw-b016-actual-parts16-terminal。原1152段重放逐位同：stage18/mode76为23ULP，邻19/20及22多峰超门，minA位置不主导。见n4-raw-b016-tail-residual-location。局部初值重试76025仍原门运行，不借旧w.08尾。
+**新主b=.16/λ=.02/M20完整有限metric已过门**：2282点、18个α1步/无域或merit拒绝；metric8.91017947e−7、flow8.88822e−6、Darboux.00415666；qactual=.012488347919833637。保全19c/free c8/J16、eta.1、δ=.030158202455449618/vd=.25018727173023186/vu=.35/wCut=.16；改核非精化。仍linear DN且非精确圆弧；见n4-primary-width-b016-m20。旧29520仅观测丢失；v2独立观察器真实exit0。该核首actual尾冷起.2H于iter8原线搜索失败1.1391523e−8，parts16/M20/N512；0接受尾/未入prefix。见n4-raw-b016-actual-parts16-terminal。原1152段重放逐位同：stage18/mode76为23ULP，邻19/20及22多峰超门，minA位置不主导。见n4-raw-b016-tail-residual-location。单峰初值(+3ULP)后原DN至8.02443e−9仍失败，见n4-raw-b016-single-relaxation-terminal。当前以该失败态作初猜向.5H/fullH续走55129，原门保持，不借旧w.08尾。
 
 同全19c/e=.1875的主b探针使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。原b.08 raw λ.02/M16完整metric2.41705e−6，固定g/M20升3.43423e−6、tensor.0160166；峰s=.066873/频84。完整配点cond1约4.278e12，参数H²白化无改善。M24原节点门终止：4460点欲加4906超6000、RMS.0032079，无accepted M24或完整metric；失败CP仅初值。见n4-raw-lambda002-fixed-m24-terminal、free-c8、localization、parameter-and-collocation-scales，不重复白化或盲升M28。
 

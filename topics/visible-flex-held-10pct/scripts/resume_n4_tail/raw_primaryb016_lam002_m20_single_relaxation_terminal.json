@@ -1,0 +1,150 @@
+{
+  "scope": "A completed declared internal-state initializer followed, only after strict complete residual improvement, by the unchanged original finite nonlinear DN solve and audit. A local decrease, process exit code, or saved failed checkpoint is not acceptance. No coupled prefix, exact circular arc, continuous certificate, closure or reach is inferred.",
+  "collector_sha256": "1f1ae3d72c75aaa3b10905dcb2b1968474bed492b63aff00719e0e91c1650f4a",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/probe_tail_residual_initializers.mjs",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-v1/seed-tail_0001.json.gz",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-v1/relaxation-provenance.json",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-v1/relaxed-tail.json.gz",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-v1/relaxation-summary.json",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py"
+  ],
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-v1/seed-tail_0001.json.gz",
+    "sha256": "e8afa8dd44d14d7671ba8575bd43aed63add5e1ba55f09d19146bb3b5b91da5d"
+  },
+  "output": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-v1/relaxed-tail.json.gz",
+    "sha256": "886a67f6cc8932873fefb350ed533bbff1a75a4bc282adcd1481eef48515d31d"
+  },
+  "unabridged_scratch_summary": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-v1/relaxation-summary.json",
+    "sha256": "5b70e3647b53472563a48a8ff63364902578b1c11378929bd70a40628851d26b"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-port-v3.mjs": "4e5f7f4cd31c81b633c826a24b208bc8a0aa2b791132c73238a5a61cf0e2a398",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/probe_tail_residual_initializers.mjs": "db67be28007bec9c5592b8c4ef332b1ade4b96109b29c26cd8066174e041b3b4",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "original_discretization": {
+    "modes": 20,
+    "spacing": 4,
+    "quadrature": 512,
+    "depth": 8,
+    "shootingParts": 16,
+    "steps": 16,
+    "auditSteps": 32,
+    "maxIterations": 36,
+    "solveTolerance": 2e-09
+  },
+  "original_configuration_and_all_cut_heights_bitwise_unchanged": true,
+  "cut_height_count": 20,
+  "cut_height_float64_le_sha256": "3904f2f0eb1fe0a6666e1127257026c38d3eb17f0f9d556f048a263370cc22b2",
+  "baseline": {
+    "norm": 1.1391523014166158e-08,
+    "minA": 0.9922920982513689,
+    "minD": 0.9999779687391528,
+    "peak": {
+      "stage": 18,
+      "component": 38,
+      "norm": 1.1391523014166158e-08,
+      "signedResidual": 2.6147972675971687e-12,
+      "state": -751.0491913098218,
+      "flow": -751.0491913098192,
+      "scale": 0.0002295388653778327
+    }
+  },
+  "prescribed_alpha_candidates": [
+    0.125,
+    0.25,
+    0.3125,
+    0.3333333333333333,
+    0.375,
+    0.5,
+    0.75,
+    1
+  ],
+  "prescribed_beta_candidates": [
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "selected_single_pass": {
+    "alpha": 0.125,
+    "beta": 0,
+    "local_predicted_norm": 1.1033592976817877e-08,
+    "changes": [
+      {
+        "stage": 18,
+        "component": 38,
+        "before": -751.0491913098218,
+        "after": -751.0491913098215
+      }
+    ]
+  },
+  "selected_passes": [],
+  "local_trial_count": 13,
+  "local_sequence_stopped": null,
+  "complete_candidate_replay": {
+    "norm": 1.1033592976817877e-08,
+    "minA": 0.9922920982513689,
+    "minD": 0.9999779687391528
+  },
+  "original_solver_invoked": true,
+  "original_solver_accepted": false,
+  "original_solver_error": "Error: multiple-shooting line search failed at 8.024431255867547e-9",
+  "last_original_iteration": {
+    "iteration": 2,
+    "norm": 8.024431255867547e-09,
+    "minA": 0.9922920982513689,
+    "minD": 0.9999779687391528,
+    "chartCondition": null
+  },
+  "final_residual": null,
+  "original_audit": {},
+  "full_analytic_jacobian_finite_entries": null,
+  "complete_original_state_saved": true,
+  "state_stage_count": 1153,
+  "process_resource": {
+    "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+    "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-17T23:19:26Z",
+    "seconds": 730.7409324070031,
+    "samples": 365,
+    "maximum_sampled_tree_rss_kib": 784892,
+    "tree_at_sampled_peak": {
+      "5": {
+        "name": "MainThread",
+        "rss_kib": 784892,
+        "hwm_kib": 784892
+      }
+    },
+    "child_rusage_maxrss_kib": 784140,
+    "child_user_seconds": 750.622481,
+    "child_system_seconds": 13.876428
+  },
+  "process_resource_sha256": "5871d4525d954cf85cf04406530ff47b6b5ca8a9dc8b76b71e65d10857e1fd83",
+  "resource_scope": "RUSAGE_CHILDREN and sampled namespace process observations retain their own semantics; neither is a whole-host process-tree peak or an OOM diagnosis.",
+  "execution_log_sha256": "9726e0d6fee7a41b0c27b28e66e638995debc67b4518407e31893ab03325e730",
+  "seconds": 718.401569133,
+  "coupled_prefix_solved": false,
+  "data_policy": "Only selected coordinates, scalar outcomes, small solver parameters and hashes are retained. Full states, complete trial tables and meshes remain scratch-only."
+}
