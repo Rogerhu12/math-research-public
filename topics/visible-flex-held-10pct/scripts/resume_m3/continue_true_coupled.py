@@ -24,16 +24,29 @@ def main():
     p.add_argument('--low-prefix', type=Path, required=True)
     p.add_argument('--high-prefix', type=Path, required=True)
     p.add_argument('--high-tail', type=Path, required=True)
+    p.add_argument('--low-tail', type=Path)
     p.add_argument('--amplitude', type=float, required=True)
     p.add_argument('--outdir', type=Path, required=True)
     p.add_argument('--nodes', type=int, default=801)
     p.add_argument('--max-nodes', type=int, default=6000)
+    p.add_argument('--tail-steps', type=int)
+    p.add_argument('--tail-parts', type=int)
+    p.add_argument('--geometric-tail-initializer', action='store_true')
     a = p.parse_args()
     out = a.outdir.resolve()
     out.mkdir(parents=True, exist_ok=True)
     hi = json.load(gzip.open(a.high_prefix, 'rt'))
     cfg = dict(hi['tail_config'])
+    if a.tail_steps is not None:
+        cfg['steps'] = a.tail_steps
+        cfg['auditSteps'] = a.tail_steps
+    if a.tail_parts is not None:
+        cfg['shootingParts'] = a.tail_parts
     cfg['initialCheckpoint'] = str(a.high_tail.resolve())
+    if a.low_tail:
+        cfg['secantCheckpoint'] = str(a.low_tail.resolve())
+    if a.geometric_tail_initializer:
+        cfg['geometricAmplitudePredictor'] = True
     cfg['traceFile'] = str(out / 'worker-trace.jsonl')
     config = out / 'config.json'
     profile = out / 'profile.json'
