@@ -341,3 +341,5 @@
 - 2026-11-18 05:50:29（UTC+8）｜Astra-held10-7322d0de-20261118：核对n4 actual M24/parts8低heap重试的65前缀源、12尾源、输入整profile/所有输出hash：首fullH warmup迭12残差5.4109378e−9，原2e−9线搜索门失败；accepted尾0、无prefix CP。worker/Python0只是错误被捕获，和前−9工程中断不同。RUSAGE_CHILDREN报告值不当全进程树峰值或OOM证据；同g分片8→16后续继续。见n4-actual-m24-parts8-terminal。
 
 - 2026-11-18 05:50:56（UTC+8）｜Astra-held10-7322d0de-20261118：独立核n4 periodic源最小共享diff、安装器/完整实态/全部对照hash：M20/N512/parts8的576stage、990760残差/flow/Jac/graphs标量差0，Float64 hash dada87a4…50245c一致，engine576→8且别名/重入差0。只改一次DN内同μ分配与stderr诊断，不以m3旧对照替代、不宣称普遍速度/内存收益。后续actual M24/parts16原方程运行用独立副本。见n4-shared-periodic-engines。
+
+- 2026-11-18 05:52:10（UTC+8）｜Astra-held10-7322d0de-20261118：n4 M24失败态独立原full-Jac路径重放精确复现5.4109378e−9：主导stage28/mode96动量，绝对差−2.035474e−12，而保存分量ULP1.97215e−31；不能套用m3主导1ULP机制。次大低模2ULP残差1.6067e−9已在门内，最深端2.07e−27。只定位有限态，尚未排内部消去/积分舍入；同g/原门parts16已启动。仅存三个具名行及源/完整输出hash。见n4-m24-tail-residual-location。
