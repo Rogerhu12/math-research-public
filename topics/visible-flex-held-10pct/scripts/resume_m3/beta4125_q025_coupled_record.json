@@ -1,0 +1,313 @@
+{
+  "scope": "Collect terminal scalars and hashes, never regenerable field arrays.",
+  "runs": [
+    {
+      "run": "beta4125-q025-resume",
+      "summary_sha256": "082613659145872ba5e72afa6e11ea02e430cbd4f0f68a8dd5d33ed1352a9285",
+      "status": "accepted",
+      "solver_success": true,
+      "error": null,
+      "frozen_profile": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "delta": 0.06105528088752851,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "gauge_amplitude": 0.025,
+      "actual_primary_amplitude": 0.025,
+      "nodes": 1367,
+      "max_rms_collocation_residual": 9.938240727336711e-07,
+      "seconds": 245.08489990234375,
+      "tail_calls": 4,
+      "actual_outer_checks": [
+        {
+          "outer": 0,
+          "inner_success": true,
+          "actual_boundary_residual": 3.1358709767091255e-08,
+          "actual_tail_residual": 1.9768747165665916e-09,
+          "tail_calls": 3
+        }
+      ],
+      "prefix_scalars": {
+        "metric_l1": 1.1439575261744346e-08,
+        "flow_defect": 1.2480904982859343e-08,
+        "darboux_l1": 0.0004758490909330009,
+        "kappa_sample": 8.215612924101766,
+        "radius_max": 1.0729545453612361,
+        "height_max": 0.7857558262393735,
+        "root_min": 0.0033512176222531,
+        "chart_rho_min": 0.7999999999999999,
+        "support_amplitude": 0.025,
+        "terminal_height_coeff_max": 6.882978323703995e-05,
+        "physical_bc_max": 6.271741953418251e-10,
+        "samples_s": 2882,
+        "samples_psi": 512,
+        "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+      },
+      "seam_scalars": {
+        "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+        "tail_record": "seed_tail_0004.json.gz",
+        "tail_converged": true,
+        "tail_shooting_residual": 1.9768747165665916e-09,
+        "mean_first_actual": 0.07975598978924581,
+        "mean_first_expected": 0.0797559897872637,
+        "mean_first_mismatch": 1.9821089214389076e-12,
+        "mean_second_actual": 1.8424995073401407,
+        "mean_second_expected": 1.8424995076390023,
+        "mean_second_mismatch": -2.9886160213266066e-10,
+        "nonmean_first_mismatch": 6.271741953414467e-10,
+        "nonmean_second_mismatch": 1.3658547182998134e-08,
+        "cut_metric_fft_l1": 5.859043720557781e-13,
+        "cut_metric_c1_fft_l1": 7.616004840788391e-11,
+        "angular_samples": 512
+      },
+      "tail_responses": [
+        {
+          "path": "seed_tail_0001.json.gz",
+          "sha256": "6cd691a14a51902a05f9d038c995dffbb59064924ac7dc4885a0fb3c6a386c82",
+          "converged": true,
+          "residual": 1.4828792621819965e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 3,
+            "norm": 1.4828792621819965e-09,
+            "minA": 0.7535450595553214,
+            "minD": 0.9996547612104832
+          },
+          "audit": {
+            "fullD": 1.2467146827304207e-07,
+            "normalizedFullDefect": 3.9981810565770505e-06,
+            "minLeading": 0.75355401889332,
+            "minD": 0.9996547850302698,
+            "formalCurvature": 8.091315413872952,
+            "maxPhysicalPV": 0.00013753798706424555,
+            "actualMetric": 1.7353896097921858e-11,
+            "holonomy": 1.9577048993415017e-18
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0002.json.gz",
+          "sha256": "2dfffd17fef551e72e53ff1fdc8f82c9c2874e6b3e172e2b20f76beb283157b0",
+          "converged": true,
+          "residual": 1.4828792621819965e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 0,
+            "norm": 1.4828792621819965e-09,
+            "minA": 0.7535450595553214,
+            "minD": 0.9996547612104832
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0003.json.gz",
+          "sha256": "475aab75f62f485c9e6013a6a4f9e82477326b8517033224ef18944856ae1798",
+          "converged": true,
+          "residual": 1.9768747165665916e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 3,
+            "norm": 1.9768747165665916e-09,
+            "minA": 0.7539365572518805,
+            "minD": 0.9996526155197069
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0004.json.gz",
+          "sha256": "5924267f0d90e0a35bbdbab350da4cf173e73590e378cf39324f9357857e9df8",
+          "converged": true,
+          "residual": 1.9768747165665916e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 0,
+            "norm": 1.9768747165665916e-09,
+            "minA": 0.7539365572518805,
+            "minD": 0.9996526155197069
+          },
+          "audit": {
+            "fullD": 1.364840904585902e-07,
+            "normalizedFullDefect": 4.262511442210733e-06,
+            "minLeading": 0.7539454284479784,
+            "minD": 0.9996526395247748,
+            "formalCurvature": 8.093175603593664,
+            "maxPhysicalPV": 0.00013750194953758416,
+            "actualMetric": 1.900057888826127e-11,
+            "holonomy": 1.9762337450626895e-18
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        }
+      ],
+      "continuation-command.json": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--restart-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q020-linear-difference/port.json",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025-resume/seed",
+          "--restart",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q020-linear-difference/seed.json.gz",
+          "--amplitude",
+          "0.025",
+          "--warp-reference",
+          "0.025",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1.0",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          4.125,
+          4.125
+        ],
+        "tail_initialization": "explicit_old_metric_initial_coordinates",
+        "inputs": {
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q020-linear-difference/seed.json.gz": "ff93da79896012b894b1b9226f70677c6737455ddf1a201ee231dc9b7d8c443a",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025/seed_tail_0003.json.gz": "112401c42590af785424ec25f5d6d77b6738c42bdb10d366b8338d1140f4e214",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4125-q020-linear-difference/port.json": "c18a8417baa7fdc41199e78018190436b511fa43e9e2614fee1de76f7020b028",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 0
+      },
+      "output_hashes": {
+        "config.json": "3ced3f0ef956c5f3ad2fd8a7cd30d1c8bd3717f543deab87b4f150e66df0f55f",
+        "continuation-command.json": "33b521952c95bb6ca41f703e1355ae8392d30cc234314add7bf02b6c4be2798d",
+        "linear-trace.jsonl": "dfcab6bbc6a81a3e3abefd3d5b95e3a4c0f9ae0b5733852ae611e6273d44c8f2",
+        "port.json": "69f6073622a0d3f75a5b16b419a3d3ee54a3e8ae7c016e7f42f33efb2c69cadf",
+        "profile.json": "94473af65064b3899d8bb68fe76c65cbe23d477a8329e828c6d5d3fb217ff2af",
+        "seed-design-initializer.json": "27ed8d8e823bfc492b56eda93369feb95051680bbcd9e32e654c6a49c4ad1c80",
+        "seed-summary.json": "082613659145872ba5e72afa6e11ea02e430cbd4f0f68a8dd5d33ed1352a9285",
+        "seed.json.gz": "6c08d6ec2c37c52d45bdfec83b96886478eed83e2be84eeb08ff1808d328b92a",
+        "seed_coeff_00.npy.gz": "5b5a4ff4eb0738a57db2246cd13cd9ba7015800ce12ec28a15b378607c1ae483",
+        "seed_tail_0001.json.gz": "6cd691a14a51902a05f9d038c995dffbb59064924ac7dc4885a0fb3c6a386c82",
+        "seed_tail_0002.json.gz": "2dfffd17fef551e72e53ff1fdc8f82c9c2874e6b3e172e2b20f76beb283157b0",
+        "seed_tail_0003.json.gz": "475aab75f62f485c9e6013a6a4f9e82477326b8517033224ef18944856ae1798",
+        "seed_tail_0004.json.gz": "5924267f0d90e0a35bbdbab350da4cf173e73590e378cf39324f9357857e9df8",
+        "startup-config.json": "67c0533944220c58d0d134f0cff7b89272e1061367ded93d255e66212c748099",
+        "worker-port.json": "4f1cab0210df7bd5e8ffa13559ac2438f192078ef2a5027362ef6424f5a30484",
+        "worker-trace.jsonl": "c7b2a50d7e0ba4a630029c4828434d5541e0267efcdce90d6be3ac3e382e2590"
+      }
+    }
+  ],
+  "preceding_interruption": {
+    "run": "/workspace/scratch/7322d0dee069/m3_work/beta4125-q025",
+    "status": "execution_disappeared_without_terminal_summary",
+    "cause": "unknown; not classified as OOM or mathematical failure",
+    "observed_missing": [
+      "seed-summary.json",
+      "seed.json.gz",
+      "seed_tail_0004.json.gz"
+    ],
+    "last_trace": {
+      "time": "2026-11-17T19:48:45.075Z",
+      "event": "response",
+      "call": 3,
+      "elapsed_ms": 72762,
+      "converged": true,
+      "residual": 6.637408623731406e-10,
+      "maxChartCondition": 0
+    },
+    "last_accepted_tail": {
+      "file": "seed_tail_0003.json.gz",
+      "converged": true,
+      "residual": 6.637408623731406e-10,
+      "last_history": {
+        "iteration": 4,
+        "norm": 6.637408623731406e-10,
+        "minA": 0.753936557251882,
+        "minD": 0.9996526155197067
+      }
+    },
+    "output_hashes": {
+      "seed_tail_0003.json.gz": "112401c42590af785424ec25f5d6d77b6738c42bdb10d366b8338d1140f4e214",
+      "worker-trace.jsonl": "286d1109db2e71af4199f9dcdd628b96576f4f4aab8ef2bbf044fc20cfec2d35",
+      "continuation-command.json": "03b5763ebbda04ee6cc7c266d08f11ca5fa1203a19d75d10265ea713d5ec0229"
+    },
+    "reuse": "accepted actual-tail state used only as a new initial guess; complete prefix/tail was re-solved from accepted beta4.125/q020 prefix"
+  }
+}
