@@ -1,0 +1,50 @@
+--- cartesian_tensor_prefix.py
++++ cartesian_tensor_prefix.py
+@@ -39,20 +39,7 @@
+         self.nodd=len(self.odd);self.n=2*self.nodd+1+self.M
+         self.iz=2*self.nodd;self.E0=old.E0;self.Epp=old.Epp
+         self.max_frequency=max_frequency;self.cache={}
+-        # Resolve every polynomial/profile/chart piece before interpolating
+-        # the analytic background. The old solver mesh alone need not contain
+-        # all knots of the independent C2 angular chart.
+-        extra=np.r_[old.flow.breaks,old.flow.spline.x*old.flow.end,
+-                    .75*old.flow.end,old.width]
+-        extra=extra[(extra>=old.sol.x[0])&(extra<=old.sol.x[-1])]
+-        s=old.sol.x.copy();self.inserted_knots=0;self.near_existing_breaks=[]
+-        for value in np.unique(extra):
+-            distance=float(np.min(abs(s-value)))
+-            if distance<1e-10:
+-                if distance:self.near_existing_breaks.append([float(value),distance])
+-                continue
+-            s=np.sort(np.r_[s,value]);self.inserted_knots+=1
+-        data=np.zeros((3,self.n,len(s)))
++        s=old.sol.x;data=np.zeros((3,self.n,len(s)))
+         aa=old.flow.profile(s);ee=chart_jets(old.flow,s)
+         # x+iy = a sum_n J_n(-e/2) exp(i(2n+1)psi).
+         for j,k in enumerate(self.odd):
+@@ -66,7 +53,7 @@
+                 data[d,j]=cp[d]+cm[d]
+                 data[d,self.nodd+j]=cp[d]-cm[d]
+         # Exact algebraic conversion of the represented polar correction.
+-        Y=np.stack([old.sol.sol(s,j)for j in range(3)])*self.q
++        Y=old.sol.sol.jets*self.q
+         data[:,0]+=Y[:,0];data[:,self.nodd]+=Y[:,0]
+         for j,m in enumerate(self.even):
+             R=Y[:,1+j];T=Y[:,self.M+1+j]
+@@ -76,7 +63,7 @@
+             data[:,self.nodd+lower]+=(T-R)/2
+             data[:,self.nodd+upper]+=(R+T)/2
+             data[:,self.iz+1+j]=Y[:,2*self.M+1+j]
+-        data[:,self.iz]=np.stack([old.sol.mean_spline(s,j)[0]for j in range(3)])
++        data[:,self.iz]=old.sol.mean_spline.jets[:,0]
+         self.rep=SharedJetQuintic(s,data)
+ 
+     def basis(self,psi,derivative=0):
+@@ -195,7 +182,6 @@
+         source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+         data_sha256=hashlib.sha256(data.read_bytes()).hexdigest(),state_count=tensor.n,
+         max_frequency=tensor.max_frequency,knots=len(tensor.rep.x),fixed_profile=r['frozen_profile'],
+-        inserted_break_knots=tensor.inserted_knots,breaks_already_within_1e_10=tensor.near_existing_breaks,
+         seconds=time.monotonic()-beg)
+     a.output.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result),flush=True)
+ 

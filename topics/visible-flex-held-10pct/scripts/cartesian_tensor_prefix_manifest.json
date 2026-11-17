@@ -1,0 +1,308 @@
+{
+  "scope": "Explicit open C2 Cartesian Fourier/quintic representation and same-g numerical audits; no closed surface or continuous interval geometry certificate yet.",
+  "files": {
+    "cartesian_tensor_prefix.py": {
+      "sha256": "c6779b0b147cb299c7a979ec506358369ed0e97526de5fbd375f61447442ef9d",
+      "bytes": 10892
+    },
+    "cartesian_tensor_v1.patch": {
+      "sha256": "367c9a0157866726b8d71dedb4ef79fd69c408127b3690ed750c017ab3d74ecd",
+      "bytes": 2619
+    }
+  },
+  "v1_reproduction": "Apply cartesian_tensor_v1.patch to a scratch copy of cartesian_tensor_prefix.py; it exactly restores source SHA d969f3b40a0f803e959c99f0cce0bac7d59af4263401d4dd3a4a7d5d46e97526.",
+  "fixed_profile_fields_identical": true,
+  "v2_metric_improvement_factor": 238.03397064213885,
+  "runs": [
+    {
+      "scope": "Finite sampling of a new explicit C2 representation of the same physical metric; not an interval certificate.",
+      "radial_samples": 3414,
+      "angular_samples": 1536,
+      "maxima": {
+        "metric_l1": 5.020998455603307e-06,
+        "curvature": 6.6206694097624155,
+        "radius_3d": 1.507403465280248
+      },
+      "minima": {
+        "support": 0.35267544656333494,
+        "area": 0.29999999916861175,
+        "witness_distance": 0.32615981733347427
+      },
+      "position_and_twojet_changes": [
+        7.599652159153663e-09,
+        5.0237456106105125e-06,
+        0.014599838265883054,
+        1.5199304037594175e-08,
+        3.810521644264141e-08,
+        1.0047491283526888e-05
+      ],
+      "center": {
+        "position": 0.0,
+        "Fs": 0.0,
+        "Fss": 6.280369834735101e-16
+      },
+      "checkpoint_sha256": "ef4bdbcd0f36b51fc731f864ce00eb150185dcaf313690d4bbb4ef1638d66ffd",
+      "source_sha256": "d969f3b40a0f803e959c99f0cce0bac7d59af4263401d4dd3a4a7d5d46e97526",
+      "data_sha256": "04d09ab23ff80535123e31ad2848bb869cfcc65edfa7db78db9f163797a8ea1c",
+      "state_count": 85,
+      "max_frequency": 63,
+      "knots": 481,
+      "fixed_profile": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.17150966322614214,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "seconds": 20.151788811999722,
+      "result_file": "q20_tensor_m20.json",
+      "result_sha256": "835d4c4edf70592e4763af5c41fb9f1b2ccc71a3ac487dcce48849f2f16dade1"
+    },
+    {
+      "scope": "Finite sampling of a new explicit C2 representation of the same physical metric; not an interval certificate.",
+      "radial_samples": 5687,
+      "angular_samples": 1536,
+      "maxima": {
+        "metric_l1": 4.171995019347203e-09,
+        "curvature": 6.620737651457359,
+        "radius_3d": 1.5074034242462024
+      },
+      "minima": {
+        "support": 0.3526730758751021,
+        "area": 0.2999999999418353,
+        "witness_distance": 0.32616077367089125
+      },
+      "position_and_twojet_changes": [
+        2.2232199165522285e-15,
+        1.1536849499007928e-11,
+        3.4609437027387484e-07,
+        2.6482950149511744e-15,
+        4.463041323674983e-15,
+        1.4415036322534784e-11
+      ],
+      "center": {
+        "position": 0.0,
+        "Fs": 0.0,
+        "Fss": 7.021666937153402e-16
+      },
+      "checkpoint_sha256": "596312b90989255c9b51ee979cf0d228b6835457ab222adc7f6bc42f0cdc23e6",
+      "source_sha256": "d969f3b40a0f803e959c99f0cce0bac7d59af4263401d4dd3a4a7d5d46e97526",
+      "data_sha256": "620216da6b7d981c726b41e9aa550ff8226425495edc35408cb640f95ee6aa67",
+      "state_count": 89,
+      "max_frequency": 63,
+      "knots": 1647,
+      "fixed_profile": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.17150966322614214,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "seconds": 42.521790183999656,
+      "result_file": "q20_tensor_m24.json",
+      "result_sha256": "1e9d5fe3057b101a191eedf85e8c25378743890c906e15c436723848438b6ba7"
+    },
+    {
+      "scope": "Finite sampling of a new explicit C2 representation of the same physical metric; not an interval certificate.",
+      "radial_samples": 3480,
+      "angular_samples": 1536,
+      "maxima": {
+        "metric_l1": 9.930765399544416e-07,
+        "curvature": 6.6206694097624155,
+        "radius_3d": 1.5074034652802486
+      },
+      "minima": {
+        "support": 0.35267544656335126,
+        "area": 0.29999999916861175,
+        "witness_distance": 0.32615981733347427
+      },
+      "position_and_twojet_changes": [
+        4.1825767535956446e-13,
+        5.223281750438491e-10,
+        3.3574556701344876e-06,
+        8.358129449043001e-13,
+        2.467100882300979e-12,
+        1.0448710230370769e-09
+      ],
+      "center": {
+        "position": 0.0,
+        "Fs": 0.0,
+        "Fss": 6.280369834735101e-16
+      },
+      "checkpoint_sha256": "ef4bdbcd0f36b51fc731f864ce00eb150185dcaf313690d4bbb4ef1638d66ffd",
+      "source_sha256": "c6779b0b147cb299c7a979ec506358369ed0e97526de5fbd375f61447442ef9d",
+      "data_sha256": "1dbca332f999cc7046dce1af46a9cdf34821878a9d74e963d458463a3be1ba5c",
+      "state_count": 85,
+      "max_frequency": 63,
+      "knots": 547,
+      "fixed_profile": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.17150966322614214,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "inserted_break_knots": 66,
+      "breaks_already_within_1e_10": [
+        [
+          0.31183575132025837,
+          5.551115123125783e-17
+        ],
+        [
+          0.509331727156422,
+          1.1102230246251565e-16
+        ],
+        [
+          0.7007642300502475,
+          1.1102230246251565e-16
+        ],
+        [
+          0.8055756909106676,
+          1.1102230246251565e-16
+        ]
+      ],
+      "seconds": 14.766949994000242,
+      "result_file": "q20_tensor_m20_v2.json",
+      "result_sha256": "7a667049c1c3fbad44a5a086bf6bda824d52d658c2bbe679817fb475c98a8c0d"
+    },
+    {
+      "scope": "Finite sampling of a new explicit C2 representation of the same physical metric; not an interval certificate.",
+      "radial_samples": 5688,
+      "angular_samples": 1536,
+      "maxima": {
+        "metric_l1": 4.171995019347203e-09,
+        "curvature": 6.620737651457359,
+        "radius_3d": 1.5074034242462024
+      },
+      "minima": {
+        "support": 0.3526730758751021,
+        "area": 0.2999999999418353,
+        "witness_distance": 0.32616077367089125
+      },
+      "position_and_twojet_changes": [
+        2.2232199165522285e-15,
+        1.1536849499007928e-11,
+        3.4609437027387484e-07,
+        2.6482950149511744e-15,
+        4.463041323674983e-15,
+        1.4415036322534784e-11
+      ],
+      "center": {
+        "position": 0.0,
+        "Fs": 0.0,
+        "Fss": 7.021666937153402e-16
+      },
+      "checkpoint_sha256": "596312b90989255c9b51ee979cf0d228b6835457ab222adc7f6bc42f0cdc23e6",
+      "source_sha256": "c6779b0b147cb299c7a979ec506358369ed0e97526de5fbd375f61447442ef9d",
+      "data_sha256": "e8d758d74170402e3a3f9a0031a30fd47cc7bed3fc6e67c0fa848c306bf6f315",
+      "state_count": 89,
+      "max_frequency": 63,
+      "knots": 1648,
+      "fixed_profile": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.17150966322614214,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "inserted_break_knots": 1,
+      "breaks_already_within_1e_10": [
+        [
+          0.20789050088017227,
+          2.7755575615628914e-17
+        ],
+        [
+          0.7007642300502475,
+          1.1102230246251565e-16
+        ],
+        [
+          0.8055756909106676,
+          1.1102230246251565e-16
+        ],
+        [
+          0.8151040055343421,
+          1.1102230246251565e-16
+        ],
+        [
+          0.9961419833841589,
+          1.1102230246251565e-16
+        ],
+        [
+          1.595659616028814,
+          2.220446049250313e-16
+        ],
+        [
+          1.6558731864449954,
+          2.220446049250313e-16
+        ],
+        [
+          1.6859799716530863,
+          2.220446049250313e-16
+        ],
+        [
+          1.7763003272773588,
+          2.220446049250313e-16
+        ],
+        [
+          1.8666206829016312,
+          2.220446049250313e-16
+        ]
+      ],
+      "seconds": 34.40909716999977,
+      "result_file": "q20_tensor_m24_v2.json",
+      "result_sha256": "0d6c5b530b2a9302b6249fa739cd75107bdeacb94911d2415ee71f27ed4e0698"
+    }
+  ],
+  "command_template": [
+    "python",
+    "scripts/cartesian_tensor_prefix.py",
+    "--scripts",
+    "scripts",
+    "--recovery",
+    "RECOVERY",
+    "--checkpoint",
+    "CHECKPOINT",
+    "--port",
+    "WORK/config/port30-m32.json",
+    "--output",
+    "SCRATCH/REPORT.json",
+    "--max-frequency",
+    "63",
+    "--angular",
+    "1536",
+    "--radial",
+    "2049"
+  ]
+}
