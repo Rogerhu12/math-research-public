@@ -1,0 +1,27 @@
+{
+  "scope": "Engineering restoration of exactly three missing, previously hashed read-only inputs. No existing file is overwritten; original bytes and expected SHA-256 are retained. The old scratch directory was observed absent; no deletion cause is inferred. This prevents a live original tail process from losing its sparse-helper path. New runs should use current-session copies.",
+  "observed_utc": "2026-11-17T23:23:36.573709+00:00",
+  "files": [
+    {
+      "original_path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "available_copy": "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "created_missing_only": true,
+      "bytes": 7463
+    },
+    {
+      "original_path": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py",
+      "available_copy": "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+      "created_missing_only": true,
+      "bytes": 3365
+    },
+    {
+      "original_path": "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+      "available_copy": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+      "sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+      "created_missing_only": true,
+      "bytes": 2987
+    }
+  ]
+}
