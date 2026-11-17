@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R631（已证明，真实几何构造）**：[积分K高度、角读出与C²径向映射](results/R631-compatible-height-actual-geometry-and-C2-radial-map.md)：保存K的C¹插值可积分成C²兼容高度；径向frame/坐标积分给C²映射及真实Gram，无需h第三径向导数。curl经两次积分控制角度量误差，实际Gram正定/嵌入/reach仍须检查。
+
 - **R630（已证明，固定物理角接口）**：[P̃=ρP动态均值及深边界换角](results/R630-fixed-physical-angle-dynamic-mean-and-deep-boundary.md)：完整QρB链式零模、整K行投影、同一材料度量与高度规范；深端用密集拉回或准确有限广义角谱，不能误用physical对角模。附真实M112 cut逐模转换源，非新闭尾。
 
 - **R629（已证明，支撑平面大帽）**：[外向固定帽无损reach与held单调性](results/R629-outward-supporting-caps-preserve-reach-and-held-distance.md)：同帽Hessian≤1/τ、真实异片距离≥2τ时保源reach；任意两相位dH_old≤dH_new≤dH_old+h。有固定卷积h=.01875/.02帽和准确矩/面积/直径预算，需真实支持帽及全场隔离，不冒新闭源。
