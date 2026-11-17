@@ -1,0 +1,113 @@
+{
+  "scope": "Exact free-c8 Gram identity and independent low-moment quadrature, together with the already executed complete-core/map and analytic-Jacobian seed audit. No completed BVP is asserted here.",
+  "script_sha256": "db58a3b6fa9bab67046f1b966e04995f8eb5e61b7eb59a6bf172ec3b13454449",
+  "J": 16,
+  "M": 20,
+  "c8_moment_interval_lower": 0.6811479375106478,
+  "c8_moment_interval_upper": 0.6811479375106481,
+  "c8_moment_quadrature": 0.6811479375106505,
+  "mean_quadrature_max_abs": 4.7878367936959876e-15,
+  "remaining_c8_quadrature_max_abs": 8.089015568479851e-15,
+  "core_seed": {
+    "event": "frozen_metric_seed",
+    "scope": "Freeze the entire physical n4 metric and refine the local-circle space.\n\nUnknowns are log(q/q_gauge), c8/q_gauge, c12/q_gauge, ... .  Delta and vd\nare fixed to the accepted checkpoint. At lambda=0 the old low support\nmoments are preserved exactly in definition. At lambda>0 one frozen P_J\nand the nested compact-space embedding preserve the entire old core.\nOnly the finite actual linear tail port is used by this driver.\n",
+    "physical_profile": {
+      "direction": "outward",
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      },
+      "vu": 0.35,
+      "ramp": 0.45,
+      "vd": 0.25018727173023186,
+      "delta": 0.030158202455449618
+    },
+    "core_projection_order": 16,
+    "q_gauge": 0.0125,
+    "seed_q": 0.0125,
+    "modes": 20,
+    "complete_core_identity_error": {
+      "F": 2.7755575615628914e-17,
+      "Ft": 0.0,
+      "Ftt": 0.0
+    },
+    "core_embedding": {
+      "method": "Exact zero-padding of all raw controls with frozen original J and an explicitly free c8 column",
+      "raw_control_anchor_modes": 16,
+      "old_c8": 0.0,
+      "initial_new_c8": 0.0
+    },
+    "complete_map_projection_error": 4.440892098500626e-16,
+    "input_core_summary_diagnostic": {
+      "parameter_source": "Solved parameters and central_correction_scales; summary is not the definition",
+      "summary_q_difference": 0.0,
+      "summary_c_max_difference": 0.0
+    },
+    "old_lift_initial_source": "Original angular projection of the solved full core parameters",
+    "input_inlet_coefficient_residual": 4.3185682324695904e-15,
+    "input_mesh_nodes": 763,
+    "seed_mesh_nodes": 766,
+    "input_mesh_coverage_max": 1.1102230246251565e-16,
+    "inlet_repair_max": 4.312522548043453e-15,
+    "parameter_jac_checks": {
+      "0": {
+        "step": 0.003,
+        "error": 2.925159694161083e-07,
+        "scale": 0.00017230606881366508
+      },
+      "1": {
+        "step": 0.001,
+        "error": 3.228191490482085e-08,
+        "scale": 0.00017256630286817637
+      },
+      "2": {
+        "step": 0.0003,
+        "error": 4.872100046456962e-09,
+        "scale": 0.00017259640046741204
+      }
+    },
+    "boundary_jac_checks": {
+      "0": {
+        "step": 0.0001,
+        "error": 2.819624533856313e-10,
+        "scale": 0.5939952729838716
+      },
+      "1": {
+        "step": 3e-05,
+        "error": 7.060088624832872e-11,
+        "scale": 0.5939952727277801
+      },
+      "2": {
+        "step": 1e-05,
+        "error": 1.6571791894271797e-10,
+        "scale": 0.5939952726685682
+      }
+    },
+    "seed_boundary_max": 1.2094548558469395e-05,
+    "boundary_evaluated": true,
+    "input_checkpoint_sha256": "15411f1e1ca678f6ac7fd013215766bde1caa0986eaba884cf4c5496bf49308d",
+    "physical_port_sha256": "b7f572c5dcb04b355c1dec7da5908bb0a30a5ac8e0b89c0919990438c399abb5",
+    "coefficient_certificate": {
+      "source_sha256": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+      "replacements": [
+        [
+          "def beta_characteristic(z,degree=100):",
+          "def beta_characteristic(z,degree=180):"
+        ]
+      ],
+      "scope": "Tighter exact rational interval proof of the same unique canonical coefficients; no core or equation change"
+    }
+  },
+  "executed_seed_line_sha256": "0d2efdb3a5a5e2bbcd432116154bb100744d2c786e3d63f23c58687f419ddf37",
+  "source_sha256": {
+    "refine_fixed_raw_n4.py": "a753bcd1487bc9e4d3ba8281af116daacb4de460566c3f6cc43533219f068556",
+    "raw_fixed_core.py": "8d7880398f95a3e5cc52030e2b08682d46571a761060562eaff79a56e4d7c182",
+    "raw_n4_free_complementary.py": "5fbd11f9fa534af6a6871eaca3787627b15d7fea38059481afc6af64ea21efd9",
+    "raw_n4_complementary.py": "4ff42d590fa6ad5a97bf4cf7c1447041260a3aa3a23ff158d90b5f7d2f03c778",
+    "refine_fixed_large_radius.py": "f8431622a3973a0bb525a97c3155eb3cb7bbfe459193446eef91f5a69f943b39"
+  }
+}

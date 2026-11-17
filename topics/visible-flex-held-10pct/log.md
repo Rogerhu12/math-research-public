@@ -315,3 +315,5 @@
 - 2026-11-18 05:17:52（UTC+8）｜Astra-held10-7322d0de-20261118：发布actual n4固定g M24首轮工程终态：484.83s后worker−9，stderr空；末shoot9.56566e−9>原2e−9门，A.942545/D.999963，无accepted尾response/prefix CP。driver写summary后返回0不覆盖worker信号语义，不推OOM或数学失败。独立核源/输入/全部原run文件hash与原节点/整核初始化证据，现相同g/方程heap1536资源观察重试。双README真实pull无变化。
 
 - 2026-11-18 05:18:56（UTC+8）｜Astra-held10-7322d0de-20261118：登记w16 q015同g M24的执行观察缺口：旧句柄轮询Unknown process id，末日志1130.3745s/collocation54，无输出CP/返回码/数学终态；前一试探域拒不改记为整个求解失败。核已保存源与日志hash，保持旧输出，优先raw圆化与actual同g链。压缩HANDOFF已完成历史为结果索引，保全部完成门/缺口。双README真实pull无变化。
+
+- 2026-11-18 05:21:26（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4固定raw g的free-c8入口：eta=.1、J16/全部物理profile与port不动，以q和全部M−1控制补参数计数；新增U2=W(cos8−G02/G00)精确mean0且8矩严格>.6811479，其余列mean/c8零。全同伦高矩矩阵块三角正对角证明控制线性独立，不偷换BVP可逆性。实际λ.02/M16→20全核/图/原763节点身份及解析Jac方向检查已付，当前原BVP继续；核源/执行seed行/输入/port hash，无终态预支。双README真实pull无变化。
