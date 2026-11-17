@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 15:52:06 UTC 真实 pull 后核双 README，无新差异，已读提交 767860a060c083e2ef24ae4fd8e5372e00b46027。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 15:57:15 UTC 真实 pull 后核双 README，无新差异，已读提交 d1a672756dcbe5073f90519c12c48e8c85cec1d5。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–637及全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向M112/M128、Schur真Gram均超门，onlyZ/M128预算失败。固定SVD β63/64、.9、.75接受，Gram2.708/2.503/2.399e−6，.5原预算在跑。R637与旧.995共享六jet，高M真短段到.997/Gram5.092e−7；同g续至.997619域失败。新pulse w.005/A−5保旧cut两jet、换标量后真到1.0，端点Gram8.173e−7，但真C²桥全320胞Gram1.312e−6超门；同标量续1.01于1.003990域失败；六个固定pulse结果见新note，不冒精化。旧弱mean-LP/M64失败。未来a′−.8参考尾有限DN已付，非实际cut；unitP的m2放大|h_r|198.79。R633/635排除指定外向组合；R636严格结清参考R/L、chord余>.06001464。全部闭面/D/held/E3含反射/reach/全t/同g精化仍未完成。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–637及全部旧结论/失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。原g真到.995/Gram4.001e−7；新内向M112/M128、Schur真Gram均超门，onlyZ/M128预算失败。固定SVD β63/64、.9、.75接受，Gram2.708/2.503/2.399e−6，.5在1422节点/RMS1.733e−5原预算失败；从真.75缩步.625在跑。R637与旧.995共享六jet，高M真短段到.997/Gram5.092e−7；同g续至.997619域失败。新pulse w.005/A−5保旧cut两jet、换标量后真到1.0，端点Gram8.173e−7，但真C²桥全320胞Gram1.312e−6超门；同标量续1.01于1.003990域失败；六个固定pulse结果见新note，不冒精化。旧弱mean-LP/M64失败。未来a′−.8参考尾有限DN已付，非实际cut；unitP的m2放大|h_r|198.79。R633/635排除指定外向组合；R636严格结清参考R/L、chord余>.06001464。全部闭面/D/held/E3含反射/reach/全t/同g精化仍未完成。
 
 ## 实际活动run与唯一终态读者
 

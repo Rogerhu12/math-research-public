@@ -177,3 +177,26 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
 [只读小源](../scripts/parallel_20261117_endpoint_gram_parts.py)，SHA256 `41c029da83f658559fbb58e576b568db79aa80988f8f82231c2d9515b8bccd4e`，以同852a接受态、保存的N2048与实际RHS读取末点。最坏点三项为 er≈1.52298e−7、gr=−2.3886765007e−6、cross≈1.62205e−7。若仅作代数诊断，把末点速度换为未投影V，则er/cross约1e−15，Gram仍2.3886765007e−6，因为位置及其角导数不变。此替换不是另一实际曲面，也未覆盖保存RHS。
 
 因此当前角向G本身已超门，端点遗漏速度目标下降并不直接结清该项。j≥222的剩余遗漏速度范数6.538e−5，R峰j281约1.781e−5；没有把它假定成此次Gram主因。完整报告 `parallel-model-inward-b075-endpoint-gram-parts.json` SHA256 `4345c61cec801983159c255b9bd5712d293282dfbb3dd5a45e7d2cb370b120f1` 保留仓库外。复现调用该脚本，`--input` 指定本节852a文件，`--out` 指定仓库外报告；没有重跑整个读者或BVP。
+
+## 7. β=.5 原预算终态：未接受，回到真父缩步
+
+**实际有限尝试。** 从 β=.75 真接受场 `852a673f...` warm，仍使用冻结397bbdd源、原11960350母父、同一 U 字节、原327母值与前三 core 目标；仅把右目标改为 `.5 * U.T @ v(original_parent)`。338 ODE、229浅行、109组合右行及 `tol=1e-8, bc_tol=1e-11, max_nodes=1800` 未变。
+
+本次未接受。510节点阶段经7次完整 QR 后出现所有17个 Armijo 试探均不下降，保留旧可行点；原求解器随后加到1422节点，再做2次完整 QR。第2外迭代请求另加2652节点而超过原1800预算，返回 `status=1, success=false`，总耗时782.911982278秒。最终 RMS 为 `1.733113314695548e-5`，109固定目标残差为 `1.7518891626807032e-6`。共9次完整 QR、7个接受的内部 Newton 步；所见约化条件数范围约 `8.8567450e7` 至 `4.5332387e10`。内部接受 Newton 步不等于接受整个 BVP。
+
+终态109组合函数值最大 `4.06309372581146e-5`；327原始遗漏谱 R/T/Z 最大值分别为 `5.625083098585647e-5`、`8.051221821625399e-6`、`4.147355280724042e-6`。这些数字只描述未收敛终态，不能把其较小遗漏谱当作可用曲面结论。本次没有做实际quintic几何读出，也不把此场作为后继warm。该失败不证明固定U零目标问题无解或存在真实折点。
+
+实际命令：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
+  topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-inward-svd-boundary-bvp.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b075.json.gz \
+  --target-parent /workspace/scratch/16f63c8bce6b/parallel-inward0997-m112.json.gz \
+  --row-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-reachable-rows.json \
+  --svd-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-svd-boundary.json \
+  --out /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b05.json.gz \
+  --beta .5 --tol 1e-8 --max-nodes 1800
+```
+
+最终绑定完整固定目标定义的输出仅保存在仓库外，SHA256为 `f25eaa0aac643951b2a6a6bd463ad3bd212b35302a2ea62f2a29de260a920e17`。内部 `.solver.gz` 的未修正非零目标标签不代替此最终文件。按已约定缩步，后继改从同一 β=.75 真接受父试 β=.625，原U、原母值和1800节点预算保持。
