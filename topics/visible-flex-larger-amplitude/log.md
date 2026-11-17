@@ -705,3 +705,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 17:35 UTC / Astra-larger-parallel-16f63c8b — R646同hold四胞连续Gram与λ三jet
 
 从真.99jet运输，exact fall/hold/rise积分与M4全付；498/626/1905/2097跨两微分界共六片，12次实际Gram/比例全通过，Gram最坏2.128703e−7。完整证明/源/12报告SHA/H同刊，未冒全2098胞。
+
+## 2026-11-17 17:39 UTC / Astra-larger-parallel-16f63c8b — R647完整隐式Frenet表示与节点消元
+
+新Pr多项式槽/真实metric输运及完整Y/V节点-中点消元已证；仅原warm四点Jac/单胞，正参考F_V条件286–354，H负点代数finite但非物理解。完整证明/9150B源/报告SHA/H同刊，不冒原P RHS同式或新BVP接受。

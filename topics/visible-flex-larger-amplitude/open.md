@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-完整此前结论/失败/源/SHA逐字保[ee875b9c固定open](https://github.com/Rogerhu12/math-research-public/blob/ee875b9cec8434287a6eadae50961f9fdeb028ab/topics/visible-flex-larger-amplitude/open.md)，内续02228/8c03/1a8e等全文。仅压本§7，原§1–6逐字保持；本地计算，原Actions责任不变。R623–646见[results](results.md)。
+完整此前结论/失败/源/SHA逐字保[b9f4d21e固定open](https://github.com/Rogerhu12/math-research-public/blob/b9f4d21e5c0596560aca1e162c5a9fb42704500a/topics/visible-flex-larger-amplitude/open.md)，内续ee875/02228/8c03/1a8e等全文。仅压本§7，原§1–6逐字保持；本地计算，原Actions责任不变。本会话结果见[results](results.md)。
 
 **已付开放场。** [β.75](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定q2048/509胞采样Gram6.393033e−7；[pulse0→1](notes/2026-11-17-parallel-numerical-pulse-arclength-prefix.md)真旧498+新320胞共享两jet、q4096，两档采样Gram1.974411e−7/κ6.98222。[R638](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)付全域q_N/rho正与C²坐标；[R640](results/R640-certified-cylindrical-embedding-of-the-pulse-prefix.md)真26e53全818胞Q/A/C正与degree1付raw嵌入；[R642](results/R642-certified-embedding-of-the-normalized-pulse-prefix.md)全域λ∈(.998,1.002)、|λ′|<.04、C_G>.1645付实际G/F~嵌入。
 
@@ -113,7 +113,9 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [1.04 M160完整准备](notes/2026-11-17-parallel-numerical-hold-m160-bvp-preparation.md)482ODE/325左157右、原前三core与冻结非零目标，603→827补mid；[首次BVP失败](notes/2026-11-17-parallel-numerical-hold-m160-first-bvp-failure.md)首QR后17步nonfinite拒、RMS NaN，1396未装第二Jac即status2，不冒奇异。真实RMS234/153坏胞、H≥门失败；[全原点修补](notes/2026-11-17-parallel-numerical-hold-allpoint-budget-failure.md)827→1061→1529仍936坏胞、下一2465超1800，未启第二BVP，不冒无解。[同g1.03短BVP](notes/2026-11-17-parallel-numerical-hold-short-bvp-preparation.md)真d644/a425仅末.00165外推，602节点全mid/RMS正、Hmin2.124e−4/完整缺陷3.394e−4；原tol1e−8/bc1e−11/max1800已启动、首8步后RMS3.60e−3，原规则加密1719≤1800继续，未最终收敛。
 
-**已登记有限失败不重做。** 原内向.997 M112/M128/Schur112 Gram超门，.998/.999/Schur128/onlyZ109原额失败。[固定SVD β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)63/64/.9/.75接受但raw Gram超门，.5/.625失败，最后.75。[R639纯右er/fr](results/R639-pure-right-normalized-Gram-boundary-and-finite-zero-target-test.md)实际109空间/全Jac，零目标δ∞.0223，有限步max略降而L2升。normal-only645/317 H负；[fast317射击/三jet桥](notes/2026-11-17-parallel-geometry-fast-shooting-and-bridge.md)BC7.56e−15但Gram1.134936e−6/高尾角二阶.022233，非续父。旧短IVP/N精化/R637桥/原g .997619域停、pulse六设计及1.003990失败、弱meanLP400/M64-9780等见固定全文，不扩无诊断扫描。
+[R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)新独立Y/V多项式残差、真实metric输运和完整节点消元已证；原M160短warm三点F_V数值条件286–354，完整单胞等价核对已付，未解新BVP。有限Pr=0不同于原P RHS；H<0代数finite不等于正分支物理解，全BC/模式/终态几何不减。
+
+**旧有限失败不重做。** 原内向.997多配置Gram超门；.998/.999/Schur128/onlyZ109原额失败。固定SVD β63/64/.9/.75仅原ODE接受但raw Gram超门、.5/.625失败；R639实际109空间零目标有限步无有用解。normal-only H负，fast317射击BC通过但整桥Gram1.134936e−6/高尾角二阶增，不作父。旧短IVP/N精化/R637/原g .997619域停、pulse六设计与1.003990失败、meanLP400/M64-9780等完整参数/来源见上方固定全文和原notes，不扩无诊断扫描。
 
 **尾与全标准。** R633指定强外向best4、R635两组曲率/投影排除不扩大范围；R634/R636原内向参考R/L与全角chord余>.06001464非实际尾。[未来a′−.8参考DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)单位m2内hr198.79，真实cut/无限DN/非线性尾未付。R240共同材料、R632盖、R625/627/629 marker/E3不替闭源。
 
