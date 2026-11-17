@@ -1,0 +1,360 @@
+{
+  "status": "four further finite failed designs",
+  "source_prerequisite": "First batch source files are required; no generated q arrays are committed.",
+  "source_files": [
+    {
+      "path": "witness_ball_envelope_base.py",
+      "bytes": 8238,
+      "sha256": "94d867779dfc102043a162448ea6574a05d82211b2ac728b783b8ea13d82b08d"
+    },
+    {
+      "path": "witness_ball_cap_base.py",
+      "bytes": 261,
+      "sha256": "73a448f2b4eb99e76da4c3a2bc3fc3c75e6e81ec0afd4dddff9549466e7f3805"
+    },
+    {
+      "path": "witness_ball_cap_design.py",
+      "bytes": 4938,
+      "sha256": "4f58484d76a4695c0101030ecc72a49497a36d1629d472fc0a2d332cd31fab5f"
+    },
+    {
+      "path": "negative_entry_envelope_base.py",
+      "bytes": 8238,
+      "sha256": "32dd048d523b8a4d661208e8ba80018000f21c833dfccfc0f351cffca9d3daa9"
+    },
+    {
+      "path": "negative_entry_cap_base.py",
+      "bytes": 256,
+      "sha256": "75eeaec2d1259182e8c3ec3b2c97f81dea44d50e339caafed1a5b9d001a422c8"
+    },
+    {
+      "path": "negative_entry_cap_design.py",
+      "bytes": 4938,
+      "sha256": "db5cb30b65a04a49e6d1fa7fa1c07ee45c13f808c8e2b4010c01355660d8b2b2"
+    },
+    {
+      "path": "free_speed_envelope_base.py",
+      "bytes": 8240,
+      "sha256": "4c72a028ca5e9c80a9ae8c340ac1a8b657d2c7fc8c59629f9b6d6560a24d0073"
+    },
+    {
+      "path": "free_speed_cap_base.py",
+      "bytes": 251,
+      "sha256": "0478df154514935ced079335ec44e89d0958116c2d296f546a59e09809f2f255"
+    },
+    {
+      "path": "free_speed_cap_design.py",
+      "bytes": 4934,
+      "sha256": "7a316935ac51fd75388bd9aef1f76682e24bf85ee2f89e41e5b7bf04a8bf73ca"
+    },
+    {
+      "path": "gc_tail_base.py",
+      "bytes": 4037,
+      "sha256": "5fb97f1ff63d2c030ab3fc806e1b4c18e4adeaebaefddf1cb78ba2af1220f253"
+    },
+    {
+      "path": "gc_tail_design.py",
+      "bytes": 5082,
+      "sha256": "b6469bed641f5114bba1522a5a7d7f205b624b8b37609747e29320255f5f5f21"
+    },
+    {
+      "path": "audit_cap_geometry.py",
+      "bytes": 1680,
+      "sha256": "cdd161991b29133552324de5e1ccdaa3a37d4a60369ba67ec49cc771dcefb012"
+    },
+    {
+      "path": "refine_half_cap_knots.py",
+      "bytes": 918,
+      "sha256": "87907497319e98050842d4a0e439c18e9ecaa0d7a1715dbf4dd4add977690185"
+    }
+  ],
+  "runs": [
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python witness_ball_cap_design.py --B .65 --height .8 --rc .3 --bend .4 --curvature-limit 15 --curvature-weight 2 --nfev 180 --out design_B065_h080_witness_ball.json",
+      "output_sha256": "6b5fef50793d3a469f9fd453640297b86322387246a019996e3cce73615b5348",
+      "observed": {
+        "actual_meridian_speed": 1.1027886971564145,
+        "meridian_asymmetry": -0.4358083687413921,
+        "support_min": 0.18296897813470192,
+        "parameters": {
+          "B": 0.65,
+          "height": 0.8,
+          "speed": 0.85,
+          "rc": 0.3,
+          "nc": 18,
+          "m": 6,
+          "nfev": 180,
+          "curvature_limit": 15.0,
+          "curvature_weight": 2.0,
+          "neck_seed": 0,
+          "bend": 0.4
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 180,
+        "cost": 0.1869024928915951,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.04202340649928116,
+          "metric_rms": 0.010505100933935679,
+          "max_curvature": 15.872745818017885,
+          "min_area": 0.15957065495172634,
+          "E_range": [
+            0.14546609185516424,
+            4.043989752105348
+          ],
+          "G_range": [
+            0.09000000000000004,
+            0.8378731069727463
+          ],
+          "coordinate_min": [
+            -1.0235855048011806,
+            -0.8044559776420006,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0235855048011806,
+            0.8044559776420006,
+            0.851931373567348
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 194.79361910099988
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python negative_entry_cap_design.py --B .65 --height .8 --rc .3 --bend -.25 --curvature-limit 14 --curvature-weight 2 --nfev 180 --out design_B065_h080_negative_entry.json",
+      "output_sha256": "309bc6bf4d84d434168fe3e4eebaf4ab5faf84211f5616a7773eac9f09eda85f",
+      "observed": {
+        "actual_meridian_speed": 1.257547057375403,
+        "meridian_asymmetry": -0.4383485172306758,
+        "support_min": 0.07581316224425796,
+        "parameters": {
+          "B": 0.65,
+          "height": 0.8,
+          "speed": 0.85,
+          "rc": 0.3,
+          "nc": 18,
+          "m": 6,
+          "nfev": 180,
+          "curvature_limit": 14.0,
+          "curvature_weight": 2.0,
+          "neck_seed": 0,
+          "bend": -0.25
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 180,
+        "cost": 0.033970718659620286,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.014096701656651112,
+          "metric_rms": 0.004648913175171419,
+          "max_curvature": 14.428096859904329,
+          "min_area": 0.3772641172126209,
+          "E_range": [
+            0.21814233918275275,
+            4.025987873510403
+          ],
+          "G_range": [
+            0.09000000000000004,
+            0.8889062697673253
+          ],
+          "coordinate_min": [
+            -1.015894614624192,
+            -0.8673197181290102,
+            0.0
+          ],
+          "coordinate_max": [
+            1.015894614624192,
+            0.8673197181290102,
+            0.8502145625481103
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 214.0151726549998
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python free_speed_cap_design.py --B .65 --height .8 --rc .3 --bend -.25 --curvature-limit 14.4 --curvature-weight 2 --seed design_B065_h080_negative_entry.json --nfev 180 --out design_B065_h080_free_speed.json",
+      "output_sha256": "79a088ccad7a7ea3f1459de17b4b63a5de688d36416504f8d2c61557132be594",
+      "observed": {
+        "actual_meridian_speed": 1.257547057375403,
+        "meridian_asymmetry": -0.4383485172306758,
+        "support_min": 0.09927346188051023,
+        "parameters": {
+          "B": 0.65,
+          "height": 0.8,
+          "speed": 0.85,
+          "rc": 0.3,
+          "nc": 18,
+          "m": 6,
+          "nfev": 180,
+          "curvature_limit": 14.4,
+          "curvature_weight": 2.0,
+          "neck_seed": 0,
+          "bend": -0.25
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 180,
+        "cost": 0.02188075961479958,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.01181705259606695,
+          "metric_rms": 0.003731671822947979,
+          "max_curvature": 18.707192594308154,
+          "min_area": 0.20749887130169098,
+          "E_range": [
+            0.06243295464751105,
+            7.266351731158842
+          ],
+          "G_range": [
+            0.09000000000000004,
+            0.9505144724250881
+          ],
+          "coordinate_min": [
+            -1.0467708313602413,
+            -0.8999798421259809,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0467708313602413,
+            0.8999798421259809,
+            0.8503965384764538
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 240.48421485300014
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python gc_tail_design.py --B .65 --height .8 --rc .3 --speed .9 --curvature-limit 14 --curvature-weight 2 --nfev 180 --out design_B065_gc_prefix_tail.json",
+      "output_sha256": "339c91e6ca29b00fa09aef55133235edf1339cdc4cf4eb03acf5e6b3bb06d168",
+      "observed": {
+        "prefix_info": {
+          "A": 1,
+          "B": 0.65,
+          "n": 128,
+          "prefix": 0.28,
+          "c": 4,
+          "k": 10.0,
+          "ramp": 0.03,
+          "rtol": 2e-10,
+          "atol": 2e-11,
+          "nfev": 2102,
+          "coordinate_error_at_end": 1.4640263041380217e-05,
+          "N_min": 0.5864292452301948,
+          "a_end": 0.9218876884316254,
+          "ap_end": 0.29938885764158263,
+          "app_end": -3.204574462187735,
+          "boundary_min": [
+            -1.0448375757641084,
+            -0.8068442288773952,
+            0.21715794342300662
+          ],
+          "boundary_max": [
+            1.0448375757641084,
+            0.8068442288773934,
+            0.275557024345929
+          ]
+        },
+        "actual_meridian_speed": 0.9,
+        "meridian_asymmetry": null,
+        "support_min": 0.08401708216119175,
+        "parameters": {
+          "B": 0.65,
+          "height": 0.8,
+          "speed": 0.9,
+          "rc": 0.3,
+          "nc": 18,
+          "m": 6,
+          "nfev": 180,
+          "curvature_limit": 14.0,
+          "curvature_weight": 2.0,
+          "neck_seed": 0,
+          "prefix": 0.28,
+          "gc_c": 4,
+          "gc_n": 128
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 180,
+        "cost": 1.667539652385072,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.4092901111906271,
+          "metric_rms": 0.0605610752143026,
+          "max_curvature": 17.47303675008827,
+          "min_area": 0.21596300409464245,
+          "E_range": [
+            0.0590675100114171,
+            4.10155730737009
+          ],
+          "G_range": [
+            0.08999999999999998,
+            1.0075286306660363
+          ],
+          "coordinate_min": [
+            -1.0694014770402422,
+            -0.9428697308725312,
+            0.21715794342300668
+          ],
+          "coordinate_max": [
+            1.0694014770402431,
+            0.9428697308723142,
+            0.8485147256368248
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 219.93743322400042
+      }
+    }
+  ],
+  "diagnostic": {
+    "command": "OPENBLAS_NUM_THREADS=1 python audit_cap_geometry.py --source design_B065_h080_negative_entry.json --module negative_entry_cap_base --out negative_entry_dense_geometry_summary.json",
+    "output_sha256": "829f2708f49531d4cd474bc3e91a17bb294a025a1ef9cc4028d8c5ae9eb177d0",
+    "observed": {
+      "grid": [
+        1025,
+        384
+      ],
+      "max_radius3d": 1.1502071007484622,
+      "diameter_sufficient_sample_bound": 2.3004142014969244,
+      "witness_distance_sample_min": 0.35,
+      "support_sample_min": 0.07558338183914984,
+      "kappa_sample_max": 14.45515940354085,
+      "hold_ratio_sample_budget": 0.15214651334192258,
+      "reach_ratio_sample_budget": 0.030072606721139438,
+      "claim": "finite-sample diagnostic only, no continuous bounds or exact metric"
+    }
+  }
+}

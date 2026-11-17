@@ -1,0 +1,813 @@
+{
+  "status": "finite failed numerical designs, no completion",
+  "source_files": [
+    {
+      "path": "half_cap_unbounded_v1.py",
+      "bytes": 7402,
+      "sha256": "5da9d55b6c3db48b4172ca0e384e67246ce41082a59ece8ee347317795588282"
+    },
+    {
+      "path": "half_cap_bounded_v1.py",
+      "bytes": 8066,
+      "sha256": "e0ac0b497ef44762d0e3c9d90955d2d7136c44a36053f79213fffb99acdf8ea8"
+    },
+    {
+      "path": "half_cap_homotopy_base.py",
+      "bytes": 8084,
+      "sha256": "185ba588acd328a301d6dfba3b2ed99df538f12aebd1341095bfed8c87aa64d4"
+    },
+    {
+      "path": "curved_cap_design_v1.py",
+      "bytes": 4265,
+      "sha256": "36711df153985fe9b1d8ef99f3a8c35b7e38403eca42cbd4fcebf234285bddb5"
+    },
+    {
+      "path": "gauged_cap_base.py",
+      "bytes": 1216,
+      "sha256": "ca4a4bf7389bdfd2312f6e6eedc22856222dd2ae166e84e9cf26a12ea9a8177d"
+    },
+    {
+      "path": "gauged_cap_design.py",
+      "bytes": 4805,
+      "sha256": "9c75e86c61aced17d79ff53e3018e8f1d55ec8e09cac91109af1770ffc05edc8"
+    },
+    {
+      "path": "gauged_cap_homotopy_base.py",
+      "bytes": 1219,
+      "sha256": "ef4bc57ad5e69225db34d932257c5c57a0ab3a85b049089bedcc781350f33e3b"
+    },
+    {
+      "path": "gauged_cap_homotopy.py",
+      "bytes": 4814,
+      "sha256": "a336b092110d321835bce04afe9938c29469d2230e1ee26ef6eabc7a36fdc748"
+    },
+    {
+      "path": "full_cap_base.py",
+      "bytes": 2865,
+      "sha256": "a461fbd069215f6974509faaa2c7aefca18ef1da9ea0a512794843090bd69f7e"
+    },
+    {
+      "path": "full_cap_design.py",
+      "bytes": 4842,
+      "sha256": "0f42529edc58e013ba1fde8f2046fedaa1e466bed2afef96bbfcc1e5d01df622"
+    },
+    {
+      "path": "ninth_cap_base.py",
+      "bytes": 1325,
+      "sha256": "95b82010de25ad61da44faa55388381236abe609ebf0cee036724060b106c963"
+    },
+    {
+      "path": "ninth_cap_design.py",
+      "bytes": 4805,
+      "sha256": "8b20d4c54972b86669746d18bac1e92a35c5733aa6bdd6ce64a8c7c246246f75"
+    },
+    {
+      "path": "project_half_cap_seed.py",
+      "bytes": 750,
+      "sha256": "6425b0bd6d2e3dd468b11d64a0b7ca27329de565196e2a743fdd6b2b72f33611"
+    },
+    {
+      "path": "meridian_cap_base.py",
+      "bytes": 3001,
+      "sha256": "7682e01fea60e4f0a0f1193e1990326e99ce8e6ee04d052ce6ed0f026b79d64b"
+    },
+    {
+      "path": "meridian_cap_design.py",
+      "bytes": 4932,
+      "sha256": "fe5065699785c96ebb40b4e8274304ed62a613be4ed12ed553a87b373812ddfc"
+    },
+    {
+      "path": "meridian_free_base.py",
+      "bytes": 260,
+      "sha256": "ad7e2092d5430ee998184b2ee20d104d2c2e733570daaa2c9629bb33653719a1"
+    },
+    {
+      "path": "meridian_free_design.py",
+      "bytes": 4933,
+      "sha256": "093b43584117760a518e96b3b91845469f22558ba05c3ba5fa9addd690c0a77c"
+    },
+    {
+      "path": "relaxed_envelope_base.py",
+      "bytes": 8084,
+      "sha256": "ff664b2b99758bce05ec822668d106ece377b57392fe88067e9ef5fa2a1ad6f8"
+    },
+    {
+      "path": "relaxed_cap_base.py",
+      "bytes": 243,
+      "sha256": "c3f4fe5a85df5810f09d389b4a4dbc1c3383f881d865af2f5a77a96a6fe0a639"
+    },
+    {
+      "path": "relaxed_cap_design.py",
+      "bytes": 4931,
+      "sha256": "5cd5b84a6978e9a12f661ad731ba04b5843b49c40519394d2996a6b6c7319d02"
+    }
+  ],
+  "seed_prerequisite": "OPENBLAS_NUM_THREADS=1 python project_half_cap_seed.py --source design_B099_gauge11_support008.json --out seed_B099_ninth_nc22.json --nc 22",
+  "runs": [
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python half_cap_unbounded_v1.py --nfev 200 --out design_B070.json",
+      "output_sha256": "cc64a1b5fb3fa1a4357c8cc801bf5db7be9e0a3e3f8155f44b74030762804535",
+      "observed": {
+        "parameters": {
+          "B": 0.7,
+          "height": 0.55,
+          "speed": 0.85,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 200
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 200,
+        "cost": 1.0259660370470679e-07,
+        "audit": {
+          "grid": [
+            129,
+            128
+          ],
+          "metric_max": 6.47490519467265e-05,
+          "metric_rms": 1.1005562824151648e-05,
+          "max_curvature": 24.471638548473415,
+          "min_area": 0.21249999999999997,
+          "E_range": [
+            0.7225,
+            11578.070937927907
+          ],
+          "G_range": [
+            0.057471561169284716,
+            1.2102779099787566
+          ],
+          "coordinate_min": [
+            -1.1395225921822656,
+            -1.0663640438225441,
+            0.0
+          ],
+          "coordinate_max": [
+            1.1395225921822656,
+            1.0663640438225441,
+            12.66790171627586
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 34.51091389800001
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python half_cap_bounded_v1.py --nfev 240 --out design_B070_bounded.json",
+      "output_sha256": "978c9f9237b14fd50e761e803df2ab3db57e643b51d783b93586852d2d430750",
+      "observed": {
+        "parameters": {
+          "B": 0.7,
+          "height": 0.55,
+          "speed": 0.85,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 240
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 240,
+        "cost": 0.3412526838529067,
+        "audit": {
+          "grid": [
+            129,
+            128
+          ],
+          "metric_max": 0.05842561606209107,
+          "metric_rms": 0.01817022852238861,
+          "max_curvature": 119.83225015029993,
+          "min_area": 0.21249999999999997,
+          "E_range": [
+            0.1419581256940968,
+            4.051488375175935
+          ],
+          "G_range": [
+            0.0625,
+            0.8199246897739889
+          ],
+          "coordinate_min": [
+            -1.0127299234633949,
+            -0.7567133814227173,
+            -0.0042365079541453465
+          ],
+          "coordinate_max": [
+            1.0127299234633949,
+            0.7567133814227173,
+            0.601022452028783
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 94.71461403299998
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python curved_cap_design_v1.py --neck-seed .15 --nfev 150 --out design_B070_neck015_k12.json",
+      "output_sha256": "c79111eeaa257effcb17735cccf923de8dc861a77da4db7aadc2662913fefe9c",
+      "observed": {
+        "parameters": {
+          "B": 0.7,
+          "height": 0.55,
+          "speed": 0.85,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 150,
+          "curvature_limit": 12,
+          "curvature_weight": 0.2,
+          "neck_seed": 0.15
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 150,
+        "cost": 0.6156262977125142,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.07227350704786217,
+          "metric_rms": 0.019070078465141055,
+          "max_curvature": 14.668063302123418,
+          "min_area": 0.1369283967747357,
+          "E_range": [
+            0.21380301714538982,
+            4.0027584839666694
+          ],
+          "G_range": [
+            0.0625,
+            0.8007117227508193
+          ],
+          "coordinate_min": [
+            -1.0123254246535942,
+            -0.7535486705324113,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0123254246535942,
+            0.7535486705324113,
+            0.6036714263145134
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 143.53754213499997
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python gauged_cap_design.py --speed 1.3 --neck-seed .10 --curvature-weight .1 --nfev 180 --out design_B070_gauge13_support008.json",
+      "output_sha256": "71ac9e1b739111ec28d1b6d996c836865be345b6765cbc053d50ecfbaca45ca9",
+      "observed": {
+        "support_min": 0.07128220106146277,
+        "parameters": {
+          "B": 0.7,
+          "height": 0.55,
+          "speed": 1.3,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 180,
+          "curvature_limit": 12,
+          "curvature_weight": 0.1,
+          "neck_seed": 0.1
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 180,
+        "cost": 4.223311774501448,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.12640999562237337,
+          "metric_rms": 0.04698552582298086,
+          "max_curvature": 19.64442775020902,
+          "min_area": 0.32499999999999996,
+          "E_range": [
+            1.529251478107087,
+            1.7271773552688356
+          ],
+          "G_range": [
+            0.0625,
+            0.8307125696047217
+          ],
+          "coordinate_min": [
+            -1.0557088388213733,
+            -0.759726734756222,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0557088388213733,
+            0.759726734756222,
+            0.607820372819965
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 223.76111493399992
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python gauged_cap_homotopy.py --B .99 --speed 1.3 --neck-seed .10 --curvature-weight .1 --nfev 120 --out design_B099_gauge13_support008.json",
+      "output_sha256": "91b55010bce36834c5c32eb5e3a11608d3f2206b529b9f90737701b4d54180ae",
+      "observed": {
+        "support_min": 0.13365724169180326,
+        "parameters": {
+          "B": 0.99,
+          "height": 0.55,
+          "speed": 1.3,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 120,
+          "curvature_limit": 12,
+          "curvature_weight": 0.1,
+          "neck_seed": 0.1
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": true,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 48,
+        "cost": 0.057091926672030016,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.008099149192344668,
+          "metric_rms": 0.002121811343947136,
+          "max_curvature": 11.240472618817648,
+          "min_area": 0.32499999999999996,
+          "E_range": [
+            1.6688715365680027,
+            1.7173025951659842
+          ],
+          "G_range": [
+            0.0625,
+            1.0989982547241934
+          ],
+          "coordinate_min": [
+            -1.0508879197391614,
+            -1.0420919354591889,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0508879197391614,
+            1.0420919354591889,
+            0.6006764796671257
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim",
+          "constant_E_metric_max": 0.019510425536642284,
+          "constant_E_target": 1.6900000000000002
+        },
+        "seconds": 53.38073843899997
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python gauged_cap_homotopy.py --B .99 --speed 1.1 --neck-seed .10 --curvature-weight 1 --nfev 120 --out design_B099_gauge11_support008.json",
+      "output_sha256": "dc5ae7ed7a76cfc01b08fdff08e8b27162656fd907d3893a941ad46b1292fadf",
+      "observed": {
+        "support_min": 0.389916471028217,
+        "parameters": {
+          "B": 0.99,
+          "height": 0.55,
+          "speed": 1.1,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 120,
+          "curvature_limit": 12,
+          "curvature_weight": 1.0,
+          "neck_seed": 0.1
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": true,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 73,
+        "cost": 0.0011192497795615936,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.0014590233591249557,
+          "metric_rms": 0.00047709956354889877,
+          "max_curvature": 7.961424250288374,
+          "min_area": 0.27499999999999997,
+          "E_range": [
+            1.2078794793480576,
+            1.2128579653811344
+          ],
+          "G_range": [
+            0.0625,
+            0.9909050523896875
+          ],
+          "coordinate_min": [
+            -1.0003760502208183,
+            -0.9905331699385544,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0003760502208183,
+            0.9905331699385544,
+            0.6000681655855697
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim",
+          "constant_E_metric_max": 0.0028111590365709205,
+          "constant_E_target": 1.2100000000000002
+        },
+        "seconds": 75.23055747500007
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python full_cap_design.py --B .7 --m 5 --nc 16 --speed 1.15 --neck-seed .10 --curvature-weight .3 --nfev 150 --out design_B070_chiral_gauge115.json",
+      "output_sha256": "7107d91c562ea9d3da0e58f69c3c1fbefa1b1d8cbd23b8486e03b79ef9f5bebb",
+      "observed": {
+        "support_min": 0.07219378383062186,
+        "parameters": {
+          "B": 0.7,
+          "height": 0.55,
+          "speed": 1.15,
+          "rc": 0.25,
+          "nc": 16,
+          "m": 5,
+          "nfev": 150,
+          "curvature_limit": 12,
+          "curvature_weight": 0.3,
+          "neck_seed": 0.1
+        },
+        "shape": [
+          10,
+          29
+        ],
+        "success": true,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 116,
+        "cost": 1.070024642452067,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.4879315359356243,
+          "metric_rms": 0.3772723640672808,
+          "max_curvature": 14.311588731636398,
+          "min_area": 0.2874999999999999,
+          "E_range": [
+            1.2677380544202979,
+            1.3548518005846575
+          ],
+          "G_range": [
+            0.0625,
+            0.7716557203754673
+          ],
+          "coordinate_min": [
+            -1.0011208462398238,
+            -0.7389166224926731,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0011208462398238,
+            0.7389166224926731,
+            0.6048614661886507
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim",
+          "full_mean_metric_max": 0.10380402678700715,
+          "Fmean_range": [
+            -0.19707660038855934,
+            0.36637514902735263
+          ],
+          "schur_min": 1.055276053892721,
+          "constant_E_target": 1.3224999999999998
+        },
+        "seconds": 168.85211519999984
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python ninth_cap_design.py --B .99 --speed 1.1 --nc 22 --seed seed_B099_ninth_nc22.json --curvature-weight 1 --nfev 80 --out design_B099_ninth_nc22.json",
+      "output_sha256": "e4dd7bbbcaf0a909b33cabad17828bda07412b6da67e0037256b66aff3e75d2a",
+      "observed": {
+        "support_min": 0.38243716139564715,
+        "parameters": {
+          "B": 0.99,
+          "height": 0.55,
+          "speed": 1.1,
+          "rc": 0.25,
+          "nc": 22,
+          "m": 6,
+          "nfev": 80,
+          "curvature_limit": 12,
+          "curvature_weight": 1.0,
+          "neck_seed": 0
+        },
+        "shape": [
+          16,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 80,
+        "cost": 2.550136005900995e-05,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.0002793670214542576,
+          "metric_rms": 9.019657746600232e-05,
+          "max_curvature": 9.322182728575395,
+          "min_area": 0.27499999999999997,
+          "E_range": [
+            1.2099234201343403,
+            1.2101064269597932
+          ],
+          "G_range": [
+            0.0625,
+            0.9917432289555235
+          ],
+          "coordinate_min": [
+            -1.000793865720991,
+            -0.9909272559871598,
+            0.0
+          ],
+          "coordinate_max": [
+            1.000793865720991,
+            0.9909272559871598,
+            0.5989117016365448
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim",
+          "constant_E_metric_max": 0.0002793670214542576,
+          "constant_E_target": 1.2100000000000002
+        },
+        "seconds": 293.3175490020001
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python meridian_cap_design.py --B .7 --bend .4 --curvature-weight .3 --nfev 150 --out design_B070_meridian_b04.json",
+      "output_sha256": "56d15f0330419fb3ec9fcd7c1d879fc714cf889033b22a55b191fa131aefdde4",
+      "observed": {
+        "actual_meridian_speed": 0.927915180105445,
+        "meridian_asymmetry": 0.10841519501596027,
+        "support_min": 0.07091494027900726,
+        "parameters": {
+          "B": 0.7,
+          "height": 0.55,
+          "speed": 0.85,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 150,
+          "curvature_limit": 12,
+          "curvature_weight": 0.3,
+          "neck_seed": 0,
+          "bend": 0.4
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 150,
+        "cost": 8.50781252403015,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.21069903105506582,
+          "metric_rms": 0.06781371529937415,
+          "max_curvature": 18.45262905057088,
+          "min_area": 0.2319787950263612,
+          "E_range": [
+            0.8433897607066824,
+            0.8899824636844675
+          ],
+          "G_range": [
+            0.0625,
+            0.7361504282782579
+          ],
+          "coordinate_min": [
+            -1.0,
+            -0.7113412576906916,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0,
+            0.7113412576906916,
+            0.5499999999999998
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim",
+          "constant_E_metric_max": 0.24186217305086277,
+          "constant_E_target": 0.8610265814701206
+        },
+        "seconds": 171.8269059060001
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python meridian_cap_design.py --B .99 --bend .4 --curvature-weight .3 --nfev 90 --out design_B099_meridian_b04.json",
+      "output_sha256": "f8a402d3332802fa2eeeca08f0f5f8a6a8c516bd71b3ef7965d2dad74cc0c5bb",
+      "observed": {
+        "actual_meridian_speed": 1.0560413974660494,
+        "meridian_asymmetry": 0.3313099425446489,
+        "support_min": 0.35451626972993716,
+        "parameters": {
+          "B": 0.99,
+          "height": 0.55,
+          "speed": 0.85,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 90,
+          "curvature_limit": 12,
+          "curvature_weight": 0.3,
+          "neck_seed": 0,
+          "bend": 0.4
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": true,
+        "message": "`ftol` termination condition is satisfied.",
+        "nfev": 88,
+        "cost": 9.398654826113929e-05,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.00063298194170891,
+          "metric_rms": 0.00019849467222176172,
+          "max_curvature": 6.300370509039483,
+          "min_area": 0.2640103493665125,
+          "E_range": [
+            1.1148677587773894,
+            1.1155766451806504
+          ],
+          "G_range": [
+            0.06250000000000011,
+            0.9900375000591843
+          ],
+          "coordinate_min": [
+            -1.0,
+            -0.99,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0,
+            0.99,
+            0.5519501883365779
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim",
+          "constant_E_metric_max": 0.0007549854065812295,
+          "constant_E_target": 1.1152234331620465
+        },
+        "seconds": 93.62798507900015
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python meridian_free_design.py --B .7 --bend .4 --curvature-weight .3 --nfev 150 --out design_B070_meridian_free_b04.json",
+      "output_sha256": "f1df7e16adc9aa4cbfee1c921b5b7108ff2371a27ce92047a94626b3cbd146b7",
+      "observed": {
+        "actual_meridian_speed": 0.927915180105445,
+        "meridian_asymmetry": 0.10841519501596027,
+        "support_min": 0.07625537566791743,
+        "parameters": {
+          "B": 0.7,
+          "height": 0.55,
+          "speed": 0.85,
+          "rc": 0.25,
+          "nc": 18,
+          "m": 6,
+          "nfev": 150,
+          "curvature_limit": 12,
+          "curvature_weight": 0.3,
+          "neck_seed": 0,
+          "bend": 0.4
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 150,
+        "cost": 0.6603224498713669,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.07874860402814227,
+          "metric_rms": 0.019808988303337726,
+          "max_curvature": 13.349409192933729,
+          "min_area": 0.19112174626190692,
+          "E_range": [
+            0.16170872401602676,
+            3.3950926575153026
+          ],
+          "G_range": [
+            0.0625,
+            0.7965997374132895
+          ],
+          "coordinate_min": [
+            -1.0099964900015113,
+            -0.7542141346245356,
+            0.0
+          ],
+          "coordinate_max": [
+            1.0099964900015113,
+            0.7542141346245356,
+            0.6039586670932543
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 165.52907613899993
+      }
+    },
+    {
+      "command": "OPENBLAS_NUM_THREADS=1 python relaxed_cap_design.py --B .65 --height .8 --rc .3 --bend .4 --curvature-weight 1 --nfev 180 --out design_B065_h080_relaxed.json",
+      "output_sha256": "6c6b8acb5b143efae31994c5355862c25c6d7c63bd262d885c7428b85329a173",
+      "observed": {
+        "actual_meridian_speed": 1.1027886971564145,
+        "meridian_asymmetry": -0.4358083687413921,
+        "support_min": 0.08598911740981424,
+        "parameters": {
+          "B": 0.65,
+          "height": 0.8,
+          "speed": 0.85,
+          "rc": 0.3,
+          "nc": 18,
+          "m": 6,
+          "nfev": 180,
+          "curvature_limit": 12,
+          "curvature_weight": 1.0,
+          "neck_seed": 0,
+          "bend": 0.4
+        },
+        "shape": [
+          12,
+          18
+        ],
+        "success": false,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "nfev": 180,
+        "cost": 0.254307418817905,
+        "audit": {
+          "grid": [
+            257,
+            192
+          ],
+          "metric_max": 0.045144766606596054,
+          "metric_rms": 0.012329528040034015,
+          "max_curvature": 12.43392640962647,
+          "min_area": 0.3274529680578456,
+          "E_range": [
+            0.2422731582020854,
+            4.02847733354714
+          ],
+          "G_range": [
+            0.09000000000000004,
+            0.7474809999118874
+          ],
+          "coordinate_min": [
+            -1.010141265761097,
+            -0.704551634511212,
+            0.0
+          ],
+          "coordinate_max": [
+            1.010141265761097,
+            0.704551634511212,
+            0.8519856405866705
+          ],
+          "scope": "finite samples only, designed g varies by candidate; no exactness/refinement/reach claim"
+        },
+        "seconds": 178.61249865700006
+      }
+    }
+  ],
+  "reproducibility_note": "Numerical trajectories and raw output hashes can differ by BLAS/SciPy version; hashes identify observed original outputs. The constant-E audit method was added after the B=.7 L=1.3 solve was loaded; this adds a diagnostic on replay but leaves its optimization unchanged. No coefficient arrays need be committed."
+}

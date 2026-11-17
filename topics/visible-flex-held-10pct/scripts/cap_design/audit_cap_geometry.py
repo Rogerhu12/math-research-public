@@ -1,0 +1,8 @@
+"""Dense finite geometry diagnostics, without upgrading samples to proofs."""
+import argparse,importlib,json,numpy as np
+p=argparse.ArgumentParser();p.add_argument('--source',required=True);p.add_argument('--module',default='negative_entry_cap_base');p.add_argument('--radial',type=int,default=1025);p.add_argument('--angular',type=int,default=384);p.add_argument('--out',required=True);a=p.parse_args();data=json.load(open(a.source));pa=data['parameters'];Model=importlib.import_module(a.module).Model
+kw={k:pa[k]for k in ['B','height','speed','rc','nc','m','bend']if k in pa};model=Model(**kw);grid=model.prepare(np.linspace(0,1,a.radial),np.arange(a.angular)*2*np.pi/a.angular);x,fs,fu,fss,fsu,fuu=model.geometry(np.array(data['q']),grid,True)
+cross=np.cross(fs,fu);normal=-cross/np.linalg.norm(cross,axis=-1)[:,:,None];E=np.sum(fs*fs,-1);F=np.sum(fs*fu,-1);G=np.sum(fu*fu,-1);l=np.sum(normal*fss,-1);m=np.sum(normal*fsu,-1);n=np.sum(normal*fuu,-1);det=E*G-F*F;H=(G*l+E*n-2*F*m)/(2*det);K=(l*n-m*m)/det;kap=np.abs(H)+np.sqrt(np.maximum(H*H-K,0))
+r=float(np.linalg.norm(x,axis=-1).max());sig=float(np.sum(x*normal,-1).min());kappa=float(kap.max());dist=min(float(np.linalg.norm(x-np.array([0,1,0]),axis=-1).min()),float(np.linalg.norm(x-np.array([0,-1,0]),axis=-1).min()))
+out={'grid':[a.radial,a.angular],'max_radius3d':r,'diameter_sufficient_sample_bound':2*r,'witness_distance_sample_min':dist,'support_sample_min':sig,'kappa_sample_max':kappa,'hold_ratio_sample_budget':dist/(2*r),'reach_ratio_sample_budget':min(sig,1/kappa)/(2*r),'claim':'finite-sample diagnostic only, no continuous bounds or exact metric'}
+json.dump(out,open(a.out,'w'),indent=2);print(json.dumps(out))
