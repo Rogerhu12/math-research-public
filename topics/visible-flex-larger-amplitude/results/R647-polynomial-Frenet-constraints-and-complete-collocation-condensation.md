@@ -516,3 +516,7 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
 ```
 
 入口/出口核全部冻结原问题来源；详细完整SHA见源和前两附节。报告含耗时与路径，换目录或重跑可改变报告文件SHA。全部原数组与诊断报告留仓库外。
+
+## 一次完整尺度/边界可行阻尼方向的实际消费
+
+[固定µ=1的完整LM方向](../notes/2026-11-17-parallel-numerical-implicit-lm-direction.md)保原1662/全部580328行；完整列平方和、同S端点投影、原BB准确整数满秩证与tiny BC修正均付。唯一60/128 LSMR后真实满步SSE1.532103e−4→5.453865e−5，二次项q²2.926e−14；完整源/报告/实际ray与限制见该note。只有一次方向，未声称新BVP或物理接受。
