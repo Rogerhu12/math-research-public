@@ -1,0 +1,115 @@
+{
+  "scope": "Specific same-target initializations. No q=.025 coupled-prefix solution and no amplitude nonexistence claim.",
+  "target_request_source_sha256": "febbe8eb5411b94dd2916f9740da0b9354541eec269c0265ece3a1179348e791",
+  "initial_state_sha256": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+  "source_sha256": {
+    "runner": "42eb6393acd4d27878443d32f9ed73ce82c5d12c0e90a0b51d1b6f9d2cad0cfb",
+    "stage_core": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "stage_split": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "physical_factory": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+  },
+  "generator_record": {
+    "scope": "Derive an initialization-only predictor experiment from the direct runner.\n\nEvery textual anchor is replaced exactly once and both source hashes are\nrecorded. The original DN equations, evaluate, solve, local root guards,\nline search, final tolerance and geometric audit are still called unchanged.\n",
+    "source_sha256": "140fa1b6e1bfdaf2cddb5401a01dadcb90406c2a798110278c3f72c3b8811ccf",
+    "generated_sha256": "42eb6393acd4d27878443d32f9ed73ce82c5d12c0e90a0b51d1b6f9d2cad0cfb",
+    "changes": [
+      "predictor linear-solve transport",
+      "replace only initial-state variable",
+      "accurate scope label",
+      "accurate initializer label",
+      "original complete linearization as an initial predictor"
+    ],
+    "replace_counts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "predictor": {
+    "previous_state_residual": 0.19993815096588216,
+    "linear_diagnostics": {
+      "normwise_backward_error": 2.5683097447126617e-29,
+      "linear_solver": "all-node-scaled-SuperLU",
+      "dimension": 18464,
+      "nnz": 608304,
+      "rhs_columns": 1,
+      "residual_linf": 1.2206101074644276e-10,
+      "initial_residual_linf": 5.148959051981564e-10,
+      "componentwise_backward_error": 1.0037876655894293e-16,
+      "seconds": 0.12478521000230103
+    },
+    "trials": [
+      {
+        "lambda": 1,
+        "local_roots_valid": true,
+        "complete_residual": 2484.1393891433404,
+        "minA": 0.24522231134482378,
+        "minD": 0.9996565726260006
+      }
+    ],
+    "selected_lambda": 1
+  },
+  "terminal_response": {
+    "failed": "Error: multiple-shooting line search failed at 2249.1159636380758",
+    "lastIteration": {
+      "iteration": 3,
+      "norm": 2249.1159636380758,
+      "minA": 0.0514454536561234,
+      "minD": 0.9996565825135677,
+      "chartCondition": null
+    }
+  },
+  "summary": {
+    "scope": "Actual original finite DN solve from a linearized accepted-state predictor. New Dirichlet data are paid by the full original residual and Newton boundary rows. A successful tail alone is not a new coupled prefix or a closed family.",
+    "initialization": "original all-node Newton linearization used only as an initial predictor; no predictor step is labelled accepted",
+    "converged": false,
+    "error": "Error: multiple-shooting line search failed at 2249.1159636380758",
+    "residual": null,
+    "lastIteration": {
+      "iteration": 3,
+      "norm": 2249.1159636380758,
+      "minA": 0.0514454536561234,
+      "minD": 0.9996565825135677,
+      "chartCondition": null
+    },
+    "audit": null,
+    "seconds": 403.145,
+    "output_sha256": "58d5eacb74fff84c93ad578891c8da43a7c2fe31efc2e86be1b9d765cd9b26f7",
+    "trace_sha256": "8520475bc242b063a9bef23605c9c0a80707dfef02eff68e833956e41adecea2",
+    "source_sha256": {
+      "runner": "42eb6393acd4d27878443d32f9ed73ce82c5d12c0e90a0b51d1b6f9d2cad0cfb",
+      "stage_core": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+      "stage_split": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+      "physical_factory": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    }
+  },
+  "seconds": 403.145,
+  "output_hashes": {
+    "tangent-predictor-response.json.gz": {
+      "sha256": "58d5eacb74fff84c93ad578891c8da43a7c2fe31efc2e86be1b9d765cd9b26f7",
+      "bytes": 190968
+    },
+    "tangent-predictor-response.trace.jsonl": {
+      "sha256": "8520475bc242b063a9bef23605c9c0a80707dfef02eff68e833956e41adecea2",
+      "bytes": 2091
+    },
+    "tangent-predictor-linear-trace.jsonl": {
+      "sha256": "3c83fd72fd56c7bf754e32fecb3e1c7023dc709a39d1216fc21c7ffd1682fdfb",
+      "bytes": 1549
+    },
+    "previous-state-response.trace.jsonl": {
+      "sha256": "7bb3ad99f91fd61e18d538ce03d6ddab939d834184f226ffaad471bfc6ccfe20",
+      "bytes": 1326
+    },
+    "previous-state-linear-trace.jsonl": {
+      "sha256": "fae29ed74a33d38d12d34a98ee02d509f314a0ba96d348f834a4fad481df52bb",
+      "bytes": 977
+    }
+  },
+  "parent_package_manifests": {
+    "radial_refinement": "2e14562265619189d2fb9c2ef83e754b9c5a15ad88ffe0434d6df814c286107b",
+    "original_initializer": "01ac30c2f38254275955f773d04b6cbcf90fe8484983c4a5c887c4f7f4461fa0"
+  }
+}

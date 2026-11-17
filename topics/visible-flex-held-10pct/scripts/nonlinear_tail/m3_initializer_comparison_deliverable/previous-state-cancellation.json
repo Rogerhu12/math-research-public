@@ -1,0 +1,51 @@
+{
+  "status": "cancelled_after_targeted_initializer_control",
+  "observed_exit_code": 130,
+  "time_utc": "2026-11-17T17:06:44.751031+00:00",
+  "reason": "The comparison established healthy original local roots and complete initial residual .199938. Two accepted original line-search steps each reduced the cut-dominated residual by about 1/128. Continue the more targeted full original linearized-predictor initialization experiment and q021 actual coupled branch; do not classify this cancelled run as mathematical failure or completed solve.",
+  "last_rows": [
+    {
+      "time": "2026-11-17T17:02:40.888Z",
+      "event": "iteration",
+      "elapsed_ms": 225789,
+      "iteration": 1,
+      "norm": 0.19837613416146124,
+      "minA": 0.4397024294782567,
+      "minD": 0.9997253800083666
+    },
+    {
+      "time": "2026-11-17T17:02:42.674Z",
+      "event": "iteration",
+      "elapsed_ms": 227575,
+      "iteration": 1,
+      "norm": 0.19837613416146124,
+      "minA": 0.4397024294782567,
+      "minD": 0.9997253800083666,
+      "chartCondition": null,
+      "phase": "correction"
+    },
+    {
+      "time": "2026-11-17T17:05:19.786Z",
+      "event": "iteration",
+      "elapsed_ms": 384687,
+      "iteration": 2,
+      "norm": 0.19682632061332483,
+      "minA": 0.43851362990524817,
+      "minD": 0.9997248443885055
+    },
+    {
+      "time": "2026-11-17T17:05:21.043Z",
+      "event": "iteration",
+      "elapsed_ms": 385944,
+      "iteration": 2,
+      "norm": 0.19682632061332483,
+      "minA": 0.43851362990524817,
+      "minD": 0.9997248443885055,
+      "chartCondition": null,
+      "phase": "correction"
+    }
+  ],
+  "trace_sha256": "7bb3ad99f91fd61e18d538ce03d6ddab939d834184f226ffaad471bfc6ccfe20",
+  "source_sha256": "140fa1b6e1bfdaf2cddb5401a01dadcb90406c2a798110278c3f72c3b8811ccf",
+  "accepted_checkpoint_generated": false
+}
