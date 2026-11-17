@@ -813,3 +813,7 @@ R647从既有R227差式给唯一SPD三对角最小jerk选择，完整自然端/D
 
 927f/8fa6原额20方向20接受0拒绝、fixed20accepted_budget，Pr node1.738e−5/mid3.406e−5未收敛；SSE4.840e−8/cubicGram7.136e−5，85.8%剩余来自r0。完整Y/U/A bf5a、90b8报告、2473完整迭代另计中断partial与全部边界/note/H同刊，非接受父。
 
+## 2026-11-17 19:15 UTC / Astra-larger-parallel-16f63c8b — 逐字q126 launch tangent记录保留合并
+
+43171B旧launch记录与保留主本及ddf18186历史逐字相同，仅manifest当前relative file改指；历史absolute映射/original_file/SHA/bytes/状态不动。完整恢复/H同刊；open仅§7压缩并固定ddf全部原文，§1–6逐字保持。
+

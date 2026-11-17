@@ -101,13 +101,13 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-压缩前全部结论/失败/源/SHA逐字保[c87bbb0b固定open](https://github.com/Rogerhu12/math-research-public/blob/c87bbb0b2a565a73d649c4c26960a59a1498e87e/topics/visible-flex-larger-amplitude/open.md)，内续5fc及全部更早完整链。仅压§7，§1–6逐字保持；本地计算，原Actions责任不变；[全部结果](results.md)。
+压缩前全部结论/失败/源/SHA逐字保[ddf18186固定open](https://github.com/Rogerhu12/math-research-public/blob/ddf18186ba2fefbf928fec6a7b8b256a4457ee72/topics/visible-flex-larger-amplitude/open.md)，内续c87/5fc及全部更早完整链。仅压§7，§1–6逐字保持；本地计算，原Actions责任不变；[全部结果](results.md)。
 
 **固定pulse。** R638/640/642付26e53、q4096全818胞坐标和raw/G/F~嵌入；[R641](results/R641-continuous-Gram-certificate-for-one-pulse-cell.md)代表胞连续Gram≤4.936515e−7。[原819片固定Gram](notes/2026-11-17-parallel-model-pulse-fixed-full-Gram-run.md)18:24无终态中断，实际710完整单片均严核可复用、剩109，首710未决；exact末1−5/2^60微片保持。[R643](results/R643-continuous-curvature-of-two-actual-pulse-cells.md)两G胞κ<6.313/7.038；[固定818曲率批](notes/2026-11-17-parallel-model-pulse-fixed-full-curvature-run.md)同次中断，58整胞及57新λ完整，λ56已付/G56未付，剩759λ/760G。[e024最小续接源](notes/2026-11-17-parallel-model-fixed-certificates-interruption-recovery.md)已真实启动57122/58085，同原内核/参数/计划、逐call记账；G56首补已过。detached首次未留进程/零调用如实保，不重算完整报告，不冒全域终态/reach。
 
 **hold与距离。** aa1真962ODE至1.02、旧498+新1600胞/共享两jet/q4096，采样Gram1.180660e−7。[R644](results/R644-certified-embedding-of-the-hold-prefix-and-mirror.md)付全raw/G/F~及镜像C²嵌入、C_G>.1551，仍两端有边。[R646](results/R646-continuous-Gram-and-scaling-for-four-hold-cells.md)四胞六精确片Gram≤2.128703e−7，非全2098。[R645](results/R645-continuous-core-witness-distance-to-the-hold-image.md)准确旋转core点到完整同像及镜像dist>.9588，非未造phase/closed held/D。
 
-**实际边值失败。** 真κ0接口1.0283496328972757的320模trace非DN。1.04 Cauchy末8192 H负非父；完整BVP首QR后全17步nonfinite、RMS补至1529仍坏、下一2465超1800，未重开。[1.03显式BVP](notes/2026-11-17-parallel-numerical-hold-short-bvp-budget-failure.md)11QR后1719→需4988原额失败，rise1642 RMS.04335/8192 H负，e313非父；原参数/104试步保全文。
+**实际边值失败。** 真κ0接口的320模trace非DN；1.04 Cauchy/BVP与RMS修补全部原额失败，非父。[1.03显式BVP](notes/2026-11-17-parallel-numerical-hold-short-bvp-budget-failure.md)11QR后需4988>1800，rise RMS.04335/8192 H负，e313非父；参数/104试步及全部旧失败保持全文、不重跑。
 
 [R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)付独立Y/U Pr、真实metric输运、完整节点消元、原1662核心准确有限CU逆<728/正支唯一性、二次方向与全FFT伴随。Pr≠原P RHS；H负代数finite非物理解。原更新割线q²5.2286的93.6%来自r1，含舍入不冒原Newton。36b完整二次谱扩1157768行/同580328未知，新增谱初始SSE3.85515e−8非主误差；固定配点角系数零等价不扩径向/存在性。
 
@@ -115,7 +115,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [Pr602完整失败](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965原1662、8fresh/9方向/75残差，末需第9fresh而停；cubicGram.003089/H与分支负，3a7f非父。[真实共同quintic](notes/2026-11-17-parallel-geometry-implicit-quintic-failure.md)全601胞8192/4sub Gram5.28554/κ104463，去坏两胞仍Gram.09713；core字面镜像无补丁，旧rho界不转新core。失败不扩为所有C²重建；R230仅水平共享二导/Z保存规则保持。
 
-**原Pr可逆积分坐标准备。** 同R647付C/U/全部D的T与转置、整胞同一性及带所有cross的diag((JT)ᵀJT)，不丢R245兼容缺陷。ef81在原1662实算全602+601局部矩，7aff缓存可复用；九真实列差≤9.761e−16，BTS边界Gram条件估计4317、affine余项3.64e−31、完整伴随1.04e−13。没有新LSMR；普通新coords damp改变步度量，保旧惩罚须变换完整下块。
+**原Pr积分坐标。** R647已付C/U/全部D的可逆T/Tᵀ、整胞同一性、完整cross列范数和BTS投影，不丢R245缺陷。ef81原1662全602+601局部矩与7aff缓存、九列/完整伴随已实核；新coords普通damp改变步度量，保旧惩罚须变换完整下块。
 
 R647另付固定Y/U的最小三阶径向导数共同A：准确能量/SPD三对角/自然端或真实Dirichlet/固定角范数和镜像条件完整，未实施新场。原及同qN规范化节点Gram均不依赖A；节点已超门时任何保Y/U重建都不能修复，不重复旧Pr失败变体。
 
