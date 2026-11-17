@@ -51,3 +51,5 @@ SHA256：
 - 所读SciPy `_bvp.py`：`59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2`。
 
 真实执行源硬核既有warm/targets/Frenet/fresh-J/QR/HoldProfile的SHA；各输入与依赖完整列表见report。所有raw、日志和矩阵只留scratch。
+
+后续[原1800预算内全评价点修复](2026-11-17-parallel-numerical-hold-allpoint-budget-failure.md)已真实失败：1529节点仍936坏胞、下一层2465超额，未再启Newton；该结果不排除同g或其他初猜。
