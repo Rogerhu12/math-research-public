@@ -269,3 +269,5 @@
 - 2026-11-18 04:36:35（UTC+8）｜Astra-held10-7322d0de-20261118：审读发表R32三重精确圆弧及完整控制稳定的10.451%条件窗：真实Green圆心、受控三阶矩、固定相位/H、两柱长选择及C3帽排O(3)均证明，允许未来δ重解区间。root独立核Green/矩代数和5项Fraction门及源/输出hash，未重跑证书。明确实际λ1/完整g与几何前提仍缺；真实pull双README未变，继续实际圆化。
 
 - 2026-11-18 04:37:23（UTC+8）｜Astra-held10-7322d0de-20261118：本条结论发布ref接口返回通用错误；立即真实pull --rebase、双README diff为空，保留并行提交后以新head非force重发。
+
+- 2026-11-18 04:41:18（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3精确局域圆弧实际联立入口及两次原门失败：保留全c6及所有参数jet、锁主频、积分核心和完整径角2jet reference lift；lambda0与原接受核三jet差≤3.44e−13。lambda.02在worker前rho负；lambda.002实际尾warmup过门后前缀Frenet域失败，无新accepted联合。九个来源快照hash逐一一致。未放原门、不称lambda1/10%解；继续更小步与曲率控制。双README实际pull复查无差异。
