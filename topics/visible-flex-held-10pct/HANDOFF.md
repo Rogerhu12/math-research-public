@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`978138671a62cc62f58667bd81ae9446e72626c0`。2026-11-18 06:58:04（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`49eebd07c26eb2362a94f4d00d0f13c9e8cc3274`。2026-11-18 07:00:09（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -30,7 +30,7 @@ R30共享engine原576段/990760标量逐位同值，576→8，变异/重入差0�
 
 原raw λ.02/M8四真尾接受但metric8.30078e−5；冻整g M16首次call3因stage86/mode3一ULP失败。共享engine/可选单邻数初猜保留原门，重试完整1143点/4尾/800有限Jac接受，最终尾1.37847e−9，prefix metric却升9.35726e−5/tensor.209949。七项固定g身份全同，非收敛/闭合；见m3-raw-m16-complete-coupled-metric-failure、m3-one-ulp-initial-candidate-passes-original-tail。canonical各λ及parts16完整metric3.97036e−4失败；一次exact lift/自由c6并不能补未表示角谱。旧λ.02中心弧缺陷>.01255549，不等于λ1。
 
-**R41新核严格证书**：全15c改λ1/bp.32/bc.4后，真积分与独立低2×2投影给||b+b″||<.024265039000279、rho∈(.6212861459223527,1.337031616589919)。原函数按最大频率自选阶，17点真逆/jet误差仅点态；固定atlas与旧M8逐字段同。当前q≈.04不在R38比例窗，新联立若改c必须重付；见R41-general-width-raw-core-true-integral-oracle。
+**R41新核严格证书**：全15c改λ1/bp.32/bc.4后，真积分与独立低2×2投影给||b+b″||<.024265039000279、rho∈(.6212861459223527,1.337031616589919)。原函数按最大频率自选阶，17点真逆/jet误差仅点态；固定atlas与旧M8逐字段同。当前q≈.04不在R38比例窗，新联立若改c必须重付；见R41-general-width-raw-core-true-integral-oracle。实际终态读取另见actual-raw-integral-terminal-binding：不以探针默认值覆盖宽度/λ，new-design用终态自身δ/Lbin新锚，fixed-refinement锁原物理/核family且保完整c与q_gauge；目前只执行M16→M8元数据绑定，未称未来λ1端到端已过。
 
 **R42坐标定理**：以W²权正交多项式Uj，再用固定U0/U1消去W权均值/主频，Gram=I+CᵀC，谱在[1,1+(3/2)||K⁻¹||²]，独立M。λ1与旧raw finite span精确相同、列独立M/append0嵌套。有限M16探针Gram条件约2.061，旧raw约5.788e11；浮点K数不是严格常数，也不证明C²或实际BVP Jac良态。生产连续系数/参数链式法则待实现；原实际运行未改，见R42-supported-orthogonal-control-coordinates。
 
