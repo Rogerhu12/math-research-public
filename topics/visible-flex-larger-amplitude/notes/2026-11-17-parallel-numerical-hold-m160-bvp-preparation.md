@@ -49,3 +49,13 @@ SHA256：
 - report：`8a95f0ecb9c313c767a9df11a77d70aff78d610b78cc26b1f6585dee3785bde9`，同时保留每层全部坏胞编号、每层域下读数、完整方程缺陷及依赖源SHA。
 
 所有raw/矩阵仅scratch；warm数据明确`success=false`、`preparation_only=true`。最后的`preparation_gates_passed=true`仅表示该有限准备门通过，不是BVP或几何结论。
+
+## 同一冻结问题的单次执行入口（2026-11-17 16:51 UTC）
+
+本准备完成后已实际启动一次完整BVP，未预填结果。[执行源](../scripts/parallel_20261117_hold_full_bvp_once.py) SHA256 `f93d74382ac83bee08079759ca17cace95b3e99cb765e706e6d1ef67c7861d81`；硬核原warm/BA/BB/target、标量、Frenet、fresh-J Newton及DiskQR全部来源。仍为482/325/157、tol1e−8、bc_tol1e−11、max_nodes1800；准备场不是接受父。
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH="$S" python "$S/parallel_20261117_hold_full_bvp_once.py" --topic "$T" --warm parallel-hold-m160-bvp-adaptive-warm.json.gz --arrays parallel-hold-m160-bvp-adaptive-arrays.npz --hold-source "$S/parallel_20261117_negative_hold_profile_ivp.py" --out parallel-hold-m160-bvp-once.json.gz
+```
+
+磁盘QR/chunk/source checkpoint都只在scratch；最终状态、原完整数学门与真实全场读出后续分别登记。这里的执行记录不更改上文“准备未求解”的历史结论。
