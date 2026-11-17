@@ -1,0 +1,42 @@
+{
+  "scope": "Isolated empty-directory source recovery and actual worker startup only. No nonlinear rerun was required or performed.",
+  "restored_files": 65,
+  "missing_source_corrected": "general_root_smooth_tail_cells.cjs",
+  "missing_source_sha256": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+  "source_manifest_sha256": "648e1bc729578a04195abf4b582450a32b41ea9f701194c7cd0c1531db5bf664",
+  "startup_port_sha256": "529f4beb6fbf9e5d488f1bee7a538aec8df22bf0538a304fb499ef6242292294",
+  "physical_parameters_identical": true,
+  "cut_identical": true,
+  "maximum_linear_slope_difference": 0.0,
+  "first_slope": 12.433075142580426,
+  "commands": [
+    [
+      "python",
+      "recover_sources.py",
+      "--repo",
+      "REPO",
+      "--output",
+      "EMPTY_RECOVERY"
+    ],
+    [
+      "python",
+      "make_hybrid_worker.py",
+      "EMPTY_RECOVERY/bundle/topics/visible-flexible-closed-surface",
+      "STARTUP/tail_worker.mjs"
+    ],
+    [
+      "python",
+      "export_hybrid_ready_port.py",
+      "--source-topic",
+      "EMPTY_RECOVERY/bundle/topics/visible-flexible-closed-surface",
+      "--worker",
+      "STARTUP/tail_worker.mjs",
+      "--config",
+      "physical_config.json",
+      "--out",
+      "STARTUP/worker_port8.json",
+      "--constructor",
+      "finite_preserved_pulses_v1"
+    ]
+  ]
+}

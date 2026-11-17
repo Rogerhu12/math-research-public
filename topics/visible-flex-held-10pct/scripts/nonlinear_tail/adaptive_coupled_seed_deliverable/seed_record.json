@@ -1,0 +1,552 @@
+{
+  "classification": "Numerical evidence for one finite prefix/nonlinear-tail coupled seed; not a closed exact family or a uniform certificate.",
+  "source_revision": "46fe93d4bb708fdfb7935e91b8141ea77586f0d2",
+  "source_recovery_manifest_reference": "Adjacent sources_manifest.json, corrected to include immutable general_root_smooth_tail_cells.cjs; original coupling source copied verbatim.",
+  "design_label": "adaptive_warp_8var_r30_w08_first3_preserved_pulses_opt128",
+  "physical_constructor": "finite_preserved_pulses_v1",
+  "physical_config_file": "physical_config.json",
+  "config_sha256": "cfc6edb0f789d0138a5c39a0c29f34eb688d8822b96cf481d730248192554749",
+  "factory_sha256": "866bfb2fca091e663101c10d482d5bd1af227efa1a33be30c18bc2059227fdc0",
+  "reference_generated_worker_sha256": "9d566226b78e65fae67ac8e55d20a43745fd77365e156ff75b33493502b355ca",
+  "original_worker_sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a",
+  "design_q": 0.002,
+  "actual_primary_amplitude": 0.002,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.1718183369254722,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "time_discretization": {
+    "modes": 8,
+    "spacing": 2,
+    "depth": 8,
+    "steps": 32,
+    "quadrature": 128,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "shootingParts": 2,
+    "auditSteps": 32,
+    "projectionFloor": 0.0001,
+    "solveTolerance": 1e-08
+  },
+  "prefix_discretization": {
+    "angular": 256,
+    "audit_angular": 512,
+    "initial_nodes": 601,
+    "actual_nodes": 708,
+    "max_nodes": 4000,
+    "tol": 1e-06,
+    "physical_bc_tol": 2e-09,
+    "max_rms": 9.827593238437133e-07
+  },
+  "search": {
+    "evaluations": 331,
+    "scope": "Full first-mode stage sensitivity times a declared approximate prefix core-line transfer. Distinct physical metrics; only screening. Selected candidate must have exact prefix root, all-frequency audit and nonlinear solve.",
+    "first_mode_core_leading_slope_128": 26.739640322918937,
+    "fitted_transfer_is_only_a_screen": true,
+    "selected_exact_prefix_H1_per_q": 0.01151532271411036
+  },
+  "canonical_port": {
+    "reference_sha256": "38f2fff1be9e434726a333e5a193370e02be5025fa6a4ed48a6a1d1070b35b75",
+    "modes_count": 8,
+    "base_mode": 2,
+    "first_slope": 12.433075142580426,
+    "cut": {
+      "radius": 0.3000000000000001,
+      "backgroundSlope": 0.08000000000000027,
+      "backgroundSecond": -1.866666666666673,
+      "E": 1.0064,
+      "Ep": -0.2986666666666687
+    },
+    "regenerate_with": "reproduce_seed.py or export_hybrid_ready_port.py; no port array retained"
+  },
+  "prefix_audit": {
+    "metric_l1": 1.214171275902193e-09,
+    "darboux_l1": 1.9394726363842476e-07,
+    "kappa_sample": 4.087688070440226,
+    "height_max": 1.2947031208366009,
+    "radius_max": 1.172684238100493
+  },
+  "tail_audit": {
+    "fullD": 5.05281740889902e-11,
+    "normalizedFullDefect": 1.73704683970044e-09,
+    "minLeading": 0.937007691711082,
+    "minD": 0.9999469339502268,
+    "formalCurvature": 9.965276711888157,
+    "maxPhysicalPV": 4.606218219448891e-05,
+    "actualMetric": 2.6201573828040098e-14,
+    "holonomy": 4.427070638383804e-20
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 1.0592539839802893e-10,
+      "actual_tail_residual": 6.324199533217903e-10,
+      "tail_calls": 3
+    }
+  ],
+  "height_twojet_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "response_0004.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 6.324199533217901e-10,
+    "mean_first_actual": 0.07974543938997003,
+    "mean_first_expected": 0.07974543938542158,
+    "mean_first_mismatch": 4.548444954011188e-12,
+    "mean_second_actual": 1.8429919905170187,
+    "mean_second_expected": 1.842991990623499,
+    "mean_second_mismatch": -1.0648038006877414e-10,
+    "nonmean_first_mismatch": 2.118478598104886e-12,
+    "nonmean_second_mismatch": 4.960832812990759e-11,
+    "cut_metric_fft_l1": 1.4698197994587478e-12,
+    "cut_metric_c1_fft_l1": 2.9549204107160783e-12,
+    "angular_samples": 512
+  },
+  "cartesian_twojet_seam": {
+    "scope": "Compare full Cartesian two-jets in the same material angle and s direction.\n\nOnly one global rotation about z and one translation are fitted. No material\nreparametrization or per-point alignment is permitted. Arrays stay in scratch.\n",
+    "prefix_sha256": "74d826365f29d0b88a0f4999627a6eb16ed6b7e752bfdfe2c86e3a58be5bd806",
+    "tail_sha256": "da0b34e480874f403106d3cf9940c0fa3ac52592b4c360bb3179f569a9684fbe",
+    "angular": 512,
+    "rotation_about_z": 1.3034895810840384e-18,
+    "translation": [
+      -1.5178830414797062e-18,
+      -1.1136789190499541e-17,
+      1.2946801055218595
+    ],
+    "differences": {
+      "X": {
+        "sup_euclidean": 1.1217968630782853e-13,
+        "max_component": 1.1163292512605949e-13
+      },
+      "Xs": {
+        "sup_euclidean": 6.7331543431412776e-12,
+        "max_component": 6.710965116951684e-12
+      },
+      "Xss": {
+        "sup_euclidean": 1.8151883265436432e-10,
+        "max_component": 1.5712231515863095e-10
+      },
+      "Xtheta": {
+        "sup_euclidean": 2.1896948479772658e-13,
+        "max_component": 1.7427725929053395e-13
+      },
+      "Xstheta": {
+        "sup_euclidean": 1.768185457735378e-11,
+        "max_component": 1.7621404932010448e-11
+      },
+      "Xthetatheta": {
+        "sup_euclidean": 4.722107306216334e-13,
+        "max_component": 4.2175984926728916e-13
+      }
+    },
+    "radial_difference_step": 0.0001,
+    "tail_actual_metric": 5.507725235854954e-20,
+    "tail_root_residual": 1.478569812023898e-16
+  },
+  "cartesian_half_step_seam": {
+    "scope": "Compare full Cartesian two-jets in the same material angle and s direction.\n\nOnly one global rotation about z and one translation are fitted. No material\nreparametrization or per-point alignment is permitted. Arrays stay in scratch.\n",
+    "prefix_sha256": "74d826365f29d0b88a0f4999627a6eb16ed6b7e752bfdfe2c86e3a58be5bd806",
+    "tail_sha256": "417c3003673285aad9c5ea965dfe593e596e109fbeaaed0b9ecd6fa04d75c3a8",
+    "angular": 512,
+    "rotation_about_z": 1.3034895810840384e-18,
+    "translation": [
+      -1.5178830414797062e-18,
+      -1.1136789190499541e-17,
+      1.2946801055218595
+    ],
+    "differences": {
+      "X": {
+        "sup_euclidean": 1.1217968630782853e-13,
+        "max_component": 1.1163292512605949e-13
+      },
+      "Xs": {
+        "sup_euclidean": 6.7331543431412776e-12,
+        "max_component": 6.710965116951684e-12
+      },
+      "Xss": {
+        "sup_euclidean": 2.4265608175914705e-10,
+        "max_component": 2.313422231559059e-10
+      },
+      "Xtheta": {
+        "sup_euclidean": 2.1896948479772658e-13,
+        "max_component": 1.7427725929053395e-13
+      },
+      "Xstheta": {
+        "sup_euclidean": 1.768185457735378e-11,
+        "max_component": 1.7621404932010448e-11
+      },
+      "Xthetatheta": {
+        "sup_euclidean": 4.722107306216334e-13,
+        "max_component": 4.2175984926728916e-13
+      }
+    },
+    "radial_difference_step": 5e-05,
+    "tail_actual_metric": 5.507725235854954e-20,
+    "tail_root_residual": 1.478569812023898e-16
+  },
+  "finite_tail_geometry": {
+    "scope": "Sampled actual Cartesian geometry of all computed finite tail stages. The rest of the infinite nonlinear tail and uniform parameter bounds are not certified.",
+    "input": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/adaptive_warp_design/coupled_q002/response_0004.json.gz",
+    "input_sha256": "6e019dbcbd50d2523e7c9c3f6930927e86e02cad3f10a791a69c62c0db4897ac",
+    "factory_sha256": "866bfb2fca091e663101c10d482d5bd1af227efa1a33be30c18bc2059227fdc0",
+    "prefix_endpoint_sha256": "fbe9467f30a0e3ac2a253896da386fb18c6995e6a9fa2273af6fff353425bf76",
+    "modes": 8,
+    "rootAngular": 128,
+    "steps": 32,
+    "samplesPerStage": 5,
+    "physicalDepth": 8,
+    "stages": 144,
+    "backgroundFullHeight": 0.018920832289693934,
+    "finiteMeanHeightIncrease": 0.018920771144732416,
+    "maxMetric": 2.1609635952955265e-14,
+    "maxFullTensor": 6.347134412515151e-11,
+    "maxCurvature": 9.961439854586846,
+    "minSupport": 1.2754946470767734,
+    "maxRadiusXY": 0.3000001627702159,
+    "maxNorm": 1.329005744444391,
+    "minZ": 1.2946570586544064,
+    "maxZ": 1.3136008766665919,
+    "minA": 0.937007691711082,
+    "minD": 0.9999475828961567,
+    "where": {
+      "maxMetric": {
+        "stage": 6,
+        "cell": 0,
+        "segment": 5,
+        "x": 0.75,
+        "u": 1.5707963267948966,
+        "r": 0.2885293426763639,
+        "w": 0.0011311993901972166
+      },
+      "maxFullTensor": {
+        "stage": 0,
+        "cell": 0,
+        "segment": 8,
+        "x": 1,
+        "u": 1.7671458676442586,
+        "r": 0.3000000000000001,
+        "w": 0.08000000000000027
+      },
+      "maxCurvature": {
+        "stage": 47,
+        "cell": 2,
+        "segment": 3,
+        "x": 0.75,
+        "u": 0,
+        "r": 0.09124078088494263,
+        "w": 0.02408635839440952
+      },
+      "maxRadiusXY": {
+        "stage": 0,
+        "cell": 0,
+        "segment": 8,
+        "x": 1,
+        "u": 0,
+        "r": 0.3000000000000001,
+        "w": 0.08000000000000027
+      },
+      "maxNorm": {
+        "stage": 0,
+        "cell": 0,
+        "segment": 8,
+        "x": 1,
+        "u": 0,
+        "r": 0.3000000000000001,
+        "w": 0.08000000000000027
+      },
+      "minSupport": {
+        "stage": 11,
+        "cell": 0,
+        "segment": 3,
+        "x": 0,
+        "u": 0,
+        "r": 0.1786522405611109,
+        "w": 0.40226526237675275
+      }
+    },
+    "maxHeightAboveCut": 0.01892077114473234
+  },
+  "prefix_envelope": {
+    "scope": "Sample a reconstructed finite prefix's Cartesian radius, support and curvature.\n\nNo uniform enclosure is claimed. Material angular shifts and spatial rotations\npreserve these scalar geometric quantities in the associated phase family.\n",
+    "checkpoint_sha256": "51fed31bdff14c3a023e31e79102c34442b009c50d512db29afb603a2be4c5f5",
+    "q": 0.002,
+    "modes": 8,
+    "angular": 256,
+    "radial": 1041,
+    "meridian_length": 1.9286270551068507,
+    "maxNorm": 1.500742523454019,
+    "maxRadiusXY": 1.1726842219397204,
+    "minSupport": 0.7706510667360031,
+    "maxCurvature": 4.087444695035271,
+    "minZ": -2.5529524792820257e-30,
+    "maxZ": 1.2947031208366009,
+    "where": {
+      "maxNorm": {
+        "s": 1.32593110038596,
+        "u": 0.0
+      },
+      "maxRadiusXY": {
+        "s": 0.5160584112297628,
+        "u": 0.0
+      },
+      "maxCurvature": {
+        "s": 0.8165709850851985,
+        "u": 1.5707963267948966
+      },
+      "minSupport": {
+        "s": 0.29946455250194265,
+        "u": 1.5707963267948966
+      }
+    },
+    "centered_reflection_diameter_bound_sampled": 3.001485046908038
+  },
+  "artifacts": [
+    {
+      "path": "worker_port8.json",
+      "role": "canonical finite 8-mode linear port",
+      "sha256": "38f2fff1be9e434726a333e5a193370e02be5025fa6a4ed48a6a1d1070b35b75",
+      "bytes": 3990,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "opt128.json",
+      "role": "331-evaluation first-mode design search",
+      "sha256": "13c4e93465b5327b44d4d247264c05f2c6915102bd48d8de00590a4c73533450",
+      "bytes": 404463,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "sensitivity512.json",
+      "role": "all 8 physical modes, 512-step complete far48 linear audit",
+      "sha256": "5dbf927bf0d15111e8825d0a4cc5b98f106ad95863c513d8b8deea766ff2124a",
+      "bytes": 35326,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "prefix_p20/q002-m8.json.gz",
+      "role": "linear-port finite prefix seed",
+      "sha256": "5ca422bf35a42e2dfd27e7a12b9f9b1284ff34d25bb2baa8536d15aa64de4356",
+      "bytes": 10931,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "prefix_p20/q002-m8-H.json",
+      "role": "runtime physical upper height vector",
+      "sha256": "0325e1c8bb4c1187a3474210354c1c9aea8a6f6021b073ed9b089bd89895e50f",
+      "bytes": 1318,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "actual_q002_direction_run/response_0001.json.gz",
+      "role": "true nonlinear half-vector warm",
+      "sha256": "a4004774b1c812270700d00f9dc1f0240632092ad92082cc8317732bc1760cb1",
+      "bytes": 29092,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "actual_q002_direction_run/response_0002.json.gz",
+      "role": "true nonlinear full-vector warm",
+      "sha256": "aebdea7c8bcc1c0b1720f127ad5aa071d8ee42fbe0b2fd79f87fb2a105e28e7a",
+      "bytes": 28959,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/prefix.json.gz",
+      "role": "true coupled finite prefix",
+      "sha256": "51fed31bdff14c3a023e31e79102c34442b009c50d512db29afb603a2be4c5f5",
+      "bytes": 13040,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/response_0004.json.gz",
+      "role": "true coupled finite tail",
+      "sha256": "6e019dbcbd50d2523e7c9c3f6930927e86e02cad3f10a791a69c62c0db4897ac",
+      "bytes": 30568,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/prefix-endpoint.npz",
+      "role": "actual Cartesian prefix two-jets",
+      "sha256": "74d826365f29d0b88a0f4999627a6eb16ed6b7e752bfdfe2c86e3a58be5bd806",
+      "bytes": 40025,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/tail-endpoint-corrected.json",
+      "role": "correct normalized Cartesian tail two-jets",
+      "sha256": "da0b34e480874f403106d3cf9940c0fa3ac52592b4c360bb3179f569a9684fbe",
+      "bytes": 237636,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/tail-endpoint-corrected-step5e-5.json",
+      "role": "half-step radial derivative audit",
+      "sha256": "417c3003673285aad9c5ea965dfe593e596e109fbeaaed0b9ecd6fa04d75c3a8",
+      "bytes": 237596,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/cartesian-seam-corrected.json",
+      "role": "scalar Cartesian seam comparison",
+      "sha256": "48124a9a5e569acc44e4101874a1ee70f834ec4725dfe7c0dd5734bdea28f74d",
+      "bytes": 1436,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/finite-tail-geometry.json",
+      "role": "sampled finite Cartesian tail geometry",
+      "sha256": "cc728b81f1ba2376fb9f2d4e71858d0c73e9f6c2a9acaf3ee23dfd50c081e81d",
+      "bytes": 2263,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/prefix-envelope.json",
+      "role": "sampled prefix geometric envelope",
+      "sha256": "fbe9244c57bed71025387252b9e03dda3de7ffbe443061ebc9a0872530479a70",
+      "bytes": 1065,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/tail-endpoint.json",
+      "role": "obsolete exporter output before correcting cut momentum normalization",
+      "sha256": "325954c9831e5f10963c4e105fce92d3f4130ce9e423426896bd71417a9c426f",
+      "bytes": 237624,
+      "stored_in_bundle": false
+    },
+    {
+      "path": "coupled_q002/cartesian-seam.json",
+      "role": "obsolete false mismatch from exporter error",
+      "sha256": "c39a882504df28fab4aa1955358603517bf353e3006646b7f51144aa653ef13a",
+      "bytes": 1431,
+      "stored_in_bundle": false
+    }
+  ],
+  "source_hashes": {
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "78718-tail-tangent-core.mjs": "ac2fc99923962d1ee63257a3d118a1bccd25ed1aca64c4fd10460e675c3295b3",
+    "78718-tail-tangent-split.mjs": "bacb4f2d57d75fa648ae880ef029152263052d6a15030154082732b8a89e1089",
+    "78718-tail-fourier-product-flow.mjs": "717ac5c64bd8d72391912b46125e3c1815b63173f41df34c7a944b18857d574f",
+    "db6f-prefix-tail-trial-client.py": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847"
+  },
+  "reproduction_command": [
+    "python",
+    "reproduce_seed.py",
+    "--repo",
+    "REPO",
+    "--source-topic",
+    "RESTORED_SOURCE",
+    "--prefix-recovery",
+    "RESTORED_PREFIX_ROOT",
+    "--output",
+    "NEW_SCRATCH_RUN"
+  ],
+  "normalization_correction": "The first Cartesian exporter omitted y[M+j]*=2**a at cp.states[0]. It was corrected to match immutable createCompactTailDN.cutJets. Old logs retained and identified as invalid exporter output, not mathematical failure.",
+  "separate_direction_experiment": [
+    {
+      "lam": -0.5,
+      "converged": true,
+      "response_sha256": "a4004774b1c812270700d00f9dc1f0240632092ad92082cc8317732bc1760cb1",
+      "residual": 3.612922005274805e-11,
+      "failed": null,
+      "error": null,
+      "audit": {
+        "fullD": 1.3817697751626537e-13,
+        "normalizedFullDefect": 4.8065579294487285e-12,
+        "minLeading": 0.9710624348453485,
+        "minD": 0.9999735122472552,
+        "formalCurvature": 9.965276137177725,
+        "maxPhysicalPV": 2.303065888521277e-05,
+        "actualMetric": 3.3326910427718453e-15,
+        "holonomy": 4.77299757055348e-20
+      },
+      "final_minA": 0.9710624348452873,
+      "final_minD": 0.999973498642912
+    },
+    {
+      "lam": -1.0,
+      "converged": true,
+      "response_sha256": "aebdea7c8bcc1c0b1720f127ad5aa071d8ee42fbe0b2fd79f87fb2a105e28e7a",
+      "residual": 9.486480426726681e-10,
+      "failed": null,
+      "error": null,
+      "audit": {
+        "fullD": 3.9892918438951905e-11,
+        "normalizedFullDefect": 1.238380120671678e-09,
+        "minLeading": 0.9384151542144907,
+        "minD": 0.9999469803201765,
+        "formalCurvature": 9.965276711874804,
+        "maxPhysicalPV": 4.606131777042554e-05,
+        "actualMetric": 2.1094417524830613e-14,
+        "holonomy": 4.4192951406258057e-20
+      },
+      "final_minA": 0.9384151542141419,
+      "final_minD": 0.999946953108985
+    },
+    {
+      "lam": -2.0,
+      "converged": true,
+      "response_sha256": "1158a7a3665e58af2f0439304422ce946d9a3d13c8995460bbdc809f0c9279e7",
+      "residual": 3.1621601422422267e-10,
+      "failed": null,
+      "error": null,
+      "audit": {
+        "fullD": 1.1492391463025179e-08,
+        "normalizedFullDefect": 3.409406164125994e-07,
+        "minLeading": 0.8636931097893211,
+        "minD": 0.9998937833822691,
+        "formalCurvature": 10.28287390354702,
+        "maxPhysicalPV": 9.212263554085106e-05,
+        "actualMetric": 5.923261881300965e-12,
+        "holonomy": 1.865424630205086e-19
+      },
+      "final_minA": 0.8636931097878816,
+      "final_minD": 0.9998937289502062
+    },
+    {
+      "lam": -4.0,
+      "converged": true,
+      "response_sha256": "2be6c334b7900ac0275de6ae4930cf47a7cf2b6f24dbc6c6f44b8559c4d5369b",
+      "residual": 6.324320284484453e-10,
+      "failed": null,
+      "error": null,
+      "audit": {
+        "fullD": 2.6214860887553e-06,
+        "normalizedFullDefect": 6.129461175218011e-05,
+        "minLeading": 0.7098111358217339,
+        "minD": 0.9997868404671734,
+        "formalCurvature": 11.664784802837408,
+        "maxPhysicalPV": 0.00018424527108170215,
+        "actualMetric": 1.3403331777794863e-09,
+        "holonomy": 1.241432663319584e-19
+      },
+      "final_minA": 0.7098111358217339,
+      "final_minD": 0.9997867315683138
+    },
+    {
+      "lam": -8.0,
+      "converged": false,
+      "response_sha256": "c10f6274144e205b470ff67efc0be0c359663df8828ba48bfa7a780d75e56681",
+      "residual": null,
+      "failed": "Error: momentum branch D/S/A rejected",
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum branch D/S/A rejected', 'residual': None, 'lastIteration': None}\")",
+      "audit": null,
+      "final_minA": null,
+      "final_minD": null
+    }
+  ],
+  "separate_direction_regeneration": "continue_tail.py with selected physical config, regenerated prefix_p20/q002-m8-H.json, generated worker, --lambdas=-.5,-1,-2,-4,-8 --audit --stop-on-failure; no inferred core amplitude for scaled vectors.",
+  "recovery_correction": "Parent isolated startup found the inherited 39-file tail source list omitted required 6319-byte general_root_smooth_tail_cells.cjs. Added exact source row; isolated recovery/startup recorded separately. No nonlinear equations changed."
+}
