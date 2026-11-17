@@ -1,0 +1,242 @@
+{
+  "schema": 1,
+  "scope": "Only scripts, parameters, scalar diagnostics and hashes. Arrays and coefficient checkpoints are not committed. All audits are finite sampled design diagnostics, not fixed-metric convergence or continuous certificates.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "blas_threads": 1
+  },
+  "source_files": [
+    {
+      "path": "short_collar_design.py",
+      "sha256": "a1e14002e9b06b82f0f6d5457bbd1234096872e8999fc74d59b9716e73c33ff9"
+    },
+    {
+      "path": "analytic_collar_design.py",
+      "sha256": "7322343924d26e58979f71d860b1f5806a113418cc8858d79c25b0c11ad8a276"
+    },
+    {
+      "path": "bounded_free_collar_design.py",
+      "sha256": "b369e2d0bb9003d707dea8648d172f6d1da891327dc582f08f20bd6e74b67ae2"
+    },
+    {
+      "path": "general_analytic_collar_design.py",
+      "sha256": "5b4555893e3bac18ea802ecd7aaa64a60787d385de839586ac19f0a9f7e2f641"
+    }
+  ],
+  "trials": [
+    {
+      "name": "q20_length055_rise025.json",
+      "output_sha256": "f7eb6c8dffb9c49fea4e76800a57a0b2b7be7a15925c50be230feed009e4086e",
+      "parameters": {
+        "trace": "/workspace/scratch/f00f08c94d46/true_a_work/restored_prefix/q20_endpoint.npz",
+        "out": "/workspace/scratch/f00f08c94d46/collar_work/q20_length055_rise025.json",
+        "length": 0.55,
+        "rise": 0.25,
+        "radius": 0.15,
+        "nc": 16,
+        "m": 8,
+        "nfev": 140,
+        "free_E": false,
+        "seed": "/workspace/scratch/f00f08c94d46/collar_work/q20_length065_rise025.json"
+      },
+      "trace_sha256": "deecabf3efddc06cad0dc8fc63facc7d0965a9e81472cbbff22807bc6704df5f",
+      "success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 118,
+      "cost": 0.00015407965122902215,
+      "seconds": 112.52345484000011,
+      "audit": {
+        "scope": "finite samples of a designed new metric, not a proof",
+        "grid": [
+          201,
+          256
+        ],
+        "metric_max": 0.0010688330546211322,
+        "curvature_max": 9.268003741043003,
+        "support_min": 1.0392114926166225,
+        "area_min": 0.08249999999999998,
+        "E_range": [
+          0.30230657353197843,
+          0.30282332199902295
+        ],
+        "G_range": [
+          0.022499999999999992,
+          0.36000000798398835
+        ],
+        "z_range": [
+          1.277012453086926,
+          1.5379820451408475
+        ],
+        "radius_max": 0.6007469636045589,
+        "ball_radius_max": 1.5484603629637728
+      }
+    },
+    {
+      "name": "q20_analytic_b0.json",
+      "output_sha256": "1bbee90249e625abd1d0d9fbd64cf22994331d0fc6dfc9fa79eea882e3353c3d",
+      "parameters": {
+        "trace": "/workspace/scratch/f00f08c94d46/true_a_work/restored_prefix/q20_endpoint.npz",
+        "out": "/workspace/scratch/f00f08c94d46/collar_work/q20_analytic_b0.json",
+        "rise": 0.25,
+        "radius": 0.15,
+        "nc": 18,
+        "m": 8,
+        "degree": 5,
+        "bend": 0.0,
+        "nfev": 140,
+        "seed": null
+      },
+      "trace_sha256": "deecabf3efddc06cad0dc8fc63facc7d0965a9e81472cbbff22807bc6704df5f",
+      "length": 0.5421784163646769,
+      "asym": -0.11491929673497611,
+      "reference_equation_error": 1.1102230246251565e-16,
+      "success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 140,
+      "cost": 0.00026433731147744585,
+      "seconds": 215.63561680399994,
+      "audit": {
+        "scope": "finite samples of a designed new metric, not a proof",
+        "grid": [
+          241,
+          256
+        ],
+        "metric_max": 0.0012683617505394504,
+        "curvature_max": 14.304219297397589,
+        "support_min": 1.145137787244034,
+        "area_min": 0.08132676245470152,
+        "E_range": [
+          0.2936449767053683,
+          0.29433022608095966
+        ],
+        "G_range": [
+          0.0225,
+          0.36000000798398835
+        ],
+        "z_range": [
+          1.277012453086926,
+          1.5379820451408475
+        ],
+        "radius_max": 0.6007469636045589,
+        "ball_radius_max": 1.5464361024233166
+      }
+    },
+    {
+      "name": "q20_bounded_freeE_k10.json",
+      "output_sha256": "33409e87d56807906f50197fa6cb2757496db038da6bf7f405bfb27ac60b6e21",
+      "parameters": {
+        "trace": "/workspace/scratch/f00f08c94d46/true_a_work/restored_prefix/q20_endpoint.npz",
+        "out": "/workspace/scratch/f00f08c94d46/collar_work/q20_bounded_freeE_k10.json",
+        "length": 0.55,
+        "rise": 0.25,
+        "radius": 0.15,
+        "nc": 16,
+        "m": 8,
+        "nfev": 220,
+        "curvature_limit": 10.0,
+        "seed": "/workspace/scratch/f00f08c94d46/collar_work/q20_length055_rise025.json"
+      },
+      "trace_sha256": "deecabf3efddc06cad0dc8fc63facc7d0965a9e81472cbbff22807bc6704df5f",
+      "success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 220,
+      "cost": 3.605794700134906e-05,
+      "seconds": 571.9088520330001,
+      "audit": {
+        "scope": "finite samples of a designed new metric, not a proof",
+        "grid": [
+          401,
+          384
+        ],
+        "metric_max": 0.00039991067447031625,
+        "curvature_max": 9.955649810118468,
+        "support_min": 0.9124985929211974,
+        "area_min": 0.08249999999999998,
+        "E_range": [
+          0.24821330555265286,
+          0.45410574089966294
+        ],
+        "G_range": [
+          0.022499999999999992,
+          0.36000000817950195
+        ],
+        "z_range": [
+          1.277012453086926,
+          1.538171248923452
+        ],
+        "radius_max": 0.6007469636045589,
+        "ball_radius_max": 1.550560736275865
+      }
+    },
+    {
+      "name": "q17_smallcut_analytic_rise010.json",
+      "output_sha256": "5364dd0b5bbd0bc1a050c8958ae4ec2869ed8ba3b7c03b0a0b766de00354e8cc",
+      "parameters": {
+        "trace": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/secant-r30-p20/q170-endpoint.npz",
+        "out": "/workspace/scratch/f00f08c94d46/collar_work/q17_smallcut_analytic_rise010.json",
+        "rise": 0.1,
+        "radius": 0.05,
+        "r0": 0.3,
+        "slope": 0.08,
+        "slope_r": -1.8666666666666667,
+        "curvature_limit": 10.0,
+        "nc": 18,
+        "m": 8,
+        "degree": 5,
+        "bend": 0.0,
+        "nfev": 160,
+        "seed": null
+      },
+      "trace_sha256": "5c22c8ddd406bd7f129416a32dfb6a805758bdc0d077928463b6279017901433",
+      "length": 0.28049660281247973,
+      "asym": -0.7107954616781395,
+      "reference_equation_error": 1.3877787807814457e-17,
+      "success": false,
+      "message": "The maximum number of function evaluations is exceeded.",
+      "nfev": 160,
+      "cost": 0.0010152024658265201,
+      "seconds": 650.6787995880004,
+      "audit": {
+        "scope": "finite samples of a designed new metric, not a proof",
+        "grid": [
+          401,
+          384
+        ],
+        "metric_max": 0.0012969532004430961,
+        "curvature_max": 9.954526373283525,
+        "support_min": 0.9471906308225199,
+        "area_min": 0.01402483014062398,
+        "E_range": [
+          0.06657088271769018,
+          0.0920402537743068
+        ],
+        "G_range": [
+          0.0024999999999999983,
+          0.0900000002612581
+        ],
+        "z_range": [
+          1.2778975646923552,
+          1.3818479655591274
+        ],
+        "radius_max": 0.30000709745070303,
+        "ball_radius_max": 1.3845715446094469
+      }
+    }
+  ],
+  "jacobian_direction_check": [
+    {
+      "step": 1e-05,
+      "relative_linf": 0.1797461747035625
+    },
+    {
+      "step": 1e-06,
+      "relative_linf": 3.670351462907056e-10
+    },
+    {
+      "step": 1e-07,
+      "relative_linf": 1.1208004826602889e-10
+    }
+  ]
+}

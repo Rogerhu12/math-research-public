@@ -7,7 +7,7 @@
 构造连通闭曲面的连续 $C^2$ 等距嵌入族，固定有内点握持区 $H$，$\operatorname{diam}F_0(H)\ge0.2D$，整像 Hausdorff 变化 $\delta_{\rm hold}\ge0.1D$，含反射取商的 $\delta_{\rm E}>0$，全时 reach $\ge0.03D$。同一固定度量、物理参数和时间范围下，最大相对度量误差不超过 $10^{-6}$ 并随空间、频率、时间加密下降。材料点位移不是 $\delta_{\rm hold}$。
 
 - 已部分克隆、仅稀疏检出本题，执行真实 `git pull --rebase origin main`；根 README（含授权）和本题 README 全文已读。
-- 已读规则提交：`1a1bb8614cd4507107839b33d4951e0cb7436505`。2026-11-17 21:06:48（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:06:48；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`01a0c72d6510efb493c425e136a167bf8296c6f1`。2026-11-17 21:12:27（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:12:27；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每个有意义的新结论与本文件同时更新，提交前 pull、核规则后普通 push；非快进立即 pull --rebase 再推。禁止 force push。令牌只在命令行临时使用。
 - 只有完整证明进 `results/`；数值证据和缺口分别标明。可重算数据、网格和渲染不提交，只保存生成脚本、参数、运行标识和 SHA-256；单 Markdown <100KB，本文件 <10KB。不写根 LOG。
 
@@ -29,7 +29,7 @@
 - 并行 `new_construction`：R4核预算、R5退化入口证明已成；继续三重对称静态帽的非全等性。
 - 并行 `literature_mechanisms`：小切口高q延拓已到.18；q.14固定profile M16的metric采样降至1.17e-9；继续.20和固定精化。
 
-复现与精化：`scripts/recover_prefix.py` + `prefix_recovery_manifest.json` 定点恢复旧q18/q20开放前缀，数据仅落scratch。q18保持物理delta=.17053856686761762与角向chart不变，M10→M16的采样metric L1从1.61704e-6降到2.54853e-7；端口非均值高度仍约.00976。M24仍在计算，不宣称完成；详见 notes/2026-11-17-archived-prefix-recovery-and-fixed-g.md。
+复现与精化：`scripts/recover_prefix.py` + `prefix_recovery_manifest.json` 定点恢复旧q18/q20开放前缀，数据仅落scratch。q18保持物理delta=.17053856686761762与角向chart不变，M10→M16的采样metric L1从1.61704e-6降到2.54853e-7；端口非均值高度仍约.00976。旧M24已主动取消，优先计算新小cut，取消不算数学失败；详见 notes/2026-11-17-archived-prefix-recovery-and-fixed-g.md。
 
 小切口计算：新增 `scripts/smallcut_prefix_sweep.py` + SHA清单，把cut降至.30/.35并重算线性chart与真实非线性前缀。r=.30、curvature=4、peak_fraction=.2已在新恢复环境通过q=.02/.04/.06；q=.06 metric≈4.07e-8、κ≈4.416、端口H≈.000727。旧p=.5在更小q出现负根域失败，不是不存在证明。本题独立 `.github/workflows/held10-smallcut-research.yml` 以最多2个并发跑8个不同新桥参数，输出仅日志摘要/hash，手动dispatch被GitHub以`Resource not accessible by personal access token`拒绝（HTTP403），现改为仓库已授权的普通push/指定请求文件触发；实际Actions run [44084871328](https://github.com/Rogerhu12/math-research-public/actions/runs/44084871328) 已运行，部分参数作业结束；正在取标量结果，作业success不等于数学成功。
 
@@ -37,6 +37,6 @@
 
 直接半帽：16次已结束试验的源码、参数和hash已存 `scripts/cap_design/`；负K入口最好一轮metric=.01410，密网曲率14.455，见证/支撑采样预算接近达标但等距失败。放宽E的后续曲率18.707，淘汰；见 notes/2026-11-17-direct-cap-design-batches.md。继续真实弧长重参数化及角模扩充。
 
-新短尾：已恢复旧q20前缀完整端口。新短尾固定E版metric≈.002、κ≈12.12；自由E版独立网格发现退化E与κ≈5.7e6，明确淘汰（notes/2026-11-17-first-short-collar-trials.md）。继续较短弧长、曲率/正支撑约束和厚尾设计。两条路线均未获全部条件。
+新短尾：已恢复旧q20前缀完整端口。新短尾固定E版metric≈.002、κ≈12.12；自由E版独立网格发现退化E与κ≈5.7e6，明确淘汰（notes/2026-11-17-first-short-collar-trials.md）。新增有界自由E版独立采样metric=.00039991、κ9.95565，仍不合格；新q17小cut首试metric=.001297，发现旧G≥.005与cap=.05不相容，现保留默认复现并显式G-floor=.0005重跑。详见 notes/2026-11-17-bounded-and-smallcut-collar-trials.md。两条路线均未获全部条件。
 
 已证新结论：[R1](results/R1-mild-ellipse-ten-percent-geometry-window.md) 给 $A=1,B=.7$、$r_{cap}=.25$ 的具体条件窗口：完整包络 $r\le1.05,|y|\le.75,|z|\le.6$ 与支撑≥.08、曲率≤12时，held/D≥.10336、Hdiam/D≥.20672、reach/D≥.03307。连接器、连续包围、固定g精化及δE>0仍未付，**不构成完成**。R2给三场Gauss–Codazzi方程及平面圆领端点引理；短椭圆圆整试算在0.28弧长内降径向差，但仍未圆领，见 notes/2026-11-17-gc-short-prefix-experiments.md。下一项见 [open.md](open.md)。本题未达标准，继续推进；达到后继续提高比例。

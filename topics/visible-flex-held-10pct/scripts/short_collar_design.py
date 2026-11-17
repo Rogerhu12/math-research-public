@@ -102,7 +102,9 @@ class Collar:
         br = np.maximum(rho-.8,0)
         bz_hi = np.maximum(x[:,:,2]-(self.z1+.05),0)
         bz_lo = np.maximum(self.z0-.1-x[:,:,2],0)
-        floor = np.maximum(.005-mg[:,0],0)
+        # Preserve the historical default; a small cap requires an explicit
+        # compatible lower bound because G at its rim equals radius**2.
+        floor = np.maximum(getattr(self, 'G_floor', .005)-mg[:,0],0)
         if not jac:
             return np.r_[r.ravel(), br.ravel(), bz_hi.ravel(), bz_lo.ravel(), 10*floor]
         B = [g['radial'][a][:,None,:,None,None]*g['angle'][b][None,:,None,:,:]
