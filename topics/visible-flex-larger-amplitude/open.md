@@ -105,4 +105,4 @@ R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除�
 
 固定物理角的新接口见 [R630](results/R630-fixed-physical-angle-dynamic-mean-and-deep-boundary.md)：P̃=ρP保物理谱，真深稳定边界必须换角；[实际M8/N512加权BVP](notes/2026-11-17-parallel-numerical-weighted-phi-tail.md)保完整112项ρ、有限广义角谱深行，λ1e−7接受但真K余项1088，尚非大幅接合。原物理第0高度/K与材料均值不同。候选外cuff采用向上下弯回再封盘的球面型固定盖，仍须实际高度、C²曲率ramp、整像见证球和源—盖全点对，参考轴对称高度不能当实际H。
 
-[R631](results/R631-compatible-height-actual-geometry-and-C2-radial-map.md)已给积分实际K的兼容C²高度和真正C²径向映射；实际有限DFT/径向求积仍须读真实Gram，正分母本身不保证浸入或嵌入。小tail实际几何的新读出独立登记，不能回填成大幅闭源。
+[R631](results/R631-compatible-height-actual-geometry-and-C2-radial-map.md)已给积分实际K的兼容C²高度和真正C²径向映射；实际有限DFT/径向求积仍须读真实Gram，正分母本身不保证浸入或嵌入。[同一小tail径向C²实际读出](notes/2026-11-17-parallel-geometry-radial-c2-tail.md)在N512/G8→N512/G12→N1024/G12给Gram1.30622e−10/1.30620e−10/1.32304e−10，非单调收敛；背景本身κ≈11.018，不能当大D reach父证书。不能回填成大幅闭源。
