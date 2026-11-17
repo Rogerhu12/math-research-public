@@ -101,26 +101,22 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-旧全文逐字保[df896ccb固定open](https://github.com/Rogerhu12/math-research-public/blob/df896ccb1cd78a57e1805654692e64064559b63d/topics/visible-flex-larger-amplitude/open.md)，其所链cd55396d、dc271ec1、dd08f3eb、b3274c8d、83262fdc保完整旧结论/失败/参数/源/SHA。仅更新本§7，原§1–6保持；本地计算，原Actions读者与责任不变。R623–637完整证明见[results](results.md)。
+完整旧全文/全部失败/参数/源/SHA固定保于[66419361 open](https://github.com/Rogerhu12/math-research-public/blob/66419361baa8cad4423ace0f1d02894370bc8528/topics/visible-flex-larger-amplitude/open.md)，其继续链接df896、cd553、dc271、dd08、b327、83262；本次仅缩写§7，原§1–6不动。本地计算，原Actions读者责任不变。R623–637正式证明均在[results](results.md)。
 
-**必须沿用的旧结论。** 原解析g的M112前缀真到.995，实际Gram4.001e−7；原g .999、径向增长两族、六控制纠正失败。.992的M112/M128并未给出角收敛。旧best4外向强λ1由R633严格长度门排除，R635在实际κ≤6.8/反射major正投影下又排除.992/R1.7673/H≤1.22和.8/R1.6/H≤1.45，改变g亦无效；不重跑这些组合。全部细节、旧有限far/Dirichlet/双trace/曲率/材料均值/平cuff/点云失败见上链全文及对应notes。
+**已付与禁止重复。** 原解析g M112真到.995/实际Gram4.001e−7；.992的M112/M128未证明角收敛；原g .999、径向增长两族/六控制纠正失败。R633严格长度门排除旧best4外向强λ1，R635在实际κ≤6.8/反射major正投影下排除.992/R1.7673/H≤1.22和.8/R1.6/H≤1.45（换g也无效）。全部有限far/Dirichlet/双trace/材料均值/平cuff旧失败见固定全文，不重跑。
 
-[新向内标量](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)保原.995前缀后接κ1.5/两.02 ramp，可过a′=0；参考末s2.284717/R.531879平2jet。R634对真cut全部112模及固定材料映射付全角chord<1.229702；[R636](results/R636-certified-inward-reference-radius-and-length.md)以整数三角和64中点显式余项严格结清R/L，长度余>.06001464673515，仍非实际非轴尾。固定a依R240共材料规范，phi下rho可变；实际共同材料六jet精化未付。
+[新内向标量](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)保旧.995后κ1.5/两.02 ramp，参考末s2.284717/R.531879；[R636](results/R636-certified-inward-reference-radius-and-length.md)严格结清R634的R/L与全角chord余>.06001464673515，非真非轴尾。固定a依R240共材料、rho可变；共同材料六jet精化尚未付。
 
-**完整有限边界。** 原新标量.997的M112/M128真接受而实际Gram2.754e−6/5.879e−6；.998全求解、.999初猜均失败。[Schur M112](notes/2026-11-17-parallel-geometry-schur-m112-accepted.md)Gram2.421e−6，[M128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)1423节点/RMS3.592e−4超2000失败。[only-Z109谱](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点RMS8.425e−5/BC1.600e−6超1800失败，均不作新父。
+**全有限BVP。** 原内向.997 M112/M128真接受但Gram2.754e−6/5.879e−6；.998/.999失败。[Schur112/128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)分别实际2.421e−6与1423节点/RMS3.592e−4超2000失败。[onlyZ109](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点/RMS8.425e−5超1800失败。以上均不作未接受父。
 
-[全段可达109空间](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)在原509胞元/338ODE/229浅行上选27R/46T/36Z，约化cond5.46e11→2.37e8；[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保全部327值的109组合，cond6.85e7，父目标末修正6.807e−4/线性不可达剩余4.47e−8。只按较小cond选行可能需要更大实际修正。[真实值同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)固定原11960350母值/U，β63/64的510节点全BVP真接受：RMS9.369e−9/组合目标残差4.320e−12，但真quinticGram2.708403e−6；全327原谱max1.06234e−4，不能冒零谱。β.9亦真接受，510节点/RMS9.324e−9/BC8.70e−14、真Gram2.502709e−6，κ6.2933、gap.9599706；β.75真接受/RMS9.322e−9，Gram2.398989e−6，端点角gr=−2.38868e−6主导；代数换raw V不改该项。β.5真实1422节点/RMS1.733e−5/BC1.752e−6超1800原预算失败，非父；从真β.75缩步至.625，原母值/U始终固定。全部为明确新有限边界，非原tail DN。
+[全段可达109行](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)与[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)已实际支付；固定U/原11960350母值的[β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)：63/64、.9、.75真接受，原实际Gram2.708/2.503/2.399e−6；.75角G主导，代数换raw V不能消掉。β.5真1422节点/RMS1.733e−5/BC1.752e−6超原1800失败，从真β.75缩步.625；原母值/U不变。这些新有限边界不冒原tail DN。
 
-**高M局部场。** [短目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)排清二阶外推与有限截尾的区别；[M160/M224](notes/2026-11-17-parallel-geometry-short-ivp-m160-m224.md)真短IVP末Gram2.132e−6/1.132e−6。[M320](notes/2026-11-17-parallel-geometry-short-ivp-m320-local-candidate.md)末Gram5.096e−7；起始一二jet不同，不能冒已接或BVP父。[完整短段C²](notes/2026-11-17-parallel-geometry-m320-full-short-quintic.md)N2048→4096真重积分、全128胞/N8192/4sub读Gram5.092e−7、κ5.7993。初版末4.7e−15微胞有坏峰；新定义仅删<64ulp倒数节点、保真末jets，未裁剪读数。
+**固定弧长新映射。** [β.75同g规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定构造q_N、N2048，以同rho隐式重参数并按a/mean(q_N)中心缩放；完整保λ′/λ″/ψ_s。509胞在4096/4sub与8192/8sub独立audit均真实Gram6.393033e−7，细层κ6.289016；角余项实际读出未置零。正性下的C²来自有限φ谱及共享quintic；全径向正性连续包围仍待。仅旧角对应像点缩放差约9e−13，不能冒共同材料位移；非原BVP再接受或完整mesh/frequency/t精化。
 
-[R637实际C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)在原.995后约.0005宽修正一二阶jets，首端共享旧父、末端保持高M场，所有六jet精确相接。新桥及整个短段524万点Gram5.092e−7/κ5.79934；旧前缀不动，沿用既有读数，未冒统一全网加密、完整BVP或闭尾。
+**高M和新scalar。** 全部M160/224/320短IVP、实际N2048→4096重积分和末微胞坏峰/明确64ulp新节点政策见上链全文。[R637真C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)从旧.995共享六jet至.997，高M全段Gram5.092e−7/κ5.79934；旧prefix沿用旧读数，非统一精化。[同g域停](notes/2026-11-17-parallel-geometry-m320-domain-stop.md)至1.0只到.997619218，高m位移小而角二阶大；不删模造父或无限缩步。
 
-[M320后继域失败](notes/2026-11-17-parallel-geometry-m320-domain-stop.md)同M/N从真.997到1.0，50接受节点止于.997619218，随后stage H负；高m>224位移仅3.98e−8而角二阶贡献.01235。只诊断删模、不用删模或失败态作父，不无限缩步。
+[六个pulse设计](notes/2026-11-17-parallel-inward-curvature-pulse.md)保cut scalar两jet但改变后续g：w.005/A−3、−5真到1.0，其他四例失败。[−5实际C²桥全段](notes/2026-11-17-parallel-pulse-full-C2-field.md)320胞1310万点Gram1.312425e−6超门/κ6.98222，端点8.173e−7不代表全段；同标量延至1.01在1.0039896域失败。
 
-[紧支撑曲率pulse](notes/2026-11-17-parallel-inward-curvature-pulse.md)保原.995 scalar两jet但改变后续g；两有限批次六个结果全列。w.005/A−3与−5真实M320/N4096积分到1.0，端点Gram2.439e−6/8.173e−7；其余四例域失败。[−5真C²桥全段](notes/2026-11-17-parallel-pulse-full-C2-field.md)已与旧cut共享六jet，320胞/1310万点实际Gram1.312425e−6超门、κ6.98222；同标量延至1.01在1.0039896域失败。不把端点/新g冒全段接受或同g精化。
+**旧弱场/未来尾口。** [M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真9780节点/RMS.01608超14000失败；[弱高度meanLP](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)400步仍Gram6.097e−6，不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)全方程/坐标反号已付；[未来内向DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)仅a′−.8参考口/2368胞元/材料m2..16，RK8→16差7.59e−10，unitPcut的m2内|h_r|198.79。真实cut、rho加权角谱、无限DN和非线性尾均未付。
 
-**弱场与尾接口。** [旧M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真运行5813秒，9780节点RMS.01608超14000失败。[直接高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)同1557参数粗κ6.7945→实际7.6272/Gram1.330e−6；原算法replay逐字再生，后续mean-LP400步仍6.097e−6，弱旧场不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)完整PDE/RHS/边界/坐标反号已核，尚无真实内向cut或新尾BVP。[未来内向参考DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)固定a′−.8口与2368实际胞元（2304native+64bridge），材料m2..16全有限线性DN已得，RK8→16差7.59e−10；unitPcut的m2内放大|h_r|198.79。非真实cut/无限DN/非线性尾，物理phi还须rho加权角本征问题。
-
-R632回头盖只为凸平行体组件；R625/627/629标记与含反射E3要实际闭源。旧镜像前缀82432点/Qmin.16150716只点云，不替连续reach。当前未达完成标准：实际全幅尾/全部Cartesian接缝/连通闭面、固定有内点H、完整D、整像held、含反射商距离、所有点对reach与全t强C²连续均须真付。候选冻结后同g/参数/t真正精化至机器或原solver容差；子题/批次/时长/报告均非停点。
-
-[本次历史索引退役](notes/2026-11-17-parallel-historical-index-retention.md)仅普通移出重复request212索引96775B，已实核与固定df8deeeb的原文一致；全部旧源/科学输入保持，准确恢复见说明。
+R632回头盖仅凸平行体组件；R625/627/629的标记与含反射E3须实际闭源；旧82432点/Qmin.16150716仅点云。全部README完成条件仍未达到：全幅尾/Cartesian接缝/连通闭面、固定有内点H、完整D、整像held、含反射商距离、连续reach与全t强C²连续，随后同g/参数/t真正精化至机器或原solver容差。子题/批次/时长/报告均非停点。[旧重复212索引退役](notes/2026-11-17-parallel-historical-index-retention.md)保准确恢复与来源。
