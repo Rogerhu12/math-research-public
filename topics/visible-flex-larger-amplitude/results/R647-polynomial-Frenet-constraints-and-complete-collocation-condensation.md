@@ -520,3 +520,79 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
 ## 一次完整尺度/边界可行阻尼方向的实际消费
 
 [固定µ=1的完整LM方向](../notes/2026-11-17-parallel-numerical-implicit-lm-direction.md)保原1662/全部580328行；完整列平方和、同S端点投影、原BB准确整数满秩证与tiny BC修正均付。唯一60/128 LSMR后真实满步SSE1.532103e−4→5.453865e−5，二次项q²2.926e−14；完整源/报告/实际ray与限制见该note。只有一次方向，未声称新BVP或物理接受。
+
+## 附：保全部二次角谱的矩形残差及其完整伴随
+
+这里固定原1662的Y/U空间、scalar、602网格与482条边界，只把每个径向节点/实际cubic中点的**输出**扩到全部二次角谱。它是与当前保留Pr不同的有限最小二乘目标；本节只形成可用残差/Jv/Jᵀv和一次原暖场诊断，未求解新线性系统或BVP，不改正在运行的927f预算。
+
+### 准确频率、等价性与计数
+
+R/T/Z的旋转架分量分别是cosine/sine/cosine，最高物理频率2M。真实角导含固定连接矩阵，保同一最高频率，并交换一阶导的奇偶性。故三组标量残差的完整空间是
+
+\[
+r_0\in\operatorname{span}\{\sin(2j\phi):1\le j\le2M\},\quad
+r_1,r_2\in\operatorname{span}\{\cos(2j\phi):0\le j\le2M\}.
+\]
+
+每处共 `nout=6M+2` 系数；包括r2中的常数−1。在**固定一个径向配点**，这整个系数向量准确为0，当且仅当三个原点残差逐角都为0。这个有限多项式恒等式不要求节点C_U可逆；在另有Q/W/正确正分支条件时才接R647的点态Frenet等价。它不把径向节点/中点的结论扩到整个胞，也不保证存在非圆的有限模准确零解。
+
+M160、602节点时，未知量仍为580328；行数变为：
+
+| 方程组 | 完整行数 |
+|---|---:|
+| 602节点×962 | 579124 |
+| 601实际中点×962 | 578162 |
+| 原边界 | 482 |
+| 总计 | **1157768** |
+
+相对原580328行增加577440行，正是1203个配点各增加480个先前遗漏的系数。没有通过删变量使它重新方阵化，也没有将原边界行重复加权。
+
+### 不等维Fourier空间的伴随
+
+前一FFT附节的推导保持，但`S_C,D_C`属于2M标量模式输出，`S_Y,D_Y`仍属于M向量模式输入。给定完整权w，使用`eta=S_C D_C w`，仍有
+
+\[
+g_Y=D_Y^{-1}P_Y\{-D_\phi(\eta_0V+2k\eta_1d)
+                         +D_\phi^2(\eta_1V)\},\qquad
+g_U=D_Y^{-1}P_Y\{\eta_0d+\eta_1e+2\eta_2V\}.
+\]
+
+权场最高频率4M，乘V/d/e后最高6M。因此源对这种直接全乘积FFT实现要求 **N>12M**：当前2048>1920，最大960低于Nyquist1024。最后仍只取输入空间的频率；不能把输出权先截回M。分部恒等式中的三因子配对最高频率8M=1280，小于2048，准确离散均值与对应角积分一致。原中点四块的转置及BA/BB转置不变，只是输入残差块由482行扩为962行。
+
+实现复用ff65的角jet、真实连接、缓存和完整Hermite前向，明确改动约束投影/权合成、局部输出及梯度尺寸、全局转置的行切片；`factory(base)`返回形状1157768×580328的完整算子。它不能直接冒作旧P.residual的同尺寸替代品：未来消费者须同时使用这个完整残差及相应判据，而不是只换矩阵标签。
+
+### 原1662的一次真实全谱账
+
+新源 `parallel_20261117_implicit_full_spectrum.py` SHA256 `36b979e5c7a825c870addf128c6e39272ff7ebd0ae05284fb4d7780c692ca016`；报告 `parallel-root-implicit-full-spectrum-probe.json` SHA256 `6db382d92644806ad72743441131260fb64ec00e880ac3d3f6830f92d8608361`。原准备报告63c9的身份完整绑定，未重跑求解或旧物理审计。
+
+- 重选原保留行，raw SSE逐位等于已刊初值 `1.5321026127227238e−4`。
+- 新增全部577440行的SSE为 `3.855150018530475e−8`。
+- 完整谱raw SSE为 `1.5324881277245772e−4`；两部分浮点求和差 `3.34446e−20`，未写成数值零。
+
+| 新增谱组 | 节点SSE | 中点SSE |
+|---|---:|---:|
+| r0 | 3.18229110105e−10 | 9.46614174791e−11 |
+| r1 | 1.74946494143e−8 | 2.05593650187e−8 |
+| r2 | 6.45429437408e−11 | 2.00522809814e−11 |
+
+所以初始数据的主误差仍是已保留的中点r1（SSE1.53172995001e−4），不能把初始困难归因于遗漏谱，也不能据这份初账预测后续迭代的谱误差。
+
+一个明定全槽方向的所有1157768行与独立原角jet的complex-step比较，相对L2差 `7.84912956e−14`、最大差 `5.81891306e−16`。完整不等维伴随点积分别为 `−.001713421340802767`、`−.001713421340802601`，绝对差 `1.66037e−16`，相对内积差 `9.69039e−14`。缓存仍177389568 B，实际Jv/Jᵀv耗时.205/.174秒，整个诊断3.102秒、RSS387444 KiB。以上是指定向量的普通浮点核对，不冒全矩阵区间舍入证书。
+
+即使以后这些配点的全部角谱都足够小，真实公共三次/共同C²五次式的胞内导数、完整连续Gram、正确分支、闭合与精化仍须实际支付。本节没有改变物理接受、父身份或课题完成状态。
+
+从仓库根运行，WORK为原输入目录：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
+ topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_full_spectrum.py \
+ --topic topics/visible-flex-larger-amplitude \
+ --problem-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_newton.py \
+ --warm "$WORK/parallel-hold-m160-short-bvp-warm.json.gz" \
+ --polynomial-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_probe.py \
+ --matrix-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_matrix_free.py \
+ --original-preparation "$WORK/parallel-model-implicit-frenet-602-preparation.json" \
+ --out "$WORK/parallel-root-implicit-full-spectrum-probe.json"
+```
+
+原warm、Problem、角基与scalar SHA承接前节；新源入口/出口核全部身份。原数组与含计时的报告在仓库外，重跑文件SHA可因计时/路径改变。

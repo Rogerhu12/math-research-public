@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **已付真实边值和失败。** 真κ0接口从真1.02到S=5/8指定1.0283496328972757，端Gram6.942e−7/H>.0003475；320模物理trace非DN。原1.04 Cauchy末8192 H负非父；1.04完整BVP首QR后全17步nonfinite，RMS补至1529仍坏、下一2465超1800，未重开。[1.03原显式BVP](notes/2026-11-17-parallel-numerical-hold-short-bvp-budget-failure.md)11QR后1719→需4988而原额失败，rise1642 RMS.04335/ODE.00459、8192同胞H负，e313非父。全部原参数、准备与104试步完整见note及固定全文。
 
-[R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)已付独立Y/U Pr、真实metric输运、完整节点消元、原1662核心准确有限CU逆<728/正支唯一性、准确二次方向及全FFT伴随。Pr不同于原P RHS；H负点代数finite非物理解。唯一真实更新割线q²5.2286中93.6%来自r1，含舍入不冒原Newton；完整Jv/Jᵀv保580328行、与独立实现核对，未减模式或边界。
+[R647](results/R647-polynomial-Frenet-constraints-and-complete-collocation-condensation.md)已付独立Y/U Pr、真实metric输运、完整节点消元、原1662核心准确有限CU逆<728/正支唯一性、准确二次方向及全FFT伴随。Pr不同于原P RHS；H负点代数finite非物理解。唯一真实更新割线q²5.2286中93.6%来自r1，含舍入不冒原Newton；完整Jv/Jᵀv保580328行、与独立实现核对，未减模式或边界。新36b全二次谱矩形算子保同580328未知、扩1157768行；给定配点全系数零等价逐角原残差零，不扩胞内/存在性。新增谱初始SSE3.85515e−8、保留中点r1仍为主；不改当前927f预算。
 
 [固定Pr602完整失败](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965/原1662、8fresh/9方向/75残差，末α1/2048需第9fresh而停，SSE2.771323e−5；原cubic审计Gram.003089/H与正分支负，3a7f非父。[真实共同quintic](notes/2026-11-17-parallel-geometry-implicit-quintic-failure.md)保存Y/U/a的全601胞8192/4sub：Gram5.28554/κ104463，余段仍Gram.09713；core字面镜像无补丁，旧rho正界不可转新core。失败不扩为任意C²重建失败；R230既有共享二导仅在未来更好Y/U上消费。
 

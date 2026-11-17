@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整结论/源/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse26e53已付R638/640/642坐标和嵌入，固定819片Gram批672片时无失败；R643两G胞κ<6.313/7.038，全818胞固定曲率批eb2b已启。hold aa1已付全嵌入/镜像、四胞Gram≤2.129e−7及整同像dist>.9588。旧1.04/1.03 BVP及Pr602原额失败均非父；Pr终态新quinticGram5.28554/κ104463已刊。R647完整消元/核心/二次归因/FFT伴随全付。[完整分支可行LM](notes/2026-11-17-parallel-numerical-implicit-lm-budget.md)927f已唯一起跑：原1662、复用第0步、24方向/20接受/每LSMR128、同S/全行/原BC容差；第0步SSE5.454e−5/分支正但cubicGram8.05e−4。model读两固定几何批，numerical读LM，geometry接真实C²终态。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整结论/源/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse26e53已付R638/640/642坐标和嵌入，固定819片Gram批672片时无失败；R643两G胞κ<6.313/7.038，全818胞固定曲率批eb2b已启。hold aa1已付全嵌入/镜像、四胞Gram≤2.129e−7及整同像dist>.9588。旧1.04/1.03 BVP及Pr602原额失败均非父；Pr终态新quinticGram5.28554/κ104463已刊。R647完整消元/核心/二次归因/FFT伴随及全二次谱矩形算子全付；原起点新增谱SSE3.856e−8，非初始主误差。[完整分支可行LM](notes/2026-11-17-parallel-numerical-implicit-lm-budget.md)927f已唯一起跑：原1662、复用第0步、24方向/20接受/每LSMR128、同S/全行/原BC容差；第0步SSE5.454e−5/分支正但cubicGram8.05e−4。model读两固定几何批，numerical读LM，geometry接真实C²终态。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 
