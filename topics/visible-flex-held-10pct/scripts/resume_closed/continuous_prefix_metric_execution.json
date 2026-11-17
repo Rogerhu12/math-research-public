@@ -1,0 +1,291 @@
+{
+  "scope": "R31: continuous true-fixed-g metric of the unchanged actual R28 M16/steps64 prefix, and combination with R29/R21 to the same full closed map.",
+  "new_sources_sha256": {
+    "prefix_true_profile.py": "be4fae0a667893275e847fb21536685e78180837f084e46d924999acbcb6e50e",
+    "interval_prefix_metric.py": "a0f259872195813b2ce69c917874c8c7e22cdc27e0029a6937103dac1c1b12f0",
+    "certify_prefix_center_first_jet.py": "c02e5325351a1e05598815c7af9e43d80d29b65e2175baf5b5d50e3618609899",
+    "sharpen_prefix_center_norms.py": "6e45653d77cc7cb55c108d41cd5ae8b8eaaae1bf0743264a18eb6f205f820803",
+    "certify_continuous_prefix_metric.py": "b905bed71201acfe337f6efe710f6c704dbdeb7877d3b3ffd7368652fbd3425c"
+  },
+  "reused_sources_sha256": {
+    "interval_tail_metric.py": "9e28560b72e22a7a9b56ec77147df1093055083b290b473dcce8e150a1b38a88",
+    "certify_background_sharp.py": "39dbbaeafe8f8b23b38e894e8cab4ec0340248545a723e2bec32ea750ca129f0",
+    "m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491"
+  },
+  "original_auxiliary_radius_generator_sources_sha256": {
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5"
+  },
+  "same_physical_descriptor": {
+    "path": "/workspace/scratch/f00f08c94d46/m3_closed_map_work/m8_m16_fixed_physical_descriptor.json",
+    "sha256": "4c22bcbdeef907b19aa72fcba440c380a98d3ba4aa3bc50cea2903545dc64247",
+    "meaning": "M8/M16 frozen_profile, chart, warp_reference_q, physical_tail_parameters, physical_tail_cut and meridian_length were all checked identical. Coordinate conversion is fixed once for this descriptor."
+  },
+  "execution": [
+    {
+      "name": "new fourth-order continuous center first-jet certificate",
+      "command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/certify_prefix_center_first_jet.py",
+        "--data",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz",
+        "--angular",
+        "512",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_center_first_jet.json"
+      ],
+      "seconds": 106.422671575001,
+      "observed_exit_code": 0,
+      "component_output_sha256": "ffb1c7ffc05bc5f65229802ad359c1c9c5f7be49339f92656a691bfa5c49a7ed",
+      "dependencies": {
+        "certify_prefix_center_first_jet.py": "c02e5325351a1e05598815c7af9e43d80d29b65e2175baf5b5d50e3618609899",
+        "prefix_true_profile.py": "be4fae0a667893275e847fb21536685e78180837f084e46d924999acbcb6e50e",
+        "certify_background_sharp.py": "39dbbaeafe8f8b23b38e894e8cab4ec0340248545a723e2bec32ea750ca129f0",
+        "m3_interval_center.py": "a7d5d8d8d80b1ba99d4054dd6cf79a3264421f1c438460dadf10a3a7f77a9f3d"
+      }
+    },
+    {
+      "name": "exact m3 covariance norm sharpening without rescanning",
+      "command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/sharpen_prefix_center_norms.py",
+        "--data",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz",
+        "--certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_center_first_jet.json",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_center_first_jet.json"
+      ],
+      "observed_exit_code": 0,
+      "output_path": "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_center_first_jet.json",
+      "output_sha256": "d0a684c3f5e53ed860c1caad8a756093cecc7028404265d3ad35158ef6123f3a"
+    },
+    {
+      "name": "complete continuous prefix metric",
+      "command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/certify_continuous_prefix_metric.py",
+        "--data",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--port",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json",
+        "--tail-manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--prefix-audit",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json",
+        "--cut-bounds",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/cut-lift-all-angle-bounds.json",
+        "--center-certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_center_first_jet.json",
+        "--threshold",
+        "1e-6",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_prefix_metric.json"
+      ],
+      "seconds": 328.0005464099995,
+      "observed_exit_code": 0,
+      "output_path": "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_prefix_metric.json",
+      "output_sha256": "d73a14986aea818a29522a80f32696cc3b343acc6853d851fec8174161ba7b37"
+    }
+  ],
+  "inputs_sha256": {
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz": "7818de0de1873edf18ded4551f0e6044f9c5768271c5cd7a07695020b706d052",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538",
+    "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json": "a1066fccb8380a6e721bf756766d5014b12df081001efd5115a8e35451c86ca9",
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/cut-lift-all-angle-bounds.json": "b0af43513967b19a4bb786928cd9e42f6350f201975947979c23ec208c768384",
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_center_first_jet.json": "d0a684c3f5e53ed860c1caad8a756093cecc7028404265d3ad35158ef6123f3a"
+  },
+  "physical_reference": {
+    "definition": "Exact physical input parameters; real flat-profile algebra and true bridge integrals; sigma=(L_true/L_binary)*s plus the fixed zero-value right cut Hermite first/second jet.",
+    "true_Tu": [
+      0.2261336180289295,
+      0.22613361802892956
+    ],
+    "true_Td": [
+      0.20352025622603653,
+      0.2035202562260366
+    ],
+    "true_L1": [
+      0.565099626834415,
+      0.5650996268344152
+    ],
+    "true_L2": [
+      0.34832173342948536,
+      0.34832173342948547
+    ],
+    "true_L3": [
+      0.017270909669753542,
+      0.01727090966975355
+    ],
+    "true_length": [
+      1.3603461441886198,
+      1.3603461441886202
+    ],
+    "material_length": 1.36034614418862,
+    "arclength_scale": [
+      0.9999999999999999,
+      1.0000000000000002
+    ],
+    "scale_minus_one": [
+      5.899209781140582e-17,
+      5.899209781814949e-17
+    ],
+    "cut_atlas_jets": [
+      -0.996815278536125,
+      0.14744006140246674
+    ],
+    "cut_coordinate_width": 0.04,
+    "cut_coordinate_delta_first": [
+      -1.0902021820450295e-16,
+      -1.0902021819775927e-16
+    ],
+    "cut_coordinate_delta_second": [
+      -2.6717620640663277e-17,
+      -2.671762064066327e-17
+    ],
+    "cut_coordinate_value_error": [
+      1.7464609009232997e-18,
+      1.7464609009233005e-18
+    ],
+    "cut_coordinate_first_error": [
+      2.1830761261541247e-16,
+      2.1830761261541252e-16
+    ],
+    "true_coordinate_derivative_range": [
+      0.9999999999999998,
+      1.0000000000000004
+    ],
+    "bridge_integral_error": [
+      7.86011362995544e-27,
+      7.860113629955443e-27
+    ],
+    "series_degree": 96,
+    "cauchy_radius": 1,
+    "cauchy_function_bound": 512,
+    "normalized_argument_max_abs": 0.501,
+    "physical_inputs": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06105607686781097,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "cut": {
+      "radius": 0.3,
+      "backgroundSlope": 0.08
+    }
+  },
+  "result": {
+    "all_radial_spans": 2464,
+    "covered_material_interval": [
+      0.0,
+      1.36034614418862
+    ],
+    "full_circle": true,
+    "all_phase": true,
+    "angular_sampling_used": false,
+    "radial_sampling_used": false,
+    "rho_lower": {
+      "numerator": "8399",
+      "denominator": "10000",
+      "display_only": 0.8399
+    },
+    "phase_absolute_upper": 0.16000000000000025,
+    "phase_first_absolute_upper": 0.5912653259453752,
+    "auxiliary_radius_error_upper": 6.631692339260591e-16,
+    "maximum_raw_numerator_l1_upper": [
+      3.6017319258078402e-09,
+      1.866275221916217e-11,
+      1.9207340476985176e-13
+    ],
+    "finite_raw_true_metric_upper": {
+      "numerator": "187436853801575354159566616937821237119199798675226679455445738216065270810163263151763330382810577399805542067",
+      "denominator": "36644374198592972205137922934279077529796604799383623843416856834538846338250991087483580871611182443483652665691340800",
+      "display_only": 5.115024008481289e-09
+    },
+    "maximum_angular_frequency": 198,
+    "maximum_radial_degree": 20,
+    "center_lift_first_bounds": {
+      "radial": {
+        "numerator": "57493377140578410782681166080292861708635171573025",
+        "denominator": "3213876088517980617986159780274194629651560805510670188544",
+        "display_only": 1.78891082160826e-08
+      },
+      "angular": {
+        "numerator": "73202705983326862302070964287810637646033104469015",
+        "denominator": "784637716923335095479473677900958302012794430558004314112",
+        "display_only": 9.329491102003615e-08
+      },
+      "normalized_differential": {
+        "numerator": "126379277107790868401635091252904128333206358711111383402511582600825007486150311537366654306084495",
+        "denominator": "308209518011209696589903887734488614860019096746582958592359524256382221740609358862596496985460345667584",
+        "display_only": 4.100433949064299e-07
+      }
+    },
+    "cut_lift_first_bounds": {
+      "radial": {
+        "numerator": "6438689579238991",
+        "denominator": "2417851639229258349412352",
+        "display_only": 2.6629795950968523e-09
+      },
+      "angular": {
+        "numerator": "635745431298769",
+        "denominator": "1208925819614629174706176",
+        "display_only": 5.258762952895045e-10
+      },
+      "normalized_differential": {
+        "numerator": "90328511974442846311128087856579201390597942447003",
+        "denominator": "18534859268734939949253442008834775969823250850025853419520",
+        "display_only": 4.8734393212691514e-09
+      }
+    },
+    "continuous_prefix_metric_upper": {
+      "numerator": "13531370332344407389599288177163056376848450634686067119832947732605143086752478434671955155700092020778277111055957766507694621847774652388630499237180144792627520017843480493733173959761380552912485271895856756729008933003065498953145095158193709466757",
+      "denominator": "16397646345287688744576678600149625731078782781173375303660772533906506985407060614637448075850663751975346502799764701853971659201585440921351898338777802125709072366014564955967462153341933291977506822776107470184647638347282485081510412530200921944935628800",
+      "display_only": 8.252019861516903e-07
+    },
+    "exact_isometry_claimed": false
+  },
+  "simple_prefix_upper_exact": {
+    "numerator": "8253",
+    "denominator": "10000000000",
+    "strict": true
+  },
+  "whole_closed_combination": {
+    "tail_result_path": "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_continuous_metric.json",
+    "tail_result_sha256": "09fe17ffb99467ae7688215636d29c2eb8a7db2f151284e1008f718d7f1fc732",
+    "continuous_operator_upper": {
+      "numerator": "590094565153063",
+      "denominator": "590295810358705651712",
+      "display_only": 9.996590773606874e-07
+    },
+    "collar_upper": "1.36e-29",
+    "fixed_caps_metric_error": 0,
+    "source_geometry_and_markers": "R28 unchanged",
+    "task_completed": false
+  },
+  "scratch_details_sha256": {
+    "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_true_prefix_metric-intervals.json": "1a3386aafadf1b1eee5b920664b268583fc4c02ad4d6c7f37f8d6dddd91bf095"
+  },
+  "interpretation": "The new metric interpretation uses the original exact physical parameters and real bridge integrals, with one fixed coordinate transition on the common finite material domain. No physical parameter, finite map, core, cap or tail was changed. The continuous sufficient bounds do not estimate the actual supremum or prove an infinite exact solution. Held ratio remains far below 10%.",
+  "development_note": "Initial module trials stopped at an mpmath interval-left-multiplication dispatch error before producing a certificate; the final recorded sources and both complete runs succeeded. The already complete component certificate was sharpened algebraically using exact m3 covariance, with no repeat angular scan."
+}
