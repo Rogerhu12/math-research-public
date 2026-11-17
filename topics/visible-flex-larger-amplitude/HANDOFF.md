@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 14:24:43 UTC 真实 pull 后核双 README，无新差异，已读提交 c6dc263f4352bc5626f1fcfb79c18d0bbf4cea6a。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 14:29:25 UTC 真实 pull 后核双 README，无新差异，已读提交 3ba99da1e8d7f4eaec41e5e6c2f7b88e3f250085。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–633证明见results；本地计算，原Actions责任不变。旧结论/源/参数/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。[扩域.995](notes/2026-11-17-parallel-numerical-0995-continuation.md)真Gram4.001e−7，a′仍正。[R633](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)全2368胞元有理长度界严格排除原强b677→best4圆cuff：必要ε>.584839；转长度可行新g/内向路线。[六控制](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步真Gram1.881e−5，重线性化纠正未接受；保三控制。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995均未接受。[实际平cuff](notes/2026-11-17-parallel-geometry-actual-c2-flat-cuff.md)Gram2.057e−6；长度过门不替实际等距。[前缀点对](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)2.11亿近对仅点云。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
+Astra-larger-parallel-16f63c8b：R623–633证明见results；本地计算，原Actions责任不变。全历史结论/失败/源/参数/SHA保[open§7](open.md#7-本并行会话的实际数学与几何路线)。[原g扩域.995](notes/2026-11-17-parallel-numerical-0995-continuation.md)真Gram4.001e−7，a′仍正。[R633](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)2368胞元严格排除原强b677接best4指定圆cuff，必要ε>.584839。[新外向参考g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)真.8cut/R1.55，L1.108257对自由圆周对应chord1.104644；H1.491365、帽D≤4.799855均条件参考值，实际κ采样6.500003，尚无非线性尾场。旧弱尾/平cuff/core六控制的Gram/κ失败不隐藏。λ1接合、完整闭面/D/held/E3含反射/reach与全t、同g精化均未完成。
 
 ## 实际活动run与唯一终态读者
 

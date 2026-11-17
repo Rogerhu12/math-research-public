@@ -109,6 +109,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **严格长度障碍。** [R633](results/R633-finite-cuff-length-budget-and-actual-endpoint-obstruction.md)从真实b677切口φ=π/2半径.9215514396与指定R1.767318出发，全部2368个Hermite胞元用有理Taylor/整数sqrt包围，best4+A=.003016完整长度≤.6718278314，任何接合必要ε>.584839；A=2/5亦不可能。独立数值长度.6691296只作比较。旧固定g强尾不再靠加密追λ1；改g/外圆或内向路线需先付三维chord与帽高/D。弱P0实际端圈A=.001104仍有长度误差底，A=.15虽长度过门，实际补段Gram1.627e−5仍失败。
 
+[新的近竖直外向g](notes/2026-11-17-parallel-numerical-nearvertical-scalar-budget.md)从真实.8cut到R1.55，以2037行固定Hermite表和.07参考退平段给L1.108257；条件H1.491365下自由圆周对应最大采样chord1.104644，余.003613，帽D界4.799855。峰w≈500、实际表κ采样6.50000255，生成κ不替插值/曲面κ。只通过较弱必要门，固定材料对应、非线性双trace、实际末高/平jets/全场几何仍须支付。
+
 **有限尾与实际DN。** [best4短bridge](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)完整22键primitive配方、finite-far32深列与源均刊；材料M8到λ.0014、物理M8到1e−5。参考κ5重新求解和[实际曲率反升](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)说明producer参数不替真曲率，冻结Hermite内部也可超界。[完整weighted Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行/alias/112项rho，y过零chart不删S/D/L/N；局部Jac比较不代接受场。[跨角初猜后真物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)λ1e−4完整接受，初猜非接受父。[深P=0新有限族](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)三接受到λ5e−5、直接1e−4失败；只改M深端行，非原far DN，真实hr/hrr退休未付。
 
 [新g浅端完整双trace](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)M2完整状态+2参数，对P/K/mean及深P0共7行真解；整cell与低w valley两种零二jet控制均到参考κ≤7采样边界而未接受。改变支撑或尺度不冒原g精化；另保深P0暖试λ1e−4的独立失败，继续寻找可用参数初猜。
