@@ -1,0 +1,139 @@
+{
+  "scope": "Inspect actual m3 protected-arc defects without solving the BVP again.\n\nR35 gives a literal finite trigonometric formula on the protected arc.\nThe center and the conservative global upper bound below use exact rational\narithmetic on the input binary64 parameters. The angular maxima are samples.\n",
+  "arguments": {
+    "checkpoint": [
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz"
+    ],
+    "halfwidth": 0.21,
+    "samples": 8193,
+    "out": "/workspace/scratch/7322d0dee069/transfer_work/m3-raw-arc-defect.json"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/diagnose_m3_raw_arc.py": "e2e30632dbe19a70ea874fd114f12e27c958c624043b935131b4dd94fb37988a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_smallcut_secant.py": "2194e692f9ad08f8b1091e7b52a025713f325bb41a879eb6274b2f446da8d37a"
+  },
+  "rows": [
+    {
+      "input": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+      "input_sha256": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+      "scope": "Original analytic support core, evaluated on the subsequently declared protected arc",
+      "modes": 8,
+      "q": 0.04,
+      "homotopy": 0.0,
+      "halfwidth": 0.21,
+      "physical_control_coefficients": [
+        0.00020376705242762224,
+        -1.0999798864423263e-05,
+        1.1699799692247875e-07,
+        -2.1289078705559398e-08,
+        -7.809514761103552e-09,
+        -3.5322358524414917e-10,
+        3.640096493690191e-11
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "delta": 0.061051601505166045,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "coefficient_definition": "The original binary64 multiplication parameters[1:]*central_correction_scales; the resulting finite values are treated as exact real coefficients in the R35 identity.",
+      "center_defect": -0.008030984086975109,
+      "center_defect_exact": {
+        "numerator": "-1242734594516278747238781",
+        "denominator": "154742504910672534362390528"
+      },
+      "center_abs_lower": 0.008030984086975107,
+      "complete_arc_defect_upper": 0.0715400290335108,
+      "complete_arc_defect_upper_exact": {
+        "numerator": "3345787826149642709899101872601407251421567152531",
+        "denominator": "46768052394588893382517914646921056628989841375232"
+      },
+      "input_control_curvature_l1_upper": 0.008036029033510783,
+      "input_control_l2_squared": 2.0821010716484942e-08,
+      "input_control_l2_squared_exact": {
+        "numerator": "997128314979189385300491901993599105512729481",
+        "denominator": "47890485652059026823698344598447161988085597568237568"
+      },
+      "sampled_arc_defect_max": 0.06331970470764187,
+      "sampled_peak_offset": 0.21,
+      "sampled_input_control_curvature_max": 0.008030984086975109,
+      "interpretation": "No endpoint convergence follows from lambda alone. These design states may have different full physical metrics; sample maxima are not continuous certificates."
+    },
+    {
+      "input": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+      "input_sha256": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+      "scope": "Actual raw mean/primary compact path",
+      "modes": 8,
+      "q": 0.04,
+      "homotopy": 0.02,
+      "halfwidth": 0.21,
+      "physical_control_coefficients": [
+        0.00021219545219261905,
+        -1.261404203834175e-05,
+        -5.526945986750603e-07,
+        1.2604952214177558e-06,
+        -8.158694696605352e-07,
+        7.835964812029833e-07,
+        5.63247508938343e-06
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "vu": 0.45,
+        "vd": 0.5,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "delta": 0.06105141410261685,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "coefficient_definition": "The original binary64 multiplication parameters[1:]*central_correction_scales; the resulting finite values are treated as exact real coefficients in the R35 identity.",
+      "center_defect": -0.010490843962195368,
+      "center_defect_exact": {
+        "numerator": "-14279396857816305452653370792349651265",
+        "denominator": "1361129467683753853853498429727072845824"
+      },
+      "center_abs_lower": 0.010490843962195366,
+      "complete_arc_defect_upper": 0.07462536527556542,
+      "complete_arc_defect_upper_exact": {
+        "numerator": "1005947933922939344616254535681394263999680598678736816928171225695",
+        "denominator": "13479973333575319897333507543509815336818572211270286240551805124608"
+      },
+      "input_control_curvature_l1_upper": 0.012644331913842257,
+      "input_control_l2_squared": 2.2610461374683578e-08,
+      "input_control_l2_squared_exact": {
+        "numerator": "4033841103504295264559055150197988291",
+        "denominator": "178405961588244985132285746181186892047843328"
+      },
+      "sampled_arc_defect_max": 0.06378704075532664,
+      "sampled_peak_offset": 0.21,
+      "sampled_input_control_curvature_max": 0.010704942818566704,
+      "interpretation": "No endpoint convergence follows from lambda alone. These design states may have different full physical metrics; sample maxima are not continuous certificates."
+    }
+  ],
+  "execution_output_sha256": "fddc659062f9759517f437e0c924be85d259b1a70c0b6907cbe0fdc78c658136",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_transfer/diagnose_m3_raw_arc.py",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "--out",
+    "/workspace/scratch/7322d0dee069/transfer_work/m3-raw-arc-defect.json"
+  ]
+}
