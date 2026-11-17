@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R644（完整hold及镜像嵌入已证明）**：[旧498同字节复用、新1600胞实际连续覆盖](results/R644-certified-embedding-of-the-hold-prefix-and-mirror.md)：全2098胞C_G>.1551、λ∈(.998,1.002)/|λ′|<.101，R9/R638给raw/G/F~嵌入；实际核心两jet及正负高度分离给上下镜像C²嵌入。仍两端有边，闭面/reach/全t未付。
+
 - **R643（raw及实际规范化的两胞曲率已证明）**：[六jet、全角/径向覆盖与实际形算子](results/R643-continuous-curvature-of-two-actual-pulse-cells.md)：胞458κ<6.313、胞817κ<7.038；§6另付λ/λ′/λ″与真实G三jet，q4096材料变换不改曲率。仅两胞，其余816胞、闭面及reach未付。
 
 - **R642（规范化开放前缀嵌入已证明）**：[全818胞缩放图的连续圆柱判据](results/R642-certified-embedding-of-the-normalized-pulse-prefix.md)：真实有限均值b/b′与精确标量全域包围给λ∈(.998,1.002)、|λ′|<.04、C_G>.1645；结合R640和R638，G及规范化F~皆为C²嵌入。非闭面、曲率、reach或全t证书。
