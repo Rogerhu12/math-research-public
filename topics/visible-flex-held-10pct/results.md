@@ -8,3 +8,5 @@
 - [R3：圆弧刚体片换握持与整像放大](results/R3-rigid-arc-regripping-and-Hausdorff-amplification.md)。已证明：三重对称集合的平移给dH≥√3|v|/2；用实际圆弧片的逆刚体运动固定H，可不改D/reach/g/δE而放大held。给出10.8%的条件窗口，圆弧闭族尚待构造。
 
 - [R4：精确圆弧核与握持窗口的有理预算](results/R4-exact-circular-core-and-holding-window.md)。已证明圆心公式及四组有严格余量的R3参数窗；用有理区间计算检查，统一Delta∈[.0725,.0726]，H为有内点闭矩形。完整闭族与全局reach仍待实现。
+
+- [R5：退化入口的局部圆弧保持](results/R5-degenerate-inlet-local-arc-uniqueness.md)。已证明：若精确C3旋转度量浸入具有全圆凸Cauchy数据和局部精确圆弧，加权能量在a″(0)=0处仍给唯一性，圆弧片保持到尖锐特征角窗及其后coast。没有证明完整前缀存在或把任意C2解提升为C3。
