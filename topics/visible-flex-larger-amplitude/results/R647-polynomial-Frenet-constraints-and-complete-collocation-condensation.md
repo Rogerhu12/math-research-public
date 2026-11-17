@@ -440,3 +440,79 @@ python math-research-public/topics/visible-flex-larger-amplitude/scripts/paralle
 ```
 
 source guard 检查冻结 Problem/warm/多项式/标量/角基源；report 另记完整 mesh、节点和中点 k、全部 BA/BB/target 的 binary SHA，以及 `r,j,q` 全向量 SHA。普通 binary64 Fourier/jet 运算与 long-double 内积不是区间证书；elapsed 字段和平台差异可改变新 report 的文件 SHA。所有 raw 留 scratch，不入 Git。此节只交可核验的全局化诊断，不改变原 run、物理门、完成状态或同 g 精化责任。
+
+## 附：全部 Pr 方程的 FFT 方向算子与准确系数伴随
+
+本节接上面的二次余项诊断，给出保留完整有限问题的 `Jv` 与 `J^T w` 实现。它不通过节点 `C_U` 消元，因而计算这些作用不要求该子块可逆；尚未求解新的线性或非线性系统，也没有证明阻尼方法会成功。新源为 [parallel_20261117_implicit_matrix_free.py](../scripts/parallel_20261117_implicit_matrix_free.py)，10021 B，SHA256 `ff65c90a84bcdc8ff93c97c6f0ce4d2cfad723ec28d513040f2db5b0e760eca4`。
+
+### 系数范数与 Fourier 权不能混淆
+
+令 `S_Y` 是 `(R cosine,T sine,Z cosine)` 的普通三角合成，`S_C` 是三组约束的 `(sine,cosine,cosine)` 合成。其对应系数提取 `P` 满足
+
+\[
+ P={1\over N}D S^T,
+\]
+
+其中 `D` 的 cosine 常数槽为1，所有非零 cosine 和 sine 槽为2。本节求的是原 **Euclidean 系数残差平方和** 的伴随，不能直接把未加权角积分梯度当成它。给定一节点完整约束权 `w`，先令
+
+\[
+ (\eta_0,\eta_1,\eta_2)=S_C D_C w.
+\]
+
+记 `V=S_Y U`、`d=D_phi F`、`e=D_phi^2 F`。旋转架的真实角导为 `D_phi=partial_phi+Omega`，其中 `Omega^T=-Omega`，因此在周期角均值下 `D_phi^*=-D_phi`、`(D_phi^2)^*=D_phi^2`。由上一附节的完整方向式逐项分部，原系数 Jacobian 的准确转置为
+
+\[
+g_Y=D_Y^{-1}P_Y\{-D_\phi(\eta_0V+2k\eta_1d)
+                         +D_\phi^2(\eta_1V)\},
+\]
+\[
+g_U=D_Y^{-1}P_Y\{\eta_0d+\eta_1e+2\eta_2V\}.
+\]
+
+这里因 `N^{-1}S_Y^T=D_Y^{-1}P_Y`，没有遗漏额外 `N`；正弦系数提取本来就是 `-2 Im FFT/N`，也不再加负号。实现里的 `adjoint_pack` 恰将每个 cosine 系数取 normalized FFT 的实部、每个 sine 系数取负虚部，包括两个常数槽的准确权。
+
+当前 M160/N2048 的输入及权函数频率不超过320；先形成的完整二次乘积频率不超过640，低于 Nyquist1024。三因子配对的最高频率960又小于2048，离散均值等于相应准确角积分。代码先计算完整乘积再 FFT；常连接与角导不混合不同频率，故可在这次完整 FFT 后只提取保留输出频率再施加连接导数。这不同于先截掉乘积前的因子，也没有遗漏高模向低模的卷积贡献。以上是准确有限数学等式，实际浮点 FFT 的舍入另列。
+
+### 中点和边界的全部转置
+
+局部中点返回 `(gYm,gUm)` 后，它对两端变量的贡献分别为
+
+\[
+\begin{array}{c|c}
+Y_i&g_{Ym}/2-3g_{Um}/(2h)\\
+Y_{i+1}&g_{Ym}/2+3g_{Um}/(2h)\\
+U_i&h g_{Ym}/8-g_{Um}/4\\
+U_{i+1}&-h g_{Ym}/8-g_{Um}/4.
+\end{array}
+\]
+
+再加每个真实节点的局部贡献；原482条边界权以 `BA.T @ wbc` 和 `BB.T @ wbc` 加到两端 Y。所有290164节点行、289682中点行和482边界行均保留。打包变量顺序为所有Y节点再所有U节点；方程顺序为所有节点、中点、原BC。`CompleteLinear.operator()` 提供形状 `(580328,580328)` 的完整 SciPy `LinearOperator`。目标若为 raw SSE，梯度是 `2 J^T r`；若为其一半，梯度是 `J^T r`。
+
+`LocalLinear` 只缓存实际 `d/e/V`，分块作全角 FFT，不装配全局或节点稠密 Jacobian；也不更改 scalar、mesh、模式、边界、残差范数或物理验收条件。
+
+### 原暖场上的实际完整核对
+
+用原 `1662ee34...` 暖场、完整 `5b965` Problem 和本节前已冻结的 `e67f7d1b...` 独立方向实现，实际报告为 `parallel-root-implicit-matrix-free-probe.json`，SHA256 `8ba00db64bc308e42ad2a5b7a08216e6f253b304f8bf0986ec8238466d19b107`。
+
+- 一个明定全槽方向的全部580328个 `Jv` 分量与独立 `terms` 返回值逐位相同，三个分组最大差都为0。这是该次实际核对，不声称所有输入下 FFT 运算次序均逐位等同。
+- 全部行的伴随点积为 `-0.0005208864078555887` 与 `-0.0005208864078557314`；差 `1.42677670707e-16`，相对这两个内积为 `2.73913215156e-13`。
+- 实际节点0/528/581/601上，与完整已刊稠密 `CY.T @ w`、`CU.T @ w` 比较，最大相对 L2 差 `2.33643675784e-16`，最大绝对差 `4.36557456851e-11`。这是四个完整局部矩阵在指定权上的作用比较，不冒全矩阵区间误差证书。
+- 实际几何缓存177389568 B；构造0.185秒、完整 `Jv` 0.323秒、完整转置0.237秒；整个诊断3.731秒、最大RSS337392 KiB。仅为该机器该次计时，不作为平台保证。
+
+geometry 会话独立纸核了 Fourier 权、连接项及中点伴随；没有为本节重扫任何旧几何证书。这里解决的是完整算子的可计算性与实现核对，不把它称为新的 BVP、物理父或同g精化通过。
+
+从仓库根，`WORK` 指仓库外的原输入目录：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
+ topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_matrix_free.py \
+ --topic topics/visible-flex-larger-amplitude \
+ --problem-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_newton.py \
+ --warm "$WORK/parallel-hold-m160-short-bvp-warm.json.gz" \
+ --polynomial-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_frenet_probe.py \
+ --ray-source topics/visible-flex-larger-amplitude/scripts/parallel_20261117_implicit_quadratic_ray.py \
+ --ray-sha256 e67f7d1bf021fd88646e1a77057b4557418ff77ebd5032461d8a46dd7f6498fc \
+ --out "$WORK/parallel-root-implicit-matrix-free-probe.json"
+```
+
+入口/出口核全部冻结原问题来源；详细完整SHA见源和前两附节。报告含耗时与路径，换目录或重跑可改变报告文件SHA。全部原数组与诊断报告留仓库外。
