@@ -1,0 +1,60 @@
+{
+  "scope": "Algebraic audit of already saved sampled diagnostics, no new solve and no interval claim. Necessary bounds apply only to exact same-target-metric C2 surfaces with horizontal projection nondegenerate and mixed second form zero.",
+  "rows": [
+    {
+      "source": "nonlinear_tail_work/original_m8_lam0781_minimum.json",
+      "sha256": "3f8402416fbf13bc7449897f145fc6eeda2107036d263c72fed8fac8b1af6552",
+      "axis_angle": 0,
+      "E": 1.0000128207892074,
+      "A": 0.0026304099798643735,
+      "D": 1.0000126904407125,
+      "w_r": -0.001027491992155442,
+      "K_g": -1.4562636121769528e-05,
+      "formal_k_r": -0.01835589118470677,
+      "formal_k_u": 3.728126086255193e-05,
+      "required_exact_k_r": -0.390615440166009,
+      "required_A_for_K8": 0.00012843484401272315,
+      "required_A_for_K10": 0.00010274787521017851,
+      "gauss_defect": 1.3878305354147858e-05,
+      "relative_gauss_defect": 0.9530077685180451,
+      "actual_metric_C0_sample": 3.889910973565384e-09
+    },
+    {
+      "source": "nonlinear_tail_work/flat_valley_m8_lam078_minimum.json",
+      "sha256": "5d329dc64f2d1d0bb49560a0980b12805c74dd1cc5470a5c0776da69d8f136b8",
+      "axis_angle": 0,
+      "E": 1.0000128164,
+      "A": 0.07129988730718606,
+      "D": 1.0000126542880468,
+      "w_r": -6.848500846589644e-19,
+      "K_g": -1.0440993245374164e-20,
+      "formal_k_r": 0.0002993645104793929,
+      "formal_k_u": 0.001087028037010893,
+      "required_exact_k_r": -9.605081828509946e-18,
+      "required_A_for_K8": 8.560515649363247e-20,
+      "required_A_for_K10": 6.848412519490597e-20,
+      "gauss_defect": 3.254176161771518e-07,
+      "relative_gauss_defect": null,
+      "actual_metric_C0_sample": 1.8244541029616287e-10,
+      "near_zero_K_note": "Intended constant-w plateau; relative error against a floating near-zero K is not meaningful."
+    },
+    {
+      "source": "nonlinear_tail_work/hybrid_flat_w030_lam001_minimum.json",
+      "sha256": "0a098c4eddc58b64bf391acc23c762cf605a974054f29ebf96715cffef00ac2a",
+      "axis_angle": 1.5707963267948966,
+      "E": 1.000000039044119,
+      "A": 0.9338958675952637,
+      "D": 1.0000000048362965,
+      "w_r": -0.0001708974554409483,
+      "K_g": -2.881970944982135e-07,
+      "formal_k_r": -0.00018299411291461843,
+      "formal_k_u": 0.0015748981751800622,
+      "required_exact_k_r": -0.00018299411291480046,
+      "required_A_for_K8": 2.136218073067415e-05,
+      "required_A_for_K10": 1.708974458453932e-05,
+      "gauss_defect": 2.8666771308637727e-19,
+      "relative_gauss_defect": 9.946932795609927e-13,
+      "actual_metric_C0_sample": 1.2692221662914422e-23
+    }
+  ]
+}
