@@ -116,3 +116,5 @@ R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除�
 [R632实际C²回头盖](results/R632-c2-return-cap-parallel-body-and-diameter.md)已真生成两个有边组件；补底盘后为凸平行体，证明其reach准确ρ及全部同盖/跨盖法向弦，真实参数组件diam有有理包围。活动体—盖与活动体自身、真flat二jet/高度仍未付，组件不是闭面。
 
 [R3前三系数方向实际探针](notes/2026-11-17-parallel-numerical-core-target-probes.md)：.1未接受；.001有限BVP接受但quintic真实Gram1.609e−5超限，原子全读不被RMS替代。未继承完整R3核心rho界；现按三个真实collocation响应改善方向，线性预测仍须非线性解与真几何另付。
+
+[三个完整响应选核心方向](notes/2026-11-17-parallel-numerical-core-gram-response.md)已真正重解338维BVP，gap=.9601012148、4966400点quintic Gram5.177e−7、κmax6.29966；线性预测2.140e−7不代实际结果。此为新开放前缀，固定几何精化、真实tail及闭面仍未付。
