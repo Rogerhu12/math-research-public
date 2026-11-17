@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`8d531b9d1785c1fab3d57d85a78227336f690f52`。2026-11-18 04:25:35（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`d5e7e674d2ee7915f8f90e77ce7966c6ac8e22c0`。2026-11-18 04:26:09（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -26,7 +26,7 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **新wCut=.16物理设计**：原worker重生24模port，新双根δ=.030143626106924344/vd=.25002929220531817；round最小1−a′²=.01602343约旧3.93倍，背景K≈5.5613，名义球D采样2.5793。R1.882初保护窗保守下界>.15213；mode8增益11.0156未改善。peak.01直接root域失败保留。根正用新g冷解eta.1/q.01/M16；见n4-thicker-cut-double-root。
 
-**线性g固定精化**：原w.08/eta.1/q.01的完整δ/vd冻结，M16→M20/tol1e−8得到1920点，metric2.38461e−8→1.95003e−9、tensor1.62253e−5→3.51078e−6。完整核心同一低矩/固定J嵌入；未知改为q/c8。只是线性port的g，非上列actual g；见n4-fixed-metric-refinement。已执行旧源冻结，新API从解参数/原投影重建核心并保留全部物理网格。
+**线性g固定精化**：原w.08/eta.1/q.01的完整δ/vd冻结，M16→M20/tol1e−8得到1920点，metric2.38461e−8→1.95003e−9、tensor1.62253e−5→3.51078e−6。完整核心同一低矩/固定J嵌入；未知改为q/c8。只是线性port的g，非上列actual g；见n4-fixed-metric-refinement。旧源冻结；新API实测true q001/M12→16，核心三jet≤9.44e−16/全图≤1.83e−15，993旧点全保留。见n4-fixed-seed-identity。
 
 **低幅圆化终态**：eta1/q.001/M8直接至λ.1、材料预测至λ.15均完整metric未过，λ.2/.175原节点门失败；精确reference lift保留，非入口丢高频、非不存在。见n4-low-amplitude-circle-terminal。旧bimodal/double-prefix失败不重做。
 

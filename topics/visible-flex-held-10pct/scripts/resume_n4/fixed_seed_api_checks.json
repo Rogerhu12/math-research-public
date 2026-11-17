@@ -1,0 +1,52 @@
+{
+  "scope": "Freeze the entire physical n4 metric and refine the local-circle space.\n\nUnknowns are log(q/q_gauge), c8/q_gauge, c12/q_gauge, ... .  Delta and vd\nare fixed to the accepted checkpoint. At lambda=0 the old low support\nmoments are preserved exactly in definition. At lambda>0 one frozen P_J\nand the nested compact-space embedding preserve the entire old core.\nOnly the finite actual linear tail port is used by this driver.\n",
+  "physical_profile": {
+    "direction": "outward",
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    },
+    "vu": 0.35,
+    "ramp": 0.45,
+    "vd": 0.2481921107405831,
+    "delta": 0.030023164049137137
+  },
+  "core_projection_order": null,
+  "q_gauge": 0.001,
+  "seed_q": 0.0009999899770017533,
+  "modes": 16,
+  "complete_core_identity_error": {
+    "F": 8.881784197001252e-16,
+    "Ft": 8.881784197001252e-16,
+    "Ftt": 9.43689570931383e-16
+  },
+  "core_embedding": {
+    "method": "Exact low-support-moment identity at lambda=0"
+  },
+  "complete_map_projection_error": 1.8318679906315083e-15,
+  "input_core_summary_diagnostic": {
+    "parameter_source": "Solved parameters and central_correction_scales; summary is not the definition",
+    "summary_q_difference": 0.0,
+    "summary_c_max_difference": 2.278677446791678e-18
+  },
+  "old_lift_initial_source": "Original angular projection of the solved full core parameters",
+  "input_inlet_coefficient_residual": 1.8224293640853106e-14,
+  "input_mesh_nodes": 993,
+  "seed_mesh_nodes": 996,
+  "input_mesh_coverage_max": 1.1102230246251565e-16,
+  "inlet_repair_max": 3.1308121158389384e-14,
+  "parameter_jac_checks": [],
+  "boundary_jac_checks": [],
+  "seed_boundary_max": null,
+  "boundary_evaluated": false,
+  "input_checkpoint_sha256": "0ca28d3b6fd1201b570cb0cc85259a15fa9acc5b81e798641e85045998dc653e",
+  "physical_port_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+  "driver_sha256": "f8431622a3973a0bb525a97c3155eb3cb7bbfe459193446eef91f5a69f943b39",
+  "actual_command": "build_seed('bundle/topics/visible-flexible-closed-surface', '/workspace/scratch/7322d0dee069/transfer_work/n4-coupled-eta1-q001-v1/seed.json.gz', 16, 1024, evaluate_boundary=False)",
+  "note": "A seed identity check only. No tail boundary was queried, no coupled refinement was solved, and no Jacobian check was repeated.",
+  "output_sha256": "a3f2f93ee545e8acbacd6ed208580fd41c276c288c759aa088be64db51908d6e"
+}
