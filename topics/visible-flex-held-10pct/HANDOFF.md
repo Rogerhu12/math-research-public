@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`fa7dede8d629223eb3f29fdd7664014ae97c031e`。2026-11-18 04:50:40（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`63f61bd14b821137dce0c43cb892f8194458da78`。2026-11-18 04:51:47（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -34,7 +34,7 @@
 
 **beta4.625/q.040完整真联合**：936点，δ=.061051601505166045；prefix metric6.91e−9/tensor2.34148e−4/K8.71925/物理BC9.05e−10；tail res1.37680e−9/minA.742322/metric5.98745e−10/fullD4.11830e−6，4次tail和audit原门均过。q.060首warmup原线搜索失败res3.67146e−9，无新prefix；见m3-beta4625-*。这两批是新g。
 
-**n3实际圆化**：精确积分核心/完整lift/自由c6/锁主频入口已接通，lambda0三jet≤3.44e−13；lambda.02初值rho负、.002前缀Frenet失败，见m3-exact-round-core-start。全部旧控制15宽度扫描最佳rho峰值79.163（仅降10.34%），lambda1均采样非正；见m3-complete-compact-control-width-screen。lambda.0002越过prefix初域，第3次actual尾res5.50686e−9/minA.742300原门失败，无接受联立；见m3-round-lambda0002-actual-tail-failure。同物理参数parts16及高辅助频曲率最小新基继续。
+**n3实际圆化**：积分core/单次完整lift/自由c6/锁主频入口已接通；lambda0三jet≤3.44e−13，初始.02/.002原门失败见m3-exact-round-core-start。高矩canonical路径旧c的15宽度峰值最低79.163，见m3-complete-compact-control-width-screen。lambda.0002/parts8尾门失败后parts16有限真联合接受：936点、δ=.06104444009746941、tail res6.88357e−10；但prefix metric3.97036e−4/tensor.364761、mean seam一阶−9.83e−6，未过完整门，见m3-round-lambda0002-finite-acceptance-metric-gap。现从原好锚点走raw低2×2投影新路径lambda.02；改变途中高矩，lambda1全free空间相同，非同g精化。
 
 beta4.125的q.02/.025/.03/.04均完整接受，q04 tail res8.02413e−10/minA.617549；见m3-beta4125-*。q03 minA在stage40首谷、最大残差stage43，ULP解释不放门。新beta4.625/q04旧prefix最小root在s=.99473后桥、a′=−.997961，远过lift终点.38666；见m3-prefix-positive-root-bottleneck，不当作失败迭代位置。
 

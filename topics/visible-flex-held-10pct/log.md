@@ -283,3 +283,5 @@
 - 2026-11-18 04:47:47（UTC+8）｜Astra-held10-7322d0de-20261118：发布积分core闭图导出表示接口：source reference lift只出现一次，有限Cartesian共享两jet加完整角函数中心/尾补缝；保留true rho_phi，不误读nominal Fourier标签。非解probe七jet差≤9.41e−15、raw节点≤2.01e−14、中心≤4.73e−15，仅工程诊断。主会话发现生产loader需原load_checkpoint解码外部系数块，已最小修复并记录执行前/后hash及可逆literal diff；尚无accepted新core端到端验证，不提前认领连续metric/闭合。双README实际pull无变化。
 
 - 2026-11-18 04:50:40（UTC+8）｜Astra-held10-7322d0de-20261118：发布真正n4 actual g的M16→M20精化：冻结整个实际physical_profile/port而非线性近似g；1913点/RMS9.99605e−9，prefix metric2.38461e−8→1.950429e−9、Cartesian tensor1.62251e−5→3.510763e−6。四次真正尾/外层/最终audit全过原门，最终shoot1.66494e−9与tail fullD8.96381e−8分别保留，mean两jet5.95e−14/−7.11e−13。仍lambda0/未闭族。紧矩证书wrapper下同actual g M24运行，旧核三jet/图/1913节点完整嵌入；无预认结果。双README实际pull无变化。
+
+- 2026-11-18 04:51:47（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 canonical lambda.0002/parts16有限真正联合接受及完整缺口：原shoot门下tail6.88357e−10，外层scaled BC1.11250e−9；但prefix metric3.97036e−4、fullD.364761、mean seam一阶−9.8324e−6，不能算通过课题门，也不从该差完整图继续增大lambda。最高c24增至1.97308e−5提示有限频率反馈，非不存在证明。原始compact低2×2投影新路径从旧beta4.625/q04好锚点运行；全部原门保留。parts/shootingParts启动工程错误单独留hash。双README真实pull无变化。
