@@ -22,6 +22,18 @@ from parallel_20261117_frenet_symbol import Frenet
 from parallel_20261117_profile import Profile
 
 
+def lift_states(states, old_modes, new_modes):
+    """Represent the same trigonometric field after adding zero modes."""
+    if new_modes < old_modes:
+        raise ValueError('Resolution refinement must not discard old modes')
+    states=np.asarray(states)
+    out=np.zeros((*states.shape[:-1],3*new_modes+2))
+    out[...,:old_modes+1]=states[...,:old_modes+1]
+    out[...,new_modes+1:new_modes+1+old_modes]=states[...,old_modes+1:2*old_modes+1]
+    out[...,2*new_modes+1:2*new_modes+2+old_modes]=states[...,2*old_modes+1:]
+    return out
+
+
 def feasible_newton(n,m,h,col_fun,bc,jac,y,p,B,bvp_tol,bc_tol):
     """Retain the old feasible point when all 17 Armijo trials fail.
 
@@ -108,18 +120,35 @@ def main(args):
     source_sha=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     raw=args.input.read_bytes();data=json.loads(gzip.decompress(raw))
     if not data.get('success'):raise ValueError('Input is not an accepted solution')
-    q=Frenet(data['M'],data['N']);start=float(data['mesh'][-1]);end=start+args.duration
+    q=Frenet(args.modes or data['M'],args.angles or data['N'])
+    start=float(data['mesh'][-1]);end=start+args.duration
+    if args.duration < 0:raise ValueError('Duration must be nonnegative; zero refines the existing interval')
     inherited=data.get('fixed_scalar_profile',data.get('inherited_profile'))
     origin=float(data.get('analytic_extension_origin',data.get('extension_scalar',{}).get('start',start)))
     profile=Profile(inherited['geometry'],origin)
-    y0=np.array(data['states'][-1]);L,z=projector(q,y0,profile,start,args.fixed_modes)
-    reference=y0+args.duration*z['yp']+.5*args.duration**2*z['ypp']
-    oldx=np.array(data['mesh']);oldy=np.array(data['states']).T;oldf=np.array(data['rhs']).T
+    y0=lift_states(data['states'][-1],data['M'],q.M)
+    boundary_raw=args.boundary_input.read_bytes() if args.boundary_input else raw
+    boundary_data=json.loads(gzip.decompress(boundary_raw))
+    if not boundary_data.get('success'):raise ValueError('Boundary reference must be accepted')
+    boundary_origin=float(boundary_data.get('analytic_extension_origin',boundary_data.get('extension_scalar',{}).get('start',boundary_data['mesh'][-1])))
+    boundary_profile=boundary_data.get('fixed_scalar_profile',boundary_data.get('inherited_profile'))
+    if boundary_origin!=origin or boundary_profile['geometry']!=inherited['geometry']:
+        raise ValueError('Boundary and warm input must have the same scalar metric definition')
+    bs=float(boundary_data['mesh'][-1]);by=lift_states(boundary_data['states'][-1],boundary_data['M'],q.M)
+    L,bz=projector(q,by,profile,bs,args.fixed_modes)
+    dt=end-bs;reference=by+dt*bz['yp']+.5*dt*dt*bz['ypp']
+    target_right=L@reference
+    saved=data.get('terminal_boundary')
+    if args.duration==0 and args.boundary_input is None and saved and saved['M']==q.M and saved['fixed_modes']==args.fixed_modes:
+        L=np.array(saved['rows']);target_right=np.array(saved['target'])
+    z=physical(q,y0,profile,start)
+    oldx=np.array(data['mesh']);oldy=lift_states(data['states'],data['M'],q.M).T
+    oldf=lift_states(data['rhs'],data['M'],q.M).T
     warm=CubicHermiteSpline(oldx,oldy,oldf,axis=1)
-    x=np.r_[oldx,np.linspace(start,end,max(2,int(np.ceil(args.duration/args.step))+1))[1:]]
+    x=np.r_[oldx,np.linspace(start,end,max(2,int(np.ceil(args.duration/args.step))+1))[1:]] if args.duration>0 else oldx.copy()
     y=np.empty((q.n,len(x)));inside=x<=start;y[:,inside]=warm(x[inside])
     t=x[~inside]-start;y[:,~inside]=y0[:,None]+z['yp'][:,None]*t+.5*z['ypp'][:,None]*t*t
-    core=np.array(data['core']['coefficients']);K=args.fixed_modes
+    core=np.pad(np.array(data['core']['coefficients']),(0,q.M-data['M']));K=args.fixed_modes
     nc=2*q.M+K+2
     BA=np.zeros((q.n,q.n));BB=np.zeros_like(BA)
     BA[0,0]=1
@@ -129,7 +158,7 @@ def main(args):
     row+=q.M
     BA[row:row+q.M+1,2*q.M+1:]=np.eye(q.M+1)
     BB[nc:]=L
-    target=np.zeros(q.n);target[0]=1;target[1:1+K]=core[:K];target[nc:]=L@reference
+    target=np.zeros(q.n);target[0]=1;target[1:1+K]=core[:K];target[nc:]=target_right
     def bc(ya,yb):return BA@ya+BB@yb-target
     counts=dict(fun=0,jac=0)
     def fun(s,states):
@@ -147,7 +176,8 @@ def main(args):
         return out
     begin=time.perf_counter()
     print(json.dumps(dict(event='start',M=q.M,N=q.N,start=start,end=end,nodes=len(x),
-                         projector='previous_actual_endpoint',principal_gauss_min=float(np.min(z['det']/(z['E']*z['G']-z['cross']**2))),
+                         projector='frozen' if args.duration==0 and saved and args.boundary_input is None else 'actual_reference_endpoint',
+                         boundary_reference_endpoint=bs,principal_gauss_min=float(np.min(bz['det']/(bz['E']*bz['G']-bz['cross']**2))),
                          initial_boundary=float(np.max(abs(bc(y[:,0],y[:,-1])))))),flush=True)
     if args.linear_solver == 'separated-qr':
         # This existing backend changes only elimination/storage, keeping the
@@ -181,6 +211,8 @@ def main(args):
                 symbol_source_sha256=hashlib.sha256(Path(__file__).with_name('parallel_20261117_frenet_symbol.py').read_bytes()).hexdigest(),
                 collocation_rms_max=float(np.max(sol.rms_residuals)),boundary_residual_max=float(np.max(abs(bc(sol.y[:,0],sol.y[:,-1])))),
                 terminal_projector='previous actual endpoint principal normal matrix transported as constant coefficients',
+                terminal_boundary=dict(M=q.M,fixed_modes=K,rows=L.tolist(),target=target_right.tolist(),
+                                       reference_endpoint=bs,input_sha256=hashlib.sha256(boundary_raw).hexdigest()),
                 extension_scalar=dict(start=origin,a0=profile.a0,v0=profile.v0,u0=profile.u0,angular_curvature=float(profile.K)),
                 fixed_modes=args.fixed_modes,profile_source_sha256=hashlib.sha256(Path(__file__).with_name('parallel_20261117_profile.py').read_bytes()).hexdigest(),
                 fixed_scalar_profile=inherited,analytic_extension_origin=origin,
@@ -199,6 +231,8 @@ if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--input',type=Path,required=True);p.add_argument('--duration',type=float,default=.006)
     p.add_argument('--step',type=float,default=.001);p.add_argument('--fixed-modes',type=int,default=3)
+    p.add_argument('--modes',type=int);p.add_argument('--angles',type=int)
+    p.add_argument('--boundary-input',type=Path,help='Accepted original reference used to reconstruct the same terminal rows during refinement')
     p.add_argument('--tol',type=float,default=1e-6);p.add_argument('--max-nodes',type=int,default=800)
     p.add_argument('--linear-solver',choices=['separated-qr','direct-csc'],default='separated-qr')
     p.add_argument('--out',type=Path,required=True)

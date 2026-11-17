@@ -6,7 +6,7 @@
 
 ## 1. 完整非零112场与原末门
 
-**原会话链只接受M96/N1024/scalar=.99开放前缀；本并行新scalar的.991见§7，完整非零112/338/450仍无。** 原M112/N2048、699×453、3active+109core、338/112、双mean、全H/J/FD/RMS/域/BC/merit/final fresh J+audit不减。每模型fresh W/J，不跨模型相减merit，未返/未访不是数学拒绝。R491/R493/R501真每H全J/十数组/R273→同H128 owner/replay/全组件→正常338×112；13scalar/hex一次RN64、负零/双mean保。63全453未接受warm＋96/port为真prefix，91只尾seed，旧已删父不能续。
+**原会话链只接受M96/N1024/scalar=.99开放前缀；本并行新scalar的.992见§7，完整非零112/338/450仍无。** 原M112/N2048、699×453、3active+109core、338/112、双mean、全H/J/FD/RMS/域/BC/merit/final fresh J+audit不减。每模型fresh W/J，不跨模型相减merit，未返/未访不是数学拒绝。R491/R493/R501真每H全J/十数组/R273→同H128 owner/replay/全组件→正常338×112；13scalar/hex一次RN64、负零/双mean保。63全453未接受warm＋96/port为真prefix，91只尾seed，旧已删父不能续。
 
 ### 1.1 完整实际边界与活动计算
 
@@ -101,4 +101,4 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 2026-11-17 并行互补路线
 
-R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除随 M 加密的近似、有限物理角表示或 a′=0 处的其它机制。[R624](results/R624-finite-frenet-fourier-convolution-jacobian.md)已给完整卷积 Frenet Jacobian；新圆弧scalar已接受到[.991](notes/2026-11-17-parallel-numerical-0991-continuation.md)，同一实际quintic双采样Gram 8.354e−7；.992虽收敛但Gram 1.191e−6未过，正做径向/频率加密。完整尾闭合仍未解决。[R625](results/R625-second-volume-moment-quotient-bound-and-fixed-caps.md)已给二阶体积矩和两组具体帽预算，使含反射 δE 有可实际计算的下界；完整同场A2、帽隔离和源reach仍须实际支付，继续优化标记矩。[R626](results/R626-finite-mean-dynamic-zero-mode-tail-bvp.md)给同有限求积均值的显式零模ODE及误差传播，正在真实source背景上解低阶非零尾BVP；η/全角投影余项和真正深图仍须付。旧主线与全七项完成标准不改。
+R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除随 M 加密的近似、有限物理角表示或 a′=0 处的其它机制。[R624](results/R624-finite-frenet-fourier-convolution-jacobian.md)已给完整卷积 Frenet Jacobian；新圆弧scalar已[角精化到.992/M112](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)，实际quintic Gram采样2.590e−7；M96只加径向仍1.191e−6。已读真实材料cut，112材料模有显著尾，正在高模转换/同背景jet尾匹配。完整尾闭合仍未解决。[R625](results/R625-second-volume-moment-quotient-bound-and-fixed-caps.md)已给二阶体积矩和两组具体帽预算，使含反射 δE 有可实际计算的下界；完整同场A2、帽隔离和源reach仍须实际支付，继续优化标记矩。[R626](results/R626-finite-mean-dynamic-zero-mode-tail-bvp.md)给同有限求积均值的显式零模ODE及误差传播，正在真实source背景上解低阶非零尾BVP；η/全角投影余项和真正深图仍须付。旧主线与全七项完成标准不改。
