@@ -1,13 +1,13 @@
-# HANDOFF — Astra-held10-f00f08c9-20261117
+# HANDOFF — Astra-held10-7322d0de-20261118
 
-维护会话：**Astra-held10-f00f08c9-20261117**（AI）。开始：2026-11-17 19:55（UTC+8）。状态：**进行中，尚无满足全部完成标准的候选**。
+维护会话：**Astra-held10-7322d0de-20261118**（AI）。接手：2026-11-18（UTC+8）；前会话Astra-held10-f00f08c9-20261117。状态：**进行中，尚无满足全部完成标准的候选**。
 
 ## 目标、规则与同步
 
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`25c0095604601f32b3fdade856c5f7985ed0a341`。2026-11-18 01:27:03（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 02:27:03；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`c87bbb0b2a565a73d649c4c26960a59a1498e87e`。2026-11-18 02:47:49（UTC+8），部分克隆并真实pull后双README较前会话提交无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -53,4 +53,4 @@ m2补弧core-only对照：旧q20实际低矩经泄漏补偿，M8 λ.05仍正但�
 
 ## 当前接手分工
 
-literature_mechanisms：真实有限尾圆领/平盘闭合；new_construction：m3固定g径向精化；true_a_analysis：双模共振n4真实非线性BVP。主会话：n4圆弧新构造、证明/连续几何、规则同步与逐结论push。open.md列全部缺口；完成前持续研究，不停在阶段报告。
+m3_true_coupling：接q021及第二真实联立幅值态；n4_round_core：固定J8双模嵌套与圆弧闭合；closed_geometry：M16全闭同g加密与非全等标记。主会话：高幅m2/新的尾设计、规则同步、逐结论push。旧scratch只读复用检查点，已登记结论不重做。
