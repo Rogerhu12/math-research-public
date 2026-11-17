@@ -1,0 +1,116 @@
+{
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_integral_remainder_budget.py": "df9c6c7b7bdb70cac9e5e95dd2ca9f8868e7d3db68e6cad5c4caa90785782603",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/prefix_true_profile.py": "be4fae0a667893275e847fb21536685e78180837f084e46d924999acbcb6e50e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_background_sharp.py": "39dbbaeafe8f8b23b38e894e8cab4ec0340248545a723e2bec32ea750ca129f0",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_protected_arc_curvature_dual.py": "00132335adb74e1f889d97fc8bb9060d0808ec51746c5603304992f3be8601d1"
+  },
+  "input_sha256": {
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz": "12ce9eb20ae36cd4bc3af3d9781c0706b2acc816417b39f5535bec3a69805b9c",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json": "ebb28def346a47120d422e4ae5cbf13f2e297f2d68ee30d366d5d3bed8ad2161",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/true_integral_core_points_execution.json": "1ba7f8a51edd900d8e1910a84ccd6f36c64726b17dec923ffcc78fb376e33ce8",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/integral_angular_remainder_execution.json": "8b201eb3b8f80c8c383409155b82fdba6716da6aebf28bb0bdd1f2217f225b26"
+  },
+  "scalar_shared_spans": 1003,
+  "exact_fraction_Bernstein_on_every_span": true,
+  "scalar_bounds": {
+    "f": "1.06090681062528327316805671377718570843873200",
+    "f_s": "11.6301006470212166465195707818199089292290322",
+    "phase_e": "0.320000000000000062172489379008766263723373414",
+    "phase_e_s": "1.18260113670854933257861547405324347478875365",
+    "h0": "1",
+    "h0_s": "46.8749999999999990242180447630460297058348615",
+    "h2": "0.0000276480000000000011510792319313623130920463116",
+    "h2_s": "0.00271216392517089849395825318029634243624514945",
+    "b_psi": "3.32615929305957299296399772477646668752034506",
+    "b_psi_first": "9.97847787917871897889199317432940006256103516"
+  },
+  "phase_rho_lower": "0.679999999999999937827510620991233736276626586",
+  "active_error_support_end": "6965428520342341/18014398509481984",
+  "active_error_support_end_upper": "0.386658955983240126830224880905007012188434601",
+  "true_flat_prefix_end": [
+    0.4296210622036,
+    0.42962106220360013
+  ],
+  "support_in_true_flat_region_verified": true,
+  "radius_lower_on_error_support": "1",
+  "sigma_prime_lower_on_error_support": "1",
+  "circle_principal_degree": 16,
+  "circle_exact_remainder_bounds": {
+    "value": "8.42208821562947502833608264895570513080647156E-32",
+    "first_psi": "4.37948587212732701473476297745696666801936521E-30"
+  },
+  "center_angle_difference_exact": "1/18014398509481984",
+  "center_curve_shift_bounds": {
+    "value": "1.85037170770859423403938611348470052083333334E-17",
+    "first_psi": "9.24555301894710965312505118709811729257475027E-17"
+  },
+  "map_remainder_bounds": {
+    "value": "6.34134821131069758610302229706299804798130870E-12",
+    "s_derivative": "8.41211438992187095978653918586562109105097307E-11",
+    "psi_derivative": "2.85652472201373179418850344413148261489147991E-9"
+  },
+  "normalized_differential_bounds": {
+    "s_column": "1.74006692002152872015992454356368396178183404E-9",
+    "theta_column": "4.20077165002019419906019740978402450530112155E-9",
+    "sum_epsilon": "5.94083857004172291922012195334770846708295559E-9"
+  },
+  "sufficient_principal_metric_threshold": "9.88118311084120242740209906813615876336701598E-7",
+  "declared_rational_sufficient_budget": {
+    "epsilon_upper": "5940838571/1000000000000000000",
+    "principal_metric_upper": "988118311/1000000000000000",
+    "transferred_metric_upper": "999999999917796312327028484041/1000000000000000000000000000000000000",
+    "target_minus_transferred_positive": "82203687672971515959/1000000000000000000000000000000000000"
+  },
+  "target_complete_metric": "1/1000000",
+  "metric_increment_if_principal_eta_le_target": "1.18816890570541488371814655024528540726747084E-8",
+  "bvp_solves": 0,
+  "principal_map_metric_computed": false,
+  "whole_closed_metric_or_geometry_certified": false,
+  "physical_parameters_or_map_changed": false,
+  "limitations": "A proved differential budget for the core approximation error. The principal finite-map metric is still unpaid; the recorded raw M8 finite audit is above the metric gate, and an actual tail/cut lift is not included.",
+  "seconds": 0.9519356879973202,
+  "result": "R39",
+  "status": "Proved scalar and normalized differential remainder bounds; principal metric threshold is only sufficient and is not verified on the current map",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_integral_remainder_budget.py",
+    "--data",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz",
+    "--prefix-audit",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "--core-certificate",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/true_integral_core_points_execution.json",
+    "--angular-certificate",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/integral_angular_remainder_execution.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_remainder_budget_final.json"
+  ],
+  "observed_exit_code": 0,
+  "tool_session": 8570,
+  "terminal_completion_chunk": "d38804",
+  "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_remainder_budget_final.json",
+  "output_sha256": "5e591184ae2508f146454cca7ad5f7435b2c949b6080a2746e40c7881e65fe32",
+  "true_atlas_source_summary": {
+    "definition": "Exact physical input parameters; real flat-profile algebra and true bridge integrals; sigma=(L_true/L_binary)*s plus the fixed zero-value right cut Hermite first/second jet.",
+    "material_length": 1.3603133321372538,
+    "true_length": [
+      1.3603133321372538,
+      1.3603133321372542
+    ],
+    "scale_minus_one": [
+      1.76881624908793e-16,
+      1.7688162491553687e-16
+    ],
+    "cut_coordinate_width": 0.04,
+    "true_coordinate_derivative_range": [
+      0.9999999999999997,
+      1.0000000000000009
+    ]
+  },
+  "development_note": "The first attempt assumed a separate phase_knots packet field and stopped before the polynomial pass. The production packet stores common knots once; its PhaseAngleChart source hash and all jet shapes are now checked. The final run also checks the declared rational epsilon/principal thresholds with exact Fraction arithmetic."
+}
