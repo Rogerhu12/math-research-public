@@ -103,7 +103,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 全部原结论/参数/失败/来源/运行账/未付逐字保[e22877bb固定open](https://github.com/Rogerhu12/math-research-public/blob/e22877bbb2e3e9897b3b802129b79d74e26425c3/topics/visible-flex-larger-amplitude/open.md)，内续7245/ecdacd/ddf/c87及所有旧链。仅压§7，§1–6原字保持；本地计算，原Actions责任不变。[完整结果索引](results.md)。
 
-**固定开放前缀。** 同26e53/q4096的R638/640/642付全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819精确片连续relative Gram<4.94e−7，含1−5/2^60后微片。[R651曲率](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)80092真实818/818/0失败自然0，K≤7.21309，最坏816；原686及λ685复用后补132G/131λ。支持18950仅补原249后的570片，原5代表不重复，0新λ。两批原固定网格/真实G/来源不变，[最小恢复源和CLI](notes/2026-11-17-parallel-model-second-interruption-recovery.md)，model唯一终态；支持批尚未冒全域终态。aa1 hold R644全raw/G/镜像嵌入，R646只四胞六片Gram，R645同像见证dist>.9588。均非闭面/完整held。
+**固定开放前缀。** 同26e53/q4096的R638/640/642付全818胞坐标/嵌入；[R648](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)全819精确片连续relative Gram<4.94e−7，含1−5/2^60后微片。[R651曲率](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)80092真实818/818/0失败自然0，K≤7.21309，最坏816；原686及λ685复用后补132G/131λ。[R652](results/R652-continuous-weighted-support-on-the-complete-pulse-prefix.md)18950已自然0，全819/0失败/异常/剩余，β1/4全>.3174736（最坏410）；原249复用+570新片、0新λ。β2/5由高度预算全>.16747356295，无新扫描。[同额恢复源和CLI](notes/2026-11-17-parallel-model-second-interruption-recovery.md)保完整中断账，两全域证书已结束。aa1 hold R644全raw/G/镜像嵌入，R646只四胞六片Gram，R645同像见证dist>.9588。均非闭面/完整held。
 
 **已登记失败保留。** .997/β/normal-only/fast317/onlyZ109、桥高尾/pulse六设计/meanLP400/M64、1.04Cauchy及1.03显式BVP等原参数/预算/失败全部保固定全文。5b965的3a7f分支负、C² Gram5.28554；927f/8fa6原24/20终态Pr未收敛，bf5a真quintic Gram8.01546e−5且node594为3.62218e−5。保Y/U换A或仅镜像首胞不改该坏节点，不重试这些版本。
 
@@ -111,7 +111,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [efe92全Gram-T预算](notes/2026-11-17-parallel-numerical-direct-gram-lm-budget.md)真实1878，复用513/70c，1158250行/964BC全保；后续512，总24/20，终门全系数1e−10/BC1e−11/字面U0及8192 Gram5e−7。只保存Y/U+全Gram，不用旧Pr-CU伪A。[0f原T-Pr预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)同g/原580328行/原BC/原门，99082中断后同--resume为97062，保8完整方向及≥432未完乘积成本，不刷新24/20。两个目标不能混称下降/收敛，numerical唯一终态。
 
-**加权支持与reach。** R649实际14点排同pulse/hold镜像任意普通中心支持，不否定reach。[同14点β1/4](notes/2026-11-17-parallel-model-pulse-weighted-axis-support.md)全>.3193，0新点/λ；[五连续代表片](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)同f115/Q8192/4sub，最低>.319，包含817前后；全819支持终态另付。[R650](results/R650-positive-definite-flow-support-reach.md)固定SPD A支持σ/曲率K给完整闭C²参数球面自动嵌入及reach≥min(σ/λmax,1/K)。附录A真实内向尾法向接口；B由R648得|Gz|<1.000000247及β转移；C固定非零p3标记的σ/κ充分区间。均不虚构当前闭尾/帽或含反射E3。
+**加权支持与reach。** R649实际14点排同pulse/hold镜像任意普通中心支持，不否定reach。[同14点β1/4](notes/2026-11-17-parallel-model-pulse-weighted-axis-support.md)全>.3193，0新点/λ；[五连续代表片](notes/2026-11-17-parallel-geometry-weighted-support-five-representatives.md)同f115/Q8192/4sub，最低>.319，包含817前后；全819实际支持已由R652支付。[R650](results/R650-positive-definite-flow-support-reach.md)固定SPD A支持σ/曲率K给完整闭C²参数球面自动嵌入及reach≥min(σ/λmax,1/K)。附录A真实内向尾法向接口；B由R648得|Gz|<1.000000247及β转移；C固定非零p3标记的σ/κ充分区间。均不虚构当前闭尾/帽或含反射E3。
 
 **完整未付。** R633/635只排指定设计，R634/636仅参考；R240材料、R632盖、R625/627/629 marker/E3不替真实闭源。全幅尾/Cartesian准确接缝、闭连通曲面、固定有内点H/完整D、整像held、反射商距离、全t reach/强C²，以及固定g/参数/t真实精化至机器或原容差仍未达。子题/预算/时长不是停点。
 
