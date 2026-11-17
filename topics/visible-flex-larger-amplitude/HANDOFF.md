@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 17:10:48 UTC 真实 pull 后核双 README，无新差异，已读提交 0e4161e0dba1fb1653bd3d16b389d7b62071c76c。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 17:17:48 UTC 真实 pull 后核双 README，无新差异，已读提交 fe19e0ae6857d7623d711b4a4469b64d5836378d。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–643/全部源/SHA及失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse完整0→1规范化采样Gram1.974411e−7；R638付C²坐标，R640/642分别付raw/G全域嵌入。R641四胞连续Gram≤4.937e−7，R643仅raw两胞κ<6.313/7.038。model已启动同场固定819片全Gram覆盖，48片时无失败；新源7bcbb9已刊，终态待读。当前更长hold真到1.02：2098胞规范化Gram1.18066e−7/κ6.30194，R638§6全正性；geometry复用同字节旧498胞，只付新1600胞嵌入。真κ=0接口1.02834963/320模trace已刊。首次482/325/157 BVP全17步nonfinite拒绝，RMS域缺口已定位；原额全评价点修补到1529仍936坏胞、下一2465超1800，非父，同g1.03短BVP602节点全原点评价正/缺陷3.394e−4，已启动且首步α1/1024接受，未收敛。旧SVD/fast317等失败沿用；实际闭面/D/H/held/E3含反射/reach/全t/同g精化未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–643/完整源与失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse0→1规范化采样Gram1.974411e−7；R638坐标、R640/642 raw/G全域嵌入已付。R641四胞连续Gram≤4.937e−7；固定819片唯一全Gram批次128片时无失败。R643§6现在另付λ三jet，实际G/F~同raw两胞κ<6.313/7.038，其余胞未付。hold真1.02全2098胞采样Gram1.18066e−7/κ6.30194及R638正性；geometry新1600胞嵌入已完成，R644待刊，旧498字节同一复用。真κ0接口/全320模trace已刊。1.04完整482/325/157 BVP全17步nonfinite拒；全RMS原额修补1529仍936坏胞，下一2465超1800。仅真父的1.03短BVP602节点原点评价正，原预算运行、前4步接受至α1/16，未收敛。旧失败不重做；闭面/D/H/held/含反射E3/reach/全t/同g精化未付。
 
 ## 实际活动run与唯一终态读者
 
