@@ -1,0 +1,333 @@
+{
+  "scope": "q21/q22 successful design continuation and q20 explicit C2 representative, exact analytic center lift, same-g refinement and open-prefix geometry audit. No closed candidate asserted.",
+  "session": "literature_mechanisms",
+  "prerequisite_delivery_manifest_sha256": "84c160e730fe64045fe37dda54c5360be68a6b991a1c55ee9f16444195749e7a",
+  "variables": {
+    "WORK": "Scratch directory containing the published smallcut scripts and regenerated checkpoint stages",
+    "RECOVERY": "Directory restored from the published prefix recovery manifest plus smallcut manifest patch"
+  },
+  "source_files": {
+    "smallcut_c2_representative.py": {
+      "bytes": 11677,
+      "sha256": "8b2a452ff74bb685bf0b264bce1f40d598e47d36f26a3bdc269ecac2b50aac5e"
+    },
+    "smallcut_center_lift.py": {
+      "bytes": 17469,
+      "sha256": "fa748d2b9459db8e66f708d4dabbf813519faa296354585d32f8aa411fcc93c3"
+    }
+  },
+  "commands": {
+    "q210-m26": [
+      "python",
+      "-u",
+      "{WORK}/smallcut_secant_launcher.py",
+      "--numerical-script",
+      "{RECOVERY}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-prefix.py",
+      "--source-topic",
+      "{RECOVERY}/bundle/topics/visible-flexible-closed-surface",
+      "--profile",
+      "{WORK}/variant-r30-p20-k4-fine/profile.json",
+      "--chart",
+      "{WORK}/variant-r30-p20-k4-fine/chart.json",
+      "--port",
+      "{WORK}/config/port30-m32.json",
+      "--out-prefix",
+      "{WORK}/secant-r30-p20/q210-m26",
+      "--amplitude",
+      ".21",
+      "--warp-reference",
+      ".21",
+      "--modes",
+      "26",
+      "--angular",
+      "832",
+      "--audit-angular",
+      "1664",
+      "--nodes",
+      "401",
+      "--max-nodes",
+      "7000",
+      "--tol",
+      "5e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--restart",
+      "{WORK}/fixed-r30-p20-q20-m24/fixed.json.gz",
+      "--restart-second",
+      "{WORK}/fixed-r30-p20-q18-m20/fixed.json.gz"
+    ],
+    "q220-m28": [
+      "python",
+      "-u",
+      "{WORK}/smallcut_secant_launcher.py",
+      "--numerical-script",
+      "{RECOVERY}/bundle/topics/visible-flex-larger-amplitude/computations/numerical-m2-prefix.py",
+      "--source-topic",
+      "{RECOVERY}/bundle/topics/visible-flexible-closed-surface",
+      "--profile",
+      "{WORK}/variant-r30-p20-k4-fine/profile.json",
+      "--chart",
+      "{WORK}/variant-r30-p20-k4-fine/chart.json",
+      "--port",
+      "{WORK}/config/port30-m32.json",
+      "--out-prefix",
+      "{WORK}/secant-r30-p20/q220-m28",
+      "--amplitude",
+      ".22",
+      "--warp-reference",
+      ".22",
+      "--modes",
+      "28",
+      "--angular",
+      "896",
+      "--audit-angular",
+      "1792",
+      "--nodes",
+      "401",
+      "--max-nodes",
+      "7000",
+      "--tol",
+      "5e-6",
+      "--bc-tol",
+      "1e-7",
+      "--physical-bc-tol",
+      "2e-9",
+      "--restart",
+      "{WORK}/secant-r30-p20/q210-m26.json.gz",
+      "--restart-second",
+      "{WORK}/fixed-r30-p20-q20-m24/fixed.json.gz"
+    ],
+    "q20_shared_c2": [
+      "python",
+      "-u",
+      "{WORK}/smallcut_c2_representative.py",
+      "--recovery",
+      "{RECOVERY}",
+      "--checkpoint",
+      "{WORK}/fixed-r30-p20-q20-m24/fixed.json.gz",
+      "--port",
+      "{WORK}/config/port30-m32.json",
+      "--output",
+      "{WORK}/fixed-r30-p20-q20-m24/c2-representative-audit.json"
+    ],
+    "q20_m20_center_lift": [
+      "python",
+      "-u",
+      "{WORK}/smallcut_center_lift.py",
+      "--recovery",
+      "{RECOVERY}",
+      "--checkpoint",
+      "{WORK}/secant-r30-p20/q200-m20.json.gz",
+      "--port",
+      "{WORK}/config/port30-m32.json",
+      "--output",
+      "{WORK}/secant-r30-p20/q200-m20-center-lift-audit.json"
+    ],
+    "q20_m24_center_lift": [
+      "python",
+      "-u",
+      "{WORK}/smallcut_center_lift.py",
+      "--recovery",
+      "{RECOVERY}",
+      "--checkpoint",
+      "{WORK}/fixed-r30-p20-q20-m24/fixed.json.gz",
+      "--port",
+      "{WORK}/config/port30-m32.json",
+      "--output",
+      "{WORK}/fixed-r30-p20-q20-m24/center-lift-audit.json"
+    ],
+    "q22_fixed_m32_pending": [
+      "python",
+      "-u",
+      "{WORK}/fixed_refine_smallcut.py",
+      "--recovery",
+      "{RECOVERY}",
+      "--checkpoint",
+      "{WORK}/secant-r30-p20/q220-m28.json.gz",
+      "--port",
+      "{WORK}/config/port30-m32.json",
+      "--output",
+      "{WORK}/fixed-r30-p20-q22-m32",
+      "--modes",
+      "32",
+      "--tol",
+      "2e-8",
+      "--nodes",
+      "701",
+      "--max-nodes",
+      "7000"
+    ]
+  },
+  "completed_design_rows": [
+    {
+      "tag": "q210-m26",
+      "status": "completed_design_only",
+      "checkpoint_sha256": "424936c0dd8e44dffaaed863fd646b3734291fcd34c591e3ace166c6bda90984",
+      "q": 0.21,
+      "modes": 26,
+      "delta": 0.17146583533551704,
+      "nodes": 483,
+      "seconds": 172.27113938331604,
+      "metric_l1": 1.0615226927305442e-06,
+      "kappa_sample": 6.891616640038423,
+      "root_min": 0.0004901022506889063,
+      "height_max": 1.2744449748981914,
+      "radius_max": 1.268155993928914,
+      "terminal_height_coeff_max": 0.0025676690683977175
+    },
+    {
+      "tag": "q220-m28",
+      "status": "completed_design_only",
+      "checkpoint_sha256": "35e49b618e06d3672ad5af88579dfb7f4f5933a3add7d206c432e1951cc78ec5",
+      "q": 0.22,
+      "modes": 28,
+      "delta": 0.17141686211304713,
+      "nodes": 484,
+      "seconds": 138.79550290107727,
+      "metric_l1": 1.1327503707147731e-06,
+      "kappa_sample": 7.185143426506279,
+      "root_min": 0.00042276428686116585,
+      "height_max": 1.272213830334274,
+      "radius_max": 1.2731913838644862,
+      "terminal_height_coeff_max": 0.002693297376715433
+    }
+  ],
+  "completed_c2_center_audits": {
+    "q20_m20_center_lift": {
+      "result_file": "secant-r30-p20/q200-m20-center-lift-audit.json",
+      "result_sha256": "74159fa5c81ab254537be2154f0f4d7ddca24ee9e7a3f0e5e79d4ff7ede4c072",
+      "checkpoint_sha256": "ef4bdbcd0f36b51fc731f864ce00eb150185dcaf313690d4bbb4ef1638d66ffd",
+      "actual_q": 0.2,
+      "frozen_profile": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.17150966322614214,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "lift_width": 0.04,
+      "metric_l1": 9.930762093010815e-07,
+      "kappa_sample": 6.6206694095050915,
+      "radial_samples": 3414,
+      "angular_samples": 1536,
+      "center_physical_jet_max_errors": {
+        "position": 2.2887833992611187e-16,
+        "Fs": 1.1102230246251565e-16,
+        "Fss": 8.005932084973442e-16,
+        "Ft": 4.441434166503682e-16,
+        "Fst": 3.5199230367483305e-29,
+        "Ftt": 3.996899261015124e-15
+      },
+      "surface_support_sample_min": {
+        "value": 0.3526754465633515,
+        "s": 0.27096106687281746,
+        "psi": 1.5707963267948966
+      },
+      "diameter": {
+        "sampled": 3.0148069305604985,
+        "local_estimate": 3.014806941902043,
+        "mesh_cover_upper_estimate": 3.0306453218959946,
+        "reason": "Half-turn XY symmetry and z reflection imply central symmetry, hence D=2 max norm for the reflected OPEN prefix. No tail included."
+      },
+      "witness": {
+        "point": [
+          1.2030138503032661,
+          0.0,
+          0.0
+        ],
+        "sampled_distance": 0.3261598173334742,
+        "local_estimate": 0.3261598057453831,
+        "mesh_cover_lower_estimate": 0.3182406216657263,
+        "mesh_cover_ratio": 0.10500754389386369,
+        "closing_requirements": {
+          "tail_distance_from_witness_at_least": 0.3182406216657263,
+          "complete_diameter_at_most": 3.182406216657263
+        },
+        "scope": "The z=0 witness has equal distance to the upper and reflected lower prefixes. Any future closing tail must separately remain outside its witness ball."
+      },
+      "mesh_cover_scope": "Analytic derivative/mesh-cover inequalities for the explicit finite C2 map. Floating bounds and sampling evaluations use the displayed numerical budget; no directed-rounding or continuous isometry certificate is asserted."
+    },
+    "q20_m24_center_lift": {
+      "result_file": "fixed-r30-p20-q20-m24/center-lift-audit.json",
+      "result_sha256": "24adc9952a02f4e0bca12626d6f9bc7e7e0c91a4f8635caa7dd9895449e562df",
+      "checkpoint_sha256": "596312b90989255c9b51ee979cf0d228b6835457ab222adc7f6bc42f0cdc23e6",
+      "actual_q": 0.20000109659082244,
+      "frozen_profile": {
+        "direction": "outward",
+        "vu": 0.55,
+        "vd": 0.6,
+        "delta": 0.17150966322614214,
+        "ramp": 0.4,
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        }
+      },
+      "lift_width": 0.04,
+      "metric_l1": 4.172493066763902e-09,
+      "kappa_sample": 6.620737651450046,
+      "radial_samples": 5687,
+      "angular_samples": 1536,
+      "center_physical_jet_max_errors": {
+        "position": 2.2887833992611187e-16,
+        "Fs": 1.1102230246251565e-16,
+        "Fss": 9.42055475210265e-16,
+        "Ft": 4.965068306494546e-16,
+        "Fst": 3.8338062577583105e-29,
+        "Ftt": 3.153038276476661e-15
+      },
+      "surface_support_sample_min": {
+        "value": 0.3526730758751019,
+        "s": 0.20792498534337728,
+        "psi": 1.5707963267948966
+      },
+      "diameter": {
+        "sampled": 3.014806848492406,
+        "local_estimate": 3.0148068497576044,
+        "mesh_cover_upper_estimate": 3.030640888533303,
+        "reason": "Half-turn XY symmetry and z reflection imply central symmetry, hence D=2 max norm for the reflected OPEN prefix. No tail included."
+      },
+      "witness": {
+        "point": [
+          1.2030149805048198,
+          0.0,
+          0.0
+        ],
+        "sampled_distance": 0.32616077367089114,
+        "local_estimate": 0.3261607251155614,
+        "mesh_cover_lower_estimate": 0.3182437536504428,
+        "mesh_cover_ratio": 0.1050087309435262,
+        "closing_requirements": {
+          "tail_distance_from_witness_at_least": 0.3182437536504428,
+          "complete_diameter_at_most": 3.1824375365044277
+        },
+        "scope": "The z=0 witness has equal distance to the upper and reflected lower prefixes. Any future closing tail must separately remain outside its witness ball."
+      },
+      "mesh_cover_scope": "Analytic derivative/mesh-cover inequalities for the explicit finite C2 map. Floating bounds and sampling evaluations use the displayed numerical budget; no directed-rounding or continuous isometry certificate is asserted."
+    }
+  },
+  "pending": [
+    "q22_fixed_m32_pending"
+  ],
+  "storage": "Commit only these source/proof/report/manifest files and compact results. Numerical checkpoint arrays and endpoint NPZ are recomputable current-task intermediates, not an artifact-upload deliverable.",
+  "original_delivery_manifest_sha256": "61c9a64ab0587e2fcee1574415ac004c4d8a7ad6657989863c69fed56ea2c81b",
+  "published_note": {
+    "path": "notes/2026-11-17-smallcut-c2-center-and-geometry.md",
+    "sha256": "aab40225fc482670b5d97c25854bc77d7f1309c8c15fa00108be5c7e09fde171"
+  },
+  "marker_proof": "results/R7-twofold-markers-core-moment-and-geometry.md"
+}

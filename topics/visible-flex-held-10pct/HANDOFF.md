@@ -7,17 +7,19 @@
 构造连通闭曲面的连续C²等距嵌入族，固定有内点的闭H，diam F₀(H)≥.2D；整像Hausdorff变化δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g、物理参数和时间范围下，最大相对度量误差≤1e−6且加密下降。材料点位移不是δ_hold；优化success不是数学完成。
 
 - 已部分克隆并真实pull main，根README（含授权）和题README全文已读。仅本题及其workflow稀疏检出。
-- 已读规则提交：`69af1ef225d146e1e090844f4e8736c316652506`。2026-11-17 21:40:26（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:40:26；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`de0ad5b7267d91f266af8856339d1fa8514fa6ee`。2026-11-17 21:45:59（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 22:45:59；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同时更新本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用，不存文件。
 - 只有完整证明进results；数值证据、条件假设与缺口分别写明。可重算数组/网格/渲染/CI artifact不提交，只存脚本、参数、运行ID/hash。单Markdown<100KB，本文件<10KB；不写根LOG。
 
 ## 主线A：小切口高振幅前缀 → 真实非线性尾
 
-已将cut从旧r=.6移至r=.30，真实背景w=.08、w_r=−1.8666666667；vu=.55、vd=.60、flat ramp=.4、eta=.05、单环，ShortBridge curvature4、peak_fraction=.2。割线只改变初值，原Frenet/端口方程未改。设计延拓已到q=.20。
+已将cut从旧r=.6移至r=.30，真实背景w=.08、w_r=−1.8666666667；vu=.55、vd=.60、flat ramp=.4、eta=.05、单环，ShortBridge curvature4、peak_fraction=.2。割线只改变初值，原Frenet/端口方程未改。设计延拓已到q=.22（q21/q22设计误差略高于1e−6，q22同g M32尚在算）。
 
 固定同一物理profile/chart/port/warp的实际加密：q14 M14→M16，metric1.16e−7→1.16822e−9；q18 M16→M20，9.98e−7→2.42874e−8；q20 M20→M24，9.92e−7→4.17253e−9，actual q=.20000109659082244、κ采样6.62074、高度1.27654148、最小Frenet根5.64176e−4。以上均是开放前缀，不是闭合解，也无连续reach证书。
 
 真实q20端口包含完整非线性均值，512角点2jet，SHA `0d03cd6128d7e498c28b60b2ea82c8ce4cd0af03d0e50bb1fc3cae8b54ee5355`。复现：scripts/recover_prefix.py与prefix_recovery_manifest.json恢复源；smallcut_prefix_sweep.py建立新chart，smallcut_secant_launcher.py延拓，fixed_refine_smallcut.py冻结g加密，smallcut_endpoint.py导出端口。精确命令/参数/hash见smallcut_delivery_manifest.json；完整表及失败路径见notes/2026-11-17-smallcut-high-q-and-fixed-g.md。所有数组仅scratch。
+
+明确的共享二jet五次Hermite和s≤.04的解析core中心lift已支付有限表示及上下接缝C²；同g、同lift的M20→M24 metric 9.93076e−7→4.17249e−9（238倍下降）。外端不变。修复后的全prefix X·n采样最小.352673、κ6.62074；中心对称整像D的mesh-cover估计≤3.030641，实际曲面witness下界估计≥.318244，比例>.105。仍是浮点覆盖预算，未定向舍入；不是连续reach/闭合证书。若尾rXY≤.35、最高z≤1.526542，则尺寸能容纳增高.25。详见smallcut-c2-center-and-geometry笔记与新增两脚本/manifest。
 
 [R7](results/R7-twofold-markers-core-moment-and-geometry.md)已为二重对称闭族证明固定双帽的δE>0机制，给显式C² bump、曲率/面法线支撑界与当前q20核心矩Re A_C>.11262048876的有理下界；只在真实闭族/接口成立时适用。
 
