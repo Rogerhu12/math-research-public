@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`6eb0352c9dd8ad2d1dbd8435b835e4e2bde485df`。2026-11-18 03:47:55（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`eb11cac06d387d7539e437b12cadb164717297b2`。2026-11-18 03:48:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -17,6 +17,8 @@
 R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥实际圆心平移；中央柱长.54付H直径，固定二fold帽排O(3)。圆心、全径比、reach、真实闭合必须逐项支付。
 
 **大rho精确核心**：eta1、轴π/4、a=.147/b=.08，C4局域修平加全局均值补偿；β∈(−2.437434179108102,−2.437434179108101)，|c|/q∈(47.53249652612922,47.53249652612923)。q.02/.022时R1.9/1.99、零控制rho>.50125/.45137。若完整D≤2.65、σ≥.08、K≤12.5等，则held/D>.104902/.115401且reach/D>.03018。alpha=2Ra−.001、ell=.54；实际大R的Rvu<1及初负K保护窗已付。未来补弧控制须重付rho；前缀/尾/闭族仍未付。见n4-large-radius-circle-core与纯Fraction脚本。
+
+**低eta选择已实算**：真实圆心系数随eta仿射，eta.1/q.049给零控制rho>.234093、条件held/D>.103812，所激发mode8约eta1/q.02的四分之一。六个已知物理根只做新沿程诊断、未重搜：mode8中段放大约10.20–14.17，线性采样不是非线性界。见n4-large-radius-eta-selection。
 
 **已实际联立**：n4 eta1/q001/M12 λ0，993节点。实际outer校正后物理BC3.8058e−14；最终tail res4.1448e−10/minA.99073/metric1.11e−14；mean两jet差1.30e−13/−3.04e−12，非mean二阶1.70e−11。prefix metric1.1175e−7；仍低幅/未圆化/无闭图。见n4-first-true-coupled-state，源resume_n4_tail/couple_actual_tail.py。此前q005/eta*/M8的首实际尾响应仅单独接口，不冒充联合。
 
