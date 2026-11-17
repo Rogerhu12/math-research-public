@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R643（两个真实胞元的连续曲率已证明）**：[raw pulse六jet、角二导与实际形算子](results/R643-continuous-curvature-of-two-actual-pulse-cells.md)：同一共同五次场，Bernstein乘积保径向关系、直接不变量二导及全角覆盖；胞458κ<6.313、胞817κ<7.038。仅两胞/raw，G的λ″、其余胞、闭面和reach未付。
+
 - **R642（规范化开放前缀嵌入已证明）**：[全818胞缩放图的连续圆柱判据](results/R642-certified-embedding-of-the-normalized-pulse-prefix.md)：真实有限均值b/b′与精确标量全域包围给λ∈(.998,1.002)、|λ′|<.04、C_G>.1645；结合R640和R638，G及规范化F~皆为C²嵌入。非闭面、曲率、reach或全t证书。
 
 - **R641（一个完整胞元的度量界已证明）**：[固定pulse最坏采样胞的连续Gram证书](results/R641-continuous-Gram-certificate-for-one-pulse-cell.md)：同26e53e8/q4096/精确积分g，径向Bernstein与全角三角多项式界，保真实混合抵消及非线性余项；胞804全域op≤4.726341e−7；§6另付旧宽/桥/末三胞，最坏≤4.936515e−7。非全818胞证书、非候选改变或固定g求解精化。
