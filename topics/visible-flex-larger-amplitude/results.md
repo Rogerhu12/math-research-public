@@ -228,4 +228,4 @@
 
 旧request212导航备份已按[准确恢复说明](notes/2026-11-17-parallel-historical-index-retention.md)普通退役，全部原文可从固定历史恢复；证明正文不变。
 
-- [R651：同一规范化pulse全818胞连续主曲率界](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md) — 原固定计划全返/0失败，实际K≤7.21309，最坏816；同像、相位与镜像继承，仍非闭reach。
+- [R651：同一规范化pulse全818胞连续主曲率界](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md) — 原固定计划全返/0失败，原K≤7.21309，独立六胞细界后全域K≤7.04608；同像、相位与镜像继承，仍非闭reach。

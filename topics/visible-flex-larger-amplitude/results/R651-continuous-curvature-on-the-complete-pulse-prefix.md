@@ -1,5 +1,7 @@
 # R651：同一归一化 pulse 前缀的全连续主曲率界
 
+**当前强化：同一场全域曲率已收紧为 K≤7.04608，见最后一节。** 以下保留原818固定计划的完整终态。
+
 **已证明。** 在 R643 所声明的 IEEE binary64 向外舍入模型下，同一实际归一化 pulse 前缀的全部径向位置和全部角度满足
 
 $$\boxed{\max_{i=1,2}|\kappa_i(G)|\le7.21309.}$$
@@ -73,3 +75,45 @@ $$E\ge0.9943730>0,\qquad\det I\ge0.02754673>0.$$
 报告含计时和路径，重跑整份JSON不承诺字节SHA相同；上述SHA识别本次实际证据。原raw、manifest与单胞数据均保留仓库外，只刊源码、参数和结果身份。
 
 本条尚未给出闭合尾、固定H、整闭面D、reach与held/E3指标或 README第5项固定问题求解加密。若将来另给完整闭C²场及R650的同一全域加权支持，才能把本条实际曲率作为其中一个输入。
+
+## 固定六胞新包围：全域 K≤7.04608
+
+原818胞终态完整保留后，只对其中原上界>7.05的811–816六胞另定Q8192、原径向8sub，固定执行一次。其余812胞全部复用；构造角仍4096、同26e53及a、实际G、共同五次和全部λ三jet均不改。六份已有λ报告直接消费，不重复λ计算。root唯一读取这次报告，session9293自然exit0，56.331699323秒。
+
+| 原胞 | 新连续主曲率上界 |
+|---|---:|
+| 811 | 6.8983837556032 |
+| 812 | 6.923121120927226 |
+| 813 | 6.947821776106028 |
+| 814 | 6.972476478129543 |
+| 815 | 6.997076277291384 |
+| 816 | 7.021612242801343 |
+
+六个新界均小于7.022。完整旧终态索引696e中排除这六胞后，剩余812胞的最大值为原817的7.046075380943313，完整旧报告SHA `12b4b170eb121e03558221a954288ccc730e856c843ff6c6dd03b39086eb34b9`。精确核胞号0..817各一次、旧全部certified、六新E/det正并按原闭范围替换，故有限并集直接给
+
+$$oxed{\quad\max|\kappa_i(G)|\le7.04608=88076/12500.\quad}$$
+
+这次仅改证书角盒大小；不是原求解网格/频率精化，不满足README的实际固定问题求解加密门，也不是新曲面。R651原同像、相位与C²镜像的传递理由原样适用。
+
+新完整六胞报告 `parallel-root-pulse-curvature-six-cells-q8192.json`，9707B，SHA `8158e5d7d2735c5fe03df5528fe963a0cd728ab7034a4f7d1af5bc11c8c3728b`；新增展开kernel SHA `a06a2d95a4b8b94e7db53b7adf4262c506dff77b3a72d54965739b0db3d0b2ce`。纯元数据并集报告 `parallel-root-pulse-curvature-refined-union.json` SHA `2ef001024b936f4181ce89b79cc94bb7b20a622379e19b01d270264005730a92`；六λ完整身份与exact闭范围均在新报告。原报告中的seconds为从单个main开始的累计计时，不能把六行seconds相加当总成本。所有raw仓外。
+
+实际CLI（原已有源码不改）为：
+
+```sh
+T=math-research-public/topics/visible-flex-larger-amplitude
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 \
+python "$T/notes/2026-11-17-parallel-root-normalized-component-curvature.py" \
+ --input parallel-pulse-a5-complete-base.json.gz \
+ --interval-source "$T/scripts/parallel_20261117_arclength_interval_positive.py" \
+ --raw-source "$T/notes/2026-11-17-parallel-root-pulse-curvature-component-box.py" \
+ --out parallel-root-pulse-curvature-six-cells-q8192.json \
+ --scaling-reports parallel-pulse-curvature-second-recovery/lambda-cell-0811-all.json \
+ parallel-pulse-curvature-second-recovery/lambda-cell-0812-all.json \
+ parallel-pulse-curvature-second-recovery/lambda-cell-0813-all.json \
+ parallel-pulse-curvature-second-recovery/lambda-cell-0814-all.json \
+ parallel-pulse-curvature-second-recovery/lambda-cell-0815-all.json \
+ parallel-pulse-curvature-second-recovery/lambda-cell-0816-all.json \
+ --cells 811 812 813 814 815 816 --angles 8192 --radial-subdivisions 8
+```
+
+作为未来闭图的条件预算，若整张实际闭面支持≥1/K且其余部分曲率亦≤K，则R650给reach≥3125/22019；当其实际完整D≤312500/66057时才可推出reach≥.03D。目前没有以参考直径或未造尾部填入这些条件。

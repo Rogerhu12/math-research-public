@@ -120,3 +120,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [真全闭direct-Gram接口](notes/2026-11-17-parallel-geometry-fullclosed-direct-gram-interface.md)：旧157只是1.03冻结Taylor参考的Schur位置行，非全尾DN。新同Hold a/S、w=.05解析Θ圆端口lift、共享Y/U/A与Hcap，准确core/末三jet，全部角值Gram及core→ρ/Θ/lift正/伴随已证。平cuff H_Fr=0却area=Rρ>0，新模型不用旧strictH门；旧短预算保持。p/R/a正性、非轴warm、实际实现/求解/全连续审核尚待。
 
 R651完整曲率真实终态696e/摘要94b68，全部E≥.9943730、det≥.02754673。上界>7.05仅811–816六胞；root另定六胞Q8192/原8sub的新界读取，准确复用各原λ三jet证书，不改变已完成818预算，也不重做λ。新结果另刊，尚非闭reach。
+
+R651后续root六胞新Q8192/8sub真实8158：811–816新界6.89839至7.02162，0新λ/同场不变；复用原812胞最大817=7.04607538，完整并集给当前全域K≤7.04608。56.33秒自然0，仅证书加密，不是README求解精化/闭reach。

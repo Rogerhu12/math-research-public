@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)存完整源/失败/预算/未付。R648同26e53全连续Gram<4.94e−7；[R651全818胞曲率](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)实际K≤7.21309，最坏816，80092自然0，旧686全复用。root下一固定六胞811–816改Q8192/8sub仅收紧界、原λ复用。支持18950全819片尚跑，model唯一读者。efe92/1878全Gram与0f/97062原Pr各自固定24/20继续，numerical唯一终态。新真闭合C² Gram规格给解析圆端口/全core链，geometry实现/model真实warm准备；未有闭解。R649障碍/R650流reach及尾/β/标记接口已刊，闭尾/帽、D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；[open§7](open.md#7-本并行会话的实际数学与几何路线)存完整源/失败/预算/未付。R648同26e53全连续Gram<4.94e−7；[R651全818胞曲率](results/R651-continuous-curvature-on-the-complete-pulse-prefix.md)原K≤7.21309已付；root六胞Q8192/8sub真实8158返后合并全域K≤7.04608，原λ复用，不冒solver精化。支持18950全819片尚跑，model唯一读者。efe92/1878全Gram与0f/97062原Pr各自固定24/20继续，numerical唯一终态。新真闭合C² Gram规格给解析圆端口/全core链，geometry实现/model真实warm准备；未有闭解。R649障碍/R650流reach及尾/β/标记接口已刊，闭尾/帽、D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 
