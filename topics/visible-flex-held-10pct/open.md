@@ -69,3 +69,5 @@ R19已严格给中心对称Hausdorff下界、中央柱公共H、四重基准加�
 O12更新：精确背景+共享Cartesian二jet已严格定义有限C²图；uniform16→32的metric下降但完整tensor增大，critical入网已有解的tensor仍约节点floor15倍。新表示不等于等距极限。后续如升角模，须先声明完整内端动量边界lift，不能凭8列补零当继承真实高模。
 
 O9更新：m3 q02真联合及同g M8径向对照通过，实际Cartesian接缝和完整均值已数值核；prefix内部二阶插值缺陷、M8 tail fullD仍待加密。M16原shoot的Riccati校正病态失败不等于物理Gram/A失败；转M12或完整稀疏shooting Newton校正，门不改。q06 secant成功仍是开放线性DN。
+
+O13更新：R19A给更窄保护弧的严格10.676%条件窗（q=.06,R=.1,a=.145,α=.0285,ℓ=.51），允许完整D≤2.5/K≤13.2。窄H宽.0004但有内点，直径由柱长支付。普通fast背景仅采样/线性诊断，不能当实际闭族；新窄弧BVP正在进行。
