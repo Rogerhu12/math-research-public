@@ -9,3 +9,15 @@ A checked-out literal reference search over this topic and .github, excluding co
 ## Second exact duplicate, same retention rule
 
 The67,739-byte `notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-bridge.json` is byte-identical to retained `notes/2026-11-13-strong-q122-eight-complete-geometry-reader-r1-primary.json`, SHA256 `c257ddfe00e5d988673fc6adcfda5535ba571f4aa0982d7dd37e3a81b006b39b`. It was also compared against `ee604cd9ac27c3c39f148d50bbedf4e899e41e50:topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-eight-fine-frontload04-nochange-r1-bridge.json`; that exact git-show command restores its historical path. The full current literal path search finds only its historical frontload04 manifest. That one entry now resolves to the identical retained primary, with historical path/restore commit added. Original content SHA, bytes, scratch source path and historical total byte count stay unchanged. No actual scientific bytes are lost; current warm inputs and source files are untouched.
+
+## Remaining five copies of the identical historical bridge
+
+The following five67,739-byte copies were each compared byte-for-byte with the retained primary above and with their path at commit `8c03fc7c7b401fec3795faa91d5f4e793a582faa`. Their common SHA256 is `c257ddfe00e5d988673fc6adcfda5535ba571f4aa0982d7dd37e3a81b006b39b`; gross released size338,695 bytes.
+
+- `notes/2026-11-13-strong-eight-fine-sync-tail4-q008-design-r1-bridge.json`
+- `notes/2026-11-13-strong-eight-fine-sync-tail4-q008-size105-design-r1-bridge.json`
+- `notes/2026-11-13-strong-eight-fine-tail2-q008-design-r1-bridge.json`
+- `notes/2026-11-13-strong-eight-fine-tail4-q008-design-r1-bridge.json`
+- `notes/2026-11-13-strong-eight-fine-tail4-q012-design-r1-bridge.json`
+
+The current literal search over this topic and .github finds exactly their five corresponding historical manifests. Each one entry now points to the unchanged retained primary and records its historical path plus this restore commit; original content SHA, bytes, scratch path and historical totals remain. Each complete file can be restored by `git show 8c03fc7c7b401fec3795faa91d5f4e793a582faa:topics/visible-flex-larger-amplitude/<listed-relative-path>`. No source, live warm, result, or distinct scientific bytes were deleted. The search does not claim coverage of undeclared external consumers.
