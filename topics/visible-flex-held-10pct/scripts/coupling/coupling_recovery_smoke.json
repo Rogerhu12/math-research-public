@@ -1,0 +1,23 @@
+{
+  "scope": "Fresh hash-verified source restore, actual worker startup, and physical port/linear root/chart regeneration only; no repeated joint solve.",
+  "prepared": true,
+  "comparison_to_original_run": {
+    "parameters": true,
+    "cut": true,
+    "modes": true,
+    "linearSlope": true
+  },
+  "delta": 0.17184863461832486,
+  "profile_equal": true,
+  "chart_equal": true,
+  "command": [
+    "python",
+    "prepare_coupled_runtime.py",
+    "--repo",
+    "math-research-public",
+    "--dest",
+    "coupling_work/preparation-smoke"
+  ],
+  "seed_and_coupled_commands_executed": false,
+  "ready_projection_note": "The ready payload includes numerical settings and zero-solution arrays; the portable script retains exactly the original physical-parameter keys and five cut jets. This projection was verified from the actual fresh ready payload."
+}

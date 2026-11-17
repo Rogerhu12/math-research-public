@@ -1,0 +1,38 @@
+--- couple_smallcut.py
++++ couple_smallcut.py
+@@ -32,6 +32,7 @@
+     p.add_argument('--fixed',action='store_true');p.add_argument('--probe-only',action='store_true')
+     p.add_argument('--relax-linear',action='store_true',help='Solve the finite linear-DN prefix at the requested q before querying the actual tail; never accepted as a nonlinear coupled result.')
+     p.add_argument('--actual-every-query',action='store_true');p.add_argument('--node-heap',type=int,default=2304)
++    p.add_argument('--inner-verbose',type=int,choices=[0,1,2],default=0,help='Logging only for the inherited inner SciPy BVP solve.')
+     p.add_argument('--warmup-scales',type=float,nargs='*',default=[.0001,.001,.003,.01,.03,.1,.3,1.])
+     p.add_argument('--warmup-kind',choices=['full-vector','mode-powers'],default='full-vector')
+     a=p.parse_args();a.out.mkdir(parents=True,exist_ok=False);begin=time.monotonic()
+@@ -43,6 +44,8 @@
+     coupling=driver.source_module('smallcut_original_coupling',a.coupler_source.resolve(),[
+         ("adaptive=module('adaptive_coupled',S/'950f-prefix-adaptive-chart-bvp-v2.py')","adaptive=sys.modules['numerical_mode2_adaptive']"),
+         ("client=module('weighted_client',S/'950f-tail-client-v3.py')","client=None")])
++    original_solve_bvp=coupling.solve_bvp
++    coupling.solve_bvp=lambda *args,**kwargs:original_solve_bvp(*args,**{**kwargs,'verbose':a.inner_verbose})
+     cfg=json.loads(a.profile.read_text());chart=json.loads(a.chart.read_text());port=json.loads(a.port.read_text());tcfg=json.loads(a.tail_config.read_text())
+     port['_sha256']=sha(a.port)
+     if tcfg['spacing']!=2 or tcfg['modes']!=a.modes:raise ValueError('Actual tail spacing/mode count mismatch')
+--- continue_smallcut_coupled.py
++++ continue_smallcut_coupled.py
+@@ -12,6 +12,7 @@
+     p.add_argument('--'+key,type=Path,required=True)
+ p.add_argument('--amplitudes',nargs='+',type=float,required=True);p.add_argument('--modes',type=int,default=8)
+ p.add_argument('--nodes',type=int,default=501);p.add_argument('--max-nodes',type=int,default=2400)
++p.add_argument('--inner-verbose',type=int,choices=[0,1,2],default=0)
+ p.add_argument('--tol',type=float,default=3e-7);a=p.parse_args();a.out.mkdir(parents=True,exist_ok=False)
+ restart=a.restart.resolve();tail_state=a.tail_state.resolve();rows=[];begin=time.monotonic()
+ driver=Path(__file__).with_name('couple_smallcut.py')
+@@ -22,7 +23,7 @@
+     cmd=[sys.executable,'-u',str(driver.resolve())]
+     for key in ('source_topic','prefix_driver','coupler_source','worker','profile','chart','port'):
+         cmd.extend(['--'+key.replace('_','-'),str(getattr(a,key).resolve())])
+-    cmd.extend(['--tail-config',str(config_path.resolve()),'--restart',str(restart),'--out',str(target),'--amplitude',str(q),'--modes',str(a.modes),'--angular',str(max(256,32*a.modes)),'--audit-angular',str(max(512,64*a.modes)),'--nodes',str(a.nodes),'--max-nodes',str(a.max_nodes),'--tol',str(a.tol),'--warmup-scales','1'])
++    cmd.extend(['--tail-config',str(config_path.resolve()),'--restart',str(restart),'--out',str(target),'--amplitude',str(q),'--modes',str(a.modes),'--angular',str(max(256,32*a.modes)),'--audit-angular',str(max(512,64*a.modes)),'--nodes',str(a.nodes),'--max-nodes',str(a.max_nodes),'--tol',str(a.tol),'--warmup-scales','1','--inner-verbose',str(a.inner_verbose)])
+     print(json.dumps(dict(event='stage_start',amplitude=q,restart=str(restart),tail_state=str(tail_state),out=str(target))),flush=True)
+     started=time.monotonic()
+     with (a.out/(name+'.log')).open('w')as log:

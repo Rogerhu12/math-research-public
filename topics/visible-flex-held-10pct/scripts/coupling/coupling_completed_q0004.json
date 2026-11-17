@@ -1,0 +1,239 @@
+{
+  "schema": "finite-coupled-continuation-v1",
+  "session": "true_a_analysis",
+  "scope": "q=.0004 true coupled retry from a diagnostic initial guess, accepted only after original BC and actual nonlinear DN checks.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "coupling_work/couple_smallcut.py",
+    "--source-topic",
+    "true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "--prefix-driver",
+    "smallcut_highq_work/source/numerical-m2-prefix.py",
+    "--coupler-source",
+    "coupling_work/source/db6f-prefix-coupled.py",
+    "--worker",
+    "coupling_work/hybrid_tail_worker.mjs",
+    "--profile",
+    "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+    "--chart",
+    "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+    "--port",
+    "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+    "--tail-config",
+    "coupling_work/q0004-retry-tail-config.json",
+    "--restart",
+    "coupling_work/hybrid-joint-continuation/q0p0004-m8/prefix.json.gz",
+    "--out",
+    "coupling_work/hybrid-q0004-m8-retry",
+    "--amplitude",
+    "0.0004",
+    "--modes",
+    "8",
+    "--nodes",
+    "601",
+    "--max-nodes",
+    "2400",
+    "--tol",
+    "1e-06",
+    "--inner-verbose",
+    "2",
+    "--warmup-scales",
+    "1"
+  ],
+  "arguments": {
+    "source_topic": "true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "prefix_driver": "smallcut_highq_work/source/numerical-m2-prefix.py",
+    "coupler_source": "coupling_work/source/db6f-prefix-coupled.py",
+    "worker": "coupling_work/hybrid_tail_worker.mjs",
+    "profile": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+    "chart": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+    "port": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+    "tail_config": "coupling_work/q0004-retry-tail-config.json",
+    "restart": "coupling_work/hybrid-joint-continuation/q0p0004-m8/prefix.json.gz",
+    "out": "coupling_work/hybrid-q0004-m8-retry",
+    "amplitude": 0.0004,
+    "modes": 8,
+    "warp_reference": 0.0004,
+    "angular": 256,
+    "audit_angular": 512,
+    "nodes": 601,
+    "max_nodes": 2400,
+    "tol": 1e-06,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "fixed": false,
+    "probe_only": false,
+    "relax_linear": false,
+    "actual_every_query": false,
+    "node_heap": 2304,
+    "inner_verbose": 2,
+    "warmup_scales": [
+      1.0
+    ],
+    "warmup_kind": "full-vector",
+    "lagged_tail": true
+  },
+  "source_changes": "Logging-only --inner-verbose option; coupled equations, guard criteria, physical BC tolerance and actual-outer acceptance unchanged.",
+  "adapter_sha256": "29545185becc88b1bae05d579258ffca04c186e992d9b17fbc21a5049a2f3629",
+  "launcher_sha256": "e0183b22e6a3b195d2fa76c5822f14873273c0cccd54a70fd96b8055a0d41a1b",
+  "solver_success": true,
+  "q": 0.0004,
+  "modes": 8,
+  "tail_depth": 8,
+  "nodes": 706,
+  "max_rms_collocation_residual": 9.980841386539358e-07,
+  "seconds": 93.28888027699941,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.17184863362604286,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "prefix_audit": {
+    "metric_l1": 2.4193298777283067e-10,
+    "flow_defect": 2.4740621371220797e-10,
+    "darboux_l1": 7.75110488046786e-09,
+    "kappa_sample": 4.077742839137651,
+    "radius_max": 1.1720213296457644,
+    "height_max": 1.2948433674012194,
+    "root_min": 0.004063219179808231,
+    "chart_rho_min": 0.9988,
+    "support_amplitude": 0.0004,
+    "terminal_height_coeff_max": 2.8922293358687264e-07,
+    "physical_bc_max": 4.948447437334772e-19,
+    "samples_s": 1560,
+    "samples_psi": 512,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 1.8002501141829892e-14,
+      "actual_tail_residual": 2.2647884961732635e-09,
+      "tail_calls": 3
+    }
+  ],
+  "tail_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "response_0004.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 2.2647884961732635e-09,
+    "mean_first_actual": 0.07974521188761893,
+    "mean_first_expected": 0.07974521188743679,
+    "mean_first_mismatch": 1.8214596497756474e-13,
+    "mean_second_actual": 1.8430012413801944,
+    "mean_second_expected": 1.8430012413844563,
+    "mean_second_mismatch": -4.261924146931051e-12,
+    "nonmean_first_mismatch": 4.948447438342824e-19,
+    "nonmean_second_mismatch": 1.1055408489148978e-13,
+    "cut_metric_fft_l1": 6.237863045839175e-14,
+    "cut_metric_c1_fft_l1": 1.2774062015673e-13,
+    "angular_samples": 512
+  },
+  "tail_audit": {
+    "fullD": 8.617916340901975e-13,
+    "normalizedFullDefect": 5.952953353784846e-10,
+    "minLeading": 0.8343288502298599,
+    "minD": 0.9999782895109257,
+    "formalCurvature": 9.975075118292065,
+    "maxPhysicalPV": 2.8377726164589834e-06,
+    "actualMetric": 2.893308798844848e-15,
+    "holonomy": 3.949423465471184e-19
+  },
+  "retry_context": {
+    "scope": "Failed-inner prefix is used only as a numerical starting guess. Its actual tail response converged, but the prefix was not accepted. Retry must independently pass original actual-DN outer checks.",
+    "previous_summary": "coupling_work/hybrid-joint-continuation/q0p0004-m8/summary.json",
+    "previous_prefix_solver_success": false,
+    "previous_max_rms": 4.941747640973478e-07,
+    "previous_tolerance": 3e-07,
+    "new_tolerance": 1e-06,
+    "retry_adapter_sha256": "29545185becc88b1bae05d579258ffca04c186e992d9b17fbc21a5049a2f3629",
+    "change": "Add logging-only --inner-verbose; original coupled equations and true-outer acceptance unchanged."
+  },
+  "output_hashes": [
+    {
+      "path": "coupling_work/hybrid-q0004-m8-retry/summary.json",
+      "bytes": 23269,
+      "sha256": "349eec3242e6807656e42d82485acdc1a40d97750f1fae8bed333be29eb86def"
+    },
+    {
+      "path": "coupling_work/hybrid-q0004-m8-retry/prefix.json.gz",
+      "bytes": 12839,
+      "sha256": "22cfb78ae56c4b663e99316689d46a7d2d0945c3f58ab054c5aa8f4a59a17e2a"
+    },
+    {
+      "path": "coupling_work/hybrid-q0004-m8-retry/prefix_coeff_00.npy.gz",
+      "bytes": 813305,
+      "sha256": "c45b177c2bb991d8e9eabaad4f17b2bead91fde167ed5f5921f7ea0814def104"
+    },
+    {
+      "path": "coupling_work/hybrid-q0004-m8-retry/response_0004.json.gz",
+      "bytes": 30186,
+      "sha256": "1970ea888b285f041fef953d42e10cba1eeba4cd2f87f19a5130c5d89b29f1d1"
+    }
+  ],
+  "input_hashes": [
+    {
+      "path": "smallcut_highq_work/source/numerical-m2-prefix.py",
+      "bytes": 10215,
+      "sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360"
+    },
+    {
+      "path": "coupling_work/source/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "coupling_work/hybrid_tail_worker.mjs",
+      "bytes": 12931,
+      "sha256": "29f4eaa952726fa785754f744fe78d754ecda2a64f1686fd9fcfeba0713e2b64"
+    },
+    {
+      "path": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+      "bytes": 264,
+      "sha256": "51c37230c218ae0d82debb821ea0a328611ada7d8255fd8f321f5c7a4b228c62"
+    },
+    {
+      "path": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+      "bytes": 2972,
+      "sha256": "6cb4343a88b0adbab9b1a5e5380bda0a10d4ca425dc45fee5ffc3ac87d660f5a"
+    },
+    {
+      "path": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+      "bytes": 3495,
+      "sha256": "ea2d97d884ba112069eab5f46fdb88aa7b818dd6f7e35c8b1b532c13a181ba98"
+    },
+    {
+      "path": "coupling_work/q0004-retry-tail-config.json",
+      "bytes": 2344,
+      "sha256": "7e85aa19d770bcc70a9833026160fbb1072f72c326d1fdd96ca07a59fda130f4"
+    },
+    {
+      "path": "coupling_work/hybrid-joint-continuation/q0p0004-m8/prefix.json.gz",
+      "bytes": 22493,
+      "sha256": "48cf587046a722e7f8f0d5b1c0974ff6fb9d22eacb3701c34721c185b28f9e06"
+    }
+  ],
+  "initial_checkpoint": {
+    "path": "coupling_work/hybrid-joint-continuation/q0p0004-m8/response_0003.json.gz",
+    "bytes": 28637,
+    "sha256": "7a13734df56bbd1a69feca8b6cd3cc73f5eb901ff7f265e559ebf64e4924f797"
+  },
+  "limitations": [
+    "Finite Fourier and finite depth only.",
+    "The failed 3e-7/2000-node attempt is a diagnostic initializer, not a successful solution.",
+    "This retry changes numerical collocation tolerance to 1e-6; the physical BC tolerance remains 2e-9 and the original true-DN checks still apply.",
+    "Not a closed-surface, reach or held 10-percent certificate."
+  ]
+}

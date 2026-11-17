@@ -1,0 +1,264 @@
+{
+  "schema": "finite-coupled-seed-v1",
+  "session": "true_a_analysis",
+  "scope": "One actual finite nonlinear prefix/tail joint solve; no infinite closure, global reach, or held-amplitude certificate.",
+  "source_revision": "46fe93d4bb708fdfb7935e91b8141ea77586f0d2",
+  "coupler_source_sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+  "runtime_source_transform_record": "The unmodified raw summary is hashed below and remains scratch. The adapter records every exact source replacement in each new run.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "coupling_work/couple_smallcut.py",
+    "--source-topic",
+    "true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "--prefix-driver",
+    "smallcut_highq_work/source/numerical-m2-prefix.py",
+    "--coupler-source",
+    "coupling_work/source/db6f-prefix-coupled.py",
+    "--worker",
+    "coupling_work/hybrid_tail_worker.mjs",
+    "--profile",
+    "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+    "--chart",
+    "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+    "--port",
+    "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+    "--tail-config",
+    "nonlinear_tail_work/hybrid_raised_valley_m8_config.json",
+    "--restart",
+    "coupling_work/hybrid-q002-m8-relaxed/linear-seed.json.gz",
+    "--out",
+    "coupling_work/hybrid-q0002-m8-coupled",
+    "--amplitude",
+    "0.0002",
+    "--modes",
+    "8",
+    "--nodes",
+    "301",
+    "--max-nodes",
+    "1800",
+    "--tol",
+    "3e-07",
+    "--warmup-scales",
+    ".1",
+    "1",
+    "--relax-linear"
+  ],
+  "arguments": {
+    "source_topic": "true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "prefix_driver": "smallcut_highq_work/source/numerical-m2-prefix.py",
+    "coupler_source": "coupling_work/source/db6f-prefix-coupled.py",
+    "worker": "coupling_work/hybrid_tail_worker.mjs",
+    "profile": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+    "chart": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+    "port": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+    "tail_config": "nonlinear_tail_work/hybrid_raised_valley_m8_config.json",
+    "restart": "coupling_work/hybrid-q002-m8-relaxed/linear-seed.json.gz",
+    "out": "coupling_work/hybrid-q0002-m8-coupled",
+    "amplitude": 0.0002,
+    "modes": 8,
+    "warp_reference": 0.0002,
+    "angular": 256,
+    "audit_angular": 512,
+    "nodes": 301,
+    "max_nodes": 1800,
+    "tol": 3e-07,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "fixed": false,
+    "probe_only": false,
+    "relax_linear": true,
+    "actual_every_query": false,
+    "node_heap": 2304,
+    "warmup_scales": [
+      0.1,
+      1.0
+    ],
+    "warmup_kind": "full-vector",
+    "lagged_tail": true
+  },
+  "success": true,
+  "q": 0.0002,
+  "modes": 8,
+  "tail_depth": 8,
+  "nodes": 607,
+  "seconds": 210.26711383699967,
+  "max_rms_collocation_residual": 2.988057482586169e-07,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.17184863433390313,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "prefix_audit": {
+    "metric_l1": 2.371462100615346e-11,
+    "flow_defect": 2.4451061713665782e-11,
+    "darboux_l1": 4.0995369886433544e-09,
+    "kappa_sample": 4.076621291063036,
+    "radius_max": 1.1719349170022189,
+    "height_max": 1.294843251678674,
+    "root_min": 0.004068133461254564,
+    "chart_rho_min": 0.9994,
+    "support_amplitude": 0.0002,
+    "terminal_height_coeff_max": 1.4461122085437498e-07,
+    "physical_bc_max": 4.100991424834552e-14,
+    "samples_s": 1362,
+    "samples_psi": 512,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 2.050495712417276e-12,
+      "actual_tail_residual": 2.019421900908185e-09,
+      "tail_calls": 4
+    }
+  ],
+  "tail_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "response_0005.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 2.019421900908185e-09,
+    "mean_first_actual": 0.07974521968326878,
+    "mean_first_expected": 0.0797452196834089,
+    "mean_first_mismatch": -1.4012402349550257e-13,
+    "mean_second_actual": 1.8430008859190878,
+    "mean_second_expected": 1.8430008859158238,
+    "mean_second_mismatch": 3.2640556923979602e-12,
+    "nonmean_first_mismatch": 4.1039065204862285e-14,
+    "nonmean_second_mismatch": 9.701094248563116e-13,
+    "cut_metric_fft_l1": 5.0275718430652474e-14,
+    "cut_metric_c1_fft_l1": 1.137726674493936e-13,
+    "angular_samples": 512
+  },
+  "tail_audit": {
+    "fullD": 1.5900928211863993e-15,
+    "normalizedFullDefect": 1.1091885602273338e-12,
+    "minLeading": 0.9183571218791513,
+    "minD": 0.9999892317657406,
+    "formalCurvature": 9.974606890806903,
+    "maxPhysicalPV": 1.418876430830246e-06,
+    "actualMetric": 3.332227715474851e-15,
+    "holonomy": 1.883225556987227e-19
+  },
+  "worker_sha256": "29f4eaa952726fa785754f744fe78d754ecda2a64f1686fd9fcfeba0713e2b64",
+  "client_sha256": "540720f625f192b73e2c814fd80dca1da286902943f8ab8ef0b82209f2589847",
+  "linear_ready_max_difference": 0.0,
+  "sign_convention": "sigma=-1; worker input H=sigma*q*y_z; physical tail z=sigma*z_worker+constant; prefix z_s=P_worker/sqrt(E); boundary J subtracts sigma*q*DP/sqrt(E).",
+  "limitations": [
+    "Prefix audit scalar values are sampled in meridian and angle; finite FFT l1 is not an interval certificate.",
+    "The inherited prefix audit scope string still mentions its original linear-port solver; the separate actual_outer_checks and tail_seam attest the new actual-DN boundary solve.",
+    "Tail audit.actualMetric is the inherited finite tail metric audit, not a certificate for the global closed surface.",
+    "Full Cartesian alignment, common C2 representatives, infinite-depth closing, all-time reach, delta_E and held 10 percent remain unpaid."
+  ],
+  "output_hashes": [
+    {
+      "path": "coupling_work/hybrid-q0002-m8-coupled/summary.json",
+      "bytes": 24110,
+      "sha256": "eecb94cfeb1ba25e62bb1bc2fc19e09d7dfe372bf44306ebe4cb4c12506231df"
+    },
+    {
+      "path": "coupling_work/hybrid-q0002-m8-coupled/prefix.json.gz",
+      "bytes": 11930,
+      "sha256": "bf90973eff4febb5328c119e1c0e2a7bc7979704903187425086fe3effd1b7bf"
+    },
+    {
+      "path": "coupling_work/hybrid-q0002-m8-coupled/prefix_coeff_00.npy.gz",
+      "bytes": 698670,
+      "sha256": "476c47c422857b2d76b8aa285a9b8ffe1a537f634b3c5f887f769e11f0c9accd"
+    },
+    {
+      "path": "coupling_work/hybrid-q0002-m8-coupled/response_0005.json.gz",
+      "bytes": 30216,
+      "sha256": "68c88b2f62d59a285c0ed3669779fa28bbe74764d05a83b1dff856d10337e8a5"
+    },
+    {
+      "path": "coupling_work/hybrid-q0002-m8-coupled/linear-seed.json.gz",
+      "bytes": 9362,
+      "sha256": "121760d66eae589bcbf418199648645210f46d7240f2554ddc6c981bcde68eeb"
+    },
+    {
+      "path": "coupling_work/hybrid-q0002-m8-coupled/linear-seed_coeff_00.npy.gz",
+      "bytes": 698855,
+      "sha256": "4fc10f490f0d831bd90d2c0112f59b89d60899fe1382b506530fd7b6954320df"
+    }
+  ],
+  "input_hashes": [
+    {
+      "path": "smallcut_highq_work/source/numerical-m2-prefix.py",
+      "bytes": 10215,
+      "sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360"
+    },
+    {
+      "path": "coupling_work/source/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "coupling_work/hybrid_tail_worker.mjs",
+      "bytes": 12931,
+      "sha256": "29f4eaa952726fa785754f744fe78d754ecda2a64f1686fd9fcfeba0713e2b64"
+    },
+    {
+      "path": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+      "bytes": 264,
+      "sha256": "51c37230c218ae0d82debb821ea0a328611ada7d8255fd8f321f5c7a4b228c62"
+    },
+    {
+      "path": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+      "bytes": 2972,
+      "sha256": "6cb4343a88b0adbab9b1a5e5380bda0a10d4ca425dc45fee5ffc3ac87d660f5a"
+    },
+    {
+      "path": "smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+      "bytes": 3495,
+      "sha256": "ea2d97d884ba112069eab5f46fdb88aa7b818dd6f7e35c8b1b532c13a181ba98"
+    },
+    {
+      "path": "nonlinear_tail_work/hybrid_raised_valley_m8_config.json",
+      "bytes": 2213,
+      "sha256": "c4dc0f9820dd6af8eee2ea458e05fa86061a176ba26760bb90cdaf541b1c0df3"
+    },
+    {
+      "path": "coupling_work/hybrid-q002-m8-relaxed/linear-seed.json.gz",
+      "bytes": 9368,
+      "sha256": "14a2e36a43b6767dbbdefe3d61f61549884839eb1977447160432faf6a6f630a"
+    }
+  ],
+  "preparatory_failures": [
+    {
+      "name": "hybrid-q002-m8",
+      "scope": "An initialization path failed before joint solve; no nonexistence conclusion.",
+      "q": 0.002,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+      "tail_calls": 4,
+      "summary": {
+        "path": "coupling_work/hybrid-q002-m8/summary.json",
+        "bytes": 11993,
+        "sha256": "d174de85e2e0126c8d1583043b7b822cdde3631e754a62b3a23b946a4f0c998b"
+      }
+    },
+    {
+      "name": "hybrid-q002-m8-relaxed",
+      "scope": "An initialization path failed before joint solve; no nonexistence conclusion.",
+      "q": 0.002,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum Newton line search failed', 'residual': None, 'lastIteration': None}\")",
+      "tail_calls": 3,
+      "summary": {
+        "path": "coupling_work/hybrid-q002-m8-relaxed/summary.json",
+        "bytes": 11976,
+        "sha256": "48a48174547d64c8962e1ea16e66efc14049020318f9a9ec83092f4f340a6dc8"
+      }
+    }
+  ]
+}
