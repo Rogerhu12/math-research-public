@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 16:46:20 UTC 真实 pull 后核双 README，无新差异，已读提交 ef386aeff1789dac0ad626c0ff7be8128ad0f7a2。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 16:50:52 UTC 真实 pull 后核双 README，无新差异，已读提交 a6040eac3e68ab5b2c40e5685ba962da90249c1f。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–641及全部失败/源/SHA见[open§7](open.md#7-本并行会话的实际数学与几何路线)。β.75整场Gram6.393e−7，pulse0→1整场1.974411e−7；R638严格付全域q_N/rho正性及C²坐标。R640以全部818胞Q/A/C正性及degree1证成raw pulse C²嵌入，缩放G另付λ/λ′；R641严格付pulse最坏采样胞804全域Gram≤4.727e−7，未冒全818胞。新hold真到1.02，完整2098胞规范化Gram1.18066e−7/κ6.30194，R638§6严格付全域正性；同g续1.04在1.031982域停，末态8192 H负/Gram.267，非父。由真1.02重启到唯一κ=0接口1.02834963，962ODE到达/端Gram6.942e−7；完整物理φ的320模h/hr/hrr/ρ/P̃/K trace已刊。SVD .5/.625及R639零目标失败不扩扫；fast317射击接受但实际三jet桥Gram1.135e−6超门/高尾反增，不延旧场。R633/635排除及R636参考R/L沿用。实际闭面/D/held/E3含反射/reach/全t/同g精化均未付，参考预算不替闭源。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。R623–641/全部源/SHA与失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。β.75整场Gram6.393e−7，pulse0→1整场1.974411e−7；R638严格付q_N/rho全域正性/C²坐标。R640证成raw pulse全818胞C²嵌入，缩放G另付；R641单胞804连续Gram≤4.727e−7，不冒全域。新hold真到1.02，完整2098胞规范化Gram1.18066e−7/κ6.30194及R638§6正性；续1.04在1.031982域停，末态8192 H负，非父。真1.02另达唯一κ=0接口1.02834963/全962ODE、320模物理trace已刊；同g M160完整482/325/157 BVP初猜准备827节点过有限正域，H余6.55e−9/ODE缺陷.327保持，下一单次原预算求解。SVD .5/.625、R639零目标与fast317实际Gram失败不扩旧场。R633/635排除、R636参考沿用；闭面/D/held/E3含反射/reach/全t/同g精化未付。
 
 ## 实际活动run与唯一终态读者
 
