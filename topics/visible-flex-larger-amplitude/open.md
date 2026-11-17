@@ -105,7 +105,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **已付与禁止重复。** 原g真到.995/Gram4.001e−7；旧.992角精化、.999与全部增长/纠正/外尾失败均在固定全文，不能重跑当新结果。R633排除旧best4强外向λ1；R635在κ≤6.8/反射major正投影下排除.992/R1.7673/H≤1.22与.8/R1.6/H≤1.45（换g亦无效）。
 
-[新内向标量](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)保旧.995后κ1.5/两.02 ramp，参考末s2.284717/R.531879；[R636](results/R636-certified-inward-reference-radius-and-length.md)严格结清R634的R/L与全角chord余>.06001464673515，非真非轴尾。固定a依R240共材料、rho可变；共同材料六jet精化尚未付。
+[内向参考](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)与[R636](results/R636-certified-inward-reference-radius-and-length.md)已严格支付原参考R/L及全角chord余>.06001464，非真实尾。R240固定a/rho换角不改共材料g；六jet精化尚未付。
 
 **全有限BVP。** 原内向.997 M112/M128真接受但Gram2.754e−6/5.879e−6；.998/.999失败。[Schur112/128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)分别实际2.421e−6与1423节点/RMS3.592e−4超2000失败。[onlyZ109](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点/RMS8.425e−5超1800失败。以上均不作未接受父。
 
@@ -124,6 +124,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 [六个pulse设计](notes/2026-11-17-parallel-inward-curvature-pulse.md)保cut scalar两jet但改变后续g：w.005/A−3、−5真到1.0，其他四例失败。[−5实际C²桥全段](notes/2026-11-17-parallel-pulse-full-C2-field.md)320胞1310万点Gram1.312425e−6超门/κ6.98222，端点8.173e−7不代表全段；同标量延至1.01在1.0039896域失败。
 
 [正确pulse完整规范化](notes/2026-11-17-parallel-numerical-pulse-arclength-prefix.md)原498胞按原M112保存二jet后zero-lift，加新320胞逐位共享cut jet；整个818胞统一q_N4096，8192角/4→8sub实际Gram1.974408e−7→1.974411e−7，κ6.98222。R638已严格结清全域q_N>.0986及rho正性/C²坐标，仍不冒固定g重求解收敛、闭面或原BVP接受。
+
+[单一负κ hold](notes/2026-11-17-parallel-numerical-negative-hold-ivp.md)保真.995 scalar两jet，.002降至−2.5/保持.02/.02升至1.5，正平台补最终角；真M320/N4096到1.02、1601节点、末Gram5.551e−7/H正。参考R/H/L与必要长度余另列，不冒实际D/幅度；完整共享jet桥及全场规范化正读，换g不冒精化。
 
 **旧弱场/未来尾口。** [M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真9780节点/RMS.01608超14000失败；[弱高度meanLP](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)400步仍Gram6.097e−6，不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)全方程/坐标反号已付；[未来内向DN](notes/2026-11-17-parallel-numerical-inward-reference-dn.md)仅a′−.8参考口/2368胞元/材料m2..16，RK8→16差7.59e−10，unitPcut的m2内|h_r|198.79。真实cut、rho加权角谱、无限DN和非线性尾均未付。
 
