@@ -1,0 +1,46 @@
+{
+  "scope": "Export the existing m3 checkpoint as an exact finite C2 tail definition.\n\nNo BVP/Newton solve is run. The original exporter is copied byte-for-byte,\nthen its conditional background-curvature metadata is changed explicitly.\nAll generated arrays stay in the selected scratch output directory.\n",
+  "command": [
+    "node",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/runtime/scripts/db6f-tail-increment-export-v2-B8.mjs",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz",
+    "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail",
+    "--source-root",
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+    "--depth",
+    "8",
+    "--steps",
+    "32",
+    "--angular-nodes",
+    "256",
+    "--degree",
+    "96",
+    "--difference-step",
+    ".00005",
+    "--audit-angular-nodes",
+    "128",
+    "--audit-fractions",
+    "0.25,0.5,0.75"
+  ],
+  "checkpoint": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz",
+  "checkpoint_sha256": "12754098ba6cffc0abb5f0c327c7a376cac826ea8ab820b793ec5ad9b958c4f2",
+  "original_exporter_sha256": "3e87f6641f993d5bb440398c49112a37ad13937a5419ecd901bd33249a101921",
+  "executed_exporter_sha256": "5edf6109263d4e37deb82034fcb149d6e617b9c41aad434d4f935eaf11ecb0b4",
+  "transformation": {
+    "old": "assumedBackgroundCurvature:6.001",
+    "new": "assumedBackgroundCurvature:8.001",
+    "count": 1
+  },
+  "source_files": {
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "closing_tail_sources.mjs": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+  },
+  "mathematical_background_bound_is_a_separate_obligation": true,
+  "bvp_solves_executed": 0,
+  "exit_code": 0,
+  "finished": true,
+  "tail-manifest.json_sha256": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+  "tail-collar.json_sha256": "063b44d2ea114162c3e7a4badde5a6c17e3254993701d907fd3c222d13842e9f"
+}

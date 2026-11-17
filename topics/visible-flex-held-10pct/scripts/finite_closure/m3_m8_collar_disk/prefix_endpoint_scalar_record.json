@@ -1,0 +1,43 @@
+{
+  "scope": "Recover actual Cartesian position/two-jet at a successful small-cut prefix.\nIncludes nonlinear mean height and its derivatives. The saved arrays are local,\nrecomputable intermediate data; neither these nor H alone close a nonlinear tail.\n",
+  "checkpoint_sha256": "2efcc8e2f3edd765760266e9d1b83f0ee2cba1bc0b2fdb04e8b5427d645525a5",
+  "array_sha256": "8652300dab90dd27d6f369fa4fd841cb384ec1359263e0ea53454bc85bc6d9f4",
+  "q": 0.020001225073149356,
+  "modes": 8,
+  "angular": 512,
+  "cut": {
+    "radius": 0.29999999999999993,
+    "backgroundSlope": 0.08000000000000027,
+    "backgroundSecond": -1.866666666666673,
+    "E": 1.0064,
+    "Ep": -0.2986666666666687,
+    "_prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "mean_position": [
+    2.47198095326695e-17,
+    1.5963182923954544e-17,
+    0.7859258290315051
+  ],
+  "mean_Xs": [
+    5.767955557622884e-17,
+    5.113707309163662e-17,
+    0.07975197359795141
+  ],
+  "mean_Xss": [
+    -6.754579534584693e-17,
+    6.310395457044538e-19,
+    1.8426812014545952
+  ],
+  "mean_height": 0.7859258290315047,
+  "height_deviation_max": 5.502504490084714e-05,
+  "metric_components_max": [
+    1.2656542480726785e-14,
+    1.7578531223231656e-15,
+    1.6775469902086115e-13
+  ],
+  "chart_defect": 0.0
+}

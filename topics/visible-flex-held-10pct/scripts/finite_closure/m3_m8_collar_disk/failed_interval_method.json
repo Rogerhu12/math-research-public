@@ -1,0 +1,13 @@
+{
+  "scope": "Preserved insufficient interval method, not a physical failure.",
+  "source_sha256": "bb9c0c8732c3a9c43a253df0ee335d1dbc7f4c8071062a1018f03c75a6d0d341",
+  "log_sha256": "0f345d93210c4c6c5ae33f02aabfa33e21aae5a654f45aa60ebff5349e98bb7e",
+  "input_sha256": "f9efb5c41fc7a4e683222c86bce279d94fc5f328332c6ff21db82901a864fab9",
+  "panels": 64,
+  "cells": 16,
+  "method": "Direct interval Horner evaluation of monotone smoothstep polynomials",
+  "result": "Positive-normalization sufficient gate failed; no certificate output produced",
+  "A_upper_display": 0.5608794,
+  "physical_parameters_changed": false,
+  "replaced_by": "certify_background_integrals_v2.py: monotone endpoint range inclusion; successful"
+}

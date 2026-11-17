@@ -1,0 +1,55 @@
+{
+  "scope": "Small outward-interval gates used in the fixed-background proof.\n\nThis checks literal parameters and elementary constants, without integrating\nor running the nonlinear tail. The first-16-cell integral certificate remains\na separate input. Arrays of regenerated calibration constants stay scratch.\n",
+  "source_sha256": "5a6d790953623e179c4426664c1e62834ce9f8798ea917ed6e75415c9f5763d1",
+  "constants_sha256": "f9efb5c41fc7a4e683222c86bce279d94fc5f328332c6ff21db82901a864fab9",
+  "integrals_sha256": "85f768301d5ac97ae79fc64ef58e72d92d0ecf7b86d54a65b1530778ce7e74a6",
+  "all_assertions_passed": true,
+  "interval_precision": 60,
+  "gates": {
+    "Y": {
+      "lower_display": 0.03878445268922045,
+      "upper_display": 0.03878445268922045
+    },
+    "exp7YoverSqrt12": {
+      "lower_display": 1.0815257219348229,
+      "upper_display": 1.0815257219348229
+    },
+    "two_to_11over4": {
+      "lower_display": 6.727171322029716,
+      "upper_display": 6.727171322029716
+    },
+    "cut_over_oldcut_minus_one": {
+      "lower_display": 4.93319801629714,
+      "upper_display": 4.93319801629714
+    },
+    "raw_first_cell_plateau_slope_bound": {
+      "lower_display": 2.143596805972243,
+      "upper_display": 2.143596805972243
+    },
+    "outer_last_port_slope_bound": {
+      "lower_display": 0.08004851212558285,
+      "upper_display": 0.08004851212558285
+    },
+    "last_log_jump": {
+      "lower_display": -3.2098410632142325,
+      "upper_display": -3.2098410632142325
+    },
+    "log_point02": {
+      "lower_display": -3.912023005428146,
+      "upper_display": -3.912023005428146
+    },
+    "log_four": {
+      "lower_display": 1.3862943611198906,
+      "upper_display": 1.3862943611198906
+    },
+    "exp_three_over_two": {
+      "lower_display": 4.4816890703380645,
+      "upper_display": 4.4816890703380645
+    },
+    "base_Wn_constant": {
+      "lower_display": 137.19019558222354,
+      "upper_display": 137.19019558222354
+    }
+  },
+  "statement": "The fixed rotational background has |kappa_i|<=8 and C2 flat-cuff extension, subject only to the cited original deep calibration-root bracket."
+}

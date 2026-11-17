@@ -1,0 +1,85 @@
+{
+  "scope": "Outward interval sums for the fixed m3 small-cut rotational background.\n\nThe first N original nine-piece cells use their frozen binary calibration\nconstants. Complete interval ranges (not point quadrature errors) enclose A,\nB,wA,wB. All remaining cells use a proved geometric-series majorant. The\nexact positive radial normalization is (cut-r_deep-int A)/int B.\n\nThis proves background bounds only, not the nonrotational finite-map metric.\n",
+  "input_sha256": "f9efb5c41fc7a4e683222c86bce279d94fc5f328332c6ff21db82901a864fab9",
+  "source_sha256": "2fb5d74212176efd8229133b3439b6f083ea96d8b26a7e95240d58620cdc7249",
+  "frozen_calibration_alpha_range": [
+    1.0154504636256139,
+    1.4951194808096238
+  ],
+  "cells": 16,
+  "panels_per_piece": 64,
+  "interval_decimal_precision": 60,
+  "complete_integrals": {
+    "A": {
+      "lower": 0.12222662833886434,
+      "upper": 0.18892943570190635,
+      "lower_exact": "8807356765466585/72057594037927936",
+      "upper_exact": "1701725072452847/9007199254740992"
+    },
+    "B": {
+      "lower": 0.0006004970051405607,
+      "upper": 0.0006010704987725043,
+      "lower_exact": "2769303642714243/4611686018427387904",
+      "upper_exact": "5543896830556669/9223372036854775808"
+    },
+    "AH": {
+      "lower": 0.015205622590274836,
+      "upper": 0.024607320504153162,
+      "lower_exact": "8765444637631763/576460752303423488",
+      "upper_exact": "7092577244997795/288230376151711744"
+    },
+    "BH": {
+      "lower": 1.9893820016693905e-05,
+      "upper": 2.001032022849188e-05,
+      "lower_exact": "1467904825985571/73786976294838206464",
+      "upper_exact": "5906004097407407/295147905179352825856"
+    }
+  },
+  "positive_exact_normalization": {
+    "lower": 101.6029973569006,
+    "upper": 212.7793653712348,
+    "lower_exact": "3574837664345805/35184372088832",
+    "upper_exact": "1871627091011765/8796093022208"
+  },
+  "exact_background_height": {
+    "lower": 0.017226894332849643,
+    "upper": 0.028865103743246846,
+    "lower_exact": "1241328558370761/72057594037927936",
+    "upper_exact": "8319799709574221/288230376151711744"
+  },
+  "cell0_inner_radius": {
+    "lower": 0.1104690124031478,
+    "upper": 0.16000536548986485,
+    "lower_exact": "3980065624758425/36028797018963968",
+    "upper_exact": "5764800835179483/36028797018963968"
+  },
+  "analytic_deep_remainder": {
+    "A": {
+      "lower": 2.7426067692201567e-05,
+      "upper": 2.7426067692201574e-05,
+      "lower_exact": "2023686606665105/73786976294838206464",
+      "upper_exact": "4047373213330211/147573952589676412928"
+    },
+    "B": {
+      "lower": 7.931095521884027e-09,
+      "upper": 7.93109552188403e-09,
+      "lower_exact": "4794053077117781/604462909807314587353088",
+      "upper_exact": "4794053077117783/604462909807314587353088"
+    },
+    "AH": {
+      "lower": 2.6155536358071868e-11,
+      "upper": 2.6155536358071874e-11,
+      "lower_exact": "2023686606665105/77371252455336267181195264",
+      "upper_exact": "4047373213330211/154742504910672534362390528"
+    },
+    "BH": {
+      "lower": 7.56368210018542e-15,
+      "upper": 7.563682100185423e-15,
+      "lower_exact": "4794053077117781/633825300114114700748351602688",
+      "upper_exact": "4794053077117783/633825300114114700748351602688"
+    }
+  },
+  "seconds": 4.035694064001291,
+  "infinite_nonlinear_solution_proved": false,
+  "nonrotational_geometry_certified": false
+}

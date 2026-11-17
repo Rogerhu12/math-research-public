@@ -1,0 +1,44 @@
+{
+  "scope": "Executed fixed-M8 finite C2 export. Numerical sample metrics are not continuous certificates.",
+  "checkpoint_sha256": "12754098ba6cffc0abb5f0c327c7a376cac826ea8ab820b793ec5ad9b958c4f2",
+  "manifest_sha256": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+  "collar_packet_sha256": "063b44d2ea114162c3e7a4badde5a6c17e3254993701d907fd3c222d13842e9f",
+  "settings": {
+    "depth": 8,
+    "steps": 32,
+    "angularNodes": 256,
+    "degree": 96,
+    "radialDifferenceStep": 5e-05,
+    "grid": "uniform",
+    "auditAngularNodes": 128,
+    "auditFractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "stageHermiteCorrection": true
+  },
+  "coefficient_count": 73,
+  "unique_nodes": 4638,
+  "totals": {
+    "metric": 3.597444517619588e-08,
+    "fullTensor": 0.0016989631558782957,
+    "curvature": 8.040679529440585,
+    "minArea": 0.9999999820127798,
+    "sourceMetric": 3.186376711080182e-10,
+    "sourceFullD": 2.3453587717968764e-06,
+    "maxSeamValue": 8.06343024712915e-12,
+    "maxSeamFirst": 6.223015277861142e-61,
+    "maxSeamSecond": 2.3496345321524277e-32,
+    "minRadialGap": 1.267900051298082e-11,
+    "maximumWholeCellV2Norm": 28.877043748334803,
+    "maxIntegratedPositionDeviation": 1.0361092436491151e-11,
+    "stageFirstEndpointDefect": 2.6506709080144316e-18,
+    "stageSecondEndpointDefect": 1.7713205113290866e-10,
+    "stageMaxFirstCorrection": 1.864429838847163e-13,
+    "stageMaxSecondCorrection": 1.7713205113290866e-10,
+    "maxSourceRadiusDisplayDifference": 1.4432899320127035e-14
+  },
+  "bvp_solves": 0,
+  "source_scope": "Exact C2 integrated-quartic derivative perturbation plus one fixed analytic rotational background; shared binary nodes, endpoint derivative jets, physical-midpoint first derivatives and C3 coefficients. Sampling is not a continuous metric/curvature certificate. Planar rr source uses finite differences; ODE and far nonlinear graph errors remain unpaid. Sampled target jets are evaluated at the source profile radius; maxSourceRadiusDisplayDifference records the numerical shift to the exact-sum representation. No continuous certification is inferred from these samples. Each stage endpoint shooting defect is distributed through one physical-r cubic Hermite correction to Fr; its exact derivative corrects Frr. This is part of the finite map definition, not an exact ODE correction."
+}

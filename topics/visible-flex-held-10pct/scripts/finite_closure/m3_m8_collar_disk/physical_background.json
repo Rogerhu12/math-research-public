@@ -1,0 +1,54 @@
+{
+  "rCut": 0.3,
+  "wCut": 0.08,
+  "width": 0.25,
+  "curvatureBound": 8,
+  "delta0": 0.006,
+  "R": 64,
+  "a": 2.75,
+  "etaPower": 1.5,
+  "etaRatioAtN0": 0.05,
+  "orientation": 1,
+  "prefixR": 2,
+  "prefixEnd": 15,
+  "prefixReturnStart": 8,
+  "protectCell": 160,
+  "calibrationSteps": 512,
+  "warpSteps": 16,
+  "quadratureTolerance": 2e-10,
+  "slopeCap": 0.02,
+  "capTransition": 2,
+  "capMode": "cut-preserving",
+  "cuspAwareQuadrature": true,
+  "rejoinR20At": null,
+  "rejoinIndexOffset": 4,
+  "pulseCaps": [
+    [
+      0.4,
+      0.02
+    ]
+  ],
+  "valleyCaps": [
+    0.1
+  ],
+  "maxCachedBetas": 1,
+  "warpWeightLevels": [
+    [
+      1,
+      0.5,
+      3,
+      0.05,
+      1
+    ]
+  ],
+  "constructor": "closing_weighted_tail_v1",
+  "valleyControlsHead": [
+    3.125,
+    2.8125,
+    4.0625,
+    5,
+    5.25,
+    4.0625
+  ],
+  "valleyControlsPadTo": 160
+}

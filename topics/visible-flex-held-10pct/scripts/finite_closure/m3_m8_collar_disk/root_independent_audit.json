@@ -1,0 +1,24 @@
+{
+  "scope": "Root independently reran the exact Fraction collar/disk checker on the actual regenerated inputs. All JSON values, including rational numerators/denominators and input hashes, are identical. The entire sequential replay wrapper was not rerun.",
+  "result_dict_identical": true,
+  "source_sha256": "bae060cfb362ba3c9e5e5f0df2a51e96b87e62f0464ddebedbcd657a0eaaf2f7",
+  "frozen_scalar_sha256": "874504e289fa21a545ebc42711db18df6d1c34ed13d9dee57cb5997f82c805bb",
+  "independent_scalar_sha256": "874504e289fa21a545ebc42711db18df6d1c34ed13d9dee57cb5997f82c805bb",
+  "argv": [
+    "python",
+    "audit_collar_and_disk.py",
+    "--manifest",
+    "../m3_fixed_m8_c2/tail-manifest.json",
+    "--collar-exact",
+    "../m3_fixed_m8_c2/tail-collar-exact.json",
+    "--prefix-endpoint",
+    "../m3_q02_fixed_prefix_endpoint.json",
+    "--background",
+    "../m3_fixed_background_interval64_v2.json",
+    "--reader",
+    "SOURCE_TOPIC/scripts/db6f_tail_integrated.py",
+    "--out",
+    "../root-independent-collar-audit.json"
+  ],
+  "editorial_note": "Frozen agent Markdown retains its original bytes and typographical math delimiters. Its date 2026-11-18 is UTC+8, not UTC. The clean result R21 carries the reviewed theorem and scope."
+}
