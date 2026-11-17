@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R629（已证明，支撑平面大帽）**：[外向固定帽无损reach与held单调性](results/R629-outward-supporting-caps-preserve-reach-and-held-distance.md)：同帽Hessian≤1/τ、真实异片距离≥2τ时保源reach；任意两相位dH_old≤dH_new≤dH_old+h。有固定卷积h=.01875/.02帽和准确矩/面积/直径预算，需真实支持帽及全场隔离，不冒新闭源。
+
 - **R628（已证明，非轴尾接合误差）**：[完整共法向、真实伴随与Green响应](results/R628-nonaxis-conormal-adjoint-and-tail-green-response.md)：一般Darboux候选的ν⁻³散度式保留真实缺陷，Π=zW(k−αp)及伴随边界修正显式；深Robin/体源经实际边值响应传到浅DN，保非线性二阶余项，未计算新误差常数。
 
 - **R627（已证明，固定帽优化）**：[有符号卷积帽与精确矩](results/R627-signed-convolution-caps-and-moment-optimization.md)：同h=.0003/reach/直径预算下，显式C²帽将R625弱帽B₂提高>7.7395倍，体积与重心准确保持。固定Lipschitz松弛问题有全局最优式；C²族一维搜索只作数值证据，实际闭源/A₂仍未付。
