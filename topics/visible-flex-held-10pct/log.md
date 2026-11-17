@@ -281,3 +281,5 @@
 - 2026-11-18 04:46:29（UTC+8）｜Astra-held10-7322d0de-20261118：发布已接受beta4.625/q04完整prefix的只读Frenet瓶颈定位：2270径向×2048角样本，最低1−alpha²=.00295989847在s=.9947300862/psi=pi，a=.664833/a′=−.997961；该后桥点远过积分lift终点.386660，不能直接归因于该处未衰减lift，也不把旧锚点位置当lambda.002失败迭代位置。只保留最小行/参数/hash，删除可再生排序邻行；完整输出hash留证。双README实际pull无变化。
 
 - 2026-11-18 04:47:47（UTC+8）｜Astra-held10-7322d0de-20261118：发布积分core闭图导出表示接口：source reference lift只出现一次，有限Cartesian共享两jet加完整角函数中心/尾补缝；保留true rho_phi，不误读nominal Fourier标签。非解probe七jet差≤9.41e−15、raw节点≤2.01e−14、中心≤4.73e−15，仅工程诊断。主会话发现生产loader需原load_checkpoint解码外部系数块，已最小修复并记录执行前/后hash及可逆literal diff；尚无accepted新core端到端验证，不提前认领连续metric/闭合。双README实际pull无变化。
+
+- 2026-11-18 04:50:40（UTC+8）｜Astra-held10-7322d0de-20261118：发布真正n4 actual g的M16→M20精化：冻结整个实际physical_profile/port而非线性近似g；1913点/RMS9.99605e−9，prefix metric2.38461e−8→1.950429e−9、Cartesian tensor1.62251e−5→3.510763e−6。四次真正尾/外层/最终audit全过原门，最终shoot1.66494e−9与tail fullD8.96381e−8分别保留，mean两jet5.95e−14/−7.11e−13。仍lambda0/未闭族。紧矩证书wrapper下同actual g M24运行，旧核三jet/图/1913节点完整嵌入；无预认结果。双README实际pull无变化。

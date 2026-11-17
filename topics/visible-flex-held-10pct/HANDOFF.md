@@ -7,18 +7,18 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`1c59430f77036aabffff82de120efdc49743cb3b`。2026-11-18 04:47:47（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`fa7dede8d629223eb3f29fdd7664014ae97c031e`。2026-11-18 04:50:40（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
 
 ## 1. n4：实际尾、低 eta 增幅与圆化
 
-**已有真正联立**：eta1/q001/M12 的993点首态见 n4-first-true-coupled-state。新 eta.1/q.01/M16 已完整联立724点，δ=.030027177128250468、vd=.2483630655929876，物理 BC3.48021e−11；5次实际 tail 最终 residual1.60671e−9/minA.942545/metric5.78293e−12/fullD1.49888e−7。prefix metric2.38461e−8、tensor1.62251e−5；mean 两jet差−1.17e−12/2.85e−11、非mean二阶4.77e−8。仍 λ0/未闭合，见 n4-eta010-true-coupled-state。
+**实际联合锚点**：eta1/q001/M12见n4-first-true-coupled-state；eta.1/q.01/M16在724点完整接受，实际g为δ=.030027177128250468/vd=.2483630655929876，见n4-eta010-true-coupled-state。新精化均从后者出发，仍lambda0/未闭合。
 
 原非周期q01在.2H后工程中断；周期版本重新完成全部联立。R30证明N512/spacing4的128独立标量行与原有限求积恒等，全部D/S/A/root/2e−9门保留；空间点不得周期复制。
 
-**actual g 的 M20运行中**：q01最终CP冻结全部g，原TailMixin/outer及门，M20/tol1e−8/N512/RK16/parts8；原跨模nested-remesh后fullH audit过门，prefix未终态。源refine_actual_tail.py，目录n4_work/actual-eta010-q010-fixed-m20；不借线性g精化计分。
+**actual g 的M20已接受**：完整g/port冻结，1913点/RMS9.99605e−9，prefix metric2.38461e−8→1.950429e−9/tensor1.62251e−5→3.51076e−6；4次真尾最终res1.66494e−9/minA.942545/metric2.27685e−12/fullD8.96381e−8，mean两jet5.95e−14/−7.11e−13。见n4-actual-fixed-m20。现同g M24/1536/N512/tol1e−8继续，三jet/全图初值≤2.09e−15，旧1913点全留；不借线性g结果。
 
 **原 w.08 增幅**：eta.1/λ0 的 q.01/M16、q.0125/M16、q.015/M20 原 BVP 接受；最后784点 metric9.23853e−7/tensor3.64609e−4/K6.99816/rootmin.00229460。δ/vd随 q 重解，仍线性 port，非同g。q.02大跳与重复 q.0175/M20 明确取消，不是数学失败。q.0175/M24 的初始 rho 守卫曾因系数区间过宽拒绝；同一 Gram 的 Taylor100→180使逆误差由10326.78降至1.90e−40，原门下界.736211。未改核心或放门，M24 实际 BVP 继续。见 n4-eta010-amplitude、n4-m24-coefficient-certificate。
 
@@ -48,7 +48,7 @@ R21/R23已定义原有限C²闭图和全mean接缝，R24固定帽排全部O(3)�
 
 同checkpoint尾32→64步真实R处metric1.8282e−9→1.4441e−10；整图采样最大仅至1.6485e−9，prefix主导。两层尾二阶差仍.00629485，未证C²极限；每层重做cut/mean，不是差分步造成的主要误差。
 
-R27原背景真积分给λ∈[161.87100490348996,161.8710049035018]；工厂λ严格偏高(2.0236e−11,3.2089e−11)，不能替代真g。R29原有限尾全角/全径向/全相位operator界9.996590773606874e−7；R31原2464前缀跨度完整多项式/Laurent及解析核心四阶Taylor给prefix<8.253e−7。真桥积分、数值舍入与各层唯一共用固定atlas转换均支付，没有改图/逐层换g。R31的C3协变来自精确复平面频率定义，不是小DFT残差假设。
+R27已严格区分原背景真积分与工厂偏差；R29尾连续operator界9.996590773606874e−7，R31前缀<8.253e−7。真桥积分/舍入/各层唯一共用atlas全部支付，未改图或逐层换g；C3协变来自精确频率定义，非小DFT残差假设。
 
 **合并圆领/固定帽，同一低幅全闭图全域全时metric<1e−6已经证明。** 上述是充分界，非真实最大误差估计；held仍远小于.1，不能标完成。既有空间/频率/尾径向下降是独立数值证据，没有证明精确无限解。高幅积分core导出接口已保留一次完整reference lift，并用全角Hermite恒等式补中心；非解probe七jet差≤9.41e−15，不认作新解/连续证书。原chunk解码已复核修正，待首个accepted圆化CP端到端检验；见m3-integral-core-export-interface。不重扫低幅盒。
 
