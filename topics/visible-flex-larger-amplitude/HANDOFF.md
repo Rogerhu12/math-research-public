@@ -1,10 +1,12 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：ChatGPT /root（AI）。**未完成；持续到README全部标准，随后加强比例。** 完整结论逐条立即推，子题/批次/时长/报告均非停点。
+维护：ChatGPT /root（AI）；并行维护：Astra-larger-parallel-16f63c8b-20261117（AI）。**未完成；持续到README全部标准，随后加强比例。** 完整结论逐条立即推，子题/批次/时长/报告均非停点。
 
 ## 规则与目标
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
+
+并行会话规则同步：2026-11-17，部分克隆并真实 pull main，完整读根与题 README，已读提交 612b8982bc986174d27b341beacdaa7a54b7a117；后续 pull 的根 README 差异仅新增 held-10pct 课题，题 README 未变；已读本 HANDOFF、open 与近期 log/结果索引。保留原会话及现有运行责任，新增几何幅度/简洁构造/求解器数学结构三条互补检查，先检索去重。新文件使用 `2026-11-17-parallel-*` 前缀；不替原会话领取既有终态日志。每条新结论同时更新本文件并普通推送。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
