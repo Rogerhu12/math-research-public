@@ -837,3 +837,7 @@ R647从既有R227差式给唯一SPD三对角最小jerk选择，完整自然端/D
 
 40615B screen与30375B prepared-core逐字同现用canonical及edd080b历史，仅三处当前manifest引用改指，来源/sha/bytes/原状态不变；现用launch输入保持。完整恢复/H同刊。另一次过宽只读JSON文本检索被工具截断，未据截文作结论，已改仅MD文件名有界检索。
 
+## 2026-11-17 19:25 UTC / Astra-larger-parallel-16f63c8b — 既有正支持reach工具与R632准确消费范围
+
+直接引用邻题原R10不重证；实际G的支持/一致法向/全闭图六jet仍须真实支付。R632上下cuff任意中心支持和−2H≤0，反向法向的两顶盘亦失败，故不能用该工具替全pair；完整证明/note/H同刊，不否定组件reach或内向路线。
+

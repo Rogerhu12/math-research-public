@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整证明/失败/身份见[open§7](open.md#7-本并行会话的实际数学与几何路线)。[原LM终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)20/20未收敛，bf5a的cubicGram7.136e−5，非父。2754 T单步已付但Gram7.506e−4未过；[0f新T预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)99082已启，复用方向0/尺度，后续512、总24/20，[bf5a实际C²](notes/2026-11-17-parallel-geometry-implicit-lm-quintic-terminal.md)全胞Gram8.01546e−5、节点3.62218e−5；唯一镜像首胞修改同坏节点，非父。两证书e024保原计划/已完片复用：[R648全Gram](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)已819/819真实全返，连续上界4.94e−7；曲率818胞继续，model唯一读者。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整证明/失败/身份见[open§7](open.md#7-本并行会话的实际数学与几何路线)。[原LM终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)20/20未收敛，bf5a的cubicGram7.136e−5，非父。2754 T单步已付但Gram7.506e−4未过；[0f新T预算](notes/2026-11-17-parallel-numerical-integrated-lm-budget.md)99082已启，复用方向0/尺度，后续512、总24/20，[bf5a实际C²](notes/2026-11-17-parallel-geometry-implicit-lm-quintic-terminal.md)全胞Gram8.01546e−5、节点3.62218e−5；唯一镜像首胞修改同坏节点，非父。两证书e024保原计划/已完片复用：[R648全Gram](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)已819/819真实全返，连续上界4.94e−7；曲率818胞继续，model唯一读者。R10仅直接消费；R632镜像回头盖无共同中心正支持。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 
