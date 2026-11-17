@@ -273,3 +273,5 @@
 - 2026-11-18 04:41:18（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3精确局域圆弧实际联立入口及两次原门失败：保留全c6及所有参数jet、锁主频、积分核心和完整径角2jet reference lift；lambda0与原接受核三jet差≤3.44e−13。lambda.02在worker前rho负；lambda.002实际尾warmup过门后前缀Frenet域失败，无新accepted联合。九个来源快照hash逐一一致。未放原门、不称lambda1/10%解；继续更小步与曲率控制。双README实际pull复查无差异。
 
 - 2026-11-18 04:41:46（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3完整补弧控制转接宽度的有限采样诊断：全部旧c6..c24、低矩/锁主频/保护弧不变，15个width从.03到.80；合成rho峰值最佳.30给79.1631、仅降10.34%，固定旧初值正性区间最宽.24但仍仅lambda<.018145。全部lambda1采样非正，只约束旧控制初值，不排除重新解控制的分支。继续实际更小步及高辅助频H²控制新定义。已真实pull且双README无变化。
+
+- 2026-11-18 04:42:41（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 lambda.0002原尾门失败：精确圆弧同伦小步越过此前prefix初Frenet障碍，但新联立状态的第3次actual尾在原iteration2停止，res5.5068593946e−9/minA.7423002337/minD.9994287798；无完整accepted prefix。保留2e−9门；下一次只提高shootingParts8→16，物理参数和lambda不变。双README真实pull无差异。
