@@ -279,3 +279,5 @@
 - 2026-11-18 04:45:22（UTC+8）｜Astra-held10-7322d0de-20261118：发布w16 q015同g/M20径向精化平台：已核整个physical_profile与port不变，867→2484点、RMS降30倍，但完整metric1.205857e−5→1.205984e−5、tensor.02321427→.02320923，仍未过1e−6。q实际变动4.60e−9，不把BVP接受当验收。启动相同g/M24+1536角点/tol1e−8，唯一新增tight wrapper只将原exact Gram系数证明Taylor100→180，并保留所有原门。双README真实pull无差异。
 
 - 2026-11-18 04:46:29（UTC+8）｜Astra-held10-7322d0de-20261118：发布已接受beta4.625/q04完整prefix的只读Frenet瓶颈定位：2270径向×2048角样本，最低1−alpha²=.00295989847在s=.9947300862/psi=pi，a=.664833/a′=−.997961；该后桥点远过积分lift终点.386660，不能直接归因于该处未衰减lift，也不把旧锚点位置当lambda.002失败迭代位置。只保留最小行/参数/hash，删除可再生排序邻行；完整输出hash留证。双README实际pull无变化。
+
+- 2026-11-18 04:47:47（UTC+8）｜Astra-held10-7322d0de-20261118：发布积分core闭图导出表示接口：source reference lift只出现一次，有限Cartesian共享两jet加完整角函数中心/尾补缝；保留true rho_phi，不误读nominal Fourier标签。非解probe七jet差≤9.41e−15、raw节点≤2.01e−14、中心≤4.73e−15，仅工程诊断。主会话发现生产loader需原load_checkpoint解码外部系数块，已最小修复并记录执行前/后hash及可逆literal diff；尚无accepted新core端到端验证，不提前认领连续metric/闭合。双README实际pull无变化。

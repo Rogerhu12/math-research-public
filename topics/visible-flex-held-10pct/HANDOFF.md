@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`2432ece26c5093a7a7068159d031b17cf0133c72`。2026-11-18 04:46:29（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`1c59430f77036aabffff82de120efdc49743cb3b`。2026-11-18 04:47:47（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -26,7 +26,7 @@
 
 **新 wCut=.16**：原 worker 重建24模 port 和双根，背景 min(1−a′²)=.01602343；新整g的 eta.1/λ0/q.01、.0125/M16 接受731/748点，metric2.48504e−8/5.97569e−7，tensor1.32802e−5/2.12364e−4，rootmin.01563/.01530。见 n4-thicker-cut-prefix-states。q.015/M20随后原BVP接受867点，但完整metric1.20586e−5/tensor.0232143未过，rootmin.001623；见 n4-thicker-cut-q015-full-metric。冻结该g/M20/tol1e−8后2484点，metric1.20598e−5/tensor.0232092几乎不变，单独径向精化未解；见n4-w016-q015-radial-plateau。现同g/M24/tol1e−8，tight原Gram系数证明及原门，运行q015-fixed-m24。圆化优先q0125接受态，从λ.001完整材料链起。新C²网格插值rho下界保留原两界/阈值/32768上限，λ.005同核心由原拒绝变为2048点下界.26731；只过初猜守卫，见n4-circle-second-order-rho-bound。所有新δ/vd仍新设计。
 
-**条件核心窗口与既有圆化失败**：R19/19A 中心对称整像下界、中央柱公共 H、四重核心配二重帽已证。eta1/q.02/.022在D≤2.65/σ≥.08/K≤12.5等条件下held/D>.104902/.115401；eta.1/q.049零控制rho>.234093、条件held/D>.103812。真实圆心/初负K窗已付，未来补弧控制须重付rho，实际λ1前缀/尾/闭族未付。见 n4-large-radius-circle-core、n4-large-radius-eta-selection。低幅eta1/q001/M8直接至λ.1、完整材料预测至λ.15虽BVP接受但metric均未过，λ.2/.175原节点门失败；精确reference lift一直保留，不是入口丢高频或不存在证明。见 n4-low-amplitude-circle-terminal；旧 bimodal/double-prefix 失败不重做。
+**n4条件窗/旧失败**：R19/19A已证中心对称整像下界、公共H及四重核心+二重帽。eta1/q.02/.022条件held比>.104902/.115401；eta.1/q.049条件>.103812，零控制rho>.234093。实际lambda1/闭合未付；见n4-large-radius-circle-core、n4-large-radius-eta-selection。低幅q001直接lambda.1/材料lambda.15虽BVP接受但metric失败，lambda.2/.175节点门失败；精确lift保留，非入口投影缺失或不存在，见n4-low-amplitude-circle-terminal。
 
 ## 2. m3：高幅真正联合与三重圆弧入口
 
@@ -50,7 +50,7 @@ R21/R23已定义原有限C²闭图和全mean接缝，R24固定帽排全部O(3)�
 
 R27原背景真积分给λ∈[161.87100490348996,161.8710049035018]；工厂λ严格偏高(2.0236e−11,3.2089e−11)，不能替代真g。R29原有限尾全角/全径向/全相位operator界9.996590773606874e−7；R31原2464前缀跨度完整多项式/Laurent及解析核心四阶Taylor给prefix<8.253e−7。真桥积分、数值舍入与各层唯一共用固定atlas转换均支付，没有改图/逐层换g。R31的C3协变来自精确复平面频率定义，不是小DFT残差假设。
 
-**合并圆领/固定帽，同一低幅全闭图全域全时metric<1e−6已经证明。** 上述是充分界，非真实最大误差估计；held仍远小于.1，不能标完成。既有空间/频率/尾径向下降是独立数值证据，没有证明精确无限解。此接口转用于高幅候选，不重扫低幅盒。
+**合并圆领/固定帽，同一低幅全闭图全域全时metric<1e−6已经证明。** 上述是充分界，非真实最大误差估计；held仍远小于.1，不能标完成。既有空间/频率/尾径向下降是独立数值证据，没有证明精确无限解。高幅积分core导出接口已保留一次完整reference lift，并用全角Hermite恒等式补中心；非解probe七jet差≤9.41e−15，不认作新解/连续证书。原chunk解码已复核修正，待首个accepted圆化CP端到端检验；见m3-integral-core-export-interface。不重扫低幅盒。
 
 ## 4. 其他已登记结论与未付入口
 
