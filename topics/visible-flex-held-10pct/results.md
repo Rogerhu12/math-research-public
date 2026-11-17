@@ -22,3 +22,7 @@
 ## R27. 同一固定背景的真积分精细区间
 
 [完整证明](results/R27-sharp-integrals-of-the-fixed-background.md)。同g的A/wA总变差与B/wB四阶区间Simpson给精细λ、真高度及深处余项，严格分辨数值工厂约2e−11至3.3e−11的归一化偏差。它是背景真积分证书；非旋转连续metric还须部分积分与反函数界。
+
+## R28. M16径向64步完整闭图与固定标记
+
+[完整证明](results/R28-refined-m16-closed-map-with-fixed-markers.md)。新共同cut/mean图用自身连续几何与体积矩证明全相位reach≥.1、D≤2.301491469394及含反射的δE>0；固定H直径比>.69794、整像held比>.00546265。它仍低于10%，未证明精确等距。数值32→64比较另见同日m16-same-checkpoint-radial64笔记。

@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`f92715c8ddce981d113dbf367c9f43bc027ec14c`。2026-11-18 03:27:37（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`c281929eabef516bc03c12a86fac4de7cd99612a`。2026-11-18 03:30:01（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -47,11 +47,9 @@ R27同原g真背景积分精证：A/wA总变差、B/wB四阶区间Simpson和48�
 
 R21/R23：实际M8共享Cartesian二jet、唯一mean、有限尾/圆领/平盘形成完整C² S²；504320 prefix盒+4637尾段给全相位σ>.7/K≤10/D<2.30242/reach≥.1，相位Jac>.8399。圆领/盘metric<1.36e−29；精确等距未证，零marker的δE=0。源finite_closure/m3_m8_collar_disk、m3_m8_closed_map，R24另付固定帽。
 
-**同g全闭M8→M16新定位**：共同材料角prefix metric算子范数1.26083e−8→1.64624e−9；在有限尾实际R反解同一背景，metric样本3.91912e−8→1.82821e−9。FFT/径向采样不是连续metric界。两尾Vrr峰的有限层差.01177/.00814，而源层差仅约2e−7；差分步2e−4→6.25e−6变化<5e−10，主因是有限径向表示。原M16固定checkpoint的steps32→64重建在做，非新BVP。见2026-11-18-m3-closed-metric-and-rr-location及resume_closed/metric_rr_execution。
+**同g全闭误差定位/细化**：M8→M16两处尾Vrr有限层差约.01而源层差仅2e−7，原差分步2e−4→6.25e−6影响<5e−10。固定M16 checkpoint仅尾表示32→64步，实际R metric降1.8282e−9→1.4441e−10，但整面最大仅降至1.6485e−9（未加密prefix主导）。同点内部Vrr误差约降5倍，全尾两层二阶差仍.00629485，不能称C²收敛。新尾重新进入共同cut/mean；见2026-11-18-m3-closed-metric-and-rr-location、m16-same-checkpoint-radial64及resume_closed的执行记录。
 
-**M16完整连续几何已补**：新1261568 prefix盒给σ>.781320、norm<1.150746、K≤10；匹配18460段尾给σ>.717912/K≤9.261122。与原圆领、唯一mean −19/2^49合并得完整零标记C²闭图全时reach≥.1、D<2.301491470。M8标记矩不自动转移；六jet仍有非零层差，未证C²极限/精确等距。
-
-R24：实际M8两帽ε=η=.5、rc=a/2固定非零标记保持零二jet及唯一mean，全相位reach/D>.0434326/H径比>.697663。连续体积矩给三个互异惯性轴与重心0；α=π/6核心cos3φ→sin3φ排除O(3)，严格δE>0。整像held下界仅.00543686D。源resume_closed/marked_execution；M16须自身矩界。
+**R24/R28实际固定帽**：R24给原M8 ε=η=.5、rc=a/2帽及全O(3)非全等，held/D>.00543686。R28给新M16/64步图自身的1261568 prefix盒、新尾连续界和自身体积矩；全族D≤2.301491469394、reach≥.1、H径比>.6979428、held/D>.00546265624、δE>0。三个惯性根严格互异且core cos3→sin3排反射，全帽内非零点实际查询一致。没有移用M8矩或旧cut。真背景部分积分/反函数与非旋转连续metric正在补；不再铺低幅几何盒。
 
 ## D. 其他结果和来源
 

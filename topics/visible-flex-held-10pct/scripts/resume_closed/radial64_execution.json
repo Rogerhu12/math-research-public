@@ -1,0 +1,450 @@
+{
+  "scope": "Same accepted M16 pair; only tail finite-representation steps32->64. New common prefix cut, actual-radius metric diagnostic, entire continuous geometry, own volume moments and actual fixed marker.",
+  "records": {
+    "m16_export_steps64/execution_record.json": {
+      "output_sha256": "b3983df63a8efb8cf6f3a6bc41b1d4434fd31e45b43eb81ee70ed48166793e51",
+      "executed_command": [
+        "node",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/runtime/scripts/db6f-tail-increment-export-v2-B8.mjs",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail",
+        "--source-root",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+        "--depth",
+        "8",
+        "--steps",
+        "64",
+        "--angular-nodes",
+        "256",
+        "--degree",
+        "96",
+        "--difference-step",
+        ".00005",
+        "--audit-angular-nodes",
+        "256",
+        "--audit-fractions",
+        "0.25,0.5,0.75"
+      ],
+      "original_exporter_sha256": "3e87f6641f993d5bb440398c49112a37ad13937a5419ecd901bd33249a101921",
+      "executed_exporter_sha256": "5edf6109263d4e37deb82034fcb149d6e617b9c41aad434d4f935eaf11ecb0b4",
+      "transformation": {
+        "old": "assumedBackgroundCurvature:6.001",
+        "new": "assumedBackgroundCurvature:8.001",
+        "count": 1
+      },
+      "source_files": {
+        "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+        "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+        "closing_tail_sources.mjs": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7",
+        "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6"
+      },
+      "finished": true,
+      "exit_code": 0,
+      "wrapper_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_collar_disk/prepare_finite_tail.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+        "--outdir",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64",
+        "--steps",
+        "64",
+        "--angular",
+        "256",
+        "--degree",
+        "96",
+        "--audit-angular",
+        "256",
+        "--background-curvature",
+        "8.001"
+      ]
+    },
+    "m16_steps64_actual_radius_metric.json": {
+      "output_sha256": "76d82fc75ab6bd54b42568ea038ddfa0fe647012da3f10cb98bbea7e0ca13ae7",
+      "source_sha256": {
+        "audit_tail_actual_radius_metric.py": "6f16fa6c05fcc24fcb10e71f4433a7ce972c9524c0768a4c5e384dd7fa9d5f72",
+        "background_metric_query.mjs": "97f5557b5f6a076f36a421f6554c804dee6cfa208252f926563e5195311f3f95"
+      },
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/audit_tail_actual_radius_metric.py",
+        "--manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_actual_radius_metric.json"
+      ]
+    },
+    "m16_steps64_common/prefix-common-audit.json": {
+      "output_sha256": "a1066fccb8380a6e721bf756766d5014b12df081001efd5115a8e35451c86ca9",
+      "source_sha256": {
+        "audit_refined_prefix.py": "7600fac536477bad293f14c2da62e8c9980e5bc4ea9bcf823daffc99d059cbd5",
+        "m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+        "shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+        "phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3",
+        "finite_closed_tail.py": "3e44d91a0bfe374656fa08866a80ca689139ecb251eed63c24c5e85c3294a6f5"
+      },
+      "checkpoint_sha256": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+      "tail_manifest_sha256": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/audit_refined_prefix.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--port",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json",
+        "--tail-manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--cap-source",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_collar_disk/finite_closed_tail.py",
+        "--angular",
+        "512",
+        "--radial",
+        "1025",
+        "--outdir",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common"
+      ]
+    },
+    "m16_steps32_64_source_peaks.json": {
+      "output_sha256": "0e1f594ed52f3cf100605b84caf1cacf802edb28a68fd6dbf182fd1ac1c11651",
+      "source_sha256": "e249f28c9e3291f5497f786b317858d6df628ae69b0b975c38e1c33e536ec937",
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_peak_jets_data.json": "b54555a2d7109f23ba690efc988921bdbf99eee0dd62876d03086bbd1b03abf9",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json": "2393fb7321f873563f586771d98666d84d140cbb50bd674d71c7e6090df42bcc",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/compare_peak_jets.py",
+        "--coarse-jets",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_peak_jets_data.json",
+        "--fine-jets",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_peak_jets_data.json",
+        "--coarse-manifest",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json",
+        "--fine-manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps32_64_source_peaks.json"
+      ]
+    },
+    "m16_steps32_64_closed_comparison.json": {
+      "output_sha256": "84572bd487ea1ee11432c3604bc2bff74c2bda4ff8a3f80fe729c080c16c00b6",
+      "source_sha256": {
+        "compare_closed_layers.py": "f2770ea999177a583cf19d87c8897c78accc932507b8ee3f1935386dce14ad82",
+        "paired_prefix_jets.py": "c4be41dcb4fe05680ace59cb7edf2ddeed85f8fc99707998e6fab30cd385f898",
+        "m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+        "phase_angle_chart.py": "4fd6ebab9982cb3b8efaca27784dfa32b3a997a2a4f0132be55b3bb04b2285d3"
+      },
+      "inputs": {
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json": "2393fb7321f873563f586771d98666d84d140cbb50bd674d71c7e6090df42bcc",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/compare_closed_layers.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--coarse-checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--fine-checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--coarse-port",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json",
+        "--fine-port",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json",
+        "--coarse-manifest",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json",
+        "--fine-manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--cap-source",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_collar_disk/finite_closed_tail.py",
+        "--angular",
+        "512",
+        "--batch",
+        "16",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps32_64_closed_comparison.json"
+      ]
+    },
+    "m16_steps64_common/cut-lift-all-angle-bounds.json": {
+      "output_sha256": "b0af43513967b19a4bb786928cd9e42f6350f201975947979c23ec208c768384",
+      "source_sha256": "534eb0947281b5d3d698d08ad28f2fa6fb5bd3aae8ffd95a709efdf930b21fd7",
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz": "7818de0de1873edf18ded4551f0e6044f9c5768271c5cd7a07695020b706d052",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/bound_cut_lift.py",
+        "--prefix-data",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz",
+        "--tail-manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/cut-lift-all-angle-bounds.json"
+      ]
+    },
+    "m16_steps64_common/finite-tail-continuous-geometry.json": {
+      "output_sha256": "41a78929b6ec09794c7a74444fa176a3b4607b011f5eddd234f819660e8c014a",
+      "source_sha256": "b7885834058873a1604f9365226611ad520840a5905484aa2e727828bfdea21d",
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_interval64_v2.json": "85f768301d5ac97ae79fc64ef58e72d92d0ecf7b86d54a65b1530778ce7e74a6",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json": "a1066fccb8380a6e721bf756766d5014b12df081001efd5115a8e35451c86ca9"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/certify_finite_tail_geometry.py",
+        "--manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--background",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_interval64_v2.json",
+        "--prefix-audit",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/finite-tail-continuous-geometry.json"
+      ]
+    },
+    "m16_steps64_common/prefix-continuous-geometry.json": {
+      "output_sha256": "2d5f9937f3d40d185135828d36a44a369ebb728e8028f09031736a21ef8958f5",
+      "source_sha256": {
+        "certify_prefix_geometry.py": "4c50fc023c7a55c15f07e39cdaf993175b676cbee7ba6b25578045ca525914cd",
+        "interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+        "m3_interval_center.py": "a7d5d8d8d80b1ba99d4054dd6cf79a3264421f1c438460dadf10a3a7f77a9f3d"
+      },
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz": "7818de0de1873edf18ded4551f0e6044f9c5768271c5cd7a07695020b706d052",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json": "a1066fccb8380a6e721bf756766d5014b12df081001efd5115a8e35451c86ca9",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/cut-lift-all-angle-bounds.json": "b0af43513967b19a4bb786928cd9e42f6350f201975947979c23ec208c768384"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/certify_prefix_geometry.py",
+        "--data",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--prefix-audit",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json",
+        "--cut-bounds",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/cut-lift-all-angle-bounds.json",
+        "--angular",
+        "512",
+        "--batch",
+        "12",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-continuous-geometry.json"
+      ]
+    },
+    "m16_steps64_common/collar-disk-scalar.json": {
+      "output_sha256": "0ae42f2a8587b90b89c4242945b1c9f225df0894d51a2ec7350f0d9434caa4c7",
+      "source_sha256": "45053497c6ec92a0e6e9117955874348aadbdd614e61b7a885c45da08820cfde",
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-collar-exact.json": "14ac4dafce01409f616b704739771f09ba3346f9fa12ba5197ef2ea8d41a0e1d",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/prefix-endpoint.json": "d05245ce646f2ca9e93ed44066a32596491b49d8e077c9356d09399833e9dacf",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_interval64_v2.json": "85f768301d5ac97ae79fc64ef58e72d92d0ecf7b86d54a65b1530778ce7e74a6",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/audit_collar_and_disk_refined.py",
+        "--manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--collar-exact",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-collar-exact.json",
+        "--prefix-endpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/prefix-endpoint.json",
+        "--background",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_background_interval64_v2.json",
+        "--reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/collar-disk-scalar.json"
+      ]
+    },
+    "m16_steps64_common/closed-continuous-geometry.json": {
+      "output_sha256": "d1bd7ac51cf6c5770fdd82bad6dfa1c5881a0d2edece09382843900985abf345",
+      "source_sha256": "f09c2665f523a54940398f76ba8b92e0bfdd3d09707d18877499a08992d8b3cb",
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json": "a1066fccb8380a6e721bf756766d5014b12df081001efd5115a8e35451c86ca9",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-continuous-geometry.json": "2d5f9937f3d40d185135828d36a44a369ebb728e8028f09031736a21ef8958f5",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/finite-tail-continuous-geometry.json": "41a78929b6ec09794c7a74444fa176a3b4607b011f5eddd234f819660e8c014a",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/collar-disk-scalar.json": "0ae42f2a8587b90b89c4242945b1c9f225df0894d51a2ec7350f0d9434caa4c7"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/combine_closed_geometry.py",
+        "--prefix-audit",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json",
+        "--prefix-certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-continuous-geometry.json",
+        "--tail-certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/finite-tail-continuous-geometry.json",
+        "--collar-certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/collar-disk-scalar.json",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/closed-continuous-geometry.json"
+      ]
+    },
+    "m16_steps64_moments.json": {
+      "output_sha256": "61fa51e70bfa36150fcf33896ce48cbde6bebd97cb7b31bbba40ff4ea1cdc0c9",
+      "source_sha256": "493f9e3e1812af17fa0e2edd72968294bf7382bcc6159f98893867f2ade0fd6e",
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz": "7818de0de1873edf18ded4551f0e6044f9c5768271c5cd7a07695020b706d052",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json": "a1066fccb8380a6e721bf756766d5014b12df081001efd5115a8e35451c86ca9",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/cut-lift-all-angle-bounds.json": "b0af43513967b19a4bb786928cd9e42f6350f201975947979c23ec208c768384",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/finite-tail-continuous-geometry.json": "41a78929b6ec09794c7a74444fa176a3b4607b011f5eddd234f819660e8c014a",
+        "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17.json": "ec41b3cf418b2237052c24a57004118fc4d4c9c06bb0e4e577d05732555cef76"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/certify_moments_and_hold.py",
+        "--data",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-shared-cartesian.npz",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--prefix-audit",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/prefix-common-audit.json",
+        "--cut-bounds",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/cut-lift-all-angle-bounds.json",
+        "--tail-certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/finite-tail-continuous-geometry.json",
+        "--background-certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m3_background_sharp_17.json",
+        "--angular",
+        "512",
+        "--batch",
+        "12",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_moments.json"
+      ]
+    },
+    "m16_steps64_marked.json": {
+      "output_sha256": "7ebdc1f9367e829bd4d903b3436d76b413adcb4aedd3f6d12d9ebaf7631900f3",
+      "source_sha256": "8ce16afe61a15aac667a94e99e11f6cc5f0b133463eed32789eda31c5d115e39",
+      "inputs": {
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/closed-continuous-geometry.json": "d1bd7ac51cf6c5770fdd82bad6dfa1c5881a0d2edece09382843900985abf345",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_moments.json": "61fa51e70bfa36150fcf33896ce48cbde6bebd97cb7b31bbba40ff4ea1cdc0c9",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/collar-disk-scalar.json": "0ae42f2a8587b90b89c4242945b1c9f225df0894d51a2ec7350f0d9434caa4c7"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/certify_marked_m3.py",
+        "--geometry",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/closed-continuous-geometry.json",
+        "--moments",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_moments.json",
+        "--collar",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_common/collar-disk-scalar.json",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_marked.json"
+      ]
+    },
+    "m16_steps64_marked_queries.json": {
+      "output_sha256": "f3bfb2952537c0ea88d339260fa3a315c1df4345ee6b62f9f8155eecac0bbf22",
+      "source_sha256": "55e0be8458de878f903cef327f35ff87c02bcb62612a78aad5e86b27fa9b42bd",
+      "inputs": {
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_collar_disk/finite_closed_tail.py": "3e44d91a0bfe374656fa08866a80ca689139ecb251eed63c24c5e85c3294a6f5"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/query_refined_marked_map.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--short-bridge",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--prefix-checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--tail-checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+        "--port",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json",
+        "--tail-manifest",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--cap-source",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_collar_disk/finite_closed_tail.py",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_steps64_marked_queries.json"
+      ]
+    },
+    "m16_steps32_64_collar_shared_jet.json": {
+      "output_sha256": "a6555a6537a3f1eedec9b183a523a83e84b8a5aed50f9c66fad99f35aee9970c",
+      "inputs": {
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json": "2393fb7321f873563f586771d98666d84d140cbb50bd674d71c7e6090df42bcc",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_export_steps64/tail-manifest.json": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+      },
+      "exact_binary_equalities": {
+        "source_values": true,
+        "first": true,
+        "second": true,
+        "inner_anchor_equal": true,
+        "outer_anchor_equal": true
+      },
+      "replay_operation": "Load both IntegratedTail readers. Compare source_values[0], first[0], second[0] with numpy.array_equal; compare r[0] and r[-1] by equality. All five checks returned True."
+    }
+  },
+  "defining_checkpoints": {
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/port16.json": "055a4db4f737ac45bf75d0fee563aecc8f37e53d4746ff4f18d78fcd6aaf9538"
+  },
+  "coarse_manifest_sha256": "2393fb7321f873563f586771d98666d84d140cbb50bd674d71c7e6090df42bcc",
+  "refined_manifest_sha256": "0981145822b75bba0fa5af23754aa2b25d8a056d592796fc0c1358c01c312b58",
+  "new_sources": {
+    "query_refined_marked_map.py": "55e0be8458de878f903cef327f35ff87c02bcb62612a78aad5e86b27fa9b42bd"
+  },
+  "new_bvp_solves": 0,
+  "represented_spans": 36892,
+  "new_prefix_geometry_boxes": 1261568,
+  "new_moment_boxes": 1261568,
+  "old_M8_moment_bounds_reused": false,
+  "R27_input_note": "The moment run consumed the completed 1e-17 output before the dyadic-depth guard was added. Its complete-integral, normalization, height and cell interval endpoint fields are identical to the final guarded R27 output, as recorded in background_sharp_execution.json.",
+  "full_continuous_metric_certificate": false,
+  "C2_limit_proved": false,
+  "regenerable_arrays_and_box_outputs_not_committed": true
+}
