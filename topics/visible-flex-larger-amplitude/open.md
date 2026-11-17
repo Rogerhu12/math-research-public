@@ -117,10 +117,8 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)及[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保全部旧路径/SHA/blob/参数/失败。本次11份历史依赖188321B归同字节computations主本，只改manifest当前路径；仍须按原basename恢复到原生产目录再执行，完整恢复e22877bbb2e3e9897b3b802129b79d74e26425c3。
 
-[真全闭direct-Gram接口](notes/2026-11-17-parallel-geometry-fullclosed-direct-gram-interface.md)：旧157只是1.03冻结Taylor参考的Schur位置行，非全尾DN。新同Hold a/S、w=.05解析Θ圆端口lift、共享Y/U/A与Hcap，准确core/末三jet，全部角值Gram及core→ρ/Θ/lift正/伴随已证。平cuff H_Fr=0却area=Rρ>0，新模型不用旧strictH门；旧短预算保持。p/R/a正性、非轴warm、实际实现/求解/全连续审核尚待。
+[真全闭direct-Gram接口](notes/2026-11-17-parallel-geometry-fullclosed-direct-gram-interface.md)：旧157只是1.03冻结Taylor参考的Schur位置行，非全尾DN。新同Hold a/S、w=.05解析Θ圆端口lift、共享Y/U/A与Hcap，准确core/末三jet，全部角值Gram及core→ρ/Θ/lift正/伴随已证。平cuff H_Fr=0却area=Rρ>0，新模型不用旧strictH门；旧短预算保持。[同准确Hold oracle及全闭warm](notes/2026-11-17-parallel-model-fullclosed-hold-warm-and-oracle.md)已真实生成401255/0c499：a1/S/R从原准确标量包围，923节点、M160/完整解析lift，H=1.947952047为自由初猜。原pulse在.995后不同g且截频A遗漏l1 .868116，不继承原证书；准确端三jet满足但中间度量/浸入/求解仍须实际付。
 
-R651完整曲率真实终态696e/摘要94b68，全部E≥.9943730、det≥.02754673。上界>7.05仅811–816六胞；root另定六胞Q8192/原8sub的新界读取，准确复用各原λ三jet证书，不改变已完成818预算，也不重做λ。新结果另刊，尚非闭reach。
-
-R651后续root六胞新Q8192/8sub真实8158：811–816新界6.89839至7.02162，0新λ/同场不变；复用原812胞最大817=7.04607538，完整并集给当前全域K≤7.04608。56.33秒自然0，仅证书加密，不是README求解精化/闭reach。
+R651真实696e/94b68全E≥.9943730/det≥.02754673；root只收紧811–816六胞Q8192/原8sub，原λ复用，8158/56.33秒自然0；合原812胞最大817给全K≤7.04608。仅证书细化，不是求解精化。
 
 [新共享三jet的完整双积分坐标](notes/2026-11-17-parallel-root-fullclosed-double-integrated-coordinates.md)：保全部A/E/D与H，双递推可逆；先准确入口/端A后只需2n独立endU/Y条件，任意正尺度KKT仅2×2/4×4块，core交叉及真实两后缀和转置完整。无新数值，不改旧LM目标或预算。
