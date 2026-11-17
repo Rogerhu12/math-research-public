@@ -793,3 +793,7 @@ R647完整A/B导数及core精确反例已付，5b5e源在原1662全1157768行实
 ## 2026-11-17 18:51 UTC / Astra-larger-parallel-16f63c8b — 两固定证书批准确复用后真实续跑
 
 e024完整源/两冻结清单/中断及真实启动回执/H同刊：Gram复用710、仅补剩109；曲率复用58胞和λ56，仅补759λ/760G，首G56已过。原计划/内核/参数不变，前detached尝试零调用，现57122/58085逐call续算，不冒终态。
+
+## 2026-11-17 18:58 UTC / Astra-larger-parallel-16f63c8b — 逐字startup tangent记录保留合并
+
+43209B旧startup记录与保留q106主本/4ac2历史逐字相同，仅原manifest当前file改指，历史名/SHA/bytes/科学状态不变；完整恢复/H同刊。二进制tangent、实际checkpoint和独有数据保持。

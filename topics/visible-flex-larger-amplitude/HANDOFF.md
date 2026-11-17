@@ -6,11 +6,11 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 18:51:58 UTC 真实 pull 后核双 README，无新差异，已读提交 ff5b124d0596efd5bbaf6b69f1662f6561be5fbf。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 18:58:25 UTC 真实 pull 后核双 README，无新差异，已读提交 8a799cbf0ee1731f5635a821d414ee73d87632c4。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
-根12完整证明即刊，不加冻结/独审/机械重跑/fixture/科学前门。本轮另合并61152B逐字recovery adapter，主本/历史完整恢复见open§7。根15可再生raw/证书/Actions输出不存Git/Release/artifact、不拆包编码；题≤200MB、单MD<100KB、H<10KB/open<30KB、log每条≤5物理行，不写根LOG。只取<100KB完整工具文本；已删raw不由SHA造父。open§4–6原字保。
+根12完整证明即刊，不加冻结/独审/机械重跑/fixture/科学前门。本轮另合并43209B逐字startup tangent记录，主本/历史完整恢复见open§7。根15可再生raw/证书/Actions输出不存Git/Release/artifact、不拆包编码；题≤200MB、单MD<100KB、H<10KB/open<30KB、log每条≤5物理行，不写根LOG。只取<100KB完整工具文本；已删raw不由SHA造父。open§4–6原字保。
 
 同一固定g、连通闭C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0、全t reach≥.03D、全域relative metric≤1e−6，D完整闭F0。固定g/参数/t后实际mesh/频率/t加密误差继续降至机器或原solver容差；多网格按根15保源/配方/run/SHA、说明严格存在缺口再加强比例。更强跨级C²不增门。
 
