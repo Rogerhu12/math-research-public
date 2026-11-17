@@ -1,0 +1,7 @@
+# m2旧q20核心的补弧控制诊断
+
+这是平面core-only初猜测试，没有执行BVP。先按smallcut_delivery_manifest再生fixed-r30-p20-q20-m24/fixed.json.gz；按material_restart/C4补弧包恢复even_plateau_work中的plateau_core.py与complementary_snapshot三源。实际旧源hash均在completed_probe.json。
+
+运行 `python replay_probe.py --workspace WORK`。wrapper只对原执行源码的绝对workspace路径作一次显式替换并记录执行文本hash；不改任何数值参数或公式。输出仍在WORK/m2_circle_work。此wrapper为整理的可搬移入口，原probe已实际运行全部20组；未另称整条wrapper已重跑。
+
+M变化时旧高频截断和主频泄漏补偿都改变；只有λ0保留对应的有限低矩。具体rho反例不构成闭族或非线性分支不存在性结论。

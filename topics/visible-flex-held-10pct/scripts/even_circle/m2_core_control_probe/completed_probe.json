@@ -1,0 +1,230 @@
+{
+  "scope": "Core-only initializer audit, no BVP or geometric family.",
+  "input_checkpoint_sha256": "596312b90989255c9b51ee979cf0d228b6835457ab222adc7f6bc42f0cdc23e6",
+  "source_sha256": {
+    "m2_circle_work/probe_legacy_core.py": "70bb74e8a361a9fdf426a5409995f7aa937a701c71273f40aa354a71c6b309c5",
+    "even_plateau_work/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "even_plateau_work/complementary_snapshot/uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+    "even_plateau_work/complementary_snapshot/complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "even_plateau_work/complementary_snapshot/moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+  },
+  "rows": [
+    {
+      "M": 8,
+      "q_parameter": 0.20274197331902816,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.0,
+      "support_condition": 11.355756348513852,
+      "success": true,
+      "rho_min_sample": 0.3539473541765761,
+      "rho_lower": 0.3489806141473255,
+      "rho_derivative_bound": 1.6189055516952227,
+      "radius_max_sample": 1.2030151146455677
+    },
+    {
+      "M": 8,
+      "q_parameter": 0.20274197331902816,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.001,
+      "support_condition": 11.355756348513852,
+      "success": true,
+      "rho_min_sample": 0.3539851809024424,
+      "rho_lower": 0.3325393409108829,
+      "rho_derivative_bound": 6.990257035493037,
+      "radius_max_sample": 1.2029288477315938
+    },
+    {
+      "M": 8,
+      "q_parameter": 0.20274197331902816,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.01,
+      "support_condition": 11.355756348513852,
+      "success": true,
+      "rho_min_sample": 0.3543256214352396,
+      "rho_lower": 0.1845678817828993,
+      "rho_derivative_bound": 55.332420389673345,
+      "radius_max_sample": 1.2021524455058294
+    },
+    {
+      "M": 8,
+      "q_parameter": 0.20274197331902816,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.05,
+      "support_condition": 11.355756348513852,
+      "success": true,
+      "rho_min_sample": 0.20980766223704456,
+      "rho_lower": 0.09375350254848962,
+      "rho_derivative_bound": 270.18647974158586,
+      "radius_max_sample": 1.1987017689468777
+    },
+    {
+      "M": 8,
+      "q_parameter": 0.20274197331902816,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 1.0,
+      "support_condition": 11.355756348513852,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-5.279852919026451, -21.76391962136468, 512)')"
+    },
+    {
+      "M": 12,
+      "q_parameter": 0.20282153155326968,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.0,
+      "support_condition": 397.3965621313426,
+      "success": true,
+      "rho_min_sample": 0.3539921781609748,
+      "rho_lower": 0.34901897193010606,
+      "rho_derivative_bound": 1.621013205737717,
+      "radius_max_sample": 1.2030149813272561
+    },
+    {
+      "M": 12,
+      "q_parameter": 0.20282153155326968,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.001,
+      "support_condition": 397.3965621313426,
+      "success": true,
+      "rho_min_sample": 0.354029721388154,
+      "rho_lower": 0.0489349965201506,
+      "rho_derivative_bound": 99.4454191586205,
+      "radius_max_sample": 1.2029287603599097
+    },
+    {
+      "M": 12,
+      "q_parameter": 0.20282153155326968,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.01,
+      "support_condition": 397.3965621313426,
+      "success": true,
+      "rho_min_sample": 0.17791612624322634,
+      "rho_lower": 0.05643497138011411,
+      "rho_derivative_bound": 979.8650727345657,
+      "radius_max_sample": 1.2021527716537925
+    },
+    {
+      "M": 12,
+      "q_parameter": 0.20282153155326968,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.05,
+      "support_condition": 397.3965621313426,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-1.0860528543811756, -16.09710199246878, 512)')"
+    },
+    {
+      "M": 12,
+      "q_parameter": 0.20282153155326968,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 1.0,
+      "support_condition": 397.3965621313426,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-31.105316144210896, -331.23180798757653, 512)')"
+    },
+    {
+      "M": 16,
+      "q_parameter": 0.20286540011328114,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.0,
+      "support_condition": 21718.458559194,
+      "success": true,
+      "rho_min_sample": 0.35399276015037157,
+      "rho_lower": 0.34901736408692047,
+      "rho_derivative_bound": 1.6217269801862937,
+      "radius_max_sample": 1.203014980624224
+    },
+    {
+      "M": 16,
+      "q_parameter": 0.20286540011328114,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.001,
+      "support_condition": 21718.458559194,
+      "success": true,
+      "rho_min_sample": 0.26573668539905615,
+      "rho_lower": 0.031032953522593054,
+      "rho_derivative_bound": 4626.297711984773,
+      "radius_max_sample": 1.2029287849191252
+    },
+    {
+      "M": 16,
+      "q_parameter": 0.20286540011328114,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.01,
+      "support_condition": 21718.458559194,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-2.0680807295051564, -143.95633834992503, 512)')"
+    },
+    {
+      "M": 16,
+      "q_parameter": 0.20286540011328114,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.05,
+      "support_condition": 21718.458559194,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-12.45639751039702, -721.8777840282426, 512)')"
+    },
+    {
+      "M": 16,
+      "q_parameter": 0.20286540011328114,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 1.0,
+      "support_condition": 21718.458559194,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-259.1789210565788, -14447.512118888286, 512)')"
+    },
+    {
+      "M": 20,
+      "q_parameter": 0.2028932123151653,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.0,
+      "support_condition": 1349314.3443349712,
+      "success": true,
+      "rho_min_sample": 0.35399285500825645,
+      "rho_lower": 0.3490160832571086,
+      "rho_derivative_bound": 1.622175384660262,
+      "radius_max_sample": 1.2030149805623829
+    },
+    {
+      "M": 20,
+      "q_parameter": 0.2028932123151653,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.001,
+      "support_condition": 1349314.3443349712,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-2.555515891784693, -796.0086130696353, 512)')"
+    },
+    {
+      "M": 20,
+      "q_parameter": 0.2028932123151653,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.01,
+      "support_condition": 1349314.3443349712,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-30.22368970179061, -7964.709870534538, 512)')"
+    },
+    {
+      "M": 20,
+      "q_parameter": 0.2028932123151653,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 0.05,
+      "support_condition": 1349314.3443349712,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-153.1933510795947, -39825.604348156325, 512)')"
+    },
+    {
+      "M": 20,
+      "q_parameter": 0.2028932123151653,
+      "old_primary": 0.20000109659082244,
+      "lambda_value": 1.0,
+      "support_condition": 1349314.3443349712,
+      "success": false,
+      "error": "FloatingPointError('Core rho sampled positivity failed: (-3073.722808802441, -796521.8481916735, 512)')"
+    }
+  ],
+  "parameter_definition": "c=legacy actual fixed-q20 support coefficients 2..M; q_parameter=legacy primary minus c dot canonical fundamental leakage. Baseline truncation changes with M; no BVP or same-g refinement is asserted.",
+  "raw_result_sha256": "ab4e88327b48b3d33bcc4a2f9e60b5ff9765f833aec0a3b27251f4354515131a",
+  "runtime_argv": [
+    "python",
+    "-u",
+    "m2_circle_work/probe_legacy_core.py"
+  ]
+}

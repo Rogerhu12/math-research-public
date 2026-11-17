@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`42e7620b1809d7061e9eb5eb783003556105265a`。2026-11-18 01:19:51（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 02:19:51；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`f7352d8212c7734f32ac41b9a494d4080cc62b72`。2026-11-18 01:23:45（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 02:23:45；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每结论更新本文件并普通push；非快进立刻pull --rebase重推至成功，禁force。每pull比较双README，只读差异；至少每小时一次。令牌只临时命令行。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -31,9 +31,7 @@ n4精确圆弧+中央柱：R19/19A证明整像中心位移下界、固定两fold
 
 ## C. 接缝、A图与混合边值
 
-R12：h=g−dz²正定时同g一jet和完整z二jet经一次固定平面刚体确定整圈Cartesian二jet；给误差链，采样不当连续证书。R14：同turning number/同严格Q符号支内，闭合总转角已决定mean zr，Darboux再定zrr；Q过零不适用。
-
-R15：轴向精确界|A|≥|w_r|√D/(E^1.5 Kmax)；反射/D>0且从背景连通的振幅支在非平谷轴上不能A变号，非用户相位族普遍限制。旧λ.0781轴若精确仅需κr≈.3906，尚未超预算，Gauss缺陷1.388e−5才是问题。R10有低K精确锥环带A变号，但匹配需Hr=H/r、Hrr0、均值/共顶点，不可免费贴入。
+R12/R14：h=g−dz²正定且同严格Q符号支上，完整z二jet与g一jet经一次平面刚体确定全Cartesian缝；总转角补mean斜率、Darboux补zrr，过Q0不适用。R15轴向|A|≥|wr|√D/(E^1.5K)只限制从背景连通的反射支；旧失败态未被曲率预算排除。锥支另须共顶点/均值/完整二jet，不能免费拼接。证明与所有误差链见对应results。
 
 R16有限不定Gram可用但无过零权L²一致逆；R18完整cos/sin/mean混合DAE原引擎核验已过。实际首cell physical h/p坏插值与K达8e4、共享Cartesian二jet后tensor未下降的失败均保留。见actual-cell-mixed-coordinates-and-bad-interpolation、actual-cell-shared-cartesian-c2及mixed_dae/actual_cell包；有限根与C²表示均不代替误差收敛。
 
@@ -50,6 +48,8 @@ R23：实际m3 fixed-M8已完整C²闭合为S²：共享中心/全cut二jet、�
 ## D. 其他结果和来源
 
 历史证明R1–R10见results：椭圆/圆弧条件窗、平领二jet、条件特征保护、固定帽排除O(3)。R8只证正K完整带内圆弧必须k1，K0退化入口唯一延拓未付；R9负K耗窗>.92只是设计；R10锥支必须补齐均值/共顶点/完整二jet。旧GC/短领失败全部保留于notes/scripts；来源R114/flat17仅held>.0527832、reach>.0312033，R115及旧.063未解决本题。
+
+m2补弧core-only对照：旧q20实际低矩经泄漏补偿，M8 λ.05仍正但λ1负rho；M16 λ.01、M20 λ.001已实际负rho。降基本频率未自动消除高矩污染，非BVP/不存在性。见m2-core-complement-control-probe。
 
 ## 当前接手分工
 
