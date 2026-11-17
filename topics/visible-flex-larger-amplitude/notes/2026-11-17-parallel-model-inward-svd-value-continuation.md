@@ -103,3 +103,40 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
 ### 首步大小的设计动机
 
 [已冻端点 predictor](../scripts/parallel_20261117_svd_endpoint_predictor.py)（SHA256 `fa1f0dc0b92bb8bb7e93442ba258b8864cf36a2af36a83cc9f8922848f5eda87`）曾对同母父作孤立端点的 $1/64$ 最小二乘步，组合非线性余项约 $8.48\times10^{-9}$、端点 $\min H/W$ 约 `.6145`。它只用于选择首个目标步长，没有验证内部 ODE 或内部域。本次真正初猜仍是原接受父的完整510节点场；上述三步全段 Newton 校正与实际 quintic 读出才是本条新增的数值结果。
+
+## 5. 同一固定 U 与原母值的第二个真接受阶段：β=.9
+
+**实际数值证据。** 保持原11960350母父、同一 U 字节、原327母向量、原前三 core 与同一 inward scalar；仅以上一 $\beta=63/64$ 真接受场 `ed429833...` 作 warm。右目标明确为 $.9\,U^Tv(y_{\rm parent})$，没有改为 `.9` 乘上一阶段值。
+
+完整338 ODE、229浅行、109组合右行与 `tol=1e-8, bc_tol=1e-11, max_nodes=1800` 保留。实际510节点、1外迭代，5次完整 QR、13个阻尼接受步，约248.390秒后成功；所见最大约化条件数 $1.94003351665\times10^8$。最终 RMS 为 $9.32400869994791\times10^{-9}$，109个固定目标残差最大 $8.696221152883698\times10^{-14}$。
+
+组合函数值最大为 $6.998228657149323\times10^{-5}$，仍与其非零目标对应。327项原谱的 R/T/Z 最大值分别为 $9.712794350171886\times10^{-5}$、$1.3926738862761872\times10^{-5}$、$7.153838860424539\times10^{-6}$。端点原谱在固定 range(U) 外的分量 $v-UU^Tv$ 最大绝对值约 $4.43237259845\times10^{-8}$；这只是同一有限端点向量的诊断，不替代全段几何误差。
+
+冻结 inward quintic reader 继续使用 `N2048/radial_subdivisions=4`，509胞元、5,212,160点。实际 Gram 从上阶段 $2.70840323349\times10^{-6}$ 降至
+
+$$
+2.502709187715587\times10^{-6},
+$$
+
+最坏点仍为 $s=.997,\phi=2.705942109830271$。实际最大主曲率采样6.293302049682145，最小 Gram determinant采样 `.027573870328721155`；core $\rho_{\min}=.1660538175674411$、gap `.9599706446103065`。本阶段样本域与曲率正常，但 Gram 仍未到 $10^{-6}$，更没有闭面/reach/固定完整材料度量的加密收敛结论。
+
+实际第二阶段命令：
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
+  topics/visible-flex-larger-amplitude/notes/2026-11-17-parallel-model-inward-svd-boundary-bvp.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b63of64.json.gz \
+  --target-parent /workspace/scratch/16f63c8bce6b/parallel-inward0997-m112.json.gz \
+  --row-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-reachable-rows.json \
+  --svd-report /workspace/scratch/16f63c8bce6b/parallel-inward0997-svd-boundary.json \
+  --out /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b09.json.gz \
+  --beta .9 --tol 1e-8 --max-nodes 1800
+
+PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 python \
+  topics/visible-flex-larger-amplitude/scripts/parallel_20261117_prefix_inward_readout.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b09.json.gz \
+  --out /workspace/scratch/16f63c8bce6b/parallel-model-inward-svd-b09-readout.json \
+  --angles 2048 --radial-subdivisions 4
+```
+
+源仍为397bbdd，不作修改。最终 BVP 输出 SHA256 为 `bdfa8cfa2a7e854ee69ab214e48bb5d3bb76c918087c49e0f566f44563fe268a`；实际读出 SHA256 为 `01d02dc504c7599fdff9757b6720303391ae8372758bbaa2bb6aeeb86e7750dc`。两者只在仓库外保存；内部 `.solver.gz` 临时文件不替代最终绑定完整边界定义的输出。

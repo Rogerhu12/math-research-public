@@ -199,3 +199,5 @@
 - [R579：actual242 新初猜准备、科学返回与两份必要超限](results/R579-actual242-initial-guess-preparation-and-two-necessary-overflows.md) — 457源及输入准备真完成，科学1/quiet、双70、removed=false；内部科学未返不冒未起，全部14原可见scope一次有界回读。
 
 - [两份二十查询历史域清单：真实来源、消费者与固定恢复](notes/2026-11-16-two-twenty-domain-manifest-retention.md) — 固定4d572940完整audit及具体消费者；仅两548177B可再生manifest按最终真pull增量guard普通移出，全部科学源/输入/warm/status/数组保留。
+
+旧request212导航备份已按[准确恢复说明](notes/2026-11-17-parallel-historical-index-retention.md)普通退役，全部原文可从固定历史恢复；证明正文不变。

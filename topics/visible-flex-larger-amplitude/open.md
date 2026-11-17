@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **完整有限边界。** 原新标量.997的M112/M128真接受而实际Gram2.754e−6/5.879e−6；.998全求解、.999初猜均失败。[Schur M112](notes/2026-11-17-parallel-geometry-schur-m112-accepted.md)Gram2.421e−6，[M128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)1423节点/RMS3.592e−4超2000失败。[only-Z109谱](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点RMS8.425e−5/BC1.600e−6超1800失败，均不作新父。
 
-[全段可达109空间](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)在原509胞元/338ODE/229浅行上选27R/46T/36Z，约化cond5.46e11→2.37e8；[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保全部327值的109组合，cond6.85e7，父目标末修正6.807e−4/线性不可达剩余4.47e−8。只按较小cond选行可能需要更大实际修正。[真实值同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)固定原11960350母值/U，β63/64的510节点全BVP真接受：RMS9.369e−9/组合目标残差4.320e−12，但真quinticGram2.708403e−6；全327原谱max1.06234e−4，不能冒零谱。β.9正从此接受态继续，仍固定原母值。全部为明确新有限边界，非原tail DN。
+[全段可达109空间](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)在原509胞元/338ODE/229浅行上选27R/46T/36Z，约化cond5.46e11→2.37e8；[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保全部327值的109组合，cond6.85e7，父目标末修正6.807e−4/线性不可达剩余4.47e−8。只按较小cond选行可能需要更大实际修正。[真实值同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)固定原11960350母值/U，β63/64的510节点全BVP真接受：RMS9.369e−9/组合目标残差4.320e−12，但真quinticGram2.708403e−6；全327原谱max1.06234e−4，不能冒零谱。β.9亦真接受，510节点/RMS9.324e−9/BC8.70e−14、真Gram2.502709e−6，κ6.2933、gap.9599706；β.75从此真父继续，仍固定原母值。全部为明确新有限边界，非原tail DN。
 
 **高M局部场。** [短目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)排清二阶外推与有限截尾的区别；[M160/M224](notes/2026-11-17-parallel-geometry-short-ivp-m160-m224.md)同起点/core/rho/scalar真短IVP .995→.997，末Gram2.132e−6/1.132e−6，显式步长和半步核对。[M320](notes/2026-11-17-parallel-geometry-short-ivp-m320-local-candidate.md)962维末Gram5.096e−7，128/256步确认；起始Fs差5.16e−5/Fss差.02027，不能直接冒C²已接或整段BVP父。[完整短段C²](notes/2026-11-17-parallel-geometry-m320-full-short-quintic.md)N2048→4096真重积分、全128胞/N8192/4sub读Gram5.092e−7、κ5.7993。初版末4.7e−15微胞有坏峰；新定义仅删<64ulp倒数节点、保真末jets，未裁剪读数。
 
@@ -118,3 +118,5 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 **弱场与尾接口。** [旧M64](notes/2026-11-17-parallel-numerical-weighted64-finite-failure.md)λ.001真运行5813秒，9780节点RMS.01608超14000失败。[直接高度全胞元](notes/2026-11-17-parallel-geometry-direct-height-atomic-peak.md)同1557参数粗κ6.7945→实际7.6272/Gram1.330e−6；原算法replay逐字再生，后续mean-LP400步仍6.097e−6，弱旧场不重跑。[右浅口适配](notes/2026-11-17-parallel-numerical-right-shallow-adapter.md)完整PDE/RHS/边界/坐标反号已核，尚无真实内向cut或新尾BVP。
 
 R632回头盖只为凸平行体组件；R625/627/629标记与含反射E3要实际闭源。旧镜像前缀82432点/Qmin.16150716只点云，不替连续reach。当前未达完成标准：实际全幅尾/全部Cartesian接缝/连通闭面、固定有内点H、完整D、整像held、含反射商距离、所有点对reach与全t强C²连续均须真付。候选冻结后同g/参数/t真正精化至机器或原solver容差；子题/批次/时长/报告均非停点。
+
+[本次历史索引退役](notes/2026-11-17-parallel-historical-index-retention.md)仅普通移出重复request212索引96775B，已实核与固定df8deeeb的原文一致；全部旧源/科学输入保持，准确恢复见说明。
