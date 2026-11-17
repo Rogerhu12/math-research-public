@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`16d7eedabe80f2b9d924470ae1ebe45cb812b809`。2026-11-18 02:59:34（UTC+8）真实pull/rebase/autostash后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`108dce712ec8ea50ba63e3a8bd8078fae93ed669`。2026-11-18 03:04:25（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -29,7 +29,9 @@ R13条件窗：若同一prefix接实际尾rXY≤.35、顶高≤1.5265414843、K�
 
 n4精确圆弧+中央柱：R19/19A给10%条件窗，完整闭合未付。旧宽/窄基λ1或大λ完整metric失败，见n4-first-batch-and-consumed-window、narrow-old-basis-terminal-results。新C4补弧矩基λ0经材料角secant到q05/M16（metric2.322e−8/tensor.000245/K14.0966）、q055（1.003e−7/.002246/K14.9898），均未圆化、仅线性DN、非同g精化。q06虽投影接受，完整tensor.04005/K15.9544，数值必要reach/D上限.02948658<.03，未区间认证。q05圆化λ.005初猜负rho拒绝，小步至λ.001投影接受却metric7.669e−4/tensor5.72，非构造。源见n4-material-angle-warm-start、n4-q050-material-secant、n4-q055-material-secant、n4-q060-and-local-reach-budget、n4-q050-small-circularization-terminal及对应包；旧失败/取消不作容量界。
 
-新n4双模线性root03：vu.4/vd.2644695137/δ.02840070836/ramp.45，原port24未改；τ4≈5e−14、τ8≈−3.6e−11，原BackwardLine复核非零向量/正尺度，双参数Jac σ约408/.675。背景K<8、耗窗>.147721；R19新a.147/α.029/ℓ.54在全闭D≤2.65,K≤12.5,σ≥.08前提下held>.10261、reach>.03018、H>.20377，root Fraction逐字复核。见n4-double-linear-resonance及double_resonance_linear；实际双模λ0 q005/M6→同g M8，δ=.02840699270/vd=.26450353591冻结，metric4.262e−6→5.733e−7、tensor.002042→.0003271；固定g释放c8、实际q=.004959299，非固定核心。旧core换坐标两jet差<2e−15，首遗漏ψ模28/32定位角截断；见double-prefix-first-and-fixed-g及double_prefix_first。双模λ.05 M8 metric2.118e−5/tensor.05164失败，λ.1maxnodes；旧同g M12虽solver接受却q塌到7.198e−6且metric4.232e−6未过门。固定J8/λ.05的真嵌套M12终态已接读：1334节点、RMS.0023553、BC.0394792、q降至.00039616565，拟增点超原2400上限；非成功/保幅精化/不存在性。见double-prefix-nested-refinement和2026-11-18-n4-nested-m12-terminal；继续R22最优eta及局域修平的新物理设计。
+n4双模root03：vu.4/vd.2644695137/δ.02840070836/ramp.45，原port24；τ4/τ8≈0但τ12≈−.6587。原BackwardLine/两参数Jac已核，背景K<8/耗窗>.147721；R19给a.147/α.029/ℓ.54的条件10.261%窗。首q005/M6→固定gM8 metric4.262e−6→5.733e−7，core释放并非固定幅度；旧M12q塌缩/完整metric失败。固定J8/λ.05真嵌套M12终态：1334节点、RMS.0023553、BC.0394792、q=.00039616565，原2400节点门失败。全部见double-prefix-*及2026-11-18-n4-nested-m12-terminal，不作不存在结论。
+
+**新局域圆化/双谐波角图**：保R22 eta=.36741280489，圆弧外仅小改，不再翻h8号；λ1目标有精确圆弧，数值均值待区间化。完整材料角二jet已实现，仍原物理方程/线性尾端口。vu=.35新双根δ=.03001627156/vd=.24824349139，背景K估计5.605/D采样2.584/耗窗>.1518。已完成旧角图M8 λ0/.05/.1及M12 λ0、新双图M8 λ0/.05；均原BVP接受而全metric3.49e−6至7.54e−5未过。λ.2maxnodes；两旧运行取消非数学失败。完整参数/源/hash见2026-11-18-n4-local-flattening-and-bimodal-chart及resume_n4；新双图M16继续。
 
 ## C. 接缝、A图与混合边值
 

@@ -1,0 +1,593 @@
+{
+  "scope": "Finite design outcomes, never a fixed-metric convergence claim or a closed surface",
+  "runs": [
+    {
+      "q": 0.005,
+      "homotopy": 0.0,
+      "modes": 8,
+      "bimodal_eta": 0.3674128048915633,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 580,
+      "parameters": [
+        1.4300069840255873e-05,
+        -0.00010113148336487901,
+        -0.0005583586234179839,
+        9.63761111504651e-05,
+        -8.377180726735407e-06,
+        -4.192446650224271e-06,
+        -3.798643739955808e-08,
+        -1.254441686828454e-07
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.26436838221849124,
+        "delta": 0.028415008434278806
+      },
+      "max_rms": 9.810796947941373e-07,
+      "max_bc": 3.3833041247343255e-15,
+      "seconds": 64.80352027800109,
+      "error": null,
+      "run": "local-q005-m8-opteta",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "root03-profile.json",
+        "out": "local-q005-m8-opteta",
+        "q": 0.005,
+        "modes": 8,
+        "bimodal_eta": 0.3674128048915633,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 2400,
+        "tol": 1e-06,
+        "angular": 512,
+        "check_only": false,
+        "restart": null
+      },
+      "summary": {
+        "metric_l1": 3.1302688147656086e-05,
+        "flow_defect": 0.00016840202201995864,
+        "darboux_l1": 0.019828127915574985,
+        "kappa_sample": 8.793588454923048,
+        "radius_max": 1.0326902848550747,
+        "height_max": 0.6979471568601319,
+        "root_min": 0.003984579450052705,
+        "chart_rho_min": 0.925
+      },
+      "checkpoint_sha256": "b6f7e5045f9265ef01111196fb64d7c245da04b58455a74c260dc5cb9bed654e",
+      "coefficients_sha256": {
+        "local-q005-m8-opteta-lam0_coeff_00.npy.gz": "7288c3462a1b503067f7d12972d5ffb568f90ccd3348c6c810e10c85d0003b7d"
+      }
+    },
+    {
+      "q": 0.005,
+      "homotopy": 0.05,
+      "modes": 8,
+      "bimodal_eta": 0.3674128048915633,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 580,
+      "parameters": [
+        1.4352383348004637e-05,
+        -0.00010185651267768071,
+        -0.0005539570822789455,
+        0.00010035870720000501,
+        -6.3880141608389186e-06,
+        1.581264320317241e-05,
+        1.207253380579324e-05,
+        -7.498580185179587e-05
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.26436765718917843,
+        "delta": 0.028415060747786554
+      },
+      "max_rms": 9.811223690322831e-07,
+      "max_bc": 2.549391253658939e-12,
+      "seconds": 18.576755460999266,
+      "error": null,
+      "run": "local-q005-m8-opteta",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "root03-profile.json",
+        "out": "local-q005-m8-opteta",
+        "q": 0.005,
+        "modes": 8,
+        "bimodal_eta": 0.3674128048915633,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 2400,
+        "tol": 1e-06,
+        "angular": 512,
+        "check_only": false,
+        "restart": null
+      },
+      "summary": {
+        "metric_l1": 3.386321536057678e-05,
+        "flow_defect": 0.0005387054596697122,
+        "darboux_l1": 0.02957177674953823,
+        "kappa_sample": 8.794519505859299,
+        "radius_max": 1.0326904415872986,
+        "height_max": 0.697948265050317,
+        "root_min": 0.00398618753339286,
+        "chart_rho_min": 0.925
+      },
+      "checkpoint_sha256": "00b6c5068218edf9ed454d19bec29bda5a60760e0328ad682dff2bf2cb2fd438",
+      "coefficients_sha256": {
+        "local-q005-m8-opteta-lam0.05_coeff_00.npy.gz": "7cad0469ad0950075d318c9a9a0df65f84fb6bf1cf449f2f954fba66d5718e45"
+      }
+    },
+    {
+      "q": 0.005,
+      "homotopy": 0.1,
+      "modes": 8,
+      "bimodal_eta": 0.3674128048915633,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 580,
+      "parameters": [
+        1.4464549951156613e-05,
+        -0.00010322044744397364,
+        -0.0005511809232139657,
+        0.00010320301232204025,
+        -3.97858213469736e-06,
+        2.8636702310183708e-05,
+        2.4578315767506676e-05,
+        -0.0001580620067231294
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.26436629325441213,
+        "delta": 0.028415172914389705
+      },
+      "max_rms": 9.811985738084119e-07,
+      "max_bc": 6.297922253151178e-12,
+      "seconds": 18.51632816399797,
+      "error": null,
+      "run": "local-q005-m8-opteta",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "root03-profile.json",
+        "out": "local-q005-m8-opteta",
+        "q": 0.005,
+        "modes": 8,
+        "bimodal_eta": 0.3674128048915633,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 2400,
+        "tol": 1e-06,
+        "angular": 512,
+        "check_only": false,
+        "restart": null
+      },
+      "summary": {
+        "metric_l1": 3.648068264081671e-05,
+        "flow_defect": 0.0010803510177192202,
+        "darboux_l1": 0.05967434478630167,
+        "kappa_sample": 8.795320729949339,
+        "radius_max": 1.0326906861400507,
+        "height_max": 0.6979504946854638,
+        "root_min": 0.003983414201831792,
+        "chart_rho_min": 0.925
+      },
+      "checkpoint_sha256": "83e5e350bd8274852b2d9f225878c9b193afdf2d441511c094941baa3d880bee",
+      "coefficients_sha256": {
+        "local-q005-m8-opteta-lam0.1_coeff_00.npy.gz": "ad1525e43c0e022cf32902f6ddb9f01b24fc56009ec3a702a8c1454c0063d7ea"
+      }
+    },
+    {
+      "q": 0.005,
+      "homotopy": 0.2,
+      "modes": 8,
+      "bimodal_eta": 0.3674128048915633,
+      "success": false,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "nodes": 1674,
+      "parameters": [
+        1.538219066543732e-05,
+        -0.00011392787977116706,
+        -0.0005638245649180815,
+        9.677336856321977e-05,
+        5.783680799446167e-06,
+        3.120089520869573e-06,
+        7.146093803223386e-05,
+        -0.0005199990362814683
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.26435558582208496,
+        "delta": 0.028416090555103985
+      },
+      "max_rms": 0.00020953490955493974,
+      "max_bc": 1.2841563364930642e-07,
+      "seconds": 436.20197823000126,
+      "error": null,
+      "run": "local-q005-m8-opteta",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "root03-profile.json",
+        "out": "local-q005-m8-opteta",
+        "q": 0.005,
+        "modes": 8,
+        "bimodal_eta": 0.3674128048915633,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 2400,
+        "tol": 1e-06,
+        "angular": 512,
+        "check_only": false,
+        "restart": null
+      },
+      "summary": {
+        "metric_l1": null,
+        "flow_defect": null,
+        "darboux_l1": null,
+        "kappa_sample": null,
+        "radius_max": null,
+        "height_max": null,
+        "root_min": null,
+        "chart_rho_min": null
+      },
+      "checkpoint_sha256": "56e5627f8375118cc5e75ff4688d22db5535ddd1f501f2ec3e24f76bc2196b72",
+      "coefficients_sha256": {
+        "local-q005-m8-opteta-lam0.2_coeff_00.npy.gz": "c704b5dbee1a75a878b603b3b68dec8bdd1a8b95e90f7ffecbcd5eaef3213bd0"
+      }
+    },
+    {
+      "q": 0.005,
+      "homotopy": 0.0,
+      "modes": 12,
+      "bimodal_eta": 0.3674128048915633,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 833,
+      "parameters": [
+        1.4691538832730927e-05,
+        -8.284604212029972e-05,
+        -0.0005581043158480321,
+        9.594692173973691e-05,
+        -8.361487630502776e-06,
+        -3.828274409646199e-06,
+        -5.2988918663418484e-08,
+        1.0106660489516685e-08,
+        -3.356039974457763e-10,
+        9.792627668843288e-11,
+        4.313204777999565e-10,
+        -5.831818245190811e-10
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.26438666765973584,
+        "delta": 0.02841539990327128
+      },
+      "max_rms": 2.9873272911519963e-07,
+      "max_bc": 1.651750730181002e-14,
+      "seconds": 189.03878098299901,
+      "error": null,
+      "run": "local-q005-m12-opteta",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "root03-profile.json",
+        "out": "local-q005-m12-opteta",
+        "q": 0.005,
+        "modes": 12,
+        "bimodal_eta": 0.3674128048915633,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 3000,
+        "tol": 3e-07,
+        "angular": 768,
+        "check_only": false,
+        "restart": null
+      },
+      "summary": {
+        "metric_l1": 3.4853387907093903e-06,
+        "flow_defect": 2.066476937434135e-05,
+        "darboux_l1": 0.0034633118807108998,
+        "kappa_sample": 8.793490858515826,
+        "radius_max": 1.0326907834021666,
+        "height_max": 0.6979378076615511,
+        "root_min": 0.003984834693409267,
+        "chart_rho_min": 0.925
+      },
+      "checkpoint_sha256": "38c1b7dde13fcec5007933bf4adf0b95ce7a2273cfd5572153c890852e612a51",
+      "coefficients_sha256": {
+        "local-q005-m12-opteta-lam0_coeff_00.npy.gz": "cc277f101b2cc6dc2a85d512bacf57e828de5278b89e351d4a6bfacb60d37dc9"
+      }
+    },
+    {
+      "q": 0.005,
+      "homotopy": 0.0,
+      "modes": 8,
+      "bimodal_eta": 0.3674128048915633,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 807,
+      "parameters": [
+        1.4335569071084081e-05,
+        -0.00011978168856191689,
+        -0.00042534910415363043,
+        7.567377600098353e-05,
+        -7.133434673461258e-06,
+        -1.7183288788270509e-06,
+        -1.9237933642850383e-08,
+        1.0896509350010168e-09
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.35,
+        "ramp": 0.45,
+        "vd": 0.2481237096982014,
+        "delta": 0.03003060713105505
+      },
+      "max_rms": 2.999089124576656e-07,
+      "max_bc": 2.3048998497309505e-14,
+      "seconds": 139.1421484099992,
+      "error": null,
+      "run": "bimodal-chart-vu035-q005-m8",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "vu035-profile.json",
+        "out": "bimodal-chart-vu035-q005-m8",
+        "q": 0.005,
+        "modes": 8,
+        "bimodal_eta": 0.3674128048915633,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 3000,
+        "tol": 3e-07,
+        "angular": 512,
+        "check_only": false,
+        "restart": null,
+        "previous": null
+      },
+      "summary": {
+        "metric_l1": 7.25711270961678e-05,
+        "flow_defect": 0.0003104340422985086,
+        "darboux_l1": 0.029450046237829493,
+        "kappa_sample": 6.198399653017348,
+        "radius_max": 1.0341806769585389,
+        "height_max": 0.749807965438843,
+        "root_min": 0.0039961919067613705,
+        "chart_rho_min": 0.9247335215259093
+      },
+      "checkpoint_sha256": "1c8180bf7417b8d8bbffa5839a7bfe4108144df467c54d9cd340fd16e369c7ae",
+      "coefficients_sha256": {
+        "bimodal-chart-vu035-q005-m8-lam0_coeff_00.npy.gz": "96aea122f17f8a8c008d978d1e639cffcfe577eabbd5f9a5dcd4f4df0246c5a9"
+      }
+    },
+    {
+      "q": 0.005,
+      "homotopy": 0.05,
+      "modes": 8,
+      "bimodal_eta": 0.3674128048915633,
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 810,
+      "parameters": [
+        1.4381600950218836e-05,
+        -0.00012117321336559963,
+        -0.0004208355971531158,
+        7.949475158878033e-05,
+        -5.3932264049540004e-06,
+        -3.488426544968813e-05,
+        3.573985642667226e-05,
+        -0.00011259648805846618
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.35,
+        "ramp": 0.45,
+        "vd": 0.24812231817339772,
+        "delta": 0.030030653162934184
+      },
+      "max_rms": 2.9944899270545954e-07,
+      "max_bc": 2.303846220197849e-14,
+      "seconds": 83.8629711379981,
+      "error": null,
+      "run": "bimodal-chart-vu035-q005-m8",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "vu035-profile.json",
+        "out": "bimodal-chart-vu035-q005-m8",
+        "q": 0.005,
+        "modes": 8,
+        "bimodal_eta": 0.3674128048915633,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 3000,
+        "tol": 3e-07,
+        "angular": 512,
+        "check_only": false,
+        "restart": null,
+        "previous": null
+      },
+      "summary": {
+        "metric_l1": 7.540521459178584e-05,
+        "flow_defect": 0.0004228770843948208,
+        "darboux_l1": 0.029153989888603418,
+        "kappa_sample": 6.198459032713924,
+        "radius_max": 1.0341808711170177,
+        "height_max": 0.7498097588024498,
+        "root_min": 0.003969780218654684,
+        "chart_rho_min": 0.9247335215259093
+      },
+      "checkpoint_sha256": "a0b78d210d55e2b1389d67a322cf68b61988184ef37484f1f5abcc323cf61278",
+      "coefficients_sha256": {
+        "bimodal-chart-vu035-q005-m8-lam0.05_coeff_00.npy.gz": "a0bc85c3888a9cd777b6db48182203645881ff00d2c8c9d0600c28de116fd31f"
+      }
+    }
+  ],
+  "cancellations": [
+    {
+      "run": "local-q010-m12-opteta",
+      "stage": "first q=.01 solve after initialization",
+      "termination": "intentional keyboard interrupt, exit 130; no mathematical terminal outcome",
+      "reason": "Move computation to the declared two-harmonic numerical chart and lower-curvature physical profile",
+      "log_sha256": "851f2156be12ef6f104078c69512658be0318b0bf447b8ac19b48c5d43448453"
+    },
+    {
+      "run": "local-q005-m12-opteta",
+      "stage": "lambda=.05 after the accepted lambda=0 state",
+      "termination": "intentional keyboard interrupt, exit 130; no mathematical terminal outcome",
+      "reason": "Move computation to the declared two-harmonic numerical chart and lower-curvature physical profile",
+      "log_sha256": "ec4c0c5e700bcff57d5cd2de860fb23c825abd77bd32a5e75143c7bbeb61fceb"
+    }
+  ],
+  "diagnostic_outputs_sha256": {
+    "local-target-audit.json": "6b47f8f2a7c5cca2dbda40e31b94137a5e5ddf509367cfc871ddc4a9b4835e23",
+    "bimodal-chart-audit.json": "aa5de05bb6abd87f7dd921f6e1f9dec4c8c518f3239b8439df4f5e69ba3f47b1",
+    "vu035-design.json": "872907b2cd1e3b303ed01610a4dd0aa680f5959ed3a82e22e02ddc01785eca50",
+    "local-identity-q005-m8.json": "1cddf13a621c59e1685b27bc0d7e4fefc09aa76e75af168217f07f5474d17c86"
+  }
+}
