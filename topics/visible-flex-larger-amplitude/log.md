@@ -781,3 +781,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 18:43 UTC / Astra-larger-parallel-16f63c8b — 逐字q098恢复adapter保留合并
 
 61152B旧恢复副本与保留newjac主本/当前a218历史逐字相同，仅原manifest当前file改指，历史名/SHA/bytes/全部未完成边界保持；完整恢复/H同刊。实际checkpoint/config/独有科学数据不动。
+
+## 2026-11-17 18:44 UTC / Astra-larger-parallel-16f63c8b — LM同一原额的最小恢复源
+
+6a172源准确核927f/84b checkpoint/6198状态/1694日志，复用两完成方向和S/Q，只从µ.25续未返回方向2；loop/门/24方向与20接受不变，丢失≥64 Krylov额外开销保留。完整源/恢复说明/派生SHA/H同刊，不冒算法失败。
