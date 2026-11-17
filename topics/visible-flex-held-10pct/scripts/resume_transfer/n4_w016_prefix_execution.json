@@ -1,0 +1,722 @@
+{
+  "scope": "Actual accepted finite prefixes for the new wCut=.16 physical design; lambda0 and linear port only. Different solved delta/vd mean different g; no closed-family or same-g claim.",
+  "runs": [
+    {
+      "run": "q010-m16",
+      "arguments": {
+        "source_topic": "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface",
+        "port": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json",
+        "profile": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/design/peak0.2-profile.json",
+        "out": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q010-m16",
+        "q": 0.01,
+        "modes": 16,
+        "bimodal_eta": 0.1,
+        "center": 0.7853981633974483,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 241,
+        "max_nodes": 3200,
+        "tol": 3e-07,
+        "angular": 1024,
+        "check_only": false,
+        "restart": null,
+        "previous": null
+      },
+      "result": {
+        "q": 0.01,
+        "homotopy": 0.0,
+        "modes": 16,
+        "bimodal_eta": 0.1,
+        "scope": "Independent finite two-mode Frenet design with the literal actual linear port.",
+        "chart_inverse_error": 2.220446049250313e-16,
+        "seed_boundary_max": 2.378182578081427e-05,
+        "success": true,
+        "message": "The algorithm converged to the desired accuracy.",
+        "nodes": 731,
+        "max_rms": 2.976639073102675e-07,
+        "max_bc": 2.7200464103316335e-15,
+        "seconds": 229.5596962769996,
+        "physical_profile": {
+          "direction": "outward",
+          "ramp_eta": 0.05,
+          "ramp_law": "flat",
+          "cycles": 1,
+          "prefix_bridge": {
+            "kind": "turn_plateau_v1",
+            "curvature": 4.0,
+            "peak_fraction": 0.2
+          },
+          "vu": 0.35,
+          "ramp": 0.45,
+          "vd": 0.2501491579635462,
+          "delta": 0.030154764799030766
+        },
+        "parameters": [
+          1.1138692106422479e-05,
+          0.00011986575822803238,
+          -0.00022391725964809173,
+          2.0552732088543798e-05,
+          -1.936343278011428e-06,
+          -2.4564509487752796e-07,
+          -1.5398579699078328e-09,
+          2.2601823629852514e-10,
+          -1.4383639456826628e-11,
+          2.4067580059791484e-12,
+          2.8685590717649273e-13,
+          4.68901028308469e-14,
+          3.3172370409700466e-14,
+          2.0474646936687327e-14,
+          8.82707595290763e-15,
+          -6.970258920037515e-14
+        ],
+        "domain_newton": {
+          "calls": 5,
+          "rejected_domain_trials": 0,
+          "rejected_merit_trials": 1,
+          "accepted_steps": 10,
+          "no_step": 0,
+          "minimum_alpha": 0.5
+        },
+        "parameter_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 7.732494126608056e-09,
+            "scale": 1.171176651766359
+          },
+          {
+            "step": 3e-05,
+            "error": 3.496540706622805e-08,
+            "scale": 1.1711766506383725
+          },
+          {
+            "step": 1e-05,
+            "error": 9.863008453110372e-08,
+            "scale": 1.1711766512600974
+          }
+        ],
+        "boundary_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 3.0622213041823284e-11,
+            "scale": 0.006354432986726416
+          },
+          {
+            "step": 3e-05,
+            "error": 1.0207404347274427e-10,
+            "scale": 0.006354432997911046
+          },
+          {
+            "step": 1e-05,
+            "error": 3.0622213041823284e-10,
+            "scale": 0.006354432993639288
+          }
+        ],
+        "summary": {
+          "metric_l1": 2.4850383744292596e-08,
+          "flow_defect": 1.146250087401837e-07,
+          "darboux_l1": 1.3280154174368528e-05,
+          "kappa_sample": 6.483029667131777,
+          "radius_max": 1.0361691341795676,
+          "height_max": 0.7748345443714191,
+          "root_min": 0.015627866455602324,
+          "chart_rho_min": 0.85,
+          "support_amplitude": 0.01,
+          "terminal_height_coeff_max": 7.524489991468739e-06,
+          "physical_bc_max": 1.839036151190776e-19,
+          "samples_s": 1610,
+          "samples_psi": 1040,
+          "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+        },
+        "core": {
+          "core_kind": "exact_defined_plateau_integral",
+          "base_mode": 4,
+          "q_parameter": 0.01,
+          "halfwidth": 0.147,
+          "transition": 0.08,
+          "homotopy": 0.0,
+          "center": 0.7853981633974483,
+          "exact_circle_only_at_homotopy_one": false,
+          "plateau_radius_at_one": 1.1800000000000002,
+          "plateau_normal_width": 0.294,
+          "plateau_material_length": 0.343175519049127,
+          "exact_perimeter": 6.283185307179586,
+          "rho_lower_conservative": 0.8495871030886205,
+          "rho_triangle_lower": 0.8495871030886205,
+          "positivity_grid_per_sector": 512,
+          "rho_derivative_bound": 0.7849943420256008,
+          "rho_min_sample": 0.850245843999431,
+          "rho_max_sample": 1.1796521572864724,
+          "curvature_max_sample": 1.1761304181107755,
+          "radius_max_sample": 1.0107619223882298,
+          "quadrature_period_roundoff": 2.6645352591003757e-15,
+          "scope": "Exact integral definition and independent evaluation; no Fourier truncation is called an exact circular arc.",
+          "control_family": "C4 complementary controls with fixed c8=0 and two-harmonic primary",
+          "bimodal_eta": 0.1,
+          "ignored_correction_index": 0,
+          "local_flatten_beta": -0.6307476082725699,
+          "circle_unit_rho": 18.000000000000004,
+          "target_family": "C4 local circle flattening of the double harmonic, with complementary mean correction",
+          "control_transition": 0.16,
+          "lock_fundamental": false,
+          "control_homotopy": "lambda compact + (1-lambda) identical represented low support moments",
+          "control_projection_order": 16,
+          "rho_triangle_upper": 1.1804128969113796,
+          "rho_value_roundoff_allowance": 1.1972880418032744e-12
+        }
+      },
+      "input_sha256": {
+        "port": {
+          "path": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json",
+          "sha256": "b7f572c5dcb04b355c1dec7da5908bb0a30a5ac8e0b89c0919990438c399abb5"
+        },
+        "profile": {
+          "path": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/design/peak0.2-profile.json",
+          "sha256": "ff16a43193c9fc7a60c70df7bd34eb8350e6b05d48387e016cb817a955033127"
+        }
+      },
+      "executed_dependencies_sha256": {
+        "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+        "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+        "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+        "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+        "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+        "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+        "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+        "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+        "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+        "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+        "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+        "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6"
+      },
+      "historical_source_transforms": {
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+          "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+          "replacements": [
+            [
+              "self.warp_e=8*float(warp_q)",
+              "self.warp_e=15*float(warp_q)",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              4
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              4
+            ],
+            [
+              "np.sin(4*psi)/3",
+              "np.sin(4*psi)/4",
+              1
+            ],
+            [
+              "rho1=3*e",
+              "rho1=4*e",
+              1
+            ],
+            [
+              "cfg,port,q,M,angular,3,fixed",
+              "cfg,port,q,M,angular,4,fixed",
+              1
+            ],
+            [
+              "self.pscale,3)",
+              "self.pscale,4)",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ],
+            [
+              "theta=psi-e*np.sin(4*psi)/4;rho=1-e*np.cos(4*psi);rho1=4*e*np.sin(4*psi)",
+              "S=(1+_CHART_ETA)*np.sin(4*psi)/4-_CHART_ETA*np.sin(8*psi)/8;C=(1+_CHART_ETA)*np.cos(4*psi)-_CHART_ETA*np.cos(8*psi);Cp=4*(1+_CHART_ETA)*np.sin(4*psi)-8*_CHART_ETA*np.sin(8*psi);theta=psi-e*S;rho=1-e*C;rho1=e*Cp",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+          "replacements": [
+            [
+              "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+              "old=sys.modules['even_mode_warp']",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              5
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              3
+            ],
+            [
+              "3*np.arange",
+              "4*np.arange",
+              1
+            ],
+            [
+              "*sn/3",
+              "*sn/4",
+              3
+            ],
+            [
+              "rho_p=3*e",
+              "rho_p=4*e",
+              1
+            ],
+            [
+              "rho_ps=3*ep",
+              "rho_ps=4*ep",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "max(64,self.nt),3,",
+              "max(64,self.nt),4,",
+              1
+            ],
+            [
+              "psi)/3-target",
+              "psi)/4-target",
+              2
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ],
+            [
+              "sn=np.sin(4*psi)[None,:];co=np.cos(4*psi)[None,:]\n            theta=psi[None,:]-e[:,None]*sn/4;rho=1-e[:,None]*co;rho_p=4*e[:,None]*sn\n            theta_s=-ep[:,None]*sn/4;theta_ss=-epp[:,None]*sn/4;rho_s=-ep[:,None]*co;rho_ps=4*ep[:,None]*sn",
+              "S=((1+_CHART_ETA)*np.sin(4*psi)/4-_CHART_ETA*np.sin(8*psi)/8)[None,:];C=((1+_CHART_ETA)*np.cos(4*psi)-_CHART_ETA*np.cos(8*psi))[None,:];Cp=(4*(1+_CHART_ETA)*np.sin(4*psi)-8*_CHART_ETA*np.sin(8*psi))[None,:]\n            theta=psi[None,:]-e[:,None]*S;rho=1-e[:,None]*C;rho_p=e[:,None]*Cp\n            theta_s=-ep[:,None]*S;theta_ss=-epp[:,None]*S;rho_s=-ep[:,None]*C;rho_ps=ep[:,None]*Cp",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+          "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+          "replacements": []
+        },
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+          "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+          "replacements": []
+        }
+      },
+      "raw_result_sha256": "b55db06264c6a0ff69cebcbcf72c52ac6a899c13803bda203d8888c664eecff1",
+      "checkpoint_sha256": "46b1c910a8e349d1fdece449b9fe817e72c2df4800068cf3a29b276c0cda68ed",
+      "coefficient_chunks": [
+        {
+          "file": "q010-m16-lam0_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 49,
+          "bytes": 1669392,
+          "sha256": "6e00605ff5d957fffa3433e0e06c617578582cee6ed9f3ca28124580ca923545"
+        }
+      ],
+      "log_sha256": "43616da0d05455070adb13320297f39faf86396d4d943daf8bf0f4719aeb41dd",
+      "unabridged_runtime_manifest_sha256": "87f2e97e02cb185544fabc12c89506ac0e9f0715cda24c25b74f3d695ae7d550"
+    },
+    {
+      "run": "q0125-m16",
+      "arguments": {
+        "source_topic": "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface",
+        "port": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json",
+        "profile": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/design/peak0.2-profile.json",
+        "out": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q0125-m16",
+        "q": 0.0125,
+        "modes": 16,
+        "bimodal_eta": 0.1,
+        "center": 0.7853981633974483,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 241,
+        "max_nodes": 3200,
+        "tol": 3e-07,
+        "angular": 1024,
+        "check_only": false,
+        "restart": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q010-m16-lam0.json.gz",
+        "previous": null
+      },
+      "result": {
+        "q": 0.0125,
+        "homotopy": 0.0,
+        "modes": 16,
+        "bimodal_eta": 0.1,
+        "scope": "Independent finite two-mode Frenet design with the literal actual linear port.",
+        "chart_inverse_error": 2.220446049250313e-16,
+        "seed_boundary_max": 7.462418987661813e-06,
+        "success": true,
+        "message": "The algorithm converged to the desired accuracy.",
+        "nodes": 748,
+        "max_rms": 2.9807597284534595e-07,
+        "max_bc": 1.1623996400771347e-13,
+        "seconds": 161.25561960899722,
+        "physical_profile": {
+          "direction": "outward",
+          "ramp_eta": 0.05,
+          "ramp_law": "flat",
+          "cycles": 1,
+          "prefix_bridge": {
+            "kind": "turn_plateau_v1",
+            "curvature": 4.0,
+            "peak_fraction": 0.2
+          },
+          "vu": 0.35,
+          "ramp": 0.45,
+          "vd": 0.25018861537216824,
+          "delta": 0.03015813595363715
+        },
+        "parameters": [
+          1.4509846712806677e-05,
+          0.00015932316685009538,
+          -0.0002953767630981636,
+          2.97188956007994e-05,
+          -3.1697893931691238e-06,
+          -4.711889349932073e-07,
+          -3.916008467493681e-09,
+          5.813875190731539e-10,
+          -4.44743958518308e-11,
+          7.13507886973485e-12,
+          1.528629715426896e-12,
+          6.182532790072911e-14,
+          2.571526612773122e-14,
+          1.260571170385591e-14,
+          3.3789731729532657e-14,
+          -1.3702245598095392e-14
+        ],
+        "domain_newton": {
+          "calls": 2,
+          "rejected_domain_trials": 0,
+          "rejected_merit_trials": 0,
+          "accepted_steps": 8,
+          "no_step": 0,
+          "minimum_alpha": 1.0
+        },
+        "material_restart": {
+          "method": "dual-parameter-design-material-angle-predictor",
+          "q_inputs": [
+            0.01
+          ],
+          "q_target": 0.0125,
+          "secant_weights": [
+            1.0
+          ],
+          "radial_nodes": 734,
+          "angular_projection": 2048,
+          "pullback_residual": 8.881784197001252e-16,
+          "predicted_delta": 0.03016103031334063,
+          "predicted_vd": 0.25021658245254946,
+          "inlet_repair_coefficient_max": 0.010635539999183284,
+          "scaled_bc_before": 0.010635539999183284,
+          "scaled_bc_after": 7.462418987661813e-06,
+          "source_sha256": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+          "scope": "Only an initial guess; unchanged full equations, root guards and solver tolerance"
+        },
+        "parameter_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 1.0623517046152626e-08,
+            "scale": 1.4572071630247763
+          },
+          {
+            "step": 3e-05,
+            "error": 5.011559764495618e-08,
+            "scale": 1.457207166488672
+          },
+          {
+            "step": 1e-05,
+            "error": 7.251521566861218e-08,
+            "scale": 1.4572071667107165
+          }
+        ],
+        "boundary_jac_checks": [
+          {
+            "step": 0.0001,
+            "error": 2.377191679325521e-11,
+            "scale": 0.006353382888107245
+          },
+          {
+            "step": 3e-05,
+            "error": 4.798915210796773e-11,
+            "scale": 0.006353382884551062
+          },
+          {
+            "step": 1e-05,
+            "error": 1.7358175603005761e-10,
+            "scale": 0.006353382844869262
+          }
+        ],
+        "summary": {
+          "metric_l1": 5.975694139587187e-07,
+          "flow_defect": 3.827909550774816e-06,
+          "darboux_l1": 0.0002123642022690503,
+          "kappa_sample": 6.722871441381576,
+          "radius_max": 1.0376879162582102,
+          "height_max": 0.7747322377002022,
+          "root_min": 0.01529639197811461,
+          "chart_rho_min": 0.8125,
+          "support_amplitude": 0.0125,
+          "terminal_height_coeff_max": 9.410936156590002e-06,
+          "physical_bc_max": 1.1623996400771348e-15,
+          "samples_s": 1644,
+          "samples_psi": 1040,
+          "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+        },
+        "core": {
+          "core_kind": "exact_defined_plateau_integral",
+          "base_mode": 4,
+          "q_parameter": 0.0125,
+          "halfwidth": 0.147,
+          "transition": 0.08,
+          "homotopy": 0.0,
+          "center": 0.7853981633974483,
+          "exact_circle_only_at_homotopy_one": false,
+          "plateau_radius_at_one": 1.225,
+          "plateau_normal_width": 0.294,
+          "plateau_material_length": 0.355449297226504,
+          "exact_perimeter": 6.283185307179586,
+          "rho_lower_conservative": 0.8118062602193333,
+          "rho_triangle_lower": 0.8118062602193333,
+          "positivity_grid_per_sector": 512,
+          "rho_derivative_bound": 0.9834574351495569,
+          "rho_min_sample": 0.8129007888332651,
+          "rho_max_sample": 1.224416511390865,
+          "curvature_max_sample": 1.2301624180181612,
+          "radius_max_sample": 1.0134524610464084,
+          "quadrature_period_roundoff": 2.6645352591003757e-15,
+          "scope": "Exact integral definition and independent evaluation; no Fourier truncation is called an exact circular arc.",
+          "control_family": "C4 complementary controls with fixed c8=0 and two-harmonic primary",
+          "bimodal_eta": 0.1,
+          "ignored_correction_index": 0,
+          "local_flatten_beta": -0.6307476082725699,
+          "circle_unit_rho": 18.000000000000004,
+          "target_family": "C4 local circle flattening of the double harmonic, with complementary mean correction",
+          "control_transition": 0.16,
+          "lock_fundamental": false,
+          "control_homotopy": "lambda compact + (1-lambda) identical represented low support moments",
+          "control_projection_order": 16,
+          "rho_triangle_upper": 1.225693739780667,
+          "rho_value_roundoff_allowance": 1.246787671315949e-12
+        }
+      },
+      "input_sha256": {
+        "port": {
+          "path": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-port24.json",
+          "sha256": "b7f572c5dcb04b355c1dec7da5908bb0a30a5ac8e0b89c0919990438c399abb5"
+        },
+        "profile": {
+          "path": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/design/peak0.2-profile.json",
+          "sha256": "ff16a43193c9fc7a60c70df7bd34eb8350e6b05d48387e016cb817a955033127"
+        },
+        "restart": {
+          "path": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/q010-m16-lam0.json.gz",
+          "sha256": "46b1c910a8e349d1fdece449b9fe817e72c2df4800068cf3a29b276c0cda68ed"
+        }
+      },
+      "executed_dependencies_sha256": {
+        "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+        "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+        "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+        "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+        "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+        "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+        "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+        "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+        "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+        "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+        "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+        "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6"
+      },
+      "historical_source_transforms": {
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+          "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+          "replacements": [
+            [
+              "self.warp_e=8*float(warp_q)",
+              "self.warp_e=15*float(warp_q)",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              4
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              4
+            ],
+            [
+              "np.sin(4*psi)/3",
+              "np.sin(4*psi)/4",
+              1
+            ],
+            [
+              "rho1=3*e",
+              "rho1=4*e",
+              1
+            ],
+            [
+              "cfg,port,q,M,angular,3,fixed",
+              "cfg,port,q,M,angular,4,fixed",
+              1
+            ],
+            [
+              "self.pscale,3)",
+              "self.pscale,4)",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ],
+            [
+              "theta=psi-e*np.sin(4*psi)/4;rho=1-e*np.cos(4*psi);rho1=4*e*np.sin(4*psi)",
+              "S=(1+_CHART_ETA)*np.sin(4*psi)/4-_CHART_ETA*np.sin(8*psi)/8;C=(1+_CHART_ETA)*np.cos(4*psi)-_CHART_ETA*np.cos(8*psi);Cp=4*(1+_CHART_ETA)*np.sin(4*psi)-8*_CHART_ETA*np.sin(8*psi);theta=psi-e*S;rho=1-e*C;rho1=e*Cp",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+          "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+          "replacements": [
+            [
+              "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+              "old=sys.modules['even_mode_warp']",
+              1
+            ],
+            [
+              "3*psi",
+              "4*psi",
+              5
+            ],
+            [
+              "3*theta",
+              "4*theta",
+              3
+            ],
+            [
+              "3*np.arange",
+              "4*np.arange",
+              1
+            ],
+            [
+              "*sn/3",
+              "*sn/4",
+              3
+            ],
+            [
+              "rho_p=3*e",
+              "rho_p=4*e",
+              1
+            ],
+            [
+              "rho_ps=3*ep",
+              "rho_ps=4*ep",
+              1
+            ],
+            [
+              "*et/3",
+              "*et/4",
+              1
+            ],
+            [
+              "max(64,self.nt),3,",
+              "max(64,self.nt),4,",
+              1
+            ],
+            [
+              "psi)/3-target",
+              "psi)/4-target",
+              2
+            ],
+            [
+              "obj.M*3+1",
+              "obj.M*4+1",
+              1
+            ],
+            [
+              "base_mode=3,core_kind=",
+              "base_mode=4,core_kind=",
+              1
+            ],
+            [
+              "sn=np.sin(4*psi)[None,:];co=np.cos(4*psi)[None,:]\n            theta=psi[None,:]-e[:,None]*sn/4;rho=1-e[:,None]*co;rho_p=4*e[:,None]*sn\n            theta_s=-ep[:,None]*sn/4;theta_ss=-epp[:,None]*sn/4;rho_s=-ep[:,None]*co;rho_ps=4*ep[:,None]*sn",
+              "S=((1+_CHART_ETA)*np.sin(4*psi)/4-_CHART_ETA*np.sin(8*psi)/8)[None,:];C=((1+_CHART_ETA)*np.cos(4*psi)-_CHART_ETA*np.cos(8*psi))[None,:];Cp=(4*(1+_CHART_ETA)*np.sin(4*psi)-8*_CHART_ETA*np.sin(8*psi))[None,:]\n            theta=psi[None,:]-e[:,None]*S;rho=1-e[:,None]*C;rho_p=e[:,None]*Cp\n            theta_s=-ep[:,None]*S;theta_ss=-epp[:,None]*S;rho_s=-ep[:,None]*C;rho_ps=ep[:,None]*Cp",
+              1
+            ]
+          ]
+        },
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+          "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+          "replacements": []
+        },
+        "/workspace/scratch/7322d0dee069/n4_work/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+          "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+          "replacements": []
+        }
+      },
+      "raw_result_sha256": "96b0675f72ed367b680776b560626acbc709eb0b741b104ddb984fe1a54d6d62",
+      "checkpoint_sha256": "e0934630851e377d9a3ee617d6e397c8386f70c6156f410485e93df806bb7a39",
+      "coefficient_chunks": [
+        {
+          "file": "q0125-m16-lam0_coeff_00.npy.gz",
+          "state_first": 0,
+          "state_last_exclusive": 49,
+          "bytes": 1707224,
+          "sha256": "703e50e67af4891243e04c2053112a1f755af305b449b28b13067aa32825bd18"
+        }
+      ],
+      "log_sha256": "ff2ccc510d65405474bdbd910a5b7f38a3c554fcc01e400dcd24eb724bf506d9",
+      "unabridged_runtime_manifest_sha256": "87f2e97e02cb185544fabc12c89506ac0e9f0715cda24c25b74f3d695ae7d550"
+    }
+  ],
+  "reproducibility": "Prepare resume_n4 sources; regenerate w016 port/profile with n4_thicker_cut_design.py; run run_large_radius_circle.py with the recorded arguments in order. Only source, parameters, scalar findings and hashes are stored."
+}
