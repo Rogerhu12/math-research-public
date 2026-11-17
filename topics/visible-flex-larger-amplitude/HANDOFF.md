@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整证明/失败/身份见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638–646已付pulse/hold坐标、嵌入、指定胞Gram/曲率及同像距离；R647付完整Pr/全谱/直接Gram全局rho Jacobian、积分T/全列尺度、最小jerk节点不变性。[原LM终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)20/20未收敛，bf5a的cubicGram7.136e−5，非父。[T单方向实际结果](notes/2026-11-17-parallel-numerical-integrated-direction-result.md)原1662/全行/新步范数/µ1/128：SSE3.48127e−6、分支样点正，但Gram7.506e−4、istop7；numerical准备新固定512预算，geometry实际C²结果接刊。两证书e024保原计划/已完片复用：Gram已819/819真实全返、上界4.94e−7，完整证明接刊；曲率818胞继续，model唯一读者。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整证明/失败/身份见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638–646已付pulse/hold坐标、嵌入、指定胞Gram/曲率及同像距离；R647付完整Pr/全谱/直接Gram全局rho Jacobian、积分T/全列尺度、最小jerk节点不变性。[原LM终态](notes/2026-11-17-parallel-numerical-implicit-lm-terminal.md)20/20未收敛，bf5a的cubicGram7.136e−5，非父。[T单方向实际结果](notes/2026-11-17-parallel-numerical-integrated-direction-result.md)原1662/全行/新步范数/µ1/128：SSE3.48127e−6、分支样点正，但Gram7.506e−4、istop7；numerical准备新固定512预算，geometry实际C²结果接刊。两证书e024保原计划/已完片复用：[R648全Gram](results/R648-continuous-Gram-on-the-complete-pulse-prefix.md)已819/819真实全返，连续上界4.94e−7；曲率818胞继续，model唯一读者。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 
