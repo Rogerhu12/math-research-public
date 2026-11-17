@@ -1,0 +1,57 @@
+{
+  "scope": "Source-only handoff. Regenerable checkpoints, arrays, summaries, pycache and logs are excluded. Existing recover_prefix.py is already in the target topic.",
+  "files": [
+    {
+      "path": "plateau_core.py",
+      "bytes": 11783,
+      "sha256": "a7e381bab166c50f78e6a8769eecca073514963cac2e17a3efa79c0417c2b8df"
+    },
+    {
+      "path": "plateau_prefix.py",
+      "bytes": 7532,
+      "sha256": "75993e763ca3022330c6ac8a3b95f39fc24cbca97235ecae6fb49942d7b7032a"
+    },
+    {
+      "path": "exact_core_lift.py",
+      "bytes": 3021,
+      "sha256": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5"
+    },
+    {
+      "path": "osculating_core_reference.py",
+      "bytes": 6153,
+      "sha256": "9a5d2cc37083d2aeeba613af57e3297329621a9ba7dc81c05620a544c5f1bfcd"
+    },
+    {
+      "path": "collocation_terminal_rank.py",
+      "bytes": 1222,
+      "sha256": "2035818d1bac52033d06623cf270238463d4cbcf0c93fa9e0960a526f94503d0"
+    },
+    {
+      "path": "plateau_patch_audit.py",
+      "bytes": 3711,
+      "sha256": "8f8775b7373c3b3e9fd64c086cdf2faf46c749fae512548df7467235be994683"
+    },
+    {
+      "path": "core_diagnostics.py",
+      "bytes": 2741,
+      "sha256": "7ec374a5a6fd181e8e5b6e493e91592f90b74fe0e6116762c488daaf9e587e98"
+    },
+    {
+      "path": "restore_flat17_warm.py",
+      "bytes": 4861,
+      "sha256": "11349a933698972d09965c76bfc6b6905d9d389c8191e01151243d3b9933afd4"
+    },
+    {
+      "path": "plateau_recovery_manifest.json",
+      "bytes": 12095,
+      "sha256": "5cedbe3fd9fb39da7f7088912d76716316055c8547e9cbfeb224e338cbd7c895"
+    },
+    {
+      "path": "../../notes/2026-11-17-plateau-core-lift-and-schur.md",
+      "bytes": 6819,
+      "sha256": "37a49d47d4f6171195afc2c1fd562db21b81d4939768398f2456df0bd4a490e8",
+      "original_source_sha256": "37a1b61f97f900517f50205bafc30f5461a4213ff48c7821729ac68bb093cbd8"
+    }
+  ],
+  "total_bytes": 59938
+}
