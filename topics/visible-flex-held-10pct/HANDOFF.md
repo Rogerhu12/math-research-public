@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`551f69d46e25b360b41070af6f1f7f351170f37c`。2026-11-18 05:50:29（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`44c5748c094f4490887051f188d2b31800c6cdb8`。2026-11-18 05:50:56（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -16,7 +16,7 @@
 
 **真正actual g**：eta.1/q.01，δ=.030027177128250468/vd=.2483630655929876。M16→M20冻整profile/port，1913点，prefix metric2.38461e−8→1.950429e−9/tensor3.51076e−6；四次真尾/外层/audit全过，tail1.66494e−9/minA.942545/metric2.27685e−12/fullD8.96381e−8，见n4-actual-fixed-m20。同g M24保1913旧点/完整核≤2.09e−15；首worker−9未有accepted尾，见n4-actual-m24-worker-interruption。heap1536重试有真实失败终态：首warmup迭12原线搜索停5.41094e−9，accepted0/无prefix CP；worker0不等于success，RSS不作OOM判断，见n4-actual-m24-parts8-terminal。正沿同g分片8→16，仍λ0/未闭合。
 
-R30周期复用只减少重复标量求积，N/D/S/A/root/2e−9原门均保留，不复制空间点。旧工程中断另记。最终build_seed以solved参数/原投影定义核，归一后合并全部物理网格；见n4-fixed-seed-identity。线性g的M20下降链与actual链分开。
+R30周期复用/同μ缓存不改方程与2e−9原门。n4 actualM20/576stage/990760标量全残差/flow/Jac/graphs逐位同值，engine576→8、返回数组变异/重入差0；见n4-shared-periodic-engines，不作普遍提速声明。整核/旧网格身份见n4-fixed-seed-identity；线性g和actual链分开。
 
 **原w.08幅值链**：q.015/M20接受784点，metric9.23853e−7/tensor3.64609e−4。q.0175/M24初始矩区间经同Gram Taylor100→180收紧，随后实际BVP运行1743.6s在原Frenet margin−1.33207e−6拒绝；见n4-q0175-tight-terminal。M20主动取消不作数学失败。
 
