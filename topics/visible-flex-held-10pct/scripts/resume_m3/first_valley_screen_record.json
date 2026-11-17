@@ -1,0 +1,27 @@
+{
+  "scope": "Mode-three linear first-valley physical design screen; not actual nonlinear capacity, closure or fixed-metric convergence.",
+  "output_sha256": "a3f1e4c925ddfe7952370d6c95b81ee57d02939dda13a999eced6bc8d13b305a",
+  "source_sha256": "eded841b5c7f706c33e51695f0c4f212e4a62f614949c171a804abdb74fdb925",
+  "config_sha256": "1840621382e87c4901fc5a238a64f91d2b8d7447454ef71ee73a4109a1132ce8",
+  "steps": 128,
+  "far": 48,
+  "beta0_values": [
+    2.625,
+    3.125,
+    3.375,
+    3.625,
+    3.875,
+    4.125,
+    4.625
+  ],
+  "geometry_steps": 16,
+  "previous_q025_leading_location_output_sha256": "a85be9e01bdf489ce926c85dd74eb9d867f9e64762be46c293821074d7bf8142",
+  "leading_location_script_sha256": "b27e45a1ed8d0631d9541dab319469783c49b08e24db00bc3237d1d63e262f71",
+  "command": [
+    "node",
+    "screen_first_valley.mjs",
+    "RECOVERED_TOPIC",
+    "ORIGINAL_Q025_CONFIG",
+    "OUTPUT_JSON"
+  ]
+}
