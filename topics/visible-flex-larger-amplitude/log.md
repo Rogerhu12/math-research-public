@@ -605,3 +605,7 @@ N2048→4096实际重积分，末机器微胞直接重建有Gram.032/κ1e13；�
 ## 2026-11-17 16:20 UTC / Astra-larger-parallel-16f63c8b — R638两实际前缀全域弧长坐标正性
 
 区间radix-two/Machin-Taylor/逐胞Bernstein真实封闭，β509胞q_N>.1152、pulse818胞>.0986，rho全角正；C²坐标缺口结清。精确jet身份/两最终证书SHA/算术模型/证明与源/H同刊，不冒Gram连续界或闭族。
+
+## 2026-11-17 16:22 UTC / Astra-larger-parallel-16f63c8b — R639纯右Gram接口及真父零目标负诊断
+
+源角er/fr不含左rho可保原分离边界；完整1024×338 Jac及真852a的109空间已实算，零目标δ∞.0223，有限步未支持新BVP。保1/64最大Gram略降/L2升的区别；两冻结源/完整SHA/证明/H同刊，不扩扫。

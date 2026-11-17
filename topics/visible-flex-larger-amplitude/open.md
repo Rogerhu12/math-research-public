@@ -101,15 +101,17 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-完整旧全文/全部失败/参数/源/SHA固定保于[66419361 open](https://github.com/Rogerhu12/math-research-public/blob/66419361baa8cad4423ace0f1d02894370bc8528/topics/visible-flex-larger-amplitude/open.md)，其继续链接df896、cd553、dc271、dd08、b327、83262；本次仅缩写§7，原§1–6不动。本地计算，原Actions读者责任不变。R623–638正式证明均在[results](results.md)。
+完整旧全文/全部失败/参数/源/SHA另固定保[1a8e9289 open](https://github.com/Rogerhu12/math-research-public/blob/1a8e92891063755b27bc600a4dd3ee516f9096a5/topics/visible-flex-larger-amplitude/open.md)，并沿[66419361 open](https://github.com/Rogerhu12/math-research-public/blob/66419361baa8cad4423ace0f1d02894370bc8528/topics/visible-flex-larger-amplitude/open.md)，其继续链接df896、cd553、dc271、dd08、b327、83262；本次仅缩写§7，原§1–6不动。本地计算，原Actions读者责任不变。R623–639正式证明均在[results](results.md)。
 
-**已付与禁止重复。** 原解析g M112真到.995/实际Gram4.001e−7；.992的M112/M128未证明角收敛；原g .999、径向增长两族/六控制纠正失败。R633严格长度门排除旧best4外向强λ1，R635在实际κ≤6.8/反射major正投影下排除.992/R1.7673/H≤1.22和.8/R1.6/H≤1.45（换g也无效）。全部有限far/Dirichlet/双trace/材料均值/平cuff旧失败见固定全文，不重跑。
+**已付与禁止重复。** 原g真到.995/Gram4.001e−7；旧.992角精化、.999与全部增长/纠正/外尾失败均在固定全文，不能重跑当新结果。R633排除旧best4强外向λ1；R635在κ≤6.8/反射major正投影下排除.992/R1.7673/H≤1.22与.8/R1.6/H≤1.45（换g亦无效）。
 
 [新内向标量](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)保旧.995后κ1.5/两.02 ramp，参考末s2.284717/R.531879；[R636](results/R636-certified-inward-reference-radius-and-length.md)严格结清R634的R/L与全角chord余>.06001464673515，非真非轴尾。固定a依R240共材料、rho可变；共同材料六jet精化尚未付。
 
 **全有限BVP。** 原内向.997 M112/M128真接受但Gram2.754e−6/5.879e−6；.998/.999失败。[Schur112/128](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)分别实际2.421e−6与1423节点/RMS3.592e−4超2000失败。[onlyZ109](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)1457节点/RMS8.425e−5超1800失败。以上均不作未接受父。
 
 [全段可达109行](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)与[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)已实际支付；固定U/原11960350母值的[β同伦](notes/2026-11-17-parallel-model-inward-svd-value-continuation.md)：63/64、.9、.75真接受，原实际Gram2.708/2.503/2.399e−6；.75角G主导，代数换raw V不能消掉。β.5真1422节点/RMS1.733e−5/BC1.752e−6超原1800失败，从真β.75缩步.625亦954节点/RMS2.213e−7/BC1.689e−9超1800失败；最后真接受仍.75，原母值/U不变。这些新有限边界不冒原tail DN。
+
+[R639纯右规范化Gram](results/R639-pure-right-normalized-Gram-boundary-and-finite-zero-target-test.md)证明源角er/fr不需左rho耦合；真β.75全Jac/109可达空间零目标需δ∞.0223，四有限试步未支持新BVP。仅最小步maxGram稍降而L2升，不扩大扫描。
 
 **固定弧长新映射。** [β.75同g规范化](notes/2026-11-17-parallel-numerical-arclength-normalized-prefix.md)固定构造q_N、N2048，以同rho隐式重参数并按a/mean(q_N)中心缩放；完整保λ′/λ″/ψ_s。509胞在4096/4sub与8192/8sub独立audit均真实Gram6.393033e−7，细层κ6.289016；角余项实际读出未置零。正性下的C²来自有限φ谱及共享quintic；[R638](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)现以区间FFT/整数三角/Bernstein覆盖严格结清全域q_N>.1152及rho正性。仅旧角对应像点缩放差约9e−13，不能冒共同材料位移；非原BVP再接受或完整mesh/frequency/t精化。
 

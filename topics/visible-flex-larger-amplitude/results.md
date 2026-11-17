@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R639（纯右接口已证明，零目标为有限负诊断）**：[规范化Gram纯右边界与真父可达空间](results/R639-pure-right-normalized-Gram-boundary-and-finite-zero-target-test.md)：源角下er/fr不含左rho，可保338/229分离结构；真β.75的1024×338 Jac与109可达空间实算，零目标需δ∞.0223，四个有限试步不足以支持新BVP。最小步maxGram略降但L2升，不冒不可解证明。
+
 - **R638（全域正性已证明，明确IEEE模型）**：[两条前缀的正弧长坐标与C²映射](results/R638-global-positive-arclength-coordinates-for-two-prefixes.md)：整数Taylor/Machin及区间radix-two、Bernstein径向覆盖，β.75全509胞q_N>.1152、pulse全818胞>.0986，ρ全角亦正；结清固定规范化的C²坐标条件，不升级采样Gram/嵌入/reach或闭族。
 
 - **R637（接缝已证明，几何读出为数值证据）**：[旧前缀到M320短段的真实C²桥](results/R637-explicit-C2-bridge-to-the-high-mode-inward-prefix.md)：固定原core/rho/g，约.0005宽Hermite修正并共享精确节点0/1/2jet，实际接到.997；新桥全短段Gram5.092e−7/κ5.79934，原前缀不动。非完整BVP、连续误差认证或固定参数精化完成。
