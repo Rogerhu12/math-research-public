@@ -1,0 +1,874 @@
+{
+  "schema": "mu-free-mixed-finite-validation-v1",
+  "session": "true_a_analysis",
+  "scope": "Complete finite equations and independent cone regression only; no closed-family or uniform-inverse claim.",
+  "versions": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "source_equivalence": {
+    "scope": "Compare the mixed variables directly with the immutable momentum engine.\n\nThis check includes nonzero angular flux, either radial sign, nonconstant w,\nboth original orientation signs, and two distinct internal mu scales.\n",
+    "source_module": {
+      "path": "true_a_work/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs",
+      "sha256": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c"
+    },
+    "checker_sha256": "3743c396046662e0ca492ba4c0420df6cb7d1bb4091e6553904b5edbb14e7291",
+    "mixed_fields_sha256": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0",
+    "state_generator_seed": 551751,
+    "rows": [
+      {
+        "parameters": {
+          "M": 4,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.00358,
+          "rx": 0.17,
+          "ell": 0.37,
+          "orientation": 1,
+          "mu": 0.6
+        },
+        "original_root_relative": 0,
+        "mixed_root_relative": 2.8717842156074706e-16,
+        "complete_flow_linf_error": 3.469446951953614e-17,
+        "gram_linf_error": 3.3306690738754696e-15,
+        "minimum_A": 0.9967499368967698,
+        "minimum_D": 0.9999998691228671,
+        "minimum_S": 0.9999999999846515
+      },
+      {
+        "parameters": {
+          "M": 4,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.00358,
+          "rx": -0.21,
+          "ell": -1.4,
+          "orientation": -1,
+          "mu": 1e-17
+        },
+        "original_root_relative": 1.2483364244034992e-16,
+        "mixed_root_relative": 2.496672848806999e-16,
+        "complete_flow_linf_error": 5.551115123125783e-17,
+        "gram_linf_error": 3.1086244689504383e-15,
+        "minimum_A": 0.9944946253948104,
+        "minimum_D": 0.9999999160684012,
+        "minimum_S": 0.99999999997421
+      },
+      {
+        "parameters": {
+          "M": 4,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.08,
+          "rx": 0.17,
+          "ell": 0.37,
+          "orientation": 1,
+          "mu": 0.6
+        },
+        "original_root_relative": 1.3590025468264806e-16,
+        "mixed_root_relative": 2.7180050936529623e-16,
+        "complete_flow_linf_error": 4.163336342344337e-17,
+        "gram_linf_error": 1.3322676295501878e-15,
+        "minimum_A": 0.9722468056853827,
+        "minimum_D": 0.9998902456898208,
+        "minimum_S": 0.9999998526825633
+      },
+      {
+        "parameters": {
+          "M": 4,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.08,
+          "rx": -0.21,
+          "ell": -1.4,
+          "orientation": -1,
+          "mu": 1e-17
+        },
+        "original_root_relative": 1.6700821652973651e-16,
+        "mixed_root_relative": 5.010246495892097e-16,
+        "complete_flow_linf_error": 3.469446951953614e-17,
+        "gram_linf_error": 1.7763568394002505e-15,
+        "minimum_A": 0.9898214615316959,
+        "minimum_D": 0.999903568948749,
+        "minimum_S": 0.999999936026047
+      },
+      {
+        "parameters": {
+          "M": 4,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.3,
+          "rx": 0.17,
+          "ell": 0.37,
+          "orientation": 1,
+          "mu": 0.6
+        },
+        "original_root_relative": 5.20383316592113e-17,
+        "mixed_root_relative": 4.163066532736906e-16,
+        "complete_flow_linf_error": 1.249000902703301e-16,
+        "gram_linf_error": 6.661338147750939e-16,
+        "minimum_A": 0.991367668657538,
+        "minimum_D": 0.9988307361307442,
+        "minimum_S": 0.9999998797100456
+      },
+      {
+        "parameters": {
+          "M": 4,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.3,
+          "rx": -0.21,
+          "ell": -1.4,
+          "orientation": -1,
+          "mu": 1e-17
+        },
+        "original_root_relative": 7.955821125129819e-18,
+        "mixed_root_relative": 4.2877688590173355e-16,
+        "complete_flow_linf_error": 6.938893903907228e-17,
+        "gram_linf_error": 1.2212453270876722e-15,
+        "minimum_A": 0.9781597652477209,
+        "minimum_D": 0.9984496550184245,
+        "minimum_S": 0.9999968866303088
+      },
+      {
+        "parameters": {
+          "M": 8,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.00358,
+          "rx": 0.17,
+          "ell": 0.37,
+          "orientation": 1,
+          "mu": 0.6
+        },
+        "original_root_relative": 1.3502517058995316e-16,
+        "mixed_root_relative": 2.700503411799063e-16,
+        "complete_flow_linf_error": 9.540979117872439e-17,
+        "gram_linf_error": 1.7763568394002505e-15,
+        "minimum_A": 0.9797944455115654,
+        "minimum_D": 0.9999997392339574,
+        "minimum_S": 0.9999999998188404
+      },
+      {
+        "parameters": {
+          "M": 8,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.00358,
+          "rx": -0.21,
+          "ell": -1.4,
+          "orientation": -1,
+          "mu": 1e-17
+        },
+        "original_root_relative": 1.7104182052043097e-16,
+        "mixed_root_relative": 3.42083641040862e-16,
+        "complete_flow_linf_error": 1.942890293094024e-16,
+        "gram_linf_error": 1.7763568394002505e-15,
+        "minimum_A": 0.9866091226423036,
+        "minimum_D": 0.999999727166601,
+        "minimum_S": 0.9999999998806358
+      },
+      {
+        "parameters": {
+          "M": 8,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.08,
+          "rx": 0.17,
+          "ell": 0.37,
+          "orientation": 1,
+          "mu": 0.6
+        },
+        "original_root_relative": 9.447822442568049e-17,
+        "mixed_root_relative": 3.5568272724962077e-16,
+        "complete_flow_linf_error": 2.7755575615628914e-16,
+        "gram_linf_error": 2.7755575615628914e-15,
+        "minimum_A": 0.9656227294008176,
+        "minimum_D": 0.9997714790393415,
+        "minimum_S": 0.9999999033680075
+      },
+      {
+        "parameters": {
+          "M": 8,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.08,
+          "rx": -0.21,
+          "ell": -1.4,
+          "orientation": -1,
+          "mu": 1e-17
+        },
+        "original_root_relative": 1.2523268435836687e-16,
+        "mixed_root_relative": 5.009307374334677e-16,
+        "complete_flow_linf_error": 3.3306690738754696e-16,
+        "gram_linf_error": 2.6645352591003757e-15,
+        "minimum_A": 0.9809551041674649,
+        "minimum_D": 0.9998671326479884,
+        "minimum_S": 0.9999998839136415
+      },
+      {
+        "parameters": {
+          "M": 8,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.3,
+          "rx": 0.17,
+          "ell": 0.37,
+          "orientation": 1,
+          "mu": 0.6
+        },
+        "original_root_relative": 1.6489060085490554e-16,
+        "mixed_root_relative": 3.297812017098113e-16,
+        "complete_flow_linf_error": 2.7755575615628914e-16,
+        "gram_linf_error": 1.9984014443252818e-15,
+        "minimum_A": 0.980703730384046,
+        "minimum_D": 0.9962076772041312,
+        "minimum_S": 0.99999940560921
+      },
+      {
+        "parameters": {
+          "M": 8,
+          "N": 256,
+          "r": 0.35,
+          "w": 0.3,
+          "rx": -0.21,
+          "ell": -1.4,
+          "orientation": -1,
+          "mu": 1e-17
+        },
+        "original_root_relative": 3.767699996634951e-17,
+        "mixed_root_relative": 3.014159997307962e-16,
+        "complete_flow_linf_error": 5.551115123125783e-17,
+        "gram_linf_error": 2.6645352591003757e-15,
+        "minimum_A": 0.9838053727087493,
+        "minimum_D": 0.9978809854789349,
+        "minimum_S": 0.9999995297892175
+      }
+    ],
+    "maximum_flow_error": 3.3306690738754696e-16,
+    "maximum_gram_error": 3.3306690738754696e-15
+  },
+  "directional_derivatives": [
+    {
+      "full": false,
+      "w": 0.00358,
+      "minD": 0.9999974591507123,
+      "minS": 0.9999999974786028,
+      "trials": [
+        {
+          "h": 1e-05,
+          "flow_abs": 3.851141627819743e-12,
+          "alg_abs": 1.262323578998803e-13
+        },
+        {
+          "h": 1e-06,
+          "flow_abs": 2.559374934207881e-11,
+          "alg_abs": 2.99704705497561e-13
+        },
+        {
+          "h": 1e-07,
+          "flow_abs": 1.1827161472410808e-10,
+          "alg_abs": 1.4177492513312018e-11
+        }
+      ]
+    },
+    {
+      "full": false,
+      "w": 0.08,
+      "minD": 0.9968704253882291,
+      "minS": 0.9999938673136181,
+      "trials": [
+        {
+          "h": 1e-05,
+          "flow_abs": 4.2522316334725474e-08,
+          "alg_abs": 3.9056359535383223e-10
+        },
+        {
+          "h": 1e-06,
+          "flow_abs": 4.3516479308891576e-10,
+          "alg_abs": 4.00215971474438e-12
+        },
+        {
+          "h": 1e-07,
+          "flow_abs": 5.440270456347207e-10,
+          "alg_abs": 1.6975060246338103e-11
+        }
+      ]
+    },
+    {
+      "full": false,
+      "w": 0.3,
+      "minD": 0.9861889346598699,
+      "minS": 0.9999772290796135,
+      "trials": [
+        {
+          "h": 1e-05,
+          "flow_abs": 1.9888712898818994e-08,
+          "alg_abs": 1.8598874107489394e-09
+        },
+        {
+          "h": 1e-06,
+          "flow_abs": 1.9908341641894367e-10,
+          "alg_abs": 1.8218232478162122e-11
+        },
+        {
+          "h": 1e-07,
+          "flow_abs": 1.7357404402673637e-10,
+          "alg_abs": 4.340444670347665e-12
+        }
+      ]
+    },
+    {
+      "full": true,
+      "w": 0.00358,
+      "minD": 0.9999943613704874,
+      "minS": 0.9999999865128845,
+      "trials": [
+        {
+          "h": 1e-05,
+          "flow_abs": 1.291340367970406e-10,
+          "alg_abs": 7.120970479945754e-13
+        },
+        {
+          "h": 1e-06,
+          "flow_abs": 2.652100761224574e-11,
+          "alg_abs": 2.5122126601218042e-12
+        },
+        {
+          "h": 1e-07,
+          "flow_abs": 1.1367440322374023e-09,
+          "alg_abs": 2.950850674920957e-11
+        }
+      ]
+    },
+    {
+      "full": true,
+      "w": 0.08,
+      "minD": 0.9959154426819739,
+      "minS": 0.9999908729812584,
+      "trials": [
+        {
+          "h": 1e-05,
+          "flow_abs": 3.9066918589014676e-08,
+          "alg_abs": 4.799826092138915e-10
+        },
+        {
+          "h": 1e-06,
+          "flow_abs": 3.8814107483631233e-10,
+          "alg_abs": 4.841904654995233e-12
+        },
+        {
+          "h": 1e-07,
+          "flow_abs": 2.2407604660656943e-09,
+          "alg_abs": 2.397637643980488e-11
+        }
+      ]
+    },
+    {
+      "full": true,
+      "w": 0.3,
+      "minD": 0.963745125715211,
+      "minS": 0.9999274573350031,
+      "trials": [
+        {
+          "h": 1e-05,
+          "flow_abs": 1.013017900675095e-07,
+          "alg_abs": 5.528465879534039e-09
+        },
+        {
+          "h": 1e-06,
+          "flow_abs": 1.0028600172518054e-09,
+          "alg_abs": 5.502301392290576e-11
+        },
+        {
+          "h": 1e-07,
+          "flow_abs": 2.546158839322743e-10,
+          "alg_abs": 2.1112500636633058e-11
+        }
+      ]
+    }
+  ],
+  "cone_runs": [
+    {
+      "amplitude": 0.002,
+      "modes": 8,
+      "full_cosine_sine": true,
+      "phase": 0.17,
+      "intervals": 4,
+      "radial_span": 0.02,
+      "angular": 512,
+      "perturbation": 1e-05,
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 3.1169939581104286e-16,
+      "ode_residual": 2.258094787958727e-16,
+      "boundary_residual": 4.749826173644339e-25,
+      "minD": 0.9999717278144744,
+      "minS": 0.9999840004636993,
+      "minA": -0.46435457064563185,
+      "maxA": 2.8876625960634184,
+      "negative_gram_eigenvalues": 4,
+      "minimum_abs_gram_eigenvalue": 0.07221690086902893,
+      "gram_spectral_condition": 39.633115039712386,
+      "reference_state_linf_error": 1.8113166705602666e-15,
+      "reference_mean_slope_linf_error": 2.681601940501821e-14,
+      "reference_full_residual": 1.0731900016796635e-16,
+      "scalar_reference_root_history": [
+        {
+          "residual": -9.075767914978883e-12,
+          "derivative": 1.2116794579154209
+        },
+        {
+          "residual": 5.551115123125783e-17,
+          "derivative": 1.2116794579229113
+        }
+      ],
+      "global_jacobian_directional_check": [
+        {
+          "step": 1e-05,
+          "absolute": 2.9098146114847623e-10,
+          "relative": 1.8922568090380682e-12
+        },
+        {
+          "step": 1e-06,
+          "absolute": 2.6422219967514593e-10,
+          "relative": 1.7182409300611525e-12
+        },
+        {
+          "step": 1e-07,
+          "absolute": 2.775535135057794e-09,
+          "relative": 1.804934663984523e-11
+        }
+      ],
+      "elapsed_seconds": 0.08362599900101486,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/cone-mixed-full-a0.002-m8.npz",
+        "sha256": "58a0362b99d25c5cbb68f00485a739aa8b8ac584daaacb370d411ef8ec96d7ce"
+      },
+      "newton_iterations": 2,
+      "all_accepted_step_scales": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "amplitude": 0.002,
+      "modes": 16,
+      "full_cosine_sine": true,
+      "phase": 0.17,
+      "intervals": 4,
+      "radial_span": 0.02,
+      "angular": 512,
+      "perturbation": 1e-05,
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 7.130123679199215e-15,
+      "ode_residual": 6.035558780652962e-15,
+      "boundary_residual": 4.659627959736331e-22,
+      "minD": 0.9999717278144744,
+      "minS": 0.9999840004636993,
+      "minA": -0.4643545706448638,
+      "maxA": 2.8876625960647333,
+      "negative_gram_eigenvalues": 8,
+      "minimum_abs_gram_eigenvalue": 0.026898011642158246,
+      "gram_spectral_condition": 107.08942186587929,
+      "reference_state_linf_error": 4.3190039328754124e-12,
+      "reference_mean_slope_linf_error": 2.6874346636951428e-14,
+      "reference_full_residual": 2.220446049250313e-16,
+      "scalar_reference_root_history": [
+        {
+          "residual": -9.075740159403267e-12,
+          "derivative": 1.2116794579154209
+        },
+        {
+          "residual": -2.7755575615628914e-17,
+          "derivative": 1.211679457922911
+        }
+      ],
+      "global_jacobian_directional_check": [
+        {
+          "step": 1e-05,
+          "absolute": 1.9264007278252393e-08,
+          "relative": 1.5649766535307374e-11
+        },
+        {
+          "step": 1e-06,
+          "absolute": 2.6158661348141266e-10,
+          "relative": 2.125087148595169e-13
+        },
+        {
+          "step": 1e-07,
+          "absolute": 2.1620717438608494e-09,
+          "relative": 1.7564319580695636e-12
+        }
+      ],
+      "elapsed_seconds": 0.21962281100059045,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/cone-mixed-full-a0.002-m16.npz",
+        "sha256": "a9b1b1fbd0cf9417cb1a804e7b4b023012262b7a22d4dc006e7c1b5bb518d991"
+      },
+      "newton_iterations": 2,
+      "all_accepted_step_scales": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "amplitude": 0.0088,
+      "modes": 8,
+      "full_cosine_sine": true,
+      "phase": 0.17,
+      "intervals": 4,
+      "radial_span": 0.02,
+      "angular": 512,
+      "perturbation": 1e-05,
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 2.0405595617496327e-16,
+      "ode_residual": 1.7816859160390465e-15,
+      "boundary_residual": 4.652890945610781e-25,
+      "minD": 0.9995311543669279,
+      "minS": 0.999690339750969,
+      "minA": -4.204296019003663,
+      "maxA": 10.546715929997802,
+      "negative_gram_eigenvalues": 6,
+      "minimum_abs_gram_eigenvalue": 0.5132471963344107,
+      "gram_spectral_condition": 20.330592701355872,
+      "reference_state_linf_error": 9.821749528929378e-15,
+      "reference_mean_slope_linf_error": 1.9637695913843345e-14,
+      "reference_full_residual": 3.552713678800501e-15,
+      "scalar_reference_root_history": [
+        {
+          "residual": -1.7398082974295903e-11,
+          "derivative": 3.1724998368786337
+        },
+        {
+          "residual": -8.881784197001252e-16,
+          "derivative": 3.172499836884117
+        }
+      ],
+      "global_jacobian_directional_check": [
+        {
+          "step": 1e-05,
+          "absolute": 5.56326540390728e-10,
+          "relative": 1.902120961637939e-12
+        },
+        {
+          "step": 1e-06,
+          "absolute": 4.453148072514068e-09,
+          "relative": 1.522563760495322e-11
+        },
+        {
+          "step": 1e-07,
+          "absolute": 4.7061200270093195e-08,
+          "relative": 1.6090567142584093e-10
+        }
+      ],
+      "elapsed_seconds": 0.08218727600069542,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/cone-mixed-full-a0.0088-m8.npz",
+        "sha256": "efd9616d16e8c23a1ad71fbc58b999ee762b12e23b914d5f405b4848efdd9193"
+      },
+      "newton_iterations": 2,
+      "all_accepted_step_scales": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "amplitude": 0.0088,
+      "modes": 16,
+      "full_cosine_sine": true,
+      "phase": 0.17,
+      "intervals": 4,
+      "radial_span": 0.02,
+      "angular": 512,
+      "perturbation": 1e-05,
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 2.550699452187935e-16,
+      "ode_residual": 3.2717209767681923e-15,
+      "boundary_residual": 5.981089109755432e-22,
+      "minD": 0.9995311543669279,
+      "minS": 0.999690339750969,
+      "minA": -4.204296019001228,
+      "maxA": 10.546715929998127,
+      "negative_gram_eigenvalues": 12,
+      "minimum_abs_gram_eigenvalue": 0.11260158106626375,
+      "gram_spectral_condition": 93.38414564050595,
+      "reference_state_linf_error": 1.6426433356904785e-12,
+      "reference_mean_slope_linf_error": 1.9629746716987027e-14,
+      "reference_full_residual": 3.481590016285452e-15,
+      "scalar_reference_root_history": [
+        {
+          "residual": -1.7398082974295903e-11,
+          "derivative": 3.1724998368786315
+        },
+        {
+          "residual": -1.3322676295501878e-15,
+          "derivative": 3.1724998368841177
+        }
+      ],
+      "global_jacobian_directional_check": [
+        {
+          "step": 1e-05,
+          "absolute": 3.5507127904566005e-08,
+          "relative": 1.3635810372140314e-11
+        },
+        {
+          "step": 1e-06,
+          "absolute": 4.5457509804947005e-09,
+          "relative": 1.745705778726917e-12
+        },
+        {
+          "step": 1e-07,
+          "absolute": 3.876265886049168e-08,
+          "relative": 1.4886032662575884e-11
+        }
+      ],
+      "elapsed_seconds": 0.22654604099989228,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/cone-mixed-full-a0.0088-m16.npz",
+        "sha256": "8f08abbad0d8d410c570100471f88f8383486d0347b589da14b001fd186c00aa"
+      },
+      "newton_iterations": 2,
+      "all_accepted_step_scales": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "amplitude": 0.002,
+      "modes": 32,
+      "full_cosine_sine": true,
+      "phase": 0.17,
+      "intervals": 4,
+      "radial_span": 0.02,
+      "angular": 512,
+      "perturbation": 1e-05,
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 2.7979948614645276e-16,
+      "ode_residual": 2.842674889202666e-16,
+      "boundary_residual": 1.073153753688181e-24,
+      "minD": 0.9999717278144744,
+      "minS": 0.9999840004636993,
+      "minA": -0.4643545706401453,
+      "maxA": 2.887662596063981,
+      "negative_gram_eigenvalues": 16,
+      "minimum_abs_gram_eigenvalue": 0.0012932044580546804,
+      "gram_spectral_condition": 2231.4672841030665,
+      "reference_state_linf_error": 1.1467735133609304e-12,
+      "reference_mean_slope_linf_error": 2.6816118769978912e-14,
+      "reference_full_residual": 2.220446049250313e-16,
+      "scalar_reference_root_history": [
+        {
+          "residual": -9.075740159403267e-12,
+          "derivative": 1.211679457915421
+        },
+        {
+          "residual": 0.0,
+          "derivative": 1.2116794579229113
+        }
+      ],
+      "global_jacobian_directional_check": [
+        {
+          "step": 1e-05,
+          "absolute": 2.8275117074372247e-06,
+          "relative": 2.663052227506726e-10
+        },
+        {
+          "step": 1e-06,
+          "absolute": 2.827619027812034e-08,
+          "relative": 2.6631533056958776e-12
+        },
+        {
+          "step": 1e-07,
+          "absolute": 2.587256131558746e-09,
+          "relative": 2.436770884504259e-13
+        }
+      ],
+      "elapsed_seconds": 1.6343255510000745,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/cone-mixed-full-m32-a0.002-m32.npz",
+        "sha256": "c41280c47e7579acd5fa7185805df93795d906285b596f7bd8351d795d20c684"
+      },
+      "newton_iterations": 5,
+      "all_accepted_step_scales": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "amplitude": 0.0088,
+      "modes": 32,
+      "full_cosine_sine": true,
+      "phase": 0.17,
+      "intervals": 4,
+      "radial_span": 0.02,
+      "angular": 512,
+      "perturbation": 1e-05,
+      "success": true,
+      "stop_reason": "accepted",
+      "root_relative": 5.5413945602183185e-14,
+      "ode_residual": 1.8227042767069174e-12,
+      "boundary_residual": 6.266895854243835e-20,
+      "minD": 0.9995311543669039,
+      "minS": 0.9996903397509668,
+      "minA": -4.204296018989302,
+      "maxA": 10.546715930413571,
+      "negative_gram_eigenvalues": 23,
+      "minimum_abs_gram_eigenvalue": 0.11126430492966954,
+      "gram_spectral_condition": 94.71421008268112,
+      "reference_state_linf_error": 3.6423549474544756e-09,
+      "reference_mean_slope_linf_error": 3.060440789681706e-14,
+      "reference_full_residual": 4.510714718408693e-15,
+      "scalar_reference_root_history": [
+        {
+          "residual": -1.7400747509555003e-11,
+          "derivative": 3.1724998368786332
+        },
+        {
+          "residual": 4.440892098500626e-16,
+          "derivative": 3.17249983688412
+        }
+      ],
+      "global_jacobian_directional_check": [
+        {
+          "step": 1e-05,
+          "absolute": 1.1531163181643933e-05,
+          "relative": 3.0375841315237983e-10
+        },
+        {
+          "step": 1e-06,
+          "absolute": 1.1532756616361439e-07,
+          "relative": 3.0380038803328536e-12
+        },
+        {
+          "step": 1e-07,
+          "absolute": 7.430283638365509e-08,
+          "relative": 1.957314393794078e-12
+        }
+      ],
+      "elapsed_seconds": 0.9001833170004829,
+      "checkpoint": {
+        "path": "coupling_work/mixed_dae/cone-mixed-full-m32-a0.0088-m32.npz",
+        "sha256": "e3e10d1bfd238dc48be69bf5524786bd4a7e3c9941e355bce43b7d16c2cf0160"
+      },
+      "newton_iterations": 2,
+      "all_accepted_step_scales": [
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "global_jacobian_conditioning": {
+    "scope": "Finite mixed Jacobian spectra in the explicit unscaled Euclidean norm.\n\nThis is a conditioning diagnostic for the stated grid and variables; it is\nneither a norm-independent estimate nor an infinite-mode inverse bound.\n",
+    "source_sha256": "9a0d937e1ed45372bbf3a64bfe46902dcda8168bcafcf0fe3f1d026dcba10e05",
+    "rows": [
+      {
+        "amplitude": 0.002,
+        "modes": 8,
+        "intervals": 4,
+        "full_cosine_sine": true,
+        "dimension": 441,
+        "minimum_singular_value": 2.5394718505916373e-05,
+        "maximum_singular_value": 1246.3267988675336,
+        "condition": 49078189.17453914,
+        "report_sha256": "7502f8ef88e494d8459a2308afe5885b206cd8c1d9e8730262091399f123f5dc",
+        "checkpoint_sha256": "58a0362b99d25c5cbb68f00485a739aa8b8ac584daaacb370d411ef8ec96d7ce"
+      },
+      {
+        "amplitude": 0.002,
+        "modes": 16,
+        "intervals": 4,
+        "full_cosine_sine": true,
+        "dimension": 873,
+        "minimum_singular_value": 6.711822066235836e-07,
+        "maximum_singular_value": 20653.2315222014,
+        "condition": 30771422898.855644,
+        "report_sha256": "7502f8ef88e494d8459a2308afe5885b206cd8c1d9e8730262091399f123f5dc",
+        "checkpoint_sha256": "a9b1b1fbd0cf9417cb1a804e7b4b023012262b7a22d4dc006e7c1b5bb518d991"
+      },
+      {
+        "amplitude": 0.0088,
+        "modes": 8,
+        "intervals": 4,
+        "full_cosine_sine": true,
+        "dimension": 441,
+        "minimum_singular_value": 2.3961886392914454e-05,
+        "maximum_singular_value": 3708.3059093068173,
+        "condition": 154758513.10284844,
+        "report_sha256": "7502f8ef88e494d8459a2308afe5885b206cd8c1d9e8730262091399f123f5dc",
+        "checkpoint_sha256": "efd9616d16e8c23a1ad71fbc58b999ee762b12e23b914d5f405b4848efdd9193"
+      },
+      {
+        "amplitude": 0.0088,
+        "modes": 16,
+        "intervals": 4,
+        "full_cosine_sine": true,
+        "dimension": 873,
+        "minimum_singular_value": 4.5440415483276756e-07,
+        "maximum_singular_value": 61619.40173989967,
+        "condition": 135604837861.96277,
+        "report_sha256": "7502f8ef88e494d8459a2308afe5885b206cd8c1d9e8730262091399f123f5dc",
+        "checkpoint_sha256": "8f08abbad0d8d410c570100471f88f8383486d0347b589da14b001fd186c00aa"
+      },
+      {
+        "amplitude": 0.002,
+        "modes": 32,
+        "intervals": 4,
+        "full_cosine_sine": true,
+        "dimension": 1737,
+        "minimum_singular_value": 2.297570718308205e-09,
+        "maximum_singular_value": 351496.12671492994,
+        "condition": 152985988163076.38,
+        "report_sha256": "5269db640d06f02452e063becc53b8068ebed32c81c3461747bc60bc7adfa871",
+        "checkpoint_sha256": "c41280c47e7579acd5fa7185805df93795d906285b596f7bd8351d795d20c684"
+      },
+      {
+        "amplitude": 0.0088,
+        "modes": 32,
+        "intervals": 4,
+        "full_cosine_sine": true,
+        "dimension": 1737,
+        "minimum_singular_value": 3.472104452942188e-08,
+        "maximum_singular_value": 1073954.3530199665,
+        "condition": 30930934468573.383,
+        "report_sha256": "5269db640d06f02452e063becc53b8068ebed32c81c3461747bc60bc7adfa871",
+        "checkpoint_sha256": "e3e10d1bfd238dc48be69bf5524786bd4a7e3c9941e355bce43b7d16c2cf0160"
+      }
+    ]
+  },
+  "original_reports": [
+    {
+      "path": "coupling_work/mixed_dae/cone-mixed-full.json",
+      "bytes": 13715,
+      "sha256": "7502f8ef88e494d8459a2308afe5885b206cd8c1d9e8730262091399f123f5dc"
+    },
+    {
+      "path": "coupling_work/mixed_dae/cone-mixed-full-m32.json",
+      "bytes": 8834,
+      "sha256": "5269db640d06f02452e063becc53b8068ebed32c81c3461747bc60bc7adfa871"
+    },
+    {
+      "path": "coupling_work/mixed_dae/original-engine-crosscheck.json",
+      "bytes": 7215,
+      "sha256": "b84ab37e31d27be9ba8641cf8be00fe68cafb5ca0c3d19fa06b7d2f2855a8fbe"
+    },
+    {
+      "path": "coupling_work/mixed_dae/fields_directional_check.json",
+      "bytes": 2965,
+      "sha256": "6fa2c07597fb279f7e9689dffda4c4107011e56e745ec7cc1847dd50acc199c8"
+    },
+    {
+      "path": "coupling_work/mixed_dae/global-jacobian-conditioning.json",
+      "bytes": 3148,
+      "sha256": "b31b07f73b3049274c3898913f5554195a835eb88d19b10400fde8b66667d1de"
+    }
+  ]
+}
