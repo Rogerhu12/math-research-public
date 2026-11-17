@@ -1,0 +1,72 @@
+{
+  "scope": "Read-only replay of one recorded complete finite tail, with the actual full-Jacobian flow path and original residual scaling. Failed inputs remain failed.",
+  "input": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-shared/seed_tail_0003.json.gz",
+  "input_sha256": "1e891690f5a801131e3cf029ce5e224174e55e5c6b74054c3b74f3d8c6785710",
+  "inputAccepted": false,
+  "inputFailure": "Error: multiple-shooting line search failed at 5.513863082482075e-9",
+  "inputLastIteration": {
+    "iteration": 3,
+    "norm": 5.513863082482075e-09,
+    "minA": 0.7427151521096772,
+    "minD": 0.9994289564949012,
+    "chartCondition": null
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-stage-split.mjs": "74ad405a9eefb3c071a2f2164724ceada677b186185f3c0733470ab6e2e270b4",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+  },
+  "modes": 16,
+  "quadrature": 256,
+  "shootingParts": 16,
+  "stages": 1152,
+  "replayNormalizedResidual": 5.513863082482075e-09,
+  "minA": 0.7427151521096772,
+  "minD": 0.9994289564949012,
+  "originalGate": 2e-09,
+  "seconds": 64.841910731,
+  "endResidualMax": 3.8382829908933195e-14,
+  "dominant_residual": {
+    "stage": 86,
+    "rawCell": 0,
+    "rawSegment": 3,
+    "rawLeft": 0.5625,
+    "rawRight": 0.625,
+    "component": 16,
+    "physicalMode": 3,
+    "componentKind": "momentum-variable",
+    "normalizedResidual": 5.513863082482075e-09,
+    "signedResidual": 1.1368683772161603e-13,
+    "stateValue": -644.5647395585236,
+    "flowValue": -644.5647395585235,
+    "normalizationScale": 2.061836429758421e-05,
+    "componentUlp": 1.1368683772161603e-13,
+    "ulpDividedByScale": 5.513863082482075e-09,
+    "residualInComponentUlps": 1,
+    "minA": 0.9932617693564285,
+    "minD": 0.9999823729168191
+  },
+  "second_largest_stage_residual": {
+    "stage": 88,
+    "normalizedResidual": 6.522029152807116e-10,
+    "physicalMode": 12,
+    "componentKind": "momentum-variable"
+  },
+  "minimum_A_location": {
+    "stage": 80,
+    "rawCell": 0,
+    "rawSegment": 3,
+    "rawLeft": 0.9375,
+    "rawRight": 1,
+    "minA": 0.7427151521096772,
+    "minD": 0.9999825681398627,
+    "normalizedResidual": 1.706404172159488e-11
+  },
+  "unabridged_execution_sha256": "bc1f8dcfd21fe3800430510f74faae4c41a20e3f559cdfbe042c834908d87a4c",
+  "regenerable_rankings_omitted": {
+    "largestResidual": 12,
+    "lowestA": 8
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "scope": "Collect terminal scalars and hashes, never regenerable field arrays.",
+  "runs": [
+    {
+      "run": "beta4625-q040-raw-lam002-fixed-m16-shared",
+      "summary_sha256": "a63bd06da21763c690c3b2d93b4755601ddade299c1f01cc2d287c8d660a1d15",
+      "status": "failed_original_gate",
+      "solver_success": false,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 5.513863082482075e-9', 'residual': None, 'lastIteration': {'iteration': 3, 'norm': 5.513863082482075e-09, 'minA': 0.7427151521096772, 'minD': 0.9994289564949012, 'chartCondition': None}}\")",
+      "seconds": 1546.9882519245148,
+      "tail_calls": 3,
+      "prefix_scalars": {},
+      "seam_scalars": {},
+      "tail_responses": [
+        {
+          "path": "seed_tail_0001.json.gz",
+          "sha256": "1b89b170f3424f5aa965df4330c32fae834853b32ca6e88882b47b44607a2cda",
+          "converged": true,
+          "residual": 1.375444292097049e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 5,
+            "norm": 1.375444292097049e-09,
+            "minA": 0.7420280291414943,
+            "minD": 0.9994281580191988
+          },
+          "audit": {
+            "fullD": 4.857725892567133e-09,
+            "normalizedFullDefect": 1.3271034511786906e-07,
+            "minLeading": 0.742028029390876,
+            "minD": 0.9994281697232426,
+            "formalCurvature": 8.238763810626711,
+            "maxPhysicalPV": 0.00022215331095288437,
+            "actualMetric": 2.686739817533312e-13,
+            "holonomy": 2.6888002119403696e-19
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+            "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+            "950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53",
+            "950f-tail-stage-split.mjs": "74ad405a9eefb3c071a2f2164724ceada677b186185f3c0733470ab6e2e270b4",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0002.json.gz",
+          "sha256": "c53ea4b7a89cce56964d2147b610dd28591e257f4bfd762741a0213d1fc8976d",
+          "converged": true,
+          "residual": 1.375444292097049e-09,
+          "failed": null,
+          "last_iteration": null,
+          "last_history": {
+            "iteration": 0,
+            "norm": 1.375444292097049e-09,
+            "minA": 0.7420280291414943,
+            "minD": 0.9994281580191988
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+            "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+            "950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53",
+            "950f-tail-stage-split.mjs": "74ad405a9eefb3c071a2f2164724ceada677b186185f3c0733470ab6e2e270b4",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        },
+        {
+          "path": "seed_tail_0003.json.gz",
+          "sha256": "1e891690f5a801131e3cf029ce5e224174e55e5c6b74054c3b74f3d8c6785710",
+          "converged": null,
+          "residual": null,
+          "failed": "Error: multiple-shooting line search failed at 5.513863082482075e-9",
+          "last_iteration": {
+            "iteration": 3,
+            "norm": 5.513863082482075e-09,
+            "minA": 0.7427151521096772,
+            "minD": 0.9994289564949012,
+            "chartCondition": null
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+            "950f-tail-stage-port-v3.mjs": "41a3fc113a8565dc2382966ed0dd299532a0510bee279552fb191aca3cb99f45",
+            "950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53",
+            "950f-tail-stage-split.mjs": "74ad405a9eefb3c071a2f2164724ceada677b186185f3c0733470ab6e2e270b4",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        }
+      ],
+      "continuation-command.json": {
+        "scope": "Refine a completed raw-core actual state with its physical g frozen.\n\nThe old raw control functions are mathematically unchanged when zero slots\nare appended.  The actual BVP still solves every new mode and the true tail.\nOnly a subsequent full audit can establish an improvement in metric error.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_round_core_raw_fixed.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source",
+          "--short-bridge",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--homotopy",
+          "0.02",
+          "--round-halfwidth",
+          "0.21",
+          "--round-transition",
+          "0.08",
+          "--control-transition",
+          "0.16",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-shared/profile.json",
+          "--chart",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-shared/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-shared/prefix-port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-shared/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-shared/seed",
+          "--restart",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+          "--amplitude",
+          "0.04",
+          "--warp-reference",
+          "0.04",
+          "--modes",
+          "16",
+          "--angular",
+          "512",
+          "--audit-angular",
+          "1024",
+          "--nodes",
+          "936",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "3072",
+          "--warmup-scales",
+          "1",
+          "--lagged-tail",
+          "--fixed"
+        ],
+        "physical_g_frozen": true,
+        "old_modes": 8,
+        "new_modes": 16,
+        "old_angular": 256,
+        "new_angular": 512,
+        "old_tail_quadrature": 128,
+        "new_tail_quadrature": 256,
+        "core_round_settings": {
+          "halfwidth": 0.21,
+          "transition": 0.08,
+          "control_transition": 0.16,
+          "homotopy": 0.02,
+          "center": 1.0471975511965976,
+          "bimodal_eta": 0.0,
+          "lock_fundamental": true,
+          "coefficient_precision": 80,
+          "positivity_grid_max": 32768
+        },
+        "core_control_path": "raw-mean-primary-compact-v1",
+        "frozen_profile": {
+          "direction": "outward",
+          "vu": 0.45,
+          "vd": 0.5,
+          "ramp": 0.4,
+          "ramp_eta": 0.05,
+          "ramp_law": "flat",
+          "cycles": 1,
+          "delta": 0.06105141410261685,
+          "prefix_bridge": {
+            "kind": "turn_plateau_v1",
+            "curvature": 4.0,
+            "peak_fraction": 0.2
+          }
+        },
+        "unchanged_tail_gate": 2e-09,
+        "prefix_port_sha256": "aa6d0ec765df62782f129b685eb6b3f081ffc77aa88471a449d03fa1d9128a47",
+        "source_sha256": {
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/refine_round_core_raw.py": "9e39e7aba492a4915614297700502196164247c2bbf7855c7d8aaad0501f3925",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_round_core_raw_fixed.py": "9eaa357d475b4b2eb8589c0bef3aa19a08793523ed9150f21b2e7d2f13d3724a"
+        },
+        "inputs": {
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed_tail_0004.json.gz": "1db6a909142bdde5f71d3b35ba8b574eb0537dac0608444fbade6b31f1f0c51f",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16/port.json": "578e7705edff9195790aa1879036722055771b9271166e93ca5fc5cc29df0dcf",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+        },
+        "returncode": 0
+      },
+      "output_hashes": {
+        "chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+        "config.json": "4fe12a8181de6c95ca30a60610d1a558ad3fb95a9780a9b401bac2d79502190c",
+        "continuation-command.json": "b89c8d8964eeff858de62e2e4291bca5e769d38386a2d04e8b1a25b3630c5835",
+        "linear-trace.jsonl": "0d19a97e4f2e37bc0340ca97a12d503adba2cd998cd0d3f40f1be22b1be85e20",
+        "prefix-port.json": "aa6d0ec765df62782f129b685eb6b3f081ffc77aa88471a449d03fa1d9128a47",
+        "profile.json": "bd6ae384a9dff5d521fb12971668acc419777cf2ebaf53063c656296b97a56f6",
+        "seed-round-record.json": "778b6ed837aafe922d4f6b83e8ec4c17a7914146ce5635fc6c76dbe26f175513",
+        "seed-summary.json": "a63bd06da21763c690c3b2d93b4755601ddade299c1f01cc2d287c8d660a1d15",
+        "seed_tail_0001.json.gz": "1b89b170f3424f5aa965df4330c32fae834853b32ca6e88882b47b44607a2cda",
+        "seed_tail_0002.json.gz": "c53ea4b7a89cce56964d2147b610dd28591e257f4bfd762741a0213d1fc8976d",
+        "seed_tail_0003.json.gz": "1e891690f5a801131e3cf029ce5e224174e55e5c6b74054c3b74f3d8c6785710",
+        "seed_tail_worker_exit.json": "cd7d82b042a0c0326b648a226a852733730f7d087059555ded1df7354d802523",
+        "seed_tail_worker_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "worker-trace.jsonl": "1c6ea8508c239fed29b020b559cd62815533bfa7ec8b25c769889b38ecc643c4"
+      }
+    }
+  ]
+}
