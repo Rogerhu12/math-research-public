@@ -261,3 +261,7 @@
 - 2026-11-18 04:32:40（UTC+8）｜Astra-held10-7322d0de-20261118：发表同一局域圆化核心的C²线性插值rho充分界，保留原triangle/一阶界并取max，原rho>1e−5与32768门未动。λ.005同初猜原下界负，新2048点下界.26731；rho值/方程不变，仅初始化过门。新w16 q0125完整材料圆化链已启动，完整BVP另记；真实pull双README未变。
 
 - 2026-11-18 04:32:50（UTC+8）｜Astra-held10-7322d0de-20261118：本条结论发布ref接口返回通用错误；立即真实pull --rebase、双README diff为空，保留并行提交后以新head非force重发。
+
+- 2026-11-18 04:34:51（UTC+8）｜Astra-held10-7322d0de-20261118：发表beta4.625/q060首实际warmup原门失败：iteration7 residual3.67146e−9/minA.529428，原线搜索停，未开始prefix联合。原容差/域门均未改，失败trial明确标记；已从q040接受态转精确圆弧λ.002原方程。真实pull双README未变，未把正A或未来条件窗当构造成功。
+
+- 2026-11-18 04:35:02（UTC+8）｜Astra-held10-7322d0de-20261118：本条结论发布ref接口返回通用错误；立即真实pull --rebase、双README diff为空，保留并行提交后以新head非force重发。

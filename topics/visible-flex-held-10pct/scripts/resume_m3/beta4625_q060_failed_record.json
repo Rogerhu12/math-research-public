@@ -1,0 +1,121 @@
+{
+  "scope": "Collect terminal scalars and hashes, never regenerable field arrays.",
+  "runs": [
+    {
+      "run": "beta4625-q060",
+      "summary_sha256": "d2064ea3c95bcc5e2f401c180783b2d9ec7b0e8e46e25acd72391fd8dc864e60",
+      "status": "failed_original_gate",
+      "solver_success": false,
+      "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 3.6714596250806463e-9', 'residual': None, 'lastIteration': {'iteration': 7, 'norm': 3.6714596250806463e-09, 'minA': 0.5294279749367045, 'minD': 0.9991344478453604, 'chartCondition': None}}\")",
+      "seconds": 217.17153024673462,
+      "tail_calls": 1,
+      "prefix_scalars": {},
+      "seam_scalars": {},
+      "tail_responses": [
+        {
+          "path": "seed_tail_0001.json.gz",
+          "sha256": "1951ae69e2b55cb1cd1cd7cec665e1b4bb21fccbca4060ba6a240b3d36c7c277",
+          "converged": null,
+          "residual": null,
+          "failed": "Error: multiple-shooting line search failed at 3.6714596250806463e-9",
+          "last_iteration": {
+            "iteration": 7,
+            "norm": 3.6714596250806463e-09,
+            "minA": 0.5294279749367045,
+            "minD": 0.9991344478453604,
+            "chartCondition": null
+          },
+          "source_sha256": {
+            "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+            "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+            "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+            "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+            "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+            "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+            "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+            "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+          }
+        }
+      ],
+      "continuation-command.json": {
+        "scope": "Solve an explicitly new first-valley physical metric with the original DN.\n\nOnly the first valley control changes. The prefix delta is solved afresh;\nprevious accepted coordinates serve only as initial guesses.\n",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_new_first_valley.py",
+          "--source-topic",
+          "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+          "--short-bridge",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+          "--restart-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+          "--profile",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/profile.json",
+          "--chart",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json",
+          "--linear-port",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/port.json",
+          "--tail-config",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/config.json",
+          "--out-prefix",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060/seed",
+          "--restart",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+          "--amplitude",
+          "0.06",
+          "--warp-reference",
+          "0.06",
+          "--modes",
+          "8",
+          "--angular",
+          "256",
+          "--audit-angular",
+          "512",
+          "--nodes",
+          "801",
+          "--max-nodes",
+          "6000",
+          "--tol",
+          "1e-06",
+          "--bc-tol",
+          "1e-07",
+          "--physical-bc-tol",
+          "2e-09",
+          "--node-heap",
+          "2304",
+          "--warmup-scales",
+          "1.0",
+          "--lagged-tail"
+        ],
+        "beta0_change": [
+          4.625,
+          4.625
+        ],
+        "tail_initialization": "explicit_old_metric_initial_coordinates",
+        "inputs": {
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed_tail_0004.json.gz": "96c7b441e8a220acea983d2ddf726854e98828726d71279e764acc51bd5d23b5",
+          "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json": "3e83072f020f3c61ee963afcee5eaf3489b2de557b7598460025099943b0d0d9",
+          "/workspace/scratch/f00f08c94d46/m3_flat17_work/smallcut30-fast45-k4-p20/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+          "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4"
+        },
+        "prefix_delta_solved_again": true,
+        "same_metric_refinement": false,
+        "returncode": 0
+      },
+      "output_hashes": {
+        "config.json": "4c92a49096362bc9e7ac98f644097c994c51eb19cdf6b5890d488956335c746b",
+        "continuation-command.json": "c774c7b159e94312d1c0a9dc9d14ae5e856467d8d7c92c00623c8797f91350ab",
+        "linear-trace.jsonl": "ec837e942adc5c5927560f4f9ba745b1fb18fbf07be80eeb62cc136129e48970",
+        "port.json": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846",
+        "profile.json": "133156b37b66cf673fd77451f8f38f8ca51e60c51914ca5b6a629fcfb09beb84",
+        "seed-design-initializer.json": "7943d2fb24c43e3d3392095f02cde83542b6d6fcf8f1e7e0f27afcd6f0362ab7",
+        "seed-summary.json": "d2064ea3c95bcc5e2f401c180783b2d9ec7b0e8e46e25acd72391fd8dc864e60",
+        "seed_tail_0001.json.gz": "1951ae69e2b55cb1cd1cd7cec665e1b4bb21fccbca4060ba6a240b3d36c7c277",
+        "startup-config.json": "0a4be1a9b6fd1182a469d845e1637ec78b233c31296640f6c7f5c00f1b3d617d",
+        "worker-port.json": "03ec2e5d613af0db10325826e7c860cccd5506b4492a5da5694c27bfa57bc226",
+        "worker-trace.jsonl": "0bbd995d88ffc060a36f87a3d6e686a833cf8dae99067759f99d6727ed417757"
+      }
+    }
+  ]
+}

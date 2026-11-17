@@ -7,7 +7,7 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`fb8c1ced3f2ee15da64b547de088e2d2cce8a9cd`。2026-11-18 04:32:50（UTC+8）发布接口错误后立即真实pull/rebase，双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`b6699f144cb86e4abe10f34af8f15c5a8268d60d`。2026-11-18 04:35:02（UTC+8）发布接口错误后立即真实pull/rebase，双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
@@ -30,7 +30,7 @@
 
 ## 2. m3：高幅真正联合与三重圆弧入口
 
-**最新 beta4.625/q.040 完整真联合**：δ=.061051601505166045、936点；prefix metric6.90989e−9/tensor2.34148e−4/K8.71925，物理BC9.05047e−10；tail residual1.37679736e−9/minA.742322/metric5.98745e−10/fullD4.11830e−6。4次实际tail及最终audit全部过原门；中间4.8e−9曾继续原Newton到接受，不是放门。首谷变动经全局重标定改变整个r(x)，明确新g。见 m3-beta4625-first-coupled-state；已继续q.060及 n3/eta0 精确局域圆弧的真λ入口。
+**最新 beta4.625/q.040 完整真联合**：δ=.061051601505166045、936点；prefix metric6.90989e−9/tensor2.34148e−4/K8.71925，物理BC9.05047e−10；tail residual1.37679736e−9/minA.742322/metric5.98745e−10/fullD4.11830e−6。4次实际tail及最终audit全部过原门；中间4.8e−9曾继续原Newton到接受，不是放门。首谷变动经全局重标定改变整个r(x)，明确新g。见m3-beta4625-first-coupled-state。q.060首warmup在iteration7因原线搜索失败，res3.67146e−9/minA.529428，未开始prefix联合；见m3-beta4625-q060-original-gate-failure。现转n3/eta0真圆化λ.002，较大λ.02初猜rho负另记。
 
 beta4.125已有 q.02/.025/.03/.04 四个完整态。q04 tail res8.02413e−10/minA.617549/fullD1.00976e−5；prefix metric6.91e−9/tensor2.28e−4。见 m3-beta4125-fourth-coupled-state。q03真实minA在stage40/cell0第一谷，最大残差在stage43且相当于该分量2ULP/原scale；不能据此放门，见 m3-beta4125-leading-valley-location。
 
@@ -56,6 +56,6 @@ R12/R14接缝结构、R15轴曲率必要界、R16过零权逆障碍、R17对称�
 
 ## 当前分工与工作树
 
-m3_true_coupling：beta4.625/q060及n3真正λ-coupler；closed_geometry：R32三重圆弧、控制稳定性、公共H/C3帽的严格条件预算；n4_round_core：原q0175/M24、actual q01固定M20、新w16 q0125材料圆化；root：新w16 q015固定g精化、实际接口/记录、逐结论同步。
+m3_true_coupling：beta4.625/q060失败后n3真正λ-coupler；closed_geometry：R32三重圆弧、控制稳定性、公共H/C3帽的严格条件预算；n4_round_core：原q0175/M24、actual q01固定M20、新w16 q0125材料圆化；root：新w16 q015固定g精化、实际接口/记录、逐结论同步。
 
 原源树 /workspace/scratch/7322d0dee069/math-research-public；发布树 /workspace/scratch/7322d0dee069/publication。持续按 open.md 推进，不以阶段结果、时长或等待用户回复收尾。
