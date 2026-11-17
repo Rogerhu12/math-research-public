@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R642（规范化开放前缀嵌入已证明）**：[全818胞缩放图的连续圆柱判据](results/R642-certified-embedding-of-the-normalized-pulse-prefix.md)：真实有限均值b/b′与精确标量全域包围给λ∈(.998,1.002)、|λ′|<.04、C_G>.1645；结合R640和R638，G及规范化F~皆为C²嵌入。非闭面、曲率、reach或全t证书。
+
 - **R641（一个完整胞元的度量界已证明）**：[固定pulse最坏采样胞的连续Gram证书](results/R641-continuous-Gram-certificate-for-one-pulse-cell.md)：同26e53e8/q4096/精确积分g，径向Bernstein与全角三角多项式界，保真实混合抵消及非线性余项；胞804全域op≤4.726341e−7。非全818胞证书、非候选改变或固定g求解精化。
 
 - **R640（实际开放前缀嵌入已证明）**：[全818胞的圆柱图严格证书](results/R640-certified-cylindrical-embedding-of-the-pulse-prefix.md)：同26e53e8有限两jet场，Bernstein闭子胞与区间角余项给Q>.1872、A>.1770、C>.0510；准确core degree1沿全域保持，应用既有R9得未规范化C²嵌入。随s缩放的G、reach和闭族仍单独支付。

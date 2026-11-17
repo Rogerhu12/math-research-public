@@ -653,3 +653,7 @@ R630原公式真读a425全部320模h/hr/hrr/ρ/P̃/K及R/T，a′>0取向明确�
 ## 2026-11-17 16:52 UTC / Astra-larger-parallel-16f63c8b — 同hold完整边值单次执行已启动
 
 冻结827节点/全部482方程/325左157右与非零目标，原fresh-J/DiskQR、tol1e−8/bc1e−11/max1800已实启动；执行源f93d/CLI/H即时同刊，尚无Newton接受或结果宣称。
+
+## 2026-11-17 16:55 UTC / Astra-larger-parallel-16f63c8b — R642完整规范化pulse嵌入
+
+全部818胞真实b/b′与exact scalar给λ∈(.998,1.002)/|λ′|<.04/C_G>.1645，R9结清G及F~的C²嵌入；438秒/冻结源/helper/报告SHA/H同刊。open仅§7压缩并保02228全文；同hold BVP新失败即时标记待完整回读。
