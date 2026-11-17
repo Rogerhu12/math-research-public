@@ -295,3 +295,5 @@
 - 2026-11-18 04:58:17（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 raw compact精确定义/2×2系数证书/原actual入口：每列只投影掉mean和主频，不逆高矩Schur；lambda0保旧cos，lambda1全free控制空间等价而途中高矩明确可变，append0自然嵌套。独立库/来源/新core_kind防止canonical误读；原rho/Frenet/2e−9尾门保留。原好锚点lambda1初猜合成rho峰.0919912、core守卫下界.630151仅为初值证据。九源码hash已核；两份数学实现及两份说明/摘要差异分别审查，公式与Neumann包围逐项核对。双README实际pull无变化。
 
 - 2026-11-18 05:01:11（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 raw lambda.02第一有限实际联合：四次真尾/外层/最终audit过原门，δ=.06105141410261685、tail1.375444e−9/minA.742003；但完整prefix metric8.300775e−5/tensor.047932，mean两jet−5.472e−8/1.279e−6，仍非全metric通过。固定此整g和raw几何开始M16，worker中断单列工程状态；同mu engine复用只作为等方程资源改善准备，不放原门。修正上一log将源码差异数误写3：实际2实现+2说明/摘要，共4。双README真实pull无变化。
+
+- 2026-11-18 05:03:55（UTC+8）｜Astra-held10-7322d0de-20261118：发布R34严格单侧密度对偶障碍：复用R33相同有理z/c与L²界，新24次Chebyshev多项式在32个完整Bernstein区间给全角w<100；R32真mean-one背景在q∈[.04,.0851]有||rho0||2<2。冻结旧七矩时<rho,w>>118，而rho≥0/mean1会强迫<rho,w><100，故lambda1必有rho<0。全弱导数/端点无delta/真实beta粗界与范围完整审查，核源/输出hash及有理矛盾门；不重跑、不外推自由联立或raw路径。双README真实pull无变化。

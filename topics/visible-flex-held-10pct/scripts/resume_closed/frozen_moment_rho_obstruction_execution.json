@@ -1,0 +1,90 @@
+{
+  "result": "R34",
+  "scope": "Strict negative-rho obstruction only for the seven frozen old low moments at lambda=1; the actual raw/free-control path remains open.",
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/certify_frozen_moment_rho_obstruction.py",
+    "--r33-execution",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/protected_arc_curvature_dual_execution.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3-frozen-moment-rho-obstruction.json"
+  ],
+  "execution": {
+    "observed_exit_code": 0,
+    "tool_chunk": "c248f8",
+    "seconds": 0.734062728995923
+  },
+  "source_sha256": {
+    "certify_frozen_moment_rho_obstruction.py": "5e437b30ab2b407a8e03002f0c97bb6a3a39ea964172b291fda44bb09fe4e258",
+    "certify_protected_arc_curvature_dual.py": "00132335adb74e1f889d97fc8bb9060d0808ec51746c5603304992f3be8601d1"
+  },
+  "output": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-frozen-moment-rho-obstruction.json",
+    "sha256": "a8e806e781138e09d25f506fd1a57c871e90d01fd2dde0cc26d04dbf63f5832b"
+  },
+  "certificate": {
+    "r33_execution_sha256": "a247a1f2af035d7155db25731f5607d3018a369c298ec77e2c5139d7593aef41",
+    "input_checkpoint_sha256": "c55a2ebfcce39fe72810703e8fb239f60ce291b48cf7650a27d6b5ef52180bc9",
+    "exact_frozen_moments": [
+      "0",
+      "0",
+      "469854833348313/2305843009213693952",
+      "-1623283796114375/147573952589676412928",
+      "8840118707673593/75557863725914323419136",
+      "-3217114615369843/151115727451828646838272",
+      "-1180140504169957/151115727451828646838272",
+      "-3416168898388007/9671406556917033397649408",
+      "5632776495501763/154742504910672534362390528"
+    ],
+    "rational_dual": [
+      "788928262860837/1000000000",
+      "-759591044766777/1000000000",
+      "676940171437999/1000000000",
+      "-555702838249487/1000000000",
+      "416313825141573/1000000000",
+      "-280027372379647/1000000000",
+      "16420549300749/100000000",
+      "-7906062257759/100000000",
+      "5323284882457/200000000"
+    ],
+    "q_interval": [
+      "1/25",
+      "851/10000"
+    ],
+    "exact_circle_homotopy": "1",
+    "true_base": "R32: 1+q*(8 chi+(1-chi)*(8 cos(3x)+beta)); beta is the exact mean correction",
+    "true_rho0_range": [
+      "2341/10000",
+      "2101/1250"
+    ],
+    "true_rho0_l2_strict_upper": "2",
+    "exact_dual_linear_functional": "22299035404518486388612761909748172759/154742504910672534362390528000000000",
+    "dual_l2_square_enclosure": [
+      "144.104138791025337752496998380490718397128022",
+      "144.104138791025337752496998380490718397128023"
+    ],
+    "dual_l2_strict_upper": "13",
+    "complement_half_length": [
+      "0.837197551196597746154214461093167628065723133",
+      "0.837197551196597746154214461093167628065723134"
+    ],
+    "cosine_domain": [
+      "66954702629915614281238202951935789030330591913680364281267234421473239335358301/100000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "1"
+    ],
+    "power_degree": 24,
+    "bernstein_cells": 32,
+    "full_period_dual_weight_enclosure": [
+      "-35.5116781106530888852610595314610201565287845",
+      "90.0571541420601918222691492448947396847054631"
+    ],
+    "dual_weight_strict_upper": "100",
+    "required_density_dual_integral_strict_lower": "18275730276841000495190608181748172759/154742504910672534362390528000000000",
+    "required_density_dual_integral_lower_display": "118.104138791025412795956680635032870130634497",
+    "hypothetical_nonnegative_density_dual_integral_strict_upper": "100",
+    "contradiction_strict_margin": "2801479785773747058951555381748172759/154742504910672534362390528000000000",
+    "conclusion": "Every C4 even/C3 support control with these frozen seven low moments and the protected open arc has rho<0 somewhere at lambda=1 for every q in the stated interval.",
+    "limitations": "Only the frozen old seven moments; no exclusion of free re-solved controls, the raw path, full actual BVP existence, or the research target.",
+    "arithmetic": "R33 exact rational outward operations; Chebyshev identity and Bernstein convex hull, with full interval coverage"
+  }
+}
