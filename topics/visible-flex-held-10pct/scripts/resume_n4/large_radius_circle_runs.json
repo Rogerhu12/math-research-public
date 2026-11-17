@@ -1,0 +1,926 @@
+{
+  "scope": "Completed finite n4 local-circle homotopy attempts. No accepted exact-circle endpoint, no full-metric pass, no nonlinear tail, and no nonexistence theorem.",
+  "runs": [
+    {
+      "run": "large-radius-vu035-q001-m8-circle",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "vu035-profile.json",
+        "out": "large-radius-vu035-q001-m8-circle",
+        "q": 0.001,
+        "modes": 8,
+        "bimodal_eta": 1.0,
+        "center": 0.7853981633974483,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.0,
+          0.005,
+          0.01,
+          0.02,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 3000,
+        "tol": 3e-07,
+        "angular": 512,
+        "check_only": false,
+        "restart": "large-radius-vu035-q001-m12-lam0.json.gz",
+        "previous": null
+      },
+      "rows": [
+        {
+          "q": 0.001,
+          "homotopy": 0.0,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 996,
+          "parameters": [
+            6.88835174822675e-06,
+            -5.18035421566076e-05,
+            -0.0003207864017098482,
+            9.099171230684285e-05,
+            -2.9032473859825496e-06,
+            -8.998239695836354e-07,
+            -1.1451993089103159e-09,
+            7.903935058405648e-10
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.2481916878446067,
+            "delta": 0.030023159913732195
+          },
+          "max_rms": 2.9802608011026383e-07,
+          "max_bc": 2.3020725890409898e-14,
+          "seconds": 33.808029227999214,
+          "domain_newton": {
+            "calls": 1,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 2,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "material_restart": {
+            "method": "dual-parameter-design-material-angle-predictor",
+            "q_inputs": [
+              0.001
+            ],
+            "q_target": 0.001,
+            "secant_weights": [
+              1.0
+            ],
+            "radial_nodes": 996,
+            "angular_projection": 2048,
+            "pullback_residual": 8.881784197001252e-16,
+            "predicted_delta": 0.03002316404951958,
+            "predicted_vd": 0.24819211073740577,
+            "inlet_repair_coefficient_max": 4.1286278161578593e-05,
+            "scaled_bc_before": 4.1286278161578593e-05,
+            "scaled_bc_after": 2.087515335330157e-12,
+            "source_sha256": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+            "scope": "Only an initial guess; unchanged full equations, root guards and solver tolerance"
+          },
+          "summary": {
+            "metric_l1": 2.607225110670824e-06,
+            "flow_defect": 1.589783610826227e-05,
+            "darboux_l1": 0.0013714165066136524,
+            "kappa_sample": 5.778145866610741,
+            "radius_max": 1.03140673120761,
+            "height_max": 0.7497941335479787,
+            "root_min": 0.004050662454663012,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 8.847603848330641e-07,
+            "physical_bc_max": 2.30207258904099e-16,
+            "samples_s": 2140,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "5c5a37a3deca4e7254c886211a9069cae02cb3841e2ac274e61cbeec1b2e1108",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-circle-lam0_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1157792,
+              "sha256": "7413e9a83b49d5560423d1d5c389063fabb8b7acc7941b11abe4a6eb96f47851"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.005,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 996,
+          "parameters": [
+            6.894900993022932e-06,
+            -5.186586346128014e-05,
+            -0.00032050028726307497,
+            5.31125841996802e-05,
+            3.2595402370797836e-05,
+            -2.4195441736162573e-05,
+            1.207549490309961e-05,
+            -7.012141997236814e-06
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.24819162552330204,
+            "delta": 0.03002316646297699
+          },
+          "max_rms": 2.9821746418108807e-07,
+          "max_bc": 3.462138624629762e-14,
+          "seconds": 28.65344528100104,
+          "domain_newton": {
+            "calls": 2,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 4,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "summary": {
+            "metric_l1": 2.6777843976847445e-06,
+            "flow_defect": 1.646304769213598e-05,
+            "darboux_l1": 0.0013742129399913424,
+            "kappa_sample": 5.778278248398029,
+            "radius_max": 1.0314077115070073,
+            "height_max": 0.7497942093904238,
+            "root_min": 0.004050653443417485,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 8.853573760487846e-07,
+            "physical_bc_max": 2.303221525706986e-16,
+            "samples_s": 2140,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "215fd000a94d61c99a15640ba70c7b4c1f58d48dfb7588b0657b5797fa23dfbc",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-circle-lam0.005_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1157136,
+              "sha256": "8c412916f46b402b2d16ca888287de7821d0ab601720f5adca99ac90ca56b96f"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.01,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 996,
+          "parameters": [
+            6.900464219166312e-06,
+            -5.1920887502327574e-05,
+            -0.00032020949832022564,
+            1.5225807004354307e-05,
+            6.814159999625102e-05,
+            -4.715344488487728e-05,
+            2.2781107132132e-05,
+            -1.1911144654946494e-05
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.248191570499261,
+            "delta": 0.030023172026203134
+          },
+          "max_rms": 2.9840883332751284e-07,
+          "max_bc": 4.485111162344461e-14,
+          "seconds": 29.274735161001445,
+          "domain_newton": {
+            "calls": 3,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 6,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "summary": {
+            "metric_l1": 2.7365235936816247e-06,
+            "flow_defect": 2.3487812622864616e-05,
+            "darboux_l1": 0.0013766947086285837,
+            "kappa_sample": 5.778411994402619,
+            "radius_max": 1.0314086881579572,
+            "height_max": 0.7497942664387124,
+            "root_min": 0.00405064449953918,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 8.859545212956377e-07,
+            "physical_bc_max": 1.5279102175093027e-17,
+            "samples_s": 2140,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "bbbce79b77888b86aa2f7f670059a9cb434149c0b992942d99a194b2f9773a69",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-circle-lam0.01_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1157203,
+              "sha256": "e88db5f89ed8ad270d7368adaa041ab7f015ae2ddca6f1b2f7a57866d6cc94b6"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.02,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 996,
+          "parameters": [
+            6.907684334918084e-06,
+            -5.2002090950033435e-05,
+            -0.0003195864850982941,
+            -6.06015360596863e-05,
+            0.00013939553980974465,
+            -9.217699498744039e-05,
+            4.0299333097597493e-05,
+            -1.571902412702967e-05
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.2481914892958133,
+            "delta": 0.030023179246318886
+          },
+          "max_rms": 2.987915844055982e-07,
+          "max_bc": 1.1826095658307167e-12,
+          "seconds": 28.753255117000663,
+          "domain_newton": {
+            "calls": 4,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 8,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "summary": {
+            "metric_l1": 2.8204499090724097e-06,
+            "flow_defect": 5.591348661586458e-05,
+            "darboux_l1": 0.0023091031238902495,
+            "kappa_sample": 5.778683260354263,
+            "radius_max": 1.031410629855351,
+            "height_max": 0.7497943061538529,
+            "root_min": 0.004050626886483055,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 8.871492593780679e-07,
+            "physical_bc_max": 1.6480042804322708e-16,
+            "samples_s": 2140,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "6cfaa609958ad6e336dc8706ad056e27ce72e65ee95330504d1ce15758686abc",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-circle-lam0.02_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1156728,
+              "sha256": "fb2f2ff1686601c6a00ab870c43c2989477099fbf7536d609c5205417239eb2b"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.05,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 996,
+          "parameters": [
+            6.860282626086825e-06,
+            -5.174254693182157e-05,
+            -0.0003160894557029963,
+            -0.0002896360399901583,
+            0.00035468887433481985,
+            -0.0002250244868294775,
+            6.547147722881592e-05,
+            1.5713207833639723e-05
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.2481917488398315,
+            "delta": 0.030023131844610054
+          },
+          "max_rms": 2.999392099694801e-07,
+          "max_bc": 2.4296120670896926e-12,
+          "seconds": 31.426405010999588,
+          "domain_newton": {
+            "calls": 5,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 11,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "summary": {
+            "metric_l1": 7.773222133751202e-06,
+            "flow_defect": 0.0003338024014255053,
+            "darboux_l1": 0.012372497982917351,
+            "kappa_sample": 5.7795157037038525,
+            "radius_max": 1.0314163262594915,
+            "height_max": 0.7497931155774378,
+            "root_min": 0.004050576510182258,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 8.907369667112509e-07,
+            "physical_bc_max": 9.599461103162933e-17,
+            "samples_s": 2140,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "a3f6fc0272246288c36abae341a69baf16832bad8eb324c5dea89a2c59fe68e6",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-circle-lam0.05_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1156699,
+              "sha256": "89958641c865ba4594b975519bbef93e7c706dd21d716124de98affec0cdd5c9"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.1,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 1002,
+          "parameters": [
+            6.015426491911504e-06,
+            -4.5805702879737357e-05,
+            -0.00028562902446166986,
+            -0.000691940761417782,
+            0.000720016779961745,
+            -0.0005061392964169589,
+            3.528578346288284e-05,
+            0.0001984213027655949
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.2481976856838836,
+            "delta": 0.03002228698847588
+          },
+          "max_rms": 2.9774509883082363e-07,
+          "max_bc": 3.777923010574711e-14,
+          "seconds": 62.7382629729982,
+          "domain_newton": {
+            "calls": 7,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 17,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "summary": {
+            "metric_l1": 3.197272955173424e-05,
+            "flow_defect": 0.0013151267089871166,
+            "darboux_l1": 0.051332543285640866,
+            "kappa_sample": 5.780816835486966,
+            "radius_max": 1.0314248197345224,
+            "height_max": 0.749776664113754,
+            "root_min": 0.004050490662800943,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 8.967302279020228e-07,
+            "physical_bc_max": 3.382047051533189e-19,
+            "samples_s": 2152,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "059a1b4b84c9d97a28a0c2ab23219514f512f42b20b60fdec7862fc4b4152b84",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-circle-lam0.1_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1163354,
+              "sha256": "b4210b967bf18e343e7c2ef2c69ee2fb46f9c6ab43a159279b9b16c10e956c5b"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.2,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": false,
+          "message": "The maximum number of mesh nodes is exceeded.",
+          "nodes": 2709,
+          "parameters": [
+            1.659272104025118e-06,
+            -1.4229651778346674e-05,
+            -0.00014736588468190358,
+            -0.001563788062945186,
+            0.0014846947100421188,
+            -0.0012111762351902063,
+            -0.0002724864363340498,
+            0.0009674960810742667
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.24822926173498497,
+            "delta": 0.03001793083408799
+          },
+          "max_rms": 0.016058291284796525,
+          "max_bc": 4.479149730033001e-06,
+          "seconds": 670.3991344280003,
+          "domain_newton": {
+            "calls": 9,
+            "rejected_domain_trials": 9,
+            "rejected_merit_trials": 78,
+            "accepted_steps": 23,
+            "no_step": 2,
+            "minimum_alpha": 3.814697265625e-06
+          },
+          "checkpoint_sha256": "fa3b6678e59f9c3c35c9be835e9ca2ccdb6d4e69ac18c62dedf46f5f8a4172a9",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-circle-lam0.2_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 3132039,
+              "sha256": "5b474d2169d018f6e76c70594ae4df2865322332e1d8f4c3464a339fd9ce80d7"
+            }
+          ]
+        }
+      ],
+      "output_sha256": "cbad9a6fe3f25bd858d156230dc21484c2f7957fec4ef666c27600a2a553a432",
+      "source_sha256": {
+        "combined_control_bounds.py": "d21c47280f5220c427b8cd1fbaab8254947a5a94c6b2ae998dece50fd0b3e20a",
+        "audit_bimodal_chart.py": "0b75b6bd9ec25542e7c70aca36ddbd4d9795e8d4b3b79b70246fbbdc72591aee",
+        "audit_local_target.py": "d89ac9be75921bbe1e9b3c7e5bfbc0abc5a89ebad3f376843f82faba7f5946eb",
+        "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+        "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+        "run_local_flatten.py": "44304d3f0a9e504c55ae2e920f7cf10930d2e1ac961bc10c78a2f0cb281ae6b7",
+        "audit_nested_projection.py": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780",
+        "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+        "publish_local_snapshot.py": "39d3ad1d9b8618c34f28cffb8e18e66eaf0e2effec07b184672c7f1c20854276",
+        "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+        "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+        "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+        "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+        "run_bimodal_chart.py": "297e479cd1a9ee759fcb853928c8a98e0d2664269053756e6ce201c45202aa7f",
+        "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+        "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+        "audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878",
+        "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+        "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+        "refine_nested_prefix.py": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+        "dual_material_restart.py": "255a595d1279710cb5dab288c9c335d22eb74b3690bae9b44019405d6a4e4935",
+        "design_vu035.py": "3a9d08663341960cca877aa1e0c64a26b6d5ade71182f9dbd25ddb13fc040ac3",
+        "design_bridge_margin.py": "2d544af85a60ede491dff67d11b52264b49f64d36cea62cfd4497ea8073aac25",
+        "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+        "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+        "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+        "run_local_material.py": "f8d3063fd14dbf2abaf3d88500fbc23128f4103bec67364efe3af6467f950827",
+        "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+        "linear_profile_amplification.py": "edd760ec34c623ce1030dcb1ad89531b68cde37403c6d8cd227108d39bd7f468",
+        "probe_actual_n4_tail.py": "12b110579ccbfa25f64d2db6c8c3ee8344b1589d43a742fc8548e882ef6386f3",
+        "screen_large_radius_eta.py": "b8f6150b4b59454a1c00718ca4421eed3dfe8f84fc2b725b6d7505a9b807d353",
+        "diagnose_bimodal_chart.py": "616f03f02c63484ef517d298a5198b14c24a1f27062e7f17bfc387f1c6ca3d2f",
+        "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+        "build_local_flatten.py": "0e755a108750bf7f894e52490b5bc4200a470d54465d77d26e37410d8d1f4b5b",
+        "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+        "physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+        "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+        "run_large_radius_material_chain.py": "5c41ae54d352ccee3a677979ea92a1978c86a013c894eaa7e125dd70aa5e0d2f",
+        "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+        "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+      }
+    },
+    {
+      "run": "large-radius-vu035-q001-m8-material-circle",
+      "arguments": {
+        "source_topic": "bundle/topics/visible-flexible-closed-surface",
+        "port": "mode4_port24.json",
+        "profile": "vu035-profile.json",
+        "out": "large-radius-vu035-q001-m8-material-circle",
+        "q": 0.001,
+        "modes": 8,
+        "bimodal_eta": 1.0,
+        "center": 0.7853981633974483,
+        "halfwidth": 0.147,
+        "transition": 0.08,
+        "control_transition": 0.16,
+        "lambdas": [
+          0.125,
+          0.15,
+          0.175,
+          0.2,
+          0.3,
+          0.5,
+          0.7,
+          1.0
+        ],
+        "nodes": 201,
+        "max_nodes": 3000,
+        "tol": 3e-07,
+        "angular": 512,
+        "check_only": false,
+        "restart": "large-radius-vu035-q001-m8-circle-lam0.1.json.gz",
+        "previous": null
+      },
+      "rows": [
+        {
+          "q": 0.001,
+          "homotopy": 0.125,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 1007,
+          "parameters": [
+            4.560798801228609e-06,
+            -3.545661959514704e-05,
+            -0.00023452222893292421,
+            -0.0009220402254295025,
+            0.0009072659970903452,
+            -0.0007561916173118454,
+            -8.428206224873195e-06,
+            0.00036704112650949355
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.24820803476716818,
+            "delta": 0.030020832360785194
+          },
+          "max_rms": 2.9888514230301667e-07,
+          "max_bc": 4.3179937164912474e-14,
+          "seconds": 59.728541224001674,
+          "domain_newton": {
+            "calls": 2,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 6,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "material_restart": {
+            "method": "dual-parameter-design-material-angle-predictor",
+            "q_inputs": [
+              0.001
+            ],
+            "q_target": 0.001,
+            "secant_weights": [
+              1.0
+            ],
+            "radial_nodes": 1005,
+            "angular_projection": 2048,
+            "pullback_residual": 2.220446049250313e-16,
+            "predicted_delta": 0.03002228698847588,
+            "predicted_vd": 0.2481976856838836,
+            "inlet_repair_coefficient_max": 0.006934034336376627,
+            "scaled_bc_before": 0.006934034336376627,
+            "scaled_bc_after": 3.0482772228115013e-17,
+            "source_sha256": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+            "scope": "Only an initial guess; unchanged full equations, root guards and solver tolerance"
+          },
+          "summary": {
+            "metric_l1": 5.266810846868948e-05,
+            "flow_defect": 0.002144126817813064,
+            "darboux_l1": 0.08484359014850534,
+            "kappa_sample": 5.781251145681793,
+            "radius_max": 1.0314278420318392,
+            "height_max": 0.749748968724427,
+            "root_min": 0.004050428583058596,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 8.997378242233034e-07,
+            "physical_bc_max": 4.2442082756067855e-19,
+            "samples_s": 2162,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "ed741a3a9ad6f61419ba30bb9e4e9a37d3b98941681d2a77061b6a5e1fb46158",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-material-circle-lam0.125_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1168742,
+              "sha256": "55249b185b2fc331782b47d2ab11c22dec9eccbe857cead1f9dfbc5439027dd1"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.15,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": true,
+          "message": "The algorithm converged to the desired accuracy.",
+          "nodes": 1017,
+          "parameters": [
+            7.342674369427291e-07,
+            -8.197796572839836e-06,
+            -9.847277264592291e-05,
+            -0.0012198809944856243,
+            0.0011014025373405855,
+            -0.0012818563632241396,
+            -7.440005636566289e-05,
+            0.0006558352082389503
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.24823529359019048,
+            "delta": 0.03001700582942091
+          },
+          "max_rms": 2.9928085224598523e-07,
+          "max_bc": 1.9539925233402755e-14,
+          "seconds": 66.70014983999863,
+          "domain_newton": {
+            "calls": 4,
+            "rejected_domain_trials": 0,
+            "rejected_merit_trials": 0,
+            "accepted_steps": 15,
+            "no_step": 0,
+            "minimum_alpha": 1.0
+          },
+          "material_restart": {
+            "method": "dual-parameter-design-material-angle-predictor",
+            "q_inputs": [
+              0.001
+            ],
+            "q_target": 0.001,
+            "secant_weights": [
+              1.0
+            ],
+            "radial_nodes": 1010,
+            "angular_projection": 2048,
+            "pullback_residual": 0.0,
+            "predicted_delta": 0.030020832360785194,
+            "predicted_vd": 0.24820803476716818,
+            "inlet_repair_coefficient_max": 0.006934288501622365,
+            "scaled_bc_before": 0.006934288501622365,
+            "scaled_bc_after": 4.3734654371833424e-17,
+            "source_sha256": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+            "scope": "Only an initial guess; unchanged full equations, root guards and solver tolerance"
+          },
+          "summary": {
+            "metric_l1": 8.701896820756463e-05,
+            "flow_defect": 0.0035119023366782694,
+            "darboux_l1": 0.14075659411033525,
+            "kappa_sample": 5.781105501405841,
+            "radius_max": 1.031428125774511,
+            "height_max": 0.7496765767493301,
+            "root_min": 0.004049495887667676,
+            "chart_rho_min": 0.9775,
+            "support_amplitude": 0.001,
+            "terminal_height_coeff_max": 9.027656506546463e-07,
+            "physical_bc_max": 2.978555624817285e-19,
+            "samples_s": 2182,
+            "samples_psi": 528,
+            "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+          },
+          "checkpoint_sha256": "11d123f36883f78e9a6e5acd451610b07ce9eac9b510ff9579f26e31350dc3c3",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-material-circle-lam0.15_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 1180097,
+              "sha256": "9f1207929ef3c8f79a8649f6ddb465195296483590d42ca65ba38eb391fe9b00"
+            }
+          ]
+        },
+        {
+          "q": 0.001,
+          "homotopy": 0.175,
+          "modes": 8,
+          "bimodal_eta": 1.0,
+          "success": false,
+          "message": "The maximum number of mesh nodes is exceeded.",
+          "nodes": 2483,
+          "parameters": [
+            -7.433240086254374e-06,
+            5.000243792432685e-05,
+            0.0001951351886742707,
+            -0.0015511665204844527,
+            0.0012159198872280787,
+            -0.002292418412146238,
+            -0.00013860758576954654,
+            0.0010861509756103413
+          ],
+          "physical_profile": {
+            "direction": "outward",
+            "ramp_eta": 0.05,
+            "ramp_law": "flat",
+            "cycles": 1,
+            "prefix_bridge": {
+              "kind": "turn_plateau_v1",
+              "curvature": 4.0,
+              "peak_fraction": 0.2
+            },
+            "vu": 0.35,
+            "ramp": 0.45,
+            "vd": 0.24829349382468766,
+            "delta": 0.030008838321897713
+          },
+          "max_rms": 0.27706513577819825,
+          "max_bc": 4.560039123359741e-07,
+          "seconds": 395.78464848300064,
+          "domain_newton": {
+            "calls": 6,
+            "rejected_domain_trials": 10,
+            "rejected_merit_trials": 78,
+            "accepted_steps": 20,
+            "no_step": 2,
+            "minimum_alpha": 3.814697265625e-06
+          },
+          "material_restart": {
+            "method": "dual-parameter-design-material-angle-predictor",
+            "q_inputs": [
+              0.001
+            ],
+            "q_target": 0.001,
+            "secant_weights": [
+              1.0
+            ],
+            "radial_nodes": 1020,
+            "angular_projection": 2048,
+            "pullback_residual": 1.1102230246251565e-16,
+            "predicted_delta": 0.03001700582942091,
+            "predicted_vd": 0.24823529359019048,
+            "inlet_repair_coefficient_max": 0.006934632266253349,
+            "scaled_bc_before": 0.006934632266253349,
+            "scaled_bc_after": 4.0818118034512745e-17,
+            "source_sha256": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+            "scope": "Only an initial guess; unchanged full equations, root guards and solver tolerance"
+          },
+          "checkpoint_sha256": "6ba945190ac6a3c54790708a620fb8ecd775e675d2e72bd4bb1fb1bf86c9455b",
+          "coefficient_chunks": [
+            {
+              "file": "large-radius-vu035-q001-m8-material-circle-lam0.175_coeff_00.npy.gz",
+              "state_first": 0,
+              "state_last_exclusive": 25,
+              "bytes": 2867654,
+              "sha256": "6a18d6966653397f4f2d48946efe3ee5ad070d4ecc41d11aff839e6bcb7d634c"
+            }
+          ]
+        }
+      ],
+      "output_sha256": "efab814668340b610ffe6dc3ffcdd7356a348a5f02f2721c2f5707600151c6d5",
+      "source_sha256": {
+        "combined_control_bounds.py": "d21c47280f5220c427b8cd1fbaab8254947a5a94c6b2ae998dece50fd0b3e20a",
+        "audit_bimodal_chart.py": "0b75b6bd9ec25542e7c70aca36ddbd4d9795e8d4b3b79b70246fbbdc72591aee",
+        "audit_local_target.py": "d89ac9be75921bbe1e9b3c7e5bfbc0abc5a89ebad3f376843f82faba7f5946eb",
+        "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+        "material_warm_restart.py": "1c7da0f089ecd57dbf286cfeef6083e53e96490efd8dd21d3f384835530fe5f6",
+        "run_local_flatten.py": "44304d3f0a9e504c55ae2e920f7cf10930d2e1ac961bc10c78a2f0cb281ae6b7",
+        "audit_nested_projection.py": "0c257d7d6c1d6c2f7c3d85c931ed1c00eb8d5e0de96fc0bf2d645f2c6c33e780",
+        "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+        "publish_local_snapshot.py": "39d3ad1d9b8618c34f28cffb8e18e66eaf0e2effec07b184672c7f1c20854276",
+        "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+        "refine_fixed_large_radius.py": "81a46399d83575b82b513d6045347817e2cf6ee5c216fbc92b19f00e20cddd21",
+        "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+        "local_flatten_core.py": "96d07654f204897aef20bd2f742d22d1c4d6d99d746987d72a933b9baf428000",
+        "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+        "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+        "run_bimodal_chart.py": "297e479cd1a9ee759fcb853928c8a98e0d2664269053756e6ce201c45202aa7f",
+        "bimodal_material_restart.py": "eb83af2b710654178ab363f79c6a222c1609f828305fbbd2e6fe04565f6effad",
+        "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6",
+        "audit_large_radius_core.py": "bd47019de7559f9fcb58d9341b124ed17152f6083831d7239b0d1145c0866878",
+        "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+        "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+        "refine_nested_prefix.py": "1da91eef0322d41b79837fb32a9b8edd1972d04fb8b3c56a6b3d82f604fb671f",
+        "dual_material_restart.py": "255a595d1279710cb5dab288c9c335d22eb74b3690bae9b44019405d6a4e4935",
+        "design_vu035.py": "3a9d08663341960cca877aa1e0c64a26b6d5ade71182f9dbd25ddb13fc040ac3",
+        "design_bridge_margin.py": "2d544af85a60ede491dff67d11b52264b49f64d36cea62cfd4497ea8073aac25",
+        "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+        "refine_fixed_prefix_general.py": "a853d1f1bfa5a9c4cc66068860280ba0a32c33fda6199cdc0189a3e5302f376a",
+        "fixed_bimodal_core.py": "88fae8a1dd4adfd9ce5b592c5f877724ba9b97f4fd7dce949742c46099046051",
+        "nested_large_radius_core.py": "c6c882d2c95accc3aefdf96d6985f65c343d0c7834072c69fef006fb8fe73b8c",
+        "run_local_material.py": "f8d3063fd14dbf2abaf3d88500fbc23128f4103bec67364efe3af6467f950827",
+        "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+        "linear_profile_amplification.py": "edd760ec34c623ce1030dcb1ad89531b68cde37403c6d8cd227108d39bd7f468",
+        "probe_actual_n4_tail.py": "12b110579ccbfa25f64d2db6c8c3ee8344b1589d43a742fc8548e882ef6386f3",
+        "screen_large_radius_eta.py": "b8f6150b4b59454a1c00718ca4421eed3dfe8f84fc2b725b6d7505a9b807d353",
+        "diagnose_bimodal_chart.py": "616f03f02c63484ef517d298a5198b14c24a1f27062e7f17bfc387f1c6ca3d2f",
+        "run_large_radius_circle.py": "eb25d9e47ceba0542ba3e7c462db5670450c1ead41a857c8c9ebc938234bfb62",
+        "build_local_flatten.py": "0e755a108750bf7f894e52490b5bc4200a470d54465d77d26e37410d8d1f4b5b",
+        "fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+        "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+        "physical_linear_design.py": "febd50817714229e0c88e7c7473b029320023febbdab8489f3760db5b9946b0c",
+        "nested_projection_core.py": "4c952ff9fcdc4ab3ca1454a5cf7cf46015632dca2ac3404e472f5153a6398c9c",
+        "run_large_radius_material_chain.py": "5c41ae54d352ccee3a677979ea92a1978c86a013c894eaa7e125dd70aa5e0d2f",
+        "refine_fixed_prefix.py": "319160a3659cea870e6104793c9781fa0cf680756a26f39d9499b3903562f9e8",
+        "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+      }
+    }
+  ]
+}

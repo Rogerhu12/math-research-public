@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`3bd5427562a08bea9931f44908ae8b27dc174dd2`。2026-11-18 04:17:55（UTC+8）发布接口错误后立即真实pull/rebase，双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`c3bed7e2993b5ff2c612a9feb0e05bded3d6f048`。2026-11-18 04:19:00（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -26,7 +26,7 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **新wCut=.16物理设计**：原worker重生24模port，新双根δ=.030143626106924344/vd=.25002929220531817；round最小1−a′²=.01602343约旧3.93倍，背景K≈5.5613，名义球D采样2.5793。R1.882初保护窗保守下界>.15213；mode8增益11.0156未改善。peak.01直接root域失败保留。根正用新g冷解eta.1/q.01/M16；见n4-thicker-cut-double-root。
 
-旧n4失败/取消见bimodal-continuation-terminal、n4-q*、double-prefix-*；q06 sampled K给reach/D必要上限.02949，未区间认证。旧圆化完整metric未过，不重做。
+**低幅圆化终态已登记**：eta1/q.001/M8直接λ0→.1均投影接受但完整metric未过，λ.2触节点上限；完整材料初值至λ.125/.15接受（metric5.27e−5/8.70e−5、tensor.08484/.14076），λ.175触节点上限。精确reference lift与两jet完整保留；非入口丢高频、非不存在。见n4-low-amplitude-circle-terminal。旧n4失败/取消见bimodal-continuation-terminal、double-prefix-*；不重做。
 
 ## 2. m3真正联合与新物理尾
 
