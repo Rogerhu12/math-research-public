@@ -1,0 +1,282 @@
+{
+  "scope": "Completed lambda0 finite nonlinear prefix with actual LINEAR tail port. Not an exact circle, fixed-g refinement, nonlinear tail coupling, or closed surface.",
+  "runtime_argv": [
+    "complement_plateau_prefix_recorded.py",
+    "--out",
+    "runs/complement-v40-r45-q045-m16-lam0",
+    "--modes",
+    "16",
+    "--q",
+    ".045",
+    "--halfwidth",
+    ".145",
+    "--transition",
+    ".08",
+    "--control-transition",
+    ".08",
+    "--lambdas",
+    "0",
+    "--nodes",
+    "351",
+    "--max-nodes",
+    "4500",
+    "--tol",
+    "1e-6",
+    "--angular",
+    "768",
+    "--exact-lift",
+    "--profile",
+    "compact-v40-40-r45/profile.json",
+    "--chart-file",
+    "compact-v40-40-r45/chart.json",
+    "--port-file",
+    "mode4_port24.json",
+    "--restart",
+    "runs/complement-v40-r45-q040-m16-lam0-lam0.json.gz"
+  ],
+  "runtime_source_sha256": {
+    "complement_plateau_prefix_recorded.py": "04c6c5e0a1892518add03509ca91828c26a42d9a37cd50e7c9674aa9a7e268ee",
+    "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+    "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "plateau_patch_audit.py": "18e2f26a13c8f6b72583b479c4147a9fe6c225bc0a77417ae398251219f48451",
+    "complementary_snapshot/uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+    "complementary_snapshot/complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "complementary_snapshot/moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+  },
+  "source_transforms": {
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": {
+      "sha256": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+      "replacements": [
+        [
+          "self.warp_e=8*float(warp_q)",
+          "self.warp_e=15*float(warp_q)",
+          1
+        ],
+        [
+          "3*psi",
+          "4*psi",
+          4
+        ],
+        [
+          "3*theta",
+          "4*theta",
+          4
+        ],
+        [
+          "np.sin(4*psi)/3",
+          "np.sin(4*psi)/4",
+          1
+        ],
+        [
+          "rho1=3*e",
+          "rho1=4*e",
+          1
+        ],
+        [
+          "cfg,port,q,M,angular,3,fixed",
+          "cfg,port,q,M,angular,4,fixed",
+          1
+        ],
+        [
+          "self.pscale,3)",
+          "self.pscale,4)",
+          1
+        ],
+        [
+          "*et/3",
+          "*et/4",
+          1
+        ],
+        [
+          "obj.M*3+1",
+          "obj.M*4+1",
+          1
+        ],
+        [
+          "base_mode=3,core_kind=",
+          "base_mode=4,core_kind=",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": {
+      "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "replacements": [
+        [
+          "spec=importlib.util.spec_from_file_location('prefixwarp',HERE/'950f-prefix-warped-bvp.py');old=importlib.util.module_from_spec(spec);spec.loader.exec_module(old)",
+          "old=sys.modules['even_mode_warp']",
+          1
+        ],
+        [
+          "3*psi",
+          "4*psi",
+          5
+        ],
+        [
+          "3*theta",
+          "4*theta",
+          3
+        ],
+        [
+          "3*np.arange",
+          "4*np.arange",
+          1
+        ],
+        [
+          "*sn/3",
+          "*sn/4",
+          3
+        ],
+        [
+          "rho_p=3*e",
+          "rho_p=4*e",
+          1
+        ],
+        [
+          "rho_ps=3*ep",
+          "rho_ps=4*ep",
+          1
+        ],
+        [
+          "*et/3",
+          "*et/4",
+          1
+        ],
+        [
+          "max(64,self.nt),3,",
+          "max(64,self.nt),4,",
+          1
+        ],
+        [
+          "psi)/3-target",
+          "psi)/4-target",
+          2
+        ],
+        [
+          "obj.M*3+1",
+          "obj.M*4+1",
+          1
+        ],
+        [
+          "base_mode=3,core_kind=",
+          "base_mode=4,core_kind=",
+          1
+        ]
+      ]
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": {
+      "sha256": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "replacements": []
+    },
+    "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": {
+      "sha256": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "replacements": []
+    }
+  },
+  "arguments": {
+    "out": "runs/complement-v40-r45-q045-m16-lam0",
+    "modes": 16,
+    "q": 0.045,
+    "halfwidth": 0.145,
+    "transition": 0.08,
+    "control_transition": 0.08,
+    "lock_fundamental": false,
+    "center": 0.0,
+    "lambdas": [
+      0.0
+    ],
+    "nodes": 351,
+    "max_nodes": 4500,
+    "tol": 1e-06,
+    "angular": 768,
+    "restart": "runs/complement-v40-r45-q040-m16-lam0-lam0.json.gz",
+    "exact_lift": true,
+    "rank": false,
+    "fixed": false,
+    "profile": "compact-v40-40-r45/profile.json",
+    "osculating": false,
+    "chart_file": "compact-v40-40-r45/chart.json",
+    "source_topic": "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+    "port_file": "mode4_port24.json"
+  },
+  "raw_record_sha256": "81a9b517414d763bad8e7f3183b207882c3a7a07621b8012fa17b2503cc7695c",
+  "checkpoint_sha256": "80ef7e334a3facfc008984a4699b3976cd26a553fa32d1c0298e54b5750b4d76",
+  "restart_sha256": "fc71f6ef54e0204cdb382569957f1cb09f27f1d58efb2accd3a84793f45b6d92",
+  "port24_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+  "row": {
+    "q": 0.045,
+    "modes": 16,
+    "homotopy": 0.0,
+    "success": true,
+    "nodes": 1157,
+    "message": "The algorithm converged to the desired accuracy.",
+    "max_rms": 8.262350146391815e-07,
+    "max_bc": 1.915246430824666e-11,
+    "delta": 0.0301261368647537,
+    "physical_core_corrections": [
+      0.00033462872028666577,
+      -3.619162894988936e-05,
+      8.611310565616599e-07,
+      -2.695366221817459e-07,
+      -1.8384265505418624e-07,
+      -1.3112180171948279e-08,
+      1.6972828215013013e-09,
+      1.530312377687533e-10,
+      1.0933520421070529e-11,
+      1.0932339981911135e-11,
+      1.9842295069833818e-13,
+      -3.1805704543810477e-12,
+      -3.5635669035983206e-12,
+      -1.4739028941122477e-11,
+      -2.607452629421297e-11
+    ],
+    "parameter_jac_check": [
+      {
+        "direction_normalization": "control-rho-bound",
+        "step": 0.001,
+        "max_error": 7.68334773582069e-09,
+        "scale": 0.005044728320921686
+      },
+      {
+        "direction_normalization": "control-rho-bound",
+        "step": 0.0003333333333333333,
+        "max_error": 8.839449476202854e-10,
+        "scale": 0.00504473367564528
+      },
+      {
+        "direction_normalization": "control-rho-bound",
+        "step": 0.0001,
+        "max_error": 1.398855739311825e-09,
+        "scale": 0.005044734605305118
+      }
+    ],
+    "seconds": 187.0326817035675
+  },
+  "summary": {
+    "metric_l1": 5.499086056153197e-08,
+    "flow_defect": 5.112310414274435e-08,
+    "darboux_l1": 0.0014914881161510291,
+    "kappa_sample": 13.262769966156565,
+    "radius_max": 1.0540034459921612,
+    "height_max": 0.6423224922618695,
+    "root_min": 0.0033829693881125555,
+    "chart_rho_min": 0.32499999999999996,
+    "support_amplitude": 0.045,
+    "terminal_height_coeff_max": 2.7214387168118194e-05,
+    "physical_bc_max": 1.915246430824666e-13,
+    "samples_s": 2462,
+    "samples_psi": 1040,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "core": {
+    "rho_lower_conservative": 0.30884110263521636,
+    "rho_min_sample": 0.31338205659967355,
+    "rho_max_sample": 1.6442236942326198,
+    "curvature_max_sample": 3.1909931629475485,
+    "radius_max_sample": 1.0450130919570195,
+    "exact_circle_only_at_homotopy_one": false
+  }
+}
