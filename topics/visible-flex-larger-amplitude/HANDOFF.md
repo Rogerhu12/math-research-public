@@ -6,11 +6,11 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 17:35:40 UTC 真实 pull 后核双 README，无新差异，已读提交 be0c61bcf487da57bc823e45b061815348237d9f。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 18:07:43 UTC 真实 pull 后核双 README，无新差异，已读提交 8e7f54cf325943880cfbdac9e0959def2452e378。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
-根12完整证明即刊，不加冻结/独审/机械重跑/fixture/科学前门。本轮另合并40954B逐字plan，主本及准确恢复见open§7。根15可再生raw/证书/Actions输出不存Git/Release/artifact、不拆包编码；题≤200MB、单MD<100KB、H<10KB/open<30KB、log每条≤5物理行，不写根LOG。只取<100KB完整工具文本；已删raw不由SHA造父。open§4–6原字保。
+根12完整证明即刊，不加冻结/独审/机械重跑/fixture/科学前门。本轮另合并3×18688B逐字bridge，主本及恢复见open§7。根15可再生raw/证书/Actions输出不存Git/Release/artifact、不拆包编码；题≤200MB、单MD<100KB、H<10KB/open<30KB、log每条≤5物理行，不写根LOG。只取<100KB完整工具文本；已删raw不由SHA造父。open§4–6原字保。
 
 同一固定g、连通闭C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0、全t reach≥.03D、全域relative metric≤1e−6，D完整闭F0。固定g/参数/t后实际mesh/频率/t加密误差继续降至机器或原solver容差；多网格按根15保源/配方/run/SHA、说明严格存在缺口再加强比例。更强跨级C²不增门。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。完整结论/源/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638/640/642付pulse/hold全C²坐标及pulse嵌入；R641代表胞Gram≤4.937e−7，唯一819片全批512片时无失败。R643实际G两胞κ<6.313/7.038及快核已付。hold真1.02/2098胞采样Gram1.181e−7，R644全嵌入及镜像；R646四胞连续Gram≤2.129e−7；R645准确旋转core点到整同像/镜像距离>.9588，非closed held。真κ0/320模trace已刊；1.04 BVP及RMS修补原额失败。1.03原BVP11QR后max_nodes，rise1642 RMS.04335/8192H<0，e313非父。R647完整消元/原核心逆<728/正支及全FFT伴随已证；[唯一Pr602入口](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965已启动，原1662/580328残差/17回溯/8fresh/20步不减，fresh6前SSE2.79e−5未过；完整割线93.6%二次项来自r1。model唯一终态，geometry付实际新C²场。闭面/D/H/held/反射E3/reach/全t/同g精化未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变。完整结论/源/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。R638/640/642付pulse/hold全C²坐标及pulse嵌入；R641代表胞Gram≤4.937e−7，唯一819片全批552片时无失败。R643实际G两胞κ<6.313/7.038及快核已付。hold真1.02/2098胞采样Gram1.181e−7，R644全嵌入及镜像；R646四胞连续Gram≤2.129e−7；R645准确旋转core点到整同像/镜像距离>.9588，非closed held。真κ0/320模trace已刊；1.04 BVP及RMS修补原额失败。1.03原BVP11QR后max_nodes，rise1642 RMS.04335/8192H<0，e313非父。R647完整消元/原核心逆<728/正支及全FFT伴随已证；[Pr602入口](notes/2026-11-17-parallel-model-implicit-frenet-newton-preparation.md)5b965完整8fresh预算失败，SSE2.77e−5/cubicGram.00309/H负，3a7f非父；model完整终态附节待刊，geometry付真实新quintic。完整割线93.6%二次项来自r1，后继从原1662付阻尼方向。闭面/D/H/held/反射E3/reach/全t/同g精化未付。
 
 ## 实际活动run与唯一终态读者
 

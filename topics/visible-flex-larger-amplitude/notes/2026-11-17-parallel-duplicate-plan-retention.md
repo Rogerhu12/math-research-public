@@ -40,3 +40,15 @@ For any listed path, exact recovery is `git show 3aee9033e2bf0285ceca2f434860e98
 The 40,954-byte `notes/2026-11-13-strong-current-gap-release-inlet-and-chart-r1-exact-warm-plan.json` is byte-identical to retained `notes/2026-11-13-strong-current-gap-preserving-complete-warm-r1-plan.json`: SHA256 `05a0b5d7ae79cc7b2511063a5bf94e31ca6eddaea5fa740385daf90cbd342ab7`, Git blob `86c5c76553b6157e1b7e8adcc45e74f1b62e6b28`. Both literal records say prepared_only=true, executed=false, nonlinear_solution=false. The removed path was also compared byte-for-byte with commit `c34b0f2d3f43a01390c4f7f22e40f981070b8451`; `git show c34b0f2d3f43a01390c4f7f22e40f981070b8451:topics/visible-flex-larger-amplitude/notes/2026-11-13-strong-current-gap-release-inlet-and-chart-r1-exact-warm-plan.json` restores it exactly.
 
 A literal path-stem search across the checked-out topic and .github finds only the two corresponding historical manifests. The removed copy's one manifest entry now points to the retained identical bytes, with historical_duplicate_path and exact_duplicate_restore_commit added; original SHA, byte count, scratch source path and historical manifest total remain unchanged. Its complete combined-field plan, all candidate identities, source bindings and limitations remain in the retained file. No live warm, source, distinct result or actual state array is removed; no undeclared external-consumer audit is claimed.
+
+## Three identical outer/inner identity bridge reports
+
+Three 18,688-byte copies below are byte-identical to retained `notes/2026-11-13-root-fine-core-tail-proxy-fine32-tail2-q002to006-r2-bridge.json`, SHA256 `2b2913451575df93264659fd027e7ce3a192fa5069d0f5350e3df589734e0450`, Git blob `1d33d0e24565d00a3af03dac6b4a6a9d300bc560`. Each was also compared against the same full path at commit `8e7f54cf325943880cfbdac9e0959def2452e378`; gross released size is 56,064 bytes.
+
+- `notes/2026-11-13-root-fine-core-tail-proxy-fine32-tail4-q004to008-r2-bridge.json`
+- `notes/2026-11-13-root-fine-tail-size-tradeoff-fine32-tail2-size102to103-r3-bridge.json`
+- `notes/2026-11-13-root-fine-tail-size-tradeoff-fine32-tail4-size1035to1045-r3-bridge.json`
+
+The retained complete report preserves the actual outer/inner identities, every saved preparation binding, six-direction scope, gates and limitations. A literal path-stem search over the checked-out topic and .github finds exactly the two corresponding historical manifests. Their three affected entries now point to the unchanged canonical bytes and add historical_duplicate_path and exact_duplicate_restore_commit; SHA, bytes, original scratch path and historical totals stay unchanged. Current scientific sources, distinct results, live inputs and arrays are not deleted. This search does not claim coverage of undeclared external consumers.
+
+Exact recovery for each path is `git show 8e7f54cf325943880cfbdac9e0959def2452e378:topics/visible-flex-larger-amplitude/<listed-relative-path>`. This is ordinary deletion of duplicate copies, without history rewriting or reconstruction from hashes.
