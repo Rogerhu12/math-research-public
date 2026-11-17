@@ -6,7 +6,7 @@
 
 规则同步记录：2026-11-16 21:06:21 UTC 真实 git pull --rebase origin main 后核双README；根21bd547f56590b7f2dd279d0297efb289a9b2783、题bff8aea253a9e6a7a4fac28d810ac454c5499fec未变，已读提交 c6304c2af450643c8d192d485ffcdb191f7f01ff。
 
-并行会话规则同步：2026-11-17 12:53:47 UTC 真实 pull 后核双 README，无新差异，已读提交 bcc1ce9a5ba1cd612ff89396cf997c54721fbff6。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
+并行会话规则同步：2026-11-17 12:58:59 UTC 真实 pull 后核双 README，无新差异，已读提交 8b487f58fcc2db775fc763409b21b92be34d988d。此前根仅新增 held-10pct 课题，本题标准未变；原会话与终态读者保持，新文件用 2026-11-17-parallel-*，每条结论同步H并推。
 
 仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull，每次核双README；变只读diff立即执行并记commit。原2700秒同步保。NFF/cannot-lock立即pull --rebase再普通push至成功，禁force。07:19终端失联后用本公开Actions真blob:none/sparse clone/pull/rebase/push，main不带行政workflow。
 
@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：R623–631完整数学结论见results索引，本支线本地计算，原Actions责任不变。[.992前缀](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112/N2048/486点接受，quintic Gram采样2.590e−7；M128回升6.467e−7，未有单调谱收敛。真实r=1.1673/w=2.6426/w_r=48.558端口现用R630物理φ/P̃，无损保物理模，深行已换角。[小尾M8接受](notes/2026-11-17-parallel-numerical-dynamic-tail-first.md)的四分点r残差7.89e−3；R631已证明积分K→C²径向映射；小尾真实Gram新读出待刊，不能把原PDE余项当geometry误差。大幅cut新g仅scale1e−6接受，正调valley/bridge大放大。低z外柱会遮held见证，改核上下回头固定盖；真实H、全闭面/全t/全域reach仍未付，纯帽结果不代它。
+Astra-larger-parallel-16f63c8b：R623–631完整数学结论见results索引，本支线本地计算，原Actions责任不变。[.992前缀](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112/N2048/486点接受，quintic Gram采样2.590e−7；M128回升6.467e−7，未有单调谱收敛。真实r=1.1673/w=2.6426/w_r=48.558端口现用R630物理φ/P̃，无损保物理模，深行已换角。[小尾M8接受](notes/2026-11-17-parallel-numerical-dynamic-tail-first.md)的四分点r残差7.89e−3；R631已证明积分K→C²径向映射；[小尾真Gram](notes/2026-11-17-parallel-geometry-actual-tail-gram.md)积分K得1.370e−8，角构造尚不冒C²；原PDE余项不代geometry误差。大幅cut新g仅scale1e−6接受，正调valley/bridge大放大。低z外柱会遮held见证，改核上下回头固定盖；真实H、全闭面/全t/全域reach仍未付，纯帽结果不代它。
 
 ## 实际活动run与唯一终态读者
 
