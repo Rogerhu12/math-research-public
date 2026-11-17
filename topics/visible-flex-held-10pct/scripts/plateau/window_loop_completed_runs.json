@@ -1,0 +1,651 @@
+{
+  "scope": "Completed-run scalar, command, checkpoint and summary hashes only; no regenerable arrays embedded. Numerical finite-prefix evidence, not a closed surface or exact circular patch.",
+  "fixed_metric_comparison": {
+    "definition": {
+      "file": "window-loop-frozen-lam0-m4.json",
+      "bytes": 278,
+      "sha256": "6f03aab16bca5db4d6bbca6ac8bb423f08d41f0026b95208d16b82191f322d34"
+    },
+    "all_recorded_profile_fields_exactly_equal": true,
+    "homotopy": 0,
+    "exact_circle": false,
+    "m4": "window-short-moment-q002-m4",
+    "m6": "window-short-lam0-fixed-m6",
+    "metric_l1_ratio": 0.3599443991903767
+  },
+  "runs": [
+    {
+      "run": "window-loop-q01-m4-domain",
+      "summary": {
+        "file": "runs/window-loop-q01-m4-domain.json",
+        "bytes": 4607,
+        "sha256": "9f1766b7e40e2f3e070c2b6c599eca7029855bf46d4a47ae15508b19fda367e0"
+      },
+      "command": [
+        "python",
+        "window_prefix.py",
+        "--out",
+        "plateau_core_work/runs/window-loop-q01-m4-domain",
+        "--source-topic",
+        "true_a_work/bundle/topics/visible-flexible-closed-surface",
+        "--port-file",
+        "plateau_core_work/flat17-port96.json",
+        "--profile",
+        "plateau_core_work/window-loop-root-parameters.json",
+        "--q",
+        "0.01",
+        "--modes",
+        "4",
+        "--control",
+        "stop_acceleration",
+        "--halfwidth",
+        "0.2",
+        "--transition",
+        "0.1",
+        "--center",
+        "1.0471975511965976",
+        "--lambdas",
+        "0.0",
+        "0.03",
+        "0.1",
+        "0.3",
+        "0.6",
+        "1.0",
+        "--nodes",
+        "181",
+        "--max-nodes",
+        "1800",
+        "--tol",
+        "2e-06",
+        "--angular",
+        "192"
+      ],
+      "completed_rows": [
+        {
+          "homotopy": 0.0,
+          "q": 0.01,
+          "modes": 4,
+          "success": false,
+          "nodes": 1246,
+          "max_rms": 0.004320957627039639,
+          "max_bc": 5.263313357595223e-06,
+          "message": "The maximum number of mesh nodes is exceeded.",
+          "profile_stop_acceleration": 1.576746552101366,
+          "checkpoint": {
+            "file": "runs/window-loop-q01-m4-domain-lam0.json.gz",
+            "bytes": 14909,
+            "sha256": "11298efe80db32e118ac6b05e3c9e4ef3207bc7807225ced835db39a823d3305"
+          },
+          "checkpoint_solver_success": false,
+          "external_array_digests": [
+            {
+              "file": "runs/window-loop-q01-m4-domain-lam0_coeff_00.npy.gz",
+              "bytes": 747044,
+              "sha256": "6057061acaa40bf306ed1300ab075cb862e55fcc05a92c8a7dd7c6d9db8f7b4f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "run": "window-short-q002-m3",
+      "summary": {
+        "file": "runs/window-short-q002-m3.json",
+        "bytes": 26614,
+        "sha256": "f191fe0e4bbfaec4f734cb1c7196781975a74edd328134e6c205ef528fcc5525"
+      },
+      "command": [
+        "python",
+        "window_prefix.py",
+        "--out",
+        "plateau_core_work/runs/window-short-q002-m3",
+        "--source-topic",
+        "true_a_work/bundle/topics/visible-flexible-closed-surface",
+        "--port-file",
+        "plateau_core_work/flat17-port96.json",
+        "--profile",
+        "plateau_core_work/window-loop-short-parameters.json",
+        "--q",
+        "0.002",
+        "--modes",
+        "3",
+        "--control",
+        "stop_acceleration",
+        "--halfwidth",
+        "0.2",
+        "--transition",
+        "0.1",
+        "--center",
+        "1.0471975511965976",
+        "--lambdas",
+        "0.0",
+        "0.03",
+        "0.1",
+        "0.3",
+        "0.6",
+        "1.0",
+        "--nodes",
+        "151",
+        "--max-nodes",
+        "1600",
+        "--tol",
+        "3e-06",
+        "--angular",
+        "128"
+      ],
+      "completed_rows": [
+        {
+          "homotopy": 0.0,
+          "q": 0.002,
+          "modes": 3,
+          "success": true,
+          "nodes": 344,
+          "max_rms": 2.996235202449017e-06,
+          "max_bc": 3.552713678800501e-15,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 2.026670006439322e-06,
+          "flow_defect": 2.9070547352123093e-05,
+          "darboux_l1": 0.0005858870909511522,
+          "kappa_sample": 7.540475752800582,
+          "height_max": 1.3899282738124668,
+          "radius_max": 1.1268685253750907,
+          "root_min": 0.06434626388524123,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 7.259776651406771e-05,
+          "profile_stop_acceleration": 2.8951857149245996,
+          "checkpoint": {
+            "file": "runs/window-short-q002-m3-lam0.json.gz",
+            "bytes": 6370,
+            "sha256": "d62cdd5efb31bcfa62e86ab40bb73fb13a45b505be3e193979accabca717be32"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-q002-m3-lam0_coeff_00.npy.gz",
+              "bytes": 159954,
+              "sha256": "f0097fcb9ad4347e9b74151cd217491eb733f8d125963019e2a0971bb2739770"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.03,
+          "q": 0.002,
+          "modes": 3,
+          "success": true,
+          "nodes": 345,
+          "max_rms": 2.993095969082723e-06,
+          "max_bc": 1.193325427080276e-14,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 5.226696377518715e-05,
+          "flow_defect": 0.0007469810968819115,
+          "darboux_l1": 0.015479048664765238,
+          "kappa_sample": 7.54186450049437,
+          "height_max": 1.3898085903429762,
+          "radius_max": 1.126860049554617,
+          "root_min": 0.0643529346887225,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 7.17290093741142e-05,
+          "profile_stop_acceleration": 2.8985865621207556,
+          "checkpoint": {
+            "file": "runs/window-short-q002-m3-lam0.03.json.gz",
+            "bytes": 6389,
+            "sha256": "8fa826b9697bd880b96e8cb53b8e31a7064378105f767278c8f0f615d959e11c"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-q002-m3-lam0.03_coeff_00.npy.gz",
+              "bytes": 160151,
+              "sha256": "a42f719ecfbb15eba700732e2827bd8caa2679b8c48453b8135ec29a9982cc1c"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.1,
+          "q": 0.002,
+          "modes": 3,
+          "success": true,
+          "nodes": 351,
+          "max_rms": 2.9556919300562206e-06,
+          "max_bc": 2.1393997684526767e-13,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 0.0001721555235708652,
+          "flow_defect": 0.0024476996831206232,
+          "darboux_l1": 0.05112988693104141,
+          "kappa_sample": 7.541561390455271,
+          "height_max": 1.388584602623439,
+          "radius_max": 1.1268502899267452,
+          "root_min": 0.0643703687941245,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 6.927341550396523e-05,
+          "profile_stop_acceleration": 2.9339926900980773,
+          "checkpoint": {
+            "file": "runs/window-short-q002-m3-lam0.1.json.gz",
+            "bytes": 6319,
+            "sha256": "0c65cf5d570f23198783dd828fd7c346507d1fe95c8443881c7c2b92d485ad79"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-q002-m3-lam0.1_coeff_00.npy.gz",
+              "bytes": 162783,
+              "sha256": "eff7e51a002b02ebcbcda0cfdf4dbcae5d9db289855da3ceeb7354c777e027e2"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.3,
+          "q": 0.002,
+          "modes": 3,
+          "success": true,
+          "nodes": 396,
+          "max_rms": 2.9068754908012503e-06,
+          "max_bc": 3.112103131620858e-13,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 0.0005341217378587581,
+          "flow_defect": 0.007457684989253986,
+          "darboux_l1": 0.15896351037391554,
+          "kappa_sample": 7.534332437939083,
+          "height_max": 1.3739075627684054,
+          "radius_max": 1.1268958808347458,
+          "root_min": 0.06437659886320257,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 5.871023961604025e-05,
+          "profile_stop_acceleration": 3.4382816400655676,
+          "checkpoint": {
+            "file": "runs/window-short-q002-m3-lam0.3.json.gz",
+            "bytes": 6842,
+            "sha256": "829e31b094f3f3c0612eb7e4c3cd9c6092f0c496ea71ebae8b460bf394b66e8f"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-q002-m3-lam0.3_coeff_00.npy.gz",
+              "bytes": 183195,
+              "sha256": "f8d7ea2783df2f00dee35e53c8bce03e5e4825aa70322614fe79fafb598c25f6"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.6,
+          "q": 0.002,
+          "modes": 3,
+          "success": false,
+          "error": "FloatingPointError('Post-H profile control outside search domain')",
+          "profile_stop_acceleration": null
+        }
+      ]
+    },
+    {
+      "run": "window-short-q002-m4-analytic",
+      "summary": {
+        "file": "runs/window-short-q002-m4-analytic.json",
+        "bytes": 4972,
+        "sha256": "34e3e7480d6d7f49da43596fde6d9b02c86664a04ba108a18137d031f8365b3e"
+      },
+      "command": [
+        "python",
+        "window_prefix.py",
+        "--out",
+        "plateau_core_work/runs/window-short-q002-m4-analytic",
+        "--source-topic",
+        "true_a_work/bundle/topics/visible-flexible-closed-surface",
+        "--port-file",
+        "plateau_core_work/flat17-port96.json",
+        "--profile",
+        "plateau_core_work/window-loop-short-parameters.json",
+        "--q",
+        "0.002",
+        "--modes",
+        "4",
+        "--control",
+        "stop_acceleration",
+        "--halfwidth",
+        "0.2",
+        "--transition",
+        "0.1",
+        "--center",
+        "1.0471975511965976",
+        "--lambdas",
+        "0.3",
+        "0.45",
+        "0.6",
+        "0.8",
+        "1.0",
+        "--nodes",
+        "151",
+        "--max-nodes",
+        "1800",
+        "--tol",
+        "3e-06",
+        "--angular",
+        "160",
+        "--restart",
+        "plateau_core_work/runs/window-short-q002-m3-lam0.3.json.gz",
+        "--analytic-parameters",
+        "--check-parameters"
+      ],
+      "completed_rows": [
+        {
+          "homotopy": 0.3,
+          "q": 0.002,
+          "modes": 4,
+          "success": false,
+          "nodes": 1181,
+          "max_rms": 8.881524769032387,
+          "max_bc": 0.0003223594674861552,
+          "message": "The maximum number of mesh nodes is exceeded.",
+          "profile_stop_acceleration": 19.999775967758318,
+          "checkpoint": {
+            "file": "runs/window-short-q002-m4-analytic-lam0.3.json.gz",
+            "bytes": 14148,
+            "sha256": "e210413f9c608c7fed46d88a776bf9227b82fcc1f4d9ee950032796fc8db2ea1"
+          },
+          "checkpoint_solver_success": false,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-q002-m4-analytic-lam0.3_coeff_00.npy.gz",
+              "bytes": 709231,
+              "sha256": "3ce28044a42883799a1fc84c5fc460e2c4223eb87159042192de86ba860aec63"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "run": "window-short-moment-q002-m4",
+      "summary": {
+        "file": "runs/window-short-moment-q002-m4.json",
+        "bytes": 32407,
+        "sha256": "3043dd4cda609207eceef02c09ec6c7bfceb5eb4f3dc750fce586af305627269"
+      },
+      "command": [
+        "python",
+        "window_prefix.py",
+        "--out",
+        "plateau_core_work/runs/window-short-moment-q002-m4",
+        "--source-topic",
+        "true_a_work/bundle/topics/visible-flexible-closed-surface",
+        "--port-file",
+        "plateau_core_work/flat17-port96.json",
+        "--profile",
+        "plateau_core_work/window-loop-short-parameters.json",
+        "--q",
+        "0.002",
+        "--modes",
+        "4",
+        "--control",
+        "stop_acceleration",
+        "--halfwidth",
+        "0.2",
+        "--transition",
+        "0.1",
+        "--center",
+        "1.0471975511965976",
+        "--lambdas",
+        "0.0",
+        "0.03",
+        "0.1",
+        "0.3",
+        "0.5",
+        "0.7",
+        "0.85",
+        "1.0",
+        "--nodes",
+        "151",
+        "--max-nodes",
+        "1800",
+        "--tol",
+        "2e-06",
+        "--angular",
+        "160",
+        "--analytic-parameters",
+        "--core-basis",
+        "moment-homotopy",
+        "--check-parameters"
+      ],
+      "completed_rows": [
+        {
+          "homotopy": 0.0,
+          "q": 0.002,
+          "modes": 4,
+          "success": true,
+          "nodes": 371,
+          "max_rms": 1.997483075752438e-06,
+          "max_bc": 4.385380947269368e-15,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 1.7760672540903817e-09,
+          "flow_defect": 3.2872931745237114e-09,
+          "darboux_l1": 9.131941631702114e-08,
+          "kappa_sample": 7.5404602216025465,
+          "height_max": 1.389928440472203,
+          "radius_max": 1.1268687770446788,
+          "root_min": 0.06434625374628555,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 7.259909091358502e-05,
+          "profile_stop_acceleration": 2.895180987993422,
+          "checkpoint": {
+            "file": "runs/window-short-moment-q002-m4-lam0.json.gz",
+            "bytes": 6731,
+            "sha256": "60b77aff8ca568a327a2395fb4088c39b2a04799a9760dafecc44e48b12b06c0"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-moment-q002-m4-lam0_coeff_00.npy.gz",
+              "bytes": 224753,
+              "sha256": "d821ee618341149f17832382a2fc5f7f2a3529d06d851a7df088e5f9a7d903f0"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.03,
+          "q": 0.002,
+          "modes": 4,
+          "success": true,
+          "nodes": 371,
+          "max_rms": 1.9879170068218897e-06,
+          "max_bc": 2.0095036745715333e-14,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 4.6447088533108115e-06,
+          "flow_defect": 6.55880726999865e-05,
+          "darboux_l1": 0.0021811603811497495,
+          "kappa_sample": 7.540166493174679,
+          "height_max": 1.3899274351645703,
+          "radius_max": 1.1268665903544668,
+          "root_min": 0.06435207056484249,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 7.181949885179243e-05,
+          "profile_stop_acceleration": 2.8951907491183206,
+          "checkpoint": {
+            "file": "runs/window-short-moment-q002-m4-lam0.03.json.gz",
+            "bytes": 6754,
+            "sha256": "25d815257e4c61ea9bf09b2fbb942a80b95db254ddc4b16e71e10e001dfab018"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-moment-q002-m4-lam0.03_coeff_00.npy.gz",
+              "bytes": 224540,
+              "sha256": "ed70731ea2d22b880b82e84a93882d8e3de6afed2e4d893d8a732035e5802abe"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.1,
+          "q": 0.002,
+          "modes": 4,
+          "success": true,
+          "nodes": 371,
+          "max_rms": 1.9871334981231046e-06,
+          "max_bc": 1.793972956298795e-13,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 4.313957616144854e-05,
+          "flow_defect": 0.0007414292901689047,
+          "darboux_l1": 0.01668308993250114,
+          "kappa_sample": 7.5405548716748,
+          "height_max": 1.3898186110158646,
+          "radius_max": 1.1268645373851827,
+          "root_min": 0.06436616731565448,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 6.99512837545588e-05,
+          "profile_stop_acceleration": 2.8982560704358935,
+          "checkpoint": {
+            "file": "runs/window-short-moment-q002-m4-lam0.1.json.gz",
+            "bytes": 6705,
+            "sha256": "d28fa195c36a53119e4209fb10c08d4b11fe99e9d13c4a095cddbb7b37822377"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-moment-q002-m4-lam0.1_coeff_00.npy.gz",
+              "bytes": 224229,
+              "sha256": "320967fea20f4fc5a3a02ba50b072ca74e02c187ccc76325120373a179526a1f"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.3,
+          "q": 0.002,
+          "modes": 4,
+          "success": true,
+          "nodes": 416,
+          "max_rms": 1.9140245987908377e-06,
+          "max_bc": 6.32993657490033e-13,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 0.00039285078581187215,
+          "flow_defect": 0.007166674878454736,
+          "darboux_l1": 0.14262488607516938,
+          "kappa_sample": 7.532622481503781,
+          "height_max": 1.3772901015658776,
+          "radius_max": 1.126910775899193,
+          "root_min": 0.06438135251044563,
+          "support_amplitude": 0.002,
+          "terminal_height_coeff_max": 6.00853832119443e-05,
+          "profile_stop_acceleration": 3.307241654683979,
+          "checkpoint": {
+            "file": "runs/window-short-moment-q002-m4-lam0.3.json.gz",
+            "bytes": 7139,
+            "sha256": "37d843b2727704f7d2c587d3c55ee70ef527830f5352ae06f9e932bda346ce1b"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-moment-q002-m4-lam0.3_coeff_00.npy.gz",
+              "bytes": 250847,
+              "sha256": "50398e28e00205bb2d924948dbcdd4391ba93f79979569acc967221008c0da31"
+            }
+          ]
+        },
+        {
+          "homotopy": 0.5,
+          "q": 0.002,
+          "modes": 4,
+          "success": false,
+          "nodes": 1243,
+          "max_rms": 15.81360058937096,
+          "max_bc": 0.0001360937826322406,
+          "message": "The maximum number of mesh nodes is exceeded.",
+          "profile_stop_acceleration": 19.99981662891572,
+          "checkpoint": {
+            "file": "runs/window-short-moment-q002-m4-lam0.5.json.gz",
+            "bytes": 14747,
+            "sha256": "7a6cd593e357afaa046ef3ee6a3587d94bbf1c547d03e9662fd6a7ef8e7d0087"
+          },
+          "checkpoint_solver_success": false,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-moment-q002-m4-lam0.5_coeff_00.npy.gz",
+              "bytes": 747242,
+              "sha256": "17ab4de0d25cdeea2bdd9ce1c47f9dc87c59c59867dcafbcf8732e5104ce47ad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "run": "window-short-lam0-fixed-m6",
+      "summary": {
+        "file": "runs/window-short-lam0-fixed-m6.json",
+        "bytes": 8930,
+        "sha256": "fdf15af6d63a8530f41e85861ab11c5ce527109c045a51c58e2f8fedaa1f85a2"
+      },
+      "command": [
+        "python",
+        "window_prefix.py",
+        "--out",
+        "plateau_core_work/runs/window-short-lam0-fixed-m6",
+        "--source-topic",
+        "true_a_work/bundle/topics/visible-flexible-closed-surface",
+        "--port-file",
+        "plateau_core_work/flat17-port96.json",
+        "--profile",
+        "plateau_core_work/window-loop-frozen-lam0-m4.json",
+        "--q",
+        "0.002",
+        "--modes",
+        "6",
+        "--control",
+        "stop_acceleration",
+        "--halfwidth",
+        "0.2",
+        "--transition",
+        "0.1",
+        "--center",
+        "1.0471975511965976",
+        "--lambdas",
+        "0.0",
+        "--nodes",
+        "201",
+        "--max-nodes",
+        "2000",
+        "--tol",
+        "2e-07",
+        "--angular",
+        "224",
+        "--fixed",
+        "--restart",
+        "plateau_core_work/runs/window-short-moment-q002-m4-lam0.json.gz",
+        "--analytic-parameters",
+        "--core-basis",
+        "moment-homotopy",
+        "--check-parameters"
+      ],
+      "completed_rows": [
+        {
+          "homotopy": 0.0,
+          "q": 0.002,
+          "modes": 6,
+          "success": true,
+          "nodes": 734,
+          "max_rms": 1.9917658837239218e-07,
+          "max_bc": 1.8520118771903071e-10,
+          "message": "The algorithm converged to the desired accuracy.",
+          "metric_l1": 6.392854606952645e-10,
+          "flow_defect": 4.367944108374554e-10,
+          "darboux_l1": 2.651074144090568e-08,
+          "kappa_sample": 7.5421363861253266,
+          "height_max": 1.389928557693605,
+          "radius_max": 1.1268692215825753,
+          "root_min": 0.06426049947906809,
+          "support_amplitude": 0.002003776170939374,
+          "terminal_height_coeff_max": 7.273729433700695e-05,
+          "profile_stop_acceleration": 2.895180987993422,
+          "checkpoint": {
+            "file": "runs/window-short-lam0-fixed-m6-lam0.json.gz",
+            "bytes": 10161,
+            "sha256": "46d8bb1b475fd6ed3a74b62f6abdf9371d6bcbd961d4e08dbe4dcd0c31de22c8"
+          },
+          "checkpoint_solver_success": true,
+          "external_array_digests": [
+            {
+              "file": "runs/window-short-lam0-fixed-m6-lam0_coeff_00.npy.gz",
+              "bytes": 651638,
+              "sha256": "6bd5708c8023d9da6f46a614e3554b700426bc4ceb15145064363130e4fe0558"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

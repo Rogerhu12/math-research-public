@@ -1,0 +1,56 @@
+{
+  "scope": "New source and fixed metric definitions only. Requires the previously published plateau source/recovery closure.",
+  "files": [
+    {
+      "path": "consumed_window_loop.py",
+      "bytes": 6889,
+      "sha256": "3f32d95b4ab6ed96e07915da879003ce444d729efce3055a27b8891aa4cad6e5"
+    },
+    {
+      "path": "window_loop_short_scan.py",
+      "bytes": 2096,
+      "sha256": "3854c2660e9a9369bbd67dda72dff222f1c205c44d2f7bafc41cc9679cb6ba80"
+    },
+    {
+      "path": "window_prefix.py",
+      "bytes": 12341,
+      "sha256": "f434ceb79a7415fe3379def6dd7844da83978b83f2cba16ca02b12b015740534"
+    },
+    {
+      "path": "exact_lift_parameter_jac.py",
+      "bytes": 4416,
+      "sha256": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+    },
+    {
+      "path": "homotopy_plateau_core.py",
+      "bytes": 3234,
+      "sha256": "4cfa25b317a26792733ffa80b5e0dd7d8b8d3859a5773daeb36eef38d20e6a64"
+    },
+    {
+      "path": "window-loop-root-parameters.json",
+      "bytes": 263,
+      "sha256": "28bcfd046438f9cb65e3505107d796ef324c1924ca6b250f2e6387ae31878944"
+    },
+    {
+      "path": "window-loop-short-parameters.json",
+      "bytes": 278,
+      "sha256": "aec042e14fd7669039d4f4a51848d345a6e5a07abe068beaa39735e0a0754dde"
+    },
+    {
+      "path": "window-loop-frozen-lam0-m4.json",
+      "bytes": 278,
+      "sha256": "6f03aab16bca5db4d6bbca6ac8bb423f08d41f0026b95208d16b82191f322d34"
+    },
+    {
+      "path": "window_loop_completed_runs.json",
+      "bytes": 21867,
+      "sha256": "a1cee4dae150955c19a576c30aa12f212615d43f4c3cee8cd997fe1176c44d69"
+    }
+  ],
+  "total_bytes": 57590,
+  "published_note": {
+    "path": "notes/2026-11-17-window-loop-actual-prefix.md",
+    "sha256": "afbc9230a55824b4a962a7a5f6147a74271597b13204ac7d11b5ebf966028c9e"
+  },
+  "original_manifest_sha256": "36458dac1192efe918573715993b2623b3a8969d0fe0a916d12e1782a0a11f2b"
+}
