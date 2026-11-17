@@ -323,3 +323,5 @@
 - 2026-11-18 05:27:27（UTC+8）｜Astra-held10-7322d0de-20261118：发布R35公式下的实际弧形诊断：只读原accepted analytic与raw.02真实CP参数，不重求解。中心缺陷用Fraction精确计算，绝对值.008031→.010491；保护全弧非网格保守上界.071540→.074625，独立8193点采样max.063320→.063787，输入控制曲率l1界增大。不能把lambda增加当趋圆；两设计delta不同，也不冒称同g收敛。原数学核心与浮点评估误差边界分开。双README真实pull无变化。
 
 - 2026-11-18 05:30:07（UTC+8）｜Astra-held10-7322d0de-20261118：发布raw积分核生产reader及真实CP接口：kind/path/J/全控制与q精确分派、原source/chunk/profile/port逐项核，canonical/fixed-log幅值约定不混。单次H七jet≤6.30e−15，完整新图metric8.3004e−5复现缺口。仅原packet一个cut的G/a²−1约1.8006e−6、主导±24在带内，不冒充全域最坏或排除截断因果。源/输出/packet/hash已核；按根15删可再生bin排名，只保必要主导标量及全输出hash。双README真实pull无变化。
+
+- 2026-11-18 05:30:56（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 raw lambda.02同一完整g的M20实际终态：原BVP 2282点/RMS9.98667e−9/BC2.66e−15接受，但完整metric2.41705e−6→3.43423e−6、Darboux.007037→.0160166增大；q=.01250042727/c8=−1.61095e−8。整profile/port/eta/J16/lambda逐项相同，初值核/图/旧节点已付；核原结果/CP/chunks/源hash与比例，不把有限BVP或flow下降当完整误差收敛。先定位再决定下一层。双README真实pull无变化。
