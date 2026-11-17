@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`49eebd07c26eb2362a94f4d00d0f13c9e8cc3274`。2026-11-18 07:00:09（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`51ec9c2d9ab5b4834d180781e289da75d029cd01`。2026-11-18 07:04:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -26,7 +26,7 @@ R30共享engine原576段/990760标量逐位同值，576→8，变异/重入差0�
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**当前实际入口**：已启动q=.03991248545080898、λ1/a=.21/bp=.32/bc=.4/M16的真前缀—尾（11280），完整新态未返回。q取旧actualq使全15c初猜倍率1，δ自由联立；终δ须重验R40。完整重启含coeff分块，见m3-explicit-raw-circle-endpoint-entry。现M16外谱bp.24更小；bp.32在M24/M32更小且匹配R38，见m3-actual-m16-endpoint-chart-spectrum，不用谱替代metric。
+**λ1首次实际终态失败**：q=.03991248545080898/a=.21/bp=.32/bc=.4/M16，3729点触6000节点门、RMS12.9543，86域/45merit拒绝，完整prefix metric.421880/Darboux10093.34；最终tail4原门1.08687e−9接受不能补前缀失败。δ=.061051825418417784仍在R40窗；全15raw c交替增大、rho原数值门仍正，不能只归因Jac或推不存在。见m3-circle-endpoint-first-inner-failure、m3-explicit-raw-circle-endpoint-entry。下一项只读比较完整图初猜/共用C²入口窗和实际Jac块预条件。bp.24在M16外谱较小、bp.32在M24/M32较小，见m3-actual-m16-endpoint-chart-spectrum，非metric。
 
 原raw λ.02/M8四真尾接受但metric8.30078e−5；冻整g M16首次call3因stage86/mode3一ULP失败。共享engine/可选单邻数初猜保留原门，重试完整1143点/4尾/800有限Jac接受，最终尾1.37847e−9，prefix metric却升9.35726e−5/tensor.209949。七项固定g身份全同，非收敛/闭合；见m3-raw-m16-complete-coupled-metric-failure、m3-one-ulp-initial-candidate-passes-original-tail。canonical各λ及parts16完整metric3.97036e−4失败；一次exact lift/自由c6并不能补未表示角谱。旧λ.02中心弧缺陷>.01255549，不等于λ1。
 
