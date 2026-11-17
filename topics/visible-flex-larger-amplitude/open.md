@@ -112,3 +112,5 @@ R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除�
 [同父较早.8/.9截面](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)完整真实2jet已读，w_r为负，可作新尾入口；低z过早圆化会遮held，仍须整像检查。直接C²高度样条/真实径向Gram优化与weighted BVP并行；核心R3目标homotopy仍未接受，不把只定前三模当完整R3核心。
 
 [完整加权tail Jacobian](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)用全DFT卷积与均值梯度运输，真实三态M112零扩展比较相对1.09e−14、该次171.7×；非M112接受或全solver提速承诺。同源有限far列/可选y过零chart均显式记录，仍保S/D/L/N及全几何责任；短bridge真实幅度延拓继续。
+
+[R632实际C²回头盖](results/R632-c2-return-cap-parallel-body-and-diameter.md)已真生成两个有边组件；补底盘后为凸平行体，证明其reach准确ρ及全部同盖/跨盖法向弦，真实参数组件diam有有理包围。活动体—盖与活动体自身、真flat二jet/高度仍未付，组件不是闭面。

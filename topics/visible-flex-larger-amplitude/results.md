@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R632（已证明，实际固定组件）**：[C²半圆回头盖、凸平行体与直径](results/R632-c2-return-cap-parallel-body-and-diameter.md)：具体ramp内偏移为凸实体，补底闭面reach准确ρ，全部同盖与H≥ρ时跨盖法向弦均付；完整六jet/轴点图、真实组件OBJ源及有理diam包围。活动体接合、剩余全点对和完整闭族仍未付。
+
 - **R631（已证明，真实几何构造）**：[积分K高度、角读出与C²径向映射](results/R631-compatible-height-actual-geometry-and-C2-radial-map.md)：保存K的C¹插值可积分成C²兼容高度；径向frame/坐标积分给C²映射及真实Gram，无需h第三径向导数。curl经两次积分控制角度量误差，实际Gram正定/嵌入/reach仍须检查。
 
 - **R630（已证明，固定物理角接口）**：[P̃=ρP动态均值及深边界换角](results/R630-fixed-physical-angle-dynamic-mean-and-deep-boundary.md)：完整QρB链式零模、整K行投影、同一材料度量与高度规范；深端用密集拉回或准确有限广义角谱，不能误用physical对角模。附真实M112 cut逐模转换源，非新闭尾。
