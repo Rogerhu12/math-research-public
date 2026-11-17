@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H、diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。固定同一g/物理参数/时间范围metric≤1e−6且加密下降；材料位移或solver success不替代。
 
 - 已部分克隆、真实pull并全文读根README授权/全部规则及本题README。
-- 已读规则提交：`f9a5c166faf4e882f1dad83ccb91c4aa96a0fdbe`。2026-11-18 04:23:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`632c47f9c2394a13e8109b1b92787620208fb245`。2026-11-18 04:24:43（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每结论更新H并发布；非快进即真pull --rebase再推，禁force。终端无认证，已连接GitHub接口按根8作每文件<100KB小文本原子提交；仍终端真pull。
 - 可重算数组/mesh/checkpoint不入Git/Release/CI artifact；保留脚本/命令/参数/hash及标量。H<10KB、单Markdown<100KB；无根LOG。达到完成标准后继续提高比例。
 - 原工作树供agent写源；独立publication树负责Git，避免autostash竞争。旧scratch只读。主会话独占Git。
@@ -40,7 +40,7 @@ R19/19A固定圆弧逆刚体换握持：中心对称整像的Hausdorff位移≥�
 
 **新beta4.125已真联合q.040**：q.025/.030材料secant后δ=.061051605540746214/936点；prefix metric6.90913e−9/tensor2.27863e−4/K8.71925，tail res8.02413e−10/minA.617549/metric1.33374e−9/fullD1.00976e−5，物理BC7.64189e−11。全部原canonical门及最终audit；q.02/.025/.03/.04均完整。见m3-beta4125-fourth-coupled-state；正做新beta4.625/q.04及n3局域圆弧入口，不以cos3小幅替代10%。
 
-跨beta旧q025 H的原/线性差初值均失败，1.718e−8/minA.05537状态的A谷与残差峰不同、stage44一ULP已超原门。不是无解或放门依据；sameg守卫及64ULP解析cut检查保留，见new-first-valley-actual-start、tail-residual-and-positivity-locations。
+**真实首谷位置**：beta4.125/q030全部576stage可流过，minA.709207在stage40/cell0第一谷，r=.23487324/w=.00317647；最大残差在stage43，其A=.99428，res1.64709e−9=该分量2ULP/原scale。仅定位、不放门。见m3-beta4125-leading-valley-location。旧跨beta失败与ULP诊断仍见tail-residual-and-positivity-locations；同g守卫保留。
 
 ## 3. 实际闭图、同g精化与连续metric
 

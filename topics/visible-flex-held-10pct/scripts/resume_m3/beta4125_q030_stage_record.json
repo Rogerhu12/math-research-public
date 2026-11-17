@@ -1,0 +1,110 @@
+{
+  "scope": "Read-only finite RK and local-root stage diagnostic. The input may be an explicitly failed global trial; this is neither a new solve nor acceptance.",
+  "inputAccepted": true,
+  "inputFailure": null,
+  "source_sha256": "48ba63b5f3c01aafc4d412a9a0748742d4c2832afc145c2213827f035e9a99fd",
+  "input_sha256": "9ddbb236732b4754bb95b1bc09e1238ae74ff668888f67239fdf0090b0793c09",
+  "stages": 576,
+  "failedStages": [],
+  "lowestA": [
+    {
+      "stage": 40,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "rawLeft": 0.875,
+      "rawRight": 1,
+      "minA": 0.7092065323708037,
+      "minD": 0.9999918668354009,
+      "minS": 0.9999999995192366,
+      "maxRootRelative": 6.79001568698973e-14,
+      "where": {
+        "x": 0.90625,
+        "r": 0.23487324067994897,
+        "w": 0.0031764658513874122
+      },
+      "error": null,
+      "normalizedResidual": 2.211301136394241e-10,
+      "component": 8,
+      "stateLinf": 267.6457083674561,
+      "normalizationScale": 0.0005141173938299257
+    },
+    {
+      "stage": 39,
+      "rawCell": 0,
+      "rawSegment": 4,
+      "rawLeft": 0,
+      "rawRight": 0.125,
+      "minA": 0.7093044784679992,
+      "minD": 0.9999918891232201,
+      "minS": 0.9999999913982562,
+      "maxRootRelative": 7.602281048638437e-14,
+      "where": {
+        "x": 0,
+        "r": 0.2348980197641834,
+        "w": 0.0031760839246167357
+      },
+      "error": null,
+      "normalizedResidual": 5.3665305669592054e-11,
+      "component": 8,
+      "stateLinf": 231.00148339038864,
+      "normalizationScale": 0.002118442004627088
+    }
+  ],
+  "largestResidual": [
+    {
+      "stage": 43,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "rawLeft": 0.5,
+      "rawRight": 0.625,
+      "minA": 0.9942821461750019,
+      "minD": 0.9999924431664297,
+      "minS": 0.9999999999323227,
+      "maxRootRelative": 2.191967535568325e-16,
+      "where": {
+        "x": 1,
+        "r": 0.2317575362053437,
+        "w": 0.0227622633093053
+      },
+      "error": null,
+      "normalizedResidual": 1.647094021936774e-09,
+      "component": 8,
+      "stateLinf": 288.21468834293165,
+      "normalizationScale": 6.90226764273813e-05,
+      "residualComponentStateValue": -288.21468834293165,
+      "residualComponentUlp": 5.684341886080802e-14,
+      "residualComponentUlpDividedByScale": 8.23547010968387e-10,
+      "residualInComponentUlps": 2.0
+    }
+  ],
+  "largestRootResidual": [
+    {
+      "stage": 50,
+      "rawCell": 0,
+      "rawSegment": 2,
+      "rawLeft": 0.625,
+      "rawRight": 0.75,
+      "minA": 0.999914197761991,
+      "minD": 0.9999868945112272,
+      "minS": 0.9999999999298428,
+      "maxRootRelative": 7.997307993149204e-14,
+      "where": {
+        "x": 1,
+        "r": 0.18630775573970118,
+        "w": 0.4
+      },
+      "error": null,
+      "normalizedResidual": 3.016216111916682e-10,
+      "component": 12,
+      "stateLinf": 152.7259545289698,
+      "normalizationScale": 0.00040047616151237415
+    }
+  ],
+  "ulp_annotation": {
+    "scope": "Add exact binary64 component spacing to the read-only stage diagnostic.",
+    "source_sha256": "d87e4f50ee47cb8245339674a6b88e32562b7359956e4a9298ec4042b45222fe",
+    "diagnostic_sha256": "a3f4ae11c88721588515086c5f10bb6f688e86eba2b411cc2b06c73bb2dcccbd"
+  },
+  "unabridged_diagnostic_sha256": "b3c56d91c806da8ae0002677b96c8aa2ed38bb815f5830221dcec62f7117dd3f",
+  "compact_selection": "Only two smallest A stages, maximal global residual, and maximal local-root residual; regenerate rankings from the recorded source and accepted tail."
+}
