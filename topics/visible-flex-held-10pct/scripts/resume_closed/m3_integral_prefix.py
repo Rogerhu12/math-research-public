@@ -27,6 +27,15 @@ from scipy.interpolate import PPoly
 HERE = Path(__file__).resolve().parent
 CLOSED = HERE.parent / 'finite_closure/m3_m8_closed_map'
 ROUND = HERE.parent / 'resume_m3/round_core_lib'
+RAW_ROUND = HERE.parent / 'resume_m3/round_raw_lib'
+RAW_PATH = 'raw-mean-primary-compact-v1'
+CORE_PROTOCOLS = {
+    'exact_m3_local_circle_integral_lift': dict(
+        path=None, library=ROUND, convention='Canonical high support moments'),
+    'exact_m3_raw_local_circle_integral_lift': dict(
+        path=RAW_PATH, library=RAW_ROUND,
+        convention='Raw compact cosines after mean/primary projection; no high-moment inverse'),
+}
 sys.path.insert(0, str(CLOSED))
 from m3_shared_prefix import M3SharedPrefix, M3CartesianPrefix, circle
 from shared_jet import SharedJetQuintic, build_mean
@@ -60,9 +69,11 @@ def _same_recorded_sources(record, paths):
             raise ValueError('Checkpoint source changed: ' + str(path))
 
 
-def round_core_type(library=ROUND):
+def round_core_type(library=ROUND, control_path=None):
     """Use the exact owned core implementation, with every control retained."""
     library = Path(library).resolve()
+    if control_path not in (None, RAW_PATH):
+        raise ValueError('Unsupported integral core control path')
     for name in (path.stem for path in library.glob('*.py')):
         previous = sys.modules.get(name)
         if previous is not None and Path(previous.__file__).resolve().parent != library:
@@ -80,12 +91,14 @@ def round_core_type(library=ROUND):
             value.update(control_family='C4 complementary controls, all support harmonics free',
                          first_free_support_frequency=2*self.base_mode,
                          primary_support_moment_locked=True)
+            if control_path == RAW_PATH:
+                value['control_path'] = RAW_PATH
             return value
     return Core
 
 
 def load_integral_prefix(source_topic, short_bridge, checkpoint, port_path,
-                         angular=512, library=ROUND):
+                         angular=512, library=None):
     """Reconstruct source evaluation only; reject unaccepted or changed inputs.
 
     The physical profile and parameter scales are read literally from the
@@ -95,7 +108,7 @@ def load_integral_prefix(source_topic, short_bridge, checkpoint, port_path,
     global _loaded
     if _loaded:
         raise RuntimeError('Use a fresh process for each source checkpoint')
-    source, library = Path(source_topic).resolve(), Path(library).resolve()
+    source = Path(source_topic).resolve()
     short_bridge, checkpoint = Path(short_bridge).resolve(), Path(checkpoint).resolve()
     record = json.load(gzip.open(checkpoint, 'rt'))
     sys.path.insert(0, str(HERE.parent / 'resume_m3'))
@@ -103,10 +116,22 @@ def load_integral_prefix(source_topic, short_bridge, checkpoint, port_path,
     accepted_anchor(record, checkpoint)
     if record['config']['base_mode'] != 3:
         raise ValueError('An accepted m3 state is required')
-    if (record['config'].get('core_kind') != 'exact_m3_local_circle_integral_lift'
-            or not record['config'].get('exact_core_lift')):
+    kind = record['config'].get('core_kind')
+    if kind not in CORE_PROTOCOLS or not record['config'].get('exact_core_lift'):
         raise ValueError('The checkpoint does not contain the actual integral lift')
+    protocol = CORE_PROTOCOLS[kind]
+    if record.get('core_control_path') != protocol['path']:
+        raise ValueError('core_kind and core_control_path disagree')
+    library = Path(protocol['library'] if library is None else library).resolve()
     settings = dict(record['core_round_settings'])
+    expected_settings = {'halfwidth', 'transition', 'control_transition', 'homotopy',
+                         'center', 'bimodal_eta', 'lock_fundamental',
+                         'coefficient_precision', 'positivity_grid_max'}
+    if set(settings) != expected_settings:
+        raise ValueError('Unreviewed integral core parameter convention')
+    if (settings['center'] != math.pi/3 or settings['bimodal_eta'] != 0.
+            or settings['lock_fundamental'] is not True):
+        raise ValueError('This reader requires the recorded eta=0, locked m3 reflection core')
     if not 0 <= settings['homotopy'] <= 1:
         raise ValueError('Invalid recorded homotopy')
     if bool(record['config'].get('exact_circle_core')) != (settings['homotopy'] == 1):
@@ -115,7 +140,7 @@ def load_integral_prefix(source_topic, short_bridge, checkpoint, port_path,
                 source/'scripts/db6f-prefix-flat-profile.py', short_bridge,
                 *sorted(library.glob('*.py'))]
     _same_recorded_sources(record, required)
-    Core = round_core_type(library)
+    Core = round_core_type(library, protocol['path'])
     adaptive = module('closed_m3_integral_adaptive', required[0])
     module('closed_m3_integral_flat', required[1]).install(adaptive)
     adaptive.old.install_source(source/'repro/source-root')
@@ -141,15 +166,30 @@ def load_integral_prefix(source_topic, short_bridge, checkpoint, port_path,
     par = np.asarray(record['parameters'], float).copy()
     if len(obj.pscale) != obj.M-1 or len(par) != obj.M:
         raise ValueError('Recorded control dimensions are inconsistent')
-    par[0] = math.log(record['actual_primary_amplitude']/obj.q)
+    if record['config']['fixed_metric']:
+        # Preserve the original logarithmic amplitude parameter, avoiding an
+        # unnecessary exp(log(q/q_gauge)) round trip at a refined checkpoint.
+        pass
+    else:
+        if record['actual_primary_amplitude'] != obj.q:
+            raise ValueError('The design checkpoint uses an unreviewed amplitude convention')
+        par[0] = 0.
     obj.initial(par)
     flow = obj.flow(par[0])
     obj.integral_unlifted_geo = unlifted_geo
     actual_controls = np.asarray(record['parameters'][1:])*obj.pscale
+    if obj.support_amplitude != record['actual_primary_amplitude']:
+        raise ValueError('The reader changed the exact recorded primary amplitude')
     if not np.array_equal(np.asarray(obj._core.corrections), actual_controls):
         raise ValueError('The reader changed a physical complementary control')
     if flow.exact_lift_core is not obj._core:
         raise ValueError('The actual reference lift is absent')
+    projection_order = len(actual_controls)+1
+    if (projection_order != obj.M or obj._core.basis.M != projection_order
+            or obj._core.basis.H.shape != (projection_order-1, projection_order+1)):
+        raise ValueError('The source core projection order J is not the recorded BVP M')
+    if protocol['path'] == RAW_PATH and obj._core.basis.summary().get('control_path') != RAW_PATH:
+        raise ValueError('A canonical core was loaded for a raw-path checkpoint')
     # Actual accepted checkpoints may keep the regenerable coefficients in
     # hashed external chunks.  Use their original decoder after the source
     # modules are installed, instead of treating the metadata JSON as a field.
@@ -175,6 +215,11 @@ def load_integral_prefix(source_topic, short_bridge, checkpoint, port_path,
             used[str(path)] = sha(path)
     obj.integral_reader_provenance = dict(
         checkpoint_sha256=sha(checkpoint), port_sha256=sha(port_path),
+        core_kind=kind, core_control_path=protocol['path'],
+        core_projection_order_J=projection_order,
+        core_control_convention=protocol['convention'],
+        library=str(library),
+        library_manifest_sha256=sha(library/'manifest.json') if (library/'manifest.json').is_file() else None,
         core_round_settings=settings, physical_controls=actual_controls.tolist(),
         reference_lift_window=[.5, .9], source_sha256=used,
         actual_tail_acceptance_reused=True, bvp_solves=0)
@@ -319,6 +364,8 @@ class M3IntegralCartesianPrefix(M3CartesianPrefix):
             radial_lift_knots=len(self.lift_rep.x),
             center_angular_third_jet='-T/rho^2 + normal*rho_phi/rho^3',
             nominal_core_coefficients_interpreted_as_fourier=False,
+            core_control_convention=getattr(self.obj, 'integral_reader_provenance', {}).get('core_control_convention', 'Explicit non-solution probe'),
+            core_projection_order_J=len(self.core.corrections)+1,
             mathematical_core='Exact integral/moment-defined core with recorded parameters; numerical evaluation errors remain separate',
             core_integrals_and_inverse='Source numerical evaluator; rigorous error remains to be bounded',
             exact_c2_reason='Shared radial two-jets, actual smooth angular core, and whole-function endpoint Hermite identities',

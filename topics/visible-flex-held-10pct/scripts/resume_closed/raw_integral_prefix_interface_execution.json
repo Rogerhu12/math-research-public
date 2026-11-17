@@ -1,0 +1,232 @@
+{
+  "scope": "Explicit raw/canonical/J source dispatch, actual raw accepted chunk reader, and one named cut FFT; no whole metric or geometric certificate.",
+  "source_sha256": {
+    "scripts/resume_closed/m3_integral_prefix.py": "e2cfa779d94abbc1ecb2c33bb8c3ef4f6deff5c6879abfd972ff8412d3d6fdad",
+    "scripts/resume_closed/audit_integral_prefix.py": "5d7e068944b1ff7ec9c7f91facf94a15c7e1111e0ff8a0a64f4aece3036faec7",
+    "scripts/resume_closed/diagnose_integral_cut_spectrum.py": "c555dc7a9efa8a7a01aa2c556cdab85a93f0ca5139a6b3bf26946b302da5e973"
+  },
+  "source": {
+    "checkpoint_sha256": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+    "port_sha256": "3e83072f020f3c61ee963afcee5eaf3489b2de557b7598460025099943b0d0d9",
+    "core_kind": "exact_m3_raw_local_circle_integral_lift",
+    "core_control_path": "raw-mean-primary-compact-v1",
+    "core_projection_order_J": 8,
+    "core_control_convention": "Raw compact cosines after mean/primary projection; no high-moment inverse",
+    "library": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib",
+    "library_manifest_sha256": "4b9d71971520f2b3fe655d0a39a2715d7d6f551f1913f5480bfc0931d250a4fd",
+    "core_round_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.08,
+      "control_transition": 0.16,
+      "homotopy": 0.02,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "physical_controls": [
+      0.00021219545219261905,
+      -1.261404203834175e-05,
+      -5.526945986750603e-07,
+      1.2604952214177558e-06,
+      -8.158694696605352e-07,
+      7.835964812029833e-07,
+      5.63247508938343e-06
+    ],
+    "reference_lift_window": [
+      0.5,
+      0.9
+    ],
+    "source_sha256": {
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_integral_prefix.py": "e2cfa779d94abbc1ecb2c33bb8c3ef4f6deff5c6879abfd972ff8412d3d6fdad",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/m3_shared_prefix.py": "39426beb80c26b6899c467413470447417bfd114beac8f59a3bc00c0d2c2a491",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/shared_jet.py": "0201e9037aa3a35b3d58ffaaf2121d02bb2b26b726fa6218da5f2d71bb4f6dc0",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_smallcut_secant.py": "2194e692f9ad08f8b1091e7b52a025713f325bb41a879eb6274b2f446da8d37a",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/notes/repo_scan_gentle.py": "c8a49714f838119be8e300f83bedaa02ee0f106e57ab936803b01f36fe685604",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c"
+    },
+    "actual_tail_acceptance_reused": true,
+    "bvp_solves": 0
+  },
+  "audit": {
+    "command": [
+      "python",
+      "topics/visible-flex-held-10pct/scripts/resume_closed/audit_integral_prefix.py",
+      "--source-topic",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+      "--short-bridge",
+      "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+      "--checkpoint",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+      "--port",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/port.json",
+      "--angular",
+      "256",
+      "--radial",
+      "65",
+      "--outdir",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface"
+    ],
+    "observed_exit_code": 0,
+    "tool_session": 91234,
+    "seconds": 4.840300048999779,
+    "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json",
+    "output_sha256": "ebb28def346a47120d422e4ae5cbf13f2e297f2d68ee30d366d5d3bed8ad2161",
+    "packet_sha256": "12ce9eb20ae36cd4bc3af3d9781c0706b2acc816417b39f5535bec3a69805b9c",
+    "results": {
+      "radial_samples": 2070,
+      "angular_samples": 256,
+      "sampled_single_source_lift_identity_errors": {
+        "pos": 1.392450198464416e-16,
+        "s1": 3.489400059837301e-16,
+        "s2": 6.29040813658228e-15,
+        "p1": 1.4075110770666488e-16,
+        "p2": 5.20146802657662e-16,
+        "sp": 6.712885818939363e-16,
+        "spp": 4.5306640387067424e-15
+      },
+      "sampled_source_to_raw_finite_jet_changes": {
+        "pos": 1.2218414927697939e-15,
+        "s1": 8.773369392774895e-09,
+        "s2": 2.8644908445230044e-08,
+        "p1": 1.3877790518319624e-15,
+        "p2": 4.343015967208724e-15,
+        "sp": 8.472517798452373e-09
+      },
+      "sampled_source_to_repaired_finite_jet_changes": {
+        "pos": 8.113964833356135e-09,
+        "s1": 7.958448858709499e-07,
+        "s2": 0.00029351889023476583,
+        "p1": 2.482905326857685e-07,
+        "p2": 7.613541026405046e-06,
+        "sp": 2.4353159271756525e-05
+      },
+      "center_delta_angular_by_radial_sample_norms": [
+        [
+          6.473657049138938e-16,
+          2.55351295663786e-15,
+          0.00029351889023467037
+        ],
+        [
+          1.4602703977091186e-15,
+          5.616713667277202e-14,
+          0.008981793844754723
+        ],
+        [
+          1.8756198598693687e-14,
+          1.298304229932263e-12,
+          0.2754162840603355
+        ]
+      ],
+      "center_numerical_identity": {
+        "X": 4.443059973708341e-16,
+        "Fs": 4.440892098500626e-16,
+        "Fss": 1.7763568394002505e-15
+      },
+      "numerical_profile_metric_fft_component_l1": 8.300395301657644e-05,
+      "true_integral_g_error_budget_complete": false,
+      "whole_closed_embedding_or_reach_certified": false,
+      "bvp_solves": 0
+    }
+  },
+  "cut_spectrum": {
+    "command": [
+      "python",
+      "topics/visible-flex-held-10pct/scripts/resume_closed/diagnose_integral_cut_spectrum.py",
+      "--data",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz",
+      "--prefix-audit",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json",
+      "--checkpoint",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+      "--out",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_cut_spectrum.json"
+    ],
+    "observed_exit_code": 0,
+    "tool_chunk": "ca8f5d",
+    "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_cut_spectrum.json",
+    "output_sha256": "29fbd9e26e45ed3b1c1f260ab735dec9574636cb48baf259699c8949684b669b",
+    "state_scalar_cutoff": 24,
+    "radial_slices": 1,
+    "global_maximum_claimed": false,
+    "components": [
+      {
+        "component": "E_minus_1",
+        "material_s": 1.3603133321372538,
+        "total_finite_fft_l1": 3.8773090045613616e-09,
+        "represented_band_l1": 4.10975155570672e-10,
+        "omitted_band_l1": 3.4663324571365375e-09,
+        "non_threefold_bins_l1": 1.391854152751787e-15,
+        "maximum_omitted_abs_frequency_above_floor": 48,
+        "dominant_omitted_frequency": -27,
+        "dominant_omitted_amplitude": 1.6451554133250342e-09,
+        "dominant_all_frequency": -27,
+        "dominant_all_amplitude": 1.6451554133250342e-09,
+        "second_distinct_abs_frequency": 24,
+        "second_distinct_abs_frequency_amplitude": 1.9496576323785572e-10
+      },
+      {
+        "component": "F_over_a",
+        "material_s": 1.3603133321372538,
+        "total_finite_fft_l1": 3.2830792165154143e-10,
+        "represented_band_l1": 9.62737453898803e-11,
+        "omitted_band_l1": 2.3203337601823397e-10,
+        "non_threefold_bins_l1": 8.002434272080305e-16,
+        "maximum_omitted_abs_frequency_above_floor": 48,
+        "dominant_omitted_frequency": -27,
+        "dominant_omitted_amplitude": 1.0839783870003533e-10,
+        "dominant_all_frequency": -27,
+        "dominant_all_amplitude": 1.0839783870003533e-10,
+        "second_distinct_abs_frequency": 24,
+        "second_distinct_abs_frequency_amplitude": 4.5493584125219154e-11
+      },
+      {
+        "component": "G_over_a2_minus_1",
+        "material_s": 1.3603133321372538,
+        "total_finite_fft_l1": 1.800633765420591e-06,
+        "represented_band_l1": 1.8000726243038281e-06,
+        "omitted_band_l1": 5.611389124367478e-10,
+        "non_threefold_bins_l1": 2.204325927637696e-15,
+        "maximum_omitted_abs_frequency_above_floor": 48,
+        "dominant_omitted_frequency": 27,
+        "dominant_omitted_amplitude": 2.653962441850003e-10,
+        "dominant_all_frequency": -24,
+        "dominant_all_amplitude": 5.463854546219987e-07,
+        "second_distinct_abs_frequency": 21,
+        "second_distinct_abs_frequency_amplitude": 2.0752053671275994e-07
+      }
+    ]
+  },
+  "limitations": "The cut is not the global worst slice. Its in-band dominance does not exclude state truncation as a cause. No BVP, interval boxes, true-g transfer or fixed-g convergence was performed.",
+  "unabridged_execution_record_sha256": "3d1e4fe6f7b344ae708894ddf230585155fe36676d23ab54c02c0cec7acd3979",
+  "regenerable_rank_fields_omitted": [
+    "cut_spectrum.components[*].largest_bins"
+  ]
+}

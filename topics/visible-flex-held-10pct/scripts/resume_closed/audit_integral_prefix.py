@@ -32,7 +32,8 @@ def main():
         parser.add_argument('--'+key, type=Path, required=True)
     for key in ('tail-manifest', 'tail-reader', 'cap-source'):
         parser.add_argument('--'+key, type=Path)
-    parser.add_argument('--library', type=Path, default=ROUND)
+    parser.add_argument('--library', type=Path,
+                        help='Optional source snapshot; otherwise dispatched by exact core_kind/path')
     parser.add_argument('--angular', type=int, default=512)
     parser.add_argument('--radial', type=int, default=513)
     parser.add_argument('--center-width', type=float, default=.04)
