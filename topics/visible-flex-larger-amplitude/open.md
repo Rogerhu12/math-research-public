@@ -101,7 +101,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 ## 7. 本并行会话的实际数学与几何路线
 
-此前完整逐字保[dc271ec1固定open](https://github.com/Rogerhu12/math-research-public/blob/dc271ec1efc2688e74cdf0ab9001c17c503ea74f/topics/visible-flex-larger-amplitude/open.md)，其所链dd08f3eb、b3274c8d、83262fdc含更早全文；所有旧参数/失败/源/SHA保留。只改本§7，原§1–6保持。本地计算，原Actions唯一读者/责任不变；R623–636见[results](results.md)。
+此前全文保[dc271ec1固定open](https://github.com/Rogerhu12/math-research-public/blob/dc271ec1efc2688e74cdf0ab9001c17c503ea74f/topics/visible-flex-larger-amplitude/open.md)，其所链dd08f3eb、b3274c8d、83262fdc含更早全文；旧参数/失败/源/SHA保留，仅改§7。本地计算，原Actions唯一读者/责任不变；R623–636见[results](results.md)。
 
 **真实前缀。** [原g .993/.995](notes/2026-11-17-parallel-numerical-0995-continuation.md)完整M112实际Gram2.587e−7/4.001e−7；.999大步1113节点/RMS.004301超预算失败。[.992角阶](notes/2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)M112/M128实际2.590e−7/6.467e−7，非收敛证据。[三控制](notes/2026-11-17-parallel-numerical-core-gram-response.md)gap.960101/Gram5.177e−7；[六控制](notes/2026-11-17-parallel-numerical-core-six-responses.md)小步接受却Gram1.881e−5，纠正失败。[径向增长](notes/2026-11-17-parallel-numerical-radial-growth-design.md)c=.95/.995失败；[.8/.9节点2jet](notes/2026-11-17-parallel-numerical-earlier-prefix-cuts.md)保全部模式。失败场不作父。
 
@@ -109,7 +109,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [内向新标量](notes/2026-11-17-parallel-numerical-inward-scalar-budget.md)由真.995接κ1.5及两.02 ramp到参考s2.284717/R.531879平2jet，H1.8固定材料chord样本余.072629，κ1.75/2失败；参考盘D3.753875非完整D。实际到.997的M112/M128真接受却Gram2.754e−6/5.879e−6，末端截尾未降；.998完整求解与.999初猜均失败。[R634](results/R634-inward-fixed-material-full-angle-chord-budget.md)付全部112模/有理三角/Lipschitz全角chord<1.229702、余>.060014，[R636](results/R636-certified-inward-reference-radius-and-length.md)以64中点/整数三角/显式余项严格结清R/L，余>.0600146467；非实际尾。
 
-**新有限边界。** [移动框架Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)含实际T_s；[M112真解](notes/2026-11-17-parallel-geometry-schur-m112-accepted.md)Gram2.421e−6仍超限，M128真解中。[遗漏Vz谱](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)113–221模109零行真解中；[全段可达选择](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)在真实509胞元/338ODE/229浅行上固定27R/46T/36Z，约化cond5.46e11→2.37e8，尚未新BVP。[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保全部327值的109可达组合，cond6.85e7、实际父目标末修正6.807e−4；unit选行虽cond好却需.007956修正。线性剩余4.47e−8非非线性不存在结论，尚未新BVP。所有新边界均非原tail DN。固定a依R240共用材料规范，rho不必同；实际共同材料六jet精化未付。
+**新有限边界。** [移动框架Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)含实际T_s；[M112真解](notes/2026-11-17-parallel-geometry-schur-m112-accepted.md)Gram2.421e−6超限；[M128终态](notes/2026-11-17-parallel-geometry-schur-m128-not-accepted.md)1423节点/RMS3.592e−4，再加2610超2000失败。[遗漏Vz谱](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)113–221模109零行真解中；[全段可达选择](notes/2026-11-17-parallel-numerical-reachable-omitted-rows.md)在真实509胞元/338ODE/229浅行上固定27R/46T/36Z，约化cond5.46e11→2.37e8，尚未新BVP。[固定SVD组合](notes/2026-11-17-parallel-numerical-svd-omitted-boundary.md)保全部327值的109可达组合，cond6.85e7、实际父目标末修正6.807e−4；unit选行虽cond好却需.007956修正。线性剩余4.47e−8非非线性不存在结论，尚未新BVP。所有新边界均非原tail DN。固定a依R240共用材料规范，rho不必同；实际共同材料六jet精化未付。
 
 [短IVP目标诊断](notes/2026-11-17-parallel-geometry-short-ivp-target-diagnostic.md)真.995沿完整M112 RHS到.997，两容差末系数差1.93e−13；相对Taylor2系数差5.779e−8/Schur目标差7.519e−9。固定原core rho、8192角实际末Gram2.111e−6，主项是angular−2.108e−6；更准确目标自身未过门，不排除完整BVP后改善。未改任何已接受边界，也未冒严格积分包围或闭场。
 
