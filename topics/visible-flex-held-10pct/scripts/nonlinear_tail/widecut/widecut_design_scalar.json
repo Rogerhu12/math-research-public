@@ -1,0 +1,341 @@
+{
+  "scope": "Finite physical metric design and sampled linear diagnostics, not nonlinear capacity bounds.",
+  "optimizations": [
+    {
+      "source": "widecut_m2_opt.json",
+      "sha256": "0ac16372ddf2b1622b768256b3f450317f9df2a2a1fbb334d45d3064a24a8b1e",
+      "evaluations": 438,
+      "mode": 2,
+      "steps": 128,
+      "far": 48,
+      "number": 7,
+      "objectivePower": 32,
+      "best": {
+        "iteration": 432,
+        "label": "coordinate 5 step 0.015625",
+        "x": [
+          1.90625,
+          1.671875,
+          3.21875,
+          5.03125,
+          5.640625,
+          5.65625,
+          4
+        ],
+        "score": -9.667064624867075,
+        "threshold": 6.467157783229536e-05,
+        "gradientThreshold": 0.17499999999999394,
+        "cutSlope": 9.868059742917017,
+        "where": {
+          "cell": 0,
+          "segment": 3,
+          "x": 0.9921875,
+          "r": 0.27651598463248117,
+          "w": 0.0012952499927620926,
+          "f": 0.0022266861251048005,
+          "fr": 20.060328660110905,
+          "baseT": 0.0003581567262241182,
+          "linearT": 5.5380854809647735
+        },
+        "stats": {
+          "rCut": 0.35,
+          "rCuff": 0.09999999999999998,
+          "oldCut": 0.10112590180741263,
+          "wCut": 0.3,
+          "width": 0.25,
+          "curvatureBound": 8,
+          "alpha": 55.757153912642316,
+          "actualWidth": 0.25,
+          "minimumWarpWidth": 0.18303644099103325,
+          "meridianLength": 0.2532145717640023,
+          "heightSpan": 0.026516881437373362,
+          "cutRadiusError": 0,
+          "cutSlopeError": -1.0547118733938987e-15,
+          "cutSecondError": 2.3092638912203256e-14,
+          "deepRadiusError": 0,
+          "deepSlopeError": 0,
+          "deepSecondError": 0,
+          "positiveWarpWeights": [
+            [
+              1,
+              0.5,
+              3,
+              0.05,
+              1
+            ]
+          ]
+        }
+      },
+      "initial": {
+        "iteration": 0,
+        "label": "input",
+        "x": [
+          4.25,
+          3.9375,
+          4.9375,
+          4.9375,
+          8.6875,
+          7.5625,
+          6.6875
+        ],
+        "score": -24.73237199070371,
+        "threshold": 1.8149610950098428e-11,
+        "gradientThreshold": 0.17500000000000726,
+        "cutSlope": 10.204858365411098,
+        "where": {
+          "cell": 7,
+          "segment": 3,
+          "x": 1,
+          "r": 0.10200238623704468,
+          "w": 2.4243643728603468e-12,
+          "f": -7.278799467991405e-09,
+          "fr": -0.1335769433342875,
+          "baseT": 2.472909511398317e-13,
+          "linearT": -0.01362513785114995
+        },
+        "stats": {
+          "rCut": 0.35,
+          "rCuff": 0.09999999999999998,
+          "oldCut": 0.10112590180741263,
+          "wCut": 0.3,
+          "width": 0.25,
+          "curvatureBound": 8,
+          "alpha": 55.97502545410633,
+          "actualWidth": 0.24999999999999994,
+          "minimumWarpWidth": 0.1827827361333843,
+          "meridianLength": 0.2532234148436554,
+          "heightSpan": 0.027037232920539903,
+          "cutRadiusError": -5.551115123125783e-17,
+          "cutSlopeError": -1.0547118733938987e-15,
+          "cutSecondError": 2.3092638912203256e-14,
+          "deepRadiusError": 0,
+          "deepSlopeError": 0,
+          "deepSecondError": 0,
+          "positiveWarpWeights": [
+            [
+              1,
+              0.5,
+              3,
+              0.05,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "source": "widecut_boosted_m2_opt.json",
+      "sha256": "18fef5c7db3474d218f0c092b78370c7b3cfb2a763fbd2e352c2abc59dfd85c0",
+      "evaluations": 402,
+      "mode": 2,
+      "steps": 128,
+      "far": 48,
+      "number": 7,
+      "objectivePower": 32,
+      "best": {
+        "iteration": 398,
+        "label": "coordinate 6 step 0.015625",
+        "x": [
+          2.21875,
+          1.984375,
+          2.671875,
+          3.140625,
+          5.796875,
+          5.609375,
+          4.296875
+        ],
+        "score": -9.930486197299537,
+        "threshold": 5.001194296687667e-05,
+        "gradientThreshold": 0.17500000000000482,
+        "cutSlope": 10.009534902184601,
+        "where": {
+          "cell": 0,
+          "segment": 3,
+          "x": 1,
+          "r": 0.2972129947913087,
+          "w": 0.001770310239261452,
+          "f": 0.007737846026918048,
+          "fr": 35.5018887595334,
+          "baseT": 0.0005261575589436964,
+          "linearT": 10.520638226196791
+        },
+        "stats": {
+          "rCut": 0.35,
+          "rCuff": 0.09999999999999998,
+          "oldCut": 0.10112590180741263,
+          "wCut": 0.3,
+          "width": 0.25,
+          "curvatureBound": 10,
+          "alpha": 34.29375792410062,
+          "actualWidth": 0.2500000000000001,
+          "minimumWarpWidth": 0.2094383152408354,
+          "meridianLength": 0.25854122877286867,
+          "heightSpan": 0.045111433950035876,
+          "cutRadiusError": 1.1102230246251565e-16,
+          "cutSlopeError": -1.0547118733938987e-15,
+          "cutSecondError": 2.3092638912203256e-14,
+          "deepRadiusError": 0,
+          "deepSlopeError": 0,
+          "deepSecondError": 0,
+          "positiveWarpWeights": [
+            [
+              1,
+              0.5,
+              3,
+              0.05,
+              1
+            ]
+          ]
+        }
+      },
+      "initial": {
+        "iteration": 0,
+        "label": "input",
+        "x": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "score": -11.135617608610305,
+        "threshold": 1.458353203578948e-05,
+        "gradientThreshold": 0.1750000000000069,
+        "cutSlope": 9.945222860636493,
+        "where": {
+          "cell": 0,
+          "segment": 3,
+          "x": 1,
+          "r": 0.2972970658641855,
+          "w": 0.0005233027071684633,
+          "f": 0.009296681474021788,
+          "fr": 36.00820804217933,
+          "baseT": 0.00015557631679606019,
+          "linearT": 10.667944940516467
+        },
+        "stats": {
+          "rCut": 0.35,
+          "rCuff": 0.09999999999999998,
+          "oldCut": 0.10112590180741263,
+          "wCut": 0.3,
+          "width": 0.25,
+          "curvatureBound": 10,
+          "alpha": 34.549051676332404,
+          "actualWidth": 0.24999999999999994,
+          "minimumWarpWidth": 0.20913471823562313,
+          "meridianLength": 0.2585393485875988,
+          "heightSpan": 0.04503328754181409,
+          "cutRadiusError": -5.551115123125783e-17,
+          "cutSlopeError": -1.0547118733938987e-15,
+          "cutSecondError": 2.3092638912203256e-14,
+          "deepRadiusError": 0,
+          "deepSlopeError": 0,
+          "deepSecondError": 0,
+          "positiveWarpWeights": [
+            [
+              1,
+              0.5,
+              3,
+              0.05,
+              1
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "sampled_geometry": [
+    {
+      "source": "widecut_geometry.json",
+      "sha256": "cb1b4b44907f4a447e42453328e27f815e3cd645f44371aa69c33c638ddd19c3",
+      "config_sha256": "d772f868a9ba70d131f8465f02e1102e3bc4605d1880ca5dc088c73f9f2146e7",
+      "factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "stats": {
+        "rCut": 0.35,
+        "rCuff": 0.09999999999999998,
+        "oldCut": 0.10112590180741263,
+        "wCut": 0.3,
+        "width": 0.25,
+        "curvatureBound": 8,
+        "alpha": 55.97502545410633,
+        "actualWidth": 0.24999999999999994,
+        "minimumWarpWidth": 0.1827827361333843,
+        "meridianLength": 0.2532234148436554,
+        "heightSpan": 0.027037232920539903,
+        "cutRadiusError": -5.551115123125783e-17,
+        "cutSlopeError": -1.0547118733938987e-15,
+        "cutSecondError": 2.3092638912203256e-14,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "positiveWarpWeights": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ]
+      },
+      "maxK": 7.998893382882735,
+      "where": {
+        "n": 7,
+        "j": 3,
+        "x": 0.15234375,
+        "r": 0.10177212369847187,
+        "w": 0.0018398333335760877,
+        "wr": -7.998933997138623
+      },
+      "minR": 0.10110075375190519,
+      "maxW": 0.4
+    },
+    {
+      "source": "widecut_boosted_geometry.json",
+      "sha256": "df7173100991e8a9b3767eef2171553619b24e80cb0e35f4f9cd4385d1e93241",
+      "config_sha256": "635925ebfebb037019befcbaf5da1f0d4be5fda3bc26fcee6aa19ad587768aa4",
+      "factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+      "stats": {
+        "rCut": 0.35,
+        "rCuff": 0.09999999999999998,
+        "oldCut": 0.10112590180741263,
+        "wCut": 0.3,
+        "width": 0.25,
+        "curvatureBound": 10,
+        "alpha": 34.549051676332404,
+        "actualWidth": 0.24999999999999994,
+        "minimumWarpWidth": 0.20913471823562313,
+        "meridianLength": 0.2585393485875988,
+        "heightSpan": 0.04503328754181409,
+        "cutRadiusError": -5.551115123125783e-17,
+        "cutSlopeError": -1.0547118733938987e-15,
+        "cutSecondError": 2.3092638912203256e-14,
+        "deepRadiusError": 0,
+        "deepSlopeError": 0,
+        "deepSecondError": 0,
+        "positiveWarpWeights": [
+          [
+            1,
+            0.5,
+            3,
+            0.05,
+            1
+          ]
+        ]
+      },
+      "maxK": 9.999024037813815,
+      "where": {
+        "n": 6,
+        "j": 3,
+        "x": 0.16796875,
+        "r": 0.10357213420289985,
+        "w": 0.0056208949211224235,
+        "wr": -9.999497912199933
+      },
+      "minR": 0.10083886883965278,
+      "maxW": 0.7
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "schema": "compact-finite-coupled-run-v1",
+  "session": "true_a_analysis",
+  "scope": "Export compact coupled-run evidence, never numerical state or DN arrays.",
+  "context": "New optimized widecut physical metric; original positive-A worker and complete mean/nonmean seam gates retained. The earlier design solve stopped at the inner collocation tolerance; its diagnostic prefix was only an initial guess. This run freezes that entire profile, uses the original fixed-metric formulation and solves for primary amplitude. Normalized actual boundary residual and physical boundary residual have different scales.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "coupling_work/couple_smallcut.py",
+    "--source-topic",
+    "true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "--prefix-driver",
+    "smallcut_highq_work/source/numerical-m2-prefix.py",
+    "--coupler-source",
+    "coupling_work/source/db6f-prefix-coupled.py",
+    "--worker",
+    "true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+    "--profile",
+    "coupling_work/widecut-optimized-q001/frozen-diagnostic-profile.json",
+    "--chart",
+    "coupling_work/widecut-optimized-q001/chart.json",
+    "--port",
+    "coupling_work/widecut-optimized-port8.json",
+    "--tail-config",
+    "coupling_work/widecut-optimized-q001/fixed-retry-tail-config.json",
+    "--restart",
+    "coupling_work/widecut-optimized-q001/coupled/prefix.json.gz",
+    "--out",
+    "coupling_work/widecut-optimized-q001/fixed-coupled",
+    "--amplitude",
+    "0.001",
+    "--modes",
+    "8",
+    "--warp-reference",
+    "0.001",
+    "--angular",
+    "256",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "401",
+    "--max-nodes",
+    "2200",
+    "--tol",
+    "1e-06",
+    "--bc-tol",
+    "1e-07",
+    "--physical-bc-tol",
+    "2e-09",
+    "--fixed",
+    "--node-heap",
+    "2304",
+    "--inner-verbose",
+    "2",
+    "--warmup-scales",
+    "1.0",
+    "--warmup-kind",
+    "full-vector"
+  ],
+  "command_scope": "Equivalent command with all recorded default values made explicit.",
+  "adapter": {
+    "path": "coupling_work/couple_smallcut.py",
+    "bytes": 13332,
+    "sha256": "29545185becc88b1bae05d579258ffca04c186e992d9b17fbc21a5049a2f3629"
+  },
+  "exporter": {
+    "path": "/workspace/scratch/f00f08c94d46/coupling_work/widecut-evidence/v2/record_coupled_run.py",
+    "bytes": 4690,
+    "sha256": "6e8e6767891af4e1594d74613e1091b1988146585862c8e3819df5b5760d1e99"
+  },
+  "solver_success": true,
+  "q": 0.001,
+  "gauge_amplitude": 0.001,
+  "actual_primary_amplitude": 0.0010133858465463923,
+  "fixed_metric": true,
+  "modes": 8,
+  "tail_depth": 8,
+  "nodes": 2036,
+  "seconds": 186.94208976899972,
+  "error": null,
+  "max_rms_collocation_residual": 9.929587971869565e-07,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.1715771558592994,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "prefix_audit": {
+    "metric_l1": 1.0547710656850578e-10,
+    "flow_defect": 1.1255856361266607e-10,
+    "darboux_l1": 1.6390927916905366e-07,
+    "kappa_sample": 5.273033195533269,
+    "radius_max": 1.1720162249619743,
+    "height_max": 1.3534214772093203,
+    "root_min": 0.05325004057491223,
+    "chart_rho_min": 0.997,
+    "support_amplitude": 0.0010133858465463923,
+    "terminal_height_coeff_max": 1.988454100429619e-05,
+    "physical_bc_max": 6.081146389246196e-12,
+    "samples_s": 4174,
+    "samples_psi": 512,
+    "scope": "Prefix sampled audit from an affine finite-port subsolve; actual nonlinear-tail outer and full mean checks are reported separately below when completed. Continuous full Cartesian seam remains unpaid. This exporter clarifies only the description; the hashed original summary is unchanged."
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 2.4832422784726305e-09,
+      "actual_tail_residual": 3.3237628812638656e-12,
+      "tail_calls": 3
+    }
+  ],
+  "tail_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "response_0004.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 3.3237628812638656e-12,
+    "mean_first_actual": 0.28734791289510775,
+    "mean_first_expected": 0.28734791289510336,
+    "mean_first_mismatch": 4.385380947269368e-15,
+    "mean_second_actual": 5.050078913353865,
+    "mean_second_expected": 5.050078913354051,
+    "mean_second_mismatch": -1.865174681370263e-13,
+    "nonmean_first_mismatch": 6.081146382893449e-12,
+    "nonmean_second_mismatch": 1.2613440337778253e-10,
+    "cut_metric_fft_l1": 9.59225983044758e-15,
+    "cut_metric_c1_fft_l1": 2.0607825053031708e-14,
+    "angular_samples": 512
+  },
+  "tail_audit": {
+    "fullD": 2.9797755063640712e-09,
+    "normalizedFullDefect": 1.2942203225997824e-06,
+    "minLeading": 0.6756653143740328,
+    "minD": 0.9998794213585405,
+    "formalCurvature": 7.99890963573329,
+    "maxPhysicalPV": 3.976906749869928e-05,
+    "actualMetric": 1.687538997560789e-12,
+    "holonomy": 1.4889664616260775e-20
+  },
+  "tail_calls": 4,
+  "initial_prefix_status": {
+    "solver_success": false,
+    "gauge_amplitude": 0.001,
+    "actual_primary_amplitude": 0.001
+  },
+  "initial_tail": {
+    "path": "/workspace/scratch/f00f08c94d46/coupling_work/widecut-optimized-q001/coupled/response_0006.json.gz",
+    "bytes": 28353,
+    "sha256": "8c06b51ab7ef4cfaa55e83627be928b64dc44530c4877d1840ebd60e78ef769c"
+  },
+  "input_hashes": [
+    {
+      "path": "smallcut_highq_work/source/numerical-m2-prefix.py",
+      "bytes": 10215,
+      "sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360"
+    },
+    {
+      "path": "coupling_work/source/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+      "bytes": 12294,
+      "sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-q001/frozen-diagnostic-profile.json",
+      "bytes": 263,
+      "sha256": "4b60fc75c5e1cbc7aa7159d889b80ebb7e0d81441b0588fe56cf55f6d2ea80a9"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-q001/chart.json",
+      "bytes": 2945,
+      "sha256": "41f95f0207ecc886a62748c765ea0601bca08b08371af7c14000e0c6f12106f7"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-port8.json",
+      "bytes": 3166,
+      "sha256": "6069af3af1ac6656bfcc32768823f65d58588ddcb1473ed994e7ba9975a75704"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-q001/fixed-retry-tail-config.json",
+      "bytes": 2133,
+      "sha256": "c3b153dbd6a1e3db643f8fdcb679c60d040d0ca6287c54085c1c126c9a816e18"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-q001/coupled/prefix.json.gz",
+      "bytes": 18023,
+      "sha256": "8c3de1230995724c5de652eae59d6c90a8af2f984a3dd35e5d423cfc0f6f20e4"
+    }
+  ],
+  "output_hashes": [
+    {
+      "path": "coupling_work/widecut-optimized-q001/fixed-coupled/summary.json",
+      "bytes": 23014,
+      "sha256": "5f3cc0b287a873cf386f90e9cacf7fafec1d8616223c1e5e5f055000d5a8ec74"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-q001/fixed-coupled/prefix.json.gz",
+      "bytes": 25315,
+      "sha256": "2a95caf910be603a32d7bfa7af11212b19dcbf00c79fab9d752cf846a246a072"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-q001/fixed-coupled/prefix_coeff_00.npy.gz",
+      "bytes": 2335024,
+      "sha256": "5d2b5d0113f2a95d2de0ad86931b29e72f1ef302f8fbcafc6472bfe0ae6bf928"
+    },
+    {
+      "path": "coupling_work/widecut-optimized-q001/fixed-coupled/response_0004.json.gz",
+      "bytes": 29973,
+      "sha256": "58a32da4e39814ccafe9020a8e4a80d698daecfa907364a59484e93de40e44c7"
+    }
+  ],
+  "numerical_settings": {
+    "spacing": 2,
+    "modes": 8,
+    "depth": 8,
+    "steps": 32,
+    "quadrature": 128,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "shootingParts": 2,
+    "projectionFloor": 0.01,
+    "solveTolerance": 1e-09,
+    "auditSteps": 32
+  },
+  "limitations": [
+    "Finite Fourier and finite depth only.",
+    "Prefix FFT l1 and curvature are sampled diagnostics.",
+    "Complete Cartesian/global C2 closing, infinite tail, all-time reach and the held 10 percent goal are not certified by this solver success."
+  ]
+}

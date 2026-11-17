@@ -1,0 +1,206 @@
+{
+  "schema": "compact-finite-coupled-run-v1",
+  "session": "true_a_analysis",
+  "scope": "Export compact coupled-run evidence, never numerical state or DN arrays.",
+  "context": "This design iteration was not accepted. Original physical domain had zero rejected trials, but Newton recorded 189 merit rejections and 8 no-step events; inner collocation residual stalled near 1.99e-6 and exhausted the 2400-node budget. The actual tail at the final diagnostic H still converged. Last accepted pair remains q=.0004. No physical amplitude bound is inferred.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "coupling_work/couple_smallcut.py",
+    "--source-topic",
+    "/workspace/scratch/f00f08c94d46/true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "--prefix-driver",
+    "/workspace/scratch/f00f08c94d46/smallcut_highq_work/source/numerical-m2-prefix.py",
+    "--coupler-source",
+    "/workspace/scratch/f00f08c94d46/coupling_work/source/db6f-prefix-coupled.py",
+    "--worker",
+    "/workspace/scratch/f00f08c94d46/coupling_work/hybrid_tail_worker.mjs",
+    "--profile",
+    "/workspace/scratch/f00f08c94d46/smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+    "--chart",
+    "/workspace/scratch/f00f08c94d46/smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+    "--port",
+    "/workspace/scratch/f00f08c94d46/smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+    "--tail-config",
+    "/workspace/scratch/f00f08c94d46/coupling_work/hybrid-joint-continuation-tol1e6/q0p0006-m8-tail-config.json",
+    "--restart",
+    "/workspace/scratch/f00f08c94d46/coupling_work/hybrid-q0004-m8-retry/prefix.json.gz",
+    "--out",
+    "/workspace/scratch/f00f08c94d46/coupling_work/hybrid-joint-continuation-tol1e6/q0p0006-m8",
+    "--amplitude",
+    "0.0006",
+    "--modes",
+    "8",
+    "--warp-reference",
+    "0.0006",
+    "--angular",
+    "256",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "601",
+    "--max-nodes",
+    "2400",
+    "--tol",
+    "1e-06",
+    "--bc-tol",
+    "1e-07",
+    "--physical-bc-tol",
+    "2e-09",
+    "--node-heap",
+    "2304",
+    "--inner-verbose",
+    "2",
+    "--warmup-scales",
+    "1.0",
+    "--warmup-kind",
+    "full-vector"
+  ],
+  "command_scope": "Equivalent command with all recorded default values made explicit.",
+  "adapter": {
+    "path": "coupling_work/couple_smallcut.py",
+    "bytes": 13332,
+    "sha256": "29545185becc88b1bae05d579258ffca04c186e992d9b17fbc21a5049a2f3629"
+  },
+  "exporter": {
+    "path": "/workspace/scratch/f00f08c94d46/coupling_work/record_coupled_run.py",
+    "bytes": 4125,
+    "sha256": "8f421ae6cebf20a2d274171a7b4570241b810aa5c51fccaf9855c60844f288ae"
+  },
+  "solver_success": false,
+  "q": 0.0006,
+  "modes": 8,
+  "tail_depth": 8,
+  "nodes": 1916,
+  "seconds": 413.15837146800004,
+  "error": null,
+  "max_rms_collocation_residual": 1.9938199013354953e-06,
+  "frozen_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.1718486331167773,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "prefix_audit": {
+    "metric_l1": 8.169208988178927e-10,
+    "flow_defect": 1.0102699201091607e-09,
+    "darboux_l1": 1.7440724772771724e-08,
+    "kappa_sample": 4.078864429251169,
+    "radius_max": 1.1721078149560862,
+    "height_max": 1.2948434674317917,
+    "root_min": 0.004058324101277044,
+    "chart_rho_min": 0.9982,
+    "support_amplitude": 0.0006,
+    "terminal_height_coeff_max": 4.338356466692269e-07,
+    "physical_bc_max": 5.216846772129889e-12,
+    "samples_s": 3980,
+    "samples_psi": 512,
+    "scope": "Sampled physical metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. Linear finite port only; full nonlinear mean and Cartesian seam are unpaid."
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": false,
+      "message": "The maximum number of mesh nodes is exceeded."
+    }
+  ],
+  "tail_seam": {},
+  "tail_audit": {},
+  "tail_calls": 3,
+  "initial_prefix_status": {
+    "solver_success": true,
+    "gauge_amplitude": 0.0004,
+    "actual_primary_amplitude": 0.0004
+  },
+  "initial_tail": {
+    "path": "/workspace/scratch/f00f08c94d46/coupling_work/hybrid-q0004-m8-retry/response_0004.json.gz",
+    "bytes": 30186,
+    "sha256": "1970ea888b285f041fef953d42e10cba1eeba4cd2f87f19a5130c5d89b29f1d1"
+  },
+  "input_hashes": [
+    {
+      "path": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/source/numerical-m2-prefix.py",
+      "bytes": 10215,
+      "sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/coupling_work/source/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/coupling_work/hybrid_tail_worker.mjs",
+      "bytes": 12931,
+      "sha256": "29f4eaa952726fa785754f744fe78d754ecda2a64f1686fd9fcfeba0713e2b64"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/profile.json",
+      "bytes": 264,
+      "sha256": "51c37230c218ae0d82debb821ea0a328611ada7d8255fd8f321f5c7a4b228c62"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/chart.json",
+      "bytes": 2972,
+      "sha256": "6cb4343a88b0adbab9b1a5e5380bda0a10d4ca425dc45fee5ffc3ac87d660f5a"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/smallcut_highq_work/hybrid-dn-linear-r30-k4-p20/physical-port-m8.json",
+      "bytes": 3495,
+      "sha256": "ea2d97d884ba112069eab5f46fdb88aa7b818dd6f7e35c8b1b532c13a181ba98"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/coupling_work/hybrid-joint-continuation-tol1e6/q0p0006-m8-tail-config.json",
+      "bytes": 2329,
+      "sha256": "e5127cd56efec37381ce35ecff529eeee7ed67429b37a359ee92a6980a747242"
+    },
+    {
+      "path": "/workspace/scratch/f00f08c94d46/coupling_work/hybrid-q0004-m8-retry/prefix.json.gz",
+      "bytes": 12839,
+      "sha256": "22cfb78ae56c4b663e99316689d46a7d2d0945c3f58ab054c5aa8f4a59a17e2a"
+    }
+  ],
+  "output_hashes": [
+    {
+      "path": "coupling_work/hybrid-joint-continuation-tol1e6/q0p0006-m8/summary.json",
+      "bytes": 21301,
+      "sha256": "b3b09bbf99c1cbcaf1f21fc7d81f218922c9b4cff9180078a66d24e85f8bef4e"
+    },
+    {
+      "path": "coupling_work/hybrid-joint-continuation-tol1e6/q0p0006-m8/prefix.json.gz",
+      "bytes": 22831,
+      "sha256": "859aea9e5b5c0aa4b7b121e9d9a3959b1250a10029018a7ecba9d6e2d6bea336"
+    },
+    {
+      "path": "coupling_work/hybrid-joint-continuation-tol1e6/q0p0006-m8/prefix_coeff_00.npy.gz",
+      "bytes": 2137978,
+      "sha256": "621da0e4f7fd5f84e17be17bbae7c16fd41d043088d7f8b5d6f2d0f4ca81f4a7"
+    }
+  ],
+  "numerical_settings": {
+    "spacing": 2,
+    "modes": 8,
+    "depth": 8,
+    "steps": 32,
+    "quadrature": 128,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "shootingParts": 2,
+    "projectionFloor": 0.01,
+    "solveTolerance": 1e-08,
+    "auditSteps": 32
+  },
+  "limitations": [
+    "Finite Fourier and finite depth only.",
+    "Prefix FFT l1 and curvature are sampled diagnostics.",
+    "Complete Cartesian/global C2 closing, infinite tail, all-time reach and the held 10 percent goal are not certified by this solver success."
+  ]
+}

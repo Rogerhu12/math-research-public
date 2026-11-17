@@ -1,0 +1,22 @@
+{
+  "scope": "Diagnostic unaccepted prefix is only an initializer; all original acceptance gates must pass again.",
+  "source_prefix_success": false,
+  "old_rms": 3.0148104392419768e-06,
+  "fixed_profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.1715771558592994,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "actual_tail_response": "coupling_work/widecut-optimized-q001/coupled/response_0006.json.gz",
+  "switch": "Design delta becomes a completely fixed metric parameter; primary support amplitude becomes the original fixed-BVP unknown. Numerical tolerances and original true DN gates unchanged."
+}

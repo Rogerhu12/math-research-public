@@ -1,0 +1,170 @@
+{
+  "schema": "compact-finite-coupled-run-v1",
+  "session": "true_a_analysis",
+  "scope": "Export compact coupled-run evidence, never numerical state or DN arrays.",
+  "context": "Same widecut r=.35,w=.30 physical metric and complete q=.02 upper height vector, with original inherited valley controls. First full-vector initialization scale .01 rejected the original D/S/A guard before any coupled prefix solve. This is an initialization failure, not a capacity or nonexistence bound.",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "-u",
+    "coupling_work/couple_smallcut.py",
+    "--source-topic",
+    "true_a_work/bundle/topics/visible-flexible-closed-surface",
+    "--prefix-driver",
+    "smallcut_highq_work/source/numerical-m2-prefix.py",
+    "--coupler-source",
+    "coupling_work/source/db6f-prefix-coupled.py",
+    "--worker",
+    "true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+    "--profile",
+    "smallcut_highq_work/widecut-r35-w30-k4-p20/profile.json",
+    "--chart",
+    "smallcut_highq_work/widecut-r35-w30-k4-p20/chart.json",
+    "--port",
+    "widecut_tail_work/widecut_port_m8.json",
+    "--tail-config",
+    "widecut_tail_work/widecut_r35_w30_m8.json",
+    "--restart",
+    "smallcut_highq_work/widecut-r35-w30-k4-p20/q020-m8.json.gz",
+    "--out",
+    "coupling_work/widecut-q020-m8-coupled",
+    "--amplitude",
+    "0.02",
+    "--modes",
+    "8",
+    "--warp-reference",
+    "0.02",
+    "--angular",
+    "256",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "601",
+    "--max-nodes",
+    "2400",
+    "--tol",
+    "1e-06",
+    "--bc-tol",
+    "1e-07",
+    "--physical-bc-tol",
+    "2e-09",
+    "--node-heap",
+    "2304",
+    "--inner-verbose",
+    "2",
+    "--warmup-scales",
+    "0.01",
+    "0.1",
+    "0.3",
+    "1.0",
+    "--warmup-kind",
+    "full-vector"
+  ],
+  "command_scope": "Equivalent command with all recorded default values made explicit.",
+  "adapter": {
+    "path": "coupling_work/couple_smallcut.py",
+    "bytes": 13332,
+    "sha256": "29545185becc88b1bae05d579258ffca04c186e992d9b17fbc21a5049a2f3629"
+  },
+  "exporter": {
+    "path": "/workspace/scratch/f00f08c94d46/coupling_work/record_coupled_run.py",
+    "bytes": 4125,
+    "sha256": "8f421ae6cebf20a2d274171a7b4570241b810aa5c51fccaf9855c60844f288ae"
+  },
+  "solver_success": false,
+  "q": 0.02,
+  "modes": 8,
+  "tail_depth": 8,
+  "nodes": null,
+  "seconds": 14.021892732000197,
+  "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: momentum branch D/S/A rejected', 'residual': None, 'lastIteration': None}\")",
+  "max_rms_collocation_residual": null,
+  "frozen_profile": null,
+  "prefix_audit": {},
+  "actual_outer_checks": null,
+  "tail_seam": {},
+  "tail_audit": {},
+  "tail_calls": 1,
+  "initial_prefix_status": {
+    "solver_success": true,
+    "gauge_amplitude": 0.02,
+    "actual_primary_amplitude": 0.02
+  },
+  "initial_tail": null,
+  "input_hashes": [
+    {
+      "path": "smallcut_highq_work/source/numerical-m2-prefix.py",
+      "bytes": 10215,
+      "sha256": "d9f8e1f6707bfb058a763fd7c0638543b9843d54e78ca419fc7d2cc24c9e4360"
+    },
+    {
+      "path": "coupling_work/source/db6f-prefix-coupled.py",
+      "bytes": 12811,
+      "sha256": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a"
+    },
+    {
+      "path": "true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-tail-tangent-fourier-worker.mjs",
+      "bytes": 12294,
+      "sha256": "36cf8235d42dfdb2477e6e709dfb721633ac39259b45aeadff2e13491e64864a"
+    },
+    {
+      "path": "smallcut_highq_work/widecut-r35-w30-k4-p20/profile.json",
+      "bytes": 264,
+      "sha256": "aab7de4fb1aac8a8ae40516cb790ef7c19f8b397676db7c3b1a2f5b6480aafc0"
+    },
+    {
+      "path": "smallcut_highq_work/widecut-r35-w30-k4-p20/chart.json",
+      "bytes": 2951,
+      "sha256": "e888109470c838a531854770080fc76bee4a7572cb0643071c154493e97bcbb9"
+    },
+    {
+      "path": "widecut_tail_work/widecut_port_m8.json",
+      "bytes": 3177,
+      "sha256": "8643af3f9392a151146f98f285d69681e0f2c1446b8899ed1a7312a53f7f72d1"
+    },
+    {
+      "path": "widecut_tail_work/widecut_r35_w30_m8.json",
+      "bytes": 2003,
+      "sha256": "d772f868a9ba70d131f8465f02e1102e3bc4605d1880ca5dc088c73f9f2146e7"
+    },
+    {
+      "path": "smallcut_highq_work/widecut-r35-w30-k4-p20/q020-m8.json.gz",
+      "bytes": 10718,
+      "sha256": "cc085b02fe9cca183ecf8aa11e428d3b6aa758926a37553224792067a5a9d625"
+    }
+  ],
+  "output_hashes": [
+    {
+      "path": "coupling_work/widecut-q020-m8-coupled/summary.json",
+      "bytes": 10376,
+      "sha256": "c8728db8c1bc217bb7102578fb4866ae5302b91334727cf998b15934e0b1d950"
+    },
+    {
+      "path": "coupling_work/widecut-q020-m8-coupled/response_0001.json.gz",
+      "bytes": 1202,
+      "sha256": "038d28ecb0abb0975f09e2e5fde2e3f192a665008c8386dddb20e64a8df163cb"
+    },
+    {
+      "path": "coupling_work/widecut-q020-m8-coupled/worker-trace.jsonl",
+      "bytes": 549,
+      "sha256": "a1695e2ff10dde6dead8fb928e19191ef0fc4aa85ec014887b2511e9f38d4248"
+    }
+  ],
+  "numerical_settings": {
+    "spacing": 2,
+    "modes": 8,
+    "depth": 8,
+    "steps": 32,
+    "quadrature": 128,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "shootingParts": 2,
+    "projectionFloor": 0.01,
+    "solveTolerance": 1e-09,
+    "auditSteps": 32
+  },
+  "limitations": [
+    "Finite Fourier and finite depth only.",
+    "Prefix FFT l1 and curvature are sampled diagnostics.",
+    "Complete Cartesian/global C2 closing, infinite tail, all-time reach and the held 10 percent goal are not certified by this solver success."
+  ]
+}

@@ -7,7 +7,7 @@
 连通闭曲面的连续C²等距嵌入族，固定有内点闭H，diam F₀(H)≥.2D；整像δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g/物理参数/时间范围下最大相对度量误差≤1e−6且加密下降。材料位移不是整像变化，solver success不是完成。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；仅本题及自己的workflow稀疏检出。
-- 已读规则提交：`34a036028256ad59c702a3fc8088275dad7c2948`。2026-11-17 23:05:36（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 00:05:36；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`36c306c3a5ced5b86eed41c88532ad522e15ac5c`。2026-11-17 23:18:51（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 00:18:51；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同步本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用。
 - 完整证明进results；数值/条件/缺口分开。可重算数组、网格、CI artifact不入Git/Release，只存源码、参数、hash。本文件<10KB、单Markdown<100KB；不写根LOG。
 
@@ -27,7 +27,9 @@
 
 原尾真实延拓仅到完整q18端口λ=.0781。相同原g在λ=.07、M8/12/16的metric8.03e−9/2.24e−9/9.29e−10，但Darboux1.96e−5/1.15e−5/8.23e−6，Xrr层差.00382/.00130，差分噪声仅4e−12。不能由小metric宣称C²/无限尾完成。详见nonlinear-tail-stage1及common-twojets笔记和scripts/nonlinear_tail。
 
-**真实前缀—非线性尾联立已接通**：scripts/coupling保留原TailMixin、affine-inner/true-outer和全部原接受门，只适配mode2/ShortBridge/指定worker。upper输入σH（σ=−1），物理尾z=σz_worker+常数；均值也按同一链式变换。beta8新物理g、M8/depth8：q=.0002、607节点，prefix metric2.37146e−11，原BC2.05050e−12，真尾residual2.01942e−9；q=.0004、706节点，metric2.41933e−10，原BC1.80025e−14，真尾residual2.26479e−9，minA=.834329。q=.0004首次内层maxnodes未过，显式tol1e−6的新重试通过；不隐藏失败。这是两次设计联立，不是固定g加密或10%候选。全均值/非均值高度两jet已核；完整Cartesian公共C²表示、无限深度、全时reach及闭合仍欠。精确复现与源hash见actual-prefix-tail-coupling笔记及coupling_completed_seed/q0004.json。
+**实际非线性DN联立已接通**：scripts/coupling保留原TailMixin/真实outer及全部门；upper输入−H并反射整个尾z/mean。beta8 q=.0002/.0004已过原门，metric2.37e−11/2.42e−10；q=.0006内层rms1.99e−6触maxnodes，尾仍接受，非容量界。源hash/恢复见actual-prefix-tail-coupling笔记。
+
+widecut r=.35/w=.30保留原拓扑，438次真实物理优化后canonical D1=9.86804231267902。实际联立固定δ点q=.001013386和新design q=.002通过，prefix metric1.055e−10/2.390e−9、尾minA .6757/.3280；q002尾Gauss/fullD增至2.214e−6，不能凭小metric称C²收敛。72文件恢复器独立再生端口逐字同hash；冷启动失败、弱增益校准及另一402次峰谷设计均完整登记在widecut笔记。不同prefix δ不混为同g。
 
 R12已严格证明：接口水平Gram h=g−dz⊗dz正定时，相同g一jet与z二jet经一次固定平面刚体配准决定整圈Cartesian二jet；含反射/同向约定及显式有限误差链。数值应用仍需连续误差界、共同C²表示，不新增独立Cartesian方程。
 

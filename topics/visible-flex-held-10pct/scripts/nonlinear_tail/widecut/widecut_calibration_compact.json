@@ -1,0 +1,231 @@
+{
+  "scope": "Compact negative design diagnostic; finite linear numerical computations only, no nonlinear capacity or nonexistence bound.",
+  "session": "true_a_analysis",
+  "calibration": {
+    "steps": 128,
+    "control_count": 7,
+    "max_evals": 80,
+    "evaluations": 90,
+    "seconds": 11.01563250000072,
+    "fixed_scaled_residual": 8.935303916573554e-14,
+    "height": 0.027766206931772085,
+    "alpha": 58.16873794762681,
+    "rows": [
+      {
+        "cell": 0,
+        "beta": 5.154325216173617,
+        "gain128": -0.30371448126582107,
+        "gain512": -0.3037150514297988,
+        "momentum128": -1.6388591872473768e-12,
+        "momentum512": -0.004500420700887697
+      },
+      {
+        "cell": 1,
+        "beta": 2.3729693048857388,
+        "gain128": -0.6684677351069489,
+        "gain512": -0.6684677109437862,
+        "momentum128": -7.131274737393056e-14,
+        "momentum512": -3.1837342924338503e-07
+      },
+      {
+        "cell": 2,
+        "beta": 4.16315966337216,
+        "gain128": -0.6849680022676433,
+        "gain512": -0.6849679981132408,
+        "momentum128": 1.147591136702042e-13,
+        "momentum512": -1.399816581759911e-07
+      },
+      {
+        "cell": 3,
+        "beta": 6.004310371969139,
+        "gain128": -0.7150622037290313,
+        "gain512": -0.7150622028451991,
+        "momentum128": -1.436390611488092e-13,
+        "momentum512": -9.872856379040452e-08
+      },
+      {
+        "cell": 4,
+        "beta": 7.921185224018063,
+        "gain128": -0.7466216367001798,
+        "gain512": -0.7466216363483954,
+        "momentum128": -1.8356441312730037e-12,
+        "momentum512": -3.0906820383227773e-07
+      },
+      {
+        "cell": 5,
+        "beta": 9.53492276669392,
+        "gain128": -1.224863113615935,
+        "gain512": -1.2248631085898587,
+        "momentum128": -1.2168591533175642e-12,
+        "momentum512": -6.934047507886027e-06
+      },
+      {
+        "cell": 6,
+        "beta": 9.858727851795134,
+        "gain128": -2.8073421696980425,
+        "gain512": -2.8073421387246027,
+        "momentum128": 3.2801608694264453e-09,
+        "momentum512": -1.3615400755515764e-05
+      }
+    ]
+  },
+  "deep_gate_comparison": [
+    {
+      "steps": 128,
+      "far": 48,
+      "threshold": 7.001398345998258e-15,
+      "where": {
+        "cell": 7,
+        "segment": 3,
+        "x": 1,
+        "r": 0.10201434274961468,
+        "w": 2.4243643728603468e-12,
+        "f": -1.9628470922273344e-05,
+        "fr": -346.26936528649185,
+        "baseT": 2.4731993808293006e-13,
+        "linearT": -35.32436320014402
+      },
+      "cutSlope": 11.42857001155904
+    },
+    {
+      "steps": 512,
+      "far": 48,
+      "threshold": 7.001410819663196e-15,
+      "where": {
+        "cell": 7,
+        "segment": 3,
+        "x": 1,
+        "r": 0.10201434274961468,
+        "w": 2.4243643728603468e-12,
+        "f": -1.9628435750724412e-05,
+        "fr": -346.2687483753853,
+        "baseT": 2.4731993808293006e-13,
+        "linearT": -35.324300266503634
+      },
+      "cutSlope": 11.428573676503465
+    }
+  ],
+  "other_branch_scan": {
+    "lo": -5.0,
+    "hi": 25.0,
+    "stride": 0.5,
+    "steps": 128,
+    "evaluations": 466,
+    "seconds": 20.82611084400014,
+    "roots_found": 7,
+    "result": "One sign-change root per cell on this grid, each the same weak-gain branch. This is not a uniqueness theorem."
+  },
+  "interpretation": [
+    "Driving each isolated cell momentum to zero does not ensure useful inward attenuation or a good full deep leading gate.",
+    "At fixed 128-step roots the 512-step momenta are not exactly zero; the weak-gain and worse deep-gate conclusions are stable under this check.",
+    "No further refinement of this inferior physical design was attempted. Direct whole-tail gate optimization or more physical controls is needed."
+  ],
+  "commands": [
+    [
+      "python",
+      "nonlinear_tail_work/calibrate_physical_controls.py",
+      "--source-topic",
+      "true_a_work/bundle/topics/visible-flexible-closed-surface",
+      "--factory",
+      "true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "--config",
+      "widecut_tail_work/widecut_r35_w30_m8.json",
+      "--control-count",
+      "7",
+      "--steps",
+      "128",
+      "--max-evals",
+      "80",
+      "--out",
+      "coupling_work/widecut-calibration128.json"
+    ],
+    [
+      "python",
+      "coupling_work/scan_physical_beta_branches.py",
+      "--source-topic",
+      "true_a_work/bundle/topics/visible-flexible-closed-surface",
+      "--factory",
+      "true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "--config",
+      "coupling_work/widecut-calibration128-config.json",
+      "--worker",
+      "nonlinear_tail_work/calibration_physical_worker.mjs",
+      "--control-count",
+      "7",
+      "--steps",
+      "128",
+      "--lo",
+      "-5",
+      "--hi",
+      "25",
+      "--stride",
+      ".5",
+      "--out",
+      "coupling_work/widecut-beta-branch-scan128.json"
+    ]
+  ],
+  "source_and_input_hashes": [
+    {
+      "path": "nonlinear_tail_work/calibrate_physical_controls.py",
+      "bytes": 3301,
+      "sha256": "873e084659652e6c15c8be85a68de5473b61e6cd756c67db7e4c7842f0b3b649"
+    },
+    {
+      "path": "nonlinear_tail_work/calibration_physical_worker.mjs",
+      "bytes": 1404,
+      "sha256": "44b92c6879521ece2eaa319e3efe044809bec2de87d91d171323dfede94bc13c"
+    },
+    {
+      "path": "coupling_work/scan_physical_beta_branches.py",
+      "bytes": 3463,
+      "sha256": "265ac2293b61254c6932f1734e25cf4dfa197f4c86ccd4e2129e18bf5aa42b4b"
+    },
+    {
+      "path": "true_a_work/deliverable/thick_tail_reproduce.mjs",
+      "bytes": 1333,
+      "sha256": "4432db9fa4203fbe84367490cc56032e3b9c3405e3cb570ed56928a8c7482f39"
+    },
+    {
+      "path": "true_a_work/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs",
+      "bytes": 3033,
+      "sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e"
+    },
+    {
+      "path": "widecut_tail_work/widecut_r35_w30_m8.json",
+      "bytes": 2003,
+      "sha256": "d772f868a9ba70d131f8465f02e1102e3bc4605d1880ca5dc088c73f9f2146e7"
+    }
+  ],
+  "output_hashes": [
+    {
+      "path": "coupling_work/widecut-calibration128.json",
+      "bytes": 3749,
+      "sha256": "1a8233367a8c1604fdd1e15aa2505bff18f8898fa03cacac6e09e5796d3f939d"
+    },
+    {
+      "path": "coupling_work/widecut-calibration128-config.json",
+      "bytes": 2081,
+      "sha256": "127c95900ba582746e648c6c70297cea116030f5781395882351af48472b1417"
+    },
+    {
+      "path": "coupling_work/widecut-calibration128-frozencheck512.json",
+      "bytes": 2168,
+      "sha256": "a0bd37629a497b6b4ba13262bba581c9815c4d2f03469e05e484aeebf274f906"
+    },
+    {
+      "path": "coupling_work/widecut-calibration128-deep-gate.json",
+      "bytes": 31156,
+      "sha256": "e5702536f3474411115671edb713d7acf831ced1ceaa152cb0f8969c2e81bd60"
+    },
+    {
+      "path": "coupling_work/widecut-calibration128-deep-gate512.json",
+      "bytes": 31206,
+      "sha256": "6ac2471183bb78643b1557d86d1fa5ace77ac3ee115a03e174f05fd9d9755b68"
+    },
+    {
+      "path": "coupling_work/widecut-beta-branch-scan128.json",
+      "bytes": 90240,
+      "sha256": "6f41b09e582709207e96eeec1ef11ebda26aaafc0a4426f978099f15885ffb77"
+    }
+  ]
+}
