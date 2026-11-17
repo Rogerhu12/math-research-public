@@ -1,0 +1,210 @@
+{
+  "scope": "Actual-radius metric, source-vs-finite second-jet localization, and new full M16 geometry. Numerical/continuous claims separated in the note.",
+  "records": {
+    "m8_tail_actual_radius_metric.json": {
+      "sha256": "81c3f5f581415c3c7153573470c9c114586cf626c8cce4be9c77bb30536534f3",
+      "input_sha256": {
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz": "12754098ba6cffc0abb5f0c327c7a376cac826ea8ab820b793ec5ad9b958c4f2"
+      },
+      "executed_command": [
+        "topics/visible-flex-held-10pct/scripts/resume_closed/audit_tail_actual_radius_metric.py",
+        "--manifest",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m8_tail_actual_radius_metric.json"
+      ],
+      "executed_source_sha256": {
+        "audit_tail_actual_radius_metric.py": "3d82f2d3cd4e6f35cc4df0a95a42e793024114b0637210357ee8e7633440f678",
+        "background_metric_query.mjs": "97f5557b5f6a076f36a421f6554c804dee6cfa208252f926563e5195311f3f95"
+      }
+    },
+    "m16_tail_actual_radius_metric.json": {
+      "sha256": "1b25b042fe870b3f7d2546742462961f69d2b2ee41dd5d50c4c28eadf1179f68",
+      "input_sha256": {
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json": "2393fb7321f873563f586771d98666d84d140cbb50bd674d71c7e6090df42bcc",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz": "7d29ca238ddcd623659ccdae7814432a615ef85a89faae82970c93402add0c06"
+      },
+      "executed_command": [
+        "topics/visible-flex-held-10pct/scripts/resume_closed/audit_tail_actual_radius_metric.py",
+        "--manifest",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_tail_actual_radius_metric.json"
+      ],
+      "executed_source_sha256": {
+        "audit_tail_actual_radius_metric.py": "3d82f2d3cd4e6f35cc4df0a95a42e793024114b0637210357ee8e7633440f678",
+        "background_metric_query.mjs": "97f5557b5f6a076f36a421f6554c804dee6cfa208252f926563e5195311f3f95"
+      }
+    },
+    "m16_source_second_difference_steps.json": {
+      "sha256": "1ad7f37f2e492f50f9e8f7d2282b0920aa5bef07474cf0004e8341946367f0fb",
+      "input_sha256": {},
+      "executed_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/probe_tail_spatial_jets.mjs",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+        "--radii",
+        "0.28304471508506235,0.29649762863045936",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_second_difference_steps.json"
+      ],
+      "executed_source_sha256": "4e1aa6972df5501abce29190c7760a132c625e61f11a0a7f213cd6bb8ab697d0"
+    },
+    "m8_source_peak_jets.json": {
+      "sha256": "e6e08e76574d8e2a06325d4e2c3948166d05dd1f426fb34e149dd19fb2b4c8f2",
+      "input_sha256": {},
+      "executed_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/probe_tail_spatial_jets.mjs",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m8_breaks/seed_tail_0004.json.gz",
+        "--radii",
+        "0.28304471508506235,0.29649762863045936",
+        "--difference-steps",
+        ".0001",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m8_source_peak_jets.json",
+        "--dump-jets",
+        "/workspace/scratch/7322d0dee069/closed_work/m8_source_peak_jets_data.json"
+      ],
+      "executed_source_sha256": "3d778458e18c0c01fb65ed7dd3967c5b6ce3422cfcda512fcbf9585f467d546c"
+    },
+    "m16_source_peak_jets.json": {
+      "sha256": "703ca02ca7413370ce27999a7fbd5fc49113ebec6f375c758db2941d04271e59",
+      "input_sha256": {},
+      "executed_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/probe_tail_spatial_jets.mjs",
+        "--source-topic",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed_tail_0004.json.gz",
+        "--radii",
+        "0.28304471508506235,0.29649762863045936",
+        "--difference-steps",
+        ".0001",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_peak_jets.json",
+        "--dump-jets",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_peak_jets_data.json"
+      ],
+      "executed_source_sha256": "3d778458e18c0c01fb65ed7dd3967c5b6ce3422cfcda512fcbf9585f467d546c"
+    },
+    "finite_vs_source_second_peak_record.json": {
+      "sha256": "52fe0e3ae308b1867d310b5eb9b41e668e7f600e7074caa11120f72c272c336c",
+      "input_sha256": {
+        "/workspace/scratch/7322d0dee069/closed_work/m8_source_peak_jets_data.json": "18b7c1ac7ec7cf444e57b81aa48da2f47cf13c8f99a228c19a8baf12a9bad3e4",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_peak_jets_data.json": "b54555a2d7109f23ba690efc988921bdbf99eee0dd62876d03086bbd1b03abf9",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json": "1d3e5ccca3e409f49a3677d1f29b38f233c0482ae971f13a23d62a37f646fd21",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json": "2393fb7321f873563f586771d98666d84d140cbb50bd674d71c7e6090df42bcc",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py": "4714e67860c80ecffc691d0d1e797bf5e8fa62062a4292730646abdf7f6e87ae"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_closed/compare_peak_jets.py",
+        "--coarse-jets",
+        "/workspace/scratch/7322d0dee069/closed_work/m8_source_peak_jets_data.json",
+        "--fine-jets",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_source_peak_jets_data.json",
+        "--coarse-manifest",
+        "/workspace/scratch/f00f08c94d46/tail_closure_audit/m3_fixed_m8_c2/tail-manifest.json",
+        "--fine-manifest",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_export/tail-manifest.json",
+        "--tail-reader",
+        "/workspace/scratch/f00f08c94d46/m3_flat17_work/recovered/bundle/topics/visible-flexible-closed-surface/scripts/db6f_tail_integrated.py",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/finite_vs_source_second_peak_record.json"
+      ],
+      "executed_source_sha256": "e249f28c9e3291f5497f786b317858d6df628ae69b0b975c38e1c33e536ec937"
+    },
+    "m16_prefix_continuous_geometry.json": {
+      "sha256": "cb450e3e9a52df53acb976dc9642f68e7b71020b630bc929e4f5c248236e4192",
+      "input_sha256": {
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/prefix-shared-cartesian.npz": "7818de0de1873edf18ded4551f0e6044f9c5768271c5cd7a07695020b706d052",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz": "7bab356153195aed714bcdd68c893755891bda8235c88cbc4cf065354ee30a6f",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/prefix-common-audit.json": "2961fcaa9f68181821b1ce766194e9b5c1edeb5e7b6bcc443b6f181008940ef0",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/cut-lift-all-angle-bounds.json": "f20cca9723fb843e10aa8fca962d5342dfc201a4fdeac6627ce805726a992e0b"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/certify_prefix_geometry.py",
+        "--data",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/prefix-shared-cartesian.npz",
+        "--checkpoint",
+        "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_smallcut_fast45_q02_fixed_m16_radial2/seed.json.gz",
+        "--prefix-audit",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/prefix-common-audit.json",
+        "--cut-bounds",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/cut-lift-all-angle-bounds.json",
+        "--angular",
+        "512",
+        "--batch",
+        "12",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_prefix_continuous_geometry.json"
+      ],
+      "executed_source_sha256": {
+        "certify_prefix_geometry.py": "4c50fc023c7a55c15f07e39cdaf993175b676cbee7ba6b25578045ca525914cd",
+        "interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+        "m3_interval_center.py": "a7d5d8d8d80b1ba99d4054dd6cf79a3264421f1c438460dadf10a3a7f77a9f3d"
+      }
+    },
+    "m16_closed_continuous_geometry.json": {
+      "sha256": "09551536088dbd6141e73600daaf3632472b537e7dcb601a8a66f0b6f04563ec",
+      "input_sha256": {
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/prefix-common-audit.json": "2961fcaa9f68181821b1ce766194e9b5c1edeb5e7b6bcc443b6f181008940ef0",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_prefix_continuous_geometry.json": "cb450e3e9a52df53acb976dc9642f68e7b71020b630bc929e4f5c248236e4192",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/finite-tail-continuous-geometry.json": "a3ef31e8ee643072c9e474d32082a94217cbdbaaec351d708b98ac0f227801f5",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/collar-disk-scalar.json": "24568b1cb184dfc6a34af4844bb4c2d0dd7ed8a98fe42603c259fa4e4fff0e71"
+      },
+      "executed_command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/combine_closed_geometry.py",
+        "--prefix-audit",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/prefix-common-audit.json",
+        "--prefix-certificate",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_prefix_continuous_geometry.json",
+        "--tail-certificate",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/finite-tail-continuous-geometry.json",
+        "--collar-certificate",
+        "/workspace/scratch/f00f08c94d46/m3_closed_map_work/fixed_m16_radial2_common_v1/collar-disk-scalar.json",
+        "--out",
+        "/workspace/scratch/7322d0dee069/closed_work/m16_closed_continuous_geometry.json"
+      ],
+      "executed_source_sha256": "f09c2665f523a54940398f76ba8b92e0bfdd3d09707d18877499a08992d8b3cb"
+    }
+  },
+  "current_sources": {
+    "audit_tail_actual_radius_metric.py": "6f16fa6c05fcc24fcb10e71f4433a7ce972c9524c0768a4c5e384dd7fa9d5f72",
+    "background_metric_query.mjs": "97f5557b5f6a076f36a421f6554c804dee6cfa208252f926563e5195311f3f95",
+    "probe_tail_spatial_jets.mjs": "3d778458e18c0c01fb65ed7dd3967c5b6ce3422cfcda512fcbf9585f467d546c",
+    "compare_peak_jets.py": "e249f28c9e3291f5497f786b317858d6df628ae69b0b975c38e1c33e536ec937"
+  },
+  "source_replay_notes": [
+    "Metric source current version removes one redundant self-assignment after the run; no formula or inputs changed.",
+    "Probe current version adds optional scratch jet dumps after the initial six-step sweep; physical evaluation and guards unchanged."
+  ],
+  "new_bvp_solves": 0,
+  "new_full_prefix_boxes": 1261568,
+  "previous_boxes_repeated": 0
+}

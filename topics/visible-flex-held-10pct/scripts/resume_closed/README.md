@@ -45,7 +45,7 @@ python audit_refined_prefix.py \
 
 ## 已知限制
 
-完整prefix与tail的两层六jet差不为零；两层比较不是C²极限证明。源背景点查询仍是数值求值，精确背景由真积分定义。已有M16连续证书仅覆盖尾和圆领/盘，尚未把M8的全prefix界转成M16整面界。低幅候选不是10%解。
+完整prefix与tail的两层六jet差不为零；两层比较不是C²极限证明。源背景点查询仍是数值求值，精确背景由真积分定义。新M16的1261568个prefix盒已与匹配尾和圆领/盘合并，给出完整零标记闭图连续几何；详见下文的实际执行记录。低幅候选不是10%解，M8标记的体积矩证书也不自动移用于M16。
 
 ## 实际固定标记：R24
 
@@ -75,3 +75,36 @@ python certify_marked_m3.py \
 ```
 
 `marked_execution.json` 保存本次真实执行命令与所有输入输出hash。帽的局部metric对相位精确不变；全闭同g误差尚未因此获得连续证书。
+
+## 实际R处metric与二阶峰
+
+```bash
+python audit_tail_actual_radius_metric.py \
+  --manifest MANIFEST --tail-reader SOURCE/scripts/db6f_tail_integrated.py \
+  --source-topic SOURCE --checkpoint TAIL_CHECKPOINT \
+  --angular 512 --fractions 0,.25,.5,.75 --out SCRATCH/metric.json
+```
+
+尾Gram次数为192，512角满足无alias次数门；背景在实际R反解，而扰动按完整ulp半径修正求值。此处径向采样、浮点DFT/背景积分不声称连续metric证书。
+
+物理源差分步隔离：
+
+```bash
+node probe_tail_spatial_jets.mjs \
+  --source-topic SOURCE --checkpoint TAIL_CHECKPOINT \
+  --radii 0.28304471508506235,0.29649762863045936 \
+  --difference-steps .0002,.0001,.00005,.000025,.0000125,.00000625 \
+  --out SCRATCH/source-step-sweep.json
+```
+
+若比较两层源与有限图，在两层分别以 `--difference-steps .0001 --dump-jets SCRATCH/layer-jets.json` 生成原物理jets，再运行：
+
+```bash
+python compare_peak_jets.py \
+  --coarse-jets SCRATCH/m8-jets.json --fine-jets SCRATCH/m16-jets.json \
+  --coarse-manifest M8_MANIFEST --fine-manifest M16_MANIFEST \
+  --tail-reader SOURCE/scripts/db6f_tail_integrated.py \
+  --out SCRATCH/finite-versus-source.json
+```
+
+全部参数、来源/输出hash及新M16全prefix连续扫描记录见 `metric_rr_execution.json` 和 `../../notes/2026-11-18-m3-closed-metric-and-rr-location.md`。M16新连续扫描沿用R23 `certify_prefix_geometry.py`，使用其已有细层NPZ、prefix审计和cut界，参数 `--angular 512 --batch 12`；然后原 `combine_closed_geometry.py` 合并匹配的M16尾、圆领及共享mean。
