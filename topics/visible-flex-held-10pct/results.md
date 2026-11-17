@@ -30,3 +30,7 @@
 ## R29. 实际M16有限尾的连续全角固定g误差
 
 同R28 M16/steps64图，真实R27背景部分积分与完整Laurent卷积/径向导数界给全尾、全角和全相位相对operator误差≤590094565153063/590295810358705651712<1e−6。目标阈触发的充分界，不是最大误差估计；prefix连续metric仍未付。证明与完整执行来源见[正文](results/R29-continuous-metric-of-the-actual-m16-tail.md)。
+
+## R30. 保留原角网格的周期求积恒等式
+
+频率sj、声明N点网格的完整mean/非mean投影及Jacobian可由N/gcd(N,s)个独立节点等权求得，并周期恢复N行；原D/S/A节点门等价。只证明有限实数方程恒等，不主张浮点逐位一致或新tail解。[正文](results/R30-periodic-identity-for-the-declared-angular-quadrature.md)与配套8处实际M16对照给出范围。

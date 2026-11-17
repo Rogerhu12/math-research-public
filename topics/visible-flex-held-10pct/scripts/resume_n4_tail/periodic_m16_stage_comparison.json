@@ -1,0 +1,357 @@
+{
+  "scope": "Eight local actual-state comparisons, no new solve; mathematically identical periodic quadrature, different floating arithmetic. Timings are local single-call observations only.",
+  "input_sha256": "cbed13366332c7890f25fc02c1f91683d908bf2a6f63d2bd0aeb943893c77597",
+  "source_sha256": "566bbc9686c69676f958501f1989fbd7fb7056afd54479612a3602fe038b3422",
+  "inputAcceptedResidual": 1.0041906006229493e-9,
+  "guard": {
+    "original": "Error: invalid momentum engine options",
+    "periodic": "Error: invalid momentum engine options"
+  },
+  "rows": [
+    {
+      "stage": 0,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "x": 0,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 7.692779696743157e-23,
+        "scale": 0.00018955478324518205,
+        "relative": 4.0583411112305372e-19
+      },
+      "rootGram": {
+        "linf": 3.552713678800501e-15,
+        "scale": 1.0000001222566106,
+        "relative": 3.5527132444578213e-15
+      },
+      "rhs": {
+        "linf": 6.938893903907228e-18,
+        "scale": 0.14821753158967002,
+        "relative": 4.681560831222771e-17
+      },
+      "jacobian": {
+        "linf": 1.673470251262188e-10,
+        "scale": 128657856.7941487,
+        "relative": 1.300713608139551e-18
+      },
+      "originalRootRelativeResidual": 1.3964119946527098e-19,
+      "periodicRootRelativeResidual": 6.982059973263549e-20,
+      "periodicRootInOriginalMomentRelativeResidual": 4.189235983958129e-19,
+      "originalMinA": 0.9997140059498548,
+      "periodicMinA": 0.9997140059498548,
+      "originalMinD": 0.9999950969651948,
+      "periodicMinD": 0.9999950969651948,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 4.255493527005605e-18,
+      "originalMilliseconds": 26.60883700000022,
+      "periodicMilliseconds": 28.700598000000355
+    },
+    {
+      "stage": 0,
+      "rawCell": 0,
+      "rawSegment": 8,
+      "x": 0.5,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 7.858215819253763e-23,
+        "scale": 0.00018959415047367021,
+        "relative": 4.1447564703981034e-19
+      },
+      "rootGram": {
+        "linf": 5.995204332975845e-15,
+        "scale": 1.0000001223509627,
+        "relative": 5.995203599456914e-15
+      },
+      "rhs": {
+        "linf": 5.204170427930421e-18,
+        "scale": 0.11109066865043372,
+        "relative": 4.6846152707085203e-17
+      },
+      "jacobian": {
+        "linf": 9.458744898438454e-11,
+        "scale": 96432588.77352104,
+        "relative": 9.808660141493252e-19
+      },
+      "originalRootRelativeResidual": 1.429628973961541e-16,
+      "periodicRootRelativeResidual": 1.429628973961541e-16,
+      "periodicRootInOriginalMomentRelativeResidual": 1.429628973961541e-16,
+      "originalMinA": 0.9997139375174822,
+      "periodicMinA": 0.9997139375174822,
+      "originalMinD": 0.9999950972876779,
+      "periodicMinD": 0.9999950972876779,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 1.1102230246251565e-16,
+      "originalMilliseconds": 5.943398999999772,
+      "periodicMilliseconds": 6.694949000000179
+    },
+    {
+      "stage": 40,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "x": 0,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 9.317362419797304e-21,
+        "scale": 0.0037138584523834224,
+        "relative": 2.508809244955944e-18
+      },
+      "rootGram": {
+        "linf": 4.884981308350689e-15,
+        "scale": 0.9999931668247581,
+        "relative": 4.8850146885121145e-15
+      },
+      "rhs": {
+        "linf": 4.330778867765762e-18,
+        "scale": 0.014903172673679094,
+        "relative": 2.9059442325421556e-16
+      },
+      "jacobian": {
+        "linf": 1.2699123918961605e-10,
+        "scale": 34461341.57596384,
+        "relative": 3.6850346905295794e-18
+      },
+      "originalRootRelativeResidual": 1.167747697142871e-16,
+      "periodicRootRelativeResidual": 1.167747697142871e-16,
+      "periodicRootInOriginalMomentRelativeResidual": 1.167747697142871e-16,
+      "originalMinA": 0.994738883227074,
+      "periodicMinA": 0.994738883227074,
+      "originalMinD": 0.9999999793873159,
+      "periodicMinD": 0.9999999793873159,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 1.1102230246251565e-16,
+      "originalMilliseconds": 6.946307000000161,
+      "periodicMilliseconds": 15.813161000000036
+    },
+    {
+      "stage": 40,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "x": 0.5,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 1.0057428355040522e-20,
+        "scale": 0.004603335847498841,
+        "relative": 2.1848130764791117e-18
+      },
+      "rootGram": {
+        "linf": 3.774758283725532e-15,
+        "scale": 0.9999895032241862,
+        "relative": 3.774797906932903e-15
+      },
+      "rhs": {
+        "linf": 4.625201760848291e-18,
+        "scale": 0.012981341385063771,
+        "relative": 3.5629613486399885e-16
+      },
+      "jacobian": {
+        "linf": 1.2187749988701212e-10,
+        "scale": 27128820.86935466,
+        "relative": 4.49254689224948e-18
+      },
+      "originalRootRelativeResidual": 9.783908789007494e-19,
+      "periodicRootRelativeResidual": 2.1160808099426467e-18,
+      "periodicRootInOriginalMomentRelativeResidual": 2.245349348682373e-18,
+      "originalMinA": 0.9934729057272774,
+      "periodicMinA": 0.9934729057272774,
+      "originalMinD": 0.9999999796033874,
+      "periodicMinD": 0.9999999796033874,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 2.220446049250313e-16,
+      "originalMilliseconds": 6.902360999999473,
+      "periodicMilliseconds": 28.886281999999483
+    },
+    {
+      "stage": 46,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "x": 0,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 5.99534287967969e-29,
+        "scale": 1.9300382220904145e-7,
+        "relative": 3.106333756015549e-22
+      },
+      "rootGram": {
+        "linf": 4.6629367034256575e-15,
+        "scale": 1.000000000000676,
+        "relative": 4.662936703422506e-15
+      },
+      "rhs": {
+        "linf": 6.4873986179783174e-21,
+        "scale": 0.22744917303645862,
+        "relative": 2.8522410221902324e-20
+      },
+      "jacobian": {
+        "linf": 1.7280399333685637e-11,
+        "scale": 21404783925.96056,
+        "relative": 8.073148223994587e-22
+      },
+      "originalRootRelativeResidual": 1.714329992722959e-17,
+      "periodicRootRelativeResidual": 1.714329992722959e-17,
+      "periodicRootInOriginalMomentRelativeResidual": 1.714329992722959e-17,
+      "originalMinA": 0.9999996291526421,
+      "periodicMinA": 0.9999996291526421,
+      "originalMinD": 0.999999952586644,
+      "periodicMinD": 0.999999952586644,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 1.3995895964397228e-21,
+      "originalMilliseconds": 5.064495999999963,
+      "periodicMilliseconds": 5.969417000000249
+    },
+    {
+      "stage": 46,
+      "rawCell": 0,
+      "rawSegment": 3,
+      "x": 0.5,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 7.888609052210118e-29,
+        "scale": 2.2466557350106816e-7,
+        "relative": 3.511267404826762e-22
+      },
+      "rootGram": {
+        "linf": 5.995204332975845e-15,
+        "scale": 1.00000000000076,
+        "relative": 5.995204332971289e-15
+      },
+      "rhs": {
+        "linf": 1.2316293209808018e-20,
+        "scale": 0.4047316227257068,
+        "relative": 3.0430765767356334e-20
+      },
+      "jacobian": {
+        "linf": 1.3642420526593924e-11,
+        "scale": 40553843980.75218,
+        "relative": 3.3640264861375266e-22
+      },
+      "originalRootRelativeResidual": 1.178185821683195e-16,
+      "periodicRootRelativeResidual": 1.178185821683195e-16,
+      "periodicRootInOriginalMomentRelativeResidual": 1.178185821683195e-16,
+      "originalMinA": 0.9999995797117657,
+      "periodicMinA": 0.9999995797117657,
+      "originalMinD": 0.9999999589118382,
+      "periodicMinD": 0.9999999589118382,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 1.2606232535308142e-21,
+      "originalMilliseconds": 8.218519999999444,
+      "periodicMilliseconds": 1.2586719999999332
+    },
+    {
+      "stage": 120,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "x": 0,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 1.925929944387236e-34,
+        "scale": 8.327346418989372e-10,
+        "relative": 2.3127775013603574e-25
+      },
+      "rootGram": {
+        "linf": 3.552713678800501e-15,
+        "scale": 1.0000000000002698,
+        "relative": 3.5527136787995425e-15
+      },
+      "rhs": {
+        "linf": 7.56871694676555e-29,
+        "scale": 0.000017577766124721505,
+        "relative": 4.305846882398127e-24
+      },
+      "jacobian": {
+        "linf": 2.498001805406602e-16,
+        "scale": 123022915.97434618,
+        "relative": 2.030517473612402e-24
+      },
+      "originalRootRelativeResidual": 4.914652190391491e-25,
+      "periodicRootRelativeResidual": 2.8909718767008767e-26,
+      "periodicRootInOriginalMomentRelativeResidual": 2.601874689030789e-25,
+      "originalMinA": 0.9999999988222702,
+      "periodicMinA": 0.9999999988222702,
+      "originalMinD": 0.9999999999997341,
+      "periodicMinD": 0.9999999999997341,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 3.792287874225349e-24,
+      "originalMilliseconds": 26.095268999999462,
+      "periodicMilliseconds": 5.064287000000149
+    },
+    {
+      "stage": 120,
+      "rawCell": 1,
+      "rawSegment": 2,
+      "x": 0.5,
+      "modes": 16,
+      "declaredN": 512,
+      "independentRows": 128,
+      "multiplicity": 4,
+      "fullRows": 512,
+      "root": {
+        "linf": 3.1296361596292583e-34,
+        "scale": 8.431081465727778e-10,
+        "relative": 3.7120222030248234e-25
+      },
+      "rootGram": {
+        "linf": 3.885780586188048e-15,
+        "scale": 1.000000000000286,
+        "relative": 3.885780586186936e-15
+      },
+      "rhs": {
+        "linf": 7.532873122971901e-29,
+        "scale": 0.00001757871757497102,
+        "relative": 4.285223362196442e-24
+      },
+      "jacobian": {
+        "linf": 3.469446951953614e-16,
+        "scale": 125910725.70053025,
+        "relative": 2.755481657857686e-24
+      },
+      "originalRootRelativeResidual": 5.425263219806332e-25,
+      "periodicRootRelativeResidual": 8.566205083904736e-26,
+      "periodicRootInOriginalMomentRelativeResidual": 2.05678153316671e-25,
+      "originalMinA": 0.9999999988076247,
+      "periodicMinA": 0.9999999988076247,
+      "originalMinD": 0.9999999999997341,
+      "periodicMinD": 0.9999999999997341,
+      "periodicCopyError": 0,
+      "fullRowsLinfDifference": 3.8290424815214066e-24,
+      "originalMilliseconds": 7.090223000000151,
+      "periodicMilliseconds": 1.0238199999994322
+    }
+  ],
+  "maxima": {
+    "rootRelative": 2.508809244955944e-18,
+    "rhsRelative": 3.5629613486399885e-16,
+    "jacobianRelative": 4.49254689224948e-18,
+    "rootAbsolute": 1.0057428355040522e-20,
+    "rhsAbsolute": 6.938893903907228e-18,
+    "jacobianAbsolute": 1.673470251262188e-10,
+    "originalMomentResidualAtPeriodicRoot": 1.429628973961541e-16
+  }
+}
