@@ -309,3 +309,5 @@
 - 2026-11-18 05:14:20（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 raw lambda.05独立有限终态：811点、RMS2.98816e−7，但完整metric6.953429e−6/tensor.0220035；δ/vd与.02不同，不算同g层。保存两态后主动停止列表，exit130只对应中止，lambda.1无成功或失败结论。逐一核原snapshot/CP/chunks/source/输入，保留全部原门；转已固定的.02 g作谱精化。双README真实pull无变化。
 
 - 2026-11-18 05:16:00（UTC+8）｜Astra-held10-7322d0de-20261118：发布m3 raw同g M16入口及两次工程终态：新port缺prefix桥selector已按accepted原值修复，五个物理cut数值全同；v2进入warmup后worker停止无response/退出码，未产prefix内解，不推OOM或数学失败。fixed wrapper逐项拒绝profile/chart/warp/physical port改变，原2e−9尾门及BVP保留。独立核全部input/可用源/command/output hash和完整port一致性。双README真实pull无变化。
+
+- 2026-11-18 05:16:59（UTC+8）｜Astra-held10-7322d0de-20261118：发布当前sparse尾最小同mu engine缓存：DN内固定options，只Map复用+split Set防重复替换并保cutJets对象身份；原全部数值核心/sparseGlobalSolve/gates逐字不动，client仅stderr/returncode诊断。原raw真实final tail的1152stage、350224标量全残差/flowJ/graphs/gains逐值差0，完整Float64hash同，跨stage数组变异/重入差0，engine1152→8。root核全部diff/源/输入hash与有限相等记录，不复跑原解或宣称加速。以独立副本恢复同g M16。双README真实pull无变化。

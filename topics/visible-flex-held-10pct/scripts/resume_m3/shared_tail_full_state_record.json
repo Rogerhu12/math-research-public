@@ -1,0 +1,46 @@
+{
+  "scope": "Complete same-state residual and every stage flow Jacobian comparison, plus direct mutable-output and reentrant-stage check. No new BVP or tail solve, and no universal speed claim.",
+  "input_sha256": "1db6a909142bdde5f71d3b35ba8b574eb0537dac0608444fbade6b31f1f0c51f",
+  "inputAcceptedResidual": 1.375444292097049e-09,
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/compare_shared_tail_state.mjs": "503c7dd581163e141cb2f96918a2ae8629df44fdd8eabc6292a3af29816bd1dd",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53",
+    "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source/scripts/950f-tail-stage-split.mjs": "74ad405a9eefb3c071a2f2164724ceada677b186185f3c0733470ab6e2e270b4"
+  },
+  "modes": 8,
+  "quadrature": 128,
+  "shootingParts": 16,
+  "stages": 1152,
+  "originalEngines": 1152,
+  "sharedEngines": 8,
+  "comparedScalarEntries": 350224,
+  "differences": {
+    "residual": 0,
+    "flow": 0,
+    "jacobian": 0,
+    "deepGraph": 0,
+    "gains": 0,
+    "graphs": 0
+  },
+  "originalNorm": 1.375444292097049e-09,
+  "sharedNorm": 1.375444292097049e-09,
+  "minA": 0.7420033682728756,
+  "minD": 0.9994281510655263,
+  "originalBitHash": "e088dd254e155ce16cb2d3ec5ed700de0ea4dae481d28c15f371cb4766b68941",
+  "sharedBitHash": "e088dd254e155ce16cb2d3ec5ed700de0ea4dae481d28c15f371cb4766b68941",
+  "mutableScratch": {
+    "sameEngineStage": 1,
+    "differentEngineStage": 144,
+    "returnedDerivativeMutation": 0,
+    "returnedJacobianMutation": 0,
+    "returnedRootMutation": 0,
+    "repeatedDerivativeDifference": 0,
+    "repeatedJacobianDifference": 0,
+    "repeatedRootDifference": 0
+  },
+  "originalSeconds": 14.588715221000001,
+  "sharedSeconds": 15.235357061000002,
+  "globalSparseSystem": "Every flow Jacobian, residual block, deep graph, gain and common scale agrees; sparseGlobalSolve and its assembly source are byte unchanged."
+}

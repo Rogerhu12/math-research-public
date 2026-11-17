@@ -1,0 +1,18 @@
+{
+  "scope": "Share same-mu engines in an owned copy of the current sparse tail solver.\n\nOnly allocation and process diagnostics change.  Engine options other than\nmu are fixed within each DN construction; its local cache never crosses a\nDN, physical design, mode count, or quadrature.  Split replacement preserves\nthe engine object captured by cutJets.  No ODE, floating summation, sparse\nlinear system, root guard, shooting residual, or acceptance gate is edited.\n",
+  "copy_from": "/workspace/scratch/f00f08c94d46/nonlinear_tail_work/m3_sparse_shooting/recovered-v2/bundle/topics/visible-flexible-closed-surface",
+  "source_topic": "/workspace/scratch/7322d0dee069/m3_work/shared-sparse-source",
+  "original_sha256": {
+    "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1"
+  },
+  "derived_sha256": {
+    "950f-tail-stage-core.mjs": "5bede8d49d85030d5df7b08e3be4c9050fe2fd53212eb506d5681639c7718a53",
+    "950f-tail-stage-split.mjs": "74ad405a9eefb3c071a2f2164724ceada677b186185f3c0733470ab6e2e270b4",
+    "950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b"
+  },
+  "canonical_unchanged": true,
+  "sparse_global_solve_unchanged": true,
+  "installer_sha256": "578c8397f38acb63891095cdefa2490ea70182d538ab00937192eafeb4cddb66"
+}
