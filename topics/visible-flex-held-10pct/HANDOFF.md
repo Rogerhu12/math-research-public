@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`9a519edb4b1ee4dd4a831d53958c6535e5738e1a`。2026-11-18 06:55:20（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`978138671a62cc62f58667bd81ae9446e72626c0`。2026-11-18 06:58:04（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -17,6 +17,8 @@
 **新主b=.16/λ=.02/M20完整有限metric已过门**：2282点、18个α1步/无域或merit拒绝；metric8.91017947e−7、flow8.88822e−6、Darboux.00415666；qactual=.012488347919833637。完整19c/free c8/J16、eta.1及物理轮廓δ=.030158202455449618/vd=.25018727173023186/vu=.35、wCut=.16保持，改主核不叫旧核精化。仍linear DN且非精确圆弧；见n4-primary-width-b016-m20。旧29520仅观测丢失；v2独立观察器真实exit0。已从该准确新核启动原门actual尾（16250），未有终态；不能用旧w.08真尾态代替。
 
 同全19c/e=.1875的主b探针使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。原b.08 raw λ.02/M16完整metric2.41705e−6，固定g/M20升3.43423e−6、tensor.0160166；峰s=.066873/频84。完整配点cond1约4.278e12，参数H²白化无改善。M24原节点门终止：4460点欲加4906超6000、RMS.0032079，无accepted M24或完整metric；失败CP仅初值。见n4-raw-lambda002-fixed-m24-terminal、free-c8、localization、parameter-and-collocation-scales，不重复白化或盲升M28。
+
+同新b.16全19c的冻结整核法向角图有限比较：M20外参考扰动二阶尾由1.73786e−5增为8.03741e−4（46.25倍）；λ1同c未解候选也更差。保留原bimodal图，不把坐标探针当BVP失败；见n4-full-normal-angle-chart-probe。正性公式严格，但实例rho数字仅沿用原数值guard，不新增超越区间证书。
 
 **旧actual固定g** eta.1/q*.01/δ=.030027177128250468/vd=.2483630655929876：M20/1913点metric1.950429e−9；M24/shared/parts16完整1930点/4尾接受、最终9.82471e−10/A.942545，metric8.15575e−9升4.18倍、Darboux2.46911e−6降29.7%。λ0，非单调收敛/闭合，见n4-actual-fixed-m24-parts16。旧parts8的worker−9与原门5.41094e−9失败分开，mode96非1ULP；见n4-m24-tail-residual-location。不猜OOM。
 

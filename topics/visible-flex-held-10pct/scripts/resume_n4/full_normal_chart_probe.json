@@ -1,0 +1,133 @@
+{
+  "scope": "Read-only numerical coordinate comparison at the identical complete core. The full normal-angle chart worsens the sampled M20 second-jet tail for this input; this is not a BVP failure or a claim about every possible chart. Lambda one uses the same physical controls as an unsolved endpoint candidate.",
+  "collector_sha256": "be33ca07bf0e1c8bda896ef882b91c24f472db49cb68025e93bc9230bd5a68a8",
+  "result_sha256": "378ebc3f789e5a1e070a3d016e60c7cb07cfe0a346f12318c33d1465bffa8c85",
+  "resource_sha256": "23d423328183391737387087a46702387360717a4f249e92886a7fd6da094ded",
+  "executed_script": "/workspace/scratch/7322d0dee069/n4_work/probe_full_core_normal_chart.py",
+  "executed_script_sha256": "d6c0de4b43f0ebe9abf15225abcab2f0ea6e4314f7feba12642e47e222ed023e",
+  "executed_source_root": "/workspace/scratch/7322d0dee069/n4_work",
+  "source_sha256": {
+    "refine_fixed_raw_n4.py": "a753bcd1487bc9e4d3ba8281af116daacb4de460566c3f6cc43533219f068556",
+    "refine_fixed_large_radius.py": "f8431622a3973a0bb525a97c3155eb3cb7bbfe459193446eef91f5a69f943b39",
+    "raw_fixed_core.py": "8d7880398f95a3e5cc52030e2b08682d46571a761060562eaff79a56e4d7c182",
+    "raw_n4_free_complementary.py": "5fbd11f9fa534af6a6871eaca3787627b15d7fea38059481afc6af64ea21efd9",
+    "raw_n4_complementary.py": "4ff42d590fa6ad5a97bf4cf7c1447041260a3aa3a23ff158d90b5f7d2f03c778",
+    "large_radius_local_core.py": "d59f6114b9f24c4c8e128f848c4738655802c0ca5689ae4b8bc56528ada06b39",
+    "bimodal_chart_loader.py": "f2c868076e476a431e35dd7ddbc6bfc684267d05c590c7470446ccd54f7678b6"
+  },
+  "input_checkpoint_sha256": "c2a313809017c27872593db0edda0d2c5c230b273f08383dbae097f473f23677",
+  "input_chunk_hashes": {
+    "raw-lam002-primaryb016-m20-v2_coeff_00.npy.gz": "6fc28477cdd4be51b045b812d9f9e37901f5c40f6cfca1fd84cc6bb85e8f6e74",
+    "raw-lam002-primaryb016-m20-v2_coeff_01.npy.gz": "e973ce8ff3d491c0b140ca34ea13b7b8b0bb50d727e57d28be5ba13426d00396"
+  },
+  "actual_q": 0.012488347919833637,
+  "gauge_q": 0.0125,
+  "controls": 19,
+  "physical_control_sha256": "137180d29e73fd6af36f10b436317cbdf26404b416f630f6e63a9adf70a3c140",
+  "physical_profile": {
+    "direction": "outward",
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    },
+    "vu": 0.35,
+    "ramp": 0.45,
+    "vd": 0.25018727173023186,
+    "delta": 0.030158202455449618
+  },
+  "settings": {
+    "halfwidth": 0.147,
+    "transition": 0.16,
+    "control_transition": 0.16,
+    "homotopy": 0.02,
+    "center": 0.7853981633974483,
+    "bimodal_eta": 0.1
+  },
+  "samples": 8192,
+  "original_chart_warp_e": 0.1875,
+  "scalar_comparison": {
+    "0.02": {
+      "original_bimodal": {
+        "same_solved_core": true,
+        "actual_solved_chart": true,
+        "second_reference_jet_fft_l1_above_81": 1.737856296727681e-05,
+        "second_reference_jet_fft_l1_above_97": 3.538999224699275e-06,
+        "minimum_sampled_du": 0.8125,
+        "normal_chain_identity": null,
+        "normal_arc_inverse_error": null
+      },
+      "material": {
+        "same_solved_core": true,
+        "actual_solved_chart": false,
+        "second_reference_jet_fft_l1_above_81": 0.0006947364931646539,
+        "second_reference_jet_fft_l1_above_97": 0.000192650488571875,
+        "minimum_sampled_du": 1.0,
+        "normal_chain_identity": null,
+        "normal_arc_inverse_error": null
+      },
+      "frozen_full_normal": {
+        "same_solved_core": true,
+        "actual_solved_chart": false,
+        "second_reference_jet_fft_l1_above_81": 0.000803741011882047,
+        "second_reference_jet_fft_l1_above_97": 1.9071298197062408e-05,
+        "minimum_sampled_du": 0.8125602230786841,
+        "normal_chain_identity": {
+          "F": 1.9445556276309617e-13,
+          "F_psi": 1.9445556276309617e-13,
+          "F_psipsi": 1.9445556276309617e-13
+        },
+        "normal_arc_inverse_error": 2.389199948993337e-13
+      }
+    },
+    "1.0": {
+      "original_bimodal": {
+        "same_solved_core": false,
+        "actual_solved_chart": false,
+        "second_reference_jet_fft_l1_above_81": 0.0009093645041883141,
+        "second_reference_jet_fft_l1_above_97": 0.00027281493906833163,
+        "minimum_sampled_du": 0.8125,
+        "normal_chain_identity": null,
+        "normal_arc_inverse_error": null
+      },
+      "material": {
+        "same_solved_core": false,
+        "actual_solved_chart": false,
+        "second_reference_jet_fft_l1_above_81": 0.0008835884141329573,
+        "second_reference_jet_fft_l1_above_97": 0.0002775327388619458,
+        "minimum_sampled_du": 1.0,
+        "normal_chain_identity": null,
+        "normal_arc_inverse_error": null
+      },
+      "frozen_full_normal": {
+        "same_solved_core": false,
+        "actual_solved_chart": false,
+        "second_reference_jet_fft_l1_above_81": 0.00506640550965466,
+        "second_reference_jet_fft_l1_above_97": 0.0010430673630942061,
+        "minimum_sampled_du": 0.7978311990529896,
+        "normal_chain_identity": {
+          "F": 1.976543928527974e-13,
+          "F_psi": 1.9765092340584545e-13,
+          "F_psipsi": 1.976474539588935e-13
+        },
+        "normal_arc_inverse_error": 2.473576898864849e-13
+      }
+    }
+  },
+  "normal_to_original_M20_ratios": {
+    "0.02": 46.248991553298254,
+    "1.0": 5.571369331351747
+  },
+  "spatial_chart_inherited_rho_guard_lower": {
+    "0.02": 0.8125335440132911,
+    "1.0": 0.796922703086724
+  },
+  "terminal_seconds": 12.010698836005758,
+  "child_returncode": 0,
+  "scope_of_chain_test": "Normal geometric derivatives and material-chain derivatives agree at sampled angles. The exact mathematical inequality is theta_psi >= min(1,inf rho_core) for 0<=c<=1; the two reported instance numbers come only from the original numerical core rho guard/allowance. This probe adds no strict continuous transcendental interval certificate. C2 identity at the cut follows from the original fade polynomial.",
+  "executed_probe_field_scope": "The executed source key analytic_continuous_du_lower is preserved in the scratch result and hash; it is interpreted here only as an inherited numerical rho guard, not a new unconditional continuous certificate.",
+  "data_policy": "Full spectral arrays, fields and regenerable multi-cutoff table remain scratch-only; selected scalar comparisons and hashes suffice to replay this decision."
+}
