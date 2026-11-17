@@ -1,0 +1,142 @@
+{
+  "scope": "Exact interface audit of the R39 principal compiler, without metric boxes.\n\nSelected center/lift/short-span locations compare two exact rational\nevaluations.  A single finite Gram-polynomial evaluation checks the R31\nconsumer with a declared auxiliary radius 1; it is not a physical metric\nestimate.  No original map, parameter, source checkpoint or BVP is changed.\n",
+  "command": [
+    "topics/visible-flex-held-10pct/scripts/resume_closed/audit_integral_principal_polynomials.py",
+    "--data",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz",
+    "--prefix-audit",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json",
+    "--checkpoint",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz",
+    "--angular-certificate",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/integral_angular_remainder_execution.json",
+    "--principal",
+    "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_angular_remainders_checked-principal.npz",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3-integral-principal-compiler-audit.json"
+  ],
+  "compiler": {
+    "formula": "P=C+f*(G_N-E_N-q_gauge*V_in)+h0*(E_N+q_gauge*V_in-C0)+h1*(ez-C1)+h2*(b*T_N-C2)",
+    "exact_literal_fraction_coefficients": true,
+    "source_map_changed": false,
+    "gauge_amplitude": "5764607523034235/144115188075855872",
+    "actual_primary_amplitude": "5764607523034235/144115188075855872",
+    "center_width": "5764607523034235/144115188075855872",
+    "circle_degree": 16,
+    "reference_phase": "5764607523034235/18014398509481984",
+    "center_phase": "1441151880758559/4503599627370496",
+    "center_phase_second": "-1404345914324813/140737488355328",
+    "shared_spans": 1003,
+    "planar_coefficients": 344,
+    "height_coefficients": 9,
+    "maximum_absolute_planar_frequency": 515,
+    "maximum_height_frequency": 24,
+    "exact_C3": true,
+    "exact_planar_reflection": true,
+    "exact_height_reflection": true,
+    "radial_degree": 5,
+    "cut_lift_included": false,
+    "inputs_sha256": {
+      "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-shared-data.npz": "12ce9eb20ae36cd4bc3af3d9781c0706b2acc816417b39f5535bec3a69805b9c",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_interface/integral-prefix-audit.json": "ebb28def346a47120d422e4ae5cbf13f2e297f2d68ee30d366d5d3bed8ad2161",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002/seed.json.gz": "67bf84c2f485e500b92378dec67e2186ee0a874ab2f8d763a2a0855edc263607",
+      "topics/visible-flex-held-10pct/scripts/resume_closed/integral_angular_remainder_execution.json": "8b201eb3b8f80c8c383409155b82fdba6716da6aebf28bb0bdd1f2217f225b26",
+      "/workspace/scratch/7322d0dee069/closed_work/m3_raw_lam002_angular_remainders_checked-principal.npz": "ffe8ab324ce0ee977ad2d67812ed2bca607352ce6c887ac7147c6dee4f1e8a2d"
+    },
+    "scope": "An exact finite principal compiler. Principal metric, physical-radius transfer, core remainder and complete closed-map conditions must be combined separately."
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/audit_integral_principal_polynomials.py": "1494634e8093c36cdd95ecba85453ba786afbab958998fd4292bfb3f67bcdec4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/integral_principal_polynomials.py": "6bc942bedf41ce4d43da39780081010061509e6cb8e159e8b12be8af73bd7f91",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/certify_integral_remainder_budget.py": "df9c6c7b7bdb70cac9e5e95dd2ca9f8868e7d3db68e6cad5c4caa90785782603",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/interval_prefix_metric.py": "a0f259872195813b2ce69c917874c8c7e22cdc27e0029a6937103dac1c1b12f0",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/interval_tail_metric.py": "9e28560b72e22a7a9b56ec77147df1093055083b290b473dcce8e150a1b38a88",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7"
+  },
+  "exact_factor_comparison": {
+    "selected_span_count": 11,
+    "selected_span_indices": [
+      0,
+      49,
+      50,
+      197,
+      198,
+      368,
+      369,
+      784,
+      785,
+      786,
+      1002
+    ],
+    "rational_angular_point": [
+      "3/5",
+      "4/5"
+    ],
+    "local_radial_fraction": "2/5",
+    "radial_angular_jet_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "scalar_equalities": 198,
+    "every_difference_exactly_zero": true
+  },
+  "center_width_common_C2_identity": {
+    "coefficient_equalities": 1059,
+    "all_exact": true
+  },
+  "R31_consumer_probe": {
+    "single_span": 0,
+    "local_radial_fraction": "1/2",
+    "angular_point": [
+      "0",
+      "1"
+    ],
+    "auxiliary_radius": "1 (formal interface probe only, not the physical reference)",
+    "complete_exact_A_B_C_values_enclosed": true,
+    "outward_interval_widths_display_only": [
+      2.044989207836562e-12,
+      3.2095377652405287e-16,
+      6.998245150263124e-13
+    ],
+    "maximum_angular_frequency": 1038,
+    "maximum_radial_degree": 20
+  },
+  "shortest_source_span": {
+    "index": 785,
+    "width": "30747203/1125899906842624"
+  },
+  "full_domain_metric_boxes": 0,
+  "principal_metric_certificate": false,
+  "bvp_solves": 0,
+  "seconds": 15.50045436900109,
+  "observed_execution": {
+    "session_id": 19587,
+    "exit_code": 0,
+    "completion_chunk": "b351d4",
+    "seconds": 15.50045436900109,
+    "output_path": "/workspace/scratch/7322d0dee069/closed_work/m3-integral-principal-compiler-audit.json",
+    "output_sha256": "f3ca6213ea34217176a011de3f259fcff00810cbd19f53c98ade9e8c85abfe66"
+  }
+}
