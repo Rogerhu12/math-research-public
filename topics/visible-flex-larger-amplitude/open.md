@@ -117,4 +117,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 **既有路线不重做。** 原内向.997/β扫描/normal-only/fast317/onlyZ109、桥高尾、pulse六设计及meanLP400/M64等完整参数/原额失败见固定全文和notes。R633/635仅排指定设计；R634/636的R/L/chord余>.06001464仅参考；R240共同材料、R632盖、R625/627/629 marker/E3不替实际闭源，未来有限DN不冒真实接口非线性尾。
 
+**18:40执行中断实况。** 两固定证书worker已不在OS、两日志无终态或异常尾，原因未证；Gramprogress704/819、落盘710报告待逐份严核，曲率progress58/818且λ56已落/G56未落。927f无终态，完整方向0/1两接受，SSE1.9976501293934307e−5；方向2/µ.25仅LSMR64日志。checkpoint84b1f854与原预算保持，均不称算法失败；owners制作逐已完报告核身份的最小续接，不重算已完成胞/方向、不刷新总额。
+
 实际全幅尾/Cartesian接缝、连通闭面、固定有内点H/完整D、整像held、含反射商距离、全t reach/强C²、固定g/参数/t后真实精化至机器或原solver容差仍未达；子题/批次/时长/报告均非停点。[逐字副本恢复](notes/2026-11-17-parallel-duplicate-plan-retention.md)/[旧索引恢复](notes/2026-11-17-parallel-historical-index-retention.md)保完整主本/指向/准确历史，不删不同科学数据。
