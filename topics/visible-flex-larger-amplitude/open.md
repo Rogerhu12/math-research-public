@@ -118,3 +118,5 @@ R623 已排除固定有限材料角高度的准确平面圈 ansatz；不排除�
 [R3前三系数方向实际探针](notes/2026-11-17-parallel-numerical-core-target-probes.md)：.1未接受；.001有限BVP接受但quintic真实Gram1.609e−5超限，原子全读不被RMS替代。未继承完整R3核心rho界；现按三个真实collocation响应改善方向，线性预测仍须非线性解与真几何另付。
 
 [三个完整响应选核心方向](notes/2026-11-17-parallel-numerical-core-gram-response.md)已真正重解338维BVP，gap=.9601012148、4966400点quintic Gram5.177e−7、κmax6.29966；线性预测2.140e−7不代实际结果。此为新开放前缀，固定几何精化、真实tail及闭面仍未付。
+
+[短bridge best4真实延拓](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)材料M8从λ.0001→.001→.0014接受，物理φM8从1e−6→1e−5接受；全部用同g有限far32/512深列，完整参数/primitive配置重建与SHA已刊。物理1e−4直接失败；DN/真Gram/深4以后仍未付，正在真实跨角seed后完整重解更高物理M。
