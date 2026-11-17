@@ -7,7 +7,7 @@
 连通闭曲面连续C²等距嵌入族；固定有内点闭H且diamH≥.2D；整像δhold≥.1D，含反射取商δE>0，全时reach≥.03D。同一固定g/物理参数/时间范围metric≤1e−6且加密下降；材料位移、solver success不能替代。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；只稀疏检出本题/自己的workflow。
-- 已读规则提交：`c281929eabef516bc03c12a86fac4de7cd99612a`。2026-11-18 03:30:01（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
+- 已读规则提交：`591ad75b8d9b142e91a6c7fe17e0c55f725fcdee`。2026-11-18 03:33:13（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull并比较，只读变化且立即执行。
 - 每结论同步H并发布；禁force，非快进即真pull --rebase重试。终端push缺认证；已连接GitHub接口可写，临时用每文件<100KB文本的原子非force提交，不传令牌；仍用终端真pull。
 - 证明进results，数值/条件/缺口分开；可重算数组/mesh/checkpoint/CI artifact不入Git/Release。H<10KB，单Markdown<100KB，不写根LOG。达到完成标准后继续增比例。
 
@@ -31,6 +31,8 @@ n4历史：R19/19A已有精确圆弧+中央柱10%条件窗，实际闭合未付�
 
 **n4局域圆化/双谐波角图**：vu.35新双根δ=.03001627156/vd=.24824349139，Kbg估计5.605，耗窗>.1518。eta*=.3674的q005/M16 λ0 metric1.548e−6，q006升7.159e−6；λ.02原正根域失败，M8 λ.2maxnodes。大rho eta1/q001 M12已接受993节点、metric1.118e−7/K5.778，q002 M12也过BVP但metric1.429e−5。每行δ/vd重解，非同g精化；load已按记录eta/core正确复原。见2026-11-18-n4-bimodal-continuation-terminal。eta1实际尾联立入口由根继续，圆化/幅值/沿程谐波激发由n4继续。
 
+n4原q005/eta* M8完整H已获真正非线性尾：原2e−9门下res4.1851e−10、minA.96613，tail metric5.3726e−12/fullD4.0858e−8；N256/parts8/RK16。六次uniform-H加载均完整audit，三早期参数/包装拒绝保留。只是响应，前缀尚未据此重解；见n4-first-actual-nonlinear-tail。根已另跑eta1/q001/M12真联合。
+
 **大rho侧新条件窗**：eta1、φ*=π/4局域修平，精确均值补偿β∈(−2.437434179108102,−2.437434179108101)，真实|c|/q∈(47.53249652612922,47.53249652612923)。q.02/.022有R1.9/1.99、零控制rho>.50125/.45137；R19在全D≤2.65等假设下held/D>.104902/.115401。alpha取2Ra−.001、ell.54，Rvu<1和完整初始保护窗已按大R付清；未来补弧控制须重付rho，真前缀/尾/闭族仍缺。见2026-11-18-n4-large-radius-circle-core及纯Fraction脚本；eta1/q005冷启动maxnodes已登记，低q实际继续。
 
 ## C. 接缝、A图与混合边值
@@ -41,7 +43,7 @@ R17非轴反射二fold须完整cos/sin/mean，不移用象限证书。R20/R22单
 
 R25：固定真实Q/g、完整mean+非mean有限动量，D>d/S>s/A>a可行域凸；Jac=〈A D^(−3/2)φ_iφ_j〉≥a/E^(3/2)Γ，严格单调给唯一根与显式残差→系数差界。原root的局部同伦初值若过同一门，不会换到另一正A根；不保证存在或shoot/闭合。
 
-R26：保持中心半径的三谐波最优圆弧平坦化已证，交错Lagrange权给唯一minimax；n4/a.147/q.06的系数A≈(1.524236,−.639902,.115666)，弧上误差E<8.432943e−5、全圆ρ>.0999241035。新Fraction预算实算，见R26/triple-circle-budget；第三模尚未共振，非精确圆弧/BVP/闭族。
+R26三谐波中心半径约束minimax已证；n4/a.147/q.06弧误差<8.433e−5、rho>.0999241。第三模尚未物理共振，非精确圆弧/闭族，见triple-circle-budget。
 
 R27同原g真背景积分精证：A/wA总变差、B/wB四阶区间Simpson和48胞元深余项，432段/10034叶。λ∈[161.87100490348996,161.8710049035018]，工厂λ比真值严格高(2.0236e−11,3.2089e−11)；未改变g。部分积分/反函数/非旋转连续metric仍须支付，见background_sharp_execution。
 
