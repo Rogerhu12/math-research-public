@@ -1,0 +1,91 @@
+{
+  "schema": "actual-cell-shared-cartesian-c2-v1",
+  "scope": "Minimal source and completed scalar diagnostics; no regenerated arrays. Install as a child cartesian_c2 directory of the exact actual_cell_v2 package.",
+  "files": {
+    "prepare_shared_nodes.py": {
+      "bytes": 1746,
+      "sha256": "b50ba15e6347afc0a2d736227147c1450408d421cc52ca3cb5df28f9c4cd3e1b"
+    },
+    "export_shared_cartesian_jets.mjs": {
+      "bytes": 7033,
+      "sha256": "979ed6d6d581aaaf8ee42e2498320f9bae3deff9e4e401296da5a58a6646143f"
+    },
+    "build_shared_cartesian.py": {
+      "bytes": 9794,
+      "sha256": "3ba8330c538a91343e7e675813471bbb97f7ec5a66a1f5286f1782f0c2055383"
+    },
+    "build_shared_cartesian_polynomial_mean_v1.py": {
+      "bytes": 8860,
+      "sha256": "52cad79edc2fd4be3554fd51e850fb40ed842c6aa5906874fd030a42ae06712b"
+    },
+    "cartesian_c2_notes.md": {
+      "bytes": 7683,
+      "sha256": "05946adc6941a2131285395cf78ed4113b0724f7a894b33b1a19e6689fc0a50e"
+    },
+    "cartesian_c2_completed_scalar.json": {
+      "bytes": 37317,
+      "sha256": "b6bafbfcd97b4cc95a1d83fe27a785307bb257f433f974d6049b2a4be846aef5"
+    }
+  },
+  "immutable_parent_dependencies": [
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/cartesian_interpolant.py",
+      "target_relative_to_this_directory": "../cartesian_interpolant.py",
+      "bytes": 5881,
+      "sha256": "c5d3f8575eb345d5badb1e7c4a52c313b9b009a056165cc46fa44d8c66617f8a"
+    },
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/export_actual_cell.mjs",
+      "target_relative_to_this_directory": "../export_actual_cell.mjs",
+      "bytes": 9080,
+      "sha256": "167c449cde685ca7251a616e9c93e5ee41d2457660fe5aded938576064eb9724"
+    },
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/probe_actual_cell.py",
+      "target_relative_to_this_directory": "../probe_actual_cell.py",
+      "bytes": 6907,
+      "sha256": "a43a4e7ba04897a32724aab889f9e6d33d6b2e22b1decfed2c2ca840e7d1e35e"
+    },
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/physical_mixed_fields.py",
+      "target_relative_to_this_directory": "../physical_mixed_fields.py",
+      "bytes": 2607,
+      "sha256": "5bd1ee45d6ee8c1a407f386434339ebf0f344bfc6ad975068c70ebd42c85a22c"
+    },
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/mixed_bvp.py",
+      "target_relative_to_this_directory": "../mixed_bvp.py",
+      "bytes": 7035,
+      "sha256": "d54a426b0868ee76a7869e2fd874425ee433390ed415fc0c7aa8531b8baa62f0"
+    },
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/mu_free_fields.py",
+      "target_relative_to_this_directory": "../mu_free_fields.py",
+      "bytes": 4612,
+      "sha256": "4321708a995313d944ee24119a765fa36959525c9b0ec8e82c154dd36d99c6c0"
+    },
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/recover_actual_dependencies.py",
+      "target_relative_to_this_directory": "../recover_actual_dependencies.py",
+      "bytes": 1238,
+      "sha256": "fb5d4b4c2cd0c4d5c62fe71f3a0bfe6febbce972516c6646b15cf90c8ec232de"
+    },
+    {
+      "revision": "48c21e38b311dbf9685fa3518e1bf89b645bdbc2",
+      "path": "topics/visible-flex-held-10pct/scripts/nonlinear_tail/mixed_dae/actual_cell/actual_cell_manifest.json",
+      "target_relative_to_this_directory": "../actual_cell_manifest.json",
+      "bytes": 20797,
+      "sha256": "c83f8dcd9d421610e1f43fcaeb7b22b02eb2ed9507c836e2752a2841bd3ef708"
+    }
+  ],
+  "parent_dependency_recovery": "Run ../recover_actual_dependencies.py with ../actual_cell_manifest.json; that manifest restores the already smoke-tested 40-file historical factory closure.",
+  "historical_source_note": "The polynomial-mean v1 file is the exact bytes used by the first completed comparison. The latest builder has an exact-background option and corrected implementation comments; the earlier completed values are retained.",
+  "omitted_regenerated_data": "Original accepted checkpoint, sampled Cartesian jets, mixed state/Gram arrays, and full Fourier node coefficients are recreated in user-selected scratch. Their hashes and recipe are in the scalar record."
+}

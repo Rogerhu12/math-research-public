@@ -93,3 +93,5 @@
 - 2026-11-17 23:36:43（UTC+8）｜Astra-held10-f00f08c9-20261117：发表真实首cell六组混合BVP结果、physical h/p完整等价变换及所有坏Cartesian插值，含K达8e4和rr跳的明确反例诊断。40源空目录实际factory恢复已验；未以节点success称C²，继续共享Cartesian二jet及同g加密。
 
 - 2026-11-17 23:42:09（UTC+8）｜Astra-held10-f00f08c9-20261117：独立审读后发表R19偶数中心对称换握持、精确中央圆柱H及四重/二重标记的完整非全等条件证明；Fraction核c/位移及三比例窗。全闭族未构造，普通n4有限圆弧metric仍失败；继续负K轮廓和真实非线性BVP。
+
+- 2026-11-17 23:46:43（UTC+8）｜Astra-held10-f00f08c9-20261117：审读发表原首cell的精确背景+共享Cartesian二jet五次C²代表、完整mean和weighted背景正则性；同guniform16→32二阶误差反增、critical入网对照及高模边界限制一并保留。无等距极限/闭合结论；继续新m3联合与n4圆弧构造。
