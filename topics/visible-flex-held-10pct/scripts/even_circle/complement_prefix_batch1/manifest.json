@@ -1,0 +1,40 @@
+{
+  "scope": "First actual prefix tests of the new complementary support controls. All use only the actual LINEAR finite n4 tail port, not a coupled nonlinear tail. Different q/lambda/delta designs are not fixed-g refinements.",
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 1266,
+      "sha256": "c3734994183093b2d87c5e895e894d3ed67e71477eca51e265438950fac82f5a"
+    },
+    {
+      "file": "complement_cache_change.json",
+      "bytes": 474,
+      "sha256": "7f6f1e9c9a4ad5d86ca0ec929dc6ba2e0846bf61a5e4ab3792b9f60b44936415"
+    },
+    {
+      "file": "complement_plateau_prefix.py",
+      "bytes": 8790,
+      "sha256": "84823d9db3ff7ddb15642069b0744dc4881f8337e4fa07d1ace697a75fe373c6"
+    },
+    {
+      "file": "complement_plateau_prefix_cached.py",
+      "bytes": 8989,
+      "sha256": "e89ca4b501de51268c81b21456f0220e35364a6e415ec9c68b06e43eba7e1fb8"
+    },
+    {
+      "file": "completed_runs.json",
+      "bytes": 26041,
+      "sha256": "cb06f7b69d589790da2e12dd58018134d248e7efa05d973843468a23aea93304"
+    },
+    {
+      "file": "mode4_physical_config24.json",
+      "bytes": 2086,
+      "sha256": "dd4a2440a6e7a539670a970e58abc254f6977bd34c05d3b3dd3fe8110fff8426"
+    },
+    {
+      "file": "prepare_runtime.py",
+      "bytes": 2049,
+      "sha256": "01ce163ace8ea1cccefb02c2dee968657189369bb3aff8f67908c6c369b35242"
+    }
+  ]
+}

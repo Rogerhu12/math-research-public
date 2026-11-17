@@ -1,0 +1,89 @@
+{
+  "scope": "C4 exact-defined complementary support controls, rational coefficient/derivative enclosures, finite API audits. No BVP or closed geometry is solved.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8395,
+      "sha256": "0b98e3c95933aa500fba9ab789ffa6075787d911f7b46ecf6bbe4c421060736a"
+    },
+    {
+      "path": "actual_direction_input.json",
+      "bytes": 658,
+      "sha256": "6dea43ac30940c7ca31cd4e40c21d01e728220d35fde8cb0a9eb5dd69e94db79"
+    },
+    {
+      "path": "audit_small_parameter_steps.py",
+      "bytes": 2625,
+      "sha256": "a899649a8ef2246e5459dee3425313f7ebd58d500aa9ea00d6e694767412b6da"
+    },
+    {
+      "path": "audit_uniform_core.py",
+      "bytes": 5703,
+      "sha256": "9095b9227869c8ff502219d1840e3c3bb026e9a44598719c9110abd68dbc5684"
+    },
+    {
+      "path": "compare_complement_controls.py",
+      "bytes": 7779,
+      "sha256": "5455920985e434de19b5f3e1d023fceb4236c8fd45700dc61160fe90456e0e33"
+    },
+    {
+      "path": "comparison_summary.json",
+      "bytes": 35166,
+      "sha256": "f4a32eef85c71a92150f502cc19f79bdd21e403ad392803cc7fa1b01c16c36c5"
+    },
+    {
+      "path": "complementary_moment_basis.py",
+      "bytes": 12206,
+      "sha256": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c"
+    },
+    {
+      "path": "core_api_audit.json",
+      "bytes": 8536,
+      "sha256": "d9ef0ab888e3a5a686e4f35765ad2781156a664dbd96a16fe2cb77e01a759fdb"
+    },
+    {
+      "path": "empty_restore_completed.json",
+      "bytes": 4875,
+      "sha256": "f56ad5847c786688ed68dcbf5a766331b98ff91cd3a87a8995825a39cc4417f2"
+    },
+    {
+      "path": "linear_circle_compatibility.md",
+      "bytes": 4765,
+      "sha256": "aa99b7d15b2398e42ef4ec33b5290cd1376b98b605b67440e0ba84538c765e4f"
+    },
+    {
+      "path": "moment_interval_bounds.py",
+      "bytes": 4215,
+      "sha256": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+    },
+    {
+      "path": "recover_reference_sources.py",
+      "bytes": 1166,
+      "sha256": "a386fa5500754681d8904bfc4ddd6238db2f5dfbd2929921c721b5ab719b3f9c"
+    },
+    {
+      "path": "reference_sources.json",
+      "bytes": 1125,
+      "sha256": "2cf09d08eed7b7478c70e1bee883df3b9235ce3c678ea97cb71fc2d746876b85"
+    },
+    {
+      "path": "regenerate_all.py",
+      "bytes": 2712,
+      "sha256": "b1300a3e7f691b8cd1156ac866f4a59a234debef3342448ffea553a413a1bea9"
+    },
+    {
+      "path": "small_parameter_audit.json",
+      "bytes": 3839,
+      "sha256": "92a8dd24358fb6a4ca78c76f6993d19064da26f238feeb2613e1632a8a999184"
+    },
+    {
+      "path": "uniform_complement_core.py",
+      "bytes": 9993,
+      "sha256": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82"
+    }
+  ],
+  "source_reference_commit": "bf5e9f92c3befea1cc5173c33bf9130ccc3b320d",
+  "historical_reference_files": 3,
+  "empty_restore_actual_run": true,
+  "regenerated_solver_arrays_included": false
+}

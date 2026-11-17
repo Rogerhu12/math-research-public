@@ -1,0 +1,724 @@
+{
+  "scope": "First actual prefix tests of the new complementary support controls. All use only the actual LINEAR finite n4 tail port, not a coupled nonlinear tail. Different q/lambda/delta designs are not fixed-g refinements.",
+  "runs": [
+    {
+      "name": "complement-v40-r45-q005-m6",
+      "raw_record_sha256": "5a429e27fdd72f09663305209a5ed780d2802659aa0b797444e0c5b9670adf97",
+      "captured_driver": "complement_plateau_prefix.py",
+      "captured_driver_sha256": "84823d9db3ff7ddb15642069b0744dc4881f8337e4fa07d1ace697a75fe373c6",
+      "runtime_top_level_source_hash_saved": false,
+      "replay_arguments": {
+        "out": "runs/complement-v40-r45-q005-m6",
+        "modes": 6,
+        "q": 0.005,
+        "halfwidth": 0.145,
+        "transition": 0.08,
+        "control_transition": 0.08,
+        "lock_fundamental": false,
+        "center": 0.0,
+        "lambdas": [
+          0.0,
+          0.01,
+          0.03,
+          0.1,
+          0.3,
+          0.6,
+          1.0
+        ],
+        "nodes": 351,
+        "max_nodes": 4500,
+        "tol": 1e-06,
+        "angular": 512,
+        "restart": null,
+        "exact_lift": true,
+        "rank": false,
+        "fixed": false,
+        "profile": "compact-v40-40-r45/profile.json",
+        "osculating": false,
+        "chart_file": "compact-v40-40-r45/chart.json",
+        "source_topic": "SOURCE_TOPIC",
+        "port_file": null
+      },
+      "rows": [
+        {
+          "q": 0.005,
+          "modes": 6,
+          "homotopy": 0.0,
+          "success": true,
+          "nodes": 559,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.89627049850779e-07,
+          "max_bc": 2.3050574410696333e-14,
+          "delta": 0.030149887428001756,
+          "physical_core_corrections": [
+            4.047335312640105e-06,
+            -4.893811840357278e-08,
+            1.1320790657479322e-10,
+            -4.19787174179491e-12,
+            -3.054390488390074e-13
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 1.8073175254120364e-07,
+              "scale": 1.8073188836063473e-07
+            },
+            {
+              "step": 3e-05,
+              "max_error": 3.133976966801464e-07,
+              "scale": 3.133978324995775e-07
+            },
+            {
+              "step": 1e-05,
+              "max_error": 3.4166816054548225e-08,
+              "scale": 3.416642774158529e-08
+            }
+          ],
+          "seconds": 43.875845193862915,
+          "summary": {
+            "metric_l1": 5.667602717382042e-09,
+            "flow_defect": 6.222376279508828e-09,
+            "darboux_l1": 6.74842664489723e-05,
+            "kappa_sample": 7.964363898029326,
+            "radius_max": 1.0327136511630677,
+            "height_max": 0.6455472613797447,
+            "root_min": 0.003992518387426203,
+            "chart_rho_min": 0.925,
+            "terminal_height_coeff_max": 3.016081420590232e-06
+          },
+          "core": {
+            "rho_lower_conservative": 0.92468495156866,
+            "rho_min_sample": 0.9248040319924073,
+            "rho_max_sample": 1.0746859463734226,
+            "curvature_max_sample": 1.081310164538956,
+            "radius_max_sample": 1.005000528973658,
+            "plateau_radius_at_one": 0.925,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "7b37b0e06748ffbc2762d5f48ed93d2de9f55daa33b5de695dd7322cac75a653"
+        },
+        {
+          "q": 0.005,
+          "modes": 6,
+          "homotopy": 0.01,
+          "success": true,
+          "nodes": 561,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.862829472337526e-07,
+          "max_bc": 3.58046925441613e-15,
+          "delta": 0.030149898874594763,
+          "physical_core_corrections": [
+            -8.808791631666125e-07,
+            -1.1895108721625309e-06,
+            -1.0736735678355126e-07,
+            1.3508289235269269e-07,
+            7.425279110241971e-07
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 2.3215900820457332e-07,
+              "scale": 0.0044269546906422425
+            },
+            {
+              "step": 3e-05,
+              "max_error": 2.2265745114854515e-08,
+              "scale": 0.004426945709696106
+            },
+            {
+              "step": 1e-05,
+              "max_error": 3.233635508187542e-08,
+              "scale": 0.004426938872132975
+            }
+          ],
+          "seconds": 22.90911889076233,
+          "summary": {
+            "metric_l1": 3.2392609804131543e-06,
+            "flow_defect": 9.894436294874016e-05,
+            "darboux_l1": 0.005296672985960291,
+            "kappa_sample": 7.96480720672132,
+            "radius_max": 1.0327048434908719,
+            "height_max": 0.6455476088219233,
+            "root_min": 0.003992790527163059,
+            "chart_rho_min": 0.925,
+            "terminal_height_coeff_max": 3.0058063084218322e-06
+          },
+          "core": {
+            "rho_lower_conservative": 0.9241751634461439,
+            "rho_min_sample": 0.9247523167327929,
+            "rho_max_sample": 1.0740442029583401,
+            "curvature_max_sample": 1.0813706350399444,
+            "radius_max_sample": 1.0049839817035702,
+            "plateau_radius_at_one": 0.925,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "d1dd7b25da349e491e8a5a1a54ae59f527af84f1f4ddcedb22e83997096c89b1"
+        },
+        {
+          "q": 0.005,
+          "modes": 6,
+          "homotopy": 0.03,
+          "success": true,
+          "nodes": 561,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.796132884175515e-07,
+          "max_bc": 4.3267094086445995e-12,
+          "delta": 0.03014998082594067,
+          "physical_core_corrections": [
+            -1.0737446972059961e-05,
+            -3.472179439664232e-06,
+            -3.2365172417476087e-07,
+            4.2359626029626935e-07,
+            1.7727049929688302e-06
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 6.118103704488842e-07,
+              "scale": 0.012067191540049182
+            },
+            {
+              "step": 3e-05,
+              "max_error": 9.314449872746272e-08,
+              "scale": 0.012067117086483961
+            },
+            {
+              "step": 1e-05,
+              "max_error": 3.064475760278097e-07,
+              "scale": 0.01206711402226429
+            }
+          ],
+          "seconds": 15.394007205963135,
+          "summary": {
+            "metric_l1": 7.877268019156234e-06,
+            "flow_defect": 0.0002484888431925322,
+            "darboux_l1": 0.01762367206089871,
+            "kappa_sample": 7.963826540723574,
+            "radius_max": 1.032687349028388,
+            "height_max": 0.6455488003480485,
+            "root_min": 0.003993329668145695,
+            "chart_rho_min": 0.925,
+            "terminal_height_coeff_max": 2.9852861722818073e-06
+          },
+          "core": {
+            "rho_lower_conservative": 0.9233320185699749,
+            "rho_min_sample": 0.9248985089194416,
+            "rho_max_sample": 1.0730677933893973,
+            "curvature_max_sample": 1.0811997104074689,
+            "radius_max_sample": 1.0049505339082747,
+            "plateau_radius_at_one": 0.925,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "72097513cbfa0843fc90812b480887aff3ffd18131054d7fb7679505a17cd9da"
+        },
+        {
+          "q": 0.005,
+          "modes": 6,
+          "homotopy": 0.1,
+          "success": true,
+          "nodes": 561,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.597733344309178e-07,
+          "max_bc": 1.5183188040168716e-11,
+          "delta": 0.03015881181595131,
+          "physical_core_corrections": [
+            -4.520137024144125e-05,
+            -1.1780477774899702e-05,
+            -1.5843738999228658e-06,
+            9.724171249695538e-07,
+            -4.572520156903493e-06
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 1.0813982907267872e-06,
+              "scale": 0.08044645731453591
+            },
+            {
+              "step": 3e-05,
+              "max_error": 3.9021197475818566e-07,
+              "scale": 0.08044600698695133
+            },
+            {
+              "step": 1e-05,
+              "max_error": 3.1824842002624645e-07,
+              "scale": 0.08044598591132734
+            }
+          ],
+          "seconds": 21.870144844055176,
+          "summary": {
+            "metric_l1": 0.0001223986263493293,
+            "flow_defect": 0.006499900883097974,
+            "darboux_l1": 0.3282134084508921,
+            "kappa_sample": 7.924290017910796,
+            "radius_max": 1.032637166609143,
+            "height_max": 0.6456259626521876,
+            "root_min": 0.003994701291512803,
+            "chart_rho_min": 0.925,
+            "terminal_height_coeff_max": 2.9141691947849736e-06
+          },
+          "core": {
+            "rho_lower_conservative": 0.9171624172815673,
+            "rho_min_sample": 0.9300206062534254,
+            "rho_max_sample": 1.0760470878621162,
+            "curvature_max_sample": 1.0752449927195544,
+            "radius_max_sample": 1.004825350186302,
+            "plateau_radius_at_one": 0.925,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "6915f5571fcd0a58a40ef62de562e7ba3f0315dd6443dca04188979ff43b632a"
+        },
+        {
+          "q": 0.005,
+          "modes": 6,
+          "homotopy": 0.3,
+          "success": false,
+          "nodes": 4201,
+          "message": "The maximum number of mesh nodes is exceeded.",
+          "max_rms": 0.3025237914405408,
+          "max_bc": 0.00021367467022222544,
+          "delta": 0.029958976463386813,
+          "physical_core_corrections": [
+            -0.00014554016574924397,
+            -2.7630549021537957e-05,
+            8.183413304541183e-06,
+            2.0261347505443344e-05,
+            5.643865390653339e-05
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 5.742592230850718e-06,
+              "scale": 3.4518046352659257
+            },
+            {
+              "step": 3e-05,
+              "max_error": 5.133147337188504e-07,
+              "scale": 3.4517999414570313
+            },
+            {
+              "step": 1e-05,
+              "max_error": 7.312691696625961e-08,
+              "scale": 3.4517995274442255
+            }
+          ],
+          "seconds": 372.4322850704193,
+          "summary": {},
+          "core": {
+            "rho_lower_conservative": 0.7471413304035287,
+            "rho_min_sample": 0.9030028584799678,
+            "rho_max_sample": 1.0877140971979722,
+            "curvature_max_sample": 1.107416206503829,
+            "radius_max_sample": 1.0045417612064662,
+            "plateau_radius_at_one": 0.925,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "1d0afafe8b5208e3e856e7a496240820c3d1d939ea2eda52c13283c4fa393b40"
+        }
+      ]
+    },
+    {
+      "name": "complement-v40-r45-q010-m8-lam0",
+      "raw_record_sha256": "9c79ac7ed4dd18d87d9a3198dba07d7431b6bfa55dbf52084a97c08440f907eb",
+      "captured_driver": "complement_plateau_prefix.py",
+      "captured_driver_sha256": "84823d9db3ff7ddb15642069b0744dc4881f8337e4fa07d1ace697a75fe373c6",
+      "runtime_top_level_source_hash_saved": false,
+      "replay_arguments": {
+        "out": "runs/complement-v40-r45-q010-m8-lam0",
+        "modes": 8,
+        "q": 0.01,
+        "halfwidth": 0.145,
+        "transition": 0.08,
+        "control_transition": 0.08,
+        "lock_fundamental": false,
+        "center": 0.0,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 351,
+        "max_nodes": 4500,
+        "tol": 1e-06,
+        "angular": 512,
+        "restart": "runs/complement-v40-r45-q005-m6-lam0.json.gz",
+        "exact_lift": true,
+        "rank": false,
+        "fixed": false,
+        "profile": "compact-v40-40-r45/profile.json",
+        "osculating": false,
+        "chart_file": "compact-v40-40-r45/chart.json",
+        "source_topic": "SOURCE_TOPIC",
+        "port_file": null
+      },
+      "rows": [
+        {
+          "q": 0.01,
+          "modes": 8,
+          "homotopy": 0.0,
+          "success": true,
+          "nodes": 567,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.994887158803698e-07,
+          "max_bc": 3.1826521093714003e-15,
+          "delta": 0.030149073713199883,
+          "physical_core_corrections": [
+            1.6184631028373834e-05,
+            -3.9109297580058016e-07,
+            1.8176935694299966e-09,
+            -1.342990829111957e-10,
+            -2.1643603423012095e-11,
+            -3.5868850433478603e-13,
+            1.1198681752078533e-14
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 2.950663469617615e-06,
+              "scale": 0.01977261988965268
+            },
+            {
+              "step": 3e-05,
+              "max_error": 2.655156650203938e-07,
+              "scale": 0.019769967607010355
+            },
+            {
+              "step": 1e-05,
+              "max_error": 1.5300993865707173e-07,
+              "scale": 0.01976974760541881
+            }
+          ],
+          "seconds": 31.51343059539795,
+          "summary": {
+            "metric_l1": 1.6856861156237446e-08,
+            "flow_defect": 2.215497667759554e-08,
+            "darboux_l1": 0.0001535657367599943,
+            "kappa_sample": 8.533710752304305,
+            "radius_max": 1.0352909182252814,
+            "height_max": 0.6454286762976411,
+            "root_min": 0.003912980139745836,
+            "chart_rho_min": 0.85,
+            "terminal_height_coeff_max": 6.029629258024423e-06
+          },
+          "core": {
+            "rho_lower_conservative": 0.8487019743571865,
+            "rho_min_sample": 0.8492491100703966,
+            "rho_max_sample": 1.1487107242635393,
+            "curvature_max_sample": 1.1775108011795352,
+            "radius_max_sample": 1.0100015810166758,
+            "plateau_radius_at_one": 0.85,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "4065bbf06829dbf6ae6b770c1483ff82b01e976861bc46d626f70e9ff2bc9646"
+        }
+      ]
+    },
+    {
+      "name": "complement-v40-r45-q020-m12-lam0",
+      "raw_record_sha256": "6c322a3b41e8edfc70e60e5da2c8f564a2037bcd692dc550d5964eb8016dd4d3",
+      "captured_driver": "complement_plateau_prefix_cached.py",
+      "captured_driver_sha256": "e89ca4b501de51268c81b21456f0220e35364a6e415ec9c68b06e43eba7e1fb8",
+      "runtime_top_level_source_hash_saved": false,
+      "replay_arguments": {
+        "out": "runs/complement-v40-r45-q020-m12-lam0",
+        "modes": 12,
+        "q": 0.02,
+        "halfwidth": 0.145,
+        "transition": 0.08,
+        "control_transition": 0.08,
+        "lock_fundamental": false,
+        "center": 0.0,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 351,
+        "max_nodes": 4500,
+        "tol": 1e-06,
+        "angular": 512,
+        "restart": "runs/complement-v40-r45-q010-m8-lam0-lam0.json.gz",
+        "exact_lift": true,
+        "rank": false,
+        "fixed": false,
+        "profile": "compact-v40-40-r45/profile.json",
+        "osculating": false,
+        "chart_file": "compact-v40-40-r45/chart.json",
+        "source_topic": "SOURCE_TOPIC",
+        "port_file": "mode4_port24.json"
+      },
+      "rows": [
+        {
+          "q": 0.02,
+          "modes": 12,
+          "homotopy": 0.0,
+          "success": true,
+          "nodes": 573,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.925039477793085e-07,
+          "max_bc": 1.7920432146040203e-15,
+          "delta": 0.030145766083405717,
+          "physical_core_corrections": [
+            6.485164166389896e-05,
+            -3.1292333127751683e-06,
+            2.966341541605868e-08,
+            -4.331806551595494e-09,
+            -1.3820526996051811e-09,
+            -4.5490951023687786e-11,
+            2.472204752126224e-12,
+            1.0757482037321095e-13,
+            1.781837345022378e-15,
+            1.8773422988777275e-16,
+            -2.1284391114814063e-14
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 0.0011855104529210903,
+              "scale": 0.31379431265729013
+            },
+            {
+              "step": 3e-05,
+              "max_error": 0.0001070534497803477,
+              "scale": 0.3127158556541494
+            },
+            {
+              "step": 1e-05,
+              "max_error": 1.1917742755995775e-05,
+              "scale": 0.31262071994712504
+            }
+          ],
+          "seconds": 45.09635949134827,
+          "summary": {
+            "metric_l1": 6.56896238113845e-08,
+            "flow_defect": 1.0523472455096852e-07,
+            "darboux_l1": 0.0005971443175796863,
+            "kappa_sample": 9.735247371244881,
+            "radius_max": 1.0404933066402609,
+            "height_max": 0.6449489092712224,
+            "root_min": 0.003756915346242895,
+            "chart_rho_min": 0.7,
+            "terminal_height_coeff_max": 1.2056420872869278e-05
+          },
+          "core": {
+            "rho_lower_conservative": 0.6953168710662133,
+            "rho_min_sample": 0.697222075227404,
+            "rho_max_sample": 1.2945930739758937,
+            "curvature_max_sample": 1.4342632505917756,
+            "radius_max_sample": 1.020004062555545,
+            "plateau_radius_at_one": 0.7,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "9021a89eb41444126189b314ed31f70ec6bccbd848bc6b99a29567cd1ecd4ef5"
+        }
+      ]
+    },
+    {
+      "name": "complement-v40-r45-q030-m12-lam0",
+      "raw_record_sha256": "c96247558c1ed78a052aabaef7fa77a624370565677666d67d76cbd6526bc49b",
+      "captured_driver": "complement_plateau_prefix_cached.py",
+      "captured_driver_sha256": "e89ca4b501de51268c81b21456f0220e35364a6e415ec9c68b06e43eba7e1fb8",
+      "runtime_top_level_source_hash_saved": false,
+      "replay_arguments": {
+        "out": "runs/complement-v40-r45-q030-m12-lam0",
+        "modes": 12,
+        "q": 0.03,
+        "halfwidth": 0.145,
+        "transition": 0.08,
+        "control_transition": 0.08,
+        "lock_fundamental": false,
+        "center": 0.0,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 351,
+        "max_nodes": 4500,
+        "tol": 1e-06,
+        "angular": 512,
+        "restart": "runs/complement-v40-r45-q020-m12-lam0-lam0.json.gz",
+        "exact_lift": true,
+        "rank": false,
+        "fixed": false,
+        "profile": "compact-v40-40-r45/profile.json",
+        "osculating": false,
+        "chart_file": "compact-v40-40-r45/chart.json",
+        "source_topic": "SOURCE_TOPIC",
+        "port_file": "mode4_port24.json"
+      },
+      "rows": [
+        {
+          "q": 0.03,
+          "modes": 12,
+          "homotopy": 0.0,
+          "success": true,
+          "nodes": 584,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.815449958018635e-07,
+          "max_bc": 8.375405778041746e-15,
+          "delta": 0.030140044245048254,
+          "physical_core_corrections": [
+            0.0001466660683471317,
+            -1.0599114855781019e-05,
+            1.5584462527371382e-07,
+            -3.355784072179678e-08,
+            -1.5805026397646625e-08,
+            -7.71154459359341e-10,
+            6.399572000117243e-11,
+            4.4399405271962785e-12,
+            -3.9542818095055473e-13,
+            5.079051549687112e-12,
+            2.2212418694129548e-11
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 0.004673762974349321,
+              "scale": 1.2014853898828324
+            },
+            {
+              "step": 3e-05,
+              "max_error": 0.000423672146056181,
+              "scale": 1.201604550743654
+            },
+            {
+              "step": 1e-05,
+              "max_error": 4.7095403215180465e-05,
+              "scale": 1.2016203059897812
+            }
+          ],
+          "seconds": 82.15579986572266,
+          "summary": {
+            "metric_l1": 1.3327089989229842e-07,
+            "flow_defect": 1.2589692626494574e-07,
+            "darboux_l1": 0.0012184796389232246,
+            "kappa_sample": 11.040610471121076,
+            "radius_max": 1.045788059079805,
+            "height_max": 0.6441446845462933,
+            "root_min": 0.0036046476717783715,
+            "chart_rho_min": 0.5499999999999999,
+            "terminal_height_coeff_max": 1.809691817672166e-05
+          },
+          "core": {
+            "rho_lower_conservative": 0.5412555128838972,
+            "rho_min_sample": 0.5441730739560049,
+            "rho_max_sample": 1.4372854644726598,
+            "curvature_max_sample": 1.8376506443625464,
+            "radius_max_sample": 1.0300085625259203,
+            "plateau_radius_at_one": 0.55,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "87e9e12c452ceabc311c6e635af8222cb20f481adcf355d1c09096733f866708"
+        }
+      ]
+    },
+    {
+      "name": "complement-v40-r45-q040-m16-lam0",
+      "raw_record_sha256": "b3c12fd851bc6cf00ec6f1cf66cf57fa04c9fb5d7576906bb9adcd39814828db",
+      "captured_driver": "complement_plateau_prefix_cached.py",
+      "captured_driver_sha256": "e89ca4b501de51268c81b21456f0220e35364a6e415ec9c68b06e43eba7e1fb8",
+      "runtime_top_level_source_hash_saved": false,
+      "replay_arguments": {
+        "out": "runs/complement-v40-r45-q040-m16-lam0",
+        "modes": 16,
+        "q": 0.04,
+        "halfwidth": 0.145,
+        "transition": 0.08,
+        "control_transition": 0.08,
+        "lock_fundamental": false,
+        "center": 0.0,
+        "lambdas": [
+          0.0
+        ],
+        "nodes": 351,
+        "max_nodes": 4500,
+        "tol": 1e-06,
+        "angular": 768,
+        "restart": "runs/complement-v40-r45-q030-m12-lam0-lam0.json.gz",
+        "exact_lift": true,
+        "rank": false,
+        "fixed": false,
+        "profile": "compact-v40-40-r45/profile.json",
+        "osculating": false,
+        "chart_file": "compact-v40-40-r45/chart.json",
+        "source_topic": "SOURCE_TOPIC",
+        "port_file": "mode4_port24.json"
+      },
+      "rows": [
+        {
+          "q": 0.04,
+          "modes": 16,
+          "homotopy": 0.0,
+          "success": true,
+          "nodes": 594,
+          "message": "The algorithm converged to the desired accuracy.",
+          "max_rms": 9.965145967980746e-07,
+          "max_bc": 1.1906607734077893e-15,
+          "delta": 0.03013156690254162,
+          "physical_core_corrections": [
+            0.0002629258635303996,
+            -2.529473232886499e-05,
+            5.198155526535556e-07,
+            -1.462000575334592e-07,
+            -8.981343587094093e-08,
+            -5.749347639844056e-09,
+            6.515658862926367e-10,
+            5.3444775614233674e-11,
+            2.9429484746721812e-12,
+            3.0830538015231094e-12,
+            2.9024212848263954e-13,
+            -2.182894217424115e-13,
+            -4.523629598051352e-13,
+            -8.336965764082124e-13,
+            -3.3097644011349523e-12
+          ],
+          "parameter_jac_check": [
+            {
+              "step": 0.0001,
+              "max_error": 0.13727039564102195,
+              "scale": 12.829071550747267
+            },
+            {
+              "step": 3e-05,
+              "max_error": 0.012270688000174421,
+              "scale": 12.895114964038454
+            },
+            {
+              "step": 1e-05,
+              "max_error": 0.0013635363433830844,
+              "scale": 12.900136833712674
+            }
+          ],
+          "seconds": 107.13231372833252,
+          "summary": {
+            "metric_l1": 1.7989345358154845e-07,
+            "flow_defect": 1.6029821975374373e-07,
+            "darboux_l1": 0.0017009580173233392,
+            "kappa_sample": 12.479932105525705,
+            "radius_max": 1.0512168326498204,
+            "height_max": 0.6430130924742234,
+            "root_min": 0.0034560176884337324,
+            "chart_rho_min": 0.3999999999999999,
+            "terminal_height_coeff_max": 2.4164304323626074e-05
+          },
+          "core": {
+            "rho_lower_conservative": 0.38645809729619673,
+            "rho_min_sample": 0.3904416339576732,
+            "rho_max_sample": 1.5762665728479732,
+            "curvature_max_sample": 2.56120227206202,
+            "radius_max_sample": 1.040010735233369,
+            "plateau_radius_at_one": 0.4,
+            "exact_circle_only_at_homotopy_one": false
+          },
+          "checkpoint_sha256": "fc71f6ef54e0204cdb382569957f1cb09f27f1d58efb2accd3a84793f45b6d92"
+        }
+      ]
+    }
+  ],
+  "port24": {
+    "scope": "Regenerated original worker startup port; only represented modes/quadrature change. Physical parameters/cut and first eight slopes equal the prior port exactly.",
+    "sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+    "config_sha256": "dd4a2440a6e7a539670a970e58abc254f6977bd34c05d3b3dd3fe8110fff8426",
+    "represented_modes": 24,
+    "quadrature": 512
+  },
+  "cached_duplicate": {
+    "scope": "A redundant q005 lambda=.3 cached replay was explicitly interrupted through the execution session before terminal status, after the original had already ended naturally. It is not another mathematical failure.",
+    "exit_code": 130
+  }
+}

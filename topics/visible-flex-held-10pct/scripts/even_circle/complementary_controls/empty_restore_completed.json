@@ -1,0 +1,104 @@
+{
+  "scope": "Empty-reference restoration and actual audit execution; no BVP or surface is solved.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "mpmath": "1.3.0",
+  "runs": [
+    {
+      "stage": "recover",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/f00f08c94d46/even_control_work/recover_reference_sources.py",
+        "--repo",
+        "/workspace/scratch/f00f08c94d46/math-research-public",
+        "--out",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.09398156099996413,
+      "log_sha256": "2b0febc6b638ef1a732539c4f6b96ad6213d81f36b6fa9430077a8e79473ba9c"
+    },
+    {
+      "stage": "old-wide",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference/old_basis_fundamental_locked.py",
+        "--source",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference",
+        "--out",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.242539544000465,
+      "log_sha256": "bad8d6f42b5a43d62a8cb0b3e36ae5351041809fbd7248e6ce433d1ce6cb9591"
+    },
+    {
+      "stage": "old-narrow",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference/old_basis_fundamental_locked_narrow.py",
+        "--source",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference",
+        "--out",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.6909655050003494,
+      "log_sha256": "f50054d7fbcab826936932eac413ef87457ba6600f6b437991665be7c3d1e7a9"
+    },
+    {
+      "stage": "core-api",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/f00f08c94d46/even_control_work/audit_uniform_core.py",
+        "--reference-core",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference/plateau_core.py",
+        "--out",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/core-api.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 4.378834757999357,
+      "log_sha256": "317fde7e4815dc6a85085ad412b728489f28cfa16ee5e75437e606f54b7ef57b"
+    },
+    {
+      "stage": "small-step",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/f00f08c94d46/even_control_work/audit_small_parameter_steps.py",
+        "--reference-core",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference/plateau_core.py",
+        "--out",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/small-step.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.453180814998632,
+      "log_sha256": "e107be6d40066e838bd5eacea45f5fc3e708ab2840b13a7b4093a5fecab83af0"
+    },
+    {
+      "stage": "comparison",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/f00f08c94d46/even_control_work/compare_complement_controls.py",
+        "--reference-core",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference/plateau_core.py",
+        "--old-diagnostics",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json",
+        "--direction-input",
+        "/workspace/scratch/f00f08c94d46/even_control_work/actual_direction_input.json",
+        "--out",
+        "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/comparison.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 6.4425577919992065,
+      "log_sha256": "c2275d9d95b4a546bd1c83858321281a316e2d0161fd75d3420eb47742663ae1"
+    }
+  ],
+  "output_sha256": {
+    "old-wide.json": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+    "old-narrow.json": "4a13699360bd3ac6f9b34b68523f8bf5939220b814107b9217a594fdaa58550b",
+    "core-api.json": "d9ef0ab888e3a5a686e4f35765ad2781156a664dbd96a16fe2cb77e01a759fdb",
+    "small-step.json": "92a8dd24358fb6a4ca78c76f6993d19064da26f238feeb2613e1632a8a999184",
+    "comparison.json": "f4a32eef85c71a92150f502cc19f79bdd21e403ad392803cc7fa1b01c16c36c5"
+  }
+}

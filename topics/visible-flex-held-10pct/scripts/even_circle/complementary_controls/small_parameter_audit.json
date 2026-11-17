@@ -1,0 +1,119 @@
+{
+  "scope": "Finite-difference check of the existing analytic parameter Jacobian; no BVP and no geometric certificate.",
+  "reference_sha256": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+  "source_sha256": {
+    "audit_small_parameter_steps.py": "a899649a8ef2246e5459dee3425313f7ebd58d500aa9ea00d6e694767412b6da",
+    "audit_uniform_core.py": "9095b9227869c8ff502219d1840e3c3bb026e9a44598719c9110abd68dbc5684",
+    "uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+    "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+  },
+  "normal_angle_inverse": "Five Newton refinements after the inherited safeguarded arc inverse.",
+  "coefficients": [
+    0.005,
+    1e-05,
+    -2e-06,
+    3e-07,
+    -4e-08,
+    5e-09
+  ],
+  "rows": [
+    {
+      "homotopy": 0.0,
+      "parameter_index": 5,
+      "analytic_max_norm": 1.1084917629479043,
+      "steps": [
+        {
+          "correction_step": 1.25e-06,
+          "absolute_error": 1.1271568080913147e-07,
+          "relative_error": 1.0168382353097265e-07
+        },
+        {
+          "correction_step": 6.25e-07,
+          "absolute_error": 2.816334131687743e-08,
+          "relative_error": 2.5406901754488743e-08
+        },
+        {
+          "correction_step": 3.125e-07,
+          "absolute_error": 7.417640846421293e-09,
+          "relative_error": 6.691651750929519e-09
+        },
+        {
+          "correction_step": 1.5625e-07,
+          "absolute_error": 4.710373118184885e-09,
+          "relative_error": 4.249353288524398e-09
+        },
+        {
+          "correction_step": 7.8125e-08,
+          "absolute_error": 6.820181639100866e-09,
+          "relative_error": 6.152667856514684e-09
+        }
+      ]
+    },
+    {
+      "homotopy": 0.4,
+      "parameter_index": 5,
+      "analytic_max_norm": 1.2401334509699697,
+      "steps": [
+        {
+          "correction_step": 1.25e-06,
+          "absolute_error": 1.0971273032775584e-06,
+          "relative_error": 8.846848719542569e-07
+        },
+        {
+          "correction_step": 6.25e-07,
+          "absolute_error": 2.74282307756498e-07,
+          "relative_error": 2.2117160660569893e-07
+        },
+        {
+          "correction_step": 3.125e-07,
+          "absolute_error": 6.875422396412825e-08,
+          "relative_error": 5.544098815361538e-08
+        },
+        {
+          "correction_step": 1.5625e-07,
+          "absolute_error": 1.7539766610382416e-08,
+          "relative_error": 1.414345092994927e-08
+        },
+        {
+          "correction_step": 7.8125e-08,
+          "absolute_error": 6.4127587374600214e-09,
+          "relative_error": 5.171023112427364e-09
+        }
+      ]
+    },
+    {
+      "homotopy": 1.0,
+      "parameter_index": 5,
+      "analytic_max_norm": 1.946108847363879,
+      "steps": [
+        {
+          "correction_step": 1.25e-06,
+          "absolute_error": 1.0850713698182816e-05,
+          "relative_error": 5.5755944549970866e-06
+        },
+        {
+          "correction_step": 6.25e-07,
+          "absolute_error": 2.712614052215382e-06,
+          "relative_error": 1.393865536292988e-06
+        },
+        {
+          "correction_step": 3.125e-07,
+          "absolute_error": 6.783902760730174e-07,
+          "relative_error": 3.485880437735729e-07
+        },
+        {
+          "correction_step": 1.5625e-07,
+          "absolute_error": 1.692879482891502e-07,
+          "relative_error": 8.698791360948842e-08
+        },
+        {
+          "correction_step": 7.8125e-08,
+          "absolute_error": 4.2765933931271845e-08,
+          "relative_error": 2.1975098663777652e-08
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 2.287237512999127
+}

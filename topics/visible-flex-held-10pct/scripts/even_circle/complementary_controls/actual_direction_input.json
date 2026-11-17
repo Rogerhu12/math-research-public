@@ -1,0 +1,22 @@
+{
+  "scope": "Literal five-dimensional direction for basis-only diagnostics. This file does not define or certify a new BVP solution.",
+  "provenance": {
+    "checkpoint": "even_plateau_work/runs/narrow-v40-r45-q005-m6-smallstep-lam0.4.json.gz",
+    "checkpoint_sha256": "4085a0f69e1fd649b7d8e51e7978cf02f89a45aeac1c1822b2d6cc937ab05c0a"
+  },
+  "core_summary": {
+    "base_mode": 4,
+    "q_parameter": 0.005,
+    "corrections": [
+      0.42310065701603694,
+      1.7748911968751508,
+      3.55817713360697,
+      3.9961478162090645,
+      2.7607836630497333
+    ],
+    "halfwidth": 0.145,
+    "transition": 0.08,
+    "homotopy": 0.4,
+    "center": 0.0
+  }
+}

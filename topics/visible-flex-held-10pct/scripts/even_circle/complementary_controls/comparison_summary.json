@@ -1,0 +1,798 @@
+{
+  "scope": "Deterministic moment/norm comparison, plus one matched-moment old direction.\n\nAll supremum diagnostics are sampled, not interval estimates. The replacement\nbasis separately supplies rational conservative derivative bounds. No BVP is\nsolved, and matching higher moments need not preserve the primary moment.\n",
+  "reference_core_sha256": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+  "source_sha256": {
+    "compare_complement_controls.py": "5455920985e434de19b5f3e1d023fceb4236c8fd45700dc61160fe90456e0e33",
+    "uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+    "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+  },
+  "rows": [
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.08,
+      "modes": 4,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 14.481119339475331,
+        "rho_condition": 26.7650845869518,
+        "canonical_rho_sup_max": 15430.392693416637,
+        "canonical_rho_prime_sup_max": 1526136.4464213245,
+        "canonical_rho_sup_per_unit_high_rho_max": 163.77339865110022,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 16333.607268953412,
+        "conservative_rho_bound_max": 43263.582991066,
+        "conservative_rho_prime_bound_max": 4098993.584484291,
+        "fundamental_leakage_max": 0.6910327046632969,
+        "rational_neumann_residual_upper": 2.578574944932934e-59
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 206.91522042162632,
+        "rho_condition": 420.58023582901234,
+        "canonical_rho_sup_max": 24355.276365673482,
+        "canonical_rho_prime_sup_max": 673966.8883772088,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.08,
+      "modes": 4,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 2587.2234324870874,
+        "rho_condition": 7416.155351160743,
+        "canonical_rho_sup_max": 393774.8119696867,
+        "canonical_rho_prime_sup_max": 41498972.83449985,
+        "canonical_rho_sup_per_unit_high_rho_max": 6250.393840788678,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 658713.8545158707,
+        "conservative_rho_bound_max": 15630592.807870638,
+        "conservative_rho_prime_bound_max": 1541231126.512115,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 5.305514359259394e-57
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 12113.445845354841,
+        "rho_condition": 121332.77573109353,
+        "canonical_rho_sup_max": 1068173.9349184898,
+        "canonical_rho_prime_sup_max": 34465232.4308935,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.08,
+      "modes": 6,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 770.8472935705067,
+        "rho_condition": 2499.3833646942467,
+        "canonical_rho_sup_max": 164798.58709104123,
+        "canonical_rho_prime_sup_max": 17335342.70557524,
+        "canonical_rho_sup_per_unit_high_rho_max": 1441.7420369907866,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 152818.34009599083,
+        "conservative_rho_bound_max": 2599029.380650033,
+        "conservative_rho_prime_bound_max": 244032843.8985783,
+        "fundamental_leakage_max": 0.7749850411877813,
+        "rational_neumann_residual_upper": 5.627510471089228e-58
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 9983.83692520003,
+        "rho_condition": 21571.703194392598,
+        "canonical_rho_sup_max": 699962.9239424577,
+        "canonical_rho_prime_sup_max": 27350011.56424065,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.08,
+      "modes": 6,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 470748.8416140115,
+        "rho_condition": 2841310.635806829,
+        "canonical_rho_sup_max": 7140089.416413852,
+        "canonical_rho_prime_sup_max": 849903114.5904305,
+        "canonical_rho_sup_per_unit_high_rho_max": 113334.75264148971,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 13490525.628419532,
+        "conservative_rho_bound_max": 2499120677.452545,
+        "conservative_rho_prime_bound_max": 243912037075.49545,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 1.1901754951407808e-54
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 634274.9829338206,
+        "rho_condition": 8240579.977127649,
+        "canonical_rho_sup_max": 49102439.25851034,
+        "canonical_rho_prime_sup_max": 2140717013.2582266,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.08,
+      "modes": 8,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 54272.009682014344,
+        "rho_condition": 263162.37148354534,
+        "canonical_rho_sup_max": 1905492.5939607078,
+        "canonical_rho_prime_sup_max": 228837298.41853464,
+        "canonical_rho_sup_per_unit_high_rho_max": 13088.35648388771,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 1574606.498609318,
+        "conservative_rho_bound_max": 209595333.6883475,
+        "conservative_rho_prime_bound_max": 19617650209.158634,
+        "fundamental_leakage_max": 0.8236525889890837,
+        "rational_neumann_residual_upper": 7.085643746951595e-56
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 291803.20074033,
+        "rho_condition": 576543.6583136929,
+        "canonical_rho_sup_max": 17339879.930279877,
+        "canonical_rho_prime_sup_max": 871511316.7486798,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.08,
+      "modes": 8,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 69411723.69467539,
+        "rho_condition": 726879494.1265979,
+        "canonical_rho_sup_max": 107998756.89148907,
+        "canonical_rho_prime_sup_max": 15677089127.831896,
+        "canonical_rho_sup_per_unit_high_rho_max": 1714265.9824045885,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 248842684.56876025,
+        "conservative_rho_bound_max": 357259098316.84186,
+        "conservative_rho_prime_bound_max": 34625598201898.977,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 9.114572943552458e-53
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 20314064.251444288,
+        "rho_condition": 281354825.0132519,
+        "canonical_rho_sup_max": 1695031886.1909497,
+        "canonical_rho_prime_sup_max": 92913202655.91322,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.12,
+      "modes": 4,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 22.032709445859048,
+        "rho_condition": 40.923492443130485,
+        "canonical_rho_sup_max": 10302.200613938001,
+        "canonical_rho_prime_sup_max": 679499.082010678,
+        "canonical_rho_sup_per_unit_high_rho_max": 111.71225185790031,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 7449.787670301812,
+        "conservative_rho_bound_max": 37109.27639660304,
+        "conservative_rho_prime_bound_max": 2311763.4544082824,
+        "fundamental_leakage_max": 0.6792336519582088,
+        "rational_neumann_residual_upper": 3.226730258668e-59
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 206.91522042162632,
+        "rho_condition": 420.58023582901234,
+        "canonical_rho_sup_max": 24355.276365673482,
+        "canonical_rho_prime_sup_max": 673966.8883772088,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.12,
+      "modes": 4,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 4017.9857158304076,
+        "rho_condition": 11876.745614419548,
+        "canonical_rho_sup_max": 263267.80097413884,
+        "canonical_rho_prime_sup_max": 19575149.01704583,
+        "canonical_rho_sup_per_unit_high_rho_max": 4178.85398371649,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 310716.65106421954,
+        "conservative_rho_bound_max": 12810823.538834903,
+        "conservative_rho_prime_bound_max": 826766279.388877,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 3.161728779465731e-56
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 12113.445845354841,
+        "rho_condition": 121332.77573109353,
+        "canonical_rho_sup_max": 1068173.9349184898,
+        "canonical_rho_prime_sup_max": 34465232.4308935,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.12,
+      "modes": 6,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 1374.7995242768666,
+        "rho_condition": 4501.226767289883,
+        "canonical_rho_sup_max": 117021.23522195063,
+        "canonical_rho_prime_sup_max": 8842326.997534534,
+        "canonical_rho_sup_per_unit_high_rho_max": 1059.7722484878748,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 80480.05223679917,
+        "conservative_rho_bound_max": 2597276.1556473733,
+        "conservative_rho_prime_bound_max": 162303382.41567034,
+        "fundamental_leakage_max": 0.7689219683898447,
+        "rational_neumann_residual_upper": 6.1582588743110976e-58
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 9983.83692520003,
+        "rho_condition": 21571.703194392598,
+        "canonical_rho_sup_max": 699962.9239424577,
+        "canonical_rho_prime_sup_max": 27350011.56424065,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.12,
+      "modes": 6,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 830209.0066822009,
+        "rho_condition": 4992241.312360468,
+        "canonical_rho_sup_max": 4790223.734433723,
+        "canonical_rho_prime_sup_max": 459795436.1367094,
+        "canonical_rho_sup_per_unit_high_rho_max": 76035.29737196385,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 7298340.256138245,
+        "conservative_rho_bound_max": 2285908016.6639314,
+        "conservative_rho_prime_bound_max": 146305799809.12656,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 7.703406863830392e-54
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 634274.9829338206,
+        "rho_condition": 8240579.977127649,
+        "canonical_rho_sup_max": 49102439.25851034,
+        "canonical_rho_prime_sup_max": 2140717013.2582266,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.12,
+      "modes": 8,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 102822.19384504578,
+        "rho_condition": 503410.5626140037,
+        "canonical_rho_sup_max": 1421894.238399852,
+        "canonical_rho_prime_sup_max": 137952812.1448141,
+        "canonical_rho_sup_per_unit_high_rho_max": 9778.579573282357,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 956605.2656087038,
+        "conservative_rho_bound_max": 232839143.22311866,
+        "conservative_rho_prime_bound_max": 14694223977.85268,
+        "fundamental_leakage_max": 0.819827626837802,
+        "rational_neumann_residual_upper": 7.815346943013064e-56
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 291803.20074033,
+        "rho_condition": 576543.6583136929,
+        "canonical_rho_sup_max": 17339879.930279877,
+        "canonical_rho_prime_sup_max": 871511316.7486798,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.28,
+      "control_transition": 0.12,
+      "modes": 8,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 128826362.47754069,
+        "rho_condition": 1347246375.1638715,
+        "canonical_rho_sup_max": 86383290.11838879,
+        "canonical_rho_prime_sup_max": 9124436913.015263,
+        "canonical_rho_sup_per_unit_high_rho_max": 1371163.3352125203,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 144832331.95262322,
+        "conservative_rho_bound_max": 350658779019.4865,
+        "conservative_rho_prime_bound_max": 22369357371361.07,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 9.61376170486988e-52
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 20314064.251444288,
+        "rho_condition": 281354825.0132519,
+        "canonical_rho_sup_max": 1695031886.1909497,
+        "canonical_rho_prime_sup_max": 92913202655.91322,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.16,
+      "control_transition": 0.08,
+      "modes": 4,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 2.57231056662724,
+        "rho_condition": 6.286756170670661,
+        "canonical_rho_sup_max": 3111.2669234085834,
+        "canonical_rho_prime_sup_max": 319468.7068841811,
+        "canonical_rho_sup_per_unit_high_rho_max": 20.493762933586616,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 2027.192535271256,
+        "conservative_rho_bound_max": 6528.342657064198,
+        "conservative_rho_prime_bound_max": 621063.0017359077,
+        "fundamental_leakage_max": 0.7915180426003201,
+        "rational_neumann_residual_upper": 3.8913229392093155e-60
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 67.15092701685404,
+        "rho_condition": 100.91753871173778,
+        "canonical_rho_sup_max": 3160.0436633951385,
+        "canonical_rho_prime_sup_max": 76128.15802395983,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.16,
+      "control_transition": 0.08,
+      "modes": 4,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 48.7631999166655,
+        "rho_condition": 131.8753924515993,
+        "canonical_rho_sup_max": 36912.832420951905,
+        "canonical_rho_prime_sup_max": 3726254.1485394845,
+        "canonical_rho_sup_per_unit_high_rho_max": 585.9179749357445,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 59146.89124665848,
+        "conservative_rho_bound_max": 231665.41863990546,
+        "conservative_rho_prime_bound_max": 22635438.71352062,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 8.40947711982134e-59
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 2085.263518957266,
+        "rho_condition": 16564.34458054732,
+        "canonical_rho_sup_max": 85556.21718854895,
+        "canonical_rho_prime_sup_max": 2292848.417881103,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.16,
+      "control_transition": 0.08,
+      "modes": 6,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 8.127799861797131,
+        "rho_condition": 25.352566666972887,
+        "canonical_rho_sup_max": 10099.50671038074,
+        "canonical_rho_prime_sup_max": 983280.7177434089,
+        "canonical_rho_sup_per_unit_high_rho_max": 52.427017199976845,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 5340.109104690559,
+        "conservative_rho_bound_max": 26341.041605257367,
+        "conservative_rho_prime_bound_max": 2455994.8509833063,
+        "fundamental_leakage_max": 0.8555681828433801,
+        "rational_neumann_residual_upper": 7.798087539300359e-60
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 1292.239348484346,
+        "rho_condition": 1730.5347499026047,
+        "canonical_rho_sup_max": 30175.366560866194,
+        "canonical_rho_prime_sup_max": 989138.3551494189,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.16,
+      "control_transition": 0.08,
+      "modes": 6,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 918.7205935857554,
+        "rho_condition": 5542.309957714988,
+        "canonical_rho_sup_max": 222782.01838638578,
+        "canonical_rho_prime_sup_max": 23874880.8631381,
+        "canonical_rho_sup_per_unit_high_rho_max": 3536.2225140696155,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 378966.36290695396,
+        "conservative_rho_bound_max": 4446349.830476257,
+        "conservative_rho_prime_bound_max": 429827284.1570622,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 3.528282297833869e-57
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 42252.41357834552,
+        "rho_condition": 378724.095204255,
+        "canonical_rho_sup_max": 1268252.3064932867,
+        "canonical_rho_prime_sup_max": 46106307.68264166,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.16,
+      "control_transition": 0.08,
+      "modes": 8,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 57.21650295583643,
+        "rho_condition": 208.52318867593408,
+        "canonical_rho_sup_max": 39893.378398329114,
+        "canonical_rho_prime_sup_max": 4068513.4954996887,
+        "canonical_rho_sup_per_unit_high_rho_max": 167.24730190031346,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 17439.884906945448,
+        "conservative_rho_bound_max": 232983.73602779245,
+        "conservative_rho_prime_bound_max": 21771732.190833624,
+        "fundamental_leakage_max": 0.8876606748748098,
+        "rational_neumann_residual_upper": 7.82691278384263e-59
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 15862.460835663484,
+        "rho_condition": 18185.157790885874,
+        "canonical_rho_sup_max": 237104.0598226922,
+        "canonical_rho_prime_sup_max": 10066624.439449135,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.16,
+      "control_transition": 0.08,
+      "modes": 8,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 15904.415353597067,
+        "rho_condition": 160789.16179570724,
+        "canonical_rho_sup_max": 1152698.2789142686,
+        "canonical_rho_prime_sup_max": 135598495.8869011,
+        "canonical_rho_sup_per_unit_high_rho_max": 18296.798078004264,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 2152357.077569859,
+        "conservative_rho_bound_max": 77746853.11752647,
+        "conservative_rho_prime_bound_max": 7468796982.340636,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 7.149379851631289e-56
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-wide.json",
+        "source_sha256": "f2c6ed2f42476db0042631c01eaceba14fa98c66764b4828f6c3388e8c42b690",
+        "support_condition": 553576.2760044913,
+        "rho_condition": 5084569.5708201835,
+        "canonical_rho_sup_max": 14111216.250025222,
+        "canonical_rho_prime_sup_max": 646181080.3527448,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.145,
+      "control_transition": 0.08,
+      "modes": 4,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 2.460943882133663,
+        "rho_condition": 6.381431903366019,
+        "canonical_rho_sup_max": 2594.37747454921,
+        "canonical_rho_prime_sup_max": 274433.999602904,
+        "canonical_rho_sup_per_unit_high_rho_max": 18.96323676380083,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 1684.2241892257869,
+        "conservative_rho_bound_max": 6330.970207099997,
+        "conservative_rho_prime_bound_max": 610451.9526282882,
+        "fundamental_leakage_max": 0.7961148965793401,
+        "rational_neumann_residual_upper": 3.172939553596684e-60
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json",
+        "source_sha256": "4a13699360bd3ac6f9b34b68523f8bf5939220b814107b9217a594fdaa58550b",
+        "support_condition": 59.61661348054021,
+        "rho_condition": 85.61679162445628,
+        "canonical_rho_sup_max": 2477.2585751129127,
+        "canonical_rho_prime_sup_max": 59122.39431299819,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.145,
+      "control_transition": 0.08,
+      "modes": 4,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 31.52421050201946,
+        "rho_condition": 86.56685125324836,
+        "canonical_rho_sup_max": 28131.31433696552,
+        "canonical_rho_prime_sup_max": 2827961.2961926484,
+        "canonical_rho_sup_per_unit_high_rho_max": 446.5287989994527,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 44888.27454274045,
+        "conservative_rho_bound_max": 144334.15008804313,
+        "conservative_rho_prime_bound_max": 14082527.26135988,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 8.271029514629337e-59
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json",
+        "source_sha256": "4a13699360bd3ac6f9b34b68523f8bf5939220b814107b9217a594fdaa58550b",
+        "support_condition": 1708.9046713418463,
+        "rho_condition": 13124.25963272991,
+        "canonical_rho_sup_max": 64102.5951487261,
+        "canonical_rho_prime_sup_max": 1684334.9155337773,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.145,
+      "control_transition": 0.08,
+      "modes": 6,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 5.7176626688936905,
+        "rho_condition": 20.529570783486783,
+        "canonical_rho_sup_max": 7762.698732654163,
+        "canonical_rho_prime_sup_max": 757098.545903842,
+        "canonical_rho_sup_per_unit_high_rho_max": 35.231373759345345,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 3742.5536206953752,
+        "conservative_rho_bound_max": 18272.214679098473,
+        "conservative_rho_prime_bound_max": 1704441.305364752,
+        "fundamental_leakage_max": 0.8654157091614796,
+        "rational_neumann_residual_upper": 8.140868300652654e-60
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json",
+        "source_sha256": "4a13699360bd3ac6f9b34b68523f8bf5939220b814107b9217a594fdaa58550b",
+        "support_condition": 1042.196599501785,
+        "rho_condition": 1308.8104782936168,
+        "canonical_rho_sup_max": 21256.933325717284,
+        "canonical_rho_prime_sup_max": 683643.8010406403,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.145,
+      "control_transition": 0.08,
+      "modes": 6,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 453.51457077186166,
+        "rho_condition": 2687.0637687327153,
+        "canonical_rho_sup_max": 147783.20266714392,
+        "canonical_rho_prime_sup_max": 15666413.772984162,
+        "canonical_rho_sup_per_unit_high_rho_max": 2345.7651217006974,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 248673.2344918121,
+        "conservative_rho_bound_max": 2160155.5860435218,
+        "conservative_rho_prime_bound_max": 208503682.69804353,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 1.2737239312095481e-57
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json",
+        "source_sha256": "4a13699360bd3ac6f9b34b68523f8bf5939220b814107b9217a594fdaa58550b",
+        "support_condition": 31271.02219219292,
+        "rho_condition": 267652.51733500074,
+        "canonical_rho_sup_max": 828916.5399827579,
+        "canonical_rho_prime_sup_max": 29564422.263120078,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.145,
+      "control_transition": 0.08,
+      "modes": 8,
+      "lock_fundamental": false,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 28.659121694632045,
+        "rho_condition": 104.03464264845995,
+        "canonical_rho_sup_max": 25798.05392565811,
+        "canonical_rho_prime_sup_max": 2589816.9360742634,
+        "canonical_rho_sup_per_unit_high_rho_max": 100.72978388172683,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 10299.844358969927,
+        "conservative_rho_bound_max": 114869.84903382529,
+        "conservative_rho_prime_bound_max": 10733135.70773559,
+        "fundamental_leakage_max": 0.8961580275591732,
+        "rational_neumann_residual_upper": 4.691499802653224e-59
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json",
+        "source_sha256": "4a13699360bd3ac6f9b34b68523f8bf5939220b814107b9217a594fdaa58550b",
+        "support_condition": 11635.959776066356,
+        "rho_condition": 12398.801594232118,
+        "canonical_rho_sup_max": 142438.49682661964,
+        "canonical_rho_prime_sup_max": 5949816.361223246,
+        "sample_count": 16384
+      }
+    },
+    {
+      "halfwidth": 0.145,
+      "control_transition": 0.08,
+      "modes": 8,
+      "lock_fundamental": true,
+      "new": {
+        "sample_count": 16384,
+        "support_condition": 6116.153848396114,
+        "rho_condition": 61442.94053207962,
+        "canonical_rho_sup_max": 679564.0417119184,
+        "canonical_rho_prime_sup_max": 78350543.23913965,
+        "canonical_rho_sup_per_unit_high_rho_max": 10786.730820824103,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 1243659.41649428,
+        "conservative_rho_bound_max": 29688755.78737026,
+        "conservative_rho_prime_bound_max": 2848313272.2594204,
+        "fundamental_leakage_max": 0.0,
+        "rational_neumann_residual_upper": 8.889491887863132e-57
+      },
+      "old": {
+        "source": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/old-narrow.json",
+        "source_sha256": "4a13699360bd3ac6f9b34b68523f8bf5939220b814107b9217a594fdaa58550b",
+        "support_condition": 370917.0263316109,
+        "rho_condition": 3239877.432638073,
+        "canonical_rho_sup_max": 8040377.830416877,
+        "canonical_rho_prime_sup_max": 361317394.80907184,
+        "sample_count": 16384
+      }
+    }
+  ],
+  "actual_direction": {
+    "checkpoint": "even_plateau_work/runs/narrow-v40-r45-q005-m6-smallstep-lam0.4.json.gz",
+    "checkpoint_sha256": "4085a0f69e1fd649b7d8e51e7978cf02f89a45aeac1c1822b2d6cc937ab05c0a",
+    "direction_input_sha256": "6dea43ac30940c7ca31cd4e40c21d01e728220d35fde8cb0a9eb5dd69e94db79",
+    "old_corrections": [
+      0.42310065701603694,
+      1.7748911968751508,
+      3.55817713360697,
+      3.9961478162090645,
+      2.7607836630497333
+    ],
+    "q": 0.005,
+    "homotopy": 0.4,
+    "base_mode": 4,
+    "modes": 6,
+    "higher_support_moments": [
+      -1.904961161308744e-05,
+      -8.99944301780214e-06,
+      -6.878251524770498e-05,
+      0.00012363851051324214,
+      -0.0001060456556630091
+    ],
+    "old_primary_support_moment": 2.8522404537705244e-05,
+    "old_moment_200_to_240_difference": 9.743013416451535e-16,
+    "old_compact_control_rho_sup": 0.7083385089012022,
+    "old_compact_control_hidden_rho_sup": 0.5801499085638793,
+    "old_combined_actual_hidden_rho_sup": 0.23018377407498392,
+    "primary_plateau_hidden_rho_sup": 0.027182025379163734,
+    "caveat": "New controls match only support modes 8,...,24. Primary leakage changes; none of these replacements is claimed to solve the old BVP.",
+    "replacements": [
+      {
+        "control_transition": 0.08,
+        "new_primary_support_moment": 3.405733345559613e-05,
+        "primary_support_moment_change": 5.534928917890889e-06,
+        "compact_control_rho_sup": 0.2735906320812548,
+        "compact_control_rho_prime_sup": 27.386485579137563,
+        "compact_control_hidden_rho_sup": 0.2895227600313051,
+        "combined_actual_hidden_rho_sup": 0.10844504645386244,
+        "sample_count": 16384,
+        "support_condition": 5.7176626688936905,
+        "rho_condition": 20.529570783486783,
+        "canonical_rho_sup_max": 7762.698732654163,
+        "canonical_rho_prime_sup_max": 757098.545903842,
+        "canonical_rho_sup_per_unit_high_rho_max": 35.231373759345345,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 3742.5536206953752,
+        "conservative_rho_bound_max": 18272.214679098473,
+        "conservative_rho_prime_bound_max": 1704441.305364752,
+        "fundamental_leakage_max": 0.8654157091614796,
+        "rational_neumann_residual_upper": 8.140868300652654e-60,
+        "rho_guard": {
+          "accepted": true,
+          "lower": 0.5443302634403024,
+          "sampled_min": 0.8665681911241034,
+          "sampled_max": 1.1891483898344304,
+          "grid_count": 512
+        }
+      },
+      {
+        "control_transition": 0.12,
+        "new_primary_support_moment": 3.294835667835606e-05,
+        "primary_support_moment_change": 4.425952140650814e-06,
+        "compact_control_rho_sup": 0.17769052264346297,
+        "compact_control_rho_prime_sup": 12.386519017924595,
+        "compact_control_hidden_rho_sup": 0.20556280208041272,
+        "combined_actual_hidden_rho_sup": 0.07174634271051102,
+        "sample_count": 16384,
+        "support_condition": 8.780658688269245,
+        "rho_condition": 27.034235080662462,
+        "canonical_rho_sup_max": 5726.205750972037,
+        "canonical_rho_prime_sup_max": 370273.2032609226,
+        "canonical_rho_sup_per_unit_high_rho_max": 29.11596672040455,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 2000.7261742022126,
+        "conservative_rho_bound_max": 16728.521044044715,
+        "conservative_rho_prime_bound_max": 1049207.9990752738,
+        "fundamental_leakage_max": 0.8558423151645589,
+        "rational_neumann_residual_upper": 7.026421579666384e-60,
+        "rho_guard": {
+          "accepted": true,
+          "lower": 0.717348771654353,
+          "sampled_min": 0.9129487958822373,
+          "sampled_max": 1.1914169916384285,
+          "grid_count": 512
+        }
+      },
+      {
+        "control_transition": 0.16,
+        "new_primary_support_moment": 3.217499723092806e-05,
+        "primary_support_moment_change": 3.6525926932228138e-06,
+        "compact_control_rho_sup": 0.15715312550353192,
+        "compact_control_rho_prime_sup": 7.904383554119391,
+        "compact_control_hidden_rho_sup": 0.173797116227982,
+        "combined_actual_hidden_rho_sup": 0.06298721152400277,
+        "sample_count": 16384,
+        "support_condition": 13.72282531132911,
+        "rho_condition": 39.586777056474034,
+        "canonical_rho_sup_max": 5112.354255620177,
+        "canonical_rho_prime_sup_max": 259137.8396766355,
+        "canonical_rho_sup_per_unit_high_rho_max": 27.298138416426706,
+        "canonical_rho_prime_sup_per_unit_high_rho_max": 1464.999993267187,
+        "conservative_rho_bound_max": 19275.969608232583,
+        "conservative_rho_prime_bound_max": 933904.6421194228,
+        "fundamental_leakage_max": 0.8482313767356114,
+        "rational_neumann_residual_upper": 1.5436835244615976e-59,
+        "rho_guard": {
+          "accepted": true,
+          "lower": 0.746549296785759,
+          "sampled_min": 0.9129550508677312,
+          "sampled_max": 1.1940511494564123,
+          "grid_count": 512
+        }
+      }
+    ]
+  },
+  "elapsed_seconds": 6.327309349000643
+}

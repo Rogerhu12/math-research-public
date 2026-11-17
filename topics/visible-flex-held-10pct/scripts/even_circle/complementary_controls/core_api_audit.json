@@ -1,0 +1,285 @@
+{
+  "scope": "Independent finite-difference/API checks for new explicit core controls; no new prefix BVP or closed surface.",
+  "reference": {
+    "path": "/workspace/scratch/f00f08c94d46/even_control_work/empty_restore_audit/reference/plateau_core.py",
+    "sha256": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34"
+  },
+  "source_sha256": {
+    "audit_uniform_core.py": "9095b9227869c8ff502219d1840e3c3bb026e9a44598719c9110abd68dbc5684",
+    "uniform_complement_core.py": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+    "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481"
+  },
+  "cases": [
+    {
+      "homotopy": 0.0,
+      "rho_lower": 0.9242274331274444,
+      "rho_min_sample": 0.924704031559778,
+      "positivity_grid": 512,
+      "parameter_derivatives": [
+        {
+          "parameter_index": 0,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 4.344128559461613e-09
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 1.09022826811153e-09
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 4.008312814816559e-10
+            }
+          ]
+        },
+        {
+          "parameter_index": 1,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 1.3582037996886604e-07
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 3.3968135225994204e-08
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 8.493780487143526e-09
+            }
+          ]
+        },
+        {
+          "parameter_index": 5,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 7.21112169755326e-06
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 1.8028156495062579e-06
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 4.5070977090741046e-07
+            }
+          ]
+        }
+      ],
+      "rho_material_jets": [
+        {
+          "step": 0.0001,
+          "rho_u_error": 1.7242041128184837e-12,
+          "rho_uu_error": 4.5139351256828775e-08
+        },
+        {
+          "step": 5e-05,
+          "rho_u_error": 1.0705186737069994e-12,
+          "rho_uu_error": 1.0150956281096413e-07
+        },
+        {
+          "step": 2.5e-05,
+          "rho_u_error": 4.9440174176851315e-12,
+          "rho_uu_error": 6.816672187826001e-07
+        }
+      ]
+    },
+    {
+      "homotopy": 0.4,
+      "rho_lower": 0.9142799835705409,
+      "rho_min_sample": 0.9248224189358668,
+      "positivity_grid": 512,
+      "parameter_derivatives": [
+        {
+          "parameter_index": 0,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 3.810279666944464e-09
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 9.633851652025012e-10
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 2.357332063130459e-10
+            }
+          ]
+        },
+        {
+          "parameter_index": 1,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 1.0947396966521886e-05
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 2.7369849365090814e-06
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 6.842369880068751e-07
+            }
+          ]
+        },
+        {
+          "parameter_index": 5,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 7.019339574483927e-05
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 1.7552169341706243e-05
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 4.388291380456675e-06
+            }
+          ]
+        }
+      ],
+      "rho_material_jets": [
+        {
+          "step": 0.0001,
+          "rho_u_error": 9.340495000717541e-10,
+          "rho_uu_error": 5.565080130054412e-08
+        },
+        {
+          "step": 5e-05,
+          "rho_u_error": 5.345760466235472e-11,
+          "rho_uu_error": 2.43489898299476e-07
+        },
+        {
+          "step": 2.5e-05,
+          "rho_u_error": 2.736736358366354e-11,
+          "rho_uu_error": 9.762370945520793e-07
+        }
+      ]
+    },
+    {
+      "homotopy": 1.0,
+      "rho_lower": 0.8989650258664355,
+      "rho_min_sample": 0.9246062166312499,
+      "positivity_grid": 512,
+      "parameter_derivatives": [
+        {
+          "parameter_index": 0,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 4.7126545243857415e-09
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 1.17873022006139e-09
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 3.146346787482894e-10
+            }
+          ]
+        },
+        {
+          "parameter_index": 1,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 0.00010101856531544875
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 2.5258142345538905e-05
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 6.3147881194909605e-06
+            }
+          ]
+        },
+        {
+          "parameter_index": 5,
+          "errors": [
+            {
+              "step": 1e-05,
+              "max_position_parameter_derivative_error": 0.0006951021860386277
+            },
+            {
+              "step": 5e-06,
+              "max_position_parameter_derivative_error": 0.00017365066220584535
+            },
+            {
+              "step": 2.5e-06,
+              "max_position_parameter_derivative_error": 4.340479046295559e-05
+            }
+          ]
+        }
+      ],
+      "rho_material_jets": [
+        {
+          "step": 0.0001,
+          "rho_u_error": 1.9016054477599686e-09,
+          "rho_uu_error": 1.1935060229006922e-07
+        },
+        {
+          "step": 5e-05,
+          "rho_u_error": 1.496818780033493e-10,
+          "rho_uu_error": 9.16744298251615e-07
+        },
+        {
+          "step": 2.5e-05,
+          "rho_u_error": 2.4226676220706622e-11,
+          "rho_uu_error": 3.250292788692377e-06
+        }
+      ]
+    }
+  ],
+  "protected_circle": {
+    "q": 0.06,
+    "protected_max_b_derivatives": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "protected_max_primitive": 0.0,
+    "position_change_from_zero_control": 0.0,
+    "material_arc_change": 0.0,
+    "rho_change_from_radius": 8.326672684688674e-17,
+    "period_arc_error": 8.881784197001252e-16,
+    "rho_lower": 0.08478410878631285,
+    "rho_min_sample": 0.10000000000000009
+  },
+  "functional_derivatives": [
+    {
+      "step": 1e-05,
+      "b_derivative_relative_errors": [
+        1.0090494370491962e-10,
+        3.207043407168321e-11,
+        2.3973181359546723e-11,
+        2.3963909528518088e-11
+      ],
+      "primitive_first_error": 1.0627720925526773e-11
+    },
+    {
+      "step": 5e-06,
+      "b_derivative_relative_errors": [
+        1.0562807161670715e-10,
+        9.699092125368846e-11,
+        9.037686454329215e-11,
+        8.319144071885828e-11
+      ],
+      "primitive_first_error": 2.0960122526503255e-11
+    }
+  ],
+  "primitive_64_to_96_difference": 6.938893903907228e-17,
+  "elapsed_seconds": 4.204231607000111,
+  "limitations": "Finite differences and floating evaluations are diagnostic. Rational moment coefficient and derivative enclosures are checked separately; no geometric BVP is solved."
+}
