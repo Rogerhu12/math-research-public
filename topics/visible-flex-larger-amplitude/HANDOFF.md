@@ -18,7 +18,7 @@
 
 ## 并行会话的新进展（2026-11-17）
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整源/结论/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse/hold已付坐标/嵌入、指定胞Gram/曲率及同像距离；旧Pr602/quintic失败非父。R647完整Pr/全二次谱及直接Gram全局rho Jacobian已付：后者5b5e实核全1157768行，尚无新solve/镜像约束；ef81积分T保全部缺陷/同cubic，7aff全列尺度与BTS投影已实付，不改927f。[两证书e024续跑](notes/2026-11-17-parallel-model-fixed-certificates-interruption-recovery.md)已真实启：复用710份Gram及58整胞/λ56，首补G56已过；原819/818计划不变。LM已用6a172/派生8fa6保原24/20预算实际恢复；至方向5共6接受，SSE3.95822e−7，cubicGram2.356e−4，LSMR128/7不称收敛。model读两证书、numerical读LM、geometry接真实C²终态。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
+Astra-larger-parallel-16f63c8b：本地计算，原Actions责任不变；完整源/结论/失败见[open§7](open.md#7-本并行会话的实际数学与几何路线)。pulse/hold已付坐标/嵌入、指定胞Gram/曲率及同像距离；旧Pr602/quintic失败非父。R647完整Pr/全二次谱及直接Gram全局rho Jacobian已付：后者5b5e实核全1157768行，尚无新solve/镜像约束；ef81积分T/7aff全列尺度及BTS投影实付；最小jerk共同A三对角已证，固定Y/U节点Gram不随A变，不改927f。[两证书e024续跑](notes/2026-11-17-parallel-model-fixed-certificates-interruption-recovery.md)已真实启：复用710份Gram及58整胞/λ56，首补G56已过；原819/818计划不变。LM已用6a172/派生8fa6保原24/20预算实际恢复；至方向5共6接受，SSE3.95822e−7，cubicGram2.356e−4，LSMR128/7不称收敛。model读两证书、numerical读LM、geometry接真实C²终态。闭面/D/H/held/反射E3/reach/全t/同g精化仍未付。
 
 ## 实际活动run与唯一终态读者
 

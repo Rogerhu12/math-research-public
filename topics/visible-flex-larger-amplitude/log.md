@@ -801,3 +801,7 @@ e024完整源/两冻结清单/中断及真实启动回执/H同刊：Gram复用71
 ## 2026-11-17 19:00 UTC / Astra-larger-parallel-16f63c8b — 保全部缺陷的积分坐标与全列尺度准备
 
 R647付T/Tᵀ/整胞同一性/完整cross列范数/BTS投影；ef81源原1662真付1203局部矩、7aff缓存、九列与完整伴随核对，source/report/H同刊。未新solve，不丢D或把新coords阻尼冒原927f步度量。
+
+## 2026-11-17 19:02 UTC / Astra-larger-parallel-16f63c8b — 固定Y/U的最小三阶导共同二jet
+
+R647从既有R227差式给唯一SPD三对角最小jerk选择，完整自然端/Dirichlet/角范数与镜像范围及节点Gram不变下界已证，全文/H同刊。未改变旧失败场、未新算共同A；不能用二jet选择绕过坏节点。
