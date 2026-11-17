@@ -1,0 +1,63 @@
+{
+  "state": "completed",
+  "scope": "Original small-cut q22 fixed-target-metric numerical refinement; no nonlinear tail or closed candidate. Separate from hybrid DN branch.",
+  "profile": {
+    "direction": "outward",
+    "vu": 0.55,
+    "vd": 0.6,
+    "delta": 0.17141686211304713,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "actual_q": 0.22000090750374524,
+  "modes": 32,
+  "nodes": 1675,
+  "solver_success": true,
+  "metric_l1": 1.1188476139153463e-08,
+  "kappa_sample": 7.189775178903014,
+  "height_max": 1.2722136378107283,
+  "root_min": 0.0004227469739011003,
+  "seconds": 2241.2972576618195,
+  "files": [
+    {
+      "path": "smallcut_q22_fixed_completed.md",
+      "sha256": "acf2122a17a138cb12fcc75a7d4ce073eb3dca803c3a14feaf61619619b50fe5"
+    },
+    {
+      "path": "finite_core_moment_exact.py",
+      "sha256": "491cdc1e3ea8ad64af83b28e5d98e10704cee75a22986231444fe4bbd6eaf09e"
+    },
+    {
+      "path": "tensor_interval_center_review.md",
+      "sha256": "c06679f6f207af9aad74b3c608d995d9d7239b8eb8ba496481ac593430555cce"
+    },
+    {
+      "path": "fixed-r30-p20-q22-m32/fixed.json.gz",
+      "sha256": "94235c5031911d77272f3cd501391ace81d4f922b0a583f142eec0a822162e31"
+    },
+    {
+      "path": "fixed-r30-p20-q22-m32/fixed-H.json",
+      "sha256": "807669b12f235a0b220768ae34f5a02250f271e3c1c308d55c55969ed907f1f4"
+    },
+    {
+      "path": "fixed-r30-p20-q22-m32/refinement_manifest.json",
+      "sha256": "47bcbe8ec2f2c88407a26fe5ba131417035b0ca47a3a61bba5b1471c1c0d0afb"
+    },
+    {
+      "path": "fixed-r30-p20-q22-m32/core-moment-exact.json",
+      "sha256": "203b37ce872b17b0ebeb53307290d1e7e19c82181b701450dd3177bf10a91f75"
+    },
+    {
+      "path": "fixed-r30-p20-q22-m32/endpoint.json",
+      "sha256": "037d8dafb8d60eebf3f5d2c97baa9a56b31de0af4745523d8c5be1b232ae9c30"
+    }
+  ],
+  "endpoint_array_sha256": "21c5b22d5fb2f3877d0cff40adbd2b4b3876da2fe304e30be455afd809ed3f12"
+}

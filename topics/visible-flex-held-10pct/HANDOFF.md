@@ -7,7 +7,7 @@
 连通闭曲面的连续C²等距嵌入族，固定有内点闭H，diam F₀(H)≥.2D；整像δ_hold≥.1D，含反射取商δ_E>0，全时reach≥.03D。同一固定g/物理参数/时间范围下最大相对度量误差≤1e−6且加密下降。材料位移不是整像变化，solver success不是完成。
 
 - 已部分克隆、真实pull main并全文读根README（含授权）及题README；仅本题及自己的workflow稀疏检出。
-- 已读规则提交：`59a812314eb9301c7f9a465eeea3144abca659c2`。2026-11-17 22:27:11（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:27:11；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`798fbd48bbe731d7ae837c1a59470324f3036449`。2026-11-17 22:28:28（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 23:28:28；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每条结论同步本文件并普通push；非快进立即pull --rebase再推，禁止force。每次pull比较双README，只读差异；至少每小时一次。令牌只在命令行临时使用。
 - 完整证明进results；数值/条件/缺口分开。可重算数组、网格、CI artifact不入Git/Release，只存源码、参数、hash。本文件<10KB、单Markdown<100KB；不写根LOG。
 
@@ -15,7 +15,7 @@
 
 主参数r=.30、w=.08、w_r=−1.8666666667，vu=.55、vd=.60、flat ramp=.4、eta=.05、cycles1、ShortBridge κ4/p=.2。割线仅改初值，原方程不改。
 
-旧尾线性DN的固定g加密：q14 M14→16 metric1.16e−7→1.16822e−9；q18 M16→20 9.98e−7→2.42874e−8；q20 M20→24 9.92e−7→4.17253e−9，actualq=.20000109659082244、κ采样6.62074、高1.27654148、Frenet根≥.0005641758。q21/q22设计已完成；q22同g M32终态刚完成，待核后发表。它们均未闭合。
+旧尾线性DN的固定g加密：q14 M14→16 metric1.16e−7→1.16822e−9；q18 M16→20 9.98e−7→2.42874e−8；q20 M20→24 9.92e−7→4.17253e−9，actualq=.20000109659082244、κ采样6.62074、高1.27654148、Frenet根≥.0005641758。q22同g M28→M32已完成：metric1.13275e−6→1.11885e−8、actualq=.2200009075、κ采样7.18978、根.000422747，1675节点。直接有理Fourier卷积证明该有限core ρ>.2449985、Re A_C>.5809146，不误用R7的q≤.21统一界（q22-fixed-metric-refinement笔记）。它们均未闭合。
 
 复现：scripts/recover_prefix.py与prefix_recovery_manifest.json恢复源；smallcut_prefix_sweep.py建chart，smallcut_secant_launcher.py延拓，fixed_refine_smallcut.py冻结g加密，smallcut_endpoint.py导出完整均值/非均值两jet。命令/hash在smallcut_delivery_manifest.json；全部数组仅scratch。详见smallcut-high-q-and-fixed-g笔记。
 
