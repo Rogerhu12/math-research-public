@@ -1,0 +1,67 @@
+# b677 实际 C² 前缀的镜像内部法向弦点云
+
+2026-11-17，Astra-larger-parallel-16f63c8b-20261117。**数值诊断，非连续 reach 证书，非闭面。** 使用已登记的 [R11](../results/R11-exact-all-phase-normal-chord-reduction.md) 法向弦指标和 [R16](../results/R16-local-geodesic-and-continuous-reach-cover.md) 的后续连续检查接口，不重复理论。
+
+## 实际字段与检验范围
+
+唯一输入是已经接受的 .992 M112/N2048 前缀 `parallel-refine0992-m112-t8.json.gz`，SHA
+
+```text
+b677632099a08a33f94792a06dcc37d4e0f029131069b6ff94b1cb586ebaff25
+```
+
+位置取同节点0/1/2 jets定义的唯一quintic；所有法向由其**实际**一阶导数叉积归一化得到。节点二jet计算、角向Frenet到Cartesian变换与[既有实际读出](2026-11-17-parallel-numerical-0992-refinement-and-tail-trace.md)相同，没有用ODE预测代替插值的一阶导数。
+
+采样上半场后关于z=0镜像，中心圈只放一次。该输入的中心反射接合量 `2|max F_z|,2|max F_s^{xy}|,2|max F_{ss}^z|` 实际浮点计算均为0；这不补上±.992两条开放边界圆。报告不含尾、固定盖、标记或任何跨块点对。
+
+对每个不同点对定义
+
+$$Q(p,q)=\frac{|q-p|^2}{2\max\{|n_p\cdot(q-p)|,|n_q\cdot(q-p)|\}}.$$
+
+两内积均为0时取无穷。空间树枚举距离≤.34的全部点云点对，按固定大小块逐个计算；未检验的更远点对因单位法向，形式上有Q≥|q−p|/2≥.17。报告中的点云下界是在浮点坐标/距离查询/内积上计算，未支付舍入包络，不冒严格算术证书。
+
+## 第一轮实际结果
+
+正半轴用81个参数
+
+$$s_j=.992\,[1-(1-j/80)^2],\quad0\le j\le80,$$
+
+镜像后共161个纬圈。每圈先用512角的完整有限三角场计算，再取偶数角索引，实际保留256角；这里是对原M112场取点，没有截断其112个模。共41,216点，检验52,697,444个不同近点对，用时51.113秒。
+
+| 量 | 数值 |
+|---|---:|
+| 最小近点对Q | .1616544559583919 |
+| 远点对自动界 | .17 |
+| 合并后的全部点云Q诊断下界 | .1616544559583919 |
+| 最小不同样点距离 | .00015499999470182805 |
+| 同读点最大主曲率 | 6.29849639704452 |
+
+最小Q出现在
+
+```text
+(s,phi) = (.96968,4.516039439535327)
+(s,phi) = (.973245,4.516039439535327)
+distance = .0035649281813699774
+```
+
+这是非常近的同经向点对。点云的正值不覆盖趋近对角线的全部切向方向；即使最大主曲率采样较低，也仍需要连续曲率界和R16的真实参数块包络。两者都未被本次点云结果取代。
+
+刚体同时旋转这整个移动块会保持其内部法向弦指标，所以同一诊断不必重复时间相位采样；涉及固定块的全相位点对仍按R11另付。完整闭面的D尚未确定，故这里不给 `.03D` 的完成声明。
+
+## 源、复现与下一次实际读出
+
+新源码 [prefix_pair_probe.py](../scripts/parallel_20261117_prefix_pair_probe.py) SHA
+
+```text
+e4a121db4c8f13b50a4f1068e40f43a46b340338b610d7257d382c46c32f924e
+```
+
+```sh
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python -u \
+  topics/visible-flex-larger-amplitude/scripts/parallel_20261117_prefix_pair_probe.py \
+  --input /workspace/scratch/16f63c8bce6b/parallel-refine0992-m112-t8.json.gz \
+  --angles 512 --angular-stride 2 --meridian-points 81 --radius .34 \
+  --out /workspace/scratch/16f63c8bce6b/parallel-prefix-b677-pairs-coarse.json
+```
+
+报告SHA `8ccfa1cd75162ef44dc1316a6702d41263c25f0b4d38b999455e544116bfbc2a`。源不保存点云或点对数组，raw只在仓库外。相同字段和相同经向点，angles1024、stride2的角加密已经启动；结果返回前不预填改善或连续证书。

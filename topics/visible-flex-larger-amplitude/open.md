@@ -121,4 +121,6 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [有限深P=0新族](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)保全2M+1方程、改M条深端行，三个真接受到材料λ5e−5；直接1e−4失败保留。它直接约束状态的非均值高度，但integral-K兼容误差、hr/hrr与强prefix接合均仍需实际支付；不冒原far DN。
 
+[b677镜像前缀实际法向弦](notes/2026-11-17-parallel-geometry-prefix-normal-chords.md)真quintic一阶法向、41216点共52697444近点对Qmin.16165446，远对由距离≥.34给Q≥.17；仅浮点点云，不替R16连续块/对角线、尾/盖或完整D。相同场角加密继续。
+
 继续真实weighted幅度/角阶延拓、C²高度与g共同设计，以及核心响应改善。冻结候选后再精化同g/参数/t；实际全场Gram、完整D、整像held、含反射E(3)、全部活动点对/reach和全t责任一项不减。现未达到课题README完成标准，不以本节或任一子题结果停止。

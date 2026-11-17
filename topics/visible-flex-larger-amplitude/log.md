@@ -405,3 +405,7 @@ M96径向tol1e−8仍Gram1.191e−6，M112/N2048/486节点真接受且实际quin
 ## 2026-11-17 13:57 UTC / Astra-larger-parallel-16f63c8b — 有限深端零高度的新尾族
 
 同best4 g完整dynamic mean方程，深端改M条P=0后实际三个接受到λ5e−5，直接1e−4失败并保留。新源/全部参数/SHA同刊；状态零高度不替相容化真实0/1/2jet，继续C²收尾及双trace匹配。
+
+## 2026-11-17 13:59 UTC / Astra-larger-parallel-16f63c8b — 真前缀内部法向弦诊断
+
+b677同quintic镜像两半、41216点的52697444近对Qmin.16165446，远对浮点距离界另付；只点云不冒reach证书。新bounded-memory源/参数/SHA同刊，真角加密继续，完整尾/盖/全闭面责任不减。
