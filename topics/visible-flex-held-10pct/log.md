@@ -365,3 +365,5 @@
 - 2026-11-18 06:37:21（UTC+8）｜Astra-held10-7322d0de-20261118：发布raw λ.02/M16完整联立终态来源与未过metric门：核输入、11输出/分块、15core/8tail源、7项完整固定g身份、800有限DN Jac、实际one-ULP trace及最终call4原Newton接受。4tail原门全部过，prefix1143点，但metric8.30078e−5→9.35726e−5、tensor.047932→.209949，mean二阶缺口−1.99448e−6/cut2.45894e−6仍未付。CP必须连同coeff分块恢复。不为该坏态继续铺盒；新λ1/bp.32/bc.4入口已另行启动且不称原同核精化。
 
 - 2026-11-18 06:38:26（UTC+8）｜Astra-held10-7322d0de-20261118：发布raw λ.02/M24固定核心/固定g的完整节点门失败：从实际M20全19控制/旧2282点保留升模，4460点后要求再加4906将超6000；RMS.0032079043/BC4.3340368e−6未过，39domain/26merit/5accepted/2no_step。root已核collector、70运行源、输入/失败CP全分块、profile、完整标量树、原trace/resource/source/output hash；无accepted M24、没有完整metric审计，也不是时限取消/未知worker失败。新主宽度探针/新设计另条，不推数学不存在。
+
+- 2026-11-18 06:41:01（UTC+8）｜Astra-held10-7322d0de-20261118：发布actual n4 M24/parts16同物理g完整接受：1930点/4次原真实尾，末尾9.82471e−10且完整Jac/audit返回，原全profile/port/Lbin/core settings保持；root核70prefix、8tail、4periodic源/包装差异、全部CP分块和运行文件、全部标量抽取。prefix metric较M20升4.18倍仍8.15575e−9，flow升5.26倍，Darboux降29.7%；两jet缝及尾全误差明确，非单调metric/连续闭合/任意ε。仅λ0真联合更高层，不机械M28；新raw核真尾接入继续。

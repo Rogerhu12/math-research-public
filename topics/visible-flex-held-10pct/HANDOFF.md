@@ -7,14 +7,14 @@
 连通闭曲面连续 C² 嵌入族；固定有内点闭 H、diamH≥.2D；整像 δhold≥.1D，含全部反射取商 δE>0，全时 reach≥.03D。一个固定 g/物理参数/时间范围，metric≤1e−6，空间/频率/时间加密下降至求解/机器地板；材料位移、solver success 或条件窗口不替代全验收。
 
 - 已部分克隆、实际 pull，全文读根 README 授权及全部规则、本题 README/旧交接/全部记录。
-- 已读规则提交：`64d794ce930e7cf777e9335fe3da20884d4faca8`。2026-11-18 06:38:26（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`5f35c1f272cc16c74bc3c7c8799844125a7d6f55`。2026-11-18 06:41:01（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新本文件并发布。ref 拒绝即真实 pull --rebase 后非 force 重发至成功。终端无可用认证，按根8用已连接 GitHub 小文本原子提交；终端真实 pull 仍照常。
 - 可再生 mesh/场/检查点/逐盒表不入 Git、Release、CI artifact；只留源、参数、命令、hash、紧凑标量。单文件<100KB、本文件<10KB。无根 LOG。达到标准后继续扩大比例。
 - agent 只在原 worktree 写源，主会话独占独立 publication worktree 的 Git。旧 scratch 只读；数值运行副本独立，避免执行中改源。
 
 ## 1. n4：actual同g精化与raw圆化
 
-**真正actual g**：eta.1/q.01，δ=.030027177128250468/vd=.2483630655929876。M16→M20冻整profile/port，1913点，prefix metric2.38461e−8→1.950429e−9/tensor3.51076e−6；四次真尾/外层/audit全过，tail1.66494e−9/minA.942545/metric2.27685e−12/fullD8.96381e−8，见n4-actual-fixed-m20。同g M24保1913旧点/完整核≤2.09e−15；首worker−9未有accepted尾，见n4-actual-m24-worker-interruption。heap1536重试有真实失败终态：首warmup迭12原线搜索停5.41094e−9，accepted0/无prefix CP；worker0不等于success，RSS不作OOM判断，见n4-actual-m24-parts8-terminal。原full-Jac重放主残差在mode96/stage28、差2.035e−12而该分量ULP1.972e−31；次大低模2ULP已过门，见n4-m24-tail-residual-location。现同g/shared/parts16首warmup已过9.19312e−10，正求新prefix H的实际尾，仍λ0/未闭合。
+**真正actual g**：eta.1/q*.01，δ=.030027177128250468/vd=.2483630655929876。M20/1913点原完整联立metric1.950429e−9、Darboux3.51076e−6。M24/parts8首worker−9和随后heap1536原门5.41094e−9失败分开记；主峰mode96并非1ULP，见n4-actual-m24-*、n4-m24-tail-residual-location，不猜OOM。新同g/shared/parts16完整通过：1930点/4真尾，最终9.82471e−10/A.942545，完整prefix metric8.15575e−9较M20升4.18倍、flow升5.26倍，Darboux2.46911e−6降29.7%；tail metric4.81792e−12/fullD2.72958e−7。mean二阶缝−3.497e−11/nonmean1.8882e−8，仍为有限审计，非连续闭合/单调收敛；见n4-actual-fixed-m24-parts16。λ仍0，转新raw核真尾接口，不机械M28。
 
 R30周期复用/同μ缓存不改方程与2e−9原门。n4 actualM20/576stage/990760标量全残差/flow/Jac/graphs逐位同值，engine576→8、返回数组变异/重入差0；见n4-shared-periodic-engines，不作普遍提速声明。整核/旧网格身份见n4-fixed-seed-identity；线性g和actual链分开。
 
