@@ -1,0 +1,332 @@
+{
+  "scope": "Locate full physical residuals of one saved double-mode prefix.\n\nThe shadow ODE jet is a diagnostic at the same represented position, not a\nreplacement map or a convergence certificate. No physical parameter changes.\n",
+  "checkpoint_sha256": "5fa639981253682570f4fee3f5811f64de250c4575550538e15831eba02acb74",
+  "q": 0.005,
+  "modes": 6,
+  "parameters": [
+    6.284338398806724e-06,
+    3.402220580402468e-05,
+    -0.00019973758155462386,
+    1.86568425721442e-05,
+    -1.2442286003587408e-06,
+    2.0919985296627924e-07
+  ],
+  "physical_profile": {
+    "direction": "outward",
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    },
+    "vu": 0.4,
+    "ramp": 0.45,
+    "vd": 0.2645035359076601,
+    "delta": 0.028406992702837357
+  },
+  "code_sha256": {
+    "run_dual_prefix.py": "333d1bd164074e17454bbad2c99051c95a277b789ec0a9fcbfa34b839a5b9210",
+    "even_mode_loader.py": "7449980369afb7bf9d8966540089311bd87b059754a8067496837d3c79fb9f7b",
+    "analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "diagnose_dual_prefix.py": "1ad8c2fe6c61e4413d10487d93d564147aaa09801d5adc021148bab726b8ef34",
+    "plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "bimodal_core.py": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55",
+    "dual_design_bvp.py": "a5c840b0073d1ca7c6e7a77fa22d6a3d29be22d5432ade956d2d9021daecc291",
+    "moment_interval_bounds.py": "467195b13ce970ee7360494776ea58b6fd56ab893d196065ecbbb475c7e02481",
+    "complementary_moment_basis.py": "2ef6b57270bb0213a5ec6f581e24330c3da7086ea86e615c11f28b1fbd18dc6c",
+    "exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89"
+  },
+  "groups": {
+    "nodes": {
+      "saved_C2_map": {
+        "metric_l1": {
+          "value": 4.262310179312151e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "metric_point": {
+          "value": 3.0845210734486983e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "tensor_l1": {
+          "value": 0.002041792340363403,
+          "s": 0.28085698098320827,
+          "component": null,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.01109464776579605,
+          "interval": [
+            0.2792880904371984,
+            0.28085698098320827
+          ]
+        },
+        "flow_defect": {
+          "value": 2.9430671183396362e-05,
+          "s": 0.2494784620091769,
+          "component": null,
+          "physical_critical": 0.2409136266836049,
+          "critical_distance": 0.008564835325572007,
+          "interval": [
+            0.24790947750437464,
+            0.2494784620091769
+          ]
+        },
+        "root_min": 0.003997812057842665
+      },
+      "shadow_projected_ode": {
+        "metric_l1": {
+          "value": 4.262310179312151e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "metric_point": {
+          "value": 3.0845210734486983e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "tensor_l1": {
+          "value": 0.0020417923403630057,
+          "s": 0.28085698098320827,
+          "component": null,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.01109464776579605,
+          "interval": [
+            0.2792880904371984,
+            0.28085698098320827
+          ]
+        },
+        "flow_defect": {
+          "value": 2.9430671183396362e-05,
+          "s": 0.2494784620091769,
+          "component": null,
+          "physical_critical": 0.2409136266836049,
+          "critical_distance": 0.008564835325572007,
+          "interval": [
+            0.24790947750437464,
+            0.2494784620091769
+          ]
+        },
+        "root_min": 0.003997812057842665
+      }
+    },
+    "midpoints": {
+      "saved_C2_map": {
+        "metric_l1": {
+          "value": 4.262156013450289e-06,
+          "s": 0.2894859003748762,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0024657283741281177,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "metric_point": {
+          "value": 3.0843702234495396e-06,
+          "s": 0.2894859003748762,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0024657283741281177,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "tensor_l1": {
+          "value": 0.0020420266218331507,
+          "s": 0.2800725357102033,
+          "component": null,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.011879093038801025,
+          "interval": [
+            0.2792880904371984,
+            0.28085698098320827
+          ]
+        },
+        "flow_defect": {
+          "value": 2.9437643369609225e-05,
+          "s": 0.24869396975677577,
+          "component": null,
+          "physical_critical": 0.2409136266836049,
+          "critical_distance": 0.007780343073170881,
+          "interval": [
+            0.24790947750437464,
+            0.2494784620091769
+          ]
+        },
+        "root_min": 0.003997877453682741
+      },
+      "shadow_projected_ode": {
+        "metric_l1": {
+          "value": 4.262156013450289e-06,
+          "s": 0.2894859003748762,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0024657283741281177,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "metric_point": {
+          "value": 3.0843702234495396e-06,
+          "s": 0.2894859003748762,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0024657283741281177,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "tensor_l1": {
+          "value": 0.002042027268631703,
+          "s": 0.2800725357102033,
+          "component": null,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.011879093038801025,
+          "interval": [
+            0.2792880904371984,
+            0.28085698098320827
+          ]
+        },
+        "flow_defect": {
+          "value": 2.9437599833882467e-05,
+          "s": 0.24869396975677577,
+          "component": null,
+          "physical_critical": 0.2409136266836049,
+          "critical_distance": 0.007780343073170881,
+          "interval": [
+            0.24790947750437464,
+            0.2494784620091769
+          ]
+        },
+        "root_min": 0.003997877453682741
+      }
+    },
+    "audit": {
+      "saved_C2_map": {
+        "metric_l1": {
+          "value": 4.262310179312151e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "metric_point": {
+          "value": 3.0845210734486983e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "tensor_l1": {
+          "value": 0.0020420266218331507,
+          "s": 0.2800725357102033,
+          "component": null,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.011879093038801025,
+          "interval": [
+            0.2792880904371984,
+            0.28085698098320827
+          ]
+        },
+        "flow_defect": {
+          "value": 2.9437643369609225e-05,
+          "s": 0.24869396975677577,
+          "component": null,
+          "physical_critical": 0.2409136266836049,
+          "critical_distance": 0.007780343073170881,
+          "interval": [
+            0.24790947750437464,
+            0.2494784620091769
+          ]
+        },
+        "root_min": 0.003997812057842665
+      },
+      "shadow_projected_ode": {
+        "metric_l1": {
+          "value": 4.262310179312151e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "metric_point": {
+          "value": 3.0845210734486983e-06,
+          "s": 0.29027035110038546,
+          "component": 2,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.0016812776486188619,
+          "interval": [
+            0.28870144964936695,
+            0.29027035110038546
+          ]
+        },
+        "tensor_l1": {
+          "value": 0.002042027268631703,
+          "s": 0.2800725357102033,
+          "component": null,
+          "physical_critical": 0.2919516287490043,
+          "critical_distance": 0.011879093038801025,
+          "interval": [
+            0.2792880904371984,
+            0.28085698098320827
+          ]
+        },
+        "flow_defect": {
+          "value": 2.9437599833882467e-05,
+          "s": 0.24869396975677577,
+          "component": null,
+          "physical_critical": 0.2409136266836049,
+          "critical_distance": 0.007780343073170881,
+          "interval": [
+            0.24790947750437464,
+            0.2494784620091769
+          ]
+        },
+        "root_min": 0.003997812057842665
+      }
+    }
+  }
+}

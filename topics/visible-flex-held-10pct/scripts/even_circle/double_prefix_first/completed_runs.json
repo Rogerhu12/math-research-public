@@ -1,0 +1,178 @@
+{
+  "scope": "Finite linear-port Frenet prefix data only. No nonlinear tail, exact metric, exact circular patch at lambda=0, closed family, reach or held-ratio conclusion.",
+  "physical_port_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+  "runs": [
+    {
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 509,
+      "max_rms": 9.871798669447971e-07,
+      "max_bc": 4.159595844849262e-15,
+      "seconds": 45.76355800199963,
+      "parameters": [
+        6.284338398806724e-06,
+        3.402220580402468e-05,
+        -0.00019973758155462386,
+        1.86568425721442e-05,
+        -1.2442286003587408e-06,
+        2.0919985296627924e-07
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.2645035359076601,
+        "delta": 0.028406992702837357
+      },
+      "domain_newton": {
+        "calls": 5,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 9,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "parameter_jac_checks": [
+        {
+          "step": 0.0001,
+          "error": 8.676300271535931e-07,
+          "scale": 1.7690644930734578
+        },
+        {
+          "step": 3e-05,
+          "error": 7.893836300506413e-08,
+          "scale": 1.7690647779270798
+        },
+        {
+          "step": 1e-05,
+          "error": 1.4326472452808048e-08,
+          "scale": 1.7690648030033171
+        }
+      ],
+      "kind": "two_physical_parameter_design",
+      "q_seed": 0.005,
+      "q_actual": 0.005,
+      "modes": 6,
+      "geometric_diagnostics": {
+        "metric_l1": 4.262310179312151e-06,
+        "darboux_l1": 0.0020420266218331507,
+        "flow_defect": 2.9437643369609225e-05,
+        "kappa_sample": 8.596962814783318,
+        "root_min": 0.003997812057842665,
+        "radius_max": 1.0317577751791165,
+        "height_max": 0.6978717055009911,
+        "physical_bc_max": 2.7360486761178145e-19,
+        "terminal_height_coeff_max": 2.8529509051289745e-06
+      },
+      "files": {
+        "q005-m6-eta015.json": "2cf580aff7e1c504233071dfbf5ad3721c91aa9676b1760d4b4da32dd5c99b6a",
+        "q005-m6-eta015.log": "cfbc0073d69de2217df075d08c09861ff85bd3cd1bf45dd53e1c14c6f5992d2f",
+        "q005-m6-eta015-lam0.json.gz": "5fa639981253682570f4fee3f5811f64de250c4575550538e15831eba02acb74",
+        "q005-m6-eta015-lam0_coeff_00.npy.gz": "559fbffc6478f26111a9c53b038569269876cf816f87200e15d34966e72782af"
+      }
+    },
+    {
+      "success": true,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 481,
+      "max_rms": 9.864880318942767e-07,
+      "max_bc": 1.4577239534056862e-14,
+      "seconds": 35.39186916200197,
+      "parameters": [
+        -0.008173454320771973,
+        -0.00031559863705735326,
+        -0.00019786495503669173,
+        1.8550570555453262e-05,
+        -1.2134733176917112e-06,
+        -3.217915467702628e-07,
+        -3.3754198070649966e-09,
+        -2.159974628220052e-09
+      ],
+      "physical_profile": {
+        "direction": "outward",
+        "ramp_eta": 0.05,
+        "ramp_law": "flat",
+        "cycles": 1,
+        "prefix_bridge": {
+          "kind": "turn_plateau_v1",
+          "curvature": 4.0,
+          "peak_fraction": 0.2
+        },
+        "vu": 0.4,
+        "ramp": 0.45,
+        "vd": 0.2645035359076601,
+        "delta": 0.028406992702837357
+      },
+      "domain_newton": {
+        "calls": 4,
+        "rejected_domain_trials": 0,
+        "rejected_merit_trials": 0,
+        "accepted_steps": 8,
+        "no_step": 0,
+        "minimum_alpha": 1.0
+      },
+      "parameter_jac_checks": [
+        {
+          "step": 0.0001,
+          "error": 2.3380325346991706e-06,
+          "scale": 0.3618805754588303
+        },
+        {
+          "step": 3e-05,
+          "error": 2.0937244669498064e-07,
+          "scale": 0.36188075045539825
+        },
+        {
+          "step": 1e-05,
+          "error": 1.8224948574977363e-08,
+          "scale": 0.3618807597632016
+        }
+      ],
+      "kind": "same_physical_metric_refinement",
+      "q_seed": 0.005,
+      "q_actual": 0.004959299287687804,
+      "modes": 8,
+      "geometric_diagnostics": {
+        "metric_l1": 5.733351380793177e-07,
+        "darboux_l1": 0.0003271454289807479,
+        "flow_defect": 4.125657178580525e-06,
+        "kappa_sample": 8.591456294902706,
+        "root_min": 0.003998404230017405,
+        "radius_max": 1.0317331936190073,
+        "height_max": 0.6978724033062941,
+        "physical_bc_max": 1.4577239534056862e-16,
+        "terminal_height_coeff_max": 2.8304543562000805e-06
+      },
+      "files": {
+        "q005-m8-eta015-fixed.json": "840871bfa0470d2f7b225d5fb9da0d77fc380e8317dca9271a8d277fff8547b8",
+        "q005-m8-eta015-fixed.log": "40dbc463082c1195d113d568fea06b615711d465699db8fa31113d6bec46c9b3",
+        "q005-m8-eta015-fixed.json.gz": "9fc60cb7801491972b47882be94a8702592903742960e06a137c4b1dc5810237",
+        "q005-m8-eta015-fixed_coeff_00.npy.gz": "cb7950f9b12ddd24163f2202e9c129a4b169459bbe281cf537be50badfe815f5"
+      },
+      "seed_core_preservation": {
+        "F": 1.7208456881689926e-15,
+        "Ft": 1.7763568394002505e-15,
+        "Ftt": 1.915134717478395e-15
+      }
+    }
+  ],
+  "engineering_correction": {
+    "description": "The first directional FD diagnostic found a stale vd flow cache because LiftBVP.initial calls super().flow. Fixed by synchronizing both keys and current physical vd. The failed engineering check is not a failed mathematical candidate.",
+    "original_diagnostic_sha256": "54b51275bf244f39dbcb80697e612f14a4fcf47db139dccf6b07a22d6c89120a",
+    "corrected_diagnostic_sha256": "7d37efb870b27eb898195404440b19cf49da95919b2658be3faaf256856ff4e7"
+  },
+  "homotopy_path_warning": {
+    "initial_h8_per_q": -0.03571428571428571,
+    "target_h8_per_q": 0.09847032326769546,
+    "zero_crossing_lambda": 0.26615784019672156,
+    "scope": "High-precision quadrature diagnostic; this is a possible nonlinear resonance compatibility issue, not a nonexistence theorem."
+  }
+}

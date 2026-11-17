@@ -1,0 +1,50 @@
+{
+  "scope": "Executed empty-directory source restore, actual original-worker factory assembly/port regeneration, and actual design core/profile/seed/Jac initialization. No copied cache or checkpoint input.",
+  "restored_files": 70,
+  "recovery_manifest_sha256": "8e177f9cd0ab54d6db1d29baff4faad5ba5fda5f073c4743ab55d35dda73576e",
+  "port_sha256": "2a3412f96702f409b2e074ac23b3223d4e0f1d0fe1f1114e7ae34911a5bf9095",
+  "design_check_sha256": "be413b7c1ee581f10825262cb0e96a6d158b1791565868d8646933c9ae6e8f67",
+  "design_check": {
+    "parameter_jac_checks": [
+      {
+        "step": 0.0001,
+        "error": 8.676300271535931e-07,
+        "scale": 1.7690644930734578
+      },
+      {
+        "step": 3e-05,
+        "error": 7.893836300506413e-08,
+        "scale": 1.7690647779270798
+      },
+      {
+        "step": 1e-05,
+        "error": 1.4326472452808048e-08,
+        "scale": 1.7690648030033171
+      }
+    ],
+    "boundary_jac_checks": [
+      {
+        "step": 0.0001,
+        "error": 2.165752233107554e-08,
+        "scale": 0.9739040676848912
+      },
+      {
+        "step": 3e-05,
+        "error": 3.5285079996727475e-09,
+        "scale": 0.9739040874400138
+      },
+      {
+        "step": 1e-05,
+        "error": 3.309705724763301e-09,
+        "scale": 0.9739040891589041
+      }
+    ],
+    "chart_inverse_error": 2.220446049250313e-16,
+    "seed_boundary_max": 6.876088308948991e-06
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

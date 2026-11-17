@@ -1,0 +1,47 @@
+{
+  "source": "even_control_work/frozen_v1/uniform_complement_core.py",
+  "source_sha256": "1afe9f6d0335b034ccd9f26e6c7ede174aec58e3c405e25ec48d0616070c1a82",
+  "replacements": [
+    [
+      "from complementary_moment_basis import ComplementaryMomentBasis",
+      "from complementary_moment_basis import ComplementaryMomentBasis\nfrom functools import lru_cache\nComplementaryMomentBasis=lru_cache(maxsize=32)(ComplementaryMomentBasis)"
+    ],
+    [
+      "coefficient_precision=80,positivity_grid_max=32768):",
+      "coefficient_precision=80,positivity_grid_max=32768,bimodal_eta=.15):"
+    ],
+    [
+      "self.corrections=tuple(float(c) for c in corrections);self.c=np.asarray(self.corrections)",
+      "self.bimodal_eta=float(bimodal_eta)\n            if not 0<=self.bimodal_eta<=1/3:raise ValueError(\"Bimodal eta must lie in [0,1/3]\")\n            actual=np.asarray(corrections,float).copy()\n            if len(actual):actual[0]=0.\n            self.corrections=tuple(float(c) for c in actual);self.c=actual"
+    ],
+    [
+      "high=1+self.q*((1-self.lam)*self.factor+self.lam*self.target_max)+triangle",
+      "high=1+self.q*((1-self.lam)*self.factor*(1+2*self.bimodal_eta)+self.lam*self.target_max)+triangle"
+    ],
+    [
+      "base_prime=self.q*((1-self.lam)*self.factor*self.base_mode+",
+      "base_prime=self.q*((1-self.lam)*self.factor*self.base_mode*(1+3*self.bimodal_eta)+"
+    ],
+    [
+      "value=self.basis.primitive_jets(flat,3,self.lam)",
+      "value=tuple(v.copy()for v in self.basis.primitive_jets(flat,3,self.lam))\n            for v in value:v[0]=0. # Ignored c8 slot: all parameter jets must vanish."
+    ],
+    [
+      "self.q*((1-self.lam)*self.factor*self.base_mode*np.sin(self.base_mode*phi)+",
+      "self.q*((1-self.lam)*self.factor*self.base_mode*((1+self.bimodal_eta)*np.sin(self.base_mode*phi)-2*self.bimodal_eta*np.sin(2*self.base_mode*phi))+"
+    ],
+    [
+      "self.q*((1-self.lam)*self.factor*self.base_mode**2*np.cos(self.base_mode*phi)+",
+      "self.q*((1-self.lam)*self.factor*self.base_mode**2*((1+self.bimodal_eta)*np.cos(self.base_mode*phi)-4*self.bimodal_eta*np.cos(2*self.base_mode*phi))+"
+    ],
+    [
+      "        def summary(self):",
+      "        def unit_rho(self,phi):\n            phi=np.asarray(phi)\n            target=self.sign*self.factor*(self.chi(phi)-self.mean_chi)/(1-self.mean_chi)\n            smooth=-self.factor*((1+self.bimodal_eta)*np.cos(self.base_mode*phi)-self.bimodal_eta*np.cos(2*self.base_mode*phi))\n            return (1-self.lam)*smooth+self.lam*target\n\n        def summary(self):"
+    ],
+    [
+      "out.update(control_family='C4 complementary weighted-cosine moment controls',",
+      "out.update(control_family='C4 complementary controls with fixed c8=0 and two-harmonic primary',\n                       bimodal_eta=self.bimodal_eta,ignored_correction_index=0,"
+    ]
+  ],
+  "target_sha256": "6584ed8d7a525502945b9683144a3ae0d19ae6c7c73b4012cf548ee98a1a0c55"
+}
