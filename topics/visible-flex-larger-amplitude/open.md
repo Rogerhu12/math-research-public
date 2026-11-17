@@ -113,7 +113,7 @@ H有内点及diamH、整像Hausdorff保持、含反射Euclidean差和整个闭F0
 
 [R634全角有理覆盖](results/R634-inward-fixed-material-full-angle-chord-budget.md)对真实.995父所有112模及固定材料Θ，以精确系数、Machin π、向外Taylor和Lipschitz支付角间距：条件R∈[.531878,.531880]、L≥1.289716、H1.8下全角chord<1.229702，余>.060014。R/L两个profile积分条件仍未认证，非实际非线性尾。
 
-[移动框架Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)以实际T及T_s构造fast109有限行；[遗漏Vz谱边界](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)以未投影速度的113–221模零约束替109右行，Jac满秩但cond5.54e7。全部338 ODE/229浅行保持，两种新有限BC分别真解中，均非tail DN。固定a与R240共同材料规范不等于φ下rho逐点相同，六jet收敛尚未完成。
+[移动框架Schur](notes/2026-11-17-parallel-geometry-frenet-schur-diagnostic.md)构造fast109有限行，[M112真解](notes/2026-11-17-parallel-geometry-schur-m112-accepted.md)实际Gram2.421e−6仍超限；[遗漏Vz谱边界](notes/2026-11-17-parallel-model-inward-omitted-velocity-bvp.md)以未投影速度的113–221模零约束替109右行，Jac满秩但cond5.54e7。全部338 ODE/229浅行保持，Schur M128与遗漏谱真解中，均非tail DN。固定a与R240共同材料规范不等于φ下rho逐点相同，六jet收敛尚未完成。
 
 **有限尾。** [best4配方与有限far32边界](notes/2026-11-17-parallel-numerical-best4-tail-continuation.md)已刊22键primitive，材料M8到λ.0014、物理M8到1e−5；[κ5重解的实际曲率反升](notes/2026-11-17-parallel-geometry-best4-k5-negative.md)说明背景参数不替真几何。 [完整weighted Jac](notes/2026-11-17-parallel-numerical-weighted-jacobian.md)保全部行/112项rho及S/D/L/N，[物理M32](notes/2026-11-17-parallel-numerical-material-seed-physical32.md)跨角初猜后λ1e−4真接受；[深P0](notes/2026-11-17-parallel-numerical-finite-dirichlet-tail.md)到λ5e−5，直接及暖试1e−4均失败，非原far DN。[双trace新g](notes/2026-11-17-parallel-numerical-controlled-tail-first.md)两零二jet控制家族均未接受；不删浅K/mean或深端行制造成功。
 
