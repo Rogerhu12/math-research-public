@@ -7,7 +7,7 @@
 构造连通闭曲面的连续 $C^2$ 等距嵌入族，固定有内点握持区 $H$，$\operatorname{diam}F_0(H)\ge0.2D$，整像 Hausdorff 变化 $\delta_{\rm hold}\ge0.1D$，含反射取商的 $\delta_{\rm E}>0$，全时 reach $\ge0.03D$。同一固定度量、物理参数和时间范围下，最大相对度量误差不超过 $10^{-6}$ 并随空间、频率、时间加密下降。材料点位移不是 $\delta_{\rm hold}$。
 
 - 已部分克隆、仅稀疏检出本题，执行真实 `git pull --rebase origin main`；根 README（含授权）和本题 README 全文已读。
-- 已读规则提交：`85eab69ec544f007c7dcf208e117c1ecddac4dc6`。2026-11-17 20:11（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 21:11；每次 pull 后比较这两份 README，只读变化并立即执行。
+- 已读规则提交：`efc0226cd93de9688edf0d3251aa4bb5e8ba7263`。2026-11-17 20:17:31（UTC+8），真实 pull/rebase 后双 README 差异为空。下次真实 pull 最迟 21:17:31；每次 pull 后比较这两份 README，只读变化并立即执行。
 - 每个有意义的新结论与本文件同时更新，提交前 pull、核规则后普通 push；非快进立即 pull --rebase 再推。禁止 force push。令牌只在命令行临时使用。
 - 只有完整证明进 `results/`；数值证据和缺口分别标明。可重算数据、网格和渲染不提交，只保存生成脚本、参数、运行标识和 SHA-256；单 Markdown <100KB，本文件 <10KB。不写根 LOG。
 
@@ -27,6 +27,6 @@
 - 并行 `new_construction`：新机制与闭合/握持设计。
 - 并行 `literature_mechanisms`：文献核验已成；转入 Gauss–Codazzi 短前缀与平端退化的独立分析。
 
-新实验：新建短椭圆核心至圆领的 Cartesian Fourier/B样条直接度量设计；另用既有 Frenet BVP 做低模复用。两者均未获全部条件。
+新实验：短椭圆核心至圆领的直接度量设计出现过高度逃逸/曲率层，继续改表示；已恢复旧q20前缀完整端口。新短尾固定E版metric≈.002、κ≈12.12；自由E版独立网格发现退化E与κ≈5.7e6，明确淘汰（notes/2026-11-17-first-short-collar-trials.md）。继续较短弧长、曲率/正支撑约束和厚尾设计。两条路线均未获全部条件。
 
 已证新结论：[R1](results/R1-mild-ellipse-ten-percent-geometry-window.md) 给 $A=1,B=.7$、$r_{cap}=.25$ 的具体条件窗口：完整包络 $r\le1.05,|y|\le.75,|z|\le.6$ 与支撑≥.08、曲率≤12时，held/D≥.10336、Hdiam/D≥.20672、reach/D≥.03307。连接器、连续包围、固定g精化及δE>0仍未付，**不构成完成**。R2给三场Gauss–Codazzi方程及平面圆领端点引理；短椭圆圆整试算在0.28弧长内降径向差，但仍未圆领，见 notes/2026-11-17-gc-short-prefix-experiments.md。下一项见 [open.md](open.md)。本题未达标准，继续推进；达到后继续提高比例。
