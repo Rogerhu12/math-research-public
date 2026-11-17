@@ -283,3 +283,7 @@ PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python \
 raw使用第5节CLI，把源换成分量核、`--cells 381 458 817 --angles 4096 --radial-subdivisions 8`；末胞再用`--cells 817 --angles 8192`。G使用第6节CLI，把入口换成本节G入口、raw-source换成本节分量核、三份比例报告换成第7节`parallel-model-pulse-lambda2-nodes-cell458.json`及`nodes-cell817-before/after.json`，并分别执行本表的单胞/Q和8子胞。完整输入、f512依赖和精确端点继续校验。
 
 `constructive_model`完整只读核对了新分量频率、普通角导数、(9)及实际形算子，未重跑已付计算。至此仍仅有两个G胞、三个raw胞的曲率证书，未启动全域曲率批次；全场/闭面/reach责任不变。
+
+## 9. 同一实际G的固定全818胞批次已启动
+
+[完整固定计划与运行入口](../notes/2026-11-17-parallel-model-pulse-fixed-full-curvature-run.md)消费本节既有G458/817及三份λ证书；其余816胞各一次有限节点λ与全连续分量曲率调用，固定Q4096/8sub，已付817保Q8192/8sub与准确两片union。源/plan/准备SHA已刊，唯一顺序run已起；未变场/g/q4096，不重算代表、不作适应重试、不提前宣称全域曲率或reach。
