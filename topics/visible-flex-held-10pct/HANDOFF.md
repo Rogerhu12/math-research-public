@@ -4,14 +4,14 @@
 
 ## 执行环境中断
 
-2026-11-18 13:53（UTC+8）时环境已标 unavailable，随后执行服务明确无可用环境。m3 91205与n4 27744未取得终态，不推断退出/失败或重复启动。失联前事实通过GitHub保存。恢复后先真实pull/rebase及双README差异，再读既存进程/resource/raw，接原返回点。
+2026-11-18 13:53（UTC+8）时环境已标 unavailable，随后执行服务明确无可用环境。m3 91205与n4 27744未取得终态，不推断退出/失败或重复启动。失联前事实通过GitHub保存。m3旧live_state仍指38274，不能据其重启。恢复后先真实pull/rebase及双README差异，再读既存进程/resource/raw，接原返回点。
 
 ## 目标与同步
 
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`05cdb6d718201e253aeaa73e86a3e2315d3509d2`。最后真实pull为13:51:10（UTC+8）至97da2bfe…；2026-11-18 14:14:00（UTC+8）远端compare双README无变；环境不可用，未冒称pull，恢复后先真实pull。
+- 已读规则提交：`199b9016455f852f953cebeddcdb54cf6c1a2379`。最后真实pull为13:51:10（UTC+8）至97da2bfe…；2026-11-18 14:23:38（UTC+8）远端compare双README无变；环境不可用，未冒称pull，恢复后先真实pull。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。root独占发布。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -32,7 +32,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **旧λ1失败** q.03991248545/M16/a.21多入口均失败；14903存CP后Frenet异常无metric，短a.01/19739 maxnodes/RMS.383/metric.02365。见circle-endpoint-c2-seed、endpoint-second-order-guard、small-halfwidth-circle三项terminal；不续失败c/重跑/继承比例。
 
-旧raw增幅初始化只线性缩物理c，保共享C²窗与原门；q.045有限探针通过但未BVP/尾，合格λ1锚前不运行。见m3-raw-linear-amplitude-initializer。
+旧raw增幅只线性缩物理c；q.045有限探针非BVP/尾，合格λ1锚前不运行。见m3-raw-linear-amplitude-initializer。
 
 原raw λ.02固定g M8→M16虽尾接受，metric8.30078e−5→9.35726e−5变坏，非收敛。canonical/parts16/exact-lift/free-c6均未补角谱，旧弧缺陷>.01255549；见m3-raw-m16-complete-coupled-metric-failure及相关notes，不重跑。
 
@@ -54,9 +54,11 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060→R44旧直接入口** 12897域失败、82557 maxnodes/RMS1.38606，完整失败CP存、无新tail/metric；87257参数FD未定位明确bug，不证BVP条件。见trace-coupled/Lobatto/parameter-jacobian-terminal，不重跑。
 
-**R47/R48/R49升模** T/U固定槽，附B7等；补零保定义核，partial入口仍有投影差。R48以ZN=E ZM+λaχ(IN−E IM)保完整连续表示；R49由无均值场同一推出同正Frenet速度、uniformψ均值与同初值真原函数相同，非循环假设；同节点精确求积相同不证跨M浮点/新quintic。d533b9/fe7dec/96ee接口source已备：真端点/完整新port/PP三块两jet、旧δ重基一次；新inverse→forward实际s取初值，无另跑RMS/mean。p0和c仍自由，非全参数固定精化；实际新mean/audit/尾仍须执行。
+**R47/R48/R49升模** T/U固定槽、附B7等；R48以ZN=E ZM+λaχ(IN−E IM)保连续完整场，R49付同正根/同初值真均值。partial标准入口有投影差，跨M浮点/新quintic不继承恒等。d533/fe7/96ee接口已备：真端点/新完整port、PP三块两jet、新inverse→forward物理s、δ重基一次。p0/c仍自由，实际新mean/metric/尾须付。
 
 **R50** 固定W∈C4、恰弧零且弧外全正，R47端点有限空间之并在完整C4圆弧相容空间稠密；每层精确保留t/u及两低矩。切除→除W→Fejér→固定2矩校正；无统一率/系数/Jac逆/BVP存在。
+
+**R51** 真法向支撑主矩Q、meanρ=1及圆弧R下，signed c≤[RB_a+L(γ_a(1+4Q)−1)]/sinL，γ_a=(1+2cos(L−a))^−2、B_a>0。连同两矩可行条件给(R,Q)必要预算；非|c|界或10%存在/排除。原积分、坐标和正下界版本见R51。
 
 **R45新路径** 同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16/.32/.64完整锚均metric未门。λ.64原inner8cf33、原V8尾和2756/63447失败全保留不重；n3 double/V8及首批字节核见native-baseline/preserved-first-batch。v3 abb2原门下92035真接受7682be/9.168793301e−10/208J+audit；46055不重inner，CPf55b4f/metric8.726888546e−4、mean2差8.881645419e−4。λ1 38274已真实失败：4212点/3mesh/RMS1.06820865/maxnodes；rawf0bfec/side6694存，audit正根margin−2.533498598e−7，0新尾，无完整metric。随后175e从完整f55b锚启动λ.82/91205/439498，qseed.05336960976112643；失联后状态未知。6d09严格端点恢复源保留。见lam100-observed-terminal-and-lam082-entry，未闭合/全参数固定收敛。
 

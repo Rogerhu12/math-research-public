@@ -186,3 +186,10 @@
 - 2026-11-18 14:07:00（UTC+8）｜Astra-held10-7322d0de-20261118：保存n4 M24断连前真实返回：27744 tail1(4e906c67)/tail2(bae0843b)均res1.9735050591537277e−9，前者audit、后者1776J分别真实返回；batch12/13 input8bbe6a8d同。05:50:53.107452Z原inner0真success，2282×73、24p/23scale、4全步无拒、RMS9.976202498318695e−9，原cubic56594a02/sidec4725fd0已存。q按原参数为.012488289412475258，较M20漂移约−5.87107561e−8，非固定全部参数。05:50:53.114Z call3新24H原DN/J发出，最后05:51:21Z仍running；之后环境不可用，没有其response/metric/seam/终态。六项完整SHA及unknown字段存独立compact，不新读不可用scratch、不拼凑完整H、不重算原inner。未交付circle记录源d6e139仅AST/未审未运行，24ace1 collector未执行且后续补丁读取阶段失败。GitHub compare至e59dc838确认双README无变；本次API记录不冒称真实pull。
 
 - 2026-11-18 14:14:00（UTC+8）｜Astra-held10-7322d0de-20261118：R50新解析证明完成并立即发布：固定C4窗口恰在保护闭弧零、整个弧外严格正时，∪span{B2..BN}的C4闭包=完整两低矩零的弧上零空间；补同R44 T/U即完整圆弧相容空间，逐层精确保留t/u和两真低矩。C4端点零jet先切ε薄带得到o(1)，随后除W、用Fejér及固定2×2真矩投影；不偷设原r/W光滑、不换拓扑、不证统一逼近率/系数界/Jac逆/BVP。已GET核R35/R44/R47确无同闭包结论，root全文审与原W/T/U定义核，九次smoothstep严格正适用。R50 SHAfd966b5f84ac6bb6167651a9607db2be3d4867c33ff4da316d3ec8d0bc1ca17f。执行环境仍不可用；此为纯解析推进，0新模型/数值/旧计算，91205/27744终态仍未知。远端compare双README无变，本次无实际pull。
+
+
+## 2026-11-18 14:23:38（UTC+8）— R51：真实主矩与圆弧圆心的必要界
+
+维护会话 Astra-held10-7322d0de-20261118。新增 [R51](results/R51-primary-moment-circle-center-necessary-bound.md)，SHA-256 2867a947ebd8c1d2623ee5eacd3bd57e7be4cf2468c11e21468bd56713112625。在三重旋转中心规范、真实法向角、meanρ=1、ρ≥0、保护弧ρ=R及0<a<L=π/3下，精确积分给外区矩A0=L−Ra、A1=4QL−R sin(3a)/3及−A0≤A1≤cos(3a)A0。三倍角反函数的严格凹性给γ_a=(1+2cos(L−a))^−2，故有符号真实圆心参数 c≤[R sin(L−a)−A0+γ_a(A0+A1)]/sinL；合并为R与Q的必要仿射预算并证明分母B_a>0，另给全角ρ≥r_*时的版本。Q严格是支撑函数在真实法向角中的cos3φ系数，不能代入材料FFT/gauge；c的界不是|c|界，不是10%不存在或BVP存在性证明。closed给证，root与n4独立核符号、坐标、归一和凹性；无新数值/模型或旧计算重跑。
+
+远端main为199b9016455f852f953cebeddcdb54cf6c1a2379；与已读05cdb6d…比较双README无改动。真实执行探测仍明确“No usable execution environment is available”，未冒称git pull或数值终态；最后实际pull仍为13:51:10（UTC+8）到97da2bfe…。m3 91205及n4 27744保持未知。另收到m3原写note工具g3:430真实exit1/607.3s写文件失败，此为文档工具，不是91205终态；未将该未完成文件当作保存成功。m3 scratch live_state在失联前仅保留旧38274且launch字段也陈旧，恢复须以已登记的38274/ecbd46终态→91205/439498启动顺序及实际输出为准，不据它重复启动。
