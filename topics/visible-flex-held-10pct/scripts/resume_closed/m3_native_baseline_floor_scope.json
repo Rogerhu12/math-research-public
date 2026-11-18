@@ -1,0 +1,296 @@
+{
+  "scope": "Actual n3/M8 frozen coefficient/trace baseline, followed by three LD arithmetic samples. The saved V8 trace at floor .1 yields a finite branch-induction argument for lowering only that floor to the actual .05. It is not a new .05 LD execution, a whole-tail solve or a continuous certificate.",
+  "recorded_utc": "2026-11-18T05:30:08.512926+00:00",
+  "original_failure": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+  },
+  "original_complete_rows": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-failed-fullrows-v1/rows.json",
+    "sha256": "2f52490e08e66d18772f3f86c0537c93f9d815f3e98787554eb0a62f35cf3fde"
+  },
+  "capsule_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capsule-summary.json",
+    "sha256": "470baa385fa844395409b81e94068ddd358bd1e1c39dfb35005dfcfe8cd8d1e9"
+  },
+  "capture_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capture-plan.json",
+    "sha256": "470d96d54f24dbfad84ca75794d3b27a4c927a9c87dc9ae30259e832fdb4747a"
+  },
+  "source_capture": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/native_extended/capture_native_m3_baseline.mjs",
+    "sha256": "427da3a29e94a4206d0fdb4f510233486333477adc5294008300a043bc5d8133"
+  },
+  "source_checker": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/native_extended/check_native_m3_baseline.py",
+    "sha256": "a9d25670644d4edda43cfee0d9c8b467c81ffd9093c46732b6e748db3f770ed8"
+  },
+  "captured_source_count": 124,
+  "captured_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capsule-summary.json",
+    "sha256": "470baa385fa844395409b81e94068ddd358bd1e1c39dfb35005dfcfe8cd8d1e9"
+  },
+  "complete_source_and_output_references": {
+    "source": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/native_extended/check_native_m3_baseline.py",
+      "sha256": "a9d25670644d4edda43cfee0d9c8b467c81ffd9093c46732b6e748db3f770ed8"
+    },
+    "capsule_summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capsule-summary.json",
+      "sha256": "470baa385fa844395409b81e94068ddd358bd1e1c39dfb35005dfcfe8cd8d1e9"
+    },
+    "coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "739f2c6f79dacbaf2e9612eae34898a3f9cc762940384ccb51e45a32af241769"
+    },
+    "reference": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capsule-reference.json.gz",
+      "sha256": "ce0e290df876c9a901dae87d65572e436b5f519936c1950cf1d7ec6f01aa2fde"
+    },
+    "build": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/build.json",
+      "sha256": "069165b977b12576586a94ffd60a17f24f9c292b30827bf6e874c7b0c9daa2d3"
+    },
+    "native_library": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/libfrozen_flow_production.so",
+      "sha256": "d6ee1b5a19bad636f012a02f02d7e99379249431df96bb970113a85dbff79bef"
+    },
+    "native_executable": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+      "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+    },
+    "generic_CPP": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf"
+    },
+    "header": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "ABI_helper": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "original_V8_helper": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_multiprecision.py",
+      "sha256": "a4e5297beb66c218b0b716ff27992830f2d5db6a56655ffab76c9a9b7a4af819"
+    },
+    "original_V8_bridge": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+      "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+    },
+    "original_input": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+    },
+    "original_complete_rows": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-failed-fullrows-v1/rows.json",
+      "sha256": "2f52490e08e66d18772f3f86c0537c93f9d815f3e98787554eb0a62f35cf3fde"
+    },
+    "double_baseline": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/native-check/double-baseline.json",
+      "sha256": "f943fed9959420e0f6b6f29ef1a5e60812eaeb56be89caf50565e37cccc77872"
+    },
+    "raw": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/native-check/raw.json.gz",
+      "sha256": "3d5d664bd05bbaf9ef0db8a9398b17c02a213badc7610060a6bcf9e1fde2663e"
+    }
+  },
+  "capture_execution": {
+    "observer_session": 95674,
+    "terminal_chunk": "7e96a9",
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capture-resource.json",
+      "sha256": "bd4a4903b153ecac82454f2a65c9e30492b1fd26bf7b46b3782742639d07d6eb"
+    },
+    "command": [
+      "node",
+      "--max-old-space-size=3072",
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/native_extended/capture_native_m3_baseline.mjs",
+      "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "m3_work/trace-path-lam064-failed-fullrows-v1/rows.json",
+      "m3_work/native-literal-baseline-v1/capsule"
+    ],
+    "cwd": "/workspace/scratch/7322d0dee069",
+    "returncode": 0,
+    "observed_utc": "2026-11-18T05:24:09Z",
+    "seconds": 14.010724879997724
+  },
+  "check_execution": {
+    "observer_session": 53827,
+    "terminal_chunk": "d5b4cf",
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/check-resource.json",
+      "sha256": "5b6c4831f3d70667af1db222653d31622dbcbd75b84a9051ddd5cf7813399f86"
+    },
+    "command": [
+      "python",
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/native_extended/check_native_m3_baseline.py",
+      "--capsule-summary",
+      "m3_work/native-literal-baseline-v1/capsule-summary.json",
+      "--build",
+      "n4_work/native-production-floor-v1/build.json",
+      "--out-dir",
+      "m3_work/native-literal-baseline-v1/native-check"
+    ],
+    "cwd": "/workspace/scratch/7322d0dee069",
+    "returncode": 0,
+    "observed_utc": "2026-11-18T05:26:05Z",
+    "seconds": 4.009288827997807
+  },
+  "native_check_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/native-check/summary.json",
+    "sha256": "2967d2be18157bdb8c83316b746615419b7a6891723c5abedfc1b6b82c61d37a"
+  },
+  "native_runtime": {
+    "abi": 1,
+    "long_double_significand_bits": 64,
+    "long_double_storage_bytes": 16,
+    "rounding_mode": 0,
+    "round_to_nearest": true,
+    "x87_control_word": 895,
+    "config_size": 88,
+    "step_size": 40,
+    "stage_size": 32,
+    "callbacks_size": 32,
+    "diagnostics_size": 80
+  },
+  "dimensions": {
+    "modes": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "independent_quadrature_nodes": 128,
+    "physical_state_components": 16,
+    "integrated_state_components": 18,
+    "flow_Jacobian_rows": 18,
+    "flow_Jacobian_columns": 16,
+    "flow_Jacobian_entries_per_stage": 288
+  },
+  "baseline": {
+    "named_stages": [
+      86,
+      87,
+      88
+    ],
+    "verified_outputs": 54,
+    "verified_trace_events": 130176,
+    "total_domain_evaluations": 122880,
+    "all_saved_domain_operands_above_point_one": true,
+    "old_n4_fixture_results_used_as_m3_evidence": false
+  },
+  "floor_identity": {
+    "config_key_present": false,
+    "actual_checkpoint_parameters_floor": 0.05,
+    "captured_V8_floor": 0.1,
+    "checked_native_double_floor": 0.1,
+    "LD_sample_floor": 0.1,
+    "lowering_floor_statement": "For only these fixed captured V8 scalar/root trajectories, with every other input/source/arithmetic unchanged, all old D/S/A decisions pass at .1 and therefore at .05. Induction through the deterministic root/RK program preserves the numerical states and nonfloor operands/judgments. The trace floor operand itself changes.",
+    "floor_is_only_a_domain_guard_on_this_executed_path": true,
+    "legacy_diagnostic_rhs_called": false,
+    "same_trace_floor_operand_claim": false,
+    "new_point_zero_five_flow_executed_by_this_readonly_record": false,
+    "point_one_LD_samples_relabelled_as_point_zero_five": false,
+    "all_stages_or_other_states_claim": false
+  },
+  "named_results": [
+    {
+      "stage": 86,
+      "original_V8_full_row_norm": 3.667517320458417e-09,
+      "original_peak_component": 8,
+      "captured_outputs": 18,
+      "original_root_calls": 64,
+      "saved_trace_events": 43392,
+      "domain_evaluations": 40960,
+      "all_recorded_D_S_A_strictly_above_point_one": true,
+      "minimum_D": 0.9999647655410466,
+      "minimum_S": 0.9999999986085737,
+      "minimum_A": 0.9824832137975359,
+      "caught_domain_trials": 0,
+      "baseline_18_outputs_bitwise_equal": true,
+      "baseline_all_nonfloor_and_floor_trace_fields_bitwise_equal": true,
+      "original_16_physical_outputs_equal_prior_fullJac": true,
+      "normalization_scale_uniform_on_row": true,
+      "LD_floor": 0.1,
+      "LD_fixed_state_row_norm": 1.4670069281833668e-08,
+      "LD_peak_component": 11,
+      "LD_Jacobian_entries": 288,
+      "LD_root_calls": 64,
+      "LD_root_updates": 128,
+      "LD_root_fallbacks": 0,
+      "LD_minA": 0.9824832137975359,
+      "LD_minD": 0.9999651773994767,
+      "LD_maximum_root_relative_residual": 1.9996751985762594e-15,
+      "LD_state_sha256": "f5911c7fcf1dacf8bb4f7f7238c66f5cc3a71d0a6968644b1707691d617d02e0",
+      "LD_tangent_sha256": "123e2d877245d78442aef22cf5e2b872a5712dd8936324da2ba38d000f2a0300",
+      "independent_MP_variational_check": false
+    },
+    {
+      "stage": 87,
+      "original_V8_full_row_norm": 2.4239779079291903e-09,
+      "original_peak_component": 11,
+      "captured_outputs": 18,
+      "original_root_calls": 64,
+      "saved_trace_events": 43392,
+      "domain_evaluations": 40960,
+      "all_recorded_D_S_A_strictly_above_point_one": true,
+      "minimum_D": 0.9999692709547381,
+      "minimum_S": 0.9999999986068906,
+      "minimum_A": 0.9939407606349874,
+      "caught_domain_trials": 0,
+      "baseline_18_outputs_bitwise_equal": true,
+      "baseline_all_nonfloor_and_floor_trace_fields_bitwise_equal": true,
+      "original_16_physical_outputs_equal_prior_fullJac": true,
+      "normalization_scale_uniform_on_row": true,
+      "LD_floor": 0.1,
+      "LD_fixed_state_row_norm": 6.059944769822976e-10,
+      "LD_peak_component": 8,
+      "LD_Jacobian_entries": 288,
+      "LD_root_calls": 64,
+      "LD_root_updates": 128,
+      "LD_root_fallbacks": 0,
+      "LD_minA": 0.9939407606349874,
+      "LD_minD": 0.9999692929779636,
+      "LD_maximum_root_relative_residual": 1.2100139242997906e-19,
+      "LD_state_sha256": "6574507074392b2acd3a5562846b5a33f3408d73446cc5569dea9d8b9fc0ab4e",
+      "LD_tangent_sha256": "78d2b8a70d059943c5c0b881d64bebc83f313a31ec5b413caae718a172612232",
+      "independent_MP_variational_check": false
+    },
+    {
+      "stage": 88,
+      "original_V8_full_row_norm": 3.6150781107909074e-09,
+      "original_peak_component": 11,
+      "captured_outputs": 18,
+      "original_root_calls": 64,
+      "saved_trace_events": 43392,
+      "domain_evaluations": 40960,
+      "all_recorded_D_S_A_strictly_above_point_one": true,
+      "minimum_D": 0.9999701531044767,
+      "minimum_S": 0.9999999981063882,
+      "minimum_A": 0.9976786832914537,
+      "caught_domain_trials": 0,
+      "baseline_18_outputs_bitwise_equal": true,
+      "baseline_all_nonfloor_and_floor_trace_fields_bitwise_equal": true,
+      "original_16_physical_outputs_equal_prior_fullJac": true,
+      "normalization_scale_uniform_on_row": true,
+      "LD_floor": 0.1,
+      "LD_fixed_state_row_norm": 4.4826968573807255e-09,
+      "LD_peak_component": 11,
+      "LD_Jacobian_entries": 288,
+      "LD_root_calls": 64,
+      "LD_root_updates": 128,
+      "LD_root_fallbacks": 0,
+      "LD_minA": 0.9976786832914536,
+      "LD_minD": 0.999970187193781,
+      "LD_maximum_root_relative_residual": 8.539441282222684e-20,
+      "LD_state_sha256": "ff654fb92bab9e198f4ec1c70255459a672436f586484e82343c3c03a5994b35",
+      "LD_tangent_sha256": "9d80cbe7258ffc1222c6e5bbc22d966906c1af7b0018c30412ea2a4fc3b17847",
+      "independent_MP_variational_check": false
+    }
+  ],
+  "complete_original_norm_evaluated": false,
+  "whole_tail_accepted": false,
+  "new_prefix_or_initializer": false,
+  "implicit_Jacobian_scope": "The generic native kernel evaluates its full equation-based implicit 18x16 flow tangent; no n3 MP comparison or derivative of the finite root stopping algorithm is inferred.",
+  "readonly_record_scope": "Only saved JSON/gzip/source files were read and hashed. Domain comparisons and scalar summaries were taken from saved events; no model/root/flow/Jacobian/tail/prefix/audit was recomputed."
+}
