@@ -1,0 +1,293 @@
+{
+  "scope": "Collect a real seam-only terminal while retaining the earlier prefix audit.\n\nRead hashes, source metadata and saved scalar results only. No model, flow,\nmetric, mean, interpolation, Jacobian, BVP or tail is evaluated.\n",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/record_m3_trace_path_saved_audit.py",
+    "sha256": "f771fb6130a559ef0da9fa1a466a16ade2897589d62396ff9b37da4ebc226fa9"
+  },
+  "execution_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/finish_m3_trace_path_saved_audit.py",
+    "sha256": "fff945cb062369b2f821bee39c76b2c4cb74ffcef9e1dd237dfe9315340b115c"
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/launch-plan.json",
+    "sha256": "ef7f76a258217107a8b75e90c46f4c44410e98aa7f95e3cbcb3aa1ff1b76302b"
+  },
+  "launch": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/launch-command.json",
+    "sha256": "7635d837ee7581fcf60274c0e5c2fe829a50bea29d5e2cca1a48a2d17defd841"
+  },
+  "observer_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/resource.json",
+    "sha256": "14a356db3c86adf77fcab76aec281ccb72ec1d80722ded14326577f8b9d47125"
+  },
+  "actual_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/seam-terminal.json",
+    "sha256": "c2473bf3814f6539c6799bd5ed886f6785248859c2009381c1c791b27b214391"
+  },
+  "stdout": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/stdout.log",
+    "sha256": "164761508d8dff5ea7d564f0c60583a4ab0e3c5dc0843f66bccbdfba650c3456"
+  },
+  "events": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/events.jsonl",
+    "sha256": "164761508d8dff5ea7d564f0c60583a4ab0e3c5dc0843f66bccbdfba650c3456"
+  },
+  "output_summary": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/seed-summary.json",
+    "sha256": "9be8beb4004d8cb14dfb8dbaf66c826c07975d924a01e202c0993bfe420977eb"
+  },
+  "physical_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/seed.json.gz",
+    "sha256": "4794434ae7c9dc8aedccaa31bf1aeb58667ad3c6a507714a7144fcd94224b755"
+  },
+  "original_physical_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/seed.json.gz",
+    "sha256": "193444ee0b200c02b550153c5d44e981b4c3adbef7086f7b4762004a8ed7d365"
+  },
+  "original_runtime_plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/launch-plan.json",
+    "sha256": "7a261af23cfeb519861916f99c78e3b14107eff5e3ca310efa320d6110093fc8"
+  },
+  "original_returned_inner": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/inner-00-returned.json.gz",
+    "sha256": "71a9f0a62945c67576fe55185f40387ac161fd7c606fa9640a523e58e58474f1"
+  },
+  "original_inner_sidecar": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/inner-00-returned-dn-anchor.json",
+    "sha256": "865b218cc650d0aa2ad91a057c45f1d67a6188234748dd29223eb1d30aacbc72"
+  },
+  "physical_coefficients": [
+    {
+      "original": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/seed_coeff_00.npy.gz",
+        "sha256": "70cd318cb4a767ab91410cb29ac27a9eea409af39cac13f5d906d00f1f1e4480"
+      },
+      "alias": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/seed_coeff_00.npy.gz",
+        "sha256": "70cd318cb4a767ab91410cb29ac27a9eea409af39cac13f5d906d00f1f1e4480"
+      }
+    }
+  ],
+  "actual_failed_seam": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/seed_tail_0001.json.gz",
+    "sha256": "67fc2235c54d311bda393966b3e3f113e3f489be617379a822306363c9b7e8e4"
+  },
+  "accepted_seam": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed_tail_0001.json.gz",
+    "sha256": "cd1f6d4ae2a5a26b3a2d6b96273a87c482df713d9bb2acdd99b9df21539e0eb5"
+  },
+  "accepted_seam_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed-summary.json",
+    "sha256": "ac95428b189a84427e170e013b75abfa3166581b022379849a24b4cf1b7a854a"
+  },
+  "actual_reused_alias": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/seed_tail_0000.json.gz",
+    "sha256": "cd1f6d4ae2a5a26b3a2d6b96273a87c482df713d9bb2acdd99b9df21539e0eb5"
+  },
+  "complete": true,
+  "observed_terminal_utc": "2026-11-18T04:55:30Z",
+  "observer_exit": 0,
+  "observer_seconds": 2.0024695259999135,
+  "execution_seconds": 1.5322432089960785,
+  "source_count": 123,
+  "new_inner_calls": 0,
+  "new_native_calls": 0,
+  "new_prefix_audit_calls": 0,
+  "new_mean_primitive_integrals": 0,
+  "new_C2_interpolants": 0,
+  "original_seam_evaluations": 1,
+  "recorded_actual_response_queries": 1,
+  "original_core_constructor_restored": true,
+  "native_worker_started": false,
+  "original_nodes": 517,
+  "original_RMS_entries": 516,
+  "original_max_RMS": 9.88048770323324e-07,
+  "original_message": "The algorithm converged to the desired accuracy.",
+  "original_actual_outer_history": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 4.990187068598694e-10,
+      "actual_tail_residual": 1.8339186209756414e-09,
+      "tail_calls": 0
+    }
+  ],
+  "parameters": [
+    -1.2857435521750259e-06,
+    0.17563988735025285,
+    0.5412541786126949,
+    -10.332679589783966,
+    64.93047407138701,
+    241.42988398763657,
+    -9121.19532381326,
+    47125.323095991705
+  ],
+  "parameter_scales": [
+    0.0036,
+    0.00021599999999999996,
+    1.2959999999999998e-05,
+    7.775999999999999e-07,
+    4.665599999999999e-08,
+    2.7993599999999993e-09,
+    1e-09
+  ],
+  "physical_controls": [
+    0.0006323035944609103,
+    0.00011691090258034207,
+    -0.0001339115274836002,
+    5.048993663791053e-05,
+    1.1264152667327169e-05,
+    -2.553350934166988e-05,
+    4.712532309599171e-05
+  ],
+  "physical_definition": {
+    "core_kind": "exact_m3_finite_circle_trace_path_partial_lift",
+    "control_path": "finite-cosine-trace-synchronous-lift-v1",
+    "path_lambda": 0.32,
+    "lift_window": [
+      0.5,
+      0.9
+    ],
+    "q_gauge": 0.06,
+    "q_support": 0.05722558496396052,
+    "warp_reference": 0.06,
+    "path_base_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06104275721220832,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "frozen_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06104147146865615,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "meridian_length": 1.3602433654538268,
+    "path_definition": {
+      "branch": "new_finite_seven_column_integral_path",
+      "lambda_value": 0.32,
+      "core_support_guard": "Original numerical triangle/first/C2 guard, floor1e-5 and grid ceiling32768",
+      "note": "This is the defining integral core. For intermediate lambda, the partially lifted finite inlet is a different curve and must pass its own original frame and full metric checks.",
+      "settings": {
+        "halfwidth": 0.21,
+        "transition": 0.32,
+        "control_transition": 0.4,
+        "homotopy": 0.32,
+        "center": 1.0471975511965976,
+        "bimodal_eta": 0.0,
+        "lock_fundamental": true,
+        "coefficient_precision": 80,
+        "positivity_grid_max": 32768
+      },
+      "numerical_gauge": 0.06,
+      "defining_support_amplitude": 0.05722558496396052,
+      "warp_reference": 0.06,
+      "fixed_metric": false,
+      "p0_scope": "Only delta; frozen_profile already contains the old historical p0.",
+      "parameter_scales": [
+        0.0036,
+        0.00021599999999999996,
+        1.2959999999999998e-05,
+        7.775999999999999e-07,
+        4.665599999999999e-08,
+        2.7993599999999993e-09,
+        1e-09
+      ],
+      "mean_height_scope": "Use the original height_integral on this actual model/solution. No old mean trajectory is copied to a positive-lambda model."
+    },
+    "chart_payload_sha256": "22274daadd4119eae96401d277fec28017c01b468c714d2b41ce7b993a13e8cb",
+    "physical_tail_parameters_payload_sha256": "c32bb1ffa9a52681dff0aff9b52de82a8b4e5bfbe5d7e5613d5afd0a9e4e8c0c",
+    "physical_tail_cut": {
+      "radius": 0.3,
+      "backgroundSlope": 0.08000000000000027,
+      "backgroundSecond": -1.866666666666673,
+      "E": 1.0064,
+      "Ep": -0.2986666666666687,
+      "_prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "physical_port_sha256": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846"
+  },
+  "original_saved_prefix_audit": {
+    "metric_l1": 0.000530874420344815,
+    "flow_defect": 0.002918205323916404,
+    "darboux_l1": 0.4140054934752095,
+    "kappa_sample": 9.410722749444396,
+    "radius_max": 1.0901921846089937,
+    "height_max": 0.7826684986970267,
+    "root_min": 0.0024843790471330562,
+    "chart_rho_min": 0.5199999999999999,
+    "support_amplitude": 0.05722558496396052,
+    "terminal_height_coeff_max": 0.00016709848447840324,
+    "physical_bc_max": 9.980374137197388e-12,
+    "samples_s": 1182,
+    "samples_psi": 512,
+    "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate.",
+    "inlet": {
+      "partial_lift_strength": 0.32,
+      "scope": "The finite inlet is (1-lambda) times its original finite projection plus lambda times the defining core. No zero metric or exact-core inlet is claimed at intermediate lambda.",
+      "unlifted_projection": {
+        "position": 1.2950299954702747e-05,
+        "first": 0.00041159059912763453,
+        "second": 0.012731277544037814,
+        "metric_l1": 6.836378014672737e-06
+      }
+    },
+    "complete_saved_payload_sha256": "09a412de9e5a35bb0a4b0c6a34cdd06dedde00ff1fa3dc4d9cf0f744017a1031",
+    "peak_component_and_position_saved": false
+  },
+  "newly_completed_original_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "seed_tail_0000.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 1.8339186209756414e-09,
+    "mean_first_actual": 0.07980875906420079,
+    "mean_first_expected": 0.07980927626861586,
+    "mean_first_mismatch": -5.172044150736355e-07,
+    "mean_second_actual": 1.8400871662912823,
+    "mean_second_expected": 1.8400751004154408,
+    "mean_second_mismatch": 1.2065875841571483e-05,
+    "nonmean_first_mismatch": 9.980401921572124e-12,
+    "nonmean_second_mismatch": 4.569128278059402e-06,
+    "cut_metric_fft_l1": 2.1828505925287163e-05,
+    "cut_metric_c1_fft_l1": 0.0004142438878971275,
+    "angular_samples": 512,
+    "complete_saved_payload_sha256": "fc750703804fef29f270ace47db30e283aec61c9fa3989c0a31058d790d51566"
+  },
+  "true_tail_audit": {
+    "fullD": 0.00032681184389411755,
+    "normalizedFullDefect": 0.0004900259019444686,
+    "minLeading": 0.5218840911834862,
+    "minD": 0.9991191724749143,
+    "formalCurvature": 8.409078025567892,
+    "maxPhysicalPV": 0.00033203473265786947,
+    "actualMetric": 4.624833183086707e-08,
+    "holonomy": 3.842684079227341e-19
+  },
+  "original_full_prefix_audit_unchanged": true,
+  "original_physical_quintic_bytes_unchanged": true,
+  "collector_new_equation_evaluations": false,
+  "scope_limits": "A finite intermediate-lambda physical state and complete actual seam. The original sampled prefix metric remains above its final gate if so recorded; no continuous error, fixed-g convergence, exact circular inlet, holding/reach or full closed-surface certificate follows."
+}
