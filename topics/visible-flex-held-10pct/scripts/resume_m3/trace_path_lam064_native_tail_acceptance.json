@@ -1,0 +1,249 @@
+{
+  "schema": "m3-native-literal-tail-original-gate-acceptance-v1",
+  "confidence": "Complete finite actual DN acceptance with explicitly changed shooting arithmetic/Jacobian provider; no continuous or closed-surface certificate.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_bound_native_tail_v2.py",
+    "sha256": "2629f3d9b25e1342c410156154bc8c0a8ae8d0ba4f26fe6efdc575b8879366f8"
+  },
+  "provider_helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_literal_tail_provider_v2.py",
+    "sha256": "287cc3e3d0eb7ccca084dca973be0e17ca72a193b65def16c4b7ecf7fd52fa92"
+  },
+  "source_derivation": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-provider-v2-source-transforms.json",
+    "sha256": "83fe430387c10f4694a50aecdafbc8c0b40f6d472bfc2674b4351d891cbfbdc0"
+  },
+  "entry": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed-entry.json",
+    "sha256": "6d2484d16a794848124819ddbbb47ba6b07811d5a5f79f610c16702768a18e86"
+  },
+  "verified_source_count": 203,
+  "provider_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v3/manifest.json",
+    "sha256": "abb2a44fd55d91af60f9f86834ec70e5d40ec73fd8f412eec5ecaaba6bd300be"
+  },
+  "provider_fixed_scope": {
+    "M": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "steps": 16,
+    "projectionFloor": 0.05,
+    "orientation": 1,
+    "cuspAwareFlow": true,
+    "stageCount": 1152
+  },
+  "historical_native_source_sha256": {
+    "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+    "950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "actual_native_source_sha256": {
+    "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "950f-tail-stage-port-v3.mjs": "c5cd866444048ca6433a70f9c27865190091aa0401cc1f6875784229fbcdadd8",
+    "950f-tail-stage-core.mjs": "1119c028749209fcf2aae047fd59a6f22a4e12e1cdcfc5186f7a1d8678c4c8f4",
+    "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "original_failed_record": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+    "sha256": "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed-candidate.json.gz",
+    "sha256": "0c1f5a466695b58399ba179b824109a3200000b4158df32bae363ff32583648b"
+  },
+  "candidate_checkpoint_equal_original": true,
+  "changed_initial_state_coordinates": [],
+  "configuration": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed-config.json",
+    "sha256": "f46f6a1bb1e696e22f40254f953e610d1cb382bbb6a8c0ae36ee36f5044159b4"
+  },
+  "configuration_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "actual_complete_H": [
+    -0.0001671130606594921,
+    6.1403226896268306e-06,
+    1.0829420854628177e-06,
+    3.595393508470172e-10,
+    -5.1858715155343895e-09,
+    -1.1847223849804272e-09,
+    -9.562584254780451e-10,
+    5.11231182626892e-09
+  ],
+  "original_gate": 2e-09,
+  "original_projection_floor": 0.05,
+  "reload_arithmetic": {
+    "cut_radius": 0.3,
+    "ratio": 1,
+    "zero_boundary_correction": true,
+    "finite_states_without_negative_zero": true,
+    "original_solver_invoked": false
+  },
+  "ready_parameter_metadata_transition": {
+    "original_parameter_IO_transition": {
+      "initialCheckpoint": {
+        "before_present": true,
+        "before": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/seed_tail_0000.json.gz",
+        "after_present": true,
+        "after": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed-candidate.json.gz"
+      },
+      "traceFile": {
+        "before_present": true,
+        "before": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/tail-worker.jsonl",
+        "after_present": true,
+        "after": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed-worker.jsonl"
+      }
+    },
+    "provider_annotations": {
+      "shootingEvaluation": {
+        "before_present": false,
+        "before": null,
+        "after_present": true,
+        "after": "native-literal-LD-batch-v1"
+      },
+      "nativeBatchManifestSHA256": {
+        "before_present": false,
+        "before": null,
+        "after_present": false,
+        "after": null
+      }
+    },
+    "physical_or_numerical_keys_relaxed": false
+  },
+  "original_native": {
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed-summary.json",
+      "sha256": "37affc070ec78a047315bb4a7d7d64cba2cf00e06026dab0b01bc2fec22cadde"
+    },
+    "record": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed_tail_0001.json.gz",
+      "sha256": "7682be890f21d5c687a978b8480ebc70e0e3f2aad183ff8cb63177fec1b7c4be"
+    },
+    "request": {
+      "height": [
+        -0.0001671130606594921,
+        6.1403226896268306e-06,
+        1.0829420854628177e-06,
+        3.595393508470172e-10,
+        -5.1858715155343895e-09,
+        -1.1847223849804272e-09,
+        -9.562584254780451e-10,
+        5.11231182626892e-09
+      ],
+      "jacobian": true,
+      "audit": true
+    },
+    "converged": true,
+    "residual": 9.168793301146043e-10,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 1.4670069281833668e-08,
+        "minA": 0.5217377678289357,
+        "minD": 0.9991188300565388,
+        "chartCondition": null,
+        "step": 1
+      },
+      {
+        "iteration": 1,
+        "norm": 3.667517320458417e-09,
+        "minA": 0.5217377678289234,
+        "minD": 0.9991188300565388,
+        "chartCondition": null,
+        "step": 1
+      },
+      {
+        "iteration": 2,
+        "norm": 9.168793301146043e-10,
+        "minA": 0.5217377678289254,
+        "minD": 0.9991188300565388
+      }
+    ],
+    "finite_jacobian_entries": 208,
+    "audit_returned": true,
+    "audit_scalars": {
+      "fullD": 0.00032750707220970555,
+      "normalizedFullDefect": 0.0004910592456288942,
+      "minLeading": 0.5217377678289254,
+      "minD": 0.9991188480486188,
+      "formalCurvature": 8.409431432056893,
+      "maxPhysicalPV": 0.0003320725214079406,
+      "actualMetric": 4.6345979942685744e-08,
+      "holonomy": 3.850889710903867e-19
+    },
+    "checkpoint_nodes": 1153,
+    "checkpoint_state_width": 16,
+    "native_calls": 1,
+    "worker_returncode": 0,
+    "final_states_equal_original_failed": false
+  },
+  "execution": {
+    "session": 92035,
+    "launch_tool_chunk": "7466ef",
+    "terminal_tool_chunk": "6599cb",
+    "observed_utc": "2026-11-18T05:36:51Z",
+    "observer_returncode": 0,
+    "child_returncode": 0,
+    "seconds": 78.35515644800034,
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/resource.json",
+      "sha256": "1043589ae1a9d2b45617117c3a77c8e7808420be3c9d0343e420c9a83f34b1c2"
+    },
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/launch-command.json",
+      "sha256": "45fb087f3faa0c94cefd4d8f779d5815b3c7b3f0ab3d22cb8ee2e1270a475ef6"
+    },
+    "stdout": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/stdout.log",
+      "sha256": "12af7e76c8534815858af96ed4da9b864663e909d82f8c44c90c0612b9d9719d"
+    },
+    "trace": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed-worker.jsonl",
+      "sha256": "b1725af59cf2f609dc5e36103711502d8b80d79f7ba05d78a11f40495e7cec18"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_bound_native_tail_v2.py",
+      "--failed-tail",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "--failure-sha",
+      "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+      "--source-plan-sha",
+      "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5",
+      "--provider-manifest",
+      "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v3/manifest.json",
+      "--provider-manifest-sha",
+      "abb2a44fd55d91af60f9f86834ec70e5d40ec73fd8f412eec5ecaaba6bd300be",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ]
+  },
+  "scope_boundaries": [
+    "The first required full-Jacobian evaluation was the first complete native batch. No separate whole-state probe was executed.",
+    "The same historical failed initializer has V8 residual 3.667517320458417e-9 and native initial residual 1.4670069281833668e-8; no source/bitwise equality claim is made.",
+    "Original worker alone produced the accepted response after two actual Newton corrections; no fabricated successful result or relaxed 2e-9 gate.",
+    "The source replaces whole shooting state/its literal implicit Jacobian evaluation. Physical inputs, residual scales, domain .05, line search, stop, cut and finite audit remain the declared original paths.",
+    "No prefix BVP, saved inner replay, mean-height integration, prefix metric or physical seam audit ran in this tail batch.",
+    "The original raw inner is available for direct post-tail recovery; a finite tail acceptance does not settle the final endpoint/full metric/10% geometry."
+  ]
+}

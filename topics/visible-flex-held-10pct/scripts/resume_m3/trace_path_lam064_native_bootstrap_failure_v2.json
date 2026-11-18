@@ -1,0 +1,120 @@
+{
+  "schema": "m3-native-provider-bootstrap-failure-v2",
+  "scope": "Second observed packaging/import failure before worker ready or any DN request. No native flow evaluation or mathematical tail failure.",
+  "previous_engineering_record": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/trace_path_lam064_native_bootstrap_failure.json",
+    "sha256": "d5ab8f9735cdff5bdaf8de156bc30c2f495cdf11fed3af1d32ac042351e69af0"
+  },
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_bound_native_tail_v2.py",
+    "sha256": "2629f3d9b25e1342c410156154bc8c0a8ae8d0ba4f26fe6efdc575b8879366f8"
+  },
+  "provider_helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_literal_tail_provider_v2.py",
+    "sha256": "287cc3e3d0eb7ccca084dca973be0e17ca72a193b65def16c4b7ecf7fd52fa92"
+  },
+  "source_derivation": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-provider-v2-source-transforms.json",
+    "sha256": "83fe430387c10f4694a50aecdafbc8c0b40f6d472bfc2674b4351d891cbfbdc0"
+  },
+  "entry": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/seed-entry.json",
+    "sha256": "eac7664d0af75f1c2e06278617a4cfbf5bd5b865dc6935224a0a3650016b8f50"
+  },
+  "provider_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v2/manifest.json",
+    "sha256": "101a6d1dd7029b107c5741ed958432cdc8e6390c26e4ff5991ce51656645e636"
+  },
+  "verified_bound_sources": 202,
+  "original_failed_record": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+    "sha256": "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/seed-candidate.json.gz",
+    "sha256": "0c1f5a466695b58399ba179b824109a3200000b4158df32bae363ff32583648b"
+  },
+  "candidate_checkpoint_equal_original": true,
+  "configuration": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/seed-config.json",
+    "sha256": "e049d8f3cdd0ddb7680ef5129f4a60bce9a37edf2c43e196cde5ac37ee162fd2"
+  },
+  "configuration_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "original_projection_floor": 0.05,
+  "original_gate": 2e-09,
+  "reload_arithmetic": {
+    "cut_radius": 0.3,
+    "ratio": 1,
+    "zero_boundary_correction": true,
+    "finite_states_without_negative_zero": true,
+    "original_solver_invoked": false
+  },
+  "execution": {
+    "session": 88879,
+    "launch_tool_chunk": "2f23f3",
+    "terminal_tool_chunk": "86b247",
+    "observed_utc": "2026-11-18T05:34:18Z",
+    "observer_returncode": 2,
+    "child_returncode": 2,
+    "worker_returncode_observed": null,
+    "seconds": 2.0011829680006485,
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/resource.json",
+      "sha256": "426f532b29d31c8abaa1f79faa27d7b9f1dd33671d8ee650d3ac36136cd0bc42"
+    },
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/launch-command.json",
+      "sha256": "79a0e415ff409afa440515e3e640f7faebe11740f13b5c77c8cfccc961f31497"
+    },
+    "stdout": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/stdout.log",
+      "sha256": "ffd8c09121f5721667d1d14830b3551489a84ec0566503f819b6da1e9be6dc8a"
+    },
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/seed-summary.json",
+      "sha256": "ffcc6ec2e066b8752c747abcab03ca830fed56988b17ca93fb8faad096513904"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_bound_native_tail_v2.py",
+      "--failed-tail",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "--failure-sha",
+      "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+      "--source-plan-sha",
+      "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5",
+      "--provider-manifest",
+      "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v2/manifest.json",
+      "--provider-manifest-sha",
+      "101a6d1dd7029b107c5741ed958432cdc8e6390c26e4ff5991ce51656645e636",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v2/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ]
+  },
+  "failure": {
+    "error": "RuntimeError('Weighted stage-tail initialization failed')",
+    "error_code": "ENOENT",
+    "missing_input": "/workspace/scratch/7322d0dee069/m3_work/native-literal-source-v2/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs",
+    "origin": "closing_tail_sources.mjs line 13 while loading the dependency-manifest cache, before ready.",
+    "worker_ready_returned": false,
+    "DN_requests_sent": 0,
+    "whole_native_evaluate_calls": 0,
+    "tail_response_records": 0,
+    "worker_returncode_not_obtained": true,
+    "original_inner_repeated": false
+  },
+  "recovery_scope": "The source2629 remains unchanged; independent bundle v3 copies every actual manifest dependency, including CJS, and hashes each destination. No mathematical solve is repeated because neither previous boot reached ready."
+}
