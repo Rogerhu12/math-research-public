@@ -1,0 +1,216 @@
+{
+  "scope": "One explicit lambda .02 to .04 finite M8 continuation, actual launch and necessary once-formed initializer. No terminal acceptance or final metric claim in this entry record.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_continuation.py",
+    "sha256": "4e8e4548536a0f0091910180247c1240ab49d045acbdf08a892f2809993eac57"
+  },
+  "preparation_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/continuation-plan.json",
+    "sha256": "11ce94e323b79d970afce92806c1af48ed8a54e1f7fb72a3e7d15c1d5b0a387a"
+  },
+  "runtime_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/launch-plan.json",
+    "sha256": "b5146523cfb7e67c32d530b968adbec056dc0afe565bc5a5b39fc14443e9abb0"
+  },
+  "launch_command": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/launch-command.json",
+    "sha256": "d5782981348235dfb9077c6039366e054898c90560f6fb0a427d772a74d3389a"
+  },
+  "initializer": {
+    "nodes": 493,
+    "initial_hashes": {
+      "state_binary64_sha256": "6b1140aee525c47fa5a7088e28113391041a917de824af7190db8d87d7cbf414",
+      "parameter_binary64_sha256": "750f0c4272063ec1d3c7ee82cce6eb4b616e7857b27a2edab28873c22c477da5",
+      "full_H_binary64_sha256": "cec2c036fdca4c43f15e1643ee5edd7d0c5f5041579042839c7a06987c29652d"
+    },
+    "state_source": "Saved physical quintic evaluated at chart(original raw x, full original p0). Raw y is not the state source.",
+    "all_parameters_and_controls_preserved": true,
+    "reference_transfer": "Y_new=Y_old+Proj(Geo_old-Geo_new)/.06 on the same full finite basis; exactly zero reference differences retain literal old values.",
+    "inlet_repair": "Original shared C2 radial window [.5,.9]*prefix_end, active points only.",
+    "original_raw_H": [
+      -0.00016709731551033027,
+      6.128520978145864e-06,
+      1.087161060379719e-06,
+      5.781188206976297e-10,
+      -5.266481811653339e-09,
+      -1.1270751724175706e-09,
+      5.642930213506106e-11,
+      6.861304863047251e-11
+    ],
+    "old_physical_H": [
+      -0.00016709731551033024,
+      6.128520978145864e-06,
+      1.087161060379719e-06,
+      5.781188206976293e-10,
+      -5.266481811653339e-09,
+      -1.1270751724175706e-09,
+      5.642930213506107e-11,
+      6.861304863047252e-11
+    ],
+    "new_H": [
+      -0.00016709731551033024,
+      6.128520978145864e-06,
+      1.087161060379719e-06,
+      5.781188206976293e-10,
+      -5.266481811653339e-09,
+      -1.1270751724175706e-09,
+      5.642930213506107e-11,
+      6.861304863047252e-11
+    ],
+    "full_H_equal_old_physical": true,
+    "actual_start_response": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-physical-finish-v1/seed_tail_0000.json.gz",
+      "sha256": "24dd350f7f0ec440122b369841d2c03cf75e968f3e89a04de1ed44f95d389ffe"
+    },
+    "maximum_projected_reference_correction": 1.8307943832037201e-16,
+    "projection_scope": "This small projected coefficient does not bound the omitted high-frequency reference difference or identify the full physical maps.",
+    "inlet_residual": 8.470329472543003e-22,
+    "core_guard": {
+      "rho_lower": 0.5071598853272026,
+      "rho_sample": 0.5072127806993628
+    },
+    "no_repeated_initial_RMS": true,
+    "no_old_mean_copied": true
+  },
+  "initial_arrays": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/initializer-arrays.npz",
+    "sha256": "ade2d263c0b55b92f13f9bfa136d8a71b30cf57a64fc9f2a3f7dd03b84fbc1a7"
+  },
+  "observed_session": 20514,
+  "observed_launch_chunk": "3aa85e",
+  "started": "2026-11-18T03:57:56Z",
+  "metadata_only_preparation_chunk": "2b8b35",
+  "metadata_only_preparation_exit": 0,
+  "verified_execution_source_count": 114,
+  "old_complete_physical_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-physical-finish-v1/seed.json.gz",
+    "sha256": "fd93d3f088038830f9291356acbd4ef997cb912cd345570a0f18c1b5fe574596"
+  },
+  "old_raw_mesh_and_parameters": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned.json.gz",
+    "sha256": "bc2fee7117ba8d8d842ac3352290ce55e966813ebf8048494688ce6d46180cc0"
+  },
+  "old_metric_shortfall": 1.9786688260610694e-06,
+  "old_lambda": 0.02,
+  "new_lambda": 0.04,
+  "new_support_amplitude": {
+    "lambda_value": 0.04,
+    "lambda_binary64_hex": "0x1.47ae147ae147bp-5",
+    "P_enclosure": [
+      "1.00606025923061064262154145458526051611036613244886",
+      "1.00606025923061064262154145458526051611037013244887"
+    ],
+    "q_enclosure": [
+      "0.05963857477670898411390707637513736318512000339678",
+      "0.05963857477670898411390707637513736318512024051410"
+    ],
+    "q_binary64": 0.05963857477670898,
+    "q_binary64_hex": "0x1.e88f2807df5c1p-5",
+    "uniquely_nearest_binary64": true,
+    "defining_primary_residual_enclosure": [
+      "-0.000000000000000002522838252357950857256006613535702050282791",
+      "-0.000000000000000002522838252357950857256006374981402943446859"
+    ],
+    "rule": "P(lambda)=1+lambda*(registered P1-1); q(lambda)=old_actual_q/P(lambda). Widths retain the registered defining-integral convention; lambda and old q are exact binary64 reals.",
+    "scope": "Only the defining scalar moment. Rounded production core evaluation and the partially lifted finite inlet are separate."
+  },
+  "gauge_and_warp": 0.06,
+  "base_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275721220832,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "full_initial_parameters": [
+    -1.3637752370752413e-10,
+    0.13180335067450089,
+    -0.13277555007896716,
+    -0.4668764017278911,
+    2.0571139745863283,
+    18.302877391003268,
+    -411.917362701317,
+    407.38904291232535
+  ],
+  "parameter_scales": [
+    0.0036,
+    0.00021599999999999996,
+    1.2959999999999998e-05,
+    7.775999999999999e-07,
+    4.665599999999999e-08,
+    2.7993599999999993e-09,
+    1e-09
+  ],
+  "full_initial_physical_controls": [
+    0.0004744920624282032,
+    -2.86795188170569e-05,
+    -6.0507181663934675e-06,
+    1.5996118266383285e-06,
+    8.539390475546483e-07,
+    -1.1531049884515585e-06,
+    4.073890429123254e-07
+  ],
+  "original_gates": {
+    "max_nodes": 6000,
+    "tol": 1e-06,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "rho_floor": 1e-05,
+    "rho_grid_ceiling": 32768,
+    "tail_tolerance": 2e-09,
+    "outer_budget": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "derived_source_files": {
+    "outer-excerpt.py": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/outer-excerpt.py",
+      "sha256": "dc2081fbc6f6e684c7372606e35b5b9b539686573184706bade0e7570f12e070"
+    },
+    "recording-newton-excerpt.py": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/recording-newton-excerpt.py",
+      "sha256": "327cbac42bfa5615dfba53da795d70bf68735ef661729e32906b2c20d47875ab"
+    },
+    "main-excerpt.py": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/main-excerpt.py",
+      "sha256": "ec5b1ecad7dd88fdf568d7c639cb7276686d2de1d75b0948bfdde14462fce155"
+    }
+  },
+  "source_changes_scope": [
+    "New necessary initial-field construction and truthful finite-path provenance.",
+    "Exact-byte full-H lookup of genuine complete original responses; unknown H goes to original worker with full Jacobian and audit.",
+    "Save each completed original prefix audit before seam; final record filename/config describes the actual response used.",
+    "No change to original RHS, Jacobian, merit, domain floor, five-point guard, original eight-outer loop or postprocessing formulas."
+  ],
+  "prior_unexecuted_preparation": {
+    "plan": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v1/continuation-plan.json",
+      "sha256": "a84abfd57b98cd631d9bcbbfc9ef441815875c0781a457d782d7bb9004986fcc"
+    },
+    "source_copy": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace_path_continuation_prelaunch_a8f2c040.py",
+      "sha256": "a8f2c0407242ec9df42f1220f31f437ef21485a8689fc6120a73497c359fb7d8"
+    },
+    "scope": "Metadata-only first preparation 030fc8/exit0; no observer/model launched. Before launch, changed unconditional accepted_raw_* metadata to returned_raw_* plus conditional accepted_raw_* only if sol.success. No numerical formula changed."
+  },
+  "status_at_entry_record": "Real original solve launched; terminal belongs in a separate record.",
+  "initializer_record": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/initializer.json",
+    "sha256": "5be97adae67543c6eb1a682d30d188ba091466a98d51a50f6738436b7add4ead"
+  }
+}
