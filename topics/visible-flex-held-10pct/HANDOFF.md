@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`ad036860140c7263867cf140b843acb797b33d43`。2026-11-18 08:02:37（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`20381e7c9fdd48d0beb92f54b9d05db3b507faea`。2026-11-18 08:07:46（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20有限前缀metric过门**：2282点/18个α1步/无域或merit拒绝，metric8.91017947e−7；qactual=.012488347919833637，全19c/free c8/J16/eta.1/wCut.16。改核非精化、仍linear DN/非精确圆弧，见n4-primary-width-b016-m20。原真尾.2H冷起及单峰续跑均失败（1.13915e−8/8.02443e−9），多峰8候选无改善，见对应b016 notes。该失败态续到.5H（55129真实terminal）iter4仍1.01243477e−8/A.9807524；fullH未执行/0接受尾/未入prefix。新原1152段replay主峰22/mode80=+97ULP、18/mode80=−48ULP；具名Jac输入ULP灵敏度最高2.706倍原门，非误差证书。见n4-halfheight-tail-stage-sensitivity。只改parts16→32的21154在同20H/原门运行，不再扫局部候选。
+**新主b=.16/λ=.02/M20有限前缀metric过门**：2282点/18个α1步/无域或merit拒绝，metric8.91017947e−7；qactual=.012488347919833637，全19c/free c8/J16/eta.1/wCut.16。改核非精化、仍linear DN/非精确圆弧，见n4-primary-width-b016-m20。原真尾.2H冷起及单峰续跑均失败（1.13915e−8/8.02443e−9），多峰8候选无改善，见对应b016 notes。该失败态续到.5H（55129真实terminal）iter4仍1.01243477e−8/A.9807524；fullH未执行/0接受尾/未入prefix。新原1152段replay主峰22/mode80=+97ULP、18/mode80=−48ULP；具名Jac输入ULP灵敏度最高2.706倍原门，非误差证书。见n4-halfheight-tail-stage-sensitivity。只改parts16→32的21154同20H真实原门失败1.521185788e−8（旧值1.50倍），未到fullH/前缀，见n4-halfheight-parts32-terminal；新态路径/峰位只读诊断另记。
 
 同19c/e=.1875主b探针使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。旧b.08 raw λ.02/M16 metric2.41705e−6，固定g/M20升3.43423e−6/tensor.0160166；峰s=.066873/频84，实际cond1≈4.278e12且H²白化无改善。M24在4460点欲加4906超6000、RMS.0032079，未完整metric/接受；见n4-raw-lambda002-fixed-m24-terminal、localization、parameter-and-collocation-scales，不重白化或盲升M28。
 
@@ -22,7 +22,7 @@
 
 **旧actual固定g** eta.1/q*.01：M20 metric1.950429e−9；M24/shared/parts16完整1930点/4尾接受、最终9.82471e−10/A.942545，metric8.15575e−9升4.18倍、Darboux2.46911e−6降29.7%。λ0/非单调收敛或闭合，见n4-actual-fixed-m24-parts16。旧parts8的worker−9与原门5.41094e−9失败分开，不猜OOM；mode96非1ULP，见n4-m24-tail-residual-location。
 
-R30共享engine原576段/990760标量逐位同值、576→8。旧q.0175/q.015及低幅λ各失败见n4 notes，不重跑。R19/19A/eta.1-q.049的10%仍条件预算。
+R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低幅λ失败不重跑；R19/19A与q.049的10%仍条件预算，见n4 notes。
 
 ## 2. m3：精确圆弧端点与高幅支
 
