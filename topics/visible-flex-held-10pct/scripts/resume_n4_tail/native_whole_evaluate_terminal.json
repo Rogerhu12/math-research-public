@@ -1,0 +1,225 @@
+{
+  "scope": "Collect one complete native/provider evaluate terminal, without any flow.\n\nIndependently decode the saved boundary64 output and replay only the original\nbinary64 row conversion, subtraction, mean sum and normalized maximum. These\nare read-only arithmetic checks of saved arrays, not a new root/RK/Jacobian.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_whole_evaluate.py",
+    "sha256": "5bd14a92f10f609419caecc251ee46cdf3418c532c4e2f4fdfb838b76511c6e4"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_whole_evaluate.py",
+    "--workspace",
+    "/workspace/scratch/7322d0dee069",
+    "--out",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_whole_evaluate_terminal.json"
+  ],
+  "files": {
+    "plan": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/plan.json",
+      "sha256": "a466fa5c14e2c956f9ede00c3259b4551ef7935efdb9f7912e2d6bc71af5eba5"
+    },
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-summary.json",
+      "sha256": "9bd2f30ae837637daaf6d8cf61be9258a77e61782f63d221050a85fa6aeca63c"
+    },
+    "raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-raw.json.gz",
+      "sha256": "cc5ebf6ef29b4510577836acc5aad91b2a8c9d0c1c4fd18258c23587dae65f87"
+    },
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-resource.json",
+      "sha256": "9ca2f3ebed73000fdfbb198911a8a5780c257fca2f0623dab209cf84e1286659"
+    },
+    "process_log": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-process.log",
+      "sha256": "a98ba56d4fdba0315662874efe6a6b9b22ccfa8864b3105b83417b6542a16596"
+    },
+    "batch_record": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-record.json",
+      "sha256": "d42c7cec00753ef0476c27184f86e193d2aec74f90be48c989e0682d62598935"
+    },
+    "batch_input": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-input.bin",
+      "sha256": "bd9b1121152881c0ece0d4e28de2a9c660cca3b53fe32f14d3a58439c46abb1e"
+    },
+    "batch_output": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-output.bin",
+      "sha256": "ed4561e330a110db38a99ca9d7fda0f5e597a6bfcadcc7e37edd70e090c067a9"
+    },
+    "batch_stdout": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "batch_stderr": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "static_metadata": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/static-metadata.json.gz",
+      "sha256": "5f8851cf141725f21171e65a14251973abd0b610df2de3dd40f890a4b4921364"
+    },
+    "native_events": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/events.jsonl",
+      "sha256": "ed5b7ccac1b2f25f000f8362a11cbc2d411d447c8b3275c756fa76b647871cc7"
+    },
+    "manifest": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/manifest.json",
+      "sha256": "3e618b4a44c2292a1d12612ceb3a6f82693e703a32b152fa5a42097cb6d877d2"
+    },
+    "input_CP": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "entry_record": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_whole_evaluate_entry.json",
+      "sha256": "adef61ccb4266e963caf39c1ec1fe8ed0411fa2efe3b59c1a4e02e0809630806"
+    }
+  },
+  "executed_sources": {
+    "installer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/install_native_batch_adapter.py",
+      "sha256": "6bf0d34a53e34e77b6cf30b1c9d0f3b6e1522d4c5287c48cdeb9576b72988c62"
+    },
+    "adapter": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/native_batch_adapter.mjs",
+      "sha256": "9931feea9bc905cdc700c4f5078a6ad2af0a215fa5bc2fd1c84212662cbd2718"
+    },
+    "factory": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/native_batch_factory.mjs",
+      "sha256": "4bf754298349103c1e5a4fe3c6330cb183bf61b9a306bbef2148eb531ef15c53"
+    },
+    "probe": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_adapter_entry.mjs",
+      "sha256": "e909af62a2cb6d79ffc28e163d6fc5c1a82ced98b1a74cc205618e222423b98b"
+    },
+    "manifest": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/manifest.json",
+      "sha256": "3e618b4a44c2292a1d12612ceb3a6f82693e703a32b152fa5a42097cb6d877d2"
+    },
+    "production_CP": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "capsule_coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+    },
+    "build": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/build.json",
+      "sha256": "069165b977b12576586a94ffd60a17f24f9c292b30827bf6e874c7b0c9daa2d3"
+    },
+    "node": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+      "sha256": "61ab14cd750fc24d5db53490ec5fc40f756e4b6e136b78cf7004265471d9bd1d"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    },
+    "finite_interface_terminal": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_production_floor_batch_terminal.json",
+      "sha256": "07895ccd1bf784d5ce3729984bc0f15090b4a04621f9aa48c9135df7d3696ae4"
+    }
+  },
+  "observer_session": 67330,
+  "observer": {
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T03:22:22Z",
+    "seconds": 410.9932180610049,
+    "maximum_sampled_tree_rss_kib": 798812,
+    "child_rusage_maxrss_kib": 901720,
+    "memory_scope": "Namespace sampled RSS and RUSAGE_CHILDREN maxrss are different observations; neither is asserted to be a whole-host/full-tree simultaneous peak."
+  },
+  "native_process": {
+    "returncode": 0,
+    "signal": null,
+    "process_wall_seconds": 392.136659724,
+    "kernel_seconds_sum": 391.3853358839995,
+    "decode_and_validation_seconds": 0.7145861229999468
+  },
+  "all_stages_complete": 2304,
+  "native_calls": 1,
+  "actual_grid_counts": {
+    "stageCount": 2304,
+    "totalSteps": 36891,
+    "totalUniquePoints": 76086,
+    "stagesWithExtraCuspSteps": 27,
+    "headerBytes": 42284,
+    "inputBytes": 21640952,
+    "stateOnlyOutputBytes": 940120,
+    "fullJacOutputBytes": 31905880
+  },
+  "independently_checked_native_state_scalars": 96768,
+  "independently_checked_native_tangent_scalars": 3870720,
+  "independently_checked_original_consumed_J_scalars": 3686400,
+  "output_row_conversion_and_original_norm_match": true,
+  "JSON_signed_zero_scope": "Raw binary64 output remains exact; JSON array comparisons normalize signed zero only because the executed JSON.stringify serialization already does so.",
+  "root_calls": 147564,
+  "root_updates": 112460,
+  "root_fallbacks": 0,
+  "min_literal_Jacobian_pivot": 0.9998236155597815,
+  "max_root_relative_residual": 7.997385890209279e-14,
+  "original_normalizedResidual": 1.5211857880292614e-08,
+  "original_gate": 2e-09,
+  "same_state_below_original_gate": false,
+  "minA": 0.9807523328210461,
+  "minD": 0.9999448760732821,
+  "far_Robin_normalized_max": 8.139020739761545e-48,
+  "left_target_normalized_max": 0.0,
+  "meanHeightToCut": 0.023629615996728248,
+  "dominantResidual": {
+    "stage": 175,
+    "component": 20,
+    "physicalMode": 4,
+    "kind": "pi",
+    "difference": 8.881784197001252e-16,
+    "flow": -6.122429682261514,
+    "target": -6.122429682261515,
+    "scale": 5.8387241498672244e-08,
+    "normalized": 1.5211857880292614e-08,
+    "minA": 0.999975782689067,
+    "minD": 0.9999996390270643
+  },
+  "producer_checks": [
+    {
+      "stage": 43,
+      "all42_input_equal": true,
+      "state_trig_equal": true,
+      "mu_port_and_scale_equal": true,
+      "all_literal_grid_bytes_equal": true,
+      "all_original_coefficient_points_equal": true,
+      "coefficient_points": 48,
+      "input_sha256": "923a0f3186d7cdd7f66ff7e948182d3189bba8ac7b6bfab89d040edc21e6d69d",
+      "coefficient_bytes_sha256": "216872a6fd9f090ebf9b87133de12c40bf9f1f17dd37df7a07d27fb035988ba7",
+      "grid_bytes_sha256": "42854a183648bf86f8624df4c12d8d67368925fff91e6904dbfca30716902381"
+    },
+    {
+      "stage": 38,
+      "all42_input_equal": true,
+      "state_trig_equal": true,
+      "mu_port_and_scale_equal": true,
+      "all_literal_grid_bytes_equal": true,
+      "all_original_coefficient_points_equal": true,
+      "coefficient_points": 48,
+      "input_sha256": "44c86990ff4f18697c060457e96c9d1b470f5c75bd1c05e609bec945375dbf36",
+      "coefficient_bytes_sha256": "eba796b569f23ee95ddf4184d118ae1f930d7bb0d8157629d2ff23e20ee28b28",
+      "grid_bytes_sha256": "42854a183648bf86f8624df4c12d8d67368925fff91e6904dbfca30716902381"
+    },
+    {
+      "stage": 175,
+      "all42_input_equal": true,
+      "state_trig_equal": true,
+      "mu_port_and_scale_equal": true,
+      "all_literal_grid_bytes_equal": true,
+      "all_original_coefficient_points_equal": true,
+      "coefficient_points": 48,
+      "input_sha256": "60135d5f917ecbd5040248e7e4e9cd72c5126f86cc00ba108653e407f3ffee4a",
+      "coefficient_bytes_sha256": "82c3aaa4c3d6a59841d05ac52581b03c9c0d3607d5096d320ba874143c9bef33",
+      "grid_bytes_sha256": "42854a183648bf86f8624df4c12d8d67368925fff91e6904dbfca30716902381"
+    }
+  ],
+  "original_CP_nodes_mutated": false,
+  "new_H_or_physical_model": false,
+  "DN_Newton_solve_invoked": false,
+  "cutJets_or_audit_invoked": false,
+  "conclusion_scope": "Complete finite same-state flow+literal Jacobian transport and original full norm. This is not an actual accepted DN/Jac/cut/audit response, fullH continuation, prefix coupling, exact arc or closed family."
+}
