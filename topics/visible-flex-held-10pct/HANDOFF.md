@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`5ffe7dc51a1a3a0ab8c73613f8fdcba1ab4c682b`。2026-11-18 10:31:56（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`1316b67421bc2d22177fa91c5ff16a938e419498`。2026-11-18 10:32:57（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：19c/free-c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及邻数原DN均失败；最新b4356…重放同7.42928942e−9、六超门37–40/43–44，单ULP/scale<门，非机器下界，无接受尾。见n4-primary-width/parts32 notes。原float126输出/116608事件逐位同；MP60/90层差≤1.04663e−57且同舍入，三固定target仍超门。L−target及最强RHS抵消相减精确，三新quad读数另揭moments形成舍入；只为有限算法定位。
 
-**n4算术当前** 补偿批已收束，见frozen/shifted-root notes。唯一native原formed-moment/RK内核916d0a…/build6a3b…的double基线真实exit0（02:19:21Z/6.018s）：三段126输出及116608事件/操作数/判断全字节同原V8参考；64根/段、更新128/128/64、fallback0，原固定target仍超门。见n4-native-double-exact-baseline。仅付移植身份，未执行LD/40Jac/batch/DN。独立E/w²/state trig保持，B_exact字面隐式Jac另验pivot，非停止算法导数。后续同库LD（64有效位）state-only/fullJac六调用与独立保存MP90轨迹变分源正在双审；全42/1680列须保全、真实库身份与无trace计时另付。全2304/原norm/DN仍未付；旧kernel_seconds含回调，token只绑payload、source外验。
+**n4算术当前** 补偿批已收束，见frozen/shifted-root notes。唯一native原formed-moment/RK内核916d0a…/build6a3b…的double基线真实exit0（02:19:21Z/6.018s）：三段126输出及116608事件/操作数/判断全字节同原V8参考；64根/段、更新128/128/64、fallback0，原固定target仍超门。见n4-native-double-exact-baseline。仅付移植身份，未执行LD/40Jac/batch/DN。独立E/w²/state trig保持，B_exact字面隐式Jac另验pivot，非停止算法导数。后续同库LD（64有效位）state-only/fullJac六调用与独立保存MP90轨迹变分源正在双审；42态/42×40 tangent须保全、真实库身份与无trace计时另付。全2304/原norm/DN仍未付；旧kernel_seconds含回调，token只绑payload、source外验。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 
@@ -50,7 +50,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060原余弦锚** CP4755143b…/1934点已有限真联立接受：RMS9.97758523e−7、BC9.17879e−12、metric3.79125e−8，3尾208Jac及audit接受；mean2/nonmean2 seam6.64415e−11/9.57232e−8未付闭合/连续界。全部7c/δ.06104275721220832/profile/chart/port/尾参数见q060-exact-saved-inner-original-acceptance及reader，不重跑旧恢复。
 
-**q060→R44实际联立** 新λ1/M8/25态/B2..B6+T/U，q=.05210565550627671；唯一初猜原guard lower.4947527924/Frenet.0024858771、RMS1.416628747，完整8H同actual。源1204d93…/plan8b9de60…的12897已真实exit0（01:58:12Z）：原Newton9accepted/60域拒/4merit/minα1/2048返回，随后SciPy RMS第二额外Lobatto点Frenet margin−1.717530786e−6抛异常，solve_bvp未返回，新tail0/worker0。仅inner00入口25×271与真实DN锚保存；日志只有末p0/p1，无终cubic/完整c/CP/metric，不重跑补造。见q060-circle-trace-coupled-rms-domain-failure。单一五点guard8a15397…/runnerfc979b…/planda2c3d…已双审；82557正式运行中，新增5次RMS点域拒后进入第二网格，已存首Newton全返回态；锁SciPy1.17/_bvp59afffb…及69源。trial增原RMS两点同门检查，原tuple/Jac/merit不变；每accepted/两return存全p/ff/cubic与DN。有限5点非连续域/新网格保证，见m3-original-lobatto-domain-guard-entry。固定q、新p0只改δ，非固定g精化/圆弧接受。
+**q060→R44实际联立** 新λ1/M8/25态/B2..B6+T/U，q=.05210565550627671；唯一初猜RMS1.416628747/guard lower.4947527924、8H同actual。12897的首联立在原Newton后RMS额外点域异常，solve_bvp未返回/新tail0，缺末cubic/完整c；见q060-circle-trace-coupled-rms-domain-failure，不重跑补造。唯一五点guard8a15397…/runnerfc979b…/planda2c3d…的82557已于02:19:00Z真实child0/worker0、422.71s：原BVP返回status1/maxnodes，271→811→2431点/RMS1.386061569；17accepted/238域拒（含32额外RMS点）/4merit/no_step2，下一加密超6000门。完整28 raw、末25×2431/8p/cubic/实际DN锚保存；物理CP5244dc…及6×2430×25 quintic已存后，height_integral原6点/512角audit触margin−8.82421e−8，非新tail失败；新tail0、无fullmetric/mean完成/闭合。完整最终c/δ.06230924395/H见q060-lobatto-guard-returned-maxnodes；未发actual，失败CP非锚。有限5点非全域/后续audit保证；固定q而p0只改δ，非固定g精化。下一只准备保存安全初态的全部8物理参数Jac三层差分，先查实际导数，禁止追加采样圈/重复大跳。
 
 ## 3. 全闭表示与严格连续metric
 

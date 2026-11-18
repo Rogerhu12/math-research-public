@@ -1,0 +1,929 @@
+{
+  "status": "Original BVP returned max-nodes; later physical prefix mean-height audit failed; no coupled acceptance",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_q060_lobatto_guard_terminal.py",
+    "sha256": "c257cd46835b481a641a1f60287eeeaf82a83e5d9a09ce6d4f996ec69c25001d"
+  },
+  "launch_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/lobatto-launch-plan.json",
+    "sha256": "da2c3d945ac45fcb04dc456c7e00283fb1c8b9bdbe4d2fe5fb5d3c8687c2374b"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_circle_trace_design.py": "2d9054efe56f8c0374b4cf12708a162de87e8857f90489d9c6674085f859b92e",
+    "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-design-plan.json": "ce2533b9bb0342fdcb6a7c81560281e8ef47ace3798e0e9e79fc1b44a176d1fc",
+    "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-initializer-v1/initializer.json": "974ee6c90a142e983e91acfa8cd86bdda6aaa8ff9f7b7a33823480aad2a78538",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_circle_trace_initializer_terminal.json": "8c478f12c2472a3df75017613e606adf801282a7d5f413aec48e14705bc5aa75",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference.py": "776bd257f9a299cce73d215597dcf2d02d161bf493deb2a66f9ece0972a327d4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/match_m3_circle_primary_moment.py": "bdcca0c9f12db1fed025b53e905e6e274b7bd61ec39c4a697e1ec066b214e302",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_basis.py": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_core.py": "4f9351cb356ce33da28d2d4a36a09d14606f3627846b5bf35d7f73478939cb18",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/raw_second_order_core.py": "79b7ddec4c3721e575816c30f94fb441bb76acb215d3453abe3cdce501850e24",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_tail_sources.mjs": "7bb242e2af1361fb0bc3b0f55c0ae30b71e51157df0bbb1296caeacaa63d21a7",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/closing_tail_dependency_blobs.json": "71d6aa7ced8ee553901a7c2748d569359dace927fc6573eaccd5032714c3fa60",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_q060_circle_trace_coupled.py": "1204d93ce144efec9d61d34de7af189e4c597d3c1bf85090a1f7bcbae7c020f3",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/trace_domain_newton.py": "75647718cfcb83b70be3446d236693dbf66426ea3861c92d7ffc0a527ac952ee",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_q060_circle_trace_lobatto_guard.py": "fc979b5bf136f1feda855bbb6d5249cad758a50e561daa749410141f5b548fd1",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_lobatto_domain_guard.py": "8a15397acf3f0007ef5341373266e25bd8e383fb0a0cb32dc15a9f53adf68c31",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+  },
+  "lobatto_guard": {
+    "source": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_lobatto_domain_guard.py",
+      "sha256": "8a15397acf3f0007ef5341373266e25bd8e383fb0a0cb32dc15a9f53adf68c31"
+    },
+    "scipy_version": "1.17.0",
+    "scipy_bvp": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/scipy/integrate/_bvp.py",
+      "sha256": "59afffb3607b272ae77f346d86428e43eca359fe90f2605da60a9571e60970d2"
+    },
+    "original_domain_newton": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py",
+      "sha256": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654"
+    },
+    "recording_newton_source": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/recording-newton-excerpt.py",
+      "sha256": "327cbac42bfa5615dfba53da795d70bf68735ef661729e32906b2c20d47875ab"
+    },
+    "exact_point_rule": "xmid=x[:-1]+0.5*h; s=0.5*h*(3/7)**0.5; x1=xmid+s; x2=xmid-s",
+    "exact_state_rule": "Original create_spline(Y,ff,x,h), using ff from the original col_fun four-tuple",
+    "guard_rule": "Original fun_wrapped at x1 then x2; propagate the same FloatingPointError to original domain backtracking; return the unchanged original four-tuple",
+    "no_new_RMS_or_merit_acceptance": true,
+    "observation_rule": "Save full raw state before initial Newton evaluation, after its first successful evaluation, after each accepted assignment, before both returns, and the actual last evaluation on escaping exception. Save node ff and original cubic whenever available, plus the actual fixed inner DN anchor."
+  },
+  "original_records": {
+    "resource.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/resource.json",
+      "sha256": "c0d41964a9db2fbaf6c4a39bbdf4dfffa271082890c6200eab78cb83c68d4f61"
+    },
+    "resource-live.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/resource-live.json",
+      "sha256": "c0d41964a9db2fbaf6c4a39bbdf4dfffa271082890c6200eab78cb83c68d4f61"
+    },
+    "runner-terminal.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/runner-terminal.json",
+      "sha256": "d0fdcf089bce835acfcf53afc03c0f81d99bb991c1bf0f569c88c26b9720f206"
+    },
+    "seed-summary.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/seed-summary.json",
+      "sha256": "90a2f69acfbd46b32dc036518e5954067018add1a5a0d5524e5f64f3f93c3c04"
+    },
+    "stdout.log": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/stdout.log",
+      "sha256": "950aa5228e970cdfebc6f2a8e5c9158d642a3fd8b889954e5f213b52446e5363"
+    },
+    "entry-events.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/entry-events.jsonl",
+      "sha256": "4563c303940d08d3cadfd47d2b95f30b4e9a855664894c14ecc30d93e87929ca"
+    },
+    "domain-newton.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/domain-newton.jsonl",
+      "sha256": "75c55e625febbf789a632f6e89479c4f3262e69408687dc9454ad398d3a24136"
+    },
+    "tail-worker.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/tail-worker.jsonl",
+      "sha256": "0951941f597c0e9c635a663f6d8a170bba3f6408e65cfb3d3359db92c8e2b5be"
+    }
+  },
+  "observed_execution": {
+    "tool_session": 82557,
+    "start_chunk": "5cda97",
+    "completion_chunk": "ae3122",
+    "observed_tool_exit": 0,
+    "observer_child_returncode": 0,
+    "worker_returncode": 0,
+    "started_utc": "2026-11-18T02:11:57Z",
+    "terminal_utc": "2026-11-18T02:19:00Z",
+    "seconds": 422.70755156499945
+  },
+  "observation_incident": "One read-only exec request reported exec-server transport disconnected. The existing session subsequently remained running and read access recovered; no run or source was restarted and no memory-failure claim is made.",
+  "initial_hashes": {
+    "state_binary64_sha256": "900cbfda191554b5642e0246caff0f644444e1e67708c33756c1e18b8eb0dd40",
+    "parameter_binary64_sha256": "8b5153c3b7609783a7f75e8310a884e5cc5db1770fdf26aa9edbad7305c5eab4",
+    "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df"
+  },
+  "starting_actual_tail_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0003.json.gz",
+    "sha256": "ae01f13ad7b28b82481a3417471c4fd5511b145bb50bd2be73a4386897a0db1e",
+    "residual": 1.8339313038213144e-09,
+    "Jacobian_entries": 208,
+    "full_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df"
+  },
+  "original_solve_bvp_returned": true,
+  "BVP_solver_success": false,
+  "status_code": 1,
+  "message": "The maximum number of mesh nodes is exceeded.",
+  "nodes": 2431,
+  "newton_meshes": [
+    271,
+    811,
+    2431
+  ],
+  "original_scipy_iterations": 3,
+  "maximum_original_RMS": 1.3860615692460996,
+  "newton_stats": {
+    "calls": 3,
+    "rejected_domain_trials": 238,
+    "rejected_merit_trials": 4,
+    "accepted_steps": 17,
+    "no_step": 2,
+    "minimum_alpha": 1.9073486328125e-06
+  },
+  "extra_original_RMS_point_domain_rejections": 32,
+  "snapshot_counts": {
+    "before_original_solve_bvp": 1,
+    "before_initial_evaluation": 3,
+    "initial_domain_pass": 3,
+    "accepted_assignment": 17,
+    "ordinary_return": 3,
+    "immediately_after_original_solve_bvp": 1
+  },
+  "all_raw_snapshots": [
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-entry.json.gz",
+        "sha256": "030ae6ac5c3a67105a27754b606b01958eff40369c1892c75388f68e1ebc71ee"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-entry-dn-anchor.json",
+        "sha256": "40c9c57acdfa11b109a463105da610f102ca4c50b31bb3655697df31e92518d9"
+      },
+      "stage": "before_original_solve_bvp",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": null,
+      "newton_call": null,
+      "newton_iteration": null,
+      "y_binary64_sha256": "900cbfda191554b5642e0246caff0f644444e1e67708c33756c1e18b8eb0dd40",
+      "p_binary64_sha256": "8b5153c3b7609783a7f75e8310a884e5cc5db1770fdf26aa9edbad7305c5eab4",
+      "cubic_shape": null
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-000-before_initial_evaluation.json.gz",
+        "sha256": "85ee9491469b28c0214b486e32813cabe646a9f63800a4d4c786f2f68f46c082"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-000-before_initial_evaluation-dn-anchor.json",
+        "sha256": "221febc1eca96109d0332c2ef8ee5733ea483369720a8a0c1d28e70025b68f45"
+      },
+      "stage": "before_initial_evaluation",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": null,
+      "y_binary64_sha256": "900cbfda191554b5642e0246caff0f644444e1e67708c33756c1e18b8eb0dd40",
+      "p_binary64_sha256": "8b5153c3b7609783a7f75e8310a884e5cc5db1770fdf26aa9edbad7305c5eab4",
+      "cubic_shape": null
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-001-initial_domain_pass.json.gz",
+        "sha256": "a684bfa51a4bd2827fc148b320b28f61c70e9bf3245b0e2c64e1d7e7bb3cb7c9"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-001-initial_domain_pass-dn-anchor.json",
+        "sha256": "cef7b9796ee7c7a7ce04f09174f4f4cd4c398c346a2bfd758ef2f673720a0e57"
+      },
+      "stage": "initial_domain_pass",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": null,
+      "y_binary64_sha256": "900cbfda191554b5642e0246caff0f644444e1e67708c33756c1e18b8eb0dd40",
+      "p_binary64_sha256": "8b5153c3b7609783a7f75e8310a884e5cc5db1770fdf26aa9edbad7305c5eab4",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-002-accepted_assignment.json.gz",
+        "sha256": "73925f1a49e32f1568b0c8e6ad48a8a3c5753089de4a33cbccb94c9931edf743"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-002-accepted_assignment-dn-anchor.json",
+        "sha256": "0f25b24bcf9e5b36bf7046f08669b1510f899b9680914e2488ec6915e1f649ed"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 0,
+      "y_binary64_sha256": "edfedbe9e7cdaf390041a9efa8a7096023e31738fefc8d6d81f2380487c7987e",
+      "p_binary64_sha256": "09f25e4a28d3f0283f89a8123d542693df2a28f0c665ea9264198f01357ed87e",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-003-accepted_assignment.json.gz",
+        "sha256": "80ad1bc03a15112b746af8f157335597b6659c63bcc98f6b13220756a2685991"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-003-accepted_assignment-dn-anchor.json",
+        "sha256": "e721b38e489117fb5f03fb6ff16c76db4b19560fc887006596d34aff1387a473"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 1,
+      "y_binary64_sha256": "45be6bddf8858328032dc4f632637dcdaec6ec69010cf95d72179580153d52af",
+      "p_binary64_sha256": "ac3f4af146022b2c31d4ce7ee2127aead72b844da3c617476a0fe10fcb138f13",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-004-accepted_assignment.json.gz",
+        "sha256": "5493b5cace52c75d714b5a8a90a76a9fcac5c4212d74cba3ae6b41c4807454b6"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-004-accepted_assignment-dn-anchor.json",
+        "sha256": "c8dd7cd4f12396a17614d156574dde32728ff3003e7dbb841ed74832c29bb5f4"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 2,
+      "y_binary64_sha256": "b1f1076bff623649cc300af2ab75051fb7d04f430838c6ad911438b3398eb828",
+      "p_binary64_sha256": "674f10585acdaa5bf1201f25f509058027e29957b297ccce5fd1dcd61babdbf2",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-005-accepted_assignment.json.gz",
+        "sha256": "e1d816f42e741a20cddd3ec8d12ce881eab3f8a759cf26b76634c7c64057407a"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-005-accepted_assignment-dn-anchor.json",
+        "sha256": "1bf9fde2f8cb093d69efecf8db1fe06bcdba6c705b44c21720aee5c57b870a3b"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 3,
+      "y_binary64_sha256": "10f1f70ab10cd5340667af7c55bd4dd9203b778e727bc03510d91e627d86a6ba",
+      "p_binary64_sha256": "8b181f90dcd6c0eefefb9d1363b96e717d279747b7d3365171fcd014f9c58a41",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-006-accepted_assignment.json.gz",
+        "sha256": "ac0bf9fd9aad2d19dfbcc700db4f8d2d23160ab1c78d0d13b1fd5ff0c9f01078"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-006-accepted_assignment-dn-anchor.json",
+        "sha256": "0cecffaaf0561a07a8ab8570d1fc9fdf80e7b0b3a38692f0d05add13f604057f"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 4,
+      "y_binary64_sha256": "c9927f970dda6a3feb629c220a47f088b2234540f3a5c9afab27fdfed73fd057",
+      "p_binary64_sha256": "ad2e08f3f2e566100c82e13e04c754e76fa6029a3ae9d35b115b0d5f6a714539",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-007-accepted_assignment.json.gz",
+        "sha256": "ce52b0ef57f809e528d9099550b295e1c0d1cc77fc71ffdd95901b58c6a2dd86"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-007-accepted_assignment-dn-anchor.json",
+        "sha256": "7b55dcd388aada9dc5a00779e9ed6b80346dcd14089022e92ba3e2029748ee49"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 5,
+      "y_binary64_sha256": "5c2d28661391486965681383c9bfc3200d950d610ae7d114b6c356cb4702e875",
+      "p_binary64_sha256": "fb4b2514789ba52ce3ed2678b56778eec7e7ff981ea298e7b37d298a22dce17d",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-008-accepted_assignment.json.gz",
+        "sha256": "0a5ca93c32d4a16b505a5471f9715e902fda6508bfc1d519296eab10ab13ed50"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-008-accepted_assignment-dn-anchor.json",
+        "sha256": "cc1cd17f65d11c5cd6f3bb31f42b859acbfdc23797359b8744a9ee29f059433d"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 6,
+      "y_binary64_sha256": "5ce97db782aa7ef4e02233dacc2b12a2b5669e5e4f612cad383b31c264aa644e",
+      "p_binary64_sha256": "584625d3154b8502bc822e72cc32ab53eff0baf6c34b1038b7c26a6dea796640",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-009-accepted_assignment.json.gz",
+        "sha256": "66167f7e401cafec7a8f8b8a4afa8ab5d26e8ca301ca431d8370587f4541dc8e"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-009-accepted_assignment-dn-anchor.json",
+        "sha256": "66de993cfbaaa30a3f891106cfbdc6c6399596dc3e9d86f0b0d25040a93dbcc0"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 7,
+      "y_binary64_sha256": "152506e8643370ee8aa3fa33fa33b709891fa5d7aae936360fe29d2ea82afd15",
+      "p_binary64_sha256": "eb5c87f5333fa78bee1b47a17340122bc19f2018dc8d10828a04f4ad220be6a5",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-010-accepted_assignment.json.gz",
+        "sha256": "060e4d62d964c9ac43e2653063de0f49db8266d769f53fe0ac40be7d34589454"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-010-accepted_assignment-dn-anchor.json",
+        "sha256": "cbe147888e33e7e7e2f343ba23515f9e26c8b87b24dfd679f2a651699122fd9e"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 8,
+      "y_binary64_sha256": "3cefa925dc405f604f5775fd39aa42ec8985e18e04353414e840ae79dfbcaa16",
+      "p_binary64_sha256": "08834be58fc7e48df243a894f4f2aae20a00c8dbc913180b1d47d70c4b79a4e6",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-011-ordinary_return.json.gz",
+        "sha256": "c4d513222ae34b3a89aba7984e7466abf1eb4811fe3585ed07b96c6409153040"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-001-state-011-ordinary_return-dn-anchor.json",
+        "sha256": "15eaba0f0c15d45ae913a72c92b6d9316ab1196b975223e03adf28cb1f02c501"
+      },
+      "stage": "ordinary_return",
+      "nodes": 271,
+      "inner": 0,
+      "prepared_system": 1,
+      "newton_call": 1,
+      "newton_iteration": 9,
+      "y_binary64_sha256": "3cefa925dc405f604f5775fd39aa42ec8985e18e04353414e840ae79dfbcaa16",
+      "p_binary64_sha256": "08834be58fc7e48df243a894f4f2aae20a00c8dbc913180b1d47d70c4b79a4e6",
+      "cubic_shape": [
+        4,
+        270,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-000-before_initial_evaluation.json.gz",
+        "sha256": "bca07e684b7197a9b92e103cc3d36bf12449c832ef0094614bf7e8c4a4925e7d"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-000-before_initial_evaluation-dn-anchor.json",
+        "sha256": "b3adab58a0c6e4dd7fdf4a0bcbaad2354c3b099b083a06df1235d7d7e871e9a1"
+      },
+      "stage": "before_initial_evaluation",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": null,
+      "y_binary64_sha256": "4575cb8fc4bd2d8f648a5d3c3ed291632d0569e09848497dc98cf9a5f22ed415",
+      "p_binary64_sha256": "08834be58fc7e48df243a894f4f2aae20a00c8dbc913180b1d47d70c4b79a4e6",
+      "cubic_shape": null
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-001-initial_domain_pass.json.gz",
+        "sha256": "e7290744d2fea0c609abf5c96497af53dab33cb5945cb1bd9a59ce8527525374"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-001-initial_domain_pass-dn-anchor.json",
+        "sha256": "9891f040166f5d719a86f64a8ba4fd8447c8741a5ae5a2f07b3b889d436e44fb"
+      },
+      "stage": "initial_domain_pass",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": null,
+      "y_binary64_sha256": "4575cb8fc4bd2d8f648a5d3c3ed291632d0569e09848497dc98cf9a5f22ed415",
+      "p_binary64_sha256": "08834be58fc7e48df243a894f4f2aae20a00c8dbc913180b1d47d70c4b79a4e6",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-002-accepted_assignment.json.gz",
+        "sha256": "4367b996966f98fead73fb6c08070efa326d3f4407ad23891b18453cd97b98e4"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-002-accepted_assignment-dn-anchor.json",
+        "sha256": "faa52429a0d5ffa3266c82a52b692d126857a8e15d51d78b181be9371fd89318"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": 0,
+      "y_binary64_sha256": "35b29e8033fde6f7ca70646e97cfdb2d6ee5c0f659fdae9fcb8b52d462894467",
+      "p_binary64_sha256": "422e141949da81c79bd4e98fa5e4163a76bf750f37883eb8e249870d9a2987f6",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-003-accepted_assignment.json.gz",
+        "sha256": "de9b640001b5903a7fd0ae82446e96c71a96abcb726db10dcd923978538585dd"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-003-accepted_assignment-dn-anchor.json",
+        "sha256": "13e305006cdf0f086405b3f4afdef1c0f66c580dcf0dfdd28b255f56f28425de"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": 1,
+      "y_binary64_sha256": "da39aef2b9dcaf5ab7092f8a1ade74cb6952b59a1aaa41a022ae2a51c1a49e3e",
+      "p_binary64_sha256": "22562f938514572420c793a472dd898b91c80185f9f0e34e34fb663ca521be0b",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-004-accepted_assignment.json.gz",
+        "sha256": "8770aff6420adf1ceb47a3556a903d782295d887a9c0fd9fe00489d75d077fd9"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-004-accepted_assignment-dn-anchor.json",
+        "sha256": "d5ad915ff5ac082b501060c47e457426663415050868200d8e6f0dd7f8904590"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": 2,
+      "y_binary64_sha256": "c7463d810a920c2fda0fd666f60ac584a7f4e7585a9804325aff88894ee83fc0",
+      "p_binary64_sha256": "0f7340cc80e642e29ef299054f94bc8e477cf3a5896ff38c2521e13f5529e5b9",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-005-accepted_assignment.json.gz",
+        "sha256": "87f32893edc7fe07a60445896c2b46ba413a55812099931ad73af4ddffa83455"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-005-accepted_assignment-dn-anchor.json",
+        "sha256": "b46d6c7c2369f21effb01d13c3a8c8b60bd355e013a5ae527d6c20dd08594d79"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": 3,
+      "y_binary64_sha256": "14a924462b20addb2fc965cb80d5b38f0d0a90d70bcd78cc603ddea02b706437",
+      "p_binary64_sha256": "7b7061229759241aa95806858f1c828d68ec0cb9a7f2c1a34d073f932e6c70e8",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-006-accepted_assignment.json.gz",
+        "sha256": "240220c5e2f9ea19039fc34eda287905375248809ad7ccf3a88ea2ac77844b6b"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-006-accepted_assignment-dn-anchor.json",
+        "sha256": "71972a87db5fe6677a4d58c48a8decb062cfa4bd84bf4b1694b5265a55b79442"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": 4,
+      "y_binary64_sha256": "42d5dc8a11c000b3075fb1fde3d31c3282048af493136b62f6ae615a2718e9ff",
+      "p_binary64_sha256": "9420d70b9de7bb79bd92f000aa0a8cc3c74798eddb78df0bb34224da3710e22c",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-007-accepted_assignment.json.gz",
+        "sha256": "9178a9dc49b1856a7db533a17a9139997eca768a697db0496b6cbb0f843b50b6"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-007-accepted_assignment-dn-anchor.json",
+        "sha256": "ff9630ee1b3667c12d2e491e67f1d8d5ff9ec5821271911ceece6e284b89426c"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": 5,
+      "y_binary64_sha256": "6dfa5b55a676593b3b414fcca3ff6ef920459c6b063b36da4a7f59f0779d373a",
+      "p_binary64_sha256": "43b9ca65b42b01968efd95f3c868c4d883b8f55bcfe8cf629b97b1c3f40f043c",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-008-ordinary_return.json.gz",
+        "sha256": "2de98a63de2cbfce07c48f0be42781fb84903b26f14b73740fbc35c26e2fa1ff"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-002-state-008-ordinary_return-dn-anchor.json",
+        "sha256": "8de202c7bba5c9abba32bfde1732cc378f3ee1cb15c3d4305be99b041684a01a"
+      },
+      "stage": "ordinary_return",
+      "nodes": 811,
+      "inner": 0,
+      "prepared_system": 2,
+      "newton_call": 2,
+      "newton_iteration": 6,
+      "y_binary64_sha256": "6dfa5b55a676593b3b414fcca3ff6ef920459c6b063b36da4a7f59f0779d373a",
+      "p_binary64_sha256": "43b9ca65b42b01968efd95f3c868c4d883b8f55bcfe8cf629b97b1c3f40f043c",
+      "cubic_shape": [
+        4,
+        810,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-000-before_initial_evaluation.json.gz",
+        "sha256": "a3e64786be0b99955b71d09f3fe465ccd500fc5f874a31d1736ea83365240cab"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-000-before_initial_evaluation-dn-anchor.json",
+        "sha256": "4a2103ae3c3d54fae0eed9b3986c6a7a7cd907b2e3d04e76e2fa40ebc2126560"
+      },
+      "stage": "before_initial_evaluation",
+      "nodes": 2431,
+      "inner": 0,
+      "prepared_system": 3,
+      "newton_call": 3,
+      "newton_iteration": null,
+      "y_binary64_sha256": "212b3655db8c016be4b97e64cedc6ff444ce2450d3b24d3d9a936fc601b6d511",
+      "p_binary64_sha256": "43b9ca65b42b01968efd95f3c868c4d883b8f55bcfe8cf629b97b1c3f40f043c",
+      "cubic_shape": null
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-001-initial_domain_pass.json.gz",
+        "sha256": "5fbf0edd89cf5ae0b579dde97ccfdf94d44752679649125c42651de103ec3b42"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-001-initial_domain_pass-dn-anchor.json",
+        "sha256": "6539c7a2cd7958c20e53c370fe90ebfc19403fac2f8f0a0c043cae0d934c0df6"
+      },
+      "stage": "initial_domain_pass",
+      "nodes": 2431,
+      "inner": 0,
+      "prepared_system": 3,
+      "newton_call": 3,
+      "newton_iteration": null,
+      "y_binary64_sha256": "212b3655db8c016be4b97e64cedc6ff444ce2450d3b24d3d9a936fc601b6d511",
+      "p_binary64_sha256": "43b9ca65b42b01968efd95f3c868c4d883b8f55bcfe8cf629b97b1c3f40f043c",
+      "cubic_shape": [
+        4,
+        2430,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-002-accepted_assignment.json.gz",
+        "sha256": "11d34129acbd7f2420816a8207036ab3306747727d9b0799f7bf9fc1dabfc6eb"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-002-accepted_assignment-dn-anchor.json",
+        "sha256": "f080ea74e91dc5d39e94168b3e6dff37d83e7aaed40a34a6332e86eb5eb8ec62"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 2431,
+      "inner": 0,
+      "prepared_system": 3,
+      "newton_call": 3,
+      "newton_iteration": 0,
+      "y_binary64_sha256": "2411653c033fb496b0724feafe8a72ff620a1475574bd639635e2f2e206db440",
+      "p_binary64_sha256": "00d342ab94294fd76d632b2017357bd2b6c722107e6dbdc45b34dbc2e575bb7c",
+      "cubic_shape": [
+        4,
+        2430,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-003-accepted_assignment.json.gz",
+        "sha256": "7dca90382b3383d1b12e6e5f98eb642fbf06a558af796eeb7e07428644d242b1"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-003-accepted_assignment-dn-anchor.json",
+        "sha256": "39997fecd9254220e31e01f5d692a22b1082df60bacb07a07682f1c104f4f43f"
+      },
+      "stage": "accepted_assignment",
+      "nodes": 2431,
+      "inner": 0,
+      "prepared_system": 3,
+      "newton_call": 3,
+      "newton_iteration": 1,
+      "y_binary64_sha256": "de70fea34cb3727d4242dededb49d1342851d76a25c456d79478512a056438aa",
+      "p_binary64_sha256": "25ca5fd67afcebf6e3ebdc247296042613efd7ae1d76cbf52ceebaf50957d58e",
+      "cubic_shape": [
+        4,
+        2430,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-004-ordinary_return.json.gz",
+        "sha256": "b189b4873daeaee54705e6198a9b195cd5875943c3e8fe2cbf5dffda5aecdcfe"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-newton-003-state-004-ordinary_return-dn-anchor.json",
+        "sha256": "fbd65fc91df6a7b9e9d96a7178f28c31b7e48088f487cbfb9c0dbfd7d0763b7e"
+      },
+      "stage": "ordinary_return",
+      "nodes": 2431,
+      "inner": 0,
+      "prepared_system": 3,
+      "newton_call": 3,
+      "newton_iteration": 2,
+      "y_binary64_sha256": "de70fea34cb3727d4242dededb49d1342851d76a25c456d79478512a056438aa",
+      "p_binary64_sha256": "25ca5fd67afcebf6e3ebdc247296042613efd7ae1d76cbf52ceebaf50957d58e",
+      "cubic_shape": [
+        4,
+        2430,
+        25
+      ]
+    },
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-returned.json.gz",
+        "sha256": "6961706a8a9f7c50decf735b2e75f88f51c89a9138ba6830a11e86958044a4f0"
+      },
+      "actual_anchor_sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-returned-dn-anchor.json",
+        "sha256": "85390a6ac5080fa0ffcf2a8c182c720dfb9838c2b5a080f70f9eec1a5b32bb82"
+      },
+      "stage": "immediately_after_original_solve_bvp",
+      "nodes": 2431,
+      "inner": 0,
+      "prepared_system": null,
+      "newton_call": null,
+      "newton_iteration": null,
+      "y_binary64_sha256": "de70fea34cb3727d4242dededb49d1342851d76a25c456d79478512a056438aa",
+      "p_binary64_sha256": "25ca5fd67afcebf6e3ebdc247296042613efd7ae1d76cbf52ceebaf50957d58e",
+      "cubic_shape": [
+        4,
+        2430,
+        25
+      ]
+    }
+  ],
+  "raw_returned": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-returned.json.gz",
+    "sha256": "6961706a8a9f7c50decf735b2e75f88f51c89a9138ba6830a11e86958044a4f0"
+  },
+  "raw_returned_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/inner-00-returned-dn-anchor.json",
+    "sha256": "85390a6ac5080fa0ffcf2a8c182c720dfb9838c2b5a080f70f9eec1a5b32bb82"
+  },
+  "raw_returned_cubic_shape": [
+    4,
+    2430,
+    25
+  ],
+  "full_final_parameters": [
+    0.0012664867412684557,
+    -14.700590554882313,
+    205.3493575949084,
+    -2352.4732820343356,
+    22225.85072641665,
+    -165232.22165444618,
+    -142546.20062409402,
+    165963.40767297667
+  ],
+  "original_parameter_scales": [
+    0.0027149993357387845,
+    0.0001414668200877752,
+    7.37122139306204e-06,
+    3.8408232256738776e-07,
+    2.0012861185746954e-08,
+    1.0427832506394673e-09,
+    1e-09
+  ],
+  "full_final_physical_controls": [
+    -0.03991209359147333,
+    0.02905012062601912,
+    -0.017340601383138365,
+    0.00853655636803817,
+    -0.0033067695153830034,
+    -0.00014864479045309842,
+    0.00016596340767297669
+  ],
+  "candidate_H_not_sent_to_actual_tail": [
+    -0.00016558188934682474,
+    6.106518950371466e-06,
+    1.911672778573767e-06,
+    8.899904329047036e-08,
+    -9.13481473260718e-08,
+    -2.2327118780731963e-06,
+    7.817918650810279e-07,
+    -4.1243171108970935e-06
+  ],
+  "failed_physical_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/seed.json.gz",
+    "sha256": "5244dcd8636c586376aa1bc824593a87453933e3f006049d5f87edfa4e0a3a60"
+  },
+  "failed_physical_coefficient_chunks": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/seed_coeff_00.npy.gz",
+      "sha256": "48b32b88370aae54f7192fcd18f316171456e6905096e60784f62986d94b8b17",
+      "shape": [
+        6,
+        2430,
+        25
+      ],
+      "state_first": 0,
+      "state_last_exclusive": 25
+    }
+  ],
+  "failed_physical_core_kind": "exact_m3_circle_trace_replacement_integral",
+  "failed_physical_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06230924395347678,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "failed_physical_meridian_length": 1.369164727384046,
+  "later_failure": {
+    "error": "FloatingPointError('Adaptive Frenet domain failure: -8.824213515445933e-08')",
+    "stage": "After the failed physical C2 checkpoint was saved: adaptive.audit -> height_integral -> original frame",
+    "finite_sampling": "Original six-point per-span mean-height integration at audit angular count 512",
+    "negative_frenet_margin": -8.824213515445933e-08,
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-lobatto-guard-v1/main-excerpt.py\", line 30, in main\n    cp=a.out_prefix.with_suffix('.json.gz');save_checkpoint(cp,out);out['summary']=adaptive.audit(o,physical,a.audit_angular)\n                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py\", line 146, in audit\n    ss=np.unique(np.r_[np.linspace(0,flow.end,151),sol.x,(sol.x[:-1]+sol.x[1:])/2]);hh=flow.height_integral(sol,ss,N,6)\n                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py\", line 260, in height_integral\n    full=integrate_intervals(sol.x[:-1],sol.x[1:]);prefix=np.r_[0.,np.cumsum(full)]\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py\", line 258, in integrate_intervals\n    fr=self.frame(t,C,B1,B2);means[first:first+128]=np.mean(fr['V'][:,:,2],axis=1)\n       ^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py\", line 59, in frame\n    if np.min(margin.real)<=0 or np.min(lam.real)<=0 or np.min(nn.real)<=0:raise FloatingPointError('Adaptive Frenet domain failure: '+str(float(np.min(margin.real))))\n                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFloatingPointError: Adaptive Frenet domain failure: -8.824213515445933e-08\n"
+  },
+  "new_actual_tail_requests": 0,
+  "new_actual_tail_acceptances": 0,
+  "full_metric_available": false,
+  "limitations": "The five-point check covers the original finite RMS locations, not all later physical/angle samples or a continuous domain. Raw Newton and returned states are recovery material, not accepted BVPs. Saved failed physical CP is not an anchor for production closure. No original inner has been replayed."
+}
