@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`0455d8fe85d545d72280dc9c977ebd81565b6fd2`。2026-11-18 09:58:12（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`b1c88d2f7c7252d4c01bf476b42dd46c54657570`。2026-11-18 10:00:25（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -28,9 +28,9 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**旧λ1失败** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮/回投/C²窗/二阶guard均失败。36328 RMS6.33004/metric.346343328；14903 RMS3.70555，CP d95ed7…先存后审计Frenet异常，具体子调用无traceback不可定，无新metric/接缝/H尾。二阶guard仅20缩步过域，无λ1接受。详见m3-circle-endpoint-c2-seed-complete-failure/raw-core-second-order-guard/m3-endpoint-second-order-guard-terminal及log。
+**旧λ1失败** 原q=.03991248545080898/λ1/M16的a.21多入口均失败；14903的CP d95ed7…先存后Frenet异常，无具体trace/新metric。短a.01的19739亦触节点门，RMS.3830013/metric.0236506068；4尾接受不补前缀。详见m3-circle-endpoint-c2-seed-complete-failure、m3-endpoint-second-order-guard-terminal、m3-small-halfwidth-circle-terminal及log；不续失败c/重跑/继承比例。
 
-短a.01的19739亦失败：3129点触6000门/RMS.3830013，69域拒/39merit/9步/1nostep；完整49态0335bc…/metric.0236506068/Darboux692.7769。4尾原门接受，末1.6406173e−9/800Jac/audit，末两H分别绑定。见m3-small-halfwidth-circle-terminal；失败c不续接/短a无10%继承。
+
 
 原raw增幅初猜只把高幂预测改为物理c_new=(qnew/qold_actual)c_old，保共用C²窗/材料回拉/门。q.045有限探针通过，未BVP/尾；取得合格λ1锚前不运行。见m3-raw-linear-amplitude-initializer。
 
@@ -50,13 +50,13 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **q060原余弦锚** q.06/beta4.625已有限真联立接受：CP4755143b…/1934点/RMS9.97758523e−7/BC9.17879e−12；完整有限metric3.79125e−8/Darboux.00162391，3真尾208Jac、末1.8339313e−9及audit，导出新H另验收。全7c/最终δ.06104275721220832/profile/warp.06/chart/port/尾参数锁terminal；mean2 seam6.64415e−11/nonmean2 9.57232e−8未补C²闭合/连续界。见q060-exact-saved-inner-original-acceptance，旧恢复/失败不重跑。
 
-**q060→R44初猜/联立入口** 原M8/25态/Pold=1；新λ1/a.21/bp.32/bc.4/B2..B6+T/U，唯一q=.05210565550627671。单次probe exit0：t=.04377938/u=−.000173593，原guard lower.4947527924/Frenet.0024858771；271点RMS1.416628747/BC9.183586e−12，完整8H逐位同actual（36f201a1…）。唯一真coupled源1204d93…/plan8b9de60…已冻结双审，正式observer12897于01:57:08Z启动；必要重建y/p/H逐位同，未重复RMS；首同H复用真实208Jac/audit锚，后续新H原native并audit；原8轮/门/pscale/物理导出与全审计保持，每inner即时存全cubic及DN锚。见q060-circle-trace-coupled-entry/initializer-terminal。新p0=0只改δ、q固定；meanheight另付，非固定g精化/圆弧接受/10%。
+**q060→R44初猜/联立入口** 原M8/25态/Pold=1；新λ1/a.21/bp.32/bc.4/B2..B6+T/U，唯一q=.05210565550627671。单次probe exit0：t=.04377938/u=−.000173593，原guard lower.4947527924/Frenet.0024858771；271点RMS1.416628747/BC9.183586e−12，完整8H逐位同actual（36f201a1…）。唯一真coupled源1204d93…/plan8b9de60…已冻结双审，正式12897已exit0但内解未返回：原RMS额外Lobatto点Frenet异常，新tail0；必要重建y/p/H同；首同H复用真实208Jac/audit锚，后续新H原native并audit；原8轮/门/pscale/物理导出与全审计保持，每inner即时存全cubic及DN锚。见q060-circle-trace-coupled-entry/initializer-terminal。新p0=0只改δ、q固定；meanheight另付，非固定g精化/圆弧接受/10%。
 
 ## 3. 全闭表示与严格连续metric
 
 R21/R23全mean接缝、R24固定帽排全O(3)。R28/29/31低幅全C²闭图全时metric<1e−6已证：自身D≤2.301491469394/reach≥.1/H径比>.69794/δE>0，但held/D>.005462656，远未.1。同CP尾32→64真实metric降12.66倍，二阶层差.00629485未证C²极限；不能宣称精确无限解。
 
-R36/37/39仅旧raw M8的真积分/真反函数/全1003径向span固定atlas，微分余项ε<5.940838571e−9；同图有限主部若≤9.88118311e−7才给真metric<1e−6。旧M8未过门，不重做全域分盒；新终态须自身全角证书/有限主部/尾闭合。
+R36/37/39只对旧raw M8真积分/反函数/全1003span固定atlas给ε<5.940838571e−9；同图有限主部若≤9.88118311e−7才得真metric<1e−6。旧M8未过门，不重铺盒。R44新T/U真积分接口4cb1251d…已source-only双审/AST元数据exit0：重算真G/V、组合控制原函数/曲率界；material转移需自身全角ρ正界，投影系数误差非全source误差。未构造oracle/分盒/反函数/候选metric；见r44-integral-oracle-interface，新终态仍付自身全角/有限主部/尾闭合。
 
 R39→R31完整主部Fraction编译已核11span六jet共198恒等式及中心1059个C²系数全0，保q_gauge/中心/lift抵消；仅a5=1单点接口，非物理metric。未知cut lift仍拒绝，见integral-principal-polynomial-interface。
 
