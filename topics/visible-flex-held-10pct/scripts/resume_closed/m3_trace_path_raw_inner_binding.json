@@ -1,0 +1,216 @@
+{
+  "scope": "Recover the actual returned lambda=.02 inner state without solving it again.\n\nThe command-line entry only binds saved data, byte identities and source. A\nseparate native_model() restores the complete original normalized x/y/p/cubic,\nRMS vector and returned diagnostics with the actual partial-lift definition.\nIt deliberately attaches no tail: the pending changed-H response must be\nobtained and accepted by the original actual worker before the original outer\nBC check. The old actual response is only the recorded inner affine anchor.\nNo mean, metric, physical quintic, BVP or tail calculation is performed here.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_raw_inner.py",
+    "sha256": "7ddb0e5d178881113e6ff2546374fd328ecb62a579c75c20e68bfd066b64c259"
+  },
+  "helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_prefix.py",
+    "sha256": "5a918498f3f91fb173c60ada1983f8cb89e64083e36c6ab55f3913ec7c55bd3a"
+  },
+  "raw_inner": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned.json.gz",
+    "sha256": "bc2fee7117ba8d8d842ac3352290ce55e966813ebf8048494688ce6d46180cc0"
+  },
+  "sidecar": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned-dn-anchor.json",
+    "sha256": "fcbe787e4e730c09fc54c8f971371edb5159a99cb22d480852714afa38ce642a"
+  },
+  "changed_height_failed_tail": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/seed_tail_0001.json.gz",
+    "sha256": "6f0cdfa7bdc27c330bd3320ba94417e1fb410430dfdcdd3bd685c2944d2411ac"
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/launch-plan.json",
+    "sha256": "99b888b421ecaea72dbbafffca9811121ed8d663c62049c3ce03e54edc6b52be"
+  },
+  "original_inner_actual_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0003.json.gz",
+    "sha256": "ae01f13ad7b28b82481a3417471c4fd5511b145bb50bd2be73a4386897a0db1e"
+  },
+  "inner_affine_response_payload_sha256": "6e6b38f18dc84c7dbe4099532977866c8662b29b993e32c72ef368fe190247bb",
+  "core_kind": "exact_m3_finite_circle_trace_path_partial_lift",
+  "control_path": "finite-cosine-trace-synchronous-lift-v1",
+  "path_definition": {
+    "branch": "new_finite_seven_column_integral_path",
+    "lambda_value": 0.02,
+    "core_support_guard": "Original numerical triangle/first/C2 guard, floor1e-5 and grid ceiling32768",
+    "note": "This is the defining integral core. For intermediate lambda, the partially lifted finite inlet is a different curve and must pass its own original frame and full metric checks.",
+    "settings": {
+      "halfwidth": 0.21,
+      "transition": 0.32,
+      "control_transition": 0.4,
+      "homotopy": 0.02,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "numerical_gauge": 0.06,
+    "defining_support_amplitude": 0.059818741459951905,
+    "warp_reference": 0.06,
+    "fixed_metric": false,
+    "p0_scope": "Only delta; frozen_profile already contains the old historical p0.",
+    "parameter_scales": [
+      0.0036,
+      0.00021599999999999996,
+      1.2959999999999998e-05,
+      7.775999999999999e-07,
+      4.665599999999999e-08,
+      2.7993599999999993e-09,
+      1e-09
+    ],
+    "mean_height_scope": "Use the original height_integral on this actual model/solution. No old mean trajectory is copied to a positive-lambda model."
+  },
+  "path_lambda": 0.02,
+  "lift_window": [
+    0.5,
+    0.9
+  ],
+  "q_gauge": 0.06,
+  "defining_support_q": 0.059818741459951905,
+  "path_base_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275721220832,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "candidate_physical_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.0610427570758308,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "full_parameters": [
+    -1.3637752370752413e-10,
+    0.13180335067450089,
+    -0.13277555007896716,
+    -0.4668764017278911,
+    2.0571139745863283,
+    18.302877391003268,
+    -411.917362701317,
+    407.38904291232535
+  ],
+  "full_parameter_scales": [
+    0.0036,
+    0.00021599999999999996,
+    1.2959999999999998e-05,
+    7.775999999999999e-07,
+    4.665599999999999e-08,
+    2.7993599999999993e-09,
+    1e-09
+  ],
+  "full_physical_controls": [
+    0.0004744920624282032,
+    -2.86795188170569e-05,
+    -6.0507181663934675e-06,
+    1.5996118266383285e-06,
+    8.539390475546483e-07,
+    -1.1531049884515585e-06,
+    4.073890429123254e-07
+  ],
+  "coordinate": "Original normalized adaptive collocation chart",
+  "normalized_mesh_points": 493,
+  "state_components": 25,
+  "raw_cubic_shape": [
+    4,
+    492,
+    25
+  ],
+  "array_binary64_sha256": {
+    "x": "5486729c81b7f14d0eda884d691f20308bfc6cb700b17717c215a034dcadc650",
+    "y": "4f72237ec39b7590e661447bd72f69163813d2235a8d6df32f826113d392fd28",
+    "p": "750f0c4272063ec1d3c7ee82cce6eb4b616e7857b27a2edab28873c22c477da5",
+    "rms_residuals": "5980a4b67b6b51d8f85b400cf6ab2702f232b3b7f768953031ef118fd5269f1c"
+  },
+  "cubic_knots_binary64_sha256": "5486729c81b7f14d0eda884d691f20308bfc6cb700b17717c215a034dcadc650",
+  "cubic_coefficients_binary64_sha256": "124529251a869d2cfa65e1da42171091f9ef74f75e21cfca024603dfb7fb3615",
+  "original_cubic_axis": 1,
+  "original_cubic_extrapolate": true,
+  "restored_cubic_domain": "Only the saved [x[0],x[-1]]; no extension outside it is supplied.",
+  "original_inner_success": true,
+  "original_status": 0,
+  "original_message": "The algorithm converged to the desired accuracy.",
+  "original_niter": 5,
+  "original_max_rms": 9.873637694422844e-07,
+  "original_rms_entries": 492,
+  "old_inner_height_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df",
+  "new_pending_height_binary64_sha256": "d594be33b2087c297971a7445db52e78b771f0b4f77682c3ab5ec7b1cac70890",
+  "full_pending_height": [
+    -0.00016709731551033027,
+    6.128520978145864e-06,
+    1.087161060379719e-06,
+    5.781188206976297e-10,
+    -5.266481811653339e-09,
+    -1.1270751724175706e-09,
+    5.642930213506106e-11,
+    6.861304863047251e-11
+  ],
+  "pending_request": {
+    "height": [
+      -0.00016709731551033027,
+      6.128520978145864e-06,
+      1.087161060379719e-06,
+      5.781188206976297e-10,
+      -5.266481811653339e-09,
+      -1.1270751724175706e-09,
+      5.642930213506106e-11,
+      6.861304863047251e-11
+    ],
+    "jacobian": true,
+    "audit": true
+  },
+  "observed_tail_last_iteration": {
+    "iteration": 2,
+    "norm": 3.667862901158431e-09,
+    "minA": 0.5218915666495756,
+    "minD": 0.9991195413189724,
+    "chartCondition": null
+  },
+  "current_resume_point": "Inner outer=0 returned successfully. Its changed-H actual tail request failed before the original actual BC/outer history row was formed.",
+  "remaining_outer_rule": "After a genuine same-new-H response, attach the real tail, perform the original BC check and create outer row0. If not accepted, continue original outer indices1..7; never rerun inner0.",
+  "missing_original_solution_fields": [
+    "yp"
+  ],
+  "missing_field_scope": "The returned raw saved x/y/p/cubic/RMS/status/message/niter; it did not save sol.yp. No derivative is inferred and relabeled as that original array. The original post-tail control flow does not consume sol.yp.",
+  "native_model_constructed": false,
+  "mean_height_integrated": false,
+  "physical_quintic_constructed": false,
+  "full_metric_evaluated": false,
+  "old_inner_rerun": false,
+  "BVP_solver_invoked": false,
+  "tail_solver_invoked": false,
+  "actual_coupled_terminal_accepted": false,
+  "continuous_error_certificate": false,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_raw_inner.py",
+    "--raw",
+    "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned.json.gz",
+    "--sidecar",
+    "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned-dn-anchor.json",
+    "--failed-tail",
+    "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/seed_tail_0001.json.gz",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-raw-inner-v1/binding.json"
+  ]
+}

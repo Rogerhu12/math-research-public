@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`bde8669617a1a4d375763fb6c4e24c489367b966`。2026-11-18 11:30:08（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`968dccc64eaf066e126e9f65f61f6fafc959e801`。2026-11-18 11:33:33（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -36,7 +36,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 原raw λ.02固定g M8→M16虽尾接受，metric8.30078e−5→9.35726e−5变坏，非收敛。canonical/parts16/exact-lift/free-c6均未补角谱，旧弧缺陷>.01255549；见m3-raw-m16-complete-coupled-metric-failure及相关notes，不重跑。
 
-**R41**旧M16全15c的λ1/bp.32/bc.4真积分控制rho范数<.02426504、rho∈(.6212861,1.3370317)；c改变须重付、q不在R38窗。完整g绑定/new-design与fixed-refinement边界见R41及actual-raw-integral-terminal-binding。
+**R41** 旧q.04/λ1/M16全15c（bp.32/bc.4）严格rho∈(.6212861,1.3370317)、控制范数<.02426504；不在R38窗，控制改变须重付。见R41/actual-raw-integral-terminal-binding。
 
 **R42/R43** 原λ1 finite raw span的W²正交及真矩Gram谱[1,13.92415)已证；有限M16条件数2.061/旧5.788e11不证实际Jac/C²/存在，生产核未改。见R42/43。
 
@@ -52,7 +52,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060→R44实际联立** 旧λ1/M8/q=.05210565550627671：12897原RMS域异常无完整末态；五点82557返回status1/maxnodes、2431点/RMS1.386061569，失败C² CP先存后mean-height域异常，新tail0/无metric。见两coupled/Lobatto终态，不重跑。参数诊断87257固定24stencil全原域过，七控制最细逐项归一差3.5922e−8、T非单调、δ原FD，不证完整Jac条件，见q060-trace-parameter-jacobian-terminal。
 
-**R45新路径** 已证完整有限余弦→B2..B(M−2)+T/U全λ列独立、固定M Gram定性正下界及同步lift恒等式，未证BVP存在/条件数。保原binary64(.06)主矩Q*、gauge/warp/7pscale/25态，qseed=Q*/Pλ；λ0原无lift有限图、λ1真Γ，中间入口不同真Γ、mean另付。见results/R45及q060-finite-trace-path-entry-plan，5源/plan945259…已登记。唯一λ0身份/λ=.02入口5281真实0：七jets/完整H同，原域过、rho下界.507213277、RMS.01909894066/BC9.18358e−12；见q060-finite-trace-path-entry-terminal。94553真实0：inner0接受493点/RMS9.87364e−7；新H真尾iter2残差3.66786e−9仍超2e−9，线搜失败，无CP/mean/metric，见q060-trace-path-lam002-original-tail-failure。24原快照齐；新尾具名邻数恢复进行中，不重跑inner。
+**R45新路径** 已证完整有限余弦→B2..B(M−2)+T/U全λ列独立、固定M Gram定性正下界及同步lift恒等式，未证BVP存在/条件数。保原binary64(.06)主矩Q*、gauge/warp/7pscale/25态，qseed=Q*/Pλ；λ0原无lift有限图、λ1真Γ，中间入口不同真Γ、mean另付。见results/R45及q060-finite-trace-path-entry-plan，5源/plan945259…已登记。唯一λ0身份/λ=.02入口5281真实0：七jets/完整H同，原域过、rho下界.507213277、RMS.01909894066/BC9.18358e−12；见q060-finite-trace-path-entry-terminal。94553真实0：inner0接受493点/RMS9.87364e−7；新H真尾iter2残差3.66786e−9仍超2e−9，线搜失败，无CP/mean/metric，见q060-trace-path-lam002-original-tail-failure。24原快照齐；raw reader7ddb0e…已绑定完整x/y/p/cubic/RMS，mean未算；双具名邻数重放过门、原尾10285正验收，成功后接原outer0及必要1–7，不重跑inner。
 
 ## 3. 全闭表示与严格连续metric
 
