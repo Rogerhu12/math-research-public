@@ -1,0 +1,286 @@
+{
+  "schema": "m3-one-reverse-selected-flow-failed-candidate-v1",
+  "confidence": "Numerical evidence on one actual finite failed state; no general floating-point floor or mathematical impossibility claim.",
+  "lambda_value": 0.64,
+  "sources": {
+    "full_rows": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/retain_actual_tail_residual_rows.mjs",
+      "sha256": "9f31d6c9b107166ccc7abb8b15de81e95a84266c9b536455d7ed868170301ef6"
+    },
+    "proposer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/propose_complete_row_reverse_flow.mjs",
+      "sha256": "dc60aefb800c4064d795ae9d8b287f60e7f00606209aef1c4f8dae5df2b64db1"
+    },
+    "prepared_native_loader": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_complete_row_reverse_flow_original_tail.py",
+      "sha256": "5a0037931053746b157327b1e205f87e08ef869e1d30b5bb46b4b01fa0a2ef2f"
+    },
+    "native_loader_transform_manifest": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/complete_row_reverse_flow_source_transforms.json",
+      "sha256": "240d9a272d1c2b80144fd7cf84d1accd2520e51d68fcdc149b3b05e454d95fa0"
+    }
+  },
+  "prepared_native_loader_executed": false,
+  "source_readonly_review": {
+    "agent": "closed_geometry",
+    "scope": "Decreasing dependency order, exact saved-flow reuse, complete-row locality, declared full-state difference and unchanged original native gate; source-only review."
+  },
+  "input_failure": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+    "sha256": "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5"
+  },
+  "complete_rows": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-failed-fullrows-v1/rows.json",
+    "sha256": "2f52490e08e66d18772f3f86c0537c93f9d815f3e98787554eb0a62f35cf3fde"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-reverse-flow-v1/candidate.json.gz",
+    "sha256": "0cbe6e429aa9315a50efdb05b892dc5750b9fd45cb9e8aefdd446c02a05f6043"
+  },
+  "candidate_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-reverse-flow-v1/candidate-summary.json",
+    "sha256": "f301ef5466da8ed7b0a17483ac084248e5e73183e281c55ad975672ed92221f5"
+  },
+  "source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-reverse-flow-v1/candidate-summary.json",
+    "sha256": "f301ef5466da8ed7b0a17483ac084248e5e73183e281c55ad975672ed92221f5"
+  },
+  "before": {
+    "norm": 3.667517320458417e-09,
+    "boundary": {
+      "cut": 0,
+      "deep": 1.9021436175163274e-22
+    },
+    "other_component_maximum": 1.8337586602292086e-09,
+    "complete_over_gate_components": [
+      {
+        "stage": 86,
+        "component": 8,
+        "physicalMode": 3,
+        "kind": "momentum",
+        "state": -955.8449631101098,
+        "flow": -955.8449631101097,
+        "signedResidual": 1.1368683772161603e-13,
+        "normalizationScale": 3.099830969780011e-05,
+        "normalizedResidual": 3.667517320458417e-09,
+        "direction": 1,
+        "adjacentTowardFlow": -955.8449631101097,
+        "directedStep": 1.1368683772161603e-13,
+        "isExactlyOneDirectedNeighbor": true,
+        "old_flow_discrepancy_in_state_ULPs": 1.0
+      },
+      {
+        "stage": 87,
+        "component": 11,
+        "physicalMode": 12,
+        "kind": "momentum",
+        "state": 1246.5262770515733,
+        "flow": 1246.5262770515742,
+        "signedResidual": 9.094947017729282e-13,
+        "normalizationScale": 0.00037520750448996935,
+        "normalizedResidual": 2.4239779079291903e-09,
+        "direction": 1,
+        "adjacentTowardFlow": 1246.5262770515735,
+        "directedStep": 2.2737367544323206e-13,
+        "isExactlyOneDirectedNeighbor": false,
+        "old_flow_discrepancy_in_state_ULPs": 4.0
+      },
+      {
+        "stage": 88,
+        "component": 11,
+        "physicalMode": 12,
+        "kind": "momentum",
+        "state": -932.0842000789937,
+        "flow": -932.0842000789909,
+        "signedResidual": 2.8421709430404007e-12,
+        "normalizationScale": 0.0007861990407777358,
+        "normalizedResidual": 3.6150781107909074e-09,
+        "direction": 1,
+        "adjacentTowardFlow": -932.0842000789936,
+        "directedStep": 1.1368683772161603e-13,
+        "isExactlyOneDirectedNeighbor": false,
+        "old_flow_discrepancy_in_state_ULPs": 25.0
+      }
+    ]
+  },
+  "single_candidate": {
+    "method": "one_reverse_selected_flow_pass_v1",
+    "descending_stage_order": [
+      88,
+      87,
+      86,
+      85
+    ],
+    "named_changes": [
+      {
+        "node": 86,
+        "component": 8,
+        "before": -955.8449631101098,
+        "after": -955.8449631101097,
+        "signedStep": 1.1368683772161603e-13,
+        "originalFlow": -955.8449631101097,
+        "currentFlow": -955.8449631101097,
+        "remainingToCurrentFlow": 0,
+        "currentFlowInputWasOriginal": false,
+        "step_in_original_binade_ULPs": 1.0
+      },
+      {
+        "node": 87,
+        "component": 11,
+        "before": 1246.5262770515733,
+        "after": 1246.5262770515676,
+        "signedStep": -5.6843418860808015e-12,
+        "originalFlow": 1246.5262770515742,
+        "currentFlow": 1246.5262770515676,
+        "remainingToCurrentFlow": 0,
+        "currentFlowInputWasOriginal": false,
+        "step_in_original_binade_ULPs": -25.0
+      },
+      {
+        "node": 88,
+        "component": 11,
+        "before": -932.0842000789937,
+        "after": -932.0842000789909,
+        "signedStep": 2.8421709430404007e-12,
+        "originalFlow": -932.0842000789909,
+        "currentFlow": -932.0842000789909,
+        "remainingToCurrentFlow": 0,
+        "currentFlowInputWasOriginal": true,
+        "step_in_original_binade_ULPs": 25.0
+      }
+    ],
+    "actual_changed_coordinates": [
+      "86:8",
+      "87:11",
+      "88:11"
+    ],
+    "fresh_original_flows": 3,
+    "reused_original_flows": 1,
+    "complete_affected_row_peaks": [
+      {
+        "stage": 88,
+        "norm": 2.892062488632726e-10,
+        "minA": 0.9976786832914537,
+        "minD": 0.999970187193781,
+        "originalSavedFlowReused": true,
+        "inputNode": 89,
+        "peak_component": 8,
+        "peak_physical_mode": 3,
+        "peak_kind": "momentum",
+        "peak_signed_residual": -2.2737367544323206e-13
+      },
+      {
+        "stage": 87,
+        "norm": 1.514986192455744e-09,
+        "minA": 0.9939407606349875,
+        "minD": 0.9999692929779636,
+        "originalSavedFlowReused": false,
+        "inputNode": 88,
+        "peak_component": 12,
+        "peak_physical_mode": 15,
+        "peak_kind": "momentum",
+        "peak_signed_residual": 5.684341886080801e-13
+      },
+      {
+        "stage": 86,
+        "norm": 2.1638352190704663e-07,
+        "minA": 0.9824832137975359,
+        "minD": 0.9999651773994767,
+        "originalSavedFlowReused": false,
+        "inputNode": 87,
+        "peak_component": 11,
+        "peak_physical_mode": 12,
+        "peak_kind": "momentum",
+        "peak_signed_residual": 6.707523425575346e-12
+      },
+      {
+        "stage": 85,
+        "norm": 6.111109439127407e-10,
+        "minA": 0.9679573272687441,
+        "minD": 0.9999645282668292,
+        "originalSavedFlowReused": false,
+        "inputNode": 86,
+        "peak_component": 8,
+        "peak_physical_mode": 3,
+        "peak_kind": "momentum",
+        "peak_signed_residual": 2.2737367544323206e-13
+      }
+    ],
+    "locality_upper_bound": 2.1638352190704663e-07,
+    "locality_bound_viable": false,
+    "locality_bound_below_original_gate": false,
+    "original_gate": 2e-09,
+    "passes": 1,
+    "full_candidate_replay_invoked": false
+  },
+  "original_native": {
+    "invoked": false,
+    "calls": 0,
+    "reason": "The only declared reverse-flow candidate increased the complete locality upper bound; do not submit it or add another pass/coordinate."
+  },
+  "execution": [
+    {
+      "session": 1844,
+      "launch_chunk": "39211e",
+      "terminal_chunk": "f6aa72",
+      "observed_utc": "2026-11-18T05:01:41Z",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "seconds": 30.047541534004267,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-failed-fullrows-v1/resource.json",
+        "sha256": "8f3aee94c3b974a40b5a7a981a1b34b17a062bb610845fa6b67edbf167a6cae7"
+      },
+      "launch": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-failed-fullrows-v1/launch-command.json",
+        "sha256": "767bf7edb0633d292704b0952544e8446970521cd36a5c5b062c27e4c070b445"
+      },
+      "command": [
+        "node",
+        "--max-old-space-size=3072",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/retain_actual_tail_residual_rows.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-failed-fullrows-v1/rows.json"
+      ]
+    },
+    {
+      "session": 2756,
+      "launch_chunk": "f255e0",
+      "terminal_chunk": "f4501d",
+      "observed_utc": "2026-11-18T05:06:52Z",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "seconds": 14.008295423998788,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-reverse-flow-v1/resource.json",
+        "sha256": "1e457407e283b1cd141108689b84d94227581d16232baf7f9bd85b730db66bd0"
+      },
+      "launch": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-reverse-flow-v1/launch-command.json",
+        "sha256": "fbb8a7107524e4b124c09f2acb0a2605ada13a40252a9f7be26892500e0da995"
+      },
+      "command": [
+        "node",
+        "--max-old-space-size=3072",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/propose_complete_row_reverse_flow.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-failed-fullrows-v1/rows.json",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-reverse-flow-v1/candidate.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-reverse-flow-v1/candidate-summary.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "The highest changed stage 88 reuses its already computed full original flow because its entire input at node 89 is unchanged. Each of the other three affected rows is evaluated once by the original full-Jac flow and actual port conversion.",
+    "Only three originally over-gate internal momenta change. H, physical/numerical config, cut and deep rows, all other state components and every original final gate are unchanged.",
+    "The new stage-86 mode-12 residual is an observed consequence of this candidate. No second pass, coordinate expansion, original DN, prefix BVP or metric/mean audit follows from this rejected candidate.",
+    "A separate initial-guess policy may use the last actual accepted complete tail, without treating this rejected candidate as accepted or repeating its inner solution."
+  ]
+}

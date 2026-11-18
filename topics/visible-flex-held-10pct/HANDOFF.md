@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`38fb0982f7c796f8a651e6e3fc95f109f3417db6`。2026-11-18 13:07:05（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`c2a8abced651519e87a6b7c20ae03892360ef5d8`。2026-11-18 13:16:50（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -56,7 +56,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **R47固定槽** 在M8后附B7/B8等，保T/U槽7/8；全λ线性无关/有限M Gram定性正。补零保持定义核；partial入口差仍为(1−λ)qg(新旧投影差)，非全图身份。见R47。R48给同Γ/chart/gauge下ZN=E ZM+λaχ(IN−E IM)的精确连续表示补偿；λ1同时保新标准入口，非浮点/新quintic/mean积分身份。
 
-**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16完整有限metric依次1.97867e−6/8.06928e−6/3.32953e−5/1.38378e−4，均未最终门。λ.32完整CP4794434a…：517点/2mesh、BC4.99019e−10、真实节点/物理尾与原seam都过，metric5.308744203e−4/Darboux.41400549；新seam原失败经af65保内部后原门接受cd1f6d…，52460只补seam、旧audit保留。λ.64原98842内解518点/2mesh/11全步、RMS9.88665e−7已过；新H尾迭4失败3.66751732e−9（753aa9…），保raw8cf33…按实际完整行恢复。独立endpoint读器已备；后续47993(v2)观察源只用于尚未执行audit，不重旧积分/内解/metric。中间短缺不作新阻断，最终闭合/固定g收敛未付。
+**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16均已完整有限接受但metric未门；λ.32完整CP4794434a…：BC4.99019e−10，metric5.308744203e−4/Darboux.41400549，真实seam cd1f6d…及52460完成，旧audit保留。λ.64原98842内解518点/2mesh/11全步、RMS9.88665e−7已过，保raw8cf33…；新H原尾753aa9…失败3.66751732e−9。1844完整行仅86/c8、87/c11、88/c11超门（1/4/25ULP）；2756唯一反向局部候选反增至2.16384e−7，已弃且0原DN。当前63447另用λ.32真尾内部、只编码λ.64新H作原af65初值，初norm8.72235e−5，原求解继续，不重inner。独立endpoint读器/v2观察源只用于未来真实audit，不重旧积分/metric。中间短缺不作新阻断，最终闭合/固定全参数收敛未付。
 
 ## 3. 全闭表示与严格连续metric
 
@@ -70,4 +70,4 @@ R39→R31完整主部Fraction编译已核11span六jet共198恒等式及中心105
 
 R12/14/15/16/17/18/20/22/25/26及m2 R11/R13已登记，详见对应notes/results。第三物理核与m2实际尾仍未付；旧m2循环根/n4第三核有限搜索不重跑，均非全不存在证明。
 
-m3_true_coupling推进λ1实际联合，n4_round_core推进新b16实际尾；closed_geometry处理q060及独审，root核对并逐条发布。源树`/workspace/scratch/7322d0dee069/math-research-public`，发布树`/workspace/scratch/7322d0dee069/publication`。按open接着做，不以阶段报告、时间或等待回复收尾。
+m3_true_coupling推进λ1实际联合/高M真尾，n4_round_core推进新b16真联合；closed_geometry处理原返回点恢复及R47/R48高M model/转移，root核对并逐条发布。源树`/workspace/scratch/7322d0dee069/math-research-public`，发布树`/workspace/scratch/7322d0dee069/publication`。按open接着做，不以阶段报告、时间或等待回复收尾。
