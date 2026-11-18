@@ -1,0 +1,73 @@
+{
+  "scope": "Source preparation for one necessary genuine-endpoint high-mode initializer assembly inside its future actual coupled run. No model/core/flow/projection/initializer/mean/metric/DN/BVP was executed by this preparation.",
+  "assembly_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r48_endpoint_initial_arrays.py",
+    "sha256": "96ee539a9319063ebf0bfb9024cc832bd73071f663fd10e408e14632bc0efeb9"
+  },
+  "dependencies": {
+    "r47_endpoint_refinement_model.py": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r47_endpoint_refinement_model.py",
+      "sha256": "d533b93dc78b1eed7656527aa8ac689772f9a4903e441cd5f49e51d2ef16b7b6"
+    },
+    "r48_reference_state_transfer.py": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r48_reference_state_transfer.py",
+      "sha256": "fe7decedceb9b20d9fa70715a40494b24670f40dd28a4c88fc80033d7a14610a"
+    },
+    "m3_trace_path_endpoint.py": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_endpoint.py",
+      "sha256": "e5ef9f62349e318fef3f844d603f6dc39a047107c3fff6ec4f3449a4367cd407"
+    }
+  },
+  "mathematical_references": {
+    "R48-exact-reference-compensation-for-mode-extension.md": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R48-exact-reference-compensation-for-mode-extension.md",
+      "sha256": "aeeba196670c81f7f22554af827e44658cb23aa59d50df0afe66889244faed49"
+    },
+    "R49-frenet-mean-invariance-under-exact-reference-transfer.md": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R49-frenet-mean-invariance-under-exact-reference-transfer.md",
+      "sha256": "a78ac053c709b2d0bb76dbd015fede063e65093fa088f7967e943648b6d213e6"
+    },
+    "R47-fixed-slot-nested-circle-homotopy.md": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R47-fixed-slot-nested-circle-homotopy.md",
+      "sha256": "81c57c7280beae499fbdcd1a61030561cf3e4be2acf6bdfcac510a91b68d951b"
+    }
+  },
+  "AST_parse": true,
+  "imports_or_numerical_calls": 0,
+  "API": "assemble(endpoint_binding, modes, angular, linear_port_path); returned.write(scratch_directory)",
+  "returned_objects": [
+    "environment",
+    "model",
+    "obj property",
+    "transfer",
+    "x",
+    "s",
+    "y",
+    "p",
+    "H",
+    "inlet",
+    "descriptor"
+  ],
+  "source_operations": [
+    "Explicit complete lambda=1 physical binding, then one original new-model initial(p).",
+    "Map source physical knots with the original new inverse_chart, then evaluate the transferred field at the actual forward chart points.",
+    "Copy the exact old control parameters/scales and append zero via the R47 factory; do not apply an amplitude-power restart.",
+    "Return complete new-dimensional H, checking only literal old physical cut preservation and appended zero Dirichlet entries.",
+    "Save the constructed arrays and compact identity record once, without a second constructor or residual audit."
+  ],
+  "not_supplied": [
+    "No padded old DN state, height Jacobian, momentum, acceptance or audit.",
+    "No inlet repair, new physical quintic, copied mean, new mean quadrature or metric audit.",
+    "No fixed-all-physical-parameter refinement claim: original fixed=True p0 and controls remain free.",
+    "No claim that cross-mode floating core evaluation makes the complete initial maps bit-identical."
+  ],
+  "actual_primary_formula": "seed_support_amplitude * exp(p0)",
+  "source_preparation_only": true,
+  "observed_preparation": {
+    "tool_chunk_id": "f5eecd",
+    "exit_code": 0,
+    "AST_parse": true,
+    "model_imports": 0,
+    "numerical_calls": 0
+  }
+}

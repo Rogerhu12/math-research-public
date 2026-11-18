@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`ed0031a20765b2ee3aabf3ef7e5a28ef68e21240`。2026-11-18 13:49:04（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`97da2bfe7e99bd8a863fa29e69dfb49d4abe2753`。2026-11-18 13:51:10（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -50,7 +50,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060→R44旧直接入口** λ1/M8的12897域失败、五点82557 maxnodes/RMS1.38606，失败CP已完整存但无新tail/metric；参数FD87257未发现明确导数bug，不证完整BVP条件。见q060-trace-coupled/Lobatto及parameter-jacobian-terminal，不重跑。
 
-**R47/R48/R49升模** T/U固定槽，附B7等；补零保定义核，partial入口仍有投影差。R48以ZN=E ZM+λaχ(IN−E IM)保完整连续表示；R49由无均值场同一推出同正Frenet速度、uniformψ均值与同初值真原函数相同，非循环假设；同节点精确求积相同不证跨M浮点/新quintic。d533b9/fe7dec高层接口已备：真端点、完整新维port、physicalPP三块两jet/新chart、旧δ重基一次。p0和c仍自由，非全参数固定精化；实际新mean/audit/尾仍须执行。
+**R47/R48/R49升模** T/U固定槽，附B7等；补零保定义核，partial入口仍有投影差。R48以ZN=E ZM+λaχ(IN−E IM)保完整连续表示；R49由无均值场同一推出同正Frenet速度、uniformψ均值与同初值真原函数相同，非循环假设；同节点精确求积相同不证跨M浮点/新quintic。d533b9/fe7dec/96ee接口source已备：真端点/完整新port/PP三块两jet、旧δ重基一次；新inverse→forward实际s取初值，无另跑RMS/mean。p0和c仍自由，非全参数固定精化；实际新mean/audit/尾仍须执行。
 
 **R45新路径** 同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16/.32完整锚metric未门。λ.64原inner8cf33…518点/11全步/RMS9.88665e−7已过；V8近尾753aa9失败，2756局部候选与63447保旧内部失败均存、不续。n3 double/V854输出/130176事件同；首生产批1152原初态逐位保留，已存三段.05/.1 state/J同，不证全尾/连续等价。v1/v2缺输入均ready前0DN；v3 abb2a补齐9资源。92035两全步真接受7682be/9.168793301e−10/208J+audit，原门不变。46055真0、0新inner，BC2.34224e−10；CPf55b4f/metric8.726888546e−4、Darboux.55170547；另H真seam607407/mean2差8.881645419e−4，未最终门。38274/018df已literalλ1，原7p/gauge/warp/门保持、47993只读必需audit；第三网格4212点仍运行。6d09严格native端点pending源已备、不重inner；非闭合/全参数固定收敛。
 
