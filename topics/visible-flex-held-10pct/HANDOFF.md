@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`47946b2c30a76157585648f381e815c59098ac9c`。2026-11-18 10:02:27（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`2813f5c700db1c10f0312cb556192b34aff6d10c`。2026-11-18 10:04:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -50,7 +50,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060原余弦锚** CP4755143b…/1934点已有限真联立接受：RMS9.97758523e−7、BC9.17879e−12、metric3.79125e−8，3尾208Jac及audit接受；mean2/nonmean2 seam6.64415e−11/9.57232e−8未付闭合/连续界。全部7c/δ.06104275721220832/profile/chart/port/尾参数见q060-exact-saved-inner-original-acceptance及reader，不重跑旧恢复。
 
-**q060→R44初猜/联立入口** 原M8/25态/Pold=1；新λ1/a.21/bp.32/bc.4/B2..B6+T/U，唯一q=.05210565550627671。单次probe exit0：t=.04377938/u=−.000173593，原guard lower.4947527924/Frenet.0024858771；271点RMS1.416628747/BC9.183586e−12，完整8H逐位同actual（36f201a1…）。唯一真coupled源1204d93…/plan8b9de60…已冻结双审，正式12897已exit0但内解未返回：原RMS额外Lobatto点Frenet异常，新tail0；必要重建y/p/H同；首同H复用真实208Jac/audit锚，后续新H原native并audit；原8轮/门/pscale/物理导出与全审计保持，每inner即时存全cubic及DN锚。见q060-circle-trace-coupled-entry/initializer-terminal。新p0=0只改δ、q固定；meanheight另付，非固定g精化/圆弧接受/10%。
+**q060→R44实际联立** 新λ1/M8/25态/B2..B6+T/U，q=.05210565550627671；唯一初猜原guard lower.4947527924/Frenet.0024858771、RMS1.416628747，完整8H同actual。源1204d93…/plan8b9de60…的12897已真实exit0（01:58:12Z）：原Newton9accepted/60域拒/4merit/minα1/2048返回，随后SciPy RMS第二额外Lobatto点Frenet margin−1.717530786e−6抛异常，solve_bvp未返回，新tail0/worker0。仅inner00入口25×271与真实DN锚保存；日志只有末p0/p1，无终cubic/完整c/CP/metric，不重跑补造。见q060-circle-trace-coupled-rms-domain-failure。下一单一同原门五点trial域检查+每accepted Newton/返回立即全状态保存，先审源；RMS/merit/Jac/BC/尾门不变、有限5点非连续域证书。固定q、新p0只改δ，非固定g精化/圆弧接受。
 
 ## 3. 全闭表示与严格连续metric
 
