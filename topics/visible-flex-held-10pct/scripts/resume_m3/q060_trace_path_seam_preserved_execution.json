@@ -1,0 +1,149 @@
+{
+  "scope": "Numerical evidence: one true original finite DN acceptance for the rounded physical-quintic seam H, from preserved previously accepted interior states. No prefix solve or complete closed-surface claim.",
+  "execution_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_trace_path_seam_preserved_tail.py",
+    "sha256": "5e12714a8829b7fe4712308b9a35c2abe2a744945a9efa4b79447663e9f011d0"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/launch-plan.json",
+    "sha256": "99b888b421ecaea72dbbafffca9811121ed8d663c62049c3ce03e54edc6b52be"
+  },
+  "verified_execution_source_count": 104,
+  "launch": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-seam-preserved-v1/launch-command.json",
+    "sha256": "66ca6e03832f354302c74c9aa13b7247f0cff83c8fa1b928224a2fbda6ed42e2"
+  },
+  "entry": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-seam-preserved-v1/seed-entry.json",
+    "sha256": "4d256214f81148f7fa1099299438734e294eee939aa8ef685fea7ccc67e8d64d"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-seam-preserved-v1/seed-summary.json",
+    "sha256": "bad5d2fb86d1931b6270a25485738bd156f67256703a07e04c5b201b6d87a6e6"
+  },
+  "resource": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-seam-preserved-v1/resource.json",
+    "sha256": "13898b7b09be7c8278050e4fa227ef6abd84fba1049d5c0f99e87b9689782941"
+  },
+  "accepted_raw_cut_reference": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-native-v1/seed_tail_0001.json.gz",
+    "sha256": "d65514e198e0882eb45eeb6343ec73849fc966df4df5353c4f7aa8da835fd4db"
+  },
+  "failed_seam_request": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-saved-inner-resume-v1/seed_tail_0001.json.gz",
+    "sha256": "a700519de89761fbbf6d2bdabc57715f74ac603aeb6997ff92e80aa79b3cb844"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-seam-preserved-v1/seed-candidate.json.gz",
+    "sha256": "7ab926b8ace65a910a1ced11cf79bfa9eba699c8dc5b5529c458adb8a7e33ed6"
+  },
+  "original_native_response": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-seam-preserved-v1/seed_tail_0001.json.gz",
+    "sha256": "24dd350f7f0ec440122b369841d2c03cf75e968f3e89a04de1ed44f95d389ffe"
+  },
+  "observer_session": 84464,
+  "observed_launch_chunk": "fa1b43",
+  "observed_terminal_chunk": "382b22",
+  "observer_returncode": 0,
+  "child_returncode": 0,
+  "worker_returncode": 0,
+  "terminal_utc": "2026-11-18T03:47:26Z",
+  "seconds": 42.03960516599909,
+  "initialization_evidence": {
+    "old_H": [
+      -0.00016709731551033027,
+      6.128520978145864e-06,
+      1.087161060379719e-06,
+      5.781188206976297e-10,
+      -5.266481811653339e-09,
+      -1.1270751724175706e-09,
+      5.642930213506106e-11,
+      6.861304863047251e-11
+    ],
+    "new_H": [
+      -0.00016709731551033024,
+      6.128520978145864e-06,
+      1.087161060379719e-06,
+      5.781188206976293e-10,
+      -5.266481811653339e-09,
+      -1.1270751724175706e-09,
+      5.642930213506107e-11,
+      6.861304863047252e-11
+    ],
+    "changed_H_components": [
+      0,
+      3,
+      6,
+      7
+    ],
+    "original_request_predictor_primary_ratio": 0.9999999999999999,
+    "failed_seam_states_differing_from_accepted_reference": 18174,
+    "candidate_state_changes": [
+      {
+        "node": 0,
+        "component": 0,
+        "before": -0.020629298211151885,
+        "after": -0.02062929821115188
+      },
+      {
+        "node": 0,
+        "component": 3,
+        "before": 7.137269391328762e-08,
+        "after": 7.137269391328757e-08
+      },
+      {
+        "node": 0,
+        "component": 6,
+        "before": 6.9665805105013655e-09,
+        "after": 6.966580510501367e-09
+      },
+      {
+        "node": 0,
+        "component": 7,
+        "before": 8.470746744502779e-09,
+        "after": 8.47074674450278e-09
+      }
+    ],
+    "all_internal_deep_states_and_cut_momenta_preserved": true,
+    "candidate_not_preaccepted": true,
+    "reload_arithmetic": {
+      "cut_radius": 0.3,
+      "ratio": 1,
+      "zero_boundary_correction": true,
+      "finite_states_without_negative_zero": true,
+      "original_solver_invoked": false
+    },
+    "configuration_changed_keys": [
+      "initialCheckpoint",
+      "traceFile"
+    ]
+  },
+  "result": {
+    "converged": true,
+    "original_residual": 1.833931450579216e-09,
+    "original_gate": 2e-09,
+    "native_calls": 1,
+    "last_iteration": 0,
+    "history_rows": 1,
+    "finite_jacobian_entries": 208,
+    "audit_returned": true,
+    "state_shape": [
+      1153,
+      16
+    ],
+    "final_states_equal_candidate": true,
+    "minA": 0.5218915666495756,
+    "minD": 0.9991195413189724,
+    "reported_tail_actual_metric": 4.6243953333302557e-08
+  },
+  "scope_boundaries": {
+    "preliminary_full_replay": false,
+    "original_prefix_BVP": false,
+    "new_mean_integration": false,
+    "new_prefix_metric": false,
+    "gate_or_residual_formula_changed": false,
+    "automatic_retry": false,
+    "lambda04_invoked": false,
+    "finite_audit_note": "The original stopping gate passed and its complete finite audit was returned; there is no newly invented Darboux/curvature acceptance test or continuous closed-map certificate."
+  }
+}
