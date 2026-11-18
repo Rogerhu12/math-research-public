@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`e26fc149ace683638a2fd237cc84aa1fe3329daf`。2026-11-18 12:02:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`c7e306d24daf188762c26cd4f3d21453609fcc97`。2026-11-18 12:06:04（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -54,7 +54,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060→R44实际联立** 旧λ1/M8/q=.05210565550627671：12897原RMS域异常无完整末态；五点82557返回status1/maxnodes、2431点/RMS1.386061569，失败C² CP先存后mean-height域异常，新tail0/无metric。见两coupled/Lobatto终态，不重跑。参数诊断87257固定24stencil全原域过，七控制最细逐项归一差3.5922e−8、T非单调、δ原FD，不证完整Jac条件，见q060-trace-parameter-jacobian-terminal。
 
-**R45新路径** 固定M全λ列独立/Gram定性正下界/同步lift已证，非BVP存在；qseed=原binary64(.06)/Pλ，保gauge/warp/7pscale，partial入口不同Γ。λ.02原493点inner、BC和两真实H尾d655/24dd均过；17021无新inner/尾/插值完成原physical CPfd93d3…（coeff fe0fb7…），metric1.978668826e−6仍超门、Darboux.00164858，mean2/nonmean2差−6.97895e−9/1.29165e−7。见complete-physical-audit。λ.04唯一20514继承493点physicalPP/全p，q=.05963857477670898，起H逐位24dd；原inner已成功1mesh/3全步/RMS9.873653e−7，随后新H尾iter2原线搜失败3.6678628847e−9（a94402…），无physicalCP/metric。m3一次全Jac保所有超门行，closed通用raw接续准备；不重inner。通用returned-inner绑定f247ff…已元数据通过，restore另记；base+p0/实际H/完整槽序保持。λ.04完整后再按真状态加大步到λ1，尚无闭合/固定g收敛。
+**R45新路径** 固定M全λ列独立/Gram定性正下界/同步lift已证，非BVP存在；qseed=原binary64(.06)/Pλ，保gauge/warp/7pscale，partial入口不同Γ。λ.02原493点inner、BC和两真实H尾d655/24dd均过；17021无新inner/尾/插值完成原physical CPfd93d3…（coeff fe0fb7…），metric1.978668826e−6仍超门、Darboux.00164858，mean2/nonmean2差−6.97895e−9/1.29165e−7。见complete-physical-audit。λ.04唯一20514继承493点physicalPP/全p，q=.05963857477670898，起H逐位24dd；原inner已成功1mesh/3全步/RMS9.873653e−7，随后新H尾iter2原线搜失败3.6678628847e−9（a94402…），无physicalCP/metric。38300一次全Jac逐位复现，全超门仅86/c8,c11均向+∞1ULP（不套旧方向），其余峰1.83393e−9；联合初值原DN中，closed接原raw，不重inner。通用returned-inner绑定f247ff…已元数据通过，restore另记；base+p0/实际H/完整槽序保持。λ.04完整后再按真状态加大步到λ1，尚无闭合/固定g收敛。
 
 ## 3. 全闭表示与严格连续metric
 
