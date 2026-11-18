@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`319ca1aeeea28a0377bee653d1de12f757483b83`。2026-11-18 11:10:51（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`b1cc7c5ee9862e020f6da5779b86fdbb59294224`。2026-11-18 11:12:13（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -50,7 +50,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060原余弦锚** CP4755143b…/1934点已有限真联立接受：RMS9.97758523e−7、BC9.17879e−12、metric3.79125e−8，3尾208Jac及audit接受；mean2/nonmean2 seam6.64415e−11/9.57232e−8未付闭合/连续界。全部7c/δ.06104275721220832/profile/chart/port/尾参数见q060-exact-saved-inner-original-acceptance及reader，不重跑旧恢复。
 
-**q060→R44实际联立** 新λ1/M8/B2..B6+T/U，q=.05210565550627671；初猜RMS1.41663/8H同actual。12897在原RMS点域异常、无完整末态，见q060-circle-trace-coupled-rms-domain-failure。五点82557真实0：BVP status1/maxnodes、2431点/RMS1.386061569；28 raw/p/cubic/DN锚保全，失败C² CP5244dc…先存后mean-height原域异常，新tail0/无全metric。见q060-lobatto-guard-returned-maxnodes，不重跑失败。参数诊断87257真实0（18.02s），固定10点/8物理列/三档24stencil全原域通过，restore initial/fun逐位同、BVP/tail0。七控制最大逐项归一差2.4864e−7→6.2268e−8→3.5922e−8；T非单调且未孤立误差来源，δ原本FD另列，不证末态/完整Jac条件或存在。见q060-trace-parameter-jacobian-terminal。新有限λ路径源准备：保原gauge/warp=.06/7pscale/25态，qseed=.06/Pλ，λ0原cosine无lift、λ1全R44 lift；中间投影入口不同真Γ，mean另构造。首λ=.02模型检查待审，无BVP。
+**q060→R44实际联立** 新λ1/M8/B2..B6+T/U，q=.05210565550627671；初猜RMS1.41663/8H同actual。12897在原RMS点域异常、无完整末态，见q060-circle-trace-coupled-rms-domain-failure。五点82557真实0：BVP status1/maxnodes、2431点/RMS1.386061569；28 raw/p/cubic/DN锚保全，失败C² CP5244dc…先存后mean-height原域异常，新tail0/无全metric。见q060-lobatto-guard-returned-maxnodes，不重跑失败。参数诊断87257真实0（18.02s），固定10点/8物理列/三档24stencil全原域通过，restore initial/fun逐位同、BVP/tail0。七控制最大逐项归一差2.4864e−7→6.2268e−8→3.5922e−8；T非单调且未孤立误差来源，δ原本FD另列，不证末态/完整Jac条件或存在。见q060-trace-parameter-jacobian-terminal。新有限λ路径五源与plan945259…已读并登记：保原gauge/warp=.06/7pscale/25态，qseed=原binary64(.06)/Pλ。λ0字面cosine无lift，λ1全R44 lift，中间入口不同真Γ、mean另付；首λ=.02/q=.059818741459951905唯一模型检查启动，未BVP，见q060-finite-trace-path-entry-plan。
 
 ## 3. 全闭表示与严格连续metric
 
