@@ -1,0 +1,308 @@
+{
+  "scope": "Freeze completed prefix evidence of the running original native DN.\n\nOnly complete immutable batch records and copied log prefixes are bound.\nThis script does not evaluate a model or relabel an in-progress solve as\naccepted. The separate final terminal must still pay original Jac/audit.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_DN_entry.py",
+    "sha256": "9fe040ab0209fe7c1de85efd9d716c0b2132930e5537d260a669fd8fec269bc4"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_DN_entry.py",
+    "--workspace",
+    "/workspace/scratch/7322d0dee069",
+    "--out",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_original_DN_entry.json"
+  ],
+  "collected_utc": "2026-11-18T03:49:20.225361+00:00",
+  "files": {
+    "source": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/continue_native_tail_checkpoint.py",
+      "sha256": "117b0a6db1473fcd712120354194093581e3733254140313c44aec33d9724648"
+    },
+    "manifest": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/manifest.json",
+      "sha256": "3e618b4a44c2292a1d12612ceb3a6f82693e703a32b152fa5a42097cb6d877d2"
+    },
+    "entry_plan": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/plan.json",
+      "sha256": "a466fa5c14e2c956f9ede00c3259b4551ef7935efdb9f7912e2d6bc71af5eba5"
+    },
+    "entry_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-summary.json",
+      "sha256": "9bd2f30ae837637daaf6d8cf61be9258a77e61782f63d221050a85fa6aeca63c"
+    },
+    "entry_resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-resource.json",
+      "sha256": "9ca2f3ebed73000fdfbb198911a8a5780c257fca2f0623dab209cf84e1286659"
+    },
+    "input_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "config": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/config.json",
+      "sha256": "914e0fb77749bfb74b6ff2b07f4790a75097efbcaf5eae023401efd9b175da71"
+    },
+    "client": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-batch-source-v1/scripts/950f-tail-client-v3.py",
+      "sha256": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b"
+    },
+    "worker": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-batch-source-v1/scripts/950f-tail-stage-port-v3.mjs",
+      "sha256": "3481fb6fae3fa27432f829c7a200c938832838d674a077314b39ae2cf7a5010b"
+    },
+    "sparse_helper": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    },
+    "python": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+    }
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/plan.json",
+    "sha256": "7aadf15137197d201eb2e94a5344f201951675a1a159e554da12173cc09a3f1c"
+  },
+  "worker_ready": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/worker-ready.json",
+    "sha256": "3b1572e3d0621042038c7bfec2f313d952fa6ee3889257d7790b4b41ac81950a"
+  },
+  "trace_prefix": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/entry-trace-prefix.jsonl",
+    "sha256": "4ed5d93caadec225fac2fb24b7126849967f1566edc3e3195c0c6af5f2caaa08"
+  },
+  "native_events_prefix": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/entry-native-events-prefix.jsonl",
+    "sha256": "b9069947e404e4dc0d9a27780c36d22823a4317c6e01fc3d5dbac3a78038260e"
+  },
+  "resource_observation": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/entry-resource-observation.json",
+    "sha256": "67493ea8fde7fd9d017f8fbb15821bc32641cb17a6692406dcf326cde263100b"
+  },
+  "actual_observer_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+    "--log",
+    "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/process.log",
+    "--out",
+    "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/resource.json",
+    "--",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/continue_native_tail_checkpoint.py",
+    "run",
+    "--plan",
+    "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/plan.json"
+  ],
+  "observer_session": 35038,
+  "original_config_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "same_H_sha256": "411ec0ff8775c34ce1106b1afa72ded610646a54384bb05dbb71afbbfd0ff70a",
+  "same_original_complete_state_sha256": "c992f608cd4687a625ad1c664233a8cdb4a93d1dfdf75272d1ac1225d3feac29",
+  "first_payload_byte_equal_to_successful_entry": true,
+  "first_payload": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0001-jac-input.bin",
+    "sha256": "bd9b1121152881c0ece0d4e28de2a9c660cca3b53fe32f14d3a58439c46abb1e"
+  },
+  "original_entry_payload": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-input.bin",
+    "sha256": "bd9b1121152881c0ece0d4e28de2a9c660cca3b53fe32f14d3a58439c46abb1e"
+  },
+  "original_ready_physical_and_numerical_parameters_equal": true,
+  "ready_parameter_identity_excludes_only_declared_runtime_paths": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "prior_collector_only_path_check_failure": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/collector-entry-first-failure.json",
+    "sha256": "0649ceb426c9c0ff515703c000ee04472d60f896d1944172b662e6adedb1a5c0"
+  },
+  "prior_collector_source": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/record_native_DN_entry_v0_failed.py",
+    "sha256": "1306ebc1c4362a9e66a183d068e2f7028d56a67d94e476f6b2c06cb3c743be6e"
+  },
+  "observed_unique_request_count": 1,
+  "jacobian_requested": true,
+  "audit_requested": true,
+  "numerical_options": {
+    "modes": 20,
+    "spacing": 4,
+    "quadrature": 512,
+    "depth": 8,
+    "shootingParts": 32,
+    "steps": 16,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "solveTolerance": 2e-09,
+    "maxIterations": 36,
+    "auditSteps": 32,
+    "cuspAwareFlow": true
+  },
+  "projectionFloor": 0.05,
+  "completed_evaluate_prefix": [
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0001-jac-record.json",
+        "sha256": "82d86b20e77c32913b1d181685cb38e1ac3248fa9001a81816170cfe8be09691"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0001-jac-input.bin",
+        "sha256": "bd9b1121152881c0ece0d4e28de2a9c660cca3b53fe32f14d3a58439c46abb1e"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0001-jac-output.bin",
+        "sha256": "79b854b92677ce732e1e2881bf8e3c5c441f797a30b400d468d6dfec378ab430"
+      },
+      "call": 1,
+      "withJac": true,
+      "returncode": 0,
+      "process_wall_seconds": 384.01483256
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0002-state-record.json",
+        "sha256": "3ff7cb97490a73fcd81185e20d428e856c5b8b8a291d5ac07eab61f5af7eb780"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0002-state-input.bin",
+        "sha256": "1c36c92c118bdcfe5ec2046b55a9e48099fa28e1a143dfff52c4164c68cf820b"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0002-state-output.bin",
+        "sha256": "24671a6dea257c5092e04bdf3318235667576033d52aba5f672bc3c6ed661a44"
+      },
+      "call": 2,
+      "withJac": false,
+      "returncode": 0,
+      "process_wall_seconds": 94.92642164699996
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0003-state-record.json",
+        "sha256": "52e03f7fdb8b3cb119734a74ad435513f970eb3c5236bd61365ab08d3d87c254"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0003-state-input.bin",
+        "sha256": "58e70e1a2e580f4c63e2dc0742d89d866e94b65da2fcaa2db6a2c4ddc740a996"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0003-state-output.bin",
+        "sha256": "0a193e4a76fe98edd76dc92e64869bb5d020c6ea1ed5801e63995778e1257bcf"
+      },
+      "call": 3,
+      "withJac": false,
+      "returncode": 0,
+      "process_wall_seconds": 94.04762626099999
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0004-state-record.json",
+        "sha256": "2c137826e0f4a7b0aaff7a35104419bd9d57bcb207fd2e15bdc4f29c3014b59e"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0004-state-input.bin",
+        "sha256": "1b97fd85df14900ba32e39b038cc948a37a4091ac48d1e8a46d11e93ab77660b"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0004-state-output.bin",
+        "sha256": "6bf2688ae95f203462c1a97dec0a8816ff2bbe9dd3ce1feb7f54268d08c4c698"
+      },
+      "call": 4,
+      "withJac": false,
+      "returncode": 0,
+      "process_wall_seconds": 94.968162641
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0005-state-record.json",
+        "sha256": "82f23e27948f4ec2e1320f3f9c315f96c6741681dc20969b4e7665809254e087"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0005-state-input.bin",
+        "sha256": "919b9f2b90528aa337881bc32c90e03d6610efcbee7865df510da556ba2a1265"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0005-state-output.bin",
+        "sha256": "d8532854f9caa8bb509724bc20d98ad37909f4ebc163ab2ec9f0d6c96956b1f1"
+      },
+      "call": 5,
+      "withJac": false,
+      "returncode": 0,
+      "process_wall_seconds": 93.13249491899997
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0006-state-record.json",
+        "sha256": "303eccf41f384db1e09282999f48ac7c493370cd33309e8e0845879d55adb693"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0006-state-input.bin",
+        "sha256": "0a9660eb8c74464c6165ce2a06dffee3b1e656a8fcd820500f49715fa2d30243"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0006-state-output.bin",
+        "sha256": "da5f835f328ab0b209d6a1f8abb1358b171ce9af790a25b49613968a5cf8b7af"
+      },
+      "call": 6,
+      "withJac": false,
+      "returncode": 0,
+      "process_wall_seconds": 93.55172348500008
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0007-state-record.json",
+        "sha256": "daacfad9794f342a21f3f914227e6eb03273a5628c1a3243ffdbb1bd734127f8"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0007-state-input.bin",
+        "sha256": "ddc1c2fc89ced65222ac60107fec1ccef92f995c806ba7d15849bdda4374404c"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0007-state-output.bin",
+        "sha256": "57f28a72a456032676f5c98a99d0b76cdc1c1a5e7ff212b6b7191b94ce4c8e3c"
+      },
+      "call": 7,
+      "withJac": false,
+      "returncode": 0,
+      "process_wall_seconds": 93.57413140700001
+    },
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0008-jac-record.json",
+        "sha256": "1bb6778d101ff87374d89b80ddbdba8198f82db8779e0824a4b2ace8edd8fb0f"
+      },
+      "input": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0008-jac-input.bin",
+        "sha256": "981341e1ea134c9df551c2a4fc742c54dc98c4d44ab03d4a1d9d04bb9c39b2f1"
+      },
+      "output": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0008-jac-output.bin",
+        "sha256": "7b3d1eccda38a9a8f309a9f7eddd4677b7199bacaed468ec8ea8d6cb433f8bba"
+      },
+      "call": 8,
+      "withJac": true,
+      "returncode": 0,
+      "process_wall_seconds": 379.28220645199997
+    }
+  ],
+  "completed_fullJac": 2,
+  "completed_scalar_trials": 6,
+  "accepted_original_line_search_step": 0.03125,
+  "accepted_step_inference": "Original source tries2^(-k), k=0..9. Calls2..7 are the six scalar candidates; call8 is the next fullJac. No other evaluation or manual state operation intervenes.",
+  "next_Jacobian_inputs_equal_accepted_scalar_inputs": true,
+  "initial_original_residual": 1.5211857880292614e-08,
+  "next_original_residual": 5.706851798321002e-09,
+  "next_minA": 0.9807523328210461,
+  "next_minD": 0.9999448760732821,
+  "observed_original_iteration_number": 1,
+  "original_residual_gate": 2e-09,
+  "current_record_claims_final_acceptance": false,
+  "original_cutJets_audit_terminal_not_yet_claimed": true,
+  "continuation_scope": "Same recorded .5H target only. No fullH, prefix match, exact arc or closed-family conclusion.",
+  "no_new_flow_by_collector": true,
+  "live_scope": "The resource file is copied as an observation of the running command, not assigned a final-process identity. Later terminal is separate."
+}

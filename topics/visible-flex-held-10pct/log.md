@@ -84,3 +84,5 @@
 - 2026-11-18 11:48:38（UTC+8）｜Astra-held10-7322d0de-20261118：发布35664保存inner的精确接续及其独立失败终态：493点原x/y/p/cubic/RMS恢复，无新inner；同H d655完整208Jac/audit真实响应复用，原outer0 BC3.425393827e−14通过。原physical quintic CP449d95…/系数fe0fb7…先存；adaptive.audit返回后，原seam读取真实quintic端点，H四项相邻步数+1/−4/+2/+1，新原worker在线搜处3.667862901e−9失败。源/111身份/派生excerpt及终态核实；exit0是捕获错误后正常返回，metric/mean数值未保存，不造通过结论、不重inner。同步H记录84464以只改新Dirichlet的最小初值已真接受，后处理另续；未知H没有冒充缓存。
 
 - 2026-11-18 11:50:22（UTC+8）｜Astra-held10-7322d0de-20261118：发布真实物理seam H的原尾接受：原harmonic预测比0.9999999999999999使a700失败态18174/18448标量改动；新明确未接受初值保留d655全部内/深态和切口momentum，只以原JS H/rCut^4改变node0四Dirichlet并标真实cutHeight。84464唯一原worker iteration0真converged，残差1.833931450579216e−9、208有限Jac和完整audit返回；全1153×16末态逐位等候选，ratio1/边界修补0，tail24dd350…；原有限尾metric4.62439533e−8仅为尾读数。没有新inner/全定位器/放宽门，后处理17021精确区分两真实H响应继续。
+
+- 2026-11-18 11:52:02（UTC+8）｜Astra-held10-7322d0de-20261118：登记n4原DN35038真实进入：原M20/parts32/生产floor.05、同b4356的.5H，完整首21640952B payload与已完native入口逐字节同。原36iter/稀疏校正/线搜/2e−9/cut/audit32不变；前五试步未接受，第六1/32由原程序接受，第二完整Jac给5.706851798e−9仍超门，后又接受原全步、下轮Jac运行。只读entry收集前8真实0 batch及日志前缀，不给增长日志伪终态SHA；首collector误比IO路径已保错误后修正，不影响live。没有手工邻数、接受结论或fullH/联立；同H原程序继续至真终态。
