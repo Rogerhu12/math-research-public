@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`f90bbc2df2f10b1a4111da08b5ce2c44b6de7e8d`。2026-11-18 09:02:19（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`ed6bad381efbb7b27e0ae53120296c437bbc56b1`。2026-11-18 09:10:46（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20**：全19c/free c8有限前缀metric8.91017947e−7仍linear DN/非精化。真尾.2H/.5H parts16、parts32及175/c20单邻数后的原DN均失败；最新b4356…/65373为7.42928942e−9，无返回Jac/audit/接受尾/fullH/prefix。原全replay同，六超门stage37–40/43–44，主峰43/m76=+18ULP且单ULP/scale<门，非精度下界；见n4-primary-width-b016-m20及parts32相关notes。原非线性flow为binary64，旧longdouble只改线性修正。27233与60547三stage43/38/175的3×42 baseline均逐字节同：仅Neumaier四项和不改原峰；仅Kahan最终state累加使最大值为2.06369e−9/5.21588e−9/1.52119e−8，前两仍超门、175变坏，不安装。见n4-three-stage-rk-sum-compensation/n4-three-stage-state-carry-compensation。下一固定离散系数的独立高精度读数，先核float原流程字节/判断身份；无真ODE界，不叠patch/重旧候选/盲升parts。
+**新主b=.16/λ=.02/M20**：全19c/free c8有限前缀metric8.91017947e−7仍linear DN/非精化。真尾.2H/.5H parts16、parts32及175/c20单邻数后的原DN均失败；最新b4356…/65373为7.42928942e−9，无返回Jac/audit/接受尾/fullH/prefix。原全replay同，六超门stage37–40/43–44，主峰43/m76=+18ULP且单ULP/scale<门，非精度下界；见n4-primary-width-b016-m20及parts32相关notes。原非线性flow为binary64，旧longdouble只改线性修正。27233与60547三stage43/38/175的3×42 baseline均逐字节同：仅Neumaier四项和不改原峰；仅Kahan最终state累加使最大值为2.06369e−9/5.21588e−9/1.52119e−8，前两仍超门、175变坏，不安装。见n4-three-stage-rk-sum-compensation/n4-three-stage-state-carry-compensation。独立冻结系数evaluator的126输出/116608记录事件与原float逐位同，见n4-frozen-flow-float-baseline；同源60/90位独立档进行中，非真ODE界，不叠patch/盲升parts。
 
 旧b.08 raw λ.02 M16→M20 metric2.41705e−6→3.43423e−6；M24触6000门/RMS.0032079，无完整metric，不盲升M28。cond1/H²白化及全核/低通法向图无有效收益，保现图。主b.16改善二阶谱支持新设计；见raw-lambda002-fixed-m24-terminal、primary-width及normal-angle-chart相关notes。有限FFT非连续证书。
 
