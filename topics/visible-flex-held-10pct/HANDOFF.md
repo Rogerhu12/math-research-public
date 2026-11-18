@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`3cddd6cc7fafb1589a525005613e1eba56268bda`。2026-11-18 12:43:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`10c79c64dcd649b7cd67f6952dc82ddbd93cbcff`。2026-11-18 12:44:21（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -56,7 +56,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **R47固定槽** 在M8后附B7/B8等，保T/U槽7/8；全λ线性无关/有限M Gram定性正。补零保持定义核；partial入口差仍为(1−λ)qg(新旧投影差)，非全图身份。见R47。
 
-**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08完整有限联立/物理后处理已过，metric依次1.978668826e−6/8.069276023e−6/3.329530743e−5，未最终门。λ.08 CPf4abaf…原493点/1mesh/3全步；λ.16原494点/2mesh/5全步与节点真尾均过，原seam失败另由保内部新H原门真接受1470c2…；81455只补原seam、0新inner/prefixaudit/worker，完整CP770a54…、metric1.383776310e−4。λ.32已实际7336，qseed.05722558496396052；继承全物理p/PP，不因中间metric新增阻断。原raw与quintic/H身份分开，已完成inner/audit不重做。按稳定真状态推进λ1；尚无闭合或固定g收敛。
+**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08完整有限联立/物理后处理已过，metric依次1.978668826e−6/8.069276023e−6/3.329530743e−5，未最终门。λ.08 CPf4abaf…原493点/1mesh/3全步；λ.16原494点/2mesh/5全步与节点真尾均过，原seam失败另由保内部新H原门真接受1470c2…；81455只补原seam、0新inner/prefixaudit/worker，完整CP770a54…、metric1.383776310e−4。λ.32原7336内解517点/2mesh/6接受步、RMS9.8804877e−7；新H尾迭3失败3.667837242e−9，CP5177e5…；完整行定位后仅针对实差集续接，不重内解。原raw与quintic/H身份分开，已完成inner/audit不重做。按稳定真状态推进λ1；尚无闭合或固定g收敛。
 
 ## 3. 全闭表示与严格连续metric
 

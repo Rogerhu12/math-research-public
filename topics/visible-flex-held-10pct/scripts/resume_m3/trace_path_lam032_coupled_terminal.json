@@ -1,0 +1,180 @@
+{
+  "scope": "Collect a finished path-run record without importing any numerical model.\n\nOriginal process exit, inner acceptance, actual-tail acceptance and complete\nphysical audit are separate fields. Large raw arrays remain in scratch; this\ncollector hashes them and emits only necessary parameters and terminal scalars.\n",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_trace_path_coupled_terminal.py",
+    "sha256": "02d2f3144ed802aa8bba7a3f74a90854c0cbd692fdffb70f1bf8b0b0f78c1362"
+  },
+  "run_directory": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1",
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/launch-plan.json",
+    "sha256": "9add2c9d18ad506096e8bb640e64260ed4e66fc63c277ced2e13b7fc570d53cf"
+  },
+  "preparation_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/continuation-plan.json",
+    "sha256": "36655808071ddf56a3dfd51cc98bd0572c3af0845b68db528ecb9dbb25c15bbc"
+  },
+  "resource": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/resource.json",
+    "sha256": "f9a3be5644c3901f681d1b1cceb4bcf6c3124094165d4bc33c7d332ade838948"
+  },
+  "runner_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/runner-terminal.json",
+    "sha256": "3fc3d8f13ec5351d04b7d031bfb152b71dedc9341582e9b1234ffef84bad5306"
+  },
+  "original_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/seed-summary.json",
+    "sha256": "0ba2b8ddec7ef312115688c18a546316e8c9299e343181390425d8f3921f1074"
+  },
+  "complete_input_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/terminal-input-manifest.json",
+    "sha256": "1de7e5520a3aa6432c5c2b8e00200afe0aa5d970699a3123076e4ef7ffd3200d"
+  },
+  "command_file": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/launch-command.json",
+    "sha256": "53e1a85a01e71aaa7c0506e70d0b18e24a1d812aae42f8a59683bd375d3d3112"
+  },
+  "original_execution_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_continuation.py",
+    "sha256": "4e8e4548536a0f0091910180247c1240ab49d045acbdf08a892f2809993eac57"
+  },
+  "observed_session": 7336,
+  "observed_launch_chunk": "398386",
+  "observed_terminal_chunk": "045d59",
+  "observed_utc": "2026-11-18T04:40:28Z",
+  "child_returncode": 0,
+  "worker_returncode": 0,
+  "seconds": 238.3292566300006,
+  "lambda_value": 0.32,
+  "support_q": 0.05722558496396052,
+  "q_gauge": 0.06,
+  "base_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275721220832,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "original_main_returned": true,
+  "original_solver_success": false,
+  "error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 3.667837241951283e-9', 'residual': None, 'lastIteration': {'iteration': 3, 'norm': 3.667837241951283e-09, 'minA': 0.5218840911834862, 'minD': 0.9991191544931648, 'chartCondition': None}}\")",
+  "raw_inner_calls": 1,
+  "actual_tail_calls": 1,
+  "verified_source_count": 121,
+  "raw_snapshot_count": 14,
+  "raw_sidecar_count": 14,
+  "original_newton_stats": {
+    "calls": 2,
+    "rejected_domain_trials": 0,
+    "rejected_merit_trials": 1,
+    "accepted_steps": 6,
+    "no_step": 0,
+    "minimum_alpha": 0.5
+  },
+  "returned_inner": [
+    {
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/inner-00-returned.json.gz",
+        "sha256": "71a9f0a62945c67576fe55185f40387ac161fd7c606fa9640a523e58e58474f1"
+      },
+      "sidecar": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/inner-00-returned-dn-anchor.json",
+        "sha256": "865b218cc650d0aa2ad91a057c45f1d67a6188234748dd29223eb1d30aacbc72"
+      },
+      "solver_success": true,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 517,
+      "mesh_iterations": 2,
+      "maximum_rms": 9.88048770323324e-07,
+      "full_parameters": [
+        -1.2857435521750259e-06,
+        0.17563988735025285,
+        0.5412541786126949,
+        -10.332679589783966,
+        64.93047407138701,
+        241.42988398763657,
+        -9121.19532381326,
+        47125.323095991705
+      ],
+      "parameter_scales": [
+        0.0036,
+        0.00021599999999999996,
+        1.2959999999999998e-05,
+        7.775999999999999e-07,
+        4.665599999999999e-08,
+        2.7993599999999993e-09,
+        1e-09
+      ],
+      "physical_controls": [
+        0.0006323035944609103,
+        0.00011691090258034207,
+        -0.0001339115274836002,
+        5.048993663791053e-05,
+        1.1264152667327169e-05,
+        -2.553350934166988e-05,
+        4.712532309599171e-05
+      ],
+      "candidate_H": [
+        -0.00016709848447840324,
+        6.128740012491765e-06,
+        1.0871870472314635e-06,
+        5.732700804022618e-10,
+        -5.239585971556296e-09,
+        -1.1334826355738145e-09,
+        -8.293117914161825e-10,
+        4.85213413736665e-09
+      ],
+      "raw_cubic_shape": [
+        4,
+        516,
+        25
+      ]
+    }
+  ],
+  "actual_tail": [
+    {
+      "record": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/seed_tail_0001.json.gz",
+        "sha256": "5177e5635e424920e7521151342441c6316fe127d66405ddf603a5eb67450813"
+      },
+      "request": {
+        "height": [
+          -0.00016709848447840324,
+          6.128740012491765e-06,
+          1.0871870472314635e-06,
+          5.732700804022618e-10,
+          -5.239585971556296e-09,
+          -1.1334826355738145e-09,
+          -8.293117914161825e-10,
+          4.85213413736665e-09
+        ],
+        "jacobian": true,
+        "audit": true
+      },
+      "original_gate": 2e-09,
+      "converged": false,
+      "residual": null,
+      "failure": "Error: multiple-shooting line search failed at 3.667837241951283e-9",
+      "last_iteration": {
+        "iteration": 3,
+        "norm": 3.667837241951283e-09,
+        "minA": 0.5218840911834862,
+        "minD": 0.9991191544931648,
+        "chartCondition": null
+      },
+      "audit_returned": false,
+      "checkpoint_available": true
+    }
+  ],
+  "physical_terminal": null,
+  "full_prefix_metric_obtained": false,
+  "scope_boundaries": "A zero process exit is not mathematical acceptance. An accepted inner does not imply an accepted changed-H tail or a complete physical audit. No model, flow, BVP, tail, mean or metric is recomputed by this collector."
+}

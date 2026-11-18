@@ -128,3 +128,5 @@
 - 2026-11-18 12:42:48（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.32唯一真实续接7336/398386：同4e8e45源、121来源，从完整CP770a54…/真seam1470c2…保全部物理参数和quintic继续，qseed .05722558496396052。未升M/扫描步长/重初始RMS/复制旧mean。当前517点2mesh原内解已过，真实新H尾继续；此条仅完整入口身份，不预认终态。
 
 - 2026-11-18 12:43:54（UTC+8）｜Astra-held10-7322d0de-20261118：发布96568原raw fullH实际入口：原00b633…coupler/73旧前缀源不变，--scales 1由明确未接受ebae719…初值求全20H bd560b…。新1661d9…并行入口首全Jac四子进程真0，实际payload5ceab5…与旧bd9b11…不同；21640952B共同静态模板含774144B零态占位，不能混作态身份。原warmup jac=false/audit=true与Newton内部全Jac、后续heightJetJac要求分开；入口collector纯现有字节/日志前缀，未重模型/flow。当前原iter4 norm1.617754737e−9已在门内但audit中，尚不预认完整coupled。
+
+- 2026-11-18 12:44:21（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.32原7336真实失败终态045d59/04:40:28Z：内解517点/2mesh/6接受步，唯一merit拒、最低α.5、零域拒；RMS9.880487703e−7。新H原尾迭3线搜失败3.66783724195e−9，完整失败CP5177e5…、原raw71a9f0…/side865b21…全保留，无physicalCP/metric。collector0a46d0纯读121源/14原快照/原cubic/fullp；进程0与数学失败分开，后续仅本次完整行定位及原门，不重inner。
