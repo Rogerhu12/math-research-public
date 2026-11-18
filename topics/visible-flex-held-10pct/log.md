@@ -148,3 +148,5 @@
 - 2026-11-18 12:58:44（UTC+8）｜Astra-held10-7322d0de-20261118：发布52460/c1582d λ.32完整finite seam（04:55:30Z真0）：原fff945只做1次seam/1次真cd1f6d…响应查询，0新inner/native/prefixaudit/meanprimitive/C2。旧audit09a412…及coeff70cd31…逐字保，完整CP4794434a…/summary9be8be…；mean2差1.206587584e−5、nonmean2 4.569128278e−6，metric5.308744203e−4仍未最终门。123源/collector01f0fc纯读真0；λ.64已用该真实完整状态继续，不停在中间结果。
 
 - 2026-11-18 12:59:14（UTC+8）｜Astra-held10-7322d0de-20261118：发布R47独立低层basis/core源：T/U固定物理槽5/6，j>=9为B(j−2)，canonical只精确排列；支撑/原函数/全参数jets/组合t,u抵消预算同步排列。M8直接旧factory，λ0原cosine，M>8 positive只换basis import及原三项guard替换，floor1e−5/32768不变。73a2b1仅AST/11旧源SHA/可逆文本真0，0import实例/新积分/BVP；高层R48状态/lift/mean与新DN仍待实际入口，未宣称高阶数值接受。
+
+- 2026-11-18 13:03:35（UTC+8）｜Astra-held10-7322d0de-20261118：登记未执行observer v1的具体工程误拒并发布独立v2 47993e…：整模块与函数片段compile对同一属性调用产生不同等价co_code，不能互当身份基准。新版本只从完整绑定源compile取唯一audit CodeType（不exec模块），defaults仍片段；原FFT/观察体/三处数学变换/门逐字保。b36d6d文本AST真0，064627具体代码身份输入安装真0、0模型/数组/FFT/audit；closed5f24d6仅读差异未重复。be48与未执行5a07冻结，λ64原source无影响，实际端点将独立绑定v2。

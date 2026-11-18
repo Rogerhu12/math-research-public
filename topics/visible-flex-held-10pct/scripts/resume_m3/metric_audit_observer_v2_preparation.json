@@ -1,0 +1,47 @@
+{
+  "scope": "Repair only source identity comparison for the future metric observer; no original module, model, FFT or audit execution.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer_v2.py",
+    "sha256": "47993e3856ebc7727b2a8e3bebfd0e9ee50f76a7261fbd3f687247c295bc8520"
+  },
+  "superseded_observer": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer.py",
+    "sha256": "be48ab3f1fb41c0181eb0cc51ce8fac4ea9c8448a56d03e491680e1ece76b887"
+  },
+  "source_preparation": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/metric-audit-observer-preparation-v2.json",
+    "sha256": "d851a0fa26bd166f64dc9ccec83225254793ca043226b3c80fc4e9fa7fd99ec7"
+  },
+  "code_identity_record": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/metric-audit-observer-v2-code-identity.json",
+    "sha256": "288a4507b3df148d39642e1047a0722c1404507b885d75bea6fc95a0dd247ed6"
+  },
+  "original_source": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+    "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+  },
+  "source_and_AST": {
+    "chunk": "b36d6d",
+    "exit_code": 0
+  },
+  "targeted_code_identity": {
+    "chunk": "064627",
+    "exit_code": 0,
+    "installed": true,
+    "original_module_executed": false,
+    "model_imports": 0,
+    "mathematical_calls": 0,
+    "FFT_calls": 0,
+    "audit_calls": 0
+  },
+  "independent_diff_read": {
+    "chunk": "5f24d6",
+    "scope": "Only read the literal differences and existing code identity record; did not repeat install."
+  },
+  "original_observation_and_FFT_body_unchanged": true,
+  "original_gate_unchanged": true,
+  "known_v1_defect": "Whole-module vs isolated-function compilation emits different equivalent global/method call bytecode; v1 strict co_code comparison would reject the original loaded audit.",
+  "correction": "Compile the complete SHA-bound module without executing it, take its unique audit CodeType as the six-field code identity baseline; use the isolated function only for its defaults.",
+  "actual_numerical_run_using_v2": false,
+  "old_version_and_unexecuted_runner_unchanged": true
+}

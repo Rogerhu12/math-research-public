@@ -1,6 +1,6 @@
 # 后续原审计的分量和位置记录
 
-**类别：源码及 AST 准备，尚未执行新 metric。** 现有原审计只保存全局 metric 最大值，未保存达到该值的 E/F/G 分量和径向位置。旧 audit 不为此重跑；新模块只用于后续本来就必须执行的第一次完整 audit。
+**类别：源码及 AST 准备，尚未执行新 metric。** 后续已发现初版安装身份检查的工程误拒；初版保留未执行，实际新入口改用[独立 v2 修正](2026-11-18-m3-audit-observer-whole-module-identity-fix.md)。 现有原审计只保存全局 metric 最大值，未保存达到该值的 E/F/G 分量和径向位置。旧 audit 不为此重跑；新模块只用于后续本来就必须执行的第一次完整 audit。
 
 `scripts/resume_m3/metric_audit_observer.py` 的 SHA-256 为 `be48ab3f1fb41c0181eb0cc51ce8fac4ea9c8448a56d03e491680e1ece76b887`。它严格绑定原 `950f-prefix-adaptive-chart-bvp-v2.py` 的 `958a9e2e…` 字节，从其中单独提取原 `audit` 函数，作三处可逆文字变换；没有改原文件，也没有触碰正在运行的源码。
 
