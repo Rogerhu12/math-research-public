@@ -19,6 +19,40 @@
 
 - [R26：保持中心半径的三谐波最优圆弧平坦化](results/R26-three-harmonic-centred-circle-minimax.md)。已证明唯一minimax及全圆rho/支持函数预算；给a=.147的实际有理系数界。第三物理模未共振，非精确圆弧或闭族。
 
+- [R7　二重对称闭族的固定双帽标记：二阶矩、核心矩及局部几何预算](results/R7-twofold-markers-core-moment-and-geometry.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R8：正曲率完整环带中的圆弧片障碍与退化入口缺口](results/R8-positive-band-circle-obstruction.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R9：保留握持带、耗尽已知圆弧保护窗的 C³ 度量轮廓](results/R9-consumed-circle-window-and-background-curvature.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R10：常斜率平谷上的精确等距锥环带及 A 零穿越](results/R10-exact-cone-annulus-through-zero-A.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R11. 明确 C² 开放前缀的连续几何与嵌入证书](results/R11-continuous-prefix-geometry-and-embedding.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R12. 高度二jet与度量一jet决定完整 Cartesian 接缝](results/R12-height-metric-jets-determine-cartesian-seam.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R13. 允许尾部曲率10的条件闭合窗口：held比例大于10.338%](results/R13-conditional-closed-window-with-curvature-ten.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R14. 闭合转角确定平均斜率，非特征Darboux方程补齐高度二jet](results/R14-mean-slope-from-turning-and-darboux.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R15：反射轴上 A 的几何意义、必要曲率下界与 K=0 切换](results/R15-reflection-axis-curvature-and-flat-switch.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R16. 完整有限Gram可逆图与过零权的谱限制](results/R16-finite-full-gram-charts-and-spectral-limitation.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R17：两重中心对称但无轴反射的核心及精确复矩](results/R17-twofold-nonreflection-core-and-complex-moment.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R18：不含 µ 的完整有限混合 Darboux 系统](results/R18-complete-mu-free-mixed-finite-system.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R19. 偶数对称的精确圆弧换握持、中央柱与四重/二重标记](results/R19-even-circle-cylinder-and-marker-window.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R19A. 更窄的精确圆弧与10.676%条件窗口](results/R19A-narrow-circle-parameter-window.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R20：精确圆弧到单主频的距离及条件切空间障碍](results/R20-exact-circle-primary-distance.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R21. 固定 m3 背景的有限 C² 尾、圆领与平盘](results/R21-finite-c2-tail-collar-and-disk.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R22：双谐波与精确圆弧的距离](results/R22-dual-harmonic-circle-distance.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R23：真实 m3 fixed-M8 状态的公共二阶接缝与整个有限闭图的连续几何](results/R23-shared-jets-closed-c2-geometry.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R31. 原 M16/steps64 实际全闭图的连续同 g 度量界](results/R31-continuous-metric-of-the-actual-closed-m16-map.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R32. 三重局域圆弧、完整补弧控制与 10.451% 条件闭族窗口](results/R32-m3-large-circle-control-and-marker-window.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R33：保护圆弧与冻结低矩的无限维曲率能量下界](results/R33-protected-arc-low-moment-curvature-obstruction.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R34：旧七个低矩冻结时，完全圆化的 rho 必有负值](results/R34-frozen-low-moments-force-negative-circle-rho.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R35. raw 圆化同伦在支撑端点才失去完整控制空间](results/R35-raw-circle-homotopy-has-a-singular-supported-endpoint.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R36：raw m3 核的真积分、反函数误差与固定 atlas 的 metric 转移](results/R36-raw-core-true-integrals-and-metric-transfer.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R37：实际 raw m3 核的全角有限主部及 $C^1$ 余项](results/R37-raw-core-uniform-angular-remainders.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R38：宽主过渡圆弧的真实三阶矩与 10.551% 条件闭族窗口](results/R38-wide-primary-circle-controlled-moment-window.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R39：R36–R37 真积分角余项的完整径向微分预算](results/R39-integral-core-radial-metric-budget.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R40：q≈.04 时原 flat ramp 的严格首负 K 特征窗](results/R40-small-q-actual-flat-ramp-characteristic-window.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R41：任意声明宽度的 raw 三重真积分接口及实际全 15 控制的圆弧核证书](results/R41-general-width-raw-core-true-integral-oracle.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R42：保护弧控制空间的嵌套正交坐标与统一 L² Gram 界](results/R42-supported-orthogonal-control-coordinates.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R43：固定保护窗的严格统一 Gram 常数小于 14](results/R43-fixed-supported-window-strict-gram-constant.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R44. 偶三重圆弧相容控制空间的两维补全](results/R44-circle-trace-controls-complete-two-missing-directions.md)。已登记正文的索引补全，结论范围以原文为准。
+- [R45：完整余弦到圆弧迹的有限空间路径与同步 lift](results/R45-finite-trace-homotopy-and-synchronous-lift.md)。已证明全 λ 有限列独立、固定 M 的 Gram 定性正下界、真主矩规范及同步 lift 入口恒等式；未给 BVP 存在性、实际 Jacobian 条件或完整几何。
+
 ## R27. 同一固定背景的真积分精细区间
 
 [完整证明](results/R27-sharp-integrals-of-the-fixed-background.md)。同g的A/wA总变差与B/wB四阶区间Simpson给精细λ、真高度及深处余项，严格分辨数值工厂约2e−11至3.3e−11的归一化偏差。它是背景真积分证书；非旋转连续metric还须部分积分与反函数界。
