@@ -1,0 +1,366 @@
+{
+  "scope": "Read-only independent fieldwise audit of the completed two floor batches.\n\nDecode every input field and output state/Jacobian byte from the existing files.\nDo not import the native codec/library or run any mathematical evaluator.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_production_batch.py",
+    "sha256": "f9c804c07a861d11a1c4726becf82564d49e60cf0688352def0a0a2ea54f1900"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_production_batch.py",
+    "--plan",
+    "n4_work/native-production-floor-v1/plan.json",
+    "--summary",
+    "n4_work/native-production-floor-v1/fixture-batch-summary.json",
+    "--resource",
+    "n4_work/native-production-floor-v1/batch-resource.json",
+    "--log",
+    "n4_work/native-production-floor-v1/batch-process.log",
+    "--out",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_production_floor_batch_terminal.json"
+  ],
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/plan.json",
+    "sha256": "6d3aa2a9deaea97a73e2a6d4a227c6f7ae0e775edbbd94c4982c748721d41a4e"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-summary.json",
+    "sha256": "53c90c199ece0e11cb9e556a0c93a363a2113f79392915f81914e5cb20e83a21"
+  },
+  "raw": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-raw.json.gz",
+    "sha256": "9d07b1f7d54cf20be2b3f626a73ea5c53f41c6f580a6582d7c767ae1b8efcd54"
+  },
+  "resource": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/batch-resource.json",
+    "sha256": "6cce4fe7fe472ef4013fc7984bbac5704a84dd637bb3a3d94a6a7fc8b7399ce7"
+  },
+  "log": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/batch-process.log",
+    "sha256": "e902311d52f1b2ad3b1823beaac11c79cc8764602f1ef04fe7ae0c0ebb723d0c"
+  },
+  "files": {
+    "preparer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/prepare_native_production_floor.py",
+      "sha256": "5f9564648055a587e1f626644b72e0910ad1b76cc7ff38aff13e94167eb62d46"
+    },
+    "compiler_driver": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/compile_native_production_floor.py",
+      "sha256": "23949aea32b25ab0af47526982d3b0ea71220d5539e2ef79bb7ccd577212ad9a"
+    },
+    "batch_probe": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_batch_floor_binding.py",
+      "sha256": "994e754644712c470ac238f0d7b04286329aecebbd4265d4775c1e7e1e4948e9"
+    },
+    "old_cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+      "sha256": "916d0a948a15100f9bb68b255c2192460efe249c08a3559ea9fb800fbb59ac3f"
+    },
+    "production_cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf"
+    },
+    "header": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "harness": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "compiler": {
+      "path": "/usr/bin/x86_64-linux-gnu-g++-14",
+      "sha256": "6b3696e4dcb85e1c949c732a02befa50e3983ecf94ce7e8e58d9d503b954b79d"
+    },
+    "original_build": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+      "sha256": "6a3bccea3aafe115cb28071ca23986e14e27c9074c67f8f91b094bfb87db0bf8"
+    },
+    "original_library": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+      "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+    },
+    "original_batch": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/frozen_flow_batch",
+      "sha256": "41ad2ad52199365c11e1065ea1ad988544c2325ad81ffaad84e45485db50f6ed"
+    },
+    "capsule_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+      "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+    },
+    "capsule_coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+    },
+    "capsule_reference": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-reference.json.gz",
+      "sha256": "996bdc40164d265f9146f7af4449732d4d34981eeabb7c4ffe8ea44b697b2c73"
+    },
+    "production_CP": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "LD_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-summary.json",
+      "sha256": "94f774a4ebac0c1dcad8f6de8e3796f4e6ab23475694e09acefb9fb7e4c86908"
+    },
+    "LD_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-raw.json.gz",
+      "sha256": "9853dc0ae370b775f2bf1441510884632a9afe2b1428b88f2f223d6947ca0b43"
+    },
+    "LD_resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/resource.json",
+      "sha256": "7c8b285074fad00270bc77cc1fb8c04cef7a4ddcf56da341bb340edf99f4ca0a"
+    },
+    "floor_discovery": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_production_floor_binding.json",
+      "sha256": "516c3df9462713b8a4abfc70361176b2f1605f7f2566cb3b399098badff667f1"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    }
+  },
+  "build_record": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/build.json",
+    "sha256": "069165b977b12576586a94ffd60a17f24f9c292b30827bf6e874c7b0c9daa2d3"
+  },
+  "library": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/libfrozen_flow_production.so",
+    "sha256": "d6ee1b5a19bad636f012a02f02d7e99379249431df96bb970113a85dbff79bef"
+  },
+  "batch_executable": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+    "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+  },
+  "cases": [
+    {
+      "call": {
+        "label": "capsule-point1",
+        "floor": 0.1,
+        "command": [
+          "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+          "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-capsule-point1.input.bin",
+          "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-capsule-point1.output.bin"
+        ],
+        "returncode": 0,
+        "wall_seconds": 0.5166659079986857,
+        "input": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-capsule-point1.input.bin",
+          "sha256": "de83fa13c9522084d4740ba6f002d502e74b3b0f83b3f630b52cba71febbdc2b"
+        },
+        "output": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-capsule-point1.output.bin",
+          "sha256": "87251a9740f8b9e837e3bde6bb114e8a3a933313db03adbe2401bc3d4845ded0"
+        },
+        "stdout": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-capsule-point1.stdout",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-capsule-point1.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "payload_token": "9655464c862d74458a73c04efee6fbb8218f605f1e8aa9d93fd1e0d7c7a4602a"
+      },
+      "checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-capsule-point1.checkpoint.json.gz",
+        "sha256": "f48fd6440a24b9cb94198380d0b984d6370f247948d7e8f202f907469bc2a51a"
+      },
+      "input_bytes": 70388,
+      "output_bytes": 41632,
+      "actual_three_stage_counts": [
+        {
+          "stage": 43,
+          "steps": 16,
+          "unique_points": 33
+        },
+        {
+          "stage": 38,
+          "steps": 16,
+          "unique_points": 33
+        },
+        {
+          "stage": 175,
+          "steps": 16,
+          "unique_points": 33
+        }
+      ],
+      "binary_identity": [
+        {
+          "stage": 43,
+          "state42_bitwise_identical": true,
+          "tangent42_by40_bitwise_identical": true,
+          "available_root_aggregates_bitwise_identical": true,
+          "state42_sha256": "33d5a92377dc97bb98db3744b14a0e1f24799995b859776bb30a2569fe080f4a",
+          "tangent42_by40_sha256": "806ed223762521adb885d4c08634b2293d1bea757e5a3af0423c19535301abc2",
+          "root_calls": 64,
+          "root_updates": 128,
+          "root_fallbacks": 0,
+          "minA": 0.9993253049821479,
+          "minD": 0.9999456193705909,
+          "maximum_root_relative_residual": 8.717097109401801e-20,
+          "minimum_literal_Jacobian_pivot": 0.9999038913758602,
+          "kernel_seconds": 0.174984276
+        },
+        {
+          "stage": 38,
+          "state42_bitwise_identical": true,
+          "tangent42_by40_bitwise_identical": true,
+          "available_root_aggregates_bitwise_identical": true,
+          "state42_sha256": "02363a7f1c7ef5cad0a2338b63894513b5ef0655aa59600e0d536344792f46b9",
+          "tangent42_by40_sha256": "40a6bef9968dbeccafd584871fd74e8bb6142ae2b5aa54f3a8950b38a68cb3d3",
+          "root_calls": 64,
+          "root_updates": 128,
+          "root_fallbacks": 0,
+          "minA": 0.998982050783748,
+          "minD": 0.9999479262232319,
+          "maximum_root_relative_residual": 8.495847993327827e-20,
+          "minimum_literal_Jacobian_pivot": 0.9998236155597815,
+          "kernel_seconds": 0.174991887
+        },
+        {
+          "stage": 175,
+          "state42_bitwise_identical": true,
+          "tangent42_by40_bitwise_identical": true,
+          "available_root_aggregates_bitwise_identical": true,
+          "state42_sha256": "2a08f628aff4f20984dbf22a3e75b35c5d4cbe1915dc5aff529151eae8b1c569",
+          "tangent42_by40_sha256": "8bc5f04273605ae698c5763ac65b7f8d32787cd8862e58581695ec5efb47d454",
+          "root_calls": 64,
+          "root_updates": 64,
+          "root_fallbacks": 0,
+          "minA": 0.999975782689067,
+          "minD": 0.9999996390270643,
+          "maximum_root_relative_residual": 1.2789347469200837e-15,
+          "minimum_literal_Jacobian_pivot": 0.999999999653566,
+          "kernel_seconds": 0.163504526
+        }
+      ]
+    },
+    {
+      "call": {
+        "label": "production-point05",
+        "floor": 0.05,
+        "command": [
+          "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+          "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-production-point05.input.bin",
+          "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-production-point05.output.bin"
+        ],
+        "returncode": 0,
+        "wall_seconds": 0.650464420003118,
+        "input": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-production-point05.input.bin",
+          "sha256": "abcb6efc492b2b508cfddb8992426dca81c913410c29128277ae71279109cedc"
+        },
+        "output": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-production-point05.output.bin",
+          "sha256": "08788952e43a87d7ebf248a4bbbb4fdc4c25dbcb5a57687e1aba9da93b3572fc"
+        },
+        "stdout": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-production-point05.stdout",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stderr": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-production-point05.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "payload_token": "c035bb4db2ddb747e502061d95e23e2d3156474bbb2cdebd7da2978a8277e5ef"
+      },
+      "checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/fixture-batch-production-point05.checkpoint.json.gz",
+        "sha256": "381676e18a77842bbd84cc1eb557c3103e10afeb3b11372dc0537e5ce9c74a73"
+      },
+      "input_bytes": 70388,
+      "output_bytes": 41632,
+      "actual_three_stage_counts": [
+        {
+          "stage": 43,
+          "steps": 16,
+          "unique_points": 33
+        },
+        {
+          "stage": 38,
+          "steps": 16,
+          "unique_points": 33
+        },
+        {
+          "stage": 175,
+          "steps": 16,
+          "unique_points": 33
+        }
+      ],
+      "binary_identity": [
+        {
+          "stage": 43,
+          "state42_bitwise_identical": true,
+          "tangent42_by40_bitwise_identical": true,
+          "available_root_aggregates_bitwise_identical": true,
+          "state42_sha256": "33d5a92377dc97bb98db3744b14a0e1f24799995b859776bb30a2569fe080f4a",
+          "tangent42_by40_sha256": "806ed223762521adb885d4c08634b2293d1bea757e5a3af0423c19535301abc2",
+          "root_calls": 64,
+          "root_updates": 128,
+          "root_fallbacks": 0,
+          "minA": 0.9993253049821479,
+          "minD": 0.9999456193705909,
+          "maximum_root_relative_residual": 8.717097109401801e-20,
+          "minimum_literal_Jacobian_pivot": 0.9999038913758602,
+          "kernel_seconds": 0.225798111
+        },
+        {
+          "stage": 38,
+          "state42_bitwise_identical": true,
+          "tangent42_by40_bitwise_identical": true,
+          "available_root_aggregates_bitwise_identical": true,
+          "state42_sha256": "02363a7f1c7ef5cad0a2338b63894513b5ef0655aa59600e0d536344792f46b9",
+          "tangent42_by40_sha256": "40a6bef9968dbeccafd584871fd74e8bb6142ae2b5aa54f3a8950b38a68cb3d3",
+          "root_calls": 64,
+          "root_updates": 128,
+          "root_fallbacks": 0,
+          "minA": 0.998982050783748,
+          "minD": 0.9999479262232319,
+          "maximum_root_relative_residual": 8.495847993327827e-20,
+          "minimum_literal_Jacobian_pivot": 0.9998236155597815,
+          "kernel_seconds": 0.21707803
+        },
+        {
+          "stage": 175,
+          "state42_bitwise_identical": true,
+          "tangent42_by40_bitwise_identical": true,
+          "available_root_aggregates_bitwise_identical": true,
+          "state42_sha256": "2a08f628aff4f20984dbf22a3e75b35c5d4cbe1915dc5aff529151eae8b1c569",
+          "tangent42_by40_sha256": "8bc5f04273605ae698c5763ac65b7f8d32787cd8862e58581695ec5efb47d454",
+          "root_calls": 64,
+          "root_updates": 64,
+          "root_fallbacks": 0,
+          "minA": 0.999975782689067,
+          "minD": 0.9999996390270643,
+          "maximum_root_relative_residual": 1.2789347469200837e-15,
+          "minimum_literal_Jacobian_pivot": 0.999999999653566,
+          "kernel_seconds": 0.2042642
+        }
+      ]
+    }
+  ],
+  "checked_path_references": 35,
+  "completed_CLI_processes": 2,
+  "completed_native_stages": 6,
+  "independently_verified_state_values": 252,
+  "independently_verified_tangent_values": 10080,
+  "all_complete_state_tangent_and_root_aggregate_identities": true,
+  "all_frozen_input_coefficients_trig_states_and_real_grid_fields_identical": true,
+  "input_difference": {
+    "total_changed_bytes": 59,
+    "changed_token_bytes": 58,
+    "changed_floor_bytes": 1,
+    "changed_outside_declared_region": 0,
+    "interpretation": "Only these allowed regions differ; this does not say all72 bytes changed."
+  },
+  "execution": {
+    "observer_session": 20894,
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T03:01:51Z",
+    "observer_seconds": 2.002495797998563
+  },
+  "no_new_flow_or_Jacobian_in_collector": true,
+  "whole_tail_or_DN_invoked": false,
+  "production_Node_hook_installed": false,
+  "scope_limit": "This original-three-stage identity verifies the new compiled binary/configuration/fieldwise interface at floor.1 and.05. It does not equate the different gates for arbitrary states, establish all physical cusp grids, or accept a full tail."
+}
