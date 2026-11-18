@@ -1,0 +1,102 @@
+{
+  "scope": "Read-only full-wire identity check of one completed parallel native batch.\n\nCheck every original input stage and all state/Jacobian/root/geometry output\nbytes. Only each stage's actual kernel_seconds field is excluded from the\nnumerical identity digest; no numerical evaluator or native worker is called.\n",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/compare_parallel_native_batch.py",
+    "--plan",
+    "n4_work/native-parallel-equivalence-v1/plan.json",
+    "--original-terminal",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_whole_evaluate_terminal.json",
+    "--out",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_parallel_equivalence.json",
+    "--tool-session",
+    "95657",
+    "--tool-launch",
+    "3285e2",
+    "--tool-terminal",
+    "9e9b57"
+  ],
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/compare_parallel_native_batch.py",
+    "sha256": "754d50e2d7243825b09edfcc38b6fd488af07b7610aa6f79c490aca403dec2c0",
+    "bytes": 7379
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-equivalence-v1/plan.json",
+    "sha256": "0bcf040ae92c8dec850ed5786bde31648b0e7f6282af519c2e4468b1d8b027fe",
+    "bytes": 2171
+  },
+  "wrapper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/parallel_native_batch.py",
+    "sha256": "9177a8499517695deebf00907c64bdc08adc5e5fd2229c8987a2a7ac8ef6bb42",
+    "bytes": 9949
+  },
+  "original_cli": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+    "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+  },
+  "original_build": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/build.json",
+    "sha256": "069165b977b12576586a94ffd60a17f24f9c292b30827bf6e874c7b0c9daa2d3",
+    "bytes": 9108
+  },
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-input.bin",
+    "sha256": "bd9b1121152881c0ece0d4e28de2a9c660cca3b53fe32f14d3a58439c46abb1e",
+    "bytes": 21640952
+  },
+  "original_output": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/actual-entry/0001-jac-output.bin",
+    "sha256": "ed4561e330a110db38a99ca9d7fda0f5e597a6bfcadcc7e37edd70e090c067a9",
+    "bytes": 31905880
+  },
+  "parallel_output": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-equivalence-v1/parallel-output.bin",
+    "sha256": "9f988b76f151410a7447853a27b8cb9ad398c6eee7b6b706a6735e71c6c945b9",
+    "bytes": 31905880
+  },
+  "parallel_execution": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-equivalence-v1/parallel-output.bin.parallel.json",
+    "sha256": "f8b4da3ef22c65a40474eeff43b520aa44d5e7b07e3b0f54da52995580c6d67b",
+    "bytes": 8754
+  },
+  "original_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_whole_evaluate_terminal.json",
+    "sha256": "7bcb69797c720499e9c56395e788cc4c108c9970e1348c67f059931dd6ddcf9f",
+    "bytes": 11297
+  },
+  "observer": {
+    "session": 95657,
+    "launch_chunk": "3285e2",
+    "terminal_chunk": "9e9b57",
+    "tool_returncode": 0,
+    "scope": "Actual tool completion was observed separately; supplied identifiers bind that observation."
+  },
+  "original_stage_bodies_bitwise_equal": true,
+  "common_numeric_header_bitwise_equal": true,
+  "all_original_numeric_output_bitwise_equal": true,
+  "numerical_wire_sha256": "3c12a3524156c79e630bf9260a20b54a12df7f62d7dde92be72f84cff9025bf9",
+  "excluded_fields": "Exactly the last8-byte kernel_seconds float in each successful stage record",
+  "stages": 2304,
+  "modes": 20,
+  "workers": 4,
+  "state_scalars": 96768,
+  "Jacobian_scalars": 3870720,
+  "root_count_and_geometry_scalars": 16128,
+  "actual_child_returncodes": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "wrapper_returncode": 0,
+  "serial_process_seconds": 392.136659724,
+  "parallel_wrapper_seconds": 104.92322919600701,
+  "observed_wall_ratio": 3.7373674326344815,
+  "timing_scope": "Different actual execution times/loads. The parallel measure includes splitting/merge. This one-run ratio is not a universal speed claim.",
+  "serial_kernel_seconds_sum": 391.3853358839995,
+  "parallel_kernel_seconds_sum": 415.26881054399973,
+  "collector_invoked_new_equations": false,
+  "new_DN_solver_invoked": false,
+  "mathematical_scope": "Same previously rejected fixed-state residual. No new H, accepted tail, metric or coupled prefix is established."
+}
