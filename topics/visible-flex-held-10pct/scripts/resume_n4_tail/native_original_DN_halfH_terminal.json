@@ -1,0 +1,188 @@
+{
+  "scope": "Bind a true original-DN terminal to the saved native evaluate records.\n\nThis collector reads saved files only. It does not load a mathematical\nlibrary, reconstruct a root or flow, or rerun Newton/Jacobian/audit. Complete\nper-evaluate file references remain in a scratch manifest; the publication\nrecord contains only source identities, counts, scalar diagnostics and the\noriginal worker's actual terminal scope.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_DN_terminal.py",
+    "sha256": "71e6aa510615ad3e41f17d4f6e3f4ceb051c057c7278f965671598f5b7096b06"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_DN_terminal.py",
+    "--workspace",
+    "/workspace/scratch/7322d0dee069",
+    "--out",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_original_DN_halfH_terminal.json"
+  ],
+  "collected_utc": "2026-11-18T04:26:24.629153+00:00",
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/plan.json",
+    "sha256": "7aadf15137197d201eb2e94a5344f201951675a1a159e554da12173cc09a3f1c"
+  },
+  "executed_sources": {
+    "source": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/continue_native_tail_checkpoint.py",
+      "sha256": "117b0a6db1473fcd712120354194093581e3733254140313c44aec33d9724648"
+    },
+    "manifest": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/manifest.json",
+      "sha256": "3e618b4a44c2292a1d12612ceb3a6f82693e703a32b152fa5a42097cb6d877d2"
+    },
+    "entry_plan": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/plan.json",
+      "sha256": "a466fa5c14e2c956f9ede00c3259b4551ef7935efdb9f7912e2d6bc71af5eba5"
+    },
+    "entry_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-summary.json",
+      "sha256": "9bd2f30ae837637daaf6d8cf61be9258a77e61782f63d221050a85fa6aeca63c"
+    },
+    "entry_resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/entry-resource.json",
+      "sha256": "9ca2f3ebed73000fdfbb198911a8a5780c257fca2f0623dab209cf84e1286659"
+    },
+    "input_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "config": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/config.json",
+      "sha256": "914e0fb77749bfb74b6ff2b07f4790a75097efbcaf5eae023401efd9b175da71"
+    },
+    "client": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-batch-source-v1/scripts/950f-tail-client-v3.py",
+      "sha256": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b"
+    },
+    "worker": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-batch-source-v1/scripts/950f-tail-stage-port-v3.mjs",
+      "sha256": "3481fb6fae3fa27432f829c7a200c938832838d674a077314b39ae2cf7a5010b"
+    },
+    "sparse_helper": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    },
+    "python": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+    }
+  },
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/summary.json",
+    "sha256": "16a27aebc1d6f1ca3ad1d810a082bba20338f51a2b9d5748fd2308dc8e96b154"
+  },
+  "resource": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/resource.json",
+    "sha256": "5e59ecd48837f67e3b1bfbdfe2e08ffe76595920eeb59abef2e51dbd0827f8e6"
+  },
+  "process_log": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/process.log",
+    "sha256": "36883421ac7f92c9abb81511477a9d6b4151874e5fe73ac0e1582f713d63627b"
+  },
+  "actual_response": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/tail_0001.json.gz",
+    "sha256": "ebae719050d7122fb15b64795cc9c2480aa0afc6b42df9a8c7863d51c6f88306"
+  },
+  "worker_trace": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/worker-trace.jsonl",
+    "sha256": "617a89397a58153b18d792292c8896a313d0eb89c427473b1491240fb041b335"
+  },
+  "worker_exit": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/tail_worker_exit.json",
+    "sha256": "4edbc45b4cdcac3f8f8592388641ebf522dc7a52c5cbb5476680a84b5dc0ad63"
+  },
+  "worker_stderr": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/tail_worker_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "native_events": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/events.jsonl",
+    "sha256": "3002d8901a49a9876d051263acd97bd295d49aba82c5dfdd51e259b460d2c0f2"
+  },
+  "all_native_record_bindings": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/terminal-native-records.json",
+    "sha256": "528d95d51aab964dd3b67cdc143c8bfb4714ec1388bd8e942c56556092595dcb"
+  },
+  "observer_session": 35038,
+  "observer": {
+    "status": "observed_terminal",
+    "child_returncode": 1,
+    "observed_utc": "2026-11-18T04:26:11Z",
+    "seconds": 3761.740397720001,
+    "maximum_sampled_tree_rss_kib": 24228,
+    "child_rusage_maxrss_kib": 946612
+  },
+  "memory_scope": "Sampled namespace tree RSS and RUSAGE_CHILDREN maxrss are separate observations, neither a whole-host simultaneous peak.",
+  "actual_worker_returncode": 0,
+  "status": "failure",
+  "original_accepted": false,
+  "error": {
+    "type": "FloatingPointError",
+    "message": "Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 2.0636915055985155e-9', 'residual': None, 'lastIteration': {'iteration': 4, 'norm': 2.0636915055985155e-09, 'minA': 0.980752332821046, 'minD': 0.9999448760732821, 'chartCondition': None}}",
+    "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/continue_native_tail_checkpoint.py\", line 136, in run\n    response=port.solve(plan['request']['height'],jacobian=True,audit=True)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/7322d0dee069/n4_work/native-batch-source-v1/scripts/950f-tail-client-v3.py\", line 53, in solve\n    raise FloatingPointError('Weighted finite DN trial failed '+str({k:response.get(k) for k in ('failed','residual','lastIteration')}))\nFloatingPointError: Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 2.0636915055985155e-9', 'residual': None, 'lastIteration': {'iteration': 4, 'norm': 2.0636915055985155e-09, 'minA': 0.980752332821046, 'minD': 0.9999448760732821, 'chartCondition': None}}\n"
+  },
+  "actual_saved_response_failed": "Error: multiple-shooting line search failed at 2.0636915055985155e-9",
+  "request_count": 1,
+  "fullJac_requested": true,
+  "full_audit_requested": true,
+  "physical_target": "Complete recorded .5H vector; full100%H is not this request.",
+  "same_H_sha256": "411ec0ff8775c34ce1106b1afa72ded610646a54384bb05dbb71afbbfd0ff70a",
+  "original_complete_input_state_sha256": "c992f608cd4687a625ad1c664233a8cdb4a93d1dfdf75272d1ac1225d3feac29",
+  "final_complete_state_sha256": "5e76a0e951f54f18f1934a3e9bda52e4162edecd1f10e43979573d03ebc84b0e",
+  "final_checkpoint_nodes": 2305,
+  "final_saved_state_fullJac_input": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-dn-halfH-v1/native-evaluates/0014-jac-input.bin",
+    "sha256": "775aaccef2e2a2e2fd056c381cf88715110775e714b9e03f67fedeeae9468411"
+  },
+  "final_saved_state_input_identity": {
+    "stages": 2304,
+    "checked_state_scalars": 96768,
+    "withJac": true,
+    "original_checkpoint_node_inputs_equal": true,
+    "input_column_scaling": "none; states[n+1] is the original input"
+  },
+  "original_configuration_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "numerical_options": {
+    "modes": 20,
+    "spacing": 4,
+    "quadrature": 512,
+    "depth": 8,
+    "shootingParts": 32,
+    "steps": 16,
+    "linearFar": 48,
+    "linearSteps": 512,
+    "solveTolerance": 2e-09,
+    "maxIterations": 36,
+    "auditSteps": 32,
+    "cuspAwareFlow": true
+  },
+  "projectionFloor": 0.05,
+  "original_iteration_count": 5,
+  "initial_original_residual": 1.5211857880292614e-08,
+  "final_observed_original_iteration": {
+    "time": "2026-11-18T04:10:23.806Z",
+    "event": "iteration",
+    "call": 1,
+    "elapsed_ms": 2803996,
+    "iteration": 4,
+    "norm": 2.0636915055985155e-09,
+    "minA": 0.980752332821046,
+    "minD": 0.9999448760732821
+  },
+  "native_evaluate_count": 24,
+  "complete_native_evaluates": 24,
+  "complete_fullJac_evaluates": 5,
+  "complete_scalar_evaluates": 19,
+  "native_engineering_failures": 0,
+  "native_process_seconds": 3704.1403910810004,
+  "native_kernel_seconds": 3696.2359481400017,
+  "native_decode_seconds": 5.486211939999464,
+  "final_acceptance": {},
+  "fullH_completed": false,
+  "actual_raw_prefix_coupling_completed": false,
+  "exact_circular_arc_completed": false,
+  "closed_family_or_continuous_certificate": false,
+  "no_new_mathematical_evaluation_by_collector": true
+}
