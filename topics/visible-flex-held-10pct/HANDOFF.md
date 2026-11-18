@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`2813f5c700db1c10f0312cb556192b34aff6d10c`。2026-11-18 10:04:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`d78b802546383f6b323367a84faf766fdf4cd75a`。2026-11-18 10:11:36（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -50,7 +50,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060原余弦锚** CP4755143b…/1934点已有限真联立接受：RMS9.97758523e−7、BC9.17879e−12、metric3.79125e−8，3尾208Jac及audit接受；mean2/nonmean2 seam6.64415e−11/9.57232e−8未付闭合/连续界。全部7c/δ.06104275721220832/profile/chart/port/尾参数见q060-exact-saved-inner-original-acceptance及reader，不重跑旧恢复。
 
-**q060→R44实际联立** 新λ1/M8/25态/B2..B6+T/U，q=.05210565550627671；唯一初猜原guard lower.4947527924/Frenet.0024858771、RMS1.416628747，完整8H同actual。源1204d93…/plan8b9de60…的12897已真实exit0（01:58:12Z）：原Newton9accepted/60域拒/4merit/minα1/2048返回，随后SciPy RMS第二额外Lobatto点Frenet margin−1.717530786e−6抛异常，solve_bvp未返回，新tail0/worker0。仅inner00入口25×271与真实DN锚保存；日志只有末p0/p1，无终cubic/完整c/CP/metric，不重跑补造。见q060-circle-trace-coupled-rms-domain-failure。下一单一同原门五点trial域检查+每accepted Newton/返回立即全状态保存，先审源；RMS/merit/Jac/BC/尾门不变、有限5点非连续域证书。固定q、新p0只改δ，非固定g精化/圆弧接受。
+**q060→R44实际联立** 新λ1/M8/25态/B2..B6+T/U，q=.05210565550627671；唯一初猜原guard lower.4947527924/Frenet.0024858771、RMS1.416628747，完整8H同actual。源1204d93…/plan8b9de60…的12897已真实exit0（01:58:12Z）：原Newton9accepted/60域拒/4merit/minα1/2048返回，随后SciPy RMS第二额外Lobatto点Frenet margin−1.717530786e−6抛异常，solve_bvp未返回，新tail0/worker0。仅inner00入口25×271与真实DN锚保存；日志只有末p0/p1，无终cubic/完整c/CP/metric，不重跑补造。见q060-circle-trace-coupled-rms-domain-failure。单一五点guard8a15397…/runnerfc979b…/planda2c3d…已双审、metadata ceaa2c exit0，尚未运行；锁SciPy1.17/_bvp59afffb…及69源。trial增原RMS两点同门检查，原tuple/Jac/merit不变；每accepted/两return存全p/ff/cubic与DN。有限5点非连续域/新网格保证，见m3-original-lobatto-domain-guard-entry。固定q、新p0只改δ，非固定g精化/圆弧接受。
 
 ## 3. 全闭表示与严格连续metric
 
