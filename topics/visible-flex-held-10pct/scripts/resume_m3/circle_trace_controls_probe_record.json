@@ -1,0 +1,89 @@
+{
+  "kind": "two-circle-trace-controls-finite-implementation-probe",
+  "scope": "R44 proves the exact function-space statement. This record reports finite numerical checks of its isolated prototype; no BVP/core/run was changed.",
+  "observed_execution": {
+    "tool": "exec_command",
+    "chunk_id": "ba3781",
+    "exit_code": 0,
+    "cwd": "/workspace/scratch/7322d0dee069",
+    "command": [
+      "python",
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_circle_trace_controls.py",
+      "--halfwidth",
+      ".21",
+      "--transition",
+      ".4",
+      "--precision",
+      "80",
+      "--angular",
+      "12288",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/circle-trace-controls-probe.json"
+    ]
+  },
+  "input": {
+    "base_mode": 3,
+    "halfwidth": 0.21,
+    "transition": 0.4,
+    "center": "pi/3",
+    "precision": 80,
+    "angular_nodes": 12288,
+    "arc_nodes": 257,
+    "low_constraints": [
+      "mean support increment zero",
+      "cos(3 phi) support moment zero"
+    ],
+    "column_order": [
+      "radius trace A",
+      "centre trace B"
+    ]
+  },
+  "output": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/circle-trace-controls-probe.json",
+    "sha256": "4d592041ce5926f03c0d2bd88057a4d8b9cba18dd45aca5d49a74601eb814e51"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_circle_trace_controls.py": "7ecb16c0baeb76585d04d49eebfca4bf5b074b25507c48563996073612522666",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c"
+  },
+  "defining_matrix_determinant_decimal": "0.06945813827525886480664536884752457920713666450158736579702643150721524",
+  "high_precision_constraint_residual": "1.58132969148e-81",
+  "finite_checks": {
+    "finite_low_moment_max": 5.597374415818498e-16,
+    "finite_even_value_error": 8.393286066166183e-14,
+    "finite_C3_value_error": 2.824407374646398e-13,
+    "arc_support_trace_errors": {
+      "radius": 0.0,
+      "centre": 0.0
+    },
+    "arc_rho_trace_errors": {
+      "radius": 0.0,
+      "centre": 1.1102230246251565e-16
+    },
+    "actual_position_increment_errors": {
+      "radius_column_vs_er": 0.0,
+      "centre_column_vs_plus_nu0": 2.220446049250313e-16
+    },
+    "finite_column_support_peaks": [
+      2.7259789713595004,
+      2.665009938300567
+    ],
+    "finite_column_rho_peaks": [
+      353.41130467780977,
+      344.0015263855823
+    ]
+  },
+  "current_raw_low_gram": {
+    "comparison_modes": 16,
+    "binary64_max_difference": 0.0,
+    "binary64_bytes_equal": true
+  },
+  "limitations": [
+    "Finite full-circle sums and binary64 comparisons are not interval bounds.",
+    "The local cos(d) is cutoff before C3 repetition; it is not cos(3 phi).",
+    "Adding the two columns extends the old finite raw space by dimension two; replacing two old columns changes that finite space.",
+    "The theorem uses the entire C4 zero-trace kernel, not an asserted closure or divided-window space.",
+    "These new columns do not inherit R38/R41 geometric constants, positivity, BVP existence, metric, or held ratio."
+  ]
+}
