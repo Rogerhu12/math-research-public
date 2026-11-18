@@ -1,0 +1,84 @@
+{
+  "scope": "Hash/read/AST-only preparation of the R47 endpoint model and R48 transfer.\n\nNo endpoint checkpoint is invented or loaded as a model.  The q060 binding\nis read solely for already recorded original source hashes.  No new module,\ncore, projection, flow, integral, tail, BVP or mathematical probe is executed.\n",
+  "prepared_utc": "2026-11-18T05:24:33.754319+00:00",
+  "command": [
+    "topics/visible-flex-held-10pct/scripts/resume_closed/prepare_r47_endpoint_transfer_sources.py",
+    "--directory",
+    "/workspace/scratch/7322d0dee069/closed_work/r47-endpoint-transfer-source-v1",
+    "--record",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r47_endpoint_transfer_source_preparation.json"
+  ],
+  "new_sources": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/prepare_r47_endpoint_transfer_sources.py",
+      "sha256": "e8f47a9c76bd91f2520c11f3b42b2a38fbac0dad8a1ff349c9a0a4806b2c79a6"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r47_endpoint_refinement_model.py",
+      "sha256": "d533b93dc78b1eed7656527aa8ac689772f9a4903e441cd5f49e51d2ef16b7b6"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r48_reference_state_transfer.py",
+      "sha256": "fe7decedceb9b20d9fa70715a40494b24670f40dd28a4c88fc80033d7a14610a"
+    }
+  ],
+  "old_reference_source_registry": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference_binding.json",
+    "sha256": "01bfeedc8a160daf8ccae91a66b2f65d99c934166d26592b6a0e2b25049b0897"
+  },
+  "source_registry_scope": "Read only the original source identities; the old q060 curve is not a new endpoint or numerical input.",
+  "proof_definitions": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R47-fixed-slot-nested-circle-homotopy.md",
+      "sha256": "81c57c7280beae499fbdcd1a61030561cf3e4be2acf6bdfcac510a91b68d951b"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R48-exact-reference-compensation-for-mode-extension.md",
+      "sha256": "aeeba196670c81f7f22554af827e44658cb23aa59d50df0afe66889244faed49"
+    }
+  ],
+  "interface": {
+    "model": "EndpointModeEnvironment(real_endpoint.native_prefix()).make(M, angular, linear_port_path)",
+    "required_anchor": "A genuine completed M8 lambda=1 prefix/actual-tail/physical-quintic checkpoint, not yet available for this preparation.",
+    "new_mode_range": "Integer M>=8; every new model uses the unchanged full-lift and original parameter equations.",
+    "core_initialization": "model.initialize_core() is a future explicit original initial(p) call, not part of this preparation.",
+    "source_old_parameters": "Copy old p[1:8] literally; new p[0]=0, append zero controls; assert the first seven pscales and physical c bits.",
+    "p0_scope": "Original fixed=True p0=log(q_actual/qseed) remains free. Frozen profile does not imply frozen q/controls.",
+    "profile_rebase": "Use the actual frozen_profile once, with the old delta p0 already incorporated.",
+    "new_actual_tail": "Require a real M-dimensional original DN/Jac/audit response; no old response or J is embedded.",
+    "state_transfer": "EndpointStateTransfer(model): blockwise physical-PPoly embedding plus a*chi*(I_new-E*I_old).",
+    "state_order": "R0,R1..RM,T1..TM,Z1..ZM",
+    "physical_jets": "Retain the original a, a_s, a_ss and quintic window derivatives, including the 2*a_s*chi_s cross term.",
+    "normalized_mesh": "The old physical PPoly mesh is mapped through the new original inverse_chart. Old variable-profile raw t is not presumed identical.",
+    "zero_window": "Copy embedded state jets without a floating addition when their reference factor is exactly zero.",
+    "mean_scope": "No mean primitive copied or recomputed; no whole physical map identity inferred from planar compensation alone.",
+    "interpolation_scope": "A continuous callable state is prepared; no new quintic is claimed to equal this non-polynomial function.",
+    "finite_core_scope": "Defining-core nesting is mathematical; no cross-M floating inversion/projection identity is assumed.",
+    "fixed_all_parameters_refinement_claim": false
+  },
+  "preparation": {
+    "AST_sources": 3,
+    "source_hashes_checked": 74,
+    "new_module_imports": 0,
+    "core_instances": 0,
+    "flow_instances": 0,
+    "BVP_instances": 0,
+    "original_or_new_endpoint_reconstructed": false,
+    "full_inlet_projections": 0,
+    "initial_field_evaluations": 0,
+    "parameter_derivative_evaluations": 0,
+    "chart_inverse_calls": 0,
+    "mean_integrals": 0,
+    "prefix_audits": 0,
+    "BVP_solves": 0,
+    "actual_tail_requests": 0,
+    "new_accepted_endpoint_claim": false,
+    "source_only": true
+  },
+  "complete_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/r47-endpoint-transfer-source-v1/source-preparation.json",
+    "sha256": "f2e6597ae31c147073d0fbb9677d2b1c6564b3a95e54d66fb3434fb8a896d192"
+  },
+  "bound_source_count": 74,
+  "bound_source_payload_sha256": "966ede447ee0ff3d4adab8d607ee3b98c367faed39bbf31c81bf34dfa5150bd8"
+}

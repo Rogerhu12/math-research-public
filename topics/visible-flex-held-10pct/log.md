@@ -160,3 +160,5 @@
 - 2026-11-18 13:18:19（UTC+8）｜Astra-held10-7322d0de-20261118：发布96568原raw核—native真尾完整联立终态05:12:55Z：原inner两全步、2282点/RMS9.976431989e−9，4次不同职责真H请求均原门过；call3/4由未改Newton自然接受1.584857824e−9/1.981072280e−9，未用备用初值。原BC1.373094104e−9；完整prefix metric8.910232570e−7较旧略升、Darboux.00415668。mean2−4.398950981e−9/nonmean2 3.189589192e−7保留，非连续闭合。CPdb78f248…/双coeff块逐文件绑定；37batch/148CLI0。纯collector30756真0，首次observer参数解析exit2无child如实记。fixed=True仅冻轮廓，实际q漂移2.03e−10且19c未知，不能称固定全参数精化；接续M24设计层。
 
 - 2026-11-18 13:23:05（UTC+8）｜Astra-held10-7322d0de-20261118：发布63447/3586c2 λ.64节点H的af65保内部原求解失败（05:19:21Z）：1153×16候选仅node0全部8Dirichlet按原JS编码改变，ratio1/零修补，初8.722347033e−5；原迭6线搜失败8.321001905e−5，完整46a7b4…保留。请求虽要求208J/audit但失败未返回，child2/worker0区分；非quintic seam H。纯读取74f928核123源/完整差集/配置，0新数学。此初值不优于原近态753aa9…，不续远态/不重已接受8cf33内解；独立n3 native入口准备继续。
+
+- 2026-11-18 13:26:45（UTC+8）｜Astra-held10-7322d0de-20261118：发布R47动态M端点model d533b9及R48逐块physicalPP转移fe7dec：输入必须真实λ1完整M8，旧δ只重基一次、保七p/pscale物理c、T/U固定槽与新维完整线性port，原p0/logq及controls自由如实标明。三块嵌入+aχ补偿保正确两jet交叉项；物理s进新inverse_chart，不复用旧raw t；零窗直接copy。b3d36d仅74源hash/3AST真0，0模型/投影/mean/BVP/尾，不伪造端点或新维DN。原fixed语义和均值/插值/浮点核心身份边界均保留，不认README#5已付。
