@@ -1,0 +1,264 @@
+{
+  "schema": "m3-preserved-interior-actual-tail-execution-v1",
+  "confidence": "Numerical evidence and exact execution/input identities; not a continuous geometric certificate.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+    "sha256": "af65f13ceb394589e9578c535ca337ca80b86bcb3bf4291b509af966b785b614"
+  },
+  "source_parent": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_trace_path_seam_preserved_tail.py",
+    "sha256": "5e12714a8829b7fe4712308b9a35c2abe2a744945a9efa4b79447663e9f011d0"
+  },
+  "literal_source_derivation": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/preserved_interior_generic_source_transforms.json",
+    "sha256": "fb41b2c9f313d9762e74d7e5da896c8037325812b07329865b30328ada156dab"
+  },
+  "source_change_scope": "Only generic explicit SHA binding, actual original line-search-failure condition and actual changed-H/encoded Dirichlet set; original native mathematics and gate unchanged.",
+  "source_readonly_review": {
+    "agent": "closed_geometry",
+    "tool_chunk": "5049b4",
+    "returncode": 0,
+    "numerical_execution": false
+  },
+  "design": {
+    "homotopy": 0.16,
+    "modes": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "steps": 16,
+    "shooting_parts": 16,
+    "original_tolerance": 2e-09,
+    "gauge": 0.06,
+    "support_q": 0.05857996100242497
+  },
+  "entry": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed-entry.json",
+    "sha256": "32f714fa31af0506118945d568dacf6cd169f98cf4b47fef676fc610473e76c5"
+  },
+  "full_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed-entry.json",
+    "sha256": "32f714fa31af0506118945d568dacf6cd169f98cf4b47fef676fc610473e76c5"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/launch-plan.json",
+    "sha256": "053f0881a110506727f41538c9196463e8cc04928fab6a4a86e1e1706e8fff24"
+  },
+  "accepted_reference": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "c807ab79ef1ca6d6a4b7954c9632d1defdee6e29bb1cf3380b737ffb7387c406"
+  },
+  "failed_request": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/seed_tail_0002.json.gz",
+    "sha256": "69e2d545dad75affedcde4872fcdf2fc86bb0e42234489c21887b58f81eed5bd"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed-candidate.json.gz",
+    "sha256": "039b77ac84c66b2aca00422f4cb480cdbfee23e604da6a0afa2dee7707af625e"
+  },
+  "configuration": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed-config.json",
+    "sha256": "0f489fb6863ea981245937bccff557da1b04519a1204f07ae3f9da948e40cdb0"
+  },
+  "configuration_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "original_inputs_readonly_comparison": {
+    "old_H": [
+      -0.00016709739317571223,
+      6.128516669510812e-06,
+      1.0871706428712299e-06,
+      5.765560537799374e-10,
+      -5.260709980586144e-09,
+      -1.1277831867962937e-09,
+      -1.9232883122339282e-10,
+      1.4235334433724395e-09
+    ],
+    "new_H": [
+      -0.00016709739317571226,
+      6.128516669510812e-06,
+      1.0871706428712299e-06,
+      5.765560537799377e-10,
+      -5.260709980586144e-09,
+      -1.1277831867962937e-09,
+      -1.9232883122339282e-10,
+      1.4235334433724395e-09
+    ],
+    "changed_H_components": [
+      0,
+      3
+    ],
+    "observed_primary_height_ratio": 1.0000000000000002,
+    "failed_state_scalar_difference_from_accepted": 18106,
+    "state_shape": [
+      1153,
+      16
+    ],
+    "scope": "Literal comparison of the actual accepted and actual iteration-0 failed checkpoints; no new flow, residual or solver evaluation."
+  },
+  "initializer": {
+    "changed_cut_dirichlet": [
+      {
+        "node": 0,
+        "component": 0,
+        "before": -0.020629307799470645,
+        "after": -0.02062930779947065
+      },
+      {
+        "node": 0,
+        "component": 3,
+        "before": 7.11797597259182e-08,
+        "after": 7.117975972591824e-08
+      }
+    ],
+    "preserved_internal_and_deep_states": true,
+    "preserved_cut_momenta": true,
+    "javascript_cut_encoding": {
+      "target": [
+        -0.02062930779947065,
+        0.0007566069962359027,
+        0.00013421859788533702,
+        7.117975972591824e-08,
+        -6.49470367973598e-07,
+        -1.392324921970733e-07,
+        -2.3744300151036153e-08,
+        1.7574486955215303e-07
+      ],
+      "old": [
+        -0.020629307799470645,
+        0.0007566069962359027,
+        0.00013421859788533702,
+        7.11797597259182e-08,
+        -6.49470367973598e-07,
+        -1.392324921970733e-07,
+        -2.3744300151036153e-08,
+        1.7574486955215303e-07
+      ],
+      "power": 0.0081
+    },
+    "candidate_is_not_accepted": true,
+    "reload_arithmetic": {
+      "cut_radius": 0.3,
+      "ratio": 1,
+      "zero_boundary_correction": true,
+      "finite_states_without_negative_zero": true,
+      "original_solver_invoked": false
+    }
+  },
+  "original_native": {
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed-summary.json",
+      "sha256": "c5d918645078f7f9d30b1cbf6e5177eebddef46ef345abb7015781645463a2f2"
+    },
+    "native_record": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed_tail_0001.json.gz",
+      "sha256": "1470c291844bbc89cc9afe17d1a24a07aacad4728cf6fb92f8afb2da87961c57"
+    },
+    "converged": true,
+    "residual": 1.83393059818419e-09,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 1.83393059818419e-09,
+        "minA": 0.5218911771526341,
+        "minD": 0.9991194339543634
+      }
+    ],
+    "finite_jacobian_entries": 208,
+    "audit_returned": true,
+    "audit_scalars": {
+      "fullD": 0.0003267819913819573,
+      "normalizedFullDefect": 0.0004899816101957486,
+      "minLeading": 0.5218911771526341,
+      "minD": 0.999119451913655,
+      "formalCurvature": 8.409066975650793,
+      "maxPhysicalPV": 0.00033203135114330556,
+      "actualMetric": 4.6244152951402384e-08,
+      "holonomy": 3.844603138248464e-19
+    },
+    "final_state_nodes": 1153,
+    "native_history_rows": 1,
+    "final_states_equal_candidate": true,
+    "native_calls": 1,
+    "worker_returncode": 0
+  },
+  "execution": {
+    "session": 4232,
+    "launch_tool_chunk": "ec2fb1",
+    "terminal_tool_chunk": "67f901",
+    "observed_utc": "2026-11-18T04:34:28Z",
+    "observer_returncode": 0,
+    "child_returncode": 0,
+    "seconds": 42.130162804001884,
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/resource.json",
+      "sha256": "18b94a91d77d2f83c4e661164b82abc06d918bd33836858ca30c46b2f4b0bbb8"
+    },
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/launch-command.json",
+      "sha256": "5860275c653ea8f47ac1fef7567a8b97729c5eb4a22958fee4f655dd022a71db"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+      "--source-topic",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/launch-plan.json",
+      "--source-plan-sha",
+      "053f0881a110506727f41538c9196463e8cc04928fab6a4a86e1e1706e8fff24",
+      "--accepted",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/seed_tail_0001.json.gz",
+      "--accepted-sha",
+      "c807ab79ef1ca6d6a4b7954c9632d1defdee6e29bb1cf3380b737ffb7387c406",
+      "--seam-failure",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/seed_tail_0002.json.gz",
+      "--failure-sha",
+      "69e2d545dad75affedcde4872fcdf2fc86bb0e42234489c21887b58f81eed5bd",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ],
+    "observer_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/resource.json",
+      "--log",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/stdout.log",
+      "--",
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+      "--source-topic",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/launch-plan.json",
+      "--source-plan-sha",
+      "053f0881a110506727f41538c9196463e8cc04928fab6a4a86e1e1706e8fff24",
+      "--accepted",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/seed_tail_0001.json.gz",
+      "--accepted-sha",
+      "c807ab79ef1ca6d6a4b7954c9632d1defdee6e29bb1cf3380b737ffb7387c406",
+      "--seam-failure",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/seed_tail_0002.json.gz",
+      "--failure-sha",
+      "69e2d545dad75affedcde4872fcdf2fc86bb0e42234489c21887b58f81eed5bd",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-seam-preserved-v1/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ]
+  },
+  "scope_boundaries": [
+    "Only one new actual-H initializer and one original native solve are executed; no parameter sweep or automatic retry.",
+    "No full-stage locator/replay was needed for this already observed near-H predictor change.",
+    "No prefix BVP, mean-height integration, metric audit or seam audit is run in this batch.",
+    "A real accepted response for the exact new H is returned; the prior accepted response is not substituted for different boundary data.",
+    "The finite audit readouts are returned values, not continuous geometry certificates or extra modified acceptance gates."
+  ]
+}
