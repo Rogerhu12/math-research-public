@@ -1,0 +1,205 @@
+{
+  "scope": "Read one started mode-continuation entry and its first complete native batch.\n\nNo model, flow, Jacobian or solve is invoked. An immutable prefix of the\nobserved logs is retained; the surrounding original solve may continue.\nM20 evidence is not relabeled as M24 evidence, and q/controls remain free.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_raw_mode_entry.py",
+    "sha256": "0360193b2f7f9d65db6073504f161752a905b1391f6a3ee38238de3556c4d9c4"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_raw_mode_entry.py",
+    "--run-directory",
+    "n4_work/native-raw-fullH-m24-v1",
+    "--preparation",
+    "n4_work/native-parallel-m24-v1/preparation.json",
+    "--out",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_raw_M24_entry.json"
+  ],
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/observed-plan.json",
+    "sha256": "cee3063de23acd21a4d31eaf4d18e8730f1b3d9d1acc6ff1f833f5e33947cfc5"
+  },
+  "preparation": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-m24-v1/preparation.json",
+    "sha256": "145ec15cd6c30fe52a56e3cac7c26bf0cbd37d85c6dab70bd6f31ad7935e23b0"
+  },
+  "execution_source_files": {
+    "runner": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/run_observed_raw_actual_tail.py",
+      "sha256": "6d0f46ce1a8cdc3a475623a634d5dacebb6a1aa64640542b0a2a24125431e385"
+    },
+    "original_driver": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/couple_raw_actual_tail.py",
+      "sha256": "00b63349bb964d7da84ec0a0f3abbd89943eaff16e7a466c2a694f12f45eb21d"
+    },
+    "derived_driver": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/observed_raw_coupler.py",
+      "sha256": "fbd6449d678ea4ac5be5dfc1ff219bfb12421cf41dad28f47b660d3001bdc8f9"
+    },
+    "original_arguments": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/original-arguments.json",
+      "sha256": "06d2ecd4fa72e267f09feee182003c6ca3ef9fba410e846e798ca227413a797e"
+    },
+    "input_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-v1/seed.json.gz",
+      "sha256": "db78f24808e87420a30faed2759c6a44f0980f6eefe872cc0a67cb51ca9a433c"
+    },
+    "input_audit": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/input-actual-audit-view.json",
+      "sha256": "97c11e1c2836b4d393a58f090a9d893137f6e7c2d2c503097b8d33d531a19870"
+    },
+    "manifest": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-m24-v1/manifest.json",
+      "sha256": "4a2c3896f119b869740d8baa520d4d7473a8b29d477e4105d70ed4edf83fde6e"
+    },
+    "input_tail": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-v1/seed-tail_0004.json.gz",
+      "sha256": "c782c31c544bdc0839a8719f658b2919847c86c1f02bbcfa99bdc3ba66489138"
+    },
+    "config": {
+      "path": "/workspace/scratch/7322d0dee069/transfer_work/n4-thicker-cut/w016-config.json",
+      "sha256": "d17f869cd3738d957021ed2e846a349a1f0edd12c05e39bcf8571fc56ead7020"
+    },
+    "sparse_helper": {
+      "path": "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "sha256": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    },
+    "python": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+    }
+  },
+  "unchanged_prefix_source_count": 73,
+  "immutable_execution_prefixes": {
+    "seed_events": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/entry-returned-events-prefix.jsonl",
+      "sha256": "c50cc3ddaa011b14412c1fc5c5255272b843e57e4eb307414da6c4c9edd14490"
+    },
+    "worker_trace": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/entry-worker-trace-prefix.jsonl",
+      "sha256": "715973eefcf981357e7b1e4a2481d8c0ce4ebeaf4c36daa58f89650e24ba5b33"
+    },
+    "native_events": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/entry-native-events-prefix.jsonl",
+      "sha256": "073a2eea362625489174d785625ef254c27540a0a04ce93be485e117a5d8a562"
+    }
+  },
+  "actual_config": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/seed-config.json",
+    "sha256": "e27a5e598f295758d9cf06249fb5d5f756a2bddb062da52b2fd7edb656f00f6c"
+  },
+  "actual_runtime_scope": {
+    "M": 24,
+    "spacing": 4,
+    "quadrature": 512,
+    "steps": 16,
+    "projectionFloor": 0.05,
+    "orientation": 1,
+    "cuspAwareFlow": true,
+    "stageCount": 2304
+  },
+  "input_coefficient_chunks": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-v1/seed_coeff_00.npy.gz",
+      "sha256": "f0568d6e5bb7dfb64e10717fc27379f5975afa6a119212a4cac38f4543399ca5"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-v1/seed_coeff_01.npy.gz",
+      "sha256": "5c2c341629157b1bcea5afb5f62d7fb66795693ea0d38a0f72658d87b8e4e2ca"
+    }
+  ],
+  "physical_profile": {
+    "direction": "outward",
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    },
+    "vu": 0.35,
+    "ramp": 0.45,
+    "vd": 0.25018727173023186,
+    "delta": 0.030158202455449618
+  },
+  "core_settings": {
+    "halfwidth": 0.147,
+    "transition": 0.16,
+    "control_transition": 0.16,
+    "homotopy": 0.02,
+    "center": 0.7853981633974483,
+    "bimodal_eta": 0.1
+  },
+  "raw_control_anchor_modes": 16,
+  "free_c8": true,
+  "source_core_controls": 19,
+  "target_core_controls": 23,
+  "gauge_amplitude": 0.0125,
+  "input_displayed_actual_q": 0.012488348123231355,
+  "parameter_rebuilt_initial_q": 0.012488348123231354,
+  "q_and_all_controls_remain_solver_unknowns": true,
+  "not_README_item5_fixed_all_parameters_certification": true,
+  "core_jet_identity_sampling": 1024,
+  "complete_material_core_jet_sample_errors": {
+    "F": 0.0,
+    "Ft": 0.0,
+    "Ftt": 0.0
+  },
+  "complete_map_projection_error": 4.440892098500626e-16,
+  "preserved_input_mesh_nodes": 2282,
+  "original_nested_tail_initialization": {
+    "time": "2026-11-18T05:25:07.012Z",
+    "event": "warm_initial_state",
+    "source": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-v1/seed-tail_0004.json.gz",
+    "sourceModes": 20,
+    "targetModes": 24,
+    "depth": 8
+  },
+  "complete_initial_H_components": 24,
+  "complete_initial_H_sha256": "d825a1084be39320a111cd16b90e5dd4942aab647a2b710d75958db5f76f58a1",
+  "first_height": -9.422721665900604e-06,
+  "second_height": -3.511911461730896e-08,
+  "first_complete_native_record": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/native-evaluates/0001-jac-record.json",
+    "sha256": "b432a552beb18b906cc700f5d58923b7a2d49956ced25b26b7b5c472e8b9809a"
+  },
+  "first_complete_native_input": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/native-evaluates/0001-jac-input.bin",
+    "sha256": "2bed40831c3d3662d0cb22f3d2c8e5121ad38ac0d84e752b4043ea096d4b15ba"
+  },
+  "first_complete_native_output": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/native-evaluates/0001-jac-output.bin",
+    "sha256": "be5b7a331919ad030f5a058767908ff65ab90bd7bdd99470250dacc82e2925e7"
+  },
+  "static_metadata": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/native-evaluates/static-metadata.json.gz",
+    "sha256": "76f9364f6abcd64e64468c5a9854321b57678a66493750bd918aa59adb1a48dd"
+  },
+  "actual_grid_and_wire_counts": {
+    "stageCount": 2304,
+    "totalSteps": 36891,
+    "totalUniquePoints": 76086,
+    "stagesWithExtraCuspSteps": 27,
+    "headerBytes": 50476,
+    "inputBytes": 24231352,
+    "stateOnlyOutputBytes": 1087576,
+    "fullJacOutputBytes": 45324376
+  },
+  "actual_first_fullJac_state_scalars": 115200,
+  "actual_first_fullJac_tangent_scalars": 5529600,
+  "first_native_process_seconds": 141.552986279,
+  "first_parallel_record": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/native-evaluates/0001-jac-output.bin.parallel.json",
+    "sha256": "248e2e7e4ee2fa1d2f5b2dade3e069f0bbc91b79ed01388687a166419fd9bbdc"
+  },
+  "unchanged_CLI_child_successes": 4,
+  "observer_session": 27744,
+  "whole_program_terminal_claimed": false,
+  "actual_tail_or_prefix_acceptance_claimed": false,
+  "old_M20_three_fixture_validation_is_not_new_M24_validation": true,
+  "raw_inner_and_completed_prefix_audit_saves_installed": true,
+  "no_new_mathematical_evaluation_by_collector": true
+}

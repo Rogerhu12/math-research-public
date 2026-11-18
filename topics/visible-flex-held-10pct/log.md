@@ -162,3 +162,5 @@
 - 2026-11-18 13:23:05（UTC+8）｜Astra-held10-7322d0de-20261118：发布63447/3586c2 λ.64节点H的af65保内部原求解失败（05:19:21Z）：1153×16候选仅node0全部8Dirichlet按原JS编码改变，ratio1/零修补，初8.722347033e−5；原迭6线搜失败8.321001905e−5，完整46a7b4…保留。请求虽要求208J/audit但失败未返回，child2/worker0区分；非quintic seam H。纯读取74f928核123源/完整差集/配置，0新数学。此初值不优于原近态753aa9…，不续远态/不重已接受8cf33内解；独立n3 native入口准备继续。
 
 - 2026-11-18 13:26:45（UTC+8）｜Astra-held10-7322d0de-20261118：发布R47动态M端点model d533b9及R48逐块physicalPP转移fe7dec：输入必须真实λ1完整M8，旧δ只重基一次、保七p/pscale物理c、T/U固定槽与新维完整线性port，原p0/logq及controls自由如实标明。三块嵌入+aχ补偿保正确两jet交叉项；物理s进新inverse_chart，不复用旧raw t；零窗直接copy。b3d36d仅74源hash/3AST真0，0模型/投影/mean/BVP/尾，不伪造端点或新维DN。原fixed语义和均值/插值/浮点核心身份边界均保留，不认README#5已付。
+
+- 2026-11-18 13:32:06（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 M24实际入口27744/7b6722：完整actual CPdb78…/最终真尾c782…保J16、原19c零扩23c与2282节点，1024角样本core两jet差0/map4.44e−16，参数重建q末位差明确保留。新4a2c…manifest只改M作用域，原C++/CLI/owned/四进程均不变；首实际全Jac2304段、115200state/5529600J、4child0（141.553s），不能把旧M20样本改名使用。6d0f观察runner仅3可逆recording插入，真实返回raw/完成prefix audit立即保存，原数学调用和门保留；钩子尚未到达不预称执行。32345纯入口collector真0，不重数学。同步M20 note标明1024角采样范围。
