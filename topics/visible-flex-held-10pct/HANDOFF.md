@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`708e210bf029c5532de78289be9cb81818d06f92`。2026-11-18 08:26:45（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`071194c0b9e3cc41b377b68df83c2b8965d7edb7`。2026-11-18 08:29:29（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -38,11 +38,11 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **R42/R43坐标定理**：W²正交后固定两列消矩，Gram=I+CᵀC且与原λ1 raw finite span相同。R43复用R41固定a=.21/bc=.4真矩，仅新增χ²三积分，精确2×2 Sylvester给所有M谱[1,13.92415)，不借浮点正交系数。有限M16新Gram条件2.061/旧5.788e11不等于C²/实际Jac界，原生产核未改。见R42、R43-fixed-supported-window-strict-gram-constant。
 
-**严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]、相位.7046/H角[.3521,.3525]。R38重算圆心与真实三阶矩，在even C4保护弧零控制且||b+b″||≤.08时rho>.1642566、平面m3>.0948878、柱D<2.3181；完整未标记图若D≤2.6498/支撑≥.0801/|κ|≤12.5等全部成立，三重帽可得held/D>.105514、reach/D>.03018及全O(3)非全等。柱长.54/.5401须按实际全图矩选。全图假设尚未兑现。R40对原flat ramp、q∈[.039,.041]/δ≥.060严格给χ/R>.21088277799>.21；宽度无关且实际binary参数也过，但不证λ1解存在。
+**严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]。R38在even C4弧上零控制且||b+b″||≤.08时给rho>.1642566、平面m3>.0948878、柱D<2.3181；若完整未标记图D≤2.6498/支撑≥.0801/|κ|≤12.5及原文全部C²/对称/帽等假设成立，则held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H角与柱长按实际全图矩选，全部图假设未付，不能继承给改变后的控制。R40对q∈[.039,.041]/δ≥.060原flat ramp严格给χ/R>.21088277799>.21；宽度无关但不证λ1存在。
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支** beta4.625：旧parts8三版候选失败/inner cubic未存已封存。parts16新H的stage86/mode3仅+1ULP后原worker接受1.818205542e−9/208有限Jac/audit，850f81a…，见q060-parts16-named-neighbor-original-acceptance。自动恢复尚未成功E2E。33116独立H_old原iter3失败3.671459625e−9，adf477…已存；外部候选明确V8 heap-limit/−6，未进inner，见q060-parts16-warmup-and-candidate-heap-terminal。v3只传同heap3072；补完93784真exit0，3实际试步0改善/fullreplay同，原状态未改/无DN重试。row86 c8/c11并列峰由依赖式推出，见q060-warmup-resource-candidate-tied-peak；下一项仅两具名邻数，不扩大搜索。仍无新prefix/闭面。
+**q060高幅支** beta4.625：旧parts8三版失败/未存inner封存；parts16 H_new单邻数原接受1.818205542e−9，见q060-parts16-named-neighbor-original-acceptance。33116独立H_old失败3.671459625e−9、外部V8 heap-limit/−6；v3只传heap3072，补完3试步0改善。row86 c8/c11局部均负邻数/并列峰，唯一两项初值原全replay1.8357298125e−9；首loader schema错误0请求，v2只修错误字符串核对。51467原worker迭0接受同H_old/208Jac/audit，1153状态逐位同候选，c57fe4…，见q060-warmup-two-neighbors-original-acceptance。两H不可互借；正接回原prefix/raw-inner/DN锚保存，自动恢复成功E2E未付，无新闭面。
 
 ## 3. 全闭表示与严格连续metric
 
