@@ -1,0 +1,84 @@
+{
+  "scope": "Exact scalar margins for the trace-adjusted conditional circle window.\n\nThis reuses the already proved R38 primary bound, not a new core evaluation.\nNo BVP, field, tail, metric, interval grid or candidate is computed.\n",
+  "arithmetic": "exact rational; decimal fields are display only",
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "topics/visible-flex-held-10pct/scripts/resume_transfer/certify_trace_adjusted_circle_window.py",
+    "--topic",
+    "topics/visible-flex-held-10pct",
+    "--output",
+    "topics/visible-flex-held-10pct/scripts/resume_transfer/trace_adjusted_circle_window_execution.json"
+  ],
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/certify_trace_adjusted_circle_window.py",
+    "sha256": "21b19c14e7530c2a7e57c8b071c47eea0d150a63c40ceb31796901607ee63b72"
+  },
+  "proved_dependencies": {
+    "results/R3-rigid-arc-regripping-and-Hausdorff-amplification.md": "3a886d26993a3c3c63cae5b7de30a834ac8e339778d214f0f01afcbe364f7ebc",
+    "results/R6-threefold-markers-and-strict-noncongruence.md": "9a842a85a997cb631d18b0b2d936cc6e361b5d64e2accb0539b9452bcc351bd8",
+    "results/R38-wide-primary-circle-controlled-moment-window.md": "3aa6d1d271d3e17506ad2cf0635d9445be5811594133086cc341e24fd2451489",
+    "results/R44-circle-trace-controls-complete-two-missing-directions.md": "7f518310c234d8e41a856c0a4c940a2987f9c24379469f9c2ce11f8629a44071"
+  },
+  "assumptions": {
+    "q_interval": [
+      "849/10000",
+      "851/10000"
+    ],
+    "halfwidth": "21/100",
+    "full_control_curvature_sup": "<=2/25",
+    "actual_trace": "b=t+(u-t)cos(d) on the protected arc",
+    "trace_condition": "t-u>=-1/40",
+    "material_epsilon": "1/10000",
+    "complete_geometry": "All R38 section 6 whole-family assumptions, with this actual core, remain required"
+  },
+  "exact_scalars": {
+    "radius_lower": {
+      "numerator": "1999",
+      "denominator": "1250",
+      "decimal_for_reading_only": "1.5992"
+    },
+    "radius_upper": {
+      "numerator": "2201",
+      "denominator": "1250",
+      "decimal_for_reading_only": "1.7608"
+    },
+    "center_lower": {
+      "numerator": "750860567250871214351390333702416654961630687597",
+      "denominator": "1000000000000000000000000000000000000000000000000",
+      "decimal_for_reading_only": "0.750860567250871214351390333702416654961630687597"
+    },
+    "phase_angle_lower": {
+      "numerator": "83933",
+      "denominator": "399800",
+      "decimal_for_reading_only": "0.209937468734367183591795897948974487243621810905452726363182"
+    },
+    "sine_lower": {
+      "numerator": "79903837588992763",
+      "denominator": "383424287952000000",
+      "decimal_for_reading_only": "0.208395347138248424321611896342459586244150657820923518479362"
+    },
+    "held_ratio_lower": {
+      "numerator": "259793075448827773449051341788640002704631871425655768730263118319823124533220623",
+      "denominator": "2540185907682000000000000000000000000000000000000000000000000000000000000000000000",
+      "decimal_for_reading_only": "0.102273252781682098770869273398778508476570698746355399012632"
+    },
+    "maximum_phase_upper": {
+      "numerator": "92417",
+      "denominator": "125000",
+      "decimal_for_reading_only": "0.739336"
+    },
+    "holding_set_diameter_ratio_lower": {
+      "numerator": "54",
+      "denominator": "265",
+      "decimal_for_reading_only": "0.203773584905660377358490566037735849056603773584905660377358"
+    },
+    "reach_ratio_lower": {
+      "numerator": "8",
+      "denominator": "265",
+      "decimal_for_reading_only": "0.0301886792452830188679245283018867924528301886792452830188679"
+    }
+  },
+  "strict_conclusion": "conditional held/D > 511/5000 = 0.1022",
+  "no_actual_candidate_tested": true,
+  "no_equations_or_metric_evaluated": true
+}

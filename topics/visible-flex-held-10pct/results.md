@@ -52,6 +52,7 @@
 - [R43：固定保护窗的严格统一 Gram 常数小于 14](results/R43-fixed-supported-window-strict-gram-constant.md)。已登记正文的索引补全，结论范围以原文为准。
 - [R44. 偶三重圆弧相容控制空间的两维补全](results/R44-circle-trace-controls-complete-two-missing-directions.md)。已登记正文的索引补全，结论范围以原文为准。
 - [R45：完整余弦到圆弧迹的有限空间路径与同步 lift](results/R45-finite-trace-homotopy-and-synchronous-lift.md)。已证明全 λ 有限列独立、固定 M 的 Gram 定性正下界、真主矩规范及同步 lift 入口恒等式；未给 BVP 存在性、实际 Jacobian 条件或完整几何。
+- [R46：允许圆半径和圆心控制的 10.22% 条件窗口](results/R46-trace-adjusted-controlled-circle-window.md)。同 R38 主核与完整控制范数下，新增迹条件 t−u≥−.025，按实际圆半径/圆心重选固定材料区与相位；已证明条件 held/D>.1022，未认证任何实际候选或省略完整图前提。
 
 ## R27. 同一固定背景的真积分精细区间
 

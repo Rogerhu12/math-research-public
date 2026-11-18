@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`85d78aeb4a50745ae056c00252bcb040c05f2ad5`。2026-11-18 11:54:18（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`abed990486deaa9fa53211f65332f0683b3e4b0b`。2026-11-18 11:56:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -43,6 +43,8 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 **R44** 偶C4/C3、低两矩零且弧上rho常数的空间=X0直和span{SA,SB}；弧迹1/cos(d)分别改半径/圆心，T=SA−SB、U=SB。替末两列保维但改变span；真积分/组合guard/链式导数已核，不证BVP/连续几何。旧完整两jet失败、唯一半步guard正但RMS3.80379，未BVP/尾，见circle-trace-space及half-twojet notes。
 
 **旧raw主矩匹配** 唯一q=.03469511580330426初猜guard正/RMS1.441695291、未BVP/metric，16H一项+1ULP。见m3-circle-primary-matched-amplitude/m3-primary-matched-trace-initializer；已转q060，不重跑或移用R38/40/41数值界。
+
+**R46新迹条件窗** R38同主核q∈[.0849,.0851]、完整even/C3控制rho范数≤.08且t−u≥−.025时，重新用实际R=1+8q+t/c=qC*+t−u选择固定H/相位，条件held/D>.1022。完整图/metric/收敛仍未付；不套partialλ，见R46。
 
 **严格条件窗** R32/R38：n3/eta0/a=.21/q∈[.0849,.0851]，R38另要求弧上零even C4控制rho范数≤.08。若完整图满足原文全部C²/对称/帽及D≤2.6498/支撑≥.0801/|κ|≤12.5，才有held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H固定、柱长按实际全图矩选；新T/U控制及新q不继承。R40以实际R=1+8q+t作单调推论：同原flat、R≥1.312/δ≥.06/0<Rv<1仍有χ/R>.21088277799。q060初猜精确R=26312274100032071/18014398509481984已绑定；终态须重核，不证弧消失/λ1存在。见r44-trace-radius-ramp-corollary。
 
