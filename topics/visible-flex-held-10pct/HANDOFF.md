@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`6cc45274b3a8dd6ed35c82a1b5dc5ca35ce84ada`。2026-11-18 11:47:39（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`39c4978ff1aa3c83f7e725612c33e49a03cfc281`。2026-11-18 11:48:38（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -52,7 +52,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060→R44实际联立** 旧λ1/M8/q=.05210565550627671：12897原RMS域异常无完整末态；五点82557返回status1/maxnodes、2431点/RMS1.386061569，失败C² CP先存后mean-height域异常，新tail0/无metric。见两coupled/Lobatto终态，不重跑。参数诊断87257固定24stencil全原域过，七控制最细逐项归一差3.5922e−8、T非单调、δ原FD，不证完整Jac条件，见q060-trace-parameter-jacobian-terminal。
 
-**R45新路径** 固定M全λ列独立、Gram定性正下界及同步lift恒等式已证，非BVP存在。qseed=原binary64(.06)/Pλ，gauge/warp/7pscale/25态保留；λ0旧图、λ1真Γ、中间mean另付。5281身份过；94553 λ.02原inner接受493点/RMS9.87364e−7。仅节点86两邻数后10285原尾接受1.83393145e−9/208Jac+audit（d65514…），H/边界不变，见two-neighbors-original-acceptance。35664保原x/y/p/cubic，复用同H真响应；原BC3.42539e−14通过且无新inner。物理quintic端点四H移1/4/2/1ULP，真实新尾失败3.66786e−9，metric虽算未保存，不称完整接受。84464只改d655节点0至新H、内部不变后原门再验；closed接原物理后处理。详见R45/q060-trace-path系列。
+**R45新路径** 固定M全λ列独立、Gram定性正下界及同步lift恒等式已证，非BVP存在。qseed=原binary64(.06)/Pλ，gauge/warp/7pscale/25态保留；λ0旧图、λ1真Γ、中间mean另付。5281身份过；94553 λ.02原inner接受493点/RMS9.87364e−7。仅节点86两邻数后10285原尾接受1.83393145e−9/208Jac+audit（d65514…），H/边界不变，见two-neighbors-original-acceptance。35664保原x/y/p/cubic，复用同H真响应；原BC3.42539e−14通过且无新inner。物理quintic端点四H移1/4/2/1ULP，真实新尾失败3.66786e−9，metric虽算未保存，不称完整接受。84464仅改d655节点0四Dirichlet后，新物理H原尾24dd35…也接受1.83393e−9/208Jac+audit；closed接原quintic后处理，完整metric待落盘。详见R45/q060-trace-path系列。
 
 ## 3. 全闭表示与严格连续metric
 
