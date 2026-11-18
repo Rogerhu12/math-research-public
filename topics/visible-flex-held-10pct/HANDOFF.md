@@ -7,18 +7,18 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`fcaec7dd524a829462e0fde27010e34a86a54ec0`。2026-11-18 09:34:20（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`168168c9d9112897eafc68c5faa2c5a0700835e3`。2026-11-18 09:36:23（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20**：19c/free c8有限前缀metric8.91017947e−7仍linear DN/非精化。真尾.2H/.5H parts16/32及175单邻数后原DN均失败；最新b4356…/65373为7.42928942e−9，无接受尾/Jac/audit。全replay同，六超门stage37–40/43–44，主峰43/m76=+18ULP而单ULP/scale<门，非精度下界；见n4-primary-width及parts32 notes。原非线性binary64，旧longdouble仅线性修正。三stage43/38/175原3×42逐位同后，独立Neumaier四项和不改峰；独立Kahan state累加给2.06369e−9/5.21588e−9/1.52119e−8，均无接受。冻结evaluator的126输出/116608事件与原float同；60/90位均真实exit0，126输出层差≤1.04663e−57、舍入同、192root分支同，无fallback。MP90固定目标残差4.05731e−9/4.86089e−9/1.35202e−8，三处仍超原2e−9门，不能凭较小残差选算术。见n4-frozen-flow-float-baseline/n4-frozen-flow-mp60-mp90；非连续ODE界/新尾接受，不安装生产，192root×20的L−target均非零且相减精确；仅三首root新捕获quad，L+quad舍入使9/10/1分量残差显示0而精确已表示和非零。最强RHS抵消处相减亦精确，不能归因最后加法；具名单L-ULP线性权重≤.0889门仅局部诊断。见n4-root-representation-and-rhs-cancellation，下一独立ell根及字面系数RHS两臂、对MP90比较，不以target残差选。
+**新主b=.16/λ=.02/M20**：全19c/free c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及175单邻数原DN均失败；最新b4356…原重放同7.42928942e−9，六超门stage37–40/43–44，单ULP/scale<门，非精度下界，无接受尾/Jac/audit。见n4-primary-width及parts32 notes。原float的126输出/116608事件已同源逐位核；MP60/90层差≤1.04663e−57且同舍入/192root分支同，MP90固定目标残差4.05731e−9/4.86089e−9/1.35202e−8均超门。独立Neumaier四项和不改峰，独立Kahan累加未使原目标全接受；不据较小target残差选算术。192root×20的L−target相减精确；三首root新quad使9/10/1个隐藏表示残差可核，最强RHS抵消相减亦精确。单L-ULP线性权重≤.0889门仅局部诊断。见n4-frozen-flow-mp60-mp90/n4-root-representation-and-rhs-cancellation；下一ell根及字面系数RHS两臂对MP90全42误差，不生产安装/全DN，不宣称连续ODE界。
 
 旧b.08 raw λ.02 M16→M20 metric2.41705e−6→3.43423e−6；M24触6000门/RMS.0032079，无完整metric，不盲升M28。cond1/H²白化及全核/低通法向图无有效收益，保现图。主b.16改善二阶谱支持新设计；见raw-lambda002-fixed-m24-terminal、primary-width及normal-angle-chart相关notes。有限FFT非连续证书。
 
-**旧actual固定g** eta.1/q*.01：M20 metric1.950429e−9→M24/parts16四尾接受后8.15575e−9，Darboux降2.46911e−6；λ0/非单调或闭合。旧parts8 worker−9不猜OOM，原门5.41094e−9失败/mode96非1ULP；见n4-actual-fixed-m24-parts16/n4-m24-tail-residual-location。
+**旧actual固定g** eta.1/q*.01：M20→M24/parts16四尾接受，metric1.950429e−9→8.15575e−9变坏而Darboux降2.46911e−6；λ0/非闭合或单调。旧worker−9不猜OOM，见n4-actual-fixed-m24-parts16/n4-m24-tail-residual-location。
 
 R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低幅λ失败不重跑；R19/19A与q.049的10%仍条件预算，见n4 notes。
 
@@ -44,7 +44,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支** 原余弦q.06/beta4.625已有限真联立接受：41319精确续接后仅1新原步，CP4755143b…/1934点/RMS9.97758523e−7/BC9.17879e−12；完整有限metric3.79125e−8/Darboux.00162391。3尾均208Jac/原门接受，末1.8339313e−9及audit；导出3分量各1ULP的新H另验收。δ.06104275721220832/全7c/profile/warp.06/chart/port/尾参数全锁terminal record；mean2 seam6.64415e−11/nonmean2 9.57232e−8未补C²闭合/连续界。见q060-exact-saved-inner-original-acceptance，恢复/旧失败不重跑。原cosine参考reader已绑定62来源/输入/块，CLI仅metadata，native_reference尚未执行；M8/全25态/原h字面Pold=1，禁止伪raw元数据或默认M16。见q060-original-cosine-reference-interface。下一唯一主矩/完整两jet自然M8新设计初猜，原fixed=False p0不得重复加到最终δ；meanheight须原height_integral。仍无圆弧/全闭/10%。
+**q060高幅支** 原余弦q.06/beta4.625已有限真联立接受：41319精确续接后仅1新原步，CP4755143b…/1934点/RMS9.97758523e−7/BC9.17879e−12；完整有限metric3.79125e−8/Darboux.00162391。3尾均208Jac/原门接受，末1.8339313e−9及audit；导出3分量各1ULP的新H另验收。δ.06104275721220832/全7c/profile/warp.06/chart/port/尾参数全锁terminal record；mean2 seam6.64415e−11/nonmean2 9.57232e−8未补C²闭合/连续界。见q060-exact-saved-inner-original-acceptance，恢复/旧失败不重跑。原cosine参考reader已绑定62来源/输入/块，CLI仅metadata，native_reference尚未执行；M8/全25态/原h字面Pold=1，禁止伪raw元数据或默认M16。见q060-original-cosine-reference-interface。新设计已锁唯一q=.05210565550627671（真Pnew/nearest bin）、M8 B2..B6+T/U、旧全7c两jet；metadata身份19d09a…/源2d9054…已独审，尚未初猜。原fixed=False p0不重加到最终δ，新p0=0，meanheight须原height_integral。见q060-m8-circle-trace-design-binding，下一唯一原域/RMS诊断。仍无圆弧/全闭/10%。
 
 ## 3. 全闭表示与严格连续metric
 

@@ -1,0 +1,243 @@
+{
+  "scope": "Bind one q060-cosine to M8 circle-trace design, then optionally its initializer.\n\nThe default command performs source/metadata binding and the unique scalar\nprimary match only. It does not call native_reference, construct either core,\nreproject a state, or call any solver. An explicit --evaluate-initializer with\nthe frozen --evaluation-plan is the separate finite diagnostic entry.\n\nOld: genuine accepted cosine q=.06, M8, 25 physical-quintic states, original\nadaptive chart and warp reference .06. The final frozen profile is used as-is;\nthe historical fixed=False p0 is not added to it again. New: lambda1, a=.21,\nbp=.32, bc=.4, M8 space B2..B6 plus T=SA-SB,U=SB, and q=.06/Pnew. This is a\nnew physical design and finite span, not fixed-g refinement or M16 embedding.\n",
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_circle_trace_design.py": "2d9054efe56f8c0374b4cf12708a162de87e8857f90489d9c6674085f859b92e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference.py": "776bd257f9a299cce73d215597dcf2d02d161bf493deb2a66f9ece0972a327d4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/match_m3_circle_primary_moment.py": "bdcca0c9f12db1fed025b53e905e6e274b7bd61ec39c4a697e1ec066b214e302",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_basis.py": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_core.py": "4f9351cb356ce33da28d2d4a36a09d14606f3627846b5bf35d7f73478939cb18",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/raw_second_order_core.py": "79b7ddec4c3721e575816c30f94fb441bb76acb215d3453abe3cdce501850e24",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+  },
+  "design": {
+    "old_reference_binding": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference_binding.json",
+      "sha256": "01bfeedc8a160daf8ccae91a66b2f65d99c934166d26592b6a0e2b25049b0897"
+    },
+    "old_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed.json.gz",
+      "sha256": "4755143bb3c02c28669eebaa2db53ad97142acec799afd4136125db4277350d9"
+    },
+    "old_coefficient_chunks": [
+      {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_coeff_00.npy.gz",
+        "sha256": "a3434077ca4b42effcfdb80ce196f6e3bb52f37501f8d5319674ad66e2dc8249",
+        "shape": [
+          6,
+          1933,
+          25
+        ],
+        "dtype": "float64",
+        "state_first": 0,
+        "state_last_exclusive": 25
+      }
+    ],
+    "reader": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference.py",
+      "sha256": "776bd257f9a299cce73d215597dcf2d02d161bf493deb2a66f9ece0972a327d4"
+    },
+    "actual_affine_tail_anchor": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0003.json.gz",
+      "sha256": "ae01f13ad7b28b82481a3417471c4fd5511b145bb50bd2be73a4386897a0db1e",
+      "residual": 1.8339313038213144e-09,
+      "Jacobian_entries": 208,
+      "full_H": [
+        -0.00016709732888206937,
+        6.128522943475735e-06,
+        1.0871575800244308e-06,
+        5.781876843980236e-10,
+        -5.266474363212559e-09,
+        -1.1270132288442543e-09,
+        6.153289151492908e-11,
+        3.970751029636704e-11
+      ],
+      "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df"
+    },
+    "old_core": "Literal original finite cosine support; no raw/circle metadata or exact integral lift is attached to it.",
+    "old_modes": 8,
+    "new_modes": 8,
+    "old_state_components": 25,
+    "new_state_components": 25,
+    "old_q_gauge": 0.06,
+    "old_actual_core_q": 0.06,
+    "old_primary_factor": 1,
+    "old_primary_Q": 0.06,
+    "new_q": {
+      "rule": "q_old/Pnew, because the original cosine primary factor is exactly one",
+      "exact_enclosure": [
+        "0.0521056555062767062867881206225292015918",
+        "0.0521056555062767062867881206225292015919"
+      ],
+      "binary64": 0.05210565550627671,
+      "binary64_hex": "0x1.aad97acac1567p-5",
+      "nearest_binary64_proved": true,
+      "Pnew_enclosure": [
+        "1.1515064807652660623846741772778856031543",
+        "1.1515064807652660623846741772778856031544"
+      ]
+    },
+    "new_core_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.32,
+      "control_transition": 0.4,
+      "homotopy": 1.0,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "old_complete_controls": [
+      0.00046456731984427426,
+      -3.764304940447063e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      -5.925313956530067e-09,
+      7.680657966726738e-10
+    ],
+    "retained_old_indices": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "removed_old_indices": [
+      7,
+      8
+    ],
+    "new_columns": [
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "T=SA-SB",
+      "U=SB"
+    ],
+    "trace_rule": "Use all seven old cosine coefficients in h_old and rho_old. t=rho_old-(1+8*qnew), u=h_old-h_base_new, (A,B)=(t,u-t). The new retained B2..B6 vanish on the protected arc.",
+    "exact_old_centre": {
+      "normal_angle": "pi/3",
+      "h": [
+        "0.9405029417351825496480038924438333173346",
+        "0.9405029417351825496480038924438333173347"
+      ],
+      "rho": [
+        "1.4606246268051886525704434749090874105033",
+        "1.4606246268051886525704434749090874105034"
+      ],
+      "h_prime": 0,
+      "formula_h": "1-q_old+sum((-1)^j*c_j,j=2..8)",
+      "formula_rho": "1+8*q_old+sum((1-9*j*j)*(-1)^j*c_j,j=2..8)"
+    },
+    "physical_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06104275721220832,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "physical_profile_payload_sha256": "0ef46c2e0df1ed801fae96e9d6472fc4f484e58347a2e8a2cdea5b280ea9ab2b",
+    "old_historical_delta_parameter": -8.84429295772251e-06,
+    "new_initial_p0": 0.0,
+    "delta_semantics": "Old fixed=False p0 has already entered frozen_profile.delta. Start the new design at this final profile with p0=0; do not add the historical p0 again.",
+    "meridian_length_binary64": 1.3602524132788236,
+    "warp_reference_q": 0.06,
+    "original_chart": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+      "sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e"
+    },
+    "chart_payload_sha256": "22274daadd4119eae96401d277fec28017c01b468c714d2b41ce7b993a13e8cb",
+    "physical_port": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json",
+      "sha256": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846"
+    },
+    "original_physical_polynomial": {
+      "mesh_nodes": 1934,
+      "shape": [
+        6,
+        1933,
+        25
+      ],
+      "coordinate": "Physical s",
+      "extrapolate": false
+    },
+    "full_map_scope": "Original Flow.geo plus q_old times all25-state quintic, plus the original height_integral mean-height primitive. Projection uses the represented part because the vertical mean has no state column; its physical trajectory is never assumed zero.",
+    "new_reference_lift": "Install the actual new integral core lift once, with the existing (.5,.9)*prefix_end window, on a fresh new Flow class only.",
+    "reprojection": "Keep the identical old chart/warp/profile. Reproject old geo+q_old*old_field-new_geo into the new M8 field, divide by qnew, repair inlet using the original shared C2 window; no ratio-power restart.",
+    "full_H_scope": "Re-encode the complete old actual H by H_old/(sigma*qnew), record the actual multiply-back H and all last-bit differences. The saved response is an affine initial-residual anchor only.",
+    "unchanged_core_guard": {
+      "rho_floor": 1e-05,
+      "grid_ceiling": 32768,
+      "combined_trace_analytic_bounds": true
+    },
+    "unchanged_initial_discretization": {
+      "nodes_argument": 257,
+      "projection_angular": 4096,
+      "angular": 256
+    },
+    "unchanged_BC_weights": {
+      "physical_bc_tol": 2e-09,
+      "bc_tol": 1e-07
+    },
+    "no_claim": "No fixed-g refinement, M16 embedding, BVP acceptance, new actual-tail acceptance, complete metric or inherited R38/R40/R41 geometry."
+  },
+  "identity_sha256": "19d09a8199b4f91ab2479f736dc7763d506b8eae1af671ea5369927cbc80171a",
+  "native_reference_constructed": false,
+  "new_core_constructed": false,
+  "initializer_projected": false,
+  "BVP_solver_invoked": false,
+  "actual_tail_solver_invoked": false,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_circle_trace_design.py",
+    "--reference-binding",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference_binding.json",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-design-plan.json"
+  ],
+  "seconds": 0.18537145799928112,
+  "observed_execution": {
+    "tool_chunk": "0e6330",
+    "observed_returncode": 0,
+    "metadata_only": true,
+    "native_reference_constructed": false,
+    "new_core_constructed": false,
+    "initializer_projected": false,
+    "seconds": 0.18537145799928112
+  },
+  "raw_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-design-plan.json",
+    "sha256": "ce2533b9bb0342fdcb6a7c81560281e8ef47ace3798e0e9e79fc1b44a176d1fc"
+  }
+}
