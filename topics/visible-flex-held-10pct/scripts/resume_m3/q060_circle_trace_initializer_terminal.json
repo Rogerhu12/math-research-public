@@ -1,0 +1,382 @@
+{
+  "status": "Finite original initial-domain checks passed; no new solution was computed",
+  "probe": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-initializer-v1/initializer.json",
+    "sha256": "974ee6c90a142e983e91acfa8cd86bdda6aaa8ff9f7b7a33823480aad2a78538"
+  },
+  "resource": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-initializer-v1/resource.json",
+    "sha256": "d6441a7dea3c560e2e7abecd76a0a1dec072aa79f5136f03aba2f9bd90900f98"
+  },
+  "combined_stdout_stderr_log": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-initializer-v1/stdout.log",
+    "sha256": "31866a4dca890f03b63918d28cb76926b6d6571bc8406446e39a111529c086df"
+  },
+  "observer_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+    "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+  },
+  "collector_sha256": "2cea278b99860158ec7b77578351d5f20661d5fbd37ec201367491609a09999d",
+  "observed_execution": {
+    "tool_chunk": "3b93aa",
+    "observed_returncode": 0,
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T01:37:17Z",
+    "child_seconds": 4.0020350990016595,
+    "probe_seconds": 3.174047709995648,
+    "command": [
+      "python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_circle_trace_design.py",
+      "--reference-binding",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference_binding.json",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-initializer-v1/initializer.json",
+      "--evaluate-initializer",
+      "--evaluation-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-design-plan.json"
+    ],
+    "exit_provenance": "Original command exit observed by the independent observer and the terminal exec tool."
+  },
+  "evaluation_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-design-plan.json",
+    "sha256": "ce2533b9bb0342fdcb6a7c81560281e8ef47ace3798e0e9e79fc1b44a176d1fc"
+  },
+  "plan_identity_sha256": "19d09a8199b4f91ab2479f736dc7763d506b8eae1af671ea5369927cbc80171a",
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-warped-bvp.py": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-flat-accel-screen.py": "dca3d7fdd5495f4eeeea923522b3001499f48f4b770d262b43e6f88a80b8f6ef",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_core.py": "a529904e265ddc95635c6c6601ea173eb0e1383a75e458d3eaee024fe7078ead",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_flow.py": "0e5555fa23609e2e7154f0e952c6b7ddc402a4cf54be148842f36db886103dc5",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/notes/fixed_metric_mode3_bvp.py": "e2e5cf08339c82fac24ef296dc721cec4e43852d2a6d963721ce69a1d8d7a11c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_circle_trace_design.py": "2d9054efe56f8c0374b4cf12708a162de87e8857f90489d9c6674085f859b92e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference.py": "776bd257f9a299cce73d215597dcf2d02d161bf493deb2a66f9ece0972a327d4",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/match_m3_circle_primary_moment.py": "bdcca0c9f12db1fed025b53e905e6e274b7bd61ec39c4a697e1ec066b214e302",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_basis.py": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_core.py": "4f9351cb356ce33da28d2d4a36a09d14606f3627846b5bf35d7f73478939cb18",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/raw_second_order_core.py": "79b7ddec4c3721e575816c30f94fb441bb76acb215d3453abe3cdce501850e24",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462"
+  },
+  "old_reference_binding": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference_binding.json",
+    "sha256": "01bfeedc8a160daf8ccae91a66b2f65d99c934166d26592b6a0e2b25049b0897"
+  },
+  "old_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed.json.gz",
+    "sha256": "4755143bb3c02c28669eebaa2db53ad97142acec799afd4136125db4277350d9"
+  },
+  "old_coefficient_chunks": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_coeff_00.npy.gz",
+      "sha256": "a3434077ca4b42effcfdb80ce196f6e3bb52f37501f8d5319674ad66e2dc8249",
+      "shape": [
+        6,
+        1933,
+        25
+      ],
+      "dtype": "float64",
+      "state_first": 0,
+      "state_last_exclusive": 25
+    }
+  ],
+  "actual_affine_tail_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0003.json.gz",
+    "sha256": "ae01f13ad7b28b82481a3417471c4fd5511b145bb50bd2be73a4386897a0db1e",
+    "residual": 1.8339313038213144e-09,
+    "Jacobian_entries": 208,
+    "full_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df"
+  },
+  "new_core_settings": {
+    "halfwidth": 0.21,
+    "transition": 0.32,
+    "control_transition": 0.4,
+    "homotopy": 1.0,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768
+  },
+  "new_primary_q": {
+    "rule": "q_old/Pnew, because the original cosine primary factor is exactly one",
+    "exact_enclosure": [
+      "0.0521056555062767062867881206225292015918",
+      "0.0521056555062767062867881206225292015919"
+    ],
+    "binary64": 0.05210565550627671,
+    "binary64_hex": "0x1.aad97acac1567p-5",
+    "nearest_binary64_proved": true,
+    "Pnew_enclosure": [
+      "1.1515064807652660623846741772778856031543",
+      "1.1515064807652660623846741772778856031544"
+    ]
+  },
+  "old_modes": 8,
+  "new_modes": 8,
+  "state_components": 25,
+  "physical_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275721220832,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "meridian_length_binary64": 1.3602524132788236,
+  "warp_reference_q": 0.06,
+  "original_chart": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+    "sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e"
+  },
+  "chart_payload_sha256": "22274daadd4119eae96401d277fec28017c01b468c714d2b41ce7b993a13e8cb",
+  "physical_port": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json",
+    "sha256": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846"
+  },
+  "trace_mapping": {
+    "old_h": 0.9405029417351826,
+    "old_rho": 1.4606246268051888,
+    "new_base_h": 0.9406765345322124,
+    "new_base_rho": 1.4168452440502137,
+    "t": 0.04377938275497506,
+    "u": -0.00017359279702988673,
+    "A": 0.04377938275497506,
+    "B": -0.04395297555200495,
+    "old_all_seven_controls": [
+      0.00046456731984427426,
+      -3.764304940447063e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      -5.925313956530067e-09,
+      7.680657966726738e-10
+    ],
+    "intended_new_seven_controls": [
+      0.00046456731984427426,
+      -3.764304940447063e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      0.04377938275497506,
+      -0.00017359279702988673
+    ]
+  },
+  "actual_core": {
+    "physical_controls": [
+      0.00046456731984427426,
+      -3.7643049404470625e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      0.04377938275497506,
+      -0.00017359279702988673
+    ],
+    "parameters": [
+      0.0,
+      0.1711113935568827,
+      -0.2660910125859508,
+      0.08737295885412975,
+      -0.4501556729321496,
+      -4.610520452404791,
+      41983204.78213298,
+      -173592.79702988671
+    ],
+    "parameter_scales": [
+      0.0027149993357387845,
+      0.0001414668200877752,
+      7.37122139306204e-06,
+      3.8408232256738776e-07,
+      2.0012861185746954e-08,
+      1.0427832506394673e-09,
+      1e-09
+    ],
+    "summary": {
+      "core_kind": "exact_m3_circle_trace_replacement_integral",
+      "base_mode": 3,
+      "q_parameter": 0.05210565550627671,
+      "halfwidth": 0.21,
+      "transition": 0.32,
+      "homotopy": 1.0,
+      "center": 1.0471975511965976,
+      "exact_circle_only_at_homotopy_one": true,
+      "plateau_radius_at_one": 1.4606246268051888,
+      "plateau_normal_width": 0.42,
+      "plateau_material_length": 0.613462343258179,
+      "exact_perimeter": 6.283185307179586,
+      "rho_lower_conservative": 0.49475279238494585,
+      "rho_triangle_lower": -1.0584554092350846,
+      "positivity_grid_per_sector": 512,
+      "rho_derivative_bound": 34.771276035221526,
+      "rho_min_sample": 0.496879221074452,
+      "rho_max_sample": 1.4606246268051888,
+      "curvature_max_sample": 2.0125615191506685,
+      "radius_max_sample": 1.0610155186236927,
+      "quadrature_period_roundoff": 5.773159728050814e-15,
+      "scope": "Exact integral definition and independent evaluation; no Fourier truncation is called an exact circular arc.",
+      "control_family": "Retained raw B2..B(M-2), then T=SA-SB and U=SB",
+      "bimodal_eta": 0.0,
+      "ignored_correction_index": null,
+      "local_flatten_beta": -0.8806500290295584,
+      "circle_unit_rho": 8.0,
+      "target_family": "C4 local circle flattening of the double harmonic, with complementary mean correction",
+      "control_transition": 0.4,
+      "lock_fundamental": true,
+      "control_homotopy": "lambda-one new finite space only",
+      "control_projection_order": 8,
+      "rho_triangle_upper": 3.0125685622008787,
+      "rho_value_roundoff_allowance": 3.240893894309686e-12,
+      "rho_second_derivative_bound": 1016.6313643203204,
+      "numerical_positivity_guard": "Maximum of original triangle, original first derivative grid, and C2 interpolation lower bounds",
+      "control_path": "circle-trace-replace-last-two-v1",
+      "circle_radius_trace_A": 0.04377938275497506,
+      "circle_center_trace_B": -0.04395297555200495,
+      "nominal_last_two_frequency_labels_are_not_harmonics": true,
+      "geometry_scope": "R44 fixes radius/centre signs. Old holding, reach, positivity and metric constants do not transfer to this new core."
+    },
+    "centre_h_difference": 0.0,
+    "centre_rho_difference": 0.0,
+    "retained_control_roundoff": 6.776263578034403e-21
+  },
+  "finite_initializer": {
+    "original_initial_domain_passed": true,
+    "nodes": 271,
+    "original_collocation_rms": 1.4166287468767744,
+    "collocation_residual_max": 0.004882920486310857,
+    "boundary_residual": 9.183586165393577e-12,
+    "sampled_min_frenet_margin": 0.002485877078970633,
+    "represented_pos_angular1_angular2_errors": [
+      0.0001858625006072312,
+      0.005381401046062384,
+      0.21694413331065499
+    ],
+    "full_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "old_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "full_H_binary64_equal": true,
+    "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df",
+    "old_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df",
+    "full_H_changed_components": [],
+    "full_H_difference_max": 0.0,
+    "cut_reencoding_max": 2.371692252312041e-19,
+    "inlet_error": 0.0,
+    "actual_q": 0.05210565550627671,
+    "final_frozen_delta": 0.06104275721220832,
+    "new_p0": 0.0,
+    "state_binary64_sha256": "900cbfda191554b5642e0246caff0f644444e1e67708c33756c1e18b8eb0dd40",
+    "parameter_binary64_sha256": "8b5153c3b7609783a7f75e8310a884e5cc5db1770fdf26aa9edbad7305c5eab4",
+    "full_metric_computed": false,
+    "mean_height_reconstructed": false
+  },
+  "native_reference_constructed": true,
+  "full_physical_control_chain_binary64_verified": true,
+  "complete_eight_H_encoding_comparison_verified": true,
+  "core_definition_provenance": {
+    "original_second_order_guard": {
+      "source": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py",
+      "source_sha256": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+      "released_first_control_sha256": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+      "complete_derived_source_sha256": "aa5867970d58181a6f834f8d0efed3ab4dbc8f58dcbfc8cf19c73758a7215505",
+      "scope": "Add the existing C2 interpolation allowance to the same raw m3 core guard.\n\nThe exact rho/curve definition, all jets, the original 1e-5 positivity floor,\nthe original grid ceiling, and both original sufficient lower bounds remain.\nOnly a third lower bound is added.  Its second-derivative budget is analytic\non the whole angular domain; it is not a sampled rho'' maximum.  This remains\na numerical source guard, not a rigorous libm or complete-surface certificate.\n",
+      "unchanged_positivity_floor": 1e-05,
+      "unchanged_grid_ceiling": 32768,
+      "second_derivative_scope": "Whole-domain analytic primary and full-control bounds; the unchanged numerical coefficient/evaluation allowance is retained.",
+      "additions": [
+        [
+          "rb=db=np.zeros(0);control_error=0.",
+          "rb=db=ddb=np.zeros(0);control_error=0."
+        ],
+        [
+          "rb,db,_=self.basis.homotopy_rho_bounds(self.lam)",
+          "rb,db,ddb=self.basis.homotopy_rho_bounds(self.lam)"
+        ],
+        [
+          "            # Coefficient uncertainty is certified by rational moment intervals.",
+          "            # The C4 cutoff obeys |chi'|<=630/(256*eps) and\n            # |chi''|<=2520/(64*eps**2) on its whole transition.\n            # rho''=q*((1-lambda*chi)*s''-2*lambda*chi'*s'\n            #           -lambda*chi''*(s+beta-C)) + full control rho''.\n            # Here 0<=lambda*chi<=1, and every control bound comes from\n            # the original exact-coefficient/analytic cutoff budgets.\n            n=self.base_mode;eta=self.bimodal_eta;factor=self.factor\n            smooth_first=factor*n*(1+3*eta)\n            smooth_second=factor*n*n*(1+5*eta)\n            delta_upper=factor*(1+2*eta)+abs(self.local_flatten_beta)+abs(self._circle_constant)\n            base_second=self.q*(smooth_second+self.lam*(2*(630/256)/self.transition*smooth_first+(2520/64)/self.transition**2*delta_upper))\n            self.rho_second_derivative_bound=math.nextafter((base_second+float(np.sum(abs(self.c)*ddb)))*(1+128*np.finfo(float).eps),math.inf)\n            # Coefficient uncertainty is certified by rational moment intervals."
+        ],
+        [
+          "                self.rho_lower=max(self.rho_triangle_lower,float(rr.min()-slack))\n                self.rho_upper=min(self.rho_triangle_upper,float(rr.max()+slack))",
+          "                second_slack=math.nextafter((self.T/count)**2*self.rho_second_derivative_bound/8*(1+128*np.finfo(float).eps)+self.rho_value_roundoff_allowance,math.inf)\n                self.rho_lower=max(self.rho_triangle_lower,float(rr.min()-slack),float(rr.min()-second_slack))\n                self.rho_upper=min(self.rho_triangle_upper,float(rr.max()+slack),float(rr.max()+second_slack))"
+        ],
+        [
+          "                       rho_value_roundoff_allowance=self.rho_value_roundoff_allowance,",
+          "                       rho_value_roundoff_allowance=self.rho_value_roundoff_allowance,\n                       rho_second_derivative_bound=self.rho_second_derivative_bound,\n                       numerical_positivity_guard='Maximum of original triangle, original first derivative grid, and C2 interpolation lower bounds',"
+        ]
+      ]
+    },
+    "new_basis_source_sha256": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f",
+    "derived_core_source_sha256": "85d81fd2d19477a67160f36c64131692357307e3a990a005ae94f51b96440264",
+    "scope": "Independent lambda-one integral core with two raw columns replaced.\n\nThe original large-radius integral construction, parameter derivatives,\nFrenet equations and the existing numerical positivity guard are retained.\nReplacing the last two raw controls by T=SA-SB and U=SB changes the finite\nphysical space.  Physical coordinates (t,u) give (A,B)=(t,u-t).\nNo existing source or active solver is modified by this module.\n",
+    "unchanged_rho_floor": 1e-05,
+    "unchanged_grid_ceiling": 32768,
+    "control_guard_budget_scope": "Combine the physical trace seed and low projection before analytic absolute bounds; no sampled derivative maxima",
+    "guard_replacements": [
+      [
+        "triangle=float(np.sum(abs(self.c)*rb))",
+        "combined_bounds=(0.,0.,0.) if self.basis is None else self.basis.combined_control_rho_bounds(self.c,self.lam)\n            triangle=float(combined_bounds[0])"
+      ],
+      [
+        "float(np.sum(abs(self.c)*db))",
+        "float(combined_bounds[1])"
+      ],
+      [
+        "float(np.sum(abs(self.c)*ddb))",
+        "float(combined_bounds[2])"
+      ]
+    ]
+  },
+  "BVP_solver_invoked": false,
+  "actual_tail_solver_invoked": false,
+  "original_restart_called": false,
+  "full_metric_computed": false,
+  "mean_height_reconstructed": false,
+  "limits": "The initializer passes original numerical core/Frenet checks but is not an accepted BVP. The reference comparison uses the represented Fourier part; its omitted mean-height trajectory has not been reconstructed. The unchanged original actual tail is only an affine anchor for initial residual evaluation. No R38/R40/R41 geometric claim transfers to this new endpoint span."
+}
