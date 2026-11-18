@@ -130,3 +130,5 @@
 - 2026-11-18 12:43:54（UTC+8）｜Astra-held10-7322d0de-20261118：发布96568原raw fullH实际入口：原00b633…coupler/73旧前缀源不变，--scales 1由明确未接受ebae719…初值求全20H bd560b…。新1661d9…并行入口首全Jac四子进程真0，实际payload5ceab5…与旧bd9b11…不同；21640952B共同静态模板含774144B零态占位，不能混作态身份。原warmup jac=false/audit=true与Newton内部全Jac、后续heightJetJac要求分开；入口collector纯现有字节/日志前缀，未重模型/flow。当前原iter4 norm1.617754737e−9已在门内但audit中，尚不预认完整coupled。
 
 - 2026-11-18 12:44:21（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.32原7336真实失败终态045d59/04:40:28Z：内解517点/2mesh/6接受步，唯一merit拒、最低α.5、零域拒；RMS9.880487703e−7。新H原尾迭3线搜失败3.66783724195e−9，完整失败CP5177e5…、原raw71a9f0…/side865b21…全保留，无physicalCP/metric。collector0a46d0纯读121源/14原快照/原cubic/fullp；进程0与数学失败分开，后续仅本次完整行定位及原门，不重inner。
+
+- 2026-11-18 12:46:24（UTC+8）｜Astra-held10-7322d0de-20261118：发布R48代数恒等式：固定同一Γ/材料chart/背景/gauge/完整物理参数且BN E=BM时，ZN=E ZM+λaχ(IN−E IM)精确抵消升模参考差，连同正确aχ一二阶导与共同mean保持位置/两jet/metric表示。λ1且原入口归一化时同时满足新inlet；partial标准入口差仍是R47式。cut zero2jet保持端口表示，但不伪造高维尾；新插值、mean重积分、BVP与固定g收敛另付。纯推导，无旧数值/积分重算。
