@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`c2a8abced651519e87a6b7c20ae03892360ef5d8`。2026-11-18 13:16:50（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`075935fd1dc213a9c0044f2dcf1b9cfc385c187f`。2026-11-18 13:18:19（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：原19c/free-c8前缀metric8.91018e−7仍linearDN；真实.2H/.5H、parts16/32/邻数原DN均失败，CPb4356…重放7.42929e−9六超门，非机器下界。旧MP60/90/抵消结论见frozen-flow-mp60-mp90、root-representation-and-rhs-cancellation及n4-primary-width/parts32；不重跑旧失败。
 
-**n4算术当前** double/V8、LD/MP90及两floor范围已付。35038辅助.5H真失败2.0636915e−9，CPebae719…仍未接受；四进程wrapper9177a8…全批字节等价/本次3.74倍，新owned1661d9…保原CLI/原门。96568直接fullH bd560b…已原DN接受1.617754737e−9：call1真audit32与call2真1240Jac的2305节点/92200标量全字节同，真实记录337dcf…/3ffe45…；尾audit metric2.65347e−10/fullD2.09496e−5如实报，不设新门。原前缀内解已自动继续，非完整prefix/λ1/闭合。见fullH-actual-DN-Jac-audit及native系列。
+**n4算术当前** double/V8、LD/MP90及两floor范围已付；辅助.5H35038失败CPebae719…不重。四进程9177/owned1661保原算术/门。96568完整真联立05:12:55Z child/worker0：CPdb78f248…，2282点/RMS9.97643e−9，4次真尾（末c782c31…/1.98107e−9/1240J+audit），原BC1.37309e−9；prefix metric8.91023257e−7、Darboux.00415668。q=.012488348123231355漂移2.03e−10，19c仍未知，非固定全参数精化。mean2/nonmean2 seam−4.39895e−9/3.18959e−7，闭合未付；37batch/148CLI0。接着同g/J16升M24作设计延续，新增c=0只初值，见raw-primaryb016-actual-coupled-terminal。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 
