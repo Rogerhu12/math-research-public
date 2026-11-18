@@ -1,0 +1,205 @@
+{
+  "kind": "circle-trace-four-predeclared-combinations",
+  "scope": "Evaluate four predeclared circle-trace combinations, without a BVP.\n\nEvery combination is formed before taking a maximum.  These finite maxima\nare not continuous upper bounds or a production positivity guard.  The two\nsingle-column rows are included only to expose the actual cancellation in\nSA-SB and reinforcement in SA+SB, not to replace their combined evaluation.\n",
+  "observed_execution": {
+    "tool": "exec_command",
+    "chunk_id": "4dd5a7",
+    "exit_code": 0,
+    "cwd": "/workspace/scratch/7322d0dee069",
+    "command": [
+      "python",
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_circle_trace_combinations.py",
+      "--halfwidth",
+      ".21",
+      "--transition",
+      ".4",
+      "--angular",
+      "12288",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/circle-trace-combinations.json"
+    ]
+  },
+  "parameters": {
+    "base_mode": 3,
+    "halfwidth": 0.21,
+    "transition": 0.4,
+    "precision": 80,
+    "full_circle_nodes": 12288,
+    "arc_nodes": 257
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_circle_trace_combinations.py": "21a1cd92de826a8cfa853bbb950aae703460485d2906471269e15ecf1a6d64d8",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02"
+  },
+  "output": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/circle-trace-combinations.json",
+    "sha256": "ed21711e796b587a2882abd314a84a9296670c0e01b270e9db53b195ca987d38"
+  },
+  "rows": [
+    {
+      "name": "SA",
+      "coefficient": [
+        1.0,
+        0.0
+      ],
+      "finite_support_jet_absmax": [
+        2.7259789713595004,
+        27.264960510677263,
+        356.0109561912049,
+        7081.916775059523,
+        151692.49064692867
+      ],
+      "finite_rho_jet_absmax": [
+        353.41130467780977,
+        7054.69448228373,
+        151404.36773491962
+      ],
+      "finite_rho_range": [
+        -290.8920764004783,
+        353.41130467780977
+      ],
+      "finite_rho_peak_normal_angle": 0.5808673916793629,
+      "finite_position_norm_max": 27.282002901107802,
+      "arc_support_value_range": [
+        1.0,
+        1.0
+      ],
+      "arc_radius_trace_error": 0.0,
+      "arc_center_point_increment": [
+        0.5000000000000001,
+        0.8660254037844386
+      ],
+      "arc_center_point_increment_error": 0.0,
+      "exact_trace_parameters": {
+        "radius_increment": 1.0,
+        "actual_circle_center_along_nu0": 0.0,
+        "project_negative_center_scalar_increment": -0.0,
+        "midpoint_position_along_nu0": 1.0
+      }
+    },
+    {
+      "name": "SB",
+      "coefficient": [
+        0.0,
+        1.0
+      ],
+      "finite_support_jet_absmax": [
+        2.665009938300567,
+        26.532163048675688,
+        346.5457948421645,
+        6890.816628133535,
+        147814.7090159916
+      ],
+      "finite_rho_jet_absmax": [
+        344.0015263855823,
+        6864.332179247859,
+        147535.944288469
+      ],
+      "finite_rho_range": [
+        -281.4500008935691,
+        344.0015263855823
+      ],
+      "finite_rho_peak_normal_angle": 4.770680250324344,
+      "finite_position_norm_max": 26.54943849178623,
+      "arc_support_value_range": [
+        0.9780309147241483,
+        1.0
+      ],
+      "arc_radius_trace_error": 1.1102230246251565e-16,
+      "arc_center_point_increment": [
+        0.5000000000000001,
+        0.8660254037844386
+      ],
+      "arc_center_point_increment_error": 0.0,
+      "exact_trace_parameters": {
+        "radius_increment": 0.0,
+        "actual_circle_center_along_nu0": 1.0,
+        "project_negative_center_scalar_increment": -1.0,
+        "midpoint_position_along_nu0": 1.0
+      }
+    },
+    {
+      "name": "SA-SB",
+      "coefficient": [
+        1.0,
+        -1.0
+      ],
+      "finite_support_jet_absmax": [
+        0.06381330191434875,
+        0.8035152173266056,
+        10.684702056126696,
+        217.9922809876507,
+        4459.799804011549
+      ],
+      "finite_rho_jet_absmax": [
+        10.624831991731,
+        217.1890075880801,
+        4449.178088998661
+      ],
+      "finite_rho_range": [
+        -10.09809949292695,
+        10.624831991731
+      ],
+      "finite_rho_peak_normal_angle": 2.6522527822542736,
+      "finite_position_norm_max": 0.8036193416793868,
+      "arc_support_value_range": [
+        0.0,
+        0.02196908527585173
+      ],
+      "arc_radius_trace_error": 1.1102230246251565e-16,
+      "arc_center_point_increment": [
+        5.302876193624534e-17,
+        -3.0616169978683836e-17
+      ],
+      "arc_center_point_increment_error": 5.302876193624534e-17,
+      "exact_trace_parameters": {
+        "radius_increment": 1.0,
+        "actual_circle_center_along_nu0": -1.0,
+        "project_negative_center_scalar_increment": 1.0,
+        "midpoint_position_along_nu0": 0.0
+      }
+    },
+    {
+      "name": "SA+SB",
+      "coefficient": [
+        1.0,
+        1.0
+      ],
+      "finite_support_jet_absmax": [
+        5.390944963275182,
+        53.79582674760583,
+        702.5334944249553,
+        13972.210714023047,
+        299504.93151055195
+      ],
+      "finite_rho_jet_absmax": [
+        697.3941109332175,
+        13918.517992041097,
+        298938.56055694754
+      ],
+      "finite_rho_range": [
+        -572.33269042318,
+        697.3941109332175
+      ],
+      "finite_rho_peak_normal_angle": 3.607411486177733,
+      "finite_position_norm_max": 53.83050620878688,
+      "arc_support_value_range": [
+        1.9780309147241484,
+        2.0
+      ],
+      "arc_radius_trace_error": 2.220446049250313e-16,
+      "arc_center_point_increment": [
+        1.0000000000000002,
+        1.7320508075688772
+      ],
+      "arc_center_point_increment_error": 0.0,
+      "exact_trace_parameters": {
+        "radius_increment": 1.0,
+        "actual_circle_center_along_nu0": 1.0,
+        "project_negative_center_scalar_increment": -1.0,
+        "midpoint_position_along_nu0": 2.0
+      }
+    }
+  ],
+  "boundary": "The controls are combined before evaluating every jet and maximum. No actual core, profile, g, solver, H, or acceptance gate was modified. No sampled maximum is used as a whole-interval derivative bound."
+}

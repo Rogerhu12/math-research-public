@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`ef84eec74c1f1932a456f44b3555fe2d5dc4b50e`。2026-11-18 08:54:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`578ff12d5b8ba33e72371aa7692fb26d6d76dc95`。2026-11-18 08:58:18（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -36,7 +36,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **R42/R43** W²正交后两列消矩，Gram=I+CᵀC，与原λ1 finite raw span相同；R43以a=.21/bc=.4真矩及精确2×2 Sylvester给所有M谱[1,13.92415)。有限M16 Gram条件2.061/旧5.788e11不是C²/实际Jac界，生产核未改。
 
-**R44**全偶C4/C3、低两矩为零且弧上f+f″常数的空间=X0直和span{SA,SB}，X0是全部C4弧上零核。真积分两列的弧迹1/cos(d)对应半径A及实际圆心+Bν0；有限raw加列增维2，替最高两列保M−1维却改变span。独立probe低矩≤5.60e−16/原low G逐位同；单列有限rho峰353/344，未付正性/held/BVP。见R44-circle-trace-controls-complete-two-missing-directions；下一核自然组合与新span初始化。
+**R44**全偶C4/C3、低两矩为零且弧上f+f″常数的空间=X0直和span{SA,SB}，X0是全部C4弧上零核。真积分两列的弧迹1/cos(d)对应半径A及实际圆心+Bν0；有限raw加列增维2，替最高两列保M−1维却改变span。独立probe低矩≤5.60e−16/原low G逐位同；单列有限rho峰353/344，未付正性/held/BVP。见R44-circle-trace-controls-complete-two-missing-directions。四组合先合并jets再取有限峰：SA−SB的rho峰10.624832、SA+SB为697.39411；前者保弧中点且半径/圆心反向变，非连续界/正性门，见m3-circle-trace-combinations。下一新span完整参考/C²初始化。
 
 **严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]。R38在even C4弧上零控制且||b+b″||≤.08时给rho>.1642566、平面m3>.0948878、柱D<2.3181；若完整未标记图D≤2.6498/支撑≥.0801/|κ|≤12.5及原文全部C²/对称/帽等假设成立，则held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H角固定如原文，柱长按实际全图矩选，全部图假设未付，不能继承给改变后的控制。R40对q∈[.039,.041]/δ≥.060原flat ramp严格给χ/R>.21088277799>.21；宽度无关但不证λ1存在。
 
