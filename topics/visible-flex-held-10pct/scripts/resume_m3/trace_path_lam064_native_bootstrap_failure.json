@@ -1,0 +1,112 @@
+{
+  "schema": "m3-native-provider-bootstrap-failure-v1",
+  "scope": "Observed packaging/import failure before ready or any DN request, not a mathematical tail failure.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_bound_native_tail.py",
+    "sha256": "e02ea1d52af44b7a9fe1ccf8dd741b7e153b93f030433ca5672ba9bce1d24fb6"
+  },
+  "provider_helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_literal_tail_provider.py",
+    "sha256": "ebe3697080b69baebf60f63f9db2e37b3271bda11c497c771f1b5ec030ed3438"
+  },
+  "entry": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/seed-entry.json",
+    "sha256": "94dc440c925a41ee729ba14793873cff5dfdedd1f5c580cb5881479af2921252"
+  },
+  "provider_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v1/manifest.json",
+    "sha256": "0793f8b6152594e8df84b5404ae68ff2fe985adbdca486a3d98fbdee06c81e00"
+  },
+  "verified_bound_sources": 200,
+  "original_failed_record": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+    "sha256": "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/seed-candidate.json.gz",
+    "sha256": "1b5b7a400ae51a7ed20683582f975ab960e74f05cf53c2616d7d0190cb980b46"
+  },
+  "candidate_checkpoint_equal_original": true,
+  "configuration": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/seed-config.json",
+    "sha256": "45e39926e9b43051de83172e1f2a3c37aa0c399e092bf61ecbff7b049249f133"
+  },
+  "configuration_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "original_projection_floor": 0.05,
+  "original_gate": 2e-09,
+  "reload_arithmetic": {
+    "cut_radius": 0.3,
+    "ratio": 1,
+    "zero_boundary_correction": true,
+    "finite_states_without_negative_zero": true,
+    "original_solver_invoked": false
+  },
+  "execution": {
+    "session": 47630,
+    "launch_tool_chunk": "9ecfc3",
+    "terminal_tool_chunk": "006d2e",
+    "observed_utc": "2026-11-18T05:31:08Z",
+    "observer_returncode": 2,
+    "child_returncode": 2,
+    "worker_returncode_observed": null,
+    "seconds": 2.00344081500225,
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/resource.json",
+      "sha256": "aafc17c79fd821cf24daf5f6952bc7ad2bdb8b02c0956d9705384a868fffe22d"
+    },
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/launch-command.json",
+      "sha256": "3f7b3a395910654eca6f9ab521de5bf18ecbd813bfb8663efb15dd5bb24d5e21"
+    },
+    "stdout": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/stdout.log",
+      "sha256": "ffee73eb7310f1792e02346979b3c9316d45199fcd42176e374f7113f75c78b3"
+    },
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/seed-summary.json",
+      "sha256": "442acf593dcece6b9a2fd0448922a96f38f0a8c8d107ec3e6ffcd2478c4a90ea"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_bound_native_tail.py",
+      "--failed-tail",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "--failure-sha",
+      "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+      "--source-plan-sha",
+      "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5",
+      "--provider-manifest",
+      "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v1/manifest.json",
+      "--provider-manifest-sha",
+      "0793f8b6152594e8df84b5404ae68ff2fe985adbdca486a3d98fbdee06c81e00",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v1/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ]
+  },
+  "failure": {
+    "error": "RuntimeError('Weighted stage-tail initialization failed')",
+    "error_code": "ENOENT",
+    "missing_input": "/workspace/scratch/7322d0dee069/m3_work/native-literal-source-v1/notes/closing_tail_dependency_blobs.json",
+    "origin": "Module initialization in closing_tail_sources.mjs line 6, before worker ready.",
+    "worker_ready_returned": false,
+    "DN_requests_sent": 0,
+    "whole_native_evaluate_calls": 0,
+    "tail_response_records": 0,
+    "original_inner_repeated": false,
+    "physical_metric_or_mean_invoked": false
+  },
+  "recovery_scope": "Preserve this source/manifest/output. An independent resource-complete bundle and a named provider-metadata comparison are required before the still-unexecuted mathematical solve. No successful native response is claimed."
+}

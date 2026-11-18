@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`e6cd4ae7b94117ec7fca9a725201327f3cc8a5e8`。2026-11-18 13:33:39（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`a313db1c8cb89cd383e8c99ef1dbbeff6c5f3b4a`。2026-11-18 13:36:07（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -52,7 +52,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **R47/R48升模** T/U物理槽5/6固定，附B7等；补零保定义核，partial入口仍有投影差。R48以ZN=E ZM+λaχ(IN−E IM)补完整连续表示，λ1保标准入口。高层d533b9/fe7dec源已备：真端点、完整新维port、三块physicalPP/两jet与新chart，旧δ重基一次。p0及controls仍自由，非全参数固定精化；无新model/均值/quintic/数值身份结论。见R47/R48与endpoint-model-and-r48-state-transfer-source。
 
-**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16/.32完整有限锚都已保存但metric未门；最新λ.32 CP4794434a…/真seam cd1f6d…，metric5.308744203e−4。λ.64原inner8cf33…518点/11全步/RMS9.88665e−7已过；近尾753aa9…失败3.66751732e−9。2756反向局部候选反增2.16384e−7，63447保旧内部原迭6失败8.32100e−5，均不续。独立n3算术95674/53827：54输出/130176事件逐位同；三个LD .1局部值不全改善。实际生产floor=.05，.1→.05仅已存V8轨迹有限归纳，不借给LD。native v1缺依赖在ready前停、0DN；新101a…v2只补原源清单，继续原近态；inner不重。λ1读器/v2观察源及R47/R48接口已备，最终闭合/固定全参数收敛未付。
+**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16/.32完整有限锚都已保存但metric未门；最新λ.32 CP4794434a…/真seam cd1f6d…，metric5.308744203e−4。λ.64原inner8cf33…518点/11全步/RMS9.88665e−7已过；近尾753aa9…失败3.66751732e−9。2756反向局部候选反增2.16384e−7，63447保旧内部原迭6失败8.32100e−5，均不续。独立n3算术95674/53827：54输出/130176事件逐位同；三个LD .1局部值不全改善。实际生产floor=.05，.1→.05仅已存V8轨迹有限归纳，不借给LD。native v1/v2先后缺清单/.cjs，均ready前停、0DN；v3 abb2a…补齐9真实依赖，92035从原近态启动原DN；inner不重。λ1读器/v2观察源及R47/R48接口已备，最终闭合/固定全参数收敛未付。
 
 ## 3. 全闭表示与严格连续metric
 
