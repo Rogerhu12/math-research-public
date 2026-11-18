@@ -140,3 +140,5 @@
 - 2026-11-18 12:50:58（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 fullH真正DN/Jac+audit：96568原call1于04:43:12Z返回audit32，call2于04:45:09Z返回1240有限边界Jac；两者同20H bd560b…、2305节点92200标量/完整末native input56ceae…逐字同，残差1.617754737e−9过原门，非静态模板冒充同态。尾audit metric2.653468556e−10/fullD2.094957584e−5如实报，无新增fullD门；11batch/44原CLI全部0。纯collector41556/afa0e4真0，0新流。原前缀内解自动继续，尚非整prefix/圆弧/闭族接受。
 
 - 2026-11-18 12:57:08（UTC+8）｜Astra-held10-7322d0de-20261118：发布后续原audit分量观察源be48ab…：严格绑定958a9e…原函数，3处逆变换精确还原，原唯一FFT/除N/abs/sum/max算术顺序、样本、mean/物理方程/旧结果/门均保；只读取既有数组记E/F/G最大值位置和主导ψ FFT bin，非连续余项或新门。1674ff仅文本/AST真0、0模型/数学。λ64已先启动98842，保持旧4e8源；模块供独立未来runner/真正执行audit的恢复器绑定，旧audit不为填字段重跑。
+
+- 2026-11-18 12:57:46（UTC+8）｜Astra-held10-7322d0de-20261118：发布71425/ba19f7 λ.32原raw恢复终态：0新inner，同5e163真实H响应复用；原outer BC4.990187069e−10过，完整physical/mean/prefixaudit先保存CP193444…（metric5.308744203e−4/Darboux.41400549），仍未最终门。quintic H六项末位差原样请求，原seam尾iter2失败3.667837242e−9（67fc22…）；进程0与数学未完整成功分开。原aa146/fef31未改，collector520b00纯读123源，完整旧audit不重跑。
