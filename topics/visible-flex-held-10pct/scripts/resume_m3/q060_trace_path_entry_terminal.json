@@ -1,0 +1,368 @@
+{
+  "scope": "Collect the completed unique finite-path entry, with no equation evaluation.\n\nThe complete finite arrays remain in scratch. Lambda-zero equality is a\nliteral-source/full-polynomial identity plus seven sampled represented jets;\nlambda=.02 completed its original finite initial diagnostics, not a BVP.\n",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_q060_trace_path_entry.py",
+    "sha256": "410c8563b340b2d879d5723cbdf623d0b29b2f9c046816944cf512fca0f4e6dc"
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-entry-v1/launch-plan.json",
+    "sha256": "945259b830d5d4a129cbe86068a6f72a2940f5cba2265224584cc8ac192a785f"
+  },
+  "published_entry_record": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_trace_path_entry_record.json",
+    "sha256": "5e99dbe6e8e31d4630b108fa6bb33e22047d6a10c3ccfd90e237d8408886841e"
+  },
+  "source_identity_scope": {
+    "source_inputs_rechecked": 80,
+    "named_inputs_rechecked": 9,
+    "derived_excerpts_rechecked": 2
+  },
+  "outputs": {
+    "entry.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-entry-v1/entry.json",
+      "sha256": "7e39adda827887d715188f0ef263136316e8dcaa7d286abe13c44c5ee1fa0444"
+    },
+    "entry-arrays.npz": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-entry-v1/entry-arrays.npz",
+      "sha256": "1f882f0004ad58817b60245a363a9e773322b8bc8620179d36f9b6ce16a5e142"
+    },
+    "entry-events.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-entry-v1/entry-events.jsonl",
+      "sha256": "b57cf9d070abb7e89089b96ea0e3576540539fc637d5b0251460e055882b1422"
+    },
+    "resource.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-entry-v1/resource.json",
+      "sha256": "106f3e6045ba8e4c1b5563d35ecc78e04f0d2a46f4b2448144aed027852f4c03"
+    },
+    "stdout.log": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-entry-v1/stdout.log",
+      "sha256": "b57cf9d070abb7e89089b96ea0e3576540539fc637d5b0251460e055882b1422"
+    }
+  },
+  "tool_observation": {
+    "session_id": 5281,
+    "launch_chunk": "c8d676",
+    "completion_chunk": "b8aea6",
+    "observed_observer_exit_code": 0,
+    "scope": "Actual tool observations; independently recorded child status is in resource.json."
+  },
+  "started_utc": "2026-11-18T03:11:57Z",
+  "resource_terminal": {
+    "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/prepare_q060_trace_path_entry.py",
+      "--evaluate-entry-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-entry-v1/launch-plan.json"
+    ],
+    "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T03:12:01Z",
+    "seconds": 4.00231774400163,
+    "samples": 2,
+    "maximum_sampled_tree_rss_kib": 167736,
+    "tree_at_sampled_peak": {
+      "6": {
+        "name": "python",
+        "rss_kib": 167736,
+        "hwm_kib": 175380
+      }
+    },
+    "child_rusage_maxrss_kib": 186196,
+    "child_user_seconds": 2.631463,
+    "child_system_seconds": 0.528045
+  },
+  "entry_complete": true,
+  "complete_scope": "The two declared model checks completed; no BVP or full-metric acceptance is asserted.",
+  "native_reference_constructed_in_this_run": true,
+  "counters": {
+    "BVP_attempts": 0,
+    "native_tail_attempts": 0
+  },
+  "lambda_zero_identity": {
+    "core_class_literal_original": true,
+    "original_polynomial_shape": [
+      6,
+      1933,
+      25
+    ],
+    "original_polynomial_coefficients_binary64_sha256": "a64dfc1825b0a35557239bc0bcebdaaaa422e3c26a9f73cfcc0a0dc0711c8eeb",
+    "original_physical_mesh_binary64_sha256": "dace852bb049856c46ef57afedfd0a89527e7969eb26f2db4b7cfc0e46943442",
+    "original_polynomial_reused": true,
+    "full_25_states": true,
+    "physical_node_indices": [
+      0,
+      1,
+      17,
+      67,
+      129,
+      257,
+      513,
+      1025,
+      1537,
+      1933
+    ],
+    "physical_nodes": [
+      0.0,
+      0.00014167891538954954,
+      0.003400293969349189,
+      0.028902498739468107,
+      0.0640388697560764,
+      0.12977788649682737,
+      0.2567221946858637,
+      0.5525502981942655,
+      1.0235891064168068,
+      1.3602524132788236
+    ],
+    "angular_samples": 256,
+    "represented_jet_checks": {
+      "pos": {
+        "binary64_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "shape": [
+          10,
+          256,
+          3
+        ]
+      },
+      "p1": {
+        "binary64_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "shape": [
+          10,
+          256,
+          3
+        ]
+      },
+      "p2": {
+        "binary64_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "shape": [
+          10,
+          256,
+          3
+        ]
+      },
+      "s1": {
+        "binary64_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "shape": [
+          10,
+          256,
+          3
+        ]
+      },
+      "s2": {
+        "binary64_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "shape": [
+          10,
+          256,
+          3
+        ]
+      },
+      "sp": {
+        "binary64_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "shape": [
+          10,
+          256,
+          3
+        ]
+      },
+      "spp": {
+        "binary64_equal": true,
+        "maximum_absolute_difference": 0.0,
+        "shape": [
+          10,
+          256,
+          3
+        ]
+      }
+    },
+    "complete_H_identity": {
+      "binary64_equal": true,
+      "maximum_absolute_difference": 0.0,
+      "shape": [
+        8
+      ]
+    },
+    "physical_polynomial_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "accepted_actual_anchor_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "physical_polynomial_vs_actual_anchor_difference": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "physical_polynomial_vs_actual_anchor_binary64_equal": true,
+    "mean_height_method_source_equal": true,
+    "mean_height_reconstructed": false,
+    "mean_scope": "Same original method and unchanged physical polynomial; the actual integral trajectory has not been recomputed.",
+    "source_scope": "The lambda0 model uses the literal original cosine core and unlifted geo; the finite jet equality above is sampled, not an interval bound on transcendental evaluation.",
+    "p0": 0.0,
+    "full_physical_controls": [
+      0.00046456731984427426,
+      -3.764304940447063e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      -5.925313956530067e-09,
+      7.680657966726738e-10
+    ],
+    "gauge": 0.06,
+    "support_amplitude": 0.06,
+    "old_historical_p0_not_reapplied": true
+  },
+  "first_entry": {
+    "lambda_value": 0.02,
+    "path_definition": {
+      "branch": "new_finite_seven_column_integral_path",
+      "lambda_value": 0.02,
+      "core_support_guard": "Original numerical triangle/first/C2 guard, floor1e-5 and grid ceiling32768",
+      "note": "This is the defining integral core. For intermediate lambda, the partially lifted finite inlet is a different curve and must pass its own original frame and full metric checks.",
+      "settings": {
+        "halfwidth": 0.21,
+        "transition": 0.32,
+        "control_transition": 0.4,
+        "homotopy": 0.02,
+        "center": 1.0471975511965976,
+        "bimodal_eta": 0.0,
+        "lock_fundamental": true,
+        "coefficient_precision": 80,
+        "positivity_grid_max": 32768
+      },
+      "numerical_gauge": 0.06,
+      "defining_support_amplitude": 0.059818741459951905,
+      "warp_reference": 0.06,
+      "fixed_metric": false,
+      "p0_scope": "Only delta; frozen_profile already contains the old historical p0.",
+      "parameter_scales": [
+        0.0036,
+        0.00021599999999999996,
+        1.2959999999999998e-05,
+        7.775999999999999e-07,
+        4.665599999999999e-08,
+        2.7993599999999993e-09,
+        1e-09
+      ],
+      "mean_height_scope": "Use the original height_integral on this actual model/solution. No old mean trajectory is copied to a positive-lambda model."
+    },
+    "nodes": 271,
+    "state_binary64_sha256": "725cf6672cc2280d70a5e1c4f8099de911c2f88b6bbc67b2f2cb44386d6c983c",
+    "parameter_binary64_sha256": "453fb76df8789a01da3bf317f75168023af712b2394117a30a628271c5bc93ef",
+    "complete_physical_controls": [
+      0.00046456731984427426,
+      -3.764304940447063e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      -5.925313956530067e-09,
+      7.680657966726738e-10
+    ],
+    "represented_pos_angular1_angular2_projection_errors": [
+      1.1107357245770944e-08,
+      3.4181059509197365e-07,
+      1.0307786124930107e-05
+    ],
+    "representation_scope": "Geo plus all25 finite Fourier states only; the original velocity mean primitive is omitted from these projection differences, not assumed zero.",
+    "full_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "old_actual_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df",
+    "full_H_binary64_equal": true,
+    "full_H_difference": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "cut_coefficient_reencoding_difference": [
+      0.0,
+      6.776263578034403e-20,
+      2.0328790734103208e-19,
+      -7.848951396393169e-20,
+      1.0497914590032985e-19,
+      2.00478801980802e-19,
+      -4.2899034133071983e-20,
+      8.641493820795539e-20
+    ],
+    "inlet_residual": 0.0,
+    "actual_inlet_metrics_metadata": {
+      "partial_lift_strength": 0.02,
+      "scope": "The finite inlet is (1-lambda) times its original finite projection plus lambda times the defining core. No zero metric or exact-core inlet is claimed at intermediate lambda.",
+      "unlifted_projection": {
+        "position": 5.361776750615423e-07,
+        "first": 1.6606736396686735e-05,
+        "second": 0.0004995976560442789,
+        "metric_l1": 1.1128628345089109e-07
+      }
+    },
+    "numerical_core_guard": {
+      "rho_lower": 0.5072132767815388,
+      "rho_min_sample": 0.5072445099573942,
+      "grid": 512
+    },
+    "full_metric_computed": false,
+    "mean_height_reconstructed": false
+  },
+  "original_entry_diagnostics": {
+    "original_domains_passed": true,
+    "maximum_original_collocation_RMS": 0.01909894066161205,
+    "maximum_collocation_residual": 3.9026420445166735e-05,
+    "maximum_original_BC_affine_only": 9.183584143102416e-12,
+    "sampled_nodes_midpoints_minimum_Frenet_margin": 0.002485877078970633,
+    "scope": "Initial finite diagnostics with the old actual response used only as an affine slope anchor. No solver acceptance or complete metric is asserted."
+  },
+  "numerical_scope": "All finite values retain their original binary64 evaluation. Core and frame numerical guards are not interval certificates.",
+  "no_BVP": true,
+  "no_actual_tail": true,
+  "no_mean_height_reconstruction": true,
+  "no_complete_metric": true,
+  "no_endpoint_lambda_one_evaluation": true,
+  "collector_evaluated_equations": false
+}
