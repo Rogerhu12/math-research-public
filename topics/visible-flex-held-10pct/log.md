@@ -122,3 +122,5 @@
 - 2026-11-18 12:40:56（UTC+8）｜Astra-held10-7322d0de-20261118：发布R47完整证明：固定旧M8的T/U槽7/8并在j≥9附B_{j−2}，全λ有限列独立、固定M Gram统一定性正；M升阶补零严格保控制定义核，λ1端点与标准raw有限空间相同。明确partial有限入口差(1−λ)qg(新旧投影差)一般非零，Y/reference/mean转换及完整BVP/固定g收敛未获证。不执行新积分/矩阵/BVP；根全文证明核读完成。
 
 - 2026-11-18 12:41:22（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.16真实新seam H保内部原门接受：4232/67f901于04:34:28Z child/worker0，迭0 norm1.83393059818419e−9、208Jac/audit完整，全状态逐位同唯一初值。af65源仅将已执行5e127旧固定绑定泛化为显式SHA/实差集，closed核8处字面派生；原1153×16态仅node0分量0、3按原JS H/rCut^4变，内部/深端/cut动量原字节保留，reload ratio1/零边界修补。真响应1470c2…；不重prefix/mean/全stage定位，不放松原门。
+
+- 2026-11-18 12:42:31（UTC+8）｜Astra-held10-7322d0de-20261118：发布81455/99d8bc λ.16实际seam-only真0（04:35:45Z）：fff945源只重建原model并读取原quintic，精确查真实1470c2…全H响应，1次原seam；0新inner/native/prefixaudit/mean原函数积分/C2。旧summary payload0a673b…/全物理参数/coefff84431…逐字保留，完整CP770a54…，原metric1.383776310e−4仍未门；本次mean2差−7.795056618e−7/nonmean2 1.497733174e−6。121源/collector93a6d4真0，有限完整锚供λ.32，不冒充圆弧/闭合/固定g收敛。
