@@ -1,0 +1,275 @@
+{
+  "scope": "Compact compile-only/native-baseline entry evidence without loading a library.",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_extended_entry.py",
+    "sha256": "af6903b4f0f59d0a270d643a38cf5a1a6d771953a99573e6539ca6e788c900f5"
+  },
+  "helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_fixed_actual.py",
+    "sha256": "dc69eac6b951fede4e33a74f949698111384cc2b6b9ccfd1391c680574408289"
+  },
+  "build_record": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+    "sha256": "6a3bccea3aafe115cb28071ca23986e14e27c9074c67f8f91b094bfb87db0bf8"
+  },
+  "frozen_execution_plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-plan-v1.json",
+    "sha256": "67ee96a3323e457fefedc3b727180e321fdcd722232518e3a8bfdbf7fd8661f8"
+  },
+  "sources": {
+    "cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+      "sha256": "916d0a948a15100f9bb68b255c2192460efe249c08a3559ea9fb800fbb59ac3f"
+    },
+    "header": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "harness": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "builder": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/build_native_extended.py",
+      "sha256": "20437402d90d4bf1a7aa9488d9651dbc5387a2cbaffb85667ebb4e093ccbc6c3"
+    }
+  },
+  "source_sizes_bytes": {
+    "cpp": 29451,
+    "header": 3370,
+    "harness": 23827,
+    "builder": 3693
+  },
+  "compiler": {
+    "path": "/usr/bin/x86_64-linux-gnu-g++-14",
+    "sha256": "6b3696e4dcb85e1c949c732a02befa50e3983ecf94ce7e8e58d9d503b954b79d"
+  },
+  "compiler_version": "x86_64-linux-gnu-g++-14 (Debian 14.2.0-19) 14.2.0\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-fexcess-precision=standard",
+    "-frounding-math"
+  ],
+  "actual_compile_results": {
+    "library": {
+      "command": [
+        "/usr/bin/x86_64-linux-gnu-g++-14",
+        "-std=c++17",
+        "-O2",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fexcess-precision=standard",
+        "-frounding-math",
+        "-fPIC",
+        "-shared",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+        "-o",
+        "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+        "-lm"
+      ],
+      "returncode": 0,
+      "seconds": 3.294382009997207,
+      "stdout": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/library-compiler.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/library-compiler.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    "batch": {
+      "command": [
+        "/usr/bin/x86_64-linux-gnu-g++-14",
+        "-std=c++17",
+        "-O2",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fexcess-precision=standard",
+        "-frounding-math",
+        "-DVF_BUILD_MAIN",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+        "-o",
+        "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/frozen_flow_batch",
+        "-lm"
+      ],
+      "returncode": 0,
+      "seconds": 3.3048652449942892,
+      "stdout": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/batch-compiler.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/batch-compiler.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  },
+  "compiled_library": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+    "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+  },
+  "compiled_batch_cli": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/frozen_flow_batch",
+    "sha256": "41ad2ad52199365c11e1065ea1ad988544c2325ad81ffaad84e45485db50f6ed"
+  },
+  "proposed_double_command": [
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+    "--mode",
+    "float-baseline",
+    "--build-record",
+    "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+    "--capsule-summary",
+    "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+    "--old-float-baseline",
+    "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+    "--mp90-summary",
+    "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+    "--bridge",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+    "--out-prefix",
+    "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout"
+  ],
+  "proposed_observer_command": [
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+    "--log",
+    "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/process.log",
+    "--out",
+    "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/resource.json",
+    "--",
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+    "--mode",
+    "float-baseline",
+    "--build-record",
+    "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+    "--capsule-summary",
+    "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+    "--old-float-baseline",
+    "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+    "--mp90-summary",
+    "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+    "--bridge",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+    "--out-prefix",
+    "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout"
+  ],
+  "original_entry_files": {
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    },
+    "capsule_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+      "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+    },
+    "old_float_baseline": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+      "sha256": "c188de016b4963b1db896df9d3c2a7f09da201f66834acfd317f651c4488f4dc"
+    },
+    "mp90_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+      "sha256": "316203483014a16efb7a9793c62e2c903e0925a946cd9a30a7ed869b76f766e6"
+    },
+    "bridge": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+      "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+    },
+    "original_frozen_evaluator": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_multiprecision.py",
+      "sha256": "a4e5297beb66c218b0b716ff27992830f2d5db6a56655ffab76c9a9b7a4af819"
+    }
+  },
+  "original_capsule_coefficients": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+    "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+  },
+  "original_capsule_reference": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-reference.json.gz",
+    "sha256": "996bdc40164d265f9146f7af4449732d4d34981eeabb7c4ffe8ea44b697b2c73"
+  },
+  "original_source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-port-v3.mjs": "4e5f7f4cd31c81b633c826a24b208bc8a0aa2b791132c73238a5a61cf0e2a398",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_rk_sum.mjs": "d6312e79aa156f116f8673e0eb76b9b02711b689091759b1c69e6e05534d5023",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311"
+  },
+  "planned_reference_stages": {
+    "43": {
+      "stage": 43,
+      "initial42_sha256": "923a0f3186d7cdd7f66ff7e948182d3189bba8ac7b6bfab89d040edc21e6d69d",
+      "original_output42_sha256": "16c51ec0c3fea016923f23d7ab866d85d9b9011be3f8b8ed8ef35d0dd1799343",
+      "original_trace_events": 44928
+    },
+    "38": {
+      "stage": 38,
+      "initial42_sha256": "44c86990ff4f18697c060457e96c9d1b470f5c75bd1c05e609bec945375dbf36",
+      "original_output42_sha256": "adb4f35c8dfcf45052ee3878ea3cf97868942a13a023249263fff5493b5acef4",
+      "original_trace_events": 44928
+    },
+    "175": {
+      "stage": 175,
+      "initial42_sha256": "60135d5f917ecbd5040248e7e4e9cd72c5126f86cc00ba108653e407f3ffee4a",
+      "original_output42_sha256": "ac9b59fd3a38ed4bbd8b81c9fbf272052bfdbbe049ca9cbc1a346167383c4786",
+      "original_trace_events": 26752
+    }
+  },
+  "planned_exact_output_count": 126,
+  "planned_exact_event_count": 116608,
+  "compiler_warning_scope": "Builder emitted a Python3.12 spacing SyntaxWarning for a valid generator expression; both compiler commands returned0 and their stdout/stderr are bound in build.json. No math was executed.",
+  "source_scope": "Original formed-moment root and ordinary RK; no shifted-root or compensated-state rewrite. Literal implicit Jacobian source derives B_exact separately and checks its own positive finite pivots. It is evaluated at approximate roots and is not AD of Newton stopping branches.",
+  "double_validation_scope": "Existing V8 root_rows/sqrt callbacks; exact original126 output bytes and116608 recorded events are required. No tolerance waiver. This entry records their planned scope only.",
+  "binary_protocol_scope": "Self-contained whole-evaluate payload and same-kernel CLI source. Token binds payload only; source/build identity is checked separately by the outer manifest. No native batch has been run or connected to Node.",
+  "outstanding": {
+    "native_double_exact_baseline": true,
+    "longdouble_state_only_vs_fullJac_identity": true,
+    "native_longdouble_flow_accuracy": true,
+    "native_full40Jacobian_independent_MP_reference": true,
+    "native_runtime_math_library_identity": true,
+    "actual_native_performance": true,
+    "whole_2304_batch_and_original_boundary_norm": true,
+    "original_DN_and_final_audit": true
+  },
+  "shared_library_loaded": false,
+  "new_flow_executed": false,
+  "new_Jacobian_executed": false,
+  "production_installed": false,
+  "new_tail_accepted": false,
+  "data_policy": "Publish sources, compiler commands, identities and planned validation scalars only; compiled binaries and full mathematical capsules remain scratch-only."
+}
