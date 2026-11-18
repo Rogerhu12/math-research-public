@@ -1,0 +1,262 @@
+{
+  "status": "Original inner BVP accepted; subsequent changed-H actual tail failed its original line search; no coupled or metric acceptance",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_q060_trace_path_coupled_terminal.py",
+    "sha256": "28e87b8415a98a0dd2a5fb567bb5a3a61623a489fd6c3fa5deb53aa44abcfc51"
+  },
+  "launch_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/launch-plan.json",
+    "sha256": "99b888b421ecaea72dbbafffca9811121ed8d663c62049c3ce03e54edc6b52be"
+  },
+  "entry_record": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_trace_path_coupled_entry.json",
+    "sha256": "780c08f385e922050d9a9b19196cd7e09e083264df0463cc30e9f9eda60739e5"
+  },
+  "sources_rechecked": 103,
+  "original_records": {
+    "resource.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/resource.json",
+      "sha256": "8db6a6b839dd32e2ec9b7b47f47efe50d12b85b3f430780e9294c99b34614e6e"
+    },
+    "runner-terminal.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/runner-terminal.json",
+      "sha256": "6a8140b1994a247a10db5a1a28a7829f66da0fd567e6581dacc6e42ac96d975e"
+    },
+    "seed-summary.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/seed-summary.json",
+      "sha256": "2b72c86ceabd56587c7da5dbf1cc10bfa10ad9068d9ed80ebdc40c4815bc8c0f"
+    },
+    "entry-events.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/entry-events.jsonl",
+      "sha256": "43485348483fa314de154c232e3304cf9957a2e6ba57792f3d669e3abdb22442"
+    },
+    "domain-newton.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/domain-newton.jsonl",
+      "sha256": "56c1da89a00032633acf41c5874135960b48e8b1f6bdafd0b89aecbad43d692a"
+    },
+    "tail-worker.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/tail-worker.jsonl",
+      "sha256": "44d5d486c2d7487d11f0cd1908f73f811b067e194a7e53add8fa5aa4c37772d8"
+    },
+    "stdout.log": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/stdout.log",
+      "sha256": "22908ab74f16bb0f7783a66822c586374411ab1f0dec42d9effcf22d331e63f0"
+    }
+  },
+  "observed_execution": {
+    "tool_session": 94553,
+    "launch_chunk": "67ca61",
+    "completion_chunk": "38def1",
+    "observer_exit_code": 0,
+    "child_returncode": 0,
+    "worker_returncode": 0,
+    "started_utc": "2026-11-18T03:17:09Z",
+    "terminal_utc": "2026-11-18T03:20:37Z",
+    "seconds": 208.2563147710025
+  },
+  "initial_hashes": {
+    "state_binary64_sha256": "725cf6672cc2280d70a5e1c4f8099de911c2f88b6bbc67b2f2cb44386d6c983c",
+    "parameter_binary64_sha256": "453fb76df8789a01da3bf317f75168023af712b2394117a30a628271c5bc93ef",
+    "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df"
+  },
+  "design": {
+    "new_core_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.32,
+      "control_transition": 0.4,
+      "homotopy": 0.02,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "physical_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06104275721220832,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "physical_profile_payload_sha256": "0ef46c2e0df1ed801fae96e9d6472fc4f484e58347a2e8a2cdea5b280ea9ab2b",
+    "original_chart": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+      "sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e"
+    },
+    "chart_payload_sha256": "22274daadd4119eae96401d277fec28017c01b468c714d2b41ce7b993a13e8cb",
+    "original_reference_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed.json.gz",
+      "sha256": "4755143bb3c02c28669eebaa2db53ad97142acec799afd4136125db4277350d9"
+    },
+    "original_reference_binding": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/q060_cosine_reference_binding.json",
+      "sha256": "01bfeedc8a160daf8ccae91a66b2f65d99c934166d26592b6a0e2b25049b0897"
+    },
+    "new_q": {
+      "lambda_value": 0.02,
+      "lambda_binary64_hex": "0x1.47ae147ae147bp-6",
+      "P_enclosure": [
+        "1.00303012961530532131077072729263025805518306622443",
+        "1.00303012961530532131077072729263025805518506622444"
+      ],
+      "q_enclosure": [
+        "0.05981874145995190523846399958254212881844751029373",
+        "0.05981874145995190523846399958254212881844762956980"
+      ],
+      "q_binary64": 0.059818741459951905,
+      "q_binary64_hex": "0x1.ea08fe484496ep-5",
+      "uniquely_nearest_binary64": true,
+      "defining_primary_residual_enclosure": [
+        "-0.000000000000000000624907723515760593212470523022594683459571",
+        "-0.000000000000000000624907723515760593212470403385111763555758"
+      ],
+      "rule": "P(lambda)=1+lambda*(registered P1-1); q(lambda)=old_actual_q/P(lambda). Widths retain the registered defining-integral convention; lambda and old q are exact binary64 reals.",
+      "scope": "Only the defining scalar moment. Rounded production core evaluation and the partially lifted finite inlet are separate."
+    },
+    "gauge_amplitude": 0.06,
+    "control_path": "finite-cosine-trace-synchronous-lift-v1",
+    "lambda_value": 0.02,
+    "lift_window": [
+      0.5,
+      0.9
+    ]
+  },
+  "raw_returned": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned.json.gz",
+    "sha256": "bc2fee7117ba8d8d842ac3352290ce55e966813ebf8048494688ce6d46180cc0"
+  },
+  "raw_returned_actual_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned-dn-anchor.json",
+    "sha256": "fcbe787e4e730c09fc54c8f971371edb5159a99cb22d480852714afa38ce642a"
+  },
+  "original_solve_bvp_returned": true,
+  "inner_solver_success": true,
+  "inner_status": 0,
+  "inner_message": "The algorithm converged to the desired accuracy.",
+  "nodes": 493,
+  "raw_cubic_shape": [
+    4,
+    492,
+    25
+  ],
+  "maximum_original_RMS": 9.873637694422844e-07,
+  "mesh_nodes": [
+    271,
+    374,
+    429,
+    476,
+    493
+  ],
+  "newton_stats": {
+    "calls": 5,
+    "rejected_domain_trials": 0,
+    "rejected_merit_trials": 0,
+    "accepted_steps": 7,
+    "no_step": 0,
+    "minimum_alpha": 1.0
+  },
+  "raw_snapshot_count": 24,
+  "snapshot_counts": {
+    "before_original_solve_bvp": 1,
+    "before_initial_evaluation": 5,
+    "initial_domain_pass": 5,
+    "accepted_assignment": 7,
+    "ordinary_return": 5,
+    "immediately_after_original_solve_bvp": 1
+  },
+  "snapshot_manifest_payload_sha256": "a154f30bc8c56c5beb85da57291635c8b953e553c4a1f1c43ee0f31a45e04d5b",
+  "snapshot_manifest_scope": "Every listed raw/anchor hash and complete saved finite array checked; full event list remains in the bound entry-events.jsonl, without a duplicate Git table.",
+  "full_final_parameters": [
+    -1.3637752370752413e-10,
+    0.13180335067450089,
+    -0.13277555007896716,
+    -0.4668764017278911,
+    2.0571139745863283,
+    18.302877391003268,
+    -411.917362701317,
+    407.38904291232535
+  ],
+  "parameter_scales": [
+    0.0036,
+    0.00021599999999999996,
+    1.2959999999999998e-05,
+    7.775999999999999e-07,
+    4.665599999999999e-08,
+    2.7993599999999993e-09,
+    1e-09
+  ],
+  "full_final_physical_controls": [
+    0.0004744920624282032,
+    -2.86795188170569e-05,
+    -6.0507181663934675e-06,
+    1.5996118266383285e-06,
+    8.539390475546483e-07,
+    -1.1531049884515585e-06,
+    4.073890429123254e-07
+  ],
+  "new_H_sent_to_actual_tail": [
+    -0.00016709731551033027,
+    6.128520978145864e-06,
+    1.087161060379719e-06,
+    5.781188206976297e-10,
+    -5.266481811653339e-09,
+    -1.1270751724175706e-09,
+    5.642930213506106e-11,
+    6.861304863047251e-11
+  ],
+  "starting_actual_tail_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0003.json.gz",
+    "sha256": "ae01f13ad7b28b82481a3417471c4fd5511b145bb50bd2be73a4386897a0db1e",
+    "full_H": [
+      -0.00016709732888206937,
+      6.128522943475735e-06,
+      1.0871575800244308e-06,
+      5.781876843980236e-10,
+      -5.266474363212559e-09,
+      -1.1270132288442543e-09,
+      6.153289151492908e-11,
+      3.970751029636704e-11
+    ],
+    "full_H_binary64_sha256": "36f201a193e1fd50b764af622d81d0b359e1a1a29e0f2608c2ebb73b06e6b2df",
+    "residual": 1.8339313038213144e-09
+  },
+  "failed_actual_tail": {
+    "record": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/seed_tail_0001.json.gz",
+      "sha256": "6f0cdfa7bdc27c330bd3320ba94417e1fb410430dfdcdd3bd685c2944d2411ac"
+    },
+    "request_jacobian": true,
+    "request_audit": true,
+    "original_gate": 2e-09,
+    "last_iteration": {
+      "iteration": 2,
+      "norm": 3.667862901158431e-09,
+      "minA": 0.5218915666495756,
+      "minD": 0.9991195413189724,
+      "chartCondition": null
+    },
+    "failure": "Error: multiple-shooting line search failed at 3.667862901158431e-9",
+    "finite_state_shape": [
+      1153,
+      16
+    ],
+    "source_scope": "The full failed native checkpoint is preserved; it is not an accepted response or complete returned audit."
+  },
+  "original_main_error": "FloatingPointError(\"Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 3.667862901158431e-9', 'residual': None, 'lastIteration': {'iteration': 2, 'norm': 3.667862901158431e-09, 'minA': 0.5218915666495756, 'minD': 0.9991195413189724, 'chartCondition': None}}\")",
+  "original_failure_traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/main-excerpt.py\", line 24, in main\n    sol,outer_checks=solve_with_actual_tail(o,tail,x,y,par,a)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/outer-excerpt.py\", line 15, in solve_with_actual_tail\n    actual=tail.solve(candidate,jacobian=True,audit=True)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py\", line 46, in solve\n    raise FloatingPointError('Weighted finite DN trial failed '+str({k:response.get(k) for k in ('failed','residual','lastIteration')}))\nFloatingPointError: Weighted finite DN trial failed {'failed': 'Error: multiple-shooting line search failed at 3.667862901158431e-9', 'residual': None, 'lastIteration': {'iteration': 2, 'norm': 3.667862901158431e-09, 'minA': 0.5218915666495756, 'minD': 0.9991195413189724, 'chartCondition': None}}\n",
+  "actual_tail_requests": 1,
+  "new_actual_tail_acceptances": 0,
+  "physical_checkpoint_saved": false,
+  "mean_height_reconstructed": false,
+  "full_metric_available": false,
+  "recovery_boundary": "Resume after the preserved accepted inner0, with a genuinely accepted actual response at its exact new H; do not rerun the completed inner. Original outer/BC/mean/metric gates remain necessary.",
+  "collector_evaluated_equations": false
+}
