@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`b9355a9f3545fbad78dca72eb7258bf5ed6bb33b`。2026-11-18 08:22:53（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`9419995ff24cca89e88e0fc4d8d5e41fd0186956`。2026-11-18 08:24:11（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -26,7 +26,9 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮metric.421880失败，参考重投影无收益，实际Jac右坐标未改善原线性误差。仅改C²窗36328完整失败：4196点触6000门/RMS6.33004/metric.346343328；最终原尾1.37531e−9/800Jac/audit不能补前缀，见m3-circle-endpoint-c2-seed-complete-failure。失败物理quintic重建方向的21α全core拒（全步负样本/20缩步grid界未证），并非失存raw cubic重放或全部历史拒绝，见endpoint-domain-rejection-is-grid-bound。新增全域ρ″的Bh²/8充分界，保原双界/1e−5/32768，28组几何jets逐位同；20缩步仅guard过，非Frenet/merit/BVP，见raw-core-second-order-guard。14903初p/c/H/profile/repair同旧入口，仅guard及trace变；终态另条登记，见endpoint-second-order-guard-entry。δ未知、非固定g精化，仍无λ1接受前缀。
+**λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮metric.421880失败，参考重投影/实际Jac右坐标无收益。仅C²窗36328仍4196点触6000门/RMS6.33004/metric.346343328；最终真尾通过不补前缀，见m3-circle-endpoint-c2-seed-complete-failure。失败physical quintic重建方向21α全core拒，非失存raw cubic或历史全部拒绝，见endpoint-domain-rejection-is-grid-bound。新全域ρ″的Bh²/8充分界保原双界/1e−5/32768，28组几何jets逐位同；20缩步仅guard过，见raw-core-second-order-guard。14903初p/c/H/profile/repair同旧入口，仅guard及trace变，终态另记；δ未知、非固定g精化，仍无λ1接受前缀。
+
+同271点/全15c/C²初猜的五半宽a=.01/.05/.10/.15/.21，λ1原RMS=.4228/.7022/1.1744/1.9491/3.0015；原初域均过/H同actual锚。W_a与低2×2投影随a变，全部basis身份已锁，非相同控制函数或连续证明，见m3-circle-halfwidth-initializer-probe。仅支持先短圆弧再扩到a.21的路径，无新BVP/10%继承。
 
 原raw增幅初猜新增线性物理控制c_new=(qnew/qold_actual)c_old；只改原ratio幂，保共用C²窗/材料回拉/门。q.045、271点有限探针H及窗外场不变、控制式差1.32349e−23，无BVP/尾；见m3-raw-linear-amplitude-initializer。取得合格圆端点后才用于实际增幅。
 
@@ -44,11 +46,11 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 ## 3. 全闭表示与严格连续metric
 
-R21/R23有限C²闭图和完整mean接缝、R24固定帽排全O(3)。R28新M16/64图自身D≤2.301491469394、reach≥.1、H径比>.69794、held/D>.005462656及δE>0，不能搬旧M8矩。R29尾operator≤9.996591e−7、R31前缀<8.253e−7，真积分/舍入/唯一atlas已付。**低幅全闭全时metric<1e−6已证，held不足.1，仍无精确无限解证明。** 同checkpoint尾32→64真实R metric降12.66倍，但二阶层差.00629485未证C²极限。
+R21/R23全mean接缝、R24固定帽排全O(3)。R28/29/31低幅全C²闭图全时metric<1e−6已证：自身D≤2.301491469394/reach≥.1/H径比>.69794/δE>0，但held/D>.005462656，远未.1。同CP尾32→64真实metric降12.66倍，二阶层差.00629485未证C²极限；不能宣称精确无限解。
 
-R36旧actual raw M8真积分/反函数oracle；R37全角G/G′/T/T′余项<5.820e−12/2.330e−9/1.823e−9/4.184e−6；R39全1003径向段及固定真实atlas给微分余项ε<5.940838571e−9。仅若同图有限主部metric≤9.88118311e−7才推出真图<1e−6；该门未算且旧M8坏，不再为它全域分盒。新终态须自己的全角证书/有限主部/尾闭合，不继承旧数值界。
+R36/37/39仅旧raw M8的真积分/真反函数/全1003径向span固定atlas，微分余项ε<5.940838571e−9；同图有限主部若≤9.88118311e−7才给真metric<1e−6。旧M8未过门，不重做全域分盒；新终态须自身全角证书/有限主部/尾闭合。
 
-有限主部接口已执行：R39完整P按精确Fraction编译到R31全部metric卷积，保留q_gauge及中心/一次lift抵消；11关键span六jet共198有理比较、中心宽度1059个C²系数恒等式全0。仅a5=1单点消费接口核对，不是物理metric；拒绝未提供有限cut lift系数的包。见integral-principal-polynomial-interface；旧坏M8不再全域分盒。
+R39→R31完整主部Fraction编译已核11span六jet共198恒等式及中心1059个C²系数全0，保q_gauge/中心/lift抵消；仅a5=1单点接口，非物理metric。未知cut lift仍拒绝，见integral-principal-polynomial-interface。
 
 ## 4. 其他登记结论与分工
 

@@ -1,0 +1,413 @@
+{
+  "scope": "Compare lambda-one halfwidth designs at the initial-guess level only.\n\nThe original shared-C2 restart, affine actual-tail anchor, physical equations\nand all original domain tests are used.  There is no BVP or new tail solve.\nChanging the protected halfwidth is a physical core design, not fixed-g\nrefinement or a transfer of the final a=.21 geometric witness.\n",
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_m3_endpoint_halfwidth_initializers.py",
+    "--run",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/m3-endpoint-halfwidth-initializers.json",
+    "--nodes",
+    "257"
+  ],
+  "seconds": 15.308520736994979,
+  "actual_seed_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+    "sha256": "6f5a973c746e1112f827e5478432b9abe9d14931df90157f2a19381cc670b91e"
+  },
+  "actual_affine_tail_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_tail_0002.json.gz",
+    "sha256": "0401a64dbf05925e8287807bc6f01d273f32479177a893dddb594349b478fcb7",
+    "residual": 1.3784657706205187e-09
+  },
+  "coefficient_chunks": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_coeff_00.npy.gz": "6637680be24885749acace4d688299ade99249c0760558bf5dc7c42186202f22"
+  },
+  "primary_transition": 0.32,
+  "control_transition": 0.4,
+  "q_gauge": 0.03991248545080898,
+  "warp_reference": 0.04,
+  "modes": 16,
+  "angular": 512,
+  "initial_nodes_argument": 257,
+  "boundary": "Only finite initial guesses have been compared. A smaller halfwidth changes the exact core and has no inherited a=.21 holding witness. No predictor, BVP, actual tail, physical profile, or running source was changed.",
+  "status": "finite initial guesses only; no new BVP or tail solution",
+  "probe_execution": {
+    "session": 12463,
+    "observed_returncode": 0
+  },
+  "full_probe": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/m3-endpoint-halfwidth-initializers.json",
+    "sha256": "583f79f78ef36cf4a6c19848ef6c7ce5d4b17170a378014b8613ffce4e8f9426"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-coupled.py": "711de62631e019a212c405ddedbef06cc552ada50ab248201c4cc6d65878525a",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_m3_endpoint_halfwidth_initializers.py": "0d87024e90ac26cee8126467b77305b43cc2fd0f183d16686b13f5640f7c8d0f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_endpoint_c2_restart.py": "d817744f6bf6edf57197736d60b83ad6212c60c4cdb3e5b69ba1dce8bced1691"
+  },
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_endpoint_halfwidth_initializers.py",
+    "sha256": "4a213c5e4f706280eccb12f42d13d8b432784c05537d64d885d9499c6243eb85",
+    "command": [
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_endpoint_halfwidth_initializers.py",
+      "--input",
+      "/workspace/scratch/7322d0dee069/m3_work/m3-endpoint-halfwidth-initializers.json",
+      "--out",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/endpoint_halfwidth_initializers_record.json"
+    ],
+    "scope": "Compact the completed halfwidth probe and identify each new raw moment basis.\n\nOnly the explicit 80-digit moment definitions are reevaluated.  The recorded\nRMS/domain runs are not repeated, and no BVP or nonlinear tail is called.\n"
+  },
+  "shared_actual_physical_controls": [
+    0.00021128347873463122,
+    -1.2553265913246548e-05,
+    -5.425035604512735e-07,
+    1.2888307776136872e-06,
+    -1.1001462301684885e-06,
+    4.928129951345896e-07,
+    7.109194478290164e-08,
+    -3.5790961236303385e-07,
+    3.332852447533977e-07,
+    -1.2592463445322105e-07,
+    -7.47385941361535e-08,
+    1.9272973014561733e-07,
+    -6.930411007611311e-08,
+    4.674685607353034e-07,
+    2.63613212332551e-06
+  ],
+  "rows": [
+    {
+      "halfwidth": 0.01,
+      "core_settings": {
+        "halfwidth": 0.01,
+        "transition": 0.32,
+        "control_transition": 0.4,
+        "homotopy": 1.0,
+        "center": 1.0471975511965976,
+        "bimodal_eta": 0.0,
+        "lock_fundamental": true,
+        "coefficient_precision": 80,
+        "positivity_grid_max": 32768
+      },
+      "original_initial_domain_passed": true,
+      "nodes": 271,
+      "original_collocation_rms": 0.42280159654652605,
+      "collocation_residual_max": 0.0012449099550745262,
+      "boundary_residual": 1.6796868583723136e-08,
+      "sampled_min_frenet_margin": 0.0029624959541683094,
+      "initial_rho_lower": 0.6573088913185204,
+      "actual_q": 0.03991248545080898,
+      "delta": 0.06105141410261685,
+      "tail_height_identical_to_actual_anchor": true,
+      "basis_identity": {
+        "definition": "B_j(phi)=W_a(phi)[cos(3*j*phi)-C_0j-C_1j*cos(3*phi)], j=2..M; C solves the weighted {1,cos3phi} 2x2 moment system at this a.",
+        "normalized_inner_product": "(2*pi)^(-1) integral_0^(2*pi)",
+        "low_weighted_gram": [
+          [
+            0.7994647717042119,
+            0.18448307825810378
+          ],
+          [
+            0.18448307825810378,
+            0.32879144724829346
+          ]
+        ],
+        "raw_constraints": {
+          "shape": [
+            2,
+            15
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "2d1d52f1ec9c4a4035f9c7977dcd487b268a38177e1c6b8734ca342d0b4c2396"
+        },
+        "supported_trigonometric_coefficients": {
+          "shape": [
+            15,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "59f2fa4e8cac44ac3a1cd421d6313d97e57a2e16047f1231e75b72ad1b3664f7"
+        },
+        "full_weighted_gram": {
+          "shape": [
+            17,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "a0d8144a647ce749d6470fd17b41658ee2c0caa4036b2c3065bd337f313d1aec"
+        },
+        "high_precision_low_moment_residual": "3.42250406263e-82",
+        "finite_basis_scope": "The source defines exact moment inverses; these matrix identities record its 80-digit-to-binary64 evaluation, not a new interval certificate."
+      }
+    },
+    {
+      "halfwidth": 0.05,
+      "core_settings": {
+        "halfwidth": 0.05,
+        "transition": 0.32,
+        "control_transition": 0.4,
+        "homotopy": 1.0,
+        "center": 1.0471975511965976,
+        "bimodal_eta": 0.0,
+        "lock_fundamental": true,
+        "coefficient_precision": 80,
+        "positivity_grid_max": 32768
+      },
+      "original_initial_domain_passed": true,
+      "nodes": 271,
+      "original_collocation_rms": 0.7021558681286663,
+      "collocation_residual_max": 0.0022478177456181046,
+      "boundary_residual": 1.6796868583723136e-08,
+      "sampled_min_frenet_margin": 0.0029624959541683094,
+      "initial_rho_lower": 0.6541408004082302,
+      "actual_q": 0.03991248545080898,
+      "delta": 0.06105141410261685,
+      "tail_height_identical_to_actual_anchor": true,
+      "basis_identity": {
+        "definition": "B_j(phi)=W_a(phi)[cos(3*j*phi)-C_0j-C_1j*cos(3*phi)], j=2..M; C solves the weighted {1,cos3phi} 2x2 moment system at this a.",
+        "normalized_inner_product": "(2*pi)^(-1) integral_0^(2*pi)",
+        "low_weighted_gram": [
+          [
+            0.761267585362157,
+            0.21344638140948025
+          ],
+          [
+            0.21344638140948025,
+            0.3063097212026562
+          ]
+        ],
+        "raw_constraints": {
+          "shape": [
+            2,
+            15
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "376fd806c0ffbfc0ef14ff22f3c42b01389aa9b4f6b80d36d5e381586073341f"
+        },
+        "supported_trigonometric_coefficients": {
+          "shape": [
+            15,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "b041eb39f33ab157c70287bb1148839edcf1c5d8aed5a70b20f6f85b8d58fd47"
+        },
+        "full_weighted_gram": {
+          "shape": [
+            17,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "d7f58fbe60d284b1ff5d8ccb945114607f15df6bddd009fadc47db955ee96050"
+        },
+        "high_precision_low_moment_residual": "1.63464786052e-82",
+        "finite_basis_scope": "The source defines exact moment inverses; these matrix identities record its 80-digit-to-binary64 evaluation, not a new interval certificate."
+      }
+    },
+    {
+      "halfwidth": 0.1,
+      "core_settings": {
+        "halfwidth": 0.1,
+        "transition": 0.32,
+        "control_transition": 0.4,
+        "homotopy": 1.0,
+        "center": 1.0471975511965976,
+        "bimodal_eta": 0.0,
+        "lock_fundamental": true,
+        "coefficient_precision": 80,
+        "positivity_grid_max": 32768
+      },
+      "original_initial_domain_passed": true,
+      "nodes": 271,
+      "original_collocation_rms": 1.174355587054389,
+      "collocation_residual_max": 0.0040955294188600964,
+      "boundary_residual": 1.6796868583723136e-08,
+      "sampled_min_frenet_margin": 0.0029624959541683094,
+      "initial_rho_lower": 0.6481083204379705,
+      "actual_q": 0.03991248545080898,
+      "delta": 0.06105141410261685,
+      "tail_height_identical_to_actual_anchor": true,
+      "basis_identity": {
+        "definition": "B_j(phi)=W_a(phi)[cos(3*j*phi)-C_0j-C_1j*cos(3*phi)], j=2..M; C solves the weighted {1,cos3phi} 2x2 moment system at this a.",
+        "normalized_inner_product": "(2*pi)^(-1) integral_0^(2*pi)",
+        "low_weighted_gram": [
+          [
+            0.7135211024345884,
+            0.2452887132106949
+          ],
+          [
+            0.2452887132106949,
+            0.284198461283489
+          ]
+        ],
+        "raw_constraints": {
+          "shape": [
+            2,
+            15
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "a570449949e40b324821377fd3cf1ea5c1bfaecb484093f0c14766b90603bfbf"
+        },
+        "supported_trigonometric_coefficients": {
+          "shape": [
+            15,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "0660ab7b7e538c2fc38f0b3574d1c30075181443a8266094f6da57cb5ba91a3b"
+        },
+        "full_weighted_gram": {
+          "shape": [
+            17,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "33ddfbb98e9bd17447ae777425b382547bc12adedccfafe870aeaf5fed65c4b8"
+        },
+        "high_precision_low_moment_residual": "2.19630178139e-82",
+        "finite_basis_scope": "The source defines exact moment inverses; these matrix identities record its 80-digit-to-binary64 evaluation, not a new interval certificate."
+      }
+    },
+    {
+      "halfwidth": 0.15,
+      "core_settings": {
+        "halfwidth": 0.15,
+        "transition": 0.32,
+        "control_transition": 0.4,
+        "homotopy": 1.0,
+        "center": 1.0471975511965976,
+        "bimodal_eta": 0.0,
+        "lock_fundamental": true,
+        "coefficient_precision": 80,
+        "positivity_grid_max": 32768
+      },
+      "original_initial_domain_passed": true,
+      "nodes": 271,
+      "original_collocation_rms": 1.949112718282956,
+      "collocation_residual_max": 0.006685207309916704,
+      "boundary_residual": 1.6796868583723136e-08,
+      "sampled_min_frenet_margin": 0.0029624959541683094,
+      "initial_rho_lower": 0.6390096261165388,
+      "actual_q": 0.03991248545080898,
+      "delta": 0.06105141410261685,
+      "tail_height_identical_to_actual_anchor": true,
+      "basis_identity": {
+        "definition": "B_j(phi)=W_a(phi)[cos(3*j*phi)-C_0j-C_1j*cos(3*phi)], j=2..M; C solves the weighted {1,cos3phi} 2x2 moment system at this a.",
+        "normalized_inner_product": "(2*pi)^(-1) integral_0^(2*pi)",
+        "low_weighted_gram": [
+          [
+            0.6657746195070198,
+            0.2716223893242868
+          ],
+          [
+            0.2716223893242868,
+            0.2685689567499764
+          ]
+        ],
+        "raw_constraints": {
+          "shape": [
+            2,
+            15
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "f5e75af51608b6a4baa319d8675ec322a97364b59eb03e43777d5461e34dd800"
+        },
+        "supported_trigonometric_coefficients": {
+          "shape": [
+            15,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "b8f98787265ae168ba340ff627ba4cd2131b90de67b29fbd87e8fa2959006e61"
+        },
+        "full_weighted_gram": {
+          "shape": [
+            17,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "8cf93bec73948e4026d098deeb86f27ef9d540f2fcf2d52483a69b25399842cf"
+        },
+        "high_precision_low_moment_residual": "2.53533462623e-82",
+        "finite_basis_scope": "The source defines exact moment inverses; these matrix identities record its 80-digit-to-binary64 evaluation, not a new interval certificate."
+      }
+    },
+    {
+      "halfwidth": 0.21,
+      "core_settings": {
+        "halfwidth": 0.21,
+        "transition": 0.32,
+        "control_transition": 0.4,
+        "homotopy": 1.0,
+        "center": 1.0471975511965976,
+        "bimodal_eta": 0.0,
+        "lock_fundamental": true,
+        "coefficient_precision": 80,
+        "positivity_grid_max": 32768
+      },
+      "original_initial_domain_passed": true,
+      "nodes": 271,
+      "original_collocation_rms": 3.0014547795682174,
+      "collocation_residual_max": 0.01081333216930943,
+      "boundary_residual": 1.6796868583723136e-08,
+      "sampled_min_frenet_margin": 0.0029624959541683094,
+      "initial_rho_lower": 0.6226166932326007,
+      "actual_q": 0.03991248545080898,
+      "delta": 0.06105141410261685,
+      "tail_height_identical_to_actual_anchor": true,
+      "basis_identity": {
+        "definition": "B_j(phi)=W_a(phi)[cos(3*j*phi)-C_0j-C_1j*cos(3*phi)], j=2..M; C solves the weighted {1,cos3phi} 2x2 moment system at this a.",
+        "normalized_inner_product": "(2*pi)^(-1) integral_0^(2*pi)",
+        "low_weighted_gram": [
+          [
+            0.6084788399939375,
+            0.29512820586140176
+          ],
+          [
+            0.29512820586140176,
+            0.2572953829779663
+          ]
+        ],
+        "raw_constraints": {
+          "shape": [
+            2,
+            15
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "ce43bf120af327eed67ddecc18f250fa645ad35804b9d8655253aac034f0de14"
+        },
+        "supported_trigonometric_coefficients": {
+          "shape": [
+            15,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "c10bbd4325098f92f54c4eaffa40a03b17484b35ce29239c139ecaeb2be243af"
+        },
+        "full_weighted_gram": {
+          "shape": [
+            17,
+            17
+          ],
+          "encoding": "little-endian binary64, C order",
+          "sha256": "8ce1b7e578ade0226eeb17a2b92f6d906ddc0ffe87c48e707f710671fcee5c7e"
+        },
+        "high_precision_low_moment_residual": "1.77482119878e-82",
+        "finite_basis_scope": "The source defines exact moment inverses; these matrix identities record its 80-digit-to-binary64 evaluation, not a new interval certificate."
+      }
+    }
+  ],
+  "search_scope": "A targeted rg of the topic notes/log found previous m3 halfwidth fixed at .21 and control-width screens, but no equivalent five-halfwidth lambda-one C2-initializer domain/RMS comparison. Historical n4 designs are different."
+}
