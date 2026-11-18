@@ -1,0 +1,905 @@
+{
+  "scope": "Genuine original-solver terminal of the saved-inner continuation. All entries are read from stored outputs; no BVP, flow, complete metric or seam computation is repeated. Finite sampled prefix and tail audits do not certify a complete closed surface or a continuous metric bound.",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/record_q060_saved_inner_terminal.py",
+    "sha256": "bdf9fc2eb7200568fc98813ab04d2402708a4a17bc4e6d284cb30d071f174755"
+  },
+  "collector_helpers": {
+    "recovering_tail_client_v2.py": "c9b95c06696bae1d76e06419371a0fca09e67abe94c2361b416ddb63d8196bb8"
+  },
+  "actual_entry": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed-resume-entry.json",
+    "sha256": "f2fb84c102da6a80907d0fd67da8cf30adc5f14013a1114d187642ebdb0277fb"
+  },
+  "launch_plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/launch-plan.json",
+    "sha256": "d81942fd9ad73cac4787e4a48390cfb4698549aace2613a5c888d9ad0d0f25f7"
+  },
+  "owned_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-source-manifest.json",
+    "sha256": "0a6f48c15a7e4a6da26f9ce2c0a1277c8df41a49b6d9a9f243cf3c048cb81f57"
+  },
+  "resume_provenance": {
+    "scope": "Resume the pinned q060 inner0 exactly at its actual-tail query.\n\nNo old restart, warmup or inner0 solve is performed. A new original worker\nowns the accepted new-H response; the original nonlinear BC then decides\nwhether to export or continue outer1,...,7. Missing old diagnostics stay\nmissing. Only the independent resume entry and serialization hooks are new.\n",
+    "entry_plan": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/entry-plan.json",
+      "sha256": "c1460e83e4816043e6f87bdb3aee6b5f98ec737de107fe42d5efc28ddd1fda44"
+    },
+    "raw_inner": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-debug.json.gz",
+      "sha256": "67112318acde56cf1c797267b2069885e50567f4b5052db008acda64cf70d84d"
+    },
+    "dn_anchor": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-dn-anchor.json",
+      "sha256": "ec23c070f93692835d400a5f0eae60ba24669c862c1045e5184a465483877715"
+    },
+    "accepted_initializer": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-newheight-c8-c9-native/seed_tail_0001.json.gz",
+      "sha256": "2bbce1774e35c2c9936405b61ff66e8fc2db05968be8da12d1fb85a234a823bd"
+    },
+    "original_outer_resumed": 0,
+    "remaining_original_outer_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "prior_native_calls": 3,
+    "current_client_calls_start_at_zero": true,
+    "original_warmup_invoked": false,
+    "original_restart_invoked": false,
+    "original_inner0_recomputed": false,
+    "old_message_and_interval_rms_not_saved": true,
+    "cubic_reconstruction_scope": "Literal saved coefficients/breaks/axis; evaluations restricted to saved interval; old extrapolation attribute was not saved."
+  },
+  "session": 41319,
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/resume_q060_saved_inner.py",
+    "--entry-plan",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/entry-plan.json",
+    "--raw-inner",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-debug.json.gz",
+    "--dn-anchor",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-dn-anchor.json",
+    "--accepted-tail",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-newheight-c8-c9-native/seed_tail_0001.json.gz",
+    "--source-topic",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-source",
+    "--owned-manifest",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-source-manifest.json",
+    "--out-prefix",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed"
+  ],
+  "original_main_arguments": [
+    "--source-root",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root",
+    "--profile",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/profile.json",
+    "--chart",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+    "--linear-port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q060-local-tail-retry/port.json",
+    "--tail-config",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed-config.json",
+    "--out-prefix",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed",
+    "--restart",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-linear-difference/seed.json.gz",
+    "--amplitude",
+    "0.06",
+    "--warp-reference",
+    "0.06",
+    "--modes",
+    "8",
+    "--angular",
+    "256",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "801",
+    "--max-nodes",
+    "6000",
+    "--tol",
+    "1e-06",
+    "--bc-tol",
+    "1e-07",
+    "--physical-bc-tol",
+    "2e-09",
+    "--node-heap",
+    "3072",
+    "--warmup-scales",
+    "--lagged-tail"
+  ],
+  "checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed.json.gz",
+    "sha256": "4755143bb3c02c28669eebaa2db53ad97142acec799afd4136125db4277350d9"
+  },
+  "coefficient_chunks": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_coeff_00.npy.gz",
+      "sha256": "a3434077ca4b42effcfdb80ce196f6e3bb52f37501f8d5319674ad66e2dc8249",
+      "shape": [
+        6,
+        1933,
+        25
+      ],
+      "dtype": "float64",
+      "state_first": 0,
+      "state_last_exclusive": 25
+    }
+  ],
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed-summary.json",
+    "sha256": "8abdc203c35cbab1cbdeead7360549d85942a90227d2d84f3448f3196be0af85"
+  },
+  "runner_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed-resume-terminal.json",
+    "sha256": "6b198a45dd3c8de01daac679cb54bb252a5bbfaa4eac64bebf881c5e3db221ce"
+  },
+  "observer": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/observation.json",
+    "sha256": "97979684fcf76512f68a61a48697026c24a71074a43e0f25f9df8233609d0210"
+  },
+  "log": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/solver.log",
+    "sha256": "1c3cc0b4542eb33505694fc8b3d76e3f338dbbff47dd97073b45eb8fb9383999"
+  },
+  "resume_events": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed-resume-events.jsonl",
+    "sha256": "f6819396161f6d6b4aa8d2491f7475270aef75a49963d19c51aa77d16b2a1522"
+  },
+  "recovery_events": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail-recovery-events.jsonl",
+    "sha256": "f5bfbb491771012da2eccb6877f5f991f6615a17cd3441d1b8962754bcc48797"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/db6f-prefix-coupled.py": "37defb33c031fd967ab0e06e086da56f2d67e30dd88bbbcb8e5e13201476511a",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_general_reflected_core.py": "59e94594efbba648a0ef88f823ec8d0e77eb12a8b06d8e617d1d1adcc7081984",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_rectifying_wavy_core.py": "45a84dd8f9085c7379c12dc1f55a200231f2153cacba3c6e0e4ba7279e813158",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/construct_reflected_stable_interface.py": "511338da4feb5fc8cafd0882cc70b8d83c0a9485104ccdbb28f116ac722c192a",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_linear_control.py": "5f3e9230e9ccee51e01422ac050bd0ef878a48dd59663c6f89c7802fdb17a4ef",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/curve_stable_prefix_bvp.py": "e621ee2e9e8a706332b3839122a8ec57e1c5c2cfe82a48a759dcdad0548c54b2",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bidirectional_bridge.py": "85b9e746235a32c3e78229d6d1ddc424ee3497db3a8d61c858b14bc6534bf468",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_bridge_linear.py": "781da096875279819d253d52b3628b4e2c6d14d59c4246388c20a434745442e8",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_domain_newton.py": "6cb269210e609e1f49c20004be0ce3f9f68e43e47ab57eaf16bb9e56fa3be654",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_inward_bvp.py": "762e0efd343883ed4093b2e941c7a727c27189afd0ec38e5cf6735305094d15e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_local_frame.py": "24c4cf7210d8cabb492a5af4b8d77d937fb4d985d5ae162ad00e528165420d3f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bridge_linear.py": "b9a1d5ed811896903ec35b0f2af0045312e755dec2049c65f9b428364b8c1ffc",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_outward_bvp.py": "d069e227b2b6ee76f5911b37887e0c4213c1438365cdee82fa5d8bea3d1ee302",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/prepare_recovering_tail_source_v3.py": "62cb8db35003318c1464de775db0280efd521e2f7982bd1222e618868a34122e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_inner_prefix_debug_record.py": "7916b99da87fcd7be9a5a668d24236dcb5f07acc5596e7efd23633d4e6b80891",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/recovering_tail_client_v3.py": "fcaf7537552453451677f033a9d0fd5f8907188400e35bb0bec0ae88f2dcae39",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_tail_internal_candidate_v3.mjs": "b7a8281b12b17c403edc7ba59adf1a7ee72f84a61e8beed0e2562c354dffdcb7",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-resource-v3-source/scripts/db6f-prefix-coupled.py": "fcc7733de22b0e3d300e977276694530ef91c89630cfd56bad84c51c043c4d6d",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-resource-v3-source/scripts/950f-tail-client-v3.py": "59f99d24810844f9f27a64c4d10c5a5866047aecb47dba854d3bff91dc4304ee",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-resource-v3-source/scripts/recovering_tail_client_v3.py": "fcaf7537552453451677f033a9d0fd5f8907188400e35bb0bec0ae88f2dcae39",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-resource-v3-source/scripts/propose_tail_internal_candidate_v3.mjs": "b7a8281b12b17c403edc7ba59adf1a7ee72f84a61e8beed0e2562c354dffdcb7",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-source/scripts/db6f-prefix-coupled.py": "85500781c97c2fb6e04b5fe5422ab7d16269a66aa338195c6d2325888fd9ceea",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/prepare_saved_inner_resume_source.py": "b18f84b3515c9e2633b1147add01fe6d5008bb0c5b17817f6799fcf930b2dc4a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/resume_q060_saved_inner.py": "6f59567a1aba349af1965df9122f7dea66979d7be213f4245c5cec25c3ef04ea",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/recovering_tail_client_v2.py": "c9b95c06696bae1d76e06419371a0fca09e67abe94c2361b416ddb63d8196bb8"
+  },
+  "solver_success": true,
+  "original_solver_config": {
+    "modes": 8,
+    "base_mode": 3,
+    "core_kind": "adaptive_warped_support",
+    "angular": 256,
+    "tol": 1e-06,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "fixed_metric": false,
+    "actual_nonlinear_tail": true
+  },
+  "physical_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275721220832,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "meridian_length_binary64": 1.3602524132788236,
+  "q_gauge": 0.06,
+  "q_actual": 0.06,
+  "full_parameters": [
+    -8.84429295772251e-06,
+    0.12904647773452063,
+    -0.17427337687254926,
+    0.049694862922892796,
+    -0.22234675459962117,
+    -1.977660018176105,
+    -2.1166673655871584,
+    0.7680657966726737
+  ],
+  "full_correction_scales": [
+    0.0036,
+    0.00021599999999999996,
+    1.2959999999999998e-05,
+    7.775999999999999e-07,
+    4.665599999999999e-08,
+    2.7993599999999993e-09,
+    1e-09
+  ],
+  "full_support_coefficients": [
+    0.06,
+    0.00046456731984427426,
+    -3.764304940447063e-05,
+    6.440454234806906e-07,
+    -1.728968363766654e-07,
+    -9.226970580802433e-08,
+    -5.925313956530067e-09,
+    7.680657966726738e-10
+  ],
+  "physical_port_sha256": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846",
+  "frozen_candidate_metric_identity": {
+    "scope": "The complete physical design returned by this unfixed design solve; freeze all these inputs for any subsequent fixed-g refinement. This record is not itself a continuous integral/atlas error certificate.",
+    "core_kind": "adaptive_warped_support",
+    "base_mode": 3,
+    "core_q": 0.06,
+    "full_support_coefficients": [
+      0.06,
+      0.00046456731984427426,
+      -3.764304940447063e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      -5.925313956530067e-09,
+      7.680657966726738e-10
+    ],
+    "profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06104275721220832,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "warp_reference_q": 0.06,
+    "chart_kind": "frozen-spline-adaptive-v1",
+    "chart_payload_sha256": "22274daadd4119eae96401d277fec28017c01b468c714d2b41ce7b993a13e8cb",
+    "original_chart_file": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+      "sha256": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e"
+    },
+    "physical_port_sha256": "359b5727cee3d7f7e842ba2d1f357df3f34b75374ceebd0ad06380969ad95846",
+    "physical_tail_parameters": {
+      "rCut": 0.3,
+      "wCut": 0.08,
+      "width": 0.25,
+      "curvatureBound": 8,
+      "orientation": 1,
+      "prefixR": 2,
+      "prefixEnd": 15,
+      "prefixReturnStart": 8,
+      "protectCell": 160,
+      "slopeCap": 0.02,
+      "capTransition": 2,
+      "calibrationSteps": 512,
+      "warpSteps": 16,
+      "cuspAwareQuadrature": true,
+      "quadratureTolerance": 2e-10,
+      "capMode": "cut-preserving",
+      "valleyControls": [
+        4.625,
+        2.8125,
+        4.0625,
+        5,
+        5.25,
+        4.0625,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pulseCaps": [
+        [
+          0.4,
+          0.02
+        ]
+      ],
+      "valleyCaps": [
+        0.1
+      ],
+      "maxCachedBetas": 1,
+      "warpWeightLevels": [
+        [
+          1,
+          0.5,
+          3,
+          0.05,
+          1
+        ]
+      ],
+      "spacing": 3
+    },
+    "physical_tail_cut": {
+      "radius": 0.3,
+      "backgroundSlope": 0.08000000000000027,
+      "backgroundSecond": -1.866666666666673,
+      "E": 1.0064,
+      "Ep": -0.2986666666666687,
+      "_prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "meridian_length_binary64": 1.3602524132788236
+  },
+  "nodes": 1934,
+  "message": "The algorithm converged to the desired accuracy.",
+  "max_rms": 9.977585233061552e-07,
+  "current_process_newton_domain_audit": {
+    "calls": 1,
+    "rejected_domain_trials": 0,
+    "rejected_merit_trials": 0,
+    "accepted_steps": 1,
+    "no_step": 0,
+    "minimum_alpha": 1.0
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 4.414534236067417e-06,
+      "actual_tail_residual": 1.8339826971781208e-09,
+      "tail_calls": 1
+    },
+    {
+      "outer": 1,
+      "inner_success": true,
+      "actual_boundary_residual": 9.178791778917617e-12,
+      "actual_tail_residual": 1.8339313038213144e-09,
+      "tail_calls": 2
+    }
+  ],
+  "original_total_outer_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "original_inner0_recomputed": false,
+  "new_inner_indices": [
+    1
+  ],
+  "saved_inner_resume_diagnostics": {
+    "final_solution_is_restored_raw_inner": false,
+    "message_provenance": "new_actual_solve_bvp",
+    "rms_provenance": "new_actual_solve_bvp_vector",
+    "original_interval_rms_reconstructed": false,
+    "prior_domain_newton_counters_available": false,
+    "current_domain_newton_counter_scope": "This resume process only",
+    "input_resume_provenance": {
+      "scope": "Resume the pinned q060 inner0 exactly at its actual-tail query.\n\nNo old restart, warmup or inner0 solve is performed. A new original worker\nowns the accepted new-H response; the original nonlinear BC then decides\nwhether to export or continue outer1,...,7. Missing old diagnostics stay\nmissing. Only the independent resume entry and serialization hooks are new.\n",
+      "entry_plan": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/entry-plan.json",
+        "sha256": "c1460e83e4816043e6f87bdb3aee6b5f98ec737de107fe42d5efc28ddd1fda44"
+      },
+      "raw_inner": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-debug.json.gz",
+        "sha256": "67112318acde56cf1c797267b2069885e50567f4b5052db008acda64cf70d84d"
+      },
+      "dn_anchor": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-dn-anchor.json",
+        "sha256": "ec23c070f93692835d400a5f0eae60ba24669c862c1045e5184a465483877715"
+      },
+      "accepted_initializer": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-newheight-c8-c9-native/seed_tail_0001.json.gz",
+        "sha256": "2bbce1774e35c2c9936405b61ff66e8fc2db05968be8da12d1fb85a234a823bd"
+      },
+      "original_outer_resumed": 0,
+      "remaining_original_outer_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "prior_native_calls": 3,
+      "current_client_calls_start_at_zero": true,
+      "original_warmup_invoked": false,
+      "original_restart_invoked": false,
+      "original_inner0_recomputed": false,
+      "old_message_and_interval_rms_not_saved": true,
+      "cubic_reconstruction_scope": "Literal saved coefficients/breaks/axis; evaluations restricted to saved interval; old extrapolation attribute was not saved."
+    }
+  },
+  "tail_records": [
+    {
+      "call": 1,
+      "file": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0001.json.gz",
+        "sha256": "cdbabc930760f742db24e73262b5977dbbe1c0ff801d15ba5ff86414e52d83a8"
+      },
+      "request": {
+        "height": [
+          -0.00016709264634462914,
+          6.1285069847992245e-06,
+          1.0870661884982395e-06,
+          1.1057151185121947e-09,
+          -4.999770354945914e-09,
+          -1.1117110746596867e-09,
+          6.468782829411022e-11,
+          2.6011962920659807e-11
+        ],
+        "jacobian": true,
+        "audit": true
+      },
+      "residual": 1.8339826971781208e-09,
+      "jacobian_entries": 208,
+      "jacobian_all_finite": true,
+      "audit_present": true,
+      "audit": {
+        "fullD": 0.00032667959482511605,
+        "normalizedFullDefect": 0.0004898301140698198,
+        "minLeading": 0.5219178048701765,
+        "minD": 0.9991195788318985,
+        "formalCurvature": 8.409029312133724,
+        "maxPhysicalPV": 0.0003320210304773151,
+        "actualMetric": 4.62298661574323e-08,
+        "holonomy": 3.844603138248464e-19
+      },
+      "iterations": 1,
+      "first_iteration": {
+        "iteration": 0,
+        "norm": 1.8339826971781208e-09,
+        "minA": 0.5219178048701765,
+        "minD": 0.9991195608819022
+      },
+      "last_iteration": {
+        "iteration": 0,
+        "norm": 1.8339826971781208e-09,
+        "minA": 0.5219178048701765,
+        "minD": 0.9991195608819022
+      }
+    },
+    {
+      "call": 2,
+      "file": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0002.json.gz",
+        "sha256": "04c8ad0eaba450ab2c0a6c5eb650edcfc6dfcd8283ad06d9fd7ab7bd71b2ec3c"
+      },
+      "request": {
+        "height": [
+          -0.00016709732888206937,
+          6.128522943475734e-06,
+          1.0871575800244306e-06,
+          5.781876843980236e-10,
+          -5.266474363212559e-09,
+          -1.1270132288442543e-09,
+          6.153289151492908e-11,
+          3.970751029636705e-11
+        ],
+        "jacobian": true,
+        "audit": false
+      },
+      "residual": 1.8339313038213144e-09,
+      "jacobian_entries": 208,
+      "jacobian_all_finite": true,
+      "audit_present": false,
+      "audit": null,
+      "iterations": 5,
+      "first_iteration": {
+        "iteration": 0,
+        "norm": 5.14588505671318,
+        "minA": 0.5218999728348896,
+        "minD": 0.9991195434683423,
+        "chartCondition": null,
+        "step": 1
+      },
+      "last_iteration": {
+        "iteration": 4,
+        "norm": 1.8339313038213144e-09,
+        "minA": 0.5218914705888488,
+        "minD": 0.9991195434332786
+      }
+    },
+    {
+      "call": 3,
+      "file": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0003.json.gz",
+        "sha256": "ae01f13ad7b28b82481a3417471c4fd5511b145bb50bd2be73a4386897a0db1e"
+      },
+      "request": {
+        "height": [
+          -0.00016709732888206937,
+          6.128522943475735e-06,
+          1.0871575800244308e-06,
+          5.781876843980236e-10,
+          -5.266474363212559e-09,
+          -1.1270132288442543e-09,
+          6.153289151492908e-11,
+          3.970751029636704e-11
+        ],
+        "jacobian": true,
+        "audit": true
+      },
+      "residual": 1.8339313038213144e-09,
+      "jacobian_entries": 208,
+      "jacobian_all_finite": true,
+      "audit_present": true,
+      "audit": {
+        "fullD": 0.0003267809764476424,
+        "normalizedFullDefect": 0.0004899801138919663,
+        "minLeading": 0.5218914705888488,
+        "minD": 0.9991195613835866,
+        "formalCurvature": 8.40906471461066,
+        "maxPhysicalPV": 0.0003320307524870333,
+        "actualMetric": 4.624401106489984e-08,
+        "holonomy": 3.842882602574354e-19
+      },
+      "iterations": 1,
+      "first_iteration": {
+        "iteration": 0,
+        "norm": 1.8339313038213144e-09,
+        "minA": 0.5218914705888488,
+        "minD": 0.9991195434332786
+      },
+      "last_iteration": {
+        "iteration": 0,
+        "norm": 1.8339313038213144e-09,
+        "minA": 0.5218914705888488,
+        "minD": 0.9991195434332786
+      }
+    }
+  ],
+  "saved_outer1": {
+    "raw_inner": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed-inner-0001-debug.json.gz",
+      "sha256": "ca546af794bdbaca2247961d9b0e2132067ea8674be5476b9ef5898de057347a"
+    },
+    "dn_anchor": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed-inner-0001-dn-anchor.json",
+      "sha256": "8206bfb14475ecafbc8f16cb344def62216113c52b410837b5fc7e0948d1bb23"
+    },
+    "nodes": 1934,
+    "state_variables": 25,
+    "recorded_projected_max_rms": 9.977585233061552e-07,
+    "affine_request": {
+      "height": [
+        -0.00016709264634462914,
+        6.1285069847992245e-06,
+        1.0870661884982395e-06,
+        1.1057151185121947e-09,
+        -4.999770354945914e-09,
+        -1.1117110746596867e-09,
+        6.468782829411022e-11,
+        2.6011962920659807e-11
+      ],
+      "jacobian": true,
+      "audit": true
+    },
+    "affine_response_canonical_payload_sha256": "599e5ae0eb17ce4eb2144205c799f336d008b219b460f7243d90e45e9d06eef8",
+    "affine_configuration_canonical_payload_sha256": "ff2597dc09ed942f75b79563d8e4a51b6c6e34291137abd458b167fd0148a355"
+  },
+  "final_export_request_scope": "Original C2/export post-processing forms the final physical H again; three components differ from the raw-inner H by one binary64 ULP. The original worker genuinely accepts this final full request with Jacobian and audit; an earlier response is not substituted.",
+  "final_export_height_changes": [
+    {
+      "index": 1,
+      "before": 6.128522943475734e-06,
+      "after": 6.128522943475735e-06,
+      "difference": 8.470329472543003e-22,
+      "difference_over_ulp_of_before": 1.0
+    },
+    {
+      "index": 2,
+      "before": 1.0871575800244306e-06,
+      "after": 1.0871575800244308e-06,
+      "difference": 2.117582368135751e-22,
+      "difference_over_ulp_of_before": 1.0
+    },
+    {
+      "index": 7,
+      "before": 3.970751029636705e-11,
+      "after": 3.970751029636704e-11,
+      "difference": -6.462348535570529e-27,
+      "difference_over_ulp_of_before": -1.0
+    }
+  ],
+  "finite_prefix_summary": {
+    "metric_l1": 3.791250828333143e-08,
+    "flow_defect": 1.4392190674471765e-07,
+    "darboux_l1": 0.0016239119589907414,
+    "kappa_sample": 9.410700592963813,
+    "radius_max": 1.0901891003784014,
+    "height_max": 0.7826775549435354,
+    "root_min": 0.002484966633737762,
+    "chart_rho_min": 0.5199999999999999,
+    "support_amplitude": 0.06,
+    "inlet": {
+      "position": 5.727105456543313e-10,
+      "first": 1.607400532989331e-08,
+      "second": 4.6298768419106295e-07,
+      "metric_l1": 5.345115691225996e-09
+    },
+    "dn_matrix": {
+      "physical_modes": 8,
+      "psi_modes": 8,
+      "scope": "Exact identity of angles at cut; truncated represented height has M physical modes."
+    },
+    "terminal_height_coeff_max": 0.00016709732888206937,
+    "physical_bc_max": 1.8357583557835234e-13,
+    "samples_s": 4016,
+    "samples_psi": 512,
+    "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+  },
+  "finite_tail_seam": {
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate.",
+    "tail_record": "seed_tail_0003.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 1.8339313038213144e-09,
+    "mean_first_actual": 0.07980927539259722,
+    "mean_first_expected": 0.07980927539542856,
+    "mean_first_mismatch": -2.8313462685503055e-12,
+    "mean_second_actual": 1.8400751408399456,
+    "mean_second_expected": 1.840075140773504,
+    "mean_second_mismatch": 6.644151895329742e-11,
+    "nonmean_first_mismatch": 1.8357537712176963e-13,
+    "nonmean_second_mismatch": 9.572317916830916e-08,
+    "cut_metric_fft_l1": 1.6923316718824245e-09,
+    "cut_metric_c1_fft_l1": 3.2340959494359975e-08,
+    "angular_samples": 512,
+    "tail_mean_and_geometry": {
+      "radius": 0.3,
+      "backgroundSlope": 0.08000000000000027,
+      "backgroundSecond": -1.866666666666673,
+      "E": 1.0064,
+      "Ep": -0.2986666666666687,
+      "meanSlope": 0.08006425775559202,
+      "meanSecond": -1.8637318507001917,
+      "meanSlopeCorrection": 6.425775559175998e-05,
+      "meanSecondCorrection": 0.0029348159664811927,
+      "minLeading": 0.9792793131376033,
+      "minD": 0.9993716791803819,
+      "endpointFullD": 1.9938318934140395e-08,
+      "endpointPhi": -1.5193653491374012e-20,
+      "formalCurvature": 1.8874165160867773
+    }
+  },
+  "observation": {
+    "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/resume_q060_saved_inner.py",
+      "--entry-plan",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/entry-plan.json",
+      "--raw-inner",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-debug.json.gz",
+      "--dn-anchor",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-hold-v2/seed-inner-0000-dn-anchor.json",
+      "--accepted-tail",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-newheight-c8-c9-native/seed_tail_0001.json.gz",
+      "--source-topic",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-source",
+      "--owned-manifest",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-source-manifest.json",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed"
+    ],
+    "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T01:02:31Z",
+    "seconds": 238.33915508000064,
+    "samples": 119,
+    "maximum_sampled_tree_rss_kib": 212936,
+    "tree_at_sampled_peak": {
+      "6": {
+        "name": "python",
+        "rss_kib": 212936,
+        "hwm_kib": 291132
+      }
+    },
+    "child_rusage_maxrss_kib": 1514768,
+    "child_user_seconds": 248.349439,
+    "child_system_seconds": 11.942831
+  },
+  "serialization_seconds": {
+    "checkpoint": 237.04581832885742,
+    "summary": 237.3548469543457,
+    "runner": 237.385893314
+  },
+  "resource_scope": "Sampled namespace RSS and RUSAGE_CHILDREN high-water observations have different scope; neither is a measured whole-host memory peak.",
+  "design_not_fixed_g_convergence": true,
+  "core_is_local_circle": false,
+  "continuous_metric_bound": false,
+  "closed_surface_certificate": false,
+  "held_10pct_claimed": false,
+  "data_policy": "Only source/input/output identities, original physical parameter vectors and compact scalar results are published. Polynomial/state/Jacobian arrays remain scratch-only."
+}
