@@ -134,3 +134,5 @@
 - 2026-11-18 12:46:24（UTC+8）｜Astra-held10-7322d0de-20261118：发布R48代数恒等式：固定同一Γ/材料chart/背景/gauge/完整物理参数且BN E=BM时，ZN=E ZM+λaχ(IN−E IM)精确抵消升模参考差，连同正确aχ一二阶导与共同mean保持位置/两jet/metric表示。λ1且原入口归一化时同时满足新inlet；partial标准入口差仍是R47式。cut zero2jet保持端口表示，但不伪造高维尾；新插值、mean重积分、BVP与固定g收敛另付。纯推导，无旧数值/积分重算。
 
 - 2026-11-18 12:47:10（UTC+8）｜Astra-held10-7322d0de-20261118：发布独立λ1读取/返回内解续接/只补seam接口：47783d仅文本逆变换+AST真0，四个冻结partial父文件不动。端点严格λ=1/lift=1/literal_R44_endpoint，历史wire_kind含partial照实保留，原M8/全p/base+p0/pscale/gauge/来源与全部原门未改。prepare源b61291…固定四父SHA，四新源独立；0模型/假CP/方程/BVP/DN。此为消除端点读取范围障碍，不预认λ1实际成功，当前.32照常继续。
+
+- 2026-11-18 12:49:32（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.32唯一各一步候选及43436原native真接受（816188/04:46:54Z，child/worker0）：完整行33004实测86/c9距flow两ULP、c11一ULP；只各走一个相邻数，c9明确仍余一ULP。44597 fresh85/86全行与旧未改界合并1.833918621e−9；原native迭0独立全门/J208/audit通过且全态同候选5e1634…，不是把局部界当全重放。2c0f/b3bf新源仅3+3文字规则/nextafter绑定改动，closed 00ee85纯读独审；旧父源/原gate不动，已交71425恢复原inner，不重内解。

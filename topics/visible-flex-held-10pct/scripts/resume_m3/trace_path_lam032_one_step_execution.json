@@ -1,0 +1,302 @@
+{
+  "schema": "m3-trace-path-complete-row-one-step-native-v1",
+  "confidence": "Numerical evidence with exact actual input/source/terminal identities; not a continuous certificate.",
+  "scope": "One complete actual failed-state replay, then exactly one simultaneous directed float-neighbor step per member of its complete over-gate set, followed by one original native DN/Jacobian/audit request. Unlike the previous special case, a component need not reach its saved flow in one step.",
+  "design": {
+    "homotopy": 0.32,
+    "modes": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "steps": 16,
+    "shooting_parts": 16,
+    "solve_tolerance": 2e-09,
+    "gauge_amplitude": 0.06,
+    "support_amplitude": 0.05722558496396052
+  },
+  "sources": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/retain_actual_tail_residual_rows.mjs": "9f31d6c9b107166ccc7abb8b15de81e95a84266c9b536455d7ed868170301ef6",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/propose_complete_row_one_step.mjs": "2c0fddb9d6f0932d41ccf2d5cfaace3d734f28c946a2dc29f05d0debb2bdfd42",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_complete_row_one_step_original_tail.py": "b3bf456201f7319439e86f9ec1bc354b2f86a53dfe38c99c5e17e4f6ee97b3b2"
+  },
+  "literal_source_derivation": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/complete_row_one_step_source_transforms.json",
+    "sha256": "e680128f843076409c498916d288f7a24b14c80f7bbe7a645edfe739e6f387ec"
+  },
+  "original_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/launch-plan.json",
+    "sha256": "9add2c9d18ad506096e8bb640e64260ed4e66fc63c277ced2e13b7fc570d53cf"
+  },
+  "actual_native_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/seed-entry.json",
+    "sha256": "4948d8b474f240901402e8305263f2c9201564d0b3e3b5e977daea4f25e84566"
+  },
+  "original_failed_tail": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "5177e5635e424920e7521151342441c6316fe127d66405ddf603a5eb67450813"
+  },
+  "complete_rows": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-failed-fullrows-v1/rows.json",
+    "sha256": "c37fb03df65f2df67eabdf412ada5b7c045f6c434f0921d0d7edb6342f927e0e"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/candidate.json.gz",
+    "sha256": "dc3aee0b8437a186dab02f99bc81c50906791058bb5e7d0d71a9ca47d4dd6dd2"
+  },
+  "candidate_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/candidate-summary.json",
+    "sha256": "3b4ef639367e91d7d809266fa9ab43a3f315290a06934bb2a48f94da793bf931"
+  },
+  "native_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/seed-summary.json",
+    "sha256": "adac05dec3617deca3ca71e97987b580afd8a3cf9f22c512bf7e2d3431f61eb6"
+  },
+  "accepted_native_tail": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/seed_tail_0001.json.gz",
+    "sha256": "5e1634539b56ed8bca2a9f7d505f28b9cfe2351da748589c658cd5870bc2e33d"
+  },
+  "executions": [
+    {
+      "stage": "complete_failed_state_rows",
+      "session": 33004,
+      "launch_tool_chunk": "310407",
+      "terminal_tool_chunk": "09c0a0",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "terminal_utc": "2026-11-18T04:42:08Z",
+      "seconds": 30.03179493299831,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-failed-fullrows-v1/resource.json",
+        "sha256": "65b28bfe9d3d8aa2a806787ef867bfe0d84e4930d86df4b0611c4d2d1f345149"
+      },
+      "launch_command": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-failed-fullrows-v1/launch-command.json",
+        "sha256": "098d6ee69a6a9f07d392f2e81d39e3c6be04552c1201e3937dfa51f37f39db41"
+      },
+      "command": [
+        "node",
+        "--max-old-space-size=3072",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/retain_actual_tail_residual_rows.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/seed_tail_0001.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/launch-plan.json",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-failed-fullrows-v1/rows.json"
+      ]
+    },
+    {
+      "stage": "one_combined_candidate",
+      "session": 44597,
+      "launch_tool_chunk": "e1635b",
+      "terminal_tool_chunk": "bb9547",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "terminal_utc": "2026-11-18T04:44:27Z",
+      "seconds": 16.014094934005698,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/resource.json",
+        "sha256": "19e84cc3d28a1f0df76a057034870a5f4e562be4bf6b6a363ae2d076fc3f5db0"
+      },
+      "launch_command": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/launch-command.json",
+        "sha256": "7f357504635dbb63a4b4613c032f4b06babf7dd0de99fec97a4ceefceef944da"
+      },
+      "command": [
+        "node",
+        "--max-old-space-size=3072",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/propose_complete_row_one_step.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/seed_tail_0001.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-failed-fullrows-v1/rows.json",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/candidate.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/candidate-summary.json"
+      ]
+    },
+    {
+      "stage": "original_native_request",
+      "session": 43436,
+      "launch_tool_chunk": "d39cc0",
+      "terminal_tool_chunk": "816188",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "terminal_utc": "2026-11-18T04:46:54Z",
+      "seconds": 48.057177467002475,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/resource.json",
+        "sha256": "f3ad951bc34e560b7e4be4a79c4fe247bd6e2bec47b01a02d6f734b8577e5058"
+      },
+      "launch_command": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/launch-command.json",
+        "sha256": "6102a46c3417f119b06ae953113c5d3a24feed77e552b6a6a50cac38fae9088f"
+      },
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_complete_row_one_step_original_tail.py",
+        "--source-topic",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "--failure",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-coupled-v1/seed_tail_0001.json.gz",
+        "--complete-rows",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-failed-fullrows-v1/rows.json",
+        "--candidate",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/candidate.json.gz",
+        "--candidate-summary",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-one-step-v1/candidate-summary.json",
+        "--out-prefix",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/seed",
+        "--sparse-helper",
+        "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+        "--node-heap",
+        "3072"
+      ]
+    }
+  ],
+  "diagnosis": {
+    "before_norm": 3.667837241951283e-09,
+    "complete_over_gate_count": 2,
+    "complete_over_gate_components": [
+      {
+        "stage": 86,
+        "component": 9,
+        "physicalMode": 6,
+        "kind": "momentum",
+        "state": 313.2630705193686,
+        "flow": 313.26307051936874,
+        "signedResidual": 1.1368683772161603e-13,
+        "normalizationScale": 3.099560591765376e-05,
+        "normalizedResidual": 3.667837241951283e-09,
+        "direction": 1,
+        "adjacentTowardFlow": 313.2630705193687,
+        "directedStep": 5.684341886080802e-14,
+        "isExactlyOneDirectedNeighbor": false
+      },
+      {
+        "stage": 86,
+        "component": 11,
+        "physicalMode": 12,
+        "kind": "momentum",
+        "state": 636.0290738585496,
+        "flow": 636.0290738585495,
+        "signedResidual": -1.1368683772161603e-13,
+        "normalizationScale": 3.099560591765376e-05,
+        "normalizedResidual": 3.667837241951283e-09,
+        "direction": -1,
+        "adjacentTowardFlow": 636.0290738585495,
+        "directedStep": -1.1368683772161603e-13,
+        "isExactlyOneDirectedNeighbor": true
+      }
+    ],
+    "named_changes": [
+      {
+        "node": 86,
+        "component": 9,
+        "before": 313.2630705193686,
+        "after": 313.2630705193687,
+        "direction": 1,
+        "signedStep": 5.684341886080802e-14,
+        "originalFlow": 313.26307051936874,
+        "remainingToOriginalFlow": 5.684341886080802e-14
+      },
+      {
+        "node": 86,
+        "component": 11,
+        "before": 636.0290738585496,
+        "after": 636.0290738585495,
+        "direction": -1,
+        "signedStep": -1.1368683772161603e-13,
+        "originalFlow": 636.0290738585495,
+        "remainingToOriginalFlow": 0
+      }
+    ],
+    "unchanged_component_maximum": 1.8339186209756414e-09,
+    "boundary": {
+      "cut": 0,
+      "deep": 2.5532366488885117e-14
+    },
+    "full_row_arrays_scope": "Original full 16-component affected/upstream rows remain in the bound scratch output; no per-stage argmax can hide a tie."
+  },
+  "candidate_evaluation": {
+    "fresh_original_full_jacobian_rows": [
+      {
+        "stage": 85,
+        "norm": 3.0558212588986265e-10,
+        "minA": 0.9679652352076186,
+        "minD": 0.999964540960193
+      },
+      {
+        "stage": 86,
+        "norm": 1.8339186209756414e-09,
+        "minA": 0.9824938622366514,
+        "minD": 0.9999651908562802
+      }
+    ],
+    "saved_unchanged_component_bound": 1.8339186209756414e-09,
+    "candidate_norm_upper_bound": 1.8339186209756414e-09,
+    "full_candidate_replay_invoked": false,
+    "locality_reason": "Stage n reads only states[n+1] and subtracts states[n]. H/config/scales and node0/deep states are unchanged.",
+    "locality_bound_viable": true,
+    "candidate_accepted": false
+  },
+  "original_native": {
+    "full_request": {
+      "height": [
+        -0.00016709848447840324,
+        6.128740012491765e-06,
+        1.0871870472314635e-06,
+        5.732700804022618e-10,
+        -5.239585971556296e-09,
+        -1.1334826355738145e-09,
+        -8.293117914161825e-10,
+        4.85213413736665e-09
+      ],
+      "jacobian": true,
+      "audit": true
+    },
+    "configuration_changed_keys": [
+      "initialCheckpoint",
+      "traceFile"
+    ],
+    "reload_arithmetic": {
+      "cut_radius": 0.3,
+      "ratio": 1,
+      "zero_boundary_correction": true,
+      "finite_states_without_negative_zero": true,
+      "original_solver_invoked": false
+    },
+    "converged": true,
+    "residual": 1.8339186209756414e-09,
+    "last_iteration": 0,
+    "finite_jacobian_entries": 208,
+    "audit_returned": true,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 1.8339186209756414e-09,
+        "minA": 0.5218840911834862,
+        "minD": 0.9991191544931648
+      }
+    ],
+    "audit_scalars": {
+      "fullD": 0.00032681184389411755,
+      "normalizedFullDefect": 0.0004900259019444686,
+      "minLeading": 0.5218840911834862,
+      "minD": 0.9991191724749143,
+      "formalCurvature": 8.409078025567892,
+      "maxPhysicalPV": 0.00033203473265786947,
+      "actualMetric": 4.624833183086707e-08,
+      "holonomy": 3.842684079227341e-19
+    },
+    "final_states_equal_candidate": true,
+    "state_shape": [
+      1153,
+      16
+    ],
+    "native_calls": 1,
+    "worker_returncode": 0
+  },
+  "limits": [
+    "The complete set is moved once; no coordinate sweep, second candidate or line-search parameter scan is added.",
+    "The mode-6 component keeps one ULP of residual against the same saved input flow. It is not labelled zero.",
+    "The local combined quantity is an upper bound; original native full stopping evaluation independently decides acceptance.",
+    "Original H, boundary constraints, physics, normalizations, Jacobian/audit and strict 2e-9 gate are unchanged.",
+    "No prefix BVP or complete physical metric is recomputed by this batch. Exact pending recovery uses the already accepted raw inner."
+  ]
+}
