@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`071194c0b9e3cc41b377b68df83c2b8965d7edb7`。2026-11-18 08:29:29（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`e78af20f8a0749fe43843d876bab53bcdaf9314f`。2026-11-18 08:31:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,9 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：2282点/18步，有限前缀metric8.91017947e−7过门；全19c/free c8/qactual=.012488347919833637，仍linear DN/新核非精化，见n4-primary-width-b016-m20。真尾.2H冷起/单峰/多峰及.5H均失败；.5H parts16为1.01243477e−8，Jac具名输入ULP灵敏度最高2.706倍原门，非误差界，见halfheight-tail-stage-sensitivity。仅parts32同20H仍失败1.521185788e−8（1.50倍），见halfheight-parts32-terminal。新态2304×40原state-only/full-Jac数值差全0（不含mean），不能归因两路径不一。全局主行175/c20为mode4动量−1ULP；只局部再读该行/174，元数据仅含1个已证全局峰，见n4-parts32-map-consistency-and-one-ulp-peak。唯一具名邻数后原DN继续，尚无接受尾/fullH/联立prefix。
 
-同19c/e=.1875主b探针使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。旧b.08 raw λ.02/M16 metric2.41705e−6，固定g/M20升3.43423e−6/tensor.0160166；峰s=.066873/频84，实际cond1≈4.278e12且H²白化无改善。M24在4460点欲加4906超6000、RMS.0032079，未完整metric/接受；见n4-raw-lambda002-fixed-m24-terminal、localization、parameter-and-collocation-scales，不重白化或盲升M28。
-
-全19c整核法向角图使M20外二阶参考尾增46.25倍；低通K2只改善6.6%（λ1约.77%），两字面图正性已Fraction核。见n4-full-normal-angle-chart-probe、n4-low-normal-chart-filter；保持现图，不另开图BVP。核心rho数字仅原guard，有限FFT不作连续metric。
+旧b.08 raw λ.02 M16→M20 metric2.41705e−6→3.43423e−6，峰频84；cond1≈4.278e12/H²白化无收益。M24在4460点欲加4906超6000、RMS.0032079，无完整metric，不盲升M28，见raw-lambda002-fixed-m24-terminal及localization/parameter-and-collocation-scales。主b探针M20外二阶谱降7.94倍、未表示参考二阶降8.54倍支持当前b.16新设计。全核法向图谱恶化46.25倍；低通K2仅改善6.6%（λ1约.77%），字面图正性已核；保持现图，不另开图BVP，见full-normal-angle-chart-probe/low-normal-chart-filter。有限FFT非连续metric证书。
 
 **旧actual固定g** eta.1/q*.01：M20 metric1.950429e−9；M24/shared/parts16完整1930点/4尾接受、最终9.82471e−10/A.942545，metric8.15575e−9升4.18倍、Darboux2.46911e−6降29.7%。λ0/非单调收敛或闭合，见n4-actual-fixed-m24-parts16。旧parts8的worker−9与原门5.41094e−9失败分开，不猜OOM；mode96非1ULP，见n4-m24-tail-residual-location。
 
@@ -38,11 +36,11 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **R42/R43坐标定理**：W²正交后固定两列消矩，Gram=I+CᵀC且与原λ1 raw finite span相同。R43复用R41固定a=.21/bc=.4真矩，仅新增χ²三积分，精确2×2 Sylvester给所有M谱[1,13.92415)，不借浮点正交系数。有限M16新Gram条件2.061/旧5.788e11不等于C²/实际Jac界，原生产核未改。见R42、R43-fixed-supported-window-strict-gram-constant。
 
-**严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]。R38在even C4弧上零控制且||b+b″||≤.08时给rho>.1642566、平面m3>.0948878、柱D<2.3181；若完整未标记图D≤2.6498/支撑≥.0801/|κ|≤12.5及原文全部C²/对称/帽等假设成立，则held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H角与柱长按实际全图矩选，全部图假设未付，不能继承给改变后的控制。R40对q∈[.039,.041]/δ≥.060原flat ramp严格给χ/R>.21088277799>.21；宽度无关但不证λ1存在。
+**严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]。R38在even C4弧上零控制且||b+b″||≤.08时给rho>.1642566、平面m3>.0948878、柱D<2.3181；若完整未标记图D≤2.6498/支撑≥.0801/|κ|≤12.5及原文全部C²/对称/帽等假设成立，则held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H角固定如原文，柱长按实际全图矩选，全部图假设未付，不能继承给改变后的控制。R40对q∈[.039,.041]/δ≥.060原flat ramp严格给χ/R>.21088277799>.21；宽度无关但不证λ1存在。
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支** beta4.625：旧parts8三版失败/未存inner封存；parts16 H_new单邻数原接受1.818205542e−9，见q060-parts16-named-neighbor-original-acceptance。33116独立H_old失败3.671459625e−9、外部V8 heap-limit/−6；v3只传heap3072，补完3试步0改善。row86 c8/c11局部均负邻数/并列峰，唯一两项初值原全replay1.8357298125e−9；首loader schema错误0请求，v2只修错误字符串核对。51467原worker迭0接受同H_old/208Jac/audit，1153状态逐位同候选，c57fe4…，见q060-warmup-two-neighbors-original-acceptance。两H不可互借；正接回原prefix/raw-inner/DN锚保存，自动恢复成功E2E未付，无新闭面。
+**q060高幅支** beta4.625：旧parts8三版失败/未存inner封存；parts16 H_new单邻数原接受1.818205542e−9，见q060-parts16-named-neighbor-original-acceptance。33116独立H_old失败3.671459625e−9、外部V8 heap-limit/−6；v3只传heap3072，补完3试步0改善。row86 c8/c11局部均负邻数/并列峰，唯一两项初值原全replay1.8357298125e−9；首loader schema错误0请求，v2只修错误字符串核对。51467原worker迭0接受同H_old/208Jac/audit，1153状态逐位同候选，c57fe4…，见q060-warmup-two-neighbors-original-acceptance。两H不可互借。新91135仅source/config/out路径及initializer/trace变化，coupler同字节，见q060-same-height-parts16-coupled-entry；call1/2原同H已接受并入prefix，原inner/锚保存后新H实际验收中。自动恢复成功E2E及完整prefix/闭面仍未付。
 
 ## 3. 全闭表示与严格连续metric
 
