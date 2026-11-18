@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`9f1aacf8e1e52011f92bb0a0368d90d8a44a5224`。2026-11-18 08:20:25（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`dac021c7e7a1a21d6d48dd72cf908ff893aa1532`。2026-11-18 08:21:35（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20有限前缀metric过门**：2282点/18个α1步/无域或merit拒绝，metric8.91017947e−7；qactual=.012488347919833637，全19c/free c8/J16/eta.1/wCut.16。改核非精化、仍linear DN/非精确圆弧，见n4-primary-width-b016-m20。原真尾.2H冷起及单峰续跑均失败（1.13915e−8/8.02443e−9），多峰8候选无改善，见对应b016 notes。该失败态续到.5H（55129真实terminal）iter4仍1.01243477e−8/A.9807524；fullH未执行/0接受尾/未入prefix。新原1152段replay主峰22/mode80=+97ULP、18/mode80=−48ULP；具名Jac输入ULP灵敏度最高2.706倍原门，非误差证书。见n4-halfheight-tail-stage-sensitivity。只改parts16→32的21154同20H真实原门失败1.521185788e−8（旧值1.50倍），未到fullH/前缀，见n4-halfheight-parts32-terminal；新态路径/峰位只读诊断另记。
+**新主b=.16/λ=.02/M20**：2282点/18步，有限前缀metric8.91017947e−7过门；全19c/free c8/qactual=.012488347919833637，仍linear DN/新核非精化，见n4-primary-width-b016-m20。真尾.2H冷起/单峰/多峰及.5H均失败；.5H parts16为1.01243477e−8，Jac具名输入ULP灵敏度最高2.706倍原门，非误差界，见halfheight-tail-stage-sensitivity。仅parts32同20H仍失败1.521185788e−8（1.50倍），见halfheight-parts32-terminal。新态2304×40原state-only/full-Jac数值差全0（不含mean），不能归因两路径不一。全局主行175/c20为mode4动量−1ULP；只局部再读该行/174，元数据仅含1个已证全局峰，见n4-parts32-map-consistency-and-one-ulp-peak。唯一具名邻数后原DN继续，尚无接受尾/fullH/联立prefix。
 
 同19c/e=.1875主b探针使M20外二阶谱降7.94倍、未表示参考二阶降8.54倍，见n4-actual-core-primary-width-probe。旧b.08 raw λ.02/M16 metric2.41705e−6，固定g/M20升3.43423e−6/tensor.0160166；峰s=.066873/频84，实际cond1≈4.278e12且H²白化无改善。M24在4460点欲加4906超6000、RMS.0032079，未完整metric/接受；见n4-raw-lambda002-fixed-m24-terminal、localization、parameter-and-collocation-scales，不重白化或盲升M28。
 

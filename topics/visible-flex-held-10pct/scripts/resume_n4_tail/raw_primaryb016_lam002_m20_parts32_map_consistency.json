@@ -1,0 +1,119 @@
+{
+  "scope": "A new-state read-only application of the existing published split-worker map-consistency script. Both original stopping/full-Jacobian and original state-only line-search maps are evaluated at exactly the same saved failed state, without a Newton step, source edit or gate change.",
+  "collector_sha256": "73d9cc226d34a11b1140bdf07df09306a9fec304f10e811e67d29a2d5327bc57",
+  "prior_terminal_record_sha256": "df06a7f9f830267911d76ed69ad2d53935abab3617475a8042783a64c5ee807c",
+  "input": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/seed-tail_0001.json.gz",
+  "input_sha256": "cb60dce0d09db2484e1914ba7149fc9495e6824d6dcc6d8441f68133663d24d3",
+  "input_failure": "Error: multiple-shooting line search failed at 1.5211857880292614e-8",
+  "last_original_iteration": {
+    "iteration": 2,
+    "norm": 1.5211857880292614e-08,
+    "minA": 0.980752332821046,
+    "minD": 0.9999448760732821,
+    "chartCondition": null
+  },
+  "original_gate": 2e-09,
+  "probe_sha256": "efdc06c88a4dd2b1e7918996ce0478050e8e40cf0fe143e2ac8d0e095a3f8d8e",
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_stage_amplification_deliverable/audit_failed_map_consistency.mjs": "efdc06c88a4dd2b1e7918996ce0478050e8e40cf0fe143e2ac8d0e095a3f8d8e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-port-v3.mjs": "4e5f7f4cd31c81b633c826a24b208bc8a0aa2b791132c73238a5a61cf0e2a398",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654"
+  },
+  "full_diagnostic_sha256": "f3e71643b048d0694f3d39a12aa3422ea6ffe7b08a419e69afd349be695cf267",
+  "original_discretization": {
+    "modes": 20,
+    "spacing": 4,
+    "quadrature": 512,
+    "depth": 8,
+    "steps": 16,
+    "shootingParts": 32
+  },
+  "normalized_full_jacobian_residual": 1.5211857880292614e-08,
+  "normalized_state_only_residual": 1.5211857880292614e-08,
+  "all_compared_state_outputs_have_zero_numeric_difference": true,
+  "residual_norms_numerically_identical": true,
+  "largest_map_difference": {
+    "stage": 0,
+    "cell": 0,
+    "segment": 8,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 9.77310283338753e-11,
+    "normalized_state_only_residual": 9.77310283338753e-11,
+    "jacobian_infinity_norm": 8304150.216131101
+  },
+  "worst_full_jacobian_residual": {
+    "stage": 175,
+    "cell": 0,
+    "segment": 3,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 1.5211857880292614e-08,
+    "normalized_state_only_residual": 1.5211857880292614e-08,
+    "jacobian_infinity_norm": 3890172588.0531626
+  },
+  "worst_state_only_residual": {
+    "stage": 175,
+    "cell": 0,
+    "segment": 3,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 1.5211857880292614e-08,
+    "normalized_state_only_residual": 1.5211857880292614e-08,
+    "jacobian_infinity_norm": 3890172588.0531626
+  },
+  "largest_stage_jacobian": {
+    "stage": 48,
+    "cell": 0,
+    "segment": 7,
+    "normalized_map_difference": 0,
+    "component": 0,
+    "normalized_variational_residual": 2.3847188874807775e-10,
+    "normalized_state_only_residual": 2.3847188874807775e-10,
+    "jacobian_infinity_norm": 179537374549.56192
+  },
+  "matrix_scope": "An infinity norm of one mixed-unit local Jacobian is not a full BVP condition number. Zero numeric output difference does not assert bytewise equality of signed zero encodings.",
+  "states_changed": false,
+  "new_solver_invoked": false,
+  "accepted": false,
+  "actual_command": [
+    "node",
+    "--max-old-space-size=1536",
+    "topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_stage_amplification_deliverable/audit_failed_map_consistency.mjs",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/seed-tail_0001.json.gz",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/map-consistency.json"
+  ],
+  "resource": {
+    "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+    "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T00:00:52Z",
+    "seconds": 178.19100972100568,
+    "samples": 89,
+    "maximum_sampled_tree_rss_kib": 465204,
+    "tree_at_sampled_peak": {
+      "5": {
+        "name": "MainThread",
+        "rss_kib": 465204,
+        "hwm_kib": 465204
+      }
+    },
+    "child_rusage_maxrss_kib": 465260,
+    "child_user_seconds": 180.908545,
+    "child_system_seconds": 2.3058009999999998
+  },
+  "resource_sha256": "ce1ed589a354c0753773cc7849c38fcf57d0e78f1db3493d9b63fbe538a43b2d",
+  "data_policy": "The existing probe emits only named extrema. Full states and matrices remain scratch-only; only scalar diagnostics, original parameters and source/output hashes are recorded."
+}
