@@ -7,14 +7,16 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`d825faa7900df50d6f502ac2620605f7361a6487`。2026-11-18 09:45:10（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`91304ad9ea8b0f9a0b771b973dcb22385ecd6515`。2026-11-18 09:46:01（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20**：全19c/free c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及175单邻数原DN均失败；最新b4356…原重放同7.42928942e−9，六超门stage37–40/43–44，单ULP/scale<门，非精度下界，无接受尾/Jac/audit。见n4-primary-width及parts32 notes。原float的126输出/116608事件已同源逐位核；MP60/90层差≤1.04663e−57且同舍入/192root分支同，MP90固定目标残差4.05731e−9/4.86089e−9/1.35202e−8均超门。旧保存输出对MP90只读比较：Neumaier三最大误差同原；Kahan为1.99362e−9/4.77744e−9/1.69164e−9，175精度改善而target变坏，非逐分量单调；见n4-saved-rk-compensation-against-mp90，不据target选算术。192root×20的L−target相减精确；三首root新quad使9/10/1个隐藏表示残差可核，最强RHS抵消相减亦精确。单L-ULP线性权重≤.0889门仅局部诊断。见n4-frozen-flow-mp60-mp90/n4-root-representation-and-rhs-cancellation；两臂57523/12653均exit0：A仅ell根使三段MP误差1.30829e−9/2.44455e−9/1.35202e−8；B另拆RHS前两更差，175 target虽5.57e−12而MP误差不改。原阈值常数保留，stable/formed残差双报，非原浮点停判身份；见n4-shifted-root-two-arm-flow-comparison，未生产/全DN/连续ODE证书。
+**新主b=.16/λ=.02/M20**：19c/free-c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及邻数原DN均失败；最新b4356…重放同7.42928942e−9、六超门37–40/43–44，单ULP/scale<门，非机器下界，无接受尾。见n4-primary-width/parts32 notes。原float126输出/116608事件逐位同；MP60/90层差≤1.04663e−57且同舍入，三固定target仍超门。L−target及最强RHS抵消相减精确，三新quad读数另揭moments形成舍入；只为有限算法定位。
+
+**n4算术当前** Neumaier四项和不改MP主误差；独立Kahan改善三stage而175 target变坏；独立ell-root A改善两高频，另拆RHS B不及A。唯一A+Kahan最终carry52719已exit0：对MP90全42归一误差1.58088e−9/4.77744e−9/1.69164e−9，175改善但43/38较A变坏，不能叠加宣称收益。2016条carry递推/全部mean核完，原阈值常数保留但stable-root停判算术另记；均未全Jac/生产/全DN。见n4-frozen-flow-mp60-mp90/root-representation-and-rhs-cancellation/shifted-root-two-arm-flow-comparison/saved-rk-compensation-against-mp90/shifted-root-with-state-carry。收束补偿变体；下一只读准备native long double（有效尾数64位）全flow+隐式Jac一致路径，字面pref*TF不得约成sigma，原门保留。
 
 旧b.08 M16→M20 metric2.41705e−6→3.43423e−6变坏，M24触6000门，无完整metric；cond/白化/法向图未改善，不盲M28。见raw-lambda002-fixed-m24-terminal/primary-width/normal-angle-chart相关notes。
 
