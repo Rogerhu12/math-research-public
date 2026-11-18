@@ -1,0 +1,84 @@
+{
+  "scope": "Pure text recovery of an already completed source after execution environment loss; not a numerical execution or fresh AST run.",
+  "session": "Astra-held10-7322d0de-20261118",
+  "parent_source": {
+    "path": "scripts/resume_closed/resume_m3_trace_path_native_endpoint_pending.py",
+    "sha256": "6d09f9dc35315a72d745b3955999e35b7f1607bd653048a4ad4213a428d6e143",
+    "remote_ref": "ebe11c6ddd5d3038d29ef7d223352630cfbaf177"
+  },
+  "recovered_source": {
+    "path": "scripts/resume_closed/resume_m3_trace_path_native_same_provider_pending.py",
+    "sha256": "1a5a4819bea0f6cb84b22f4d2ad991adacc43e979f98b19971e1b776292daaf5",
+    "bytes": 17235
+  },
+  "original_generation": {
+    "observer_chunk": "6cce30",
+    "exit_code": 0,
+    "ast_parse_reported": true,
+    "inverse_literal_restoration_reported": true,
+    "transform_manifest_path": "closed_work/native-same-provider-partial-pending-source-transforms.json",
+    "transform_manifest_sha256": "4c099fc06b738d3c6954fec687f468d4b7f7bb087ca14945b7481abf17e15d52",
+    "evidence": "closed_geometry retained the exact original 10 literal transformations and reported the observed source hash."
+  },
+  "recovery_checks": {
+    "sha256_matches_original": true,
+    "inverse_literal_recovers_parent": true,
+    "transform_groups": 10,
+    "literal_occurrences": 13,
+    "fresh_ast_run": false,
+    "model_imported": false,
+    "numerical_solver_invoked": false
+  },
+  "transformations": [
+    {
+      "before": "\"\"\"Resume a successful literal lambda=1 inner under its existing native provider.\n\nThe independent endpoint binder requires literal_R44_endpoint, strength one,\nall eight parameters, the actual returned cubic and its original affine\nanchor. Bind the same already-declared native provider via its historical V8\nsource map, while requiring both the endpoint raw and runtime plan to name\nits actual native map. The historical affine response is itself native here.\nReuse a genuine complete response only for its exact pending H; changed H\nstill uses the original DN/Jacobian/audit gates. Do not rerun this inner.\n\"\"\"",
+      "after": "\"\"\"Resume a successful strict partial-path inner under its existing native provider.\n\nThe independent partial binder requires 0<lambda<1 and the genuine partial\nhomotopy branch, all eight parameters, returned cubic and original affine\nanchor. Bind the same already-declared native provider via its historical V8\nsource map, while requiring both the raw and runtime plan to name its actual\nnative map. The historical affine response is itself native here. Reuse a\ngenuine complete response only for its exact pending H; changed H still uses\nthe original DN/Jacobian/audit gates. Do not rerun this successful inner.\n\"\"\"",
+      "literal_occurrences": 1
+    },
+    {
+      "before": "from m3_trace_path_endpoint_inner import bind_pending_inner",
+      "after": "from m3_trace_path_pending_inner import bind_pending_inner",
+      "literal_occurrences": 1
+    },
+    {
+      "before": "bound_endpoint_provider",
+      "after": "bound_existing_provider",
+      "literal_occurrences": 3
+    },
+    {
+      "before": "The endpoint pending request must retain its already-bound native manifest",
+      "after": "The partial pending request must retain its already-bound native manifest",
+      "literal_occurrences": 1
+    },
+    {
+      "before": "The endpoint raw, plan and actual native-provider identity differ",
+      "after": "The partial raw, plan and actual native-provider identity differ",
+      "literal_occurrences": 1
+    },
+    {
+      "before": "this bound endpoint provider",
+      "after": "this already-bound partial-path provider",
+      "literal_occurrences": 1
+    },
+    {
+      "before": "CLOSED/'m3_trace_path_endpoint_inner.py'",
+      "after": "CLOSED/'m3_trace_path_pending_inner.py'",
+      "literal_occurrences": 2
+    },
+    {
+      "before": "CLOSED/'m3_trace_path_endpoint.py'",
+      "after": "CLOSED/'m3_trace_path_prefix.py'",
+      "literal_occurrences": 1
+    },
+    {
+      "before": "endpoint_inner_binder=",
+      "after": "partial_inner_binder=",
+      "literal_occurrences": 1
+    },
+    {
+      "before": "The restored literal endpoint inner and its genuine affine anchor already used this native provider.",
+      "after": "The restored strict partial-path inner and its genuine affine anchor already used this native provider.",
+      "literal_occurrences": 1
+    }
+  ]
+}

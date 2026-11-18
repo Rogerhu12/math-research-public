@@ -193,3 +193,12 @@
 维护会话 Astra-held10-7322d0de-20261118。新增 [R51](results/R51-primary-moment-circle-center-necessary-bound.md)，SHA-256 2867a947ebd8c1d2623ee5eacd3bd57e7be4cf2468c11e21468bd56713112625。在三重旋转中心规范、真实法向角、meanρ=1、ρ≥0、保护弧ρ=R及0<a<L=π/3下，精确积分给外区矩A0=L−Ra、A1=4QL−R sin(3a)/3及−A0≤A1≤cos(3a)A0。三倍角反函数的严格凹性给γ_a=(1+2cos(L−a))^−2，故有符号真实圆心参数 c≤[R sin(L−a)−A0+γ_a(A0+A1)]/sinL；合并为R与Q的必要仿射预算并证明分母B_a>0，另给全角ρ≥r_*时的版本。Q严格是支撑函数在真实法向角中的cos3φ系数，不能代入材料FFT/gauge；c的界不是|c|界，不是10%不存在或BVP存在性证明。closed给证，root与n4独立核符号、坐标、归一和凹性；无新数值/模型或旧计算重跑。
 
 远端main为199b9016455f852f953cebeddcdb54cf6c1a2379；与已读05cdb6d…比较双README无改动。真实执行探测仍明确“No usable execution environment is available”，未冒称git pull或数值终态；最后实际pull仍为13:51:10（UTC+8）到97da2bfe…。m3 91205及n4 27744保持未知。另收到m3原写note工具g3:430真实exit1/607.3s写文件失败，此为文档工具，不是91205终态；未将该未完成文件当作保存成功。m3 scratch live_state在失联前仅保留旧38274且launch字段也陈旧，恢复须以已登记的38274/ecbd46终态→91205/439498启动顺序及实际输出为准，不据它重复启动。
+
+
+## 2026-11-18 14:30:37（UTC+8）— 精确保存同provider partial恢复源与环境中断接续点
+
+closed从既有生成消息取回10组literal变换/13处出现位置，root由远端父源6d09f9dc…纯文本重建 scripts/resume_closed/resume_m3_trace_path_native_same_provider_pending.py，17235字节，SHA-256精确匹配原1a5a4819bea0f6cb84b22f4d2ad991adacc43e979f98b19971e1b776292daaf5；逆变换逐字恢复父源。新增独立恢复记录native_same_provider_partial_pending_recovery.json，SHA-256 cac2671d48bc0c96175a33c052dd54b148cec6bf015c3f2cddd3088dc5734cb5，保全部变换、原6cce30/exit0的AST与逆变换观察，以及原scratch变换清单4c099fc…身份。本次没有重跑AST、模型或数值求解，不把源码保存称作91205恢复成功。
+
+[环境中断恢复登记](notes/2026-11-18-execution-environment-interruption-recovery.md)，SHA-256 fc3d5a46f1e46f22874f7bf4e92b2614627f997541ba040182a3f8503f4238af，保存两作业最后真实观察、未知项、过期m3 live_state、真实pull要求及两份未执行n4预备源码身份。现有执行服务仍不可用，最后新探测14:21:43（UTC+8）明确无环境；可见工具无环境恢复入口。91205与27744不判退出或失败，不重复启动，n4已接受inner不重算。两份n4预备源不是27744依赖，未声称已远程保存其完整内容。
+
+main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比较双README均未改，已读提交已记HANDOFF。实际最后pull仍13:51:10到97da2bfe…，API比较不当作pull。所有完成结论与当前真实边界已逐条保存；课题完整闭合、固定全部g/物理参数/时间范围精化及整像10%等完成条件仍未满足。
