@@ -1,0 +1,124 @@
+{
+  "scope": "Read/hash/AST-only preparation of the R47 low-level fixed-slot sources.\n\nNo new basis or core is imported or instantiated. Literal source substitutions\nare reconstructed using a restricted AST reader, then reversed and parsed.\nThis records an implementable interface and its exact dependencies, not a\nnumerical nesting comparison, a higher-M BVP, or a continuous certificate.\n",
+  "preparation_command": [
+    "topics/visible-flex-held-10pct/scripts/resume_closed/prepare_r47_fixed_slot_sources.py",
+    "--directory",
+    "/workspace/scratch/7322d0dee069/closed_work/r47-fixed-slot-source-preparation-v1",
+    "--record",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r47_fixed_slot_source_preparation.json"
+  ],
+  "prepared_utc": "2026-11-18T04:52:48.907046+00:00",
+  "source_files": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/prepare_r47_fixed_slot_sources.py",
+      "sha256": "f555adb14ced88c75744c9fd3c0866eb17a8e6154e1820248d76a82d4cf5298d"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r47_fixed_slot_trace_basis.py",
+      "sha256": "93e69b2a09b1869638743b6735ee7e609815c37937a3fcd94d45706c9c9fcddb"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/r47_fixed_slot_trace_core.py",
+      "sha256": "71233d6eaef233f3af7862c14311e640ee39d127993f165f48dc01447b44c38a"
+    }
+  ],
+  "original_source_files": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_homotopy_basis.py",
+      "sha256": "6689d08c9c86e842bf9f77922801dc357567ec14861012f20a2868ce7f6d7184"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_basis.py",
+      "sha256": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py",
+      "sha256": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py",
+      "sha256": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py",
+      "sha256": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_homotopy_core.py",
+      "sha256": "acb3e2dffa0f7dc5e811b055da8e582bb19d931b97201ada38acc1f9aa5511ad"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_core.py",
+      "sha256": "4f9351cb356ce33da28d2d4a36a09d14606f3627846b5bf35d7f73478939cb18"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/raw_second_order_core.py",
+      "sha256": "79b7ddec4c3721e575816c30f94fb441bb76acb215d3453abe3cdce501850e24"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py",
+      "sha256": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py",
+      "sha256": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py",
+      "sha256": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34"
+    }
+  ],
+  "proof_definitions": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R47-fixed-slot-nested-circle-homotopy.md",
+      "sha256": "81c57c7280beae499fbdcd1a61030561cf3e4be2acf6bdfcac510a91b68d951b"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R48-exact-reference-compensation-for-mode-extension.md",
+      "sha256": "aeeba196670c81f7f22554af827e44658cb23aa59d50df0afe66889244faed49"
+    }
+  ],
+  "exact_reverse_source_substitutions": true,
+  "derived_integral_core": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/r47-fixed-slot-source-preparation-v1/derived-integral-core.py",
+    "sha256": "69fa3bb308a7c502671492a1b1e2621a30bba2420687f185d4eacbf6d585b867"
+  },
+  "derived_original_second_order_core_sha256": "aa5867970d58181a6f834f8d0efed3ab4dbc8f58dcbfc8cf19c73758a7215505",
+  "new_source_files_AST_parsed": 3,
+  "new_module_imported": false,
+  "basis_instances": 0,
+  "core_instances": 0,
+  "new_integrals": 0,
+  "BVP_calls": 0,
+  "tail_calls": 0,
+  "interface": {
+    "factory": "make_core_factory(reference, original_cosine, settings, *, modes=M)",
+    "physical_controls": "Complete M-1 coefficients in fixed-slot order; no pscale conversion in this interface",
+    "fixed_trace_zero_based_control_indices": [
+      5,
+      6
+    ],
+    "fixed_trace_zero_based_parameter_indices_if_delta_first": [
+      6,
+      7
+    ],
+    "endpoint_order": "B2,B3,B4,B5,B6,T,U,B7,...,B(M-2)",
+    "endpoint_fixed_to_canonical": "[0,1,2,3,4,M-3,M-2,5,...,M-4]",
+    "cosine_frequency_for_slot_j": "3*j, j=2..M",
+    "M8_branch": "Directly return the frozen original M8 factory and descriptor",
+    "zero_branch": "Return the supplied original cosine class; high-level dimension/floor handling is unchanged",
+    "positive_branch": "Original integral inverse and full parameter jets; exact fixed/canonical permutation and existing combined trace bound",
+    "primitive_normalization": "Unchanged canonical primitive about the reflection axis and inherited u(0)=0",
+    "new_high_level_model_installed": false,
+    "physical_state_or_mean_transfer_implemented": false,
+    "cross_M_binary64_identity_claimed": false,
+    "continuous_geometry_certificate_claimed": false
+  },
+  "full_literal_source_record": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/r47-fixed-slot-source-preparation-v1/source-preparation.json",
+    "sha256": "17b11cc74ee4589a1730e9982d059edc437dbccf6a46070dbba4b40889f289b6"
+  },
+  "original_release_transform_count": 4,
+  "original_second_order_guard_transform_count": 5,
+  "new_core_transform_count": 4
+}

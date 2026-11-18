@@ -146,3 +146,5 @@
 - 2026-11-18 12:58:34（UTC+8）｜Astra-held10-7322d0de-20261118：发布66671/f841c6 λ.32真实seam H原门接受（04:54:52Z）：冻结af65只保原接受内部/深端/cut动量，6项真实H变化经原JS编码实际只改node0五项。reload ratio1/零边界修补，原iteration0 residual1.833918621e−9/J208/audit，全状态同唯一初值，真响应cd1f6d…。0新prefix/mean/audit/全stage定位。旧迭2失败与接受态的差只记观察，不全归因预测器；已交原seam-only补完。
 
 - 2026-11-18 12:58:44（UTC+8）｜Astra-held10-7322d0de-20261118：发布52460/c1582d λ.32完整finite seam（04:55:30Z真0）：原fff945只做1次seam/1次真cd1f6d…响应查询，0新inner/native/prefixaudit/meanprimitive/C2。旧audit09a412…及coeff70cd31…逐字保，完整CP4794434a…/summary9be8be…；mean2差1.206587584e−5、nonmean2 4.569128278e−6，metric5.308744203e−4仍未最终门。123源/collector01f0fc纯读真0；λ.64已用该真实完整状态继续，不停在中间结果。
+
+- 2026-11-18 12:59:14（UTC+8）｜Astra-held10-7322d0de-20261118：发布R47独立低层basis/core源：T/U固定物理槽5/6，j>=9为B(j−2)，canonical只精确排列；支撑/原函数/全参数jets/组合t,u抵消预算同步排列。M8直接旧factory，λ0原cosine，M>8 positive只换basis import及原三项guard替换，floor1e−5/32768不变。73a2b1仅AST/11旧源SHA/可逆文本真0，0import实例/新积分/BVP；高层R48状态/lift/mean与新DN仍待实际入口，未宣称高阶数值接受。
