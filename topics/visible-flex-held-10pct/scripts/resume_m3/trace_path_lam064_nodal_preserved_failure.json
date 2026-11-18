@@ -1,0 +1,278 @@
+{
+  "schema": "m3-preserved-interior-nodal-tail-failure-v1",
+  "confidence": "Numerical failure and literal source/input identities; no continuous certificate or accepted response.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+    "sha256": "af65f13ceb394589e9578c535ca337ca80b86bcb3bf4291b509af966b785b614"
+  },
+  "full_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/seed-entry.json",
+    "sha256": "49d88a48474d60d99c73fc11ae4c49f3eeb68138e6bd251141d78a939a95327e"
+  },
+  "verified_source_count": 123,
+  "design": {
+    "homotopy": 0.64,
+    "modes": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "steps": 16,
+    "shooting_parts": 16,
+    "original_gate": 2e-09,
+    "support_q": 0.054696409291371345,
+    "gauge": 0.06
+  },
+  "actual_request_scope": "The lambda=.64 returned raw-inner nodal H, not a physical-quintic seam H. The reused historical CLI --seam-failure flag and candidate scope label identify the supplied changed-H request; this execution is explicitly nodal.",
+  "accepted_reference": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed_tail_0001.json.gz",
+    "sha256": "cd1f6d4ae2a5a26b3a2d6b96273a87c482df713d9bb2acdd99b9df21539e0eb5"
+  },
+  "failed_near_state_request": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+    "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+    "sha256": "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/seed-candidate.json.gz",
+    "sha256": "1134db7adfa021ea463a8a638896bffe303f94ca56cf252da60101dcafed5897"
+  },
+  "configuration": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/seed-config.json",
+    "sha256": "dfc868bbe9652a11bdef04bd265b5f40170142e01fb1a20f6a07c4d0fdad2eb3"
+  },
+  "configuration_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "old_H": [
+    -0.00016709848447840327,
+    6.128740012491764e-06,
+    1.0871870472314633e-06,
+    5.732700804022619e-10,
+    -5.239585971556295e-09,
+    -1.1334826355738145e-09,
+    -8.293117914161825e-10,
+    4.852134137366651e-09
+  ],
+  "new_H": [
+    -0.0001671130606594921,
+    6.1403226896268306e-06,
+    1.0829420854628177e-06,
+    3.595393508470172e-10,
+    -5.1858715155343895e-09,
+    -1.1847223849804272e-09,
+    -9.562584254780451e-10,
+    5.11231182626892e-09
+  ],
+  "changed_H_components": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "initializer": {
+    "state_shape": [
+      1153,
+      16
+    ],
+    "changed_coordinates": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ]
+    ],
+    "changes": [
+      {
+        "node": 0,
+        "component": 0,
+        "before": -0.020629442528197935,
+        "after": -0.02063124205672742
+      },
+      {
+        "node": 0,
+        "component": 1,
+        "before": 0.0007566345694434277,
+        "after": 0.0007580645295835593
+      },
+      {
+        "node": 0,
+        "component": 2,
+        "before": 0.00013422062311499547,
+        "after": 0.0001336965537608417
+      },
+      {
+        "node": 0,
+        "component": 3,
+        "before": 7.077408400027925e-08,
+        "after": 4.43875741786441e-08
+      },
+      {
+        "node": 0,
+        "component": 4,
+        "before": -6.46862465624234e-07,
+        "after": -6.402310513005419e-07
+      },
+      {
+        "node": 0,
+        "component": 5,
+        "before": -1.399361278486191e-07,
+        "after": -1.462620228370898e-07
+      },
+      {
+        "node": 0,
+        "component": 6,
+        "before": -1.0238417177977563e-07,
+        "after": -1.1805659573803027e-07
+      },
+      {
+        "node": 0,
+        "component": 7,
+        "before": 5.990289058477346e-07,
+        "after": 6.311496081813482e-07
+      }
+    ],
+    "preserved_all_internal_and_deep_states": true,
+    "preserved_cut_momenta": true,
+    "raw_states_match_original_index_selection": true,
+    "candidate_is_not_accepted": true,
+    "reload_arithmetic": {
+      "cut_radius": 0.3,
+      "ratio": 1,
+      "zero_boundary_correction": true,
+      "finite_states_without_negative_zero": true,
+      "original_solver_invoked": false
+    }
+  },
+  "original_native": {
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/seed-summary.json",
+      "sha256": "ea2c435ee8bfbe192ea0e7935a4dd5232806a2d34c59c9932c7c10f97e9d83c0"
+    },
+    "failed_record": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/seed_tail_0001.json.gz",
+      "sha256": "46a7b4cf5efeac76b6e7b616486b895133656d882fe6099054fee7b9e2d6662c"
+    },
+    "solver_success": false,
+    "native_calls": 1,
+    "worker_returncode": 0,
+    "failed": "Error: multiple-shooting line search failed at 0.00008321001905444967",
+    "last_iteration": {
+      "iteration": 6,
+      "norm": 8.321001905444967e-05,
+      "minA": 0.5218773593450274,
+      "minD": 0.9991191395649076,
+      "chartCondition": null
+    },
+    "original_jacobian_requested": true,
+    "original_audit_requested": true,
+    "final_height_jet_jacobian_returned": false,
+    "final_audit_returned": false,
+    "checkpoint_nodes": 1153,
+    "first_iteration_norm": 8.722347033396337e-05,
+    "iteration_records": 7,
+    "trace": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/seed-worker.jsonl",
+      "sha256": "543918f9a4584cbd43b9c73a920ac2dfd83e5d30fece9d0063bd3b4170815d13"
+    }
+  },
+  "execution": {
+    "session": 63447,
+    "launch_tool_chunk": "47cc95",
+    "terminal_tool_chunk": "3586c2",
+    "observer_returncode": 2,
+    "child_returncode": 2,
+    "observed_utc": "2026-11-18T05:19:21Z",
+    "seconds": 642.7676605579982,
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/resource.json",
+      "sha256": "d87b4de9e5b24104a6140d28ff19b549026975a4523c5bfa982a1066ca648794"
+    },
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/launch-command.json",
+      "sha256": "f8666361024e6bae799a9408a94c55a3e02b6f0440c2de11d92361672d876dc8"
+    },
+    "stdout": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/stdout.log",
+      "sha256": "2b830c67cf0823e94e63642f7f7edccad6ccb57f562067bb144bb47f6bb5d1c0"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+      "--source-topic",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+      "--source-plan-sha",
+      "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5",
+      "--accepted",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed_tail_0001.json.gz",
+      "--accepted-sha",
+      "cd1f6d4ae2a5a26b3a2d6b96273a87c482df713d9bb2acdd99b9df21539e0eb5",
+      "--seam-failure",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "--failure-sha",
+      "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-nodal-preserved-v1/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ]
+  },
+  "unchanged_accepted_inner": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/inner-00-returned.json.gz",
+    "sha256": "8cf33fae278e949488af8f09ebbc178dd910ac07306ca306e1080fa2815f73df"
+  },
+  "comparison": {
+    "original_near_state_norm": 3.667517320458417e-09,
+    "original_near_state_ref": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+    },
+    "new_initializer_first_norm": 8.722347033396337e-05,
+    "new_terminal_norm": 8.321001905444967e-05,
+    "conclusion": "Preserving the lambda=.32 accepted interior is not a useful replacement for the original lambda=.64 nearly converged failed state on this request. No successful new H response is claimed."
+  },
+  "scope_boundaries": [
+    "One original worker solve; no automatic retry or amplitude/coordinate scan.",
+    "No prefix BVP, original-inner reconstruction, mean-height integration, metric or seam audit is run in this batch.",
+    "No 208-entry final Jacobian/audit was returned on this failure; these were requested, not accepted.",
+    "The original nearly converged state and accepted raw inner remain unchanged.",
+    "Worker exit 0 is protocol shutdown, not the mathematical acceptance status; observer/child exit 2 reports failure."
+  ]
+}
