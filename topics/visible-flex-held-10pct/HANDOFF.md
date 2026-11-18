@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`d190d1acb9189917425dd189e6f2b66a6beec6b6`。2026-11-18 09:32:33（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`fcaec7dd524a829462e0fde27010e34a86a54ec0`。2026-11-18 09:34:20（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -44,7 +44,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支** beta4.625/原余弦核q.06已有限联立接受：41319恢复671123…原cubic，无restart/warmup/inner0重算；原BC4.41453e−6要求outer1，新增1原全步后BC9.17879e−12。CP4755143b…/1934点/RMS9.97758523e−7；完整有限metric3.79125e−8、Darboux.00162391、physicalBC1.83576e−13。3尾真实接受/208Jac，末1.8339313e−9及audit；导出3分量各1ULP的新H亦独立原验收。δ.06104275721220832/全7c/warp.06/chart/port/全部profile与尾参数锁在q060_exact_saved_inner_resume_terminal.json，未来固定g须全冻结。mean2 seam6.64415e−11、nonmean2 9.57232e−8仍需闭合/连续证书。恢复/邻数/旧失败历史见q060相关notes，本条见q060-exact-saved-inner-original-acceptance。下一用真实全图作R44圆弧参考，先匹配低矩及验原域/初RMS；非固定g精化，尚无圆弧/全闭/10%。
+**q060高幅支** 原余弦q.06/beta4.625已有限真联立接受：41319精确续接后仅1新原步，CP4755143b…/1934点/RMS9.97758523e−7/BC9.17879e−12；完整有限metric3.79125e−8/Darboux.00162391。3尾均208Jac/原门接受，末1.8339313e−9及audit；导出3分量各1ULP的新H另验收。δ.06104275721220832/全7c/profile/warp.06/chart/port/尾参数全锁terminal record；mean2 seam6.64415e−11/nonmean2 9.57232e−8未补C²闭合/连续界。见q060-exact-saved-inner-original-acceptance，恢复/旧失败不重跑。原cosine参考reader已绑定62来源/输入/块，CLI仅metadata，native_reference尚未执行；M8/全25态/原h字面Pold=1，禁止伪raw元数据或默认M16。见q060-original-cosine-reference-interface。下一唯一主矩/完整两jet自然M8新设计初猜，原fixed=False p0不得重复加到最终δ；meanheight须原height_integral。仍无圆弧/全闭/10%。
 
 ## 3. 全闭表示与严格连续metric
 
