@@ -1,0 +1,196 @@
+{
+  "classification": "Numerical evidence: completed finite independent variational readout.",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/record_frozen_mp90_variational_reference.py",
+    "sha256": "61d34212aa3eba2ef2851f7bc92fb9a4c1ec21a46df304293adec9c9e27f7e47"
+  },
+  "collector_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/record_frozen_mp90_variational_reference.py",
+    "--output",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/frozen_mp90_variational_reference_terminal.json"
+  ],
+  "mathematical_run": {
+    "tool_session": 72556,
+    "launch_chunk": "27f51b",
+    "terminal_chunk": "25f90d",
+    "actual_exit_code": 0
+  },
+  "inputs": {
+    "plan.json": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/plan.json",
+      "sha256": "d4f43809f46fd06a79ac8afce95431fa13a4009268fe3a59e035db01d0af82b4"
+    },
+    "launch-command.json": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/launch-command.json",
+      "sha256": "8f39eecc608d0ec0364c8a895082982ef6ff8e80d11f46bcf1dc8e3efa2dd1cc"
+    },
+    "resource.json": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/resource.json",
+      "sha256": "803d799873ccadfc95b937b935b91d660549a80d8381a4d130cd345e383e399f"
+    },
+    "process.log": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/process.log",
+      "sha256": "a5b2f3ad872a07a25fb7f2db5c4811e6e463e1d271d70e2aa352f3934701c2e1"
+    },
+    "reference-summary.json": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-summary.json",
+      "sha256": "07e09ac83186987a4622805b3a603efa7d4712e65d44c160ec29b115f646f550"
+    },
+    "reference-raw.json.gz": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-raw.json.gz",
+      "sha256": "4ad1e37379b6ffb98ae173f1176e7e228a8d0658b21e6cb9bc6fa08148db4316"
+    }
+  },
+  "observer": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+    "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+  },
+  "stage_checkpoints": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-stage-43.json.gz",
+      "sha256": "d2bcca448d6b5a721798dd59504b8ae2c017e11f6cd2970341140ffcde4f9023"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-stage-38.json.gz",
+      "sha256": "15bbb8439fec588ed055f5136ff1c5be62bce988a66bfe4aa1adda6f5a1df920"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-stage-175.json.gz",
+      "sha256": "dc7e621e4b3bcbd9acdde6faf10f1e775e4cbc1516f9d2421f383abe961b22f1"
+    }
+  ],
+  "original_capsule": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+    "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+  },
+  "original_production_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+    "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+  },
+  "source_checks": {
+    "research_sources": 39,
+    "mpmath_python_sources": 87,
+    "source_manifest_identity": "9a441f86aac29c21d3ee327e2f3b34783c47b02e57a3ed5cb6b8d8928288dd60"
+  },
+  "original_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/frozen_mp90_variational_reference.py",
+    "--run-plan",
+    "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/plan.json"
+  ],
+  "observer_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+    "--out",
+    "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/resource.json",
+    "--log",
+    "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/process.log",
+    "--",
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/frozen_mp90_variational_reference.py",
+    "--run-plan",
+    "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/plan.json"
+  ],
+  "observed_terminal": {
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T02:41:25Z",
+    "seconds": 422.59483448999526,
+    "samples": 211,
+    "maximum_sampled_tree_rss_kib": 198908,
+    "child_rusage_maxrss_kib": 248548,
+    "child_user_seconds": 419.750706,
+    "child_system_seconds": 0.874705
+  },
+  "calculation_seconds": 420.5857133850004,
+  "derivative_dps": 90,
+  "original_trajectory_dps": 90,
+  "named_results": [
+    {
+      "stage": 43,
+      "derivative_sites": 64,
+      "seconds": 137.91058003299986,
+      "tangent_serialization_sha256": "ef22883a20d7655d6143f9a803fda94fffd5eb1d8567b62b2c7e0f66404a0623",
+      "maximum_absolute_entry": "36619527653.312371706585097341929",
+      "maximum_scaled_implicit_linear_residual": "2.9665083383978119548279082282655e-91",
+      "minimum_absolute_pivot": "0.99990389137586025329871899832715",
+      "pivot_scope": "An observed LU pivot, not a matrix condition estimate or rigorous lower bound.",
+      "stage_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-stage-43.json.gz",
+        "sha256": "d2bcca448d6b5a721798dd59504b8ae2c017e11f6cd2970341140ffcde4f9023"
+      },
+      "stored_last_mean_row_exactly_zero": true,
+      "saved_trajectory_identity": {
+        "stage": 43,
+        "original_roots": 64,
+        "original_RK_steps": 16,
+        "root_state_and_L_identity_sha256": "d7e04d596c3bc6e416b42ab8ad4a6923e7996655c4df7ddc380b4a8ef74760bd",
+        "original_fallbacks": 0,
+        "original_max_root_iterations": 2
+      }
+    },
+    {
+      "stage": 38,
+      "derivative_sites": 64,
+      "seconds": 133.79596049200336,
+      "tangent_serialization_sha256": "97af440ba221fb2fd1fbafb367a90aa85eaf788945504b85a9e1df1e3b7f854b",
+      "maximum_absolute_entry": "26366154510.010694359207774706739",
+      "maximum_scaled_implicit_linear_residual": "2.8541046970461688289820380215686e-91",
+      "minimum_absolute_pivot": "0.99982361555978151419355136199294",
+      "pivot_scope": "An observed LU pivot, not a matrix condition estimate or rigorous lower bound.",
+      "stage_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-stage-38.json.gz",
+        "sha256": "15bbb8439fec588ed055f5136ff1c5be62bce988a66bfe4aa1adda6f5a1df920"
+      },
+      "stored_last_mean_row_exactly_zero": true,
+      "saved_trajectory_identity": {
+        "stage": 38,
+        "original_roots": 64,
+        "original_RK_steps": 16,
+        "root_state_and_L_identity_sha256": "354b9e09a5d8912331cb12831205b5a1de06e5ccb0102bec00258c89cb5c339d",
+        "original_fallbacks": 0,
+        "original_max_root_iterations": 2
+      }
+    },
+    {
+      "stage": 175,
+      "derivative_sites": 64,
+      "seconds": 148.69896230800077,
+      "tangent_serialization_sha256": "326d9f44aaa4e41a960c7cdb751cd433ca185066739971ca737a1a0df028dd60",
+      "maximum_absolute_entry": "3889852864.2883518627874779614471",
+      "maximum_scaled_implicit_linear_residual": "4.7892194314709408903817462792833e-94",
+      "minimum_absolute_pivot": "0.99999999965356606060192541734862",
+      "pivot_scope": "An observed LU pivot, not a matrix condition estimate or rigorous lower bound.",
+      "stage_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-stage-175.json.gz",
+        "sha256": "dc7e621e4b3bcbd9acdde6faf10f1e775e4cbc1516f9d2421f383abe961b22f1"
+      },
+      "stored_last_mean_row_exactly_zero": true,
+      "saved_trajectory_identity": {
+        "stage": 175,
+        "original_roots": 64,
+        "original_RK_steps": 16,
+        "root_state_and_L_identity_sha256": "cbaee03292112323932f23291861defebd2bcbc4dddf53ba30789cdc3d7b4f1e",
+        "original_fallbacks": 0,
+        "original_max_root_iterations": 1
+      }
+    }
+  ],
+  "total_matrix_entries": 5040,
+  "trajectory_recomputed": false,
+  "nonlinear_flow_or_root_invoked": false,
+  "native_library_loaded": false,
+  "native_comparison_performed": false,
+  "whole_tail_or_DN_invoked": false,
+  "continuous_error_bound": false,
+  "domain_scope": {
+    "frozen_capsule_floor": 0.1,
+    "production_checkpoint_floor": 0.05,
+    "production_floor_key": "response.checkpoint.parameters.projectionFloor",
+    "config_has_projectionFloor": false,
+    "statement": "The saved probe and this variational reference use capsule floor 0.1. They do not establish an adaptor for the production floor 0.05."
+  },
+  "interpretation": "Implicit-equation Jacobians at the saved approximate MP90 roots and variational RK along the saved approximate states. This is not differentiation of the finite root-stopping algorithm. Recorded linear residuals and LU pivots are finite arithmetic diagnostics, not a condition estimate or interval certificate.",
+  "data_policy": "Complete matrices/checkpoints stay in scratch; only source, identities and compact scalars are published."
+}
