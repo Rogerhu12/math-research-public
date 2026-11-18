@@ -1,0 +1,145 @@
+{
+  "schema": "m3-literal-endpoint-observed-terminal-and-intermediate-start-v1",
+  "scope": "Preserved observations obtained before execution-environment loss. This is not a replacement for the unread complete scratch collector JSON, and does not infer the state of the subsequently started process.",
+  "session_name": "Astra-held10-7322d0de-20261118",
+  "endpoint": {
+    "directory": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam100-native-coupled-v1",
+    "source": {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_native_endpoint_v2.py",
+      "sha256": "018df4f4bdf6885647fe6bda748817ea6cd03eb6b6b6cd622573ae6aa4bcb852"
+    },
+    "preparation_plan_sha256": "2e359442734548161384ee49a89796fbdcb9298516b712edcb7a990f2532a40a",
+    "runtime_plan_sha256": "20cc540d551523af2003a2b35e2332da6532706805616643976d68e408924bdf",
+    "execution": {
+      "session": 38274,
+      "launch_tool_chunk": "31bbd3",
+      "terminal_tool_chunk": "ecbd46",
+      "observed_utc": "2026-11-18T05:49:56Z",
+      "seconds": 578.728274961999,
+      "child_returncode": 0,
+      "worker_returncode": 0,
+      "original_main_caught_postprocessing_exception": true
+    },
+    "raw": {
+      "file": "inner-00-returned.json.gz",
+      "sha256": "f0bfec05047ca2df33a8bbf9fc999d7e10ca19f20d6e2980a2d1b2e8ef15de0a",
+      "sidecar_file": "inner-00-returned-dn-anchor.json",
+      "sidecar_sha256": "6694fbf4d1c6b450f36b42484dd1771f5ae2c5a6ffd768b5a84e7c2443ca0c05",
+      "solver_success": false,
+      "status": 1,
+      "message": "The maximum number of mesh nodes is exceeded.",
+      "nodes": 4212,
+      "niter": 3,
+      "original_max_nodes": 6000,
+      "maximum_RMS": 1.0682086532050248,
+      "accepted_steps": 15,
+      "domain_rejections": 139,
+      "merit_rejections": 59,
+      "no_step": 2,
+      "minimum_alpha": 9.5367431640625e-7,
+      "parameters": [
+        -0.0008018469321319058,
+        6.281728092858917,
+        -91.13726741159732,
+        1112.0425875530511,
+        -10321.143960136256,
+        61252.24006887763,
+        16938705.16685645,
+        -340413.99803020287
+      ],
+      "physical_controls": [
+        0.022614221134292102,
+        -0.01968564976090502,
+        0.014412071934687541,
+        -0.008025721543401951,
+        0.002857784512653554,
+        0.04741753369589126,
+        -0.0003404139980302029
+      ],
+      "unaccepted_candidate_H": [
+        -0.00016468408832356722,
+        0.000006879275465176917,
+        0.0000019541840233887407,
+        8.768782429923469e-7,
+        -0.0000013322197721797055,
+        6.025241845385052e-7,
+        9.676652203860131e-7,
+        -0.000009262675105223649
+      ]
+    },
+    "failed_physical_checkpoint": {
+      "file": "seed.json.gz",
+      "sha256": "0690b4d5b1847dd2ad827e1851083d8f29ae899968fc939567f863b6a3e4eae5",
+      "complete_metric_present": false,
+      "tail_seam_present": false,
+      "accepted_endpoint": false
+    },
+    "summary": {
+      "file": "seed-summary.json",
+      "sha256": "1bb70d86913628c69106e2a9734000636b04bc8ca701975acff3b3c31ba07711"
+    },
+    "postprocessing_failure": {
+      "observed_utc": "2026-11-18T05:49:55Z",
+      "path": [
+        "main-excerpt:34",
+        "observed_audit:3",
+        "curve_stable_prefix_bvp.height_integral:260",
+        "integrate_intervals:258",
+        "950f.frame:59"
+      ],
+      "Frenet_margin": -2.533498597578898e-7,
+      "complete_metric_or_Darboux_returned": false,
+      "complete_mean_or_seam_returned": false
+    },
+    "raw_inner_calls": 1,
+    "new_actual_tail_calls": 0,
+    "observed_collector": {
+      "tool_chunk": "595c08",
+      "exit_code": 0,
+      "source_sha256": "02d2f3144ed802aa8bba7a3f74a90854c0cbd692fdffb70f1bf8b0b0f78c1362",
+      "verified_sources": 207,
+      "raw_records": 26,
+      "sidecars": 26,
+      "returned_raw_records": 1,
+      "saved_full_record_sha256": "432340279106b60d8801c22df0a3933031c2fc7d4324b161709423ae4a7e0fb1",
+      "saved_full_record_contents_available_to_root": false
+    }
+  },
+  "intermediate": {
+    "lambda": 0.82,
+    "directory": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam082-native-coupled-v1",
+    "source": {
+      "path": "topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_native_partial_v2.py",
+      "sha256": "175e4aeb80c14bb3772ff38e35003521ede5a2763ba9eff1cc218114577baeed"
+    },
+    "source_scope": "Six literal edits of the published endpoint entry, reproduced in memory after transport loss; resulting complete source SHA-256 matches the source that actually started. No new model or solver was executed for this recovery.",
+    "preparation": {
+      "tool_chunk": "c7f173",
+      "exit_code": 0,
+      "plan_sha256": "cc5ea1d1f81f91f184cc58c956eb95c51c9dcc2031a21a083c67390afbc58fb9",
+      "source_count": 208,
+      "model_or_solver_calls": 0
+    },
+    "seed_support_amplitude": 0.05336960976112643,
+    "provider_manifest_sha256": "abb2a44fd55d91af60f9f86834ec70e5d40ec73fd8f412eec5ecaaba6bd300be",
+    "starting_complete_checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/seed.json.gz",
+      "sha256": "f55b4fbb0a05483a7ac67dcd352bbc58cb8371a8db5f7a4a476c954a9ae7ea5b"
+    },
+    "failed_endpoint_used_as_accepted_anchor": false,
+    "execution": {
+      "session": 91205,
+      "launch_tool_chunk": "439498",
+      "terminal_observed": false,
+      "process_returncode": null,
+      "status_after_environment_loss": "unknown",
+      "duplicate_restart_performed": false
+    }
+  },
+  "environment": {
+    "status_reported": "unavailable",
+    "subsequent_exec_service_message": "No usable execution environment is available",
+    "no_OOM_or_mathematical_failure_inferred": true
+  },
+  "evidence_scope": "Root retains prior actual agent tool observations and exact reported hashes. Scratch resource/runner-terminal hashes that were not printed are omitted. No inaccessible file is asserted to have been freshly read."
+}
