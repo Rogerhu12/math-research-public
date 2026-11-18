@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`6a7c30fb3cb67b15b6557826d2964d622bb3d3c8`。2026-11-18 09:29:42（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`53bfb608f7b213697c153dc8b7b3570d68433a03`。2026-11-18 09:30:48（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -24,9 +24,9 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**旧λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮、参考回投、C²窗及二阶guard终态均失败。36328：4196点/RMS6.33004/metric.346343328；14903：3469点/RMS3.70555，quintic d95ed7…先存，后审计Frenet异常，具体子调用无traceback不可定，未保存metric/接缝或新H尾。guard保原门/定义，28组jets同、20缩步仅guard过。见m3-circle-endpoint-c2-seed-complete-failure/endpoint-domain-rejection-is-grid-bound/raw-core-second-order-guard/m3-endpoint-second-order-guard-terminal；无λ1接受前缀。
+**旧λ1失败** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮/回投/C²窗/二阶guard均失败。36328 RMS6.33004/metric.346343328；14903 RMS3.70555，CP d95ed7…先存后审计Frenet异常，具体子调用无traceback不可定，无新metric/接缝/H尾。二阶guard仅20缩步过域，无λ1接受。详见m3-circle-endpoint-c2-seed-complete-failure/raw-core-second-order-guard/m3-endpoint-second-order-guard-terminal及log。
 
-五半宽a随basis变，a.01初RMS最低；其19739真终态仍失败：3129点触6000门/RMS.3830013，69域拒/39merit/9步/1nostep。完整49状态0335bc…，metric.0236506068/Darboux692.7769/BC9.17816e−7；4尾原门接受，末1.6406173e−9/800Jac/audit，末两H九分量末位差分别绑定。见m3-circle-halfwidth-initializer-probe/m3-small-halfwidth-circle-terminal。失败c不续接，短a无10%继承。
+短a.01的19739亦失败：3129点触6000门/RMS.3830013，69域拒/39merit/9步/1nostep；完整49态0335bc…/metric.0236506068/Darboux692.7769。4尾原门接受，末1.6406173e−9/800Jac/audit，末两H分别绑定。见m3-small-halfwidth-circle-terminal；失败c不续接/短a无10%继承。
 
 原raw增幅初猜新增线性物理控制c_new=(qnew/qold_actual)c_old；只改原ratio幂，保共用C²窗/材料回拉/门。q.045、271点有限探针H及窗外场不变、控制式差1.32349e−23，无BVP/尾；见m3-raw-linear-amplitude-initializer。取得合格圆端点后才用于实际增幅。
 
@@ -38,7 +38,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **R44**弧上rho常数且低两矩零的偶C4/C3空间=X0直和span{SA,SB}；弧迹1/cos(d)对应半径A/圆心+Bν0。M16保B2..B14、T=SA−SB/U=SB替末两列，(t,u)=(A,A+B)，保维但改变span。真积分/组合guard/core链式导数已独审；T有限rho峰10.624832非连续界。旧q完整两jet512点rho−.1896532失败；唯一半步guard lower.542921839/实际H同，但RMS3.803793723，未BVP/尾；见m3-circle-trace-space-full-twojet-initializer及half-twojet note。
 
-**主矩匹配**应用R35：Q=qP，P=1+λ[(2−β/4)I3−I0−I6]。旧原constructor确认gauge.04、actual base q=.03991248545080898、真实Q=.03995165069840626三者不同，全15c同。Pold=1.00098127809/Pnew=1.15150648077，唯一qnew=.03469511580330426；Fraction包围证Pnew>0及唯一nearest binary64，舍入主矩余差−2.59652e−18。全旧核h/rho独立Gauss及90位定义积分仅数值核对；严格性仅标量矩/选q。见m3-circle-primary-matched-amplitude。新物理设计/新span，未继承R38/R40/R41；下一完整两jet/原域/表示回投/C²/H/RMS，不扫描q。
+**主矩匹配** Q=qP，P=1+λ[(2−β/4)I3−I0−I6]；旧constructor gauge.04/actual base q=.03991248545080898/Q=.03995165069840626及全15c已核，Pold=1.00098127809/Pnew=1.15150648077，唯一qnew=.03469511580330426，Fraction证Pnew>0及唯一nearest binary64（舍入主矩差−2.59652e−18）。见m3-circle-primary-matched-amplitude，严格性仅定义标量矩。新q完整两jet t=.029183467095160287/u=−.00023407056347723998，中心h/rho实际差0；原guard lower.668984725/512点，Frenet.002962496，但271点RMS1.441695291。geo+全表示Fourier回投/C²不含mean-height primitive，须原height_integral；完整16H第7项+1ULP，新H971598…未实际尾接受，仅用旧affine锚。见m3-primary-matched-trace-initializer；未BVP/metric，不继承R38/R40/R41，下一优先从q060真接受锚作M8自然映射。
 
 **严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]。R38在even C4弧上零控制且||b+b″||≤.08时给rho>.1642566、平面m3>.0948878、柱D<2.3181；若完整未标记图D≤2.6498/支撑≥.0801/|κ|≤12.5及原文全部C²/对称/帽等假设成立，则held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H角固定如原文，柱长按实际全图矩选，全部图假设未付，不能继承给改变后的控制。R40对q∈[.039,.041]/δ≥.060原flat ramp严格给χ/R>.21088277799>.21；宽度无关但不证λ1存在。
 
