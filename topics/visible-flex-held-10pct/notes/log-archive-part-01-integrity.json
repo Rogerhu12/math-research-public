@@ -1,0 +1,20 @@
+{
+  "scope": "Byte-exact split of the historical topic log to retain each file below 100 KB; no conclusions removed or rewritten.",
+  "original_git_head": "ce28cc017fa3533c62705095d2fe75a708f39761",
+  "original_log_sha256": "64f408979b2581a1b7e7ac9d468fa67e91770f9cf8939ebca136308d76c0ebba",
+  "original_log_bytes": 95147,
+  "archived_prefix": {
+    "file": "notes/log-archive-part-01.md",
+    "bytes": 59963,
+    "sha256": "08c5553b5284b47c06c5dbca89f5befe5caf553e95411fe4ef7596553779aaf2"
+  },
+  "retained_original_suffix": {
+    "bytes": 35184,
+    "sha256": "d66d8aa40240cc6aa93b7e204cf955fc882ab3888c4e4f45ed98c3d4e2763aba",
+    "initial_new_log_offset_bytes": 318
+  },
+  "concatenation_recovers_original_bytes": true,
+  "cut_is_complete_log_entry_boundary": true,
+  "archive_last_entry": "2026-11-18 05:41:46（UTC+8）｜Astra-held10-7322d0de-20261118",
+  "retained_first_entry": "- 2026-11-18 05:44:34（UTC+8）｜Astra-held10-7322d0de-20261118"
+}
