@@ -1,0 +1,278 @@
+{
+  "scope": "Read-only native long-double capability and existing finite-model survey.\n\nNo new flow, root, Jacobian, numerical DN or generated executable is run.\nThe compiler only preprocesses macros and checks a small declaration unit.\n",
+  "created_utc": "2026-11-18T01:48:53.001310+00:00",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/inspect_native_extended_precision.py",
+    "sha256": "26b7e40e74a29e51b3843bb5511cb40364d60310dc7349be5e4a9c6c2a51571d"
+  },
+  "helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_fixed_actual.py",
+    "sha256": "dc69eac6b951fede4e33a74f949698111384cc2b6b9ccfd1391c680574408289"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/inspect_native_extended_precision.py",
+    "--scratch-root",
+    "/workspace/scratch/7322d0dee069",
+    "--out",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended_precision_capability.json"
+  ],
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "compiler": {
+    "command": [
+      "g++",
+      "--version"
+    ],
+    "input": null,
+    "returncode": 0,
+    "stdout": "g++ (Debian 14.2.0-19) 14.2.0\nCopyright (C) 2024 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "stderr": ""
+  },
+  "predefined_macros": {
+    "command": [
+      "gcc",
+      "-dM",
+      "-E",
+      "-x",
+      "c",
+      "-"
+    ],
+    "input": "#include <float.h>\n",
+    "returncode": 0,
+    "stdout": "#define __FINITE_MATH_ONLY__ 0\n#define LDBL_MANT_DIG __LDBL_MANT_DIG__\n#define __GNUC__ 14\n#define __SIZEOF_LONG_DOUBLE__ 16\n#define __LDBL_MAX_EXP__ 16384\n#define __LDBL_MANT_DIG__ 64\n#define LDBL_MAX_EXP __LDBL_MAX_EXP__\n#define __GNUC_MINOR__ 2",
+    "stderr": "",
+    "full_stdout_sha256": "6b1c3617b3f8d626d7fef33a94ab0df9a65fadfafe407abdbe464a667f6072bd"
+  },
+  "syntax_only_check": {
+    "command": [
+      "g++",
+      "-x",
+      "c++",
+      "-std=c++17",
+      "-O2",
+      "-fno-fast-math",
+      "-ffp-contract=off",
+      "-fexcess-precision=standard",
+      "-frounding-math",
+      "-fsyntax-only",
+      "-"
+    ],
+    "input": "#include <cmath>\n#include <cfloat>\n#include <limits>\nstatic_assert(LDBL_MANT_DIG == 64);\nstatic_assert(sizeof(long double) == 16);\nlong double (*sq)(long double) = std::sqrt;\nlong double (*lp)(long double) = std::log1p;\nlong double (*em)(long double) = std::expm1;\n",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "compiler_identity": {
+    "path": "/usr/bin/x86_64-linux-gnu-g++-14",
+    "sha256": "6b3696e4dcb85e1c949c732a02befa50e3983ecf94ce7e8e58d9d503b954b79d"
+  },
+  "proposed_flags": [
+    "-std=c++17",
+    "-O2",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-fexcess-precision=standard",
+    "-frounding-math"
+  ],
+  "numpy_crosscheck": {
+    "nmant": 63,
+    "precision_significand_bits_including_leading_bit": 64,
+    "exponent_bits": 15,
+    "itemsize": 16,
+    "epsilon": "1.084202172485504434e-19"
+  },
+  "precision_scope": "This platform has64 significand bits in16 storage bytes, an80-bit extended format with padding. It is not binary128. No native mathematical evaluator is implemented or executed here.",
+  "optional_headers_observed": {
+    "/usr/include/node/node_api.h": false,
+    "/usr/include/nodejs/src/node_api.h": false,
+    "/usr/include/nlohmann/json.hpp": false,
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/include/node/node_api.h": false
+  },
+  "proposed_binding": "No Node addon is assumed. One compiled scalar kernel can expose a C ABI for the three-stage harness and a binary whole-evaluate batch CLI for the existing synchronous Node caller.",
+  "original_capsule": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+    "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+  },
+  "original_coefficients": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+    "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+  },
+  "original_model_sources": {
+    "periodic-quadrature/general_root_tail_momentum.mjs": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs",
+      "sha256": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a"
+    },
+    "periodic-quadrature/f6tail_fast_momentum.mjs": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs",
+      "sha256": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f"
+    },
+    "periodic-quadrature/f6tail_momentum_split_flux.mjs": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs",
+      "sha256": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f"
+    },
+    "periodic-quadrature/f6tail_fast_split_flux_engine.mjs": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs",
+      "sha256": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654"
+    },
+    "950f-tail-stage-core.mjs": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs",
+      "sha256": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be"
+    }
+  },
+  "frozen_E_identity_gaps": {
+    "43": {
+      "stage": 43,
+      "points": 48,
+      "nonzero_E_minus_one_plus_w2_count": 48,
+      "maximum_absolute_E_identity_gap": 1.0755285551056204e-16,
+      "signed_largest_gap_exact_fraction": "31/288230376151711744"
+    },
+    "38": {
+      "stage": 38,
+      "points": 48,
+      "nonzero_E_minus_one_plus_w2_count": 48,
+      "maximum_absolute_E_identity_gap": 1.0408340855860843e-16,
+      "signed_largest_gap_exact_fraction": "-15/144115188075855872"
+    },
+    "175": {
+      "stage": 175,
+      "points": 48,
+      "nonzero_E_minus_one_plus_w2_count": 48,
+      "maximum_absolute_E_identity_gap": 1.1102230246251565e-16,
+      "signed_largest_gap_exact_fraction": "1/9007199254740992"
+    }
+  },
+  "state_vs_original_fast_Jac_trig": {
+    "cos": {
+      "entries": 2688,
+      "different_binary64_entries": 628,
+      "maximum_absolute_difference": 2.0097183471152322e-14
+    },
+    "sin": {
+      "entries": 2560,
+      "different_binary64_entries": 623,
+      "maximum_absolute_difference": 2.008115895790752e-14
+    }
+  },
+  "existing_timings": {
+    "original_full_Jac_locator": {
+      "identity": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-locate-resource.json",
+        "sha256": "1cdfcc7adac2fddc0dbe4e452cae0aacade204fd4fe20de997af0d0d2fbcdf20"
+      },
+      "observed": {
+        "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+        "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+        "status": "observed_terminal",
+        "child_returncode": 0,
+        "observed_utc": "2026-11-18T00:26:44Z",
+        "seconds": 150.17162360600196,
+        "samples": 75,
+        "maximum_sampled_tree_rss_kib": 754048,
+        "tree_at_sampled_peak": {
+          "5": {
+            "name": "MainThread",
+            "rss_kib": 754048,
+            "hwm_kib": 754048
+          }
+        },
+        "child_rusage_maxrss_kib": 754940,
+        "child_user_seconds": 168.308887,
+        "child_system_seconds": 2.994649
+      }
+    },
+    "original_state_and_Jac_map_check": {
+      "identity": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/map-consistency-resource.json",
+        "sha256": "ce1ed589a354c0753773cc7849c38fcf57d0e78f1db3493d9b63fbe538a43b2d"
+      },
+      "observed": {
+        "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+        "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+        "status": "observed_terminal",
+        "child_returncode": 0,
+        "observed_utc": "2026-11-18T00:00:52Z",
+        "seconds": 178.19100972100568,
+        "samples": 89,
+        "maximum_sampled_tree_rss_kib": 465204,
+        "tree_at_sampled_peak": {
+          "5": {
+            "name": "MainThread",
+            "rss_kib": 465204,
+            "hwm_kib": 465204
+          }
+        },
+        "child_rusage_maxrss_kib": 465260,
+        "child_user_seconds": 180.908545,
+        "child_system_seconds": 2.3058009999999998
+      }
+    },
+    "original_failed_DN_continuation": {
+      "identity": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-resource.json",
+        "sha256": "61791d313ab3e6114db631c059f05275b2d839501635f8042581403edf13421a"
+      },
+      "observed": {
+        "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+        "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+        "status": "observed_terminal",
+        "child_returncode": 0,
+        "observed_utc": "2026-11-18T00:23:22Z",
+        "seconds": 857.0711961729976,
+        "samples": 428,
+        "maximum_sampled_tree_rss_kib": 961084,
+        "tree_at_sampled_peak": {
+          "5": {
+            "name": "MainThread",
+            "rss_kib": 961084,
+            "hwm_kib": 961084
+          }
+        },
+        "child_rusage_maxrss_kib": 960096,
+        "child_user_seconds": 884.671424,
+        "child_system_seconds": 17.038492
+      }
+    },
+    "old_three_stage_MP90_state_only": {
+      "identity": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/resource.json",
+        "sha256": "7fdfbb2c1e14d794561df46fb8588db12f56723c7c81045c635ac74559862ff7"
+      },
+      "observed": {
+        "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+        "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+        "status": "observed_terminal",
+        "child_returncode": 0,
+        "observed_utc": "2026-11-18T01:09:50Z",
+        "seconds": 126.10761830199772,
+        "samples": 63,
+        "maximum_sampled_tree_rss_kib": 307812,
+        "tree_at_sampled_peak": {
+          "5": {
+            "name": "python",
+            "rss_kib": 307812,
+            "hwm_kib": 371316
+          }
+        },
+        "child_rusage_maxrss_kib": 371316,
+        "child_user_seconds": 124.021478,
+        "child_system_seconds": 1.195092
+      }
+    }
+  },
+  "exact_work_counts": {
+    "stages": 2304,
+    "modes": 20,
+    "physical_dimension": 40,
+    "complete_state_dimension": 42,
+    "RK_steps_per_stage": 16,
+    "RK_fields_per_stage": 64,
+    "dense_tangent_multiply_accumulate_terms_per_stage": 4300800,
+    "dense_tangent_multiply_accumulate_terms_whole_2304": 9909043200,
+    "full42_by40_tangents_binary64_bytes": 30965760,
+    "original_physical40_by40_tangents_binary64_bytes": 29491200,
+    "nominal48_point32_coefficient_binary64_bytes": 28311552
+  },
+  "performance_scope": "Operation/data counts are exact for the stated unoptimized shapes. Old wall times include initialization/export; none is a native benchmark or a rigorous whole-tail cost prediction.",
+  "future_Jacobian_scope": "Differentiate the frozen literal moment/RHS formulas using their state trig and independent coefficients. The original point Newton B remains the iteration matrix; the literal implicit B_exact must be derived separately. Evaluate implicit derivatives at the returned approximate root; do not claim differentiation of stopping/branch/roundoff behavior."
+}
