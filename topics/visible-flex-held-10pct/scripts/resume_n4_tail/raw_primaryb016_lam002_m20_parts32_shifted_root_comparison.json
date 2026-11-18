@@ -1,0 +1,367 @@
+{
+  "confidence": "Finite arithmetic evidence only.",
+  "scope": "Two separately observed arithmetic arms at the original three fixed stages. A shifts only the root variable/residual; B additionally separates literal-coefficient linear/nonlinear RHS terms. Neither is a production or original-DN acceptance.",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_shifted_root_comparison.py",
+    "sha256": "ca22a4d474bc8e69485a3beff988d7a5ff2f1f39a39da6e8d6e019dc754fd4db"
+  },
+  "collector_helpers": {
+    "record_fixed_actual.py": "dc69eac6b951fede4e33a74f949698111384cc2b6b9ccfd1391c680574408289",
+    "record_tail_initialization.py": "1f1ae3d72c75aaa3b10905dcb2b1968474bed492b63aff00719e0e91c1650f4a"
+  },
+  "frozen_plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-plan-v1.json",
+    "sha256": "5a009eb533917fbfa9f7e454fd611d54205bfd84e2207a6a869612471006efc0"
+  },
+  "frozen_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_shifted_root_stage_flow.py",
+    "sha256": "fa4c6187031cee0b6828ec5b2af29be1c5c0f1c46ee3fa80aa485c061f1fbf34"
+  },
+  "base": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_multiprecision.py",
+    "sha256": "a4e5297beb66c218b0b716ff27992830f2d5db6a56655ffab76c9a9b7a4af819"
+  },
+  "bridge": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+    "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+  },
+  "original_capsule": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+    "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+  },
+  "exact_float_baseline": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+    "sha256": "c188de016b4963b1db896df9d3c2a7f09da201f66834acfd317f651c4488f4dc"
+  },
+  "mp90_reference": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+    "sha256": "316203483014a16efb7a9793c62e2c903e0925a946cd9a30a7ed869b76f766e6"
+  },
+  "original_source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-port-v3.mjs": "4e5f7f4cd31c81b633c826a24b208bc8a0aa2b791132c73238a5a61cf0e2a398",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_rk_sum.mjs": "d6312e79aa156f116f8673e0eb76b9b02711b689091759b1c69e6e05534d5023",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+  },
+  "additional_original_root_sources": {
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311"
+  },
+  "unchanged_root_rule_constants": {
+    "floor": 0.1,
+    "iterations": 30,
+    "tolerance": 8e-14,
+    "scale_floor": 1e-300,
+    "fallback_tolerance": 5e-12,
+    "domain_sequence": "D > floor && S > floor && A > floor; left-to-right short-circuit",
+    "stopping": "err <= tolerance * scale",
+    "trial": "er < err || er <= tolerance * old_scale; short-circuit",
+    "fallback": "Only after no trial accepted: err <= fallback_tolerance * scale",
+    "scale": "max(scale_floor, e.maxQuad, abs of all target components)",
+    "initialization": "L = target; no supplied guess",
+    "spd": "Sequential lower-triangular Cholesky, each diagonal v > 0",
+    "halving_count": 20,
+    "halving_factors_float64_sha256": "a1865b0df91729a80747342183c2b2eebbe6e6fd151b904c3fd086a36daaefc6"
+  },
+  "stopping_scope": "Threshold constants/rules are unchanged. The stable residual ell+quad differs from formed moments-target in binary64; both reports are retained. This is not original floating stopping-path identity.",
+  "arms": {
+    "A": {
+      "summary": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-only-v1/readout-summary.json",
+        "sha256": "c6617db85689121f56c8054a26e5c1d8682fd28adf29c8b715a3dfd21715a89b"
+      },
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-only-v1/readout-raw.json.gz",
+        "sha256": "7b5306e6a7ffe46ca572de3e105572ab8b859a9d8d8b6d9a2470e3507dd3d8fc"
+      },
+      "observer": {
+        "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+        "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+        "status": "observed_terminal",
+        "child_returncode": 0,
+        "observed_utc": "2026-11-18T01:28:25Z",
+        "seconds": 6.004928280999593,
+        "samples": 3,
+        "maximum_sampled_tree_rss_kib": 111380,
+        "tree_at_sampled_peak": {
+          "5": {
+            "name": "python",
+            "rss_kib": 111380,
+            "hwm_kib": 249188
+          }
+        },
+        "child_rusage_maxrss_kib": 249188,
+        "child_user_seconds": 4.888515,
+        "child_system_seconds": 0.922388
+      },
+      "observer_identity": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-only-v1/resource.json",
+        "sha256": "d6bb0761450e650f2c240bfc94c1f34224965de011c4db3cd79e215b55aea29d"
+      },
+      "log": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-only-v1/process.log",
+        "sha256": "0cfb8c89cdb5c029f370ace94ec31aa64c0e6fc81071dae8032d0af7fed4bee0"
+      },
+      "actual_command": [
+        "python",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_shifted_root_stage_flow.py",
+        "--capsule-summary",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+        "--float-baseline",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+        "--mp90-summary",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+        "--bridge",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+        "--arm",
+        "root-only",
+        "--out-prefix",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-only-v1/readout"
+      ],
+      "named_results": {
+        "43": {
+          "stage": 43,
+          "root_calls": 64,
+          "root_iterations": {
+            "2": 64
+          },
+          "root_fallbacks": 0,
+          "max_stable_root_relative_residual": 1.566103708103496e-18,
+          "max_formed_moment_root_relative_residual": 1.1153786401851827e-17,
+          "maximum_all42_error_to_mp90": "7.2072285967335301730094507902645e-13",
+          "maximum_original_all42_error_to_mp90": "1.8575912368895133146947439071515e-12",
+          "maximum_mean2_error_to_mp90": "2.4705127628250426556159406269823e-21",
+          "maximum_normalized_physical_error_to_mp90": "0.000000001308286581988171463354447427341",
+          "maximum_original_normalized_physical_error_to_mp90": "0.0000000033719780875866870216174255885219",
+          "mp_error_peak_component": 38,
+          "fixed_target_normalized_residual": 5.36559791455614e-09,
+          "fixed_target_peak_component": 38,
+          "output42_sha256": "a5ba3a518a874f4be86136b6b010be709d21401064fa33e38e3dd3bbda2f208d",
+          "minA": 0.9993253049821479,
+          "minD": 0.9999456193705909,
+          "seconds": 1.2205417489967658,
+          "error_to_original_error_ratio": "0.3879878658774166636211371848564",
+          "original_initial42_sha256": "923a0f3186d7cdd7f66ff7e948182d3189bba8ac7b6bfab89d040edc21e6d69d",
+          "complete_two_means_compared": true
+        },
+        "38": {
+          "stage": 38,
+          "root_calls": 64,
+          "root_iterations": {
+            "2": 64
+          },
+          "root_fallbacks": 0,
+          "max_stable_root_relative_residual": 6.692054387809416e-19,
+          "max_formed_moment_root_relative_residual": 5.348504945540416e-18,
+          "maximum_all42_error_to_mp90": "1.3853323460770606483074245903929e-12",
+          "maximum_original_all42_error_to_mp90": "5.4358779172199011360553683783571e-12",
+          "maximum_mean2_error_to_mp90": "6.9174357359101194357246337555504e-21",
+          "maximum_normalized_physical_error_to_mp90": "0.0000000024445451207038479865464657859104",
+          "maximum_original_normalized_physical_error_to_mp90": "0.0000000095921017630974534652778186443081",
+          "mp_error_peak_component": 38,
+          "fixed_target_normalized_residual": 5.617101879107274e-09,
+          "fixed_target_peak_component": 38,
+          "output42_sha256": "ec70081d43b3d73482cf78e39f02073b47116691ccfbeef35b3e1912461fbc12",
+          "minA": 0.998982050783748,
+          "minD": 0.9999479262232319,
+          "seconds": 1.2422128140024142,
+          "error_to_original_error_ratio": "0.25484979007504426445463348543189",
+          "original_initial42_sha256": "44c86990ff4f18697c060457e96c9d1b470f5c75bd1c05e609bec945375dbf36",
+          "complete_two_means_compared": true
+        },
+        "175": {
+          "stage": 175,
+          "root_calls": 64,
+          "root_iterations": {
+            "1": 64
+          },
+          "root_fallbacks": 0,
+          "max_stable_root_relative_residual": 1.2789408832649747e-15,
+          "max_formed_moment_root_relative_residual": 1.2789408832649747e-15,
+          "maximum_all42_error_to_mp90": "7.8940835023630930342243502694383e-16",
+          "maximum_original_all42_error_to_mp90": "7.8940835023630930342243502694383e-16",
+          "maximum_mean2_error_to_mp90": "4.9692599572252286558674920039872e-20",
+          "maximum_normalized_physical_error_to_mp90": "0.000000013520219999676827636435004879264",
+          "maximum_original_normalized_physical_error_to_mp90": "0.000000013520219999676827636435004879264",
+          "mp_error_peak_component": 20,
+          "fixed_target_normalized_residual": 9.507411175182884e-10,
+          "fixed_target_peak_component": 21,
+          "output42_sha256": "7b205a4dff6ca90741fffc5a592f662501cb021ea8d9d93a69fbfb7ef7b46383",
+          "minA": 0.999975782689067,
+          "minD": 0.9999996390270643,
+          "seconds": 0.8502034419943811,
+          "error_to_original_error_ratio": "1.0",
+          "original_initial42_sha256": "60135d5f917ecbd5040248e7e4e9cd72c5126f86cc00ba108653e407f3ffee4a",
+          "complete_two_means_compared": true
+        }
+      }
+    },
+    "B": {
+      "summary": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-linear-v1/readout-summary.json",
+        "sha256": "bb8861f8d18536efc0506b16c1420161039550f2dbd36d68078d5e0362af4893"
+      },
+      "raw": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-linear-v1/readout-raw.json.gz",
+        "sha256": "1e477656124efd269950d17579fd24640cc0bc32206a1a9e29cb98e242f80901"
+      },
+      "observer": {
+        "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+        "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+        "status": "observed_terminal",
+        "child_returncode": 0,
+        "observed_utc": "2026-11-18T01:28:25Z",
+        "seconds": 6.003199865001079,
+        "samples": 3,
+        "maximum_sampled_tree_rss_kib": 109124,
+        "tree_at_sampled_peak": {
+          "5": {
+            "name": "python",
+            "rss_kib": 109124,
+            "hwm_kib": 247828
+          }
+        },
+        "child_rusage_maxrss_kib": 247828,
+        "child_user_seconds": 4.969507,
+        "child_system_seconds": 0.831769
+      },
+      "observer_identity": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-linear-v1/resource.json",
+        "sha256": "21799064054185b4d3391768978722e7afdce4a7ba66a0d5423a076de27bdbf1"
+      },
+      "log": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-linear-v1/process.log",
+        "sha256": "8964792321995ba93e68efb1b952dbc3bbbf7684c294e33b10e195685bc4c910"
+      },
+      "actual_command": [
+        "python",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_shifted_root_stage_flow.py",
+        "--capsule-summary",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+        "--float-baseline",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+        "--mp90-summary",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+        "--bridge",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+        "--arm",
+        "root-and-linear-split",
+        "--out-prefix",
+        "/workspace/scratch/7322d0dee069/n4_work/parts32-shifted-root-linear-v1/readout"
+      ],
+      "named_results": {
+        "43": {
+          "stage": 43,
+          "root_calls": 64,
+          "root_iterations": {
+            "2": 64
+          },
+          "root_fallbacks": 0,
+          "max_stable_root_relative_residual": 1.5038066592234025e-18,
+          "max_formed_moment_root_relative_residual": 4.458255692149664e-17,
+          "maximum_all42_error_to_mp90": "1.4861041844838231183867351758062e-12",
+          "maximum_original_all42_error_to_mp90": "1.8575912368895133146947439071515e-12",
+          "maximum_mean2_error_to_mp90": "2.4705127628250426556159406269823e-21",
+          "maximum_normalized_physical_error_to_mp90": "0.0000000026976390965007487279152785756258",
+          "maximum_original_normalized_physical_error_to_mp90": "0.0000000033719780875866870216174255885219",
+          "mp_error_peak_component": 39,
+          "fixed_target_normalized_residual": 3.714644710077328e-09,
+          "fixed_target_peak_component": 38,
+          "output42_sha256": "c77940677e941aafd6168414df3dadef3c09b1d4139d06603264ae5dfdb36cac",
+          "minA": 0.9993253049821479,
+          "minD": 0.9999456193705909,
+          "seconds": 1.2002911640011007,
+          "error_to_original_error_ratio": "0.80001679323825014472770677159213",
+          "original_initial42_sha256": "923a0f3186d7cdd7f66ff7e948182d3189bba8ac7b6bfab89d040edc21e6d69d",
+          "complete_two_means_compared": true
+        },
+        "38": {
+          "stage": 38,
+          "root_calls": 64,
+          "root_iterations": {
+            "2": 64
+          },
+          "root_fallbacks": 0,
+          "max_stable_root_relative_residual": 7.580166759771763e-19,
+          "max_formed_moment_root_relative_residual": 4.3414129533048894e-17,
+          "maximum_all42_error_to_mp90": "5.0233111531687735999675808403929e-12",
+          "maximum_original_all42_error_to_mp90": "5.4358779172199011360553683783571e-12",
+          "maximum_mean2_error_to_mp90": "6.9174357359101194357246337555504e-21",
+          "maximum_normalized_physical_error_to_mp90": "0.000000008864090125397875427519417482027",
+          "maximum_original_normalized_physical_error_to_mp90": "0.0000000095921017630974534652778186443081",
+          "mp_error_peak_component": 38,
+          "fixed_target_normalized_residual": 1.2036646883801301e-08,
+          "fixed_target_peak_component": 38,
+          "output42_sha256": "2ab91f4ecbf3c7c0c224f1175a4bc0a927a716414a8530e64b9b502084b56ad2",
+          "minA": 0.998982050783748,
+          "minD": 0.9999479262232319,
+          "seconds": 1.2842090659978567,
+          "error_to_original_error_ratio": "0.92410301144840120549710467766224",
+          "original_initial42_sha256": "44c86990ff4f18697c060457e96c9d1b470f5c75bd1c05e609bec945375dbf36",
+          "complete_two_means_compared": true
+        },
+        "175": {
+          "stage": 175,
+          "root_calls": 64,
+          "root_iterations": {
+            "1": 64
+          },
+          "root_fallbacks": 0,
+          "max_stable_root_relative_residual": 1.2789408832649747e-15,
+          "max_formed_moment_root_relative_residual": 1.2789408832649747e-15,
+          "maximum_all42_error_to_mp90": "7.8940835023630930342243502694383e-16",
+          "maximum_original_all42_error_to_mp90": "7.8940835023630930342243502694383e-16",
+          "maximum_mean2_error_to_mp90": "4.9692599572252286558674920039872e-20",
+          "maximum_normalized_physical_error_to_mp90": "0.000000013520219999676827636435004879264",
+          "maximum_original_normalized_physical_error_to_mp90": "0.000000013520219999676827636435004879264",
+          "mp_error_peak_component": 20,
+          "fixed_target_normalized_residual": 5.5707487354587205e-12,
+          "fixed_target_peak_component": 22,
+          "output42_sha256": "dfca95b74323ce6daa695a765509243d02c8ff311d076bda6106dc6a41ac39f8",
+          "minA": 0.999975782689067,
+          "minD": 0.9999996390270643,
+          "seconds": 0.826042992004659,
+          "error_to_original_error_ratio": "1.0",
+          "original_initial42_sha256": "60135d5f917ecbd5040248e7e4e9cd72c5126f86cc00ba108653e407f3ffee4a",
+          "complete_two_means_compared": true
+        }
+      }
+    }
+  },
+  "conclusion": "A lowers the maximum MP-reference flow error in the two high-mode stages and leaves the stage175 dominant error unchanged. B is less accurate than A in both high-mode stages. B stage175 has a much smaller fixed-target residual while its dominant MP-reference error is unchanged; fixed-target residual is not an arithmetic accuracy criterion.",
+  "full_flow_jacobian_computed": false,
+  "complete_tail_solver_invoked": false,
+  "production_installed": false,
+  "rigorous_error_bound": false,
+  "continuous_ODE_solved": false,
+  "data_policy": "Only sources, commands, original identities and scalar all42/mean comparisons are published. Full fields/root traces stay scratch-only."
+}

@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`168168c9d9112897eafc68c5faa2c5a0700835e3`。2026-11-18 09:36:23（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`3410937a6b14887408099b9edba7cbe80ad6c5e8`。2026-11-18 09:37:49（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20**：全19c/free c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及175单邻数原DN均失败；最新b4356…原重放同7.42928942e−9，六超门stage37–40/43–44，单ULP/scale<门，非精度下界，无接受尾/Jac/audit。见n4-primary-width及parts32 notes。原float的126输出/116608事件已同源逐位核；MP60/90层差≤1.04663e−57且同舍入/192root分支同，MP90固定目标残差4.05731e−9/4.86089e−9/1.35202e−8均超门。独立Neumaier四项和不改峰，独立Kahan累加未使原目标全接受；不据较小target残差选算术。192root×20的L−target相减精确；三首root新quad使9/10/1个隐藏表示残差可核，最强RHS抵消相减亦精确。单L-ULP线性权重≤.0889门仅局部诊断。见n4-frozen-flow-mp60-mp90/n4-root-representation-and-rhs-cancellation；下一ell根及字面系数RHS两臂对MP90全42误差，不生产安装/全DN，不宣称连续ODE界。
+**新主b=.16/λ=.02/M20**：全19c/free c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及175单邻数原DN均失败；最新b4356…原重放同7.42928942e−9，六超门stage37–40/43–44，单ULP/scale<门，非精度下界，无接受尾/Jac/audit。见n4-primary-width及parts32 notes。原float的126输出/116608事件已同源逐位核；MP60/90层差≤1.04663e−57且同舍入/192root分支同，MP90固定目标残差4.05731e−9/4.86089e−9/1.35202e−8均超门。独立Neumaier四项和不改峰，独立Kahan累加未使原目标全接受；不据较小target残差选算术。192root×20的L−target相减精确；三首root新quad使9/10/1个隐藏表示残差可核，最强RHS抵消相减亦精确。单L-ULP线性权重≤.0889门仅局部诊断。见n4-frozen-flow-mp60-mp90/n4-root-representation-and-rhs-cancellation；两臂57523/12653均exit0：A仅ell根使三段MP误差1.30829e−9/2.44455e−9/1.35202e−8；B另拆RHS前两更差，175 target虽5.57e−12而MP误差不改。原阈值常数保留，stable/formed残差双报，非原浮点停判身份；见n4-shifted-root-two-arm-flow-comparison，未生产/全DN/连续ODE证书。
 
 旧b.08 raw λ.02 M16→M20 metric2.41705e−6→3.43423e−6；M24触6000门/RMS.0032079，无完整metric，不盲升M28。cond1/H²白化及全核/低通法向图无有效收益，保现图。主b.16改善二阶谱支持新设计；见raw-lambda002-fixed-m24-terminal、primary-width及normal-angle-chart相关notes。有限FFT非连续证书。
 
