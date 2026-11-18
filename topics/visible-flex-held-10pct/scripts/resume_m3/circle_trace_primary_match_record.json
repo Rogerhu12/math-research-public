@@ -1,0 +1,241 @@
+{
+  "status": "Unique defining-primary-matched new q; old actual constructor checked; no initializer or BVP yet",
+  "observed_executions": [
+    {
+      "tool_chunk": "ec6eb8",
+      "observed_returncode": 0,
+      "output": "/workspace/scratch/7322d0dee069/m3_work/circle-trace-primary-match-v2.json",
+      "sha256": "5cdba7238986b51cc6be26dba4782ef0dbe66eed167b3824fdf7ee3290910e35",
+      "seconds": 0.041376784996828064
+    },
+    {
+      "tool_chunk": "d8bf61",
+      "observed_returncode": 0,
+      "output": "/workspace/scratch/7322d0dee069/m3_work/circle-trace-primary-parameter-identity.json",
+      "sha256": "fe2c656ea8163683eba7cead6f18b34e26904a6865cf6a7f07f426c6ddbecc0d",
+      "seconds": 1.3308343239987153
+    }
+  ],
+  "scalar_mapping": {
+    "scope": "One deterministic new q from the complete, defining support primary moment.\n\nThis reads the accepted raw lambda-.02 finite anchor and the already declared\nlambda-one a=.21/bp=.32/bc=.4 endpoint. It does not construct an initializer or\ncall either solver. The true primary factor includes the flattened base, not\nonly the zero-primary controls. Widths are decimal-roundtrip rationals; q and\nlambda are the exact reals represented by the recorded binary64 values.\n\nWrite x=phi-pi/3, T=2*pi/3, I_k=(2/T)*integral chi(x)*cos(k*x) dx over\n[0,a+bp], beta=-8*(I_0-I_3)/(1-I_0). The base is\nunit_rho=-8*cos(3*phi)+lambda*(8*chi*(1+cos(3*phi))+beta*(1-chi)).\nSince h+h''=rho, the signed support cosine coefficient is\nQ=2*<h*cos(3*phi)>=q*P, P=1+lambda*((2-beta/4)*I_3-I_0-I_6).\nBoth the raw columns and the new T/U columns have zero mean and primary\nsupport moment by their defining projections. Thus q_new=q_old*P_old/P_new\nis uniquely determined, with no amplitude scan or high-mode power predictor.\n\nHigh precision evaluates the formula; independent Fraction Taylor bounds\ncertify P_new>0, q_new>0 and the chosen nearest binary64. The enclosure scope\nis these defining scalar moments, not numerical libm/core evaluation, an\ninitial-guess domain or a BVP/closed-surface certificate.\n",
+    "command": [
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/match_m3_circle_primary_moment.py",
+      "--checkpoint",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+      "--endpoint-record",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed-round-record.json",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/circle-trace-primary-match-v2.json"
+    ],
+    "source_sha256": {
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/match_m3_circle_primary_moment.py": "bdcca0c9f12db1fed025b53e905e6e274b7bd61ec39c4a697e1ec066b214e302",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_basis.py": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_core.py": "4f9351cb356ce33da28d2d4a36a09d14606f3627846b5bf35d7f73478939cb18",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c"
+    },
+    "checkpoint": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+      "sha256": "6f5a973c746e1112f827e5478432b9abe9d14931df90157f2a19381cc670b91e",
+      "gauge_amplitude": 0.04,
+      "actual_parameter_q": 0.03991248545080898,
+      "finite_solver_success": true,
+      "complete_metric": 9.357262954211186e-05,
+      "caveat": "The previous finite gates passed, but its full prefix metric failed the 1e-6 target."
+    },
+    "coefficient_chunks": {
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_coeff_00.npy.gz": "6637680be24885749acace4d688299ade99249c0760558bf5dc7c42186202f22"
+    },
+    "endpoint_record": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed-round-record.json",
+      "sha256": "f28c6a0d1c38100a7aedcc778da32ab9259945be3966a7d44df93f085b9550fe"
+    },
+    "old_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.08,
+      "control_transition": 0.16,
+      "homotopy": 0.02,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "new_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.32,
+      "control_transition": 0.4,
+      "homotopy": 1.0,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "normalization": "Full-circle average <f>=(2*pi)^-1 integral f; signed support cosine coefficient Q=2<h*cos(3*phi)>.",
+    "local_phase": "x=phi-pi/3, so cos(3*phi)=-cos(3*x).",
+    "scalar_definition": "beta=-8*(I0-I3)/(1-I0); P=1+lambda*((2-beta/4)*I3-I0-I6); Q=q*P.",
+    "width_interpretation": "Exact rational decimal roundtrip of a and primary transition; q and lambda are exact recorded binary64 reals.",
+    "zero_primary_control_scope": "All raw mixed columns with lock_fundamental=True, and all R44 T/U endpoint columns, have zero defining mean/primary support moments. No claim that their floating evaluation is exactly moment-zero.",
+    "old_factor": {
+      "moments": {
+        "0": "0.2387324146378430036533256450587715430516894686106846731215010160883451964513398",
+        "3": "0.21683037717387068695231029813761820851686271251466313894888723837135561759065753",
+        "6": "0.15834106520046315826472508194403682913091523404814729610300259490108873533026947"
+      },
+      "beta": "-0.23016387809080702530011700669343254912236878005705771110280483633665324594152681",
+      "P": "1.0009812780926798566557849977507162995710346451017207217540020889990436982285414",
+      "rational_P_enclosure": [
+        "1.0009812780926798566557849977507162995710",
+        "1.0009812780926798566557849977507162995711"
+      ],
+      "rational_beta_enclosure": [
+        "-0.2301638780908070253001170066934325491224",
+        "-0.2301638780908070253001170066934325491223"
+      ]
+    },
+    "new_factor": {
+      "moments": {
+        "0": "0.35332397366400764540692195468698188371650041354381331621982150381075089074798291",
+        "3": "0.28213706599331848429289101402432108527252378105139680792323178165441709060120201",
+        "6": "0.12155968139669608455044092865301287598969162648287339987543590175933216654645684"
+      },
+      "beta": "-0.88065002902956172382698249015134438338232398405518059540492081685895771091149706",
+      "P": "1.1515064807652660623846741772778856031543438648752203152410544259249302941374251",
+      "rational_P_enclosure": [
+        "1.1515064807652660623846741772778856031543",
+        "1.1515064807652660623846741772778856031544"
+      ],
+      "rational_beta_enclosure": [
+        "-0.8806500290295617238269824901513443833824",
+        "-0.8806500290295617238269824901513443833823"
+      ]
+    },
+    "matched_q": {
+      "rule": "q_old*P_old/P_new; no search",
+      "high_precision": "0.034695115803304264235929863104959736324408113247871859713748186375093127193881525",
+      "exact_q_enclosure": [
+        "0.0346951158033042642359298631049597363244",
+        "0.0346951158033042642359298631049597363245"
+      ],
+      "binary64": 0.03469511580330426,
+      "binary64_hex": "0x1.1c38ee7698929p-5",
+      "uniquely_nearest_binary64_proved": true,
+      "primary_match_residual_high_precision": "-0.00000000000000000259651595458104691712085682185838256012466075041886349280489",
+      "primary_match_residual_enclosure": [
+        "-0.000000000000000002596515954581046917120856821858382560124661",
+        "-0.000000000000000002596515954581046917120856821858382560124660"
+      ]
+    },
+    "BVP_solver_invoked": false,
+    "actual_tail_solver_invoked": false,
+    "initializer_constructed": false,
+    "limits": "New physical q and endpoint control space. This scalar primary match does not preserve the entire core or g, establish rho positivity or match its centre twojet, and does not inherit R38/R40/R41 geometry.",
+    "seconds": 0.041376784996828064
+  },
+  "actual_constructor_and_independent_readout": {
+    "scope": "Read-only actual-constructor and complete-primary-moment identity check.\n\nNo BVP, tail solve, restart predictor or new initializer is run. The recorded\nold gauge and full parameter vector reconstruct the actual old core via its\noriginal class family. A fixed split Gauss quadrature reads the complete\nsource h and rho moments, including all fifteen physical controls. Separately\nmpmath directly integrates the defining primary rho function; that is a\nnumerical defining-integral readout, not an interval proof. The companion\nFraction calculation supplies the scalar enclosure and q rounding proof.\n",
+    "command": [
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_m3_primary_parameter_identity.py",
+      "--mapping",
+      "/workspace/scratch/7322d0dee069/m3_work/circle-trace-primary-match-v2.json",
+      "--reference-run",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/circle-trace-primary-parameter-identity.json"
+    ],
+    "source_sha256": {
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+      "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-coupled.py": "711de62631e019a212c405ddedbef06cc552ada50ab248201c4cc6d65878525a",
+      "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+      "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+      "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_m3_primary_parameter_identity.py": "05d9967584d6cf3cb36a3eaf7b8d9cac45bd87530631550d9aabe4b6cd497181",
+      "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-warped-bvp.py": "eb70e36397ea47638e042e7f2ef465ccef30cd853342adf049c2e3718261ac70"
+    },
+    "mapping": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/circle-trace-primary-match-v2.json",
+      "sha256": "5cdba7238986b51cc6be26dba4782ef0dbe66eed167b3824fdf7ee3290910e35"
+    },
+    "reference_run_launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/continuation-command.json",
+      "sha256": "f0d6747cebedcd65e71e8df9743a77700af3c9f8493ff5723e30c25a30397f50"
+    },
+    "old_constructor": {
+      "gauge_amplitude": 0.04,
+      "seed_support_amplitude": 0.04,
+      "fixed_metric": true,
+      "p0": -0.0021902606002810548,
+      "q_from_original_constructor": 0.03991248545080898,
+      "actual_core_q": 0.03991248545080898,
+      "actual_core_q_hex": "0x1.46f68c76d35b5p-5",
+      "recorded_actual_parameter_q": 0.03991248545080898,
+      "actual_support_amplitude_field": 0.03991248545080898,
+      "complete_control_binary64_equal": true,
+      "physical_controls": [
+        0.00021128347873463125,
+        -1.2553265913246548e-05,
+        -5.425035604512735e-07,
+        1.2888307776136872e-06,
+        -1.1001462301684885e-06,
+        4.928129951345896e-07,
+        7.109194478290164e-08,
+        -3.5790961236303385e-07,
+        3.332852447533977e-07,
+        -1.2592463445322105e-07,
+        -7.47385941361535e-08,
+        1.9272973014561733e-07,
+        -6.930411007611311e-08,
+        4.674685607353034e-07,
+        2.63613212332551e-06
+      ],
+      "constructor_rule": "q=seed_support_amplitude*math.exp(p0) for fixed=True; PlanarSupportCore(q,p[1:]*pscale,3). The q argument multiplies unit_rho directly.",
+      "constructor_method_source_sha256": "b132ea30393081fb45e2623cecc158e2d739ddc7da158c4230c2241e56698a61",
+      "warning": "The checkpoint field actual_primary_amplitude is this base multiplier q, not the complete signed Fourier support coefficient Q=q*P."
+    },
+    "direct_defining_moment": {
+      "precision": 90,
+      "base_primary_direct_quadrature": "0.039951650698406260334080422197708576670236821699707513739982064370289803772833487",
+      "beta_direct_quadrature": "-0.23016387809080702530011700669343254912236878005705771110280483633665324594152681",
+      "Q_formula": "0.039951650698406260334080422197708576670236821699707513739982064370289803772833485",
+      "direct_minus_formula": "1.486085241726629261865114315720532325565e-81",
+      "complete_control_primary_exact": 0,
+      "complete_control_scope": "All fifteen locked raw control primary moments vanish in their defining integrals; the finite source quadrature below separately includes their actual floating evaluation.",
+      "scope": "Direct high-precision integral readout only; the companion exact rational scalar intervals establish enclosure claims."
+    },
+    "finite_complete_source_readout": {
+      "gauss_order": 128,
+      "half_sector_cuts": [
+        0.0,
+        0.21,
+        0.29,
+        0.37,
+        1.0471975511965976
+      ],
+      "full_support_Q": 0.03995165069840415,
+      "full_rho_inferred_Q": 0.0399516506984066,
+      "complete_control_Q": 6.212020862233432e-19,
+      "formula_Q": 0.03995165069840626,
+      "full_support_minus_formula": -2.1094237467877974e-15,
+      "full_rho_minus_formula": 3.400058012914542e-16,
+      "scope": "Fixed split Gauss readout of the actual old core, including all controls. Numerical comparison, not a certified quadrature remainder."
+    },
+    "BVP_solver_invoked": false,
+    "actual_tail_solver_invoked": false,
+    "initializer_constructed": false,
+    "seconds": 1.3308343239987153
+  },
+  "limits": "The scalar match is a new physical endpoint design. Numerical old-core moment readouts are separate from the exact rational scalar enclosures. No new initializer, positivity, metric, closed graph or held-ratio result is asserted."
+}

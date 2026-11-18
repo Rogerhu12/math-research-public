@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`bd11b5f17923b29fb9a9211f60c6891bbe9d7da7`。2026-11-18 09:28:36（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`6a7c30fb3cb67b15b6557826d2964d622bb3d3c8`。2026-11-18 09:29:42（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -36,7 +36,9 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **R42/R43** W²正交后两列消矩，Gram=I+CᵀC，与原λ1 finite raw span相同；R43以a=.21/bc=.4真矩及精确2×2 Sylvester给所有M谱[1,13.92415)。有限M16 Gram条件2.061/旧5.788e11不是C²/实际Jac界，生产核未改。
 
-**R44**弧上rho为常数且低两矩为零的偶C4/C3空间=X0直和span{SA,SB}；弧迹1/cos(d)对应半径A/实际圆心+Bν0。有限raw加两列增维，替最后两列保维但改变span。M16保B2..B14、T=SA−SB/U=SB，物理(t,u)=(A,A+B)，真积分投影/组合rho guard/core链式导数已独审。T有限rho峰10.624832，非连续界。完整两jett=−.01255549/u=.005706023在512点rho=−.1896532而失败；唯一半步t=−.006277745/u=.002853011通过原guard lower.542921839，完整参考回投+C²窗后实际H逐位同原尾锚/Frenet.002962496，但271点RMS3.803793723、BC1.67981e−8，未BVP/尾/metric。保留13c编码差≤2.71e−20，不声称全逐位同。见R44及m3-circle-trace-space-full-twojet-initializer/m3-circle-trace-half-twojet-initializer；下一按真实primary矩唯一选新q，非扫描/固定g精化。
+**R44**弧上rho常数且低两矩零的偶C4/C3空间=X0直和span{SA,SB}；弧迹1/cos(d)对应半径A/圆心+Bν0。M16保B2..B14、T=SA−SB/U=SB替末两列，(t,u)=(A,A+B)，保维但改变span。真积分/组合guard/core链式导数已独审；T有限rho峰10.624832非连续界。旧q完整两jet512点rho−.1896532失败；唯一半步guard lower.542921839/实际H同，但RMS3.803793723，未BVP/尾；见m3-circle-trace-space-full-twojet-initializer及half-twojet note。
+
+**主矩匹配**应用R35：Q=qP，P=1+λ[(2−β/4)I3−I0−I6]。旧原constructor确认gauge.04、actual base q=.03991248545080898、真实Q=.03995165069840626三者不同，全15c同。Pold=1.00098127809/Pnew=1.15150648077，唯一qnew=.03469511580330426；Fraction包围证Pnew>0及唯一nearest binary64，舍入主矩余差−2.59652e−18。全旧核h/rho独立Gauss及90位定义积分仅数值核对；严格性仅标量矩/选q。见m3-circle-primary-matched-amplitude。新物理设计/新span，未继承R38/R40/R41；下一完整两jet/原域/表示回投/C²/H/RMS，不扫描q。
 
 **严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]。R38在even C4弧上零控制且||b+b″||≤.08时给rho>.1642566、平面m3>.0948878、柱D<2.3181；若完整未标记图D≤2.6498/支撑≥.0801/|κ|≤12.5及原文全部C²/对称/帽等假设成立，则held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H角固定如原文，柱长按实际全图矩选，全部图假设未付，不能继承给改变后的控制。R40对q∈[.039,.041]/δ≥.060原flat ramp严格给χ/R>.21088277799>.21；宽度无关但不证λ1存在。
 
