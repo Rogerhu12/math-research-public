@@ -1,0 +1,54 @@
+{
+  "scope": "Source-only independent lambda=1 native-provider pending-inner recovery. No endpoint constructor, projection, flow, mean, metric, BVP or DN was executed by this preparation.",
+  "derived_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/resume_m3_trace_path_native_endpoint_pending.py",
+    "sha256": "6d09f9dc35315a72d745b3955999e35b7f1607bd653048a4ad4213a428d6e143"
+  },
+  "literal_parent": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/resume_m3_trace_path_native_pending_v2.py",
+    "sha256": "2f359060de3479f297823f7965c36ca2eb445987eff89bfbd76eb323e8190f36"
+  },
+  "derivation_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/native-endpoint-pending-source-transforms.json",
+    "sha256": "7fd6a19d5ae611588060907f7b8fb9fbf724484afccb120af6e1327881ce8d70"
+  },
+  "literal_change_count": 12,
+  "original_control_flow_runner": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/resume_m3_trace_path_pending_v2.py",
+    "sha256": "aa146dd6a68cbc22ee89ab684a6ef30d5a67dac44bff8b97613dd3aa845f29ae"
+  },
+  "endpoint_inner_binding": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_endpoint_inner.py",
+    "sha256": "4e6d4ced67b3a2c61768e3006293d0e6d11bde8f68b3cb95f8dd230dad8a0b48"
+  },
+  "endpoint_physical_binding": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_endpoint.py",
+    "sha256": "e5ef9f62349e318fef3f844d603f6dc39a047107c3fff6ec4f3449a4367cd407"
+  },
+  "native_provider_binding": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_literal_tail_provider_v2.py",
+    "sha256": "287cc3e3d0eb7ccca084dca973be0e17ca72a193b65def16c4b7ecf7fd52fa92"
+  },
+  "active_endpoint_entry": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_native_endpoint_v2.py",
+    "sha256": "018df4f4bdf6885647fe6bda748817ea6cd03eb6b6b6cd622573ae6aa4bcb852"
+  },
+  "observed_preparation": {
+    "tool_chunk_id": "24c9b9",
+    "exit_code": 0,
+    "AST_parse": true,
+    "exact_reverse_to_parent": true,
+    "model_imported": false,
+    "numerical_execution": false
+  },
+  "identity_changes": [
+    "Dispatch exclusively through the independent literal_R44_endpoint binder (lambda=1 and lift strength=1).",
+    "Reconstruct the already-declared provider using its historical V8 map, never the currently active native map.",
+    "Require the explicit manifest, full stored provider, raw provider, runtime native map and actual historical native affine response to agree.",
+    "Keep the original returned cubic and all parameters; restore the post-inner point and remaining indices of the original 0..7 outer budget.",
+    "Preserve exact-H true response reuse, original changed-H DN/Jacobian/audit and all finite gates."
+  ],
+  "runtime_not_observed_by_this_record": true,
+  "new_acceptance_or_continuous_error_claim": false,
+  "reproduction_scope": "Read the source and manifest, verify their SHA-256 values, AST-parse the derived source, and reverse the twelve declared literal changes to obtain the exact bound parent bytes. This does not import or execute a mathematical model."
+}

@@ -1,0 +1,245 @@
+{
+  "schema": "m3-native-provider-literal-endpoint-coupled-entry-v1",
+  "scope": "One original coupled endpoint continuation, not a terminal result. Literal lambda=1 core/full lift with existing native provider; no inherited final metric or 10% claim.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_native_endpoint_v2.py",
+    "sha256": "018df4f4bdf6885647fe6bda748817ea6cd03eb6b6b6cd622573ae6aa4bcb852"
+  },
+  "frozen_original_observed_entry": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_endpoint_observed_v2.py",
+    "sha256": "f9bf9a43560dba58d6356728156f9dce7e084d7962a7b0091c56568d8bf76933"
+  },
+  "source_derivations": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-native-endpoint-source-transforms.json",
+      "sha256": "cd24d8c51bdcdca33778b258100041db4e448a15294e7f33070243df8a260e95"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-provider-v2-source-transforms.json",
+      "sha256": "83fe430387c10f4694a50aecdafbc8c0b40f6d472bfc2674b4351d891cbfbdc0"
+    }
+  ],
+  "provider_helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_literal_tail_provider_v2.py",
+    "sha256": "287cc3e3d0eb7ccca084dca973be0e17ca72a193b65def16c4b7ecf7fd52fa92"
+  },
+  "metric_observer": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer_v2.py",
+    "sha256": "47993e3856ebc7727b2a8e3bebfd0e9ee50f76a7261fbd3f687247c295bc8520"
+  },
+  "previous_complete_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/seed.json.gz",
+    "sha256": "f55b4fbb0a05483a7ac67dcd352bbc58cb8371a8db5f7a4a476c954a9ae7ea5b"
+  },
+  "previous_complete_metric": 0.0008726888545969053,
+  "preparation_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam100-native-coupled-v1/continuation-plan.json",
+    "sha256": "2e359442734548161384ee49a89796fbdcb9298516b712edcb7a990f2532a40a"
+  },
+  "runtime_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam100-native-coupled-v1/launch-plan.json",
+    "sha256": "20cc540d551523af2003a2b35e2332da6532706805616643976d68e408924bdf"
+  },
+  "initializer": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam100-native-coupled-v1/initializer.json",
+    "sha256": "b7c12692d56d57372a7561fff317359bf81680bbb30cfdf3581c4b4bfb4bab23"
+  },
+  "complete_initial_arrays": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam100-native-coupled-v1/initializer-arrays.npz",
+    "sha256": "0cb7874ccd4855ae369810ca295944e90eb9efdda6c88ffceab2287da5219f65"
+  },
+  "verified_source_count": 207,
+  "active_provider": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v3/manifest.json",
+    "sha256": "abb2a44fd55d91af60f9f86834ec70e5d40ec73fd8f412eec5ecaaba6bd300be"
+  },
+  "active_native_source_sha256": {
+    "950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "950f-tail-stage-port-v3.mjs": "c5cd866444048ca6433a70f9c27865190091aa0401cc1f6875784229fbcdadd8",
+    "950f-tail-stage-core.mjs": "1119c028749209fcf2aae047fd59a6f22a4e12e1cdcfc5186f7a1d8678c4c8f4",
+    "950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6"
+  },
+  "design": {
+    "lambda_value": 1.0,
+    "q_gauge": 0.06,
+    "warp_reference": 0.06,
+    "seed_support_amplitude": 0.05210565550627671,
+    "true_primary_normalization": "Exact real value of binary64(.06); qseed is the registered nearest binary64 quotient Q*/P(1).",
+    "primary_factor_record": {
+      "lambda_value": 1.0,
+      "lambda_binary64_hex": "0x1.0000000000000p+0",
+      "P_enclosure": [
+        "1.15150648076526606238467417727788560315430000000000",
+        "1.15150648076526606238467417727788560315440000000000"
+      ],
+      "q_enclosure": [
+        "0.05210565550627670628678812062252920159189614021168",
+        "0.05210565550627670628678812062252920159190066521059"
+      ],
+      "q_binary64": 0.05210565550627671,
+      "q_binary64_hex": "0x1.aad97acac1567p-5",
+      "uniquely_nearest_binary64": true,
+      "defining_primary_residual_enclosure": [
+        "0.000000000000000002867664299334977664861368914659537039591602",
+        "0.000000000000000002867664299334977664861374125225087667262481"
+      ],
+      "rule": "P(lambda)=1+lambda*(registered P1-1); q(lambda)=old_actual_q/P(lambda). Widths retain the registered defining-integral convention; lambda and old q are exact binary64 reals.",
+      "scope": "Only the defining scalar moment. Rounded production core evaluation and the partially lifted finite inlet are separate."
+    },
+    "core_settings": {
+      "halfwidth": 0.21,
+      "transition": 0.32,
+      "control_transition": 0.4,
+      "homotopy": 1.0,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "complete_parameters": [
+      -1.3940640122370465e-05,
+      0.19470489766693902,
+      1.653358570752738,
+      -28.86927998202781,
+      263.22976650195017,
+      -951.8452491446707,
+      -30067.90072916219,
+      150687.45970227674
+    ],
+    "parameter_scales": [
+      0.0036,
+      0.00021599999999999996,
+      1.2959999999999998e-05,
+      7.775999999999999e-07,
+      4.665599999999999e-08,
+      2.7993599999999993e-09,
+      1e-09
+    ],
+    "complete_physical_controls": [
+      0.0007009376316009805,
+      0.00035712545128259134,
+      -0.00037414586856708034,
+      0.00020468746643191642,
+      -4.4409291944093745e-05,
+      -8.417087858518745e-05,
+      0.00015068745970227675
+    ],
+    "same_base_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06104275721220832,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "state_components": 25,
+    "modes": 8,
+    "nodes": 518,
+    "lift_window": [
+      0.5,
+      0.9
+    ],
+    "full_lift_strength": 1.0,
+    "fixed_metric_flag": false,
+    "p0_rule": "Original complete p0 shifts delta from the original base once; qseed is fixed externally for this solve."
+  },
+  "initial_representation": {
+    "physical_quintic_used": true,
+    "raw_y_used": false,
+    "initial_hashes": {
+      "state_binary64_sha256": "12ae63bb1bde447c1a4d0615da96641bd65c5b41dc49415f023b70c80ec16ad0",
+      "parameter_binary64_sha256": "3f252a3396b1d5ece2022e15a6c392a5d78bd135c93aeeaea059e90d41248c6e",
+      "full_H_binary64_sha256": "2647bc068b6b41de1f1788d468e7068ff7b40fba41fc0c471c7b077dcda3a7cf"
+    },
+    "maximum_projected_reference_correction": 8.295458328063637e-15,
+    "zero_reference_nodes": 232,
+    "inlet_residual": 1.0842021724855044e-19,
+    "numerical_core_guard": {
+      "rho_lower": 0.5102543899343027,
+      "rho_sample": 0.5117835893066144
+    },
+    "actual_complete_H": [
+      -0.0001671130606594921,
+      6.1403226896268306e-06,
+      1.0829420854628177e-06,
+      3.595393508470176e-10,
+      -5.185871515534389e-09,
+      -1.1847223849804272e-09,
+      -9.562584254780451e-10,
+      5.11231182626892e-09
+    ],
+    "new_H_byte_equal_old_physical": true,
+    "genuine_same_H_response": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/seed_tail_0001.json.gz",
+      "sha256": "6074075cd20246b71dc6cf0bcb76b1dd1c75afc7c85db8fa835c935f27a284a0"
+    },
+    "initial_RMS_repeated": false,
+    "old_mean_copied": false
+  },
+  "original_gates": {
+    "max_nodes": 6000,
+    "tol": 1e-06,
+    "bc_tol": 1e-07,
+    "physical_bc_tol": 2e-09,
+    "rho_floor": 1e-05,
+    "rho_grid_ceiling": 32768,
+    "tail_tolerance": 2e-09,
+    "outer_budget": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "metric_observation": {
+    "source": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer_v2.py",
+      "sha256": "47993e3856ebc7727b2a8e3bebfd0e9ee50f76a7261fbd3f687247c295bc8520"
+    },
+    "original_continuation": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_continuation.py",
+      "sha256": "4e8e4548536a0f0091910180247c1240ab49d045acbdf08a892f2809993eac57"
+    },
+    "installation_point": "Generated original main, immediately before the original adaptive.audit; pending recovery retains the same excerpt.",
+    "preserved_single_original_FFT": true,
+    "additional_model_calls": 0,
+    "additional_FFT_calls": 0,
+    "original_samples_formulas_gates_unchanged": true,
+    "observation_scope": "Finite existing audit E/F/G component peaks, radial samples and dominant signed FFT bins; not continuous bounds or causal attribution."
+  },
+  "execution": {
+    "session": 38274,
+    "launch_tool_chunk": "31bbd3",
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam100-native-coupled-v1/launch-command.json",
+      "sha256": "62bd57060be5c544bcfe59f9ec97112540adc0546cc2396e0690925ce4069916"
+    },
+    "preparation_tool_chunk": "1615bc",
+    "preparation_returncode": 0,
+    "terminal_not_part_of_this_entry_record": true
+  },
+  "scope_boundaries": [
+    "A new actual physical lambda design, not fixed-g mode refinement.",
+    "The original all-parameter initial representation and shared C2 inlet repair are performed once for this required run, not a separate probe.",
+    "All actual H responses use the explicitly bound provider; exact same-H cache reuse is genuine, different H uses original full DN/Jac/audit.",
+    "Original eight-outer/merit/domain/BC/RMS/tail gates and complete snapshots remain.",
+    "The finite audit observer uses the existing FFT/arrays, with no extra model call or threshold.",
+    "The lambda=1 defining core has its R44 circle trace/full lift; its actual numerical complete surface still requires the original solver and all final error/geometric gates."
+  ]
+}
