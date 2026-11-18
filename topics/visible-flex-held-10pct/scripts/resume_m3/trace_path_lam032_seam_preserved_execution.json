@@ -1,0 +1,286 @@
+{
+  "schema": "m3-preserved-interior-actual-tail-execution-v1",
+  "confidence": "Numerical evidence and exact execution/input identities; not a continuous geometric certificate.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+    "sha256": "af65f13ceb394589e9578c535ca337ca80b86bcb3bf4291b509af966b785b614"
+  },
+  "source_parent": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_trace_path_seam_preserved_tail.py",
+    "sha256": "5e12714a8829b7fe4712308b9a35c2abe2a744945a9efa4b79447663e9f011d0"
+  },
+  "literal_source_derivation": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/preserved_interior_generic_source_transforms.json",
+    "sha256": "fb41b2c9f313d9762e74d7e5da896c8037325812b07329865b30328ada156dab"
+  },
+  "source_change_scope": "Only generic explicit SHA binding, actual original line-search-failure condition and actual changed-H/encoded Dirichlet set; original native mathematics and gate unchanged.",
+  "source_readonly_review": {
+    "agent": "closed_geometry",
+    "tool_chunk": "5049b4",
+    "returncode": 0,
+    "numerical_execution": false
+  },
+  "design": {
+    "homotopy": 0.32,
+    "modes": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "steps": 16,
+    "shooting_parts": 16,
+    "original_tolerance": 2e-09,
+    "gauge": 0.06,
+    "support_q": 0.05722558496396052
+  },
+  "entry": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed-entry.json",
+    "sha256": "f3a1a5a1d1a4fb9b73e1649e627e220e88e16918be614bf0091f9a3ab9fdc081"
+  },
+  "full_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed-entry.json",
+    "sha256": "f3a1a5a1d1a4fb9b73e1649e627e220e88e16918be614bf0091f9a3ab9fdc081"
+  },
+  "original_source_plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/launch-plan.json",
+    "sha256": "7a261af23cfeb519861916f99c78e3b14107eff5e3ca310efa320d6110093fc8"
+  },
+  "accepted_reference": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/seed_tail_0001.json.gz",
+    "sha256": "5e1634539b56ed8bca2a9f7d505f28b9cfe2351da748589c658cd5870bc2e33d"
+  },
+  "failed_request": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/seed_tail_0001.json.gz",
+    "sha256": "67fc2235c54d311bda393966b3e3f113e3f489be617379a822306363c9b7e8e4"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed-candidate.json.gz",
+    "sha256": "e8190fdf79eb35106aec965759c40e32adf5e13df9a80821a25d81520770fa9c"
+  },
+  "configuration": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed-config.json",
+    "sha256": "81f98cb2a79b070bb5ca5ec9e794c4b776d4dc48cef9886c1c0db83f826a730a"
+  },
+  "configuration_changed_keys": [
+    "initialCheckpoint",
+    "traceFile"
+  ],
+  "original_inputs_readonly_comparison": {
+    "old_H": [
+      -0.00016709848447840324,
+      6.128740012491765e-06,
+      1.0871870472314635e-06,
+      5.732700804022618e-10,
+      -5.239585971556296e-09,
+      -1.1334826355738145e-09,
+      -8.293117914161825e-10,
+      4.85213413736665e-09
+    ],
+    "new_H": [
+      -0.00016709848447840327,
+      6.128740012491764e-06,
+      1.0871870472314633e-06,
+      5.732700804022619e-10,
+      -5.239585971556295e-09,
+      -1.1334826355738145e-09,
+      -8.293117914161825e-10,
+      4.852134137366651e-09
+    ],
+    "changed_H_components": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      7
+    ],
+    "observed_primary_height_ratio": 1.0000000000000002,
+    "failed_state_scalar_difference_from_accepted": 18400,
+    "state_shape": [
+      1153,
+      16
+    ],
+    "scope": "Literal comparison of the actual accepted and actual iteration-2 failed checkpoints; no new flow, residual or solver evaluation. A state difference here does not attribute all changed entries to only the initial predictor."
+  },
+  "initializer": {
+    "changed_cut_dirichlet": [
+      {
+        "node": 0,
+        "component": 0,
+        "before": -0.02062944252819793,
+        "after": -0.020629442528197935
+      },
+      {
+        "node": 0,
+        "component": 1,
+        "before": 0.0007566345694434278,
+        "after": 0.0007566345694434277
+      },
+      {
+        "node": 0,
+        "component": 2,
+        "before": 0.0001342206231149955,
+        "after": 0.00013422062311499547
+      },
+      {
+        "node": 0,
+        "component": 3,
+        "before": 7.077408400027924e-08,
+        "after": 7.077408400027925e-08
+      },
+      {
+        "node": 0,
+        "component": 4,
+        "before": -6.468624656242341e-07,
+        "after": -6.46862465624234e-07
+      }
+    ],
+    "preserved_internal_and_deep_states": true,
+    "preserved_cut_momenta": true,
+    "javascript_cut_encoding": {
+      "target": [
+        -0.020629442528197935,
+        0.0007566345694434277,
+        0.00013422062311499547,
+        7.077408400027925e-08,
+        -6.46862465624234e-07,
+        -1.399361278486191e-07,
+        -1.0238417177977563e-07,
+        5.990289058477346e-07
+      ],
+      "old": [
+        -0.02062944252819793,
+        0.0007566345694434278,
+        0.0001342206231149955,
+        7.077408400027924e-08,
+        -6.468624656242341e-07,
+        -1.399361278486191e-07,
+        -1.0238417177977563e-07,
+        5.990289058477346e-07
+      ],
+      "power": 0.0081
+    },
+    "candidate_is_not_accepted": true,
+    "reload_arithmetic": {
+      "cut_radius": 0.3,
+      "ratio": 1,
+      "zero_boundary_correction": true,
+      "finite_states_without_negative_zero": true,
+      "original_solver_invoked": false
+    }
+  },
+  "original_native": {
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed-summary.json",
+      "sha256": "ac95428b189a84427e170e013b75abfa3166581b022379849a24b4cf1b7a854a"
+    },
+    "native_record": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed_tail_0001.json.gz",
+      "sha256": "cd1f6d4ae2a5a26b3a2d6b96273a87c482df713d9bb2acdd99b9df21539e0eb5"
+    },
+    "converged": true,
+    "residual": 1.8339186209756414e-09,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 1.8339186209756414e-09,
+        "minA": 0.5218840911834862,
+        "minD": 0.9991191544931648
+      }
+    ],
+    "finite_jacobian_entries": 208,
+    "audit_returned": true,
+    "audit_scalars": {
+      "fullD": 0.00032681184389411755,
+      "normalizedFullDefect": 0.0004900259019444686,
+      "minLeading": 0.5218840911834862,
+      "minD": 0.9991191724749143,
+      "formalCurvature": 8.409078025567892,
+      "maxPhysicalPV": 0.00033203473265786947,
+      "actualMetric": 4.624833183086707e-08,
+      "holonomy": 3.842684079227341e-19
+    },
+    "final_state_nodes": 1153,
+    "native_history_rows": 1,
+    "final_states_equal_candidate": true,
+    "native_calls": 1,
+    "worker_returncode": 0
+  },
+  "execution": {
+    "session": 66671,
+    "launch_tool_chunk": "5fb98b",
+    "terminal_tool_chunk": "f841c6",
+    "observed_utc": "2026-11-18T04:54:52Z",
+    "observer_returncode": 0,
+    "child_returncode": 0,
+    "seconds": 42.152600916000665,
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/resource.json",
+      "sha256": "37fcddb6fe06932dd2caa20c3a600452bc1863524083f777911bd81b9e6fb3ac"
+    },
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/launch-command.json",
+      "sha256": "abed7de5dd5b73d0a17713c0bf2c1333672e8dec1ecb0ba53cc109819b46e310"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+      "--source-topic",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/launch-plan.json",
+      "--source-plan-sha",
+      "7a261af23cfeb519861916f99c78e3b14107eff5e3ca310efa320d6110093fc8",
+      "--accepted",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/seed_tail_0001.json.gz",
+      "--accepted-sha",
+      "5e1634539b56ed8bca2a9f7d505f28b9cfe2351da748589c658cd5870bc2e33d",
+      "--seam-failure",
+      "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/seed_tail_0001.json.gz",
+      "--failure-sha",
+      "67fc2235c54d311bda393966b3e3f113e3f489be617379a822306363c9b7e8e4",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ],
+    "observer_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/resource.json",
+      "--log",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/stdout.log",
+      "--",
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_preserved_interior_original_tail.py",
+      "--source-topic",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "--source-plan",
+      "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/launch-plan.json",
+      "--source-plan-sha",
+      "7a261af23cfeb519861916f99c78e3b14107eff5e3ca310efa320d6110093fc8",
+      "--accepted",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-native-one-step-v1/seed_tail_0001.json.gz",
+      "--accepted-sha",
+      "5e1634539b56ed8bca2a9f7d505f28b9cfe2351da748589c658cd5870bc2e33d",
+      "--seam-failure",
+      "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-resume-v1/seed_tail_0001.json.gz",
+      "--failure-sha",
+      "67fc2235c54d311bda393966b3e3f113e3f489be617379a822306363c9b7e8e4",
+      "--out-prefix",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam032-seam-preserved-v1/seed",
+      "--sparse-helper",
+      "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+      "--node-heap",
+      "3072"
+    ]
+  },
+  "scope_boundaries": [
+    "Only one new actual-H initializer and one original native solve are executed; no parameter sweep or automatic retry.",
+    "No full-stage locator/replay was needed for this already observed near-H predictor change.",
+    "No prefix BVP, mean-height integration, metric audit or seam audit is run in this batch.",
+    "A real accepted response for the exact new H is returned; the prior accepted response is not substituted for different boundary data.",
+    "The finite audit readouts are returned values, not continuous geometry certificates or extra modified acceptance gates."
+  ]
+}
