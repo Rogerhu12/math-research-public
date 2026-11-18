@@ -1,0 +1,288 @@
+{
+  "scope": "Completed exact native DOUBLE/V8 port validation only. No long-double arithmetic, literal-Jacobian, full batch or DN acceptance.",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_float_baseline.py",
+    "sha256": "4b624dea19cb0825c227513596eb62a06e494f61c73735301b9bc60e3ea68528"
+  },
+  "helpers": {
+    "record_fixed_actual.py": "dc69eac6b951fede4e33a74f949698111384cc2b6b9ccfd1391c680574408289",
+    "record_tail_initialization.py": "1f1ae3d72c75aaa3b10905dcb2b1968474bed492b63aff00719e0e91c1650f4a"
+  },
+  "frozen_plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-plan-v1.json",
+    "sha256": "67ee96a3323e457fefedc3b727180e321fdcd722232518e3a8bfdbf7fd8661f8"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-summary.json",
+    "sha256": "8bc4adafbd655fe5fa5de7b7fbda542a3c4edda5b7505deb579d9ec40a503078"
+  },
+  "raw": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-raw.json.gz",
+    "sha256": "50776b349d13d1239e0de925e3f9954bd51352a6e740f8b26e86016d2827ec4a"
+  },
+  "build_record": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+    "sha256": "6a3bccea3aafe115cb28071ca23986e14e27c9074c67f8f91b094bfb87db0bf8"
+  },
+  "native_sources": {
+    "cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+      "sha256": "916d0a948a15100f9bb68b255c2192460efe249c08a3559ea9fb800fbb59ac3f"
+    },
+    "header": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "harness": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "builder": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/build_native_extended.py",
+      "sha256": "20437402d90d4bf1a7aa9488d9651dbc5387a2cbaffb85667ebb4e093ccbc6c3"
+    }
+  },
+  "compiled_library": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+    "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+  },
+  "compiled_batch_cli": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/frozen_flow_batch",
+    "sha256": "41ad2ad52199365c11e1065ea1ad988544c2325ad81ffaad84e45485db50f6ed"
+  },
+  "original_entry_files": {
+    "original_evaluator": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_multiprecision.py",
+      "sha256": "a4e5297beb66c218b0b716ff27992830f2d5db6a56655ffab76c9a9b7a4af819"
+    },
+    "bridge": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+      "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+    },
+    "capsule_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+      "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+    },
+    "old_float_baseline": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+      "sha256": "c188de016b4963b1db896df9d3c2a7f09da201f66834acfd317f651c4488f4dc"
+    },
+    "mp90_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+      "sha256": "316203483014a16efb7a9793c62e2c903e0925a946cd9a30a7ed869b76f766e6"
+    },
+    "coefficient_identity": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+    },
+    "reference_identity": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-reference.json.gz",
+      "sha256": "996bdc40164d265f9146f7af4449732d4d34981eeabb7c4ffe8ea44b697b2c73"
+    },
+    "mp90_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-raw.json.gz",
+      "sha256": "bd5af94f99245a6404d9e0e6df178e82f9c2120ae1389f9c59b2b386c80e05d6"
+    }
+  },
+  "original_source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-port-v3.mjs": "4e5f7f4cd31c81b633c826a24b208bc8a0aa2b791132c73238a5a61cf0e2a398",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_rk_sum.mjs": "d6312e79aa156f116f8673e0eb76b9b02711b689091759b1c69e6e05534d5023",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311"
+  },
+  "observer": {
+    "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+    "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T02:19:21Z",
+    "seconds": 6.018224387997179,
+    "samples": 3,
+    "maximum_sampled_tree_rss_kib": 329812,
+    "tree_at_sampled_peak": {
+      "6": {
+        "name": "python",
+        "rss_kib": 329812,
+        "hwm_kib": 353628
+      }
+    },
+    "child_rusage_maxrss_kib": 353628,
+    "child_user_seconds": 3.127308,
+    "child_system_seconds": 1.317195
+  },
+  "observer_identity": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/resource.json",
+    "sha256": "7cbd659c43f1a6d1984ae32e4e443cff36c0221decfb3b59708d070801909c22"
+  },
+  "log": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/process.log",
+    "sha256": "009b03987f09a07578e08f16afa85e9f1ef16ef8d01a341b57118336c768e2ff"
+  },
+  "runtime": {
+    "abi": 1,
+    "long_double_significand_bits": 64,
+    "long_double_storage_bytes": 16,
+    "rounding_mode": 0,
+    "round_to_nearest": true,
+    "x87_control_word": 895,
+    "config_size": 88,
+    "step_size": 40,
+    "stage_size": 32,
+    "callbacks_size": 32,
+    "diagnostics_size": 80
+  },
+  "named_results": {
+    "43": {
+      "stage": 43,
+      "all42_original_bitwise_identical": true,
+      "all_original_root_trace_bitwise_identical": true,
+      "trace_events": 44928,
+      "output42_sha256": "16c51ec0c3fea016923f23d7ab866d85d9b9011be3f8b8ed8ef35d0dd1799343",
+      "native_output_sha256": "16c51ec0c3fea016923f23d7ab866d85d9b9011be3f8b8ed8ef35d0dd1799343",
+      "diagnostics": {
+        "root_calls": 64,
+        "root_updates": 128,
+        "root_fallbacks": 0,
+        "trace_events": 44928,
+        "minA": 0.9993253049821479,
+        "minD": 0.9999456193705909,
+        "max_root_relative_residual": 1.785062767521721e-16,
+        "min_literal_Jacobian_pivot": null,
+        "kernel_seconds": 0.485008957,
+        "scalar_bytes": 8
+      },
+      "native_error_to_mp90": {
+        "maximum_all42_absolute_error": "1.8575912368895133146947439071515e-12",
+        "maximum_mean2_absolute_error": "2.4705127628250426556159406269823e-21",
+        "maximum_normalized_physical_error": "0.0000000033719780875866870216174255885219",
+        "normalized_error_peak_component": 38
+      },
+      "boundary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "1.8575912368895133146947439071515e-12",
+        "maximum_mean2_absolute_error": "2.4705127628250426556159406269823e-21",
+        "maximum_normalized_physical_error": "0.0000000033719780875866870216174255885219",
+        "normalized_error_peak_component": 38
+      },
+      "fixed_target_normalized_residual": 7.429289420154656e-09,
+      "complete_original_state_and_both_means_verified": true,
+      "complete_original_event_identity_verified": true
+    },
+    "38": {
+      "stage": 38,
+      "all42_original_bitwise_identical": true,
+      "all_original_root_trace_bitwise_identical": true,
+      "trace_events": 44928,
+      "output42_sha256": "adb4f35c8dfcf45052ee3878ea3cf97868942a13a023249263fff5493b5acef4",
+      "native_output_sha256": "adb4f35c8dfcf45052ee3878ea3cf97868942a13a023249263fff5493b5acef4",
+      "diagnostics": {
+        "root_calls": 64,
+        "root_updates": 128,
+        "root_fallbacks": 0,
+        "trace_events": 44928,
+        "minA": 0.998982050783748,
+        "minD": 0.9999479262232319,
+        "max_root_relative_residual": 1.7363600837095184e-16,
+        "min_literal_Jacobian_pivot": null,
+        "kernel_seconds": 0.40793693,
+        "scalar_bytes": 8
+      },
+      "native_error_to_mp90": {
+        "maximum_all42_absolute_error": "5.4358779172199011360553683783571e-12",
+        "maximum_mean2_absolute_error": "6.9174357359101194357246337555504e-21",
+        "maximum_normalized_physical_error": "0.0000000095921017630974534652778186443081",
+        "normalized_error_peak_component": 38
+      },
+      "boundary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "5.4358779172199011360553683783571e-12",
+        "maximum_mean2_absolute_error": "6.9174357359101194357246337555504e-21",
+        "maximum_normalized_physical_error": "0.0000000095921017630974534652778186443081",
+        "normalized_error_peak_component": 38
+      },
+      "fixed_target_normalized_residual": 6.419545004694028e-09,
+      "complete_original_state_and_both_means_verified": true,
+      "complete_original_event_identity_verified": true
+    },
+    "175": {
+      "stage": 175,
+      "all42_original_bitwise_identical": true,
+      "all_original_root_trace_bitwise_identical": true,
+      "trace_events": 26752,
+      "output42_sha256": "ac9b59fd3a38ed4bbd8b81c9fbf272052bfdbbe049ca9cbc1a346167383c4786",
+      "native_output_sha256": "ac9b59fd3a38ed4bbd8b81c9fbf272052bfdbbe049ca9cbc1a346167383c4786",
+      "diagnostics": {
+        "root_calls": 64,
+        "root_updates": 64,
+        "root_fallbacks": 0,
+        "trace_events": 26752,
+        "minA": 0.999975782689067,
+        "minD": 0.9999996390270643,
+        "max_root_relative_residual": 1.2789394848857228e-15,
+        "min_literal_Jacobian_pivot": null,
+        "kernel_seconds": 0.21974528,
+        "scalar_bytes": 8
+      },
+      "native_error_to_mp90": {
+        "maximum_all42_absolute_error": "7.8940835023630930342243502694383e-16",
+        "maximum_mean2_absolute_error": "4.9692599572252286558674920039872e-20",
+        "maximum_normalized_physical_error": "0.000000013520219999676827636435004879264",
+        "normalized_error_peak_component": 20
+      },
+      "boundary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "7.8940835023630930342243502694383e-16",
+        "maximum_mean2_absolute_error": "4.9692599572252286558674920039872e-20",
+        "maximum_normalized_physical_error": "0.000000013520219999676827636435004879264",
+        "normalized_error_peak_component": 20
+      },
+      "fixed_target_normalized_residual": 9.507411175182884e-10,
+      "complete_original_state_and_both_means_verified": true,
+      "complete_original_event_identity_verified": true
+    }
+  },
+  "verified_outputs": 126,
+  "verified_events": 116608,
+  "all_original_outputs_and_events_bitwise_identical": true,
+  "timing_scope": "Stage kernel_seconds includes exact V8 scalar and full trace callbacks. Whole observer time includes parsing/collection. Neither is a null-trace native long-double performance benchmark.",
+  "precision_scope": "Runtime ABI/storage/FE/x87 were read, but only double arithmetic plus original V8 scalar functions was invoked. The long-double branch and native math functions remain untested here.",
+  "outstanding": {
+    "longdouble_state_only_fullJac_identity": true,
+    "longdouble_MP90_accuracy": true,
+    "independent_full40_variational_reference": true,
+    "native_runtime_math_library_identity": true,
+    "null_trace_native_performance": true,
+    "whole_2304_batch_and_original_DN": true
+  },
+  "production_installed": false,
+  "new_actual_tail_accepted": false,
+  "data_policy": "Only compact source/input/output identities and scalar original-byte evidence are published; complete states/events stay scratch-only."
+}

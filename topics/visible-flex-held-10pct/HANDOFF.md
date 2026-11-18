@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`7c2bf95f6f1534f41b6f06e5648e5bbf8f7bbf0c`。2026-11-18 10:17:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`5ffe7dc51a1a3a0ab8c73613f8fdcba1ab4c682b`。2026-11-18 10:31:56（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：19c/free-c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及邻数原DN均失败；最新b4356…重放同7.42928942e−9、六超门37–40/43–44，单ULP/scale<门，非机器下界，无接受尾。见n4-primary-width/parts32 notes。原float126输出/116608事件逐位同；MP60/90层差≤1.04663e−57且同舍入，三固定target仍超门。L−target及最强RHS抵消相减精确，三新quad读数另揭moments形成舍入；只为有限算法定位。
 
-**n4算术当前** 补偿批已收束：A+carry的MP90误差1.58088e−9/4.77744e−9/1.69164e−9，前两不及A，非生产/DN接受；历史详见各frozen/shifted-root notes。唯一native原formed-moment/RK内核C++916d0a…/harness42893f…已编译共享库与batch均exit0、源双审，build6a3b…；未加载/数值执行。独立E/w²/state trig保持，B_exact字面隐式Jac另验pivot，非停止算法导数。plan67ee96…只允许double/V8原126输出及116608事件逐位基线；通过后才LD（64有效位）/40Jac。未付LD state-only/fullJac一致、MP变分、无trace性能、全2304/原norm/DN。源kernel_seconds含回调；token只绑payload、source外验。见n4-native-compile-and-double-entry及native-extended-precision-plan。
+**n4算术当前** 补偿批已收束，见frozen/shifted-root notes。唯一native原formed-moment/RK内核916d0a…/build6a3b…的double基线真实exit0（02:19:21Z/6.018s）：三段126输出及116608事件/操作数/判断全字节同原V8参考；64根/段、更新128/128/64、fallback0，原固定target仍超门。见n4-native-double-exact-baseline。仅付移植身份，未执行LD/40Jac/batch/DN。独立E/w²/state trig保持，B_exact字面隐式Jac另验pivot，非停止算法导数。后续同库LD（64有效位）state-only/fullJac六调用与独立保存MP90轨迹变分源正在双审；全42/1680列须保全、真实库身份与无trace计时另付。全2304/原norm/DN仍未付；旧kernel_seconds含回调，token只绑payload、source外验。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 
