@@ -1,0 +1,129 @@
+{
+  "schema": "n4-M24-observed-inner-return-before-environment-loss-v1",
+  "scope": "Preserve actual completed tail1/tail2 and inner0 observations reported before loss of the shared execution environment. The complete coupled terminal and new-H call3 result are not observed.",
+  "session_name": "Astra-held10-7322d0de-20261118",
+  "execution_session": 27744,
+  "directory": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/",
+  "published_entry": "scripts/resume_n4_tail/native_raw_M24_entry.json",
+  "observed_plan_sha256": "cee3063de23acd21a4d31eaf4d18e8730f1b3d9d1acc6ff1f833f5e33947cfc5",
+  "provider_manifest_sha256": "4a2c3896f119b869740d8baa520d4d7473a8b29d477e4105d70ed4edf83fde6e",
+  "files": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/seed-tail_0001.json.gz",
+      "sha256": "4e906c67c7e6770bbe2b794b9987ebb145f5a1af8fd9561ee4b406f4ab0fd23d"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/seed-tail_0002.json.gz",
+      "sha256": "bae0843bebf80c8740066f988ad42dbd08f944738b7b80ee66b543aca9990dcb"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/inner-00-entry.npz",
+      "sha256": "45db837cbee790862a1d2e1820e3141f0d2c9dea6505e2f89725b33a4ec7b7b9"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/inner-00-entry.json",
+      "sha256": "f8f6ffd323effd978d2ceb56702481435cba0970e1d8e3804769354b55181ec0"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/inner-00-returned.npz",
+      "sha256": "56594a0235525e52c5e685276ab4da1261fa221bb0fa4c2f6fb69c3a862c807e"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-raw-fullH-m24-v1/inner-00-returned.json",
+      "sha256": "c4725fd0a67c8166a818c1dcf16387193c927d9965291f2980b5c06937e4df44"
+    }
+  ],
+  "completed_tail_requests": [
+    {
+      "request": 1,
+      "converged": true,
+      "residual": 1.9735050591537277e-9,
+      "jacobian_requested": false,
+      "audit_requested": true,
+      "complete_checkpoint_nodes": 2305,
+      "state_width": 48,
+      "response_sha256": "4e906c67c7e6770bbe2b794b9987ebb145f5a1af8fd9561ee4b406f4ab0fd23d",
+      "observed_utc": "2026-11-18T05:43:40Z"
+    },
+    {
+      "request": 2,
+      "converged": true,
+      "residual": 1.9735050591537277e-9,
+      "jacobian_requested": true,
+      "audit_requested": false,
+      "finite_boundary_J_entries": 1776,
+      "response_sha256": "bae0843bebf80c8740066f988ad42dbd08f944738b7b80ee66b543aca9990dcb"
+    }
+  ],
+  "first_final_batch12_and_second_batch13_input_sha256": "8bbe6a8d8d08568fff6208c93f5e92e39697bdc91dc8ddd0b4e347802a61da12",
+  "same_state_replayed_by_original_request_path_not_a_cached_return": true,
+  "inner0": {
+    "observed_utc": "2026-11-18T05:50:53.107452Z",
+    "success": true,
+    "nodes": 2282,
+    "state_components": 73,
+    "parameters": 24,
+    "parameter_scales": 23,
+    "niter": 1,
+    "full_Newton_steps": 4,
+    "domain_rejections": 0,
+    "merit_rejections": 0,
+    "maximum_RMS": 9.976202498318695e-9,
+    "complete_original_cubic_saved": true,
+    "p0": -0.0009372861174093025,
+    "q_from_original_parameter_formula": 0.012488289412475258,
+    "previous_M20_q": 0.012488348123231355,
+    "q_change_approximate": -5.87107561e-8,
+    "physical_parameters_all_fixed": false,
+    "inner_repeated_after_loss": false
+  },
+  "new_H_request3": {
+    "observed_sent_utc": "2026-11-18T05:50:53.114Z",
+    "height_components": 24,
+    "jacobian_requested": true,
+    "audit_requested": false,
+    "reported_height_components_one_based": {
+      "1": -0.00000942265737935751,
+      "2": -3.506626057861591e-8,
+      "24": 3.2604370094429907e-9
+    },
+    "full_payload_sha256": null,
+    "response_sha256": null,
+    "acceptance": null,
+    "complete_new_H_reconstructed_from_partial_values": false
+  },
+  "last_execution_observation": {
+    "observed_utc": "2026-11-18T05:51:21Z",
+    "session_running": true,
+    "call3_iteration_or_response_observed": false,
+    "complete_prefix_metric_observed": false,
+    "physical_seam_observed": false,
+    "complete_final_checkpoint_observed": false
+  },
+  "after_environment_loss": {
+    "execution_status": "unknown",
+    "process_returncode": null,
+    "duplicate_restart": false,
+    "OOM_inferred": false,
+    "mathematical_failure_inferred": false
+  },
+  "unpublished_source_observations": [
+    {
+      "path": "scripts/resume_n4_tail/run_observed_raw_circle.py",
+      "sha256": "d6e1392002c8a5d7e86404ab50417bf453b22ce3d8c33cce79093e1694bd56aa",
+      "bytes": 20726,
+      "AST_checked": true,
+      "prepare_or_model_or_solver_executed": false,
+      "independent_full_source_review": false
+    },
+    {
+      "path": "scripts/resume_n4_tail/record_native_raw_M24_terminal.py",
+      "last_confirmed_sha256": "24ace1fb1df293160810668808abbd83b5744bab882c7c20b467a660c428e8d0",
+      "bytes": 22754,
+      "AST_checked": true,
+      "collector_executed": false,
+      "later_requested_patch_outcome": "Read-file stage failed with exec-server transport closed; no successful modification observed."
+    }
+  ],
+  "evidence_scope": "All values and full hashes were obtained by the n4 owner before environment loss and relayed to root. This record does not assert a fresh read of inaccessible scratch, fill in the missing complete call3 H, or assign a terminal result to session27744."
+}
