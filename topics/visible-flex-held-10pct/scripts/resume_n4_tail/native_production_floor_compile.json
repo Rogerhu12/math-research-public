@@ -1,0 +1,205 @@
+{
+  "scope": "Read the completed production-floor compilation; do not load/run binaries.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_production_compile.py",
+    "sha256": "e4f63eecb3902ed1c4c7b10f61febe8f03d518eff6aaa596bcdd174c4fdc47cc"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_production_compile.py",
+    "--plan",
+    "n4_work/native-production-floor-v1/plan.json",
+    "--build",
+    "n4_work/native-production-floor-v1/build.json",
+    "--resource",
+    "n4_work/native-production-floor-v1/compile-resource.json",
+    "--log",
+    "n4_work/native-production-floor-v1/compile.log",
+    "--out",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_production_floor_compile.json"
+  ],
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/plan.json",
+    "sha256": "6d3aa2a9deaea97a73e2a6d4a227c6f7ae0e775edbbd94c4982c748721d41a4e"
+  },
+  "build": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/build.json",
+    "sha256": "069165b977b12576586a94ffd60a17f24f9c292b30827bf6e874c7b0c9daa2d3"
+  },
+  "resource": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/compile-resource.json",
+    "sha256": "aa15034a21cc248ebcc81c0d510fbab72ccdd69084cfb5e18e392896cf0cdda2"
+  },
+  "log": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/compile.log",
+    "sha256": "349d7bff2bc52f5481cf2f58bbd8a7f12ee9d6f4c1e792718a35379d93db020c"
+  },
+  "files": {
+    "preparer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/prepare_native_production_floor.py",
+      "sha256": "5f9564648055a587e1f626644b72e0910ad1b76cc7ff38aff13e94167eb62d46"
+    },
+    "compiler_driver": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/compile_native_production_floor.py",
+      "sha256": "23949aea32b25ab0af47526982d3b0ea71220d5539e2ef79bb7ccd577212ad9a"
+    },
+    "batch_probe": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_batch_floor_binding.py",
+      "sha256": "994e754644712c470ac238f0d7b04286329aecebbd4265d4775c1e7e1e4948e9"
+    },
+    "old_cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+      "sha256": "916d0a948a15100f9bb68b255c2192460efe249c08a3559ea9fb800fbb59ac3f"
+    },
+    "production_cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+      "sha256": "e5a7d3b0a1021aae54fabcd3c5baae0558cab4246b4a10cfdeb31b6d275a8ddf"
+    },
+    "header": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "harness": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "compiler": {
+      "path": "/usr/bin/x86_64-linux-gnu-g++-14",
+      "sha256": "6b3696e4dcb85e1c949c732a02befa50e3983ecf94ce7e8e58d9d503b954b79d"
+    },
+    "original_build": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+      "sha256": "6a3bccea3aafe115cb28071ca23986e14e27c9074c67f8f91b094bfb87db0bf8"
+    },
+    "original_library": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+      "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+    },
+    "original_batch": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/frozen_flow_batch",
+      "sha256": "41ad2ad52199365c11e1065ea1ad988544c2325ad81ffaad84e45485db50f6ed"
+    },
+    "capsule_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+      "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+    },
+    "capsule_coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+    },
+    "capsule_reference": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-reference.json.gz",
+      "sha256": "996bdc40164d265f9146f7af4449732d4d34981eeabb7c4ffe8ea44b697b2c73"
+    },
+    "production_CP": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "LD_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-summary.json",
+      "sha256": "94f774a4ebac0c1dcad8f6de8e3796f4e6ab23475694e09acefb9fb7e4c86908"
+    },
+    "LD_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-raw.json.gz",
+      "sha256": "9853dc0ae370b775f2bf1441510884632a9afe2b1428b88f2f223d6947ca0b43"
+    },
+    "LD_resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/resource.json",
+      "sha256": "7c8b285074fad00270bc77cc1fb8c04cef7a4ddcf56da341bb340edf99f4ca0a"
+    },
+    "floor_discovery": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_production_floor_binding.json",
+      "sha256": "516c3df9462713b8a4abfc70361176b2f1605f7f2566cb3b399098badff667f1"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    }
+  },
+  "single_source_replacement": {
+    "before": "c.floor!=.1||",
+    "after": "!(c.floor==.1||c.floor==.05)||",
+    "occurrences": 1,
+    "same_source_outside_this_expression": true
+  },
+  "compile_results": {
+    "library": {
+      "command": [
+        "/usr/bin/x86_64-linux-gnu-g++-14",
+        "-std=c++17",
+        "-O2",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fexcess-precision=standard",
+        "-frounding-math",
+        "-fPIC",
+        "-shared",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+        "-o",
+        "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/libfrozen_flow_production.so",
+        "-lm"
+      ],
+      "returncode": 0,
+      "seconds": 3.624431739001011,
+      "stdout": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/library-compiler.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/library-compiler.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "binary": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/libfrozen_flow_production.so",
+        "sha256": "d6ee1b5a19bad636f012a02f02d7e99379249431df96bb970113a85dbff79bef"
+      },
+      "stdout_bytes": 0,
+      "stderr_bytes": 0
+    },
+    "batch": {
+      "command": [
+        "/usr/bin/x86_64-linux-gnu-g++-14",
+        "-std=c++17",
+        "-O2",
+        "-fno-fast-math",
+        "-ffp-contract=off",
+        "-fexcess-precision=standard",
+        "-frounding-math",
+        "-DVF_BUILD_MAIN",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow_production.cpp",
+        "-o",
+        "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+        "-lm"
+      ],
+      "returncode": 0,
+      "seconds": 3.4337696400034474,
+      "stdout": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/batch-compiler.stdout",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stderr": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/batch-compiler.stderr",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "binary": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+        "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+      },
+      "stdout_bytes": 0,
+      "stderr_bytes": 0
+    }
+  },
+  "execution": {
+    "observer_session": 83860,
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T02:58:24Z",
+    "observer_seconds": 8.009845760003373
+  },
+  "production_floor": 0.05,
+  "retained_capsule_floor": 0.1,
+  "original_source_and_binaries_unchanged": true,
+  "compiled_executable_invoked": false,
+  "shared_library_loaded": false,
+  "new_flow_root_or_Jacobian": false,
+  "new_whole_tail_or_DN_acceptance": false,
+  "pending": "The separately frozen two-floor/three-stage batch identity execution has not run. Production Node hook and original DN/audit are separate later steps."
+}
