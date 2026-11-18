@@ -1,0 +1,99 @@
+{
+  "scope": "Original H_old warmup line-search failure and a separately observed external-candidate JavaScript heap failure; no candidate output or prefix solve.",
+  "session": 33116,
+  "terminal_chunk": "777aef",
+  "observer_child_returncode": 0,
+  "observer_seconds": 204.25246555399644,
+  "observed_terminal_utc": "2026-11-18T00:03:26Z",
+  "coupler_solver_success": false,
+  "original_coupler_catches_and_records_exceptions": true,
+  "native_failure": "Error: multiple-shooting line search failed at 3.671459625080514e-9",
+  "last_original_iteration": {
+    "iteration": 3,
+    "norm": 3.671459625080514e-09,
+    "minA": 0.529333104523161,
+    "minD": 0.9991344478556847,
+    "chartCondition": null
+  },
+  "native_request": {
+    "height": [
+      -0.00016693361960369238,
+      4.106907281304964e-06,
+      4.816547820011559e-07,
+      -1.1346597603547129e-11,
+      -1.0764718320972387e-09,
+      -1.4868667217615056e-10,
+      8.319283177794921e-12,
+      -2.3897645945865314e-11
+    ],
+    "jacobian": false,
+    "audit": true
+  },
+  "native_calls": 1,
+  "complete_failed_state": {
+    "nodes": 1153,
+    "dimension": 16
+  },
+  "native_record": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed_tail_0001.json.gz",
+    "sha256": "adf477252c1dc707ce4fe8975aa9c911aca2f9d4c5113ba300d11b82023c4535"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed-summary.json",
+    "sha256": "09d5871c7bcf4f9bb19f595bcd2c5f09a1511241d2589ea9b816d0e80b0d2151"
+  },
+  "observation": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/observation.json",
+    "sha256": "99edc46df7899ebd58765f6e0366b4650e0fe377123e18a0de3b164292ff2705"
+  },
+  "trace": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/worker-trace.jsonl",
+    "sha256": "8ab1c41a4372a8d786a81de0f89b0a2c94d6ee6a31c70d1bf68ac85ebe705966"
+  },
+  "log": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/solver.log",
+    "sha256": "122871d25843e2cc93c48b87a527faa76ec8831018dfbf553cf5b529edb9259c"
+  },
+  "recovery_events": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed_tail-recovery-events.jsonl",
+    "sha256": "2f2493507d0ba4751713c658c93c75c0b3594f02f0e055ec975bfba3b9edc6c5"
+  },
+  "entry_plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/entry-plan.json",
+    "sha256": "2dc4440e8f7e906890cce0a14fe8c0e84536b78100e1b25af894a9158ac52063"
+  },
+  "external_candidate": {
+    "command": [
+      "node",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-io-v2-source/scripts/propose_tail_internal_candidate_v3.mjs",
+      "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed_tail_0001.json.gz",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed_tail-candidate-for-0001.json.gz",
+      "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed_tail-candidate-for-0001-summary.json"
+    ],
+    "returncode": -6,
+    "seconds": 10.184370994567871,
+    "diagnostic": "FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory",
+    "last_gc_megabytes_before": 383.3,
+    "last_gc_megabytes_after": 383.1,
+    "candidate_output_produced": false,
+    "original_worker_retry_executed": false
+  },
+  "original_worker_heap_mib": 3072,
+  "external_helper_had_explicit_heap_argument": false,
+  "prefix_inner_started": false,
+  "raw_inner_produced": false,
+  "resource_only_followup": {
+    "adapter": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/recovering_tail_client_v3.py",
+      "sha256": "fcaf7537552453451677f033a9d0fd5f8907188400e35bb0bec0ae88f2dcae39"
+    },
+    "preparer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/prepare_recovering_tail_source_v3.py",
+      "sha256": "62cb8db35003318c1464de775db0280efd521e2f7982bd1222e618868a34122e"
+    },
+    "exact_change": "Add --max-old-space-size=self._node_heap to the external candidate node command; no candidate algorithm, physical data, solver equation or acceptance threshold changes.",
+    "production_executed": false
+  },
+  "data_policy": "Complete failed state and logs remain in scratch; only original source, parameters, hashes and compact terminal scalars are retained."
+}
