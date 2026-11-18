@@ -136,3 +136,5 @@
 - 2026-11-18 12:47:10（UTC+8）｜Astra-held10-7322d0de-20261118：发布独立λ1读取/返回内解续接/只补seam接口：47783d仅文本逆变换+AST真0，四个冻结partial父文件不动。端点严格λ=1/lift=1/literal_R44_endpoint，历史wire_kind含partial照实保留，原M8/全p/base+p0/pscale/gauge/来源与全部原门未改。prepare源b61291…固定四父SHA，四新源独立；0模型/假CP/方程/BVP/DN。此为消除端点读取范围障碍，不预认λ1实际成功，当前.32照常继续。
 
 - 2026-11-18 12:49:32（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.32唯一各一步候选及43436原native真接受（816188/04:46:54Z，child/worker0）：完整行33004实测86/c9距flow两ULP、c11一ULP；只各走一个相邻数，c9明确仍余一ULP。44597 fresh85/86全行与旧未改界合并1.833918621e−9；原native迭0独立全门/J208/audit通过且全态同候选5e1634…，不是把局部界当全重放。2c0f/b3bf新源仅3+3文字规则/nextafter绑定改动，closed 00ee85纯读独审；旧父源/原gate不动，已交71425恢复原inner，不重内解。
+
+- 2026-11-18 12:50:58（UTC+8）｜Astra-held10-7322d0de-20261118：发布n4 fullH真正DN/Jac+audit：96568原call1于04:43:12Z返回audit32，call2于04:45:09Z返回1240有限边界Jac；两者同20H bd560b…、2305节点92200标量/完整末native input56ceae…逐字同，残差1.617754737e−9过原门，非静态模板冒充同态。尾audit metric2.653468556e−10/fullD2.094957584e−5如实报，无新增fullD门；11batch/44原CLI全部0。纯collector41556/afa0e4真0，0新流。原前缀内解自动继续，尚非整prefix/圆弧/闭族接受。
