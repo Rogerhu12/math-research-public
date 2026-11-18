@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`1316b67421bc2d22177fa91c5ff16a938e419498`。2026-11-18 10:32:57（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`4d21d76a8212f0611426396ecce5d2f60e531a28`。2026-11-18 10:33:53（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：19c/free-c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及邻数原DN均失败；最新b4356…重放同7.42928942e−9、六超门37–40/43–44，单ULP/scale<门，非机器下界，无接受尾。见n4-primary-width/parts32 notes。原float126输出/116608事件逐位同；MP60/90层差≤1.04663e−57且同舍入，三固定target仍超门。L−target及最强RHS抵消相减精确，三新quad读数另揭moments形成舍入；只为有限算法定位。
 
-**n4算术当前** 补偿批已收束，见frozen/shifted-root notes。唯一native原formed-moment/RK内核916d0a…/build6a3b…的double基线真实exit0（02:19:21Z/6.018s）：三段126输出及116608事件/操作数/判断全字节同原V8参考；64根/段、更新128/128/64、fallback0，原固定target仍超门。见n4-native-double-exact-baseline。仅付移植身份，未执行LD/40Jac/batch/DN。独立E/w²/state trig保持，B_exact字面隐式Jac另验pivot，非停止算法导数。后续同库LD（64有效位）state-only/fullJac六调用与独立保存MP90轨迹变分源正在双审；42态/42×40 tangent须保全、真实库身份与无trace计时另付。全2304/原norm/DN仍未付；旧kernel_seconds含回调，token只绑payload、source外验。
+**n4算术当前** 补偿批收束，见frozen/shifted-root notes。原formed-moment/RK native916d0a…/build6a3b…的double基线真实exit0（02:19:21Z/6.018s）：三段126输出/116608事件全字节同原，根64/段、更新128/128/64、fallback0；原target仍超门。见n4-native-double-exact-baseline，仅移植身份、未LD/batch/DN。独立E/w²/state trig保留，B_exact字面隐式Jac另验pivot，非停止算法导数。MP90独立变分源a939698…/pland4f438…已root+n4审：39研究源+87MP源、3×64保存state/L身份全核；只显式偏导/独立pivotedLU/保存四场变分RK，不重算原非线性。元数据exit0，尚未新导数执行；见n4-saved-mp90-variational-reference-plan。LD同库state-only/fullJac六调用源双审，待入口发布；须核42态/42×40 tangent、真实库/无trace计时。全2304/原norm/DN未付。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 
@@ -42,7 +42,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **R44**弧上rho常数且低两矩零的偶C4/C3空间=X0直和span{SA,SB}；弧迹1/cos(d)对应半径A/圆心+Bν0。M16保B2..B14、T=SA−SB/U=SB替末两列，(t,u)=(A,A+B)，保维但改变span。真积分/组合guard/core链式导数已独审；T有限rho峰10.624832非连续界。旧q完整两jet512点rho−.1896532失败；唯一半步guard lower.542921839/实际H同，但RMS3.803793723，未BVP/尾；见m3-circle-trace-space-full-twojet-initializer及half-twojet note。
 
-**旧raw锚主矩匹配** gauge.04/actual base q=.03991248545080898/Q=.03995165069840626已区分，全15c锁定；Q=qP及真Pnew给唯一q=.03469511580330426（Fraction证nearest）。完整两jet中心h/rho实际同、guard lower.668984725/Frenet.002962496，但271点RMS1.441695291，未BVP/metric。完整16H第7项+1ULP，新H971598…仅旧affine锚；表示回投不含meanheight。见m3-circle-primary-matched-amplitude/m3-primary-matched-trace-initializer。不继承R38/R40/R41，已转q060真实接受锚。
+**旧raw锚主矩匹配** gauge.04/actual q=.03991248545080898/Q=.03995165069840626已区分；Q=qP及真Pnew给q=.03469511580330426（Fraction nearest）。完整两jet中心h/rho同、guard lower.668984725但271点RMS1.441695291，未BVP/metric；完整16H第7项+1ULP，只旧affine锚。见m3-circle-primary-matched-amplitude/m3-primary-matched-trace-initializer；不重跑、不继承R38/R40/R41，已转q060真实接受锚。
 
 **严格条件窗** R32/R38：n3/eta0/a=.21/q∈[.0849,.0851]，R38另要求弧上零even C4控制rho范数≤.08。若完整图满足原文全部C²/对称/帽及D≤2.6498/支撑≥.0801/|κ|≤12.5，才有held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H固定、柱长按实际全图矩选；新T/U控制及新q不继承。R40以实际R=1+8q+t作单调推论：同原flat、R≥1.312/δ≥.06/0<Rv<1仍有χ/R>.21088277799。q060初猜精确R=26312274100032071/18014398509481984已绑定；终态须重核，不证弧消失/λ1存在。见r44-trace-radius-ramp-corollary。
 

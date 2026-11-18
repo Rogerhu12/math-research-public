@@ -1,0 +1,60 @@
+{
+  "scope": "Source and metadata preparation only; no new derivative, linear solve, variational RK, nonlinear flow/root, native library, tail or BVP execution.",
+  "created_utc": "2026-11-18T02:27:42.094714+00:00",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/frozen_mp90_variational_reference.py",
+    "sha256": "a939698dbdd6b2712c42befef492d9b5637856bf3614b004f0a64d28017be22c"
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/plan.json",
+    "sha256": "d4f43809f46fd06a79ac8afce95431fa13a4009268fe3a59e035db01d0af82b4"
+  },
+  "command": [
+    "python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/frozen_mp90_variational_reference.py",
+    "--prepare",
+    "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1"
+  ],
+  "observed_preparation": {
+    "tool_chunk_id": "2088d3",
+    "exit_code": 0,
+    "wall_time_seconds": 1.229528895
+  },
+  "source_count": 39,
+  "mpmath_python_source_count": 87,
+  "research_source_manifest_sha256": "7f9d65571969a6014ae3155a82ea807aab9ceeaf90e4233d84a5eb8715b5d09b",
+  "mpmath_source_manifest_sha256": "b1ed9e1493f7cd68656366449ed5b63002360b312a2a54b54bea6e0d8383852e",
+  "trajectories": [
+    {
+      "stage": 43,
+      "original_roots": 64,
+      "original_RK_steps": 16,
+      "root_state_and_L_identity_sha256": "d7e04d596c3bc6e416b42ab8ad4a6923e7996655c4df7ddc380b4a8ef74760bd",
+      "original_fallbacks": 0,
+      "original_max_root_iterations": 2
+    },
+    {
+      "stage": 38,
+      "original_roots": 64,
+      "original_RK_steps": 16,
+      "root_state_and_L_identity_sha256": "354b9e09a5d8912331cb12831205b5a1de06e5ccb0102bec00258c89cb5c339d",
+      "original_fallbacks": 0,
+      "original_max_root_iterations": 2
+    },
+    {
+      "stage": 175,
+      "original_roots": 64,
+      "original_RK_steps": 16,
+      "root_state_and_L_identity_sha256": "cbaee03292112323932f23291861defebd2bcbc4dddf53ba30789cdc3d7b4f1e",
+      "original_fallbacks": 0,
+      "original_max_root_iterations": 1
+    }
+  ],
+  "original_trajectory_precision_dps": 90,
+  "planned_derivative_precision_dps": 90,
+  "explicit_partials_and_pivoted_LU": true,
+  "same_x_b_c_states_kept_separate": true,
+  "no_recomputed_nonlinear_state_or_point_root": true,
+  "new_numerical_evaluation": false,
+  "production_changed": false
+}
