@@ -1,0 +1,224 @@
+{
+  "scope": "Read a completed fixed-stencil probe; never construct a core or call a solver.\n\nFull 24-row tables and finite arrays remain in scratch. This collector checks\ntheir identities and scalar arithmetic, retaining only envelopes, the two new\ntrace trends, the existing delta-FD comparison, and original execution status.\n",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/collect_q060_trace_parameter_jacobian.py",
+    "sha256": "ddfd0e426d1ed0d759064c9369047a29af83ef62d0e9faa6eaeddcfb15dfff96"
+  },
+  "execution_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/launch-plan.json",
+    "sha256": "e294ae4ab301897895fcc9d37ed6121f260c8ce4c9035040adc9906878f75d1f"
+  },
+  "original_probe_source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_q060_trace_parameter_jacobian.py",
+    "sha256": "19b60ec0e9427b391cbb27220903881909e152e54989e24badc8ae01292e6f3f"
+  },
+  "published_entry_record": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_trace_parameter_jacobian_entry.json",
+    "sha256": "e971dfaac3df4ffc8477146d43bbb504985c2912fe8fe9e201bff4cb30fb4753"
+  },
+  "original_outputs": {
+    "diagnostic.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/diagnostic.json",
+      "sha256": "e6db3def04940e35e31f612d9355453b7f5531e3ae74996df54bad0b0588aac2"
+    },
+    "diagnostic-arrays.npz": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/diagnostic-arrays.npz",
+      "sha256": "323985a44a0d97e4bd5a61d0b703be08c75f818b0a44331dec89c1bfbb2e6aad"
+    },
+    "diagnostic-events.jsonl": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/diagnostic-events.jsonl",
+      "sha256": "c3e5456c776630b56b69e77480c2cb29bdde40735300494b20a11e9f64ab99dc"
+    },
+    "resource.json": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/resource.json",
+      "sha256": "ee6eede57278a13634f5f075cc3a44f8096ffa3f20d5aefc365a83cf25864420"
+    },
+    "stdout.log": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/stdout.log",
+      "sha256": "c3e5456c776630b56b69e77480c2cb29bdde40735300494b20a11e9f64ab99dc"
+    }
+  },
+  "source_identity_scope": "All 75 source/input hashes and 10 named refs from the frozen plan were rechecked; see that plan and the published entry record, without a duplicate map here.",
+  "tool_observation": {
+    "session_id": 87257,
+    "launch_chunk": "6c7062",
+    "completion_chunk": "5914e0",
+    "observed_observer_exit_code": 0,
+    "scope": "These are actual session-tool observations; child status is independently stored in resource.json."
+  },
+  "resource_terminal": {
+    "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_q060_trace_parameter_jacobian.py",
+      "--run-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/launch-plan.json"
+    ],
+    "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T02:45:40Z",
+    "seconds": 18.01652913200087,
+    "samples": 9,
+    "maximum_sampled_tree_rss_kib": 96156,
+    "tree_at_sampled_peak": {
+      "6": {
+        "name": "python",
+        "rss_kib": 96156,
+        "hwm_kib": 100108
+      }
+    },
+    "child_rusage_maxrss_kib": 100472,
+    "child_user_seconds": 15.60326,
+    "child_system_seconds": 0.864648
+  },
+  "diagnostic_started_utc": "2026-11-18T02:45:22Z",
+  "original_probe_completed": true,
+  "completed_scope": "All 24 fixed stencils executed; no new derivative acceptance threshold is implied.",
+  "counters": {
+    "BVP_attempts": 0,
+    "tail_attempts": 0,
+    "original_fun_evaluations": 50,
+    "original_fun_jac_evaluations": 1,
+    "original_initial_evaluations": 50
+  },
+  "counters_scope": "Explicit top-level diagnostic calls; original fun_jac internally calls fun for its unchanged delta column, and original fun invokes initial. These internal calls are not added to the top-level counters.",
+  "baseline": {
+    "original_domains_passed": true,
+    "selected_nodes": [
+      0.0,
+      0.015625,
+      0.0625,
+      0.109375,
+      0.22265625,
+      0.32421875,
+      0.44921875,
+      0.69921875,
+      0.94921875,
+      1.0
+    ],
+    "parameter_scales": [
+      0.0027149993357387845,
+      0.0001414668200877752,
+      7.37122139306204e-06,
+      3.8408232256738776e-07,
+      2.0012861185746954e-08,
+      1.0427832506394673e-09,
+      1e-09
+    ],
+    "physical_controls": [
+      0.00046456731984427426,
+      -3.7643049404470625e-05,
+      6.440454234806906e-07,
+      -1.728968363766654e-07,
+      -9.226970580802433e-08,
+      0.04377938275497506,
+      -0.00017359279702988673
+    ],
+    "fixed_q": 0.05210565550627671,
+    "numerical_core_guard": {
+      "rho_lower_conservative": 0.49475279238494585,
+      "rho_min_sample": 0.496879221074452,
+      "positivity_grid_per_sector": 512,
+      "scope": "Stored original numerical guard attributes; not an interval certificate or a new angular scan."
+    },
+    "baseline_fun_binary64_sha256": "7e8ca4aac211d0cd0a12e46e591216d4eb2d698f6293d6b1d0509995d0a78cef",
+    "baseline_initial_binary64_sha256": "8af946804ca9796d1bd1acc1039f4308c71ccb4e249e4d18c7f8d4d0def30bfc",
+    "parameter_jac_binary64_sha256": "41e2e43a72ec5313276ab594c886fcf1f9b338d98c0802dbb098c0d6f8d4dc72",
+    "parameter_jac_shape": [
+      25,
+      8,
+      10
+    ],
+    "state_jac_shape": [
+      25,
+      25,
+      10
+    ],
+    "state_jac_scope": "The original fun_jac returns it as well; finite checked only, not independently tested here."
+  },
+  "restored_baseline": {
+    "initial_binary64_equal": true,
+    "fun_binary64_equal": true,
+    "initial_maximum_difference": 0.0,
+    "fun_maximum_difference": 0.0
+  },
+  "three_layer_envelopes": [
+    {
+      "physical_step_exponent": -20,
+      "physical_step": 9.5367431640625e-07,
+      "core_control_fun_maximum_absolute": 2.3993395860344435e-05,
+      "core_control_fun_maximum_mixed": 2.4863955303161207e-07,
+      "largest_mixed_control": "c_B6",
+      "retained_B2_B6_fun_maximum_mixed": 2.4863955303161207e-07,
+      "core_control_inlet_maximum_absolute": 2.832025955967765e-07,
+      "existing_delta_FD_difference_absolute": 0.0002106198981266516,
+      "existing_delta_FD_difference_mixed": 2.5158110654817503e-06,
+      "existing_delta_inlet_difference_absolute": 0.0
+    },
+    {
+      "physical_step_exponent": -21,
+      "physical_step": 4.76837158203125e-07,
+      "core_control_fun_maximum_absolute": 6.008822072800513e-06,
+      "core_control_fun_maximum_mixed": 6.22684193235395e-08,
+      "largest_mixed_control": "c_B6",
+      "retained_B2_B6_fun_maximum_mixed": 6.22684193235395e-08,
+      "core_control_inlet_maximum_absolute": 7.088969766755326e-08,
+      "existing_delta_FD_difference_absolute": 7.7363528390606e-05,
+      "existing_delta_FD_difference_mixed": 9.240913252781106e-07,
+      "existing_delta_inlet_difference_absolute": 0.0
+    },
+    {
+      "physical_step_exponent": -22,
+      "physical_step": 2.384185791015625e-07,
+      "core_control_fun_maximum_absolute": 1.4747654297764257e-06,
+      "core_control_fun_maximum_mixed": 3.5921869592879974e-08,
+      "largest_mixed_control": "t_T",
+      "retained_B2_B6_fun_maximum_mixed": 1.5282747778613938e-08,
+      "core_control_inlet_maximum_absolute": 3.138453045972017e-08,
+      "existing_delta_FD_difference_absolute": 1.0736012910683712e-05,
+      "existing_delta_FD_difference_mixed": 1.2823945087852662e-07,
+      "existing_delta_inlet_difference_absolute": 0.0
+    }
+  ],
+  "new_trace_columns": {
+    "T": {
+      "parameter": 6,
+      "fun_absolute_differences": [
+        4.681413123819311e-08,
+        5.0397755151435075e-08,
+        2.0622191327680783e-07
+      ],
+      "finest_mixed_difference": 3.5921869592879974e-08,
+      "finest_inlet_absolute_difference": 8.191526658374304e-09
+    },
+    "U": {
+      "parameter": 7,
+      "fun_absolute_differences": [
+        1.927616138175381e-05,
+        4.815515765699274e-06,
+        1.1912739665831396e-06
+      ],
+      "finest_mixed_difference": 6.4708422951290716e-09,
+      "finest_inlet_absolute_difference": 2.7333578955790472e-08
+    }
+  },
+  "largest_nominal_vs_actual_encoded_difference": 8.354028580015438e-11,
+  "full_stencil_table": {
+    "output": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-parameter-jac-v1/diagnostic.json",
+      "sha256": "e6db3def04940e35e31f612d9355453b7f5531e3ae74996df54bad0b0588aac2"
+    },
+    "field": "rows",
+    "rows": 24,
+    "canonical_payload_sha256": "74621cfb2a8839e1e010e39d9e6818cd65fd3d1242f65ef0a59ab1a6f184bb1f",
+    "scope": "Full reproducible table stays in scratch."
+  },
+  "interpretation": "Finite differences support the implemented seven physical core columns and inlet scale chain at this one safe initial state. T is nonmonotone at the smallest scales; its numerical-error source was not separately isolated. The delta column is the existing finite difference, not an independent analytic derivative. No BVP Jacobian condition, failed-final-state derivative, continuous certificate, or solver success follows.",
+  "no_new_BVP": true,
+  "no_new_tail": true,
+  "no_final_state_reevaluation": true,
+  "no_mean_height_reconstruction": true,
+  "no_complete_metric": true,
+  "collector_evaluated_original_equations": false
+}
