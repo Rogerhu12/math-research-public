@@ -1,0 +1,123 @@
+{
+  "scope": "Source/AST-only preparation of explicit M8 lambda=1 complete, pending-inner and saved-audit seam interfaces; no endpoint candidate has been constructed or accepted.",
+  "preparer": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/prepare_m3_trace_endpoint_interfaces.py",
+    "sha256": "b61291c269c5582236e017a7bb67b3256035dd4ebd88c40a2154db47d669513d"
+  },
+  "full_transform_record": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-endpoint-interfaces-v1.json",
+    "sha256": "2eb2fc0d7f4ad1586edb9fa6e3927d932af8cd6c3cb401a226f1734e37448a6c"
+  },
+  "actual_command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "prepare_m3_trace_endpoint_interfaces.py",
+    "--record",
+    "/workspace/scratch/7322d0dee069/closed_work/m3-trace-endpoint-interfaces-v1.json"
+  ],
+  "actual_preparation_utc": "2026-11-18T04:41:35.616592+00:00",
+  "preparation_exec_chunk": "47783d",
+  "preparation_exit_code": 0,
+  "interfaces": [
+    {
+      "parent": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_prefix.py",
+        "sha256": "5a918498f3f91fb173c60ada1983f8cb89e64083e36c6ab55f3913ec7c55bd3a"
+      },
+      "derived": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_endpoint.py",
+        "sha256": "e5ef9f62349e318fef3f844d603f6dc39a047107c3fff6ec4f3449a4367cd407"
+      },
+      "literal_transform_count": 6,
+      "exact_reverse_transform": true
+    },
+    {
+      "parent": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_pending_inner.py",
+        "sha256": "203fb3c82d7377794b089b6acf79017b1c984036be0ea2451f995405cedba3f0"
+      },
+      "derived": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_endpoint_inner.py",
+        "sha256": "4e6d4ced67b3a2c61768e3006293d0e6d11bde8f68b3cb95f8dd230dad8a0b48"
+      },
+      "literal_transform_count": 4,
+      "exact_reverse_transform": true
+    },
+    {
+      "parent": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/resume_m3_trace_path_pending_v2.py",
+        "sha256": "aa146dd6a68cbc22ee89ab684a6ef30d5a67dac44bff8b97613dd3aa845f29ae"
+      },
+      "derived": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/resume_m3_trace_path_endpoint_pending.py",
+        "sha256": "6babf4591b0ef0356c2f090b5708555b32a7505e484005fa65568fd9b5e50c13"
+      },
+      "literal_transform_count": 4,
+      "exact_reverse_transform": true
+    },
+    {
+      "parent": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/finish_m3_trace_path_saved_audit.py",
+        "sha256": "fff945cb062369b2f821bee39c76b2c4cb74ffcef9e1dd237dfe9315340b115c"
+      },
+      "derived": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/finish_m3_trace_path_endpoint_seam.py",
+        "sha256": "57fc88c34780de3b5e892b3e4302225c65316633926c9a7baf2c193a278b2210"
+      },
+      "literal_transform_count": 4,
+      "exact_reverse_transform": true
+    }
+  ],
+  "endpoint_dispatch": {
+    "lambda_value": 1.0,
+    "lift_strength": 1.0,
+    "branch": "literal_R44_endpoint",
+    "historical_wire_kind": "exact_m3_finite_circle_trace_path_partial_lift",
+    "physical_controls": 7,
+    "state_components": 25,
+    "gauge_amplitude": 0.06,
+    "lift_window": [
+      0.5,
+      0.9
+    ],
+    "base_plus_p0_once": true
+  },
+  "numerical_definition_sources": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_circle_trace_path_model.py",
+      "sha256": "b5a26902c8af378d0f965269e4463814045ce98fa84f93935db9f31e1c5c950e"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_homotopy_core.py",
+      "sha256": "acb3e2dffa0f7dc5e811b055da8e582bb19d931b97201ada38acc1f9aa5511ad"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/synchronous_core_lift.py",
+      "sha256": "97e65d2cb8bee00f9fb918de5e44a7b486bf318c11ae2765dbc0c1dd6cfdf6c8"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_core.py",
+      "sha256": "4f9351cb356ce33da28d2d4a36a09d14606f3627846b5bf35d7f73478939cb18"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_basis.py",
+      "sha256": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py",
+      "sha256": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5"
+    },
+    {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py",
+      "sha256": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431"
+    }
+  ],
+  "old_partial_files_unchanged": true,
+  "model_imports": 0,
+  "core_constructions": 0,
+  "synthetic_checkpoint_bindings": 0,
+  "equation_evaluations": 0,
+  "BVP_calls": 0,
+  "DN_calls": 0,
+  "numerical_source_or_gate_changes": false,
+  "endpoint_acceptance_claim": false
+}

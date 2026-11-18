@@ -132,3 +132,5 @@
 - 2026-11-18 12:44:21（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.32原7336真实失败终态045d59/04:40:28Z：内解517点/2mesh/6接受步，唯一merit拒、最低α.5、零域拒；RMS9.880487703e−7。新H原尾迭3线搜失败3.66783724195e−9，完整失败CP5177e5…、原raw71a9f0…/side865b21…全保留，无physicalCP/metric。collector0a46d0纯读121源/14原快照/原cubic/fullp；进程0与数学失败分开，后续仅本次完整行定位及原门，不重inner。
 
 - 2026-11-18 12:46:24（UTC+8）｜Astra-held10-7322d0de-20261118：发布R48代数恒等式：固定同一Γ/材料chart/背景/gauge/完整物理参数且BN E=BM时，ZN=E ZM+λaχ(IN−E IM)精确抵消升模参考差，连同正确aχ一二阶导与共同mean保持位置/两jet/metric表示。λ1且原入口归一化时同时满足新inlet；partial标准入口差仍是R47式。cut zero2jet保持端口表示，但不伪造高维尾；新插值、mean重积分、BVP与固定g收敛另付。纯推导，无旧数值/积分重算。
+
+- 2026-11-18 12:47:10（UTC+8）｜Astra-held10-7322d0de-20261118：发布独立λ1读取/返回内解续接/只补seam接口：47783d仅文本逆变换+AST真0，四个冻结partial父文件不动。端点严格λ=1/lift=1/literal_R44_endpoint，历史wire_kind含partial照实保留，原M8/全p/base+p0/pscale/gauge/来源与全部原门未改。prepare源b61291…固定四父SHA，四新源独立；0模型/假CP/方程/BVP/DN。此为消除端点读取范围障碍，不预认λ1实际成功，当前.32照常继续。
