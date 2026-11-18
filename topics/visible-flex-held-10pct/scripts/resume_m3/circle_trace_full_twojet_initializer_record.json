@@ -1,0 +1,308 @@
+{
+  "status": "New finite-space initializer diagnostic only; no BVP or actual tail solve",
+  "observed_execution": {
+    "session": 36253,
+    "observed_returncode": 0,
+    "seconds": 2.5128999020016636,
+    "command": [
+      "python",
+      "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_circle_trace_replacement_initializer.py",
+      "--reference-run",
+      "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard",
+      "--nodes",
+      "257",
+      "--projection-angular",
+      "4096",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/circle-trace-replacement-initializer-v1.json"
+    ]
+  },
+  "scope": "One explicit new-space two-jet initializer, with original domain/RMS only.\n\nThe old accepted finite prefix supplies its complete integral reference and\nphysical quintic field.  The new endpoint retains raw B2..B14 and replaces\nB15/B16 by T=SA-SB,U=SB.  At the reflection centre choose (t,u) to match the\nold actual rho and h; this keeps the circle midpoint and radius there.\nThe old complete represented map is then projected against the new reference\nand repaired at the inlet with the previously reviewed shared C2 window.\nNo BVP or actual tail solve is performed; the actual saved tail is only the\nexplicit affine anchor for this finite initial-guess residual evaluation.\n",
+  "probe": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/circle-trace-replacement-initializer-v1.json",
+    "sha256": "409d398f7e78f67fbce4ccc6e2402c66de70be72aaa201701c4f50e8e08f2df3"
+  },
+  "collector_sha256": "200a3539fef31ff08e453d4942e0488e8c35617c12705bb2a032867492462339",
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-coupled.py": "711de62631e019a212c405ddedbef06cc552ada50ab248201c4cc6d65878525a",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_circle_trace_replacement_initializer.py": "240019c426ee50983c1cd7b38d75147abeddb7a019774ba82b045bd73e356dce",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_basis.py": "43a1ae54a55f2c7fd6ca224250124d4f6cd6b917591209d1fea91a81057cef6f",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_replacement_core.py": "4f9351cb356ce33da28d2d4a36a09d14606f3627846b5bf35d7f73478939cb18",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/circle_trace_controls.py": "8c83f201b19fc60d19aae63b173128cc9bd32b56aee64032009fd342bee63a02",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/raw_second_order_core.py": "79b7ddec4c3721e575816c30f94fb441bb76acb215d3453abe3cdce501850e24",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_endpoint_c2_restart.py": "d817744f6bf6edf57197736d60b83ad6212c60c4cdb3e5b69ba1dce8bced1691"
+  },
+  "reference_run_launch": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/continuation-command.json",
+    "sha256": "f0d6747cebedcd65e71e8df9743a77700af3c9f8493ff5723e30c25a30397f50"
+  },
+  "reference_run_inputs": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz": "6f5a973c746e1112f827e5478432b9abe9d14931df90157f2a19381cc670b91e",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_tail_0004.json.gz": "220fab12b9d25daa0f23c91f00945321b9c447813b3120281aa00d2793dd1910",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json": "aa6d0ec765df62782f129b685eb6b3f081ffc77aa88471a449d03fa1d9128a47",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "actual_seed_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+    "sha256": "6f5a973c746e1112f827e5478432b9abe9d14931df90157f2a19381cc670b91e"
+  },
+  "coefficient_chunks": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_coeff_00.npy.gz": "6637680be24885749acace4d688299ade99249c0760558bf5dc7c42186202f22"
+  },
+  "actual_affine_tail_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_tail_0002.json.gz",
+    "sha256": "0401a64dbf05925e8287807bc6f01d273f32479177a893dddb594349b478fcb7",
+    "residual": 1.3784657706205187e-09
+  },
+  "original_gauge_seed_record": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/circle-trace-replacement-initializer-v1-original-gauge-seed.json",
+    "sha256": "94e57c6c2b229391c8ca4ed777294bc8adb89c43a36eead728313b9684de4457",
+    "source_transform": {
+      "kind": "same-original-material-restart-shared-C2-inlet-window-v1",
+      "original_restart_source_sha256": "68ec34309ea36bf55d09046150a3cfe0dfa47a333dc03470200bccb86c7a96d1",
+      "changed_restart_source_sha256": "f7372834d7eda16ae146689b1a3c805c81e73f3b657126cdc87d3ebdcf1301a6",
+      "original_final_repair": "correction=self.initial(p)-y[:,0];cutoff=(f.Tu if f.direction=='outward'else f.Td)/2;y+=correction[:,None]*np.maximum(0,1-s/cutoff)[None,:]**3",
+      "changed_final_repair": "correction=self.initial(p)-y[:,0]\n    u=np.clip((s-.5*f.prefix_end)/(.4*f.prefix_end),0.,1.)\n    weight=f.profile(s)[0]*(1-u**3*(10-15*u+6*u*u))\n    y+=correction[:,None]*weight[None,:]",
+      "scope": "Only the final additive initial-guess repair window changes. The entire preceding original restart source is identical. The window is a(s)*chi(s), with chi=1 through .5*prefix_end and zero from .9*prefix_end. Its first two inlet derivatives vanish; this does not itself prove second-jet matching."
+    }
+  },
+  "original_gauge_seed_full_H_binary64_verified": true,
+  "original_gauge_seed_H_binary64_sha256": "69b841ac1ad0131947ac5ec7ceeda32ccfa3f78d81557b400cf9b287244a0870",
+  "new_candidate_full_H_formed": false,
+  "new_candidate_full_H_binary64_verified": null,
+  "new_core_settings": {
+    "halfwidth": 0.21,
+    "transition": 0.32,
+    "control_transition": 0.4,
+    "homotopy": 1.0,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768
+  },
+  "modes": 16,
+  "angular": 512,
+  "initial_nodes_argument": 257,
+  "projection_angular": 4096,
+  "initialization_mapping": {
+    "old_q_gauge": 0.04,
+    "new_q_gauge": 0.03991248545080898,
+    "actual_q": 0.03991248545080898,
+    "old_full_controls": [
+      0.00021128347873463125,
+      -1.2553265913246548e-05,
+      -5.425035604512735e-07,
+      1.2888307776136872e-06,
+      -1.1001462301684885e-06,
+      4.928129951345896e-07,
+      7.109194478290164e-08,
+      -3.5790961236303385e-07,
+      3.332852447533977e-07,
+      -1.2592463445322105e-07,
+      -7.47385941361535e-08,
+      1.9272973014561733e-07,
+      -6.930411007611311e-08,
+      4.674685607353034e-07,
+      2.63613212332551e-06
+    ],
+    "retained_raw_indices": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "removed_raw_indices": [
+      15,
+      16
+    ],
+    "removed_raw_coefficients": [
+      4.674685607353034e-07,
+      2.63613212332551e-06
+    ],
+    "trace_coordinates": {
+      "t": -0.012555490084877441,
+      "u": 0.005706022601249305,
+      "A": -0.012555490084877441,
+      "B": 0.018261512686126746
+    },
+    "old_h": 0.9602647565933892,
+    "old_rho": 1.3067443935215943,
+    "base_new_h": 0.9545587339921399,
+    "base_new_rho": 1.3192998836064718,
+    "delta_h": 0.005706022601249305,
+    "delta_hpp": -0.018261512686126746,
+    "rule": "Keep the first 13 raw physical coefficients; t=old rho-new base rho, u=old h-new base h. No parameter scan.",
+    "scale_chain": "Physical retained controls and (t,u) equal p[1:]*pscale. The last columns are d/dt=T and d/du=U; (A,B)=(t,u-t)."
+  },
+  "intended_physical_controls": [
+    0.00021128347873463125,
+    -1.2553265913246548e-05,
+    -5.425035604512735e-07,
+    1.2888307776136872e-06,
+    -1.1001462301684885e-06,
+    4.928129951345896e-07,
+    7.109194478290164e-08,
+    -3.5790961236303385e-07,
+    3.332852447533977e-07,
+    -1.2592463445322105e-07,
+    -7.47385941361535e-08,
+    1.9272973014561733e-07,
+    -6.930411007611311e-08,
+    -0.012555490084877441,
+    0.005706022601249305
+  ],
+  "numerical_coordinate_scales": [
+    0.0015930064948610383,
+    6.35808485491854e-05,
+    2.5376696926694513e-06,
+    1.0128470468762837e-07,
+    4.042524302234451e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "interface_checks": {
+    "zero_trace_same_core_max_difference": {
+      "F": 0.0,
+      "Ft": 0.0,
+      "Ftt": 0.0,
+      "kappa": 0.0
+    },
+    "basis": {
+      "base_mode": 3,
+      "modes": 16,
+      "halfwidth": 0.21,
+      "transition": 0.4,
+      "center": 1.0471975511965976,
+      "controls": 15,
+      "retained_raw_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "replacement_indices": [
+        15,
+        16
+      ],
+      "replacement_columns": [
+        "T=SA-SB",
+        "U=SB"
+      ],
+      "physical_trace_coordinates": "(t,u) map to (A,B)=(t,u-t); d/dt=T, d/du=U",
+      "finite_span": "span(B2,...,B(M-2),T,U)=span(B2,...,B(M-2),SA,SB); a new space, not the old raw span",
+      "low_constraints": "Defining mean and cos(3 phi) support moments both zero",
+      "control_path": "circle-trace-replace-last-two-v1",
+      "homotopy": "lambda=1 only",
+      "trace_projection_float": [
+        [
+          0.06914279501368892,
+          2.635180260094965
+        ],
+        [
+          -0.1033553856574736,
+          -4.145652911855836
+        ]
+      ],
+      "exact_rational_determinant_lower": 0.06945813827525886,
+      "projection_float_value_error_upper": 3.6914095483276207e-16,
+      "trace_support_derivative_upper_bounds": [
+        [
+          0.3585481806711628,
+          3.12597781539852,
+          34.256268358834674,
+          641.9102550626504,
+          14022.284618719797
+        ],
+        [
+          7.780833171950802,
+          61.30731907081171,
+          659.4755057688899,
+          12755.654756418531,
+          271999.6648614419
+        ]
+      ],
+      "primitive_definition": "Odd primitive about pi/3; zero again at the opposite reflection axis by the exact mean constraint",
+      "numerical_transition_quadrature_order": 32,
+      "positivity_budget": "Raw retained columns plus a combined trace seed and combined low projection; no sampled maxima",
+      "scope": "Exact defining-integral finite space with rational coefficient enclosures. Floating evaluation and the inherited source positivity guard are not a complete geometry certificate."
+    },
+    "zero_trace_numerical_rho_lower": 0.6410958189002962,
+    "retained_raw_jets_binary64_identical": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "primitive_split_quadrature_points": [
+      0.105,
+      0.318,
+      0.502,
+      0.7717630939427411,
+      1.0471975511965976
+    ],
+    "primitive_split_quadrature_max_errors": [
+      2.7755575615628914e-17,
+      1.1102230246251565e-16,
+      9.43689570931383e-16,
+      8.881784197001252e-16,
+      3.3306690738754696e-16
+    ]
+  },
+  "actual_initial_core": null,
+  "finite_initializer": {
+    "original_initial_domain_passed": false,
+    "error": "Core rho sampled positivity failed: (-0.1896531537567292, -0.19363430783099517, 512)",
+    "failed_stage": "Original core/geometry/domain/RMS initializer evaluation; no Newton or actual-tail call"
+  },
+  "derived_core_source_sha256": "85d81fd2d19477a67160f36c64131692357307e3a990a005ae94f51b96440264",
+  "combined_guard_scope": "Combine the physical trace seed and low projection before analytic absolute bounds; no sampled derivative maxima",
+  "unchanged_rho_floor": 1e-05,
+  "unchanged_grid_ceiling": 32768,
+  "BVP_solver_invoked": false,
+  "actual_tail_solver_invoked": false,
+  "limits": "The endpoint space and initializer are new. Finite reference/jets/domain/RMS checks neither establish a BVP solution nor inherit R38/R41 geometry. No original acceptance gate, running source, physical profile, or actual tail has been changed."
+}

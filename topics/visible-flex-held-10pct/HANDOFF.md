@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`372da8a375195cad907c2862c487d8f9494ad291`。2026-11-18 09:16:26（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`85e19a9d101457ba6e94e0a5cd2d1082a6440ac2`。2026-11-18 09:26:59（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -24,9 +24,9 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮metric.421880失败；参考回投/实际Jac右坐标无收益。C²窗36328仍触6000门/RMS6.33004/metric.346343328，原尾接受不补前缀；其失败quintic方向21α全core拒。全域ρ″二阶guard保原门/定义，28组jets逐位同、20缩步仅guard过。14903单改guard仍触6000门/RMS3.70555；quintic d95ed7…先存，后prefix/seam审计Frenet异常，具体子调用无traceback不可定，未保存metric/接缝，无新H尾。全部见m3-circle-endpoint-c2-seed-complete-failure/endpoint-domain-rejection-is-grid-bound/raw-core-second-order-guard/m3-endpoint-second-order-guard-terminal。尚无λ1接受前缀。
+**旧λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮、参考回投、C²窗及二阶guard终态均失败。36328：4196点/RMS6.33004/metric.346343328；14903：3469点/RMS3.70555，quintic d95ed7…先存，后审计Frenet异常，具体子调用无traceback不可定，未保存metric/接缝或新H尾。guard保原门/定义，28组jets同、20缩步仅guard过。见m3-circle-endpoint-c2-seed-complete-failure/endpoint-domain-rejection-is-grid-bound/raw-core-second-order-guard/m3-endpoint-second-order-guard-terminal；无λ1接受前缀。
 
-五半宽初猜中a.01的RMS最低，basis随a变须锁定。19739从原有限accepted λ.02仅改a.01也已真终态：exit0、3129点触6000门/RMS.3830013，69域拒/39merit/9步/1nostep，不能归因单一guard。完整49状态物理quintic0335bc…及审计全保存：metric.0236506068、Darboux692.7769、physical BC9.17816e−7；4尾均原门接受，末1.6406173e−9/800Jac/audit。call3/4的H有9分量末位差max1.32349e−23，分别绑定。见m3-circle-halfwidth-initializer-probe/m3-small-halfwidth-circle-terminal。无accepted λ1锚/短a无10%继承，失败c不续接；下一R44新span初始化。
+五半宽a随basis变，a.01初RMS最低；其19739真终态仍失败：3129点触6000门/RMS.3830013，69域拒/39merit/9步/1nostep。完整49状态0335bc…，metric.0236506068/Darboux692.7769/BC9.17816e−7；4尾原门接受，末1.6406173e−9/800Jac/audit，末两H九分量末位差分别绑定。见m3-circle-halfwidth-initializer-probe/m3-small-halfwidth-circle-terminal。失败c不续接，短a无10%继承。
 
 原raw增幅初猜新增线性物理控制c_new=(qnew/qold_actual)c_old；只改原ratio幂，保共用C²窗/材料回拉/门。q.045、271点有限探针H及窗外场不变、控制式差1.32349e−23，无BVP/尾；见m3-raw-linear-amplitude-initializer。取得合格圆端点后才用于实际增幅。
 
@@ -36,7 +36,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **R42/R43** W²正交后两列消矩，Gram=I+CᵀC，与原λ1 finite raw span相同；R43以a=.21/bc=.4真矩及精确2×2 Sylvester给所有M谱[1,13.92415)。有限M16 Gram条件2.061/旧5.788e11不是C²/实际Jac界，生产核未改。
 
-**R44**全偶C4/C3、低两矩为零且弧上f+f″常数的空间=X0直和span{SA,SB}，X0是全部C4弧上零核。真积分两列的弧迹1/cos(d)对应半径A及实际圆心+Bν0；有限raw加列增维2，替最高两列保M−1维却改变span。独立probe低矩≤5.60e−16/原low G逐位同；单列有限rho峰353/344，未付正性/held/BVP。见R44-circle-trace-controls-complete-two-missing-directions。四组合先合并jets再取有限峰：SA−SB的rho峰10.624832、SA+SB为697.39411；前者保弧中点且半径/圆心反向变，非连续界/正性门，见m3-circle-trace-combinations。下一新span完整参考/C²初始化。
+**R44**全偶C4/C3、低两矩为零且弧上f+f″常数的空间=X0直和span{SA,SB}，X0是全部C4弧上零核。真积分两列的弧迹1/cos(d)对应半径A及实际圆心+Bν0；有限raw加列增维2，替最高两列保M−1维却改变span。独立probe低矩≤5.60e−16/原low G逐位同；单列有限rho峰353/344，未付正性/held/BVP。见R44-circle-trace-controls-complete-two-missing-directions。四组合先合并jets再取有限峰：SA−SB的rho峰10.624832、SA+SB为697.39411；前者保弧中点且半径/圆心反向变，非连续界/正性门，见m3-circle-trace-combinations。新M16空间保B2..B14、以T=SA−SB/U=SB替最后两列，物理(t,u)=(A,A+B)，真积分/组合rho guard及core链式导数已独审。旧λ.02真实参考完整两jet给t=−.01255549/u=.005706023，但原guard在512点见rho=−.1896532（lower−.1936343），未形成新图/H/Frenet/RMS；见m3-circle-trace-space-full-twojet-initializer。不是仅界过松，下一核唯一半步及实际主矩匹配。
 
 **严格条件窗** R32(bp.08)/R38(bp.32)：n3/eta0/a=.21/q∈[.0849,.0851]。R38在even C4弧上零控制且||b+b″||≤.08时给rho>.1642566、平面m3>.0948878、柱D<2.3181；若完整未标记图D≤2.6498/支撑≥.0801/|κ|≤12.5及原文全部C²/对称/帽等假设成立，则held/D>.105514、reach/D>.03018及全O(3)非全等。相位/H角固定如原文，柱长按实际全图矩选，全部图假设未付，不能继承给改变后的控制。R40对q∈[.039,.041]/δ≥.060原flat ramp严格给χ/R>.21088277799>.21；宽度无关但不证λ1存在。
 
