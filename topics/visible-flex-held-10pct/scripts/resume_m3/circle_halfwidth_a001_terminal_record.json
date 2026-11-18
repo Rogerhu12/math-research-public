@@ -1,0 +1,434 @@
+{
+  "status": "Complete failed a=.01 lambda-one prefix; all four finite tail calls passed their original stopping gate",
+  "scope": "Only existing source/output/physical-polynomial identities are read. No BVP, tail solve, or full audit is rerun.",
+  "observed_execution": {
+    "session": 19739,
+    "observer": {
+      "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+      "command": [
+        "python",
+        "topics/visible-flex-held-10pct/scripts/resume_m3/continue_m3_raw_circle_halfwidth_c2_guard.py",
+        "--source-topic",
+        "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source",
+        "--short-bridge",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+        "--sparse-helper",
+        "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+        "--chart",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+        "--linear-port",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json",
+        "--prefix-restart",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+        "--tail-restart",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_tail_0004.json.gz",
+        "--outdir",
+        "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard",
+        "--round-halfwidth",
+        ".01",
+        "--round-transition",
+        ".32",
+        "--control-transition",
+        ".4",
+        "--nodes",
+        "1143",
+        "--max-nodes",
+        "6000"
+      ],
+      "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+      "status": "observed_terminal",
+      "child_returncode": 0,
+      "observed_utc": "2026-11-18T00:42:39Z",
+      "seconds": 1696.1787343329997,
+      "samples": 847,
+      "maximum_sampled_tree_rss_kib": 12260,
+      "tree_at_sampled_peak": {
+        "5": {
+          "name": "python",
+          "rss_kib": 12260,
+          "hwm_kib": 14336
+        }
+      },
+      "child_rusage_maxrss_kib": 1670028,
+      "child_user_seconds": 1700.904598,
+      "child_system_seconds": 23.143579
+    },
+    "launcher_returncode": 0,
+    "worker_exit": {
+      "events": [
+        {
+          "reason": "close",
+          "returncode": 0,
+          "calls": 4,
+          "unix_time": 1794962558.7108247,
+          "stderr_path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_tail_worker_stderr.log",
+          "stderr_bytes": 0
+        }
+      ]
+    },
+    "prefix_coupler_seconds": 1691.840274810791,
+    "wrapper_seconds": 1694.5412629990024,
+    "interpretation": "Exit 0 reports normal program completion, not mathematical acceptance."
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_halfwidth_c2_guard.py",
+    "--source-topic",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source",
+    "--short-bridge",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--homotopy",
+    "1",
+    "--round-halfwidth",
+    "0.01",
+    "--round-transition",
+    "0.32",
+    "--control-transition",
+    "0.4",
+    "--profile",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/profile.json",
+    "--chart",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+    "--linear-port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json",
+    "--tail-config",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/config.json",
+    "--out-prefix",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed",
+    "--restart",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+    "--amplitude",
+    "0.03991248545080898",
+    "--warp-reference",
+    "0.04",
+    "--modes",
+    "16",
+    "--angular",
+    "512",
+    "--audit-angular",
+    "1024",
+    "--nodes",
+    "1143",
+    "--max-nodes",
+    "6000",
+    "--tol",
+    "1e-06",
+    "--bc-tol",
+    "1e-07",
+    "--physical-bc-tol",
+    "2e-09",
+    "--node-heap",
+    "3072",
+    "--warmup-scales",
+    "1",
+    "--lagged-tail"
+  ],
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_halfwidth_c2_guard.py": "cccda78b68acc6d917d83a33b0583c4e3f219b48d26e2ed5539e0a882850000f",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-coupled.py": "711de62631e019a212c405ddedbef06cc552ada50ab248201c4cc6d65878525a",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_endpoint_c2_restart.py": "d817744f6bf6edf57197736d60b83ad6212c60c4cdb3e5b69ba1dce8bced1691",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_endpoint.py": "0fb635b6474538fce7c61a877a04d63f001252daa690fc722822bf0c55061238",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_endpoint_c2_seed.py": "22dd76e07687e1dfe94dba2d4a8512f3ee42b9a17e94667047905075a8e32bb3",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/raw_second_order_core.py": "79b7ddec4c3721e575816c30f94fb441bb76acb215d3453abe3cdce501850e24",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f"
+  },
+  "input_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz": "6f5a973c746e1112f827e5478432b9abe9d14931df90157f2a19381cc670b91e",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_tail_0004.json.gz": "220fab12b9d25daa0f23c91f00945321b9c447813b3120281aa00d2793dd1910",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json": "aa6d0ec765df62782f129b685eb6b3f081ffc77aa88471a449d03fa1d9128a47",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "input_coefficient_chunks": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_coeff_00.npy.gz": "6637680be24885749acace4d688299ade99249c0760558bf5dc7c42186202f22"
+  },
+  "collector_sha256": "20cfb4be7cda74f8f64372ca5735f6510ddb3dcc30df4a97d8932ce826ccfd69",
+  "terminal_files": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/continuation-command.json": "2f9d134c2783f4767212d32661ea257b9ed6174dd71aa32082702af49baca3f8",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed-summary.json": "bfb5a0243e72d18e79f6541926c532cdf2ea1faba829ee64f2ba0ad101855010",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed-round-record.json": "5e2adc8b7d5e0874172ecc20067a9e5c14b53554a8f7282a5d42a1525641ae9c",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed-c2-restart-record.json": "cce1cb3682a92f3981ad2b318543c2c3725d09527623178f68d91ad5dabcdab7",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/resource.json": "751cb8c143bb7ed15c2fb2e5787ecca09d9ef6a99b5a8b97033ffe8ffbbd6e16",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/process.log": "444b3755d6abdd2c6c9e3ccac904bff52f6105907d982704bfac74042448745d",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_tail_worker_exit.json": "9725455726101fcc4cf9e14c39c93f5c7982e63f5f99a5d53a017966eb9dd78c",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_tail_worker_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/worker-trace.jsonl": "c631e0c4f45625a389966edfa2d20c1efb38172d2b56dbf80e519a93691babeb"
+  },
+  "failed_physical_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed.json.gz",
+    "sha256": "0335bc65c1afbdfc0dde956fb26fa856394332e7091310b854933887da26717c",
+    "chunks": [
+      {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_coeff_00.npy.gz",
+        "sha256": "c5f5745c1518c59247a23690d0ec989b7b29ab31c7b9ff659ec56bd05389110d",
+        "shape": [
+          6,
+          3128,
+          29
+        ],
+        "state_first": 0,
+        "state_last_exclusive": 29
+      },
+      {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_coeff_01.npy.gz",
+        "sha256": "e91ce24232cf956208b1d1c7aa23a25c91582e62d24baaec1579b69535191d45",
+        "shape": [
+          6,
+          3128,
+          20
+        ],
+        "state_first": 29,
+        "state_last_exclusive": 49
+      }
+    ],
+    "role": "Complete saved physical quintic plus final numerical audits of a failed inner iterate; not an accepted prefix or an original raw-cubic dump."
+  },
+  "original_inner": {
+    "solver_success": false,
+    "message": "The maximum number of mesh nodes is exceeded.",
+    "nodes": 3129,
+    "max_rms_collocation_residual": 0.3830013242682846,
+    "newton_domain_audit": {
+      "calls": 2,
+      "rejected_domain_trials": 69,
+      "rejected_merit_trials": 39,
+      "accepted_steps": 9,
+      "no_step": 1,
+      "minimum_alpha": 9.5367431640625e-07
+    },
+    "actual_outer_checks": [
+      {
+        "outer": 0,
+        "inner_success": false,
+        "message": "The maximum number of mesh nodes is exceeded."
+      }
+    ]
+  },
+  "q_gauge": 0.03991248545080898,
+  "actual_q": 0.03991248545080898,
+  "profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06085676603520699,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "core_settings": {
+    "halfwidth": 0.01,
+    "transition": 0.32,
+    "control_transition": 0.4,
+    "homotopy": 1.0,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768
+  },
+  "parameters": [
+    -0.0001946480674098586,
+    1.5280276508077946,
+    -35.121285328456246,
+    802.6174901486794,
+    -17810.49540523702,
+    377772.45930210256,
+    -1279182.4992613266,
+    984064.6700301368,
+    -701875.2574336524,
+    483020.0689909022,
+    -323607.9830813182,
+    191809.57525779738,
+    -95996.14881312982,
+    5515.189783309234,
+    35182.06600327899,
+    88798.80456719942
+  ],
+  "central_correction_scales": [
+    0.0015930064948610383,
+    6.35808485491854e-05,
+    2.5376696926694513e-06,
+    1.0128470468762837e-07,
+    4.042524302234451e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "physical_controls": [
+    0.0024341579720640713,
+    -0.0022330411233213035,
+    0.0020367780795567257,
+    -0.0018039307674597934,
+    0.0015271543474436248,
+    -0.0012791824992613267,
+    0.0009840646700301368,
+    -0.0007018752574336524,
+    0.00048302006899090226,
+    -0.00032360798308131824,
+    0.00019180957525779738,
+    -9.599614881312984e-05,
+    5.515189783309235e-06,
+    3.518206600327899e-05,
+    8.879880456719943e-05
+  ],
+  "saved_complete_finite_prefix_audit": {
+    "metric_l1": 0.02365060682715134,
+    "flow_defect": 0.16165252292080387,
+    "darboux_l1": 692.7768979576163,
+    "root_min": 0.0023874201547310347,
+    "chart_rho_min": 0.6799999999999999,
+    "physical_bc_max": 9.178156919089987e-07,
+    "samples_s": 6406,
+    "samples_psi": 1024,
+    "scope": "Sampled physical prefix metric and Cartesian Darboux tensor after exact chain rule. Finite FFT l1 is not a continuous-angle proof. The actual nonlinear tail and mean/nonmean seam are recorded separately in tail_seam; full Cartesian closure and infinite-limit certification remain separate."
+  },
+  "final_core_scalars": {
+    "rho_lower_conservative": 0.42855111058414996,
+    "rho_triangle_lower": -7.910807255475968,
+    "rho_min_sample": 0.44838347054099414,
+    "rho_max_sample": 1.5165721858689605,
+    "positivity_grid_per_sector": 512,
+    "rho_derivative_bound": 264.14868460763887,
+    "rho_second_derivative_bound": 9481.718940639734,
+    "plateau_radius_at_one": 1.3192998836064718,
+    "plateau_material_length": 0.026385997672129458
+  },
+  "tail_calls": [
+    {
+      "call": 1,
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_tail_0001.json.gz",
+      "sha256": "0c97778db7cae7876c1601bc8df8b78aa340284244e5ad01e133b795af97d55a",
+      "original_gate": 2e-09,
+      "residual": 1.3784657706205187e-09,
+      "requested_jacobian": false,
+      "requested_audit": true,
+      "finite_jacobian_entries": 0,
+      "full_finite_audit_returned": true,
+      "height_binary64_sha256": "69b841ac1ad0131947ac5ec7ceeda32ccfa3f78d81557b400cf9b287244a0870",
+      "first_height": -0.00011115438219543392,
+      "last_iteration": {
+        "iteration": 1,
+        "norm": 1.3784657706205187e-09,
+        "minA": 0.7427151521096758,
+        "minD": 0.9994289564949012
+      }
+    },
+    {
+      "call": 2,
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_tail_0002.json.gz",
+      "sha256": "a8ea49a509dc8a05f03454a2fcb1f2c3c0c2019f488ac4f6a35ec9a53d1dc75a",
+      "original_gate": 2e-09,
+      "residual": 1.3784657706205187e-09,
+      "requested_jacobian": true,
+      "requested_audit": false,
+      "finite_jacobian_entries": 800,
+      "full_finite_audit_returned": false,
+      "height_binary64_sha256": "69b841ac1ad0131947ac5ec7ceeda32ccfa3f78d81557b400cf9b287244a0870",
+      "first_height": -0.00011115438219543392,
+      "last_iteration": {
+        "iteration": 0,
+        "norm": 1.3784657706205187e-09,
+        "minA": 0.7427151521096758,
+        "minD": 0.9994289564949012
+      }
+    },
+    {
+      "call": 3,
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_tail_0003.json.gz",
+      "sha256": "34722a4133b51ec4f6cd0c1d601afadb528632c9e03b512464922558fc148189",
+      "original_gate": 2e-09,
+      "residual": 1.1906778568368796e-09,
+      "requested_jacobian": false,
+      "requested_audit": false,
+      "finite_jacobian_entries": 0,
+      "full_finite_audit_returned": false,
+      "height_binary64_sha256": "89ff9e8ebdfbf3ea482939caab51433e2a9be903b13031b1f609807bbe9d15c5",
+      "first_height": -0.00011205041993023007,
+      "last_iteration": {
+        "iteration": 6,
+        "norm": 1.1906778568368796e-09,
+        "minA": 0.7401165444106715,
+        "minD": 0.9993892232793832
+      }
+    },
+    {
+      "call": 4,
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-a001-b032-w040-m16-c2guard/seed_tail_0004.json.gz",
+      "sha256": "14101d16ba78fa3db570aa01af4aaae263b37f8352a9ad9c1ec8e9fba26d8f6b",
+      "original_gate": 2e-09,
+      "residual": 1.6406173126730715e-09,
+      "requested_jacobian": true,
+      "requested_audit": true,
+      "finite_jacobian_entries": 800,
+      "full_finite_audit_returned": true,
+      "height_binary64_sha256": "7ee2161839269b0928c50eba35d09d2d411811f1a4e80ac3305ba4e88231250e",
+      "first_height": -0.00011205041993023007,
+      "last_iteration": {
+        "iteration": 0,
+        "norm": 1.6406173126730715e-09,
+        "minA": 0.7401165444106715,
+        "minD": 0.9993892232793832
+      }
+    }
+  ],
+  "new_candidate_height_queried": true,
+  "final_audit_height_identity": {
+    "calls": [
+      3,
+      4
+    ],
+    "binary64_identical": false,
+    "changed_component_indices": [
+      3,
+      5,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "maximum_absolute_difference": 1.3234889800848443e-23,
+    "scope": "The terminal and seam audit use their own actual saved H requests. They are compared literally; nearby floating values are not declared identical."
+  },
+  "saved_complete_finite_seam": {
+    "tail_converged": true,
+    "tail_shooting_residual": 1.6406173126730715e-09,
+    "mean_first_mismatch": -0.0003194090490491741,
+    "mean_second_mismatch": 0.007484585416743128,
+    "nonmean_first_mismatch": 9.178156919079924e-07,
+    "nonmean_second_mismatch": 0.00018019788467541625,
+    "cut_metric_fft_l1": 0.0017519831731487882,
+    "cut_metric_c1_fft_l1": 0.05062256445445718,
+    "angular_samples": 1024,
+    "scope": "Actual finite nonlinear DN and full mean/nonmean height two-jet. Cut chart is identity through order two. Sampled C1 metric defect is explicit; full Cartesian alignment and infinite closure remain separate."
+  },
+  "limits": "The positive numerical core guard and accepted actual tails did not make the prefix acceptable. The complete finite metric is far above 1e-6, the inner solver failed, and the a=.01 arc has no inherited a=.21 holding witness. This failed state is not an accepted continuation anchor; the unclassified domain rejection counter cannot be assigned to one cause without trial evidence."
+}
