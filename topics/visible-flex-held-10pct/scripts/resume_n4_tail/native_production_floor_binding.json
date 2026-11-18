@@ -1,0 +1,151 @@
+{
+  "scope": "Read-only discovery of the original DN .05 versus frozen capsule .1 floor.\n\nRead exact source literals, the existing failed CP and saved three-stage trace.\nDo not import engines, reconstruct geometry, solve a root or call a flow.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_production_floor_binding.py",
+    "sha256": "58cdd02020148a193bfe1cc25202e703d500f501731658d9578b7aa786f53382"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_production_floor_binding.py",
+    "--workspace",
+    "/workspace/scratch/7322d0dee069",
+    "--out",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_production_floor_binding.json"
+  ],
+  "original_CP": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+    "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+  },
+  "capsule_summary": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+    "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+  },
+  "capsule_reference": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-reference.json.gz",
+    "sha256": "996bdc40164d265f9146f7af4449732d4d34981eeabb7c4ffe8ea44b697b2c73"
+  },
+  "original_DN_output": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-rk-sum-compare-v1/stages-original.json.gz",
+    "sha256": "a3eff9faeed0c872e59a160d910265c72fc78312651c83e5996cc6abd0e7e0c8"
+  },
+  "source_locations": {
+    "DN_factory_default": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs",
+        "sha256": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be"
+      },
+      "needle": "projectionFloor=.05",
+      "line_number": 53,
+      "literal": "const {modes=2,spacing=6,depth:physicalDepth=8,steps=64,quadrature=128,linearFar=48,linearSteps=512,projectionFloor=.05,linearMethod='matrix',fastJacobian=false}=options;"
+    },
+    "DN_engine_explicit_argument": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs",
+        "sha256": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be"
+      },
+      "needle": "mu:c.mu,orientation,projectionFloor",
+      "line_number": 67,
+      "literal": "const e=engineFactory({modes:M,spacing,quadrature,mu:c.mu,orientation,projectionFloor});"
+    },
+    "split_engine_explicit_argument": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs",
+        "sha256": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a"
+      },
+      "needle": "projectionFloor:p.projectionFloor",
+      "line_number": 17,
+      "literal": "mu:cell.mu,orientation:p.orientation,projectionFloor:p.projectionFloor});"
+    },
+    "direct_engine_default": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs",
+        "sha256": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a"
+      },
+      "needle": "floor=options.projectionFloor??.1",
+      "line_number": 14,
+      "literal": "const mu=options.mu??1,orientation=options.orientation??1,floor=options.projectionFloor??.1;"
+    },
+    "capsule_imports_original_config": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+        "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+      },
+      "needle": "cfg=frozen.config",
+      "line_number": 34,
+      "literal": "const frozen=load(fixturePath),old=load(oldOutputPath),cfg=frozen.config;"
+    },
+    "capsule_direct_engine_constructor": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+        "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+      },
+      "needle": "createSplitFluxMomentumTailEngine({...cfg,mu:fixture.mu",
+      "line_number": 89,
+      "literal": "const events=[],engine=createSplitFluxMomentumTailEngine({...cfg,mu:fixture.mu,frozenProbeTrace:e=>events.push(e)});"
+    },
+    "capsule_reported_floor": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+        "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+      },
+      "needle": "floor:cfg.projectionFloor??.1",
+      "line_number": 145,
+      "literal": "root_rules:{floor:cfg.projectionFloor??.1,iterations:30,tolerance:8e-14,scale_floor:1e-300,"
+    },
+    "native_validation_hard_lock": {
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+        "sha256": "916d0a948a15100f9bb68b255c2192460efe249c08a3559ea9fb800fbb59ac3f"
+      },
+      "needle": "c.floor!=.1",
+      "line_number": 398,
+      "literal": "if(c.root_iterations!=30||c.n_halves!=20||!c.cosine||!c.sine||!c.halves||c.floor!=.1||"
+    }
+  },
+  "config_projectionFloor_key_present": false,
+  "production_checkpoint_projectionFloor": 0.05,
+  "production_DN_default_projectionFloor": 0.05,
+  "direct_engine_default_projectionFloor": 0.1,
+  "capsule_root_rule_floor": 0.1,
+  "native_current_allowed_floor": 0.1,
+  "current_failed_CP_minA": 0.980752332821046,
+  "named_saved_trace_results": [
+    {
+      "stage": 43,
+      "saved_domain_events": 40960,
+      "every_saved_D_S_A_comparison_passed_capsule_point1": true,
+      "minimum_saved_D": 0.9999456193705576,
+      "minimum_saved_S": 0.9999999964996954,
+      "minimum_saved_A": 0.9993244375668461,
+      "original_DN_and_capsule_output42_bitwise_identical": true,
+      "output42_sha256": "16c51ec0c3fea016923f23d7ab866d85d9b9011be3f8b8ed8ef35d0dd1799343"
+    },
+    {
+      "stage": 38,
+      "saved_domain_events": 40960,
+      "every_saved_D_S_A_comparison_passed_capsule_point1": true,
+      "minimum_saved_D": 0.9999479262232308,
+      "minimum_saved_S": 0.9999999961105357,
+      "minimum_saved_A": 0.9989818433449014,
+      "original_DN_and_capsule_output42_bitwise_identical": true,
+      "output42_sha256": "adb4f35c8dfcf45052ee3878ea3cf97868942a13a023249263fff5493b5acef4"
+    },
+    {
+      "stage": 175,
+      "saved_domain_events": 24576,
+      "every_saved_D_S_A_comparison_passed_capsule_point1": true,
+      "minimum_saved_D": 0.9999996390216458,
+      "minimum_saved_S": 0.9999999999999756,
+      "minimum_saved_A": 0.999975782689067,
+      "original_DN_and_capsule_output42_bitwise_identical": true,
+      "output42_sha256": "ac9b59fd3a38ed4bbd8b81c9fbf272052bfdbbe049ca9cbc1a346167383c4786"
+    }
+  ],
+  "all_saved_three_stage_domain_comparisons_passed_stronger_floor": true,
+  "interpretation": "The existing three-stage capsule and arithmetic comparisons are explicitly for floor.1. Their complete saved domain comparisons all pass.1 and the original DN42 outputs are already bitwise identical; this does not identify the two domain gates for arbitrary states or the entire tail.",
+  "required_production_binding": "Keep the original DN projectionFloor.05. The executed native validate hard-locks.1, so direct production attachment is not yet valid. An independently owned version must explicitly support/bind.05 while retaining.1 for saved-interface checks; no other formula/threshold may be changed.",
+  "existing_source_or_library_modified": false,
+  "new_compilation": false,
+  "new_flow_root_or_Jacobian": false,
+  "original_tail_tolerance": 2e-09,
+  "new_actual_tail_acceptance": false
+}
