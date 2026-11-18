@@ -1,0 +1,45 @@
+{
+  "scope": "Source/AST preparation only, zero numerical calls; installation belongs to a later independent runner, not the already-running lambda .64.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer.py",
+    "sha256": "be48ab3f1fb41c0181eb0cc51ce8fac4ea9c8448a56d03e491680e1ece76b887"
+  },
+  "original_source": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+    "sha256": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe"
+  },
+  "preparation_record": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/metric-audit-observer-preparation-v1.json",
+    "sha256": "18bba9ef12879ee9c24bd44749d1b428e5c4a4aa95c48b5363e4fec9c8e6f087"
+  },
+  "source_and_AST_only": true,
+  "mathematical_calls": 0,
+  "model_imports": 0,
+  "model_instances": 0,
+  "actual_audit_execution": false,
+  "original_function_sha256": "63b789f77796b4210a6c3d51c163d3e3d31ee4ae95037454fa98c5a81ec3b89a",
+  "derived_function_sha256": "579659f0895f4821158aa9124861bbba53bf343724f7ef427585c04347467ce5",
+  "literal_transform_count": 3,
+  "exact_reverse_transforms": true,
+  "old_metric_fft_calls_per_chunk": 1,
+  "new_metric_fft_calls_per_chunk": 1,
+  "original_metric_arithmetic_order": "fft(errors,axis=1), divide by N, abs, sum axis1, max, float, max with previous scalar",
+  "observed_tool_result": {
+    "chunk": "1674ff",
+    "exit_code": 0
+  },
+  "command": [
+    "python",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/metric_audit_observer.py",
+    "--source",
+    "m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-prefix-adaptive-chart-bvp-v2.py",
+    "--record",
+    "m3_work/metric-audit-observer-preparation-v1.json"
+  ],
+  "notes": [
+    "New diagnostic fields are not an acceptance gate.",
+    "An FFT bin is on the original audit psi grid, not a certified high-mode remainder.",
+    "No old audit may be repeated just to populate the observer.",
+    "A future pending-recovery runner must install separately if that is where its first audit actually runs."
+  ]
+}
