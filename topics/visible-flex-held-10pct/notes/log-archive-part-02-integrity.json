@@ -1,0 +1,19 @@
+{
+  "scope": "Byte-exact split of the topic log at a complete entry boundary to keep every file below 100 KB; no conclusions removed or rewritten.",
+  "original_git_head": "6cc45274b3a8dd6ed35c82a1b5dc5ca35ce84ada",
+  "original_log_sha256": "30b866351830171eaa87bd218341c948d2eb459a5a1b7ceccdc423b55899c820",
+  "original_log_bytes": 94776,
+  "archived_prefix": {
+    "file": "notes/log-archive-part-02.md",
+    "bytes": 60114,
+    "sha256": "12d5f0ebccbff3d856da060141042342adc0a426b3a0dc17909885268e6ab8e2"
+  },
+  "retained_original_suffix": {
+    "bytes": 34662,
+    "sha256": "c64e003d01bb4de47867f4f792572b7e353afda43eac066bfc7ac0defa6e016a",
+    "initial_new_log_offset_bytes": 327
+  },
+  "concatenation_recovers_original_bytes": true,
+  "cut_is_complete_log_entry_boundary": true,
+  "retained_first_entry": "- 2026-11-18 09:32:33（UTC+8）｜Astra-held10-7322d0de-20261118：n4点根表示/线性RHS抵消定位：192个保存root的3840非均值L−tar"
+}

@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`926e4d93438e4ba4ae61bd525326ece388e5c580`。2026-11-18 11:41:28（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`6cc45274b3a8dd6ed35c82a1b5dc5ca35ce84ada`。2026-11-18 11:47:39（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：原19c/free-c8前缀metric8.91018e−7仍linearDN；真实.2H/.5H、parts16/32/邻数原DN均失败，CPb4356…重放7.42929e−9六超门，非机器下界。旧MP60/90/抵消结论见frozen-flow-mp60-mp90、root-representation-and-rhs-cancellation及n4-primary-width/parts32；不重跑旧失败。
 
-**n4算术当前** 原double126输出/116608事件逐位过；LD95607三段state/fullJac同态，独立MP90变分72556全5040项对照已付，175精度差异未归因，非条件数/连续界。见n4-native-mp90-full-variational-comparison。生产floor.05/capsule.1分开，新CPP只扩validate、编译83860及两floor三段20894均真实0。Node4patch仅替原evaluate流提供者，原norm/稀疏校正/线搜/2e−9/cut/audit保持。全2304 fullJac67330真实0（03:22:22Z/410.99s）：96768state/3870720J齐、147564根/112460更新/fallback0；原norm1.52119e−8>2e−9，主峰175，不称固定态改善或DN接受。见n4-native-whole-evaluate-terminal。真实网格36891步/76086点/27段额外cusp；原输入不缩，输出pi/J行÷portRatio，两mean保全。原DN35038/plan7aadf1…同.5H、同CP b4356…运行；首21640952B输入与已完evaluate逐位同，原36iter/Jac/cut/audit32未放宽，未全H/联立/闭合。
+**n4算术当前** 原double126输出/116608事件逐位过；LD95607三段state/fullJac同态，独立MP90变分72556全5040项对照已付，175精度差异未归因，非条件数/连续界。见n4-native-mp90-full-variational-comparison。生产floor.05/capsule.1分开，新CPP只扩validate、编译83860及两floor三段20894均真实0。Node4patch仅替原evaluate流提供者，原norm/稀疏校正/线搜/2e−9/cut/audit保持。全2304 fullJac67330真实0（03:22:22Z/410.99s）：96768state/3870720J齐、147564根/112460更新/fallback0；原norm1.52119e−8>2e−9，主峰175，不称固定态改善或DN接受。见n4-native-whole-evaluate-terminal。真实网格36891步/76086点/27段额外cusp；原输入不缩，输出pi/J行÷portRatio，两mean保全。原DN35038/plan7aadf1…同.5H、同CP b4356…运行；首输入逐位同，原线搜接受1/32后iter1 fullJac中。原36iter/Jac/cut/audit32未放宽，未全H/联立/闭合。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 
@@ -52,7 +52,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060→R44实际联立** 旧λ1/M8/q=.05210565550627671：12897原RMS域异常无完整末态；五点82557返回status1/maxnodes、2431点/RMS1.386061569，失败C² CP先存后mean-height域异常，新tail0/无metric。见两coupled/Lobatto终态，不重跑。参数诊断87257固定24stencil全原域过，七控制最细逐项归一差3.5922e−8、T非单调、δ原FD，不证完整Jac条件，见q060-trace-parameter-jacobian-terminal。
 
-**R45新路径** 已证固定M全λ列独立、Gram定性正下界及同步lift恒等式，非BVP存在/条件数。qseed=原binary64(.06)/Pλ，gauge/warp/7pscale/25态保留；λ0无lift、λ1真Γ，中间入口不同Γ/mean另付。5281身份过。94553 λ.02 inner0接受493点/RMS9.87364e−7；真尾初失败后两具名邻数（86/8正、86/11负）由10285原门接受1.83393145e−9/208Jac+audit，H/边界不变。单坐标失败/并列峰见tied-neighbor note。raw reader7ddb0e…复用完整原x/y/p/cubic/RMS；35664直接原outer0 BC3.42539e−14通过，同H d65514…响应明确复用，无旧inner/尾重跑。完整mean/metric后处理运行中；详见R45/q060-trace-path系列。
+**R45新路径** 固定M全λ列独立、Gram定性正下界及同步lift恒等式已证，非BVP存在。qseed=原binary64(.06)/Pλ，gauge/warp/7pscale/25态保留；λ0旧图、λ1真Γ、中间mean另付。5281身份过；94553 λ.02原inner接受493点/RMS9.87364e−7。仅节点86两邻数后10285原尾接受1.83393145e−9/208Jac+audit（d65514…），H/边界不变，见two-neighbors-original-acceptance。35664保原x/y/p/cubic，复用同H真响应；原BC3.42539e−14通过且无新inner。物理quintic端点四H移1/4/2/1ULP，真实新尾失败3.66786e−9，metric虽算未保存，不称完整接受。84464只改d655节点0至新H、内部不变后原门再验；closed接原物理后处理。详见R45/q060-trace-path系列。
 
 ## 3. 全闭表示与严格连续metric
 
