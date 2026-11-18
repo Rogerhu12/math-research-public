@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`91304ad9ea8b0f9a0b771b973dcb22385ecd6515`。2026-11-18 09:46:01（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`12d359ca254e892a171d661c6b166501b897af63`。2026-11-18 09:56:44（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -50,7 +50,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **q060原余弦锚** q.06/beta4.625已有限真联立接受：CP4755143b…/1934点/RMS9.97758523e−7/BC9.17879e−12；完整有限metric3.79125e−8/Darboux.00162391，3真尾208Jac、末1.8339313e−9及audit，导出新H另验收。全7c/最终δ.06104275721220832/profile/warp.06/chart/port/尾参数锁terminal；mean2 seam6.64415e−11/nonmean2 9.57232e−8未补C²闭合/连续界。见q060-exact-saved-inner-original-acceptance，旧恢复/失败不重跑。
 
-**q060→R44初猜** 原reader保M8/25态/Pold=1，新λ1/a.21/bp.32/bc.4/B2..B6+T/U，唯一q=.05210565550627671，metadata身份19d09a…；原fixedFalse p0不重加最终δ，新p0=0。同源2d9054…单次probe真实exit0：t=.04377938275497506/u=−.00017359279702988673，中心h/rho差0，原guard lower.4947527924/Frenet.0024858771；271点RMS1.416628747/BC9.183586e−12，完整8H逐位同原actual（36f201a1…）。state900cbfda…/par8b5153c3…可核必要重建。只表示回投/C²+旧affine锚，meanheight/全metric未算，未BVP/DN；见q060-m8-circle-trace-design-binding及initializer-terminal。下一同唯一入口真coupled，原门不变、inner原cubic/DN锚立即存；尚无圆弧接受或10%。
+**q060→R44初猜/联立入口** 原M8/25态/Pold=1；新λ1/a.21/bp.32/bc.4/B2..B6+T/U，唯一q=.05210565550627671。单次probe exit0：t=.04377938/u=−.000173593，原guard lower.4947527924/Frenet.0024858771；271点RMS1.416628747/BC9.183586e−12，完整8H逐位同actual（36f201a1…）。唯一真coupled源1204d93…/plan8b9de60…已冻结双审，metadata exit0，尚未执行。必要重建核y/p/H哈希并停在RMS前；首同H复用真实208Jac/audit锚，后续新H原native并audit；原8轮/门/pscale/物理导出与全审计保持，每inner即时存全cubic及DN锚。见q060-circle-trace-coupled-entry/initializer-terminal。新p0=0只改δ、q固定；meanheight另付，非固定g精化/圆弧接受/10%。
 
 ## 3. 全闭表示与严格连续metric
 
