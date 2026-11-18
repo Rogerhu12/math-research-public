@@ -126,3 +126,5 @@
 - 2026-11-18 12:42:31（UTC+8）｜Astra-held10-7322d0de-20261118：发布81455/99d8bc λ.16实际seam-only真0（04:35:45Z）：fff945源只重建原model并读取原quintic，精确查真实1470c2…全H响应，1次原seam；0新inner/native/prefixaudit/mean原函数积分/C2。旧summary payload0a673b…/全物理参数/coefff84431…逐字保留，完整CP770a54…，原metric1.383776310e−4仍未门；本次mean2差−7.795056618e−7/nonmean2 1.497733174e−6。121源/collector93a6d4真0，有限完整锚供λ.32，不冒充圆弧/闭合/固定g收敛。
 
 - 2026-11-18 12:42:48（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.32唯一真实续接7336/398386：同4e8e45源、121来源，从完整CP770a54…/真seam1470c2…保全部物理参数和quintic继续，qseed .05722558496396052。未升M/扫描步长/重初始RMS/复制旧mean。当前517点2mesh原内解已过，真实新H尾继续；此条仅完整入口身份，不预认终态。
+
+- 2026-11-18 12:43:54（UTC+8）｜Astra-held10-7322d0de-20261118：发布96568原raw fullH实际入口：原00b633…coupler/73旧前缀源不变，--scales 1由明确未接受ebae719…初值求全20H bd560b…。新1661d9…并行入口首全Jac四子进程真0，实际payload5ceab5…与旧bd9b11…不同；21640952B共同静态模板含774144B零态占位，不能混作态身份。原warmup jac=false/audit=true与Newton内部全Jac、后续heightJetJac要求分开；入口collector纯现有字节/日志前缀，未重模型/flow。当前原iter4 norm1.617754737e−9已在门内但audit中，尚不预认完整coupled。
