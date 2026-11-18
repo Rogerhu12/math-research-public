@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`2d16c75f3fc1b99850d3b860056e7e00af821592`。2026-11-18 10:34:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`79a2afcd838c988a14faff3a543840ecfd5f71ea`。2026-11-18 10:41:11（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：19c/free-c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及邻数原DN均失败；最新b4356…重放同7.42928942e−9、六超门37–40/43–44，单ULP/scale<门，非机器下界，无接受尾。见n4-primary-width/parts32 notes。原float126输出/116608事件逐位同；MP60/90层差≤1.04663e−57且同舍入，三固定target仍超门。L−target及最强RHS抵消相减精确，三新quad读数另揭moments形成舍入；只为有限算法定位。
 
-**n4算术当前** 补偿批收束，见frozen/shifted-root notes。native916d0a…/build6a3b…的double基线真实exit0：三段126输出/116608事件全字节同原，原target仍超门；见n4-native-double-exact-baseline。独立E/w²/state trig保留，B_exact隐式Jac另验pivot，非停止算法导数。保存MP90变分源a939698…/pland4f438…已root+n4审且发布，39研究+87MP源/3×64保存state/L身份核准，唯一新变分72556运行中；显式偏导/独立pivotedLU/原四场RK，不重算非线性，见n4-saved-mp90-variational-reference-plan。LD driver4d6b143…/planb30bdac…已source-only双审/元数据0：同原库固定六次（3段各state-only/full40Jac），全42 native10-byte/double与根诊断逐位同态门、全42×40 tangent保全；实际maps/符号库/FE/x87与kernel/FFI/decode分计。尚未LD执行；见n4-native-longdouble-pair-plan。无extra trace/重编译/变体；全2304/原norm/DN未付。
+**n4算术当前** 补偿批收束，见frozen/shifted-root notes。native916d0a…/build6a3b…的double126输出/116608事件全字节基线通过。唯一LD六调用95607真实child0（02:35:34Z/4.0068s）：3段各state-only/fullJac，42 native10-byte/double及根聚合逐位相同；5292编码转换独立Fraction核准。对MP90物理norm原生误差2.5583e−12/7.8294e−12/5.5579e−12，边界double后2.0297e−10/1.79225e−10/1.69164e−9；旧target仍4.12738e−9/4.81466e−9/1.52119e−8，非DN接受。全42×40 tangent已存，独立E/w²/state trig及原门保持，B_exact正pivot另验；fullJac无trace三段.202/.178/.162s非全尾benchmark。见n4-native-longdouble-pair-terminal。MP90保存轨迹变分a939698…/pland4f438…/72556运行中，39研究+87MP源/3×64state/L已审；显式偏导/pivotedLU/原四场RK，不重算非线性，非停止算法导数。全40列对照待终态，Node→单batch/原norm/DN/audit未付，先源准备。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 

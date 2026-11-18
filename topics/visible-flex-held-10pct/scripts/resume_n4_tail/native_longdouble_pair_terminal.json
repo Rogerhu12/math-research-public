@@ -1,0 +1,508 @@
+{
+  "scope": "Read the completed six-call native LD probe; never load a library or flow.\n\nIndependently decode all canonical80 outputs with exact rational arithmetic,\ncheck every stored boundary64 conversion and state-only/full-Jac pair, and\nrecompute the saved MP90 state-error scalars. Full arrays stay in scratch.\n",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_longdouble_pair.py",
+    "sha256": "dd8477aef597f3b02c1039f46f6c62bf350487789f4e79f675d04da9c1eef25a"
+  },
+  "collector_command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_native_longdouble_pair.py",
+    "--plan",
+    "n4_work/native-longdouble-pair-v1/plan.json",
+    "--summary",
+    "n4_work/native-longdouble-pair-v1/readout-summary.json",
+    "--resource",
+    "n4_work/native-longdouble-pair-v1/resource.json",
+    "--log",
+    "n4_work/native-longdouble-pair-v1/process.log",
+    "--out",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_longdouble_pair_terminal.json"
+  ],
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/plan.json",
+    "sha256": "b30bdac3396a3ba141b72d3ec0aa67c989cab5da2ef0602db82973acbfb3bd5b"
+  },
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-summary.json",
+    "sha256": "94f774a4ebac0c1dcad8f6de8e3796f4e6ab23475694e09acefb9fb7e4c86908"
+  },
+  "raw": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-raw.json.gz",
+    "sha256": "9853dc0ae370b775f2bf1441510884632a9afe2b1428b88f2f223d6947ca0b43"
+  },
+  "resource": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/resource.json",
+    "sha256": "7c8b285074fad00270bc77cc1fb8c04cef7a4ddcf56da341bb340edf99f4ca0a"
+  },
+  "log": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/process.log",
+    "sha256": "7b5295fc1ec483b7e78aa790bb7261a1b89b97aa5335d1237f870e28c84d0718"
+  },
+  "files": {
+    "probe": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_longdouble_pair.py",
+      "sha256": "4d6b143bfda1c7ba04e1538aeeade874bc5df3d011fc181d7a3ea3b8ed8865dc"
+    },
+    "build_record": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+      "sha256": "6a3bccea3aafe115cb28071ca23986e14e27c9074c67f8f91b094bfb87db0bf8"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    },
+    "capsule_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+      "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+    },
+    "old_float_baseline": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+      "sha256": "c188de016b4963b1db896df9d3c2a7f09da201f66834acfd317f651c4488f4dc"
+    },
+    "native_baseline": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-summary.json",
+      "sha256": "8bc4adafbd655fe5fa5de7b7fbda542a3c4edda5b7505deb579d9ec40a503078"
+    },
+    "native_baseline_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-raw.json.gz",
+      "sha256": "50776b349d13d1239e0de925e3f9954bd51352a6e740f8b26e86016d2827ec4a"
+    },
+    "native_baseline_resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/resource.json",
+      "sha256": "7cbd659c43f1a6d1984ae32e4e443cff36c0221decfb3b59708d070801909c22"
+    },
+    "mp90_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+      "sha256": "316203483014a16efb7a9793c62e2c903e0925a946cd9a30a7ed869b76f766e6"
+    },
+    "mp90_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-raw.json.gz",
+      "sha256": "bd5af94f99245a6404d9e0e6df178e82f9c2120ae1389f9c59b2b386c80e05d6"
+    },
+    "original_evaluator": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_multiprecision.py",
+      "sha256": "a4e5297beb66c218b0b716ff27992830f2d5db6a56655ffab76c9a9b7a4af819"
+    },
+    "original_bridge": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+      "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+    },
+    "cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+      "sha256": "916d0a948a15100f9bb68b255c2192460efe249c08a3559ea9fb800fbb59ac3f"
+    },
+    "header": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "harness": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "builder": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/build_native_extended.py",
+      "sha256": "20437402d90d4bf1a7aa9488d9651dbc5387a2cbaffb85667ebb4e093ccbc6c3"
+    },
+    "library": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+      "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+    },
+    "batch_executable": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/frozen_flow_batch",
+      "sha256": "41ad2ad52199365c11e1065ea1ad988544c2325ad81ffaad84e45485db50f6ed"
+    },
+    "input": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "fixture": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-rk-sum-compare-v1/stages-inputs.json.gz",
+      "sha256": "271bd623f570475d8877ce8fe9555c53528871b1fd337131d92a6b32866921fa"
+    },
+    "original_output": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-rk-sum-compare-v1/stages-original.json.gz",
+      "sha256": "a3eff9faeed0c872e59a160d910265c72fc78312651c83e5996cc6abd0e7e0c8"
+    },
+    "coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+    },
+    "reference": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-reference.json.gz",
+      "sha256": "996bdc40164d265f9146f7af4449732d4d34981eeabb7c4ffe8ea44b697b2c73"
+    }
+  },
+  "original_input": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+    "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+  },
+  "original_fixture": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-rk-sum-compare-v1/stages-inputs.json.gz",
+    "sha256": "271bd623f570475d8877ce8fe9555c53528871b1fd337131d92a6b32866921fa"
+  },
+  "original_source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-port-v3.mjs": "4e5f7f4cd31c81b633c826a24b208bc8a0aa2b791132c73238a5a61cf0e2a398",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_rk_sum.mjs": "d6312e79aa156f116f8673e0eb76b9b02711b689091759b1c69e6e05534d5023",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6curve_tail_port.mjs": "a976b9f5922380b72e3f0733896dbe249f2d22cb66819204f05399f90bc5bfad",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_actual_metric.mjs": "36e4e642014d5afd733ed3fecc13267d23c40927e1bd2113e53abcdbb588dcb4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_compact_controlled_tail.mjs": "c2a282deb622141cb05554a4a0910dd0a9a57cd7948ecab02917ae5c13d40bf5",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_cusp_grid.mjs": "b12f3626413262daf1eef6be87bf7ad27813295bd2b84e166dcb9ed6c612736f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_momentum.mjs": "3e3e619f255d104e5f86761346f536d722d1de07f40f7cef73161caba8d6793e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_fast_split_flux_engine.mjs": "a1c84ba25846f0bf6e9d35092dbc0281d01f60f3d68700dfad20fd598e27e4b6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_height_line_transport.mjs": "4053fb9c33aaf5435d46a2012d0ff16b4c20d50e77ba9a282f2306e07a601727",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_physical_jets.mjs": "2b96df25211c5d6ebfc7faf689ea7035704bf0bf7c1ea3aa50b1c137fbe39ea8",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_momentum_split_flux.mjs": "5d77ca058adb634547c91998002eeffb9de5395a9e1e130f7edd4fa65014f578",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_r20_rejoin_source.mjs": "b2ddbfa7cd2230445412aa0c99aab22f2ebf68b9eb87db0e95169543b0877127",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_development.mjs": "90878cc529bb842743602547d997922de69c8e8966a9fd08ea8a353be1d1ff6e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_relative_spatial_jets.mjs": "a5609a83303f09e9fb9ac7f493a93aec3676482665a5e11d5e2618b8108c1913",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_geometry.mjs": "d00f154237f9117e59f6ff92fb065a04bf1ea61cb8e529f7821c14f5b319d608",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/f6tail_warp_linear.mjs": "595b149403f79ea53223cec43226c559b99577851ab0deb6082cca99f8f15bd9",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy.mjs": "f33343a8f9e7e3180513e7bf20fa620c5bf5329ef3d0949d8cbac0e2994b70b4",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_exact_tail_cauchy_raw.mjs": "0c8139fd146a52188a6eedfe898003f8417d745c2fcde6f2a9eb5479aa7855df",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_smooth_tail_cells.cjs": "d074799099e27401456449343c8f490ec60cdec7eb0d02758f024f541d409575",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/general_root_tail_momentum.mjs": "182847f2ff1b27ff211364729c2969e4b417973efe0bba5977b2ef26e500528c",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_balanced_tail.mjs": "928567418f411b70c4040be9ee08be2a78b65e147b8d0c5728f4cf6766a28888",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/repro/source-root/topics/large-amplitude-twist-flex/scripts/tailnext_dn_response.mjs": "2fd018bea91f317abb2a819b7cbd4b046db61187bf0f7b38664c5deac95cc311"
+  },
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_longdouble_pair.py",
+    "sha256": "4d6b143bfda1c7ba04e1538aeeade874bc5df3d011fc181d7a3ea3b8ed8865dc"
+  },
+  "build_record": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+    "sha256": "6a3bccea3aafe115cb28071ca23986e14e27c9074c67f8f91b094bfb87db0bf8"
+  },
+  "library": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+    "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+  },
+  "runtime": {
+    "abi": 1,
+    "long_double_significand_bits": 64,
+    "long_double_storage_bytes": 16,
+    "rounding_mode": 0,
+    "round_to_nearest": true,
+    "x87_control_word": 895,
+    "config_size": 88,
+    "step_size": 40,
+    "stage_size": 32,
+    "callbacks_size": 32,
+    "diagnostics_size": 80
+  },
+  "loaded_runtime": {
+    "maps": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-maps.txt",
+      "sha256": "84bfc4bb651af63df4fc05e948184509b5129d407920c9250dc80b4bba877fea"
+    },
+    "mapped_binaries": [
+      {
+        "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+        "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+      },
+      {
+        "path": "/usr/lib/locale/C.utf8/LC_CTYPE",
+        "sha256": "1257597210f43630e7c8a745ae95127e96b93a43515ac5163cab459ddc1664b3"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache",
+        "sha256": "52c227df9d53248238602c1ddaccd2c8ddc4cc6a61aa45d7c425af590b8806a5"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+        "sha256": "c8438e4fde1934e61c88311633f00949ff645d5c04cdb8671fa3d78164d2f307"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+        "sha256": "9792e3cbb541c8f44c7acf5f14f4022ea62998ecc787d326bed4d8b6547dfd92"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libdl.so.2",
+        "sha256": "295fa521a03cd2faa99974f378c9e23dd622021ec7d32bcad4f8ea61aec8a872"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+        "sha256": "30c61ab012a4241bed033725a09b61f5fdd3bb7df95ee852d0b096520524c7af"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+        "sha256": "6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libpthread.so.0",
+        "sha256": "85e21f7dba0394411d00959176fd18b470e575b0b05f1f4f41e5636802ce0500"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/librt.so.1",
+        "sha256": "7b7b84d1aedda0e0b2bdfc68844362782132180b8f02be1300e21e77572e514b"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+        "sha256": "972bb2a18b71140dab0240f8a1f68ab3fb1d56bcd4c4f824a91b70888faf5a00"
+      },
+      {
+        "path": "/usr/lib/x86_64-linux-gnu/libutil.so.1",
+        "sha256": "e3981d10efd152a53f083e38f5f9ddde7a049c85d0ab388a5eec91b52fc98a11"
+      },
+      {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+        "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+      }
+    ],
+    "symbol_resolution": {
+      "vf_run_stage": {
+        "provider": {
+          "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+          "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+        },
+        "resolved_symbol": "vf_run_stage",
+        "provider_relative_offset": 19328
+      },
+      "sqrtl": {
+        "provider": {
+          "path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+          "sha256": "6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3"
+        },
+        "resolved_symbol": "sqrtl",
+        "provider_relative_offset": 79376
+      },
+      "log1pl": {
+        "provider": {
+          "path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+          "sha256": "6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3"
+        },
+        "resolved_symbol": "logp1l",
+        "provider_relative_offset": 261648
+      },
+      "expm1l": {
+        "provider": {
+          "path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+          "sha256": "6d567d53e895273ca14a1f9dc164fc6c8d39aed2f60aa46a733c2784228915f3"
+        },
+        "resolved_symbol": "expm1f64x",
+        "provider_relative_offset": 285856
+      }
+    },
+    "symbol_scope": "Loaded-handle symbol providers only; no math calls or compiler-inlining claim.",
+    "python": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+      "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+    },
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+    "mpmath": {
+      "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/mpmath/__init__.py",
+      "sha256": "b241584d2c1fc0304b0a1015ea923749d7b0800411dd406dcab7c82bf25d9fe8"
+    },
+    "mpmath_version": "1.3.0",
+    "byteorder": "little",
+    "pid": 6
+  },
+  "execution": {
+    "observer_session": 95607,
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T02:35:34Z",
+    "observer_seconds": 4.006775011002901,
+    "probe_seconds": 0.9901298210024834,
+    "maximum_sampled_tree_rss_kib": 197976,
+    "child_rusage_maxrss_kib": 251900,
+    "RSS_scope": "Sampled namespace tree RSS and RUSAGE_CHILDREN maxrss are distinct observations, not a whole-host/all-process peak."
+  },
+  "checked_path_references": 45,
+  "checked_original_source_count": 35,
+  "native_call_count": 6,
+  "trace_callback": false,
+  "extra_traced_calls": 0,
+  "independently_decoded_native_state_values": 252,
+  "independently_decoded_native_tangent_values": 5040,
+  "all_native_to_boundary64_conversions_bitwise_identical": true,
+  "all_three_native_and_boundary_state_pairs_bitwise_identical": true,
+  "all_three_available_root_diagnostic_pairs_bitwise_identical": true,
+  "named_results": [
+    {
+      "stage": 43,
+      "native42_bitwise_identical": true,
+      "binary64_42_bitwise_identical": true,
+      "root_diagnostics_bitwise_identical": true,
+      "original_binary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "1.8575912368895133146947439071515e-12",
+        "maximum_mean2_absolute_error": "2.4705127628250426556159406269823e-21",
+        "maximum_normalized_physical_error": "0.0000000033719780875866870216174255885219",
+        "normalized_error_peak_component": 38
+      },
+      "native_error_to_mp90": {
+        "maximum_all42_absolute_error": "1.4093620187140947604741212704085e-15",
+        "maximum_mean2_absolute_error": "2.2058149668080737996570898455199e-24",
+        "maximum_normalized_physical_error": "2.5583334752044416761431786797856e-12",
+        "normalized_error_peak_component": 38
+      },
+      "boundary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "1.118144243749528519270880477879e-13",
+        "maximum_mean2_absolute_error": "2.4705127628250426556159406269823e-21",
+        "maximum_normalized_physical_error": "2.0297026675244015051073656622337e-10",
+        "normalized_error_peak_component": 20
+      },
+      "boundary64_components_equal_to_rounded_saved_mp90": 37,
+      "boundary64_components_total": 42,
+      "fixed_target_normalized_residual": 4.127383011197031e-09,
+      "root_diagnostics": {
+        "root_calls": 64,
+        "root_updates": 128,
+        "root_fallbacks": 0,
+        "trace_events": 0,
+        "minA": 0.9993253049821479,
+        "minD": 0.9999456193705909,
+        "max_root_relative_residual": 8.717097109401801e-20,
+        "scalar_bytes": 10
+      },
+      "minimum_literal_Jacobian_pivot": 0.9999038913758602,
+      "state_only_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-stage43-state-only.json.gz",
+        "sha256": "f6e425d9a30d852730b536a322b92768ee4450b6d35f6e1ef3affb1dbd320f41"
+      },
+      "full_Jacobian_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-stage43-full-jac.json.gz",
+        "sha256": "c3d9cf6b9e85ffc4fd660a8178d81d7c75085577b0787a9a211d9abc55a6c3f4"
+      },
+      "state_only_kernel_seconds": 0.072171571,
+      "full_Jacobian_kernel_seconds": 0.201979893,
+      "state_only_FFI_seconds": 0.0728326750031556,
+      "full_Jacobian_FFI_seconds": 0.20203771099477308,
+      "state_only_decode_compare_seconds": 0.002366819004237186,
+      "full_Jacobian_decode_compare_seconds": 0.004490611005167011,
+      "native_state_sha256": "bf803a47e3eb36fec2c147a2d9b16bfa877a9b1ca2ab685d1f2dee06d04ab681",
+      "state64_sha256": "33d5a92377dc97bb98db3744b14a0e1f24799995b859776bb30a2569fe080f4a",
+      "native_tangent_sha256": "30a35e09024428c021a01ce33857a891255ebd17d0bf09fd8299492df0ec5f30",
+      "tangent64_sha256": "806ed223762521adb885d4c08634b2293d1bea757e5a3af0423c19535301abc2"
+    },
+    {
+      "stage": 38,
+      "native42_bitwise_identical": true,
+      "binary64_42_bitwise_identical": true,
+      "root_diagnostics_bitwise_identical": true,
+      "original_binary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "5.4358779172199011360553683783571e-12",
+        "maximum_mean2_absolute_error": "6.9174357359101194357246337555504e-21",
+        "maximum_normalized_physical_error": "0.0000000095921017630974534652778186443081",
+        "normalized_error_peak_component": 38
+      },
+      "native_error_to_mp90": {
+        "maximum_all42_absolute_error": "4.4369480482909433285115216215651e-15",
+        "maximum_mean2_absolute_error": "2.2058149668080737996570898455199e-24",
+        "maximum_normalized_physical_error": "7.8293990124321750589910179570169e-12",
+        "normalized_error_peak_component": 38
+      },
+      "boundary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "1.0156734545435193574639379796049e-13",
+        "maximum_mean2_absolute_error": "6.6350914201586859893685262553239e-21",
+        "maximum_normalized_physical_error": "1.7922483327294445274109861809003e-10",
+        "normalized_error_peak_component": 20
+      },
+      "boundary64_components_equal_to_rounded_saved_mp90": 40,
+      "boundary64_components_total": 42,
+      "fixed_target_normalized_residual": 4.81465875352052e-09,
+      "root_diagnostics": {
+        "root_calls": 64,
+        "root_updates": 128,
+        "root_fallbacks": 0,
+        "trace_events": 0,
+        "minA": 0.998982050783748,
+        "minD": 0.9999479262232319,
+        "max_root_relative_residual": 8.495847993327827e-20,
+        "scalar_bytes": 10
+      },
+      "minimum_literal_Jacobian_pivot": 0.9998236155597815,
+      "state_only_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-stage38-state-only.json.gz",
+        "sha256": "355ddefbf5570bf2ab26a383d09ce465cf7b3f2c250cc3ea7fae517b8d76371e"
+      },
+      "full_Jacobian_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-stage38-full-jac.json.gz",
+        "sha256": "508f39c0ff5f6d00e4ea923ae42456cb0b5da7a1f9eeebd908413053d366e61e"
+      },
+      "state_only_kernel_seconds": 0.064882832,
+      "full_Jacobian_kernel_seconds": 0.17801697,
+      "state_only_FFI_seconds": 0.06494136999390321,
+      "full_Jacobian_FFI_seconds": 0.17807927300600568,
+      "state_only_decode_compare_seconds": 0.0015360999968834221,
+      "full_Jacobian_decode_compare_seconds": 0.004344210996350739,
+      "native_state_sha256": "4ebb3a43bdbdd18bdffc30391640e834a075f887de0eecbc5f23d68cc56964ac",
+      "state64_sha256": "02363a7f1c7ef5cad0a2338b63894513b5ef0655aa59600e0d536344792f46b9",
+      "native_tangent_sha256": "4206d3724eaf95f6e703f7f06a737484caeb0ca91cf3b2cfa86c42a008743b57",
+      "tangent64_sha256": "40a6bef9968dbeccafd584871fd74e8bb6142ae2b5aa54f3a8950b38a68cb3d3"
+    },
+    {
+      "stage": 175,
+      "native42_bitwise_identical": true,
+      "binary64_42_bitwise_identical": true,
+      "root_diagnostics_bitwise_identical": true,
+      "original_binary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "7.8940835023630930342243502694383e-16",
+        "maximum_mean2_absolute_error": "4.9692599572252286558674920039872e-20",
+        "maximum_normalized_physical_error": "0.000000013520219999676827636435004879264",
+        "normalized_error_peak_component": 20
+      },
+      "native_error_to_mp90": {
+        "maximum_all42_absolute_error": "3.2451220213212630859359320983332e-19",
+        "maximum_mean2_absolute_error": "7.0586078937858361589026875056637e-23",
+        "maximum_normalized_physical_error": "5.5579300169456692646201126071377e-12",
+        "normalized_error_peak_component": 20
+      },
+      "boundary64_error_to_mp90": {
+        "maximum_all42_absolute_error": "9.8770069463815928916470307528824e-17",
+        "maximum_mean2_absolute_error": "4.9692599572252286558674920039872e-20",
+        "maximum_normalized_physical_error": "0.0000000016916378806157850654171818221924",
+        "normalized_error_peak_component": 20
+      },
+      "boundary64_components_equal_to_rounded_saved_mp90": 12,
+      "boundary64_components_total": 42,
+      "fixed_target_normalized_residual": 1.5211857880292614e-08,
+      "root_diagnostics": {
+        "root_calls": 64,
+        "root_updates": 64,
+        "root_fallbacks": 0,
+        "trace_events": 0,
+        "minA": 0.999975782689067,
+        "minD": 0.9999996390270643,
+        "max_root_relative_residual": 1.2789347469200837e-15,
+        "scalar_bytes": 10
+      },
+      "minimum_literal_Jacobian_pivot": 0.999999999653566,
+      "state_only_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-stage175-state-only.json.gz",
+        "sha256": "7d27d9ed70fd9301f01f752acb0497064ee80ed57e8f7e7efd392e714f9011ba"
+      },
+      "full_Jacobian_checkpoint": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-stage175-full-jac.json.gz",
+        "sha256": "cc7488994e10d9131a9bbafe844af758a4ea81c19b4834ee1782989b918eafcd"
+      },
+      "state_only_kernel_seconds": 0.043079051,
+      "full_Jacobian_kernel_seconds": 0.161655041,
+      "state_only_FFI_seconds": 0.043132620994583704,
+      "full_Jacobian_FFI_seconds": 0.16171357900020666,
+      "state_only_decode_compare_seconds": 0.0013854929929948412,
+      "full_Jacobian_decode_compare_seconds": 0.004812154998944607,
+      "native_state_sha256": "384391ba4f3778048dc9d2b51e0c23581844af3907474e459308f43e2c3560a6",
+      "state64_sha256": "2a08f628aff4f20984dbf22a3e75b35c5d4cbe1915dc5aff529151eae8b1c569",
+      "native_tangent_sha256": "c85866a6386b3b4086984e5fe76471707312c493e551e7837323e326f280b2b7",
+      "tangent64_sha256": "8bc5f04273605ae698c5763ac65b7f8d32787cd8862e58581695ec5efb47d454"
+    }
+  ],
+  "whole_tail_or_DN_invoked": false,
+  "independent_Jacobian_reference_verified": false,
+  "root_diagnostic_scope": "All available VFDiagnostics aggregates; null trace does not store per-root iteration/halving sequences.",
+  "timing_scope": "kernel_seconds is null-trace native e.flow wall, including its allocations. FFI adds engine construction/export; Python decoding/comparison is separately timed. Three stages are not a whole-tail benchmark.",
+  "scope_limit": "Frozen binary64 coefficients, original finite RK and point-root thresholds. Literal implicit Jacobian is evaluated at approximate returned roots, not AD of stopping branches or a continuous-flow certificate.",
+  "conclusion": "Original finite flow states are materially closer to savedMP90 before and after the boundary64 conversion. State-only/full-Jac and encoding gates pass; these fixed nodes still do not pass original DN tolerance. The complete independent tangent comparison, batch, original DN and audit remain unpaid."
+}
