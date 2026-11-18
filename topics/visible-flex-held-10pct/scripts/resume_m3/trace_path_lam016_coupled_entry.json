@@ -1,0 +1,130 @@
+{
+  "schema": "m3-finite-trace-lambda-continuation-entry-v1",
+  "scope": "One original coupled continuation step from the complete finite lambda=.08 checkpoint to lambda=.16. No source/numerical-method change; saved old physical quintic supplies all 25 state components and the exact same-H genuine response supplies the initial DN anchor.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_continuation.py",
+    "sha256": "4e8e4548536a0f0091910180247c1240ab49d045acbdf08a892f2809993eac57"
+  },
+  "preparation_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/continuation-plan.json",
+    "sha256": "de97ac84ee1cee2d67040cefd2f67d9b46aae6e308594ce7e42d0856ee1cc1ca"
+  },
+  "runtime_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/launch-plan.json",
+    "sha256": "053f0881a110506727f41538c9196463e8cc04928fab6a4a86e1e1706e8fff24"
+  },
+  "initializer": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/initializer.json",
+    "sha256": "91dd6de12e26cf75f14d1de09e790984434db0f82d733950a76838faf594befc"
+  },
+  "initializer_arrays": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/initializer-arrays.npz",
+    "sha256": "d25391bb77643b251c5b5127a5443f090065fc3daf215d30cace34921e6a6b1f"
+  },
+  "previous_complete_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam008-resume-v1/seed.json.gz",
+    "sha256": "f4abafcac2a0e7a729a085b3462686197245d5dde60fd087e77aa8f9afd6581c"
+  },
+  "previous_returned_raw": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam008-coupled-v1/inner-00-returned.json.gz",
+    "sha256": "936f8bdd0615c7905b560a1942a67d4830721573d07c3fa930ced3f9ce66a310"
+  },
+  "lambda_value": 0.16,
+  "previous_lambda": 0.08,
+  "support_amplitude": 0.05857996100242497,
+  "numerical_gauge": 0.06,
+  "initial_hashes": {
+    "state_binary64_sha256": "11393e99ae5f01516f6b69340c11daa31373d1002c2297c148bef806909ea54c",
+    "parameter_binary64_sha256": "2755a97609ea3a81392e6355173dfc0e0d2aea8d006dc15d7b0418ceaa63e29c",
+    "full_H_binary64_sha256": "41f9a5a43f6d9a35643d7e5c26b706795e128046ba5ddedfd5e2ded2691eb011"
+  },
+  "initial_parameters": [
+    -4.293530940936157e-09,
+    0.14043747989564462,
+    -0.006178957376564835,
+    -2.1256635279993796,
+    10.120096783115299,
+    80.68271187366328,
+    -1767.4720859788058,
+    3186.7573949775892
+  ],
+  "initial_physical_controls": [
+    0.0005055749276243206,
+    -1.3346547933380042e-06,
+    -2.7548599322871954e-05,
+    7.869387258550455e-06,
+    3.764332605177633e-06,
+    -4.947790658605629e-06,
+    3.1867573949775895e-06
+  ],
+  "initial_H": [
+    -0.00016709732211985724,
+    6.1285196113942514e-06,
+    1.087161978123946e-06,
+    5.777981829081477e-10,
+    -5.265344326959011e-09,
+    -1.1271921164088541e-09,
+    -4.0484955971888564e-12,
+    4.001193013985525e-10
+  ],
+  "initial_actual_response": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam008-resume-v1/seed_tail_0001.json.gz",
+    "sha256": "c8e5e42a6e40a8a029cb260bfac5b4a906aab71d29443dc22eb5428bafe299b1"
+  },
+  "entry_checks": {
+    "complete_physical_quintic_used": true,
+    "raw_node_values_used_for_state": false,
+    "new_H_byte_equal_old_physical": true,
+    "maximum_projected_reference_correction": 4.964244657773744e-16,
+    "zero_reference_nodes": 232,
+    "inlet_residual": 8.470329472543003e-22,
+    "numerical_core_guard": {
+      "rho_lower": 0.5076209344548709,
+      "rho_sample": 0.5078020262086654
+    },
+    "no_amplitude_power_restart": true,
+    "old_mean_not_copied": true,
+    "initial_RMS_repeated": false,
+    "initializer_arrays_complete": true,
+    "solver_success_not_claimed": true
+  },
+  "execution": {
+    "session": 49902,
+    "launch_tool_chunk": "9a2486",
+    "metadata_tool_chunk": "a66ed1",
+    "metadata_returncode": 0,
+    "first_recorded_running_utc": "2026-11-18T04:25:18Z",
+    "status_at_entry_record": "observed_running",
+    "returncode_at_entry_record": null,
+    "source_files": 119,
+    "launch_command": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/launch-command.json",
+      "sha256": "4a5978d25f5d069157b8e582216168d57dcffc612fafae65fe37ae1e59802f4e"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_continuation.py",
+      "--run-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/continuation-plan.json"
+    ],
+    "observer_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "--out",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/resource.json",
+      "--log",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/stdout.log",
+      "--",
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/run_m3_trace_path_continuation.py",
+      "--run-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam016-coupled-v1/continuation-plan.json"
+    ]
+  },
+  "limits": [
+    "The source rho lower value is a numerical sufficient guard, not a rigorous continuous certificate.",
+    "The new finite projected reference correction does not bound the complete unprojected physical reference change.",
+    "The preceding lambda=.08 state has full finite metric 3.329530742646296e-5, above the eventual 1e-6 target. It is retained as a clearly labelled continuation anchor, not claimed complete.",
+    "This entry record makes no new inner/actual-tail/full-metric success claim. The real terminal outcome is recorded independently."
+  ]
+}
