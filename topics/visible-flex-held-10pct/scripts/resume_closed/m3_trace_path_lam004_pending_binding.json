@@ -1,0 +1,222 @@
+{
+  "scope": "Bind a real returned partial-path inner before a physical CP exists.\n\nInputs are explicit original raw, sidecar and failed pending-tail records;\nthe raw record pins its complete runtime plan and every defining source.\nMetadata binding runs no equation. Optional native_model() reconstructs that\ndeclared current core/flow and restores the literal normalized x/y/p/cubic,\nfull RMS and original diagnostics, without BVP, C2 export, mean or DN work.\nThe sidecar remains the old true response used as the inner affine anchor.\n",
+  "adapter": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_pending_inner.py",
+    "sha256": "203fb3c82d7377794b089b6acf79017b1c984036be0ea2451f995405cedba3f0"
+  },
+  "raw_inner": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/inner-00-returned.json.gz",
+    "sha256": "7ca5ea61dcabd581bb9541167b2b7c9086d184b5d336465f1e9b3f2479c9fe4e"
+  },
+  "sidecar": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/inner-00-returned-dn-anchor.json",
+    "sha256": "4e6d365b9bc764bad9c03640d89996fe6611d6b1bc3ecf2cc8c128a0bdf86b7c"
+  },
+  "original_runtime_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/launch-plan.json",
+    "sha256": "b5146523cfb7e67c32d530b968adbec056dc0afe565bc5a5b39fc14443e9abb0"
+  },
+  "failed_pending_tail": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/seed_tail_0001.json.gz",
+    "sha256": "a94402ea667b60d454ffe364a3e3b65a8f2b3572f6c1b86c01baf478de924510"
+  },
+  "old_inner_actual_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-physical-finish-v1/seed_tail_0000.json.gz",
+    "sha256": "24dd350f7f0ec440122b369841d2c03cf75e968f3e89a04de1ed44f95d389ffe"
+  },
+  "old_inner_affine_response_payload_sha256": "c73529b67a8b1339303a1b20477bda56d03a8463006e1a55809d528b4ac616e7",
+  "original_inner_index": 0,
+  "remaining_original_outer_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "path_lambda": 0.04,
+  "q_gauge": 0.06,
+  "q_support": 0.05963857477670898,
+  "core_settings": {
+    "halfwidth": 0.21,
+    "transition": 0.32,
+    "control_transition": 0.4,
+    "homotopy": 0.04,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768
+  },
+  "path_definition": {
+    "branch": "new_finite_seven_column_integral_path",
+    "lambda_value": 0.04,
+    "core_support_guard": "Original numerical triangle/first/C2 guard, floor1e-5 and grid ceiling32768",
+    "note": "This is the defining integral core. For intermediate lambda, the partially lifted finite inlet is a different curve and must pass its own original frame and full metric checks.",
+    "settings": {
+      "halfwidth": 0.21,
+      "transition": 0.32,
+      "control_transition": 0.4,
+      "homotopy": 0.04,
+      "center": 1.0471975511965976,
+      "bimodal_eta": 0.0,
+      "lock_fundamental": true,
+      "coefficient_precision": 80,
+      "positivity_grid_max": 32768
+    },
+    "numerical_gauge": 0.06,
+    "defining_support_amplitude": 0.05963857477670898,
+    "warp_reference": 0.06,
+    "fixed_metric": false,
+    "p0_scope": "Only delta; frozen_profile already contains the old historical p0.",
+    "parameter_scales": [
+      0.0036,
+      0.00021599999999999996,
+      1.2959999999999998e-05,
+      7.775999999999999e-07,
+      4.665599999999999e-08,
+      2.7993599999999993e-09,
+      1e-09
+    ],
+    "mean_height_scope": "Use the original height_integral on this actual model/solution. No old mean trajectory is copied to a positive-lambda model."
+  },
+  "lift_window": [
+    0.5,
+    0.9
+  ],
+  "path_base_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275721220832,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "returned_physical_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275685251329,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "parameters": [
+    -3.596950323757216e-10,
+    0.13462394778208625,
+    -0.09093317568267573,
+    -1.0015581654526973,
+    4.535140107309991,
+    38.925771845827306,
+    -842.674713356749,
+    1057.4757579347804
+  ],
+  "parameter_scales": [
+    0.0036,
+    0.00021599999999999996,
+    1.2959999999999998e-05,
+    7.775999999999999e-07,
+    4.665599999999999e-08,
+    2.7993599999999993e-09,
+    1e-09
+  ],
+  "physical_controls": [
+    0.0004846462120155105,
+    -1.9641565947457952e-05,
+    -1.2980193824266954e-05,
+    3.5265249474442485e-06,
+    1.8161208112389184e-06,
+    -2.3589498855823483e-06,
+    1.0574757579347806e-06
+  ],
+  "nodes": 493,
+  "state_components": 25,
+  "original_rms_entries": 492,
+  "original_max_rms": 9.873653007345489e-07,
+  "original_solver_success": true,
+  "original_status": 0,
+  "original_message": "The algorithm converged to the desired accuracy.",
+  "original_niter": 1,
+  "raw_array_binary64_sha256": {
+    "x": "5486729c81b7f14d0eda884d691f20308bfc6cb700b17717c215a034dcadc650",
+    "y": "1fda09eb695a9f115c1284e25cb30c1b00d709ec41cd99184b3fb9e94e978980",
+    "p": "5ead0e481b01f7a18cdac7ea6b61041b0aa0eec3cbf706c662b598231bf90ea7",
+    "rms_residuals": "6259fb0ae11577d3eea51e05d8b115aad7a9b8af2a978df8de3151d9bb914edb"
+  },
+  "raw_cubic_binary64_sha256": "9ce83c1d5dbd7f2def62912ea795345fe4e77671d4b88c413c755e6f5424ce6b",
+  "cubic_knots_binary64_sha256": "5486729c81b7f14d0eda884d691f20308bfc6cb700b17717c215a034dcadc650",
+  "original_cubic_axis": 1,
+  "original_cubic_extrapolate": true,
+  "old_affine_H": [
+    -0.00016709731551033024,
+    6.128520978145864e-06,
+    1.087161060379719e-06,
+    5.781188206976293e-10,
+    -5.266481811653339e-09,
+    -1.1270751724175706e-09,
+    5.642930213506107e-11,
+    6.861304863047252e-11
+  ],
+  "returned_candidate_H": [
+    -0.00016709731625990553,
+    6.12852073626482e-06,
+    1.087161126090669e-06,
+    5.780911443348725e-10,
+    -5.266298603539796e-09,
+    -1.1271037313032326e-09,
+    4.393221104593142e-11,
+    1.3758654457095489e-10
+  ],
+  "returned_candidate_H_binary64_sha256": "0a6c7d5412f359d3eaf5dcfa05a72b9576ef1eb1fe2ba7bc9e1e0fb3151ad5c2",
+  "pending_request": {
+    "height": [
+      -0.00016709731625990553,
+      6.12852073626482e-06,
+      1.087161126090669e-06,
+      5.780911443348725e-10,
+      -5.266298603539796e-09,
+      -1.1271037313032326e-09,
+      4.393221104593142e-11,
+      1.3758654457095489e-10
+    ],
+    "jacobian": true,
+    "audit": true
+  },
+  "pending_failure_last_iteration": {
+    "iteration": 2,
+    "norm": 3.6678628847049105e-09,
+    "minA": 0.5218915639820443,
+    "minD": 0.9991195358652001,
+    "chartCondition": null
+  },
+  "physical_design_original_reference": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed.json.gz",
+    "sha256": "4755143bb3c02c28669eebaa2db53ad97142acec799afd4136125db4277350d9"
+  },
+  "scope_of_anchor": "Old genuine response used inside the affine inner problem only. It is not relabeled as the failed returned-candidate response.",
+  "resume_point": "Immediately after the successful original inner return, before its pending actual-tail response/actual BC/history row.",
+  "original_solution_missing_fields": [
+    "yp"
+  ],
+  "restored_cubic_domain_only": true,
+  "native_model_constructed": false,
+  "physical_CP_required": false,
+  "inner_solver_repeated": false,
+  "tail_solver_invoked": false,
+  "mean_metric_or_C2_export_invoked": false
+}

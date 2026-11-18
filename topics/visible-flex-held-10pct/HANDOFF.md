@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`a4fecaae802ef3b5735390faaf61a85b79cadc42`。2026-11-18 12:19:48（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`811bb39ef8baad16945314ae216dcca806cb018a`。2026-11-18 12:23:20（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -54,7 +54,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **q060→R44实际联立** 旧λ1/M8/q=.05210565550627671：12897原RMS域异常无完整末态；五点82557返回status1/maxnodes、2431点/RMS1.386061569，失败C² CP先存后mean-height域异常，新tail0/无metric。见两coupled/Lobatto终态，不重跑。参数诊断87257固定24stencil全原域过，七控制最细逐项归一差3.5922e−8、T非单调、δ原FD，不证完整Jac条件，见q060-trace-parameter-jacobian-terminal。
 
-**R45新路径** 固定M全λ列独立/同步lift已证，非BVP存在；qseed=原binary64(.06)/Pλ，保gauge/warp/7pscale，partial入口不同Γ。λ.02完整CPfd93d3…：493点/原BC与真尾均过，metric1.978668826e−6未最终门。λ.04原inner493点/1mesh/3全步/RMS9.873653e−7，尾末位失败经86/c8,c11两个正邻数由12075原门接受7c3af1…；96355直接原raw恢复，BC3.54195e−12过、0新inner，physical seam原尾也过，最终CPfca57af…/metric8.0692760e−6（中间缺口，不设阻断）。λ.08已真启动92146/qseed .05928147775446849，继承全p/base/7c/physicalPP，起H逐位旧物理seam；原inner已返回，真正尾/后处理待终态。通用returned/pending接口保raw与quintic、显式H身份；旧inner/旧失败不重做。按真接受状态增步到λ1，尚无闭合/固定g收敛。
+**R45新路径** 固定M全λ列独立/同步lift已证，非BVP存在；qseed=原binary64(.06)/Pλ，保gauge/warp/7pscale，partial入口不同Γ。λ.02完整CPfd93d3…：493点/原BC与真尾均过，metric1.978668826e−6未最终门。λ.04原inner493点/1mesh/3全步/RMS9.873653e−7，尾末位失败经86/c8,c11两个正邻数由12075原门接受7c3af1…；96355直接原raw恢复，BC3.54195e−12过、0新inner，physical seam原尾也过，最终CPfca57af…/metric8.0692760e−6（中间缺口，不设阻断）。λ.08已真启动92146/qseed .05928147775446849，继承全p/base/7c/physicalPP，起H逐位旧物理seam；原inner493点/1mesh/3全步过；尾末位失败后按新完整行负/正两邻数由89030原门接受a13ee1…，44382直接通用raw接续中，未重inner。通用returned/pending接口保raw与quintic、显式H身份；旧inner/旧失败不重做。按真接受状态增步到λ1，尚无闭合/固定g收敛。
 
 ## 3. 全闭表示与严格连续metric
 
