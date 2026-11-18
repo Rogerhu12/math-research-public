@@ -1,0 +1,138 @@
+{
+  "scope": "Bind a complete M8 partial-path physical graph to its exact returned inner.\n\nThe physical reader already supports each declared 0<lambda<1 path. This\nadapter uses explicit returned-raw/sidecar references, never a filename search\nor a normalized-coordinate inverse. Metadata binding evaluates no equation.\nOptional restore() creates the same current model, verifies its forward chart\non the saved normalized mesh, and restores the original raw cubic/node tuple\nseparately from the saved physical quintic. No initial projection, mean,\nmetric, BVP or tail solve is performed.\n",
+  "adapter": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_trace_path_returned_inner.py",
+    "sha256": "f247ffc1ea73e310da6e23db5f26fca1f129945bcdb2937d90eec229bad9f8a7"
+  },
+  "physical_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-physical-finish-v1/seed.json.gz",
+    "sha256": "fd93d3f088038830f9291356acbd4ef997cb912cd345570a0f18c1b5fe574596"
+  },
+  "physical_plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-saved-inner-resume-v1/launch-plan.json",
+    "sha256": "f36e02e843447a08247f6af0bc350d368e784c0bcc2d450f050d745c0f6ffce2"
+  },
+  "original_returned_raw": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned.json.gz",
+    "sha256": "bc2fee7117ba8d8d842ac3352290ce55e966813ebf8048494688ce6d46180cc0"
+  },
+  "original_raw_sidecar": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/inner-00-returned-dn-anchor.json",
+    "sha256": "fcbe787e4e730c09fc54c8f971371edb5159a99cb22d480852714afa38ce642a"
+  },
+  "raw_reference_convention": "first saved-inner-resume explicit raw_inner and raw_sidecar",
+  "raw_execution_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/launch-plan.json",
+    "sha256": "99b888b421ecaea72dbbafffca9811121ed8d663c62049c3ce03e54edc6b52be"
+  },
+  "original_inner_index": 0,
+  "inner_affine_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-saved-inner-resume-v1/seed_tail_0003.json.gz",
+    "sha256": "ae01f13ad7b28b82481a3417471c4fd5511b145bb50bd2be73a4386897a0db1e"
+  },
+  "inner_affine_response_payload_sha256": "6e6b38f18dc84c7dbe4099532977866c8662b29b993e32c72ef368fe190247bb",
+  "final_physical_seam_record": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-physical-finish-v1/seed_tail_0000.json.gz",
+    "sha256": "24dd350f7f0ec440122b369841d2c03cf75e968f3e89a04de1ed44f95d389ffe"
+  },
+  "path_lambda": 0.02,
+  "q_gauge": 0.06,
+  "q_support": 0.059818741459951905,
+  "path_base_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06104275721220832,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "final_profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.0610427570758308,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "complete_parameters": [
+    -1.3637752370752413e-10,
+    0.13180335067450089,
+    -0.13277555007896716,
+    -0.4668764017278911,
+    2.0571139745863283,
+    18.302877391003268,
+    -411.917362701317,
+    407.38904291232535
+  ],
+  "complete_parameter_scales": [
+    0.0036,
+    0.00021599999999999996,
+    1.2959999999999998e-05,
+    7.775999999999999e-07,
+    4.665599999999999e-08,
+    2.7993599999999993e-09,
+    1e-09
+  ],
+  "complete_physical_controls": [
+    0.0004744920624282032,
+    -2.86795188170569e-05,
+    -6.0507181663934675e-06,
+    1.5996118266383285e-06,
+    8.539390475546483e-07,
+    -1.1531049884515585e-06,
+    4.073890429123254e-07
+  ],
+  "normalized_nodes": 493,
+  "state_components": 25,
+  "original_RMS_entries": 492,
+  "original_max_RMS": 9.873637694422844e-07,
+  "original_status": 0,
+  "original_message": "The algorithm converged to the desired accuracy.",
+  "original_niter": 5,
+  "original_solver_success": true,
+  "array_binary64_sha256": {
+    "x": "5486729c81b7f14d0eda884d691f20308bfc6cb700b17717c215a034dcadc650",
+    "y": "4f72237ec39b7590e661447bd72f69163813d2235a8d6df32f826113d392fd28",
+    "p": "750f0c4272063ec1d3c7ee82cce6eb4b616e7857b27a2edab28873c22c477da5",
+    "rms_residuals": "5980a4b67b6b51d8f85b400cf6ab2702f232b3b7f768953031ef118fd5269f1c"
+  },
+  "raw_cubic_knots_binary64_sha256": "5486729c81b7f14d0eda884d691f20308bfc6cb700b17717c215a034dcadc650",
+  "raw_cubic_coefficients_binary64_sha256": "124529251a869d2cfa65e1da42171091f9ef74f75e21cfca024603dfb7fb3615",
+  "original_cubic_axis": 1,
+  "original_cubic_extrapolate": true,
+  "original_pending_node_H": [
+    -0.00016709731551033027,
+    6.128520978145864e-06,
+    1.087161060379719e-06,
+    5.781188206976297e-10,
+    -5.266481811653339e-09,
+    -1.1270751724175706e-09,
+    5.642930213506106e-11,
+    6.861304863047251e-11
+  ],
+  "state_scope": "Raw normalized cubic, original node y and complete RMS remain separate from the physical quintic. Evaluating the latter on the physical mesh is not relabeled as original raw y.",
+  "anchor_scope": "The saved inner sidecar is its old actual response used as an affine anchor, not necessarily the response for its returned candidate H or the physical seam H.",
+  "restore_scope": "A forward chart check is required on explicit restore. External extrapolation of the original cubic is disabled; original sol.yp was not saved and is not manufactured.",
+  "missing_original_fields": [
+    "yp"
+  ],
+  "native_model_constructed": false,
+  "forward_chart_evaluated": false,
+  "new_initial_projection": false,
+  "mean_metric_BVP_or_tail_evaluated": false,
+  "fixed_g_refinement_claim": false
+}
