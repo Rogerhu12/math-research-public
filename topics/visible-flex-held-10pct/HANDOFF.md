@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`266b198f6fd4f224396f4bde225bbe5b0e6b19c3`。2026-11-18 08:51:14（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`b10e79915befa03c0b0e3db07558f565760b7bf7`。2026-11-18 08:52:48（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -42,7 +42,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 **已登记障碍**：R33/34只排冻结旧七矩/mean/主频路径，非自由actual；R35无限raw Tλ在λ<1仍双射、λ1才有无限核，须验实际弧缺陷。旧幅值初始化/七次失败、root瓶颈及径向精化见m3相应notes，不重跑或当不存在结论。
 
-**q060高幅支** beta4.625：旧parts8三版失败/未存inner封存；parts16 H_new单邻数原接受1.818205542e−9。33116独立H_old失败3.671459625e−9，外部V8 heap-limit/−6；v3仅传heap3072，补完3试步0改善。旧H row86 c8/c11两负邻数初值经51467原worker接受1.8357298125e−9/208Jac/audit，c57fe4…；首loader schema错误0请求，独立v2修复，见q060-warmup-two-neighbors-original-acceptance。两H不可互借。91135原call1/2同H已接受，原inner成功1934点/RMS9.97758522e−7，raw cubic 671123…及DN锚ec23…均先保存；但新H call3迭4仍3.667965394e−9失败。唯一resource-v3预算3试步只改c8，c9并列峰不变，0选择/无native重试；进程exit0由coupler捕获失败，见q060-saved-inner-new-height-tied-peak。后续可从原inner后的新H查询精确续接，须原门真实接受且补BC/metric/接缝；原message/逐区间RMS缺失不得补造。尚无完整prefix/闭面。
+**q060高幅支** beta4.625：旧parts8失败/未存inner封存，parts16不同H的邻数原接受分别登记，不可互借。旧H 51467原worker接受1.8357298125e−9/208Jac/audit（c57fe4…）；schema/资源修复见q060-warmup-two-neighbors-original-acceptance等notes。91135原call1/2同H已接受，原inner成功1934点/RMS9.97758522e−7，raw cubic 671123…/DN锚ec23…先存；新H call3仍3.667965394e−9失败，唯一自动预算3试步0选择，c8/c9并列峰。只读两行证实c8距flow负1ULP、c9负2ULP；唯一候选各走负1邻数，原replay1.833982697e−9。24526原worker同完整新H迭0接受/208Jac/audit，1153状态逐位同候选（2bbce177…），见q060-saved-inner-newheight-named-pair-acceptance。首loader未执行，v2仅转剩余残差0为float。独立精确续接入口已双审：无restart/warmup/inner0，须新worker同H重确认、原BC及剩余outer1..7、原metric/接缝；缺失message/RMS向量不补造。尚无完整prefix/闭面。
 
 ## 3. 全闭表示与严格连续metric
 
