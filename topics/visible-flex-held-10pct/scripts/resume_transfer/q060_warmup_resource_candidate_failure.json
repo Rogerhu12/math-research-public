@@ -1,0 +1,120 @@
+{
+  "scope": "Completion of the already declared candidate-only calculation after a proven Node heap resource failure; no native solve or mathematical gate changed.",
+  "session": 93784,
+  "terminal_chunk": "efb3ac",
+  "exit_code": 0,
+  "seconds": 29.843960226999997,
+  "command": [
+    "node",
+    "--max-old-space-size=3072",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-io-v2-source/scripts/propose_tail_internal_candidate_v3.mjs",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed_tail_0001.json.gz",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-warmup-parts16-resource-candidate/candidate.json.gz",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-warmup-parts16-resource-candidate/summary.json"
+  ],
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/q060-coupled-parts16-v1/seed_tail_0001.json.gz",
+    "sha256": "adf477252c1dc707ce4fe8975aa9c911aca2f9d4c5113ba300d11b82023c4535"
+  },
+  "outputs": {
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-warmup-parts16-resource-candidate/summary.json",
+      "sha256": "1739d7d7df6f2fdb29429ef792df2129359ef1b47197ad9c61c7215251420fd7"
+    },
+    "candidate": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/q060-warmup-parts16-resource-candidate/candidate.json.gz",
+      "sha256": "e2a7aa5b494be69d4c4e28d43d4bba3c7590fe87f0e3898c4f31affb904578c7"
+    }
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-client-v3.py": "12ff3db3867f4f4919032199e5954b830180a9b3697ed53b6feae4ebca0f86b1",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-port-v3.mjs": "1e3b21204edff4308c4b975f0b072fb7db0f055ba8c8e77b63d5fd938656a36c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-core.mjs": "fdf5943ea9655f98cacd2c749d0155cfad08111c88915ce31b2c832bea68d68e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-stage-split.mjs": "f5b812f74914f19bed0a77b6bf9b0678e82c677a2f9b5aa206746d66034f730c",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/closed_work/q060-recovery-io-v2-source/scripts/propose_tail_internal_candidate_v3.mjs": "b7a8281b12b17c403edc7ba59adf1a7ee72f84a61e8beed0e2562c354dffdcb7"
+  },
+  "original_gate": 2e-09,
+  "alphas": [
+    0.0078125,
+    0.015625,
+    0.03125,
+    0.0625,
+    0.125,
+    0.25,
+    0.3125,
+    0.3333333333333333,
+    0.375,
+    0.5,
+    0.75,
+    1
+  ],
+  "betas": [
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "maximum_passes": 16,
+  "actual_passes": 1,
+  "actual_trials": 3,
+  "selected_passes": 0,
+  "before": {
+    "norm": 3.671459625080514e-09,
+    "minA": 0.529333104523161,
+    "minD": 0.9991344478556847,
+    "boundary_norm": 1.9041882785008488e-22
+  },
+  "full_candidate_replay": {
+    "norm": 3.671459625080514e-09,
+    "minA": 0.529333104523161,
+    "minD": 0.9991344478556847,
+    "matches_local_predicted_norm": true,
+    "boundary_norm": 1.9041882785008488e-22
+  },
+  "state_unchanged": true,
+  "strict_improvement": false,
+  "original_solver_invoked": false,
+  "peak": {
+    "stage": 86,
+    "component": 8,
+    "norm": 3.671459625080514e-09
+  },
+  "best_nonaccepted": {
+    "alpha": 0.5,
+    "beta": 0,
+    "norm": 3.671459625080514e-09,
+    "untouched": 1.8199376260757712e-09,
+    "changes": [
+      {
+        "stage": 86,
+        "component": 8,
+        "before": -956.9067795430643,
+        "after": -956.9067795430644
+      }
+    ],
+    "affected": [
+      {
+        "stage": 85,
+        "norm": 6.117678421052487e-10,
+        "component": 8,
+        "minA": 0.9682792003076743,
+        "minD": 0.9999653071654785
+      },
+      {
+        "stage": 86,
+        "norm": 3.671459625080514e-09,
+        "component": 11,
+        "minA": 0.9832062015009696,
+        "minD": 0.9999659959896416
+      }
+    ]
+  },
+  "structural_observation": "For the beta=0 trial only X86,8 changes. Phi86 depends on X87, so every R86,j with j != 8 is unchanged; the equal post-trial maximum at component11 was therefore also an original tied peak. This is a dependency inference, not a new full-domain locator.",
+  "policy": "Only one completed execution of this saved-state candidate algorithm; no new alpha/beta family or altered residual/gate."
+}
