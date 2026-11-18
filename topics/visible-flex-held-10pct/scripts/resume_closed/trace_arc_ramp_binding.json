@@ -1,0 +1,63 @@
+{
+  "scope": "Bind the completed q060 trace initializer to the R40 radius-monotonic corollary.\n\nOnly exact arithmetic on saved parameters and source hashes is performed.\nNo old integral, core, inverse, collocation, Jacobian or BVP is evaluated.\nThe R40 lower sum is a cited proved input, not recomputed by this script.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/bind_trace_arc_ramp_window.py",
+    "sha256": "0f23207761536784d89723cccbd4808d4be553fda8c38c46c3c4fbeb9703b467"
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/bind_trace_arc_ramp_window.py",
+    "--out",
+    "topics/visible-flex-held-10pct/scripts/resume_closed/trace_arc_ramp_binding.json"
+  ],
+  "completed_initializer": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_circle_trace_initializer_terminal.json",
+    "sha256": "8c478f12c2472a3df75017613e606adf801282a7d5f413aec48e14705bc5aa75"
+  },
+  "R40_proof": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/results/R40-small-q-actual-flat-ramp-characteristic-window.md",
+    "sha256": "9b6c4c434a2994a2f4a6e68e591d6de4232a5e85876b74523c9a71aff79547ac"
+  },
+  "R40_execution": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/smallq_ramp_window_execution.json",
+    "sha256": "330829a9b6ca456b4d4ead8b041af197a011fbe023b8568f7c5cadbbb9d51c82"
+  },
+  "original_source_hashes_verified": 28,
+  "full_seven_control_chain_binary64_verified": true,
+  "complete_physical_control_binary64_sha256": "e32d774d41a3cc331f84b9a836dee43fb5e9d40967ab98156abfba9f520612fe",
+  "radius_definition": "R=1+8*q+t; actual physical trace coefficient t=parameters[-2]*scales[-2]",
+  "exact_parameters": {
+    "q": "7509216343102823/144115188075855872",
+    "t": "24645601482727/562949953421312",
+    "R": "26312274100032071/18014398509481984",
+    "vu": "8106479329266893/18014398509481984",
+    "ramp": "3602879701896397/9007199254740992",
+    "ramp_eta": "3602879701896397/72057594037927936",
+    "delta": "4398594218153105/72057594037927936",
+    "B": "3169521165092534875198278772537/77884452878022411545653683421184",
+    "y": "213299906097914623569940218525403/324518553658426726783156020576256"
+  },
+  "reference_parameters": {
+    "R_min": "164/125",
+    "delta_min": "3/50",
+    "B_min": "10808639105689191/270215977642229750",
+    "y_min": "332365652499942613/562949953421312000"
+  },
+  "cited_strict_lower": "1054413889952207/5000000000000000",
+  "angular_halfwidth": "21/100",
+  "gates": {
+    "radius_above_reference": true,
+    "delta_above_reference": true,
+    "B_above_reference": true,
+    "y_above_reference": true,
+    "y_below_one": true,
+    "inherited_lower_above_halfwidth": true
+  },
+  "physical_inference": "R40 J(B,y) increases in both B and y on 0<=y<1. The same binary64-literal ramp therefore has chi(L)/R > 0.2108827779904414 > .21 for this saved initializer.",
+  "integrals_recomputed": false,
+  "core_constructed": false,
+  "inverse_evaluated": false,
+  "collocation_or_Jacobian_evaluated": false,
+  "BVP_solver_invoked": false,
+  "limits": "This binds a local circular-data cone budget to the saved initializer. It is not BVP existence, disappearance of the circular patch outside the cone, full metric, holding/reach or a terminal-state claim. A later delta or t must satisfy the same stated inequalities anew."
+}
