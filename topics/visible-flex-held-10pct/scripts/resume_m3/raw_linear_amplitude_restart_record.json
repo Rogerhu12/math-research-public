@@ -1,0 +1,92 @@
+{
+  "status": "finite initial-guess check only; no BVP or nonlinear tail solve",
+  "actual_execution": {
+    "session": 55550,
+    "observed_returncode": 0,
+    "observed_utc": "2026-11-18T00:01:15Z"
+  },
+  "full_output": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/raw-linear-amplitude-initializer-probe.json",
+    "sha256": "a7be5f0c1ed5174ba3ec951629cb666863be6e596e75aa26034d47e2f67a260d"
+  },
+  "reproduction_command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_raw_linear_amplitude_restart.py",
+    "--source-topic",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source",
+    "--short-bridge",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--restart",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+    "--linear-port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json",
+    "--amplitude",
+    ".045",
+    "--nodes",
+    "257",
+    "--out",
+    "/workspace/scratch/7322d0dee069/m3_work/raw-linear-amplitude-initializer-probe.json"
+  ],
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_raw_diagnostic_model.py": "7e61ce828751789262b99803172065ff6eaa61eab00d86c6a6fb7ac8ae9fc14e",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/probe_raw_linear_amplitude_restart.py": "97e8744e02c0a0df1e752708d20113c9bb1189847c5fc4f5b1fc3b96e74a2180",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_raw_linear_amplitude_restart.py": "5d83c9836b8627e59406308015fa848f66b1588e578b33fc54de0ccf933067d6",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_endpoint_c2_restart.py": "d817744f6bf6edf57197736d60b83ad6212c60c4cdb3e5b69ba1dce8bced1691"
+  },
+  "checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+    "sha256": "6f5a973c746e1112f827e5478432b9abe9d14931df90157f2a19381cc670b91e",
+    "finite_solver_success": true,
+    "full_metric_scope": "No full-metric acceptance is inferred from accepted_anchor."
+  },
+  "coefficient_chunks": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_coeff_00.npy.gz": "6637680be24885749acace4d688299ade99249c0760558bf5dc7c42186202f22"
+  },
+  "physical_port": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json",
+    "sha256": "aa6d0ec765df62782f129b685eb6b3f081ffc77aa88471a449d03fa1d9128a47"
+  },
+  "q_old_gauge": 0.04,
+  "q_old_actual": 0.03991248545080898,
+  "q_new_gauge": 0.045,
+  "q_new_actual": 0.045,
+  "physical_amplitude_ratio": 1.1274667435948393,
+  "modes": 16,
+  "nodes": 271,
+  "core_settings": {
+    "halfwidth": 0.21,
+    "transition": 0.08,
+    "control_transition": 0.16,
+    "homotopy": 0.02,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768
+  },
+  "source_transformation": {
+    "kind": "raw-physical-controls-linear-amplitude-shared-C2-restart-v1",
+    "original_restart_source_sha256": "68ec34309ea36bf55d09046150a3cfe0dfa47a333dc03470200bccb86c7a96d1",
+    "c2_restart_source_sha256": "f7372834d7eda16ae146689b1a3c805c81e73f3b657126cdc87d3ebdcf1301a6",
+    "changed_restart_source_sha256": "7316c3fbc395137eaf7dfac33129726f5fcfa77f1616d4f254ca6e0b75f7b561",
+    "old_control_expression": "rec['parameters'][j]*rec['central_correction_scales'][j-1]*ratio**(j+1)/self.pscale[j-1]",
+    "new_control_expression": "rec['parameters'][j]*rec['central_correction_scales'][j-1]*ratio/self.pscale[j-1]",
+    "shared_C2_repair_expression": "correction=self.initial(p)-y[:,0]\n    u=np.clip((s-.5*f.prefix_end)/(.4*f.prefix_end),0.,1.)\n    weight=f.profile(s)[0]*(1-u**3*(10-15*u+6*u*u))\n    y+=correction[:,None]*weight[None,:]",
+    "scope": "Compared with the existing shared-C2 restart, only the initial physical-control amplitude factor changes from ratio**(j+1) to ratio. Original material-angle pullback, gauge conversion, mesh, delta initialization, field predictor and C2 window remain. This is neither a solved state nor a fixed-metric refinement."
+  },
+  "linear_formula_error": 1.3234889800848443e-23,
+  "original_power_formula_error": 2.117582368135751e-22,
+  "tail_initial_height_identical": true,
+  "field_outside_C2_repair_identical": true,
+  "field_difference_vs_inlet_repair_formula_error": 1.4132914131527452e-16,
+  "initial_numerical_rho_lower": {
+    "original_power": 0.5760301953703294,
+    "linear": 0.620548734019846
+  },
+  "seed_records": {
+    "/workspace/scratch/7322d0dee069/m3_work/raw-linear-amplitude-initializer-probe-c2-seed.json": "15c5c0fc31b636633d44beb6c5dc54afffb65fca511d50a2c41b26bf90423196",
+    "/workspace/scratch/7322d0dee069/m3_work/raw-linear-amplitude-initializer-probe-linear-seed.json": "d2b650a09db8ea0ddf32190c1e872a269edc2f9fdfc2748a0676a9678414d7b4"
+  },
+  "limits": "This finite probe verifies the intended physical coefficient scaling and unchanged material field outside the shared repair. No full-domain Frenet/metric check or new amplitude solution has been claimed; the running lambda-one job does not import this installer.",
+  "active_endpoint_unmodified": "Session14903 does not import this installer. No new amplitude solve is started before a suitable circle anchor."
+}
