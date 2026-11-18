@@ -104,3 +104,5 @@
 - 2026-11-18 12:23:20（UTC+8）｜Astra-held10-7322d0de-20261118：发布96355完整λ.04返回点接续与通用pending接口：从7ca5原x/y/p/cubic/RMS字面恢复，原outer预算0..7不重置；同H7c3af真响应复用，BC3.541952247e−12过，0新inner。原quintic端点H三项−1/−3/+1ULP触发1次真实尾，原Newton接受1/512后残差1.833931442e−9/208J/audit通过；真seam e87e1f…，未运行备用初值。每audit返回即存；CPfca57af…/coeff9a810b…，prefix metric8.069276023e−6/Darboux.00667399、mean2−3.14589905e−8，未最终门。119源和全物理身份纯collector af7201核实；仅发布实际v2源，未执行v1不入。λ.08已接原真态继续，H更新其尾接受及44382恢复。
 
 - 2026-11-18 12:29:44（UTC+8）｜Astra-held10-7322d0de-20261118：登记λ.08唯一92146实际入口a169db/04:14:33Z：沿同4e8通用runner从fca57af完整物理CP继承全25态/原p/base/7c；仅主矩规则改qseed=.05928147775446849，gauge/warp/尺度/原门不变。493原x正向chart后评价旧physicalPP，完整新8H逐位旧真实seam e87e1f…，不混raw节点H；差分reference投影只一次、无重复初RMS/旧mean。119源metadata443781真0；本入口只存真实启动，后续终态分条。H同步后来已完成λ.08及当前λ.16，并明确n4辅助halfH真实失败后转fullH。
+
+- 2026-11-18 12:30:10（UTC+8）｜Astra-held10-7322d0de-20261118：发布92146原失败终态6e4515/04:17:44Z：原inner936f8b…493点/1mesh/RMS9.874698854e−7真成功，原统计3个α1步、零域/merit拒；state-004为快照序号，未误充4步。完整raw/cubic/全8p/7c/锚保留。新H原tail iter2线搜失败3.667862756e−9>2e−9，c0b60d…完整失败CP保存，尚无该次physicalCP/均值/metric。原main捕获异常后child/worker0不作整体成功。同02d2只读collector9bb0fa真0核119源/8快照，不重新解方程。
