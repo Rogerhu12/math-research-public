@@ -1,0 +1,261 @@
+{
+  "schema": "m3-trace-path-complete-row-neighbors-native-v1",
+  "scope": "One source-bound complete failed-state replay, one simultaneous internal-neighbor initializer, then one unchanged original DN/Jacobian/audit request. The initializer is not an accepted response; acceptance is the real native result.",
+  "design": {
+    "homotopy": 0.04,
+    "modes": 8,
+    "spacing": 3,
+    "quadrature": 128,
+    "steps": 16,
+    "shooting_parts": 16,
+    "solve_tolerance": 2e-09,
+    "gauge_amplitude": 0.06,
+    "support_amplitude": 0.05963857477670898
+  },
+  "sources": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/retain_actual_tail_residual_rows.mjs": "9f31d6c9b107166ccc7abb8b15de81e95a84266c9b536455d7ed868170301ef6",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/propose_complete_row_neighbors.mjs": "65d1ddfece0b7f288a9d2939a986621953b978eca411b70a5bf24a120598844c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_complete_row_neighbor_original_tail.py": "dd4e3a60b162bd0ee7abe7f59e884aac04951770c782e2488cbd85448c98a9da"
+  },
+  "original_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/launch-plan.json",
+    "sha256": "b5146523cfb7e67c32d530b968adbec056dc0afe565bc5a5b39fc14443e9abb0"
+  },
+  "actual_native_source_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-native-neighbors-v1/seed-entry.json",
+    "sha256": "0d63de60083c1acc26b6365ba99d20738cb65a53213b935a4129994aecef7f2e"
+  },
+  "original_failed_tail": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/seed_tail_0001.json.gz",
+    "sha256": "a94402ea667b60d454ffe364a3e3b65a8f2b3572f6c1b86c01baf478de924510"
+  },
+  "complete_rows": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-failed-fullrows-v1/rows.json",
+    "sha256": "e40e6889fb1a4383b177a90ec127687c07e063b18fc864fe40176c4014f3bed6"
+  },
+  "candidate": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/candidate.json.gz",
+    "sha256": "de84795ff1d765fb0c782a07fb2d1e895d0bea6ce40cb528a654750fd2131404"
+  },
+  "candidate_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/candidate-summary.json",
+    "sha256": "d991aa89d522beb4f34c6c44217c78cd3cdba8fe0c9b5b4c18d02f475b9ab8f4"
+  },
+  "native_summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-native-neighbors-v1/seed-summary.json",
+    "sha256": "82ec6f644c1de169234da8056a4f841f4a08f97c9c45e773c70970f8069e60ee"
+  },
+  "accepted_native_tail": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-native-neighbors-v1/seed_tail_0001.json.gz",
+    "sha256": "7c3af1e8d95445cacfc82fbb27f138c9c46d560d9eee5bedd401cb84b87e1e93"
+  },
+  "executions": [
+    {
+      "stage": "complete_failed_state_rows",
+      "session": 38300,
+      "launch_tool_chunk": "1d3cb3",
+      "terminal_tool_chunk": "6de2f3",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "terminal_utc": "2026-11-18T04:02:56Z",
+      "seconds": 34.05106636099663,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-failed-fullrows-v1/resource.json",
+        "sha256": "87b6c966e026249ad0c6ff42ce2533b6a0325b95e3fb5b66cdb6e0bcddae1f2e"
+      },
+      "launch_command": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-failed-fullrows-v1/launch-command.json",
+        "sha256": "97bfe6b834c782366cd6e9b6ee94b2e0c7220162deb2ce7d99db51dda3f65db0"
+      },
+      "command": [
+        "node",
+        "--max-old-space-size=3072",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/retain_actual_tail_residual_rows.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/seed_tail_0001.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/launch-plan.json",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-failed-fullrows-v1/rows.json"
+      ]
+    },
+    {
+      "stage": "one_combined_candidate",
+      "session": 12179,
+      "launch_tool_chunk": "e742cf",
+      "terminal_tool_chunk": "0143f6",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "terminal_utc": "2026-11-18T04:05:45Z",
+      "seconds": 16.009046598002897,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/resource.json",
+        "sha256": "96473b8387b5a461e640a7edddeb8412fcfe1aae6c0dcfb63457736062794f42"
+      },
+      "launch_command": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/launch-command.json",
+        "sha256": "a2ac2a19f84f7ad99b5a72779fc4b7899c25cbb1090eb776170d2747746b5cd1"
+      },
+      "command": [
+        "node",
+        "--max-old-space-size=3072",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/propose_complete_row_neighbors.mjs",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/seed_tail_0001.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-failed-fullrows-v1/rows.json",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/candidate.json.gz",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/candidate-summary.json"
+      ]
+    },
+    {
+      "stage": "original_native_request",
+      "session": 12075,
+      "launch_tool_chunk": "15310d",
+      "terminal_tool_chunk": "3fc436",
+      "observer_returncode": 0,
+      "child_returncode": 0,
+      "terminal_utc": "2026-11-18T04:07:42Z",
+      "seconds": 46.04866766199848,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-native-neighbors-v1/resource.json",
+        "sha256": "95ecec6bafa465de41d6f86758e08f5ef07edd6d318040445aec965ab601ee39"
+      },
+      "launch_command": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-native-neighbors-v1/launch-command.json",
+        "sha256": "29dd4c6214c8128121471b3169b3fd1efc2923a993487eaf165de79c42332659"
+      },
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/solve_complete_row_neighbor_original_tail.py",
+        "--source-topic",
+        "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flexible-closed-surface",
+        "--failure",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-coupled-v2/seed_tail_0001.json.gz",
+        "--complete-rows",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-failed-fullrows-v1/rows.json",
+        "--candidate",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/candidate.json.gz",
+        "--candidate-summary",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-neighbors-v1/candidate-summary.json",
+        "--out-prefix",
+        "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam004-native-neighbors-v1/seed",
+        "--sparse-helper",
+        "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py",
+        "--node-heap",
+        "3072"
+      ]
+    }
+  ],
+  "diagnosis": {
+    "before_norm": 3.6678628847049105e-09,
+    "complete_over_gate_count": 2,
+    "named_changes": [
+      {
+        "node": 86,
+        "component": 8,
+        "before": -955.770089930836,
+        "after": -955.7700899308359,
+        "direction": 1,
+        "signedStep": 1.1368683772161603e-13
+      },
+      {
+        "node": 86,
+        "component": 11,
+        "before": 636.0029318583507,
+        "after": 636.0029318583508,
+        "direction": 1,
+        "signedStep": 1.1368683772161603e-13
+      }
+    ],
+    "unchanged_component_maximum": 1.8339314423524552e-09,
+    "boundary": {
+      "cut": 0,
+      "deep": 1.650002047381066e-40
+    },
+    "full_row_arrays_scope": "Original full 16-component rows and all over-gate components retained only in the bound scratch output; no per-stage argmax can hide a tie."
+  },
+  "candidate_evaluation": {
+    "fresh_original_full_jacobian_rows": [
+      {
+        "stage": 85,
+        "norm": 6.111685245795528e-10,
+        "minA": 0.9679656774274005,
+        "minD": 0.9999645415631904
+      },
+      {
+        "stage": 86,
+        "norm": 1.8339314423524552e-09,
+        "minA": 0.9824943393552437,
+        "minD": 0.9999651914915555
+      }
+    ],
+    "saved_unchanged_component_bound": 1.8339314423524552e-09,
+    "candidate_norm_upper_bound": 1.8339314423524552e-09,
+    "full_candidate_replay_invoked": false,
+    "locality_reason": "Stage n reads only states[n+1] and subtracts states[n]. H/config/scales and node0/deep states are unchanged.",
+    "locality_bound_viable": true,
+    "candidate_accepted": false
+  },
+  "original_native": {
+    "full_request": {
+      "height": [
+        -0.00016709731625990553,
+        6.12852073626482e-06,
+        1.087161126090669e-06,
+        5.780911443348725e-10,
+        -5.266298603539796e-09,
+        -1.1271037313032326e-09,
+        4.393221104593142e-11,
+        1.3758654457095489e-10
+      ],
+      "jacobian": true,
+      "audit": true
+    },
+    "configuration_changed_keys": [
+      "initialCheckpoint",
+      "traceFile"
+    ],
+    "reload_arithmetic": {
+      "cut_radius": 0.3,
+      "ratio": 1,
+      "zero_boundary_correction": true,
+      "finite_states_without_negative_zero": true,
+      "original_solver_invoked": false
+    },
+    "converged": true,
+    "residual": 1.8339314423524552e-09,
+    "last_iteration": 0,
+    "finite_jacobian_entries": 208,
+    "audit_returned": true,
+    "history": [
+      {
+        "iteration": 0,
+        "norm": 1.8339314423524552e-09,
+        "minA": 0.5218915639820443,
+        "minD": 0.9991195358652001
+      }
+    ],
+    "audit_scalars": {
+      "fullD": 0.0003267805724138663,
+      "normalizedFullDefect": 0.0004899795137799645,
+      "minLeading": 0.5218915639820443,
+      "minD": 0.999119553816138,
+      "formalCurvature": 8.409064765815549,
+      "maxPhysicalPV": 0.00033203075500041465,
+      "actualMetric": 4.624395355534716e-08,
+      "holonomy": 3.842088509186303e-19
+    },
+    "final_states_equal_candidate": true,
+    "state_shape": [
+      1153,
+      16
+    ],
+    "native_calls": 1,
+    "worker_returncode": 0
+  },
+  "limits": [
+    "This fixes two observed components of this actual finite state; it is not a universal floating-point floor or a proof that any one-neighbor proposal must pass.",
+    "Original boundary data, physical parameters, equations, normalization and the strict 2e-9 native gate are unchanged.",
+    "The native tail response is real and accepted; no prefix solve or physical postprocessing was executed in this batch.",
+    "The finite tail audit is returned in full. Its scalar readouts are not continuous certificates, nor a separate additional acceptance gate.",
+    "The already successful original prefix inner state is preserved for exact post-tail continuation; its full physical metric is not supplied by this tail-only batch."
+  ]
+}
