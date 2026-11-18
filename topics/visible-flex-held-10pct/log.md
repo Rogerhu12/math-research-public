@@ -150,3 +150,5 @@
 - 2026-11-18 12:59:14（UTC+8）｜Astra-held10-7322d0de-20261118：发布R47独立低层basis/core源：T/U固定物理槽5/6，j>=9为B(j−2)，canonical只精确排列；支撑/原函数/全参数jets/组合t,u抵消预算同步排列。M8直接旧factory，λ0原cosine，M>8 positive只换basis import及原三项guard替换，floor1e−5/32768不变。73a2b1仅AST/11旧源SHA/可逆文本真0，0import实例/新积分/BVP；高层R48状态/lift/mean与新DN仍待实际入口，未宣称高阶数值接受。
 
 - 2026-11-18 13:03:35（UTC+8）｜Astra-held10-7322d0de-20261118：登记未执行observer v1的具体工程误拒并发布独立v2 47993e…：整模块与函数片段compile对同一属性调用产生不同等价co_code，不能互当身份基准。新版本只从完整绑定源compile取唯一audit CodeType（不exec模块），defaults仍片段；原FFT/观察体/三处数学变换/门逐字保。b36d6d文本AST真0，064627具体代码身份输入安装真0、0模型/数组/FFT/audit；closed5f24d6仅读差异未重复。be48与未执行5a07冻结，λ64原source无影响，实际端点将独立绑定v2。
+
+- 2026-11-18 13:06:15（UTC+8）｜Astra-held10-7322d0de-20261118：发布λ.64真实入口98842/783db1：从完整λ.32 CP4794434a…与真cd1f6d…接缝响应继续，同4e8/123源；qseed .054696409291371345由同Q*=binary64(.06)/Pλ给出，gauge/warp/scales/全部物理c/p/base保。完整新H逐字同旧物理H，必要初猜仅原PP同基参考差与共享C2修补，不重RMS/mean/旧inner。此运行在观察模块READY前已启动，旧冻结source不改；终态另条如实登记。
