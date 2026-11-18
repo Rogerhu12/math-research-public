@@ -1,0 +1,262 @@
+{
+  "schema": "m3-native-provider-pending-prefix-completion-v1",
+  "confidence": "Completed finite partial-path prefix/tail/seam; complete metric and seam shortfalls are explicitly retained, not final acceptance.",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/resume_m3_trace_path_native_pending_v2.py",
+    "sha256": "2f359060de3479f297823f7965c36ca2eb445987eff89bfbd76eb323e8190f36"
+  },
+  "provider_helper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/m3_literal_tail_provider_v2.py",
+    "sha256": "287cc3e3d0eb7ccca084dca973be0e17ca72a193b65def16c4b7ecf7fd52fa92"
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/launch-plan.json",
+    "sha256": "cb27e5cd55638d056fd3b257900e9a4eb807053ded0a85245157da4570d3aab9"
+  },
+  "verified_source_count": 204,
+  "provider_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v3/manifest.json",
+    "sha256": "abb2a44fd55d91af60f9f86834ec70e5d40ec73fd8f412eec5ecaaba6bd300be"
+  },
+  "original_runtime_plan": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/launch-plan.json",
+    "sha256": "498fcf2197aef47df981f0936e99c6d2d903e1976c85df4503133317b566d3a5"
+  },
+  "original_pending_raw": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/inner-00-returned.json.gz",
+    "sha256": "8cf33fae278e949488af8f09ebbc178dd910ac07306ca306e1080fa2815f73df"
+  },
+  "original_pending_sidecar": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/inner-00-returned-dn-anchor.json",
+    "sha256": "f8bc77ca3b381c509be7b05775fbb9670a462a765ada554b4003032f8b245ff5"
+  },
+  "old_historical_affine_anchor": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/m3-trace-path-lam032-seam-finish-v1/seed_tail_0000.json.gz",
+    "sha256": "cd1f6d4ae2a5a26b3a2d6b96273a87c482df713d9bb2acdd99b9df21539e0eb5"
+  },
+  "genuine_new_provider_nodal_response": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/seed_tail_0001.json.gz",
+    "sha256": "7682be890f21d5c687a978b8480ebc70e0e3f2aad183ff8cb63177fec1b7c4be"
+  },
+  "scope_of_actual_cache": "Only true accepted native responses. Historical V8 affine anchor stays in original raw provenance and is not substituted for actual data.",
+  "checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/seed.json.gz",
+    "sha256": "f55b4fbb0a05483a7ac67dcd352bbc58cb8371a8db5f7a4a476c954a9ae7ea5b"
+  },
+  "complete_physical_chunks": [
+    {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/seed_coeff_00.npy.gz",
+      "sha256": "e5148564e1847f07764ea9271bfb0fc5149240accfe6c70920edc5059084f4ce"
+    }
+  ],
+  "summary": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/seed-summary.json",
+    "sha256": "0d1c55fca4e86c7398756bba6956c47d529e50cafe4a380a1c44f6e3d9fd951e"
+  },
+  "runner_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/runner-terminal.json",
+    "sha256": "19b8df77f073134d856886912473882d34cb6fcfb403153f8be1d008fd0b96e5"
+  },
+  "state_identity": {
+    "lambda_value": 0.64,
+    "nodes": 518,
+    "state_components": 25,
+    "raw_cubic_reused": true,
+    "old_inner_solver_calls": 0,
+    "new_inner_solver_calls": 0,
+    "parameters": [
+      -1.3940640122370465e-05,
+      0.19470489766693902,
+      1.653358570752738,
+      -28.86927998202781,
+      263.22976650195017,
+      -951.8452491446707,
+      -30067.90072916219,
+      150687.45970227674
+    ],
+    "parameter_scales": [
+      0.0036,
+      0.00021599999999999996,
+      1.2959999999999998e-05,
+      7.775999999999999e-07,
+      4.665599999999999e-08,
+      2.7993599999999993e-09,
+      1e-09
+    ],
+    "physical_controls": [
+      0.0007009376316009805,
+      0.00035712545128259134,
+      -0.00037414586856708034,
+      0.00020468746643191642,
+      -4.4409291944093745e-05,
+      -8.417087858518745e-05,
+      0.00015068745970227675
+    ],
+    "parameters_and_controls_equal_original_raw": true,
+    "q_gauge": 0.06,
+    "warp_reference": 0.06,
+    "seed_support_amplitude": 0.054696409291371345,
+    "path_base_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.06104275721220832,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "frozen_profile": {
+      "direction": "outward",
+      "vu": 0.45,
+      "vd": 0.5,
+      "ramp": 0.4,
+      "ramp_eta": 0.05,
+      "ramp_law": "flat",
+      "cycles": 1,
+      "delta": 0.061028816572085955,
+      "prefix_bridge": {
+        "kind": "turn_plateau_v1",
+        "curvature": 4.0,
+        "peak_fraction": 0.2
+      }
+    },
+    "meridian_length": 1.3601543124779623,
+    "lift_strength": 0.64,
+    "lift_window": [
+      0.5,
+      0.9
+    ]
+  },
+  "actual_outer_checks": [
+    {
+      "outer": 0,
+      "inner_success": true,
+      "actual_boundary_residual": 2.342244904990641e-10,
+      "actual_tail_residual": 9.168793301146043e-10,
+      "tail_calls": 0
+    }
+  ],
+  "prefix_audit": {
+    "metric_l1": 0.0008726888545969053,
+    "flow_defect": 0.010824595298573743,
+    "darboux_l1": 0.5517054705331152,
+    "kappa_sample": 9.419403498043337,
+    "radius_max": 1.0901966099630407,
+    "height_max": 0.7825593626587575,
+    "root_min": 0.00247981223823579,
+    "chart_rho_min": 0.5199999999999999,
+    "support_amplitude": 0.054696409291371345,
+    "terminal_height_coeff_max": 0.0001671130606594921,
+    "physical_bc_max": 4.684489809981282e-12,
+    "samples_s": 1184,
+    "samples_psi": 512
+  },
+  "inlet_audit": {
+    "partial_lift_strength": 0.64,
+    "scope": "The finite inlet is (1-lambda) times its original finite projection plus lambda times the defining core. No zero metric or exact-core inlet is claimed at intermediate lambda.",
+    "unlifted_projection": {
+      "position": 2.6952836423754682e-05,
+      "first": 0.0008682219886724545,
+      "second": 0.029269097532140912,
+      "metric_l1": 9.313510684359569e-06
+    }
+  },
+  "tail_seam": {
+    "tail_record": "seed_tail_0001.json.gz",
+    "tail_converged": true,
+    "tail_shooting_residual": 9.168793301146043e-10,
+    "mean_first_actual": 0.07977128741497377,
+    "mean_first_expected": 0.0798092902857346,
+    "mean_first_mismatch": -3.8002870760819873e-05,
+    "mean_second_actual": 1.840962598261152,
+    "mean_second_expected": 1.8400744337192296,
+    "mean_second_mismatch": 0.0008881645419223094,
+    "nonmean_first_mismatch": 4.684489775252931e-12,
+    "nonmean_second_mismatch": 3.157826662289476e-05,
+    "cut_metric_fft_l1": 6.100434771523486e-05,
+    "cut_metric_c1_fft_l1": 0.0009590409752665077,
+    "angular_samples": 512
+  },
+  "genuine_seam_response": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/seed_tail_0001.json.gz",
+    "sha256": "6074075cd20246b71dc6cf0bcb76b1dd1c75afc7c85db8fa835c935f27a284a0"
+  },
+  "seam_native_history": [
+    {
+      "iteration": 0,
+      "norm": 9.168793301146043e-10,
+      "minA": 0.5217377678289254,
+      "minD": 0.9991188300565388
+    }
+  ],
+  "seam_J_entries": 208,
+  "seam_audit_returned": true,
+  "actual_nodal_H": [
+    -0.0001671130606594921,
+    6.1403226896268306e-06,
+    1.0829420854628177e-06,
+    3.595393508470172e-10,
+    -5.1858715155343895e-09,
+    -1.1847223849804272e-09,
+    -9.562584254780451e-10,
+    5.11231182626892e-09
+  ],
+  "actual_physical_seam_H": [
+    -0.0001671130606594921,
+    6.1403226896268306e-06,
+    1.0829420854628177e-06,
+    3.595393508470176e-10,
+    -5.185871515534389e-09,
+    -1.1847223849804272e-09,
+    -9.562584254780451e-10,
+    5.11231182626892e-09
+  ],
+  "actual_worker_calls": 1,
+  "scope_of_new_mean": "Original adaptive.audit recomputed the actual partial-flow mean through height_integral; no old mean trajectory was copied.",
+  "execution": {
+    "session": 46055,
+    "launch_tool_chunk": "dd0c23",
+    "terminal_tool_chunk": "e7ac9f",
+    "observed_utc": "2026-11-18T05:38:36Z",
+    "observer_returncode": 0,
+    "child_returncode": 0,
+    "worker_returncode": 0,
+    "seconds": 46.03246319699974,
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/resource.json",
+      "sha256": "2a2d344733471984b3b1b78c9b1ea0abecede932896e9d2cbc7729e7009c63a8"
+    },
+    "launch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/launch-command.json",
+      "sha256": "2d35f7d6b1389067dbe567b0c485f961b950daf4e5bf70b378b1919287704f37"
+    },
+    "events": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/entry-events.jsonl",
+      "sha256": "aaf49f5e09440f336a47bbe1165f843b7d3ee978e21f22cc508da9bf1c7f44e1"
+    },
+    "stdout": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/stdout.log",
+      "sha256": "d00f418011e0c7b3a342edcbbf9855529fe5b7ace56a47662dbd63a56b4c1695"
+    },
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/resume_m3_trace_path_native_pending_v2.py",
+      "--run-plan",
+      "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-resume-v1/launch-plan.json"
+    ]
+  },
+  "scope_boundaries": [
+    "Original returned raw cubic restored, followed by original actual BC/history. No repeated inner or same-H DN confirmation.",
+    "All originally remaining outer indices retained; outer0 passed so no new inner was needed.",
+    "Original physical C2 export, complete mean/metric audit and actual different-H seam ran; prefix audit was saved before seam.",
+    "Intermediate metric, Darboux and mean/nonmean seam errors are not hidden or declared within final gates.",
+    "No additional FFT/component-location audit was performed on this completed lambda=.64 state.",
+    "This is a finite continuation anchor for the separately executed literal lambda=1 entry, not fixed-full-parameter convergence or completed 10% geometry."
+  ]
+}

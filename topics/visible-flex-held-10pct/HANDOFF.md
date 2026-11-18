@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`538523ebf27bc52077384509591dcf0469cd6735`。2026-11-18 13:43:33（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`b6b583a773d39f057648d17b0704b87d85e1e194`。2026-11-18 13:44:23（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -38,7 +38,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **R44** 偶C4/C3、低两矩零且弧上rho常数的空间=X0直和span{SA,SB}；弧迹1/cos(d)分别改半径/圆心，T=SA−SB、U=SB。替末两列保维但改变span；真积分/组合guard/链式导数已核，不证BVP/连续几何。旧完整两jet失败、唯一半步guard正但RMS3.80379，未BVP/尾，见circle-trace-space及half-twojet notes。
 
-**旧raw主矩匹配** q=.03469511580330426初猜未过BVP；见primary-matched-amplitude/trace-initializer。已转q060，不重跑或移用R38/40/41数值界。
+**旧raw主矩匹配** q=.03469511580330426未过BVP；见primary-matched-amplitude/trace-initializer。不重跑/移用旧界。
 
 **R46新迹条件窗** R38同主核q∈[.0849,.0851]、完整even/C3控制rho范数≤.08且t−u≥−.025时，重新用实际R=1+8q+t/c=qC*+t−u选择固定H/相位，条件held/D>.1022。完整图/metric/收敛仍未付；不套partialλ，见R46。
 
@@ -52,7 +52,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **R47/R48/R49升模** T/U固定槽，附B7等；补零保定义核，partial入口仍有投影差。R48以ZN=E ZM+λaχ(IN−E IM)保完整连续表示；R49由无均值场同一推出同正Frenet速度、uniformψ均值与同初值真原函数相同，非循环假设；同节点精确求积相同不证跨M浮点/新quintic。d533b9/fe7dec高层接口已备：真端点、完整新维port、physicalPP三块两jet/新chart、旧δ重基一次。p0和c仍自由，非全参数固定精化；实际新mean/audit/尾仍须执行。
 
-**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16/.32完整锚已存但metric未门。λ.64原inner8cf33…518点/11全步/RMS9.88665e−7已过；753aa9…原尾3.66752e−9失败。2756反向局部反增2.16384e−7、63447保旧内部失败8.32100e−5，均不续。独立n3 double/V854输出/130176事件逐位同，三点LD .1非全改善；生产floor=.05，范围不混。v1/v2缺输入均ready前0DN；v3 abb2a…补齐9资源。92035原DN两全步1.46701e−8→3.66752e−9→9.168793301e−10真接受7682be…/208J+audit；原门未改、全近态原样。46055不重inner完成CPf55b4f…，metric8.726888546e−4未门；原seam另H真尾607407…；详细记录随后。38274/31bbd3已由该完整锚启动λ1，原7p/gauge/warp和门保持，47993只观察必需audit；进行中，非闭合/固定全参数收敛。
+**R45新路径** qseed=同binary64(.06)/Pλ，保gauge/warp/7pscale/base+p0。λ.02/.04/.08/.16/.32完整锚已存但metric未门。λ.64原inner8cf33…518点/11全步/RMS9.88665e−7已过；753aa9…原尾3.66752e−9失败。2756反向局部反增2.16384e−7、63447保旧内部失败8.32100e−5，均不续。独立n3 double/V854输出/130176事件逐位同，三点LD .1非全改善；生产floor=.05，范围不混。v1/v2缺输入均ready前0DN；v3 abb2a…补齐9资源。92035原DN两全步1.46701e−8→3.66752e−9→9.168793301e−10真接受7682be…/208J+audit；原门未改、全近态原样。46055真0，0新inner、outer0 BC2.34224e−10；CPf55b4f…/metric8.726888546e−4、Darboux.55170547；另H真seam607407…/mean2差8.881645419e−4，均未最终门。38274/31bbd3已由该完整锚启动λ1，原7p/gauge/warp和门保持，47993只观察必需audit；进行中，非闭合/固定全参数收敛。
 
 ## 3. 全闭表示与严格连续metric
 
