@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`9419995ff24cca89e88e0fc4d8d5e41fd0186956`。2026-11-18 08:24:11（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`c72a549e16291780c7000dc2dd9c8df1b2e251c9`。2026-11-18 08:25:45（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -26,7 +26,7 @@ R30共享engine的576段/990760标量逐位同、576→8。旧q.0175/.015及低�
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮metric.421880失败，参考重投影/实际Jac右坐标无收益。仅C²窗36328仍4196点触6000门/RMS6.33004/metric.346343328；最终真尾通过不补前缀，见m3-circle-endpoint-c2-seed-complete-failure。失败physical quintic重建方向21α全core拒，非失存raw cubic或历史全部拒绝，见endpoint-domain-rejection-is-grid-bound。新全域ρ″的Bh²/8充分界保原双界/1e−5/32768，28组几何jets逐位同；20缩步仅guard过，见raw-core-second-order-guard。14903初p/c/H/profile/repair同旧入口，仅guard及trace变，终态另记；δ未知、非固定g精化，仍无λ1接受前缀。
+**λ1端点** q=.03991248545080898/a=.21/bp=.32/bc=.4/M16：首轮metric.421880失败，参考重投影/实际Jac右坐标无收益。仅C²窗36328仍4196点触6000门/RMS6.33004/metric.346343328；最终真尾通过不补前缀，见m3-circle-endpoint-c2-seed-complete-failure。失败physical quintic重建方向21α全core拒，非失存raw cubic或历史全部拒绝，见endpoint-domain-rejection-is-grid-bound。新全域ρ″的Bh²/8充分界保原双界/1e−5/32768，28组几何jets逐位同；20缩步仅guard过，见raw-core-second-order-guard。14903同初p/c/H只改guard仍失败：3469点触6000门/RMS3.70555，165域拒/34merit拒/16步；完整失败quintic d95ed7…先存，后prefix/seam审计抛Frenet −6.34619e−7，具体子调用无traceback不可定。未保存metric/接缝报告，无新H尾，只有2次初H接受；见m3-endpoint-second-order-guard-terminal。δ未知、非固定g精化，仍无λ1接受前缀。
 
 同271点/全15c/C²初猜的五半宽a=.01/.05/.10/.15/.21，λ1原RMS=.4228/.7022/1.1744/1.9491/3.0015；原初域均过/H同actual锚。W_a与低2×2投影随a变，全部basis身份已锁，非相同控制函数或连续证明，见m3-circle-halfwidth-initializer-probe。仅支持先短圆弧再扩到a.21的路径，无新BVP/10%继承。
 

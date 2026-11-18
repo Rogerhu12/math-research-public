@@ -1,0 +1,293 @@
+{
+  "status": "Complete original-gate failure; no accepted lambda-one prefix",
+  "actual_execution": {
+    "session": 14903,
+    "observed_returncode": 0,
+    "launcher_returncode": 0,
+    "worker_exit": {
+      "events": [
+        {
+          "reason": "close",
+          "returncode": 0,
+          "calls": 2,
+          "unix_time": 1794960566.5596707,
+          "stderr_path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_tail_worker_stderr.log",
+          "stderr_bytes": 0
+        }
+      ]
+    },
+    "prefix_coupler_seconds": 1363.0781772136688,
+    "wrapper_seconds": 1365.8693474890024,
+    "interpretation": "The wrapper catches the recorded audit exception; exit 0 is not mathematical acceptance."
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_endpoint_c2_guard.py",
+    "--source-topic",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source",
+    "--short-bridge",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--homotopy",
+    "1",
+    "--round-halfwidth",
+    "0.21",
+    "--round-transition",
+    "0.32",
+    "--control-transition",
+    "0.4",
+    "--profile",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/profile.json",
+    "--chart",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json",
+    "--linear-port",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json",
+    "--tail-config",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/config.json",
+    "--out-prefix",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed",
+    "--restart",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz",
+    "--amplitude",
+    "0.03991248545080898",
+    "--warp-reference",
+    "0.04",
+    "--modes",
+    "16",
+    "--angular",
+    "512",
+    "--audit-angular",
+    "1024",
+    "--nodes",
+    "1143",
+    "--max-nodes",
+    "6000",
+    "--tol",
+    "1e-06",
+    "--bc-tol",
+    "1e-07",
+    "--physical-bc-tol",
+    "2e-09",
+    "--node-heap",
+    "3072",
+    "--warmup-scales",
+    "1",
+    "--lagged-tail"
+  ],
+  "input_sha256": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed.json.gz": "6f5a973c746e1112f827e5478432b9abe9d14931df90157f2a19381cc670b91e",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_tail_0004.json.gz": "220fab12b9d25daa0f23c91f00945321b9c447813b3120281aa00d2793dd1910",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/prefix-port.json": "aa6d0ec765df62782f129b685eb6b3f081ffc77aa88471a449d03fa1d9128a47",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/chart.json": "14f326e2b63f681616ee2391671f029d5da5fb8e20f8d204b3298d0d66d50a0e",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "input_coefficient_chunks": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q040-raw-lam002-fixed-m16-neighbor/seed_coeff_00.npy.gz": "6637680be24885749acace4d688299ade99249c0760558bf5dc7c42186202f22"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_endpoint_c2_guard.py": "3e5f21c246ddd8b94e0dad1c55db2adc98784e1348a4944e0d0a568f262710ce",
+    "/workspace/scratch/7322d0dee069/m3_work/recovered-valley-design/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py": "7e00a3336a302ba94c751c09e6f75749d6973c86605269538c8f0b44c60779b4",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-coupled.py": "711de62631e019a212c405ddedbef06cc552ada50ab248201c4cc6d65878525a",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/950f-prefix-adaptive-chart-bvp-v2.py": "958a9e2e428f8d64dfc786bed515bad77a208433fa16af7cbbe6f03b1bcc7ebe",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/db6f-prefix-flat-profile.py": "5066cd6d8f94d3b22c0450cc2016df6f90d04efb85d7a13bc833c11868eaaa4b",
+    "/workspace/scratch/7322d0dee069/m3_work/shared-neighbor-source/scripts/78718-prefix-fourier-jacobian.py": "aaaaafc290401164cbf2eaecd131dd5f866135b69ffe4805b70907fb8e12e462",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/install_endpoint_c2_restart.py": "d817744f6bf6edf57197736d60b83ad6212c60c4cdb3e5b69ba1dce8bced1691",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_endpoint.py": "0fb635b6474538fce7c61a877a04d63f001252daa690fc722822bf0c55061238",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/couple_m3_raw_circle_endpoint_c2_seed.py": "22dd76e07687e1dfe94dba2d4a8512f3ee42b9a17e94667047905075a8e32bb3",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/raw_second_order_core.py": "79b7ddec4c3721e575816c30f94fb441bb76acb215d3453abe3cdce501850e24",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/analytic_adaptive_core_jac.py": "da6690d9f11eac38cec0acee31aa07555a8d1ddd81c1b24997db0421ea19e431",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/complementary_moment_basis.py": "aa48a458a5146deda566588d4d19a408be4a9d45306469a788f7b9d9071af35c",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_core_lift.py": "28936553078df9d1a2c6486fab1613c20fd7cfdb9b4134d4c95e1d60fa5623f5",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/exact_lift_parameter_jac.py": "f64b51e434e4050a8c46bc5ea1376c824413679ec6e8bee2be7bc221021d8b89",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/fixed_large_radius_core.py": "00f23e03fb736ece6d461ffb082c8bb598a8c4200d3f60b5e8d752731163ffba",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/large_radius_local_core.py": "f6b040996f6953fe968b5badf62244ce63f50accac790d5c308dd4543a36a48a",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/moment_interval_bounds.py": "ca77a9f8cfba9f88defa37993644dc5bd66c29dbdf737bae7d69243d97f85257",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/plateau_core.py": "0db6b2aaf7ecce94eb2f2cda926b5e1f12c3da99656c0e5d0f4b9e3c7dddee34",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/round_raw_lib/tight_moment_interval_bounds.py": "9e630a109aac1393f34c02912a61ca960da2d4a3c0b4075182467df46f1cc83f"
+  },
+  "collector_sha256": "89964e8368a3bfc1772e63493297ee5d9d5b0fc2b464eb196ce27b7b237a532a",
+  "terminal_files": {
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/continuation-command.json": "f0d6747cebedcd65e71e8df9743a77700af3c9f8493ff5723e30c25a30397f50",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed-summary.json": "e3b185de89ccaa5222f498269311a45176bd06f7ec03343a48e9946abc4638b4",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed-round-record.json": "f28c6a0d1c38100a7aedcc778da32ab9259945be3966a7d44df93f085b9550fe",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed-c2-restart-record.json": "cce1cb3682a92f3981ad2b318543c2c3725d09527623178f68d91ad5dabcdab7",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_tail_worker_exit.json": "43fe15f12263aa7e3fbdb5320dd3c11287ccb2df1b977a5f2662cfd09b5e9c64",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_tail_worker_stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/worker-trace.jsonl": "2bf50d8f3f55cf1e333b358fafa2f89bb3a242de6d4dbf455b09849f1e09f2ea"
+  },
+  "partial_physical_checkpoint": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed.json.gz",
+    "sha256": "d95ed7f6888fe9ad35447fb5b1e477cddfe047f3923fc2eed1eb5ed67b7f407e",
+    "chunks": [
+      {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_coeff_00.npy.gz",
+        "sha256": "653d4c68ed7fc8b04cd9a296bb981e22768a427b0c09e78e023a7bb6a00e7953",
+        "shape": [
+          6,
+          3468,
+          26
+        ],
+        "state_first": 0,
+        "state_last_exclusive": 26
+      },
+      {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_coeff_01.npy.gz",
+        "sha256": "8b8ec30d268ac8f38bc3a2ee902f537432a08c5863ced6a64353329104e5312d",
+        "shape": [
+          6,
+          3468,
+          23
+        ],
+        "state_first": 26,
+        "state_last_exclusive": 49
+      }
+    ],
+    "role": "Saved before adaptive.audit. Complete physical quintic representation of a failed inner iterate; not an accepted prefix or recovered original raw cubic."
+  },
+  "inner": {
+    "solver_success": false,
+    "message": "The maximum number of mesh nodes is exceeded.",
+    "nodes": 3469,
+    "max_rms_collocation_residual": 3.70554950990657,
+    "newton_domain_audit": {
+      "calls": 2,
+      "rejected_domain_trials": 165,
+      "rejected_merit_trials": 34,
+      "accepted_steps": 16,
+      "no_step": 0,
+      "minimum_alpha": 1.9073486328125e-06
+    },
+    "actual_outer_checks": [
+      {
+        "outer": 0,
+        "inner_success": false,
+        "message": "The maximum number of mesh nodes is exceeded."
+      }
+    ]
+  },
+  "profile": {
+    "direction": "outward",
+    "vu": 0.45,
+    "vd": 0.5,
+    "ramp": 0.4,
+    "ramp_eta": 0.05,
+    "ramp_law": "flat",
+    "cycles": 1,
+    "delta": 0.06068237630000981,
+    "prefix_bridge": {
+      "kind": "turn_plateau_v1",
+      "curvature": 4.0,
+      "peak_fraction": 0.2
+    }
+  },
+  "q_gauge": 0.03991248545080898,
+  "actual_q": 0.03991248545080898,
+  "core_settings": {
+    "halfwidth": 0.21,
+    "transition": 0.32,
+    "control_transition": 0.4,
+    "homotopy": 1.0,
+    "center": 1.0471975511965976,
+    "bimodal_eta": 0.0,
+    "lock_fundamental": true,
+    "coefficient_precision": 80,
+    "positivity_grid_max": 32768
+  },
+  "numerical_rho_guard": "triangle-first-plus-C2-grid-v1",
+  "parameters": [
+    -0.0003690378026070394,
+    1409.785521173587,
+    -31612.697983853603,
+    676955.8442490561,
+    -13818400.898140322,
+    267933731.28538933,
+    -794489752.7776587,
+    548657192.9308916,
+    -354353094.6913274,
+    211965333.12744215,
+    -116020571.83484516,
+    57313336.36632795,
+    -24675464.713124726,
+    8994104.475683061,
+    -2497026.777104079,
+    455019.62444278586
+  ],
+  "central_correction_scales": [
+    0.0015930064948610383,
+    6.35808485491854e-05,
+    2.5376696926694513e-06,
+    1.0128470468762837e-07,
+    4.042524302234451e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "physical_controls": [
+    2.245797491590578,
+    -2.0099621627425344,
+    1.717890329226291,
+    -1.3995926542234012,
+    1.0831286201095416,
+    -0.7944897527776588,
+    0.5486571929308917,
+    -0.3543530946913274,
+    0.21196533312744217,
+    -0.11602057183484517,
+    0.057313336366327954,
+    -0.024675464713124727,
+    0.008994104475683062,
+    -0.002497026777104079,
+    0.00045501962444278587
+  ],
+  "tail_calls": [
+    {
+      "call": 1,
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_tail_0001.json.gz",
+      "sha256": "2d2913588b14ea252078507384535ec4a8a1f5d5a2416f27164afeae13dae6e3",
+      "original_gate": 2e-09,
+      "residual": 1.3784657706205187e-09,
+      "request_jacobian": false,
+      "request_audit": true,
+      "returned_jacobian_entries": 0,
+      "full_finite_audit_returned": true,
+      "last_iteration": {
+        "iteration": 1,
+        "norm": 1.3784657706205187e-09,
+        "minA": 0.7427151521096758,
+        "minD": 0.9994289564949012
+      }
+    },
+    {
+      "call": 2,
+      "path": "/workspace/scratch/7322d0dee069/m3_work/beta4625-q039912-raw-lam1-b032-w040-m16-c2guard/seed_tail_0002.json.gz",
+      "sha256": "0401a64dbf05925e8287807bc6f01d273f32479177a893dddb594349b478fcb7",
+      "original_gate": 2e-09,
+      "residual": 1.3784657706205187e-09,
+      "request_jacobian": true,
+      "request_audit": false,
+      "returned_jacobian_entries": 800,
+      "full_finite_audit_returned": false,
+      "last_iteration": {
+        "iteration": 0,
+        "norm": 1.3784657706205187e-09,
+        "minA": 0.7427151521096758,
+        "minD": 0.9994289564949012
+      }
+    }
+  ],
+  "new_candidate_height_queried": false,
+  "subsequent_audit": {
+    "error": "FloatingPointError('Adaptive Frenet domain failure: -6.346191867567796e-07')",
+    "metric_report_saved": false,
+    "seam_report_saved": false,
+    "location_scope": "Control flow and the saved pre-audit checkpoint locate the error after the inner failure, within the subsequent prefix/seam audit phase. Both adaptive.audit and the initial velocity_s in seam_audit can raise this error before another tail call. No original traceback was recorded, so the exact subcall and radial/material point are unresolved; absence of a saved metric does not prove adaptive.audit had not returned."
+  },
+  "limits": "New second-order rho allowance preserved all equations and gates but did not produce a lambda-one prefix. No global metric or geometry result is available for this failed iterate; the two accepted tail responses belong only to the unchanged initial H."
+}
