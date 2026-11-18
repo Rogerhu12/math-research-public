@@ -1,0 +1,121 @@
+{
+  "schema": "m3-preserved-first-native-batch-comparison-v1",
+  "scope": "Compare preserved native wires with preserved independent n3 fixtures.\n\nRead and serialize data only: never import a model, run a native library,\nevaluate a flow, solve a root, or repeat an accepted tail. The three fixture\noutputs use floor .1; the actual first full batch uses the original floor\n.05. Equality of their saved binary64 outputs does not assert equality of\nunrecorded extended-precision internal trajectories or of all other stages.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/compare_m3_native_first_batch.py",
+    "sha256": "bbeb7aa62086a88db27fbaf21a33c88baf82950ef70be2b9c832b82f864a4dc4"
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/compare_m3_native_first_batch.py",
+    "--workspace",
+    "/workspace/scratch/7322d0dee069",
+    "--out",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/m3_preserved_native_first_batch.json"
+  ],
+  "observed_utc": "2026-11-18T05:46:20.557600+00:00",
+  "references": {
+    "input": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/native-provider-runs/0001-jac-input.bin",
+      "sha256": "aa63eaaaa080b2c195f4d3331e6e462ab9aeb9eda74bbb7622b60e8d9f10589c"
+    },
+    "output": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/native-provider-runs/0001-jac-output.bin",
+      "sha256": "c699ebd03472c8be0a276533470863eee3b957948110949137bfa95a6bda8e6c"
+    },
+    "coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "739f2c6f79dacbaf2e9612eae34898a3f9cc762940384ccb51e45a32af241769"
+    },
+    "fixture_outputs": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-baseline-v1/native-check/raw.json.gz",
+      "sha256": "3d5d664bd05bbaf9ef0db8a9398b17c02a213badc7610060a6bcf9e1fde2663e"
+    },
+    "original_failed_tail": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-coupled-v1/seed_tail_0001.json.gz",
+      "sha256": "753aa9ec4584f0bafa216acbfaffe98fab44a0369e914ca06c7c739d81b365c4"
+    },
+    "ABI_helper": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "provider_manifest": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/native-literal-adapter-v3/manifest.json",
+      "sha256": "abb2a44fd55d91af60f9f86834ec70e5d40ec73fd8f412eec5ecaaba6bd300be"
+    },
+    "actual_first_batch": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/native-provider-runs/0001-jac-record.json",
+      "sha256": "ac3532ab6e30b70213ea6b91e55b69deb2e3d3608e5315d9e1ebaa0c3fc7237f"
+    },
+    "parallel_record": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/trace-path-lam064-native-literal-v3/native-provider-runs/0001-jac-output.bin.parallel.json",
+      "sha256": "6e6a04197afe0b8b739a0417958760aa6901aee96aff24b76984f24fc7f5ac3e"
+    }
+  },
+  "actual_floor": 0.05,
+  "independent_fixture_floor": 0.1,
+  "unchanged_original_initial_stage_count": 1152,
+  "original_physical_state_values": 18432,
+  "original_zero_auxiliary_values": 2304,
+  "shared_halving_and_trig_bytes_equal": true,
+  "first_batch_state_values": 20736,
+  "first_batch_tangent_values": 331776,
+  "all_output_stage_indices_and_statuses_valid": true,
+  "comparisons": [
+    {
+      "stage": 86,
+      "input_body_equal": true,
+      "actual_input_body_sha256": "bc228ef3b21723a4aaa415a148faa5d3d119736413a40337032246298a5a4264",
+      "fixture_input_body_sha256": "bc228ef3b21723a4aaa415a148faa5d3d119736413a40337032246298a5a4264",
+      "literal_steps": 16,
+      "unique_coefficient_points": 33,
+      "binary64_state_equal": true,
+      "binary64_tangent_equal": true,
+      "state_sha256": "f5911c7fcf1dacf8bb4f7f7238c66f5cc3a71d0a6968644b1707691d617d02e0",
+      "fixture_state_sha256": "f5911c7fcf1dacf8bb4f7f7238c66f5cc3a71d0a6968644b1707691d617d02e0",
+      "tangent_sha256": "123e2d877245d78442aef22cf5e2b872a5712dd8936324da2ba38d000f2a0300",
+      "fixture_tangent_sha256": "123e2d877245d78442aef22cf5e2b872a5712dd8936324da2ba38d000f2a0300",
+      "state_values": 18,
+      "tangent_values": 288
+    },
+    {
+      "stage": 87,
+      "input_body_equal": true,
+      "actual_input_body_sha256": "52c36ae84765f8c10829fa06624a424905141969df382004abeb950c4439bd1d",
+      "fixture_input_body_sha256": "52c36ae84765f8c10829fa06624a424905141969df382004abeb950c4439bd1d",
+      "literal_steps": 16,
+      "unique_coefficient_points": 33,
+      "binary64_state_equal": true,
+      "binary64_tangent_equal": true,
+      "state_sha256": "6574507074392b2acd3a5562846b5a33f3408d73446cc5569dea9d8b9fc0ab4e",
+      "fixture_state_sha256": "6574507074392b2acd3a5562846b5a33f3408d73446cc5569dea9d8b9fc0ab4e",
+      "tangent_sha256": "78d2b8a70d059943c5c0b881d64bebc83f313a31ec5b413caae718a172612232",
+      "fixture_tangent_sha256": "78d2b8a70d059943c5c0b881d64bebc83f313a31ec5b413caae718a172612232",
+      "state_values": 18,
+      "tangent_values": 288
+    },
+    {
+      "stage": 88,
+      "input_body_equal": true,
+      "actual_input_body_sha256": "2bef42f0832292fc611337840f3f9962ad45736bd062ea9046d47241399b3e6a",
+      "fixture_input_body_sha256": "2bef42f0832292fc611337840f3f9962ad45736bd062ea9046d47241399b3e6a",
+      "literal_steps": 16,
+      "unique_coefficient_points": 33,
+      "binary64_state_equal": true,
+      "binary64_tangent_equal": true,
+      "state_sha256": "ff654fb92bab9e198f4ec1c70255459a672436f586484e82343c3c03a5994b35",
+      "fixture_state_sha256": "ff654fb92bab9e198f4ec1c70255459a672436f586484e82343c3c03a5994b35",
+      "tangent_sha256": "9d80cbe7258ffc1222c6e5bbc22d966906c1af7b0018c30412ea2a4fc3b17847",
+      "fixture_tangent_sha256": "9d80cbe7258ffc1222c6e5bbc22d966906c1af7b0018c30412ea2a4fc3b17847",
+      "state_values": 18,
+      "tangent_values": 288
+    }
+  ],
+  "all_three_inputs_equal": true,
+  "all_three_binary64_outputs_equal": true,
+  "new_flow_evaluations": 0,
+  "new_DN_calls": 0,
+  "new_root_calls": 0,
+  "internal_native80_trajectory_equality_claimed": false,
+  "continuous_or_all_stage_floor_equivalence_claimed": false
+}
