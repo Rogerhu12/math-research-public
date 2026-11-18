@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`4d21d76a8212f0611426396ecce5d2f60e531a28`。2026-11-18 10:33:53（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`2d16c75f3fc1b99850d3b860056e7e00af821592`。2026-11-18 10:34:54（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：19c/free-c8前缀有限metric8.91017947e−7仍linear DN/非精化。真实.2H/.5H、parts16/32及邻数原DN均失败；最新b4356…重放同7.42928942e−9、六超门37–40/43–44，单ULP/scale<门，非机器下界，无接受尾。见n4-primary-width/parts32 notes。原float126输出/116608事件逐位同；MP60/90层差≤1.04663e−57且同舍入，三固定target仍超门。L−target及最强RHS抵消相减精确，三新quad读数另揭moments形成舍入；只为有限算法定位。
 
-**n4算术当前** 补偿批收束，见frozen/shifted-root notes。原formed-moment/RK native916d0a…/build6a3b…的double基线真实exit0（02:19:21Z/6.018s）：三段126输出/116608事件全字节同原，根64/段、更新128/128/64、fallback0；原target仍超门。见n4-native-double-exact-baseline，仅移植身份、未LD/batch/DN。独立E/w²/state trig保留，B_exact字面隐式Jac另验pivot，非停止算法导数。MP90独立变分源a939698…/pland4f438…已root+n4审：39研究源+87MP源、3×64保存state/L身份全核；只显式偏导/独立pivotedLU/保存四场变分RK，不重算原非线性。元数据exit0，尚未新导数执行；见n4-saved-mp90-variational-reference-plan。LD同库state-only/fullJac六调用源双审，待入口发布；须核42态/42×40 tangent、真实库/无trace计时。全2304/原norm/DN未付。
+**n4算术当前** 补偿批收束，见frozen/shifted-root notes。native916d0a…/build6a3b…的double基线真实exit0：三段126输出/116608事件全字节同原，原target仍超门；见n4-native-double-exact-baseline。独立E/w²/state trig保留，B_exact隐式Jac另验pivot，非停止算法导数。保存MP90变分源a939698…/pland4f438…已root+n4审且发布，39研究+87MP源/3×64保存state/L身份核准，唯一新变分72556运行中；显式偏导/独立pivotedLU/原四场RK，不重算非线性，见n4-saved-mp90-variational-reference-plan。LD driver4d6b143…/planb30bdac…已source-only双审/元数据0：同原库固定六次（3段各state-only/full40Jac），全42 native10-byte/double与根诊断逐位同态门、全42×40 tangent保全；实际maps/符号库/FE/x87与kernel/FFI/decode分计。尚未LD执行；见n4-native-longdouble-pair-plan。无extra trace/重编译/变体；全2304/原norm/DN未付。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 
@@ -28,7 +28,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 ## 2. m3：精确圆弧端点与高幅支
 
-**旧λ1失败** 原q=.03991248545080898/λ1/M16的a.21多入口均失败；14903的CP d95ed7…先存后Frenet异常，无具体trace/新metric。短a.01的19739亦触节点门，RMS.3830013/metric.0236506068；4尾接受不补前缀。详见m3-circle-endpoint-c2-seed-complete-failure、m3-endpoint-second-order-guard-terminal、m3-small-halfwidth-circle-terminal及log；不续失败c/重跑/继承比例。
+**旧λ1失败** 原q=.03991248545080898/λ1/M16/a.21多入口均失败；14903的CP d95ed7…先存后Frenet异常，无新metric。短a.01的19739触节点门，RMS.3830013/metric.0236506068，4尾接受不补前缀。见m3-circle-endpoint-c2-seed-complete-failure、m3-endpoint-second-order-guard-terminal、m3-small-halfwidth-circle-terminal；不续失败c/重跑/继承比例。
 
 
 
@@ -40,7 +40,7 @@ R30共享engine的576段/990760标量逐位等价已证；旧q/λ失败不重跑
 
 **R42/R43** 原λ1 finite raw span的W²正交及真矩Gram谱[1,13.92415)已证；有限M16条件数2.061/旧5.788e11不证实际Jac/C²/存在，生产核未改。见R42/43。
 
-**R44**弧上rho常数且低两矩零的偶C4/C3空间=X0直和span{SA,SB}；弧迹1/cos(d)对应半径A/圆心+Bν0。M16保B2..B14、T=SA−SB/U=SB替末两列，(t,u)=(A,A+B)，保维但改变span。真积分/组合guard/core链式导数已独审；T有限rho峰10.624832非连续界。旧q完整两jet512点rho−.1896532失败；唯一半步guard lower.542921839/实际H同，但RMS3.803793723，未BVP/尾；见m3-circle-trace-space-full-twojet-initializer及half-twojet note。
+**R44**弧上rho常数且低两矩零的even C4/C3空间=X0直和span{SA,SB}；弧迹1/cos(d)对应半径A/圆心+Bν0，T=SA−SB/U=SB且(t,u)=(A,A+B)。替末两列保维但改变span；真积分/组合guard/链式导数已独审，有限rho峰非连续界。旧q完整两jet失败（sample rho−.18965）；唯一半步guard正而RMS3.80379，未BVP/尾。见m3-circle-trace-space-full-twojet-initializer及half-twojet note。
 
 **旧raw锚主矩匹配** gauge.04/actual q=.03991248545080898/Q=.03995165069840626已区分；Q=qP及真Pnew给q=.03469511580330426（Fraction nearest）。完整两jet中心h/rho同、guard lower.668984725但271点RMS1.441695291，未BVP/metric；完整16H第7项+1ULP，只旧affine锚。见m3-circle-primary-matched-amplitude/m3-primary-matched-trace-initializer；不重跑、不继承R38/R40/R41，已转q060真实接受锚。
 

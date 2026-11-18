@@ -1,0 +1,190 @@
+{
+  "scope": "Metadata-only entry for the single frozen-library LD state-only/full-Jac six-call probe; no new flow/Jacobian executed.",
+  "prepared_utc": "2026-11-18T02:32:36.701066+00:00",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_longdouble_pair.py",
+    "sha256": "4d6b143bfda1c7ba04e1538aeeade874bc5df3d011fc181d7a3ea3b8ed8865dc"
+  },
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/plan.json",
+    "sha256": "b30bdac3396a3ba141b72d3ec0aa67c989cab5da2ef0602db82973acbfb3bd5b"
+  },
+  "files": {
+    "probe": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_longdouble_pair.py",
+      "sha256": "4d6b143bfda1c7ba04e1538aeeade874bc5df3d011fc181d7a3ea3b8ed8865dc"
+    },
+    "build_record": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/build.json",
+      "sha256": "6a3bccea3aafe115cb28071ca23986e14e27c9074c67f8f91b094bfb87db0bf8"
+    },
+    "observer": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+      "sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7"
+    },
+    "capsule_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-summary.json",
+      "sha256": "3785fff5412ec751d2275d3f774b6c7503bfecb7ad781a38068f811f06ab35f7"
+    },
+    "old_float_baseline": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/float-summary.json",
+      "sha256": "c188de016b4963b1db896df9d3c2a7f09da201f66834acfd317f651c4488f4dc"
+    },
+    "native_baseline": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-summary.json",
+      "sha256": "8bc4adafbd655fe5fa5de7b7fbda542a3c4edda5b7505deb579d9ec40a503078"
+    },
+    "native_baseline_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-raw.json.gz",
+      "sha256": "50776b349d13d1239e0de925e3f9954bd51352a6e740f8b26e86016d2827ec4a"
+    },
+    "native_baseline_resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/resource.json",
+      "sha256": "7cbd659c43f1a6d1984ae32e4e443cff36c0221decfb3b59708d070801909c22"
+    },
+    "mp90_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-summary.json",
+      "sha256": "316203483014a16efb7a9793c62e2c903e0925a946cd9a30a7ed869b76f766e6"
+    },
+    "mp90_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp90-v1/readout-raw.json.gz",
+      "sha256": "bd5af94f99245a6404d9e0e6df178e82f9c2120ae1389f9c59b2b386c80e05d6"
+    },
+    "original_evaluator": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/probe_frozen_stage_multiprecision.py",
+      "sha256": "a4e5297beb66c218b0b716ff27992830f2d5db6a56655ffab76c9a9b7a4af819"
+    },
+    "original_bridge": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/frozen_stage_arithmetic_bridge.mjs",
+      "sha256": "ca62c285779a8f1c60749bf208009f47ca887c3316015206fb1e68a1a3fe6205"
+    },
+    "cpp": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.cpp",
+      "sha256": "916d0a948a15100f9bb68b255c2192460efe249c08a3559ea9fb800fbb59ac3f"
+    },
+    "header": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/frozen_flow.h",
+      "sha256": "88d7b9bc6c92a3d73ca33b2152e8bac078b6c9b3f90167f5e0a3409dd01f8356"
+    },
+    "harness": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_frozen_flow.py",
+      "sha256": "42893f210b6d31c59abd04cdfec415a2408a543f726f87d808fc99cf8fad45db"
+    },
+    "builder": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/build_native_extended.py",
+      "sha256": "20437402d90d4bf1a7aa9488d9651dbc5387a2cbaffb85667ebb4e093ccbc6c3"
+    },
+    "library": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/libfrozen_flow.so",
+      "sha256": "d31cd86fb185ea7d0a5546c9d8b5a11d186e91ed2e0a46c13b4c11f12e311bd1"
+    },
+    "batch_executable": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-extended-build-v1/frozen_flow_batch",
+      "sha256": "41ad2ad52199365c11e1065ea1ad988544c2325ad81ffaad84e45485db50f6ed"
+    },
+    "input": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+      "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+    },
+    "fixture": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-rk-sum-compare-v1/stages-inputs.json.gz",
+      "sha256": "271bd623f570475d8877ce8fe9555c53528871b1fd337131d92a6b32866921fa"
+    },
+    "original_output": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-rk-sum-compare-v1/stages-original.json.gz",
+      "sha256": "a3eff9faeed0c872e59a160d910265c72fc78312651c83e5996cc6abd0e7e0c8"
+    },
+    "coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+    },
+    "reference": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-reference.json.gz",
+      "sha256": "996bdc40164d265f9146f7af4449732d4d34981eeabb7c4ffe8ea44b697b2c73"
+    }
+  },
+  "source_AST_valid": true,
+  "new_probe_imported": false,
+  "shared_library_loaded": false,
+  "new_flow_or_Jacobian_executed": false,
+  "original_Cpp_harness_library_unchanged": true,
+  "plan_reference_count": 23,
+  "bound_original_source_references_checked": 35,
+  "native_double_baseline": {
+    "summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-summary.json",
+      "sha256": "8bc4adafbd655fe5fa5de7b7fbda542a3c4edda5b7505deb579d9ec40a503078"
+    },
+    "raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/readout-raw.json.gz",
+      "sha256": "50776b349d13d1239e0de925e3f9954bd51352a6e740f8b26e86016d2827ec4a"
+    },
+    "resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-float-baseline-v1/resource.json",
+      "sha256": "7cbd659c43f1a6d1984ae32e4e443cff36c0221decfb3b59708d070801909c22"
+    },
+    "child_returncode": 0,
+    "verified_output_count": 126,
+    "verified_event_count": 116608,
+    "all_three_outputs42_bitwise_identical": true,
+    "all_original_operands_and_judgments_bitwise_identical": true
+  },
+  "calls": [
+    {
+      "stage": 43,
+      "with_jac": false
+    },
+    {
+      "stage": 43,
+      "with_jac": true
+    },
+    {
+      "stage": 38,
+      "with_jac": false
+    },
+    {
+      "stage": 38,
+      "with_jac": true
+    },
+    {
+      "stage": 175,
+      "with_jac": false
+    },
+    {
+      "stage": 175,
+      "with_jac": true
+    }
+  ],
+  "prescribed_native_calls": 6,
+  "executed_native_calls": 0,
+  "trace_callback": false,
+  "extra_traced_calls": 0,
+  "command": [
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_longdouble_pair.py",
+    "--plan",
+    "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/plan.json"
+  ],
+  "observer_command": [
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4/observe_command_live.py",
+    "--log",
+    "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/process.log",
+    "--out",
+    "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/resource.json",
+    "--",
+    "python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/probe_native_longdouble_pair.py",
+    "--plan",
+    "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/plan.json"
+  ],
+  "identity_gate": "For each stage, all42 canonical10-byte x87 state encodings and all42 boundary binary64 encodings must match between state-only and full40-Jac, with available original root diagnostic aggregates bitwise equal. A mismatch/failure is saved and stops; no tolerance substitutes for this gate.",
+  "outputs": "Each of the6 calls saves a scratch checkpoint. State-only saves42 native10-byte and42 binary64 outputs. Full-Jac additionally saves all1680 native10-byte and1680 binary64 tangent outputs, including both mean rows. No full arrays enter Git.",
+  "root_diagnostics": "All VFDiagnostics fields retained. Root calls must be64 perstage, trace0, scalarbytes10. Original return status/point-root tests remain authoritative; min literal-Jacobian pivot separately positive finite. Aggregate updates do not imply an unobserved per-root iteration/halving histogram.",
+  "runtime_identity": "Runtime ABI/FE_TONEAREST/x87 PC64 read before/after each call and compared. Actual process mappings and mapped binary hashes plus loaded-handle sqrtl/log1pl/expm1l providers via dladdr are recorded. Symbol resolution is not a function-call/inlining observation. No mathematical library call occurs for metadata.",
+  "timing_scope": "diag.kernel_seconds is null-trace native e.flow wall including its internal allocations; FFI wall adds Engine construction/native export; Python byte decoding/MP90 comparison is timed separately. No whole2304-stage benchmark is inferred from three stages.",
+  "precision_comparison": "Read existing MP90 final42 only; compare all42, both means and original physical row-normalized error, separately before and after the one boundary64 conversion. Do not select by fixed-target residual alone. This is finite frozen-coefficient/RK arithmetic, no trueODE certificate.",
+  "independent_variational_reference": "closed_geometry separately prepares saved-MP90-trajectory42x40 reference. This six-call script does not recompute any nonlinear MP root/flow and does not claim independent Jacobian validation; complete tangent bytes are retained for later read-only comparison.",
+  "port_convention": "Original stage inputs are directly loaded, no input portRatio rescaling; original physical output pi row division remains outside. Initial tangent first40 identity and two mean rows zero, as reviewed.",
+  "not_done": "No batch/whole-tail/DN/prefix solve, no change of physical g/H/point-root threshold/tail2e-9 gate, no actual-tail acceptance. Literal implicit Jacobian at approximate returned roots is not AD of finite root iterations/branch decisions."
+}
