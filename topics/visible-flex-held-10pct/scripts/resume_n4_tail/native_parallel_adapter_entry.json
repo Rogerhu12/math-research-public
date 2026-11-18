@@ -1,0 +1,134 @@
+{
+  "scope": "Prepare an owned adapter using the unchanged native CLI through four workers.\n\nThe original complete input wire, output decoder, port-row conversion and\nlexical DN solver are preserved. Only process execution and its independently\nbound metadata change. This installer does not construct a physical model,\ninvoke a native flow, or execute a DN. Its only subprocess is node --check.\n",
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/install_native_parallel_adapter.py",
+    "sha256": "3d157b4e5fbe59d1df073781faa2eab319d819b0fef122c997d028ad5bdd1a15"
+  },
+  "command": [
+    "math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/install_native_parallel_adapter.py",
+    "--workspace",
+    "/workspace/scratch/7322d0dee069",
+    "--out-dir",
+    "/workspace/scratch/7322d0dee069/n4_work/native-parallel-adapter-v1",
+    "--owned-source",
+    "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1"
+  ],
+  "preparation": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-adapter-v1/preparation.json",
+    "sha256": "bb88d0a4850a7b6c546c6513b09a31f6bdab1a1edbeae123f01090b5ae17a709"
+  },
+  "observed_static_tool_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-adapter-v1/prepare-terminal.json",
+    "sha256": "20891efb4e8ccd21f194f85860f8d16a18bc8b1a3ad4e0377e12651c7afde693"
+  },
+  "prior_manifest": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-node-adapter-v1/manifest.json",
+    "sha256": "3e618b4a44c2292a1d12612ceb3a6f82693e703a32b152fa5a42097cb6d877d2"
+  },
+  "manifest": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-adapter-v1/manifest.json",
+    "sha256": "1661d97aba9dc5ac332ca859ad968b93164e8255df9d52a814d61338ada599c6"
+  },
+  "execution_plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-adapter-v1/execution-plan.json",
+    "sha256": "4f463dc37b27338e07d48c8520059c0e707806e178bebd184467026007022677"
+  },
+  "owned_source_topic": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1",
+  "original_adapter": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-batch-source-v1/scripts/native_batch_adapter.mjs",
+    "sha256": "9931feea9bc905cdc700c4f5078a6ad2af0a215fa5bc2fd1c84212662cbd2718"
+  },
+  "derived_adapter": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/native_batch_adapter.mjs",
+    "sha256": "0eab1ee41a2c1851dbf9c17f2c608d68547ca779558c350ad954ed8ecfb5f530"
+  },
+  "wrapper": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_extended/parallel_native_batch.py",
+    "sha256": "9177a8499517695deebf00907c64bdc08adc5e5fd2229c8987a2a7ac8ef6bb42"
+  },
+  "python": {
+    "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+    "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+  },
+  "node": {
+    "path": "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "sha256": "61ab14cd750fc24d5db53490ec5fc40f756e4b6e136b78cf7004265471d9bd1d"
+  },
+  "equivalence_plan": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-equivalence-v1/plan.json",
+    "sha256": "0bcf040ae92c8dec850ed5786bde31648b0e7f6282af519c2e4468b1d8b027fe"
+  },
+  "equivalence_record": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/native_parallel_equivalence.json",
+    "sha256": "f97357791f8540835d62c2d1b59b9110965b8a2f504cc001db8aa4dded0decc4"
+  },
+  "original_native_executable": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/native-production-floor-v1/frozen_flow_production_batch",
+    "sha256": "1b47ed47e70e35a08f11173b1f17a5d1c2ee046f59f54f235ee5fa56de07af94"
+  },
+  "exact_reverse_patch": true,
+  "all_other_owned_source_bytes_unchanged": true,
+  "syntax_checks": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/native_batch_adapter.mjs"
+      ],
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/native_batch_adapter.mjs",
+        "sha256": "0eab1ee41a2c1851dbf9c17f2c608d68547ca779558c350ad954ed8ecfb5f530"
+      },
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/native_batch_factory.mjs"
+      ],
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/native_batch_factory.mjs",
+        "sha256": "4bf754298349103c1e5a4fe3c6330cb183bf61b9a306bbef2148eb531ef15c53"
+      },
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/950f-tail-stage-core.mjs"
+      ],
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/950f-tail-stage-core.mjs",
+        "sha256": "cda6c90d11e329da17b98dcb51e5f35b29ee13d0a593cef6befc9a7e0eac654c"
+      },
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+        "--check",
+        "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/950f-tail-stage-port-v3.mjs"
+      ],
+      "source": {
+        "path": "/workspace/scratch/7322d0dee069/n4_work/native-parallel-source-v1/scripts/950f-tail-stage-port-v3.mjs",
+        "sha256": "3481fb6fae3fa27432f829c7a200c938832838d674a077314b39ae2cf7a5010b"
+      },
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "new_physical_constructors": 0,
+  "new_flow_calls": 0,
+  "new_DN_calls": 0,
+  "current_serial_DN_35038_changed": false,
+  "acceptance_scope": "Static process-interface preparation only; no new physical acceptance or full-H claim. Original numerical wire/decoder/root/RK/implicit-Jac/gates and original CLI are unchanged."
+}
