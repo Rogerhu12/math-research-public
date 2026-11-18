@@ -7,7 +7,7 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`6880ad342b950456801e81cf2c798475d7eadea4`。2026-11-18 10:53:42（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`6429259c1546fa5cf6af0469e5b1c3e4c75e7488`。2026-11-18 10:56:41（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log并立即发布；ref拒绝即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
@@ -16,7 +16,7 @@
 
 **新主b=.16/λ=.02/M20**：原19c/free-c8前缀metric8.91018e−7仍linearDN；真实.2H/.5H、parts16/32/邻数原DN均失败，CPb4356…重放7.42929e−9六超门，非机器下界。旧MP60/90/抵消结论见frozen-flow-mp60-mp90、root-representation-and-rhs-cancellation及n4-primary-width/parts32；不重跑旧失败。
 
-**n4算术当前** 补偿批收束，见frozen/shifted-root notes。native916d0a…/build6a3b…的double126输出/116608事件全字节基线通过。唯一LD六调用95607真实child0（02:35:34Z/4.0068s）：3段各state-only/fullJac，42 native10-byte/double及根聚合逐位相同；5292编码转换独立Fraction核准。对MP90物理norm原生误差2.5583e−12/7.8294e−12/5.5579e−12，边界double后2.0297e−10/1.79225e−10/1.69164e−9；旧target仍4.12738e−9/4.81466e−9/1.52119e−8，非DN接受。全42×40 tangent已存，独立E/w²/state trig及冻结capsule floor .1保持，B_exact正pivot另验；fullJac无trace三段.202/.178/.162s非全尾benchmark。见n4-native-longdouble-pair-terminal。MP90变分72556已child0/422.595s，全5040项/两mean核准，线性残差≤2.967e−91、pivot非条件数；见n4-saved-mp90-variational-reference-terminal。未重算非线性/非停止算法导数，floor.1全列仅读对照进行中。生产DN实为floor .05，cfg缺键而capsule直构默认.1；106496保存域比较皆过.1，不证全尾等价。见n4-capsule-and-production-floor-binding；保旧库，新接口显式绑定生产.05、其余门不变。单batch/原norm/DN/audit未付。
+**n4算术当前** 补偿批收束，见frozen/shifted-root notes。原native916d0a…double126输出/116608事件全字节基线过。LD95607真实0：三段state-only/fullJac全42 native/double及根聚合逐位同；原生对MP90物理norm误差约2.6e−12至7.9e−12、转double后约1.8e−10至1.7e−9，旧target仍超门，见n4-native-longdouble-pair-terminal。独立MP变分72556真实0/422.595s，全5040项/两mean齐全；只读全列对照已完成：原生全块尺度比3.562e−19/3.969e−19/2.751e−17，转double后4.402e−17/6.686e−17/3.996e−17，175差异较大不归因。全部四场块/两mean保全，见n4-native-mp90-full-variational-comparison；不是逐分量相对/条件数/停止算法导数/连续界。原capsule floor.1，生产DN参数.05，见n4-capsule-and-production-floor-binding；旧库冻结，新owned仅扩validate支持.05/.1的源计划已双审、未编译。Node单batch词法接入/原norm/DN/audit未付；原输入不缩、仅输出pi行除portRatio，cut/audit保持原engine。
 
 旧b.08 M16→M20 metric变坏、M24触节点门，白化/法向图无改善；旧actual固定g q.01的M24虽尾接受而metric变坏，λ0非圆弧/闭合。见n4 fixed-m24/normal-angle终态，不盲升模或重跑。
 

@@ -1,0 +1,651 @@
+{
+  "classification": "Numerical evidence: exact rational comparison of saved finite matrices.",
+  "plan": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/n4-native-mp90-variational-comparison-v1/plan.json",
+    "sha256": "f47a502b6e1cf8066bd0db23ba7a2bed9001c613c90948f0869d4194e64b053f"
+  },
+  "source": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/compare_native_mp90_variational.py",
+    "sha256": "ee0d8679a1c3e48ee49290ae09626c6e87d122f8d6e5476196a39bdbf3bab49e"
+  },
+  "inputs": {
+    "mp_plan": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/plan.json",
+      "sha256": "d4f43809f46fd06a79ac8afce95431fa13a4009268fe3a59e035db01d0af82b4"
+    },
+    "mp_summary": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-summary.json",
+      "sha256": "07e09ac83186987a4622805b3a603efa7d4712e65d44c160ec29b115f646f550"
+    },
+    "mp_raw": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/reference-raw.json.gz",
+      "sha256": "4ad1e37379b6ffb98ae173f1176e7e228a8d0658b21e6cb9bc6fa08148db4316"
+    },
+    "mp_resource": {
+      "path": "/workspace/scratch/7322d0dee069/closed_work/n4-mp90-variational-reference-v1/resource.json",
+      "sha256": "803d799873ccadfc95b937b935b91d660549a80d8381a4d130cd345e383e399f"
+    },
+    "ld_plan": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/plan.json",
+      "sha256": "b30bdac3396a3ba141b72d3ec0aa67c989cab5da2ef0602db82973acbfb3bd5b"
+    },
+    "ld_summary": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-summary.json",
+      "sha256": "94f774a4ebac0c1dcad8f6de8e3796f4e6ab23475694e09acefb9fb7e4c86908"
+    },
+    "ld_raw": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/readout-raw.json.gz",
+      "sha256": "9853dc0ae370b775f2bf1441510884632a9afe2b1428b88f2f223d6947ca0b43"
+    },
+    "ld_resource": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/native-longdouble-pair-v1/resource.json",
+      "sha256": "7c8b285074fad00270bc77cc1fb8c04cef7a4ddcf56da341bb340edf99f4ca0a"
+    },
+    "coefficients": {
+      "path": "/workspace/scratch/7322d0dee069/n4_work/parts32-frozen-mp-baseline-v1/capsule-coefficients.json.gz",
+      "sha256": "e7152958611721905b239ad4bbdda10b54a58459a8dbd153fb02db159fde283a"
+    }
+  },
+  "raw": {
+    "path": "/workspace/scratch/7322d0dee069/closed_work/n4-native-mp90-variational-comparison-v1/comparison-raw.json.gz",
+    "sha256": "e5dde8256ed1cc482a22ed3056291c4ba86409cb487a03238a0c559a7c848db3"
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_closed/compare_native_mp90_variational.py",
+    "--run-plan",
+    "/workspace/scratch/7322d0dee069/closed_work/n4-native-mp90-variational-comparison-v1/plan.json"
+  ],
+  "definitions": {
+    "reference": "Each saved 98-digit MP90 decimal is interpreted as an exact decimal rational for this comparison. It remains a finite approximate variational reference.",
+    "native": "Decode each canonical little-endian 10-byte x87 encoding as its exact binary rational.",
+    "boundary64": "Interpret each saved boundary binary64 as its exact binary rational; independently verify it is the nearest-even conversion of the saved native value, including signed zero.",
+    "columns": "Original stage input Q[0:20], pi[20:40]. No input-column port rescaling.",
+    "equation_rows": "Q[0:20], pi[20:40], first mean[40], second mean[41].",
+    "physical_rows": "Divide only output pi rows 20:40 by the exact binary64 portRatio. Q and both mean rows are unchanged. Apply the same row conversion to both matrices.",
+    "error": "All differences, maxima and ratios are computed with Fraction, not floating summation.",
+    "max_absolute": "Maximum absolute entry of candidate minus reference over the stated block.",
+    "global_relative": "Block maximum absolute difference divided by the maximum absolute reference entry in that same block; this is not a componentwise relative error or induced operator norm.",
+    "zero_denominator": "If reference max is zero, return 0 only when the difference is also zero; otherwise return null with denominator_zero=true. No artificial denominator floor.",
+    "peak": "Zero-based row,column of the first lexicographic maximum nonzero difference; null when all zero.",
+    "display": "Compact decimal strings use 32 significant digits, nearest rounding for presentation; they are not outward interval bounds. Exact rational differences/statistics stay in scratch.",
+    "scope": "Native and MP variational matrices are evaluated along their respective approximate LD and MP90 trajectories and roots, with frozen capsule floor 0.1. The discrepancy includes trajectory/root differences. No derivative of the stopping algorithm, DN acceptance, matrix conditioning, continuous error or production floor 0.05 adaptor is asserted.",
+    "acceptance": "No new numerical acceptance threshold. Report every prescribed block for all three stages."
+  },
+  "named_results": [
+    {
+      "stage": 43,
+      "portRatio_exact": "1",
+      "equation_and_physical_coordinates_identical": true,
+      "comparisons": {
+        "native80": {
+          "equation_and_physical_output": {
+            "all42_by40": {
+              "max_absolute_difference": "1.3043475122060686388262664063939e-8",
+              "maximum_absolute_reference": "36619527653.312371706585097341929",
+              "global_relative_difference": "3.5618905971554375919607874121525e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "field40_by40": {
+              "max_absolute_difference": "1.3043475122060686388262664063939e-8",
+              "maximum_absolute_reference": "36619527653.312371706585097341929",
+              "global_relative_difference": "3.5618905971554375919607874121525e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "Q_from_Q": {
+              "max_absolute_difference": "3.9772961221264042135574807808758e-18",
+              "maximum_absolute_reference": "12.171467979961041288977730149601",
+              "global_relative_difference": "3.2677209755426188397007459753913e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                19,
+                19
+              ]
+            },
+            "Q_from_pi": {
+              "max_absolute_difference": "3.1018806917999533536306470688279e-27",
+              "maximum_absolute_reference": "3.4539765661492592179198422589026e-9",
+              "global_relative_difference": "8.9806072287808032351581872582772e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                18,
+                38
+              ]
+            },
+            "pi_from_Q": {
+              "max_absolute_difference": "1.3043475122060686388262664063939e-8",
+              "maximum_absolute_reference": "36619527653.312371706585097341929",
+              "global_relative_difference": "3.5618905971554375919607874121525e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "pi_from_pi": {
+              "max_absolute_difference": "7.1224872536063130792826309029474e-18",
+              "maximum_absolute_reference": "10.309599993551860576687828675331",
+              "global_relative_difference": "6.9085970920899674150414618692318e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                38
+              ]
+            },
+            "first_mean_row40": {
+              "max_absolute_difference": "1.8047186394618677896550621234003e-23",
+              "maximum_absolute_reference": "0.000021054790089712911023009336322439",
+              "global_relative_difference": "8.5715347043218882119479707476725e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                40,
+                18
+              ]
+            },
+            "second_mean_row41": {
+              "max_absolute_difference": "0",
+              "maximum_absolute_reference": "0",
+              "global_relative_difference": "0",
+              "denominator_zero": true,
+              "peak_row_column": null
+            }
+          }
+        },
+        "boundary64": {
+          "equation_and_physical_output": {
+            "all42_by40": {
+              "max_absolute_difference": "0.0000016119963714750268859309525859619",
+              "maximum_absolute_reference": "36619527653.312371706585097341929",
+              "global_relative_difference": "4.4020130099335561813826903376174e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                18
+              ]
+            },
+            "field40_by40": {
+              "max_absolute_difference": "0.0000016119963714750268859309525859619",
+              "maximum_absolute_reference": "36619527653.312371706585097341929",
+              "global_relative_difference": "4.4020130099335561813826903376174e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                18
+              ]
+            },
+            "Q_from_Q": {
+              "max_absolute_difference": "8.1587530822351296648756019615539e-16",
+              "maximum_absolute_reference": "12.171467979961041288977730149601",
+              "global_relative_difference": "6.7031791856722646424429996744012e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                18,
+                18
+              ]
+            },
+            "Q_from_pi": {
+              "max_absolute_difference": "2.0436692761554390809003758867353e-25",
+              "maximum_absolute_reference": "3.4539765661492592179198422589026e-9",
+              "global_relative_difference": "5.9168591245940853449105199236507e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                5,
+                25
+              ]
+            },
+            "pi_from_Q": {
+              "max_absolute_difference": "0.0000016119963714750268859309525859619",
+              "maximum_absolute_reference": "36619527653.312371706585097341929",
+              "global_relative_difference": "4.4020130099335561813826903376174e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                18
+              ]
+            },
+            "pi_from_pi": {
+              "max_absolute_difference": "7.2331880490803083110561559862733e-16",
+              "maximum_absolute_reference": "10.309599993551860576687828675331",
+              "global_relative_difference": "7.0159735136225516525049612458966e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                39
+              ]
+            },
+            "first_mean_row40": {
+              "max_absolute_difference": "7.2645080471352455134572460679101e-22",
+              "maximum_absolute_reference": "0.000021054790089712911023009336322439",
+              "global_relative_difference": "3.4502875669535109890279960591270e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                40,
+                19
+              ]
+            },
+            "second_mean_row41": {
+              "max_absolute_difference": "0",
+              "maximum_absolute_reference": "0",
+              "global_relative_difference": "0",
+              "denominator_zero": true,
+              "peak_row_column": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": 38,
+      "portRatio_exact": "1",
+      "equation_and_physical_coordinates_identical": true,
+      "comparisons": {
+        "native80": {
+          "equation_and_physical_output": {
+            "all42_by40": {
+              "max_absolute_difference": "1.0465954236131809265288808838969e-8",
+              "maximum_absolute_reference": "26366154510.010694359207774706739",
+              "global_relative_difference": "3.9694655631931833719005391945968e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "field40_by40": {
+              "max_absolute_difference": "1.0465954236131809265288808838969e-8",
+              "maximum_absolute_reference": "26366154510.010694359207774706739",
+              "global_relative_difference": "3.9694655631931833719005391945968e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "Q_from_Q": {
+              "max_absolute_difference": "3.8551727311988433672692166159933e-18",
+              "maximum_absolute_reference": "8.9853932527980631150791514026475",
+              "global_relative_difference": "4.2904885993702474599124157780458e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                19,
+                19
+              ]
+            },
+            "Q_from_pi": {
+              "max_absolute_difference": "7.2004113438646863411263088163674e-28",
+              "maximum_absolute_reference": "2.5054650906855201590172149132400e-9",
+              "global_relative_difference": "2.8738821269685231209707715492482e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                19,
+                39
+              ]
+            },
+            "pi_from_Q": {
+              "max_absolute_difference": "1.0465954236131809265288808838969e-8",
+              "maximum_absolute_reference": "26366154510.010694359207774706739",
+              "global_relative_difference": "3.9694655631931833719005391945968e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "pi_from_pi": {
+              "max_absolute_difference": "1.5838923558337453969049524274178e-18",
+              "maximum_absolute_reference": "7.0594745255424012667209783203841",
+              "global_relative_difference": "2.2436405855746749753115970071579e-19",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                39
+              ]
+            },
+            "first_mean_row40": {
+              "max_absolute_difference": "4.3874009334740159128009893639957e-23",
+              "maximum_absolute_reference": "0.000025451812624551674119581356942125",
+              "global_relative_difference": "1.7238068652296227706703724583125e-18",
+              "denominator_zero": false,
+              "peak_row_column": [
+                40,
+                18
+              ]
+            },
+            "second_mean_row41": {
+              "max_absolute_difference": "0",
+              "maximum_absolute_reference": "0",
+              "global_relative_difference": "0",
+              "denominator_zero": true,
+              "peak_row_column": null
+            }
+          }
+        },
+        "boundary64": {
+          "equation_and_physical_output": {
+            "all42_by40": {
+              "max_absolute_difference": "0.0000017627722278317392844847111911610",
+              "maximum_absolute_reference": "26366154510.010694359207774706739",
+              "global_relative_difference": "6.6857388215731285554066129043401e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "field40_by40": {
+              "max_absolute_difference": "0.0000017627722278317392844847111911610",
+              "maximum_absolute_reference": "26366154510.010694359207774706739",
+              "global_relative_difference": "6.6857388215731285554066129043401e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "Q_from_Q": {
+              "max_absolute_difference": "4.4187285041534263470628014816745e-16",
+              "maximum_absolute_reference": "8.9853932527980631150791514026475",
+              "global_relative_difference": "4.9176795937978880988258048833759e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                19,
+                19
+              ]
+            },
+            "Q_from_pi": {
+              "max_absolute_difference": "1.9248208726129397675390162349216e-25",
+              "maximum_absolute_reference": "2.5054650906855201590172149132400e-9",
+              "global_relative_difference": "7.6824892901871949034153119940955e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                18,
+                38
+              ]
+            },
+            "pi_from_Q": {
+              "max_absolute_difference": "0.0000017627722278317392844847111911610",
+              "maximum_absolute_reference": "26366154510.010694359207774706739",
+              "global_relative_difference": "6.6857388215731285554066129043401e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "pi_from_pi": {
+              "max_absolute_difference": "3.6660305961143751132966991244242e-16",
+              "maximum_absolute_reference": "7.0594745255424012667209783203841",
+              "global_relative_difference": "5.1930644169761383783781690231428e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                38
+              ]
+            },
+            "first_mean_row40": {
+              "max_absolute_difference": "1.0231889808586655414561073191303e-21",
+              "maximum_absolute_reference": "0.000025451812624551674119581356942125",
+              "global_relative_difference": "4.0201025991825157946982374750370e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                40,
+                18
+              ]
+            },
+            "second_mean_row41": {
+              "max_absolute_difference": "0",
+              "maximum_absolute_reference": "0",
+              "global_relative_difference": "0",
+              "denominator_zero": true,
+              "peak_row_column": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "stage": 175,
+      "portRatio_exact": "1",
+      "equation_and_physical_coordinates_identical": true,
+      "comparisons": {
+        "native80": {
+          "equation_and_physical_output": {
+            "all42_by40": {
+              "max_absolute_difference": "1.0700596094999089478221640623814e-7",
+              "maximum_absolute_reference": "3889852864.2883518627874779614471",
+              "global_relative_difference": "2.7508999615996432583709114550771e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "field40_by40": {
+              "max_absolute_difference": "1.0700596094999089478221640623814e-7",
+              "maximum_absolute_reference": "3889852864.2883518627874779614471",
+              "global_relative_difference": "2.7508999615996432583709114550771e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "Q_from_Q": {
+              "max_absolute_difference": "5.1666593928424535828116614371692e-16",
+              "maximum_absolute_reference": "20.107396598045847335993412033793",
+              "global_relative_difference": "2.5695317480058951609246041865231e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                19,
+                19
+              ]
+            },
+            "Q_from_pi": {
+              "max_absolute_difference": "3.2941455420071557347976083294901e-24",
+              "maximum_absolute_reference": "6.2199735179038910546870532861811e-7",
+              "global_relative_difference": "5.2960764744819541645249900338908e-18",
+              "denominator_zero": false,
+              "peak_row_column": [
+                18,
+                38
+              ]
+            },
+            "pi_from_Q": {
+              "max_absolute_difference": "1.0700596094999089478221640623814e-7",
+              "maximum_absolute_reference": "3889852864.2883518627874779614471",
+              "global_relative_difference": "2.7508999615996432583709114550771e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                19
+              ]
+            },
+            "pi_from_pi": {
+              "max_absolute_difference": "6.5071257326041662999497319498295e-16",
+              "maximum_absolute_reference": "15.191598120962718035542837200300",
+              "global_relative_difference": "4.2833714272793035202755001304402e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                39,
+                39
+              ]
+            },
+            "first_mean_row40": {
+              "max_absolute_difference": "1.3087959742954423382429666193099e-25",
+              "maximum_absolute_reference": "1.7166858857639915859513416331867e-9",
+              "global_relative_difference": "7.6239688643620293519813442072281e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                40,
+                19
+              ]
+            },
+            "second_mean_row41": {
+              "max_absolute_difference": "0",
+              "maximum_absolute_reference": "0",
+              "global_relative_difference": "0",
+              "denominator_zero": true,
+              "peak_row_column": null
+            }
+          }
+        },
+        "boundary64": {
+          "equation_and_physical_output": {
+            "all42_by40": {
+              "max_absolute_difference": "1.5542245420586028236175867003074e-7",
+              "maximum_absolute_reference": "3889852864.2883518627874779614471",
+              "global_relative_difference": "3.9955869702103707361169564760994e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                18
+              ]
+            },
+            "field40_by40": {
+              "max_absolute_difference": "1.5542245420586028236175867003074e-7",
+              "maximum_absolute_reference": "3889852864.2883518627874779614471",
+              "global_relative_difference": "3.9955869702103707361169564760994e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                18
+              ]
+            },
+            "Q_from_Q": {
+              "max_absolute_difference": "1.5540305779183760007394969835893e-15",
+              "maximum_absolute_reference": "20.107396598045847335993412033793",
+              "global_relative_difference": "7.7286513464871212960441437543027e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                19,
+                19
+              ]
+            },
+            "Q_from_pi": {
+              "max_absolute_difference": "5.2944000049194672779703269929419e-23",
+              "maximum_absolute_reference": "6.2199735179038910546870532861811e-7",
+              "global_relative_difference": "8.5119333541851818728190444789747e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                1,
+                21
+              ]
+            },
+            "pi_from_Q": {
+              "max_absolute_difference": "1.5542245420586028236175867003074e-7",
+              "maximum_absolute_reference": "3889852864.2883518627874779614471",
+              "global_relative_difference": "3.9955869702103707361169564760994e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                18
+              ]
+            },
+            "pi_from_pi": {
+              "max_absolute_difference": "7.9439962387034012668972719304816e-16",
+              "maximum_absolute_reference": "15.191598120962718035542837200300",
+              "global_relative_difference": "5.2292037845192658291626241323934e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                38,
+                38
+              ]
+            },
+            "first_mean_row40": {
+              "max_absolute_difference": "1.3087959742968988492120323599252e-25",
+              "maximum_absolute_reference": "1.7166858857639915859513416331867e-9",
+              "global_relative_difference": "7.6239688643705137869099714495126e-17",
+              "denominator_zero": false,
+              "peak_row_column": [
+                40,
+                19
+              ]
+            },
+            "second_mean_row41": {
+              "max_absolute_difference": "0",
+              "maximum_absolute_reference": "0",
+              "global_relative_difference": "0",
+              "denominator_zero": true,
+              "peak_row_column": null
+            }
+          }
+        }
+      }
+    }
+  ],
+  "compared_stages": 3,
+  "entries_per_precision": 5040,
+  "precision_views": [
+    "native80",
+    "boundary64"
+  ],
+  "blocks": {
+    "all42_by40": [
+      0,
+      42,
+      0,
+      40
+    ],
+    "field40_by40": [
+      0,
+      40,
+      0,
+      40
+    ],
+    "Q_from_Q": [
+      0,
+      20,
+      0,
+      20
+    ],
+    "Q_from_pi": [
+      0,
+      20,
+      20,
+      40
+    ],
+    "pi_from_Q": [
+      20,
+      40,
+      0,
+      20
+    ],
+    "pi_from_pi": [
+      20,
+      40,
+      20,
+      40
+    ],
+    "first_mean_row40": [
+      40,
+      41,
+      0,
+      40
+    ],
+    "second_mean_row41": [
+      41,
+      42,
+      0,
+      40
+    ]
+  },
+  "domain_floor": 0.1,
+  "production_checkpoint_floor": 0.05,
+  "no_input_column_scaling": true,
+  "complete_matrices_preserved_in_scratch": true,
+  "exact_rational_matrix_differences": true,
+  "derivative_or_nonlinear_evaluations": 0,
+  "shared_library_loaded": false,
+  "tail_or_BVP_invoked": false,
+  "acceptance_threshold_added": false,
+  "continuous_error_bound": false,
+  "seconds": 0.7626668330049142
+}
