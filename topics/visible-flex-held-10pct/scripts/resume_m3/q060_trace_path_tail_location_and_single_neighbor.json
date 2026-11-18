@@ -1,0 +1,258 @@
+{
+  "scope": "Original full-state location, one positive-neighbor candidate that did not improve the complete residual, and complete original two-row tie evidence. No original DN solve was performed in these diagnostics.",
+  "failed_state": {
+    "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-coupled-lam002-v1/seed_tail_0001.json.gz",
+    "sha256": "6f0cdfa7bdc27c330bd3320ba94417e1fb410430dfdcdd3bd685c2944d2411ac"
+  },
+  "original_terminal_record": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/q060_trace_path_coupled_terminal.json",
+    "sha256": "c495278017f9c47ecb8227cfaec58317833d7246945802de23bd692bd00b4469"
+  },
+  "reused_sources": {
+    "locator": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/locate_actual_tail_residual.mjs",
+      "sha256": "72133319edd9897801beaf88114ddfa5ef93a66bcc95d100c342ab28ac811efc"
+    },
+    "single_candidate": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/propose_named_tail_neighbor.mjs",
+      "sha256": "f1be8b71e1fdf46926dbd8d07d95763dc47b5a2e6f9e0868a81cd245008b4924"
+    },
+    "row_inspector": {
+      "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_transfer/inspect_named_tail_row.mjs",
+      "sha256": "6f81ddde56a43bfb16dfa96fe2460696214ce8fabf20bc267e9dbee814279166"
+    }
+  },
+  "outputs": {
+    "location": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-tail-location-v1/location.json",
+      "sha256": "12a73aa5631ccaaf22f8c585abb94defa1029722cf8133a5cfc6dc00ca12b669"
+    },
+    "single_candidate_summary": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/candidate-summary.json",
+      "sha256": "f983a5d142e6f0c2c1b8d6578ae1cd1fe4113ef320c65ab881a40e4540a1a0d1"
+    },
+    "single_candidate": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/candidate.json.gz",
+      "sha256": "6ede5ec6c24a23b8389cbbe4f8685731f8d6bb32ec7287b7aa929ae710494dc5"
+    },
+    "first_named_readout": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/named-row.json",
+      "sha256": "f809e0613c87df61c275ba57f89f961312647d5019f7baaf4837921cf73bfff0"
+    },
+    "complete_rows": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/complete-row.json",
+      "sha256": "d6df8637ab753342eb822aa6f6a945bdbfe244b8412bccffd226835e6197dbad"
+    }
+  },
+  "commands": {
+    "launch-command.json:q060-circle-trace-path-lam002-tail-location-v1": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-tail-location-v1/launch-command.json",
+      "sha256": "cdaa3e9b1bd057622a502360878579b74c5d7bf68731f232b6b089f8efa79199"
+    },
+    "launch-command.json:q060-circle-trace-path-lam002-neighbor-v1": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/launch-command.json",
+      "sha256": "61e2518b780379582547de25928c8a302433befcf57a5e7b1442115c7c38f9ef"
+    },
+    "named-launch-command.json:q060-circle-trace-path-lam002-neighbor-v1": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/named-launch-command.json",
+      "sha256": "ec1db2d75d881352a5b7bca414fa1f11cb464826a3fab8a4b26185d94f9a7ced"
+    },
+    "complete-row-launch-command.json:q060-circle-trace-path-lam002-neighbor-v1": {
+      "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/complete-row-launch-command.json",
+      "sha256": "228474085e250899f9c5f798d6525fa71622cd8ac382e775017927cf62067745"
+    }
+  },
+  "actual_tool_observations": [
+    {
+      "session_id": 19142,
+      "launch_chunk": "b56299",
+      "completion_chunk": "f69cfd",
+      "observed_tool_exit": 0,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-tail-location-v1/resource.json",
+        "sha256": "2881b72114e0b54e5471550b46cb4e6951d17729138b8592eb05a16376bd7ddf"
+      },
+      "terminal_utc": "2026-11-18T03:21:48Z",
+      "seconds": 30.021328700000595
+    },
+    {
+      "session_id": 57208,
+      "launch_chunk": "8141c8",
+      "completion_chunk": "1e9920",
+      "observed_tool_exit": 0,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/resource.json",
+        "sha256": "bedaaa37ac1064f67ae1697e05fb22930133b9ecbe385b822ae982ae409cc670"
+      },
+      "terminal_utc": "2026-11-18T03:25:02Z",
+      "seconds": 32.034643291000975
+    },
+    {
+      "session_id": 27304,
+      "launch_chunk": "759787",
+      "completion_chunk": "b1eb58",
+      "observed_tool_exit": 0,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/named-resource.json",
+        "sha256": "1ce180cc0965d5fdbf893e9ef04e444d3888a5a4252b509c94530f3c912d2527"
+      },
+      "terminal_utc": "2026-11-18T03:26:03Z",
+      "seconds": 16.02115301699814
+    },
+    {
+      "session_id": 38498,
+      "launch_chunk": "3d4c41",
+      "completion_chunk": "746541",
+      "observed_tool_exit": 0,
+      "resource": {
+        "path": "/workspace/scratch/7322d0dee069/m3_work/q060-circle-trace-path-lam002-neighbor-v1/complete-row-resource.json",
+        "sha256": "9727cc98930e4d25d510651aae0cf0f45bee2f2998532022ac7eae493672c155"
+      },
+      "terminal_utc": "2026-11-18T03:27:14Z",
+      "seconds": 14.013932813002612
+    }
+  ],
+  "modes": 8,
+  "quadrature": 128,
+  "shooting_parts": 16,
+  "full_replay_stages": 1152,
+  "original_gate": 2e-09,
+  "original_full_replay_residual": 3.667862901158431e-09,
+  "original_min_A": 0.5218915666495756,
+  "original_min_D": 0.9991195413189724,
+  "locator_limitation": "It stores only one maximum component per stage. Its unique worst stage does not assert a unique worst scalar; same-stage ties were not excluded.",
+  "original_listed_peak": {
+    "stage": 86,
+    "rawCell": 0,
+    "rawSegment": 3,
+    "rawLeft": 0.5625,
+    "rawRight": 0.625,
+    "component": 8,
+    "physicalMode": 3,
+    "componentKind": "momentum-variable",
+    "normalizedResidual": 3.667862901158431e-09,
+    "signedResidual": 1.1368683772161603e-13,
+    "stateValue": -955.7700855747314,
+    "flowValue": -955.7700855747313,
+    "normalizationScale": 3.099538908221188e-05,
+    "componentUlp": 1.1368683772161603e-13,
+    "ulpDividedByScale": 3.667862901158431e-09,
+    "residualInComponentUlps": 1,
+    "minA": 0.9824943394755552,
+    "minD": 0.9999651914917227
+  },
+  "single_candidate": {
+    "named_change": {
+      "node": 86,
+      "component": 8,
+      "before": -955.7700855747314,
+      "after": -955.7700855747313,
+      "positiveUlp": 1.1368683772161603e-13,
+      "changedScalars": 1
+    },
+    "affected_before": [
+      {
+        "stage": 85,
+        "norm": 3.055842636605847e-10,
+        "component": 8,
+        "selectedResidual": -1.1368683772161603e-13,
+        "selectedFlow": -912.8729460541779,
+        "inputColumnMax": 0.9556089569813973,
+        "minA": 0.967965677607501,
+        "minD": 0.9999645415633481
+      },
+      {
+        "stage": 86,
+        "norm": 3.667862901158431e-09,
+        "component": 8,
+        "selectedResidual": 1.1368683772161603e-13,
+        "selectedFlow": -955.7700855747313,
+        "inputColumnMax": 0.901902429894799,
+        "minA": 0.9824943394755552,
+        "minD": 0.9999651914917227
+      }
+    ],
+    "affected_after": [
+      {
+        "stage": 85,
+        "norm": 1.5279213183029236e-10,
+        "component": 9,
+        "selectedResidual": 0,
+        "selectedFlow": -912.8729460541778,
+        "inputColumnMax": 0.9556089569813973,
+        "minA": 0.967965677607501,
+        "minD": 0.9999645415633481
+      },
+      {
+        "stage": 86,
+        "norm": 3.667862901158431e-09,
+        "component": 11,
+        "selectedResidual": 0,
+        "selectedFlow": -955.7700855747313,
+        "inputColumnMax": 0.901902429894799,
+        "minA": 0.9824943394755552,
+        "minD": 0.9999651914917227
+      }
+    ],
+    "complete_replay": {
+      "norm": 3.667862901158431e-09,
+      "minA": 0.5218915666495756,
+      "minD": 0.9991195413189724,
+      "matches_two_row_prediction": true,
+      "boundary_norm": 2.578128210598037e-42
+    },
+    "strict_improvement": false,
+    "below_original_gate": false,
+    "native_solver_invoked": false
+  },
+  "complete_local_evidence": {
+    "rows": [
+      85,
+      86
+    ],
+    "components_per_row": 16,
+    "over_gate_set": [
+      {
+        "stage": 86,
+        "component": 8,
+        "physicalMode": 3,
+        "state": -955.7700855747314,
+        "flow": -955.7700855747313,
+        "signedResidual": 1.1368683772161603e-13,
+        "normalizedResidual": 3.667862901158431e-09,
+        "direction": 1,
+        "adjacentTowardFlow": -955.7700855747313,
+        "isExactlyOneDirectedNeighbor": true,
+        "inputColumnMax": 0.901902429894799,
+        "diagonal": 0.901902429894799
+      },
+      {
+        "stage": 86,
+        "component": 11,
+        "physicalMode": 12,
+        "state": 636.0029282730336,
+        "flow": 636.0029282730335,
+        "signedResidual": -1.1368683772161603e-13,
+        "normalizedResidual": 3.667862901158431e-09,
+        "direction": -1,
+        "adjacentTowardFlow": 636.0029282730335,
+        "isExactlyOneDirectedNeighbor": true,
+        "inputColumnMax": 1.0913610501155335,
+        "diagonal": -1.0913610501155335
+      }
+    ],
+    "maximum_remaining_stage86": 1.8339314505792156e-09,
+    "stage85_maximum": 3.055842636605847e-10,
+    "all_other_stages_bound": {
+      "stage": 87,
+      "component": 11,
+      "norm": 1.2121031565584818e-09
+    },
+    "scope": "Full finite rows remain in scratch. The second local read persisted all components because the first named read had retained only c8/c11; it did not replay all 1152 stages."
+  },
+  "interpretation": "This particular finite failed state has two directed-neighbor residual peaks. A one-coordinate correction cannot remove the tie. This is neither a universal floating-point lower bound nor an ODE/error certificate. A separately recorded complete-set candidate and original native acceptance remain necessary.",
+  "original_BVP_rerun": false,
+  "original_DN_solve_in_this_record": false,
+  "equations_modified": false,
+  "gate_modified": false
+}
