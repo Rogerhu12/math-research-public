@@ -7,14 +7,14 @@
 连通闭 C² 嵌入连续族；固定有内点 H、diamH≥.2D；整像δhold≥.1D，含全部O(3)取商δE>0；全时reach≥.03D。固定同一g/物理参数/时间范围，metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。有限接受、条件比例窗或材料位移不替代全验收；达到后继续增大比例。
 
 - 已部分克隆并真实pull，全文读根README授权/全部规则及本题README、旧交接/全部记录。
-- 已读规则提交：`e78af20f8a0749fe43843d876bab53bcdaf9314f`。2026-11-18 08:31:58（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
+- 已读规则提交：`6f3a27d44bdda4bff2e19c4f1e56ffd3c18de79b`。2026-11-18 08:34:00（UTC+8）独立稀疏发布worktree真实pull后双README无变化；至少每小时pull，变化只读diff并立即执行。
 - 每条结论更新H/log后立即发布；至少每小时实际pull，检查双README，相对已读提交只读diff并立即执行。ref拒绝立即真实pull --rebase后非force重发至成功。
 - 终端无可用认证，按根§8使用已连接GitHub小文本原子提交；真实终端pull仍执行。agent只写源，root独占publication Git。
 - 可再生mesh/场/checkpoint/逐盒谱表不入Git、Release或CI；留源/参数/命令/hash/紧凑标量。单文件<100KB、H<10KB；无根LOG。旧scratch只读，运行副本隔离，不在运行中改源。无返回码不推断OOM或数学失败。
 
 ## 1. n4：新raw核与真正尾
 
-**新主b=.16/λ=.02/M20**：2282点/18步，有限前缀metric8.91017947e−7过门；全19c/free c8/qactual=.012488347919833637，仍linear DN/新核非精化，见n4-primary-width-b016-m20。真尾.2H冷起/单峰/多峰及.5H均失败；.5H parts16为1.01243477e−8，Jac具名输入ULP灵敏度最高2.706倍原门，非误差界，见halfheight-tail-stage-sensitivity。仅parts32同20H仍失败1.521185788e−8（1.50倍），见halfheight-parts32-terminal。新态2304×40原state-only/full-Jac数值差全0（不含mean），不能归因两路径不一。全局主行175/c20为mode4动量−1ULP；只局部再读该行/174，元数据仅含1个已证全局峰，见n4-parts32-map-consistency-and-one-ulp-peak。唯一具名邻数后原DN继续，尚无接受尾/fullH/联立prefix。
+**新主b=.16/λ=.02/M20**：全19c/free c8的新核有限前缀metric8.91017947e−7（2282点），仍linear DN/非精化，见n4-primary-width-b016-m20。真尾.2H冷起/单峰/多峰与.5H parts16均失败；同.5H parts32仍1.521185788e−8（旧值1.50倍），见halfheight-parts32-terminal。新态2304×40两原map数值差全0（不含mean），主行175/c20为mode4动量−1ULP，见parts32-map-consistency-and-one-ulp-peak。65373唯一邻数两局部行过门，全res9.78317e−9，原Newton iter1仍失败7.42928942e−9；真exit0非接受，无返回Jac/audit。新CP b4356…经过原Newton，不是单坐标初值，见n4-parts32-named-neighbor-terminal；只读查新态，不重旧screen，无接受尾/fullH/联立prefix。
 
 旧b.08 raw λ.02 M16→M20 metric2.41705e−6→3.43423e−6，峰频84；cond1≈4.278e12/H²白化无收益。M24在4460点欲加4906超6000、RMS.0032079，无完整metric，不盲升M28，见raw-lambda002-fixed-m24-terminal及localization/parameter-and-collocation-scales。主b探针M20外二阶谱降7.94倍、未表示参考二阶降8.54倍支持当前b.16新设计。全核法向图谱恶化46.25倍；低通K2仅改善6.6%（λ1约.77%），字面图正性已核；保持现图，不另开图BVP，见full-normal-angle-chart-probe/low-normal-chart-filter。有限FFT非连续metric证书。
 

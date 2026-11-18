@@ -1,0 +1,163 @@
+{
+  "scope": "One prescribed free interior one-ULP initial value, followed by the original complete finite nonlinear DN solve, original Jacobian calculation and original audit. Local row improvements and process exit alone are not acceptance. This record supplies no coupled prefix, full target-height acceptance, exact arc, closure or continuous certificate.",
+  "collector": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/record_named_tail_neighbor.py",
+    "sha256": "0fc7d16bf0f0292f1374bb26d8b0d2f4968ccbc3fc51004f1ce326dafe463442"
+  },
+  "collector_helpers": {
+    "record_fixed_actual.py": "dc69eac6b951fede4e33a74f949698111384cc2b6b9ccfd1391c680574408289",
+    "record_tail_initialization.py": "1f1ae3d72c75aaa3b10905dcb2b1968474bed492b63aff00719e0e91c1650f4a"
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/try_recorded_tail_neighbor.mjs",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/seed-tail_0001.json.gz",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/raw_primaryb016_lam002_m20_parts32_named_peak.json",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+    "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-summary.json",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py"
+  ],
+  "input": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/seed-tail_0001.json.gz",
+    "sha256": "cb60dce0d09db2484e1914ba7149fc9495e6824d6dcc6d8441f68133663d24d3"
+  },
+  "diagnostic": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/raw_primaryb016_lam002_m20_parts32_named_peak.json",
+    "sha256": "3747e15756cb88d7aae0f9b03eea2abe993cb7b16f01ffe181d2715adf80ebc7"
+  },
+  "output": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-tail.json.gz",
+    "sha256": "b4356eabf97014127a364ef34b7951a930f4b184d8c6f4c4db83c161b2cbbb5e"
+  },
+  "preceding_terminal": {
+    "path": "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/raw_primaryb016_lam002_m20_parts32_terminal.json",
+    "sha256": "df06a7f9f830267911d76ed69ad2d53935abab3617475a8042783a64c5ee807c"
+  },
+  "unabridged_summary": {
+    "path": "/workspace/scratch/7322d0dee069/n4_work/raw-primaryb016-lam002-actual-m20-parts32-v1/one-ulp-summary.json",
+    "sha256": "c1e03a4ab7139ba81e86aea598ccaeef1d9aeb18bfbe1789a63e7c31c88a2d0a"
+  },
+  "source_sha256": {
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-client-v3.py": "d25e1b388ae1ab1bb46d720ebe250fd4be5a0653f4dca64619dcdc79a5240e1b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-port-v3.mjs": "4e5f7f4cd31c81b633c826a24b208bc8a0aa2b791132c73238a5a61cf0e2a398",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-core.mjs": "84f944c560dcb65dc3f6fda2e97f3ebc549f1dbcdcc1fe2525324561d754c3be",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-stage-split.mjs": "e93b9e946e8b9b5916bfefc8bc64b44094eb5c62a6eff1eab73f2381d6c2d55a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-subdivision.mjs": "e44317579d483147aa7fe73b086aba059695aa0f675b831c178902a2c0cb62e6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/950f-tail-warm-remesh.mjs": "91686f1c9e70c36ea53357101b619830015288354d1045116a75b5a9ce47667b",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_weighted_tail.mjs": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/closing_recalibrated_tail.mjs": "4a109f26b0e6c9741dfff678c0fe42da4935bfda9c605e55688e97848aef0dd6",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/general_root_tail_momentum.mjs": "c393638eff2e681b046d78b31799b301e4382c2927e1f1eb8f53828ef675623a",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_momentum.mjs": "cad0c5c51a552fa8f1e055fb1186fc2cc9ce8f1c6cb46af759c554b1e79bcb3f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_momentum_split_flux.mjs": "c910ffe9451af2674896c8030450f6e07d7e7fd55745fbb95a842a2545d7803f",
+    "/workspace/scratch/7322d0dee069/n4_work/shared-periodic-source/scripts/periodic-quadrature/f6tail_fast_split_flux_engine.mjs": "f2322f2467e7e4f6d921276514b96be06e27ebdcc46ef273092a3db30f305654",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/read_map_consistency_peak.mjs": "1196dcbb083abd5668f67319103117f94a570ba2ca9fe126ead325762697f149",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_stage_amplification_deliverable/audit_failed_map_consistency.mjs": "efdc06c88a4dd2b1e7918996ce0478050e8e40cf0fe143e2ac8d0e095a3f8d8e",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_n4_tail/adapt_consistency_peak_locator.py": "e9c2f7094fa50737b4845433f48364f17d76bda2d55d88280ccf837576262103",
+    "/workspace/scratch/7322d0dee069/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3/try_recorded_tail_neighbor.mjs": "8735d7b874975140bf92a9ec646420067f25f60c3acd0ecd72c2b2efc9336fa9",
+    "/workspace/scratch/7322d0dee069/publication/topics/visible-flex-held-10pct/scripts/nonlinear_tail/m3_sparse_shooting_deliverable/sparse_shooting_linear.py": "a52567b2bfaded2fa9271a08f3cd969dc0291261f22cf2847c83234d93462fa5"
+  },
+  "original_configuration_and_all_cut_heights_bitwise_unchanged": true,
+  "original_discretization": {
+    "modes": 20,
+    "spacing": 4,
+    "quadrature": 512,
+    "depth": 8,
+    "shootingParts": 32,
+    "steps": 16,
+    "auditSteps": 32,
+    "maxIterations": 36,
+    "solveTolerance": 2e-09
+  },
+  "complete_cut_height_count": 20,
+  "complete_cut_height_float64_le_sha256": "411ec0ff8775c34ce1106b1afa72ded610646a54384bb05dbb71afbbfd0ff70a",
+  "original_stopping_full_replay_residual": 1.5211857880292614e-08,
+  "prescribed_candidate": {
+    "stage": 175,
+    "component": 20,
+    "oldValue": -6.122429682261514,
+    "newValue": -6.122429682261515,
+    "absoluteChange": -8.881784197001252e-16,
+    "componentUlps": 1
+  },
+  "initialization_boundary_nodes_unchanged": true,
+  "affected_original_rows_before": [
+    {
+      "stage": 174,
+      "normalizedResidual": 4.713435966625131e-10,
+      "minA": 0.9999564450091587,
+      "minD": 0.999999638383075
+    },
+    {
+      "stage": 175,
+      "normalizedResidual": 1.5211857880292614e-08,
+      "minA": 0.999975782689067,
+      "minD": 0.9999996390270643
+    }
+  ],
+  "affected_original_rows_after": [
+    {
+      "stage": 174,
+      "normalizedResidual": 2.3567179833125656e-10,
+      "minA": 0.9999564450091587,
+      "minD": 0.999999638383075
+    },
+    {
+      "stage": 175,
+      "normalizedResidual": 9.507411175182884e-10,
+      "minA": 0.999975782689067,
+      "minD": 0.9999996390270643
+    }
+  ],
+  "original_solver_invoked": true,
+  "original_solver_accepted": false,
+  "original_outcome": "exception",
+  "original_solver_error": "Error: multiple-shooting line search failed at 7.429289420154656e-9",
+  "final_residual": null,
+  "first_original_iteration": {
+    "iteration": 0,
+    "norm": 9.783174511407431e-09,
+    "minA": 0.980752332821046,
+    "minD": 0.9999448760732821
+  },
+  "last_original_iteration": {
+    "iteration": 1,
+    "norm": 7.429289420154656e-09,
+    "minA": 0.980752332821046,
+    "minD": 0.9999448760732821,
+    "chartCondition": null
+  },
+  "original_full_residual_iteration_count": 2,
+  "original_height_jet_jacobian_finite_entries": null,
+  "original_audit_diagnostics": {},
+  "audit_scope": "The unchanged original audit output is retained as diagnostics; no new full-domain tensor bound or extra acceptance test is inferred.",
+  "solver_minA": null,
+  "solver_minD": null,
+  "complete_original_state_saved": true,
+  "state_node_count": 2305,
+  "process_resource": {
+    "scope": "Observe an unchanged command, preserving atomic live and terminal metadata.\n\nA stale live record is not an exit code or evidence of a mathematical failure.\nNamespace process IDs and sampled RSS do not establish whole-host process or\nmemory state. No equation, solver option or acceptance gate is modified.\n",
+    "script_sha256": "0f328c59fba098f9f2e0ff0720f8bb9514c1c1f9d9940b6ec06200056e638ff7",
+    "status": "observed_terminal",
+    "child_returncode": 0,
+    "observed_utc": "2026-11-18T00:23:22Z",
+    "seconds": 857.0711961729976,
+    "samples": 428,
+    "maximum_sampled_tree_rss_kib": 961084,
+    "tree_at_sampled_peak": {
+      "5": {
+        "name": "MainThread",
+        "rss_kib": 961084,
+        "hwm_kib": 961084
+      }
+    },
+    "child_rusage_maxrss_kib": 960096,
+    "child_user_seconds": 884.671424,
+    "child_system_seconds": 17.038492
+  },
+  "process_resource_sha256": "61791d313ab3e6114db631c059f05275b2d839501635f8042581403edf13421a",
+  "execution_log_sha256": "8049e93b97b2b369d4f1761b8d7e409c23f085305407018d69b84608d3fdf01e",
+  "resource_scope": "RUSAGE_CHILDREN and sampled namespace RSS keep their original semantics; neither establishes a whole-host process-tree peak.",
+  "coupled_prefix_solved": false,
+  "data_policy": "Only prescribed coordinates, small numerical parameters, scalar diagnostics and hashes are published; complete states and fields remain scratch-only."
+}
