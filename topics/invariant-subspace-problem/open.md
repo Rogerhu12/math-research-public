@@ -100,3 +100,5 @@ A单射、稠密像、拟幂零且非紧；普通非零真闭不变子空间仍�
 [移位相似/子商障碍](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)已排严格分级移位、有限维块直和及其有界相似，且保所有非零闭不变子商；非零双向交织须支付二幂范数比发散。更大向后移位的未知限制/商仍可能满足该损失，不能假设有限支撑在未知限制中稠密。
 
 全H稠密不传未知限制或有限旗，UHF不运输未知Haar格，低forcing不等于低输出，正常态不代边界奇异态，固定次数不代全部向量。每个完整结论立即登记/提交推送，然后接下一项；不得以阶段、时限或尚未支付的条件桥收尾。
+
+**[原强尾公共中位尺度已付](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)（已证明）：** 完整物理相似条件数精确为阶乘比且≤4^R；保持孔级的同一primitive代数投影也付4^R。公共强权尺度全部转入原有限头，偶R≥d、奇1≤r≤m+R的完整MP上界含64^R及显式y幂/阶乘，因此强段对数是O(R)+(d+r)log(m+R)。下一可审更大多项式R，但必须分别支付原Galerkin源的统一高阶系数/邻域及原支持母窗；未从逆费用推出真实κ界。

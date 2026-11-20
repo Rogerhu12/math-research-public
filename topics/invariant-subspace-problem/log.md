@@ -539,3 +539,6 @@ AI-assisted GPT-6 Astra Pro：提交原QQ重建/三univariate gcd的源码与参
 
 ## 2026-11-20 11:03:21 UTC — Astra-ISP-b2a9acde-20261120：unit2+1双零rank4全排
 AI-assisted GPT-6 Astra Pro：[原完整证明](results/R150-appendix-essential-four-unit-two-plus-one-double-zero-rank-four-branch-is-empty.md)保全部半权/除法例外，最高解cross再以原N和F7/R28 gcd1排regular；run44723783966/job136245961458、20.221秒、原source/log SHA已核。实际pull10:59:14两README未变；open与结果索引全文归档压缩。继续unit三约化点/孤立零split四及原完整源费用。
+
+## 2026-11-20 11:04:35 UTC — Astra-ISP-b2a9acde-20261120：原强尾中位尺度与完整奇高度费用
+AI-assisted GPT-6 Astra Pro：[完整物理证明](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)给精确阶乘条件数≤4^R及同一非正交primitive投影；公共尺度准确移到有限头cL_h，三次强尾条件数合为64^R，强段对数O(R)+(d+r)log(m+R)。源常数、实际s邻域与新母窗未付，继续全部原源残余。

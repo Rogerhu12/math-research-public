@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** fae69f6c767bdfbca9ba3ecfa396353fb91a66dd，2026-11-20 10:59:14 UTC，Actions run44723783966/job136245961458；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:59 UTC。
-- **最近API同步及规则核对：** `8d6c646d0e2ae4388f4fc3c098a3c1b3d93c0d0b`（2026-11-20 11:03:28 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `7afe9d67ff063ddf2fa87d304804ec96500499f0`（2026-11-20 11:04:39 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -33,10 +33,11 @@ M=kerT、N=closure BM；N=M未证。保same-w/u、全部partial、真intersectio
 
 - [纯远孔完整来源](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)：全kerC^r Galerkin再用全((C*)^r)†，误差只乘真核列。[分离高度新门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)取m∈4ℕ≥20、d=2^m、R=d、x=m+d、Q=4d，上半允许高度带使跨头全β行正交/Bessel1；非零同w锚必要Σκ⁻²有限，不借旧帽运输。
 - 四维m2/R2完整κ²<e⁻²⁰⁰⁰，固定偶R的ξ=O_R(t²)和固定Schur中央延迟均已付，但常数/邻域非统一。[真实八维m3/R0/r3](results/R271-appendix-actual-eight-head-triple-hole-cost-lower-bound-and-highest-carry-pole.md)反而κ²>e³⁸⁰⁰⁰，固定旧s有t⁻¹极点；两小头均不在旧高度窗，不能逐头继承消奇。
-- **[奇高度全MP简单极点](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)：** 原N/Y、偶R/奇r，偶链使D^(r−1)=D^rP+QD^r，完整物理剪切消最高Boolean项；全逆仅t⁻¹，新增秩全一阶，真核/范围解析。偶r可二阶。
-- **[统一883费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)：** a=16^(m−2)、n=2^(m−1)，旧/参考头e^{221a}/e^{441a}，R=d全逆≤t⁻¹exp(883a+21nlog(m+2n))。原−logt主阶1400a；只有另证完整ξ≤Lt²、logL=o(a)才余517a，源条件未付。
+- [奇高度全MP](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)：原N/Y、偶R/奇r的全逆至多t⁻¹、真核/范围解析、新秩全一阶。偶r可二阶；不等于源消奇。
+- [883费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)：a=16^(m−2)，旧/参考头e^{221a}/e^{441a}；原−logt主阶1400a。只有完整ξ≤Lt²且logL=o(a)才余517a，源条件未付。
 - **[精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：** K=kerX0，E1=P_kerX0*X1|K，F0=kerE1；E1*q₋₁=P_K(f−H0a0)唯一。q有界恰退化全K-Galerkin解属F0；q=O(t)恰ξ0=0且P_Kξ1=0。固定E不冒充移动谱投影。
 - **[高primitive支撑与原N残余阶](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)已闭。** 尾链l≥d+r−1不新增核约束，故只在起始孔j≥J*；完整物理Galerkin用真核解析框架给a_ν孔级≤1+ν，非正交尾投影只作可行比较。低carry统一缩s时q₋₁=O(s^{(R−5d−r+13)/2})（J*≥1），全pole逆付s^{−(2d−6)}。固定参数O常数/邻域非统一，原移动m两种取s均有缺口，R=d无正阶。
+- **[中位强尾尺度费用](results/R271-appendix-median-strong-tail-scaling-four-power-condition-and-full-odd-height-cost.md)已闭：** κ(T̃)精确阶乘比≤4^R，同一非正交primitive投影亦≤4^R。c=(m+R/2)⁻²全移入头，原偶R≥d/奇r完整MP≤t⁻¹e^{883a}64^R(1+rb)²8^{2r−2}y^{4d+6r−6}/[((n−1)!)²(d−1)!(r!)³]。强段对数O(R)+(d+r)log(m+R)，源系数和新母窗仍开。
 - **当前主门：** 增长强段的旧carry源残余及真实费用，允许高度/同w倒数和发散、负部返回与全帽逆后误差。G_reg/carry、Haar循环及归档open均继续。
 
 ## 原Deddens与非复制来源
