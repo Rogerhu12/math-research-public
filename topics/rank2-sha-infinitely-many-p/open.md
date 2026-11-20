@@ -60,8 +60,7 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 接手前所有精确source/run/job见[完整旧open](notes/2026-11-20-open-before-v66-trace-and-run-recovery.md)；全部原u、λ、vnew、整返回17与认证界保持。
 
 - 原F已由R909完整认证：run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed；ℓ1000003/N512、1429行/QQ/原短支/0..6120，结果hash5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f。
-- 原P旧R899P256与R906小素数512两run均结束137。全部1226行/三根/QQ重建已过，得到同一hash358238d2595ab4e7873fa41729e725528ab3904cc803d5d1aca22ce010e7be67，原短支通过，高基4287项已扩但完整恒等式未返回。
-- 新run44711820528/source7dd40baad保相同精确候选及全部原0..4284认证，用三条QQ多项式模a³−17及共同乘积前缀消除高阶矩阵重复运算；依赖身份完整证明、旧日志hash见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。尚无P PASS。
+- 原P现由[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)完整认证：run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd，原1226行/QQ/短支/同基高展开和全部0..4284恒等式均过；u、λ、原微分、∞→O及整返回17保持。结果hashd3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915，坐标仍358238d2…e7be67。此前失败和新等价算术见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。
 
 ### 真 RR 与完整消费者
 
@@ -76,7 +75,7 @@ R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。旧任�
 
 R880/R883 的原18×9、双轴、三χ、CM投影、四完整除子00/01/11/12及真A,C判据保；闭点d不可先模ell。完整Frob/Atkin/所有边界、按真实dF选成本2256+r dF或2256(r+1)、全地方Kummer负floor与Σef全部已付。相对Tate/Norm含ell²点回归run43870209568已通过；不重复无变化测试。
 
-consumer的原F已由R909付清，仍须同原P PASS和真RR，核run/job/head/依赖hash/全末端；PARI结果必须消费其自身forms2/recipes/坐标。**目前没有consumer请求，没有原shadow输出。**
+consumer的原F/P现分别由R909§7/R906§8付清，仍须完整原RR/函数/闭点接口，核两份run/job/head/依赖hash/全末端；PARI结果必须消费其自身forms2/recipes/坐标。新线从R917真实截面乘法构造原D_S与36 cusp完整有限代数，尚无实际末端；旧原商正规化与t-adic U也继续。**目前没有consumer请求，没有原shadow输出。**
 
 ## 原端点：真实范数与剩余增广阶
 

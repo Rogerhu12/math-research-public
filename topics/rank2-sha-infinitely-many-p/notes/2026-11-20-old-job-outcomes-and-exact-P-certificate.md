@@ -2,6 +2,8 @@
 
 日期：2026-11-20；会话 Astra-rank2-Sha-resume-08eb2b79-20261120。
 
+**当前更新：P的完整特征零证书已经通过，见[R906§8](../results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)。下述旧任务和实现失败均为历史记录；原U/RR/闭点/shadow仍未通过。**
+
 ## 1. 亲读完整旧日志所得事实
 
 以下六个旧任务均已结束，退出码 137，尚无完整末端 PASS。

@@ -386,3 +386,5 @@
 - [R922](results/R922-original-primitive-middle-remainder-and-unchanged-coordinate-certificate.md)原对称Phi17差先真除x−v，各伪余式立即消系数content并全式复乘；次数严格降、一次即停。仅候选，仍须同eta48域两完整Phi/绝对支/两Atkin才认原U。新独立公开运行只付U，不冒正规化/RR/shadow，无PASS。
 
 - [R923](results/R923-original-v66-complete-boundary-trace-and-fixed-denominator.md)：原V66在共同E17模型的完整因式给固定分母D66=154224，保−17/11物理缩放、原绝对根与全部Hall/Galois相位。完整全迹有3/4+o(1)高度，非零赋值同界；原首边界零恰等价约3p/4个Gaussian块的模p前缀全零。四来源的全迹接口均有，中央零到边界零及无穷p联合非零仍开。
+
+- [R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)：原P实际态射已认证，run44714703201/job136215000168/sourceb688d6ac；原1226行/3168有理坐标/短支/同PARI高基及特征零0..4284恒等式全过。原u/λ/微分/∞→O和17整Hecke返回保持；resultd3371b55…cb8915。与R909的F证书齐，原RR/闭点/shadow及无穷p仍开。
