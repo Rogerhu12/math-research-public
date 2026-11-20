@@ -185,3 +185,5 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 [RT自由根迹与完整有限读出](results/R138-supplement-capped-curvature-root-trace-and-finite-receivers.md)已证：非零环境k的free-outer系数δ+coth(|k|d/√40)√40/|k|，高尾另有3·46^−1/3|k|^−2/3；环境k0根−外不能删。mean0接收器的真实drift密度对偶保平均，各三范数√Γ，给完整finite Gram与2π归一接口，不假设未知场mean0。原Y根r不替换，实际receiver/high Schur/相对能量门仍待。
 
 [相对根接收器与原high压缩](results/R138-supplement-original-high-compression-and-relative-root-receivers.md)已证准确μ/mean及对偶Wz=−ρ⁻¹(〈P′,w〉+〈P,h〉)，P′mean0但P/h完整mean；A*同一个L2小门同时付odd/even与导数，不另借H1收缩。原high乘子压缩逆必须保low96的Schur修正；只需high正性，有限low负部由W和PL两真根迹支付，接GB完整三门。V§9/G.13给实际弱核同图资格；原high正性、全尾cross、finite Gram/相对三门仍未actual，旧96/97三球只读跳过重算。
+
+[HP原high全压缩](results/R138-supplement-original-high-principal-and-signed-compact-bound.md)给principal误差≤2^(1/6)/32·388^(-4/3)||a″||，只需同actual C2；完整无输入导数型含六local、mean rank及两环境primitive（I费1），先保全部符号再只付三个平方项负部可给单侧更紧门。负部费不能冒充双侧范数或cross尾。真实Aqq用含actual Z的几何恒等式，原high97不提高；全圈系数/严格high lower尚待新公开计算，旧三矩阵项不重算。

@@ -207,3 +207,7 @@ joint推RT1–19，root/global独核全篇：step势固定根值/自由外端的
 ## 2026-11-20：原高压缩与相对体能量的准确根接收器
 
 global推R1–30，root全篇独核，joint独核high/low/非齐次接口；准确μ由X配对的周期平均读出，V0消t′给A与同L2逆对偶，P′mean0只源自周期导数而P/h均值保留。导数落even restriction、同κ付逆，moving w与ψ密度仅一次，环境源另√AΘ。原PH乘子逆保PL96修正，完整high正性加finite W支付low负型，所有尾与mean/两primitive保；只形成条件相对三门。实际弱核归属按V§9及G.13原全图核实，无高边界正则循环；0新科学/旧目标重算。H执行节全文保0710c0bb6不可变指针。
+
+## 2026-11-20：原high97完整principal与signed compact下界
+
+joint推HP1–13，root全部逐式独核，global独核principal与新消费接口。对称比值d(r)≤(r−1)^(4/3)/32经整数比较证明，四重Parseval/Schur只用实际二导给388^(-4/3)界；未借理想高导。原根型无输入导数展开完整保mean/两primitive与环境I≤1，正平方项可不付、三个负部只授型下界，不冒充尾范数。Aqq精确几何式用X×Y=−n并保actual Z，same C4/reflection给y mean0而兼容式给v mean0。0新科学；actual系数和strict high门仍待。
