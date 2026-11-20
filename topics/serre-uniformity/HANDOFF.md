@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。此前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-original-ring-class-regulator.md)，沿链保全部旧source、SHA、尺度、失败边界，不重做已登记结论。
 
-**已读规则提交：4402d3c07f67ecce7a7702b4046e97440f721159**（2026-11-20T13:17:38.718215+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：9ba76b815f0d8fad591c63aa9290eb77406011b0**（2026-11-20T13:23:11.225392+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -45,7 +45,9 @@ S≠0 iff高CM完整classical η_f单位 iff TU准确Manin-period-normalized adj
 
 [R972](results/R972-original-two-Artin-Hasse-lines-and-ring-class-regulator.md)已闭实际local/global判据：a=r+1=3/9，n=p+1−a，m=(p+1)/3，b=a/3；χ=(ψ/ψc)^a residual的核恰conductor-p环类域L/K，degree m，L_P=Qp²(ϖ)、ϖ^m=−p。真实低/高HT条件分别是AH双对偶线L0=kill u1与L1=kill u0，u0=AH(ϖ^b,λ1)、u1=AH(ϖ^(m−b),λ0)；DDR Fil阈值有+1，upper breaks b/m与1−b/m。DFG全部minimal/irred/short-crystalline假设已核，低T=O⇒lowSelmer0，Euler/loc得global H1恰1、H2=0及A_L^χ=0；真实global-unit χ线原始。其log modp=γ0 λ1ϖ^b+γ1 λ0ϖ^(m−b)，γ0≠0且 **原S≠0 iff高η单位 iff γ1≠0**。普通log整同构仅在真正e=m<p−1的L_P成立；cσ保两线不交换。高γ1全p非零仍开，无trace数值等式。
 
-在审新纸证：R976预留真实Robert环类单位的精确局部标量。**未登记前不得把这些候选论证当既成定理。** agents各自notes，root逐式/source核后单独推。
+[R976](results/R976-fixed-Robert-unit-and-original-high-coordinate.md)已把R972 global-unit源固定为U7=V7^(σ_h−1)，V7=Norm_(ray H_p/L) Ψ(1;p,7⁻¹p)，h=(2+s)、Nh=7；(7)的Norm49 regularizer=48，χ(σ_h)−1的分子只含2/3/19，所以全原p均单位。OV完整elliptic lattice、Rubin same-χ finite Gras及R972 classgroup零给eχU7真实生成全unit χ格。ray w_R可含p，已用同一complex regulator公式精确消去，未当unit。若log〈U7〉modp=ΣB_jϖ^j，则γ0=B_b^p、γ1=B_(m−b)准确无尺度，B_b非零，**原S≠0 iff B_(m−b)≠0**。近顶值一般非零仍开。
+
+在审R977实际p-isogeny quotient的normalized discriminant、R978严格整Lubin–Tate/完整半kernel norm的原pure BH系数；未登记前不当既成定理。各agent只写独占稿，root审后每结论单推。
 
 ## 已成计算与比较：只消费
 

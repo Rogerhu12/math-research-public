@@ -97,6 +97,8 @@ $$
 
 [R972](results/R972-original-two-Artin-Hasse-lines-and-ring-class-regulator.md)另将高η障碍化为真正环类单位有限系数。a=r+1，m=(p+1)/3，b=a/3；原χ核恰conductor-p环类域L，L_P参数ϖ^m=−p。真实low/high HT给不同AH双对偶线：低kill u1、高kill u0，degrees b与m−b；完整DFG/低T=O/Euler给global H1=1,H2=0及same-χ classgroup零，global-unit χ线原始。其log modp=γ0λ1ϖ^b+γ1λ0ϖ^(m−b)，γ0非零，而原S非零 iff高η单位 iffγ1非零。普通log整性只在真正e=m<p−1的L_P，DDR Fil指数+1与upper break区分；cσ保两线，不能用对称把低单位搬到高项。接下来须证这一近顶系数非零，或将其与实际balanced值作整reciprocity；不重复局部线/维数/classgroup判据。
 
+[R976](results/R976-fixed-Robert-unit-and-original-high-coordinate.md)固定实际源为U7=(Norm_(ray H_p/L)Ψ(1;p,7⁻¹p))^(σ_(2+s)−1)。rational(7)的49−1=48及norm7 prime(2+s)的χ−1均为全原p单位；OV/Rubin same-χ finite Gras与R972严格给它生成global-unit χ格。保可含p的ray w_R在complex regulator中精确消去，无普通p进插值。真实log modp=ΣB_jϖ^j有γ0=B_b^p、γ1=B_(m−b)，低B_b≠0且原S≠0 iff近顶B_(m−b)≠0。现在剩余是这个指定固定Robert源的m−1或m−3项非零，不能换任意局部unit或把低系数复制过去。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上
