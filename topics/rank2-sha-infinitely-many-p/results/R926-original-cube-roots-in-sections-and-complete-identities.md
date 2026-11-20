@@ -277,3 +277,68 @@ RF的全部1633项、每个Ri的全部1429项都必须为零；各新旧分子�
 在原B上且固定同一L时，这两个新权已严格最小：若f=A_m/B_m，则非零B_m属于H0(L^m(−Pole(f)))，故204m不得小于实际极次数。RF的240排除m=1，三个Ri的452/454排除m≤2；而§9的正RR下界证明m=2/3确有表示。因此同L的最小同次权准确为2/3，不必再试R1/R2。这个结论不比较其他线丛或原Y的仿射表示。
 
 输出仅包含同原对象、完整新核和分式的内存上下文，以及来源、全窗口/秩/hash接受回执。消费者桥必须保留原cube对象身份和完整recipes对象身份，并对每根读取源权、目标权、全交叉次数加一门，再允许动态使用2/3次退化。新helper将进入同进程的原消费者公开请求；本节未登记新紧缩、原映射或完整shadow的运行成功。
+
+## 11. 同原低权紧缩与完整七映射的实际 PASS
+
+2026-11-20 14:42:24 UTC，[run44732115204/job136274270348](https://github.com/Rogerhu12/math-research-public/actions/runs/44732115204/job/136274270348)
+在 source `192c28161fc6bc9e1680e4c4d374f55980b0d37f` 成功结束。
+数学进程耗时 9685.867338781 秒，Sage 10.6，r29，
+q_precision=2453、batch_size=64、kernel_method=minimal、phase=maps。
+入口为该提交的 `.github/workflows/rank2-sha-original-ys-consumer.yml`、
+`launch-original-ys-consumer.py` 和原消费者请求；固定镜像及两份
+真实 F/P PASS 鉴定沿用§7、R925§18，没有将认证令牌传入数学容器。
+root 核对公开 run/job 均 completed/success、run head 与结果 source
+完全相同，并对下载的完整原始日志和三个实际结果 JSON 独立求哈希。
+
+这次在同一个断网进程内重建原 cube 的所有高窗门，再实际执行§10：
+
+| 原根 | 新权 | 全部核维数 | 新低窗项数 | 新旧完整交叉项数 |
+|---|---:|---:|---:|---:|
+| RF | 2 | 84 | 649 | 1633 |
+| RP_0 | 3 | 76 | 1065 | 1429 |
+| RP_1 | 3 | 74 | 1067 | 1429 |
+| RP_2 | 3 | 74 | 1067 | 1429 |
+
+全部原方程、整个核的两投影、同一原无穷支首项1均实际通过。
+原 RP_1 的 Fp 限制标量矩阵为 2112×2134、秩1964，完整 Fp 核148维，
+回原 k 得74维；RP_2 的整个核由真实常数 Frobenius 得到后，
+再次返回它自己的全部原方程。四组新旧交叉差的完整两分量为零，
+由§9严格 R8/R7 次数帽得到同一全局函数。没有用旧6/4权
+cube 自恒等式的回执冒充新2/3权的交叉计算。
+
+随后同进程完成原306维正规化环与全部666个原 M2 截面的双图嵌入；
+完整 W4 读取含1225项，559个非主元列全部返回。
+原三退化 pi1、pi2、pi4 的 j^m 微分倍率保留。
+新的真实分式进入原七映射后，下列门全部通过：
+
+- 七个原椭圆方程的完整环恒等式；六端点分式与中央 F 分式保持原两图身份。
+- 原 W 与常数反射的全部指定身份；W 作用在已证明的原表达式生成元上，
+  不另声称任意原 M2 基的完整 W 矩阵已计算。
+- 原 lambda/h/dnew 尺度、v/epsilon、第一因子修正 (v+4)/v、
+  原 theta17 常数及原 omega 全保。实际输出嵌入顺序为 (0,2,1)，
+  原 sigma_a_index 仍为 (2,0,1)，没有把它们或常数 Frobenius 混同。
+- 41次公共基多项式约消均将两个完整306坐标向量复乘返回，
+  取各实际坐标的完整无穷图界，不删真实极点。
+
+| 回执或运行源码 | SHA256 |
+|---|---|
+| 完整最终消费者 result | `b0ea1bc165a12710091c7d871ab8c17c9d249bb0a8472faf72425ad0dd777235` |
+| 完整原始 job 日志，439547 bytes | `957d40a842269d1cb906a40805907af15d558a05cb7e5d586460a78ef7e1be4a` |
+| 原低权紧缩 result | `7ba33b449c23ae6a2de56814e2cc63a22ef87bd39f42b76842d82882751b5d82` |
+| 原完整 maps result | `07075b8d1bc65ee9f758648488aab5f186a6cff2c9081d6d9ec0b94b3db99684` |
+| 本次原 cube result | `3060e35708b64cf639714363d48525f3201794236514ad5df9960befbf35dd3e` |
+| 本次原正规化 result | `3cbc8da77209ba9059c38091e507b571402eaab404a54c024d1e7b46871c5e5e` |
+| 运行 producer | `05b37ac7f22928204de84e583a237f006ae60b57dd9394fa47538aaa38a578ba` |
+| 运行原分式桥 | `b7969c69468509c9d436c7bd465a3a6097dc577006339eca1652aea216509398` |
+| 运行原截面嵌入 | `d43d5c31bf6b0ac69bbc80a532efbb458349299f6229c2dfa70f4b2952274687` |
+
+本次完整源码清单及每份 SHA256 保在上述最终公开 result，精确版本由
+source 提交固定；低权 helper 仍为§10的 `1293869e…9ef3d`。
+这里记录的是 phase=maps 的真实成功。结果明确给
+`complete_large_divisor_ideals_computed=false`、
+`complete_original_geometry_computed=false`、
+`all_intersection_closed_points_computed=false`、
+`all_original_local_values_and_complete_traces_computed=false`、
+`original_shadow_computed=false`。
+因此后续完整 pole、四个 E、所有厚度/闭点/迹仍须实际支付；
+本次没有新增 ordinary 或无穷不同 p 的非零结论。

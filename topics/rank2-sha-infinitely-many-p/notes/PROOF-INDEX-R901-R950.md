@@ -157,3 +157,5 @@
 - [R925§25](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P完整1226×1056/152核、两投影/旧首行/P2全Frob读者已存；同原M2/j³的完整3114坐标准确送两图N/D，两个符号分别2256早停后全部余行返回，最终完整boundary与schema保持。仅r29静态实现，未接运行或冒P/F/四E/shadow PASS。
 
 - [R937附A/B](../results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：同q全部合法native尾方向对两条固定行零响应；给定H3加该族的陪集在J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ时，完整实际列与相继除F给非零单位左行，且每个兼容G₀后的同H1残差不变。β₁/一般B/其它WD及受限S保。
+
+- [R926§11](../results/R926-original-cube-roots-in-sections-and-complete-identities.md)：run44732115204/job136274270348/source192c28161，全部低核84/76/74/74、新旧1633/1429交叉、七椭圆与原W/常数反射完整身份均过；结果b0ea1bc1…777235。全pole/E/trace仍未算，不换ordinary或无穷p。
