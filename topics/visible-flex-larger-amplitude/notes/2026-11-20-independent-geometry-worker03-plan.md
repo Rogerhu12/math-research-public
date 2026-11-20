@@ -76,3 +76,7 @@ queue03 的 `parent_request_id` 与 request03 一致，`finish_when_done=false` 
 job预算与硬上限也不是课题完成条件，已返回与未返回必须按 controller 的真实状态继续记录。
 
 执行身份与是否已运行以正文各项状态为准，未执行准备源不冒称已有数值结果。临时数组沿原输入链再生；纯位置替代输入保计算语义，不冒称原raw报告的路径或逐字SHA。
+
+## 实际启动回执
+
+2026-11-20 16:20–16:23 UTC从GitHub API核得run `44772201880` / attempt1，created_at `2026-11-20T16:19:22Z`，head `e0d4892aabfec77f64c33a9cc34da9ff3cf39ba4`，status=in_progress/conclusion=null。公开控制器已经生成[实际索引](2026-11-20-public-actions-44772201880-1.md)。这证明新任务已经启动，不代表几何阶段已返回；各个实际返回范围仍以该索引/分卷为准。原run44758209061同时为in_progress，未被新workflow取消。

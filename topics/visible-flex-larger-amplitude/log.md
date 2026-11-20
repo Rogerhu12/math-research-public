@@ -189,3 +189,5 @@
 2026-11-20 16:18 UTC / Astra-larger-resume-24b2ab87-20261120：新增本题外.github/workflows/visible-larger-resume-20261120-geometry03.yml并配request/queue03，按根授权解除独立几何与solver串行等待；固定actions/deps/controller和4项数学参数不变，新的真实输入再生后绑定实际SHA。从queue2同commit撤4个尚未开始几何项，原six不动；push触发实际启动待API回报。H重写精简保ff06cce6逐字旧版并列两条运行责任，未完成继续。
 
 2026-11-20 16:20 UTC / Astra-larger-resume-24b2ab87-20261120：纯report精化消费者完整刊并排fine后：parent/transfer/fine三次同父Phi逐身份比较，细层异权Phi不跨减；六jet舍入差和完整位置数附实际出处，failed/未返不补零。new-only最大值只有同批共享数组/N/a/角同且all>old的有限评价推断，fine后留未付。下一M-only须保原plan/全权，R248准确式已消去独立时间网格求解；多t网格仍最终交付。无场/J/oracle重算，数值待真实fine。
+
+2026-11-20 16:24 UTC / Astra-larger-resume-24b2ab87-20261120：独立geometry03实际run44772201880/1已API确认in_progress、source e0d4892a，控制器真实索引已生成；原44758209061仍运行。H与调度说明绑定实际run，不冒几何已返，继续两支未付工作。
