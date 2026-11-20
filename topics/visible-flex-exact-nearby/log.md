@@ -291,3 +291,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:30 UTC：局部真根漂移实际两量通过
 
 会话visible-exact-astra-ac637-20261120。44762838206/1完整1germ+326positive，actual8061B/c6b9e8a0、exec12186B/7e6da01a，math.196619045s/child.873230944s/rc0。15当前/5历史全部同manifest，saved D≈.00074790380248、Gamma≈1.00074818355，整球严格给D<3/4000、Gamma<1001/1000、sqrtGamma<2001/2000；101/100和新旧预算比较true。真根padding/完整pair修补/3594接口和Theta/mean原样；五READMEcheck首末三留存空diff，原X全域积分/exp仅读，0旧数值重算。仅RA局部Jacobian费已付，容量/根负型/新body与whole逆继续待。
+
+## 2026-11-20 15:33 UTC：剩余133旧g0日志的准确历史指针
+
+会话visible-exact-astra-ac637-20261120。joint清单后root在已发布2e31865ee独作fresh metadata依赖闭包：3881input根/6215JSON/1212AST/285workflow/21future，共8754保护路径，与133旧CI43275872327 g0日志交集0。46918B/9118c662指针保存原不可变commit及每件bytes/SHA/blob；逐当前字节核同后普通删除426795B，净379877B。原actual/exec/native/current pins和科学目标不动，旧成功/失败可原字节恢复；0科学，11MB closure audit只在scratch。

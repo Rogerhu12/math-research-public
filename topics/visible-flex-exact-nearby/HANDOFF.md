@@ -1,16 +1,16 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:31:00 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 15:34:02 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 15:31:00 UTC 实际pull/rebase至 `f8b9c57788f1c7731a5debd9a8edecaef712d41d`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:31:00 UTC。
+2026-11-20 15:34:02 UTC 实际pull/rebase至 `84a8cad4b15bff20f8e86ee49a5f8e2816e9eae6`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟16:34:02 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
-科学仅本公开仓库Actions；本机证明/编辑/静态元数据。每条结论独立推前pull、核两README；非FF立刻rebase循环，不force。规15只留脚本/参数/run/hash/小结论，topic≤200MB、H<10KB。原数组/log的全部恢复与成功/失败资格见[6329adde0完整H](https://github.com/Rogerhu12/math-research-public/blob/6329adde0dd0e885480ab178b82bae22717aafb6/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归表；最新[199日志指针](notes/2026-11-20-next-legacy-stdout-history-pointers.json)保530ebf1bb原字节、净释放601365B/保护交集0。仅普通历史指针删除，当前科学/native/pins不改，旧成功不重算。
+科学仅本公开仓库Actions；本机证明/编辑/静态元数据。每条结论独立推前pull、核两README；非FF立刻rebase循环，不force。规15只留脚本/参数/run/hash/小结论，topic≤200MB、H<10KB。原数组/log的全部恢复与成功/失败资格见[6329adde0完整H](https://github.com/Rogerhu12/math-research-public/blob/6329adde0dd0e885480ab178b82bae22717aafb6/topics/visible-flex-exact-nearby/HANDOFF.md)及其递归表；最新[133日志指针](notes/2026-11-20-remaining-g0-stdout-history-pointers.json)保2e31865ee原字节、净释放379877B/8754保护交集0；原199批及此前资格随该完整H递归保。仅普通历史指针删除，当前科学/native/pins不改，旧成功不重算。
 
 ## 完成标准与同一对象
 
