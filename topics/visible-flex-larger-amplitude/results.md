@@ -4,6 +4,8 @@
 
 ## 新增结论
 
+- **R655（径向真实盲空间与 Gauss 控制已证明）**：[节点／中点 Gram 的 920 维有限幅度不变空间](results/R655-node-midpoint-blind-space-and-Gauss-control.md)：固定 H/core 时非均匀 J 节点网格有准确 J−3 维纯 Z0 盲空间，全部旧角值非线性 Gram 严格不变；五点准确控制 quintic 导数，完整六次 lift 的 Fs 用每 piece 六点，给正权积分与上确界常数。保原同 g 标量与全部未知量，不冒连续 Gram 或 reach 证书。
+
 - **R654（完整 H² 坐标范数与端口谱界已证明）**：[全部 quintic 缺陷、准确小块端口及同范数增广](results/R654-complete-integrated-H2-norm-and-endpoint-spectrum.md)：保留全部 A/E/D/core/H；D/h 尺度与真实胞内二阶导数平方积分以 1/11、18 统一等价，原 L² 与新 H² 端口的对角归一化条件数均不依赖最小胞宽或角模；粗列同范数白化最多减半平方步范数。非闭解、曲率或 reach 证书。
 
 - **R653（准确角行约化已证明）**：[四分之一角域的完整Gram等价](results/R653-exact-quarter-angle-closed-Gram-reduction.md)：当前反射/半周对称及完整解析lift使1845×2048×3原行准确合并为1845×513×3带重数行；目标、JᵀJ/Jᵀr及同阻尼模型不变，未删未知量，尚无新闭解。
