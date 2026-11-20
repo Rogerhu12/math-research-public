@@ -106,3 +106,8 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R57. 新软启动中间准确曲率的必要reach障碍
 
 [完整证明](results/R57-soft-start-intermediate-curvature-obstruction.md)。新r∈[1.05,1.1]、准确k=.45在第二升速段仍保开圆片时K>50/3，排该精确C³设计的reach门；局部重启R5处理两段之间退化点。最终k∈[.2,.205]首段χ>.52；τ0的损耗预算不填R8正K退化延拓缺口。全部严格积分已执行，未重新求BVP，也非任意C²或整体不存在结论。
+
+
+## R58. 当前4.625尾背景的连续高度与曲率
+
+[完整证明](results/R58-q060-valley-background-height-and-curvature.md)。对当前物理参数独立真实积分：h(.3)<.025835、w≤.41、全背景|κ|≤8；覆盖外cut恢复、protect159混合、同源深尾和C²平盘。固定512-step binary校准值，未付JS有限profile求值误差；非旋转场和真DN不由此通过。以同原点z_b∈[.1,1.28]放置时反射背景组件D≤2.68/support>.087。

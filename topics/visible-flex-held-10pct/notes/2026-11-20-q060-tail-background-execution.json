@@ -1,0 +1,119 @@
+{
+  "run": "q060-tail-geometry-20261120",
+  "status": "completed",
+  "date_utc": "2026-11-20",
+  "scope": "Actual local source evaluation and outward interval background geometry; no nonlinear tail or BVP.",
+  "physical_parameters_source": "scripts/resume_closed/q060_cosine_reference_binding.json",
+  "first_six_valley_controls": [
+    4.625,
+    2.8125,
+    4.0625,
+    5,
+    5.25,
+    4.0625
+  ],
+  "source_port_sha256": "aa482f3bbd9506b90e307df72a7890f02f933338a4b3dec230f90b10765b09a5",
+  "source_tail_config_sha256": "199da224daceeaaae7179b5de147e2e97f76274fa67daa9ecba33267919a4cc3",
+  "source_recovery_manifest_sha256": "8e177f9cd0ab54d6db1d29baff4faad5ba5fda5f073c4743ab55d35dda73576e",
+  "source_factory_sha256": "740e672edee58cff7a15f89d75e181577dd439c1c62777c57d0d0ab1af32141e",
+  "node_version": "v24.22.3",
+  "source_scripts": {
+    "scripts/finite_closure/m3_m8_collar_disk/dump_background_constants.mjs": "4eb4a93f98987bf9371c5078d7d713ec350c8d5c3b1900bd8d2af4dfaae1a774",
+    "scripts/finite_closure/m3_m8_collar_disk/certify_background_integrals_v2.py": "2fb5d74212176efd8229133b3439b6f083ea96d8b26a7e95240d58620cdc7249",
+    "scripts/resume_n4/certify_q060_tail_background_gates.py": "f887a79cb6fe39b66fc7cda39ac8edbd8a8ee65d539eb901717e06774892a463"
+  },
+  "commands": [
+    [
+      "node",
+      "TOPIC/scripts/finite_closure/m3_m8_collar_disk/dump_background_constants.mjs",
+      "SOURCE",
+      "PORT",
+      "WORK/constants.json"
+    ],
+    [
+      "python",
+      "TOPIC/scripts/finite_closure/m3_m8_collar_disk/certify_background_integrals_v2.py",
+      "--input",
+      "WORK/constants.json",
+      "--out",
+      "WORK/integrals128.json",
+      "--cells",
+      "16",
+      "--panels",
+      "128"
+    ],
+    [
+      "python",
+      "TOPIC/scripts/resume_n4/certify_q060_tail_background_gates.py",
+      "--constants",
+      "WORK/constants.json",
+      "--integrals",
+      "WORK/integrals128.json",
+      "--out",
+      "WORK/analytic-gates.json"
+    ]
+  ],
+  "output_sha256": {
+    "constants.json": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+    "integrals64.json": "34d9c2038eb15dca13e242b867f60b16e174d533b85502192ff54fc8940d6e3e",
+    "integrals128.json": "9dc7e119f2ec658e1232c25da5747cd855e01f8c131007c899310733dbd11816",
+    "analytic-gates.json": "414b01b594a7c87389478e148128c55b7483cc1125815136feca296f2ad6d0b8"
+  },
+  "actual_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "interval_precision": 60,
+  "cells": 16,
+  "panels_per_piece": 128,
+  "initial_64panel": {
+    "height_upper": 0.029150884605912666,
+    "meaning": "valid enclosure too wide for the .029 placement budget; same physical parameters refined to128"
+  },
+  "numerical_factory_only": {
+    "alpha": 161.16325458995925,
+    "height": 0.022772089996296273,
+    "minimumWarpWidth": 0.15317832155141006
+  },
+  "strict_enclosures": {
+    "positive_exact_normalization": {
+      "lower": 131.16097350334695,
+      "upper": 188.60622038188163,
+      "lower_exact": "2307408247637597/17592186044416",
+      "upper_exact": "6635991436184373/35184372088832"
+    },
+    "exact_background_height": {
+      "lower": 0.019963459085484546,
+      "upper": 0.02583461561074651,
+      "lower_exact": "2877037660749259/144115188075855872",
+      "upper_exact": "7446320975220351/288230376151711744"
+    },
+    "cell0_inner_radius": {
+      "lower": 0.12272976705527384,
+      "upper": 0.14803472197885856,
+      "lower_exact": "8843611730838385/72057594037927936",
+      "upper_exact": "5333512949935059/36028797018963968"
+    }
+  },
+  "all_analytic_assertions_passed": true,
+  "full_background_bounds": {
+    "slope_upper": "41/100",
+    "principal_curvature_abs_upper": "8",
+    "placement_cut_height_interval": [
+      "1/10",
+      "32/25"
+    ],
+    "placement_support_lower": "87/1000",
+    "placement_reflected_component_diameter_upper": "67/25"
+  },
+  "proof_scope": {
+    "fixed_finite_binary_calibration_constants": true,
+    "true_integral_background": true,
+    "same_deep_source_root_bracket_from_R21": true,
+    "JS_finite_profile_error_certified": false,
+    "nonlinear_field_certified": false,
+    "complete_surface_certified": false
+  },
+  "data_policy": "Regenerable arrays and complete calculation outputs stay scratch; only scripts, parameters, hashes and compact conclusions are committed."
+}
