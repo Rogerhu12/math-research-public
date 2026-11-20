@@ -65,6 +65,6 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 ## 当前公开Actions执行
 
-run [44758209061/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44758209061)，源码`4ae162196553e6ce2ef28a6a35bea2d0d567883e`；[实际紧凑记录](notes/2026-11-20-public-actions-44758209061-1.md)。当前`followup:reconstructed-R671-returned-bottleneck-diagnosis-02`/completed，返回阶段32；退出码0。
+run [44758209061/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44758209061)，源码`4ae162196553e6ce2ef28a6a35bea2d0d567883e`；[实际紧凑记录](notes/2026-11-20-public-actions-44758209061-1.md)。当前`followup:reconstructed-original-six-returned-bottleneck-diagnosis-02`/completed，返回阶段33；退出码0。
 
-Actions规则核查：2026-11-20 17:11:08 UTC，真实pull至`e9d0f259e0a099cd2b0e23c1001ef6749d4202d0`，双README相对已读无变化。
+Actions规则核查：2026-11-20 17:11:17 UTC，真实pull至`54ae3ce21f2a2f94ad212661cb9e8fd0ff95909f`，双README相对已读无变化。
