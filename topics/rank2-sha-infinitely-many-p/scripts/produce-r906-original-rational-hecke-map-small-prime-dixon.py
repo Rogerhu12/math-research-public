@@ -58,6 +58,10 @@ def hash_rows(rows):
         h.update(b";\n")
     return h.hexdigest()
 
+from original_cubic_q_certificate import original_polynomial_rings
+original_polynomial_rings()
+progress("original certificate polynomial backend preflight passed")
+
 # Exact original eigenvalues from the established finite-ideal producer.
 dep = Path(__file__).with_name("check-r873-original-cm-petersson-degree.py")
 spec = importlib.util.spec_from_file_location("original_r873", str(dep))

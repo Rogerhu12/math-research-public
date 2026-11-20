@@ -16,6 +16,20 @@ from pathlib import Path
 from sage.all import QQ, ZZ, PolynomialRing, lcm
 
 
+def original_polynomial_rings():
+    """Use Sage 10.6's default QQ FLINT backend; check the actual API early."""
+    R = PolynomialRing(QQ, "q")
+    Z = PolynomialRing(ZZ, "q", implementation="FLINT")
+    q = R.gen()
+    assert "polynomial_rational_flint" in type(q).__module__
+    p = (q + QQ(1)/2)**2
+    assert p.denominator() == 4
+    ip = Z([ZZ(4*c) for c in p.list()])
+    assert R(ip)/4 == p
+    assert (q*p.derivative()).truncate(2) == q
+    return R, Z
+
+
 def strict_original_cubic_certificate(weight, sol, qrows, *, field, vnew,
                                       original_f, forms2, low_m2, recipes,
                                       progress, digest, coords):
@@ -25,10 +39,8 @@ def strict_original_cubic_certificate(weight, sol, qrows, *, field, vnew,
     assert field.degree() == 3 and field.gen() ** 3 == 17
     bound = 612 * (weight + 1)
     precision = bound + 3
-    R = PolynomialRing(QQ, "q", implementation="FLINT")
-    Z = PolynomialRing(ZZ, "q", implementation="FLINT")
+    R, Z = original_polynomial_rings()
     q = R.gen()
-    assert "polynomial_rational_flint" in type(q).__module__
 
     def trunc(p):
         return p.truncate(precision)

@@ -84,3 +84,11 @@ U、eta48坐标、完整RR基、两原映射和shadow仍分别需要原有认证
 使用同一固定Sage镜像、prime29、原q4500/trace170方程；不保存重算输出。
 
 首quotient-only run44712364182/job136206970253已完成同一Tate方程认证，随后因调用者把原4返回值误读为2而退出。已按原函数return k,Ks,polynomial,result修复，数学输入/条件无变。完整原日志hash0eb8ba7926a54d6f84be6e610a379c040a1a8bcae616e6eea342d22e3a6d3ce4；此失败不提供正规化结果。
+
+## 4. 固定 Sage 10.6 的构造接口修正
+
+2026-11-20 新P run44711820528/job136205139671/source7dd40baad2aea0abe82867420d30ca7cac8e381a 在974.39秒再次通过全部1226行、3168个有理坐标重建和原短支，坐标hash仍为358238d2595ab4e7873fa41729e725528ab3904cc803d5d1aca22ce010e7be67。随后固定镜像在 `PolynomialRing(QQ, "q", implementation="FLINT")` 抛出 ValueError，尚未执行新高阶认证。
+
+修复使用该版本默认的 QQ 多项式构造，仍断言实际类型来自 `polynomial_rational_flint`；整数后端不变。将构造、统一清分母和截断微分的API检查放在CM输入及Dixon重建之前，失败将立即显现。这个失败是接口兼容问题，不提供数学反例或完整映射认证。
+
+09:49共享执行环境失联。此前全部工作已推送；此后使用已授权的GitHub接口读取当前main、核对两README、创建以最新main为父的原子提交并以expected head非强制快进更新。冲突时重取最新main及原文件后重新合成，绝不覆盖他人提交。通过仓库既有 `rank2-sha-readonly-rule-pull.yml` 请求真实部分克隆/pull和README差异；回执未到之前不把接口读取记为实际git pull。
