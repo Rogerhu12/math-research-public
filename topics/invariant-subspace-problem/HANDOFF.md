@@ -5,13 +5,13 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
-- **最近成功实际pull与已读规则提交：** e7e7b9ec349f1bec3d775f1eab35fd5869e27a79，2026-11-20 10:46:24 UTC，Actions run44722024572/job136239897518；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:46 UTC。
-- **最近API同步及规则核对：** `b1622590ea0a7def2a37635b441d47af0ac9ff93`（2026-11-20 10:59:05 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近成功实际pull与已读规则提交：** fae69f6c767bdfbca9ba3ecfa396353fb91a66dd，2026-11-20 10:59:14 UTC，Actions run44723783966/job136245961458；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:59 UTC。
+- **最近API同步及规则核对：** `8d6c646d0e2ae4388f4fc3c098a3c1b3d93c0d0b`（2026-11-20 11:03:28 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
 - 本地executor于2026-11-20 09:49 UTC断开/environment unavailable；依根规则8以小文本API发布，逐次读取最新main/两README，非force条件更新失败即重读重建。API不冒称实际pull，另由只读Actions保持小时pull。实际请求sequence54已成功，下一递增55。恢复本地先处理未推a06d8dbd8与远端等价内容，勿重复推。
-- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-unit-two-plus-one-b2a9.md)、[完整open](notes/2026-11-20-open-before-deddens-negative-domains-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
+- 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-unit-two-plus-one-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
 
 ## R150：原Bell非零临界点与完整来源
 
@@ -22,9 +22,9 @@
 - [ess4外均值长度五](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)：Cat(y)=3、W=essT3维4、y∉W，唯一原除子D/全jets与同一L,ν给全矩，原highest及全部low梯度保留。**[所有rankH3已空](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)**，包括全部合流/半权/∞；只余rankH4/5。
 - rankH4非单位块长度5/4/3的全部支路均已排，证明索引及保同一L/K/原矩的局部规范详前H；半权及∞全含。
 - 长度2单零的K_active=0单位补支已排（原mean/highest/Gram秩及W±不交）；非零Gram另解，勿放宽范围。
-- **[unit三重点+长度2单零也已空](results/R150-appendix-essential-four-unit-three-jet-double-zero-rank-four-branch-is-empty.md)。** 原mean四式、zero base的原highest/N及真Gram秩逐支排，非零支只余两二次因子且各自矛盾，无CAS。divisor3+2两种rank4缺陷放置全闭；长度2单零的unit补因子仅余2+1/三个单点。
+- unit三重点+长度2单零已空：原mean四式、zero base的highest/N和Gram秩闭全部支（见结果索引）。divisor3+2两种rank4缺陷放置全闭。
 - **[unit四jet+孤立零点也已空](results/R150-appendix-essential-four-unit-four-jet-isolated-zero-rank-four-branch-is-empty.md)。** 原mean四式/highest三阶/N基点全核，所有除法例外排；regular的H6/M8原必要式在短run44722024572精确Q gcd=1（六步），只存源/运行/SHA。divisor4+1两种rank4缺陷放置全闭；isolated zero只余split unit长度4。
-- **进行中的新精确源：** unit2+1补长度2单零的完整QQ脚本已提交，短Actions请求sequence2；它从原y/H/V重建3mean/3N、det/rank-one及3个gcd，全部除法例外另证。未取得原运行前不填已闭；未存可重算输出。
+- **[unit2+1加长度2单零整支已空](results/R150-appendix-essential-four-unit-two-plus-one-double-zero-rank-four-branch-is-empty.md)：** 原QQ重建3mean/3N、det/rank-one及3gcd在run44723783966通过；半权/零差/θ0,−3/det零/A零全部另证。长度2单零只余unit三约化点；源/运行/SHA保留，不存余式。
 - **当前仍开：** rankH4的其余长度2单零及零单点；全部rankH5单位支。y∈W、ess5/6、完整Bell幂来源/算子桥也仍开。代理的新支路稿先经根核再登记，不将草稿预填为结论。
 
 ## R271：同w的完整源费用

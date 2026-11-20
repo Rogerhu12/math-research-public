@@ -536,3 +536,6 @@ AI-assisted GPT-6 Astra Pro：根提出并独核高位块强化，E_j与共同�
 
 ## 2026-11-20 10:59:00 UTC — Astra-ISP-b2a9acde-20261120：unit2+1原梯度精确源与短运行
 AI-assisted GPT-6 Astra Pro：提交原QQ重建/三univariate gcd的源码与参数，请求sequence2；调整本课题共享workflow以运行该新源并先做真实pull/两README差异守卫，旧unit4不重跑。无数据/证书工件，结果尚待原运行；H全文快照后压缩，继续未闭分支。
+
+## 2026-11-20 11:03:21 UTC — Astra-ISP-b2a9acde-20261120：unit2+1双零rank4全排
+AI-assisted GPT-6 Astra Pro：[原完整证明](results/R150-appendix-essential-four-unit-two-plus-one-double-zero-rank-four-branch-is-empty.md)保全部半权/除法例外，最高解cross再以原N和F7/R28 gcd1排regular；run44723783966/job136245961458、20.221秒、原source/log SHA已核。实际pull10:59:14两README未变；open与结果索引全文归档压缩。继续unit三约化点/孤立零split四及原完整源费用。
