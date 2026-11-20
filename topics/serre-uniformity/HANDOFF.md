@@ -6,9 +6,9 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)。
 
-**已读规则提交：9ae1484c979b64881d0e8a59d32e5bfd738f79f0**（2026-11-20，终端git pull --rebase origin main）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：bbfbd2a14a522e665d28a4a80ac40edbd990bc3b**（2026-11-20T09:57:38.080011+00:00；公开Actions真实git pull --rebase origin main，两README SHA无变化）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
-每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端git已恢复；旧run终态已核实。
+每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。2026-11-20 09:48UTC终端环境unavailable；改沿本仓库公开Actions恢复流程真实pull/rebase/push，PAT不入文件。旧run终态已核实。
 
 ## 本次核实的旧任务终态
 
@@ -57,9 +57,11 @@ R913原λ_h对应k−=2p+2−2h，L̄对应k+=2h−p+1；两tame伴随/整Θ/ζ�
 
 [R933](results/R933-same-label-Legendre-factor-and-fixed-Cartier-differential.md)新证315δL_h=283U−224V；原E*上固定β=(224w−283)ω有Cβ=−315δL_hω。零等价β在Fp(E*)有显式有理原函数；R934已给41零，续大p/多h及独立Q′/height。
 
-[R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)已证：p5mod12原h8=(p+9)/2、h32=(p+33)/2均本原；固定正整数a11外，两Legendre因子不同时零，充分p>10^22。对应k+=10/34；完整权34六维空间已给，实际T5核唯一性/低Q′/normal源/height仍未成，下一步算固定T5五行。
+[R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)已证：p5mod12原h8=(p+9)/2、h32=(p+33)/2均本原；固定正整数a11外，两Legendre因子不同时零，充分p>10^22。对应k+=10/34；a11=14958957622875578640已由run44713602498算出；两标签sigma不得混用。
 
-[R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)已证完整SS和化为维N+1的Fp²[t]/(tH_N)迹：S^p=12c_r²Tr((3−2e0)R)。t0与所有点权保全，d1/cF仍未知非零原尺度；非零和高Q′比较未成。新公开请求跑41/47/59/71/83/107（71/107仅aux），并跑权34五T5行和固定a11；结果待实际回执。
+[R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)已证完整SS和化为维N+1的Fp²[t]/(tH_N)迹：S^p=12c_r²Tr((3−2e0)R)。t0与所有点权保全，d1/cF仍未知非零原尺度；非零和高Q′比较未成。run44713602498/source d051e06c成功，41/47/59/71/83/107全和分别39/34/16/70/14/24，71/107仅aux；有限非零不外推。
+
+[R937](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)已成：权34五T5行rank5，除固定B34=D34·C34外实际primitive源是原V34†线，标记比C34=1350702136960、fine阶2p−35；完整核向量/坏整数/run/SHA见证明。下一项为权34原normal低层与同h Q′，主目标仍OPEN。
 
 ## 永久关闭边界
 
