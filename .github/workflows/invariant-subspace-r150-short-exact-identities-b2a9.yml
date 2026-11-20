@@ -48,16 +48,14 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-zero-base-pairing-verify.py" > "$RUNNER_TEMP/isp-unit31_zero_base.py"
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-half-verify.py" > "$RUNNER_TEMP/isp-unit31_half.py"
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-vzero-degree-seven-same-first-matched-bell-certificate-b2a9.py" > "$RUNNER_TEMP/isp-vzero_degree7.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-alpha-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_alpha_zero.py"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0 python-flint==0.9.0
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" - <<'PY'
           import concurrent.futures,hashlib,json,os,subprocess,sys,time
           from pathlib import Path
           root=Path(os.environ['RUNNER_TEMP'])
-          jobs=[{"label":"unit31_zero_base","file":"isp-unit31_zero_base.py","source_sha256":"b2394a711c80f4c8c08bdaba2104d79433074294879d4937c142437d82199535","seconds":90,"args":[]},{"label":"unit31_half","file":"isp-unit31_half.py","source_sha256":"1207ffc3c9c49bc2d3c71a9136978c00700d22cffd203414cbce70a9cd4c0a47","seconds":120,"args":[]},{"label":"vzero_degree7","file":"isp-vzero_degree7.py","source_sha256":"e9efe34e78901f747660613a869a7a0c0bbfa4f2ee1a4d6ddab10814027ab713","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]}]
+          jobs=[{"label":"unit31_alpha_zero","file":"isp-unit31_alpha_zero.py","source_sha256":"d723067071adab3df7e3871185e6654840ec8a60880d4af90139cea36de46254","seconds":180,"args":[]}]
           for j in jobs:
               source=root/j['file']
               assert hashlib.sha256(source.read_bytes()).hexdigest()==j['source_sha256']
@@ -76,7 +74,7 @@ jobs:
               info={'label':j['label'],'source_sha256':j['source_sha256'],'exit_code':code,'elapsed_seconds':time.monotonic()-begin,'stdout_bytes':len(data),'stdout_sha256':hashlib.sha256(data).hexdigest()}
               return info,data
           failed=False
-          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
               for future in concurrent.futures.as_completed([pool.submit(execute,j) for j in jobs]):
                   info,data=future.result()
                   print('ISP_EXACT_BEGIN '+info['label'],flush=True)

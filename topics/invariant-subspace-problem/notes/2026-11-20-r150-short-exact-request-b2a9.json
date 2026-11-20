@@ -1,18 +1,14 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 9,
+  "sequence": 10,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 12:02:54 UTC",
-  "task": "Corrected complete unit31 p=0 identities; complete unit31 half-weight source; new V0 degree7 same-first-times-square matched Bell target",
+  "createdUtc": "2026-11-20 12:09:09 UTC",
+  "task": "Complete nonhalf unit31 alpha=0 branch: original mean and jets, both q branches, exact quadratic norms and QQ gcd",
   "sourcePaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-zero-base-pairing-verify.py",
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-half-verify.py",
-    "topics/invariant-subspace-problem/notes/2026-11-20-r150-vzero-degree-seven-same-first-matched-bell-certificate-b2a9.py"
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-alpha-zero-verify.py"
   ],
   "sourceSHA256": {
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-zero-base-pairing-verify.py": "b2394a711c80f4c8c08bdaba2104d79433074294879d4937c142437d82199535",
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-half-verify.py": "1207ffc3c9c49bc2d3c71a9136978c00700d22cffd203414cbce70a9cd4c0a47",
-    "topics/invariant-subspace-problem/notes/2026-11-20-r150-vzero-degree-seven-same-first-matched-bell-certificate-b2a9.py": "e9efe34e78901f747660613a869a7a0c0bbfa4f2ee1a4d6ddab10814027ab713"
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-alpha-zero-verify.py": "d723067071adab3df7e3871185e6654840ec8a60880d4af90139cea36de46254"
   },
   "dependencies": {
     "python": "3.12.14",
@@ -23,35 +19,15 @@
   "parameters": {
     "jobs": [
       {
-        "label": "unit31_zero_base",
-        "timeoutSeconds": 90,
+        "label": "unit31_alpha_zero",
+        "timeoutSeconds": 180,
         "args": []
-      },
-      {
-        "label": "unit31_half",
-        "timeoutSeconds": 120,
-        "args": []
-      },
-      {
-        "label": "vzero_degree7",
-        "timeoutSeconds": 210,
-        "args": [
-          "--wall-seconds",
-          "180",
-          "--memory-mib",
-          "1024"
-        ]
       }
     ],
-    "concurrentJobs": 3,
-    "vzeroField": "QQ[d]/original cubic",
-    "vzeroMatrix": [
-      792,
-      742
-    ],
-    "vzeroTarget": "(r.y)*S_r(y)^2 at all three original matching roots",
-    "vzeroPositiveGate": "All792 rows of all three rational coefficient targets; multiply the result by Q_r to get S_r^3",
-    "paidDegreeSixMatrixIsNotRerun": true
+    "concurrentJobs": 1,
+    "originalScope": "p!=0,b!=1/2,2phi-A-3bp=0; all original equations and exceptional factors retained",
+    "method": "Original rational identities and degree11/13 univariate QQ gcd, no Groebner or finite-field lift",
+    "paidClosedBranchesAreNotRerun": true
   },
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
@@ -59,5 +35,5 @@
   },
   "maximumJobMinutes": 8,
   "computedArraysToBeSaved": false,
-  "previousRunId": 44731129539
+  "previousRunId": 44732550495
 }

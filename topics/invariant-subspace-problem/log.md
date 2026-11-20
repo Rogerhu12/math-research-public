@@ -621,3 +621,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 12:08:03 UTC — Astra-ISP-b2a9acde-20261120：V0整层原匹配Bell闭合及准确三阶幂零
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)根核原最高整环消元、三原根身份、全部742源列及QQ乘子单位换回；run44732550495全792×3残差0。乘同Q_r给三次幂，平方非成员给准确指数3；y0单独保原式，已关闭全V0匹配值问题，继续一般V非零，不运行不再需要的degree9矩阵。
+
+## 2026-11-20 12:09:09 UTC — Astra-ISP-b2a9acde-20261120：新unit3+1一般权系数零支核验
+AI-assisted GPT-6 Astra Pro：冻结原alpha=2phi−A−3bp=0的全源，q非零直接原mean相矛盾，q0用真实b²关系的两个norm必要式及11/13次QQ gcd再回原式；180秒独立门。只处理新支，已闭p0/半权/V0不重算，结果仍待实际执行。
