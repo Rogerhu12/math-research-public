@@ -1,43 +1,37 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：Astra-larger-resume-24b2ab87-20261120（AI）；接手 /root 与 Astra-larger-parallel-16f63c8b-20261117。**未完成；持续到README全部标准，随后加强比例。** 完整结论逐条立即推，子题/批次/时长/报告均非停点。
+维护：Astra-larger-resume-24b2ab87-20261120（AI）。接手 /root 与 Astra-larger-parallel-16f63c8b-20261117。**未完成；持续到 README 全部标准，随后加强比例。**
 
-## 规则与目标
+## 规则与已读版本
 
-最近规则核查：2026-11-20 09:45 UTC，真实pull/rebase至 `2e4e85b21fe2981ba97ca49440874c6db62c09bf`，双README相对上次已读无差异。
+最后真实终端 `git pull --rebase origin main`：2026-11-20 09:45 UTC，已读 `2e4e85b21fe2981ba97ca49440874c6db62c09bf`，双 README 未变。随后终端已成功推送到 `e6503907bb671290bd2b6e3c4051d98c3958a6d1`。环境中断后，本次只读 API 核到 main `9288f266d1f242b594d70a714e20340fcb876023`：根 README blob `282e86b03385d3b6245ce7100ae2e2af7b103c2d`、题 README blob `bff8aea253a9e6a7a4fac28d810ac454c5499fec` 均与已读相同；没有将 API 读取说成真实 pull。
 
-规则同步记录：2026-11-20 09:25 UTC 已按 blob:none/sparse 部分克隆并真实 `git pull --rebase origin main`；已读提交 `882aa9b74efeaac682df43c197820e7280156357`。与上次 `e7192d5e7b1ed6291e3b8fd9804e31692e788b6d` 比较，根 README 与本题 README 均无变化。根、题、HANDOFF、open、最近 log 与末端 notes 已读；旧全文保上述固定提交。终端 git 已恢复可用；本次沿 §7 已登记的本地计算支线继续，不重跑已完成的开放片证书。root 唯一发布。
+仍只在公开仓库及其公开 Actions 工作。根12：完整证明直接发表，不加冻结、独审或额外机械门；根15：数组、证书及可重算 raw 不存 Git/Release/artifact，只存完整小源码、参数、run、SHA与紧凑结论，题≤200MB、单MD<100KB、HANDOFF<10KB、open<30KB。PAT只瞬时CLI，不入文件或connector；本次connector用已有连接。root唯一commit/ref发布，子agent只造完整UTF8小blob。终端失联时根8允许connector传完整小于100KB文本；不分块编码数据。恢复后仍至少每小时真实pull、核双README差异并记录，NFF立即rebase后普通push，不force。
 
-本次接手：旧本地 session 1878/97062 不属于新环境，记录中无终态；不得当作仍运行或已收敛。fullclosed 最后仅代数准备、0 几何求解；重建历史真实接受输入及 mode-damped warm 后继续全闭同 g 求解。三分工为 fullclosed_solver（最短重建/求解）、geometry_path（真实封帽结构）、recover_evidence（旧终态/邻题可复用证据）。尚无满足 README 的闭面。已完成/失败/未返状态与原源/run 都保留在下文及固定历史。
+原 root 的 Actions 链、11/17 并行本地链及全部旧责任完整保在 [e6503907版交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md) 和现有 open §1–7；原场/failed/partial/unreturned不能互换。此次没有重跑已完成开放片连续证书。
 
-仅公开Rogerhu12/math-research-public及其Actions；不回私库。科学算术/import/AST/compile/tests仅公开Actions，本地只文本/纸证/字面/JSON/字节元数据。root唯一Git/ref发布；PAT仅瞬时CLI、不入文件/提交/connector/回复。至少每小时真pull核双README并记commit，NFF立即pull --rebase再普通push至成功，禁force。旧终端失联/Actions恢复历史不表示本环境仍受阻。
+## 完成目标
 
-根12完整证明即刊，不加冻结/独审/机械重跑/fixture/科学前门。旧proxy33份同字节源码分两批归主本，原生产路径/失败保，恢复见open§7。根15可再生raw/证书/Actions输出不存Git/Release/artifact、不拆包编码；题≤200MB、单MD<100KB、H<10KB/open<30KB、log每条≤5物理行，不写根LOG。只取<100KB完整工具文本；已删raw不由SHA造父。open§4–6原字保。
+同一固定g；连通闭C²嵌入；全t强C²连续；固定有内点H且diamH≥.2D；整像δhold≥.2D、含反射δE>0；全t reach≥.03D；全域relative metric≤1e−6，D为完整闭F0直径。固定g/参数/t后实际mesh/频率/t精化误差继续下降至机器或原求解容差；多网格按根15交生成配方，说明严格存在缺口。障碍、接口、带边前缀、低幅及有限不收敛近似均不是完成。
 
-同一固定g、连通闭C²嵌入、全t强C²连续；固定有内点H且diamH≥.2D、整像δhold≥.2D、含反射δE>0、全t reach≥.03D、全域relative metric≤1e−6，D完整闭F0。固定g/参数/t后实际mesh/频率/t加密误差继续降至机器或原solver容差；多网格按根15保源/配方/run/SHA、说明严格存在缺口再加强比例。更强跨级C²不增门。
+## 2026-11-20 真实已完成步骤
 
-**原会话链仅M96/N1024/scalar=.99开放前缀接受；并行新设计scalar的.992见下，完整非零112/338/450仍无。** 原M112/N2048、699×453、3active+109core、338/112、双mean、全H/J/FD/RMS/域/BC/merit/final fresh J+audit不减；每模型fresh W/J，不跨模型相减merit。未返/未访/partial非数学拒。同B/尾帽/材料角/准确cut六jet/全Loewner/全pair/reach/held/D/反射分别真付。
+- [旧任务恢复](notes/2026-11-20-resume-recovery-evidence.md)：旧241/243/245/247/248/250/253/254均completed/failure；旧本地97062/1878没有终态及可接进程。只读254独立16924字符小结，其内部科学仍未返；没有新全闭接受父。
+- 已从历史 `60321451c058c6a51da58c37ae5ec6f2d1145f74` 的M96/.99真实接受输入（SHA `b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff`）重建 .991→.992→M112同g精化→.993→.995；最后499节点、RMS9.3255586209e−9、BC3.47e−18。再按原pulse及同Hold配方生成923节点完整warm，新bundle SHA `79c161cc11a0743209ca3947e2b0f51f7ab7046e14ebfadf519f5d6e7259edba`，S/R/H同旧值。新算身份独立，不冒丢失旧raw。
+- [R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)：准确半周/反射约化把原11335680行合为2839455带重数行，原目标、JᵀJ/Jᵀr、全部1332245自由变量不变。[batch实现](notes/2026-11-20-resume-batched-quarter-implementation.md)已刊。真实warm full/quarter平方和24260.053837990312一致，点Gram.655108956917；梯度raw差6.10e−10触发原诊断false，实际正尺度下差3.24e−12。具体定位记录随后刊，不换阈值或另设科学门。
+- [63维物理子空间](notes/2026-11-20-physical-fit-six-step-result.md)确实完成6步：raw SSE24260.05384→6430.55548，点Gram.655109→.586426，点det最小.728890，H→1.939215771562。原完整算子末读与子空间目标相对差1.123e−12；仍远超1e−6。真实候选SHA `af89a4414fb0cee35d75dba5530e9b45b62abd248ddf7509cca92c2a9696a505`。源与公式同刊，不把有限低维空间当完整解。
+- 首全空间128次LSMR方向确实完成：完整SSE24260.05384→23196.32439、全步下降，但点Gram反增到.670964，劣于63维父；最大A增量.093493，全部节点/中点曲率点值7.79724→7.79856。未有reach或连续metric证书。新min mesh h=1.5625e−5，没有字面极微胞。完整来源与配方随后刊。
 
-## 并行会话的新进展（2026-11-17）
+## 断线与紧接工作
 
-Astra-larger-parallel-16f63c8b：本地计算，原Actions责任保；[open§7](open.md#7-本并行会话的实际数学与几何路线)保完整源/失败/预算。R648全连续Gram<4.94e−7、R651全K≤7.04608、R652全819 β1/4支持>.3174736/β2/5>.16747356295均已刊，非闭reach。efe92/1878全Gram与0f/97062原Pr各自24/20继续，numerical唯一终态。真正全闭模型M160/923节点/11335680角值行/1332245自由度，准确Hold oracle、三jet圆端口与完整J/FFT对照已刊；原warm401255 Gram147失败保。[唯一mode-damped初猜](notes/2026-11-17-parallel-geometry-fullclosed-mode-damped-readout.md)9bf60/b361实际降至.655109仍不合格，prefix原节点3.6124e−5须一同求解。[完整双积分实际准备](notes/2026-11-17-parallel-root-fullclosed-integrated-coordinate-preparation.md)e6e968通过，0几何重算；生产尺度/首方向继续，尚无闭解。R650流reach/标记接口不替D/H/held/反射E3/reach/全t/同g精化。
+2026-11-20 09:55:54 UTC 更新：[执行环境故障记录](notes/2026-11-20-execution-failover.md)。09:49 UTC起执行服务断线，随后环境明确 unavailable；新的173维拟合**未启动**，新预条件准备也未执行，不是数学失败或审批拒绝。最后本地commit5732b26e6未确认推送，现按完整小文本恢复已跑源码/说明，root统一普通更新main。
 
-## 2026-11-20 实际运行状态
+下一实际动作：公开Actions真正blob:none/sparse clone/pull，重建唯一真实输入及同g完整warm，再复现63维父，接173维完整粗三jet（位置/速度/加速度）拟合；同时准备完整空间正列尺度均衡/物理附加列或双积分L²尺度。保所有原方程与精确端口，真实下降点继续推进，不能以预算/阶段/时长收尾。新Actions尚未在本交接中冒填run或启动状态。
 
-[本次恢复核查](notes/2026-11-20-resume-recovery-evidence.md)：旧request241/243/245/247/248/250/253/254当前全部completed/failure，不再等候；原compute大log没有重读。唯一新读取的是254独立小结job133632676762（16924字符），source准备通过但source/science完整必要体543251/191002均超旧90K，内部科学原因未返，不能造接受父。此前所有run/head/job及唯一读者账完整保在 `882aa9b74efeaac682df43c197820e7280156357` 的本文件；原已刊结论不变。
+## 原证明、剩余几何与容量
 
-旧本地LM 97062/1878只保存启动/第8方向恢复记录，无终态；新环境没有这些进程或数组。邻题held-10pct已刊低幅闭图held/D>.005462656，本题所需.2仍未到；new-mechanism无已刊全门候选。成功job标签不替科学结果。
+R648全开放prefix连续Gram<4.94e−7；R651全K≤7.04608；R652加权支持下界；R650正定流reach条件定理；均不替当前真正闭面输入。11/17全闭warm147→.655、FFT与双积分准备保全部原范围；旧短区间157行不是完整尾DN。原§1–6的同C、两帽、材料角、双mean、全H/J/FD/Loewner/反射E与九冻结450责任仍按各自模型保留，不能将不同模型merit相减。
 
-本次fullclosed_solver已从历史提交60321451c的真实M96/.99接受blob（SHA b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff）完成最短已刊生成链，真实923节点mode-damped warm SHA `79c161cc11a0743209ca3947e2b0f51f7ab7046e14ebfadf519f5d6e7259edba`；新算身份独立，不冒丢失raw。首128迭代全空间方向及6步物理子空间拟合现已开始。geometry_path分析闭合结构；recover_evidence转做原Gram同模型批量FFT。[R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)已证明准确角向约化：原11335680行变为2839455带重数行，保完整目标/JᵀJ/Jᵀr/全部未知量；[batch+quarter](notes/2026-11-20-resume-batched-quarter-implementation.md)已实现，必要小输入CS/转置/正常矩阵对照通过；尚无新非线性接受。
+真正等距闭面、连续全域metric、全t嵌入/reach、固定H/完整D/整像held/含反射E及固定参数精化均未完成。现有低幅邻题不能代本题.2。
 
-## 当前固定历史与已发表结论
-
-本次改写前全部原词逐字保[9c9feb26固定HANDOFF](https://github.com/Rogerhu12/math-research-public/blob/9c9feb26c30299748574c55eb40384d4f4cc4348/topics/visible-flex-larger-amplitude/HANDOFF.md)、[同头open](https://github.com/Rogerhu12/math-research-public/blob/9c9feb26c30299748574c55eb40384d4f4cc4348/topics/visible-flex-larger-amplitude/open.md)及完整旧链；所有原参数/失败/未返/未访/源/run/资源/清理/未付保持，结果/接口正文不减，旧删raw不造父。
-
-R579已普通刊9c9feb26（真pull951c553a双README不变），242457source/input true、科学1/双70/quiet与removedfalse完整边界保持。两20manifest独立审计43923464598/head7daa2916成功，原log仅公开recovery43924852261一次GET，完整73838/ca6365f3回；13具体文件43行全实际文本、producer/真正artifact reader及67明确lambda27覆盖均解释，原15具体+8generic边界/未扫/历史全列。本次仅两548177B候选按最后真pull完整增量guard普通移出，毛1096354B；全科学/warm/status/array/sibling不删，准确恢复4d572940。实际finalguard/run/head/净容量以成功回执续记，不预填。
-
-## 旧交接的待刊与资源边界
-
-旧251/R608、R619/request255、R621、R622、各 run 唯一终态读者及容量维护的完整原责任，见本次已读提交 `882aa9b74efeaac682df43c197820e7280156357` 的 HANDOFF 最后两节与 open §1–6。尚未返的正文不补造；旧活动记录按历史时点理解。[根15容量维护](notes/2026-11-20-resume-raw-retention.md)普通移出旧R168可重算993245B数组报告，源/参数/输入manifest/正文全保，精确恢复2d56baaaa；新增仅小源码/证明，计算数组留scratch。下一步先恢复最短实际模型，不再累加旧行政包装。
-
-原全几何与固定精化责任保：同一g/同B/材料/双mean/准确cut/全Loewner/两帽/全t嵌入reach/整像held/反射E及完整D均真实支付。条件R514/519/521、R526/530不代实际场；无当前γ、完整非零450或比例证书。未到README标准不收尾，现有运行不断，子题后接open下一项。
+[容量记录](notes/2026-11-20-resume-raw-retention.md)已按根15普通移出旧R168可重算993245B报告，原生成器/参数/输入/证明全保，可从固定2d56baaaa恢复到scratch；不改写历史。本地失联不改变已证/数值/失败标签。继续open下一实际子题。
