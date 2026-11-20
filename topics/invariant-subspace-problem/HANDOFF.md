@@ -7,7 +7,7 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `c439767c4c31c29ff502ecd470b8780ca724d08d`（2026-11-20 10:03:22 UTC，Actions run44715907411/job136219123185）。真实pull --rebase成功，两README blob未变，原日志已取核。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- **最近API同步及规则核对：** `4bb1ecde34ff4159b2ba9d4a6e240b4a5461d075`（2026-11-20 10:22:53 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `fdd5847d68b6530defca8388f0b96693eeb7da97`（2026-11-20 10:23:48 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - actual-pull工作流已修当前根README预期blob；本地不可用时继续用真实Actions pull维持至少每小时同步，两README变动即读差异。
 - 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
@@ -23,14 +23,12 @@
 
 ## R150已付结构与仍开范围
 
-- 全W31/W127原rank-one模、非裂扩张、Ann/共同指数及全部整来源费已闭，保[结果索引](results.md)及H归档，不重算。
-- 全essT3≤3 matched Bell零，但真W±Cat3临界点存在；不判Cat3空。Bell非零仍ess4/5/6，单点或两原子来源不覆盖例外。
-- **[ess4外均值的原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)已闭。** Cat(y)=3、essT3=W为4且y∉W，完整Hankel约束强制唯一长度五曲线除子D及全部原jets；同一Frobenius代数的L,ν给全部y/H/V/T3，不除L。中心奇点Z²∈CL²及全部缺陷已分类。所有原highest/low gradients仍须同解，未排Bell非零。
-- **[ess4外均值的全部rankH3支路已空](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)。** 完整原mean/H/highest逐一排活跃3、2+1、1+1+1与零部2、1+1的六组合；含全部非约化jets、半权、零配对及∞。最后W±等向三点的物理conic由两条显式线性余式排除。现在仅rankH4/5；y∈W、ess5/6保持开放，勿重做rankH3。
-- **[单五重点的rankH4支路已空](results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md)。** 取同一L=t，ν(t³)=1、q=ν(t⁴)≠0；原highest的局部0/3/6次系数依次迫K02=K03=K22=0，造成已排等向三jet。含∞，未删未知高阶物理jets；其余rankH4/5继续。
-- 原全局9×57/9×56、free32、十低基、全部56图册和原35节点/degree80对偶正规化已付；全Bell由4q+15δ覆盖。仍须每图真实$g_i^{N_i}$原来源后按$N=1+\sum(N_i-1)$粘合，不以几何代替判空。各完整source、例外与来源费见归档/索引。
-- 原E权7/8的Γ维312/1312、商7442/16362已闭；四q_jb²独立，bδ及六y_i bδ逐个非成员；规范q原源≤10、δ≤9排除。完整原低权源/界保[前H快照](notes/2026-11-20-handoff-before-koszul-and-height-b2a9.md)及结果索引，不重复。
-
+- 完整已付原来源、W31/W127、相对模/非裂扩张、全局9/10生成、free32、56图与低权边界保[本次H快照](notes/2026-11-20-handoff-before-rank-four-local-branches-b2a9.md)及[结果索引](results.md)，不重算；未列旧open不算关闭。
+- 全essT3≤3 matched Bell零，但W±Cat3真临界点存在；Bell非零只可能ess4/5/6。原4q+15δ图册仍须各图真实g_i^Ni原来源，再按N=1+Σ(Ni−1)粘合，几何不代判空。
+- [ess4外均值原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)：Cat(y)=3、essT3=W维4且y∉W，唯一原长度五除子D/全部物理jets，同一L,ν给全矩，未除非单位L；原highest及全部low梯度同时保留。y∈W与ess5/6尚开。
+- **[全部rankH3支路已空](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)。** 活跃3与零2的六局部代数组合全排，含非约化、半权、零配对及∞；最后W± conic显式余式排平方坐标分裂。只余rankH4/5。
+- **[单五重点rankH4已空](results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md)。** 同一L=t，νt³=1、νt⁴≠0，原highest局部0/3/6阶迫K02=K03=K22=0，矛盾等向三jet。
+- **[4+1在四重点单零的rankH4已空](results/R150-appendix-essential-four-local-four-jet-rank-four-branch-is-empty.md)。** 物理h/参数变换以ν̃(f)=ν(h⁻³f(ht))保持同一L和原全矩；全部非半权由原highest/mean的无共同权根排，半权用完整物理二次恒等及mean排。含∞。仍开：L零于长度3/2局部块、零单点及rankH5单位支；4+1在单点零不被本条排除。
 
 ## 新文献方向与原模型
 

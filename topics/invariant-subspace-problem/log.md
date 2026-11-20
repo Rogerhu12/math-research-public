@@ -465,3 +465,7 @@ AI-assisted GPT-6 Astra Pro：由真实固定球的L¹下界与L²上界取正�
 ## 2026-11-20 10:22:44 UTC — Astra-ISP-b2a9acde-20261120：单五重点rankH4支路排除
 AI-assisted GPT-6 Astra Pro：直接使用原外均值L=t及完整highest，局部0/3/6次系数迫等向三jet；根逐核六阶全部六种其余分拆的消失阶数，不规范未知低矩或丢高阶jets。
 完整证明见results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md。含∞，只闭该准确rankH4类型；继续4+1等其余原支路及rankH5。
+
+## 2026-11-20 10:23:43 UTC — Astra-ISP-b2a9acde-20261120：4+1四重点单零rankH4整支排除
+AI-assisted GPT-6 Astra Pro：显式可逆物理h/参数规范保持同一L、K、V/y/H，原完整mean非单位公式仅逆Frobenius配对；根逐核非半权及半权全部关键系数，均矛盾等向2+1。
+证明见results/R150-appendix-essential-four-local-four-jet-rank-four-branch-is-empty.md；全部权及∞覆盖，单点零另支仍开。旧H完整归档，继续零在长度3/2块和单位rankH5。
