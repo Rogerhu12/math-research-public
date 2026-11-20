@@ -7,7 +7,7 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `c439767c4c31c29ff502ecd470b8780ca724d08d`（2026-11-20 10:03:22 UTC，Actions run44715907411/job136219123185）。真实pull --rebase成功，两README blob未变，原日志已取核。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- **最近API同步及规则核对：** `c6773ffa7c2ce03f1e35a75fc7f8627082f69e7a`（2026-11-20 10:16:08 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `661544bfa553ee0390d545e6dddb896f2d920be3`（2026-11-20 10:21:17 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - actual-pull工作流已修当前根README预期blob；本地不可用时继续用真实Actions pull维持至少每小时同步，两README变动即读差异。
 - 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
@@ -26,7 +26,7 @@
 - 全W31/W127原rank-one模、非裂扩张、Ann/共同指数及全部整来源费已闭，保[结果索引](results.md)及H归档，不重算。
 - 全essT3≤3 matched Bell零，但真W±Cat3临界点存在；不判Cat3空。Bell非零仍ess4/5/6，单点或两原子来源不覆盖例外。
 - **[ess4外均值的原长度五代数](results/R150-appendix-essential-four-outer-mean-length-five-algebra-and-rank-defects.md)已闭。** Cat(y)=3、essT3=W为4且y∉W，完整Hankel约束强制唯一长度五曲线除子D及全部原jets；同一Frobenius代数的L,ν给全部y/H/V/T3，不除L。完整H仅rank3/4/5，所有非单位缺陷已分类；中心三次奇点Z²∈CL²，七分拆已全列。原highest与全部low gradients仍须同解，未排Bell非零；y∈W与ess5/6也仍开。
-- **[原五点约化且rankH3的整个ess4外均值分支已空](results/R150-appendix-essential-four-reduced-five-point-rank-three-branch-is-empty.md)。** 完整mean方程迫活跃三点全等向或恰一半权；前者由原H/mean/highest联立矛盾，后者由完整节点梯度迫两零点配对列相等，原五次极线在活跃点的1阶/至少2阶零点矛盾完成排除。含零配对与∞，不依赖未读GB日志。非约化D及rankH4/5继续。
+- **[ess4外均值的全部rankH3支路已空](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)。** 完整原mean/H/highest逐一排活跃3、2+1、1+1+1与零部2、1+1的六组合；含全部非约化jets、半权、零配对及∞。最后W±等向三点的物理conic由两条显式线性余式排除。现在仅rankH4/5；y∈W、ess5/6保持开放，勿重做rankH3。
 - 原全局9×57/9×56、free32、十低基、全部56图册和原35节点/degree80对偶正规化已付；全Bell由4q+15δ覆盖。仍须每图真实$g_i^{N_i}$原来源后按$N=1+\sum(N_i-1)$粘合，不以几何代替判空。各完整source、例外与来源费见归档/索引。
 - 原E权7/8的Γ维312/1312、商7442/16362已闭；四q_jb²独立，bδ及六y_i bδ逐个非成员；规范q原源≤10、δ≤9排除。完整原低权源/界保[前H快照](notes/2026-11-20-handoff-before-koszul-and-height-b2a9.md)及结果索引，不重复。
 

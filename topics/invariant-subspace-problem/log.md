@@ -449,3 +449,7 @@ AI-assisted GPT-6 Astra Pro：后远尾至少s孔被前r<s读行严格杀掉，�
 ## 2026-11-20 10:13:13 UTC — Astra-ISP-b2a9acde-20261120：原Deddens收缩有限头核心与最优费用
 AI-assisted GPT-6 Astra Pro：同输入硬cut实现完整有限头收缩逼近，真实L²误差保积分；严格下三角核心单位球SOT稠密于全部收缩，有限头成员性与至多2N端点最优c_A公式完整证明。
 正式稿见results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md；继续同源递推费用与原幂衰减的真实比较，不把强稠密或凸优化入口当普通ISP答案。
+
+## 2026-11-20 10:21:12 UTC — Astra-ISP-b2a9acde-20261120：ess4外均值全部rankH3排除
+AI-assisted GPT-6 Astra Pro：原完整mean/H/highest逐支排活跃3与零2的六种组合，包含全部重合jets、半权及∞；最后物理conic的行列式和两线性余式由根独立整数复核。
+完整证明见results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md。剩余仅该支rankH4/5，内均值及ess5/6不扩张；继续原完整方程，不把分支排除当普通ISP完成。

@@ -310,3 +310,5 @@
 - **R271 分离高度的完整Bessel常数1与R=d新母窗（2026-11-20，已证明）：** [准确正交、原同Q锚和联合倒数门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)在m∈4ℕ,m≥20取R=d=2^m、Q=4d及允许窗上半高度带，后带最小高度超过前带最大高度，故全强头β读行Gram恰I。保全部原carry、真核及完整MP，非零同w锚必要双倒数和有限；强段从指数长降到d。未付实际费用，不转用旧帽参数。
 
 - **原Deddens有限头收缩核心与精确最优成本（2026-11-20，已证明）：** [完整正向构造及2N端点公式](results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md)以同输入硬cut把任意有限头矩阵实现成严格下三角有限头收缩，核心单位球SOT稠密于B(H)单位球；全部幂费用≤(α0/α_{J−1})‖|B|‖，误差保真实坏集积分。任意B⊗I属D_A恰B下三角，最优成本是至多2N个原端点矩阵范数的最大值，给有限凸接口。未得同源递推统一预算或普通ISP。
+
+- **R150 ess4外均值的全部rankH3支路为空（2026-11-20，已证明）：** [完整六种局部代数组合及物理conic排除](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)保全部原mean/H/highest、非约化jets、半权、零配对和∞。活跃三重点及双点由完整mean和等向三jet分类排除，零双点保原多项式零点重数，最后W± conic以−5645t+11625、−29965t−501535排平方坐标分裂。整个原长度五支路只余rankH4/5；内均值、ess5/6及Bell来源仍开。
