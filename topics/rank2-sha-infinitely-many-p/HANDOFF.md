@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`2e31865eed54c9b5b25f002daeab1ad283d771a5`；2026-11-20 15:32:47 UTC 实际pull --rebase，两README相对5a44e409差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`f2a3dc66ca60ed4641c34cbc5dbc40885f0c3b9a`；2026-11-20 15:37:09 UTC 实际pull --rebase，两README相对dd14a89d差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
@@ -75,4 +75,4 @@ R931§12修正source3a7bbe995的四入口15:12 UTC均已运行：六P44761009320
 
 [R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3正是全Z_m限制核；四低门杀物理长2m，只余away的真实源像；有限概形全长m(d_D−3κ−2)，不认像维等于全长。行下降及合法lift不变齐。§9精确读实际≤13/≤12位carry；m≤T时若第一p²修正存在，它已迫ell3(beta3)=c2≠0，不能再借同页消零。K2不变/受限S及联合后页保。
 
-R927§10原完整mixed F以全144 B及同a/b整像给IB1080/IA4752、不交；q=−θ³ξ³(ξ²−9)³(ξ²−1)、q0=s¹²q(1/s)保原SY/J及两框。IC=IA+qIB，完整两colon/回乘给真零极1296；度数仅最终一致性。证明已付，helper/实际PASS仍待。
+R927§10原完整mixed F以全144 B及同a/b整像给IB1080/IA4752、不交；q=−θ³ξ³(ξ²−9)³(ξ²−1)、q0=s¹²q(1/s)保原SY/J及两框。IC=IA+qIB，完整两colon/回乘给真零极1296；度数仅最终一致性。§11已接独立31源helper/公开入口，144/全整像/两colon和boundary待实际PASS。

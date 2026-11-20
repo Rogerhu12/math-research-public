@@ -261,4 +261,4 @@ R937附A/B：同q全部合法native尾方向对两条固定行零响应；给定
 
 ## R927§10：完整原F双图零极门
 
-[R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)已付原144低B、同a/b整像与两图标量q/q0，IA/IB全度4752/1080且不交；IC=IA+qIB后的完整两colon/回乘给真零极，1296仅末端核验。独立全源读者正接公开门，尚无完整除子或shadow PASS。
+[R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)已付原144低B、同a/b整像与两图标量q/q0，IA/IB全度4752/1080且不交；IC=IA+qIB后的完整两colon/回乘给真零极，1296仅末端核验。§11独立31源入口已接，完整除子/shadow实际PASS仍待。

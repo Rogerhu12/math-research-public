@@ -167,3 +167,5 @@
 - [R938](../results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3准确为全Z_m限制核；四低门消物理2m厚分量，余away有限概形长m(d_D−3κ−2)，只取实际源像而不认其维数等于全长；真行下降且合法lift不变。实际原carry仅≤13/≤12位进入；m≤T时已有第一p²修正反迫beta3非零及单位精确抵消，不误当全源排除，保K2/受限S联合门。
 
 - [R927§10](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：完整144混合核给IA/IB全度4752/1080且不交；原SY/J=(ξ²+3)²使a=q·yF·b，q=−θ³ξ³(ξ²−9)³(ξ²−1)，另图q0=s¹²q(1/s)。同选中a/b的完整整像给IA，IC=IA+qIB后两有效商及全回乘准确给真零极；1296只作最终核验，未冒实际计算或shadow。
+
+- [R927§11](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原F完整144/双图全低B、整像及两colon/回乘已接独立31源公开门；真SY/J、q/q0、原常数/首行/所有余行与两1296 boundary保。仅AST和源码接口核，无实际完整除子/E/shadow PASS。
