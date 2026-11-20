@@ -48,14 +48,15 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-alpha-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_alpha_zero.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-q-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_q_zero.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-quintuple-at-own-point-exclusion-b2a9.py" > "$RUNNER_TEMP/isp-rankone_v_quintuple.py"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0 python-flint==0.9.0
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" - <<'PY'
           import concurrent.futures,hashlib,json,os,subprocess,sys,time
           from pathlib import Path
           root=Path(os.environ['RUNNER_TEMP'])
-          jobs=[{"label":"unit31_alpha_zero","file":"isp-unit31_alpha_zero.py","source_sha256":"d723067071adab3df7e3871185e6654840ec8a60880d4af90139cea36de46254","seconds":180,"args":[]}]
+          jobs=[{"label":"unit31_q_zero","file":"isp-unit31_q_zero.py","source_sha256":"826624c094dc23593942da46d8247e8dda1de52572abc928d2b73c7f3fcf5c2c","seconds":180,"args":[]},{"label":"rankone_v_quintuple","file":"isp-rankone_v_quintuple.py","source_sha256":"9fc5376eb3323a4b1ce5bd8556fbc41e9f5d00b916d0eddb13fd0fa9f4e8de13","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]}]
           for j in jobs:
               source=root/j['file']
               assert hashlib.sha256(source.read_bytes()).hexdigest()==j['source_sha256']
@@ -74,7 +75,7 @@ jobs:
               info={'label':j['label'],'source_sha256':j['source_sha256'],'exit_code':code,'elapsed_seconds':time.monotonic()-begin,'stdout_bytes':len(data),'stdout_sha256':hashlib.sha256(data).hexdigest()}
               return info,data
           failed=False
-          with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
               for future in concurrent.futures.as_completed([pool.submit(execute,j) for j in jobs]):
                   info,data=future.result()
                   print('ISP_EXACT_BEGIN '+info['label'],flush=True)

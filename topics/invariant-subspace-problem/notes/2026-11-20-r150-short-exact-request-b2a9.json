@@ -1,14 +1,16 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 10,
+  "sequence": 11,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 12:09:09 UTC",
-  "task": "Complete nonhalf unit31 alpha=0 branch: original mean and jets, both q branches, exact quadratic norms and QQ gcd",
+  "createdUtc": "2026-11-20 12:27:49 UTC",
+  "task": "Original unit31 remaining q=0 mean curves and a new full rank-one V quintuple-polar branch",
   "sourcePaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-alpha-zero-verify.py"
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-q-zero-verify.py",
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-quintuple-at-own-point-exclusion-b2a9.py"
   ],
   "sourceSHA256": {
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-alpha-zero-verify.py": "d723067071adab3df7e3871185e6654840ec8a60880d4af90139cea36de46254"
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-q-zero-verify.py": "826624c094dc23593942da46d8247e8dda1de52572abc928d2b73c7f3fcf5c2c",
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-quintuple-at-own-point-exclusion-b2a9.py": "9fc5376eb3323a4b1ce5bd8556fbc41e9f5d00b916d0eddb13fd0fa9f4e8de13"
   },
   "dependencies": {
     "python": "3.12.14",
@@ -19,14 +21,24 @@
   "parameters": {
     "jobs": [
       {
-        "label": "unit31_alpha_zero",
+        "label": "unit31_q_zero",
         "timeoutSeconds": 180,
         "args": []
+      },
+      {
+        "label": "rankone_v_quintuple",
+        "timeoutSeconds": 210,
+        "args": [
+          "--wall-seconds",
+          "180",
+          "--memory-mib",
+          "1024"
+        ]
       }
     ],
-    "concurrentJobs": 1,
-    "originalScope": "p!=0,b!=1/2,2phi-A-3bp=0; all original equations and exceptional factors retained",
-    "method": "Original rational identities and degree11/13 univariate QQ gcd, no Groebner or finite-field lift",
+    "concurrentJobs": 2,
+    "unit31": "Only the remaining nonhalf p,alpha nonzero and q=0 branch; exact original QQ sources and univariate norms",
+    "rankOneV": "All original QQ gradients and highest equations, all projective s, fixed160-square Sylvester over103 with QQ degree and unit-denominator controls, separate infinity chart",
     "paidClosedBranchesAreNotRerun": true
   },
   "rulesGitBlobs": {
@@ -35,5 +47,5 @@
   },
   "maximumJobMinutes": 8,
   "computedArraysToBeSaved": false,
-  "previousRunId": 44732550495
+  "previousRunId": 44733413376
 }

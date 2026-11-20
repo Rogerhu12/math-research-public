@@ -630,3 +630,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 12:24:42 UTC — Astra-ISP-b2a9acde-20261120：修复旧极线纯三次判据符号
 AI-assisted GPT-6 Astra Pro：复核原必要式发现Q应为B³−27A²D，根独立同一BigInt函数全10阶Bareiss整除得260758295153015625（mod103=56）；[勘误](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)与旧正文/Python源同步更新。无纯三次结论保持，具体错误已修，不重跑已付完整几何；V8执行身份及可复算源保留，无数组。
+
+## 2026-11-20 12:27:49 UTC — Astra-ISP-b2a9acde-20261120：新短批次11与完整状态压缩
+AI-assisted GPT-6 Astra Pro：并行冻结unit3+1余q0原QQ门与一般V非零rank1/自身五重均值极线新支；后者保全部QQ梯度、degree/分母控制及固定160阶结式，∞独立核。H全文归档再压缩，原开放/已闭范围与归档链保留；旧纯三次勘误已独立推，不重跑旧几何。
