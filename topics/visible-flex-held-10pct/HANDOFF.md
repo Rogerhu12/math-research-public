@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`c0c7d4a36415b8725e5b94cb2a2f6b1f7f48d55c`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`3beffda987e8c53ff8931e4becbee74aefcf0dd7`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -17,7 +17,7 @@
 
 **新材料曲率核心。** `resume_transfer/material_curvature_core.py`在单位材料弧长直接给常曲率圆弧，所有补弧控制积分为零；位置为分片真积分的数值评价，未投影的reference lift保留。q/c是材料曲率参数，不是旧支撑Fourier系数。m3 `material_core_factory.py`已接完整参数jets；首q=.01/M8已失败（3698点/RMS3.7868），终态节点Frenet正但不是连续证书；控制单位校正/7列Jac诊断及82514未知状态见[终态记录](notes/2026-11-20-m3-material-first-terminal-and-cosine-entry.md)。转可解余弦→材料曲率同伦。n4首q=.01/M12已失败（2845点/RMS2.85166），139拒均原曲率三角守卫；实际32768点κ∈[.85,1.11752]。独立v2保1e−5曲率门、用解析κ二阶导插值余项收紧数值界（非outward证书），新q=.02/M8已真实Frenet密点失败（root约−.0271771），转旧高度锚恢复。见[n4完整终态](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)与[守卫定义](notes/2026-11-20-material-core-curvature-adaptive-guard.md)。0新真尾/闭合预认，运行源冻结。
 
-**n4必要恢复。** 已由原M20紧凑20参数/19尺度重建同profile/raw核，线性port冷场再生18524最后二网格、终态未知；新两高度锚2919已启动后失联、终态未知；不是旧真尾恢复。wCut=.16实体port已再生；原native CLI重编译SHA与旧一致，新的2CPU installer不依赖旧plan。m3/n4各自manifest作用域分开。源/实际入口/完整复现命令见[n4恢复](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。
+**n4必要恢复。** 已由原M20紧凑20参数/19尺度重建同profile/raw核，线性port冷场再生18524最后二网格、终态未知；新两高度锚2919已启动后失联、终态未知（H4=−9.4227216659e−6/H8=−3.5119114617e−8，保sigma=−1）；不是旧真尾恢复。wCut=.16实体port已再生；原native CLI重编译SHA与旧一致，新的2CPU installer不依赖旧plan。m3/n4各自manifest作用域分开。源/实际入口/完整复现命令见[n4恢复](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。
 
 **m2新切角设计已终态。** 四参数实际子午线与L的共振优化未把H/q降过原约.0121，768步发现曲率9.00474而192步约9；不升级采样约束、不继续同族细扫。源/参数/失败/命令见[记录](notes/2026-11-20-m2-controlled-meridian-design.md)。另启改变尾首cell对比R的新设计57647，未读到结果即断连，终态未知；源码现按原工具文本恢复发布。
 

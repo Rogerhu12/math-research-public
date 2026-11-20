@@ -162,3 +162,53 @@ python -u "$HELD10_TOPIC/scripts/resume_n4/material_curvature_prefix.py"   --sou
 
 两次设计的完整场与逐事件 trace 只留 scratch，按根 §15 不入 Git；
 上述脚本、冻结源哈希、参数及命令足以再生本次诊断。
+
+
+## q=.02 / M8 v2：更密节点上的真正 Frenet 域失败
+
+上述 `material-q020-m8-v2` 已真实返回 `exit=1`。
+新曲率 guard 消除了前一次那类 l1 误拒，但首个 317 节点网格中仍有
+55 次实际 Frenet 域拒绝，8 次接受、0 次 merit 拒绝、最小步长 `2^-10`。
+Newton 首网格返回 `delta` 增量 `.00013910442450027212`、
+`vd` 增量 `.00706542638960848` 后，SciPy 在更密的残差评价点发现
+`1-alpha^2=-.027177114604726115`，107.249354522 秒抛出
+`FloatingPointError`。原根门保留，未裁剪开方，未取得 `solve_bvp` 成功或
+任何原尾验收。不能把节点上的 Newton 返回当作该网格的完整域过关。
+这和 q=.01/M12 的过松三角 guard 是不同阻塞；不会无改变重跑。
+
+几何线在准备旧实际 support 核的材料曲率局部圆化同伦，保留 lambda=0
+的原核心身份；它也不使 R20 的小幅有限谐波切空间障碍失效。此后若使用该
+路线，仍以新的参数与真实方程验收，不会声称现有 exact-material 冷跑已经成功。
+
+## 用历史两条实际 cut 高度再生 raw 场的新恢复方程
+
+新增 `recover_height_anchor.py`，SHA256 `cf99316bf4182c55f196a44ae88539dab191ebd8d24131b963d17c618f732005`。历史 compact 记录的
+`final_prefix` 以及第 4 次实际 tail response 给出
+`H4=-9.422721665900606e-6`、`H8=-3.5119114617306655e-8`。
+这里 H 是原 coupler 的 `bridge.sigma*q*y_z`（本 profile `sigma=-1`），
+不是直接 `q*y_z`；新边界和精确边界 Jacobian 均保留这个方向因子。
+只将首两条线性 DN 换成这两条高度方程，以锚定旧分支；其余高模依旧使用原
+线性 DN，q 与 19 个 core controls 仍可变。这个恢复方程不等于原完整非线性
+DN 问题，取得的任何场都只能作为下一次原联立的初值。
+
+已启动下列命令；当前没有该新恢复方程的成功结论：
+
+```bash
+python -u "$HELD10_TOPIC/scripts/resume_n4/recover_height_anchor.py"   --source-topic "$HELD10_WORK/source/bundle/topics/visible-flexible-closed-surface"   --loader "$HELD10_WORK/loader"   --definition "$HELD10_TOPIC/scripts/resume_n4_tail/native_raw_fullH_coupled_terminal.json"   --port "$HELD10_WORK/w016-port24.json" --out "$HELD10_WORK/recover-height-m20-v1/seed"   --modes 20 --nodes 601 --tol 1e-8 --max-nodes 6000   > "$HELD10_WORK/recover-height-m20-v1.log" 2>&1
+```
+
+## 执行环境失联后的状态界限
+
+2026-11-20 本执行环境随后明确变为 `unavailable`；`exec_command` 返回
+`exec-server transport disconnected`。已观察的两个 material 终态不因此改变。
+原线性端口冷恢复 session18524 和新两高度锚恢复 session2919 在失联后均为
+**终态未知**；不能把上文历史启动/运行记录读作当前仍运行或已经失败。
+18524 最后可见在第二网格，累计4次接受、20次 Frenet 域拒绝；2919 只确认
+启动，尚未取得其输出或退出码。没有把环境故障写成数学障碍。
+
+本次通过已授权 GitHub 连接器保存先前未发布的终态说明及新高度入口。
+高度入口从本会话工具消息原文逐字恢复，并重新计算 SHA-256 为
+`cf99316bf4182c55f196a44ae88539dab191ebd8d24131b963d17c618f732005`，
+与失联前实际启动文件的已记录 SHA 一致。这个源码身份不是运行成功证明；
+全场、trace、raw 和矩阵仍未上传。恢复计算能力后先核原任务实际产物，
+有真实终态才续记；不能无证据重启并冒称原进程续跑。
