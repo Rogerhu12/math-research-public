@@ -1,0 +1,59 @@
+{
+  "status": "continuous_prefix_position_and_support_certified",
+  "source_sha256": "b592095918cde75952b5104e153ac0cfe6f86eb032c10a744bbf8a13bea42f12",
+  "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "core_angle_certificate_sha256": "b78d1e73dd058f5668706810ecde1383ca9ed0a696c2ff12e24ae55c51ab89eb",
+  "core_angle_intervals_sha256": "714de484be1cce998f74604b9d588f38084b4e4132dc3c4b84279235aaf34f35",
+  "mean_range_certificate_sha256": "377b11526dec1d130985da5bf6d21e3db43db744fad57e1c09b8cc0d70e2e18e",
+  "metric_kernel_source_sha256": "6b36ccd6bab54fa35c6fe62a433f417faf7a51b80c35b798b17567eb22714986",
+  "pieces_source_sha256": "1a0a45db78a9aa62884459a6542d20f6995ea152962030919fbbb74d8aee573e",
+  "derivative_kernel_source_sha256": "fe99f0afc6ed90dac1b9b3616c857421fa621901958dfbafdbb26191c5766bb2",
+  "interval_wrapper_source_sha256": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+  "interval_kernel_sha256": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+  "frozen_projection_binary_sha256": "d8f0cb882c7f925df1b021cb278b5bfb379f63ce10f686edeef8a15d5d44c77a",
+  "mean_nodes": 1168,
+  "angular_boxes": 4672,
+  "mean_value_range_exact": [
+    "161/200",
+    "1000001/1000000"
+  ],
+  "height_primitive_contract": "Z(0)=0; .805*s <= Z(s) <= 1.000001*s from the same true fixed mean",
+  "normal_orientation": "-U cross V / |U cross V|, with U=F_s and V=F_theta/a",
+  "radius_target_exact": "67/50",
+  "support_target_exact": "87/1000",
+  "accepted": 395,
+  "attempted": 395,
+  "splits": 0,
+  "radius_upper": 1.1393302427229397,
+  "support_lower": 0.5041830823211103,
+  "normal_cross_length_lower": 0.7993504186030218,
+  "complete_surface": false,
+  "curvature_computed": false,
+  "source_field_modified": false,
+  "mean_or_core_recomputed": false,
+  "radius_peak_s": [
+    0.49433511203081826,
+    0.49457743382696573
+  ],
+  "radius_peak_psi": [
+    4.182514192065178,
+    4.18385905193401
+  ],
+  "support_peak_s": [
+    0.1817039723618333,
+    0.18526679534932025
+  ],
+  "support_peak_psi": [
+    1.0099897614922664,
+    1.0113346213610979
+  ],
+  "seconds": 186.59470179100026,
+  "scope": [
+    "All radial pieces and all angular closed boxes are covered, including one-sided joins",
+    "Same true R53 core, shared Hermite Y/e, endpoint-normalized profile and frozen finite 1168 mean",
+    "The mean/height are range enclosures; no mean derivative, core integral or curvature was recomputed",
+    "No whole closed surface, exact inlet-cylinder seam or true nonlinear tail is asserted"
+  ],
+  "original_output_sha256": "50aaab772da4a0815cf48c2c4844c57c5b9292e455fff28d9b697e3c403cbd4b"
+}
