@@ -565,3 +565,7 @@
 ### 2026-11-20 17:28 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - 部分克隆并pull main至882aa9b74efeaac682df43c197820e7280156357；完整读取根/课题README及H/open，读取最新log与R907方法；两README差异只有根课题表新增held-10pct。
 - 接手维护已改H，旧完整H归档；并行接续R932全SS源比较、R929同h偏移和一手文献边界，正在核实六个旧run终态，不预填数学进度。
+
+### 2026-11-20 17:32 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- 新增原同h Legendre偏移公开Actions窗口：p≤100000、p≡5 mod12，保R317允许mod9标记；脚本仅在Actions做算术，输出确定摘要SHA，不上传artifact。
+- 课题外修改 `.github/workflows/serre-same-label-legendre.yml`，为新缺口提供公开计算；本地仅读码/AST。有限窗口不作一致性证明，接续原固定第二类微分的Cartier解释。

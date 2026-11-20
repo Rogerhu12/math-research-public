@@ -1,0 +1,54 @@
+name: Serre same-label shifted Legendre window
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - topics/serre-uniformity/notes/same-label-legendre-request.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: serre-same-label-legendre-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  shifted_factor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /README.md
+            /topics/serre-uniformity/README.md
+            /topics/serre-uniformity/scripts/same_label_legendre_window.py
+            /topics/serre-uniformity/notes/same-label-legendre-request.json
+      - name: Read rules and run the requested exact finite window
+        env:
+          PYTHONUNBUFFERED: '1'
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, subprocess, sys
+          base = pathlib.Path('topics/serre-uniformity')
+          request = json.loads((base / 'notes/same-label-legendre-request.json').read_text())
+          for label, path in [('root', pathlib.Path('README.md')), ('topic', base / 'README.md')]:
+              actual = hashlib.sha256(path.read_bytes()).hexdigest()
+              assert actual == request['readme_sha256'][label], ('changed_rules', label)
+          script = base / 'scripts/same_label_legendre_window.py'
+          assert hashlib.sha256(script.read_bytes()).hexdigest() == request['script_sha256']
+          print('SOURCE_COMMIT=' + subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip())
+          print('REQUEST=' + json.dumps(request, sort_keys=True))
+          command = [sys.executable, str(script), '--bound', str(request['bound']),
+                     '--stop-after', str(request['stop_after']), '--output', '/tmp/legendre-shift-window.json']
+          if request['allowed_mod9']:
+              command.append('--allowed-mod9')
+          subprocess.run(command, check=True)
+          PY
