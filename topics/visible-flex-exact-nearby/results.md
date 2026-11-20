@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R137连续逆到原有限核心之桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)：原24480真细胞上的同平均齐次主部提升给完整source的h_i/π投影缺陷；P_f(T−I)消去identity，η_f≤(6/5)M_C M_mesh<1后有限逆≤(75/58)C_T/(1−η_f)，已含原ρ。193atoms/full CFB/mean与两RHS全保；连续逆和新严格门仍待实付。
+
 - [R138根轴两标量公开输入合同](notes/2026-11-20-R138-root-axis-support-contract.md)：11当前输入/10历史原件，独立新child只消费原4650闭行和准确dyadic轴定义，求同外锚真根(q,s)及完整误差；原角数组只私有定义。source/worker整审、AST/全pin核，首次Actions；未授全角/分母/根正型/逆。
 
 - [R141精确细分与紧凑有向Gram](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)：原H_i与真h_i同除n_i，保全部1424旧cuts；逐entry Arb核mid64/rad64包含、同父模板只复用常量、每节点carrier/各源/193atoms独立完整。root整审全部proof/source/owner，global独核；71输入/768bits首次公开封包，真实ε门尚未求值，CFB/finiteρ/7ports未删。

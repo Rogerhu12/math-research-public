@@ -67,3 +67,7 @@ root完整整读新proof19224B/SHAee1b654b、refined38569B/SHAcf8c859a、owner42
 ## 2026-11-20：同外锚真根两标量首次公开入口
 
 axis source16558B/SHAd152f31c，root/global/joint整核轴φ=θ=0、二维反向旋转/affine、每行半径与舍入累加、whole root collar和16epsilon修补；无新公开数组。新worker28672B/SHA80aa6549由root整审，增加实际Python/package版本元数据核（不import科学），只有source单child；先实际push marker、30min pull核双README、完整前缀/失败保存、每推fresh tree≤200MB且非FF立即rebase直到成功。11当前与10历史blob身份、3 AST、23科学字段、YAML全核；清单9741B/SHAe5ffef8c89e55b0f6c78f3564d455439483bd9556a05ba1f7a5acc307ceb08f8，0本机科学。新增共享workflow单次启动；同一已pin S/T/U不再改。R141另已启动44730452579/1。
+
+## 2026-11-20：完整连续逆到原有限核心之桥
+
+R137补篇15169B/SHAca1bef3199fd3c721c743991bc387810d075e5dd0d6a2c06ab4dc47ffa146c0f。root整读并核同平均齐次lift、局部skew primitive、h_i/π（非h_i/2π）source门、P_f(T−I)准确抵消及两次逆的次序；原N24480/trueh/S/D/193atoms/full CFB全保。43891414339的当前reference完整eρ球只读给125/116，有限含ρ逆因子75/58。完整连续T、η_f和actual余项尚无新数值；两RHS/七ports未删。0本机科学。H与open当前执行长段改为6dc0acc40不可变逐字索引，旧记录不丢。

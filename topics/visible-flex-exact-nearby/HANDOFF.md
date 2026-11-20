@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:51:12 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 11:56:58 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 11:51:12 UTC 实际pull/rebase至 `92c13764955367bd5c57c556dca4c805755b8e0c`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:51:12 UTC。
+2026-11-20 11:56:58 UTC 实际pull/rebase至 `f6c739a1aca879038161b2b3aa8c39b455de934d`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟12:56:58 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -33,7 +33,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 [R139实际排除](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)：完整centre K>80排原小K配方，不推奇异。原L3/50、独立atom3条、centre下界1条各自冻结；余47不再为此配方算。
 
-[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)：完整连续centre逆等价1217态/609端点非奇异，无aux-only核；finite投影/lift/ρ仍待。[193诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)只有浮点SVmin约.3247/.2328，成功冻结。
+[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)：完整连续centre逆等价1217态/609端点非奇异，无aux-only核；finite投影/lift/ρ仍待。[193诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)只有浮点SVmin约.3247/.2328，成功冻结。[finite桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)已证同平均lift的h_i/π缺陷、P_f(T−I)抵消及含原ρ的75/58逆界；完整T、η_f<1与actual余项仍待。
 
 [R140](results/R140-complete-mean-split-low-family-comparison.md)保same-eta hybrid四块/primitive/mean与核后RMS，0数值。[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)给有向低193/193atoms/whole-box合同，实际ε<1未付；七ports/CFB/finiteρ不删。[共同标量包围](results/R141-supplement-shared-scalar-whole-box-factors.md)已证signed Taylor及完整positive tail，保持同模型/真h/S/各源/两三角，只AST。
 
@@ -47,14 +47,14 @@ R138[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jaco
 
 WIC原m160/N24480真tail逆κ=3已证；WPN只有完整e+3dt<1才授双边逆、两RHS与root-even I96。WPS60/WVC56/WCTRA既成门约635240.55/11066.29746/11976.30849均false，不表示奇异、不重算；本轮仍固定WVC。W2C两侧Volterra候选保true J*到R、完整family及dual H1。WJK F=P+Q*−Q*LcP只能在同(r,s)的完整signed centre下合χ′后abs，保五collar项、两三角、193atoms、7ports、2RHS；不能对individual residual删项。
 
-## 接手时真实执行停点与当前分工
+## 当前执行续点与分工
 
-readonly44712172133/1成功（60 current/23 AST/21原件/18门，0科学）；旧43921663540/1为0科学运维失败，两份完整回执保在 `notes/collar_volterra_dual_readonly_ci/`。恢复/执行用 `fourfold_codazzi_collar_volterra_dual_public_worker.py`；各新源码、完整清单与适用域见result/manifest，21原件与29整球只读恢复，旧producer不调用。graph4最终版尚未launch。
+本节先前完整状态与规则/输入恢复说明逐字保于[6dc0acc40的H](https://github.com/Rogerhu12/math-research-public/blob/6dc0acc409c88fb17849f9f9107005e62ae66551/topics/visible-flex-exact-nearby/HANDOFF.md)。旧成功、失败、全部域/单位和未付义务不变。
 
-1. 原L v4冻结3/50、L≈3.79236e−5。完整centre mean[实际44727185157/1](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)成功：155panel、J_lower≈6409.59094，K>80，严格排原小K配方；75输入/25AST/27门全核，独立1条冻结，余47不再为此配方算。不推真实奇异，继续直接逆。
-2. positive_inverse的浮点44721851908/1成功冻结，非真实逆。[R141精确细分](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)与首个有向owner已双审：71输入/manifest SHAb501e932，768bits、保1424cuts、逐entry包含，公开44730452579/1运行。先完整defect，严格ε<1后才4源/193atoms/wholebox；CFB/finiteρ/7ports仍待。
-3. global_route已闭[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)：保low96/high stable/mean/H；高频主符号正但finite/分母待算。[两标量轴入口](notes/2026-11-20-R138-root-axis-support-contract.md)只读旧4650行，11当前/10原件、SHAe5ffef8c首次push启动。继续角转移/体吸收，不以stable行冒c=0。
-4. root维护git与记录；L三次0scalar失败、旧endpoint第139panel/0传播失败全保。atom/endpoint/L/centre下界各自成功冻结，代理不动git。公共worker已修空index重试：每轮实际push成功才返回。
+1. 原L44724797559/1冻结3/50，centre44727185157/1独立1条给K>80，余47不再为已排配方算；atom/endpoint成功及所有旧0scalar失败均冻结。
+2. positive_inverse：R141有向44730452579/1运行，71输入/768bits，先完整defect，ε<1后才4源/193atoms/wholebox。接着闭完整high反馈；CFB/finiteρ/7ports未删。
+3. global_route：R138已付support/outer/输运/root主符号；根轴首次44730968113/1返回success，root正核完整输出。继续实际全角分母/finite+tail与体吸收。
+4. joint_kernel已给R137 finite桥，复核能量与直接signed投影缺陷；root逐结论审、记、推。公共worker每轮实际push成功才返回，非FF即时rebase。
 
 ## 正侧以外仍未付的接口
 

@@ -151,38 +151,22 @@ G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/no
 
 ## 8. 当前执行续点与新增路线
 
-截至2026-11-16的本节完整追加记录、所有旧球/域/mean/端点/失败/恢复身份及未付义务，保于[接手前完整open第8节](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/open.md#8-执行规则与当前可恢复记录)。这里只压缩索引；已成功数学不重算，原proof范围不扩大。
+本节压缩前的全部原成功/失败、数值球、参数、单位、mean、边界和恢复身份，逐字保于[6dc0acc40完整open第8节](https://github.com/Rogerhu12/math-research-public/blob/6dc0acc409c88fb17849f9f9107005e62ae66551/topics/visible-flex-exact-nearby/open.md#8-当前执行续点与新增路线)，并递归保接手前882aa9b74全部记录。压缩不扩大任何结论范围，成功数学不重算。
 
-WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false，不推奇异。W2C固定原WVC，完整signed-centre须用WJK的P+Q*−Q*LcP、五collar项、真J*至R与同Gf后合核；原小K配方现已严格排除，转直接有限状态边值逆。全mean/193head、97root+96outer、7ports、两rhs、真ν/负head/有限物理列/高频/非线性matching均独立保留。
+WIC原24480细胞真tail κ=3已闭；WPN只有完整e+3dt<1才授逆。WPS/WVC/WCTRA旧false门不是奇异结论。W2C仍保WJK完整signed P+Q*−Q*LcP、五collar项、true J*至R和193atoms/7ports/两RHS；同对象合核后才abs。完整mean、真ν/负radialhead/finite物理列/高频/非线性matching继续各自保留。
 
-2026-11-20新公共run44712172133/1已通过完整native输入读取；0新科学目标、0旧重算。原43921663540/1失败是他题workflow静态白名单阻塞；根规12下已移除此行政门，实际每次rebase后仍核全topic+输出≤200MB。新科学数值继续用本仓库Actions；每结论独推、非FF立即实际rebase循环，pull后两README差异记H。
+[R139完整centre实际](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)44727185157/1给J_lower≈6409.59094、K>80，严格排原要求K<1/128的小中心配方。原L44724797559/1三量已成（3/50），L≈3.7923616923e−5；余47不再为被排配方算。独立atom44721682192/1三lower未排配方，也不计原50。上述成功冻结，各原0scalar失败及包含修复均保；不推出actual奇异。
 
-[R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)只排固定浸入中心的线性弯曲核内路径（至多平移）。这封住Ghomi等离散符号族的简单连续化，不排一般非线性修正，不计本题完成。主线继续精确core/全频逆与可见比例。
+[R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)仅排固定线性弯曲核内的非平移路径。[R136](results/R136-stable-complete-joint-centre-columns.md)保完整128/256稳定源列与signed centre，供直接逆；[R140](results/R140-complete-mean-split-low-family-comparison.md)保same-η hybrid的192/mean1四块与核后RMS，新配方未算。均非题目完成。
 
-[R136](results/R136-stable-complete-joint-centre-columns.md)关闭graph4递归高秩实现缺口：以稳定源列保完整核和193观察，源码已合入、仅AST。原smallK配方已由完整centre下界排除，保留本表示供直接逆；真实finite转换与非线性义务不变。
+[R137主篇](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)给完整1217态/609端点与无aux-only核；[44721851908实际诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)只浮点中点模型，端点/分界SVmin≈.3247/.2328。成功冻结；第139panel/0传播旧失败不重分类。
 
-[R139](results/R139-necessary-budget-for-fixed-W2C-comparison.md)给固定旧费用的必要门K+ε<1/128。[原L实际三量](results/R139-supplement-actual-complete-low-family-budget.md)44724797559/1已成并冻结：L≈3.7923616923e−5，未触发排除；原50条已成3条，余47未算，五完整graph/finite门/逆均未给。
+[R137有限桥](results/R137-supplement-continuous-to-finite-principal-lift-bridge.md)保持原N24480真细胞、同S/D/ρ/193atoms/full CFB。精确Q_D source缺陷有h_i/π，finite试逆误差=P_f(T−I)Q_DHW_D；可付直接signed η_f，或完整(6/5)M_C M_mesh。η_f<1后含原ρ逆≤(75/58)C_T/(1−η_f)。**完整连续T、该新门、actual Schur余项仍待**；R141 low-only T不足，两个真实RHS和全部ports/finite/physical义务不删。
 
-[完整中心均值原子](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)已证纯mean的CFB严格0与K²≥∫|a00/q|²；[实际44727185157/1](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)全155panel给J_lower≈6409.59094，K>80，严格排除原小K配方。该独立1条冻结，原余47不再为此配方计算；不推真实算子奇异，转R141/R137直接逆并继续几何能量。
+[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)及[精确细分](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)公开44730452579/1运行。71输入/768bits、H_i/n_i与真h_i/n_i、1424旧cuts、逐entry包含全保；先完整defect，ε<1后才4源/193atoms/whole-box，否则完整两目标false。实际输出未登记；CFB/finiteρ/7ports和两RHS仍待，不重旧浮点目标。
 
-[独立mean atom结果](results/R139-supplement-actual-mean-atom-floor-not-excluding-fixed-recipe.md)44721682192/1已成3条必要下界，乘积≈5.27012349e−10未达1/16384；成功冻结，不计原50条。[R140完整分块](results/R140-complete-mean-split-low-family-comparison.md)已证192/mean1四块与保核权RMS，新配方未算；原配方现已排除，此新未算配方不计已成量。
+R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)、[旋转能量](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)、[实际support](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)、[实际outer负型](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)与[准确残差输运](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)均保同Qrepair/η0/ν0及原真实frame。固定p=e_z/2有support>2/5；H保守输运源无方向角导，但H不设0，WVC hybrid额外差继续单付。
 
-三次原L失败44716804300/44719196440/44723722475均0scalar，完整回执保在各自CI目录；[零端点](results/R139-supplement-certified-zero-endpoint-interval-continuation.md)、[正pivot/endpoint hull](results/R139-supplement-positive-reference-pivot-and-endpoint-hull.md)、[正乘积](results/R139-supplement-directed-upper-products-for-complete-Green-comparison.md)包含修复均不改原对象。旧endpoint YAML/jobs0与第139panel/0传播失败也原样保留；后续成功不重分类旧失败。
+[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low even96=0、97起high stable、独立mean与H；高频主符号正不授finite正性或mean消元。[轴首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件保全4650闭行和原接口，44730968113/1已返回success，完整actual输出正审。完整全角型、分母、finite+tail、体残差吸收及实际全逆继续待付。
 
-[R137](results/R137-continuous-signed-centre-and-exact-endpoint-system.md)已将同一连续signed-centre inverse精确改成1217态/609端点问题，排除aux-only核；不是有限Qf直接逆证书，S.18c投影/lift缺陷与ρ因子仍需付。[实际完整诊断](results/R137-supplement-actual-balanced-low193-endpoint-diagnostic.md)44721851908/1已成并冻结：155panel/156分界，raw端点SVmin≈0.3247、全分界≈0.2328，均为浮点中点模型。继续新的严格双侧Green/source/193atoms/whole区间认证；CFB、高family、真实系数差及finiteρ全保。
-
-[R141](results/R141-low193-directed-green-and-complete-observation-certification.md)及[精确细分补篇](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)首个有向owner已双审/AST：71输入，768bits，原H_i/n_i与真h_i/n_i、1424旧cuts全保，紧凑球逐entry包含。先完整defect，ε<1后才4源/193atoms/whole-box；否则完整两目标false结果。首次Actions尚无数值，CFB/finiteρ/7ports/2RHS仍待；不重旧浮点诊断。
-
-原endpoint44719196304/1第139panel/0传播失败整回执保留；后继44721851908/1完整浮点诊断已冻结，原step/cap/同raw模型和false proved范围见其实际结果，均不重算。
-
-[R138几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-Jacobi-bridge.md)已闭实际frame/位置/height残差；193mixed行、WVC η主部差源保留，仍需真实边界及体吸收。
-
-[旋转能量](results/R138-supplement-rotation-energy-and-complete-endpoint-form.md)保完整端点/mean/缺陷与无1/K漂移；真实root不冒平面，outer不冒常旋转，全部弱强域/单一规范继续有效。
-
-[实际support补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)已支付上述support：同固定η0/ν0、同全圈周期外端锚、全[0,25/8]的Qrepair物理径向frame有F·n>9/10、|F|<319/250；旧证书只读复用。继续支付实际193+high端点型、初始角缺陷与残差吸收，未完成的GC/外帽世界匹配不因此消失。
-
-[actual outer能量补篇](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)已支付真实全频外端负型及mean初始角缺陷，并识别原Qδ零stable齐次核的H^1/6外迹。现在须代入真正inner low even96=0、high stable的M^(1/3)(−J h1)+h2=0及独立mean；不能改成physical c=0。内部残差吸收、一般粗源常数、hybrid与真DF的差源仍保留。
-
-[残差输运补篇](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)已将D²Psi[R,h]唯一方向角导−epsilon x_theta纳入辅助Vomega，得到H_r+partial_theta(epsilon H)=S且S无方向角导；同一固定p=e_z/2给support>2/5并重付outer常数。完整修正能量及保守H^-1/2输运界已证，仍须实际inner全角型和体能量控制W=L2H1/2后完成吸收；不能免费替换hybrid与真DF。
-
-[真实root型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low96/high stable/mean/H；正主符号不授finite正性。[两标量首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件已双核，独立Actions将求同外锚真根(q,s)。随后仍付全角/C0-C1/mean分母及完整finite+tail，旧geometry不重算。
+公开科学只用本仓库Actions，规则15只留脚本/参数/run/hash/小结论；0旧成功重算，非FF立即rebase推到成功，每次pull两README差异记H。readonly44712172133成功与旧43921663540运维失败保持原范围；无静态他题workflow行政白名单，逐次仍核topic≤200MB。
