@@ -416,7 +416,13 @@ def _complete_modal_norm_comparison(api,km,ctx,low,input_space,output_space):
     domain=ctx.domain;profiles=ctx.reference_profiles;n=len(domain.cells)
     modes=tuple(range(1,97)) if low else tuple(range(97,161))
     boxes=[domain.whole_cell_box(i) for i in range(n)]
-    values={j:[profiles.at(j,box) for box in boxes] for j in modes}
+    # These exact reference profiles are nonnegative.  This positive
+    # comparison needs only upper numbers: take directed upper POINTS
+    # before products/squares.  Multiplying broad nonnegative symmetric
+    # balls can otherwise represent a mathematically nonnegative product
+    # with a negative lower endpoint (R139 positive-product supplement).
+    values={j:[{name:api.upper(value[name]) for name in ("p","H","K","g")}
+               for value in (profiles.at(j,box) for box in boxes)] for j in modes}
     def complete_max(values_):
         return max(api.upper(x) for x in values_)
     def decay_upper(j,i,k):
@@ -428,7 +434,7 @@ def _complete_modal_norm_comparison(api,km,ctx,low,input_space,output_space):
         return api.upper(profiles.mode[j]["products"].between(lo+1,hi))
     def tile(i,k):
         answers=[]
-        q=ctx.reference_qs[i] if low else api.one
+        q=api.upper(ctx.reference_qs[i]) if low else api.one
         for j in modes:
             vr,vs=values[j][i],values[j][k]
             if i>=k:
@@ -448,7 +454,8 @@ def _complete_modal_norm_comparison(api,km,ctx,low,input_space,output_space):
         for j in modes:
             v=values[j][k]
             root=api.upper(v["g"])
-            outer=api.upper(ctx.reference_thetas[j]*profiles.to_right(j,boxes[k]))
+            outer=api.upper(api.upper(ctx.reference_thetas[j])*
+                            api.upper(profiles.to_right(j,boxes[k])))
             p,H,K=(api.upper(v[key]) for key in ("p","H","K"))
             rows=complete_max((root*(api.one+p),outer*(H+K)))
             cols=complete_max((root+outer*H,root*p+outer*K))
