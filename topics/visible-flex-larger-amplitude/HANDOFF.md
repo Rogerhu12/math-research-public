@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 11:24 UTC，真实pull/rebase至 `fbbae101510e645b10c5ec2d71000f4e565150ee`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:27 UTC，真实pull/rebase至 `27e206e68b1f4ec06b12679e785ca196698edd28`，双README相对上次已读无差异。
 
 公开仓库内工作，终端git普通push；NFF立即pull/rebase再推，每次查双README差异，至少每小时pull。根README已授权全部必要修改/发布；完整证明直接登记，不加冻结/独审门。raw只scratch，Git/Release/artifact只保小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。根唯一git writer，代理写work及小blob。
 
@@ -29,14 +29,14 @@
 | [2038六步](notes/2026-11-20-curvature-qp-gauss-six-step-result.md) | 1.36047066 / .12250457 | 后补低phi峰产品.985812，不能再叫双峰.98可行 |
 | [3a3续12步](notes/2026-11-20-curvature-qp-gauss-twelve-step-02-result.md) | .34559814 / .05470304 | 胞821产品.993655；v4a三次真实恢复全拒 |
 | [def1完整256](notes/2026-11-20-gauss-fullspace-projected-first-result.md) | .98129554 / .10186568 | 原单峰过，新增低phi峰产品.983179 |
-| 61a620物理H首步 | .83836863 / .09341222 | 双峰/局部D复读产品.982831，未过旧.98 |
+| [61a620物理H首步](notes/2026-11-20-physical-height-first-result.md) | .83836863 / .09341222 | 双峰/局部D复读产品.982831，未过旧.98 |
 | **6077，v4b起点** | **.36916145 / .04536289** | **全已知点产品.989229，过新.992；仍非连续全域证书** |
 
 6077实际父：work/geometry_path/curvature-qp-arbitrary-def1-six-step.npz，SHA `607732377449f07611553ebc1ad1e7f2aa20e835d3f613a3018ae56957dd6941`。它来自def1的v4a六步中4次接受；最终复搜低phi basin后未过旧.98，原结果如实保。def1在work/fullclosed_solver/gauss-h2-projected-first-fixed/final.npz，SHA `def1ccbded6c463a014a71a39f259c59501412d5c84afec07ce7253c9dc34f5d`；2038在work/geometry_path/curvature-qp-gauss-six-step.npz，SHA `2038ba41e2001036eebe8bc43fccbb54b8d9ccf180f73139420798de278bcaa9`。
 
 [任意点算法/负界修复](notes/2026-11-20-curvature-qp-arbitrary-formulas.md)已刊；[3a3恢复](notes/2026-11-20-curvature-qp-arbitrary-restore-result.md)µ.001/.01/.1三方向36trial全拒，135.35s，终态同父，不冒完成。原v4边界round(phi)错误1次启动无接受终态，已另源v4a修。v4a又暴露拒绝trial LRU会逐出当前已知峰，故v4b永久保护双basin且整条线搜锁定当轮约束点，不能用旧单峰检查冒全部已知点。
 
-[实际加权谱](notes/2026-11-20-gauss-weighted-residual-spectrum.md)：3a3的90%能量≤mode7，49.39%Jw在s1.1–1.6，最大是Fs²−1径向伸长；先物理H/径向及几何控制，不盲扩频。完整H方向已用可逆A=I+vq eHᵀ解耦−χ补偿；全部原变量/方程不变，尺度sH=sqrt(7S³/120)，不是旧q-H²同范数。
+[实际加权谱](notes/2026-11-20-gauss-weighted-residual-spectrum.md)：3a3的90%能量≤mode7，49.39%Jw在s1.1–1.6，最大是Fs²−1径向伸长；先物理H/径向及几何控制，不盲扩频。[完整H方向](notes/2026-11-20-physical-height-coordinate-preparation.md)已用可逆A=I+vq eHᵀ解耦−χ补偿；全部原变量/方程不变，尺度sH=sqrt(7S³/120)，不是旧q-H²同范数。
 
 ## 连续证据与正在执行
 
@@ -45,7 +45,7 @@
 根新6077胞821 Q16384/r32自然返：K≤8.069612833529575、support≥.457408220611、0未付盒，报告work/root/continuous-6077-cell821-q16384-r32.json，SHA `b57972d3258a4f8b0bc55c3e60738ee753db9a03b0af1e85554baec6f0bbe9b5`。由实际连续余量将算法screen明确改.992；未冒全局reach。根正在同6077全922胞做只读位置的轻量D向外界，Q2048/r1，不重复六jet全几何。
 
 - geometry_path：v4b从6077跑12步，µ.04、safety.992/linear.9918，双821 basin与已付prefix峰永久保护，每次接受独立NPZ；原1280粗列/全部同g行不改。
-- fullclosed_solver：已完成物理H首256，诚实保单峰旧scope/双峰后读；后继完整投影32行强制所有已知κ/半径及拒绝prefix位置，整线搜不淘汰。接v4b第1–2个实盘合格checkpoint即可并行，不需等12步。
+- fullclosed_solver：已完成物理H首256，诚实保单峰旧scope/双峰后读；后继完整投影32行强制所有已知κ/半径及拒绝prefix位置，整线搜不淘汰。已接v4b首实盘24de父并行，57κ/13半径、64行/rank49、新半径CS4.82e−15，256实际已启动。
 - recover_evidence：占R657，def1胞839连续Gram已返严格上下界约.10186125/.10187889，保留抵消、同a五次Taylor余项约1.08e−14；说明该父必须继续求解，不能靠证明网格加密达1e−6。完整证明/源在整理，不重扫其他胞。
 
 ## 复现与不重跑
