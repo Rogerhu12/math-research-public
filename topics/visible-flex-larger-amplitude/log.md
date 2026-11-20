@@ -243,3 +243,5 @@
 2026-11-20 18:10 UTC / Astra-larger-resume-24b2ab87-20261120：新纯JSON归因adc90刊且排在实际复合方向后：原d/QP、原ray及corrected d+e分开，SOC接受后父统计/预测/末mu跟实际修正；f96构造、v4 apply/截断失败、全旧slack/QR/全真筛原因完整读，不新增arrays/J/fixture或因果断言。原930d/912不改。两位置计数selector按4d9真实字段修正；队列仅紧凑序列化并保所有旧id/参数/顺序，避免95KB元数据上限，无科学重跑。
 
 2026-11-20 18:17 UTC / Astra-larger-resume-24b2ab87-20261120：第八次普通移出568756B旧R33 strong-M20列f9aef3，原字scratch保/46c0db历史blob92c0可恢复；主源77ba及完整import、11生成源全在且同SHA。density实际8ef原字、joint60592、两low当前/8ef已核；middle原未提交，完整上游原字→wide/causal/column命令及payload范围登记。保原exit0/low→high已付而反向/闭解未付，不重跑旧科学、不删源或证明、不改历史；当前closed链不依赖该raw，继续实际任务。
+
+2026-11-20 18:24 UTC / Astra-larger-resume-24b2ab87-20261120：run447582阶段39–40真返：7fd同R671 fd4/5d严格已覆盖lower .011952653235030912>1e−6，完整upper=null/checkpoint_unfinished；1200s仅自然返回准入，不冒全覆盖或任务完成。当前场必须变更，非包围细化即可达标/非误差地板。细化daff纯报告读九trial：前8个同规则真Phi皆降而原.992几何拒，1/256才接；QP仍256未驻点。完整数值/源/输出身份刊，无新数组/fixture；PCG+SOC真实续算继续。

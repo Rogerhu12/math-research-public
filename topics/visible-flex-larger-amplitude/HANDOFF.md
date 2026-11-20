@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 18:17 UTC，真实pull/rebase至 `cfc959a9d9609dd2837bdf3d466241b405e05a12`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 18:24 UTC，真实pull/rebase至 `084e4f04b50d2f140e2dd31d925f09adcdad900b`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -26,7 +26,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 [R671实际v3及全first/R675已返](notes/2026-11-20-actual-R671-v3-and-complete-first-geometry.md)：97fd→7fd35275，lambda1/eta885，alpha.5，Phi8.52075845e−8/max.01209078/product.99197460，末mu=.0007539530259341321。QP256未驻点；fullPhi7.82023e−8却product1.00126764。新场全922嵌入/support≥.29455858，D≤4.11896941，held/D≥.22806068，活动内域非平面已付；marker/E/K/reach未付。
 
-run2：[同g径向二分已返](notes/2026-11-20-actual-fixed-g-radial-refinement-result.md)，fine1×256仅alpha1/256，共同父Phi7.94767479e−8，final daffb002；不证精化收敛。纯report拒步归因已追加。后续7fd连续metric未返，[队列](notes/2026-11-20-R671-actual-diagnosis-v3-continuation-queue.md)。metric先全胞，lower超标交求解，包围未决才加密，缺胞upper=null。实际μ/全部位置由真实完整父恢复，尾仅同lambda/eta keep-q。QP未收敛；[复合40e/3f完整入口已排](notes/2026-11-20-complete-coarse-PCG-SOC-continuation.md)，7fd父1×256、tau0、beta1/mu²，真结果未返。
+run2：[同g径向二分已返](notes/2026-11-20-actual-fixed-g-radial-refinement-result.md)，fine1×256仅alpha1/256，共同父Phi7.94767479e−8，final daffb002；不证精化收敛。[实际连续metric/细步归因](notes/2026-11-20-actual-continuous-metric-and-refined-ray-diagnosis.md)：7fd已覆盖严格lower .011952653235030912>1e−6，整域upper=null；该场已严格超标，需改场。细步前8trial均降真Phi但geometry拒。实际μ/全部位置从完整父恢复，尾同lambda/eta keep-q。QP未收敛；[复合40e/3f入口已排](notes/2026-11-20-complete-coarse-PCG-SOC-continuation.md)，7fd父1×256、tau0、beta1/mu²，真结果未返。
 
 **独立几何worker03**：[run44772201880/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44772201880)，初源e0d4892a，[实际索引](notes/2026-11-20-public-actions-44772201880-1.md)。[真实新场756936ee首jet/半径已返](notes/2026-11-20-geometry03-actual-field-and-radius-return.md)，不是c4a3；warm起字节不同；[有限静态核对](notes/2026-11-20-warm-reproduction-static-scope.md)未见简单RNG/未赋值缺陷，实际成因未归。全922嵌入sigma≥.29654，Dbody≤4.09930034/Dmarked≤4.10130034，held/D≥.22886895、grip/D≥.21944259。原8ca全K目标8.1未返，继而同场准确组合；不得跨run继承证书。逐胞续接f476仅准备，不改已admit核。
 
@@ -39,7 +39,7 @@ run2：[同g径向二分已返](notes/2026-11-20-actual-fixed-g-radial-refinemen
 - R669准确轴对称尾线性障碍不推非线性不可能或正地板；八blend已无改善，不重做。R670完整首jet核eaa，旧c4a3已证部分几何不继承到新场。
 - R671：同g新f/h/k解析尾完整工厂，lambda1可准确表示末段；整体连接仍待求解。必须全native/observed/六jet/点/高度接口用新context。
 - R672：全M/完整Laurent六jet真形算子K归worker03；[逐胞续接f476](notes/2026-11-20-R672-complete-curvature-continuation.md)仅准备，[兼容合并器6c02](notes/2026-11-20-R672-continuation-geometry-consumer.md)同样未跑；旧8ca不改，R666留同场reach。
-- R674：共同a/I Taylor jet及独立导数余项、profile误差；f122 first/K和fd4 tight Gram全源齐，新全域自适应5d04728c已排。旧盒限制不自动缩余项。
+- R674：共同a/I Taylor jet及独立导数余项、profile误差；f122 first/K和fd4 tight Gram全源齐，5d04728c实际已返严格超标见证、未全覆盖。旧盒限制不自动缩余项。
 - R675：高Z或非零解析尾排活动平面开片。b36已付7fd，df8及521187ae合并器仅准备，旧flag如实不伪改。
 - R676：同g符号二分/补零/旧行正权/全部永久点/六jet转移差；真实fine solve源齐。跨层Phi权变只比较共同父泛函，单次转移或fine不冒持续精化收敛。
 - R677：同QP可靠残差/固定面长CG，v3 fb4实际返；R673面gap和规范化释放另付，raw负乘子不定因果。
