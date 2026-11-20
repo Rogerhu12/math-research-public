@@ -4,7 +4,7 @@
 
 ## 规则与来源
 
-最近规则核查：2026-11-20 11:00 UTC，真实pull/rebase至 `a47d2b400f600f0fbf2eaba492a6ab7d136d743e`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:02 UTC，真实pull/rebase至 `30a125ffa3a28c7c421a40a56d21bd64e13e6efa`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，NFF立即pull/rebase再推，每次检查双README差异，至少每小时pull。原README授权全部必要修改/发布，无需再问；完整证明直接登记，不加冻结/独审/额外验收流程。可重算raw只scratch，Git/Release/artifact不存；只保源、参数、run/SHA及紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI，不写文件/提交/回复。旧完整责任保[11/20早期交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md)及open§1–7，不把failed/partial/unreturned互换。
 
@@ -32,26 +32,18 @@ R648原全开放prefix连续Gram<4.94e−7，R651 K≤7.04608，R652加权支持
 
 **新胞内峰已查**：[任意位置局部读出](notes/2026-11-20-interior-curvature-extremum-readout.md)在2038胞821找到K7.99135769/产品.97987346，仍过已知点.98。同目标续12步3a3父已自然返，Jw.345598/Gram.0547030，但Gauss产品.979353下另有胞内K8.09521096/产品.99365310；仍<1，不冒真实reach失败。新位置必须接入约束/线搜，不能只按Gauss升级父。
 
-**正在续：** geometry_path接任意(u,phi)几何约束与回溯响应阻尼；从3a3恢复时右端可负，零方向不再可行，禁止旧向零缩步修复；失败则回2038。fullclosed_solver同2038跑完整H²投影256inner，observed转置CS≤3.69e−14、active16/rank8；下一方向解耦物理平滑H与−χ补偿。recover_evidence用已有向外算术/Bernstein核建立完整q+解析lift的连续D/支持/K/可选见证距离界，先2038胞821；按真实αS+β节点及准确core派生端口重建，不冒binary载体为严格输入，不重跑旧prefix。
+**更好可行父def1**：[全Gauss完整H²投影首步](notes/2026-11-20-gauss-fullspace-projected-first-result.md)从2038真实256inner/361.71秒，alpha1/4接受；Jw.981295539514、all_raw926.550658/legacy231.298204、Gram.101865681992，Gauss产品.973007294180。完整observed转置CS≤3.69e−14、active16/rank8；非无约束full收敛。一次新增任意点cell821 u.110229249059/phi.637233178888给K7.969807246586/产品.977918933825<.98。父work/fullclosed_solver/gauss-h2-projected-first-fixed/final.npz，SHA `def1ccbded6c463a014a71a39f259c59501412d5c84afec07ce7253c9dc34f5d`，原始与局部均仅数值必要筛选。
+
+**正在续：** geometry_path接任意(u,phi)约束/回溯响应阻尼；3a3恢复的负右端禁止向零缩步，失败回def1。fullclosed_solver下一完整方向解耦物理平滑H与−χ补偿并加该任意点。recover_evidence占R656，用真实αS+β/S/R/准确core端口及向外算术做完整q+lift连续几何接口；2038胞821已返K≤8.077130178、支持≥.448878962，续881/895同父，不提前全922批。根读3a3全Gauss加权残差谱供后续空间选择。
 
 ## 已完成数值及失败，不重复
 
-[重建与首LM](notes/2026-11-20-reconstructed-fullclosed-and-first-lm.md)：历史60321451c的真M96/.99输入SHA b4d2b98…，按.991→.992→M112→.993→.995、原pulse与Hold生成923节点/M160完整warm79c161cc…；最后前缀499节点RMS9.3256e−9。新算身份独立；原g/S/R及准确oracle绑定。首次旧local-scale128方向SSE24260→23196但Gram反增.670964，不重复。
+完整旧数值列表/所有链接保[98e7固定交接](https://github.com/Rogerhu12/math-research-public/blob/98e7f1199fd798c1df594696336d216596c8c930/topics/visible-flex-larger-amplitude/HANDOFF.md)。各note保完整源/参数/真实回溯，不重跑。
 
-| 分支/父 | 原SSE | 点Gram | 采样K/状态 |
-|---|---:|---:|---|
-| warm79c161 | 24260.05 | .655109 | 7.79724；Dlb4.16750；必要产品.97485 |
-| [63维af89](notes/2026-11-20-physical-fit-six-step-result.md) | 6430.555 | .586426 | 7.21125；Dlb4.06939；产品.88036 |
-| [173维f062](notes/2026-11-20-physical-threejet-six-step-result.md) | 817.506 | .310475 | 14.0934，几何不够 |
-| [314维m6](notes/2026-11-20-physical-threejet-m6-six-step-result.md) | 268.950 | .197411 | 10.7457，仍违双帽必要界 |
-| [674维r11](notes/2026-11-20-physical-threejet-m6-r11-six-step-result.md) | 132.704 | .174585 | 17.6646 |
-| [1280维m12](notes/2026-11-20-physical-threejet-m12-r11-six-step-result.md) | 36.11899 | .0528323 | 17.1862 |
-| [2648维r23](notes/2026-11-20-physical-threejet-m12-r23-six-step-result.md) | 14.36830 | .0441174 | 44.3647；必要产品5.4104 |
-| [全M160 polar](notes/2026-11-20-polar-banded-six-step-result.md) | 20.03111 | .0374014 | 95055.26；严重几何失败 |
-
-这些物理空间按实际残差谱/径向细化顺序展开，不是不同g目标；谱、完整源码/参数/真实回溯在各note。低SSE却高K的子代不能当作整体几何进展。polar数学分离/带状SPD实现正确也不补其H1不足。
-
-[弱列均衡失败](notes/2026-11-20-fullclosed-column-equilibration-curvature-failure.md)：f062父的256方向alpha1/32 SSE817→792，K→2748，不继续该尺度。[H²首步](notes/2026-11-20-fullclosed-integrated-h2-first-result.md)817→492，K14.09→13.23；[续三步](notes/2026-11-20-fullclosed-integrated-h2-next-three-result.md)SSE→194.08、K→17.48，纯metric分支不够。[cap16部分中止](notes/2026-11-20-fullclosed-integrated-h2-cap-partial-result.md)实际176Jv/176VJP后exit130，0完整方向/试步/接受；发现双帽D必要界后及时改正，预算不冒完成。原L²方向从未跑；H²先由D/h量纲修正。
+- [重建与首LM](notes/2026-11-20-reconstructed-fullclosed-and-first-lm.md)：真实历史60321451c输入b4d2b98，经.991→.992→M112→.993→.995接原pulse/Hold得923节点/M160 warm79c161；末prefix RMS9.3256e−9。旧local-scale128 Gram反增.670964。
+- 物理63维af89是较好几何父；173/314/674/1280/2648维纯metric子代Gram从.3105降至.0441但K从14升至44。全M160 polar的Gram.0374而K95055，H1不足，均不冒几何进展。
+- [弱列尺度](notes/2026-11-20-fullclosed-column-equilibration-curvature-failure.md)K2748；H²修正后避免A爆，但f062分支[续三步](notes/2026-11-20-fullclosed-integrated-h2-next-three-result.md)仍K17.48。[cap16部分中止](notes/2026-11-20-fullclosed-integrated-h2-cap-partial-result.md)176Jv/176VJP、exit130、0完整方向/试步/接受，预算不冒完成。原L²方向从未跑。
+- 原节点/中点有[R655](results/R655-node-midpoint-blind-space-and-Gauss-control.md)准确920维非线性盲空间。六Gauss是新增同g观察，不是连续证书；旧0c535/c71几何筛选已由新点推翻，不能回用旧点合格状态。
 
 ## 复现、环境与剩余
 
