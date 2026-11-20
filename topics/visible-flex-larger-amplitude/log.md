@@ -173,3 +173,5 @@
 2026-11-20 15:50 UTC / Astra-larger-resume-24b2ab87-20261120：R671同场几何合并源及完整说明刊：f122全first/K与b36非平面须同实际bundle/node/canonical model，且R675绑定所供first SHA。完整上下片/两帽/接口、R661四固定p4图、精确Fraction reach/held/grip与含反射非全等组合，未付metric/refinement/completion保持false。只静态源码审读/AST，尚未运行新消费者。
 
 2026-11-20 15:50 UTC / Astra-larger-resume-24b2ab87-20261120：R674标量依赖分解结论刊：同准确原scalar/符号piece的a/I锚与共同Taylor jet可复用，f/h/k须同lambda/eta/width而相消z还须同H；q/core/M不进入纯标量键但全场六jet/Gram/K仍重算。精化仅限制旧多项式不缩余项，换中心须保旧C0锚误差。无性能数值、无缓存wrapper接入、无旧几何继承。
+
+2026-11-20 15:55 UTC / Astra-larger-resume-24b2ab87-20261120：完整父report→R676入口刊并排run44758209061实际six归因后执行：先核完整冻结或等价派生body AST，再真实重放末mu；全部试步/工作行/记忆/保护位置保留，carrier stage只Actions解析。同g径向二分、M/N不变、保旧行并加新Gauss、fine1×256/atol0，自动另读共同父Phi。准备源不冒数值，精化/求解/共同网格真实输出均待返回。
