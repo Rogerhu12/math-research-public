@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`ca7ac6a6e1e56427795c8ed46ddb0d87eeed631f`；2026-11-20 15:12:47 UTC 实际pull --rebase，两README相对0e23c537差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`1311116a5c4d56984d185a4b30f7e53d484b7fbc`；2026-11-20 15:16:03 UTC 实际pull --rebase，两README相对ca7ac6a6差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-native-degree-fix.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-full-source-finite-offsets.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -61,12 +61,16 @@ R934完整固定双jet与B真除p输入、低行失败及≤13项forcing见原�
 
 R925§23原P152/mixedF144完整低核由RR全局生成；两图全A理想与同子集全曲线长度2256/1080、配对N=(2/vnew)A+B严格付真正零极，全部余行须返回。P读者见§25；mixedF仍需原cusp修正。
 
-[R935](results/R935-original-negative-fringe-all-correctors-budget-exclusion.md)：全原R/S的首法向与严格f0给d_D≥s+2；§7第二法向在d0+2≤τ<min(h,ell)读28首项并分C重数0/1/2。但当前2κ<T≤3κ的共同预算已被原P的d_D≥4κ+3r_src蕴含，不是新排除；真实H1/全余核及受限S继续。
+R935全R/S首、第二法向与严格f0结构保；当前2κ<T≤3κ的共同预算已由原P nef蕴含，不作新排除。28首项及C重数0/1/2分支见§7，继续真实H1/完整carry与受限S。
 
 R931§11同原单位HNF，或§11.1真h=c·1 mod I，均付厚Res(detI,c)，值miss回全π层；R925§24全分母HNF逐306源行准确除法，完整返回gI，等价旧图核source=unit。两个独立helper均未接运行/无新PASS。
 
-R936在K+e₊>3κ、2≤τ≤d₀+1给全T_J真左行，指定B∈H3时值−11U*(0)/a；一般B偏移必须保。R937在n+2e₊>3κ、d₀+2≤τ<min(h+2,ell)给原28单位与每个兼容G₀后同H1左行；τ=h/h+1严格窗已付，均不自动排全WD。
+R936/R937原一/二次正水平行保低τ/K+e₊>3κ与高τ/n+2e₊>3κ的严格门，分别读−11/28单位；一般B偏移不删，τ=h/h+1精度已付。全部完整空间/真左行见原节。
 
-R937附A/B已付全部同q native Y_j（1≤j≤d₀−1）对这些固定行的零响应；β₁仍非零。给定H3加该族的陪集还可用J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ：全真列构造左行、保H₊相继除F，仍读原单位并杀任意G₀后的全H1。其它WD的有限交点类定位正在继续。
+R937附A/B保全部同q native Yj的零响应（β1仍非零）；给定陪集还可用J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ。两步全局除F与任意G₀同H1保，现由R938扩至真实有限类。
 
 R925§25.1六P30源入口run44759336052/job136367382447/sourceda34ea30a于15:02启动；继承旧degree API错，取消接口403所以仍运行。修正源独立继续；真实P-only flagFalse/full152/双图零极2256/全部余行和boundary保，无PASS。
+
+R931§12修正source3a7bbe995的四入口15:12 UTC均已运行：六P44761009320、Artinian44761009090、Tate44761009050、closed/local44761008940；全部job与完整source见原节，无新PASS。
+
+[R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)：原jH3+D2/D3正是全Z_m限制核；四低门杀物理长2m，只余全away真实像，长度m(d_D−3κ−2)。行下降及合法lift不变齐。§9精确读实际≤13/≤12位carry；m≤T时若第一p²修正存在，它已迫ell3(beta3)=c2≠0，不能再借同页消零。K2不变/受限S及联合后页保。

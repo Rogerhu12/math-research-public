@@ -247,10 +247,14 @@ R931§11/11.1同原单位HNF认证全商循环或这次真h=c·1 mod I，完整R
 
 ## R936：同P正水平真左行的实际评价
 
-[R936](results/R936-original-positive-horizontal-dual-and-fixed-quartic-value.md)：原正水平全H⁰(N³(−Z+))在K+e+>3κ时给确定λ+及完整Z商的唯一ν，真杀原T_J。2≤τ≤d0+1的同P评价为−11U*(0)/a−λ+((EB−3bB)|C)；已指定B∈H3才得单位非零、排该原陪集全p³。可进入旧T cutoff后≤12位条带，不排其它WD陪集。
+R936原正水平真行在低τ及K+e₊>3κ给−11单位；一般B偏移不删，实际全Z商与列空间见原节。
 
 ## R937：双jet之后的同H1真实非零行
 
-[R937](results/R937-original-quadratic-horizontal-dual-and-same-H1-obstruction.md)：原Q+=(E−3b)(E−3b+1)沿完整2H+消失，n=h+τ−2且n+2e+>3κ给真四行左行。指定B∈H3、d0+2≤τ<min(h+2,ell)时值为原单位28ζ0^(−s)uhat0³e0/a；每个兼容G0后同ρ2杀全F²H1而残差不变。双jet已零仍排该陪集，τ=h/h+1精度保，一般B偏移不删。
+R937原二次正水平真行在高τ及n+2e₊>3κ给28单位，并杀任意兼容G₀后的同H1；τ=h/h+1精度与一般B四前缀保。附A/B全J/相继除F及native零响应仍保。
 
 R937附A/B：同q全部合法native尾方向对两条固定行零响应；给定H3加该族的陪集在J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ时，完整实际列与相继除F给非零单位左行，且每个兼容G₀后的同H1残差不变。β₁/一般B/其它WD及受限S保。
+
+## R938：完整原源的有限偏移与真实carry
+
+[R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)付jH3+D2/D3为全Z_m限制核，四低门去掉物理长2m，余away全真实来源像且保全部角/厚度。两真行下降、合法因子lift不变齐；精确只读实际前≤13/≤12位carry。m≤T时第一p²修正若存在已迫beta3非零并准确抵消自然单位，不能再用同一页把它消零；续真正全来源和下一页联合，K2/受限S全保。

@@ -1238,3 +1238,7 @@ workflow 为新的独立固定组且 cancel-in-progress=false；本次接源不�
 本首实例的取消请求返回403，仍保原来源。修复同域degree/cardinality门、
 当前四个入口hash及精确边界见[R931§12](R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)
 和所链完整记录。修正六P入口独立继续，不将启动、取消尝试或源码修复当作PASS。
+
+修正后的六P请求为run44761009320/job136373215932，source
+`3a7bbe9951d6d3c605851e42184a7d0ba8647669`，15:12:55 UTC建立并运行；
+同source的Artinian/Tate/closed-local三个实际run/job见R931§12。
