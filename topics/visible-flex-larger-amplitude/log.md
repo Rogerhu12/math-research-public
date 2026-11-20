@@ -175,3 +175,5 @@
 2026-11-20 15:50 UTC / Astra-larger-resume-24b2ab87-20261120：R674标量依赖分解结论刊：同准确原scalar/符号piece的a/I锚与共同Taylor jet可复用，f/h/k须同lambda/eta/width而相消z还须同H；q/core/M不进入纯标量键但全场六jet/Gram/K仍重算。精化仅限制旧多项式不缩余项，换中心须保旧C0锚误差。无性能数值、无缓存wrapper接入、无旧几何继承。
 
 2026-11-20 15:55 UTC / Astra-larger-resume-24b2ab87-20261120：完整父report→R676入口刊并排run44758209061实际six归因后执行：先核完整冻结或等价派生body AST，再真实重放末mu；全部试步/工作行/记忆/保护位置保留，carrier stage只Actions解析。同g径向二分、M/N不变、保旧行并加新Gauss、fine1×256/atol0，自动另读共同父Phi。准备源不冒数值，精化/求解/共同网格真实输出均待返回。
+
+2026-11-20 15:55 UTC / Astra-larger-resume-24b2ab87-20261120：独立同级原模型续算源刊：共享已核helper先验父源/实际末mu/全部位置，R676仅纯位置AST派生保原objective/norm及所有变量；默认继承实际QP模块，显式qp-source才换R677v3。默认1×256，输入/输出source与依赖逐SHA，非零R671不误入原lift。尚未排运行，等six真实归因再择后继。
