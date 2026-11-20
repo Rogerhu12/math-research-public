@@ -355,3 +355,22 @@ All derivations above are paper algebra. No new arithmetic has been executed loc
 ## Executable consumer
 
 The exact consumer is `scripts/R936_whole_supersingular_trace.py`, run through the public `serre-current-exact-research.yml` workflow. Script, exact parameters, source commit, run ID and deterministic output SHA are retained; raw polynomial arrays and matrices are temporary and are not committed. No computed value is asserted by this formula proof.
+
+## 8. 首次公开精确值（2026-11-20）
+
+[run 44713602498](https://github.com/Rogerhu12/math-research-public/actions/runs/44713602498)，job 136211233497，source d051e06c3453f8f78e3584e14155fc6f43de42c5，已成功完成。脚本 SHA256 为 6dc82247decc1f16dc17a2a2bee81756f6447dc62a0f83cf98b819ed8285d5a9，参数为 --primes 41 47 59 71 83 107 --output /tmp/whole-ss-trace.json。
+
+| $p$ | 原允许类 | $r$ | $\dim L$ | $\operatorname{Tr}((3-2e_0)R)$ | $S^p$ |
+|---|---|---|---|---|---|
+| 41 | 是 | 8 | 7 | 3 | 39 |
+| 47 | 是 | 2 | 8 | 9 | 34 |
+| 59 | 是 | 2 | 10 | 35 | 16 |
+| 71 | 否，仅辅助 | 2 | 12 | 59 | 70 |
+| 83 | 是 | 2 | 14 | 35 | 14 |
+| 107 | 否，仅辅助 | 2 | 18 | 6 | 24 |
+
+表内各值都在 $\mathbf F_p$，脚本的 $\mathbf F_{p^2}$ 第二坐标均为零。原所有 SS 点与重数均保留；六个具体全和非零已经按 ET9 精确验证。两种独立代数 trace 实现、分母单位及原 theta 三角重建检查均通过。
+
+临时输出为 106489 bytes，确定性 SHA256 为 e3241fb803c302caa2a3676d4079f528a2954c4a40d73d7654524d8888546c42。只保留参数、来源、run 与摘要；可再生多项式数组不上传 artifact、不入 Git/Release。
+
+这是六个有限值，仍未证明一般素数的全和非零，也未证明它等于原 $Q'_h(0)$。特别地 $p=41$ 的全和非零与 R934 同标签 Legendre 因子为零同时成立，不能用前者修复后者。

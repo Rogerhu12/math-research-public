@@ -589,3 +589,8 @@
 ### 2026-11-20 17:46 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R936完整纸证：原SS和降为维(p+1)/6有限代数迹，明确全部点/权/原标架与非零来源尺度，不假设和非零或Q′比较。
 - 新增课题外workflow `.github/workflows/serre-current-exact-research.yml`：公开运行原六素数trace及固定权34五Hecke行/a11，临时输出仅记run/SHA；本地只AST，不生成数学数组。
+
+### 2026-11-20 17:55 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R937实际rank5/原CM核/标记比1350702136960已成，固定B34例外保留；同run给a11=14958957622875578640，原normal低层和同h Q′仍须证明。
+- R936首公开run44713602498六个完整SS和非零（71/107仅aux），严格保全点与来源；只记参数/run/SHA，无数组或artifact。终端环境unavailable，沿旧Actions真实git恢复发布。
+- 本push规则：待本次公开Actions实际pull回执更新，两README先按已读SHA核对；主目标OPEN。

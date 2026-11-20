@@ -1,35 +1,55 @@
 {
   "schema": 1,
-  "session": "serre-public-astra-20261115",
-  "source_branch": "serre-public-recovery-20261116",
-  "request_id": "20261116-R927-certified-original-reference-two-endpoint-norm-frames",
-  "commit_message": "serre: certify both original reference norm frames from complete parent reuse",
-  "rules_last_read_commit": "7fb1882050e3470f7ddfa0d61faed5e1d9735f1a",
+  "session": "serre-public-astra-20261120-de0a3e3b",
+  "source_branch": "serre-public-recovery-20261120-de0a3e3b",
+  "request_id": "20261120-R937-weight34-Hecke-kernel-and-R936-first-values",
+  "commit_message": "serre: identify the original weight-34 Hecke line and record the first complete supersingular sums",
+  "rules_last_read_commit": "3beffda987e8c53ff8931e4becbee74aefcf0dd7",
   "readme_sha256": {
-    "README.md": "6979d793d8335488df16d92c5617c6e5f25503187d5c27f22041eb8a027dbec9",
+    "README.md": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topics/serre-uniformity/README.md": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "expected_previous_request_sha256": "895149c16d8b34baf45cd61dc8983fa53e413ecf7f7c4c72a2b1934ce4fb60d5",
+  "expected_previous_request_sha256": "3dc8a450d84da81671d357a01a593f091bbdae9a2a25da98e1749ba8e8b9dfe9",
   "files": [
     {
-      "path": "topics/serre-uniformity/results/R927-certified-original-reference-two-endpoint-norm-frames.md",
-      "sha256": "f8d7f36010eb4d0e9e83599640b90adb2717048e0665912515313c1eb1d4787d",
+      "path": "topics/serre-uniformity/results/R937-original-weight34-Hecke-kernel-and-marked-unit.md",
+      "sha256": "186b5cb12fe99fb89575c03b9b6f4699dc26dc41fef1fbe1ddbb953da18c4b14",
       "expected_previous_sha256": null
     },
     {
+      "path": "topics/serre-uniformity/results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md",
+      "sha256": "83a2ab3f42d47bd76a5d66c2ef8818191e3504511bffd0680d5844e9f21fb361",
+      "expected_previous_sha256": "1155086d9fb076fa52c38734f15c67265b07c11f95791bd09ec0331d36eb5e21"
+    },
+    {
       "path": "topics/serre-uniformity/HANDOFF.md",
-      "sha256": "aa642c6a221e6c6a0eb7b80d4d3f1c7dce21fee8f211a8cf7d68e324e8505970",
-      "expected_previous_sha256": "ef9897074ed4c9bc3e20a51344df63decc90c37333bd185a67584667bbd0fe95"
+      "sha256": "6dc493b2ad984e12a46154873fb3694571d1716e0c9a4c286fdeb4c56ec84925",
+      "expected_previous_sha256": "a94cff5fd360af6d1095eb7850b2f8c00d87ac42825efb7f11c1bac1374260c4"
     },
     {
       "path": "topics/serre-uniformity/open.md",
-      "sha256": "577bad3e363ac91348d10a1c208203d91b88f4519baecd58da3b8fbc08b99aae",
-      "expected_previous_sha256": "946f58f76fcef38bce7138b0a2d717e5e5fc31d4cba920defbdd6931e58db8c0"
+      "sha256": "8ded9f59c7e73be65b4a34767eed4fc426000b314adac5d04b0939f16ceb8be9",
+      "expected_previous_sha256": "6ead39439df07109d6e5f7e83089f08e82bdc5af212f84cece2e9bebf7016a96"
+    },
+    {
+      "path": "topics/serre-uniformity/results.md",
+      "sha256": "49df0f9dc1ad4c637f439a0c579962af251d552624a75f7570533439d7734611",
+      "expected_previous_sha256": "373d9a1067f17b84cc0e382ab8f37a54be5b98ffb59905db68db9dfab1b0a9b8"
     },
     {
       "path": "topics/serre-uniformity/log.md",
-      "sha256": "122834e350c1d4bdd02561f325fcbaf22b6d9b5b8d7e5b1cb810acdb92f265bc",
-      "expected_previous_sha256": "e6ccd75f02c3a329a9483d040fc74c966fa116dd4b4a61f462f1ccb7b37dc155"
+      "sha256": "f4ab29328c6f91238ca2a0c567c2c2a4789dad12f4b22d0f8d4ca037312008d3",
+      "expected_previous_sha256": "ea18cf63c4f8e18693a7d52bc93815d9b29096bce81d1e0830751efa5ed8d050"
+    },
+    {
+      "path": "topics/serre-uniformity/scripts/serre_public_source_publication_recovery.py",
+      "sha256": "66e8af571fb92f521a36bec7f274ececcaa22ea98fac40d0de9cc0ad563c91b7",
+      "expected_previous_sha256": "7b7ae3e1c9309117d10fdd82accaa2ecfe29c0bd632bac3c6d16e59a4489198a"
+    },
+    {
+      "path": ".github/workflows/serre-current-publication-recovery.yml",
+      "sha256": "7a25c33ddae1ef4110aff2f2f0da3f8068864cb216415152f63e2ef5d70138ff",
+      "expected_previous_sha256": null
     }
   ]
 }

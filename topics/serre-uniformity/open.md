@@ -105,10 +105,10 @@ R859–R898原BT/Drinfeld/Igusa/cusp/整theta lift、两旗(6,6)/rank36源全部
 
 [R935](results/R935-bounded-weight10-34-primitive-Legendre-pair.md)完整证明原p5mod12的h8=(p+9)/2、h32=(p+33)/2均本原，且在固定递推整数a11的素因子外不能同时有Legendre零；p>10^22是无计算充分界。权34完整六维原整空间是B_a=V4†E6^(5−a)η^(12a)，a=0..5。
 
-下一实际问题：取原T5的有限个目标Fourier行，证明该六维空间的核除固定有限素数外是V34†线；继续原标记单位/normal输运与同标签低项，不能把权10的单行rank搬到权34。两个实际sigma pair分别(f_t,g_(t−1))和(f_(t+2),g_(t−3))；某标签Legendre单位不允许借另一个标签的sigma值。全SS配对及全局height继续独立。
+[R937](results/R937-original-weight34-Hecke-kernel-and-marked-unit.md)现已完成实际五T5行rank5，固定B34外核恰原V34†线，原标记比1350702136960、fine阶2p−35；完整有限坏整数与实际公开run见证明。下一实际问题为权34原normal低层排除与同标签低项，不能把权10的低层极阶界直接搬到权34。两个实际sigma pair分别(f_t,g_(t−1))和(f_(t+2),g_(t−3))；某标签Legendre单位不允许借另一个标签的sigma值。全SS配对及全局height继续独立。
 
 ### R936：完整超奇异总和的实际有限代数
 
 [R936](results/R936-explicit-polynomial-trace-of-the-whole-supersingular-pairing.md)给S^p=12c_r²Tr_L((3−2e0)R)，L=Fp²[t]/(tH_N)，维N+1=(p+1)/6。H_N由原Weierstrass模型Hasse系数直接给出，原伴随P_J由全整三角基与原CM theta/ζ² oldform确定，分母b在整个L是单位。保t0的权1、非零根权3、三个椭圆点每点四个fine来源的零贡献；不额外乘Igusa p−1。R932原d1/mI/cF保持。
 
-这使当前全和能按完整源直接计算；首请求41/47/59/71/83/107，71/107只辅助。有限结果不证明全p非零，且就算trace非零，仍须比较R924实际高层线性系数，不能直接令其等于Q′_h(0)。
+run44713602498已成功，41/47/59/71/83/107的S^p分别39/34/16/70/14/24，71/107只辅助；全点/双trace检查通过，确定SHA见R936。有限结果不证明全p非零；还须比较R924实际高层线性系数，不能直接令trace等于Q′_h(0)。

@@ -17,7 +17,7 @@ REQUEST = "topics/serre-uniformity/notes/serre-source-publication-recovery-reque
 H = "topics/serre-uniformity/HANDOFF.md"
 LOG = "topics/serre-uniformity/log.md"
 RULES = ("README.md", "topics/serre-uniformity/README.md")
-SESSION = "serre-public-astra-20261115"
+SESSION = "serre-public-astra-20261120-de0a3e3b"
 
 def sha(data):
     return hashlib.sha256(data).hexdigest()
@@ -69,7 +69,7 @@ def update_record(head, stamp):
     assert header is not None
     for i in range(len(lines)-1, header, -1):
         if lines[i].startswith("- 本push规则："):
-            lines[i] = "- 本push规则：公开Actions真实pull至" + head + "（" + stamp + "），两README SHA6979d793/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。"
+            lines[i] = "- 本push规则：公开Actions真实pull至" + head + "（" + stamp + "），两README SHA581402c2/35f82f3d无diff；终端失联用本仓库恢复发布，主目标OPEN。"
             break
     else:
         raise AssertionError("missing final rules entry")
