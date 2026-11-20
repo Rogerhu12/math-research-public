@@ -61,6 +61,6 @@ a04路径work/geometry_path/curvature-qp-spectral-hessian-r22-next-six.npz，SHA
 
 ## 当前公开Actions执行
 
-run [44748103105/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44748103105)，源码`e2c5e4a538d47d64ba62900e4271137e2312778f`；[实际紧凑记录](notes/2026-11-20-public-actions-44748103105-1.md)。当前`followup:early-release-original-qp-01`/completed，返回阶段29；退出码0。
+run [44748103105/1](https://github.com/Rogerhu12/math-research-public/actions/runs/44748103105)，源码`e2c5e4a538d47d64ba62900e4271137e2312778f`；[实际紧凑记录](notes/2026-11-20-public-actions-44748103105-1.md)。当前`followup:continue-exact-endpoint-01`/completed，返回阶段30；退出码0。
 
-Actions规则核查：2026-11-20 14:24:27 UTC，真实pull至`38ad96a851236e32288a5d7762c2671aef44dcec`，双README相对已读无变化。
+Actions规则核查：2026-11-20 14:24:35 UTC，真实pull至`3cc869f904a57a48d1dde524f1a5b236c031aab9`，双README相对已读无变化。
