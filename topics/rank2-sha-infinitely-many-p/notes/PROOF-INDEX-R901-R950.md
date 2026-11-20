@@ -111,3 +111,5 @@
 - [R928](../results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)：原固定P的四actual长/短前缀右端保真除p商及H·B，负fringe二次逆Taylor给直接可读的全局兼容类；同H1实际像使选定行充要，受限S的全p³整像门仍独立，未假固定类非零。
 
 - [R927§8](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原e/z读者与同进程公开前端已接；完整900核、51原二次因子及204回代、∞289全幂链/π2真2⁶/同核N,D全部保，同进程混合核144给度180依据。只静态审过，精确读数待公开PASS。
+
+- [R925§20](../results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原完整表的unordered pair直接向量乘积全证，原Fp²/两weighted图/全系数返回保，普通乘积不必构造306²多项式算子；完整补丁与静态独审已存，稳定源及当前运行不变，无实测PASS。

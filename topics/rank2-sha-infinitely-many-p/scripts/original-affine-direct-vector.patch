@@ -1,0 +1,416 @@
+--- a/original_affine_fast_operations.py
++++ b/original_affine_fast_operations.py
+@@ -18,6 +18,13 @@
+ The caller's actual quadratic field is split in the basis 1, field.gen().
+ No field or root of unity is constructed here.  Structure constants lie in
+ the prime field, so the two coefficient components contract independently.
++
++Vector products use the exact unordered original pair coefficients instead
++of constructing an operator: C_ii=x_i*y_i and C_ij=x_i*y_j+x_j*y_i.  Pair
++rows and polynomial degrees are streamed in bounded native-Fp blocks.  The
++actual caller-generator square handles quadratic coefficient products; the
++same original recipe scatter handles both weighted charts.  Every returned
++product coefficient is split back and checked against the entire result.
+ 
+ The full mathematical correctness is the coefficient identity in the
+ companion note original-affine-fast-operations-proof.md; finite sparse
+@@ -55,7 +62,9 @@
+ 
+ 
+ def build_original_affine_fast_operations(affine_context, progress=None,
+-                                          selector_cache_mib=64):
++                                          selector_cache_mib=64,
++                                          vector_pair_batch_size=128,
++                                          vector_degree_block_size=32):
+     """Return (adapted_context, receipt), preserving the old public interface.
+ 
+     The returned context has the same multiplication_matrix, multiply,
+@@ -64,8 +73,10 @@
+     unchanged.  Its added APIs are:
+ 
+       multiplication_matrix_with_certificate(x, infinity=False) -> (M, rec)
++      multiply_with_certificate(x, y, infinity=False) -> (xy, rec)
+       coefficient_contraction_summary() -> complete running audit summary
+       last_coefficient_contraction() -> the most recent exact operator rec
++      last_direct_product() -> the most recent exact vector-product rec
+ 
+     The same additions are present in constant_extension(field) and chart.
+     Every standard multiplication_matrix call also performs and records the
+@@ -94,6 +105,9 @@
+     assert original_certificate["complete_original_infinity_chart"] is True
+     assert original_certificate["complete_symmetric_basis_product_count"] == n*(n+1)//2
+     original_signature = original_certificate["exact_multiplication_signature_sha256"]
++    vector_pair_batch_size = int(vector_pair_batch_size)
++    vector_degree_block_size = int(vector_degree_block_size)
++    assert vector_pair_batch_size > 0 and vector_degree_block_size > 0
+     weights = tuple(int(d) for d in affine_context["basis_weights"])
+     assert len(weights) == n and weights.count(0) == 1
+     assert min(weights) == 0 and max(weights) <= 4 and sum(weights) == 864
+@@ -113,6 +127,7 @@
+     }
+     assert len(positions) == n*(n+1)//2
+     occupied = {int(m):set() for m in tables}
++    pairs_by_weight = {int(m):[] for m in tables}
+     for i in range(n):
+         for j in range(i, n):
+             m, row = (int(v) for v in positions[(i, j)])
+@@ -120,6 +135,7 @@
+             assert 0 <= row < tables[m].nrows()
+             assert row not in occupied[m]
+             occupied[m].add(row)
++            pairs_by_weight[m].append((i, j, row))
+     for m, table in tables.items():
+         m = int(m)
+         assert table.base_ring() == k and table.ncols() == len(recipes[m])
+@@ -183,6 +199,10 @@
+         "native_contracted_prime_entries":0,
+         "field_preflights":[], "last":None,
+         "receipt_stream":hashlib.sha256(),
++        "direct_product_calls":0, "direct_product_receipt_stream":hashlib.sha256(),
++        "direct_last":None, "direct_input_pair_products":0,
++        "direct_native_matrix_contractions":0, "direct_contracted_prime_entries":0,
++        "direct_output_prime_coefficients_verified":0,
+     }
+ 
+     def selected_table(j, a, indices, retain):
+@@ -234,6 +254,16 @@
+             "strict_zero_selector_prime_entries_omitted":state[
+                 "strict_zero_selector_prime_entries_omitted"],
+             "field_preflights":[dict(record) for record in state["field_preflights"]],
++            "direct_product_calls":state["direct_product_calls"],
++            "all_direct_product_receipts_ordered_sha256":state[
++                "direct_product_receipt_stream"].hexdigest(),
++            "direct_input_pair_products":state["direct_input_pair_products"],
++            "direct_native_matrix_contractions":state["direct_native_matrix_contractions"],
++            "direct_contracted_prime_entries":state["direct_contracted_prime_entries"],
++            "direct_output_prime_coefficients_verified":state[
++                "direct_output_prime_coefficients_verified"],
++            "direct_pair_batch_size":vector_pair_batch_size,
++            "direct_degree_block_size":vector_degree_block_size,
+             "no_new_Laurent_or_q_coefficients_used":True,
+             "precision_loss":0,
+         }
+@@ -464,12 +494,235 @@
+         def multiplication_matrix(x, infinity=False):
+             return multiplication_matrix_with_certificate(x, infinity=infinity)[0]
+ 
++        def multiply_with_certificate(x, y, infinity=False):
++            """Exact unordered-pair contraction, without a polynomial operator.
++
++            Every needed coefficient of C_ij=x_i*y_j+x_j*y_i (i<j),
++            C_ii=x_i*y_i is computed in the caller's exact constants.
++            Prime-field row blocks contract against the SAME original table
++            rows; all recipe columns are scattered in the actual chart.
++            Only the final n coordinate-output polynomials are constructed;
++            intermediate exact Fp pair-coefficient polynomials are streamed
++            in bounded batches, never assembled into a polynomial operator.
++            """
++            infinity = bool(infinity)
++            polynomial_ring = infinity_ring if infinity else affine_ring
++            x, y = vector(polynomial_ring, x), vector(polynomial_ring, y)
++            assert len(x) == len(y) == n
++            xgroups, xrecords, xn = coefficient_groups(x)
++            ygroups, yrecords, yn = coefficient_groups(y)
++            square = x == y
++            wx = max((degree+a for a, (degree, _, _, _) in xgroups.items()), default=-1)
++            wy = max((degree+a for a, (degree, _, _, _) in ygroups.items()), default=-1)
++            bound = max(0, wx+wy) if xn and yn else 0
++            accumulators = [matrix(k, bound+1, n) for _ in range(field_degree)]
++            prime_polynomials = PolynomialRing(k, "q_original_direct_product")
++            zero_parts = tuple(prime_polynomials.zero() for _ in range(field_degree))
++
++            def split_polynomials(groups):
++                parts = [zero_parts for _ in range(n)]
++                for _, (degree, indices, components, _) in groups.items():
++                    for column, i in enumerate(indices):
++                        parts[i] = tuple(prime_polynomials(list(component.column(column)))
++                                         for component in components)
++                        assert all(p.degree() <= degree for p in parts[i])
++                return parts
++
++            xparts = split_polynomials(xgroups)
++            yparts = xparts if square else split_polynomials(ygroups)
++            generator_square = (split_constant(generator**2)
++                                if field_degree == 2 else None)
++            pair_polynomial_products = 0
++
++            def constant_field_polynomial_product(left, right):
++                nonlocal pair_polynomial_products
++                pair_polynomial_products += 1
++                if field_degree == 1:
++                    return (left[0]*right[0],)
++                # The three exact native Fp products are Karatsuba's identity.
++                # gamma^2=u+v*gamma is read from the CALLER'S actual generator.
++                p00, p11 = left[0]*right[0], left[1]*right[1]
++                middle = (left[0]+left[1])*(right[0]+right[1])-p00-p11
++                u, v = generator_square
++                return (p00+u*p11, middle+v*p11)
++
++            contraction_hash = hashlib.sha256()
++            pair_source_hash = hashlib.sha256()
++            contractions = contracted_entries = active_pairs = zero_pairs = batches = 0
++            eligible_pairs = 0
++            peak_selector_entries = peak_input_block_entries = peak_contracted_entries = 0
++            maximum_retained_pair_polynomial_coefficients = 0
++
++            def consume_batch(m, batch):
++                nonlocal contractions, contracted_entries, batches
++                nonlocal peak_selector_entries, peak_input_block_entries, peak_contracted_entries
++                nonlocal maximum_retained_pair_polynomial_coefficients
++                assert 0 < len(batch) <= vector_pair_batch_size
++                row_indices = tuple(row for i, j, row, parts in batch)
++                assert len(row_indices) == len(set(row_indices))
++                selector = tables[m].matrix_from_rows(row_indices)
++                assert selector.nrows() == len(batch) and selector.ncols() == len(recipes[m])
++                peak_selector_entries = max(peak_selector_entries, selector.nrows()*selector.ncols())
++                length = 1+max(int(p.degree()) for _, _, _, parts in batch for p in parts if p)
++                assert length >= 1
++                maximum_retained_pair_polynomial_coefficients = max(
++                    maximum_retained_pair_polynomial_coefficients,
++                    sum(len(p.list()) for _, _, _, parts in batch for p in parts))
++                pair_source_hash.update(canonical({
++                    "weight":m, "original_pairs_and_rows":[[i,j,row] for i,j,row,_ in batch],
++                    "all_selected_original_table_entries_sha256":_prime_matrix_hash(selector),
++                    "full_pair_polynomial_length":length,
++                }).encode())
++                pair_source_hash.update(b"\n")
++                for start in range(0, length, vector_degree_block_size):
++                    height = min(vector_degree_block_size, length-start)
++                    for component in range(field_degree):
++                        coefficients = matrix(k, height, len(batch),
++                            lambda r, c: batch[c][3][component][start+r])
++                        peak_input_block_entries = max(peak_input_block_entries,
++                                                       coefficients.nrows()*coefficients.ncols())
++                        coefficient_hash = _prime_matrix_hash(coefficients)
++                        if coefficients.is_zero():
++                            contraction_hash.update(canonical({
++                                "weight":m, "degree_start":start, "degree_length":height,
++                                "component":component, "input_sha256":coefficient_hash,
++                                "exact_zero_block_omitted":True,
++                            }).encode())
++                            contraction_hash.update(b"\n")
++                            continue
++                        contracted = coefficients*selector
++                        assert contracted.nrows() == height and contracted.ncols() == len(recipes[m])
++                        contractions += 1
++                        contracted_entries += contracted.nrows()*contracted.ncols()
++                        peak_contracted_entries = max(peak_contracted_entries,
++                                                       contracted.nrows()*contracted.ncols())
++                        contraction_hash.update(canonical({
++                            "weight":m, "degree_start":start, "degree_length":height,
++                            "component":component, "input_sha256":coefficient_hash,
++                            "complete_contraction_sha256":_prime_matrix_hash(contracted),
++                        }).encode())
++                        contraction_hash.update(b"\n")
++                        padded = contracted.augment(matrix(k, height, 1))
++                        for shift, columns in plans[(m, infinity)]:
++                            selected = padded.matrix_from_columns(columns)
++                            assert selected.nrows() == height and selected.ncols() == n
++                            for local in range(height):
++                                target = start+local+shift
++                                if target > bound:
++                                    # The per-pair filtration bound forces these
++                                    # exact coefficients to be zero; no tail is dropped.
++                                    assert selected.row(local).is_zero()
++                                else:
++                                    accumulators[component].set_row(target,
++                                        accumulators[component].row(target)+selected.row(local))
++                batches += 1
++                if batches % 32 == 0:
++                    _progress(progress, "complete direct original pair batches",
++                              batches=batches, native_contractions=contractions,
++                              infinity_chart=infinity, constant_field_degree=field_degree)
++
++            for m, pairs in pairs_by_weight.items():
++                batch = []
++                for i, j, row in pairs:
++                    forward = bool(x[i]) and bool(y[j])
++                    backward = i != j and bool(x[j]) and bool(y[i])
++                    if not forward and not backward:
++                        continue
++                    eligible_pairs += 1
++                    if square:
++                        assert forward and (i == j or backward)
++                        parts = constant_field_polynomial_product(xparts[i], xparts[j])
++                        if i != j:
++                            parts = tuple(2*p for p in parts)
++                    else:
++                        parts = (constant_field_polynomial_product(xparts[i], yparts[j])
++                                 if forward else zero_parts)
++                        if backward:
++                            other = constant_field_polynomial_product(xparts[j], yparts[i])
++                            parts = tuple(a+b for a, b in zip(parts, other))
++                    if not any(parts):
++                        zero_pairs += 1
++                        continue
++                    assert m == weights[i]+weights[j]
++                    assert all(p.degree()+m <= bound for p in parts if p)
++                    active_pairs += 1
++                    batch.append((i, j, row, parts))
++                    if len(batch) == vector_pair_batch_size:
++                        consume_batch(m, batch)
++                        batch = []
++                if batch:
++                    consume_batch(m, batch)
++            assert eligible_pairs == active_pairs+zero_pairs
++            assert eligible_pairs <= min(xn*yn, n*(n+1)//2)
++            if not xn or not yn:
++                assert eligible_pairs == 0 and all(a.is_zero() for a in accumulators)
++            answer, returned = row_polynomials_and_return(accumulators, polynomial_ring)
++            for i, value in enumerate(answer):
++                if value:
++                    assert value.degree() <= wx+wy-weights[i]
++            state["direct_product_calls"] += 1
++            checked = field_degree*(bound+1)*n
++            record = {
++                "kind":"rank2_original_affine_exact_direct_vector_product",
++                "direct_product_call":state["direct_product_calls"],
++                "original_multiplication_signature_sha256":original_signature,
++                "constant_field":field_record, "infinity_chart":infinity,
++                "module_dimension":n, "left_nonzero_coordinates":xn,
++                "right_nonzero_coordinates":yn, "complete_vectors_equal":square,
++                "maximum_left_weighted_degree":wx, "maximum_right_weighted_degree":wy,
++                "complete_output_degree_bound":bound,
++                "left_full_coefficient_groups_sha256":digest(xrecords),
++                "right_full_coefficient_groups_sha256":digest(yrecords),
++                "eligible_original_unordered_pairs":eligible_pairs,
++                "nonzero_pair_coefficient_polynomials":active_pairs,
++                "identically_zero_pair_coefficient_polynomials_omitted":zero_pairs,
++                "exact_original_constant_field_polynomial_products":pair_polynomial_products,
++                "all_actual_pair_sources_sha256":pair_source_hash.hexdigest(),
++                "native_pair_batches":batches,
++                "native_prime_matrix_contractions":contractions,
++                "native_contracted_prime_entries":int(contracted_entries),
++                "all_complete_contractions_sha256":contraction_hash.hexdigest(),
++                "complete_output_prime_coefficients_verified":checked,
++                "complete_output_prime_component_sha256":[_prime_matrix_hash(c) for c in returned],
++                "complete_recipe_scatter_sha256":complete_recipe_scatter_sha256,
++                "every_original_recipe_column_scattered_exactly_once_per_contraction":True,
++                "every_output_coefficient_returned_to_original_field_components":True,
++                "both_original_weighted_charts_preserved":True,
++                "new_constant_field_or_root_chosen":False,
++                "polynomial_multiplication_matrix_constructed":False,
++                "number_of_output_polynomials_constructed":n,
++                "pair_batch_size":vector_pair_batch_size,
++                "degree_block_size":vector_degree_block_size,
++                "peak_selected_table_prime_entries":peak_selector_entries,
++                "peak_input_block_prime_entries":peak_input_block_entries,
++                "peak_contracted_block_prime_entries":peak_contracted_entries,
++                "maximum_retained_pair_polynomial_coefficients":maximum_retained_pair_polynomial_coefficients,
++                "persistent_pair_selector_cache_created":False,
++                "precision_loss":0, "random_or_sampled_verification":False,
++            }
++            state["direct_input_pair_products"] += pair_polynomial_products
++            state["direct_native_matrix_contractions"] += contractions
++            state["direct_contracted_prime_entries"] += contracted_entries
++            state["direct_output_prime_coefficients_verified"] += checked
++            state["direct_last"] = record
++            state["direct_product_receipt_stream"].update(canonical(record).encode())
++            state["direct_product_receipt_stream"].update(b"\n")
++            _progress(progress, "complete original direct product certified",
++                      direct_product_call=record["direct_product_call"], infinity_chart=infinity,
++                      left_nonzero_coordinates=xn, right_nonzero_coordinates=yn,
++                      complete_vectors_equal=square, active_original_pairs=active_pairs,
++                      checked_prime_coefficients=checked,
++                      polynomial_multiplication_matrix_constructed=False)
++            return answer, record
++
+         def multiply(x, y, infinity=False):
+-            polynomial_ring = infinity_ring if infinity else affine_ring
+-            return vector(polynomial_ring, y)*multiplication_matrix(x, infinity=infinity)
++            return multiply_with_certificate(x, y, infinity=infinity)[0]
+ 
+         def last_receipt():
+             return None if state["last"] is None else dict(state["last"])
++
++        def last_direct_receipt():
++            return None if state["direct_last"] is None else dict(state["direct_last"])
+ 
+         def chart(infinity=False):
+             infinity = bool(infinity)
+@@ -481,8 +734,10 @@
+                 "multiplication_matrix":lambda x: multiplication_matrix(x, infinity=infinity),
+                 "multiplication_matrix_with_certificate":lambda x: multiplication_matrix_with_certificate(x, infinity=infinity),
+                 "multiply":lambda x, y: multiply(x, y, infinity=infinity),
++                "multiply_with_certificate":lambda x, y: multiply_with_certificate(x, y, infinity=infinity),
+                 "coefficient_contraction_summary":summary,
+                 "last_coefficient_contraction":last_receipt,
++                "last_direct_product":last_direct_receipt,
+                 "infinity_chart":infinity, "original_basis_weights":weights,
+             }
+ 
+@@ -493,9 +748,11 @@
+             "product_coordinates":slow["product_coordinates"],
+             "multiplication_matrix":multiplication_matrix, "multiply":multiply,
+             "multiplication_matrix_with_certificate":multiplication_matrix_with_certificate,
++            "multiply_with_certificate":multiply_with_certificate,
+             "chart":chart, "constant_extension":operations_over,
+             "coefficient_contraction_summary":summary,
+             "last_coefficient_contraction":last_receipt,
++            "last_direct_product":last_direct_receipt,
+         }
+         # This is compatibility, not a replacement for the complete exact
+         # contraction performed for EVERY later (possibly dense) input.
+@@ -503,7 +760,7 @@
+         low_index = min(positive_indices, key=lambda i: (weights[i], i))
+         high_index = max(positive_indices, key=lambda i: (weights[i], i))
+         assert low_index != high_index
+-        sparse_checks = []
++        sparse_checks, direct_checks = [], []
+         for infinity in (False, True):
+             ring = infinity_ring if infinity else affine_ring
+             parameter = ring.gen()
+@@ -515,6 +772,14 @@
+                 "infinity_chart":infinity, "case":"the actual original scalar unit",
+                 "complete_operator_sha256":record["complete_output_coefficients_sha256"],
+                 "all_306_by_306_entries_agree_with_original_API":True,
++            })
++            unit_product, direct_record = multiply_with_certificate(
++                selected_unit, selected_unit, infinity=infinity)
++            assert unit_product == selected_unit
++            direct_checks.append({
++                "infinity_chart":infinity, "case":"the same actual unit squared",
++                "complete_direct_product_receipt_sha256":digest(direct_record),
++                "all_306_coordinates_equal_the_original_operator_product":True,
+             })
+             sparse = vector(ring, n)
+             gamma = generator if field_degree == 2 else field.one()
+@@ -530,9 +795,25 @@
+                 "complete_operator_sha256":record["complete_output_coefficients_sha256"],
+                 "all_306_by_306_entries_agree_with_original_API":True,
+             })
++            # These are extra whole-API comparisons using the operator just
++            # authenticated above.  The coefficient formula, full source-row
++            # selection and complete return prove ALL later direct products.
++            other = vector(ring, [gamma+field(i+1)*parameter for i in range(n)])
++            for name, right in (("two-coordinate times all-coordinate polynomial vector", other),
++                                ("the same two-coordinate polynomial vector squared", sparse)):
++                actual_product, direct_record = multiply_with_certificate(
++                    sparse, right, infinity=infinity)
++                assert actual_product == right*actual
++                direct_checks.append({
++                    "infinity_chart":infinity, "case":name,
++                    "complete_direct_product_receipt_sha256":digest(direct_record),
++                    "all_306_coordinates_equal_the_original_operator_product":True,
++                    "previously_authenticated_operator_reused":True,
++                })
+         field_preflight = {
+             "constant_field":field_record,
+             "complete_original_API_comparisons":sparse_checks,
++            "complete_direct_product_API_comparisons":direct_checks,
+             "random_tests_used":False,
+         }
+         state["field_preflights"].append(field_preflight)
+@@ -555,6 +836,12 @@
+         "no_polynomial_structure_table_cache":True,
+         "sparse_inputs_copy_only_actual_nonzero_coordinate_rows":True,
+         "every_later_operator_performs_full_coefficient_return":True,
++        "every_later_direct_vector_product_performs_full_coefficient_return":True,
++        "multiply_uses_complete_original_unordered_pair_contraction":True,
++        "vector_product_constructs_no_polynomial_multiplication_matrix":True,
++        "direct_vector_pair_batch_size":vector_pair_batch_size,
++        "direct_vector_degree_block_size":vector_degree_block_size,
++        "direct_pair_selector_cache_created":False,
+         "no_new_Laurent_or_q_coefficients_used":True, "precision_loss":0,
+         "initial_prime_field_preflight":dict(base_operations["fast_field_preflight"]),
+         "initial_coefficient_contraction_summary":summary(),
