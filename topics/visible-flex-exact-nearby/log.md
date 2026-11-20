@@ -227,3 +227,7 @@ global推N1–15，root整篇有理比较/准确mean与环境dual独核，joint�
 ## 2026-11-20：真实齐次核到原low96根坐标的单射
 
 root提出受限核路线，global/joint独核，joint写KI1–15，root逐V9/V26/V28与F8完整正文再核。zL=0时不留θ损失，actualλ>7/10、CHcross<4、Cq<19给完整Qsrc<173/7<25；仅AT<5/2一次density费后C*<125/2<367<actual GB allowance，半矩阵余量迫E=B=0。H/rootH在吸收后才置零，K>0和完整DΨ逆给原方向零，原weak trace/transmission无独立端态。归一2π与fullmean均保，严格仅fixed真DF0实对称kernel读出单射/dim≤96，无Fredholm/onto/逆/ν增广前提或结论。0新科学/旧重算。
+
+## 2026-11-20：完整七粗端口及物理非齐次列的可执行接法
+
+positive推P1–16与pure模块15478B/c316efd9，root整读proof/math并逐N10–13、B1/B14–21、W9/W13核；global独审physical三源双注入/Sc=U/H^-1/rootmixed通过。原7高端口加7非齐次列，共14×16=224完整新scalar合同，原root97/outer96/joint193与mean全保；只有58量物理门真正通过才可算。原core18986B/72c17fb9、metadata routes26482B/b9648da6及ops11989B/8e19d38d同时入库，joint独核真实D+weighted metadata逐字复现5b6076f6；低未提供→ready false，无假科学/marker。早期core合同仅更新D已成状态和正确链接，不改任何数学/已冻结源。当前0新数值；两WPN RHS、low jump/ν及finite对象桥继续待。
