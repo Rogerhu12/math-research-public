@@ -7,7 +7,7 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `c439767c4c31c29ff502ecd470b8780ca724d08d`（2026-11-20 10:03:22 UTC，Actions run44715907411/job136219123185）。真实pull --rebase成功，两README blob未变，原日志已取核。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- **最近API同步及规则核对：** `fdd5847d68b6530defca8388f0b96693eeb7da97`（2026-11-20 10:23:48 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `409fb84e4dbbd33458e0bb5762a5e42049e7561f`（2026-11-20 10:26:27 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - actual-pull工作流已修当前根README预期blob；本地不可用时继续用真实Actions pull维持至少每小时同步，两README变动即读差异。
 - 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
@@ -35,8 +35,8 @@
 - 此前完整Deddens/shift及所有适用边界保[本次H快照](notes/2026-11-20-handoff-before-copying-cost-barriers-b2a9.md)、[结果索引](results.md)；闭合不再重做。
 - 原D_A正/负平移分类、范数不闭、全代数localizing与所有统一费用族非localizing已闭；范数闭包仍无非零紧算子，Lacruz闭性假设失败。全部非零A不变子商排严格分级移位/有限块直和相似，非零交织强制二幂范数比趋∞，不排未知shift part。
 - [有限头核心和精确费用](results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md)：严格下三角收缩核心SOT稠密于B(H)单位球；完整B⊗I属D_A恰B下三角，最优c_A为至多2N原端点矩阵范数最大值。同输入cut误差保真实L²积分，无未知尾速率。
-- **[自适应硬复制五次成本门](results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md)已闭。** R_J=α0⁻¹(I+U)Podd q_J的最优c=√(α0⁻²+α_{J−1}⁻²)。同输入递推保持正范数⇒存活集正测；全部重叠dyadic圆柱的极大族计数给Σlogc≥c₀n⁵，而−log‖Aⁿ‖≤(940/7)n⁴，标准移幂预算不能趋零。只排准确复制机制，不泛化全部Deddens选择。
-- **[全复软复制/有界放大的五次门](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)已闭。** 同一非零固定球和统一普通范数给正测乘积阈值，最优c=esssup|p|√(α0⁻²+w(2z)⁻²)；Σlogc≥c₀n⁵+nlogρ−n(n−1)logK。软cut、相位、适应与有界放大仍不能付四次幂预算；收缩软权只需正范数下界。继续一般非复制来源。
+- **[硬复制](results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md)及[全复软复制五次门](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)已闭。** 同一非零球和统一普通范数给Σlogc≥c₀n⁵+nlogρ−n(n−1)logK，原−log‖Aⁿ‖≤(940/7)n⁴；软cut/相位/自适应/有界放大均不能付预算。完整单步最优费已证；不排一般非复制来源。
+- **[D_A负幂域与等距共轭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)已闭。** 同一最优c_A控制X RanA^k⊂RanA^k及‖A⁻ᵏXf‖≤c_A‖A⁻ᵏf‖；Φ(X)=AXA⁻¹与Ψ=A⁻¹XA是有界延拓、互逆且保c。实际递推原像u_n=A⁻ⁿf_n=Φ⁻ⁿ(R_n)u_(n−1)；∩A^kM在每个真不变M中稠密但未付源增长，非闭不变量结论。
 - 最新外部状态见[文献刷新](notes/2026-11-20-literature-refresh-b2a9.md)，未找到可采用的完整答案；普通ISP仍开。
 
 ## R271真实投影返回与实际费用

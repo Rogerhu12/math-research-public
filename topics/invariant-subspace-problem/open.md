@@ -1,26 +1,8 @@
 # 未解决的问题
 
-**[完整权十与特征零第二Bell倍障碍已闭](results/R150-appendix-complete-weight-ten-rank-and-characteristic-zero-delta-square-obstruction.md)。** 旧run43926933406实际全13808原列秩13697、原子式det127=126，独立74037410标量产品杀全列且δ14b²读数1；本次恢复2444/7111原回执、1467子式phase及991独立回执的全部SHA相同。结合独立E上界，得ΓE10=13697、商维63579、δ14b²不在完整J17；原μ10核恰2171 Koszul，200/120呈示的权10核恰111/31。δ14原十八来源权≤12排除。未重跑大矩阵，下一δb³权13、qb³权11和b⁴权12，主问题未解。
+此前完整条目、原来源与失败范围保[本次open快照](notes/2026-11-20-open-before-deddens-negative-domains-b2a9.md)及其归档链；未列不算关闭。权7–10、全W31/W127、原最少120呈示及此前全部已登记结论不重算。
 
-**[原五次Koszul259与最少120列原梯度呈示已闭](results/R150-appendix-actual-quintic-koszul259-stable-sixty-and-minimal-onehundredtwenty-presentation.md)。** run43924670391实际D5秩126、K5秩259、原unit45；全部300右端115500、16关系6160及双逆134162坐标全真。原E恒等及同原单位给全部有序N²C真降次，C60稳定且F/C60=原G11商；加六mean的十字面倍得完整Γ120，Bell至多130。原Γ9=4552排≤9关系，故min_B Γ=120、min_B C=60；不是B秩/自由性。权10新13728来源核现恰31，见最新权十结果。四步raw与全部父相位根/normal独立核同；δb²现已判非成员，Bell单位仍未取得。
-
-**[原权九准确维数及权十严格秩上界已闭](results/R150-appendix-original-weight-nine-dimension-and-weight-ten-koszul-rank-ceiling.md)。** 原完整μ6单射使2171条权10 Koszul独立，故原M10秩≤44133、完整$\Gamma_{E,10}$维≤13697；原Q/7权9秩给$\dim_E\Gamma_9=4552$。E200来源权≤9无关系；最新原增广秩已达13698，权10核恰111并给E负证，见页首结果。
-
-此前完整open及所有未列任务保[本次快照](notes/2026-11-16-open-before-quintic259-minimal120-789f.md)，未列不算关闭。
-
-**[原Koszul55混合95单位与40原标签已实际完成](results/R150-appendix-actual-original-koszul-fiftyfive-mixed95-unit-and-forty-source-selection.md)。** 新job43919468897重116→high95→mixed全0；原混合子式det127=69，选$J_{40}=\{0,\ldots,33,40,\ldots,44,60\}$，全25575原坐标、18050逆、9025/3800选列恒等真。原E伴随公式与真实G-Koszul校正落实200/210呈示；不把field坐标提升或重建参数数组。根独立重生标签/binding/raw9335字节SHA并核新high95完整父相位；数学0.127秒。
-
-**[原E权七/八维数夹逼与完整梯度商非零类已闭](results/R150-appendix-original-characteristic-zero-low-weight-rank-sandwich-and-source-bounds.md)。** 完整E200权上界与同原模127非零子式夹得$\dim_E\Gamma_7=312,\dim_E\Gamma_8=1312$，商维7442/16362。原四规范$q_jb^2$在完整$S/J_{17}$中线性独立，$b\delta_{14}$及六个$y_i b\delta_{14}$分别非成员；不宣六类联合独立。原十八源过滤在E及任意扩域保持，排非零规范q组合来源权≤10和δ≤9；保中间G5。不是有限域系数提升，不限J17候选来源次数，但仍不排加Bell后的更高权来源或更高b幂。
-
-新问题为qb³权11、b⁴权12、δb³权13；已完成的权七至十不重算。
-
-**[单远孔代表、只乘核列的双塔误差及整高度倒数门已闭](results/R271-appendix-dual-tower-kernel-only-error-pure-far-height-representatives-and-joint-reciprocal-budget.md)。** 每个$r$先在整个强头真Galerkin核投影，完整$((C^*)^r)^\dagger$给纯$r$远孔代表；canonical $W/V$运输后核项是真物理最小投影，误差只乘范数≤1核列。所有$r\le1+\lfloor\sqrt{x+1}/(8(m+1))\rfloor$同原$Q/w$，全高度Bessel与统一吸收给非零锚必要$\sum_{m,r}\kappa_{m,r}^{-2}<\infty$。只累计高度数乘$\eta_m^2$，不累计双塔误差；完整强头费用上界及帽逆后的误差仍开，未证$N=M$。
-
-原40混合单位、原degree5来源和完整120呈示已闭；继续权十一qb³、权十二b⁴、权十三δb³及R271真实费用。原200/210历史证明与全部未列开放项保本次快照。
-
-**[权十完整候选真实预算边界已闭](results/R150-appendix-original-delta-weight-ten-homogeneous-candidate-budget-boundary.md)。** 完整父/200输入/2000 SSI全真；std555.227秒仅START、whole592.369秒75，无第9验证，不空续。根独立重建2172字节semantic及2027/3469 raw SHA全同。完整77276×13808 native/checker已真实编译控制，[full driver/原子式/独立全列与严格续接接口](notes/2026-11-16-r150-original-weight10-full-macaulay127-interface-789f.md)已实际完整完成，新增准确秩/特征零δb²非成员见页首；旧std空候选失败范围保持，不重跑。
-
-**R271实际费用继续。** 已付最优两孔锚、真旗代表、无包络倒数门和本次纯高度联合门；完整强头逆的实际费用及匹配/帽逆后的真实误差仍开。全部此前状态与未闭接口保[本次完整open快照](notes/2026-11-16-open-before-pure-far-height-789f.md)及归档链，未列不算关闭。
+**当前原代数门：** 完整ΓE10=13697、δ14b²非成员已闭；权11/12/13/14新严格上界36782/90012/203542/430212已付，继续qb³、b⁴、δb³或原ess4/5/6全结构。ess4外均值rankH3全排，rankH4局部5及4的指定支路全排，准确范围见下。R271已取R=d、Q=4d及分离高度Bessel常数1，真实完整费用仍开。
 
 ## 主目标与完成标准
 
@@ -122,3 +104,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 **[自适应硬复制的五次成本障碍已闭](results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md)。** 同一真实输入的R_J A递推若保持正范数，其存活集有统一正测下界；最大dyadic圆柱族覆盖−1,…,−n且至少δn个，凸性给Σlog最优c_A≥c₀n⁵。原−log‖Aⁿ‖≤(940/7)n⁴，故这种硬copy即使自适应/嵌套亦不能完成标准预算矛盾。继续一般源重排与真实成本，不把此排除扩成任意D_A障碍。
 
 **[全复软复制与有界放大的五次障碍已闭](results/R12-appendix-soft-copying-fixed-ball-fifth-order-cost-barrier.md)。** 允许任意复相位、软cut及按同一输入自适应；统一普通范数且回到同一个不含零闭球，仍有Σlogc≥c₀n⁵+nlogρ−n(n−1)logK。真实固定球给L¹下界/L²上界与正测乘积集，无尾率假设；最优单步c准确。一般有限头下三角选择、非复制来源重排仍开，勿再靠软化copy cut重做已排机制。
+
+**[D_A负幂域与同源共轭接口已闭](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)。** 正幂最优c同时控制全部负幂自然域；Φ=AXA⁻¹和Ψ=A⁻¹XA有界、互逆并保c。任意真实递推R_n A的唯一原像u_n满足u_n=Φ⁻ⁿ(R_n)u_(n−1)。每个真不变M的∩A^kM稠密，无原像增长率；以值域闭包制造新不变量的捷径不成立。继续非复制来源的实际预算，未声明独立负幂最优费相等。

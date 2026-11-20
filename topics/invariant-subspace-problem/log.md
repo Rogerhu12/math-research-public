@@ -469,3 +469,7 @@ AI-assisted GPT-6 Astra Pro：直接使用原外均值L=t及完整highest，局�
 ## 2026-11-20 10:23:43 UTC — Astra-ISP-b2a9acde-20261120：4+1四重点单零rankH4整支排除
 AI-assisted GPT-6 Astra Pro：显式可逆物理h/参数规范保持同一L、K、V/y/H，原完整mean非单位公式仅逆Frobenius配对；根逐核非半权及半权全部关键系数，均矛盾等向2+1。
 证明见results/R150-appendix-essential-four-local-four-jet-rank-four-branch-is-empty.md；全部权及∞覆盖，单点零另支仍开。旧H完整归档，继续零在长度3/2块和单位rankH5。
+
+## 2026-11-20 10:26:23 UTC — Astra-ISP-b2a9acde-20261120：负幂自然域、等距共轭与真实原像
+AI-assisted GPT-6 Astra Pro：先以有界弱聚点支付全部负幂域，再用原平方范数极限保精确c_A；正负共轭互逆保c，实际原像递推与每个不变M的无限后继稠密核心均完整证明。
+结果见results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md；源增长费用仍开。完整open已快照后删顶部重复闭合历史索引，所有未闭任务保留，未改完成标准。

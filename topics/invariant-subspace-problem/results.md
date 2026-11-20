@@ -320,3 +320,5 @@
 - **R150 单长度五局部支撑的rankH4为空（2026-11-20，已证明）：** [原最高梯度0/3/6阶的完整局部证明](results/R150-appendix-essential-four-local-five-jet-rank-four-branch-is-empty.md)以同一外均值元素L作参数t，仅用ν(t³)=1、ν(t⁴)≠0，依次迫K02、K03及K22为零；六阶全部其它分拆均在t⁵中消失。产生不可能的等向三jet，有限/无限点皆覆盖。该除子类型只余rankH5，其他rankH4/5继续。
 
 - **R150 四重点单零加一个单位单点的rankH4支路为空（2026-11-20，已证明）：** [完整物理规范及原highest/mean排除](results/R150-appendix-essential-four-local-four-jet-rank-four-branch-is-empty.md)用ν̃(f)=ν(h⁻³f(ht))保持同一L和全部矩，规范三个低矩。非半权的局部三次与mean二次系数迫等向2+1；半权先给完整物理二次恒等，再保mean排所有零配对。有限/无限点均含，未排4+1中L零在单点的另支。
+
+- **原Deddens负幂自然域与等距共轭（2026-11-20，已证明）：** [完整域支付、真实原像及稠密核心](results/R12-appendix-deddens-negative-domains-and-isometric-conjugation.md)由原归一化二幂的弱极限与准确平方范数极限，先证X保持全部RanA^k，再无因子损失地以同一c_A控制负幂。Φ=AXA⁻¹和Ψ=A⁻¹XA互逆保c，任意R_n A递推保唯一原像公式；∩A^kM在每个真实不变M中稠密。未付原像增长，不把裸逆延为有界或生成闭不变量。
