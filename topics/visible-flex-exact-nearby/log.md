@@ -343,3 +343,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 16:02 UTC：同选定成员真实外端两值首次公开入口
 
 会话visible-exact-astra-ac637-20261120。owner27237B/a8fdc3e0、pure16684B/a5470bca、worker30615B/7f755584、gen14824B/7c258186、合同10779B/98224860冻结。manifest13704B/d7f5bdff有23当前/唯一raw84KB原件、18门/36字段/2principal scalar；positive独核worker CLI/restore/private snapshot/3预算stage/7未付false，并独立重建metadata逐字同。只新付同θ原值到selected成员变化，原ordinary七源/端点/physical矩/外图不重算；private原path+CURRENT_SCIENCE_COMMIT、四线程1、单target marker成功push后唯一child。所有科学仅首次Actions，实际待。
+
+
+## 2026-11-20 16:04 UTC：同v四顶点的不同完整谱包围证明
+
+会话visible-exact-astra-ac637-20261120。global给CV6101B/95d57ce0，root整读proof与相对SG的全source差异、positive独核通过。η原互补PSD凸；|u|/K以符号归一的非负2×2最大谱单调，非Loewner单调；固定eta后r^-1 Dminus+rDplus+C对同r凸。CV5保同v在整个Gram/κ/分母，原wholemean/repair/germ真侧与全部4651范围不改。该新majorant非重跑SG；后继新4/条件5量还须RN/RX筛查，qtest完整ball要求保存读回再判门。当前0新科学，无改善幅度或逆主张。

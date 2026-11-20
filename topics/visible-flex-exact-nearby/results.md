@@ -375,3 +375,8 @@
 ## 2026-11-20：同成员实际外Robin与physicalmean两值消费公式
 
 [O1–14完整证明](results/R141-supplement-selected-physical-outer-residual-values.md)及[pure math](scripts/fourfold_codazzi_selected_physical_outer_values_math.py)保原F20 whole128+无限尾实际值、19旧完整记录、同fB图与selectedδ*。同θ商差/逆角1/4/fullmean/真1/m给两个真实值；旧dC仅共同导数×方向幅度缩1/100，repair不缩。math未执行；height/farlabel/knownZνproposal边界差、7ports/两WPN/fullinverse不授。
+
+
+## 2026-11-20：保持同v的不同四顶点谱majorant
+
+[CV1–6](results/R138-supplement-correlated-v-eta-four-vertex-body-Gram.md)给完整原box的准确谱最大：先η的Loewner凸，|u|/K通过非负2×2谱单调取upper，再同一v的Loewner凸取两端，故仅四角点；同v在κ/Gram/分母不拆。germ真侧K≥0、完整mean/repair/σ保，无K除法。0科学，独立于已成SG算法，不预称新数值或根门；全域后才可与旧SG upper取min，RX完整方向仍须支付。
