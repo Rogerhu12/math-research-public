@@ -45,3 +45,7 @@
 ### 2026-11-20 23:00 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R992实际Jacobi算子/简单谱/Hasse kernel及三次Serre标记经root与literature全文独审；旧p227 pivot语义严格排逐列本征，本地仅IO。
 - 保留原filtered V非零与G稳定两缺口，继续actual heat作用；R993新差集消费者在准备，未提前记执行。H逐字归档保完整前态。
+
+### 2026-11-20 23:07 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R993真正新r8/r2差集方法与consumer已冻结；原wp/CDQ完整ODE、三源核、全部截断/预算/分块输出经root审定，本地只IO/AST。
+- 提交公开请求，完整差集或三核首零才成功；R994留待实际回执。继续原filtered G-action和目标near-p非零，未把执行请求当结论。

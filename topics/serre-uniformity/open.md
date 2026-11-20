@@ -64,7 +64,9 @@ R988已建立实际G_(n(p−1))与balanced c_n的准确整比较；当前须证�
 
 [R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
 
-[R989方法与公开请求](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)已完成逐式/代码核验：原μ3 heat化Chazy双卷积，CDQ每有序对唯一归属；原E− sigma首pole和整数binomial单carry两负相消，双和收成一次乘法。新窗口只1000<p≤20000、p5mod12且p2/5mod9，明确与R939旧r8、R963旧r2及四点balanced数据不交。R990为主通道，首两个新p及首零用Chazy/原sigma独立核；620s内完整差集或已真核首零才成功，失败列全尾。[R991](results/R991-certified-original-r8-balanced-window-through-20000.md)现已认证：run44755320789在1.998924778s完成全部349新素数（1013..19973），均非零，1013/1049三路原源一致、每p首resonance核过，无错误/尾段；完整payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa由root纯IO复核。依R988有限集原S亦非零；不外推全p/同h/height。current request已完整完成，禁止重跑旧窗。
+[R989方法与公开请求](notes/R989-original-r8-sparse-heat-and-Kronecker-window-method.md)已完成逐式/代码核验：原μ3 heat化Chazy双卷积，CDQ每有序对唯一归属；原E− sigma首pole和整数binomial单carry两负相消，双和收成一次乘法。新窗口只1000<p≤20000、p5mod12且p2/5mod9，明确与R939旧r8、R963旧r2及四点balanced数据不交。R990为主通道，首两个新p及首零用Chazy/原sigma独立核；620s内完整差集或已真核首零才成功，失败列全尾。[R991](results/R991-certified-original-r8-balanced-window-through-20000.md)现已认证：run44755320789在1.998924778s完成全部349新素数（1013..19973），均非零，1013/1049三路原源一致、每p首resonance核过，无错误/尾段；完整payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa由root纯IO复核。依R988有限集原S亦非零；不外推全p/同h/height。R989 request已完整完成，禁止重跑旧窗。
+
+[R993方法与新请求](notes/R993-original-combined-disjoint-window-method.md)现冻结：仅r8的20000<p≤200000及r2的100000<p≤200000，按p合并顺序；首两点各行与首零三路原源核。新独立sigma通道由原wp的CDQ并完整ODE残差校验，旧R989只复用已hash的三个通用helper，旧窗口不重跑。620s含15s收尾；大事件分块须逐index重组并核ASCII bytes/SHA；完整差集非零或已三核首零、final预算成功且作业exit0才验收。method c19133588a246f770f0a05820aff1d8046d87c83a898e1a6ec1cd240a00b6f06，consumer 2e60046ffa0ea7cbf7534ad796bba8e4fd1086a5ef7198312089a73d96793f7e；公开回执待R994，未宣有限或全p结论。
 
 ## O3：固定低权cohomology与原Igusa投影的边界
 

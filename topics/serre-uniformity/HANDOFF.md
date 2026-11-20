@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-Jacobi-operator.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：5d98b781dbad30feec13ce1eb0de28b64cdb8b7e**（2026-11-20T15:01:08.927323+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：735f59a1905ab37a5bcf18674f37aef8184235b8**（2026-11-20T15:07:59.958449+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -52,9 +52,9 @@ R987真实两open gluing给 C(xZ^jω)=β^(1−j)j!L_jω（0≤j≤p−1），逐
 
 ## 当前实际工作：新窗口完成后继续一般非零
 
-[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：R989公开run44755320789/job136353398270/source3766ab06110a57ab35b95fe5469ed40cd5ce6564，1.998924778s完成1000<p≤20000、p5mod12且p2/5mod9的全部349个r8新素数（1013..19973），全非零/无尾段。1013/1049的R990、原Chazy/CDQ、原E− sigma单carry三路一致；每p首resonance核过。root纯IO复核完整request/rows/summary与payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa。R988给此有限集原S单位；不推全p/同h/height。current request已完成，不重触发；无raw artifact。
+[R991回执](results/R991-certified-original-r8-balanced-window-through-20000.md)：R989公开run44755320789/job136353398270/source3766ab06110a57ab35b95fe5469ed40cd5ce6564，1.998924778s完成1000<p≤20000、p5mod12且p2/5mod9的全部349个r8新素数（1013..19973），全非零/无尾段。1013/1049的R990、原Chazy/CDQ、原E− sigma单carry三路一致；每p首resonance核过。root纯IO复核完整request/rows/summary与payload245369B、SHA fea55f009c33e1b120e50c1fd9ff2a23aba25c999d863f506a72105fabfb86aa。R988给此有限集原S单位；不推全p/同h/height。R989 request已完成，不重触发；无raw artifact。
 
-R989 script96b3bbf3/method430459e1、R9905c35e728及全部pins见R991回执。legendre/literature继续R992原filtered G-action及真实Frobenius系数桥；audit准备R993真正新差集首零搜索（r8仅20000..200000，r2仅100000..200000），620s硬预算与首两个各行/首零三路原核，尚未提交触发，不记计算完成。下一空号R994。主目标仍OPEN。
+R989冻结源及pins见R991。[R993方法](notes/R993-original-combined-disjoint-window-method.md)已逐式/全代码审定：新增wp/CDQ保完整ODE，method c1913358、script 2e60046f。现提交真正新差集（r8仅20000..200000、r2仅100000..200000），620s含15s收尾；各行首两点/首零三源核，完整chunk/hash/尾段及final预算回执才验收。公开运行待R994，不提前记完成；legendre/literature继续actual filtered G-action，R995为三次Serre正常jet。主目标仍OPEN。
 
 ## 继承任务与永久边界
 
