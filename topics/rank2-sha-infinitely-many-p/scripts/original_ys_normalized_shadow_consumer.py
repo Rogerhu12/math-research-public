@@ -19,6 +19,7 @@ from section_quotient_algebra import canonical, digest
 from original_ys_closed_point_tools import decompose_complete_ideal
 from original_ys_local_value_tools import OriginalAffineLocalReader
 from original_ys_fraction_bridge import ORIGINAL_FOUR_PAIRS
+from original_ys_exact_reuse import validate_shared_original_intersection
 import original_shadow_relative_six_tools as legacy
 
 
@@ -28,6 +29,25 @@ def default_progress(stage, **data):
 
 def _complete_pair_points(context, item, progress):
     """Read every finite point and exactly the missing s=0 boundary."""
+    shared = item.get("exact_shared_intersection")
+    shared_record = None
+    if shared is not None:
+        shared_record = validate_shared_original_intersection(context,item,shared)
+        if shared["closed_points"] is not None:
+            points = shared["closed_points"]
+            assert sum(int(p["full_local_k_length"]) for p in points) == item["complete_degree"]
+            assert sum(int(p["point"]["degree_over_original_constants"])*
+                       int(p["intersection_multiplicity"]) for p in points) == item["complete_degree"]
+            item["closed_points"] = points
+            record = dict(shared["closed_point_decomposition_receipt"])
+            record["exact_complete_ideal_reuse"] = shared_record
+            item["closed_point_decomposition_receipt"] = record
+            progress("same complete original closed-point decomposition reused",
+                     endpoint_pair=list(item["endpoint_pair"]),
+                     first_endpoint_pair=list(shared["first_pair"]),
+                     complete_degree=int(item["complete_degree"]),
+                     all_current_pair_outputs_and_traces_still_to_read=True)
+            return points,record
     if "closed_points" in item:
         points = item["closed_points"]
         assert sum(int(p["full_local_k_length"]) for p in points) == item["complete_degree"]
@@ -50,6 +70,11 @@ def _complete_pair_points(context, item, progress):
               "whole_projective_degree":int(item["complete_degree"]),
               "every_thick_local_length_included":True}
     item["closed_point_decomposition_receipt"] = record
+    if shared is not None:
+        assert shared["closed_points"] is None
+        shared["closed_points"] = points
+        shared["closed_point_decomposition_receipt"] = record
+        record["first_endpoint_pair"] = list(shared["first_pair"])
     return points,record
 
 

@@ -234,3 +234,5 @@ R913同一finite wild全层新增惰性位D_p loc raw=0，D_p=p^c_pD只固定每
 ## R933：原首Frobenius系数的严格低读取
 
 [R933](results/R933-original-first-frobenius-coefficient-and-sixth-gaussian-block.md)原σ倍点以单位64^p−4从严格<p的同f/W、pc及Q_p(2)直接恢复实际f_p；四真实第六块完整返回。R615的Wp=1/35只引用，旧Cartier模型差不重登。中央仍需真实L5 modp7后除p6，R929两位不足；−9/35不能脱离原S/U低卷积与carry作矛盾。
+
+[R925§22](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：三个已审优化实际接源，31份host/producer清单全等；原请求推进完整shadow，旧运行保来源继续，新增完整closed/local门并行。仍逐层实际支付全部图、极理想、四E和全Tate迹，未冒新PASS或接入未完成的R931路径。

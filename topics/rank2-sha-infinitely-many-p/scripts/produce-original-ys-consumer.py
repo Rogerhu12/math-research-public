@@ -133,7 +133,7 @@ def main():
     dependencies=[
         "launch-original-ys-consumer.py","produce-original-ys-consumer.py",
         "produce-original-cube-section-fractions.py","original_cube_compact_sections.py",
-        "original_ys_fraction_bridge.py","original_ys_normalized_shadow_consumer.py",
+        "original_ys_exact_reuse.py", "original_ys_fraction_bridge.py","original_ys_normalized_shadow_consumer.py",
         "original_affine_fast_operations.py","original_section_ring_embedding.py",
         "original_ys_divisor_ideal_tools.py","original_ys_closed_point_tools.py",
         "original_ys_local_value_tools.py","original_shadow_relative_six_tools.py",

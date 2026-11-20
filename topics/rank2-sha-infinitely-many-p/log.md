@@ -49,3 +49,5 @@
 - 2026-11-20 13:20:06 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R932同源尾调整全normal向量即推；root/theta全文核d-primitive清分母/同Gauss提升/原ξ与全Euler项、真实S_j移位及窗内单位联动。完整H/open先归档再压重复链接；只读旧m0轴，不将普通行代表当整个余核左行，继续同P实际偏移。
 
 - 2026-11-20 13:22:18 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R933原f_p严格低读取全证即推；root/deep全文核σ倍点8pcQ₂、实际四Pν和第六行，并明确L5 modp7后真除p6的精度。R615/旧Cartier结论去重，仅补原Frobenius数自身；继续S/U同charge真实低卷积及完整carry，不冒非零。
+
+- 2026-11-20 13:29:17 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§22三已审补丁应用并请求完整shadow即推；全31源manifest、AST/JSON/YAML及原来源门核齐，本地无数学。新完整consumer/closed-local并行，旧运行保来源继续；R931仍为独立待接路径，完整E/shadow未冒PASS。

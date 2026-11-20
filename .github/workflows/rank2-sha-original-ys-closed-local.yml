@@ -12,7 +12,7 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: rank2-original-ys-closed-local
+  group: rank2-original-ys-closed-local-direct-vector
   cancel-in-progress: false
 jobs:
   original-ys-closed-local:

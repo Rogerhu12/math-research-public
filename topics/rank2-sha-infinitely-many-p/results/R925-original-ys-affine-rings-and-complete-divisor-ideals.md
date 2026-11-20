@@ -1146,3 +1146,23 @@ $$
 闭点分解只在完整finite/infinity/boundary ideals、差函数g及registry逐对象相同时共享，每次重新核Σe_Q[κ(Q):k]=degE。原全部primary厚度、真实域嵌入与边界都在，原18×9及双轴门不变。缓存至多四项，仅省同一对象的重复计算，不省首份不同理想的峰值，也不声称实际已有命中。
 
 补丁SHA256为 `6b59b77463c0ec9db2b58cef875ab7a700a43c40b71372cf2b94d426b3aad680`，原bridge/trace来源为§17两hash。root/deep全文独核；未来应用时必须将新增`original_ys_exact_reuse.py`同时纳入host/producer依赖manifest，不能只应用数学文件而遗漏来源鉴定。当前没有新的数学执行或性能结果。
+
+## 22. 已审三项优化实际接源并请求完整 shadow 门
+
+2026-11-20：§19.1、§20、§21 的三个完整补丁现已应用到实际运行源。这里登记源码/静态接受门和新的公开请求，不把启动当数学 PASS。已有 maps、closed/local、quotient 作业各保持原 source，不取消、不把其尚未完成状态写成成功。
+
+| 文件 | 应用后 SHA256 |
+|---|---|
+| original_affine_fast_operations.py | `1e0ffc3533022e17ca3da39e6cdd85997425f1150f6bb943d8e9a500e632c67b` |
+| original_ys_local_value_tools.py | `566f231e614f4b961cbd695318a159ee92b08a99de2da6f4c8786474e832b5a1` |
+| original_ys_exact_reuse.py | `38fdd90d1e8d4c6359c3755344366fc2448f357bf0f0d51313730893e8da96f5` |
+| original_ys_fraction_bridge.py | `788949117cba32c3ce347257ab71681bfe4a6940f935e017efef852c6ea4d9b8` |
+| original_ys_normalized_shadow_consumer.py | `c77610b54e0c65a8f99b7af173b7b790b00241592de5a24acae1fcdd4e5db653` |
+| launch-original-ys-consumer.py | `dedd9e7a4f41475f2a401b732d463214c8fd80447aa06c6d38851f6cb60369db` |
+| produce-original-ys-consumer.py | `660b2edd1f5f007efb2a0ed6486c434ba879b12c787b8c64d334cb2fc9320f28` |
+
+新增 exact_reuse helper 已同时纳入 host/producer 两份完整 manifest，AST 读取确认都是31个互异文件、两边集合相等且所有文件存在。全部修改 Python 作 AST 检查，原 JSON 请求与两份 YAML 均解析通过；本地没有执行任何数学。原 F/P 两份完整特征零回执、原 r=29、q_precision=2453、batch_size=64、minimal 完整核及固定 Sage10.6 镜像保持同一身份。
+
+请求的 phase 由 maps 推至 shadow、trace_method=tate：同一个断网进程重新支付原 cube、紧缩完整核/交叉、306 两图全乘法、原完整 maps、所有几何/极理想、四个完整 E、每个厚闭点及每条原 Tate 迹。任何门失败即不能登记其后成功。R927 已证明 dF=1296/F_first，但此入口仍以实际完整极理想核分支，未硬填次数或影子值。
+
+新 consumer 与 closed/local 分别使用固定的新 direct-vector concurrency 组，使改进算法的原完整门可以独立开始；旧三运行继续保持已有来源。消费器仍走原完整闭点 Tate 路径，R931 厚代数范数实现尚未接入，不混写两算法的回执。原18×9、双轴、全部κ次数/厚度/无穷边界、四pair输出与完整迹保持。新的 run/job/source 在实际建立后补入本节；到那时也只称运行，不预填 PASS、非零或主目标完成。
