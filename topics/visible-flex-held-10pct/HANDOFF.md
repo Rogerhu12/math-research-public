@@ -1,12 +1,12 @@
 # HANDOFF — Astra-held10-1b6d88ec-20261120
 
-维护会话：**Astra-held10-1b6d88ec-20261120**（AI）。前会话 Astra-held10-7322d0de-20261118。**未完成：没有满足全部10%标准的实际闭族。** 原记录/失败不重做；新环境可用，旧运行目录缺失。
+维护会话：**Astra-held10-1b6d88ec-20261120**（AI）。前会话 Astra-held10-7322d0de-20261118。**未完成：没有满足全部10%标准的实际闭族。** 原记录/失败不重做；本次执行环境已于09:49 UTC前后断连，系统现明确unavailable。
 
 ## 目标、规则与当前工作树
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`c9db159ff7caaeabc69e1dd0454e5613266ddcd6`；双README对前次无变化。每次pull检查差异，至少每小时一次。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`b261e42179408a9b33444156eb718e9c1c9b6e54`；API差异核对双README无变化。最后真实pull为09:48 UTC到c9db159ff；本次API比较不冒充pull。环境恢复后先pull，随后至少每小时核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -15,11 +15,11 @@
 
 **可搬迁恢复已实现。** `resume_m3/portable_bootstrap.py`按原manifest恢复70文件、既有sparse-v2与原物理port/chart；不依赖旧launch-plan。新chart有自身hash，不冒充旧数组。`portable_prefix_solve.py`先保存raw再做后处理，保原物理方程/域门/真尾/8outer；旧q060冷启动在原RMS附加点失败，只是必要再生路径失败。已加入原五点域检查，见[完整命令与观察](notes/2026-11-20-m3-portable-recovery-and-material-entry.md)。
 
-**新材料曲率核心。** `resume_transfer/material_curvature_core.py`在单位材料弧长直接给常曲率圆弧，所有补弧控制积分为零；位置为分片真积分的数值评价，未投影的reference lift保留。q/c是材料曲率参数，不是旧支撑Fourier系数。m3 `material_core_factory.py`已接完整参数jets；首q=.01/M8已失败（3698点/RMS3.7868），终态Frenet仍正，转可解余弦→材料曲率同伦。n4首q=.01/M12已失败（2845点/RMS2.85166），139拒均原曲率三角守卫；实际32768点κ∈[.85,1.11752]。独立v2保1e−5曲率门、用解析κ二阶导插值余项收紧数值界（非outward证书），新q=.02/M8已启动。见[n4完整终态](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)与[守卫定义](notes/2026-11-20-material-core-curvature-adaptive-guard.md)。0新真尾/闭合预认，运行源冻结。
+**新材料曲率核心。** `resume_transfer/material_curvature_core.py`在单位材料弧长直接给常曲率圆弧，所有补弧控制积分为零；位置为分片真积分的数值评价，未投影的reference lift保留。q/c是材料曲率参数，不是旧支撑Fourier系数。m3 `material_core_factory.py`已接完整参数jets；首q=.01/M8已失败（3698点/RMS3.7868），终态Frenet仍正，转可解余弦→材料曲率同伦。n4首q=.01/M12已失败（2845点/RMS2.85166），139拒均原曲率三角守卫；实际32768点κ∈[.85,1.11752]。独立v2保1e−5曲率门、用解析κ二阶导插值余项收紧数值界（非outward证书），新q=.02/M8已真实Frenet密点失败（root约−.0271771），转旧高度锚恢复。见[n4完整终态](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)与[守卫定义](notes/2026-11-20-material-core-curvature-adaptive-guard.md)。0新真尾/闭合预认，运行源冻结。
 
-**n4必要恢复。** 已由原M20紧凑20参数/19尺度重建同profile/raw核，线性port冷场再生18524运行；不是旧真尾恢复。wCut=.16实体port已再生；原native CLI重编译SHA与旧一致，新的2CPU installer不依赖旧plan。m3/n4各自manifest作用域分开。源/实际入口/完整复现命令见[n4恢复](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。
+**n4必要恢复。** 已由原M20紧凑20参数/19尺度重建同profile/raw核，线性port冷场再生18524最后二网格、终态未知；新两高度锚2919已启动后失联、终态未知；不是旧真尾恢复。wCut=.16实体port已再生；原native CLI重编译SHA与旧一致，新的2CPU installer不依赖旧plan。m3/n4各自manifest作用域分开。源/实际入口/完整复现命令见[n4恢复](notes/2026-11-20-n4-recovered-environment-and-new-entry.md)。
 
-**m2新切角设计已终态。** 四参数实际子午线与L的共振优化未把H/q降过原约.0121，768步发现曲率9.00474而192步约9；不升级采样约束、不继续同族细扫。源/参数/失败/命令见[记录](notes/2026-11-20-m2-controlled-meridian-design.md)。另启改变尾首cell对比R的新物理设计，不重复旧仅谷控优化。
+**m2新切角设计已终态。** 四参数实际子午线与L的共振优化未把H/q降过原约.0121，768步发现曲率9.00474而192步约9；不升级采样约束、不继续同族细扫。源/参数/失败/命令见[记录](notes/2026-11-20-m2-controlled-meridian-design.md)。另启改变尾首cell对比R的新设计57647，未读到结果即断连，终态未知；源码现按原工具文本恢复发布。
 
 分工：m3_continue实际前缀—尾与新核，n4_continue四重真联合及新核，geometry_advance新材料核/条件几何，root逆设计、整合与逐条发布。运行数组分别在本会话m3-work/n4-work/root-work，旧scratch只作历史来源。
 
@@ -54,5 +54,7 @@
 - R52新材料曲率核心：全周长2π、严格凸闭合、准确圆弧与完整参数jets；圆心c>1/k−π/(n sinπ/n)。条件D≤2.65时n3(k=.2,S=.21)held/D>.1039，n4(k=.2,S=.2)>.1172；插柱D²≤D0²+4ℓZ0+ℓ²，支撑扣ℓ/2。首负K特征窗有新有理界。仅核心/条件预算，完整BVP、固定g与标记仍未付；谱与真实窗诊断见[新核心记录](notes/2026-11-20-material-curvature-core-design-and-spectrum.md)。
 
 ## 接着做
+
+先恢复执行能力并读取本次82514/18524/2919/57647真实输出；环境失联不判进程失败、不重复已登记结论。详细最后观察和恢复命令见[本次断连记录](notes/2026-11-20-execution-interruption-and-continuation.md)。GitHub连接仍可用，已完成解析结论和源继续原子发布；公开Actions替代入口正在准备，未称已启动。
 
 继续余弦必要再生及两条新核心改进路径，读取真实返回、保raw与实际参数；合格前缀接同H真实尾，失败按具体残差改表示/设计，不放宽原门。不在恢复工程、条件窗或中间报告停止。新材料核的圆弧不再要求λ→1，但其实际曲率控制、全图径向/角谱误差、固定全部g精化、中央柱成本、全时reach、标记δE都还必须支付。已有其他O项按open继续。
