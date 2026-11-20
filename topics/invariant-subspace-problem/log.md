@@ -657,3 +657,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-lowest-source
 
 ## 2026-11-20 12:42:53 UTC — Astra-ISP-b2a9acde-20261120：单位3+1零一阶跨点配对整支闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-nonhalf-zero-first-jet-pairing-branch-is-empty.md)根核Db零与全部κ例外、必要范数方向及回原c1；新商代数源run44737710336完整1.484秒通过，原超时身份保留。12:40:24真实pull两README未变；H全文归档再压缩，未闭范围不因省略关闭。
+
+## 2026-11-20 12:44:20 UTC — Astra-ISP-b2a9acde-20261120：原源短批次14
+AI-assisted GPT-6 Astra Pro：41/32改用s=-1的QQ实度12/24并保∞独立门；新增23型及unit31的x0/L0全边界。 所有原方程、有限/无限边界、完整QQ门及独立运行身份保留；旧已闭结论不重跑。

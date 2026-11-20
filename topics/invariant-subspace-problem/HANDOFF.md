@@ -6,12 +6,14 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 2b27f6da9af4b7e80ec9e94d75d10b504e34c7aa，2026-11-20 12:40:24 UTC，Actions run44737710336/job136293190180；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:40 UTC。
-- **最近API同步及规则核对：** `a774180f31a284509f357e4fc966947b670ec07e`（2026-11-20 12:43:04 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `7e9901fbe7cd9580b684e3c509be0a5eb8493c55`（2026-11-20 12:44:25 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
 - 本地executor已断开；依根规则8小文本API逐次读最新main/规则、非force条件更新，另以只读Actions实际小时pull。pull请求sequence54成功，下一55。恢复本地先处理未推a06d8dbd8的远端等价内容，勿重复推。
 - 此前结论/输入/完整SHA/失败与未闭项保[前H快照](notes/2026-11-20-handoff-before-rank-one-divisor-closures-b2a9.md)、[完整open](notes/2026-11-20-open-before-unit-two-plus-one-b2a9.md)、[结果索引](results.md)及其归档链；省略不算关闭。原clone约96MB，旧TMP不假存活。
+
+- **短批次执行：** 请求14冻结rankone_v_four_one/rankone_v_three_two/rankone_v_two_three/unit31_regular_chart；41/32改用s=-1的QQ实度12/24并保∞独立门；新增23型及unit31的x0/L0全边界。
 
 ## R150：原Bell非零临界点与全部来源
 

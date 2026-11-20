@@ -366,7 +366,7 @@ def main():
         # separate fiber, never the cubic formal norm with a lost leading term.
         qminus = qst.subs({"s":-1})
         rminus = r01.subs({"s":-1})
-        need(deg(qminus,1)==2 and deg(rminus,1)==16,"Finite -1 fiber degrees")
+        need(deg(qminus,1)==2 and deg(rminus,1)==12,"Actual finite -1 fiber degrees, including the exact drop from16")
         minusnorm = qminus.resultant(rminus,"t")
         need(constant_mod(minusnorm)!=0,"Finite s=-1 has no common original roots")
 

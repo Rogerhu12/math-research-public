@@ -1,20 +1,20 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 13,
+  "sequence": 14,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 12:40:01 UTC",
-  "task": "Original unit31 q-zero quadratic quotient arithmetic; exact rank-one V four-one and three-two serialization repair; new three-one-one divisor",
+  "createdUtc": "2026-11-20 12:44:20 UTC",
+  "task": "Check exact special-fiber degrees and the original regular two-parameter chart",
   "sourcePaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-q-zero-verify.py",
     "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-four-plus-one-classification-b2a9.py",
     "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-two-exclusion-b2a9.py",
-    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-one-plus-one-classification-b2a9.py"
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-two-plus-three-exclusion-b2a9.py",
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-regular-chart-verify.py"
   ],
   "sourceSHA256": {
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-q-zero-verify.py": "0dfb482af62883fcf5e7c79af96d2b1a5a2a726a973320c5ff93be86d94fb397",
-    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-four-plus-one-classification-b2a9.py": "287be34869102ae107519fc580e45d9d630d12bd407cedf3264beb82416489ba",
-    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-two-exclusion-b2a9.py": "0ced5cf39d85863d7e81f127ff130a0aa1936b36534c42287c72d0fe2c2ccf6b",
-    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-one-plus-one-classification-b2a9.py": "914f0d8857394ffa16b6e45b56c1ce39c4d94c82e14fff5144a686d9ecbe489d"
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-four-plus-one-classification-b2a9.py": "bbc7dc98b374c3fdf99365ce6d4f1beaa616f14b787ed3a6d273bd95b53f6c55",
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-two-exclusion-b2a9.py": "e5d0bb10904b7280c182e7f6adeb2f5064090e44ed6c88f73c37215a7d17bf2b",
+    "topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-two-plus-three-exclusion-b2a9.py": "a6041b3fd3c6b8d39b4af09d10994343d9a338b3d734647a230bb90fe715aaeb",
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-regular-chart-verify.py": "93fb802a18416e0deb692e6890fd99b64b36626ef03bda55b242b04da596dd8b"
   },
   "dependencies": {
     "python": "3.12.14",
@@ -24,11 +24,6 @@
   },
   "parameters": {
     "jobs": [
-      {
-        "label": "unit31_q_zero",
-        "timeoutSeconds": 180,
-        "args": []
-      },
       {
         "label": "rankone_v_four_one",
         "timeoutSeconds": 210,
@@ -50,7 +45,7 @@
         ]
       },
       {
-        "label": "rankone_v_three_one_one",
+        "label": "rankone_v_two_three",
         "timeoutSeconds": 210,
         "args": [
           "--wall-seconds",
@@ -58,11 +53,15 @@
           "--memory-mib",
           "1024"
         ]
+      },
+      {
+        "label": "unit31_regular_chart",
+        "timeoutSeconds": 180,
+        "args": []
       }
     ],
     "concurrentJobs": 4,
-    "unit31": "Same original QQ source and necessary norms; every multiplication reduced immediately in a quadratic quotient over QQ(kappa), unchanged180second ceiling.",
-    "rankOneV": "Exact operator.index exponent encoding repairs only JSON hashes in two previous sources. New311 source adds complete QQ norm/cofactor and finite/infinite gates. All fixed finite Sylvester gates and denominator-degree checks retained.",
+    "note": "41/32改用s=-1的QQ实度12/24并保∞独立门；新增23型及unit31的x0/L0全边界。",
     "paidClosedBranchesAreNotRerun": true
   },
   "rulesGitBlobs": {
@@ -70,6 +69,5 @@
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
   "maximumJobMinutes": 8,
-  "computedArraysToBeSaved": false,
-  "previousRunId": 44737090302
+  "computedArraysToBeSaved": false
 }
