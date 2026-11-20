@@ -1,0 +1,48 @@
+{
+  "format": "isp-exact-execution-identity-v1",
+  "session": "Astra-ISP-b2a9acde-20261120",
+  "runId": 44736004677,
+  "jobId": 136287438240,
+  "triggerCommit": "88de2e120c5c0272b67cd988bfa97580cbcab738",
+  "actualPull": {
+    "actualPullRebaseSucceeded": true,
+    "beforeCommit": "88de2e120c5c0272b67cd988bfa97580cbcab738",
+    "executionEnvironment": "GitHubActions",
+    "format": "isp-789f-actual-actions-pull-v1",
+    "remoteCommit": "88de2e120c5c0272b67cd988bfa97580cbcab738",
+    "rulesGitBlobs": {
+      "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
+      "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
+    },
+    "rulesUnchanged": true,
+    "runId": "44736004677",
+    "utc": "2026-11-20 12:28:11 UTC"
+  },
+  "jobs": [
+    {
+      "elapsed_seconds": 1.9486631550000055,
+      "exit_code": 0,
+      "label": "rankone_v_quintuple",
+      "source_sha256": "9fc5376eb3323a4b1ce5bd8556fbc41e9f5d00b916d0eddb13fd0fa9f4e8de13",
+      "stdout_bytes": 2257,
+      "stdout_sha256": "688140b9a50fa7252d161ee012841f21f383efb86735a9bda58b0aba8951526b"
+    },
+    {
+      "elapsed_seconds": 180.05829830000002,
+      "exit_code": 124,
+      "label": "unit31_q_zero",
+      "source_sha256": "826624c094dc23593942da46d8247e8dda1de52572abc928d2b73c7f3fcf5c2c",
+      "stdout_bytes": 112,
+      "stdout_sha256": "52111816273fa72191b3dbde09a637af9a45ff603dd298f599eb6df800915b19"
+    }
+  ],
+  "completeJobLogSHA256": "be41e8c6a968f196c54c8191929983cead4f51db30c2e37da0e29db13aad8da9",
+  "dependencies": {
+    "python": "3.12.14",
+    "sympy": "1.13.3",
+    "mpmath": "1.3.0",
+    "pythonFlint": "0.9.0"
+  },
+  "computedArraysPersisted": false,
+  "note": "The independent rank-one V quintuple program succeeded. The unit31 q=0 program timed out after its original-source and mean-factorization checks; no closure is inferred from that partial run."
+}

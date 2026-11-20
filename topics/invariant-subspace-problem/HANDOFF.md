@@ -5,8 +5,8 @@
 ## 主目标、规则与执行
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
-- **最近成功实际pull与已读规则提交：** a6a2a26cc843e4b0875c14e040b3337385be0214，2026-11-20 12:09:30 UTC，Actions run44733413376/job136278648778；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:09 UTC。
-- **最近API同步及规则核对：** `cf9ca5ad7db3f06ff97addd3562eec3a08b321bf`（2026-11-20 12:29:13 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近成功实际pull与已读规则提交：** 88de2e120c5c0272b67cd988bfa97580cbcab738，2026-11-20 12:28:11 UTC，Actions run44736004677/job136287438240；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于13:28 UTC。
+- **最近API同步及规则核对：** `7a6a97cc0e30288662c2ebed382fe1f6bb1ae509`（2026-11-20 12:35:39 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -21,9 +21,9 @@
 - **全essT3≤3的原matched Bell已零。** W±上确有Cat3真临界点，不能把该层宣空；一般V非零Bell非零只能ess4/5/6。
 - **[整个V0临界层的三个原Bell均零](results/R150-appendix-zero-third-cumulant-all-matched-bell-values-vanish-and-exact-index-three.md)：** 无Cat/H秩/ess/支撑限制，含y0。原highest解H(y)，完整17低梯度I0有(r·y)S_r²∈I0，乘Q_r得S_r³；run44732550495全792×3 QQ回乘0。平方非成员给每个原根准确指数3；不搬成全Jacobian同幂，degree9无需运行。另V0/ess4整层已空的更强几何结论保索引，不把ess5/6宣空。
 - **外均值ess4主支：** Cat(y)=3、dimW4、y∉W，唯一原length5代数保同L,ν及全jets。全部rankH3、全部rankH4 proper局部单零（长度2–5）、孤立零点加unit单四jet/两个双点均已空。包括半权、零权、零配对、合流及∞，正式源与执行身份见索引和前H。
-- **unit3+1孤立零点：** 全p0、全半权及alpha=2phi−A−3bp=0已闭；分别run44732550495/44733413376。真正剩余p、alpha非零且b≠1/2；请求11只核余下q0整支，原完整mean两条二次曲线、无除法c1/χ及QQ norm gcd，未运行不宣闭。
+- **unit3+1孤立零点：** 全p0、全半权及alpha=2phi−A−3bp=0已闭；分别run44732550495/44733413376。真正剩余p、alpha非零且b≠1/2；请求11的q0源原恒等式已过、norm展开180秒超时，正改原生QQ(κ)商代数，未宣闭。请求12另核q非零的gamma0和n0=0，均保原mean/jets与除数边界。
 - 孤立零点的unit2+1+1、unit1⁴，全部rankH5单位支，一般V≠0 inner mean和ess5/6仍开。inner不能从V自己低秩自动推y/H共同支撑，全部原低梯度仍保。
-- **新rankV1门：** 请求11核V=ηu_s³/4非零、P_y∝Δ_s⁵的完整新支。原QQ最高16/低梯度17、degree80界及所有103单位分母先核，再固定160阶Sylvester非零升特征零；特殊s与∞不删。其余V1分配及一般V仍开。
+- **新rankV1门：** 请求11的自身五重均值极线原源已通过：QQ实度80/80、固定160阶mod103=27、∞4阶77、完整原最高/低梯度与链式全核，待独立正式稿。请求12核Δ_s⁴Δ_t及Δ_s³Δ_t²原QQ全源，固定440/480阶1009结式和全部特殊/∞边界；其余V1及一般V仍开。
 - **[旧纯三次判据已修](results/R150-appendix-polar-pure-cube-sign-correction-and-exact-resultant.md)：** 正确Q=B³−27A²D，root同一BigInt函数全10阶整数结式260758295153015625（mod103=56）；旧正文/Python源同步更正。无纯三次结论保持，旧正号/数值不再作证，其余闭几何不重跑。
 - 原4212来源枚举/系数高度、全局Bell自然幂及完整算子桥仍开。图册须每图真实幂来源并N=1+Σ(Ni−1)粘合；几何覆盖、V0子层证书不代全局原来源/实际费用。
 

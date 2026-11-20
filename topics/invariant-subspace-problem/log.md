@@ -636,3 +636,6 @@ AI-assisted GPT-6 Astra Pro：并行冻结unit3+1余q0原QQ门与一般V非零ra
 
 ## 2026-11-20 12:29:09 UTC — Astra-ISP-b2a9acde-20261120：最高单位不变及完整物理能量分级
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-highest-unit-invariant-true-kernel-and-graded-physical-energy.md)根核交换子商、任意方向模同态、规范族generic维数补段、原Gram能量压缩与Chebyshev尾界；没有假原物理P_F0保级。实际forcing核原定义，四头相关式独立逐项核；γ近1粗界不冒充γ<1/16费用，继续真旗与源专属改善。
+
+## 2026-11-20 12:35:27 UTC — Astra-ISP-b2a9acde-20261120：新短批次12及上一批独立结果
+AI-assisted GPT-6 Astra Pro：run44736004677的rankV1自身五重极线全原QQ源通过，q0源只完成原恒等式后180秒超时，保持开放并优化商代数，不扩大时限。真实pull12:28:11两README未变；冻结新gamma0/n0两原源及rankV1两新重数型，四任务独立、全边界/单位分母门均保留。

@@ -48,15 +48,17 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-q-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_q_zero.py"
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-quintuple-at-own-point-exclusion-b2a9.py" > "$RUNNER_TEMP/isp-rankone_v_quintuple.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-gamma-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_gamma_zero.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-three-plus-one-n-zero-verify.py" > "$RUNNER_TEMP/isp-unit31_n_zero.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-four-plus-one-classification-b2a9.py" > "$RUNNER_TEMP/isp-rankone_v_four_one.py"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-rank-one-v-three-plus-two-exclusion-b2a9.py" > "$RUNNER_TEMP/isp-rankone_v_three_two.py"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0 python-flint==0.9.0
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" - <<'PY'
           import concurrent.futures,hashlib,json,os,subprocess,sys,time
           from pathlib import Path
           root=Path(os.environ['RUNNER_TEMP'])
-          jobs=[{"label":"unit31_q_zero","file":"isp-unit31_q_zero.py","source_sha256":"826624c094dc23593942da46d8247e8dda1de52572abc928d2b73c7f3fcf5c2c","seconds":180,"args":[]},{"label":"rankone_v_quintuple","file":"isp-rankone_v_quintuple.py","source_sha256":"9fc5376eb3323a4b1ce5bd8556fbc41e9f5d00b916d0eddb13fd0fa9f4e8de13","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]}]
+          jobs=[{"label":"unit31_gamma_zero","file":"isp-unit31_gamma_zero.py","source_sha256":"dcbec1c0afeec4ede34dc899540855e0d39c8b229ba88b4aaaa928f9c32afc9b","seconds":180,"args":[]},{"label":"unit31_n_zero","file":"isp-unit31_n_zero.py","source_sha256":"de6f7b9b56e9420cf8d7a836e2fd4ff4dd2035654784a6b52f7a772f01b0f8c9","seconds":180,"args":[]},{"label":"rankone_v_four_one","file":"isp-rankone_v_four_one.py","source_sha256":"775ab3d5e7d8fcb6974a1fbad7f802b3387cde8aaa00d92a8b59dcd4c8906868","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]},{"label":"rankone_v_three_two","file":"isp-rankone_v_three_two.py","source_sha256":"c8b8a09aaed1f0490b658d3579ef779d942ff102f47e3bcb0723cfba82a573d0","seconds":210,"args":["--wall-seconds","180","--memory-mib","1024"]}]
           for j in jobs:
               source=root/j['file']
               assert hashlib.sha256(source.read_bytes()).hexdigest()==j['source_sha256']
@@ -75,7 +77,7 @@ jobs:
               info={'label':j['label'],'source_sha256':j['source_sha256'],'exit_code':code,'elapsed_seconds':time.monotonic()-begin,'stdout_bytes':len(data),'stdout_sha256':hashlib.sha256(data).hexdigest()}
               return info,data
           failed=False
-          with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
               for future in concurrent.futures.as_completed([pool.submit(execute,j) for j in jobs]):
                   info,data=future.result()
                   print('ISP_EXACT_BEGIN '+info['label'],flush=True)
