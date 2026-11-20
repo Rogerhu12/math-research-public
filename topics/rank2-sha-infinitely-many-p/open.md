@@ -2,7 +2,7 @@
 
 主目标：固定一条 E/Q，完整证明 rank≥2 且无穷不同 p 的通常全 Sha(E/Q)[p∞] 有限。**未完成，持续研究；不在阶段结果、时限或建议处停下。**
 
-[本次整理前完整 open](notes/2026-11-20-open-before-complete-low-P-reader.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
+[本次整理前完整 open](notes/2026-11-20-open-before-mixed-F-scalar-divisors.md)逐字保存全部旧问题、公式、条件、预算、来源和更早归档入口；[同期完整 HANDOFF](notes/2026-11-16-frontier-before-padic-reconstruction.md)保已运行 source/run/job 与各原理论检查点。下列未重写的旧门仍有效，编号缺席不表示完成。
 
 ## O1. 固定曲线的秩：已完成
 
@@ -255,6 +255,10 @@ R937原二次正水平真行在高τ及n+2e₊>3κ给28单位，并杀任意兼�
 
 R937附A/B：同q全部合法native尾方向对两条固定行零响应；给定H3加该族的陪集在J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ时，完整实际列与相继除F给非零单位左行，且每个兼容G₀后的同H1残差不变。β₁/一般B/其它WD及受限S保。
 
-## R938：完整原源的有限偏移与真实carry
+## R938：完整原源与真实carry
 
-[R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)付jH3+D2/D3为全Z_m限制核，四低门去掉物理长2m，余away全真实来源像且保全部角/厚度。两真行下降、合法因子lift不变齐；精确只读实际前≤13/≤12位carry。m≤T时第一p²修正若存在已迫beta3非零并准确抵消自然单位，不能再用同一页把它消零；续真正全来源和下一页联合，K2/受限S全保。
+[R938](results/R938-original-full-source-finite-offsets-and-affine-carry.md)保jH3+D2/D3全限制核、物理2m消去及away真实源像；概形长度不认像维。实际≤13/≤12位carry中，m≤T的首p²页已迫beta3非零/精确抵消，须续下一页，K2/受限S不删。
+
+## R927§10：完整原F双图零极门
+
+[R927§10](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：完整144混合核给IA/IB全度4752/1080且不交；原SY/J=(ξ²+3)²使a=q·yF·b，q=−θ³ξ³(ξ²−9)³(ξ²−1)，另图q0=s¹²q(1/s)。同选中a/b的完整整像给IA，IC=IA+qIB后两有效商及全回乘准确给真零极；1296只作最终核验，未冒实际计算或shadow。全低B、整像、共同零和全商读者正接入独立公开门。
