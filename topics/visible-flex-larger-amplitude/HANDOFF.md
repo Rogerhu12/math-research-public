@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 17:28 UTC，真实pull/rebase至 `cfac1638cb52537f38a309951ba90de71791373b`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 17:37 UTC，真实pull/rebase至 `f1d20a2ea8c6f9ecc817692a01aa6fb24be8f747`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -22,7 +22,7 @@ R653准确quarter；R654完整H²尺度；R655付原node/mid盲空间，故旧18
 
 **求解/精化run44758209061/1**：[总索引](notes/2026-11-20-public-actions-44758209061-1.md)。初始源4ae16219，控制器591ad0fe分卷，source snapshot逐步固定；[原six及归因已返](notes/2026-11-20-actual-original-six-and-geometric-rejections.md)：e08cc378，Phi7.950104e−8/max.0117336774，六步全接受，product.9919991086，末mu不变。全步均降Phi但真实几何拒；未达度量目标。
 
-其输入再生与旧公开父字节相同：c4a3f010691c8e9d1a1d9a8b26bfe4bc9b136efecf8fc3a9426ecddf28289080，Phi1.123140298934e−7/max.01319655308/product.991903936925，实际末mu=.0007539530259341321。新完整清单cb095d37，1635曲率/244半径/19保护点全保。
+其输入再生与旧公开父c4a3字节相同（全SHA见实际索引），Phi1.123140298934e−7/max.01319655308/product.991903936925，实际末mu=.0007539530259341321。新完整清单cb095d37，1635曲率/244半径/19保护点全保。
 
 [R671首方向](notes/2026-11-20-actual-reference-tail-first-result.md)：lambda1/eta885，256推进接受alpha.5；97fdc9ea，Phi9.5261192037e−8/max.0125942600062/product.99195078548，model b6adb4df。681.489s/1947764KiB；QP上限非驻点，raw负乘子不单独定因果。
 
@@ -36,18 +36,16 @@ run2后续：e08同g径向二分/fine1×256→[纯report精化归因](notes/2026
 
 完整链接见[新增结果](results.md)，这里各记责任：
 
-- R669：准确同g轴对称尾线性唯一性与quintic末端条件；b3/b4非零不推非线性不可能或正误差地板；八简单blend已无改善，不重做。
-- R670：完整同角首jet连续核，c4a3全922/帽/镜像嵌入sigma≥.28948，D≤4.119228，marked held/D≥.227934、含反射E正；未付全K/metric。
+- R669准确轴对称尾线性障碍不推非线性不可能或正地板；八blend已无改善，不重做。R670完整首jet核eaa，旧c4a3已证部分几何不继承到新场。
 - R671：同g新f/h/k解析尾完整工厂，lambda1可准确表示末段；整体连接仍待求解。必须全native/observed/六jet/点/高度接口用新context。
 - R672：全M/完整Laurent六jet真形算子K归worker03；[逐胞续接f476](notes/2026-11-20-R672-complete-curvature-continuation.md)仅准备，[兼容合并器6c02](notes/2026-11-20-R672-continuation-geometry-consumer.md)同样未跑；旧8ca不改，R666留同场reach。
-- R673：固定面gap与真实射线，负乘子须分开；不用旧高mu数值代新mu。
 - R674：共同a/I Taylor jet及独立导数余项、profile误差；f122 first/K和fd4 tight Gram全源齐，新全域自适应5d04728c已排。旧盒限制不自动缩余项。
 - R675：高Z或非零解析尾排活动平面开片。b36已排，df8及521187ae双证明合并器仅准备，旧flag如实不伪改。
 - R676：同g符号二分/补零/旧行正权/全部永久点/六jet转移差；真实fine solve源齐。跨层Phi权变只比较共同父泛函，单次转移或fine不冒持续精化收敛。
-- R677：同QP可靠残差刷新/固定面长CG与正确预条件度量，v3 fb4ec6b8准备未跑；每32真残差成本显式，是否采用依真实归因。
+- R677：同QP可靠残差/固定面长CG，v3 fb4已排；R673面gap和规范化释放另付，raw负乘子不定因果。
 - R678：仅增M准确补零保同场六jet、原carrier/全权/N及完整母/商范数；eea174b9入口仅准备，依径向实际归因择用。
 - R679：N倍增的旧偶/新奇Phi各半、同场max取两者max，旧点归一权减半；共同旧N/新odd归因及条件角余项已证，仅接口设计未排算。
-- R680：完整坐标正部越界加三阶项给条件二阶几何修正，保原选中线性可行；真Phi/全点另付，仅证明未实施。
+- R680条件二阶修正：[父行helper5bc](notes/2026-11-20-parent-row-SOC-helper.md)仅准备；固定branch/radius/norm、QR原范数及全C检查，严格L/tau未付，driver接线中，无实际SOC接受。
 - R681：当前J物理coarse框架/一般K、moving-frame正谱角矩及SPD/PCG已证；[隐式小模块324513a1](notes/2026-11-20-R681-implicit-coarse-frame-source-interface.md)仅准备，角矩/PCG未接入，无改善结论。
 - R682：严格metric lower用自己配置的准确s/π角身份，已有address可复用；新增正权必换Phi版本，全free点导数/分母链已证，超标硬门不可直接交零步feasible-CG。
 
@@ -61,7 +59,7 @@ R650/R661提供同场support/K加四固定p4 marker的全t reach/grip/held/E框�
 
 旧0241地点纠正exit130：1146 attempt/922粗+224细、850胞≤8.1，后续未返且不抄新值。R648/651/652只开放prefix。七次raw普通移出保源/输入/历史恢复见[容量记录](notes/2026-11-20-resume-raw-retention.md)，不改历史。
 
-本次压缩前H保[e0b5d2e2](https://github.com/Rogerhu12/math-research-public/blob/e0b5d2e2bd559ceb1bceb91ccd75f13593dbf304/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
+本次压缩前H保[f1d20a2e](https://github.com/Rogerhu12/math-research-public/blob/f1d20a2ea8c6f9ecc817692a01aa6fb24be8f747/topics/visible-flex-larger-amplitude/HANDOFF.md)，内链此前完整交接。所有未付责任继续按open推进；不是等待用户确认的阶段停点。
 
 ## 当前公开Actions执行
 
