@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`7ca96ce173f02e6e5d95347be4264ec55db1c38d`；2026-11-20 10:51:29 UTC 实际pull --rebase，两README相对4362733f差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`3a08b864663cc57a5cef3c6f3075f87fdc4e89f1`；2026-11-20 10:56:08 UTC 实际pull --rebase，两README相对7ca96ce1差异为空；下一次最迟一小时内。
 - 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
@@ -22,7 +22,7 @@
 - **原U的t-adic已结束无PASS**：run44716168767/job136220022445/sourcef5f75e1b3，原H/A/B全部Newton残差至4096项通过，但有理候选未恢复，于10:23:30 UTC达精度上限。不是U不存在；不盲目重复，先走下项全局截面分式。
 - **R924截面接口**：[理论/实际回执](results/R924-original-section-divisor-algebras-and-shadow-interface.md)保完整局部环、原射影点/残域/共零及全部consumer尺度。run44720444485/sourceadf27f9ed的TUV job136234503706、DS job136234504131、cusp job136234504114均PASS：同M4三核20；51完整二次双点和全部36cusp及120原点坐标。完整hash见§11–12。
 - **原Y实际PASS**：R924§13，run44721065286/job136236619274/source72187ffc5，完整666格/三退化1,2,4各120秩、原ys全1532核360均过，190.932s；resultf8918b05…c6f720。保SY=2S(u²)、ρ_j及原支。
-- 附A原TUV全DS值run44721641472/job136238600337/sourceeb62d3f8e运行；另请求两真实F/P全PASS鉴定后的原vF与三Yi截面低核（F=A5/(B2 S³)、P=R3/R3），不冒cube根/完整交除子。四大交除子/shadow仍未付。
+- 附A原TUV全DS值已PASS：run44721641472/job136238600337/sourceeb62d3f8e，三222/102/204与全T=−27过，result9d331e26…6d2f09。另请求两真实F/P全PASS鉴定后的原vF与三Yi截面低核（F=A5/(B2 S³)、P=R3/R3），首run44722756798因checkout漏workflow在host前置失败，已补重请求，不冒cube根/完整交除子。四大交除子/shadow仍未付。
 
 
 R880/883全18×9/双轴/原A,C/四完整除子00/01/11/12及返回保；Norm含ell²已过。两原映射证书齐，consumer仍缺完整原函数/闭点接口，尚未请求；真实成本2256+r*dF或2256(r+1)，闭点度数/边界/Artin不删。主目标仍开。

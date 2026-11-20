@@ -706,3 +706,30 @@ $$
 此PASS支付完整原Y的权二格、三退化及ys，不支付任意高权基、完整Y Atkin矩阵或四个大交除子。尤其T=−27处裸六次式退化为(ys²+3)^3，不能将A_DS[ys]的这个裸商冒成真正已正规化的Y纤维。
 
 下一原映射接口现由 `rank2-sha-original-map-sections.yml` 请求：host先亲验R909的F run43906594646/job133436977753和R906的P run44714703201/job136215000168的完整真实PASS/source/hash，stdin送入断网Sage；在同R917完整格上按R881全部低核重新识别原vF和三Yi。F必须准确写成A5/(B2 S³)，P为R3/R3；第三嵌入只用常数Frobenius并另验原第三QY，Artin(2,0,1)保留。此请求只到截面坐标，原cube roots/完整除子/shadow均另待，未写旧shadow-consumer请求。
+
+## 14. 原T/U/V在全部非约化D_S上的实际取值PASS
+
+2026-11-20 10:48:35 UTC，公开 [run44721641472](https://github.com/Rogerhu12/math-research-public/actions/runs/44721641472) / job `136238600337` / source `eb62d3f8e6d347751386025d5d03bb9d2211e26e` 完整成功。r=29，q1208，Sage10.6与同固定镜像；数学时间254.228410579秒。root亲读并独立下载核准完整日志和规范RESULT。
+
+附A全部实际门均通过：T、U、V的完整M6分式核各为222维；全部919/935/1207指数之前的残差为零；每条222到102的原剩余域限制矩阵秩为102。按各原frame指定b/f_j³=1以后，仍是同完整核中的组合，实际得到各自不同的单位分母，剩余仿射维数120。全204维分母乘法矩阵均可逆，三条读出的值本身也都是单位。
+
+每条函数的51个完整四维局部值及其对应原point_id均已实际取得，保留一阶幂零部分；最后在整个204维代数验证T=−27·1。U、V保留其实际向量，不由T的身份将它们设成常数。全过程只用了同R1..R4，三条M6分式的最高全局差帽仍918，未借未认证高权空间。
+
+新任务中重建的完整DS乘法表hash与§12准确相同：`0f4c82cca25bdac41d9ac4e3d3ab0c1980d734736fb3d293b856de4ffa4a6c90`；同原M2 point-id基为 `f8081ec4dae294f54f159869f9986d3c617d1501fb22f1c9133825c71554d58c`。
+
+| 实际对象 | SHA256 |
+|---|---|
+| 完整RESULT | `9d331e26eedc5775ac20a5e91452fecad95be853f2e0c69509cdf90e456d2f09` |
+| 完整job日志 | `eef7d24a70b242b53d7e8dcb3265d4c5c0dfe54df912d9b9f0915cbf58698dfe` |
+| producer | `8ed74700d4478b9c69777109e58ec07216f160a6161a38ea362b67a10b3bb6c6` |
+| 原T全局分式坐标 | `9d348e67239fcd33f31a1e0a27370774382cba3c2a49f5074441aef59a9e7ef7` |
+| 原T全非约化值 | `0b886b77dece1dcff76ef07b79e2172b06aca26e18c202a3a3de7d66eda93c28` |
+| 原T完整乘法作用 | `18996fb24982e52d16573481a2dc99f46ba9e232c7b6583422f98c26188ec3c8` |
+| 原U全局分式坐标 | `2f187f9c6bd44a57647508dfe6c016908cc82988a29f985590368483e9df4e53` |
+| 原U全非约化值 | `87fcc1e767a4d9c10f8be9db0a44c1c1e22790e67cc752c6331bf3a7350085de` |
+| 原U完整乘法作用 | `7cc136da83ed3f123950fe12e9a2f0cf5f85a7e376fbff0887a7f8816413c20d` |
+| 原V全局分式坐标 | `7a4bacd84c35afdc09f089589f95362e7e7ef85291f8ef05d837838f72f6b466` |
+| 原V全非约化值 | `190dd978e8a9099ea0aabdb7c06e8b4f5d362c00b570ab26451140b5f19f938f` |
+| 原V完整乘法作用 | `74be881ad9df4dfd893f136e38e8c3af2b98e3e85becfd6df65e728be31c6ac6` |
+
+这是原TUV在固定完整DS上的实际读出，尚非任意大交除子的全部函数值。原F/P截面reader首run44722756798/job136242404251/sourcea3358c63e0ff1f72bc8da055ebc3f5c703d044f4在host读取workflow源码hash时失败：sparse checkout缺.github/workflows，尚未进入凭据鉴定或数学进程。已补入该目录，保留所有来源/hash检查和数学接受门，重请求原任务；此运行失败不否定已认证P/F。
