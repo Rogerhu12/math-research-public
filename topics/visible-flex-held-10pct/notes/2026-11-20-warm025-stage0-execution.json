@@ -1,0 +1,85 @@
+{
+  "maintenance": "Astra-held10-1b6d88ec-20261120 / geometry_advance",
+  "date_utc": "2026-11-20",
+  "status": "actual_exit0_continuous_stage0_true_metric_certificate",
+  "source": "scripts/resume_m3/certify_q060_stage0_r_quintic.py",
+  "source_sha256": "fccfcd7b412d5a3d7e7a2b1e503753502bcd0d7020e81d29bcc7e059ae1353a7",
+  "frozen_library": "scripts/resume_n4/certify_q060_stage127_r_quintic.py",
+  "library_sha256": "4a2bcb9f9e749ce62663d3b8768029ed7c19cbde03a7068eaab3f6552f36fe94",
+  "bindings": {
+    "data_sha256": "2c0623b00159fdbf4c52f161d1c33068ae425610b0f1fd6bcc278bd1e3b9c662",
+    "packet_sha256": "5936ad766213c5b8aa49dab5898815911280860dbaac34906c6347240f6d2ea8",
+    "checkpoint_sha256": "302662026a7e213647d8bfb2813f970174c8c919bb6f4d406e073ef9f3c110de",
+    "native_record_sha256": "a15afe15bdea350f03ea282c475deece4179f59c72f227b0bac9b5ec00980e7a"
+  },
+  "oracle_provenance": {
+    "definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "constants_sha256": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+    "normalization_certificate_sha256": "0b7222717ce302b6e5d5654a3764f9c75892c9e15c1416cb04bb532cea880598",
+    "kernel_sha256": "b7a8dc501dc3dbbe4ccb14d6b4ea2b4b85849d14b9551a94f5c23798d7985806",
+    "oracle_sha256": "d133b3ed5b9e5b5a8e15e3a6bb49b3969b65abbd77fbb17a9d0af835d28c1901",
+    "interval_digits": 60,
+    "coefficient_tolerance": "1/100000000000000",
+    "variation_tolerance": "1/1000000000000000000000",
+    "normalization_definition": "(rCut - true_r160 - integral_A) / integral_B",
+    "calibration_roots": "The 160 recorded binary calibrationAlpha values, unchanged.",
+    "coordinate": "Original cell/segment/x locator; C2 surface jets use physical R=r(x).",
+    "mean_contract": "Only the rotational background height relative to its cut; no nonrotating mean is supplied or reset.",
+    "finite_oracle_transfer_certified": false
+  },
+  "output_sha256": "dc15bf5a18520590baca931813fa5a47bd322c34062db4143138e4bd7dbe7903",
+  "actual_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "certificate_seconds": 8.427230487999623,
+  "actual_branch": "warm .25 H, M24, depth8, stage0",
+  "source_cover": [
+    0,
+    8,
+    "937499/1000000",
+    "1"
+  ],
+  "cut_radius_matches_true_Rc_exactly": true,
+  "shared_two_jet_scalar_equalities": 14688,
+  "spans": 16,
+  "inner_nonrotating_mean_literal": 3.681589766154052e-07,
+  "outer_nonrotating_mean_literal": 3.681650775547157e-07,
+  "all_Fourier_modes_retained": true,
+  "quadratic_mode_cutoff": 12,
+  "low_quadratic_terms": 13,
+  "rigorous_upper": {
+    "continuous_metric_operator_upper": 6.587612426404962e-09,
+    "principal_curvature_upper": 8.039225762263028,
+    "normalized_first_jet_upper": 0.0010405175208580144,
+    "normalized_covariant_Hessian_upper": 0.022504555626000584,
+    "position_perturbation_upper": 4.2176209173346786e-05,
+    "conditional_radius_upper": 1.3398944230361383
+  },
+  "conditional_support_lower": 0.08889530337433385,
+  "height_window_exact": [
+    "1/10",
+    "32/25"
+  ],
+  "additional_exact_scalar_comparisons": {
+    "metric_below_1e_6": true,
+    "K_below_8p04": true,
+    "radius_below_1p34": true,
+    "support_above_p08889": true
+  },
+  "object": "Same canonical shared physical-R quintic representation as stage127 and deep collar; exact binary nodal parameters; original mean not reset; upper height reflection applied to background and perturbation together",
+  "commands": [
+    "python \"$TOPIC/scripts/resume_n4/extract_q060_stage_from_native_record.py\" --checkpoint \"$M3WORK/newg-wide-lambda0p002-m24-actual/tail_0001.json.gz\" --native-record \"$M3WORK/newg-native-m24/runs/actual-lambda0p002/0009-jac-record.json\" --stage 0 --out \"$WORK/stage0000-saved-native-input.json\"",
+    "node \"$TOPIC/scripts/resume_n4/export_q060_saved_stage_r_jets.mjs\" --input \"$WORK/stage0000-saved-native-input.json\" --out \"$WORK/stage0000-literal-r-data.json\"",
+    "python \"$TOPIC/scripts/resume_m3/certify_q060_stage0_r_quintic.py\" --data \"$WORK/stage0000-literal-r-data.json\" --packet \"$WORK/stage0000-saved-native-input.json\" --constants \"$N4WORK/q060-tail-geometry/constants.json\" --normalization-certificate \"$N4WORK/q060-tail-geometry/tight-integrals-certificate.json\" --library \"$TOPIC/scripts/resume_n4/certify_q060_stage127_r_quintic.py\" --quadratic-mode-cutoff 12 --out \"$WORK/stage0000-shared-r-certificate.json\""
+  ],
+  "new_nonlinear_solves": 0,
+  "unpaid": [
+    "full H response",
+    "whole-tail shared-node coverage",
+    "Cartesian prefix-tail seam",
+    "global closure and full parameter family"
+  ],
+  "data_policy": "Full nodal arrays and exact span output are reproducible scratch only"
+}
