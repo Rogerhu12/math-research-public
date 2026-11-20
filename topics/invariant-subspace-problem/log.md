@@ -615,3 +615,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-general-odd-h
 
 ## 2026-11-20 12:05:33 UTC — Astra-ISP-b2a9acde-20261120：单位3+1全零基点配对支闭合
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-zero-base-pairing-branch-is-empty.md)根核全部被除零因子、完整Gram两独立核及真实形式germ取消；run44732550495原mean/所有jets/两族相容式全QQ通过。12:03:16真实pull两README不变；同批半权与V0正证书分别待独立正式登记。
+
+## 2026-11-20 12:06:07 UTC — Astra-ISP-b2a9acde-20261120：单位3+1完整半权支闭合
+AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-four-unit-three-plus-one-half-isolated-zero-branch-is-empty.md)根核全部例外、正规参数的每个非零分母及无除法两jet相容；run44732550495从原源精确核全部mean/三jets及两个QQ gcd。与已付全p0合并关闭整个半权，继续b≠1/2,p≠0，未扩及其他支撑。

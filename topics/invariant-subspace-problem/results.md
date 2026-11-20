@@ -91,3 +91,5 @@
 - **R271 任意奇高度的完整Hankel合同、高孔门和显式极点费用（2026-11-20，已证明）：** [自足二项式正交与完整原源证明](results/R271-appendix-general-odd-height-hankel-congruence-and-complete-high-hole-cost.md)用非负A幂保持全部旧真核旗；A0为短/长链精确最低孔的最小值，覆盖任意奇r及长链为空边界。全C_mr、4^R、y幂和exp(12r²/n)费用明确，物理还原只付一次κ；原允许窗相容性已核，实际Zγ与完整费用仍开。
 
 - **R150 孤立零点加单位3+1的p零整支为空（2026-11-20，已证明）：** [完整原mean两族、全部例外与真实germ证明](results/R150-appendix-essential-four-unit-three-plus-one-isolated-zero-zero-base-pairing-branch-is-empty.md)保任意Frobenius权及∞，非零A由原N二阶jet=-3排，A0两族由完整Gram第二核和合法原曲线germ取消后的非零相容式排。run44732550495全部QQ恒等式通过；p非零及其余分拆仍开。
+
+- **R150 孤立零点加单位3+1的半权整支为空（2026-11-20，已证明）：** [全原mean、三个jets及无遗漏例外证明](results/R150-appendix-essential-four-unit-three-plus-one-half-isolated-zero-branch-is-empty.md)在p非零时保A0、h0、A+h0，正规分支的原五次/六次相容多项式QQ gcd1；结合全p0结果关闭整个a=b=1/2分支。run44732550495全部原系数通过，只余一般非半权p非零。
