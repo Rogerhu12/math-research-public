@@ -517,3 +517,7 @@ AI-assisted GPT-6 Astra Pro：run44721549495/job136238284100于10:42:57 UTC已�
 ## 2026-11-20 10:48:15 UTC — Astra-ISP-b2a9acde-20261120：全交换子收缩密度与最优成本1
 AI-assisted GPT-6 Astra Pro：原跨头块逐项给第一列真多项式和上三角小量，α_m/β_(N−1)显式衰减使κ降到最优1；同一细头C与有限平均Π的双逼近均有op误差支付。
 正式稿见results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md。根补m≥1以避A0范数等式边界；不宣一般平均连续或全D结果，继续该门。
+
+## 2026-11-20 10:48:42 UTC — Astra-ISP-b2a9acde-20261120：高primitive约束与真实Galerkin残余阶
+AI-assisted GPT-6 Astra Pro：长尾链全秩比较、高primitive支撑和真核分级框架给a_ν孔传播；根核非正交尾投影仅作可行比较，完整H投影与pole逆s次数全部支付。
+证明见results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md。仅固定基准N族的最高t极点系数O阶，移动m常数与两种真实s选择缺口保留；继续强权归一化和多参数预算。

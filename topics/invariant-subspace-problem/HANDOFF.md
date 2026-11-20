@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 9a2438864d44ac440b4ac822c02ccf3092fcbd5f，2026-11-20 10:42:57 UTC，Actions run44721549495/job136238284100；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于11:42 UTC。
-- **最近API同步及规则核对：** `8ddeddf9d4db2683aae525a7e9d470a2160392c7`（2026-11-20 10:48:20 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `2ecb48e6bb3abd62d4a37f3b99a9426afd85b03f`（2026-11-20 10:48:46 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -35,6 +35,7 @@ M=kerT、N=closure BM；N=M未证。保same-w/u、全部partial、真intersectio
 - **[奇高度全MP简单极点](results/R271-appendix-odd-height-highest-carry-full-mp-simple-pole.md)：** 原N/Y、偶R/奇r，偶链使D^(r−1)=D^rP+QD^r，完整物理剪切消最高Boolean项；全逆仅t⁻¹，新增秩全一阶，真核/范围解析。偶r可二阶。
 - **[统一883费用](results/R271-appendix-odd-height-highest-carry-explicit-883-cost-and-d-sized-budget.md)：** a=16^(m−2)、n=2^(m−1)，旧/参考头e^{221a}/e^{441a}，R=d全逆≤t⁻¹exp(883a+21nlog(m+2n))。原−logt主阶1400a；只有另证完整ξ≤Lt²、logL=o(a)才余517a，源条件未付。
 - **[精确源极点](results/R271-appendix-complete-galerkin-highest-carry-pole-and-cancellation-criterion.md)：** K=kerX0，E1=P_kerX0*X1|K，F0=kerE1；E1*q₋₁=P_K(f−H0a0)唯一。q有界恰退化全K-Galerkin解属F0；q=O(t)恰ξ0=0且P_Kξ1=0。固定E不冒充移动谱投影。
+- **[高primitive支撑与原N残余阶](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)已闭。** 尾链l≥d+r−1不新增核约束，故只在起始孔j≥J*；完整物理Galerkin用真核解析框架给a_ν孔级≤1+ν，非正交尾投影只作可行比较。低carry统一缩s时q₋₁=O(s^{(R−5d−r+13)/2})（J*≥1），全pole逆付s^{−(2d−6)}。固定参数O常数/邻域非统一，原移动m两种取s均有缺口，R=d无正阶。
 - **当前主门：** 增长强段的旧carry源残余及真实费用，允许高度/同w倒数和发散、负部返回与全帽逆后误差。G_reg/carry、Haar循环及归档open均继续。
 
 ## 原Deddens与非复制来源

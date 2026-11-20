@@ -342,3 +342,5 @@
 - **R150 单位三jet与双点单零的rankH4为空（2026-11-20，已证明）：** [全mean四式与原最高/第二梯度排除](results/R150-appendix-essential-four-unit-three-jet-double-zero-rank-four-branch-is-empty.md)精确推导N_a及double附加项全含R，分z=0/nonzero关闭全部Gram；非零支两二次因子均与原N/mean矛盾。无CAS或有限域提升，含∞；divisor3+2全部rankH4放置关闭。
 
 - **原完整交换子的收缩多项式密度与最优头成本（2026-11-20，已证明）：** [原跨头块、第一列多项式及显式误差](results/R12-appendix-contractive-polynomial-density-of-full-haar-commutant.md)用α_m/β_(2^m−1)≤exp(−90·16^m/7)控制真实上三角与截断，给{A}'单位球=原多项式单位球SOT闭包；同一细头及Π均强趋X、op差趋零，统一c≤‖X‖最优。加强此前R88/κ界，不将一般平均自动连续化。
+
+- **R271 高primitive新核支撑与统一低carry残余阶（2026-11-20，已证明）：** [完整物理真核解析、源传播和pole费用](results/R271-appendix-high-primitive-support-and-uniform-low-carry-residue-order.md)对l≥d+r−1的尾链秩不降，新增约束只在高初始孔级；完整H-Galerkin系数逐阶保孔传播，非正交链只作可行比较。N族统一低carry缩s时最高t极点系数阶至少(R−5d−r+13)/2（J*≥1），含全部s^{−(2d−6)}逆损失。固定参数O范围，未付移动m常数或实际R=d费用。
