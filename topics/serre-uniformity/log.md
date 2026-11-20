@@ -614,3 +614,7 @@
 ### 2026-11-20 18:20 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R940完整证明原权34全部normal系数/同h第五jet比较；固定f5精确单位条件已含B34，原Γ/Z/u_GF、两权、Norm、相位与a_h全保留。
 - 真J32非零仍要求同标签Legendre和Q′同时非零；一般非零/height未成。新run44718206366已成功，权10双marking及p11窗口接续审登。
+
+### 2026-11-20 18:22 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R941已证明完整SS迹的原CM常数项式，两行统一为原F^p Θ_Q^(r−1)F/Δ^m；全留数与权2整除消项保原点权、Q/Frobenius、d1/cF。
+- 常数项一般非零/高Q′来源桥仍开；未借范数正性或抽象乘性一。独立核读原来源并逐条推送，继续完整Hecke packet与实际sigma比较。

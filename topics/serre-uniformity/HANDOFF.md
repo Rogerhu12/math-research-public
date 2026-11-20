@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)；本次新常数项前逐字状态见[归档](handoff-archive-2026-11-20-before-constant-terms.md)。
 
-**已读规则提交：8b6373545ab4d7e8f1e2e539bc53b85ebc127f40**（2026-11-20T10:21:09.313557+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：1058b35293fd3c734a46a09dcd608065799b8065**（2026-11-20T10:22:38.270022+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端曾失联，R937由公开恢复run44715068884真实pull/push至ba6fe7a2；现已恢复。旧run终态已核实。
 
@@ -22,7 +22,7 @@
 
 完整原pins/尺度/两帧/七重datum及逐项执行身份见[压缩前H](handoff-archive-2026-11-20-before-bounded-weights.md)与其中旧归档；已证文件不变。
 
-已登记完成：R805–883的W/两图/146、418、273jets与254P0参考；R860真cY；R866的127全纯；R894/899/900的原七trace、K固定418与DK272；R901五Z翻转；R902三十共轭；R903五128/400/144与P0帧；R905七连接；R914完整反射与P1jets；R917两端正常order；R923两端272目标267项；R919/922/926/928/930完整Artin微分迹与七目标连接。原char0有理表达未展开处仍未展开，模单位不冒char0阶。
+原Y已登记完整计算R805–930逐项见[本次归档](handoff-archive-2026-11-20-before-constant-terms.md)：W/两图/146、418、273jets/cY/127全纯、七trace/K固定DK272、五Z/两权、三十共轭、七连接及完整Artin微分迹均已成，直接消费，不重算。原char0未展开处仍未展开，模单位不冒char0阶。
 
 [R927参考](results/R927-certified-original-reference-two-endpoint-norm-frames.md)已成，禁止重算：原43922183082核心19stage，success43923552968只IO复用；同λ0=1、块2+6/0+8，Normρ阶−508/0，原t首项466867763/728442038、比315436983，FINAL09de0ae8。参考源267项只取9、254极阶/U272/两t/dual7全保。**该模辅助素数比值不是p-adic高度。**
 
@@ -58,7 +58,9 @@ R913原λ_h对应k−=2p+2−2h，L̄对应k+=2h−p+1；两tame伴随/整Θ/ζ�
 
 [R940](results/R940-original-weight34-critical-source-comparison.md)原顶(35,2)的f5=−270862728/5123589312701234375，单位例外已在B34；完整calibrated log/Norm先消给全部平方比及同h J32非零 iff Legendre·Q′非零。实际临界积仍f_(t+2)g_(t−3)，保Γ/Z/u_GF/两CM权/a_h；一般低Q′仍开。
 
-[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)已证：原H满足固定Jacobi ODE；β=b+4tH、β′=−H/3、全L上β^p=β（Baker原尺度由t0校定）。故R=D^(2N+2)C^(p+1)β^(r−2)无分母；保全点/源比例。r2原C唯一解3tD C″+(2−24t)C′−3C=−sH/9；两行C∈sFp[t]、完整S∈Fp。一般非零/高Q′仍开。run44716895805新原允许p109..1000共48个完整trace皆非零，所有恒等式通过；固定f5已准确算出，SHA与范围见[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)。权34同源比较R940已成。新run44718206366权10双marking行和p11窗口成功，待逐条登记，不外推一般非零。
+[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)：原Jacobi H、β′=−H/3、完整L的β^p=β；R=D^(2N+2)C^(p+1)β^(r−2)。r2原C唯一解3tDC″+(2−24t)C′−3C=−sH/9，两行S∈Fp。run44716895805新原允许p109..1000共48个完整trace皆非零；所有身份/f5/SHA见[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)，有限窗不外推。
+
+[R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)全留数给T=6χ CT(F^(p+1)B^(r−1)/Δ^m)=−χ/[6^(r−2)(r−1)!] CT(F^pΘ_Q^(r−1)F/Δ^m)。保持原Q/Frobenius/全SS权/d1/cF；一般不消和高Q′比较仍开。新run44718206366权10双marking行及p11窗口成功，逐条审登中。
 
 ## 永久关闭边界
 

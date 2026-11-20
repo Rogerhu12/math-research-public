@@ -122,3 +122,7 @@ R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-
 ### R939：全SS分母已消去，原CM常数项仍待非零
 
 [R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)已给原H的固定Jacobi ODE与β′=−H/3；Baker同余及原t0标架校定β^(p−1)=1于完整tH代数，所以原R的b负幂恰为β^(r−2)，r2无分母、r8仅六次幂。原r2 companion C为负右侧−sH/9的唯一二阶多项式解，未换源；独立原phase证明两行trace/S皆在Fp。run44716895805已覆盖109..1000实际允许类48个新素数，全部恒等式通过且完整trace皆非零，六旧p不重复；仍须证明完整trace一般非零及其与指定高层Q′的等同，有限域范数没有正性。
+
+### R941：完整迹已化为同一原CM源的常数项
+
+[R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)通过原P1_u的全部留数，严格保t0权1/非零H根权3/椭圆零项/唯一原cusp，得到T=−χ/[6^(r−2)(r−1)!] CT_Q(F^p Θ_Q^(r−1)F/Δ(Q^6)^((p²−1)/12))。F^p保系数Frobenius，不能无故改F(Q^p)；消B的证明用真实全局Hasse整除及仅一尖点的权2微分。待做是这个特定常数项的全p非零和原高层Q′来源桥；非零泛函、范数叫法与特征零正性都不够。

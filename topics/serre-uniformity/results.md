@@ -24,6 +24,8 @@
 
 - **R940（完整同源比较）**：[原权34低系数与同标签临界源](results/R940-original-weight34-critical-source-comparison.md)。原f5=−270862728/5123589312701234375，固定单位例外已含于B34；保原Γ/Z/u_GF/J32、两个CM权、Norm先消后约化、a_h及平方相位。真临界积f_(t+2)g_(t−3)与Q′_h(0)按原最高项单位精确比较，J32非零当且仅当该同h Legendre与Q′皆非零；未证明这个非零。SHA256 9fdd5966a9d75566d9fc71f2e192920f20bad6afc53f8a81db80dd217b9400d8。
 
+- **R941（完整原源恒等式）**：[全超奇异迹与原CM常数项](results/R941-original-supersingular-trace-and-CM-constant-term.md)。保原全六变量Q、Frobenius相位、全部点权，用原粗曲线全留数定理得T=6χ CT(F^(p+1)B^(r−1)/Δ^m)，进一步准确为−χ/[6^(r−2)(r−1)!] CT(F^p Θ_Q^(r−1)F/Δ^m)。保持原d1/cF；未证常数项一般非零或与高层Q′相等。SHA256 e610bffd51158b1ad2039c222a03a8bc0182f6ea309cc0217b68aac1b6dd0eeb。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
