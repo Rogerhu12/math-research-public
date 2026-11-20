@@ -43,3 +43,7 @@ proof7532B/SHAb69206d0；root/positive_inverse/joint_kernel独核degree32→输�
 ## 2026-11-20：旧flow日志/索引普通历史归档
 
 在fresh 090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf 核四旧path/blob/bytes/SHA，普通删除g0.log、两个同blob index与seed observed_index，gross1059324B。完整restore_commit/path/blob/bytes/SHA见2026-11-20-legacy-flow-log-history-pointers.json；旧成功/失败/原球/参数及嵌套身份逐字保Git历史，不重算。完整75当前输入逐项SHA仍同且无四path直接引用，不宣称全历史无引用；原candidate/native/当前源码不动。公开centre mean新目标44727185157/1运行中。
+
+## 2026-11-20：准确残差输运、固定内点和完整能量缺陷
+
+proof11269B/SHA9610799407861a9f7c5eca250c9c3370975219879f088b479c7f0e36371ae31d。root与joint独立核D²Psi的完整mean/primitive、epsilon共同角导、H守恒输运、C4/reflection环境均值、修正能量各符号及H^-1/2 Fourier估计；固定p=e_z/2与新outer初值常数10和1/20000均由同实际support/外锚重付。没有令H=0，未将辅助旋转当原radial变分，hybrid差未删；内端型/Grushin体控制/实际残差吸收继续未付。0科学数值。

@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138准确残差输运与固定内点](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)：同Qrepair取固定p=e_z/2得全域support>2/5、|F−p|<222/125；重付外端初值常数10与1/20000。Hessian共同角输运纳入辅助旋转后，H满足无方向角导源的守恒输运式；完整均值、修正能量及H^-1/2费用保留。C4/反射消环境均值；实际内端正型/最终吸收仍待。
+
 - [R139实际完整中心下界与固定配方排除](results/R139-supplement-actual-complete-centre-mean-floor-excludes-fixed-recipe.md)：44727185157/1成功、75输入/25AST/27门，全部155panel给有向J_lower≈6409.59094，故K>80，严格排除要求K<1/128的原小中心配方。独立1条冻结；原3/50已成、余47不再为此配方计算。不推真实奇异，继续直接逆和几何能量。
 
 - [R139完整中心均值原子下界](results/R139-supplement-complete-joint-centre-mean-atom-lower-bound.md)：degree32支持使纯mean输入的整个CFB严格0，原root-mean atom核恰−a00/q，因此完整有限接收器中心K²≥∫|a00/q|²dr。一个全155panel下界达到1/16384即排固定小K配方，不排实际逆；新75输入/一lower目标首次Actions，数值未得。

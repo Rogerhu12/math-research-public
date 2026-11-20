@@ -182,3 +182,5 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 [实际support补篇](results/R138-supplement-actual-positive-support-for-repaired-physical-frame.md)已支付上述support：同固定η0/ν0、同全圈周期外端锚、全[0,25/8]的Qrepair物理径向frame有F·n>9/10、|F|<319/250；旧证书只读复用。继续支付实际193+high端点型、初始角缺陷与残差吸收，未完成的GC/外帽世界匹配不因此消失。
 
 [actual outer能量补篇](results/R138-supplement-actual-outer-rotation-energy-and-mean-defect.md)已支付真实全频外端负型及mean初始角缺陷，并识别原Qδ零stable齐次核的H^1/6外迹。现在须代入真正inner low even96=0、high stable的M^(1/3)(−J h1)+h2=0及独立mean；不能改成physical c=0。内部残差吸收、一般粗源常数、hybrid与真DF的差源仍保留。
+
+[残差输运补篇](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)已将D²Psi[R,h]唯一方向角导−epsilon x_theta纳入辅助Vomega，得到H_r+partial_theta(epsilon H)=S且S无方向角导；同一固定p=e_z/2给support>2/5并重付outer常数。完整修正能量及保守H^-1/2输运界已证，仍须实际inner全角型和体能量控制W=L2H1/2后完成吸收；不能免费替换hybrid与真DF。
