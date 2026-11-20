@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 12:31 UTC，真实pull/rebase至 `49cdd2de72ca0d338c440d013736e66e46afe5b8`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 12:31 UTC，真实pull/rebase至 `c0d0bfce76eee48791e7f2be720f0d01a75942e3`，双README相对上次已读无差异。
 
 公开仓库内工作；终端git普通push，每条结论推一次，NFF立即pull/rebase再推。至少每小时pull；每次查根/本题README差异，变更立刻读/执行。根README已授权必要修改/发布。根唯一git writer，代理只work/小blob。raw只scratch；Git/Release/artifact只保完整小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
