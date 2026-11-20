@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`0e23c53794c24e39559e8dede6a4c9b5b5722665`；2026-11-20 15:02:45 UTC 实际pull --rebase，两README相对3d3fae54差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`ca7ac6a6e1e56427795c8ed46ddb0d87eeed631f`；2026-11-20 15:12:47 UTC 实际pull --rebase，两README相对0e23c537差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。规则已读未变。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-low-P-public-gate.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-native-degree-fix.md)逐字保全部旧条件、源/run/hash及归档链；入口[results](results.md)、[R901–950索引](notes/PROOF-INDEX-R901-R950.md)、[open](open.md)；旧已付项的完整链接保该检查点。root唯一metadata/ref写者并整合公开门；global续原ordinary/global底，deep续同P真实forcing，theta续四指定中央/边界并交叉审源码。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -25,7 +25,7 @@
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 
-R931§1–10同原E完整厚Tate/Miller/π层Norm保全度及18×9。独立32源run44747799006/job136327515753/source632cef5af仍运行；先核双图1530长/非Fp范数，再付全E/trace，无新PASS。全部基础/上层源hash和六类长度门见原节。
+R931§12：Artinian44747799006/job136327515753/source632cef5af于14:57失败，maps全过但Givaro.absolute_degree缺API，1530/非Fp预门未开始。已以同域degree+card=p^degree修基础/闭点/最终Tate，原κ/嵌入/厚度全保；完整log/hash在原节，四入口修正来源独立继续。
 
 ## 第二门：原全局底、ordinary与增广阶
 
@@ -39,9 +39,9 @@ R921原残余H¹=提升L/连接C，j_*=diag(u,0)、cor=diag(0,1)；m≤e=v_p(q+1
 S34/T72/U136/V66、CM13/Euler/Schwartz/p²p³与通常全Selmer不变；固定E−11 rank≥2已付，仍缺同一无穷p集的原J′非零。C24三行/c*全保；R863/876/879/884的低配对保特征零Ĉp/DR3/Γ16/Fermat，质量unit不替四B非零。
 R887全运输/α/五窗及C³η[2]精确式、带权伴随和DRν保持；质量再Cartier零不能删四方向。R912原[p]完整两位/严格窗和真除p²保，仍缺中央⇒全边界。
 R915附A/B的原ζ/ψp/Φp两位与Lucas严格整窗保；a_j整到p²−p−1，首后项v=−2且p²a_N≡−pc。全C_r,k/Vc反馈及新窗输入门见原文。
-R923补全V66 Hall迹与固定分母154224，原Galois/物理−17/11保。连R707/708的m34/72/136，四来源全迹工具齐：非零迹赋值≤3/4+o(1)，边界零iff约3p/4个原Gaussian块modp全零。真实z^(dh)=w^(sh)窗仍O(p²)，五块不替全窗；原中央只给保真实除p商的部分和，中央到边界及无穷联合非零仍开。
+R923四全迹接口及V66分母154224已付：非零迹赋值≤3/4+o(1)，全边界零iff约3p/4原Gaussian块全零。原中央仅保真除p部分和；O(p²)真实窗及中央⇒全边界/联合无穷非零仍开。全部物理尺度/相位见原节。
 
-R929全n<p²单位积/原g两位/Fermat2真carry已付。R933及附A从原σ倍点与H/W全付f_p、四第六块和L5 modp7，五块p^(7−h)/γ p6/r0真除p端点保。实际E_p=4γ^6jS−(4γ)^6jU；规范2的K6真carry相消，不能单独用−9/35迫非零，中央⇒边界仍开。
+R929三带/单位积/原g两位与R933附A真L5 modp7已付；五块p^(7−h)、γ p6、r0先除p保。E_p=4γ⁶jS−(4γ)⁶jU，规范2的K6全carry相消，不能借−9/35单独迫非零。
 
 ## 第四门：同P/R/S的真实forcing
 
@@ -69,4 +69,4 @@ R936在K+e₊>3κ、2≤τ≤d₀+1给全T_J真左行，指定B∈H3时值−11U
 
 R937附A/B已付全部同q native Y_j（1≤j≤d₀−1）对这些固定行的零响应；β₁仍非零。给定H3加该族的陪集还可用J>3κ，或高τ的J+e₊>3κ且n+e₊>2κ：全真列构造左行、保H₊相继除F，仍读原单位并杀任意G₀后的全H1。其它WD的有限交点类定位正在继续。
 
-R925§25.1原P152全核两图零极读者已接独立30源公开门；真实P-only六pair保原embedding flag=False，全核第一向量与实际y双图返回，两个2256/所有余行/完整boundary保。helper e2891650，三方静核无数学执行，待实际run；不代F/四E/shadow。
+R925§25.1六P30源入口run44759336052/job136367382447/sourceda34ea30a于15:02启动；继承旧degree API错，取消接口403所以仍运行。修正源独立继续；真实P-only flagFalse/full152/双图零极2256/全部余行和boundary保，无PASS。

@@ -223,7 +223,7 @@ R928/R934保真除p商与B给固定P全局coker类；同H1只付选定行，受�
 
 ## R931：完整厚代数的原Tate求迹
 
-R931§1–10完整厚范数方法、基础和上层均已独审接源；原六类全长度/曲线/双aux双chart/每line单位/原k所有π层及18×9保。独立run44747799006/source632cef5af先核两原图1530与非Fp范数，后付四E/trace；仍在运行，无新PASS。
+R931§12：Artinian44747799006在完整maps后因原Givaro缺absolute_degree失败，1530/非Fp预门未开始。基础/闭点/Tate现用同域degree+card=p^degree保绝对次数及全部原嵌入；四入口修正源独立继续。首六P44759336052继承旧错，取消API403，仍保原source；无新范数/完整除子/trace PASS。
 
 ## R932：同源尾调整的完整normal回传
 

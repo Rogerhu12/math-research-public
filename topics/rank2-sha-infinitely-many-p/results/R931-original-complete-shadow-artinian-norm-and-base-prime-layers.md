@@ -369,3 +369,23 @@ $$
 原完整R-module的Smith因子乘积为d=det H_I，故完整厚范数仍是Res(d,c)，无须全商循环或实际计算Smith分解。gcd(c,d)=1准确支付单位门，原k、omega、所有重复因子和全长度保持。只有真实值仍不在R·1+I时才回原所有π层；这种miss不认证单位，原fallback的错误保留。
 
 独立helper已更新至SHA256 `d5d1761bbf63f6a558b71d9d7fd2cd165bd1576c3c3400737be62011e10138ed`，原版b3b2bfc2仍由§11及git历史标识。root/global全文核增量、仅AST；未接当前32源consumer或触发重跑，没有新数学/性能PASS。
+
+## 12. 真实运行故障及原native域的绝对次数兼容门
+
+§10的 run44747799006/job136327515753 已在14:57 UTC失败：
+同source632cef5af完成了完整maps，随后固定Sage10.6的原Givaro域
+在基础初始化 `absolute_degree()` 处报 AttributeError。
+原1530长度/非Fp厚范数预门未开始，不能登记其PASS；
+完整原始日志和实际maps回执hash见
+[故障、完整修复证明和全部源码hash](../notes/2026-11-20-original-native-field-degree-compatibility.md)。
+
+现对同一个实际native域用 degree=n 与cardinality=p^n共同认证绝对次数，
+保原k二次性、所有相对剩余次数、实际两向域映射/omega及Frobenius指数。
+基础工具当前源为 `f604ae5f862519f5ccdce609a78ef05866fd85ae81ea699fb1de06f47b550714`；
+闭点读者及最终Tate层相同接口也完整修正。没有放宽成相对degree检查，
+没有改变任何原域或删掉完整k长度门。
+
+六P首run44759336052/source da34ea30a也依赖旧门；取消接口返回403，
+旧实例并未成功取消。修正来源以独立固定组继续，所有旧source及回执保留。
+新Artinian、Tate、closed/local、六P公开入口将实际重走各自完整门；
+静态检查和新启动均不代原范数、四E、trace或shadow PASS。

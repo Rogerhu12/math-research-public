@@ -478,3 +478,5 @@
 - [R926§11](results/R926-original-cube-roots-in-sections-and-complete-identities.md)：run44732115204/job136274270348/source192c28161，全部低核84/76/74/74、新旧1633/1429交叉、七椭圆与原W/常数反射完整身份均过；结果b0ea1bc1…777235。全pole/E/trace仍未算，不换ordinary或无穷p。
 
 - [R925§25.1](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原P完整低核零极读者已接独立30源公开门；真实P-only六pair保原flag=False，原函数/全152/两个2256与全部余行/完整boundary保。r29/q2453/batch64/minimal固定，无本地数学或新PASS，旧所有运行继续。
+
+- [R931§12](results/R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)：实际Artinian在完整maps后触Sage10.6原Givaro缺absolute_degree；修同域degree+card=p^degree并保全κ次数/双向嵌入/Frobenius。基础/闭点/Tate与四入口源hash、失败日志和取消403记录齐；新来源独立继续，无预填范数或shadow PASS。

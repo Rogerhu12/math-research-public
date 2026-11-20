@@ -102,7 +102,10 @@ class OriginalArtinianNormTools:
         assert self.R.base_ring() is self.k
         assert self.engine.chart["constants"] is self.k
         assert int(self.k.characteristic()) in (29, 41)
-        assert int(self.k.degree()) == int(self.k.absolute_degree()) == 2
+        # The pinned Sage 10.6 Givaro field exposes degree(), not the newer
+        # absolute_degree() alias.  The cardinality identity below also
+        # rejects a relative degree mistaken for the absolute degree.
+        assert int(self.k.degree()) == 2
         assert self.k.cardinality() == self.k.characteristic()**2
         assert original_omega.parent() is self.k
         self.omega = original_omega

@@ -35,9 +35,27 @@ def _progress(stage, **data):
           canonical(dict(stage=stage, **data)), flush=True)
 
 
+def native_absolute_degree(field):
+    """Certify that degree() is the absolute degree of this SAME native field.
+
+    Sage 10.6 native Givaro fields do not expose absolute_degree().  A
+    polynomial quotient tower can instead report a relative degree here, so
+    never accept degree() alone or replace the supplied field/embedding.
+    The cardinality identity rejects such a relative-only degree and fixes
+    the exact number of prime Frobenius compositions and native coordinates.
+    """
+    degree = int(field.degree())
+    characteristic = ZZ(field.characteristic())
+    assert degree >= 1 and characteristic > 1
+    assert field.cardinality() == characteristic**degree, (
+        "Expected the original native absolute finite-field model; "
+        "degree() is not its degree over the prime field.")
+    return degree
+
+
 def native_matrix_digest(M):
     k = M.base_ring()
-    assert int(k.absolute_degree()) == int(k.degree())
+    native_absolute_degree(k)
     result = hashlib.sha256(canonical({
         "encoding": "original-native-finite-field-matrix-v1",
         "field": field_description(k),
@@ -78,7 +96,7 @@ class ActualFiniteFieldQuotient:
         self.polynomial = self.P(polynomial).monic()
         self.relative_degree = int(self.polynomial.degree())
         assert self.relative_degree >= 1 and self.polynomial.is_irreducible()
-        assert int(self.base.absolute_degree()) == int(self.base.degree())
+        base_absolute_degree = native_absolute_degree(self.base)
         self.tag = str(tag)
         if self.relative_degree == 1:
             self.field = self.base
@@ -98,9 +116,9 @@ class ActualFiniteFieldQuotient:
             # when that base is the prescribed quadratic constant field.
             a = self.base.gen()
             assert self.backward(self.forward(self.quotient(a))) == self.quotient(a)
-        assert int(self.field.absolute_degree()) == int(self.field.degree())
-        assert (int(self.field.absolute_degree()) ==
-                int(self.base.absolute_degree())*self.relative_degree)
+        field_absolute_degree = native_absolute_degree(self.field)
+        assert self.field.characteristic() == self.base.characteristic()
+        assert field_absolute_degree == base_absolute_degree*self.relative_degree
         assert self.field.cardinality() == self.base.cardinality()**self.relative_degree
         assert self.reduce(self.polynomial) == 0
         assert self.lift(self.root) == self.P.gen() % self.polynomial
@@ -224,7 +242,7 @@ class OriginalSmallResidualAlgebra:
             # actual Fp2 coefficients contract in its native 1,generator basis.
             fp, operators = self._certified_prime_operators
             value = self.element(value)
-            absolute_degree = int(self.k.absolute_degree())
+            absolute_degree = native_absolute_degree(self.k)
             assert absolute_degree in (1, 2)
             components = [matrix(fp, self.dimension, self.dimension)
                           for _ in range(absolute_degree)]
@@ -290,7 +308,7 @@ class OriginalSmallResidualAlgebra:
         assert int(self.base_extension.relative_degree) == 1
         assert bool(source["infinity_chart"]) == self.engine.infinity_chart
         assert int(fp.cardinality()) == self.p
-        assert int(self.k.absolute_degree()) in (1, 2)
+        assert native_absolute_degree(self.k) in (1, 2)
         assert len(operators) == 306
         assert all(M.base_ring() == fp and M.nrows() == M.ncols() == 306
                    for M in operators)
@@ -384,7 +402,7 @@ class OriginalSmallResidualAlgebra:
                           same_original_field_embedding=True)
         phi = self.k.frobenius_endomorphism()
         assert vector(self.k, [phi(a) for a in self.unit])*B == self.unit
-        exponent = int(self.k.absolute_degree())
+        exponent = native_absolute_degree(self.k)
         original_exponent = exponent
         accumulated, bit = (0, self.standard), (1, B)
         steps = []
@@ -758,8 +776,8 @@ def decompose_complete_primary_block(engine, ideal, prime_polynomial, registry,
         relative_degree = int(component["relative_residue_degree"])
         point_degree = int(fiber.pi.degree())*relative_degree
         native_field = component["residue_field"]
-        assert int(native_field.absolute_degree()) == (
-            int(engine.k.absolute_degree())*point_degree)
+        assert native_absolute_degree(native_field) == (
+            native_absolute_degree(engine.k)*point_degree)
         maximal = _whole_maximal_ideal(
             fiber, component, label + ": actual maximal ideal " + str(j))
         point, new_point = registry.register(engine, maximal, {

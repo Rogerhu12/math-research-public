@@ -177,7 +177,9 @@ def complete_original_pair_shadow(context, item, torsion, local_readers,
                     residue_field = point["native_residue_field"]
                     embed_base = point["original_constant_embedding"]
                     assert residue_field.cardinality() == ZZ(r)**(2*degree)
-                    assert int(residue_field.absolute_degree()) == 2*degree
+                    # This is the actual native absolute field; the preceding
+                    # full cardinality equality excludes a relative model.
+                    assert int(residue_field.degree()) == 2*degree
                     assert embed_base(field.one()) == residue_field.one()
                     omega_residue = embed_base(six["omega"])
                     assert omega_residue**2+omega_residue+1 == 0

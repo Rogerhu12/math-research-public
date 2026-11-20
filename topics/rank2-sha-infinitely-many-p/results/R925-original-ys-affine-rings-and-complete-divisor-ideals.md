@@ -1231,3 +1231,10 @@ batch64/minimal 与固定 Sage10.6 镜像保持。host/producer 两份显式
 
 workflow 为新的独立固定组且 cancel-in-progress=false；本次接源不取消
 或修改旧运行。实际建立的 run/job/source 随后补记；启动和静审都不是 PASS。
+
+首实际六P入口为 run44759336052/job136367382447，source
+`da34ea30adb8e8a8f9e6e898d2f5f3ff559fe23e`，15:02:53 UTC启动。
+随后先前Artinian任务的完整日志暴露共同原有限域初始化API错误；
+本首实例的取消请求返回403，仍保原来源。修复同域degree/cardinality门、
+当前四个入口hash及精确边界见[R931§12](R931-original-complete-shadow-artinian-norm-and-base-prime-layers.md)
+和所链完整记录。修正六P入口独立继续，不将启动、取消尝试或源码修复当作PASS。

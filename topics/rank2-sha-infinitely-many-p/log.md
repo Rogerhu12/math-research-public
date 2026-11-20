@@ -85,3 +85,5 @@
 - 2026-11-20 14:59:25 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R926§11登记原紧缩/完整maps真实PASS即推，核公开run/job/head及完整原始日志、三个JSON哈希；全交叉、七椭圆与反射身份齐，未误报完整pole/E/trace。先归档再更新H/open，继续六P完整除子门。
 
 - 2026-11-20 15:02:36 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R925§25.1六P完整除子独立公开入口接源即推；同30源/固定两PASS/真实P-only模型与所有全核/两符号/边界返回已逐段核，只有AST/JSON/YAML，无预填PASS。H/open先完整归档，继续实际运行及其它原全门。
+
+- 2026-11-20 15:12:19 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：R931§12登记实际API失败并修复即推；完整maps过、1530范数预门未开始，精确日志/hash已核。同原native degree/cardinality保全部绝对κ及Frob，四入口修正源继续；首六P取消API403未成功，不谎报停机或PASS，H/open先完整归档。
