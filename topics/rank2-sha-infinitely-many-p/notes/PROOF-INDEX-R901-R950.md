@@ -77,3 +77,5 @@
 - [R924§11](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原TUV同完整M4分式实际PASS，run44720444485/job136234503706/sourceadf27f9ed，22.868秒；全0..715/731/1003、三核均20，分母∞阶1/17/289，原全局身份准确。result2eeb9e3e…ae5657。DS/cusp仍运行；Y全666维/三退化/ys前端另请求，原shadow未算。
 
 - [R924§12](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原D_S及全36cusp实际完整代数PASS，同run44720444485/jobs136234504131/136234504114，246.764/111.467秒。204维完整非约化乘法/51二次双点、36维全cusp及其1,1,1,1,16,16剩余次数、全部原120射影坐标/点轨道均实际过；result9046706e…144b63/3c5cab06…0f833bb。附A单位分母读取与Y前端继续，原四大交除子/shadow未付。
+
+- [R924§13](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原Y完整666维M2/1225忠实整格与1532高窗、三退化全120秩/j=1,2,4及ρ_j、原ys全1332×1532核360实际PASS，run44721065286/job136236619274，190.932秒；resultf8918b05…c6f720。两原F/P真实PASS鉴定后的截面低核已请求，cube根与四交除子仍未付。

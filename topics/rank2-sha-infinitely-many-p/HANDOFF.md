@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`4362733fb1076d85ee9ebf44beee26ef24cee79c`；2026-11-20 10:43:24 UTC 实际pull --rebase，两README相对9a243886差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`7ca96ce173f02e6e5d95347be4264ec55db1c38d`；2026-11-20 10:51:29 UTC 实际pull --rebase，两README相对4362733f差异为空；下一次最迟一小时内。
 - 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-after-original-P-before-section-algebras.md)逐字保存P认证后全部条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者；当前并行原截面闭点：deep_forcing做Y全格/三退化，global_selmer做D_S全代数，theta_nonvanishing做原函数/局部读取证明。四主门仍全部保留。R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-after-complete-section-algebras.md)逐字保存DS/cusp认证后全部条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者；当前并行原截面闭点：deep_forcing做Y全格/三退化，global_selmer做D_S全代数，theta_nonvanishing做原函数/局部读取证明。四主门仍全部保留。R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：原映射、完整函数域RR、原shadow
 
@@ -20,7 +20,10 @@
 - **旧函数域RR未PASS**：306/eta48/fricke24/tate24/tate19/R910/R919/R922均未过全末端。全部卡点/源/hash见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。修复后的quotient-only run44713040079/job136209307176仍运行，原D直接正规化/九尖点/Au/Av/branch/D0未PASS；不冒U/RR。
 - **R917全局q格已PASS**：run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；原ℓ29/120×205完整QQ基、单位子式/整变换/全约化秩/同S全过，result5a1d6494…eb663b。仅完整L(DS)/忠实jets，degree48坐标/闭点/四块接口未付。
 - **原U的t-adic已结束无PASS**：run44716168767/job136220022445/sourcef5f75e1b3，原H/A/B全部Newton残差至4096项通过，但有理候选未恢复，于10:23:30 UTC达精度上限。不是U不存在；不盲目重复，先走下项全局截面分式。
-- **R924已证**：[完整截面除子代数与原接口](results/R924-original-section-divisor-algebras-and-shadow-interface.md)。同R917全格/真实乘法保每闭点、非约化长度、原射影坐标、局部参数及共零。D_S是51个二次双点，cusp为4个一次+2个16次；TUV同M4分式的完整窗到1003。原Y全格666维/三退化权j^m及分母ρ_j、原ys恢复与全consumer尺度均保。**TUV实际PASS**：run44720444485/job136234503706/sourceadf27f9ed，22.868s、三完整核维20，result2eeb9e3e…ae5657，详§11。**DS/cusp亦PASS**：同run/jobs136234504131/136234504114，全部51二次双点与36cusp及原120射影坐标全过，result9046706e…144b63/3c5cab06…0f833bb，详§12。附A原TUV全DS值新请求；Y run44721065286运行。四大交除子/shadow仍未付。
+- **R924截面接口**：[理论/实际回执](results/R924-original-section-divisor-algebras-and-shadow-interface.md)保完整局部环、原射影点/残域/共零及全部consumer尺度。run44720444485/sourceadf27f9ed的TUV job136234503706、DS job136234504131、cusp job136234504114均PASS：同M4三核20；51完整二次双点和全部36cusp及120原点坐标。完整hash见§11–12。
+- **原Y实际PASS**：R924§13，run44721065286/job136236619274/source72187ffc5，完整666格/三退化1,2,4各120秩、原ys全1532核360均过，190.932s；resultf8918b05…c6f720。保SY=2S(u²)、ρ_j及原支。
+- 附A原TUV全DS值run44721641472/job136238600337/sourceeb62d3f8e运行；另请求两真实F/P全PASS鉴定后的原vF与三Yi截面低核（F=A5/(B2 S³)、P=R3/R3），不冒cube根/完整交除子。四大交除子/shadow仍未付。
+
 
 R880/883全18×9/双轴/原A,C/四完整除子00/01/11/12及返回保；Norm含ell²已过。两原映射证书齐，consumer仍缺完整原函数/闭点接口，尚未请求；真实成本2256+r*dF或2256(r+1)，闭点度数/边界/Artin不删。主目标仍开。
 
