@@ -4,24 +4,15 @@
 
 证明绝对C使全部无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)；权34登记前逐字状态见[本次归档](handoff-archive-2026-11-20-before-weight34-normal.md)。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 从远端main接续serre-public-astra-20261115，已部分克隆并真实pull；不重做已登记结论。接手前完整状态见[前H](handoff-archive-2026-11-20-before-resume.md)；本次新常数项前逐字状态见[归档](handoff-archive-2026-11-20-before-constant-terms.md)。
 
-**已读规则提交：ee707acb755974ec9a3e4cb8c6f60e565dc6df27**（2026-11-20T10:09:56.863165+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：35e61165c2d55a6e8cd17593af338dd7e491d88b**（2026-11-20T10:19:02.518949+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
-每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。09:48UTC环境曾unavailable；R937以公开恢复run44715068884真实pull/push至ba6fe7a2。终端现恢复，继续实际pull/rebase/push，PAT不入文件。旧run终态已核实。
+每结论立即推；每push前且至少每小时真实pull，NFF立即pull --rebase再推至成功，禁force。每pull比两README，有变只读diff即遵守并记H。PAT仅CLI，root独占main。新数学仅本公开Actions，外部仅纸证/IO/schema/hash/AST；raw仅当前必要一日artifact，不入Git/Release。H<10KB/open<30KB/每MD<100KB/topic<200MB；日志Asia/Taipei≤5行，无独立测试门。终端曾失联，R937由公开恢复run44715068884真实pull/push至ba6fe7a2；现已恢复。旧run终态已核实。
 
 ## 本次核实的旧任务终态
 
-2026-11-20六run均completed/failure，artifacts列表均空；保留日志与来源哈希见[恢复核查](notes/2026-11-20-resumption-and-run-availability.md)。前次完整pins/有效断点见[前H](handoff-archive-2026-11-20-before-resume.md)，不臆填新进度。
-
-|任务|最后run|实际终态|
-|---|---|---|
-|R787 primal原670后|43912581432|complete=false，退出1；曾上传14275737009，现不可列出|
-|R824原693后|43912577191|runner shutdown143，无新产物|
-|R854 N224|43921950983|预算124，1625已成stage；四响应/height仍false|
-|R787半dual原638后|43923558852|failure；job日志404，未推断原因|
-|R815原Γ586后|43908105148|complete=false；曾上传14274072540，现不可列出；g696不重|
-|R907 j1|43924786163|KeyError configuration_sha256，止于core前；无新数学|
+六个旧run终态全部completed/failure且无可列artifact，真实失败点逐项已核实，见[恢复核查](notes/2026-11-20-resumption-and-run-availability.md)及[逐字归档](handoff-archive-2026-11-20-before-constant-terms.md)。R907原run43924786163止于core前KeyError；未臆填新数学进度。
 
 [R907源schema已修](notes/R907-inherited-transport-configuration-repair.md)；四原artifact实测404，request标待原字节；core未跑，摘要不代数组。新理论接R932全SS和源比较、R929同h偏移；公开Actions检测偏移原非零目标，旧完成结论不重跑。
 
@@ -65,7 +56,7 @@ R913原λ_h对应k−=2p+2−2h，L̄对应k+=2h−p+1；两tame伴随/整Θ/ζ�
 
 [R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)已证（p不整除B34）：原b0=34(p−1)，完整inertia与两节点整极界排除低层x^p/x^(2p)，首层也排隐形p/2p极项。真首函数κx^(g−3)y，β/α=35A0/34；J=(p−35)/6，p^−a_h G_h整restricted且modp次数J、最高项单位。保原ε/a_h；低Q′与同h临界积仍开，下一项接top(35,2)的准确f5单位常数。
 
-[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)已证：原H满足固定Jacobi ODE；β=b+4tH、β′=−H/3、全L上β^p=β（Baker原尺度由t0校定）。故R=D^(2N+2)C^(p+1)β^(r−2)无分母；保全点/源比例。r2原C唯一解3tD C″+(2−24t)C′−3C=−sH/9；两行C∈sFp[t]、完整S∈Fp。一般非零/高Q′仍开；新Actions请求109..1000实际允许新素数，且计算权34固定f5，尚待回执。
+[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)已证：原H满足固定Jacobi ODE；β=b+4tH、β′=−H/3、全L上β^p=β（Baker原尺度由t0校定）。故R=D^(2N+2)C^(p+1)β^(r−2)无分母；保全点/源比例。r2原C唯一解3tD C″+(2−24t)C′−3C=−sH/9；两行C∈sFp[t]、完整S∈Fp。一般非零/高Q′仍开。run44716895805新原允许p109..1000共48个完整trace皆非零，所有恒等式通过；固定f5已准确算出，SHA与范围见[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)。权34同源比较续接。新请求仅权10双marking新Hecke行及p11中央/三分位窗口，待run回执。
 
 ## 永久关闭边界
 

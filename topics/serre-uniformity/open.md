@@ -117,8 +117,8 @@ R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-
 
 ### R938：权34原normal层已关闭，低系数仍开
 
-[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)保持原UV=επ^12、整completed Hom、所有完整inertia与Tate index，已证明b0=34(p−1)、真κx^(g−3)y及primitive calibrated多项式次数J。低层极界可超过p，所需x^p/x^(2p)已逐一角色排除；首层p/2p不可见极项亦已独立排除，禁止重复这两障碍。待做：原顶配对(35,2)的f5准确非零/固定坏因子，以及原第五jet中同h的f_(t+2)g_(t−3)与Q′比较。
+[R938](results/R938-original-weight34-normal-function-and-inertia-exclusion.md)保持原UV=επ^12、整completed Hom、所有完整inertia与Tate index，已证明b0=34(p−1)、真κx^(g−3)y及primitive calibrated多项式次数J。低层极界可超过p，所需x^p/x^(2p)已逐一角色排除；首层p/2p不可见极项亦已独立排除，禁止重复这两障碍。原顶配对(35,2)的f5已在run44716895805准确求出，p≥41的单位例外为41/71/3877，见[回执](notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md)；待做原第五jet中同h的f_(t+2)g_(t−3)与Q′比较。
 
 ### R939：全SS分母已消去，原CM常数项仍待非零
 
-[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)已给原H的固定Jacobi ODE与β′=−H/3；Baker同余及原t0标架校定β^(p−1)=1于完整tH代数，所以原R的b负幂恰为β^(r−2)，r2无分母、r8仅六次幂。原r2 companion C为负右侧−sH/9的唯一二阶多项式解，未换源；独立原phase证明两行trace/S皆在Fp。新计算只取109..1000实际允许类，六旧p不重复；仍须证明完整trace一般非零及其与指定高层Q′的等同，有限域范数没有正性。
+[R939](results/R939-original-Jacobi-Hasse-and-denominator-free-supersingular-trace.md)已给原H的固定Jacobi ODE与β′=−H/3；Baker同余及原t0标架校定β^(p−1)=1于完整tH代数，所以原R的b负幂恰为β^(r−2)，r2无分母、r8仅六次幂。原r2 companion C为负右侧−sH/9的唯一二阶多项式解，未换源；独立原phase证明两行trace/S皆在Fp。run44716895805已覆盖109..1000实际允许类48个新素数，全部恒等式通过且完整trace皆非零，六旧p不重复；仍须证明完整trace一般非零及其与指定高层Q′的等同，有限域范数没有正性。

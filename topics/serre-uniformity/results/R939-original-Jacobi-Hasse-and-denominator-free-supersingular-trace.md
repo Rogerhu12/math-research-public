@@ -264,4 +264,4 @@ R932's still missing comparison with R925's $Q'_h(0)$ is not supplied here. The 
 - [R913](R913-original-Igusa-Cartier-functional-and-two-CM-companions.md): original same-label CM companions and fixed oldform phase.
 - Andrew Baker, *A supersingular congruence for modular forms*, Acta Arithmetica 86 (1998), 91–100, Proposition 1.3 and Theorem 1.4; [author PDF](https://www.maths.gla.ac.uk/~ajb/dvi-ps/modforms.pdf). His derivation is twelve times the Serre derivative used here, and his $B$ is $E_{p+1}$, twelve times the present $\mathcal B$.
 
-All new calculations above are displayed paper algebra; no new finite-prime arithmetic has been run.
+The proof above consists of displayed paper algebra. Its later public computational check is recorded in the [2026-11-20 receipt](../notes/2026-11-20-R939-window-and-weight34-sigma-receipt.md): run `44716895805` checked all 48 new original admissible primes between 109 and 1000, with every asserted identity verified and no zero full sum. This finite window is not a uniform nonvanishing theorem.

@@ -3,30 +3,31 @@
     "root": "581402c2148ee8c4ee2af741198ab54a56d71de2b5a7b0d0edf65359121cb102",
     "topic": "35f82f3d96f1e07d1b7c3f0320398fdc0cd68d0c0e55ac17881c9f976299646d"
   },
-  "rules_last_read_commit": "56660f41d85d9b79c54f66f89b423b0c8551c82d",
+  "rules_last_read_commit": "7843407c2633ffd5f9041a137bd9fe7174021b65",
   "computations": [
     {
-      "name": "weight34-original-fixed-sigma-top",
-      "script": "weight34_sigma_top.py",
-      "script_sha256": "053dc98d70ce13f980f9f35ae98c837dca866c72bf348feab98d98c10b2de7e9",
+      "name": "original-weight10-double-Hecke-markings",
+      "script": "weight10_double_hecke.py",
+      "script_sha256": "7821982c1a16f150b26064e7eec233f5e4a94c09bca48b978bf070429cbf89ad",
       "arguments": [
         "--output",
-        "/tmp/weight34-sigma-top.json"
+        "/tmp/weight10-double-hecke.json"
       ]
     },
     {
-      "name": "new-original-primes-and-R939-exact-identities",
-      "script": "R939_trace_window.py",
-      "script_sha256": "f84ebe39808e9a07903ea95131c9c9b4b19cc76fdcb77225d94278833604c1a6",
+      "name": "p11-original-central-and-allowed-third-Legendre-window",
+      "script": "p11_original_legendre_window.py",
+      "script_sha256": "b53d466e84fb8f7ffd0062f71455dc6e558fd686cf2f0c31f9325159f6476ceb",
       "arguments": [
-        "--minimum",
-        "109",
-        "--maximum",
-        "1000",
+        "--bound",
+        "10000",
+        "--allowed-mod9",
+        "--stop-after",
+        "0",
         "--output",
-        "/tmp/R939-window.json"
+        "/tmp/p11-original-legendre-window.json"
       ]
     }
   ],
-  "storage": "Temporary outputs and stdout summaries only; retain source/parameters/run/hash. No raw data artifacts or regenerated six old R936 primes."
+  "storage": "Temporary outputs and stdout summaries only; retain source/parameters/run/hash. No artifacts, no repeated supersingular rows, no repeated p5 Legendre scan."
 }
