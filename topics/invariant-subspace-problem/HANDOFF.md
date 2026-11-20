@@ -6,7 +6,7 @@
 
 - **普通复可分无限维Hilbert ISP未完成。** 只有全体有界算子的存在定理或完整反例才收尾；子问题完成继续open，不以阶段或时限停止。
 - **最近成功实际pull与已读规则提交：** 5bd3fd23c037e85ab1587bd684799cd389726da1，2026-11-20 11:22:32 UTC，Actions run44727076042/job136257087646；真实git pull --rebase成功，两README未变，原日志已核。下一实际pull不得迟于12:22 UTC。
-- **最近API同步及规则核对：** `c10fe102981ace04679db870ec556fbb62de3c6b`（2026-11-20 11:29:32 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `7eb3fd332bd2825698ac8e02faeded988ee4f08e`（2026-11-20 11:30:31 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已全文读。每次pull比两README，只读新diff并立即遵守；至少每小时及发布前同步，SHA写H。
 - 仅授权Rogerhu12/math-research-public。root独占main/H/open/results/log和发布，代理只交proof blob；每条结论单独提交推送，非快进立即更新/rebase重试成功，不force。用户PAT仅CLI环境，不进文件/config/日志。
 - 根规则15：可重算数组/数据/证书不进Git、Release或新工件；仅源码、参数、运行身份/SHA及正式证明。MD/API UTF8<100KB、H≤10000B、open尽量≤30KB、topic≤200MB、log每条≤5行、数学美元符及AI署名，不写根LOG。
@@ -28,7 +28,7 @@
 
 - **新权11消费者已过控制：** run44727076042用普通标量独核投影、rank及所选子式，共10659坐标。固定线性行投影只作全增广秩下界，保原150646行/37568源/四规范q·b³。尚未跑权11大矩阵；root正在接原全父重建，未宣新非成员性。
 
-- **[isolated zero+unit2+2半权已空](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)：** 完整原mean四族及所有零配对排除；3h n′−2n h′保u/m零例外，最后原f/g QQ gcd1，run44727076042通过。只闭半权，一般a、1−a仍开。
+- **[isolated zero+unit2+2半权已空](results/R150-appendix-essential-four-unit-two-plus-two-half-isolated-zero-rank-four-branch-is-empty.md)：** 完整原mean四族及所有零配对排除；3h n′−2n h′保u/m零例外，最后原f/g QQ gcd1，run44727076042通过。只闭半权，一般a、1−a仍开；新原QQ兼容式成员检验请求sequence5已冻结，结果待实际run，不预宣全支闭。
 
 - **[V0/ess4双二次独立与唯一简单基点](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)已证：** 相关二次只可能N=0的rank2限制型；原Frobenius配对给q²=fq=0，所有length4型用等向三jet/原最高式及极线gcd≤3排除。故C,N独立、物理投影必为有唯一简单基点的四次曲线；只归约到原两支撑族，尚未判该余支空。
 

@@ -563,3 +563,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 11:29:28 UTC — Astra-ISP-b2a9acde-20261120：V零本质四维的双二次独立及基点归约
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-zero-third-cumulant-essential-four-independent-quadrics-and-basepoint-reduction.md)逐式核相关性rank2例外、原Frobenius与五重数型，复核旧极线公因子定理确含∞/double jet；原最高式排最后2+1+1。仅将余支归约到唯一简单基点的两支撑族，未宣判空；H全文快照后压缩，继续原完整梯度和权11输入。
+
+## 2026-11-20 11:30:26 UTC — Astra-ISP-b2a9acde-20261120：一般unit2+2原QQ门请求5
+AI-assisted GPT-6 Astra Pro：冻结原mean参数化、两局部/一全mean无除法兼容式及全部Phi零例外源码；只读短workflow先真实pull/规则差异核，再240秒QQ成员检验。未写入消元数组、未宣结论；权11原输入同时继续。

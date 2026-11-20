@@ -1,28 +1,27 @@
 {
   "format": "isp-r150-short-exact-request-v1",
-  "sequence": 4,
+  "sequence": 5,
   "session": "Astra-ISP-b2a9acde-20261120",
-  "createdUtc": "2026-11-20 11:22:17 UTC",
-  "task": "Original half-weight 2+2 isolated-zero identities; controls for new exact weight11 projected-rank consumer",
+  "createdUtc": "2026-11-20 11:30:26 UTC",
+  "task": "General unit two-plus-two isolated-zero original QQ source membership and all Phi-zero candidates",
   "sourcePaths": [
-    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-half-isolated-zero-verify.py",
-    "topics/invariant-subspace-problem/notes/2026-11-20-r150-weight11-projected-rank-b2a9.cpp"
+    "topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-general-isolated-zero-verify.py"
   ],
+  "sourceSHA256": "22ff3026c4ae2e490ada704fec947f75f4e771b499e960b601b739c1e2ad310b",
   "dependencies": {
     "sympy": "1.13.3",
-    "mpmath": "1.3.0",
-    "bitplaneHeaderSha256": "03272796bb20c883291d27c9a0b796197f8295ccd9b16552c13894657dc8afd3"
+    "mpmath": "1.3.0"
   },
   "parameters": {
-    "native": [
-      "--selftest"
-    ],
-    "weight11FullMatrixRun": false
+    "timeoutSeconds": 240,
+    "field": "QQ",
+    "groebnerOrder": "grevlex",
+    "membershipTarget": "(4*r^2-t^2-1)*(t^2+1)^2"
   },
   "rulesGitBlobs": {
     "README.md": "282e86b03385d3b6245ce7100ae2e2af7b103c2d",
     "topics/invariant-subspace-problem/README.md": "4d6570e9cf346431ab781a1290076a6321aaaa00"
   },
-  "maximumJobMinutes": 5,
+  "maximumJobMinutes": 8,
   "computedArraysToBeSaved": false
 }

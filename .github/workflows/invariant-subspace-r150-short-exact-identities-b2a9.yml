@@ -13,7 +13,7 @@ concurrency:
 jobs:
   exact:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     env:
       ISP_PIN: ${{ github.sha }}
     steps:
@@ -44,11 +44,14 @@ jobs:
           print('ISP_PULL_RECEIPT '+json.dumps(receipt,sort_keys=True),flush=True)
           if not receipt['rulesUnchanged']: raise SystemExit('README changed; root must read and follow the exact differences')
           PY
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-half-isolated-zero-verify.py" > "$RUNNER_TEMP/isp-r150-half-two-plus-two.py"
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-r150-weight11-projected-rank-b2a9.cpp" > "$RUNNER_TEMP/isp-r150-weight11-projected-rank.cpp"
-          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-15-r150-original-f127-bitplane-789f.hpp" > "$RUNNER_TEMP/2026-11-15-r150-original-f127-bitplane-789f.hpp"
+          git show "$ISP_PIN:topics/invariant-subspace-problem/notes/2026-11-20-essential-four-unit-two-plus-two-general-isolated-zero-verify.py" > "$RUNNER_TEMP/isp-r150-general-two-plus-two.py"
           python -m venv "$RUNNER_TEMP/isp-r150-short-venv"
           "$RUNNER_TEMP/isp-r150-short-venv/bin/python" -m pip install --quiet sympy==1.13.3 mpmath==1.3.0
-          timeout 120s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-half-two-plus-two.py"
-          g++ -O3 -march=native -std=c++17 "$RUNNER_TEMP/isp-r150-weight11-projected-rank.cpp" -o "$RUNNER_TEMP/isp-r150-weight11-projected-rank"
-          timeout 30s "$RUNNER_TEMP/isp-r150-weight11-projected-rank" --selftest
+          python - <<'PY'
+          import hashlib,os
+          p=os.path.join(os.environ['RUNNER_TEMP'],'isp-r150-general-two-plus-two.py')
+          h=hashlib.sha256(open(p,'rb').read()).hexdigest()
+          assert h=='22ff3026c4ae2e490ada704fec947f75f4e771b499e960b601b739c1e2ad310b'
+          print('ISP_SOURCE_SHA256 '+h,flush=True)
+          PY
+          timeout 240s "$RUNNER_TEMP/isp-r150-short-venv/bin/python" "$RUNNER_TEMP/isp-r150-general-two-plus-two.py"
