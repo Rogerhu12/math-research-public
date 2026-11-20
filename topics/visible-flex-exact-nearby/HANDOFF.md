@@ -1,12 +1,12 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:17:35 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 12:19:49 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 12:17:35 UTC 实际pull/rebase至 `6820b4c9ebdf912c91b5ce49b7d073a6311613c5`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:17:35 UTC。
+2026-11-20 12:19:49 UTC 实际pull/rebase至 `9f0a5dea408211ade68bcc90868dad64a36818ce`；已读规则提交同上，两README相对96edc6770空diff。每次pull后核规则差异；下次实际pull最迟13:19:49 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -15,6 +15,8 @@
 根规12下移除无关workflow静态白名单，仍逐次rebase后核全topic和输出容量；21原件、mean/ports、五图50条定义保留。原L三量冻结（3/50）；完整centre下界已排固定配方，余47不再为此配方算。
 
 另4份旧flow log/index的[完整恢复表](notes/2026-11-20-legacy-flow-log-history-pointers.json)保原字节/失败/结论；当前输入不变。
+
+另25份旧public stdout/failure log已按规15转[完整历史恢复表](notes/2026-11-20-legacy-public-log-history-pointers.json)，原878034B逐字保72017be96；三当前+一基础清单路径交集0，当前运行pins不变。
 
 ## 完成标准与同一对象
 

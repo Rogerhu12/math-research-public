@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [旧公开日志完整历史恢复表](notes/2026-11-20-legacy-public-log-history-pointers.json)：25份非当前运行输入的stdout/failure日志878034B移为原Git字节指针；path/blob/bytes/SHA全保，三个当前运行清单逐件复核不变，原基础清单只核路径交集。普通提交，不改旧成功/失败或重算科学。
+
 - [R141完整F Bc原态比较](results/R141-supplement-receiver-free-complete-FBc-comparison.md)：独立新目标为Π0 F Bc S⁻¹原态L2完整row/column/norm，保P/Q*/Rc五项、true J*至R和准确128/256/288支持；三角上界完整，未借signed抵消。67输入/320bits、源/owner整审，首次Actions；未来同low Green仅要求body CFB小门，193atoms仍付输出。F不等于真实G_H，不重旧50目标。
 
 - [R137直接有限缺陷的第二细胞因子](results/R137-supplement-adjoint-cell-factor-for-direct-finite-defect.md)：完整伴随Poincaré给μ_Q≤||Λ_h∂r[ι*(T−I)*P_f*]||，η_f≤(6/5)μ_Q M_mesh；两个原h_i/π各在正确一侧。完整193原子保真实dual边界，1024辅助态给可算导数而不求输入导数；body收缩/atom输出可复用low Green。完整逆/新导数预算/严格门仍待。

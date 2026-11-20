@@ -99,3 +99,7 @@ proof10024B/SHA1ccf9cef8dbca5eb1caf8b475f6fd2a1ab2799acbc63c5e4783b640619270d97�
 ## 2026-11-20：完整F Bc原态源范数首次封包
 
 root整读proof/最小math5272B/SHA05d57d2f/owner23096B/SHAd6521c92/generator，并核原kernel forward/reverse质量、privatecaps、支持投影与Astar160方向。保存75位球后contains(original_upper)且字节读回，原S⁻¹只一次；未来body CFB门与193atoms输出分开，不把F当真GH。完整67当前+worker/21历史blob、AST/YAML、36字段25门与原scope整对象核同，0科学。proof只改会话署名，metadata重新冻结；独立新1target/3球、child3600s/科学2400s，单次push启动共享workflow，旧L/centre/endpoint均不重算。
+
+## 2026-11-20：为新公开小结论保留容量
+
+在72017be969e4c9b3c612f6f74a3ba71c6b9e46a4逐件核25份旧public stdout/failure log的path/blob/bytes/SHA，gross878034B，完整恢复表见2026-11-20-legacy-public-log-history-pointers.json。三份当前加原基础manifest的直接路径交集0；删除后当前三清单逐件bytes/SHA仍一致。原基础清单的assembly/reference/worker本已由先前包含与推送修复替换，本次只核其路径交集，不把原旧pin冒当前pin。未声称无历史文字引用，按指针git show精确恢复。旧成功/失败/值/参数/域原字留Git，0科学重算、不重写已推历史，current source/native不动；open只压已成mean重复入口。

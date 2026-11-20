@@ -175,7 +175,7 @@ R138的[几何桥](results/R138-residual-sensitive-Codazzi-frame-and-geometric-J
 
 [R138实际全角比较](results/R138-supplement-actual-root-angular-comparison-and-mean-readout.md)已用旧完整角缺陷和repair支付完整2π理想角ODE到真实periodic frame/位置的C0差<1.1e−6/4e−5；没有将角ODE端点免费拼圈。完整mean分母D=<rho(A0X+B0Y)>·ell，只用frame值及已知系数一阶导，因此下一最小角消费者可先算D并付C0转移，不依赖轴位置重算。D离零已由下述首次actual完成；有限根型/真正高尾导数仍待。
 
-[R138最小全圈mean公开合同](notes/2026-11-20-R138-root-mean-angular-contract.md)11当前/6历史已完整双审和静核，320bits/8192整个闭角格、同真根/所有模式/mean和W.16实际frame费；只消费原axis文件的load/definition，不运行轴q/s，不建W2C context。[实际44733403315/1](results/R138-supplement-actual-full-circle-root-mean-denominator.md)已完成全8192格且saved D严格17/20<D<87/100，mean逆费<20/17；1新target冻结，原轴不读/不重算。根finite+tail、体吸收与全逆仍待。
+[R138实际全圈mean44733403315](results/R138-supplement-actual-full-circle-root-mean-denominator.md)全8192闭格、11当前/6历史已核冻结，严格17/20<D<87/100、mean逆费<20/17；真实frame费用全计。只消费原定义，不重轴/旧geometry；根finite+tail、体吸收与全逆仍待。
 
 [R141独立完整F Bc比较](results/R141-supplement-receiver-free-complete-FBc-comparison.md)已证明Π0(P_B−Q*Rc)全部source-only正比较及body-only CFB消费；原Rc五项先精确消去collar常项、再取三角上界，J*仍至R，返回投影只属有限F。67输入/21历史、320bits、1target3球首次push，不调用低Green/atoms/旧50目标。原S⁻¹只一次；actual G_H/family/physical/finiteρ/两rhs仍待，后继读回球才能判门。
 
