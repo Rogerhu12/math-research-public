@@ -355,3 +355,8 @@
 ## 2026-11-20：准确cell moments的完整parent接线与私有生命周期
 
 [GI接入证明](results/R141-supplement-exact-cell-moment-provider-and-shared-lifecycle.md)与[pure provider](scripts/fourfold_codazzi_low_centre_parent_moment_provider.py)保原whole-parent真实包围、signed AL/CHL/mean与true h；同格原节点独立，varying W只经PSD majorant积分。shared A/B/K一次、J/right两批，完整point gate前不释放。只改变未来新矩积分目标的必要表示，无active44730452579变动、无旧目标重算、无数值收缩/性能保证。
+
+
+## 2026-11-20：完整互补Gram谱体五量实际通过
+
+[SA实际结果](results/R138-supplement-actual-complete-spectral-body-energy-budget.md)记录44767124478/1全4651片及四upper/一lower；body三门true，Csp<21.052653、wE<21.4663、aEE<.748166、aEB<.600361、allow>515.804199。整球亦过RN较强Csp<23/wE<22/aEE<23/30；必要不等充分，实际根费/全逆未授。26当前/5历史与X/Y/GB/RS四whole对原样，0旧科学。
