@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`eb035c4b88185cf2e5389dd17f5132868b246447`；2026-11-20 12:32:08 UTC 实际pull --rebase，两README相对c0d0bfce差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`ba5592a346b9d61a0dea7173ab329a5259b09519`；2026-11-20 12:32:56 UTC 实际pull --rebase，两README相对eb035c4b差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
@@ -21,7 +21,7 @@
 - [R924§11–15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)全部实际PASS：TUV、DS全204/51二次双点、36base cusp、Y全666/三退化120/ys核360、DS真实TUV值、vF/三Yi全核144/152；全部原点身份/非约化结构保，完整回执在原节。
 - [R925§12–19](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原306整环（run44724912327）全46971乘积/两图表/单位已PASS，h0..4=1,2,68,360,666，14个权4元保W8；固定Sage整核/Hermite API及六厚cusp（run44726729349）也PASS，全289幂基/666坐标/18Fp闭点/108几何点/1836长度齐。Fp²分裂度1/1/8/8、π/π²全primary、612×306核及八点共零值尚在run44730598782/job136269050475/source135a0835a。完整κ/任意共零、原表系数收缩及全consumer桥/trace均独审；§19权界floor(306W/d)与真实q幂自适应法已证、候选未跑。
 - [R926§8–10](results/R926-original-cube-roots-in-sections-and-complete-identities.md)：原RF6941/三Ri4287全局身份与核900/280/278/278实际PASS（run44728285578/source17ea1c0ce），同M2高窗/原首项/ω均保。严推根极度240/452/454/454及同L最低权2/3；紧缩全低核与R8/R7交叉仍待新实际门。原cube→紧缩→306环→完整maps同进程请求run44732115204/job136274270348/source192c28161运行，后续geometry/四E/全trace未冒PASS。
-- [R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原混合核144严推D′度180；§6–7得dF=2160+9(e−z)∈18Z、1296..3078且不等2256。全RF核900经RR满射读DS约化rank=e，∞289因子足读2z≤192；§8完整两值helper/四前端已独审接入，原900核/DS204/∞289及全回代保，公开请求待实回执，未填精确dF。
+- [R927](results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：原混合核144严推D′度180；§6–7得dF=2160+9(e−z)∈18Z、1296..3078且不等2256。全RF核900经RR满射读DS约化rank=e，∞289因子足读2z≤192；§8完整两值helper/四前端已独审接入，原900核/DS204/∞289及全回代保，公开run44736604477/job136289459332/source8e2413043已启动，未填精确dF。
 
 R880/883全18×9/双轴/原A,C及四完整交除子00/01/11/12保持；Norm含ell²旧回归已过。四大交除子和原shadow未算，完整成本2256+r*dF或2256(r+1)，全闭点度/厚长度/无穷边界/Artin不删。有限AJ非零不替无穷p/ordinary桥。
 

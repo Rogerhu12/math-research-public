@@ -438,3 +438,5 @@ z门重新核原∞因子的全部289幂链、666截面值和120×666的真实π
 | `.github/workflows/rank2-sha-original-yf-finite-pole-degree.yml` | `759611eef00da88e6638ee89f6e86741c65d003c9b5cdaf7c3da74dd90318eb5` |
 
 root已全文核helper、四前端与原生产者接口；theta独审完整RR/DS/289/π2读数，deep另独审全部真实owner/receipt/labels/矩阵shape与调用契约，global独审root四前端。AST、JSON/YAML及同一25项源码manifest静态检查通过，未在本地执行数学。请求固定原F/P认证source/run/job/result，实际运行回执另补。
+
+公开请求已实际启动：run [44736604477](https://github.com/Rogerhu12/math-research-public/actions/runs/44736604477)，job `136289459332`，source `8e241304372d5844ac7387350fe8875f1a72d913`，创建于2026-11-20 12:32:17 UTC。当前仍运行，未登记数学PASS；原maps run44732115204及原Fp²局部 run44730598782也仍在其固定来源上运行。
