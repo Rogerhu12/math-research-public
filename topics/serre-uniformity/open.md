@@ -60,6 +60,8 @@ R988已建立实际G_(n(p−1))与balanced c_n的准确整比较；当前须证�
 
 [R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
 
+[R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
+
 ## O3：固定低权cohomology与原Igusa投影的边界
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)给原fine base上

@@ -4,9 +4,9 @@
 
 证明绝对C使所有无CM E/Q在p>C时模p满射，或给p→∞完整反例族。**主目标OPEN，尚未达README标准。**
 
-**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-rational-LT-jet.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
+**维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。压缩前逐字状态在[最新H归档](handoff-archive-2026-11-20-before-near-prime-coefficient-window.md)，沿链保全部旧source/SHA/尺度/失败边界，不重做已登记结论。
 
-**已读规则提交：9d60f5532c4f6c94290dd1c4e07ad4bae325f254**（2026-11-20T14:27:05.114007+00:00；终端真实git pull --rebase origin main，两README无diff）
+**已读规则提交：4af4fe6106988cd418df4ac95700213274d23ed8**（2026-11-20T14:33:58.952215+00:00；终端真实git pull --rebase origin main，两README无diff）
 
 两README完整已读，SHA256 root 581402c2 / topic 35f82f3d。每结论立即推；每push前且至少每小时真实pull；每pull检查两README，有变只读diff立刻照办并记已读SHA。NFF/lock-ref竞态立即pull --rebase再推直到成功，禁force。PAT只CLI，不入文件/提交；root独占main/H/open/index/log。
 
@@ -24,7 +24,7 @@ R955/R970整个原CM packet为Cartier nilpotent单链，L=dim包=rank level9高�
 
 R958 r2原moment S^p=−216c_momℓ(R_F)，R_F=−2D^(2N+1)β²C^p，目标moment仍开。R960/965真实Igusa因子h=L+1，κ=(1/p)[x^((p²−1)/3)]a^(2p+2)=36α=−g_pT=−g_pS^p/432，g_p=48[x^(m+1)]a²单位。**不能把该因子换成固定CM椭圆源height2**；链顶单位不推链底。
 
-R973原E−/g3=4/无Gaussian的balanced c_n在41/47/227/857为13/4/171/317、旧B11/10/179/489。run44740851091/job136303836405/source f3f947dab32911ac0a40040ceb24242d4595488d全核已完；所有hash在回执/归档，只消费。
+R973/R983两公开run均全完、原四p数据已认证，精确sources/jobs/rows/prefix/summary hashes全部见各回执及最新H归档。c_n−=13/4/171/317（41/47/227/857）；pure四列原值只消费，不重跑。
 
 R974原TU格Ω_f±/P_n整，adjoint=u_n c_n P_n²/(Ω+Ω−)，u_n=2^(n+2)3^((n−8)/2)(n−1)!单位；原先只得c_n单位⇒η单位⇒S非零；R988现从实际Cartier/Robert源补逆向，仍不假period比单位。KS/Manin/3Euler/i尺度保。
 
@@ -42,19 +42,25 @@ R980原Robert level1 S_k=G_k、E+=E4=0/E6=864，B_p单位；G_(t(p−1)+p+1)=B_p
 
 R982原theta/Robert对称已排literal共同α/ξ模型；R983又以独立exact rational反例排指定factorial共ξ，均不排真正mixed比较。
 
-R981源s=x^−1/2、f=L(s)/s留数(N−1)G_N=[X^(N/6)]C f^(1−N)避N−2除p；两digit保唯一共振。末收缩/输入O(p)、dense中间O(p²)，全部独立通道与小exact rational已执行，详R983。
+R981原pure留数(N−1)G_N=[X^(N/6)]C f^(1−N)、唯一分母p共振及两digit压缩已成，独立执行见R983，不再触发。
 
-R983公开run44748379140/job136329516699/source0c4cef11e3825245b8e3edf13f38a6f5fe1749f0全完3.552868857s；四p low/lowstar/high/highstar：41=9/30/15/36，47=18/13/40/35，227=132/158/191/44，857=625/36/708/855。所有通道/Robert/small rational核过；rows14804B/hash08698e1b、prefix1028f332、summaryacc2d0c6纯IO核。factorial共ξ候选被41/47差10/31否定。**current request已完，不重触发**。
+R983 run44748379140/job136329516699/source0c4cef11e3825245b8e3edf13f38a6f5fe1749f0全完3.552868857s，所有独立通道过；指定factorial共ξ在41/47被差10/31否定。current request已完，等待真正新R989差集契约后才改。
 
-R984真一次Frob给actualt的R_t整、λ0/μbar=−β；BKT L_j(j≤p−2)属原A[x,y]。有限K=e^(R_tW)Ξ整/simplepole且精确保c_n；ν_t=−xω+βt^(p−1)f^pdt有rational J_t，R_tbar−J_t=h^p无常数。低mixed=[T^n]ΣJ_t(gT)^(n−j)L_j(gT)/(n−j)!，只低矩形免pth余项；高pure必须保坐标carry。
+R984真一次Frob保actualt整R_t、λ0/μbar=−β与BKT finite integral kernel；其rational J_t满足R_tbar−J_t=h^p无常数，低mixed矩形保原c_n，不能用于无carry的高pure。
 
-R985 R_T=R_t∘g+μC_g，δ_g=(g^p−g^φ(Tp))/p，C_g=[l_E^φ(g^p)−L^φ(Tp)]/p均整。全L′bar1给Cbar=δbar/g′bar^p，连接C′=(g/g′)^(p−1)−T^(p−1)。原selected −G_N=[T^(N−1)](J_tg−βCbar)；首carry−3T^(p+6)/7，N=p+7必需单位补项3β/7，但不推出总系数单位。
+R985 R_T=R_t∘g+μC_g，Cbar=δ_gbar/g′bar^p，δ_g=(g^p−g^φ(Tp))/p；原pure −G_N=[T^(N−1)](J_tg−βCbar)。首carry−3T^(p+6)/7已证必要，不推总系数单位。
 
-[R986](results/R986-explicit-rational-primitive-and-original-Lubin-Tate-jet.md)：原s源显式J_s=−(2y^p)^−1Σ_(j≠(p−2)/3)binom(d,j)x^(3j+2)/(3j+2)，dJ_s=(−x+βt^(p−1))ω，β=binom(d,(p+1)/6)。Z=−β^-1D^(p−2)x为仅O polep、dZ=ω的唯一规范primitive；Wilson𝔠_pβ=3与E[2]字符给R0=Z−β^-1(x²/y)^p。**𝒯=Z+β^-1J_s^p** 是实际Fp(E)有理函数，d𝒯=ω、𝒯(g_s(T))=T+O(Tq)，保canonical共振。原pure=(N−1)^−1ResO x𝒯^(1−N)ω；mixed=ResO B_n𝒯^(−n−1)ω，B_n=ΣJ_s^(n−j)L_j/(n−j)!，仅mixed可用R0替𝒯。pure保补项β/(N−1)[T^(N−2)]t^(p−1)。不是global log/group hom，两指定residue非零仍开；继续actual Cartier降次和Poincare首分母。
+R986原s源global rational J_s满足dJ_s=(−x+βt^(p−1))ω，Z=−β^-1D^(p−2)x、dZ=ω；β=binom((p−1)/2,(p+1)/6)、𝔠_pβ=3。实际𝒯=Z+β^-1J_s^p，d𝒯=ω且𝒯(g_sT)=T+O(T^q)，原pure/mixed有指定rational residues。R594/R658早已证明formal log分解，R986只新增global rational实现/原residue校准；不称global log或群同态。
 
-[R987](results/R987-original-Poincare-Cartier-identity-and-first-denominator.md)：真实两open gluing给 **C(xZ^jω)=β^(1−j)j!L_jω，0≤j≤p−1**；有限整L端点由G_(p−1)=0，最低非零W项的下一阶Res(Jω)=1排全部下级修正，唯一顶常数由μ6字符排除。pL_p=−βZ、一次正则核首分母p[W^(p−1)]K_s=−β𝒯−h_s^q，LT<q恰−βT；真正第二Frob只消此有限边界。原theta连接p曲率−βW及实际J修正取消均准确；不从曲率推出c_(p−r)单位。R986已补R594/R658旧formal分解复用范围，新增点是global rational源及实际residues。继续精确pure/mixed收缩与近p单位性。
+R987真实两open gluing给 C(xZ^jω)=β^(1−j)j!L_jω（0≤j≤p−1），逐阶Res(J_sω)=1排低修正、μ6排顶常数。pL_p=−βZ，真实one-sided首分母p[W^(p−1)]K=−β𝒯−h^q；LT<q为−βT，第二Frob只有限取消；实际theta曲率−βW不推near-p unit。
 
 [R988](results/R988-original-pure-balanced-Cartier-contraction-and-high-trace.md)：完整Cartier与真正theta对称给 **G_(j(p−1))=−j!β^−j c_j+，1≤j≤p−2**；原r2/8、n=p−r有G_high=−β^(r−1)c_n+/(r−1)!、G_highstar=β^r c_n+/r!。原AH高坐标 **γ1=−24η^(−(m−b))(χσ−1)β^(r−1)c_n+/r!**，所有外因子单位、c_n+=−c_n−，故 **原S≠0 iff c_(p−r)±单位 iff F_(p−r)(0,−864)非零**，补成R974逆向而不反除period比。实际p-basis b0=−βB_(p−1)、b6=−β7 B_(p−7)/6!，参数差首影响q−3完整保。低a3/9 pure显式−β−3、−8β−9/35只校准已知unit；真正near-p系数全p单位、同h与height仍开。
+
+[R990](results/R990-original-hypergeometric-fixed-r-coefficient.md)：原(E,X,Y)=(0,0,864)的三Ramanujan ODE逐式匹配 A=2F1(1/12,7/12;2/3;z)、B=2F1(5/12,11/12;4/3;z)，T=−uB/(24A)、z=u³/432。m=(p−r)/3、k=floor(p/12)时B真截成degree k Jacobi多项式；H=((1−z)B²)^−1、f_i=H_i/(1−3i)、Q=4+12zB′/B−z/(1−z)，**c_(p−r)+=(-32)^m(r−1)! [z^m]Qf^−r/4**。全分母在m<ℓ=(p+1)/3内单位，固定r2/8给O(M(p))、O(p)内存。B根/三个cusp极部准确、首resonance Hℓ=B(1)^−2单位；不能跨ℓ反除，目标系数非零仍开。
+
+## 当前实际工作
+
+R987已推923e858c74c3d241cce1afa9b3df242bf89320bb；R988已推fa06c6fda15f2321c9c5af4babcf098d992fe438。R989由audit准备真正未覆盖r8的1000<p≤20000差集、新μ3 heat/CDQ及原Kronecker单carry卷积独立对照，尚未执行。R990真GM/hypergeometric固定r公式已root/legendre全审、audit核算法；将作新窗主通道。legendre已转O1实际A/E4或mark非零。任何有限无零只有限结论；首零须原来源独立确认。root继续全证明核验与最小新公开consumer，规则/登记/git独占不变。
 
 ## 继承任务与永久边界
 

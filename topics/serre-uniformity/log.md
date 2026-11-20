@@ -29,3 +29,7 @@
 ### 2026-11-20 22:26 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R988完整Cartier/实际LT/theta对称收缩给一般G_(j(p−1))=−j!β^−j c_j，原γ1保全部η/χ/24/r!，root独审参数界及模型相位。
 - 原trace非零现与balanced单位等价，R974单向桥已加强；继续真正near-p非零、独立r8未覆盖窗口和actual GM来源，不以等价判据收尾。
+
+### 2026-11-20 22:33 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R990实际Ramanujan/超几何源、全部Lagrange尺度、有限Frobenius降幂及B根/cusp首resonance经root与legendre全文独核，audit核O(M(p))算法；修一处TeX反斜线。
+- H逐字归档保前态；继续R989未覆盖r8差集的原源独立核与全p非零，O1专攻实际mark；没有把resonance单位当目标单位，无新执行。
