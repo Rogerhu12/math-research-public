@@ -5,13 +5,13 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`5dcedaff72cfc127690caa15954d134fab25fd32`；2026-11-20 11:19:52 UTC 实际pull --rebase，两README相对3085402d差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`ec9779c51f4804a71ebe1a7be5f2165774738e36`；2026-11-20 11:31:12 UTC 实际pull --rebase，两README相对7eb3fd33差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-20-handoff-before-thick-cusp-request.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者；deep_forcing做306环乘法/六cusp纤维，global_selmer做colon/三退化截面转换，theta_nonvanishing做原整环证明/完整理想，root做原cube。四主门均保留；R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-before-thick-cusp-request.md)逐字保全部旧条件、源/run/hash及归档链；入口results.md、notes/PROOF-INDEX-R901-R950.md、open.md。root唯一metadata/ref写者；deep做原环快速乘法，global做同原consumer桥，theta做完整闭点/局部参数与共零值，root整合公开门。四主门均保留；R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：同原映射、完整函数环与原shadow
 
@@ -22,9 +22,9 @@
 - §13原Y已PASS：run44721065286/job136236619274/source72187ffc，完整666格/三退化j=1,2,4各120秩/原ys全1532核360，190.932s，resultf8918b05…c6f720。SY=2S(u²)、j^m、ρ_j和原支保。
 - §14全DS原TUV值PASS：run44721641472/job136238600337/sourceeb62d3f8，三222/102/204门和全部51非约化局部值、全T=−27过，254.228s，result9d331e26…6d2f09。
 - §15原vF/三Yi截面PASS：run44723394686/job136244599223/source7ffa56588；真F/P凭据先鉴定，F核144/P两核152/原第三QY与常数全过，305.261s，result0a8cc7cf…8e7f9f。F=A5/(B2 S³)、P=R3/R3；原Artin(2,0,1)保。首host缺checkout已修，不冒cube根。
-- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)已证明原J=SY/(ys²+3)²、全306过滤自由基/完整乘法/两图表及真实零极/交理想算法；完整多项式核保共零，六cusp全边界、原点/参数保。r29 h3=360已付，h1/h2不猜；2453原输入保全部W8窗。首完整环run44724912327/job136249752863/sourcefea36d7d8运行中，尚无PASS，h3不自动复制r41。
-- [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证原RF/Ri的同截面低核2313/1429窗，以及全清分母恒等门RF到6940、三Ri到4286；同原基2725/6941精度与原ω分组评价保所有S³/原首项。producer在写，未冒cube PASS。
-- R925§6.2.1/7.4已证完整norm+包含认证理想积早停，同原最大理想HNF给精确点身份（hash仅索引）。三退化截面转换/完整理想层已静审；新六厚cusp与固定Sage多项式API公开请求待实际回执，所有289阶和原ω保。
+- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)已证明原J=SY/(ys²+3)²、全306过滤自由基/完整乘法/两图表及真实零极/交理想算法；完整多项式核保共零，六cusp全边界、原点/参数保。§12完整环已PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，权0/2/3/4数1/65/226/14，全部46971乘积/双图表/单位过；592.379s，result473e35bc…7188c。2453精度保全W8，不外推r41。
+- [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证原RF/Ri的同截面低核2313/1429窗，以及全清分母恒等门RF到6940、三Ri到4286；同原基2725/6941精度与原ω分组评价保所有S³/原首项。完整producer已静审接公开请求，未冒cube PASS。
+- R925§6.2.1/7.4已证完整norm+包含认证理想积早停，同原最大理想HNF给精确点身份（hash仅索引）。三退化截面转换/完整理想层已静审；API实际PASS：run44726729229/job136255921243，r29/41及常数次1/2全核饱和/Hermite过；六厚cusp run44726729349/job136255921310/source155a07fd运行中，所有289阶和原ω保。
 
 R880/883全18×9/双轴/原A,C/四完整交除子00/01/11/12及返回保；Norm含ell²已过。四大交除子与原shadow仍未算：真实成本2256+r*dF或2256(r+1)，全部闭点度数/非约化长度/无穷边界/Artin不删。原AJ非零仍不替无穷p/ordinary桥。
 

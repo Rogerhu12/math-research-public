@@ -174,3 +174,18 @@ $$
 - [R882](R882-original-degree18-source-model-and-two-endpoint-coordinates.md)、[R883](R883-original-relative-six-shadow-and-complete-boundary.md)：同一原曲线、原根的全局存在、无穷支及完整消费者。
 - [R924§6.2、§15](R924-original-section-divisor-algebras-and-shadow-interface.md)：原完整极帽与截面恢复，以及原 vF/三 Yi 的实际全局分式回执。
 - `produce-original-shadow-local-input.py` 的原 `euler_series`：与原形式输入共用的 Euler 五边形系数实现；本篇(7)–(17)证明其新窗口中的使用及全局接受界。
+
+
+## 7. 完整producer接入与公开请求
+
+`produce-original-cube-section-fractions.py` 已经实现§1–6的全部门；root读完全文，两名独立审阅者检查完整二次常数域的Fp核限制、原根首项、所有分母和全局高窗。原嵌入1的完整Fp块为 `[[M0,M1],[-M1,M0−M1]]`，转回原k后另核完整k秩与两分量残差。嵌入2不仅取常数Frobenius，还回代其自己的原QY/常数及完整4287项身份；整个6941项所选分子/分母同时核常数共轭。原map_context的旧1429项前缀不变，高窗单独保留供同原环嵌入鉴定。
+
+host先鉴定§6所述真实F/P完整证书，再以固定镜像断网运行；令牌只在host认证日志，未传入数学容器。新workflow只由本请求/源码变化触发。这里只做过本地AST/YAML及静态证明检查，尚无新cube计算PASS。
+
+| 源文件 | SHA256 |
+|---|---|
+| `produce-original-cube-section-fractions.py` | `71bbd011acdcc75d27647578c83751bac4bf64a3ac81c87a63b607417754fd42` |
+| `launch-original-cube-sections.py` | `51ab6d3a8ab40d57f12fa6dba0a06c8cac9ef06162063e3cf90f9a959528218a` |
+| `rank2-sha-original-cube-sections.yml` | `6a5c98af159b8a181ecd6644ea91061eabc26302c853e31df8ae082fe9b51479` |
+
+原始F/P凭据分别钉在run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed和run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd；完整result hash见请求JSON及R909§7、R906§8。

@@ -70,9 +70,9 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 [R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)的同原截面路径已有实际成果：§11–12的run44720444485付完整TUV分式、全204维DS及51二次双点、全36cusp与120原射影标号；§13 run44721065286/job136236619274付Y完整666格、三真实退化和原ys全核360；§14 run44721641472/job136238600337付全非约化DS上的TUV值；§15 run44723394686/job136244599223付真F/P全PASS鉴定后的原vF/三Yi截面（F核144、P两核152及第三原QY），全部原u/常数嵌入/Artin保持。完整hash逐节存，不冒旧degree48函数域RR接口。
 
-[R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)由J=SY/(ys²+3)²建立原306完整过滤自由基和两张正规化图表；完整多项式核保原共零，六cusp含289重分支；r29用已付h3=360，h1/h2仍待实际核，不复制r41。首完整colon/46971乘法run44724912327/job136249752863/sourcefea36d7d8已请求，尚无PASS。后续同原三退化截面转换、完整HNF零极/交理想、每个闭点与原剩余嵌入分别核完才进入原consumer。
+[R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)由J=SY/(ys²+3)²建立原306完整过滤自由基和两张正规化图表；完整多项式核保原共零，六cusp含289重分支；§12 r29完整环实际PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，全部46971乘积/两图表/单位过；14个权4元保完整W8，不复制r41。后续同原三退化截面转换、完整HNF零极/交理想、每个闭点与原剩余嵌入分别核完才进入原consumer。
 
-[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。实际cube producer正在写。**四大交除子和原shadow未算，完整consumer尚未请求；固定ell非零亦不替跨无穷p/ordinary桥。**
+[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。完整cube producer已独审接公开请求，待实际回执。**四大交除子和原shadow未算，完整consumer尚未请求；固定ell非零亦不替跨无穷p/ordinary桥。**
 
 ## 原端点：真实范数与剩余增广阶
 
@@ -210,6 +210,6 @@ R887(116a)进一步准确给C(Hω)=0及C²(𝔄Faω)=0：rω=(1/3)dlog y与[G]_(
 
 - [R924§15](results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原vF和三Yi截面实际PASS，run44723394686/job136244599223/source7ffa56588，305.261秒；真F/P先鉴定，F核144/P两核152/原第三QY和Artin全保，F=A5/(B2 S³)、P=A3/B3，result0a8cc7cf…8e7f9f。cube/四交除子/shadow仍开。
 
-- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。已证明并接公开完整环前端；全部46971乘法/完整大交除子/shadow尚待实际回执。
+- [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。§12已实际PASS全部46971乘积/两图表/单位，h2=68且14个权4元；大交除子/shadow仍待。
 
-- [R925§6.2.1、§7.4、§10–11](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，两新公开请求待实际回执，原大交除子/shadow未付。
+- [R925§6.2.1、§7.4、§10–11](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，固定Sage饱和核/Hermite实际PASS；六厚纤维运行中，大交除子/shadow未付。
