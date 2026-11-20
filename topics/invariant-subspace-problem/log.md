@@ -551,3 +551,6 @@ AI-assisted GPT-6 Astra Pro：[完整证明](results/R150-appendix-essential-fou
 
 ## 2026-11-20 11:11:04 UTC — Astra-ISP-b2a9acde-20261120：三位N头高孔全主子式与极点源界
 AI-assisted GPT-6 Astra Pro：[完整证明](results/R271-appendix-three-bit-highest-carry-high-hole-principal-minor-residue-order.md)保全Z上的极点最小范数、非正交Jcal翻孔和所有强尾成本；五短链在run44724947207 BigInt精确核0.033秒，源/重建/输出SHA已核且不存数组。得q₋₁的R/2−3阶与全s显式Z_R界，实际Z_R/整个q及移动m仍开，继续一般头解析核。
+
+## 2026-11-20 11:12:51 UTC — Astra-ISP-b2a9acde-20261120：V零秩三外值域完整排除
+AI-assisted GPT-6 Astra Pro：[原完整证明](results/R150-appendix-zero-third-cumulant-rank-three-outer-range-exclusion.md)复用已登记J2可逆，不重算；highest固定H，mean/N的二/三次迹冲突迫F零，三维双线性引理与rank≤2因式排全部余支。无需Cat3假设；V0/ess4准确只余rankH4、mean在唯一length4原jets，补齐该退化共同支撑门，继续余支。
