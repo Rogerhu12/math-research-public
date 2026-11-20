@@ -149,35 +149,12 @@ T单一frame从gh=g−dz²、完整coframe/Ω作一次frame和位置积分，真
 G以S/T E1856给physical C²整盘/曲率<2/径长<8e−6及同world position/normal，完整mean与w/a尾费保。B43584188751/26保141腰锚、forward/bF/bQ/跨端高度、frame与mean锁winding1；须第1节同η0全core/cap C0、|δν|、全部B/C/Cmean/腰/第四Robin/mean/phase及γ低高入口。振幅是输出，不加fixedα行。
 只有上述实际成立后，P9a5bcb14一次冻结ν*/Γ*/η给第1节全部embedding/reach/held/Hdiam/marker和fixedmetric族。真core/全频逆未闭，最终G未宣称。
 
-## 8. 执行规则与当前可恢复记录
+## 8. 当前执行续点与新增路线
 
-旧清理全部path/Git/SHA256/bytes/restore及成功/失败/scope保[当前完整检查点](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)和递归原表。已删不重复；未来只原字恢复核SHA、禁重算；各次旧排除范围不创设永久native/source豁免。
+截至2026-11-16的本节完整追加记录、所有旧球/域/mean/端点/失败/恢复身份及未付义务，保于[接手前完整open第8节](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/open.md#8-执行规则与当前可恢复记录)。这里只压缩索引；已成功数学不重算，原proof范围不扩大。
 
-只在公开Rogerhu12/math-research-public自身Actions做新数学；本机/代码模式仅文字/静态核/元数据，成功旧数学禁重。根规15只script/args/run/SHA/真小结论，data/证书/新数组禁Git/Release/新artifact；每consumer实核topic≤200MB且预留120KB。
+WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false，不推奇异。W2C固定原WVC，完整signed-centre须用WJK的P+Q*−Q*LcP、五collar项、真J*至R与同Gf后合核；现正补graph4压缩及直接有限状态边值实现。全mean/193head、97root+96outer、7ports、两rhs、真ν/负head/有限物理列/高频/非线性matching均独立保留。
 
-每结论独推；非FF立即真CLI pull --rebase，保远端循环成功，禁force。每小时实际pull尝试后核两README，只读diff即照新规记H；最新真实pull/失败尝试及下一时限以HANDOFF执行段为准，ref核不冒真pull。根规8仅UTF8<100KB connector，runner真pull/README diff/容量/唯一child以各完整receipt为准。
-子题完成接下一项；总验收未达持续，不因时长或阶段报告停下。
+2026-11-20新公共run44712172133/1已通过完整native输入读取；0新科学目标、0旧重算。原43921663540/1失败是他题workflow静态白名单阻塞；根规12下已移除此行政门，实际每次rebase后仍核全topic+输出≤200MB。新科学数值继续用本仓库Actions；每结论独推、非FF立即实际rebase循环，pull后两README差异记H。
 
-[GMR局部mean/γ](results/R133-supplement-completed-local-mean-gamma-bridge-and-exact-reuse.md)f03b79bc：原438277首node3497B/00e1566b已成4copy+8新，禁重算；只原实[rc,r+]、|m|下界，row790/对称盘不扩。完整旧open段保WMTA7。
-
-完整WHS/WOB/WPT scope保notes/2026-11-16-positive-outer-and-structured-tail-open-scope.md。[WDS双侧真Schur证书](results/R133-supplement-two-sided-tail-residuals-and-true-finite-Schur-certificate.md)4c7c9d6e：I−QfM=E+D*R^-1T，须e+κdt<1；全四块/两rhs/193mean/97root+96outer/7port弱Green/δ和coker不减。真tail已由WIC闭合；signed有限逆仍待。
-
-WOBSA37/WMF全scope保[完整当前档](notes/2026-11-16-actual-tail-and-terminal-before-scaled-jets-checkpoint.md)与原proof。[WML](results/R133-supplement-local-normalized-weight-and-complete-six-step-mean-source.md)a67961a5 local247未算；[WMC](results/R133-supplement-exact-drift-cancellation-in-the-complete-normalized-mean-flux.md)06e0d860证全mean-flux精确消漂移，scalar mean项及两投影费用完整保，47新量未算。Jr/g1/两mean/四端/jump及signed逆/高门不减；mean已非主导，先推进腰端。
-
-[已成positive/waist完整索引](notes/2026-11-16-completed-positive-and-waist-consumer-open-index.md)逐字保本页九原段、对应H五段、全部球/域/mean/端/jump/资格/旧fail与lost边界（原c3cf5c025c2ea0a556db9bce4f55a9bdbfd9d219）。WPTSA/WMT195+2/WRT42/WSJ/WDGA80/WBFA83/JRA56/WSMA152/WRPA40/WSMF52/W4M30+copy均冻结禁重。WPS60完整充分门false，不推奇异；WSMF whole≈2.095886e302、waist scattering主导，W4M只对WRPA比较。全部有限/负head/ν/Θ/两physicalmean/7ports/两rhs/真96/high/matching义务仍保各proof。
-
-[WIC解析真尾与阻抗逆](results/R133-supplement-analytic-inherited-tail-and-weighted-impedance-circuit.md)527fc35e：8原whole粗界已证m160真tailκ3/24480cell；所有原reference/mean/rho2−rho*资格保proof。[WPN全系统重建](results/R133-supplement-complete-paired-Neumann-reconstruction-and-root96-normalization.md)dc553f11证明同完整e+3dt<1⇒两rhs双边Neumann逆与两残差误差界、指定root-even I96；实际门仍待，其他readout/7port/ν/Θ/负head/匹配独立。
-
-[WQS](results/R133-supplement-bidirectional-impedance-generators-and-complete-high-trial.md)bea91372全域/mean/两state/7port/ε及WPS false保proof与4ef462296a239c5abf90ea3239f210cfc23be002同open，旧目标冻结。
-
-[WVCA与WEXA原完成记录](notes/2026-11-16-completed-WVCA-and-WEXA-open-record.md)逐字保原两段及完整proof链接：WVC56与WEX31均锁，充分门false或整候选仍大；两mean/7ports/两rhs/真96和finite/负head/ν/Θ/高/matching条件不减，old0/lost0。
-
-已成Wiener V0/V1及physical-tail五报告464459B普通清理，完整原域/mean/方向/原失败/来源/依赖与restore19d780见[五报告恢复说明](notes/2026-11-16-completed-Wiener-and-physical-tail-derived-reports-restore-note.md)8989ec03/7702/52058497。只原字恢复，禁重算；未锁身份的high-boundary batch跳过。
-
-[WDH高块门](results/R133-supplement-explicit-dyadic-high-block-gate-from-complete-waist-error.md)06cad487：全WSMF whole和9原界经WBP/WIT/真实P97，J=2^4608给selected homogeneous右预条件高块χ<2^-44、逆<2；finite补J−1及Θ96/真96/两physicalmean/ν/无限head全保。非全物理逆或all-s，完整Schur/cross仍待。
-
-[WCTRA完整实际](results/R133-supplement-actual-clipped-scalar-trace-candidate-and-false-finite-gate.md)a3d329be：43901776543/1全96changed/36新+20原copy/六图五prefix/24门已成；45current/19history/16AST、45 SCI/44 exec、全旧scope/4pull和每球完整保。e+3dt≈11976.30849充分门false/finite0，不推奇异；原WVC/WPSfalse不改。全matrixρ2^-1/两rate/S/τ/κ3、193mean/7ports/两rhs保持，old0/lost0；已成36冻结。下一W2C固定原WVC参考，finite/其余matching仍待。
-
-[W2H](results/R133-supplement-two-sided-high-feedback-and-complete-centre-correctors.md)72bef388与[W2C](results/R133-supplement-complete-collar-Volterra-dual-feedback-candidate.md)09ada380已证固定WVC的双侧collar-Volterra候选：两collar residual二阶、完整transition/familyΔ/true dual H1/signed-centre；compact-core保持真实homogeneous图。角224/残差416，50新(+2)尚未算，旧T等同对象整球copy、旧EHigh重付。[W2CI](notes/2026-11-16-R133-collar-Volterra-dual-exact-input-inventory.json)389e6c6a已锁两native/原19history/29同对象整球；piece2549真cubic+65signed offsets+13signed intrinsic+193 family upper实际payload仍待CI验，zero_packet不作实际系数。原固定预算>128/25及KH>171仍仅旧recipe障碍；全atoms/两mean/七ports/两rhs/finite和其余matching保。WVC56/WEX31冻结。[signed collar模块合同](notes/2026-11-16-R133-true-collar-signed-packet-interface.json)62d86a42已成，源fb065375完整实际η/65signed/193误差/三wordΔ/mean/真adjoint/896/body域不外推；Decimal只诊断，科学未运行。只读core29b918e4/supp84aa5c46及完整合同b391731d已成，保43+44旧field/29copy与21恢复；native/AST尚待公共CI。reference/联合核压缩/5图与owner继续。
-
-[WJK联合中心核](results/R133-supplement-joint-centre-Green-kernel-and-complete-collar-cross-terms.md)5b9a257a已证F=P+Q*−Q*LcP及五collar项；body χ′仅在联合中心核抵消，actual两残差仍全付。真J*积分至R，单积分配方保两Green三角/实际band/mean/atoms/7ports；必须先共同Gf合完整带符号核再abs。纯证已成，新界与50(+2)仍未算，不能拿旧171加正项冒新小界。
+[R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)只排固定浸入中心的线性弯曲核内路径（至多平移）。这封住Ghomi等离散符号族的简单连续化，不排一般非线性修正，不计本题完成。主线继续精确core/全频逆与可见比例。

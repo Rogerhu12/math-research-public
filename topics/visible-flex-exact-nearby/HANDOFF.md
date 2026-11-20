@@ -6,7 +6,7 @@
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
-2026-11-20 09:35 UTC 实际 `git pull --rebase --autostash origin main` 至 `54996e4633960ba2d6daf3127b31f537f9d50420`；已读根/题 README，已读规则提交同上。相对前会话最后读点 `d86a3e8e`，根只新增 held-10pct 课题行，题 README 不变；本次拉取两文件 diff 空。每次 pull 后继续核两 README 差异，下一次实际 pull 不晚于 10:35 UTC。
+2026-11-20 09:40 UTC 实际 `git pull --rebase --autostash origin main` 至 `72d8a04358d88b1a5ef8f5571b123b14040aa8cd`；已读根/题 README，已读规则提交同上。相对前会话最后读点 `d86a3e8e`，根只新增 held-10pct 课题行，题 README 不变；本次拉取两文件 diff 空。每次 pull 后继续核两 README 差异，下一次实际 pull 不晚于 10:39 UTC。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -23,6 +23,10 @@
 
 geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0≤1e−4、|δν|≤1e−5以及全部 B/C/Cmean、腰 u0、第四 Robin、mean、phase、γ入口和 matching 后，held>.05075888242D、reach≥800D/25039、Hdiam≥360D/511，静态非共面 marker145..148。完整 core/全频逆尚未有，故不能据此宣布达标。最后只能全部匹配后一次冻结 ν*/Γ*/η/metric；不能把变ν的IFT当固定metric族，purephase只有刚体。
 
+## 本会话新增结论
+
+[R135](results/R135-no-harmonic-interpolation-of-disjoint-sign-bendings.md)（已证明）：固定浸入中心 X，增量一直位于同一线性无穷小弯曲核的连续等距路径只有平移；点态旋转向量到二次Gram的纤维至多4点。故不交支集符号族及双场圆周插值不能直接替代真正非线性闭合。此为限定方案的排除，不是本题完成，也不排一般弯曲。
+
 ## 已有可复用的正侧链
 
 - WIC：原 m160 真 tail 的全系统逆界 κ=3、N=24480 已证。完整 reference、ρ2、193 mean/head、97 root+96 outer、7 ports、两 RHS 资格保留。
@@ -35,7 +39,7 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 ## 接手时真实执行停点与当前分工
 
-新readonly清单 `notes/2026-11-20-W2C-native-readonly-inputs.json` 已随54996e463推送；只更换已读规则与worker运维，所有旧数学模块/输入pin原样。下一独立workflow push继续此前未进入的完整native读取，0科学目标；graph4最终版尚未launch。
+新readonly清单 `notes/2026-11-20-W2C-native-readonly-inputs.json` 已随54996e463推送；只更换已读规则与worker运维，所有旧数学模块/输入pin原样。公共run `44712172133/1` 已成功完成此前未进入的完整native读取：60 current、23 AST、21历史原件、18输入检查全过；0科学目标、0旧重算。execution/report已自动推送，graph4最终版尚未launch。
 
 前会话最后自动 commit `56bb641c2` 保存 `43921663540/1`：23 AST 已过；native恢复前因他题 `serre-source-publication-recovery.yml` 未列白名单而停。readonly/science 均 false，science child0，目标0。原 execution/report 在 `notes/collar_volterra_dual_readonly_ci/run-43921663540-1/`。没有科学成功可冒认，也没有新目标需重跑。
 

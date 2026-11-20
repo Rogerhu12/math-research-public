@@ -401,3 +401,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 09:35 UTC｜visible-exact-astra-ac637-20261120：修复W2C worker被无关活跃workflow静态白名单阻断的问题；以每次rebase后的实际完整topic+输出容量核查取代全仓workflow预审批，数学输入/目标/恢复/数值条件未改。实际pull至96edc677044b6ad7c7fd3aa2f65bf77d9c0e27a1，两README差异空；下一步完成原native输入读取及graph4压缩。
 
 2026-11-20 09:36 UTC｜visible-exact-astra-ac637-20261120：修改共享.github/workflows/fourfold-codazzi-collar-volterra-dual-readonly-public.yml，使其使用已推送的规则/worker修复与新清单，接续原run未进入的native读取；仍readonly=true、0科学目标，不执行未完成graph4。非快进已实际pull --rebase后成功推54996e463；所见两README差异空。
+
+2026-11-20 09:40 UTC｜visible-exact-astra-ac637-20261120：证明R135固定浸入中心的线性弯曲核内等距路径只有平移（Gram纤维≤4点），已核Ghomi等原文的连续族缺口；仅排具体方案，不计完成。公共44712172133/1完整native读取成功，0科学/0旧重算；实际pull至72d8a04358d88b1a5ef8f5571b123b14040aa8cd，两README空diff。继续graph4/同算子有限状态逆和非线性接口。
