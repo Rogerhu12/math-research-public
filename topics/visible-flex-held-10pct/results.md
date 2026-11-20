@@ -111,3 +111,8 @@ R55补充：[较宽设计盒与条件完整D≤2.69](notes/2026-11-20-soft-start
 ## R58. 当前4.625尾背景的连续高度与曲率
 
 [完整证明](results/R58-q060-valley-background-height-and-curvature.md)。对当前物理参数独立真实积分：h(.3)<.025835、w≤.41、全背景|κ|≤8；覆盖外cut恢复、protect159混合、同源深尾和C²平盘。固定512-step binary校准值，未付JS有限profile求值误差；非旋转场和真DN不由此通过。以同原点z_b∈[.1,1.28]放置时反射背景组件D≤2.68/support>.087。
+
+
+## R59. 新短桥的严格参考几何与两种实际扰动窗口
+
+[完整证明](results/R59-soft-start-short-bridge-geometry.md)。当前cut参数、原curvature4的真实积分桥已付半径<1.21、support>.74、K≤4、桥高(.3801,.3813)。给完整材料坐标/Cartesian两jet的两种充分窗口，备选使用|n−n0|≤√2η1；实际桥若支付它则半径<1.34、K<12.3且cut高度自动落在尾窗口。源积分和数值profile不同，差纳入V；尚未认证实际非旋转连续场。
