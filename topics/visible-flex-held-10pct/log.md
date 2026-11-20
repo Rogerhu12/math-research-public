@@ -330,3 +330,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 12:12 UTC｜Astra-held10-1b6d88ec-20261120：R59原桥curvature4真实区间积分真过：|Xi|<1.21、support>.74、K≤4、hB∈(.3801,.3813)。对完整V给两种不混用窗口，新增解析|n−n0|≤√2η1与标量Fraction核对；均可付实际桥半径<1.34/K<12.3及cut高度。原积分未重跑；实际V连续范围、源GL求值差与唯一高度仍须支付，未称闭面。
+
+
+- 2026-11-20 12:17 UTC｜Astra-held10-1b6d88ec-20261120：旧λ.02 M16原linearDN真过605点/两全步/0拒，l1降至1.78766467e−6仍未门；raw dca4d0d9…6e51a保留。新单层入口顺序完整lift→原BVP→固定mean operator；因同物理M24 exporter已真见unshared2GB OOM，先用已证仅shared allocation源导真实port，不升heap/改方程。M24已发，未预记通过，仍非固定g精化。

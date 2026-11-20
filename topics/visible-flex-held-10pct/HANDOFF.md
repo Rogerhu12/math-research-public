@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`df1e9a4ddbe79dc5dbb602f7091958a5352e4868`；12:13 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`72017be969e4c9b3c612f6f74a3ba71c6b9e46a4`；12:17 UTC本地真实pull --rebase至该提交，双README无变。每次pull检查双README差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。11:06 UTC终端已恢复。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)和[本次H到73e060](https://github.com/Rogerhu12/math-research-public/blob/73e060110b34d302cc86f920a7b054590afbe8fd/topics/visible-flex-held-10pct/HANDOFF.md)；其链接的具体note优先于压缩摘要。
@@ -27,7 +27,7 @@ R55多段profile独立source `/workspace/scratch/1b6d88ecddf3/m3-work/multistage
 - λ=.02全原linearDN再生真过605点/RMS9.99096e−7，但metric_l1 2.39286785e−5未门。源场 `material-lam002-linear`完整hash见原返回；禁止重跑已完成暖恢复。[返回](notes/2026-11-20-live-material-lambda002-return.json)。
 - 同场固定mean512审计真exit0：N1024 operator峰2.1302182e−5，完整R=2.26536e−4，径向缺陷仅2.96e−8；ψ26—50壳主导，mean512/1024差2.44e−15。只换当前径向导数最多改节点metric<6e−8，不能解释超门。[实际审计](notes/2026-11-20-material-actual-audits-and-tail-start.md)。这是浮点同场事实，不是连续真实g证书。
 - 首trueDN在ready前因LD继承覆盖被原native guard拒，calls0，不是数学尾失败。清子环境且同Python/NumPy/SciPy导入已真过；**M8真尾已有终态**：两外迭代过原trueDN与射击门，但prefix metric2.39288e−5仍未门；目录material-runtime-retry01，seam mean2/nonmean2差1.15e−7/7.44e−8，仍欠闭合；[终态对照](notes/2026-11-20-material-m8-true-dn-and-m12-linear-return.md)。
-- M12真实port/完整lift已exit0，角求积256付原N>144，二jet差≤4e−15；初猜/port在 `material-lam002-m12-transfer-v2`，未作BVP接受。[记录](notes/2026-11-20-material-m12-full-transfer-return.md)。M12原linearDN已真过605点/两全步，metric_l1降至7.61134e−6仍未门。同场mean512的N512/1024 operator已真得6.82951e−6/6.85134e−6，公共节点差0。M16完整lift/真实port已真通过，二jet差≤4e−15；初猜raw bf87d105…760f8、port b87fa615…89f6。[小记录](notes/2026-11-20-material-m16-full-transfer-return.json)。**新命令held10-material-m16-linear-01**从该初猜求M16原linearDN，λ未前进。
+- 同旧λ.02模型M12/M16全原linearDN均真过，l1依次7.61134e−6/1.78766e−6，仍未门；M12实际operator6.85134e−6。各维完整lift/真实port已真核，系数1；[终态与hash](notes/2026-11-20-material-m8-true-dn-and-m12-linear-return.md)。**当前held10-material-m24-stage-01**：仅shared allocation副本导出M24/quad512 port，原模型full lift→原BVP→mean512固定operator。原unshared M24的2GB OOM已在本地新g路径观察，避免原样重试；原heap/门未变。
 
 ## 几何、证书与尚欠步骤
 

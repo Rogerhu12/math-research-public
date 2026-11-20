@@ -76,3 +76,23 @@ README要求的全部物理参数冻结后的收敛。新控制越出先前M8有
 故当前实际样点已超门，不能把原l1失败仅归于其保守性；这仍是浮点
 同场诊断而非外向连续证书。该M12场保留，下一步从它做完整M16参考
 传递及真实新维port，原λ与门限不变，仍属于设计延拓。
+
+
+## 4. M16 实际降误差及下一层入口
+
+随后M16原linearDN实际exit0：605点/RMS9.990833344890345e−7，
+一次call、两次全Newton步、零域/merit拒绝。原metric_l1继续降至
+1.787664669180367e−6，仍未过1e−6门。原raw SHA256为
+`dca4d0d92d9b4b3647ce8698ff308adf656fe57d8d640d0d58bea464f8a6e51a`。
+实际输入源为上条已验证M16 full lift，新控制和完整小指标追加同名JSON。
+这还没有M16 trueDN或连续operator证书。
+
+同物理尾的另一实际M24 port导出已发现原unshared引擎在2048MB Node堆耗尽。
+下一层因此使用已有仅allocation的shared installer，在新源副本导出同物理
+M24/角求积512端口；原heap和原方程/门保持。模型重建及完整lift仍读取
+原来源，不把生成port所用的内存优化误作物理修改。
+
+新 `extend_material_mode_stage.py` 只顺序调用已有完整transfer、原portable
+BVP、固定mean512的relative operator审计，保源命令的全部原门和背景参数。
+它把真实状态和失败原因写成小摘要；源码已经py_compile实际通过，登记时
+M24尚未实际返回。该入口不运行真尾，也不把可变δ/c设计称作固定g精化。
