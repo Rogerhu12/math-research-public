@@ -4,7 +4,7 @@
 
 ## 规则与目标
 
-最近规则核查：2026-11-20 11:45 UTC，真实pull/rebase至 `40140142701fb4f99ab9b3641c023b1e83d30dc1`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 11:47 UTC，真实pull/rebase至 `04ae1ebc3c0e7bf3fa4439095e62d7486818b751`，双README相对上次已读无差异。
 
 公开仓库内工作，终端git普通push；NFF立即pull/rebase再推，每次查双README差异，至少每小时pull。根README已授权全部必要修改/发布；完整证明直接登记，不加冻结/独审门。raw只scratch，Git/Release/artifact只保小源/参数/run/SHA/紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌只瞬时CLI，不写文件/提交/回复。根唯一git writer，代理写work及小blob。
 
@@ -44,7 +44,7 @@
 
 [R658](results/R658-complete-body-diameter-and-fixed-grip.md)实际全922胞/全角/两帽/镜像位置覆盖自然返，6077的D≤4.106819。报告bcca1113、全源/参数刊。相同父胞821 Q16384/r32给K≤8.069613、support≥.4574082、0未付盒，.03DK≤.9942132；仅本胞，非全域reach。半径.45固定帽盘diam=.9；若接既有高≤.001固定标记，D≤4.108819且握持比例>.219，未冒标记族/held/非全等已完成。
 
-- geometry_path：v4b12步已自然返2b143，Jw.28981378/Gram.04620002、known product.991814。按新尾部谱扩17径向中心，六步5接受/1拒得1240，Jw.28193249/Gram.03569674；新prefix227峰product.992944只超算法余量。N8192密角纯读完成、无更高新样本；保留新峰，接物理H²正则恢复/下降。
+- geometry_path：[v4b12步](notes/2026-11-20-curvature-qp-protected-992-twelve-step-result.md)已自然返2b143，Jw.28981378/Gram.04620002、known product.991814。按新尾部谱扩17径向中心，六步5接受/1拒得1240，Jw.28193249/Gram.03569674；新prefix227峰product.992944只超算法余量。N8192密角纯读完成、无更高新样本；保留新峰，接物理H²正则恢复/下降。
 - fullclosed_solver：24de父完整256/64行已返13ce，Jw.29494283/Gram.03981718；新2b143及r17所有已知点重评后product.989822<.992。完整永久κ/半径记忆保留；准备分块更大行矩阵以同投影接下一完整方向，不移植其他父的曲率数值。
 - recover_evidence：[R657](results/R657-complete-closed-relative-Gram-and-same-scalar-enclosure.md)完整连续Gram接口已证，def1胞839严格上下界.10186124/.10187890，同a五次Taylor余项约1.08e−14，不能靠证明网格加密冒求解收敛。严格同像径向复合已实际返：Jw仅降.504%，Gram略升，不作主父；接正block-Lp/IRLS真实目标方向，不以冻结权重代价下降冒max下降。
 
