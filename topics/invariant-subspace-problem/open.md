@@ -118,3 +118,5 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## Deddens有限头费用的实际优化入口
 
 [收缩强稠密及原有限头最优成本](results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md)已给同输入硬cut、严格下三角有限头核心及至多2N个真实端点矩阵范数公式。下一可在这些准确有限凸约束中研究同一递推输入的费用，而不是继续用N²项粗和或未知L²尾率。未知A不变子空间未证被核心保持，所有统一成本族仍不能localize；SOT单位球稠密本身不闭普通桥。
+
+**[自适应硬复制的五次成本障碍已闭](results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md)。** 同一真实输入的R_J A递推若保持正范数，其存活集有统一正测下界；最大dyadic圆柱族覆盖−1,…,−n且至少δn个，凸性给Σlog最优c_A≥c₀n⁵。原−log‖Aⁿ‖≤(940/7)n⁴，故这种硬copy即使自适应/嵌套亦不能完成标准预算矛盾。继续一般源重排与真实成本，不把此排除扩成任意D_A障碍。

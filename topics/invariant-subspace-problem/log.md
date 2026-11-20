@@ -453,3 +453,7 @@ AI-assisted GPT-6 Astra Pro：同输入硬cut实现完整有限头收缩逼近�
 ## 2026-11-20 10:21:12 UTC — Astra-ISP-b2a9acde-20261120：ess4外均值全部rankH3排除
 AI-assisted GPT-6 Astra Pro：原完整mean/H/highest逐支排活跃3与零2的六种组合，包含全部重合jets、半权及∞；最后物理conic的行列式和两线性余式由根独立整数复核。
 完整证明见results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md。剩余仅该支rankH4/5，内均值及ess5/6不扩张；继续原完整方程，不把分支排除当普通ISP完成。
+
+## 2026-11-20 10:21:59 UTC — Astra-ISP-b2a9acde-20261120：自适应硬复制的最优成本障碍
+AI-assisted GPT-6 Astra Pro：精确同输入递推及ℓ=1达到的最优Deddens成本，经最大dyadic圆柱计数给五次对数下界；原幂仅四次预算，所有自适应硬复制均无法由标准移幂上界得到矛盾。
+证明见results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md，只关闭该具体机制；全部原分支与旧H完整归档，继续一般来源及软机制。

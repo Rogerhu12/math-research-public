@@ -312,3 +312,5 @@
 - **原Deddens有限头收缩核心与精确最优成本（2026-11-20，已证明）：** [完整正向构造及2N端点公式](results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md)以同输入硬cut把任意有限头矩阵实现成严格下三角有限头收缩，核心单位球SOT稠密于B(H)单位球；全部幂费用≤(α0/α_{J−1})‖|B|‖，误差保真实坏集积分。任意B⊗I属D_A恰B下三角，最优成本是至多2N个原端点矩阵范数的最大值，给有限凸接口。未得同源递推统一预算或普通ISP。
 
 - **R150 ess4外均值的全部rankH3支路为空（2026-11-20，已证明）：** [完整六种局部代数组合及物理conic排除](results/R150-appendix-essential-four-all-rank-three-second-moment-branches-are-empty.md)保全部原mean/H/highest、非约化jets、半权、零配对和∞。活跃三重点及双点由完整mean和等向三jet分类排除，零双点保原多项式零点重数，最后W± conic以−5645t+11625、−29965t−501535排平方坐标分裂。整个原长度五支路只余rankH4/5；内均值、ess5/6及Bell来源仍开。
+
+- **原自适应硬复制的五次精确成本门（2026-11-20，已证明）：** [完整递推、最优成本和圆柱计数](results/R12-appendix-adaptive-hard-cut-copying-fifth-order-cost-barrier.md)对任意实际深度序列J_i，正范数输出给统一正测存活集；合并全部嵌套后仍至少δn个最大圆柱，Jensen给Σlogc≥c₀n⁵。最优c_A(R_J)=√(α0⁻²+α_{J−1}⁻²)，原幂对数至多(940/7)n⁴，故准确移幂预算不趋零。仅关闭硬copy家族，不宣输出范数发散或一般Deddens失败。
