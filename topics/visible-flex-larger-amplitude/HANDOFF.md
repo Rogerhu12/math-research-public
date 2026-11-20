@@ -1,45 +1,50 @@
 # HANDOFF — visible-flex-larger-amplitude
 
-维护：Astra-larger-resume-24b2ab87-20261120（AI）。接手 /root 与 Astra-larger-parallel-16f63c8b-20261117。**未完成；持续到 README 全部标准，随后加强比例。**
+维护：Astra-larger-resume-24b2ab87-20261120（AI）。接手/root及Astra-larger-parallel-16f63c8b-20261117。**未完成；持续到全部README标准，之后继续增加比例。**
 
-## 规则与已读版本
+## 规则与来源
 
-最近规则核查：2026-11-20 10:26 UTC，真实pull/rebase至 `76c438e7db6231c1e56385d98cb9f7290c00fc21`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 10:31 UTC，真实pull/rebase至 `c3e94f0c35a193a0af3786b354eb85dd2a4ede22`，双README相对上次已读无差异。
 
-仍只在公开仓库及其公开 Actions 工作。根12：完整证明直接发表，不加冻结、独审或额外机械门；根15：数组、证书及可重算 raw 不存 Git/Release/artifact，只存完整小源码、参数、run、SHA与紧凑结论，题≤200MB、单MD<100KB、HANDOFF<10KB、open<30KB。PAT只瞬时CLI，不入文件或connector；本次connector用已有连接。root唯一commit/ref发布，子agent只造完整UTF8小blob。终端失联时根8允许connector传完整小于100KB文本；不分块编码数据。恢复后仍至少每小时真实pull、核双README差异并记录，NFF立即rebase后普通push，不force。
+公开仓库内工作；终端git普通push，NFF立即pull/rebase再推，每次检查双README差异，至少每小时pull。原README授权全部必要修改/发布，无需再问；完整证明直接登记，不加冻结/独审/额外验收流程。可重算raw只scratch，Git/Release/artifact不存；只保源、参数、run/SHA及紧凑结论。题≤200MB、单MD<100KB、H<10KB、open<30KB。令牌仅瞬时CLI，不写文件/提交/回复。旧完整责任保[11/20早期交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md)及open§1–7，不把failed/partial/unreturned互换。
 
-原 root 的 Actions 链、11/17 并行本地链及全部旧责任完整保在 [e6503907版交接](https://github.com/Rogerhu12/math-research-public/blob/e6503907bb671290bd2b6e3c4051d98c3958a6d1/topics/visible-flex-larger-amplitude/HANDOFF.md) 和现有 open §1–7；原场/failed/partial/unreturned不能互换。此次没有重跑已完成开放片连续证书。
+## 目标与已证结构
 
-## 完成目标
+同一固定g；连通闭C²嵌入；全t强C²连续；固定有内点H且diamH≥.2D；整像δhold≥.2D、含反射δE>0；全t reach≥.03D；全域relative metric≤1e−6。D是完整闭F0直径。固定g/参数/t后mesh/频率/t实际精化至机器或原求解容差；可复现网格配方、严格存在缺口均须说明。带边片、有限不收敛场、低幅、障碍均非完成。
 
-同一固定g；连通闭C²嵌入；全t强C²连续；固定有内点H且diamH≥.2D；整像δhold≥.2D、含反射δE>0；全t reach≥.03D；全域relative metric≤1e−6，D为完整闭F0直径。固定g/参数/t后实际mesh/频率/t精化误差继续下降至机器或原求解容差；多网格按根15交生成配方，说明严格存在缺口。障碍、接口、带边前缀、低幅及有限不收敛近似均不是完成。
+R648原全开放prefix连续Gram<4.94e−7，R651 K≤7.04608，R652加权支持；均不自动继承当前闭场。R650正定流支持给闭C²球面条件嵌入/reach。新[R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)准确将原11335680角行合为2839455重数行，保全1332245自由变量/目标/JᵀJ。[R654](results/R654-complete-integrated-H2-norm-and-endpoint-spectrum.md)证明D/h完整缺陷范数与真实胞内q''积分1/11–18等价、全端口谱界独立minh/M、同范数粗白化只减半平方步范数。均不冒闭解。
 
-## 2026-11-20 真实已完成步骤
+## 当前实际父与几何方向
 
-- [旧任务恢复](notes/2026-11-20-resume-recovery-evidence.md)：旧241/243/245/247/248/250/253/254均completed/failure；旧本地97062/1878没有终态及可接进程。只读254独立16924字符小结，其内部科学仍未返；没有新全闭接受父。
-- 已从历史 `60321451c058c6a51da58c37ae5ec6f2d1145f74` 的M96/.99真实接受输入（SHA `b4d2b98abc1da2dd149ca28e83ea17963a0d2a50b3c454baabc92f6229b412ff`）重建 .991→.992→M112同g精化→.993→.995；最后499节点、RMS9.3255586209e−9、BC3.47e−18。再按原pulse及同Hold配方生成923节点完整warm，新bundle SHA `79c161cc11a0743209ca3947e2b0f51f7ab7046e14ebfadf519f5d6e7259edba`，S/R/H同旧值。新算身份独立，不冒丢失旧raw。
-- [R653](results/R653-exact-quarter-angle-closed-Gram-reduction.md)：准确半周/反射约化把原11335680行合为2839455带重数行，原目标、JᵀJ/Jᵀr、全部1332245自由变量不变。[batch实现](notes/2026-11-20-resume-batched-quarter-implementation.md)已刊。真实warm full/quarter平方和24260.053837990312一致，点Gram.655108956917；梯度raw差6.10e−10触发原诊断false，实际正尺度下差3.24e−12。具体定位记录随后刊，不换阈值或另设科学门。
-- [63维物理子空间](notes/2026-11-20-physical-fit-six-step-result.md)确实完成6步：raw SSE24260.05384→6430.55548，点Gram.655109→.586426，点det最小.728890，H→1.939215771562。原完整算子末读与子空间目标相对差1.123e−12；仍远超1e−6。真实候选SHA `af89a4414fb0cee35d75dba5530e9b45b62abd248ddf7509cca92c2a9696a505`。源与公式同刊，不把有限低维空间当完整解。
-- 首全空间128次LSMR方向确实完成：完整SSE24260.05384→23196.32439、全步下降，但点Gram反增到.670964，劣于63维父；最大A增量.093493，全部节点/中点曲率点值7.79724→7.79856。未有reach或连续metric证书。新min mesh h=1.5625e−5，没有字面极微胞。完整来源与配方随后刊。
+[完整镜像D/K说明](notes/2026-11-20-closed-diameter-curvature-necessary-screen.md)：原上片+z镜像+±H两盘是中心对称体，D=2max|F|；R248轴向相位保此体半径，后加固定盘内标记不移除活动点对。故D≥2|H|，所有原stage/角点给Dlb，.03DlbK≤1是必要点条件，非reach充分证书。不能拿单半体直径或另一个Ft冒D0。
 
-## 执行恢复与紧接工作
+**当前推进父**：[完整H²+动态必要几何首步](notes/2026-11-20-fullclosed-integrated-h2-reach-screen-first-result.md)从63维af89真实父满步：SSE6430.555→1277.03040673224，点Gram.586426→.333294625491，K7.21125→7.95866429405，Dlb4.06505794196，产品.970572944878≤.98；H1.93961750135，detmin.80764896。256inner/83.99秒，端口残差2.29e−17（浮点不是严格零）。父在work/fullclosed_solver/integrated-h2-reach-screen-first/final.npz，SHA `e8b2ca40e184157abba15c3c85ebdd651e38cbb4035edb2cfd652c8b57ad0637`。仍远超1e−6，且全部仅节点/中点。
 
-09:49–约10:03 UTC执行服务断线，曾明确unavailable，已按[故障记录](notes/2026-11-20-execution-failover.md)保存恢复源；随后环境恢复且原raw全在，未发生再生成。新Actions未创建/启动，不冒填run。本次终端已重新接管提交推送。
+活动工作：geometry_path从此父做1280物理列的曲率活动约束QP（解析κ和D点导数、原SSE及全点产品真验收）；fullclosed_solver准备同导数到全部free的精确伴随并做完整投影约束方向；recover_evidence完成R655的真实920维Z0恒Gram盲空间与同g6Gauss补采样。不能因为节点残差下降而掩盖胞内振荡。没有把这些准备记成已经接受的新场。
 
-[173维粗三jet六步](notes/2026-11-20-physical-threejet-six-step-result.md)现实际完成：原SSE6430.55548→817.5061370945、点Gram.586426→.310475030101、点det≥.79764877，H1.863443905458；原完整算子与子空间SSE相对差2.15e−12。候选SHA `f062a4b2684c09e55f90265468699eea638ee8739f3e16d99fa6bd874036971a`，本地work/root/physical-threejet-six-step.npz；仅点值，仍未达。
+## 已完成数值及失败，不重复
 
-[首完整列均衡方向](notes/2026-11-20-fullclosed-column-equilibration-curvature-failure.md)已真实结束：256 inner/76.7秒，满步Gram209.65，alpha1/32才SSE817.506→792.530、点Gram.310475→.300837；但采样曲率14.0934→2748.11，全步A最大49727。弱normal列的反尺度放大严重，不能作reach进展，不继续同尺度。保留其完整失败报告，该完整方向仍以较平滑f062父试新H²型范数；root另顺序扩物理空间。fullclosed_solver接完整双积分H²型（D额外乘h）+同范数白化173，geometry_path实现全模极分解/带状方向；root准备按剩余误差扩充物理子空间。全部原方程/精确端口保留，不以方向/预算/时长收尾。
+[重建与首LM](notes/2026-11-20-reconstructed-fullclosed-and-first-lm.md)：历史60321451c的真M96/.99输入SHA b4d2b98…，按.991→.992→M112→.993→.995、原pulse与Hold生成923节点/M160完整warm79c161cc…；最后前缀499节点RMS9.3256e−9。新算身份独立；原g/S/R及准确oracle绑定。首次旧local-scale128方向SSE24260→23196但Gram反增.670964，不重复。
 
-[六角模314维](notes/2026-11-20-physical-threejet-m6-six-step-result.md)真实SSE817.506→268.949656、点Gram.310475→.197410916；点曲率10.74568（比173父14.093降低）。随后[11粗节点674维](notes/2026-11-20-physical-threejet-m6-r11-six-step-result.md)同g嵌套径向扩展SSE→132.703850、点Gram→.174584962，H1.838802490487。最新物理父work/root/physical-threejet-m6-r11-six-step.npz，SHA `e94465d25783c81dc07804fcfdb0b64090fbec75f4cd362ad150adefee8a98a0`。旧曲率界不继承该新数组，持续细化角/径向修正并检查实际六jet。
+| 分支/父 | 原SSE | 点Gram | 采样K/状态 |
+|---|---:|---:|---|
+| warm79c161 | 24260.05 | .655109 | 7.79724；Dlb4.16750；必要产品.97485 |
+| [63维af89](notes/2026-11-20-physical-fit-six-step-result.md) | 6430.555 | .586426 | 7.21125；Dlb4.06939；产品.88036 |
+| [173维f062](notes/2026-11-20-physical-threejet-six-step-result.md) | 817.506 | .310475 | 14.0934，几何不够 |
+| [314维m6](notes/2026-11-20-physical-threejet-m6-six-step-result.md) | 268.950 | .197411 | 10.7457，仍违双帽必要界 |
+| [674维r11](notes/2026-11-20-physical-threejet-m6-r11-six-step-result.md) | 132.704 | .174585 | 17.6646 |
+| [1280维m12](notes/2026-11-20-physical-threejet-m12-r11-six-step-result.md) | 36.11899 | .0528323 | 17.1862 |
+| [2648维r23](notes/2026-11-20-physical-threejet-m12-r23-six-step-result.md) | 14.36830 | .0441174 | 44.3647；必要产品5.4104 |
+| [全M160 polar](notes/2026-11-20-polar-banded-six-step-result.md) | 20.03111 | .0374014 | 95055.26；严重几何失败 |
 
-[首完整H²方向](notes/2026-11-20-fullclosed-integrated-h2-first-result.md)已从f062实际满步下降：SSE817.506→492.202693、点Gram.310475→.229642、点K14.0934→13.2342，最大δA仅.244；原全变量及端口保留。原L²方向未启动，D/h量纲分析先行修正。续三方向仍是该分支，须保真实状态；root物理分支已更低，两者不混作同一条轨迹。
+这些物理空间按实际残差谱/径向细化顺序展开，不是不同g目标；谱、完整源码/参数/真实回溯在各note。低SSE却高K的子代不能当作整体几何进展。polar数学分离/带状SPD实现正确也不补其H1不足。
 
-[R654](results/R654-complete-integrated-H2-norm-and-endpoint-spectrum.md)完整证明：全部quintic的D/h尺度以1/11–18常数等价真实q''积分；原L²和H²端口归一化谱界独立于minh/M；同范数白化粗列最多减半平方步范数，不给曲率或求解收敛。下一必要条件父改为63维af89：真实K7.21125、完整镜像相位体D点下界4.069386，.03KD=.88036。较低Gram候选K更大，须另记而不能选作完整几何推进。原双帽在±H，故D至少2|H|；core+单帽的D读法不够。
+[弱列均衡失败](notes/2026-11-20-fullclosed-column-equilibration-curvature-failure.md)：f062父的256方向alpha1/32 SSE817→792，K→2748，不继续该尺度。[H²首步](notes/2026-11-20-fullclosed-integrated-h2-first-result.md)817→492，K14.09→13.23；[续三步](notes/2026-11-20-fullclosed-integrated-h2-next-three-result.md)SSE→194.08、K→17.48，纯metric分支不够。[cap16部分中止](notes/2026-11-20-fullclosed-integrated-h2-cap-partial-result.md)实际176Jv/176VJP后exit130，0完整方向/试步/接受；发现双帽D必要界后及时改正，预算不冒完成。原L²方向从未跑；H²先由D/h量纲修正。
 
-## 原证明、剩余几何与容量
+## 复现、环境与剩余
 
-R648全开放prefix连续Gram<4.94e−7；R651全K≤7.04608；R652加权支持下界；R650正定流reach条件定理；均不替当前真正闭面输入。11/17全闭warm147→.655、FFT与双积分准备保全部原范围；旧短区间157行不是完整尾DN。原§1–6的同C、两帽、材料角、双mean、全H/J/FD/Loewner/反射E与九冻结450责任仍按各自模型保留，不能将不同模型merit相减。
+全链入口scripts/resume_20261120/reproduce_and_solve.py（默认只重建、不重复已知差的LM）；batch为scripts/resume_20261120_batched_closed_gram.py；物理v1/v2/v3及受几何筛选fullclosed_integrated_h2_lm_v3.py均在scripts。Python3.12.14/NumPy2.3.5/SciPy1.17.0/单BLAS。work分root/fullclosed_solver/geometry_path/recover_evidence，raw不入库。
 
-真正等距闭面、连续全域metric、全t嵌入/reach、固定H/完整D/整像held/含反射E及固定参数精化均未完成。现有低幅邻题不能代本题.2。
+09:49–约10:03UTC执行服务故障，API小文本恢复已刊；后环境/原数组都恢复，没有实际启动Actions或再造raw。见[故障记录](notes/2026-11-20-execution-failover.md)。旧本地5732b26重复内容在c0c7已保存，保本地backup并rebase跳过，无远端历史改写。旧任务241等8个Actions已failure，旧两本地session无终态；旧科学范围不冒成功。
 
-[容量记录](notes/2026-11-20-resume-raw-retention.md)已按根15普通移出旧R168可重算993245B报告，原生成器/参数/输入/证明全保，可从固定2d56baaaa恢复到scratch；不改写历史。本地失联不改变已证/数值/失败标签。继续open下一实际子题。
+真正闭合等距场、连续全域metric、全t嵌入/reach、固定H/完整D/整像held/含反射E及固定参数精化均未完成。继续open下一实际子题，不能因本批/阶段/时长停止。[根15容量记录](notes/2026-11-20-resume-raw-retention.md)已普通移出旧R168可重算993245B报告，源码/参数/旧SHA/历史恢复位置全保。
