@@ -69,3 +69,17 @@
 ## R30. 保留原角网格的周期求积恒等式
 
 频率sj、声明N点网格的完整mean/非mean投影及Jacobian可由N/gcd(N,s)个独立节点等权求得，并周期恢复N行；原D/S/A节点门等价。只证明有限实数方程恒等，不主张浮点逐位一致或新tail解。[正文](results/R30-periodic-identity-for-the-declared-angular-quadrature.md)与配套8处实际M16对照给出范围。
+
+- [R47：固定 T/U 槽的有限同伦与精确嵌套控制空间](results/R47-fixed-slot-nested-circle-homotopy.md)。已登记正文的索引补全，结论范围以原文为准。
+
+- [R48：升模时完整参考补偿的代数恒等式](results/R48-exact-reference-compensation-for-mode-extension.md)。已登记正文的索引补全，结论范围以原文为准。
+
+- [R49：完整参考补偿下 Frenet 正根与均值原函数保持](results/R49-frenet-mean-invariance-under-exact-reference-transfer.md)。已登记正文的索引补全，结论范围以原文为准。
+
+- [R50. 固定槽圆弧控制空间在完整 C4 相容空间中的稠密性](results/R50-c4-density-of-fixed-slot-circle-controls.md)。已登记正文的索引补全，结论范围以原文为准。
+
+- [R51. 固定真实支撑主矩时，保护圆弧半径与真实圆心的必要界](results/R51-primary-moment-circle-center-necessary-bound.md)。已登记正文的索引补全，结论范围以原文为准。
+
+## R52. 材料曲率核心与短法向圆弧的条件握持窗
+
+[完整证明](results/R52-material-curvature-core-and-short-arc-window.md)。直接在单位材料弧长上定义全周长2π的严格凸闭核，补弧控制保准确圆弧并给完整参数jets。周长控制圆心、支撑和核心尺寸；在实际完整图D≤2.65等前提下给三重>10.39%、四重>11.72%整像握持预算，并明确插柱后的直径与支撑成本。首负K的材料特征窗有新有理下界。没有完整闭曲面、BVP或同g收敛结论。
