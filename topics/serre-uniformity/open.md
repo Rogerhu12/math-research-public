@@ -19,6 +19,8 @@ $$
 
 R925（r2/8）与R940（r32）已保完整Norm先消、原calibrated log、全部平方比与a_h，准确给原J32非零 iff 同h Legendre与Q′都非零。R938已排权34的低层/首层所有隐藏p次幂，不重做节点障碍。[R949](results/R949-original-all-weight-sigma-CM-marked-identity.md)已证明全i≥0的原A_(6i+5)=6(−108)^i Cmark，其中Cmark=[V_(6i+4)†/(V4†E6^i)]mark=(6i+4)!f_i(−864)^−i/24。生成式保positive CM、原oldform phase和指定2同源，非插值；当6i+4<p才把f_i同零搬成此实际CM商同零。仍未判这些评价单位，互补g序列须自己定源，不能混入原Jacobian的另一companion。
 
+[R954](results/R954-original-odd-sigma-and-conductor-two-s-CM-evaluations.md)已为互补g族定源：conductor(2s)的正CM H_(6j+2)，W_k(τ′)=H_k(Q)，在同mark上Dmark=[W_(6j+2)/(η⁴E6^j)]mark=(6j+1)!g_j(−864)^−j，A_(6j+2)=(−108)^j Dmark。Wagner Prop4.5及4.1–4.2的符号、完整格乘子、有限角色与η⁴基标量均已核。对原h=6i+7、i+j=N−1，fi gj=24(−864)^(N−1) C_(h−3)^mark D_(p−h−2)^mark/((h−3)!(p−h−3)!)；这两评价家族不是R913的原两权。联合非零仍必须保同h的Legendre及本原性。
+
 可继续的实际选择是：证明充分大p有某一原本原h的共同单位，或将真正更高原系数用于原global约束。R891的完整六挠基除子和R855/857的成长次数界均已登记，不能用高顶项单位冒固定低jet。
 
 ## O2：完整原超奇异迹及真正的whole CM packet

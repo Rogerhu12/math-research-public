@@ -670,3 +670,7 @@
 ### 2026-11-20 19:06 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R953完整识别实际E_r+修改、正则πW=6G及原高权Hasse边界，全部Igusa尺度、−1/6和原mI/d1保留；底Hodge正则剩余项与低权水平极部分开。
 - 全局p-curvature/cohomology sheaf另证F_r注入，原高权指定配对仍未判非零；继续真实CM长链与同h联合单位。
+
+### 2026-11-20 19:08 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R954完整给出互补原g序列的conductor2s正CM评价，全部Jacobi符号/格乘子/η⁴基标量和原period保留；root另核Wagner Props4.1–4.2及4.5。
+- 两序列同h评价家族现准确，但不混原Jacobian两权、不冒联合单位；继续本原标签Legendre·sigma与真实Cartier长链。

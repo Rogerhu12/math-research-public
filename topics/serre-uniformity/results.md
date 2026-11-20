@@ -50,6 +50,8 @@
 
 - **R953（原高权边界与正则投影完整识别）**：[实际修改连接及原高权边界](results/R953-original-high-weight-boundary-complex-and-regular-projection.md)。正则π:E_r→ω^(pr)保πW=6G；真实E_r+的两项quotient给δ((G|SS)^(1/p))，准确恢复原Igusa主部与−1/6配对、全S和mI(cF)/d1。底Hodge正则剩余项为−6^r(r−1)!F_P/B_P，不能换成低权水平极部。p-curvature全局公式与曲线上cohomology sheaf谱列证明F_r注入，保绝对/相对Frobenius扭曲及log cusp；高权指定评价非零仍开放。SHA256 0575f4a140d41db88b5c54c050d275c2e6eade5fbb5b79162a8994b49ab72086。
 
+- **R954（互补原sigma序列的完整CM源）**：[原奇sigma与conductor2s CM评价](results/R954-original-odd-sigma-and-conductor-two-s-CM-evaluations.md)。正finite ε2s、Wagner全Jacobi式和原CM格的完整sigma乘子给Dmark=(6j+1)!g_j(−864)^−j及A_(6j+2)=(−108)^j Dmark。全部相位、η⁴基标量和−1/864保留；首p范围才推g_j同零。与R949合成的同h两评价权为h−3/p−h−2，明确不是R913原Jacobian两companion；本原/Legendre/联合单位仍未证。SHA256 102add4fc307b6a8e2950ce745015727cad0c01cad5874b6754004c14fef1c5e。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
