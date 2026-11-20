@@ -283,7 +283,7 @@ S19 的实际 Newton 外端两残差依然是
 $$
 r_B=-[J_\theta B_\delta+Q_\theta\mathcal Z_\delta
 -\mathfrak d(\mathcal Z_\delta,f_B)],\qquad
-r_C=-[m_\delta(R)-1-C_{\rm ref}
+r_C=-[m_\delta(R)^{-1}-C_{\rm ref}
 -\mathfrak c_0(\mathcal Z_\delta,f_B)].
 \tag{N.21}
 $$

@@ -283,3 +283,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:22 UTC：真根锚定局部漂移两量首次Actions入口
 
 会话visible-exact-astra-ac637-20261120。science19541B/9c468c51、合同10411B/c5507a54整读；worker32390B/c64a4792复用既成pull/README/容量/非FF框架，只恢复positive4+germ1。manifest8972B/e8dfa5e0含15pins，24字段/5CLI/320bits/唯一新Dloc及exp，原X全域积分/exp仅读。true根padding、完整pair ε与原3594接口保；两个scalar依序保存读回，close101/100或新旧upper比较false仍complete。新增单用途workflow首次触发，四线程变量1、无numpy/旧producer/本机science；实际结果待。
+
+## 2026-11-20 15:24 UTC：Newton源附式N21的physicalmean倒数窄修
+
+会话visible-exact-astra-ac637-20261120。positive发现N21排版把原S19的mδ(R)^{-1}误作mδ(R)−1；现严格恢复原倒数，proof14250B/f37eb7ef。该外边界值仍未计算，N1–20、七量pure b92230d4与所有已成数值未改，不涉及重算；后继manifest只pin更正proof。
