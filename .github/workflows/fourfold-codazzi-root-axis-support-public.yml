@@ -1,0 +1,42 @@
+name: R138 same-anchor root-axis support
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/fourfold-codazzi-root-axis-support-public.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: r138-root-axis-two-scalars-v1
+  cancel-in-progress: false
+
+jobs:
+  two-scalar-root-axis:
+    if: github.repository == 'Rogerhu12/math-research-public' && github.run_attempt == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            topics/visible-flex-exact-nearby/README.md
+            topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_axis_support_public_worker.py
+            topics/visible-flex-exact-nearby/notes/2026-11-20-R138-root-axis-support-inputs.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12.14'
+      - name: Install the fixed directed runtime
+        run: python -m pip install --disable-pip-version-check python-flint==0.9.0 numpy==2.3.5
+      - name: Restore original bytes and enclose two new root-axis coordinates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python topics/visible-flex-exact-nearby/scripts/fourfold_codazzi_root_axis_support_public_worker.py --repo "$GITHUB_WORKSPACE" --manifest topics/visible-flex-exact-nearby/notes/2026-11-20-R138-root-axis-support-inputs.json --manifest-sha e5ffef8c89e55b0f6c78f3564d455439483bd9556a05ba1f7a5acc307ceb08f8

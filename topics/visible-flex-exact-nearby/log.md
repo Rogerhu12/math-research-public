@@ -63,3 +63,7 @@ root完整核V.1–10、entrywise正指数尾、short signed powers及原Gram/wh
 ## 2026-11-20：R141首次精确细分有向证书封包
 
 root完整整读新proof19224B/SHAee1b654b、refined38569B/SHAcf8c859a、owner42669B/SHA7298f95a、metadata generator18692B/SHA18679334与shared scalar全部源码；global独核H_i/n_i和真h_i/n_i、C/D递推/Gram/atoms、逐entry compact包含及saved-upper gate，joint另核chart/cache。只存mid/rad私有内存、不发布数组；768bits，最多1536格，当前先保1424cuts且每格span≤4，四wholebox/order16，每节点carrier刷新。先完整comparison+defect；strict ε<1后4源/193atoms/wholepoint共7目标，否则完整2目标不推奇异。新71输入清单65130B/SHAb501e9322e9e2c00c909a618a908ea05fb720364b3170da1085e51b5d6243c25绑定新worker98ef3773及新shared纯注释版；root全71+worker bytes/SHA/blob、11模块、AST/YAML核，0本机科学。原L/centre/endpoint全部只读冻结；新增共享workflow单push启动。open只压缩已冻结诊断/旧桥重复文字，其完整条件仍在原proof/actual及本提交前open。
+
+## 2026-11-20：同外锚真根两标量首次公开入口
+
+axis source16558B/SHAd152f31c，root/global/joint整核轴φ=θ=0、二维反向旋转/affine、每行半径与舍入累加、whole root collar和16epsilon修补；无新公开数组。新worker28672B/SHA80aa6549由root整审，增加实际Python/package版本元数据核（不import科学），只有source单child；先实际push marker、30min pull核双README、完整前缀/失败保存、每推fresh tree≤200MB且非FF立即rebase直到成功。11当前与10历史blob身份、3 AST、23科学字段、YAML全核；清单9741B/SHAe5ffef8c89e55b0f6c78f3564d455439483bd9556a05ba1f7a5acc307ceb08f8，0本机科学。新增共享workflow单次启动；同一已pin S/T/U不再改。R141另已启动44730452579/1。

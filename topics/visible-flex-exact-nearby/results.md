@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138根轴两标量公开输入合同](notes/2026-11-20-R138-root-axis-support-contract.md)：11当前输入/10历史原件，独立新child只消费原4650闭行和准确dyadic轴定义，求同外锚真根(q,s)及完整误差；原角数组只私有定义。source/worker整审、AST/全pin核，首次Actions；未授全角/分母/根正型/逆。
+
 - [R141精确细分与紧凑有向Gram](results/R141-supplement-exact-refinement-and-compact-directed-grams.md)：原H_i与真h_i同除n_i，保全部1424旧cuts；逐entry Arb核mid64/rad64包含、同父模板只复用常量、每节点carrier/各源/193atoms独立完整。root整审全部proof/source/owner，global独核；71输入/768bits首次公开封包，真实ε门尚未求值，CFB/finiteρ/7ports未删。
 
 - [R141共同标量短程包围](results/R141-supplement-shared-scalar-whole-box-factors.md)：固定点指数加signed Taylor完整余项给整box因子包含，内部dyadic balance不替换实际S，保同模型/真根/h、全部source/193atoms与两三角。root整读proof/源码及AST，0科学；长panel条件数仍须明确细分支付。

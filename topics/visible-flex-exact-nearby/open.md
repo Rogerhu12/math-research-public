@@ -185,4 +185,4 @@ WIC真tail κ=3已闭；WPN仍须完整e+3dt<1。WPS/WVC/WCTRA充分门均false�
 
 [残差输运补篇](results/R138-supplement-exact-residual-transport-and-fixed-interior-point.md)已将D²Psi[R,h]唯一方向角导−epsilon x_theta纳入辅助Vomega，得到H_r+partial_theta(epsilon H)=S且S无方向角导；同一固定p=e_z/2给support>2/5并重付outer常数。完整修正能量及保守H^-1/2输运界已证，仍须实际inner全角型和体能量控制W=L2H1/2后完成吸收；不能免费替换hybrid与真DF。
 
-[真实root全角型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)已保low even96=0、97起high stable、独立mean与H缺陷。完整mean分母及有限角型须实际核；正高频主符号只给有限入口，不授有限正性。先新算同外锚轴上(q,s)两标量，再付全角比较/真实C0-C1转移、mean分母及完整finite+tail，不重旧geometry。
+[真实root型](results/R138-supplement-complete-root-angular-form-and-two-scalar-geometry.md)保low96/high stable/mean/H；正主符号不授finite正性。[两标量首次合同](notes/2026-11-20-R138-root-axis-support-contract.md)11当前/10原件已双核，独立Actions将求同外锚真根(q,s)。随后仍付全角/C0-C1/mean分母及完整finite+tail，旧geometry不重算。
