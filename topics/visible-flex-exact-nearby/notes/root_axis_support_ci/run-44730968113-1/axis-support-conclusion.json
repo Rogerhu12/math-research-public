@@ -1,0 +1,72 @@
+{
+  "identity": {
+    "kind": "R138_same_physical_anchor_true_root_axis_support_v1",
+    "source_sha256": "d152f31cef53c1d58099cf3d1f994d2dad9d31d6a75cb42a7d9e54a35c17ae79",
+    "positive": "ea17451120f8c368ea3e5d4ee511a9d1d03d8a97705e7bd36cf9d015a8d9d93d",
+    "germ": "397f9b428c787823994f8c849ad7d1f9209220c3c6e8907b38be562b3cbc9864",
+    "candidate": "ac1d5b98fbe77294c363e0a766c4322e8dd8c2024ef839d548f930c70330a413",
+    "fixed_point": "(0,0,1/2)",
+    "eta": "-7789843107295549/4611686018427387904",
+    "actual_nu": "-2572625729470897/72057594037927936",
+    "repair_definition_sha256": "440866a368f68b472bc904c90fbe9862f2ff13e9f884ffced6a4819c04866a47",
+    "exact_root_interval": [
+      "1191984371497/5000000000000",
+      "2383968743003/10000000000000"
+    ],
+    "original_row_count": 4650,
+    "arithmetic_bits": 320,
+    "exact_repair_C0": "1/250000000000000000",
+    "original_interfaces_retained": true,
+    "original_interface_count": 3594,
+    "original_interface_records_sha256": "2a6908d127649ee76213bb192a59be1f42ee7e9d1b229fe11d54f843449a34a0"
+  },
+  "complete": true,
+  "failure": null,
+  "completed_original_rows": 4650,
+  "axis_projection_count": 3595,
+  "current_axis_piece": 2549,
+  "nominal_q": {
+    "ball": "[-0.1806777904003410754929896921547542852942886015902062395374951579391818009917845867087700477120538024 +/- 4.68e-101]"
+  },
+  "nominal_s": {
+    "ball": "[1.144739189554633775484054122405058626719614295931515075820564914236731296483741954234160442987318750 +/- 1.98e-100]"
+  },
+  "axis_error": {
+    "ball": "[0.1743534411756401896756622503842710641507189759063508286547973433206596476725518312789132432165235458 +/- 9.61e-102]"
+  },
+  "old_target_or_primitive_calls": 0,
+  "old_geometry_ODE_calls": 0,
+  "scope": {
+    "same_physical_Qrepair": true,
+    "full_root_circle_proved": false,
+    "root_mean_denominator_proved": false,
+    "positive_inverse_proved": false,
+    "final_topic_complete": false
+  },
+  "current_left": "1192029371497/5000000000000",
+  "seconds": 1.5079489569999964,
+  "proved": true,
+  "true_root_support_coordinates": {
+    "q": {
+      "ball": "[+/- 0.356]"
+    },
+    "s": {
+      "ball": "[1e+0 +/- 0.320]"
+    }
+  },
+  "complete_axis_error": {
+    "ball": "[0.1743645336043003354105692174969928589788763976735633077133026324382327532936872628042575497504171422 +/- 3.89e-101]"
+  },
+  "root_collar_fee": {
+    "ball": "[1.109242866008173490696711272179482815742176721247905850528911757310562113543152534430653389325096494e-5 +/- 9.47e-106]"
+  },
+  "original_root_collar_K_bound": {
+    "ball": "[0.001049546960606948227572936675682661949999999999999999999999999999999999999999999999999999999999999746 +/- 9.50e-104]"
+  },
+  "exact_repair_fee": {
+    "ball": "[6.40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e-17 +/- 8.39e-113]"
+  },
+  "same_global_fixed_support_lower": "2/5",
+  "root_axis_q_negative": true,
+  "root_axis_s_positive": true
+}
