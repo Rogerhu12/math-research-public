@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R141正区Newton普通源七量首次公开合同](notes/2026-11-20-R141-positive-Newton-ordinary-source-contract.md)：29当前/原raw3+positive4、34参数/18门/36字段，owner与pure按同selected pair接旧CRA/Z/方向增量。只新外尾及完整full/low/high合成，private snapshot保原path、七量保存读回；N21已恢复1/m原式。首次push，实际七量待，外功能值/全逆另付。
+
 - [R138实际真根局部漂移预算](results/R138-supplement-actual-root-anchored-local-drift-budget.md)：44762838206/1完整327片，Dloc<3/4000、Gamma<1001/1000、sqrtGamma<2001/2000，预设101/100及新旧预算比较均true。15pins/原positive4+germ1、两球保存读回，0旧目标；付RA同根层单次Jacobian，不授容量Gram/新body/根负部/全逆。
 
 - [R138根锚定局部漂移两量公开合同](notes/2026-11-20-R138-root-anchored-local-drift-contract.md)：只恢复原positive4/germ1并读完整X，15pins/320bits，整个真根1/100层的Dloc及exp为两个新scalar，均保存读回；101/100 false仍保完整bound，不授capacity Gram/body预算/全逆。首次push，实际结果尚待。

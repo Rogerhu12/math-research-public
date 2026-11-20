@@ -295,3 +295,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:33 UTC：剩余133旧g0日志的准确历史指针
 
 会话visible-exact-astra-ac637-20261120。joint清单后root在已发布2e31865ee独作fresh metadata依赖闭包：3881input根/6215JSON/1212AST/285workflow/21future，共8754保护路径，与133旧CI43275872327 g0日志交集0。46918B/9118c662指针保存原不可变commit及每件bytes/SHA/blob；逐当前字节核同后普通删除426795B，净379877B。原actual/exec/native/current pins和科学目标不动，旧成功/失败可原字节恢复；0科学，11MB closure audit只在scratch。
+
+## 2026-11-20 15:36 UTC：完整正区Newton七源首次公共入口
+
+会话visible-exact-astra-ac637-20261120。owner28879B/b9f50688、pure18365B/b92230d4与原R12/R16–18全审；worker31944B/009e4f6a使用private原path快照+实际checkout环境，双层gzip准确恢复raw3/positive4。manifest17776B/8866c547有29pins/34参数/18门/36字段/7新scalar，源/worker CLI与runtime/失败prefix逐项相合；gen17506B/251acc44、合同7626B/81d5ae6c。旧CRA真根→.9、whole7721/mean/修补与方向包络仅读，只补新外尾，physicalmean N21窄修已pin f37eb7ef。首次workflow push触发，四线程1、0本机science，actual结果及独立外功能/逆尚待。
