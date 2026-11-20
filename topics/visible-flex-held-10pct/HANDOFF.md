@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`514634898dbfcfe19814cd4851edfc087c8251d5`；API差异核对双README无变化。最近真实pull为10:36 UTC公开live worker到3bfc61f2a85、双README无变化；后续API比较不冒充pull。持续至少每小时实际pull并核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`1aaf1268238dada1191d3aea5a3dfa28cbb8091b`；API差异核对双README无变化。最近真实pull为10:36 UTC公开live worker到3bfc61f2a85、双README无变化；后续API比较不冒充pull。持续至少每小时实际pull并核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -51,10 +51,10 @@ R54宽材料窗S=.5/b=.2/k=.2，H横宽.54/相位.45，精确扫窗留.005余量
 
 固定全g/q/c的场校正接口已备：只解场、消去固定入口，全部真DN保留为兼容残差；η=rT−CA⁻¹rE及矩形LSMR步骤不准偷调新c/mean。原fixed=True只冻profile，不能当全参数固定；实现尚未执行，见[冻结接口](notes/2026-11-20-n4-fixed-physical-field-refinement.md)。
 
-已证完整R=Fs−V下∂s(G/a²)=2Fθ·Rθ/a²，保留已有metric缺陷、moving角图与真实mean；R及其角导数给连续operator充分界，但尚未数值支付，见[残差界](notes/2026-11-20-n4-full-frenet-residual-metric-bound.md)。
+完整R/角导数的连续metric充分界已证、未数值支付；moving图/mean不可省，见[残差界](notes/2026-11-20-n4-full-frenet-residual-metric-bound.md)。
 
 ## 接着做
 
 公开run44718341266真实返回：H3+原高7DN的q=.006→.06七步全过初始化门，q060605点/RMS9.98499e−7/原metric_l1=3.45348e−8，首原linearDN仍−4.19982e−6。材料λ.02全原linearDN亦真收敛605点/BC3.44e−11/0域拒，但原完整场metric_l1=2.39287e−5未门，故0新真尾。物理c已越R53旧盒，不能搬其严格界。见[真实第二返回](notes/2026-11-20-public-material-second-return.md)。H8失败不重跑；新forcing/冷Schur暂不启动。
 
-现在接同场relative operator/完整lift角谱检查、固定垂直均值定义，以及原trueDN校正（失败投影场仅初猜、最终门不放）。完整lift升M与同场operator审计源已备；扩大控制盒已严格覆盖λ.02新c并保κ≥.2，旧锐C2常数不移用，见[传递/新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。已结束runner的raw不假称可读；已发布独立live worker入口：同runner保实际场，每条显式命令前真实pull/核规则，结果仅小标量入ci/live-material-result.json；run44720589640/job136234983080已实际运行；初条必要再生H1路径，实时小结果已可读。源/请求见[持续入口](notes/2026-11-20-live-material-runtime.md)，不重复记接受结论。本地未知82514/18524/2919/57647待恢复原输出。继续实际圆弧/闭合、固定全部g精化、全时reach与δE，不在条件窗或中间报告停止。
+恢复实际合格字段后接relative operator/完整lift角谱、固定均值和原trueDN校正（失败场仅初猜、最终门不放）。完整lift升M与同场operator审计源已备；扩大控制盒已严格覆盖λ.02新c并保κ≥.2，旧锐C2常数不移用，见[传递/新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。已结束runner的raw不假称可读；已发布独立live worker入口：同runner保实际场，每条显式命令前真实pull/核规则，结果仅小标量入ci/live-material-result.json；live44720589640/job136234983080保留场并待新命令；首q=.006必要再生真maxnodes失败4675点/RMS1.17371e−6，raw在height-path-00-q0.0060000/inner-00.npz。参数近旧成功而非相同；正定位RMS峰/局部h并准备保场粗网格续解，原门不动。见[真实再生失败](notes/2026-11-20-live-q006-regeneration-return.md)。本地未知82514/18524/2919/57647待恢复原输出。继续实际圆弧/闭合、固定全部g精化、全时reach与δE，不在条件窗或中间报告停止。
