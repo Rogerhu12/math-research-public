@@ -1,0 +1,57 @@
+name: Rank2 original Y complete closed points and local values
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rank2-sha-original-ys-closed-local.yml'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/produce-original-ys-closed-local-check.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_ys_closed_point_tools.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_ys_local_value_tools.py'
+      - 'topics/rank2-sha-infinitely-many-p/scripts/original_affine_fast_operations.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: rank2-original-ys-closed-local
+  cancel-in-progress: false
+jobs:
+  original-ys-closed-local:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout: |
+            topics/rank2-sha-infinitely-many-p/scripts
+          persist-credentials: false
+      - name: Rank2 original Y complete closed points and local values
+        shell: bash
+        run: |
+          set -euo pipefail
+          RANK2_IMAGE='sagemath/sagemath@sha256:19995db6194f4a4bab18ce9a88556fd15b9ed5e916b4504fefe618a7796ddbdb'
+          RANK2_CONTAINER="original-ys-closed-local-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
+          RANK2_ROOT_README_SHA=$(git rev-parse HEAD:README.md)
+          RANK2_TOPIC_README_SHA=$(git rev-parse HEAD:topics/rank2-sha-infinitely-many-p/README.md)
+          cleanup_rank2_y() {
+            docker rm -f "$RANK2_CONTAINER" >/dev/null 2>&1 || true
+          }
+          trap cleanup_rank2_y EXIT
+          trap 'exit 130' INT
+          trap 'exit 143' TERM
+          docker pull "$RANK2_IMAGE"
+          timeout --kill-after=30s 21000 docker run --rm --name "$RANK2_CONTAINER" --network none \
+            -e GITHUB_ACTIONS=true \
+            -e GITHUB_REPOSITORY="$GITHUB_REPOSITORY" \
+            -e RANK2_SOURCE_SHA="$GITHUB_SHA" \
+            -e RANK2_RUN_ID="$GITHUB_RUN_ID" \
+            -e RANK2_RUN_ATTEMPT="$GITHUB_RUN_ATTEMPT" \
+            -e RANK2_IMAGE="$RANK2_IMAGE" \
+            -e RANK2_ROOT_README_SHA="$RANK2_ROOT_README_SHA" \
+            -e RANK2_TOPIC_README_SHA="$RANK2_TOPIC_README_SHA" \
+            -e PYTHONDONTWRITEBYTECODE=1 \
+            -e OMP_NUM_THREADS=4 \
+            -v "$GITHUB_WORKSPACE:/work:ro" -w /work \
+            --entrypoint /usr/bin/sage "$RANK2_IMAGE" -python \
+            topics/rank2-sha-infinitely-many-p/scripts/produce-original-ys-closed-local-check.py --prime 29 --q-precision 2453 --batch-size 64

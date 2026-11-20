@@ -164,6 +164,8 @@ class OriginalSmallResidualAlgebra:
         self.ambient_standard = identity_matrix(self.k, self.n)
         self.ambient_projection = self.project_ambient_rows(self.ambient_standard)
         self.unit = self.project_global(engine.unit)
+        self._certified_prime_operators = None
+        self._prime_specialization_receipt = None
         assert self.multiplication_matrix(self.unit) == self.standard
         assert self.project_ambient_rows(relations).is_zero()
         self.frobenius = None
@@ -172,6 +174,8 @@ class OriginalSmallResidualAlgebra:
         self.reduced_basis = None
         self.frobenius_receipt = None
         self._frobenius_powers = {}
+        self._idempotent_cache = None
+        self._residue_component_cache = {}
         self.progress("whole small residual algebra ready",
                       base_prime_degree=int(self.pi.degree()),
                       dimension_over_actual_kpi=self.dimension,
@@ -214,6 +218,33 @@ class OriginalSmallResidualAlgebra:
         return self.project_ambient_rows(matrix(self.k, [specialized])).row(0)
 
     def multiplication_matrix(self, value):
+        if self._certified_prime_operators is not None:
+            # This optional path exists only for a fully rechecked original
+            # zero fiber.  All table coefficients lie in Fp; the caller's
+            # actual Fp2 coefficients contract in its native 1,generator basis.
+            fp, operators = self._certified_prime_operators
+            value = self.element(value)
+            absolute_degree = int(self.k.absolute_degree())
+            assert absolute_degree in (1, 2)
+            components = [matrix(fp, self.dimension, self.dimension)
+                          for _ in range(absolute_degree)]
+            for i, coefficient in enumerate(value):
+                if not coefficient:
+                    continue
+                if absolute_degree == 1:
+                    pieces = [fp(coefficient)]
+                else:
+                    pieces = list(coefficient.polynomial().list())
+                    assert len(pieces) <= 2
+                    pieces += [fp.zero()]*(2-len(pieces))
+                    assert self.k(pieces[0])+self.k(pieces[1])*self.k.gen() == coefficient
+                for j, scalar in enumerate(pieces):
+                    if scalar:
+                        components[j] += fp(scalar)*operators[i]
+            answer = components[0].change_ring(self.k)
+            if absolute_degree == 2:
+                answer += self.k.gen()*components[1].change_ring(self.k)
+            return answer
         # Normal-form lifts represent the SAME algebra element.  Actual
         # multiplication in A descends because I+pi*A is the full ideal.
         M = self.engine.multiplication_matrix(self.lift_global(value))
@@ -235,7 +266,86 @@ class OriginalSmallResidualAlgebra:
                 base = self.multiply(base, base)
         return result
 
-    def certify_frobenius(self):
+    def _check_original_prime_zero_specialization(self, source):
+        """Verify ALL source products against the SAME authenticated original table.
+
+        This optional acceleration admits only pi=xi or pi=s.  The whole
+        ideal image modulo pi must be zero, so the small basis is precisely
+        the original 306 basis modulo pi, with no unrecorded coordinate map.
+        """
+        affine = source["original_affine_context"]
+        operators = tuple(source["prime_multiplication_matrices"])
+        fp = affine["constants"]
+        assert affine["kind"] == "rank2_original_Y_complete_affine_multiplication_context"
+        original = affine["certificate"]
+        assert original["every_product_full_global_zero_bound_checked"] is True
+        assert original["complete_original_infinity_chart"] is True
+        assert original["complete_symmetric_basis_product_count"] == 46971
+        signature = original["exact_multiplication_signature_sha256"]
+        summary = self.engine.chart["coefficient_contraction_summary"]()
+        assert summary["original_multiplication_signature_sha256"] == signature
+        assert self.pi == self.R.gen()
+        assert self.dimension == self.n == 306
+        assert self.free == tuple(range(306)) and self.relations.nrows() == 0
+        assert int(self.base_extension.relative_degree) == 1
+        assert bool(source["infinity_chart"]) == self.engine.infinity_chart
+        assert int(fp.cardinality()) == self.p
+        assert int(self.k.absolute_degree()) in (1, 2)
+        assert len(operators) == 306
+        assert all(M.base_ring() == fp and M.nrows() == M.ncols() == 306
+                   for M in operators)
+        weights = tuple(int(d) for d in affine["basis_weights"])
+        assert weights == tuple(self.engine.chart["original_basis_weights"])
+        tables, positions = affine["product_blocks"], affine["product_pair_positions"]
+        recipes = affine["complete_product_recipes"]
+        occupied, selected = {}, {}
+        for weight, table in tables.items():
+            weight = int(weight)
+            recipe = tuple((int(i), int(e)) for i, e in recipes[weight])
+            assert len(recipe) == table.ncols() and len(set(recipe)) == len(recipe)
+            column_of = {pair: j for j, pair in enumerate(recipe)}
+            zero_column = table.ncols()
+            columns = []
+            for output_index in range(306):
+                exponent = weight-weights[output_index] if self.engine.infinity_chart else 0
+                columns.append(column_of.get((output_index, exponent), zero_column))
+            selected[weight] = table.augment(
+                matrix(fp, table.nrows(), 1)).matrix_from_columns(columns)
+            occupied[weight] = set()
+        for i in range(306):
+            for j in range(i, 306):
+                weight, row = map(int, positions[(i, j)])
+                assert weight == weights[i]+weights[j]
+                assert row not in occupied[weight]
+                occupied[weight].add(row)
+                expected = selected[weight].row(row)
+                assert operators[i].row(j) == expected
+                assert operators[j].row(i) == expected
+        assert sum(len(rows) for rows in occupied.values()) == 46971
+        assert all(rows == set(range(tables[weight].nrows()))
+                   for weight, rows in occupied.items())
+        prime_unit = vector(fp, [
+            a(0) for a in affine["chart"](infinity=self.engine.infinity_chart)["unit"]])
+        assert vector(self.k, prime_unit) == self.unit
+        standard = identity_matrix(fp, 306)
+        assert all(prime_unit*operators[i] == standard.row(i) for i in range(306))
+        self._certified_prime_operators = (fp, operators)
+        self._prime_specialization_receipt = {
+            "same_original_affine_signature_sha256": signature,
+            "infinity_chart": self.engine.infinity_chart,
+            "base_prime_is_exact_chart_coordinate": True,
+            "complete_ideal_image_mod_pi_zero": True,
+            "no_residual_basis_change": True,
+            "all_original_symmetric_product_rows_rechecked": 46971,
+            "both_orders_of_every_product_rechecked": True,
+            "all_original_unit_products_rechecked": True,
+            "caller_actual_constant_field_preserved": True,
+            "prime_operator_hashes_sha256": digest([
+                native_matrix_digest(M) for M in operators]),
+        }
+        return fp, operators, prime_unit
+
+    def certify_frobenius(self, prime_specialization_source=None):
         """Compute p-power once, then compose the actual semilinear maps.
 
         In row convention T_n(x)=phi^n(x)*B_n, hence
@@ -245,18 +355,33 @@ class OriginalSmallResidualAlgebra:
         if self.frobenius is not None:
             return self.frobenius_receipt
         rows = []
-        for j in range(self.dimension):
-            basis_element = self.standard.row(j)
-            M = self.multiplication_matrix(basis_element)
-            power = vector(self.k, basis_element)
-            # p is only 29 or 41; retain the one actual operator throughout.
-            for _ in range(self.p-1):
-                power = power*M
-            rows.append(power)
-            if j % 24 == 0 or j+1 == self.dimension:
-                self.progress("actual prime Frobenius basis rows",
-                              completed=j+1, total=self.dimension)
-        B = matrix(self.k, rows)
+        if prime_specialization_source is None:
+            for j in range(self.dimension):
+                basis_element = self.standard.row(j)
+                M = self.multiplication_matrix(basis_element)
+                power = vector(self.k, basis_element)
+                for _ in range(self.p-1):
+                    power = power*M
+                rows.append(power)
+                if j % 24 == 0 or j+1 == self.dimension:
+                    self.progress("actual prime Frobenius basis rows",
+                                  completed=j+1, total=self.dimension)
+            B = matrix(self.k, rows)
+        else:
+            fp, operators, prime_unit = self._check_original_prime_zero_specialization(
+                prime_specialization_source)
+            prime_standard = identity_matrix(fp, self.dimension)
+            for j, operator in enumerate(operators):
+                power = prime_standard.row(j)
+                for _ in range(self.p-1):
+                    power = power*operator
+                rows.append(power)
+            prime_B = matrix(fp, rows)
+            assert prime_unit*prime_B == prime_unit
+            B = prime_B.change_ring(self.k)
+            self.progress("complete original prime-field Frobenius transported",
+                          full_basis_rows=self.dimension,
+                          same_original_field_embedding=True)
         phi = self.k.frobenius_endomorphism()
         assert vector(self.k, [phi(a) for a in self.unit])*B == self.unit
         exponent = int(self.k.absolute_degree())
@@ -308,6 +433,7 @@ class OriginalSmallResidualAlgebra:
             "semilinear_composition_exponents": steps,
             "original_constant_embedding": self.base_extension.receipt(),
             "official_frobenius_reference": FINITE_FIELD_REFERENCE,
+            "whole_original_prime_specialization": self._prime_specialization_receipt,
         }
         return self.frobenius_receipt
 
@@ -320,6 +446,8 @@ class OriginalSmallResidualAlgebra:
 
     def primitive_idempotents(self):
         """Split ker(F_q-1)=k_pi^r using actual linear factors, not field enumeration."""
+        if self._idempotent_cache is not None:
+            return self._idempotent_cache
         self.certify_frobenius()
         k, n = self.k, self.dimension
         fixed = (self.frobenius-self.standard).left_kernel().basis_matrix()
@@ -376,7 +504,7 @@ class OriginalSmallResidualAlgebra:
             assert self.multiply(e, cumulative).is_zero()
             cumulative += e
         assert cumulative == self.unit
-        return idempotents, {
+        result = idempotents, {
             "closed_component_count": int(r),
             "fixed_algebra_sha256": native_matrix_digest(fixed),
             "all_actual_primitive_idempotents_sha256": native_matrix_digest(idempotents),
@@ -385,12 +513,19 @@ class OriginalSmallResidualAlgebra:
             "all_idempotents_orthogonal_and_sum_to_one": True,
             "split_history": history,
         }
+        self._idempotent_cache = result
+        return result
 
     def residue_component(self, idempotent, component_index):
         """Actual native residue field and map, with the specified original embedding."""
         self.certify_frobenius()
         k, n = self.k, self.dimension
         e = self.element(idempotent)
+        component_index = int(component_index)
+        if component_index in self._residue_component_cache:
+            cached = self._residue_component_cache[component_index]
+            assert cached["idempotent"] == e
+            return cached
         Me = self.multiplication_matrix(e)
         assert Me*Me == Me
         U = (Me*self.reduced_projection).row_space().basis_matrix()
@@ -455,7 +590,7 @@ class OriginalSmallResidualAlgebra:
         assert reduce_global(self.R(self.engine.k.gen())*self.engine.unit) == (
             embed_original_constant(self.engine.k.gen()))
         assert reduce_global(self.lift_global(alpha)) == extension.root
-        return {
+        result = {
             "idempotent": e,
             "small_local_dimension": int(Me.rank()),
             "relative_residue_degree": degree,
@@ -480,6 +615,8 @@ class OriginalSmallResidualAlgebra:
                 "random_primitive_element_used": False,
             },
         }
+        self._residue_component_cache[component_index] = result
+        return result
 
 
 class OriginalClosedPointRegistry:
@@ -533,6 +670,10 @@ class OriginalClosedPointRegistry:
 def _whole_maximal_ideal(fiber, component, label):
     """Kernel of the ACTUAL surjective residue map, as a complete R-module."""
     engine, R, k = fiber.engine, fiber.R, fiber.k
+    if "_complete_maximal_ideal" in component:
+        answer = component["_complete_maximal_ideal"]
+        assert answer.engine is engine
+        return answer
     C = component["ambient_residue_coordinates"]
     degree = component["relative_residue_degree"]
     assert C.nrows() == engine.dimension and C.ncols() == degree
@@ -545,6 +686,7 @@ def _whole_maximal_ideal(fiber, component, label):
     assert maximal.determinant == fiber.pi**degree
     assert (fiber.specialize_matrix(maximal.basis)*C).is_zero()
     assert maximal.length == int(fiber.pi.degree())*degree
+    component["_complete_maximal_ideal"] = maximal
     return maximal
 
 
@@ -576,7 +718,7 @@ def _lift_idempotent(fiber, component, primary_context, norm_exponent):
 
 def decompose_complete_primary_block(engine, ideal, prime_polynomial, registry,
                                     label="original complete primary factor",
-                                    progress=None):
+                                    progress=None, residual_algebra=None):
     """Every actual Q over pi, with residue map and full local multiplicity.
 
     No global quotient of dimension deg(E) is expanded to a dense matrix.
@@ -596,8 +738,14 @@ def decompose_complete_primary_block(engine, ideal, prime_polynomial, registry,
         }
     exponent = int(primary_receipt["norm_exponent"])
     quotient = engine.quotient_context(primary)
-    fiber = OriginalSmallResidualAlgebra(
-        engine, primary, prime_polynomial, progress=progress)
+    if residual_algebra is None:
+        fiber = OriginalSmallResidualAlgebra(
+            engine, primary, prime_polynomial, progress=progress)
+    else:
+        fiber = residual_algebra
+        assert fiber.engine is engine and fiber.pi == engine.R(prime_polynomial).monic()
+        assert fiber.specialize_matrix(primary.basis).row_space().basis_matrix() == (
+            fiber.relations)
     frobenius_receipt = fiber.certify_frobenius()
     idempotents, splitting_receipt = fiber.primitive_idempotents()
     results, records = [], []
@@ -684,6 +832,8 @@ def decompose_complete_primary_block(engine, ideal, prime_polynomial, registry,
         "label": label,
         "primary": primary_receipt,
         "small_residual_frobenius": frobenius_receipt,
+        "small_residual_algebra_reused_after_complete_ideal_image_equality": (
+            residual_algebra is not None),
         "primitive_idempotent_split": splitting_receipt,
         "closed_component_count": len(results),
         "complete_length": full_length,

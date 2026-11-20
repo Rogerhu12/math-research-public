@@ -403,10 +403,12 @@
 
 - [R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原ys的J=SY/(ys²+3)²给完整306过滤自由基、两正规化图表与所有共零/零极/原交理想；2453精度及全W8窗严付，完整多项式核保饱和，六cusp含289重分支。原有限判别式为[ys(ys²−1)(ys²−9)]^288。§12已实际PASS全部46971乘积/两图表/单位，h2=68且14个权4元；大交除子/shadow仍待。
 
-- [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)：原已存在RF/Ri以V6/V6、V4/V4全2313/1429项恢复；保原F=A5/(B2 S³)及P=A3/B3，清分母残差分别属L28+4P_T、L18+2P_T，全检查至6940/4286严格付全局身份。原M2同基延2725/6941、原ω两Fp分量与首项1保持；完整producer已独审接公开请求，实际cube回执尚待。
+- [R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)：原已存在RF/Ri以V6/V6、V4/V4全2313/1429项恢复；保原F=A5/(B2 S³)及P=A3/B3，清分母残差分别属L28+4P_T、L18+2P_T，全检查至6940/4286严格付全局身份。原M2同基延2725/6941、原ω两Fp分量与首项1保持；§8原cube全门实际PASS（run44728285578）；§9完整核严推极次数240/452/454/454，后续低权紧缩仍须实际门。
 
 - [R925§6.2.1、§7.4、§10–11](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整norm与包含关系认证理想积早停；同原最大理想完整HNF给精确点身份，hash仅索引。原六cusp纤维各Fp[ν]/ν^289×Fp×Fp16，F16真约化投影、全289幂基与666原射影坐标接受门已证。截面/理想/helper接入，固定Sage饱和核/Hermite与六厚纤维均实际PASS，全部289幂基/666坐标保；大交除子/shadow未付。
 
 - [R925§13](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：完整闭点/真实κ嵌入及全部primary提升；原q\q²参数、完整norm上界与q幂成员关系精确赋值，612×306整模等于q^v后读任意阶共同零比值。源码全文独审接入，待原输入实际门，不冒shadow。
 
 - [R925§14–15](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原六厚cusp实际PASS（run44726729349），全18Fp闭点/108几何点/1836长度及666原坐标、六289幂基齐；原完整表的任意多项式乘法改为精确Fp系数收缩，保原二次域/两图表，后者尚待实际门。
+
+- [R925§16](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原Fp²的ξ0/∞两完整π与π²厚化、度1/1/8/8及289/578、真612×306共因子整核、八原点q³共零值已接公开门；零纤维加速独核全部46971产品，不冒新PASS。

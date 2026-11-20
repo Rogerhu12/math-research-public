@@ -70,9 +70,9 @@ R5 已反证 arXiv:1703.02215 所用统一有限 lifting 引理；否定该论�
 
 [R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)的同原截面路径已有实际成果：§11–12的run44720444485付完整TUV分式、全204维DS及51二次双点、全36cusp与120原射影标号；§13 run44721065286/job136236619274付Y完整666格、三真实退化和原ys全核360；§14 run44721641472/job136238600337付全非约化DS上的TUV值；§15 run44723394686/job136244599223付真F/P全PASS鉴定后的原vF/三Yi截面（F核144、P两核152及第三原QY），全部原u/常数嵌入/Artin保持。完整hash逐节存，不冒旧degree48函数域RR接口。
 
-[R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)由J=SY/(ys²+3)²建立原306完整过滤自由基和两张正规化图表；完整多项式核保原共零，六cusp含289重分支；§12 r29完整环实际PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，全部46971乘积/两图表/单位过；14个权4元保完整W8，不复制r41。§13完整闭点/真实κ与q\q²参数、任意阶共零首项读者已独审；三退化、全HNF理想和局部值仍须原输入实际门，才进入consumer。
+[R925](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)由J=SY/(ys²+3)²建立原306完整过滤自由基和两张正规化图表；完整多项式核保原共零，六cusp含289重分支；§12 r29完整环实际PASS：run44724912327/job136249752863/sourcefea36d7d8，h0..4=1,2,68,360,666，全部46971乘积/两图表/单位过；14个权4元保完整W8，不复制r41。§13完整闭点/真实κ与q\q²参数、任意阶共零首项读者已独审；§16原Fp²两π/π²及八原点共零值已请求；三退化、全HNF理想和局部值仍须实际门，才进入consumer。
 
-[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。完整cube producer已独审接公开请求，待实际回执。**四大交除子和原shadow未算，完整consumer尚未请求；固定ell非零亦不替跨无穷p/ordinary桥。**
+[R926](results/R926-original-cube-roots-in-sections-and-complete-identities.md)已证明原RF/Ri的同次分式完整低窗2313/1429与全清分母身份窗6941/4287项；原M2延长2725/6941保持同基/整变换/旧前缀，保S³和原ω，不增加新根或换Artin。§8原cube实际PASS（run44728285578），全部高窗及核900/280/278/278过；§9严推根极次数240/452/454/454，低权紧缩正在实现。**四大交除子和原shadow未算，完整consumer尚未请求；固定ell非零亦不替跨无穷p/ordinary桥。**
 
 ## 原端点：真实范数与剩余增广阶
 
