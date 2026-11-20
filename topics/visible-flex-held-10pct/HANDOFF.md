@@ -6,7 +6,7 @@
 
 连通闭C²嵌入、C²连续族；固定有内点H且diamH≥.2D，整像δhold≥.1D及含反射δE>0，全时reach≥.03D。同一完整g/全部物理参数/时间范围下，完整metric≤1e−6且空间/频率/时间精化降至求解或机器地板；全部闭合与Cartesian两jet接口须实际支付。
 
-- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`30351f4b283b80b0260d2e3be11713081ff163d7`；14:52 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
+- 部分克隆工作树 /workspace/scratch/1b6d88ecddf3/math-research-public。已读规则提交：`06165e8bb8d6bf0f443652ef3eedd2496f4b1072`；14:53 UTC本地真实pull --rebase至该提交，双README无变。每次pull核差异，至少每小时一次；API比较不冒充pull。
 - root独占git，逐结论推送，NFF立即pull --rebase/核双README后再推，禁force；令牌只在命令行。
 - 根§12优先实际数学/求解，不重复身份核查/双审；§15再生场、网格、矩阵不入Git/Release/artifacts，只存源/参数/命令/hash/小标量。H<10KB、单MD<100KB、目录<200MB，不写根LOG。
 - 压缩不撤销旧结果。完整旧断点见[接手H](https://github.com/Rogerhu12/math-research-public/blob/9288f266d1f242b594d70a714e20340fcb876023/topics/visible-flex-held-10pct/HANDOFF.md)及[本次H到01954](https://github.com/Rogerhu12/math-research-public/blob/01954ce52ce769093d8368e8f5c9d4a980191a84/topics/visible-flex-held-10pct/HANDOFF.md)；具体note优先于摘要。
@@ -23,7 +23,7 @@
 
 当前真实尾：chord3 session54314，目录m3-work/newg-wide-lambda0p002-m24-actual-chord3-r1。原.25已过；**.5完整返回**残差9.47489311e−10，检查点12674cc4…125a53，1153×48全finite，3fresh-J+7state/6接受步，最终fresh-original；原finite audit metric8.22e−15只属暖档。14:20 UTC自动接.75→.9→fullH，原M24/N512/steps16/parts16/2workers、shoot36/原门/outer8不变。[.5实录](notes/2026-11-20-m3-m24-chord-warm050.md)、[.25及原取消/ENOENT与完整命令](notes/2026-11-20-m3-m24-original-warm025-and-chord-continuation.md)。[唯一新初猜probe](notes/2026-11-20-m3-full-harmonic-warm-probe050-to075.md)93992已exit0：norm10783.57、原域通过，1次state/0Newton/0DN；保原54314、不再probe，同档uniform已自然返回6438.708，probe为其1.674804倍，未改善，新增flow0。fullH/外迭代仍欠；最终重新绑定完整g/δ/q/c/均值后再场细化。
 
-[λ.004/M24实际设计](notes/2026-11-20-m3-newg-lambda0004-m24-return.md)635点/8全步收敛，但原metric1.53303e−6未门；原mean1168诊断主缺陷在ψ77/79等表示外。M32原同物理port／完整lift转移58863已真过，原BVP78016在算。54314不动，非fixed-g精化。
+[λ.004/M24实际设计](notes/2026-11-20-m3-newg-lambda0004-m24-return.md)635点/8全步收敛，但原metric1.53303e−6未门；原mean1168诊断主缺陷在ψ77/79等表示外。[M32实际78016](notes/2026-11-20-m3-newg-lambda0004-m32-accepted.md)已真exit0/860点，原metric7.604677e−7/BC2.84346e−12通过，原mean1552。新λ.008/M32 session76535已启，860点初始域已过；δ/c仍设计自由，非fixed-g。54314不动。
 
 ## 旧g：已停用的已知断点
 
@@ -43,7 +43,7 @@
 
 ## 不重做的旧断点及接续
 
-旧m3真锚CP4755143b：1934点/metric3.79125e−8，seam未闭。旧normal λ≤.64有限接受但metric未门；λ1/38274真失败，λ.82/91205未知。旧q.04 M8→M16误差变坏，勿原样重跑。旧n4 M20/96568真联合成功metric8.91023e−7，但q/c自由且seam未闭；M24/27744第三尾未知。冷材料m3q.01、n4q.02/H8已失败；82514/18524/2919无PID/终态仍未知。详细按上述历史H与原note。
+旧m3 CP4755143b已真过有限metric但seam未闭；旧normal≤.64未metric门，λ1/38274失败、λ.82/91205未知。旧q.04 M8→M16变坏不重。旧n4 M20/96568联合metric8.91023e−7过但q/c自由/seam未闭；27744第三尾未知。冷材料m3q.01/n4q.02-H8失败，82514/18524/2919终态未知。细节按历史H与原note。
 
 R28/29/31低幅闭C²有限族仅held/D>.005462656，其C²极限未证；R36/37/39余项常数不搬新对象。[R1—R62](results.md)。
 
