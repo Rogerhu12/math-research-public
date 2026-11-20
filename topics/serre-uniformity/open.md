@@ -69,7 +69,7 @@ $$
 \langle z_V,V\rangle^p
 =-\frac1{r+1}\sum_P\frac{V_P^{p+1}}{B_P^{r+2}}.
 $$
-**非零类不自动给该对角非零。** R950正在直接核完整SS上的isogeny/双marking/Hecke伴随和tame角色；禁止仅由F_r像的Hecke型反推原像型，因未证F_r全局注入。
+[R950](results/R950-original-low-weight-supersingular-diagonal-and-Hecke-adjunction.md)现在已证明这个**指定低权对角对原两行全部p≥41非零**：直接全SS isogeny计算给KS/b乘ℓ与dual frame、1/ℓ完全相消的Hecke伴随，再以tame单位平均和R918/R942完整低权广义零线得到非零值。未从F_r像的Hecke型反推原像型，也不需要其全局注入。这个低权子问题关闭；真正高权比较如下。
 
 真正原来源投影已准确给出PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，恢复R932的ΦV=d(G/a^(rp))。但P在SS有极阶rp，杀W的水平p次极部；原Igusa主部来自P作用于正则剩余项。必须计算这个明确边界才能把固定低权类搬成原高权残数和；不能把两个不同指数的和按一个未核单位等同。
 

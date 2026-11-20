@@ -6,14 +6,14 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：7bc4d5439c8a0507c1f67f0ed40dc3d84e9da796**（2026-11-20T10:50:53.818941+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：a3358c63e0ff1f72bc8da055ebc3f5c703d044f4**（2026-11-20T10:52:06.131928+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
 ## 当前工作入口与断点
 
 1. **全p同h选择**：R945已排除无例外的“完整trace非零⇒中央Q′单位”。继续真实同标签Legendre·sigma或全局height；R949正在证明全权sigma–原CM生成式，尚未登记。
-2. **原完整trace**：R946把whole CM packet饱和准确降为O_r(M_CM)=0；R947有低权非零类及显式极部，但原Igusa投影在SS有极点，不能直接搬成原高权trace。R950正在核低权配对的真实Hecke伴随，尚未登记。
+2. **原完整trace**：R946把whole CM packet饱和准确降为O_r(M_CM)=0；R947有低权非零类及显式极部，但原Igusa投影在SS有极点，不能直接搬成原高权trace。[R950](results/R950-original-low-weight-supersingular-diagonal-and-Hecke-adjunction.md)已直接证明低权完整对角全p非零；原高权比较仍缺。
 3. **原全Abel/height**：[R948](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)已证两有限p的二次scalar根在pZp，非中心iff真char0 M2≠0，v(w*)=2+v(M2)−ν/2；两例ν0/M5阶−5。另一真实h按R727全tail分离额外根，原开盘全Abel零集仅中心；仍不排正秩非零MW像或替代height。
 
 ## 最新已成：原类、完整商与两个中央零
@@ -24,7 +24,7 @@
 
 [R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)：fine全六任意2≤r≤p−2，整个S_(p+1−r)有T^r=6^rA^rD_r；原下降保中心parity/双角色。最后一A恰由O_r=(D_rH/B)|SS控制。SS完整商含S_w对偶及真实CM支撑，不能用支撑杀整商；具体O像仍开。若饱和真成立，R918/R942低权广义零线才给原trace非零，仍不推中央Q′。
 
-[R947](results/R947-original-low-weight-conjugate-primitive-and-singular-Igusa-projection.md)：命名原F有完整theta周期。W=6Z+6^(r+1)r!Gtilde σ^r/A^p给∇W=ΩV，全部SS极部恰−V_P B_P^(p−r−2)σ^r/((r+1)A^p)。换帧/Čech/Hodge过滤证明zV非零；其对角p次方=−ΣV_P^(p+1)/B_P^(r+2)/(r+1)，尚未判对角非零。原投影PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，恢复ΦV=d(G/a^(rp))；P在SS极阶rp并杀水平主部，原高权极部来自正则剩余项，不能忽略这个边界。
+[R947](results/R947-original-low-weight-conjugate-primitive-and-singular-Igusa-projection.md)：命名原F有完整theta周期。W=6Z+6^(r+1)r!Gtilde σ^r/A^p给∇W=ΩV，全部SS极部恰−V_P B_P^(p−r−2)σ^r/((r+1)A^p)。换帧/Čech/Hodge过滤证明zV非零；其对角p次方=−ΣV_P^(p+1)/B_P^(r+2)/(r+1)，对角非零现由R950真实isogeny/双marking伴随、tame平均及R918/R942完整低权线证明，不用F_r注入。原投影PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，恢复ΦV=d(G/a^(rp))；P在SS极阶rp并杀水平主部，原高权极部来自正则剩余项，不能忽略这个边界。
 
 ## 本轮原来源结果：后续直接引用
 

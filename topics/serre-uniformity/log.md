@@ -650,3 +650,7 @@
 ### 2026-11-20 18:50 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R948保原phase/period/a_h，证明两中央二次scalar根实际在pZp，char0 M2决定是否非中心及准确估值；并由既有同h替代与R727全尾分离额外根。
 - 两有限p原开盘全Abel零集仅中心，不排正秩非零MW像；修open公式转义，继续R950低权配对与原高权边界。
+
+### 2026-11-20 18:51 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R950直接证明原权4/10完整SS对角在两行全部p≥41非零；真实isogeny、KS/b、dual frame、1/ℓ及双marking T5²均保，tame平均给实际非零dual packet。
+- 关闭低权指定配对缺口，仍须singular projection边界才能比较原高权trace；不接中央Q′单位。继续R949全权sigma源及R951原Bol结构。

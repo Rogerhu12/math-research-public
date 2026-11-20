@@ -40,6 +40,8 @@
 
 - **R948（两个原素数的Qp根与真实坐标分离）**：[有理二次Abel参数及另一原坐标](results/R948-rational-quadratic-Abel-root-and-original-coordinate-separation.md)。原共同phase/绝对period相消和a_h完整保留，R945的二次scalar根实际在pZp；是否非中心由char0 M2决定，估值精确。227/h151、857/h445的已成同h单位按R727全尾准则分离额外scalar根，原开盘全Abel零集仅中心；不排非零MW像，不推全p/height。SHA256 bb5b68c850f775d0d51cfab6bcef39be3ad69733d657941bdbc23930aebed0c9。
 
+- **R950（原低权完整对角全p非零）**：[完整SS对角与真实Hecke伴随](results/R950-original-low-weight-supersingular-diagonal-and-Hecke-adjunction.md)。直接主部构造保p逆半线性；真实isogeny的KS与b乘ℓ、dual frame及1/ℓ精确抵消，给完整SS Hecke伴随。tame单位平均保非零泛函，权4原一维和权10双marking T5²简单零线迫指定低权对角非零，适用原两行全部p≥41。未识别高权trace，也不接中央Q′；所有原角色/Norm/点权保留。SHA256 b0ec70147162cd49c9941bc14ef3a0c3f34182f8ed2539ec53f8ed60852f58be。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
