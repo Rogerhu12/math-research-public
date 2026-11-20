@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138实际完整复合预算](results/R138-supplement-actual-composed-physical-budget.md)：44740320925/1全4651闭格、19当前/9原件/22字段完整审通过，5sup/2积分/10derived全存；k−1/2≈.000373513，rE/rB≈.01783/.01977，aEE/aEB/aBB≈66.32/145.46/79.76。body3充分门仍false，成功结果冻结且不推奇异；旧X全部球只读，0旧传播/target。更紧完整体估计与根型C*仍须新证明/目标。
+
 - [R141实际完整高频四响应](results/R141-supplement-actual-four-complete-high-responses.md)：44740105701/1完成4目标/4完整球，H_B<110、body与root状态各<44、outer even H^-5/6<.563。16 current bytes/SHA/blob、21字段、完整旧对象/资格及5次规则检查已审；旧五源与高图只读，无native恢复或旧科学。结果冻结，实际内部反馈/physical97+96/原finiteρ/七ports/两rhs仍待。
 
 - [R138复合物理预算首次公开消费者](notes/2026-11-20-R138-composed-physical-energy-budget-contract.md)：19当前/9原件、same4651闭格/320bits，只读X全域Z/P与C1、旧几何能量球。精确复合完整mean、I平滑与真实IC均落实；5新sup/2积分/10顺序derived组成一个新预算，按完整保存球判body-only门，真实root C*仍独立。root整读diff/合同并与两分工独审，全部pins和metadata逐字复现；0旧传播或旧target重算。
