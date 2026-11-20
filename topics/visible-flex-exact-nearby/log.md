@@ -239,3 +239,7 @@ global发现两个梯度Gram在η^-1/η权下互补，joint写LC1–19，root/gl
 ## 2026-11-20：原WPN两完整右端的准确WOB提升
 
 positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再逐WOB24–31/WDS2–3/WHVA完整界和原exact q floor核同。k=F+C*EcEc*e、a=k+w让任意L2不求导/取迹，只w承担端点；原d97与Theta b96分别由w真迹恢复。准确源是ALk/BHLk、root-even−Ec*e、right97=(Theta eodd,emean)，无多余p0c，fullmean保。原N24480与两行经正交分解全恢复，only58/224实际成功后另算32整响应，能给同原square的新直接双边逆而不改旧trial/finiteρ false。原WHVA四界与D mean子列只读，完整root pair给k=0，独立low jump保阶跃及负endpoint；ν/germ/negative/接口RHS与roughbaseline原域不扩。证明14771B/29f71c87，0新科学/假manifest，topic未完成。
+
+## 2026-11-20 14:48 UTC：径向权无关的根预算必要筛查
+
+会话visible-exact-astra-ac637-20261120。global推RS1–21、joint/root核：真实DH^-1的Cauchy仍迫W96²>148，完整mean/192近远给ω96<26/25、导<385；两轴与G*给任意α/CE统一upper，合法三角H1测试将准确容量的必要费用压成一个新正积分T。T≤225仅排原Γ/GB门，≤160排同GB下scalar Jacobian≥1的同类门；T未求值、不排BVP。新证明10137B/f0255a6a用README的$$公式格式，0旧目标重算。open第8节逐字归档后26954B；下一步只算该新T并接实际低证书。

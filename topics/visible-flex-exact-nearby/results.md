@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138径向权无关的完整根接收器必要筛查](results/R138-supplement-radial-weight-independent-root-budget-screen.md)：真实DH^-1仍须W96²>148，完整mean/环境primitive测试给ω96<26/25、导<385；任意α的完整容量费用由一个新短段正积分T作必要反测。T≤225/≤160分别排声明的旧GB/Jacobian预算；当前T未算，只解析条件，非BVP不可能性。
+
 - [R141原WPN两行的准确WOB源提升](results/R141-supplement-both-WPN-rows-by-exact-WOB-source-lifting.md)：一般L2体源与独立endpoint193完整转为两ordinary高源、raw低源和两个边界端口，a=k+w只对w取迹；原24480有限/径向尾准确保。纯32量合同经root/global独审，须真实58+224通过才消费；新直接fourblock逆仍条件性，旧finiteρ/trial门、实际ν/RHS与negative/非线性不改。0科学/假manifest。
 
 - [R138真实η平衡与径向加权根容量](results/R138-supplement-localized-eta-balanced-energy-and-root-capacity.md)：互补梯度Gram准确消cross，完整H修正保；径向p/q的freeouter容量给真cell递推与k0处理，mean0密度在准确容量范数下仅√Γ，完整weightedGram可保。root/global独审纯解析，0新数；新容量/尾/接收器门仍未付。
