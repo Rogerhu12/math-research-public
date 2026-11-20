@@ -18,13 +18,17 @@ def main():
     for name in ("repo", "workdir", "source-run", "outdir"):
         parser.add_argument("--" + name, type=Path, required=True)
     parser.add_argument("--modes", type=int, required=True)
+    parser.add_argument("--inspect-only", action="store_true")
     args = parser.parse_args()
     work, repo = args.workdir.resolve(), args.repo.resolve()
     rows = []
     names = ("material-lam002-relative-metric.json",
              "material-lam002-full-residual.json",
              "material-corrector-summary.json", "corrector-actual-00/run.json",
-             "material-followup-true_dn_correction.log")
+             "material-followup-true_dn_correction.log",
+             "corrector-actual-00/tail_worker_stderr.log",
+             "corrector-actual-00/tail_worker_exit.json",
+             "live-held10-material-tail-start-and-m12-transfer-01.log")
     for name in names:
         path = work / name
         if not path.is_file():
@@ -43,6 +47,8 @@ def main():
             record = json.loads(data)
             row["error"] = record.get("error")
             row["traceback_lines"] = str(record.get("traceback", "")).splitlines()[-16:]
+        elif name.endswith("_exit.json"):
+            row["exit_record"] = json.loads(data)
         rows.append(row)
     tail_files = sorted((work / "corrector-actual-00").glob("tail_*.json.gz"))
     result = dict(status="inspected", diagnostics=dict(
@@ -51,6 +57,8 @@ def main():
         scope="Read-only original files; absence of a ready line is not a numerical tail rejection."))
     target = work / "material-tail-startup-inspection.json"
     target.write_text(json.dumps(result, indent=2) + "\n")
+    if args.inspect_only:
+        return 0
     script = repo / "topics/visible-flex-held-10pct/scripts/resume_m3/prepare_lifted_mode_restart.py"
     command = [sys.executable, "-u", str(script), "--source-run", str(args.source_run),
                "--modes", str(args.modes), "--tail-config", str(work / "inputs/q060-tail.json"),

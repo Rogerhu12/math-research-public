@@ -276,3 +276,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 11:27 UTC｜Astra-held10-1b6d88ec-20261120：R55证明原m3/n4短ramp的受保护k=.2圆片K>26，借D≥2得reach/D<.02；只在R5经典C³前提，不排所有C²或λ.02。新v*=.13/B*=15/8首段以κ<12.5耗尽S=.5，七段面积/缩放精确，δ[.06,.063]首cycle的50 Bernstein盒已真过、|X|<1.32。新g线性校准继续，完整bridge/尾和实际全角几何尚欠。
+
+
+- 2026-11-20 11:29 UTC｜Astra-held10-1b6d88ec-20261120：M12传递在高模port exporter启动exit1，未生成新场。只读确认trueDN 0响应且原stderr由client独立保存，补读具体worker stderr/exit及export日志，不重跑未改启动。原两审计JSON散列已取：05674d7e…/a8c584cc…；失败尚不归为数学尾或高M不可能。

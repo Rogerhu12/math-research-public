@@ -1,6 +1,6 @@
 {
-  "id": "held10-material-tail-start-and-m12-transfer-01",
-  "read_rules_commit": "3085402d766e1129c594e6954110ef7617da6b86",
+  "id": "held10-inspect-worker-stderr-01",
+  "read_rules_commit": "f67e6f76bd679e432c0efedd8386349b4e1cc34f",
   "script": "topics/visible-flex-held-10pct/scripts/resume_m3/inspect_tail_start_and_transfer.py",
   "args": [
     "--repo",
@@ -12,7 +12,8 @@
     "--modes",
     "12",
     "--outdir",
-    "@WORK@/material-lam002-m12-transfer"
+    "@WORK@/material-lam002-m12-transfer",
+    "--inspect-only"
   ],
   "diagnostics": [
     {
