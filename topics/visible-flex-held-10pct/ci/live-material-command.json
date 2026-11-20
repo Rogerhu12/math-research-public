@@ -1,34 +1,48 @@
 {
-  "id": "held10-q060-warm-resume-01",
-  "read_rules_commit": "a5120c6a294950c69bfa67d515d494298fcd611c",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/resume_height_amplitude_path.py",
+  "id": "held10-lambda002-from-warm-01",
+  "read_rules_commit": "d67500405d3b71d6e761070bb1b50ac72f86fb00",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
   "args": [
-    "--repo",
-    "@REPO@",
-    "--workdir",
-    "@WORK@",
-    "--accepted-prefix",
-    "@WORK@/height-q006-warm01",
-    "--prefix",
-    "height-warm-resume01"
+    "--source-topic",
+    "@WORK@/runtime-source/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "@WORK@/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--profile",
+    "@WORK@/inputs/q060-profile.json",
+    "--chart",
+    "@WORK@/inputs/reference/chart.json",
+    "--port",
+    "@WORK@/inputs/q060-port.json",
+    "--amplitude",
+    ".06",
+    "--warp-reference",
+    ".06",
+    "--nodes",
+    "401",
+    "--max-nodes",
+    "6000",
+    "--raw-restart",
+    "@WORK@/height-warm-resume01-05-q0.0600000/inner-00.npz",
+    "--core-module",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+    "--core-config",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_lam002.json",
+    "--outdir",
+    "@WORK@/material-lam002-linear"
   ],
   "diagnostics": [
     {
-      "path": "@WORK@/height-warm-resume01.json",
+      "path": "@WORK@/material-lam002-linear/run.json",
       "keys": [
-        "status",
-        "stages",
-        "accepted_raw",
-        "accepted_directory"
-      ]
-    },
-    {
-      "path": "@WORK@/height-path-00-q0.0060000/run.json",
-      "keys": [
+        "solver_success",
+        "error",
+        "raw_return",
+        "prefix_audit",
         "domain_newton_stats",
         "domain_error_counts",
-        "solver_success",
-        "error"
+        "physical_sha256",
+        "tail_seam",
+        "actual_outer_checks"
       ]
     }
   ]

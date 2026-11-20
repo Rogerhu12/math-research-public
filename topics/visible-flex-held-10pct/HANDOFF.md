@@ -6,7 +6,7 @@
 
 连通闭C²嵌入连续族；固定有内点H、diamH≥.2D；整像δhold≥.1D、含反射的δE>0；全时reach≥.03D。固定全部g/物理参数/时间范围，完整metric≤1e−6且空间/频率/时间精化下降至求解/机器地板。条件比例窗、开放前缀、有限接受均非完成；完成后继续增大比例。
 
-- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`c4c4600b2ff1e1271dcc46be63277598b3368f72`；11:12 UTC本地真实pull --rebase至该提交，双README无变化；暖解worker亦真pull至1fdbc1e03373。持续至少每小时实际pull并核规则。
+- 工作树 `/workspace/scratch/1b6d88ecddf3/math-research-public`；已部分克隆并真实pull。已读规则提交：`da617311a3361ff138ab094be32c08bfdcca7025`；11:16 UTC本地真实pull --rebase至该提交，双README无变化；暖解worker亦真pull至1fdbc1e03373。持续至少每小时实际pull并核规则。
 - root独占终端git发布。每条结论同步H/log并立即push；NFF即pull --rebase、核双README并重推，禁force。首次接手提交d75355cbd已推。
 - 根§12：不重复旧身份审计/双审流程，优先实际求解。根§15：可再生场、网格、矩阵/输出不入Git/Release/CI；只留源/参数/命令/hash和紧凑数值。H<10KB，单MD<100KB，目录<200MB，不写根LOG。
 - `/workspace/scratch/7322d0dee069`明确不存在。旧91205(λ.82)/27744(M24)终态未知；新再生不是原进程续接，也不把丢失路径判为数学失败。完整旧断点见882aa9b74的H及[中断记录](notes/2026-11-18-execution-environment-interruption-recovery.md)。
@@ -57,4 +57,4 @@ R54宽材料窗S=.5/b=.2/k=.2，H横宽.54/相位.45，精确扫窗留.005余量
 
 后续实际同场operator/完整lift谱审计、固定均值和原trueDN校正（失败场只作初猜，最终门不放）。同场升M/aχΔI及高模真实port导出源已备；新严格控制盒覆盖λ.02实际c、保κ≥.2，旧锐C2常数不搬，见[传递/新盒](notes/2026-11-20-m3-lifted-mode-transfer-and-expanded-core-box.md)。
 live44720589640/job136234983080保场；每显式命令前真pull/核规则，仅小标量入ci。首q006再生失败4675点/RMS1.17371e−6，原raw仍在height-path-00-q0.0060000。原式RMS证4096小区间h≈1.27e−8；旧STATS真返14no_step/334merit拒/0域拒，未归舍入；415点完整重采样初猜交原H1暖解已真过579点/RMS9.9474e−7/metric2.5223e−9，5全步/0拒绝。见[暖解与Hermite诊断](notes/2026-11-20-m3-q006-rms-hermite-defect-and-warm-remesh.md)、[实际暖解返回](notes/2026-11-20-q006-warm-remesh-return.json)。
-当前命令held10-q060-warm-resume-01从height-q006-warm01完整checkpoint续q=.012→.06，同门/失败减幅步；附只读原失败STATS以定位原因。仍欠全部真实DN、圆弧/闭合、固定全部g精化、全时reach及δE；不在中间报告停止。本地82514/18524/2919恢复文件仍无terminal、未见PID，保持未知；m2输出已登记。
+同runner六续步q=.012→.06已全过，末605点/RMS9.98499e−7/metric3.4534834e−8，实际raw在height-warm-resume01-05-q0.0600000；[小记录](notes/2026-11-20-q060-warm-amplitude-return.json)。当前held10-lambda002-from-warm-01保此完整raw，恢复λ.02全原linearDN场到material-lam002-linear，随后同场operator/残差壳与trueDN；再生不记新物理结论。仍欠全部真实DN、圆弧/闭合、固定全部g精化、全时reach及δE；不在中间报告停止。本地82514/18524/2919恢复文件仍无terminal、未见PID，保持未知；m2输出已登记。
