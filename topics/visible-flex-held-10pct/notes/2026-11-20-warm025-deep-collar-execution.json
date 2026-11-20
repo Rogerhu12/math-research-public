@@ -1,0 +1,59 @@
+{
+  "maintenance": "Astra-held10-1b6d88ec-20261120 / geometry_advance",
+  "date_utc": "2026-11-20",
+  "status": "actual_exit0_continuous_deep_collar_and_disk_certificate",
+  "source": "scripts/resume_m3/certify_warm025_deep_collar.py",
+  "source_sha256": "ce79a1fd84b55d13285f2ca6c2a2988b333d0e60820ec8c4ba49b53fbad30099",
+  "extractor_sha256": "4eecd166b16aa66cd91a520baafb1530950a0462617c126db1ee507c92cb5f8c",
+  "exporter_sha256": "1d4884dd2163c5641277065bc38e384c5fa2478098f582e93512929fbf2593a2",
+  "input_bindings": {
+    "stage_data_sha256": "9d2699cc2add8567a138a6411981446dd6e130bc6ad88136cf67bcb3066c850b",
+    "stage_packet_sha256": "03d9f6a25d30ca2d56ba8ef15342c5a744df7f0c1146e5c367778cbf0ceffed1",
+    "tail_constants_sha256": "1a1bcd1679f9f3b507c19bed8f3a1310fda81ac16452ad164edef3e95d82dfc9",
+    "true_background_definition_sha256": "e764e2cc370f0b7a8a55324f2744702017c16690195f45db92ca66b9781bae56",
+    "original_checkpoint_sha256": "302662026a7e213647d8bfb2813f970174c8c919bb6f4d406e073ef9f3c110de",
+    "original_native_record_sha256": "a15afe15bdea350f03ea282c475deece4179f59c72f227b0bac9b5ec00980e7a"
+  },
+  "output_sha256": "e6e56ba6e177925d25f6a6d2de6319909eb3e8c4715a300350680ddb55c08791",
+  "source_stage": 1151,
+  "actual_saved_branch": "M24 depth8 warm .25 H, not full H",
+  "commands": [
+    "python \"$TOPIC/scripts/resume_n4/extract_q060_stage_from_native_record.py\" --checkpoint \"$M3WORK/newg-wide-lambda0p002-m24-actual/tail_0001.json.gz\" --native-record \"$M3WORK/newg-native-m24/runs/actual-lambda0p002/0009-jac-record.json\" --stage 1151 --out \"$WORK/stage1151-saved-native-input.json\"",
+    "node \"$TOPIC/scripts/resume_n4/export_q060_saved_stage_r_jets.mjs\" --input \"$WORK/stage1151-saved-native-input.json\" --out \"$WORK/stage1151-literal-r-data.json\"",
+    "python \"$TOPIC/scripts/resume_m3/certify_warm025_deep_collar.py\" --stage-data \"$WORK/stage1151-literal-r-data.json\" --stage-packet \"$WORK/stage1151-saved-native-input.json\" --tail-constants \"$N4WORK/q060-tail-geometry/constants.json\" --out \"$WORK/warm025-deep-collar-certificate.json\""
+  ],
+  "actual_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "certificate_seconds": 0.13339931500013336,
+  "rigorous_bounds": {
+    "exact_endpoint_scalar_equalities": 918,
+    "metric_relative_operator_upper": 3.77115772784403e-30,
+    "principal_curvature_upper": 8.000000000000002,
+    "radius_upper": 1.339852246826965,
+    "support_lower": 0.0909090909090909,
+    "disk_planar_projection_Lipschitz_upper": 1.885578863922015e-30
+  },
+  "height_placement_window_exact": [
+    "1/10",
+    "32/25"
+  ],
+  "object_contract": {
+    "radius": "literal binary source node selected as physical R knot",
+    "outer_node": "same unique stage1151 node0 shared two-jet",
+    "height": "physical r_JS^4 u and perturbation mean; upper height sign minus",
+    "planar_rr": "literal parameters of new Hermite map, not certified original PDE derivatives",
+    "inner": "zero two-jet on Ri=(R0+a0)/2, then true R58 background and C2 planar disk"
+  },
+  "nonlinear_solves": 0,
+  "new_background_integrations": 0,
+  "unpaid": [
+    "full H tail",
+    "whole-tail shared-node coverage beyond this endpoint",
+    "prefix-to-tail Cartesian seam",
+    "whole closed surface and full parameter family"
+  ],
+  "large_data_policy": "stage arrays and complete certificate stay scratch; regenerate from preserved source and run identifiers"
+}
