@@ -75,3 +75,5 @@
 - [R924](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：同原完整截面格与真实乘法恢复任意截面零除子的全Artin代数、剩余域/重数/参数及共零；原D_S为51个二次双点、36 cusp为4个一次和2个16次。TUV同M4分式以全极帽714及最大1004项准确恢复；Y全格666维、三退化j^m/ρ_j、原ys和完整shadow尺度保留。构造定理已证，公开有限代数/原shadow实际回执尚待。
 
 - [R924§11](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原TUV同完整M4分式实际PASS，run44720444485/job136234503706/sourceadf27f9ed，22.868秒；全0..715/731/1003、三核均20，分母∞阶1/17/289，原全局身份准确。result2eeb9e3e…ae5657。DS/cusp仍运行；Y全666维/三退化/ys前端另请求，原shadow未算。
+
+- [R924§12](../results/R924-original-section-divisor-algebras-and-shadow-interface.md)：原D_S及全36cusp实际完整代数PASS，同run44720444485/jobs136234504131/136234504114，246.764/111.467秒。204维完整非约化乘法/51二次双点、36维全cusp及其1,1,1,1,16,16剩余次数、全部原120射影坐标/点轨道均实际过；result9046706e…144b63/3c5cab06…0f833bb。附A单位分母读取与Y前端继续，原四大交除子/shadow未付。
