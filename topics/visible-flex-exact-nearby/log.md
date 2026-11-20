@@ -11,3 +11,7 @@
 ## 2026-11-20：完整平衡端点浮点目标首次完成冻结
 
 44721851908/1/actual60012B/SHA54954a43、exec52500B/SHA8036e47a、report527B全核，65当前hash和回执逐项同，7原+2新科学模块、25AST/24门、4次pull规则一致。原138panel定义与半径统计整对象保留；155panel、各向1424步、156分界全部完成。raw端点SVmin0.3246747972249881，所有分界最小0.23275370836518908，均只原样抄录浮点值，不是严格下界。本文登记完整诊断并冻结，0旧成功重算/0数组；真实系数差、193atoms/ports/CFB/全区间与finiteρ仍待。原L三量v3本次实际run44723722475/1已in_progress。
+
+## 2026-11-20：R140完整均值分块和保核权RMS已证
+
+proof18881B/SHA2db0c69c、纯数学源17807B/SHA359e03a9。根整读四块推导、两组三角/193观察及source Cauchy–Schwarz，逐项核源；已明确原moving-phi不能换physical-theta，同实际eta hybrid差为唯一对象，若改自然eta_c背景须另付−gamma e_m J_K d_phi。四块保全部primitive三项与mean-input rank，mean-output消费完整原行；RMS仅在whole核权后支配完整算子，根不确定长度不作虚假分母。已AST、0本机科学；新配方三量未执行，旧预算与全部剩余有限/高反馈门保留。
