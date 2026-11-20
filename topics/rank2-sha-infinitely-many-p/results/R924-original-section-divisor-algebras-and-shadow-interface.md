@@ -733,3 +733,31 @@ $$
 | 原V完整乘法作用 | `74be881ad9df4dfd893f136e38e8c3af2b98e3e85becfd6df65e728be31c6ac6` |
 
 这是原TUV在固定完整DS上的实际读出，尚非任意大交除子的全部函数值。原F/P截面reader首run44722756798/job136242404251/sourcea3358c63e0ff1f72bc8da055ebc3f5c703d044f4在host读取workflow源码hash时失败：sparse checkout缺.github/workflows，尚未进入凭据鉴定或数学进程。已补入该目录，保留所有来源/hash检查和数学接受门，重请求原任务；此运行失败不否定已认证P/F。
+
+## 15. 两原特征零PASS鉴定后的vF与三Yi截面实际PASS
+
+修复host sparse checkout后，公开 [run44723394686](https://github.com/Rogerhu12/math-research-public/actions/runs/44723394686) / job `136244599223` / source `7ffa56588b1146d192114d6e4267d51affb46e13` 于2026-11-20 11:02:10 UTC完整成功。r=29，q1429，同固定Sage10.6镜像；数学时间305.260910609秒，含鉴定的host总时间318.293506132秒。root亲读完整回执，并以CLI独立下载验证规范RESULT与完整日志hash。
+
+host实际核了两份完整特征零成功运行：F run43906594646/job133436977753/source135b50ff04a12c51dd1b9de583a20b2bed19cbed；P run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd。job/run状态、head/source、原全恒等式及完整RESULT哈希均与请求一致；断网Sage只收到无令牌鉴定信封。
+
+同原R917完整120维格延到1429项，实际完整乘积空间一直到R5，各幂都以完整Sturm窗选满维数。按R881：
+
+- 原F的1260未知元、1429行系统秩1116、核维144，所选原分母在∞阶1。真实同次分式仍是A5/(B2 S³)，全极帽1020，全部原1429个vF系数回代保持；S³未删。
+- 原P嵌入0和1的1056未知元、1226行系统各秩904、核维152；所选A3/B3分母在∞阶1、分子阶0，全部原QY系数回代。两侧同S³准确相消，极帽612。
+- 原嵌入2由嵌入1在同原120维有理基上的常数Frobenius取得，另核原第三QY与a17/λ/v/vnew。常数场仍原ω²+ω+1；Artin顺序(2,0,1)不变。
+
+这给同一原vF和三Yi的准确全局截面坐标。全核非零的存在由原完整映射证书保证，低窗只识别它们的原约化，未把短形式解冒充新映射。原RF/Ri立方根、完整交除子、全shadow均尚未由此回执计算。
+
+| 完整记录 | SHA256 |
+|---|---|
+| 规范RESULT | `0a8cc7cf92e277a00748c62bb8ee6bbd30fa3801fe839ebbe22e089a008e7f9f` |
+| 完整job日志 | `e8f56605c62678158f885d9640d1d12e42190cde9418c31f04d7bb46fb4a5ade` |
+| producer | `8fb7b9753431a01d5bdef3211208c20a8ac4c27eb144a12002ef540ea7ed52b9` |
+| 鉴定信封 | `b59c77ae691642aed2b8039b904e1280289eec879e16205b357b601fcc6cdb25` |
+| 同原完整乘积recipes | `b8f9d517cd91c36ddcb30004564d9a46c4ed6e95cbb654a156a6c7025785b555` |
+| 同原1429项RR格 | `ebffa09e0b443d6b7d41898b847dbdf7cf6c8e2523635ea5465790934e4c6245` |
+| F完整低核所选解 | `b96eddabf240cde978c173e2cad1e07f0331ddcfe35821b2c1d1a750774c9aa4` |
+| P嵌入0完整低核所选解 | `0d6425c262bc877ad1aea1ca21263e4accfb85841f73e77668ab9fe83e92d545` |
+| P嵌入1完整低核所选解 | `17ad264d213d82b212997fedd395d5425b24db8aa6461198b9948f3866500545` |
+| P嵌入2原分子坐标 | `feb9081693090020d227133e2896fe230a55a9cde58741d11de672c62f4483ea` |
+| P嵌入2原分母坐标 | `92d77ce04130759949940ed54c57bcccad4af56f7aee849c7d82257d2e75a437` |

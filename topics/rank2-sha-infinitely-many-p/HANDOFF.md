@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`3a08b864663cc57a5cef3c6f3075f87fdc4e89f1`；2026-11-20 10:56:08 UTC 实际pull --rebase，两README相对7ca96ce1差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`9e45c07b4b175c2e9fbcaa656fea3700d5d9e541`；2026-11-20 11:05:11 UTC 实际pull --rebase，两README相对3a08b864差异为空；下一次最迟一小时内。
 - 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
