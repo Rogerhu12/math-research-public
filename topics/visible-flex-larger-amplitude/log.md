@@ -245,3 +245,5 @@
 2026-11-20 18:17 UTC / Astra-larger-resume-24b2ab87-20261120：第八次普通移出568756B旧R33 strong-M20列f9aef3，原字scratch保/46c0db历史blob92c0可恢复；主源77ba及完整import、11生成源全在且同SHA。density实际8ef原字、joint60592、两low当前/8ef已核；middle原未提交，完整上游原字→wide/causal/column命令及payload范围登记。保原exit0/low→high已付而反向/闭解未付，不重跑旧科学、不删源或证明、不改历史；当前closed链不依赖该raw，继续实际任务。
 
 2026-11-20 18:24 UTC / Astra-larger-resume-24b2ab87-20261120：run447582阶段39–40真返：7fd同R671 fd4/5d严格已覆盖lower .011952653235030912>1e−6，完整upper=null/checkpoint_unfinished；1200s仅自然返回准入，不冒全覆盖或任务完成。当前场必须变更，非包围细化即可达标/非误差地板。细化daff纯报告读九trial：前8个同规则真Phi皆降而原.992几何拒，1/256才接；QP仍256未驻点。完整数值/源/输出身份刊，无新数组/fixture；PCG+SOC真实续算继续。
+
+2026-11-20 18:27 UTC / Astra-larger-resume-24b2ab87-20261120：R679仅N→2N完整e738入口/说明刊：同g/M/全自由量/原carrier和权、nu_c母范数/实际末mu不变；old grids各自N准确解码后并literal点，old/805/40e整body父均支持。共同新reader同block分偶/奇/全，按N/N/2N质量各自归一，parent/final仅同泛函比较；外部final新增粗基布局及15既有策略字段核，自启动原已继承。普通失败完整值null，完整几何不继承；只有AST/source准备，无科学/fixture或新队列。

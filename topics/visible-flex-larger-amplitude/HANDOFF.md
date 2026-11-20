@@ -4,7 +4,7 @@
 
 ## 规则与完整目标
 
-最近规则核查：2026-11-20 18:24 UTC，真实pull/rebase至 `084e4f04b50d2f140e2dd31d925f09adcdad900b`，双README相对上次已读无差异。
+最近规则核查：2026-11-20 18:27 UTC，真实pull/rebase至 `ee9ce2429f9c1504aebdd67c3c9585b928f31814`，双README相对上次已读无差异。
 
 科学计算仅本公开仓库Actions；早前本地偏差及13:00 UTC纠正见[执行记录](notes/2026-11-20-public-actions-execution-correction.md)。根README已授权必要修改/发布；根唯一local git writer，代理只work/小源。每条结论普通commit/push；NFF立即pull --rebase循环再推，不强推。至少每小时pull，每次核双README差异/立即遵新规并记commit。raw只scratch/runner，不入Git/Release/artifact；只保完整小源/参数/run/SHA/紧凑结论。题≤200MB，MD<100KB，H<10KB，open<30KB。令牌只瞬时CLI，不写文件/提交/回复。
 
@@ -44,7 +44,7 @@ run2：[同g径向二分已返](notes/2026-11-20-actual-fixed-g-radial-refinemen
 - R676：同g符号二分/补零/旧行正权/全部永久点/六jet转移差；真实fine solve源齐。跨层Phi权变只比较共同父泛函，单次转移或fine不冒持续精化收敛。
 - R677：同QP可靠残差/固定面长CG，v3 fb4实际返；R673面gap和规范化释放另付，raw负乘子不定因果。
 - R678：仅增M准确补零保同场六jet、原carrier/全权/N及完整母/商范数；eea174b9入口仅准备，依径向实际归因择用。
-- R679：N倍增旧偶/新奇Phi各半、max取并；共同N/odd归因及条件角余项已证，仅设计。
+- R679：N倍增旧偶/新奇Phi各半、max取并已证；[e738完整入口](notes/2026-11-20-R679-N-only-complete-entry.md)仅准备。保原carrier/M/母范数/真末mu，旧点按各自N解码，同一block偶奇全读；外部final粗基/策略逐项核。不继承几何、未排新算。
 - R680条件二阶修正：[父行helper5bc](notes/2026-11-20-parent-row-SOC-helper.md)仅准备；固定branch/radius/norm、QR原范数及全C检查，严格L/tau未付；[独立driver/完整父入口805/9b](notes/2026-11-20-parent-row-SOC-driver-preparation.md)准备，修正真模型控mu，无实际SOC接受。
 - R681：当前J coarse/一般K、角矩SPD/PCG已证；324/da083/dd595/f96已入复合40e/3f，原母范数/欧氏停止/释放首步不变，构造与应用失败如实。[新归因adc90](notes/2026-11-20-PCG-SOC-returned-report-attribution-interface.md)已排，原QP/原ray/修正步分读，真收益未返。
 - R682：严格metric lower用自己配置的准确s/π角身份，已有address可复用；新增正权必换Phi版本，全free点导数/分母链已证，超标硬门不可直接交零步feasible-CG。
