@@ -6,17 +6,17 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。接手原状态见[前H](handoff-archive-2026-11-20-before-resume.md)；本轮两中央零之前的逐字H见[最新归档](handoff-archive-2026-11-20-before-middle-sigma-counterexamples.md)，内接全部早期完整pins和规则。
 
-**已读规则提交：9a2438864d44ac440b4ac822c02ccf3092fcbd5f**（2026-11-20T10:43:11.963974+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：34e4a6640b9dc6d0a7738e938af6b31c59b9bb50**（2026-11-20T10:45:16.521745+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立即pull --rebase再推循环至成功，禁force。每pull检查根/课题README，有变只读diff并立即遵守，读SHA记本页。PAT仅CLI，不入文件/提交；root独占main。
-新数学仅本公开仓库Actions，外部只纸证/IO/schema/hash/AST。raw仅当前必要一日artifact，不入Git/Release；本轮只临时/tmp与stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB（现114M）。log用Asia/Taipei每项≤5行，无独立测试门。终端曾失联，R937由恢复run44715068884真实pull/push至ba6fe7a2，现终端已恢复。
+新数学仅本公开仓库Actions，外部只纸证/IO/schema/hash/AST。raw仅当前必要一日artifact，不入Git/Release；本轮只临时/tmp与stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB（现114M）。log用Asia/Taipei每项≤5行，无独立测试门。终端已恢复；旧失联恢复沿归档。
 
 ## 当前最重要断点：中央低项与完整迹必须分开
 
 [R945](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)：run44719847377与独立Lagrange run44720732478/source2ca40e872都成功。p227/h115为f18=0,g18=136；p857/h433为f71=176,g70=0。中央Legendre皆单位而完整S=95/568，**原Q′恰零，故无例外的全trace非零⇒中央Q′单位已排除**；不否定充分大p/有限例外或Serre。
 两原q2的sigma积分别101/335，Q中心阶恰2；整scalar/w有唯一pR0根，可能仍为中心，非全Abel零。实际替代p227/h151的f24g12=16且旧Legendre单位；p857/h445新Legendre298乘旧sigma187为21，R940给其Q′单位。四中央值复核完毕，旧48窗/trace/Legendre/顶端不重算。继续全p同h选择或原height，不再追不存在的无例外中央单位桥。
 
-R943的9+9符号来源已过；[R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)已证明原ΩV=6∇Z+6^r r!ΨF及全SS最高极部−g_Pρ^r/A^r，保正KS/相对Frobenius/原两权。未识别为完整trace范数；R946全空间Bol整除待登记。
+[R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)已证明原ΩV=6∇Z+6^r r!ΨF及全SS最高极部−g_Pρ^r/A^r，保正KS/相对Frobenius/原两权。未识别为完整trace范数。
 
 ## 本轮已成全p原来源结果
 
@@ -32,6 +32,8 @@ R943的9+9符号来源已过；[R944](results/R944-original-CM-Gauss-Manin-homot
 [R941](results/R941-original-supersingular-trace-and-CM-constant-term.md)：全留数给T=6χ CT(F^(p+1)B^(r−1)/Δ^m)=−χ/[6^(r−2)(r−1)!] CT(F^pΘ_Q^(r−1)F/Δ^m)，原Q/Frobenius/点权/d1/cF全保；一般不消仍开。
 [R942](results/R942-original-complete-weight10-double-Hecke-zero-primary-line.md)：完整四维权10的T5经共轭marking再回原marking，T5²非零值147456/666²，全广义零部分仅V10†（p≥41）；run44718206366核新W/Z/phase。高权完整CM packet的额外Hasse饱和仍开，不能由低权一维外推。
 [R943](results/R943-original-p11-central-and-third-label-Cartier-interfaces.md)：p11中央C((2w−1)ω)=εLω；固定三挠E_T的H=−P_((p−2)/3)(T)、准确GM/半线性及四个旧合法端点的第二类Cartier表达，E_x到共轭的3同源微分乘s。旧双标签不共零只引用；203原允许p≤10000中央/selected第三位皆无零仅有限窗，不判同h sigma。
+
+[R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)：fine全六任意2≤r≤p−2上整个S_(p+1−r)有T^r=6^r A^r D_r；原下降保parity。全CM packet再除一A恰等价O_r=(D_rH/B)|SS为零。SS完整商含S_w对偶及真实CM支撑，不能按支撑杀整商；具体O像仍开。若它为零，R918/R942低权广义零线才真给trace非零，仍不推中央Q′。
 
 ## 原全p几何链：已成与真正缺口
 

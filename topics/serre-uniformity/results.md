@@ -34,6 +34,8 @@
 
 - **R945（精确有限反例与真实替代标签）**：[中央sigma零、第二系数及同h替代](results/R945-original-central-sigma-zeros-and-same-label-alternatives.md)。两独立原公式给p227/h115的f18=0及p857/h433的g70=0，完整S却95/568，故无例外的S非零⇒中央Q′非零不成立；两Q的二次项单位，中心阶恰2。p227/h151与857/h445同标签Legendre·sigma均非零；保原Norm/phase/a_h与真正来源，不外推充分大p或Serre。新run44720732478全过。SHA256 74fcc9c1eba8a1d1f54687c2e1a92cc9d9ec6f07ea0942067bf9ba05950463a0。
 
+- **R946（一般全空间Bol整除与准确剩余障碍）**：[普遍Bol整除和最后SS映射](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)。fine全六上任意2≤r≤p−2、w=p+1−r的整个S_w满足T^rH=6^r A^r D_rH；原下降严格保中心parity/配对角色。完整packet再除一A恰等价O_r=(D_rH/B)|SS为零；SS空间有完整S_w对偶商，因此不能按Hecke支撑把整个商杀掉。命名F的零像不推广成全packet零像，也不推trace/Q′非零。SHA256 3d17c984b259e76fa576faf3424df7d34898204c6b64af4ba89c1e2d5b987a63。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。

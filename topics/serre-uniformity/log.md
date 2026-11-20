@@ -638,3 +638,7 @@
 ### 2026-11-20 18:43 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R945由独立公开run44720732478完成：227/857中央sigma零而全S非零，关闭无例外的trace⇒Q′单位推断；两q2单位，中心阶恰2。
 - 两素数各有同h替代jet非零（227/h151、857/h445）；只有限结论，不冒全Abel零/有理点/充分大p。继续R946一般Bol及R947真实低权共轭类。
+
+### 2026-11-20 18:45 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R946对全部2≤r≤p−2证明整个高权空间的普遍Bol整除T^r=6^rA^rD_r；原角色/中心parity和两权完整保留。
+- 全CM packet最后一层饱和恰剩具体SS映射O_r；完整SS商含高权对偶CM支撑，不能按支撑消失替代image消失。接续R947与真实原height/同h选择。

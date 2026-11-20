@@ -140,3 +140,7 @@ R936的原Tate标架错误已明确勘正：[审计](notes/R936-Tate-frame-sign-
 ### R944：原低权类的同源同伦和完整SS主部已成
 
 [R944](results/R944-original-CM-Gauss-Manin-homotopy-and-supersingular-principal-parts.md)在原fine全六系数丛给 ΩV=6∇Z+6^r r!ΨF；Z保全部低项，最高Hasse极部恰为原R932的−g_Pρ^r/A^r，且σ_P=−B_Pρ_P来自正KS。原两CM权、ζ²、原Igusa根、相对Frobenius和正规化Sym配对均明定；给具体Čech修正而非任意亚纯形式的类。仍须把原完整残数和真正搬到固定低权整体cohomology，并核实全局积分格和Frobenius尺度；非零类不保证对指定向量的Serre取值非零，完整trace更不自动给高Q′单位。
+
+### R946：全空间已普遍除去r个Hasse，最后一个有明确SS障碍
+
+[R946](results/R946-universal-Bol-divisibility-and-final-supersingular-obstruction.md)证明fine全六上全部2≤r≤p−2的T^r=6^r A^r D_r，保原upper h两权与中心parity。原r2/8全CM packet的额外饱和现在严格等价O_r(M_CM)=0，O_r(H)=(D_rH/B)|SS。精确序列0→M_r→H0(SS,ω^r)→S_w∨→0保角色对偶与ℓ^(r−1)Hecke尺度，末商含真实CM支撑，故整商支撑消失的捷径已排；只须、也仍须证明具体O像消失。详见[支持注](notes/R946-Hecke-localization-and-theta-saturation.md)：全theta在w<p注入，若最后饱和成立则由R918/R942低权广义零线可真得原trace非零；当前不假定这个饱和，也不把非零trace接到已被R945否定的中央Q′桥。
