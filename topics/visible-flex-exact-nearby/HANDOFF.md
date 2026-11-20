@@ -1,12 +1,13 @@
 # 交接：可见振幅的精确闭等距族
 
-维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 09:35 UTC。
+维护会话：`visible-exact-astra-ac637-20261120`；更新：2026-11-20 09:54 UTC。
 **总任务未完成；继续研究，不等用户回复。**
 
 ## 规则读点与接续来源
 
 部分克隆：`/workspace/scratch/ac637cfcc78d/math-research-public`。终端 git 已恢复，无 AGENTS。
 2026-11-20 09:40 UTC 实际 `git pull --rebase --autostash origin main` 至 `72d8a04358d88b1a5ef8f5571b123b14040aa8cd`；已读根/题 README，已读规则提交同上。相对前会话最后读点 `d86a3e8e`，根只新增 held-10pct 课题行，题 README 不变；本次拉取两文件 diff 空。每次 pull 后继续核两 README 差异，下一次实际 pull 不晚于 10:39 UTC。
+2026-11-20 09:50 起执行环境返回 `No usable execution environment`；09:54 再尝试真实 pull 仍同错，不把 API 读取冒充 pull。当前仅 GitHub 集成可用，按根规8以小 UTF-8 文本继续；09:54 核 `6de107b037d8e4811340ec6dcc784a4e1f7746c9` 的两 README diff 空，最新已读规则提交为此。执行恢复后立即实际 pull/rebase。
 
 接手前完整 H（含全部递归原页、成功/失败/恢复身份和未付义务）见 [2026-11-16 完整检查点](https://github.com/Rogerhu12/math-research-public/blob/882aa9b74efeaac682df43c197820e7280156357/topics/visible-flex-exact-nearby/HANDOFF.md)。本页只压缩索引；`open.md` 及所链接的原证明、适用域、均值、物理角、所有边界和误差费用继续有效。旧成功结论不重算。
 
@@ -45,10 +46,10 @@ geometry `43584188751/26` **仅条件性**：同η0真 wholecore（含帽）C0�
 
 当前模块：owner `fourfold_codazzi_collar_volterra_dual_candidate.py`；完整输入恢复/执行为同前缀 `public_worker.py`；reader 为 `readonly.py`、`readonly_core.py`；math 为 `true_collar_signed_packet_math.py`、`signed_semiseparable_kernel_math.py`、`collar_dual_feedback_math.py`、`W2C_signed_reference_math.py`（都在 scripts/）。完整 native 数据与29整球仅恢复旧字节，不调用旧 producer。
 
-1. `joint_kernel` 补 `collar_dual_feedback_math.py` 的 graph4 稳定联合核压缩，保留所有 collar 项与真实 Gf atoms；此前递归高秩 generic 后端尚不适合科学 launch。
-2. `positive_inverse` 研究把同 WJK 中心核直接并入参考边值系统：1217维一阶 ODE、609个自由初值/终端方阵；这是新推导中的候选，尚无实际可逆证书，不授全逆。
+1. `joint_kernel` 已完成 graph4 固定宽度 signed columns：完整 collar、两 Green 三角、193 atoms、同点合并后 abs，稳定 Gf 和逐 parent 缓存。最终源码 81237B/SHA256 `a756bd51f61778fc15e907f39934126e91882878bb89076804b057919aa6061d` 与13802B证明位于本会话 scratch `joint_kernel_work/`，断连前 AST 通过；尚未合入或运行。预留 R136。
+2. `positive_inverse` 已推导连续 WJK 中心的1217状态/609端点系统，无 aux-only 伪核；与原 finite Qf 的投影/ρ差另付。R137及精确接口在未推本地文件；准备193低态/97端点的非认证浮点诊断，先看匹配角，再付全高反馈及实际误差。尚无可逆数值证书。
 3. `global_route` 核查真正core/腰/ν/完整frame匹配与可替代结构，避免重复已证明的条件Schur。Ghomi等正亏格等距嵌入族不是已知连续弯曲；R520仅小振幅，均不替本题验收。
-4. root 维护 main/H/open/results/log，修复无关工作流阻塞，准备新公共运行并追踪结果；代理不动git。
+4. root 维护 main/H/open/results/log。首次科学运行尚未启动；先加入 K=0 的比较配方预算检验，若其严格下端≥1，可排除既定充分界配方而诚实保留 graph4/5 未算；不能反推实际算子奇异。代理不动git。
 
 ## 正侧以外仍未付的接口
 

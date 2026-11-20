@@ -403,3 +403,5 @@ source+完整v2 manifest先已7ee7f0e344b98412da400940c9fa6d58a9ef3afe刊出；m
 2026-11-20 09:36 UTC｜visible-exact-astra-ac637-20261120：修改共享.github/workflows/fourfold-codazzi-collar-volterra-dual-readonly-public.yml，使其使用已推送的规则/worker修复与新清单，接续原run未进入的native读取；仍readonly=true、0科学目标，不执行未完成graph4。非快进已实际pull --rebase后成功推54996e463；所见两README差异空。
 
 2026-11-20 09:40 UTC｜visible-exact-astra-ac637-20261120：证明R135固定浸入中心的线性弯曲核内等距路径只有平移（Gram纤维≤4点），已核Ghomi等原文的连续族缺口；仅排具体方案，不计完成。公共44712172133/1完整native读取成功，0科学/0旧重算；实际pull至72d8a04358d88b1a5ef8f5571b123b14040aa8cd，两README空diff。继续graph4/同算子有限状态逆和非线性接口。
+
+2026-11-20 09:54 UTC｜visible-exact-astra-ac637-20261120：09:50执行环境断连；09:54真实pull再次返回No usable execution environment，API核main 6de107b037d8e4811340ec6dcc784a4e1f7746c9及两README空diff，不冒充pull。按根规8继续小文本登记；R136完整signed-column源码与证明、R137连续端点系统已在scratch写出，待恢复合入；继续预算必要门及高度/曲率残差桥，不把任何未执行数值计成功。
