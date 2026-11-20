@@ -133,3 +133,5 @@
 2026-11-20 14:12 UTC / Astra-larger-resume-24b2ab87-20261120：R673完整半Phi单位/残差块与full H区别/冗余核Krylov不变性/固定面gap与可行对偶gap/实际Armijo局部下降证明刊。已有首方向阻尼能量比约1.15、固定面剩余约6.2e−18为既有标量代入，非新全QP证书。两份完整Actions-only源读取已返标量及接受点1 residual+1Jv（0QP），新数值未执行；旧入口不用于R671新lift。
 
 2026-11-20 14:19 UTC / Astra-larger-resume-24b2ab87-20261120：R673实际续步完整源已刊：只消费同SHA接受点fresh Jv，0新QP/Jv/VJP；追加eta沿已付完整自由方向，真p8 Armijo及全部原/Gauss/永久点逐试读取。拒试新峰永久保且最终场重读；0接受为原父逐字副本，最终余量false如实保。原lift限定，R671新工厂不误用；仅AST/静态准备未科学运行。
+
+2026-11-20 14:27 UTC / Astra-larger-resume-24b2ab87-20261120：R672完整EE乘子(−rho²+i rho′)P_K及全部支撑、逐控制点相消/径向分块、全同角六jet、真实第一形式形算子两有效界及cuff面积推出rho正证明直接刊。准确Fraction目标8.1只预算，未付浸入与超预算区分；原0241旧K不重扫，R671非多项式lift明确不支持。24440B新源仅AST/元数据，未科学运行；另修射线准备note两处alpha显示转义，实跑/准备源不变。

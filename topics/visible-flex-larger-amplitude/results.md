@@ -277,3 +277,5 @@
 - [R671：准确旋转参考尾的解析lift扩充，保留全部原自由坐标](results/R671-exact-reference-tail-affine-lift.md) — 同g、core/帽三jet、原自由量保持；λ0旧空间，λ1含准确末段并消除R669特定五次障碍。完整六jet/Jv/transpose及准确quintic高度补偿已证，不替完整非圆连接或数值证书。
 
 - [R673：完整Phi阻尼、活动面误差界与真实接受射线后继](results/R673-full-Phi-damping-face-gap-and-true-ray-continuation.md) — 同半Phi单位、固定面及可行对偶gap完整证明；冗余核不自动成为CG慢模。已付方向下降条件与接受点fresh Jv后的一维Armijo存在性明确，有限点与连续reach不混，两源应用未运行。
+
+- [R672：完整同角六 jet 包围与真实欧氏曲率自适应连续上界](results/R672-complete-lowmode-sixjet-curvature-with-laurent-remainders.md) — 完整 $( -\rho^2+i\rho_\phi)P_K$ Laurent 支撑、全部原高模／解析尾和准确径向三 jet 均保留；同角真第一形式形算子上界完整证明，只细化未付预算胞。源码仅公开 Actions，当前无新应用；不冒原模型 reach，也不向 R671 非多项式 lift 继承 degree6 证书。
