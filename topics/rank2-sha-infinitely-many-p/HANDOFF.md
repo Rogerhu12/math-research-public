@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`62d8a0727eb7b87f5c278731a6376bf4ff4ff156`；2026-11-20 12:17:13 UTC 实际pull --rebase，两README相对62d8a072差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`f74a0d6b5ad3f1ba4cc4555c1ac990a43110a1bd`；2026-11-20 12:18:38 UTC 实际pull --rebase，两README相对8cfcb41e差异为空；下一次最迟一小时内。
 - 仅写公开main；每条完整结论即提交，推前pull --rebase；非快进循环，不强推、不存令牌。数学只在公开Actions执行；重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB、MD<100KB、open尽量<30KB、文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。所有旧授权/规则已读，未变化。
 
@@ -46,3 +46,5 @@ R902/903端点单射不可相加；R907唯一TG=EG−aF³、两native尾/六维Q
 R916只在原f=λY²(Y−1)、1≤ordF(t,0)≤2给K∞≤1；完整19角Pn·k[t]≤Mn及同T前缀读唯一Bn+c(t)Yn，εF0/1替d∞，原Λ未判。R918三首13带在δ=r+2h−s∈[−13,−1]给同q卷积unit·a(G)及稳定核β1单射；δ≥0三带零iff深J=T+13，q(0,Y)=cY的native式、δ0首值/δ>0再深1及全部U0/高轴/导数/同R,S保，非稳定核仍开。
 [R920及附A](results/R920-original-first-bockstein-kernel-and-short-euler-chains.md)K′=K∩ker完整β1，三首13带深J=T+13；δ∈[−13,−1]真相邻后继由2h<J迫a=0/H=EG，K′∞=0。S=min(J,s−4)=T+11是已付窗，真实三/四来源链给3dimK′≤2nJ或4dimK′≤3nJ。同P两全p³解仅在ΔR∈jH3时入jK′；固定一解且S全原格自由时可延类是R+jK′，受限S只保必要式，未判p⁴或固定forcing。
 R834/836/837预算、R840同Kcorr/Hcorr、R842指定WT[b0]及2κ<T≤3κ保持；R895/896只排τ1 quartic低松弛，O4/O6/O7仍开。
+
+[R928](results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)从原P写完整四前缀右端，H·B与真除p商保；负fringe的η²逆Taylor给固定全局兼容类（同陪集基点不变），同H1像给选定行充要。原受限S剩余全p³像门仍须同整R；固定类实际值/非零正续接，不把选定行核当K′。

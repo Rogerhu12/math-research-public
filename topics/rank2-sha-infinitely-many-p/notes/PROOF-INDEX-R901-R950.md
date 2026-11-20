@@ -107,3 +107,5 @@
 - [R915附B](../results/R915-original-connection-integral-window-and-second-digit-kernel.md)：同原ζ归一化Lucas保全部进位，使a_j整的连续终点准确为N−1=p²−p−1；v_p(a_N)=−2且p²a_N≡−pc。全C_r,k三角式与两位反馈保原Vc，输入窗p³−p须实际重付，不冒中央非零。
 
 - [R927§6–7](../results/R927-original-yF-pole-degree-from-mixed-kernel-and-cusps.md)：同原dF=2160+9(e−z)，e/z皆偶且界102/96，dF为18倍/1296..3078且不等2256；原RF全900分母以RR满射读DS约化rank=e，原∞289厚因子足读2z≤192，实际两值待付。
+
+- [R928](../results/R928-original-fixed-P-affine-long-jets-and-global-compatibility.md)：原固定P的四actual长/短前缀右端保真除p商及H·B，负fringe二次逆Taylor给直接可读的全局兼容类；同H1实际像使选定行充要，受限S的全p³整像门仍独立，未假固定类非零。
