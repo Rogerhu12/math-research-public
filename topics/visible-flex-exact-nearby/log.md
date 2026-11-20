@@ -279,3 +279,7 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:20 UTC：同选定成员的正区Newton源最小补尾合同
 
 会话visible-exact-astra-ac637-20261120。positive给N1–21及pure18365B/b92230d4，root整读并核原R2/R12/R16–18：δ*来自原implicit pair，不设为1e−10；R141共同η/ΔL/GH uniform限制后同WOBSA选定normalization。CRA整个[0,.9]直接限制到真根，旧whole7721 source三球只读；仅补[.9,25/8] raw/centre repair/完整二三次源，旧e0/e1因真实方向线性缩1/100，mean rank保。七量依序保存读回，high不混f0低背景，trueRobin/physicalmean仍独立。proof14247B/65f0b43b；0科学，准备新公开consumer。
+
+## 2026-11-20 15:22 UTC：真根锚定局部漂移两量首次Actions入口
+
+会话visible-exact-astra-ac637-20261120。science19541B/9c468c51、合同10411B/c5507a54整读；worker32390B/c64a4792复用既成pull/README/容量/非FF框架，只恢复positive4+germ1。manifest8972B/e8dfa5e0含15pins，24字段/5CLI/320bits/唯一新Dloc及exp，原X全域积分/exp仅读。true根padding、完整pair ε与原3594接口保；两个scalar依序保存读回，close101/100或新旧upper比较false仍complete。新增单用途workflow首次触发，四线程变量1、无numpy/旧producer/本机science；实际结果待。

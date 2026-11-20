@@ -6,6 +6,8 @@
 
 ## 新增结论
 
+- [R138根锚定局部漂移两量公开合同](notes/2026-11-20-R138-root-anchored-local-drift-contract.md)：只恢复原positive4/germ1并读完整X，15pins/320bits，整个真根1/100层的Dloc及exp为两个新scalar，均保存读回；101/100 false仍保完整bound，不授capacity Gram/body预算/全逆。首次push，实际结果尚待。
+
 - [R141同一selected成员与完整正区Newton源](results/R141-supplement-selected-member-and-complete-positive-Newton-source.md)：δ*为原隐式对且|δ*|<1e−10，uniform R141/ΔL/GH可准确限制；旧CRA全core直接覆盖真根至.9，仅新增.9至R的raw/repair/二三次源。完整7721方向源只读，1e−8方向幅度按齐次性缩1/100，mean不删；7新量pure core已证，尚未数值，不授实际边界残差/逆。
 
 - [R141同格两三角的准确矩积分与输出复用](results/R141-supplement-exact-cell-Green-moments-and-shared-output-covariances.md)：signed完整HS²可由五个193矩阵的block Taylor/doubling取得，无Sylvester谱假设；variable source先付逐点PSD协方差majorant，不能当constant。源无关A/B/K共享与两批J/right流保原pack/trueh/193atoms；纯core已整审，未改运行中的44730452579，未产新defect或逆。
