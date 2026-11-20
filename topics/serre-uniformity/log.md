@@ -757,3 +757,7 @@
 ### 2026-11-20 21:02 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R973原balanced Kronecker新source、exact rational与single-pole算法已独立纸审，保g3=4/无Gaussian/原B符号及模权2n；本地只AST和hash。
 - 新request仅四个固定p的新目标，待公开回执，不预设单位、不重跑旧trace或同h；继续模符号积分方向与真正高adjoint尺度。
+
+### 2026-11-20 21:09 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R973公开run44740851091完成15.197670298s，原新balanced四值13/4/171/317全单位，exact rational与single-pole核全部过；四rational和rows/prefix/summary hashes root纯IO复核。
+- 当前request已完不重跑；H逐字归档压缩，继续R972局部条件、R974精确period桥及R975递推纸证，均未预登记一般单位。
