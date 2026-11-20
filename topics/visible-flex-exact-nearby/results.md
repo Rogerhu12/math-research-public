@@ -380,3 +380,8 @@
 ## 2026-11-20：保持同v的不同四顶点谱majorant
 
 [CV1–6](results/R138-supplement-correlated-v-eta-four-vertex-body-Gram.md)给完整原box的准确谱最大：先η的Loewner凸，|u|/K通过非负2×2谱单调取upper，再同一v的Loewner凸取两端，故仅四角点；同v在κ/Gram/分母不拆。germ真侧K≥0、完整mean/repair/σ保，无K除法。0科学，独立于已成SG算法，不预称新数值或根门；全域后才可与旧SG upper取min，RX完整方向仍须支付。
+
+
+## 2026-11-20：真实物理外Robin与mean两值实际通过
+
+[OA完整结果](results/R141-supplement-actual-selected-physical-outer-residual-values.md)记录44769445246/1的18门2球；同selected member/同许可fB，原physical H^-5/6 Robin<1.259356e−15、独立mean<2.048247e−19，完整物理角/Fourier尾/1/m及19旧球均保。23当前/1历史精确，0旧科学；只有这两真实源槽已付，height/farlabel/knownZ边界差及两WPN/全逆/最终族仍未闭。

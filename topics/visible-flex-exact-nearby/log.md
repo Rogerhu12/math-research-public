@@ -348,3 +348,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 16:04 UTC：同v四顶点的不同完整谱包围证明
 
 会话visible-exact-astra-ac637-20261120。global给CV6101B/95d57ce0，root整读proof与相对SG的全source差异、positive独核通过。η原互补PSD凸；|u|/K以符号归一的非负2×2最大谱单调，非Loewner单调；固定eta后r^-1 Dminus+rDplus+C对同r凸。CV5保同v在整个Gram/κ/分母，原wholemean/repair/germ真侧与全部4651范围不改。该新majorant非重跑SG；后继新4/条件5量还须RN/RX筛查，qtest完整ball要求保存读回再判门。当前0新科学，无改善幅度或逆主张。
+
+
+## 2026-11-20 16:08 UTC：真实外端Robin与独立物理mean实际两值完成
+
+会话visible-exact-astra-ac637-20261120。44769445246/1 actual33599B/db6f827c、exec13544B/70ad7e19，18/18门、2ball保存读回；23当前逐bytes/hash及1原件receipt核同。math.017978238s/child.205160745s/rc0，全θ/Fourier尾保；RB<1.259356e−15、RC<2.048247e−19，完整B/C/reciprocalmean差另保3预算stage。原13/25/25/14/16/18门全保，旧target/import/producer0；height许可半径不冒RHS，Zproposal边界差不由纯ν显式0删掉。实际物理两源通过但7项未付false仍保。
