@@ -1,0 +1,85 @@
+{
+  "execution": "local session 7190, observed exit 0",
+  "command": [
+    "OPENBLAS_NUM_THREADS=1",
+    "python",
+    "/workspace/scratch/1b6d88ecddf3/n4-work/certify_m24_prefix_height.py",
+    "--source-run",
+    "/workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-linear/run.json",
+    "--physical",
+    "/workspace/scratch/1b6d88ecddf3/m3-work/newg-wide-lambda0p002-m24-linear/physical.npz",
+    "--support-dir",
+    "/workspace/scratch/1b6d88ecddf3/math-research-public/topics/visible-flex-held-10pct/scripts/resume_m3",
+    "--mean-kernel",
+    "/workspace/scratch/1b6d88ecddf3/geometry-work/certify_r59_fixed_mean_ranges.py",
+    "--interval-kernel",
+    "/workspace/scratch/1b6d88ecddf3/math-research-public/topics/visible-flex-held-10pct/scripts/finite_closure/m3_m8_closed_map/interval_geometry_kernel.py",
+    "--out",
+    "/workspace/scratch/1b6d88ecddf3/n4-work/prefix-z0-normalized-certificate.json"
+  ],
+  "repository_source": "scripts/resume_n4/certify_m24_prefix_height.py",
+  "source_sha256": "81920c0ce4b93a36df2bf659dc2bfa8bb0629a79fc86c78d99641d6f58d35c11",
+  "output_sha256": "377b11526dec1d130985da5bf6d21e3db43db744fad57e1c09b8cc0d70e2e18e",
+  "source_run_sha256": "c44b6fd2fbb13cc9ce0451cc6ab1d3c06521de0622de27190bde94c4c550462a",
+  "physical_sha256": "f2e22fe19bb0b6fdeff79c4fa99363d9be6cbb1ef382fd882679a2b717a3030d",
+  "mean_kernel_sha256": "ab08dc1dc7f24f6e92e3d64fcc530767cb66f5ae5a2940f953460a3274b6a1a5",
+  "interval_kernel_sha256": "6234c458d303dfd2e47dcf1e1a6ee54a3d466118a8aea4d76f66013154c034e7",
+  "result": {
+    "status": "prefix_mean_height_certified",
+    "height_interval": [
+      0.44631325197234495,
+      0.47839691621379593
+    ],
+    "mean_nodes": 1168,
+    "height_core_anchor": 0,
+    "endpoint_profile_jet_exact": [
+      1,
+      0,
+      0
+    ],
+    "frozen_delta_exact": "4621387928331453/72057594037927936",
+    "profile_amplitude_ratio_exact": "38511566069428775/36028797018963968",
+    "profile_duration_ratio_exact": "771285575509726203225/721562228697673498624",
+    "profile_velocity_ratio_exact": "246811384163112356069/246811384163112385032",
+    "profile_velocity_ratio_minus_one_exact": "-28963/246811384163112385032",
+    "integration_end_exact": "2227378746688979/4503599627370496",
+    "source_constant_real_profile_jet_gap_upper": [
+      6.232727578965709e-17,
+      7.905760898579994e-16,
+      1.6574024806548526e-13
+    ],
+    "accepted_cells": 395,
+    "attempted_cells": 395,
+    "split_cells": 0,
+    "frenet_root_lower": 0.5887729399539079,
+    "finite_mean_value_range": [
+      0.8057018470495728,
+      1.0000000003290048
+    ],
+    "validated_old_inverse_brackets": 1168,
+    "maximum_inverse_bracket_width": 2.000177801164682e-12,
+    "seconds": 74.18860342500193
+  },
+  "scope": "Absolute scalar primitive height at the short-bridge inlet of the explicitly shared-Hermite, endpoint-normalized prefix using true R53 core jets and the fixed 1168-node mean. Not a continuous-angle or full-surface metric certificate.",
+  "radial_rule": "Outward interval Darboux sums; all actual polynomial, profile and lift breakpoints included.",
+  "new_core_enclosure": "Analytic whole-circle first/second-jet tube about the actual 24-coefficient support core, with strictly validated old material inverses at all fixed mean nodes.",
+  "frozen_data_not_changed": [
+    "delta",
+    "q",
+    "23 support controls",
+    "core homotopy",
+    "window",
+    "material curvature target",
+    "field nodal polynomial data",
+    "mean angular rule"
+  ],
+  "explicit_representation_changes": [
+    "shared right-side two-jet Hermite field/chart",
+    "prefix duration normalized to the exact physical endpoint",
+    "true finite-mean primitive"
+  ],
+  "source_constant_profile_comparison_excludes_per_query_ieee_roundoff": true,
+  "source_cached_core_to_true_core_error_not_paid_by_this_wide_tube": true,
+  "full_metric_or_fixed_g_convergence_certified": false,
+  "full_reproducible_outputs_committed": false
+}

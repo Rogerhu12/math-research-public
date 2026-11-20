@@ -348,6 +348,8 @@ d_V\le\frac{\Delta G_{\psi\psi}}{a\rho^2}
 
 ## 8. 仍明确保留的义务
 
-本条未支付 (1) 的绝对入口高度、prefix 与 tail 的完整 \(C^2\) 接缝、真实非线性 DN、完整闭面的 reach/自交、完整同一 \(g\) 族或最终 held 比例。也没有支付旧 GL6 高度查询与新真均值 primitive 的全域位置差；本条直接为新真 primitive 对象证明几何范围，入口锚由同一新对象的 prefix 提供。
+本文原先保留的 (1) 绝对入口高度已由[同日完整前缀证书](2026-11-20-m24-prefix-absolute-height-certificate.md)支付：同一公共 Hermite / mean1168 / 真 primitive 对象的 \(z_0\in[.44631325197234495,.47839691621379593]\)。端点归一轮廓在桥入口精确给 \((a,a',a'')=(1,0,0)\)，公共高度 primitive 与桥为 \(C^2\)；因此 (2) 的桥几何结论不再欠该高度假设。
+
+prefix 的其余接口与 tail 的完整 \(C^2\) 接缝、真实非线性 DN、完整闭面的 reach/自交、完整同一 \(g\) 族或最终 held 比例仍未支付。也没有支付旧 GL6 高度查询与新真均值 primitive 的全域位置差；本条直接为新真 primitive 对象证明几何范围。
 
 旧 finite metric、源程序手填 jet、literal clipped 函数导数、新 \(C^2\) 图四者在本文中保持区分。式 (3) 使一个明确的连续数学接口证书可以传递到新图；它不替代仍欠的连续 metric 基线证书，也不对所有 machine/libm 求值误差作笼统背书。
