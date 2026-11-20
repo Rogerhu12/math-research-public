@@ -414,3 +414,5 @@
 - [R925§16](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：原Fp²的ξ0/∞两完整π与π²厚化、度1/1/8/8及289/578、真612×306共因子整核、八原点q³共零值已接公开门；零纤维加速独核全部46971产品，不冒新PASS。
 
 - [R925§17](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同原两图表完整分式/七方程/W与常数反射、四完整交理想及全κ/真实重数/完整迹的旧consumer等价桥已全文独审接入；原18×9/双轴保，实际各层仍须公开门。
+
+- [R925§18](results/R925-original-ys-affine-rings-and-complete-divisor-ideals.md)：同进程原cube→全低权交叉核→306完整环→原consumer请求已接；首phase为maps，geometry/四E/全闭点与trace后续逐门执行，30份原源manifest钉定；未冒新PASS。

@@ -1042,3 +1042,23 @@ root已全文审前端、可选加速的全部diff及真实612×306核入口；d
 | `original_ys_normalized_shadow_consumer.py` | `bb91fd32ce7f438494a92cf24f53418fb95c3a98813ced72e4c8b1db8a2ceab9` |
 
 本次只接入已经完整静审的实现，实际math请求前端正在整合R926低权紧缩；maps、完整pole geometry、四理想、所有闭点/迹各层均须自己实际通过，不预填任何新PASS。最终有限shadow若非零，仍不自动替ordinary或无穷p门。
+
+
+## 18. 同进程的原完整消费者公开请求
+
+新 `produce-original-ys-consumer.py` 和 `launch-original-ys-consumer.py` 接通完整顺序：host鉴定两份原特征零PASS；同一个断网Sage进程重算R926原四根全部6941/4287门，再独立计算R926§10紧缩全部低核与1633/1429交叉身份；随后重算本篇原306完整环，适配原表精确乘法，最后把同一个原cube/compact/affine上下文送入§17原桥。没有从已保存的系数文件、短jet或另一常数域恢复替代对象。
+
+初始请求固定r29、q2453、batch64、minimal饱和核、phase=`maps`。即使请求中保留默认 `trace_method=tate`，maps阶段也不声称执行了迹。每一层都有独立完整result/hash；新紧缩先以 `RANK2_COMPACT_CUBE_SECTIONS_RESULT` 输出，映射只在全部七条椭圆式、真实W和常数反射都通过后接受。
+
+前端同时实现后续 `geometry`、`intersections`、`shadow` 三个phase，顺序必须含全部前置门。geometry实际核原支集、六个2256极次数与yF的真实dF。intersections实际构造四个完整有效理想，此时闭点flag仍为false。shadow读者自行分解每个完整理想，再完成所有原局部值和完整迹；只有四处完整局部长度各自返回原总次数，且九点、18×9/双轴最终门都通过，才设全部闭点/迹flag。`tate`、`scalar`、`compare` 三种选项均沿原读者，不能以参数被接受代实际计算。
+
+host与数学回执均钉30份真实依赖源码，包括紧缩、完整迹和其延迟导入的原coefficient/Tate helper。host网络只供原PASS日志鉴定；读token不进入数学容器，源只读、镜像固定Sage10.6、数学网络关闭，所有重算对象仅在同一进程内存保留。root全文核完前端与实际trace返回字段；本次仅AST/JSON/YAML及静态接口检查，无本地数学执行。
+
+| 请求源文件 | SHA256 |
+|---|---|
+| `produce-original-ys-consumer.py` | `05b37ac7f22928204de84e583a237f006ae60b57dd9394fa47538aaa38a578ba` |
+| `launch-original-ys-consumer.py` | `2fc70131dcbe81e5bbf3b254b10867e47bd0ce4e2c39860fb607219dc704f533` |
+| `original-ys-consumer-request.json` | `c050a6e74eaf172e36db537657fc8269a9f88b05411aefa3a1aa8c27e5cc6347` |
+| `rank2-sha-original-ys-consumer.yml` | `7869b2c05067fac9319d0e6174d0acdeb3e9f6bc457e5745372b4ff0978fe31c` |
+
+本节登记实现与首个maps公开请求，尚无该流水线新的实际成功回执。原Fp²闭点/局部值仍由独立run44730598782/job136269050475运行；两者的接受范围分别记录，不互相代替。即使后续有限shadow非零，ordinary、原全局底与跨无穷不同p主门也仍须另付。

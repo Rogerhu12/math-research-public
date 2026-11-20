@@ -1,0 +1,23 @@
+{
+  "schema": "rank2-original-integral-consumer-request/v1",
+  "prime": 29,
+  "first": {
+    "job": 133436977753,
+    "run": 43906594646,
+    "run_head": "135b50ff04a12c51dd1b9de583a20b2bed19cbed",
+    "source": "135b50ff04a12c51dd1b9de583a20b2bed19cbed",
+    "result_sha256": "5193c929a0369e957a0495f12c5af244243f2b4ed444ba305bba963dfdc4831f"
+  },
+  "packet": {
+    "job": 136215000168,
+    "run": 44714703201,
+    "run_head": "b688d6ac703fec422a7c864bcdc997cc553185fd",
+    "source": "b688d6ac703fec422a7c864bcdc997cc553185fd",
+    "result_sha256": "d3371b55fbdbf8999f2ed6da76cc004a78eba733ff5e7977bce4149e4ecb8915"
+  },
+  "phase": "maps",
+  "trace_method": "tate",
+  "q_precision": 2453,
+  "batch_size": 64,
+  "kernel_method": "minimal"
+}
