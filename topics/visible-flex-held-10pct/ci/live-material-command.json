@@ -1,18 +1,59 @@
 {
-  "id": "held10-material-m16-transfer-01",
-  "read_rules_commit": "cdf11123ec33f90ab41ff8bfb804b9229e1996b6",
-  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/prepare_lifted_mode_restart.py",
+  "id": "held10-material-m16-linear-01",
+  "read_rules_commit": "d11e3c828ff5e2367a56b9f887f585d7fa22ef3a",
+  "script": "topics/visible-flex-held-10pct/scripts/resume_m3/portable_prefix_continue.py",
   "args": [
-    "--source-run",
-    "@WORK@/material-lam002-m12-linear/run.json",
+    "--source-topic",
+    "@WORK@/runtime-source/bundle/topics/visible-flexible-closed-surface",
+    "--short-bridge",
+    "@WORK@/runtime-source/bundle/topics/visible-flex-larger-amplitude/computations/root_short_bridge.py",
+    "--profile",
+    "@WORK@/inputs/q060-profile.json",
+    "--chart",
+    "@WORK@/inputs/reference/chart.json",
+    "--port",
+    "@WORK@/material-lam002-m16-transfer/linear-port.json",
+    "--raw-restart",
+    "@WORK@/material-lam002-m16-transfer/initial.npz",
+    "--core-module",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_factory.py",
+    "--core-config",
+    "@REPO@/topics/visible-flex-held-10pct/scripts/resume_m3/material_support_lam002.json",
+    "--amplitude",
+    ".06",
+    "--warp-reference",
+    ".06",
     "--modes",
     "16",
-    "--tail-config",
-    "@WORK@/material-lam002-m12-transfer-v2/tail-settings.json",
+    "--angular",
+    "512",
+    "--audit-angular",
+    "512",
+    "--nodes",
+    "401",
+    "--max-nodes",
+    "6000",
+    "--tol",
+    "1e-6",
+    "--bc-tol",
+    "1e-7",
+    "--physical-bc-tol",
+    "2e-9",
     "--outdir",
-    "@WORK@/material-lam002-m16-transfer"
+    "@WORK@/material-lam002-m16-linear"
   ],
   "diagnostics": [
+    {
+      "path": "@WORK@/material-lam002-m16-linear/run.json",
+      "keys": [
+        "solver_success",
+        "error",
+        "raw_return",
+        "prefix_audit",
+        "domain_newton_stats",
+        "domain_error_counts"
+      ]
+    },
     {
       "path": "@WORK@/material-lam002-m16-transfer/transfer.json",
       "keys": [
@@ -20,14 +61,6 @@
         "error",
         "diagnostics",
         "result"
-      ]
-    },
-    {
-      "path": "@WORK@/material-lam002-m12-relative-metric.json",
-      "keys": [
-        "status",
-        "error",
-        "diagnostics"
       ]
     }
   ]

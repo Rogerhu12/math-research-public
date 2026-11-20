@@ -321,3 +321,6 @@ main按预期父提交ebe11c6…作非force原子发布；与已读199b901…比
 
 
 - 2026-11-20 12:07 UTC｜Astra-held10-1b6d88ec-20261120：核原weighted/native真实调用链：assemble只在H循环前一次，Newton不调背景α/β；跨calibrationSteps/warp积分设置却可能换g。独立完整ready/config/source及逐response绑定已py_compile过，未跑新尾、未改live/原门。M12仅场角求积128→256不进入背景assemble；补齐其实际operator小记录的N与来源commit字段。
+
+
+- 2026-11-20 12:08 UTC｜Astra-held10-1b6d88ec-20261120：旧g λ.02/M12→M16完整lift与真实新port真exit0，2048×103点二jet差≤4e−15、入口投影改变4.6734e−7，角求积256不变。raw bf87d105…760f8仅初猜；已发M16/512角的原linearDN，全部原门/λ不变。δ/c仍自由，非冻结g精化。

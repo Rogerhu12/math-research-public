@@ -1,0 +1,40 @@
+{
+  "scope": "Actual M12 to M16 complete-reference transfer; only a nodal initial guess",
+  "complete_surface": false,
+  "source_raw_sha256": "4f27506c169e31b40513317c13921f59414a75a27b6132d04f38d4bede8d1dc8",
+  "source_run": 44720589640,
+  "diagnostics": {
+    "check_angular": 2048,
+    "check_s": 103,
+    "core_homotopy": 0.02,
+    "exact_lift_coefficient": 1,
+    "inlet_projection_change_max": 4.673406635112966e-7,
+    "meridian_two_jets_checked": true,
+    "port_resolution_change": {
+      "new_modes": 16,
+      "new_quadrature": 256,
+      "old_modes": 12,
+      "old_quadrature": 256,
+      "physical_parameters_changed": false
+    },
+    "reference_two_jet_checks": {
+      "position": 3.2619728260920675e-16,
+      "psi": 3.2987125042640323e-16,
+      "psi_psi": 7.772800161809615e-16,
+      "rho": 0,
+      "s": 2.2056049109296335e-16,
+      "s_psi": 7.224145086456956e-16,
+      "s_s": 3.996985090695978e-15
+    }
+  },
+  "result": {
+    "angular": 512,
+    "initial_raw": "/home/runner/work/_temp/held10-live/material-lam002-m16-transfer/initial.npz",
+    "initial_raw_sha256": "bf87d105b5de7c004e1a5f12b5d6d98ec927dc9cf88fab1811a510bffda760f8",
+    "modes": 16,
+    "port": "/home/runner/work/_temp/held10-live/material-lam002-m16-transfer/linear-port.json",
+    "port_sha256": "b87fa615602aa01382a09f2073e303c38ebd3a75f4cd7f31c9867c62be1189f6",
+    "tail_config": "/home/runner/work/_temp/held10-live/material-lam002-m16-transfer/tail-settings.json"
+  },
+  "status": "nodal_initial_guess_ready"
+}
