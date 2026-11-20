@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-CM-kernel-and-trace-calibration.md)，内接全部H/open旧归档、pins与关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：892655985f7c5874d4bf7e8521487636b306a44c**（2026-11-20T12:34:30.407502+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
+**已读规则提交：aa2253b1c697a3717032614d70b7e65501e94ae0**（2026-11-20T12:38:09.501642+00:00；终端真实git pull --rebase origin main，两README无diff）。两README完整已读，root SHA256 581402c2 / topic 35f82f3d；此前差异与原pins沿归档。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -20,7 +20,7 @@
 
    [R968](results/R968-full-level-mixed-CM-jet-and-critical-factor.md)把同一核全局化为J_alg=e^(−E2xy/2)J_o/(6η4)，全S/T及heat系数递推准确；零参数zeta二阶算子给Z_i∈M_(p−5)(SL2,Z_(p))。原mark/E6^N=−72(-864)^−N fi gj，保全部mask后失败 iff系数共同含E4³，粗U次数≤floor(N/2)。尚无生成性或已知单位目标A/E4包含证明；不得由维数、kernel非零或三次heat后的单位推不存在共同因子。
 
-   R969新request仅113/131/227测试完整mask后的实际Z_i是否包含A/E4，保所有Sturm行及额外两行，成功给组合、失败给分离泛函；新q源在227消费R945的0/16核原mark尺度，不重算sigma/trace。113只同h全层范围，非r2窗；实际回执待公开Actions。
+   [R969](results/R969-certified-filtered-full-level-span-at-three-primes.md)run44736934491/job136290572303/source48359d18d已成功：113/131/227完整mask列16/19/35，rank10/11/19均为全M_(p−5)；A/E4组合和两额外q行全过。227消费旧0/16得新mark0/64、scale4；report21986B/hash7c3e1e25由root纯IO核。无sigma/trace重算；只有限fullspan，current request已完成。
 
 2. **原完整trace的一般非零**：R955实际CM Cartier nilpart恰单奇链L=2b+1，ker=kF且原λ检测coker；S非零 iff L1，失败 iff真实反角色C前像。先全U5零primary再Cartier Fitting，不假定整包nilpotent。R958 r2全两向矩阵和原R_F=−2D^(2N+1)β²C^p modtH给前像 iff ℓ_N(R_F)=0；ℓ(t^(j+1))/ℓ(t^j)=(3j+1)(3j+2)/(6j+7)²。原c_mom=Tr((3−2e0)DC/β²)≠0且S^p=−216c_momℓ(R_F)，这个比较单位不是目标moment单位。
 

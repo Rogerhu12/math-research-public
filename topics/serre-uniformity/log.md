@@ -741,3 +741,7 @@
 ### 2026-11-20 20:34 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R969冻结并逐式审完三个固定素数的actual filtered Z_i span消费者，完整Sturm/额外两行/原mask及准确组合或分离见证均保留；本地仅AST/IO/hash。
 - 新request消费旧227的0/16核原尺度，不重算sigma/trace；此前R967已完成，当前只请求新问题，真实输出待公开Actions。
+
+### 2026-11-20 20:37 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R969公开run44736934491成功：三个p完整mask空间均fullrank10/11/19，实际A/E4组合和两额外q行全过；227新源保原scale4、旧0/16只消费。
+- root已纯IO核21986B完整report/hash，有限结论登记且不重跑；继续all-p实际子式与R970全CM包/同余理想比较。
