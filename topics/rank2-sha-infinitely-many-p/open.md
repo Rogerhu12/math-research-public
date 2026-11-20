@@ -75,7 +75,9 @@ R882 原18源/绝对B0B2/全17方块/36cusps/D204及旧DS返回不变。旧任�
 
 R880/R883 的原18×9、双轴、三χ、CM投影、四完整除子00/01/11/12及真A,C判据保；闭点d不可先模ell。完整Frob/Atkin/所有边界、按真实dF选成本2256+r dF或2256(r+1)、全地方Kummer负floor与Σef全部已付。相对Tate/Norm含ell²点回归run43870209568已通过；不重复无变化测试。
 
-consumer的原F/P现分别由R909§7/R906§8付清，仍须完整原RR/函数/闭点接口，核两份run/job/head/依赖hash/全末端；PARI结果必须消费其自身forms2/recipes/坐标。新线从R917真实截面乘法构造原D_S与36 cusp完整有限代数，尚无实际末端；旧原商正规化与t-adic U也继续。**目前没有consumer请求，没有原shadow输出。**
+consumer的原F/P现分别由R909§7/R906§8付清，仍须完整原RR/函数/闭点接口，核两份run/job/head/依赖hash/全末端；PARI结果必须消费其自身forms2/recipes/坐标。新线从R917真实截面乘法构造原D_S与36 cusp完整有限代数，尚无实际末端；旧原商正规化继续；t-adic U已到4096精度上限、无全局候选，不作非存在结论。**目前没有consumer请求，没有原shadow输出。**
+
+[R924](results/R924-original-section-divisor-algebras-and-shadow-interface.md)已证明另一条完整原接口：同R917全截面格的两个商及单位返回乘法恢复真实零除子的全Artin代数，不丢非约化长度；原D_S=51个二次双点，36 cusp=4个一次+2个16次。闭点须用同120维射影坐标的完整Frobenius轨道标号，不能只按残域多项式合并。TUV以原极度306和全差帽714在M4恢复；Y的666维全格、三退化j^m及ρ_j、原ys分式与原所有consumer常数/共零/完整交除子均有有限准确接口。当前三producer仅待公开实际回执，尚未生成四大交除子或shadow。
 
 ## 原端点：真实范数与剩余增广阶
 

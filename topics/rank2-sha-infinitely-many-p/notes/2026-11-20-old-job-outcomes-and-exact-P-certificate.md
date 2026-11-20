@@ -168,3 +168,7 @@ $t,T$ 两生成元上成立，不另选根或相位。U的两个完整Atkin等�
 商正规化、完整RR、闭点、两原映射和shadow各自的缺口不因此消失。
 接口查照Sage官方[有限域多项式文档](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_zmod_flint.html)
 及[有理恢复定义](https://doc.sagemath.org/html/en/reference/polynomial_rings/sage/rings/polynomial/polynomial_element.html)。
+
+### 5.1 t-adic 首次实际精度上限
+
+公开 run `44716168767` / job `136220022445` / source `f5f75e1b3f128bd3f0a021539833116a1d5d2b8e` 已于2026-11-20 10:23:30 UTC结束。原Tate全方程及可分性、完整H和两Atkin系数身份之后，同一原逆元的全部48坐标残差在1到4096的每次倍增均通过；4096项阶段elapsed=1053.997秒。每次逐坐标有理恢复均无候选，1054.864秒以明确的precision-cap ArithmeticError退出。没有进入原两Phi的最终全局候选门，不是原U不存在或函数域身份失败，也不记RR/shadow PASS。后续优先执行R924已证的原TUV截面分式恢复，保留此有界尝试避免无变化重跑。

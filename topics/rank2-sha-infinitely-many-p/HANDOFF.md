@@ -5,25 +5,25 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`52e7ba0bcc2a8974576278250dd7ee75cccc8d56`；2026-11-20 10:20:39 UTC 实际pull --rebase，两README相对d8c9260a差异为空；下一次最迟一小时内。
+- 最近实际部分克隆/pull及已读规则提交：`baf496215383f9812b2a13fe2a8bbb17310ba7b5`；2026-11-20 10:33:51 UTC 实际pull --rebase，两README相对52e7ba0b差异为空；下一次最迟一小时内。
 - 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
 ## 完整检查点与当前分工
 
-[最新完整H](notes/2026-11-16-frontier-before-residual-local-matrix.md)逐字保存压缩前所有条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者，正核旧未结束run实际结果及原P/RR；deep_forcing续R920的同源仿射forcing；theta_nonvanishing续R915四原中央；global_selmer续R921全局Bockstein/ordinary及文献。R364/R561/R654/R712及主目标仍开。
+[最新完整H](notes/2026-11-20-handoff-after-original-P-before-section-algebras.md)逐字保存P认证后全部条件、来源/run/hash及更早归档链。入口results.md、notes/PROOF-INDEX-R901-R950.md和open.md；旧未推R235/R237已重做。root唯一metadata/ref写者；当前并行原截面闭点：deep_forcing做Y全格/三退化，global_selmer做D_S全代数，theta_nonvanishing做原函数/局部读取证明。四主门仍全部保留。R364/R561/R654/R712及主目标仍开。
 
 ## 第一门：原映射、完整函数域RR、原shadow
 
 全部原Z角色/Euler/period/端点与R831符号保；7993只检测canonical。R858/859整shadow及固定ell检测不跨无穷p/ordinary。
 - **F已完整认证**：[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)，run43906594646/job133436977753；ℓ1000003/N512，全1429行/QQ/原支/0..6120通过。原F17/微分/∞→O，dF≥1080；完整source/hash见该节。
 - **P已完整认证**：[R906§8](results/R906-original-P-small-prime-and-compatible-dixon-continuation.md)，run44714703201/job136215000168/sourceb688d6ac703fec422a7c864bcdc997cc553185fd；ℓ1000003/N512、原1226行/三根/QQ/短支/同基4287高展开、完整0..4284恒等式全过。原u/λ/微分/∞→O/整返回17均保；resultd3371b55…cb8915、QQ坐标358238d2…e7be67。旧失败/完整hash见续接注。
-- **RR未PASS**：旧306/eta48/fricke24/tate24/tate19及R910/R919/R922均未到完整末端。接手亲读的七run/阶段/hash见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)，旧原源见R910/919/922。R910/919卡在单原域逆元；旧geometry-first/R922也仍先作eta48微分逆元。新quotient-only首run44712364182/job136206970253在Tate全方程认证后因4返回值误读为2失败，已按原API修复，run44713040079/job136209307176运行中；继续在原D直接正规化/九尖点/Au/Av/branch/D0，不冒RR或U。
-- **全局q格已PASS**：[R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)，run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；ℓ29/120×205完整QQ基、单位固定子式/整变换/全约化秩/同S均过，2.549s。result5a1d6494…eb663b、RRjets765f854d…2b0fb。全部L(DS)已付，**degree48坐标/闭点/现有四块接口仍未付**。
+- **旧函数域RR未PASS**：306/eta48/fricke24/tate24/tate19/R910/R919/R922均未过全末端。全部卡点/源/hash见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)。修复后的quotient-only run44713040079/job136209307176仍运行，原D直接正规化/九尖点/Au/Av/branch/D0未PASS；不冒U/RR。
+- **R917全局q格已PASS**：run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；原ℓ29/120×205完整QQ基、单位子式/整变换/全约化秩/同S全过，result5a1d6494…eb663b。仅完整L(DS)/忠实jets，degree48坐标/闭点/四块接口未付。
+- **原U的t-adic已结束无PASS**：run44716168767/job136220022445/sourcef5f75e1b3，原H/A/B全部Newton残差至4096项通过，但有理候选未恢复，于10:23:30 UTC达精度上限。不是U不存在；不盲目重复，先走下项全局截面分式。
+- **R924已证**：[完整截面除子代数与原接口](results/R924-original-section-divisor-algebras-and-shadow-interface.md)。同R917全格/真实乘法保每闭点、非约化长度、原射影坐标、局部参数及共零。D_S是51个二次双点，cusp为4个一次+2个16次；TUV同M4分式的完整窗到1003。原Y全格666维/三退化权j^m及分母ρ_j、原ys恢复与全consumer尺度均保。新DS/cusp/TUV公开producer待实际回执，不把构造定理记成计算PASS。
 
-新增原U的t-adic商恢复run44716168767/job136220022445/sourcef5f75e1b3：同一H/A/B先局部Newton、逐坐标有理恢复与下降，再以原Fp[t][X]全pseudo-remainder、两Phi/两Atkin验真；T逆元用原首一式，U-only不先算微分逆元。等价说明见续接注§5；尚无PASS，非RR/shadow结论。
-
-R880/883全18×9/双轴/除子/原A,C与返回保；Norm含ell²已过。两原映射证书齐，consumer仍缺完整原函数/闭点接口，未请求；2256(r+1)成本不变。新并行线以R917全局截面/乘法构造原D_S及36 cusp有限代数，保持重数，不预报完成。
+R880/883全18×9/双轴/原A,C/四完整除子00/01/11/12及返回保；Norm含ell²已过。两原映射证书齐，consumer仍缺完整原函数/闭点接口，尚未请求；真实成本2256+r*dF或2256(r+1)，闭点度数/边界/Artin不删。主目标仍开。
 
 ## 第二门：原全局底、ordinary与增广阶
 
