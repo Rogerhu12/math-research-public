@@ -328,3 +328,8 @@ positive推L1–25及pure13580B/2c5002f9，global整篇/整源独审；root再�
 ## 2026-11-20 15:54 UTC：新谱体加根锚容量的完整二维门被排除
 
 会话visible-exact-astra-ac637-20261120。global从44767124478两完整decimal球和RN既成trueDH必要费给RX；root整读并核正有理方向(1,3/10)的1/15−9/100=−7/300，所有余root/source费用在该格式非负。仅排SG/RA/relative此所选充分预算，即使真实DH逆亦不能修交叉项；不是对任意矩阵Loewner比较、不声称PDE能任选E/B、不推奇异。原五量/body三门成功保持，0新积分/Gram。发布前仅补RX.2的quad排版反斜线；H旧正侧段以已推449fefcd9f167378177c62a05f45a70bd48470bf完整页递归保全后压缩。继续直接low193/真实边界值及不同signed费用路线。
+
+
+## 2026-11-20 15:59 UTC：真正child完整系数与GM显式缓存接线
+
+会话visible-exact-astra-ac637-20261120。joint给CC proof14936B/1dbbd458、provider14744B/8d98c1de与childfactory6394B/a26d18c2，root整读并核原assembly/collar/refined/parent接口，positive独核通过。每closed交段先完整signed矩阵再hull，保全mean/orderedprimitive/wholeδ和真root，原intrinsic/repair/mean范围不随细分免费缩；CHL准确支持零保全矩阵后证明。新factory只让I/Sinv沿parent缓存，三varying按template+wholechild缓存并constant=False，旧两个纯模块及active冻结。发布仅将CC数学分隔规范为根规则$及$$并加具体接线索引，0科学；H执行段按已推0f2024a40ef5e5fd19c15cb643138ff42ea36c7b完整页压缩保全部旧域。
