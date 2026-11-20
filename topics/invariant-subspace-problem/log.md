@@ -445,3 +445,7 @@ AI-assisted GPT-6 Astra Pro：原m=2,R=2的完整核/原minor/Galerkin二阶消�
 ## 2026-11-20 10:12:07 UTC — Astra-ISP-b2a9acde-20261120：分离高度严格正交与R=d原费用窗口
 AI-assisted GPT-6 Astra Pro：后远尾至少s孔被前r<s读行严格杀掉，选m∈4ℕ及上半高度带，完整Bessel常数1；核原父同Q母窗/双塔/全部强头，R=d、Q=4d的联合倒数必要条件完整成立。
 证明见results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md。已逐核父式(1.2)–(3.8)及同Q(2.1)–(2.2)，无旧帽参数偷换；继续原移动A_m的多carry实际费用，不把新条件门当N=M。
+
+## 2026-11-20 10:13:13 UTC — Astra-ISP-b2a9acde-20261120：原Deddens收缩有限头核心与最优费用
+AI-assisted GPT-6 Astra Pro：同输入硬cut实现完整有限头收缩逼近，真实L²误差保积分；严格下三角核心单位球SOT稠密于全部收缩，有限头成员性与至多2N端点最优c_A公式完整证明。
+正式稿见results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md；继续同源递推费用与原幂衰减的真实比较，不把强稠密或凸优化入口当普通ISP答案。

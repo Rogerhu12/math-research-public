@@ -114,3 +114,7 @@ A非零非紧、单射稠密像、拟幂零，C*(I,A)二进UHF、W*(A)=B(H)。**
 ## 现在优先的原R271费用窗口
 
 [分离高度带与d强段完整门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)已证明：m∈4ℕ,m≥20，d=2^m，R=d、x=m+d、Q=4d，取P_m=floor(√(x+1)/(8(m+1)))的上半高度I_m，所有完整coherent读行严格正交，Bessel常数1。原同w、同Q锚和只乘真核的双塔误差给非零锚必要Σ_{m,r∈I_m}κ⁻²<∞，不需指数长强段或预付ηκ包络。下一直接估这些实际完整Galerkin/MP费用；一般全Boolean相似log条件数降到O(d log d)，但这本身并不是费用界。旧真帽运输未转到新参数，仍保其原范围。
+
+## Deddens有限头费用的实际优化入口
+
+[收缩强稠密及原有限头最优成本](results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md)已给同输入硬cut、严格下三角有限头核心及至多2N个真实端点矩阵范数公式。下一可在这些准确有限凸约束中研究同一递推输入的费用，而不是继续用N²项粗和或未知L²尾率。未知A不变子空间未证被核心保持，所有统一成本族仍不能localize；SOT单位球稠密本身不闭普通桥。

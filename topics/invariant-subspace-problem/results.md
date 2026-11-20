@@ -308,3 +308,5 @@
 - **R271 实际四维头的三孔消奇与固定中央阶（2026-11-20，已证明）：** [完整物理核、MP和全部primitive证明](results/R271-appendix-actual-four-head-triple-hole-cost-cancellation-and-fixed-even-prefix-central-order.md)以11核列和5阶原minor给实际m=2,R=2的κ²<e⁻²⁰⁰⁰；固定任意偶R的全MP至多t⁻¹，残差O(t²)，R≥4全q=O(t²)，固定中央E分量O(t^{R/2})。全部物理来源保留，O_R非统一；不以小头代移动A_m或调用其不满足的旧高度门。
 
 - **R271 分离高度的完整Bessel常数1与R=d新母窗（2026-11-20，已证明）：** [准确正交、原同Q锚和联合倒数门](results/R271-appendix-separated-height-bands-exact-full-head-bessel-and-d-sized-prefix-budget.md)在m∈4ℕ,m≥20取R=d=2^m、Q=4d及允许窗上半高度带，后带最小高度超过前带最大高度，故全强头β读行Gram恰I。保全部原carry、真核及完整MP，非零同w锚必要双倒数和有限；强段从指数长降到d。未付实际费用，不转用旧帽参数。
+
+- **原Deddens有限头收缩核心与精确最优成本（2026-11-20，已证明）：** [完整正向构造及2N端点公式](results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md)以同输入硬cut把任意有限头矩阵实现成严格下三角有限头收缩，核心单位球SOT稠密于B(H)单位球；全部幂费用≤(α0/α_{J−1})‖|B|‖，误差保真实坏集积分。任意B⊗I属D_A恰B下三角，最优成本是至多2N个原端点矩阵范数的最大值，给有限凸接口。未得同源递推统一预算或普通ISP。

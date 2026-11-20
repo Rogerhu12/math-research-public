@@ -7,7 +7,7 @@
 - **未完成：** 普通复可分无限维 Hilbert ISP。仅全体有界算子的存在定理或完整反例满足完成标准；子问题结束继续open，不以阶段报告或时限停止。
 - **最近成功实际 pull 与已读规则提交：** `c439767c4c31c29ff502ecd470b8780ca724d08d`（2026-11-20 10:03:22 UTC，Actions run44715907411/job136219123185）。真实pull --rebase成功，两README blob未变，原日志已取核。
 - 仅授权Rogerhu12/math-research-public。根独占main/H/open/results/log，代理交冻结稿。逐结论实际终端push，非快进立即pull --rebase再推至成功，不force；至少每小时和推前实际pull，比两README blob，仅新diff重读并立即遵守。
-- **最近API同步及规则核对：** `3731c70d223185aaafa76815924609747d175cf9`（2026-11-20 10:12:11 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
+- **最近API同步及规则核对：** `c6773ffa7c2ce03f1e35a75fc7f8627082f69e7a`（2026-11-20 10:16:08 UTC）；两README blob均未变。API快照不冒称实际git pull，另记真实执行回执。
 - 根README blob282e86b03385d3b6245ce7100ae2e2af7b103c2d、课题4d6570e9cf346431ab781a1290076a6321aaaa00已完整读。令牌仅CLI环境或已有Actions secret，不进文件/日志/config。规则15：可重算数组/数据/证书不进Git、Release或新工件，仅源码/参数/运行身份/SHA及正式证明。API仅UTF8<100KB，MD<100KB，H≤10000B，open尽量≤30KB，topic≤200MB，log每条≤5行、数学美元符、AI署名，不写根LOG。
 - actual-pull工作流已修当前根README预期blob；本地不可用时继续用真实Actions pull维持至少每小时同步，两README变动即读差异。
 - 2026-11-20 09:49 UTC本地executor断开且environment unavailable；已成小文本用GitHub接口按根规则8提交，恢复后先检查未推本地a06d8dbd8与远端等价内容，避免重复。原部分克隆约96MB，旧TMP不假存活。
@@ -35,6 +35,7 @@
 
 - **[原Deddens代数的完整新边界](results/R12-appendix-deddens-algebra-localizing-and-uniform-cost-obstruction.md)已证明。** 原正向加权平移恰为有界倍Aʳ，最优成本βᵣ‖v/Wᵣ‖∞；负向平移只零。单位球SOT闭包含秩一P₁，故全代数localizing，但明确范数极限反例证其不闭。全复算子统一Deddens成本族均不能localize，真实高位给成本发散定量下界；范数闭包仍无非零紧算子。Lacruz判据缺失的闭性已明确否定；原普通ISP仍开。
 - **[移位相似表示及交织成本](results/R12-appendix-shift-similarity-subquotients-and-intertwiner-power-cost.md)已闭。** 原A及任意非零闭不变子商的归一化二幂WOT趋I/2，故不与严格分级算子值移位及任意有限维块的直和相似，包含全部标量加权置换。任一非零双向有界交织必须令移位二幂范数/原A二幂范数趋∞。仅排准确类别，未知shift part仍不被排除，普通ISP仍开。
+- **[Deddens有限头收缩核心与精确成本](results/R12-appendix-contractive-deddens-core-and-exact-finite-head-cost.md)已闭。** 原有限头严格下三角收缩已SOT稠密于B(H)单位球；同一输入硬cut保真实L²坏集积分，费用≤(α0/α_{J−1})‖|B|‖。任意低m位B⊗I属于D_A恰B下三角，最优c_A精确等于至多2N个原端点矩阵范数最大值；有限凸接口保实际源，不自动保持未知A不变子空间或给统一成本。
 - 最新文献状态见[刷新记录](notes/2026-11-20-literature-refresh-b2a9.md)；未找到可采用的完整外部答案，已有声称不作黑箱。
 
 ## R271真实投影返回与实际费用
