@@ -721,3 +721,7 @@
 ### 2026-11-20 20:09 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R963公开run44731335315成功全完新增1582个允许r2素数至1e5，无零/失败/尾段；原尺度逐p通过，root独立纯IO核全部三个输出hash，未重跑旧窗。
 - 有限L1/h2认证已登记，主目标及全p系数仍开；current request现已完成，不再次触发同一数学。
+
+### 2026-11-20 20:13 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R966原单一conductor2s双变量秩二核及Π4∇²=−72F⊗G已完整纸证，两个真实filter和R959导数比例逐式核准；同h非零仍开。
+- H前态逐字归档并压缩为当前入口，所有旧pins/关闭边界沿链保留；继续真实指定jet和κ–trace常数校准，不停在有限窗。

@@ -72,6 +72,8 @@
 
 - **R964（原逆特征CM族与完整热通道）**：[conductor2s逆族及原sigma混合导数](results/R964-inverse-conductor-two-s-CM-family-and-original-sigma-heat-channel.md)。完整原Jacobi源变号给H_(6a)^inv/η4=E4E6^(a−1)R̃_(a−1)(U)，整R̃；原CM处零函数的混合w导数恰12πiη4(x³+2Ω6)σ6。完整heat与原period给R̃_(a−1)(−1/1728)=−(6a)!(-864)^−a h_a/2。真实Θ_Q^r W_k=A^(r+1)H_(r+2)^inv对应同h的h_(i+2)，j≥1首p比较单位，j0端点保阶乘。未由高导数推出mark值相等，原公共因子/同h三因子非零仍开。SHA256 e468aa9e92435631fc688b29f518e0f1c6e71366c5b8d1f7faf5f7f6f2a4c461。
 
+- **R966（单一原CM核与准确临界jet）**：[conductor2s秩二核及原同h筛选](results/R966-single-conductor-two-s-CM-kernel-and-original-critical-jet.md)。两个真实平移乘子/完整五项空间给原K0=G0⊗H0+6F0⊗Y0，精确Π4∇²K0=−72F0⊗G0。先导数再取p−6阶jet，保λ³/Rq²得到原U_p(C)=Σ primitive·Legendre·fi gj C^(6i+4)；R959 B_p(C,X0)是明确单位乘U_p′，首p支撑上导数可逆。真正单源已接上，但该指定filtered jet非零仍开；未重做旧六秩addition或外推kernel非零。SHA256 9a55d001d8f3dacb1414f09be7aeebd9f03c95b3b7d286b56184c5221e755830。
+
 ## 当前原高度、函数与同标签接口
 
 - **R808（已证明）**：[原cuspidal Gram商与真实period/split/Howe链](results/R808-original-cuspidal-Gram-quotient-and-Howe-chain.md)。R727全部群元素的整Gram把原轨道格非退化约化商准确识别为Sym^(2r)det^(−r)，r=min(h−1,p−h)；原e0、Frob-Hermitian、Tζ平均像和N_h同时运输。位置Cartan与链内SL2严格区分，链中心规范与Hasse连接准确匹配；实际sigma原单项式仍经Kraw混合，同h配对非零未得。 SHA256 c24889c8d8407447dc38e14b583d002c289697b1b75376af7ea5348c4f6a03db。
