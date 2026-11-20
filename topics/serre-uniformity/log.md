@@ -686,3 +686,7 @@
 ### 2026-11-20 19:25 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
 - R958完整给原r2两向Cartier矩阵和唯一moment前像判据，原符号、Fr逆、全部SS/fine12保留；精确S^p=−216c_momℓ_N(R_F)，比较标量已证单位。
 - 目标moment是否非零仍开；继续实际Kummer/Hasse–Witt或原低高权比较，不重复旧窗，不混r8与中央Q′。
+
+### 2026-11-20 19:26 Asia/Taipei — serre-public-astra-20261120-de0a3e3b
+- R956完整证明原Bol紧支复形、Cartier边及指定SS插值，真实W收缩与完整留数给原高trace和固定低pair的准确常数；SS/cusp/Fr/原d1与mI均保留。
+- r2归于唯一插值的具体α非零，r8保完整M8与S10；继续真实divided Frobenius对象比较，未宣称原trace或同h单位全p成立。

@@ -85,6 +85,10 @@ $$
 
 真正原来源投影给PΩ=6ΦV、PZ=G/a^(rp)、PΨ=0，但P在SS有rp极点并杀W水平p次极部。[R953](results/R953-original-high-weight-boundary-complex-and-regular-projection.md)已完整计算该边界：正则π:E_r→ω^(pr)满足πW=6G，真实修改E_r+允许σ^r/A^p，原高权Serre类是Hasse序列的δ((G|SS)^(1/p))。它不依primitive选择，Igusa全配对准确为−B_r(V,H)/6，S=c_r B_r(V,F)，原mI(cF)^(1/p)/d1保全。正则剩余项的底Hodge系数为−6^r(r−1)!F_P/B_P，因此与含V_P的低权极部确实不同。p-curvature=−N及绝对F_*连接复形的cohomology sheaf给原F_r全局注入，保相对Frobenius twist与log cusp；这一步关闭，但注入也不迫指定高权边界评价非零。继续真实regular remainder、CM Cartier长链及低/高配对的实际关系。
 
+[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)已构造真实E_Bol=Sym^(r−1)H⊗F_X*ω紧支log连接，其Hodge消元为D_r:S_(p+1−r)→S_(p+r+1)，绝对F_*的H0/H1分别ω^(2−r)(−C)/ω^(r+2)(−C)。SS局部mI+at^pN与aN、cusp指数1..p全部证明自由秩一核/余核，无隐藏torsion。因此实际coker有0→H1ω^(2−r)(−C)→coker_Fr→S_(r+2)→0，左端Serre对偶M_r须保留。真实边映射K_rY由ρ^r Cartier(A^(r−1)YρKρ)定义，q系数严格y_pn^(1/p)，保原Q与角色。
+
+更强的原源比较是cσW=−6^r(r−1)!sF及完整留数恒等式〈zV,K_rY〉^p=6^r(r−1)!ΣF_PY_P/B_P²。取指定实际插值Y_F|SS=r!F^p/B^(p−r−1)，得S=6^(r−2)/r〈zV,K_rY_F〉与原λ=mI(cF)^(1/p)/(36d1r!)乘该pair；升换Y_F+A U不变因zV杀全低权U_low像。r2 M2(H6)=0、S4仅原δ+线，负δ插值唯一且K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)。因此原trace单位 iff α≠0，α零 iff实际反角色Cartier前像存在；这个具体α仍未判非零。r8必须保coker的M8左项和完整S10，实际K8Y_F在原CM线的分量仍待识别。后继只可把这个具体Cartier/插值操作与真实整CM晶体的divided Frobenius比较，不能由一般FL单位、抽象height2或R950低对角冒名完成。
+
 ## O4：原Abel零集、正秩像与真正高度
 
 R921/R924的实际整completed Hom、两节点极界、完整inertia和原a_h均已解决相应normal首层问题。中央p^−a_h G_h整restricted且最高项单位；几何开盘零数由最小单位下标决定，不是有理零数或height。

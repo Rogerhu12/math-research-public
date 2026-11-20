@@ -54,6 +54,8 @@
 
 - **R955（实际CM nilpotent部分的单奇链定理）**：[原Cartier单奇链与准确前像判据](results/R955-original-Cartier-nilpotent-packet-is-a-single-odd-chain.md)。从完整U5零primary及Cartier Fitting出发，用R952全kernel与R918/R942完整低权空间得kerC=kF；原λ杀两个可逆部分、在coker非零。故实际CM nilpotent部分恰一条L=2m+1链，原trace非零 iff L=1；失败 iff原W^-中有Cω=Φ_w(F)，最短坏链3。两δ在同一原H6、共轭仅中间mark，Norm与半线性全保；未排m≥1或证明whole饱和。SHA256 d4b1a6d4408c0ed7f51781188611c9b14adae46217dc756e7d6f28e82faf80f7。
 
+- **R956（原高权迹与固定低权Cartier边的准确比较）**：[原Bol复形及指定插值配对](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)。真实Sym^(r−1)H⊗F*ω紧支log复形给coker的完整M_r对偶/S_(r+2)两端，SS/cusp无torsion且保Fr扭曲；cσW准确识别原来源。指定Y_F|SS=r!F^p/B^(p−r−1)满足S=6^(r−2)/r〈zV,K_rY_F〉，原λ尺度为mI(cF)^(1/p)/(36d1r!)。r2唯一δ−插值及α=([Q^p]Y_F)^(1/p)把所需非零缩成具体标量；α仍待证，r8保完整左项，不冒低对角或中央Q′。SHA256 6f1208a3ef1825054ef1b3f48a20ab3b160007de0656bf5b39746f7868a2c5ed。
+
 - **R957（原Legendre滤子的固定极阶CM卷积核）**：[原同标签完整滤子与CM卷积](results/R957-original-Legendre-filter-as-a-fixed-pole-CM-convolution.md)。两Jacobi族同一正CM格点保原−s oldform系数；p−7角矩标记值准确为(3/2)(p−7)!·(−864)^(1−N)乘Σ(6i+4)fi gj C^(6i+3)。原Legendre平均在conic上化成七阶极点、显式六次K6与Δ^((p−13)/2)，全部退化值由多项式恒等式覆盖；λ⁴平均保完整本原mask。原三个因子同h非零等价所得marked polynomial非零，但该非零仍未证。SHA256 b9583df8363c0b9c4324ba43160e4756111cdcca20e74fca83e4ffddb84bd2be。
 
 - **R958（原r2完整Cartier矩阵与单矩判据）**：[两向全空间Cartier及原迹比较](results/R958-original-r2-Cartier-matrices-and-one-moment-trace-criterion.md)。新反角色L_-双对角算子给完整两向Fr逆矩阵，保同H6/原C负号/全SS权；整个双角色ker恰kF。真实前像 iff ℓ_N(−2D^(2N+1)β²C^p mod tH)=0；明确非零c_mom=Tr((3−2e0)DC/β²)及S^p=−216c_momℓ_N(R_F)准确连接原迹。只证线性比较标量单位，指定moment非零仍开；无新扫描、不外推r8/Q′。SHA256 61553ac826bd8e7f904efba85aca36bcccbfd635b743515f7e5b9e1b892b89f2。

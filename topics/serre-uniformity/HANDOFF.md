@@ -6,7 +6,7 @@
 
 **维护会话：serre-public-astra-20261120-de0a3e3b。** 已部分克隆并真实pull main，接手serre-public-astra-20261115。最新前态逐字在[H归档](handoff-archive-2026-11-20-before-conjugate-primitive.md)与[open归档](open-archive-2026-11-20-before-conjugate-primitive.md)，内接全部旧pins/公式/关闭边界。只消费已成来源，不重做已登记结论。
 
-**已读规则提交：090d0785401ef3c16ea2e40f61bf0fa3d6cfafcf**（2026-11-20T11:25:23.838541+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
+**已读规则提交：9685b950d87f579b41fee47aac1ba5271a42a58c**（2026-11-20T11:26:23.657689+00:00；终端真实git pull --rebase origin main，两README无diff）。相比b77de2c7仅根课题表新增held-10pct；两README完整已读。root SHA256 581402c2 / topic 35f82f3d。此前来源与原pins沿[旧归档](handoff-archive-2026-11-16-before-Igusa-Frobenius-residues.md)。
 
 每结论立即推；每push前且至少每小时真实pull。NFF立刻pull --rebase再推循环成功，禁force。每pull检查两README，有变只读diff并立即执行，SHA记此。PAT仅CLI，不入文件/提交，root独占main。新数学仅本公开仓库Actions；外部只纸证/IO/schema/hash/AST。raw不入Git/Release，本轮只/tmp和stdout。H<10KB、open<30KB、每MD<100KB、topic<200MB；log用Asia/Taipei≤5行，不写根LOG，不设额外审批/测试门。
 
@@ -26,7 +26,9 @@
 
 [R951](results/R951-Bol-concomitant-and-supersingular-obstruction-symmetry.md)：实际J_r=δO_r的完整SS配对ΣD_rH·H′/B²由显式Bol concomitant给(−1)^r对称性；原偶r为对称。命名F在两radical，不迫全packet消失；J零也只让O落M_r，非原R932泛函。
 
-[R947](results/R947-original-low-weight-conjugate-primitive-and-singular-Igusa-projection.md)给∇W=ΩV，完整水平极部−V_P B_P^(p−r−2)σ^r/((r+1)A^p)，原zV非零；R950证其指定低权对角全p非零。[R953](results/R953-original-high-weight-boundary-complex-and-regular-projection.md)用正则π:E_r→ω^(pr)、πW=6G和真实修改E_r+给高权边界δ((G|SS)^(1/p))，Igusa配对准确−1/6、原S=c_r B_r(V,F)。regular remainder底Hodge系数−6^r(r−1)!F_P/B_P；它不是低权极部。p-curvature=−N及曲线上cohomology sheaf谱列另证F_r注入，但高权指定边界评价仍未判非零。
+R947原W满足∇W=ΩV、全极部−V_PB^(p−r−2)σ^r/((r+1)A^p)，zV非零；R950低权指定对角全p单位。R953正则πW=6G/真实E_r+给原高权Hasse边界，保Igusa −1/6/全Norm，底Hodge正则剩余项−6^r(r−1)!F/B；p-curvature/谱列另证F_r注入。
+
+[R956](results/R956-original-trace-as-a-fixed-low-weight-Cartier-edge-pairing.md)现给原高低准确比较：E_Bol=Sym^(r−1)H⊗F*ω的紧支连接coker两端为H1ω^(2−r)(−C)与S_(r+2)，全部SS/cusp无torsion。真实K_rY由Cartier(A^(r−1)YρKρ)定义，原插值Y_F|SS=r!F^p/B^(p−r−1)。S=6^(r−2)/r·〈zV,K_rY_F〉，λ=mI(cF)^(1/p)/(36d1r!)乘此pair；cσW=−6^r(r−1)!sF确认同源。r2负δ插值唯一，K2Y_F=αV4、α=([Q^p]Y_F)^(1/p)；α≠0仍待证，r8保完整M8左项。继续真实divided Frobenius/Cartier比较，不用抽象低权单位替代。
 
 ## 已成来源与精确回执
 
