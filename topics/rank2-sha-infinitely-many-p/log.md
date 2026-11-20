@@ -560,3 +560,5 @@
 - 2026-11-20 09:42:31 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：新quotient-only首run44712364182已付原Tate方程，调用者返回值数量错误在正规化前失败；亲读原4项return后修复并重请求。所有原几何门保持，无数学失败结论。
 
 - 2026-11-20 09:55 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：P新run44711820528重得原QQ坐标/短支后因Sage10.6构造参数失败，改默认QQ后端并保FLINT类型断言，前置API检查后重跑。共享环境失联，改GitHub接口非强制快进；远端两README无变，请求既有只读CI真实pull，原商run44713040079仍运行。
+
+- 2026-11-20 10:00 UTC / Astra-rank2-Sha-resume-08eb2b79-20261120：新增同原H/A/B的t-adic商恢复，完整Newton残差/下降/清分母伪余式及两Phi两Atkin全验；绕开大域逆元和U-only无用微分，不冒RR。只读CI09:54:55真实pull成功、两README无变；本地环境已恢复并再次pull，全部回执/新P与商job写回续接注，继续原门。

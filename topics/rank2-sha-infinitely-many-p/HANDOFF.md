@@ -5,7 +5,7 @@
 ## 主目标与执行规则
 
 固定一条E/Q，完整证明rank≥2且无穷不同p的通常全Sha[p∞]有限。**未完成，持续研究；不因阶段结果、时长或等回复收尾。**
-- 最近实际部分克隆/pull及已读规则提交：`2d56baaaa5811d345ff2e70fcc5b26e44e3d4823`；2026-11-20 09:42:42 UTC 实际pull --rebase，两README相对72d8a043差异为空；下一次最迟10:42 UTC。本地09:49失联；09:55经GitHub接口核对远端`6de107b037d8e4811340ec6dcc784a4e1f7746c9`，两README无变，已请求既有只读CI实际pull。
+- 最近实际部分克隆/pull及已读规则提交：`d8c9260a1802010ce224f17a58e9a3819da18a0c`；2026-11-20 10:04:58 UTC 实际pull --rebase，两README相对2d56baaa差异为空；下一次最迟一小时内。
 - 仅写公开仓库main；每条完整结论即提交，推前pull --rebase，非快进循环；不强推、不存令牌。数学执行沿用公开Actions。重算输出不入库/Release、不分块，只存源/args/run/hash。
 - H<10KB，MD<100KB，open尽量<30KB，文件<5MB、题≤200MB；log每轮≤5行，不写根LOG。接手库存34,714,584B，旧完整交接保存在[接手档](notes/2026-11-20-handoff-before-resume-08eb2b79.md)。
 
@@ -17,9 +17,11 @@
 
 全部原Z角色/Euler/period/端点与R831符号保；7993只检测canonical。R858/859整shadow及固定ell检测不跨无穷p/ordinary。
 - **F已完整认证**：[R909§7](results/R909-original-F-small-prime-and-compatible-dixon-continuation.md)，run43906594646/job133436977753；ℓ1000003/N512，全1429行/QQ/原支/0..6120通过。原F17/微分/∞→O，dF≥1080；完整source/hash见该节。
-- **P未PASS**：旧R899P256 run43901392214/job133418654415及R906 run43903661921/job133426625444均结束137；QQ坐标hash358238d2…e7be67及原短支一致，高基4287项已扩，未得完整恒等式。新run44711820528/job136205139671重建同hash及原短支后因Sage10.6拒绝QQ显式FLINT参数失败；已改默认QQ后端并保类型断言、前置API检查，再请求同原0..4284全认证。
+- **P未PASS**：旧R899P256 run43901392214/job133418654415及R906 run43903661921/job133426625444均结束137；QQ坐标hash358238d2…e7be67及原短支一致，高基4287项已扩，未得完整恒等式。新run44711820528/job136205139671重建同hash/短支后因Sage10.6拒绝QQ显式FLINT参数失败；默认QQ后端及前置API检查已修，run44714703201/job136215000168重跑同原0..4284全认证。
 - **RR未PASS**：旧306/eta48/fricke24/tate24/tate19及R910/R919/R922均未到完整末端。接手亲读的七run/阶段/hash见[续接注](notes/2026-11-20-old-job-outcomes-and-exact-P-certificate.md)，旧原源见R910/919/922。R910/919卡在单原域逆元；旧geometry-first/R922也仍先作eta48微分逆元。新quotient-only首run44712364182/job136206970253在Tate全方程认证后因4返回值误读为2失败，已按原API修复，run44713040079/job136209307176运行中；继续在原D直接正规化/九尖点/Au/Av/branch/D0，不冒RR或U。
 - **全局q格已PASS**：[R917§8](results/R917-original-global-rr-lattice-from-saturated-q-jets.md)，run43919854829/job133483895189/source4519983a157b9d4ac2049b47cd8cb01c8bf478ce；ℓ29/120×205完整QQ基、单位固定子式/整变换/全约化秩/同S均过，2.549s。result5a1d6494…eb663b、RRjets765f854d…2b0fb。全部L(DS)已付，**degree48坐标/闭点/现有四块接口仍未付**。
+
+新增原U的t-adic商恢复：同一H/A/B先局部Newton、逐坐标有理恢复与下降，再以原Fp[t][X]全pseudo-remainder、两Phi/两Atkin验真；T逆元用原首一式，U-only不先算微分逆元。完整等价说明见续接注§5；尚无PASS，非RR/shadow结论。
 
 R880/883全18×9/双轴/除子/原A,C与返回保；Norm含ell²已过。consumer缺P/闭点，未请求；2256(r+1)成本不变。
 
